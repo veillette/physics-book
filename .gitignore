@@ -6,3 +6,4 @@
 /resources/*.txt
 /node_modules
 /zips
+/.jekyll-metadata
