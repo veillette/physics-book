@@ -18,12 +18,7 @@ author:
   name:           'Derived from Openstax'
   url:            https://github.com/openstax
 
-paginate:         5
-
 # Custom vars
 version:          10.1
 
 bookviewer:       https://philschatz.com/book-viewer
-
-
-theme: jekyll-theme-slate
