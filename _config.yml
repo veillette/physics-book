@@ -1,24 +1,23 @@
-
 # Dependencies
-markdown:         kramdown
+markdown: kramdown
 
 # Permalinks
 #permalink:        pretty
 
 # Setup
-title:            'Physics'
+title: 'Physics'
 
-url:              https://github.com/veillette/physics-book
+url: https://github.com/veillette/physics-book
 
-tagline:          'from http://cnx.org/contents/031da8d3-b525-429c-80cf-6c8ed997733a@10.1 (CC-BY)'
+tagline: 'from http://cnx.org/contents/031da8d3-b525-429c-80cf-6c8ed997733a@10.1 (CC-BY)'
 
-origin:           http://cnx.org/contents/031da8d3-b525-429c-80cf-6c8ed997733a@10.1
+origin: http://cnx.org/contents/031da8d3-b525-429c-80cf-6c8ed997733a@10.1
 
 author:
-  name:           'Derived from Openstax'
-  url:            https://github.com/openstax
+  name: 'Derived from Openstax'
+  url: https://github.com/openstax
 
 # Custom vars
-version:          10.1
+version: 10.1
 
-bookviewer:       https://philschatz.com/book-viewer
+bookviewer: https://philschatz.com/book-viewer
