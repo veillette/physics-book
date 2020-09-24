@@ -2,7 +2,7 @@
 markdown: kramdown
 
 # Permalinks
-#permalink:        pretty
+permalink: pretty
 
 # Setup
 title: 'Physics'
@@ -19,5 +19,3 @@ author:
 
 # Custom vars
 version: 10.1
-
-bookviewer: https://philschatz.com/book-viewer
