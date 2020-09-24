@@ -1,0 +1,1005 @@
+@import 'gitbook.css';
+
+.summary li:not(.visited) > .fa-check {
+  display: none !important;
+}
+
+.summary li.visited > .fa-check {
+  display: inline-block !important;
+  right: auto !important;
+  top: auto !important;
+}
+
+section.normal > .title {
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+.book.loading .book-title {
+  display: none;
+}
+
+.book:not(.loading) .book-spinner {
+  display: none;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal {
+  counter-reset: figure, note, exercise, example, table;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal img[alt^='QR'] {
+  display: none;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal *[data-type='abstract'] {
+  display: none;
+}
+
+/* When the URL refers to in-page elements make them stand out a bit */
+:target {
+  background-color: #ffd;
+}
+
+/* styles for tags page */
+.inline-list li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.inline-list li:not(:last-child):after {
+  content: ', ';
+}
+
+.list-entry li {
+  list-style-type: none;
+}
+
+.header-link {
+  position: absolute;
+  left: -1em;
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-in-out 0.1s;
+  -moz-transition: opacity 0.2s ease-in-out 0.1s;
+  -ms-transition: opacity 0.2s ease-in-out 0.1s;
+}
+
+h1:hover .header-link,
+h2:hover .header-link,
+h3:hover .header-link,
+h4:hover .header-link,
+h5:hover .header-link,
+h6:hover .header-link {
+  opacity: 1;
+  color: black !important;
+}
+
+.book .book-body .book-progress .bar {
+  height: 10px;
+}
+
+.book .book-body .page-wrapper .page-inner {
+  max-width: calc(100% - 250px);
+}
+
+.book .book-body .page-wrapper .page-inner figure {
+  display: table;
+  width: 100%;
+  counter-increment: figure;
+}
+
+.book .book-body .page-wrapper .page-inner figure > [data-type='title'] {
+  font-weight: bold;
+  font-size: small;
+}
+
+.book .book-body .page-wrapper .page-inner figure > figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  font-size: small;
+}
+
+.book .book-body .page-wrapper .page-inner figure > figcaption::before {
+  font-weight: bold;
+  content: 'Figure ' counter(figure) ': ';
+}
+
+.book .book-body .page-wrapper .page-inner ul:not([data-display='inline'])[data-bullet-style="pilcrow"] {
+  list-style-type: none;
+}
+
+.book .book-body .page-wrapper .page-inner ul:not([data-display='inline'])[data-bullet-style="pilcrow"] > li::before {
+  content: '\00b6';
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner ul:not([data-display='inline'])[data-bullet-style="rpilcrow"] {
+  list-style-type: none;
+}
+
+.book .book-body .page-wrapper .page-inner ul:not([data-display='inline'])[data-bullet-style="rpilcrow"] > li::before {
+  content: '\204b';
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner ul:not([data-display='inline'])[data-bullet-style="section"] {
+  list-style-type: none;
+}
+
+.book .book-body .page-wrapper .page-inner ul:not([data-display='inline'])[data-bullet-style="section"] > li::before {
+  content: '\00a7';
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner ul:not([data-display='inline'])[data-bullet-style="asterisk"] {
+  list-style-type: none;
+}
+
+.book .book-body .page-wrapper .page-inner ul:not([data-display='inline'])[data-bullet-style="asterisk"] > li::before {
+  content: '*';
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner ul:not([data-display='inline'])[data-bullet-style="dash"] {
+  list-style-type: none;
+}
+
+.book .book-body .page-wrapper .page-inner ul:not([data-display='inline'])[data-bullet-style="dash"] > li::before {
+  content: '-';
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner ul:not([data-display='inline'])[data-bullet-style="none"] {
+  list-style-type: none;
+}
+
+.book .book-body .page-wrapper .page-inner ul:not([data-display='inline'])[data-bullet-style="none"] > li::before {
+  content: none;
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner ul:not([data-display='inline'])[data-bullet-style="none"] {
+  list-style-type: none;
+}
+
+.book .book-body .page-wrapper .page-inner ul:not([data-display='inline'])[data-bullet-style="bullet"] {
+  list-style-type: disc;
+}
+
+.book .book-body .page-wrapper .page-inner ul:not([data-display='inline'])[data-bullet-style="open-circle"] {
+  list-style-type: circle;
+}
+
+.book .book-body .page-wrapper .page-inner ol:not([data-display='inline'])[data-number-style="none"] {
+  list-style-type: none;
+}
+
+.book .book-body .page-wrapper .page-inner ol:not([data-display='inline'])[data-number-style="arabic"] {
+  list-style-type: decimal;
+}
+
+.book .book-body .page-wrapper .page-inner ol:not([data-display='inline'])[data-number-style="upper-alpha"] {
+  list-style-type: upper-alpha;
+}
+
+.book .book-body .page-wrapper .page-inner ol:not([data-display='inline'])[data-number-style="lower-alpha"] {
+  list-style-type: lower-alpha;
+}
+
+.book .book-body .page-wrapper .page-inner ol:not([data-display='inline'])[data-number-style="upper-roman"] {
+  list-style-type: upper-roman;
+}
+
+.book .book-body .page-wrapper .page-inner ol:not([data-display='inline'])[data-number-style="lower-roman"] {
+  list-style-type: lower-roman;
+}
+
+.book .book-body .page-wrapper .page-inner ul[data-labeled-item] {
+  list-style-type: none;
+}
+
+.book .book-body .page-wrapper .page-inner ul[data-display='inline']:not([data-item-sep]) > .item:not(:last-child)::after {
+  content: '; ';
+}
+
+.book .book-body .page-wrapper .page-inner ul[data-display='inline'][data-item-sep] > .item:not(:last-child)::after {
+  content: '; ';
+}
+
+.book .book-body .page-wrapper .page-inner ul[data-display='inline'][data-bullet-style="pilcrow"] > .item::before {
+  content: '\00b6';
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner ul[data-display='inline'][data-bullet-style="rpilcrow"] > .item::before {
+  content: '\204b';
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner ul[data-display='inline'][data-bullet-style="section"] > .item::before {
+  content: '\00a7';
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner ul[data-display='inline'][data-bullet-style="asterisk"] > .item::before {
+  content: '*';
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner ul[data-display='inline'][data-bullet-style="dash"] > .item::before {
+  content: '-';
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner ul[data-display='inline'][data-bullet-style="none"] > .item::before {
+  content: none;
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner ul[data-display='inline'][data-bullet-style="bullet"] > .item::before {
+  content: '\25cf';
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner ul[data-display='inline'][data-bullet-style="open-circle"] > .item::before {
+  content: '\25cb';
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner ol[data-display='inline'] {
+  counter-reset: list-item;
+}
+
+.book .book-body .page-wrapper .page-inner ol[data-display='inline']:not([data-item-sep]) > .item:not(:last-child)::after {
+  content: '; ';
+}
+
+.book .book-body .page-wrapper .page-inner ol[data-display='inline'][data-item-sep] > .item:not(:last-child)::after {
+  content: '; ';
+}
+
+.book .book-body .page-wrapper .page-inner ol[data-display='inline'] > .item {
+  counter-increment: list-item;
+}
+
+.book .book-body .page-wrapper .page-inner ol[data-display='inline'][data-number-style="arabic"] > .item::before {
+  content: counter(list-item, decimal);
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner ol[data-display='inline'][data-number-style="upper-alpha"] > .item::before {
+  content: counter(list-item, upper-alpha);
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner ol[data-display='inline'][data-number-style="lower-alpha"] > .item::before {
+  content: counter(list-item, lower-alpha);
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner ol[data-display='inline'][data-number-style="upper-roman"] > .item::before {
+  content: counter(list-item, upper-roman);
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner ol[data-display='inline'][data-number-style="lower-roman"] > .item::before {
+  content: counter(list-item, lower-roman);
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner ul[data-labeled-item]:not([data-item-sep]) > .item:not(:last-child)::after {
+  content: '; ';
+}
+
+.book .book-body .page-wrapper .page-inner ul[data-labeled-item][data-item-sep] > .item:not(:last-child)::after {
+  content: '; ';
+}
+
+.book .book-body .page-wrapper .page-inner span.list[data-list-type='bulleted']:not([data-item-sep]) > .item:not(:last-child)::after {
+  content: '; ';
+}
+
+.book .book-body .page-wrapper .page-inner span.list[data-list-type='bulleted'][data-item-sep] > .item:not(:last-child)::after {
+  content: '; ';
+}
+
+.book .book-body .page-wrapper .page-inner span.list[data-list-type='bulleted'][data-bullet-style="pilcrow"] > .item::before {
+  content: '\00b6';
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner span.list[data-list-type='bulleted'][data-bullet-style="rpilcrow"] > .item::before {
+  content: '\204b';
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner span.list[data-list-type='bulleted'][data-bullet-style="section"] > .item::before {
+  content: '\00a7';
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner span.list[data-list-type='bulleted'][data-bullet-style="asterisk"] > .item::before {
+  content: '*';
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner span.list[data-list-type='bulleted'][data-bullet-style="dash"] > .item::before {
+  content: '-';
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner span.list[data-list-type='bulleted'][data-bullet-style="none"] > .item::before {
+  content: none;
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner span.list[data-list-type='bulleted'][data-bullet-style="bullet"] > .item::before {
+  content: '\25cf';
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner span.list[data-list-type='bulleted'][data-bullet-style="open-circle"] > .item::before {
+  content: '\25cb';
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner span.list[data-list-type='enumerated'] {
+  counter-reset: list-item;
+}
+
+.book .book-body .page-wrapper .page-inner span.list[data-list-type='enumerated']:not([data-item-sep]) > .item:not(:last-child)::after {
+  content: '; ';
+}
+
+.book .book-body .page-wrapper .page-inner span.list[data-list-type='enumerated'][data-item-sep] > .item:not(:last-child)::after {
+  content: '; ';
+}
+
+.book .book-body .page-wrapper .page-inner span.list[data-list-type='enumerated'] > .item {
+  counter-increment: list-item;
+}
+
+.book .book-body .page-wrapper .page-inner span.list[data-list-type='enumerated'][data-number-style="arabic"] > .item::before {
+  content: counter(list-item, decimal);
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner span.list[data-list-type='enumerated'][data-number-style="upper-alpha"] > .item::before {
+  content: counter(list-item, upper-alpha);
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner span.list[data-list-type='enumerated'][data-number-style="lower-alpha"] > .item::before {
+  content: counter(list-item, lower-alpha);
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner span.list[data-list-type='enumerated'][data-number-style="upper-roman"] > .item::before {
+  content: counter(list-item, upper-roman);
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner span.list[data-list-type='enumerated'][data-number-style="lower-roman"] > .item::before {
+  content: counter(list-item, lower-roman);
+  margin-right: 0.5em;
+}
+
+.book .book-body .page-wrapper .page-inner span.list[data-list-type='labeled-item']:not([data-item-sep]) > .item:not(:last-child)::after {
+  content: '; ';
+}
+
+.book .book-body .page-wrapper .page-inner span.list[data-list-type='labeled-item'][data-item-sep] > .item:not(:last-child)::after {
+  content: '; ';
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="note"],
+.book .book-body .page-wrapper .page-inner .note {
+  margin: 30px 6rem 0 6rem;
+  padding: 15px;
+  background-color: #ededed;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="note"]:not([data-label]).ui-has-child-title > header > [data-type="title"],
+.book .book-body .page-wrapper .page-inner .note:not([data-label]).ui-has-child-title > header > [data-type="title"],
+.book .book-body .page-wrapper .page-inner [data-type="note"]:not([data-label]).ui-has-child-title > [data-type="title"],
+.book .book-body .page-wrapper .page-inner .note:not([data-label]).ui-has-child-title > [data-type="title"],
+.book .book-body .page-wrapper .page-inner [data-type="note"]:not([data-label]).ui-has-child-title > header > .title,
+.book .book-body .page-wrapper .page-inner .note:not([data-label]).ui-has-child-title > header > .title,
+.book .book-body .page-wrapper .page-inner [data-type="note"]:not([data-label]).ui-has-child-title > .title,
+.book .book-body .page-wrapper .page-inner .note:not([data-label]).ui-has-child-title > .title {
+  display: inline-block;
+  color: #555555;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="note"]:not([data-label]).ui-has-child-title > header > [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner .note:not([data-label]).ui-has-child-title > header > [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="note"]:not([data-label]).ui-has-child-title > [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner .note:not([data-label]).ui-has-child-title > [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="note"]:not([data-label]).ui-has-child-title > header > .title::before,
+.book .book-body .page-wrapper .page-inner .note:not([data-label]).ui-has-child-title > header > .title::before,
+.book .book-body .page-wrapper .page-inner [data-type="note"]:not([data-label]).ui-has-child-title > .title::before,
+.book .book-body .page-wrapper .page-inner .note:not([data-label]).ui-has-child-title > .title::before {
+  content: 'Note: ';
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="note"]:not([data-label]):not(.ui-has-child-title)::before,
+.book .book-body .page-wrapper .page-inner .note:not([data-label]):not(.ui-has-child-title)::before {
+  display: inline-block;
+  color: #555555;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  content: 'Note';
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="note"][data-label=''].ui-has-child-title > header > [data-type="title"],
+.book .book-body .page-wrapper .page-inner .note[data-label=''].ui-has-child-title > header > [data-type="title"],
+.book .book-body .page-wrapper .page-inner [data-type="note"][data-label=''].ui-has-child-title > [data-type="title"],
+.book .book-body .page-wrapper .page-inner .note[data-label=''].ui-has-child-title > [data-type="title"],
+.book .book-body .page-wrapper .page-inner [data-type="note"][data-label=''].ui-has-child-title > header > .title,
+.book .book-body .page-wrapper .page-inner .note[data-label=''].ui-has-child-title > header > .title,
+.book .book-body .page-wrapper .page-inner [data-type="note"][data-label=''].ui-has-child-title > .title,
+.book .book-body .page-wrapper .page-inner .note[data-label=''].ui-has-child-title > .title {
+  display: inline-block;
+  color: #555555;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="note"][data-label='']:not(.ui-has-child-title)::before,
+.book .book-body .page-wrapper .page-inner .note[data-label='']:not(.ui-has-child-title)::before {
+  display: inline-block;
+  color: #555555;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="note"][data-label]:not([data-label='']).ui-has-child-title > header > [data-type="title"],
+.book .book-body .page-wrapper .page-inner .note[data-label]:not([data-label='']).ui-has-child-title > header > [data-type="title"],
+.book .book-body .page-wrapper .page-inner [data-type="note"][data-label]:not([data-label='']).ui-has-child-title > [data-type="title"],
+.book .book-body .page-wrapper .page-inner .note[data-label]:not([data-label='']).ui-has-child-title > [data-type="title"],
+.book .book-body .page-wrapper .page-inner [data-type="note"][data-label]:not([data-label='']).ui-has-child-title > header > .title,
+.book .book-body .page-wrapper .page-inner .note[data-label]:not([data-label='']).ui-has-child-title > header > .title,
+.book .book-body .page-wrapper .page-inner [data-type="note"][data-label]:not([data-label='']).ui-has-child-title > .title,
+.book .book-body .page-wrapper .page-inner .note[data-label]:not([data-label='']).ui-has-child-title > .title {
+  display: inline-block;
+  color: #555555;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="note"][data-label]:not([data-label='']).ui-has-child-title > header > [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner .note[data-label]:not([data-label='']).ui-has-child-title > header > [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="note"][data-label]:not([data-label='']).ui-has-child-title > [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner .note[data-label]:not([data-label='']).ui-has-child-title > [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="note"][data-label]:not([data-label='']).ui-has-child-title > header > .title::before,
+.book .book-body .page-wrapper .page-inner .note[data-label]:not([data-label='']).ui-has-child-title > header > .title::before,
+.book .book-body .page-wrapper .page-inner [data-type="note"][data-label]:not([data-label='']).ui-has-child-title > .title::before,
+.book .book-body .page-wrapper .page-inner .note[data-label]:not([data-label='']).ui-has-child-title > .title::before {
+  content: attr(data-label-parent) ': ';
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="note"][data-label]:not([data-label='']):not(.ui-has-child-title)::before,
+.book .book-body .page-wrapper .page-inner .note[data-label]:not([data-label='']):not(.ui-has-child-title)::before {
+  display: inline-block;
+  color: #555555;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  content: attr(data-label);
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="note"] > section,
+.book .book-body .page-wrapper .page-inner .note > section {
+  padding: 5px 15px;
+  border-top: 1px solid #555555;
+  background-color: #ededed;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="example"],
+.book .book-body .page-wrapper .page-inner .example {
+  margin-top: 30px;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="example"]:not([data-label]).ui-has-child-title > header > [data-type="title"],
+.book .book-body .page-wrapper .page-inner .example:not([data-label]).ui-has-child-title > header > [data-type="title"],
+.book .book-body .page-wrapper .page-inner [data-type="example"]:not([data-label]).ui-has-child-title > [data-type="title"],
+.book .book-body .page-wrapper .page-inner .example:not([data-label]).ui-has-child-title > [data-type="title"],
+.book .book-body .page-wrapper .page-inner [data-type="example"]:not([data-label]).ui-has-child-title > header > .title,
+.book .book-body .page-wrapper .page-inner .example:not([data-label]).ui-has-child-title > header > .title,
+.book .book-body .page-wrapper .page-inner [data-type="example"]:not([data-label]).ui-has-child-title > .title,
+.book .book-body .page-wrapper .page-inner .example:not([data-label]).ui-has-child-title > .title {
+  display: inline-block;
+  padding: 0.1em 1em;
+  font-weight: bold;
+  color: #ededed;
+  background-color: #555555;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="example"]:not([data-label]).ui-has-child-title > header > [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner .example:not([data-label]).ui-has-child-title > header > [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="example"]:not([data-label]).ui-has-child-title > [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner .example:not([data-label]).ui-has-child-title > [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="example"]:not([data-label]).ui-has-child-title > header > .title::before,
+.book .book-body .page-wrapper .page-inner .example:not([data-label]).ui-has-child-title > header > .title::before,
+.book .book-body .page-wrapper .page-inner [data-type="example"]:not([data-label]).ui-has-child-title > .title::before,
+.book .book-body .page-wrapper .page-inner .example:not([data-label]).ui-has-child-title > .title::before {
+  content: 'Example: ';
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="example"]:not([data-label]):not(.ui-has-child-title)::before,
+.book .book-body .page-wrapper .page-inner .example:not([data-label]):not(.ui-has-child-title)::before {
+  display: inline-block;
+  padding: 0.1em 1em;
+  font-weight: bold;
+  color: #ededed;
+  background-color: #555555;
+  content: 'Example';
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-label=''].ui-has-child-title > header > [data-type="title"],
+.book .book-body .page-wrapper .page-inner .example[data-label=''].ui-has-child-title > header > [data-type="title"],
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-label=''].ui-has-child-title > [data-type="title"],
+.book .book-body .page-wrapper .page-inner .example[data-label=''].ui-has-child-title > [data-type="title"],
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-label=''].ui-has-child-title > header > .title,
+.book .book-body .page-wrapper .page-inner .example[data-label=''].ui-has-child-title > header > .title,
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-label=''].ui-has-child-title > .title,
+.book .book-body .page-wrapper .page-inner .example[data-label=''].ui-has-child-title > .title {
+  display: inline-block;
+  padding: 0.1em 1em;
+  font-weight: bold;
+  color: #ededed;
+  background-color: #555555;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-label='']:not(.ui-has-child-title)::before,
+.book .book-body .page-wrapper .page-inner .example[data-label='']:not(.ui-has-child-title)::before {
+  display: inline-block;
+  padding: 0.1em 1em;
+  font-weight: bold;
+  color: #ededed;
+  background-color: #555555;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-label]:not([data-label='']).ui-has-child-title > header > [data-type="title"],
+.book .book-body .page-wrapper .page-inner .example[data-label]:not([data-label='']).ui-has-child-title > header > [data-type="title"],
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-label]:not([data-label='']).ui-has-child-title > [data-type="title"],
+.book .book-body .page-wrapper .page-inner .example[data-label]:not([data-label='']).ui-has-child-title > [data-type="title"],
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-label]:not([data-label='']).ui-has-child-title > header > .title,
+.book .book-body .page-wrapper .page-inner .example[data-label]:not([data-label='']).ui-has-child-title > header > .title,
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-label]:not([data-label='']).ui-has-child-title > .title,
+.book .book-body .page-wrapper .page-inner .example[data-label]:not([data-label='']).ui-has-child-title > .title {
+  display: inline-block;
+  padding: 0.1em 1em;
+  font-weight: bold;
+  color: #ededed;
+  background-color: #555555;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-label]:not([data-label='']).ui-has-child-title > header > [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner .example[data-label]:not([data-label='']).ui-has-child-title > header > [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-label]:not([data-label='']).ui-has-child-title > [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner .example[data-label]:not([data-label='']).ui-has-child-title > [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-label]:not([data-label='']).ui-has-child-title > header > .title::before,
+.book .book-body .page-wrapper .page-inner .example[data-label]:not([data-label='']).ui-has-child-title > header > .title::before,
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-label]:not([data-label='']).ui-has-child-title > .title::before,
+.book .book-body .page-wrapper .page-inner .example[data-label]:not([data-label='']).ui-has-child-title > .title::before {
+  content: attr(data-label-parent) ': ';
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-label]:not([data-label='']):not(.ui-has-child-title)::before,
+.book .book-body .page-wrapper .page-inner .example[data-label]:not([data-label='']):not(.ui-has-child-title)::before {
+  display: inline-block;
+  padding: 0.1em 1em;
+  font-weight: bold;
+  color: #ededed;
+  background-color: #555555;
+  content: attr(data-label);
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="example"] > section,
+.book .book-body .page-wrapper .page-inner .example > section {
+  padding: 5px 15px;
+  border-top: 1px solid #555555;
+  background-color: #ededed;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="exercise"],
+.book .book-body .page-wrapper .page-inner .exercise {
+  margin-top: 30px;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="exercise"]:not([data-label]).ui-has-child-title > header > [data-type="title"],
+.book .book-body .page-wrapper .page-inner .exercise:not([data-label]).ui-has-child-title > header > [data-type="title"],
+.book .book-body .page-wrapper .page-inner [data-type="exercise"]:not([data-label]).ui-has-child-title > [data-type="title"],
+.book .book-body .page-wrapper .page-inner .exercise:not([data-label]).ui-has-child-title > [data-type="title"],
+.book .book-body .page-wrapper .page-inner [data-type="exercise"]:not([data-label]).ui-has-child-title > header > .title,
+.book .book-body .page-wrapper .page-inner .exercise:not([data-label]).ui-has-child-title > header > .title,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"]:not([data-label]).ui-has-child-title > .title,
+.book .book-body .page-wrapper .page-inner .exercise:not([data-label]).ui-has-child-title > .title {
+  display: inline-block;
+  padding: 0.1em 1em;
+  font-weight: bold;
+  color: #ededed;
+  background-color: #555555;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="exercise"]:not([data-label]).ui-has-child-title > header > [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner .exercise:not([data-label]).ui-has-child-title > header > [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"]:not([data-label]).ui-has-child-title > [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner .exercise:not([data-label]).ui-has-child-title > [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"]:not([data-label]).ui-has-child-title > header > .title::before,
+.book .book-body .page-wrapper .page-inner .exercise:not([data-label]).ui-has-child-title > header > .title::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"]:not([data-label]).ui-has-child-title > .title::before,
+.book .book-body .page-wrapper .page-inner .exercise:not([data-label]).ui-has-child-title > .title::before {
+  content: 'Exercise: ';
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="exercise"]:not([data-label]):not(.ui-has-child-title)::before,
+.book .book-body .page-wrapper .page-inner .exercise:not([data-label]):not(.ui-has-child-title)::before {
+  display: inline-block;
+  padding: 0.1em 1em;
+  font-weight: bold;
+  color: #ededed;
+  background-color: #555555;
+  content: 'Exercise';
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-label=''].ui-has-child-title > header > [data-type="title"],
+.book .book-body .page-wrapper .page-inner .exercise[data-label=''].ui-has-child-title > header > [data-type="title"],
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-label=''].ui-has-child-title > [data-type="title"],
+.book .book-body .page-wrapper .page-inner .exercise[data-label=''].ui-has-child-title > [data-type="title"],
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-label=''].ui-has-child-title > header > .title,
+.book .book-body .page-wrapper .page-inner .exercise[data-label=''].ui-has-child-title > header > .title,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-label=''].ui-has-child-title > .title,
+.book .book-body .page-wrapper .page-inner .exercise[data-label=''].ui-has-child-title > .title {
+  display: inline-block;
+  padding: 0.1em 1em;
+  font-weight: bold;
+  color: #ededed;
+  background-color: #555555;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-label='']:not(.ui-has-child-title)::before,
+.book .book-body .page-wrapper .page-inner .exercise[data-label='']:not(.ui-has-child-title)::before {
+  display: inline-block;
+  padding: 0.1em 1em;
+  font-weight: bold;
+  color: #ededed;
+  background-color: #555555;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-label]:not([data-label='']).ui-has-child-title > header > [data-type="title"],
+.book .book-body .page-wrapper .page-inner .exercise[data-label]:not([data-label='']).ui-has-child-title > header > [data-type="title"],
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-label]:not([data-label='']).ui-has-child-title > [data-type="title"],
+.book .book-body .page-wrapper .page-inner .exercise[data-label]:not([data-label='']).ui-has-child-title > [data-type="title"],
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-label]:not([data-label='']).ui-has-child-title > header > .title,
+.book .book-body .page-wrapper .page-inner .exercise[data-label]:not([data-label='']).ui-has-child-title > header > .title,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-label]:not([data-label='']).ui-has-child-title > .title,
+.book .book-body .page-wrapper .page-inner .exercise[data-label]:not([data-label='']).ui-has-child-title > .title {
+  display: inline-block;
+  padding: 0.1em 1em;
+  font-weight: bold;
+  color: #ededed;
+  background-color: #555555;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-label]:not([data-label='']).ui-has-child-title > header > [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner .exercise[data-label]:not([data-label='']).ui-has-child-title > header > [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-label]:not([data-label='']).ui-has-child-title > [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner .exercise[data-label]:not([data-label='']).ui-has-child-title > [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-label]:not([data-label='']).ui-has-child-title > header > .title::before,
+.book .book-body .page-wrapper .page-inner .exercise[data-label]:not([data-label='']).ui-has-child-title > header > .title::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-label]:not([data-label='']).ui-has-child-title > .title::before,
+.book .book-body .page-wrapper .page-inner .exercise[data-label]:not([data-label='']).ui-has-child-title > .title::before {
+  content: attr(data-label-parent) ': ';
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-label]:not([data-label='']):not(.ui-has-child-title)::before,
+.book .book-body .page-wrapper .page-inner .exercise[data-label]:not([data-label='']):not(.ui-has-child-title)::before {
+  display: inline-block;
+  padding: 0.1em 1em;
+  font-weight: bold;
+  color: #ededed;
+  background-color: #555555;
+  content: attr(data-label);
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="exercise"] > section,
+.book .book-body .page-wrapper .page-inner .exercise > section {
+  padding: 5px 15px;
+  border-top: 1px solid #555555;
+  background-color: #ededed;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="example"] [data-type="problem"],
+.book .book-body .page-wrapper .page-inner [data-type="exercise"] [data-type="problem"],
+.book .book-body .page-wrapper .page-inner .example [data-type="problem"],
+.book .book-body .page-wrapper .page-inner .exercise [data-type="problem"],
+.book .book-body .page-wrapper .page-inner [data-type="example"] [data-type="solution"],
+.book .book-body .page-wrapper .page-inner [data-type="exercise"] [data-type="solution"],
+.book .book-body .page-wrapper .page-inner .example [data-type="solution"],
+.book .book-body .page-wrapper .page-inner .exercise [data-type="solution"],
+.book .book-body .page-wrapper .page-inner [data-type="example"] .problem,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"] .problem,
+.book .book-body .page-wrapper .page-inner .example .problem,
+.book .book-body .page-wrapper .page-inner .exercise .problem,
+.book .book-body .page-wrapper .page-inner [data-type="example"] .solution,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"] .solution,
+.book .book-body .page-wrapper .page-inner .example .solution,
+.book .book-body .page-wrapper .page-inner .exercise .solution {
+  padding: 0.5em 1em;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="example"] [data-type="solution"],
+.book .book-body .page-wrapper .page-inner [data-type="exercise"] [data-type="solution"],
+.book .book-body .page-wrapper .page-inner .example [data-type="solution"],
+.book .book-body .page-wrapper .page-inner .exercise [data-type="solution"],
+.book .book-body .page-wrapper .page-inner [data-type="example"] .solution,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"] .solution,
+.book .book-body .page-wrapper .page-inner .example .solution,
+.book .book-body .page-wrapper .page-inner .exercise .solution {
+  border-top: 1px solid #555555;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="example"] [data-type="solution"] > .ui-toggle-wrapper,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"] [data-type="solution"] > .ui-toggle-wrapper,
+.book .book-body .page-wrapper .page-inner .example [data-type="solution"] > .ui-toggle-wrapper,
+.book .book-body .page-wrapper .page-inner .exercise [data-type="solution"] > .ui-toggle-wrapper,
+.book .book-body .page-wrapper .page-inner [data-type="example"] .solution > .ui-toggle-wrapper,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"] .solution > .ui-toggle-wrapper,
+.book .book-body .page-wrapper .page-inner .example .solution > .ui-toggle-wrapper,
+.book .book-body .page-wrapper .page-inner .exercise .solution > .ui-toggle-wrapper {
+  text-align: center;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="example"] [data-type="solution"] > .ui-toggle-wrapper > .ui-toggle,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"] [data-type="solution"] > .ui-toggle-wrapper > .ui-toggle,
+.book .book-body .page-wrapper .page-inner .example [data-type="solution"] > .ui-toggle-wrapper > .ui-toggle,
+.book .book-body .page-wrapper .page-inner .exercise [data-type="solution"] > .ui-toggle-wrapper > .ui-toggle,
+.book .book-body .page-wrapper .page-inner [data-type="example"] .solution > .ui-toggle-wrapper > .ui-toggle,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"] .solution > .ui-toggle-wrapper > .ui-toggle,
+.book .book-body .page-wrapper .page-inner .example .solution > .ui-toggle-wrapper > .ui-toggle,
+.book .book-body .page-wrapper .page-inner .exercise .solution > .ui-toggle-wrapper > .ui-toggle {
+  outline: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="example"] [data-type="solution"]:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"] [data-type="solution"]:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before,
+.book .book-body .page-wrapper .page-inner .example [data-type="solution"]:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before,
+.book .book-body .page-wrapper .page-inner .exercise [data-type="solution"]:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before,
+.book .book-body .page-wrapper .page-inner [data-type="example"] .solution:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"] .solution:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before,
+.book .book-body .page-wrapper .page-inner .example .solution:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before,
+.book .book-body .page-wrapper .page-inner .exercise .solution:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before {
+  content: '[Show Solution]';
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="example"] [data-type="solution"]:not(.ui-solution-visible) > section,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"] [data-type="solution"]:not(.ui-solution-visible) > section,
+.book .book-body .page-wrapper .page-inner .example [data-type="solution"]:not(.ui-solution-visible) > section,
+.book .book-body .page-wrapper .page-inner .exercise [data-type="solution"]:not(.ui-solution-visible) > section,
+.book .book-body .page-wrapper .page-inner [data-type="example"] .solution:not(.ui-solution-visible) > section,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"] .solution:not(.ui-solution-visible) > section,
+.book .book-body .page-wrapper .page-inner .example .solution:not(.ui-solution-visible) > section,
+.book .book-body .page-wrapper .page-inner .exercise .solution:not(.ui-solution-visible) > section {
+  display: none;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="example"] [data-type="solution"].ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"] [data-type="solution"].ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before,
+.book .book-body .page-wrapper .page-inner .example [data-type="solution"].ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before,
+.book .book-body .page-wrapper .page-inner .exercise [data-type="solution"].ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before,
+.book .book-body .page-wrapper .page-inner [data-type="example"] .solution.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"] .solution.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before,
+.book .book-body .page-wrapper .page-inner .example .solution.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before,
+.book .book-body .page-wrapper .page-inner .exercise .solution.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before {
+  content: '[Hide Solution]';
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="example"].check-understanding [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"].check-understanding [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner .example.check-understanding [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner .exercise.check-understanding [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-type=check-understanding] .title::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-type=check-understanding] .title::before,
+.book .book-body .page-wrapper .page-inner .example[data-type=check-understanding] .title::before,
+.book .book-body .page-wrapper .page-inner .exercise[data-type=check-understanding] .title::before {
+  margin-right: 0;
+  content: "";
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="example"].conceptual-questions [data-type="problem"],
+.book .book-body .page-wrapper .page-inner [data-type="exercise"].conceptual-questions [data-type="problem"],
+.book .book-body .page-wrapper .page-inner .example.conceptual-questions [data-type="problem"],
+.book .book-body .page-wrapper .page-inner .exercise.conceptual-questions [data-type="problem"],
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-type=conceptual-questions] .problem,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-type=conceptual-questions] .problem,
+.book .book-body .page-wrapper .page-inner .example[data-type=conceptual-questions] .problem,
+.book .book-body .page-wrapper .page-inner .exercise[data-type=conceptual-questions] .problem {
+  border-top: none;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="example"].conceptual-questions [data-type="problem"] p,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"].conceptual-questions [data-type="problem"] p,
+.book .book-body .page-wrapper .page-inner .example.conceptual-questions [data-type="problem"] p,
+.book .book-body .page-wrapper .page-inner .exercise.conceptual-questions [data-type="problem"] p,
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-type=conceptual-questions] .problem p,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-type=conceptual-questions] .problem p,
+.book .book-body .page-wrapper .page-inner .example[data-type=conceptual-questions] .problem p,
+.book .book-body .page-wrapper .page-inner .exercise[data-type=conceptual-questions] .problem p {
+  margin: 0;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="example"].problems-exercises [data-type="problem"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"].problems-exercises [data-type="problem"]::before,
+.book .book-body .page-wrapper .page-inner .example.problems-exercises [data-type="problem"]::before,
+.book .book-body .page-wrapper .page-inner .exercise.problems-exercises [data-type="problem"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-type=problems-exercises] [data-type="problem"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-type=problems-exercises] [data-type="problem"]::before,
+.book .book-body .page-wrapper .page-inner .example[data-type=problems-exercises] [data-type="problem"]::before,
+.book .book-body .page-wrapper .page-inner .exercise[data-type=problems-exercises] [data-type="problem"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="example"].problems-exercises [data-type="solution"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"].problems-exercises [data-type="solution"]::before,
+.book .book-body .page-wrapper .page-inner .example.problems-exercises [data-type="solution"]::before,
+.book .book-body .page-wrapper .page-inner .exercise.problems-exercises [data-type="solution"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-type=problems-exercises] [data-type="solution"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-type=problems-exercises] [data-type="solution"]::before,
+.book .book-body .page-wrapper .page-inner .example[data-type=problems-exercises] [data-type="solution"]::before,
+.book .book-body .page-wrapper .page-inner .exercise[data-type=problems-exercises] [data-type="solution"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="example"].problems-exercises .problem::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"].problems-exercises .problem::before,
+.book .book-body .page-wrapper .page-inner .example.problems-exercises .problem::before,
+.book .book-body .page-wrapper .page-inner .exercise.problems-exercises .problem::before,
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-type=problems-exercises] .problem::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-type=problems-exercises] .problem::before,
+.book .book-body .page-wrapper .page-inner .example[data-type=problems-exercises] .problem::before,
+.book .book-body .page-wrapper .page-inner .exercise[data-type=problems-exercises] .problem::before,
+.book .book-body .page-wrapper .page-inner [data-type="example"].problems-exercises .solution::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"].problems-exercises .solution::before,
+.book .book-body .page-wrapper .page-inner .example.problems-exercises .solution::before,
+.book .book-body .page-wrapper .page-inner .exercise.problems-exercises .solution::before,
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-type=problems-exercises] .solution::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-type=problems-exercises] .solution::before,
+.book .book-body .page-wrapper .page-inner .example[data-type=problems-exercises] .solution::before,
+.book .book-body .page-wrapper .page-inner .exercise[data-type=problems-exercises] .solution::before {
+  font-weight: bold;
+  color: #555555;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="example"].problems-exercises [data-type="problem"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"].problems-exercises [data-type="problem"]::before,
+.book .book-body .page-wrapper .page-inner .example.problems-exercises [data-type="problem"]::before,
+.book .book-body .page-wrapper .page-inner .exercise.problems-exercises [data-type="problem"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-type=problems-exercises] [data-type="problem"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-type=problems-exercises] [data-type="problem"]::before,
+.book .book-body .page-wrapper .page-inner .example[data-type=problems-exercises] [data-type="problem"]::before,
+.book .book-body .page-wrapper .page-inner .exercise[data-type=problems-exercises] [data-type="problem"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="example"].problems-exercises .problem::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"].problems-exercises .problem::before,
+.book .book-body .page-wrapper .page-inner .example.problems-exercises .problem::before,
+.book .book-body .page-wrapper .page-inner .exercise.problems-exercises .problem::before,
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-type=problems-exercises] .problem::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-type=problems-exercises] .problem::before,
+.book .book-body .page-wrapper .page-inner .example[data-type=problems-exercises] .problem::before,
+.book .book-body .page-wrapper .page-inner .exercise[data-type=problems-exercises] .problem::before {
+  content: "Problem";
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="example"].problems-exercises [data-type="solution"]::before .solution::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"].problems-exercises [data-type="solution"]::before .solution::before,
+.book .book-body .page-wrapper .page-inner .example.problems-exercises [data-type="solution"]::before .solution::before,
+.book .book-body .page-wrapper .page-inner .exercise.problems-exercises [data-type="solution"]::before .solution::before,
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-type=problems-exercises] [data-type="solution"]::before .solution::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-type=problems-exercises] [data-type="solution"]::before .solution::before,
+.book .book-body .page-wrapper .page-inner .example[data-type=problems-exercises] [data-type="solution"]::before .solution::before,
+.book .book-body .page-wrapper .page-inner .exercise[data-type=problems-exercises] [data-type="solution"]::before .solution::before {
+  content: "Solution";
+}
+
+.book.with-summary .book-body {
+  left: 350px;
+}
+
+.book.with-summary .book-summary {
+  width: 350px;
+}
+
+.book.with-summary .toggle-summary {
+  background-color: #fafafa;
+}
+
+.book .book-summary {
+  background-color: #fafafa;
+}
+
+.book .book-summary.search-results-show li:not(.search-result) {
+  height: 0;
+  padding: 0;
+}
+
+.book .book-summary.search-results-show li:not(.search-result) > i.fa.fa-check {
+  display: none !important;
+}
+
+.book .book-summary ul.summary {
+  counter-reset: chapter;
+}
+
+.book .book-summary ul.summary li.part {
+  font-size: 130%;
+  font-weight: bold;
+  color: black;
+  padding-left: 15px;
+}
+
+.book .book-summary ul.summary li.part > ol {
+  font-size: 70%;
+  font-weight: normal;
+}
+
+.book .book-summary ul.summary ol {
+  padding: 0;
+}
+
+.book .book-summary ul.summary li {
+  padding: 10px 0px;
+  list-style-type: none;
+  /* Add ellipses if the title is long */
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+
+.book .book-summary ul.summary li > a {
+  display: inline !important;
+}
+
+.book .book-summary ul.summary li::before {
+  font-weight: bold;
+}
+
+.book .book-summary ul.summary li.chapter {
+  counter-increment: chapter;
+  counter-reset: section;
+}
+
+.book .book-summary ul.summary li.chapter::before {
+  content: counter(chapter) '. ';
+  color: black;
+  font-weight: bold;
+  font-size: 120%;
+  padding-left: 1em;
+}
+
+.book .book-summary ul.summary li.chapter > a {
+  font-size: 120%;
+}
+
+.book .book-summary ul.summary li.chapter > ol > li {
+  counter-increment: section;
+}
+
+.book .book-summary ul.summary li.chapter > ol > li::before {
+  content: counter(chapter) '.' counter(section) ' ';
+  color: black;
+  font-weight: bold;
+  padding-left: 2em;
+}
+
+.page {
+  counter-reset: figure;
+}
+
+cnx-pi {
+  display: none;
+}
