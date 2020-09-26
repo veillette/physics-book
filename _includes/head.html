@@ -15,9 +15,11 @@
 
   <!-- CSS -->
   <!--<link rel="stylesheet" href="{{ site.bookviewer }}/dist/book-viewer.css"> -->
-  <link
-      href="/assets/css/gitbook.css"
-      rel="stylesheet">
+  <link href="{{'/assets'| relative_css }}/css/gitbook.css" rel="stylesheet">
+
+  <!-- For styles with static names... -->
+  <link href="{{ '/assets' | relative_css }}/css/style.css" rel="stylesheet">
+
   <link
       href="/assets/css/styles.css"
       rel="stylesheet">
