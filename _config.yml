@@ -21,4 +21,4 @@ version: 11.1
 
 bookviewer: https://philschatz.com/book-viewer
 relative_assets: https://veillette.github.io/physics-book/assets
-relative_js: https://veillette.github.io/physics-book/assets/js/book-viewer.js
+relativeJs: https://veillette.github.io/physics-book/assets/js/book-viewer.js
