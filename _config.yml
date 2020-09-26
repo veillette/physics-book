@@ -7,7 +7,7 @@ markdown: kramdown
 # Setup
 title: 'Physics'
 tagline: 'from http://cnx.org/contents/031da8d3-b525-429c-80cf-6c8ed997733a@11.1 (CC-BY)'
-url: https://github.com/philschatz/physics-book
+url: https://github.com/veillette/physics-book
 origin: http://cnx.org/contents/031da8d3-b525-429c-80cf-6c8ed997733a@11.1
 
 author:
