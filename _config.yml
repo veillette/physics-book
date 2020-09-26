@@ -10,6 +10,8 @@ tagline: 'from http://cnx.org/contents/031da8d3-b525-429c-80cf-6c8ed997733a@11.1
 url: https://github.com/veillette/physics-book
 origin: http://cnx.org/contents/031da8d3-b525-429c-80cf-6c8ed997733a@11.1
 
+baseurl: /physics-book
+
 author:
   name: 'Openstax'
   url: https://github.com/openstax
