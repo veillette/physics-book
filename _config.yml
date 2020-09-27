@@ -1,22 +1,17 @@
 # Dependencies
 markdown: kramdown
 
-# Permalinks
-#permalink:        pretty
-
 # Setup
 title: 'College Physics'
 tagline: 'https://cnx.org/contents/MrHT-Gyx@5.43:HR_VN3f7@5/Introduction-to-Science-and-the-Realm-of-Physics-Physical-Quantities-and-Units'
 url: https://github.com/veillette/physics-book
 origin: https://cnx.org/contents/MrHT-Gyx@5.43:HR_VN3f7@5/Introduction-to-Science-and-the-Realm-of-Physics-Physical-Quantities-and-Units
 
-# baseurl: /physics-book
-
 author:
   name: 'Openstax'
   url: https://github.com/openstax
 
-#paginate:         5
+paginate: 5
 
 # Custom vars
 version: 11.1
