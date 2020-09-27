@@ -5,12 +5,12 @@ markdown: kramdown
 #permalink:        pretty
 
 # Setup
-title: 'Physics'
-tagline: 'from http://cnx.org/contents/031da8d3-b525-429c-80cf-6c8ed997733a@11.1 (CC-BY)'
+title: 'College Physics'
+tagline: 'https://cnx.org/contents/MrHT-Gyx@5.43:HR_VN3f7@5/Introduction-to-Science-and-the-Realm-of-Physics-Physical-Quantities-and-Units'
 url: https://github.com/veillette/physics-book
-origin: http://cnx.org/contents/031da8d3-b525-429c-80cf-6c8ed997733a@11.1
+origin: https://cnx.org/contents/MrHT-Gyx@5.43:HR_VN3f7@5/Introduction-to-Science-and-the-Realm-of-Physics-Physical-Quantities-and-Units
 
-baseurl: /physics-book
+# baseurl: /physics-book
 
 author:
   name: 'Openstax'
@@ -20,7 +20,3 @@ author:
 
 # Custom vars
 version: 11.1
-
-bookviewer: https://philschatz.com/book-viewer
-relative_assets: https://veillette.github.io/physics-book/assets
-relativeJs: https://veillette.github.io/physics-book/assets/js/book-viewer.js
