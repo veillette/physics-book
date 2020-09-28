@@ -1,8 +1,3 @@
----
----
-
-@import 'gitbook.css';
-
 .summary li:not(.visited) > .fa-check {
   display: none !important;
 }
@@ -1003,6 +998,6 @@ h6:hover .header-link {
   counter-reset: figure;
 }
 
-cnx-pi {
+.cnx-pi {
   display: none;
 }
