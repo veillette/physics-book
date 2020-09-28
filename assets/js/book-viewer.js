@@ -372,45 +372,6 @@
       changePage( href );
       return evt.preventDefault();
     } );
-    if ( BookConfig.searchIndex ) {
-      return $.getJSON( BookConfig.searchIndex ).then( function( index ) {
-        searchIndex = lunr.Index.load( index );
-        $bookSearchInput.removeClass( 'disabled' );
-        $toggleSearch.on( 'click', function( evt ) {
-          if ( $book.hasClass( 'with-search' ) ) {
-            $bookSummary.removeClass( 'search-results-show' );
-            $bookSummary.find( '.search-result' ).removeClass( 'search-result' );
-            $bookSearchInput.val( '' );
-          }
-          else {
-            $book.addClass( 'with-summary' );
-            $bookSearchInput.focus();
-          }
-          $book.toggleClass( 'with-search' );
-          return evt.preventDefault();
-        } );
-        return $bookSearchInput.on( 'keyup', function() {
-          var $li, query, result, results, _i, _len, _results;
-          query = $bookSearchInput.val();
-          if ( !query ) {
-            $bookSummary.removeClass( 'search-results-show' );
-            $bookSummary.find( '.search-result' ).removeClass( 'search-result' );
-            return;
-          }
-          results = searchIndex.search( query );
-          $bookSummary.addClass( 'search-results-show' );
-          $bookSummary.find( '.search-result' ).removeClass( 'search-result' );
-          _results = [];
-          for ( _i = 0, _len = results.length; _i < _len; _i++ ) {
-            result = results[ _i ];
-            $li = $bookSummary.find( "a[href$='" + result.ref + "']" ).parent();
-            $li.addClass( 'search-result' );
-            _results.push( $li.parentsUntil( $bookSummary ).addClass( 'search-result' ) );
-          }
-          return _results;
-        } );
-      } );
-    }
   } );
 
 } ).call( this );
