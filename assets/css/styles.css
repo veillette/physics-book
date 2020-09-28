@@ -955,7 +955,7 @@ h6:hover .header-link {
 }
 
 .book .book-summary ul.summary li {
-  padding: 10px 0px;
+  padding: 10px 0;
   list-style-type: none;
   /* Add ellipses if the title is long */
   white-space: nowrap;
