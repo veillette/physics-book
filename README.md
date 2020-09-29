@@ -1,11 +1,19 @@
-# [Table of Contents](./SUMMARY.md)
+# Textbook for College Physics
 
+You can access the book by going to the [link](https://veillette.github.io/physics-book/).
 The Table of Contents is in [./SUMMARY.md](./SUMMARY.md)
 
 # About
 
-This book is also hosted for free on [cnx.org](http://cnx.org) as part of [openstaxcollege.org](http://openstaxcollege.org/books).
+This textbook is mainly written in kramdown (a superset of Markdown) format. A small JavaScript and CSS class takes care of the rendering of the book. 
+The book is stored directly into GitHub and is instantly regenerated through the GitHub pages through the action of Jekyll.
 
-You can read the book by going to the [link](https://veillette.github.io/physics-book/) at the top of this repository page.
+# Fork Me
 
+Clone this repository. Install Ruby. within the folder physics-book, run 
 
+`gem install bundler jekyll`
+
+`bundle exec jekyll serve`
+
+Now browse to http://localhost:4000
