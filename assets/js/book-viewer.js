@@ -223,8 +223,17 @@
           return $el.prepend( $a );
         }
       } );
-      return typeof MathJax !== "undefined" && MathJax !== null ? MathJax.Hub.Queue( ["Typeset", MathJax.Hub, $els[ 0 ]] ) : void 0;
+      if ( typeof MathJax !== "undefined" && MathJax !== null ) {
+        MathJax.startup.promise = MathJax.startup.promise
+          .then( () => MathJax.typesetPromise( $els ) )
+          .catch( ( err ) => console.log( 'Typeset failed: ' + err.message ) );
+        return MathJax.startup.promise;
+      }
+      else {
+        return void 0;
+      }
     };
+
 
     tocHelper = new ( TocHelper = ( function() {
       function TocHelper() {}
