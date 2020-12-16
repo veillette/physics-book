@@ -223,7 +223,7 @@
           return $el.prepend( $a );
         }
       } );
-      if ( typeof MathJax !== "undefined" && MathJax !== null ) {
+      if ( typeof MathJax.startup !== "undefined" && MathJax.startup !== null ) {
         MathJax.startup.promise = MathJax.startup.promise
           .then( () => MathJax.typesetPromise( $els ) )
           .catch( ( err ) => console.log( 'Typeset failed: ' + err.message ) );
