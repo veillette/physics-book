@@ -362,7 +362,6 @@ $ ->
   if BookConfig.searchIndex
     $.getJSON( BookConfig.searchIndex )
       .then ( index ) ->
-    searchIndex = lunr.Index.load( index )
     $bookSearchInput.removeClass( 'disabled' )
 
     $toggleSearch.on 'click', ( evt ) ->

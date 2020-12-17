@@ -61,22 +61,19 @@
                   ' <div class="book-summary">\n    <div class="book-search">\n ' +
                   '     <input type="text" placeholder="Search" class="form-control">\n    </div>\n  </div>\n\n  <div class="book-body">\n  ' +
                   '  <div class="body-inner">\n      <div class="page-wrapper" tabindex="-1">\n        <div class="book-progress">\n       ' +
-                  '   <div class="bar">\n            <div class="inner" style="min-width: 0%;"></div>\n          </div>\n        </div>\n    ' +
+                  '   <div class="bar">\n            <div class="inner" style="min-width: 0;"></div>\n          </div>\n        </div>\n    ' +
                   '    <div class="page-inner">\n          <section class="normal">\n            <!-- content -->\n          </section>\n     ' +
                   '   </div>\n      </div>\n    </div>\n  </div>\n\n</div>';
 
   $( function() {
-    let $body, $book, $bookBody, $bookPage, $bookProgressBar, $bookSearchInput, $bookSummary, $bookTitle, $originalPage,
-      $toggleSearch, $toggleSummary, TocHelper, addTrailingSlash, changePage, mdToHtmlFix,
-      pageBeforeRender, removeTrailingSlash, renderNextPrev, renderToc, searchIndex, tocHelper, updateContributeUrl;
+    let $body, $book, $bookBody, $bookPage, $bookProgressBar, $bookSearchInput, $bookSummary, $bookTitle, $originalPage, $toggleSummary, TocHelper, addTrailingSlash, changePage, mdToHtmlFix,
+      pageBeforeRender, removeTrailingSlash, renderNextPrev, renderToc, tocHelper, updateContributeUrl;
     $body = $( 'body' );
     $originalPage = $body.contents();
-    searchIndex = null;
     $body.contents().remove();
     $body.append( BOOK_TEMPLATE );
     $book = $body.find( '.book' );
     $toggleSummary = $book.find( '.toggle-summary' );
-    $toggleSearch = $book.find( '.toggle-search' );
     $bookSearchInput = $book.find( '.book-search .form-control' );
     $bookSummary = $book.find( '.book-summary' );
     $bookBody = $book.find( '.book-body' );
