@@ -13,9 +13,10 @@ window.MathJax = {
             mag: ['\\left|\\mathbf{\\vec{#1}}\\right|', 1],     // this macro has one parameter
             kg: '\\mathrm{kg}',     // this macro has one parameter
             ms: '\\mathrm{m/s}',     // this macro has one parameter
+            mm: '\\mathrm{m}^2',     // this macro has one parameter
             mss: '\\mathrm{m/s}^2',     // this macro has one parameter
-            rs: '\\mathrm{rad/s}',     // this macro has one parameter
-            rss: '\\mathrm{rad/s}^2',     // this macro has one parameter
+            rads: '\\mathrm{rad/s}',     // this macro has one parameter
+            radss: '\\mathrm{rad/s}^2',     // this macro has one parameter
             N: '\\mathrm{N}',     // this macro has one parameter
             J: '\\mathrm{J}',     // this macro has one parameter
             s: '\\mathrm{s}',     // this macro has one parameter
