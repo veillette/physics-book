@@ -1,5 +1,5 @@
 ---
-title: "College Physics"
+title: "General Physics"
 layout: page
 ---
 
@@ -95,4 +95,3 @@ This introductory, algebra-based, two-semester college physics book is grounded 
 36. {: .appendix} [Atomic Masses](contents/m42699.md)
 38. {: .appendix} [Useful Information](contents/m42720.md)
 39. {: .appendix} [Glossary of Key Symbols and Notation](contents/m42709.md)
-
