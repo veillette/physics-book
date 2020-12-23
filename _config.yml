@@ -2,10 +2,9 @@
 markdown: kramdown
 
 # Setup
-title: 'College Physics'
+title: 'General Physics'
 tagline: '@ Berea College'
 url: https://github.com/veillette/physics-book
-origin: https://cnx.org/contents/MrHT-Gyx@5.43:HR_VN3f7@5/Introduction-to-Science-and-the-Realm-of-Physics-Physical-Quantities-and-Units
 
 author:
   name: 'Openstax'
