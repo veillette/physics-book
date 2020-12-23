@@ -84,7 +84,7 @@ figure > figcaption::before {
   }
 
   // Create a `::before` element and use the bulleted char for bullets
-  // not supportd by the browser (most, but not all).
+  // not supported by the browser (most, but not all).
   .emulate-bulleted(block; @attr-value; @char) {
     &[data-bullet-style="@{attr-value}"] {
       list-style-type: none;
