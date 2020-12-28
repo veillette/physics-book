@@ -92,6 +92,5 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     7.  [Gyroscopic Effects: Vector Aspects of Angular Momentum](contents/m42184.md)
 
 
-36. {: .appendix} [Atomic Masses](contents/m42699.md)
-38. {: .appendix} [Useful Information](contents/m42720.md)
-39. {: .appendix} [Glossary of Key Symbols and Notation](contents/m42709.md)
+12. {: .appendix} [Useful Information](contents/m42720.md)
+13. {: .appendix} [Glossary of Key Symbols and Notation](contents/m42709.md)
