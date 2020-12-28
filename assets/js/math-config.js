@@ -27,7 +27,6 @@ window.MathJax = {
             mile: '\\mathrm{mi.}',     // mi.
             mph: '\\mathrm{mph}',     // mph
             ac: 'a_\\mathrm{c}',     // a_c
-            m: '\\mathrm{m}',     // m
         },
         tags: 'ams'
     }
