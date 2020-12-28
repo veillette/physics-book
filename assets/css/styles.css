@@ -22,7 +22,10 @@ section.normal > .title {
 }
 
 .book .book-body .page-wrapper .page-inner section.normal {
-  counter-reset: figure, note, exercise, example, table;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal {
+  counter-reset: figure note exercise example table;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal img[alt^='QR'] {
