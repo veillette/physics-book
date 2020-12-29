@@ -34,7 +34,7 @@ with its production of carbon dioxide through combustion, has made, in the eyes
 of many scientists, a shift to non-fossil fuels of utmost importance—but it will
 not be easy.
 
-![A pie chart of the world&#x2019;s energy consumption by source is shown. Thirty-five point four three percent is petroleum, twenty-eight point one five percent is coal, twenty-three point four six percent is dry natural gas, six point two seven percent is hydro-electricity, five point seven nine percent is nuclear electricity, point eight six percent is geothermal, wind, solar, biomass, and point zero five percent is geothermal, biomass, or solar energy not used for electricity.](../resources/Figure_08_09_01a.jpg "World energy consumption by source, in billions of kilowatt-hours: 2006. (credit: KVDP)")
+![A pie chart of the world&#x2019;s energy consumption by source is shown. Thirty-five point four three percent is petroleum, twenty-eight point one five percent is coal, twenty-three point four six percent is dry natural gas, six point two seven percent is hydro-electricity, five point seven nine percent is nuclear electricity, point eight six percent is geothermal, wind, solar, biomass, and point zero five percent is geothermal, biomass, or solar energy not used for electricity.](/resources/Figure_08_09_01a.jpg "World energy consumption by source, in billions of kilowatt-hours: 2006. (credit: KVDP)")
 {: #import-auto-id2184457}
 
 ### The World’s Growing Energy Needs
@@ -61,10 +61,10 @@ coal. Yet there are sizeable strides being made in renewable energy. India has a
 rapidly growing wind energy base, and it has the largest solar cooking program
 in the world.
 
-![A bar graph depicting world energy consumption is shown. The year is listed on the horizontal axis and energy consumed is listed on the vertical axis. Energy consumption by the world is shown for different years. Energy consumption rises over time. In the year nineteen hundred and ninety it was three hundred seventy three multiplied by ten to the power eighteen joules, and the projection is that it will become eight hundred twelve multiplied by ten to the power eighteen joules by the year twenty thirty five.](../resources/Figure_08_09_02a.jpg "Past and projected world energy use (source: Based on data from U.S. Energy Information Administration, 2011)")
+![A bar graph depicting world energy consumption is shown. The year is listed on the horizontal axis and energy consumed is listed on the vertical axis. Energy consumption by the world is shown for different years. Energy consumption rises over time. In the year nineteen hundred and ninety it was three hundred seventy three multiplied by ten to the power eighteen joules, and the projection is that it will become eight hundred twelve multiplied by ten to the power eighteen joules by the year twenty thirty five.](/resources/Figure_08_09_02a.jpg "Past and projected world energy use (source: Based on data from U.S. Energy Information Administration, 2011)")
 {: #import-auto-id2876325}
 
-![Solar cell arrays lined up in a field.](../resources/Figure_08_09_03a.jpg "Solar cell arrays at a power plant in Steindorf, Germany (credit: Michael Betke, Flickr)")
+![Solar cell arrays lined up in a field.](/resources/Figure_08_09_03a.jpg "Solar cell arrays at a power plant in Steindorf, Germany (credit: Michael Betke, Flickr)")
 {: #import-auto-id2090554}
 
 [\[link\]](#import-auto-id1764068) displays the 2006 commercial energy mix by
@@ -105,7 +105,7 @@ use will change this dependency. A global problem is balancing energy resource
 development against the harmful effects upon the environment in its extraction
 and use.
 
-![A scatter plot of power consumption per capita versus G D P per capita for various countries. Power consumption in kilowatt per capita is shown along the horizontal axis and G D P per capita is show along the vertical axis.](../resources/Figure_08_09_04a.jpg "Power consumption per capita versus GDP per capita for various countries. Note the increase in energy usage with increasing GDP. (2007, credit: Frank van Mierlo, Wikimedia Commons)")
+![A scatter plot of power consumption per capita versus G D P per capita for various countries. Power consumption in kilowatt per capita is shown along the horizontal axis and G D P per capita is show along the vertical axis.](/resources/Figure_08_09_04a.jpg "Power consumption per capita versus GDP per capita for various countries. Note the increase in energy usage with increasing GDP. (2007, credit: Frank van Mierlo, Wikimedia Commons)")
 {: #import-auto-id2123825}
 
 ### Conserving Energy
@@ -183,7 +183,7 @@ do a push-up at constant speed, taking all data to be known to three digits.
 (Should work done lowering  her body be included? See the discussion of useful work
 in [Work, Energy, and Power in Humans](/contents/ch7WorkEnergyAndPowerInHumans.md).
 
-![A woman is doing push-ups. Her weight w is acting on her center of gravity , shown by a vector pointing downwards. Her center of gravity  is zero point nine zero meters from her feet and reaction force F acting on her arms is shown by the vector pointing upward along her arms. The distance of reaction force from the feet is one point five zero meters.](../resources/Figure_08_09_06a.jpg "Forces involved in doing push-ups. The woman&#x2019;s weight acts as a force exerted downward on her center of gravity (CG).")
+![A woman is doing push-ups. Her weight w is acting on her center of gravity , shown by a vector pointing downwards. Her center of gravity  is zero point nine zero meters from her feet and reaction force F acting on her arms is shown by the vector pointing upward along her arms. The distance of reaction force from the feet is one point five zero meters.](/resources/Figure_08_09_06a.jpg "Forces involved in doing push-ups. The woman&#x2019;s weight acts as a force exerted downward on her center of gravity (CG).")
 {: #import-auto-id1912970}
 
 </div>

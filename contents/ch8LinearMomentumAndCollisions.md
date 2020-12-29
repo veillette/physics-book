@@ -6,7 +6,7 @@ layout: page
 
 
 
-![Rugby players colliding during a rugby match.](../resources/Figure_08_00_01.jpg "Each rugby player has great momentum, which will affect the outcome of their collisions with each other and the ground. (credit: ozzzie, Flickr)")
+![Rugby players colliding during a rugby match.](/resources/Figure_08_00_01.jpg "Each rugby player has great momentum, which will affect the outcome of their collisions with each other and the ground. (credit: ozzzie, Flickr)")
 {: #import-auto-id2747734}
 
 We use the term momentum in various ways in everyday language, and most of these
@@ -21,4 +21,3 @@ in the same direction—and is associated with great mass and speed.
 Momentum, like energy, is important because it is conserved. Only a few physical
 quantities are conserved in nature, and studying them yields fundamental insight
 into how nature works, as we shall see in our study of momentum.
-
