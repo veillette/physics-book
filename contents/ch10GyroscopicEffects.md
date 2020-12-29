@@ -30,7 +30,7 @@ direction of the angular momentum is shown as an upward vector at the centre
 of the disk. The vector is labeled as L is equal to I-omega. In figure b, a
 right hand is shown. The fingers are curled in the direction of rotation and
 the thumb is pointed vertically upward in the direction of angular velocity
-and angular momentum.](/resources/Figure_11_07_01a.jpg "Figure (a) shows a
+and angular momentum.](../resources/Figure_11_07_01a.jpg "Figure (a) shows a
 disk is rotating counterclockwise when viewed from above. Figure (b) shows
 the right-hand rule. The direction of angular velocity \( \vb{\omega} \)
 and angular momentum \( \vb{L} \)  are defined to be
@@ -65,7 +65,7 @@ a new angular momentum with direction that is inclined more toward the person
 than before. The axis of the wheel has thus moved *perpendicular to the forces
 exerted on it*, instead of in the expected direction.
 
-![In figure a, a plane is shown. Force F, lying in the same plane, is acting at a point in the plane. At a point, at distant-r from the force, a vertical vector is shown labeled as tau, the torque. In figure b, there is a child on a horse on a merry-go-round. The radius of the merry-go-round is r units. At the foot of the horse, a vector along the plane of merry-go-round is shown. At the centre, the direction of torque tau, angular velocity omega, and angular momentum L are shown as vertical vectors.](/resources/Figure_11_07_02a.jpg "In figure (a), the torque is perpendicular to the plane formed by  \( r \)  and  \( F \)  and is the direction your right thumb would point to if you curled your fingers in the direction of  \( F \) . Figure (b) shows that the direction of the torque is the same as that of the angular momentum it produces.")
+![In figure a, a plane is shown. Force F, lying in the same plane, is acting at a point in the plane. At a point, at distant-r from the force, a vertical vector is shown labeled as tau, the torque. In figure b, there is a child on a horse on a merry-go-round. The radius of the merry-go-round is r units. At the foot of the horse, a vector along the plane of merry-go-round is shown. At the centre, the direction of torque tau, angular velocity omega, and angular momentum L are shown as vertical vectors.](../resources/Figure_11_07_02a.jpg "In figure (a), the torque is perpendicular to the plane formed by  \( r \)  and  \( F \)  and is the direction your right thumb would point to if you curled your fingers in the direction of  \( F \) . Figure (b) shows that the direction of the torque is the same as that of the angular momentum it produces.")
 {: #import-auto-id3122626 height="200"}
 
 {: #import-auto-id3014014 height="300"}
@@ -85,7 +85,7 @@ axis and points at Polaris, the North Star. But Earth is slowly precessing (once
 in about 26 000 years) due to the torque of the Sun and the Moon on its
 nonspherical shape.
 
-![In figure a, the gyroscope is rotating in counter clockwise direction. The weight of the gyroscope is acting downward. The supportive force is acting at the base. The line of action of the weight and supportive force are different. The torque is acting along the radius of the horizontal circular part of gyroscope. In figure b, the two vectors L and L plus delta L are shown. The vectors start from a point at the bottom of the figure and terminate at two points on a horizontal dotted circle, directed in counter clockwise direction, at the top of the figure. Another vector delta L starts from the head of vector L and terminates at the head of vector L plus delta L.](/resources/Figure_11_07_04a.jpg "As seen in figure (a), the forces on a spinning gyroscope are its weight and the supporting force from the stand. These forces create a horizontal torque on the gyroscope, which create a change in angular momentum \( \Delta  L \)  that is also horizontal. In figure (b), \( \Delta L \)  and \( L  \)  add to produce a new angular momentum with the same magnitude, but different direction, so that the gyroscope precesses in the direction shown instead of falling over.")
+![In figure a, the gyroscope is rotating in counter clockwise direction. The weight of the gyroscope is acting downward. The supportive force is acting at the base. The line of action of the weight and supportive force are different. The torque is acting along the radius of the horizontal circular part of gyroscope. In figure b, the two vectors L and L plus delta L are shown. The vectors start from a point at the bottom of the figure and terminate at two points on a horizontal dotted circle, directed in counter clockwise direction, at the top of the figure. Another vector delta L starts from the head of vector L and terminates at the head of vector L plus delta L.](../resources/Figure_11_07_04a.jpg "As seen in figure (a), the forces on a spinning gyroscope are its weight and the supporting force from the stand. These forces create a horizontal torque on the gyroscope, which create a change in angular momentum \( \Delta  L \)  that is also horizontal. In figure (b), \( \Delta L \)  and \( L  \)  add to produce a new angular momentum with the same magnitude, but different direction, so that the gyroscope precesses in the direction shown instead of falling over.")
 {: #import-auto-id1462916}
 
 <div data-type="exercise" data-element-type="check-understanding" data-label="">
@@ -152,7 +152,7 @@ precesses, making one complete rotation in 25 780 y.
 (c) If this torque were created by a single force (it is not) acting at the most
 effective point on the equator, what would its magnitude be?
 
-![In the figure, the Earth&#x2019;s image is shown. There are two vectors inclined at an angle of twenty three point five degree to the vertical, starting from the centre of the Earth. At the heads of the two vectors there is a circular shape, directed in counter clockwise direction. An angular momentum vector, directed toward left, along its diameter, is shown. The plane of the Earth&#x2019;s orbit is shown as a horizontal line through its center.](/resources/Figure_11_07_06a.jpg "The Earth&#x2019;s axis slowly precesses, always making an angle of 23.5&#xB0; with the direction perpendicular to the plane of Earth&#x2019;s orbit. The change in angular momentum for the two shown positions is quite large, although the magnitude \( L \) is unchanged.")
+![In the figure, the Earth&#x2019;s image is shown. There are two vectors inclined at an angle of twenty three point five degree to the vertical, starting from the centre of the Earth. At the heads of the two vectors there is a circular shape, directed in counter clockwise direction. An angular momentum vector, directed toward left, along its diameter, is shown. The plane of the Earth&#x2019;s orbit is shown as a horizontal line through its center.](../resources/Figure_11_07_06a.jpg "The Earth&#x2019;s axis slowly precesses, always making an angle of 23.5&#xB0; with the direction perpendicular to the plane of Earth&#x2019;s orbit. The change in angular momentum for the two shown positions is quite large, although the magnitude \( L \) is unchanged.")
 {: #import-auto-id1403686 height="250"}
 
 </div>
