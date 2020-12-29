@@ -207,7 +207,7 @@ fish bites.
 
 </div>
 
-![The figure shows a fishing reel, with radius equal to 4.5 centimeters. The direction of rotation of the reel is counterclockwise. The rotational quantities are theta, omega and alpha, and x, v, a are linear or translational quantities. The reel, fishing line, and the direction of motion have been separately indicated by curved arrows pointing toward those parts.](/resources/Figure_11_02_01a.jpg "Fishing line coming off a rotating reel moves linearly. [link] and [link] consider relationships between rotational and linear quantities associated with a fishing reel.")
+![The figure shows a fishing reel, with radius equal to 4.5 centimeters. The direction of rotation of the reel is counterclockwise. The rotational quantities are theta, omega and alpha, and x, v, a are linear or translational quantities. The reel, fishing line, and the direction of motion have been separately indicated by curved arrows pointing toward those parts.](../resources/Figure_11_02_01a.jpg "Fishing line coming off a rotating reel moves linearly. [link] and [link] consider relationships between rotational and linear quantities associated with a fishing reel.")
 {: #import-auto-id2953309}
 
 <div data-type="example" markdown="1">
@@ -329,7 +329,7 @@ following example illustrates. [\[link\]](#import-auto-id2409927) shows a fly on
 the edge of a rotating microwave oven plate. The example below calculates the
 total distance it travels.
 
-![The figure shows a fly that has landed on the rotating plate of the microwave. The direction of rotation of the plate, omega, is counterclockwise and is shown with an arrow.](/resources/Figure_11_02_02a.jpg "The image shows a microwave plate. The fly makes revolutions while the food is heated (along with the fly).")
+![The figure shows a fly that has landed on the rotating plate of the microwave. The direction of rotation of the plate, omega, is counterclockwise and is shown with an arrow.](../resources/Figure_11_02_02a.jpg "The image shows a microwave plate. The fly makes revolutions while the food is heated (along with the fly).")
 {: #import-auto-id2409927}
 
 <div data-type="example" markdown="1">
@@ -471,7 +471,7 @@ initial angular velocity is $$ 95.0 \rads $$ ?
 (f) Do the values obtained seem reasonable, considering that this stop happens
 very quickly?
 
-![The figure shows the left arm of a man with tattoo imprints and wearing a glove. He is circulating a yo-yo toy, which is in mid air and connected by the string to his hand. Some people are standing in the background watching the yo-yo trick.](/resources/Figure_11_02_03a.jpg "Yo-yos are amusing toys that display significant physics and are engineered to enhance performance based on physical laws. (credit: Beyond Neon, Flickr)")
+![The figure shows the left arm of a man with tattoo imprints and wearing a glove. He is circulating a yo-yo toy, which is in mid air and connected by the string to his hand. Some people are standing in the background watching the yo-yo trick.](../resources/Figure_11_02_03a.jpg "Yo-yos are amusing toys that display significant physics and are engineered to enhance performance based on physical laws. (credit: Beyond Neon, Flickr)")
 {: #import-auto-id2398786}
 
 </div>

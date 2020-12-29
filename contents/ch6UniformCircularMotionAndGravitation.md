@@ -6,7 +6,7 @@ layout: page
 
 
 
-![The figure shows, from front, a red and silver coloured Formula One car turning through a curve in a race on the Melbourne Grand Prix track, with the driver in seat.](/resources/Figure_07_00_01a.jpg "This Australian Grand Prix Formula 1 race car moves in a circular path as it makes the turn. Its wheels also spin rapidly&#x2014;the latter completing many revolutions, the former only part of one (a circular arc). The same physical principles are involved in each. (credit: Richard Munckton)")
+![The figure shows, from front, a red and silver coloured Formula One car turning through a curve in a race on the Melbourne Grand Prix track, with the driver in seat.](../resources/Figure_07_00_01a.jpg "This Australian Grand Prix Formula 1 race car moves in a circular path as it makes the turn. Its wheels also spin rapidly&#x2014;the latter completing many revolutions, the former only part of one (a circular arc). The same physical principles are involved in each. (credit: Richard Munckton)")
 {: #import-auto-id3121980}
 
 Many motions, such as the arc of a bird’s flight or Earth’s path around the Sun,

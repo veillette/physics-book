@@ -3,7 +3,7 @@ title: "Introduction to One-Dimensional Kinematics"
 layout: page
 ---
 
-![A cheetah running at the Cincinnati zoo](/resources/ch2CheetahRun.jpg "The
+![A cheetah running at the Cincinnati zoo](../resources/ch2CheetahRun.jpg "The
 motion of
 a cheetah can be described by the animal&#x2019;s displacement,
 speed, velocity, and acceleration. When it runs in a straight line without any

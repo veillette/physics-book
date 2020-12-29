@@ -5,7 +5,7 @@ layout: page
 ---
 
 
-![The spiral galaxy Andromeda is shown.](/resources/Figure_01_00_01.jpg "Galaxies are as immense as atoms are small. Yet the same laws of physics describe both, and all the rest of nature&#x2014;an indication of the underlying unity in the universe. The laws of physics are surprisingly few in number, implying an underlying simplicity to nature&#x2019;s apparent complexity. (credit: NASA, JPL-Caltech, P. Barmby, Harvard-Smithsonian Center for Astrophysics)")
+![The spiral galaxy Andromeda is shown.](../resources/Figure_01_00_01.jpg "Galaxies are as immense as atoms are small. Yet the same laws of physics describe both, and all the rest of nature&#x2014;an indication of the underlying unity in the universe. The laws of physics are surprisingly few in number, implying an underlying simplicity to nature&#x2019;s apparent complexity. (credit: NASA, JPL-Caltech, P. Barmby, Harvard-Smithsonian Center for Astrophysics)")
 {: #import-auto-id2688158}
 
 What is your first reaction when you hear the word “physics”? Did you imagine

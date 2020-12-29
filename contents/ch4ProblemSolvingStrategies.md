@@ -31,7 +31,7 @@ forces they represent (whenever sufficient information exists).
 
 ![(a) A sketch is shown of a man hanging from a vine.
 (b) The forces acting on the person, shown by vector arrows, are tension T, pointing upward at the hand of the man, F sub T, from the same point but in a downward direction, and weight W, acting downward from his stomach.
-(c) In figure (c) we define only the man as the system of interest. Tension T is acting upward from his hand. The weight W acts in a downward direction. In a free-body diagram W is shown by an arrow acting downward and T is shown by an arrow acting vertically upward. (d) Tension T is shown by an arrow vertically upward and another vector, weight W, is shown by an arrow vertically downward, both having the same lengths. It is indicated that T is equal to minus W.](/resources/Figure 04_06_01.jpg "
+(c) In figure (c) we define only the man as the system of interest. Tension T is acting upward from his hand. The weight W acts in a downward direction. In a free-body diagram W is shown by an arrow acting downward and T is shown by an arrow acting vertically upward. (d) Tension T is shown by an arrow vertically upward and another vector, weight W, is shown by an arrow vertically downward, both having the same lengths. It is indicated that T is equal to minus W.](../resources/Figure 04_06_01.jpg "
 (a) A sketch of Tarzan hanging from a vine.
 (b) Arrows are used to represent all forces. \( \vb{T} \)  is the tension in the vine above Tarzan, \( \vb{F}_T \)  is the force he exerts on the vine, and \( \vb{w} \)  is his weight. All other forces, such as the nudge of a breeze, are assumed negligible.
 (c) Suppose we are given the ape man&#x2019;s mass and asked to find the tension in the vine. We then define the system of interest as shown and draw a free-body diagram. \( \vb{F}_T \)  is no longer shown, because it is not a force acting on the system of interest; rather, \( \vb{F}_T \)  acts on the outside world. (d) Showing only the arrows, the head-to-tail method of addition is used. It is apparent that \( \vb{T}=- \vb{w} \), if Tarzan is stationary.")
@@ -136,7 +136,7 @@ in the Problem-Solving Strategy for Newton’s laws of motion.
 
 </div>
 <div data-type="solution" markdown="1">
-![An object of mass m is shown. Three forces acting on it are tension T, shown by an arrow acting vertically upward, and friction f and gravity m g, shown by two arrows acting vertically downward.](/resources/Figure_04_06_02.jpg){: #import-auto-id2715297 height="150"}
+![An object of mass m is shown. Three forces acting on it are tension T, shown by an arrow acting vertically upward, and friction f and gravity m g, shown by two arrows acting vertically downward.](../resources/Figure_04_06_02.jpg){: #import-auto-id2715297 height="150"}
 
 Using the free-body diagram:
 
@@ -170,7 +170,7 @@ Calculate the force a 70.0-kg high jumper must exert on the ground to produce an
 </div>
 <div data-type="solution" markdown="1">
 
-1. Use Newton’s laws of motion. ![Two forces are acting on an object of mass m: F, shown by an arrow pointing upward, and its weight w, shown by an arrow pointing downward. Acceleration a is represented by a vector arrow pointing upward. The figure depicts the forces acting on a high jumper.](/resources/Figure_04_06_03.jpg){: #import-auto-id2701038 height="150"}
+1. Use Newton’s laws of motion. ![Two forces are acting on an object of mass m: F, shown by an arrow pointing upward, and its weight w, shown by an arrow pointing downward. Acceleration a is represented by a vector arrow pointing upward. The figure depicts the forces acting on a high jumper.](../resources/Figure_04_06_03.jpg){: #import-auto-id2701038 height="150"}
 
 2. Given :
  $$ a=4.00g=\left(4.00\right)\left(9.80 \mss \right)
@@ -267,7 +267,7 @@ $$ \vb{F}_{\text{tot}} $$. Draw these to scale on the same drawing used in part 
 </div>
 </div>
 
-![A right triangle is shown made up of three vectors. The first vector, F sub one, is along the triangle&#x2019;s base toward the right; the second vector, F sub two, is along the perpendicular side pointing upward; and the third vector, F sub tot, is along the hypotenuse pointing up the incline. The magnitude of F sub tot is twenty newtons. In a free-body diagram, F sub one is shown by an arrow pointing right and F sub two is shown by an arrow acting vertically upward.](/resources/Figure_04_06_04.jpg)
+![A right triangle is shown made up of three vectors. The first vector, F sub one, is along the triangle&#x2019;s base toward the right; the second vector, F sub two, is along the perpendicular side pointing upward; and the third vector, F sub tot, is along the hypotenuse pointing up the incline. The magnitude of F sub tot is twenty newtons. In a free-body diagram, F sub one is shown by an arrow pointing right and F sub two is shown by an arrow acting vertically upward.](../resources/Figure_04_06_04.jpg)
 {: #import-auto-id2639094}
 
 <div data-type="exercise" data-element-type="problems-exercises">
@@ -286,7 +286,7 @@ unspecified; it will be in the opposite direction of the sum of $$
 </div>
 </div>
 
-![An overhead view of a child sitting on a snow saucer sled. Two forces, F sub one equal to ten newtons and F sub two equal to eight newtons, are acting toward the right. F sub one makes an angle of forty-five degrees from the x axis and F sub two makes an angle of thirty degrees from the x axis in a clockwise direction. A friction force f is equal to seven point five newtons, shown by a vector pointing in negative x direction. In the free-body diagram, F sub one and F sub two are shown by arrows toward the right, making a forty-five degree angle above the horizontal and a thirty-degree angle below the horizontal respectively. The friction force f is shown by an arrow along the negative x axis.](/resources/Figure_04_06_05.jpg "An overhead view of the horizontal forces acting on a child&#x2019;s snow saucer sled.")
+![An overhead view of a child sitting on a snow saucer sled. Two forces, F sub one equal to ten newtons and F sub two equal to eight newtons, are acting toward the right. F sub one makes an angle of forty-five degrees from the x axis and F sub two makes an angle of thirty degrees from the x axis in a clockwise direction. A friction force f is equal to seven point five newtons, shown by a vector pointing in negative x direction. In the free-body diagram, F sub one and F sub two are shown by arrows toward the right, making a forty-five degree angle above the horizontal and a thirty-degree angle below the horizontal respectively. The friction force f is shown by an arrow along the negative x axis.](../resources/Figure_04_06_05.jpg "An overhead view of the horizontal forces acting on a child&#x2019;s snow saucer sled.")
 {: #import-auto-id1789737}
 
 <div data-type="exercise" data-element-type="problems-exercises">
@@ -298,7 +298,7 @@ Suppose your car was mired deeply in the mud and you wanted to use the method il
 </div>
 </div>
 
-![](/resources/Figure_04_06_09.jpg){: #import-auto-id1436345}
+![](../resources/Figure_04_06_09.jpg){: #import-auto-id1436345}
 
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
@@ -309,7 +309,7 @@ What force is exerted on the tooth in [[link]](#import-auto-id1569692) if the te
 
 1.  Use Newton’s laws since we are looking for forces.
 
-2.  Draw a free-body diagram: ![A horizontal dotted line with two vectors extending downward from the mid-point of the dotted line, both at angles of fifteen degrees. A third vector points straight downward from the intersection of the first two angles, bisecting them; it is perpendicular to the dotted line.](/resources/Figure_04_06_06.jpg){: #import-auto-id2033290}
+2.  Draw a free-body diagram: ![A horizontal dotted line with two vectors extending downward from the mid-point of the dotted line, both at angles of fifteen degrees. A third vector points straight downward from the intersection of the first two angles, bisecting them; it is perpendicular to the dotted line.](../resources/Figure_04_06_06.jpg){: #import-auto-id2033290}
 
 3. The tension is given as $$ T=25.0 \N $$.  Find $$ F_
    {\text{app}}$$. Using Newton’s laws gives:
@@ -325,7 +325,7 @@ What force is exerted on the tooth in [[link]](#import-auto-id1569692) if the te
 </div>
 </div>
 
-![Cross-section of jaw with sixteen teeth is shown. Braces are along the outside of the teeth. Three forces are acting on the protruding tooth. The applied force, F sub app, is shown by an arrow vertically downward; a second force, T, is shown by an arrow making an angle of fifteen degrees below the positive x axis; and a third force, T, is shown by an arrow making an angle of fifteen degrees below the negative x axis.](/resources/Figure_04_06_07.jpg "Braces are used to apply forces to teeth to realign them. Shown in this figure are the tensions applied by the wire to the protruding tooth. The total force applied to the tooth by the wire, \( F_{\text{app}} \) , points straight toward the back of the mouth.")
+![Cross-section of jaw with sixteen teeth is shown. Braces are along the outside of the teeth. Three forces are acting on the protruding tooth. The applied force, F sub app, is shown by an arrow vertically downward; a second force, T, is shown by an arrow making an angle of fifteen degrees below the positive x axis; and a third force, T, is shown by an arrow making an angle of fifteen degrees below the negative x axis.](../resources/Figure_04_06_07.jpg "Braces are used to apply forces to teeth to realign them. Shown in this figure are the tensions applied by the wire to the protruding tooth. The total force applied to the tooth by the wire, \( F_{\text{app}} \) , points straight toward the back of the mouth.")
 {: #import-auto-id1569692}
 
 <div data-type="exercise" data-element-type="problems-exercises">
@@ -338,7 +338,7 @@ What force is exerted on the tooth in [[link]](#import-auto-id1569692) if the te
 </div>
 </div>
 
-![Two caped superheroes hang on a rope suspended vertically from a bar.](/resources/Figure_04_06_08.jpg "Superhero and Trusty Sidekick hang motionless on a rope as they try to figure out what to do next. Will the tension be the same everywhere in the rope?")
+![Two caped superheroes hang on a rope suspended vertically from a bar.](../resources/Figure_04_06_08.jpg "Superhero and Trusty Sidekick hang motionless on a rope as they try to figure out what to do next. Will the tension be the same everywhere in the rope?")
 {: #import-auto-id1655793 height="300"}
 
 <div data-type="exercise" data-element-type="problems-exercises">

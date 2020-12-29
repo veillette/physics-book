@@ -20,7 +20,7 @@ form depends both on how much we eat and on our level of physical activity. If
 we eat more than is needed to do work and stay warm, the remainder goes into
 body fat.
 
-![A schematic diagram of energy consumed by humans and converted to various other forms is shown. Food energy is converted into work, thermal energy, and stored fat depicted by an arrow branching out of food energy and ending at these three forms. Stored fat plus thermal energy is equal to the final other energy, labeled  O E sub f, and nonconservative work is shown by W sub n c, which is negative, so the initial other energy, labeled O E sub i, plus W sub n c is equal to O E sub f .](/resources/Figure_08_08_01a.jpg "Energy consumed by humans is converted to work, thermal energy, and stored fat. By far the largest fraction goes to thermal energy, although the fraction varies depending on the type of physical activity.")
+![A schematic diagram of energy consumed by humans and converted to various other forms is shown. Food energy is converted into work, thermal energy, and stored fat depicted by an arrow branching out of food energy and ending at these three forms. Stored fat plus thermal energy is equal to the final other energy, labeled  O E sub f, and nonconservative work is shown by W sub n c, which is negative, so the initial other energy, labeled O E sub i, plus W sub n c is equal to O E sub f .](../resources/Figure_08_08_01a.jpg "Energy consumed by humans is converted to work, thermal energy, and stored fat. By far the largest fraction goes to thermal energy, although the fraction varies depending on the type of physical activity.")
 {: #import-auto-id1509596}
 
 ### Power Consumed at Rest
@@ -107,7 +107,7 @@ assuming the energy content of fat to be 39 kJ/g.
 
 </div>
 
-![A person is measuring the amount of oxygen in blood and metabolic rate using a pulse oxymeter. The pulse oxymeter is strapped to the person&#x2019;s wrist, and the index finger is inside the clip.](/resources/Figure_08_08_02a.jpg "A pulse oxymeter is an apparatus that measures the amount of oxygen in blood. Oxymeters can be used to determine a person&#x2019;s metabolic rate, which is the rate at which food energy is converted to another form. Such measurements can indicate the level of athletic conditioning as well as certain medical problems. (credit: UusiAjaja, Wikimedia Commons)")
+![A person is measuring the amount of oxygen in blood and metabolic rate using a pulse oxymeter. The pulse oxymeter is strapped to the person&#x2019;s wrist, and the index finger is inside the clip.](../resources/Figure_08_08_02a.jpg "A pulse oxymeter is an apparatus that measures the amount of oxygen in blood. Oxymeters can be used to determine a person&#x2019;s metabolic rate, which is the rate at which food energy is converted to another form. Such measurements can indicate the level of athletic conditioning as well as certain medical problems. (credit: UusiAjaja, Wikimedia Commons)")
 {: #import-auto-id2767879}
 
 ##### Table: Energy and Oxygen Consumption Rates
@@ -146,7 +146,7 @@ bioelectrical energy ultimately becomes mostly thermal energy, but some is
 utilized to power chemical processes such as in the kidneys and liver, and in
 fat production.
 
-![An f M R I scan of a human head with energy consumption in the vision center shown by a bright spot. This brightness indicates the energy consumption.](/resources/Figure_08_08_03a.jpg "This fMRI scan shows an increased level of energy consumption in the vision center of the brain. Here, the patient was being asked to recognize faces. (credit: NIH via Wikimedia Commons)")
+![An f M R I scan of a human head with energy consumption in the vision center shown by a bright spot. This brightness indicates the energy consumption.](../resources/Figure_08_08_03a.jpg "This fMRI scan shows an increased level of energy consumption in the vision center of the brain. Here, the patient was being asked to recognize faces. (credit: NIH via Wikimedia Commons)")
 {: #import-auto-id1770894}
 
 ### Section Summary
@@ -229,7 +229,7 @@ exercise alone will be sufficient to lose weight? You may wish to consider that 
 Calculate the power output in watts and horsepower of a shot-putter who takes 1.20 s to accelerate
 the 7.27-kg shot from rest to 14.0 m/s, while raising it 0.800 m. (Do not include the power produced to accelerate his body.)
 
-![A close view of a shot-putter throwing the shot.](/resources/Figure_08_08_04a.jpg "Shot putter at the Dornoch Highland Gathering in 2007. (credit: John Haslam, Flickr)")
+![A close view of a shot-putter throwing the shot.](../resources/Figure_08_08_04a.jpg "Shot putter at the Dornoch Highland Gathering in 2007. (credit: John Haslam, Flickr)")
 {: #import-auto-id1907482}
 
 </div>
@@ -334,7 +334,7 @@ powered by a bicycle-type drive mechanism (see [[link]](#import-auto-id2181552))
 the 234-min trip was about 350 W. Using the efficiency for cycling from [[link]](/contents/ch7ConservationOfEnergy.md#import-auto-id1330125),
 calculate the food energy in kilojoules he metabolized during the flight.
 
-![An aircraft flying in the air shown from outside, which is powered by a bicycle-type drive mechanism.](/resources/Figure_08_08_05a.jpg "The Daedalus 88 in flight. (credit: NASA photo by Beasley)")
+![An aircraft flying in the air shown from outside, which is powered by a bicycle-type drive mechanism.](../resources/Figure_08_08_05a.jpg "The Daedalus 88 in flight. (credit: NASA photo by Beasley)")
 {: #import-auto-id2181552}
 
 </div>
@@ -346,7 +346,7 @@ The swimmer shown in [[link]](#import-auto-id1412118) exerts an average horizont
 (a) What is his work output in each stroke?
 (b) Calculate the power output of his arms if he does 120 strokes per minute.
 
-![A person swimming and his arm motion in each stroke is represented. The arm action is shown by an arc starting from where his hand enters the surface of the water and ending at the point where his hand emerges from the water. The diameter of this arc made by the person&#x2019;s hand tip in one stroke is one point eight meters.](/resources/Figure_08_08_06a.jpg)
+![A person swimming and his arm motion in each stroke is represented. The arm action is shown by an arc starting from where his hand enters the surface of the water and ending at the point where his hand emerges from the water. The diameter of this arc made by the person&#x2019;s hand tip in one stroke is one point eight meters.](../resources/Figure_08_08_06a.jpg)
 {: #import-auto-id1412118}
 
 </div>
@@ -388,7 +388,7 @@ day, assuming that the average worker required 3600 kcal per day and that their
 diet was 5% protein, 60% carbohydrate, and 35% fat. (These proportions neglect
 the mass of bulk and nondigestible materials consumed.)
 
-![A model of a step pyramid is shown with ramps along the sides of each step.](/resources/graphics7.png "Ancient pyramids were probably constructed using ramps as simple machines. (credit: Franck Monnier, Wikimedia Commons)")
+![A model of a step pyramid is shown with ramps along the sides of each step.](../resources/graphics7.png "Ancient pyramids were probably constructed using ramps as simple machines. (credit: Franck Monnier, Wikimedia Commons)")
 {: #import-auto-id1499612}
 
 </div>

@@ -6,7 +6,7 @@ layout: page
 
 
 
-![Two dolphins are shown in a pool at Lisbon Zoo. One is in the water, and the other is in the air diving back into water](/resources/Figure_04_00_01.jpg "Newton&#x2019;s laws of motion describe the motion of the dolphin&#x2019;s path. (credit: Jin Jang)")
+![Two dolphins are shown in a pool at Lisbon Zoo. One is in the water, and the other is in the air diving back into water](../resources/Figure_04_00_01.jpg "Newton&#x2019;s laws of motion describe the motion of the dolphin&#x2019;s path. (credit: Jin Jang)")
 {: #import-auto-id2351295}
 
 Motion draws our attention. Motion itself can be beautiful, causing us to marvel
@@ -30,7 +30,7 @@ given to the thoughts of earlier classical philosophers such as Aristotle (
 384–322 BC). Among the many great thinkers who contributed to this change were
 Newton and Galileo.
 
-![Cover page of the first edition of a book, Philosophiae Naturalis Principia Mathematica, written by Isaac Newton.](/resources/Figure_04_00_02.jpg "Isaac Newton&#x2019;s monumental work, Philosophiae Naturalis Principia Mathematica, was published in 1687. It proposed scientific laws that are still used today to describe the motion of objects. (credit: Service commun de la documentation de l'Universit&#xE9; de Strasbourg)")
+![Cover page of the first edition of a book, Philosophiae Naturalis Principia Mathematica, written by Isaac Newton.](../resources/Figure_04_00_02.jpg "Isaac Newton&#x2019;s monumental work, Philosophiae Naturalis Principia Mathematica, was published in 1687. It proposed scientific laws that are still used today to describe the motion of objects. (credit: Service commun de la documentation de l'Universit&#xE9; de Strasbourg)")
 {: #import-auto-id2054696 height="250"}
 
 Galileo was instrumental in establishing *observation* as the absolute

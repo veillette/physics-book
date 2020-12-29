@@ -12,7 +12,7 @@ layout: page
 
 </div>
 
-![Snails leaving slime trails as they race each other along a flat surface.](/resources/Picture 6.png "The motion of these racing snails can be described by their speeds and their velocities. (credit: tobitasflickr, Flickr)")
+![Snails leaving slime trails as they race each other along a flat surface.](../resources/Picture 6.png "The motion of these racing snails can be described by their speeds and their velocities. (credit: tobitasflickr, Flickr)")
 {: #import-auto-id1690049}
 
 There is more to motion than distance and displacement. Questions such as, “How
@@ -116,7 +116,7 @@ momentarily or backs up before he goes to the back of the plane. To get more
 details, we must consider smaller segments of the trip over smaller time
 intervals.
 
-![Airplane shown from the outside. Vector arrows show paths of each individual segment of the passenger&#x2019;s trip to the back of the plane.](/resources/Figure_02_02_01.jpg "A more detailed record of an airplane passenger heading toward the back of the plane, showing smaller segments of his trip. ")
+![Airplane shown from the outside. Vector arrows show paths of each individual segment of the passenger&#x2019;s trip to the back of the plane.](../resources/Figure_02_02_01.jpg "A more detailed record of an airplane passenger heading toward the back of the plane, showing smaller segments of his trip. ")
 {: #import-auto-id1782958}
 
 The smaller the time intervals considered in a motion, the more detailed the
@@ -164,7 +164,7 @@ because your displacement for the round trip is zero. (Displacement is change in
 position and, thus, is zero for a round trip.) Thus average speed is *not*
 simply the magnitude of average velocity.
 
-![A house and a store, with a set of arrows in between showing that the distance between them is 3 point 0 kilometers and the total distance traveled, delta x total, equals 0 kilometers.](/resources/Figure_02_02_02.jpg "During a 30-minute round trip to the store, the total distance traveled is 6 km. The average speed is 12 km/h. The displacement for the round trip is zero, since there was no net change in position. Thus the average velocity is zero. ")
+![A house and a store, with a set of arrows in between showing that the distance between them is 3 point 0 kilometers and the total distance traveled, delta x total, equals 0 kilometers.](../resources/Figure_02_02_02.jpg "During a 30-minute round trip to the store, the total distance traveled is 6 km. The average speed is 12 km/h. The displacement for the round trip is zero, since there was no net change in position. Thus the average velocity is zero. ")
 {: #import-auto-id2593426}
 
 Another way of visualizing the motion of an object is to use a graph. A plot of
@@ -177,7 +177,7 @@ unrealistic given that we’ll probably stop at the store. But for simplicity’
 sake, we will model it with no stops or changes in speed. We are also assuming
 that the route between the store and the house is a perfectly straight line.)
 
-![Three line graphs. First line graph is of position in kilometers versus time in hours. The line increases linearly from 0 kilometers to 6 kilometers in the first 0 point 25 hours. It then decreases linearly from 6 kilometers to 0 kilometers between 0 point 25 and 0 point 5 hours. Second line graph shows velocity in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time 0 to time 0 point 25. It is vertical at time 0 point 25, dropping from 12 kilometers per hour to negative 12 kilometers per hour. It is flat again at negative 12 kilometers per hour from 0 point 25 hours to 0 point 5 hours. Third line graph shows speed in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time equals 0 to time equals 0 point 5 hours.](/resources/Figure_02_02_03.jpg "Position vs. time, velocity vs. time, and speed vs. time on a trip. Note that the velocity for the return trip is negative. ")
+![Three line graphs. First line graph is of position in kilometers versus time in hours. The line increases linearly from 0 kilometers to 6 kilometers in the first 0 point 25 hours. It then decreases linearly from 6 kilometers to 0 kilometers between 0 point 25 and 0 point 5 hours. Second line graph shows velocity in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time 0 to time 0 point 25. It is vertical at time 0 point 25, dropping from 12 kilometers per hour to negative 12 kilometers per hour. It is flat again at negative 12 kilometers per hour from 0 point 25 hours to 0 point 5 hours. Third line graph shows speed in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time equals 0 to time equals 0 point 5 hours.](../resources/Figure_02_02_03.jpg "Position vs. time, velocity vs. time, and speed vs. time on a trip. Note that the velocity for the return trip is negative. ")
 {: #import-auto-id1806646}
 
 <div data-type="note" data-has-label="true" data-label="" markdown="1">
