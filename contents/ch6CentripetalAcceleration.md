@@ -31,7 +31,7 @@ resulting from a net external force) the **centripetal acceleration**{:
 data-type="term" #import-auto-id3108952}
 ( $$ \ac $$); centripetal means “toward the center” or “center seeking.”
 
-![The given figure shows a circle, with a triangle having vertices A B C made from the center to the boundary. A is at the center and B and C points are at the circle path. Lines A B and A C act as radii and B C is a chord. Delta theta is shown inside the triangle, and the arc length delta s and the chord length delta r are also given. At point B, velocity of object is shown as v one and at point C, velocity of object is shown as v two. Along the circle an equation is shown as delta v equals v sub 2 minus v sub 1.](/resources/Figure_07_02_01a.jpg "The
+![The given figure shows a circle, with a triangle having vertices A B C made from the center to the boundary. A is at the center and B and C points are at the circle path. Lines A B and A C act as radii and B C is a chord. Delta theta is shown inside the triangle, and the arc length delta s and the chord length delta r are also given. At point B, velocity of object is shown as v one and at point C, velocity of object is shown as v two. Along the circle an equation is shown as delta v equals v sub 2 minus v sub 1.](../resources/Figure_07_02_01a.jpg "The
 directions of the velocity of an object at two different points are shown, and the change in velocity \( \vb{\Delta v} \)  is seen to point directly toward the center of curvature.
 (See small inset.) Because \( \vb{a}_c =\frac{ \vb{\Delta v} }{\Delta t} \), the acceleration is also toward the center; \( \vb{a}_c \)  is called centripetal acceleration.
 (Because \( \Delta \theta \) is very small, the arc length \( \Delta s \) is equal to the chord length \( \Delta r \) for small time differences.)")
@@ -135,7 +135,7 @@ if you were not wearing a seat belt.
 
 </div>
 
-![In figure a, a car shown from top is running on a circular road around a circular path. The center of the park is termed as the center of this circle and the distance from this point to the car is taken as radius r. The linear velocity is shown in perpendicular direction toward the front of the car, shown as v the centripetal acceleration is shown with an arrow pointed towards the center of rotation. In figure b, a centrifuge is shown an object of mass m is rotating in it at a constant speed. The object is at the distance equal to the radius, r, of the centrifuge. The centripetal acceleration is shown towards the center of rotation, and the velocity, v is shown perpendicular to the object in the clockwise direction.](/resources/Figure_07_02_02a.jpg "(a) The car following a circular path at constant speed is accelerated perpendicular to its velocity, as shown. The magnitude of this centripetal acceleration is found in [link]. (b) A particle of mass in a centrifuge is rotating at constant angular velocity . It must be accelerated perpendicular to its velocity or it would continue in a straight line. The magnitude of the necessary acceleration is found in [link].")
+![In figure a, a car shown from top is running on a circular road around a circular path. The center of the park is termed as the center of this circle and the distance from this point to the car is taken as radius r. The linear velocity is shown in perpendicular direction toward the front of the car, shown as v the centripetal acceleration is shown with an arrow pointed towards the center of rotation. In figure b, a centrifuge is shown an object of mass m is rotating in it at a constant speed. The object is at the distance equal to the radius, r, of the centrifuge. The centripetal acceleration is shown towards the center of rotation, and the velocity, v is shown perpendicular to the object in the clockwise direction.](../resources/Figure_07_02_02a.jpg "(a) The car following a circular path at constant speed is accelerated perpendicular to its velocity, as shown. The magnitude of this centripetal acceleration is found in [link]. (b) A particle of mass in a centrifuge is rotating at constant angular velocity . It must be accelerated perpendicular to its velocity or it would continue in a straight line. The magnitude of the necessary acceleration is found in [link].")
 {: #import-auto-id3033074}
 
 <div data-type="example" markdown="1">
@@ -433,7 +433,7 @@ weight.
 
 (c)
 
-![A rectangle with a base longer than the height. A vertical line with arrowheads on both ends passes through the rectangle, bisecting the horizontal sides. The top of the arrow is labeled N, and the bottom is labeled w.](/resources/Figure_07_02_03a.jpg)
+![A rectangle with a base longer than the height. A vertical line with arrowheads on both ends passes through the rectangle, bisecting the horizontal sides. The top of the arrow is labeled N, and the bottom is labeled w.](../resources/Figure_07_02_03a.jpg)
 {: #eip-id1165317522148}
 
 (d) $$ 1.76\times 10^{3}\N $$ or $$ 3.00 \text{w} $$, that is, the

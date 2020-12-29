@@ -6,7 +6,7 @@ layout: page
 
 
 
-![Rugby players colliding during a rugby match.](/resources/Figure_08_00_01.jpg "Each rugby player has great momentum, which will affect the outcome of their collisions with each other and the ground. (credit: ozzzie, Flickr)")
+![Rugby players colliding during a rugby match.](../resources/Figure_08_00_01.jpg "Each rugby player has great momentum, which will affect the outcome of their collisions with each other and the ground. (credit: ozzzie, Flickr)")
 {: #import-auto-id2747734}
 
 We use the term momentum in various ways in everyday language, and most of these
