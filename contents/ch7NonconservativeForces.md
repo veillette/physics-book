@@ -28,7 +28,7 @@ dissipates, removing energy from the system. Furthermore, even if the thermal
 energy is retained or captured, it cannot be fully converted back to work, so it
 is lost or not recoverable in that sense as well.
 
-![(a) A drawing of a happy face is erased diagonally from a point A to a point B. (b) A drawing of a happy face is erased in the shape of the letter u, but starting from the same point A and ending at the same point B.](../resources/Figure_08_05_01ab1.jpg "The amount of the happy face erased depends on the path taken by the eraser between points A and B, as does the work done against friction. Less work is done and less of the face is erased for the path in (a) than for the path in (b). The force here is friction, and most of the work goes into thermal energy that subsequently leaves the system (the happy face plus the eraser). The energy expended cannot be fully recovered. ")
+![(a) A drawing of a happy face is erased diagonally from a point A to a point B. (b) A drawing of a happy face is erased in the shape of the letter u, but starting from the same point A and ending at the same point B.](/resources/Figure_08_05_01ab1.jpg "The amount of the happy face erased depends on the path taken by the eraser between points A and B, as does the work done against friction. Less work is done and less of the face is erased for the path in (a) than for the path in (b). The force here is friction, and most of the work goes into thermal energy that subsequently leaves the system (the happy face plus the eraser). The energy expended cannot be fully recovered. ")
 {: #import-auto-id2415636}
 
 ### How Nonconservative Forces Affect Mechanical Energy
@@ -41,7 +41,7 @@ and nonconservative forces. We often choose to understand simpler systems such
 as that described in [\[link\]](#import-auto-id2096889)(a) first before studying
 more complicated systems as in [\[link\]](#import-auto-id2096889)(b).
 
-![(a) A system is shown in three situations. First, a rock is dropped onto a spring attached to the ground. The rock has potential energy P E sub 0 at the highest point before it is dropped on the spring. In the second situation, the rock has fallen onto the spring and the spring is compressed and has potential energy P E sub s. And in the third situation, the spring pushes the rock into the air; then the rock has some kinetic and some potential energy, labeled as K E plus P E sub g prime. (b) A rock is at some height above the ground, having potential energy P E sub g, and as it hits the ground all of the rock&#x2019;s energy is used to produce heat, sound, and deformation of the ground.](../resources/Figure_08_05_02a.jpg "Comparison of the effects of conservative and nonconservative forces on the mechanical energy of a system. (a) A system with only conservative forces. When a rock is dropped onto a spring, its mechanical energy remains constant (neglecting air resistance) because the force in the spring is conservative. The spring can propel the rock back to its original height, where it once again has only potential energy due to gravity.
+![(a) A system is shown in three situations. First, a rock is dropped onto a spring attached to the ground. The rock has potential energy P E sub 0 at the highest point before it is dropped on the spring. In the second situation, the rock has fallen onto the spring and the spring is compressed and has potential energy P E sub s. And in the third situation, the spring pushes the rock into the air; then the rock has some kinetic and some potential energy, labeled as K E plus P E sub g prime. (b) A rock is at some height above the ground, having potential energy P E sub g, and as it hits the ground all of the rock&#x2019;s energy is used to produce heat, sound, and deformation of the ground.](/resources/Figure_08_05_02a.jpg "Comparison of the effects of conservative and nonconservative forces on the mechanical energy of a system. (a) A system with only conservative forces. When a rock is dropped onto a spring, its mechanical energy remains constant (neglecting air resistance) because the force in the spring is conservative. The spring can propel the rock back to its original height, where it once again has only potential energy due to gravity.
 (b) A system with nonconservative forces. When the same rock is dropped onto the ground, it is stopped by nonconservative forces that dissipate its mechanical energy as thermal energy, sound, and surface distortion. The rock has lost mechanical energy. ")
 {: #import-auto-id2096889}
 
@@ -69,7 +69,7 @@ so that
 where $$ W_{\text{nc}} $$ is the total work done by all nonconservative forces
 and $$ W_{\text{c}} $$ is the total work done by all conservative forces.
 
-![A person pushing a heavy box up an incline. A force F p applied by the person is shown by a vector pointing up the incline. And frictional force f is shown by a vector pointing down the incline, acting on the box.](../resources/Figure_08_05_03a.jpg "A person pushes a crate up a ramp, doing work on the crate. Friction and gravitational force (not shown) also do work on the crate; both forces oppose the person&#x2019;s push. As the crate is pushed up the ramp, it gains mechanical energy, implying that the work done by the person is greater than the work done by friction.")
+![A person pushing a heavy box up an incline. A force F p applied by the person is shown by a vector pointing up the incline. And frictional force f is shown by a vector pointing down the incline, acting on the box.](/resources/Figure_08_05_03a.jpg "A person pushes a crate up a ramp, doing work on the crate. Friction and gravitational force (not shown) also do work on the crate; both forces oppose the person&#x2019;s push. As the crate is pushed up the ramp, it gains mechanical energy, implying that the work done by the person is greater than the work done by friction.")
 {: #import-auto-id2124288}
 
 Consider [\[link\]](#import-auto-id2124288), in which a person pushes a crate up
@@ -127,7 +127,7 @@ Calculating Distance Traveled: How Far a Baseball Player Slides
 </div>
 Consider the situation shown in [\[link\]](#import-auto-id1908314), where a baseball player slides to a stop on level ground. Using energy considerations, calculate the distance the 65.0-kg baseball player slides, given that his initial speed is 6.00 m/s and the force of friction against him is a constant 450 N.
 
-![A baseball player slides to stop in a distance d. the displacement d is shown by a vector towards the left and frictional force f on the player is shown by a small vector pointing towards the right equal to four hundred and fifty newtons. K E is equal to half m v squared, which is equal to f times d.](../resources/Figure_08_05_04a.jpg "The baseball player slides to a stop in a distance \( d \) . In the process, friction removes the player&#x2019;s kinetic energy by doing an amount of work \( f d \) equal to the initial kinetic energy. ")
+![A baseball player slides to stop in a distance d. the displacement d is shown by a vector towards the left and frictional force f on the player is shown by a small vector pointing towards the right equal to four hundred and fifty newtons. K E is equal to half m v squared, which is equal to f times d.](/resources/Figure_08_05_04a.jpg "The baseball player slides to a stop in a distance \( d \) . In the process, friction removes the player&#x2019;s kinetic energy by doing an amount of work \( f d \) equal to the initial kinetic energy. ")
 {: #import-auto-id1908314 height="200"}
 
 **Strategy**
@@ -180,7 +180,7 @@ a $$ 5.00^\circ $$ incline upward with a surface similar to that in the baseball
 player slides with the same initial speed, and the frictional force is still 450
 N. Determine how far he slides.
 
-![A baseball player slides on an inclined slope represented by a right triangle. The angle of the slope is represented by the angle between the base and the hypotenuse, which is equal to five degrees, and the height h of the perpendicular side of the triangle is equal to d sin 5 degrees. The length of the hypotenuse is d.](../resources/Figure_08_05_05a.jpg "The same baseball player slides to a stop on a 5.00 degrees slope.")
+![A baseball player slides on an inclined slope represented by a right triangle. The angle of the slope is represented by the angle between the base and the hypotenuse, which is equal to five degrees, and the height h of the perpendicular side of the triangle is equal to d sin 5 degrees. The length of the hypotenuse is d.](/resources/Figure_08_05_05a.jpg "The same baseball player slides to a stop on a 5.00 degrees slope.")
 {: #import-auto-id1415046 height="150"}
 
 **Strategy**
@@ -270,7 +270,7 @@ glass marble, is the velocity of this steel marble the same as the velocity of
 the marble at the bottom of the ruler? Is the distance the cup moves
 proportional to the mass of the steel and glass marbles?
 
-![A marble is rolling down a makeshift ramp consisting of a small wooden ruler propped up on one end at about a thirty degree angle. At the bottom of the ramp is a foam drinking cup standing upside-down on its lip. A hole is cut out on one side of the cup so that the marble will roll through the hole when it reaches the bottom of the ramp.](../resources/Figure_08_05_06a.jpg "Rolling a marble down a ruler into a foam cup.")
+![A marble is rolling down a makeshift ramp consisting of a small wooden ruler propped up on one end at about a thirty degree angle. At the bottom of the ramp is a foam drinking cup standing upside-down on its lip. A hole is cut out on one side of the cup so that the marble will roll through the hole when it reaches the bottom of the ramp.](/resources/Figure_08_05_06a.jpg "Rolling a marble down a ruler into a foam cup.")
 {: height="150"}
 
 </div>
@@ -316,7 +316,7 @@ The Ramp
 <div data-type="problem" markdown="1">
 A 60.0-kg skier with an initial speed of 12.0 m/s coasts up a 2.50-m-high rise as shown in [[link]](#import-auto-id1802314). Find her final speed at the top, given that the coefficient of friction between her skis and the snow is 0.0800. (Hint: Find the distance traveled up the incline assuming a straight-line path as shown in the figure.)
 
-![A skier is about to go up an inclined slope with some initial speed v sub i shown by an arrow towards right. The slope makes a thirty-five-degree with the horizontal. The height of the point where the slope ends from the skiers&#x2019; starting position is two point five meters. Final speed of the skier at the end of the inclined slope is unknown.](../resources/Figure_08_05_07a.jpg "The skier&#x2019;s initial kinetic energy is partially used in coasting to the top of a rise.")
+![A skier is about to go up an inclined slope with some initial speed v sub i shown by an arrow towards right. The slope makes a thirty-five-degree with the horizontal. The height of the point where the slope ends from the skiers&#x2019; starting position is two point five meters. Final speed of the skier at the end of the inclined slope is unknown.](/resources/Figure_08_05_07a.jpg "The skier&#x2019;s initial kinetic energy is partially used in coasting to the top of a rise.")
 {: #import-auto-id1802314}
 
 </div>

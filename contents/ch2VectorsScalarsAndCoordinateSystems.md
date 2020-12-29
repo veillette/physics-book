@@ -10,7 +10,7 @@ layout: page
 
 </div>
 
-![A small jet airplane flying toward the left.](../resources/Figure_02_02_00.jpg "The motion of this Eclipse Concept jet can be described in terms of the
+![A small jet airplane flying toward the left.](/resources/Figure_02_02_00.jpg "The motion of this Eclipse Concept jet can be described in terms of the
 distance it has traveled (a scalar quantity) or its displacement in a
 specific direction (a vector quantity). In order to specify the direction of
 motion, its displacement must be described based on a coordinate system. In this case, it may be convenient to choose motion toward the left as positive motion (it is the forward direction for the plane), although in many cases, the \(x\)-coordinate runs from left to right, with motion to the right as positive and motion to the left as negative. (credit: Armchair Aviator, Flickr)")

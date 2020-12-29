@@ -39,7 +39,7 @@ straight line. The letter $$ b $$ is used for the **y-intercept**{:
 data-type="term" #import-auto-id2955215}, which is the point at which the line
 crosses the vertical axis.
 
-![Graph of a straight-line sloping up at about 40 degrees.](../resources/Figure_02_07_01.jpg "A
+![Graph of a straight-line sloping up at about 40 degrees.](/resources/Figure_02_07_01.jpg "A
 straight-line graph. The equation for a straight line is \( y= mx + b \)")
 {: #import-auto-id2359358}
 
@@ -57,7 +57,7 @@ The line is straight with a positive slope.
 The y intercept is four hundred meters.
 The total change in time is eight point zero seconds.
 The initial position is four hundred meters.
-The final position is two thousand meters.](../resources/Figure02_07_02.jpg
+The final position is two thousand meters.](/resources/Figure02_07_02.jpg
 "Graph of position versus time for a jet-powered car on the Bonneville Salt Flats.
 ")
 {: #import-auto-id2574769}
@@ -160,7 +160,7 @@ Line has a positive slope that increases with time.
 Second line graph is of velocity over time.
 Line is straight with a positive slope.
 Third line graph is of acceleration over time.
-Line is straight and horizontal, indicating constant acceleration.](../resources/Figure02_07_03.jpg
+Line is straight and horizontal, indicating constant acceleration.](/resources/Figure02_07_03.jpg
 "Graphs of motion of a jet-powered car during the time span when its acceleration is constant.
 (a) The slope of an \(x\) vs. \(t\) graph is velocity.
 This is shown at two points, and the instantaneous velocities obtained are plotted in the next graph.
@@ -171,7 +171,7 @@ acceleration.
 over the time interval plotted.")
 {: #import-auto-id3596921}
 
-![](../resources/Figure_02_07_03a.jpg "A U.S. Air Force jet car speeds down a track. (credit: Matt Trostle, Flickr)")
+![](/resources/Figure_02_07_03a.jpg "A U.S. Air Force jet car speeds down a track. (credit: Matt Trostle, Flickr)")
 
 {: #import-auto-id3583460}
 
@@ -204,7 +204,7 @@ There are two points on the curve, labeled, P and Q.
 P is located at time equals ten seconds.
 Q is located and time equals twenty-five seconds.
 A line tangent to P at ten seconds is drawn and has a slope delta x sub P over delta t sub p. A line tangent to Q at twenty five seconds is drawn and has a slope equal to delta x sub q over delta t sub q. Select coordinates are given in a table and consist of the following: time zero seconds displacement two hundred meters; time five seconds displacement three hundred thirty eight meters; time ten seconds displacement six hundred meters; time fifteen seconds displacement nine hundred eighty eight meters. Time twenty seconds displacement one thousand five hundred meters; time twenty five seconds displacement two thousand one hundred thirty eight meters; time thirty seconds
-displacement two thousand nine hundred meters.](../resources/Figure02_07_03b.jpg
+displacement two thousand nine hundred meters.](/resources/Figure02_07_03b.jpg
 "The slope of an \( x \) vs. \( t \) graph is velocity.
 This is shown at two points. Instantaneous velocity at any point is
 the slope of the tangent at that point.")
@@ -313,7 +313,7 @@ Second line graph is of velocity over time.
 Line graph has a positive slope that decreases over time and flattens out at the end.
 Third line graph is of acceleration over time.
 Line has a negative slope that increases over time until it flattens out at the end.
-The line is not smooth, but has several kinks.](../resources/Figure02_07_04.jpg "Graphs of
+The line is not smooth, but has several kinks.](/resources/Figure02_07_04.jpg "Graphs of
 motion of a jet-powered car as it reaches its top velocity.
 This motion begins where the motion in [link] ends.
 (a) The slope of this graph is velocity; it is plotted in the next graph.
@@ -376,7 +376,7 @@ A graph of velocity vs. time of a ship coming into a harbor is shown below.
 The line has three legs.
 The first leg is flat.
 The second leg has a negative slope.
-The third leg also has a negative slope, but the slope is not as negative as the second leg.](../resources/Figure_02_07_04a.jpg)
+The third leg also has a negative slope, but the slope is not as negative as the second leg.](/resources/Figure_02_07_04a.jpg)
 {: #import-auto-id3504346}
 
 </div>
@@ -394,7 +394,7 @@ There are three legs of the graph.
 All three legs are flat and straight.
 The first leg shows constant acceleration of 0.
 The second leg shows a constant negative acceleration.
-The third leg shows a constant negative acceleration that is not as negative as the second leg.](../resources/Figure_02_07_04b.jpg)
+The third leg shows a constant negative acceleration that is not as negative as the second leg.](/resources/Figure_02_07_04b.jpg)
 {: #import-auto-id1666671}
 
 </div>
@@ -425,7 +425,7 @@ zero, and
 ![Line graph of position versus time with 5 points labeled: a, b, c, d, and e.
 The slope of the line changes.
 It begins with a positive slope that decreases over time until around point d, where it is flat.
-It then has a slightly negative slope.](../resources/Figure_03_08Sol_01.jpg)
+It then has a slightly negative slope.](/resources/Figure_03_08Sol_01.jpg)
 {: #import-auto-id4064025}
 
 </div>
@@ -442,7 +442,7 @@ greatest.
 ![Line graph of position over time with 12 points labeled a through l.
 Line has a negative slope from a to c, where it turns and has a positive slope till point e.
 It turns again and has a negative slope till point g.
-The slope then increases again till l, where it flattens out.](../resources/Figure_03_08Sol_02.jpg)
+The slope then increases again till l, where it flattens out.](/resources/Figure_03_08Sol_02.jpg)
 {: #import-auto-id2562897}
 
 </div>
@@ -456,7 +456,7 @@ The slope then increases again till l, where it flattens out.](../resources/Figu
 ![Line graph of velocity over time with two points labeled.
 Point P is at v 1 t 1.
 Point Q is at v 2 t 2.
-The line has a positive slope that increases over time.](../resources/Figure_03_08Sol_04.jpg)
+The line has a positive slope that increases over time.](/resources/Figure_03_08Sol_04.jpg)
 {: #import-auto-id1778975}
 
 </div>
@@ -471,7 +471,7 @@ The line has a positive slope that increases over time.](../resources/Figure_03_
 
 ![Line graph of velocity over time with 12 points labeled a through l.
 The line has a positive slope from a at the origin to d where it slopes downward to e, and then back upward to h.
-It then slopes back down to point l at v equals 0.](../resources/Figure_03_08Sol_05.jpg)
+It then slopes back down to point l at v equals 0.](/resources/Figure_03_08Sol_05.jpg)
 {: #import-auto-id1447833}
 
 </div>
@@ -490,7 +490,7 @@ Sketch graphs of (a) position vs. time and (b) acceleration vs. time for this tr
 
 ![Line graph of velocity versus time.
 Line begins at the origin and has a positive slope until it reaches 3 meters per second at 3 seconds.
-The slope is then zero until 18 seconds, where it becomes negative until the line reaches a velocity of 0 at 23 seconds.](../resources/Figure_03_08Sol_07.jpg)
+The slope is then zero until 18 seconds, where it becomes negative until the line reaches a velocity of 0 at 23 seconds.](/resources/Figure_03_08Sol_07.jpg)
 {: #import-auto-id2006890}
 
 </div>
@@ -519,11 +519,11 @@ in [[link]](#import-auto-id4101417), verify that the jet car’s acceleration is
 $$ 5.0 \mss $$.
 
 ![Line graph of position over time.
-Line has positive slope that increases over time.](../resources/Figure_02_08Sol_11.jpg)
+Line has positive slope that increases over time.](/resources/Figure_02_08Sol_11.jpg)
 {: #import-auto-id1798398}
 
 ![Line graph of velocity versus time.
-Line is straight with a positive slope.](../resources/Figure_02_08Sol_12.jpg)
+Line is straight with a positive slope.](/resources/Figure_02_08Sol_12.jpg)
 
 {: #import-auto-id4101417}
 
@@ -542,7 +542,7 @@ in[[link]](#import-auto-id4122996) to verify that the velocity at $$ t=10.0 \s $
 is 0.208 m/s. Assume all values are known to 3 significant figures.
 
 ![Line graph of position versus time.
-Line is straight with a positive slope.](../resources/Figure_02_08Sol_13.jpg)
+Line is straight with a positive slope.](/resources/Figure_02_08Sol_13.jpg)
 {: #import-auto-id4122996}
 
 </div>
@@ -567,7 +567,7 @@ By taking the slope of the curve in [[link]](#import-auto-id3552017), verify
 that the acceleration is $$ 3.2 \mss $$ at $$ t=10 \s $$.
 
 ![Line graph of velocity versus time.
-Line has a positive slope that decreases over time until the line flattens out.](../resources/Figure_02_08Sol_14.jpg)
+Line has a positive slope that decreases over time until the line flattens out.](/resources/Figure_02_08Sol_14.jpg)
 {: #import-auto-id3552017}
 
 </div>
@@ -585,7 +585,7 @@ for this figure.
 <div data-type="solution">
 ![Line graph of position versus time.
 Line begins with a slight positive slope.
-It then kinks to a much greater positive slope.](../resources/Figure_02_08Sol_15.jpg){: #import-auto-id3597350}
+It then kinks to a much greater positive slope.](/resources/Figure_02_08Sol_15.jpg){: #import-auto-id3597350}
 
 </div>
 </div>
@@ -597,15 +597,15 @@ It then kinks to a much greater positive slope.](../resources/Figure_02_08Sol_15
 in [[link]](#import-auto-id4128350).
 
 ![Line graph of position over time.
-Line begins sloping upward, then kinks back down, then kinks back upward again.](../resources/Figure_02_08Sol_16.jpg)
+Line begins sloping upward, then kinks back down, then kinks back upward again.](/resources/Figure_02_08Sol_16.jpg)
 {: #import-auto-id4064858}
 
 ![Line graph of velocity over time.
 Line begins with a positive slope, then kinks downward with a negative slope, then kinks back upward again.
-It kinks back down again slightly, then back up again, and ends with a slightly less positive slope.](../resources/Figure02_08Sol_17.jpg)
+It kinks back down again slightly, then back up again, and ends with a slightly less positive slope.](/resources/Figure02_08Sol_17.jpg)
 {: #import-auto-id4128350}
 
-![](../resources/Figure_02_08Sol_18.jpg){: #import-auto-id4151339}
+![](/resources/Figure_02_08Sol_18.jpg){: #import-auto-id4151339}
 
 </div>
 </div>
@@ -623,7 +623,7 @@ first 4 s?
 ![Line graph of velocity versus time.
 The line has two legs.
 The first has a constant positive slope.
-The second is flat, with a slope of 0.](../resources/Figure_02_08Sol_20.jpg)
+The second is flat, with a slope of 0.](/resources/Figure_02_08Sol_20.jpg)
 {: #import-auto-id4125036}
 
 </div>
@@ -648,7 +648,7 @@ The line has 4 legs.
 The first leg has a positive slope.
 The second leg has a negative slope.
 The third has a slope of 0.
-The fourth has a positive slope.](../resources/Figure_02_08Sol_21.jpg)
+The fourth has a positive slope.](/resources/Figure_02_08Sol_21.jpg)
 {: #import-auto-id4035681}
 
 </div>

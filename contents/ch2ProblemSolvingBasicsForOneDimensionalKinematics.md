@@ -10,7 +10,7 @@ layout: page
 
 </div>
 
-![Close-up photo of a hand writing in a notebook. On top of the notebook is a graphing calculator.](../resources/Figure_02_06_00.jpg "Problem-solving skills are essential to your success in Physics. (credit: scui3asteveo, Flickr)")
+![Close-up photo of a hand writing in a notebook. On top of the notebook is a graphing calculator.](/resources/Figure_02_06_00.jpg "Problem-solving skills are essential to your success in Physics. (credit: scui3asteveo, Flickr)")
 {: #import-auto-id1788945}
 
 Problem-solving skills are obviously essential to success in a quantitative
