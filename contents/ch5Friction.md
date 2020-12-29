@@ -566,7 +566,7 @@ Calculate the deceleration of a snow boarder going up a $$ 5.0^\circ $$, slope
 assuming the coefficient of friction for waxed wood on wet snow. The
 result of [[link]](#fs-id1395614) may be useful, but be careful to consider the
 fact that the snow boarder is going uphill. Explicitly show how you follow the
-steps in [Problem-Solving Strategies](/contents/m42076.md).
+steps in [Problem-Solving Strategies](/contents/ch4ProblemSolvingStrategies.md).
 
 </div>
 <div data-type="solution" markdown="1">
@@ -582,7 +582,7 @@ slope, assuming the coefficient of friction for waxed wood on wet snow.
 (b) Find the angle of the slope down which this skier could coast at a constant velocity.
 You can neglect air resistance in both parts, and you will find the result
 of [[link]](#fs-id1395614) to be useful. Explicitly show how you follow the
-steps in the [Problem-Solving Strategies](/contents/m42076.md).
+steps in the [Problem-Solving Strategies](/contents/ch4ProblemSolvingStrategies.md).
 
 </div>
 </div>

@@ -36,7 +36,7 @@ a very large angular momentum. An object that has a large angular velocity $$
 <div data-type="title">
 Making Connections
 </div>
-Angular momentum is completely analogous to linear momentum, first presented in [Uniform Circular Motion and Gravitation](/contents/m42140.md). It has the same implications in terms of carrying rotation forward, and it is conserved when the net external torque is zero. Angular momentum, like linear momentum, is also a property of the atoms and subatomic particles.
+Angular momentum is completely analogous to linear momentum, first presented in [Uniform Circular Motion and Gravitation](/contents/ch6UniformCircularMotionAndGravitation.md). It has the same implications in terms of carrying rotation forward, and it is conserved when the net external torque is zero. Angular momentum, like linear momentum, is also a property of the atoms and subatomic particles.
 
 </div>
 

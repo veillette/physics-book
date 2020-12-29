@@ -430,7 +430,10 @@ The upper leg muscle (quadriceps) exerts a force of 1250 N, which is carried by 
 
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
-A device for exercising the upper leg muscle is shown in [[link]](#import-auto-id794844), together with a schematic representation of an equivalent lever system. Calculate the force exerted by the upper leg muscle to lift the mass at a constant speed. Explicitly show how you follow the steps in the Problem-Solving Strategy for static equilibrium in [Applications of Statistics, Including Problem-Solving Strategies](/contents/m42173.md).
+A device for exercising the upper leg muscle is shown in [[link]](#import-auto-id794844), together with a schematic representation of an equivalent lever system.
+Calculate the force exerted by the upper leg muscle to lift the mass at a constant speed. Explicitly show how you follow the steps in the Problem-Solving Strategy for static equilibrium 
+in [Applications of Statics, Including Problem-Solving Strategies]
+(/contents/ch9ApplicationsOfStaticsIncludingProblemSolvingStrategies.md).
 
 ![A machine for leg exercise is shown. A wire is tied to a cuff around the lower part of a leg. This wire passes over three pulleys and is connected to a ten kg weight. The tension in the wire is shown near the leg in the direction of the wire. On the leg, a point on knee is shown as the pivot. The distance between the pivot and the point where the wire is tied to the leg is thirty five centimeters. A free-body diagram of the leg, represented as a pole, is shown.](../resources/Figure_10_06_07a.jpg "A mass is connected by pulleys and wires to the ankle in this exercise device. ")
 {: #import-auto-id794844}

@@ -306,7 +306,8 @@ to the right.
 <div data-type="equation" id="import-auto-id2412947">
  $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{+30.0 \text{km/h}}{20.0 s} $$
 </div>
-4\. Since the units are mixed (we have both hours and seconds for time), we need to convert everything into SI units of meters and seconds. (See [Physical Quantities and Units](/contents/m42091.md) for more guidance.)
+4\. Since the units are mixed (we have both hours and seconds for time), we need to convert everything into SI 
+units of meters and seconds. (See [Physical Quantities and Units](/contents/ch1PhysicalQuantitiesAndUnits.md) for more guidance.)
 
 <div data-type="equation" id="import-auto-id2297812">
  $$ \overline{a}=\left(\frac{+30 \text{km/h}}{20.0 \s }\right)\left(\frac{ 10^{3}\m }{1 \text{km}}\right)\left(\frac{1 \text{h}}{3600 \s }\right)=0.417 \mss $$
