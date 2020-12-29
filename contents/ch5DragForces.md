@@ -68,14 +68,14 @@ race times. (
 See [\[link\]](#import-auto-id1165298931800)). “Aerodynamic” shaping of an
 automobile can reduce the drag force and so increase a car’s gas mileage.
 
-![A two-person team in a bobsled race. The bobsled has an aerodynamic design and smooth runners so it can go as fast as possible.](/resources/Figure_06_02_02a.jpg "From racing cars to bobsled racers, aerodynamic shaping is crucial to achieving top speeds. Bobsleds are designed for speed. They are shaped like a bullet with tapered fins. (credit: U.S. Army, via Wikimedia Commons) ")
+![A two-person team in a bobsled race. The bobsled has an aerodynamic design and smooth runners so it can go as fast as possible.](../resources/Figure_06_02_02a.jpg "From racing cars to bobsled racers, aerodynamic shaping is crucial to achieving top speeds. Bobsleds are designed for speed. They are shaped like a bullet with tapered fins. (credit: U.S. Army, via Wikimedia Commons) ")
 {: #import-auto-id1165298931800}
 
 The value of the drag coefficient, $$ C $$, is determined empirically, usually
 with the use of a wind tunnel. (
 See [\[link\]](#import-auto-id1165298787035)).
 
-![A model plane is can be seen being tested in a wind tunnel.](/resources/Figure_06_02_03a.jpg "NASA researchers test a model plane in a wind tunnel. (credit: NASA/Ames)")
+![A model plane is can be seen being tested in a wind tunnel.](../resources/Figure_06_02_03a.jpg "NASA researchers test a model plane in a wind tunnel. (credit: NASA/Ames)")
 {: #import-auto-id1165298787035}
 
 The drag coefficient can depend upon velocity, but we will assume that it is a
@@ -116,7 +116,7 @@ between a gold and a silver medal. One consequence is that careful and precise
 guidelines must be continuously developed to maintain the integrity of the
 sport.
 
-![Three swimmers with are each wearing an L Z R Racer Suit, which is a swimsuit composed of elastane nylon and polyurethane. The seams of the suit are ultrasonically welded to reduce drag.](/resources/Figure_06_02_05a.jpg "Body suits, such as this LZR Racer Suit, have been credited with many world records after their release in 2008. Smoother &#x201C;skin&#x201D; and more compression forces on a swimmer&#x2019;s body provide at least 10% less drag. (credit: NASA/Kathy Barnstorff)")
+![Three swimmers with are each wearing an L Z R Racer Suit, which is a swimsuit composed of elastane nylon and polyurethane. The seams of the suit are ultrasonically welded to reduce drag.](../resources/Figure_06_02_05a.jpg "Body suits, such as this LZR Racer Suit, have been credited with many world records after their release in 2008. Smoother &#x201C;skin&#x201D; and more compression forces on a swimmer&#x2019;s body provide at least 10% less drag. (credit: NASA/Kathy Barnstorff)")
 {: #import-auto-id1165298678773}
 
 Some interesting situations connected to Newton’s second law occur when
@@ -300,7 +300,7 @@ streamlined pattern (see [\[link\]](#import-auto-id1165298645387)). In humans,
 one important example of streamlining is the shape of sperm, which need to be
 efficient in their use of energy.
 
-![Geese flying across the sky in a V formation.](/resources/Figure_06_02_06a.jpg "Geese fly in a V formation during their long migratory travels. This shape reduces drag and energy consumption for individual birds, and also allows them a better way to communicate. (credit: Julo, Wikimedia Commons)")
+![Geese flying across the sky in a V formation.](../resources/Figure_06_02_06a.jpg "Geese fly in a V formation during their long migratory travels. This shape reduces drag and energy consumption for individual birds, and also allows them a better way to communicate. (credit: Julo, Wikimedia Commons)")
 {: #import-auto-id1165298645387}
 
 <div data-type="note" data-has-label="true" data-label="" markdown="1">

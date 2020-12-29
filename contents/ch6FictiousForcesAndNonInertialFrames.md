@@ -26,7 +26,7 @@ car. Again, a physicist would say that *you* are going in a straight line but
 the *car* moves to the right, and there is no real force on you to the left.
 Recall Newton’s first law.
 
-![In figure a, there is a girl driving a car turning toward right. A fictitious force vector is acting on her body toward left. In figure b, the actual force vector acting on the girl&#x2019;s body is shown toward right.](/resources/Figure_07_04_01a.jpg "(a) The car driver feels herself forced to the left relative to the car when she makes a right turn. This is a fictitious force arising from the use of the car as a frame of reference. (b) In the Earth&#x2019;s frame of reference, the driver moves in a straight line, obeying Newton&#x2019;s first law, and the car moves to the right. There is no real force to the left on the driver relative to Earth. There is a real force to the right on the car to make it turn.")
+![In figure a, there is a girl driving a car turning toward right. A fictitious force vector is acting on her body toward left. In figure b, the actual force vector acting on the girl&#x2019;s body is shown toward right.](../resources/Figure_07_04_01a.jpg "(a) The car driver feels herself forced to the left relative to the car when she makes a right turn. This is a fictitious force arising from the use of the car as a frame of reference. (b) In the Earth&#x2019;s frame of reference, the driver moves in a straight line, obeying Newton&#x2019;s first law, and the car moves to the right. There is no real force to the left on the driver relative to Earth. There is a real force to the right on the car to make it turn.")
 {: #import-auto-id2398724}
 
 We can reconcile these points of view by examining the frames of reference used.
@@ -68,7 +68,7 @@ from the first horse toward the center of the circular base. A shadow of the
 second horse is shown going past the right side of the first horse in
 straight direction, whose net force is equal to zero. A dotted line from
 second as well as first horse are shown meeting at the center point making
-an angle.](/resources/Figure_07_04_02a.jpg "(a) A rider on a
+an angle.](../resources/Figure_07_04_02a.jpg "(a) A rider on a
 merry-go-round feels as if he is being thrown off. This fictitious force is
 called the centrifugal force&#x2014;it explains the rider&#x2019;s motion in
 the rotating frame of reference.  (b) In an inertial frame of reference and
@@ -85,7 +85,7 @@ greater the centrifugal force. But what really happens is that the inertia of
 the particles carries them along a line tangent to the circle while the test
 tube is forced in a circular path by a centripetal force.
 
-![A test tube is fitted in a centrifuge. The centrifuge is rotating toward the left. The inertial force vector on a particle inside the liquid is directed toward the left. The  centrifugal force is directed toward the bottom of the test tube. The angular velocity is marked as omega.](/resources/Figure_07_04_03a.jpg "Centrifuges use inertia to perform their task. Particles in the fluid sediment come out because their inertia carries them away from the center of rotation. The large angular velocity of the centrifuge quickens the sedimentation. Ultimately, the particles will come into contact with the test tube walls, which will then supply the centripetal force needed to make them move in a circle of constant radius.")
+![A test tube is fitted in a centrifuge. The centrifuge is rotating toward the left. The inertial force vector on a particle inside the liquid is directed toward the left. The  centrifugal force is directed toward the bottom of the test tube. The angular velocity is marked as omega.](../resources/Figure_07_04_03a.jpg "Centrifuges use inertia to perform their task. Particles in the fluid sediment come out because their inertia carries them away from the center of rotation. The large angular velocity of the centrifuge quickens the sedimentation. Ultimately, the particles will come into contact with the test tube walls, which will then supply the centripetal force needed to make them move in a circle of constant radius.")
 {: #import-auto-id2521081}
 
 Let us now consider what happens if something moves in a frame of reference that
@@ -101,7 +101,7 @@ ball to curve to the right. The fictitious Coriolis force can be used by anyone
 in that frame of reference to explain why objects follow curved paths and allows
 us to apply Newton’s Laws in non-inertial frames of reference.
 
-![In the figure, a child on a merry-go-round is shown. A person slides a ball from the center from the point A toward the point B. The path covered by the ball on the merry-go-round is shown, which is a curved path. The ball reaches a point away from the point B.](/resources/Figure_07_04_04a.jpg "Looking down on the counterclockwise rotation of a merry-go-round, we see that a ball slid straight toward the edge follows a path curved to the right. The person slides the ball toward point B, starting at point A. Both points rotate to the shaded positions (A&#x2019; and B&#x2019;) shown in the time that the ball follows the curved path in the rotating frame and a straight path in Earth&#x2019;s frame.")
+![In the figure, a child on a merry-go-round is shown. A person slides a ball from the center from the point A toward the point B. The path covered by the ball on the merry-go-round is shown, which is a curved path. The ball reaches a point away from the point B.](../resources/Figure_07_04_04a.jpg "Looking down on the counterclockwise rotation of a merry-go-round, we see that a ball slid straight toward the edge follows a path curved to the right. The person slides the ball toward point B, starting at point A. Both points rotate to the shaded positions (A&#x2019; and B&#x2019;) shown in the time that the ball follows the curved path in the rotating frame and a straight path in Earth&#x2019;s frame.")
 {: #import-auto-id1471752}
 
 Up until now, we have considered Earth to be an inertial frame of reference with
@@ -145,7 +145,7 @@ Either view allows us to describe nature, but a view in an inertial frame is the
 simplest and truest, in the sense that all forces have real origins and
 explanations.
 
-![Figure a is a satellite photo of a hurricane rotating in counterclockwise direction. Figures b, c, and d are diagrams. In figure b, there are four arrows directed toward a low pressure zone at a point from North, East, West and South. Near each arrow there is a green dotted vector turned toward right at its arrow head which shows the direction of Coriolis force. In figure c, there is a small circle directed counter clockwise over the low pressure zone, which shows that the winds are deflected by Coriolis force. In figure d, a high-pressure zone is shown. Around it there are four green vectors directed toward their right near the arrow head. Figure e is a satellite photo of a tropical cyclone in the southern hemisphere. The direction of this cyclone is clockwise.](/resources/Figure_07_04_05a.jpg "(a) The counterclockwise rotation of this northern hemisphere hurricane is a major consequence of the Coriolis force. (credit: NASA)  (b) Without the Coriolis force, air would flow straight into a low-pressure zone, such as that found in tropical cyclones.
+![Figure a is a satellite photo of a hurricane rotating in counterclockwise direction. Figures b, c, and d are diagrams. In figure b, there are four arrows directed toward a low pressure zone at a point from North, East, West and South. Near each arrow there is a green dotted vector turned toward right at its arrow head which shows the direction of Coriolis force. In figure c, there is a small circle directed counter clockwise over the low pressure zone, which shows that the winds are deflected by Coriolis force. In figure d, a high-pressure zone is shown. Around it there are four green vectors directed toward their right near the arrow head. Figure e is a satellite photo of a tropical cyclone in the southern hemisphere. The direction of this cyclone is clockwise.](../resources/Figure_07_04_05a.jpg "(a) The counterclockwise rotation of this northern hemisphere hurricane is a major consequence of the Coriolis force. (credit: NASA)  (b) Without the Coriolis force, air would flow straight into a low-pressure zone, such as that found in tropical cyclones.
 (c) The Coriolis force deflects the winds to the right, producing a counterclockwise rotation. (d) Wind flowing away from a high-pressure zone is also deflected to the right, producing a clockwise rotation.  (e) The opposite direction of rotation is produced by the Coriolis force in the southern hemisphere, leading to tropical cyclones. (credit: NASA)")
 {: #import-auto-id2962993}
 
