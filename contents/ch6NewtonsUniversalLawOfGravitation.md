@@ -146,7 +146,10 @@ Take a marble, a ball, and a spoon and drop them from the same height. Do they h
 <div data-type="title">
 Making Connections
 </div>
-Attempts are still being made to understand the gravitational force. As we shall see in [Particle Physics](/contents/m42667.md), modern physics is exploring the connections of gravity to other forces, space, and time. General relativity alters our view of gravitation, leading us to think of gravitation as bending space and time.
+Attempts are still being made to understand the gravitational force. 
+Modern physics is exploring the connections of gravity to other forces,
+space, and time. General relativity alters our view of gravitation,
+leading us to think of gravitation as bending space and time.
 
 </div>
 

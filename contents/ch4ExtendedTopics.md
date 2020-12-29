@@ -40,7 +40,7 @@ chapters.
 Concept Connections: The Four Basic Forces
 </div>
 The four basic forces will be encountered in more detail as you progress in you study.
-The gravitational force is defined in [Uniform Circular Motion and Gravitation](/contents/m42140.md).
+The gravitational force is defined in [Uniform Circular Motion and Gravitation](/contents/ch6UniformCircularMotionAndGravitation.md).
 On a macroscopic scale, electromagnetism and gravity are the basis for all forces.
 The nuclear forces are vital to the substructure of matter, but they are not directly
 experienced on the macroscopic scale.

@@ -64,8 +64,7 @@ beginning of the 20<sup>th</sup>
 century, Albert Einstein (1879–1955) developed the theory of relativity and,
 along with many other scientists, developed quantum theory. This theory does not
 have the constraints present in classical physics. All of the situations we
-consider in this chapter, and all those preceding the introduction of relativity
-in [Special Relativity](/contents/m42525.md), are in the realm of classical
+consider in this chapter are in the realm of classical
 physics.
 
 <div data-type="note" data-has-label="true" data-label="" markdown="1">

@@ -597,7 +597,7 @@ Then calculate the average speed of the Earth in its orbit in kilometers per sec
 
 * {: data-type="footnote-ref" #footnote1} [1](#footnote-ref1){: data-type="
   footnote-ref-link"
-  } <span data-type="footnote-ref-content">See [Appendix A](/contents/m42699.md)
+  } <span data-type="footnote-ref-content">See [Appendix A](/contents/appAUsefulInformation.md)
   for a discussion of powers of 10.</span>
   {: data-list-type="bulleted" data-bullet-style="none"}
 

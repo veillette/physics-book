@@ -74,7 +74,9 @@ radius. This equation is valid only for comparing two small masses orbiting the
 same large one. Most importantly, this is a descriptive equation only, giving no
 information as to the cause of the equality.
 
-![In the figure, the elliptical path of a planet is shown. The Sun is at the left focus. Three shaded regions M A B, M C D and M E F are marked on the figure by joining the Sun to the three pairs of points A B, C D, and E F on the elliptical path. The velocity of the planet is shown on the planet in a direction tangential to the path.](../resources/Figure_07_06_02a.jpg "The shaded regions have equal areas. It takes equal times for  \( m \)  to go from A to B, from C to D, and from E to F. The mass  \( m \)  moves fastest when it is closest to  \( M \) . Kepler&#x2019;s second law was originally devised for planets orbiting the Sun, but it has broader validity. ")
+![In the figure, the elliptical path of a planet is shown. The Sun is at the 
+left focus. Three shaded regions M A B, M C D and M E F are marked on the 
+figure by joining the Sun to the three pairs of points A B, C D, and E F on the elliptical path. The velocity of the planet is shown on the planet in a direction tangential to the path.](../resources/Figure_07_06_02a.jpg "The shaded regions have equal areas. It takes equal times for  \( m \)  to go from A to B, from C to D, and from E to F. The mass  \( m \)  moves fastest when it is closest to  \( M \) . Kepler&#x2019;s second law was originally devised for planets orbiting the Sun, but it has broader validity. ")
 {: #import-auto-id1318502}
 
 Note again that while, for historical reasons, Kepler’s laws are stated for
@@ -230,7 +232,7 @@ verification of Newton’s universal law of gravitation.
 Making Connections
 </div>
 Newton’s universal law of gravitation is modified by Einstein’s general theory of
-relativity, as we shall see in [Particle Physics](/contents/m42667.md). Newton’s gravity
+relativity. Newton’s gravity
 is not seriously in error—it was and still is an extremely good approximation for most
 situations. Einstein’s modification is most noticeable in extremely large gravitational
 fields, such as near black holes. However, general relativity also explains such
