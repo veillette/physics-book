@@ -108,7 +108,8 @@ dimples on golf balls are being redesigned as are the clothes that athletes
 wear. Bicycle racers and some swimmers and runners wear full bodysuits.
 Australian Cathy Freeman wore a full body suit in the 2000 Sydney Olympics, and
 won the gold medal for the 400 m race. Many swimmers in the 2008 Beijing
-Olympics wore (Speedo) body suits; it might have made a difference in breaking
+Olympics wore full-length body suits; it might have made a difference in 
+breaking
 many world records (See [\[link\]](#import-auto-id1165298678773)). Most elite
 swimmers (and cyclists) shave their body hair. Such innovations can have the
 effect of slicing away milliseconds in a race, sometimes making the difference
@@ -116,7 +117,15 @@ between a gold and a silver medal. One consequence is that careful and precise
 guidelines must be continuously developed to maintain the integrity of the
 sport.
 
-![Three swimmers with are each wearing an L Z R Racer Suit, which is a swimsuit composed of elastane nylon and polyurethane. The seams of the suit are ultrasonically welded to reduce drag.](../resources/Figure_06_02_05a.jpg "Body suits, such as this LZR Racer Suit, have been credited with many world records after their release in 2008. Smoother &#x201C;skin&#x201D; and more compression forces on a swimmer&#x2019;s body provide at least 10% less drag. (credit: NASA/Kathy Barnstorff)")
+![Three swimmers with are each wearing an L Z R Racer Suit, which is a swimsuit composed of
+elastane nylon and polyurethane. The seams of the suit are ultrasonically welded
+to reduce drag.](../resources/Figure_06_02_05a.jpg "Body suits, such as this LZR Racer Suit,
+have been credited with many world records after their release in 2008.
+Smoother &#x201C;skin&#x201D; and more compression forces
+on a swimmer&#x2019;s body provide at least 10% less drag.
+They were deemed to provide an unfair advantage to the wearer by FINA, 
+which led to a ban on all swimsuits of a similar nature.
+(credit: NASA/Kathy Barnstorff)")
 {: #import-auto-id1165298678773}
 
 Some interesting situations connected to Newton’s second law occur when
