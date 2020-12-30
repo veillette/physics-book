@@ -331,7 +331,11 @@ Land west of the San Andreas fault in southern California is moving at an averag
 
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
-On May 26, 1934, a streamlined, stainless steel diesel train called the Zephyr set the world’s nonstop long-distance speed record for trains. Its run from Denver to Chicago took 13 hours, 4 minutes, 58 seconds, and was witnessed by more than a million people along the route. The total distance traveled was 1633.8 km. What was its average speed in km/h and m/s?
+On May 26, 1934, a streamlined, stainless steel diesel train called the Zephyr
+set the world’s nonstop long-distance speed record for trains. Its run from Denver 
+to Chicago took 13 hours, 4 minutes, 58 seconds, and was witnessed by more than a million 
+people along the route. The total distance traveled was 1633.8 km. What was its average 
+speed in km/h and m/s?
 
 </div>
 <div data-type="solution" markdown="1">
