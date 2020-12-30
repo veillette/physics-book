@@ -463,7 +463,7 @@ as a function of its momentum.
 
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
-A ball with an initial velocity of 10 m/s moves at an angle $$ 60^\circ $$
+A ball with a mass of 55g with an initial velocity of 10 m/s moves at an angle $$ 60^\circ $$
 above the $$ +x $$-direction. The ball hits a vertical
 wall and bounces off so that it is moving
 $$ 60^\circ $$ above the $$ -x $$ -direction with the same speed. What is the
@@ -489,7 +489,7 @@ Using these data, find the mass of the ball.
 
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
-A punter drops a ball from rest vertically 1 meter down onto his foot.
+A punter drops a 0.075kg-ball from rest vertically 1 meter down onto his foot.
 The ball leaves the foot with a speed of 18 m/s at an angle $$ 55^\circ $$
 above the horizontal. What is the impulse delivered by the foot (magnitude and
 direction)?
