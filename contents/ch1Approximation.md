@@ -61,7 +61,7 @@ Approximating Vast Numbers: a Trillion Dollars
 </div>
 ![A bank stack containing one hundred hundred-dollar bills.](../resources/Figure_01_04_01.jpg "A bank stack contains one-hundred $100 bills, and is worth $10 000. How many bank stacks make up a trillion dollars? (credit: Andrew Magill)"){: #import-auto-id2966692}
 
-The U.S. federal deficit in the 2008 fiscal year was a little greater than $ 10
+The U.S. federal deficit in the 2019 fiscal year was a little greater than $ 1
 trillion. Most of us do not have any concept of how much even one trillion
 actually is. Suppose that you were given a trillion dollars in $100 bills. If
 you made 100-bill stacks and used them to evenly cover a football field (between
