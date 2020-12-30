@@ -4,84 +4,55 @@ layout: page
 ---
 
 
-Welcome to *College Physics*, an OpenStax resource. This textbook was written to
-increase student access to high-quality learning materials, maintaining highest
-standards of academic rigor at little to no cost.
-
-### About OpenStax {#eip-861}
-
-OpenStax is a nonprofit based at Rice University, and it’s our mission to
-improve student access to education. Our first openly licensed college textbook
-was published in 2012, and our library has since scaled to over 20 books for
-college and AP courses used by hundreds of thousands of students. Our adaptive
-learning technology, designed to improve learning outcomes through personalized
-educational paths, is being piloted in college courses throughout the country.
-Through our partnerships with philanthropic foundations and our alliance with
-other educational resource organizations, OpenStax is breaking down the most
-common barriers to learning and empowering students and instructors to succeed.
-
-### About OpenStax Resources {#eip-717}
+Welcome to *General Physics*. This textbook is derived from *College 
+Physics*, an OpenStax resource. OpenStax is a nonprofit based at Rice 
+University, whose mission is to improve student access to education. This 
+textbook was written to increase student access to high-quality learning
+materials, maintaining highest standards of academic rigor at little to no 
+cost.
 
 #### Customization {#eip-358}
 
-College Physics is licensed under a Creative Commons Attribution 4.0
+General Physics is licensed under a Creative Commons Attribution 4.0
 International (CC BY) license, which means that you can distribute, remix, and
-build upon the content, as long as you provide attribution to OpenStax and its
+build upon the content, as long as you provide attribution to its
 content contributors.
 
-Because our books are openly licensed, you are free to use the entire book or
-pick and choose the sections that are most relevant to the needs of your course.
-Feel free to remix the content by assigning your students certain chapters and
-sections in your syllabus, in the order that you prefer. You can even provide a
-direct link in your syllabus to the sections in the web view of your book.
+### About *General Physics*   {#eip-532}
 
-Instructors also have the option of creating a customized version of their
-OpenStax book. The custom version can be made available to students in low-cost
-print or digital form through their campus bookstore. Visit your book page on
-openstax.org for more information.
-
-### About *College Physics*   {#eip-532}
-
-*College Physics* meets standard scope and sequence requirements for a
-two-semester introductory algebra-based physics course. The text is grounded in
+*General Physics* meets standard scope and sequence requirements for 
+an introductory algebra-based physics course. The text is grounded in
 real-world examples to help students grasp fundamental physics concepts. It
-requires knowledge of algebra and some trigonometry, but not calculus. *College
+requires knowledge of algebra and some trigonometry, but not calculus. *General
 Physics* includes learning objectives, concept questions, links to labs and
 simulations, and ample practice opportunities for traditional physics
 application problems.
 
 #### Coverage and Scope {#eip-739}
 
-College Physics is organized such that topics are introduced conceptually with a
+General Physics is organized such that topics are introduced conceptually with a
 steady progression to precise definitions and analytical applications. The
 analytical aspect (problem solving) is tied back to the conceptual before moving
 on to another topic. Each introductory chapter, for example, opens with an
 engaging photograph relevant to the subject of the chapter and interesting
 applications that are easy for most students to visualize.
 
-Chapter 1: Introduction: The Nature of Science and Physics
+* [Chapter 1: Introduction: The Nature of Science and 
+  Physics](../contents/ch1PhysicsAnIntroduction.md)
+* [Chapter 2: Kinematics](../contents/ch2Kinematics.md)
+* [Chapter 3: Two-Dimensional Kinematics](../contents/ch2Kinematics.md)
+* [Chapter 4: Dynamics: Force and Newton\'s Laws of Motion](../contents/ch4Dynamics.md)
+* [Chapter 5: Further Applications of Newton\'s Laws: 
+  Friction, Drag, and 
+Elasticity](../contents/ch5FurtherApplicationsOfNewtonsLaws)
+* [Chapter 6: Uniform Circular Motion and Gravitation](../contents/ch6UniformCircularMotionAndGravitation.md)
+* [Chapter 7: Work, Energy, and Energy Resources](../contents/ch7WorkEnergyAndEnergyResources.md)
+* [Chapter 8: Linear Momentum and Collisions](../contents/ch8LinearMomentumAndCollisions.md)
+* [Chapter 9: Statics and Torque](../contents/ch9StaticsAndTorque.md)
+* [Chapter 10: Rotational Motion and Angular Momentum](../contents/ch10RotationalMotionAndAngularMomentum.md)
 
-Chapter 2: Kinematics
-
-Chapter 3: Two-Dimensional Kinematics
-
-Chapter 4: Dynamics: Force and Newton\'s Laws of Motion
-
-Chapter 5: Further Applications of Newton\'s Laws: Friction, Drag, and Elasticity
-
-Chapter 6: Uniform Circular Motion and Gravitation
-
-Chapter 7: Work, Energy, and Energy Resources
-
-Chapter 8: Linear Momentum and Collisions
-
-Chapter 9: Statics and Torque
-
-Chapter 10: Rotational Motion and Angular Momentum
-
-Appendix A: Useful Information
-
-Appendix B: Glossary of Key Symbols and Notation
+* [Appendix A: Useful Information](../contents/appAUsefulInformation.md)
+* [Appendix B: Glossary of Key Symbols and Notation](../contents/appBGlossaryOfKeySymbolsAndNotation.md)
 
 #### Concepts and Calculations {#eip-560}
 
@@ -90,13 +61,6 @@ to unify conceptual, analytical, and calculation skills within the learning
 process, we have integrated Strategies and Discussions throughout the text.
 
 #### Key Features {#eip-594}
-
-##### Modularity {#eip-165}
-
-This textbook is organized as a collection of modules that can be rearranged and
-modified to suit the needs of a particular professor or class. That being said,
-modules often contain references to content in other modules, as most topics in
-physics cannot be discussed in isolation.
 
 ##### Learning Objectives {#eip-366}
 
@@ -164,7 +128,7 @@ made between apparently disparate phenomena.
 
 ##### Simulations {#eip-795}
 
-Where applicable, students are directed to the interactive PHeT physics
+Where applicable, students are directed to the interactive PhET physics
 simulations developed by the University of Colorado. There they can further
 explore the physics concepts they have learned about in the module.
 
