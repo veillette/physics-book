@@ -507,7 +507,7 @@ graphical technique.
 Repeat [[link]](#eip-287) using analytical techniques, but reverse the order of the two legs of the walk and show that you get the same final result.
 (This problem shows that adding them in reverse order gives the same result—that is,
 $$ \vb{B} + \vb{A} = \vb{A} + \vb{B} $$.) Discuss how taking another path to reach the same point might help to
-overcome an obstacle blocking you other path.
+overcome an obstacle blocking your other path.
 
 </div>
 <div data-type="solution" id="eip-24" markdown="1">
