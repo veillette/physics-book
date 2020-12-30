@@ -51,7 +51,9 @@ that the vectors $$ \vb{A}_{x} +\vb{A}_{y} =\vb{A} $$. However, it is
 **not** true that the sum of the magnitudes of the vectors is also equal. That is,
 
 <div data-type="equation" id="eip-818">
- $$ \begin{array}{}3 \m + 4 \m \ne 5 \m \\ \end{array} $$
+ $$ \begin{array}{}
+3 \m + 4 \m \ne 5 \m \\ 
+\end{array} $$
 </div>
 
 Thus,
