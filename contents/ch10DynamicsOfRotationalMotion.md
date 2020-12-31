@@ -162,7 +162,7 @@ Making Connections
 In statics, the net torque is zero, and there is no angular acceleration. In rotational motion, net torque is the cause of angular acceleration, exactly as in Newton’s second law of motion for rotation.
 
 ![Illustrations of ten different objects accompanied by their rotational inertias.](../resources/Figure_11_03_06.jpg "Some rotational inertias.")
-{: height="525"}
+{: #fs-id1838666 height="525"}
 
 </div>
 
@@ -386,7 +386,7 @@ In which case does it reach a greater height, and why?
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
 This problem considers additional aspects of example [Calculating the Effect of Mass Distribution on
-a Merry-Go-Round](/contents/ch10DynamicsOfRotationalMotion.md#fs-id1468671).
+a Merry-Go-Round](../contents/ch10DynamicsOfRotationalMotion.md#fs-id1468671).
 (a) How long does it take the father to give the merry-go-round an angular velocity of 1.50 rad/s?
 (b) How many revolutions must he go through to generate this velocity?
 (c) If he exerts a slowing force of 300 N at a radius of 1.35 m, how long would it take him to stop them?
@@ -478,7 +478,7 @@ because he knows Zorch can only exert a force of $$ 4.00\times 10^{7}\N $$
 with this force to accomplish his goal? (
 This period gives Superman time to devote to other villains.) Explicitly show
 how you follow the steps found
-in [Problem-Solving Strategy for Rotational Dynamics](/contents/ch10DynamicsOfRotationalMotion.md#fs-id2929358) .
+in [Problem-Solving Strategy for Rotational Dynamics](../contents/ch10DynamicsOfRotationalMotion.md#fs-id2929358) .
 
 </div>
 <div data-type="solution" markdown="1">

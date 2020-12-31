@@ -274,7 +274,7 @@ $$
 Note that the unwanted m unit cancels, leaving only the desired km unit. You can
 use this method to convert between any types of unit.
 
-The [\[Appendix\]](/contents/appAUsefulInformation.md) has a more complete list of conversion
+The [\[Appendix\]](../contents/appAUsefulInformation.md) has a more complete list of conversion
 factors.
 
 ##### Table: Approximate Values of Length, Mass, and Time
@@ -394,7 +394,7 @@ You may have noted that the answers in the worked example just covered were
 given to three digits. Why? When do you need to be concerned about the number of
 digits in something you calculate? Why not write down all the digits your
 calculator produces? The
-module [Accuracy, Precision, and Significant Figures](/contents/ch1AccuracyPrecisionAndSignificantFigures.md) will
+module [Accuracy, Precision, and Significant Figures](../contents/ch1AccuracyPrecisionAndSignificantFigures.md) will
 help you answer these questions.
 
 </div>
@@ -597,7 +597,7 @@ Then calculate the average speed of the Earth in its orbit in kilometers per sec
 
 * {: data-type="footnote-ref" #footnote1} [1](#footnote-ref1){: data-type="
   footnote-ref-link"
-  } <span data-type="footnote-ref-content">See [Appendix A](/contents/appAUsefulInformation.md)
+  } <span data-type="footnote-ref-content">See [Appendix A](../contents/appAUsefulInformation.md)
   for a list of powers of 10.</span>
   {: data-list-type="bulleted" data-bullet-style="none"}
 

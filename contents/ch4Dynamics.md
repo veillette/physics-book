@@ -59,7 +59,7 @@ motion only when the objects are moving at speeds much, much less than the speed
 of light and when those objects are larger than the size of most molecules (
 about $$ 10^{-9}\m $$ in diameter). These constraints define the realm of
 classical mechanics, as discussed
-in [Introduction to the Nature of Science and Physics](/contents/ch1IntroductionTheNatureOfScienceAndPhysics.md). At the
+in [Introduction to the Nature of Science and Physics](../contents/ch1IntroductionTheNatureOfScienceAndPhysics.md). At the
 beginning of the 20<sup>th</sup>
 century, Albert Einstein (1879–1955) developed the theory of relativity and,
 along with many other scientists, developed quantum theory. This theory does not
