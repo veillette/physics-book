@@ -438,7 +438,8 @@ r_{2}& =& \frac{ w_{1}r_{1}+m_{\s}{gr}_{\s}}{ w_{2}}=\frac{ m_{1}{gr}_{1}+m_{\s}
 b) Since the children are not moving:
 
 <div data-type="equation" id="import-auto-id1428249">
- $$ \begin{array}{}\text{net}F=0=F_{\text{p}}-w_{1}-w_{2}-w_{\s}\\ ⇒{F}_{\text{p}}=w_{1}+w_{2}+w_{s}
+ $$ \begin{array}{}
+\text{net}F=0=F_{\text{p}}-w_{1}-w_{2}-w_{\s}\\ ⇒{F}_{\text{p}}=w_{1}+w_{2}+w_{s}
 \end{array} $$
 </div>
 So that

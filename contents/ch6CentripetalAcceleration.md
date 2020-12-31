@@ -201,7 +201,9 @@ we will consider the forces involved in circular motion.
 <div data-type="title">
 PhET Explorations: Ladybug Motion 2D
 </div>
-Learn about position, velocity and acceleration vectors. Move the ladybug by setting the position, velocity or acceleration, and see how the vectors change. Choose linear, circular or elliptical motion, and record and playback the motion to analyze the behavior.
+Learn about position, velocity and acceleration vectors. Move the ladybug by setting the position, velocity or acceleration,
+and see how the vectors change. Choose linear, circular or elliptical motion,
+and record and playback the motion to analyze the behavior.
 
 <figure markdown="1" id="eip-id2886860">
 <figcaption>
