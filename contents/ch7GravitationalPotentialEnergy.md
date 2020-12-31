@@ -23,7 +23,7 @@ goes into an important form of stored energy that we will explore in this
 section.
 
 Let us calculate the work done in lifting an object of mass $$ m $$ through a
-height $$ h $$, such as in [\[link\]](#import-auto-id1697782). If the object is
+height $$ h $$, such as in [[Figure]](#import-auto-id1697782). If the object is
 lifted straight up at constant speed, then the force needed to lift it is equal
 to its weight $$ mg $$. The work done on the mass is then $$ W = Fd = mgh
 $$. We define this to be the **gravitational potential energy**{: data-type="
@@ -55,7 +55,7 @@ of work equal to $$ mgh $$ on it, thereby increasing its kinetic energy by that
 same amount (by the work-energy theorem). We will find it more useful to
 consider just the conversion of $$ \PE_{\text{g}} $$ to $$ \KE $$
 without explicitly considering the intermediate step of work. (
-See [\[link\]](#fs-id2895434).) This shortcut makes it is easier to solve
+See [[Figure]](#fs-id2895434).) This shortcut makes it is easier to solve
 problems using energy (if possible) rather than explicitly using forces.
 
 ![(a) The weight attached to the cuckoo clock is raised by a height h shown by a displacement vector d pointing upward. The weight is attached to a winding chain labeled with a force F vector pointing downward. Vector d is also shown in the same direction as force F. E in is equal to W and W is equal to m g h. (b) The weight attached to the cuckoo clock moves downward. E out is equal to m g h.](../resources/Figure_08_03_01a.jpg "(a) The work done to lift the weight is stored in the mass-Earth system as gravitational potential energy. (b) As the weight moves downward, this gravitational potential energy is transferred to the cuckoo clock.")
@@ -92,7 +92,7 @@ gravity that does the work*.
 The equation $$ \Delta \PE_{\text{g}}=mgh $$ applies for any path that
 has a change in height of $$ h $$, not just when the mass is lifted straight
 up. (
-See [\[link\]](#import-auto-id1556510).) It is much easier to calculate $$ mgh
+See [[Figure]](#import-auto-id1556510).) It is much easier to calculate $$ mgh
 $$
 (a simple multiplication) than it is to calculate the work done along a
 complicated path. The idea of gravitational potential energy has the double
@@ -165,7 +165,7 @@ force acts. A bending motion of 0.5 m this way yields a force 100 times smaller
 than in the example. A kangaroo\'s hopping shows this method in action. The
 kangaroo is the only large animal to use hopping for locomotion, but the shock
 in hopping is cushioned by the bending of its hind legs in each jump.(
-See [\[link\]](#fs-id1503032).)
+See [[Figure]](#fs-id1503032).)
 
 </div>
 
@@ -176,7 +176,7 @@ See [\[link\]](#fs-id1503032).)
 <div data-type="title">
 Finding the Speed of a Roller Coaster from its Height
 </div>
-(a) What is the final speed of the roller coaster shown in [\[link\]](#import-auto-id1349448) if it starts from rest at the top of the 20.0 m hill and work done by frictional forces is negligible?
+(a) What is the final speed of the roller coaster shown in [[Figure]](#import-auto-id1349448) if it starts from rest at the top of the 20.0 m hill and work done by frictional forces is negligible?
 (b) What is its final speed (again assuming negligible friction) if its initial speed is 5.00 m/s?
 
 ![A roller coaster track is shown with a car about to go downhill. The initial height of the roller coaster car on the track is twenty-five meters from the lowest part of the track and its speed v sub zero is equal to zero. The roller coaster&#x2019;s height from the level part of the track is twenty meters. The finish point of the car is on the level part of the track and the speed at that point is unknown.](../resources/Figure_08_03_04a.jpg "The speed of a roller coaster increases as gravity pulls it downhill and is greatest at its lowest point. Viewed in terms of energy, the roller-coaster-Earth system&#x2019;s gravitational potential energy is converted to kinetic energy. If work done by friction is negligible, all \( \Delta \PE_\text{g} \)  is converted to \( \Delta \KE \) .")
@@ -284,7 +284,7 @@ definition of the law of conservation of energy.
 <div data-type="title">
 Making Connections: Take-Home Investigation—Converting Potential to Kinetic Energy
 </div>
-One can study the conversion of gravitational potential energy into kinetic energy in this experiment. On a smooth, level surface, use a ruler of the kind that has a groove running along its length and a book to make an incline (see [\[link\]](#import-auto-id1965985)). Place a marble at the 10-cm position on the ruler and let it roll down the ruler. When it hits the level surface, measure the time it takes to roll one meter. Now place the marble at the 20-cm and the 30-cm positions and again measure the times it takes to roll 1 m on the level surface. Find the velocity of the marble on the level surface for all three positions. Plot velocity squared versus the distance traveled by the marble. What is the shape of each plot? If the shape is a straight line, the plot shows that the marble’s kinetic energy at the bottom is proportional to its potential energy at the release point.
+One can study the conversion of gravitational potential energy into kinetic energy in this experiment. On a smooth, level surface, use a ruler of the kind that has a groove running along its length and a book to make an incline (see [[Figure]](#import-auto-id1965985)). Place a marble at the 10-cm position on the ruler and let it roll down the ruler. When it hits the level surface, measure the time it takes to roll one meter. Now place the marble at the 20-cm and the 30-cm positions and again measure the times it takes to roll 1 m on the level surface. Find the velocity of the marble on the level surface for all three positions. Plot velocity squared versus the distance traveled by the marble. What is the shape of each plot? If the shape is a straight line, the plot shows that the marble’s kinetic energy at the bottom is proportional to its potential energy at the release point.
 
 ![A book is lying on the table and one end of a ruler rests on the edge of this book while the other end rests on the table, making it an incline. A marble is shown rolling down the ruler.](../resources/Figure_08_03_05a.jpg "A marble rolls down a ruler, and its speed on the level surface is measured. ")
 {: #import-auto-id1965985 height="150"}
@@ -310,7 +310,7 @@ One can study the conversion of gravitational potential energy into kinetic ener
 
 <div data-type="exercise" data-element-type="conceptual-questions">
 <div data-type="problem" markdown="1">
-In [[link]](#fs-id2895434), we calculated the final speed of a roller coaster that descended 20 m in height and had an initial speed of 5 m/s downhill. Suppose the roller coaster had had an initial speed of 5 m/s *uphill* instead, and it coasted uphill, stopped, and then rolled back down to a final point 20 m below the start. We would find in that case that its final speed is the same as its initial speed. Explain in terms of conservation of energy.
+In [[Figure]](#fs-id2895434), we calculated the final speed of a roller coaster that descended 20 m in height and had an initial speed of 5 m/s downhill. Suppose the roller coaster had had an initial speed of 5 m/s *uphill* instead, and it coasted uphill, stopped, and then rolled back down to a final point 20 m below the start. We would find in that case that its final speed is the same as its initial speed. Explain in terms of conservation of energy.
 
 </div>
 </div>
@@ -326,7 +326,7 @@ Does the work you do on a book when you lift it onto a shelf depend on the path 
 
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
-A hydroelectric power facility (see [[link]](#import-auto-id1889215)) converts the gravitational potential energy of water behind a dam to electric energy.
+A hydroelectric power facility (see [[Figure]](#import-auto-id1889215)) converts the gravitational potential energy of water behind a dam to electric energy.
 (a) What is the gravitational potential energy relative to the generators of a lake of volume
 $$ 50.0 \text{km}^{3} $$ $$ \left( \text{mass}=5.00\times 10^{13}\kg \right)$$,
 given that the lake has an average height of 40.0 m above the generators?
@@ -373,7 +373,7 @@ Suppose a 350-g kookaburra (a large kingfisher bird) picks up a 75-g snake and r
 
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
-In [[link]](#fs-id2895434), we found that the speed of a roller coaster that had descended 20.0 m was only slightly greater when it had an initial speed of 5.00 m/s
+In [[Figure]](#fs-id2895434), we found that the speed of a roller coaster that had descended 20.0 m was only slightly greater when it had an initial speed of 5.00 m/s
 than when it started from rest. This implies that $$ \Delta \PE \gg \KE_{\text{i}} $$. Confirm this statement by taking the ratio of $$ \Delta \PE $$
 to $$ \KE_{\text{i}} $$. (Note that mass cancels.)
 
@@ -382,7 +382,7 @@ to $$ \KE_{\text{i}} $$. (Note that mass cancels.)
 
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
-A 100-g toy car is propelled by a compressed spring that starts it moving. The car follows the curved track in [[link]](#import-auto-id1299469). Show that the final speed of the toy car is 0.687 m/s if its initial speed is 2.00 m/s and it coasts up the frictionless slope, gaining 0.180 m in altitude.
+A 100-g toy car is propelled by a compressed spring that starts it moving. The car follows the curved track in [[Figure]](#import-auto-id1299469). Show that the final speed of the toy car is 0.687 m/s if its initial speed is 2.00 m/s and it coasts up the frictionless slope, gaining 0.180 m in altitude.
 
 ![A toy car is moving up a curved track.](../resources/Figure_08_03_07a.jpg "A toy car moves up a sloped track. (credit: Leszek Leszczynski, Flickr)")
 {: #import-auto-id1299469 height="200"}

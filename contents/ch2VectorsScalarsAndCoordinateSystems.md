@@ -48,7 +48,7 @@ is a simple coordinate system consisting of a one-dimensional coordinate line.
 In general, when describing horizontal motion, motion to the right is usually
 considered positive, and motion to the left is considered negative. With
 vertical motion, motion up is usually positive and motion down is negative. In
-some cases, however, as with the jet in [\[link\]](#import-auto-id1778274), it
+some cases, however, as with the jet in [[Figure]](#import-auto-id1778274), it
 can be more convenient to switch the positive and negative directions. For
 example, if you are analyzing the motion of falling objects, it can be useful to
 define downwards as the positive direction. If people in a race are running to
@@ -105,7 +105,7 @@ What has the student actually described? Explain.
 
 <div data-type="exercise" data-element-type="conceptual-questions">
 <div data-type="problem" markdown="1">
-What is the speed of the bird in [[link]](#fs-id1364975)?
+What is the speed of the bird in [[Figure]](#fs-id1364975)?
 </div>
 </div>
 

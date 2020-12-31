@@ -23,7 +23,7 @@ production per year; 66% of that oil is imported!
 ### Renewable and Nonrenewable Energy Sources
 
 The principal energy resources used in the world are shown
-in [\[link\]](#import-auto-id2184457). The fuel mix has changed over the years
+in [[Figure]](#import-auto-id2184457). The fuel mix has changed over the years
 but now is dominated by oil, although natural gas and solar contributions are
 increasing. **Renewable forms of energy**{: data-type="term"
 #import-auto-id2093286} are those sources that cannot be used up, such as water,
@@ -48,7 +48,7 @@ World Energy (credit:Veillette)")
 ### The World’s Growing Energy Needs
 
 World energy consumption continues to rise, especially in the developing
-countries. ( See [\[link\]](#import-auto-id2876325).)
+countries. ( See [[Figure]](#import-auto-id2876325).)
 Global demand for energy has tripled in
 the past 50 years and might triple again in the next 30 years. While much of
 this growth will come from the rapidly booming economies of China and India,
@@ -57,7 +57,7 @@ their energy needs by expanding the use of renewable sources. Although presently
 only a small percentage, renewable energy is growing very fast, especially wind
 energy. For example, Germany plans to meet 20% of its electricity and 10% of its
 overall energy needs with renewable resources by the year 2020. (
-See [\[link\]](#import-auto-id2090554).) Energy is a key constraint in the rapid
+See [[Figure]](#import-auto-id2090554).) Energy is a key constraint in the rapid
 economic growth of China and India. In 2003, China surpassed Japan as the
 world’s second largest consumer of oil. However, over 1/3 of this is imported.
 Unlike most Western countries, coal dominates the commercial energy resources of
@@ -76,7 +76,7 @@ in the world.
 arrays in Manchester, Vermont, USA (credit: MarkBuckawicki, Wikimedia)")
 {: #import-auto-id2090554}
 
-[\[link\]](#import-auto-id1764068) displays the 2006 commercial energy mix by
+[[Figure]](#import-auto-id1764068) displays the 2006 commercial energy mix by
 country for some of the prime energy users in the world. While non-renewable
 sources dominate, some countries get a sizeable percentage of their electricity
 from renewable resources. For example, about 67% of New Zealand’s electricity
@@ -109,7 +109,7 @@ The last two columns in this table examine the energy and electricity use per
 capita. Economic well-being is dependent upon energy use, and in most countries
 higher standards of living, as measured by GDP (gross domestic product) per
 capita, are matched by higher levels of energy consumption per capita. This is
-borne out in [\[link\]](#import-auto-id2123825). Increased efficiency of energy
+borne out in [[Figure]](#import-auto-id2123825). Increased efficiency of energy
 use will change this dependency. A global problem is balancing energy resource
 development against the harmful effects upon the environment in its extraction
 and use.
@@ -191,7 +191,7 @@ If the efficiency of a coal-fired electrical generating plant is 35%, then what 
 
 **Integrated Concepts**
 
-(a) Calculate the force the woman in [[link]](#import-auto-id1912970) exerts to
+(a) Calculate the force the woman in [[Figure]](#import-auto-id1912970) exerts to
 do a push-up at constant speed, taking all data to be known to three digits.
 (b) How much work does she do if her center of mass rises 0.240 m?
 (c) What is her useful power output if she does 25 push-ups in 1 min?
@@ -232,7 +232,7 @@ reaches a level area, how long will it take him to reach a velocity of 10.0 m/s?
 
 **Integrated Concepts**
 
-The 70.0-kg swimmer in [[link]](/contents/ch7WorkEnergyAndPowerInHumans.md#import-auto-id1412118) starts a
+The 70.0-kg swimmer in [[Figure]](/contents/ch7WorkEnergyAndPowerInHumans.md#import-auto-id1412118) starts a
 race with an initial velocity of 1.25 m/s and exerts an average force of 80.0 N
 backward with his arms during each 1.80 m long stroke.
 (a) What is his initial acceleration if water resistance is 45.0 N?
@@ -337,7 +337,7 @@ metabolize fat at the rate of 0.500 kg in 2.00 h.
 (b) 38.8 kcal/min
 
 (c) This power output is higher than the highest value
-on [[link]](/contents/ch7WorkEnergyAndPowerInHumans.md#import-auto-id1921441), which is about 35
+on [[Figure]](/contents/ch7WorkEnergyAndPowerInHumans.md#import-auto-id1921441), which is about 35
 kcal/min (corresponding to 2415 watts) for sprinting.
 
 (d) It would be impossible to maintain this power output for 2 hours (imagine

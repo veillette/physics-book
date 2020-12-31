@@ -23,7 +23,7 @@ describe rotational motion.
 ### Rotation Angle
 
 When objects rotate about some axis—for example, when the CD (compact disc)
-in [\[link\]](#import-auto-id3402904)
+in [[Figure]](#import-auto-id3402904)
 rotates about its center—each point in the object follows a circular arc.
 Consider a line from the center of the CD to its edge. Each **pit**{:
 data-type="term" #import-auto-id2654027} used to record sound along this line
@@ -57,7 +57,7 @@ is described on the circumference. ")
 
 The **arc length**{: data-type="term" #import-auto-id2679165} $$ \Delta s $$ is
 the distance traveled along a circular path as shown
-in [\[link\]](#import-auto-id3418263) Note that $$ r $$ is the
+in [[Figure]](#import-auto-id3418263) Note that $$ r $$ is the
 **radius of curvature**{: data-type="term" #import-auto-id2920709} of the circular path.
 
 We know that for one complete revolution, the arc length is the circumference of
@@ -76,7 +76,7 @@ $$ \Delta\theta $$ to be **radians**{: data-type="term" #import-auto-id2625941} 
 </div>
 
 A comparison of some useful angles expressed in both degrees and radians is
-shown in [\[link\]](#import-auto-id2588905).
+shown in [[Figure]](#import-auto-id2588905).
 
 ##### Table: Comparison of Angular units
 
@@ -157,7 +157,7 @@ as you might expect. We can also call this linear speed $$ v $$ of a point on
 the rim the *tangential speed*. The second relationship in $$ v=r \omega \text{
 or }\omega =\frac{v}{r} $$ can be illustrated by considering the tire of a
 moving car. Note that the speed of a point on the rim of the tire is the same as
-the speed $$ v $$ of the car. See [\[link\]](#import-auto-id2931190). So the
+the speed $$ v $$ of the car. See [[Figure]](#import-auto-id2931190). So the
 faster the car moves, the faster the tire spins—large $$ v $$ means a large $$
 \omega $$, because $$ v=r \omega $$. Similarly, a larger-radius tire rotating at
 the same angular velocity ( $$ \omega $$)
@@ -182,7 +182,7 @@ velocity for the tire means a greater velocity for the car. ")
 How Fast Does a Car Tire Spin?
 </div>
 Calculate the angular velocity of a 0.300 m radius car tire when the car travels at $$ 15.0 \ms $$
-(about $$54 \text{km/h} $$). See [\[link\]](#import-auto-id2931190).
+(about $$54 \text{km/h} $$). See [[Figure]](#import-auto-id2931190).
 
 **Strategy**
 
@@ -223,7 +223,7 @@ Both $$ \omega $$ and $$ v $$ have directions (hence they are angular and
 linear *velocities*, respectively). Angular velocity has only two directions
 with respect to the axis of rotation—it is either clockwise or counterclockwise.
 Linear velocity is tangent to the path, as illustrated
-in [\[link\]](#import-auto-id1452850).
+in [[Figure]](#import-auto-id1452850).
 
 <div data-type="note" data-has-label="true" data-label="" markdown="1">
 <div data-type="title">
