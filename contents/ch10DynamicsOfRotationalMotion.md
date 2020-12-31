@@ -162,7 +162,7 @@ Making Connections
 In statics, the net torque is zero, and there is no angular acceleration. In rotational motion, net torque is the cause of angular acceleration, exactly as in Newton’s second law of motion for rotation.
 
 ![Illustrations of ten different objects accompanied by their rotational inertias.](../resources/Figure_11_03_06.jpg "Some rotational inertias.")
-{: height="525"}
+{: #fs-id1838666 height="525"}
 
 </div>
 

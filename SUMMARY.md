@@ -33,7 +33,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     5.  [Addition of Velocities](contents/ch3AdditionOfVelocities.md)
 
 5.  {: .chapter} [Dynamics: Force and Newton\'s Laws of Motion](contents/ch4Dynamics.md)
-    1.  [Development of Force Concept](contents/ch4DevelopmentOfForceConcept)
+    1.  [Development of Force Concept](contents/ch4DevelopmentOfForceConcept.md)
     2.  [Newton’s First Law of Motion: Inertia](contents/ch4NewtonsFirstLawOfMotion.md)
     3.  [Newton’s Second Law of Motion: Concept of a System](contents/ch4NewtonsSecondLawOfMotion.md)
     4.  [Newton’s Third Law of Motion: Symmetry in Forces](contents/ch4NewtonsThirdLawOfMotion.md)
@@ -42,7 +42,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     7.  [Further Applications of Newton’s Laws of Motion](contents/ch4FurtherApplicationsOfNewtonsLawsOfMotion.md)
     8.  [Extended Topic: The Four Basic Forces—An Introduction](contents/ch4ExtendedTopics.md)
 
-6.  {: .chapter} [Further Applications of Newton\'s Laws: Friction, Drag, and Elasticity](contents/ch5FurtherApplicationsOfNewtonsLaws)
+6.  {: .chapter} [Further Applications of Newton\'s Laws: Friction, Drag, and Elasticity](contents/ch5FurtherApplicationsOfNewtonsLaws.md)
     1.  [Friction](contents/ch5Friction.md)
     2.  [Drag Forces](contents/ch5DragForces.md)
     3.  [Elasticity: Stress and Strain](contents/ch5Elasticity.md)
