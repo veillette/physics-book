@@ -30,10 +30,10 @@ causes a change in motion; thus, we see that a *net external force causes accele
 Another question immediately arises. What do we mean by an external force? An
 intuitive notion of external is correct—an **external force**{: data-type="term"
 #import-auto-id3026856} acts from outside the **system**{: data-type="
-term"} of interest. For example, in [\[link\]](#import-auto-id1993910)(a) the
+term"} of interest. For example, in [[Figure]](#import-auto-id1993910)(a) the
 system of interest is the wagon plus the child in it. The two forces exerted by
 the other children are external forces. An internal force acts between elements
-of the system. Again looking at [\[link\]](#import-auto-id1993910)(a), the force
+of the system. Again looking at [[Figure]](#import-auto-id1993910)(a), the force
 the child in the wagon exerts to hang onto the wagon is an internal force
 between elements of the system of interest. Only external forces affect the
 motion of a system, according to Newton’s first law. (The internal forces
@@ -52,7 +52,7 @@ revisited many times on our journey through physics.
 Now, it seems reasonable that acceleration should be directly proportional to
 and in the same direction as the net (
 total) external force acting on a system. This assumption has been verified
-experimentally and is illustrated in [\[link\]](#import-auto-id1993910). In
+experimentally and is illustrated in [[Figure]](#import-auto-id1993910). In
 part (a), a smaller force causes a smaller acceleration than the larger force
 illustrated in part (c). For completeness, the vertical forces are also shown;
 they are assumed to cancel since there is no acceleration in the vertical
@@ -61,7 +61,7 @@ support of the ground $$ \vb{N} $$, and the horizontal force $$
 \vb{f} $$ represents the force of friction. These will be discussed
 in more detail in later sections. For now, we will define **friction**{:
 data-type="term" #import-auto-id2639388} as a force that opposes the motion past
-each other of objects that are touching. [\[link\]](#import-auto-id1993910)(b)
+each other of objects that are touching. [[Figure]](#import-auto-id1993910)(b)
 shows how vectors representing the external forces add together to produce a net
 force, $$ \vb{F}_{\text{net}} $$.
 
@@ -91,7 +91,7 @@ to our simplification.
 Now, it also seems reasonable that acceleration should be inversely proportional
 to the mass of the system. In other words, the larger the mass (the inertia),
 the smaller the acceleration produced by a given force. And indeed, as
-illustrated in [\[link\]](#import-auto-id1375143), the same net external force
+illustrated in [[Figure]](#import-auto-id1375143), the same net external force
 applied to a car produces a much smaller acceleration than when applied to a
 basketball. The proportionality is written as
 
@@ -318,7 +318,7 @@ because the person’s top speed would soon be reached.
 <div data-type="title">
 What Rocket Thrust Accelerates This Sled?
 </div>
-Prior to manned space flights, rocket sleds were used to test aircraft, missile equipment, and physiological effects on human subjects at high speeds. They consisted of a platform that was mounted on one or two rails and propelled by several rockets. Calculate the magnitude of force exerted by each rocket, called its thrust $$ \vb{T} $$, for the four-rocket propulsion system shown in [\[link\]](#fs-id2407992). The
+Prior to manned space flights, rocket sleds were used to test aircraft, missile equipment, and physiological effects on human subjects at high speeds. They consisted of a platform that was mounted on one or two rails and propelled by several rockets. Calculate the magnitude of force exerted by each rocket, called its thrust $$ \vb{T} $$, for the four-rocket propulsion system shown in [[Figure]](#fs-id2407992). The
 sled’s initial acceleration is $$ 49\mss $$,
 the mass of the system is 2100 kg, and the force of friction opposing the motion
 is known to be 650 N.
@@ -345,7 +345,7 @@ calculations. Hence we begin with
 $$ F_{\text{net}}=ma , $$
 </div>
 where $$ F_{\text{net}} $$ is the net force along the horizontal direction. We can see
-from [\[link\]](#fs-id2407992) that the engine thrusts add, while friction
+from [[Figure]](#fs-id2407992) that the engine thrusts add, while friction
 opposes the thrust. In equation form, the net external force is
 
 <div data-type="equation" id="eip-id1522873">
@@ -507,7 +507,7 @@ the velocity and acceleration of the object?
 
 <div data-type="exercise" data-element-type="conceptual-questions">
 <div data-type="problem" markdown="1">
-The gravitational force on the basketball in [[link]](#import-auto-id1375143)
+The gravitational force on the basketball in [[Figure]](#import-auto-id1375143)
 is ignored. When gravity *is* taken into account, what is the direction of the net external
 force on the basketball—above horizontal, below horizontal, or still horizontal?
 
@@ -569,7 +569,7 @@ in which recoil of the vehicle is avoided.
 
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
-In [[link]](#fs-id2602810), the net external force on the 24-kg mower is stated to be 51 N.
+In [[Figure]](#fs-id2602810), the net external force on the 24-kg mower is stated to be 51 N.
 If the force of friction opposing the motion is 24 N, what force $$ F $$
 (in newtons) is the person exerting on the mower? Suppose the mower is moving at
 1.5 m/s when the force $$ F $$ is removed. How far will the mower go before
@@ -580,7 +580,7 @@ stopping?
 
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
-The same rocket sled drawn in [[link]](#fs-id2992955) is decelerated at a rate of
+The same rocket sled drawn in [[Figure]](#fs-id2992955) is decelerated at a rate of
 $$ 196 \mss $$.
 What force is necessary to produce this deceleration? Assume that the rockets
 are off. The mass of the system is 2100 kg.
@@ -592,7 +592,7 @@ are off. The mass of the system is 2100 kg.
 
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
-(a) If the rocket sled shown in [[link]](#fs-id1870792) starts with only one rocket
+(a) If the rocket sled shown in [[Figure]](#fs-id1870792) starts with only one rocket
 burning, what is the magnitude of
 its acceleration? Assume that the mass of the system is 2100 kg,
 the thrust T is $$ 2.4\times 10^{4} \N $$, and the force of friction opposing the motion is known to be 650 N.
@@ -657,7 +657,7 @@ its acceleration if the mass of the motorcycle with rider is 245 kg?
 
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
-The rocket sled shown in [[link]](#fs-id1926895) accelerates at a rate of $$ 49.0\mss $$. Its passenger has a mass of 75.0 kg.
+The rocket sled shown in [[Figure]](#fs-id1926895) accelerates at a rate of $$ 49.0\mss $$. Its passenger has a mass of 75.0 kg.
 (a) Calculate the horizontal component of
 the force the seat exerts against his body. Compare this with his weight by
 using a ratio.

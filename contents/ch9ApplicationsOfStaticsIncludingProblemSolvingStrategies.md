@@ -42,7 +42,7 @@ projecting forces.
 
 Now let us apply this problem-solving strategy for the pole vaulter shown in the
 three figures below. The pole is uniform and has a mass of 5.00 kg.
-In [\[link\]](#import-auto-id1240130), the pole’s cg lies halfway between the
+In [[Figure]](#import-auto-id1240130), the pole’s cg lies halfway between the
 vaulter’s hands. It seems reasonable that the force exerted by each hand is
 equal to half the weight of the pole, or 24.5 N. This obviously satisfies the
 first condition for equilibrium $$ \left( \text{net} F=0 \right) $$. The second
@@ -55,11 +55,11 @@ hold for other systems where supporting forces are exerted symmetrically about
 the cg. For example, the four legs of a uniform table each support one-fourth of
 its weight.
 
-In [\[link\]](#import-auto-id1240130), a pole vaulter holding a pole with its cg
+In [[Figure]](#import-auto-id1240130), a pole vaulter holding a pole with its cg
 halfway between his hands is shown. Each hand exerts a force equal to half the
 weight of the pole,$$ F_{R}=F_{L}=w/2 $$.
 (b) The pole vaulter moves the pole to  his left, and the forces that the hands exert
-are no longer equal. See [\[link\]](#import-auto-id1240130).
+are no longer equal. See [[Figure]](#import-auto-id1240130).
 If the pole is held with its cg to the
 left of the person, then he must push down with his right hand and up with his
 left. The forces he exerts are larger here because they are in opposite
@@ -77,7 +77,7 @@ along its length.
 ![A pole vaulter is standing on the ground holding a pole from one side with his two hands. The centre of gravity of the pole is to the left of the pole vaulter. The weight W is shown as an arrow downward at center of gravity. The reaction F sub R is shown with a vector pointing downward from the man&#x2019;s right hand and F sub L is shown with a vector in upward direction at the location of the man&#x2019;s left hand. A free body diagram of the situation is shown on the top right side of the figure.](../resources/Figure_10_04_01c.jpg "A pole vaulter is holding a pole horizontally with both hands. The center of gravity is to the left side of the vaulter.")
 {: #eip-id2351577}
 
-If the pole vaulter holds the pole as shown in [\[link\]](#eip-id2351570), the
+If the pole vaulter holds the pole as shown in [[Figure]](#eip-id2351570), the
 situation is not as simple. The total force he exerts is still equal to the
 weight of the pole, but it is not evenly divided between his hands. (If $$ F_
 {L}=F_{R} $$, then the torques about the cg would not be equal since the lever
@@ -89,21 +89,21 @@ Finding the forces $$ F_{L} $$ and $$ F_{R} $$ is straightforward, as the next
 example shows.
 
 If the pole vaulter holds the pole from near the end of the
-pole ([\[link\]](#eip-id2351577)), the direction of the force applied by the
+pole ([[Figure]](#eip-id2351577)), the direction of the force applied by the
 right hand of the vaulter reverses its direction.
 
 <div data-type="example" markdown="1">
 <div data-type="title">
 What Force Is Needed to Support a Weight Held Near Its CG?
 </div>
-For the situation shown in [\[link\]](#eip-id2351570), calculate:
+For the situation shown in [[Figure]](#eip-id2351570), calculate:
 (a) $$ F_{R} $$, the force exerted by the right hand, and
 (b) $$ F_{L} $$, the force exerted by the left hand. The hands are 0.900 m apart, and the cg of the pole is 0.600 m
 from the left hand.
 
 **Strategy**
 
-[\[link\]](#eip-id2351570) includes a free body diagram for the pole, the system
+[[Figure]](#eip-id2351570) includes a free body diagram for the pole, the system
 of interest. There is not enough information to use the first condition for
 equilibrium, $$ \text{(net}F=0 $$, since two of the three forces are unknown and the hand forces cannot be
 assumed to be equal in this case. There is enough information to use the second
@@ -178,7 +178,7 @@ F_{L} $$ is applied twice as far from the cg as $$ F_{R} $$.
 </div>
 
 If the pole vaulter holds the pole as he might at the start of a run, shown
-in [\[link\]](#eip-id2351577), the forces change again. Both are considerably
+in [[Figure]](#eip-id2351577), the forces change again. Both are considerably
 greater, and one force reverses direction.
 
 <div data-type="note" data-has-label="true" data-label="" markdown="1">
@@ -234,11 +234,11 @@ To get up on the roof, a person (mass 70.0 kg) places a 6.00-m aluminum ladder (
 
 <div data-type="exercise" id="eip-339" data-element-type="problems-exercises">
 <div data-type="problem" id="eip-6" markdown="1">
-In [[link]](#eip-id2351577), the cg of the pole held by the pole vaulter is 2.00 m from the left hand, and
+In [[Figure]](#eip-id2351577), the cg of the pole held by the pole vaulter is 2.00 m from the left hand, and
 the hands are 0.700 m apart. Calculate the force exerted by
 (a) his right hand and
 (b) his left hand.
-(c) If each hand supports half the weight of the pole in [[link]](#import-auto-id1240130),
+(c) If each hand supports half the weight of the pole in [[Figure]](#import-auto-id1240130),
 show that the second condition for equilibrium $$ \left( \text{net} \tau= 0
 \right) $$
 is satisfied for a pivot other than the one located at the center of gravity of

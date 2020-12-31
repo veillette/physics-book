@@ -40,7 +40,7 @@ friction force is. Rearranging this to
 </div>
 
 makes it clear that the deformation is proportional to the applied
-force. [\[link\]](#import-auto-id1165298678464) shows the Hooke’s law
+force. [[Figure]](#import-auto-id1165298678464) shows the Hooke’s law
 relationship between the extension $$ \Delta L $$ of a spring or of a human
 bone. For metals or springs, the straight line region in which Hooke’s law
 pertains is much larger. Bones are brittle and the elastic region is small and
@@ -77,7 +77,7 @@ tightened, and the elongation $$ \Delta L $$ is proportional to the force
 applied (at least for small deformations). Thicker nylon strings and ones made
 of steel stretch less for the same applied force, implying they have a larger $$
 k $$
-(see [\[link\]](#import-auto-id1165296232089)). Finally, all three strings
+(see [[Figure]](#import-auto-id1165296232089)). Finally, all three strings
 return to their normal lengths when the force is removed, provided the
 deformation is small. Most materials will behave in this manner if the
 deformation is less than about 0.1% or about 1 part in $$ 10^{3} $$.
@@ -106,7 +106,7 @@ otherwise stated.
 A change in length $$ \Delta L $$ is produced when a force is applied to a wire
 or rod parallel to its length $$ L_{0} $$, either stretching it (a tension) or
 compressing it. (
-See [\[link\]](#import-auto-id1165298469619).)
+See [[Figure]](#import-auto-id1165298469619).)
 
 ![Figure a is a cylindrical rod standing on its end with a height of L sub zero. Two vectors labeled F extend away from each end. A dotted outline indicates that the rod is stretched by a length of delta L. Figure b is a similar rod of identical height L sub zero, but two vectors labeled F exert a force toward the ends of the rod. A dotted line indicates that the rod is compressed by a length of delta L.](../resources/Figure_06_03_03a.jpg "(a) Tension. The rod is stretched a length \( \Delta L \)  when a force is applied parallel to its length. (b) Compression. The same rod is compressed by forces with the same magnitude in the opposite direction. For very small deformations and uniform materials, \( \Delta L \) is approximately the same for the same magnitude of tension or compression. For larger deformations, the cross-sectional area changes as the rod is compressed or stretched.")
 {: #import-auto-id1165298469619}
@@ -127,7 +127,7 @@ combine all these factors into one equation for $$ \Delta L $$:
 where $$ \Delta L $$ is the change in length, $$ F $$ the applied force, $$ Y
 $$ is a factor, called the elastic modulus or Young’s modulus, that depends on
 the substance, $$ A $$ is the cross-sectional area, and $$ L_{0} $$ is the
-original length. [\[link\]](#import-auto-id1165298671576) lists values of $$ Y$$
+original length. [[Figure]](#import-auto-id1165298671576) lists values of $$ Y$$
 for several materials—those with a large $$ Y $$ are said to have a
 large tensile stiffness because they deform less for a given tension or
 compression.
@@ -177,11 +177,11 @@ compression.
 </div>
 
 Young’s moduli are not listed for liquids and gases
-in [\[link\]](#import-auto-id1165298671576) because they cannot be stretched or
+in [[Figure]](#import-auto-id1165298671576) because they cannot be stretched or
 compressed in only one direction. Note that there is an assumption that the
 object does not accelerate, so that there are actually two applied forces of
 magnitude $$ F $$ acting in opposite directions. For example, the strings
-in [\[link\]](#import-auto-id1165298469619) are being pulled down by a force of
+in [[Figure]](#import-auto-id1165298469619) are being pulled down by a force of
 magnitude $$ w $$ and held up by the ceiling, which also exerts a force of
 magnitude $$ w $$.
 
@@ -189,7 +189,7 @@ magnitude $$ w $$.
 <div data-type="title">
 The Stretch of a Long Cable
 </div>
-Suspension cables are used to carry gondolas at ski resorts. (See [\[link\]](#import-auto-id1165298535463)) Consider a suspension cable that includes an unsupported span of 3020 m. Calculate the amount of stretch in the steel cable. Assume that the cable has a diameter of 5.6 cm and the maximum tension it can withstand is $$ 3.0\times 10^{6}\N $$.
+Suspension cables are used to carry gondolas at ski resorts. (See [[Figure]](#import-auto-id1165298535463)) Consider a suspension cable that includes an unsupported span of 3020 m. Calculate the amount of stretch in the steel cable. Assume that the cable has a diameter of 5.6 cm and the maximum tension it can withstand is $$ 3.0\times 10^{6}\N $$.
 
 ![Ski gondolas travel along suspension cables. A vast forest and snowy mountain peaks can be seen in the background.](../resources/Figure_06_03_04a.jpg "Gondolas travel along suspension cables at the Gala Yuzawa ski resort in Japan. (credit: Rudy Herman, Flickr)")
 {: #import-auto-id1165298535463}
@@ -235,7 +235,7 @@ bone damage due to sustained compressions in bone joints and tendons.
 Another biological example of Hooke’s law occurs in tendons. Functionally, the
 tendon (the tissue connecting muscle to bone) must stretch easily at first when
 a force is applied, but offer a much greater restoring force for a greater
-strain. [\[link\]](#import-auto-id1165296334455) shows a stress-strain
+strain. [[Figure]](#import-auto-id1165296334455) shows a stress-strain
 relationship for a human tendon. Some tendons have a high collagen content so
 there is relatively little strain, or length change; others, like support
 tendons (as in the leg) can change length up to 10%. Note that this
@@ -303,7 +303,7 @@ This small change in length seems reasonable, consistent with our experience
 that bones are rigid. In fact, even the rather large forces encountered during
 strenuous physical activity do not compress or bend bones by large amounts.
 Although bone is rigid compared with fat or muscle, several of the substances
-listed in [\[link\]](#import-auto-id1165298671576) have larger values of Young’s
+listed in [[Figure]](#import-auto-id1165298671576) have larger values of Young’s
 modulus $$ Y $$. In other words, they are more rigid.
 
 </div>
@@ -366,7 +366,7 @@ is defined as strain (a unitless quantity). In other words,
 
 ### Sideways Stress: Shear Modulus
 
-[\[link\]](#import-auto-id1165296375245) illustrates what is meant by a sideways
+[[Figure]](#import-auto-id1165296375245) illustrates what is meant by a sideways
 stress or a *shearing force*. Here the deformation is called $$ \Delta x $$ and
 it is perpendicular to $$ L_{0} $$, rather than parallel as with tension and
 compression. Shear deformation behaves similarly to tension and compression and
@@ -378,11 +378,11 @@ can be described with similar equations. The expression for
 </div>
 
 where $$ S $$ is the shear modulus (
-see [\[link\]](#import-auto-id1165298671576)) and $$ F $$ is the force applied
+see [[Figure]](#import-auto-id1165298671576)) and $$ F $$ is the force applied
 perpendicular to $$ L_{0} $$ and parallel to the cross-sectional area $$ A $$.
 Again, to keep the object from accelerating, there are actually two equal and
 opposite forces $$ F $$ applied across opposite faces, as illustrated
-in [\[link\]](#import-auto-id1165296375245). The equation is logical—for
+in [[Figure]](#import-auto-id1165296375245). The equation is logical—for
 example, it is easier to bend a long thin pencil (small $$ A $$ )
 than a short thick one, and both are more easily bent than similar steel
 rods (large $$ S $$ ).
@@ -403,7 +403,7 @@ and parallel to the cross-sectional area $$ A $$.
 ![Bookcase sheared by a force applied at the bottom right toward the bottom left, and at the top left toward the top right.](../resources/Figure_06_03_06a.jpg "Shearing forces are applied perpendicular to the length \( L_0 \) and parallel to the area \( A \), producing a deformation  \( \Delta x \). Vertical forces are not shown, but it should be kept in mind that in addition to the two shearing forces, \( F \) , there must be supporting forces to keep the object from rotating. The distorting effects of these supporting forces are ignored in this treatment. The weight of the object also is not shown, since it is usually negligible compared with forces large enough to cause significant deformations.")
 {: #import-auto-id1165296375245}
 
-Examination of the shear moduli in [\[link\]](#import-auto-id1165298671576)
+Examination of the shear moduli in [[Figure]](#import-auto-id1165298671576)
 reveals some telling patterns. For example, shear moduli are less than Young’s
 moduli for most materials. Bone is a remarkable exception. Its shear modulus is
 not only greater than its Young’s modulus, but it is as large as that of steel.
@@ -435,7 +435,7 @@ response to shearing forces.
 <div data-type="title">
 Calculating Force Required to Deform: That Nail Does Not Bend Much Under a Load
 </div>
-Find the mass of the picture hanging from a steel nail as shown in [\[link\]](#import-auto-id1165298644588),
+Find the mass of the picture hanging from a steel nail as shown in [[Figure]](#import-auto-id1165298644588),
 given that the nail bends only $$ 1.80\times 10^{-6} \m $$. (Assume the shear
 modulus is known to two significant figures.)
 
@@ -457,7 +457,7 @@ see that all other quantities can be found:
 <div data-type="equation" id="eip-458">
  $$ F= \frac{S A}{L_{0}} \Delta x. $$
 </div>
-*S* is found in [\[link\]](#import-auto-id1165298671576) and is
+*S* is found in [[Figure]](#import-auto-id1165298671576) and is
 $$ S=80 \times 10^{9} \text{N/m}^{2} $$. The radius $$ r $$
 is 0.750 mm (as seen in the figure), so the cross-sectional area is
 
@@ -485,7 +485,7 @@ $$ 1.80\times 10^{-6} \m $$ —an amount undetectable to the unaided eye.
 ### Changes in Volume: Bulk Modulus
 
 An object will be compressed in all directions if inward forces are applied
-evenly on all its surfaces as in [\[link\]](#import-auto-id1165296230954). It is
+evenly on all its surfaces as in [[Figure]](#import-auto-id1165296230954). It is
 relatively easy to compress gases and extremely difficult to compress liquids
 and solids. For example, air in a wine bottle is compressed when it is corked.
 But if you try corking a brim-full bottle, you cannot compress the wine—some
@@ -512,7 +512,7 @@ change in volume to other physical quantities is given by
  $$ \Delta V=\frac{1}{B}\frac{F}{A} V_{0}, $$
 </div>
 
-where $$ B $$ is the bulk modulus (see [\[link\]](#import-auto-id1165298671576)),
+where $$ B $$ is the bulk modulus (see [[Figure]](#import-auto-id1165298671576)),
 $$ V_{0} $$ is the original volume, and $$ \frac{F}{A} $$ is the force per
 unit area applied uniformly inward on all surfaces. Note that
   no bulk moduli are given for gases.
@@ -550,7 +550,7 @@ Solving for the unknown $$ \frac{ \Delta V}{ V_{0}} $$ gives
  $$ \frac{ \Delta V}{ V_{0}}=\frac{1}{B}\frac{F}{A}. $$
 </div>
 Substituting known values with the value for the bulk modulus
-$$ B $$ from [\[link\]](#import-auto-id1165298671576),
+$$ B $$ from [[Figure]](#import-auto-id1165298671576),
 
 <div data-type="equation" id="eip-818">
  $$ \begin{array}{lll}
@@ -863,7 +863,7 @@ to the horizontal.
 <div data-type="exercise" data-element-type="problem-exercises">
 <div data-type="problem" markdown="1">
 To consider the effect of wires hung on poles, we take data
-from [[link]](/contents/ch5FurtherApplicationsOfNewtonsLaws.md#fs-id1348788), in which tensions in wires
+from [[Figure]](/contents/ch5FurtherApplicationsOfNewtonsLaws.md#fs-id1348788), in which tensions in wires
 supporting a traffic light were calculated. The left wire made an angle $$ 30.0^\circ $$
 below the horizontal with the top of its pole and carried a tension of 108 N.
 The 12.0 m tall hollow aluminum pole is equivalent in stiffness to a 4.50 cm
@@ -907,7 +907,7 @@ the like?
 <div data-type="exercise" data-element-type="problem-exercises">
 <div data-type="problem" markdown="1">
 This problem returns to the tightrope walker studied 
-in [[link]](/contents/ch5NormalTensionandOtherExamplesOfForces.md#fs-id986136), who created a tension of $$ 3.94 \times 10^{3}N $$
+in [[Figure]](/contents/ch5NormalTensionandOtherExamplesOfForces.md#fs-id986136), who created a tension of $$ 3.94 \times 10^{3}N $$
 in a wire making an angle $$ 5.0^\circ $$ below the horizontal with each
 supporting pole. Calculate how much this tension stretches the steel wire if it
 was originally 15 m long and 0.50 cm in diameter.
@@ -921,7 +921,7 @@ was originally 15 m long and 0.50 cm in diameter.
 
 <div data-type="exercise" data-element-type="problem-exercises">
 <div data-type="problem" markdown="1">
-The pole in [[link]](#import-auto-id1165296309614) is at a $$ 90.0^\circ $$
+The pole in [[Figure]](#import-auto-id1165296309614) is at a $$ 90.0^\circ $$
 bend in a power line and is therefore subjected to more shear force than poles
 in straight parts of the line. The tension in each line is $$ 4.00 \times
 10^{4}N $$, at the angles shown. The pole is 15.0 m tall, has an 18.0 cm

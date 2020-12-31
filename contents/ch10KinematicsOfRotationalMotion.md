@@ -92,7 +92,7 @@ and average velocity $$ \overline{v} $$ are defined as follows:
 {0}+v}{2} . $$
 </div>
 
-The equations given above in [\[link\]](#import-auto-id3400476) can be used to
+The equations given above in [[Figure]](#import-auto-id3400476) can be used to
 solve any rotational or translational kinematics problem in which $$ a $$ and $$
 \alpha $$ are constant.
 
@@ -118,7 +118,7 @@ A deep-sea fisherman hooks a big fish that swims away from the boat pulling the 
 line from his fishing reel. The whole system is initially at rest and the fishing line unwinds
 from the reel at a radius of 4.50 cm from its axis of rotation. The reel is given an angular
 acceleration of $$ 110 \radss $$
-for 2.00 s as seen in [\[link\]](#import-auto-id2953309).
+for 2.00 s as seen in [[Figure]](#import-auto-id2953309).
 
 (a) What is the final angular velocity of the reel?
 
@@ -325,7 +325,7 @@ The distance traveled is fairly large and the final velocity is fairly slow (jus
 </div>
 
 There is translational motion even for something spinning in place, as the
-following example illustrates. [\[link\]](#import-auto-id2409927) shows a fly on
+following example illustrates. [[Figure]](#import-auto-id2409927) shows a fly on
 the edge of a rotating microwave oven plate. The example below calculates the
 total distance it travels.
 
@@ -399,7 +399,7 @@ Rotational kinematics (just like linear kinematics) is descriptive and does not 
 * {: #import-auto-id1963043} Starting with the four kinematic equations we
   developed in the [One-Dimensional Kinematics](/contents/ch2Kinematics.md), we can derive
   the four rotational kinematic equations (presented together with their
-  translational counterparts) seen in [\[link\]](#import-auto-id3400476).
+  translational counterparts) seen in [[Figure]](#import-auto-id3400476).
 * {: #import-auto-id1374592} In these equations, the subscript 0 denotes initial
   values ($$ x_{0} $$ and $$ t_{0} $$ are initial values), and the average angular velocity $$
  \overline{\omega } $$ and average velocity $$ \overline{v} $$ are defined as

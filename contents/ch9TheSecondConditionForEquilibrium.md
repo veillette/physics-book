@@ -20,7 +20,7 @@ The second condition necessary to achieve equilibrium involves avoiding accelera
 </div>
 
 Several familiar factors determine how effective you are in opening the door.
-See [\[link\]](#import-auto-id3533620). First of all, the larger the force, the
+See [[Figure]](#import-auto-id3533620). First of all, the larger the force, the
 more effective it is in opening the door—obviously, the harder you push, the
 more rapidly the door opens. Also, the point at which you push is crucial. If
 you apply your force too close to the hinges, the door will open slowly, if at
@@ -50,12 +50,12 @@ where $$ \tau $$
 the pivot point to the point where the force is applied, $$ F $$ is the
 magnitude of the force, and $$ \theta $$ is the angle between the force and the
 vector directed from the point of application to the pivot point, as seen
-in [\[link\]](#import-auto-id3533620)
-and [\[link\]](#import-auto-id2573920). An alternative expression for torque is
+in [[Figure]](#import-auto-id3533620)
+and [[Figure]](#import-auto-id2573920). An alternative expression for torque is
 given in terms of the **perpendicular lever arm**{: data-type="term"
 #import-auto-id2704160} $$ r_{\perp } $$ as shown
-in [\[link\]](#import-auto-id3533620)
-and [\[link\]](#import-auto-id2573920), which is defined as
+in [[Figure]](#import-auto-id3533620)
+and [[Figure]](#import-auto-id2573920), which is defined as
 
 <div data-type="equation" id="eip-505">
  $$ r_{\perp }=r\sin{\theta} $$
@@ -73,8 +73,8 @@ so that
 
 The perpendicular lever arm $$ r_{\perp } $$ is the shortest distance from the
 pivot point to the line along which $$ \vb{F} $$ acts; it is shown as
-a dashed line in [\[link\]](#import-auto-id3533620)
-and [\[link\]](#import-auto-id2573920). Note that the line segment that defines
+a dashed line in [[Figure]](#import-auto-id3533620)
+and [[Figure]](#import-auto-id2573920). Note that the line segment that defines
 the distance $$ r_{\perp } $$ is perpendicular to $$ \vb{F} $$, as
 its name implies. It is sometimes easier to find or visualize $$ r_{\perp } $$
 than to find both $$ r $$ and $$ \theta $$. In such cases, it may be more
@@ -98,7 +98,7 @@ the chosen “pivot point.”
 Note that for rotation in a plane, torque has two possible directions. Torque is
 either clockwise or counterclockwise relative to the chosen pivot point, as
 illustrated for points B and A, respectively,
-in [\[link\]](#import-auto-id2573920). If the object can rotate about point A,
+in [[Figure]](#import-auto-id2573920). If the object can rotate about point A,
 it will rotate counterclockwise, which means that the torque for the force is
 shown as counterclockwise relative to A. But if the object can rotate about
 point B, it will rotate clockwise, which means the torque for the force shown is
@@ -125,7 +125,7 @@ opposite signs. A common convention is to call counterclockwise (ccw) torques
 positive and clockwise (cw) torques negative.
 
 When two children balance a seesaw as shown
-in [\[link\]](#import-auto-id3083545), they satisfy the two conditions for
+in [[Figure]](#import-auto-id3083545), they satisfy the two conditions for
 equilibrium. Most people have perfect intuition about seesaws, knowing that the
 lighter child must sit farther from the pivot and that a heavier child can keep
 a lighter one off the ground indefinitely.
@@ -137,7 +137,7 @@ a lighter one off the ground indefinitely.
 <div data-type="title">
 She Saw Torques On A Seesaw
 </div>
-The two children shown in [\[link\]](#import-auto-id3083545) are balanced on a seesaw of negligible mass.
+The two children shown in [[Figure]](#import-auto-id3083545) are balanced on a seesaw of negligible mass.
 (This assumption is made to keep the example simple—more involved examples will follow.)
 The first child has a mass of 26.0 kg and sits 1.60 m from the pivot.
 (a) If the second child has a mass of 32.0 kg, how far is she from the pivot?
@@ -398,7 +398,7 @@ to keep the door from moving? Assume friction is negligible.
 <div data-type="exercise" data-element-type="problem-exercises">
 <div data-type="problem" markdown="1">
 Use the second condition for equilibrium $$ \text{(net τ = 0)} $$ to calculate $$ F_{\text{p}} $$
-in [[link]](#fs-id2603151), employing any data given or solved for in part (a)
+in [[Figure]](#fs-id2603151), employing any data given or solved for in part (a)
 of the example.
 
 </div>
@@ -406,7 +406,7 @@ of the example.
 
 <div data-type="exercise" data-element-type="problem-exercises">
 <div data-type="problem" markdown="1">
-Repeat the seesaw problem in [[link]](#fs-id2603151) with the center of mass of the seesaw 0.160 m to the left of the pivot (on the side of the lighter child) and assuming a mass of 12.0 kg for the seesaw. The other data given in the example remain unchanged. Explicitly show how you follow the steps in the Problem-Solving Strategy for static equilibrium.
+Repeat the seesaw problem in [[Figure]](#fs-id2603151) with the center of mass of the seesaw 0.160 m to the left of the pivot (on the side of the lighter child) and assuming a mass of 12.0 kg for the seesaw. The other data given in the example remain unchanged. Explicitly show how you follow the steps in the Problem-Solving Strategy for static equilibrium.
 
 </div>
 <div data-type="solution" data-element-type="problem-exercises" markdown="1">

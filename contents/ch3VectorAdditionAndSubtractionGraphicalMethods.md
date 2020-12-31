@@ -25,7 +25,7 @@ reference frame (i.e., coordinate system), using an arrow having length
 proportional to the vector’s magnitude and pointing in the direction of the
 vector.
 
-[\[link\]](#import-auto-id1165298666909) shows such a *graphical representation
+[[Figure]](#import-auto-id1165298666909) shows such a *graphical representation
 of a vector*, using as an example the total displacement for the person walking
 in a city considered
 in [Kinematics in Two Dimensions: An Introduction](/contents/ch3KinematicsInTwoDimensionsAnIntroduction.md). We shall
@@ -69,7 +69,7 @@ magnitude  \( \mag{D} \)  of the vector is 10.3 units, and the direction  \(
 
 The **head-to-tail method**{: data-type="term" #import-auto-id1165298552505} is
 a graphical way to add vectors, described
-in [\[link\]](#import-auto-id1165298643218) below and in the steps following.
+in [[Figure]](#import-auto-id1165298643218) below and in the steps following.
 The **tail**{: data-type="term" #import-auto-id1165298535408} of the vector is
 the starting point of the vector, and the **head**{: data-type="term"
 #import-auto-id1165298982372} (or tip) of a vector is the final, pointed end of
@@ -178,7 +178,7 @@ as $$ \mag{R}=50.8 \m $$ and $$ \theta =5.5^\circ $$ south of east.
 The head-to-tail graphical method of vector addition works for any number of
 vectors. It is also important to note that the resultant is independent of the
 order in which the vectors are added. Therefore, we could add the vectors in any
-order as illustrated in [\[link\]](#import-auto-id1165298931858) and we will
+order as illustrated in [[Figure]](#import-auto-id1165298931858) and we will
 still get the same solution.
 
 ![In this figure a vector C with a negative slope is drawn from the origin. Then from the head of the vector C another vector A with positive slope is drawn and then another vector B with negative slope from the head of the vector A is drawn. From the tail of the vector C a vector R of magnitude of fifty point zero meters and with negative slope of seven degrees is drawn. The head of this vector R meets the head of the vector B. The vector R is known as the resultant vector.](../resources/Figure_03_02_12.jpg)
@@ -205,7 +205,7 @@ subtraction (say we want to subtract $$ \vb{B} $$ from $$
 first define what we mean by subtraction. The *negative* of a vector $$
 \vb{B} $$ is defined to be $$ -\vb{B} $$; that is,
 graphically *the negative of any vector has the same magnitude but the opposite
-direction*, as shown in [\[link\]](#import-auto-id1165298692950). In other
+direction*, as shown in [[Figure]](#import-auto-id1165298692950). In other
 words, $$ \vb{B} $$ has the same length as $$ -\vb{B} $$,
 but points in the opposite direction. Essentially, we just flip the vector so it
 points in the opposite direction.
@@ -445,7 +445,7 @@ Path 2 is 8.2 km. What is the final displacement of each camper?
 <div data-type="problem" markdown="1">
 If an airplane pilot is told to fly 123 km in a straight line to
 get from San Francisco to Sacramento, explain why he could end up
-anywhere on the circle shown in [[link]](#import-auto-id1165296384452).
+anywhere on the circle shown in [[Figure]](#import-auto-id1165296384452).
 What other information would he need to get to Sacramento?
 
 ![A map of northern California with a circle with a radius of one hundred twenty three kilometers centered on San Francisco. Sacramento lies on the circumference of this circle in a direction forty-five degrees north of east from San Francisco.](../resources/Figure_03_02_19a.jpg)
@@ -487,7 +487,7 @@ graphs is accurate to three digits.**
 
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
-Find the following for path A in [[link]](#import-auto-id1165298872310):
+Find the following for path A in [[Figure]](#import-auto-id1165298872310):
 (a) the total distance traveled, and
 (b) the magnitude and direction of the displacement from start to finish.
 
@@ -505,7 +505,7 @@ Find the following for path A in [[link]](#import-auto-id1165298872310):
 
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
-Find the following for path B in [[link]](#import-auto-id1165298872310):
+Find the following for path B in [[Figure]](#import-auto-id1165298872310):
 (a) the total distance traveled, and
 (b) the magnitude and direction of the displacement from start to finish.
 
@@ -515,7 +515,7 @@ Find the following for path B in [[link]](#import-auto-id1165298872310):
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
 Find the north and east components of the displacement for
-the hikers shown in [[link]](#import-auto-id1165298840401).
+the hikers shown in [[Figure]](#import-auto-id1165298840401).
 
 </div>
 <div data-type="solution" markdown="1">
@@ -531,7 +531,7 @@ you from your starting point, and what is the compass direction of a line
 connecting your starting point to your final position?
 (If you represent the two legs of the walk as vector displacements
 $$ \vb{A} $$
-and $$ \vb{B} $$, as in [[link]](#import-auto-id1165296241785),
+and $$ \vb{B} $$, as in [[Figure]](#import-auto-id1165296241785),
 then this problem asks you to
 find their sum $$\vb{R}=\vb{A}+\vb{B} $$.)
 
@@ -555,7 +555,7 @@ west of north and then 20.0 m in a direction $$ 40.0^\circ $$ south of west. How
 far are you from your starting point, and what is the compass direction of a
 line connecting your starting point to your final position? (If you represent
 the two legs of the walk as vector displacements $$ \vb{A} $$ and $$
-\vb{B} $$, as in [[link]](#import-auto-id1165296430663), then this problem
+\vb{B} $$, as in [[Figure]](#import-auto-id1165296430663), then this problem
 finds their sum $$ \vb{R} = \vb{A} + \vb{B} $$.)
 
 ![In the given figure coordinates axes are shown. Vector A with tail at origin is inclined at an angle of twenty degrees with the positive direction of x axis. The magnitude of vector A is twelve meters. Another vector B is starts from the head of vector A and inclined at an angle of forty degrees with the horizontal. The resultant R of the vectors A and B is also drawn from the tail of vector A to the head of vector B. The inclination of vector R is theta with the horizontal.](../resources/Figure_03_02_22a.jpg)
@@ -618,7 +618,7 @@ added; choose only one.)
 
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
-Show that the sum of the vectors discussed in [[link]](#fs-id1165296679497) gives the result shown in [[link]](#import-auto-id1165296298190).
+Show that the sum of the vectors discussed in [[Figure]](#fs-id1165296679497) gives the result shown in [[Figure]](#import-auto-id1165296298190).
 
 </div>
 <div data-type="solution" markdown="1">
@@ -630,7 +630,7 @@ Show that the sum of the vectors discussed in [[link]](#fs-id1165296679497) give
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
 Find the magnitudes of velocities $$ v_{\text{A}} $$
-and $$ v_{\text{B}} $$ in [[link]](#import-auto-id1165296217666)
+and $$ v_{\text{B}} $$ in [[Figure]](#import-auto-id1165296217666)
 
 ![On the graph velocity vector V sub A begins at the origin and is inclined 
 to x axis at an angle of twenty two point five degrees. From the head of 
@@ -647,7 +647,7 @@ degrees. V sub tot has a magnitude of 6.72 meters per second.](../resources/Figu
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
 Find the components of $$ v_{\text{tot}} $$
-along the **x**- and **y**-axes in [[link]](#import-auto-id1165296217666).
+along the **x**- and **y**-axes in [[Figure]](#import-auto-id1165296217666).
 
 </div>
 <div data-type="solution" markdown="1">
@@ -662,7 +662,7 @@ along the **x**- and **y**-axes in [[link]](#import-auto-id1165296217666).
 <div data-type="problem" markdown="1">
 Find the components of $$ v_{\text{tot}} $$
 along a set of perpendicular axes rotated $$ 30^\circ $$ counterclockwise
-relative to those in [[link]](#import-auto-id1165296217666).
+relative to those in [[Figure]](#import-auto-id1165296217666).
 
 </div>
 </div>

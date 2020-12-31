@@ -27,8 +27,8 @@ and *y*-axes are zero. This is written as
  $$ \text{net}F_{x}=0\text{ and }F_{y}=0 $$
 </div>
 
-[\[link\]](#import-auto-id1164400876993)
-and [\[link\]](#import-auto-id1164400872520) illustrate situations where $$
+[[Figure]](#import-auto-id1164400876993)
+and [[Figure]](#import-auto-id1164400872520) illustrate situations where $$
 \text{net}F=0 $$ for both **static equilibrium**{: data-type="term"
 #import-auto-id1164400876972} (motionless), and **dynamic equilibrium**{:
 data-type="term" #import-auto-id1164400876975}
@@ -42,13 +42,13 @@ data-type="term" #import-auto-id1164400876975}
 
 However, it is not sufficient for the net external force of a system to be zero
 for a system to be in equilibrium. Consider the two situations illustrated
-in [\[link\]](#import-auto-id1164400871370)
-and [\[link\]](#import-auto-id1164400867302) where forces are applied to an ice
+in [[Figure]](#import-auto-id1164400871370)
+and [[Figure]](#import-auto-id1164400867302) where forces are applied to an ice
 hockey stick lying flat on ice. The net external force is zero in both
 situations shown in the figure; but in one case, equilibrium is achieved,
-whereas in the other, it is not. In [\[link\]](#import-auto-id1164400871370),
+whereas in the other, it is not. In [[Figure]](#import-auto-id1164400871370),
 the ice hockey stick remains motionless. But
-in [\[link\]](#import-auto-id1164400867302), with the same forces applied in
+in [[Figure]](#import-auto-id1164400867302), with the same forces applied in
 different places, the stick experiences accelerated rotation. Therefore, we know
 that the point at which a force is applied is another factor in determining
 whether or not equilibrium is achieved. This will be explored further in the
