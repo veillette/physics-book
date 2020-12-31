@@ -52,7 +52,7 @@ First, let us obtain an expression for the potential energy stored in a spring (
 $$ \PE_{s} $$).
  We calculate the work done to stretch or compress a spring that obeys Hooke’s
 law. (Hooke’s law was examined
-in [Elasticity: Stress and Strain](/contents/ch5Elasticity.md), and states that the
+in [Elasticity: Stress and Strain](../contents/ch5Elasticity.md), and states that the
 magnitude of force $$ F $$ on the spring and the resulting deformation $$ \Delta
 L $$ are proportional, $$ F=k\Delta L $$.) (See [[Figure]](#fs-id1593673).) For
 our spring, we will replace $$ \Delta L $$
@@ -64,7 +64,7 @@ from 0 at the start to $$ kx $$ in the fully stretched position. The
 average force is $$ k x/2 $$. Thus the work done in stretching or
 compressing the spring is $$ W_{s}=F d =\left(\frac{ k x}{2}\right)
 x=\frac{1}{2}k x^{2} $$. Alternatively, we noted
-in [Kinetic Energy and the Work-Energy Theorem](/contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md) that the area
+in [Kinetic Energy and the Work-Energy Theorem](../contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md) that the area
 under a graph of $$ F $$ vs. $$ x $$ is the work done by the force.
 In [[Figure]](#fs-id1593673)(c) we see that this area is also $$ \frac{1}{2}k
 x^{2} $$. We therefore define the **potential energy of a spring**{: data-type="
@@ -361,7 +361,7 @@ A pogo stick has a spring with a force constant of $$ 2.50 \times 10^{4}\text{N/
 which can be compressed 12.0 cm. To what maximum height can a child jump on
 the stick using only the energy in the spring, if the child and stick have a
 total mass of 40.0 kg? Explicitly show how you follow the steps in
-the [Problem-Solving Strategies for Energy](/contents/ch7ConservationOfEnergy.md#fs-id2025907).
+the [Problem-Solving Strategies for Energy](../contents/ch7ConservationOfEnergy.md#fs-id2025907).
 
 </div>
 </div>

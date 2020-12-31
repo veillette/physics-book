@@ -44,7 +44,7 @@ applications that are easy for most students to visualize.
 * [Chapter 4: Dynamics: Force and Newton\'s Laws of Motion](../contents/ch4Dynamics.md)
 * [Chapter 5: Further Applications of Newton\'s Laws: 
   Friction, Drag, and 
-Elasticity](../contents/ch5FurtherApplicationsOfNewtonsLaws)
+Elasticity](ch5FurtherApplicationsOfNewtonsLaws.md)
 * [Chapter 6: Uniform Circular Motion and Gravitation](../contents/ch6UniformCircularMotionAndGravitation.md)
 * [Chapter 7: Work, Energy, and Energy Resources](../contents/ch7WorkEnergyAndEnergyResources.md)
 * [Chapter 8: Linear Momentum and Collisions](../contents/ch8LinearMomentumAndCollisions.md)

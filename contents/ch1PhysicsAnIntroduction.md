@@ -198,8 +198,11 @@ Less broadly applicable statements are usually called principles (such as
 Pascal’s principle, which is applicable only in fluids), but the distinction
 between laws and principles often is not carefully made.
 
-![A planetary model of an atom with a positively charged nucleus at the center and negatively charged particles moving in orbits around the nucleus.](../resources/Figure_01_01_09_aa.jpg "What is a model? This planetary model of the atom shows electrons orbiting the nucleus. It is a drawing that we use to form a mental image of the atom that we cannot see directly with our eyes because it is too small.")
-{: #fs-id1165298745067 height="150"}
+![A planetary model of an atom with a positively charged nucleus at the 
+center and negatively charged particles moving in orbits
+around the nucleus.](../resources/Figure_01_atom.svg "What is a model? This planetary model of the atom shows 
+electrons orbiting the nucleus. It is a drawing that we use to form a mental 
+image of the atom that we cannot see directly with our eyes because it is too small."){: #fs-id1165298745067 height="150"}
 
 <div data-type="note" data-has-label="true" data-label="" markdown="1">
 <div data-type="title">

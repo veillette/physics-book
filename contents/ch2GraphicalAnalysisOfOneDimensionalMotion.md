@@ -92,7 +92,7 @@ v $$.
  $$ \text{slope}=\frac{ \Delta x}{\Delta t}=v $$
 </div>
 Notice that this equation is the same as that derived algebraically from other motion equations 
-in [Motion Equations for Constant Acceleration in One Dimension](/contents/.md).
+in [Motion Equations for Constant Acceleration in One Dimension](../contents/.md).
 
 </div>
 
@@ -281,7 +281,7 @@ $$. Substituting these symbols yields
 A general relationship for velocity, acceleration, and time has again been
 obtained from a graph. Notice that this equation was also derived algebraically
 from other motion equations
-in [Motion Equations for Constant Acceleration in One Dimension](/contents/ch2MotionEquationsForConstantAccelerationInOneDimension.md)
+in [Motion Equations for Constant Acceleration in One Dimension](../contents/ch2MotionEquationsForConstantAccelerationInOneDimension.md)
 .
 
 It is not accidental that the same equations are obtained by graphical analysis
@@ -484,7 +484,7 @@ shown in [[Figure]](#import-auto-id2006890). Suppose the elevator is initially a
 It then accelerates for 3 seconds, maintains that velocity for 15 seconds,
 then decelerates for 5 seconds until it stops. The acceleration for the entire trip is
 not constant so we cannot use the equations of motion from
-[Motion Equations for Constant Acceleration in One Dimension](/contents/ch2MotionEquationsForConstantAccelerationInOneDimension.md.md) for the complete trip.
+[Motion Equations for Constant Acceleration in One Dimension](../contents/ch2MotionEquationsForConstantAccelerationInOneDimension.md.md) for the complete trip.
 (We could, however, use them in the three individual sections where acceleration is a constant.)
 Sketch graphs of (a) position vs. time and (b) acceleration vs. time for this trip.
 
@@ -576,7 +576,7 @@ Line has a positive slope that decreases over time until the line flattens out.]
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
 Construct the position graph for the subway shuttle train as shown
-in [[Figure]](/contents/ch2Acceleration.md#import-auto-id2590556) (a). 
+in [[Figure]](../contents/ch2Acceleration.md#import-auto-id2590556) (a). 
 Your graph should show the position of the train, in kilometers, from t = 0 to 20 s.
 You will need to use the information on acceleration and velocity given in the examples
 for this figure.

@@ -12,7 +12,7 @@ layout: page
 
 </div>
 
-[Uniform Circular Motion and Gravitation](/contents/ch6UniformCircularMotionAndGravitation.md) discussed only
+[Uniform Circular Motion and Gravitation](../contents/ch6UniformCircularMotionAndGravitation.md) discussed only
 uniform circular motion, which is motion in a circle at constant speed and,
 hence, constant angular velocity. Recall that angular velocity $$ \omega $$ was
 defined as the time rate of change of angle $$ \theta $$:
@@ -24,7 +24,7 @@ defined as the time rate of change of angle $$ \theta $$:
 where $$ \theta $$ is the angle of rotation as seen
 in [[Figure]](#import-auto-id1941476). The relationship between angular velocity
 $$ \omega $$ and linear velocity $$ v $$ was also defined
-in [Rotation Angle and Angular Velocity](/contents/ch6RotationAngleAndAngularVelocity.md) as
+in [Rotation Angle and Angular Velocity](../contents/ch6RotationAngleAndAngularVelocity.md) as
 
 <div data-type="equation" id="eip-989">
  $$ v=r \omega $$
@@ -159,7 +159,7 @@ in [[Figure]](#import-auto-id1019355). Thus, linear acceleration is called
 
 Linear or tangential acceleration refers to changes in the magnitude of velocity
 but not its direction. We know
-from [Uniform Circular Motion and Gravitation](/contents/ch6UniformCircularMotionAndGravitation.md) that in
+from [Uniform Circular Motion and Gravitation](../contents/ch6UniformCircularMotionAndGravitation.md) that in
 circular motion centripetal acceleration, $$ \ac $$, refers to changes
 in the direction of the velocity but not its magnitude. An object undergoing
 circular motion experiences centripetal acceleration, as seen
@@ -175,7 +175,7 @@ its direction.
 Now we can find the exact relationship between linear acceleration $$ a_
 {\text{t}} $$ and angular acceleration $$ \alpha $$. Because linear acceleration
 is proportional to a change in the magnitude of the velocity, it is defined (as
-it was in [One-Dimensional Kinematics](/contents/ch2Kinematics.md)) to be
+it was in [One-Dimensional Kinematics](../contents/ch2Kinematics.md)) to be
 
 <div data-type="equation" id="eip-85">
  $$ a_{\text{t}}=\frac{ \Delta v}{\Delta t}. $$
