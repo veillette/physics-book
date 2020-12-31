@@ -15,7 +15,7 @@ drawbridge to bad posture and back strain. We begin with a discussion of
 problem-solving strategies specifically used for statics. Since statics is a
 special case of Newton’s laws, both the general problem-solving strategies and
 the special strategies for Newton’s laws, discussed
-in [Problem-Solving Strategies](/contents/ch4ProblemSolvingStrategies.md), still apply.
+in [Problem-Solving Strategies](../contents/ch4ProblemSolvingStrategies.md), still apply.
 
 <div data-type="note" data-has-label="true" data-label="" markdown="1">
 <div data-type="title">
@@ -212,7 +212,7 @@ Balancing Act
   discussed the problem-solving strategies specifically useful for statics.
   Statics is a special case of Newton’s laws, both the general problem-solving
   strategies and the special strategies for Newton’s laws, discussed
-  in [Problem-Solving Strategies](/contents/ch4ProblemSolvingStrategies.md), still apply.
+  in [Problem-Solving Strategies](../contents/ch4ProblemSolvingStrategies.md), still apply.
 
 ### Conceptual Questions
 

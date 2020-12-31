@@ -13,7 +13,7 @@ layout: page
 ### Nonconservative Forces and Friction
 
 Forces are either conservative or nonconservative. Conservative forces were
-discussed in [Conservative Forces and Potential Energy](/contents/ch7ConservaticeForcesAndPotentialEnergy.md). A
+discussed in [Conservative Forces and Potential Energy](../contents/ch7ConservaticeForcesAndPotentialEnergy.md). A
 **nonconservative force**{: data-type="term" #import-auto-id2125883} is one for
 which work depends on the path taken. Friction is a good example of a
 nonconservative force. As illustrated in [[Figure]](#import-auto-id2415636),
@@ -50,7 +50,7 @@ more complicated systems as in [[Figure]](#import-auto-id2096889)(b).
 Now let us consider what form the work-energy theorem takes when both
 conservative and nonconservative forces act. We will see that the work done by
 nonconservative forces equals the change in the mechanical energy of a system.
-As noted in [Kinetic Energy and the Work-Energy Theorem](/contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md), the
+As noted in [Kinetic Energy and the Work-Energy Theorem](../contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md), the
 work-energy theorem states that the net work on a system equals the change in
 its kinetic energy, or $$ W_{\text{net}}=\Delta \KE $$. The net work is the sum
 of the work by nonconservative forces plus the work by conservative forces. That
@@ -245,7 +245,7 @@ Making Connections: Take-Home Investigation—Determining Friction from the Stop
 </div>
 This experiment involves the conversion of gravitational potential energy into
 thermal energy. Use the ruler, book, and marble
-from [Take-Home Investigation—Converting Potential to Kinetic Energy](/contents/ch7GravitationalPotentialEnergy.md#fs-id1804087).
+from [Take-Home Investigation—Converting Potential to Kinetic Energy](../contents/ch7GravitationalPotentialEnergy.md#fs-id1804087).
 In addition, you will need a foam cup with a small hole in the side,
 as shown in [[Figure]](#fs-id1774418). From the 10-cm position on the ruler,
 let the marble roll into the cup positioned at the bottom of the ruler.

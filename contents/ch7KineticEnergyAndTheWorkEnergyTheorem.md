@@ -15,14 +15,14 @@ layout: page
 What happens to the work done on a system? Energy is transferred into the
 system, but in what form? Does it remain in the system or move on? The answers
 depend on the situation. For example, if the lawn mower
-in [[Figure]](/contents/ch7WorkTheScientificDefinition.md#import-auto-id2495459)(a) is pushed just hard
+in [[Figure]](../contents/ch7WorkTheScientificDefinition.md#import-auto-id2495459)(a) is pushed just hard
 enough to keep it going at a constant speed, then energy put into the mower by
 the person is removed continuously by friction, and eventually leaves the system
 in the form of heat transfer. In contrast, work done on the briefcase by the
 person carrying it up stairs
-in [[Figure]](/contents/ch7WorkTheScientificDefinition.md#import-auto-id2495459)(d) is stored in the
+in [[Figure]](../contents/ch7WorkTheScientificDefinition.md#import-auto-id2495459)(d) is stored in the
 briefcase-Earth system and can be recovered at any time, as shown
-in [[Figure]](/contents/ch7WorkTheScientificDefinition.md#import-auto-id2495459)(e). In fact, the building
+in [[Figure]](../contents/ch7WorkTheScientificDefinition.md#import-auto-id2495459)(e). In fact, the building
 of the pyramids in ancient Egypt is an example of storing energy in a system by
 doing work on the system. Some of the energy imparted to the stone blocks in
 lifting them during construction of the pyramids remains in the stone-Earth
@@ -37,7 +37,7 @@ energy of motion.
 ### Net Work and the Work-Energy Theorem
 
 We know from the study of Newton’s laws
-in [Dynamics: Force and Newton\'s Laws of Motion](/contents/ch4Dynamics.md) that net
+in [Dynamics: Force and Newton\'s Laws of Motion](../contents/ch4Dynamics.md) that net
 force causes acceleration. We will see in this section that work done by the net
 force gives a system energy of motion, and in the process we will also find an
 expression for the energy of motion.
@@ -99,7 +99,7 @@ algebra, we can reach an interesting conclusion. Substituting $$ F_
 
 To get a relationship between net work and the speed given to a system by the
 net force acting on it, we take $$ d=x-x_{0} $$ and use the equation studied
-in [Motion Equations for Constant Acceleration in One Dimension](/contents/ch2MotionEquationsForConstantAccelerationInOneDimension.md)
+in [Motion Equations for Constant Acceleration in One Dimension](../contents/ch2MotionEquationsForConstantAccelerationInOneDimension.md)
 for the change in speed over a distance $$ d $$ if the acceleration has the
 constant value $$ a $$; namely, $$ v^{2}= v_{0}^{2}+2ad $$
 (note that $$ a $$ appears in the expression for the net work). Solving for
@@ -443,7 +443,7 @@ needed for the movement of larger animals would relate to metabolic rates.
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
 Confirm the value given for the kinetic energy of an aircraft
-carrier in [[Figure]](/contents/ch7ConservationOfEnergy.md#import-auto-id2866785).
+carrier in [[Figure]](../contents/ch7ConservationOfEnergy.md#import-auto-id2866785).
 You will need to look up the definition of a nautical mile (1 knot = 1 nautical mile/h).
 
 </div>

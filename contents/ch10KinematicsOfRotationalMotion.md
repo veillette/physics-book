@@ -61,7 +61,7 @@ counterpart.
 Making Connections
 </div>
 Kinematics for rotational motion is completely analogous to translational kinematics,
-first presented in [One-Dimensional Kinematics](/contents/ch1OneDImension.md). Kinematics is 
+first presented in [One-Dimensional Kinematics](../contents/ch1OneDImension.md). Kinematics is 
 concerned with the description of motion without regard to force or mass.
 We will find that translational kinematic quantities, such as displacement,
 velocity, and acceleration have direct analogs in rotational motion.
@@ -69,7 +69,7 @@ velocity, and acceleration have direct analogs in rotational motion.
 </div>
 
 Starting with the four kinematic equations we developed
-in [One-Dimensional Kinematics](/contents/ch2Kinematics.md), we can derive the
+in [One-Dimensional Kinematics](../contents/ch2Kinematics.md), we can derive the
 following four rotational kinematic equations (presented together with their translational counterparts):
 
 ##### Table: Rotational Kinematic Equations
@@ -372,7 +372,7 @@ Quite a trip (if it survives)! Note that this distance is the total distance
 traveled by the fly. Displacement is actually zero for complete revolutions
 because they bring the fly back to its original position. The distinction
 between total distance traveled and displacement was first noted
-in [One-Dimensional Kinematics](/contents/ch2Kinematics.md).
+in [One-Dimensional Kinematics](../contents/ch2Kinematics.md).
 
 </div>
 
@@ -397,7 +397,7 @@ Rotational kinematics (just like linear kinematics) is descriptive and does not 
   relationships among rotation angle, angular velocity, angular acceleration,
   and time.
 * {: #import-auto-id1963043} Starting with the four kinematic equations we
-  developed in the [One-Dimensional Kinematics](/contents/ch2Kinematics.md), we can derive
+  developed in the [One-Dimensional Kinematics](../contents/ch2Kinematics.md), we can derive
   the four rotational kinematic equations (presented together with their
   translational counterparts) seen in [[Figure]](#import-auto-id3400476).
 * {: #import-auto-id1374592} In these equations, the subscript 0 denotes initial

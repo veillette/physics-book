@@ -160,7 +160,7 @@ with a force nearly equal to his weight.
 **Instantaneous acceleration**{: data-type="term" #import-auto-id2303194} $$ a
 $$, or the *acceleration at a specific instant in time*, is obtained by the same
 process as discussed for instantaneous velocity
-in [Time, Velocity, and Speed](/contents/ch2TimeVelocityAndSpeed.md)—that is, by considering an
+in [Time, Velocity, and Speed](../contents/ch2TimeVelocityAndSpeed.md)—that is, by considering an
 infinitesimally small interval of time. How do we find instantaneous
 acceleration using only algebra? The answer is that we choose an average
 acceleration that is representative of the
@@ -254,7 +254,7 @@ traveled, and how they are related to displacement. Distance between two
 positions is defined to be the magnitude of displacement, which was found
 in [[Figure]](#fs-id1744930). Distance traveled is the total length of the path
 traveled between the two positions. (
-See [Displacement](/contents/ch2Displacement.md).) In the case of the subway train shown
+See [Displacement](../contents/ch2Displacement.md).) In the case of the subway train shown
 in [[Figure]](#import-auto-id2590556), the distance traveled is the same as the
 distance between the initial and final positions of the train.
 
@@ -307,7 +307,7 @@ to the right.
  $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{+30.0 \text{km/h}}{20.0 s} $$
 </div>
 4\. Since the units are mixed (we have both hours and seconds for time), we need to convert everything into SI 
-units of meters and seconds. (See [Physical Quantities and Units](/contents/ch1PhysicalQuantitiesAndUnits.md) for more guidance.)
+units of meters and seconds. (See [Physical Quantities and Units](../contents/ch1PhysicalQuantitiesAndUnits.md) for more guidance.)
 
 <div data-type="equation" id="import-auto-id2297812">
  $$ \overline{a}=\left(\frac{+30 \text{km/h}}{20.0 \s }\right)\left(\frac{ 10^{3}\m }{1 \text{km}}\right)\left(\frac{1 \text{h}}{3600 \s }\right)=0.417 \mss $$
