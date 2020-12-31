@@ -1,6 +1,9 @@
 # Dependencies
 markdown: kramdown
 
+plugins:
+  - jekyll-sitemap
+
 # Setup
 title: 'General Physics'
 tagline: '@ Berea College'
