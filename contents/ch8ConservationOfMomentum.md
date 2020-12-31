@@ -13,8 +13,8 @@ layout: page
 </div>
 
 Momentum is an important quantity because it is conserved. Yet it was not
-conserved in the examples in [Impulse](/contents/ch8Impulse.md)
-and [Linear Momentum and Force](/contents/ch8LinearMomentumAndForce.md), where large changes in
+conserved in the examples in [Impulse](../contents/ch8Impulse.md)
+and [Linear Momentum and Force](../contents/ch8LinearMomentumAndForce.md), where large changes in
 momentum were produced by forces acting on the system of interest. Under what
 circumstances is momentum conserved?
 

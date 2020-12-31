@@ -42,8 +42,8 @@ means.
 How do we add velocities? Velocity is a vector (it has both magnitude and
 direction); the rules of **vector addition**{: data-type="term"
 #import-auto-id1402169} discussed
-in [Vector Addition and Subtraction: Graphical Methods](/contents/ch3VectorAdditionAndSubtractionGraphicalMethods.md)
-and [Vector Addition and Subtraction: Analytical Methods](/contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md)
+in [Vector Addition and Subtraction: Graphical Methods](../contents/ch3VectorAdditionAndSubtractionGraphicalMethods.md)
+and [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md)
 apply to the addition of velocities, just as they do for any other vectors. In
 one-dimensional motion, the addition of velocities is simple—they add like
 ordinary numbers. For example, if a field hockey player is moving at $$
@@ -197,7 +197,7 @@ in [[Figure]](#import-auto-id1546060), we choose a coordinate system with its
 {\text{p}} $$).
  (You may wish to look back at the discussion of the addition of vectors using
 perpendicular components
-in [Vector Addition and Subtraction: Analytical Methods](/contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md).)
+in [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md).)
 
 **Solution**
 

@@ -24,7 +24,7 @@ energy**{: data-type="term" #import-auto-id2669979} .
 {: #import-auto-id3229349}
 
 Work must be done to rotate objects such as grindstones or merry-go-rounds. Work
-was defined in [Uniform Circular Motion and Gravitation](/contents/ch6UniformCircularMotionAndGravitation.md) for
+was defined in [Uniform Circular Motion and Gravitation](../contents/ch6UniformCircularMotionAndGravitation.md) for
 translational motion, and we can build on that knowledge when considering work
 done in rotational motion. The simplest rotational situation is one in which the
 net force is exerted perpendicular to the radius of a disk (as shown
@@ -71,7 +71,7 @@ $$, so that
 <div data-type="title">
 Making Connections
 </div>
-Work and energy in rotational motion are completely analogous to work and energy in translational motion, first presented in [Uniform Circular Motion and Gravitation](/contents/ch6UniformCircularMotionAndGravitation.md).
+Work and energy in rotational motion are completely analogous to work and energy in translational motion, first presented in [Uniform Circular Motion and Gravitation](../contents/ch6UniformCircularMotionAndGravitation.md).
 
 </div>
 
@@ -190,7 +190,7 @@ where the torque is
  $$ \text{net τ}=rF=\left(0.320 \m \right)\left(200 \N \right)=64.0 \N \cdot \m . $$
 </div>
 The formula for the moment of inertia for a disk is found
-in [[Figure]](/contents/ch10DynamicsOfRotationalMotion.md#fs-id1838666) :
+in [[Figure]](../contents/ch10DynamicsOfRotationalMotion.md#fs-id1838666) :
 
 <div data-type="equation" id="eip-119">
  $$ I=\frac{1}{2} MR^{2}=0.5\left(85.0 \kg \right){\left(0.320 \m \right)}^{2}=4.352 \kg \cdot \mm. $$
@@ -301,7 +301,7 @@ is
  $$ \omega =\frac{300 \text{rev}}{1.00 \text{min}}\cdot \frac{2 \pi \text{rad}}{1 \text{rev}}\cdot \frac{1.00 \text{min}}{60.0 \s }=31.4\frac{ \text{rad}}{\s}. $$
 </div>
 The moment of inertia of one blade will be that of a thin rod rotated about its end,
-found in [[Figure]](/contents/ch10DynamicsOfRotationalMotion.md#fs-id1838666). The total $$ I $$
+found in [[Figure]](../contents/ch10DynamicsOfRotationalMotion.md#fs-id1838666). The total $$ I $$
 is four times this moment of inertia, because there are four blades. Thus,
 
 <div data-type="equation" id="eip-897">
@@ -319,7 +319,7 @@ Entering $$ \omega $$ and $$ I $$ into the expression for rotational kinetic ene
 **Solution for (b)**
 
 Translational kinetic energy was defined
-in [Uniform Circular Motion and Gravitation](/contents/ch6UniformCircularMotionAndGravitation.md). Entering the
+in [Uniform Circular Motion and Gravitation](../contents/ch6UniformCircularMotionAndGravitation.md). Entering the
 given values of mass and velocity, we obtain
 
 <div data-type="equation" id="eip-2">
@@ -369,7 +369,7 @@ blades.
 Making Connections
 </div>
 Conservation of energy includes rotational motion, because rotational
-kinetic energy is another form of $$ \KE $$. [Uniform Circular Motion and Gravitation](/contents/ch6UniformCircularMotionAndGravitation.md) has a detailed
+kinetic energy is another form of $$ \KE $$. [Uniform Circular Motion and Gravitation](../contents/ch6UniformCircularMotionAndGravitation.md) has a detailed
 treatment of conservation of energy.
 
 </div>
@@ -452,7 +452,7 @@ Conservation of energy for this situation is written as described above:
  $$ mgh =\frac{1}{2}m v^{2}+\frac{1}{2}I\omega^{2} . $$
 </div>
 Before we can solve for $$ v $$, we must get an expression for $$ I $$
-from [[Figure]](/contents/ch10DynamicsOfRotationalMotion.md#fs-id1838666). Because $$ v $$ and $$ \omega $$
+from [[Figure]](../contents/ch10DynamicsOfRotationalMotion.md#fs-id1838666). Because $$ v $$ and $$ \omega $$
 are related (note here that the cylinder is rolling without slipping), we must
 also substitute the relationship $$ \omega =v/R $$ into the expression. These
 substitutions yield
@@ -586,7 +586,7 @@ The Earth has more rotational kinetic energy now than did the cloud of gas and d
 
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
-This problem considers energy and work aspects of [[Figure]](/contents/ch10DynamicsOfRotationalMotion.md#fs-id1468671)—use data from that example as needed.
+This problem considers energy and work aspects of [[Figure]](../contents/ch10DynamicsOfRotationalMotion.md#fs-id1468671)—use data from that example as needed.
 (a) Calculate the rotational kinetic energy in the merry-go-round plus child when they have an angular velocity of 20.0 rpm.
 (b) Using energy considerations, find the number of revolutions the father will have to push to achieve this angular velocity starting from rest.
 (c) Again, using energy considerations, calculate the force the father must exert to stop the merry-go-round in two revolutions
@@ -624,7 +624,7 @@ What is the final velocity of a hoop that rolls without slipping down a 5.00-m-h
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
 Calculate the rotational kinetic energy in the motorcycle wheel
-([[Figure]](/contents/ch10DynamicsOfRotationalMotion.md#import-auto-id3370574))
+([[Figure]](../contents/ch10DynamicsOfRotationalMotion.md#import-auto-id3370574))
 if its angular velocity is 120 rad/s. Assume $$M = 12.0 \kg $$, $$R_1= 0.280 \m $$,
 and $$R_2 = 0.330 \m $$.
 
@@ -737,7 +737,7 @@ where $$ M $$ is the mass of the object and $$ R $$ is its radius.
 
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
-Suppose a 200-kg motorcycle has two wheels like, [the one described in Problem 10.15](/contents/ch10DynamicsOfRotationalMotion.md#import-auto-id3370574) and is heading toward a hill at a speed of 30.0 m/s.
+Suppose a 200-kg motorcycle has two wheels like, [the one described in Problem 10.15](../contents/ch10DynamicsOfRotationalMotion.md#import-auto-id3370574) and is heading toward a hill at a speed of 30.0 m/s.
 (a) How high can it coast up the hill, if you neglect friction?
 (b) How much energy is lost to friction if the motorcycle only gains an altitude of 35.0 m before coming to rest?
 

@@ -331,7 +331,7 @@ Jogging on hard surfaces with insufficiently padded shoes produces large forces 
 <div data-type="problem" markdown="1">
 Kanellos Kanellopoulos flew 119 km from Crete to Santorini, Greece, on April 23, 1988, in the *Daedalus 88*, an aircraft
 powered by a bicycle-type drive mechanism (see [[Figure]](#import-auto-id2181552)). His useful power output for
-the 234-min trip was about 350 W. Using the efficiency for cycling from [[Figure]](/contents/ch7ConservationOfEnergy.md#import-auto-id1330125),
+the 234-min trip was about 350 W. Using the efficiency for cycling from [[Figure]](../contents/ch7ConservationOfEnergy.md#import-auto-id1330125),
 calculate the food energy in kilojoules he metabolized during the flight.
 
 ![An aircraft flying in the air shown from outside, which is powered by a bicycle-type drive mechanism.](../resources/Figure_08_08_05a.jpg "The Daedalus 88 in flight. (credit: NASA photo by Beasley)")
