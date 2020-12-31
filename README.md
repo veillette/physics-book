@@ -1,4 +1,4 @@
-# Textbook for College Physics
+# Textbook for General Physics
 
 You can access the book by going to the [link](https://veillette.github.io/physics-book/).
 The Table of Contents is in [./SUMMARY.md](./SUMMARY.md)
