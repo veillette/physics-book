@@ -135,7 +135,9 @@ will find such techniques to be useful in many areas of physics.
 <div data-type="title">
 PhET Explorations: Ladybug Motion 2D
 </div>
-Learn about position, velocity and acceleration vectors. Move the ladybug by setting the position, velocity or acceleration, and see how the vectors change. Choose linear, circular or elliptical motion, and record and playback the motion to analyze the behavior.
+Learn about position, velocity and acceleration vectors. Move the ladybug by setting the position, velocity or acceleration,
+and see how the vectors change. Choose linear, circular or elliptical motion, and record
+and playback the motion to analyze the behavior.
 
 <figure markdown="1" id="eip-id2971785">
 <figcaption>

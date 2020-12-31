@@ -169,9 +169,9 @@ upside down and measure the angle between the eastward axis and the vector.
 {: #import-auto-id1165298931707}
 
 In this case, the total displacement $$ \vb{R} $$ is seen to have a
-magnitude of 50.0 m and to lie in a direction $$ 7.0^\circ $$ south of east. By
+magnitude of 50.8 m and to lie in a direction $$ 5.5^\circ $$ south of east. By
 using its magnitude and direction, this vector can be expressed
-as $$ \mag{R}=50.0 \m $$ and $$ \theta =7.0^\circ $$ south of east.
+as $$ \mag{R}=50.8 \m $$ and $$ \theta =5.5^\circ $$ south of east.
 
 **Discussion**
 

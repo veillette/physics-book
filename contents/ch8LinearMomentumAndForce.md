@@ -173,7 +173,12 @@ example.
 <div data-type="title">
 Calculating Force: Venus Williams’ Racquet
 </div>
-During the 2007 French Open, Venus Williams hit the fastest recorded serve in a premier women’s match, reaching a speed of 58 m/s (209 km/h). What is the average force exerted on the 0.057-kg tennis ball by Venus Williams’ racquet, assuming that the ball’s speed just after impact is 58 m/s, that the initial horizontal component of the velocity before impact is negligible, and that the ball remained in contact with the racquet for 5.0 ms (milliseconds)?
+During the 2007 French Open, Venus Williams hit the fastest recorded serve in
+a premier women’s match, reaching a speed of 58 m/s (209 km/h). What is the average
+force exerted on the 0.057-kg tennis ball by Venus Williams’ racquet, assuming
+that the ball’s speed just after impact is 58 m/s, that the initial horizontal
+component of the velocity before impact is negligible, and that the ball remained
+in contact with the racquet for 5.0 ms (milliseconds)?
 
 **Strategy**
 
