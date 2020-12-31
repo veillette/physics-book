@@ -61,7 +61,7 @@ defines the **realm of physics**.
 Physics aims to describe the function of everything around us, from the movement
 of tiny charged particles to the motion of people, cars, and spaceships. In
 fact, almost everything around you can be described quite accurately by the laws
-of physics. Consider a smart phone ([\[link\]](#import-auto-id1956069)). Physics
+of physics. Consider a smart phone ([Figure 2](#import-auto-id1956069)). Physics
 describes how electricity interacts with the various circuits inside the device.
 This knowledge helps engineers select the appropriate materials and circuit
 layout when building the smart phone. Next, consider a GPS system. Physics
@@ -79,8 +79,8 @@ You need not be a scientist to use physics. On the contrary, knowledge of
 physics is useful in everyday situations as well as in nonscientific
 professions. It can help you understand how microwave ovens work, why metals
 should not be put into them, and why they might affect pacemakers. (
-See [\[link\]](#import-auto-id1301457)
-and [\[link\]](#import-auto-id2543552).) Physics allows you to understand the
+See [Figure 3](#import-auto-id1301457)
+and [Figure 4](#import-auto-id2543552).) Physics allows you to understand the
 hazards of radiation and rationally evaluate these hazards more easily. Physics
 also explains the reason why a black car radiator helps remove heat in a car
 engine, and it explains why a white roof helps keep the inside of a house cool.
@@ -100,8 +100,8 @@ physics and other disciplines.
 
 Physics has many applications in the biological sciences. On the microscopic
 level, it helps describe the properties of cell walls and cell
-membranes ([\[link\]](#import-auto-id2821668)
-and [\[link\]](#import-auto-id1622392)). On the macroscopic level, it can
+membranes ([Figure 5](#import-auto-id2821668)
+and [Figure 6](#import-auto-id1622392)). On the macroscopic level, it can
 explain the heat, work, and power associated with the human body. Physics is
 involved in medical diagnostics, such as x-rays, magnetic resonance imaging (
 MRI), and ultrasonic blood flow measurements. Medical therapy sometimes directly
@@ -136,7 +136,7 @@ follow. Such laws are intrinsic to the universe; humans did not create them and
 so cannot change them. We can only discover and understand them. Their discovery
 is a very human endeavor, with all the elements of mystery, imagination,
 struggle, triumph, and disappointment inherent in any creative effort. (
-See [\[link\]](#import-auto-id2747660) and [\[link\]](#import-auto-id1596747).)
+See [Figure 7](#import-auto-id2747660) and [Figure 8](#import-auto-id1596747).)
 The cornerstone of discovering natural laws is observation; science must
 describe the universe as it is, not as we may imagine it to be.
 
@@ -160,7 +160,7 @@ something that is often too difficult (or impossible) to display directly. While
 a model is justified with experimental proof, it is only accurate under limited
 situations. An example is the planetary model of the atom in which electrons are
 pictured as orbiting the nucleus, analogous to the way planets orbit the Sun. (
-See [\[link\]](#fs-id1165298745067).) We cannot observe electron orbits
+See [Figure 9](#fs-id1165298745067).) We cannot observe electron orbits
 directly, but the mental image helps explain the observations we can make, such
 as the emission of light from hot gases (atomic spectra). Physicists use models
 for a variety of purposes. For example, models can help physicists analyze a
@@ -199,13 +199,15 @@ Pascal’s principle, which is applicable only in fluids), but the distinction
 between laws and principles often is not carefully made.
 
 ![A planetary model of an atom with a positively charged nucleus at the center and negatively charged particles moving in orbits around the nucleus.](../resources/Figure_01_01_09_aa.jpg "What is a model? This planetary model of the atom shows electrons orbiting the nucleus. It is a drawing that we use to form a mental image of the atom that we cannot see directly with our eyes because it is too small.")
-{: height="150"}
+{: #fs-id1165298745067 height="150"}
 
 <div data-type="note" data-has-label="true" data-label="" markdown="1">
 <div data-type="title">
 Models, Theories, and Laws
 </div>
-Models, theories, and laws are used to help scientists analyze the data they have already collected. However, often after a model, theory, or law has been developed, it points scientists toward new discoveries they would not otherwise have made.
+Models, theories, and laws are used to help scientists analyze the data they have
+already collected. However, often after a model, theory, or law has been developed,
+it points scientists toward new discoveries they would not otherwise have made.
 
 </div>
 
@@ -231,7 +233,15 @@ sublime for the insights gained.
 <div data-type="title">
 The Scientific Method
 </div>
-As scientists inquire and gather information about the world, they follow a process called the **scientific method**{: data-type="term" #import-auto-id1666405}. This process typically begins with an observation and question that the scientist will research. Next, the scientist typically performs some research about the topic and then devises a hypothesis. Then, the scientist will test the hypothesis by performing an experiment. Finally, the scientist analyzes the results of the experiment and draws a conclusion. Note that the scientific method can be applied to many situations that are not limited to science, and this method can be modified to suit the situation.
+As scientists inquire and gather information about the world, they follow a 
+process called the **scientific method**{: data-type="term" #import-auto-id1666405}.
+This process typically begins with an observation and question that the scientist
+will research. Next, the scientist typically performs some research about the topic
+and then devises a hypothesis. Then, the scientist will test the hypothesis by
+performing an experiment. Finally, the scientist analyzes the results of the
+experiment and draws a conclusion. Note that the scientific method can be
+applied to many situations that are not limited to science, and this method
+can be modified to suit the situation.
 
 Consider an example. Let us say that you try to turn on your car, but it will
 not start. You undoubtedly wonder: Why will the car not start? You can follow a
@@ -256,8 +266,8 @@ including astronomy, biology, chemistry, physics, mathematics, and medicine.
 Over the last few centuries, the growth of knowledge has resulted in
 ever-increasing specialization and branching of natural philosophy into separate
 fields, with physics retaining the most basic facets. (
-See [\[link\]](#import-auto-id3143608), [\[link\]](#import-auto-id2681333),
-and [\[link\]](#import-auto-id2681780).) Physics as it developed from the
+See [Figure 10](#import-auto-id3143608), [Figure 11](#import-auto-id2681333),
+and [Figure 12](#import-auto-id2681780).) Physics as it developed from the
 Renaissance to the end of the 19th century is called **classical physics**{:
 data-type="term" #import-auto-id2676866} . It was transformed into modern
 physics by revolutionary discoveries made starting at the beginning of the 20th
@@ -286,7 +296,7 @@ with our senses might be like. For example, we can understand an atom’s
 properties because we can picture it in our minds, although we have never seen
 an atom with our eyes. New tools, of course, allow us to better picture
 phenomena we cannot see. In fact, new instrumentation has allowed us in recent
-years to actually “picture” the atom.
+years to actually “picture” the atom. (see [Figure 13](#import-auto-id2990813).)
 
 <div data-type="note" data-has-label="true" data-label="" markdown="1">
 <div data-type="title">

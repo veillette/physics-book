@@ -15,14 +15,14 @@ layout: page
 What happens to the work done on a system? Energy is transferred into the
 system, but in what form? Does it remain in the system or move on? The answers
 depend on the situation. For example, if the lawn mower
-in [\[link\]](/contents/ch7WorkTheScientificDefinition.md#import-auto-id2495459)(a) is pushed just hard
+in [[Figure]](/contents/ch7WorkTheScientificDefinition.md#import-auto-id2495459)(a) is pushed just hard
 enough to keep it going at a constant speed, then energy put into the mower by
 the person is removed continuously by friction, and eventually leaves the system
 in the form of heat transfer. In contrast, work done on the briefcase by the
 person carrying it up stairs
-in [\[link\]](/contents/ch7WorkTheScientificDefinition.md#import-auto-id2495459)(d) is stored in the
+in [[Figure]](/contents/ch7WorkTheScientificDefinition.md#import-auto-id2495459)(d) is stored in the
 briefcase-Earth system and can be recovered at any time, as shown
-in [\[link\]](/contents/ch7WorkTheScientificDefinition.md#import-auto-id2495459)(e). In fact, the building
+in [[Figure]](/contents/ch7WorkTheScientificDefinition.md#import-auto-id2495459)(e). In fact, the building
 of the pyramids in ancient Egypt is an example of storing energy in a system by
 doing work on the system. Some of the energy imparted to the stone blocks in
 lifting them during construction of the pyramids remains in the stone-Earth
@@ -49,11 +49,11 @@ work**{: data-type="term"} is the work done by the net external force $$
 {\text{net}}d\cos{\theta} $$ where $$ \theta $$ is the angle between the force
 vector and the displacement vector.
 
-[\[link\]](#import-auto-id1046634)(a) shows a graph of force versus displacement
+[[Figure]](#import-auto-id1046634)(a) shows a graph of force versus displacement
 for the component of the force in the direction of the displacement—that is, an
 $$ F\cos{\theta} $$ vs. $$ d $$ graph. In this case, $$ F\cos{\theta} $$ is
 constant. You can see that the area under the graph is $$ Fd\cos{\theta} $$, or
-the work done. [\[link\]](#import-auto-id1046634)(b) shows a more general
+the work done. [[Figure]](#import-auto-id1046634)(b) shows a more general
 process where the force varies. The area under the curve is divided into strips,
 each having an average force $$ \left(
 F\cos{\theta} \right)_{i\left(\text{ave}\right)} $$. The work done is $$
@@ -69,7 +69,7 @@ theta versus distance d. d is along the x axis and F cosine theta is along the y
 Net work will be simpler to examine if we consider a one-dimensional situation
 where a force is used to accelerate an object in a direction parallel to its
 initial velocity. Such a situation occurs for the package on the roller belt
-conveyor system shown in [\[link\]](#import-auto-id1803210).
+conveyor system shown in [[Figure]](#import-auto-id1803210).
 
 ![A package shown on a roller belt pushed with a force F towards the right shown by a vector F sub app equal to one hundred and twenty newtons. A vector w is in the downward direction starting from the bottom of the package and the reaction force N on the package is shown by the vector N pointing upwards at the bottom of the package. A frictional force vector of five point zero zero newtons acts on the package leftwards. The displacement d is shown by the vector pointing to the right with a value of zero point eight zero zero meters.](../resources/Figure_08_02_03a.jpg "A package on a roller belt is pushed horizontally through a distance &#10; &#10; d&#10; &#10;. ")
 {: #import-auto-id1803210}
@@ -89,7 +89,7 @@ Thus, as expected, the net force is parallel to the displacement, so that $$
 The effect of the net force $$ \vb{F}_{\text{net}} $$ is to accelerate the
 package from $$ v_{0} $$ to $$ v $$. The kinetic energy of the package
 increases, indicating that the net work done on the system is positive. (
-See [\[link\]](#fs-id1703845).) By using Newton’s second law, and doing some
+See [[Figure]](#fs-id1703845).) By using Newton’s second law, and doing some
 algebra, we can reach an interesting conclusion. Substituting $$ F_
 {\text{net}}=ma $$ from Newton’s second law gives
 
@@ -149,7 +149,7 @@ energy associated with the motion of a particle, single body, or system of
 objects moving together.
 
 We are aware that it takes energy to get an object, like a car or the package
-in [\[link\]](#import-auto-id1803210), up to speed, but it may be a bit
+in [[Figure]](#import-auto-id1803210), up to speed, but it may be a bit
 surprising that kinetic energy is proportional to speed squared. This
 proportionality means, for example, that a car traveling at 100 km/h has four
 times the kinetic energy it has at 50 km/h, helping to explain why high-speed
@@ -160,7 +160,7 @@ illustrate various aspects of work and energy.
 <div data-type="title">
 Calculating the Kinetic Energy of a Package
 </div>
-Suppose a 30.0-kg package on the roller belt conveyor system in [\[link\]](#import-auto-id1803210) is moving at 0.500 m/s. What is its kinetic energy?
+Suppose a 30.0-kg package on the roller belt conveyor system in [[Figure]](#import-auto-id1803210) is moving at 0.500 m/s. What is its kinetic energy?
 
 **Strategy**
 
@@ -200,7 +200,7 @@ can move packages like this without exhausting themselves.
 <div data-type="title">
 Determining the Work to Accelerate a Package
 </div>
-Suppose that you push on the 30.0-kg package in [\[link\]](#import-auto-id1803210) with a constant force of 120 N through a distance of 0.800 m, and that the opposing friction force averages 5.00 N.
+Suppose that you push on the 30.0-kg package in [[Figure]](#import-auto-id1803210) with a constant force of 120 N through a distance of 0.800 m, and that the opposing friction force averages 5.00 N.
 (a) Calculate the net work done on the package.
 (b) Solve the same problem as in part (a), this time by finding the work done by each force that contributes to
 the net force.
@@ -211,7 +211,7 @@ This is a motion in one dimension problem, because the downward force (from the
 weight of the package) and the normal force have equal magnitude and opposite
 direction, so that they cancel in calculating the net force, while the applied
 force, friction, and the displacement are all horizontal. (
-See [\[link\]](#import-auto-id1803210).) As expected, the net work is the net
+See [[Figure]](#import-auto-id1803210).) As expected, the net work is the net
 force times distance.
 
 **Solution for (a)**
@@ -287,7 +287,7 @@ calculated by either approach.
 <div data-type="title">
 Determining Speed from Work and Energy
 </div>
-Find the speed of the package in [\[link\]](#import-auto-id1803210) at the end of the push, using work and energy concepts.
+Find the speed of the package in [[Figure]](#import-auto-id1803210) at the end of the push, using work and energy concepts.
 
 **Strategy**
 
@@ -334,7 +334,7 @@ the package. This means that the work indeed adds to the energy of the package.
 <div data-type="title">
 Work and Energy Can Reveal Distance, Too
 </div>
-How far does the package in [\[link\]](#import-auto-id1803210) coast after the push, assuming friction remains constant? Use work and energy considerations.
+How far does the package in [[Figure]](#import-auto-id1803210) coast after the push, assuming friction remains constant? Use work and energy considerations.
 
 **Strategy**
 
@@ -394,7 +394,7 @@ generally shorter and easier than those using kinematics and dynamics alone.
 
 <div data-type="exercise" data-element-type="conceptual-questions">
 <div data-type="problem" markdown="1">
-The person in [[link]](#import-auto-id1655335) does work on the lawn mower. Under what conditions would the mower gain energy? Under what conditions would it lose energy?
+The person in [[Figure]](#import-auto-id1655335) does work on the lawn mower. Under what conditions would the mower gain energy? Under what conditions would it lose energy?
 
 ![A person pushing a lawn mower with a force F. Force is represented by a vector making an angle theta below the horizontal and distance moved by the mover is represented by vector d. The component of vector F along vector d is F cosine theta. Work done by the person, W, is equal to F d cosine theta.](../resources/Figure_08_02_04a.jpg)
 {: #import-auto-id1655335}
@@ -411,7 +411,7 @@ Work done on a system puts energy into it. Work done by a system removes energy 
 
 <div data-type="exercise" data-element-type="conceptual-questions">
 <div data-type="problem" markdown="1">
-When solving for speed in [[link]](#fs-id1534836), we kept only the positive root. Why?
+When solving for speed in [[Figure]](#fs-id1534836), we kept only the positive root. Why?
 
 </div>
 </div>
@@ -443,7 +443,7 @@ needed for the movement of larger animals would relate to metabolic rates.
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
 Confirm the value given for the kinetic energy of an aircraft
-carrier in [[link]](/contents/ch7ConservationOfEnergy.md#import-auto-id2866785).
+carrier in [[Figure]](/contents/ch7ConservationOfEnergy.md#import-auto-id2866785).
 You will need to look up the definition of a nautical mile (1 knot = 1 nautical mile/h).
 
 </div>

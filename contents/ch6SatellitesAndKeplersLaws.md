@@ -57,7 +57,7 @@ The orbit of each planet about the Sun is an ellipse with the Sun at one focus.
 
 Each planet moves so that an imaginary line drawn from the Sun to the planet
 sweeps out equal areas in equal times (
-see [\[link\]](#import-auto-id1318502)).
+see [[Figure]](#import-auto-id1318502)).
 
 **Kepler’s Third Law**
 
@@ -217,9 +217,9 @@ parent can be calculated. This principle has been used extensively to find the
 masses of heavenly bodies that have satellites. Furthermore, the ratio $$
 r^{3}/ T^{2} $$ should be a constant for all satellites of the same parent
 body (because $$ \frac{r^{3}}{T^{2}}=\frac{GM}{4\pi^{2}} $$).
- (See [\[link\]](#import-auto-id2453905)).
+ (See [[Figure]](#import-auto-id2453905)).
 
-It is clear from [\[link\]](#import-auto-id2453905) that the ratio of $$
+It is clear from [[Figure]](#import-auto-id2453905) that the ratio of $$
 {r}^{3}/ T^{2} $$ is constant, at least to the third digit, for all listed
 satellites of the Sun, and for those of Jupiter. Small variations in that ratio
 have two causes—uncertainties in the $$ r $$ and $$ T $$ data, and perturbations
@@ -287,13 +287,13 @@ system. It epitomizes the underlying unity and simplicity of physics.
 
 Before the discoveries of Kepler, Copernicus, Galileo, Newton, and others, the
 solar system was thought to revolve around Earth as shown
-in [\[link\]](#import-auto-id1577966)(a). This is called the Ptolemaic view, for
+in [[Figure]](#import-auto-id1577966)(a). This is called the Ptolemaic view, for
 the Greek philosopher who lived in the second century AD. This model is
 characterized by a list of facts for the motions of planets with no cause and
 effect explanation. There tended to be a different rule for each heavenly body
 and a general lack of simplicity.
 
-[\[link\]](#import-auto-id1577966)(b) represents the modern or Copernican model.
+[[Figure]](#import-auto-id1577966)(b) represents the modern or Copernican model.
 In this model, a small set of rules and a single underlying force explain not
 only all motions in the solar system, but all other situations involving
 gravity. The breadth and simplicity of the laws of physics are compelling. As
@@ -361,7 +361,7 @@ A geosynchronous Earth satellite is one that has an orbital period of precisely
 1 day. Such orbits are useful for communication and weather observation because
 the satellite remains above the same point on Earth (provided it orbits in the
 equatorial plane in the same direction as Earth’s rotation). Calculate the radius
-of such an orbit based on the data for the moon in [[link]](#import-auto-id2453905).
+of such an orbit based on the data for the moon in [[Figure]](#import-auto-id2453905).
 
 </div>
 </div>
@@ -387,7 +387,7 @@ Find the mass of Jupiter based on data for the orbit of one of its moons, and co
 
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
-Find the ratio of the mass of Jupiter to that of Earth based on data in [[link]](#import-auto-id2453905).
+Find the ratio of the mass of Jupiter to that of Earth based on data in [[Figure]](#import-auto-id2453905).
 
 </div>
 <div data-type="solution" data-element-type="problems-exercises" markdown="1">

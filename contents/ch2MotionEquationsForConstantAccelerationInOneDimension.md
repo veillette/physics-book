@@ -354,7 +354,7 @@ What else can we learn by examining the equation $$ x=x_{0}+v_{0}t+\frac{1}{2}a
 t^{2} ? $$ We see that:
 
 * {: #import-auto-id2166810} displacement depends on the square of the elapsed
-  time when acceleration is not zero. In [\[link\]](#fs-id1164906457202), the
+  time when acceleration is not zero. In [[Figure]](#fs-id1164906457202), the
   dragster covers only one fourth of the total distance in the first half of the
   elapsed time
 * {: #import-auto-id2167534} if acceleration is zero, then the initial velocity
@@ -382,7 +382,7 @@ Substituting this and $$ \overline{v}=\frac{ v_{0}+v}{2} $$ into $$ x=x_{0}+\ove
 <div data-type="title">
 Calculating Final Velocity: Dragsters
 </div>
-Calculate the final velocity of the dragster in [\[link\]](#fs-id1164906457202) without using information about time.
+Calculate the final velocity of the dragster in [[Figure]](#fs-id1164906457202) without using information about time.
 
 **Strategy**
 
@@ -399,7 +399,7 @@ time information is required.
 
 1\. Identify the known values. We know that $$ v_{0}=0 $$, since the dragster
 starts from rest. Then we note that $$ x-x_{0}=402 \m $$
-(this was the answer in [\[link\]](#fs-id1164906457202)). Finally, the average
+(this was the answer in [[Figure]](#fs-id1164906457202)). Finally, the average
 acceleration was given to be $$ a=26.0 \mss $$.
 
 2\. Plug the knowns into the equation $$ v^{2}=v_{0}^{2}+2a\left(x-x_
@@ -1027,8 +1027,8 @@ the station?
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
 Dragsters can actually reach a top speed of 145 m/s in only 4.45 s—considerably
-less time than given in [[link]](#fs-id1164906457202) and
-[[link]](#fs-id1164906443776).
+less time than given in [[Figure]](#fs-id1164906457202) and
+[[Figure]](#fs-id1164906443776).
 (a) Calculate the average acceleration for such a dragster.
 (b) Find the final velocity of this dragster starting from rest and accelerating at the rate found in (a) for 402 m (a quarter mile) without using any information on time.
 (c) Why is the final velocity greater than that used to find the average acceleration? *Hint*: Consider whether the assumption of constant acceleration is valid for a dragster. If not, discuss whether the acceleration would be greater at the beginning or end of the run and what effect that would have on the final velocity.

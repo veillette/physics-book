@@ -40,7 +40,7 @@ example, the length of a race, which is a physical quantity, can be expressed in
 units of meters (for sprinters) or kilometers (for distance runners). Without
 standardized units, it would be extremely difficult for scientists to express
 and compare measured values in a meaningful way. (
-See [\[link\]](#import-auto-id2991258).)
+See [Figure 2](#import-auto-id2991258).)
 
 ![A boy looking at a map and trying to guess distances with unit of length mentioned as cables between two points.](../resources/Figure_01_02_01a.jpg "Distances given in unknown units are maddeningly useless.")
 {: #import-auto-id2991258 height="225"}
@@ -58,13 +58,13 @@ the French *Système International*.
 
 ### SI Units: Fundamental and Derived Units
 
-[\[link\]](#import-auto-id3094653) gives the fundamental SI units that are used
+[Table 1](#import-auto-id3094653) gives the fundamental SI units that are used
 throughout this textbook. This text uses non-SI units in a few applications
 where they are in very common use, such as the measurement of blood pressure in
 millimeters of mercury (mm Hg). Whenever non-SI units are discussed, they will
 be tied to SI units through conversions.
 
-##### Table: Fundamental SI Units
+##### Table 1: Fundamental SI Units
 
 |Length|Mass|Time|Electric Current|
 |--- |--- |--- |--- |
@@ -95,7 +95,7 @@ physical phenomenon (because the solar day is getting longer due to very gradual
 slowing of the Earth’s rotation). Cesium atoms can be made to vibrate in a very
 steady way, and these vibrations can be readily observed and counted. In 1967
 the second was redefined as the time required for 9 192 631 770 of these
-vibrations. (See [\[link\]](#import-auto-id2575847).) Accuracy in the
+vibrations. (See [Figure 3](#import-auto-id2575847).) Accuracy in the
 fundamental units is essential, because all measurements are ultimately
 expressed in terms of fundamental units and can be no more accurate than are the
 fundamental units themselves.
@@ -116,7 +116,7 @@ of the wavelength of light, so it was again redefined as 1 650 763.73
 wavelengths of orange light emitted by krypton atoms. In 1983, the meter was
 given its present definition (partly for greater accuracy) as the distance light
 travels in a vacuum in 1/299 792 458 of a second. (
-See [\[link\]](#import-auto-id1381492).) This change defines the speed of light
+See [Figure 4](#import-auto-id1381492).) This change defines the speed of light
 to be exactly 299 792 458 meters per second. The length of the meter will change
 if the speed of light is someday measured with greater accuracy.
 
@@ -154,7 +154,7 @@ of length, mass, and time.
 SI units are part of the **metric system**{: data-type="term"
 #import-auto-id2678122}. The metric system is convenient for scientific and
 engineering calculations because the units are categorized by factors of 10.
-[\[link\]](#import-auto-id2643474) gives metric prefixes and symbols used to
+[[Figure]](#import-auto-id2643474) gives metric prefixes and symbols used to
 denote various factors of 10.
 
 Metric systems have the advantage that conversions of units involve only powers
@@ -229,9 +229,9 @@ are related to large-scale currents and forces between wires.
 
 The vastness of the universe and the breadth over which physics applies are
 illustrated by the wide range of examples of known lengths, masses, and times
-in [\[link\]](#import-auto-id1677589). Examination of this table will give you
+in [[Figure]](#import-auto-id1677589). Examination of this table will give you
 some feeling for the range of possible topics and numerical values. (
-See [\[link\]](#import-auto-id3143533) and [\[link\]](#import-auto-id3083060).)
+See [[Figure]](#import-auto-id3143533) and [[Figure]](#import-auto-id3083060).)
 
 ![A magnified image of tiny phytoplankton swimming among the crystal of ice.\[](../resources/Figure_01_02_04a.jpg "Tiny phytoplankton swims among crystals of ice in the Antarctic Sea. They range from a few micrometers to as much as 2 millimeters in length. (credit: Prof. Gordon T. Taylor, Stony Brook University; NOAA Corps Collections)")
 {: #import-auto-id3143533}
@@ -583,7 +583,7 @@ speed of 4.0 cm/year.
 
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
-(a) Refer to [[link]](#import-auto-id1677589) to determine the average distance between the Earth and the Sun.
+(a) Refer to [[Figure]](#import-auto-id1677589) to determine the average distance between the Earth and the Sun.
 Then calculate the average speed of the Earth in its orbit in kilometers per second.
 (b) What is this in meters per second?
 
