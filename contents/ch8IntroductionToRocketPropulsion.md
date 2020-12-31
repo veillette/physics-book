@@ -29,7 +29,7 @@ Hold a balloon and fill it with air. Then, let the balloon go. In which directio
 
 </div>
 
-[\[link\]](#import-auto-id2509052) shows a rocket accelerating straight up. In
+[[Figure]](#import-auto-id2509052) shows a rocket accelerating straight up. In
 part (a), the rocket has a mass $$ m $$ and a velocity $$ v $$ relative to
 Earth, and hence a momentum $$ mgh $$. In part (b), a time $$ \Delta t $$ has
 elapsed in which the rocket has ejected a mass $$ \Delta m $$ of hot gas at a
@@ -191,7 +191,7 @@ to fuel becomes more favorable, too.
 
 The space shuttle was an attempt at an economical vehicle with some reusable
 parts, such as the solid fuel boosters and the craft itself. (
-See [\[link\]](#import-auto-id2998704)) The shuttle’s need to be operated by
+See [[Figure]](#import-auto-id2998704)) The shuttle’s need to be operated by
 humans, however, made it at least as costly for launching satellites as
 expendable, unmanned rockets. Ideally, the shuttle would only have been used
 when human activities were required for the success of a mission, such as the

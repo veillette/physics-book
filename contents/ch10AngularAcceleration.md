@@ -22,7 +22,7 @@ defined as the time rate of change of angle $$ \theta $$:
 </div>
 
 where $$ \theta $$ is the angle of rotation as seen
-in [\[link\]](#import-auto-id1941476). The relationship between angular velocity
+in [[Figure]](#import-auto-id1941476). The relationship between angular velocity
 $$ \omega $$ and linear velocity $$ v $$ was also defined
 in [Rotation Angle and Angular Velocity](/contents/ch6RotationAngleAndAngularVelocity.md) as
 
@@ -37,7 +37,7 @@ or
 </div>
 
 where $$ r $$ is the radius of curvature, also seen
-in [\[link\]](#import-auto-id1941476). According to the sign convention, the
+in [[Figure]](#import-auto-id1941476). According to the sign convention, the
 counter clockwise direction is considered as positive direction and clockwise
 direction as negative
 
@@ -150,7 +150,7 @@ stop. This connection between circular motion and linear motion needs to be
 explored. For example, it would be useful to know how linear and angular
 acceleration are related. In circular motion, linear acceleration is *tangent*
 to the circle at the point of interest, as seen
-in [\[link\]](#import-auto-id1019355). Thus, linear acceleration is called
+in [[Figure]](#import-auto-id1019355). Thus, linear acceleration is called
 **tangential acceleration**{: data-type="term" #import-auto-id1997895} $$ a_
 {\text{t}} $$.
 
@@ -163,7 +163,7 @@ from [Uniform Circular Motion and Gravitation](/contents/ch6UniformCircularMotio
 circular motion centripetal acceleration, $$ \ac $$, refers to changes
 in the direction of the velocity but not its magnitude. An object undergoing
 circular motion experiences centripetal acceleration, as seen
-in [\[link\]](#import-auto-id1995872). Thus, $$ a_{\text{t}} $$ and $$ a_{\text{c}} $$
+in [[Figure]](#import-auto-id1995872). Thus, $$ a_{\text{t}} $$ and $$ a_{\text{c}} $$
 are perpendicular and independent of one another. Tangential
 acceleration $$ a_{\text{t}} $$ is directly related to the angular acceleration
 $$ \alpha $$ and is linked to an increase or decrease in the velocity, but not
@@ -217,7 +217,7 @@ smaller its linear acceleration for a given angular acceleration $$ \alpha $$.
 <div data-type="title">
 Calculating the Angular Acceleration of a Motorcycle Wheel
 </div>
-A powerful motorcycle can accelerate from 0 to 30.0 m/s (about 108 km/h) in 4.20 s. What is the angular acceleration of its 0.320-m-radius wheels? (See [\[link\]](#import-auto-id2415283).)
+A powerful motorcycle can accelerate from 0 to 30.0 m/s (about 108 km/h) in 4.20 s. What is the angular acceleration of its 0.320-m-radius wheels? (See [[Figure]](#import-auto-id2415283).)
 
 ![The figure shows the right side view of a man riding a motorcycle hence, depicting linear acceleration a of the motorcycle pointing toward the front of the bike as a horizontal arrow and the angular acceleration alpha of its wheels, shown here as curved arrows along the front of both the wheels pointing downward.](../resources/Figure_11_01_04a.jpg "The linear acceleration of a motorcycle is accompanied by an angular acceleration of its wheels.")
 {: #import-auto-id2415283}
@@ -259,7 +259,7 @@ angular and linear quantities.
 
 So far, we have defined three rotational quantities— $$ \theta $$, $$\omega
 $$, and $$ \alpha $$. These quantities are analogous to the translational
-quantities $$ x $$, $$v $$ and $$ a $$. [\[link\]](#import-auto-id1572984)
+quantities $$ x $$, $$v $$ and $$ a $$. [[Figure]](#import-auto-id1572984)
 displays rotational quantities, the analogous translational quantities, and the
 relationships between them.
 

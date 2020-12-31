@@ -13,7 +13,7 @@ layout: page
 
 If you have ever spun a bike wheel or pushed a merry-go-round, you know that
 force is needed to change angular velocity as seen
-in [\[link\]](#import-auto-id1545882). In fact, your intuition is reliable in
+in [[Figure]](#import-auto-id1545882). In fact, your intuition is reliable in
 predicting many of the factors that are involved. For example, we know that a
 door opens slowly if we push too close to its hinges. Furthermore, we know that
 the more massive the door, the more slowly it opens. The first example implies
@@ -30,7 +30,7 @@ force and mass.
 To develop the precise relationship among force, mass, radius, and angular
 acceleration, consider what happens if we exert a force $$ F $$ on a point mass
 $$ m $$ that is at a distance $$ r $$ from a pivot point, as shown
-in [\[link\]](#import-auto-id2062858). Because the force is perpendicular to $$
+in [[Figure]](#import-auto-id2062858). Because the force is perpendicular to $$
 r $$, an acceleration $$ a=\frac{F}{m} $$ is obtained in the direction of $$ F
 $$. We can rearrange this equation such that $$ F=ma $$ and then look for ways
 to relate this expression to expressions for rotational quantities. We note that
@@ -81,7 +81,7 @@ mass that behave just as we would expect from our earlier experiences.
 ### Rotational Inertia and Moment of Inertia
 
 Before we can consider the rotation of anything other than a point mass like the
-one in [\[link\]](#import-auto-id2062858), we must extend the idea of rotational
+one in [[Figure]](#import-auto-id2062858), we must extend the idea of rotational
 inertia to all types of objects. To expand our concept of rotational inertia, we
 define the **moment of inertia**{: data-type="term" #import-auto-id3400355} $$ I
 $$ of an object to be the sum of $$ m r^{2} $$ for all the point masses of which
@@ -93,7 +93,7 @@ which has all its mass at the same distance from its axis. A hoop’s moment of
 inertia around its axis is therefore $$ MR^{2} $$, where $$ M $$ is its total
 mass and $$ R $$ its radius. (We use $$ M $$ and $$ R $$ for an entire object to
 distinguish them from $$ m $$ and $$ r $$ for point masses.) In all other cases,
-we must consult [\[link\]](#fs-id1838666) (note that the table is piece of
+we must consult [[Figure]](#fs-id1838666) (note that the table is piece of
 artwork that has shapes as well as formulae) for formulas for $$ I $$ that have
 been derived from integration over the continuous body. Note that $$ I $$ has
 units of mass multiplied by distance squared
@@ -170,7 +170,7 @@ In statics, the net torque is zero, and there is no angular acceleration. In rot
 <div data-type="title">
 Calculating the Effect of Mass Distribution on a Merry-Go-Round
 </div>
-Consider the father pushing a playground merry-go-round in [\[link\]](#import-auto-id1468671).
+Consider the father pushing a playground merry-go-round in [[Figure]](#import-auto-id1468671).
 He exerts a force
 of 250 N at the edge of the 50.0-kg merry-go-round, which has a 1.50 m radius.
 Calculate the angular acceleration produced
@@ -201,7 +201,7 @@ applied force is perpendicular to the radius and friction is negligible, so that
 **Solution for (a)**
 
 The moment of inertia of a solid disk about this axis is given
-in [\[link\]](#fs-id1838666) to be
+in [[Figure]](#fs-id1838666) to be
 
 <div data-type="equation" id="eip-659">
  $$ \frac{1}{2} MR^{2}, $$
@@ -457,7 +457,7 @@ an opposing frictional force of 20.0 N exerted 1.50 cm from the axis?
 
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
-Consider the 12.0 kg motorcycle wheel shown in [[link]](#import-auto-id3370574). Assume it to be approximately an annular ring with an inner radius of 0.280 m and an outer radius of 0.330 m. The motorcycle is on its center stand, so that the wheel can spin freely.
+Consider the 12.0 kg motorcycle wheel shown in [[Figure]](#import-auto-id3370574). Assume it to be approximately an annular ring with an inner radius of 0.280 m and an outer radius of 0.330 m. The motorcycle is on its center stand, so that the wheel can spin freely.
 (a) If the drive chain exerts a force of 2200 N at a radius of 5.00 cm, what is the angular acceleration of the wheel?
 (b) What is the tangential acceleration of a point on the outer edge of the tire?
 (c) How long, starting from rest, does it take to reach an angular velocity of 80.0 rad/s?
@@ -500,7 +500,7 @@ An automobile engine can produce 200 N ∙ m of torque. Calculate the angular ac
 Starting with the formula for the moment of inertia of a rod rotated around an axis through one end perpendicular to its length
 $$ \left(I=M\ell^{2}/3\right) $$, prove that the moment of inertia of a rod rotated about an axis through its
 center perpendicular to its length is $$I= M\ell^{2}/12 $$.
-You will find the graphics in [[link]](#fs-id1838666) useful in visualizing
+You will find the graphics in [[Figure]](#fs-id1838666) useful in visualizing
 these rotations.
 
 </div>

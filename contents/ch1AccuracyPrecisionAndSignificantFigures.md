@@ -47,11 +47,11 @@ cases, measurements are accurate but not precise, or they are precise but not
 accurate. Let us consider an example of a GPS system that is attempting to
 locate the position of a restaurant in a city. Think of the restaurant location
 as existing at the center of a bull’s-eye target, and think of each GPS attempt
-to locate the restaurant as a black dot. In [\[link\]](#import-auto-id2575847),
+to locate the restaurant as a black dot. In [[Figure]](#import-auto-id2575847),
 you can see that the GPS measurements are spread out far apart from each other,
 but they are all relatively close to the actual location of the restaurant at
 the center of the target. This indicates a low precision, high accuracy
-measuring system. However, in [\[link\]](#import-auto-id2985544), the GPS
+measuring system. However, in [[Figure]](#import-auto-id2985544), the GPS
 measurements are concentrated quite closely to one another, but they are far
 away from the target location. This indicates a high precision, low accuracy
 measuring system.

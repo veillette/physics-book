@@ -13,7 +13,7 @@ layout: page
 </div>
 
 The effect of a force on an object depends on how long it acts, as well as how
-great the force is. In [\[link\]](/contents/ch8LinearMomentumAndForce.md#fs-id1356444), a very large
+great the force is. In [[Figure]](/contents/ch8LinearMomentumAndForce.md#fs-id1356444), a very large
 force acting for a short time had a great effect on the momentum of the tennis
 ball. A small force could cause the same **change in momentum**{: data-type="
 term"}, but it would have to act for a much longer time. For example, if the
@@ -170,7 +170,7 @@ the time interval $$ \Delta t $$. *Forces are usually not constant*. Forces vary
 considerably even during the brief time intervals considered. It is, however,
 possible to find an average effective force $$ F_{\text{eff}} $$ that produces
 the same result as the corresponding time-varying
-force. [\[link\]](#import-auto-id1181092) shows a graph of what an actual force
+force. [[Figure]](#import-auto-id1181092) shows a graph of what an actual force
 looks like as a function of time for a ball bouncing off the floor. The area
 under the curve has units of momentum and is equal to the impulse or change in
 momentum between times $$ t_{1} $$ and $$ t_{2} $$. That area is equal to the

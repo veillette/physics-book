@@ -33,7 +33,7 @@ as
 
 where $$ W $$ is work, $$ \mag{d} $$ is the magnitude of the displacement of the system, and
 $$ \theta $$ is the angle between the force vector $$ \vb{F} $$ and the
-displacement vector $$ \vb{d} $$, as in [\[link\]](#import-auto-id2495459).
+displacement vector $$ \vb{d} $$, as in [[Figure]](#import-auto-id2495459).
 We can also write this as
 
 <div data-type="equation">
@@ -67,8 +67,8 @@ and the displacement vector $$ \vb{d} $$.
 {: #import-auto-id2495459}
 
 To examine what the definition of work means, let us consider the other
-situations shown in [\[link\]](#import-auto-id2495459). The person holding the
-briefcase in [\[link\]](#import-auto-id2495459)(b) does no work, for example.
+situations shown in [[Figure]](#import-auto-id2495459). The person holding the
+briefcase in [[Figure]](#import-auto-id2495459)(b) does no work, for example.
 Here $$ d=0 $$, so $$ W=0 $$. Why is it you get tired just holding a load? The
 answer is that your muscles are doing work against one another, *but they are
 doing no work on the system of interest* (the “briefcase-Earth
@@ -76,14 +76,14 @@ system”—see [Gravitational Potential Energy](/contents/ch7GravitationalPoten
 details).
 There must be displacement for work to be done, and there must be a component
 of the force in the direction of the motion. For example, the person carrying
-the briefcase on level ground in [\[link\]](#import-auto-id2495459)
+the briefcase on level ground in [[Figure]](#import-auto-id2495459)
 (c) does no  work on it, because the force is perpendicular to the motion.
 That is, $$\cos{90^\circ} =0 $$, and so $$ W=0 $$.
 
 In contrast, when a force exerted on the system has a component in the direction
-of motion, such as in [\[link\]](#import-auto-id2495459)(d), work *is*
+of motion, such as in [[Figure]](#import-auto-id2495459)(d), work *is*
 done—energy is transferred to the briefcase. Finally,
-in [\[link\]](#import-auto-id2495459)(e), energy is transferred from the
+in [[Figure]](#import-auto-id2495459)(e), energy is transferred from the
 briefcase to a generator. There are two good ways to interpret this energy
 transfer. One interpretation is that the briefcase’s weight does work on the
 generator, giving it energy. The other interpretation is that the generator does
@@ -107,7 +107,7 @@ large amount of energy; it would lift a small 100-gram apple a distance of about
 <div data-type="title">
 Calculating the Work You Do to Push a Lawn Mower Across a Large Lawn
 </div>
-How much work is done on the lawn mower by the person in [\[link\]](#import-auto-id2495459)
+How much work is done on the lawn mower by the person in [[Figure]](#import-auto-id2495459)
 (a) if he exerts a constant force of $$ 75.0\N $$ at an angle $$35^\circ $$
 below the horizontal and pushes the mower $$ 25.0\m $$
 on level ground? Convert the amount of work from joules to kilocalories and
@@ -246,7 +246,7 @@ A 75.0-kg person climbs stairs, gaining 2.50 meters in height. Find the work don
 <div data-type="problem" markdown="1">
 Suppose a car travels 108 km at a speed of 30.0 m/s, and uses 2.0 gal of gasoline.
 Only 30% of the gasoline goes into useful work by the force that keeps the car
-moving at constant speed despite friction. (See [[link]](/contents/ch7ConservationOfEnergy.md#import-auto-id2866785) for the energy content of gasoline.)
+moving at constant speed despite friction. (See [[Figure]](/contents/ch7ConservationOfEnergy.md#import-auto-id2866785) for the energy content of gasoline.)
 (a) What is the magnitude of the force exerted to keep the car moving at constant speed?
 (b) If the required force is directly proportional to speed, how many gallons will be used to drive 108 km at a speed of 28.0 m/s?
 
@@ -257,7 +257,7 @@ moving at constant speed despite friction. (See [[link]](/contents/ch7Conservati
 <div data-type="problem" markdown="1">
 Calculate the work done by an 85.0-kg man who pushes a crate 4.00 m up along a
 ramp that makes an angle of $$ 20.0^\circ $$ with the horizontal.
-(See [[link]](#fs-id2047040).) He exerts a force of 500 N
+(See [[Figure]](#fs-id2047040).) He exerts a force of 500 N
 on the crate parallel to the ramp and moves at a constant speed. Be certain to
 include the work he does on the crate *and* on his body to get up the ramp.
 
@@ -274,7 +274,7 @@ include the work he does on the crate *and* on his body to get up the ramp.
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
 How much work is done by the boy pulling his sister 30.0 m in a wagon as shown
-in [[link]](#import-auto-id1538391)? Assume no friction acts on the wagon.
+in [[Figure]](#import-auto-id1538391)? Assume no friction acts on the wagon.
 
 ![A child is sitting inside a wagon and being pulled by a boy with a force F at an angle thirty degrees upward from the horizontal. F is equal to fifty newtons, the displacement vector d is horizontal in the direction of motion. The magnitude of d is thirty meters.](../resources/Figure_08_01_03a.jpg "The boy does work on the system of the wagon and the child when he pulls them as shown. ")
 {: #import-auto-id1538391}
@@ -311,7 +311,7 @@ below the horizontal.
 <div data-type="exercise" data-element-type="problems-exercises">
 <div data-type="problem" markdown="1">
 Suppose the ski patrol lowers a rescue sled and victim, having a total mass of
-90.0 kg, down a $$ 60.0^\circ $$ slope at constant speed, as shown in [[link]](#import-auto-id2504152). The
+90.0 kg, down a $$ 60.0^\circ $$ slope at constant speed, as shown in [[Figure]](#import-auto-id2504152). The
 coefficient of friction between the sled and the snow is 0.100.
 (a) How much work is done by friction as the sled moves 30.0 m along the hill?
 (b) How much work is done by the rope on the sled in this distance?
