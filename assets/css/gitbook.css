@@ -7821,7 +7821,7 @@ td.visible-print {
 }
 
 .book .book-body .navigation.navigation-next {
-  right: 0;
+  right: 2%; /* To allow scroll */
 }
 
 .book .book-body .navigation.navigation-prev {
@@ -7861,6 +7861,7 @@ body {
   text-rendering: optimizeLegibility;
   font-smoothing: antialiased;
   font-family: "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden; /* Hide scrollbars */
 }
 
 /* End Gitbook CSS */
