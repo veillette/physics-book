@@ -518,8 +518,8 @@ h6:hover .header-link {
   display: inline-block;
   padding: 0.1em 1em;
   font-weight: bold;
-  color: #ededed;
-  background-color: #555555;
+  color: #00e2cf;
+  background-color: #00432f;
 }
 
 .book .book-body .page-wrapper .page-inner [data-type="example"]:not([data-label]).ui-has-child-title > header > [data-type="title"]::before,
@@ -648,8 +648,8 @@ h6:hover .header-link {
   display: inline-block;
   padding: 0.1em 1em;
   font-weight: bold;
-  color: #ededed;
-  background-color: #555555;
+  color: #92cbf8;
+  background-color: #2f316e;
   content: 'Exercise ' counter(exercise);
 }
 
