@@ -910,11 +910,11 @@ h6:hover .header-link {
 }
 
 .book.with-summary .book-body {
-  left: 350px;
+  left: 250px;
 }
 
 .book.with-summary .book-summary {
-  width: 350px;
+  width: 250px;
 }
 
 .book.with-summary .toggle-summary {
