@@ -618,7 +618,6 @@ h6:hover .header-link {
 
 .book .book-body .page-wrapper .page-inner [data-type="exercise"]:not([data-element-type="check-understanding"]),
 .book .book-body .page-wrapper .page-inner .exercise:not([data-element-type="check-understanding"]) {
-  margin-top: 30px;
   counter-increment: exercise;
 }
 
