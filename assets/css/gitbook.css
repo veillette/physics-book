@@ -123,6 +123,13 @@ svg:not(:root) {
 
 figure {
   margin: 0;
+  border: solid #efefff;
+  border-width: 3px 2px 0px 2px;
+}
+figcaption {
+  margin: 0;
+  background-color: #efefff;
+  padding: 0.35em 0.625em 0.75em;
 }
 
 fieldset {
