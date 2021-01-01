@@ -932,7 +932,7 @@ diameter, and can be considered to have half the stiffness of hardwood.
 to the top of the pole at an angle of $$ 30.0^\circ $$ with the vertical. (
 Clearly, the guy wire must be in the opposite direction of the bend.)
 
-![A telephone pole is located at a ninety degree bend in a power line. Each part of the line is at an angle of eighty degrees with the pole and has a tension labeled T. A guy wire is attached to the top of the pole at an angle of thirty degrees with the vertical.](../resources/Figure_06_03_10a.jpg "This telephone pole is at a 90&#xBA; size 12{&quot;90&quot;&#xB0;} {} bend in a power line. A guy wire is attached to the top of the pole at an angle of 30&#xBA; size 12{&quot;30&quot;&#xB0;} {} with the vertical.")
+![A telephone pole is located at a ninety degree bend in a power line. Each part of the line is at an angle of eighty degrees with the pole and has a tension labeled T. A guy wire is attached to the top of the pole at an angle of thirty degrees with the vertical.](../resources/Figure_06_03_10a.jpg "This telephone pole is at a 90 degrees bend in a power line. A guy wire is attached to the top of the pole at an angle of 30 degrees with the vertical.")
 {: #import-auto-id1165296309614}
 
 </div>

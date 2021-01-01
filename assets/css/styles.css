@@ -504,6 +504,7 @@ h6:hover .header-link {
 .book .book-body .page-wrapper .page-inner [data-type="example"],
 .book .book-body .page-wrapper .page-inner .example {
   margin-top: 30px;
+  counter-increment: example;
 }
 
 .book .book-body .page-wrapper .page-inner [data-type="example"]:not([data-label]).ui-has-child-title > header > [data-type="title"],
@@ -529,7 +530,7 @@ h6:hover .header-link {
 .book .book-body .page-wrapper .page-inner .example:not([data-label]).ui-has-child-title > header > .title::before,
 .book .book-body .page-wrapper .page-inner [data-type="example"]:not([data-label]).ui-has-child-title > .title::before,
 .book .book-body .page-wrapper .page-inner .example:not([data-label]).ui-has-child-title > .title::before {
-  content: 'Example: ';
+  content: 'Example ' counter(example) ': ';
 }
 
 .book .book-body .page-wrapper .page-inner [data-type="example"]:not([data-label]):not(.ui-has-child-title)::before,
@@ -607,11 +608,13 @@ h6:hover .header-link {
   padding: 5px 15px;
   border-top: 1px solid #555555;
   background-color: #ededed;
+
 }
 
 .book .book-body .page-wrapper .page-inner [data-type="exercise"],
 .book .book-body .page-wrapper .page-inner .exercise {
   margin-top: 30px;
+  counter-increment: exercise;
 }
 
 .book .book-body .page-wrapper .page-inner [data-type="exercise"]:not([data-label]).ui-has-child-title > header > [data-type="title"],
@@ -647,7 +650,7 @@ h6:hover .header-link {
   font-weight: bold;
   color: #ededed;
   background-color: #555555;
-  content: 'Exercise';
+  content: 'Exercise ' counter(exercise);
 }
 
 .book .book-body .page-wrapper .page-inner [data-type="exercise"][data-label=''].ui-has-child-title > header > [data-type="title"],
@@ -997,7 +1000,7 @@ h6:hover .header-link {
 }
 
 .page {
-  counter-reset: figure;
+  counter-reset: figure example exercise;
 }
 
 .cnx-pi {

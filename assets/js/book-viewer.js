@@ -55,15 +55,41 @@
         document.head.appendChild(fa);
     }
 
-    BOOK_TEMPLATE = '<div class="book with-summary font-size-2 font-family-1">\n\n  <div class="book-header">\n   ' +
-        ' <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>\n    ' +
-        ' <h1><i class="fa fa-spinner fa-spin book-spinner"></i><span class="book-title"></span></h1>\n </div>\n\n ' +
-        ' <div class="book-summary">\n    <div class="book-search">\n ' +
-        '     <input type="text" placeholder="Search" class="form-control">\n    </div>\n  </div>\n\n  <div class="book-body">\n  ' +
-        '  <div class="body-inner">\n      <div class="page-wrapper" tabindex="-1">\n        <div class="book-progress">\n       ' +
-        '   <div class="bar">\n            <div class="inner" style="min-width: 0;"></div>\n          </div>\n        </div>\n    ' +
-        '    <div class="page-inner">\n          <section class="normal">\n            <!-- content -->\n          </section>\n     ' +
-        '   </div>\n      </div>\n    </div>\n  </div>\n\n</div>';
+    BOOK_TEMPLATE = `<div class="book with-summary font-size-2 font-family-1">
+
+  <div class="book-header">
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary">
+    <i class="fa fa-align-justify"></i></a>
+     <h1>
+     <i class="fa fa-spinner fa-spin book-spinner"></i>
+     <span class="book-title"></span>
+     </h1>
+ </div>
+
+  <div class="book-summary">
+    <div class="book-search">
+      <input type="text" placeholder="Search" class="form-control">
+    </div>
+  </div>
+
+  <div class="book-body">
+    <div class="body-inner">
+      <div class="page-wrapper" tabindex="-1">
+        <div class="book-progress">
+          <div class="bar">
+            <div class="inner" style="min-width: 0;"></div>
+          </div>
+        </div>
+        <div class="page-inner">
+          <section class="normal">
+            <!-- content -->
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>`;
 
     $(function () {
         let $body, $book, $bookBody, $bookPage, $bookProgressBar, $bookSearchInput, $bookSummary, $bookTitle,
