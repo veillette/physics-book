@@ -518,8 +518,8 @@ h6:hover .header-link {
   display: inline-block;
   padding: 0.1em 1em;
   font-weight: bold;
-  color: #ededed;
-  background-color: #555555;
+  color: #00e2cf;
+  background-color: #00432f;
 }
 
 .book .book-body .page-wrapper .page-inner [data-type="example"]:not([data-label]).ui-has-child-title > header > [data-type="title"]::before,
@@ -614,6 +614,11 @@ h6:hover .header-link {
 .book .book-body .page-wrapper .page-inner [data-type="exercise"],
 .book .book-body .page-wrapper .page-inner .exercise {
   margin-top: 30px;
+}
+
+.book .book-body .page-wrapper .page-inner [data-type="exercise"]:not([data-element-type="check-understanding"]),
+.book .book-body .page-wrapper .page-inner .exercise:not([data-element-type="check-understanding"]) {
+  margin-top: 30px;
   counter-increment: exercise;
 }
 
@@ -648,8 +653,8 @@ h6:hover .header-link {
   display: inline-block;
   padding: 0.1em 1em;
   font-weight: bold;
-  color: #ededed;
-  background-color: #555555;
+  color: #92cbf8;
+  background-color: #2f316e;
   content: 'Exercise ' counter(exercise);
 }
 
@@ -910,11 +915,11 @@ h6:hover .header-link {
 }
 
 .book.with-summary .book-body {
-  left: 350px;
+  left: 250px;
 }
 
 .book.with-summary .book-summary {
-  width: 350px;
+  width: 250px;
 }
 
 .book.with-summary .toggle-summary {
