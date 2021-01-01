@@ -33,7 +33,7 @@ use the notation that a boldface symbol, such as $$ \vb{D} $$, stands
 for a
 vector. Its magnitude is represented by the symbol, $$\mag{D}$$, and its
 direction by $$ \theta $$. The magnitude can also represented in italics as $$
-D $$ when the context is clear. We will used this shorthand notation ftom
+D $$ when the context is clear. We will used this shorthand notation from
 time to time in this textbook.
 
 <div data-type="note" data-has-label="true" data-label="" markdown="1">
