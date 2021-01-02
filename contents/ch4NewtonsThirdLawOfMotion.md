@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Understand Newton\'s third law of motion.
 * Apply Newton\'s third law to define systems and solve problems of motion.
 
@@ -18,11 +18,11 @@ pitcher hits the stone, it’s going to be bad for the pitcher.’” This is ex
 what happens whenever one body exerts a force on another—the first also
 experiences a force (equal in magnitude and opposite in direction). Numerous
 common experiences, such as stubbing a toe or throwing a ball, confirm this. It
-is precisely stated in **Newton’s third law of motion**{: data-type="term"
+is precisely stated in **Newton’s third law of motion**{: class="term"
 #import-auto-id1260844}.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Newton’s Third Law of Motion
 </div>
 Whenever one body exerts a force on a second body, the first body experiences a force that is equal in magnitude and opposite in direction to the force that it exerts.
@@ -82,7 +82,7 @@ and throw rocks backward. In another example, rockets move forward by expelling
 gas backward at high velocity. This means the rocket exerts a large backward
 force on the gas in the rocket combustion chamber, and the gas therefore exerts
 a large reaction force forward on the rocket. This reaction force is called
-**thrust**{: data-type="term" #import-auto-id1295864}. It is a common
+**thrust**{: class="term" #import-auto-id1295864}. It is a common
 misconception that rockets propel themselves by pushing on the ground or on the
 air behind them. They actually work better in a vacuum, where they can more
 readily expel the exhaust gases. Helicopters similarly create lift by pushing
@@ -95,8 +95,8 @@ a situation similar to Sancho’s, professional cage fighters experience reactio
 forces when they punch, sometimes breaking their hand by hitting an opponent’s
 body.
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Getting Up To Speed: Choosing the Correct System
 </div>
 A physics professor pushes a cart of demonstration equipment to a lecture hall, as seen in [[Figure]](#import-auto-id2324690). Her mass is 65.0 kg, the cart’s is 12.0 kg, and the equipment’s is 7.0 kg. Calculate the acceleration produced when the professor exerts a backward force of 150 N on the floor. All forces opposing the motion, such as friction on the cart’s wheels and air resistance, total 24.0 N.
@@ -128,23 +128,23 @@ diagram in the figure.
 
 Newton’s second law is given by
 
-<div data-type="equation" id="eip-id1456392">
+<div class="equation" id="eip-id1456392">
  $$ a=\frac{ F_{\text{net}}}{m}. $$
 </div>
 The net external force on System 1 is deduced from [[Figure]](#import-auto-id2324690)
 and the discussion above to be
 
-<div data-type="equation" id="eip-id1515829">
+<div class="equation" id="eip-id1515829">
 $$ F_{\text{net}}=F_{\text{floor}}-f=150 \N -24.0 \N =126 \N . $$
 </div>
 The mass of System 1 is
 
-<div data-type="equation" id="eip-id1213154">
+<div class="equation" id="eip-id1213154">
  $$ m=\left(65.0+12.0+7.0\right)\kg =84 \kg . $$
 </div>
 These values of $$ F_{\text{net}} $$ and $$ m $$ produce an acceleration of
 
-<div data-type="equation" id="eip-id1741589">
+<div class="equation" id="eip-id1741589">
  $$ \begin{array}{}
 a=\frac{ F_{\text{net}}}{m},\\
 a=\frac{126 \N }{84 \kg }=1.5 \mss .
@@ -165,8 +165,8 @@ this problem.
 
 </div>
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Force on the Cart—Choosing a New System
 </div>
 Calculate the force the professor exerts on the cart in [[Figure]](#import-auto-id2324690)
@@ -187,41 +187,41 @@ for System 2.
 Newton’s second law can be used to find $$ \vb{F}_{\text{prof}} $$.
 Starting with
 
-<div data-type="equation" id="eip-id1949236">
+<div class="equation" id="eip-id1949236">
  $$ a=\frac{ F_{\text{net}}}{m} $$
 </div>
 and noting that the magnitude of the net external force on System 2 is
 
-<div data-type="equation" id="eip-id2390884">
+<div class="equation" id="eip-id2390884">
 $$ F_{\text{net}}=F_{\text{prof}}-f, $$
 </div>
 we solve for $$ F_{\text{prof}} $$, the desired quantity:
 
-<div data-type="equation" id="eip-id1373488">
+<div class="equation" id="eip-id1373488">
 $$ F_{\text{prof}}=F_{\text{net}}+f. $$
 </div>
 The value of $$ f $$ is given, so we must calculate net $$ F_{\text{net}} $$. That can be done
 since both the acceleration and mass of System 2 are known. Using Newton’s
 second law we see that
 
-<div data-type="equation" id="eip-id2367884">
+<div class="equation" id="eip-id2367884">
 $$ F_{\text{net}}=ma , $$
 </div>
 where the mass of System 2 is 19.0 kg ( $$ m $$ = 12.0 kg + 7.0 kg) and its acceleration was found to be $$
 a=1.5\mss $$ in the previous example. Thus,
 
-<div data-type="equation" id="eip-id3477001">
+<div class="equation" id="eip-id3477001">
 $$ F_{\text{net}}=ma , $$
 </div>
-<div data-type="equation" id="eip-id1454423">
+<div class="equation" id="eip-id1454423">
 $$ F_{\text{net}}=\left(19.0 \kg \right)\left(1.5\mss \right)=29 \N . $$
 </div>
 Now we can find the desired force:
 
-<div data-type="equation" id="eip-id1004496">
+<div class="equation" id="eip-id1004496">
 $$ F_{\text{prof}}=F_{\text{net}}+f, $$
 </div>
-<div data-type="equation" id="eip-id1197329">
+<div class="equation" id="eip-id1197329">
 $$ F_{\text{prof}}=29 \N +24.0 \N =53 \N . $$
 </div>
 
@@ -237,15 +237,15 @@ necessarily the same thing).
 
 </div>
 
-<div data-type="note" data-has-label="true" id="eip-984" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" id="eip-984" data-label="" markdown="1">
+<div class="title">
 PhET Explorations: Gravity Force Lab
 </div>
 Visualize the gravitational force that two objects exert on each other. Change properties of the objects in
 order to  see how it changes the gravity force.
 
 <figure markdown="1" id="eip-id2062883">
-<div data-type="phet">
+<div class="phet">
 <iframe src="https://phet.colorado.edu/sims/html/gravity-force-lab/latest/gravity-force-lab_en.html" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 Gravity Force Lab
@@ -256,25 +256,25 @@ Gravity Force Lab
 
 ### Section Summary
 
-* **Newton’s third law of motion**{: data-type="term"} represents a basic
+* **Newton’s third law of motion**{: class="term"} represents a basic
   symmetry in nature. It states: Whenever one body exerts a force on a second
   body, the first body experiences a force that is equal in magnitude and
   opposite in direction to the force that the first body exerts.
-* A **thrust**{: data-type="term"} is a reaction force that pushes a body
+* A **thrust**{: class="term"} is a reaction force that pushes a body
   forward in response to a backward force. Rockets, airplanes, and cars are
   pushed forward by a thrust reaction force.
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 When you take off in a jet aircraft, there is a sensation of being pushed back into the seat. Explain why you move backward in the seat—is there really a force backward on you? (The same reasoning explains whiplash injuries, in which the head is apparently thrown backward.)
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 A device used since the 1940s to measure the kick or recoil of the body due
 to heart beats is the “ballistocardiograph.” What physics principle(s) are involved here to measure
 the force of cardiac contraction? How might we construct such a device?
@@ -282,29 +282,29 @@ the force of cardiac contraction? How might we construct such a device?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Describe a situation in which one system exerts a force on another and, as a consequence, experiences a force that is equal in magnitude and opposite in direction. Which of Newton’s laws of motion apply?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Why does an ordinary rifle recoil (kick backward) when fired? The barrel of a recoilless rifle is open at both ends. Describe how Newton’s third law applies when one is fired. Can you safely stand close behind one when it is fired?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 An American football lineman reasons that it is senseless to try to out-push the opposing player, since no matter how hard he pushes he will experience an equal and opposite force from the other player. Use Newton’s laws and draw a free-body diagram of an appropriate system to explain how he can still out-push the opposition if he is strong enough.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Newton’s third law of motion tells us that forces always occur in pairs of equal and opposite magnitude. Explain how the choice of the “system of interest” affects whether one such pair of forces cancels.
 
 </div>
@@ -312,14 +312,14 @@ Newton’s third law of motion tells us that forces always occur in pairs of equ
 
 ### Problem Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 What net external force is exerted on a 1100-kg artillery shell fired from a
 battleship if the shell is accelerated at $$ 2.40 \times 10^{4}\mss$$?
 What is the magnitude of the force exerted on the ship by the artillery shell?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 Force on shell: $$ 2.64 \times 10^{7}\N $$
 
 Force exerted on ship = $$ -2.64 \times 10^{7}\N $$, by Newton’s third law
@@ -327,8 +327,8 @@ Force exerted on ship = $$ -2.64 \times 10^{7}\N $$, by Newton’s third law
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A brave but inadequate rugby player is being pushed backward by an opposing player who is exerting a force of 800 N on him. The mass of the losing player plus equipment is 90.0 kg, and he is accelerating at $$ 1.20\mss $$
 backward.
 (a) What is the force of friction between the losing player’s feet and the grass?
@@ -339,10 +339,10 @@ For this situation, draw a free-body diagram and write the net force equation.
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 Newton’s third law of motion
 : whenever one body exerts a force on a second body, the first body experiences

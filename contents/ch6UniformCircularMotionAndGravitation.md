@@ -18,7 +18,7 @@ of [Dynamics: Newton\'s Laws of Motion](../contents/ch4Dynamics.md) as we study 
 applications of Newton’s laws of motion.
 
 This chapter deals with the simplest form of curved motion, **uniform circular
-motion**{: data-type="term" #import-auto-id1920881}, motion in a circular path
+motion**{: class="term" #import-auto-id1920881}, motion in a circular path
 at constant speed. Studying this topic illustrates most concepts
 associated with rotational motion and leads to the study of many new topics we
 group under the name *rotation*. Pure
@@ -27,10 +27,10 @@ centered on one point. Pure *translational motion* is motion with no rotation.
 Some motion combines both types, such as a rotating hockey puck moving along
 ice.
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 uniform circular motion
 : the motion of an object in a circular path at constant speed

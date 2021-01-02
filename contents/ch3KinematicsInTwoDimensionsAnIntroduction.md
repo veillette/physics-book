@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Observe that motion in two dimensions consists of horizontal and vertical components.
 * Understand the independence of horizontal and vertical vectors in two-dimensional motion.
 
@@ -55,7 +55,7 @@ in the answer in order to show the result more precisely.)
 The fact that the straight-line distance (10.3 blocks)
 in [[Figure]](#import-auto-id1165298535408) is less than the total distance
 walked (14 blocks) is one example of a general characteristic of vectors. (
-Recall that **vectors**{: data-type="term" #import-auto-id1165298541000} are
+Recall that **vectors**{: class="term" #import-auto-id1165298541000} are
 quantities that have both magnitude and direction.)
 
 As for one-dimensional kinematics, we use arrows to represent vectors. The
@@ -88,8 +88,8 @@ walks east and then north (two perpendicular directions). How far they
 walk east is only affected by their motion eastward. Similarly, how far they
 walk north is only affected by their motion northward.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Independence of Motion
 </div>
 The horizontal and vertical components of two-dimensional motion are independent of each other. Any motion in the horizontal direction does not affect motion in the vertical direction, and vice versa.
@@ -131,8 +131,8 @@ in [Vector Addition and Subtraction: Graphical Methods](../contents/ch3VectorAdd
 and [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md). We
 will find such techniques to be useful in many areas of physics.
 
-<div data-type="note" data-has-label="true" id="eip-652" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" id="eip-652" data-label="" markdown="1">
+<div class="title">
 PhET Explorations: Ladybug Motion 2D
 </div>
 Learn about position, velocity and acceleration vectors. Move the ladybug by setting the position, velocity or acceleration,
@@ -156,10 +156,10 @@ Ladybug Motion 2D
   vector are independent of one another. Motion in the horizontal direction does
   not affect motion in the vertical direction, and vice versa.
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 vector
 : a quantity that has both magnitude and direction; an arrow used to represent

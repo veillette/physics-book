@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Observe collisions of extended bodies in two dimensions.
 * Examine collision at the point of percussion.
 
@@ -36,8 +36,8 @@ a case of rotation in a collision in [[Figure]](#fs-id3007371).
 ![Figure a shows a disc m sliding toward a motionless stick M of length r pivoted about a nail, on a frictionless surface. In figure b, a disk hits the stick at one end and adheres to it, and the stick rotates, pivoting around the nail in a direction shown by the arrow in the clockwise direction and angular velocity omega.](../resources/Figure_11_06_02a.jpg "(a) A disk slides toward a motionless stick on a frictionless surface. &#10;        (b) The disk hits the stick at one end and adheres to it, and they rotate together, pivoting around the nail. Angular momentum is conserved for this inelastic collision because the surface is frictionless and the unbalanced external force at the nail exerts no torque.")
 {: #import-auto-id2932439}
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Rotation in a Collision
 </div>
 Suppose the disk in [[Figure]](#import-auto-id2932439) has a mass of 50.0 g and an initial velocity of 30.0 m/s when it strikes the stick that is 1.20 m long and 2.00 kg.
@@ -58,12 +58,12 @@ velocity.
 
 Conservation of angular momentum states
 
-<div data-type="equation" id="eip-546">
+<div class="equation" id="eip-546">
  $$ L=L^{\prime} , $$
 </div>
 where primed quantities stand for conditions after the collision and both momenta are calculated relative to the pivot point. The initial angular momentum of the system of stick-disk is that of the disk just before it strikes the stick. That is,
 
-<div data-type="equation" id="eip-376">
+<div class="equation" id="eip-376">
  $$ L=I \omega, $$
 </div>
 where $$ I $$ is the moment of inertia of the disk and $$ \omega $$
@@ -71,23 +71,23 @@ is its angular velocity around the pivot point. Now, $$
 I=mr^{2} $$
 (taking the disk to be approximately a point mass) and $$ \omega =v/r $$, so that
 
-<div data-type="equation" id="eip-881">
+<div class="equation" id="eip-881">
  $$ L=m r^{2} \frac{v}{r}= mvr . $$
 </div>
 After the collision,
 
-<div data-type="equation" id="eip-513">
+<div class="equation" id="eip-513">
  $$ L^{\prime} =I^{\prime} \omega^\prime . $$
 </div>
 It is $$ \omega^\prime $$ that we wish to find. Conservation of angular
 momentum gives
 
-<div data-type="equation" id="eip-525">
+<div class="equation" id="eip-525">
  $$ I^{\prime} \omega^\prime = mvr . $$
 </div>
 Rearranging the equation yields
 
-<div data-type="equation" id="eip-17">
+<div class="equation" id="eip-17">
  $$ \omega^\prime =\frac{ mvr }{I^{\prime} }, $$
 </div>
 where $$ I^{\prime} $$ is the moment of inertia of the stick and disk stuck together, which is the sum
@@ -96,19 +96,19 @@ nail. [[Figure]](../contents/ch10DynamicsOfRotationalMotion.md#fs-id1838666) giv
 rotating around one end to be $$
 I=Mr^{2}/3 $$. Thus,
 
-<div data-type="equation" id="eip-920">
+<div class="equation" id="eip-920">
  $$ I^{\prime} =m r^{2} +\frac{ Mr^{2}}{3}=\left(m+\frac{M}{3}\right){r}^{2}. $$
 </div>
 Entering known values in this equation yields,
 
-<div data-type="equation" id="eip-177">
+<div class="equation" id="eip-177">
  $$ I^\prime =\left(0.0500\kg +0.667 \kg \right){\left(1.20\m
 \right)
 }^{2}=1.032\kg \cdot \mm. $$
 </div>
 The value of $$ I^{\prime} $$ is now entered into the expression for $$ \omega^\prime $$, which yields
 
-<div data-type="equation" id="eip-74">
+<div class="equation" id="eip-74">
  $$ \begin{array}{lll}
 \omega^\prime & =& \frac{ mvr }{I^{\prime} }=\frac
 {\left(0.0500 \kg \right)\left(30.0 m/s\right)\left(1.20 \m \right)}{1.032 \kg \cdot \mm}\\
@@ -127,12 +127,12 @@ the two stuck together.
 First, we calculate the translational kinetic energy by entering given values
 for the mass and speed of the incoming disk.
 
-<div data-type="equation" id="eip-27">
+<div class="equation" id="eip-27">
  $$ \KE=\frac{1}{2}m v^{2}=\left(0.500\right)\left(0.0500\kg \right){\left(30.0 \ms \right)}^{2}=22.5 \J $$
 </div>
 After the collision, the rotational kinetic energy can be found because we now know the final angular velocity and the final moment of inertia. Thus, entering the values into the rotational kinetic energy equation gives
 
-<div data-type="equation" id="eip-100">
+<div class="equation" id="eip-100">
  $$ \begin{array}{lll}
 \KE^\prime & =& \frac{1}{2}I^{\prime} {\omega^\prime}^{2}
 =\left(0.5\right)\left(1.032\kg
@@ -151,7 +151,7 @@ of the stick.
 
 Before the collision, then, linear momentum is
 
-<div data-type="equation" id="eip-283">
+<div class="equation" id="eip-283">
  $$ p=mv =\left(0.0500\kg \right)\left(30.0 \ms \right)=1.50\kg \cdot \ms . $$
 </div>
 After the collision, the disk and the stick’s center of mass move in the same direction.
@@ -160,22 +160,22 @@ velocity $$ v^{\prime} =r \omega^\prime $$ plus that of the stick’s center of 
 which moves at half this speed because $$ v_{\text{CM}}=\left(
 \frac{r}{2} \right) \omega^\prime =\frac{v^{\prime} }{2} $$. Thus,
 
-<div data-type="equation" id="eip-953">
+<div class="equation" id="eip-953">
  $$ p^{\prime} =mv^{\prime} +Mv_{\text{CM}}=mv^{\prime} +\frac{Mv^\prime }{2}. $$
 </div>
 Gathering similar terms in the equation yields,
 
-<div data-type="equation" id="eip-699">
+<div class="equation" id="eip-699">
  $$ p^{\prime} =\left(m+\frac{M}{2}\right)v^{\prime} $$
 </div>
 so that
 
-<div data-type="equation" id="eip-915">
+<div class="equation" id="eip-915">
  $$ p^{\prime} =\left(m+\frac{M}{2}\right)r \omega^\prime . $$
 </div>
 Substituting known values into the equation,
 
-<div data-type="equation" id="eip-1000">
+<div class="equation" id="eip-1000">
  $$ p^{\prime} =\left(1.050 \kg \right)\left(1.20\m \right)\left(1.744 \rads \right)=2.20 \kg \cdot \ms . $$
 </div>
 
@@ -213,15 +213,15 @@ effect occurs for a baseball bat.
 (b) When the racquet is struck much farther down, a forward force is exerted on the hand. (c) When the racquet is struck at the percussion point, no force is delivered to the hand.")
 {: #import-auto-id3078115}
 
-<div data-type="exercise" data-element-type="check-understanding" data-label="">
-<div data-type="title">
+<div class="exercise" data-element-type="check-understanding" data-label="">
+<div class="title">
 Check Your Understanding
 </div>
-<div data-type="problem" markdown="1">
+<div class="problem" markdown="1">
 Is rotational kinetic energy a vector? Justify your answer.
 
 </div>
-<div data-type="solution" data-print-placement="here" markdown="1">
+<div class="solution" data-print-placement="here" markdown="1">
 No, energy is always scalar whether motion is involved or not. No form of energy has a direction in space and you can see that rotational kinetic energy does not depend on the direction of motion just as linear kinetic energy is independent of the direction of motion.
 
 </div>
@@ -241,22 +241,22 @@ No, energy is always scalar whether motion is involved or not. No form of energy
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Describe two different collisions—one in which angular momentum is conserved, and the other in which it is not. Which condition determines whether or not angular momentum is conserved in a collision?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Suppose an ice hockey puck strikes a hockey stick that lies flat on the ice and is free to move in any direction. Which quantities are likely to be conserved: angular momentum, linear momentum, or kinetic energy (assuming the puck and stick are very resilient)?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 While driving his motorcycle at highway speed, a physics student notices that pulling back lightly on the right handlebar tips the cycle to the left and produces a left turn. Explain why this happens.
 
 </div>
@@ -264,12 +264,12 @@ While driving his motorcycle at highway speed, a physics student notices that pu
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Repeat [[Figure]](#fs-id3007371) in which the disk strikes and adheres to the stick 0.100 m from the nail.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 0.156 \rads $$
 
 (b) $$ 1.17 \times 10^{-2} \J $$
@@ -278,15 +278,15 @@ Repeat [[Figure]](#fs-id3007371) in which the disk strikes and adheres to the st
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Repeat [[Figure]](#fs-id3007371) in which the disk originally spins clockwise at 1000 rpm and has a radius of 1.50 cm.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Twin skaters approach one another as shown in [[Figure]](#import-auto-id2558735) and lock hands.
 (a) Calculate their final angular velocity, given each had an initial speed of 2.50 m/s relative to the ice. Each has a mass of 70.0 kg, and each has a center of mass located 0.800 m from their locked hands. You may approximate their moments of inertia to be that of point masses at this radius.
 (b) Compare the initial kinetic energy and final kinetic energy.
@@ -295,7 +295,7 @@ Twin skaters approach one another as shown in [[Figure]](#import-auto-id2558735)
 {: #import-auto-id2558735}
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 3.13 rad/s
 
 (b) Initial KE = 438 J, final KE = 438 J
@@ -303,8 +303,8 @@ Twin skaters approach one another as shown in [[Figure]](#import-auto-id2558735)
 </div>
 </div>
 
-<div data-type="exercise">
-<div data-type="problem" markdown="1">
+<div class="exercise">
+<div class="problem" markdown="1">
 Suppose a 0.250-kg ball is thrown at 15.0 m/s to a motionless person standing on ice who catches it with an outstretched arm as shown in [[Figure]](#import-auto-id2514290).
 
 (a) Calculate the final linear velocity of the person, given his mass is 70.0 kg.
@@ -323,12 +323,12 @@ remains in his geometrical center.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Repeat [[Figure]](#fs-id3007371) in which the stick is free to have translational motion as well as rotational motion.
 
 </div>
-<div data-type="solution" id="eip-id1884339" markdown="1">
+<div class="solution" id="eip-id1884339" markdown="1">
 (a) 1.70 rad/s
 
 (b) Initial KE = 22.5 J, final KE = 2.04 J

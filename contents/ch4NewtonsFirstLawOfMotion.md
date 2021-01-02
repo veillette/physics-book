@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Define mass and inertia.
 * Understand Newton\'s first law of motion.
 
@@ -12,11 +12,11 @@ layout: page
 
 Experience suggests that an object at rest will remain at rest if left alone,
 and that an object in motion tends to slow down and stop unless some effort is
-made to keep it moving. What **Newton’s first law of motion**{: data-type="term"
+made to keep it moving. What **Newton’s first law of motion**{: class="term"
 #import-auto-id1777407} states, however, is the following:
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Newton’s First Law of Motion
 </div>
 A body at rest remains at rest, or, if in motion, remains in motion at a constant velocity unless acted on by a net external force.
@@ -27,7 +27,7 @@ Note the repeated use of the verb “remains.” We can think of this law as
 preserving the status quo of motion.
 
 Rather than contradicting our experience, **Newton’s first law of motion**{:
-data-type="term"} states that there must be a *cause* (which is a net external
+class="term"} states that there must be a *cause* (which is a net external
 force) *for there to be any change in velocity (either a change in magnitude or
 direction)*. We will define *net external force* in the next section. An object
 sliding across a table or floor slows down due to the net force of friction
@@ -66,13 +66,13 @@ perhaps, but not a useful insight.
 ### Mass
 
 The property of a body to remain at rest or to remain in motion with constant
-velocity is called **inertia**{: data-type="term" #import-auto-id2134480} .
-Newton’s first law is often called the **law of inertia**{: data-type="term"
+velocity is called **inertia**{: class="term" #import-auto-id2134480} .
+Newton’s first law is often called the **law of inertia**{: class="term"
 #import-auto-id1408275}. As we know from experience, some objects have more
 inertia than others. It is obviously more
 
 difficult to change the motion of a large boulder than that of a basketball, for
-example. The inertia of an object is measured by its **mass**{: data-type="term"
+example. The inertia of an object is measured by its **mass**{: class="term"
 #import-auto-id1500464}. Roughly speaking, mass is a measure of the amount of
 “stuff” (or matter) in something. The quantity or amount of matter in an object
 is determined by the numbers of atoms and molecules of various types it
@@ -82,16 +82,16 @@ is very difficult to count and identify all of the atoms and molecules in an
 object, so masses are not often determined in this manner. Operationally, the
 masses of objects are determined by comparison with the standard kilogram.
 
-<div data-type="exercise" data-element-type="check-understanding" data-label="">
-<div data-type="title">
+<div class="exercise" data-element-type="check-understanding" data-label="">
+<div class="title">
 Check Your Understanding
 </div>
-<div data-type="problem" markdown="1">
+<div class="problem" markdown="1">
 Which has more mass: a kilogram of cotton balls or a kilogram of gold?
 
 </div>
-<div data-type="solution" markdown="1">
-<div data-type="title">
+<div class="solution" markdown="1">
+<div class="title">
 Answer
 </div>
 They are equal. A kilogram of one substance is equal in mass to a kilogram of another substance. The quantities that might differ between them are volume and density.
@@ -101,34 +101,34 @@ They are equal. A kilogram of one substance is equal in mass to a kilogram of an
 
 ### Section Summary
 
-* **Newton’s first law of motion**{: data-type="term"} states that a body at
+* **Newton’s first law of motion**{: class="term"} states that a body at
   rest remains at rest, or, if in motion, remains in motion at a constant
   velocity unless acted on by a net external force. This is also known as the
-  **law of inertia**{: data-type="term"}.
-* **Inertia**{: data-type="term"} is the tendency of an object to remain at
+  **law of inertia**{: class="term"}.
+* **Inertia**{: class="term"} is the tendency of an object to remain at
   rest or remain in motion. Inertia is related to an object’s mass.
-* **Mass**{: data-type="term"} is the quantity of matter in a substance.
+* **Mass**{: class="term"} is the quantity of matter in a substance.
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 How are inertia and mass related?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 What is the relationship between weight and mass? Which is an intrinsic, unchanging property of a body?
 
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 inertia
 : the tendency of an object to remain at rest or remain in motion

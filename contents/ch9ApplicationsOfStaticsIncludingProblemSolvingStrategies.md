@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Discuss the applications of Statics in real life.
 * State and discuss various problem-solving strategies in Statics.
 
@@ -17,11 +17,11 @@ special case of Newton’s laws, both the general problem-solving strategies and
 the special strategies for Newton’s laws, discussed
 in [Problem-Solving Strategies](../contents/ch4ProblemSolvingStrategies.md), still apply.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Problem-Solving Strategy: Static Equilibrium Situations
 </div>
-1.  {: #import-auto-id1244598} The first step is to determine whether or not the system is in **static equilibrium**{: data-type="term"}. This condition is always the case when the *acceleration of the system is zero and accelerated rotation does not occur*.
+1.  {: #import-auto-id1244598} The first step is to determine whether or not the system is in **static equilibrium**{: class="term"}. This condition is always the case when the *acceleration of the system is zero and accelerated rotation does not occur*.
 2.  {: #import-auto-id3066376} It is particularly important to *draw a free body diagram for the system of interest*. Carefully label all forces, and note their relative magnitudes, directions, and points of application whenever these are known.
 3.  {: #import-auto-id1280850} Solve the problem by applying either or both of the conditions for equilibrium (represented by the equations
  $$ \text{net}F=0 $$ and $$ \text{net}\tau =0 $$, depending on the
@@ -92,8 +92,8 @@ If the pole vaulter holds the pole from near the end of the
 pole ([[Figure]](#eip-id2351577)), the direction of the force applied by the
 right hand of the vaulter reverses its direction.
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 What Force Is Needed to Support a Weight Held Near Its CG?
 </div>
 For the situation shown in [[Figure]](#eip-id2351570), calculate:
@@ -119,26 +119,26 @@ There are now only two nonzero torques, those from the gravitational force
 Stating the second condition in terms of clockwise and counterclockwise
 torques,
 
-<div data-type="equation">
+<div class="equation">
  $$ \text{net} \tau_{\text{cw}}=\text{-net} \tau_{\text{ccw}} . $$
 </div>
 or the algebraic sum of the torques is zero.
 
 Here this is
 
-<div data-type="equation">
+<div class="equation">
  $$ \tau_{R}=-\tau_{\text{w}} $$
 </div>
 since the weight of the pole creates a counterclockwise torque and the right hand counters with a clockwise torque.
 Using the definition of torque, $$ \tau =rF\sin{\theta} $$, noting that $$ \theta =90^\circ $$,
 and substituting known values, we obtain
 
-<div data-type="equation">
+<div class="equation">
  $$ \left(0.900 \m \right)\left(F_{R}\right)=\left(0.600 \m \right)\left(mg\right). $$
 </div>
 Thus,
 
-<div data-type="equation">
+<div class="equation">
  $$ \begin{array}{lll}
 F_{R}& =& \left(0.667\right)\left(5.00 \kg \right)
 \left(9.80\mss \right)\\
@@ -151,17 +151,17 @@ F_{R}& =& \left(0.667\right)\left(5.00 \kg \right)
 The first condition for equilibrium is based on the free body diagram in the
 figure. This implies that by Newton’s second law:
 
-<div data-type="equation">
+<div class="equation">
 $$ F_{L}+F_{R}-mg =0 $$
 </div>
 From this we can conclude:
 
-<div data-type="equation">
+<div class="equation">
 $$ F_{L}+F_{R}=w=mg $$
 </div>
 Solving for $$ F_{L} $$, we obtain
 
-<div data-type="equation">
+<div class="equation">
  $$ \begin{array}{lll}
 F_{L}& =& mg-F_{R}\\
 & =& mg-32.7 N\\
@@ -181,22 +181,22 @@ If the pole vaulter holds the pole as he might at the start of a run, shown
 in [[Figure]](#eip-id2351577), the forces change again. Both are considerably
 greater, and one force reverses direction.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Take-Home Experiment
 </div>
 This is an experiment to perform while standing in a bus or a train. Stand facing sideways. How do you move your body to readjust the distribution of your mass as the bus accelerates and decelerates? Now stand facing forward. How do you move your body to readjust the distribution of your mass as the bus accelerates and decelerates? Why is it easier and safer to stand facing sideways rather than forward? Note: For your safety (and those around you), make sure you are holding onto something while you carry out this activity!
 
 </div>
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 PhET Explorations: Balancing Act
 </div>
 Play with objects on a teeter totter to learn about balance. Test what you\'ve learned by trying the Balance Challenge game.
 
 <figure markdown="1" id="eip-id2351543" data-label="">
-<div data-type="phet">
+<div class="phet">
 <iframe src="https://phet.colorado.edu/sims/html/balancing-act/latest/balancing-act_en.html" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 Balancing Act
@@ -216,8 +216,8 @@ Balancing Act
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 When visiting some countries, you may see a person balancing a load on the head. Explain why the center of mass of the load needs to be directly above the person’s neck vertebrae.
 
 </div>
@@ -225,15 +225,15 @@ When visiting some countries, you may see a person balancing a load on the head.
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 To get up on the roof, a person (mass 70.0 kg) places a 6.00-m aluminum ladder (mass 10.0 kg) against the house on a concrete pad with the base of the ladder 2.00 m from the house. The ladder rests against a plastic rain gutter, which we can assume to be frictionless. The center of mass of the ladder is 2 m from the bottom. The person is standing 3 m from the bottom. What are the magnitudes of the forces on the ladder at the top and bottom?
 
 </div>
 </div>
 
-<div data-type="exercise" id="eip-339" data-element-type="problems-exercises">
-<div data-type="problem" id="eip-6" markdown="1">
+<div class="exercise" id="eip-339" data-element-type="problems-exercises">
+<div class="problem" id="eip-6" markdown="1">
 In [[Figure]](#eip-id2351577), the cg of the pole held by the pole vaulter is 2.00 m from the left hand, and
 the hands are 0.700 m apart. Calculate the force exerted by
 (a) his right hand and
@@ -248,10 +248,10 @@ Strategy for static equilibrium described above.
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 static equilibrium
 : equilibrium in which the acceleration of the system is zero and accelerated

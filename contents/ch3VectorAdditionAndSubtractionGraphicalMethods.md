@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Understand the rules of vector addition, subtraction, and multiplication.
 * Apply graphical methods of vector addition and subtraction to determine the
 displacement of moving objects.
@@ -16,7 +16,7 @@ displacement of moving objects.
 
 ### Vectors in Two Dimensions
 
-A **vector**{: data-type="term" #import-auto-id1165296389850} is a quantity that
+A **vector**{: class="term" #import-auto-id1165296389850} is a quantity that
 has magnitude and direction. Displacement, velocity, acceleration, and force,
 for example, are all vectors. In one-dimensional, or straight-line, motion, the
 direction of a vector can be given simply by a plus or minus sign. In two
@@ -33,11 +33,11 @@ use the notation that a boldface symbol, such as $$ \vb{D} $$, stands
 for a
 vector. Its magnitude is represented by the symbol, $$\mag{D}$$, and its
 direction by $$ \theta $$. The magnitude can also represented in italics as $$
-D $$ when the context is clear. We will used this shorthand notation ftom
+D $$ when the context is clear. We will used this shorthand notation from
 time to time in this textbook.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Vectors in this Text
 </div>
 In this text, we will represent a vector with a boldface variable. For example,
@@ -67,11 +67,11 @@ magnitude  \( \mag{D} \)  of the vector is 10.3 units, and the direction  \(
 
 ### Vector Addition: Head-to-Tail Method
 
-The **head-to-tail method**{: data-type="term" #import-auto-id1165298552505} is
+The **head-to-tail method**{: class="term" #import-auto-id1165298552505} is
 a graphical way to add vectors, described
 in [[Figure]](#import-auto-id1165298643218) below and in the steps following.
-The **tail**{: data-type="term" #import-auto-id1165298535408} of the vector is
-the starting point of the vector, and the **head**{: data-type="term"
+The **tail**{: class="term" #import-auto-id1165298535408} of the vector is
+the starting point of the vector, and the **head**{: class="term"
 #import-auto-id1165298982372} (or tip) of a vector is the final, pointed end of
 the arrow.
 
@@ -101,18 +101,18 @@ each vector to be added. Note that in our example, we have only two vectors, so
 we have finished placing arrows tip to tail*.
 
 ***Step 4.*** *Draw an arrow from the tail of the first vector to the head of
-the last vector*. This is the **resultant**{: data-type="term"
+the last vector*. This is the **resultant**{: class="term"
 #import-auto-id1165296311722}, or the sum, of the other vectors.
 
 ![In part c, a vector D of magnitude ten point three is drawn from the tail of the horizontal vector at an angle theta is equal to twenty nine point one degrees from the positive direction of the x axis. The head of the vector D meets the head of the vertical vector. A scale is shown parallel to the vector D to measure its length. Also a protractor is shown to measure the inclination of the vector D.](../resources/Figure_03_02_06a.jpg)
 {: #import-auto-id1165299000967}
 
-***Step 5.*** To get the **magnitude**{: data-type="term"
+***Step 5.*** To get the **magnitude**{: class="term"
 #import-auto-id1165298794109} of the resultant, *measure its length with a
 ruler. (Note that in most calculations, we will use the Pythagorean theorem to
 determine this length.)*
 
-***Step 6.*** To get the **direction**{: data-type="term"
+***Step 6.*** To get the **direction**{: class="term"
 #import-auto-id1165298932041} of the resultant, **measure the angle it makes
 with the reference frame using a protractor. (Note that in most calculations, we
 will use trigonometric relationships to determine this angle.)**
@@ -121,8 +121,8 @@ The graphical addition of vectors is limited in accuracy only by the precision
 with which the drawings can be made and the precision of the measuring tools. It
 is valid for any number of vectors.
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Adding Vectors Graphically Using the Head-to-Tail Method: A Woman Takes a Walk
 </div>
 Use the graphical technique for adding vectors to find the total displacement
@@ -187,9 +187,9 @@ still get the same solution.
 Here, we see that when the same vectors are added in a different order, the
 result is the same. This characteristic is true in every case and is an
 important characteristic of vectors. Vector addition is **commutative**{:
-data-type="term"}. Vectors can be added in any order.
+class="term"}. Vectors can be added in any order.
 
-<div data-type="equation" id="eip-376">
+<div class="equation" id="eip-376">
  $$ \vb{A}+\vb{B}=\vb{B}+\vb{A}. $$
 </div>
 (This is true for the addition of ordinary numbers as well—you get the same result
@@ -219,7 +219,7 @@ to $$ \vb{A} $$. Note that vector subtraction
 is the addition of a negative vector. The order of subtraction does not affect
 the results.
 
-<div data-type="equation" id="eip-454">
+<div class="equation" id="eip-454">
  $$ \vb{A} - \vb{B} = \vb{A} + \left( -\vb{B} \right). $$
 </div>
 
@@ -228,8 +228,8 @@ This is analogous to the subtraction of scalars (where, for example, $$ 5 - 2 =
 which the subtraction is made. When vectors are subtracted graphically, the
 techniques outlined above are used, as the following example illustrates.
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Subtracting Vectors Graphically: A Woman Sailing a Boat
 </div>
 A woman sailing a boat at night is following directions to a dock. The
@@ -304,7 +304,7 @@ If we decided to walk three times as far on the first leg of the trip considered
 in the preceding example, then we would walk $$ 3 \times 27.5 \m $$, or
 82.5 m, in a direction $$ 66.0^\circ $$ north of east. This is an example of
 multiplying a vector by a positive
-**scalar**{: data-type="term" #import-auto-id1165296219603}.
+**scalar**{: class="term" #import-auto-id1165296219603}.
 Notice that the magnitude changes, but the
 direction stays the same.
 
@@ -334,7 +334,7 @@ In the examples above, we have been adding vectors to determine the resultant
 vector. In many cases, however, we will need to do the opposite. We will need to
 take a single vector and find what other vectors added together produce it. In
 most cases, this involves determining the
-perpendicular **components**{: data-type="term" #import-auto-id1165298555736}
+perpendicular **components**{: class="term" #import-auto-id1165298555736}
 of a single vector, for example the **x**- and **y**-components,
 or the north-south and east-west components.
 
@@ -353,8 +353,8 @@ right triangles are involved. The analytical techniques presented
 in [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md) are
 ideal for finding vector components.
 
-<div data-type="note" data-has-label="true" id="eip-718" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" id="eip-718" data-label="" markdown="1">
+<div class="title">
 PhET Explorations: Maze Game
 </div>
 Learn about position, velocity, and acceleration in the \"Arena of Pain\". Use
@@ -362,7 +362,7 @@ the green arrow to move the ball. Add more walls to the arena to make the
 game more difficult. Try to make a goal as fast as you can.
 
 <figure markdown="1" id="eip-id1434453">
-<div data-type="cnxsim">
+<div class="cnxsim">
 <iframe src="https://veillette.github.io/simulations/maze-game/#sim-maze-game
 " width="750" height="500"  allowfullscreen></iframe>
 <figcaption>
@@ -389,9 +389,9 @@ Maze Game
   head-to-tail method of addition is
   followed in the usual way to obtain the resultant vector $$ \vb{R} $$.
 * {: #import-auto-id1165296680072} Addition of vectors is **commutative**{:
-  data-type="term" # import-auto-id1165296680069} such that $$
+  class="term" # import-auto-id1165296680069} such that $$
   \vb{A}+\vb{B}=\vb{B}+\vb{A} $$.
-* {: #import-auto-id1165296269519} The **head-to-tail method**{: data-type="
+* {: #import-auto-id1165296269519} The **head-to-tail method**{: class="
   term" #import-auto-id1165298982089} of adding vectors involves drawing the
   first vector on a graph and then placing the tail of each subsequent vector at
   the head of the previous vector. The resultant vector is then drawn from the
@@ -404,8 +404,8 @@ Maze Game
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Which of the following is a vector: a person’s height,
 the altitude on Mt. Everest, the age of the Earth,
 the boiling point of water, the cost of this book,
@@ -414,22 +414,22 @@ the Earth’s population, the acceleration of gravity?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Give a specific example of a vector, stating its magnitude, units, and direction.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 What do vectors and scalars have in common? How do they differ?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Two campers in a national park hike from their cabin to the same
 spot on a lake, each taking a different path, as illustrated below.
 The total distance traveled along Path 1 is 7.5 km, and that along
@@ -441,8 +441,8 @@ Path 2 is 8.2 km. What is the final displacement of each camper?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 If an airplane pilot is told to fly 123 km in a straight line to
 get from San Francisco to Sacramento, explain why he could end up
 anywhere on the circle shown in [[Figure]](#import-auto-id1165296384452).
@@ -454,8 +454,8 @@ What other information would he need to get to Sacramento?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Suppose you take two steps $$ \vb{A} $$ and $$ \vb{B} $$
 (that is, two nonzero displacements). Under what circumstances can you end up at
 your starting point? More generally, under what circumstances can two nonzero
@@ -466,15 +466,15 @@ the sum of the lengths of the two steps?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Explain why it is not possible to add a scalar to a vector.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 If you take two steps of different sizes, can you end up at your starting point? More generally, can two vectors with different magnitudes ever add to zero? Can three or more?
 
 </div>
@@ -485,8 +485,8 @@ If you take two steps of different sizes, can you end up at your starting point?
 **Use graphical methods to solve these problems. You may assume data taken from
 graphs is accurate to three digits.**
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Find the following for path A in [[Figure]](#import-auto-id1165298872310):
 (a) the total distance traveled, and
 (b) the magnitude and direction of the displacement from start to finish.
@@ -495,7 +495,7 @@ Find the following for path A in [[Figure]](#import-auto-id1165298872310):
 {: #import-auto-id1165298872310}
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 480 \m $$
 
 (b) $$ 379 \m $$, $$ 18.4^\circ $$ east of north
@@ -503,8 +503,8 @@ Find the following for path A in [[Figure]](#import-auto-id1165298872310):
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Find the following for path B in [[Figure]](#import-auto-id1165298872310):
 (a) the total distance traveled, and
 (b) the magnitude and direction of the displacement from start to finish.
@@ -512,20 +512,20 @@ Find the following for path B in [[Figure]](#import-auto-id1165298872310):
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Find the north and east components of the displacement for
 the hikers shown in [[Figure]](#import-auto-id1165298840401).
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 north component 3.21 km, east component 3.83 km
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Suppose you walk 18.0 m straight west and then 25.0 m straight north. How far are
 you from your starting point, and what is the compass direction of a line
 connecting your starting point to your final position?
@@ -548,8 +548,8 @@ having magnitude  \( \mag{R} \)  and direction  \( \theta \) .")
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Suppose you first walk 12.0 m in a direction $$ 20^\circ $$
 west of north and then 20.0 m in a direction $$ 40.0^\circ $$ south of west. How
 far are you from your starting point, and what is the compass direction of a
@@ -562,14 +562,14 @@ finds their sum $$ \vb{R} = \vb{A} + \vb{B} $$.)
 {: #import-auto-id1165296430663}
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 19.5 \m $$, $$ 4.65^\circ $$ south of west
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Repeat the problem above, but reverse the order of the two legs of the walk; show that you get the same final result.
 That is, you first walk leg $$ \vb{B} $$, which is 20.0 m in a direction exactly $$ 40^\circ $$ south of west, and then
 leg $$ \vb{A} $$, which is 12.0 m in a direction exactly $$ 20^\circ $$ west
@@ -579,8 +579,8 @@ of north. (This problem shows that $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) Repeat the problem two problems prior, but for the second leg you walk 20.0 m
 in a direction $$ 40.0^\circ $$
 north of east (which is equivalent to subtracting $$ \vb{B} $$ from
@@ -595,7 +595,7 @@ $$ \vb{R}^{\prime\prime}
 Show that this is the case.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 26.6 \m $$, $$ 65.1^\circ $$ north of east
 
 (b) $$ 26.6 \m $$, $$ 65.1^\circ $$ south of west
@@ -603,8 +603,8 @@ Show that this is the case.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Show that the **order** of addition of three vectors does not affect their sum.
 Show this property by choosing any three vectors $$ \vb{A} $$, $$ \vb{B} $$,
 and $$ \vb{C} $$, all having different lengths and
@@ -616,19 +616,19 @@ added; choose only one.)
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Show that the sum of the vectors discussed in [[Figure]](#fs-id1165296679497) gives the result shown in [[Figure]](#import-auto-id1165296298190).
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 52.9 \m $$, $$ 90.1^\circ $$ with respect to the *x*-axis.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Find the magnitudes of velocities $$ v_{\text{A}} $$
 and $$ v_{\text{B}} $$ in [[Figure]](#import-auto-id1165296217666)
 
@@ -644,13 +644,13 @@ degrees. V sub tot has a magnitude of 6.72 meters per second.](../resources/Figu
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Find the components of $$ v_{\text{tot}} $$
 along the **x**- and **y**-axes in [[Figure]](#import-auto-id1165296217666).
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 *x*-component 4.41 m/s
 
 *y*-component 5.07 m/s
@@ -658,8 +658,8 @@ along the **x**- and **y**-axes in [[Figure]](#import-auto-id1165296217666).
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Find the components of $$ v_{\text{tot}} $$
 along a set of perpendicular axes rotated $$ 30^\circ $$ counterclockwise
 relative to those in [[Figure]](#import-auto-id1165296217666).
@@ -667,10 +667,10 @@ relative to those in [[Figure]](#import-auto-id1165296217666).
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 component (of a 2-d vector)
 : a piece of a vector that points in either the vertical or the horizontal

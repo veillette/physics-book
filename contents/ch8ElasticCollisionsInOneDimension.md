@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Describe an elastic collision of two objects in one dimension.
 * Define internal kinetic energy.
 * Derive an expression for conservation of internal kinetic energy in a one dimensional collision.
@@ -18,9 +18,9 @@ in collisions. The conservation of momentum principle is very useful here, and
 it can be used whenever the net external force on a system is zero.
 
 We start with the elastic collision of two objects moving along the same line—a
-one-dimensional problem. An **elastic collision**{: data-type="term"
+one-dimensional problem. An **elastic collision**{: class="term"
 #import-auto-id1180706} is one that also conserves internal kinetic energy.
-**Internal kinetic energy**{: data-type="term" #import-auto-id1806312} is the sum
+**Internal kinetic energy**{: class="term" #import-auto-id1806312} is the sum
 of the kinetic energies of the objects in the
 system. [[Figure]](#import-auto-id1121320) illustrates an elastic collision in
 which internal kinetic energy and momentum are conserved.
@@ -34,20 +34,20 @@ nearly elastic collision is that between two carts with spring bumpers on an air
 track. Icy surfaces and air tracks are nearly frictionless, more readily
 allowing nearly elastic collisions on them.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Elastic Collision
 </div>
-An **elastic collision**{: data-type="term" #import-auto-id1695093} is one that conserves internal kinetic energy.
+An **elastic collision**{: class="term" #import-auto-id1695093} is one that conserves internal kinetic energy.
 
 </div>
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Internal Kinetic Energy
 </div>
 
-**Internal kinetic energy**{: data-type="term" #import-auto-id1647085} is the sum of the kinetic energies of the objects in the system.
+**Internal kinetic energy**{: class="term" #import-auto-id1647085} is the sum of the kinetic energies of the objects in the system.
 
 </div>
 
@@ -59,13 +59,13 @@ objects we can use the equations for conservation of momentum and conservation
 of internal kinetic energy. First, the equation for conservation of momentum for
 two objects in a one-dimensional collision is
 
-<div data-type="equation" id="eip-545">
+<div class="equation" id="eip-545">
  $$ p_{1}+p_{2}=p^{\prime}_{1}+p^{\prime}_{2}\left({F}_{\text{net}}=0\right) $$
 </div>
 
 or
 
-<div data-type="equation" id="eip-485">
+<div class="equation" id="eip-485">
  $$ m_{1}v_{1}+m_{2}v_{2}=m_{1}v^{\prime}_{1}+m_{2}v^{\prime}_{2}\left({F}_{\text{net}}=0\right), $$
 </div>
 
@@ -73,20 +73,20 @@ where the primes (\') indicate values after the collision. By definition, an
 elastic collision conserves internal kinetic energy, and so the sum of kinetic
 energies before the collision equals the sum after the collision. Thus,
 
-<div data-type="equation" id="eip-940">
+<div class="equation" id="eip-940">
  $$ \frac{1}{2}m_{1}{ v_{1}}^{2}+\frac{1}{2}m_{2}{ v_{2}}^{2}=\frac{1}{2}m_{1}{ v^{\prime}_{1}}^{2}+\frac{1}{2}m_{2}{ v^{\prime}_{2}}^{2}\text{(two-object elastic collision)} $$
 </div>
 
 expresses the equation for conservation of internal kinetic energy in a
 one-dimensional collision.
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating Velocities Following an Elastic Collision
 </div>
 Calculate the velocities of two objects following an elastic collision, given that
 
-<div data-type="equation" id="eip-634">
+<div class="equation" id="eip-634">
  $$ m_{1}=0.500 \kg , m_{2}=3.50 \kg , v_{1}=4.00 \ms, \text{ and } v_{2}=0. $$
 </div>
 
@@ -108,17 +108,17 @@ unknowns.
 For this problem, note that $$ v_{2}=0 $$ and use conservation of momentum.
 Thus,
 
-<div data-type="equation" id="eip-773">
+<div class="equation" id="eip-773">
  $$ p_{1}=p^{\prime} {}_{1}+p^{\prime} {}_{2} $$
 </div>
 or
 
-<div data-type="equation" id="eip-832">
+<div class="equation" id="eip-832">
  $$ m_{1}v_{1}=m_{1}v^{\prime}_{1}+m_{2}v^{\prime}_{2}. $$
 </div>
 Using conservation of internal kinetic energy and that $$ v_{2}=0 $$,
 
-<div data-type="equation" id="eip-901">
+<div class="equation" id="eip-901">
  $$ \frac{1}{2} m_{1} v_{1}^{2}
 =\frac{1}{2} m_{1} {v^{\prime}_{1}}^{2}+ \frac{1}{2}m_{2}{v^{\prime}_{2}}^{2}.
 $$
@@ -126,7 +126,7 @@ $$
 Solving the first equation (momentum equation) for $$ v^{\prime}_{2} $$,
 we obtain
 
-<div data-type="equation" id="eip-436">
+<div class="equation" id="eip-436">
  $$ v^{\prime}_{2}=\frac{ m_{1}}{ m_{2}}\left(v_{1}-v^{\prime}_{1}\right). $$
 </div>
 Substituting this expression into the second equation (internal kinetic energy equation)
@@ -134,12 +134,12 @@ eliminates the variable $$ v^{\prime}_{2} $$, leaving only $$ v^{\prime}_{1} $$ 
 (the algebra is left as an exercise for the reader). There are two solutions to any quadratic equation; in
 this example, they are
 
-<div data-type="equation" id="eip-464">
+<div class="equation" id="eip-464">
  $$ v^{\prime}_{1}=4.00 \ms $$
 </div>
 and
 
-<div data-type="equation" id="eip-990">
+<div class="equation" id="eip-990">
  $$ v^{\prime}_{1}=-3.00 \ms . $$
 </div>
 As noted when quadratic equations were encountered in earlier chapters, both solutions may or may not be meaningful. In this case, the first solution is the same as the initial condition. The first solution thus represents the situation before the collision and is discarded. The second solution $$ \left(v^{\prime}_{1}=-3.00 \ms \right) $$
@@ -148,12 +148,12 @@ is negative, meaning that the first object bounces backward. When this negative
 value of $$ v^{\prime}_{1} $$ is used to find the velocity of the second object
 after the collision, we get
 
-<div data-type="equation" id="eip-560">
+<div class="equation" id="eip-560">
  $$ v^{\prime}_{2}=\frac{ m_{1}}{ m_{2}}\left(v_{1}-v^{\prime}_{1}\right)=\frac{0.500 \kg }{3.50 \kg }\left[4.00-\left(-3.00\right)\right] \ms $$
 </div>
 or
 
-<div data-type="equation" id="eip-819">
+<div class="equation" id="eip-819">
  $$ v^{\prime}_{2}=1.00 \ms . $$
 </div>
 
@@ -173,22 +173,22 @@ two objects. These equations can be extended to more objects if needed.
 
 </div>
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Making Connections: Take-Home Investigation—Ice Cubes and Elastic Collision
 </div>
 Find a few ice cubes which are about the same size and a smooth kitchen tabletop or a table with a glass top. Place the ice cubes on the surface several centimeters away from each other. Flick one ice cube toward a stationary ice cube and observe the path and velocities of the ice cubes after the collision. Try to avoid edge-on collisions and collisions with rotating ice cubes. Have you created approximately elastic collisions? Explain the speeds and directions of the ice cubes using momentum.
 
 </div>
 
-<div data-type="note" data-has-label="true" id="eip-732" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" id="eip-732" data-label="" markdown="1">
+<div class="title">
 PhET Explorations: Collision Lab
 </div>
 Investigate collisions on an air hockey table. Set up your own experiments: vary the number of discs, masses and initial conditions. Is momentum conserved? Is kinetic energy conserved? Vary the elasticity and see what happens.
 
 <figure markdown="1" id="eip-id1686591">
-<div data-type="phet">
+<div class="phet">
 <iframe src="https://phet.colorado.edu/sims/html/collision-lab/latest/collision-lab_en.html" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 Masses and Springs
@@ -207,23 +207,23 @@ Masses and Springs
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 What is an elastic collision?
 </div>
 </div>
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Two identical objects (such as billiard balls) have a one-dimensional collision in which one is initially motionless. After the collision, the moving object is stationary and the other moves with the same speed as the other originally had. Show that both momentum and kinetic energy are conserved.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -234,23 +234,23 @@ satellites collide elastically rather than dock, what is their final relative
 velocity?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 0.250 m/s
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A 70.0-kg ice hockey goalie, originally at rest, catches a 0.150-kg hockey puck slapped at him at a velocity of 35.0 m/s. Suppose the goalie and the ice puck have an elastic collision and the puck is reflected back in the direction from which it came. What would their final velocities be in this case?
 
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 elastic collision
 : a collision that also conserves internal kinetic energy

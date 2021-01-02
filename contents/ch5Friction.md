@@ -4,14 +4,14 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Discuss the general characteristics of friction.
 * Describe the various types of friction.
 * Calculate the magnitude of static and kinetic friction forces.
 
 </div>
 
-**Friction**{: data-type="term" #import-auto-id1165298484489} is a force that is
+**Friction**{: class="term" #import-auto-id1165298484489} is a force that is
 around us all the time that opposes relative motion between systems in contact
 but also allows us to move (which you have discovered if you have ever tried to
 walk on ice). While a common force, the behavior of friction is actually very
@@ -20,8 +20,8 @@ observations for whatever understandings we can gain. However, we can still deal
 with its more elementary general characteristics and understand the
 circumstances in which it behaves.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Friction
 </div>
 Friction is a force that opposes relative motion between systems in contact.
@@ -32,15 +32,15 @@ One of the simpler characteristics of friction is that it is parallel to the
 contact surface between systems and always in a direction that opposes motion or
 attempted motion of the systems relative to each other. If two systems are in
 contact and moving relative to one another, then the friction between them is
-called **kinetic friction**{: data-type="
+called **kinetic friction**{: class="
 term" #import-auto-id1165296294917}. For example, friction slows a hockey puck
 sliding on ice. But when objects are stationary, **static friction**{:
-data-type="term" #import-auto-id1165298806829}
+class="term" #import-auto-id1165298806829}
 can act between them; the static friction is usually greater than the
 kinetic friction between the objects.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Kinetic Friction
 </div>
 If two systems are in contact and moving relative to one another, then the friction between them is called kinetic friction.
@@ -83,20 +83,20 @@ static friction), the other for when there is motion (kinetic friction).
 When there is no motion between the objects,
 the **magnitude of static friction** , $$f_{s} $$ is given by
 
-<div data-type="equation" id="eip-70">
+<div class="equation" id="eip-70">
  $$ f_{\s}\le \mu_{\s} \mag{N}, $$
 </div>
 
 where $$ \mu_{\s} $$ is the coefficient of static friction and $$ \mag{N}$$
 is the magnitude of the normal force (the force perpendicular to the surface).
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Magnitude of Static Friction
 </div>
 Magnitude of static friction force $$ f_{\s} $$ is
 
-<div data-type="equation" id="eip-213">
+<div class="equation" id="eip-213">
  $$ f_{\s}\le \mu_{\s} \mag{N}, $$
 </div>
 where $$ \mu_{\s} $$ is the coefficient of static friction and $$ \mag{N} $$
@@ -110,14 +110,14 @@ friction is a responsive force that increases to be equal and opposite to
 whatever force is exerted, up to its maximum limit. Once the applied force
 exceeds $$ f_{\s \left(\text{max}\right)} $$, the object will move. Thus
 
-<div data-type="equation" id="eip-410">
+<div class="equation" id="eip-410">
  $$ f_{\s  \left(\text{max}\right)}=\mu_{\s} \mag{N} . $$
 </div>
 
 Once an object is moving,
 the **magnitude of kinetic friction** , $$ f_k $$ is given by
 
-<div data-type="equation" id="eip-98">
+<div class="equation" id="eip-98">
  $$ f_{\text{k}}=\mu_{\text{k}} \mag{N} , $$
 </div>
 
@@ -125,13 +125,13 @@ where $$ \mu_{\text{k}} $$ is the coefficient of kinetic friction. A system in
 which $$ f_{\text{k}}=\mu_{\text{k}} \mag{N} $$ is described as a system in
 which *friction behaves simply*.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Magnitude of Kinetic Friction
 </div>
 The magnitude of kinetic friction $$ f_{\text{k}} $$ is given by
 
-<div data-type="equation" id="eip-40">
+<div class="equation" id="eip-40">
  $$ f_{\text{k}}=\mu_{\text{k}} \mag{N}, $$
 </div>
 where $$ \mu_{\text{k}} $$ is the coefficient of kinetic friction.
@@ -182,8 +182,8 @@ lubrication. Coefficient of friction is a unit less quantity with a magnitude
 usually between 0 and 1.0. The coefficient of the friction depends on the two
 surfaces that are in contact.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Take-Home Experiment
 </div>
 Find a small plastic object (such as a food container) and slide it on a kitchen table by giving it a gentle tap. Now spray water on the table, simulating a light shower of rain. What happens now when you give the object the same-sized tap? Now add a few drops of (vegetable or olive) oil on the surface of the water and give the same tap. What happens now? This latter situation is particularly important for drivers to note, especially after a light rain shower. Why?
@@ -216,8 +216,8 @@ the surface between the transducer and the skin—thereby reducing the coefficie
 of friction between the two surfaces. This allows the transducer to move freely
 over the skin.
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Skiing Exercise
 </div>
 A skier with a mass of 62 kg is sliding down a snowy slope. Find the coefficient of kinetic friction for the skier if friction is known to be 45.0 N.
@@ -258,12 +258,12 @@ than \( \mag{W} \)  in magnitude, so there is acceleration down the slope
 
 That is,
 
-<div data-type="equation" id="eip-302">
+<div class="equation" id="eip-302">
  $$ \mag{N}= w_{\perp }=w\cos{ 25^\circ }=mg \cos{ 25^\circ }. $$
 </div>
 Substituting this into our expression for kinetic friction, we get
 
-<div data-type="equation" id="eip-134">
+<div class="equation" id="eip-134">
  $$ f_{\text{k}}=\mu_{\text{k}}mg \cos{ 25^\circ }, $$
 </div>
 which can now be solved for the coefficient of kinetic friction $$ \mu_{\text{k}} $$.
@@ -272,13 +272,13 @@ which can now be solved for the coefficient of kinetic friction $$ \mu_{\text{k}
 
 Solving for $$ \mu_{\text{k} } $$ gives
 
-<div data-type="equation" id="eip-322">
+<div class="equation" id="eip-322">
  $$ \mu_{\text{k}}=\frac{ f_{\text{k}}}{\mag{N}}=\frac{ f_{\text{k}}}{w\cos{
 25^\circ }}=\frac{ f_{\text{k}}}{mg \cos{ 25^\circ }.} $$
 </div>
 Substituting known values on the right-hand side of the equation,
 
-<div data-type="equation" id="eip-97">
+<div class="equation" id="eip-97">
  $$ \mu_{\text{k}}=\frac{45.0 \N }{\left(62 \kg \right)\left(9.80 \mss \right)\left(0.906\right)}=0.082. $$
 </div>
 
@@ -295,8 +295,8 @@ this chapter’s Problems and Exercises.
 
 </div>
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Take-Home Experiment
 </div>
 An object will slide down an inclined plane at a constant velocity if the net force on the object
@@ -308,15 +308,15 @@ The component of the weight down the slope is equal to $$ mg \sin{\theta} $$
 forces act in opposite directions, so when they have equal magnitude, the
 acceleration is zero. Writing these out:
 
-<div data-type="equation" id="eip-387">
+<div class="equation" id="eip-387">
  $$ f_{\text{k}}=m g \sin{\theta} $$
 </div>
-<div data-type="equation" id="eip-368">
+<div class="equation" id="eip-368">
  $$ \mu_{\text{k}}mg \cos{\theta} =mg \sin{\theta} . $$
 </div>
 Solving for $$ \mu_{\text{k}} $$, we find that
 
-<div data-type="equation" id="eip-680">
+<div class="equation" id="eip-680">
  $$ \mu_{\text{k}}=\frac{mg \sin{\theta} }{mg \cos{\theta} }=\tan{\theta} . $$
 </div>
 Put a coin on a book and tilt it until the coin slides at a constant velocity down the book. You might need to tap the book lightly to get the coin to move. Measure the angle of tilt relative to the horizontal and find $$ \mu_{\text{k}} $$. Note that the coin will not start to slide at all until an angle greater than
@@ -332,8 +332,8 @@ We have discussed that when an object rests on a horizontal surface, there is a
 normal force supporting it equal in magnitude to its weight. Furthermore, simple
 friction is always proportional to the normal force.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Making Connections: Submicroscopic Explanations of Friction
 </div>
 The simpler aspects of friction dealt with so far are its macroscopic (large-scale) characteristics. Great strides have been made in the atomic-scale explanation of friction during the past several decades. Researchers are finding that the atomic nature of friction seems to have several fundamental characteristics. These characteristics not only explain some of the simpler aspects of friction—they also hold the potential for the development of nearly friction-free environments that could save hundreds of billions of dollars in energy which is currently being converted (unnecessarily) to heat.
@@ -372,8 +372,8 @@ times—friction.
 ![This figure shows a molecular model of a probe that is dragged over the surface of a substrate. The substrate is represented by a rectangular prism, made up of a grid of small spheres, each sphere representing an atom. The probe, made up of a different grid of small spheres, is in the form of an inverted pyramid with a flattened peak. The pyramid is somewhat distorted because of friction.](../resources/Figure_06_01_05a.jpg "The tip of a probe is deformed sideways by frictional force as the probe is dragged across a surface. Measurements of how the force varies for different materials are yielding fundamental insights into the atomic nature of friction.")
 {: #import-auto-id1165298744656}
 
-<div data-type="note" data-has-label="true" id="eip-440" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" id="eip-440" data-label="" markdown="1">
+<div class="title">
 PhET Explorations: Forces and Motion
 </div>
 Explore the forces at work when you try to push a filing cabinet. Create an applied force and see the resulting friction force and total force acting on the cabinet. Charts show the forces, position, velocity, and acceleration vs. time. Draw a free-body diagram of all the forces (including gravitational and normal forces).
@@ -396,7 +396,7 @@ Forces and Motion
   Friction depends on both of the materials involved. The magnitude of static
   friction $$ f_{\s} $$ between systems stationary relative to one another
   is given by
-  <div data-type="equation" id="eip-940">
+  <div class="equation" id="eip-940">
  $$ f_{\s}\le \mu_{\s} \mag{N}, $$
   </div>
 
@@ -404,7 +404,7 @@ Forces and Motion
   depends on both of the materials.
 * {: #import-auto-id1165298621900} The kinetic friction force $$ f_{\text{k}} $$
   between systems moving relative to one another is given by
-  <div data-type="equation" id="eip-799">
+  <div class="equation" id="eip-799">
  $$ f_{\text{k}}=\mu_{\text{k}} \mag{N}, $$
   </div>
 
@@ -413,22 +413,22 @@ Forces and Motion
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Define normal force. What is its relationship to friction when friction behaves simply?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 The glue on a piece of tape can exert forces. Can these forces be a type of simple friction? Explain, considering especially that tape can stick to vertical walls and even to ceilings.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 When you learn to drive, you discover that you need to let up slightly on
 the brake pedal as you come to a stop or the car will stop with a jerk.
 Explain this in terms of the relationship between static and kinetic
@@ -437,8 +437,8 @@ friction forces.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 When you push a piece of chalk across a chalkboard, it sometimes screeches
 because it rapidly alternates between slipping and sticking to the board.
 Describe this process in more detail, in particular explaining how it is
@@ -451,50 +451,50 @@ than static friction.
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 A physics major is cooking breakfast when he notices that the frictional force between his steel
 spatula and his Teflon frying pan is only 0.200 N. Knowing the coefficient of kinetic friction between the two materials, he quickly calculates the normal force. What is it?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 5.00 \N $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 (a) When rebuilding her car’s engine, a physics major must exert 300 N of force to insert a dry steel piston into a steel cylinder. What is the magnitude of the normal force between the piston and cylinder?
 (b) What is the magnitude of the force would she have to exert if the steel parts were oiled?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 (a) What is the maximum frictional force in the knee joint of a person who supports 66.0 kg of her mass on that knee?
 (b) During strenuous exercise it is possible to exert forces to the joints that are easily ten times greater than the weight being supported. What is the maximum force of friction under such conditions? The frictional forces in joints are relatively small in all circumstances except when the joints deteriorate, such as from injury or arthritis. Increased frictional forces can cause further damage and pain.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 Suppose you have a 120-kg wooden crate resting on a wood floor.
 (a) What maximum force can you exert horizontally on the crate without moving it?
 (b) If you continue to exert this force once the crate starts to slip, what will the magnitude of its acceleration then be?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 588 N
 
 (b) $$ 1.96 \mss  $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 (a) If half of the weight of a small $$ 1.00\times 10^{3}\kg $$ utility truck is supported by its two drive wheels, what is the magnitude of the
 maximum acceleration it can achieve on dry concrete?
 (b) Will a metal cabinet lying on the wooden bed of the truck slip if it accelerates at this rate?
@@ -503,15 +503,15 @@ maximum acceleration it can achieve on dry concrete?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 A team of eight dogs pulls a sled with waxed wood runners on wet snow (mush!). The dogs have average masses of 19.0 kg, and the loaded sled with its rider has a mass of 210 kg.
 (a) Calculate the magnitude of the acceleration starting from rest if each dog exerts an average force of 185 N backward on the snow.
 (b) What is the magnitude of the acceleration once the sled starts to move?
 (c) For both situations, calculate the magnitude of the force in the coupling between the dogs and the sled.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 3.29 \mss  $$
 
 (b) $$ 3.52 \mss  $$
@@ -521,8 +521,8 @@ A team of eight dogs pulls a sled with waxed wood runners on wet snow (mush!). T
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 Consider the 65.0-kg ice skater being pushed by two others shown in [[Figure]](#eip-id1992243).
 (a) Find the direction and magnitude of $$ \vb{F}_{\text{tot}} $$,
 the total force exerted on her by the others, given that the magnitudes $$
@@ -541,16 +541,16 @@ or attempted motion between surfaces in contact.)
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 Show that the acceleration of any object down a frictionless incline that makes an angle $$ \theta $$ with the horizontal is $$
 a=g\sin{\theta} $$. (Note that this acceleration is independent of mass.)
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 Show that the acceleration of any object down an incline where friction behaves simply
 (that is, where $$ f_{\text{k}}=\mu_{\text{k}} \mag{N} $$)
 is $$ a=g\left( \sin{\theta} - \mu_{\text{k}}\cos{\theta} \right). $$ Note
@@ -560,8 +560,8 @@ in the previous problem when friction becomes negligibly small $$ \left(
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 Calculate the deceleration of a snow boarder going up a $$ 5.0^\circ $$, slope
 assuming the coefficient of friction for waxed wood on wet snow. The
 result of [[Figure]](#fs-id1395614) may be useful, but be careful to consider the
@@ -569,14 +569,14 @@ fact that the snow boarder is going uphill. Explicitly show how you follow the
 steps in [Problem-Solving Strategies](../contents/ch4ProblemSolvingStrategies.md).
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 1.83\mss $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 (a) Calculate the acceleration of a skier heading down a $$ 10.0^\circ $$
 slope, assuming the coefficient of friction for waxed wood on wet snow.
 (b) Find the angle of the slope down which this skier could coast at a constant velocity.
@@ -587,16 +587,16 @@ steps in the [Problem-Solving Strategies](../contents/ch4ProblemSolvingStrategie
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 If an object is to rest on an incline without slipping, then friction must equal the component of the weight of the object parallel to the incline. This requires greater and greater friction for steeper slopes. Show that the maximum angle of an incline above the horizontal for which an object will not slide down is $$ \theta ={\tan}^{-1}{\text{μ}}_{\s} $$. You may use the result of the previous problem. Assume that $$ a=0 $$
 and that static friction force has reached its maximum value.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 Calculate the maximum deceleration of a car that is heading down a $$ 6^\circ $$
 slope (one that makes an angle of $$ 6^\circ $$
 with the horizontal) under the following road conditions. You may assume that
@@ -610,8 +610,8 @@ slip during the deceleration. (Ignore rolling.) Calculate for a car:
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 Calculate the maximum acceleration of a car that is heading up a $$ 4^\circ $$
 slope (one that makes an angle of $$ 4^\circ $$
 with the horizontal) under the following road conditions. Assume that only half
@@ -623,22 +623,22 @@ slip during the acceleration. (Ignore rolling.)
 (c) On ice, assuming that $$\mu_{\s}=0.100 $$, the same as for shoes on ice.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 4.20 \mss  $$
 (b) $$ 2.74 \mss  $$
 (c) $$ -0.195 \mss  $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 Repeat [[Figure]](#fs-id1924033) for a car with four-wheel drive.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 A freight train consists of two $$ 8.00 \times 10^{5}\text{-kg} $$
 engines and 45 cars with average masses of $$5.50 \times 10^{5}\kg $$.
 (a) What force must each engine exert backward on the track to accelerate the
@@ -652,15 +652,15 @@ this is the force each exerts on the other), assuming all cars have the same
 mass and that friction is evenly distributed among all of the cars and engines?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 1.03 \times 10^{6}\N $$
 
 (b) $$ 3.48 \times 10^{5}\N $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 Consider the 52.0-kg mountain climber in [[Figure]](#fs-id1165296580243).
 (a) Find the tension in the rope and the force that the mountain climber must
 exert with her feet on the vertical rock face to remain stationary. Assume that
@@ -674,22 +674,22 @@ and the cliff?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 A contestant in a winter sporting event pushes a 45.0-kg block of ice across a frozen lake as shown in [[Figure]](#import-auto-id1165298619770)(a).
 (a) Calculate the minimum force $$ F $$ he must exert to get the block moving.
 (b) What is the magnitude of its acceleration once it starts to move, if that force is maintained?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 51.0 \N $$
 
 (b) $$ 0.720 \mss  $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 Repeat [[Figure]](#fs-id1531145) with the contestant pulling the block of ice with a rope over his shoulder at the same angle above the horizontal as shown in [[Figure]](#import-auto-id1165298619770)(b).
 
 ![(a) A block of ice is being pushed by a contestant in a winter sporting event across a frozen lake at an angle of twenty five degrees. (b) A block of ice is being pulled by a contestant in a winter sporting event across a frozen lake at an angle of twenty five degrees.](../resources/Figure_06_01_07a.jpg "Which method of sliding a block of ice requires less force&#x2014;(a) pushing or (b) pulling at the same angle above the horizontal?")
@@ -698,10 +698,10 @@ Repeat [[Figure]](#fs-id1531145) with the contestant pulling the block of ice wi
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 friction
 : a force that opposes relative motion or attempts at motion between systems in

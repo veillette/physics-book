@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Understand the relationship between force, mass and acceleration.
 * Study the turning effect of force.
 * Study the analogy between force and torque, mass and moment of inertia, and linear acceleration and angular acceleration.
@@ -36,39 +36,39 @@ $$. We can rearrange this equation such that $$ F=ma $$ and then look for ways
 to relate this expression to expressions for rotational quantities. We note that
 $$ a=r \alpha $$, and we substitute this expression into $$ F=ma $$, yielding
 
-<div data-type="equation" id="eip-426">
+<div class="equation" id="eip-426">
  $$ F= m r \alpha . $$
 </div>
 
-Recall that **torque**{: data-type="term" #import-auto-id1429483} is the turning
+Recall that **torque**{: class="term" #import-auto-id1429483} is the turning
 effectiveness of a force. In this case, because $$ \vb{F} $$ is
 perpendicular to $$ r $$, torque is simply $$ \tau =F r $$. So, if we multiply
 both sides of the equation above by $$ r $$, we get torque on the left-hand
 side. That is,
 
-<div data-type="equation" id="eip-304">
+<div class="equation" id="eip-304">
  $$ rF=m r^{2} \alpha $$
 </div>
 
 or
 
-<div data-type="equation" id="eip-357">
+<div class="equation" id="eip-357">
  $$ \tau =m r^{2} \alpha . $$
 </div>
 
 This last equation is the rotational analog of Newton’s second law
 ( $$ \vb{F}=m\vb{a} $$), where torque is analogous to force, angular acceleration is analogous to
 translational acceleration, and $$ m r^{2} $$ is analogous to mass (or inertia).
-The quantity $$ m r^{2} $$ is called the **rotational inertia**{: data-type="
-term" #import-auto-id3450318} or **moment of inertia**{: data-type="
+The quantity $$ m r^{2} $$ is called the **rotational inertia**{: class="
+term" #import-auto-id3450318} or **moment of inertia**{: class="
 term" #import-auto-id1383999} of a point mass $$ m $$ a distance $$ r $$ from
 the center of rotation.
 
 ![The given figure shows an object of mass m, kept on a horizontal frictionless table, attached to a pivot point, which is in the center of the table, by a cord that supplies centripetal force. A force F is applied to the object perpendicular to the radius r, which is indicated by a red arrow tangential to the circle, causing the object to move in counterclockwise direction.](../resources/Figure_11_03_02a.jpg "An object is supported by a horizontal frictionless table and is attached to a pivot point by a cord that supplies centripetal force. A force \( F \)  is applied to the object perpendicular to the radius \( r \) , causing it to accelerate about the pivot point. The force is kept perpendicular to \( r \) .")
 {: #import-auto-id2062858}
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Making Connections: Rotational Motion Dynamics
 </div>
 Dynamics for rotational motion is completely analogous to linear or translational dynamics.
@@ -83,7 +83,7 @@ mass that behave just as we would expect from our earlier experiences.
 Before we can consider the rotation of anything other than a point mass like the
 one in [[Figure]](#import-auto-id2062858), we must extend the idea of rotational
 inertia to all types of objects. To expand our concept of rotational inertia, we
-define the **moment of inertia**{: data-type="term" #import-auto-id3400355} $$ I
+define the **moment of inertia**{: class="term" #import-auto-id3400355} $$ I
 $$ of an object to be the sum of $$ m r^{2} $$ for all the point masses of which
 it is composed. That is, $$ I=\sum m r^{2} $$. Here $$ I $$ is analogous to $$ m
 $$ in translational motion. Because of the distance $$ r $$, the moment of
@@ -102,13 +102,13 @@ units of mass multiplied by distance squared
 The general relationship among torque, moment of inertia, and angular
 acceleration is
 
-<div data-type="equation" id="eip-724">
+<div class="equation" id="eip-724">
  $$ \text{net τ}= I\alpha $$
 </div>
 
 or
 
-<div data-type="equation" id="eip-480">
+<div class="equation" id="eip-480">
  $$ \alpha =\frac{ \text{net τ}}{I} , $$
 </div>
 
@@ -133,16 +133,16 @@ stand close to its axis than if they all stand at the outer edge. The mass is
 the same in both cases; but the moment of inertia is much larger when the
 children are at the edge.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Take-Home Experiment
 </div>
 Cut out a circle that has about a 10 cm radius from stiff cardboard. Near the edge of the circle, write numbers 1 to 12 like hours on a clock face. Position the circle so that it can rotate freely about a horizontal axis through its center, like a wheel. (You could loosely nail the circle to a wall.) Hold the circle stationary and with the number 12 positioned at the top, attach a lump of blue putty (sticky material used for fixing posters to walls) at the number 3. How large does the lump need to be to just rotate the circle? Describe how you can change the moment of inertia of the circle. How does this change affect the amount of blue putty needed at the number 3 to just rotate the circle? Change the circle’s moment of inertia and then try rotating the circle by using different amounts of blue putty. Repeat this process several times.
 
 </div>
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Problem-Solving Strategy for Rotational Dynamics
 </div>
 1.  {: #import-auto-id1575417} *Examine the situation to determine that torque and mass are involved in the rotation*. Draw a careful sketch of the situation.
@@ -155,8 +155,8 @@ Problem-Solving Strategy for Rotational Dynamics
 
 </div>
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Making Connections
 </div>
 In statics, the net torque is zero, and there is no angular acceleration. In rotational motion, net torque is the cause of angular acceleration, exactly as in Newton’s second law of motion for rotation.
@@ -166,8 +166,8 @@ In statics, the net torque is zero, and there is no angular acceleration. In rot
 
 </div>
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating the Effect of Mass Distribution on a Merry-Go-Round
 </div>
 Consider the father pushing a playground merry-go-round in [[Figure]](#import-auto-id1468671).
@@ -186,7 +186,7 @@ Consider the merry-go-round itself to be a uniform disk with negligible retardin
 Angular acceleration is given directly by the expression $$ \alpha
 =\frac{ \text{net τ}}{I} $$:
 
-<div data-type="equation" id="eip-704">
+<div class="equation" id="eip-704">
  $$ \alpha =\frac{ \tau }{I}. $$
 </div>
 To solve for $$ \alpha $$, we must first calculate the torque $$ \tau $$
@@ -194,7 +194,7 @@ To solve for $$ \alpha $$, we must first calculate the torque $$ \tau $$
 (which is greater in the second case). To find the torque, we note that the
 applied force is perpendicular to the radius and friction is negligible, so that
 
-<div data-type="equation" id="eip-946">
+<div class="equation" id="eip-946">
  $$ \tau =rF \sin{\theta}=\left(1.50 \m \right)\left(250 \N \right)=375 \N \cdot \m . $$
 </div>
 
@@ -203,12 +203,12 @@ applied force is perpendicular to the radius and friction is negligible, so that
 The moment of inertia of a solid disk about this axis is given
 in [[Figure]](#fs-id1838666) to be
 
-<div data-type="equation" id="eip-659">
+<div class="equation" id="eip-659">
  $$ \frac{1}{2} MR^{2}, $$
 </div>
 where $$ M=50.0 \kg $$ and $$ R=1.50 \m $$, so that
 
-<div data-type="equation" id="eip-768">
+<div class="equation" id="eip-768">
  $$ I=\left(0.500\right)
 \left(50.0 \kg \right)
 \left(1.50 \m \right)^{2}
@@ -216,7 +216,7 @@ where $$ M=50.0 \kg $$ and $$ R=1.50 \m $$, so that
 </div>
 Now, after we substitute the known values, we find the angular acceleration to be
 
-<div data-type="equation" id="eip-861">
+<div class="equation" id="eip-861">
  $$ \alpha =\frac{ \tau }{I}=\frac{375 \N \text{⋅}\m }{56.25 \kg \cdot \mm}=
 6.67 \radss. $$
 </div>
@@ -229,7 +229,7 @@ merry-go-round. To find the total moment of inertia $$ I $$, we first find the
 child’s moment of inertia $$ I_{\text{c}} $$ by considering the child to be
 equivalent to a point mass at a distance of 1.25 m from the axis. Then,
 
-<div data-type="equation" id="eip-266">
+<div class="equation" id="eip-266">
  $$ I_{\text{c}}=MR^{2}=
 \left(18.0 \kg \right)
 \left(1.25 \m \right)^{2}=28.13 \kg \cdot \mm. $$
@@ -238,12 +238,12 @@ The total moment of inertia is the sum of moments of inertia of the merry-go-rou
 and the child (about the same axis). To justify this sum to yourself, examine the
 definition of $$ I $$:
 
-<div data-type="equation" id="eip-141">
+<div class="equation" id="eip-141">
  $$ I=28.13 \kg \cdot \mm+56.25 \kg \cdot \mm=84.38 \kg \cdot \mm. $$
 </div>
 Substituting known values into the equation for $$ \alpha $$ gives
 
-<div data-type="equation" id="eip-50">
+<div class="equation" id="eip-50">
  $$ \alpha =\frac{ \text{τ}}{I}=\frac{375 \N \cdot \m }{84.38 \kg \cdot \mm}
 =4.44 \radss. $$
 </div>
@@ -263,15 +263,15 @@ for the reader.
 
 </div>
 
-<div data-type="exercise" data-element-type="check-understanding" data-label="">
-<div data-type="title">
+<div class="exercise" data-element-type="check-understanding" data-label="">
+<div class="title">
 Check Your Understanding
 </div>
-<div data-type="problem" markdown="1">
+<div class="problem" markdown="1">
 Torque is the analog of force and moment of inertia is the analog of mass. Force and mass are physical quantities that depend on only one factor. For example, mass is related solely to the numbers of atoms of various types in an object. Are torque and moment of inertia similarly simple?
 
 </div>
-<div data-type="solution" data-print-placement="here" markdown="1">
+<div class="solution" data-print-placement="here" markdown="1">
 No. Torque depends on three factors: force magnitude, force direction, and point of application. Moment of inertia depends on both mass and its distribution relative to the axis of rotation. So, while the analogies are precise, these rotational quantities depend on more factors.
 
 </div>
@@ -286,14 +286,14 @@ No. Torque depends on three factors: force magnitude, force direction, and point
   that is at a distance $$ r $$ from a pivot point and because the force is
   perpendicular to $$ r $$, an acceleration $$ a = F/m $$ is obtained in
   the direction of $$ F $$. We can rearrange this equation such that
-  <div data-type="equation">
+  <div class="equation">
  $$ F = ma, $$
   </div>
 
   and then look for ways to relate this expression to expressions for rotational
   quantities. We note that $$ a = r\alpha $$, and we substitute this expression
   into $$ F=ma $$, yielding
-  <div data-type="equation">
+  <div class="equation">
  $$ F=mr\alpha $$
   </div>
 
@@ -301,38 +301,38 @@ No. Torque depends on three factors: force magnitude, force direction, and point
   this case, because $$ F $$ is perpendicular to $$ r $$, torque is simply $$
  \tau =rF $$. If we multiply both sides of the equation above by $$ r $$, we
   get torque on the left-hand side. That is,
-  <div data-type="equation">
+  <div class="equation">
  $$ rF=m r^{2} \alpha $$
   </div>
 
   or
 
-  <div data-type="equation" id="import-auto-id2930863">
+  <div class="equation" id="import-auto-id2930863">
  $$ \tau =m r^{2} \alpha . $$
   </div>
 
 * {: #import-auto-id3175767} The moment of inertia $$ I $$ of an object is the
   sum of $$ MR^{2} $$ for all the point masses of which it is composed. That is,
-  <div data-type="equation" id="import-auto-id3110206">
+  <div class="equation" id="import-auto-id3110206">
  $$ I=\sum m r^{2} . $$
   </div>
 
 * {: #import-auto-id1011742} The general relationship among torque, moment of
   inertia, and angular acceleration is
-  <div data-type="equation" id="eip-139">
+  <div class="equation" id="eip-139">
  $$ \tau = I\alpha $$
   </div>
 
   or
 
-  <div data-type="equation" id="eip-317">
+  <div class="equation" id="eip-317">
  $$ \alpha =\frac{ \text{net τ}}{I} . $$
   </div>
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 The moment of inertia of a long rod spun around an axis through one end perpendicular to its
 length is $$ ML^{2}/3 $$. Why is this moment of inertia greater than it would be
 if you spun a point mass $$ M $$ at the location of the center of mass of the rod
@@ -341,8 +341,8 @@ if you spun a point mass $$ M $$ at the location of the center of mass of the ro
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Why is the moment of inertia of a hoop that has a mass $$ M $$
 and a radius $$ R $$ greater than the moment of inertia of a disk that has the
 same mass and radius? Why is the moment of inertia of a spherical shell that has
@@ -352,15 +352,15 @@ the same mass and radius?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Give an example in which a small force exerts a large torque. Give another example in which a large force exerts a small torque.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 While reducing the mass of a racing bike, the greatest benefit is realized from reducing
 the mass of the tires and wheel rims. Why does this allow a racer
 to achieve greater accelerations than would an identical
@@ -371,8 +371,8 @@ reduction in the mass of the bicycle’s frame?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 A ball slides up a frictionless ramp.
 It is then rolled without slipping and with the same initial velocity up another
 frictionless ramp (with the same slope angle).
@@ -383,8 +383,8 @@ In which case does it reach a greater height, and why?
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 This problem considers additional aspects of example [Calculating the Effect of Mass Distribution on
 a Merry-Go-Round](../contents/ch10DynamicsOfRotationalMotion.md#fs-id1468671).
 (a) How long does it take the father to give the merry-go-round an angular velocity of 1.50 rad/s?
@@ -392,7 +392,7 @@ a Merry-Go-Round](../contents/ch10DynamicsOfRotationalMotion.md#fs-id1468671).
 (c) If he exerts a slowing force of 300 N at a radius of 1.35 m, how long would it take him to stop them?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 0.338 s
 
 (b) 0.0403 rev
@@ -402,8 +402,8 @@ a Merry-Go-Round](../contents/ch10DynamicsOfRotationalMotion.md#fs-id1468671).
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Calculate the moment of inertia of a skater given the following information.
 (a) The 60.0-kg skater is approximated as a cylinder that has a 0.110-m radius.
 (b) The skater with arms extended is approximately a cylinder that is 52.5 kg, has a 0.110-m radius, and has two 0.900-m-long arms which are 3.75 kg each and extend straight out from the cylinder like rods rotated about their ends.
@@ -411,8 +411,8 @@ Calculate the moment of inertia of a skater given the following information.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 The triceps muscle in the back of the upper arm extends the forearm. This muscle in a professional boxer exerts a
 force of $$ 2.00\times 10^{3}\N $$
 with an effective perpendicular lever arm of 3.00 cm, producing an angular
@@ -420,14 +420,14 @@ acceleration of the forearm of $$ 120 \radss $$. What is the moment of
 inertia of the boxer’s forearm?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 0.50 \kg \cdot \mm $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A soccer player extends her lower leg in a kicking motion by exerting a
 force with the muscle above the knee in the front of her leg.
 She produces an angular acceleration of $$ 30.00 \text{\rad/s}^{2} $$
@@ -438,8 +438,8 @@ perpendicular lever arm is 1.90 cm?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Suppose you exert a force of 180 N tangential to a 0.280-m-radius 75.0-kg grindstone (a solid disk).
 (a) What torque is exerted?
 (b) What is the angular acceleration assuming negligible opposing friction?
@@ -447,7 +447,7 @@ Suppose you exert a force of 180 N tangential to a 0.280-m-radius 75.0-kg grinds
 an opposing frictional force of 20.0 N exerted 1.50 cm from the axis?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 50.4 N\cdot \m $$
 
 (b) $$ 17.1 \radss $$
@@ -455,8 +455,8 @@ an opposing frictional force of 20.0 N exerted 1.50 cm from the axis?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Consider the 12.0 kg motorcycle wheel shown in [[Figure]](#import-auto-id3370574). Assume it to be approximately an annular ring with an inner radius of 0.280 m and an outer radius of 0.330 m. The motorcycle is on its center stand, so that the wheel can spin freely.
 (a) If the drive chain exerts a force of 2200 N at a radius of 5.00 cm, what is the angular acceleration of the wheel?
 (b) What is the tangential acceleration of a point on the outer edge of the tire?
@@ -468,8 +468,8 @@ Consider the 12.0 kg motorcycle wheel shown in [[Figure]](#import-auto-id3370574
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Zorch, an archenemy of Superman, decides to slow Earth’s rotation to once per 28.0 h
 by exerting an opposing force
 at and parallel to the equator. Superman is not immediately concerned,
@@ -481,22 +481,22 @@ how you follow the steps found
 in [Problem-Solving Strategy for Rotational Dynamics](../contents/ch10DynamicsOfRotationalMotion.md#fs-id2929358) .
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 3.96\times 10^{18}\s $$
 
 or $$ 1.26\times 10^{11}\text{y} $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 An automobile engine can produce 200 N ∙ m of torque. Calculate the angular acceleration produced if 95.0% of this torque is applied to the drive shaft, axle, and rear wheels of a car, given the following information. The car is suspended so that the wheels can turn freely. Each wheel acts like a 15.0 kg disk that has a 0.180 m radius. The walls of each tire act like a 2.00-kg annular ring that has inside radius of 0.180 m and outside radius of 0.320 m. The tread of each tire acts like a 10.0-kg hoop of radius 0.330 m. The 14.0-kg axle acts like a rod that has a 2.00-cm radius. The 30.0-kg drive shaft acts like a rod that has a 3.20-cm radius.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Starting with the formula for the moment of inertia of a rod rotated around an axis through one end perpendicular to its length
 $$ \left(I=M\ell^{2}/3\right) $$, prove that the moment of inertia of a rod rotated about an axis through its
 center perpendicular to its length is $$I= M\ell^{2}/12 $$.
@@ -504,7 +504,7 @@ You will find the graphics in [[Figure]](#fs-id1838666) useful in visualizing
 these rotations.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ \begin{array}{c}
 I_{\text{end}}= I_{\text{center}}+m{\left(\frac{l}{2}\right)}^{2}\\
 \text{Thus,} I_{\text{center}}= I_{\text{end}}-\frac{1}{4}m l^{2} =\frac{1}{3}m l^{2} -\frac{1}{4}m l^{2} =\frac{1}{12}}m l^{2}
@@ -513,8 +513,8 @@ I_{\text{end}}= I_{\text{center}}+m{\left(\frac{l}{2}\right)}^{2}\\
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Unreasonable Results**
 
@@ -527,7 +527,7 @@ rad/s, and her moment of inertia is $$ 0.050\kg \cdot \mm $$.
 inconsistent?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 2.0 ms
 
 (b) The time interval is too short.
@@ -538,8 +538,8 @@ A torque of $$ 500 \N \cdot \m $$ is reasonable.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Unreasonable Results**
 
@@ -552,7 +552,7 @@ have if 95.0% of its rotational energy is used to get the car up to speed.
 (c) Which premise is unreasonable or which premises are inconsistent?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 17 500 rpm
 
 (b) This angular velocity is very high for a disk of this size and mass. The
@@ -564,10 +564,10 @@ spin rate (angular velocity).
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 torque
 : the turning effectiveness of a force

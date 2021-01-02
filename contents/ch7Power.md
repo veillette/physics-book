@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Calculate power by calculating changes in energy over time.
 * Examine power consumption and calculations of the cost of energy consumed.
 
@@ -21,19 +21,19 @@ in [[Figure]](#import-auto-id2523817).
 {: #import-auto-id2523817}
 
 These images of power have in common the rapid performance of work, consistent
-with the scientific definition of **power**{: data-type="term"} ( $$ P $$ )
+with the scientific definition of **power**{: class="term"} ( $$ P $$ )
 as the rate at which work is done.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Power
 </div>
 Power is the rate at which work is done.
 
-<div data-type="equation">
+<div class="equation">
  $$ P=\frac{W}{t} $$
 </div>
-The SI unit for power is the **watt**{: data-type="term" #import-auto-id1485594}
+The SI unit for power is the **watt**{: class="term" #import-auto-id1485594}
 ( $$ \text{W} $$ ), where 1 watt equals 1 joule/second $$ \left(1 \text{W}=1
 \text{J/s}\right).
 $$
@@ -47,8 +47,8 @@ work and consumes a large amount of fuel in a short time.
 
 ### Calculating Power from Energy
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating the Power to Climb Stairs
 </div>
 What is the power output for a 60.0-kg woman who runs up a 3.00 m high flight of stairs in 3.50 s, starting from rest but having a final speed of 2.00 m/s? (See [[Figure]](#import-auto-id2265354).)
@@ -70,12 +70,12 @@ power.
 Substituting the expression for $$ W $$ into the definition of power given in
 the previous equation, $$ P=W/t $$ yields
 
-<div data-type="equation">
+<div class="equation">
  $$ P=\frac{W}{t}=\frac{ \frac{1}{2} m v_{f}^{2}+mgh }{t}. $$
 </div>
 Entering known values yields
 
-<div data-type="equation">
+<div class="equation">
  $$ \begin{array}{lll}
 P& =& \frac{0.5\left(60.0 \kg \right){\left(2.00  \ms \right)}^{2}+\left(60.0 \kg \right)\left( 9.80 \mss \right)\left(3.00 \m \right)}{3.50 \s  }\\
 & =& \frac{120  \J +1764  \J }{3.50 \s  }\\
@@ -92,7 +92,7 @@ climbing rather than accelerating.
 </div>
 
 It is impressive that this woman’s useful power output is slightly less than
-1 **horsepower**{: data-type="term" #import-auto-id1522337} $$ \left(1
+1 **horsepower**{: class="term" #import-auto-id1522337} $$ \left(1
 \text{hp}=746 \text{W}\right) $$ ! People can generate more than a horsepower with their leg muscles for short
 periods of time by rapidly converting available blood sugar and oxygen into work
 output. (A horse can put out 1 hp for hours on end.) Once oxygen is depleted,
@@ -101,8 +101,8 @@ to metabolize more food—this is known as the *aerobic* stage of exercise. If t
 woman climbed the stairs slowly, then her power output would be much less,
 although the amount of work done would be the same.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Making Connections: Take-Home Investigation—Measure Your Power Rating
 </div>
 Determine your own power rating by measuring the time it takes you to climb a flight of stairs. We will ignore the gain in kinetic energy, as the above example showed that it was a small portion of the energy gain. Don’t expect that your output will be more than about 0.5 hp.
@@ -164,18 +164,18 @@ longer the appliance is used, the greater the cost of that appliance. The power
 consumption rate is $$ P=W/t=E/t $$, where $$ E $$ is the energy supplied by the
 electricity company. So the energy consumed over a time $$ t $$ is
 
-<div data-type="equation">
+<div class="equation">
  $$ E=P t .$$
 </div>
 
 Electricity bills state the energy used in units of **kilowatt-hours**{:
-data-type="term" #import-auto-id1733623} $$ \left(\text{kW}\cdot h\right), $$
+class="term" #import-auto-id1733623} $$ \left(\text{kW}\cdot h\right), $$
 which is the product of power in kilowatts and time in hours. This unit is
 convenient because electrical power consumption at the kilowatt level for hours
 at a time is typical.
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating Energy Costs
 </div>
 What is the cost of running a 0.200-kW computer 6.00 h per day for 30.0 d
@@ -192,7 +192,7 @@ convert the units into $$ \text{kW} $$ and hours.
 
 The energy consumed in $$ \text{kW}\cdot \text{h} $$ is
 
-<div data-type="equation">
+<div class="equation">
  $$ \begin{array}{lll}
 E& =& P t=\left(0.200\text{kW}\right)\left(6.00\text{h/d}\right)\left(30.0\text{d}\right)\\
 & = & 36.0 \text{kW}\cdot \text{h,}
@@ -200,7 +200,7 @@ E& =& P t=\left(0.200\text{kW}\right)\left(6.00\text{h/d}\right)\left(30.0\text{
 </div>
 and the cost is simply given by
 
-<div data-type="equation" id="eip-110">
+<div class="equation" id="eip-110">
  $$ \text{cost}=\left(36.0 \text{kW}\cdot h\right)\left($0.120 \text{ per
 kW} \cdot h\right)=$4.32 \text{per month}. $$
 </div>
@@ -248,22 +248,22 @@ to the environment, which is no longer useful for doing work.
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Most electrical appliances are rated in watts. Does this rating depend on how long the appliance is on? (When off, it is a zero-watt device.) Explain in terms of the definition of power.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Explain, in terms of the definition of power, why energy consumption is sometimes listed in kilowatt-hours rather than joules. What is the relationship between these two energy units?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 A spark of static electricity, such as that you might receive from a doorknob on a cold dry day, may carry a few hundred watts of power. Explain why you are not injured by such a spark.
 
 </div>
@@ -271,8 +271,8 @@ A spark of static electricity, such as that you might receive from a doorknob on
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 The Crab Nebula (see [[Figure]](#import-auto-id2091797)) pulsar is the remnant of a supernova that occurred in A.D. 1054. Using data from [[Figure]](#import-auto-id2195139), calculate the approximate factor by which the power output of this astronomical object has declined since its explosion.
 
 ![A supernova explosion.](../resources/crabNebula.jpg "Crab Nebula (credit: ESO, via Wikimedia Commons)")
@@ -280,15 +280,15 @@ The Crab Nebula (see [[Figure]](#import-auto-id2091797)) pulsar is the remnant o
 {: #import-auto-id2091797}
 
 </div>
-<div data-type="solution">
-<div data-type="equation">
+<div class="solution">
+<div class="equation">
  $$ 2\times 10^{-10} $$
 </div>
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Suppose a star 1000 times brighter than our Sun (that is, emitting 1000 times the power) suddenly goes supernova. Using data from [[Figure]](#import-auto-id2195139):
 (a) By what factor does its power output increase?
 (b) How many times brighter than our entire Milky Way galaxy is the supernova?
@@ -299,14 +299,14 @@ own galaxy.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A person in good physical condition can put out 100 W of useful power for several hours at a stretch, perhaps by pedaling a mechanism that drives an electric generator. Neglecting any problems of generator efficiency and practical considerations such as resting time:
 (a) How many people would it take to run a 4.00-kW electric clothes dryer?
 (b) How many people would it take to replace a large electric power plant that generates 800 MW?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 40
 
 (b) 8 million
@@ -314,30 +314,30 @@ A person in good physical condition can put out 100 W of useful power for severa
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 What is the cost of operating a 3.00-W electric clock for a
 year if the cost of electricity is $$ 0.0900 \$ \text{per kW}\cdot h $$ ?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A large household air conditioner may consume 15.0 kW of power. What is the
 cost of operating this air conditioner 3.00 h per day for 30.0 d
 if the cost of electricity is $$ 0.110 \$ \text{per kW}
 \cdot h $$ ?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 $149
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) What is the average power consumption in watts of an appliance that uses
 $$ 5.00 \text{kW}\cdot h $$ of energy per day?
 (b) How many joules of energy does this appliance consume in a year?
@@ -345,15 +345,15 @@ $$ 5.00 \text{kW}\cdot h $$ of energy per day?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) What is the average useful power output of a person who does $$ 6.00\times 10^{6} \J $$ of useful work in 8.00 h?
 (b) Working at this rate, how long will it take this
 person to lift 2000 kg of bricks 1.50 m to a platform? (Work done to lift his
 body can be omitted because it is not considered useful output here.)
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 208 \text{W} $$
 
 (b) 141 s
@@ -361,20 +361,20 @@ body can be omitted because it is not considered useful output here.)
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A 500-kg dragster accelerates from rest to a final speed of 110 m/s in 400 m (about a quarter of a mile) and encounters an average frictional force of 1200 N. What is its average power output in watts and horsepower if this takes 7.30 s?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) How long will it take an 850-kg car with a useful power output of 40.0 hp (1 hp = 746 W) to reach a speed of 15.0 m/s, neglecting friction?
 (b) How long will this acceleration take if the car also climbs a 3.00-m-high hill in the process?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 3.20 s
 
 (b) 4.04 s
@@ -382,8 +382,8 @@ A 500-kg dragster accelerates from rest to a final speed of 110 m/s in 400 m (ab
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) Find the useful power output of an elevator motor that lifts a 2500-kg load a height of 35.0 m in 12.0 s, if it also increases the speed from rest to 4.00 m/s. Note that the total mass of the counterbalanced system is 10 000 kg—so that only 2500 kg is raised in height,
 but the full 10 000 kg is accelerated.
 (b) What does it cost, if electricity is
@@ -392,23 +392,23 @@ $$ 0.0900 \text{per kW}\cdot h $$ ?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) What is the available energy content, in joules, of a battery that
 operates a 2.00-W electric clock for 18 months?
 (b) How long can a battery that can supply $$ 8.00\times 10^{4} \J $$ run
 a pocket calculator that consumes energy at the rate of $$ 1.00\times 10^{-3}\text{W} $$ ?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 9.46\times 10^{7} \J $$
 
 (b) $$ 2.54 \text{y} $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) How long would it take a $$ 1.50\times 10^{5} $$-kg airplane with
 engines that produce 100 MW of power to reach a speed of 250
 m/s and an altitude of 12.0 km if air resistance were negligible?
@@ -420,15 +420,15 @@ find the distance the plane travels in 1200 s assuming constant acceleration.)
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Calculate the power output needed for a 950-kg car to climb a $$ 2.00^\circ $$
 slope at a constant 30.0 m/s while encountering wind resistance and friction
 totaling 600 N. Explicitly show how you follow the steps in
 the [Problem-Solving Strategies for Energy](../contents/ch7ConservationOfEnergy.md#fs-id2025907).
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 Identify knowns: $$ m=950 \kg $$, $$ \text{slope angle}\theta =2.00^\circ $$, $$ v=3.00 m/s $$, $$ f=600
 \N $$ Identify unknowns: power $$ P $$ of the car, force $$ F $$ that car
 applies to road
@@ -454,8 +454,8 @@ About 28 kW (or about 37 hp) is reasonable for a car to climb a gentle incline.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) Calculate the power per square meter reaching Earth’s upper atmosphere
 from the Sun. (Take the power output of the Sun to be $$ 4.00\times 10^{26}
 \text{W}$$.)
@@ -474,10 +474,10 @@ energy needs $$ \left(6.3\times 10^{19} \J  \right) $$ ?
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 {: #import-auto-id1451344} power
 : the rate at which work is done

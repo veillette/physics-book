@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Define and distinguish between instantaneous acceleration, average acceleration, and deceleration.
 * Calculate acceleration given initial time, initial velocity, final time, and final velocity.
 
@@ -17,18 +17,18 @@ in direction to its velocity. (credit: Steve Conry, Flickr)")
 
 In everyday conversation, to accelerate means to speed up. The accelerator in a
 car can in fact cause it to speed up. The greater the **acceleration**{:
-data-type="term" #import-auto-id1298945} , the greater the change in velocity
+class="term" #import-auto-id1298945} , the greater the change in velocity
 over a given time. The formal definition of acceleration is consistent with
 these notions, but more inclusive.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Average Acceleration
 </div>
 
-**Average Acceleration**{: data-type="term" #import-auto-id2580108} is *the rate at which velocity changes*,
+**Average Acceleration**{: class="term" #import-auto-id2580108} is *the rate at which velocity changes*,
 
-<div data-type="equation" id="import-auto-id4040806">
+<div class="equation" id="import-auto-id4040806">
  $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{ v_{f}-v_{0}}{ t_{f}-t_{0}}, $$
 </div>
 where $$ \overline{a} $$ is average acceleration, $$ v $$ is velocity, and $$ t $$
@@ -49,8 +49,8 @@ quicker you turn, the greater the acceleration. So there is an acceleration when
 velocity changes either in magnitude (an increase or decrease in speed)
 or in direction, or both.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Acceleration as a Vector
 </div>
 Acceleration is a vector in the same direction as the *change* in velocity, $$ \Delta v $$.
@@ -62,13 +62,13 @@ Acceleration is therefore a change in either speed or direction, or both.
 Keep in mind that although acceleration is in the direction of the *change* in
 velocity, it is not always in the direction of *motion*. When an object slows
 down, its acceleration is opposite to the direction of its motion. This is known
-as **deceleration**{: data-type="term" #import-auto-id3583719}.
+as **deceleration**{: class="term" #import-auto-id3583719}.
 
 ![A subway train arriving at a station. A velocity vector arrow points along the track away from the train. An acceleration vector arrow points along the track toward the train.](../resources/Figure_02_04_00a.jpg "A subway train in Sao Paulo, Brazil, decelerates as it comes into a station. It is accelerating in a direction opposite to its direction of motion. (credit: Yusuke Kawasaki, Flickr)")
 {: #import-auto-id1515319}
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Misconception Alert: Deceleration vs. Negative Acceleration
 </div>
 Deceleration always refers to acceleration in the direction opposite to the
@@ -102,8 +102,8 @@ in the same direction as its motion, it is speeding up (not decelerating).")
 
 </div>
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating Acceleration: A Racehorse Leaves the Gate
 </div>
 A racehorse coming out of the gate accelerates from rest to a velocity of 15.0 m/s due west in 1.80 s. What is its average acceleration?
@@ -139,7 +139,7 @@ s} $$.
 3\. Plug in the known values ( $$ \Delta v $$ and $$ \Delta t $$)
 and solve for the unknown $$ \overline{a} $$.
 
-<div data-type="equation" id="import-auto-id2400983">
+<div class="equation" id="import-auto-id2400983">
  $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{-15.0 \ms }{1.80 \s }=-8.33 \mss . $$
 </div>
 
@@ -157,7 +157,7 @@ with a force nearly equal to his weight.
 
 ### Instantaneous Acceleration
 
-**Instantaneous acceleration**{: data-type="term" #import-auto-id2303194} $$ a
+**Instantaneous acceleration**{: class="term" #import-auto-id2303194} $$ a
 $$, or the *acceleration at a specific instant in time*, is obtained by the same
 process as discussed for instantaneous velocity
 in [Time, Velocity, and Speed](../contents/ch2TimeVelocityAndSpeed.md)—that is, by considering an
@@ -202,8 +202,8 @@ used simply to
 distinguish between displacement in the two different situations. The distances of travel and the size of the cars are on different scales to fit everything into the diagram.)")
 {: #import-auto-id2590556}
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating Displacement: A Subway Train
 </div>
 What are the magnitude and sign of displacements for the motions of the subway train shown in parts (a) and (b) of [[Figure]](#import-auto-id2590556)?
@@ -224,12 +224,12 @@ and $$ x_{0}=4.70 \text{km} $$ for part (a), and $$ x^{\prime}_{f}=3.75
 
 2\. Solve for displacement in part (a).
 
-<div data-type="equation" id="import-auto-id2400875">
+<div class="equation" id="import-auto-id2400875">
  $$ \Delta x=x_{f}-x_{0}=6.70 \text{km}-4.70 \text{km}=+2.00 \text{km} $$
 </div>
 3\. Solve for displacement in part (b).
 
-<div data-type="equation" id="import-auto-id2589758">
+<div class="equation" id="import-auto-id2589758">
  $$ \Delta x^{\prime} =x^{\prime}_{f}-x^{\prime}_{0}=3.75 \text{km}-5.25 \text{km}=-1.50 \text{km} $$
 </div>
 
@@ -241,8 +241,8 @@ has a negative sign.
 
 </div>
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Comparing Distance Traveled with Displacement: A Subway Train
 </div>
 What are the distances traveled for the motions shown in parts (a) and (b) of the subway train in [[Figure]](#import-auto-id2590556)?
@@ -274,8 +274,8 @@ Distance is a scalar. It has magnitude but no sign to indicate direction.
 
 </div>
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating Acceleration: A Subway Train Speeding Up
 </div>
 Suppose the train in [[Figure]](#import-auto-id2590556)(a) accelerates from rest to 30.0 km/h in the first 20.0 s of its motion. What is its average acceleration during that time interval?
@@ -303,13 +303,13 @@ to the right.
 
 3\. Plug in known values and solve for the unknown, $$ \overline{a} $$.
 
-<div data-type="equation" id="import-auto-id2412947">
+<div class="equation" id="import-auto-id2412947">
  $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{+30.0 \text{km/h}}{20.0 s} $$
 </div>
 4\. Since the units are mixed (we have both hours and seconds for time), we need to convert everything into SI 
 units of meters and seconds. (See [Physical Quantities and Units](../contents/ch1PhysicalQuantitiesAndUnits.md) for more guidance.)
 
-<div data-type="equation" id="import-auto-id2297812">
+<div class="equation" id="import-auto-id2297812">
  $$ \overline{a}=\left(\frac{+30 \text{km/h}}{20.0 \s }\right)\left(\frac{ 10^{3}\m }{1 \text{km}}\right)\left(\frac{1 \text{h}}{3600 \s }\right)=0.417 \mss $$
 </div>
 
@@ -322,8 +322,8 @@ velocity, as is always the case.
 
 </div>
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculate Acceleration: A Subway Train Slowing Down
 </div>
 Now suppose that at the end of its trip, the train in [[Figure]](#import-auto-id2590556)(a) slows to a stop from a speed of 30.0 km/h in 8.00 s. What is its average acceleration while stopping?
@@ -344,17 +344,17 @@ velocity and the change in time and then solve for acceleration.
 
 2\. Solve for the change in velocity, $$ \Delta v $$.
 
-<div data-type="equation" id="import-auto-id2586229">
+<div class="equation" id="import-auto-id2586229">
  $$ \Delta v=v_{f}-v_{0}=0-30.0 \text{km/h}=-30.0 \text{km/h} $$
 </div>
 3\. Plug in the knowns, $$ \Delta v $$ and $$ \Delta t $$, and solve for $$ \overline{a} $$.
 
-<div data-type="equation" id="import-auto-id2412874">
+<div class="equation" id="import-auto-id2412874">
  $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{-30.0 \text{km/h}}{8.00 \s } $$
 </div>
 4\. Convert the units to meters and seconds.
 
-<div data-type="equation" id="import-auto-id2596926">
+<div class="equation" id="import-auto-id2596926">
  $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\left(\frac{-30.0 \text{km/h}}{8.00 \s }\right)\left(\frac{ 10^{3}\m }{1 \text{km}}\right)\left(\frac{1 \text{h}}{3600 \s }\right)
 =−1.04 \mss . $$
 </div>
@@ -381,8 +381,8 @@ constant from 20 to 40 s, after which the train decelerates.)
 (c) The acceleration of the train over time. The train has positive acceleration as it speeds up at the beginning of the journey. It has no acceleration as it travels at constant velocity in the middle of the journey. Its acceleration is negative as it slows down at the end of the journey.")
 {: #import-auto-id2596938}
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating Average Velocity: The Subway Train
 </div>
 What is the average velocity of the train in part b of [[Figure]](#fs-id1744930), and shown again below, if it takes 5.00 min to make its trip?
@@ -405,12 +405,12 @@ x^{\prime} $$ to be $$ -1.5 \text{km} $$ in [[Figure]](#fs-id1744930).
 
 3\. Solve for average velocity.
 
-<div data-type="equation" id="import-auto-id2338961">
+<div class="equation" id="import-auto-id2338961">
  $$ \overline{v}=\frac{ \Delta x^{\prime} }{\Delta t}=\frac{-1.50 \text{km}}{5.00 \text{min}} $$
 </div>
 4\. Convert units.
 
-<div data-type="equation" id="import-auto-id2338968">
+<div class="equation" id="import-auto-id2338968">
  $$ \overline{v}=\frac{ \Delta x^{\prime} }{\Delta t}=\left(\frac{-1.50 \text{km}}{5.00 \text{min}}\right)\left(\frac{60 \text{min}}{1 h}\right)=-18.0 \text{km/h} $$
 </div>
 
@@ -420,8 +420,8 @@ The negative velocity indicates motion to the left.
 
 </div>
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating Deceleration: The Subway Train
 </div>
 Finally, suppose the train in [[Figure]](#import-auto-id2412190) slows to a stop from a velocity of 20.0 km/h in 10.0 s. What is its average acceleration?
@@ -444,19 +444,19 @@ calculate average acceleration.
 2\. Calculate $$ \Delta v $$. The change in velocity here is actually positive,
 since
 
-<div data-type="equation" id="import-auto-id2581122">
+<div class="equation" id="import-auto-id2581122">
  $$ \Delta v=v_{f}-v_{0}=0-\left(-20 \text{km/h}\right)= +20 \text{km/h}. $$
 </div>
 3\. Solve for $$ \overline{a} $$.
 
-<div data-type="equation" id="import-auto-id2585925">
+<div class="equation" id="import-auto-id2585925">
  $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{+20.0 \text{km/h}}{10.0
 \s }
 $$
 </div>
 4\. Convert units.
 
-<div data-type="equation" id="import-auto-id2581171">
+<div class="equation" id="import-auto-id2581171">
  $$ \overline{a}=\left(\frac{+20.0 \text{km/h}}{10.0 \s }\right)\left
 (\frac{ 10^{3} \m }{1 \text{km}}\right)\left(\frac{1 \text{h}}{3600 \text
 {s}}\right)=+0.556 \mss $$
@@ -491,28 +491,28 @@ minus signs give the directions of the accelerations. If acceleration has the
 same sign as the velocity, the object is speeding up. If acceleration has the
 opposite sign as the velocity, the object is slowing down.
 
-<div data-type="exercise" data-element-type="check-understanding" data-label="">
-<div data-type="title">
+<div class="exercise" data-element-type="check-understanding" data-label="">
+<div class="title">
 Check Your Understanding
 </div>
-<div data-type="problem" markdown="1">
+<div class="problem" markdown="1">
 An airplane lands on a runway traveling east. Describe its acceleration.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 If we take east to be positive, then the airplane has negative acceleration, as it is accelerating toward the west. It is also decelerating: its acceleration is opposite in direction to its velocity.
 
 </div>
 </div>
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 PhET Explorations: Moving Man Simulation
 </div>
 Learn about position, velocity, and acceleration graphs. Move the little man back and forth with the mouse and plot his motion. Set the position, velocity, or acceleration and let the simulation move the man for you.
 
 <figure markdown="1" id="eip-id2056703">
-<div data-type="cnxsim">
+<div class="cnxsim">
 <iframe src="https://veillette.github.io/simulations/moving-man/" width="750" height="500"  allowfullscreen></iframe>
 <figcaption>
 Moving Man
@@ -524,8 +524,8 @@ Moving Man
 ### Section Summary
 
 * {: #import-auto-id2412645} Acceleration is the rate at which velocity changes.
-  In symbols, **average acceleration**{: data-type="term"} $$ \overline{a} $$ is
-  <div data-type="equation" id="import-auto-id2412659">
+  In symbols, **average acceleration**{: class="term"} $$ \overline{a} $$ is
+  <div class="equation" id="import-auto-id2412659">
  $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{ v_{f}-v_{0}}{ t_{f}-t_{0}}. $$
   </div>
 
@@ -541,36 +541,36 @@ Moving Man
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Is it possible for speed to be constant while acceleration is not zero? Give an example of such a situation.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Is it possible for velocity to be constant while acceleration is not zero? Explain.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Give an example in which velocity is zero yet acceleration is not.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 If a subway train is moving to the left (has a negative velocity) and then comes to a stop, what is the direction of its acceleration? Is the acceleration positive or negative?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Plus and minus signs are used in one-dimensional motion to indicate direction. What is the sign of an acceleration that reduces the magnitude of a negative velocity? Of a positive velocity?
 
 </div>
@@ -578,19 +578,19 @@ Plus and minus signs are used in one-dimensional motion to indicate direction. W
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A cheetah can accelerate from rest to a speed of 30.0 m/s in 7.00 s. What is its acceleration?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 4.29\mss $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -605,31 +605,31 @@ gravity.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A commuter backs her car out of her garage with an acceleration of $$ 1.40 \mss $$.
 (a) How long does it take her to reach a speed of 2.00 m/s?
 (b) If she then brakes to a stop in 0.800 s, what is her deceleration?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 1.43 \s $$
 
 (b) $$ -2.50\mss $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Assume that an intercontinental ballistic missile goes from rest to a suborbital speed of 6.50 km/s in 60.0 s (the actual speed and time are classified). What is its average acceleration in $$ \mss $$ and in multiples of $$ g $$
 $$ \left(9.80 \mss \right)? $$
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 acceleration
 : the rate of change in velocity; the change in velocity over time
@@ -649,5 +649,3 @@ in a decrease in velocity
 {: #import-auto-id2412635}
 
 </div>
-
-[1]: https://archive.cnx.org/specials/e2ca52af-8c6b-450e-ac2f-9300b38e8739/moving-man/

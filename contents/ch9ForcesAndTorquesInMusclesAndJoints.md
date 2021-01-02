@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Explain the forces exerted by muscles.
 * State how a bad posture causes back strain.
 * Discuss the benefits of skeletal muscles attached close to joints.
@@ -33,8 +33,8 @@ output force, as seen in [[Figure]](#import-auto-id2793101).
 ![A forearm of a person holding a physics book is shown. The biceps and triceps muscles of the arm are visible. The elbow joint is the pivot point. The upper part of the arm is vertical and the lower part is horizontal. Biceps muscles are applying a force F B upward. The vertical bone of hand exerts a force F E on the pivot. At the midpoint of the lower part of the hand, the center of gravity of the hand is shown where the weight of the hand acts. The midpoint of the front face of the book is its center of gravity, where its weight acts downward. A free body diagram is also shown and the distances of the three forces F-B, C-G of arm, and C-G of book from the pivot are shown as r one, r two and r three.](../resources/Figure_10_06_01a.jpg "(a) The figure shows the forearm of a person holding a book. The biceps exert a force &#10; &#10; &#10; F&#10; B&#10; &#10; &#10;&#10;&#10;to support the weight of the forearm and the book. The triceps are assumed to be relaxed. (b) Here, you can view an approximately equivalent mechanical system with the pivot at the elbow joint as seen in [link].")
 {: #import-auto-id2793101}
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Muscles Exert Bigger Forces Than You Might Think
 </div>
 Calculate the force the biceps muscle must exert to hold the forearm and its load as shown in [[Figure]](#import-auto-id2793101), and compare this force with the weight of the forearm plus its load. You may take the data in the figure to be accurate to three significant figures.
@@ -57,31 +57,31 @@ The torques created by the weights are clockwise relative to the pivot, while
 the torque created by the biceps is counterclockwise; thus, the second condition
 for equilibrium $$ \left(\text{net}\tau =0 \right) $$ becomes
 
-<div data-type="equation" id="eip-950">
+<div class="equation" id="eip-950">
  $$ r_{2} w_{\text{a}}+ r_{3} w_{\text{b}}= r_{1} F_{\text{B}}. $$
 </div>
 Note that $$ \sin{\theta} =1 $$ for all forces, since $$ \theta =90^\circ $$
 for all forces. This equation can easily be solved for $$ F_{\text{B}} $$
 in terms of known quantities, yielding
 
-<div data-type="equation" id="eip-574">
+<div class="equation" id="eip-574">
  $$ F_{\text{B}}=\frac{ r_{2} w_{\text{a}}+ r_{3} w_{\text{b}}}{ r_{1}}. $$
 </div>
 Entering the known values gives
 
-<div data-type="equation" id="eip-311">
+<div class="equation" id="eip-311">
  $$ F_{\text{B}}=\frac{ \left(0.160\m \right)\left(2.50\kg \right)\left(9.80\mss \right)+\left(0.380\m \right)\left(4.00\kg \right)\left(9.80\mss \right)}{0.0400\m } $$
 </div>
 which yields
 
-<div data-type="equation" id="eip-232">
+<div class="equation" id="eip-232">
  $$ F_{\text{B}}=470 \N . $$
 </div>
 Now, the combined weight of the arm and its load is
 $$ \left(6.50 \kg \right)\left(9.80\mss \right)=63.7 \N $$,
 so that the ratio of the force exerted by the biceps to the total weight is
 
-<div data-type="equation" id="eip-476">
+<div class="equation" id="eip-476">
  $$ \frac{ F_{\text{B}}}{ w_{\text{a}}+ w_{\text{b}}}=
 \frac{470}{63.7}=7.38. $$
 </div>
@@ -185,8 +185,8 @@ spine.
 (c) Another student carrying a load of books in her arms leans backward for the same reason.")
 {: #import-auto-id3039508}
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Do Not Lift with Your Back
 </div>
 Consider the person lifting a heavy box with his back, shown in
@@ -212,17 +212,17 @@ created by $$ \vb{w}_{\text{ub}} $$ and $$ \vb{w}_
 Using the perpendicular lever arms given in the figure, the second condition for
 equilibrium $$ \left( \text{net}\tau =0 \right) $$ becomes
 
-<div data-type="equation" id="eip-780">
+<div class="equation" id="eip-780">
  $$ \left(0.350 \m \right)\left(55.0 \kg \right)\left(9.80\mss \right)+\left(0.500 \m \right)\left(30.0 \kg \right)\left(9.80\mss \right)=\left(0.0800 \m \right) F_{\text{B}}. $$
 </div>
 Solving for $$ F_{\text{B}} $$ yields
 
-<div data-type="equation" id="eip-826">
+<div class="equation" id="eip-826">
  $$ F_{\text{B}}=4.20\times 10^{3}\N . $$
 </div>
 The ratio of the force the back muscles exert to the weight of the upper body plus its load is
 
-<div data-type="equation" id="eip-864">
+<div class="equation" id="eip-864">
  $$ \frac{ F_{\text{B}}}{ w_{\text{ub}}+ w_{\text{box}}}=\frac{4200 \N }{833 \N }=5.04. $$
 </div>
 This force is considerably larger than it would be if the load were not present.
@@ -235,17 +235,17 @@ can be used to find its magnitude and direction. Using $$ y $$ for vertical
 and $$ x $$ for horizontal, the condition for the net external forces along
 those axes to be zero
 
-<div data-type="equation" id="eip-349">
+<div class="equation" id="eip-349">
  $$ \text{net} F_{y}=0\text{ and }\text{net} F_{x}=0. $$
 </div>
 Starting with the vertical ($$ y $$) components, this yields
 
-<div data-type="equation" id="eip-486">
+<div class="equation" id="eip-486">
  $$ F_{\text{V}y}- w_{\text{ub}}-w_{\text{box}}- F_{\text{B}} \sin{29.0^\circ }=0. $$
 </div>
 Thus,
 
-<div data-type="equation" id="eip-325">
+<div class="equation" id="eip-325">
  $$ \begin{array}{lll}
 F_{\text{V}y}& =& w_{\text{ub}}+w_{\text{box}}+ F_{\text{B}}
 \sin{29.0^\circ }\\
@@ -254,33 +254,33 @@ F_{\text{V}y}& =& w_{\text{ub}}+w_{\text{box}}+ F_{\text{B}}
 </div>
 yielding
 
-<div data-type="equation" id="eip-600">
+<div class="equation" id="eip-600">
  $$ F_{\text{V}y}=2.87\times 10^{3}\N . $$
 </div>
 Similarly, for the horizontal ( $$ x $$ ) components,
 
-<div data-type="equation" id="eip-341">
+<div class="equation" id="eip-341">
  $$ F_{\text{V}x}- F_{\text{B}}\cos{29.0^\circ }=0 $$
 </div>
 yielding
 
-<div data-type="equation" id="eip-425">
+<div class="equation" id="eip-425">
  $$ F_{\text{V}x}=3.67\times 10^{3}\N . $$
 </div>
 The magnitude of $$ \vb{F}_{\text{V}} $$
 is given by the Pythagorean theorem:
 
-<div data-type="equation" id="eip-797">
+<div class="equation" id="eip-797">
  $$ F_{\text{V}}=\sqrt{ F_{\text{V}x}^{2}+ F_{\text{V}y}^{2}}=4.66\times 10^{3}\N . $$
 </div>
 The direction of $$ \vb{F}_{\text{V}} $$ is
 
-<div data-type="equation" id="eip-29">
+<div class="equation" id="eip-29">
  $$ \theta ={\tan}^{-1}\left(\frac{ F_{\text{V}y}}{ F_{\text{V}x}}\right)=38.0^\circ. $$
 </div>
 Note that the ratio of $$ F_{\text{V}} $$ to the weight supported is
 
-<div data-type="equation" id="eip-142">
+<div class="equation" id="eip-142">
  $$ \frac{ F_{\text{V}}}{ w_{\text{ub}}+w_{\text{box}}}=\frac{4660 \N }{833 \N }=5.59. $$
 </div>
 
@@ -329,50 +329,50 @@ torque in the body—a few of these are the subject of end-of-chapter problems.
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Why are the forces exerted on the outside world by the limbs of our bodies usually much smaller than the forces exerted by muscles inside the body?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Explain why the forces in our joints are several times larger than the forces we exert on the outside world with our limbs. Can these forces be even greater than muscle forces?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Certain types of dinosaurs were bipedal (walked on two legs). What is a good reason that these creatures invariably had long tails if they had long necks?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Swimmers and athletes during competition need to go through certain postures at the beginning of the race. Consider the balance of the person and why start-offs are so important for races.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 If the maximum force the biceps muscle can exert is 1000 N, can we pick up an object that weighs 1000 N? Explain your answer.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Suppose the biceps muscle was attached through tendons to the upper arm close to the elbow and the forearm near the wrist. What would be the advantages and disadvantages of this type of construction for the motion of the arm?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Explain one of the reasons why pregnant women often suffer from back strain late in their pregnancy.
 
 </div>
@@ -380,12 +380,12 @@ Explain one of the reasons why pregnant women often suffer from back strain late
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Verify that the force in the elbow joint in [[Figure]](#fs-id1169737940047) is 407 N, as stated in the text.
 
 </div>
-<div data-type="solution" data-element-type="problems-exercises" markdown="1">
+<div class="solution" data-element-type="problems-exercises" markdown="1">
  $$ \begin{array}{lll}
 F_{\text{B}}& =& 470 \N ;r_{1}=4.00 \text{cm};
 w_{\text{a}}=2.50 \kg ; r_{2}= 16.0 \text{cm};
@@ -403,8 +403,8 @@ F_{\text{E}}& =& w_{\text{a}}
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Two muscles in the back of the leg pull on the Achilles tendon as shown in [[Figure]](#import-auto-id1344427). What total force do they exert?
 
 ![An Achilles tendon is shown in the figure. A vertical dotted line is shown at the middle of the top part. Two vectors inclined at twenty degree each with respect to the vertical dotted line are shown.](../resources/Figure_10_06_05a.jpg "The Achilles tendon of the posterior leg serves to attach plantaris, gastrocnemius, and soleus muscles to calcaneus bone.")
@@ -413,23 +413,23 @@ Two muscles in the back of the leg pull on the Achilles tendon as shown in [[Fig
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 The upper leg muscle (quadriceps) exerts a force of 1250 N, which is carried by a tendon over the kneecap (the patella) at the angles shown in [[Figure]](#import-auto-id1219605). Find the direction and magnitude of the force exerted by the kneecap on the upper leg bone (the femur).
 
 ![The figure shows a side view of the bones of a knee and the quadriceps muscle. The upper bone is inclined at fifty five degrees to the horizontal and the tension exerted by the quadriceps muscle is one thousand two hundred and fifty newtons. The tendon from the knee cap to the lower bone is inclined at seventy five degrees below the horizontal. The force in this direction is the same as that provided by the quadriceps.](../resources/Figure_10_06_06a.jpg "The knee joint works like a hinge to bend and straighten the lower leg. It permits a person to sit, stand, and pivot.")
 {: #import-auto-id1219605}
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ \begin{array}{c}1.1\times 10^{3}\N \\ \theta =190^\circ\text{ccw from positive}x\text{axis}
 \end{array} $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A device for exercising the upper leg muscle is shown in [[Figure]](#import-auto-id794844), together with a schematic representation of an equivalent lever system.
 Calculate the force exerted by the upper leg muscle to lift the mass at a constant speed. Explicitly show how you follow the steps in the Problem-Solving Strategy for static equilibrium 
 in [Applications of Statics, Including Problem-Solving Strategies]
@@ -441,8 +441,8 @@ in [Applications of Statics, Including Problem-Solving Strategies]
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A person working at a drafting board may hold her head as shown in [[Figure]](#import-auto-id2576232), requiring muscle action to support the head. The three major acting forces are shown. Calculate the direction and magnitude of the force supplied by the upper vertebrae $$ \vb{F}_{\text{V}} $$ to hold the head stationary, assuming that this force acts along a line through
 the center of mass as do the weight and muscle force.
 
@@ -450,14 +450,14 @@ the center of mass as do the weight and muscle force.
 {: #import-auto-id2576232 height="275"}
 
 </div>
-<div data-type="solution" data-element-type="problem-exercises" markdown="1">
+<div class="solution" data-element-type="problem-exercises" markdown="1">
  $$ F_{\text{V}}=97\text{N,}\theta =59^\circ $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 We analyzed the biceps muscle example with the angle between forearm and upper arm set at $$ 90^\circ $$. Using the same numbers as in [[Figure]](#fs-id1169737940047), find the force
 exerted by the biceps muscle when the angle is $$ 120^\circ $$
 and the forearm is in a downward position.
@@ -465,8 +465,8 @@ and the forearm is in a downward position.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Even when the head is held erect, as in [[Figure]](#import-auto-id1297271), its center of mass is not directly over the principal point of support (the atlanto-occipital joint). The muscles at the back of the neck should therefore exert a force to keep the head erect. That is why your head falls forward when you fall asleep in the class.
 (a) Calculate the force exerted by these muscles using the information in the figure.
 (b) What is the force exerted by the pivot on the head?
@@ -475,7 +475,7 @@ Even when the head is held erect, as in [[Figure]](#import-auto-id1297271), its 
 {: #import-auto-id1297271}
 
 </div>
-<div data-type="solution" data-element-type="problem-exercises" markdown="1">
+<div class="solution" data-element-type="problem-exercises" markdown="1">
 (a) 25 N downward
 
 (b) 75 N upward
@@ -483,8 +483,8 @@ Even when the head is held erect, as in [[Figure]](#import-auto-id1297271), its 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A 75-kg man stands on his toes by exerting an upward force through the Achilles tendon, as in [[Figure]](#import-auto-id3514813).
 (a) What is the force in the Achilles tendon if he stands on one foot?
 (b) Calculate the force at the pivot of the simplified lever system shown—that force is representative of forces in the ankle joint.
@@ -493,7 +493,7 @@ A 75-kg man stands on his toes by exerting an upward force through the Achilles 
 {: #import-auto-id3514813}
 
 </div>
-<div data-type="solution" data-element-type="problem-exercises" markdown="1">
+<div class="solution" data-element-type="problem-exercises" markdown="1">
 (a) $$ F_{\text{A}}=2.21 \times 10^{3}\N $$ upward
 
 (b) $$ F_{\text{B}}=2.94\times 10^{3}\N $$ downward
@@ -501,8 +501,8 @@ A 75-kg man stands on his toes by exerting an upward force through the Achilles 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A father lifts his child as shown in [[Figure]](#import-auto-id3016714). What force should the upper leg muscle exert to lift the child at a constant speed?
 
 ![A leg of a person is shown. On the foot, a child is sitting. The weight of the child is ten kilograms acting downward. The center of gravity of the leg is shown at the middle part of the lower leg. The knee is acting as the pivot. The mass of the leg is marked as four kilograms. The distance of the head of the child is thirty eight centimeters from the pivot and the perpendicular distance between the center of gravity of the leg and pivot is twenty centimeters.](../resources/Figure_10_06_11a.jpg "A child being lifted by a father&#x2019;s lower leg.")
@@ -511,8 +511,8 @@ A father lifts his child as shown in [[Figure]](#import-auto-id3016714). What fo
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Unlike most of the other muscles in our bodies, the masseter muscle in the jaw, as illustrated in [[Figure]](#import-auto-id1237747),
 is attached relatively far from the joint, enabling large forces to be exerted by the back teeth.
 (a) Using the information in the figure, calculate the force exerted by the lower teeth on the bullet.
@@ -522,7 +522,7 @@ is attached relatively far from the joint, enabling large forces to be exerted b
 {: #import-auto-id1237747}
 
 </div>
-<div data-type="solution" data-element-type="problem-exercises" markdown="1">
+<div class="solution" data-element-type="problem-exercises" markdown="1">
 (a) $$ F_{\text{teeth on bullet}}=1.2\times 10^{2}\N $$ upward
 
 (b) $$ F_{ \J }=84 \N $$ downward
@@ -530,8 +530,8 @@ is attached relatively far from the joint, enabling large forces to be exerted b
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Integrated Concepts**
 
@@ -548,8 +548,8 @@ biceps muscle is still perpendicular to the forearm.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) What force should the woman in [[Figure]](#import-auto-id2573200) exert on the floor with each hand to do a push-up? Assume that she moves up at a constant speed.
 (b) The triceps muscle at the back of her upper arm has an effective lever arm of 1.75 cm, and she exerts force on the floor at a horizontal distance of 20.0 cm from the elbow joint. Calculate the magnitude of the force in each triceps muscle, and compare it to her weight.
 (c) How much work does she do if her center of mass rises 0.240 m?
@@ -559,7 +559,7 @@ biceps muscle is still perpendicular to the forearm.
 {: #import-auto-id2573200}
 
 </div>
-<div data-type="solution" data-element-type="problem-exercises" markdown="1">
+<div class="solution" data-element-type="problem-exercises" markdown="1">
 (a) 147 N downward
 
 (b) 1680 N, 3.4 times her weight
@@ -571,8 +571,8 @@ biceps muscle is still perpendicular to the forearm.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 You have just planted a sturdy 2-m-tall palm tree in your front lawn for your mother’s birthday. Your brother kicks a 500 g ball, which hits the top of the tree at a speed of 5 m/s and stays in contact with it for 10 ms. The ball falls to the ground near the base of the tree and the recoil of the tree is minimal.
 (a) What is the force on the tree?
 (b) The length of the sturdy section of the root is only 20 cm. Furthermore, the soil around the roots is loose and we can assume that an effective force is applied at the tip of the 20 cm length. What is the effective force exerted by the end of the tip of the root to keep the tree from toppling? Assume the tree will be uprooted rather than bend.
@@ -581,8 +581,8 @@ You have just planted a sturdy 2-m-tall palm tree in your front lawn for your mo
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Unreasonable Results**
 
@@ -594,7 +594,7 @@ center of mass over the pivot. The first child has a mass of 30.0 kg and sits
 (c) Which premise is unreasonable, or which premises are inconsistent?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 a) $$ \overline{x_{2}}=2.33 \m $$
 
 b) The seesaw is 3.0 m long, and hence, there is only 1.50 m of board on the
@@ -606,8 +606,8 @@ pivot.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Construct Your Own Problem**
 
