@@ -649,5 +649,3 @@ in a decrease in velocity
 {: #import-auto-id2412635}
 
 </div>
-
-[1]: https://archive.cnx.org/specials/e2ca52af-8c6b-450e-ac2f-9300b38e8739/moving-man/
