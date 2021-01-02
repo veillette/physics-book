@@ -407,8 +407,8 @@ h6:hover .header-link {
   content: "Problem";
 }
 
-.book .book-body .page-wrapper .page-inner [data-type="example"][data-element-type="problems-exercises"] [data-type="solution"]::before .solution::before,
-.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-element-type="problems-exercises"] [data-type="solution"]::before .solution::before {
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-element-type="problems-exercises"] [data-type="solution"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-element-type="problems-exercises"] [data-type="solution"]::before {
   content: "Solution";
 }
 
