@@ -103,24 +103,6 @@ h6:hover .header-link {
   content: 'Figure ' counter(figure) ': ';
 }
 
-.book .book-body .page-wrapper .page-inner ul:not([data-display='inline'])[data-bullet-style="pilcrow"] {
-  list-style-type: none;
-}
-
-.book .book-body .page-wrapper .page-inner ul:not([data-display='inline'])[data-bullet-style="pilcrow"] > li::before {
-  content: '\00b6';
-  margin-right: 0.5em;
-}
-
-.book .book-body .page-wrapper .page-inner ul:not([data-display='inline'])[data-bullet-style="rpilcrow"] {
-  list-style-type: none;
-}
-
-.book .book-body .page-wrapper .page-inner ul:not([data-display='inline'])[data-bullet-style="rpilcrow"] > li::before {
-  content: '\204b';
-  margin-right: 0.5em;
-}
-
 .book .book-body .page-wrapper .page-inner ul:not([data-display='inline'])[data-bullet-style="section"] {
   list-style-type: none;
 }
@@ -203,16 +185,6 @@ h6:hover .header-link {
 
 .book .book-body .page-wrapper .page-inner ul[data-display='inline'][data-item-sep] > .item:not(:last-child)::after {
   content: '; ';
-}
-
-.book .book-body .page-wrapper .page-inner ul[data-display='inline'][data-bullet-style="pilcrow"] > .item::before {
-  content: '\00b6';
-  margin-right: 0.5em;
-}
-
-.book .book-body .page-wrapper .page-inner ul[data-display='inline'][data-bullet-style="rpilcrow"] > .item::before {
-  content: '\204b';
-  margin-right: 0.5em;
 }
 
 .book .book-body .page-wrapper .page-inner ul[data-display='inline'][data-bullet-style="section"] > .item::before {
@@ -302,15 +274,6 @@ h6:hover .header-link {
   content: '; ';
 }
 
-.book .book-body .page-wrapper .page-inner span.list[data-list-type='bulleted'][data-bullet-style="pilcrow"] > .item::before {
-  content: '\00b6';
-  margin-right: 0.5em;
-}
-
-.book .book-body .page-wrapper .page-inner span.list[data-list-type='bulleted'][data-bullet-style="rpilcrow"] > .item::before {
-  content: '\204b';
-  margin-right: 0.5em;
-}
 
 .book .book-body .page-wrapper .page-inner span.list[data-list-type='bulleted'][data-bullet-style="section"] > .item::before {
   content: '\00a7';
