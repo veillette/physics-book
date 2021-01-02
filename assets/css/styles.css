@@ -113,6 +113,36 @@ h6:hover .header-link {
   content: '; ';
 }
 
+.abstract{
+  margin: 30px 6rem 0 6rem;
+  padding: 15px;
+  background-color: #cfd4dd;
+}
+
+.abstract::before{
+  margin: 2px 6rem 0 6rem;
+  padding: 1px;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #383a3c;
+  content: "Learning Outcomes:"
+}
+
+.glossary{
+  margin: 30px 6rem 0 6rem;
+  padding: 15px;
+  background-color: #cfd4dd;
+}
+
+.glossary-title{
+  display: inline-block;
+  color: #2c2c2f;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 .book .book-body .page-wrapper .page-inner .note {
   margin: 30px 6rem 0 6rem;
   padding: 15px;
