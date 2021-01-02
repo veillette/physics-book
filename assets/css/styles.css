@@ -1,66 +1,66 @@
 .summary li:not(.visited) > .fa-check {
-  display: none !important;
+    display: none !important;
 }
 
 .summary li.visited > .fa-check {
-  display: inline-block !important;
-  right: auto !important;
-  top: auto !important;
+    display: inline-block !important;
+    right: auto !important;
+    top: auto !important;
 }
 
 section.normal > .title {
-  font-weight: bold;
-  font-size: 2.5em;
+    font-weight: bold;
+    font-size: 2.5em;
 }
 
 .book.loading .book-title {
-  display: none;
+    display: none;
 }
 
 .book:not(.loading) .book-spinner {
-  display: none;
+    display: none;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal {
 }
 
 .book .book-body .page-wrapper .page-inner section.normal {
-  counter-reset: figure note exercise example table;
+    counter-reset: figure note exercise example table;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal img[alt^='QR'] {
-  display: none;
+    display: none;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal *[data-type='abstract'] {
-  display: none;
+    display: none;
 }
 
 /* When the URL refers to in-page elements make them stand out a bit */
 :target {
-  background-color: #ffd;
+    background-color: #ffd;
 }
 
 /* styles for tags page */
 .inline-list li {
-  list-style-type: none;
-  display: inline-block;
+    list-style-type: none;
+    display: inline-block;
 }
 
 .inline-list li:not(:last-child):after {
-  content: ', ';
+    content: ', ';
 }
 
 .list-entry li {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 .header-link {
-  position: absolute;
-  left: -1em;
-  opacity: 0;
-  -webkit-transition: opacity 0.2s ease-in-out 0.1s;
-  -moz-transition: opacity 0.2s ease-in-out 0.1s;
+    position: absolute;
+    left: -1em;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s ease-in-out 0.1s;
+    -moz-transition: opacity 0.2s ease-in-out 0.1s;
 }
 
 h1:hover .header-link,
@@ -69,460 +69,459 @@ h3:hover .header-link,
 h4:hover .header-link,
 h5:hover .header-link,
 h6:hover .header-link {
-  opacity: 1;
-  color: black !important;
+    opacity: 1;
+    color: black !important;
 }
 
 .book .book-body .book-progress .bar {
-  height: 10px;
+    height: 10px;
 }
 
 .book .book-body .page-wrapper .page-inner {
-  max-width: calc(100% - 250px);
+    max-width: calc(100% - 250px);
 }
 
 .book .book-body .page-wrapper .page-inner figure {
-  display: table;
-  width: 100%;
-  counter-increment: figure;
+    display: table;
+    width: 100%;
+    counter-increment: figure;
 }
 
 .book .book-body .page-wrapper .page-inner figure > [data-type='title'] {
-  font-weight: bold;
-  font-size: small;
+    font-weight: bold;
+    font-size: small;
 }
 
 .book .book-body .page-wrapper .page-inner figure > figcaption {
-  display: table-caption;
-  caption-side: bottom;
-  font-size: small;
+    display: table-caption;
+    caption-side: bottom;
+    font-size: small;
 }
 
 .book .book-body .page-wrapper .page-inner figure > figcaption::before {
-  font-weight: bold;
-  content: 'Figure ' counter(figure) ': ';
+    font-weight: bold;
+    content: 'Figure ' counter(figure) ': ';
 }
-
 
 
 .book .book-body .page-wrapper .page-inner span.list[data-list-type='labeled-item']:not([data-item-sep]) > .item:not(:last-child)::after {
-  content: '; ';
+    content: '; ';
 }
 
 .book .book-body .page-wrapper .page-inner span.list[data-list-type='labeled-item'][data-item-sep] > .item:not(:last-child)::after {
-  content: '; ';
+    content: '; ';
 }
 
-.abstract{
-  margin: 30px 6rem 0 6rem;
-  padding: 15px;
-  background-color: #cfd4dd;
+.abstract {
+    margin: 30px 6rem 0 6rem;
+    padding: 15px;
+    background-color: #cfd4dd;
 }
 
-.abstract::before{
-  margin: 2px 6rem 0 6rem;
-  padding: 1px;
-  font-size: 1.8rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #383a3c;
-  content: "Learning Outcomes:"
+.abstract::before {
+    margin: 2px 6rem 0 6rem;
+    padding: 1px;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #383a3c;
+    content: "Learning Outcomes:"
 }
 
-.glossary{
-  margin: 30px 6rem 0 6rem;
-  padding: 15px;
-  background-color: #cfd4dd;
+.glossary {
+    margin: 30px 2rem 0 6rem;
+    padding: 10px 20px;
+    background-color: #cfd4dd;
 }
 
-.glossary-title{
-  display: inline-block;
-  color: #2c2c2f;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+.glossary-title {
+    display: inline-block;
+    color: #2c2c2f;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .book .book-body .page-wrapper .page-inner .note {
-  margin: 30px 6rem 0 6rem;
-  padding: 15px;
-  background-color: #ededed;
+    margin: 30px 6rem 0 6rem;
+    padding: 15px;
+    background-color: #ededed;
 }
 
 .book .book-body .page-wrapper .page-inner .note:not([data-label]).ui-has-child-title > header > .title,
 .book .book-body .page-wrapper .page-inner .note:not([data-label]).ui-has-child-title > .title {
-  display: inline-block;
-  color: #555555;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+    display: inline-block;
+    color: #555555;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .book .book-body .page-wrapper .page-inner .note:not([data-label]).ui-has-child-title > header > .title::before,
 .book .book-body .page-wrapper .page-inner .note:not([data-label]).ui-has-child-title > .title::before {
-  content: 'Note: ';
+    content: 'Note: ';
 }
 
 .book .book-body .page-wrapper .page-inner .note:not([data-label]):not(.ui-has-child-title)::before {
-  display: inline-block;
-  color: #555555;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  content: 'Note';
+    display: inline-block;
+    color: #555555;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    content: 'Note';
 }
 
 .book .book-body .page-wrapper .page-inner .note[data-label=''].ui-has-child-title > header > .title,
 .book .book-body .page-wrapper .page-inner .note[data-label=''].ui-has-child-title > .title {
-  display: inline-block;
-  color: #555555;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+    display: inline-block;
+    color: #555555;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .book .book-body .page-wrapper .page-inner .note[data-label='']:not(.ui-has-child-title)::before {
-  display: inline-block;
-  color: #555555;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+    display: inline-block;
+    color: #555555;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .book .book-body .page-wrapper .page-inner .note[data-label]:not([data-label='']).ui-has-child-title > header > .title,
 .book .book-body .page-wrapper .page-inner .note[data-label]:not([data-label='']).ui-has-child-title > .title {
-  display: inline-block;
-  color: #555555;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+    display: inline-block;
+    color: #555555;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .book .book-body .page-wrapper .page-inner .note[data-label]:not([data-label='']).ui-has-child-title > header > .title::before,
 .book .book-body .page-wrapper .page-inner .note[data-label]:not([data-label='']).ui-has-child-title > .title::before {
-  content: attr(data-label-parent) ': ';
+    content: attr(data-label-parent) ': ';
 }
 
 .book .book-body .page-wrapper .page-inner .note[data-label]:not([data-label='']):not(.ui-has-child-title)::before {
-  display: inline-block;
-  color: #555555;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  content: attr(data-label);
+    display: inline-block;
+    color: #555555;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    content: attr(data-label);
 }
 
 .book .book-body .page-wrapper .page-inner .note > section {
-  padding: 5px 15px;
-  border-top: 1px solid #555555;
-  background-color: #ededed;
+    padding: 5px 15px;
+    border-top: 1px solid #555555;
+    background-color: #ededed;
 }
 
 .book .book-body .page-wrapper .page-inner .example {
-  margin-top: 30px;
-  counter-increment: example;
+    margin-top: 30px;
+    counter-increment: example;
 }
 
 .book .book-body .page-wrapper .page-inner .example:not([data-label]).ui-has-child-title > header > .title,
 .book .book-body .page-wrapper .page-inner .example:not([data-label]).ui-has-child-title > .title {
-  display: inline-block;
-  padding: 0.1em 1em;
-  font-weight: bold;
-  color: #00e2cf;
-  background-color: #00432f;
+    display: inline-block;
+    padding: 0.1em 1em;
+    font-weight: bold;
+    color: #00e2cf;
+    background-color: #00432f;
 }
 
-.book .book-body .page-wrapper .page-inner .example:not([data-label]).ui-has-child-title > header > .title::before{
-  content: 'Example ' counter(example) ': ';
+.book .book-body .page-wrapper .page-inner .example:not([data-label]).ui-has-child-title > header > .title::before {
+    content: 'Example ' counter(example) ': ';
 }
 
-.book .book-body .page-wrapper .page-inner .example:not([data-label]):not(.ui-has-child-title)::before{
-  display: inline-block;
-  padding: 0.1em 1em;
-  font-weight: bold;
-  color: #ededed;
-  background-color: #555555;
-  content: 'Example';
+.book .book-body .page-wrapper .page-inner .example:not([data-label]):not(.ui-has-child-title)::before {
+    display: inline-block;
+    padding: 0.1em 1em;
+    font-weight: bold;
+    color: #ededed;
+    background-color: #555555;
+    content: 'Example';
 }
 
-.book .book-body .page-wrapper .page-inner .example[data-label=''].ui-has-child-title > header > .title{
-  display: inline-block;
-  padding: 0.1em 1em;
-  font-weight: bold;
-  color: #ededed;
-  background-color: #555555;
+.book .book-body .page-wrapper .page-inner .example[data-label=''].ui-has-child-title > header > .title {
+    display: inline-block;
+    padding: 0.1em 1em;
+    font-weight: bold;
+    color: #ededed;
+    background-color: #555555;
 }
 
-.book .book-body .page-wrapper .page-inner .example[data-label='']:not(.ui-has-child-title)::before{
-  display: inline-block;
-  padding: 0.1em 1em;
-  font-weight: bold;
-  color: #ededed;
-  background-color: #555555;
+.book .book-body .page-wrapper .page-inner .example[data-label='']:not(.ui-has-child-title)::before {
+    display: inline-block;
+    padding: 0.1em 1em;
+    font-weight: bold;
+    color: #ededed;
+    background-color: #555555;
 }
 
-.book .book-body .page-wrapper .page-inner .example[data-label]:not([data-label='']).ui-has-child-title > header > .title{
-  display: inline-block;
-  padding: 0.1em 1em;
-  font-weight: bold;
-  color: #ededed;
-  background-color: #555555;
+.book .book-body .page-wrapper .page-inner .example[data-label]:not([data-label='']).ui-has-child-title > header > .title {
+    display: inline-block;
+    padding: 0.1em 1em;
+    font-weight: bold;
+    color: #ededed;
+    background-color: #555555;
 }
 
-.book .book-body .page-wrapper .page-inner .example[data-label]:not([data-label='']).ui-has-child-title > header > .title::before{
-  content: attr(data-label-parent) ': ';
+.book .book-body .page-wrapper .page-inner .example[data-label]:not([data-label='']).ui-has-child-title > header > .title::before {
+    content: attr(data-label-parent) ': ';
 }
 
-.book .book-body .page-wrapper .page-inner .example[data-label]:not([data-label='']):not(.ui-has-child-title)::before{
-  display: inline-block;
-  padding: 0.1em 1em;
-  font-weight: bold;
-  color: #ededed;
-  background-color: #555555;
-  content: attr(data-label);
+.book .book-body .page-wrapper .page-inner .example[data-label]:not([data-label='']):not(.ui-has-child-title)::before {
+    display: inline-block;
+    padding: 0.1em 1em;
+    font-weight: bold;
+    color: #ededed;
+    background-color: #555555;
+    content: attr(data-label);
 }
 
 .book .book-body .page-wrapper .page-inner .example > section {
-  padding: 5px 15px;
-  border-top: 1px solid #555555;
-  background-color: #ededed;
+    padding: 5px 15px;
+    border-top: 1px solid #555555;
+    background-color: #ededed;
 
 }
 
 .book .book-body .page-wrapper .page-inner .exercise {
-  margin-top: 30px;
+    margin-top: 30px;
 }
 
-.book .book-body .page-wrapper .page-inner .exercise:not([data-element-type="check-understanding"]){
-  counter-increment: exercise;
+.book .book-body .page-wrapper .page-inner .exercise:not([data-element-type="check-understanding"]) {
+    counter-increment: exercise;
 }
 
-.book .book-body .page-wrapper .page-inner .exercise:not([data-label]).ui-has-child-title > header > .title{
-  display: inline-block;
-  padding: 0.1em 1em;
-  font-weight: bold;
-  color: #ededed;
-  background-color: #555555;
+.book .book-body .page-wrapper .page-inner .exercise:not([data-label]).ui-has-child-title > header > .title {
+    display: inline-block;
+    padding: 0.1em 1em;
+    font-weight: bold;
+    color: #ededed;
+    background-color: #555555;
 }
 
-.book .book-body .page-wrapper .page-inner .exercise:not([data-label]).ui-has-child-title > header > .title::before{
-  content: 'Exercise: ';
+.book .book-body .page-wrapper .page-inner .exercise:not([data-label]).ui-has-child-title > header > .title::before {
+    content: 'Exercise: ';
 }
 
 .book .book-body .page-wrapper .page-inner .exercise:not([data-label]):not(.ui-has-child-title)::before {
-  display: inline-block;
-  padding: 0.1em 1em;
-  font-weight: bold;
-  color: #92cbf8;
-  background-color: #2f316e;
-  content: 'Exercise ' counter(exercise);
+    display: inline-block;
+    padding: 0.1em 1em;
+    font-weight: bold;
+    color: #92cbf8;
+    background-color: #2f316e;
+    content: 'Exercise ' counter(exercise);
 }
 
 .book .book-body .page-wrapper .page-inner .exercise[data-label=''].ui-has-child-title > header > .title,
-.book .book-body .page-wrapper .page-inner .exercise[data-label=''].ui-has-child-title > .title{
-  display: inline-block;
-  padding: 0.1em 1em;
-  font-weight: bold;
-  color: #ededed;
-  background-color: #555555;
+.book .book-body .page-wrapper .page-inner .exercise[data-label=''].ui-has-child-title > .title {
+    display: inline-block;
+    padding: 0.1em 1em;
+    font-weight: bold;
+    color: #ededed;
+    background-color: #555555;
 }
 
 .book .book-body .page-wrapper .page-inner .exercise[data-label='']:not(.ui-has-child-title)::before,
 .book .book-body .page-wrapper .page-inner .exercise[data-label='']:not(.ui-has-child-title)::before {
-  display: inline-block;
-  padding: 0.1em 1em;
-  font-weight: bold;
-  color: #ededed;
-  background-color: #555555;
+    display: inline-block;
+    padding: 0.1em 1em;
+    font-weight: bold;
+    color: #ededed;
+    background-color: #555555;
 }
 
 .book .book-body .page-wrapper .page-inner .exercise[data-label]:not([data-label='']).ui-has-child-title > header > .title,
 .book .book-body .page-wrapper .page-inner .exercise[data-label]:not([data-label='']).ui-has-child-title > .title {
-  display: inline-block;
-  padding: 0.1em 1em;
-  font-weight: bold;
-  color: #ededed;
-  background-color: #555555;
+    display: inline-block;
+    padding: 0.1em 1em;
+    font-weight: bold;
+    color: #ededed;
+    background-color: #555555;
 }
 
 .book .book-body .page-wrapper .page-inner .exercise[data-label]:not([data-label='']).ui-has-child-title > header > .title::before,
 .book .book-body .page-wrapper .page-inner .exercise[data-label]:not([data-label='']).ui-has-child-title > .title::before {
-  content: attr(data-label-parent) ': ';
+    content: attr(data-label-parent) ': ';
 }
 
 .book .book-body .page-wrapper .page-inner .exercise[data-label]:not([data-label='']):not(.ui-has-child-title)::before {
-  display: inline-block;
-  padding: 0.1em 1em;
-  font-weight: bold;
-  color: #ededed;
-  background-color: #555555;
-  content: attr(data-label);
+    display: inline-block;
+    padding: 0.1em 1em;
+    font-weight: bold;
+    color: #ededed;
+    background-color: #555555;
+    content: attr(data-label);
 }
 
 .book .book-body .page-wrapper .page-inner .exercise > section {
-  padding: 5px 15px;
-  border-top: 1px solid #555555;
-  background-color: #ededed;
+    padding: 5px 15px;
+    border-top: 1px solid #555555;
+    background-color: #ededed;
 }
 
 .book .book-body .page-wrapper .page-inner .example .problem,
 .book .book-body .page-wrapper .page-inner .exercise .problem,
 .book .book-body .page-wrapper .page-inner .example .solution,
-.book .book-body .page-wrapper .page-inner .exercise .solution{
-  padding: 0.5em 1em;
+.book .book-body .page-wrapper .page-inner .exercise .solution {
+    padding: 0.5em 1em;
 }
 
 .book .book-body .page-wrapper .page-inner .example .solution,
-.book .book-body .page-wrapper .page-inner .exercise .solution{
-  border-top: 1px solid #555555;
+.book .book-body .page-wrapper .page-inner .exercise .solution {
+    border-top: 1px solid #555555;
 }
 
 .book .book-body .page-wrapper .page-inner .example .solution > .ui-toggle-wrapper,
-.book .book-body .page-wrapper .page-inner .exercise .solution > .ui-toggle-wrapper{
-  text-align: center;
+.book .book-body .page-wrapper .page-inner .exercise .solution > .ui-toggle-wrapper {
+    text-align: center;
 }
 
 .book .book-body .page-wrapper .page-inner .example .solution > .ui-toggle-wrapper > .ui-toggle,
-.book .book-body .page-wrapper .page-inner .exercise .solution > .ui-toggle-wrapper > .ui-toggle{
-  outline: 0;
-  text-align: center;
-  font-weight: bold;
+.book .book-body .page-wrapper .page-inner .exercise .solution > .ui-toggle-wrapper > .ui-toggle {
+    outline: 0;
+    text-align: center;
+    font-weight: bold;
 }
 
 .book .book-body .page-wrapper .page-inner .example .solution:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before,
 .book .book-body .page-wrapper .page-inner .exercise .solution:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before {
-  content: '[Show Solution]';
+    content: '[Show Solution]';
 }
 
 .book .book-body .page-wrapper .page-inner .example .solution:not(.ui-solution-visible) > section,
 .book .book-body .page-wrapper .page-inner .exercise .solution:not(.ui-solution-visible) > section {
-  display: none;
+    display: none;
 }
 
 .book .book-body .page-wrapper .page-inner .example .solution.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before,
-.book .book-body .page-wrapper .page-inner .exercise .solution.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before{
-  content: '[Hide Solution]';
+.book .book-body .page-wrapper .page-inner .exercise .solution.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before {
+    content: '[Hide Solution]';
 }
 
 
-.book .book-body .page-wrapper .page-inner .example[data-element-type="check-understanding"]  .title::before,
-.book .book-body .page-wrapper .page-inner .exercise[data-element-type="check-understanding"]  .title::before {
-  margin-right: 0;
-  content: "";
+.book .book-body .page-wrapper .page-inner .example[data-element-type="check-understanding"] .title::before,
+.book .book-body .page-wrapper .page-inner .exercise[data-element-type="check-understanding"] .title::before {
+    margin-right: 0;
+    content: "";
 }
 
-.book .book-body .page-wrapper .page-inner .example[data-element-type="conceptual-questions"]  .problem ,
-.book .book-body .page-wrapper .page-inner .exercise[data-element-type="conceptual-questions"]  .problem {
-  border-top: none;
+.book .book-body .page-wrapper .page-inner .example[data-element-type="conceptual-questions"] .problem,
+.book .book-body .page-wrapper .page-inner .exercise[data-element-type="conceptual-questions"] .problem {
+    border-top: none;
 }
 
 
-.book .book-body .page-wrapper .page-inner .example[data-element-type="conceptual-questions"]  .problem p,
-.book .book-body .page-wrapper .page-inner .exercise[data-element-type="conceptual-questions"]  .problem p {
-  margin: 0;
+.book .book-body .page-wrapper .page-inner .example[data-element-type="conceptual-questions"] .problem p,
+.book .book-body .page-wrapper .page-inner .exercise[data-element-type="conceptual-questions"] .problem p {
+    margin: 0;
 }
 
 .book .book-body .page-wrapper .page-inner .example[data-element-type="problems-exercises"] .problem::before,
 .book .book-body .page-wrapper .page-inner .exercise[data-element-type="problems-exercises"] .problem::before,
 .book .book-body .page-wrapper .page-inner .example[data-element-type="problems-exercises"] .solution::before,
 .book .book-body .page-wrapper .page-inner .exercise[data-element-type="problems-exercises"] .solution::before {
-  font-weight: bold;
-  color: #555555;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+    font-weight: bold;
+    color: #555555;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .book .book-body .page-wrapper .page-inner .example[data-element-type="problems-exercises"] .problem::before,
 .book .book-body .page-wrapper .page-inner .exercise[data-element-type="problems-exercises"] .problem::before {
-  content: "Problem";
+    content: "Problem";
 }
 
 .book .book-body .page-wrapper .page-inner .example[data-element-type="problems-exercises"] .solution::before,
 .book .book-body .page-wrapper .page-inner .exercise[data-element-type="problems-exercises"] .solution::before {
-  content: "Solution";
+    content: "Solution";
 }
 
 .book.with-summary .book-body {
-  left: 250px;
+    left: 250px;
 }
 
 .book.with-summary .book-summary {
-  width: 250px;
+    width: 250px;
 }
 
 .book.with-summary .toggle-summary {
-  background-color: #fafafa;
+    background-color: #fafafa;
 }
 
 .book .book-summary {
-  background-color: #fafafa;
+    background-color: #fafafa;
 }
 
 .book .book-summary ul.summary {
-  counter-reset: chapter;
+    counter-reset: chapter;
 }
 
 .book .book-summary ul.summary li.part {
-  font-size: 130%;
-  font-weight: bold;
-  color: black;
-  padding-left: 15px;
+    font-size: 130%;
+    font-weight: bold;
+    color: black;
+    padding-left: 15px;
 }
 
 .book .book-summary ul.summary li.part > ol {
-  font-size: 70%;
-  font-weight: normal;
+    font-size: 70%;
+    font-weight: normal;
 }
 
 .book .book-summary ul.summary ol {
-  padding: 0;
+    padding: 0;
 }
 
 .book .book-summary ul.summary li {
-  padding: 10px 0;
-  list-style-type: none;
-  /* Add ellipses if the title is long */
-  white-space: nowrap;
-  overflow-x: hidden;
-  text-overflow: ellipsis;
+    padding: 10px 0;
+    list-style-type: none;
+    /* Add ellipses if the title is long */
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
 }
 
 .book .book-summary ul.summary li > a {
-  display: inline !important;
+    display: inline !important;
 }
 
 .book .book-summary ul.summary li::before {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .book .book-summary ul.summary li.chapter {
-  counter-increment: chapter;
-  counter-reset: section;
+    counter-increment: chapter;
+    counter-reset: section;
 }
 
 .book .book-summary ul.summary li.chapter::before {
-  content: counter(chapter) '. ';
-  color: black;
-  font-weight: bold;
-  font-size: 120%;
-  padding-left: 1em;
+    content: counter(chapter) '. ';
+    color: black;
+    font-weight: bold;
+    font-size: 120%;
+    padding-left: 1em;
 }
 
 .book .book-summary ul.summary li.chapter > a {
-  font-size: 120%;
+    font-size: 120%;
 }
 
 .book .book-summary ul.summary li.chapter > ol > li {
-  counter-increment: section;
+    counter-increment: section;
 }
 
 .book .book-summary ul.summary li.chapter > ol > li::before {
-  content: counter(chapter) '.' counter(section) ' ';
-  color: black;
-  font-weight: bold;
-  padding-left: 2em;
+    content: counter(chapter) '.' counter(section) ' ';
+    color: black;
+    font-weight: bold;
+    padding-left: 2em;
 }
 
 .page {
-  counter-reset: figure example exercise;
+    counter-reset: figure example exercise;
 }
