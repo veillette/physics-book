@@ -202,27 +202,27 @@
                 $figure = $img.wrap('<figure>').parent();
                 $figure.append("<figcaption>" + ($img.attr('title')) + "</figcaption>");
                 if ($img.attr('data-title')) {
-                    $figure.prepend("<div data-type='title'>" + ($img.attr('data-title')) + "</div>");
+                    $figure.prepend("<div class='title'>" + ($img.attr('data-title')) + "</div>");
                 }
                 $figure.attr('id', id);
             }
-            $els.find('.example, .exercise, .note, [data-type="example"], [data-type="exercise"], [data-type="note"]').each(function (index, el) {
+            $els.find('.example, .exercise, .note').each(function (index, el) {
                 let $contents, $el, $title;
                 $el = $(el);
                 $contents = $el.contents().filter(function (i, node) {
-                    return !$(node).is('.title, [data-type="title"]');
+                    return !$(node).is('.title');
                 });
                 $contents.wrapAll('<section>');
-                $title = $el.children('.title, [data-type="title"]');
+                $title = $el.children('.title');
                 $el.prepend($title);
                 $title.wrap('<header>');
                 $title.attr('data-label-parent', $el.attr('data-label'));
                 return $el.toggleClass('ui-has-child-title', $title.length > 0);
             });
-            $els.find('.solution, [data-type="solution"]').wrapInner('<section class="ui-body">').prepend('<div class="ui-toggle-wrapper">\n  <button class="btn-link ui-toggle" title="Show/Hide Solution"></button>\n</div>');
+            $els.find('.solution').wrapInner('<section class="ui-body">').prepend('<div class="ui-toggle-wrapper">\n  <button class="btn-link ui-toggle" title="Show/Hide Solution"></button>\n</div>');
             $els.on('click', '.ui-toggle', function (e) {
                 let $solution;
-                $solution = $(e.currentTarget).closest('.solution, [data-type="solution"]');
+                $solution = $(e.currentTarget).closest('.solution');
                 return $solution.toggleClass('ui-solution-visible');
             });
             $els.find('figure:has(> figcaption)').addClass('ui-has-child-figcaption');
