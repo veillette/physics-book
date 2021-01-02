@@ -38,9 +38,6 @@
         BookConfig.serverAddsTrailingSlash = false;
     }
 
-    if (BookConfig.searchIndex == null) {
-        BookConfig.searchIndex = null;
-    }
 
     if (BookConfig.contributeUrl == null) {
         BookConfig.contributeUrl = null;
@@ -67,9 +64,6 @@
  </div>
 
   <div class="book-summary">
-    <div class="book-search">
-      <input type="text" placeholder="Search" class="form-control">
-    </div>
   </div>
 
   <div class="book-body">
@@ -92,7 +86,7 @@
 </div>`;
 
     $(function () {
-        let $body, $book, $bookBody, $bookPage, $bookProgressBar, $bookSearchInput, $bookSummary, $bookTitle,
+        let $body, $book, $bookBody, $bookPage, $bookProgressBar, $bookSummary, $bookTitle,
             $originalPage, $toggleSummary, TocHelper, addTrailingSlash, changePage, mdToHtmlFix,
             pageBeforeRender, removeTrailingSlash, renderNextPrev, renderToc, tocHelper, updateContributeUrl;
         $body = $('body');
@@ -101,16 +95,12 @@
         $body.append(BOOK_TEMPLATE);
         $book = $body.find('.book');
         $toggleSummary = $book.find('.toggle-summary');
-        $bookSearchInput = $book.find('.book-search .form-control');
         $bookSummary = $book.find('.book-summary');
         $bookBody = $book.find('.book-body');
         $bookPage = $book.find('.page-inner > .normal');
         $bookTitle = $book.find('.book-title');
         $bookProgressBar = $book.find('.book-progress .bar .inner');
         $toggleSummary.on('click', function (evt) {
-            if ($book.hasClass('with-summary')) {
-                $book.removeClass('with-search');
-            }
             $book.toggleClass('with-summary');
             return evt.preventDefault();
         });
@@ -202,27 +192,27 @@
                 $figure = $img.wrap('<figure>').parent();
                 $figure.append("<figcaption>" + ($img.attr('title')) + "</figcaption>");
                 if ($img.attr('data-title')) {
-                    $figure.prepend("<div data-type='title'>" + ($img.attr('data-title')) + "</div>");
+                    $figure.prepend("<div class='title'>" + ($img.attr('data-title')) + "</div>");
                 }
                 $figure.attr('id', id);
             }
-            $els.find('.example, .exercise, .note, [data-type="example"], [data-type="exercise"], [data-type="note"]').each(function (index, el) {
+            $els.find('.example, .exercise, .note').each(function (index, el) {
                 let $contents, $el, $title;
                 $el = $(el);
                 $contents = $el.contents().filter(function (i, node) {
-                    return !$(node).is('.title, [data-type="title"]');
+                    return !$(node).is('.title');
                 });
                 $contents.wrapAll('<section>');
-                $title = $el.children('.title, [data-type="title"]');
+                $title = $el.children('.title');
                 $el.prepend($title);
                 $title.wrap('<header>');
                 $title.attr('data-label-parent', $el.attr('data-label'));
                 return $el.toggleClass('ui-has-child-title', $title.length > 0);
             });
-            $els.find('.solution, [data-type="solution"]').wrapInner('<section class="ui-body">').prepend('<div class="ui-toggle-wrapper">\n  <button class="btn-link ui-toggle" title="Show/Hide Solution"></button>\n</div>');
+            $els.find('.solution').wrapInner('<section class="ui-body">').prepend('<div class="ui-toggle-wrapper">\n  <button class="btn-link ui-toggle" title="Show/Hide Solution"></button>\n</div>');
             $els.on('click', '.ui-toggle', function (e) {
                 let $solution;
-                $solution = $(e.currentTarget).closest('.solution, [data-type="solution"]');
+                $solution = $(e.currentTarget).closest('.solution');
                 return $solution.toggleClass('ui-solution-visible');
             });
             $els.find('figure:has(> figcaption)').addClass('ui-has-child-figcaption');
@@ -393,9 +383,6 @@
                     break;
                 default:
                     $link = null;
-            }
-            if (!$bookSearchInput.is(':focus')) {
-                return $link != null ? $link.click() : void 0;
             }
         });
         $('body').on('click', 'a[href]:not([href^="#"]):not([href^="http"])', function (evt) {

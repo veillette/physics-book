@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Define conservative force, potential energy, and mechanical energy.
 * Explain the potential energy of a spring in terms of its compression when Hooke’s law applies.
 * Use the work-energy theorem to show how having only conservative forces implies conservation of mechanical energy.
@@ -14,10 +14,10 @@ layout: page
 ### Potential Energy and Conservative Forces
 
 Work is done by a force, and some forces, such as weight, have special
-characteristics. A **conservative force**{: data-type="term"
+characteristics. A **conservative force**{: class="term"
 #import-auto-id2259527} is one, like the gravitational force, for which work
 done by or against it depends only on the starting and ending points of a motion
-and not on the path taken. We can define a **potential energy**{: data-type="
+and not on the path taken. We can define a **potential energy**{: class="
 term" #import-auto-id2177452} $$ \left(\PE\right)
 $$ for any conservative force, just as we did for the gravitational force. For
 example, when you wind up a toy, an egg timer, or an old-fashioned watch, you do
@@ -30,8 +30,8 @@ conservative force results in stored or potential energy. Gravitational
 potential energy is one example, as is the energy stored in a spring. We will
 also see how conservative forces are related to the conservation of energy.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Potential Energy and Conservative Forces
 </div>
 Potential energy is the energy a system has due to position, shape, or configuration. It is stored energy that is completely recoverable.
@@ -67,10 +67,10 @@ x=\frac{1}{2}k x^{2} $$. Alternatively, we noted
 in [Kinetic Energy and the Work-Energy Theorem](../contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md) that the area
 under a graph of $$ F $$ vs. $$ x $$ is the work done by the force.
 In [[Figure]](#fs-id1593673)(c) we see that this area is also $$ \frac{1}{2}k
-x^{2} $$. We therefore define the **potential energy of a spring**{: data-type="
+x^{2} $$. We therefore define the **potential energy of a spring**{: class="
 term"}, $$ \PE_{s} $$, to be
 
-<div data-type="equation">
+<div class="equation">
  $$ \PE_{\s}=\frac{1}{2} k x^{2} , $$
 </div>
 
@@ -90,7 +90,7 @@ magnitude \( F = k x \) , and the work done to stretch (or compress) it is \( \f
 The equation $$ \PE_{s}=\frac{1}{2} k x^{2} $$ has general validity
 beyond the special case for which it was derived. Potential energy can be stored
 in any elastic medium by deforming it. Indeed, the general definition of
-**potential energy**{: data-type="term"} is energy due to position, shape, or
+**potential energy**{: class="term"} is energy due to position, shape, or
 configuration. For shape or position deformations, stored energy is $$
 \PE_{s}=\frac{1}{2}k x^{2} $$, where $$ k $$ is the force constant of
 the particular system and $$ x $$ is its deformation. Another example is seen
@@ -107,20 +107,20 @@ energy principle. The work-energy theorem states that the net work done by all
 forces acting on a system equals its change in kinetic energy. In equation form,
 this is
 
-<div data-type="equation">
+<div class="equation">
  $$ W_{\text{net}}=\frac{1}{2}m v^{2}-\frac{1}{2} m v_{0}^{2}
 =\Delta \KE . $$
 </div>
 
 If only conservative forces act, then
 
-<div data-type="equation">
+<div class="equation">
  $$ W_{\text{net}}=W_{\text{c}}, $$
 </div>
 
 where $$ W_{c} $$ is the total work done by all conservative forces. Thus,
 
-<div data-type="equation">
+<div class="equation">
  $$ W_{\text{c}}=\Delta \KE . $$
 </div>
 
@@ -128,20 +128,20 @@ Now, if the conservative force, such as the gravitational force or a spring
 force, does work, the system loses potential energy. That is, $$ W_\text{c}=-\Delta \PE $$.
 Therefore,
 
-<div data-type="equation">
+<div class="equation">
  $$ -\Delta \PE=\Delta \KE $$
 </div>
 
 or
 
-<div data-type="equation">
+<div class="equation">
  $$ \Delta \KE+\Delta \PE=0. $$
 </div>
 
 This equation means that the total kinetic and potential energy is constant for
 any process involving only conservative forces. That is,
 
-<div data-type="equation">
+<div class="equation">
  $$
 \left.
 \begin{array}{cc}
@@ -157,17 +157,17 @@ any process involving only conservative forces. That is,
 
 where i and f denote initial and final values. This equation is a form of the
 work-energy theorem for conservative forces; it is known as the **conservation
-of mechanical energy**{: data-type="term"} principle. Remember that this applies
+of mechanical energy**{: class="term"} principle. Remember that this applies
 to the extent that all the forces are conservative, so that friction is
 negligible. The total kinetic plus potential energy of a system is defined to be
-its **mechanical energy**{: data-type="term"}, $$ \left(\KE+\PE\right) $$.
+its **mechanical energy**{: class="term"}, $$ \left(\KE+\PE\right) $$.
 In a system that experiences only conservative
 forces, there is a potential energy associated with each force, and the energy
 only changes form between $$ \KE $$ and the various types of $$ \PE $$,
 with the total energy remaining constant.
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Using Conservation of Mechanical Energy to Calculate the Speed of a Toy Car
 </div>
 A 0.100-kg toy car is propelled by a compressed spring, as shown in [[Figure]](#import-auto-id2687249). The car follows a track that rises 0.180 m above the starting point. The spring is compressed 4.00 cm and has a force constant of 250.0 N/m. Assuming work done by friction to be negligible, find (a) how fast the car is going before it starts up the slope and (b) how fast it is going at the top of the slope.
@@ -180,14 +180,14 @@ A 0.100-kg toy car is propelled by a compressed spring, as shown in [[Figure]](#
 The spring force and the gravitational force are conservative forces, so
 conservation of mechanical energy can be used. Thus,
 
-<div data-type="equation" id="eip-576">
+<div class="equation" id="eip-576">
  $$
 \KE_{\text{i}}+\PE_{\text{i}}=
 \KE_{\text{f}}+\PE_{\text{f}} $$
 </div>
 or
 
-<div data-type="equation" id="eip-82">
+<div class="equation" id="eip-82">
  $$
 \frac{1}{2} m v_{i}^{2}+ mgh_{i}+ \frac{1}{2} k x_{i}^{2}=
 \frac{1}{2} m v_{f}^{2}+ mgh_{f}+ \frac{1}{2} k x_{f}^{2}, $$
@@ -207,14 +207,14 @@ Furthermore, the initial speed $$ v_{\text{i}} $$ is zero and the final
 compression of the spring $$ x_{\text{f}} $$ is zero, and so several terms in
 the conservation of mechanical energy equation are zero and it simplifies to
 
-<div data-type="equation" id="eip-654">
+<div class="equation" id="eip-654">
  $$ \frac{1}{2}k x_{i}^{2}=\frac{1}{2} m v_{f}^{2}. $$
 </div>
 In other words, the initial potential energy in the spring is converted completely
 to kinetic energy in the absence of friction.
 Solving for the final speed and entering known values yields
 
-<div data-type="equation" id="eip-196">
+<div class="equation" id="eip-196">
 $$ \begin{array}{lll}
 v_{f}& =& \sqrt{\frac{k}{m}} x_{i}  \\
      & =& \sqrt{\frac{250.0 \text{N/m}}{0.100 \kg } } \left(0.0400 \m \right)\\
@@ -230,7 +230,7 @@ the slope, completely ignoring everything in between. Doing the same type of
 analysis to find which terms are zero, the conservation of mechanical energy
 becomes
 
-<div data-type="equation">
+<div class="equation">
  $$ \frac{1}{2} kx_\text{i}^{2}=\frac{1}{2} m v_\text{f}^{2}+mgh_\text{f}. $$
 </div>
 This form of the equation means that the spring’s initial potential energy is
@@ -238,7 +238,7 @@ converted partly to gravitational potential energy and partly to kinetic
 energy. The final speed at the top of the slope will be less than at the bottom.
 Solving for $$ v_{\text{f}} $$ and substituting known values gives
 
-<div data-type="equation" id="eip-334">
+<div class="equation" id="eip-334">
  $$ \begin{array}{lll}
 v_{f}& =& \sqrt{\frac{ k x_{\text{i}}^{2}}{m}-2 g h_{\text{f}}}\\
      & =& \sqrt{\left(\frac{250.0 \text{N/m}}{0.100 \kg }\right)
@@ -263,14 +263,14 @@ important (as long as the path is not impossible). This assumption is usually a
 tremendous simplification, because the path may be complicated and forces may
 vary along the way.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 PhET Explorations: Energy Skate Park
 </div>
 Learn about conservation of energy with a skater dude! Build tracks, ramps and jumps for the skater and view the kinetic energy, potential energy and friction as he moves. You can also take the skater to different planets or even space!
 
 <figure markdown="1">
-<div data-type="phet">
+<div class="phet">
 <iframe src="https://phet.colorado.edu/sims/html/energy-skate-park/latest/energy-skate-park_en.html" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 Energy Skate Park
@@ -294,7 +294,7 @@ Energy Skate Park
 * When only conservative forces act on and within a system, the total mechanical
   energy is constant. In equation form,
 
-<div data-type="equation" id="eip-201">
+<div class="equation" id="eip-201">
  $$ \begin{array}{cc}
 & \KE+\PE=\text{constant}\\
 & \text{or} \\
@@ -308,15 +308,15 @@ of mechanical energy.
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 What is a conservative force?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 The force exerted by a diving board is conservative, provided the internal friction is negligible.
 Assuming friction is negligible, describe changes in the potential energy of a diving board as a
 swimmer dives from it, starting just before the swimmer steps on the board until just after her
@@ -325,15 +325,15 @@ feet leave it.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Define mechanical energy. What is the relationship of mechanical energy to nonconservative forces? What happens to mechanical energy if only conservative forces act?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 What is the relationship of potential energy to conservative force?
 
 </div>
@@ -341,22 +341,22 @@ What is the relationship of potential energy to conservative force?
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A $$ 5.00 \times 10^{5}\text{-kg} $$ subway train is brought to a stop from a speed of 0.500 m/s in 0.400 m by a
 large spring bumper at the end of its track. What is the force constant $$ k $$
 of the spring?
 
 </div>
-<div data-type="solution">
-<div data-type="equation">
+<div class="solution">
+<div class="equation">
  $$ 7.81\times 10^{5}\text{N/m} $$
 </div>
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A pogo stick has a spring with a force constant of $$ 2.50 \times 10^{4}\text{N/m} $$,
 which can be compressed 12.0 cm. To what maximum height can a child jump on
 the stick using only the energy in the spring, if the child and stick have a
@@ -366,10 +366,10 @@ the [Problem-Solving Strategies for Energy](../contents/ch7ConservationOfEnergy.
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 {: #import-auto-id1304386} conservative force
 : a force that does the same work for any given initial and final configuration,

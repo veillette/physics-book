@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * State Kepler’s laws of planetary motion.
 * Derive the third Kepler’s law for circular orbits.
 * Discuss the Ptolemaic model of the universe.
@@ -65,7 +65,7 @@ The ratio of the squares of the periods of any two planets about the Sun is
 equal to the ratio of the cubes of their average distances from the Sun. In
 equation form, this is
 
-<div data-type="equation" id="eip-976">
+<div class="equation" id="eip-976">
  $$ \frac{ T_{1}^{2}}{ T_{2}^{2}}=\frac{ r_{1}^{3}}{ r_{2}^{3}}, $$
 </div>
 
@@ -83,8 +83,8 @@ Note again that while, for historical reasons, Kepler’s laws are stated for
 planets orbiting the Sun, they are actually valid for all bodies satisfying the
 two previously stated conditions.
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Find the Time for One Orbit of an Earth Satellite
 </div>
 Given that the Moon orbits Earth each 27.3 d and that it is an average distance of
@@ -110,20 +110,20 @@ can be found.
 
 Kepler’s third law is
 
-<div data-type="equation" id="eip-618">
+<div class="equation" id="eip-618">
  $$ \frac{ T_{1}^{2}}{ T_{2}^{2}}=\frac{ r_{1}^{3}}{ r_{2}^{3}}. $$
 </div>
 To solve for $$ T_{2} $$, we cross-multiply and take the square root, yielding
 
-<div data-type="equation" id="eip-113">
+<div class="equation" id="eip-113">
  $$ T_{2}^{2}=T_{1}^{2}\left(\frac{r_{2}}{ r_{1}}\right)^{3} $$
 </div>
-<div data-type="equation" id="eip-925">
+<div class="equation" id="eip-925">
  $$ T_{2}=T_{1} \left(\frac{r_{2}}{r_{1}}\right)^{3/2}. $$
 </div>
 Substituting known values yields
 
-<div data-type="equation" id="eip-552">
+<div class="equation" id="eip-552">
  $$ \begin{array}{lll} T_{2}& =& 27.3 \text{d} \times
 \frac{24.0 \text{h}}{\text{d}}
 \times {\left(\frac{7880 \text{km}}{3.84\times 10^{5}\text{km}}\right)}^{3/2}\\
@@ -152,20 +152,20 @@ M $$, satisfying the two conditions stated at the beginning of this section.
 Gravity supplies the centripetal force to mass $$ m $$. Starting with Newton’s
 second law applied to circular motion,
 
-<div data-type="equation" id="eip-729">
+<div class="equation" id="eip-729">
 $$ F_{\text{net}}= m \ac =m\frac{ v^{2}}{r}. $$
 </div>
 
 The net external force on mass $$ m $$ is gravity, and so we substitute the
 force of gravity for $$ F_{\text{net}} $$:
 
-<div data-type="equation" id="eip-623">
+<div class="equation" id="eip-623">
  $$ G\frac{mM}{ r^{2}}=m\frac{ v^{2}}{r}. $$
 </div>
 
 The mass $$ m $$ cancels, yielding
 
-<div data-type="equation" id="eip-457">
+<div class="equation" id="eip-457">
  $$ G\frac{M}{r}={v}^{2}. $$
 </div>
 
@@ -177,26 +177,26 @@ third law, we must get the period $$ T $$ into the equation. By definition,
 period $$ T $$ is the time for one complete orbit. Now the average speed $$ v $$
 is the circumference divided by the period—that is,
 
-<div data-type="equation" id="eip-519">
+<div class="equation" id="eip-519">
  $$ v=\frac{2\pi r}{T}. $$
 </div>
 
 Substituting this into the previous equation gives
 
-<div data-type="equation" id="eip-362">
+<div class="equation" id="eip-362">
  $$ G\frac{M}{r}=\frac{ 4\pi^{2}{r}^{2}}{T^{2}}. $$
 </div>
 
 Solving for $$ T^{2} $$ yields
 
-<div data-type="equation" id="eip-444">
+<div class="equation" id="eip-444">
  $$ T^{2}=\frac{ 4\pi^{2}}{GM} r^{3}. $$
 </div>
 
 Using subscripts 1 and 2 to denote two different satellites, and taking the
 ratio of the last equation for satellite 1 to satellite 2 yields
 
-<div data-type="equation" id="eip-209">
+<div class="equation" id="eip-209">
  $$ \frac{ T_{1}^{2}}{ T_{2}^{2}}=\frac{ r_{1}^{3}}{ r_{2}^{3}}. $$
 </div>
 
@@ -208,7 +208,7 @@ Now consider what we get if we solve $$ T^{2}=\frac{ 4\pi^{2} }{GM}{r}^{3} $$
 for the ratio $$ r^{3}/ T^{2} $$. We obtain a relationship that can be used to
 determine the mass $$ M $$ of a parent body from the orbits of its satellites:
 
-<div data-type="equation" id="eip-658">
+<div class="equation" id="eip-658">
  $$ \frac{ r^{3}}{ T^{2}}=\frac{G}{ 4\pi^2 }M. $$
 </div>
 
@@ -227,8 +227,8 @@ of the orbits due to other bodies. Interestingly, those perturbations can be—a
 have been—used to predict the location of new planets and moons. This is another
 verification of Newton’s universal law of gravitation.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Making Connections
 </div>
 Newton’s universal law of gravitation is modified by Einstein’s general theory of
@@ -324,7 +324,7 @@ ever more evident.
   The ratio of the squares of the periods of any two planets about the Sun is
   equal to the ratio of the cubes of their average distances from the Sun:
 
-  <div data-type="equation" id="eip-233">
+  <div class="equation" id="eip-233">
  $$ \frac{T_{1}^{2}}{ T_{2}^{2}}=\frac{ r_{1}^{3}}{r_{2}^{3}}, $$
   </div>
 
@@ -333,20 +333,20 @@ ever more evident.
 
 * {: #import-auto-id2492446} The period and radius of a satellite’s orbit about
   a larger body $$ M $$ are related by
-  <div data-type="equation" id="eip-395">
+  <div class="equation" id="eip-395">
  $$ T^{2}=\frac{4\pi^{2}}{GM} r^{3} $$
   </div>
 
   or
 
-  <div data-type="equation" id="eip-839">
+  <div class="equation" id="eip-839">
  $$ \frac{ r^{3}}{ T^{2}}=\frac{G}{ 4\pi^{2}}M. $$
   </div>
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 In what frame(s) of reference are Kepler’s laws valid? Are Kepler’s laws purely
 descriptive, or do they contain causal information?
 
@@ -355,8 +355,8 @@ descriptive, or do they contain causal information?
 
 ### Problem Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A geosynchronous Earth satellite is one that has an orbital period of precisely
 1 day. Such orbits are useful for communication and weather observation because
 the satellite remains above the same point on Earth (provided it orbits in the
@@ -366,38 +366,38 @@ of such an orbit based on the data for the moon in [[Figure]](#import-auto-id245
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Calculate the mass of the Sun based on data for Earth’s orbit and compare
 the value obtained with the Sun’s actual mass.
 
 </div>
-<div data-type="solution" data-element-type="problems-exercises" markdown="1">
+<div class="solution" data-element-type="problems-exercises" markdown="1">
  $$ 1.98\times 10^{30}\kg $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Find the mass of Jupiter based on data for the orbit of one of its moons, and compare your result with its actual mass.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Find the ratio of the mass of Jupiter to that of Earth based on data in [[Figure]](#import-auto-id2453905).
 
 </div>
-<div data-type="solution" data-element-type="problems-exercises" markdown="1">
+<div class="solution" data-element-type="problems-exercises" markdown="1">
  $$ \frac{ M_{J}}{ M_{E}}=316 $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Astronomical observations of our Milky Way galaxy indicate that it has a mass of about $$ 8.0\times 10^{11} $$
 solar masses. A star orbiting on the galaxy’s periphery is about $$ 6.0\times
 10^{4} $$ light years from its center.
@@ -411,8 +411,8 @@ very massive black holes at the centers of some galaxies.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Integrated Concepts**
 
@@ -432,7 +432,7 @@ generated by the collision? (The satellite’s velocity does not change
 appreciably, because its mass is much greater than the rivet’s.)
 
 </div>
-<div data-type="solution" data-element-type="problems-exercises" markdown="1">
+<div class="solution" data-element-type="problems-exercises" markdown="1">
 a) $$ 7.4 \times 10^{3} \ms $$
 
 b) $$ 1.05 \times 10^{3} \ms $$
@@ -445,8 +445,8 @@ e) $$ 2.76 \times 10^{4} \J  $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Unreasonable Results**
 
@@ -457,7 +457,7 @@ Moon, calculate the orbital radius for an Earth satellite having a period of
 (c) What is unreasonable or inconsistent about the premise of a 1.00 h orbit?
 
 </div>
-<div data-type="solution" data-element-type="problems-exercises" markdown="1">
+<div class="solution" data-element-type="problems-exercises" markdown="1">
 a) $$ 5.08 \times 10^{3}\text{km} $$
 
 b) This radius is unreasonable because it is less than the radius of earth.
@@ -468,8 +468,8 @@ earth.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Construct Your Own Problem**
 

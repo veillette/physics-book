@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Explain Earth’s gravitational force.
 * Describe the gravitational effect of the Moon on Earth.
 * Discuss weightlessness in space.
@@ -45,7 +45,7 @@ propose a mechanism that caused them to follow these paths and not others.
 
 The gravitational force is relatively simple. It is always attractive, and it
 depends only on the masses involved and the distance between them. Stated in
-modern language, **Newton’s universal law of gravitation**{: data-type="term"
+modern language, **Newton’s universal law of gravitation**{: class="term"
 #import-auto-id3092070} states that every particle in the universe attracts
 every other particle with a force along a line joining them. The force is directly proportional to the product of their
 masses and inversely proportional to the square of the distance between them.
@@ -53,8 +53,8 @@ masses and inversely proportional to the square of the distance between them.
 ![The given figure shows two circular objects, one with a larger mass M on the right side, and another with a smaller mass m on the left side. A point in the center of each object is shown, with both depicting the center of mass of the objects at these points. A line is drawn joining the center of the objects and is labeled as r. Two red arrows, one each from both the center of the objects, are drawn toward each other and are labeled as F, the magnitude of the gravitational force on both the objects.](../resources/Figure_07_05_02a.jpg "Gravitational attraction is along a line joining the centers of mass of these two bodies. The magnitude of the force is the same on each, consistent with Newton&#x2019;s third law.")
 {: #import-auto-id2406145}
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Misconception Alert
 </div>
 The magnitude of the force on each object (one has larger mass than the other) is the same,
@@ -64,23 +64,23 @@ consistent with Newton’s third law.
 
 The bodies we are dealing with tend to be large. To simplify the situation we
 assume that the body acts as if its entire mass is concentrated at one specific
-point called the **center of mass**{: data-type="term" #import-auto-id1546552} (
+point called the **center of mass**{: class="term" #import-auto-id1546552} (
 CM) , which will be further explored
 in [Linear Momentum and Collisions](../contents/ch8LinearMomentumAndCollisions.md). For two bodies having
 masses $$ m $$ and $$ M $$ with a distance $$ r $$ between their centers of
 mass, the equation for Newton’s universal law of gravitation is
 
-<div data-type="equation" id="eip-492">
+<div class="equation" id="eip-492">
  $$ F=G\frac{mM}{ r^{2}}, $$
 </div>
 
 where $$ F $$ is the magnitude of the gravitational force and $$ G $$ is a
-proportionality factor called the **gravitational constant**{: data-type="
+proportionality factor called the **gravitational constant**{: class="
 term" #import-auto-id3407485}. $$ G $$ is a universal gravitational
 constant—that is, it is thought to be the same everywhere in the universe. It
 has been measured experimentally to be
 
-<div data-type="equation" id="eip-939">
+<div class="equation" id="eip-939">
  $$ G=6.674 \times 10^{-11}\frac{ \N \cdot \mm}{ {\kg }^{2}} $$
 </div>
 
@@ -99,7 +99,7 @@ Recall that the acceleration due to gravity $$ g $$ is about $$ 9.80
 an object *mg* is the gravitational force between it and Earth. Substituting
 *mg* for $$ F $$ in Newton’s universal law of gravitation gives
 
-<div data-type="equation" id="eip-171">
+<div class="equation" id="eip-171">
  $$ mg =G\frac{mM}{ r^{2}}, $$
 </div>
 
@@ -108,20 +108,20 @@ $$ is the distance to the center of Earth (the distance between the centers of
 mass of the object and Earth). See [[Figure]](#import-auto-id2448812). The mass
 $$ m $$ of the object cancels, leaving an equation for $$ g $$:
 
-<div data-type="equation" id="eip-713">
+<div class="equation" id="eip-713">
  $$ g=G\frac{M}{ r^{2}}. $$
 </div>
 
 Substituting known values for Earth’s mass and radius (to three significant
 figures),
 
-<div data-type="equation" id="eip-216">
+<div class="equation" id="eip-216">
  $$ g=\left(6.67 \times 10^{-11}\frac{ \N \cdot \mm}{ {\kg }^{2}}\right)×\frac{5.98 \times 10^{24}\kg }{\left(6.38 \times 10^{6}\m \right)^{2}}, $$
 </div>
 
 and we obtain a value for the acceleration of a falling body:
 
-<div data-type="equation" id="eip-206">
+<div class="equation" id="eip-206">
  $$ g=9.80\mss . $$
 </div>
 
@@ -134,16 +134,16 @@ acceleration a step further, explaining the observation in terms of a force that
 causes objects to fall—in fact, in terms of a universally existing force of
 attraction between masses.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Take-Home Experiment
 </div>
 Take a marble, a ball, and a spoon and drop them from the same height. Do they hit the floor at the same time? If you drop a piece of paper as well, does it behave like the other objects? Explain your observations.
 
 </div>
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Making Connections
 </div>
 Attempts are still being made to understand the gravitational force. 
@@ -159,8 +159,8 @@ Earth, then the acceleration due to gravity should equal the centripetal
 acceleration of the Moon in its orbit. Newton found that the two accelerations
 agreed “pretty nearly.”
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Earth’s Gravitational Force Is the Centripetal Force Making the Moon Move in a Curved Path
 </div>
 (a) Find the acceleration due to Earth’s gravity at the distance of the Moon.
@@ -181,7 +181,7 @@ to the center of the Moon. The radius of the Moon’s nearly circular orbit is $
 Substituting known values into the expression for $$ g $$ found above,
 remembering that $$ M $$ is the mass of Earth not the Moon, yields
 
-<div data-type="equation" id="eip-972">
+<div class="equation" id="eip-972">
  $$ \begin{array}{lll}
 g& =& G\frac{M}{ r^{2}}=\left(6.67 \times 10^{-11}\frac{ \N \cdot \mm}{ {\kg }^{2}}\right)×\frac{5.98 \times 10^{24}\kg }{\left(3.84 \times 10^{8}\m \right)^{2}}\\
 & =& 2.70 \times 10^{-3}\mss .
@@ -192,7 +192,7 @@ g& =& G\frac{M}{ r^{2}}=\left(6.67 \times 10^{-11}\frac{ \N \cdot \mm}{ {\kg }^{
 
 Centripetal acceleration can be calculated using either form of
 
-<div data-type="equation" id="eip-859">
+<div class="equation" id="eip-859">
  $$
 \left.
 \begin{array}{c}
@@ -202,7 +202,7 @@ Centripetal acceleration can be calculated using either form of
 </div>
 We choose to use the second form:
 
-<div data-type="equation" id="eip-562">
+<div class="equation" id="eip-562">
  $$ \ac =r \omega^{2}, $$
 </div>
 where $$ \omega $$ is the angular velocity of the Moon about Earth.
@@ -212,19 +212,19 @@ where $$ \omega $$ is the angular velocity of the Moon about Earth.
 Given that the period (the time it takes to make one complete rotation) of the
 Moon’s orbit is 27.3 days, (d) and using
 
-<div data-type="equation" id="eip-281">
+<div class="equation" id="eip-281">
  $$ 1 d \times 24\frac{ \text{hr}}{\text{d}}\times 60\frac{min}{\text{hr}}\times 60\frac{s}{\text{min}}=
 86 400 \s $$
 </div>
 we see that
 
-<div data-type="equation" id="eip-54">
+<div class="equation" id="eip-54">
  $$ \omega =\frac{ \Delta \theta }{\Delta t}=\frac{2\pi \text{rad}}{\left(27.3 \text{d}\right)
 \left(86 400 \text{s/d}\right)}=2.66 \times 10^{-6}\frac{ \text{rad}}{\s}. $$
 </div>
 The centripetal acceleration is
 
-<div data-type="equation" id="eip-959">
+<div class="equation" id="eip-959">
  $$ \begin{array}{lll}
 \ac & =& r \omega^{2}=\left(3.84 \times 10^{8}\m \right)\left(2.66 \times 10^{-6}\rads \right)^{2}\\
 & =& 2.72\times 10^{-3} \mss .
@@ -309,7 +309,7 @@ weightlessness in some rides in amusement parks.
 ![The figure shows some astronauts floating inside the International Space Station](../resources/Figure_07_05_07ab.jpg "Astronauts experiencing weightlessness on board the International Space Station. (credit: NASA)")
 {: #import-auto-id1849514}
 
-**Microgravity**{: data-type="term" #import-auto-id2403352} refers to an
+**Microgravity**{: class="term" #import-auto-id2403352} refers to an
 environment in which the apparent net acceleration of a body is small compared
 with that produced by Earth at its surface. Many interesting biology and physics
 topics have been studied over the past three decades in the presence of
@@ -363,7 +363,7 @@ acceleration due to gravity as accurately as possible and then calculating the
 mass of Earth $$ M $$ from the relationship Newton’s universal law of
 gravitation gives
 
-<div data-type="equation" id="eip-176">
+<div class="equation" id="eip-176">
  $$ mg =G\frac{mM}{ r^{2}}, $$
 </div>
 
@@ -372,13 +372,13 @@ $$ is the distance to the center of Earth (the distance between the centers of
 mass of the object and Earth). See [[Figure]](#import-auto-id2406145). The mass
 $$ m $$ of the object cancels, leaving an equation for $$ g $$:
 
-<div data-type="equation" id="eip-150">
+<div class="equation" id="eip-150">
  $$ g=G\frac{M}{ r^{2}} . $$
 </div>
 
 Rearranging to solve for $$ M $$ yields
 
-<div data-type="equation" id="eip-857">
+<div class="equation" id="eip-857">
  $$ M=\frac{ gr^{2}}{G} . $$
 </div>
 
@@ -415,7 +415,7 @@ depart from the inverse square law? So far, no deviation has been observed.
   line joining them. The force is directly proportional to the product of their
   masses and inversely proportional to the square of the distance between them.
   In equation form, this is
-  <div data-type="equation" id="eip-143">
+  <div class="equation" id="eip-143">
  $$ F=G\frac{mM}{ r^{2}}, $$
   </div>
 
@@ -427,29 +427,29 @@ depart from the inverse square law? So far, no deviation has been observed.
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Action at a distance, such as is the case for gravity, was once thought to be illogical and therefore untrue. What is the ultimate determinant of the truth in physics, and why was this action ultimately accepted?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Two friends are having a conversation. Anna says a satellite in orbit is in freefall because the satellite keeps falling toward Earth. Tom says a satellite in orbit is not in freefall because the acceleration due to gravity is not $$ 9.80 \mss $$. Who do you agree with and why?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Draw a free body diagram for a satellite in an elliptical orbit showing why its speed increases as it approaches its parent body and decreases as it moves away.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Newton’s laws of motion and gravity were among the first to convincingly demonstrate the underlying simplicity and unity in nature. Many other examples have since been discovered, and we now expect to find such underlying order in complex situations. Is there proof that such order will always be found in new explorations?
 
 </div>
@@ -457,8 +457,8 @@ Newton’s laws of motion and gravity were among the first to convincingly demon
 
 ### Problem Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) Calculate Earth’s mass given the acceleration due to gravity at the North Pole is $$ 9.830 \mss $$
 
 and the radius of the Earth is 6371 km from center to pole.
@@ -466,7 +466,7 @@ and the radius of the Earth is 6371 km from center to pole.
 (b) Compare this with the accepted value of $$ 5.979 \times 10^{24}\kg $$.
 
 </div>
-<div data-type="solution" data-element-type="problems-exercises" markdown="1">
+<div class="solution" data-element-type="problems-exercises" markdown="1">
 a) $$ 5.979\times 10^{24}\kg $$
 
 b) This is identical to the best value to three significant figures.
@@ -474,8 +474,8 @@ b) This is identical to the best value to three significant figures.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) Calculate the magnitude of the acceleration due to gravity on the surface of Earth due to the Moon.
 
 (b) Calculate the magnitude of the acceleration due to gravity at Earth due to
@@ -487,23 +487,23 @@ the tides are predominantly due to the Moon in spite of this number.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) What is the acceleration due to gravity on the surface of the Moon?
 
 (b) On the surface of Mars? The mass of Mars is $$ 6.418\times 10^{23}\kg
 $$ and its radius is $$ 3.38 \times 10^{6}\m $$.
 
 </div>
-<div data-type="solution" data-element-type="problems-exercises" markdown="1">
+<div class="solution" data-element-type="problems-exercises" markdown="1">
 a) $$ 1.62 \mss $$
 
 b) $$ 3.75 \mss $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) Calculate the acceleration due to gravity on the surface of the Sun.
 
 (b) By what factor would your weight increase if you could stand on the Sun? (
@@ -512,8 +512,8 @@ Never mind that you cannot.)
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 The Moon and Earth rotate about their common center of mass, which is located about 4700 km from the center of Earth.
 (This is 1690 km below the surface.)
 (a) Calculate the magnitude of the acceleration due to the Moon’s gravity at
@@ -525,7 +525,7 @@ compare it with the acceleration found in part (a). Comment on whether or not
 they are equal and why they should or should not be.
 
 </div>
-<div data-type="solution" data-element-type="problems-exercises" markdown="1">
+<div class="solution" data-element-type="problems-exercises" markdown="1">
 a) $$ 3.42\times 10^{-5} \mss $$
 
 b) $$ 3.34\times 10^{-5} \mss $$ The values are nearly identical. One
@@ -535,15 +535,15 @@ the core of the system.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Solve part (b) of [[Figure]](#fs-id3174863) using $$ \ac ={v}^{2}/r $$.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Astrology, that unlikely and vague pseudoscience, makes much of the position of the planets at the moment of one’s birth. The only known force a planet exerts on Earth is gravitational.
 
 (a) Calculate the magnitude of the gravitational force exerted on a 4.20 kg baby
@@ -559,15 +559,15 @@ scientists first need to be convinced that there is even an effect, much less
 that an unknown force causes it.)
 
 </div>
-<div data-type="solution" data-element-type="problems-exercises" markdown="1">
+<div class="solution" data-element-type="problems-exercises" markdown="1">
 a) $$ 7.01\times 10^{-7}\N $$
 
 b) $$ 1.35\times 10^{-6}\N $$, $$ 0.521 $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 The existence of the dwarf planet Pluto was proposed based on irregularities in Neptune’s orbit. Pluto was subsequently discovered near its predicted position. But it now appears that the discovery was fortuitous, because Pluto is small and the irregularities in Neptune’s orbit were not well known. To illustrate that Pluto has a minor effect on the orbit of Neptune compared with the closest planet to Neptune:
 
 (a) Calculate the acceleration due to gravity at Neptune due to Pluto when they
@@ -581,8 +581,8 @@ that due to Pluto. The mass of Uranus is $$ 8.62 \times 10^{25}\kg $$.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) The Sun orbits the Milky Way galaxy once each $$ 2.60 \times 10^{8}\text{y} $$,
 with a roughly circular orbit averaging $$ 3.00 \times 10^{4} $$
 light years in radius. (A light year is the distance traveled by light in 1 y.)
@@ -594,15 +594,15 @@ be located at the Sun?
 answer surprise you?
 
 </div>
-<div data-type="solution" data-element-type="problems-exercises" markdown="1">
+<div class="solution" data-element-type="problems-exercises" markdown="1">
 a) $$ 1.66\times 10^{-10} \mss $$
 
 b) $$ 2.17\times 10^{5} \ms $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 **Unreasonable Result**
 
 A mountain 10.0 km from a person exerts a gravitational force on him equal to
@@ -619,7 +619,7 @@ gravitational measurements can easily detect the effect of nearby mountains and
 variations in local geology.)
 
 </div>
-<div data-type="solution" id="eip-id1570835" markdown="1">
+<div class="solution" id="eip-id1570835" markdown="1">
 a) $$ 2.937\times 10^{17}\kg $$
 
 b) $$ 4.91\times 10^{-8} $$ of the Earth’s mass.
@@ -631,10 +631,10 @@ d) The gravitational force assumed to be exerted by the mountain is too great.
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 gravitational constant, *G*
 : a proportionality factor used in the equation for Newton’s universal law of

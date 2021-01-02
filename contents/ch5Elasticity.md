@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * State Hooke’s law.
 * Explain Hooke’s law using graphical representation between deformation and applied force.
 * Discuss the three types of deformations such as changes in length, sideways shear and changes in volume.
@@ -17,15 +17,15 @@ We now move from consideration of forces that affect the motion of an object (
 such as friction and drag) to those that affect an object’s shape. If a
 bulldozer pushes a car into a wall, the car will not move but it will noticeably
 change shape. A change in shape due to the application of a force is a
-**deformation**{: data-type="term"}. Even very small forces are known to cause
+**deformation**{: class="term"}. Even very small forces are known to cause
 some deformation. For small deformations, two important characteristics are
 observed. First, the object returns to its original shape when the force is
 removed—that is, the deformation is elastic for small deformations. Second, the
 size of the deformation is proportional to the force—that is, for small
 deformations, Hooke’s law is obeyed. In equation form, **Hooke’s law**{:
-data-type="term"} is given by
+class="term"} is given by
 
-<div data-type="equation" id="eip-940">
+<div class="equation" id="eip-940">
  $$ F=k\Delta L, $$
 </div>
 
@@ -35,7 +35,7 @@ composition of the object and the direction of the force. Note that this force
 is a function of the deformation $$ \Delta L $$ —it is not constant as a kinetic
 friction force is. Rearranging this to
 
-<div data-type="equation" id="eip-72">
+<div class="equation" id="eip-72">
  $$ \Delta L=\frac{F}{k} $$
 </div>
 
@@ -45,15 +45,15 @@ relationship between the extension $$ \Delta L $$ of a spring or of a human
 bone. For metals or springs, the straight line region in which Hooke’s law
 pertains is much larger. Bones are brittle and the elastic region is small and
 the fracture abrupt. Eventually a large enough stress to the material will cause
-it to break or fracture. **Tensile strength**{: data-type="
+it to break or fracture. **Tensile strength**{: class="
 term"} is the breaking stress that will cause permanent deformation or fracture
 of a material.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Hooke’s Law
 </div>
-<div data-type="equation" id="eip-319">
+<div class="equation" id="eip-319">
  $$ F= k\Delta L, $$
 </div>
 where $$ \Delta L $$ is the amount of deformation (the change in length, for example)
@@ -61,7 +61,7 @@ produced by the force $$ F $$, and $$ k $$
 is a proportionality constant that depends on the shape and composition of the
 object and the direction of the force.
 
-<div data-type="equation" id="eip-516">
+<div class="equation" id="eip-516">
  $$ \Delta L=\frac{F}{k} $$
 </div>
 </div>
@@ -85,8 +85,8 @@ deformation is less than about 0.1% or about 1 part in $$ 10^{3} $$.
 ![Diagram of weight w attached to each of three guitar strings of initial length L zero hanging vertically from a ceiling. The weight pulls down on the strings with force w. The ceiling pulls up on the strings with force w. The first string of thin nylon has a deformation of delta L due to the force of the weight pulling down. The middle string of thicker nylon has a smaller deformation. The third string of thin steel has the smallest deformation.](../resources/Figure_06_03_02a.jpg "The same force, in this case a weight ( \( w \) ), applied to three different guitar strings of identical length produces the three different deformations shown as shaded segments. The string on the left is thin nylon, the one in the middle is thicker nylon, and the one on the right is steel.")
 {: #import-auto-id1165296232089}
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Stretch Yourself a Little
 </div>
 How would you go about measuring the proportionality constant $$ k $$ of a rubber band? If a rubber band stretched 3 cm when a 100-g mass was attached
@@ -120,7 +120,7 @@ area of the wire or rod. For example, a long guitar string will stretch more
 than a short one, and a thick string will stretch less than a thin one. We can
 combine all these factors into one equation for $$ \Delta L $$:
 
-<div data-type="equation" id="eip-511">
+<div class="equation" id="eip-511">
  $$ \Delta L=\frac{1}{Y}\frac{F}{A} L_{0}, $$
 </div>
 
@@ -162,13 +162,13 @@ compression.
 |Water|||2.2|
 {: #import-auto-id1165298671576}
 
-<div data-type="footnote-refs" markdown="1">
+<div class="footnote-refs" markdown="1">
 
 ###Footnotes
-{: data-type="footnote-refs-title"}
+{: class="footnote-refs-title"}
 
-* {: data-type="footnote-ref" #footnote1} [1](#footnote-ref1){: data-type="
-  footnote-ref-link"} <span data-type="footnote-ref-content"></span>
+* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
+  footnote-ref-link"} <span class="footnote-ref-content"></span>
   {: data-list-type="bulleted" data-bullet-style="none"}
   Approximate and average values.
   Young’s moduli $$ Y $$ for tension and compression sometimes differ but are
@@ -185,8 +185,8 @@ in [[Figure]](#import-auto-id1165298469619) are being pulled down by a force of
 magnitude $$ w $$ and held up by the ceiling, which also exerts a force of
 magnitude $$ w $$.
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 The Stretch of a Long Cable
 </div>
 Suspension cables are used to carry gondolas at ski resorts. (See [[Figure]](#import-auto-id1165298535463)) Consider a suspension cable that includes an unsupported span of 3020 m. Calculate the amount of stretch in the steel cable. Assume that the cable has a diameter of 5.6 cm and the maximum tension it can withstand is $$ 3.0\times 10^{6}\N $$.
@@ -205,7 +205,7 @@ change in length.
 
 All quantities are known. Thus,
 
-<div data-type="equation" id="eip-657">
+<div class="equation" id="eip-657">
  $$ \begin{array}{lll}
 \Delta L& =& \left(\frac{1}{210 \times 10^{9}\text{N/m}^{2}}\right)\left(\frac{3.0\times 10^{6}\N }{2.46\times 10^{-3} \mm}\right)\left(3020 \m \right)\\
 & =& 18 \m .
@@ -267,8 +267,8 @@ young. A young person can go from 100 kg to 60 kg with no visible sag in their
 skins. The elasticity of all organs reduces with age. Gradual physiological
 aging through reduction in elasticity starts in the early 20s.
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating Deformation: How Much Does Your Leg Shorten When You Stand on It?
 </div>
 Calculate the change in length of the upper leg bone (the femur) when a 70.0 kg
@@ -279,7 +279,7 @@ uniform rod that is 40.0 cm long and 2.00 cm in radius.
 
 The force is equal to the weight supported, or
 
-<div data-type="equation" id="eip-843">
+<div class="equation" id="eip-843">
  $$ F=mg =\left(62.0 \kg \right)\left(9.80 \mss \right)=607.6 \N , $$
 </div>
 and the cross-sectional area is $$ \pi r^{2}=1.257 \times 10^{-3} \mm $$. The equation $$ \Delta L=\frac{1}{Y}\frac{F}{A} L_{0} $$
@@ -290,7 +290,7 @@ can be used to find the change in length.
 All quantities except $$ \Delta L $$ are known. Note that the compression value
 for Young’s modulus for bone must be used here. Thus,
 
-<div data-type="equation" id="eip-24">
+<div class="equation" id="eip-24">
  $$ \begin{array}{lll}
 \Delta L& =& \left(\frac{1}{9\times 10^{9}\text{N/m}^{2}}\right)\left(\frac{607.6 \N }{1.257\times 10^{-3} \mm}\right)\left(0.400 \m \right)\\
 & =& 2\times 10^{-5}\m .
@@ -311,17 +311,17 @@ modulus $$ Y $$. In other words, they are more rigid.
 The equation for change in length is traditionally rearranged and written in the
 following form:
 
-<div data-type="equation" id="eip-725">
+<div class="equation" id="eip-725">
  $$ \frac{F}{A}=Y\frac{ \Delta L}{ L_{0}}. $$
 </div>
 
-The ratio of force to area, $$ \frac{F}{A} $$, is defined as **stress**{: data-type="term" #import-auto-id1165298867113} (
+The ratio of force to area, $$ \frac{F}{A} $$, is defined as **stress**{: class="term" #import-auto-id1165298867113} (
 measured in $$ \text{N/m}^{2} $$ ), and the ratio of the change in length
 to length, $$ \frac{ \Delta L}{ L_{0}} $$, is defined as
-**strain**{: data-type="term" #import-auto-id1165298883978}
+**strain**{: class="term" #import-auto-id1165298883978}
 (a unitless quantity). In other words,
 
-<div data-type="equation" id="eip-760">
+<div class="equation" id="eip-760">
  $$ \text{stress}=Y \times \text{strain}. $$
 </div>
 
@@ -329,13 +329,13 @@ In this form, the equation is analogous to Hooke’s law, with stress analogous 
 force and strain analogous to deformation. If we again rearrange this equation
 to the form
 
-<div data-type="equation" id="eip-77">
+<div class="equation" id="eip-77">
  $$ F= Y A \frac{ \Delta L}{ L_{0}}, $$
 </div>
 
 we see that it is the same as Hooke’s law with a proportionality constant
 
-<div data-type="equation" id="eip-903">
+<div class="equation" id="eip-903">
  $$ k=\frac{ Y A}{ L_{0}}. $$
 </div>
 
@@ -343,8 +343,8 @@ This general idea—that force and the deformation it causes are proportional fo
 small deformations—applies to changes in length, sideways bending, and changes
 in volume.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Stress
 </div>
 The ratio of force to area, $$ \frac{F}{A} $$, is defined as stress measured
@@ -352,14 +352,14 @@ in $$\text{N/m}^2$$.
 
 </div>
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Strain
 </div>
 The ratio of the change in length to length, $$ \frac{ \Delta L}{ L_{0}} $$,
 is defined as strain (a unitless quantity). In other words,
 
-<div data-type="equation" id="eip-282">
+<div class="equation" id="eip-282">
  $$ \text{stress}=Y×\text{strain}. $$
 </div>
 </div>
@@ -371,9 +371,9 @@ stress or a *shearing force*. Here the deformation is called $$ \Delta x $$ and
 it is perpendicular to $$ L_{0} $$, rather than parallel as with tension and
 compression. Shear deformation behaves similarly to tension and compression and
 can be described with similar equations. The expression for
-**shear deformation**{: data-type="term" #import-auto-id1165296259204} is
+**shear deformation**{: class="term" #import-auto-id1165296259204} is
 
-<div data-type="equation" id="eip-178">
+<div class="equation" id="eip-178">
  $$ \Delta x=\frac{1}{S}\frac{F}{A} L_{0}, $$
 </div>
 
@@ -387,11 +387,11 @@ example, it is easier to bend a long thin pencil (small $$ A $$ )
 than a short thick one, and both are more easily bent than similar steel
 rods (large $$ S $$ ).
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Shear Deformation
 </div>
-<div data-type="equation" id="eip-894">
+<div class="equation" id="eip-894">
  $$ \Delta x=\frac{1}{S}\frac{F}{A} L_{0}, $$
 </div>
 where $$ S $$ is the shear modulus and $$ F $$
@@ -431,8 +431,8 @@ possible by the use of steel and steel-reinforced concrete. Almost by
 definition, liquids and gases have shear moduli near zero, because they flow in
 response to shearing forces.
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating Force Required to Deform: That Nail Does Not Bend Much Under a Load
 </div>
 Find the mass of the picture hanging from a steel nail as shown in [[Figure]](#import-auto-id1165298644588),
@@ -454,24 +454,24 @@ can be solved for $$ F $$.
 Solving the equation $$ \Delta x=\frac{1}{S}\frac{F}{A} L_{0} $$ for $$ F $$, we
 see that all other quantities can be found:
 
-<div data-type="equation" id="eip-458">
+<div class="equation" id="eip-458">
  $$ F= \frac{S A}{L_{0}} \Delta x. $$
 </div>
 *S* is found in [[Figure]](#import-auto-id1165298671576) and is
 $$ S=80 \times 10^{9} \text{N/m}^{2} $$. The radius $$ r $$
 is 0.750 mm (as seen in the figure), so the cross-sectional area is
 
-<div data-type="equation" id="eip-365">
+<div class="equation" id="eip-365">
  $$ A=\pi r^{2}=1.77 \times 10^{-6} \mm. $$
 </div>
 The value for $$ L_{0} $$ is also shown in the figure. Thus,
 
-<div data-type="equation" id="eip-736">
+<div class="equation" id="eip-736">
  $$ F=\frac{ \left(80 \times 10^{9} \text{N/m}^{2}\right)\left(1.77 \times 10^{-6} \mm\right)}{\left(5.00 \times 10^{-3}\m \right)}\left(1.80 \times 10^{-6}\m \right)=51 \N . $$
 </div>
 This 51 N force is the weight $$ w $$ of the picture, so the picture’s mass is
 
-<div data-type="equation" id="eip-147">
+<div class="equation" id="eip-147">
  $$ m=\frac{w}{g}=\frac{F}{g}=5.2 \kg . $$
 </div>
 
@@ -508,7 +508,7 @@ discussed. (This is not surprising, since a compression of the entire object is
 equivalent to compressing each of its three dimensions.) The relationship of the
 change in volume to other physical quantities is given by
 
-<div data-type="equation" id="eip-63">
+<div class="equation" id="eip-63">
  $$ \Delta V=\frac{1}{B}\frac{F}{A} V_{0}, $$
 </div>
 
@@ -528,8 +528,8 @@ deep parts of the oceans. Water exerts an inward force on all surfaces of a
 submerged object, and even on the water itself. At great depths, water is
 measurably compressed, as the following example illustrates.
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating Change in Volume with Deformation: How Much Is Water Compressed at Great Ocean Depths?
 </div>
 Calculate the fractional decrease in volume ( $$ \frac{ \Delta V}{ V_{0}} $$ )
@@ -546,13 +546,13 @@ $$ are known.
 
 Solving for the unknown $$ \frac{ \Delta V}{ V_{0}} $$ gives
 
-<div data-type="equation" id="eip-646">
+<div class="equation" id="eip-646">
  $$ \frac{ \Delta V}{ V_{0}}=\frac{1}{B}\frac{F}{A}. $$
 </div>
 Substituting known values with the value for the bulk modulus
 $$ B $$ from [[Figure]](#import-auto-id1165298671576),
 
-<div data-type="equation" id="eip-818">
+<div class="equation" id="eip-818">
  $$ \begin{array}{lll}
 \frac{ \Delta V}{ V_{0}}
 & =& \frac{5.00\times 10^{7} \N/\mm }
@@ -581,15 +581,15 @@ biological cell, or crack an engine block that gets in its way.
 Other types of deformations, such as torsion or twisting, behave analogously to
 the tension, shear, and bulk deformations considered here.
 
-<div data-type="note" data-has-label="true" id="eip-948" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" id="eip-948" data-label="" markdown="1">
+<div class="title">
 PhET Explorations: Hooke's Law
 </div>
 Stretch and compress springs to explore the relationships between force,
 spring constant and displacement.
 
 <figure markdown="1" id="eip-hookeslaw">
-<div data-type="phet">
+<div class="phet">
 <iframe src="https://phet.colorado.
 edu/sims/html/hookes-law/latest/hookes-law_en.html" width="600"
 height="450"  allowfullscreen></iframe>
@@ -603,7 +603,7 @@ Hooke's Law
 ### Section Summary
 
 * {: #import-auto-id1165298476009} Hooke’s law is given by
-  <div data-type="equation" id="eip-149">
+  <div class="equation" id="eip-149">
  $$ F=k\Delta L, $$
   </div>
 
@@ -613,7 +613,7 @@ Hooke's Law
   force. The relationship between the deformation and the applied force can also
   be written as
 
-  <div data-type="equation" id="eip-556">
+  <div class="equation" id="eip-556">
  $$ \Delta L=\frac{1}{Y}\frac{F}{A} L_{0}, $$
   </div>
 
@@ -625,12 +625,12 @@ Hooke's Law
 * {: #import-auto-id1165298726978} The ratio of the change in length to length,
  $$ \frac{ \Delta L}{ L_{0}} $$, is defined as *strain* (a unitless quantity).
   In other words,
-  <div data-type="equation" id="eip-98">
+  <div class="equation" id="eip-98">
  $$ \text{stress}=Y \times \text{strain}. $$
   </div>
 
 * {: #import-auto-id1165298586473} The expression for shear deformation is
-  <div data-type="equation" id="eip-19">
+  <div class="equation" id="eip-19">
  $$ \Delta x=\frac{1}{S}\frac{F}{A} L_{0}, $$
   </div>
 
@@ -640,7 +640,7 @@ Hooke's Law
 
 * {: #import-auto-id1165298548492} The relationship of the change in volume to
   other physical quantities is given by
-  <div data-type="equation" id="eip-492">
+  <div class="equation" id="eip-492">
  $$ \Delta V=\frac{1}{B}\frac{F}{A} V_{0}, $$
   </div>
 
@@ -650,59 +650,59 @@ Hooke's Law
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 The elastic properties of the arteries are essential for blood flow. Explain the importance of this in terms of the characteristics of the flow of blood (pulsating or continuous).
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 What are you feeling when you feel your pulse? Measure your pulse rate for 10 s and for 1 min. Is there a factor of 6 difference?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Examine different types of shoes, including sports shoes and thongs. In terms of physics, why are the bottom surfaces designed as they are? What differences will dry and wet conditions make for these surfaces?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Would you expect your height to be different depending upon the time of day? Why or why not?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Why can a squirrel jump from a tree branch to the ground and run away undamaged,
 while a human could break a bone in such a fall?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Explain why pregnant women often suffer from back strain late in their pregnancy.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 An old carpenter’s trick to keep nails from bending when they are pounded into hard
 materials is to grip the center of the nail firmly with pliers. Why does this help?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 When a glass bottle full of vinegar warms up, both the vinegar and the glass expand,
 but vinegar expands significantly more with temperature than glass. The bottle will
 break if it was filled to its tightly capped lid. Explain why, and also explain how
@@ -714,8 +714,8 @@ the air above liquids in glass containers.)
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 During a circus act, one performer swings upside down hanging from a trapeze
 holding another, also upside-down, performer by the legs. If the upward force on
 the lower performer is three times her weight, how much do the bones (the femurs)
@@ -723,15 +723,15 @@ in her upper legs stretch? You may assume each is equivalent to a uniform
 rod 35.0 cm long and 1.80 cm in radius. Her mass is 60.0 kg.
 
 </div>
-<div data-type="solution">
-<div data-type="equation" id="eip-id1565399">
+<div class="solution">
+<div class="equation" id="eip-id1565399">
  $$ 1.90 \times 10^{-3}\text{cm} $$
 </div>
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 During a wrestling match, a 150 kg wrestler briefly stands on one hand during a
 maneuver designed to perplex his already moribund adversary. By how much does
 the upper arm bone shorten in length? The bone can be represented by a uniform
@@ -740,8 +740,8 @@ rod 38.0 cm in length and 2.10 cm in radius.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 (a) The “lead” in pencils is a graphite composition with a Young’s modulus of
 about $$ 1\times 10^{9}\text{N/m}^{2} $$. Calculate the change in length of the
 lead in an automatic pencil if you tap it straight into the pencil with a force
@@ -750,9 +750,9 @@ of 4.0 N. The lead is 0.50 mm in diameter and 60 mm long.
 be consistent with what you have observed when using pencils?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a)1 mm
-{: data-type="newline"}
+{: class="newline"}
 
 (b) This does seem reasonable, since the lead does seem to shrink a little when
 you push on it.
@@ -760,8 +760,8 @@ you push on it.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 TV broadcast antennas are the tallest artificial structures on Earth. In 1987,
 a 72.0-kg physicist placed himself and 400 kg of equipment at the top of one
 610-m high antenna to perform gravity experiments. By how much was the antenna
@@ -770,17 +770,17 @@ compressed, if we consider it to be equivalent to a steel cylinder 0.150 m in ra
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 (a) By how much does a 65.0-kg mountain climber stretch her 0.800-cm diameter
 nylon rope when she hangs 35.0 m below a rock outcropping?
 (b) Does the answer seem to be consistent with what you have observed for
 nylon ropes? Would it make sense if the rope were actually a bungee cord?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a)9 cm
-{: data-type="newline"}
+{: class="newline"}
 
 (b) This seems reasonable for nylon climbing rope, since it is not supposed to
 stretch that much.
@@ -788,8 +788,8 @@ stretch that much.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 A 20.0-m tall hollow aluminum flagpole is equivalent in stiffness to a solid
 cylinder 4.00 cm in diameter. A strong wind bends the pole much as a horizontal
 force of 900 N exerted at the top would. How far to the side does the top of
@@ -798,8 +798,8 @@ the pole flex?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 As an oil well is drilled, each new section of drill pipe supports its own
 weight and that of the pipe and drill bit beneath it. Calculate the stretch in
 a new 6.00 m length of steel pipe that supports 3.00 km of pipe having a mass
@@ -807,34 +807,34 @@ of 20.0 kg/m and a 100-kg drill bit. The pipe is equivalent in stiffness to a
 solid cylinder 5.00 cm in diameter.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 8.59 mm
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 Calculate the force a piano tuner applies to stretch a steel piano wire 8.00 mm, if the wire is originally 0.850 mm in diameter and 1.35 m long.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 A vertebra is subjected to a shearing force of 500 N. Find the shear deformation,
 taking the vertebra to be a cylinder 3.00 cm high and 4.00 cm in diameter.
 
 </div>
-<div data-type="solution">
-<div data-type="equation" id="eip-id1373472">
+<div class="solution">
+<div class="equation" id="eip-id1373472">
  $$ 1.49 \times 10^{-7}\m $$
 </div>
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 A disk between vertebrae in the spine is subjected to a shearing force of 600 N.
 Find its shear deformation, taking
 it to have the shear modulus of $$ 1\times 10^{9}\text{N/m}^{2} $$.
@@ -844,8 +844,8 @@ diameter.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 When using a pencil eraser, you exert a vertical force of 6.00 N at a distance of 2.00 cm from the
 hardwood-eraser joint. The pencil is 6.00 mm in diameter and is held at an angle of $$ 20.0^\circ $$
 to the horizontal.
@@ -853,15 +853,15 @@ to the horizontal.
 (b) How much is it compressed lengthwise?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 3.99 \times 10^{-7}\m $$
 
 (b) $$ 9.67 \times 10^{-8}\m $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 To consider the effect of wires hung on poles, we take data
 from [[Figure]](../contents/ch5FurtherApplicationsOfNewtonsLaws.md#fs-id1348788), in which tensions in wires
 supporting a traffic light were calculated. The left wire made an angle $$ 30.0^\circ $$
@@ -874,8 +874,8 @@ diameter solid cylinder.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 A farmer making grape juice fills a glass bottle to the brim and caps it tightly.
 The juice expands more than the glass when it warms up, in such a way that the volume
 increases by 0.2% (that is, $$ \Delta V/ V_{0}=2\times 10^{-3} $$)
@@ -885,15 +885,15 @@ exerted by the juice per square centimeter if its bulk modulus is $$ 1.8\times
 answer, do you think the bottle will survive?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 4\times 10^{6}\text{N/m}^{2} $$.
 This is about 36 atm, greater than a typical jar can withstand.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 (a) When water freezes, its volume increases by 9.05%
 (that is, $$ \Delta V/ V_{0}=9.05 \times 10^{-2} $$).
 What force per unit area is water capable of exerting on a container when it
@@ -904,8 +904,8 @@ the like?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 This problem returns to the tightrope walker studied 
 in [[Figure]](../contents/ch5NormalTensionandOtherExamplesOfForces.md#fs-id986136), who created a tension of $$ 3.94 \times 10^{3}N $$
 in a wire making an angle $$ 5.0^\circ $$ below the horizontal with each
@@ -913,14 +913,14 @@ supporting pole. Calculate how much this tension stretches the steel wire if it
 was originally 15 m long and 0.50 cm in diameter.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 1.4 cm
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 The pole in [[Figure]](#import-auto-id1165296309614) is at a $$ 90.0^\circ $$
 bend in a power line and is therefore subjected to more shear force than poles
 in straight parts of the line. The tension in each line is $$ 4.00 \times
@@ -938,10 +938,10 @@ Clearly, the guy wire must be in the opposite direction of the bend.)
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 deformation
 : change in shape due to the application of force

@@ -4,14 +4,14 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Understand the rules of vector addition and subtraction using analytical methods.
 * Apply analytical methods to determine vertical and horizontal component vectors.
 * Apply analytical methods to determine the magnitude and direction of a resultant vector.
 
 </div>
 
-**Analytical methods**{: data-type="term" #import-auto-id1165298770648} of
+**Analytical methods**{: class="term" #import-auto-id1165298770648} of
 vector addition and subtraction employ geometry and simple trigonometry rather
 than the ruler and protractor of graphical methods. Part of the graphical
 technique is retained, because vectors are still represented by arrows for easy
@@ -38,7 +38,7 @@ components of $$ \vb{A} $$ along the **x**- and **y**-axes. The three
 vectors $$ \vb{A} $$, $$ \vb{A}_{x} $$, and $$ \vb{A}_{y} $$
 form a right triangle:
 
-<div data-type="equation" id="eip-680">
+<div class="equation" id="eip-680">
  $$ \vb{A}_{x}+ \vb{A}_{y} = \vb{A}. $$
 </div>
 
@@ -50,7 +50,7 @@ $$ north, and $$ \vb{A}=5 \m $$ north-east, then it is true
 that the vectors $$ \vb{A}_{x} +\vb{A}_{y} =\vb{A} $$. However, it is
 **not** true that the sum of the magnitudes of the vectors is also equal. That is,
 
-<div data-type="equation" id="eip-818">
+<div class="equation" id="eip-818">
  $$ \begin{array}{}
 3 \m + 4 \m \ne 5 \m \\ 
 \end{array} $$
@@ -58,7 +58,7 @@ that the vectors $$ \vb{A}_{x} +\vb{A}_{y} =\vb{A} $$. However, it is
 
 Thus,
 
-<div data-type="equation" id="eip-505">
+<div class="equation" id="eip-505">
  $$ A_x+A_y \neq A $$
 </div>
 
@@ -68,13 +68,13 @@ If the vector $$ \vb{A} $$ is known, then its magnitude $$ A $$
  and $$ A_{y} $$, its **x**- and **y**-components, we use the
 following relationships for a right triangle.
 
-<div data-type="equation" id="eip-377">
+<div class="equation" id="eip-377">
  $$ A_{x}=A\cos{\theta} $$
 </div>
 
 and
 
-<div data-type="equation" id="eip-69">
+<div class="equation" id="eip-69">
  $$ A_{y}=A\sin{\theta} . $$
 </div>
 
@@ -91,11 +91,11 @@ and [Vector Addition and Subtraction: Graphical Methods](../contents/ch3VectorAd
 
 Then $$ A=10.3 $$ blocks and $$ \theta =29.1^\circ $$, so that
 
-<div data-type="equation" id="eip-id1646569">
+<div class="equation" id="eip-id1646569">
  $$ A_{x}=\mag{A} \cos{\theta} =\left(10.3 \text{blocks}\right)\left(\cos{29.1^\circ }\right)=9.0 \text{blocks} $$
 </div>
 
-<div data-type="equation" id="eip-id2495034">
+<div class="equation" id="eip-id2495034">
  $$ A_{y} = \mag{A} \sin{\theta} =\left(10.3 \text{ blocks}\right)\left(\sin{29.1^\circ }\right)=5.0 \text{blocks}. $$
 </div>
 
@@ -107,11 +107,11 @@ found analytically. To find the magnitude $$ A $$ and direction $$ \theta $$ of
 a vector from its perpendicular components $$ \vb{A}_{x} $$ and $$
 \vb{A}_{y} $$, we use the following relationships:
 
-<div data-type="equation" id="eip-109">
+<div class="equation" id="eip-109">
  $$ A=\sqrt{ A_x^2+ A_y^2} $$
 </div>
 
-<div data-type="equation" id="eip-750">
+<div class="equation" id="eip-750">
  $$ \theta ={\tan}^{-1} \left( \frac{ A_{y}}{ A_{x}} \right). $$
 </div>
 
@@ -125,8 +125,8 @@ respectively, then $$ A=\sqrt{ 9^{2}+5^{2}}=10.3 $$ blocks, again consistent
 with the example of the person walking in a city. Finally, the direction is $$
 \theta ={\tan}^{-1}\left(5/9 \right) =29.1^\circ $$, as before.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Determining Vectors and Vector Components with Analytical Methods
 </div>
 Equations $$ A_{x}=A\cos{\theta} $$ and $$ A_{y}=A\sin{\theta} $$
@@ -179,13 +179,13 @@ $$ \theta_{\text{B}} $$, respectively.
 the components of the individual vectors along that axis.* That is, as
 shown in [[Figure]](#import-auto-id1165298866862),
 
-<div data-type="equation" id="eip-284">
+<div class="equation" id="eip-284">
  $$ R_{x}= A_{x}+B_{x} $$
 </div>
 
 and
 
-<div data-type="equation" id="eip-92">
+<div class="equation" id="eip-92">
  $$ R_{y}= A_{y}+B_{y}. $$
 </div>
 
@@ -204,21 +204,21 @@ found.
 ***Step 3.*** *To get the magnitude $$ R $$ of the resultant, use the
 Pythagorean theorem:*
 
-<div data-type="equation" id="eip-960">
+<div class="equation" id="eip-960">
 $$ R=\sqrt{ R_{x}^{2}+R_{y}^{2}}. $$
 </div>
 
 ***Step 4.*** *To get the direction of the resultant:*
 
-<div data-type="equation" id="eip-173">
+<div class="equation" id="eip-173">
 $$ \theta ={\tan}^{-1} \left( R_{y}/R_{x} \right). $$
 </div>
 
 The following example illustrates this technique for adding vectors using
 perpendicular components.
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Adding Vectors Using Analytical Methods
 </div>
 Add the vector $$ \vb{A} $$ to the vector $$ \vb{B} $$
@@ -250,7 +250,7 @@ A=53.0 \m $$, $$ \theta_{\text{A}}=20.0^\circ $$, $$ B=34.0 \m $$,
 and $$ \theta_{\text{B}}=63.0^\circ $$. We find the **x**-components by using $$
 A_{x}=A\cos{\theta} $$, which gives
 
-<div data-type="equation" id="eip-253">
+<div class="equation" id="eip-253">
  $$ \begin{array}{lll}
 A_{x}& =& A\cos{\theta_{A}}=\left(53.0 \m \right) \left(\cos{20.0^\circ}\right)\\
  & =& \left(53.0 \m \right)\left(0.940 \right)=49.8 \m
@@ -258,7 +258,7 @@ A_{x}& =& A\cos{\theta_{A}}=\left(53.0 \m \right) \left(\cos{20.0^\circ}\right)\
 </div>
 and
 
-<div data-type="equation" id="eip-356">
+<div class="equation" id="eip-356">
  $$ \begin{array}{lll}
 B_{x}& =& B\cos{\theta_{B}}=\left(34.0 \m \right) \left(\cos{63.0^\circ}\right)\\
 & =& \left(34.0 \m \right)\left(0.454\right)=15.4 \m .
@@ -266,7 +266,7 @@ B_{x}& =& B\cos{\theta_{B}}=\left(34.0 \m \right) \left(\cos{63.0^\circ}\right)\
 </div>
 Similarly, the *y*-components are found using $$ A_{y}=A\sin{\theta_{A}} $$:
 
-<div data-type="equation" id="eip-802">
+<div class="equation" id="eip-802">
  $$ \begin{array}{lll}
 A_{y}& =& A\sin{\theta_{A}}=\left(53.0 \m \right) \left(\sin{20.0^\circ }\right)\\
 & =& \left(53.0 \m \right)\left(0.342\right)=18.1 \m
@@ -274,7 +274,7 @@ A_{y}& =& A\sin{\theta_{A}}=\left(53.0 \m \right) \left(\sin{20.0^\circ }\right)
 </div>
 and
 
-<div data-type="equation" id="eip-837">
+<div class="equation" id="eip-837">
  $$ \begin{array}{lll}
 B_{y}& =& B\sin{\theta_{B}}=\left(34.0 \m \right)\left(\sin{ 63.0^\circ}\right)\\
 & = &\left(34.0 \m \right)\left(0.891\right)=30.3 \m .
@@ -282,33 +282,33 @@ B_{y}& =& B\sin{\theta_{B}}=\left(34.0 \m \right)\left(\sin{ 63.0^\circ}\right)\
 </div>
 The **x**- and **y**-components of the resultant are thus
 
-<div data-type="equation" id="eip-196">
+<div class="equation" id="eip-196">
  $$ R_{x}= A_{x}+B_{x}=49.8 \m +15.4 \m =65.2 \m $$
 </div>
 and
 
-<div data-type="equation" id="eip-325">
+<div class="equation" id="eip-325">
  $$ R_{y}= A_{y}+B_{y}=18.1 \m  +30.3 \m =48.4  \m . $$
 </div>
 Now we can find the magnitude of the resultant by using the Pythagorean theorem:
 
-<div data-type="equation" id="eip-941">
+<div class="equation" id="eip-941">
  $$ R=\sqrt{ R_{x}^{2}+R_{y}^{2} }=
 \sqrt{ \left( 65.2 \m  \right)^{2}+\left(48.4 \m  \right)^{2} } $$
 </div>
 so that
 
-<div data-type="equation" id="eip-702">
+<div class="equation" id="eip-702">
  $$ R=81.2 \m $$
 </div>
 Finally, we find the direction of the resultant:
 
-<div data-type="equation" id="eip-713">
+<div class="equation" id="eip-713">
  $$ \theta ={\tan}^{-1}\left( \frac{ R_{y}}{R_{x}} \right)= +{\tan}^{-1}\left( \frac{48.4 \m}{65.2\m}\right) . $$
 </div>
 Thus,
 
-<div data-type="equation" id="eip-755">
+<div class="equation" id="eip-755">
  $$ \theta ={\tan}^{-1}\left(0.742\right)=36.6^\circ . $$
 </div>
 ![The addition of two vectors A and B is shown. Vector A is of magnitude fifty three units and is inclined at an angle of twenty degrees to the horizontal. Vector B is of magnitude thirty four units and is inclined at angle sixty three degrees to the horizontal. The components of vector A are shown as dotted vectors A X is equal to forty nine point eight meter along x axis and A Y is equal to eighteen point one meter along Y axis. The components of vector B are also shown as dotted vectors B X is equal to fifteen point four meter and B Y is equal to thirty point three meter. The horizontal component of the resultant R X is equal to A X plus B X is equal to sixty five point two meter. The vertical component of the resultant R Y is equal to A Y plus B Y is equal to forty eight point four meter. The magnitude of the resultant of two vectors is eighty one point two meters. The direction of the resultant R is in thirty six point six degree from the vector A in anticlockwise direction.](../resources/Figure_03_03_09a.jpg "Using analytical methods, we see that the magnitude of  \( R \)  is 81.2 m and its direction is 36.6 degrees north of east."){: #import-auto-id1165298804108}
@@ -326,12 +326,12 @@ is identical to that for addition*. The components of $$ -\vb{B} $$
 are the negatives of the components of $$ \vb{B} $$. The *x*- and **y**-components
 of the resultant $$ \vb{A}-\vb{B} = \vb{R} $$ are thus
 
-<div data-type="equation" id="eip-772">
+<div class="equation" id="eip-772">
  $$ R_{x}= A_{x}+\left(- B_{x}\right) $$
 </div>
 and
 
-<div data-type="equation" id="eip-532">
+<div class="equation" id="eip-532">
  $$ R_{y}= A_{y}+\left(- B_{y}\right) $$
 </div>
 and the rest of the method outlined above is identical to that for addition. (See [[Figure]](#import-auto-id1165298841604).)
@@ -347,14 +347,14 @@ physics.
 ![In this figure, the subtraction of two vectors A and B is shown. A red colored vector A is inclined at an angle theta A to the positive of x axis. From the head of vector A a blue vector negative B is drawn. Vector B is in west of south direction. The resultant of the vector A and vector negative B is shown as a black vector R from the tail of vector A to the head of vector negative B. The resultant R is inclined to x axis at an angle theta below the x axis. The components of the vectors are also shown along the coordinate axes as dotted lines of their respective colors.](../resources/Figure_03_03_10a.jpg "The subtraction of the two vectors shown in [link]. The components of &#x2013; \( B \)  are the negatives of the components of  \( B \) . The method of subtraction is the same as that for addition.")
 {: #import-auto-id1165298841604}
 
-<div data-type="note" data-has-label="true" id="eip-948" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" id="eip-948" data-label="" markdown="1">
+<div class="title">
 PhET Explorations: Vector Addition
 </div>
 Learn how to add vectors. Drag vectors onto a graph, change their length and angle, and sum them together. The magnitude, angle, and components of each vector can be displayed in several formats.
 
 <figure markdown="1" id="eip-id3192946">
-<div data-type="phet">
+<div class="phet">
 <iframe src="https://phet.colorado.edu/sims/html/vector-addition/latest/vector-addition_en.html" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 Vector Addition
@@ -373,13 +373,13 @@ Vector Addition
   Step 1: Determine the coordinate system for the vectors. Then, determine the
   horizontal and vertical components of each vector using the equations
 
-  <div data-type="equation" id="import-auto-id1165298699812">
+  <div class="equation" id="import-auto-id1165298699812">
  $$ \begin{array}{lll} A_{x}& =& A\cos{\theta} \\  B_{x}& =& B\cos{\theta} \end{array} $$
   </div>
 
   and
 
-  <div data-type="equation" id="import-auto-id1165298717989">
+  <div class="equation" id="import-auto-id1165298717989">
  $$ \begin{array}{lll} A_{y}& =& A\sin{\theta} \\  B_{y}& =& B\sin{\theta} .
 \end{array} $$
   </div>
@@ -387,33 +387,33 @@ Vector Addition
   Step 2: Add the horizontal and vertical components of each vector to determine
   the components $$ R_{x} $$ and $$ R_{y} $$ of the resultant vector, $$ \vb{R} $$:
 
-  <div data-type="equation" id="import-auto-id1165298564746">
+  <div class="equation" id="import-auto-id1165298564746">
  $$ R_{x}= A_{x}+B_{x} $$
   </div>
 
   and
 
-  <div data-type="equation" id="import-auto-id1165298586327">
+  <div class="equation" id="import-auto-id1165298586327">
  $$ R_{y}= A_{y}+B_{y} . $$
   </div>
 
   Step 3: Use the Pythagorean theorem to determine the magnitude, $$ R $$, of
   the resultant vector $$ \vb{R} $$:
 
-  <div data-type="equation" id="import-auto-id1165298936413">
+  <div class="equation" id="import-auto-id1165298936413">
  $$ R=\sqrt{ R_{x}^{2}+R_{y}^{2}}. $$
   </div>
 
   Step 4: Use a trigonometric identity to determine the direction, $$ \theta $$, of $$ \vb{R} $$:
 
-  <div data-type="equation" id="import-auto-id1165296245925">
+  <div class="equation" id="import-auto-id1165296245925">
  $$ \theta ={\tan}^{-1}\left( R_{y}/ R_{x}\right). $$
   </div>
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Suppose you add two vectors $$ \vb{A} $$ and $$ \vb{B} $$. What relative direction between them produces the resultant with the greatest
 magnitude? What is the maximum magnitude? What relative direction between them
 produces the resultant with the smallest magnitude? What is the minimum
@@ -422,22 +422,22 @@ magnitude?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Give an example of a nonzero vector that has a component of zero.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Explain why a vector cannot have a component greater than its own magnitude.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 If the vectors $$ \vb{A} $$ and $$ \vb{B} $$
 are perpendicular, what is the component of $$ \vb{A} $$
 along the direction of $$ \vb{B} $$
@@ -450,15 +450,15 @@ along the direction of $$ \vb{A} $$
 
 ### Problems &amp; Exercises {#eip-18}
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Find the following for path C in [[Figure]](#import-auto-id1165298863773): (a) the total distance traveled and (b) the magnitude and direction of the displacement from start to finish. In this part of the problem, explicitly show how you follow the steps of the analytical method of vector addition.
 
 ![A map of city is shown. The houses are in form of square blocks of side one hundred and twenty meter each. Four paths A B C and D are shown in different colors. The path c shown as blue extends to one block towards north, then five blocks towards east and then two blocks towards south then one block towards west and one block towards north and finally three blocks towards west. It is asked to find out the total distance traveled the magnitude and the direction of the displacement from start to finish for path C.](../resources/Figure_03_02_20a.jpg "The various lines represent paths taken by different people walking in a city. All blocks are 120 m on a side.")
 {: #import-auto-id1165298863773}
 
 </div>
-<div data-type="solution" id="eip-id2052721" markdown="1">
+<div class="solution" id="eip-id2052721" markdown="1">
 (a) 1.56 km
 
 (b) 120 m east
@@ -466,29 +466,29 @@ Find the following for path C in [[Figure]](#import-auto-id1165298863773): (a) t
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Find the following for path D in [[Figure]](#import-auto-id1165298863773): (a) the total distance traveled and (b) the magnitude and direction of the displacement from start to finish. In this part of the problem, explicitly show how you follow the steps of the analytical method of vector addition.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Find the north and east components of the displacement from San Francisco to Sacramento shown in [[Figure]](#import-auto-id1165298797444).
 
 ![A map of northern California with a circle with a radius of one hundred twenty three kilometers centered on San Francisco. Sacramento lies on the circumference of this circle in a direction forty-five degrees north of east from San Francisco.](../resources/Figure_03_02_19a.jpg)
 {: #import-auto-id1165298797444}
 
 </div>
-<div data-type="solution" id="eip-id2406348" markdown="1">
+<div class="solution" id="eip-id2406348" markdown="1">
 North-component 87.0 km, east-component 87.0 km
 
 </div>
 </div>
 
-<div data-type="exercise" id="eip-287" data-element-type="problems-exercises">
-<div data-type="problem" id="eip-61" markdown="1">
+<div class="exercise" id="eip-287" data-element-type="problems-exercises">
+<div class="problem" id="eip-61" markdown="1">
 Solve the following problem using analytical techniques: Suppose you walk 18.0 m straight west and then 25.0 m straight north. How far are you from your starting point, and what is the compass direction of a line connecting your starting point to your final position?
 (If you represent the two legs of the walk as vector displacements $$ \vb{A} $$ and $$ \vb{B} $$, as in [[Figure]](#import-auto-id1165298935750), then this problem asks you to
 find their sum $$
@@ -504,22 +504,22 @@ graphical technique.
 </div>
 </div>
 
-<div data-type="exercise" id="eip-430" data-element-type="problems-exercises">
-<div data-type="problem" id="eip-400" markdown="1">
+<div class="exercise" id="eip-430" data-element-type="problems-exercises">
+<div class="problem" id="eip-400" markdown="1">
 Repeat [[Figure]](#eip-287) using analytical techniques, but reverse the order of the two legs of the walk and show that you get the same final result.
 (This problem shows that adding them in reverse order gives the same result—that is,
 $$ \vb{B} + \vb{A} = \vb{A} + \vb{B} $$.) Discuss how taking another path to reach the same point might help to
 overcome an obstacle blocking your other path.
 
 </div>
-<div data-type="solution" id="eip-24" markdown="1">
+<div class="solution" id="eip-24" markdown="1">
 30.8 m, 35.8 west of north
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 You drive $$ 7.50 \text{km} $$ in a straight line in a direction $$ 15^\circ $$
 east of north.
 (a) Find the distances you would have to drive straight east and
@@ -532,8 +532,8 @@ north legs are reversed in order.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Do [[Figure]](#eip-287) again using analytical techniques and change the second leg of the walk to $$ 25.0 \m  $$
 straight south. (This is equivalent to subtracting $$ \vb{B} $$
 from $$ \vb{A} $$
@@ -546,7 +546,7 @@ from $$ \vb{B} $$
 —that is, to find $$ \vb{A}=\vb{B}+\vb{C} $$. Is that consistent with your result?)
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 30.8 \m $$, $$ 54.2^\circ $$ south of west
 
 (b) $$ 30.8 \m $$, $$ 54.2^\circ $$ north of east
@@ -554,8 +554,8 @@ from $$ \vb{B} $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A new landowner has a triangular piece of flat land she wishes to fence. Starting at the west corner, she measures the first side to be 80.0 m long and the next to be 105 m. These sides are represented as displacement vectors $$ \vb{A} $$ from $$ \vb{B} $$
 in [[Figure]](#eip-id3165265). She then correctly calculates the length and
 orientation of the third side $$ \text{C} $$. What is her result?
@@ -566,8 +566,8 @@ orientation of the third side $$ \text{C} $$. What is her result?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 You fly $$ 32.0 \text{km} $$ in a straight line in still air in the direction $$ 35.0^\circ $$
 south of west.
 (a) Find the distances you would have to fly straight south and
@@ -580,15 +580,15 @@ west of north. These are the components of the displacement along a different
 set of axes—one rotated $$ 45^\circ $$.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 18.4 km south, then 26.2 km west(b) 31.5 km at $$ 45.0^\circ $$ south of west, then 5.56 km at $$ 45.0^\circ $$
 west of north
 
 </div>
 </div>
 
-<div data-type="exercise" id="eip-379" data-element-type="problems-exercises">
-<div data-type="problem" id="eip-201" markdown="1">
+<div class="exercise" id="eip-379" data-element-type="problems-exercises">
+<div class="problem" id="eip-201" markdown="1">
 A farmer wants to fence off his four-sided plot of flat land.
 He measures the first three sides, shown as $$ \vb{A}, $$
 $$ \vb{B}, $$ and $$ \vb{C} $$ in [[Figure]](#import-auto-id1165298543237), and then correctly calculates the length and orientation of the fourth side $$
@@ -600,8 +600,8 @@ $$ \vb{B}, $$ and $$ \vb{C} $$ in [[Figure]](#import-auto-id1165298543237), and 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 In an attempt to escape his island, Gilligan builds a raft and sets to sea.
 The wind shifts a great deal during the day, and he is blown along the following straight lines: $$ 2.50 \text{km} $$,
 $$ 45.0^\circ $$ north of west; then $$ 4.70 \text{km} $$, $$ 60.0^\circ $$ south
@@ -612,14 +612,14 @@ north; then $$ 7.20 \text{km} $$, $$ 55.0^\circ $$ south of west; and finally $$
 relative to the island?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 7.34 \text{km} $$, $$ 63.5^\circ $$ south of east
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Suppose a pilot flies $$ 40.0 \text{km} $$ in a direction $$ 60^\circ $$
 north of east and then flies $$ 30.0 \text{km} $$
 in a direction $$ 15^\circ $$
@@ -637,10 +637,10 @@ mass.
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 analytical method
 : the method of determining the magnitude and direction of a resultant vector

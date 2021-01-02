@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Determine the appropriate number of significant figures in both addition and subtraction, as well as multiplication and division calculations.
 * Calculate the percent uncertainty of a measurement.
 
@@ -19,7 +19,7 @@ layout: page
 ### Accuracy and Precision of a Measurement
 
 Science is based on observation and experiment—that is, on measurements.
-**Accuracy**{: data-type="term" #import-auto-id2543264} is how close a
+**Accuracy**{: class="term" #import-auto-id2543264} is how close a
 measurement is to the correct value for that measurement. For example, let us
 say that you are measuring the length of standard computer paper. The packaging in
 which you purchased the paper states that it is 11.0 inches long. You measure
@@ -29,7 +29,7 @@ are very close to the correct value of 11.0 inches. In contrast, if you had
 obtained a measurement of 12 inches, your measurement would not be very
 accurate.
 
-The **precision**{: data-type="term" #import-auto-id2607150} of a measurement
+The **precision**{: class="term" #import-auto-id2607150} of a measurement
 system is refers to how close the agreement is between repeated measurements (
 which are repeated under the same conditions). Consider the example of the paper
 measurements. The precision of the measurements refers to the spread of the
@@ -73,7 +73,7 @@ dots are concentrated rather closely to one another, indicating high precision, 
 ### Accuracy, Precision, and Uncertainty
 
 The degree of accuracy and precision of a measuring system are related to the
-**uncertainty**{: data-type="term" #import-auto-id1745835} in the measurements.
+**uncertainty**{: class="term" #import-auto-id1745835} in the measurements.
 Uncertainty is a quantitative measure of how much your measured values
 deviate from a standard or expected value. If your measurements are not very
 accurate or precise, then the uncertainty of your values will be very high. In
@@ -105,8 +105,8 @@ other. At any rate, the uncertainty in a measurement must be based on a careful
 consideration of all the factors that might contribute and their possible
 effects.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Making Connections: Real-World Connections – Fevers or Chills?
 </div>
 Uncertainty is a critical piece of information, both in physics and
@@ -126,15 +126,15 @@ be useless.
 
 One method of expressing uncertainty is as a percent of the measured value. If a
 measurement $$ A $$ is expressed with uncertainty, $$ \delta A $$, the **percent
-uncertainty**{: data-type="term" #import-auto-id3102818} (%unc)
+uncertainty**{: class="term" #import-auto-id3102818} (%unc)
 is defined to be
 
-<div data-type="equation" id="eip-718">
+<div class="equation" id="eip-718">
  $$ \% \text{unc} = \frac{ \delta A}{A} \times 100 \% . $$
 </div>
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating Percent Uncertainty: A Bag of Apples
 </div>
 A grocery store sells $$ 5\text{-lb} $$ bags of apples. You purchase four bags over the course of a month and weigh the
@@ -158,7 +158,7 @@ First, observe that the expected value of the bag’s weight, $$ A $$, is 5 lb.
 The uncertainty in this value, $$ \delta A $$, is 0.4 lb. We can use the
 following equation to determine the percent uncertainty of the weight:
 
-<div data-type="equation" id="eip-136">
+<div class="equation" id="eip-136">
  $$ \% \text{unc} =\frac{ \delta A}{A} \times 100 \% . $$
 </div>
 
@@ -166,7 +166,7 @@ following equation to determine the percent uncertainty of the weight:
 
 Plug the known values into the equation:
 
-<div data-type="equation" id="eip-191">
+<div class="equation" id="eip-191">
  $$ \% \text{unc} =\frac{0.4\text{lb}}{5\text{lb}} \times 100  \% = 8 \% . $$
 </div>
 
@@ -188,7 +188,7 @@ example, the area of a floor calculated from measurements of its length and
 width has an uncertainty because the length and width have uncertainties. How
 big is the uncertainty in something you calculate by multiplication or division?
 If the measurements going into the calculation have small uncertainties (a few
-percent or less), then the **method of adding percents**{: data-type="term"
+percent or less), then the **method of adding percents**{: class="term"
 #import-auto-id1516086} can be used for multiplication or division. This method
 says that **the percent uncertainty in a quantity calculated by multiplication or division is the sum of the percent
 uncertainties in the items used to make the calculation**. For example, if a
@@ -198,18 +198,18 @@ floor is $$ 12.0 \mm $$ and has an uncertainty of $$ 3 \% $$. (Expressed
 as an area this is $$ 0.36 \mm $$, which we round to $$ 0.4 \mm
 $$ since the area of the floor is given to a tenth of a square meter.)
 
-<div data-type="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
-<div data-type="title">
+<div class="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
+<div class="title">
 Check Your Understanding
 </div>
-<div data-type="problem" markdown="1">
+<div class="problem" markdown="1">
 A high school track coach has just purchased a new stopwatch. The stopwatch manual states that the stopwatch has an uncertainty of $$ \pm  0.05 \s $$. Runners on the track coach’s team regularly clock 100-m sprints of $$ 11.49 \s   $$
 to $$ 15.01 \s $$. At the school’s last track meet, the first-place sprinter came in at $$ 12.04 \s   $$
 and the second-place sprinter came in at $$ 12.07 \s $$. Will the coach’s new stopwatch be helpful in timing the sprint team? Why or
 why not?
 
 </div>
-<div data-type="solution" data-print-placement="here" markdown="1">
+<div class="solution" data-print-placement="here" markdown="1">
 No, the uncertainty in the stopwatch is too great to effectively differentiate between the sprint times.
 
 </div>
@@ -235,7 +235,7 @@ the person performing the measurement. For example, the person measuring the
 length of a stick with a ruler notices that the stick length seems to be
 somewhere in between $$ 36.6\text{cm} $$ and $$ 36.7\text{cm} $$, and they
 must estimate the value of the last digit. Using the method of **significant
-figures**{: data-type="term" #import-auto-id2992464}, the rule is that **the
+figures**{: class="term" #import-auto-id2992464}, the rule is that **the
 last digit written down in a measurement is the first digit with some
 uncertainty**. In order to determine the number of significant digits in a
 value, start with the first measured value at the left and count the number of
@@ -256,11 +256,11 @@ digit, or they could be placekeepers. So 1300 could have two, three, or four
 significant figures. (To avoid this ambiguity, write 1300 in scientific
 notation.) **Zeros are significant except when they serve only as placekeepers** .
 
-<div data-type="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
-<div data-type="title">
+<div class="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
+<div class="title">
 Check Your Understanding
 </div>
-<div data-type="problem" markdown="1">
+<div class="problem" markdown="1">
 Determine the number of significant figures in the following measurements:
 
 1. 0.0009
@@ -270,7 +270,7 @@ Determine the number of significant figures in the following measurements:
 5. 30.42
 {: data-mark-prefix="(" data-mark-suffix=")" type="a"}
 </div>
-<div data-type="solution" data-print-placement="here" markdown="1">
+<div class="solution" data-print-placement="here" markdown="1">
 (a) 1; the zeros in this number are placekeepers that indicate the decimal point
 
 (b) 6; here, the zeros indicate that a measurement was made to the 0.1 decimal
@@ -303,7 +303,7 @@ circle can be calculated from its radius using $$ A=\pi r^{2} $$. Let us see how
 many significant figures the area has if the radius has only two—say, $$
 r=1.2\m $$. Then,
 
-<div data-type="equation" id="eip-722">
+<div class="equation" id="eip-722">
  $$ A=\pi r^{2}=\left(3.1415927 \dots \right) \times  \left(1.2\m  \right)^{2}
 =4.5238934 \mm $$
 </div>
@@ -312,7 +312,7 @@ is what you would get using a calculator that has an eight-digit output. But
 because the radius has only two significant figures, it limits the calculated
 quantity to two significant figures or
 
-<div data-type="equation" id="eip-890">
+<div class="equation" id="eip-890">
  $$ A=4.5 \mm, $$
 </div>
 
@@ -327,7 +327,7 @@ potatoes as measured by a bathroom scale with precision 0.1 kg. How many
 kilograms of potatoes do you now have, and how many significant figures are
 appropriate in the answer? The mass is found by simple addition and subtraction:
 
-<div data-type="equation" id="eip-336">
+<div class="equation" id="eip-336">
 $$
 \eqalign{
 7 & . & 56 \kg \\
@@ -357,11 +357,11 @@ than three significant figures will be used. Finally, if a number is **exact**,
 such as the two in the formula for the circumference of a circle, $$ c=2\pi r
 $$, it does not affect the number of significant figures in a calculation.
 
-<div data-type="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
-<div data-type="title">
+<div class="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
+<div class="title">
 Check Your Understanding
 </div>
-<div data-type="problem" markdown="1">
+<div class="problem" markdown="1">
 Perform the following calculations and express your answer using the correct number of significant digits.
 
 (a) A woman has two bags weighing 13.5 pounds and one bag with a weight of 10.2
@@ -373,7 +373,7 @@ its acceleration $$ a $$. If a wagon with mass 55 kg accelerates at a rate of $$
 called the newton, and it is expressed with the symbol N.)
 
 </div>
-<div data-type="solution" data-print-placement="here" markdown="1">
+<div class="solution" data-print-placement="here" markdown="1">
 (a) 37.2 pounds; Because the number of bags is an exact value, it is not considered in the significant figures.
 
 (b) 1.4 N; Because the value 55 kg has only two significant figures, the final
@@ -382,8 +382,8 @@ value must also contain two significant figures.
 </div>
 </div>
 
-<div data-type="note" data-has-label="true" id="eip-515" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" id="eip-515" data-label="" markdown="1">
+<div class="title">
 PhET Explorations: Estimation
 </div>
 Explore size estimation in one, two, and three dimensions! Multiple levels of difficulty allow for progressive skill improvement.
@@ -417,15 +417,15 @@ Estimation
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 What is the relationship between the accuracy and uncertainty of a measurement?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Prescriptions for vision correction are given in units called **diopters** (D). Determine the meaning of that unit. Obtain information (perhaps by calling an optometrist or performing an internet search) on the minimum uncertainty with which corrections in diopters are determined and the accuracy with which corrective lenses can be produced. Discuss the sources of uncertainties in both the prescription and accuracy in the manufacture of lenses.
 
 </div>
@@ -436,31 +436,31 @@ Prescriptions for vision correction are given in units called **diopters** (D). 
 **Express your answers to problems in this section to the correct number of
 significant figures and proper units.**
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Suppose that your bathroom scale reads your mass as 65 kg with a 3% uncertainty. What is the uncertainty in your mass (in kilograms)?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 2 kg
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A good-quality measuring tape can be off by 0.50 cm over a distance of 20 m. What is its percent uncertainty?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) A car speedometer has a $$ 5.0 \% $$ uncertainty. What is the range of
 possible speeds when it reads $$ 90\text{km/h} $$ ?
 (b) Convert this range to miles per hour. $$ \left(1 \text{km}= 0.6214 \text{mi}\right) $$
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 1. $$ 85.5\text{to } 94.5 \text{km/h} $$
 
 2. $$ 53.1\text{to } 58.7 \text{mi/h} $$ {: data-mark-prefix="("
@@ -469,21 +469,21 @@ possible speeds when it reads $$ 90\text{km/h} $$ ?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 An infant’s pulse rate is measured to be $$ 130  \pm  5 $$ beats/min.
 What is the percent uncertainty in this measurement?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) Suppose that a person has an average heart rate of 72.0 beats/min.
 How many beats do they have in 2.0 y?
 (b) In 2.00 y?
 (c) In 2.000 y?
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 7.6\times 10^{7}\text{beats} $$
 
 (b) $$ 7.57 \times 10^{7}\text{beats} $$
@@ -492,20 +492,20 @@ How many beats do they have in 2.0 y?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A can contains 375 mL of soda. How much is left after 308 mL is removed?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 State how many significant figures are proper in the results of the following calculations:
 a. $$ \left(106.7\right)\left(98.2\right)/\left(46.210\right)\left(1.01\right) $$
 b. $$ \left(18.7\right)^{2} $$
 c. $$ \left(1.60 \times 10^{-19}\right) \left( 3712\right) $$.
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 1.  3
 2.  3
 3.  3
@@ -514,8 +514,8 @@ c. $$ \left(1.60 \times 10^{-19}\right) \left( 3712\right) $$.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) How many significant figures are in the numbers 99 and 100?
 (b) If the uncertainty in each number is 1, what is the percent uncertainty in each?
 (c) Which is a more meaningful way to express the accuracy of these two numbers,
@@ -524,23 +524,23 @@ significant figures or percent uncertainties?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) If your speedometer has an uncertainty of $$ 2.0\text{km/h} $$
 at a speed of $$ 90\text{km/h} $$, what is the percent uncertainty?
 (b) If it has the same percent uncertainty
 when it reads $$ 60\text{km/h} $$, what is the range of speeds you could be going?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 2.2 \% $$
 
 (b) $$ 59 \text{to 61 km/h} $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) A person’s blood pressure is measured to be $$ 120  \pm  2\text{mm Hg} $$.
 What is its percent uncertainty?
 (b) Assuming the same percent uncertainty, what is the uncertainty in a
@@ -549,40 +549,40 @@ blood pressure measurement of $$80 \text{mm Hg} $$ ?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A person measures their heart rate by counting the number of beats in
 $$30 \s $$. If $$ 40 \pm 1 $$ beats are counted in
 $$ 30.0 \pm 0.5\s  $$,
 what is the heart rate and its uncertainty in beats per minute?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 80 \pm 3\text{beats/min} $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 What is the area of a circle $$ 3.102\text{cm} $$ in diameter?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 If a marathon runner averages 9.5 mi/h, how long does it take him or her to run a 26.22-mi marathon?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 2.8\text{h} $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A marathon runner completes a $$ 42.188\text{-km} $$ course in $$ 2\text{h} $$,
 30 min, and $$12 \s $$. There is an uncertainty of $$25 \m $$
 in the distance traveled and an uncertainty of 1 s in the elapsed time.
@@ -594,21 +594,21 @@ in the distance traveled and an uncertainty of 1 s in the elapsed time.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 The sides of a small rectangular box are measured to be $$ 1.80 \pm 0.01\text{cm} $$,
 $$ 2.05 \pm 0.02\text{cm}$$,and $$3.0 \pm 0.1 \text{cm} $$
 long. Calculate its volume and uncertainty in cubic centimeters.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 11 \pm 1 \text{cm}^{3} $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 When non-metric units were used in the United Kingdom, a unit of mass called
 the **pound-mass** (lbm) was employed, where $$ 1\text{lbm}=0.4539\kg $$.
 (a) If there is an uncertainty of $$ 0.0001\kg  $$
@@ -619,20 +619,20 @@ converted to kilograms?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 The length and width of a rectangular room are measured to be
 $$ 3.955 \pm 0.005\m $$ and $$ 3.050 \pm 0.005\m $$.
 Calculate the area of the room and its uncertainty in square meters.
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 12.06 \pm 0.04 \mm $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A car engine moves a piston with a circular cross section of
 $$ 7.500 \pm 0.002\text{cm} $$ diameter a distance of $$ 3.250 \pm 0.001\text{cm} $$
 to compress the gas in the cylinder.
@@ -643,10 +643,10 @@ volume in cubic centimeters?
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 accuracy
 : the degree to which a measured value agrees with correct value for that

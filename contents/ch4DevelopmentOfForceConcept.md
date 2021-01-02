@@ -4,14 +4,14 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Understand the definition of force.
 
 </div>
 
-**Dynamics**{: data-type="term" #import-auto-id2134480} is the study of the
+**Dynamics**{: class="term" #import-auto-id2134480} is the study of the
 forces that cause objects and systems to move. To understand this, we need a
-working definition of force. Our intuitive definition of **force**{: data-type="
+working definition of force. Our intuitive definition of **force**{: class="
 term" #import-auto-id2712510}—that is, a push or a pull—is a good place to
 start. We know that a push or pull has both magnitude and direction (therefore,
 it is a vector quantity) and can vary considerably in each regard. For example,
@@ -30,8 +30,8 @@ developed in [Two-Dimensional Kinematics](../contents/ch3TwoDimensionalKinematic
 {: #import-auto-id2379809}
 
 [[Figure]](#import-auto-id2379809)(b) is our first example of a **free-body
-diagram**{: data-type="term" #import-auto-id1590568}, which is a technique used
-to illustrate all the **external forces**{: data-type="term"
+diagram**{: class="term" #import-auto-id1590568}, which is a technique used
+to illustrate all the **external forces**{: class="term"
 #import-auto-id1608860} acting on a body. The body is represented by a single
 isolated point (or free body), and only those forces acting *on* the body from the
 outside (external forces) are
@@ -59,8 +59,8 @@ alternative definitions of force will be given later in this chapter.
 (c) A spring scale is one device that uses a spring to measure force. The force  \( F_{\text{restore}} \) i s exerted on whatever is attached to the hook. Here  \( F_{\text{restore}} \) has a magnitude of 6 units in the force standard being employed.")
 {: #import-auto-id2608835}
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Take-Home Experiment: Force Standards
 </div>
 To investigate force standards and cause and effect, get two identical rubber bands. Hang one rubber band vertically on a hook. Find a small household item that could be attached to the rubber band using a paper clip, and use this item as a weight to investigate the stretch of the rubber band. Measure the amount of stretch produced in the rubber band with one, two, and four of these (identical) items suspended from the rubber band. What is the relationship between the number of items and the amount of stretch? How large a stretch would you expect for the same number of items suspended from two rubber bands? What happens to the amount of stretch of the rubber band (with the weights attached) if the weights are also pushed to the side with a pencil?
@@ -69,34 +69,34 @@ To investigate force standards and cause and effect, get two identical rubber ba
 
 ### Section Summary
 
-* **Dynamics**{: data-type="term"} is the study of how forces affect the motion
+* **Dynamics**{: class="term"} is the study of how forces affect the motion
   of objects.
-* **Force**{: data-type="term"} is a push or pull that can be defined in terms
+* **Force**{: class="term"} is a push or pull that can be defined in terms
   of various standards, and it is a vector having both magnitude and direction.
-* **External forces**{: data-type="term"} are any outside forces that act on a
+* **External forces**{: class="term"} are any outside forces that act on a
   body. A **free-body diagram**{:
-  data-type="term"} is a drawing of all external forces acting on a body.
+  class="term"} is a drawing of all external forces acting on a body.
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Propose a force standard different from the example of a stretched spring discussed in the text. Your standard must be capable of producing the same force repeatedly.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 What properties do forces have that allow us to classify them as vectors?
 
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 dynamics
 : the study of how forces affect the motion of objects and systems

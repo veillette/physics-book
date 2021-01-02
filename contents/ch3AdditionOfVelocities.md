@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Apply principles of vector addition to determine relative velocity.
 * Explain the significance of the observer in the measurement of velocity.
 
@@ -29,7 +29,7 @@ carries it sideways.
 ![An airplane is trying to fly straight north with velocity v sub p. Due to wind velocity v sub w in south west direction making an angle theta with the horizontal axis, the plane&#x2019;s total velocity is thirty eight point 0 meters per seconds oriented twenty degrees west of north.](../resources/Figure_03_05_02a.jpg "An airplane heading straight north is instead carried to the west and slowed down by wind. The plane does not move relative to the ground in the direction it points; rather, it moves in the direction of its total velocity (solid arrow).")
 {: #import-auto-id1851600}
 
-In each of these situations, an object has a **velocity**{: data-type="term"#import-auto-id1831655}
+In each of these situations, an object has a **velocity**{: class="term"#import-auto-id1831655}
 relative to a medium (such as a river) and that medium
 has a velocity relative to an observer on solid ground. The velocity of the
 object **relative to the observer** is the sum of these velocity vectors, as
@@ -40,7 +40,7 @@ add velocities and then consider certain aspects of what relative velocity
 means.
 
 How do we add velocities? Velocity is a vector (it has both magnitude and
-direction); the rules of **vector addition**{: data-type="term"
+direction); the rules of **vector addition**{: class="term"
 #import-auto-id1402169} discussed
 in [Vector Addition and Subtraction: Graphical Methods](../contents/ch3VectorAdditionAndSubtractionGraphicalMethods.md)
 and [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md)
@@ -59,19 +59,19 @@ velocity ( $$ v $$ and $$ \theta $$ ) and its components ( $$ v_{x} $$ and $$ v_
 {y} $$ ) along the **x**- and **y**-axes of an appropriately chosen coordinate
 system:
 
-<div data-type="equation" id="eip-343">
+<div class="equation" id="eip-343">
  $$ v_{x}=v\cos{\theta} $$
 </div>
 
-<div data-type="equation" id="eip-859">
+<div class="equation" id="eip-859">
  $$ v_{y}=v\sin{\theta} $$
 </div>
 
-<div data-type="equation" id="eip-505">
+<div class="equation" id="eip-505">
  $$ v=\sqrt{ v_{x}^{2}+v_{y}^{2}} $$
 </div>
 
-<div data-type="equation" id="eip-213">
+<div class="equation" id="eip-213">
  $$ \theta ={\tan}^{-1}\left(v_{y}/v_{x}\right). $$
 </div>
 
@@ -87,16 +87,16 @@ velocity. The first two equations are used to find the components of a velocity
 when its magnitude and direction are known. The last two are used to find the
 magnitude and direction of velocity when its components are known.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Take-Home Experiment: Relative Velocity of a Boat
 </div>
 Fill a bathtub half-full of water. Take a toy boat or some other object that floats in water. Unplug the drain so water starts to drain. Try pushing the boat from one side of the tub to the other and perpendicular to the flow of water. Which way do you need to push the boat so that it ends up immediately opposite? Compare the directions of the flow of water, heading of the boat, and actual velocity of the boat.
 
 </div>
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Adding Velocities: A Boat on a River
 </div>
 ![A boat is trying to cross a river. Due to the velocity of the river the path traveled by the boat is diagonal. The velocity of the boat, v boat, is equal to zero point seven five meters per second and is in positive y direction. The velocity of the river, v-river, is equal to one point two meters per second and is in positive x direction. The resultant diagonal velocity v total, which makes an angle of theta with the horizontal x axis, is towards north east direction.](../resources/Figure_03_05_09a.jpg "A boat attempts to travel straight across a river at a speed 0.75 m/s. The current in the river, however, flows at a speed of 1.20 m/s to the right. What is the total displacement of the boat relative to the shore?"){: #import-auto-id2070798}
@@ -123,22 +123,22 @@ the river. Thus, we can add the two velocities by using the equations $$ v_
 
 The magnitude of the total velocity is
 
-<div data-type="equation" id="eip-120">
+<div class="equation" id="eip-120">
  $$ v_{\text{tot}}=\sqrt{ v_{x}^{2}+v_{y}^{2}}, $$
 </div>
 where
 
-<div data-type="equation" id="eip-845">
+<div class="equation" id="eip-845">
  $$ v_{x}=v_{\text{river}}=1.20 \ms $$
 </div>
 and
 
-<div data-type="equation" id="eip-311">
+<div class="equation" id="eip-311">
  $$ v_{y}=v_{\text{boat}}=0.750 \ms . $$
 </div>
 Thus,
 
-<div data-type="equation" id="eip-869">
+<div class="equation" id="eip-869">
  $$ v_{\text{tot}}=\sqrt{
 \left( 1.20 \ms \right)^{2}+
 \left( 0.750 \ms \right)^{2}
@@ -146,17 +146,17 @@ Thus,
 </div>
 yielding
 
-<div data-type="equation" id="eip-166">
+<div class="equation" id="eip-166">
  $$ v_{\text{tot}}=1.42 \ms . $$
 </div>
 The direction of the total velocity $$ \theta $$ is given by:
 
-<div data-type="equation" id="eip-862">
+<div class="equation" id="eip-862">
  $$ \theta ={\tan}^{-1}\left(v_{y}/v_{x}\right)={\tan}^{-1}\left(0.750/1.20\right). $$
 </div>
 This equation gives
 
-<div data-type="equation" id="eip-16">
+<div class="equation" id="eip-16">
  $$ \theta =32.0^\circ . $$
 </div>
 
@@ -170,8 +170,8 @@ the total velocity has relative to the riverbank.
 
 </div>
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating Velocity: Wind Velocity Causes an Airplane to Drift
 </div>
 Calculate the wind velocity for the situation shown in [[Figure]](#import-auto-id1546060). The plane is known to be moving at 45.0 m/s due north relative to the air mass, while its velocity relative to the
@@ -207,35 +207,35 @@ its *x*- and *y*-components are the sums of the *x*- and *y*-components of the
 wind and plane velocities. Note that the plane only has vertical component of
 velocity so $$ v_{px}=0 $$ and $$ v_{py}=v_{\text{p}} $$. That is,
 
-<div data-type="equation" id="eip-190">
+<div class="equation" id="eip-190">
  $$ v_{\text{tot}x}=v_{\text{w}x} $$
 </div>
 and
 
-<div data-type="equation" id="eip-690">
+<div class="equation" id="eip-690">
  $$ v_{\text{tot}y}=v_{\text{w}y}+v_{\text{p}}. $$
 </div>
 We can use the first of these two equations to find $$ v_{\text{w}x} $$:
 
-<div data-type="equation" id="eip-615">
+<div class="equation" id="eip-615">
  $$ v_{\text{w}x}=v_{\text{tot}x}=v_{\text{tot}}\cos{110^\circ }. $$
 </div>
 Because $$ v_{\text{tot}}=38.0 \ms $$ and $$ \cos{110^\circ }=-0.342 $$
 we have
 
-<div data-type="equation" id="eip-112">
+<div class="equation" id="eip-112">
  $$ v_{\text{w}x}=\left(38.0 \ms \right)\left(-0.342 \right)=-13 \ms . $$
 </div>
 The minus sign indicates motion west which is consistent with the diagram.
 
 Now, to find $$ v_{\text{w}\text{y}} $$ we note that
 
-<div data-type="equation" id="eip-142">
+<div class="equation" id="eip-142">
  $$ v_{\text{tot}y}=v_{\text{w}y}+v_{\text{p}} $$
 </div>
 Here $$ v_{\text{tot}y}=v_{\text{tot}}\sin{110^\circ } $$; thus,
 
-<div data-type="equation" id="eip-206">
+<div class="equation" id="eip-206">
  $$ v_{\text{w}y}=\left(38.0 \ms \right)
 \left(0.940 \right)-45.0 \ms = -9.29 \ms . $$
 </div>
@@ -245,7 +245,7 @@ Now that the perpendicular components of the wind velocity $$ v_{\text{w}x} $$
 and $$ v_{\text{w}y} $$ are known, we can find the magnitude and direction of $$
 \vb{v}_{\text{w}} $$. First, the magnitude is
 
-<div data-type="equation" id="eip-128">
+<div class="equation" id="eip-128">
  $$ \begin{array}{lll}
 v_{\text{w}}& =& \sqrt{ v_{\text{w}x}^{2}+v_{\text{w}y}^{2}}\\
 & =& \sqrt{
@@ -256,17 +256,17 @@ v_{\text{w}}& =& \sqrt{ v_{\text{w}x}^{2}+v_{\text{w}y}^{2}}\\
 </div>
 so that
 
-<div data-type="equation" id="eip-637">
+<div class="equation" id="eip-637">
  $$ v_{\text{w}}=16.0 \ms . $$
 </div>
 The direction is:
 
-<div data-type="equation" id="eip-359">
+<div class="equation" id="eip-359">
  $$ \theta ={\tan}^{-1}\left(v_{\text{w}y}/v_{\text{w}x}\right)={\tan}^{-1}\left(-9.29/-13.0\right) $$
 </div>
 giving
 
-<div data-type="equation" id="eip-955">
+<div class="equation" id="eip-955">
  $$ \theta =35.6^\circ . $$
 </div>
 
@@ -291,11 +291,11 @@ use a coordinate system with one axis parallel to gravity.
 
 When adding velocities, we have been careful to specify that the **velocity is
 relative to some reference frame**. These velocities are called **relative
-velocities**{: data-type="term" #import-auto-id1929302}. For example, the
+velocities**{: class="term" #import-auto-id1929302}. For example, the
 velocity of an airplane relative to an air mass is different from its velocity
 relative to the ground. Both are quite different from the velocity of an
 airplane relative to its passengers (which should be close to zero). Relative
-velocities are one aspect of **relativity**{: data-type="term"
+velocities are one aspect of **relativity**{: class="term"
 #import-auto-id1982113}, which is defined to be the study of how different
 observers moving relative to each other measure the same phenomenon.
 
@@ -304,7 +304,7 @@ Albert Einstein (1879–1955), the greatest physicist of the 20th century.
 Einstein revolutionized our view of nature with his **modern** theory of
 relativity, which we shall study in later chapters. The relative velocities in
 this section are actually aspects of classical relativity, first discussed
-correctly by Galileo and Isaac Newton. **Classical relativity**{: data-type="
+correctly by Galileo and Isaac Newton. **Classical relativity**{: class="
 term" #import-auto-id1447237} is limited to situations where speeds are less
 than about 1% of the speed of light—that is, less
 than $$ 3 000 \text{km/s} $$. Most things we encounter in daily life move slower
@@ -331,8 +331,8 @@ to the observer.
 ![A person is observing a moving ship from the shore. Another person is on top of ship&#x2019;s mast. The person in the ship drops binoculars and sees it dropping straight. The person on the shore sees the binoculars taking a curved trajectory.](../resources/Figure_03_05_05a.jpg "Classical relativity. The same motion as viewed by two different observers. An observer on the moving ship sees the binoculars dropped from the top of its mast fall straight down. An observer on shore sees the binoculars take the curved path, moving forward with the ship. Both observers see the binoculars strike the deck at the base of the mast. The initial horizontal velocity is different relative to the two observers. (The ship is shown moving rather fast to emphasize the effect.)")
 {: #import-auto-id1892076}
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating Relative Velocity: An Airline Passenger Drops a Coin
 </div>
 An airline passenger drops a coin while the plane is moving at 260 m/s. What is the velocity of the coin when it strikes the floor 1.50 m below its point of release: (a) Measured relative to the plane?
@@ -357,18 +357,18 @@ Using the given information, we note that the initial velocity and position are
 zero, and the final position is 1.50 m. The final velocity can be found using
 the equation:
 
-<div data-type="equation" id="eip-313">
+<div class="equation" id="eip-313">
  $$ v_{y}^{2}=v_{0y}^{2}-2g\left(y-y_{0}\right). $$
 </div>
 Substituting known values into the equation, we get
 
-<div data-type="equation" id="eip-444">
+<div class="equation" id="eip-444">
  $$ v_{y}^{2}=0^{2}-2\left(9.80\mss \right)
 \left(-1.50\m -0 \m \right)=29.4 \mmss $$
 </div>
 yielding
 
-<div data-type="equation" id="eip-877">
+<div class="equation" id="eip-877">
  $$ v_{y}=-5.42 \ms . $$
 </div>
 We know that the square root of 29.4 has two roots: 5.42 and -5.42. We choose
@@ -388,27 +388,27 @@ and final horizontal velocities are the same and $$ v_{x}=260 \ms $$.
 The *x*- and *y*-components of velocity can be combined to find the magnitude of
 the final velocity:
 
-<div data-type="equation" id="eip-558">
+<div class="equation" id="eip-558">
  $$ v=\sqrt{ v_{x}^{2}+ v_{y}^{2} }. $$
 </div>
 Thus,
 
-<div data-type="equation" id="eip-842">
+<div class="equation" id="eip-842">
  $$ v=\sqrt{\left(260 \ms \right)^{2}+\left(-5.42 \ms \right)^{2} } $$
 </div>
 yielding
 
-<div data-type="equation" id="eip-98">
+<div class="equation" id="eip-98">
  $$ v=260.06 \ms . $$
 </div>
 The direction is given by:
 
-<div data-type="equation" id="eip-73">
+<div class="equation" id="eip-73">
  $$ \theta ={\tan}^{-1}\left(v_{y}/v_{x}\right)={\tan}^{-1}\left(-5.42/260 \right) $$
 </div>
 so that
 
-<div data-type="equation" id="eip-328">
+<div class="equation" id="eip-328">
  $$ \theta ={\tan}^{-1}\left(-0.0208\right)=-1.19^\circ. $$
 </div>
 
@@ -434,8 +434,8 @@ the coin fall 1.50 m vertically, but the one on the ground also sees it move
 forward 144 m (this calculation is left for the reader).
 Thus, one observer sees a vertical path, the other a nearly horizontal path.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Making Connections: Relativity and Einstein
 </div>
 Because Einstein was able to clearly define how measurements are made (some involve light) and because the speed of light is the same for all observers, the outcomes are spectacularly unexpected. Time varies with observer, energy is stored as increased mass, and more surprises await.
@@ -443,8 +443,8 @@ Because Einstein was able to clearly define how measurements are made (some invo
 </div>
 </div>
 
-<div data-type="note" data-has-label="true" id="eip-584" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" id="eip-584" data-label="" markdown="1">
+<div class="title">
 PhET Explorations: Motion in 2D
 </div>
 Try the new \"Ladybug Motion 2D\" simulation for the latest updated version. Learn about position, velocity, and acceleration vectors. Move the ball with the mouse or let the simulation move the ball in four types of motion (2 types of linear, simple harmonic, circle).
@@ -461,19 +461,19 @@ Motion in 2D
 
 * {: #import-auto-id2094922} Velocities in two dimensions are added using the
   same analytical vector techniques, which are rewritten as
-  <div data-type="equation" id="import-auto-id2094926">
+  <div class="equation" id="import-auto-id2094926">
  $$ v_{x}=v\cos{\theta} $$
   </div>
 
-  <div data-type="equation" id="import-auto-id2094928">
+  <div class="equation" id="import-auto-id2094928">
  $$ v_{y}=v\sin{\theta} $$
   </div>
 
-  <div data-type="equation" id="import-auto-id1887202">
+  <div class="equation" id="import-auto-id1887202">
  $$ v=\sqrt{ v_{x}^{2}+v_{y}^{2}} $$
   </div>
 
-  <div data-type="equation" id="import-auto-id1938198">
+  <div class="equation" id="import-auto-id1938198">
  $$ \theta ={\tan}^{-1}\left(v_{y}/v_{x}\right). $$
   </div>
 
@@ -487,23 +487,23 @@ Motion in 2D
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 What frame or frames of reference do you instinctively use when driving a car? When flying in a commercial jet airplane?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 A basketball player dribbling down the court usually keeps his eyes fixed on
 the players around him. He is moving fast. Why doesn’t he need to keep his eyes on the ball?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 If someone is riding in the back of a pickup truck and throws a softball
 straight backward, is it possible for the ball to fall straight down as viewed
 by a person standing at the side of the road? Under what condition would this
@@ -512,8 +512,8 @@ occur? How would the motion of the ball appear to the person who threw it?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 The hat of a jogger running at constant velocity falls off the back of
 his head. Draw a sketch showing the path of the hat in the jogger’s
 frame of reference. Draw its path as viewed by a stationary observer.
@@ -521,8 +521,8 @@ frame of reference. Draw its path as viewed by a stationary observer.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 A clod of dirt falls from the bed of a moving truck. It strikes the
 ground directly below the end of the truck. What is the direction of
 its velocity relative to the truck just before it hits? Is this the
@@ -534,8 +534,8 @@ it hits? Explain your answers.
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Bryan Allen pedaled a human-powered aircraft across the English Channel
 from the cliffs of Dover to Cap Gris-Nez on June 12, 1979.
 (a) He flew for 169 min at an average velocity of 3.53 m/s in a direction $$ 45^\circ $$
@@ -545,7 +545,7 @@ relative to the Earth. What was his average velocity relative to the air?
 (c) What was his total displacement relative to the air mass?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 35.8 km $$, $$ 45^\circ $$ south of east
 
 (b) $$ 5.53 \ms $$, $$ 45^\circ $$ south of east
@@ -555,8 +555,8 @@ relative to the Earth. What was his average velocity relative to the air?
 </div>
 </div>
 
-<div data-type="exercise" id="eip-342" data-element-type="problems-exercises">
-<div data-type="problem" id="eip-949" markdown="1">
+<div class="exercise" id="eip-342" data-element-type="problems-exercises">
+<div class="problem" id="eip-949" markdown="1">
 A seagull flies at a velocity of 9.00 m/s straight into the wind.
 (a) If it takes the bird 20.0 min to travel 6.00 km relative to the Earth,
 what is the velocity of the wind?
@@ -567,8 +567,8 @@ total round-trip time compared to what it would be with no wind.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Near the end of a marathon race, the first two runners are separated by a
 distance of 45.0 m. The front runner has a velocity of 3.50 m/s, and
 the second a velocity of 4.20 m/s.
@@ -578,7 +578,7 @@ line, who will win the race, assuming they run at constant velocity?
 (c) What distance ahead will the winner be when she crosses the finish line?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 0.70 m/s faster
 
 (b) Second runner wins
@@ -588,16 +588,16 @@ line, who will win the race, assuming they run at constant velocity?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Verify that the coin dropped by the airline passenger in the [[Figure]](#fs-id1890300)
 travels 144 m horizontally while falling 1.50 m in the frame of reference of the Earth.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A football quarterback is moving straight backward at a speed of 2.00 m/s when
 he throws a pass to a player 18.0 m straight downfield. The ball is thrown at
 an angle of $$ 25.0^\circ $$ relative to the ground and is caught at the
@@ -606,20 +606,20 @@ is the initial velocity of the ball
 *relative to the quarterback* ?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 17.0 \ms $$, $$ 22.1^\circ $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A ship sets sail from Rotterdam, The Netherlands, heading due north at 7.00 m/s relative to the water. The local ocean current is 1.50 m/s in a direction $$ 40.0^\circ $$ north of east. What is the velocity of the ship relative to the Earth?
 
 </div>
 </div>
 
-<div data-type="exercise" id="eip-741" data-element-type="problems-exercises">
-<div data-type="problem" id="eip-689" markdown="1">
+<div class="exercise" id="eip-741" data-element-type="problems-exercises">
+<div class="problem" id="eip-689" markdown="1">
 (a) A jet airplane flying from Darwin, Australia, has an air speed of 260
 m/s in a direction $$ 5.0^\circ $$ south of west. It is in the jet stream, which is blowing at 35.0 m/s in a
 direction $$ 15^\circ $$ south of east. What is the velocity of the airplane
@@ -628,7 +628,7 @@ relative to the Earth?
 effect of the wind on the plane’s path.
 
 </div>
-<div data-type="solution" id="eip-295" markdown="1">
+<div class="solution" id="eip-295" markdown="1">
 (a) $$ 230 \ms $$, $$ 8.0^\circ $$ south of west
 
 (b) The wind should make the plane travel slower and more to the south,
@@ -637,8 +637,8 @@ which is what was calculated.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) In what direction would the ship in [[Figure]](#fs-id1545568) have to
 travel in order to have a velocity straight north relative to the Earth, assuming its speed relative to the water remains $$ 7.00 \ms $$ ?
 (b) What would its speed be relative to the Earth?
@@ -646,8 +646,8 @@ travel in order to have a velocity straight north relative to the Earth, assumin
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) Another airplane is flying in a jet stream that is blowing at 45.0 m/s
 in a direction $$ 20^\circ $$ south of east (as in [[Figure]](#eip-741)). Its direction of motion relative to
 the Earth is $$ 45.0^\circ $$ south of west, while its direction of travel
@@ -657,7 +657,7 @@ speed relative to the air mass?
 Earth?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 63.5 m/s
 
 (b) 29.6 m/s
@@ -665,8 +665,8 @@ Earth?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A sandal is dropped from the top of a 15.0-m-high mast on a ship moving at 1.75 m/s due south. Calculate the velocity of the sandal when it hits the deck of the ship:
 (a) relative to the ship and
 (b) relative to a stationary observer on shore.
@@ -675,22 +675,22 @@ A sandal is dropped from the top of a 15.0-m-high mast on a ship moving at 1.75 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 The velocity of the wind relative to the water is crucial to sailboats.
 Suppose a sailboat is in an ocean current that has a velocity of 2.20 m/s in a direction $$ 30.0^\circ $$ east of north relative to the Earth. It encounters a wind that has a velocity of
 4.50 m/s in a direction of $$ 50.0^\circ $$ south of west relative to the Earth.
 What is the velocity of the wind relative to the water?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 6.68 \ms $$, $$ 53.3^\circ $$ south of west
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 The great astronomer Edwin Hubble discovered that all distant galaxies are receding from our Milky Way Galaxy with velocities proportional to their distances. It appears to an observer on the Earth that we are at the center of an expanding universe. [[Figure]](#import-auto-id1915192) illustrates this for five galaxies lying along a straight line, with the Milky Way Galaxy at the center. Using the data from the figure, calculate the velocities:
 (a) relative to galaxy 2 and
 (b) relative to galaxy 5. The results mean that observers on all galaxies will see themselves at the center of the expanding universe, and they would likely be aware of relative velocities, concluding that it is not possible to locate the center of expansion with the given information.
@@ -701,8 +701,8 @@ The great astronomer Edwin Hubble discovered that all distant galaxies are reced
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) Use the distance and velocity data in [[Figure]](#import-auto-id1915192) to find the rate of expansion as a function of distance.
 (b) If you extrapolate back in time, how long ago would all of the galaxies have
 been at approximately the same position? The two parts of this problem give you
@@ -710,7 +710,7 @@ some idea of how the Hubble constant for universal expansion and the time back
 to the Big Bang are determined, respectively.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ H_{\text{average}}=14.9\frac{ \text{km/s}}{\text{Mly}} $$
 
 (b) 20.2 billion years
@@ -718,15 +718,15 @@ to the Big Bang are determined, respectively.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 An athlete crosses a 25-m-wide river by swimming perpendicular to the water current at a speed of 0.5 m/s relative to the water. He reaches the opposite side at a distance 40 m downstream from his starting point. How fast is the water in the river flowing with respect to the ground? What is the speed of the swimmer with respect to a friend at rest on the ground?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A ship sailing in the Gulf Stream is heading $$ 25.0^\circ $$
 west of north at a speed of 4.00 m/s relative to the water. Its velocity
 relative to the Earth is $$ 4.80 \ms $$, $$ 5.00^\circ $$ west of north. What is
@@ -734,14 +734,14 @@ the velocity of the Gulf Stream? (The velocity obtained is typical for the Gulf
 Stream a few hundred kilometers off the east coast of the United States.)
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 1.72 \ms $$, $$ 42.3^\circ $$ north of east
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 An ice hockey player is moving at 8.00 m/s when he hits the puck toward the goal. The speed of the puck relative to the player is 29.0 m/s. The line between the center of the goal and the player makes a $$ 90.0^\circ $$
 angle relative to his path as shown in [[Figure]](#import-auto-id1829266). What
 angle must the puck’s velocity make relative to the player (in his frame of
@@ -753,8 +753,8 @@ reference) to hit the center of the goal?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Unreasonable Results**
 Suppose you wish to shoot supplies straight up to astronauts in an orbit 36 000 km above the surface of the Earth.
@@ -766,8 +766,8 @@ Suppose you wish to shoot supplies straight up to astronauts in an orbit 36 000 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Unreasonable Results**
 
@@ -784,8 +784,8 @@ tailwind’s velocity.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Construct Your Own Problem**
 
@@ -794,10 +794,10 @@ Consider an airplane headed for a runway in a cross wind. Construct a problem in
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 classical relativity
 : the study of relative velocities in situations where speeds are less than

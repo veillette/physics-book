@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Describe uniform circular motion.
 * Explain non-uniform circular motion.
 * Calculate angular acceleration of an object.
@@ -17,7 +17,7 @@ uniform circular motion, which is motion in a circle at constant speed and,
 hence, constant angular velocity. Recall that angular velocity $$ \omega $$ was
 defined as the time rate of change of angle $$ \theta $$:
 
-<div data-type="equation" id="eip-257">
+<div class="equation" id="eip-257">
  $$ \omega =\frac{ \Delta \theta }{\Delta t}, $$
 </div>
 
@@ -26,13 +26,13 @@ in [[Figure]](#import-auto-id1941476). The relationship between angular velocity
 $$ \omega $$ and linear velocity $$ v $$ was also defined
 in [Rotation Angle and Angular Velocity](../contents/ch6RotationAngleAndAngularVelocity.md) as
 
-<div data-type="equation" id="eip-989">
+<div class="equation" id="eip-989">
  $$ v=r \omega $$
 </div>
 
 or
 
-<div data-type="equation" id="eip-363">
+<div class="equation" id="eip-363">
  $$ \omega =\frac{v}{r}, $$
 </div>
 
@@ -47,24 +47,24 @@ direction as negative
 Angular velocity is not constant when a skater pulls in her arms, when a child
 starts up a merry-go-round from rest, or when a computer’s hard disk slows to a
 halt when switched off. In all these cases, there is an **angular acceleration**
-{: data-type="term" #import-auto-id2438108}, in which $$ \omega $$ changes. The
+{: class="term" #import-auto-id2438108}, in which $$ \omega $$ changes. The
 faster the change occurs, the greater the angular acceleration. Angular
 acceleration $$ \alpha $$ is defined as the rate of change of angular velocity.
 In equation form, angular acceleration is expressed as follows:
 
-<div data-type="equation" id="eip-974">
+<div class="equation" id="eip-974">
  $$ \alpha =\frac{ \Delta \omega }{\Delta t}, $$
 </div>
 
-where $$ \Delta \omega $$ is the **change in angular velocity**{: data-type="
+where $$ \Delta \omega $$ is the **change in angular velocity**{: class="
 term" #import-auto-id3406201} and $$ \Delta t $$ is the change in time. The
 units of angular acceleration are $$ \left(\rads \right)\text{/s} $$,
 or $$ \radss $$. If $$ \omega $$
 increases, then $$ \alpha $$ is positive. If $$ \omega $$ decreases, then $$
 \alpha $$ is negative.
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating the Angular Acceleration and Deceleration of a Bike Wheel
 </div>
 Suppose a teenager puts her bicycle on its back and starts the rear wheel spinning from rest to a final angular velocity of 250 rpm in 5.00 s.
@@ -83,7 +83,7 @@ s.
 
 Entering known information into the definition of angular acceleration, we get
 
-<div data-type="equation" id="eip-272">
+<div class="equation" id="eip-272">
  $$ \begin{array}{lll}
 \alpha & =& \frac{ \Delta \omega }{\Delta t}\\
 & =& \frac{250 \text{rpm}}{5.00 \s }.
@@ -94,7 +94,7 @@ and we want the standard units of $$
 \radss $$ for angular acceleration, we need to convert $$ \Delta
 \omega $$ from rpm to rad/s:
 
-<div data-type="equation" id="eip-25">
+<div class="equation" id="eip-25">
  $$ \begin{array}{lll}
 \Delta \omega & =& 250\frac{ \text{rev}}{\text{min}}\cdot \frac{ 2\pi \text{rad}}{\text{rev}}\cdot \frac{1 \text{min}}{60 \text{sec}}\\
 & =& 26.2\frac{ \text{rad}}{\s}.
@@ -102,7 +102,7 @@ and we want the standard units of $$
 </div>
 Entering this quantity into the expression for $$ \alpha $$, we get
 
-<div data-type="equation" id="eip-899">
+<div class="equation" id="eip-899">
  $$ \begin{array}{lll}
 \alpha & =& \frac{ \Delta \omega }{\Delta t}\\
 & =&\frac{26.2 \rads }{5.00 \s }\\
@@ -116,7 +116,7 @@ In this part, we know the angular acceleration and the initial angular velocity.
 We can find the stoppage time by using the definition of angular acceleration
 and solving for $$ \Delta t $$, yielding
 
-<div data-type="equation" id="eip-273">
+<div class="equation" id="eip-273">
  $$ \Delta t=\frac{ \Delta \omega }{\alpha }. $$
 </div>
 
@@ -126,7 +126,7 @@ Here the angular velocity decreases from $$ 26.2 \rads $$
 (250 rpm) to zero, so that $$ \Delta \omega $$ is $$ -26.2 \rads $$, and
 $$ \alpha $$ is given to be $$ -87.3 \radss $$. Thus,
 
-<div data-type="equation" id="eip-455">
+<div class="equation" id="eip-455">
  $$ \begin{array}{lll}
 \Delta t& =& \frac{-26.2 \rads }{-87.3 \radss }\\
 &=& 0.300 \s  .
@@ -151,7 +151,7 @@ explored. For example, it would be useful to know how linear and angular
 acceleration are related. In circular motion, linear acceleration is *tangent*
 to the circle at the point of interest, as seen
 in [[Figure]](#import-auto-id1019355). Thus, linear acceleration is called
-**tangential acceleration**{: data-type="term" #import-auto-id1997895} $$ a_
+**tangential acceleration**{: class="term" #import-auto-id1997895} $$ a_
 {\text{t}} $$.
 
 ![In the figure, a semicircle is drawn, with its radius r, shown here as a line segment. The anti-clockwise motion of the circle is shown with an arrow on the path of the circle. Tangential velocity vector, v, of the point, which is on the meeting point of radius with the circle, is shown as a green arrow and the linear acceleration, a-t is shown as a yellow arrow in the same direction along v.](../resources/Figure_11_01_02a.jpg "In circular motion, linear acceleration \( a \) , occurs as the magnitude of the velocity changes: \( a \)  is tangent to the motion. In the context of circular motion, linear acceleration is also called tangential acceleration \( a_t \) .")
@@ -177,32 +177,32 @@ Now we can find the exact relationship between linear acceleration $$ a_
 is proportional to a change in the magnitude of the velocity, it is defined (as
 it was in [One-Dimensional Kinematics](../contents/ch2Kinematics.md)) to be
 
-<div data-type="equation" id="eip-85">
+<div class="equation" id="eip-85">
  $$ a_{\text{t}}=\frac{ \Delta v}{\Delta t}. $$
 </div>
 
 For circular motion, note that $$ v=r \omega $$, so that
 
-<div data-type="equation" id="eip-139">
+<div class="equation" id="eip-139">
  $$ a_{\text{t}}=\frac{ \Delta \left(r \omega \right)}{\Delta t}. $$
 </div>
 
 The radius $$ r $$ is constant for circular motion, and so
 $$ \Delta \left( r\omega \right)=r\left(\Delta \omega \right) $$. Thus,
 
-<div data-type="equation" id="eip-688">
+<div class="equation" id="eip-688">
  $$ a_{\text{t}}=r\frac{ \Delta \omega }{\Delta t}. $$
 </div>
 
 By definition, $$ \alpha =\frac{ \Delta \omega }{\Delta t} $$. Thus,
 
-<div data-type="equation" id="eip-256">
+<div class="equation" id="eip-256">
  $$ a_{\text{t}}=r \alpha, $$
 </div>
 
 or
 
-<div data-type="equation" id="eip-773">
+<div class="equation" id="eip-773">
  $$ \alpha =\frac{ a_{\text{t}}}{r}. $$
 </div>
 
@@ -213,8 +213,8 @@ the angular acceleration of a car’s drive wheels, the greater the acceleration
 of the car. The radius also matters. For example, the smaller a wheel, the
 smaller its linear acceleration for a given angular acceleration $$ \alpha $$.
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating the Angular Acceleration of a Motorcycle Wheel
 </div>
 A powerful motorcycle can accelerate from 0 to 30.0 m/s (about 108 km/h) in 4.20 s. What is the angular acceleration of its 0.320-m-radius wheels? (See [[Figure]](#import-auto-id2415283).)
@@ -232,7 +232,7 @@ can find its linear acceleration $$ a_{\text{t}} $$. Then, the expression $$
 
 The linear acceleration is
 
-<div data-type="equation" id="eip-20">
+<div class="equation" id="eip-20">
  $$ \begin{array}{lll}
 a_{\text{t}}& =& \frac{ \Delta v}{\Delta t}\\
 & =& \frac{30.0 \ms }{4.20 \s }\\
@@ -242,7 +242,7 @@ a_{\text{t}}& =& \frac{ \Delta v}{\Delta t}\\
 We also know the radius of the wheels. Entering the values for $$ a_{\text{t}} $$
 and $$ r $$ into $$ \alpha =\frac{ a_{\text{t}}}{r} $$, we get
 
-<div data-type="equation" id="eip-155">
+<div class="equation" id="eip-155">
  $$ \begin{array}{lll}
 \alpha & =& \frac{ a_{\text{t}}}{r}\\
 & =& \frac{7.14\mss }{0.320 \m }\\
@@ -272,23 +272,23 @@ relationships between them.
 | $$\alpha$$ | $$ a $$ | $$ \alpha= \frac{a}{r} $$ |
 {: #import-auto-id1572984}
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Making Connections: Take-Home Experiment
 </div>
 Sit down with your feet on the ground on a chair that rotates. Lift one of your legs such that it is unbent (straightened out). Using the other leg, begin to rotate yourself by pushing on the ground. Stop using your leg to push the ground but allow the chair to rotate. From the origin where you began, sketch the angle, angular velocity, and angular acceleration of your leg as a function of time in the form of three separate graphs. Estimate the magnitudes of these quantities.
 
 </div>
 
-<div data-type="exercise" data-element-type="check-understanding" data-label="">
-<div data-type="title">
+<div class="exercise" data-element-type="check-understanding" data-label="">
+<div class="title">
 Check Your Understanding
 </div>
-<div data-type="problem" markdown="1">
+<div class="problem" markdown="1">
 Angular acceleration is a vector, having both magnitude and direction. How do we denote its magnitude and direction? Illustrate with an example.
 
 </div>
-<div data-type="solution" data-print-placement="here" markdown="1">
+<div class="solution" data-print-placement="here" markdown="1">
 The magnitude of angular acceleration is $$ \alpha $$
 and its most common units are $$ \radss $$. The direction of angular
 acceleration along a fixed axis is denoted by a + or a – sign, just as the
@@ -301,8 +301,8 @@ moment of inertia about her spin axis.
 </div>
 </div>
 
-<div data-type="note" data-has-label="true" id="eip-669" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" id="eip-669" data-label="" markdown="1">
+<div class="title">
 PhET Explorations: Ladybug Revolution
 </div>
 Join the ladybug in an exploration of rotational motion. Rotate the merry-go-round to change its angle, or choose a constant angular velocity or angular acceleration. Explore how circular motion relates to the bug\'s x,y position, velocity, and acceleration using vectors or graphs.
@@ -327,53 +327,53 @@ Ladybug Revolution
   {\text{t}}=\frac{ \Delta v}{\Delta t} $$.
 * {: #import-auto-id3035395} For circular motion, note that $$ v=r \omega $$,
   so that
-  <div data-type="equation" id="import-auto-id1588138">
+  <div class="equation" id="import-auto-id1588138">
  $$ a_{\text{t}}\frac{ \Delta \left(r \omega \right)}{\Delta t}. $$
   </div>
 
 * {: #import-auto-id1549399} The radius r is constant for circular motion, and
   so $$ \Delta \left(  r \omega \right)=r\Delta \omega $$. Thus,
-  <div data-type="equation" id="import-auto-id3232862">
+  <div class="equation" id="import-auto-id3232862">
  $$ a_{\text{t}}=r\frac{ \Delta \omega }{\Delta t}. $$
   </div>
 
 * {: #import-auto-id3154788} By definition, $$ \Delta \omega /\Delta t=\alpha $$.
   Thus,
-  <div data-type="equation" id="import-auto-id3077640">
+  <div class="equation" id="import-auto-id3077640">
  $$ a_{\text{t}}=r \alpha $$
   </div>
 
   or
 
-  <div data-type="equation" id="import-auto-id3025466">
+  <div class="equation" id="import-auto-id3025466">
  $$ \alpha =\frac{ a_{\text{t}}}{r}. $$
   </div>
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Analogies exist between rotational and translational physical quantities. Identify the rotational term analogous to each of the following: acceleration, force, mass, work, translational kinetic energy, linear momentum, impulse.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Explain why centripetal acceleration changes the direction of velocity in circular motion but not its magnitude.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 In circular motion, a tangential acceleration can change the magnitude of the velocity but not its direction. Explain your answer.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Suppose a piece of food is on the edge of a rotating microwave oven plate. Does it experience nonzero tangential acceleration, centripetal acceleration, or both when: (a) The plate starts to spin?
 (b) The plate rotates at constant angular velocity?
 (c) The plate slows to a halt?
@@ -383,20 +383,20 @@ Suppose a piece of food is on the edge of a rotating microwave oven plate. Does 
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 At its peak, a tornado is 60.0 m in diameter and carries 500 km/h winds.
 What is its angular velocity in revolutions per second?
 
 </div>
-<div data-type="solution" data-element-type="problems-exercises" markdown="1">
+<div class="solution" data-element-type="problems-exercises" markdown="1">
  $$ \omega =0.737 \text{rev/s} $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Integrated Concepts**
 
@@ -409,8 +409,8 @@ point at full rpm?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Integrated Concepts**
 
@@ -422,15 +422,15 @@ is 0.20, calculate the angular acceleration of the grindstone.
 (b) How many turns will the stone make before coming to rest?
 
 </div>
-<div data-type="solution" data-element-type="problems-exercises" markdown="1">
+<div class="solution" data-element-type="problems-exercises" markdown="1">
 (a) $$ -0.26 \radss $$
 
 (b) $$27 \text{rev} $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Unreasonable Results**
 
@@ -444,10 +444,10 @@ velocity if the ball starts from rest and the acceleration lasts 2.00 s?
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 angular acceleration
 : the rate of change of angular velocity with time

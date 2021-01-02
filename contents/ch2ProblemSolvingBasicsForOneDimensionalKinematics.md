@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Apply problem-solving steps and strategies to solve problems of one-dimensional kinematics.
 * Apply strategies to determine whether or not the result of a problem is reasonable, and if not, determine the cause.
 
@@ -123,7 +123,7 @@ the worked examples in the text*. In the example given in the preceding
 paragraph, you would identify the givens as the acceleration and time and use
 the equation below to find the unknown final velocity. That is,
 
-<div data-type="equation" id="import-auto-id4167672">
+<div class="equation" id="import-auto-id4167672">
  $$ v=v_{0}+a t  =0+\left(0.40\mss \right)\left(100\s \right)=40 \ms . $$
 </div>
 
@@ -133,7 +133,7 @@ the equation below to find the unknown final velocity. That is,
 does it have the wrong sign, improper units, …? In this case, you may need to
 convert meters per second into a more familiar unit, such as miles per hour.
 
-<div data-type="equation" id="import-auto-id1437508">
+<div class="equation" id="import-auto-id1437508">
  $$ \left(\frac{40 \m }{\s}\right)
 \left(\frac{3.28 \text{ft}}{\m}\right)
 \left(\frac{1 \text{mi}}{5280 \text{ft}}\right)
@@ -179,15 +179,15 @@ long. It is not possible for someone to accelerate at a constant rate of $$ 0.40
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 What information do you need in order to choose which equation or equations to use to solve a problem? Explain.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 What is the last thing you should do when solving a problem? Explain.
 
 </div>

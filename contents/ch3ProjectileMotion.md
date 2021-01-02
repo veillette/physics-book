@@ -4,25 +4,25 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Identify and explain the properties of a projectile, such as acceleration due to gravity, range, maximum height, and trajectory.
 * Determine the location and velocity of a projectile at different points in its trajectory.
 * Apply the principle of independence of motion to solve projectile motion problems.
 
 </div>
 
-**Projectile motion**{: data-type="term" #import-auto-id1560216} is the
-**motion**{: data-type="term" #import-auto-id1846113} of an object thrown or
+**Projectile motion**{: class="term" #import-auto-id1560216} is the
+**motion**{: class="term" #import-auto-id1846113} of an object thrown or
 projected into the air, subject to only the acceleration of gravity. The
-object is called a **projectile**{: data-type="term" #import-auto-id1809247},
+object is called a **projectile**{: class="term" #import-auto-id1809247},
 and its path is called its
-**trajectory**{: data-type="term" #import-auto-id1397020}. The motion of
+**trajectory**{: class="term" #import-auto-id1397020}. The motion of
 falling objects, as covered
 in [Problem-Solving Basics for One-Dimensional Kinematics](../contents/ch2ProblemSolvingBasicsForOneDimensionalKinematics.md), is
 a simple one-dimensional type of projectile motion in which there is no
 horizontal movement. In this section, we consider two-dimensional projectile
 motion, such as that of a football or other object for which
-**air resistance**{: data-type="term" #import-auto-id1230666}
+**air resistance**{: class="term" #import-auto-id1230666}
 **is negligible**.
 
 The most important fact to remember here is that **motions along perpendicular
@@ -57,23 +57,23 @@ direction is positive, then acceleration due to gravity takes a positive value.)
 Because gravity is vertical, $$ a_{x}=0 $$. Both accelerations are constant, so
 the kinematic equations can be used.
 
-<div data-type="note" data-has-label="true" data-label="">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="">
+<div class="title">
 Review of Kinematic Equations (constant \( a \) )
 </div>
-<div data-type="equation" id="eip-891">
+<div class="equation" id="eip-891">
  $$ x=x_{0}+\overline{v}t $$
 </div>
-<div data-type="equation" id="eip-557">
+<div class="equation" id="eip-557">
  $$ \overline{v}=\frac{ v_{0}+v}{2} $$
 </div>
-<div data-type="equation" id="eip-405">
+<div class="equation" id="eip-405">
  $$ v=v_{0}+a t $$
 </div>
-<div data-type="equation" id="eip-556">
+<div class="equation" id="eip-556">
  $$ x=x_{0}+v_{0}t+\frac{1}{2}a t^{2} $$
 </div>
-<div data-type="equation" id="eip-389">
+<div class="equation" id="eip-389">
  $$ v^{2}=v_{0}^{2}+2a\left(x-x_{0}\right). $$
 </div>
 </div>
@@ -105,42 +105,42 @@ subscript 0, as usual.
 horizontal and the other vertical.* The kinematic equations for horizontal and
 vertical motion take the following forms:
 
-<div data-type="equation" id="eip-338">
+<div class="equation" id="eip-338">
  $$ \text{Horizontal Motion}\left(a_{x}=0\right) $$
 </div>
 
-<div data-type="equation" id="eip-362">
+<div class="equation" id="eip-362">
  $$ x=x_{0}+v_{x}t $$
 </div>
 
-<div data-type="equation" id="eip-627">
+<div class="equation" id="eip-627">
  $$ v_{x}=v_{0x}=v_{x}=\text{velocity is a constant.} $$
 </div>
 
-<div data-type="equation" id="eip-293">
+<div class="equation" id="eip-293">
  $$ \text{Vertical Motion}\left(\text{assuming positive is up}a_{y}=-g=-9.80\mss \right) $$
 </div>
 
-<div data-type="equation" id="eip-131">
+<div class="equation" id="eip-131">
  $$ y=y_{0}+\frac{1}{2}\left(v_{0y}+v_{y}\right)t $$
 </div>
 
-<div data-type="equation" id="eip-305">
+<div class="equation" id="eip-305">
  $$ v_{y}= v_{0y}- g t $$
 </div>
 
-<div data-type="equation" id="eip-542">
+<div class="equation" id="eip-542">
  $$ y=y_{0}+v_{0y}t-\frac{1}{2} g t^{2} $$
 </div>
 
-<div data-type="equation" id="eip-243">
+<div class="equation" id="eip-243">
  $$ v_{y}^{2}= v_{0y}^{2}-2g \left( y-y_{0} \right) . $$
 </div>
 
 ***Step 3.*** *Solve for the unknowns in the two separate motions—one
 horizontal and one vertical.* Note that the only common variable between the
 motions is time $$ t $$. The problem solving procedures here are the same as for
-one-dimensional **kinematics**{: data-type="term"} and are illustrated in the
+one-dimensional **kinematics**{: class="term"} and are illustrated in the
 solved examples below.
 
 ***Step 4.*** *Recombine the two motions to find the total displacement* $$ \vb{s} $$ *and velocity* $$ \vb{v} $$. Because the *x*- and *y*-motions
@@ -153,19 +153,19 @@ direction of the velocity $$ \vb{v} $$.
 
 **Total displacement and velocity**
 
-<div data-type="equation" id="eip-743">
+<div class="equation" id="eip-743">
  $$ s=\sqrt{ x^{2}+{y}^{2}} $$
 </div>
 
-<div data-type="equation" id="eip-373">
+<div class="equation" id="eip-373">
  $$ \theta ={\tan}^{-1}\left(\frac{y}{x} \right) $$
 </div>
 
-<div data-type="equation" id="eip-679">
+<div class="equation" id="eip-679">
  $$ v=\sqrt{ v_{x}^{2}+v_{y}^{2}} $$
 </div>
 
-<div data-type="equation" id="eip-264">
+<div class="equation" id="eip-264">
  $$\theta_{v}={\tan}^{-1}\left( \frac{v_{y}}{v_{x}}\right). $$
 </div>
 
@@ -174,8 +174,8 @@ direction of the velocity $$ \vb{v} $$.
 (c) The velocity in the vertical direction begins to decrease as the object rises; at its highest point, the vertical velocity is zero. As the object falls towards the Earth again, the vertical velocity increases again in magnitude but points in the opposite direction to the initial vertical velocity. (d) The x - and y -motions are recombined to give the total velocity at any given point on the trajectory.")
 {: #import-auto-id1815222 height="600"}
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 A Fireworks Projectile Explodes High and Away
 </div>
 During a fireworks display, a shell is shot into the air with an initial speed of
@@ -201,38 +201,38 @@ point. The highest point in any trajectory, called the apex, is reached when $$
 v_{y}=0 $$. Since we know the initial and final velocities as well as the
 initial position, we use the following equation to find $$ y $$:
 
-<div data-type="equation" id="eip-734">
+<div class="equation" id="eip-734">
  $$ v_{y}^{2}=v_{0y}^{2}-2g\left(y-y_{0}\right). $$
 </div>
 ![The x y graph shows the trajectory of fireworks shell. The initial velocity of the shell v zero is at angle theta zero equal to seventy five degrees with the horizontal x axis. The fuse is set to explode the shell at the highest point of the trajectory which is at a height h equal to two hundred thirty three meters and at a horizontal distance x equal to one hundred twenty five meters from the origin.](../resources/Figure_03_04_03a.jpg "The trajectory of a fireworks shell. The fuse is set to explode the shell at the highest point in its trajectory, which is found to be at a height of 233 m and 125 m away horizontally."){: #import-auto-id934168 height="250"}
 
 Because $$ y_{0} $$ and $$ v_{y} $$ are both zero, the equation simplifies to
 
-<div data-type="equation" id="eip-42">
+<div class="equation" id="eip-42">
  $$ 0=v_{0y}^{2}-2\text{gy.} $$
 </div>
 Solving for $$ y $$ gives
 
-<div data-type="equation" id="eip-256">
+<div class="equation" id="eip-256">
  $$ y=\frac{ v_{0y}^{2}}{2g}. $$
 </div>
 Now we must find $$ v_{0y} $$, the component of the initial velocity in the *y*-direction. It is given by $$
 v_{0y}=v_{0} \sin{\theta} $$, where $$ v_{0y} $$ is the initial velocity of
 70.0 m/s, and $$ \theta_{0}=75.0^\circ $$ is the initial angle. Thus,
 
-<div data-type="equation" id="eip-677">
+<div class="equation" id="eip-677">
  $$ v_{0y}=v_{0}\sin{\theta_{0}}=
 \left(70.0 \ms \right)\left(\sin{75^\circ }\right)
 =67.6 \ms . $$
 </div>
 and $$ y $$ is
 
-<div data-type="equation" id="eip-512">
+<div class="equation" id="eip-512">
  $$ y=\frac{ \left(67.6 \ms \right)^{2}}{2\left(9.80 \mss \right)}, $$
 </div>
 so that
 
-<div data-type="equation" id="eip-310">
+<div class="equation" id="eip-310">
  $$ y=233 \m . $$
 </div>
 
@@ -255,12 +255,12 @@ the highest point. In this case, the easiest method is to use $$ y=y_
 {0}+\frac{1}{2}\left(v_{0y}+v_{y}\right)t $$. Because $$ y_{0} $$ is zero, this
 equation reduces to simply
 
-<div data-type="equation" id="eip-383">
+<div class="equation" id="eip-383">
  $$ y=\frac{1}{2}\left(v_{0y}+v_{y}\right)t. $$
 </div>
 Note that the final vertical velocity, $$ v_{y} $$, at the highest point is zero. Thus,
 
-<div data-type="equation" id="eip-50">
+<div class="equation" id="eip-50">
  $$ \begin{array}{lll}
 t& =& \frac{2y}{\left(v_{0y}+v_{y}\right)}=\frac{2\left(233 \m \right)}{\left(67.6 \ms \right)}\\
  & =& 6.90 \s .
@@ -281,18 +281,18 @@ is constant, as discussed above. The horizontal displacement is horizontal
 velocity multiplied by time as given by $$ x=x_{0}+v_{x}t $$, where $$ x_{0} $$
 is equal to zero:
 
-<div data-type="equation" id="eip-675">
+<div class="equation" id="eip-675">
  $$ x=v_{x}t, $$
 </div>
 where $$ v_{x} $$ is the **x**-component of the velocity, which is given by $$ v_{x}=v_
 {0}\cos{\theta_{0}}$$. Now,
 
-<div data-type="equation" id="eip-884">
+<div class="equation" id="eip-884">
  $$ v_{x}=v_{0}\cos{\theta_{0}}=\left(70.0 \ms \right)\left(\cos {75.0^\circ }\right)=18.1 m/s. $$
 </div>
 The time $$ t $$ for both motions is the same, and so $$ x $$ is
 
-<div data-type="equation" id="eip-685">
+<div class="equation" id="eip-685">
  $$ x=\left(18.1 \ms \right)\left(6.90 \s \right)=125 \m . $$
 </div>
 
@@ -309,15 +309,15 @@ In solving part (a) of the preceding example, the expression we found for $$ y
 $$ is valid for any projectile motion where air resistance is negligible. Call
 the maximum height $$ y=h $$; then,
 
-<div data-type="equation" id="eip-803">
+<div class="equation" id="eip-803">
  $$ h=\frac{ v_{0y}^{2}}{2g}. $$
 </div>
 
 This equation defines the **maximum height of a projectile** and depends only on
 the vertical component of the initial velocity.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Defining a Coordinate System
 </div>
 It is important to set up a coordinate system when analyzing projectile motion.
@@ -337,8 +337,8 @@ takes a positive value.
 
 </div>
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating Projectile Motion: Hot Rock Projectile
 </div>
 Kilauea in Hawaii is the world’s most continuously active volcano. Very active volcanoes characteristically eject
@@ -370,26 +370,26 @@ the first part of the example.
 While the rock is in the air, it rises and then falls to a final position 20.0 m
 lower than its starting altitude. We can find the time for this by using
 
-<div data-type="equation" id="eip-895">
+<div class="equation" id="eip-895">
  $$ y=y_{0}+v_{0y}t-\frac{1}{2}g t^{2} . $$
 </div>
 If we take the initial position $$ y_{0} $$ to be zero, then the final position is
 $$ y=-20.0 \m $$. Now the initial vertical velocity is the vertical component of the initial velocity,
 found from $$ v_{0y}=v_{0}\sin{\theta_{0}} = ( 25.0 \ms  )( \sin{35.0^\circ } ) = 14.3 \ms $$. Substituting known values yields
 
-<div data-type="equation" id="eip-722">
+<div class="equation" id="eip-722">
  $$ -20.0 \m =\left(14.3 \ms \right)t-\left(4.90 \mss \right){t}^{2}. $$
 </div>
 Rearranging terms gives a quadratic equation in $$ t $$:
 
-<div data-type="equation" id="eip-931">
+<div class="equation" id="eip-931">
  $$ \left(4.90 \mss \right) t^{2}-\left(14.3 \ms \right)t-\left(20.0 \m \right)=0. $$
 </div>
 This expression is a quadratic equation of the form $$ a t^{2} + b t+c=0 $$,
 where the constants are $$ a=4.90 $$, $$ b=-14.3 $$, and $$ c=-20.0. $$
 Its solutions are given by the quadratic formula:
 
-<div data-type="equation" id="eip-880">
+<div class="equation" id="eip-880">
  $$ t=\frac{-b \pm \sqrt{ b^{2}-4 a c }} {2a}. $$
 </div>
 This equation yields two solutions: $$ t=3.96 $$
@@ -398,7 +398,7 @@ is $$ t=3.96\s $$ or $$ -1.03\s $$. The negative value of time implies an event 
 motion, and so
 we discard it. Thus,
 
-<div data-type="equation" id="eip-267">
+<div class="equation" id="eip-267">
  $$ t=3.96 \s . $$
 </div>
 
@@ -418,49 +418,49 @@ course, $$ v_{x} $$ is constant so we can solve for it at any horizontal
 location. In this case, we chose the starting point since we know both the
 initial velocity and initial angle. Therefore:
 
-<div data-type="equation" id="eip-873">
+<div class="equation" id="eip-873">
  $$ v_{x}=v_{0}\cos{\theta_{0}}=\left(25.0 \ms \right)\left(\cos{35^\circ }\right)=20.5 \ms $$
 </div>
 The final vertical velocity is given by the following equation:
 
-<div data-type="equation" id="eip-168">
+<div class="equation" id="eip-168">
  $$ v_{y}=v_{0y}-gt, $$
 </div>
 where $$ v_{0y} $$ was found in part (a) to be $$ 14.3 \ms $$. Thus,
 
-<div data-type="equation" id="eip-113">
+<div class="equation" id="eip-113">
  $$ v_{y}=14.3 \ms -\left(9.80 \mss \right)\left(3.96 \s \right) $$
 </div>
 so that
 
-<div data-type="equation" id="eip-571">
+<div class="equation" id="eip-571">
  $$ v_{y}=-24.5 \ms $$
 </div>
 To find the magnitude of the final velocity $$ \mag{v} $$, we combine its
 perpendicular components, using the following equation:
 
-<div data-type="equation" id="eip-394">
+<div class="equation" id="eip-394">
  $$ \mag{v}=\sqrt{ v_{x}^{2}+v_{y}^{2}}=\sqrt{\left(20.5 \ms \right)^{2}+\left
 (-24.5 \ms \right)^{2}}, $$
 </div>
 which gives
 
-<div data-type="equation" id="eip-60">
+<div class="equation" id="eip-60">
  $$ \mag{v}=31.9 \ms $$
 </div>
 The direction $$\theta_{v} $$ is found from the equation:
 
-<div data-type="equation" id="eip-353">
+<div class="equation" id="eip-353">
  $$\theta_{v}={\tan}^{-1}\left(v_{y}/v_{x}\right) $$
 </div>
 so that
 
-<div data-type="equation" id="eip-589">
+<div class="equation" id="eip-589">
  $$\theta_{v}={\tan}^{-1}\left(-24.5/20.5\right)={\tan}^{-1}\left(-1.19\right). $$
 </div>
 Thus,
 
-<div data-type="equation" id="eip-379">
+<div class="equation" id="eip-379">
  $$\theta_{v}=-50.1^\circ . $$
 </div>
 
@@ -477,7 +477,7 @@ See [[Figure]](#import-auto-id1817519).)
 One of the most important things illustrated by projectile motion is that
 vertical and horizontal motions are independent of each other. Galileo was the
 first person to fully comprehend this characteristic. He used it to predict the
-range of a projectile. On level ground, we define **range**{: data-type="term"
+range of a projectile. On level ground, we define **range**{: class="term"
 #import-auto-id1751163} to be the horizontal distance $$ R $$ traveled by a
 projectile. Galileo and many others were interested in the range of projectiles
 primarily for military purposes—such as aiming cannons. However, investigating
@@ -505,7 +505,7 @@ lunar astronaut Alan Shepherd was able to drive a golf ball a great distance on
 the Moon because gravity is weaker there. The range $$ R $$ of a projectile
 on **level ground** for which air resistance is negligible is given by
 
-<div data-type="equation" id="eip-240">
+<div class="equation" id="eip-240">
  $$ R=\frac{ v_0^2\sin{ 2\theta_0 }}{g}, $$
 </div>
 
@@ -537,14 +537,14 @@ will also yield insights beyond the immediate topic.
 ![A figure of the Earth is shown and on top of it a very high tower is placed. A projectile satellite is launched from this very high tower with initial velocity of v zero in the horizontal direction. Several trajectories are shown with increasing range. A circular trajectory is shown indicating the satellite achieved its orbit and it is revolving around the Earth.](../resources/Figure_03_04_06a.jpg "Projectile to satellite. In each case shown here, a projectile is launched from a very high tower to avoid air resistance. With increasing initial speed, the range increases and becomes longer than it would be on level ground because the Earth curves away underneath its path. With a large enough initial speed, orbit is achieved.")
 {: #import-auto-id1645881}
 
-<div data-type="note" data-has-label="true" id="eip-89" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" id="eip-89" data-label="" markdown="1">
+<div class="title">
 PhET Explorations: Projectile Motion
 </div>
 Blast a Buick out of a cannon! Learn about projectile motion by firing various objects. Set the angle, initial speed, and mass. Add air resistance. Make a game out of this simulation by trying to hit a target.
 
 <figure markdown="1" id="eip-id1462984">
-<div data-type="phet">
+<div class="phet">
 <iframe src="https://phet.colorado.edu/sims/html/projectile-motion/latest/projectile-motion_en.html" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 Projectile Motion
@@ -568,63 +568,63 @@ Projectile Motion
  $$ \theta $$ is its direction.
     2. {: #import-auto-id1830316} Analyze the motion of the projectile in the
        horizontal direction using the following equations:
-       <div data-type="equation" id="eip-898">
+       <div class="equation" id="eip-898">
          $$ \text{Horizontal motion}\left(a_{x}=0\right) $$
        </div>
 
-       <div data-type="equation" id="eip-236">
+       <div class="equation" id="eip-236">
             $$ x=x_{0}+v_{x}t $$
        </div>
 
-       <div data-type="equation" id="eip-612">
+       <div class="equation" id="eip-612">
         $$ v_{x}=v_{0x}=\vb{v}_{\text{x}}=\text{velocity is a constant.} $$
        </div>
 
     3. {: #import-auto-id1939082} Analyze the motion of the projectile in the
        vertical direction using the following equations:
-       <div data-type="equation" id="import-auto-id1939084">
+       <div class="equation" id="import-auto-id1939084">
      $$ \text{Vertical motion}\left(\text{Assuming positive direction is up;}a_
      {y}=-g=-9.80 \mss \right) $$
        </div>
 
-       <div data-type="equation" id="import-auto-id1492830">
+       <div class="equation" id="import-auto-id1492830">
        $$ y=y_{0}+\frac{1}{2}\left(v_{0y}+v_{y}\right)t $$
        </div>
 
-       <div data-type="equation" id="import-auto-id2022844">
+       <div class="equation" id="import-auto-id2022844">
        $$ v_{y}=v_{0y}-g t $$
        </div>
 
-       <div data-type="equation" id="import-auto-id1677876">
+       <div class="equation" id="import-auto-id1677876">
         $$ y=y_{0}+v_{0y}t-\frac{1}{2} g t^{2} $$
        </div>
 
-       <div data-type="equation" id="import-auto-id1653540">
+       <div class="equation" id="import-auto-id1653540">
        $$ v_{y}^{2}=v_{0y}^{2}-2g\left(y-y_{0}\right). $$
        </div>
 
     4. {: #import-auto-id1552181} Recombine the horizontal and vertical
        components of location and/or velocity using the following equations:
-       <div data-type="equation" id="import-auto-id2092332">
+       <div class="equation" id="import-auto-id2092332">
         $$ s=\sqrt{ x^{2}+{y}^{2}} $$
        </div>
 
-       <div data-type="equation" id="import-auto-id2282348">
+       <div class="equation" id="import-auto-id2282348">
         $$ \theta =\tan^{-1}\left(\frac{y}{x}\right) $$
        </div>
 
-       <div data-type="equation" id="import-auto-id2274748">
+       <div class="equation" id="import-auto-id2274748">
     $$ v=\sqrt{ v_{x}^{2}+v_{y}^{2}} $$
        </div>
 
-       <div data-type="equation" id="import-auto-id1979208">
+       <div class="equation" id="import-auto-id1979208">
     $$ \theta_{\text{v}}={\tan}^{-1} \left( \frac{v_{y}}{v_{x}} \right) .$$
        </div>
   {: type="1" .stepwise}
 
 * {: #import-auto-id1888635} The maximum height $$ h $$ of a projectile launched
   with initial vertical velocity $$ v_{0y} $$ is given by
-  <div data-type="equation" id="import-auto-id1534227">
+  <div class="equation" id="import-auto-id1534227">
     $$ h=\frac{ v_{0y}^{2}}{2g}. $$
   </div>
 
@@ -632,14 +632,14 @@ Projectile Motion
   projectile is called the **range**. The range $$ R $$ of a projectile on level
   ground launched at an angle $$\theta_{0} $$ above the horizontal with initial
   speed $$ v_{0} $$ is given by
-  <div data-type="equation" id="import-auto-id1951750">
+  <div class="equation" id="import-auto-id1951750">
  $$ R=\frac{ v_0^2 \sin{2\theta_0} }{g}. $$
   </div>
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Answer the following questions for projectile motion on level ground assuming negligible air resistance
 (the initial angle being neither $$ 0^\circ $$ nor $$ 90^\circ $$ ):
 
@@ -656,8 +656,8 @@ $$ t=0 $$ ?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Answer the following questions for projectile motion on level ground assuming negligible air resistance
 (the initial angle being neither $$ 0^\circ $$ nor $$ 90^\circ $$):
 
@@ -670,15 +670,15 @@ Answer the following questions for projectile motion on level ground assuming ne
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 For a fixed initial speed, the range of a projectile is determined by the angle at which it is fired. For all but the maximum, there are two angles that give the same range. Considering factors that might affect the ability of an archer to hit a target, such as wind, explain why the smaller angle (closer to the horizontal) is preferable. When would it be necessary for the archer to use the larger angle? Why does the punter in a football game use the higher trajectory?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 During a lecture demonstration, a professor places two coins on the edge of a table. She then flicks one of the coins horizontally off the table, simultaneously nudging the other over the edge. Describe the subsequent motion of the two coins, in particular discussing whether they hit the floor at the same time.
 
 </div>
@@ -686,15 +686,15 @@ During a lecture demonstration, a professor places two coins on the edge of a ta
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A projectile is launched at ground level with an initial speed of 50.0 m/s at an angle of
 $$ 30.0^\circ $$ above the horizontal. It strikes a target above the ground 3.00 seconds later.
 What are the $$ x $$ and $$ y $$
 distances from where the projectile was launched to where it lands?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ \begin{array}{lll}
 x& =& 1.30 \m \times 10^{2}\\
 y& =& 30.9 \m .
@@ -702,8 +702,8 @@ y& =& 30.9 \m .
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A ball is kicked with an initial velocity of 16 m/s in the horizontal direction and 12 m/s in the vertical direction.
 (a) At what speed does the ball hit the ground?
 (b) For how long does the ball remain in the air?
@@ -712,8 +712,8 @@ A ball is kicked with an initial velocity of 16 m/s in the horizontal direction 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A ball is thrown horizontally from the top of a 60.0-m building and lands 100.0 m from the base of the building. Ignore air resistance.
 (a) How long is the ball in the air?
 (b) What must have been the initial horizontal component of the velocity?
@@ -721,7 +721,7 @@ A ball is thrown horizontally from the top of a 60.0-m building and lands 100.0 
 (d) What is the velocity (including both the horizontal and vertical components) of the ball just before it hits the ground?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 3.50 s
 
 (b) 28.6 m/s (c) 34.3 m/s
@@ -731,8 +731,8 @@ A ball is thrown horizontally from the top of a 60.0-m building and lands 100.0 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) A daredevil is attempting to jump his motorcycle over a line of buses parked end to end by driving up a $$ 32^\circ $$
 ramp at a speed of $$ 40.0 \ms \left(144 \text{km/h}\right) $$. How many
 buses can he clear if the top of the takeoff ramp is at the same height as the
@@ -745,14 +745,14 @@ bus. (Neglect air resistance.)
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 An archer shoots an arrow at a 75.0 m distant target; the bull’s-eye of the target is at same height as the release height of the arrow.
 (a) At what angle must the arrow be released to hit the bull’s-eye if its initial speed is 35.0 m/s? In this part of the problem, explicitly show how you follow the steps involved in solving projectile motion problems.
 (b) There is a large tree halfway between the archer and the target with an overhanging horizontal branch 3.50 m above the release height of the arrow. Will the arrow go over or under the branch?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 18.4^\circ $$
 
 (b) The arrow will go over the branch.
@@ -760,8 +760,8 @@ An archer shoots an arrow at a 75.0 m distant target; the bull’s-eye of the ta
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A rugby player passes the ball 7.00 m across the field, where it is caught at the same height as it left his hand.
 (a) At what angle was the ball thrown if its initial speed was 12.0 m/s, assuming that the smaller of the two possible angles was used?
 (b) What other angle gives the same range, and why would it not be used?
@@ -770,13 +770,13 @@ A rugby player passes the ball 7.00 m across the field, where it is caught at th
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Verify the ranges for the projectiles in [[Figure]](#import-auto-id1904800)(a) for $$ \theta =45^\circ $$
 and the given initial velocities.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ \begin{array}{}
 R=\frac{  v_{0} }{\sin{2\theta }_{0}g}\\
 \text{For}\theta =45^\circ,R=\frac{ v_{0} }{g}
@@ -788,15 +788,15 @@ v_{0}=40 \ms $$; $$ R=255\m $$ for $$ v_{0}=50 \ms $$.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Verify the ranges shown for the projectiles in [[Figure]](#import-auto-id1904800)(b) for an initial velocity of 50 m/s at the given initial angles.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 The cannon on a battleship can fire a shell a maximum distance of 32.0 km.
 (a) Calculate the initial velocity of the shell.
 (b) What maximum height does it reach? (At its highest, the shell is above 60% of the atmosphere—but air resistance is not really negligible as assumed to make this problem easier.) (c) The ocean is not flat,
@@ -806,7 +806,7 @@ error introduced by the assumption of a flat Earth in projectile motion is
 significant here?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 560 m/s
 
 (b) $$ 8.00\times 10^{3}\m $$
@@ -817,8 +817,8 @@ part (b).
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 An arrow is shot from a height of 1.5 m toward a cliff of height $$ H $$. It is shot with a velocity of 30 m/s at an angle of $$ 60^\circ $$
 above the horizontal. It lands on the top edge of the cliff 4.0 s later.
 (a) What is the height of the cliff?
@@ -828,29 +828,29 @@ above the horizontal. It lands on the top edge of the cliff 4.0 s later.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 In the standing broad jump, one squats and then pushes off with the legs to see how far one can jump. Suppose the extension of the legs from the crouch position is 0.600 m and
 the acceleration achieved from this position is 1.25 times the acceleration due to gravity, $$ g $$. How far can they jump? State your assumptions. (Increased range can be
 achieved by swinging the arms in the direction of the jump.)
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 1.50 m, assuming launch angle of $$ 45^\circ $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 The world long jump record is 8.95 m (Mike Powell, USA, 1991). Treated as a projectile, what is
 the maximum range obtainable by a person if he has a take-off speed of 9.5 m/s? State your assumptions.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Serving at a speed of 170 km/h, a tennis player hits the ball at a height of
 2.5 m and an angle $$ \theta $$ below the horizontal. The base line is 11.9
 m from the net, which is 0.91 m high.
@@ -859,7 +859,7 @@ Will the ball land in the service box, whose service line is 6.40 m from the
 net?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ \theta =6.1^\circ $$
 
 yes, the ball lands at 5.3 m from the net
@@ -867,8 +867,8 @@ yes, the ball lands at 5.3 m from the net
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A football quarterback is moving straight backward at a speed of 2.00 m/s
 when he throws a pass to a player 18.0 m straight downfield.
 (a) If the ball is thrown at an angle of $$ 25^\circ $$ relative to the ground and is
@@ -879,14 +879,14 @@ caught at the same height as it is released, what is its initial speed relative 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Gun sights are adjusted to aim high to compensate for the effect of gravity, effectively making the gun accurate only for a specific range.
 (a) If a gun is sighted to hit targets that are at the same height as the gun and 100.0 m away, how low will the bullet hit if aimed directly at a target 150.0 m away? The muzzle velocity of the bullet is 275 m/s.
 (b) Discuss qualitatively how a larger muzzle velocity would affect this problem and what would be the effect of air resistance.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) −0.486 m
 
 (b) The larger the muzzle velocity, the smaller the deviation in the vertical
@@ -897,15 +897,15 @@ vertical deviation.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 An eagle is flying horizontally at a speed of 3.00 m/s when the fish in her talons wiggles loose and falls into the lake 5.00 m below. Calculate the velocity of the fish relative to the water when it hits the water.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 An owl is carrying a mouse to the chicks in its nest.
 Its position at that time is 4.00 m west and 12.0 m above
 the center of the 30.0 cm diameter nest.
@@ -915,14 +915,14 @@ enough to have the mouse hit the nest? To answer this question, calculate the
 horizontal position of the mouse when it has fallen 12.0 m.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 4.23 m. No, the owl is not lucky; he misses the nest.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Suppose a soccer player kicks the ball from a distance 30 m toward the goal.
 Find the initial speed of the ball if it just passes over the goal,
 2.4 m above the ground, given the initial direction to be $$ 40^\circ $$
@@ -931,26 +931,26 @@ above the horizontal.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Can a goalkeeper at their goal kick a soccer ball into the opponent’s goal without the ball touching the ground? The distance will be about 95 m. A goalkeeper can give the ball a speed of 30 m/s.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 No, the maximum range (neglecting air resistance) is about 92 m.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 The free throw line in basketball is 4.57 m (15 ft) from the basket, which is 3.05 m (10 ft) above the floor. A player standing on the free throw line throws the ball with an initial speed of 8.15 m/s, releasing it at a height of 2.44 m (8 ft) above the floor. At what angle above the horizontal must the ball be thrown to exactly hit the basket? Note that most players will use a large initial angle rather than a flat shot because it allows for a larger margin of error. Explicitly show how you follow the steps involved in solving projectile motion problems.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 In 2007, Michael Carter (U.S.) set a world record in the shot put with a
 throw of 24.77 m. What was the initial speed of the shot if he
 released it at a height of 2.10 m and threw it at an angle of $$ 38.0^\circ $$
@@ -960,14 +960,14 @@ actual angle to achieve maximum range is smaller; thus, $$ 38^\circ $$ will give
 a longer range than $$ 45^\circ $$ in the shot put.)
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 15.0 m/s
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A basketball player is running at $$ 5.00 \ms $$
 directly toward the basket when he jumps into the air to dunk the ball. He
 maintains his horizontal velocity.
@@ -979,8 +979,8 @@ same time as he reaches the basket?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A football player punts the ball at a $$ 45.0^\circ $$
 angle. Without an effect from the wind, the ball would travel 60.0 m
 horizontally.
@@ -990,7 +990,7 @@ horizontal velocity by 1.50 m/s. What distance does the ball travel
 horizontally?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 24.2 m/s
 
 (b) The ball travels a total of 57.4 m with the brief gust of wind.
@@ -998,8 +998,8 @@ horizontally?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Prove that the trajectory of a projectile is parabolic, having the form $$
 y=a x +b x^{2} $$. To obtain this expression, solve the equation
 $$ x=v_{0x}t $$ for $$ t $$
@@ -1011,14 +1011,14 @@ where $$ a $$ and $$ b $$ are constants.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Derive $$ R=\frac{ v_{0}^{2}\sin{2\theta }_{0}}{g} $$
 for the range of a projectile on level ground by finding the time $$ t $$ at
 which $$ y $$ becomes zero and substituting this value of $$ t $$ into the
 expression for $$ x-x_{0} $$, noting that $$ R=x-x_{0} $$
 </div>
-<div data-type="solution" id="eip-id2932521" markdown="1">
+<div class="solution" id="eip-id2932521" markdown="1">
  $$ y-y_{0}=0=v_{0y}t-\frac{1}{2}g t^{2}=\left(v_{0}\sin{\theta} \right)
 t-\frac{1}{2}gt^{2} $$, so that $$ t=\frac{2\left(v_{0}\sin{\theta}\right)}{g} $$
 $$ x-x_{0}=v_{0x}t=\left(v_{0}\cos{\theta}\right)t=R, $$
@@ -1034,8 +1034,8 @@ $$ R=\frac{ v_{0}^{2}\sin{2\theta}}{g}.$$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Unreasonable Results**
 
@@ -1047,8 +1047,8 @@ $$ R=\frac{ v_{0}^{2}\sin{2\theta}}{g}.$$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Construct Your Own Problem**
 
@@ -1058,10 +1058,10 @@ Consider a ball tossed over a fence. Construct a problem in which you calculate 
 </div>
 
 </div>
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 air resistance
 : a frictional force that slows the motion of objects as they travel through the

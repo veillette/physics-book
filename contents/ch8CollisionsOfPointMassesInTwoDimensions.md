@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Discuss two dimensional collisions as an extension of one dimensional analysis.
 * Define point masses.
 * Derive an expression for conservation of momentum along x-axis and y-axis.
@@ -29,7 +29,7 @@ rotate before or after their collision. For example, if two ice skaters hook
 arms as they pass by one another, they will spin in circles. We will not
 consider such rotation until later, and so for now we arrange things so that no
 rotation is possible. To avoid rotation, we consider only the scattering of
-**point masses**{: data-type="term" #import-auto-id1362764}—that is, structureless
+**point masses**{: class="term" #import-auto-id1362764}—that is, structureless
 particles that cannot rotate or spin.
 
 We start by assuming that $$ \vb{F}_{\text{net}}=0 $$, so that momentum $$
@@ -52,7 +52,7 @@ $$ \left( p_{x}\text{ and } p_{y}\right) $$ will also be
 
 Along the $$ x $$ -axis, the equation for conservation of momentum is
 
-<div data-type="equation" id="eip-854">
+<div class="equation" id="eip-854">
  $$ p_{1x}+ p_{2x}=p^{\prime}_{1x}+p^{\prime}_{2x}. $$
 </div>
 
@@ -60,13 +60,13 @@ Where the subscripts denote the particles and axes and the primes denote the
 situation after the collision. In terms of masses and velocities, this equation
 is
 
-<div data-type="equation" id="eip-881">
+<div class="equation" id="eip-881">
  $$ m_{1} v_{1x}+ m_{2} v_{2x}= m_{1}v^{\prime}_{1x}+ m_{2}v^{\prime}_{2x}. $$
 </div>
 
 But because particle 2 is initially at rest, this equation becomes
 
-<div data-type="equation" id="eip-166">
+<div class="equation" id="eip-166">
  $$ m_{1} v_{1x}= m_{1}v^{\prime}_{1x}+ m_{2}v^{\prime}_{2x}. $$
 </div>
 
@@ -76,31 +76,31 @@ find $$ v_{1x}= v_{1} $$.
 
 Conservation of momentum along the $$ x $$ -axis gives the following equation:
 
-<div data-type="equation" id="eip-488">
+<div class="equation" id="eip-488">
  $$ m_{1} v_{1}= m_{1}v^{\prime}_{1}\cos{\theta_{1}}+ m_{2}v^{\prime}_{2}\cos{\theta_{2}}, $$
 </div>
 
 where $$\theta_{1} $$ and $$\theta_{2} $$ are as shown
 in [[Figure]](#import-auto-id2747387).
 
-<div data-type="note" data-has-label="true" data-label="">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="">
+<div class="title">
 Conservation of Momentum along the \( x \) -axis
 </div>
-<div data-type="equation" id="eip-224">
+<div class="equation" id="eip-224">
  $$ m_{1} v_{1}= m_{1}v^{\prime}_{1}\cos{\theta_{1}}+ m_{2}v^{\prime}_{2}\cos{\theta_{2}} $$
 </div>
 </div>
 
 Along the $$ y $$ -axis, the equation for conservation of momentum is
 
-<div data-type="equation" id="eip-742">
+<div class="equation" id="eip-742">
  $$ p_{1y}+ p_{2y}=p^{\prime}_{1y}+p^{\prime}_{2y} $$
 </div>
 
 or
 
-<div data-type="equation" id="eip-770">
+<div class="equation" id="eip-770">
  $$ m_{1} v_{1y}+ m_{2} v_{2y}= m_{1}v^{\prime}_{1y}+ m_{2}v^{\prime}_{2y}. $$
 </div>
 
@@ -108,7 +108,7 @@ But $$ v_{1y} $$ is zero, because particle 1 initially moves along
 the $$ x $$ -axis. Because particle 2 is initially at rest, $$ v_{2y} $$ is also zero. The
 equation for conservation of momentum along the $$ y $$ -axis becomes
 
-<div data-type="equation" id="eip-10">
+<div class="equation" id="eip-10">
  $$ 0= m_{1}v^{\prime}_{1y}+ m_{2}v^{\prime}_{2y}. $$
 </div>
 
@@ -118,15 +118,15 @@ v\sin{\theta} $$.
 Thus, conservation of momentum along the $$ y $$ -axis gives the following
 equation:
 
-<div data-type="equation" id="eip-545">
+<div class="equation" id="eip-545">
  $$ 0= m_{1}v^{\prime}_{1}\sin{\theta_{1}}+ m_{2}v^{\prime}_{2}\sin{\theta_{2}}. $$
 </div>
 
-<div data-type="note" data-has-label="true" data-label="">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="">
+<div class="title">
 Conservation of Momentum along the \( y \) -axis
 </div>
-<div data-type="equation" id="eip-860">
+<div class="equation" id="eip-860">
  $$ 0= m_{1}v^{\prime}_{1}\sin{\theta_{1}}+ m_{2}v^{\prime}_{2}\sin{\theta_{2}} $$
 </div>
 </div>
@@ -138,8 +138,8 @@ But two equations can only be used to find two unknowns, and so other data may
 be necessary when collision experiments are used to explore nature at the
 subatomic level.
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Determining the Final Velocity of an Unseen Object from the Scattering of Another Object
 </div>
 Suppose the following experiment is performed. A 0.250-kg object
@@ -174,17 +174,17 @@ $$ v^{\prime}_{2}\sin{\theta }_{2} $$ and taking the ratio yields an equation (
 in which $$ \theta_2 $$ is the only unknown quantity. Applying the identity $$
 \left(\tan{\theta} =\frac{ \sin{\theta} }{\cos{\theta} }\right) $$, we obtain:
 
-<div data-type="equation" id="eip-329">
+<div class="equation" id="eip-329">
  $$ \tan{\theta_{2}}=\frac{ v^{\prime}_{1}\sin{\theta_{1}}}{ v^{\prime}_{1}\cos{\theta_{1}}- v_{1}}. $$
 </div>
 Entering known values into the previous equation gives
 
-<div data-type="equation" id="eip-45">
+<div class="equation" id="eip-45">
  $$ \tan{\theta_{2}}=\frac{ \left(1.50 \ms \right)\left(0.7071\right)}{\left(1.50 \ms \right)\left(0.7071\right)-2.00 \ms }=-1.129. $$
 </div>
 Thus,
 
-<div data-type="equation" id="eip-532">
+<div class="equation" id="eip-532">
  $$\theta_{2}={\tan}^{-1}\left(-1.129\right)=311.5^\circ \approx 312^\circ. $$
 </div>
 Angles are defined as positive in the counter clockwise direction, so this angle indicates that $$ m_{2} $$ is scattered to the right in [[Figure]](#import-auto-id2747922), as expected (
@@ -192,17 +192,17 @@ this angle is in the fourth quadrant). Either equation for the $$ x $$- or
 $$ y $$-axis can now be used to solve for $$ v^{\prime}_{2} $$, but the latter
 equation is easiest because it has fewer terms.
 
-<div data-type="equation" id="eip-516">
+<div class="equation" id="eip-516">
  $$ v^{\prime}_{2}=-\frac{ m_{1}}{ m_{2}}v^{\prime}_{1}\frac{ \sin{\theta_{1}}}{\sin{\theta_{2}}} $$
 </div>
 Entering known values into this equation gives
 
-<div data-type="equation" id="eip-497">
+<div class="equation" id="eip-497">
  $$ v^{\prime}_{2}=-\left(\frac{0.250\kg }{0.400\kg }\right)\left(1.50 \ms \right)\left(\frac{0.7071}{-0.7485}\right). $$
 </div>
 Thus,
 
-<div data-type="equation" id="eip-721">
+<div class="equation" id="eip-721">
  $$ v^{\prime}_{2}=0.886 \ms . $$
 </div>
 
@@ -232,21 +232,21 @@ elastic collision conserves internal kinetic energy. Again, let us assume object
 2 $$ \left( m_{2}\right) $$ is initially at rest. Then, the internal kinetic
 energy before and after the collision of two objects that have equal masses is
 
-<div data-type="equation" id="eip-213">
+<div class="equation" id="eip-213">
  $$ \frac{1}{2}m v_{1}^{2}=\frac{1}{2}{ m {v^{\prime}}_{1}}^{2}+\frac{1}{2}{ m {v^{\prime} }_{2}}^{2}. $$
 </div>
 
 Because the masses are equal, $$ m_{1}=m_{2}=m $$. Algebraic manipulation (left
 to the reader) of conservation of momentum in the $$ x $$- and $$ y $$ -directions can show that
 
-<div data-type="equation" id="eip-717">
+<div class="equation" id="eip-717">
  $$ \frac{1}{2} m v_{1}^{2}=\frac{1}{2}{ m {v^{\prime} }_{1}}^{2}+\frac{1}{2}{ m {v^{\prime} }_{2}}^{2}+{mv^{\prime} }_{1}v^{\prime}_{2}\cos\left({\theta_{1}}-{\theta_{2}}\right). $$
 </div>
 
 (Remember that $$\theta_{2} $$ is negative here.) The two preceding equations
 can both be true only if
 
-<div data-type="equation" id="eip-590">
+<div class="equation" id="eip-590">
  $$ mv^{\prime}_{1}v^{\prime}_{2}\cos\left({\theta_{1}}-{\theta_{2}}\right)=0. $$
 </div>
 
@@ -272,8 +272,8 @@ approximation, momentum is conserved for the two-ball system in billiards and
 pool. The problems below explore these and other characteristics of
 two-dimensional collisions.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Connections to Nuclear and Particle Physics
 </div>
 Two-dimensional collision experiments have revealed much of what we know about
@@ -296,7 +296,7 @@ the atomic nucleus from such experiments.
   m_{1}v^{\prime}_{1y}+m_{2}v^{\prime}_{2y} $$.
 * The internal kinetic before and after the collision of two objects that have
   equal masses is
-  <div data-type="equation" id="eip-id2398000">
+  <div class="equation" id="eip-id2398000">
  $$ \frac{1}{2} m v_{1}^{2}=
  \frac{1}{2} m{v^{\prime}}_{1}^{2}+
  \frac{1}{2} m{v^{\prime}_{2}}^{2}+
@@ -307,8 +307,8 @@ the atomic nucleus from such experiments.
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 [[Figure]](#import-auto-id2692680) shows a cube at rest and a small object heading toward it.
 (a) Describe the directions (angle $$\theta_{1} $$)
 at which the small object can emerge after colliding elastically with the
@@ -325,8 +325,8 @@ and assume that the cube is much more massive than the small object.
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Two identical pucks collide on an air hockey table. One puck was originally at rest.
 (a) If the incoming puck has a speed of 6.00 m/s and scatters to an angle of $$ 30.0^\circ $$,
 what is the velocity (magnitude and direction) of the second puck? (You may use
@@ -335,7 +335,7 @@ for elastic collisions of objects that have identical masses.)
 (b) Confirm that the collision is elastic.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 3.00 m/s, $$ 60^\circ $$
 
 below $$ x $$ -axis
@@ -355,16 +355,16 @@ $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Confirm that the results of the example [[Figure]](#fs-id1311272) do conserve momentum in
 both the $$ x $$- and $$ y $$-directions.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A 3000-kg cannon is mounted so that it can recoil only in the horizontal direction.
 (a) Calculate its recoil velocity when it fires a 15.0-kg shell at 480 m/s at an angle of $$ 20.0^\circ $$
 above the horizontal.
@@ -374,7 +374,7 @@ is dissipated as heat transfer in shock absorbers that stop its recoil.
 when it is fired?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ -2.26 \ms $$
 
 (b) $$ 7.63\times 10^{3} \J $$
@@ -388,8 +388,8 @@ divots.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -405,8 +405,8 @@ energy in the collision.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -423,7 +423,7 @@ magnitude and direction) of the gold nucleus.
 (b) What is the final kinetic energy of the helium nucleus?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 5.36\times 10^{5} \ms $$
 
 at $$ -29.5^\circ $$
@@ -431,8 +431,8 @@ at $$ -29.5^\circ $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -451,34 +451,34 @@ $$ x $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Starting with equations $$ m_{1}v_{1}=m_{1}v^{\prime}_{1}\cos{\theta_{1}}+m_{2}v^{\prime}_{2}\cos{\theta_{2}} $$
 and $$ 0=m_{1}v^{\prime}_{1}\sin{\theta_{1}}+m_{2}v^{\prime}_{2}\sin{\theta_{2}} $$
 for conservation of momentum in the $$ x $$ - and $$ y $$ -directions
 and assuming that one object is originally stationary, prove that
 for an elastic collision of two objects of equal masses,
 
-<div data-type="equation" id="import-auto-id2985541">
+<div class="equation" id="import-auto-id2985541">
  $$ \frac{1}{2} m v_{1}^{2}=\frac{1}{2}{ m{v^{\prime} }_{1}}^{2}+\frac{1}{2}{ m {v^{\prime} }_{2}}^{2}+{mv^{\prime} }_{1}v^{\prime}_{2}\cos\left({\theta_{1}}-{\theta_{2}}\right) $$
 </div>
 as discussed in the text.
 
 </div>
-<div data-type="solution" id="eip-id2538314" markdown="1">
+<div class="solution" id="eip-id2538314" markdown="1">
 We are given that $$ m_{1}=m_{2}\equiv m $$. The given equations then become:
 
-<div data-type="equation" id="eip-id1899177">
+<div class="equation" id="eip-id1899177">
  $$ v_{1}=v_{1}\cos{\theta_{1}}+v_{2}\cos{\theta_{2}} $$
 </div>
 and
 
-<div data-type="equation" id="eip-id1899459">
+<div class="equation" id="eip-id1899459">
  $$ 0=v^{\prime}_{1}\sin{\theta_{1}}+v^{\prime}_{2}\sin{\theta_{2}}. $$
 </div>
 Square each equation to get
 
-<div data-type="equation" id="eip-id2304354">
+<div class="equation" id="eip-id2304354">
  $$ \begin{array}{lll}
 v_{1}^{2}& =& { v^{\prime}_{1}}^{2}{\cos}^{2}{\theta_{1}}+{ v^{\prime}_{2}}^{2}{\cos}^{2}{\theta_{2}}+2v^{\prime}_{1}v^{\prime}_{2}\cos{\theta_{1}}\cos{\theta_{2}}\\
 0 & =& { v^{\prime}_{1}}^{2}{\sin}^{2}{\theta_{1}}+{ v^{\prime}_{2}}^{2}{\sin}^{2}{\theta_{2}}+2v^{\prime}_{1}v^{\prime}_{2}\sin{\theta_{1}}\sin{\theta_{2}}.
@@ -486,7 +486,7 @@ v_{1}^{2}& =& { v^{\prime}_{1}}^{2}{\cos}^{2}{\theta_{1}}+{ v^{\prime}_{2}}^{2}{
 </div>
 Add these two equations and simplify:
 
-<div data-type="equation" id="eip-id1300045">
+<div class="equation" id="eip-id1300045">
  $$ \begin{array}{lll}
 v_{1}^{2}& =& { v^{\prime}_{1}}^{2}+{ v^{\prime}_{2}}^{2}+2 v^{\prime}_{1}  v^{\prime}_{2} \left(\cos{\theta_{1}}\cos{\theta_{2}}+\sin{\theta_{1}}\sin{\theta_{2}}\right)\\
 & =& { v^{\prime}_{1}}^{2}+{ v^{\prime}_{2}}^{2}+2v^{\prime}_{1}v^{\prime}_{2}\left[\frac{1}{2}\cos\left({\theta_{1}}-{\theta_{2}}\right)+\frac{1}{2}\cos\left({\theta_{1}}+{\theta_{2}}\right)+\frac{1}{2}\cos\left({\theta_{1}}-{\theta_{2}}\right)-\frac{1}{2}\cos\left({\theta_{1}}+{\theta_{2}}\right)\right]\\
@@ -495,14 +495,14 @@ v_{1}^{2}& =& { v^{\prime}_{1}}^{2}+{ v^{\prime}_{2}}^{2}+2 v^{\prime}_{1}  v^{\
 </div>
 Multiply the entire equation by $$ \frac{1}{2}m $$ to recover the kinetic energy:
 
-<div data-type="equation" id="eip-id2367723">
+<div class="equation" id="eip-id2367723">
  $$ \frac{1}{2} mv_{1}^{2}=\frac{1}{2}m{ v^{\prime}_{1}}^{2}+\frac{1}{2}m{ {v^{\prime} }_{2}}^{2}+m{v^{\prime} }_{1}{v^{\prime} }_{2}\cos\left({\theta_{1}}-{\theta_{2}}\right) $$
 </div>
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Integrated Concepts**
 
@@ -514,10 +514,10 @@ away?
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 point masses
 : structureless particles with no rotation or spin

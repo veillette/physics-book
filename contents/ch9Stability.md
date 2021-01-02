@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * State the types of equilibrium.
 * Describe stable and unstable equilibriums.
 * Describe neutral equilibrium.
@@ -27,7 +27,7 @@ are labeled with smaller type.
 ![In the figure a man is shown balancing a child on his hand. The child is enjoying the activity.](../resources/Figure_10_03_01a.jpg "A man balances a toy doll on one hand.")
 {: #import-auto-id3549449}
 
-A system is said to be in **stable equilibrium**{: data-type="term"
+A system is said to be in **stable equilibrium**{: class="term"
 #import-auto-id2720918} if, when displaced from equilibrium, it experiences
 a net force or torque in a direction opposite to the direction of the
 displacement. For example, a marble at the bottom of a bowl will experience a
@@ -40,7 +40,7 @@ see the pencil in [[Figure]](#import-auto-id1425416)
 ![A pencil is balanced vertically on its flat end. The weight W of the pencil is acting at its center of gravity downward. The normal reaction N of the surface is shown as an arrow upward. A free body diagram is shown at right of the pencil. The midpoint of the flat base of the pencil is marked as pivot point.](../resources/Figure_10_03_02aa.jpg "This pencil is in the condition of equilibrium. The net force on the pencil is zero and the total torque about any pivot is zero. ")
 {: #import-auto-id1425416}
 
-A system is in **unstable equilibrium**{: data-type="term"} if, when displaced,
+A system is in **unstable equilibrium**{: class="term"} if, when displaced,
 it experiences a net force or torque in the *same* direction as the displacement
 from equilibrium. A system in unstable equilibrium accelerates away from its
 equilibrium position if displaced even slightly. An obvious example is a ball
@@ -59,7 +59,7 @@ See the next several figures for examples of unstable equilibrium.
 ![A vertical pencil tilted toward left is shown. The sharp end of the pencil is down and labeled as pivot point. The weight of the pencil is acting at its center of gravity and the line of action of the weight is toward left of the pivot point.](../resources/Figure_10_03_03bb.jpg "If the pencil is displaced even slightly, a torque is created by its weight that is in the same direction as the displacement, causing the displacement to increase.")
 {: #eip-id1165317514478}
 
-A system is in **neutral equilibrium**{: data-type="term"} if its equilibrium is
+A system is in **neutral equilibrium**{: class="term"} if its equilibrium is
 independent of displacements from its original position. A marble on a flat
 horizontal surface is an example. Combinations of these situations are possible.
 For example, a marble on a saddle is stable for displacements toward the front
@@ -117,8 +117,8 @@ section emphasize gravitational forces, the basic conditions for equilibrium are
 the same for all types of forces. The net external force must be zero, and the
 net torque must also be zero.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Take-Home Experiment
 </div>
 Stand straight with your heels, back, and head against a wall. Bend forward from your waist, keeping your heels and bottom against the wall, to touch your toes. Can you do this without toppling over? Explain why and what you need to do to be able to touch your toes without losing your balance. Is it easier for a woman to do this?
@@ -138,15 +138,15 @@ Stand straight with your heels, back, and head against a wall. Bend forward from
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 A round pencil lying on its side as in [[Figure]](#import-auto-id1373481) is in neutral equilibrium relative to displacements perpendicular to its length. What is its stability relative to displacements parallel to its length?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Explain the need for tall towers on a suspension bridge to ensure stable equilibrium.
 
 </div>
@@ -154,42 +154,42 @@ Explain the need for tall towers on a suspension bridge to ensure stable equilib
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 Suppose a horse leans against a wall as in [[Figure]](#import-auto-id3087934). Calculate the force exerted on the wall assuming that force is horizontal while using the data in the schematic representation of the situation. Note that the force exerted on the wall is equal in magnitude and opposite in direction to the force exerted on the horse, keeping it in equilibrium. The total mass of the horse and rider is 500 kg. Take the data to be accurate to three digits.
 
 ![In part a, a horse is standing next to a wall with its legs crossed. A sleepy-looking rider is leaning against the wall. Part b is a drawing of the same horse from a rear view, but this time with no rider. The horse is crossing its rear legs, and its rump is leaning against the wall. The reaction of the wall F is acting on the horse at a height one point two meters above the ground. The weight of the horse is acting at its center of gravity near the base of the tail. The center of gravity is one point four meters above the ground. The line of action of weight is zero point three five meters away from the feet of the horse.](../resources/Figure_10_03_07a.jpg)
 {: #import-auto-id3087934}
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 $$ F_{\text{wall}}=1.43\times 10^{3}\N $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 Two children of mass 20.0 kg and 30.0 kg sit balanced on a seesaw with the pivot point located at the center of the seesaw. If the children are separated by a distance of 3.00 m, at what distance from the pivot point is the small child sitting in order to maintain the balance?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 (a) Calculate the magnitude and direction of the force on each foot of the horse in [[Figure]](#import-auto-id3087934) (two are on the ground), assuming the center of mass of the horse is midway between the feet. The total mass of the horse and rider is 500kg.
 (b) What is the minimum coefficient of friction between the hooves and ground? Note that the force exerted by the wall is horizontal.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 a) $$ 2.55\times 10^{3}\N , 16.3^\circ$$ to the left of vertical (i.e., toward the wall)}
 b) 0.292
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 A person carries a plank of wood 2.00 m long with one hand pushing down on it at one end
 with a force $$ \vb{F}_1 $$ and the other hand holding it up at 0.500 m from the end of the plank with force
 $$ \vb{F}_2 $$. If the plank has a mass of 20.0 kg and its center of gravity is at the middle
@@ -199,22 +199,22 @@ and $$ \vb{F}_{2} $$ ?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 A 17.0-m-high and 11.0-m-long wall under construction and its bracing are shown in [[Figure]](#import-auto-id3104849). The wall is in stable equilibrium without the bracing but can pivot at its base. Calculate the force exerted by each of the 10 braces if a strong wind exerts a horizontal force of 650 N on each square meter of the wall. Assume that the net force from the wind acts at a height halfway up the wall and that all braces exert equal forces parallel to their lengths. Neglect the thickness of the wall.
 
 ![A seventeen meter high wall is standing on the ground with ten braces to support it. At the base of the figure a brown colored ground is visible. Only one brace is visible from a side. A brace makes an angle of thirty five degree with the wall. The point of contact of the brace is eight point five meters high. You have to find the force exerted by this brace on the wall to support.](../resources/Figure_10_03_08a.jpg)
 {: #import-auto-id3104849}
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 $$ F_{\text{B}}=2.12\times 10^{4}\N $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 (a) What force must be exerted by the wind to support a 2.50-kg chicken in the position shown in [[Figure]](#import-auto-id2601839)?
 (b) What is the ratio of this force to the chicken’s weight?
 (c) Does this support the contention that the chicken has a relatively stable construction?
@@ -225,8 +225,8 @@ $$ F_{\text{B}}=2.12\times 10^{4}\N $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 Suppose the weight of the drawbridge in [[Figure]](#import-auto-id2806088) is supported entirely by its hinges and the opposite shore, so that its cables are slack.
 (a) What fraction of the weight is supported by the opposite shore if the point of support is directly beneath the cable attachments?
 (b) What is the direction and magnitude of the force the hinges exert on the bridge under these circumstances? The mass of the bridge is 2500 kg.
@@ -235,7 +235,7 @@ Suppose the weight of the drawbridge in [[Figure]](#import-auto-id2806088) is su
 {: #import-auto-id2806088}
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 a) 0.167, or about one-sixth of the weight is supported by the opposite shore.
 
 b) $$ F=2.0\times 10^{4}\N $$, straight up.
@@ -243,8 +243,8 @@ b) $$ F=2.0\times 10^{4}\N $$, straight up.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 Suppose a 900-kg car is on the bridge in [[Figure]](#import-auto-id2806088) with its center of mass halfway between the hinges and the cable attachments. (The bridge is supported by the cables and hinges only.)
 (a) Find the force in the cables.
 (b) Find the direction and magnitude of the force exerted by the hinges on the bridge.
@@ -252,8 +252,8 @@ Suppose a 900-kg car is on the bridge in [[Figure]](#import-auto-id2806088) with
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 A sandwich board advertising sign is constructed as shown in [[Figure]](#import-auto-id803062). The sign’s mass is 8.00 kg.
 (a) Calculate the tension in the chain assuming no friction between the legs and the sidewalk.
 (b) What force is exerted by each side on the hinge?
@@ -262,7 +262,7 @@ A sandwich board advertising sign is constructed as shown in [[Figure]](#import-
 {: #import-auto-id803062}
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 a) 21.6 N
 
 b) 21.6 N
@@ -270,32 +270,32 @@ b) 21.6 N
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 (a) What minimum coefficient of friction is needed between the legs and the ground to keep the sign in [[Figure]](#import-auto-id803062) in the position shown if the chain breaks?
 (b) What force is exerted by each side on the hinge?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 A gymnast is attempting to perform splits. From the information given in [[Figure]](#import-auto-id3517398), calculate the magnitude and direction of the force exerted on each foot by the floor.
 
 ![A gymnast with two pompoms in her hands is shown. One of the hand is horizontal toward left and the other is vertical. The gymnast is attempting to perform a full split. The span of her legs is one point eight meters, and the distance of one foot from the center of gravity is zero point nine meters. The weight of the girl is labeled as seven hundred newtons. The vertical distance of one foot from the center of gravity is zero point three zero meter.](../resources/Figure_10_03_12a.jpg "A gymnast performs full split. The center of gravity and the various distances from it are shown.")
 {: #import-auto-id3517398}
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 350 N directly upwards
 
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 neutral equilibrium
 : a state of equilibrium that is independent of a system’s displacements from

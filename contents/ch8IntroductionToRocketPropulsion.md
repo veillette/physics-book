@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * State Newton’s third law of motion.
 * Explain the principle involved in propulsion of rockets and jet engines.
 * Derive an expression for the acceleration of the rocket and discuss the factors that affect the acceleration.
@@ -21,8 +21,8 @@ opposite reaction on what remains. Another common example is the recoil of a
 gun. The gun exerts a force on a bullet to accelerate it and consequently
 experiences an equal and opposite force, causing the gun’s recoil or kick.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Making Connections: Take-Home Experiment—Propulsion of a Balloon
 </div>
 Hold a balloon and fill it with air. Then, let the balloon go. In which direction does the air come out of the balloon and in which direction does the balloon get propelled? If you fill the balloon with water and then let the balloon go, does the balloon’s direction change? Explain your answer.
@@ -51,20 +51,20 @@ By calculating the change in momentum for the entire system over $$ \Delta t $$,
 and equating this change to the impulse, the following expression can be shown
 to be a good approximation for the acceleration of the rocket.
 
-<div data-type="equation" id="eip-188">
+<div class="equation" id="eip-188">
  $$ a=\frac{ v_{\text{e}}}{m}\frac{ \Delta m}{\Delta t}-g $$
 </div>
 
 “The rocket” is that part of the system remaining after the gas is ejected, and
 $$ g $$ is the acceleration due to gravity.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Acceleration of a Rocket
 </div>
 Acceleration of a rocket is
 
-<div data-type="equation" id="eip-653">
+<div class="equation" id="eip-653">
  $$ a=\frac{ v_{\text{e}}}{m}\frac{ \Delta m}{\Delta t}-g, $$
 </div>
 where $$ a $$ is the acceleration of the rocket, $$ v_{\text{e}} $$
@@ -91,8 +91,8 @@ m $$ of the rocket. The smaller the mass is (all other factors being the same), 
   begin with, so that acceleration increases continuously, reaching a maximum
   just before the fuel is exhausted.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Factors Affecting a Rocket’s Acceleration
 </div>
 * The greater the exhaust velocity $$ v_{\text{e}} $$ of the gases relative to the rocket, the greater the acceleration.
@@ -102,8 +102,8 @@ Factors Affecting a Rocket’s Acceleration
 
 </div>
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating Acceleration: Initial Acceleration of a Moon Launch
 </div>
 A Saturn V’s mass at liftoff was $$ 2.80\times 10^{6}\kg $$,
@@ -121,7 +121,7 @@ because $$ a $$ is the unknown and all of the terms on the right side of the equ
 
 Substituting the given values into the equation for acceleration yields
 
-<div data-type="equation" id="eip-13">
+<div class="equation" id="eip-13">
  $$ \begin{array}{lll}
 a& =& \frac{ v_{\text{e}}}{m}\frac{ \Delta m}{\Delta t}-g\\
  & =
@@ -147,7 +147,7 @@ small as possible. It can be shown that, in the absence of air resistance and
 neglecting gravity, the final velocity of a one-stage rocket initially at rest
 is
 
-<div data-type="equation" id="eip-71">
+<div class="equation" id="eip-71">
  $$ v=v_{\text{e}} \ln \frac{ m_{0}}{ m_{\text{r}}}, $$
 </div>
 
@@ -161,19 +161,19 @@ escape Earth’s gravity starting from rest, given that the escape velocity from
 Earth is about $$ 11.2\times 10^{3} \ms $$, and assuming an exhaust
 velocity $$ v_{\text{e}}=2.5\times 10^{3} \ms $$.
 
-<div data-type="equation" id="eip-31">
+<div class="equation" id="eip-31">
  $$ \ln \frac{ m_{0}}{ m_{\text{r}}}=\frac{v}{ v_{\text{e}}}=\frac{11.2\times 10^{3} \ms }{2.5\times 10^{3} \ms }=4.48 $$
 </div>
 
 Solving for $$ m_{0}/m_{\text{r}} $$ gives
 
-<div data-type="equation" id="eip-607">
+<div class="equation" id="eip-607">
  $$ \frac{ m_{0}}{ m_{\text{r}}}={e}^{4.48}=88. $$
 </div>
 
 Thus, the mass of the rocket is
 
-<div data-type="equation" id="eip-263">
+<div class="equation" id="eip-263">
  $$ m_{\text{r}}=\frac{ m_{0}}{88}. $$
 </div>
 
@@ -203,8 +203,8 @@ atmosphere’s resistance.
 ![The space shuttle is launched. It consists of the shuttle orbiter, two solid rocket boosters, and an expendable external tank. It takes off leaving much smoke and fire.](../resources/Figure_09_07_02a.jpg "The space shuttle had a number of reusable parts. Solid fuel boosters on either side were recovered and refueled after each flight, and the entire orbiter returned to Earth for use in subsequent flights. The large liquid fuel tank was expended. The space shuttle was a complex assemblage of technologies, employing both solid and liquid fuel and pioneering ceramic tiles as reentry heat shields. As a result, it permitted multiple launches as opposed to single-use rockets. (credit: NASA)")
 {: #import-auto-id2998704}
 
-<div data-type="note" data-has-label="true" id="eip-225" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" id="eip-225" data-label="" markdown="1">
+<div class="title">
 PhET Explorations: Lunar Lander
 </div>
 Can you avoid the boulder field and land safely, just before your fuel runs out, as Neil Armstrong did in 1969? Our version of this classic video game accurately simulates the real motion of the lunar lander with the correct mass, thrust, fuel consumption rate, and lunar gravity. The real lunar lander is very hard to control.
@@ -234,8 +234,8 @@ html" width="600" height="450"  allowfullscreen></iframe>
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -247,8 +247,8 @@ significantly more air resistance than the intact shell?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -260,8 +260,8 @@ away from this position, and explain the physics involved.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -275,8 +275,8 @@ still able to obtain thrust by ejecting the gases?
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -285,14 +285,14 @@ that they may intercept fast-moving incoming missiles in the short time
 available. What is the takeoff acceleration of a 10 000-kg ABM that expels 196
 kg of gas per second at an exhaust velocity of $$ 2.50\times 10^{3} \ms $$ ?
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 39.2\mss $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -303,8 +303,8 @@ expels 8.00 kg of gas per second at an exhaust velocity of $$ 2.20\times
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -313,14 +313,14 @@ of its mass at an exhaust velocity of $$ 2.00\times 10^{3} \ms $$. You may
 assume the gravitational force is negligible at the probe’s location.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 4.16\times 10^{3} \ms $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -340,12 +340,12 @@ acceleration due to gravity is negligible.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Derive the equation for the vertical acceleration of a rocket.
 
 </div>
-<div data-type="solution" id="eip-id1171092807004" markdown="1">
+<div class="solution" id="eip-id1171092807004" markdown="1">
 The force needed to give a small mass $$ \Delta m $$
 an acceleration $$ a_{\Delta m} $$ is $$ F=\Delta m a_{\Delta m} $$. To
 accelerate this mass in the small time interval $$ \Delta t $$ at a speed $$ v_
@@ -360,8 +360,8 @@ $$, where $$ m $$ is the mass of the rocket and unburnt fuel.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -375,27 +375,27 @@ same as on Earth’s surface $$ \left( 9.80\mss \right) $$.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Given the following data for a fire extinguisher-toy wagon rocket experiment, calculate the average exhaust velocity of the gases expelled from the extinguisher. Starting from rest, the final velocity is 10.0 m/s. The total mass is initially 75.0 kg and is 70.0 kg after the extinguisher is fired.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 How much of a single-stage rocket that is 100 000 kg can be anything but fuel if the rocket is to have a final speed of
 $$ 8.00\text{km/s} $$, given that it expels gases at an exhaust velocity of $$ 2.20\times
 10^{3} \ms $$ ?
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 2.63\times 10^{3}\kg $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -405,7 +405,7 @@ of 10.0 m/s. What is the recoil velocity of the squid if the ejection is done in
 (b) How much energy is lost to work done against friction?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 0.421 m/s away from the ejected fluid.
 
 (b) $$ 0.237 \J $$.
@@ -413,8 +413,8 @@ of 10.0 m/s. What is the recoil velocity of the squid if the ejection is done in
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Unreasonable Results**
 
@@ -432,8 +432,8 @@ neglected.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Construct Your Own Problem**
 
@@ -448,8 +448,8 @@ distance to the ship.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Construct Your Own Problem**
 

@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Apply problem-solving techniques to solve for quantities in more complex systems of forces.
 * Integrate concepts from kinematics to solve problems using Newton\'s laws of motion.
 
@@ -14,8 +14,8 @@ There are many interesting applications of Newton’s laws of motion, a few more
 of which are presented in this section. These serve also to illustrate some
 further subtleties of physics and to help build problem-solving skills.
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Drag Force on a Barge
 </div>
 Suppose two tugboats push on a barge at different angles, as shown in [[Figure]](#import-auto-id1221020).
@@ -38,7 +38,7 @@ The directions and magnitudes of acceleration and the applied forces are given
 in [[Figure]](#import-auto-id1221020)**(a)**. We will define the total
 force of the tugboats on the barge as $$ \vb{F}_{\text{app}} $$ so that:
 
-<div data-type="equation" id="eip-id1203757">
+<div class="equation" id="eip-id1203757">
  $$ \vb{F}_{\text{app}}=\vb{F}_{x}+\vb{F}_{y} $$
 </div>
 Since the barge is flat bottomed, the drag of the water $$ \vb{F}_{\text{D}} $$
@@ -56,7 +56,7 @@ the magnitude and direction of $$ \vb{F}_{\text{app}} $$
 are easily found. First, the resultant magnitude is given by the
 Pythagorean theorem:
 
-<div data-type="equation" id="eip-id2112578">
+<div class="equation" id="eip-id2112578">
  $$ \begin{array}{lll}
 F_{\text{app}}& =& \sqrt{ F_{x}^{2}+F_{y}^{2}} \\
 F_{\text{app}}& =& \sqrt{\left(2.7\times 10^{5}\N \right)^{2}+\left(3.6\times 10^{5}\N \right)^{2}}
@@ -65,7 +65,7 @@ F_{\text{app}}& =& \sqrt{\left(2.7\times 10^{5}\N \right)^{2}+\left(3.6\times 10
 </div>
 The angle is given by
 
-<div data-type="equation" id="eip-id3026466">
+<div class="equation" id="eip-id3026466">
 $$ \begin{array}{lll}
 \theta & =& {\tan}^{-1}\left(\frac{ F_{y}}{ F_{x}}\right)\\
 \theta & =& {\tan}^{-1}\left(\frac{3.6\times 10^{5}\N }{2.7\times 10^{5}\N }\right)=53^\circ,
@@ -79,28 +79,28 @@ same direction as $$ \vb{F}_{\text{app}} $$, but its magnitude is
 slightly less than $$ \vb{F}_{\text{app}} $$. The problem is now
 one-dimensional. From [[Figure]](#import-auto-id1221020)**(b)**, we can see that
 
-<div data-type="equation" id="eip-id1624544">
+<div class="equation" id="eip-id1624544">
 $$ F_{\text{net}}=F_{\text{app}}-F_{\text{D}}. $$
 </div>
 But Newton’s second law states that
 
-<div data-type="equation" id="eip-id1230866">
+<div class="equation" id="eip-id1230866">
 $$ F_{\text{net}}=ma . $$
 </div>
 Thus,
 
-<div data-type="equation" id="eip-id2268355">
+<div class="equation" id="eip-id2268355">
 $$ F_{\text{app}}-F_{\text{D}}=ma . $$
 </div>
 This can be solved for the magnitude of the drag force of the water $$ F_{\text{D}} $$
 in terms of known quantities:
 
-<div data-type="equation" id="eip-id1464099">
+<div class="equation" id="eip-id1464099">
 $$ F_{\text{D}}=F_{\text{app}}-ma . $$
 </div>
 Substituting known values gives
 
-<div data-type="equation" id="eip-id1715978">
+<div class="equation" id="eip-id1715978">
  $$ F_{\text{D}}=\left(4.5 \times 10^{5}\N \right)-\left(5.0 \times 10^{6}\kg \right)\left(7.5 \times 10^{-2}\mss \right)=7.5 \times 10^{4}\N . $$
 </div>
 The direction of $$ \vb{F}_{\text{D}} $$
@@ -123,8 +123,8 @@ supporting a mass were equal only because the angles on either side were equal.
 Consider the following example, where the angles are not equal; slightly more
 trigonometry is involved.
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Different Tensions at Different Angles
 </div>
 Consider the traffic light (mass 15.0 kg) suspended from two wires as shown in [[Figure]](#import-auto-id3051538). Find the tension in each wire, neglecting the masses of the wires.
@@ -148,22 +148,22 @@ the net external force is zero along each axis because acceleration is zero.
 
 First consider the horizontal or *x*-axis:
 
-<div data-type="equation" id="eip-id2514755">
+<div class="equation" id="eip-id2514755">
 $$ F_{\text{net}x}=T_{2x}-T_{1x}=0. $$
 </div>
 Thus, as you might expect,
 
-<div data-type="equation" id="eip-id2540452">
+<div class="equation" id="eip-id2540452">
  $$ T_{1x}=T_{2x}. $$
 </div>
 This gives us the following relationship between $$ T_{1} $$ and $$ T_{2} $$:
 
-<div data-type="equation" id="eip-id2122298">
+<div class="equation" id="eip-id2122298">
  $$ T_{1}\cos\left(30^\circ\right)=T_{2}\cos\left(45^\circ\right). $$
 </div>
 Thus,
 
-<div data-type="equation" id="eip-id2577136">
+<div class="equation" id="eip-id2577136">
  $$ T_{2}=\left(1.225\right) T_{1}. $$
 </div>
 Note that $$ T_{1} $$ and $$ T_{2} $$ are not equal in this case, because the angles on either side
@@ -172,40 +172,40 @@ T_{1} $$, because it is exerted more vertically than $$ T_{1} $$.
 
 Now consider the force components along the vertical or *y*-axis:
 
-<div data-type="equation" id="eip-id2308230">
+<div class="equation" id="eip-id2308230">
 $$ F_{\text{net}y}=T_{1y}+T_{2y}-w=0. $$
 </div>
 This implies
 
-<div data-type="equation" id="eip-id1339509">
+<div class="equation" id="eip-id1339509">
  $$ T_{1y}+T_{2y}=w. $$
 </div>
 Substituting the expressions for the vertical components gives
 
-<div data-type="equation" id="eip-id1925561">
+<div class="equation" id="eip-id1925561">
  $$ T_{1}\sin\{\left(30^{\circ} \right)\}+T_{2}\sin\left(45^\circ\right)=w. $$
 </div>
 There are two unknowns in this equation, but substituting the expression for $$ T_{2} $$
 in terms of $$ T_{1} $$ reduces this to one equation with one unknown:
 
-<div data-type="equation" id="eip-id2259246">
+<div class="equation" id="eip-id2259246">
  $$ T_{1}\left(0.500\right)+\left(1.225 T_{1}\right)\left(0.707\right)=w=mg , $$
 </div>
 which yields
 
-<div data-type="equation" id="eip-id2556360">
+<div class="equation" id="eip-id2556360">
  $$ \left(1.366\right) T_{1}=\left(15.0 \kg \right)\left(9.80 \mss \right). $$
 </div>
 Solving this last equation gives the magnitude of $$ T_{1} $$ to be
 
-<div data-type="equation" id="eip-id1747068">
+<div class="equation" id="eip-id1747068">
  $$ T_{1}=108 \N . $$
 </div>
 Finally, the magnitude of $$ T_{2} $$ is determined using
 the relationship between them, $$ T_{2} $$ = 1.225 $$ T_{1} $$,
 found above. Thus we obtain
 
-<div data-type="equation" id="eip-id1744019">
+<div class="equation" id="eip-id1744019">
  $$ T_{2}=132 \N . $$
 </div>
 
@@ -225,8 +225,8 @@ greater than your weight when the elevator starts up? What about when the
 elevator moves upward at a constant speed: will the scale still read more than
 your weight at rest? Consider the following example.
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 What Does the Bathroom Scale Read in an Elevator?
 </div>
 [[Figure]](#import-auto-id347645) shows a 75.0-kg man (weight of about 165 lb) standing on a bathroom scale in an elevator. Calculate the scale reading:
@@ -254,23 +254,23 @@ Newton’s third law $$ \vb{F}_{\text{p}} $$ and $$
 direction, so that we need to find $$ F_{\s} $$ in order to find what
 the scale reads. We can do this, as usual, by applying Newton’s second law,
 
-<div data-type="equation" id="eip-id2548908">
+<div class="equation" id="eip-id2548908">
 $$ F_{\text{net}}=ma . $$
 </div>
 From the free-body diagram we see that $$ F_{\text{net}}=F_{\s}-w $$,
 so that
 
-<div data-type="equation" id="eip-id2522872">
+<div class="equation" id="eip-id2522872">
 $$ F_{\s}-w=ma . $$
 </div>
 Solving for $$ F_{\s} $$ gives an equation with only one unknown:
 
-<div data-type="equation" id="eip-id1957748">
+<div class="equation" id="eip-id1957748">
 $$ F_{\s}=ma +w, $$
 </div>
 or, because $$ w=mg $$, simply
 
-<div data-type="equation" id="eip-id3507099">
+<div class="equation" id="eip-id3507099">
 $$ F_{\s}=ma +mg . $$
 </div>
 No assumptions were made about the acceleration, and so this solution should be valid for a variety of accelerations in addition to the ones in this exercise.
@@ -279,12 +279,12 @@ No assumptions were made about the acceleration, and so this solution should be 
 
 In this part of the problem, $$ a=1.20\mss $$, so that
 
-<div data-type="equation" id="eip-id1966528">
+<div class="equation" id="eip-id1966528">
 $$ F_{\s}=\left(75.0 \kg \right)\left(1.20 \mss \right)+\left(75.0 \kg \right)\left(9.80 \mss \right), $$
 </div>
 yielding
 
-<div data-type="equation" id="eip-id1707818">
+<div class="equation" id="eip-id1707818">
 $$ F_{\s}=825 \N . $$
 </div>
 
@@ -294,7 +294,7 @@ This is about 185 lb. What would the scale have read if he were stationary?
 Since his acceleration would be zero, the force of the scale would be equal to
 his weight:
 
-<div data-type="equation" id="eip-id2384618">
+<div class="equation" id="eip-id2384618">
  $$ \begin{array}{lll}
 F_{\text{net}}& =& ma =0=F_{\s}-w\\
 F_{\s}& =& w=mg \\
@@ -313,17 +313,17 @@ $$ \Delta v=0 $$.
 
 Thus,
 
-<div data-type="equation" id="eip-id2587837">
+<div class="equation" id="eip-id2587837">
 $$ F_{\s}=ma +mg =0+mg . $$
 </div>
 Now
 
-<div data-type="equation" id="eip-id1546720">
+<div class="equation" id="eip-id1546720">
 $$ F_{\s}=\left(75.0 \kg \right)\left(9.80 \mss \right), $$
 </div>
 which gives
 
-<div data-type="equation" id="eip-id1499798">
+<div class="equation" id="eip-id1499798">
 $$ F_{\s}=735 \N . $$
 </div>
 
@@ -359,7 +359,7 @@ problem:
 Step 1. *Identify which physical principles are involved*. Listing the givens
 and the quantities to be calculated will allow you to identify the principles
 involved.
-{: data-type="newline"}
+{: class="newline"}
 
 Step 2. *Solve the problem using strategies outlined in the text*. If these are
 available for the specific topic, you should refer to them. You should also
@@ -367,8 +367,8 @@ refer to the sections of the text that deal with a particular topic. The
 following worked example illustrates how these strategies are applied to an
 integrated concept problem.
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 What Force Must a Soccer Player Exert to Reach Top Speed?
 </div>
 A soccer player starts from rest and accelerates forward, reaching a velocity of 8.00 m/s in 2.50 s.
@@ -395,12 +395,12 @@ the change in velocity is $$ \Delta v=8.00 m/s $$. We are given the elapsed
 time, and so $$ \Delta t=2.50 \s $$. The unknown is acceleration, which can be
 found from its definition:
 
-<div data-type="equation" id="eip-id1739294">
+<div class="equation" id="eip-id1739294">
  $$ a=\frac{ \Delta v}{\Delta t}. $$
 </div>
 Substituting the known values yields
 
-<div data-type="equation" id="eip-id2063281">
+<div class="equation" id="eip-id2063281">
  $$ \begin{array}{lll}
 a& =& \frac{8.00 \ms }{2.50 \s} \\
  & =& 3.20 \mss .
@@ -420,12 +420,12 @@ causes his acceleration. Since we now know the player’s acceleration and are
 given his mass, we can use Newton’s second law to find the force exerted. That
 is,
 
-<div data-type="equation" id="eip-id1756199">
+<div class="equation" id="eip-id1756199">
 $$ F_{\text{net}}=ma . $$
 </div>
 Substituting the known values of $$ m $$ and $$ a $$ gives
 
-<div data-type="equation" id="eip-id1351504">
+<div class="equation" id="eip-id1351504">
  $$ \begin{array}{lll}
 F_{\text{net}}& =& \left(70.0 \kg \right)\left(3.20 \mss \right)\\
 & =& 224 \N .
@@ -470,8 +470,8 @@ physical principles.
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 To simulate the apparent weightlessness of space orbit, astronauts are trained in the hold of a
 cargo aircraft that is accelerating downward at $$ g $$. Why will they appear to be weightless,
 as measured by standing on a bathroom
@@ -481,8 +481,8 @@ their apparent weightlessness in orbit and in the aircraft?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 A cartoon shows the toupee coming off the head of an elevator passenger when the elevator rapidly
 stops during an upward ride. Can this really happen without the person being tied to the floor of
 the elevator? Explain your answer.
@@ -492,8 +492,8 @@ the elevator? Explain your answer.
 
 ### Problem Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A flea jumps by exerting a force of $$ 1.20 \times 10^{-5}\N $$
 straight down on the ground. A breeze blowing on the flea parallel to the ground
 exerts a force of $$ 0.500 \times 10^{-6}\N $$ on the flea. Find the
@@ -501,13 +501,13 @@ direction and magnitude of the acceleration of the flea if its mass is $$ 6.00
 \times 10^{-7}\kg $$. Do not neglect the gravitational force.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 10.2\mss , 4.67^\circ$$  from vertical
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Two muscles in the back of the leg pull upward on the Achilles tendon, as shown in [[Figure]](#import-auto-id2667995). (These muscles are called the medial and lateral heads of the gastrocnemius muscle.) Find the magnitude and direction of the total force on the Achilles tendon. What type of movement could be caused by this force?
 
 </div>
@@ -516,12 +516,12 @@ Two muscles in the back of the leg pull upward on the Achilles tendon, as shown 
 ![An Achilles tendon is shown in the figure with two forces acting upward, one at an angle of plus twenty degrees, one at minus twenty degrees. F sub one, equal to two hundred newtons, is shown by a vector making an angle twenty degrees toward the right with the vertical, and F sub two, equal to two hundred newtons, is shown making an angle of twenty degrees left from the vertical.](../resources/Figure_04_07_04.jpg "Achilles tendon")
 {: #import-auto-id2667995}
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A 76.0-kg person is being pulled away from a burning building as shown in [[Figure]](#import-auto-id2677556). Calculate the tension in the two ropes if the person is momentarily motionless. Include a free-body diagram in your solution.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 ![An object of mass m is shown being pulled by two ropes. Tension T sub two acts toward the right at an angle of ten degrees above the horizontal. Another rope makes an angle fifteen degrees to the left of the vertical direction, and tension in the rope is T sub one, shown by a vector arrow. Weight w is acting vertically downward.](../resources/Figure_04_07_07.jpg){: #import-auto-id3076212 height="200"}
 
 $$ T_{1}=736 \N $$, $$ T_{2}=194 \N $$
@@ -531,8 +531,8 @@ $$ T_{1}=736 \N $$, $$ T_{2}=194 \N $$
 ![A lady is being pulled away from a burning building using a rope. She is in the middle of the rope; her weight is shown by a vector acting vertically downward. Tension, T sub one, acts upward through the left side of the rope, making an angle of fifteen degrees with the vertical. Tension T sub two acts through the right side of the rope, making an angle of ten degrees above the positive x axis.](../resources/Figure_04_07_08.jpg "The force \( T_2 \) needed to hold steady the person being rescued from the fire is less than her weight and less than the force \( T_1 \) in the other rope, since the more vertical rope supports a greater part of her weight (a vertical force).&#10;        ")
 {: #import-auto-id2677556 height="275"}
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Integrated Concepts**
  A 35.0-kg dolphin decelerates from 12.0 to 7.50 m/s in 2.30 s to join another dolphin in play. What average force was
@@ -542,8 +542,8 @@ exerted to slow him if he was moving horizontally?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Integrated Concepts**
  When starting a foot race, a 70.0-kg sprinter exerts an average force of 650 N backward on the ground for 0.800 s.
@@ -551,7 +551,7 @@ exerted to slow him if he was moving horizontally?
 (b) How far does he travel?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 7.43 \ms $$
 
 (b) 2.97 m
@@ -559,8 +559,8 @@ exerted to slow him if he was moving horizontally?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Integrated Concepts**
  A large rocket has a mass of $$ 2.00 \times 10^{6}\kg $$
@@ -576,8 +576,8 @@ time for this motion.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Integrated Concepts**
  A basketball player jumps straight up for a ball. To do this, he lowers his body 0.300 m and then accelerates through this distance by forcefully straightening his legs. This player leaves the floor with a vertical velocity sufficient to carry him 0.900 m above the floor.
@@ -587,7 +587,7 @@ He goes from zero to the velocity found in part (a) in a distance of 0.300 m.
 (c) Calculate the force he exerts on the floor to do this, given that his mass is 110 kg.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 4.20 \ms $$
 
 (b) $$ 29.4\mss $$
@@ -596,8 +596,8 @@ He goes from zero to the velocity found in part (a) in a distance of 0.300 m.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Integrated Concepts**
  A 2.50-kg fireworks shell is fired straight up from a mortar and reaches a height of 110 m.
@@ -608,15 +608,15 @@ He goes from zero to the velocity found in part (a) in a distance of 0.300 m.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Integrated Concepts**
  Repeat [[Figure]](#fs-id3178018) for a shell fired at an angle $$ 10.0^\circ $$
 from the vertical.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 47.1 m/s
 
 (b) $$ 2.47 \times 10^{3}\mss $$
@@ -627,8 +627,8 @@ weight.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Integrated Concepts**
  An elevator filled with passengers has a mass of 1700 kg.
@@ -645,8 +645,8 @@ point, and what is its final velocity?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Unreasonable Results**
 
@@ -658,8 +658,8 @@ for 50.0 s?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Unreasonable Results**
  A 75.0-kg man stands on a bathroom scale in

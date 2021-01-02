@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Define linear momentum.
 * Explain the relationship between momentum and force.
 * State Newton’s second law of motion in terms of momentum.
@@ -16,12 +16,12 @@ layout: page
 
 The scientific definition of linear momentum is consistent with most people’s
 intuitive understanding of momentum: a large, fast-moving object has greater
-momentum than a smaller, slower object. **Linear momentum**{: data-type="term"
+momentum than a smaller, slower object. **Linear momentum**{: class="term"
 #import-auto-id1343909} is defined as the product of a system’s mass multiplied
 by its velocity. In symbols, linear
 momentum is expressed as
 
-<div data-type="equation" id="eip-927">
+<div class="equation" id="eip-927">
  $$ \vb{p}=m\vb{v}. $$
 </div>
 
@@ -31,19 +31,19 @@ momentum. Momentum $$ \vb{p} $$ is a vector having the same direction as the
 velocity $$ \vb{v} $$. The SI unit for momentum is $$
 \kg · \ms $$.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Linear Momentum
 </div>
 Linear momentum is defined as the product of a system’s mass multiplied by its velocity:
 
-<div data-type="equation" id="eip-695">
+<div class="equation" id="eip-695">
  $$ \vb{p}=m\vb{v}. $$
 </div>
 </div>
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating Momentum: A Football Player and a Football
 </div>
 (a) Calculate the momentum of a 110-kg football player running at 8.00 m/s.
@@ -58,7 +58,7 @@ vector.) In both parts of this example, the magnitude of momentum can be
 calculated directly from the definition of momentum given in the equation, which
 becomes
 
-<div data-type="equation" id="eip-605">
+<div class="equation" id="eip-605">
  $$ p=mv $$
 </div>
 when only magnitudes are considered.
@@ -68,7 +68,7 @@ when only magnitudes are considered.
 To determine the momentum of the player, substitute the known values for the
 player’s mass and speed into the equation.
 
-<div data-type="equation" id="eip-926">
+<div class="equation" id="eip-926">
  $$ p_{\text{player}}=\left(110 \kg \right)\left(8.00  \ms \right)=880 \kg · \ms $$
 </div>
 
@@ -77,12 +77,12 @@ player’s mass and speed into the equation.
 To determine the momentum of the ball, substitute the known values for the
 ball’s mass and speed into the equation.
 
-<div data-type="equation" id="eip-722">
+<div class="equation" id="eip-722">
  $$ p_{\text{ball}}=\left(0.410 \kg \right)\left(25.0  \ms \right)=10.3 \kg · \ms $$
 </div>
 The ratio of the player’s momentum to that of the ball is
 
-<div data-type="equation" id="eip-45">
+<div class="equation" id="eip-45">
  $$ \frac{ p_{\text{player}}}{ p_{\text{ball}}}=\frac{880}{10.3}=85.9 . $$
 </div>
 
@@ -101,11 +101,11 @@ of momentum in later sections.
 The importance of momentum, unlike the importance of energy, was recognized
 early in the development of classical physics. Momentum was deemed so important
 that it was called the “quantity of motion.” Newton actually stated his **second
-law of motion**{: data-type="term" #import-auto-id1513532} in terms of momentum:
+law of motion**{: class="term" #import-auto-id1513532} in terms of momentum:
 The net external force equals the change in momentum of a system divided by the
 time over which it changes. Using symbols, this law is
 
-<div data-type="equation" id="eip-96">
+<div class="equation" id="eip-96">
  $$ \vb{F}_{\text{net}}=\frac{ \Delta \vb{p}}{\Delta t}, $$
 </div>
 
@@ -113,19 +113,19 @@ where $$ \vb{F}_{\text{net}} $$ is the net external force, $$ \Delta
 \vb{p} $$ is the change in momentum, and $$ \Delta t $$ is the change in
 time.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Newton’s Second Law of Motion in Terms of Momentum
 </div>
 The net external force equals the change in momentum of a system divided by the time over which it changes.
 
-<div data-type="equation" id="eip-763">
+<div class="equation" id="eip-763">
  $$ \vb{F}_{\text{net}}=\frac{ \Delta \vb{p}}{\Delta t} $$
 </div>
 </div>
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Making Connections: Force and Momentum
 </div>
 Force and momentum are intimately related. Force acting over time can change momentum, and Newton’s second law of motion, can be stated in its most broadly applicable form in terms of momentum. Momentum continues to be a key concept in the study of atomic and subatomic particles in quantum mechanics.
@@ -137,26 +137,26 @@ This statement of Newton’s second law of motion includes the more familiar $$
 form as follows. First, note that the change in momentum $$ \Delta \vb{p} $$
 is given by
 
-<div data-type="equation" id="eip-210">
+<div class="equation" id="eip-210">
  $$ \Delta \vb{p}=\Delta \left(m\vb{v}\right). $$
 </div>
 
 If the mass of the system is constant, then
 
-<div data-type="equation" id="eip-316">
+<div class="equation" id="eip-316">
  $$ \Delta \left(m\vb{v}\right)=m\Delta \vb{v}. $$
 </div>
 
 So that for constant mass, Newton’s second law of motion becomes
 
-<div data-type="equation" id="eip-844">
+<div class="equation" id="eip-844">
  $$ \vb{F}_{\text{net}}=\frac{ \Delta \vb{p}}{\Delta t}=\frac{m\Delta \vb{v}}{\Delta t}. $$
 </div>
 
 Because $$ \frac{ \Delta \vb{v}}{\Delta t}=\vb{a} $$, we get the familiar
 equation
 
-<div data-type="equation" id="eip-17">
+<div class="equation" id="eip-17">
  $$ \vb{F}_{\text{net}}=m\vb{a} $$
 </div>
 
@@ -169,8 +169,8 @@ with varying mass in some detail**;** however, the relationship between momentum
 and force remains useful when mass is constant, such as in the following
 example.
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating Force: Venus Williams’ Racquet
 </div>
 During the 2007 French Open, Venus Williams hit the fastest recorded serve in
@@ -186,12 +186,12 @@ This problem involves only one dimension because the ball starts from having no
 horizontal velocity component before impact. Newton’s second law stated in terms
 of momentum is then written as
 
-<div data-type="equation" id="eip-344">
+<div class="equation" id="eip-344">
  $$ \vb{F}_{\text{net}}=\frac{ \Delta \vb{p}}{\Delta t}. $$
 </div>
 As noted above, when mass is constant, the change in momentum is given by
 
-<div data-type="equation" id="eip-440">
+<div class="equation" id="eip-440">
  $$ \Delta p=m\Delta v=m\left(v_{f}-v_{i}\right). $$
 </div>
 In this example, the velocity just after impact and the change in time are
@@ -204,7 +204,7 @@ the force.
 To determine the change in momentum, substitute the values for the initial and
 final velocities into the equation above.
 
-<div data-type="equation" id="eip-107">
+<div class="equation" id="eip-107">
  $$ \begin{array}{lll}
 \Delta p & =& m \left( v_{f} - v_{i} \right)\\
  & =& \left(0.057 \kg \right)\left(58  \ms -0 \ms \right)\\
@@ -214,7 +214,7 @@ final velocities into the equation above.
 Now the magnitude of the net external force can determined by
 using $$ F_{\text{net}}=\frac{ \Delta p}{\Delta t} $$:
 
-<div data-type="equation" id="eip-211">
+<div class="equation" id="eip-211">
  $$ \begin{array}{lll}
 F_{\text{net}}& =& \frac{ \Delta p}{\Delta t}=\frac{3.306 \kg \cdot  \ms }{5.0\times 10^{-3}s}\\
 & =& 661 \N \approx 660  \text{N,}
@@ -239,7 +239,7 @@ the strategy used in this example.
   defined as the product of a system’s mass multiplied by its velocity.
 * {: #import-auto-id1489206} In symbols, linear momentum $$ \vb{p} $$ is
   defined to be
-  <div data-type="equation" id="eip-123">
+  <div class="equation" id="eip-123">
  $$ \vb{p}=m\vb{v}, $$
   </div>
   where $$ m $$ is the mass of the system and $$ \vb{v} $$ is its velocity.
@@ -249,7 +249,7 @@ the strategy used in this example.
   divided by the time over which it changes.
 * {: #import-auto-id1498977} In symbols, Newton’s second law of motion is
   defined to be
-  <div data-type="equation" id="eip-370">
+  <div class="equation" id="eip-370">
  $$ \vb{F}_{\text{net}}=\frac{ \Delta \vb{p}}{\Delta t}, $$
   </div>
  $$ \vb{F}_{\text{net}} $$ is the net external force, $$ \Delta
@@ -258,22 +258,22 @@ the strategy used in this example.
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 An object that has a small mass and an object that has a large mass have the same momentum. Which object has the largest kinetic energy?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 An object that has a small mass and an object that has a large mass have the same kinetic energy. Which mass has the largest momentum?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -285,8 +285,8 @@ feet on the ground.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 How can a small force impart the same momentum to an object as a large force?
 
 </div>
@@ -294,8 +294,8 @@ How can a small force impart the same momentum to an object as a large force?
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) Calculate the momentum of a 2000-kg elephant charging a hunter at a speed of $$ 7.50  \ms $$.
 
 (b) Compare the elephant’s momentum with the momentum of a 0.0400-kg
@@ -305,7 +305,7 @@ tranquilizer dart fired at a speed of $$ 600  \ms $$.
 after missing the elephant?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 1.50\times 10^{4}\kg \cdot  \ms $$
 
 (b) 625 to 1
@@ -314,8 +314,8 @@ after missing the elephant?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) What is the mass of a large ship that has a momentum of $$ 1.60 \times 10^{9}\kg · \ms $$,
 when the ship is moving at a speed of $$ 48.0 \text{km/h} $$ ?
 
@@ -325,8 +325,8 @@ fired at a speed of $$ 1200  \ms $$.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) At what speed would a $$ 2.00 \times 10^{4}\text{-kg} $$
 airplane have to fly to have a momentum of $$ 1.60 \times
 10^{9}\kg · \ms  $$ (the same as the ship’s momentum in the problem above)?
@@ -338,7 +338,7 @@ discuss the implications of your answer to (b) as it relates to recoil effects
 of the catapult on the ship.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 8.00 \times 10^{4} \ms $$
 
 (b) $$ 1.20 \times 10^{6}\kg · \ms  $$
@@ -350,8 +350,8 @@ of the ship, the ship will not recoil very much. The recoil would be $$ -0.0100
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) What is the momentum of a garbage truck that is $$ 1.20 \times 10^{4}\kg $$
 and is moving at $$ 10.0  \ms $$ ?
 
@@ -360,21 +360,21 @@ and is moving at $$ 10.0  \ms $$ ?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A runaway train car that has a mass of 15 000 kg travels at a speed of $$ 5.4  \ms $$
 down a track. Compute the time required for a force of 1500 N to bring the car
 to rest.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 54 s
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 The mass of Earth is $$ 5.972 \times {10}^{24}\kg $$
 and its orbital radius is an average of $$ 1.496 \times {10}^{11}\m $$.
 Calculate its linear momentum.
@@ -382,10 +382,10 @@ Calculate its linear momentum.
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 linear momentum
 : the product of mass and velocity

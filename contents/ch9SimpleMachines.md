@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Describe different simple machines.
 * Calculate the mechanical advantage.
 
@@ -18,9 +18,9 @@ machines. Energy is still conserved for these devices because a machine cannot
 do more work than the energy put into it. However, machines can reduce the input
 force that is needed to perform the job. The ratio of output to input force
 magnitudes for any simple machine is called its **mechanical advantage**{:
-data-type="term"} (MA).
+class="term"} (MA).
 
-<div data-type="equation" id="eip-598">
+<div class="equation" id="eip-598">
  $$ \text{MA}=\frac{ F_{\text{o}}}{ F_{\text{i}}} $$
 </div>
 
@@ -51,7 +51,7 @@ $$ \left(\text{net}\tau =0\right) $$. (In order for the nail to actually move, t
 due to $$ \vb{F}_{\text{i}} $$ must be ever-so-slightly greater
 than torque due to $$ \vb{F}_{\N } $$.) Hence,
 
-<div data-type="equation" id="eip-158">
+<div class="equation" id="eip-158">
  $$ l_{\text{i}}F_{\text{i}}=l_{\text{o}}F_{\text{o}} $$
 </div>
 
@@ -59,7 +59,7 @@ where $$ l_{\text{i}} $$ and $$ l_{\text{o}} $$ are the distances from where the
 input and output forces are applied to the pivot, as shown in the figure.
 Rearranging the last equation gives
 
-<div data-type="equation" id="eip-958">
+<div class="equation" id="eip-958">
  $$ \frac{ F_{\text{o}}}{ F_{\text{i}}}=\frac{ l_{\text{i}}}{ l_{\text{o}}}. $$
 </div>
 
@@ -68,7 +68,7 @@ nail puller, $$F_{\text{o}}$$, is much greater than the magnitude of the input
 force applied to the puller at the other end, $$ F_{\text{i}} $$. For the nail
 puller,
 
-<div data-type="equation" id="eip-394">
+<div class="equation" id="eip-394">
  $$ \text{MA}=\frac{ F_{\text{o}}}{ F_{\text{i}}}=\frac{ l_{\text{i}}}{ l_{\text{o}}}. $$
 </div>
 
@@ -94,8 +94,8 @@ is less than one.
 ![A wheelbarrow is shown in which the input force F sub I is shown as a vector in vertically upward direction below the handle of wheelbarrow. The weight of the wheelbarrow is downward at the center of gravity. The normal reaction of the ground is acting at the wheel in upward direction. The perpendicular distance between the normal reaction and the input force F sub I is labeled as R sub I and the distance between output force F sub O and normal reaction is labeled as R sub O. In figure b, a man is holding a shovel in his hands. One hand is at one end of the handle and the other hand is holding the shovel at the middle. The center of gravity of the shovel is at its flat end. The weight of the shovel is acting at the center of gravity. The input force is acting at the hand in the middle in upward direction and the end of the shovel is acting as pivot. A free body diagram is also shown at the right side of the figure.](../resources/Figure_10_05_02a.jpg "(a) In the case of the wheelbarrow, the output force or load is between the pivot and the input force. The pivot is the wheel&#x2019;s axle. Here, the output force is greater than the input force. Thus, a wheelbarrow enables you to lift much heavier loads than you could with your body alone. (b) In the case of the shovel, the input force is between the pivot and the load, but the input lever arm is shorter than the output lever arm. The pivot is at the handle held by the right hand. Here, the output force (supporting the shovel&#x2019;s load) is less than the input force (from the hand nearest the load), because the input is exerted closer to the pivot than is the output.")
 {: #import-auto-id2664028}
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 What is the Advantage for the Wheelbarrow?
 </div>
 In the wheelbarrow of [[Figure]](#import-auto-id2664028), the load has a perpendicular lever arm of 7.50 cm, while the hands have a perpendicular lever arm of 1.02 m.
@@ -111,12 +111,12 @@ Here, we use the concept of mechanical advantage.
 (a) In this case, $$ \frac{ F_{\text{o}}}{ F_{\text{i}}}=\frac{ l_{i}}{ l_{o}}
 $$ becomes
 
-<div data-type="equation" id="eip-501">
+<div class="equation" id="eip-501">
 $$ F_{\text{i}}=F_{\text{o}}\frac{ l_{o}}{ l_{i}}. $$
 </div>
 Adding values into this equation yields
 
-<div data-type="equation" id="eip-453">
+<div class="equation" id="eip-453">
 $$ F_{\text{i}}=\left(45.0\kg \right)\left(9.80\mss \right)\frac{0.075 \m }{1.02 \m }=32.4 \N . $$
 </div>
 The free-body diagram (see [[Figure]](#import-auto-id2664028)) gives the following normal force: $$ F_{i}+N=W $$. Therefore, $$ N=\left(45.0 \kg \right)\left(
@@ -179,29 +179,29 @@ $$ T $$.
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Scissors are like a double-lever system. Which of the simple machines in [[Figure]](#import-auto-id2670210) and [[Figure]](#import-auto-id2664028) is most analogous to scissors?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Suppose you pull a nail at a constant rate using a nail puller as shown in [[Figure]](#import-auto-id2670210). Is the nail puller in equilibrium? What if you pull the nail with some acceleration – is the nail puller in equilibrium then? In which case is the force applied to the nail puller larger and why?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Why are the forces exerted on the outside world by the limbs of our bodies usually much smaller than the forces exerted by muscles inside the body?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Explain why the forces in our joints are several times larger than the forces we exert on the outside world with our limbs. Can these forces be even greater than muscle forces (see previous Question)?
 
 </div>
@@ -209,15 +209,15 @@ Explain why the forces in our joints are several times larger than the forces we
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 What is the mechanical advantage of a nail puller—similar to the one shown in [[Figure]](#import-auto-id2670210) —where you exert a force $$ 45 \text{cm} $$
 from the pivot and the nail is $$ 1.8 \text{cm} $$
 on the other side? What minimum force must you exert to apply a force of $$ 1250 \N  $$
 to the nail?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 25
 
 50 N
@@ -225,21 +225,21 @@ to the nail?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Suppose you needed to raise a 250-kg mower a distance of 6.0 cm above the ground to change a tire. If you had a 2.0-m long lever, where would you place the fulcrum if your force was limited to 300 N?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) What is the mechanical advantage of a wheelbarrow, such as the one in [[Figure]](#import-auto-id2664028), if the center of gravity of the wheelbarrow and its load has a perpendicular lever arm of 5.50 cm, while the hands have a perpendicular lever arm of 1.02 m?
 (b) What upward force should you exert to support the wheelbarrow and its load if their combined mass is 55.0 kg?
 (c) What force does the wheel exert on the ground?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 a) $$ \text{MA}=18.5 $$
 b) $$ F_{\text{i}}=29.1 \N  $$
 c) 510 N downward
@@ -247,27 +247,27 @@ c) 510 N downward
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A typical car has an axle with $$ 1.10 \text{cm} $$ radius driving a tire with a radius of $$ 27.5 \text{cm} $$. What is its mechanical advantage assuming the very simplified model
 in [[Figure]](#import-auto-id2741043)(b)?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 What force does the nail puller in [[Figure]](#fs-id3038577) exert on the supporting surface? The nail puller has a mass of 2.10 kg.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 1.3\times 10^{3}\N $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 If you used an ideal pulley of the type shown in [[Figure]](#import-auto-id3492232)(a)
 to support a car engine of mass $$ 115 \kg $$,
 (a) What would be the tension in the rope?
@@ -277,12 +277,12 @@ Neglect the pulley system’s mass.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Repeat [[Figure]](#fs-id1448216) for the pulley shown in [[Figure]](#import-auto-id3492232)(c), assuming you pull straight up on the rope. The pulley system’s mass is $$ 7.00 \kg $$.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 a) $$ T=299 \N $$
 
 b) $$ 897 \N $$ upward
@@ -290,10 +290,10 @@ b) $$ 897 \N $$ upward
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 mechanical advantage
 : the ratio of output to input forces for any simple machine
