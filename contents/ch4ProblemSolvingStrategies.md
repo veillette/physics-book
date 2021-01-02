@@ -177,9 +177,10 @@ Calculate the force a 70.0-kg high jumper must exert on the ground to produce an
    =39.2\mss $$; $$ m=70.0 \kg $$, Find: $$ F $$.
 
 3. $$ \sum F = +F - w = m a $$,  so that $$ F=ma +w=ma +mg =m\left(
-   a+g\right) $$. $$ F=\left(70.0 \kg \right) \left\[ \left(39.2
- \mss \right)
-   +\left(9.80 \mss \right)\right\] =3.43\times 10^{3}\N $$. The force exerted by the high-jumper is actually down on the ground, but
+   a+g\right) $$. $$ F=\left(70.0 \kg \right) 
+   \left\[ \left(39.2 \mss \right)
+   +\left(9.80 \mss \right) \right\] =3.43\times 10^{3}\N $$. The force 
+   exerted by the high-jumper is actually down on the ground, but
  $$ F $$ is up from the ground and makes him jump.
 
 4. This result is reasonable, since it is quite possible for a person to exert a
