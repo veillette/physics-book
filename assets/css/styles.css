@@ -175,8 +175,7 @@ h6:hover .header-link {
   content: attr(data-label-parent) ': ';
 }
 
-.book .book-body .page-wrapper .page-inner [data-type="note"][data-label]:not([data-label='']):not(.ui-has-child-title)::before,
-.book .book-body .page-wrapper .page-inner .note[data-label]:not([data-label='']):not(.ui-has-child-title)::before {
+.book .book-body .page-wrapper .page-inner [data-type="note"][data-label]:not([data-label='']):not(.ui-has-child-title)::before {
   display: inline-block;
   color: #555555;
   font-size: 1.5rem;
@@ -185,15 +184,13 @@ h6:hover .header-link {
   content: attr(data-label);
 }
 
-.book .book-body .page-wrapper .page-inner [data-type="note"] > section,
-.book .book-body .page-wrapper .page-inner .note > section {
+.book .book-body .page-wrapper .page-inner [data-type="note"] > section {
   padding: 5px 15px;
   border-top: 1px solid #555555;
   background-color: #ededed;
 }
 
-.book .book-body .page-wrapper .page-inner [data-type="example"],
-.book .book-body .page-wrapper .page-inner .example {
+.book .book-body .page-wrapper .page-inner [data-type="example"] {
   margin-top: 30px;
   counter-increment: example;
 }
@@ -211,8 +208,7 @@ h6:hover .header-link {
   content: 'Example ' counter(example) ': ';
 }
 
-.book .book-body .page-wrapper .page-inner [data-type="example"]:not([data-label]):not(.ui-has-child-title)::before,
-.book .book-body .page-wrapper .page-inner .example:not([data-label]):not(.ui-has-child-title)::before {
+.book .book-body .page-wrapper .page-inner [data-type="example"]:not([data-label]):not(.ui-has-child-title)::before{
   display: inline-block;
   padding: 0.1em 1em;
   font-weight: bold;
