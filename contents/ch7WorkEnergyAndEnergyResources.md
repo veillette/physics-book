@@ -21,7 +21,7 @@ can change forms, but it cannot appear from nothing or disappear without a
 trace. Energy is thus one of a handful of physical quantities that we say is
 *conserved*.
 
-**Conservation of energy**{: data-type="term" #import-auto-id1993502} (as
+**Conservation of energy**{: class="term" #import-auto-id1993502} (as
 physicists like to call the principle that energy can neither be created nor
 destroyed) is based on experiment. Even as scientists discovered new forms of
 energy, conservation of energy has always been found to apply. Perhaps the most
@@ -36,7 +36,7 @@ briefly examine the world’s energy use patterns at the end of this chapter.
 
 There is no simple, yet accurate, scientific definition for energy. Energy is
 characterized by its many forms and the fact that it is conserved. We can
-loosely define **energy**{: data-type="term" #import-auto-id2491386} as the
+loosely define **energy**{: class="term" #import-auto-id2491386} as the
 ability to do work, admitting that in some circumstances not all energy is
 available to do work. Because of the association of energy with work, we begin
 the chapter with a discussion of work. Work is intimately related to energy and

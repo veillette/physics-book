@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Define impulse.
 * Describe effects of impulses in everyday life.
 * Determine the average effective force using graphical representation.
@@ -15,7 +15,7 @@ layout: page
 The effect of a force on an object depends on how long it acts, as well as how
 great the force is. In [[Figure]](../contents/ch8LinearMomentumAndForce.md#fs-id1356444), a very large
 force acting for a short time had a great effect on the momentum of the tennis
-ball. A small force could cause the same **change in momentum**{: data-type="
+ball. A small force could cause the same **change in momentum**{: class="
 term"}, but it would have to act for a much longer time. For example, if the
 ball were thrown upward, the gravitational force (which is much smaller than the
 tennis racquet’s force) would eventually reverse the momentum of the ball.
@@ -25,22 +25,22 @@ Quantitatively, the effect we are talking about is the change in momentum $$
 By rearranging the equation $$ \vb{F}_{\text{net}}=\frac{ \Delta
 \vb{p}}{\Delta t} $$ to be
 
-<div data-type="equation" id="eip-75">
+<div class="equation" id="eip-75">
  $$ \Delta \vb{p}=\vb{F}_{\text{net}}\Delta t, $$
 </div>
 
 we can see how the change in momentum equals the average net external force
 multiplied by the time this force acts. The quantity $$ \vb{F}_
-{\text{net}}\Delta t $$ is given the name **impulse**{: data-type="term"}.
+{\text{net}}\Delta t $$ is given the name **impulse**{: class="term"}.
 Impulse is the same as the change in momentum.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Impulse: Change in Momentum
 </div>
 Change in momentum equals the average net external force multiplied by the time this force acts.
 
-<div data-type="equation" id="eip-135">
+<div class="equation" id="eip-135">
  $$ \Delta \vb{p}=\vb{F}_{\text{net}}\Delta t $$
 </div>
 The quantity $$ \vb{F}_{\text{net}}\Delta t $$ is given the name impulse.
@@ -66,8 +66,8 @@ you from the ground) acts.
 
 </div>
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating Magnitudes of Impulses: Two Billiard Balls Striking a Rigid Wall
 </div>
 Two identical billiard balls strike a rigid wall with the same speed,
@@ -116,12 +116,12 @@ and $$ m $$ the mass of each ball. Choose the $$ x $$-axis and $$ y $$-axis
 as previously described, and consider the change in momentum of
 the first ball which strikes perpendicular to the wall.
 
-<div data-type="equation" id="eip-263">
+<div class="equation" id="eip-263">
 \begin{array}{ c c c}
   p_{\text{xi}}=m u  & \text{;} & p_{\text{yi}}=0
 \end{array}
 </div>
-<div data-type="equation" id="eip-640">
+<div class="equation" id="eip-640">
 \begin{array}{ c c c}
   p_{\text{xf}}=-m u & \text{;} &
 p_{\text{yf}}=0
@@ -133,13 +133,13 @@ of impulse is equal to zero.
 
 Now consider the change in momentum of the second ball.
 
-<div data-type="equation" id="eip-123">
+<div class="equation" id="eip-123">
 \begin{array}{ c c c}
 p_{\text{xi}}= m u \cos{30^\circ} &\text{;} &
 p_{\text{yi}}=- m u \sin{30^\circ }
 \end{array}
 </div>
-<div data-type="equation" id="eip-344">
+<div class="equation" id="eip-344">
 \begin{array}{ c c c}
 p_{\text{xf}}=-m u\cos{30^\circ } &\text{;}&
 p_{\text{yf}}=-m u\sin{30^\circ }
@@ -152,7 +152,7 @@ of impulse is equal to zero.
 
 The ratio of the magnitudes of the impulse imparted to the balls is
 
-<div data-type="equation" id="eip-611">
+<div class="equation" id="eip-611">
  $$ \frac{2m u}{2m u\cos{30^\circ }}=\frac{2}{\sqrt{3}}=1.155 .$$
 </div>
 
@@ -181,8 +181,8 @@ and effective forces.
 ![Figure is a graph of force, F, versus time, t. Two curves, F actual and F effective, are drawn. F actual is drawn between t sub1 and t sub 2 and it resembles a bell-shaped curve that peaks mid-way between t sub 1 and t sub 2. F effective is a line parallel to the x axis drawn at about fifty five percent of the maximum value of F actual and it extends up to t sub 2.](../resources/Figure_09_02_01a.jpg "A graph of force versus time with time along the  \( x \) -axis and force along the  \( y \) -axis for an actual force and an equivalent effective force. The areas under the two curves are equal.")
 {: #import-auto-id1181092}
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Making Connections: Take-Home Investigation—Hand Movement and Impulse
 </div>
 Try catching a ball while “giving” with the ball, pulling your hands toward your body.
@@ -198,8 +198,8 @@ Which orientations would you advise people to avoid and why?
 
 </div>
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Making Connections: Constant Force and Constant Acceleration
 </div>
 The assumption of a constant force in the definition of impulse is
@@ -212,7 +212,7 @@ In both cases, nature is adequately described without the use of calculus.
 
 * {: #import-auto-id1419457} Impulse, or change in momentum, equals the average
   net external force multiplied by the time this force acts:
-  <div data-type="equation" id="eip-id1637629">
+  <div class="equation" id="eip-id1637629">
  $$ \Delta \vb{p}=\vb{F}_{\text{net}}\Delta t. $$
   </div>
 
@@ -221,8 +221,8 @@ In both cases, nature is adequately described without the use of calculus.
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -233,16 +233,16 @@ floor for a day care center.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 While jumping on a trampoline, sometimes you land on your back and other
 times on your feet. In which case can you reach a greater height and why?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -255,21 +255,21 @@ the case.
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A bullet is accelerated down the barrel of a gun by hot gases produced in
 the combustion of gun powder. What is the average force exerted on a 0.0300-kg
 bullet to accelerate it to a speed of 600 m/s in a time of 2.00 ms (milliseconds)?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 9.00\times 10^{3}N $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -280,8 +280,8 @@ mass of the passenger is 70 kg.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A person slaps her leg with her hand, bringing her hand to rest in 2.50
 milliseconds from an initial speed of 4.00 m/s.
 (a) What is the average force exerted on the leg, taking the effective
@@ -290,7 +290,7 @@ mass of the hand and forearm to be 1.50 kg?
 and brought them to rest in the same time? Explain why or why not.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 a) $$ 2.40\times 10^{3}\N $$ toward the leg
 
 b) The force on each hand would have the same magnitude as that found in part (a)
@@ -300,8 +300,8 @@ momentum and the time interval are the same.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -317,8 +317,8 @@ initially transfer significant momentum to the boxer’s body.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -330,7 +330,7 @@ bumper car if its initial velocity was 2.80 m/s and the car plus driver have a
 mass of 200 kg. You may neglect friction between the car and floor.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 a) $$ 800 \kg \cdot  \ms $$ away from the wall
 
 b) $$ 1.20  \ms $$ away from the wall
@@ -338,8 +338,8 @@ b) $$ 1.20  \ms $$ away from the wall
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -353,8 +353,8 @@ given the collision lasts $$ 6.00\times 10^{-8} \s $$.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -366,7 +366,7 @@ by a padded dashboard that compresses an average of 1.00 cm.
 average of 15.0 cm.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 1.50\times 10^{6} \N $$ away from the dashboard
 
 (b) $$ 1.00\times 10^{5} \N $$ away from the dashboard
@@ -374,8 +374,8 @@ average of 15.0 cm.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -392,8 +392,8 @@ fired at 600 m/s from the gun.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A cruise ship with a mass of $$ 1.00\times 10^{7}\kg $$
 strikes a pier at a speed of 0.750 m/s. It comes to rest 6.00 m later, damaging
 the ship, the pier, and the tugboat captain’s finances. Calculate the average
@@ -401,7 +401,7 @@ force exerted on the pier using the concept of impulse. (Hint: First calculate
 the time it took to bring the ship to rest.)
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 4.69\times 10^{5}\N $$
 
 in the boat’s original direction of motion
@@ -409,8 +409,8 @@ in the boat’s original direction of motion
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Calculate the final speed of a 110-kg rugby player who is initially
 running at 8.00 m/s but collides head-on with a padded goalpost and
 experiences a backward force of $$ 1.76\times 10^{4}\N $$
@@ -419,22 +419,22 @@ for $$ 5.50\times 10^{-2}\s $$.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Water from a fire hose is directed horizontally against a wall at
 a rate of 50.0 kg/s and a speed of 42.0 m/s. Calculate the magnitude
 of the force exerted on the wall, assuming the water’s horizontal
 momentum is reduced to zero.
 
 </div>
-<div data-type="solution" id="eip-id2108527" markdown="1">
+<div class="solution" id="eip-id2108527" markdown="1">
  $$ 2.10\times 10^{3} \N $$ away from the wall
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A 0.450-kg hammer is moving horizontally at 7.00 m/s when it strikes
 a nail and comes to rest after driving the nail 1.00 cm into a board.
 (a) Calculate the duration of the impact.
@@ -443,15 +443,15 @@ a nail and comes to rest after driving the nail 1.00 cm into a board.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Starting with the definitions of momentum and kinetic energy,
 derive an equation for the kinetic energy of a particle expressed
 as a function of its momentum.
 
 </div>
-<div data-type="solution">
-<div data-type="equation" id="eip-id4088327">
+<div class="solution">
+<div class="equation" id="eip-id4088327">
  $$ \begin{array}{}
 \vb{p}=m\vb{v}⇒{p}^{2}={m}^{2}{v}^{2}⇒
 \frac{ p^{2}}{m}=mv^{2}\\ ⇒\frac{ p^{2}}{2m}=\frac{1}{2}m v^{2}=\KE\\
@@ -461,8 +461,8 @@ as a function of its momentum.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A ball with a mass of 55g with an initial velocity of 10 m/s moves at an angle $$ 60^\circ $$
 above the $$ +x $$-direction. The ball hits a vertical
 wall and bounces off so that it is moving
@@ -472,8 +472,8 @@ impulse delivered by the wall?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 When serving a tennis ball, a player hits the ball when its velocity
 is zero (at the highest point of a vertical toss).
 The racquet exerts a force of 540 N on the ball for 5.00 ms,
@@ -481,14 +481,14 @@ giving it a final velocity of 45.0 m/s.
 Using these data, find the mass of the ball.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 60.0 g
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A punter drops a 0.075kg-ball from rest vertically 1 meter down onto his foot.
 The ball leaves the foot with a speed of 18 m/s at an angle $$ 55^\circ $$
 above the horizontal. What is the impulse delivered by the foot (magnitude and
@@ -497,10 +497,10 @@ direction)?
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 change in momentum
 : the difference between the final and initial momentum; the mass times the

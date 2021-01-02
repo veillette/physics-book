@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Explain gravitational potential energy in terms of work done against gravity.
 * Show that the gravitational potential energy of an object of mass
  $$ m $$ at height $$ h $$ on Earth is given by $$ \PE_{\text{g}}=mgh $$.
@@ -26,7 +26,7 @@ Let us calculate the work done in lifting an object of mass $$ m $$ through a
 height $$ h $$, such as in [[Figure]](#import-auto-id1697782). If the object is
 lifted straight up at constant speed, then the force needed to lift it is equal
 to its weight $$ mg $$. The work done on the mass is then $$ W = Fd = mgh
-$$. We define this to be the **gravitational potential energy**{: data-type="
+$$. We define this to be the **gravitational potential energy**{: class="
 term"
 } $$ \left(\PE_{\text{g}}\right) $$ put into (or gained by) the
 object-Earth system. This energy is associated with the state of separation
@@ -64,7 +64,7 @@ problems using energy (if possible) rather than explicitly using forces.
 More precisely, we define the *change* in gravitational potential energy $$
 \Delta \PE_{\text{g}} $$ to be
 
-<div data-type="equation" id="eip-306">
+<div class="equation" id="eip-306">
  $$ \Delta \PE_{\text{g}}=mgh , $$
 </div>
 
@@ -74,7 +74,7 @@ greater than the initial height, and vice versa. For example, if a 0.500-kg mass
 hung from a cuckoo clock is raised 1.00 m, then its change in gravitational
 potential energy is
 
-<div data-type="equation">
+<div class="equation">
  $$ \begin{array}{lll}
 mgh & =& \left(0.500 \kg \right)\left( 9.80\mss \right)\left(1.00 \m \right)\\
  & =& 4.90 \kg \cdot \mmss= 4.90 \J .
@@ -105,8 +105,8 @@ done by or against the gravitational force.
 ![There is a four-story building. A person is carrying a television up the stairs of the building. The height of third story is h from the ground. A girl is standing outside the building and is lifting a similar television with the help of a pulley.](../resources/Figure_08_03_02a.jpg "The change in gravitational potential energy \( (\Delta \PE_\text{g} ) \)   between points A and B is independent of the path. \( \Delta \PE_\text{g} =mgh \) for any path between the two points. Gravity is one of a small class of forces where the work done by or against the force depends only on the starting and ending points, not on the path between them.")
 {: #import-auto-id1556510}
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 The Force to Stop Falling
 </div>
 A 60.0-kg person jumps onto the floor from a height of 3.00 m. If he lands stiffly (with his knee joints
@@ -123,7 +123,7 @@ this kinetic energy to zero.
 
 The work done on the person by the floor as he stops is given by
 
-<div data-type="equation" id="eip-955">
+<div class="equation" id="eip-955">
  $$ W=F d \cos{\theta} =-F d , $$
 </div>
 with a minus sign because the displacement while stopping and the force from floor are in opposite directions $$ \left(\cos{\theta} =\cos{ 180^\circ }=-1\right) $$. The floor removes energy from the system, so it does negative work.
@@ -131,7 +131,7 @@ with a minus sign because the displacement while stopping and the force from flo
 The kinetic energy the person has upon reaching the floor is the amount of
 potential energy lost by falling through height $$ h $$:
 
-<div data-type="equation">
+<div class="equation">
  $$ \KE=-\Delta \PE_{\text{g}}=-mgh , $$
 </div>
 The distance $$ d $$ that the person’s knees bend is much smaller than the height $$ h $$ of the
@@ -141,18 +141,18 @@ bend is ignored.
 The work $$ W $$ done by the floor on the person stops the person and brings the
 person’s kinetic energy to zero:
 
-<div data-type="equation" id="eip-418">
+<div class="equation" id="eip-418">
  $$ W=-\KE=mgh . $$
 </div>
 Combining this equation with the expression for $$ W $$ gives
 
-<div data-type="equation">
+<div class="equation">
  $$ -F d =mgh . $$
 </div>
 Recalling that $$ h $$ is negative because the person fell *down*,
 the force on the knee joints is given by
 
-<div data-type="equation" id="eip-118">
+<div class="equation" id="eip-118">
  $$ F=-\frac{mgh }{d}=-\frac{ \left(60.0 \kg \right)\left(9.80 \mss \right)\left(-3.00 \m \right)}{5.00\times 10^{-3}\m }=3.53\times 10^{5}N. $$
 </div>
 
@@ -172,8 +172,8 @@ See [[Figure]](#fs-id1503032).)
 ![A hopping kangaroo is shown landing on the ground in one photograph and in the air just after taking another jump in the second photograph.](../resources/Figure_08_03_03.jpg "The work done by the ground upon the kangaroo reduces its kinetic energy to zero as it lands. However, by applying the force of the ground on the hind legs over a longer distance, the impact on the bones is reduced. (credit: Chris Samuel, Flickr)")
 {: height="300"}
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Finding the Speed of a Roller Coaster from its Height
 </div>
 (a) What is the final speed of the roller coaster shown in [[Figure]](#import-auto-id1349448) if it starts from rest at the top of the 20.0 m hill and work done by frictional forces is negligible?
@@ -202,22 +202,22 @@ v^{2} $$. The equation for change in potential energy states that $$
 rewrite this as $$ \Delta \PE_{\text{g}}=-mg \mid h\mid $$ to show the minus
 sign clearly. Thus,
 
-<div data-type="equation">
+<div class="equation">
  $$ -\Delta \PE_{\text{g}}=\Delta \KE $$
 </div>
 becomes
 
-<div data-type="equation" id="eip-579">
+<div class="equation" id="eip-579">
  $$ mg \mid h\mid =\frac{1}{2}m v^{2}. $$
 </div>
 Solving for $$ v $$, we find that mass cancels and that
 
-<div data-type="equation" id="eip-895">
+<div class="equation" id="eip-895">
  $$ v=\sqrt{2g\mid h\mid }. $$
 </div>
 Substituting known values,
 
-<div data-type="equation" id="eip-230">
+<div class="equation" id="eip-230">
  $$ \begin{array}{lll}
 v& =& \sqrt{2\left(9.80 \mss \right)\left(20.0 \m \right)}\\
  & =&19.6 \ms .
@@ -230,17 +230,17 @@ Again $$ -\Delta \PE_{\text{g}}=\Delta \KE $$. In this case there is initial
 kinetic energy, so $$ \Delta \KE=\frac{1}{2}m v^{2}-\frac{1}{2}m v_{0}^{2}
 $$. Thus,
 
-<div data-type="equation" id="eip-90">
+<div class="equation" id="eip-90">
  $$ mg \mid h\mid =\frac{1}{2}m v^{2}-\frac{1}{2}m v_{0}^{2}. $$
 </div>
 Rearranging gives
 
-<div data-type="equation" id="eip-484">
+<div class="equation" id="eip-484">
  $$ \frac{1}{2} m v^{2}=mg \mid h\mid +\frac{1}{2}m  v_{0}^{2}. $$
 </div>
 This means that the final kinetic energy is the sum of the initial kinetic energy and the gravitational potential energy. Mass again cancels, and
 
-<div data-type="equation" id="eip-436">
+<div class="equation" id="eip-436">
  $$ v=\sqrt{2g\mid h\mid +v_{0}^{2}}. $$
 </div>
 This equation is very similar to the kinematics equation $$ v=\sqrt{ v_{0}^{2}+2ad} $$,
@@ -249,7 +249,7 @@ acceleration, whereas our equation above is valid for any path regardless of
 whether the object moves with a constant acceleration. Now, substituting known
 values gives
 
-<div data-type="equation" id="eip-388">
+<div class="equation" id="eip-388">
  $$ \begin{array}{lll}
 v& =& \sqrt{2\left(9.80\mss \right)\left(20.0 \m \right)+\left(5.00 \ms \right)^{2}}\\
 & =& 20.4 \ms .
@@ -280,8 +280,8 @@ define the simplifying concept of gravitational potential energy. We can do the
 same thing for a few other forces, and we will see that this leads to a formal
 definition of the law of conservation of energy.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Making Connections: Take-Home Investigation—Converting Potential to Kinetic Energy
 </div>
 One can study the conversion of gravitational potential energy into kinetic energy in this experiment. On a smooth, level surface, use a ruler of the kind that has a groove running along its length and a book to make an incline (see [[Figure]](#import-auto-id1965985)). Place a marble at the 10-cm position on the ruler and let it roll down the ruler. When it hits the level surface, measure the time it takes to roll one meter. Now place the marble at the 20-cm and the 30-cm positions and again measure the times it takes to roll 1 m on the level surface. Find the velocity of the marble on the level surface for all three positions. Plot velocity squared versus the distance traveled by the marble. What is the shape of each plot? If the shape is a straight line, the plot shows that the marble’s kinetic energy at the bottom is proportional to its potential energy at the release point.
@@ -308,15 +308,15 @@ One can study the conversion of gravitational potential energy into kinetic ener
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 In [[Figure]](#fs-id2895434), we calculated the final speed of a roller coaster that descended 20 m in height and had an initial speed of 5 m/s downhill. Suppose the roller coaster had had an initial speed of 5 m/s *uphill* instead, and it coasted uphill, stopped, and then rolled back down to a final point 20 m below the start. We would find in that case that its final speed is the same as its initial speed. Explain in terms of conservation of energy.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Does the work you do on a book when you lift it onto a shelf depend on the path taken? On the time taken? On the height of the shelf? On the mass of the book?
 
 </div>
@@ -324,8 +324,8 @@ Does the work you do on a book when you lift it onto a shelf depend on the path 
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A hydroelectric power facility (see [[Figure]](#import-auto-id1889215)) converts the gravitational potential energy of water behind a dam to electric energy.
 (a) What is the gravitational potential energy relative to the generators of a lake of volume
 $$ 50.0 \text{km}^{3} $$ $$ \left( \text{mass}=5.00\times 10^{13}\kg \right)$$,
@@ -336,7 +336,7 @@ given that the lake has an average height of 40.0 m above the generators?
 {: #import-auto-id1889215 height="250"}
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 1.96\times 10^{16} \J $$
 
 (b) The ratio of gravitational potential energy in the lake to the energy stored
@@ -346,8 +346,8 @@ half that in a 9-megaton fusion bomb.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) How much gravitational potential energy (relative to the ground on which it is built) is stored in the
 Great Pyramid of Cheops, given that its mass is about $$ 7 \times 10^{9}\kg $$
 and its center of mass is 36.5 m above the surrounding ground?
@@ -356,14 +356,14 @@ and its center of mass is 36.5 m above the surrounding ground?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Suppose a 350-g kookaburra (a large kingfisher bird) picks up a 75-g snake and raises it 2.5 m from the ground to a branch.
 (a) How much work did the bird do on the snake?
 (b) How much work did it do to raise its own center of mass to the branch?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 1.8 J
 
 (b) 8.6 J
@@ -371,8 +371,8 @@ Suppose a 350-g kookaburra (a large kingfisher bird) picks up a 75-g snake and r
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 In [[Figure]](#fs-id2895434), we found that the speed of a roller coaster that had descended 20.0 m was only slightly greater when it had an initial speed of 5.00 m/s
 than when it started from rest. This implies that $$ \Delta \PE \gg \KE_{\text{i}} $$. Confirm this statement by taking the ratio of $$ \Delta \PE $$
 to $$ \KE_{\text{i}} $$. (Note that mass cancels.)
@@ -380,23 +380,23 @@ to $$ \KE_{\text{i}} $$. (Note that mass cancels.)
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A 100-g toy car is propelled by a compressed spring that starts it moving. The car follows the curved track in [[Figure]](#import-auto-id1299469). Show that the final speed of the toy car is 0.687 m/s if its initial speed is 2.00 m/s and it coasts up the frictionless slope, gaining 0.180 m in altitude.
 
 ![A toy car is moving up a curved track.](../resources/Figure_08_03_07a.jpg "A toy car moves up a sloped track. (credit: Leszek Leszczynski, Flickr)")
 {: #import-auto-id1299469 height="200"}
 
 </div>
-<div data-type="solution">
-<div data-type="equation" id="eip-id2183293">
+<div class="solution">
+<div class="equation" id="eip-id2183293">
  $$ v_{f}=\sqrt{2g h +{ v_{0}}^{2}}=\sqrt{2\left(9.80 \mss \right)\left(-0.180 \m \right)+\left(2.00 \ms \right)^{2}}=0.687 \ms $$
 </div>
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 In a downhill ski race, surprisingly, little advantage is gained by getting a running start.
 (This is because the initial kinetic energy is small compared with the gain in gravitational potential energy on even small hills.) To demonstrate this, find the final speed and the time taken for a skier who skies 70.0 m along a $$ 30^\circ $$
 slope neglecting friction:
@@ -407,10 +407,10 @@ slope neglecting friction:
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 gravitational potential energy
 : the energy an object has due to its position in a gravitational field

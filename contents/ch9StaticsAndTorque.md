@@ -19,8 +19,8 @@ second law states that net $$ \vb{F}=m \vb{a} $$, and so the net external force 
 all stationary objects and for all objects moving at constant velocity. There
 are forces acting, but they are balanced. That is, they are in *equilibrium*.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Statics
 </div>
 Statics is the study of forces in equilibrium, a large group of situations that makes up a special case of Newton’s second law. We have already considered a few such situations; in this chapter, we cover the topic more thoroughly, including consideration of such possible effects as the rotation and deformation of an object by the forces acting on it.

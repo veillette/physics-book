@@ -4,14 +4,14 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Define net force, external force, and system.
 * Understand Newton’s second law of motion.
 * Apply Newton’s second law to determine the weight of an object.
 
 </div>
 
-**Newton’s second law of motion**{: data-type="term" #import-auto-id765465} is
+**Newton’s second law of motion**{: class="term" #import-auto-id765465} is
 closely related to Newton’s first law of motion. It mathematically states the
 cause and effect relationship between force and changes in motion. Newton’s
 second law of motion is more quantitative and is used extensively to calculate
@@ -23,13 +23,13 @@ mentioned.
 First, what do we mean by a change in motion? The answer is that a change in
 motion is equivalent to a change in velocity. A change in velocity means, by
 definition, that there is an
-**acceleration**{: data-type="term" #import-auto-id3190786}.
+**acceleration**{: class="term" #import-auto-id3190786}.
 Newton’s first law says that a net external force
 causes a change in motion; thus, we see that a *net external force causes acceleration*.
 
 Another question immediately arises. What do we mean by an external force? An
-intuitive notion of external is correct—an **external force**{: data-type="term"
-#import-auto-id3026856} acts from outside the **system**{: data-type="
+intuitive notion of external is correct—an **external force**{: class="term"
+#import-auto-id3026856} acts from outside the **system**{: class="
 term"} of interest. For example, in [[Figure]](#import-auto-id1993910)(a) the
 system of interest is the wagon plus the child in it. The two forces exerted by
 the other children are external forces. An internal force acts between elements
@@ -60,7 +60,7 @@ direction. The vertical forces are the weight $$ \vb{w} $$ and the
 support of the ground $$ \vb{N} $$, and the horizontal force $$
 \vb{f} $$ represents the force of friction. These will be discussed
 in more detail in later sections. For now, we will define **friction**{:
-data-type="term" #import-auto-id2639388} as a force that opposes the motion past
+class="term" #import-auto-id2639388} as a force that opposes the motion past
 each other of objects that are touching. [[Figure]](#import-auto-id1993910)(b)
 shows how vectors representing the external forces add together to produce a net
 force, $$ \vb{F}_{\text{net}} $$.
@@ -68,12 +68,12 @@ force, $$ \vb{F}_{\text{net}} $$.
 To obtain an equation for Newton’s second law, we first write the relationship
 of acceleration and net external force as the proportionality.
 
-<div data-type="equation" id="eip-id1450972">
+<div class="equation" id="eip-id1450972">
  $$ \vb{a} \propto \vb{F}_{\text{net}}, $$
 </div>
 
 where the symbol $$ \propto $$ means “proportional to,” and $$
-\vb{F}_{\text{net}} $$ is the **net external force**{: data-type="
+\vb{F}_{\text{net}} $$ is the **net external force**{: class="
 term" #import-auto-id1890102}. (The net external force is the vector sum of all
 external forces and can be determined graphically, using the head-to-tail
 method, or analytically, using components. The techniques are the same as for
@@ -95,7 +95,7 @@ illustrated in [[Figure]](#import-auto-id1375143), the same net external force
 applied to a car produces a much smaller acceleration than when applied to a
 basketball. The proportionality is written as
 
-<div data-type="equation" id="eip-id1969451">
+<div class="equation" id="eip-id1969451">
  $$ \mag{a}\propto \frac{1}{m} $$
 </div>
 
@@ -112,25 +112,25 @@ It has been found that the acceleration of an object depends *only* on the net
 external force and the mass of the object. Combining the two proportionalities
 just given yields Newton\'s second law of motion.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Newton’s Second Law of Motion
 </div>
 The acceleration of a system is directly proportional to and in the same direction as the net external force acting on the system, and inversely proportional to its mass.
 
 In equation form, Newton’s second law of motion is
 
-<div data-type="equation" id="eip-id1628753">
+<div class="equation" id="eip-id1628753">
  $$ \vb{a}=\frac{ \vb{F}_{\text{net}}}{m} . $$
 </div>
 This is often written in the more familiar form
 
-<div data-type="equation" id="eip-id2606927">
+<div class="equation" id="eip-id2606927">
  $$ \vb{F}_{\text{net}}=m \vb{a} . $$
 </div>
 When only the magnitude of force and acceleration are considered, this equation is simply
 
-<div data-type="equation" id="eip-id1641404">
+<div class="equation" id="eip-id1641404">
 $$ F_{\text{net}}=ma . $$
 </div>
 </div>
@@ -145,12 +145,12 @@ verification.
 
 $$ \vb{F}_{\text{net}}=m\vb{a} $$ is used to define the
 units of force in terms of the three basic units for mass, length, and time. The
-SI unit of force is called the **newton**{: data-type="
+SI unit of force is called the **newton**{: class="
 term" #import-auto-id2929123} (abbreviated N) and is the force needed to
 accelerate a 1-kg system at the rate of $$ 1\mss $$. That is, since $$
 \vb{F}_{\text{net}}=m\vb{a} $$,
 
-<div data-type="equation" id="eip-id2390555">
+<div class="equation" id="eip-id2390555">
  $$ 1 \N =1 \kg \cdot \mss . $$
 </div>
 
@@ -163,7 +163,7 @@ United States the most familiar unit of force is the pound (lb), where 1 N =
 When an object is dropped, it accelerates toward the center of Earth. Newton’s
 second law states that a net force on an object is responsible for its
 acceleration. If air resistance is negligible, the net force on a falling object
-is the gravitational force, commonly called its **weight**{: data-type="term"
+is the gravitational force, commonly called its **weight**{: class="term"
 #import-auto-id3064229} $$ \vb{w} $$. Weight can be denoted as a
 vector $$ \vb{w} $$ because it has a direction; *down* is, by
 definition, the direction of gravity, and hence weight is a downward force. The
@@ -181,19 +181,19 @@ Since the object experiences only the downward force of gravity,$$ F_
 {\text{net}}=w $$. We know that the acceleration of an object due to gravity is
 $$ g $$, or $$ a=g $$. Substituting these into Newton’s second law gives
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Weight
 </div>
 This is the equation for *weight*—the gravitational force on a mass $$ m $$:
 
-<div data-type="equation" id="eip-id1171442268322">
+<div class="equation" id="eip-id1171442268322">
  $$ w=mg . $$
 </div>
 Since $$ g=9.80\mss $$ on Earth, the weight of a 1.0 kg object on Earth
 is 9.8 N, as we see:
 
-<div data-type="equation" id="eip-id1171443439158">
+<div class="equation" id="eip-id1171443439158">
  $$ w=mg =\left(1.0 \kg \right)\left(9.80\mss \right)=9.8\N . $$
 </div>
 Recall that $$ g $$ can take a positive or negative value, depending on the positive direction in
@@ -203,7 +203,7 @@ problems with weight.
 </div>
 
 When the net external force on an object is its weight, we say that it is in
-**free-fall**{: data-type="term" #import-auto-id1999571}. That is, the only force
+**free-fall**{: class="term" #import-auto-id1999571}. That is, the only force
 acting on the object is the force of gravity. In the real world, when
 objects fall downward toward Earth, they are never truly in free-fall because
 there is always some upward force from the air acting on the object.
@@ -235,8 +235,8 @@ terms *mass* and *weight* are used interchangeably in everyday language; for
 example, our medical records often show our “weight” in kilograms, but never in
 the correct units of newtons.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Common Misconceptions: Mass vs. Weight
 </div>
 Mass and weight are often used interchangeably in everyday language.
@@ -263,16 +263,16 @@ losing “mass” (which in turn causes them to weigh less).
 
 </div>
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Take-Home Experiment: Mass and Weight
 </div>
 What do bathroom scales measure? When you stand on a bathroom scale, what happens to the scale? It depresses slightly. The scale contains springs that compress in proportion to your weight—similar to rubber bands expanding when pulled. The springs provide a measure of your weight (for an object which is not accelerating). This is a force in newtons (or pounds). In most countries, the measurement is divided by 9.80 to give a reading in mass units of kilograms. The scale measures weight but is calibrated to provide information about mass. While standing on a bathroom scale, push down on a table next to you. What happens to the reading? Why? Would your scale measure the same “mass” on Earth as on the Moon?
 
 </div>
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 What Acceleration Can a Person Produce when Pushing a Lawn Mower?
 </div>
 Suppose that the net external force (push minus friction) exerted on a lawn mower is 51 N (about 11 lb) parallel to the ground. The mass of the mower is 24 kg. What is its acceleration?
@@ -290,12 +290,12 @@ law as stated in $$ \vb{F}_{\text{net}}=m\vb{a} $$.
 The magnitude of the acceleration $$ a $$ is $$ a=\frac{ F_{\text{net}}}{m} $$.
 Entering known values gives
 
-<div data-type="equation" id="eip-id1171443383293">
+<div class="equation" id="eip-id1171443383293">
  $$ a=\frac{51 \N }{24 \kg } $$
 </div>
 Substituting the units $$ \kg \cdot \mss $$ for N yields
 
-<div data-type="equation" id="eip-id2603472">
+<div class="equation" id="eip-id2603472">
  $$ a=\frac{51 \kg \cdot \mss }{24 \kg }=2.1 \mss . $$
 </div>
 
@@ -314,8 +314,8 @@ because the person’s top speed would soon be reached.
 
 </div>
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 What Rocket Thrust Accelerates This Sled?
 </div>
 Prior to manned space flights, rocket sleds were used to test aircraft, missile equipment, and physiological effects on human subjects at high speeds. They consisted of a platform that was mounted on one or two rails and propelled by several rockets. Calculate the magnitude of force exerted by each rocket, called its thrust $$ \vb{T} $$, for the four-rocket propulsion system shown in [[Figure]](#fs-id2407992). The
@@ -341,39 +341,39 @@ we have defined the direction of the force and acceleration as acting “to the
 right,” we need to consider only the magnitudes of these quantities in the
 calculations. Hence we begin with
 
-<div data-type="equation" id="eip-id2420800">
+<div class="equation" id="eip-id2420800">
 $$ F_{\text{net}}=ma , $$
 </div>
 where $$ F_{\text{net}} $$ is the net force along the horizontal direction. We can see
 from [[Figure]](#fs-id2407992) that the engine thrusts add, while friction
 opposes the thrust. In equation form, the net external force is
 
-<div data-type="equation" id="eip-id1522873">
+<div class="equation" id="eip-id1522873">
 $$ F_{\text{net}}=4T-f. $$
 </div>
 Substituting this into Newton’s second law gives
 
-<div data-type="equation" id="eip-id1858333">
+<div class="equation" id="eip-id1858333">
 $$ F_{\text{net}}=ma =4T-f. $$
 </div>
 Using a little algebra, we solve for the total thrust, $$ 4 T $$ :
 
-<div data-type="equation" id="eip-id1948969">
+<div class="equation" id="eip-id1948969">
  $$ 4T=ma + f . $$
 </div>
 Substituting known values yields
 
-<div data-type="equation" id="eip-id2054706">
+<div class="equation" id="eip-id2054706">
  $$ 4T=ma +f=\left(2100 \kg \right)\left(49 \mss \right)+650 \N . $$
 </div>
 So the total thrust is
 
-<div data-type="equation" id="eip-id1631559">
+<div class="equation" id="eip-id1631559">
  $$ 4T=1.0\times 10^{5}\N , $$
 </div>
 and the individual thrusts are
 
-<div data-type="equation" id="eip-id1171442277241">
+<div class="equation" id="eip-id1171442277241">
  $$ T=\frac{1.0\times 10^{5}\N }{4}=2.6\times 10^{4}\N . $$
 </div>
 
@@ -418,7 +418,7 @@ third and final law of motion.
 * {: #import-auto-id1487682} The weight $$ \vb{w} $$ of an object is
   defined as the force of gravity acting on an object of mass $$ m $$. The
   object experiences an acceleration due to gravity $$ \vb{g} $$:
-  <div data-type="equation" id="eip-id1171442332762">
+  <div class="equation" id="eip-id1171442332762">
  $$ \vb{w}=m\vb{g}. $$
   </div>
 
@@ -429,8 +429,8 @@ third and final law of motion.
 
 #### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Which statement is correct?
 (a) Net force causes motion.
 (b) Net force causes change in motion. Explain your answer and give an example.
@@ -438,48 +438,48 @@ Which statement is correct?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Why can we neglect forces such as those holding a body together when
 we apply Newton’s second law of motion?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Explain how the choice of the “system of interest” affects which forces
 must be considered when applying Newton’s second law of motion.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Describe a situation in which the net external force on a system is not zero,
 yet its speed remains constant.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 A system can have a nonzero velocity while the net external force
 on it *is* zero. Describe such a situation.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 A rock is thrown straight up. What is the net external force acting
 on the rock when it is at the top of its trajectory?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 (a) Give an example of different net external forces acting on the same
 system to produce different accelerations.
 (b) Give an example of the same net external force acting on systems of
@@ -489,24 +489,24 @@ different masses, producing different accelerations.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 If the acceleration of a system is zero, are no external forces acting on it?
 What about internal forces? Explain your answers.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 If a constant, nonzero force is applied to an object, what can you say about
 the velocity and acceleration of the object?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 The gravitational force on the basketball in [[Figure]](#import-auto-id1375143)
 is ignored. When gravity *is* taken into account, what is the direction of the net external
 force on the basketball—above horizontal, below horizontal, or still horizontal?
@@ -518,20 +518,20 @@ force on the basketball—above horizontal, below horizontal, or still horizonta
 
 **You may assume data taken from illustrations is accurate to three digits.**
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A 63.0-kg sprinter starts a race with an acceleration of $$ 4.20 \mss $$.
 What is the net external force on him?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 265 N
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 If the sprinter from the previous problem accelerates at that rate for 20 m,
 and then maintains that velocity for the remainder of the 100-m dash,
 what will be his time for the race?
@@ -539,20 +539,20 @@ what will be his time for the race?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A cleaner pushes a 4.50-kg laundry cart in such a way that the net external
 force on it is 60.0 N. Calculate the magnitude of its acceleration.
 
 </div>
-<div data-type="solution" id="eip-id1377423" markdown="1">
+<div class="solution" id="eip-id1377423" markdown="1">
  $$ 13.3 \mss $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Since astronauts in orbit are apparently weightless, a clever method of
 measuring their masses is needed to monitor their mass gains or losses to
 adjust diets. One way to do this is to exert a known force on an astronaut
@@ -567,8 +567,8 @@ in which recoil of the vehicle is avoided.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 In [[Figure]](#fs-id2602810), the net external force on the 24-kg mower is stated to be 51 N.
 If the force of friction opposing the motion is 24 N, what force $$ F $$
 (in newtons) is the person exerting on the mower? Suppose the mower is moving at
@@ -578,8 +578,8 @@ stopping?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 The same rocket sled drawn in [[Figure]](#fs-id2992955) is decelerated at a rate of
 $$ 196 \mss $$.
 What force is necessary to produce this deceleration? Assume that the rockets
@@ -590,8 +590,8 @@ are off. The mass of the system is 2100 kg.
 
 ![A sled is shown with four rockets. Friction force is represented by an arrow labeled as vector f pointing toward the left on the sled. Weight of the sled is represented by an arrow labeled as vector W, shown pointing downward, and normal force is represented by an arrow labeled as vector N having the same length as W acting upward on the sled.](../resources/Figure_04_03_07.jpg)
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) If the rocket sled shown in [[Figure]](#fs-id1870792) starts with only one rocket
 burning, what is the magnitude of
 its acceleration? Assume that the mass of the system is 2100 kg,
@@ -599,7 +599,7 @@ the thrust T is $$ 2.4\times 10^{4} \N $$, and the force of friction opposing th
 (b) Why is the acceleration not one-fourth of what it is with all rockets burning?
 
 </div>
-<div data-type="solution" id="eip-id1494654" markdown="1">
+<div class="solution" id="eip-id1494654" markdown="1">
 (a) $$ 12\mss $$.
 
 (b) The acceleration is not one-fourth of what it was with all rockets burning
@@ -611,8 +611,8 @@ burning.
 
 ![A sled is shown with thrust represented by a vector T pushing the sled toward the right. Friction force is represented by an arrow labeled as vector f pointing toward the left on the sled. The weight of the sled is represented by an arrow labeled as vector W, shown pointing downward, and the normal force is represented by an arrow labeled as vector N having the same length as W acting upward on the sled.](../resources/Figure_04_03_05.jpg)
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 What is the deceleration of the rocket sled if it comes to rest in 1.1 s
 from a speed of 1000 km/h?
 (Such deceleration caused one test subject to black out and have temporary blindness.)
@@ -620,8 +620,8 @@ from a speed of 1000 km/h?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Suppose two children push horizontally, but in exactly opposite directions, on a third child in a wagon. The first child exerts a force of 75.0 N, the second a force of 90.0 N, friction is 12.0 N, and the mass of the third child plus wagon is 23.0 kg.
 (a) What is the system of interest if the acceleration of the child in the wagon is to be calculated?
 (b) Draw a free-body diagram, including all forces acting on the system.
@@ -629,7 +629,7 @@ Suppose two children push horizontally, but in exactly opposite directions, on a
 (d) What would the acceleration be if friction were 15.0 N?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) The system is the child in the wagon plus the wagon.
 
 (b)
@@ -643,8 +643,8 @@ Suppose two children push horizontally, but in exactly opposite directions, on a
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A powerful motorcycle can produce an acceleration of $$ 3.50\mss $$
 while traveling at 90.0 km/h. At that speed the forces resisting motion,
 including friction and air resistance, total 400 N. (Air resistance is analogous
@@ -655,8 +655,8 @@ its acceleration if the mass of the motorcycle with rider is 245 kg?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 The rocket sled shown in [[Figure]](#fs-id1926895) accelerates at a rate of $$ 49.0\mss $$. Its passenger has a mass of 75.0 kg.
 (a) Calculate the horizontal component of
 the force the seat exerts against his body. Compare this with his weight by
@@ -665,7 +665,7 @@ using a ratio.
 seat exerts against his body.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 3.68\times 10^{3}\N $$. This force is 5.00 times greater than his weight.
 
 (b) $$ 3750 \N ; 11.3^\circ $$ above horizontal
@@ -674,8 +674,8 @@ seat exerts against his body.
 
 ![A sled is shown with four rockets. Friction force is represented by an arrow labeled as vector f pointing toward the left on the sled. The weight of the sled is represented by an arrow labeled as vector W, shown pointing downward, and the normal force is represented by an arrow labeled as vector N having the same length as W acting upward on the sled. ](../resources/Figure_04_03_07.jpg)
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Repeat the previous problem for the situation in
 which the rocket sled decelerates at a rate of $$ 201 \mss $$.
 In this problem, the forces are exerted by the seat and restraining belts.
@@ -683,20 +683,20 @@ In this problem, the forces are exerted by the seat and restraining belts.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 The weight of an astronaut plus his space suit on the Moon is only 250 N.
 How much do they weigh on Earth? What is the mass on the Moon? On Earth?
 
 </div>
-<div data-type="solution" id="eip-id1480319" markdown="1">
+<div class="solution" id="eip-id1480319" markdown="1">
  $$ 1.5\times 10^{3}\N ,150 \kg ,150 \kg $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Suppose the mass of a fully loaded module in which astronauts take off
 from the Moon is 10 000 kg. The thrust of its engines is 30 000 N.
 (a) Calculate its the magnitude of acceleration in a vertical takeoff from the Moon.
@@ -705,10 +705,10 @@ from the Moon is 10 000 kg. The thrust of its engines is 30 000 N.
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 acceleration
 : the rate at which an object’s velocity changes over a period of time

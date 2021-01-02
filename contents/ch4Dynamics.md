@@ -14,7 +14,7 @@ at the forces needed to achieve spectacular motion, such as that of a dolphin
 jumping out of the water, or a pole vaulter, or the flight of a bird, or the
 orbit of a satellite. The study of motion is kinematics, but kinematics only
 *describes* the way objects move—their velocity and their acceleration.
-**Dynamics**{: data-type="term" #import-auto-id2665402} considers the forces
+**Dynamics**{: class="term" #import-auto-id2665402} considers the forces
 that affect the motion of moving objects and systems. Newton’s laws of motion
 are the foundation of dynamics. These laws provide an example of the breadth and
 simplicity of principles under which nature functions. They are also universal
@@ -67,8 +67,8 @@ have the constraints present in classical physics. All of the situations we
 consider in this chapter are in the realm of classical
 physics.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Making Connections: Past and Present Philosophy
 </div>
 *The importance of observation* and the concept of *cause and effect* were not always so entrenched in human thinking. This realization was a part of the evolution of modern physics from natural philosophy. The achievements of Galileo, Newton, Einstein, and others were key milestones in the history of scientific thought. Most of the scientific theories that are described in this book descended from the work of these scientists.

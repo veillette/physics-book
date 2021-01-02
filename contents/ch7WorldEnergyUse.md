@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Describe the distinction between renewable and nonrenewable energy sources.
 * Explain why the inevitable conversion of energy to less useful forms makes it necessary to conserve energy resources.
 
@@ -25,10 +25,10 @@ production per year; 66% of that oil is imported!
 The principal energy resources used in the world are shown
 in [[Figure]](#import-auto-id2184457). The fuel mix has changed over the years
 but now is dominated by oil, although natural gas and solar contributions are
-increasing. **Renewable forms of energy**{: data-type="term"
+increasing. **Renewable forms of energy**{: class="term"
 #import-auto-id2093286} are those sources that cannot be used up, such as water,
 wind, solar, and biomass. About 85% of our energy comes from nonrenewable
-**fossil fuels**{: data-type="term" #import-auto-id2811292}—oil, natural gas,
+**fossil fuels**{: class="term" #import-auto-id2811292}—oil, natural gas,
 coal. The likelihood of a link between global warming and fossil fuel use,
 with its production of carbon dioxide through combustion, has made, in the eyes
 of many scientists, a shift to non-fossil fuels of utmost importance—but it will
@@ -170,15 +170,15 @@ transformation.
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 What is the difference between energy conservation and the law of conservation of energy? Give some examples of each.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 If the efficiency of a coal-fired electrical generating plant is 35%, then what do we mean when we say that energy is a conserved quantity?
 
 </div>
@@ -186,8 +186,8 @@ If the efficiency of a coal-fired electrical generating plant is 35%, then what 
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Integrated Concepts**
 
@@ -202,7 +202,7 @@ in [Work, Energy, and Power in Humans](../contents/ch7WorkEnergyAndPowerInHumans
 {: #import-auto-id1912970}
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 294 N
 
 (b) 118 J
@@ -212,8 +212,8 @@ in [Work, Energy, and Power in Humans](../contents/ch7WorkEnergyAndPowerInHumans
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Integrated Concepts**
 
@@ -227,8 +227,8 @@ reaches a level area, how long will it take him to reach a velocity of 10.0 m/s?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Integrated Concepts**
 
@@ -242,7 +242,7 @@ velocity of 2.50 m/s?
 linearly with velocity.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 0.500 \mss $$
 
 (b) $$ 62.5 \N $$
@@ -256,8 +256,8 @@ Therefore, the water resistance will not depend linearly on the velocity.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Integrated Concepts**
 
@@ -274,8 +274,8 @@ maximum range on level ground?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Integrated Concepts**
 
@@ -287,7 +287,7 @@ the loaded elevator is 1500 kg?
 (d) How much work went into thermal energy?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 16.1\times 10^{3}N $$
 
 (b) $$ 3.22\times 10^{5}J $$
@@ -299,8 +299,8 @@ the loaded elevator is 1500 kg?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Unreasonable Results**
 
@@ -315,8 +315,8 @@ are known to three significant figures.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Unreasonable Results**
 
@@ -331,7 +331,7 @@ metabolize fat at the rate of 0.500 kg in 2.00 h.
 (d) Which premise is unreasonable, or which premises are inconsistent?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 4.65\times 10^{3}\text{kcal} $$
 
 (b) 38.8 kcal/min
@@ -346,8 +346,8 @@ sprinting for 2 hours!).
 </div>
 </div>
 
-<div data-type="exercise" id="eip-211" data-element-type="problems-exercises">
-<div data-type="problem" id="eip-202" markdown="1">
+<div class="exercise" id="eip-211" data-element-type="problems-exercises">
+<div class="problem" id="eip-202" markdown="1">
 
 **Construct Your Own Problem**
 
@@ -362,8 +362,8 @@ different process for descending versus climbing stairs.)
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Construct Your Own Problem**
 
@@ -377,8 +377,8 @@ implications of your results.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Integrated Concepts**
 
@@ -391,7 +391,7 @@ support his weight as well as that to accelerate him.)
 (c) What was his power output during the acceleration phase?
 
 </div>
-<div data-type="solution" id="eip-id1450454" markdown="1">
+<div class="solution" id="eip-id1450454" markdown="1">
 (a) 4.32 m/s
 
 (b) $$ 3.47\times 10^{3} \N  $$
@@ -401,10 +401,10 @@ support his weight as well as that to accelerate him.)
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 {: #import-auto-id1538511} renewable forms of energy
 : those sources that cannot be used up, such as water, wind, solar, and biomass

@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Define and distinguish between scalar and vector quantities.
 * Assign a coordinate system for a scenario involving one-dimensional motion.
 
@@ -20,7 +20,7 @@ What is the difference between distance and displacement? Whereas displacement
 is defined by both direction and magnitude, distance is defined only by
 magnitude. Displacement is an example of a vector quantity. Distance
 is an example of a scalar quantity. A
-**vector**{: data-type="term" #import-auto-id1738434} is any quantity with both
+**vector**{: class="term" #import-auto-id1738434} is any quantity with both
 *magnitude and direction*. Other examples of vectors include a velocity of 90
 km/h east and a force of 500 newtons straight down.
 
@@ -31,7 +31,7 @@ proportional to the vector’s magnitude (e.g., the larger the magnitude, the
 longer the length of the vector) and points in the same direction as the vector.
 
 Some physical quantities, like distance, either have no direction or none is
-specified. A **scalar**{: data-type="term" #import-auto-id1759638} is any
+specified. A **scalar**{: class="term" #import-auto-id1759638} is any
 quantity that has a magnitude, but no direction. For example, a $$ 20^\circ
 \text{C} $$ temperature, the 250 kilocalories (250 Calories) of energy in a
 candy bar, a 90 km/h speed limit, a person’s 1.8 m height, and a distance of 2.0
@@ -67,16 +67,16 @@ upward or to the right as positive ( + )and motion downward or to the left as
 negative (-).")
 {: #import-auto-id1758074}
 
-<div data-type="exercise" data-element-type="check-understanding" data-label="">
-<div data-type="title">
+<div class="exercise" data-element-type="check-understanding" data-label="">
+<div class="title">
 Check Your Understanding
 </div>
-<div data-type="problem" markdown="1">
+<div class="problem" markdown="1">
 A person’s speed can stay the same as they round a corner and changes direction.
 Given this information, is speed a scalar or a vector quantity? Explain.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 Speed is a scalar quantity. It does not change at all with direction changes; therefore, it has magnitude only. If it were a vector quantity, it would change as direction changes (even if its magnitude remained constant).
 
 </div>
@@ -95,39 +95,39 @@ Speed is a scalar quantity. It does not change at all with direction changes; th
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 A student writes, “*A bird that is diving for prey has a speed of*
 $$ -10  \ms $$.” What is wrong with the student’s statement?
 What has the student actually described? Explain.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 What is the speed of the bird in [[Figure]](#fs-id1364975)?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Acceleration is the change in velocity over time.
 Given this information, is acceleration a vector or a scalar quantity? Explain.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 A weather forecast states that the temperature is predicted to be
 $$ -5^\circ \text{C} $$ the following day. Is this temperature a
 vector or a scalar quantity? Explain.
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 scalar
 : a quantity that is described by magnitude, but not direction

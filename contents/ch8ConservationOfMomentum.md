@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Describe the principle of conservation of momentum.
 * Derive an expression for the conservation of momentum.
 * Explain conservation of momentum with examples.
@@ -46,7 +46,7 @@ is the same before and after the collision (if you assume friction is negligible
 
 Using the definition of impulse, the change in momentum of car 1 is given by
 
-<div data-type="equation" id="eip-776">
+<div class="equation" id="eip-776">
  $$ \Delta p_{1}= F_{1}\Delta t, $$
 </div>
 
@@ -59,7 +59,7 @@ momentum is conserved.
 
 Similarly, the change in momentum of car 2 is
 
-<div data-type="equation" id="eip-591">
+<div class="equation" id="eip-591">
  $$ \Delta p_{2}= F_{2}\Delta t , $$
 </div>
 
@@ -67,24 +67,24 @@ where $$ F_{2} $$ is the force on car 2 due to car 1, and we assume the duration
 of the collision $$ \Delta t $$ is the same for both cars. We know from Newton’s
 third law that $$ F_{2}=- F_{1} $$, and so
 
-<div data-type="equation" id="eip-340">
+<div class="equation" id="eip-340">
  $$ \Delta  p_{2}=- F_{1}\Delta t=-\Delta  p_{1}. $$
 </div>
 
 Thus, the changes in momentum are equal and opposite, and
 
-<div data-type="equation" id="eip-727">
+<div class="equation" id="eip-727">
  $$ \Delta  p_{1}+\Delta  p_{2}=0. $$
 </div>
 
 Because the changes in momentum add to zero, the total momentum of the two-car
 system is constant. That is,
 
-<div data-type="equation" id="eip-991">
+<div class="equation" id="eip-991">
  $$ p_{1}+ p_{2}=\text{constant}, $$
 </div>
 
-<div data-type="equation" id="eip-564">
+<div class="equation" id="eip-564">
  $$ p_{1}+ p_{2}={p^{\prime} }_{1}+{p^{\prime} }_{2}, $$
 </div>
 
@@ -95,16 +95,16 @@ state.)
 This result—that momentum is conserved—has validity far beyond the preceding
 one-dimensional case. It can be similarly shown that total momentum is conserved
 for any isolated system, with any number of objects in it. In equation form,
-the **conservation of momentum principle**{: data-type="term"
+the **conservation of momentum principle**{: class="term"
 #import-auto-id1671854} for an isolated system is written
 
-<div data-type="equation" id="eip-986">
+<div class="equation" id="eip-986">
  $$ \vb{p}_{\text{tot}}=\text{constant}, $$
 </div>
 
 or
 
-<div data-type="equation" id="eip-32">
+<div class="equation" id="eip-32">
  $$ \vb{p}_{\text{tot}}={\vb{p}^{\prime} }_{\text{tot}}, $$
 </div>
 
@@ -112,22 +112,22 @@ where $$ \vb{p}_{\text{tot}} $$ is the total momentum (the sum of the
 momenta of the individual objects in the system) and $$
 {\vb{p}^{\prime} }_{\text{tot}} $$ is the total momentum some time
 later. (The total momentum can be shown to be the momentum of the center of mass
-of the system.) An **isolated system**{: data-type="term"} is defined to be one
+of the system.) An **isolated system**{: class="term"} is defined to be one
 for which the net external force is zero $$ \left(\vb{F}_
 {\text{net}}=0\right). $$
-<div data-type="note" data-has-label="true" data-label="">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="">
+<div class="title">
 Conservation of Momentum Principle
 </div>
-<div data-type="equation" id="eip-387">
+<div class="equation" id="eip-387">
  $$ \begin{array}{lll}
 \vb{p}_{\text{tot}}& =& \text{constant}\\
 \vb{p}_{\text{tot}}& =& {\vb{p}^{\prime} }_{\text{tot}}\left(\text{isolated system}\right)\end{array} $$
 </div>
 </div>
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Isolated System
 </div>
 An isolated system is defined to be one for which the net external force
@@ -164,16 +164,16 @@ conserved by simply including the source of the external force. For example, in
 the collision of two cars considered above, the two-car system conserves
 momentum while each one-car system does not.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Making Connections: Take-Home Investigation—Drop of Tennis Ball and a Basketball
 </div>
 Hold a tennis ball side by side and in contact with a basketball. Drop the balls together. (Be careful!) What happens? Explain your observations. Now hold the tennis ball above and in contact with the basketball. What happened? Explain your observations. What do you think will happen if the basketball ball is held above and in contact with the tennis ball?
 
 </div>
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Making Connections: Take-Home Investigation—Two Tennis Balls in a Ballistic Trajectory
 </div>
 Tie two tennis balls together with a string about a foot long. Hold one ball and let the other hang down and throw it in a ballistic trajectory. Explain your observations. Now mark the center of the string with bright ink or attach a brightly colored sticker to it and throw again. What happened? Explain your observations.
@@ -200,8 +200,8 @@ heart) are more widely used in the practice of cardiology.
 
 </div>
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Making Connections: Conservation of Momentum and Collision
 </div>
 Conservation of momentum is quite useful in describing collisions. Momentum is crucial to our understanding of atomic and subatomic particles because much of what we know about these particles comes from collision experiments.
@@ -230,7 +230,7 @@ to analyze the masses and other properties of previously undetected particles,
 such as the nucleus of an atom and the existence of quarks that make up
 particles of nuclei. [[Figure]](#import-auto-id1700285) below illustrates how a
 particle scattering backward from another implies that its target is massive and
-dense. Experiments seeking evidence that **quarks**{: data-type="term"
+dense. Experiments seeking evidence that **quarks**{: class="term"
 #import-auto-id1667063} make up protons (one type of particle that makes up
 nuclei) scattered high-energy electrons off
 
@@ -246,12 +246,12 @@ works so well on the large scale.
 ### Section Summary
 
 * {: #import-auto-id1509374} The conservation of momentum principle is written
-  <div data-type="equation" id="eip-483">
+  <div class="equation" id="eip-483">
  $$ \vb{p}_{\text{tot}}=\text{constant} $$
   </div>
 
   or
-  <div data-type="equation" id="eip-814">
+  <div class="equation" id="eip-814">
  $$ \vb{p}_{\text{tot}}={\vb{p}^{\prime} }_{\text{tot}}\left(\text{isolated system}\right), $$
   </div>
 
@@ -270,8 +270,8 @@ works so well on the large scale.
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -282,29 +282,29 @@ Explain this difference in depth using what you have learned in this chapter.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Under what circumstances is momentum conserved?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Can momentum be conserved for a system if there are external forces acting on the system? If so, under what conditions? If not, why not?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Momentum for a system can be conserved in one direction while not being conserved in another. What is the angle between the directions? Give an example.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -314,15 +314,15 @@ in part to the fact that it pushes air in its direction of motion.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Can objects in a system have momentum while the momentum of the system is zero? Explain your answer.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Must the total energy of a system be conserved whenever its momentum is conserved? Explain why or why not.
 
 </div>
@@ -330,8 +330,8 @@ Must the total energy of a system be conserved whenever its momentum is conserve
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -342,14 +342,14 @@ and a velocity of $$ -0.120  \ms $$. (The minus indicates direction of
 motion.) What is their final velocity?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 0.122 m/s
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Suppose a clay model of a koala bear has a mass of 0.200 kg and slides on ice at a speed of 0.750 m/s.
 It runs into another clay model, which is initially motionless and has a mass of 0.350 kg.
 Both being soft clay, they naturally stick together. What is their final velocity?
@@ -357,8 +357,8 @@ Both being soft clay, they naturally stick together. What is their final velocit
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -370,7 +370,7 @@ collided with a car that has a mass equal to and is traveling in the opposite
 direction and at the same speed? Explain your answer.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 In a collision with an identical car, momentum is conserved. Afterwards $$ v_{\text{f}}=0 $$
 for both cars. The change in momentum will be the same as in the crash with the
 tree. However, the force on the body is not determined since the time is not
@@ -378,28 +378,28 @@ known. A padded stop will reduce injurious force on body.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 What is the velocity of a 900-kg car initially moving at 30.0 m/s, just after it hits a 150-kg deer initially running at 12.0 m/s in the same direction? Assume the deer remains on the car.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A 1.80-kg falcon catches a 0.650-kg dove from behind in midair. What is their velocity after impact if the falcon’s velocity is initially 28.0 m/s and the dove’s velocity is 7.00 m/s in the same direction?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 22.4 m/s in the same direction as the original motion
 
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 conservation of momentum principle
 : when the net external force is zero, the total momentum of the system is

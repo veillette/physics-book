@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Perform unit conversions both in the SI and English units.
 * Explain the most common prefixes in the SI units and be able to write them in scientific notation.
 
@@ -27,7 +27,7 @@ seconds) a profound simplicity of nature appears—all physical quantities can b
 expressed as combinations of only four fundamental physical quantities: length,
 mass, time, and electric current.
 
-We define a **physical quantity**{: data-type="term" #import-auto-id1536256}
+We define a **physical quantity**{: class="term" #import-auto-id1536256}
 either by *specifying how it is measured*
 or by **stating how it is calculated** from other measurements. For example, we
 define distance and time by specifying methods for measuring them, whereas we
@@ -35,7 +35,7 @@ define **average speed** by stating that it is calculated as distance traveled
 divided by time of travel.
 
 Measurements of physical quantities are expressed in terms of **units**{:
-data-type="term" #import-auto-id1666000} , which are standardized values. For
+class="term" #import-auto-id1666000} , which are standardized values. For
 example, the length of a race, which is a physical quantity, can be expressed in
 units of meters (for sprinters) or kilometers (for distance runners). Without
 standardized units, it would be extremely difficult for scientists to express
@@ -46,8 +46,8 @@ See [Figure 2](#import-auto-id2991258).)
 {: #import-auto-id2991258 height="225"}
 
 There are two major systems of units used in the world: **SI units**{:
-data-type="term"}
-(also known as the metric system) and **English units**{: data-type="term"}
+class="term"}
+(also known as the metric system) and **English units**{: class="term"}
 (also known as the customary or imperial system).
 **English units**
 were historically used in nations once ruled by the British Empire and are still
@@ -74,20 +74,20 @@ be tied to SI units through conversions.
 It is an intriguing fact that some physical quantities are more fundamental than
 others and that the most fundamental physical quantities can be defined **only**
 in terms of the procedure used to measure them. The units in which they are
-measured are thus called **fundamental units**{: data-type="term"
+measured are thus called **fundamental units**{: class="term"
 #import-auto-id3097983}. In this textbook, the fundamental physical quantities
 are taken to be length, mass, time, and electric current. (Note that electric
 current will not be introduced until much later in this text.) All other
 physical quantities, such as force and electric charge, can be expressed as
 algebraic combinations of length, mass, time, and current (for example, speed is
-length divided by time); these units are called **derived units**{: data-type="
+length divided by time); these units are called **derived units**{: class="
 term" #import-auto-id1950609}.
 
 ### Units of Time, Length, and Mass: The Second, Meter, and Kilogram
 
 #### The Second
 
-The SI unit for time, the **second**{: data-type="term" #import-auto-id2526901}(
+The SI unit for time, the **second**{: class="term" #import-auto-id2526901}(
 abbreviated s), has a long history. For many years it was defined as 1/86 400 of
 a mean solar day. More recently, a new standard was adopted to gain greater
 accuracy and to define the second in terms of a non-varying, or constant,
@@ -105,7 +105,7 @@ fundamental units themselves.
 
 #### The Meter
 
-The SI unit for length is the **meter**{: data-type="term"
+The SI unit for length is the **meter**{: class="term"
 #import-auto-id1629056} (abbreviated m); its definition has also changed over
 time to become more accurate and precise. The meter was first defined in 1791 as
 1/10 000 000 of the distance from the equator to the North Pole. This
@@ -122,7 +122,7 @@ if the speed of light is someday measured with greater accuracy.
 
 #### The Kilogram
 
-The SI unit for mass is the **kilogram**{: data-type="term"
+The SI unit for mass is the **kilogram**{: class="term"
 #import-auto-id1989656}
 (abbreviated kg); it was previously
 defined to be the mass of a platinum-iridium cylinder kept with the old meter
@@ -151,7 +151,7 @@ of length, mass, and time.
 
 ### Metric Prefixes
 
-SI units are part of the **metric system**{: data-type="term"
+SI units are part of the **metric system**{: class="term"
 #import-auto-id2678122}. The metric system is convenient for scientific and
 engineering calculations because the units are categorized by factors of 10.
 [[Figure]](#import-auto-id2643474) gives metric prefixes and symbols used to
@@ -168,7 +168,7 @@ while distances in kilometers are appropriate for air travel, and the tiny
 measure of nanometers are convenient in optical design. With the metric system
 there is no need to invent new units for particular applications.
 
-The term **order of magnitude**{: data-type="term" #import-auto-id1363292}
+The term **order of magnitude**{: class="term" #import-auto-id1363292}
 refers to the scale of a value expressed in the metric system. Each power of $$
 10 $$ in the metric system represents a different order of magnitude. For
 example, $$ 10^{1},10^{2},10^{3} $$, and so forth are all different orders of
@@ -180,8 +180,8 @@ $$ can be written as $$ 4.5\times 10^{2}$$. Thus, the numbers $$ 800 $$ and $$
 be thought of as a ballpark estimate for the scale of a value. The diameter of
 an atom is on the order of $$ 10^{-9}\m $$, while the diameter of the Sun
 is on the order of $$ 10^{9}\m $$.
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 The Quest for Microscopic Standards for Basic Units
 </div>
 The fundamental units described in this chapter are those that produce the greatest accuracy and precision in measurement.
@@ -255,7 +255,7 @@ The first thing to do is to list the units that you have and the units that you
 want to convert to. In this case, we have units in **meters** and we want to
 convert to **kilometers**.
 
-Next, we need to determine a **conversion factor**{: data-type="term"
+Next, we need to determine a **conversion factor**{: class="term"
 #import-auto-id2657858} relating meters to kilometers. A conversion factor is a
 ratio expressing how many of one unit are equal to another unit. For example,
 there are 12 inches in 1 foot, 100 centimeters in 1 meter, 60 seconds in 1
@@ -266,7 +266,7 @@ Now we can set up our unit conversion. We will write the units that we have and
 then multiply them by the conversion factor so that the units cancel out, as
 shown:
 
-<div data-type="equation" id="eip-442">
+<div class="equation" id="eip-442">
  $$ 80 \m ×\frac{1 \text{km}}{1000\m }=0.080\text{km}.
 $$
 </div>
@@ -298,8 +298,8 @@ factors.
 | $$ 10^{22} $$ | Distance from the Earth to the nearest large galaxy (Andromeda) | $$ 10^{42} $$ | Mass of the Milky Way galaxy (current upper limit)|
 | $$ 10^{26} $$ | Distance from the Earth to the edges of the known universe | $$ 10^{53} $$ | Mass of the known universe (current upper limit)		|
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Unit Conversions: A Short Drive Home
 </div>
 Suppose that you drive the 10.0 km from your university to home in 20.0 min. Calculate your average speed
@@ -320,18 +320,18 @@ unwanted unit and leaves the desired unit in its place.
 of travel. (Take this definition as a given for now—average speed and other
 motion concepts will be covered in a later module.) In equation form,
 
-<div data-type="equation" id="eip-389">
+<div class="equation" id="eip-389">
  $$ \text{average speed =}\frac{ \text{distance}}{\text{time}}. $$
 </div>
 (2) Substitute the given values for distance and time.
 
-<div data-type="equation" id="eip-702">
+<div class="equation" id="eip-702">
  $$ \text{average speed} =\frac{10.0\text{km}}{20.0\text{min}}=0.500\frac{ \text{km}}{\text{min}}. $$
 </div>
 (3) Convert km/min to km/h: multiply by the conversion factor that will cancel minutes and leave hours.
 That conversion factor is $$ 60 \text{min/hr} $$. Thus,
 
-<div data-type="equation" id="eip-583">
+<div class="equation" id="eip-583">
  $$ \text{average speed} = 0.500\frac{ \text{km}}{\text{min}}×\frac{60 \text
 { min}}{1\text{h}}=30.0\frac{ \text{km}}{\text{h}}. $$
 </div>
@@ -346,7 +346,7 @@ cancel properly in the equation. If you accidentally get the ratio upside down,
 then the units will not cancel; rather, they will give you the wrong units as
 follows:
 
-<div data-type="equation" id="eip-593">
+<div class="equation" id="eip-593">
  $$ \frac{ \text{km}}{\text{min}}×\frac{1\text{hr}}{60 \text{min}}
 =\frac{1}{60}\frac{ \text{km}\cdot \text{hr}}{ {\text{min}}^{2}}, $$
 </div>
@@ -378,10 +378,10 @@ meters.
 
 (2) Multiplying by these yields
 
-<div data-type="equation" id="eip-790">
+<div class="equation" id="eip-790">
  $$ \text{Average speed}=30.0\frac{ \text{km}}{\text{h}}×\frac{1\text{h}}{3 600 \s  }×\frac{1 000 \m }{1 \text{km}}, $$
 </div>
-<div data-type="equation" id="eip-130">
+<div class="equation" id="eip-130">
  $$ \text{Average speed}=8.33\frac{ \m }{\s}. $$
 </div>
 
@@ -399,8 +399,8 @@ help you answer these questions.
 
 </div>
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Nonstandard Units
 </div>
 While there are numerous types of units that we are all familiar with, there are
@@ -412,18 +412,18 @@ that are not listed in the text.
 Think about how the unit is defined and state its relationship to SI units.
 </div>
 
-<div data-type="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
-<div data-type="title">
+<div class="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
+<div class="title">
 Check Your Understanding
 </div>
-<div data-type="problem" markdown="1">
+<div class="problem" markdown="1">
 Some hummingbirds beat their wings more than 50 times per second. A scientist is measuring the time it takes for a
 hummingbird to beat its wings once. Which fundamental unit should the scientist use to describe the measurement?
 Which factor of 10 is the scientist likely to use to describe the motion precisely? Identify the metric prefix
 that corresponds to this factor of 10.
 
 </div>
-<div data-type="solution" data-print-placement="here" markdown="1">
+<div class="solution" data-print-placement="here" markdown="1">
 The scientist will measure the time between each movement using the fundamental unit of seconds. Because the wings
 beat so fast, the scientist will probably need to measure in milliseconds, or $$ 10^{-3} $$
 seconds. (50 beats per second corresponds to 20 milliseconds per beat.)
@@ -431,15 +431,15 @@ seconds. (50 beats per second corresponds to 20 milliseconds per beat.)
 </div>
 </div>
 
-<div data-type="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
-<div data-type="title">
+<div class="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
+<div class="title">
 Check Your Understanding
 </div>
-<div data-type="problem" markdown="1">
+<div class="problem" markdown="1">
 One cubic centimeter is equal to one milliliter. What does this tell you about the different units in the SI metric system?
 
 </div>
-<div data-type="solution" data-print-placement="here" markdown="1">
+<div class="solution" data-print-placement="here" markdown="1">
 The fundamental unit of length (meter) is probably used to create the derived unit of volume (liter). The measure of a
 milliliter is dependent on the measure of a centimeter.
 
@@ -469,8 +469,8 @@ milliliter is dependent on the measure of a centimeter.
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Identify some advantages of metric units.
 
 </div>
@@ -478,14 +478,14 @@ Identify some advantages of metric units.
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 The speed limit on some interstate highways is roughly 100 km/h.
 (a) What is this in meters per second?
 (b) How many miles per hour is this?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 1. $$ 27.8  \ms $$
 
 2. $$ 62.1 \text{mph} $$ {: data-mark-prefix="(" data-mark-suffix=")" type="a"}
@@ -493,8 +493,8 @@ The speed limit on some interstate highways is roughly 100 km/h.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A car is traveling at a speed of $$ 33  \ms $$.
 (a) What is its speed in kilometers per hour?
 (b) Is it exceeding the $$
@@ -504,12 +504,12 @@ speed limit?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Show that $$ 1.0  \ms =3.6 \text{km/h} $$. Hint: Show the explicit
 steps involved in converting $$ 1.0 \ms =3.6 \text{km/h.} $$
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ \frac{1.0 \m }{\s}=
 \frac{1.0 \m }{\s}×
 \frac{3600 \s  }{1\text{hr}}×
@@ -519,70 +519,70 @@ $$ =3.6 \text{km/h} $$.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 American football is played on a 100-yd-long field, excluding the end zones. How long is the field in meters? (Assume that 1 meter equals 3.281 feet.)
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Soccer fields vary in size. A large soccer field is 115 m long and 85 m wide. What are its dimensions in feet and inches?
 (Assume that 1 meter equals 3.281 feet.)
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 length: $$ 377 \text{ft} $$; $$ 4.53 \times 10^{3}\text{in.} $$ width: $$ 280 \text{ft} $$; $$ 3.3\times
 10^{3}\text{in.} $$.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 What is the height in meters of a person who is 6 ft 1.0 in. tall? (Assume that 1 meter equals 39.37 in.)
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Mount Everest, at 29 028 feet, is the tallest mountain on the Earth. What is its height in kilometers?
 (Assume that 1 kilometer equals 3 281 feet.)
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 8.847 \text{km} $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 The speed of sound is measured to be $$ 342  \ms $$
 on a certain day. What is this in km/h?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Tectonic plates are large segments of the Earth’s crust that move slowly. Suppose that one such plate has an average
 speed of 4.0 cm/year.
 (a) What distance does it move in 1 s at this speed?
 (b) What is its speed in kilometers per million years?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 1.3\times 10^{-9}\m $$
 
 (b) $$ 40 \text{km/My} $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) Refer to [[Figure]](#import-auto-id1677589) to determine the average distance between the Earth and the Sun.
 Then calculate the average speed of the Earth in its orbit in kilometers per second.
 (b) What is this in meters per second?
@@ -590,23 +590,23 @@ Then calculate the average speed of the Earth in its orbit in kilometers per sec
 </div>
 </div>
 
-<div data-type="footnote-refs" markdown="1">
+<div class="footnote-refs" markdown="1">
 
 ###Footnotes
-{: data-type="footnote-refs-title"}
+{: class="footnote-refs-title"}
 
-* {: data-type="footnote-ref" #footnote1} [1](#footnote-ref1){: data-type="
+* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
   footnote-ref-link"
-  } <span data-type="footnote-ref-content">See [Appendix A](../contents/appAUsefulInformation.md)
+  } <span class="footnote-ref-content">See [Appendix A](../contents/appAUsefulInformation.md)
   for a list of powers of 10.</span>
   {: data-list-type="bulleted" data-bullet-style="none"}
 
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 physical quantity
 : a characteristic or property of an object that can be measured or calculated

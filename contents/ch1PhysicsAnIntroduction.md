@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Explain the difference between a principle and a law.
 * Explain the difference between a model and a theory.
 
@@ -52,7 +52,7 @@ theory).
 Science consists of the theories and laws that are the general truths of nature
 as well as the body of knowledge they encompass. Scientists are continually
 trying to expand this body of knowledge and to perfect the expression of the
-laws that describe it. **Physics**{: data-type="term" #import-auto-id3095144} is
+laws that describe it. **Physics**{: class="term" #import-auto-id3095144} is
 concerned with describing the interactions of energy, matter, space, and time,
 and it is especially interested in what fundamental mechanisms underlie every
 phenomenon. The concern for describing the basic phenomena in nature essentially
@@ -155,7 +155,7 @@ ideas about how the data may be organized and unified. We then formulate models,
 theories, and laws based on the data we have collected and analyzed to
 generalize and communicate the results of these experiments.
 
-A **model**{: data-type="term" #import-auto-id2607437} is a representation of
+A **model**{: class="term" #import-auto-id2607437} is a representation of
 something that is often too difficult (or impossible) to display directly. While
 a model is justified with experimental proof, it is only accurate under limited
 situations. An example is the planetary model of the atom in which electrons are
@@ -165,7 +165,7 @@ directly, but the mental image helps explain the observations we can make, such
 as the emission of light from hot gases (atomic spectra). Physicists use models
 for a variety of purposes. For example, models can help physicists analyze a
 scenario and perform a calculation, or they can be used to represent a situation
-in the form of a computer simulation. A **theory**{: data-type="term"
+in the form of a computer simulation. A **theory**{: class="term"
 #import-auto-id2786489} is an explanation for patterns in nature that is
 supported by scientific evidence and verified multiple times by various groups
 of researchers. Some theories include models to help visualize phenomena,
@@ -176,7 +176,7 @@ a gas is viewed as being composed of atoms and molecules. Atoms and molecules
 are too small to be observed directly with our senses—thus, we picture them
 mentally to understand what our instruments tell us about the behavior of gases.
 
-A **law**{: data-type="term" #import-auto-id1509407} uses concise language to
+A **law**{: class="term" #import-auto-id1509407} uses concise language to
 describe a generalized pattern in nature that is supported by scientific
 evidence and repeated experiments. Often, a law can be expressed in the form of
 a single mathematical equation. Laws and theories are similar in that they are
@@ -204,8 +204,8 @@ around the nucleus.](../resources/Figure_01_atom.svg "What is a model? This plan
 electrons orbiting the nucleus. It is a drawing that we use to form a mental 
 image of the atom that we cannot see directly with our eyes because it is too small."){: #fs-id1165298745067 height="150"}
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Models, Theories, and Laws
 </div>
 Models, theories, and laws are used to help scientists analyze the data they have
@@ -232,12 +232,12 @@ like the exploration of uncharted ocean. Discoveries are made; models, theories,
 and laws are formulated; and the beauty of the physical universe is made more
 sublime for the insights gained.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 The Scientific Method
 </div>
 As scientists inquire and gather information about the world, they follow a 
-process called the **scientific method**{: data-type="term" #import-auto-id1666405}.
+process called the **scientific method**{: class="term" #import-auto-id1666405}.
 This process typically begins with an observation and question that the scientist
 will research. Next, the scientist typically performs some research about the topic
 and then devises a hypothesis. Then, the scientist will test the hypothesis by
@@ -272,7 +272,7 @@ fields, with physics retaining the most basic facets. (
 See [Figure 10](#import-auto-id3143608), [Figure 11](#import-auto-id2681333),
 and [Figure 12](#import-auto-id2681780).) Physics as it developed from the
 Renaissance to the end of the 19th century is called **classical physics**{:
-data-type="term" #import-auto-id2676866} . It was transformed into modern
+class="term" #import-auto-id2676866} . It was transformed into modern
 physics by revolutionary discoveries made starting at the beginning of the 20th
 century.
 
@@ -301,8 +301,8 @@ an atom with our eyes. New tools, of course, allow us to better picture
 phenomena we cannot see. In fact, new instrumentation has allowed us in recent
 years to actually “picture” the atom. (see [Figure 13](#import-auto-id2990813).)
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Limits on the Laws of Classical Physics
 </div>
 For the laws of classical physics to apply, the following criteria must be met: Matter must be moving at speeds less than about 1% of the speed of light, the objects dealt with must be large enough to be seen with a microscope, and only weak gravitational fields (such as the field generated by the Earth) can be involved.
@@ -323,13 +323,13 @@ an extremely accurate description of the universe under a wide range of everyday
 circumstances, and knowledge of classical physics is necessary to understand
 modern physics.
 
-**Modern physics**{: data-type="term" #import-auto-id2607150} itself consists of
+**Modern physics**{: class="term" #import-auto-id2607150} itself consists of
 the two revolutionary theories, relativity and quantum mechanics. These theories
 deal with the very fast and the very small, respectively.
-**Relativity**{: data-type="term" #import-auto-id1309764} must be used whenever
+**Relativity**{: class="term" #import-auto-id1309764} must be used whenever
 an object is traveling at greater than about 1% of the speed of light or
 experiences a strong gravitational field such as that near the Sun.
-**Quantum mechanics**{: data-type="term" #import-auto-id2992874} must be used
+**Quantum mechanics**{: class="term" #import-auto-id2992874} must be used
 for objects smaller than can be seen with a microscope. The combination of these
 two theories is *relativistic quantum mechanics,* and it describes the behavior
 of small objects traveling at high speeds or experiencing a strong gravitational
@@ -339,30 +339,30 @@ and the other theories are used whenever they will produce sufficiently accurate
 results. We will find, however, that we can do a great deal of modern physics
 with the algebra and trigonometry used in this text.
 
-<div data-type="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
-<div data-type="title">
+<div class="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
+<div class="title">
 Check Your Understanding
 </div>
-<div data-type="problem" markdown="1">
+<div class="problem" markdown="1">
 A friend tells you he has learned about a new law of nature. What can you know about the information even before your friend describes the law?
 How would the information be different if your friend told you he had learned about a scientific theory rather than a law?
 
 </div>
-<div data-type="solution" data-print-placement="here" markdown="1">
+<div class="solution" data-print-placement="here" markdown="1">
 Without knowing the details of the law, you can still infer that the information your friend has learned conforms to the requirements of all laws of nature: it will be a concise description of the universe around us; a statement of the underlying rules that all natural processes follow. If the information had been a theory, you would be able to infer that the information will be a large-scale, broadly applicable generalization.
 
 </div>
 </div>
 
-<div data-type="note" data-has-label="true" id="eip-607" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" id="eip-607" data-label="" markdown="1">
+<div class="title">
 PhET Explorations: Graphing Quadratics
 </div>
 Learn about graphing polynomials. The shape of the curve changes as the
 constants are adjusted. View the curves for the individual terms (e.g. $$ y=b x $$) to see how they add to generate the polynomial curve.
 
 <figure markdown="1" id="eip-id2758870">
-<div data-type="phet">
+<div class="phet">
 <iframe src="https://phet.colorado.
 edu/sims/html/graphing-quadratics/latest/graphing-quadratics_en.html"
 width="600" height="450"  allowfullscreen></iframe>
@@ -385,73 +385,73 @@ Graphing Quadratics
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Models are particularly useful in relativity and quantum mechanics, where conditions are outside those normally encountered by humans. What is a model?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 How does a model differ from a theory?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 If two different theories describe experimental observations equally well, can one be said to be more valid than the other (assuming both use accepted rules of logic)?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 What determines the validity of a theory?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Certain criteria must be satisfied if a measurement or observation is to be believed. Will the criteria necessarily be as strict for an expected result as for an unexpected result?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Can the validity of a model be limited, or must it be universally valid? How does this compare to the required validity of a theory or a law?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Classical physics is a good approximation to modern physics under certain circumstances. What are they?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 When is it **necessary** to use relativistic quantum mechanics?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Can classical physics be used to accurately describe a satellite moving at a speed of 7500 m/s? Explain why or why not.
 
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 classical physics
 : physics that was developed from the Renaissance to the end of the 19th century

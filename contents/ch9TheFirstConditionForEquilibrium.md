@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * State the first condition of equilibrium.
 * Explain static equilibrium.
 * Explain dynamic equilibrium.
@@ -15,7 +15,7 @@ The first condition necessary to achieve equilibrium is the one already
 mentioned: the net external force on the system must be zero. Expressed as an
 equation, this is simply
 
-<div data-type="equation" id="eip-6">
+<div class="equation" id="eip-6">
  $$ \text{net}\vb{F}=0 $$
 </div>
 
@@ -23,15 +23,15 @@ Note that if net $$ F $$ is zero, then the net external force in **any**
 direction is zero. For example, the net external forces along the typical *x*-
 and *y*-axes are zero. This is written as
 
-<div data-type="equation" id="eip-180">
+<div class="equation" id="eip-180">
  $$ \text{net}F_{x}=0\text{ and }F_{y}=0 $$
 </div>
 
 [[Figure]](#import-auto-id1164400876993)
 and [[Figure]](#import-auto-id1164400872520) illustrate situations where $$
-\text{net}F=0 $$ for both **static equilibrium**{: data-type="term"
+\text{net}F=0 $$ for both **static equilibrium**{: class="term"
 #import-auto-id1164400876972} (motionless), and **dynamic equilibrium**{:
-data-type="term" #import-auto-id1164400876975}
+class="term" #import-auto-id1164400876975}
 (constant velocity).
 
 ![In the figure, a stationary man is standing on the ground. His feet are at a distance apart. His hands are at his waist. The left side is labeled as net F is equal to zero. At the right side a free body diagram is shown with one point and two arrows, one vertically upward labeled as N and another vertically downward labeled as W, from the point.](../resources/Figure_10_01_01a.jpg "This motionless person is in static equilibrium. The forces acting on him add up to zero. Both forces are vertical in this case.")
@@ -60,8 +60,8 @@ next section.
 ![A hockey stick is shown. The two force vectors acting on the hockey stick are shown, one pointing to the right and the other to the left. The lines of action of the two forces are different. Each vector is labeled as F. At the top and the bottom of the stick there are two circular arrows, showing the clockwise direction of the rotation. At the lower right side the free body diagram, a point with two horizontal vectors, each labeled F and directed away from the point, is shown.](../resources/Figure_10_01_04a.jpg "The same forces are applied at other points and the stick rotates&#x2014;in fact, it experiences an accelerated rotation. Here \( \text{net }F=0 \) but the system is not at equilibrium. Hence, the \( \text{net }F=0 \) is a necessary&#x2014;but not sufficient&#x2014;condition for achieving equilibrium.")
 {: #import-auto-id1164400867302}
 
-<div data-type="note" data-has-label="true" id="eip-522" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" id="eip-522" data-label="" markdown="1">
+<div class="title">
 PhET Explorations: Torque
 </div>
 Investigate how torque causes an object to rotate. Discover the relationships between angular acceleration, moment of inertia, angular momentum and torque.
@@ -89,24 +89,24 @@ allowfullscreen></iframe>
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 What can you say about the velocity of a moving body that is in dynamic equilibrium? Draw a sketch of such a body using clearly labeled arrows to represent all external forces on the body.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Under what conditions can a rotating body be in equilibrium? Give an example.
 
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 static equilibrium
 : a state of equilibrium in which the net external force and torque acting on a

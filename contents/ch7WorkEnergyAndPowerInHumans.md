@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Explain the human body’s consumption of energy when at rest vs. when engaged in activities that do useful work.
 * Calculate the conversion of chemical energy in food into useful work.
 
@@ -26,9 +26,9 @@ body fat.
 ### Power Consumed at Rest
 
 The *rate* at which the body uses food energy to sustain life and to do
-different activities is called the **metabolic rate**{: data-type="term"
+different activities is called the **metabolic rate**{: class="term"
 #import-auto-id1143113}. The total energy conversion rate of a person *at rest*
-is called the **basal metabolic rate**{: data-type="term"
+is called the **basal metabolic rate**{: class="term"
 #import-auto-id2859421} (BMR) and is divided among various systems in the body,
 as shown in [[Figure]](#import-auto-id2209139). The largest fraction goes to the
 liver and spleen, with the brain coming next. Of course, during vigorous
@@ -61,7 +61,7 @@ rates (power expended) for a variety of activities.
 
 ### Power of Doing Useful Work
 
-Work done by a person is sometimes called **useful work**{: data-type="term"
+Work done by a person is sometimes called **useful work**{: class="term"
 #import-auto-id2048124}, which is *work done on the outside world*, such as
 lifting weights. Useful work requires a force exerted through a distance on the
 outside world, and so it excludes internal work, such as that done by the heart
@@ -79,8 +79,8 @@ be helpful in losing fat. However, the amount of exercise needed to produce a
 loss in fat, or to burn off extra calories consumed that day, can be large,
 as [[Figure]](#fs-id1636481) illustrates.
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating Weight Loss from Exercising
 </div>
 If a person who normally requires an average of 12 000 kJ (3000 kcal) of food energy per day consumes 13 000 kJ per day, he will steadily gain weight. How much bicycling per day is required to work off this extra 1000 kJ?
@@ -90,7 +90,7 @@ If a person who normally requires an average of 12 000 kJ (3000 kcal) of food en
 [[Figure]](#import-auto-id1921441) states that 400 W are used when cycling at a
 moderate speed. The time required to work off 1000 kJ at this rate is then
 
-<div data-type="equation" id="import-auto-id2091839">
+<div class="equation" id="import-auto-id2091839">
  $$ \text{Time}=\frac{ \text{energy}}{\left(\frac{ \text{energy}}{\text{time}}\right)}=\frac{1000 \text{kJ}}{400 \text{W}}=2500 \s  =42 \text{min.} $$
 </div>
 
@@ -100,7 +100,7 @@ If this person uses more energy than they consume, the person’s body will
 obtain the needed energy by metabolizing body fat. If the person uses 13 000 kJ
 but consumes only 12 000 kJ, then the amount of fat loss will be
 
-<div data-type="equation" id="import-auto-id1468507">
+<div class="equation" id="import-auto-id1468507">
  $$ \text{Fat loss}=\left(1000 \text{kJ}\right)\left(\frac{1.0 \text{g fat}}{39 \text{kJ}}\right)=26\text{g,} $$
 </div>
 assuming the energy content of fat to be 39 kJ/g.
@@ -167,31 +167,31 @@ fat production.
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Explain why it is easier to climb a mountain on a zigzag path rather than one straight up the side. Is your increase in
 gravitational potential energy the same in both cases? Is your energy consumption the same in both?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Do you do work on the outside world when you rub your hands together to warm them?
 What is the efficiency of this activity?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Shivering is an involuntary response to lowered body temperature. What is the efficiency of the body when shivering, and is this a desirable value?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Discuss the relative effectiveness of dieting and exercise in losing weight,
 noting that most athletic activities consume food energy at a rate of 400 to 500 W,
 while a single cup of yogurt can contain 1360 kJ (325 kcal). Specifically, is it likely that
@@ -202,13 +202,13 @@ exercise alone will be sufficient to lose weight? You may wish to consider that 
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) How long can you rapidly climb stairs (116/min) on the 93.0 kcal of energy in a 10.0-g pat of butter?
 (b) How many flights is this if each flight has 16 stairs?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 9.5 min
 
 (b) 69 flights of stairs
@@ -216,16 +216,16 @@ exercise alone will be sufficient to lose weight? You may wish to consider that 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) What is the power output in watts and horsepower of a 70.0-kg sprinter who accelerates from rest to 10.0 m/s in 3.00 s?
 (b) Considering the amount of power generated, do you think a well-trained athlete could do this repetitively for long periods of time?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Calculate the power output in watts and horsepower of a shot-putter who takes 1.20 s to accelerate
 the 7.27-kg shot from rest to 14.0 m/s, while raising it 0.800 m. (Do not include the power produced to accelerate his body.)
 
@@ -233,14 +233,14 @@ the 7.27-kg shot from rest to 14.0 m/s, while raising it 0.800 m. (Do not includ
 {: #import-auto-id1907482}
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 641 W, 0.860 hp
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) What is the efficiency of an out-of-condition professor who does $$ 2.10\times 10^{5} \J $$ of useful work while metabolizing 500 kcal of food energy?
 (b) How many food calories would a well-conditioned athlete metabolize in doing the same work with
 an efficiency of 20%?
@@ -248,37 +248,37 @@ an efficiency of 20%?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Energy that is not utilized for work or heat transfer is converted to the chemical energy of body fat containing about 39 kJ/g. How many grams of fat will you gain if you eat 10 000 kJ (about 2500 kcal) one day and do nothing but sit relaxed for 16.0 h and sleep for the other 8.00 h? Use data from [[Figure]](#import-auto-id1921441) for the energy consumption rates of these activities.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 31 g
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Using data from [[Figure]](#import-auto-id1921441), calculate the daily energy needs of a person who sleeps for 7.00 h, walks for 2.00 h, attends classes for 4.00 h, cycles for 2.00 h, sits relaxed for 3.00 h, and studies for 6.00 h. (Studying consumes energy at the same rate as sitting in class.)
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 What is the efficiency of a subject on a treadmill who puts out work at the rate of 100 W while consuming oxygen at the rate of 2.00 L/min? (Hint: See [[Figure]](#import-auto-id1921441).)
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 14.3%
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Shoveling snow can be extremely taxing because the arms have such a low efficiency in this activity. Suppose a person shoveling a footpath metabolizes food at the rate of 800 W.
 (a) What is her useful power output?
 (b) How long will it take her to lift 3000 kg of snow 1.20 m? (This could be the amount of heavy snow on 20 m of footpath.) (c) How much waste heat transfer in kilojoules will she generate in the process?
@@ -286,15 +286,15 @@ Shoveling snow can be extremely taxing because the arms have such a low efficien
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Very large forces are produced in joints when a person jumps from some height to the ground.
 (a) Calculate the magnitude of the force produced if an 80.0-kg person jumps from a 0.600–m-high ledge and lands stiffly, compressing joint material 1.50 cm as a result. (Be certain to include the weight of the person.)
 (b) In practice the knees bend almost involuntarily to help extend the distance over which you stop. Calculate the magnitude of the force produced if the stopping distance is 0.300 m.
 (c) Compare both forces with the weight of the person.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 3.21\times 10^{4}\N $$
 
 (b) $$ 2.35\times 10^{3}\N  $$
@@ -304,8 +304,8 @@ Very large forces are produced in joints when a person jumps from some height to
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Jogging on hard surfaces with insufficiently padded shoes produces large forces in the feet and legs.
 (a) Calculate the magnitude of the force needed to stop the downward motion of a jogger’s leg, if his leg has a mass of 13.0 kg, a speed of 6.00 m/s, and stops in a distance of 1.50 cm. (Be certain to include the weight of the 75.0-kg jogger’s body.)
 (b) Compare this force with the weight of the jogger.
@@ -313,13 +313,13 @@ Jogging on hard surfaces with insufficiently padded shoes produces large forces 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) Calculate the energy in kJ used by a 55.0-kg woman who does 50 deep knee bends in which her center of mass is lowered and raised 0.400 m. (She does work in both directions.) You may assume her efficiency is 20%.
 (b) What is the average power consumption rate in watts if she does this in 3.00 min?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 108 kJ
 
 (b) 599 W
@@ -327,8 +327,8 @@ Jogging on hard surfaces with insufficiently padded shoes produces large forces 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Kanellos Kanellopoulos flew 119 km from Crete to Santorini, Greece, on April 23, 1988, in the *Daedalus 88*, an aircraft
 powered by a bicycle-type drive mechanism (see [[Figure]](#import-auto-id2181552)). His useful power output for
 the 234-min trip was about 350 W. Using the efficiency for cycling from [[Figure]](../contents/ch7ConservationOfEnergy.md#import-auto-id1330125),
@@ -340,8 +340,8 @@ calculate the food energy in kilojoules he metabolized during the flight.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 The swimmer shown in [[Figure]](#import-auto-id1412118) exerts an average horizontal backward force of 80.0 N with his arm during each 1.80 m long stroke.
 (a) What is his work output in each stroke?
 (b) Calculate the power output of his arms if he does 120 strokes per minute.
@@ -350,7 +350,7 @@ The swimmer shown in [[Figure]](#import-auto-id1412118) exerts an average horizo
 {: #import-auto-id1412118}
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 144 J
 
 (b) 288 W
@@ -358,8 +358,8 @@ The swimmer shown in [[Figure]](#import-auto-id1412118) exerts an average horizo
 </div>
 </div>
 
-<div data-type="exercise" id="eip-367" data-element-type="problems-exercises">
-<div data-type="problem" id="eip-349" markdown="1">
+<div class="exercise" id="eip-367" data-element-type="problems-exercises">
+<div class="problem" id="eip-349" markdown="1">
 Mountain climbers carry bottled oxygen when at very high altitudes.
 (a) Assuming that a mountain climber uses oxygen at twice the rate for climbing 116 stairs per minute (because of low air temperature and winds), calculate how many liters of oxygen a climber would need for 10.0 h of climbing. (These are liters at sea level.) Note that only 40% of the inhaled oxygen is utilized; the rest is exhaled.
 (b) How much useful work does the climber do if he and his equipment have a mass of 90.0 kg and he gains 1000 m of altitude?
@@ -368,8 +368,8 @@ Mountain climbers carry bottled oxygen when at very high altitudes.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 The awe-inspiring Great Pyramid of Cheops was built more than 4500 years ago. Its square base, originally 230 m on a side, covered 13.1 acres, and it was 146 m high, with a mass of about $$ 7\times 10^{9}\kg $$. (The pyramid’s dimensions are slightly different today due to quarrying and
 some sagging.) Historians estimate that 20 000 workers spent 20 years to
 construct it, working 12-hour days, 330 days per year.
@@ -392,7 +392,7 @@ the mass of bulk and nondigestible materials consumed.)
 {: #import-auto-id1499612}
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 2.50\times 10^{12} \J $$
 
 (b) 2.52%
@@ -403,18 +403,18 @@ the mass of bulk and nondigestible materials consumed.)
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) How long can you play tennis on the 800 kJ (about 200 kcal) of energy in a candy bar?
 (b) Does this seem like a long time? Discuss why exercise is necessary but may not be sufficient to cause a person to lose weight.
 
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 {: #import-auto-id2189188} metabolic rate
 : the rate at which the body uses food energy to sustain life and to do
