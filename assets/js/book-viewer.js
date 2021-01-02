@@ -38,9 +38,6 @@
         BookConfig.serverAddsTrailingSlash = false;
     }
 
-    if (BookConfig.searchIndex == null) {
-        BookConfig.searchIndex = null;
-    }
 
     if (BookConfig.contributeUrl == null) {
         BookConfig.contributeUrl = null;
@@ -104,9 +101,6 @@
         $bookTitle = $book.find('.book-title');
         $bookProgressBar = $book.find('.book-progress .bar .inner');
         $toggleSummary.on('click', function (evt) {
-            if ($book.hasClass('with-summary')) {
-                $book.removeClass('with-search');
-            }
             $book.toggleClass('with-summary');
             return evt.preventDefault();
         });
