@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Describe the right-hand rule to find the direction of angular velocity, momentum, and torque.
 * Explain the gyroscopic effect.
 * Study how Earth acts like a gigantic gyroscope.
@@ -15,7 +15,7 @@ Angular momentum is a vector and, therefore, *has direction as well as
 magnitude*. Torque affects both the direction and the magnitude of angular
 momentum. What is the direction of the angular momentum of a rotating object
 like the disk in [[Figure]](#import-auto-id1549167)? The figure shows the
-**right-hand rule**{: data-type="term" #import-auto-id3008939} used to find the
+**right-hand rule**{: class="term" #import-auto-id3008939} used to find the
 direction of both angular momentum and angular velocity. Both $$
 \vb{L} $$ and $$ \vb{\omega} $$ are vectors—each has direction
 and magnitude. Both can be represented by arrows. The right-hand rule defines
@@ -39,7 +39,7 @@ the direction in which the thumb of your right hand points when you curl your fi
 
 Now, recall that torque changes angular momentum as expressed by
 
-<div data-type="equation" id="eip-1000">
+<div class="equation" id="eip-1000">
  $$ \text{net} \vb{\tau}=\frac{ \Delta \vb{L}}{\Delta t}. $$
 </div>
 
@@ -88,15 +88,15 @@ nonspherical shape.
 ![In figure a, the gyroscope is rotating in counter clockwise direction. The weight of the gyroscope is acting downward. The supportive force is acting at the base. The line of action of the weight and supportive force are different. The torque is acting along the radius of the horizontal circular part of gyroscope. In figure b, the two vectors L and L plus delta L are shown. The vectors start from a point at the bottom of the figure and terminate at two points on a horizontal dotted circle, directed in counter clockwise direction, at the top of the figure. Another vector delta L starts from the head of vector L and terminates at the head of vector L plus delta L.](../resources/Figure_11_07_04a.jpg "As seen in figure (a), the forces on a spinning gyroscope are its weight and the supporting force from the stand. These forces create a horizontal torque on the gyroscope, which create a change in angular momentum \( \Delta  L \)  that is also horizontal. In figure (b), \( \Delta L \)  and \( L  \)  add to produce a new angular momentum with the same magnitude, but different direction, so that the gyroscope precesses in the direction shown instead of falling over.")
 {: #import-auto-id1462916}
 
-<div data-type="exercise" data-element-type="check-understanding" data-label="">
-<div data-type="title">
+<div class="exercise" data-element-type="check-understanding" data-label="">
+<div class="title">
 Check Your Understanding
 </div>
-<div data-type="problem" markdown="1">
+<div class="problem" markdown="1">
 Rotational kinetic energy is associated with angular momentum? Does that mean that rotational kinetic energy is a vector?
 
 </div>
-<div data-type="solution" data-print-placement="here" markdown="1">
+<div class="solution" data-print-placement="here" markdown="1">
 No, energy is always a scalar whether motion is involved or not. No form of energy has a direction in space and you can see that rotational kinetic energy does not depend on the direction of motion just as linear kinetic energy is independent of the direction of motion.
 
 </div>
@@ -120,15 +120,15 @@ No, energy is always a scalar whether motion is involved or not. No form of ener
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 While driving his motorcycle at highway speed, a physics student notices that pulling back lightly on the right handlebar tips the cycle to the left and produces a left turn. Explain why this happens.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Gyroscopes used in guidance systems to indicate directions in space must have an angular momentum that does not change in direction. Yet they are often subjected to large forces and accelerations. How can the direction of their angular momentum be constant when they are accelerated?
 
 </div>
@@ -136,8 +136,8 @@ Gyroscopes used in guidance systems to indicate directions in space must have an
 
 ### Problem Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Integrated Concepts**
 
@@ -156,7 +156,7 @@ effective point on the equator, what would its magnitude be?
 {: #import-auto-id1403686 height="250"}
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 5.64 \times 10^{33}\kg \cdot  \mms $$
 
 (b) $$ 1.39 \times 10^{22}\N \cdot \m  $$
@@ -165,10 +165,10 @@ effective point on the equator, what would its magnitude be?
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 right-hand rule
 : direction of angular velocity ω and angular momentum L in which the thumb of

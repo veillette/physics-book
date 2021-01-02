@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Discuss the inertial frame of reference.
 * Discuss the non-inertial frame of reference.
 * Describe the effects of the Coriolis force.
@@ -36,10 +36,10 @@ because it is very nearly an inertial frame of reference—one in which all forc
 are real (that is, in which all forces have an identifiable physical origin). In
 such a frame of reference, Newton’s laws of motion take the form given
 in [Dynamics: Newton\'s Laws of Motion](../contents/ch4Dynamics.md) The car is a
-**non-inertial frame of reference**{: data-type="term" #import-auto-id2692430}
+**non-inertial frame of reference**{: class="term" #import-auto-id2692430}
 because it is accelerated to the side. The force
 to the left sensed by car passengers is a
-**fictitious force**{: data-type="term" #import-auto-id647624}
+**fictitious force**{: class="term" #import-auto-id647624}
 having no physical origin. There is nothing real
 pushing them left—the car, as well as the driver, is actually accelerating to
 the right.
@@ -48,7 +48,7 @@ Let us now take a mental ride on a merry-go-round—specifically, a rapidly
 rotating playground merry-go-round. You take the merry-go-round to be your frame
 of reference because you rotate together. In that non-inertial frame, you feel a
 fictitious force, named
-**centrifugal force**{: data-type="term" #import-auto-id1507173}
+**centrifugal force**{: class="term" #import-auto-id1507173}
 not to be confused with centripetal force, trying to throw you off. You must hang on tightly to counteract the
 centrifugal force. In Earth’s frame of reference, there is no force trying to
 throw you off. Rather you must hang on to make yourself go in a circle because
@@ -96,7 +96,7 @@ path curved to the right on the merry-go-round’s surface. A person standing ne
 to the merry-go-round sees the ball moving straight and the merry-go-round
 rotating underneath it. In the merry-go-round’s frame of reference, we explain
 the apparent curve to the right by using a fictitious force, called the
-**Coriolis force**{: data-type="term" #import-auto-id2045471}, that causes the
+**Coriolis force**{: class="term" #import-auto-id2045471}, that causes the
 ball to curve to the right. The fictitious Coriolis force can be used by anyone
 in that frame of reference to explain why objects follow curved paths and allows
 us to apply Newton’s Laws in non-inertial frames of reference.
@@ -158,52 +158,52 @@ explanations.
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 When a toilet is flushed or a sink is drained, the water (and other material) begins to rotate about the drain on the way down. Assuming no initial rotation and a flow initially directly straight toward the drain, explain what causes the rotation and which direction it has in the northern hemisphere. (Note that this is a small effect and in most toilets the rotation is caused by directional water jets.) Would the direction of rotation reverse if water were forced up the drain?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Is there a real force that throws water from clothes during the spin cycle of a washing machine? Explain how the water is removed.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 In one amusement park ride, riders enter a large vertical barrel and stand against the wall on its horizontal floor. The barrel is spun up and the floor drops away. Riders feel as if they are pinned to the wall by a force something like the gravitational force. This is a fictitious force sensed and used by the riders to explain events in the rotating frame of reference of the barrel. Explain in an inertial frame of reference (Earth is nearly one) what pins the riders to the wall, and identify all of the real forces acting on them.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Action at a distance, such as is the case for gravity, was once thought to be illogical and therefore untrue. What is the ultimate determinant of the truth in physics, and why was this action ultimately accepted?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Two friends are having a conversation. Anna says a satellite in orbit is in freefall because the satellite keeps falling toward Earth. Tom says a satellite in orbit is not in freefall because the acceleration due to gravity is not 9.80 $$ \mss $$. Who do you agree with and why?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 A non-rotating frame of reference placed at the center of the Sun is very nearly an inertial one. Why is it not exactly an inertial frame?
 
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 fictitious force
 : a force having no physical origin

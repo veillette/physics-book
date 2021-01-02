@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Express mathematically the drag force.
 * Discuss the applications of drag force.
 * Define terminal velocity.
@@ -18,7 +18,7 @@ when you move your hand through water. You might also feel it if you move your
 hand during a strong wind. The faster you move your hand, the harder it is to
 move. You feel a smaller drag force when you tilt your hand so only the side
 goes through the air—you have decreased the area of your hand that faces the
-direction of motion. Like friction, the **drag force**{: data-type="term"
+direction of motion. Like friction, the **drag force**{: class="term"
 #import-auto-id1165298930276} always opposes the motion of an object. Unlike
 simple friction, the drag force is proportional to some function of the velocity
 of the object in that fluid. This functionality is complicated and depends upon
@@ -29,7 +29,7 @@ proportional to the square of the speed of the object. We can write this
 relationship mathematically as $$ F_{\text{D}}\propto v^{2} $$.
 When taking into account other factors, this relationship becomes
 
-<div data-type="equation" id="eip-871">
+<div class="equation" id="eip-871">
 $$ F_{\text{D}}=\frac{1}{2}C \rho A v^{2}, $$
 </div>
 
@@ -43,18 +43,18 @@ air, the magnitude of the drag force is proportional to the square of the speed.
 As we shall see in a few pages on fluid dynamics, for small particles moving at
 low speeds in a fluid, the exponent is equal to 1.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Drag Force
 </div>
 Drag force $$ F_{\text{D}} $$
 is found to be proportional to the square of the speed of the object.
 Mathematically
 
-<div data-type="equation" id="eip-4">
+<div class="equation" id="eip-4">
 $$ F_{\text{D}}\propto v^{2} $$
 </div>
-<div data-type="equation" id="eip-833">
+<div class="equation" id="eip-833">
 $$ F_{\text{D}}=\frac{1}{2} C \rho A v^{2}, $$
 </div>
 where $$ C $$ is the drag coefficient,
@@ -145,25 +145,25 @@ quantitatively.
 
 At the terminal velocity,
 
-<div data-type="equation" id="eip-303">
+<div class="equation" id="eip-303">
 $$ F_{\text{net}}=mg -F_{\text{D}}=ma =0 . $$
 </div>
 
 Thus,
 
-<div data-type="equation" id="eip-38">
+<div class="equation" id="eip-38">
  $$ mg =F_{\text{D}}. $$
 </div>
 
 Using the equation for drag force, we have
 
-<div data-type="equation" id="eip-19">
+<div class="equation" id="eip-19">
  $$ mg =\frac{1}{2}\rho C Av^{2}. $$
 </div>
 
 Solving for the velocity, we obtain
 
-<div data-type="equation" id="eip-545">
+<div class="equation" id="eip-545">
  $$ v=\sqrt{\frac{2mg }{\rho CA}}. $$
 </div>
 
@@ -171,7 +171,7 @@ Assume the density of air is $$ \rho =1.21 \text{kg/m}^{3} $$. A 75-kg skydiver
 descending head first will have an area approximately $$ A=0.18 \mm $$
 and a drag coefficient of approximately $$ C=0.70 $$. We find that
 
-<div data-type="equation" id="eip-981">
+<div class="equation" id="eip-981">
  $$ \begin{array}{lll}
 v& =& \sqrt{\frac{2\left(75 \kg \right)\left(9.80 \mss \right)}{\left(1.21 \kg/\m^{3}\right)\left(0.70\right)\left(0.18 \mm\right)}}\\
  & =& 98 \ms \\
@@ -185,8 +185,8 @@ the area and his drag. In a spread-eagle position, that terminal velocity may
 decrease to about 200 km/h as the area increases. This terminal velocity becomes
 much smaller after the parachute opens.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Take-Home Experiment
 </div>
 This interesting activity examines the effect of weight upon terminal velocity.
@@ -199,8 +199,8 @@ Which of these relationships is more linear? What can you conclude from these gr
 
 </div>
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 A Terminal Velocity
 </div>
 Find the terminal velocity of an 85-kg skydiver falling in a spread-eagle position.
@@ -213,7 +213,7 @@ drag force, we find $$ mg =\frac{1}{2}\rho C A v^{2} $$.
 
 Thus the terminal velocity $$ v_{t} $$ can be written as
 
-<div data-type="equation" id="eip-306">
+<div class="equation" id="eip-306">
  $$ v_{\text{t}}=\sqrt{\frac{2mg }{\rho C A}}. $$
 </div>
 
@@ -222,12 +222,12 @@ Thus the terminal velocity $$ v_{t} $$ can be written as
 All quantities are known except the person’s projected area. This is an adult
 (85 kg) falling spread eagle. We can estimate the frontal area as
 
-<div data-type="equation" id="eip-769">
+<div class="equation" id="eip-769">
  $$ A=\left(2 \m \right)\left(0.35 \m \right)=0.70 \mm . $$
 </div>
 Using our equation for $$ v_{\text{t}} $$, we find that
 
-<div data-type="equation" id="eip-656">
+<div class="equation" id="eip-656">
  $$ \begin{array}{lll}
 v_{\text{t}}& =& \sqrt{\frac{2\left(85\kg \right)\left(9.80\mss \right)}{\left(1.21\text{kg/m}^{3}\right)
 \left(1.0\right)\left(0.70 \mm\right)}}\\
@@ -267,21 +267,21 @@ times greater than the driving force.*
 The above quadratic dependence of air drag upon velocity does not hold if the
 object is very small, is going very slow, or is in a denser medium than air.
 Then we find that the drag force is proportional just to the velocity. This
-relationship is given by **Stokes’ law**{: data-type="term"
+relationship is given by **Stokes’ law**{: class="term"
 #import-auto-id1165298672873}, which states that
 
-<div data-type="equation" id="eip-798">
+<div class="equation" id="eip-798">
 $$ F_{\s}=6 \pi r\eta v, $$
 </div>
 
 where $$ r $$ is the radius of the object, $$ \eta $$ is the viscosity of the
 fluid, and $$ v $$ is the object’s velocity.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Stokes’ Law
 </div>
-<div data-type="equation" id="eip-271">
+<div class="equation" id="eip-271">
 $$ F_{\s}=6 \pi r\eta v, $$
 </div>
 where $$ r $$ is the radius of the object,
@@ -312,8 +312,8 @@ efficient in their use of energy.
 ![Geese flying across the sky in a V formation.](../resources/Figure_06_02_06a.jpg "Geese fly in a V formation during their long migratory travels. This shape reduces drag and energy consumption for individual birds, and also allows them a better way to communicate. (credit: Julo, Wikimedia Commons)")
 {: #import-auto-id1165298645387}
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Galileo’s Experiment
 </div>
 Galileo is said to have dropped two objects of different masses from the Tower of Pisa.
@@ -324,14 +324,14 @@ have observed? Would this result be different if done on the Moon?
 
 </div>
 
-<div data-type="note" data-has-label="true" id="eip-418" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" id="eip-418" data-label="" markdown="1">
+<div class="title">
 PhET Explorations: Masses &amp; Springs
 </div>
 A realistic mass and spring laboratory. Hang masses from springs and adjust the spring stiffness and damping. You can even slow time. Transport the lab to different planets. A chart shows the kinetic, potential, and thermal energy for each spring.
 
 <figure markdown="1" id="eip-id1697922">
-<div data-type="phet">
+<div class="phet">
 <iframe src="https://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 Masses and Springs
@@ -345,7 +345,7 @@ Masses and Springs
 * {: #import-auto-id1165298595649} Drag forces acting on an object moving in a
   fluid oppose the motion. For larger objects (such as a baseball) moving at a
   velocity $$ v $$ in air, the drag force is given by
-  <div data-type="equation" id="eip-233">
+  <div class="equation" id="eip-233">
  $$ F_{\text{D}}=\frac{1}{2}C\rho Av^{2}, $$
   </div>
 
@@ -355,7 +355,7 @@ Masses and Springs
 * {: #import-auto-id1165298748357} For small objects (such as a bacterium)
   moving in a denser medium (such as water), the drag force is given by Stokes’
   law,
-  <div data-type="equation" id="eip-307">
+  <div class="equation" id="eip-307">
  $$ F_{\s}=6 \pi r \eta v , $$
   </div>
 
@@ -364,16 +364,16 @@ Masses and Springs
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Athletes such as swimmers and bicyclists wear body suits in competition.
 Formulate a list of pros and cons of such suits.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Two expressions were used for the drag force experienced by a moving object in a liquid.
 One depended upon the speed, while the other was proportional to the square of the speed.
 In which types of motion would each of these expressions be more applicable than the other one?
@@ -381,8 +381,8 @@ In which types of motion would each of these expressions be more applicable than
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 As cars travel, oil and gasoline leaks onto the road surface.
 If a light rain falls, what does this do to the control of the car?
 Does a heavy rain make any difference?
@@ -390,8 +390,8 @@ Does a heavy rain make any difference?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Why can a squirrel jump from a tree branch to the ground and run away undamaged,
 while a human could break a bone in such a fall?
 
@@ -400,22 +400,22 @@ while a human could break a bone in such a fall?
 
 ### Problems &amp; Exercise
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 The terminal velocity of a person falling in air depends upon the weight and the
 area of the person facing the fluid. Find the terminal velocity (in meters per
 second and kilometers per hour) of an 80.0-kg skydiver falling in a pike
 (headfirst) position with a surface area of $$ 0.140 \mm $$.
 
 </div>
-<div data-type="solution" id="eip-id1170075023622" markdown="1">
+<div class="solution" id="eip-id1170075023622" markdown="1">
  $$115 \ms ; 414 \text{km/hr} $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 A 60-kg and a 90-kg skydiver jump from an airplane at an altitude of 6000 m,
 both falling in the pike position. Make some assumption on their frontal areas
 and calculate their terminal velocities. How long will it take for each skydiver
@@ -425,8 +425,8 @@ Assume all values are accurate to three significant digits.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 A 560-g squirrel with a surface area of $$ 930 \text{cm}^{2} $$
 falls from a 5.0-m tree to the ground. Estimate its terminal velocity. (Use a
 drag coefficient for a horizontal skydiver.) What will be the velocity of a
@@ -434,14 +434,14 @@ drag coefficient for a horizontal skydiver.) What will be the velocity of a
 distance?
 
 </div>
-<div data-type="solution" id="eip-id1170075018299" markdown="1">
+<div class="solution" id="eip-id1170075018299" markdown="1">
  $$ 25 \ms ;  9.9 \ms $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 To maintain a constant speed, the force provided by a car’s engine must equal the
 drag force plus the force of friction of the road (the rolling resistance).
 (a) What are the magnitudes of drag forces at 70 km/h and 100 km/h for a Toyota
@@ -454,19 +454,19 @@ Assume all values are accurate to three significant digits.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 By what factor does the drag force on a car increase as it goes from 65 to 110 km/h?
 
 </div>
-<div data-type="solution" id="eip-id1626548" markdown="1">
+<div class="solution" id="eip-id1626548" markdown="1">
  $$ 2.9 $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 Calculate the speed a spherical rain drop would achieve falling from 5.00 km
 (a) in the absence of air drag
 (b) with air drag. Take the size across of the drop to be 4 mm, the density to be
@@ -475,13 +475,13 @@ $$ 1.00\times 10^{3}{\text{kg/m}}^{3} $$, and the surface area to be $$ \pi r^{2
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 Using Stokes’ law, verify that the units for viscosity are kilograms per meter per second.
 
 </div>
-<div data-type="solution" id="eip-id1351403">
-<div data-type="equation" id="eip-id1168951431445">
+<div class="solution" id="eip-id1351403">
+<div class="equation" id="eip-id1168951431445">
  $$ \left[\eta \right]=\frac{ \left[F_{\s}\right]}{\left[r\right]\left[v\right]}
 =\frac{ \kg \cdot \mss }{\m \cdot \ms }
 =\frac{ \kg }{\m \cdot \s } $$
@@ -489,8 +489,8 @@ Using Stokes’ law, verify that the units for viscosity are kilograms per meter
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 Find the terminal velocity of a spherical bacterium (diameter $$ 2.00 \mu m $$ )
 falling in water. You will first need to note that the drag force is equal to
 the weight at terminal velocity. Take the density of the bacterium to be
@@ -499,8 +499,8 @@ $$ 1.10\times 10^{3} \text{kg/m}^{3} $$.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problem-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problem-exercises">
+<div class="problem" markdown="1">
 Stokes’ law describes sedimentation of particles in liquids and can be used
 to measure viscosity. Particles in liquids achieve terminal velocity quickly.
 One can measure the time it takes for a particle to fall a certain distance and
@@ -510,25 +510,25 @@ $$ 3.0 \text{mm} $$) is dropped in a container of motor oil.
 It takes 12 s to fall a distance of 0.60 m. Calculate the viscosity of the oil.
 
 </div>
-<div data-type="solution" id="eip-id1586160" markdown="1">
+<div class="solution" id="eip-id1586160" markdown="1">
  $$ 0.76 \text{kg/m}\cdot \s $$
 
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 drag force
 : $$ F_{\text{D}} $$, found to be proportional to the square of the speed of the
 object; mathematically
-  <div data-type="equation">
+  <div class="equation">
  $$ F_{\text{D}}\propto {v}^{2} $$
   </div>
 
-  <div data-type="equation">
+  <div class="equation">
  $$ F_{\text{D}}=\frac{1}{2} C\rho Av^{2}, $$
   </div>
 

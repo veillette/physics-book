@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Define position, displacement, distance, and distance traveled.
 * Explain the relationship between position and displacement.
 * Distinguish between displacement and distance traveled.
@@ -18,7 +18,7 @@ layout: page
 ### Position
 
 In order to describe the motion of an object, you must first be able to describe
-its **position**{: data-type="term"} —where it is at any particular time. More
+its **position**{: class="term"} —where it is at any particular time. More
 precisely, you need to specify its position relative to a convenient reference
 frame. Earth is often used as a reference frame, and we often describe the
 position of an object as it relates to stationary objects in that reference
@@ -36,15 +36,15 @@ See [[Figure]](#import-auto-id2707699).)
 If an object moves relative to a reference frame (for example, if a professor
 moves to the right relative to a white board or a passenger moves toward the
 rear of an airplane), then the object’s position changes. This change in
-position is known as **displacement**{: data-type="term"}. The word
+position is known as **displacement**{: class="term"}. The word
 “displacement” implies that an object has moved, or has been displaced.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Displacement
 </div>
 Displacement is the *change in position* of an object:
-<div data-type="equation" id="eip-458">
+<div class="equation" id="eip-458">
 $$ \Delta x=x_{\text{f}}-x_{0},$$
 </div>
 where $$\Delta x$$ is displacement, $$x_{\text{f}}$$ is the final
@@ -88,7 +88,7 @@ to select positive as being any direction). The professor’s initial position i
 $$ x_{0}=1.5\m $$ and her final position is $$ x_{\text{f}}=3.5\m
 $$. Thus her displacement is
 
-<div data-type="equation" id="eip-556">
+<div class="equation" id="eip-556">
  $$ \Delta x=x_{f}-x_{0}=3.5 \m -1.5 \m=+2.0 \m . $$
 </div>
 
@@ -97,7 +97,7 @@ the left is negative. Similarly, the airplane passenger’s initial position is
 $$ x_{0}=6.0 \m $$ and his final position is $$ x_{f}=2.0 \m $$, so his displacement
 is
 
-<div data-type="equation" id="eip-778">
+<div class="equation" id="eip-778">
  $$ \Delta x=x_{f}-x_{0}=2.0 \m -6.0 \m =-4.0 \m . $$
 </div>
 
@@ -107,16 +107,16 @@ or in the negative $$ x $$ direction in our coordinate system.
 ### Distance
 
 Although displacement is described in terms of direction, distance is not.
-**Distance**{: data-type="term"} is defined to be *the magnitude or size of
+**Distance**{: class="term"} is defined to be *the magnitude or size of
 displacement between two positions*. Note that the distance between two
 positions is not the same as the distance traveled between them.
-**Distance traveled**{: data-type="term"} is *the total length of the path traveled between
+**Distance traveled**{: class="term"} is *the total length of the path traveled between
 two positions*. Distance has no direction and, thus, no sign. For example, the
 distance the professor walks is 2.0 m. The distance the airplane passenger walks
 is 4.0 m.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Misconception Alert: Distance Traveled vs. Magnitude of Displacement
 </div>
 It is important to note that the *distance traveled*,
@@ -138,18 +138,18 @@ however, is the total length of the path taken between the two marks.
 
 </div>
 
-<div data-type="exercise" data-element-type="check-understanding" data-label="">
-<div data-type="title">
+<div class="exercise" data-element-type="check-understanding" data-label="">
+<div class="title">
 Check Your Understanding
 </div>
-<div data-type="problem" markdown="1">
+<div class="problem" markdown="1">
 A cyclist rides 3 km west and then turns around and rides 2 km east.
 (a) What is her displacement?
 (b) What distance does she ride?
 (c) What is the magnitude of her displacement?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 ![Two diagrams side by side. To the left is a horizontal line, or x axis, with points for final position and initial position. Displacement 1, shown by an arrow pointing leftward, equals negative 3 kilometers. Displacement 2, shown by an arrow pointing rightward, equals 2 kilometers. To the right is a pair of x and y axes, showing that east is the positive x direction and west is the negative x direction.](../resources/Figure_02_01_03.jpg){: #import-auto-id2776946}
 
 (a) The rider’s displacement is $$ \Delta x=x_{f}-x_{0}=\text{−1 km} $$. (The
@@ -170,7 +170,7 @@ negative.)
   motion.
 * Displacement is the change in position of an object.
 * In symbols, displacement $$ \Delta x $$ is defined to be
-  <div data-type="equation">
+  <div class="equation">
  $$ \Delta x=x_{f}-x_{0}, $$
   </div>
 
@@ -186,23 +186,23 @@ negative.)
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Give an example in which there are clear distinctions among distance traveled, displacement, and magnitude of displacement. Specifically identify each quantity in your example.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Under what circumstances does distance traveled equal magnitude of displacement?
 What is the only case in which magnitude of displacement and displacement are exactly the same?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Bacteria move back and forth by using their flagella (structures that look like little tails).
 Speeds of up to $$ 50 \text{μm/s}\left(50 \times 10^{-6} \ms \right) $$
 have been observed. The total distance traveled by a bacterium is large for its
@@ -216,15 +216,15 @@ size, while its displacement is small. Why is this?
 ![An x axis starts at 0 meters and ends at 12 meters. There are four points on the graph with displacement paths. Path A starts at 0 and stops at 7. Path B starts at 12 and ends at 7. Path C starts at 2, goes to 10, turns around and goes back to 8, then turns around again and stops at 11. Path D starts at 9, goes to 3, then turns around and stops at 5.](../resources/Figure_02_01Sol_01.jpg)
 {: #import-auto-id2076702}
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Find the following for path A in [[Figure]](#import-auto-id2076702):
 (a) The distance traveled.
 (b) The magnitude of the displacement from start to finish.
 (c) The displacement from start to finish.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 7 \m  $$
 
 (b) $$ 7 \m  $$
@@ -233,8 +233,8 @@ Find the following for path A in [[Figure]](#import-auto-id2076702):
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Find the following for path B in [[Figure]](#import-auto-id2076702):
 (a) The distance traveled.
 (b) The magnitude of the displacement from start to finish.
@@ -243,15 +243,15 @@ Find the following for path B in [[Figure]](#import-auto-id2076702):
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Find the following for path C in [[Figure]](#import-auto-id2076702):
 (a) The distance traveled.
 (b) The magnitude of the displacement from start to finish.
 (c) The displacement from start to finish.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 13 m
 
 (b) 9 m
@@ -260,8 +260,8 @@ Find the following for path C in [[Figure]](#import-auto-id2076702):
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Find the following for path D in [[Figure]](#import-auto-id2076702):
 (a) The distance traveled.
 (b) The magnitude of the displacement from start to finish.
@@ -270,10 +270,10 @@ Find the following for path D in [[Figure]](#import-auto-id2076702):
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 kinematics
 : the study of motion without considering its causes

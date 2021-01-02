@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Explain how an object must be displaced for a force on it to do work.
 * Explain how relative directions of force and displacement determine whether the work done is positive, negative, or zero.
 
@@ -21,13 +21,13 @@ work is done, energy is transferred.
 For work, in the scientific sense, to be done, a force must be exerted and there
 must be displacement in the direction of the force.
 
-Formally, the **work**{: data-type="term" #import-auto-id1418415} done on a
+Formally, the **work**{: class="term" #import-auto-id1418415} done on a
 system by a constant force is defined to be *the product of the component of the
 force in the direction of motion times the distance through which the force
 acts*. For one-way motion in one dimension, this is expressed in equation form
 as
 
-<div data-type="equation" id="eip-354">
+<div class="equation" id="eip-354">
  $$ W= \mag{F} \left(\cos \theta \right) \mag{d} , $$
 </div>
 
@@ -36,7 +36,7 @@ $$ \theta $$ is the angle between the force vector $$ \vb{F} $$ and the
 displacement vector $$ \vb{d} $$, as in [[Figure]](#import-auto-id2495459).
 We can also write this as
 
-<div data-type="equation">
+<div class="equation">
  $$ W=Fd\cos{\theta} . $$
 </div>
 
@@ -44,13 +44,13 @@ To find the work done on a system that undergoes motion that is not one-way or
 that is in two or three dimensions, we divide the motion into one-way
 one-dimensional segments and add up the work done over each segment.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 What is Work?
 </div>
 The work done on a system by a constant force is *the product of the component of the force in the direction of motion times the distance through which the force acts*. For one-way motion in one dimension, this is expressed in equation form as
 
-<div data-type="equation">
+<div class="equation">
  $$ W=F d \cos{\theta} , $$
 </div>
 where $$ W $$ is work,
@@ -96,15 +96,15 @@ displacement downward. This makes $$ \theta =180^\circ $$, and $$ \cos
 
 Work and energy have the same units. From the definition of work, we see that
 those units are force times distance. Thus, in SI units, work and energy are
-measured in **newton-meters**{: data-type="term" #import-auto-id2692776}. A
-newton-meter is given the special name **joule**{: data-type="term"
+measured in **newton-meters**{: class="term" #import-auto-id2692776}. A
+newton-meter is given the special name **joule**{: class="term"
 #import-auto-id2681417} (J), and $$ 1 \J =1\N \cdot
 \m =1\kg \cdot \mmss $$. One joule is not a
 large amount of energy; it would lift a small 100-gram apple a distance of about
 1 meter.
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating the Work You Do to Push a Lawn Mower Across a Large Lawn
 </div>
 How much work is done on the lawn mower by the person in [[Figure]](#import-auto-id2495459)
@@ -128,12 +128,12 @@ unknown.
 
 The equation for the work is
 
-<div data-type="equation">
+<div class="equation">
  $$ W=F d \cos{\theta} . $$
 </div>
 Substituting the known values gives
 
-<div data-type="equation">
+<div class="equation">
  $$ \begin{array}{lll}
 W& =& \left(75.0 \N \right)\left(25.0 \m \right)\cos\left(35.0^\circ\right)\\
  & =& 1536 \J =1.54\times 10^{3} \J .
@@ -143,7 +143,7 @@ Converting the work in joules to kilocalories yields
 $$ W=\left(1536 \J \right)\left(1\text{kcal}/4184 \J \right)=0.367\text{kcal} $$.
 The ratio of the work done to the daily consumption is
 
-<div data-type="equation">
+<div class="equation">
  $$ \frac{W}{2400 \text{kcal}}=1.53\times 10^{-4}. $$
 </div>
 
@@ -165,7 +165,7 @@ chemical energy in fat.
   product of the magnitude $$ F $$ of the force, times the magnitude $$ d $$ of
   the displacement, times the cosine of the angle $$ \theta $$ between them. In
   symbols,
-  <div data-type="equation" id="eip-id3298145">
+  <div class="equation" id="eip-id3298145">
  $$ W=F d \cos{\theta} . $$
   </div>
 
@@ -178,8 +178,8 @@ chemical energy in fat.
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Give an example of something we think of as work in everyday circumstances that
 is not work in the scientific sense. Is energy transferred or changed in form in
 your example? If so, explain how this is accomplished without doing work.
@@ -187,16 +187,16 @@ your example? If so, explain how this is accomplished without doing work.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Give an example of a situation in which there is a force and a displacement, but
 the force does no work. Explain why it does no work.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Describe a situation in which a force is exerted for a long time but does no work. Explain.
 
 </div>
@@ -204,35 +204,35 @@ Describe a situation in which a force is exerted for a long time but does no wor
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 How much work does a supermarket checkout attendant do on a can of soup
 he pushes 0.600 m horizontally with a force of 5.00 N? Express your answer in joules and kilocalories.
 
 </div>
-<div data-type="solution">
-<div data-type="equation">
+<div class="solution">
+<div class="equation">
  $$ 3.00 \J =7.17\times 10^{-4}\text{kcal} $$
 </div>
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A 75.0-kg person climbs stairs, gaining 2.50 meters in height. Find the work done to accomplish this task.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) Calculate the work done on a 1500-kg elevator car by its cable to lift it
 40.0 m at constant speed, assuming friction averages 100 N?
 (b) What is the work done on the lift by the gravitational force in this process?
 (c) What is the total work done on the lift?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 5.92\times 10^{5} \J $$
 
 (b) $$ -5.88\times 10^{5} \J $$
@@ -242,8 +242,8 @@ A 75.0-kg person climbs stairs, gaining 2.50 meters in height. Find the work don
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Suppose a car travels 108 km at a speed of 30.0 m/s, and uses 2.0 gal of gasoline.
 Only 30% of the gasoline goes into useful work by the force that keeps the car
 moving at constant speed despite friction. (See [[Figure]](../contents/ch7ConservationOfEnergy.md#import-auto-id2866785) for the energy content of gasoline.)
@@ -253,8 +253,8 @@ moving at constant speed despite friction. (See [[Figure]](../contents/ch7Conser
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Calculate the work done by an 85.0-kg man who pushes a crate 4.00 m up along a
 ramp that makes an angle of $$ 20.0^\circ $$ with the horizontal.
 (See [[Figure]](#fs-id2047040).) He exerts a force of 500 N
@@ -264,15 +264,15 @@ include the work he does on the crate *and* on his body to get up the ramp.
 ![A person is pushing a heavy crate up a ramp. The force vector F applied by the person is acting parallel to the ramp.](../resources/Figure_08_01_02a.jpg "A man pushes a crate up a ramp.")
 
 </div>
-<div data-type="solution">
-<div data-type="equation">
+<div class="solution">
+<div class="equation">
  $$ 3.14\times 10^3 \J $$
 </div>
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 How much work is done by the boy pulling his sister 30.0 m in a wagon as shown
 in [[Figure]](#import-auto-id1538391)? Assume no friction acts on the wagon.
 
@@ -282,8 +282,8 @@ in [[Figure]](#import-auto-id1538391)? Assume no friction acts on the wagon.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A shopper pushes a grocery cart 20.0 m at constant speed on level ground, against
 a 35.0 N frictional force. He pushes in a direction $$ 25.0^\circ $$
 below the horizontal.
@@ -294,7 +294,7 @@ below the horizontal.
 (e) What is the total work done on the cart?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ -700 \J $$
 
 (b) 0
@@ -308,8 +308,8 @@ below the horizontal.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Suppose the ski patrol lowers a rescue sled and victim, having a total mass of
 90.0 kg, down a $$ 60.0^\circ $$ slope at constant speed, as shown in [[Figure]](#import-auto-id2504152). The
 coefficient of friction between the sled and the snow is 0.100.
@@ -324,10 +324,10 @@ coefficient of friction between the sled and the snow is 0.100.
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 energy
 : the ability to do work

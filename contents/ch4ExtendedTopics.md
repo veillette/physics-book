@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Understand the four basic forces that underlie the processes in nature.
 
 </div>
@@ -19,7 +19,7 @@ the previous section. As we will see, the basic forces are all thought to act
 through the exchange of microscopic carrier particles, and the characteristics
 of the basic forces are determined by the types of particles exchanged. Action
 at a distance, such as the gravitational force of Earth on the Moon, is
-explained by the existence of a **force field**{: data-type="term"
+explained by the existence of a **force field**{: class="term"
 #import-auto-id2990636} rather than by “physical contact.”
 
 The *four basic forces* are the gravitational force, the electromagnetic force,
@@ -35,8 +35,8 @@ an atom determine the number of electrons it has and, thus, indirectly determine
 the chemistry of the atom. More will be said of all of these topics in later
 chapters.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Concept Connections: The Four Basic Forces
 </div>
 The four basic forces will be encountered in more detail as you progress in you study.
@@ -83,8 +83,8 @@ interactions of atoms and molecules. It is still convenient to consider these
 forces separately in specific applications, however, because of the ways they
 manifest themselves.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Concept Connections: Unifying Forces
 </div>
 Attempts to unify the four basic forces are discussed in relation to elementary particles later
@@ -119,7 +119,7 @@ and the Moon, for example, interact without coming into contact. It is also true
 for all other forces. Friction, for example, is an electromagnetic force between
 atoms that may not actually touch. What is it that carries forces between
 objects? One way to answer this question is to imagine that a **force field**{:
-data-type="term" #import-auto-id3093199} surrounds whatever object creates the
+class="term" #import-auto-id3093199} surrounds whatever object creates the
 force. A second object (often called a *test object*) placed in this field will
 experience a force that is a function of location and other variables. The field
 itself is the “thing” that carries the force from one object to another. The
@@ -135,8 +135,8 @@ See [[Figure]](#import-auto-id1577565).)
 ![The electric force field between a positively charged particle and a negatively charged particle. Electric field lines start from the positive charge and end at the negative charge, and each line is represented as a curved arrow.](../resources/Figure_04_08_01.jpg "The electric force field between a positively charged particle and a negatively charged particle. When a positive test charge is placed in the field, the charge will experience a force in the direction of the force field lines.")
 {: #import-auto-id1577565}
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Concept Connections: Force Fields
 </div>
 The concept of a **force field** is also used in connection with electric charge. It is also a
@@ -162,7 +162,7 @@ one another. (See [[Figure]](#import-auto-id2011579).)
 This idea of particle exchange deepens rather than contradicts field concepts.
 It is more satisfying philosophically to think of something physical actually
 moving between objects acting at a distance. [[Figure]](#import-auto-id1588108)
-lists the exchange or **carrier particles**{: data-type="term"
+lists the exchange or **carrier particles**{: class="term"
 #import-auto-id1561662}, both observed and proposed, that carry the four forces.
 But the real fruit of the particle-exchange proposal is that searches for
 Yukawa’s proposed particle found it *and* a number of others that were
@@ -247,61 +247,61 @@ physics that will be covered in much greater depth in later chapters.
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Explain, in terms of the properties of the four basic forces,
 why people notice the gravitational force acting on their bodies if it is such a comparatively
 weak force.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 What is the dominant force between astronomical objects? Why are the other three basic forces less significant over these very large distances?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Give a detailed example of how the exchange of a particle can result in an **attractive** force. (For example, consider one child pulling a toy out of the hands of another.)
 </div>
 </div>
 
 ### Problem Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) What is the strength of the weak nuclear force relative to the strong nuclear force?
 (b) What is the strength of the weak nuclear force relative to the electromagnetic force? Since the weak nuclear force acts at only very short distances, such as inside nuclei, where the strong and electromagnetic forces also act, it might seem surprising that we have any knowledge of it at all. We have such knowledge because the weak nuclear force is responsible for beta decay, a type of nuclear decay not explained by other forces.
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 1\times 10^{-13} $$
 
 (b) $$ 1\times 10^{-11} $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) What is the ratio of the strength of the gravitational force to that of the strong nuclear force?
 (b) What is the ratio of the strength of the gravitational force to that of the weak nuclear force?
 (c) What is the ratio of the strength of the gravitational force to that of the electromagnetic force? What do your answers imply about the influence of the gravitational force on atomic nuclei?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 What is the ratio of the strength of the strong nuclear force to that of the electromagnetic force? Based on this ratio, you might expect that the strong force dominates the nucleus, which is true for small nuclei. Large nuclei, however, have sizes greater than the range of the strong nuclear force. At these sizes, the electromagnetic force begins to affect nuclear stability. These facts will be used to explain nuclear fusion and fission later in this text.
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 10^{2} $$
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 carrier particle
 : a fundamental particle of nature that is surrounded by a characteristic force

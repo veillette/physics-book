@@ -4,13 +4,13 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Make reasonable approximations based on given data.
 
 </div>
 
 On many occasions, physicists, other scientists, and engineers need to make
-**approximations**{: data-type="term" #import-auto-id2073324} or “guesstimates”
+**approximations**{: class="term" #import-auto-id2073324} or “guesstimates”
 for a particular quantity. What is the distance to a certain destination? What
 is the approximate density of a given item? About how large a current will there
 be in a circuit? Many approximate numbers are based on formulae in which the
@@ -24,8 +24,8 @@ unrealistic numbers. Approximations also allow us to challenge others and guide
 us in our approaches to our scientific world. Let us do two examples to
 illustrate this concept.
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Approximate the Height of a Building
 </div>
 Can you approximate the height of one of the buildings on your campus, or in your neighborhood? Let us make an approximation based upon the height of a person. In this example, we will calculate the height of a 39-story building.
@@ -42,7 +42,7 @@ building. If we use the fact that the height of one story is approximately equal
 to about the length of two adult humans (each human is about 2-m tall), then we
 can estimate the total height of the building to be
 
-<div data-type="equation" id="eip-159">
+<div class="equation" id="eip-159">
  $$ \frac{2 \m }{1 \text{person}}×\frac{2 \text{person}}{1 \text{story}}× 39\text{stories}
 = 156 \m . $$
 </div>
@@ -55,8 +55,8 @@ width of your desk? What other measurements can you approximate besides length?
 
 </div>
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Approximating Vast Numbers: a Trillion Dollars
 </div>
 ![A bank stack containing one hundred hundred-dollar bills.](../resources/Figure_01_04_01.jpg "A bank stack contains one-hundred $100 bills, and is worth $10 000. How many bank stacks make up a trillion dollars? (credit: Andrew Magill)"){: #import-auto-id2966692}
@@ -85,7 +85,7 @@ multiplied by the unknown height.
 bill are approximately 3 in. by 6 in. A stack of 100 of these is about 0.5 in.
 thick. So the total volume of a stack of 100 bills is:
 
-<div data-type="equation" id="eip-51">
+<div class="equation" id="eip-51">
  $$ \begin{array}{}
 \text{volume of stack}=\text{length}×\text{width}×\text{height,}\\
 \text{volume of stack}=6 \text{in.}×3 \text{in.}\times 0.5 \text{in.},\\
@@ -96,7 +96,7 @@ thick. So the total volume of a stack of 100 bills is:
 and a stack of one-hundred $$ $100 $$ bills is equal to $$ $10 000, $$
 or $$ $1\times 10^{4} $$. The number of stacks you will have is:
 
-<div data-type="equation" id="eip-203">
+<div class="equation" id="eip-203">
  $$ \$1 \times 10^{12}
 \left( \text{a trillion dollars} \right)
  1 \times 10^{4} \$ \text{per stack}=1\times 10^{8}\text{stacks.} $$
@@ -107,7 +107,7 @@ which gives $$ 5000 \text{yd}^{2}. $$
 Because we are working in inches, we need to convert square yards to square
 inches:
 
-<div data-type="equation" id="eip-446">
+<div class="equation" id="eip-446">
  $$ \begin{array}{}
 \text{Area}=5 000 \text{yd}^{2}×\frac{3\text{ft}}{1 \text{yd}} \times
 \frac{3\text{ft}}{1 \text{yd}} \times \frac{12 \text{in.}}{1 \text{ft}}
@@ -126,7 +126,7 @@ stacks}=9\times 10^{8}\text{in.}^{3}. $$
 (5) Calculate the height. To determine the height of the bills, use the
 equation:
 
-<div data-type="equation" id="eip-690">
+<div class="equation" id="eip-690">
  $$ \begin{array}{lll}
 \text{volume of bills}& =& \text{area of field}×\text{height of money:}\\
 \text{Height of money}& =& \frac{ \text{volume of bills}}{\text{area of field}},\\
@@ -136,7 +136,7 @@ equation:
 </div>
 The height of the money will be about 100 in. high. Converting this value to feet gives
 
-<div data-type="equation" id="eip-635">
+<div class="equation" id="eip-635">
  $$ 100 \text{in.}×\frac{1 \text{ft}}{12 \text{in.}}=8.33 \text{ft}\approx 8 \text{ft.} $$
 </div>
 
@@ -149,15 +149,15 @@ terms of rough “guesstimates” versus carefully calculated approximations?
 
 </div>
 
-<div data-type="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
-<div data-type="title">
+<div class="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
+<div class="title">
 Check Your Understanding
 </div>
-<div data-type="problem" markdown="1">
+<div class="problem" markdown="1">
 Using mental math and your understanding of fundamental units, approximate the area of a regulation basketball court. Describe the process you used to arrive at your final approximation.
 
 </div>
-<div data-type="solution" data-print-placement="here" markdown="1">
+<div class="solution" data-print-placement="here" markdown="1">
 An average male is about two meters tall. It would take approximately 15 men
 laid out end to end to cover the length, and about 7 to cover the width. That gives an approximate area of $$ 420 \mm $$.
 
@@ -171,39 +171,39 @@ and analyze systems.
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 How many heartbeats are there in a lifetime?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 Sample answer: $$ 2\times 10^{9} $$ heartbeats
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A generation is about one-third of a lifetime. Approximately how many generations have passed since the year 0 AD?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 How many times longer than the mean life of an extremely unstable atomic
 nucleus is the lifetime of a human? (Hint: The lifetime of an unstable atomic nucleus is on the order of $$ 10^{-22} \s $$.)
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 Sample answer: $$ 2\times 10^{31} $$ if an average human lifetime is taken
 to be about 70 years.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Calculate the approximate number of atoms in a bacterium. Assume that the average mass of an atom in the bacterium is ten
 times the mass of a hydrogen atom. (Hint: The mass of a hydrogen atom is on the order of $$ 10^{-27}\kg $$
 and the mass of a bacterium is on the order of $$ 10^{-15} \kg $$) .
@@ -214,32 +214,32 @@ and the mass of a bacterium is on the order of $$ 10^{-15} \kg $$) .
 ![A magnified image of the bacterium Salmonella attacking a human cell. The bacterium is rod shaped and about zero point seven to one point five micrometers in diameter and two to five micrometers in length.](../resources/Figure_01_04_02.jpg "This color-enhanced photo shows Salmonella typhimurium (red) attacking human cells. These bacteria are commonly known for causing foodborne illness. Can you estimate the number of atoms in each bacterium? (credit: Rocky Mountain Laboratories, NIAID, NIH)")
 {: #import-auto-id2932368}
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Approximately how many atoms thick is a cell membrane, assuming all atoms there average about twice the size of a hydrogen atom?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 Sample answer: 50 atoms
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) What fraction of Earth’s diameter is the greatest ocean depth?
 (b) The greatest mountain height?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) Calculate the number of cells in a hummingbird assuming the mass of an average cell is ten times the mass of a bacterium.
 (b) Making the same assumption, how many cells are there in a human?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 Sample answers:
 
 (a) $$ 10^{12} $$ cells/hummingbird
@@ -249,17 +249,17 @@ Sample answers:
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Assuming one nerve impulse must end before another can begin, what is the maximum firing rate of a nerve in impulses per second?
 
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 approximation
 : an estimated value based on prior experience and reasoning

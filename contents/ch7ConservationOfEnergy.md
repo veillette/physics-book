@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Explain the law of the conservation of energy.
 * Describe some of the many forms of energy.
 * Define efficiency of an energy conversion process as the fraction left as useful energy or work, rather than being transformed, for example, into thermal energy.
@@ -15,7 +15,7 @@ layout: page
 
 Energy, as we have noted, is conserved, making it one of the most important
 physical quantities in nature. The **law of conservation of energy**{:
-data-type="term" #import-auto-id2096012} can be stated as follows:
+class="term" #import-auto-id2096012} can be stated as follows:
 
 *Total energy is constant in any process. It may change in form or be
 transferred from one system to another, but the total remains the same.*
@@ -35,7 +35,7 @@ At this point, we deal with all other forms of energy by lumping them into a
 single group called other energy ( $$ \text{OE} $$).
 Then we can state the conservation of energy in equation form as
 
-<div data-type="equation">
+<div class="equation">
  $$ \KE_{\text{i}}+\PE_{\text{i}}+W_{\text{nc}}+\text{OE}_{\text{i}}=\KE_{\text{f}}+\PE_{\text{f}}+\text{OE}_{\text{f}}. $$
 </div>
 
@@ -47,8 +47,8 @@ included as $$ \text{OE} $$. This equation applies to all previous examples; in
 those situations $$ \text{OE} $$ was constant, and so it subtracted out and was
 not directly considered.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Making Connections: Usefulness of the Energy Conservation Principle
 </div>
 The fact that energy is conserved and has many forms makes it very important. You will find that energy is discussed in many contexts, because it is involved in all processes. It will also become apparent that many situations are best understood in terms of energy and that problems are often most easily conceptualized and solved by considering energy.
@@ -65,24 +65,24 @@ another form of $$ \text{OE} $$).
 
 What are some other forms of energy? You can probably name a number of forms of
 energy not yet discussed. Many of these will be covered in later chapters, but
-let us detail a few here. **Electrical energy**{: data-type="term"
+let us detail a few here. **Electrical energy**{: class="term"
 #import-auto-id2771762} is a common form that is converted to many other forms
 and does work in a wide range of practical situations. Fuels, such as gasoline
-and food, carry **chemical energy**{: data-type="term" #import-auto-id2094176}
+and food, carry **chemical energy**{: class="term" #import-auto-id2094176}
 that can be transferred to a system through oxidation. Chemical fuel can also
 produce electrical
 
 energy, such as in batteries. Batteries can in turn produce light, which is a
 very pure form of energy. Most energy sources on Earth are in fact stored energy
 from the energy we receive from the Sun. We sometimes refer to this as **radiant
-energy**{: data-type="term" #import-auto-id2739439}, or electromagnetic
+energy**{: class="term" #import-auto-id2739439}, or electromagnetic
 radiation, which includes visible light, infrared, and ultraviolet radiation.
-**Nuclear energy**{: data-type="term" #import-auto-id2580734} comes from processes
+**Nuclear energy**{: class="term" #import-auto-id2580734} comes from processes
 that convert measurable amounts of mass into energy. Nuclear energy is
 transformed into the energy of sunlight, into electrical energy in power plants,
 and into the energy of the heat transfer and blast in weapons. Atoms and
 molecules inside all objects are in random motion. This internal mechanical
-energy from the random motions is called **thermal energy**{: data-type="term"
+energy from the random motions is called **thermal energy**{: class="term"
 #import-auto-id2393416}, because it is related to the temperature of the object.
 These and all other forms of energy can be converted into one another and can do
 work.
@@ -91,8 +91,8 @@ work.
 released from various objects and in various phenomena. The range of energies
 and the variety of types and situations is impressive.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Problem-Solving Strategies for Energy
 </div>
 You will find the following problem-solving strategies useful whenever you deal with energy. The strategies help in organizing and reinforcing energy concepts. In fact, they are used in the examples presented in this chapter. The familiar general problem-solving strategies presented earlier—involving identifying physical principles, knowns, and unknowns, checking units, and so on—continue to be relevant here.
@@ -109,7 +109,7 @@ the problem, then forces are all conservative, and you can apply conservation of
 mechanical energy simply in terms of potential and kinetic energy. The equation
 expressing conservation of energy is
 
-<div data-type="equation" id="eip-423">
+<div class="equation" id="eip-423">
  $$ \KE_{\text{i}}+\PE_{\text{i}}=\KE_{\text{f}}+\PE_{\text{f}}. $$
 </div>
 
@@ -118,7 +118,7 @@ some of them are nonconservative and do not have a potential energy, or if there
 energies that are not easily treated in terms of force and work, then the conservation of
 energy law in its most general form must be used.
 
-<div data-type="equation">
+<div class="equation">
  $$ \KE_{\text{i}}+\PE_{\text{i}}+W_{\text{nc}}+\text{OE}_{\text{i}}=\KE_{\text{f}}+\PE_{\text{f}}+\text{OE}_{\text{f}}. $$
 </div>
 In most problems, one or more of the terms is zero, simplifying its solution. Do not calculate $$ W_{c} $$, the work done by conservative forces; it is already incorporated in the $$
@@ -195,10 +195,10 @@ solar energy into electrical energy and then into mechanical energy.
 
 Even though energy is conserved in an energy conversion process, the output of
 *useful energy* or work will be less than the energy input. The **efficiency**{:
-data-type="term" #import-auto-id2408157 } $$ \text{Eff} $$ of an energy
+class="term" #import-auto-id2408157 } $$ \text{Eff} $$ of an energy
 conversion process is defined as
 
-<div data-type="equation">
+<div class="equation">
  $$ \text{Efficiency}\left(\text{Eff}\right)=\frac{ \text{useful energy or work output}}{\text{total energy input}}=\frac{ W_{\text{out}}}{ E_{\text{in}}}. $$
 </div>
 
@@ -229,14 +229,14 @@ cooling towers.
 |Solar cell|10|
 {: #import-auto-id1330125}
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 PhET Explorations: Masses and Springs
 </div>
 A realistic mass and spring laboratory. Hang masses from springs and adjust the spring stiffness and damping. You can even slow time. Transport the lab to different planets. A chart shows the kinetic, potential, and thermal energies for each spring.
 
 <figure markdown="1" id="eip-id1637749">
-<div data-type="phet">
+<div class="phet">
 <iframe src="https://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 Masses and Springs
@@ -266,8 +266,8 @@ Masses and Springs
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Consider the following scenario. A car for which friction is *not* negligible accelerates from rest down a hill, running out of gasoline after a short distance. The driver lets the car coast farther down the hill, then up and over a small crest. He then coasts down that hill into a gas station, where he brakes to a stop and fills the tank with gasoline. Identify the forms of energy the car has, and how they are changed and transferred in this series of events. (See [[Figure]](#import-auto-id2100801).)
 
 ![A car coasting downhill, moving over a crest then again moving downhill and finally stopping at a gas station. Each of these positions is labeled with an arrow pointing downward.](../resources/Figure_08_06_02a.jpg "A car experiencing non-negligible friction coasts down a hill, over a small crest, then downhill again, and comes to a stop at a gas station.")
@@ -276,29 +276,29 @@ Consider the following scenario. A car for which friction is *not* negligible ac
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Describe the energy transfers and transformations for a javelin, starting from the point at which an athlete picks up the javelin and ending when the javelin is stuck into the ground after being thrown.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Do devices with efficiencies of less than one violate the law of conservation of energy? Explain.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 List four different forms or types of energy. Give one example of a conversion from each of these forms to another form.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 List the energy conversions that occur when riding a bicycle.
 
 </div>
@@ -306,22 +306,22 @@ List the energy conversions that occur when riding a bicycle.
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Using values from [[Figure]](#import-auto-id2866785), how many DNA molecules could be broken by the energy carried by a single electron in the beam of an old-fashioned TV tube? (These electrons were not dangerous in themselves, but they did create dangerous x rays. Later model tube TVs had shielding that absorbed x rays before they escaped and exposed viewers.)
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 4\times 10^{4}\text{ molecules} $$
 </div>
 </div>
 
-<div data-type="exercise" id="eip-309" data-element-type="problems-exercises">
-<div data-type="problem" id="eip-267" markdown="1">
+<div class="exercise" id="eip-309" data-element-type="problems-exercises">
+<div class="problem" id="eip-267" markdown="1">
 Using energy considerations and assuming negligible air resistance, show that a rock thrown from a bridge 20.0 m above water with an initial speed of 15.0 m/s strikes the water with a speed of 24.8 m/s independent of the direction thrown.
 
 </div>
-<div data-type="solution" id="eip-232" markdown="1">
+<div class="solution" id="eip-232" markdown="1">
 Equating $$ \Delta \PE_{g} $$ and $$ \Delta \KE $$, we obtain
 $$ v=\sqrt{2g h +{ v_{0}}^{2}}=\sqrt {2\left(9.80
 \mss \right)\left(20.0 \m \right)+\left(15.0  \ms {\right)
@@ -329,20 +329,20 @@ $$ v=\sqrt{2g h +{ v_{0}}^{2}}=\sqrt {2\left(9.80
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 If the energy in fusion bombs were used to supply the energy needs of the world, how many of the 9-megaton variety would be needed for a year’s supply of energy (using data from [[Figure]](#import-auto-id2866785))? This is not as far-fetched as it may sound—there are thousands of nuclear bombs, and their energy can be trapped in underground explosions and converted to electricity, as natural geothermal energy is.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) Use of hydrogen fusion to supply energy is a dream that may be realized in the next century. Fusion would be a relatively clean and almost limitless supply of energy, as can be seen from [[Figure]](#import-auto-id2866785). To illustrate this, calculate how many years the present energy needs of the world could be supplied by one millionth of the oceans’ hydrogen fusion energy.
 (b) How does this time compare with historically significant events, such as the duration of stable economic systems?
 
 </div>
-<div data-type="solution" id="eip-id1855045" markdown="1">
+<div class="solution" id="eip-id1855045" markdown="1">
 (a) $$ 25 \times 10^{6}\text{years} $$
 
 (b) This is much, much longer than human time scales.
@@ -350,22 +350,22 @@ If the energy in fusion bombs were used to supply the energy needs of the world,
 </div>
 </div>
 
-<div data-type="footnote-refs" markdown="1">
+<div class="footnote-refs" markdown="1">
 
 ###Footnotes
-{: data-type="footnote-refs-title"}
+{: class="footnote-refs-title"}
 
-* {: data-type="footnote-ref" #footnote1} [1](#footnote-ref1){: data-type="
+* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
   footnote-ref-link"
-  } <span data-type="footnote-ref-content">Representative values</span>
+  } <span class="footnote-ref-content">Representative values</span>
   {: data-list-type="bulleted" data-bullet-style="none"}
 
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 {: #import-auto-id2866094} law of conservation of energy
 : the general law that total energy is constant in any process; energy may

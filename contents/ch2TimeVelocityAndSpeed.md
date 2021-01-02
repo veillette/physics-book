@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Explain the relationships between instantaneous velocity, average velocity, instantaneous speed, average speed, displacement, and time.
 * Calculate velocity and speed given initial position, initial time, final position, and final time.
 * Derive a graph of velocity vs. time given a graph of position vs. time.
@@ -27,7 +27,7 @@ fundamental physical quantities are defined by how they are measured. This is
 the case with time. Every measurement of time involves measuring a change in
 some physical quantity. It may be a number on a digital clock, a heartbeat, or
 the position of the Sun in the sky. In physics, the definition of time is
-simple—**time**{: data-type="term" #import-auto-id2588516} is *change*, or the
+simple—**time**{: class="term" #import-auto-id2588516} is *change*, or the
 interval over which change occurs. It is impossible to know that time has passed
 unless something changes.
 
@@ -43,10 +43,10 @@ particular motion, such as how long it takes an airplane passenger to get from
 his seat to the back of the plane. To find elapsed time, we note the time at the
 beginning and end of the motion and subtract the two. For example, a lecture may
 start at 11:00 A.M. and end at 11:50 A.M., so that the elapsed time would be 50 min.
-**Elapsed time**{:data-type="term" #import-auto-id4083152}
+**Elapsed time**{:class="term" #import-auto-id4083152}
  $$ \Delta t $$ is the difference between the ending time and beginning time,
 
-<div data-type="equation" id="import-auto-id1757927">
+<div class="equation" id="import-auto-id1757927">
  $$ \Delta t=t_{f}-t_{0}, $$
 </div>
 
@@ -74,14 +74,14 @@ know that if you have a large displacement in a small amount of time you have a
 large velocity, and that velocity has units of distance divided by time, such as
 miles per hour or kilometers per hour.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Average Velocity
 </div>
 
-**Average velocity**{: data-type="term" #import-auto-id2596035} is *displacement (change in position) divided by the time of travel*,
+**Average velocity**{: class="term" #import-auto-id2596035} is *displacement (change in position) divided by the time of travel*,
 
-<div data-type="equation" id="import-auto-id4059844">
+<div class="equation" id="import-auto-id4059844">
  $$ \overline{v}=\frac{ \Delta x}{\Delta t}=\frac{ x_{f}-x_{0}}{ t_{f}-t_{0}}, $$
 </div>
 where $$ \overline{v} $$ is the *average* (indicated by the bar over the $$
@@ -90,7 +90,7 @@ x_{f} $$ and $$ x_{0} $$ are the final and beginning positions at times $$ t_{f}
 $$ and $$ t_{0} $$, respectively. If the starting time $$ t_{0} $$ is taken to
 be zero, then the average velocity is simply
 
-<div data-type="equation" id="import-auto-id2027122">
+<div class="equation" id="import-auto-id2027122">
  $$ \overline{v}=\frac{ \Delta x}{t}. $$
 </div>
 </div>
@@ -102,7 +102,7 @@ also written as mph), and cm/s, are in common use. Suppose, for example, an
 airplane passenger took 5 seconds to move −4 m (the negative sign indicates that
 displacement is toward the back of the plane). His average velocity would be
 
-<div data-type="equation" id="import-auto-id4051374">
+<div class="equation" id="import-auto-id4051374">
  $$ \overline{v}=\frac{ \Delta x}{t}=\frac{-4\m }{5\s }=-0.8 \ms . $$
 </div>
 
@@ -127,7 +127,7 @@ instant*. A car’s speedometer, for example, shows the magnitude (but not the
 direction) of the instantaneous velocity of the car. (Police give tickets based
 on instantaneous velocity, but when calculating how long it will take to get
 from one place to another on a road trip, you need to use average velocity.)
-**Instantaneous velocity**{: data-type="term" #import-auto-id2579029} $$ v $$ is
+**Instantaneous velocity**{: class="term" #import-auto-id2579029} $$ v $$ is
 the average velocity at a specific instant in time (or over an infinitesimally
 small time interval).
 
@@ -145,14 +145,14 @@ Thus *speed is a scalar*. Just as we need to distinguish between instantaneous
 velocity and average velocity, we also need to distinguish between instantaneous
 speed and average speed.
 
-**Instantaneous speed**{: data-type="term" #import-auto-id2004213} is the
+**Instantaneous speed**{: class="term" #import-auto-id2004213} is the
 magnitude of instantaneous velocity. For example, suppose the airplane passenger
 at one instant had an instantaneous velocity of −3.0 m/s (the minus meaning
 toward the rear of the plane). At that same time his instantaneous speed was 3.0
 m/s. Or suppose that at one time during a shopping trip your instantaneous
 velocity is 40 km/h due north. Your instantaneous speed at that instant would be
 40 km/h—the same magnitude but without a direction. Average speed, however, is
-very different from average velocity. **Average speed**{: data-type="term"
+very different from average velocity. **Average speed**{: class="term"
 #import-auto-id2004216} is the distance traveled divided by elapsed time.
 
 We have noted that distance traveled can be greater than displacement. So
@@ -171,7 +171,7 @@ Another way of visualizing the motion of an object is to use a graph. A plot of
 position or of velocity as a function of time can be very useful. For example,
 for this trip to the store, the position, velocity, and speed-vs.-time graphs
 are displayed in [[Figure]](#import-auto-id1806646). (Note that these graphs
-depict a very simplified **model**{: data-type="term" #import-auto-id1510828} of
+depict a very simplified **model**{: class="term" #import-auto-id1510828} of
 the trip. We are assuming that speed is constant during the trip, which is
 unrealistic given that we’ll probably stop at the store. But for simplicity’s
 sake, we will model it with no stops or changes in speed. We are also assuming
@@ -180,8 +180,8 @@ that the route between the store and the house is a perfectly straight line.)
 ![Three line graphs. First line graph is of position in kilometers versus time in hours. The line increases linearly from 0 kilometers to 6 kilometers in the first 0 point 25 hours. It then decreases linearly from 6 kilometers to 0 kilometers between 0 point 25 and 0 point 5 hours. Second line graph shows velocity in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time 0 to time 0 point 25. It is vertical at time 0 point 25, dropping from 12 kilometers per hour to negative 12 kilometers per hour. It is flat again at negative 12 kilometers per hour from 0 point 25 hours to 0 point 5 hours. Third line graph shows speed in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time equals 0 to time equals 0 point 5 hours.](../resources/Figure_02_02_03.jpg "Position vs. time, velocity vs. time, and speed vs. time on a trip. Note that the velocity for the return trip is negative. ")
 {: #import-auto-id1806646}
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Making Connections: Take-Home Investigation—Getting a Sense of Speed
 </div>
 If you have spent much time driving, you probably have a good sense of speeds between about 10 and 70 miles per hour. But what are these in meters per second? What do we mean when we say that something is moving at 10 m/s? To get a better sense of what these values really mean, do some observations and calculations on your own:
@@ -194,15 +194,15 @@ If you have spent much time driving, you probably have a good sense of speeds be
 
 </div>
 
-<div data-type="exercise" data-element-type="check-understanding" data-label="">
-<div data-type="title">
+<div class="exercise" data-element-type="check-understanding" data-label="">
+<div class="title">
 Check Your Understanding
 </div>
-<div data-type="problem" markdown="1">
+<div class="problem" markdown="1">
 A commuter train travels from Baltimore to Washington, DC, and back in 1 hour and 45 minutes. The distance between the two stations is approximately 40 miles. What is (a) the average velocity of the train, and (b) the average speed of the train in m/s?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) The average velocity of the train is zero because $$ x_{f}=x_{0} $$
 
 ; the train ends up at the same place it starts.
@@ -210,10 +210,10 @@ A commuter train travels from Baltimore to Washington, DC, and back in 1 hour an
 (b) The average speed of the train is calculated below. Note that the train
 travels 40 miles one way and 40 miles back, for a total distance of 80 miles.
 
-<div data-type="equation" id="import-auto-id4070756">
+<div class="equation" id="import-auto-id4070756">
  $$ \frac{ \text{distance}}{\text{time}}=\frac{80 \text{miles}}{105 \text{minutes}} $$
 </div>
-<div data-type="equation" id="import-auto-id1750086">
+<div class="equation" id="import-auto-id1750086">
  $$ \frac{80 \text{miles}}{105 \text{minutes}}×\frac{5280 \text{feet}}{1 \text{mile}}×\frac{1 \text{meter}}{3.28 \text{feet}}×\frac{1 \text{minute}}{60 \text{seconds}}=20 \ms $$
 </div>
 </div>
@@ -223,7 +223,7 @@ travels 40 miles one way and 40 miles back, for a total distance of 80 miles.
 
 * {: #import-auto-id4070541} Time is measured in terms of change, and its SI
   unit is the second (s). Elapsed time for an event is
-  <div data-type="equation" id="import-auto-id4146177">
+  <div class="equation" id="import-auto-id4146177">
  $$ \Delta t=t_{f}-t_{0}, $$
   </div>
 
@@ -232,7 +232,7 @@ travels 40 miles one way and 40 miles back, for a total distance of 80 miles.
   elapsed time is then just $$ t $$.
 * {: #import-auto-id1770783} Average velocity $$ \overline{v} $$ is defined as
   displacement divided by the travel time. In symbols, average velocity is
-  <div data-type="equation" id="import-auto-id4086565">
+  <div class="equation" id="import-auto-id4086565">
  $$ \overline{v}=\frac{ \Delta x}{\Delta t}=\frac{ x_{\text{f}}-x_{0}}{ t_{\text{f}}-t_{0}}. $$
   </div>
 
@@ -251,36 +251,36 @@ travels 40 miles one way and 40 miles back, for a total distance of 80 miles.
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Give an example (but not one from the text) of a device used to measure time and identify what change in that device indicates a change in time.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 There is a distinction between average speed and the magnitude of average velocity. Give an example that illustrates the difference between these two quantities.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Does a car’s odometer measure position or displacement? Does its speedometer measure speed or velocity?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 If you divide the total distance traveled on a car trip (as determined by the odometer) by the time for the trip, are you calculating the average speed or the magnitude of the average velocity? Under what circumstances are these two quantities the same?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 How are instantaneous velocity and instantaneous speed related to one another? How do they differ?
 
 </div>
@@ -288,13 +288,13 @@ How are instantaneous velocity and instantaneous speed related to one another? H
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) Calculate Earth’s average speed relative to the Sun.
 (b) What is its average velocity over a period of one year?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 3.0\times 10^{4} \ms $$
 
 (b) 0 m/s
@@ -302,8 +302,8 @@ How are instantaneous velocity and instantaneous speed related to one another? H
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A helicopter blade spins at exactly 100 revolutions per minute. Its tip is 5.00 m from the center of rotation.
 (a) Calculate the average speed of the blade tip in the helicopter’s frame of reference.
 (b) What is its average velocity over one revolution?
@@ -311,26 +311,26 @@ A helicopter blade spins at exactly 100 revolutions per minute. Its tip is 5.00 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 The North American and European continents are moving apart at a rate of about 3 cm/y. At this rate how long will it take them to drift 500 km farther apart than they are at present?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 2\times 10^{7}\text{years} $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Land west of the San Andreas fault in southern California is moving at an average velocity of about 6 cm/y northwest relative to land east of the fault. Los Angeles is west of the fault and may thus someday be at the same latitude as San Francisco, which is east of the fault. How far in the future will this occur if the displacement to be made is 590 km northwest, assuming the motion remains constant?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 On May 26, 1934, a streamlined, stainless steel diesel train called the Zephyr
 set the world’s nonstop long-distance speed record for trains. Its run from Denver 
 to Chicago took 13 hours, 4 minutes, 58 seconds, and was witnessed by more than a million 
@@ -338,14 +338,14 @@ people along the route. The total distance traveled was 1633.8 km. What was its 
 speed in km/h and m/s?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 34.689 \ms =124.88 \text{km/h} $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Tidal friction is slowing the rotation of the Earth. As a result, the
 orbit of the Moon is increasing in radius at a rate of approximately 4 cm/year.
 Assuming this to be a constant rate, how many years will pass before the radius
@@ -353,8 +353,8 @@ of the Moon’s orbit increases by $$ 3.84 \times 10^{6} \m $$ (1%)?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A student drove to the university from her home and noted that the odometer
 reading of her car increased by 12.0 km. The trip took 18.0 min.
 (a) What was her average speed?
@@ -363,7 +363,7 @@ her average velocity?
 (c) If she returned home by the same path 7 h 30 min after she left, what were her average speed and velocity
 for the entire trip?
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 40.0\text{km/h} $$
 
 (b) $$34.3 \text{km/h}, 25^\circ \text{S of E}. $$
@@ -372,8 +372,8 @@ for the entire trip?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 The speed of propagation of the action potential (an electrical signal) in a nerve
 cell depends (inversely) on the diameter of the axon (nerve fiber). If the nerve
 cell connecting the spinal cord to your feet is 1.1 m long, and the nerve impulse
@@ -381,8 +381,8 @@ speed is 18 m/s, how long does it take for the nerve signal to travel this dista
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Conversations with astronauts on the lunar surface were characterized by a kind of
 echo in which the earthbound person’s voice was so loud in the astronaut’s space
 helmet that it was picked up by the astronaut’s microphone and transmitted back to
@@ -392,13 +392,13 @@ time delays in the electronic equipment). Calculate the distance from Earth to t
 Moon given that the echo time was 2.56 s and that radio waves travel at the speed
 of light $$ \left(3.00 \times 10^{8} \ms \right) $$.
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 384 000 km
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A football quarterback runs 15.0 m straight down the playing field in 2.50 s.
 He is then hit and pushed 3.00 m straight backward in 1.75 s. He breaks the
 tackle and runs straight forward another 21.0 m in 5.20 s. Calculate his average
@@ -406,8 +406,8 @@ velocity (a) for each of the three intervals and (b) for the entire motion.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 The planetary model of the atom pictures electrons orbiting the atomic nucleus much
 as planets orbit the Sun. In this model you can view hydrogen, the simplest
 atom,as having a single electron in a circular orbit $$ 1.06 \times 10^{-10}
@@ -418,7 +418,7 @@ second it makes about the nucleus.
 (b) What is the electron’s average velocity?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 6.61 \times 10^{15}\text{rev/s} $$
 
 (b) 0 m/s
@@ -426,10 +426,10 @@ second it makes about the nucleus.
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 average speed
 : distance traveled divided by time during which motion occurs

@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Calculate coefficient of friction on a car tire.
 * Calculate ideal speed and angle of a car on a turn.
 
@@ -17,7 +17,7 @@ rink floor, a banked roadway’s force on a car, and forces on the tube of a
 spinning centrifuge.
 
 Any net force causing uniform circular motion is called a **centripetal force**
-{: data-type="term" #import-auto-id3450370}. The direction of a centripetal
+{: class="term" #import-auto-id3450370}. The direction of a centripetal
 force is toward the center of curvature, the same as the
 direction of centripetal acceleration. According to Newton’s second law of
 motion, net force is mass times acceleration:
@@ -26,7 +26,7 @@ acceleration is the
 centripetal acceleration— $$\vb{a}=\vb{a}_\text{c}$$. Thus,
 the magnitude of centripetal force $$\mag{F_\text{c} } $$ is
 
-<div data-type="equation" id="eip-696">
+<div class="equation" id="eip-696">
 $$ \mag{F_\text{c}} = m \mag{ \ac }. $$
 </div>
 
@@ -37,7 +37,7 @@ magnitude of the centripetal force $$ \mag{F_\text{c} } $$ in terms of mass,
 velocity, angular
 velocity, and radius of curvature:
 
-<div data-type="equation" id="eip-562">
+<div class="equation" id="eip-562">
  $$ F_\text{c}=m\frac{ v^{2}}{r}; F_\text{c}=m r \omega^{2}. $$
 </div>
 
@@ -48,7 +48,7 @@ pointing to the center of curvature, because $$ \vb{a}_{\text{c}} $$ is
 perpendicular to the velocity and pointing to the center of curvature.
 
 Note that if you solve the first expression for $$ r $$, you get
-<div data-type="equation" id="eip-58">
+<div class="equation" id="eip-58">
 $$ r=\frac{ mv^{2}}{ F_\text{c}}. $$
 </div>
 
@@ -63,8 +63,8 @@ The larger the \( F_c \) , the smaller the radius of curvature \( r \)  and the 
 The second curve has the same \( v \) , but a larger \( F_c \)  produces a smaller \( r^\prime \) .")
 {: #import-auto-id2601650}
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 What Coefficient of Friction Do Car Tires Need on a Flat Curve?
 </div>
 (a) Calculate the centripetal force exerted on a 900 kg car that negotiates a 500 m radius curve at 25.0 m/s.
@@ -77,7 +77,7 @@ car from slipping (see [[Figure]](#import-auto-id3184285)).
 
 We know that $$ F_{\text{c}}=\frac{ m v^{2} }{r} $$.
 Thus,
-<div data-type="equation" id="eip-211">
+<div class="equation" id="eip-211">
 $$ F_{\text{c}}=\frac{m v^{2}}{r}
 =\frac{ \left( 900 \kg \right)
 \left(25.0 \ms \right)^{2}}
@@ -94,27 +94,27 @@ friction (at which the tires roll but do not slip) is $$ \mu_{\s}N $$,
 where $$ \mu_{\s} $$ is the static coefficient of friction and N is the
 normal force. The normal force equals the car’s weight on level ground, so that
 $$ N=mg $$. Thus the centripetal force in this situation is
-<div data-type="equation" id="eip-109">
+<div class="equation" id="eip-109">
 $$ F_{\text{c}}=f=\mu_{\s} N=\mu_{\s} mg . $$
 </div>
 Now we have a relationship between centripetal force and the coefficient of friction.
 Using the first expression for $$ F_{\text{c}} $$
  from the equation
-<div data-type="equation" id="eip-735">
+<div class="equation" id="eip-735">
 $$ \begin{array}{c}
 {F}_{\text{c}}=m\frac{ v^{2}}{r}\\
 {F}_{\text{c}}= mr \omega^{2}
 \end{array}, $$
 </div>
 
-<div data-type="equation" id="eip-18">
+<div class="equation" id="eip-18">
  $$ m\frac{ v^{2}}{r}=\mu_{\s}mg . $$
 </div>
 
 We solve this for $$ \mu_{\s}$$, noting that mass cancels, and
 obtain
 
-<div data-type="equation" id="eip-99">
+<div class="equation" id="eip-99">
 $$ \mu_{\s}=\frac{ v^{2}}{rg}. $$
 </div>
 
@@ -122,7 +122,7 @@ $$ \mu_{\s}=\frac{ v^{2}}{rg}. $$
 
 Substituting the knowns,
 
-<div data-type="equation" id="eip-971">
+<div class="equation" id="eip-971">
 $$ \mu_{\s}=\frac{ \left(25.0 \ms \right)^{2}} {\left(500
 \m \right)\left(9.80 \mss \right)}=0.13. $$
 </div>
@@ -158,7 +158,7 @@ force would be less as will be discussed below.
 ![In the given figure, a car is shown from the back, which is turning to the left. The weight, w, of the car is shown with a down arrow and N with an up arrow at the back of the car. At the right rear wheel, centripetal force is shown along with its equation formula in a leftward horizontal arrow. The free-body diagram shows three vectors, one upward, depicting N, one downward, depicting w, and one leftward, depicting centripetal force.](../resources/Figure_07_03_02a.jpg "This car on level ground is moving away and turning to the left. The centripetal force causing the car to turn in a circular path is due to friction between the tires and the road. A minimum coefficient of friction is needed, or the car will move in a larger-radius curve and leave the roadway.")
 {: #import-auto-id3184285}
 
-Let us now consider **banked curves**{: data-type="term"
+Let us now consider **banked curves**{: class="term"
 #import-auto-id2403430}, where the slope of the road helps you negotiate the
 curve. See [[Figure]](#import-auto-id1571739). The greater the angle $$ \theta
 $$, the faster you can take the curve. Race tracks for bikes as well as cars,
@@ -168,7 +168,7 @@ without the aid of friction between the tires and the road. We will derive an
 expression for $$ \theta $$ for an ideally banked curve and consider an example
 related to it.
 
-For **ideal banking**{: data-type="term" #import-auto-id1402139}, the net
+For **ideal banking**{: class="term" #import-auto-id1402139}, the net
 external force equals the horizontal centripetal force in the absence of
 friction. The components of the normal force N in the horizontal and vertical
 directions must equal the centripetal force and the weight of the car,
@@ -188,7 +188,7 @@ the crucial force and it is horizontal, we use a coordinate system with vertical
 and horizontal axes. Only the normal force has a horizontal component, and so
 this must equal the centripetal force—that is,
 
-<div data-type="equation" id="eip-584">
+<div class="equation" id="eip-584">
  $$ N\sin{\theta} =\frac{ mv^{2}}{r}. $$
 </div>
 
@@ -199,7 +199,7 @@ that the vertical component of the normal force is $$ N\cos{\theta} $$, and the
 only other vertical force is the car’s weight. These must be equal in magnitude;
 thus,
 
-<div data-type="equation" id="eip-125">
+<div class="equation" id="eip-125">
  $$ N\cos{\theta} =mg . $$
 </div>
 
@@ -208,11 +208,11 @@ expression for $$ \theta $$, as desired. Solving the second equation for
 $$ N=mg/\left( \cos{\theta} \right) $$,
 and substituting this into the first yields
 
-<div data-type="equation" id="eip-713">
+<div class="equation" id="eip-713">
  $$ mg \frac{ \sin{\theta} }{\cos{\theta} }=\frac{ m v^{2}}{r} $$
 </div>
 
-<div data-type="equation" id="eip-285">
+<div class="equation" id="eip-285">
  $$ \begin{array}{rrr}mg \tan\left(\theta \right)& =& \frac{ mv^{2}}{r}\\
 \tan{\theta} & =& \frac{ v^{2}}{rg} .
 \end{array} $$
@@ -220,7 +220,7 @@ and substituting this into the first yields
 
 Taking the inverse tangent gives
 
-<div data-type="equation" id="eip-239">
+<div class="equation" id="eip-239">
  $$ \theta ={\tan}^{-1}\left(\frac{ v^{2}}{rg}\right)\text{(ideally banked curve, no friction).} $$
 </div>
 
@@ -234,8 +234,8 @@ the vehicle.
 ![In this figure, a car from the backside is shown, turning to the left, on a slope angling downward to the left. A point in the middle of the back of the car is shown which shows one downward vector depicting weight, w, and an upward arrow depicting force N, which is a linear line along the car and is at an angle theta with the straight up arrow. The slope is at an angle theta with the horizontal surface below the slope. The force values, N multiply sine theta equals to centripetal force, the net force on the car and N cosine theta equal to w are given below the car. ](../resources/Figure_07_03_03a.jpg "The car on this banked curve is moving away and turning to the left.")
 {: #import-auto-id1571739}
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 What Is the Ideal Speed to Take a Steeply Banked Tight Curve?
 </div>
 Curves on some test tracks and race courses, such as the Daytona International Speedway in Florida, are very steeply banked. This banking, with the aid of tire friction and very stable car configurations, allows the curves to be taken at very high speed. To illustrate, calculate the speed at which a 100 m radius curve banked at 65.0° should be driven if the road is frictionless.
@@ -250,17 +250,17 @@ appears on the left-hand side and then substitute known quantities.
 
 Starting with
 
-<div data-type="equation" id="eip-895">
+<div class="equation" id="eip-895">
  $$ \tan{\theta} =\frac{ v^{2}}{r g} $$
 </div>
 we get
 
-<div data-type="equation" id="eip-6">
+<div class="equation" id="eip-6">
  $$ v=\sqrt{rg \tan{\theta}}. $$
 </div>
 Noting that $$\tan{65.0^\circ } = 2.14 $$, we obtain
 
-<div data-type="equation" id="eip-571">
+<div class="equation" id="eip-571">
  $$ \begin{array}{lll}
 v& =& \sqrt{\left(100 \m \right) \left(9.80 \mss \right)\left(2.14\right)}\\
  & =& 45.8 \ms .
@@ -279,22 +279,22 @@ of these are presented in this chapter’s Problems and Exercises.
 
 </div>
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Take-Home Experiment
 </div>
 Ask a friend or relative to swing a golf club or a tennis racquet. Take appropriate measurements to estimate the centripetal acceleration of the end of the club or racquet. You may choose to do this in slow motion.
 
 </div>
 
-<div data-type="note" data-has-label="true" id="eip-52" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" id="eip-52" data-label="" markdown="1">
+<div class="title">
 PhET Explorations: Gravity and Orbits
 </div>
 Move the sun, earth, moon and space station to see how it affects their gravitational forces and orbital paths. Visualize the sizes and distances between different heavenly bodies, and turn off gravity to see what would happen without it!
 
 <figure markdown="1" id="eip-id1751967">
-<div data-type="phet">
+<div class="phet">
 <iframe src="https://phet.colorado.edu/sims/html/gravity-and-orbits/latest/gravity-and-orbits_en.html" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 Gravity and Orbits
@@ -309,13 +309,13 @@ Gravity and Orbits
   any force causing uniform circular motion. It is a “center-seeking” force that
   always points toward the center of rotation. It is perpendicular to linear
   velocity $$ v $$ and has magnitude
-  <div data-type="equation" id="eip-67">
+  <div class="equation" id="eip-67">
  $$ F_{\text{c}}= m \ac , $$
   </div>
 
   which can also be expressed as
 
-  <div data-type="equation" id="eip-967">
+  <div class="equation" id="eip-967">
  $$
  \begin{array}{c}
    F_{\text{c}}=m\frac{ v^{2}}{r}\\
@@ -328,29 +328,29 @@ Gravity and Orbits
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 If you wish to reduce the stress (which is related to centripetal force) on high-speed tires, would you use large- or small-diameter tires? Explain.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Define centripetal force. Can any type of force (for example, tension, gravitational force, friction, and so on) be a centripetal force? Can any combination of forces be a centripetal force?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 If centripetal force is directed toward the center, why do you feel that you are ‘thrown’ away from the center as a car goes around a curve? Explain.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Race car drivers routinely cut corners as shown in [[Figure]](#import-auto-id2673863). Explain how this allows the curve to be taken at the greatest speed.
 
 ![In the figure, two paths are shown inside a race track through a steep curve, approximately equal to ninety degrees. Two cars are shown. One car is on the path one, which is the inside path along the track. The path of this car is shown with an arrow through the inside path. The second car is shown overtaking the first car, while taking a left turn, showing it to be crossing into the inside path from the second path. The path of this car is also shown with an arrow throughout.](../resources/Figure_07_03_04a.jpg "Two paths around a race track curve are shown. Race car drivers will take the inside path (called cutting the corner) whenever possible because it allows them to take the curve at the highest speed.")
@@ -359,8 +359,8 @@ Race car drivers routinely cut corners as shown in [[Figure]](#import-auto-id267
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 A number of amusement parks have rides that make vertical loops like the one shown in [[Figure]](#import-auto-id2452691). For safety, the cars are attached to the rails in such a way that they cannot fall off. If the car goes over the top at just the right speed, gravity alone will supply the centripetal force. What other force acts and what is its direction if:
 
 (a) The car goes over the top at faster than this speed?
@@ -373,8 +373,8 @@ A number of amusement parks have rides that make vertical loops like the one sho
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 What is the direction of the force exerted by the car on the passenger as the car goes over the top of the amusement ride pictured in [[Figure]](#import-auto-id2452691) under the following circumstances:
 
 (a) The car goes over the top at such a speed that the gravitational force is
@@ -387,15 +387,15 @@ the only force acting?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 As a skater forms a circle, what force is responsible for making her turn? Use a free body diagram in your answer.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Suppose a child is riding on a merry-go-round at a distance about halfway between its center and edge. She has a lunch box resting on wax paper, so that there is very little friction between it and the merry-go-round. Which path shown in [[Figure]](#import-auto-id2990767) will the lunch box take when she lets go? The lunch box leaves a trail in the dust on the merry-go-round. Is that trail straight, curved to the left, or curved to the right? Explain your answer.
 
 ![The given figure shows the circular base of a merry-go-round, whose angular velocity is clockwise, shown here with an arrow. A single horse is shown on whom a child is sitting, with a vertical line shown passed through her, which goes from the bottom of the merry-go-round to the top of it. A point P is shown alongside the horse, through which three arrows in downward three directions are shown which depicts the three possible path of the fall of the lunch box.](../resources/Figure_07_03_06a.jpg "A child riding on a merry-go-round releases her lunch box at point P. This is a view from above the clockwise rotation. Assuming it slides with negligible friction, will it follow path A, B, or C, as viewed from Earth&#x2019;s frame of reference? What will be the shape of the path it leaves in the dust on the merry-go-round?")
@@ -404,15 +404,15 @@ Suppose a child is riding on a merry-go-round at a distance about halfway betwee
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Do you feel yourself thrown to either side when you negotiate a curve that is ideally banked for your car’s speed? What is the direction of the force exerted on you by the car seat?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Suppose a mass is moving in a circular path on a frictionless table as shown in figure. In the Earth’s frame of reference, there is no centrifugal force pulling the mass away from the centre of rotation, yet there is a very real force stretching the string attaching the mass to the nail. Using concepts related to centripetal force and Newton’s third law, explain what force stretches the string, identifying its physical origin.
 
 ![In the figure a table is shown. On the table a mass is attached to a nail at the center with the help of a string. The mass is moving on a circular path in counterclockwise direction.](../resources/Figure_07_03_07a.jpg "A mass attached to a nail on a frictionless table moves in a circular path. The force stretching the string is real and not fictional. What is the physical origin of the force on the string?")
@@ -423,8 +423,8 @@ Suppose a mass is moving in a circular path on a frictionless table as shown in 
 
 ### Problems Exercise
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) A 22.0 kg child is riding a playground merry-go-round that is rotating at 40.0 rev/min. What centripetal force must she exert to stay on if she is 1.25 m from its center?
 
 (b) What centripetal force does she need to stay on an amusement park
@@ -433,7 +433,7 @@ merry-go-round that rotates at 3.00 rev/min if she is 8.00 m from its center?
 (c) Compare each force with her weight.
 
 </div>
-<div data-type="solution" data-element-type="problems-exercises" markdown="1">
+<div class="solution" data-element-type="problems-exercises" markdown="1">
 a) 483 N
 
 b) 17.4 N
@@ -443,33 +443,33 @@ c) 2.24 times her weight, 0.0807 times her weight
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Calculate the centripetal force on the end of a 100 m (radius) wind turbine blade that is rotating at 0.5 rev/s. Assume the mass is 4 kg.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 What is the ideal banking angle for a gentle turn of 1.20 km radius on a highway with a 105 km/h speed limit (about 65 mi/h), assuming everyone travels at the limit?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
  $$ 4.14^\circ $$
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 What is the ideal speed to take a 100 m radius curve banked at a 20.0° angle?
 
 </div>
 </div>
 
-<div data-type="exercise" id="eip-id1167458029802" data-element-type="problems-exercises">
-<div data-type="problem" id="eip-id1167457015961" markdown="1">
+<div class="exercise" id="eip-id1167458029802" data-element-type="problems-exercises">
+<div class="problem" id="eip-id1167457015961" markdown="1">
 (a) What is the radius of a bobsled turn banked at 75.0° and taken at 30.0 m/s, assuming it is ideally banked?
 
 (b) Calculate the centripetal acceleration.
@@ -477,7 +477,7 @@ What is the ideal speed to take a 100 m radius curve banked at a 20.0° angle?
 (c) Does this acceleration seem large to you?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 a) 24.6 m
 
 b) $$ 36.6 \mss $$ c) $$ \ac=3.73 g$$. This does not seem
@@ -487,8 +487,8 @@ through sharply banked turns.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Part of riding a bicycle involves leaning at the correct angle when making a turn, as seen in [[Figure]](#import-auto-id2682310). To be stable, the force exerted by the ground must be on a line going through the center of gravity. The force on the bicycle wheel can be resolved into two perpendicular components—friction parallel to the road (this must supply the centripetal force), and the vertical normal force (which must equal the system’s weight).
 
 (a) Show that $$ \theta $$
@@ -503,8 +503,8 @@ roadway—that is, $$ \theta ={\tan}^{-1}{v}^{2}/rg $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A large centrifuge, like the one shown in [[Figure]](#import-auto-id3099006)(a), is used to expose aspiring astronauts to accelerations similar to those experienced in rocket launches and atmospheric reentries.
 
 (a) At what angular velocity is the centripetal acceleration $$ 10 g $$ if the
@@ -521,15 +521,15 @@ forces to see what the angle $$ \theta $$ should be.)
 {: #import-auto-id3099006}
 
 </div>
-<div data-type="solution" data-element-type="problems-exercises" markdown="1">
+<div class="solution" data-element-type="problems-exercises" markdown="1">
 a) 2.56 rad/s
 
 b) $$ 5.71^\circ $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Integrated Concepts**
 
@@ -542,7 +542,7 @@ banked at $$15.0^\circ $$.
 needed for a frightened driver to take the same curve at 20.0 km/h?
 
 </div>
-<div data-type="solution" data-element-type="problems-exercises" markdown="1">
+<div class="solution" data-element-type="problems-exercises" markdown="1">
 a) 16.2 m/s
 
 b) 0.234
@@ -550,8 +550,8 @@ b) 0.234
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Modern roller coasters have vertical loops like the one shown in [[Figure]](#import-auto-id2514816). The radius of curvature is smaller at the top than on the sides so that the downward centripetal acceleration at the top will be greater than the acceleration due to gravity, keeping the passengers pressed firmly into their seats. What is the speed of the roller coaster at the top of the loop if the radius of curvature there is 15.0 m and the downward acceleration of the car is 1.50 g?
 
 ![A teardrop shaped loop of a roller coaster is shown. The car of the roller coaster starts from the point A near the right of the base and covers the teardrop portion of the roller coaster and move to a point D at the left of base. Near the top of tear drop portion an upward arrow is shown labeled as r-minimum. Also at a point near the base toward A there is a label called r-maximum. The wire frame of the base is also shown.](../resources/Figure_07_03_10a.jpg "Teardrop-shaped loops are used in the latest roller coasters so that the radius of curvature gradually decreases to a minimum at the top. This means that the centripetal acceleration builds from zero to a maximum at the top and gradually decreases again. A circular loop would cause a jolting change in acceleration at entry, a disadvantage discovered long ago in railroad curve design. With a small radius of curvature at the top, the centripetal acceleration can more easily be kept greater than &#10; &#10; &#10; g&#10; &#10; &#10; so that the passengers do not lose contact with their seats nor do they need seat belts to keep them in place.")
@@ -560,8 +560,8 @@ Modern roller coasters have vertical loops like the one shown in [[Figure]](#imp
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Unreasonable Results**
 
@@ -573,7 +573,7 @@ an unbanked 50.0 m radius curve at 30.0 m/s.
 (c) Which premises are unreasonable or inconsistent?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 a) 1.84
 
 b) A coefficient of friction this much greater than 1 is unreasonable.
@@ -583,10 +583,10 @@ c) The assumed speed is too great for the tight curve.
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 centripetal force
 : any net force causing uniform circular motion

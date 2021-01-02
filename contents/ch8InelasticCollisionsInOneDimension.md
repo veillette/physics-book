@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Define inelastic collision.
 * Explain perfectly inelastic collision.
 * Apply an understanding of collisions to sports.
@@ -13,7 +13,7 @@ layout: page
 </div>
 
 We have seen that in an elastic collision, internal kinetic energy is conserved.
-An **inelastic collision**{: data-type="term" #import-auto-id1572341} is one in
+An **inelastic collision**{: class="term" #import-auto-id1572341} is one in
 which the internal kinetic energy changes (it is not conserved). This lack of
 conservation means that the forces between colliding objects may remove or add
 internal kinetic energy. Work done by internal forces may change the forms of
@@ -23,8 +23,8 @@ into heat transfer. Or it may convert stored energy into internal kinetic
 energy, such as when exploding bolts separate a satellite from its launch
 vehicle.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Inelastic Collision
 </div>
 An inelastic collision is one in which the internal kinetic energy changes (it is not conserved).
@@ -37,14 +37,14 @@ then stick together. Their total internal kinetic energy is initially $$
 \frac{1}{2}m v^{2}+\frac{1}{2}m v^{2}=m v^{2} $$. The two objects come to rest
 after sticking together, conserving momentum. But the internal kinetic energy is
 zero after the collision. A collision in which the objects stick together is
-sometimes called a **perfectly inelastic collision**{: data-type="term"
+sometimes called a **perfectly inelastic collision**{: class="term"
 #import-auto-id1401573} because it reduces internal kinetic energy more than
 does any other type of inelastic collision. In fact, such a collision reduces
 internal kinetic energy to the minimum it can have while still conserving
 momentum.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Perfectly Inelastic Collision
 </div>
 A collision in which the objects stick together is sometimes called “perfectly inelastic.”
@@ -55,8 +55,8 @@ A collision in which the objects stick together is sometimes called “perfectly
 (b) The objects stick together (a perfectly inelastic collision), and so their final velocity is zero. The internal kinetic energy of the system changes in any inelastic collision and is reduced to zero in this example.")
 {: #import-auto-id1354002}
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating Velocity and Change in Kinetic Energy: Inelastic Collision of a Puck and a Goalie
 </div>
 (a) Find the recoil velocity of a 70.0-kg ice hockey goalie, originally at rest, who catches a 0.150-kg hockey puck slapped at him at a velocity of 35.0 m/s.
@@ -81,28 +81,28 @@ is zero.
 
 Conservation of momentum is
 
-<div data-type="equation" id="eip-46">
+<div class="equation" id="eip-46">
  $$ p_{1}+p_{2}={p^{\prime} }_{1}+{p^{\prime} }_{2} $$
 </div>
 or
 
-<div data-type="equation" id="eip-225">
+<div class="equation" id="eip-225">
  $$ m_{1}v_{1}+m_{2}v_{2}=m_{1}{v^{\prime} }_{1}+m_{2}{v^{\prime} }_{2}. $$
 </div>
 Because the goalie is initially at rest, we know $$ v_{2}=0 $$. Because the goalie catches the puck, the final velocities are equal, or $$
 {v^{\prime} }_{1}={v^{\prime} }_{2}=v^{\prime} $$. Thus, the conservation of momentum equation simplifies to
 
-<div data-type="equation" id="eip-125">
+<div class="equation" id="eip-125">
  $$ m_{1}v_{1}=\left(m_{1}+m_{2}\right)v^{\prime} . $$
 </div>
 Solving for $$ v^{\prime} $$ yields
 
-<div data-type="equation" id="eip-370">
+<div class="equation" id="eip-370">
  $$ v^{\prime} =\frac{ m_{1}}{ m_{1}+m_{2}}v_{1}. $$
 </div>
 Entering known values in this equation, we get
 
-<div data-type="equation" id="eip-777">
+<div class="equation" id="eip-777">
  $$ v^{\prime} =\left(\frac{0.150 \kg }{0.150 \kg +70.0 \kg }\right)\left(35.0 \ms \right)=7.48 \times 10^{-2} \ms . $$
 </div>
 
@@ -117,7 +117,7 @@ Before the collision, the internal kinetic energy $$ \KE_{\text{int}} $$
 of the system is that of the hockey puck, because the goalie is initially at
 rest. Therefore, $$ \KE_{\text{int}} $$ is initially
 
-<div data-type="equation" id="eip-672">
+<div class="equation" id="eip-672">
  $$ \begin{array}{lll}
 \KE_{\text{int}}& =& \frac{1}{2}m v^{2}=\frac{1}{2}\left(0.150 \kg \right){\left(35.0 \ms \right)}^{2}\\
 & =& 91.9 \J .
@@ -125,7 +125,7 @@ rest. Therefore, $$ \KE_{\text{int}} $$ is initially
 </div>
 After the collision, the internal kinetic energy is
 
-<div data-type="equation" id="eip-440">
+<div class="equation" id="eip-440">
  $$ \begin{array}{lll}
 \KE^\prime_{\text{int}}& =& \frac{1}{2}\left(m+M\right){v}^{2}=
 \frac{1}{2}\left(70.15 \kg \right){\left(7.48 \times 10^{-2} \ms \right)}^{2}\\
@@ -134,7 +134,7 @@ After the collision, the internal kinetic energy is
 </div>
 The change in internal kinetic energy is thus
 
-<div data-type="equation" id="eip-172">
+<div class="equation" id="eip-172">
  $$ \begin{array}{lll}
 \KE^{\prime}_{\text{int}}-\KE_{\text{int}}& =& 0.196 \J -91.9 \J \\
 & =& -91.7 \J
@@ -176,8 +176,8 @@ also use physics concepts such as momentum and rotational motion and vibrations.
 
 </div>
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Take-Home Experiment—Bouncing of Tennis Ball
 </div>
 1.  Find a racquet (a tennis, badminton, or other racquet will do). Place the racquet on the floor and stand on the handle. Drop a tennis ball on the strings from a measured height. Measure how high the ball bounces. Now ask a friend to hold the racquet firmly by the handle and drop a tennis ball from the same measured height above the racquet. Measure how high the ball bounces and observe what happens to your friend’s hand during the collision. Explain your observations and measurements.
@@ -193,8 +193,8 @@ a concrete or wooden floor ( $$ c=0.85 $$ for new tennis balls used on a tennis 
 
 </div>
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating Final Velocity and Energy Release: Two Carts Collide
 </div>
 In the collision pictured in [[Figure]](#import-auto-id1258204), two carts collide inelastically. Cart 1 (denoted $$ m_{1} $$ carries a spring which is initially compressed. During the collision, the spring
@@ -219,13 +219,13 @@ after the collision to see how much energy was released by the spring.
 
 As before, the equation for conservation of momentum in a two-object system is
 
-<div data-type="equation" id="eip-473">
+<div class="equation" id="eip-473">
  $$ m_{1}v_{1}+m_{2}v_{2}=m_{1}{v^{\prime} }_{1}+m_{2}{v^{\prime} }_{2}. $$
 </div>
 The only unknown in this equation is $$ v^{\prime}_{2} $$. Solving for $$ v^{\prime}_{2} $$
 and substituting known values into the previous equation yields
 
-<div data-type="equation" id="eip-999">
+<div class="equation" id="eip-999">
  $$ \begin{array}{lll}
 v^{\prime}_{2}& =& \frac{ m_{1}v_{1}+m_{2}v_{2}-m_{1}{v^{\prime} }_{1}}{ m_{2}}\\
 & =& \frac{ \left(0.350 \kg \right)\left(2.00 \ms \right)+
@@ -239,7 +239,7 @@ v^{\prime}_{2}& =& \frac{ m_{1}v_{1}+m_{2}v_{2}-m_{1}{v^{\prime} }_{1}}{ m_{2}}\
 
 The internal kinetic energy before the collision is
 
-<div data-type="equation" id="eip-530">
+<div class="equation" id="eip-530">
  $$ \begin{array}{lll}
 \KE_{\text{int}}& =& \frac{1}{2}m_{1}v_{1}^{2}+\frac{1}{2}m_{2}v_{2}^{2}\\
 & =& \frac{1}{2}\left(0.350 \kg \right){\left(2.00 \ms \right)}^{2}+\frac{1}{2}\left(0.500 \kg \right){\left(-0.500 \ms \right)}^{2}\\
@@ -248,7 +248,7 @@ The internal kinetic energy before the collision is
 </div>
 After the collision, the internal kinetic energy is
 
-<div data-type="equation" id="eip-626">
+<div class="equation" id="eip-626">
  $$ \begin{array}{lll}
 \KE^\prime_{\text{int}}& =& \frac{1}{2}m_{1}{v^{\prime}}_{1}^{2}+\frac{1}{2}m_{2}{v^{\prime}}_{2}^{2}\\
 & =& \frac{1}{2}\left(0.350 \kg \right) \left(-4.00 \ms \right)^{2}+
@@ -258,7 +258,7 @@ After the collision, the internal kinetic energy is
 </div>
 The change in internal kinetic energy is thus
 
-<div data-type="equation" id="eip-246">
+<div class="equation" id="eip-246">
  $$ \begin{array}{lll}
 \KE^{\prime}_{\text{int}}-\KE_{\text{int}}& =& 6.22 \J -0.763 \J \\
 & =& 5.46 \J .
@@ -285,22 +285,22 @@ increases by 5.46 J. That energy was released by the spring.
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 What is an inelastic collision? What is a perfectly inelastic collision?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Mixed-pair ice skaters performing in a show are standing motionless at arms length just before starting a routine. They reach out, clasp hands, and pull themselves together by only using their arms. Assuming there is no friction between the blades of their skates and the ice, what is their velocity after their bodies meet?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 A small pickup truck that has a camper shell slowly coasts toward a red light with negligible friction. Two dogs in the back of the truck are moving and making various inelastic collisions with each other and the walls. What is the effect of the dogs on the motion of the center of mass of the system (truck plus entire load)? What is their effect on the motion of the truck?
 
 </div>
@@ -308,15 +308,15 @@ A small pickup truck that has a camper shell slowly coasts toward a red light wi
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A 0.240-kg billiard ball that is moving at 3.00 m/s strikes the bumper of a pool table and bounces straight back at 2.40 m/s (80% of its original speed). The collision lasts 0.0150 s.
 (a) Calculate the average force exerted on the ball by the bumper.
 (b) How much kinetic energy in joules is lost during the collision?
 (c) What percent of the original energy is left?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 86.4 N perpendicularly away from the bumper
 
 (b) 0.389 J
@@ -326,8 +326,8 @@ A 0.240-kg billiard ball that is moving at 3.00 m/s strikes the bumper of a pool
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 During an ice show, a 60.0-kg skater leaps into the air and is caught by an initially stationary 75.0-kg skater.
 (a) What is their final velocity assuming negligible friction and that the 60.0-kg skater’s original horizontal velocity is 4.00 m/s?
 (b) How much kinetic energy is lost?
@@ -335,8 +335,8 @@ During an ice show, a 60.0-kg skater leaps into the air and is caught by an init
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -350,7 +350,7 @@ directions. Might the loss of kinetic energy be related to how much it hurts to
 catch the pass?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 8.06 m/s
 
 (b) -56.0 J
@@ -360,8 +360,8 @@ catch the pass?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A battleship that is $$ 6.00 \times 10^{7}\kg $$ and is originally at rest fires a 1100-kg artillery shell horizontally with a
 velocity of 575 m/s.
 (a) If the shell is fired straight aft (toward the rear of
@@ -374,8 +374,8 @@ energy released by the gun powder—significant heat transfer occurs.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -391,7 +391,7 @@ change in velocity is different in the two frames, whereas the change in kinetic
 energy is the same in both.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 0.163 m/s in the direction of motion of the more massive satellite
 
 (b) 81.6 J
@@ -407,8 +407,8 @@ friction, etc.) is the same regardless of the coordinate system chosen.
 </div>
 </div>
 
-<div data-type="exercise" id="eip-384" data-element-type="problems-exercises">
-<div data-type="problem" id="eip-id2465154" markdown="1">
+<div class="exercise" id="eip-384" data-element-type="problems-exercises">
+<div class="problem" id="eip-id2465154" markdown="1">
 
 **Professional Application**
 
@@ -420,8 +420,8 @@ a hopper that dumps 110 000 kg of scrap metal into it.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -432,7 +432,7 @@ energy is supplied to the two parts. What are their subsequent velocities using
 the frame of reference in which they were at rest before separation?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 0.704 m/s
 
 -2.25 m/s
@@ -440,8 +440,8 @@ the frame of reference in which they were at rest before separation?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A 0.0250-kg bullet is accelerated from rest to a speed of 550 m/s in a 3.00-kg rifle. The pain of the rifle’s kick is much worse if you hold the gun loosely a few centimeters from your shoulder rather than holding it tightly against your shoulder.
 (a) Calculate the recoil velocity of the rifle if it is held loosely away from the shoulder.
 (b) How much kinetic energy does the rifle gain?
@@ -449,7 +449,7 @@ A 0.0250-kg bullet is accelerated from rest to a speed of 550 m/s in a 3.00-kg r
 (d) How much kinetic energy is transferred to the rifle-shoulder combination? The pain is related to the amount of kinetic energy, which is significantly less in this latter situation. (e) Calculate the momentum of a 110-kg football player running at 8.00 m/s. Compare the player’s momentum with the momentum of a hard-thrown 0.410-kg football that has a speed of 25.0 m/s. Discuss its relationship to this problem.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 4.58 m/s away from the bullet
 
 (b) 31.5 J
@@ -461,8 +461,8 @@ A 0.0250-kg bullet is accelerated from rest to a speed of 550 m/s in a 3.00-kg r
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Professional Application**
 
@@ -484,8 +484,8 @@ are accurate to three digits only.
 </div>
 </div>
 
-<div data-type="exercise" id="eip-558" data-element-type="problems-exercises">
-<div data-type="problem" id="eip-id2217805" markdown="1">
+<div class="exercise" id="eip-558" data-element-type="problems-exercises">
+<div class="problem" id="eip-id2217805" markdown="1">
 
 **Professional Application**
 
@@ -504,7 +504,7 @@ The mass of the rocket was 2000 kg and  its speed upon impact was 9000 km/h.
 How does the plume produced alter these  results?
 
 </div>
-<div data-type="solution" id="eip-id2466104" markdown="1">
+<div class="solution" id="eip-id2466104" markdown="1">
 (a) $$ 1.02 \times 10^{-6} \ms $$
 
 (b) $$ 5.63 \times 10^{20} \J $$ (almost all KE lost)
@@ -518,8 +518,8 @@ transferred to the kinetic energy of the plume particles.
 </div>
 </div>
 
-<div data-type="exercise" id="eip-24" data-element-type="problems-exercises">
-<div data-type="problem" id="eip-989" markdown="1">
+<div class="exercise" id="eip-24" data-element-type="problems-exercises">
+<div class="problem" id="eip-989" markdown="1">
 
 **Professional Application**
 
@@ -531,33 +531,33 @@ is their velocity just after impact if they cling together?
 </div>
 </div>
 
-<div data-type="exercise" id="eip-826" data-element-type="problems-exercises">
-<div data-type="problem" id="eip-605" markdown="1">
+<div class="exercise" id="eip-826" data-element-type="problems-exercises">
+<div class="problem" id="eip-605" markdown="1">
 What is the speed of a garbage truck that is $$ 1.20 \times 10^{4}\kg $$ and is initially moving at 25.0 m/s just after it hits and adheres to a trash
 can that is 80.0 kg and is initially at rest?
 
 </div>
-<div data-type="solution" id="eip-id1729789" markdown="1">
+<div class="solution" id="eip-id1729789" markdown="1">
 24.8 m/s
 
 </div>
 </div>
 
-<div data-type="exercise" id="eip-414" data-element-type="problems-exercises">
-<div data-type="problem" id="eip-486" markdown="1">
+<div class="exercise" id="eip-414" data-element-type="problems-exercises">
+<div class="problem" id="eip-486" markdown="1">
 During a circus act, an elderly performer thrills the crowd by catching a cannon ball shot at him. The cannon ball has a mass of 10.0 kg and the horizontal component of its velocity is 8.00 m/s when the 65.0-kg performer catches it. If the performer is on nearly frictionless roller skates, what is his recoil velocity?
 
 </div>
 </div>
 
-<div data-type="exercise" id="eip-765" data-element-type="problems-exercises">
-<div data-type="problem" id="eip-591" markdown="1">
+<div class="exercise" id="eip-765" data-element-type="problems-exercises">
+<div class="problem" id="eip-591" markdown="1">
 (a) During an ice skating performance, an initially motionless 80.0-kg clown throws a fake barbell away. The clown’s ice skates allow her to recoil frictionlessly. If the clown recoils with a velocity of 0.500 m/s and the barbell is thrown with a velocity of 10.0 m/s, what is the mass of the barbell?
 (b) How much kinetic energy is gained by this maneuver?
 (c) Where does the kinetic energy come from?
 
 </div>
-<div data-type="solution" id="eip-97" markdown="1">
+<div class="solution" id="eip-97" markdown="1">
 (a) 4.00 kg
 
 (b) 210 J
@@ -569,10 +569,10 @@ ATP into kinetic energy.
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 inelastic collision
 : a collision in which internal kinetic energy is not conserved

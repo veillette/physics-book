@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Derive the equation for rotational work.
 * Calculate rotational kinetic energy.
 * Demonstrate the Law of Conservation of Energy.
@@ -18,7 +18,7 @@ created as layers of steel are pared from the pole. The stone continues to turn
 even after the motor is turned off, but it is eventually brought to a stop by
 friction. Clearly, the motor had to work to get the stone spinning. This work
 went into heat, light, sound, vibration, and considerable **rotational kinetic
-energy**{: data-type="term" #import-auto-id2669979} .
+energy**{: class="term" #import-auto-id2669979} .
 
 ![The figure shows a mechanic cutting metal with a metal grinder. The sparks are emerging from the point of contact and jumping off tangentially from the cutter.](../resources/Figure_11_04_01a.jpg "The motor works in spinning the grindstone, giving it rotational kinetic energy. That energy is then converted to heat, light, sound, and vibration. (credit: U.S. Navy photo by Mass Communication Specialist Seaman Zachary David Bell)")
 {: #import-auto-id3229349}
@@ -32,21 +32,21 @@ in [[Figure]](#import-auto-id2009471)) and remains perpendicular as the disk
 starts to rotate. The force is parallel to the displacement, and so the net work
 done is the product of the force times the arc length traveled:
 
-<div data-type="equation" id="eip-458">
+<div class="equation" id="eip-458">
  $$ \text{net}W=\left(\text{net}F\right)\Delta s. $$
 </div>
 
 To get torque and other rotational quantities into the equation, we multiply and
 divide the right-hand side of the equation by $$ r $$, and gather terms:
 
-<div data-type="equation" id="eip-909">
+<div class="equation" id="eip-909">
  $$ \text{net}W=\left(r\text{net}F\right)\frac{ \Delta s}{r}. $$
 </div>
 
 We recognize that $$ r\text{net}F=\text{net τ} $$ and $$ \Delta s/r=\theta $$,
 so that
 
-<div data-type="equation" id="eip-690">
+<div class="equation" id="eip-690">
  $$ \text{net}W=\left(\text{net τ}\right)\theta . $$
 </div>
 
@@ -60,15 +60,15 @@ To get an expression for rotational kinetic energy, we must again perform some
 algebraic manipulations. The first step is to note that $$ \text{net τ}=I\alpha
 $$, so that
 
-<div data-type="equation" id="eip-404">
+<div class="equation" id="eip-404">
  $$ \text{net}W=I \alpha \theta . $$
 </div>
 
 ![The figure shows a circular disc of radius r. A net force F is applied perpendicular to the radius, rotating the disc in an anti-clockwise direction and producing a displacement equal to delta S, in a direction parallel to the direction of the force applied. The angle covered is theta.](../resources/Figure_11_04_02a.jpg "The net force on this disk is kept perpendicular to its radius as the force causes the disk to rotate. The net work done is thus \( \text{net} F \cdot \Delta s \). The net work goes into rotational kinetic energy.")
 {: #import-auto-id2009471}
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Making Connections
 </div>
 Work and energy in rotational motion are completely analogous to work and energy in translational motion, first presented in [Uniform Circular Motion and Gravitation](../contents/ch6UniformCircularMotionAndGravitation.md).
@@ -78,31 +78,31 @@ Work and energy in rotational motion are completely analogous to work and energy
 Now, we solve one of the rotational kinematics equations for $$ \alpha \theta
 $$. We start with the equation
 
-<div data-type="equation" id="eip-750">
+<div class="equation" id="eip-750">
  $$ \omega^{2}= \omega_{0}^{2}+2 \alpha \theta. $$
 </div>
 
 Next, we solve for $$ \alpha \theta $$:
 
-<div data-type="equation" id="eip-241">
+<div class="equation" id="eip-241">
  $$ \alpha \theta=\frac{ \omega^{2}- \omega_{0}^{2} }{2}. $$
 </div>
 
 Substituting this into the equation for net $$ W $$ and gathering terms yields
 
-<div data-type="equation" id="eip-789">
+<div class="equation" id="eip-789">
  $$ \text{net}W=\frac{1}{2}I\omega^{2}-\frac{1}{2}I \omega_{0}^{2}. $$
 </div>
 
-This equation is the **work-energy theorem**{: data-type="term"
+This equation is the **work-energy theorem**{: class="term"
 #import-auto-id2409820} for rotational motion only. As you may recall, net work
 changes the kinetic energy of a system. Through an analogy with translational
 motion, we define the term $$ \left(\frac{1}{2}\right)I\omega^{2} $$ to be
-**rotational kinetic energy**{: data-type="term" #import-auto-id3012447} $$
+**rotational kinetic energy**{: class="term" #import-auto-id3012447} $$
 \KE_{\text{rot}} $$ for an object with a moment of inertia $$ I $$ and
 an angular velocity $$ \omega $$ :
 
-<div data-type="equation" id="eip-682">
+<div class="equation" id="eip-682">
  $$ \KE_{\text{rot}}=\frac{1}{2} I\omega^{2}. $$
 </div>
 
@@ -117,8 +117,8 @@ potential energy into \(  \KE_{\text{rot}} /). It can also convert translational
 \( \KE_{\text{rot}} /). The flywheel&#x2019;s energy can then be used to accelerate, to go up another hill, or to keep the bus from going against friction.")
 {: #import-auto-id1614457}
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating the Work and Energy for Spinning a Grindstone
 </div>
 Consider a person who spins a large grindstone by placing her hand on its edge and exerting a force through part of a
@@ -144,7 +144,7 @@ calculate the rotational kinetic energy from its expression in $$ \KE_
 
 The net work is expressed in the equation
 
-<div data-type="equation" id="eip-117">
+<div class="equation" id="eip-117">
  $$ \text{net}W=\left(\text{net τ}\right)\theta , $$
 </div>
 where net $$ \tau $$ is the applied force multiplied by the radius $$ \left(rF\right) $$ because
@@ -152,7 +152,7 @@ there is no retarding friction, and the force is perpendicular to $$ r $$. The
 angle $$ \theta $$ is given. Substituting the given values in the equation above
 yields
 
-<div data-type="equation" id="eip-348">
+<div class="equation" id="eip-348">
  $$ \begin{array}{lll}
 \text{net}W& =& rF\theta =\left(0.320 \m \right)\left(200 \N \right)\left(1.00 \text{rad}\right)\\
  & =& 64.0 \N \cdot \m .
@@ -160,7 +160,7 @@ yields
 </div>
 Noting that $$ 1 \N·\m =1 \J $$,
 
-<div data-type="equation" id="eip-903">
+<div class="equation" id="eip-903">
  $$ \text{net}W=64.0 \J . $$
 </div>
 ![The figure shows a large grindstone of radius r which is being given a spin by applying a force F in a counterclockwise direction, as indicated by the arrows.](../resources/Figure_11_04_04a.jpg "A large grindstone is given a spin by a person grasping its outer edge."){: #import-auto-id2674234 height="225"}
@@ -170,41 +170,41 @@ Noting that $$ 1 \N·\m =1 \J $$,
 To find $$ \omega $$ from the given information requires more than one step. We
 start with the kinematic relationship in the equation
 
-<div data-type="equation" id="eip-576">
+<div class="equation" id="eip-576">
  $$ \omega^{2}=\omega_{0}^{2}+2 \alpha \theta. $$
 </div>
 Note that $$ \omega_{0}=0 $$ because we start from rest. Taking the square root of the resulting equation
 gives
 
-<div data-type="equation" id="eip-981">
+<div class="equation" id="eip-981">
  $$ \omega ={\left(2 \alpha \theta\right)}^{1/2}. $$
 </div>
 Now we need to find $$ \alpha $$. One possibility is
 
-<div data-type="equation" id="eip-825">
+<div class="equation" id="eip-825">
  $$ \alpha =\frac{ \text{net τ}}{I}, $$
 </div>
 where the torque is
 
-<div data-type="equation" id="eip-643">
+<div class="equation" id="eip-643">
  $$ \text{net τ}=rF=\left(0.320 \m \right)\left(200 \N \right)=64.0 \N \cdot \m . $$
 </div>
 The formula for the moment of inertia for a disk is found
 in [[Figure]](../contents/ch10DynamicsOfRotationalMotion.md#fs-id1838666) :
 
-<div data-type="equation" id="eip-119">
+<div class="equation" id="eip-119">
  $$ I=\frac{1}{2} MR^{2}=0.5\left(85.0 \kg \right){\left(0.320 \m \right)}^{2}=4.352 \kg \cdot \mm. $$
 </div>
 Substituting the values of torque and moment of inertia into the expression for $$ \alpha $$,
 we obtain
 
-<div data-type="equation" id="eip-877">
+<div class="equation" id="eip-877">
  $$ \alpha =\frac{64.0 \N \cdot \m }{4.352 \kg \cdot \mm}=14.7 \radss . $$
 </div>
 Now, substitute this value and the given value for $$ \theta $$
 into the above expression for $$ \omega $$:
 
-<div data-type="equation" id="eip-116">
+<div class="equation" id="eip-116">
  $$ \omega ={\left(2 \alpha \theta \right)}^{1/2}=
 {\left[2\left(14.7 \radss \right) \left(1.00 \text{rad} \right) \right]}^{1/2}
 =5.42 \rads . $$
@@ -214,12 +214,12 @@ into the above expression for $$ \omega $$:
 
 The final rotational kinetic energy is
 
-<div data-type="equation" id="eip-291">
+<div class="equation" id="eip-291">
  $$ \KE_{\text{rot}}=\frac{1}{2}I\omega^{2}. $$
 </div>
 Both $$ I $$ and $$ \omega $$ were found above. Thus,
 
-<div data-type="equation" id="eip-256">
+<div class="equation" id="eip-256">
  $$ \KE_{\text{rot}}=\left(0.5\right)\left(4.352 \kg \cdot \mm\right){\left(5.42 \rads \right)}^{2}=64.0 \J . $$
 </div>
 
@@ -248,8 +248,8 @@ losing altitude and aligning the blades so that the helicopter is spun up in the
 descent. Of course, if the helicopter’s altitude is too low, then there is
 insufficient time for the blade to regain lift before reaching the ground.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Problem-Solving Strategy for Rotational Energy
 </div>
 1.  {: #import-auto-id3054599} *Determine that energy or work is involved in the rotation*.
@@ -270,8 +270,8 @@ Problem-Solving Strategy for Rotational Energy
 
 </div>
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating Helicopter Energies
 </div>
 A typical small rescue helicopter, similar to the one in [[Figure]](#import-auto-id2420248), has
@@ -291,25 +291,25 @@ potential energy.
 
 The rotational kinetic energy is
 
-<div data-type="equation" id="eip-327">
+<div class="equation" id="eip-327">
  $$ \KE_{\text{rot}}=\frac{1}{2}I\omega^{2}. $$
 </div>
 We must convert the angular velocity to radians per second and calculate the moment of inertia before we can find $$ \KE_{\text{rot}} $$. The angular velocity $$ \omega $$
 is
 
-<div data-type="equation" id="eip-583">
+<div class="equation" id="eip-583">
  $$ \omega =\frac{300 \text{rev}}{1.00 \text{min}}\cdot \frac{2 \pi \text{rad}}{1 \text{rev}}\cdot \frac{1.00 \text{min}}{60.0 \s }=31.4\frac{ \text{rad}}{\s}. $$
 </div>
 The moment of inertia of one blade will be that of a thin rod rotated about its end,
 found in [[Figure]](../contents/ch10DynamicsOfRotationalMotion.md#fs-id1838666). The total $$ I $$
 is four times this moment of inertia, because there are four blades. Thus,
 
-<div data-type="equation" id="eip-897">
+<div class="equation" id="eip-897">
  $$ I=4\frac{ M\ell^{2}}{3}=4×\frac{ \left(50.0 \kg \right){\left(4.00 \m \right)}^{2}}{3}=1067 \kg \cdot \mm. $$
 </div>
 Entering $$ \omega $$ and $$ I $$ into the expression for rotational kinetic energy gives
 
-<div data-type="equation" id="eip-913">
+<div class="equation" id="eip-913">
  $$ \begin{array}{lll}
 \KE_{\text{rot}}& =& 0.5\left(1067 \kg \cdot \mm\right){\left(31.4 \rads \right)}^{2}\\
  & =& 5.26\times 10^{5} \J
@@ -322,12 +322,12 @@ Translational kinetic energy was defined
 in [Uniform Circular Motion and Gravitation](../contents/ch6UniformCircularMotionAndGravitation.md). Entering the
 given values of mass and velocity, we obtain
 
-<div data-type="equation" id="eip-2">
+<div class="equation" id="eip-2">
  $$ \KE_{\text{trans}}=\frac{1}{2}m v^{2}=\left(0.5\right)\left(1000 \kg \right){\left(20.0 \ms \right)}^{2}=2.00\times 10^{5} \J . $$
 </div>
 To compare kinetic energies, we take the ratio of translational kinetic energy to rotational kinetic energy. This ratio is
 
-<div data-type="equation" id="eip-973">
+<div class="equation" id="eip-973">
  $$ \frac{2.00\times 10^{5} \J }{5.26\times 10^{5} \J }=0.380. $$
 </div>
 
@@ -336,17 +336,17 @@ To compare kinetic energies, we take the ratio of translational kinetic energy t
 At the maximum height, all rotational kinetic energy will have been converted to
 gravitational energy. To find this height, we equate those two energies:
 
-<div data-type="equation" id="eip-487">
+<div class="equation" id="eip-487">
  $$ \KE_{\text{rot}}=\PE_{\text{grav}} $$
 </div>
 or
 
-<div data-type="equation" id="eip-154">
+<div class="equation" id="eip-154">
  $$ \frac{1}{2}I\omega^{2}=mgh . $$
 </div>
 We now solve for $$ h $$ and substitute known values into the resulting equation
 
-<div data-type="equation" id="eip-232">
+<div class="equation" id="eip-232">
  $$ h=\frac{ \frac{1}{2} I \omega^{2} }{mg}=\frac{5.26\times 10^{5} \J }{\left(1000 \kg \right)\left(9.80\mss \right)}=53.7 \m . $$
 </div>
 
@@ -364,8 +364,8 @@ blades.
 ![The given figure here shows a helicopter from the Auckland Westpac Rescue Helicopter Service over a sea. A rescue diver is shown holding the iron stand bar at the bottom of the helicopter, clutching a person. In the other image just above this, the blades of the helicopter are shown with their anti-clockwise rotation direction shown with an arrow and the length of one blade is given as four meters.](../resources/Figure_11_04_05a.jpg "The first image shows how helicopters store large amounts of rotational kinetic energy in their blades. This energy must be put into the blades before takeoff and maintained until the end of the flight. The engines do not have enough power to simultaneously provide lift and put significant rotational energy into the blades. The second image shows a helicopter from the Auckland Westpac Rescue Helicopter Service. Over 50 000 lives have been saved since its operations beginning in 1973. Here, a water rescue operation is shown. (credit: 111 Emergency, Flickr)")
 {: #import-auto-id2420248 height="300"}
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Making Connections
 </div>
 Conservation of energy includes rotational motion, because rotational
@@ -403,19 +403,19 @@ Therefore the total work done is the change in kinetic energy. As the cans start
 moving, the potential energy is changing into kinetic energy. Conservation of
 energy gives
 
-<div data-type="equation" id="eip-138">
+<div class="equation" id="eip-138">
  $$ \PE_\text{i}=\KE_\text{f}. $$
 </div>
 
 More specifically,
 
-<div data-type="equation" id="eip-449">
+<div class="equation" id="eip-449">
  $$ \PE_{\text{grav}}=\KE_{\text{trans}}+\KE_{\text{rot}} $$
 </div>
 
 or
 
-<div data-type="equation" id="eip-210">
+<div class="equation" id="eip-210">
  $$ mgh =\frac{1}{2}m v^{2}+\frac{1}{2}I\omega^{2} . $$
 </div>
 
@@ -424,16 +424,16 @@ rotational kinetic energy; and the greater $$ I $$ is, the less energy goes into
 translation. If the can slides down without friction, then $$ \omega =0 $$ and
 all the energy goes into translation; thus, the can goes faster.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Take-Home Experiment
 </div>
 Locate several cans each containing different types of food. First, predict which can will win the race down an inclined plane and explain why. See if your prediction is correct. You could also do this experiment by collecting several empty cylindrical containers of the same size and filling them with different materials such as wet or dry sand.
 
 </div>
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating the Speed of a Cylinder Rolling Down an Incline
 </div>
 Calculate the final speed of a solid cylinder that rolls down a 2.00-m-high incline. The cylinder starts from rest, has a mass of 0.750 kg, and has a radius of 4.00 cm.
@@ -448,7 +448,7 @@ up with $$ v $$ as the only unknown.
 
 Conservation of energy for this situation is written as described above:
 
-<div data-type="equation" id="eip-454">
+<div class="equation" id="eip-454">
  $$ mgh =\frac{1}{2}m v^{2}+\frac{1}{2}I\omega^{2} . $$
 </div>
 Before we can solve for $$ v $$, we must get an expression for $$ I $$
@@ -457,22 +457,22 @@ are related (note here that the cylinder is rolling without slipping), we must
 also substitute the relationship $$ \omega =v/R $$ into the expression. These
 substitutions yield
 
-<div data-type="equation" id="eip-97">
+<div class="equation" id="eip-97">
  $$ mgh =\frac{1}{2}m v^{2}+\frac{1}{2}\left(\frac{1}{2}m R^{2}\right)\left(\frac{ v^{2}}{ R^{2}}\right). $$
 </div>
 Interestingly, the cylinder’s radius $$ R $$ and mass $$ m $$ cancel, yielding
 
-<div data-type="equation" id="eip-798">
+<div class="equation" id="eip-798">
  $$ g h =\frac{1}{2}{v}^{2}+\frac{1}{4}{v}^{2}=\frac{3}{4}{v}^{2} . $$
 </div>
 Solving algebraically, the equation for the final velocity $$ v $$ gives
 
-<div data-type="equation" id="eip-320">
+<div class="equation" id="eip-320">
  $$ v=\sqrt{ \frac{4 g h }{3} } . $$
 </div>
 Substituting known values into the resulting expression yields
 
-<div data-type="equation" id="eip-191">
+<div class="equation" id="eip-191">
  $$ v=\sqrt{ \frac{4\left(9.80\mss \right)\left(2.00 \m \right)}{3} }=5.11 \ms . $$
 </div>
 
@@ -490,17 +490,17 @@ faster at the bottom.
 
 </div>
 
-<div data-type="exercise" data-element-type="check-understanding" data-label="">
-<div data-type="title">
+<div class="exercise" data-element-type="check-understanding" data-label="">
+<div class="title">
 Check Your Understanding
 </div>
-<div data-type="problem" markdown="1">
-<span data-type="title">Analogy of Rotational and Translational Kinetic Energy</span>
+<div class="problem" markdown="1">
+<span class="title">Analogy of Rotational and Translational Kinetic Energy</span>
 Is rotational kinetic energy completely analogous to translational kinetic energy?
 What, if any, are their differences? Give an example of each type of kinetic energy.
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 Yes, rotational and translational kinetic energy are exact analogs.
 They both are the energy of motion involved with the coordinated (non-random)
 movement of mass relative to some reference frame. The only difference between
@@ -516,8 +516,8 @@ kinetic energy relative to the Earth.
 </div>
 </div>
 
-<div data-type="note" data-has-label="true" id="eip-216" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" id="eip-216" data-label="" markdown="1">
+<div class="title">
 PhET Explorations: My Solar System
 </div>
 Build your own system of heavenly bodies and watch the gravitational ballet.
@@ -525,7 +525,7 @@ With this orbit simulator, you can set initial positions, velocities,
 and masses of 2, 3, or 4 bodies, and then see them orbit each other.
 
 <figure markdown="1" id="eip-id2625118">
-<div data-type="cnxsim">
+<div class="cnxsim">
 <iframe src="https://veillette.github.io/simulations/my-solar-system/#sim-my-solar-system" width="750" height="500"  allowfullscreen></iframe>
 <figcaption>
 My solar system
@@ -539,7 +539,7 @@ My solar system
 * {: #import-auto-id1360816} The rotational kinetic energy $$ \KE_
   {\text{rot}} $$ for an object with a moment of inertia $$ I $$ and an angular
   velocity $$ \omega $$ is given by
-  <div data-type="equation" id="eip-595">
+  <div class="equation" id="eip-595">
  $$ \KE_{\text{rot}}=\frac{1}{2}I\omega^{2} . $$
   </div>
 
@@ -551,29 +551,29 @@ My solar system
 * {: #import-auto-id3224025} Work and energy in rotational motion are completely
   analogous to work and energy in translational motion.
 * {: #import-auto-id2453212} The equation for the **work-energy theorem**{:
-  data-type="term"} for rotational motion is,
-  <div data-type="equation" id="eip-669">
+  class="term"} for rotational motion is,
+  <div class="equation" id="eip-669">
  $$ \text{net}W=\frac{1}{2}I\omega^{2}-\frac{1}{2}I \omega_{0}^{2} . $$
   </div>
 
 ### Conceptual Questions
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 Describe the energy transformations involved when a yo-yo is thrown downward and then climbs back up its string to be caught in the user’s hand.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 What energy transformations are involved when a dragster engine is revved, its clutch let out rapidly, its tires spun, and it starts to accelerate forward? Describe the source and transformation of energy at each step.
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="conceptual-questions">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="conceptual-questions">
+<div class="problem" markdown="1">
 The Earth has more rotational kinetic energy now than did the cloud of gas and dust from which it formed. Where did this energy come from?
 
 ![The figure shows a closed view of a red planet in the sky, with a sun like object seen at the far right and the planet shown here being surrounded by circles of gas and dust.](../resources/Figure_11_04_07a.jpg "An immense cloud of rotating gas and dust contracted under the influence of gravity to form the Earth and in the process rotational kinetic energy increased. (credit: NASA)")
@@ -584,15 +584,15 @@ The Earth has more rotational kinetic energy now than did the cloud of gas and d
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 This problem considers energy and work aspects of [[Figure]](../contents/ch10DynamicsOfRotationalMotion.md#fs-id1468671)—use data from that example as needed.
 (a) Calculate the rotational kinetic energy in the merry-go-round plus child when they have an angular velocity of 20.0 rpm.
 (b) Using energy considerations, find the number of revolutions the father will have to push to achieve this angular velocity starting from rest.
 (c) Again, using energy considerations, calculate the force the father must exert to stop the merry-go-round in two revolutions
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 185 J
 
 (b) 0.0785 rev
@@ -601,28 +601,28 @@ This problem considers energy and work aspects of [[Figure]](../contents/ch10Dyn
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 What is the final velocity of a hoop that rolls without slipping down a 5.00-m-high hill, starting from rest?
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) Calculate the rotational kinetic energy of Earth on its axis.
 (b) What is the rotational kinetic energy of Earth in its orbit around the Sun?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 2.57\times 10^{29} \J $$
 
 (b) $$ \KE_{\text{rot}}=2.65\times 10^{33} \J $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Calculate the rotational kinetic energy in the motorcycle wheel
 ([[Figure]](../contents/ch10DynamicsOfRotationalMotion.md#import-auto-id3370574))
 if its angular velocity is 120 rad/s. Assume $$M = 12.0 \kg $$, $$R_1= 0.280 \m $$,
@@ -631,23 +631,23 @@ and $$R_2 = 0.330 \m $$.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A baseball pitcher throws the ball in a motion where there is rotation of the forearm
 about the elbow joint as well as other movements. If the linear velocity of the ball relative to
 the elbow joint is 20.0 m/s at a distance of 0.480 m from the joint and the moment of inertia of
 the forearm is $$ 0.500 \kg \cdot \mm $$, what is the rotational kinetic energy of the forearm?
 
 </div>
-<div data-type="solution">
-<div data-type="equation" id="eip-id1583692">
+<div class="solution">
+<div class="equation" id="eip-id1583692">
  $$ \KE_{\text{rot}}=434 \J $$
 </div>
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 While punting a football, a kicker rotates his leg about the hip joint. The moment of inertia of the leg is $$ 3.75 \kg \cdot \mm $$
 and its rotational kinetic energy is 175 J.
 (a) What is the angular velocity of
@@ -660,22 +660,22 @@ than the tip of the shoe (necessary for a decent kick distance).
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A bus contains a 1500 kg flywheel (a disk that has a 0.600 m radius) and has a total mass of 10 000 kg.
 (a) Calculate the angular velocity the flywheel must have to contain enough energy to take the bus from rest to a speed of 20.0 m/s, assuming 90.0% of the rotational kinetic energy can be transformed into translational energy.
 (b) How high a hill can the bus climb with this stored energy and still have a speed of 3.00 m/s at the top of the hill? Explicitly show how you follow the steps in the [Problem-Solving Strategy for Rotational Energy](#fs-id1986333).
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 128 \rads $$
 
 (b) $$ 19.9 \m $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A ball with an initial velocity of 8.00 m/s rolls up a hill without slipping. Treating the ball as a spherical shell,
 (a) Calculate the vertical height it reaches.
 (b) Repeat the calculation for the same ball if it slides up the hill without rolling.
@@ -683,8 +683,8 @@ A ball with an initial velocity of 8.00 m/s rolls up a hill without slipping. Tr
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 While exercising in a fitness center, a man lies face down on a bench and lifts a
 weight with one lower leg by contacting the muscles in the back of the upper leg.
 (a) Find the angular acceleration produced given the mass lifted is 10.0 kg at a distance
@@ -695,15 +695,15 @@ cm.
 20.0^\circ $$ with a constant force exerted by the muscle?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) $$ 10.4 \rads ^2 $$
 
 (b) $$ \text{net}W=6.11 \J $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 To develop muscle tone, a woman lifts a 2.00-kg weight held in her hand. She uses her biceps muscle to flex the lower arm through an angle of $$ 60.0^\circ $$.
 (a) What is the angular acceleration if the weight is 24.0 cm from the elbow
 joint, her forearm has a moment of inertia of $$ 0.250 \kg \cdot
@@ -714,8 +714,8 @@ of 2.00 cm?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Consider two cylinders that start down identical inclines from rest except that one is frictionless. Thus one cylinder rolls without slipping, while the other slides frictionlessly without rolling.
 They both travel a short distance at the bottom and then start up another incline.
 (a) Show that they both reach the same height on the other incline, and that this height is equal to their original height.
@@ -725,8 +725,8 @@ They both travel a short distance at the bottom and then start up another inclin
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 What is the moment of inertia of an object that rolls without slipping down a
 2.00-m-high incline starting from rest, and has a final velocity of 6.00 m/s?
 Express the moment of inertia as a multiple of $$ M R^{2} $$,
@@ -735,8 +735,8 @@ where $$ M $$ is the mass of the object and $$ R $$ is its radius.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Suppose a 200-kg motorcycle has two wheels like, [the one described in Problem 10.15](../contents/ch10DynamicsOfRotationalMotion.md#import-auto-id3370574) and is heading toward a hill at a speed of 30.0 m/s.
 (a) How high can it coast up the hill, if you neglect friction?
 (b) How much energy is lost to friction if the motorcycle only gains an altitude of 35.0 m before coming to rest?
@@ -744,8 +744,8 @@ Suppose a 200-kg motorcycle has two wheels like, [the one described in Problem 1
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 In softball, the pitcher throws with the arm fully extended (straight at the elbow). In a fast pitch the ball leaves the hand with a speed of 139 km/h.
 (a) Find the rotational kinetic energy of the pitcher’s arm given its moment of inertia is $$ 0.720 \kg \cdot \mm $$
 and the ball leaves the hand at a distance of 0.600 m from the pivot at the shoulder.
@@ -753,15 +753,15 @@ and the ball leaves the hand at a distance of 0.600 m from the pivot at the shou
 their effective perpendicular lever arm is 4.00 cm and the ball is 0.156 kg?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 1.49 kJ
 
 (b) $$ 2.52\times 10^{4}\N $$
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 
 **Construct Your Own Problem**
 
@@ -773,10 +773,10 @@ increase in kinetic energy.
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 work-energy theorem
 : if one or more external forces act upon a rigid object, causing its kinetic

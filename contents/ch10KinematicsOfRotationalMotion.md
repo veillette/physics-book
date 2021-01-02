@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Observe the kinematics of rotational motion.
 * Derive rotational kinematic equations.
 * Evaluate problem solving strategies for rotational kinematics.
@@ -23,14 +23,14 @@ acceleration produces a large final velocity, and the distance traveled will
 also be large.
 
 Kinematics is the description of motion. The **kinematics of rotational motion**
-{: data-type="term" #import-auto-id3025215} describes the relationships among
+{: class="term" #import-auto-id3025215} describes the relationships among
 rotation angle, angular velocity, angular acceleration, and
 
 time. Let us start by finding an equation relating $$ \omega $$, $$ \alpha $$,
 and $$ t $$. To determine this equation, we recall a familiar kinematic equation
 for translational, or straight-line, motion:
 
-<div data-type="equation" id="eip-580">
+<div class="equation" id="eip-580">
  $$ v=v_{0}+ at \left(\text{constant } a\right) $$
 </div>
 
@@ -40,13 +40,13 @@ kinematics, we assume $$ a $$ is constant, which means that angular acceleration
 $$ \alpha $$ is also a constant, because $$ a= r\alpha $$. Now, let us
 substitute $$ v=r \omega $$ and $$ a= r\alpha $$ into the linear equation above:
 
-<div data-type="equation" id="eip-343">
+<div class="equation" id="eip-343">
  $$ r \omega =r \omega_{0}+ r\alpha t . $$
 </div>
 
 The radius $$ r $$ cancels in the equation, yielding
 
-<div data-type="equation" id="eip-323">
+<div class="equation" id="eip-323">
  $$ \omega =\omega_{0} +a t \left(\text{constant } a\right), $$
 </div>
 
@@ -56,8 +56,8 @@ is, it describes their relationship without reference to forces or masses that
 may affect rotation. It is also precisely analogous in form to its translational
 counterpart.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Making Connections
 </div>
 Kinematics for rotational motion is completely analogous to translational kinematics,
@@ -87,7 +87,7 @@ In these equations, the subscript 0 denotes initial values
 and the average angular velocity $$ \overline{\omega } $$
 and average velocity $$ \overline{v} $$ are defined as follows:
 
-<div data-type="equation" id="eip-900">
+<div class="equation" id="eip-900">
  $$ \overline{\omega }=\frac{ \omega_{0} +\omega }{2}; \overline{v}=\frac{ v_
 {0}+v}{2} . $$
 </div>
@@ -96,8 +96,8 @@ The equations given above in [[Figure]](#import-auto-id3400476) can be used to
 solve any rotational or translational kinematics problem in which $$ a $$ and $$
 \alpha $$ are constant.
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Problem-Solving Strategy for Rotational Kinematics
 </div>
 1.  {: #import-auto-id2688094} *Examine the situation to determine that rotational kinematics (rotational motion) is involved*. Rotation must be involved, but without the need to consider forces or masses that affect the motion.
@@ -110,8 +110,8 @@ Problem-Solving Strategy for Rotational Kinematics
 
 </div>
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating the Acceleration of a Fishing Reel
 </div>
 A deep-sea fisherman hooks a big fish that swims away from the boat pulling the fishing
@@ -141,13 +141,13 @@ The most straightforward equation to use is $$ \omega =\omega_{0} +\alpha t $$
 because the unknown is already on one side and all other terms are known. That
 equation states that
 
-<div data-type="equation" id="eip-826">
+<div class="equation" id="eip-826">
  $$ \omega =\omega_{0} +\alpha t . $$
 </div>
 We are also given that $$ \omega_{0} =0 $$
 (it starts from rest), so that
 
-<div data-type="equation" id="eip-74">
+<div class="equation" id="eip-74">
  $$ \omega =0+\left( 110 \radss \right)\left(2.00\s \right) =220\rads . $$
 </div>
 
@@ -155,12 +155,12 @@ We are also given that $$ \omega_{0} =0 $$
 
 Now that $$ \omega $$ is known, the speed $$ v $$ can most easily be found using the relationship
 
-<div data-type="equation" id="eip-825">
+<div class="equation" id="eip-825">
  $$ v=r \omega , $$
 </div>
 where the radius $$ r $$ of the reel is given to be 4.50 cm; thus,
 
-<div data-type="equation" id="eip-147">
+<div class="equation" id="eip-147">
  $$ v=\left(0.0450 \m \right)\left(220 \rads \right)=9.90 \ms . $$
 </div>
 Note again that radians must always be used in any calculation relating linear and angular quantities. Also, because radians are dimensionless, we have $$ \m ×\text{rad}=\m $$.
@@ -173,7 +173,7 @@ in radians. We are given $$ \alpha $$ and $$ t $$, and we know $$ \omega_{0} $$
 is zero, so that $$ \theta $$ can be obtained using $$ \theta =\omega_{0}
 t+\frac{1}{2} \alpha t^{2} $$.
 
-<div data-type="equation" id="eip-252">
+<div class="equation" id="eip-252">
  $$ \begin{array}{lll}
 \theta & =& \omega_{0} t+\frac{1}{2}\alpha t^{2}\\
  & =& 0+\left(0.500\right)\left(110 \radss \right){\left(2.00 \s \right)}^{2}=220 \text{rad}.
@@ -181,7 +181,7 @@ t+\frac{1}{2} \alpha t^{2} $$.
 </div>
 Converting radians to revolutions gives
 
-<div data-type="equation" id="eip-689">
+<div class="equation" id="eip-689">
  $$ \theta =\left(220 \text{rad}\right)\frac{1 \text{rev}}{2 \pi \text{rad}}
 =35.0 \text{rev} . $$
 </div>
@@ -191,7 +191,7 @@ Converting radians to revolutions gives
 The number of meters of fishing line is $$ x $$, which
 can be obtained through its relationship with $$ \theta $$:
 
-<div data-type="equation" id="eip-665">
+<div class="equation" id="eip-665">
  $$ x=r\theta = \left(0.0450 \m \right)\left(220 \text{rad} \right)=9.90 \m . $$
 </div>
 
@@ -210,8 +210,8 @@ fish bites.
 ![The figure shows a fishing reel, with radius equal to 4.5 centimeters. The direction of rotation of the reel is counterclockwise. The rotational quantities are theta, omega and alpha, and x, v, a are linear or translational quantities. The reel, fishing line, and the direction of motion have been separately indicated by curved arrows pointing toward those parts.](../resources/Figure_11_02_01a.jpg "Fishing line coming off a rotating reel moves linearly. [link] and [link] consider relationships between rotational and linear quantities associated with a fishing reel.")
 {: #import-auto-id2953309}
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating the Duration When the Fishing Reel Slows Down and Stops
 </div>
 Now let us consider what happens if the fisherman applies a brake to the spinning reel, achieving an angular acceleration of $$ –300 \radss $$
@@ -232,12 +232,12 @@ use this equation.
 
 The equation states
 
-<div data-type="equation" id="eip-736">
+<div class="equation" id="eip-736">
  $$ \omega =\omega_{0}+ \alpha t . $$
 </div>
 We solve the equation algebraically for *t*, and then substitute the known values as usual, yielding
 
-<div data-type="equation" id="eip-309">
+<div class="equation" id="eip-309">
  $$ t=\frac{ \omega -\omega_{0} }{\alpha }=\frac{0-220 \rads }
 {-300 \radss }=0.733 \s  . $$
 </div>
@@ -253,8 +253,8 @@ smaller acceleration.
 
 </div>
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating the Slow Acceleration of Trains and Their Wheels
 </div>
 Large freight trains accelerate very slowly. Suppose one such train accelerates from rest, giving its 0.350-m-radius wheels an angular acceleration of $$ 0.250 \radss $$. After the wheels have made 200 revolutions (assume no slippage):
@@ -272,23 +272,23 @@ radius of the wheels $$ r $$, and the angular acceleration $$ \alpha $$.
 The distance $$ x $$ is very easily found from the relationship between distance
 and rotation angle:
 
-<div data-type="equation" id="eip-36">
+<div class="equation" id="eip-36">
  $$ \theta =\frac{x}{r}. $$
 </div>
 Solving this equation for $$ x $$ yields
 
-<div data-type="equation" id="eip-53">
+<div class="equation" id="eip-53">
  $$ x=r\theta . $$
 </div>
 Before using this equation, we must convert the number of revolutions into radians, because we are dealing with a relationship between linear and rotational quantities:
 
-<div data-type="equation" id="eip-915">
+<div class="equation" id="eip-915">
  $$ \theta =\left(200\text{rev}\right)\frac{2\pi \text{rad}}{1 \text{rev}}=1257\text{rad}. $$
 </div>
 Now we can substitute the known values into $$ x= r\theta $$
 to find the distance the train moved down the track:
 
-<div data-type="equation" id="eip-271">
+<div class="equation" id="eip-271">
  $$ x= r\theta =\left(0.350 \m \right)\left(1257 \text{rad}\right)=440 \m . $$
 </div>
 
@@ -299,12 +299,12 @@ because the equation would have at least two unknown values. The equation $$
 \omega^{2}=\omega_{0}^{2}+2 \alpha \theta $$ will work, because we know the
 values for all variables except $$ \omega $$:
 
-<div data-type="equation" id="eip-401">
+<div class="equation" id="eip-401">
  $$ \omega^{2}=\omega_{0}^{2}+2 \alpha \theta $$
 </div>
 Taking the square root of this equation and entering the known values gives
 
-<div data-type="equation" id="eip-6">
+<div class="equation" id="eip-6">
  $$ \begin{array}{lll}
 \omega & =& {\left[ 0+ 2\left(0.250 \radss \right)
 \left(1257 \text{rad}\right)\right]}^{1/2} \\
@@ -314,7 +314,7 @@ Taking the square root of this equation and entering the known values gives
 We can find the linear velocity of the train, $$ v $$,
 through its relationship to $$ \omega $$:
 
-<div data-type="equation" id="eip-84">
+<div class="equation" id="eip-84">
  $$ v=r \omega =\left(0.350 \m\right)\left(25.1 \rads \right)=8.77 \ms . $$
 </div>
 
@@ -332,8 +332,8 @@ total distance it travels.
 ![The figure shows a fly that has landed on the rotating plate of the microwave. The direction of rotation of the plate, omega, is counterclockwise and is shown with an arrow.](../resources/Figure_11_02_02a.jpg "The image shows a microwave plate. The fly makes revolutions while the food is heated (along with the fly).")
 {: #import-auto-id2409927}
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating the Distance Traveled by a Fly on the Edge of a Microwave Oven Plate
 </div>
 A person decides to use a microwave oven to reheat some lunch. In the process, a fly accidentally flies into the microwave and lands on the outer edge of the rotating plate and remains there. If the plate has a radius of 0.15 m and rotates at 6.0 rpm, calculate the total distance traveled by the fly during a 2.0-min cooking period. (Ignore the start-up and slow-down times.)
@@ -348,20 +348,20 @@ $$ \theta $$ because $$ \overline{\omega } $$ is given to be 6.0 rpm.
 
 Entering known values into $$ \theta =\overline{\omega }t $$ gives
 
-<div data-type="equation" id="eip-477">
+<div class="equation" id="eip-477">
  $$ \theta =\overline{\omega} t=\left(6.0 \text{rpm}\right)\left(2.0 \text{min}\right)=12 \text{rev}. $$
 </div>
 As always, it is necessary to convert revolutions to radians before
 calculating a linear quantity like $$ x $$ from an angular quantity like $$ \theta $$:
 
-<div data-type="equation" id="eip-745">
+<div class="equation" id="eip-745">
  $$ \theta =\left(12 \text{rev}\right)\left(\frac{2\pi \text{rad}}{1 \text
 {rev}}\right)=75.4\text{rad.} $$
 </div>
 Now, using the relationship between $$ x $$
 and $$ \theta $$, we can determine the distance traveled:
 
-<div data-type="equation" id="eip-624">
+<div class="equation" id="eip-624">
  $$ x=r \theta =\left(0.15\m \right)\left(75.4\text{rad}\right)
 =11\m . $$
 </div>
@@ -376,15 +376,15 @@ in [One-Dimensional Kinematics](../contents/ch2Kinematics.md).
 
 </div>
 
-<div data-type="exercise" data-element-type="Check-Understanding" data-label="">
-<div data-type="title">
+<div class="exercise" data-element-type="Check-Understanding" data-label="">
+<div class="title">
 Check Your Understanding
 </div>
-<div data-type="problem" markdown="1">
+<div class="problem" markdown="1">
 Rotational kinematics has many useful relationships, often expressed in equation form. Are these relationships laws of physics or are they simply descriptive? (Hint: the same question applies to linear kinematics.)
 
 </div>
-<div data-type="solution" data-print-placement="here" markdown="1">
+<div class="solution" data-print-placement="here" markdown="1">
 Rotational kinematics (just like linear kinematics) is descriptive and does not represent laws of nature. With kinematics, we can describe many things to great precision but kinematics does not consider causes. For example, a large angular acceleration describes a very rapid change in angular velocity without any consideration of its cause.
 
 </div>
@@ -404,14 +404,14 @@ Rotational kinematics (just like linear kinematics) is descriptive and does not 
   values ($$ x_{0} $$ and $$ t_{0} $$ are initial values), and the average angular velocity $$
  \overline{\omega } $$ and average velocity $$ \overline{v} $$ are defined as
   follows:
-  <div data-type="equation" id="eip-462">
+  <div class="equation" id="eip-462">
  $$ \overline{\omega }=\frac{ \omega_{0} +\omega }{2}\text{ and }\overline{v}=\frac{ v_{0}+v}{2}. $$
   </div>
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 With the aid of a string, a gyroscope is accelerated from rest to 32 rad/s in 0.40 s.
 
 (a) What is its angular acceleration in $$\radss $$?
@@ -419,7 +419,7 @@ With the aid of a string, a gyroscope is accelerated from rest to 32 rad/s in 0.
 (b) How many revolutions does it go through in the process?
 
 </div>
-<div data-type="solution" data-element-type="problems-exercises" markdown="1">
+<div class="solution" data-element-type="problems-exercises" markdown="1">
 (a) $$ 80 \radss $$
 
 (b) 1.0 rev
@@ -427,15 +427,15 @@ With the aid of a string, a gyroscope is accelerated from rest to 32 rad/s in 0.
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Suppose a piece of dust finds itself on a CD. If the spin rate of the CD is 500 rpm, and the piece of dust is 4.3 cm from the center, what is the total distance traveled by the dust in 3 minutes? (Ignore accelerations due to getting the CD rotating.)
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A gyroscope slows from an initial rate of 32.0 rad/s at a rate of $$ 0.700
 \radss $$.
 
@@ -444,7 +444,7 @@ A gyroscope slows from an initial rate of 32.0 rad/s at a rate of $$ 0.700
 (b) How many revolutions does it make before stopping?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 (a) 45.7 s
 
 (b) 116 rev
@@ -452,8 +452,8 @@ A gyroscope slows from an initial rate of 32.0 rad/s at a rate of $$ 0.700
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 During a very quick stop, a car decelerates at $$ 7.00 \mss $$.
 
 (a) What is the angular acceleration of its 0.280-m-radius tires, assuming they
@@ -477,8 +477,8 @@ very quickly?
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 Everyday application: Suppose a yo-yo has a center shaft that has a 0.250 cm radius and that its string is being pulled.
 
 (a) If the string is stationary and the yo-yo accelerates away from it at a rate
@@ -490,7 +490,7 @@ of $$ 1.50 \mss $$, what is the angular acceleration of the yo-yo?
 acceleration of a point on its edge?
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 a) $$ 600 \radss $$
 
 b) 450 rad/s
@@ -500,10 +500,10 @@ c) 21.0 m/s
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 kinematics of rotational motion
 : describes the relationships among rotation angle, angular velocity, angular acceleration, and time

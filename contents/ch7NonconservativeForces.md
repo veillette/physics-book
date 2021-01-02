@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract" markdown="1">
+<div class="abstract" markdown="1">
 * Define nonconservative forces and explain how they affect mechanical energy.
 * Show how the principle of conservation of energy can be applied by treating the conservative forces in terms of their potential energies and any nonconservative forces in terms of the work they do.
 
@@ -14,7 +14,7 @@ layout: page
 
 Forces are either conservative or nonconservative. Conservative forces were
 discussed in [Conservative Forces and Potential Energy](../contents/ch7ConservaticeForcesAndPotentialEnergy.md). A
-**nonconservative force**{: data-type="term" #import-auto-id2125883} is one for
+**nonconservative force**{: class="term" #import-auto-id2125883} is one for
 which work depends on the path taken. Friction is a good example of a
 nonconservative force. As illustrated in [[Figure]](#import-auto-id2415636),
 work done against
@@ -22,8 +22,8 @@ friction depends on the length of the path between the starting and ending
 points. Because of this dependence on path, there is no potential energy
 associated with nonconservative forces. An important characteristic is that the
 work done by a nonconservative force *adds or removes mechanical energy from a
-system*. **Friction**{: data-type="term" #import-auto-id2182205}, for example,
-creates **thermal energy**{: data-type="term" #import-auto-id2697468} that
+system*. **Friction**{: class="term" #import-auto-id2182205}, for example,
+creates **thermal energy**{: class="term" #import-auto-id2697468} that
 dissipates, removing energy from the system. Furthermore, even if the thermal
 energy is retained or captured, it cannot be fully converted back to work, so it
 is lost or not recoverable in that sense as well.
@@ -56,13 +56,13 @@ its kinetic energy, or $$ W_{\text{net}}=\Delta \KE $$. The net work is the sum
 of the work by nonconservative forces plus the work by conservative forces. That
 is,
 
-<div data-type="equation">
+<div class="equation">
  $$ W_{\text{net}}= W_{\text{nc}}+ W_{\text{c}}, $$
 </div>
 
 so that
 
-<div data-type="equation">
+<div class="equation">
  $$ W_{\text{nc}}+ W_{c}=\Delta \KE, $$
 </div>
 
@@ -78,7 +78,7 @@ done by a conservative force comes from a loss of gravitational potential
 energy, so that $$ W_{\text{c}}=-\Delta \PE $$. Substituting this equation
 into the previous one and solving for $$ W_{\text{nc}} $$ gives
 
-<div data-type="equation">
+<div class="equation">
  $$ W_{\text{nc}}=\Delta \KE+\Delta \PE . $$
 </div>
 
@@ -91,7 +91,7 @@ work was done to cause the change in total mechanical energy.
 
 We rearrange $$ W_{\text{nc}}=\Delta \KE+\Delta \PE $$ to obtain
 
-<div data-type="equation">
+<div class="equation">
  $$ \KE_{\text{i}}+\PE_{\text{i}}+ W_{\text{nc}}=\KE_{\text{f}}+\PE_{\text{f}}. $$
 </div>
 
@@ -121,8 +121,8 @@ resulted from just the conservative forces, including the potential energy
 changes, and add to it the work done, with the proper sign, by any
 nonconservative forces involved.
 
-<div data-type="example" markdown="1">
-<div data-type="title">
+<div class="example" markdown="1">
+<div class="title">
 Calculating Distance Traveled: How Far a Baseball Player Slides
 </div>
 Consider the situation shown in [[Figure]](#import-auto-id1908314), where a baseball player slides to a stop on level ground. Using energy considerations, calculate the distance the 65.0-kg baseball player slides, given that his initial speed is 6.00 m/s and the force of friction against him is a constant 450 N.
@@ -140,12 +140,12 @@ is in the opposite direction of the motion (that is, $$ \theta =180^\circ $$,
 and so $$ \cos{\theta} =-1 $$).
 Thus $$ W_{\text{nc}}=-F d $$. The equation simplifies to
 
-<div data-type="equation">
+<div class="equation">
  $$ \frac{1}{2} m v_{i}^{2}-f d =0 $$
 </div>
 or
 
-<div data-type="equation">
+<div class="equation">
  $$ f d =\frac{1}{2} m v_{i}^{2}. $$
 </div>
 This equation can now be solved for the distance $$ d $$.
@@ -154,7 +154,7 @@ This equation can now be solved for the distance $$ d $$.
 
 Solving the previous equation for $$ d $$ and substituting known values yields
 
-<div data-type="equation">
+<div class="equation">
  $$ \begin{array}{lll}
 d& =& \frac{m v_{i}^{2}}{2f}\\
  & =& \frac{ \left(65.0 \kg \right)\left(6.00 \ms \right)^{2}}
@@ -171,8 +171,8 @@ to stop a truck, with its large mechanical energy, than to stop a mosquito.
 
 </div>
 
-<div data-type="example" id="eip-944" markdown="1">
-<div data-type="title">
+<div class="example" id="eip-944" markdown="1">
+<div class="title">
 Calculating Distance Traveled: Sliding Up an Incline
 </div>
 Suppose that the player from [[Figure]](#fs-id1900640) is running up a hill having
@@ -191,7 +191,7 @@ the final mechanical energy he has by moving through distance $$ d $$ to reach
 height $$ h $$ along the hill, with $$ h=d\sin{5.00^\circ} $$. This is expressed
 by the equation
 
-<div data-type="equation">
+<div class="equation">
  $$ \KE_{\text{i}}+\PE_\text{i}+ W_{\text{nc}}
 =\KE_{\text{f}}+\PE_{\text{f}}. $$
 </div>
@@ -206,12 +206,12 @@ are $$ \KE_{f}=0 $$ for the kinetic energy and $$ \PE_{f}=mgh
 
 Substituting these values gives
 
-<div data-type="equation" id="eip-652">
+<div class="equation" id="eip-652">
  $$ \frac{1}{2} m v_{i}^{2}+0+\left(-f d \right)=0+ m g d \sin{\theta} . $$
 </div>
 Solve this for $$ d $$ to obtain
 
-<div data-type="equation">
+<div class="equation">
  $$ \begin{array}{lll}
 d& =& \frac{ \frac{1}{2} mv_\text{i}^{2} }
 {f+mg \sin{\theta} }\\
@@ -239,8 +239,8 @@ considerably.
 
 </div>
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 Making Connections: Take-Home Investigation—Determining Friction from the Stopping Distance
 </div>
 This experiment involves the conversion of gravitational potential energy into
@@ -275,8 +275,8 @@ proportional to the mass of the steel and glass marbles?
 
 </div>
 
-<div data-type="note" data-has-label="true" data-label="" markdown="1">
-<div data-type="title">
+<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="title">
 PhET Explorations: The Ramp
 </div>
 Explore forces, energy and work as you push household objects up and down a ramp. Lower and
@@ -284,7 +284,7 @@ raise the ramp to see how the angle of inclination affects the parallel forces a
 cabinet. Graphs show forces, energy and work.
 
 <figure markdown="1" id="theRamp">
-<div data-type="phet">
+<div class="phet">
 <iframe src="https://phet.colorado.edu/sims/cheerpj/the-ramp/latest/the-ramp.html?simulation=the-ramp" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 The Ramp
@@ -312,22 +312,22 @@ The Ramp
 
 ### Problems &amp; Exercises
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 A 60.0-kg skier with an initial speed of 12.0 m/s coasts up a 2.50-m-high rise as shown in [[Figure]](#import-auto-id1802314). Find her final speed at the top, given that the coefficient of friction between her skis and the snow is 0.0800. (Hint: Find the distance traveled up the incline assuming a straight-line path as shown in the figure.)
 
 ![A skier is about to go up an inclined slope with some initial speed v sub i shown by an arrow towards right. The slope makes a thirty-five-degree with the horizontal. The height of the point where the slope ends from the skiers&#x2019; starting position is two point five meters. Final speed of the skier at the end of the inclined slope is unknown.](../resources/Figure_08_05_07a.jpg "The skier&#x2019;s initial kinetic energy is partially used in coasting to the top of a rise.")
 {: #import-auto-id1802314}
 
 </div>
-<div data-type="solution" markdown="1">
+<div class="solution" markdown="1">
 9.46 m/s
 
 </div>
 </div>
 
-<div data-type="exercise" data-element-type="problems-exercises">
-<div data-type="problem" markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 (a) How high a hill can a car coast up (engine disengaged) if work done by friction is negligible and its initial speed is 110 km/h?
 (b) If, in actuality, a 750-kg car with an initial speed of 110 km/h is observed to coast up a hill to a height 22.0 m above its starting point, how much thermal energy was generated by friction?
 (c) What is the average force of friction if the hill has a slope $$ 2.5^\circ $$
@@ -336,10 +336,10 @@ above the horizontal?
 </div>
 </div>
 
-<div data-type="glossary" markdown="1">
+<div class="glossary" markdown="1">
 
 ### Glossary
-{: data-type="glossary-title"}
+{: class="glossary-title"}
 
 {: #import-auto-id1436122} nonconservative force
 : a force whose work depends on the path followed between the given initial and
