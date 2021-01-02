@@ -1006,7 +1006,3 @@ h6:hover .header-link {
 .page {
   counter-reset: figure example exercise;
 }
-
-.cnx-pi {
-  display: none;
-}
