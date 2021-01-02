@@ -124,7 +124,7 @@ svg:not(:root) {
 figure {
   margin: 0;
   border: solid #efefff;
-  border-width: 3px 2px 0px 2px;
+  border-width: 3px 2px 0 2px;
 }
 figcaption {
   margin: 0;
@@ -1312,7 +1312,6 @@ body {
 
 body {
   text-rendering: optimizeLegibility;
-  font-smoothing: antialiased;
   font-family: "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow: hidden; /* Hide scrollbars */
 }
