@@ -67,9 +67,6 @@
  </div>
 
   <div class="book-summary">
-    <div class="book-search">
-      <input type="text" placeholder="Search" class="form-control">
-    </div>
   </div>
 
   <div class="book-body">
@@ -92,7 +89,7 @@
 </div>`;
 
     $(function () {
-        let $body, $book, $bookBody, $bookPage, $bookProgressBar, $bookSearchInput, $bookSummary, $bookTitle,
+        let $body, $book, $bookBody, $bookPage, $bookProgressBar, $bookSummary, $bookTitle,
             $originalPage, $toggleSummary, TocHelper, addTrailingSlash, changePage, mdToHtmlFix,
             pageBeforeRender, removeTrailingSlash, renderNextPrev, renderToc, tocHelper, updateContributeUrl;
         $body = $('body');
@@ -101,7 +98,6 @@
         $body.append(BOOK_TEMPLATE);
         $book = $body.find('.book');
         $toggleSummary = $book.find('.toggle-summary');
-        $bookSearchInput = $book.find('.book-search .form-control');
         $bookSummary = $book.find('.book-summary');
         $bookBody = $book.find('.book-body');
         $bookPage = $book.find('.page-inner > .normal');
@@ -393,9 +389,6 @@
                     break;
                 default:
                     $link = null;
-            }
-            if (!$bookSearchInput.is(':focus')) {
-                return $link != null ? $link.click() : void 0;
             }
         });
         $('body').on('click', 'a[href]:not([href^="#"]):not([href^="http"])', function (evt) {
