@@ -133,8 +133,7 @@ h6:hover .header-link {
   content: 'Note: ';
 }
 
-.book .book-body .page-wrapper .page-inner [data-type="note"]:not([data-label]):not(.ui-has-child-title)::before,
-.book .book-body .page-wrapper .page-inner .note:not([data-label]):not(.ui-has-child-title)::before {
+.book .book-body .page-wrapper .page-inner [data-type="note"]:not([data-label]):not(.ui-has-child-title)::before {
   display: inline-block;
   color: #555555;
   font-size: 1.5rem;
@@ -152,8 +151,7 @@ h6:hover .header-link {
   letter-spacing: 1px;
 }
 
-.book .book-body .page-wrapper .page-inner [data-type="note"][data-label='']:not(.ui-has-child-title)::before,
-.book .book-body .page-wrapper .page-inner .note[data-label='']:not(.ui-has-child-title)::before {
+.book .book-body .page-wrapper .page-inner [data-type="note"][data-label='']:not(.ui-has-child-title)::before {
   display: inline-block;
   color: #555555;
   font-size: 1.5rem;
@@ -376,57 +374,41 @@ h6:hover .header-link {
   content: '[Hide Solution]';
 }
 
-.book .book-body .page-wrapper .page-inner [data-type="example"].check-understanding [data-type="title"]::before,
-.book .book-body .page-wrapper .page-inner [data-type="exercise"].check-understanding [data-type="title"]::before,
-.book .book-body .page-wrapper .page-inner .example.check-understanding [data-type="title"]::before,
-.book .book-body .page-wrapper .page-inner .exercise.check-understanding [data-type="title"]::before,
-.book .book-body .page-wrapper .page-inner [data-type="example"][data-type=check-understanding] .title::before,
-.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-type=check-understanding] .title::before,
-.book .book-body .page-wrapper .page-inner .example[data-type=check-understanding] .title::before,
-.book .book-body .page-wrapper .page-inner .exercise[data-type=check-understanding] .title::before {
+
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-element-type="check-understanding"]  [data-type="title"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-element-type="check-understanding"]  [data-type="title"]::before {
   margin-right: 0;
   content: "";
 }
 
-.book .book-body .page-wrapper .page-inner [data-type="example"].conceptual-questions [data-type="problem"],
-.book .book-body .page-wrapper .page-inner [data-type="exercise"].conceptual-questions [data-type="problem"],
-.book .book-body .page-wrapper .page-inner .example.conceptual-questions [data-type="problem"],
-.book .book-body .page-wrapper .page-inner .exercise.conceptual-questions [data-type="problem"],
-.book .book-body .page-wrapper .page-inner [data-type="example"][data-type=conceptual-questions] .problem,
-.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-type=conceptual-questions] .problem,
-.book .book-body .page-wrapper .page-inner .example[data-type=conceptual-questions] .problem,
-.book .book-body .page-wrapper .page-inner .exercise[data-type=conceptual-questions] .problem {
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-element-type="conceptual-questions"]  [data-type="problem"] ,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-element-type="conceptual-questions"]  [data-type="problem"] {
   border-top: none;
 }
 
-.book .book-body .page-wrapper .page-inner [data-type="example"].conceptual-questions [data-type="problem"] p,
-.book .book-body .page-wrapper .page-inner [data-type="exercise"].conceptual-questions [data-type="problem"] p,
-.book .book-body .page-wrapper .page-inner .example.conceptual-questions [data-type="problem"] p,
-.book .book-body .page-wrapper .page-inner .exercise.conceptual-questions [data-type="problem"] p,
-.book .book-body .page-wrapper .page-inner [data-type="example"][data-type=conceptual-questions] .problem p,
-.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-type=conceptual-questions] .problem p,
-.book .book-body .page-wrapper .page-inner .example[data-type=conceptual-questions] .problem p,
-.book .book-body .page-wrapper .page-inner .exercise[data-type=conceptual-questions] .problem p {
+
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-element-type="conceptual-questions"]  [data-type="problem"] p,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-element-type="conceptual-questions"]  [data-type="problem"] p {
   margin: 0;
 }
 
-.book .book-body .page-wrapper .page-inner [data-type="example"][data-type=problems-exercises] [data-type="problem"]::before,
-.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-type=problems-exercises] [data-type="problem"]::before,
-.book .book-body .page-wrapper .page-inner [data-type="example"][data-type=problems-exercises] [data-type="solution"]::before,
-.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-type=problems-exercises] [data-type="solution"]::before {
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-element-type="problems-exercises"] [data-type="problem"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-element-type="problems-exercises"] [data-type="problem"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-element-type="problems-exercises"] [data-type="solution"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-element-type="problems-exercises"] [data-type="solution"]::before {
   font-weight: bold;
   color: #555555;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
-.book .book-body .page-wrapper .page-inner [data-type="example"][data-type=problems-exercises] [data-type="problem"]::before,
-.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-type=problems-exercises] [data-type="problem"]::before {
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-element-type="problems-exercises"] [data-type="problem"]::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-element-type="problems-exercises"] [data-type="problem"]::before {
   content: "Problem";
 }
 
-.book .book-body .page-wrapper .page-inner [data-type="example"][data-type=problems-exercises] [data-type="solution"]::before .solution::before,
-.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-type=problems-exercises] [data-type="solution"]::before .solution::before {
+.book .book-body .page-wrapper .page-inner [data-type="example"][data-element-type="problems-exercises"] [data-type="solution"]::before .solution::before,
+.book .book-body .page-wrapper .page-inner [data-type="exercise"][data-element-type="problems-exercises"] [data-type="solution"]::before .solution::before {
   content: "Solution";
 }
 
