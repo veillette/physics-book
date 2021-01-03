@@ -333,28 +333,6 @@ h6:hover .header-link {
     background-color: #555555;
 }
 
-.book .book-body .page-wrapper .page-inner .exercise[data-label]:not([data-label='']).ui-has-child-title > header > .title,
-.book .book-body .page-wrapper .page-inner .exercise[data-label]:not([data-label='']).ui-has-child-title > .title {
-    display: inline-block;
-    padding: 0.1em 1em;
-    font-weight: bold;
-    color: #ededed;
-    background-color: #555555;
-}
-
-.book .book-body .page-wrapper .page-inner .exercise[data-label]:not([data-label='']).ui-has-child-title > header > .title::before,
-.book .book-body .page-wrapper .page-inner .exercise[data-label]:not([data-label='']).ui-has-child-title > .title::before {
-    content: attr(data-label-parent) ': ';
-}
-
-.book .book-body .page-wrapper .page-inner .exercise[data-label]:not([data-label='']):not(.ui-has-child-title)::before {
-    display: inline-block;
-    padding: 0.1em 1em;
-    font-weight: bold;
-    color: #ededed;
-    background-color: #555555;
-    content: attr(data-label);
-}
 
 .book .book-body .page-wrapper .page-inner .exercise > section {
     padding: 5px 15px;
