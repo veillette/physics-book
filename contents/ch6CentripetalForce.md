@@ -279,7 +279,7 @@ of these are presented in this chapter’s Problems and Exercises.
 
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Take-Home Experiment
 </div>

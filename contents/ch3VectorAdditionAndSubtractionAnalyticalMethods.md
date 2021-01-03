@@ -125,7 +125,7 @@ respectively, then $$ A=\sqrt{ 9^{2}+5^{2}}=10.3 $$ blocks, again consistent
 with the example of the person walking in a city. Finally, the direction is $$
 \theta ={\tan}^{-1}\left(5/9 \right) =29.1^\circ $$, as before.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Determining Vectors and Vector Components with Analytical Methods
 </div>

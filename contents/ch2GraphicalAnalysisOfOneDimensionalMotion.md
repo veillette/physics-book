@@ -81,7 +81,7 @@ Thus a graph of position versus time gives a general relationship among
 displacement(change in position), velocity, and time, as well as giving detailed
 numerical information about a specific situation.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 The Slope of *x* vs. *t*
 </div>
@@ -249,7 +249,7 @@ graph is acceleration. Slope is rise divided by run; on a $$ v $$ vs. $$ t $$
 graph, rise = change in velocity $$ \Delta v $$ and run = change in time $$
 \Delta t $$.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 The Slope of \(v \) vs. \(t\)
 </div>

@@ -80,7 +80,7 @@ constant acceleration of magnitude $$ g $$. We will also represent vertical
 displacement with the symbol $$ y $$ and use $$ x $$ for horizontal
 displacement.
 
-<div class="note" data-has-label="true" data-label="">
+<div class="note" data-label="">
 <div class="title">
 Kinematic Equations for Objects in Free-Fall where Acceleration = -*g*
 </div>
@@ -211,7 +211,7 @@ discuss in more detail later.
 
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Take-Home Experiment—Reaction Time
 </div>
@@ -393,7 +393,7 @@ Thus, it takes about 2.5 seconds for the piece of ice to hit the water.
 </div>
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Graphing Quadratics
 </div>

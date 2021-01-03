@@ -74,7 +74,7 @@ involved, a set of axes with one axis parallel to the incline and one
 perpendicular to it is most convenient. It is almost always convenient to make
 one axis parallel to the direction of motion, if this is known.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Applying Newton’s Second Law
 </div>

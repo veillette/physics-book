@@ -57,7 +57,7 @@ direction is positive, then acceleration due to gravity takes a positive value.)
 Because gravity is vertical, $$ a_{x}=0 $$. Both accelerations are constant, so
 the kinematic equations can be used.
 
-<div class="note" data-has-label="true" data-label="">
+<div class="note" data-label="">
 <div class="title">
 Review of Kinematic Equations (constant \( a \) )
 </div>
@@ -316,7 +316,7 @@ the maximum height $$ y=h $$; then,
 This equation defines the **maximum height of a projectile** and depends only on
 the vertical component of the initial velocity.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Defining a Coordinate System
 </div>

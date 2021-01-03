@@ -23,7 +23,7 @@ into heat transfer. Or it may convert stored energy into internal kinetic
 energy, such as when exploding bolts separate a satellite from its launch
 vehicle.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Inelastic Collision
 </div>
@@ -43,7 +43,7 @@ does any other type of inelastic collision. In fact, such a collision reduces
 internal kinetic energy to the minimum it can have while still conserving
 momentum.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Perfectly Inelastic Collision
 </div>
@@ -176,7 +176,7 @@ also use physics concepts such as momentum and rotational motion and vibrations.
 
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Take-Home Experiment—Bouncing of Tennis Ball
 </div>

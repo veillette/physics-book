@@ -54,7 +54,7 @@ The word *normal* means perpendicular to a surface. The normal force can
 be less than the object’s weight if the object is on an incline, as you will see
 in the next example.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Common Misconception: Normal Force (N) vs. Newton (N)
 </div>
@@ -171,7 +171,7 @@ same).
 
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Resolving Weight into Components
 </div>
@@ -222,7 +222,7 @@ w_{\parallel }& =& w\sin\left(\theta \right)=mg \sin\left(\theta \right)
 </div>
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Take-Home Experiment: Force Parallel
 </div>

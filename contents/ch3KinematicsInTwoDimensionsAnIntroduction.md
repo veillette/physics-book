@@ -88,7 +88,7 @@ walks east and then north (two perpendicular directions). How far they
 walk east is only affected by their motion eastward. Similarly, how far they
 walk north is only affected by their motion northward.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Independence of Motion
 </div>

@@ -272,7 +272,7 @@ relationships between them.
 | $$\alpha$$ | $$ a $$ | $$ \alpha= \frac{a}{r} $$ |
 {: #import-auto-id1572984}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Take-Home Experiment
 </div>

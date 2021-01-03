@@ -83,7 +83,7 @@ Conservation of momentum along the $$ x $$ -axis gives the following equation:
 where $$\theta_{1} $$ and $$\theta_{2} $$ are as shown
 in [[Figure]](#import-auto-id2747387).
 
-<div class="note" data-has-label="true" data-label="">
+<div class="note" data-label="">
 <div class="title">
 Conservation of Momentum along the \( x \) -axis
 </div>
@@ -122,7 +122,7 @@ equation:
  $$ 0= m_{1}v^{\prime}_{1}\sin{\theta_{1}}+ m_{2}v^{\prime}_{2}\sin{\theta_{2}}. $$
 </div>
 
-<div class="note" data-has-label="true" data-label="">
+<div class="note" data-label="">
 <div class="title">
 Conservation of Momentum along the \( y \) -axis
 </div>
@@ -272,7 +272,7 @@ approximation, momentum is conserved for the two-ball system in billiards and
 pool. The problems below explore these and other characteristics of
 two-dimensional collisions.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Connections to Nuclear and Particle Physics
 </div>

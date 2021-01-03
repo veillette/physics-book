@@ -180,7 +180,7 @@ $$ can be written as $$ 4.5\times 10^{2}$$. Thus, the numbers $$ 800 $$ and $$
 be thought of as a ballpark estimate for the scale of a value. The diameter of
 an atom is on the order of $$ 10^{-9}\m $$, while the diameter of the Sun
 is on the order of $$ 10^{9}\m $$.
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 The Quest for Microscopic Standards for Basic Units
 </div>
@@ -399,7 +399,7 @@ help you answer these questions.
 
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Nonstandard Units
 </div>

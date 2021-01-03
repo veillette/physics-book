@@ -44,7 +44,7 @@ To find the work done on a system that undergoes motion that is not one-way or
 that is in two or three dimensions, we divide the motion into one-way
 one-dimensional segments and add up the work done over each segment.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 What is Work?
 </div>

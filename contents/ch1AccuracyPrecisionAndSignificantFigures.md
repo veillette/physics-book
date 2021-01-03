@@ -105,7 +105,7 @@ other. At any rate, the uncertainty in a measurement must be based on a careful
 consideration of all the factors that might contribute and their possible
 effects.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Real-World Connections – Fevers or Chills?
 </div>

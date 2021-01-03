@@ -115,7 +115,7 @@ later. (The total momentum can be shown to be the momentum of the center of mass
 of the system.) An **isolated system**{: class="term"} is defined to be one
 for which the net external force is zero $$ \left(\vb{F}_
 {\text{net}}=0\right). $$
-<div class="note" data-has-label="true" data-label="">
+<div class="note" data-label="">
 <div class="title">
 Conservation of Momentum Principle
 </div>
@@ -126,7 +126,7 @@ Conservation of Momentum Principle
 </div>
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Isolated System
 </div>
@@ -164,7 +164,7 @@ conserved by simply including the source of the external force. For example, in
 the collision of two cars considered above, the two-car system conserves
 momentum while each one-car system does not.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Take-Home Investigation—Drop of Tennis Ball and a Basketball
 </div>
@@ -172,7 +172,7 @@ Hold a tennis ball side by side and in contact with a basketball. Drop the balls
 
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Take-Home Investigation—Two Tennis Balls in a Ballistic Trajectory
 </div>
@@ -200,7 +200,7 @@ heart) are more widely used in the practice of cardiology.
 
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Conservation of Momentum and Collision
 </div>
