@@ -326,7 +326,7 @@ No. Torque depends on three factors: force magnitude, force direction, and point
 
   or
 
-  <div class="equation" id="eip-317">
+  <div class="equation" id="eip-317`">
  $$ \alpha =\frac{ \text{net τ}}{I} . $$
   </div>
 
@@ -507,8 +507,9 @@ these rotations.
 </div>
 <div class="solution" markdown="1">
  $$ \begin{array}{c}
-I_{\text{end}}= I_{\text{center}}+m{\left(\frac{l}{2}\right)}^{2}\\
-\text{Thus,} I_{\text{center}}= I_{\text{end}}-\frac{1}{4}m l^{2} =\frac{1}{3}m l^{2} -\frac{1}{4}m l^{2} =\frac{1}{12}}m l^{2}
+I_{\text{end}}= I_{\text{center}}+m \left(\frac{l}{2}\right)^{2}\\
+\text{Thus,} I_{\text{center}}= I_{\text{end}}-\frac{1}{4}m l^{2} =\frac{1}
+{3}m l^{2} -\frac{1}{4}m l^{2} =\frac{1}{12} m l^{2}
 \end{array} $$
 
 </div>
