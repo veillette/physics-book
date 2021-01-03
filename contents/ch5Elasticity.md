@@ -130,9 +130,9 @@ the substance, $$ A $$ is the cross-sectional area, and $$ L_{0} $$ is the
 original length. [[Figure]](#import-auto-id1165298671576) lists values of $$ Y$$
 for several materials—those with a large $$ Y $$ are said to have a
 large tensile stiffness because they deform less for a given tension or
-compression.
+compression. 
 
-##### Table: Elastic Moduli
+##### Table: Elastic Moduli [^1]
 
 |Material|Young’s modulus (tension–compression)Y $$(10^9 \text{N/m}^2)$$ |Shear modulus S $$(10^9 \text{N/m}^2) $$ | Bulk modulus B $$(10^9 \text{N/m}^2) $$ |
 |--- |--- |--- |--- |
@@ -162,19 +162,7 @@ compression.
 |Water|||2.2|
 {: #import-auto-id1165298671576}
 
-<div class="footnote-refs" markdown="1">
-
-###Footnotes
-{: class="footnote-refs-title"}
-
-* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
-  footnote-ref-link"} <span class="footnote-ref-content"></span>
-  {: data-list-type="bulleted" data-bullet-style="none"}
-  Approximate and average values.
-  Young’s moduli $$ Y $$ for tension and compression sometimes differ but are
-  averaged here. Bone has significantly different Young’s moduli for tension and
-  compression.
-</div>
+[^1]: Footnote: Approximate and average values. Young’s moduli $$ Y $$ for tension and compression sometimes differ but are averaged here. Bone has significantly different Young’s moduli for tension and compression.
 
 Young’s moduli are not listed for liquids and gases
 in [[Figure]](#import-auto-id1165298671576) because they cannot be stretched or
