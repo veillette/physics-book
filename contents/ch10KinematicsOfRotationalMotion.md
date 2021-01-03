@@ -61,7 +61,8 @@ counterpart.
 Making Connections
 </div>
 Kinematics for rotational motion is completely analogous to translational kinematics,
-first presented in [One-Dimensional Kinematics](../contents/ch1OneDImension.md). Kinematics is 
+first presented in [One-Dimensional Kinematics](../contents/ch1OneDimension.
+md). Kinematics is 
 concerned with the description of motion without regard to force or mass.
 We will find that translational kinematic quantities, such as displacement,
 velocity, and acceleration have direct analogs in rotational motion.
