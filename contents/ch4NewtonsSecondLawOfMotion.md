@@ -339,7 +339,7 @@ Since acceleration, mass, and the force of friction are given, we start with
 Newton’s second law and look for ways to find the thrust of the engines. Since
 we have defined the direction of the force and acceleration as acting “to the
 right,” we need to consider only the magnitudes of these quantities in the
-calculations. Hence we begin with
+calculations. Hence, we begin with
 
 <div class="equation" id="eip-id2420800">
 $$ F_{\text{net}}=ma , $$

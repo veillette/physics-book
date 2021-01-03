@@ -11,14 +11,14 @@ textbook was written to increase student access to high-quality learning
 materials, maintaining highest standards of academic rigor at little to no 
 cost.
 
-#### Customization {#eip-358}
+#### Customization 
 
 General Physics is licensed under a Creative Commons Attribution 4.0
 International (CC BY) license, which means that you can distribute, remix, and
 build upon the content, as long as you provide attribution to its
 content contributors.
 
-### About *General Physics*   {#eip-532}
+### About *General Physics*   
 
 *General Physics* meets standard scope and sequence requirements for 
 an introductory algebra-based physics course. The text is grounded in
@@ -28,7 +28,7 @@ Physics* includes learning objectives, concept questions, links to labs and
 simulations, and ample practice opportunities for traditional physics
 application problems.
 
-#### Coverage and Scope {#eip-739}
+#### Coverage and Scope 
 
 General Physics is organized such that topics are introduced conceptually with a
 steady progression to precise definitions and analytical applications. The
@@ -54,15 +54,15 @@ Elasticity](ch5FurtherApplicationsOfNewtonsLaws.md)
 * [Appendix A: Useful Information](../contents/appAUsefulInformation.md)
 * [Appendix B: Glossary of Key Symbols and Notation](../contents/appBGlossaryOfKeySymbolsAndNotation.md)
 
-#### Concepts and Calculations {#eip-560}
+#### Concepts and Calculations 
 
 The ability to calculate does not guarantee conceptual understanding. In order
 to unify conceptual, analytical, and calculation skills within the learning
 process, we have integrated Strategies and Discussions throughout the text.
 
-#### Key Features {#eip-594}
+#### Key Features 
 
-##### Learning Objectives {#eip-366}
+##### Learning Objectives 
 
 Every module begins with a set of learning objectives. These objectives are
 designed to guide the instructor in deciding what content to include or assign,
@@ -70,20 +70,20 @@ and to guide the student with respect to what they can expect to learn.
 After completing the module and end-of-module exercises, students should be able
 to demonstrate mastery of the learning objectives.
 
-##### Call-Outs {#eip-270}
+##### Call-Outs 
 
 Key definitions, concepts, and equations are called out with a special design
 treatment. Call-outs are designed to catch readers’ attention, to make it clear
 that a specific term, concept, or equation is particularly important, and to
 provide easy reference for a student reviewing content.
 
-##### Key Terms {#eip-85}
+##### Key Terms 
 
 Key terms are in bold and are followed by a definition in context. Definitions
 of key terms are also listed in the Glossary, which appears at the end of the
 module.
 
-##### Worked Examples {#eip-978}
+##### Worked Examples 
 
 Worked examples have four distinct parts to promote both analytical and
 conceptual skills. Worked examples are introduced in words, always using some
@@ -97,7 +97,7 @@ parts. Finally, worked examples employ the techniques of the problem-solving
 strategies so that students can see how those strategies succeed in practice as
 well as in theory.
 
-##### Problem-Solving Strategies {#eip-498}
+##### Problem-Solving Strategies 
 
 Problem-solving strategies are first presented in a special section and
 subsequently appear at crucial points in the text where students can benefit
@@ -105,7 +105,7 @@ most from them. Problem-solving strategies have a logical structure that is
 reinforced in the worked examples and supported in certain places by line
 drawings that illustrate various steps.
 
-##### Misconception Alerts {#eip-244}
+##### Misconception Alerts 
 
 Students come to physics with preconceptions from everyday experiences and from
 previous courses. Some of these preconceptions are misconceptions, and many are
@@ -113,12 +113,12 @@ very common among students and the general public. Some are inadvertently picked
 up through misunderstandings of lectures and texts. The Misconception Alerts
 feature is designed to point these out and correct them explicitly.
 
-##### Take-Home Investigations {#eip-286}
+##### Take-Home Investigations 
 
 Take Home Investigations provide the opportunity for students to apply or
 explore what they have learned with a hands-on activity.
 
-##### Things Great and Small {#eip-866}
+##### Things Great and Small 
 
 In these special topic essays, macroscopic phenomena (such as air pressure) are
 explained with submicroscopic phenomena (such as atoms bouncing off walls).
@@ -126,13 +126,13 @@ These essays support the modern perspective by describing aspects of modern
 physics before they are formally treated in later chapters. Connections are also
 made between apparently disparate phenomena.
 
-##### Simulations {#eip-795}
+##### Simulations 
 
 Where applicable, students are directed to the interactive PhET physics
 simulations developed by the University of Colorado. There they can further
 explore the physics concepts they have learned about in the module.
 
-##### Summary {#eip-291}
+##### Summary 
 
 Module summaries are thorough and functional and present all important
 definitions and equations. Students are able to find the definitions of all
@@ -140,12 +140,12 @@ terms and symbols as well as their physical relationships. The structure of the
 summary makes plain the fundamental principles of the module or collection and
 serves as a useful study guide.
 
-##### Glossary {#eip-6}
+##### Glossary 
 
 At the end of every module or chapter is a Glossary containing definitions of
 all of the key terms in the module or chapter.
 
-##### End-of-Module Problems {#eip-196}
+##### End-of-Module Problems 
 
 At the end of every chapter is a set of Conceptual Questions and/or skills-based
 Problems &amp; Exercises. Conceptual Questions challenge students’ ability to
@@ -160,14 +160,14 @@ of end-of-module problems: Integrated Concept Problems, Unreasonable Results
 Problems, and Construct Your Own Problems. All of these problems are indicated
 with a subtitle preceding the problem.
 
-##### Integrated Concept Problems {#eip-505}
+##### Integrated Concept Problems 
 
 In Integrated Concept Problems, students are asked to apply what they have
 learned about two or more concepts to arrive at a solution to a problem. These
 problems require a higher level of thinking because, before solving a problem,
 students have to recognize the combination of strategies required to solve it.
 
-##### Unreasonable Results {#eip-678}
+##### Unreasonable Results 
 
 In Unreasonable Results Problems, students are challenged to not only apply
 concepts and skills to solve a problem, but also to analyze the answer with
@@ -176,7 +176,7 @@ premise that produces an unreasonable answer and are designed to further
 emphasize that properly applied physics must describe nature accurately and is
 not simply the process of solving equations.
 
-##### Construct Your Own Problem {#eip-312}
+##### Construct Your Own Problem 
 
 These problems require students to construct the details of a problem, justify
 their starting assumptions, show specific steps in the problem’s solution, and
