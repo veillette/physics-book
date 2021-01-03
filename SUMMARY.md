@@ -59,7 +59,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     1.  [Work: The Scientific Definition](contents/ch7WorkTheScientificDefinition.md)
     2.  [Kinetic Energy and the Work-Energy Theorem](contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md)
     3.  [Gravitational Potential Energy](contents/ch7GravitationalPotentialEnergy.md)
-    4.  [Conservative Forces and Potential Energy](contents/ch7ConservaticeForcesAndPotentialEnergy.md)
+    4.  [Conservative Forces and Potential Energy](contents/ch7ConservativeForcesAndPotentialEnergy.md)
     5.  [Nonconservative Forces](contents/ch7NonconservativeForces.md)
     6.  [Conservation of Energy](contents/ch7ConservationOfEnergy.md)
     7.  [Power](contents/ch7Power.md)
