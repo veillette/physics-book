@@ -258,7 +258,7 @@ There are three ways that this term can be zero. They are
 
 * $$ \cos\left({\theta_{1}}-{\theta_{2}}\right)=0 $$: angle of separation $$
  \left({\theta_{1}}-{\theta_{2}}\right) $$ is $$ 90^\circ $$ after the
-  collision {: data-bullet-style="bullet"}
+  collision 
 
 All three of these ways are familiar occurrences in billiards and pool, although
 most of us try to avoid the second. If you play enough pool, you will notice

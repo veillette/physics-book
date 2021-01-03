@@ -148,7 +148,7 @@ apples each time. You obtain the following measurements:
  $$ 4.9 \text{lb} $$
 * Week 4 weight:
  $$ 5.4 \text{lb} $$
-{: data-bullet-style="none"}
+
 You determine that the weight of the $$ 5\text{-lb} $$ bag has an uncertainty of
 $$ \pm 0.4\text{lb} $$. What is the percent uncertainty of the bag’s weight?
 

@@ -249,8 +249,6 @@ indeed describe nature accurately.)
 Making Connections: Real-World Connection
 </div>
 
-{: class="newline"}
-
 ![Space shuttle blasting off at night.](../resources/Figure_02_04_01a.jpg "The Space Shuttle Endeavor blasts off from the Kennedy Space Center in February 2010. (credit: Matthew Simantov, Flickr)")
 {: #import-auto-id2180893}
 
