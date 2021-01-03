@@ -209,7 +209,7 @@ transforms into other (perhaps less useful) energy forms, such as thermal
 energy, which is then released to the environment through combustion gases and
 cooling towers.
 
-##### Table: Efficiency of the Human Body and Mechanical Devices
+##### Table: Efficiency of the Human Body and Mechanical Devices (representative values)
 
 |Activity/device|Efficiency (%)|
 |--- |--- |
@@ -348,18 +348,6 @@ If the energy in fusion bombs were used to supply the energy needs of the world,
 (b) This is much, much longer than human time scales.
 
 </div>
-</div>
-
-<div class="footnote-refs" markdown="1">
-
-###Footnotes
-{: class="footnote-refs-title"}
-
-* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
-  footnote-ref-link"
-  } <span class="footnote-ref-content">Representative values</span>
-  {: data-list-type="bulleted" data-bullet-style="none"}
-
 </div>
 
 <div class="glossary" markdown="1">
