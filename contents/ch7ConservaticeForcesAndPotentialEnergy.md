@@ -361,7 +361,7 @@ A pogo stick has a spring with a force constant of $$ 2.50 \times 10^{4}\text{N/
 which can be compressed 12.0 cm. To what maximum height can a child jump on
 the stick using only the energy in the spring, if the child and stick have a
 total mass of 40.0 kg? Explicitly show how you follow the steps in
-the [Problem-Solving Strategies for Energy](../contents/ch7ConservationOfEnergy.md#fs-id2025907).
+the [Problem-Solving Strategies for Energy](../contents/ch7ConservationOfEnergy.md#problemSolving).
 
 </div>
 </div>
