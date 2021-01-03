@@ -520,16 +520,40 @@ h6:hover .header-link {
     padding-left: 2em;
 }
 
-.page-title {
-    display: inline-block;
-    color: #0d3664;
-    font-weight: bold;
-    background-color: #f7fbff;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    border-bottom: 1px solid #555555;
-}
 
 .page {
     counter-reset: figure example exercise;
+}
+
+
+.phet .title {
+    padding: 15px;
+    display: inline-block;
+    color: #555555;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.phet {
+    display: inline-block;
+    margin: 30px 6rem 0 6rem;
+    padding: 15px;
+    background-color: #ededed;
+}
+
+.phet figure {
+    display: table;
+    width: 100%;
+}
+
+.phet figure > figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    font-size: small;
+}
+
+.phet figure > figcaption::before {
+    font-weight: bold;
+    content: 'Animation ' counter(figure) ': ';
 }
