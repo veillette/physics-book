@@ -267,7 +267,8 @@ respect to the Sun).
 
 </div>
 <div class="solution" markdown="1">
- $$ 4\times 10^{21} \m $$ </div>
+ $$ 4\times 10^{21} \m $$ 
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
