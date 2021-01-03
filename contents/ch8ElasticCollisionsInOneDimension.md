@@ -181,19 +181,19 @@ Find a few ice cubes which are about the same size and a smooth kitchen tabletop
 
 </div>
 
-<div class="phet" id="eip-732" data-label="" markdown="1">
+<div class="note" id="eip-732" data-label="" markdown="1">
 <div class="title">
-PhET Explorations: Collision Lab
+PhET Exploration: Collision Lab
 </div>
 Investigate collisions on an air hockey table. Set up your own experiments: vary the number of discs, masses and initial conditions. Is momentum conserved? Is kinetic energy conserved? Vary the elasticity and see what happens.
 
 <figure markdown="1" id="eip-id1686591">
-<div class="phet">
+
 <iframe src="https://phet.colorado.edu/sims/html/collision-lab/latest/collision-lab_en.html" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 Masses and Springs
 </figcaption>
-</div>
+
 </figure>
 </div>
 

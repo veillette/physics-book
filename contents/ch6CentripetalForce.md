@@ -287,19 +287,19 @@ Ask a friend or relative to swing a golf club or a tennis racquet. Take appropri
 
 </div>
 
-<div class="phet" id="eip-52" data-label="" markdown="1">
+<div class="note" id="eip-52" data-label="" markdown="1">
 <div class="title">
-PhET Explorations: Gravity and Orbits
+PhET Exploration: Gravity and Orbits
 </div>
 Move the sun, earth, moon and space station to see how it affects their gravitational forces and orbital paths. Visualize the sizes and distances between different heavenly bodies, and turn off gravity to see what would happen without it!
 
 <figure markdown="1" id="eip-id1751967">
-<div class="phet">
+
 <iframe src="https://phet.colorado.edu/sims/html/gravity-and-orbits/latest/gravity-and-orbits_en.html" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 Gravity and Orbits
 </figcaption>
-</div>
+
 </figure>
 </div>
 
