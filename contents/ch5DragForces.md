@@ -43,7 +43,7 @@ air, the magnitude of the drag force is proportional to the square of the speed.
 As we shall see in a few pages on fluid dynamics, for small particles moving at
 low speeds in a fluid, the exponent is equal to 1.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Drag Force
 </div>
@@ -185,7 +185,7 @@ the area and his drag. In a spread-eagle position, that terminal velocity may
 decrease to about 200 km/h as the area increases. This terminal velocity becomes
 much smaller after the parachute opens.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Take-Home Experiment
 </div>
@@ -277,7 +277,7 @@ $$ F_{\s}=6 \pi r\eta v, $$
 where $$ r $$ is the radius of the object, $$ \eta $$ is the viscosity of the
 fluid, and $$ v $$ is the object’s velocity.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Stokes’ Law
 </div>
@@ -312,7 +312,7 @@ efficient in their use of energy.
 ![Geese flying across the sky in a V formation.](../resources/Figure_06_02_06a.jpg "Geese fly in a V formation during their long migratory travels. This shape reduces drag and energy consumption for individual birds, and also allows them a better way to communicate. (credit: Julo, Wikimedia Commons)")
 {: #import-auto-id1165298645387}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Galileo’s Experiment
 </div>
@@ -324,7 +324,7 @@ have observed? Would this result be different if done on the Moon?
 
 </div>
 
-<div class="note" data-has-label="true" id="eip-418" data-label="" markdown="1">
+<div class="phet" id="eip-418" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Masses &amp; Springs
 </div>

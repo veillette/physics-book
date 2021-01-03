@@ -30,7 +30,7 @@ conservative force results in stored or potential energy. Gravitational
 potential energy is one example, as is the energy stored in a spring. We will
 also see how conservative forces are related to the conservation of energy.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Potential Energy and Conservative Forces
 </div>
@@ -263,7 +263,7 @@ important (as long as the path is not impossible). This assumption is usually a
 tremendous simplification, because the path may be complicated and forces may
 vary along the way.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Energy Skate Park
 </div>

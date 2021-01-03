@@ -34,7 +34,7 @@ multiplied by the time this force acts. The quantity $$ \vb{F}_
 {\text{net}}\Delta t $$ is given the name **impulse**{: class="term"}.
 Impulse is the same as the change in momentum.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Impulse: Change in Momentum
 </div>
@@ -181,7 +181,7 @@ and effective forces.
 ![Figure is a graph of force, F, versus time, t. Two curves, F actual and F effective, are drawn. F actual is drawn between t sub1 and t sub 2 and it resembles a bell-shaped curve that peaks mid-way between t sub 1 and t sub 2. F effective is a line parallel to the x axis drawn at about fifty five percent of the maximum value of F actual and it extends up to t sub 2.](../resources/Figure_09_02_01a.jpg "A graph of force versus time with time along the  \( x \) -axis and force along the  \( y \) -axis for an actual force and an equivalent effective force. The areas under the two curves are equal.")
 {: #import-auto-id1181092}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Take-Home Investigation—Hand Movement and Impulse
 </div>
@@ -198,7 +198,7 @@ Which orientations would you advise people to avoid and why?
 
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Constant Force and Constant Acceleration
 </div>

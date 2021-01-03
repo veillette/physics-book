@@ -280,7 +280,7 @@ define the simplifying concept of gravitational potential energy. We can do the
 same thing for a few other forces, and we will see that this leads to a formal
 definition of the law of conservation of energy.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Take-Home Investigation—Converting Potential to Kinetic Energy
 </div>

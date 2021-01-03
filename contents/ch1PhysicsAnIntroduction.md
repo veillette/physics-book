@@ -204,7 +204,7 @@ around the nucleus.](../resources/Figure_01_atom.svg "What is a model? This plan
 electrons orbiting the nucleus. It is a drawing that we use to form a mental 
 image of the atom that we cannot see directly with our eyes because it is too small."){: #fs-id1165298745067 height="150"}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Models, Theories, and Laws
 </div>
@@ -232,7 +232,7 @@ like the exploration of uncharted ocean. Discoveries are made; models, theories,
 and laws are formulated; and the beauty of the physical universe is made more
 sublime for the insights gained.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 The Scientific Method
 </div>
@@ -301,7 +301,7 @@ an atom with our eyes. New tools, of course, allow us to better picture
 phenomena we cannot see. In fact, new instrumentation has allowed us in recent
 years to actually “picture” the atom. (see [Figure 13](#import-auto-id2990813).)
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Limits on the Laws of Classical Physics
 </div>
@@ -354,7 +354,7 @@ Without knowing the details of the law, you can still infer that the information
 </div>
 </div>
 
-<div class="note" data-has-label="true" id="eip-607" data-label="" markdown="1">
+<div class="phet" id="eip-607" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Graphing Quadratics
 </div>

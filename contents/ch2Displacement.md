@@ -39,7 +39,7 @@ rear of an airplane), then the object’s position changes. This change in
 position is known as **displacement**{: class="term"}. The word
 “displacement” implies that an object has moved, or has been displaced.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Displacement
 </div>
@@ -115,7 +115,7 @@ two positions*. Distance has no direction and, thus, no sign. For example, the
 distance the professor walks is 2.0 m. The distance the airplane passenger walks
 is 4.0 m.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Misconception Alert: Distance Traveled vs. Magnitude of Displacement
 </div>

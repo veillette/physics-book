@@ -67,7 +67,7 @@ the center of rotation.
 ![The given figure shows an object of mass m, kept on a horizontal frictionless table, attached to a pivot point, which is in the center of the table, by a cord that supplies centripetal force. A force F is applied to the object perpendicular to the radius r, which is indicated by a red arrow tangential to the circle, causing the object to move in counterclockwise direction.](../resources/Figure_11_03_02a.jpg "An object is supported by a horizontal frictionless table and is attached to a pivot point by a cord that supplies centripetal force. A force \( F \)  is applied to the object perpendicular to the radius \( r \) , causing it to accelerate about the pivot point. The force is kept perpendicular to \( r \) .")
 {: #import-auto-id2062858}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Rotational Motion Dynamics
 </div>
@@ -133,7 +133,7 @@ stand close to its axis than if they all stand at the outer edge. The mass is
 the same in both cases; but the moment of inertia is much larger when the
 children are at the edge.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Take-Home Experiment
 </div>
@@ -141,7 +141,7 @@ Cut out a circle that has about a 10 cm radius from stiff cardboard. Near the ed
 
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Problem-Solving Strategy for Rotational Dynamics
 </div>
@@ -155,7 +155,7 @@ Problem-Solving Strategy for Rotational Dynamics
 
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections
 </div>

@@ -11,7 +11,7 @@ layout: page
 
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Torque
 </div>
@@ -281,7 +281,7 @@ Finally, note that the concept of torque has an importance beyond static
 equilibrium. *Torque plays the same role in rotational motion that force plays
 in linear motion.* We will examine this in the next chapter.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Take-Home Experiment
 </div>

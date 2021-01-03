@@ -34,7 +34,7 @@ nearly elastic collision is that between two carts with spring bumpers on an air
 track. Icy surfaces and air tracks are nearly frictionless, more readily
 allowing nearly elastic collisions on them.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Elastic Collision
 </div>
@@ -42,7 +42,7 @@ An **elastic collision**{: class="term" #import-auto-id1695093} is one that cons
 
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Internal Kinetic Energy
 </div>
@@ -173,7 +173,7 @@ two objects. These equations can be extended to more objects if needed.
 
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Take-Home Investigation—Ice Cubes and Elastic Collision
 </div>
@@ -181,7 +181,7 @@ Find a few ice cubes which are about the same size and a smooth kitchen tabletop
 
 </div>
 
-<div class="note" data-has-label="true" id="eip-732" data-label="" markdown="1">
+<div class="phet" id="eip-732" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Collision Lab
 </div>

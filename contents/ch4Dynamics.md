@@ -67,7 +67,7 @@ have the constraints present in classical physics. All of the situations we
 consider in this chapter are in the realm of classical
 physics.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Past and Present Philosophy
 </div>

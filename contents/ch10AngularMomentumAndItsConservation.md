@@ -32,7 +32,7 @@ expect, an object that has a large moment of inertia $$ I $$, such as Earth, has
 a very large angular momentum. An object that has a large angular velocity $$
 \omega $$, such as a centrifuge, also has a rather large angular momentum.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections
 </div>
@@ -263,7 +263,7 @@ this energy in a kick.
 
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Conservation Laws
 </div>

@@ -66,7 +66,7 @@ changes drastically, such as a car accelerating to top speed and then braking to
 a stop, the motion can be considered in separate parts, each of which has its
 own constant acceleration.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Solving for Displacement ( \( \Delta x \) ) and Final Position (
  \( x \) ) from Average Velocity when Acceleration ( \( a \) ) is Constant
@@ -164,7 +164,7 @@ displacement and average velocity. For a given time \( t\) , an object
 moving twice as fast as another object will move twice as far as the other object.")
 {: #import-auto-id1962019}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Solving for Final Velocity
 </div>
@@ -244,12 +244,10 @@ From it we can see, for example, that
 basic equations in light of our intuition and experiences to check that they do
 indeed describe nature accurately.)
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Real-World Connection
 </div>
-
-{: class="newline"}
 
 ![Space shuttle blasting off at night.](../resources/Figure_02_04_01a.jpg "The Space Shuttle Endeavor blasts off from the Kennedy Space Center in February 2010. (credit: Matthew Simantov, Flickr)")
 {: #import-auto-id2180893}
@@ -264,7 +262,7 @@ longer time.
 
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Solving for Final Position When Velocity is Not Constant ( i.e acceleration is not zero)
 </div>
@@ -360,7 +358,7 @@ t^{2} ? $$ We see that:
 * {: #import-auto-id2167534} if acceleration is zero, then the initial velocity
   equals average velocity ( $$ v_{0}=\overline{v} $$ ) and $$ x=x_{0}+v_{0}t+\frac{1}{2}a t^{2} $$ becomes $$ x=x_{0}+v_{0}t $$
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Solving for Final Velocity when Velocity Is Not Constant ( acceleration is non-zero )
 </div>
@@ -444,7 +442,7 @@ situations requiring slightly more algebraic manipulation. The examples also
 give insight into problem-solving techniques. The box below provides easy
 reference to the equations needed.
 
-<div class="note" data-has-label="true" data-label="">
+<div class="note" data-label="">
 <div class="title">
 Summary of Kinematic Equations (constant acceleration )
 </div>
@@ -675,7 +673,7 @@ relationships. [Problem-Solving Basics](../contents/ch2ProblemSolvingBasicsForOn
 problem-solving basics and outlines an approach that will help you succeed in
 this invaluable task.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Take-Home Experiment—Breaking News
 </div>

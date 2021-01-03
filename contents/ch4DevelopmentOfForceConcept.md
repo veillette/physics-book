@@ -59,7 +59,7 @@ alternative definitions of force will be given later in this chapter.
 (c) A spring scale is one device that uses a spring to measure force. The force  \( F_{\text{restore}} \) i s exerted on whatever is attached to the hook. Here  \( F_{\text{restore}} \) has a magnitude of 6 units in the force standard being employed.")
 {: #import-auto-id2608835}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Take-Home Experiment: Force Standards
 </div>
