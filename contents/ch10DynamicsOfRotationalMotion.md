@@ -93,7 +93,7 @@ which has all its mass at the same distance from its axis. A hoop’s moment of
 inertia around its axis is therefore $$ MR^{2} $$, where $$ M $$ is its total
 mass and $$ R $$ its radius. (We use $$ M $$ and $$ R $$ for an entire object to
 distinguish them from $$ m $$ and $$ r $$ for point masses.) In all other cases,
-we must consult [[Figure]](#fs-id1838666) (note that the table is piece of
+we must consult [[Figure]](#figMomentOfInertia) (note that the table is piece of
 artwork that has shapes as well as formulae) for formulas for $$ I $$ that have
 been derived from integration over the continuous body. Note that $$ I $$ has
 units of mass multiplied by distance squared
@@ -162,7 +162,7 @@ Making Connections
 In statics, the net torque is zero, and there is no angular acceleration. In rotational motion, net torque is the cause of angular acceleration, exactly as in Newton’s second law of motion for rotation.
 
 ![Illustrations of ten different objects accompanied by their rotational inertias.](../resources/Figure_11_03_06.jpg "Some rotational inertias.")
-{: #fs-id1838666 height="525"}
+{: #figMomentOfInertia height="525"}
 
 </div>
 
@@ -201,7 +201,7 @@ applied force is perpendicular to the radius and friction is negligible, so that
 **Solution for (a)**
 
 The moment of inertia of a solid disk about this axis is given
-in [[Figure]](#fs-id1838666) to be
+in [[Figure]](#figMomentOfInertia) to be
 
 <div class="equation" id="eip-659">
  $$ \frac{1}{2} MR^{2}, $$
@@ -500,7 +500,7 @@ An automobile engine can produce 200 N ∙ m of torque. Calculate the angular ac
 Starting with the formula for the moment of inertia of a rod rotated around an axis through one end perpendicular to its length
 $$ \left(I=M\ell^{2}/3\right) $$, prove that the moment of inertia of a rod rotated about an axis through its
 center perpendicular to its length is $$I= M\ell^{2}/12 $$.
-You will find the graphics in [[Figure]](#fs-id1838666) useful in visualizing
+You will find the graphics in [[Figure]](#figMomentOfInertia) useful in visualizing
 these rotations.
 
 </div>

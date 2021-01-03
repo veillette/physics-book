@@ -92,7 +92,7 @@ Rearranging the equation yields
 </div>
 where $$ I^{\prime} $$ is the moment of inertia of the stick and disk stuck together, which is the sum
 of their individual moments of inertia about the
-nail. [[Figure]](../contents/ch10DynamicsOfRotationalMotion.md#fs-id1838666) gives the formula for a rod
+nail. [[Figure]](../contents/ch10DynamicsOfRotationalMotion.md#figMomentOfInertia) gives the formula for a rod
 rotating around one end to be $$
 I=Mr^{2}/3 $$. Thus,
 
