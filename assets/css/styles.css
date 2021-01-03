@@ -140,14 +140,14 @@ h6:hover .header-link {
 }
 
 
-.book .book-body .page-wrapper .page-inner .note {
+.note {
     margin: 30px 6rem 0 6rem;
     padding: 15px;
     background-color: #ededed;
 }
 
-.book .book-body .page-wrapper .page-inner .note:not([data-label]).ui-has-child-title > header > .title,
-.book .book-body .page-wrapper .page-inner .note:not([data-label]).ui-has-child-title > .title {
+.note:not([data-label]).ui-has-child-title > header > .title,
+.note:not([data-label]).ui-has-child-title > .title {
     display: inline-block;
     color: #555555;
     font-size: 1.5rem;
@@ -155,12 +155,12 @@ h6:hover .header-link {
     letter-spacing: 1px;
 }
 
-.book .book-body .page-wrapper .page-inner .note:not([data-label]).ui-has-child-title > header > .title::before,
-.book .book-body .page-wrapper .page-inner .note:not([data-label]).ui-has-child-title > .title::before {
+.note:not([data-label]).ui-has-child-title > header > .title::before,
+.note:not([data-label]).ui-has-child-title > .title::before {
     content: 'Note: ';
 }
 
-.book .book-body .page-wrapper .page-inner .note:not([data-label]):not(.ui-has-child-title)::before {
+.note:not([data-label]):not(.ui-has-child-title)::before {
     display: inline-block;
     color: #555555;
     font-size: 1.5rem;
@@ -169,8 +169,8 @@ h6:hover .header-link {
     content: 'Note';
 }
 
-.book .book-body .page-wrapper .page-inner .note[data-label=''].ui-has-child-title > header > .title,
-.book .book-body .page-wrapper .page-inner .note[data-label=''].ui-has-child-title > .title {
+.note[data-label=''].ui-has-child-title > header > .title,
+.note[data-label=''].ui-has-child-title > .title {
     display: inline-block;
     color: #555555;
     font-size: 1.5rem;
@@ -178,7 +178,7 @@ h6:hover .header-link {
     letter-spacing: 1px;
 }
 
-.book .book-body .page-wrapper .page-inner .note[data-label='']:not(.ui-has-child-title)::before {
+.note[data-label='']:not(.ui-has-child-title)::before {
     display: inline-block;
     color: #555555;
     font-size: 1.5rem;
@@ -186,8 +186,8 @@ h6:hover .header-link {
     letter-spacing: 1px;
 }
 
-.book .book-body .page-wrapper .page-inner .note[data-label]:not([data-label='']).ui-has-child-title > header > .title,
-.book .book-body .page-wrapper .page-inner .note[data-label]:not([data-label='']).ui-has-child-title > .title {
+.note[data-label]:not([data-label='']).ui-has-child-title > header > .title,
+.note[data-label]:not([data-label='']).ui-has-child-title > .title {
     display: inline-block;
     color: #555555;
     font-size: 1.5rem;
@@ -195,12 +195,12 @@ h6:hover .header-link {
     letter-spacing: 1px;
 }
 
-.book .book-body .page-wrapper .page-inner .note[data-label]:not([data-label='']).ui-has-child-title > header > .title::before,
-.book .book-body .page-wrapper .page-inner .note[data-label]:not([data-label='']).ui-has-child-title > .title::before {
+.note[data-label]:not([data-label='']).ui-has-child-title > header > .title::before,
+.note[data-label]:not([data-label='']).ui-has-child-title > .title::before {
     content: attr(data-label-parent) ': ';
 }
 
-.book .book-body .page-wrapper .page-inner .note[data-label]:not([data-label='']):not(.ui-has-child-title)::before {
+.note[data-label]:not([data-label='']):not(.ui-has-child-title)::before {
     display: inline-block;
     color: #555555;
     font-size: 1.5rem;
@@ -215,13 +215,13 @@ h6:hover .header-link {
     background-color: #ededed;
 }
 
-.book .book-body .page-wrapper .page-inner .example {
+.example {
     margin-top: 30px;
     counter-increment: example;
 }
 
-.book .book-body .page-wrapper .page-inner .example:not([data-label]).ui-has-child-title > header > .title,
-.book .book-body .page-wrapper .page-inner .example:not([data-label]).ui-has-child-title > .title {
+.example:not([data-label]).ui-has-child-title > header > .title,
+.example:not([data-label]).ui-has-child-title > .title {
     display: inline-block;
     padding: 0.1em 1em;
     font-weight: bold;
@@ -229,11 +229,11 @@ h6:hover .header-link {
     background-color: #00432f;
 }
 
-.book .book-body .page-wrapper .page-inner .example:not([data-label]).ui-has-child-title > header > .title::before {
+.example:not([data-label]).ui-has-child-title > header > .title::before {
     content: 'Example ' counter(example) ': ';
 }
 
-.book .book-body .page-wrapper .page-inner .example:not([data-label]):not(.ui-has-child-title)::before {
+.example:not([data-label]):not(.ui-has-child-title)::before {
     display: inline-block;
     padding: 0.1em 1em;
     font-weight: bold;
@@ -242,7 +242,7 @@ h6:hover .header-link {
     content: 'Example';
 }
 
-.book .book-body .page-wrapper .page-inner .example[data-label=''].ui-has-child-title > header > .title {
+.example[data-label=''].ui-has-child-title > header > .title {
     display: inline-block;
     padding: 0.1em 1em;
     font-weight: bold;
@@ -250,7 +250,7 @@ h6:hover .header-link {
     background-color: #555555;
 }
 
-.book .book-body .page-wrapper .page-inner .example[data-label='']:not(.ui-has-child-title)::before {
+.example[data-label='']:not(.ui-has-child-title)::before {
     display: inline-block;
     padding: 0.1em 1em;
     font-weight: bold;
@@ -258,7 +258,7 @@ h6:hover .header-link {
     background-color: #555555;
 }
 
-.book .book-body .page-wrapper .page-inner .example[data-label]:not([data-label='']).ui-has-child-title > header > .title {
+.example[data-label]:not([data-label='']).ui-has-child-title > header > .title {
     display: inline-block;
     padding: 0.1em 1em;
     font-weight: bold;
@@ -266,11 +266,11 @@ h6:hover .header-link {
     background-color: #555555;
 }
 
-.book .book-body .page-wrapper .page-inner .example[data-label]:not([data-label='']).ui-has-child-title > header > .title::before {
+.example[data-label]:not([data-label='']).ui-has-child-title > header > .title::before {
     content: attr(data-label-parent) ': ';
 }
 
-.book .book-body .page-wrapper .page-inner .example[data-label]:not([data-label='']):not(.ui-has-child-title)::before {
+.example[data-label]:not([data-label='']):not(.ui-has-child-title)::before {
     display: inline-block;
     padding: 0.1em 1em;
     font-weight: bold;
@@ -286,15 +286,15 @@ h6:hover .header-link {
 
 }
 
-.book .book-body .page-wrapper .page-inner .exercise {
+.exercise {
     margin-top: 30px;
 }
 
-.book .book-body .page-wrapper .page-inner .exercise:not([data-element-type="check-understanding"]) {
+.exercise:not([data-element-type="check-understanding"]) {
     counter-increment: exercise;
 }
 
-.book .book-body .page-wrapper .page-inner .exercise:not([data-label]).ui-has-child-title > header > .title {
+.exercise:not([data-label]).ui-has-child-title > header > .title {
     display: inline-block;
     padding: 0.1em 1em;
     font-weight: bold;
@@ -302,11 +302,11 @@ h6:hover .header-link {
     background-color: #555555;
 }
 
-.book .book-body .page-wrapper .page-inner .exercise:not([data-label]).ui-has-child-title > header > .title::before {
+.exercise:not([data-label]).ui-has-child-title > header > .title::before {
     content: 'Exercise: ';
 }
 
-.book .book-body .page-wrapper .page-inner .exercise:not([data-label]):not(.ui-has-child-title)::before {
+.exercise:not([data-label]):not(.ui-has-child-title)::before {
     display: inline-block;
     padding: 0.1em 1em;
     font-weight: bold;
@@ -315,8 +315,8 @@ h6:hover .header-link {
     content: 'Exercise ' counter(exercise);
 }
 
-.book .book-body .page-wrapper .page-inner .exercise[data-label=''].ui-has-child-title > header > .title,
-.book .book-body .page-wrapper .page-inner .exercise[data-label=''].ui-has-child-title > .title {
+.exercise[data-label=''].ui-has-child-title > header > .title,
+.exercise[data-label=''].ui-has-child-title > .title {
     display: inline-block;
     padding: 0.1em 1em;
     font-weight: bold;
@@ -324,8 +324,8 @@ h6:hover .header-link {
     background-color: #555555;
 }
 
-.book .book-body .page-wrapper .page-inner .exercise[data-label='']:not(.ui-has-child-title)::before,
-.book .book-body .page-wrapper .page-inner .exercise[data-label='']:not(.ui-has-child-title)::before {
+.exercise[data-label='']:not(.ui-has-child-title)::before,
+.exercise[data-label='']:not(.ui-has-child-title)::before {
     display: inline-block;
     padding: 0.1em 1em;
     font-weight: bold;
@@ -340,80 +340,80 @@ h6:hover .header-link {
     background-color: #ededed;
 }
 
-.book .book-body .page-wrapper .page-inner .example .problem,
-.book .book-body .page-wrapper .page-inner .exercise .problem,
-.book .book-body .page-wrapper .page-inner .example .solution,
-.book .book-body .page-wrapper .page-inner .exercise .solution {
+.example .problem,
+.exercise .problem,
+.example .solution,
+.exercise .solution {
     padding: 0.5em 1em;
 }
 
-.book .book-body .page-wrapper .page-inner .example .solution,
-.book .book-body .page-wrapper .page-inner .exercise .solution {
+.example .solution,
+.exercise .solution {
     border-top: 1px solid #555555;
 }
 
-.book .book-body .page-wrapper .page-inner .example .solution > .ui-toggle-wrapper,
-.book .book-body .page-wrapper .page-inner .exercise .solution > .ui-toggle-wrapper {
+.example .solution > .ui-toggle-wrapper,
+.exercise .solution > .ui-toggle-wrapper {
     text-align: center;
 }
 
-.book .book-body .page-wrapper .page-inner .example .solution > .ui-toggle-wrapper > .ui-toggle,
-.book .book-body .page-wrapper .page-inner .exercise .solution > .ui-toggle-wrapper > .ui-toggle {
+.example .solution > .ui-toggle-wrapper > .ui-toggle,
+.exercise .solution > .ui-toggle-wrapper > .ui-toggle {
     outline: 0;
     text-align: center;
     font-weight: bold;
 }
 
-.book .book-body .page-wrapper .page-inner .example .solution:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before,
-.book .book-body .page-wrapper .page-inner .exercise .solution:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before {
+.example .solution:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before,
+.exercise .solution:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before {
     content: 'Show Solution';
 }
 
-.book .book-body .page-wrapper .page-inner .example .solution:not(.ui-solution-visible) > section,
-.book .book-body .page-wrapper .page-inner .exercise .solution:not(.ui-solution-visible) > section {
+.example .solution:not(.ui-solution-visible) > section,
+.exercise .solution:not(.ui-solution-visible) > section {
     display: none;
 }
 
-.book .book-body .page-wrapper .page-inner .example .solution.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before,
-.book .book-body .page-wrapper .page-inner .exercise .solution.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before {
+.example .solution.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before,
+.exercise .solution.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before {
     content: 'Hide Solution';
 }
 
 
-.book .book-body .page-wrapper .page-inner .example[data-element-type="check-understanding"] .title::before,
-.book .book-body .page-wrapper .page-inner .exercise[data-element-type="check-understanding"] .title::before {
+.example[data-element-type="check-understanding"] .title::before,
+.exercise[data-element-type="check-understanding"] .title::before {
     margin-right: 0;
     content: "";
 }
 
-.book .book-body .page-wrapper .page-inner .example[data-element-type="conceptual-questions"] .problem,
-.book .book-body .page-wrapper .page-inner .exercise[data-element-type="conceptual-questions"] .problem {
+.example[data-element-type="conceptual-questions"] .problem,
+.exercise[data-element-type="conceptual-questions"] .problem {
     border-top: none;
 }
 
 
-.book .book-body .page-wrapper .page-inner .example[data-element-type="conceptual-questions"] .problem p,
-.book .book-body .page-wrapper .page-inner .exercise[data-element-type="conceptual-questions"] .problem p {
+.example[data-element-type="conceptual-questions"] .problem p,
+.exercise[data-element-type="conceptual-questions"] .problem p {
     margin: 0;
 }
 
-.book .book-body .page-wrapper .page-inner .example[data-element-type="problems-exercises"] .problem::before,
-.book .book-body .page-wrapper .page-inner .exercise[data-element-type="problems-exercises"] .problem::before,
-.book .book-body .page-wrapper .page-inner .example[data-element-type="problems-exercises"] .solution::before,
-.book .book-body .page-wrapper .page-inner .exercise[data-element-type="problems-exercises"] .solution::before {
+.example[data-element-type="problems-exercises"] .problem::before,
+.exercise[data-element-type="problems-exercises"] .problem::before,
+.example[data-element-type="problems-exercises"] .solution::before,
+.exercise[data-element-type="problems-exercises"] .solution::before {
     font-weight: bold;
     color: #555555;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-.book .book-body .page-wrapper .page-inner .example[data-element-type="problems-exercises"] .problem::before,
-.book .book-body .page-wrapper .page-inner .exercise[data-element-type="problems-exercises"] .problem::before {
+.example[data-element-type="problems-exercises"] .problem::before,
+.exercise[data-element-type="problems-exercises"] .problem::before {
     content: "Problem";
 }
 
-.book .book-body .page-wrapper .page-inner .example[data-element-type="problems-exercises"] .solution::before,
-.book .book-body .page-wrapper .page-inner .exercise[data-element-type="problems-exercises"] .solution::before {
+.example[data-element-type="problems-exercises"] .solution::before,
+.exercise[data-element-type="problems-exercises"] .solution::before {
     content: "Solution";
 }
 
@@ -502,7 +502,6 @@ h6:hover .header-link {
 .page {
     counter-reset: figure example exercise;
 }
-
 
 .phet .title {
     padding: 15px;
