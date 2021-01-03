@@ -122,7 +122,7 @@ sporting prowess but can minimize fatigue and long-term damage to the body. For
 example, tennis balls correctly hit at the “sweet spot” on the racquet will
 result in little vibration or impact force being felt in the racquet and the
 body—less torque as explained
-in [Collisions of Extended Bodies in Two Dimensions](../contents/ch10CollisionsOfExtendedBodiesInTwoDImensions.md). Twisting
+in [Collisions of Extended Bodies in Two Dimensions](../contents/ch10CollisionsOfExtendedBodiesInTwoDimensions.md). Twisting
 the hand to provide top spin on the ball or using an extended rigid elbow in a
 backhand stroke can also aggravate the tendons in the elbow.
 
