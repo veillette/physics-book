@@ -36,7 +36,7 @@ direction by $$ \theta $$. The magnitude can also represented in italics as $$
 D $$ when the context is clear. We will used this shorthand notation from
 time to time in this textbook.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Vectors in this Text
 </div>

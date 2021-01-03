@@ -74,7 +74,7 @@ know that if you have a large displacement in a small amount of time you have a
 large velocity, and that velocity has units of distance divided by time, such as
 miles per hour or kilometers per hour.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Average Velocity
 </div>
@@ -180,7 +180,7 @@ that the route between the store and the house is a perfectly straight line.)
 ![Three line graphs. First line graph is of position in kilometers versus time in hours. The line increases linearly from 0 kilometers to 6 kilometers in the first 0 point 25 hours. It then decreases linearly from 6 kilometers to 0 kilometers between 0 point 25 and 0 point 5 hours. Second line graph shows velocity in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time 0 to time 0 point 25. It is vertical at time 0 point 25, dropping from 12 kilometers per hour to negative 12 kilometers per hour. It is flat again at negative 12 kilometers per hour from 0 point 25 hours to 0 point 5 hours. Third line graph shows speed in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time equals 0 to time equals 0 point 5 hours.](../resources/Figure_02_02_03.jpg "Position vs. time, velocity vs. time, and speed vs. time on a trip. Note that the velocity for the return trip is negative. ")
 {: #import-auto-id1806646}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Take-Home Investigation—Getting a Sense of Speed
 </div>

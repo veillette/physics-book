@@ -21,7 +21,7 @@ common experiences, such as stubbing a toe or throwing a ball, confirm this. It
 is precisely stated in **Newton’s third law of motion**{: class="term"
 #import-auto-id1260844}.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Newton’s Third Law of Motion
 </div>

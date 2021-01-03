@@ -15,7 +15,7 @@ and that an object in motion tends to slow down and stop unless some effort is
 made to keep it moving. What **Newton’s first law of motion**{: class="term"
 #import-auto-id1777407} states, however, is the following:
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Newton’s First Law of Motion
 </div>

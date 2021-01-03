@@ -56,7 +56,7 @@ is, it describes their relationship without reference to forces or masses that
 may affect rotation. It is also precisely analogous in form to its translational
 counterpart.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections
 </div>
@@ -96,7 +96,7 @@ The equations given above in [[Figure]](#import-auto-id3400476) can be used to
 solve any rotational or translational kinematics problem in which $$ a $$ and $$
 \alpha $$ are constant.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Problem-Solving Strategy for Rotational Kinematics
 </div>

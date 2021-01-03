@@ -53,7 +53,7 @@ masses and inversely proportional to the square of the distance between them.
 ![The given figure shows two circular objects, one with a larger mass M on the right side, and another with a smaller mass m on the left side. A point in the center of each object is shown, with both depicting the center of mass of the objects at these points. A line is drawn joining the center of the objects and is labeled as r. Two red arrows, one each from both the center of the objects, are drawn toward each other and are labeled as F, the magnitude of the gravitational force on both the objects.](../resources/Figure_07_05_02a.jpg "Gravitational attraction is along a line joining the centers of mass of these two bodies. The magnitude of the force is the same on each, consistent with Newton&#x2019;s third law.")
 {: #import-auto-id2406145}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Misconception Alert
 </div>
@@ -134,7 +134,7 @@ acceleration a step further, explaining the observation in terms of a force that
 causes objects to fall—in fact, in terms of a universally existing force of
 attraction between masses.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Take-Home Experiment
 </div>
@@ -142,7 +142,7 @@ Take a marble, a ball, and a spoon and drop them from the same height. Do they h
 
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections
 </div>

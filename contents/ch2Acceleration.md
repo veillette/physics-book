@@ -21,7 +21,7 @@ class="term" #import-auto-id1298945} , the greater the change in velocity
 over a given time. The formal definition of acceleration is consistent with
 these notions, but more inclusive.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Average Acceleration
 </div>
@@ -49,7 +49,7 @@ quicker you turn, the greater the acceleration. So there is an acceleration when
 velocity changes either in magnitude (an increase or decrease in speed)
 or in direction, or both.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Acceleration as a Vector
 </div>
@@ -67,7 +67,7 @@ as **deceleration**{: class="term" #import-auto-id3583719}.
 ![A subway train arriving at a station. A velocity vector arrow points along the track away from the train. An acceleration vector arrow points along the track toward the train.](../resources/Figure_02_04_00a.jpg "A subway train in Sao Paulo, Brazil, decelerates as it comes into a station. It is accelerating in a direction opposite to its direction of motion. (credit: Yusuke Kawasaki, Flickr)")
 {: #import-auto-id1515319}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Misconception Alert: Deceleration vs. Negative Acceleration
 </div>
@@ -505,7 +505,7 @@ If we take east to be positive, then the airplane has negative acceleration, as 
 </div>
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Moving Man Simulation
 </div>

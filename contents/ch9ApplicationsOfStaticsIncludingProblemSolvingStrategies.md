@@ -17,7 +17,7 @@ special case of Newton’s laws, both the general problem-solving strategies and
 the special strategies for Newton’s laws, discussed
 in [Problem-Solving Strategies](../contents/ch4ProblemSolvingStrategies.md), still apply.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Problem-Solving Strategy: Static Equilibrium Situations
 </div>
@@ -181,7 +181,7 @@ If the pole vaulter holds the pole as he might at the start of a run, shown
 in [[Figure]](#eip-id2351577), the forces change again. Both are considerably
 greater, and one force reverses direction.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Take-Home Experiment
 </div>
@@ -189,7 +189,7 @@ This is an experiment to perform while standing in a bus or a train. Stand facin
 
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Balancing Act
 </div>

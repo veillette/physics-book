@@ -112,7 +112,7 @@ It has been found that the acceleration of an object depends *only* on the net
 external force and the mass of the object. Combining the two proportionalities
 just given yields Newton\'s second law of motion.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Newton’s Second Law of Motion
 </div>
@@ -181,7 +181,7 @@ Since the object experiences only the downward force of gravity,$$ F_
 {\text{net}}=w $$. We know that the acceleration of an object due to gravity is
 $$ g $$, or $$ a=g $$. Substituting these into Newton’s second law gives
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Weight
 </div>
@@ -235,7 +235,7 @@ terms *mass* and *weight* are used interchangeably in everyday language; for
 example, our medical records often show our “weight” in kilograms, but never in
 the correct units of newtons.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Common Misconceptions: Mass vs. Weight
 </div>
@@ -263,7 +263,7 @@ losing “mass” (which in turn causes them to weigh less).
 
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Take-Home Experiment: Mass and Weight
 </div>

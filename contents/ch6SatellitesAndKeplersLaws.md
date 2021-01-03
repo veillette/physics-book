@@ -227,7 +227,7 @@ of the orbits due to other bodies. Interestingly, those perturbations can be—a
 have been—used to predict the location of new planets and moons. This is another
 verification of Newton’s universal law of gravitation.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections
 </div>

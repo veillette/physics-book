@@ -21,7 +21,7 @@ opposite reaction on what remains. Another common example is the recoil of a
 gun. The gun exerts a force on a bullet to accelerate it and consequently
 experiences an equal and opposite force, causing the gun’s recoil or kick.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Take-Home Experiment—Propulsion of a Balloon
 </div>
@@ -58,7 +58,7 @@ to be a good approximation for the acceleration of the rocket.
 “The rocket” is that part of the system remaining after the gas is ejected, and
 $$ g $$ is the acceleration due to gravity.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Acceleration of a Rocket
 </div>
@@ -91,7 +91,7 @@ m $$ of the rocket. The smaller the mass is (all other factors being the same), 
   begin with, so that acceleration increases continuously, reaching a maximum
   just before the fuel is exhausted.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Factors Affecting a Rocket’s Acceleration
 </div>

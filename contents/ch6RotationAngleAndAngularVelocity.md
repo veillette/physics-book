@@ -225,7 +225,7 @@ with respect to the axis of rotation—it is either clockwise or counterclockwis
 Linear velocity is tangent to the path, as illustrated
 in [[Figure]](#import-auto-id1452850).
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Take-Home Experiment
 </div>

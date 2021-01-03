@@ -67,7 +67,7 @@ $$, so that
 ![The figure shows a circular disc of radius r. A net force F is applied perpendicular to the radius, rotating the disc in an anti-clockwise direction and producing a displacement equal to delta S, in a direction parallel to the direction of the force applied. The angle covered is theta.](../resources/Figure_11_04_02a.jpg "The net force on this disk is kept perpendicular to its radius as the force causes the disk to rotate. The net work done is thus \( \text{net} F \cdot \Delta s \). The net work goes into rotational kinetic energy.")
 {: #import-auto-id2009471}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections
 </div>
@@ -248,7 +248,7 @@ losing altitude and aligning the blades so that the helicopter is spun up in the
 descent. Of course, if the helicopter’s altitude is too low, then there is
 insufficient time for the blade to regain lift before reaching the ground.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Problem-Solving Strategy for Rotational Energy
 </div>
@@ -364,7 +364,7 @@ blades.
 ![The given figure here shows a helicopter from the Auckland Westpac Rescue Helicopter Service over a sea. A rescue diver is shown holding the iron stand bar at the bottom of the helicopter, clutching a person. In the other image just above this, the blades of the helicopter are shown with their anti-clockwise rotation direction shown with an arrow and the length of one blade is given as four meters.](../resources/Figure_11_04_05a.jpg "The first image shows how helicopters store large amounts of rotational kinetic energy in their blades. This energy must be put into the blades before takeoff and maintained until the end of the flight. The engines do not have enough power to simultaneously provide lift and put significant rotational energy into the blades. The second image shows a helicopter from the Auckland Westpac Rescue Helicopter Service. Over 50 000 lives have been saved since its operations beginning in 1973. Here, a water rescue operation is shown. (credit: 111 Emergency, Flickr)")
 {: #import-auto-id2420248 height="300"}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections
 </div>
@@ -424,7 +424,7 @@ rotational kinetic energy; and the greater $$ I $$ is, the less energy goes into
 translation. If the can slides down without friction, then $$ \omega =0 $$ and
 all the energy goes into translation; thus, the can goes faster.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Take-Home Experiment
 </div>
