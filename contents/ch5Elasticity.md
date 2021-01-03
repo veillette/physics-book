@@ -752,7 +752,6 @@ be consistent with what you have observed when using pencils?
 </div>
 <div class="solution" markdown="1">
 (a)1 mm
-{: class="newline"}
 
 (b) This does seem reasonable, since the lead does seem to shrink a little when
 you push on it.
@@ -779,8 +778,7 @@ nylon ropes? Would it make sense if the rope were actually a bungee cord?
 
 </div>
 <div class="solution" markdown="1">
-(a)9 cm
-{: class="newline"}
+(a) 9 cm
 
 (b) This seems reasonable for nylon climbing rope, since it is not supposed to
 stretch that much.
