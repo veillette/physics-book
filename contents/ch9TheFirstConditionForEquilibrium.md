@@ -60,9 +60,9 @@ next section.
 ![A hockey stick is shown. The two force vectors acting on the hockey stick are shown, one pointing to the right and the other to the left. The lines of action of the two forces are different. Each vector is labeled as F. At the top and the bottom of the stick there are two circular arrows, showing the clockwise direction of the rotation. At the lower right side the free body diagram, a point with two horizontal vectors, each labeled F and directed away from the point, is shown.](../resources/Figure_10_01_04a.jpg "The same forces are applied at other points and the stick rotates&#x2014;in fact, it experiences an accelerated rotation. Here \( \text{net }F=0 \) but the system is not at equilibrium. Hence, the \( \text{net }F=0 \) is a necessary&#x2014;but not sufficient&#x2014;condition for achieving equilibrium.")
 {: #import-auto-id1164400867302}
 
-<div class="phet" id="eip-522" data-label="" markdown="1">
+<div class="note" id="eip-522" data-label="" markdown="1">
 <div class="title">
-PhET Explorations: Torque
+PhET Exploration: Torque
 </div>
 Investigate how torque causes an object to rotate. Discover the relationships between angular acceleration, moment of inertia, angular momentum and torque.
 

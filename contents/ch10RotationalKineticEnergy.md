@@ -516,21 +516,19 @@ kinetic energy relative to the Earth.
 </div>
 </div>
 
-<div class="phet" id="eip-216" data-label="" markdown="1">
+<div class="note" id="eip-216" data-label="" markdown="1">
 <div class="title">
-PhET Explorations: My Solar System
+PhET Exploration: My Solar System
 </div>
 Build your own system of heavenly bodies and watch the gravitational ballet.
 With this orbit simulator, you can set initial positions, velocities,
 and masses of 2, 3, or 4 bodies, and then see them orbit each other.
 
 <figure markdown="1" id="eip-id2625118">
-<div class="cnxsim">
 <iframe src="https://veillette.github.io/simulations/my-solar-system/#sim-my-solar-system" width="750" height="500"  allowfullscreen></iframe>
 <figcaption>
 My solar system
 </figcaption>
-</div>
 </figure>
 </div>
 

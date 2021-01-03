@@ -353,9 +353,9 @@ right triangles are involved. The analytical techniques presented
 in [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md) are
 ideal for finding vector components.
 
-<div class="phet" id="eip-718" data-label="" markdown="1">
+<div class="note" id="eip-718" data-label="" markdown="1">
 <div class="title">
-PhET Explorations: Maze Game
+PhET Exploration: Maze Game
 </div>
 Learn about position, velocity, and acceleration in the \"Arena of Pain\". Use
 the green arrow to move the ball. Add more walls to the arena to make the

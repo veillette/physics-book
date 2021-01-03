@@ -237,20 +237,20 @@ necessarily the same thing).
 
 </div>
 
-<div class="phet" id="eip-984" data-label="" markdown="1">
+<div class="note" id="eip-984" data-label="" markdown="1">
 <div class="title">
-PhET Explorations: Gravity Force Lab
+PhET Exploration: Gravity Force Lab
 </div>
 Visualize the gravitational force that two objects exert on each other. Change properties of the objects in
 order to  see how it changes the gravity force.
 
 <figure markdown="1" id="eip-id2062883">
-<div class="phet">
+
 <iframe src="https://phet.colorado.edu/sims/html/gravity-force-lab/latest/gravity-force-lab_en.html" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 Gravity Force Lab
 </figcaption>
-</div>
+
 </figure>
 </div>
 

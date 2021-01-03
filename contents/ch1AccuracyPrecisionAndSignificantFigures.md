@@ -381,9 +381,9 @@ value must also contain two significant figures.
 </div>
 </div>
 
-<div class="phet" id="eip-515" data-label="" markdown="1">
+<div class="mote" id="eip-515" data-label="" markdown="1">
 <div class="title">
-PhET Explorations: Estimation
+PhET Exploration: Estimation
 </div>
 Explore size estimation in one, two, and three dimensions! Multiple levels of difficulty allow for progressive skill improvement.
 

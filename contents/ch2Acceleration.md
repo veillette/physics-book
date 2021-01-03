@@ -507,7 +507,7 @@ If we take east to be positive, then the airplane has negative acceleration, as 
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
-PhET Explorations: Moving Man Simulation
+PhET Exploration: Moving Man Simulation
 </div>
 Learn about position, velocity, and acceleration graphs. Move the little man back and forth with the mouse and plot his motion. Set the position, velocity, or acceleration and let the simulation move the man for you.
 

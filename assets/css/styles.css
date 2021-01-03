@@ -498,35 +498,3 @@ h6:hover .header-link {
 .page {
     counter-reset: figure example exercise;
 }
-
-.phet .title {
-    padding: 15px;
-    display: inline-block;
-    color: #555555;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.phet {
-    display: inline-block;
-    margin: 30px 6rem 0 6rem;
-    padding: 15px;
-    background-color: #ededed;
-}
-
-.phet figure {
-    display: table;
-    width: 100%;
-}
-
-.phet figure > figcaption {
-    display: table-caption;
-    caption-side: bottom;
-    font-size: small;
-}
-
-.phet figure > figcaption::before {
-    font-weight: bold;
-    content: 'Animation ' counter(figure) ': ';
-}

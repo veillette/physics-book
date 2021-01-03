@@ -277,19 +277,19 @@ proportional to the mass of the steel and glass marbles?
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
-PhET Explorations: The Ramp
+PhET Exploration: The Ramp
 </div>
 Explore forces, energy and work as you push household objects up and down a ramp. Lower and
 raise the ramp to see how the angle of inclination affects the parallel forces acting on the file
 cabinet. Graphs show forces, energy and work.
 
 <figure markdown="1" id="theRamp">
-<div class="phet">
+
 <iframe src="https://phet.colorado.edu/sims/cheerpj/the-ramp/latest/the-ramp.html?simulation=the-ramp" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 The Ramp
 </figcaption>
-</div>
+
 </figure>
 </div>
 
