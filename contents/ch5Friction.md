@@ -20,7 +20,7 @@ observations for whatever understandings we can gain. However, we can still deal
 with its more elementary general characteristics and understand the
 circumstances in which it behaves.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Friction
 </div>
@@ -39,7 +39,7 @@ class="term" #import-auto-id1165298806829}
 can act between them; the static friction is usually greater than the
 kinetic friction between the objects.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Kinetic Friction
 </div>
@@ -90,7 +90,7 @@ the **magnitude of static friction** , $$f_{s} $$ is given by
 where $$ \mu_{\s} $$ is the coefficient of static friction and $$ \mag{N}$$
 is the magnitude of the normal force (the force perpendicular to the surface).
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Magnitude of Static Friction
 </div>
@@ -125,7 +125,7 @@ where $$ \mu_{\text{k}} $$ is the coefficient of kinetic friction. A system in
 which $$ f_{\text{k}}=\mu_{\text{k}} \mag{N} $$ is described as a system in
 which *friction behaves simply*.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Magnitude of Kinetic Friction
 </div>
@@ -182,7 +182,7 @@ lubrication. Coefficient of friction is a unit less quantity with a magnitude
 usually between 0 and 1.0. The coefficient of the friction depends on the two
 surfaces that are in contact.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Take-Home Experiment
 </div>
@@ -295,7 +295,7 @@ this chapter’s Problems and Exercises.
 
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Take-Home Experiment
 </div>
@@ -332,7 +332,7 @@ We have discussed that when an object rests on a horizontal surface, there is a
 normal force supporting it equal in magnitude to its weight. Furthermore, simple
 friction is always proportional to the normal force.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Submicroscopic Explanations of Friction
 </div>
@@ -372,7 +372,7 @@ times—friction.
 ![This figure shows a molecular model of a probe that is dragged over the surface of a substrate. The substrate is represented by a rectangular prism, made up of a grid of small spheres, each sphere representing an atom. The probe, made up of a different grid of small spheres, is in the form of an inverted pyramid with a flattened peak. The pyramid is somewhat distorted because of friction.](../resources/Figure_06_01_05a.jpg "The tip of a probe is deformed sideways by frictional force as the probe is dragged across a surface. Measurements of how the force varies for different materials are yielding fundamental insights into the atomic nature of friction.")
 {: #import-auto-id1165298744656}
 
-<div class="note" data-has-label="true" id="eip-440" data-label="" markdown="1">
+<div class="phet" id="eip-440" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Forces and Motion
 </div>

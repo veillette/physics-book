@@ -21,7 +21,7 @@ opposite reaction on what remains. Another common example is the recoil of a
 gun. The gun exerts a force on a bullet to accelerate it and consequently
 experiences an equal and opposite force, causing the gun’s recoil or kick.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Take-Home Experiment—Propulsion of a Balloon
 </div>
@@ -58,7 +58,7 @@ to be a good approximation for the acceleration of the rocket.
 “The rocket” is that part of the system remaining after the gas is ejected, and
 $$ g $$ is the acceleration due to gravity.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Acceleration of a Rocket
 </div>
@@ -91,7 +91,7 @@ m $$ of the rocket. The smaller the mass is (all other factors being the same), 
   begin with, so that acceleration increases continuously, reaching a maximum
   just before the fuel is exhausted.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Factors Affecting a Rocket’s Acceleration
 </div>
@@ -203,7 +203,7 @@ atmosphere’s resistance.
 ![The space shuttle is launched. It consists of the shuttle orbiter, two solid rocket boosters, and an expendable external tank. It takes off leaving much smoke and fire.](../resources/Figure_09_07_02a.jpg "The space shuttle had a number of reusable parts. Solid fuel boosters on either side were recovered and refueled after each flight, and the entire orbiter returned to Earth for use in subsequent flights. The large liquid fuel tank was expended. The space shuttle was a complex assemblage of technologies, employing both solid and liquid fuel and pioneering ceramic tiles as reentry heat shields. As a result, it permitted multiple launches as opposed to single-use rockets. (credit: NASA)")
 {: #import-auto-id2998704}
 
-<div class="note" data-has-label="true" id="eip-225" data-label="" markdown="1">
+<div class="phet" id="eip-225" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Lunar Lander
 </div>

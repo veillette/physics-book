@@ -272,7 +272,7 @@ relationships between them.
 | $$\alpha$$ | $$ a $$ | $$ \alpha= \frac{a}{r} $$ |
 {: #import-auto-id1572984}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Take-Home Experiment
 </div>
@@ -301,7 +301,8 @@ moment of inertia about her spin axis.
 </div>
 </div>
 
-<div class="note" data-has-label="true" id="eip-669" data-label="" markdown="1">
+
+<div class="phet" id="here">
 <div class="title">
 PhET Explorations: Ladybug Revolution
 </div>
@@ -311,7 +312,7 @@ Join the ladybug in an exploration of rotational motion. Rotate the merry-go-rou
 <figcaption>
 Ladybug Revolution
 </figcaption>
-<iframe src="https://phet.colorado.edu/sims/cheerpj/rotation/latest/rotation.html?simulation=rotation" width="600" height="450"  allowfullscreen></iframe>
+<iframe src="https://phet.colorado.edu/sims/cheerpj/rotation/latest/rotation.html?simulation=rotation" width="600" height="450" allowfullscreen></iframe>
 </figure>
 </div>
 

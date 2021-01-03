@@ -105,7 +105,7 @@ other. At any rate, the uncertainty in a measurement must be based on a careful
 consideration of all the factors that might contribute and their possible
 effects.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Real-World Connections – Fevers or Chills?
 </div>
@@ -148,7 +148,7 @@ apples each time. You obtain the following measurements:
  $$ 4.9 \text{lb} $$
 * Week 4 weight:
  $$ 5.4 \text{lb} $$
-{: data-bullet-style="none"}
+
 You determine that the weight of the $$ 5\text{-lb} $$ bag has an uncertainty of
 $$ \pm 0.4\text{lb} $$. What is the percent uncertainty of the bag’s weight?
 
@@ -381,7 +381,7 @@ value must also contain two significant figures.
 </div>
 </div>
 
-<div class="note" data-has-label="true" id="eip-515" data-label="" markdown="1">
+<div class="phet" id="eip-515" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Estimation
 </div>

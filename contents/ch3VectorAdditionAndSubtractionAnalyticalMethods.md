@@ -125,7 +125,7 @@ respectively, then $$ A=\sqrt{ 9^{2}+5^{2}}=10.3 $$ blocks, again consistent
 with the example of the person walking in a city. Finally, the direction is $$
 \theta ={\tan}^{-1}\left(5/9 \right) =29.1^\circ $$, as before.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Determining Vectors and Vector Components with Analytical Methods
 </div>
@@ -347,7 +347,7 @@ physics.
 ![In this figure, the subtraction of two vectors A and B is shown. A red colored vector A is inclined at an angle theta A to the positive of x axis. From the head of vector A a blue vector negative B is drawn. Vector B is in west of south direction. The resultant of the vector A and vector negative B is shown as a black vector R from the tail of vector A to the head of vector negative B. The resultant R is inclined to x axis at an angle theta below the x axis. The components of the vectors are also shown along the coordinate axes as dotted lines of their respective colors.](../resources/Figure_03_03_10a.jpg "The subtraction of the two vectors shown in [link]. The components of &#x2013; \( B \)  are the negatives of the components of  \( B \) . The method of subtraction is the same as that for addition.")
 {: #import-auto-id1165298841604}
 
-<div class="note" data-has-label="true" id="eip-948" data-label="" markdown="1">
+<div class="phet" id="eip-948" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Vector Addition
 </div>

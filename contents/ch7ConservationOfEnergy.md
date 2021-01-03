@@ -47,7 +47,7 @@ included as $$ \text{OE} $$. This equation applies to all previous examples; in
 those situations $$ \text{OE} $$ was constant, and so it subtracted out and was
 not directly considered.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Usefulness of the Energy Conservation Principle
 </div>
@@ -91,7 +91,7 @@ work.
 released from various objects and in various phenomena. The range of energies
 and the variety of types and situations is impressive.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Problem-Solving Strategies for Energy
 </div>
@@ -229,7 +229,7 @@ cooling towers.
 |Solar cell|10|
 {: #import-auto-id1330125}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Masses and Springs
 </div>

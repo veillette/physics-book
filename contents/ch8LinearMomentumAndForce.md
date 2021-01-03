@@ -31,7 +31,7 @@ momentum. Momentum $$ \vb{p} $$ is a vector having the same direction as the
 velocity $$ \vb{v} $$. The SI unit for momentum is $$
 \kg · \ms $$.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Linear Momentum
 </div>
@@ -113,7 +113,7 @@ where $$ \vb{F}_{\text{net}} $$ is the net external force, $$ \Delta
 \vb{p} $$ is the change in momentum, and $$ \Delta t $$ is the change in
 time.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Newton’s Second Law of Motion in Terms of Momentum
 </div>
@@ -124,7 +124,7 @@ The net external force equals the change in momentum of a system divided by the 
 </div>
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Force and Momentum
 </div>

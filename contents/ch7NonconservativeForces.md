@@ -239,7 +239,7 @@ considerably.
 
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Take-Home Investigation—Determining Friction from the Stopping Distance
 </div>
@@ -275,7 +275,7 @@ proportional to the mass of the steel and glass marbles?
 
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: The Ramp
 </div>

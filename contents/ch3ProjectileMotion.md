@@ -57,7 +57,7 @@ direction is positive, then acceleration due to gravity takes a positive value.)
 Because gravity is vertical, $$ a_{x}=0 $$. Both accelerations are constant, so
 the kinematic equations can be used.
 
-<div class="note" data-has-label="true" data-label="">
+<div class="note" data-label="">
 <div class="title">
 Review of Kinematic Equations (constant \( a \) )
 </div>
@@ -316,7 +316,7 @@ the maximum height $$ y=h $$; then,
 This equation defines the **maximum height of a projectile** and depends only on
 the vertical component of the initial velocity.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Defining a Coordinate System
 </div>
@@ -537,7 +537,7 @@ will also yield insights beyond the immediate topic.
 ![A figure of the Earth is shown and on top of it a very high tower is placed. A projectile satellite is launched from this very high tower with initial velocity of v zero in the horizontal direction. Several trajectories are shown with increasing range. A circular trajectory is shown indicating the satellite achieved its orbit and it is revolving around the Earth.](../resources/Figure_03_04_06a.jpg "Projectile to satellite. In each case shown here, a projectile is launched from a very high tower to avoid air resistance. With increasing initial speed, the range increases and becomes longer than it would be on level ground because the Earth curves away underneath its path. With a large enough initial speed, orbit is achieved.")
 {: #import-auto-id1645881}
 
-<div class="note" data-has-label="true" id="eip-89" data-label="" markdown="1">
+<div class="phet" id="eip-89" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Projectile Motion
 </div>

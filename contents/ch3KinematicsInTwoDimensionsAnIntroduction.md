@@ -88,7 +88,7 @@ walks east and then north (two perpendicular directions). How far they
 walk east is only affected by their motion eastward. Similarly, how far they
 walk north is only affected by their motion northward.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Independence of Motion
 </div>
@@ -131,7 +131,7 @@ in [Vector Addition and Subtraction: Graphical Methods](../contents/ch3VectorAdd
 and [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md). We
 will find such techniques to be useful in many areas of physics.
 
-<div class="note" data-has-label="true" id="eip-652" data-label="" markdown="1">
+<div class="phet" id="eip-652" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Ladybug Motion 2D
 </div>

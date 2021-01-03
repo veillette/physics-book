@@ -359,7 +359,7 @@ problem:
 Step 1. *Identify which physical principles are involved*. Listing the givens
 and the quantities to be calculated will allow you to identify the principles
 involved.
-{: class="newline"}
+
 
 Step 2. *Solve the problem using strategies outlined in the text*. If these are
 available for the specific topic, you should refer to them. You should also

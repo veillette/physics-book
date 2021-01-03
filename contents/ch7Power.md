@@ -24,7 +24,7 @@ These images of power have in common the rapid performance of work, consistent
 with the scientific definition of **power**{: class="term"} ( $$ P $$ )
 as the rate at which work is done.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Power
 </div>
@@ -101,7 +101,7 @@ to metabolize more food—this is known as the *aerobic* stage of exercise. If t
 woman climbed the stairs slowly, then her power output would be much less,
 although the amount of work done would be the same.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Take-Home Investigation—Measure Your Power Rating
 </div>

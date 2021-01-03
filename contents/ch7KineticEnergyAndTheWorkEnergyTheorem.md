@@ -123,7 +123,7 @@ special case of a constant force parallel to the displacement. The theorem
 implies that the net work on a system equals the change in the quantity $$
 \frac{1}{2}m v^{2} $$. This quantity is our first example of a form of energy.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 The Work-Energy Theorem
 </div>

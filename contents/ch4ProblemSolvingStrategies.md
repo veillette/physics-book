@@ -50,7 +50,7 @@ earlier in this chapter, the system of interest depends on what question we need
 to answer. This choice becomes easier with practice, eventually developing into
 an almost unconscious process. Skill in clearly defining systems will be
 beneficial in later chapters as well.
-{: class="newline"}
+
 
 A diagram showing the system of interest and all of the external forces is
 called a **free-body diagram**{: class="
@@ -74,7 +74,7 @@ involved, a set of axes with one axis parallel to the incline and one
 perpendicular to it is most convenient. It is almost always convenient to make
 one axis parallel to the direction of motion, if this is known.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Applying Newton’s Second Law
 </div>

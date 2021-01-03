@@ -117,7 +117,7 @@ section emphasize gravitational forces, the basic conditions for equilibrium are
 the same for all types of forces. The net external force must be zero, and the
 net torque must also be zero.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Take-Home Experiment
 </div>

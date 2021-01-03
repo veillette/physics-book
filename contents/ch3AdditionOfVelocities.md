@@ -87,7 +87,7 @@ velocity. The first two equations are used to find the components of a velocity
 when its magnitude and direction are known. The last two are used to find the
 magnitude and direction of velocity when its components are known.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Take-Home Experiment: Relative Velocity of a Boat
 </div>
@@ -434,7 +434,7 @@ the coin fall 1.50 m vertically, but the one on the ground also sees it move
 forward 144 m (this calculation is left for the reader).
 Thus, one observer sees a vertical path, the other a nearly horizontal path.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Relativity and Einstein
 </div>
@@ -443,7 +443,7 @@ Because Einstein was able to clearly define how measurements are made (some invo
 </div>
 </div>
 
-<div class="note" data-has-label="true" id="eip-584" data-label="" markdown="1">
+<div class="phet" id="eip-584" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Motion in 2D
 </div>

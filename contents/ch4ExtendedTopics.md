@@ -35,7 +35,7 @@ an atom determine the number of electrons it has and, thus, indirectly determine
 the chemistry of the atom. More will be said of all of these topics in later
 chapters.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Concept Connections: The Four Basic Forces
 </div>
@@ -83,7 +83,7 @@ interactions of atoms and molecules. It is still convenient to consider these
 forces separately in specific applications, however, because of the ways they
 manifest themselves.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Concept Connections: Unifying Forces
 </div>
@@ -135,7 +135,7 @@ See [[Figure]](#import-auto-id1577565).)
 ![The electric force field between a positively charged particle and a negatively charged particle. Electric field lines start from the positive charge and end at the negative charge, and each line is represented as a curved arrow.](../resources/Figure_04_08_01.jpg "The electric force field between a positively charged particle and a negatively charged particle. When a positive test charge is placed in the field, the charge will experience a force in the direction of the force field lines.")
 {: #import-auto-id1577565}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Concept Connections: Force Fields
 </div>

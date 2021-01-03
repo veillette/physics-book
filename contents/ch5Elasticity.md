@@ -49,7 +49,7 @@ it to break or fracture. **Tensile strength**{: class="
 term"} is the breaking stress that will cause permanent deformation or fracture
 of a material.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Hooke’s Law
 </div>
@@ -85,7 +85,7 @@ deformation is less than about 0.1% or about 1 part in $$ 10^{3} $$.
 ![Diagram of weight w attached to each of three guitar strings of initial length L zero hanging vertically from a ceiling. The weight pulls down on the strings with force w. The ceiling pulls up on the strings with force w. The first string of thin nylon has a deformation of delta L due to the force of the weight pulling down. The middle string of thicker nylon has a smaller deformation. The third string of thin steel has the smallest deformation.](../resources/Figure_06_03_02a.jpg "The same force, in this case a weight ( \( w \) ), applied to three different guitar strings of identical length produces the three different deformations shown as shaded segments. The string on the left is thin nylon, the one in the middle is thicker nylon, and the one on the right is steel.")
 {: #import-auto-id1165296232089}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Stretch Yourself a Little
 </div>
@@ -343,7 +343,7 @@ This general idea—that force and the deformation it causes are proportional fo
 small deformations—applies to changes in length, sideways bending, and changes
 in volume.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Stress
 </div>
@@ -352,7 +352,7 @@ in $$\text{N/m}^2$$.
 
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Strain
 </div>
@@ -387,7 +387,7 @@ example, it is easier to bend a long thin pencil (small $$ A $$ )
 than a short thick one, and both are more easily bent than similar steel
 rods (large $$ S $$ ).
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" data-label="" markdown="1">
 <div class="title">
 Shear Deformation
 </div>
@@ -581,7 +581,7 @@ biological cell, or crack an engine block that gets in its way.
 Other types of deformations, such as torsion or twisting, behave analogously to
 the tension, shear, and bulk deformations considered here.
 
-<div class="note" data-has-label="true" id="eip-948" data-label="" markdown="1">
+<div class="phet" id="eip-948" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Hooke's Law
 </div>
@@ -752,7 +752,6 @@ be consistent with what you have observed when using pencils?
 </div>
 <div class="solution" markdown="1">
 (a)1 mm
-{: class="newline"}
 
 (b) This does seem reasonable, since the lead does seem to shrink a little when
 you push on it.
@@ -779,8 +778,7 @@ nylon ropes? Would it make sense if the rope were actually a bungee cord?
 
 </div>
 <div class="solution" markdown="1">
-(a)9 cm
-{: class="newline"}
+(a) 9 cm
 
 (b) This seems reasonable for nylon climbing rope, since it is not supposed to
 stretch that much.
