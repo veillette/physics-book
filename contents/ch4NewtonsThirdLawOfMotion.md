@@ -237,7 +237,7 @@ necessarily the same thing).
 
 </div>
 
-<div class="note" data-has-label="true" id="eip-984" data-label="" markdown="1">
+<div class="phet" id="eip-984" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Gravity Force Lab
 </div>

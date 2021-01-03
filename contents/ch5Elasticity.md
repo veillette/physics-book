@@ -581,7 +581,7 @@ biological cell, or crack an engine block that gets in its way.
 Other types of deformations, such as torsion or twisting, behave analogously to
 the tension, shear, and bulk deformations considered here.
 
-<div class="note" data-has-label="true" id="eip-948" data-label="" markdown="1">
+<div class="phet" id="eip-948" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Hooke's Law
 </div>

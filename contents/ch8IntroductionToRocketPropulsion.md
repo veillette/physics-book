@@ -203,7 +203,7 @@ atmosphere’s resistance.
 ![The space shuttle is launched. It consists of the shuttle orbiter, two solid rocket boosters, and an expendable external tank. It takes off leaving much smoke and fire.](../resources/Figure_09_07_02a.jpg "The space shuttle had a number of reusable parts. Solid fuel boosters on either side were recovered and refueled after each flight, and the entire orbiter returned to Earth for use in subsequent flights. The large liquid fuel tank was expended. The space shuttle was a complex assemblage of technologies, employing both solid and liquid fuel and pioneering ceramic tiles as reentry heat shields. As a result, it permitted multiple launches as opposed to single-use rockets. (credit: NASA)")
 {: #import-auto-id2998704}
 
-<div class="note" data-has-label="true" id="eip-225" data-label="" markdown="1">
+<div class="phet" id="eip-225" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Lunar Lander
 </div>

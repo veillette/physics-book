@@ -381,7 +381,7 @@ value must also contain two significant figures.
 </div>
 </div>
 
-<div class="note" data-has-label="true" id="eip-515" data-label="" markdown="1">
+<div class="phet" id="eip-515" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Estimation
 </div>

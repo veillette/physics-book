@@ -354,7 +354,7 @@ Without knowing the details of the law, you can still infer that the information
 </div>
 </div>
 
-<div class="note" data-has-label="true" id="eip-607" data-label="" markdown="1">
+<div class="phet" id="eip-607" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Graphing Quadratics
 </div>
