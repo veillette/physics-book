@@ -245,7 +245,7 @@ Making Connections: Take-Home Investigation—Determining Friction from the Stop
 </div>
 This experiment involves the conversion of gravitational potential energy into
 thermal energy. Use the ruler, book, and marble
-from [Take-Home Investigation—Converting Potential to Kinetic Energy](../contents/ch7GravitationalPotentialEnergy.md#fs-id1804087).
+from [Take-Home Investigation—Converting Potential to Kinetic Energy](../contents/ch7GravitationalPotentialEnergy.md#takeHome).
 In addition, you will need a foam cup with a small hole in the side,
 as shown in [[Figure]](#fs-id1774418). From the 10-cm position on the ruler,
 let the marble roll into the cup positioned at the bottom of the ruler.
