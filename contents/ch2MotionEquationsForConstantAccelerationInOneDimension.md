@@ -562,9 +562,8 @@ braking.
 <div class="equation" id="import-auto-id1658817">
  $$ x_{\text{braking}}+x_{\text{reaction}}=x_{\text{total}} $$
 </div>
-1.  {: #import-auto-id1658854} 64.3 m + 15.0 m = 79.3 m when dry
-2.  {: #import-auto-id1658828} 90.0 m + 15.0 m = 105 m when wet
-{: type="a"}
+(a)  {: #import-auto-id1658854} 64.3 m + 15.0 m = 79.3 m when dry
+(b)  {: #import-auto-id1658828} 90.0 m + 15.0 m = 105 m when wet
 
 ![Diagram showing the various braking distances necessary for stopping a car. With no reaction time considered, braking distance is 64 point 3 meters on a dry surface and 90 meters on a wet surface. With reaction time of 0 point 500 seconds, braking distance is 79 point 3 meters on a dry surface and 105 meters on a wet surface.](../resources/Figure_02_04_03.jpg "The distance necessary to stop a car varies greatly, depending on road conditions and driver reaction time. Shown here are the braking distances for dry and wet pavement, as calculated in this example, for a car initially traveling at 30.0 m/s. Also shown are the total distances traveled from the point where the driver first sees a light turn red, assuming a 0.500 s reaction time. ")
 {: #import-auto-id1658840}

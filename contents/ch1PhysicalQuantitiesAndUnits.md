@@ -486,9 +486,9 @@ The speed limit on some interstate highways is roughly 100 km/h.
 
 </div>
 <div class="solution" markdown="1">
-1. $$ 27.8  \ms $$
+(a) $$ 27.8  \ms $$
 
-2. $$ 62.1 \text{mph} $$ {: data-mark-prefix="(" data-mark-suffix=")" type="a"}
+(b) $$ 62.1 \text{mph} $$
 
 </div>
 </div>

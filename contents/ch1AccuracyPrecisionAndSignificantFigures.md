@@ -96,7 +96,7 @@ as $$ 11\text{in.} \pm 0.2 $$. The factors contributing to uncertainty
 2. The skill of the person making the measurement,
 3. Irregularities in the object being measured,
 4. Any other factors that affect the outcome (highly dependent on the situation).
-   {: type="1"}
+
 
 In our example, such factors contributing to the uncertainty could be the
 following: the smallest division on the ruler is 0.1 in., the person using the
@@ -263,12 +263,11 @@ Check Your Understanding
 <div class="problem" markdown="1">
 Determine the number of significant figures in the following measurements:
 
-1. 0.0009
-2. 15 450.0
-3. $$ 6 \times 10^{3} $$
-4. 87.990
-5. 30.42
-{: data-mark-prefix="(" data-mark-suffix=")" type="a"}
+(a) 0.0009
+(b) 15 450.0
+(c) $$ 6 \times 10^{3} $$
+(d) 87.990
+(d) 30.42
 </div>
 <div class="solution" data-print-placement="here" markdown="1">
 (a) 1; the zeros in this number are placekeepers that indicate the decimal point
@@ -461,10 +460,9 @@ possible speeds when it reads $$ 90\text{km/h} $$ ?
 (b) Convert this range to miles per hour. $$ \left(1 \text{km}= 0.6214 \text{mi}\right) $$
 </div>
 <div class="solution" markdown="1">
-1. $$ 85.5\text{to } 94.5 \text{km/h} $$
+(a) $$ 85.5\text{to } 94.5 \text{km/h} $$
 
-2. $$ 53.1\text{to } 58.7 \text{mi/h} $$ {: data-mark-prefix="("
-   data-mark-suffix=")" type="a"}
+(b) $$ 53.1\text{to } 58.7 \text{mi/h} $$ 
 
 </div>
 </div>
@@ -506,11 +504,9 @@ b. $$ \left(18.7\right)^{2} $$
 c. $$ \left(1.60 \times 10^{-19}\right) \left( 3712\right) $$.
 </div>
 <div class="solution" markdown="1">
-1.  3
-2.  3
-3.  3
-{: type="a" data-mark-prefix="(" data-mark-suffix=")"}
-
+(a)  3
+(b)  3
+(c)  3
 </div>
 </div>
 
