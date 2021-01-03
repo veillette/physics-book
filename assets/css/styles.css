@@ -388,7 +388,7 @@ h6:hover .header-link {
 
 .book .book-body .page-wrapper .page-inner .example .solution:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before,
 .book .book-body .page-wrapper .page-inner .exercise .solution:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before {
-    content: '[Show Solution]';
+    content: 'Show Solution';
 }
 
 .book .book-body .page-wrapper .page-inner .example .solution:not(.ui-solution-visible) > section,
@@ -398,7 +398,7 @@ h6:hover .header-link {
 
 .book .book-body .page-wrapper .page-inner .example .solution.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before,
 .book .book-body .page-wrapper .page-inner .exercise .solution.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before {
-    content: '[Hide Solution]';
+    content: 'Hide Solution';
 }
 
 
