@@ -189,7 +189,6 @@ $$  is the height to which the ball bounces and $$ H $$ is the height from which
 Determine $$ c $$ for the cases in Part 1 and for the case of a tennis ball bouncing off
 a concrete or wooden floor ( $$ c=0.85 $$ for new tennis balls used on a tennis court).
 
-{: type="1"}
 
 </div>
 

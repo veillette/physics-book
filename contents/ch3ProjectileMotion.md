@@ -620,7 +620,7 @@ Projectile Motion
        <div class="equation" id="import-auto-id1979208">
     $$ \theta_{\text{v}}={\tan}^{-1} \left( \frac{v_{y}}{v_{x}} \right) .$$
        </div>
-  {: type="1" .stepwise}
+ 
 
 * {: #import-auto-id1888635} The maximum height $$ h $$ of a projectile launched
   with initial vertical velocity $$ v_{0y} $$ is given by
