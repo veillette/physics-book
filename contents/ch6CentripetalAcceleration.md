@@ -197,7 +197,7 @@ Newton proposed in his second law of motion. So a net external force is needed
 to cause a centripetal acceleration. In [Centripetal Force](../contents/ch6CentripetalForce.md),
 we will consider the forces involved in circular motion.
 
-<div class="note" data-has-label="true" id="eip-401" data-label="" markdown="1">
+<div class="phet" id="eip-401" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Ladybug Motion 2D
 </div>

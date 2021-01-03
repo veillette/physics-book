@@ -353,7 +353,7 @@ right triangles are involved. The analytical techniques presented
 in [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md) are
 ideal for finding vector components.
 
-<div class="note" data-has-label="true" id="eip-718" data-label="" markdown="1">
+<div class="phet" id="eip-718" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Maze Game
 </div>

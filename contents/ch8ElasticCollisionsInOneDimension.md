@@ -181,7 +181,7 @@ Find a few ice cubes which are about the same size and a smooth kitchen tabletop
 
 </div>
 
-<div class="note" data-has-label="true" id="eip-732" data-label="" markdown="1">
+<div class="phet" id="eip-732" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Collision Lab
 </div>

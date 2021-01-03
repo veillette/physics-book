@@ -516,7 +516,7 @@ kinetic energy relative to the Earth.
 </div>
 </div>
 
-<div class="note" data-has-label="true" id="eip-216" data-label="" markdown="1">
+<div class="phet" id="eip-216" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: My Solar System
 </div>

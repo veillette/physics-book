@@ -504,7 +504,7 @@ to find in physics is in the long list of forces. Are some more basic than
 others? Are some different manifestations of the same underlying force? The
 answer to both questions is yes, as will be seen in the next few sections.
 
-<div class="note" data-has-label="true" id="eip-456" data-label="" markdown="1">
+<div class="phet" id="eip-456" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Forces in 1 Dimension
 </div>

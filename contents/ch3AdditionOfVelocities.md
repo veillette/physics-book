@@ -443,7 +443,7 @@ Because Einstein was able to clearly define how measurements are made (some invo
 </div>
 </div>
 
-<div class="note" data-has-label="true" id="eip-584" data-label="" markdown="1">
+<div class="phet" id="eip-584" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Motion in 2D
 </div>

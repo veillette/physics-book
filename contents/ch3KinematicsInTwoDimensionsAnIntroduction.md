@@ -131,7 +131,7 @@ in [Vector Addition and Subtraction: Graphical Methods](../contents/ch3VectorAdd
 and [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md). We
 will find such techniques to be useful in many areas of physics.
 
-<div class="note" data-has-label="true" id="eip-652" data-label="" markdown="1">
+<div class="phet" id="eip-652" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Ladybug Motion 2D
 </div>

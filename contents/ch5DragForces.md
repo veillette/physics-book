@@ -324,7 +324,7 @@ have observed? Would this result be different if done on the Moon?
 
 </div>
 
-<div class="note" data-has-label="true" id="eip-418" data-label="" markdown="1">
+<div class="phet" id="eip-418" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Masses &amp; Springs
 </div>

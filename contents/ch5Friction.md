@@ -372,7 +372,7 @@ times—friction.
 ![This figure shows a molecular model of a probe that is dragged over the surface of a substrate. The substrate is represented by a rectangular prism, made up of a grid of small spheres, each sphere representing an atom. The probe, made up of a different grid of small spheres, is in the form of an inverted pyramid with a flattened peak. The pyramid is somewhat distorted because of friction.](../resources/Figure_06_01_05a.jpg "The tip of a probe is deformed sideways by frictional force as the probe is dragged across a surface. Measurements of how the force varies for different materials are yielding fundamental insights into the atomic nature of friction.")
 {: #import-auto-id1165298744656}
 
-<div class="note" data-has-label="true" id="eip-440" data-label="" markdown="1">
+<div class="phet" id="eip-440" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Forces and Motion
 </div>
