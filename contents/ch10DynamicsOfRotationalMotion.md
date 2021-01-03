@@ -143,7 +143,7 @@ Cut out a circle that has about a 10 cm radius from stiff cardboard. Near the ed
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
-Problem-Solving Strategy for Rotational Dynamics
+Problem-Solving Strategy for Rotational Dynamics 
 </div>
 1.  {: #import-auto-id1575417} *Examine the situation to determine that torque and mass are involved in the rotation*. Draw a careful sketch of the situation.
 2.  {: #import-auto-id1900500} *Determine the system of interest*.
@@ -154,6 +154,7 @@ Problem-Solving Strategy for Rotational Dynamics
    reasonable*. 
 
 </div>
+{: #problemSolving}
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -166,7 +167,7 @@ In statics, the net torque is zero, and there is no angular acceleration. In rot
 
 </div>
 
-<div class="example" markdown="1">
+<div class="example" markdown="1">{: #calculatingTheEffectOfMass}
 <div class="title">
 Calculating the Effect of Mass Distribution on a Merry-Go-Round
 </div>
@@ -263,6 +264,7 @@ for the reader.
 
 </div>
 
+
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding
@@ -289,7 +291,6 @@ No. Torque depends on three factors: force magnitude, force direction, and point
   <div class="equation">
  $$ F = ma, $$
   </div>
-
   and then look for ways to relate this expression to expressions for rotational
   quantities. We note that $$ a = r\alpha $$, and we substitute this expression
   into $$ F=ma $$, yielding
@@ -386,7 +387,7 @@ In which case does it reach a greater height, and why?
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 This problem considers additional aspects of example [Calculating the Effect of Mass Distribution on
-a Merry-Go-Round](../contents/ch10DynamicsOfRotationalMotion.md#fs-id1468671).
+a Merry-Go-Round](#calculatingTheEffectOfMass).
 (a) How long does it take the father to give the merry-go-round an angular velocity of 1.50 rad/s?
 (b) How many revolutions must he go through to generate this velocity?
 (c) If he exerts a slowing force of 300 N at a radius of 1.35 m, how long would it take him to stop them?
@@ -478,7 +479,7 @@ because he knows Zorch can only exert a force of $$ 4.00\times 10^{7}\N $$
 with this force to accomplish his goal? (
 This period gives Superman time to devote to other villains.) Explicitly show
 how you follow the steps found
-in [Problem-Solving Strategy for Rotational Dynamics](../contents/ch10DynamicsOfRotationalMotion.md#fs-id2929358) .
+in [Problem-Solving Strategy for Rotational Dynamics](#problemSolving) .
 
 </div>
 <div class="solution" markdown="1">
