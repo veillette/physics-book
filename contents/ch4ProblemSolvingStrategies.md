@@ -123,7 +123,7 @@ solving for force and end up with units of m/s, then you have made a mistake.
        x $$ -direction) then $$ F_{\text{net}x}=0 $$. If the object does
        accelerate in that direction, $$ F_{\text{net}x}=ma $$.
     4. {: #import-auto-id2664631} Check your answer. Is the answer reasonable?
-       Are the units correct? {: type="1"}
+       Are the units correct? 
 
 ### Problem Exercises
 
@@ -184,7 +184,7 @@ Calculate the force a 70.0-kg high jumper must exert on the ground to produce an
  $$ F $$ is up from the ground and makes him jump.
 
 4. This result is reasonable, since it is quite possible for a person to exert a
-   force of the magnitude of $$ 10^{3}\N $$. {: type="1" .stepwise}
+   force of the magnitude of $$ 10^{3}\N $$. 
 
 </div>
 </div>
@@ -321,7 +321,7 @@ What force is exerted on the tooth in [[Figure]](#import-auto-id1569692) if the 
    cancel. $$ \sum F_{x}=0 $$.
 
 4. This seems reasonable, since the applied tensions should be greater than the
-   force applied to the tooth. {: type="1" .stepwise}
+   force applied to the tooth. 
 
 </div>
 </div>

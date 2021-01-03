@@ -151,7 +151,7 @@ Problem-Solving Strategy for Rotational Dynamics
 4.  {: #import-auto-id2067161} *Apply $$ \text{net} \tau= I\alpha$$, $$\alpha =\frac{ \text{net τ}}{I} $$, the rotational equivalent of Newton’s second law, to solve the problem*. Care must be taken to use the correct moment of inertia and to consider the torque about the point of rotation.
 
 5. {: #import-auto-id3072381} *As always, check the solution to see if it is
-   reasonable*. {: type="1"}
+   reasonable*. 
 
 </div>
 

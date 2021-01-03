@@ -588,10 +588,9 @@ Two teams of nine members each engage in a tug of war. Each of the first team’
 
 </div>
 <div class="solution" markdown="1">
-1. $$ 0.11 \mss $$
+(a) $$ 0.11 \mss $$
 
-2. $$ 1.2\times 10^{4}\N $$ {: data-mark-prefix="(" data-mark-suffix=")"
-   type="a"}
+(b) $$ 1.2\times 10^{4}\N $$ 
 
 </div>
 </div>
