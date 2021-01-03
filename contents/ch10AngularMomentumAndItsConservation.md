@@ -49,7 +49,7 @@ Calculating Angular Momentum of the Earth
 
 No information is given in the statement of the problem; so we must look up
 pertinent data before we can calculate $$ L=I \omega $$. First, according
-to [[Figure]](../contents/ch10DynamicsOfRotationalMotion.md#fs-id1838666), the formula for the moment of
+to [[Figure]](../contents/ch10DynamicsOfRotationalMotion.md#figMomentOfInertia), the formula for the moment of
 inertia of a sphere is
 
 <div class="equation" id="eip-654">
@@ -58,7 +58,7 @@ inertia of a sphere is
 so that
 
 <div class="equation" id="eip-239">
- $$ L=I\omega\frac{2 MR^{2}\omega }{5}. $$
+ $$ L=I\omega=\frac{2 MR^{2}\omega }{5}. $$
 </div>
 Earth’s mass $$ M $$ is $$ 5.979 \times 10^{24}\kg $$ and its radius $$ R $$ is $$ 6.376 \times
 10^{6}\m $$. The Earth’s angular velocity $$ \omega $$ is, of course,

@@ -582,11 +582,8 @@ You will need to use the information on acceleration and velocity given in the e
 for this figure.
 
 </div>
-<div class="solution">
-![Line graph of position versus time.
-Line begins with a slight positive slope.
-It then kinks to a much greater positive slope.](../resources/Figure_02_08Sol_15.jpg){: #import-auto-id3597350}
-
+<div class="solution" markdown="1">
+![Line graph of position versus time. Line begins with a slight positive slope. It then kinks to a much greater positive slope.](../resources/Figure_02_08Sol_15.jpg){: #import-auto-id3597350}
 </div>
 </div>
 
