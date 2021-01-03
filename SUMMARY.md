@@ -89,7 +89,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     3.  [Dynamics of Rotational Motion: Rotational Inertia](contents/ch10DynamicsOfRotationalMotion.md)
     4.  [Rotational Kinetic Energy: Work and Energy Revisited](contents/ch10RotationalKineticEnergy.md)
     5.  [Angular Momentum and Its Conservation](contents/ch10AngularMomentumAndItsConservation.md)
-    6.  [Collisions of Extended Bodies in Two Dimensions](contents/ch10CollisionsOfExtendedBodiesInTwoDImensions.md)
+    6.  [Collisions of Extended Bodies in Two Dimensions](contents/ch10CollisionsOfExtendedBodiesInTwoDimensions.md)
     7.  [Gyroscopic Effects: Vector Aspects of Angular Momentum](contents/ch10GyroscopicEffects.md)
 
 
