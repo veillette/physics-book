@@ -22,9 +22,6 @@ section.normal > .title {
 }
 
 .book .book-body .page-wrapper .page-inner section.normal {
-}
-
-.book .book-body .page-wrapper .page-inner section.normal {
     counter-reset: figure note exercise example table;
 }
 
@@ -115,7 +112,7 @@ h6:hover .header-link {
 .abstract {
     margin: 30px 6rem 0 6rem;
     padding: 15px;
-    background-color: #cfd4dd;
+    background-color: #f4f7ff;
 }
 
 .abstract::before {
@@ -141,6 +138,7 @@ h6:hover .header-link {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
 
 .book .book-body .page-wrapper .page-inner .note {
     margin: 30px 6rem 0 6rem;
@@ -520,6 +518,16 @@ h6:hover .header-link {
     color: black;
     font-weight: bold;
     padding-left: 2em;
+}
+
+.page-title {
+    display: inline-block;
+    color: #0d3664;
+    font-weight: bold;
+    background-color: #f7fbff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #555555;
 }
 
 .page {
