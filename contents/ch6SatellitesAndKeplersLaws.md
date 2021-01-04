@@ -24,7 +24,7 @@ systems must be made with large computers. However, we can describe an important
 class of orbits without the use of computers, and we shall find it instructive
 to study them. These orbits have the following characteristics:
 
-1. {: #import-auto-id1405601} A small mass $$ m $$ orbits a much larger mass
+1. A small mass $$ m $$ orbits a much larger mass
  $$ M $$. This allows us to view the motion as if $$ M $$ were stationary—in fact,
    as if from an inertial frame of reference placed on $$ M $$ —without
    significant error. Mass $$ m $$ is the satellite of $$ M $$, if the orbit is
@@ -249,10 +249,10 @@ that history in any detail, we note some important points. The definition of
 planet set in 2006 by the International Astronomical Union (IAU) states that in
 the solar system, a planet is a celestial body that:
 
-1. {: #import-auto-id2616838} is in orbit around the Sun,
-2. {: #import-auto-id1981098} has sufficient mass to assume hydrostatic
+1. is in orbit around the Sun,
+2. has sufficient mass to assume hydrostatic
    equilibrium and
-3. {: #import-auto-id3063189} has cleared the neighborhood around its orbit. {:
+3. has cleared the neighborhood around its orbit. {:
    type="1"}
 
 A non-satellite body fulfilling only the first two of the above criteria is

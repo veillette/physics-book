@@ -109,20 +109,20 @@ solving for force and end up with units of m/s, then you have made a mistake.
 
 * To solve problems involving Newton’s laws of
   motion, follow the procedure described:
-    1. {: #import-auto-id1435944} Draw a sketch of the problem.
-    2. {: #import-auto-id1304011} Identify known and unknown quantities, and
+    1. Draw a sketch of the problem.
+    2. Identify known and unknown quantities, and
        identify the system of interest. Draw a free-body diagram, which is a
        sketch showing all of the forces acting on an object. The object is
        represented by a dot, and the forces are represented by vectors extending
        in different directions from the dot. If vectors act in directions that
        are not horizontal or vertical, resolve the vectors into horizontal and
        vertical components and draw them on the free-body diagram.
-    3. {: #import-auto-id2638784} Write Newton’s second law in the horizontal
+    3. Write Newton’s second law in the horizontal
        and vertical directions and add the forces acting on the object. If the
        object does not accelerate in a particular direction (for example, the $$
        x $$ -direction) then $$ F_{\text{net}x}=0 $$. If the object does
        accelerate in that direction, $$ F_{\text{net}x}=ma $$.
-    4. {: #import-auto-id2664631} Check your answer. Is the answer reasonable?
+    4. Check your answer. Is the answer reasonable?
        Are the units correct? 
 
 ### Problem Exercises

@@ -719,7 +719,7 @@ gravity
 friction
 : a force past each other of objects that are touching; examples include rough
 surfaces and air resistance
-{: # import-auto-id3092291}
+
 
 net external force
 : the vector sum of all external forces acting on an object or system; causes a

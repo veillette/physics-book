@@ -557,14 +557,14 @@ Projectile Motion
   through the air that is subject only to the acceleration of gravity.
 * To solve projectile motion problems, perform the
   following steps:
-    1. {: #import-auto-id1830314} Determine a coordinate system. Then, resolve
+    1. Determine a coordinate system. Then, resolve
        the position and/or velocity of the object in the horizontal and vertical
        components. The components of position $$ \vb{s} $$ are given by the
        quantities $$ x $$ and $$ y $$, and the components of the velocity $$
      \vb{v} $$ are given by $$ v_{x}=v\cos{\theta} $$ and $$ v_
        {y}=v\sin{\theta} $$, where $$ v $$ is the magnitude of the velocity and
  $$ \theta $$ is its direction.
-    2. {: #import-auto-id1830316} Analyze the motion of the projectile in the
+    2. Analyze the motion of the projectile in the
        horizontal direction using the following equations:
        <div class="equation" id="eip-898">
          $$ \text{Horizontal motion}\left(a_{x}=0\right) $$
@@ -578,7 +578,7 @@ Projectile Motion
         $$ v_{x}=v_{0x}=\vb{v}_{\text{x}}=\text{velocity is a constant.} $$
        </div>
 
-    3. {: #import-auto-id1939082} Analyze the motion of the projectile in the
+    3. Analyze the motion of the projectile in the
        vertical direction using the following equations:
        <div class="equation" id="import-auto-id1939084">
      $$ \text{Vertical motion}\left(\text{Assuming positive direction is up;}a_
@@ -601,7 +601,7 @@ Projectile Motion
        $$ v_{y}^{2}=v_{0y}^{2}-2g\left(y-y_{0}\right). $$
        </div>
 
-    4. {: #import-auto-id1552181} Recombine the horizontal and vertical
+    4. Recombine the horizontal and vertical
        components of location and/or velocity using the following equations:
        <div class="equation" id="import-auto-id2092332">
         $$ s=\sqrt{ x^{2}+{y}^{2}} $$
