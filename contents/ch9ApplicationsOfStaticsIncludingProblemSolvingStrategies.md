@@ -21,7 +21,7 @@ in [Problem-Solving Strategies](../contents/ch4ProblemSolvingStrategies.md), sti
 <div class="title">
 Problem-Solving Strategy: Static Equilibrium Situations
 </div>
-1.  {: #import-auto-id1244598} The first step is to determine whether or not the system is in **static equilibrium**{: class="term"}. This condition is always the case when the *acceleration of the system is zero and accelerated rotation does not occur*.
+1.  {: #import-auto-id1244598} The first step is to determine whether or not the system is in **static equilibrium**. This condition is always the case when the *acceleration of the system is zero and accelerated rotation does not occur*.
 2.  {: #import-auto-id3066376} It is particularly important to *draw a free body diagram for the system of interest*. Carefully label all forces, and note their relative magnitudes, directions, and points of application whenever these are known.
 3.  {: #import-auto-id1280850} Solve the problem by applying either or both of the conditions for equilibrium (represented by the equations
  $$ \text{net}F=0 $$ and $$ \text{net}\tau =0 $$, depending on the

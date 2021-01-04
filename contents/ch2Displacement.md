@@ -18,7 +18,7 @@ layout: page
 ### Position
 
 In order to describe the motion of an object, you must first be able to describe
-its **position**{: class="term"} —where it is at any particular time. More
+its **position** —where it is at any particular time. More
 precisely, you need to specify its position relative to a convenient reference
 frame. Earth is often used as a reference frame, and we often describe the
 position of an object as it relates to stationary objects in that reference
@@ -36,7 +36,7 @@ See [[Figure]](#import-auto-id2707699).)
 If an object moves relative to a reference frame (for example, if a professor
 moves to the right relative to a white board or a passenger moves toward the
 rear of an airplane), then the object’s position changes. This change in
-position is known as **displacement**{: class="term"}. The word
+position is known as **displacement**. The word
 “displacement” implies that an object has moved, or has been displaced.
 
 <div class="note" data-label="" markdown="1">
@@ -107,10 +107,10 @@ or in the negative $$ x $$ direction in our coordinate system.
 ### Distance
 
 Although displacement is described in terms of direction, distance is not.
-**Distance**{: class="term"} is defined to be *the magnitude or size of
+**Distance** is defined to be *the magnitude or size of
 displacement between two positions*. Note that the distance between two
 positions is not the same as the distance traveled between them.
-**Distance traveled**{: class="term"} is *the total length of the path traveled between
+**Distance traveled** is *the total length of the path traveled between
 two positions*. Distance has no direction and, thus, no sign. For example, the
 distance the professor walks is 2.0 m. The distance the airplane passenger walks
 is 4.0 m.

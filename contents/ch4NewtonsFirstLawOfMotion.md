@@ -101,13 +101,13 @@ They are equal. A kilogram of one substance is equal in mass to a kilogram of an
 
 ### Section Summary
 
-* **Newton’s first law of motion**{: class="term"} states that a body at
+* **Newton’s first law of motion** states that a body at
   rest remains at rest, or, if in motion, remains in motion at a constant
   velocity unless acted on by a net external force. This is also known as the
-  **law of inertia**{: class="term"}.
-* **Inertia**{: class="term"} is the tendency of an object to remain at
+  **law of inertia**.
+* **Inertia** is the tendency of an object to remain at
   rest or remain in motion. Inertia is related to an object’s mass.
-* **Mass**{: class="term"} is the quantity of matter in a substance.
+* **Mass** is the quantity of matter in a substance.
 
 ### Conceptual Questions
 

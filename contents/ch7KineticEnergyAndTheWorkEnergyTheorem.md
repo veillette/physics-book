@@ -44,7 +44,7 @@ expression for the energy of motion.
 
 Let us start by considering the total, or net, work done on a system. Net work
 is defined to be the sum of work done by all external forces—that is, **net
-work**{: class="term"} is the work done by the net external force $$
+work** is the work done by the net external force $$
 \vb{F}_{\text{net}} $$. In equation form, this is $$ W_{\text{net}}=F_
 {\text{net}}d\cos{\theta} $$ where $$ \theta $$ is the angle between the force
 vector and the displacement vector.

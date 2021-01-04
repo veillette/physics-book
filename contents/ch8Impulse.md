@@ -31,7 +31,7 @@ By rearranging the equation $$ \vb{F}_{\text{net}}=\frac{ \Delta
 
 we can see how the change in momentum equals the average net external force
 multiplied by the time this force acts. The quantity $$ \vb{F}_
-{\text{net}}\Delta t $$ is given the name **impulse**{: class="term"}.
+{\text{net}}\Delta t $$ is given the name **impulse**.
 Impulse is the same as the change in momentum.
 
 <div class="note" data-label="" markdown="1">

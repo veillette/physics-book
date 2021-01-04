@@ -90,7 +90,7 @@ magnitude \( F = k x \) , and the work done to stretch (or compress) it is \( \f
 The equation $$ \PE_{s}=\frac{1}{2} k x^{2} $$ has general validity
 beyond the special case for which it was derived. Potential energy can be stored
 in any elastic medium by deforming it. Indeed, the general definition of
-**potential energy**{: class="term"} is energy due to position, shape, or
+**potential energy** is energy due to position, shape, or
 configuration. For shape or position deformations, stored energy is $$
 \PE_{s}=\frac{1}{2}k x^{2} $$, where $$ k $$ is the force constant of
 the particular system and $$ x $$ is its deformation. Another example is seen
@@ -157,10 +157,10 @@ any process involving only conservative forces. That is,
 
 where i and f denote initial and final values. This equation is a form of the
 work-energy theorem for conservative forces; it is known as the **conservation
-of mechanical energy**{: class="term"} principle. Remember that this applies
+of mechanical energy** principle. Remember that this applies
 to the extent that all the forces are conservative, so that friction is
 negligible. The total kinetic plus potential energy of a system is defined to be
-its **mechanical energy**{: class="term"}, $$ \left(\KE+\PE\right) $$.
+its **mechanical energy**, $$ \left(\KE+\PE\right) $$.
 In a system that experiences only conservative
 forces, there is a potential energy associated with each force, and the energy
 only changes form between $$ \KE $$ and the various types of $$ \PE $$,

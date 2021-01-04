@@ -21,7 +21,7 @@ in [[Figure]](#import-auto-id2523817).
 {: #import-auto-id2523817}
 
 These images of power have in common the rapid performance of work, consistent
-with the scientific definition of **power**{: class="term"} ( $$ P $$ )
+with the scientific definition of **power** ( $$ P $$ )
 as the rate at which work is done.
 
 <div class="note" data-label="" markdown="1">
