@@ -300,7 +300,10 @@ Suppose your car was mired deeply in the mud and you wanted to use the method il
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What force is exerted on the tooth in [[Figure]](#import-auto-id1569692) if the tension in the wire is 25.0 N? Note that the force applied to the tooth is smaller than the tension in the wire, but this is necessitated by practical considerations of how force can be applied in the mouth. Explicitly show how you follow steps in the Problem-Solving Strategy for Newton’s laws of motion.
+What force is exerted on the tooth in [[Figure]](#import-auto-id1569692) if the tension 
+in the wire is 25.0 N? Note that the force applied to the tooth is smaller than the tension in the wire, 
+but this is necessitated by practical considerations of how force can be applied in the mouth. 
+Explicitly show how you follow steps in the Problem-Solving Strategy for Newton’s laws of motion.
 
 </div>
 <div class="solution" markdown="1">

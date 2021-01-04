@@ -8,7 +8,7 @@ motion of
 a cheetah can be described by the animal&#x2019;s displacement,
 speed, velocity, and acceleration. When it runs in a straight line without any
 change in direction, its motion is said to be one dimensional. (credit: Mark Dumont, Wikimedia Commons)")
-{: #import-auto-id2758213}
+{: #fig1}
 
 Objects are in motion everywhere we look. Everything from a tennis game to a
 space-probe flyby of the planet Neptune involves motion. When you are resting,
@@ -21,7 +21,8 @@ concepts in physics. An understanding of acceleration, for example, is crucial
 to the study of force.
 
 Our formal study of physics begins with
-**kinematics** which is defined as the *study  of motion without considering its causes*. The word “kinematics” comes from a Greek term meaning
+**kinematics** which is defined as the *study  of motion without considering its causes*.
+The word “kinematics” comes from a Greek term meaning
 motion and is related to other English words such as “cinema” (movies) and
 “kinesiology” (the study of human motion). In one-dimensional kinematics
 and [Two-Dimensional Kinematics](../contents/ch3TwoDimensionalKinematics.md) we will study only the

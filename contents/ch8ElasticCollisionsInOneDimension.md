@@ -20,7 +20,7 @@ We start with the elastic collision of two objects moving along the same line—
 one-dimensional problem. An **elastic collision** is one that also conserves internal kinetic energy.
 **Internal kinetic energy** is the sum
 of the kinetic energies of the objects in the
-system. [[Figure]](#import-auto-id1121320) illustrates an elastic collision in
+system. [Figure 1](#fig1) illustrates an elastic collision in
 which internal kinetic energy and momentum are conserved.
 
 Truly elastic collisions can only be achieved with subatomic particles, such as
@@ -50,7 +50,7 @@ Internal Kinetic Energy
 </div>
 
 ![The system of interest contains a smaller mass m sub1 and a larger mass m sub2 moving on a frictionless surface. M sub 2 moves with velocity V sub 2 and momentum p sub 2 and m sub 1 moves behind m sub 2, with velocity V sub 1 and momentum p sub 1 toward the right direction. P 1 plus P 2 equals p total. The net force is zero. After collision m sub 1 moves toward the left with velocity V sub 1 while m sub 2 moves toward the right with velocity V sub 2 on the same frictionless surface. The momentum of m sub 1 becomes p 1 prime and m 2 becomes p 2 prime now. P 1 prime plus p 2 prime equals p total.](../resources/Figure_09_04_01a.jpg "An elastic one-dimensional two-object collision. Momentum and internal kinetic energy are conserved.")
-{: #import-auto-id1121320}
+{: #fig1}
 
 Now, to solve problems involving one-dimensional elastic collisions between two
 objects we can use the equations for conservation of momentum and conservation
@@ -92,7 +92,7 @@ Calculate the velocities of two objects following an elastic collision, given th
 
 First, visualize what the initial conditions mean—a small object strikes a
 larger object that is initially at rest. This situation is slightly simpler than
-the situation shown in [[Figure]](#import-auto-id1121320) where both objects are
+the situation shown in [Figure 1](#fig1) where both objects are
 initially moving. We are asked to find two unknowns (the final velocities $$
 v^{\prime}_{1} $$ and $$ v^{\prime}_{2} $$).
 To find two unknowns, we must use two independent equations. Because this
