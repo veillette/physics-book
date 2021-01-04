@@ -21,9 +21,9 @@ in [Problem-Solving Strategies](../contents/ch4ProblemSolvingStrategies.md), sti
 <div class="title">
 Problem-Solving Strategy: Static Equilibrium Situations
 </div>
-1.  {: #import-auto-id1244598} The first step is to determine whether or not the system is in **static equilibrium**. This condition is always the case when the *acceleration of the system is zero and accelerated rotation does not occur*.
-2.  {: #import-auto-id3066376} It is particularly important to *draw a free body diagram for the system of interest*. Carefully label all forces, and note their relative magnitudes, directions, and points of application whenever these are known.
-3.  {: #import-auto-id1280850} Solve the problem by applying either or both of the conditions for equilibrium (represented by the equations
+1.  The first step is to determine whether or not the system is in **static equilibrium**. This condition is always the case when the *acceleration of the system is zero and accelerated rotation does not occur*.
+2.  It is particularly important to *draw a free body diagram for the system of interest*. Carefully label all forces, and note their relative magnitudes, directions, and points of application whenever these are known.
+3.  Solve the problem by applying either or both of the conditions for equilibrium (represented by the equations
  $$ \text{net}F=0 $$ and $$ \text{net}\tau =0 $$, depending on the
 list of known and unknown factors. If the second condition is involved,
 *choose the pivot point to simplify the solution*. Any pivot point can be chosen, but the most useful ones cause torques by unknown forces to be zero. (Torque is zero if the force is applied at the pivot (then
@@ -31,7 +31,7 @@ list of known and unknown factors. If the second condition is involved,
  $$ \theta =0 $$ )). Always choose a convenient coordinate system for
 projecting forces.
 
-4. {: #import-auto-id1223561} *Check the solution to see if it is reasonable* by
+4. *Check the solution to see if it is reasonable* by
    examining the magnitude, direction, and units of the answer. The importance
    of this last step never diminishes, although in unfamiliar applications, it
    is usually more difficult to judge reasonableness. These judgments become

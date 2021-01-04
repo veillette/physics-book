@@ -101,12 +101,12 @@ solve any rotational or translational kinematics problem in which $$ a $$ and $$
 <div class="title">
 Problem-Solving Strategy for Rotational Kinematics
 </div>
-1.  {: #import-auto-id2688094} *Examine the situation to determine that rotational kinematics (rotational motion) is involved*. Rotation must be involved, but without the need to consider forces or masses that affect the motion.
-2.  {: #import-auto-id986882} *Identify exactly what needs to be determined in the problem (identify the unknowns)*. A sketch of the situation is useful.
-3.  {: #import-auto-id3292730} *Make a list of what is given or can be inferred from the problem as stated (identify the knowns)*.
-4.  {: #import-auto-id2929121} *Solve the appropriate equation or equations for the quantity to be determined (the unknown)*. It can be useful to think in terms of a translational analog because by now you are familiar with such motion.
-5.  {: #import-auto-id1367619} *Substitute the known values along with their units into the appropriate equation, and obtain numerical solutions complete with units*. Be sure to use units of radians for angles.
-6.  {: #import-auto-id1348329} *Check your answer to see if it is reasonable: Does your answer make sense*?
+1.  *Examine the situation to determine that rotational kinematics (rotational motion) is involved*. Rotation must be involved, but without the need to consider forces or masses that affect the motion.
+2.  *Identify exactly what needs to be determined in the problem (identify the unknowns)*. A sketch of the situation is useful.
+3.  *Make a list of what is given or can be inferred from the problem as stated (identify the knowns)*.
+4.  *Solve the appropriate equation or equations for the quantity to be determined (the unknown)*. It can be useful to think in terms of a translational analog because by now you are familiar with such motion.
+5.  *Substitute the known values along with their units into the appropriate equation, and obtain numerical solutions complete with units*. Be sure to use units of radians for angles.
+6.  *Check your answer to see if it is reasonable: Does your answer make sense*?
 
 
 </div>

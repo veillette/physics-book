@@ -145,12 +145,12 @@ Cut out a circle that has about a 10 cm radius from stiff cardboard. Near the ed
 <div class="title">
 Problem-Solving Strategy for Rotational Dynamics 
 </div>
-1.  {: #import-auto-id1575417} *Examine the situation to determine that torque and mass are involved in the rotation*. Draw a careful sketch of the situation.
-2.  {: #import-auto-id1900500} *Determine the system of interest*.
-3.  {: #import-auto-id3026238} *Draw a free body diagram*. That is, draw and label all external forces acting on the system of interest.
-4.  {: #import-auto-id2067161} *Apply $$ \text{net} \tau= I\alpha$$, $$\alpha =\frac{ \text{net τ}}{I} $$, the rotational equivalent of Newton’s second law, to solve the problem*. Care must be taken to use the correct moment of inertia and to consider the torque about the point of rotation.
+1.  *Examine the situation to determine that torque and mass are involved in the rotation*. Draw a careful sketch of the situation.
+2.  *Determine the system of interest*.
+3.  *Draw a free body diagram*. That is, draw and label all external forces acting on the system of interest.
+4.  *Apply $$ \text{net} \tau= I\alpha$$, $$\alpha =\frac{ \text{net τ}}{I} $$, the rotational equivalent of Newton’s second law, to solve the problem*. Care must be taken to use the correct moment of inertia and to consider the torque about the point of rotation.
 
-5. {: #import-auto-id3072381} *As always, check the solution to see if it is
+5. *As always, check the solution to see if it is
    reasonable*. 
 
 </div>

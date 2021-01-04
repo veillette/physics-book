@@ -251,20 +251,20 @@ insufficient time for the blade to regain lift before reaching the ground.
 <div class="title">
 Problem-Solving Strategy for Rotational Energy
 </div>
-1.  {: #import-auto-id3054599} *Determine that energy or work is involved in the rotation*.
-2.  {: #import-auto-id1389478} *Determine the system of interest*. A sketch usually helps.
-3.  {: #import-auto-id2930250} *Analyze the situation to determine the types of work and energy involved*.
-4.  {: #import-auto-id2937257} *For closed systems, mechanical energy is conserved*. That is,
+1.  *Determine that energy or work is involved in the rotation*.
+2.  *Determine the system of interest*. A sketch usually helps.
+3.  *Analyze the situation to determine the types of work and energy involved*.
+4.  *For closed systems, mechanical energy is conserved*. That is,
  $$ \KE_{\text{i}}+\PE_{\text{i}}=\KE_{\text{f}}+\PE_{\text{f}}. $$
     Note that $$ \KE_{\text{i}} $$ and $$ \KE_{\text{f}} $$ may each include translational and rotational contributions.
 
-5. {: #import-auto-id1439188} *For open systems*, mechanical energy may not be
+5. *For open systems*, mechanical energy may not be
    conserved, and other forms of energy (  referred to previously as $$ \text{OE} $$),
    such as heat transfer, may enter or leave the system. Determine what they
    are, and calculate them as necessary.
-6. {: #import-auto-id1429438} *Eliminate terms wherever possible to simplify the
+6. *Eliminate terms wherever possible to simplify the
    algebra*.
-7. {: #import-auto-id3386776} *Check the answer to see if it is reasonable*. {:
+7. *Check the answer to see if it is reasonable*. {:
    type="1"}
 
 </div>

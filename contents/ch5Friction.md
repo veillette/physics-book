@@ -710,7 +710,7 @@ contact
 kinetic friction
 : a force that opposes the motion of two systems that are in contact and moving
 relative to one another
-{: # import-auto-id1165298540973}
+
 
 static friction
 : a force that opposes the motion of two systems that are in contact and are not

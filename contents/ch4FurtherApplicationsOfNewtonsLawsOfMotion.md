@@ -378,12 +378,12 @@ The player’s mass is 70.0 kg, and air resistance is negligible.
 
 **Strategy**
 
-1. {: #import-auto-id2956703} To solve an *integrated concept problem*, we
+1. To solve an *integrated concept problem*, we
    must first identify the physical principles involved and identify the
    chapters in which they are found. Part (a) of this example considers *
    acceleration* along a straight line. This is a topic of *kinematics*. Part (
    b) deals with *force*, a topic of *dynamics* found in this chapter.
-2. {: #import-auto-id3020678} The following solutions to each part of the
+2. The following solutions to each part of the
    example illustrate how the specific problem-solving strategies are applied.
    These involve identifying knowns and unknowns, checking to see if the answer
    is reasonable, and so forth.

@@ -590,7 +590,7 @@ Then calculate the average speed of the Earth in its orbit in kilometers per sec
 physical quantity
 : a characteristic or property of an object that can be measured or calculated
 from other measurements
-{: # import-auto-id3096670}
+
 
 units
 : a standard used for expressing and comparing measurements
@@ -604,7 +604,7 @@ agreed to use; includes units such as meters, liters, and grams
 English units
 : system of measurement used in the United States; includes units of measurement
 such as feet, gallons, and pounds
-{: # import-auto-id2582101}
+
 
 fundamental units
 : units that can only be expressed relative to the procedure used to measure
