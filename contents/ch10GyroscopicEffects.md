@@ -174,6 +174,6 @@ right-hand rule
 : direction of angular velocity ω and angular momentum L in which the thumb of
 your right hand points when you curl your fingers in the direction of the disk’s
 rotation
-{: #import-auto-id2590724}
+
 
 </div>

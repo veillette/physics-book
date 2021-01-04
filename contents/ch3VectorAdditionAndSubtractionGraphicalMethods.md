@@ -670,27 +670,27 @@ component (of a 2-d vector)
 : a piece of a vector that points in either the vertical or the horizontal
 direction; every 2-d vector can be expressed as a sum of two vertical and
 horizontal vector components
-{: #import-auto-id1165296580417}
+
 
 commutative
 : refers to the interchangeability of order in a function; vector addition is
 commutative because the order in which vectors are added together does not
 affect the final sum
-{: #import-auto-id1165298785711}
+
 
 direction (of a vector)
 : the orientation of a vector in space
-{: #import-auto-id1165298785715}
+
 
 head (of a vector)
 : the end point of a vector; the location of the tip of the vector’s arrowhead;
 also referred to as the “tip”
-{: #import-auto-id1165298785717}
+
 
 head-to-tail method
 : a method of adding vectors in which the tail of each vector is placed at the
 head of the previous vector
-{: #import-auto-id1165298837859}
+
 
 magnitude (of a vector)
 : the length or size of a vector; magnitude is a scalar quantity
@@ -698,15 +698,15 @@ magnitude (of a vector)
 
 resultant
 : the sum of two or more vectors
-{: #import-auto-id1165298837865}
+
 
 resultant vector
 : the vector sum of two or more vectors
-{: #import-auto-id1165298863819}
+
 
 scalar
 : a quantity with magnitude but no direction
-{: #import-auto-id1165298863821}
+
 
 tail
 : the start point of a vector; opposite to the head or tip of the arrow

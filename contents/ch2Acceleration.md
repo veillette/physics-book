@@ -632,19 +632,19 @@ $$ \left(9.80 \mss \right)? $$
 
 acceleration
 : the rate of change in velocity; the change in velocity over time
-{: #import-auto-id2412629}
+
 
 average acceleration
 : the change in velocity divided by the time over which it changes
-{: #import-auto-id2412631}
+
 
 instantaneous acceleration
 : acceleration at a specific point in time
-{: #import-auto-id2412633}
+
 
 deceleration
 : acceleration in the direction opposite to velocity; acceleration that results
 in a decrease in velocity
-{: #import-auto-id2412635}
+
 
 </div>

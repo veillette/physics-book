@@ -131,10 +131,10 @@ vector or a scalar quantity? Explain.
 
 scalar
 : a quantity that is described by magnitude, but not direction
-{: #import-auto-id1493068}
+
 
 vector
 : a quantity that is described by both magnitude and direction
-{: #import-auto-id1823077}
+
 
 </div>

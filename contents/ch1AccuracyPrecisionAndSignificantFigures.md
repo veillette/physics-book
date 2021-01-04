@@ -646,29 +646,29 @@ volume in cubic centimeters?
 accuracy
 : the degree to which a measured value agrees with correct value for that
 measurement
-{: #import-auto-id2732619}
+
 
 method of adding percents
 : the percent uncertainty in a quantity calculated by multiplication or division
 is the sum of the percent uncertainties in the items used to make the
 calculation
-{: #import-auto-id1292530}
+
 
 percent uncertainty
 : the ratio of the uncertainty of a measurement to the measured value, expressed
 as a percentage
-{: #import-auto-id2502324}
+
 
 precision
 : the degree to which repeated measurements agree with each other
-{: #import-auto-id1603950}
+
 
 significant figures
 : express the precision of a measuring tool used to measure a value
-{: #import-auto-id3041405}
+
 
 uncertainty
 : a quantitative measure of how much your measured values deviate from a
 standard or expected value
-{: #import-auto-id1320014}
+
 </div>

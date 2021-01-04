@@ -506,15 +506,15 @@ force of 30.0 N against him.
 ### Glossary
 {: class="glossary-title"}
 
-{: #import-auto-id1943070} net work
+net work
 : work done by the net force, or vector sum of all the forces, acting on an
 object
 
-{: #import-auto-id2580266} work-energy theorem
+work-energy theorem
 : the result, based on Newton’s laws, that the net work done on an object is
 equal to its change in kinetic energy
 
-{: #import-auto-id1704244} kinetic energy
+kinetic energy
 : the energy an object has by reason of its motion, equal to $$ \frac{1}{2}m
 v^{2} $$ for the translational (i.e., non-rotational) motion of an object of
 mass $$ m $$ moving at speed $$ v $$

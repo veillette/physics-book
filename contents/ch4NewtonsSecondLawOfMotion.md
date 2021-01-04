@@ -709,12 +709,12 @@ from the Moon is 10 000 kg. The thrust of its engines is 30 000 N.
 
 acceleration
 : the rate at which an object’s velocity changes over a period of time
-{: #import-auto-id3036510}
+
 
 free-fall
 : a situation in which the only force acting on an object is the force due to
 gravity
-{: #import-auto-id3146487}
+
 
 friction
 : a force past each other of objects that are touching; examples include rough
@@ -724,7 +724,7 @@ surfaces and air resistance
 net external force
 : the vector sum of all external forces acting on an object or system; causes a
 mass to accelerate
-{: #import-auto-id3144942}
+
 
 Newton’s second law of motion
 : the net external force $$ \vb{F}_{\text{net}} $$ on an object
@@ -732,18 +732,18 @@ with mass $$ m $$ is proportional to and in the same direction as the
 acceleration of the object, $$ \vb{a} $$, and inversely proportional
 to the mass; defined mathematically as
 $$ \vb{a}=\frac{ \vb{F}_{\text{net}}}{m} $$
-{: #import-auto-id3094830}
+
 
 system
 : defined by the boundaries of an object or collection of objects being
 observed; all forces originating from outside of the system are considered
 external forces
-{: #import-auto-id2670363}
+
 
 weight
 : the force $$ \vb{w} $$ due to gravity acting on an object of mass
 $$ m $$; defined mathematically as: $$ \vb{w}=m\vb{g}
 $$, where $$ \vb{g} $$ is the magnitude and direction of the
 acceleration due to gravity
-{: #import-auto-id1397785}
+
 </div>

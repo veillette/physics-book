@@ -128,20 +128,20 @@ What is the relationship between weight and mass? Which is an intrinsic, unchang
 
 inertia
 : the tendency of an object to remain at rest or remain in motion
-{: #import-auto-id1323961}
+
 
 law of inertia
 : see Newton’s first law of motion
-{: #import-auto-id966062}
+
 
 mass
 : the quantity of matter in a substance; measured in kilograms
-{: #import-auto-id1571848}
+
 
 Newton’s first law of motion
 : a body at rest remains at rest, or, if in motion, remains in motion at a
 constant velocity unless acted on by a net external force; also known as the law
 of inertia
-{: #import-auto-id2667112}
+
 
 </div>

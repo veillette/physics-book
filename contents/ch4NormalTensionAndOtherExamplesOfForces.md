@@ -680,17 +680,17 @@ inertial frame of reference
 : a coordinate system that is not accelerating; all forces acting in an inertial
 frame of reference are real forces, as opposed to fictitious forces that are
 observed due to an accelerating frame of reference
-{: #import-auto-id1679828}
+
 
 normal force
 : the force that a surface applies to an object to support the weight of the
 object; acts perpendicular to the surface on which the object rests
-{: #import-auto-id2367244}
+
 
 tension
 : the pulling force that acts along a medium, especially a stretched flexible
 connector, such as a rope or cable; when a rope supports the weight of an
 object, the force on the object due to the rope is called a tension force
-{: #import-auto-id2367248}
+
 
 </div>

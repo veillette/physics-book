@@ -299,16 +299,16 @@ A gymnast is attempting to perform splits. From the information given in [[Figur
 neutral equilibrium
 : a state of equilibrium that is independent of a system’s displacements from
 its original position
-{: #import-auto-id1245467}
+
 
 stable equilibrium
 : a system, when displaced, experiences a net force or torque in a direction
 opposite to the direction of the displacement
-{: #import-auto-id2729973}
+
 
 unstable equilibrium
 : a system, when displaced, experiences a net force or torque in the same
 direction as the displacement from equilibrium
-{: #import-auto-id2867216}
+
 
 </div>

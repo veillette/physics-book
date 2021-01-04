@@ -574,10 +574,10 @@ ATP into kinetic energy.
 
 inelastic collision
 : a collision in which internal kinetic energy is not conserved
-{: #import-auto-id1488639}
+
 
 perfectly inelastic collision
 : a collision in which the colliding objects stick together
-{: #import-auto-id1512865}
+
 
 </div>

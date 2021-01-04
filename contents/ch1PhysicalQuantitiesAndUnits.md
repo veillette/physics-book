@@ -594,12 +594,12 @@ from other measurements
 
 units
 : a standard used for expressing and comparing measurements
-{: #import-auto-id3136233}
+
 
 SI units
 : the international system of units that scientists in most countries have
 agreed to use; includes units such as meters, liters, and grams
-{: #import-auto-id2968885}
+
 
 English units
 : system of measurement used in the United States; includes units of measurement
@@ -609,35 +609,35 @@ such as feet, gallons, and pounds
 fundamental units
 : units that can only be expressed relative to the procedure used to measure
 them
-{: #import-auto-id3401009}
+
 
 derived units
 : units that can be calculated using algebraic combinations of the fundamental
 units
-{: #import-auto-id2512053}
+
 
 second
 : the SI unit for time, abbreviated (s)
-{: #import-auto-id2771646}
+
 
 meter
 : the SI unit for length, abbreviated (m)
-{: #import-auto-id2910820}
+
 
 kilogram
 : the SI unit for mass, abbreviated (kg)
-{: #import-auto-id2806926}
+
 
 metric system
 : a system in which values can be calculated in factors of 10
-{: #import-auto-id1990374}
+
 
 order of magnitude
 : refers to the size of a quantity as it relates to a power of 10
-{: #import-auto-id1950368}
+
 
 conversion factor
 : a ratio expressing how many of one unit are equal to another unit
-{: #import-auto-id2656746}
+
 
 </div>

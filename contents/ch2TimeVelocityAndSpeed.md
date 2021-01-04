@@ -432,32 +432,32 @@ second it makes about the nucleus.
 
 average speed
 : distance traveled divided by time during which motion occurs
-{: #import-auto-id4070584}
+
 
 average velocity
 : displacement divided by time over which displacement occurs
-{: #import-auto-id4131758}
+
 
 instantaneous velocity
 : velocity at a specific instant, or the average velocity over an infinitesimal
 time interval
-{: #import-auto-id4070580}
+
 
 instantaneous speed
 : magnitude of the instantaneous velocity
-{: #import-auto-id4070582}
+
 
 time
 : change, or the interval over which change occurs
-{: #import-auto-id4071910}
+
 
 model
 : simplified description that contains only those elements necessary to describe
 the physics of a physical situation
-{: #import-auto-id4022105}
+
 
 elapsed time
 : the difference between the ending time and beginning time
-{: #import-auto-id1585138}
+
 
 </div>

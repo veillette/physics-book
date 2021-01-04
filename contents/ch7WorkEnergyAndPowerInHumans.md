@@ -413,17 +413,17 @@ the mass of bulk and nondigestible materials consumed.)
 ### Glossary
 {: class="glossary-title"}
 
-{: #import-auto-id2189188} metabolic rate
+metabolic rate
 : the rate at which the body uses food energy to sustain life and to do
 different activities
-{: #import-auto-id1115415}
 
-{: #import-auto-id2095427} basal metabolic rate
+
+basal metabolic rate
 : the total energy conversion rate of a person at rest
-{: #import-auto-id1616000}
 
-{: #import-auto-id1999754} useful work
+
+useful work
 : work done on an external system
-{: #import-auto-id2092568}
+
 
 </div>

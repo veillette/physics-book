@@ -296,6 +296,6 @@ b) $$ 897 \N $$ upward
 
 mechanical advantage
 : the ratio of output to input forces for any simple machine
-{: #import-auto-id3034634}
+
 
 </div>

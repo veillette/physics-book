@@ -488,10 +488,10 @@ top, ignoring friction.
 
 centripetal acceleration
 : the acceleration of an object moving in a circle, directed toward the center
-{: #import-auto-id2577991}
+
 
 ultracentrifuge
 : a centrifuge optimized for spinning a rotor at very high speeds
-{: #import-auto-id2603595}
+
 
 </div>

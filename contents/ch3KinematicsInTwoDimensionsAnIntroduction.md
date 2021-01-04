@@ -164,5 +164,5 @@ Ladybug Motion 2D
 vector
 : a quantity that has both magnitude and direction; an arrow used to represent
 quantities with both magnitude and direction
-{: #import-auto-id1165298860990}
+
 </div>

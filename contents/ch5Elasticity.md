@@ -929,7 +929,7 @@ Clearly, the guy wire must be in the opposite direction of the bend.)
 
 deformation
 : change in shape due to the application of force
-{: #import-auto-id1165298828407}
+
 
 Hooke’s law
 : proportional relationship between the force $$ F $$ on a material and the
@@ -938,15 +938,15 @@ deformation $$ \Delta L $$ it causes, $$ F=k\Delta L $$
 tensile strength
 : the breaking stress that will cause permanent deformation or fraction of a
 material
-{: #import-auto-id1165298828410}
+
 
 stress
 : ratio of force to area
-{: #import-auto-id1165298696762}
+
 
 strain
 : ratio of change in length to original length
-{: #import-auto-id1165296377254}
+
 
 shear deformation
 : deformation perpendicular to the original length of an object

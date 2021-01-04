@@ -331,12 +331,12 @@ coefficient of friction between the sled and the snow is 0.100.
 energy
 : the ability to do work
 
-{: #import-auto-id1547724} work
+work
 : the transfer of energy by a force that causes an object to be displaced; the
 product of the component of the force in the direction of the displacement and
 the magnitude of the displacement
 
-{: #import-auto-id1858872} joule
+joule
 : SI unit of work and energy, equal to one newton-meter
 
 </div>

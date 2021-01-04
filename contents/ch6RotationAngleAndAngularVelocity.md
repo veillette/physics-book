@@ -413,25 +413,25 @@ friction between the riders’ clothing and the wall.
 
 arc length
 : $$ \Delta s $$, the distance traveled by an object along a circular path
-{: #import-auto-id3161313}
+
 
 pit
 : a tiny indentation on the spiral track moulded into the top of the
 polycarbonate layer of CD
-{: #import-auto-id1818172}
+
 
 rotation angle
 : the ratio of the arc length to the radius of curvature on a circular path:
 $$ \Delta \theta =\frac{ \Delta s}{r} $$
-{: #import-auto-id2010216}
+
 radius of curvature
 : radius of a circular path
-{: #import-auto-id3046840}
+
 radians
 : a unit of angle measurement
-{: #import-auto-id2031924}
+
 angular velocity
 : $$ \omega $$, the rate of change of the angle with which an object moves on a
 circular path
-{: #import-auto-id1019372}
+
 </div>

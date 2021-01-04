@@ -346,11 +346,11 @@ Newton’s third law of motion
 : whenever one body exerts a force on a second body, the first body experiences
 a force that is equal in magnitude and opposite in direction to the force that
 the first body exerts
-{: #import-auto-id1046121}
+
 
 thrust
 : a reaction force that pushes a body forward in response to a backward force;
 rockets, airplanes, and cars are pushed forward by a thrust reaction force
-{: #import-auto-id1552615}
+
 
 </div>

@@ -457,19 +457,19 @@ F_{\text{p}}& =& \left(26.0 \kg +32.0 \kg +12.0 \kg \right)\left(9.80 \mss \righ
 
 torque
 : turning or twisting effectiveness of a force
-{: #import-auto-id3100304}
+
 
 perpendicular lever arm
 : the shortest distance from the pivot point to the line along which $$
 \vb{F} $$ lies
-{: #import-auto-id3100306}
+
 
 SI units of torque
 : newton times meters, usually written as N·m
-{: #import-auto-id3493270}
+
 
 center of gravity
 : the point where the total weight of the body is assumed to be concentrated
-{: #import-auto-id3493272}
+
 
 </div>

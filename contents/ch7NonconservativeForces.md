@@ -340,14 +340,14 @@ above the horizontal?
 ### Glossary
 {: class="glossary-title"}
 
-{: #import-auto-id1436122} nonconservative force
+nonconservative force
 : a force whose work depends on the path followed between the given initial and
 final configurations
-{: #import-auto-id1730340}
 
-{: #import-auto-id1465142} friction
+
+friction
 : the force between surfaces that opposes one sliding on the other; friction
 changes mechanical energy into thermal energy
-{: #import-auto-id1554286}
+
 
 </div>

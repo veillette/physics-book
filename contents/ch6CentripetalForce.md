@@ -588,27 +588,27 @@ c) The assumed speed is too great for the tight curve.
 
 centripetal force
 : any net force causing uniform circular motion
-{: #import-auto-id2658751}
+
 
 ideal banking
 : the sloping of a curve in a road, where the angle of the slope allows the
 vehicle to negotiate the curve at a certain speed without the aid of friction
 between the tires and the road; the net external force on the vehicle equals the
 horizontal centripetal force in the absence of friction
-{: #import-auto-id969602}
+
 
 ideal speed
 : the maximum safe speed at which a vehicle can turn on a curve without the aid
 of friction between the tire and the road
-{: #import-auto-id2384610}
+
 
 ideal angle
 : the angle at which a car can turn safely on a steep curve, which is in
 proportion to the ideal speed
-{: #import-auto-id3149885}
+
 
 banked curve
 : the curve in a road that is sloping in a manner that helps a vehicle negotiate
 the curve
-{: #import-auto-id3013678}
+
 </div>
