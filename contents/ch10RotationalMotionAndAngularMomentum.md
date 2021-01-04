@@ -23,3 +23,7 @@ angular acceleration—the rotational analog of linear acceleration.
 
 ![The figure shows a figure skater with her right leg lifted up in the air reaching over her head. She has her both arms stretched over her head to hold the skates of the lifted leg. The skater is spinning about a vertical axis.](../resources/Figure_11_00_02a.jpg "This figure skater increases her rate of spin by pulling her arms and her extended leg closer to her axis of rotation. (credit: Luu, Wikimedia Commons)")
 {: #import-auto-id3153998}
+
+<div class="note" data-label="Video" markdown="1">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FmnkQ2ytlO8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

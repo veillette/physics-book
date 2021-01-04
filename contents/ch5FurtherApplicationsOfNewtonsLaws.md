@@ -20,3 +20,7 @@ We know that a net force affects the motion, position, and shape of an object.
 It is useful at this point to look at some particularly interesting and common
 forces that will provide further applications of Newton’s laws of motion. We
 have in mind the forces of friction, air or liquid drag, and deformation.
+
+<div class="note" data-label="Video" markdown="1">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kbZGcfF9UfA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

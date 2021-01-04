@@ -32,3 +32,7 @@ we examine the simplest type of motion—namely, motion along a straight line, o
 one-dimensional motion. In [Two-Dimensional Kinematics](../contents/ch3TwoDimensionalKinematics.md), we
 apply concepts developed here to study motion along curved paths (two- and
 three-dimensional motion); for example, that of a car rounding a curve.
+
+<div class="note" data-label="Video" markdown="1">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bkbG8BJsInE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
