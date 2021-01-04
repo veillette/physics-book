@@ -207,7 +207,7 @@ and record and playback the motion to analyze the behavior.
 <figcaption>
 Ladybug Motion 2D
 </figcaption>
-<iframe src="https://phet.colorado.edu/sims/cheerpj/motion-2d/latest/motion-2d.html?simulation=motion-2d" width="600" height="450"  allowfullscreen></iframe>
+<iframe loading="lazy" src="https://phet.colorado.edu/sims/cheerpj/motion-2d/latest/motion-2d.html?simulation=motion-2d" width="600" height="450"  allowfullscreen></iframe>
 </figure>
 </div>
 

@@ -522,7 +522,7 @@ With this orbit simulator, you can set initial positions, velocities,
 and masses of 2, 3, or 4 bodies, and then see them orbit each other.
 
 <figure markdown="1">
-<iframe src="https://veillette.github.io/simulations/my-solar-system/#sim-my-solar-system" width="750" height="500"  allowfullscreen></iframe>
+<iframe loading="lazy" src="https://veillette.github.io/simulations/my-solar-system/#sim-my-solar-system" width="750" height="500"  allowfullscreen></iframe>
 <figcaption>
 My solar system
 </figcaption>

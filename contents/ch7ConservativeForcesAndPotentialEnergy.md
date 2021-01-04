@@ -266,7 +266,7 @@ vary along the way.
 Learn about conservation of energy with a skater dude! Build tracks, ramps and jumps for the skater and view the kinetic energy, potential energy and friction as he moves. You can also take the skater to different planets or even space!
 
 <figure markdown="1">
-<iframe src="https://phet.colorado.edu/sims/html/energy-skate-park/latest/energy-skate-park_en.html" width="600" height="450"  allowfullscreen></iframe>
+<iframe loading="lazy" src="https://phet.colorado.edu/sims/html/energy-skate-park/latest/energy-skate-park_en.html" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 Energy Skate Park
 </figcaption>

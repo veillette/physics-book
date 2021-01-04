@@ -513,7 +513,7 @@ Explore the forces at work when you try to push a filing cabinet. Create an appl
 <figcaption>
 Forces in 1 Dimension
 </figcaption>
-<iframe src="https://phet.colorado.
+<iframe loading="lazy" src="https://phet.colorado.
 edu/sims/cheerpj/forces-1d/latest/forces-1d.html?simulation=forces-1d"
 width="800" height="600"  allowfullscreen></iframe>
 

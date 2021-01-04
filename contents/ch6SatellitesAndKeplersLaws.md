@@ -301,6 +301,21 @@ ever more evident.
 ![In figure a the paths of the different planets are shown in the forms of dotted concentric circles with the Earth at the center with its Moon. The Sun is also shown revolving around the Earth. Each planet is labeled with its name. On the planets Mercury, Venus, Mars, Jupiter and Saturn green colored epicycles are shown. In the figure b Copernican view of planet is shown. The Sun is shown at the center of the solar system. The planets are shown moving around the Sun.](../resources/Figure_07_06_03a.jpg "(a) The Ptolemaic model of the universe has Earth at the center with the Moon, the planets, the Sun, and the stars revolving about it in complex superpositions of circular paths. This geocentric model, which can be made progressively more accurate by adding more circles, is purely descriptive, containing no hints as to what are the causes of these motions. (b) The Copernican model has the Sun at the center of the solar system. It is fully explained by a small number of laws of physics, including Newton&#x2019;s universal law of gravitation.")
 {: #import-auto-id1577966}
 
+<div class="note" data-label="PhET Exploration" markdown="1">
+<div class="title">
+ Gravity and Orbits
+</div>
+Move the sun, earth, moon and space station to see how it affects their gravitational forces and orbital paths. Visualize the sizes and distances between different heavenly bodies, and turn off gravity to see what would happen without it!
+
+<figure markdown="1">
+<iframe loading="lazy" src="https://phet.colorado.edu/sims/html/gravity-and-orbits/latest/gravity-and-orbits_en.html" width="600" height="450"  allowfullscreen></iframe>
+<figcaption>
+Gravity and Orbits
+</figcaption>
+
+</figure>
+</div>
+
 ### Section Summary
 
 * Kepler’s laws are stated for a small mass $$ m $$

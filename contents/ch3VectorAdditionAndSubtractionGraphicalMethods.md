@@ -357,7 +357,7 @@ game more difficult. Try to make a goal as fast as you can.
 
 <figure markdown="1">
 <div class="cnxsim">
-<iframe src="https://veillette.github.io/simulations/maze-game/#sim-maze-game
+<iframe loading="lazy" src="https://veillette.github.io/simulations/maze-game/#sim-maze-game
 " width="750" height="500"  allowfullscreen></iframe>
 <figcaption>
 Maze Game
