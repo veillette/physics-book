@@ -112,7 +112,7 @@ where $$ \vb{p}_{\text{tot}} $$ is the total momentum (the sum of the
 momenta of the individual objects in the system) and $$
 {\vb{p}^{\prime} }_{\text{tot}} $$ is the total momentum some time
 later. (The total momentum can be shown to be the momentum of the center of mass
-of the system.) An **isolated system**{: class="term"} is defined to be one
+of the system.) An **isolated system** is defined to be one
 for which the net external force is zero $$ \left(\vb{F}_
 {\text{net}}=0\right). $$
 <div class="note" data-label="">

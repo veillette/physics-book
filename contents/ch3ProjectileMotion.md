@@ -140,7 +140,7 @@ vertical motion take the following forms:
 ***Step 3.*** *Solve for the unknowns in the two separate motions—one
 horizontal and one vertical.* Note that the only common variable between the
 motions is time $$ t $$. The problem solving procedures here are the same as for
-one-dimensional **kinematics**{: class="term"} and are illustrated in the
+one-dimensional **kinematics** and are illustrated in the
 solved examples below.
 
 ***Step 4.*** *Recombine the two motions to find the total displacement* $$ \vb{s} $$ *and velocity* $$ \vb{v} $$. Because the *x*- and *y*-motions

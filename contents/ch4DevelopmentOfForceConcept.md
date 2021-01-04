@@ -69,11 +69,11 @@ To investigate force standards and cause and effect, get two identical rubber ba
 
 ### Section Summary
 
-* **Dynamics**{: class="term"} is the study of how forces affect the motion
+* **Dynamics** is the study of how forces affect the motion
   of objects.
-* **Force**{: class="term"} is a push or pull that can be defined in terms
+* **Force** is a push or pull that can be defined in terms
   of various standards, and it is a vector having both magnitude and direction.
-* **External forces**{: class="term"} are any outside forces that act on a
+* **External forces** are any outside forces that act on a
   body. A **free-body diagram**{:
   class="term"} is a drawing of all external forces acting on a body.
 

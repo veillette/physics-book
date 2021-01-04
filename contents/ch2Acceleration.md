@@ -524,7 +524,7 @@ Moving Man
 ### Section Summary
 
 * {: #import-auto-id2412645} Acceleration is the rate at which velocity changes.
-  In symbols, **average acceleration**{: class="term"} $$ \overline{a} $$ is
+  In symbols, **average acceleration** $$ \overline{a} $$ is
   <div class="equation" id="import-auto-id2412659">
  $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{ v_{f}-v_{0}}{ t_{f}-t_{0}}. $$
   </div>

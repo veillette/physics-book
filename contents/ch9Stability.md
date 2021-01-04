@@ -40,7 +40,7 @@ see the pencil in [[Figure]](#import-auto-id1425416)
 ![A pencil is balanced vertically on its flat end. The weight W of the pencil is acting at its center of gravity downward. The normal reaction N of the surface is shown as an arrow upward. A free body diagram is shown at right of the pencil. The midpoint of the flat base of the pencil is marked as pivot point.](../resources/Figure_10_03_02aa.jpg "This pencil is in the condition of equilibrium. The net force on the pencil is zero and the total torque about any pivot is zero. ")
 {: #import-auto-id1425416}
 
-A system is in **unstable equilibrium**{: class="term"} if, when displaced,
+A system is in **unstable equilibrium** if, when displaced,
 it experiences a net force or torque in the *same* direction as the displacement
 from equilibrium. A system in unstable equilibrium accelerates away from its
 equilibrium position if displaced even slightly. An obvious example is a ball
@@ -59,7 +59,7 @@ See the next several figures for examples of unstable equilibrium.
 ![A vertical pencil tilted toward left is shown. The sharp end of the pencil is down and labeled as pivot point. The weight of the pencil is acting at its center of gravity and the line of action of the weight is toward left of the pivot point.](../resources/Figure_10_03_03bb.jpg "If the pencil is displaced even slightly, a torque is created by its weight that is in the same direction as the displacement, causing the displacement to increase.")
 {: #eip-id1165317514478}
 
-A system is in **neutral equilibrium**{: class="term"} if its equilibrium is
+A system is in **neutral equilibrium** if its equilibrium is
 independent of displacements from its original position. A marble on a flat
 horizontal surface is an example. Combinations of these situations are possible.
 For example, a marble on a saddle is stable for displacements toward the front

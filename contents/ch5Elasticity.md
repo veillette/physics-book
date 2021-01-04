@@ -17,7 +17,7 @@ We now move from consideration of forces that affect the motion of an object (
 such as friction and drag) to those that affect an object’s shape. If a
 bulldozer pushes a car into a wall, the car will not move but it will noticeably
 change shape. A change in shape due to the application of a force is a
-**deformation**{: class="term"}. Even very small forces are known to cause
+**deformation**. Even very small forces are known to cause
 some deformation. For small deformations, two important characteristics are
 observed. First, the object returns to its original shape when the force is
 removed—that is, the deformation is elastic for small deformations. Second, the

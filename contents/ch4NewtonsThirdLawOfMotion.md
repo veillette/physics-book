@@ -255,11 +255,11 @@ Gravity Force Lab
 
 ### Section Summary
 
-* **Newton’s third law of motion**{: class="term"} represents a basic
+* **Newton’s third law of motion** represents a basic
   symmetry in nature. It states: Whenever one body exerts a force on a second
   body, the first body experiences a force that is equal in magnitude and
   opposite in direction to the force that the first body exerts.
-* A **thrust**{: class="term"} is a reaction force that pushes a body
+* A **thrust** is a reaction force that pushes a body
   forward in response to a backward force. Rockets, airplanes, and cars are
   pushed forward by a thrust reaction force.
 

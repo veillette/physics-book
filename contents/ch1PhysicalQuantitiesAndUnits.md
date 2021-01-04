@@ -47,7 +47,7 @@ See [Figure 2](#import-auto-id2991258).)
 
 There are two major systems of units used in the world: **SI units**{:
 class="term"}
-(also known as the metric system) and **English units**{: class="term"}
+(also known as the metric system) and **English units**
 (also known as the customary or imperial system).
 **English units**
 were historically used in nations once ruled by the British Empire and are still
