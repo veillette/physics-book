@@ -18,7 +18,7 @@ of [Dynamics: Newton\'s Laws of Motion](../contents/ch4Dynamics.md) as we study 
 applications of Newton’s laws of motion.
 
 This chapter deals with the simplest form of curved motion, **uniform circular
-motion**{: class="term" #import-auto-id1920881}, motion in a circular path
+motion**, motion in a circular path
 at constant speed. Studying this topic illustrates most concepts
 associated with rotational motion and leads to the study of many new topics we
 group under the name *rotation*. Pure

@@ -21,7 +21,7 @@ work is done, energy is transferred.
 For work, in the scientific sense, to be done, a force must be exerted and there
 must be displacement in the direction of the force.
 
-Formally, the **work**{: class="term" #import-auto-id1418415} done on a
+Formally, the **work** done on a
 system by a constant force is defined to be *the product of the component of the
 force in the direction of motion times the distance through which the force
 acts*. For one-way motion in one dimension, this is expressed in equation form
@@ -96,9 +96,8 @@ displacement downward. This makes $$ \theta =180^\circ $$, and $$ \cos
 
 Work and energy have the same units. From the definition of work, we see that
 those units are force times distance. Thus, in SI units, work and energy are
-measured in **newton-meters**{: class="term" #import-auto-id2692776}. A
-newton-meter is given the special name **joule**{: class="term"
-#import-auto-id2681417} (J), and $$ 1 \J =1\N \cdot
+measured in **newton-meters**. A
+newton-meter is given the special name **joule** (J), and $$ 1 \J =1\N \cdot
 \m =1\kg \cdot \mmss $$. One joule is not a
 large amount of energy; it would lift a small 100-gram apple a distance of about
 1 meter.

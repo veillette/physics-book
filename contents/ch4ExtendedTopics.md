@@ -19,8 +19,7 @@ the previous section. As we will see, the basic forces are all thought to act
 through the exchange of microscopic carrier particles, and the characteristics
 of the basic forces are determined by the types of particles exchanged. Action
 at a distance, such as the gravitational force of Earth on the Moon, is
-explained by the existence of a **force field**{: class="term"
-#import-auto-id2990636} rather than by “physical contact.”
+explained by the existence of a **force field** rather than by “physical contact.”
 
 The *four basic forces* are the gravitational force, the electromagnetic force,
 the weak nuclear force, and the strong nuclear force. Their properties are
@@ -118,8 +117,7 @@ All forces act at a distance. This is obvious for the gravitational force. Earth
 and the Moon, for example, interact without coming into contact. It is also true
 for all other forces. Friction, for example, is an electromagnetic force between
 atoms that may not actually touch. What is it that carries forces between
-objects? One way to answer this question is to imagine that a **force field**{:
-class="term" #import-auto-id3093199} surrounds whatever object creates the
+objects? One way to answer this question is to imagine that a **force field**surrounds whatever object creates the
 force. A second object (often called a *test object*) placed in this field will
 experience a force that is a function of location and other variables. The field
 itself is the “thing” that carries the force from one object to another. The
@@ -162,8 +160,7 @@ one another. (See [[Figure]](#import-auto-id2011579).)
 This idea of particle exchange deepens rather than contradicts field concepts.
 It is more satisfying philosophically to think of something physical actually
 moving between objects acting at a distance. [[Figure]](#import-auto-id1588108)
-lists the exchange or **carrier particles**{: class="term"
-#import-auto-id1561662}, both observed and proposed, that carry the four forces.
+lists the exchange or **carrier particles**, both observed and proposed, that carry the four forces.
 But the real fruit of the particle-exchange proposal is that searches for
 Yukawa’s proposed particle found it *and* a number of others that were
 completely unexpected, stimulating yet more research. All of this research

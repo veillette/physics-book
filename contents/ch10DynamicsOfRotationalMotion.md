@@ -40,7 +40,7 @@ $$ a=r \alpha $$, and we substitute this expression into $$ F=ma $$, yielding
  $$ F= m r \alpha . $$
 </div>
 
-Recall that **torque**{: class="term" #import-auto-id1429483} is the turning
+Recall that **torque** is the turning
 effectiveness of a force. In this case, because $$ \vb{F} $$ is
 perpendicular to $$ r $$, torque is simply $$ \tau =F r $$. So, if we multiply
 both sides of the equation above by $$ r $$, we get torque on the left-hand
@@ -83,7 +83,7 @@ mass that behave just as we would expect from our earlier experiences.
 Before we can consider the rotation of anything other than a point mass like the
 one in [[Figure]](#import-auto-id2062858), we must extend the idea of rotational
 inertia to all types of objects. To expand our concept of rotational inertia, we
-define the **moment of inertia**{: class="term" #import-auto-id3400355} $$ I
+define the **moment of inertia** $$ I
 $$ of an object to be the sum of $$ m r^{2} $$ for all the point masses of which
 it is composed. That is, $$ I=\sum m r^{2} $$. Here $$ I $$ is analogous to $$ m
 $$ in translational motion. Because of the distance $$ r $$, the moment of

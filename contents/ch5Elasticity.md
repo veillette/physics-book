@@ -22,8 +22,7 @@ some deformation. For small deformations, two important characteristics are
 observed. First, the object returns to its original shape when the force is
 removed—that is, the deformation is elastic for small deformations. Second, the
 size of the deformation is proportional to the force—that is, for small
-deformations, Hooke’s law is obeyed. In equation form, **Hooke’s law**{:
-class="term"} is given by
+deformations, Hooke’s law is obeyed. In equation form, **Hooke’s law** is given by
 
 <div class="equation" id="eip-940">
  $$ F=k\Delta L, $$
@@ -303,10 +302,10 @@ following form:
  $$ \frac{F}{A}=Y\frac{ \Delta L}{ L_{0}}. $$
 </div>
 
-The ratio of force to area, $$ \frac{F}{A} $$, is defined as **stress**{: class="term" #import-auto-id1165298867113} (
+The ratio of force to area, $$ \frac{F}{A} $$, is defined as **stress** (
 measured in $$ \text{N/m}^{2} $$ ), and the ratio of the change in length
 to length, $$ \frac{ \Delta L}{ L_{0}} $$, is defined as
-**strain**{: class="term" #import-auto-id1165298883978}
+**strain**
 (a unitless quantity). In other words,
 
 <div class="equation" id="eip-760">
@@ -359,7 +358,7 @@ stress or a *shearing force*. Here the deformation is called $$ \Delta x $$ and
 it is perpendicular to $$ L_{0} $$, rather than parallel as with tension and
 compression. Shear deformation behaves similarly to tension and compression and
 can be described with similar equations. The expression for
-**shear deformation**{: class="term" #import-auto-id1165296259204} is
+**shear deformation** is
 
 <div class="equation" id="eip-178">
  $$ \Delta x=\frac{1}{S}\frac{F}{A} L_{0}, $$

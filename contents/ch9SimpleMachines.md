@@ -17,8 +17,7 @@ easier.” Levers, gears, pulleys, wedges, and screws are some examples of
 machines. Energy is still conserved for these devices because a machine cannot
 do more work than the energy put into it. However, machines can reduce the input
 force that is needed to perform the job. The ratio of output to input force
-magnitudes for any simple machine is called its **mechanical advantage**{:
-class="term"} (MA).
+magnitudes for any simple machine is called its **mechanical advantage** (MA).
 
 <div class="equation" id="eip-598">
  $$ \text{MA}=\frac{ F_{\text{o}}}{ F_{\text{i}}} $$

@@ -268,8 +268,7 @@ ever-increasing specialization and branching of natural philosophy into separate
 fields, with physics retaining the most basic facets. (
 See [Figure 10](#Fig10), [Figure 11](#Fig11),
 and [Figure 12](#Fig12).) Physics as it developed from the
-Renaissance to the end of the 19th century is called **classical physics**{:
-class="term" #import-auto-id2676866} . It was transformed into modern
+Renaissance to the end of the 19th century is called **classical physics**. It was transformed into modern
 physics by revolutionary discoveries made starting at the beginning of the 20th
 century.
 

@@ -18,8 +18,7 @@ pitcher hits the stone, it’s going to be bad for the pitcher.’” This is ex
 what happens whenever one body exerts a force on another—the first also
 experiences a force (equal in magnitude and opposite in direction). Numerous
 common experiences, such as stubbing a toe or throwing a ball, confirm this. It
-is precisely stated in **Newton’s third law of motion**{: class="term"
-#import-auto-id1260844}.
+is precisely stated in **Newton’s third law of motion**.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -82,7 +81,7 @@ and throw rocks backward. In another example, rockets move forward by expelling
 gas backward at high velocity. This means the rocket exerts a large backward
 force on the gas in the rocket combustion chamber, and the gas therefore exerts
 a large reaction force forward on the rocket. This reaction force is called
-**thrust**{: class="term" #import-auto-id1295864}. It is a common
+**thrust**. It is a common
 misconception that rockets propel themselves by pushing on the ground or on the
 air behind them. They actually work better in a vacuum, where they can more
 readily expel the exhaust gases. Helicopters similarly create lift by pushing

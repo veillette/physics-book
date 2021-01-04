@@ -14,8 +14,7 @@ layout: page
 ### Law of Conservation of Energy
 
 Energy, as we have noted, is conserved, making it one of the most important
-physical quantities in nature. The **law of conservation of energy**{:
-class="term" #import-auto-id2096012} can be stated as follows:
+physical quantities in nature. The **law of conservation of energy** can be stated as follows:
 
 *Total energy is constant in any process. It may change in form or be
 transferred from one system to another, but the total remains the same.*
@@ -65,25 +64,23 @@ another form of $$ \text{OE} $$).
 
 What are some other forms of energy? You can probably name a number of forms of
 energy not yet discussed. Many of these will be covered in later chapters, but
-let us detail a few here. **Electrical energy**{: class="term"
-#import-auto-id2771762} is a common form that is converted to many other forms
+let us detail a few here. **Electrical energy** is a common form that is converted to many other forms
 and does work in a wide range of practical situations. Fuels, such as gasoline
-and food, carry **chemical energy**{: class="term" #import-auto-id2094176}
+and food, carry **chemical energy**
 that can be transferred to a system through oxidation. Chemical fuel can also
 produce electrical
 
 energy, such as in batteries. Batteries can in turn produce light, which is a
 very pure form of energy. Most energy sources on Earth are in fact stored energy
 from the energy we receive from the Sun. We sometimes refer to this as **radiant
-energy**{: class="term" #import-auto-id2739439}, or electromagnetic
+energy**, or electromagnetic
 radiation, which includes visible light, infrared, and ultraviolet radiation.
-**Nuclear energy**{: class="term" #import-auto-id2580734} comes from processes
+**Nuclear energy** comes from processes
 that convert measurable amounts of mass into energy. Nuclear energy is
 transformed into the energy of sunlight, into electrical energy in power plants,
 and into the energy of the heat transfer and blast in weapons. Atoms and
 molecules inside all objects are in random motion. This internal mechanical
-energy from the random motions is called **thermal energy**{: class="term"
-#import-auto-id2393416}, because it is related to the temperature of the object.
+energy from the random motions is called **thermal energy**, because it is related to the temperature of the object.
 These and all other forms of energy can be converted into one another and can do
 work.
 
@@ -194,8 +191,7 @@ solar energy into electrical energy and then into mechanical energy.
 ### Efficiency
 
 Even though energy is conserved in an energy conversion process, the output of
-*useful energy* or work will be less than the energy input. The **efficiency**{:
-class="term" #import-auto-id2408157 } $$ \text{Eff} $$ of an energy
+*useful energy* or work will be less than the energy input. The **efficiency** $$ \text{Eff} $$ of an energy
 conversion process is defined as
 
 <div class="equation">

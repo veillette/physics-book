@@ -11,7 +11,7 @@ layout: page
 
 </div>
 
-**Analytical methods**{: class="term" #import-auto-id1165298770648} of
+**Analytical methods** of
 vector addition and subtraction employ geometry and simple trigonometry rather
 than the ruler and protractor of graphical methods. Part of the graphical
 technique is retained, because vectors are still represented by arrows for easy

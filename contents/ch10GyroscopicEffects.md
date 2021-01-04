@@ -15,7 +15,7 @@ Angular momentum is a vector and, therefore, *has direction as well as
 magnitude*. Torque affects both the direction and the magnitude of angular
 momentum. What is the direction of the angular momentum of a rotating object
 like the disk in [[Figure]](#import-auto-id1549167)? The figure shows the
-**right-hand rule**{: class="term" #import-auto-id3008939} used to find the
+**right-hand rule** used to find the
 direction of both angular momentum and angular velocity. Both $$
 \vb{L} $$ and $$ \vb{\omega} $$ are vectors—each has direction
 and magnitude. Both can be represented by arrows. The right-hand rule defines

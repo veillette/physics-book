@@ -116,8 +116,7 @@ The $$ d $$ cancels, and we rearrange this to obtain
  $$ W_{\text{net}}=\frac{1}{2}m v^{2}-\frac{1}{2} mv_{0}^{2}. $$
 </div>
 
-This expression is called the **work-energy theorem**{: class="term"
-#import-auto-id1555482}, and it actually applies *in general* (even for forces
+This expression is called the **work-energy theorem**, and it actually applies *in general* (even for forces
 that vary in direction and magnitude), although we have derived it for the
 special case of a constant force parallel to the displacement. The theorem
 implies that the net work on a system equals the change in the quantity $$
@@ -135,8 +134,7 @@ The net work on a system equals the change in the quantity $$ \frac{1}{2}m v^{2}
 </div>
 
 The quantity $$ \frac{1}{2}m v^{2} $$ in the work-energy theorem is defined to
-be the translational **kinetic energy**
-{: class="term"} (KE) of a mass $$ m $$ moving at a speed $$ v $$.
+be the translational **kinetic energy** (KE) of a mass $$ m $$ moving at a speed $$ v $$.
 (*Translational* kinetic energy is distinct from *rotational* kinetic energy,
 which is considered later.) In equation form, the translational kinetic energy,
 

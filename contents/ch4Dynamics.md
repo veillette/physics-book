@@ -14,7 +14,7 @@ at the forces needed to achieve spectacular motion, such as that of a dolphin
 jumping out of the water, or a pole vaulter, or the flight of a bird, or the
 orbit of a satellite. The study of motion is kinematics, but kinematics only
 *describes* the way objects move—their velocity and their acceleration.
-**Dynamics**{: class="term" #import-auto-id2665402} considers the forces
+**Dynamics** considers the forces
 that affect the motion of moving objects and systems. Newton’s laws of motion
 are the foundation of dynamics. These laws provide an example of the breadth and
 simplicity of principles under which nature functions. They are also universal

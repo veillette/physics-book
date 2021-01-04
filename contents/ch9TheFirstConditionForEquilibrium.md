@@ -29,9 +29,7 @@ and *y*-axes are zero. This is written as
 
 [[Figure]](#import-auto-id1164400876993)
 and [[Figure]](#import-auto-id1164400872520) illustrate situations where $$
-\text{net}F=0 $$ for both **static equilibrium**{: class="term"
-#import-auto-id1164400876972} (motionless), and **dynamic equilibrium**{:
-class="term" #import-auto-id1164400876975}
+\text{net}F=0 $$ for both **static equilibrium** (motionless), and **dynamic equilibrium**
 (constant velocity).
 
 ![In the figure, a stationary man is standing on the ground. His feet are at a distance apart. His hands are at his waist. The left side is labeled as net F is equal to zero. At the right side a free body diagram is shown with one point and two arrows, one vertically upward labeled as N and another vertically downward labeled as W, from the point.](../resources/Figure_10_01_01a.jpg "This motionless person is in static equilibrium. The forces acting on him add up to zero. Both forces are vertical in this case.")

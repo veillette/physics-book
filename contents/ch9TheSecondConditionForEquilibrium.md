@@ -35,8 +35,7 @@ perpendicular to the door—we push in this direction almost instinctively.
 {: #import-auto-id3533620}
 
 The magnitude, direction, and point of application of the force are incorporated
-into the definition of the physical quantity called torque. **Torque**{:
-class="term" #import-auto-id2603151} is the rotational equivalent of a
+into the definition of the physical quantity called torque. **Torque** is the rotational equivalent of a
 force. It is a measure of the effectiveness of a force in changing or
 accelerating a rotation (changing the angular velocity over a period of time).
 In equation form, the magnitude of torque is defined to be
@@ -52,8 +51,7 @@ magnitude of the force, and $$ \theta $$ is the angle between the force and the
 vector directed from the point of application to the pivot point, as seen
 in [[Figure]](#import-auto-id3533620)
 and [[Figure]](#import-auto-id2573920). An alternative expression for torque is
-given in terms of the **perpendicular lever arm**{: class="term"
-#import-auto-id2704160} $$ r_{\perp } $$ as shown
+given in terms of the **perpendicular lever arm** $$ r_{\perp } $$ as shown
 in [[Figure]](#import-auto-id3533620)
 and [[Figure]](#import-auto-id2573920), which is defined as
 
@@ -81,7 +79,7 @@ than to find both $$ r $$ and $$ \theta $$. In such cases, it may be more
 convenient to use $$ \tau =r_{\perp }F $$ rather than $$ \tau =rF\sin{\theta} $$ for torque, but both are equally
 valid.
 
-The **SI unit of torque**{: class="term" #import-auto-id3062833} is newtons
+The **SI unit of torque** is newtons
 times meters, usually written as $$ \N ·\m $$. For example, if you
 push perpendicular to the door with a force of 40 N at a distance of 0.800 m
 from the hinges, you exert a torque of $$ 32 \text{N·m} (0.800 \m  · 40
@@ -273,8 +271,7 @@ the correct forces—do not jump ahead to enter some ratio of masses.
 Third, the weight of each child is distributed over an area of the seesaw, yet
 we treated the weights as if each force were exerted at a single point. This is
 not an approximation—the distances $$ r_{1} $$ and $$ r_{2} $$ are the
-distances to points directly below the **center of gravity**{: class="term"
-#import-auto-id2628264} of each child. As we shall see in the next section, the
+distances to points directly below the **center of gravity** of each child. As we shall see in the next section, the
 mass and weight of a system can act as if they are located at a single point.
 
 Finally, note that the concept of torque has an importance beyond static

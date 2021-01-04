@@ -14,7 +14,7 @@ layout: page
 
 Forces are either conservative or nonconservative. Conservative forces were
 discussed in [Conservative Forces and Potential Energy](../contents/ch7ConservaticeForcesAndPotentialEnergy.md). A
-**nonconservative force**{: class="term" #import-auto-id2125883} is one for
+**nonconservative force** is one for
 which work depends on the path taken. Friction is a good example of a
 nonconservative force. As illustrated in [[Figure]](#import-auto-id2415636),
 work done against
@@ -22,8 +22,8 @@ friction depends on the length of the path between the starting and ending
 points. Because of this dependence on path, there is no potential energy
 associated with nonconservative forces. An important characteristic is that the
 work done by a nonconservative force *adds or removes mechanical energy from a
-system*. **Friction**{: class="term" #import-auto-id2182205}, for example,
-creates **thermal energy**{: class="term" #import-auto-id2697468} that
+system*. **Friction**, for example,
+creates **thermal energy** that
 dissipates, removing energy from the system. Furthermore, even if the thermal
 energy is retained or captured, it cannot be fully converted back to work, so it
 is lost or not recoverable in that sense as well.

@@ -20,7 +20,7 @@ What is the difference between distance and displacement? Whereas displacement
 is defined by both direction and magnitude, distance is defined only by
 magnitude. Displacement is an example of a vector quantity. Distance
 is an example of a scalar quantity. A
-**vector**{: class="term" #import-auto-id1738434} is any quantity with both
+**vector** is any quantity with both
 *magnitude and direction*. Other examples of vectors include a velocity of 90
 km/h east and a force of 500 newtons straight down.
 
@@ -31,7 +31,7 @@ proportional to the vector’s magnitude (e.g., the larger the magnitude, the
 longer the length of the vector) and points in the same direction as the vector.
 
 Some physical quantities, like distance, either have no direction or none is
-specified. A **scalar**{: class="term" #import-auto-id1759638} is any
+specified. A **scalar** is any
 quantity that has a magnitude, but no direction. For example, a $$ 20^\circ
 \text{C} $$ temperature, the 250 kilocalories (250 Calories) of energy in a
 candy bar, a 90 km/h speed limit, a person’s 1.8 m height, and a distance of 2.0

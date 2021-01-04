@@ -27,7 +27,7 @@ fundamental physical quantities are defined by how they are measured. This is
 the case with time. Every measurement of time involves measuring a change in
 some physical quantity. It may be a number on a digital clock, a heartbeat, or
 the position of the Sun in the sky. In physics, the definition of time is
-simple—**time**{: class="term" #import-auto-id2588516} is *change*, or the
+simple—**time** is *change*, or the
 interval over which change occurs. It is impossible to know that time has passed
 unless something changes.
 
@@ -42,9 +42,9 @@ How does time relate to motion? We are usually interested in elapsed time for a
 particular motion, such as how long it takes an airplane passenger to get from
 his seat to the back of the plane. To find elapsed time, we note the time at the
 beginning and end of the motion and subtract the two. For example, a lecture may
-start at 11:00 A.M. and end at 11:50 A.M., so that the elapsed time would be 50 min.
-**Elapsed time**{:class="term" #import-auto-id4083152}
- $$ \Delta t $$ is the difference between the ending time and beginning time,
+start at 11:00 A.M. and end at 11:50 A.M., so that the elapsed time would 
+be 50 min. **Elapsed time** $$ \Delta t $$ 
+is the difference between the ending time and beginning time,
 
 <div class="equation" id="import-auto-id1757927">
  $$ \Delta t=t_{f}-t_{0}, $$
@@ -79,7 +79,7 @@ miles per hour or kilometers per hour.
 Average Velocity
 </div>
 
-**Average velocity**{: class="term" #import-auto-id2596035} is *displacement (change in position) divided by the time of travel*,
+**Average velocity** is *displacement (change in position) divided by the time of travel*,
 
 <div class="equation" id="import-auto-id4059844">
  $$ \overline{v}=\frac{ \Delta x}{\Delta t}=\frac{ x_{f}-x_{0}}{ t_{f}-t_{0}}, $$
@@ -127,7 +127,7 @@ instant*. A car’s speedometer, for example, shows the magnitude (but not the
 direction) of the instantaneous velocity of the car. (Police give tickets based
 on instantaneous velocity, but when calculating how long it will take to get
 from one place to another on a road trip, you need to use average velocity.)
-**Instantaneous velocity**{: class="term" #import-auto-id2579029} $$ v $$ is
+**Instantaneous velocity** $$ v $$ is
 the average velocity at a specific instant in time (or over an infinitesimally
 small time interval).
 
@@ -145,15 +145,14 @@ Thus *speed is a scalar*. Just as we need to distinguish between instantaneous
 velocity and average velocity, we also need to distinguish between instantaneous
 speed and average speed.
 
-**Instantaneous speed**{: class="term" #import-auto-id2004213} is the
+**Instantaneous speed** is the
 magnitude of instantaneous velocity. For example, suppose the airplane passenger
 at one instant had an instantaneous velocity of −3.0 m/s (the minus meaning
 toward the rear of the plane). At that same time his instantaneous speed was 3.0
 m/s. Or suppose that at one time during a shopping trip your instantaneous
 velocity is 40 km/h due north. Your instantaneous speed at that instant would be
 40 km/h—the same magnitude but without a direction. Average speed, however, is
-very different from average velocity. **Average speed**{: class="term"
-#import-auto-id2004216} is the distance traveled divided by elapsed time.
+very different from average velocity. **Average speed** is the distance traveled divided by elapsed time.
 
 We have noted that distance traveled can be greater than displacement. So
 average speed can be greater than average velocity, which is displacement
@@ -171,7 +170,7 @@ Another way of visualizing the motion of an object is to use a graph. A plot of
 position or of velocity as a function of time can be very useful. For example,
 for this trip to the store, the position, velocity, and speed-vs.-time graphs
 are displayed in [[Figure]](#import-auto-id1806646). (Note that these graphs
-depict a very simplified **model**{: class="term" #import-auto-id1510828} of
+depict a very simplified **model** of
 the trip. We are assuming that speed is constant during the trip, which is
 unrealistic given that we’ll probably stop at the store. But for simplicity’s
 sake, we will model it with no stops or changes in speed. We are also assuming

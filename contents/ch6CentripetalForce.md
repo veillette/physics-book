@@ -17,7 +17,7 @@ rink floor, a banked roadway’s force on a car, and forces on the tube of a
 spinning centrifuge.
 
 Any net force causing uniform circular motion is called a **centripetal force**
-{: class="term" #import-auto-id3450370}. The direction of a centripetal
+**. The direction of a centripetal
 force is toward the center of curvature, the same as the
 direction of centripetal acceleration. According to Newton’s second law of
 motion, net force is mass times acceleration:
@@ -158,8 +158,7 @@ force would be less as will be discussed below.
 ![In the given figure, a car is shown from the back, which is turning to the left. The weight, w, of the car is shown with a down arrow and N with an up arrow at the back of the car. At the right rear wheel, centripetal force is shown along with its equation formula in a leftward horizontal arrow. The free-body diagram shows three vectors, one upward, depicting N, one downward, depicting w, and one leftward, depicting centripetal force.](../resources/Figure_07_03_02a.jpg "This car on level ground is moving away and turning to the left. The centripetal force causing the car to turn in a circular path is due to friction between the tires and the road. A minimum coefficient of friction is needed, or the car will move in a larger-radius curve and leave the roadway.")
 {: #import-auto-id3184285}
 
-Let us now consider **banked curves**{: class="term"
-#import-auto-id2403430}, where the slope of the road helps you negotiate the
+Let us now consider **banked curves**, where the slope of the road helps you negotiate the
 curve. See [[Figure]](#import-auto-id1571739). The greater the angle $$ \theta
 $$, the faster you can take the curve. Race tracks for bikes as well as cars,
 for example, often have steeply banked curves. In an “ideally banked curve,” the
@@ -168,7 +167,7 @@ without the aid of friction between the tires and the road. We will derive an
 expression for $$ \theta $$ for an ideally banked curve and consider an example
 related to it.
 
-For **ideal banking**{: class="term" #import-auto-id1402139}, the net
+For **ideal banking**, the net
 external force equals the horizontal centripetal force in the absence of
 friction. The components of the normal force N in the horizontal and vertical
 directions must equal the centripetal force and the weight of the car,

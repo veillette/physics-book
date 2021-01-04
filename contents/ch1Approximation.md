@@ -10,7 +10,7 @@ layout: page
 </div>
 
 On many occasions, physicists, other scientists, and engineers need to make
-**approximations**{: class="term" #import-auto-id2073324} or “guesstimates”
+**approximations** or “guesstimates”
 for a particular quantity. What is the distance to a certain destination? What
 is the approximate density of a given item? About how large a current will there
 be in a circuit? Many approximate numbers are based on formulae in which the

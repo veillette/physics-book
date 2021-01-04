@@ -18,9 +18,8 @@ in collisions. The conservation of momentum principle is very useful here, and
 it can be used whenever the net external force on a system is zero.
 
 We start with the elastic collision of two objects moving along the same line—a
-one-dimensional problem. An **elastic collision**{: class="term"
-#import-auto-id1180706} is one that also conserves internal kinetic energy.
-**Internal kinetic energy**{: class="term" #import-auto-id1806312} is the sum
+one-dimensional problem. An **elastic collision** is one that also conserves internal kinetic energy.
+**Internal kinetic energy** is the sum
 of the kinetic energies of the objects in the
 system. [[Figure]](#import-auto-id1121320) illustrates an elastic collision in
 which internal kinetic energy and momentum are conserved.
@@ -38,7 +37,7 @@ allowing nearly elastic collisions on them.
 <div class="title">
 Elastic Collision
 </div>
-An **elastic collision**{: class="term" #import-auto-id1695093} is one that conserves internal kinetic energy.
+An **elastic collision** is one that conserves internal kinetic energy.
 
 </div>
 
@@ -47,7 +46,7 @@ An **elastic collision**{: class="term" #import-auto-id1695093} is one that cons
 Internal Kinetic Energy
 </div>
 
-**Internal kinetic energy**{: class="term" #import-auto-id1647085} is the sum of the kinetic energies of the objects in the system.
+**Internal kinetic energy** is the sum of the kinetic energies of the objects in the system.
 
 </div>
 

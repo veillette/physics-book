@@ -11,18 +11,18 @@ layout: page
 
 </div>
 
-**Projectile motion**{: class="term" #import-auto-id1560216} is the
-**motion**{: class="term" #import-auto-id1846113} of an object thrown or
+**Projectile motion** is the
+**motion** of an object thrown or
 projected into the air, subject to only the acceleration of gravity. The
-object is called a **projectile**{: class="term" #import-auto-id1809247},
+object is called a **projectile**,
 and its path is called its
-**trajectory**{: class="term" #import-auto-id1397020}. The motion of
+**trajectory**. The motion of
 falling objects, as covered
 in [Problem-Solving Basics for One-Dimensional Kinematics](../contents/ch2ProblemSolvingBasicsForOneDimensionalKinematics.md), is
 a simple one-dimensional type of projectile motion in which there is no
 horizontal movement. In this section, we consider two-dimensional projectile
 motion, such as that of a football or other object for which
-**air resistance**{: class="term" #import-auto-id1230666}
+**air resistance**
 **is negligible**.
 
 The most important fact to remember here is that **motions along perpendicular
@@ -477,8 +477,7 @@ See [[Figure]](#import-auto-id1817519).)
 One of the most important things illustrated by projectile motion is that
 vertical and horizontal motions are independent of each other. Galileo was the
 first person to fully comprehend this characteristic. He used it to predict the
-range of a projectile. On level ground, we define **range**{: class="term"
-#import-auto-id1751163} to be the horizontal distance $$ R $$ traveled by a
+range of a projectile. On level ground, we define **range** to be the horizontal distance $$ R $$ traveled by a
 projectile. Galileo and many others were interested in the range of projectiles
 primarily for military purposes—such as aiming cannons. However, investigating
 the range of projectiles can shed light on other interesting phenomena, such as

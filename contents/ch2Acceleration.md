@@ -16,8 +16,7 @@ in direction to its velocity. (credit: Steve Conry, Flickr)")
 {: #import-auto-id3514068}
 
 In everyday conversation, to accelerate means to speed up. The accelerator in a
-car can in fact cause it to speed up. The greater the **acceleration**{:
-class="term" #import-auto-id1298945} , the greater the change in velocity
+car can in fact cause it to speed up. The greater the **acceleration**, the greater the change in velocity
 over a given time. The formal definition of acceleration is consistent with
 these notions, but more inclusive.
 
@@ -26,7 +25,7 @@ these notions, but more inclusive.
 Average Acceleration
 </div>
 
-**Average Acceleration**{: class="term" #import-auto-id2580108} is *the rate at which velocity changes*,
+**Average Acceleration** is *the rate at which velocity changes*,
 
 <div class="equation" id="import-auto-id4040806">
  $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{ v_{f}-v_{0}}{ t_{f}-t_{0}}, $$
@@ -62,7 +61,7 @@ Acceleration is therefore a change in either speed or direction, or both.
 Keep in mind that although acceleration is in the direction of the *change* in
 velocity, it is not always in the direction of *motion*. When an object slows
 down, its acceleration is opposite to the direction of its motion. This is known
-as **deceleration**{: class="term" #import-auto-id3583719}.
+as **deceleration**.
 
 ![A subway train arriving at a station. A velocity vector arrow points along the track away from the train. An acceleration vector arrow points along the track toward the train.](../resources/Figure_02_04_00a.jpg "A subway train in Sao Paulo, Brazil, decelerates as it comes into a station. It is accelerating in a direction opposite to its direction of motion. (credit: Yusuke Kawasaki, Flickr)")
 {: #import-auto-id1515319}
@@ -157,7 +156,7 @@ with a force nearly equal to his weight.
 
 ### Instantaneous Acceleration
 
-**Instantaneous acceleration**{: class="term" #import-auto-id2303194} $$ a
+**Instantaneous acceleration** $$ a
 $$, or the *acceleration at a specific instant in time*, is obtained by the same
 process as discussed for instantaneous velocity
 in [Time, Velocity, and Speed](../contents/ch2TimeVelocityAndSpeed.md)—that is, by considering an

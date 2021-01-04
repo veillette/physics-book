@@ -36,10 +36,9 @@ because it is very nearly an inertial frame of reference—one in which all forc
 are real (that is, in which all forces have an identifiable physical origin). In
 such a frame of reference, Newton’s laws of motion take the form given
 in [Dynamics: Newton\'s Laws of Motion](../contents/ch4Dynamics.md) The car is a
-**non-inertial frame of reference**{: class="term" #import-auto-id2692430}
+**non-inertial frame of reference**
 because it is accelerated to the side. The force
-to the left sensed by car passengers is a
-**fictitious force**{: class="term" #import-auto-id647624}
+to the left sensed by car passengers is a **fictitious force**
 having no physical origin. There is nothing real
 pushing them left—the car, as well as the driver, is actually accelerating to
 the right.
@@ -47,8 +46,7 @@ the right.
 Let us now take a mental ride on a merry-go-round—specifically, a rapidly
 rotating playground merry-go-round. You take the merry-go-round to be your frame
 of reference because you rotate together. In that non-inertial frame, you feel a
-fictitious force, named
-**centrifugal force**{: class="term" #import-auto-id1507173}
+fictitious force, named **centrifugal force**
 not to be confused with centripetal force, trying to throw you off. You must hang on tightly to counteract the
 centrifugal force. In Earth’s frame of reference, there is no force trying to
 throw you off. Rather you must hang on to make yourself go in a circle because
@@ -96,7 +94,7 @@ path curved to the right on the merry-go-round’s surface. A person standing ne
 to the merry-go-round sees the ball moving straight and the merry-go-round
 rotating underneath it. In the merry-go-round’s frame of reference, we explain
 the apparent curve to the right by using a fictitious force, called the
-**Coriolis force**{: class="term" #import-auto-id2045471}, that causes the
+**Coriolis force**, that causes the
 ball to curve to the right. The fictitious Coriolis force can be used by anyone
 in that frame of reference to explain why objects follow curved paths and allows
 us to apply Newton’s Laws in non-inertial frames of reference.

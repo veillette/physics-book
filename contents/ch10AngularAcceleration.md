@@ -47,7 +47,7 @@ direction as negative
 Angular velocity is not constant when a skater pulls in her arms, when a child
 starts up a merry-go-round from rest, or when a computer’s hard disk slows to a
 halt when switched off. In all these cases, there is an **angular acceleration**
-{: class="term" #import-auto-id2438108}, in which $$ \omega $$ changes. The
+**, in which $$ \omega $$ changes. The
 faster the change occurs, the greater the angular acceleration. Angular
 acceleration $$ \alpha $$ is defined as the rate of change of angular velocity.
 In equation form, angular acceleration is expressed as follows:
@@ -151,7 +151,7 @@ explored. For example, it would be useful to know how linear and angular
 acceleration are related. In circular motion, linear acceleration is *tangent*
 to the circle at the point of interest, as seen
 in [[Figure]](#import-auto-id1019355). Thus, linear acceleration is called
-**tangential acceleration**{: class="term" #import-auto-id1997895} $$ a_
+**tangential acceleration** $$ a_
 {\text{t}} $$.
 
 ![In the figure, a semicircle is drawn, with its radius r, shown here as a line segment. The anti-clockwise motion of the circle is shown with an arrow on the path of the circle. Tangential velocity vector, v, of the point, which is on the meeting point of radius with the circle, is shown as a green arrow and the linear acceleration, a-t is shown as a yellow arrow in the same direction along v.](../resources/Figure_11_01_02a.jpg "In circular motion, linear acceleration \( a \) , occurs as the magnitude of the velocity changes: \( a \)  is tangent to the motion. In the context of circular motion, linear acceleration is also called tangential acceleration \( a_t \) .")
