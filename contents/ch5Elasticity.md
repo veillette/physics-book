@@ -569,9 +569,9 @@ biological cell, or crack an engine block that gets in its way.
 Other types of deformations, such as torsion or twisting, behave analogously to
 the tension, shear, and bulk deformations considered here.
 
-<div class="note" id="eip-948" data-label="" markdown="1">
+<div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
-PhET Exploration: Hooke's Law
+ Hooke's Law
 </div>
 Stretch and compress springs to explore the relationships between force,
 spring constant and displacement.

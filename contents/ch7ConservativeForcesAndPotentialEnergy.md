@@ -263,9 +263,9 @@ important (as long as the path is not impossible). This assumption is usually a
 tremendous simplification, because the path may be complicated and forces may
 vary along the way.
 
-<div class="note" data-label="" markdown="1">
+<div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
-PhET Exploration: Energy Skate Park
+ Energy Skate Park
 </div>
 Learn about conservation of energy with a skater dude! Build tracks, ramps and jumps for the skater and view the kinetic energy, potential energy and friction as he moves. You can also take the skater to different planets or even space!
 

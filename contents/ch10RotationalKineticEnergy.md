@@ -516,9 +516,9 @@ kinetic energy relative to the Earth.
 </div>
 </div>
 
-<div class="note" id="eip-216" data-label="" markdown="1">
+<div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
-PhET Exploration: My Solar System
+ My Solar System
 </div>
 Build your own system of heavenly bodies and watch the gravitational ballet.
 With this orbit simulator, you can set initial positions, velocities,

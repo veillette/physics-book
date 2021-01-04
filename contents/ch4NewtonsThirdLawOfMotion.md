@@ -237,9 +237,9 @@ necessarily the same thing).
 
 </div>
 
-<div class="note" id="eip-984" data-label="" markdown="1">
+<div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
-PhET Exploration: Gravity Force Lab
+ Gravity Force Lab
 </div>
 Visualize the gravitational force that two objects exert on each other. Change properties of the objects in
 order to  see how it changes the gravity force.

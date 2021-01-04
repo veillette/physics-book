@@ -287,9 +287,9 @@ Ask a friend or relative to swing a golf club or a tennis racquet. Take appropri
 
 </div>
 
-<div class="note" id="eip-52" data-label="" markdown="1">
+<div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
-PhET Exploration: Gravity and Orbits
+ Gravity and Orbits
 </div>
 Move the sun, earth, moon and space station to see how it affects their gravitational forces and orbital paths. Visualize the sizes and distances between different heavenly bodies, and turn off gravity to see what would happen without it!
 

@@ -229,9 +229,9 @@ cooling towers.
 |Solar cell|10|
 {: #import-auto-id1330125}
 
-<div class="note" data-label="" markdown="1">
+<div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
-PhET Exploration: Masses and Springs
+ Masses and Springs
 </div>
 A realistic mass and spring laboratory. Hang masses from springs and adjust the spring stiffness and damping. You can even slow time. Transport the lab to different planets. A chart shows the kinetic, potential, and thermal energies for each spring.
 

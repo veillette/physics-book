@@ -181,9 +181,9 @@ Find a few ice cubes which are about the same size and a smooth kitchen tabletop
 
 </div>
 
-<div class="note" id="eip-732" data-label="" markdown="1">
+<div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
-PhET Exploration: Collision Lab
+ Collision Lab
 </div>
 Investigate collisions on an air hockey table. Set up your own experiments: vary the number of discs, masses and initial conditions. Is momentum conserved? Is kinetic energy conserved? Vary the elasticity and see what happens.
 

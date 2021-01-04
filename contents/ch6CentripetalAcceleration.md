@@ -197,9 +197,9 @@ Newton proposed in his second law of motion. So a net external force is needed
 to cause a centripetal acceleration. In [Centripetal Force](../contents/ch6CentripetalForce.md),
 we will consider the forces involved in circular motion.
 
-<div class="note" id="eip-401" data-label="" markdown="1">
+<div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
-PhET Exploration: Ladybug Motion 2D
+ Ladybug Motion 2D
 </div>
 Learn about position, velocity and acceleration vectors. Move the ladybug by setting the position, velocity or acceleration,
 and see how the vectors change. Choose linear, circular or elliptical motion,
