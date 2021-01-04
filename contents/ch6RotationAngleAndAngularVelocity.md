@@ -240,7 +240,7 @@ Tie an object to the end of a string and swing it around in a horizontal circle 
 <div class="title">
  Ladybug Revolution
 </div>
-<figure markdown="1" id="eip-id1171550">
+<figure markdown="1">
 <figcaption>
 Ladybug Revolution
 </figcaption>

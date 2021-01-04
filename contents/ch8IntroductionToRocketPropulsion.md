@@ -209,7 +209,7 @@ atmosphere’s resistance.
 </div>
 Can you avoid the boulder field and land safely, just before your fuel runs out, as Neil Armstrong did in 1969? Our version of this classic video game accurately simulates the real motion of the lunar lander with the correct mass, thrust, fuel consumption rate, and lunar gravity. The real lunar lander is very hard to control.
 
-<figure markdown="1" id="eip-id1820672">
+<figure markdown="1">
 <figcaption>
 Lunar Lander
 </figcaption>

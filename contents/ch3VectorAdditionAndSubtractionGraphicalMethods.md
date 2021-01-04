@@ -361,7 +361,7 @@ Learn about position, velocity, and acceleration in the \"Arena of Pain\". Use
 the green arrow to move the ball. Add more walls to the arena to make the
 game more difficult. Try to make a goal as fast as you can.
 
-<figure markdown="1" id="eip-id1434453">
+<figure markdown="1">
 <div class="cnxsim">
 <iframe src="https://veillette.github.io/simulations/maze-game/#sim-maze-game
 " width="750" height="500"  allowfullscreen></iframe>

@@ -353,8 +353,7 @@ physics.
 </div>
 Learn how to add vectors. Drag vectors onto a graph, change their length and angle, and sum them together. The magnitude, angle, and components of each vector can be displayed in several formats.
 
-<figure markdown="1" id="eip-id3192946">
-
+<figure markdown="1">
 <iframe src="https://phet.colorado.edu/sims/html/vector-addition/latest/vector-addition_en.html" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 Vector Addition

@@ -387,7 +387,7 @@ value must also contain two significant figures.
 </div>
 Explore size estimation in one, two, and three dimensions! Multiple levels of difficulty allow for progressive skill improvement.
 
-<figure markdown="1" id="eip-id3076257">
+<figure markdown="1">
 <figcaption>
 Estimation
 </figcaption>

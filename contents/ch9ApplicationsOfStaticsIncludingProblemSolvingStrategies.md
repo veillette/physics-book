@@ -195,8 +195,7 @@ This is an experiment to perform while standing in a bus or a train. Stand facin
 </div>
 Play with objects on a teeter totter to learn about balance. Test what you\'ve learned by trying the Balance Challenge game.
 
-<figure markdown="1" id="eip-id2351543" data-label="">
-
+<figure markdown="1">
 <iframe src="https://phet.colorado.edu/sims/html/balancing-act/latest/balancing-act_en.html" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 Balancing Act

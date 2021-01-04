@@ -244,8 +244,7 @@ necessarily the same thing).
 Visualize the gravitational force that two objects exert on each other. Change properties of the objects in
 order to  see how it changes the gravity force.
 
-<figure markdown="1" id="eip-id2062883">
-
+<figure markdown="1">
 <iframe src="https://phet.colorado.edu/sims/html/gravity-force-lab/latest/gravity-force-lab_en.html" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 Gravity Force Lab
