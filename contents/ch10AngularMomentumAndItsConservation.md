@@ -117,7 +117,8 @@ Calculating the Torque Putting Angular Momentum Into a Lazy Susan
 (b) What is the final angular velocity of the lazy Susan, given that its mass is 4.00 kg and assuming its moment of inertia is that of a disk?
 
 ![The given figure shows a lazy Susan on which various eatables like cake, salad grapes, and a drink are kept. A hand is shown that applies a force F, indicated by a leftward pointing horizontal arrow. This force is perpendicular to the radius r and thus tangential to the circular lazy Susan.](../resources/Figure_11_05_01a.jpg "A partygoer exerts a torque on a lazy Susan to make it rotate.
-The equation \( \text{net} \vb{\tau} =\frac{\Delta \vb{L}}{\Delta t}  gives the relationship between torque and the angular momentum produced.")
+The equation \( \text{net} \vb{\tau} =\frac{\Delta \vb{L}}{\Delta t} \) gives 
+the relationship between torque and the angular momentum produced.")
 {: #import-auto-id1438810}
 
 **Strategy**
