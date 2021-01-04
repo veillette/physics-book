@@ -66,7 +66,7 @@ next section.
 </div>
 Investigate how torque causes an object to rotate. Discover the relationships between angular acceleration, moment of inertia, angular momentum and torque.
 
-<figure markdown="1" id="eip-id1322620">
+<figure markdown="1">
 <figcaption>
 Torque
 </figcaption>

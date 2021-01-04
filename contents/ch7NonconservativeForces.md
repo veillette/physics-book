@@ -283,8 +283,7 @@ Explore forces, energy and work as you push household objects up and down a ramp
 raise the ramp to see how the angle of inclination affects the parallel forces acting on the file
 cabinet. Graphs show forces, energy and work.
 
-<figure markdown="1" id="theRamp">
-
+<figure markdown="1">
 <iframe src="https://phet.colorado.edu/sims/cheerpj/the-ramp/latest/the-ramp.html?simulation=the-ramp" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 The Ramp

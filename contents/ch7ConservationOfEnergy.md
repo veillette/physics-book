@@ -235,8 +235,7 @@ cooling towers.
 </div>
 A realistic mass and spring laboratory. Hang masses from springs and adjust the spring stiffness and damping. You can even slow time. Transport the lab to different planets. A chart shows the kinetic, potential, and thermal energies for each spring.
 
-<figure markdown="1" id="eip-id1637749">
-
+<figure markdown="1">
 <iframe src="https://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 Masses and Springs

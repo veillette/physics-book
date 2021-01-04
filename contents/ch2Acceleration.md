@@ -511,7 +511,7 @@ If we take east to be positive, then the airplane has negative acceleration, as 
 </div>
 Learn about position, velocity, and acceleration graphs. Move the little man back and forth with the mouse and plot his motion. Set the position, velocity, or acceleration and let the simulation move the man for you.
 
-<figure markdown="1" id="eip-id2056703">
+<figure markdown="1">
 <div class="cnxsim">
 <iframe src="https://veillette.github.io/simulations/moving-man/" width="750" height="500"  allowfullscreen></iframe>
 <figcaption>

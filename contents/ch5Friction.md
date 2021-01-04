@@ -378,7 +378,7 @@ times—friction.
 </div>
 Explore the forces at work when you try to push a filing cabinet. Create an applied force and see the resulting friction force and total force acting on the cabinet. Charts show the forces, position, velocity, and acceleration vs. time. Draw a free-body diagram of all the forces (including gravitational and normal forces).
 
-<figure markdown="1" id="eip-id1733668">
+<figure markdown="1">
 <figcaption>
 Forces and Motion
 </figcaption>

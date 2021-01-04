@@ -205,7 +205,7 @@ Learn about position, velocity and acceleration vectors. Move the ladybug by set
 and see how the vectors change. Choose linear, circular or elliptical motion,
 and record and playback the motion to analyze the behavior.
 
-<figure markdown="1" id="eip-id2886860">
+<figure markdown="1">
 <figcaption>
 Ladybug Motion 2D
 </figcaption>

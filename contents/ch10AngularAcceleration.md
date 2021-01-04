@@ -308,7 +308,7 @@ moment of inertia about her spin axis.
 </div>
 Join the ladybug in an exploration of rotational motion. Rotate the merry-go-round to change its angle, or choose a constant angular velocity or angular acceleration. Explore how circular motion relates to the bug\'s x,y position, velocity, and acceleration using vectors or graphs.
 
-<figure markdown="1" id="eip-id2624753">
+<figure markdown="1">
 <figcaption>
 Ladybug Revolution
 </figcaption>

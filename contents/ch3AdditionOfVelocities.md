@@ -449,7 +449,7 @@ Because Einstein was able to clearly define how measurements are made (some invo
 </div>
 Try the new \"Ladybug Motion 2D\" simulation for the latest updated version. Learn about position, velocity, and acceleration vectors. Move the ball with the mouse or let the simulation move the ball in four types of motion (2 types of linear, simple harmonic, circle).
 
-<figure markdown="1" id="eip-id3126032">
+<figure markdown="1">
 <figcaption>
 Motion in 2D
 </figcaption>
