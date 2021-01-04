@@ -76,8 +76,7 @@ are taken to be length, mass, time, and electric current. (Note that electric
 current will not be introduced until much later in this text.) All other
 physical quantities, such as force and electric charge, can be expressed as
 algebraic combinations of length, mass, time, and current (for example, speed is
-length divided by time); these units are called **derived units**{: class="
-term" #import-auto-id1950609}.
+length divided by time); these units are called **derived units**.
 
 ### Units of Time, Length, and Mass: The Second, Meter, and Kilogram
 
@@ -590,53 +589,41 @@ physical quantity
 : a characteristic or property of an object that can be measured or calculated
 from other measurements
 
-
 units
 : a standard used for expressing and comparing measurements
-
 
 SI units
 : the international system of units that scientists in most countries have
 agreed to use; includes units such as meters, liters, and grams
 
-
 English units
 : system of measurement used in the United States; includes units of measurement
 such as feet, gallons, and pounds
-
 
 fundamental units
 : units that can only be expressed relative to the procedure used to measure
 them
 
-
 derived units
 : units that can be calculated using algebraic combinations of the fundamental
 units
 
-
 second
 : the SI unit for time, abbreviated (s)
-
 
 meter
 : the SI unit for length, abbreviated (m)
 
-
 kilogram
 : the SI unit for mass, abbreviated (kg)
-
 
 metric system
 : a system in which values can be calculated in factors of 10
 
-
 order of magnitude
 : refers to the size of a quantity as it relates to a power of 10
 
-
 conversion factor
 : a ratio expressing how many of one unit are equal to another unit
-
 
 </div>

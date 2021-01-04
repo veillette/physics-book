@@ -3,7 +3,6 @@ title: "Conservation of Energy"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Explain the law of the conservation of energy.
 * Describe some of the many forms of energy.
@@ -355,29 +354,23 @@ law of conservation of energy
 change in form or be transferred from one system to another, but the total
 remains the same
 
-
 electrical energy
 : the energy carried by a flow of charge
-
 
 chemical energy
 : the energy in a substance stored in the bonds between atoms and molecules that
 can be released in a chemical reaction
 
-
 radiant energy
 : the energy carried by electromagnetic waves
-
 
 nuclear energy
 : energy released by changes within atomic nuclei, such as the fusion of two
 light nuclei or the fission of a heavy nucleus
 
-
 thermal energy
 : the energy within an object due to the random motion of its atoms and
 molecules that accounts for the object\'s temperature
-
 
 efficiency
 : a measure of the effectiveness of the input of energy to do work; useful

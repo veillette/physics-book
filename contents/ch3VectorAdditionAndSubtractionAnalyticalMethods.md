@@ -3,7 +3,6 @@ title: "Vector Addition and Subtraction: Analytical Methods"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Understand the rules of vector addition and subtraction using analytical methods.
 * Apply analytical methods to determine vertical and horizontal component vectors.

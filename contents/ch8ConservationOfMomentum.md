@@ -3,7 +3,6 @@ title: "Conservation of Momentum"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Describe the principle of conservation of momentum.
 * Derive an expression for the conservation of momentum.
@@ -403,13 +402,10 @@ conservation of momentum principle
 : when the net external force is zero, the total momentum of the system is
 conserved or constant
 
-
 isolated system
 : a system in which the net external force is zero
 
-
 quark
 : fundamental constituent of matter and an elementary particle
-
 
 </div>

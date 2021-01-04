@@ -3,7 +3,6 @@ title: "Kinematics in Two Dimensions: An Introduction"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Observe that motion in two dimensions consists of horizontal and vertical components.
 * Understand the independence of horizontal and vertical vectors in two-dimensional motion.

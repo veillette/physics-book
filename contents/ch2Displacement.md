@@ -3,7 +3,6 @@ title: "Displacement"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Define position, displacement, distance, and distance traveled.
 * Explain the relationship between position and displacement.

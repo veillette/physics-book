@@ -3,7 +3,6 @@ title: "Nonconservative Forces"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Define nonconservative forces and explain how they affect mechanical energy.
 * Show how the principle of conservation of energy can be applied by treating the conservative forces in terms of their potential energies and any nonconservative forces in terms of the work they do.
@@ -344,10 +343,8 @@ nonconservative force
 : a force whose work depends on the path followed between the given initial and
 final configurations
 
-
 friction
 : the force between surfaces that opposes one sliding on the other; friction
 changes mechanical energy into thermal energy
-
 
 </div>

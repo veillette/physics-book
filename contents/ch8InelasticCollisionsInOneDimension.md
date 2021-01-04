@@ -3,7 +3,6 @@ title: "Inelastic Collisions in One Dimension"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Define inelastic collision.
 * Explain perfectly inelastic collision.
@@ -187,7 +186,6 @@ floor), $$ c $$ can be shown to be $$ c=\sqrt{\frac{h}{H}} $$ where $$ h
 $$  is the height to which the ball bounces and $$ H $$ is the height from which the ball is dropped.
 Determine $$ c $$ for the cases in Part 1 and for the case of a tennis ball bouncing off
 a concrete or wooden floor ( $$ c=0.85 $$ for new tennis balls used on a tennis court).
-
 
 </div>
 
@@ -575,9 +573,7 @@ ATP into kinetic energy.
 inelastic collision
 : a collision in which internal kinetic energy is not conserved
 
-
 perfectly inelastic collision
 : a collision in which the colliding objects stick together
-
 
 </div>

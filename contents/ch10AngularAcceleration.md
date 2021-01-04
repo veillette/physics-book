@@ -3,7 +3,6 @@ title: "Angular Acceleration"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Describe uniform circular motion.
 * Explain non-uniform circular motion.
@@ -56,8 +55,8 @@ In equation form, angular acceleration is expressed as follows:
  $$ \alpha =\frac{ \Delta \omega }{\Delta t}, $$
 </div>
 
-where $$ \Delta \omega $$ is the **change in angular velocity**{: class="
-term" #import-auto-id3406201} and $$ \Delta t $$ is the change in time. The
+where $$ \Delta \omega $$ is the **change in angular velocity** and $$ \Delta t $$ 
+is the change in time. The
 units of angular acceleration are $$ \left(\rads \right)\text{/s} $$,
 or $$ \radss $$. If $$ \omega $$
 increases, then $$ \alpha $$ is positive. If $$ \omega $$ decreases, then $$
@@ -301,7 +300,6 @@ moment of inertia about her spin axis.
 </div>
 </div>
 
-
 <div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
  Ladybug Revolution
@@ -453,14 +451,11 @@ velocity if the ball starts from rest and the acceleration lasts 2.00 s?
 angular acceleration
 : the rate of change of angular velocity with time
 
-
 change in angular velocity
 : the difference between final and initial values of angular velocity
-
 
 tangential acceleration
 : the acceleration in a direction tangent to the circle at the point of interest
 in circular motion
-
 
 </div>

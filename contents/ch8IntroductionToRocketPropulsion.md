@@ -3,7 +3,6 @@ title: "Introduction to Rocket Propulsion"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * State Newton’s third law of motion.
 * Explain the principle involved in propulsion of rockets and jet engines.
@@ -230,7 +229,6 @@ html" width="600" height="450"  allowfullscreen></iframe>
        acceleration.
     2. The faster the rocket burns its fuel, the greater its acceleration.
     3. The smaller the rocket\'s mass, the greater the acceleration.
- 
 
 ### Conceptual Questions
 

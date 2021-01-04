@@ -3,7 +3,6 @@ title: "Approximation"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Make reasonable approximations based on given data.
 
@@ -263,6 +262,5 @@ Assuming one nerve impulse must end before another can begin, what is the maximu
 
 approximation
 : an estimated value based on prior experience and reasoning
-
 
 </div>

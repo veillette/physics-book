@@ -3,7 +3,6 @@ title: "Further Applications of Newton’s Laws of Motion"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Apply problem-solving techniques to solve for quantities in more complex systems of forces.
 * Integrate concepts from kinematics to solve problems using Newton\'s laws of motion.
@@ -359,7 +358,6 @@ problem:
 Step 1. *Identify which physical principles are involved*. Listing the givens
 and the quantities to be calculated will allow you to identify the principles
 involved.
-
 
 Step 2. *Solve the problem using strategies outlined in the text*. If these are
 available for the specific topic, you should refer to them. You should also

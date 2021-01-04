@@ -3,7 +3,6 @@ title: "Work: The Scientific Definition"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Explain how an object must be displaced for a force on it to do work.
 * Explain how relative directions of force and displacement determine whether the work done is positive, negative, or zero.

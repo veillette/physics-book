@@ -3,7 +3,6 @@ title: "The Second Condition for Equilibrium"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * State the second condition that is necessary to achieve equilibrium.
 * Explain torque and the factors on which it depends.
@@ -458,18 +457,14 @@ F_{\text{p}}& =& \left(26.0 \kg +32.0 \kg +12.0 \kg \right)\left(9.80 \mss \righ
 torque
 : turning or twisting effectiveness of a force
 
-
 perpendicular lever arm
 : the shortest distance from the pivot point to the line along which $$
 \vb{F} $$ lies
 
-
 SI units of torque
 : newton times meters, usually written as N·m
 
-
 center of gravity
 : the point where the total weight of the body is assumed to be concentrated
-
 
 </div>

@@ -3,7 +3,6 @@ title: "Centripetal Acceleration"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Establish the expression for centripetal acceleration.
 * Explain the centrifuge.
@@ -489,9 +488,7 @@ top, ignoring friction.
 centripetal acceleration
 : the acceleration of an object moving in a circle, directed toward the center
 
-
 ultracentrifuge
 : a centrifuge optimized for spinning a rotor at very high speeds
-
 
 </div>

@@ -73,8 +73,7 @@ mass, the equation for Newton’s universal law of gravitation is
 </div>
 
 where $$ F $$ is the magnitude of the gravitational force and $$ G $$ is a
-proportionality factor called the **gravitational constant**{: class="
-term" #import-auto-id3407485}. $$ G $$ is a universal gravitational
+proportionality factor called the **gravitational constant**. $$ G $$ is a universal gravitational
 constant—that is, it is thought to be the same everywhere in the universe. It
 has been measured experimentally to be
 

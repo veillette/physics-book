@@ -3,7 +3,6 @@ title: "Conservative Forces and Potential Energy"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Define conservative force, potential energy, and mechanical energy.
 * Explain the potential energy of a spring in terms of its compression when Hooke’s law applies.
@@ -16,8 +15,7 @@ layout: page
 Work is done by a force, and some forces, such as weight, have special
 characteristics. A **conservative force** is one, like the gravitational force, for which work
 done by or against it depends only on the starting and ending points of a motion
-and not on the path taken. We can define a **potential energy**{: class="
-term" #import-auto-id2177452} $$ \left(\PE\right)
+and not on the path taken. We can define a **potential energy** $$ \left(\PE\right)
 $$ for any conservative force, just as we did for the gravitational force. For
 example, when you wind up a toy, an egg timer, or an old-fashioned watch, you do
 work against its spring and store energy in it. (We treat these springs as
@@ -66,8 +64,7 @@ x=\frac{1}{2}k x^{2} $$. Alternatively, we noted
 in [Kinetic Energy and the Work-Energy Theorem](../contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md) that the area
 under a graph of $$ F $$ vs. $$ x $$ is the work done by the force.
 In [[Figure]](#fs-id1593673)(c) we see that this area is also $$ \frac{1}{2}k
-x^{2} $$. We therefore define the **potential energy of a spring**{: class="
-term"}, $$ \PE_{s} $$, to be
+x^{2} $$. We therefore define the **potential energy of a spring**, $$ \PE_{s} $$, to be
 
 <div class="equation">
  $$ \PE_{\s}=\frac{1}{2} k x^{2} , $$
@@ -373,10 +370,8 @@ conservative force
 : a force that does the same work for any given initial and final configuration,
 regardless of the path followed
 
-
 potential energy
 : energy due to position, shape, or configuration
-
 
 potential energy of a spring
 : the stored energy of a spring as a function of its displacement; when Hooke’s
@@ -384,14 +379,11 @@ law applies, it is given by the expression $$ \frac{1}{2}k x^{2} $$ where $$ x
 $$ is the distance the spring is compressed or extended and $$ k $$ is the
 spring constant
 
-
 conservation of mechanical energy
 : the rule that the sum of the kinetic energies and potential energies remains
 constant if only conservative forces act on and within a system
 
-
 mechanical energy
 : the sum of kinetic energy and potential energy
-
 
 </div>

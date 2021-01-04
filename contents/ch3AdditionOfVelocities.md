@@ -301,8 +301,8 @@ Albert Einstein (1879–1955), the greatest physicist of the 20th century.
 Einstein revolutionized our view of nature with his **modern** theory of
 relativity, which we shall study in later chapters. The relative velocities in
 this section are actually aspects of classical relativity, first discussed
-correctly by Galileo and Isaac Newton. **Classical relativity**{: class="
-term" #import-auto-id1447237} is limited to situations where speeds are less
+correctly by Galileo and Isaac Newton. **Classical relativity** is 
+limited to situations where speeds are less
 than about 1% of the speed of light—that is, less
 than $$ 3 000 \text{km/s} $$. Most things we encounter in daily life move slower
 than this speed.
@@ -800,15 +800,12 @@ classical relativity
 : the study of relative velocities in situations where speeds are less than
 about 1% of the speed of light—that is, less than 3000 km/s
 
-
 relative velocity
 : the velocity of an object as observed from a particular reference frame
-
 
 relativity
 : the study of how different observers moving relative to each other measure the
 same phenomenon
-
 
 velocity
 : speed in a given direction

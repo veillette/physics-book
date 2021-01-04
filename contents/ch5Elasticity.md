@@ -3,7 +3,6 @@ title: "Elasticity: Stress and Strain"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * State Hooke’s law.
 * Explain Hooke’s law using graphical representation between deformation and applied force.
@@ -44,9 +43,8 @@ relationship between the extension $$ \Delta L $$ of a spring or of a human
 bone. For metals or springs, the straight line region in which Hooke’s law
 pertains is much larger. Bones are brittle and the elastic region is small and
 the fracture abrupt. Eventually a large enough stress to the material will cause
-it to break or fracture. **Tensile strength**{: class="
-term"} is the breaking stress that will cause permanent deformation or fracture
-of a material.
+it to break or fracture. **Tensile strength** is the breaking stress that will
+cause permanent deformation or fracture of a material.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -930,7 +928,6 @@ Clearly, the guy wire must be in the opposite direction of the bend.)
 deformation
 : change in shape due to the application of force
 
-
 Hooke’s law
 : proportional relationship between the force $$ F $$ on a material and the
 deformation $$ \Delta L $$ it causes, $$ F=k\Delta L $$
@@ -939,14 +936,11 @@ tensile strength
 : the breaking stress that will cause permanent deformation or fraction of a
 material
 
-
 stress
 : ratio of force to area
 
-
 strain
 : ratio of change in length to original length
-
 
 shear deformation
 : deformation perpendicular to the original length of an object
