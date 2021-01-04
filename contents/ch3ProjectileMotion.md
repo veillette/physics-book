@@ -1064,7 +1064,7 @@ Consider a ball tossed over a fence. Construct a problem in which you calculate 
 air resistance
 : a frictional force that slows the motion of objects as they travel through the
 air; when solving basic physics problems, air resistance is assumed to be zero
-{: #import-auto-id2275857}
+
 
 kinematics
 : the study of motion without regard to mass or force
@@ -1075,7 +1075,7 @@ motion
 projectile
 : an object that travels through the air and experiences only acceleration due
 to gravity
-{: #import-auto-id1459204}
+
 
 projectile motion
 : the motion of an object that is subject only to the acceleration of gravity
@@ -1083,9 +1083,9 @@ projectile motion
 
 range
 : the maximum horizontal distance that a projectile travels
-{: #import-auto-id2257218}
+
 
 trajectory
 : the path of a projectile through the air
-{: #import-auto-id2852095}
+
 </div>

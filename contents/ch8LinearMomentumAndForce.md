@@ -388,11 +388,11 @@ Calculate its linear momentum.
 
 linear momentum
 : the product of mass and velocity
-{: #import-auto-id1499242}
+
 
 second law of motion
 : physical law that states that the net external force equals the change in
 momentum of a system divided by the time over which it changes
-{: #import-auto-id1499250}
+
 
 </div>

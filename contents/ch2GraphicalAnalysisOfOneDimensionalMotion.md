@@ -660,16 +660,16 @@ plotted along the $$ x $$ -axis
 
 dependent variable
 : the variable that is being measured; usually plotted along the $$ y $$ -axis
-{: #import-auto-id1845390}
+
 
 slope
 : the difference in $$ y $$ -value (the rise) divided by the difference in
 $$ x $$-value (the run) of two points on a straight line
-{: #import-auto-id3600469}
+
 
 y-intercept
 : the $$ y\text{-} $$ value when $$ x = 0 $$,
 or when the graph crosses the $$ y $$ -axis
-{: #import-auto-id4021637}
+
 
 </div>

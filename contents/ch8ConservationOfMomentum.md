@@ -402,14 +402,14 @@ A 1.80-kg falcon catches a 0.650-kg dove from behind in midair. What is their ve
 conservation of momentum principle
 : when the net external force is zero, the total momentum of the system is
 conserved or constant
-{: #import-auto-id1705898}
+
 
 isolated system
 : a system in which the net external force is zero
-{: #import-auto-id1502421}
+
 
 quark
 : fundamental constituent of matter and an elementary particle
-{: #import-auto-id1771067}
+
 
 </div>

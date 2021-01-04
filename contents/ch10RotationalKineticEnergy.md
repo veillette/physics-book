@@ -777,11 +777,11 @@ work-energy theorem
 : if one or more external forces act upon a rigid object, causing its kinetic
 energy to change from $$ \KE_{1} $$ to $$ \KE_{2} $$, then the
 work $$ W $$ done by the net force is equal to the change in kinetic energy
-{: #import-auto-id3007462}
+
 
 rotational kinetic energy
 : the kinetic energy due to the rotation of an object. This is part of its total
 kinetic energy
-{: #import-auto-id1771451}
+
 
 </div>

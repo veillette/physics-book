@@ -254,6 +254,6 @@ Strategy for static equilibrium described above.
 static equilibrium
 : equilibrium in which the acceleration of the system is zero and accelerated
 rotation does not occur
-{: #import-auto-id3581184}
+
 
 </div>

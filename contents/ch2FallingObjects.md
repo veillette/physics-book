@@ -721,9 +721,9 @@ assuming the floor is absolutely rigid?
 
 free-fall
 : the state of movement that results from gravitational force only
-{: #import-auto-id2801708}
+
 
 acceleration due to gravity
 : acceleration of an object as a result of gravity
-{: #import-auto-id2801710}
+
 </div>

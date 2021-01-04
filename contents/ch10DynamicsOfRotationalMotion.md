@@ -573,18 +573,18 @@ spin rate (angular velocity).
 
 torque
 : the turning effectiveness of a force
-{: #import-auto-id1195741}
+
 
 rotational inertia
 : resistance to change of rotation. The more rotational inertia an object has,
 the harder it is to rotate
-{: #import-auto-id1868981}
+
 
 moment of inertia
 : mass times the square of perpendicular distance from the rotation axis; for a
 point mass, it is $$ I=m r^{2} $$ and, because any object can be built up from a
 collection of point masses, this relationship is the basis for all other moments
 of inertia
-{: #import-auto-id2384482}
+
 
 </div>

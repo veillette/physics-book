@@ -452,15 +452,15 @@ velocity if the ball starts from rest and the acceleration lasts 2.00 s?
 
 angular acceleration
 : the rate of change of angular velocity with time
-{: #import-auto-id2410236}
+
 
 change in angular velocity
 : the difference between final and initial values of angular velocity
-{: #import-auto-id3224451}
+
 
 tangential acceleration
 : the acceleration in a direction tangent to the circle at the point of interest
 in circular motion
-{: #import-auto-id3258416}
+
 
 </div>

@@ -479,17 +479,17 @@ energy needs $$ \left(6.3\times 10^{19} \J  \right) $$ ?
 ### Glossary
 {: class="glossary-title"}
 
-{: #import-auto-id1451344} power
+power
 : the rate at which work is done
-{: #import-auto-id1402978}
 
-{: #import-auto-id1172193} watt
+
+watt
 : (W) SI unit of power, with $$ 1 \text{W}=1 \text{J/s} $$
-{: #import-auto-id1290297}
 
-{: #import-auto-id2181504} horsepower
+
+horsepower
 : an older non-SI unit of power, with $$ 1 \text{hp}=746 \text{W} $$
-{: #import-auto-id2097816}
+
 
 kilowatt-hour
 : $$ \left(\text{kW}\cdot h\right) $$ unit used primarily for electrical energy

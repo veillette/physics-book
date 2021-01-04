@@ -705,7 +705,7 @@ Repeat [[Figure]](#fs-id1531145) with the contestant pulling the block of ice wi
 friction
 : a force that opposes relative motion or attempts at motion between systems in
 contact
-{: #import-auto-id1165298863624}
+
 
 kinetic friction
 : a force that opposes the motion of two systems that are in contact and moving
@@ -719,12 +719,12 @@ moving relative to one another
 magnitude of static friction
 : $$ f_{\s}\le \mu_{\s}\mag{N} $$, where $$ \mu_{\s} $$ is the coefficient of
 static friction and $$ \mag{N} $$ is the magnitude of the normal force
-{: #import-auto-id1165298540975}
+
 
 magnitude of kinetic friction
 : $$ f_{\text{k}}=\mu_{\text{k} }\mag{N} $$, where $$ \mu_{\text{k} } $$ is the
 coefficient of kinetic
 friction
-{: #import-auto-id1165298541210}
+
 
 </div>

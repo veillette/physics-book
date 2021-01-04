@@ -405,12 +405,12 @@ support his weight as well as that to accelerate him.)
 ### Glossary
 {: class="glossary-title"}
 
-{: #import-auto-id1538511} renewable forms of energy
+renewable forms of energy
 : those sources that cannot be used up, such as water, wind, solar, and biomass
-{: #import-auto-id1411721}
 
-{: #import-auto-id1525034} fossil fuels
+
+fossil fuels
 : oil, natural gas, and coal
-{: #import-auto-id1755408}
+
 
 </div>

@@ -505,11 +505,11 @@ direction)?
 change in momentum
 : the difference between the final and initial momentum; the mass times the
 change in velocity
-{: #import-auto-id1320719}
+
 
 impulse
 : the average net external force times the time it acts; equal to the change in
 momentum
-{: #import-auto-id1251895}
+
 
 </div>

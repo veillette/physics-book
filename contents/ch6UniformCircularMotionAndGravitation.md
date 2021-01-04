@@ -40,6 +40,6 @@ ice.
 
 uniform circular motion
 : the motion of an object in a circular path at constant speed
-{: #import-auto-id2679165}
+
 
 </div>

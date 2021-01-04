@@ -205,20 +205,20 @@ A non-rotating frame of reference placed at the center of the Sun is very nearly
 
 fictitious force
 : a force having no physical origin
-{: #import-auto-id2680677}
+
 
 centrifugal force
 : a fictitious force that tends to throw an object off when the object is
 rotating in a non-inertial frame of reference
-{: #import-auto-id3230529}
+
 
 Coriolis force
 : the fictitious force causing the apparent deflection of moving objects when
 viewed in a rotating frame of reference
-{: #import-auto-id2453646}
+
 
 non-inertial frame of reference
 : an accelerated frame of reference
-{: #import-auto-id1816406}
+
 
 </div>

@@ -521,6 +521,6 @@ away?
 
 point masses
 : structureless particles with no rotation or spin
-{: #import-auto-id3150716}
+
 
 </div>

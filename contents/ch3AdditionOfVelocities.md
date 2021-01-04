@@ -800,16 +800,16 @@ Consider an airplane headed for a runway in a cross wind. Construct a problem in
 classical relativity
 : the study of relative velocities in situations where speeds are less than
 about 1% of the speed of light—that is, less than 3000 km/s
-{: #import-auto-id1938465}
+
 
 relative velocity
 : the velocity of an object as observed from a particular reference frame
-{: #import-auto-id1870074}
+
 
 relativity
 : the study of how different observers moving relative to each other measure the
 same phenomenon
-{: #import-auto-id2171931}
+
 
 velocity
 : speed in a given direction

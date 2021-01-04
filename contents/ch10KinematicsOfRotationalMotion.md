@@ -508,6 +508,6 @@ c) 21.0 m/s
 
 kinematics of rotational motion
 : describes the relationships among rotation angle, angular velocity, angular acceleration, and time
-{: #import-auto-id1380255}
+
 
 </div>
