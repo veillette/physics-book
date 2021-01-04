@@ -293,16 +293,16 @@ One can study the conversion of gravitational potential energy into kinetic ener
 
 ### Section Summary
 
-* {: #import-auto-id2742012} Work done against gravity in lifting an object
+* Work done against gravity in lifting an object
   becomes potential energy of the object-Earth system.
-* {: #import-auto-id2449367} The change in gravitational potential energy, $$
+* The change in gravitational potential energy, $$
  \Delta \PE_{\text{g}} $$, is $$ \Delta \PE_{g}=mgh $$, with $$ h
  $$ being the increase in height and $$ g $$ the acceleration due to gravity.
-* {: #import-auto-id2746176} The gravitational potential energy of an object
+* The gravitational potential energy of an object
   near Earth’s surface is due to its position in the mass-Earth system. Only
   differences in gravitational potential energy, $$ \Delta \PE_{g} $$, have
   physical significance.
-* {: #import-auto-id1527618} As an object descends without friction, its
+* As an object descends without friction, its
   gravitational potential energy changes into kinetic energy corresponding to
   increasing speed, so that $$ \Delta \KE=-\Delta \PE_{\text{g}} $$.
 

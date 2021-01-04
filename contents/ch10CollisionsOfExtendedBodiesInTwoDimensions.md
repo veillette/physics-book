@@ -229,11 +229,11 @@ No, energy is always scalar whether motion is involved or not. No form of energy
 
 ### Section Summary
 
-* {: #import-auto-id3089539} Angular momentum $$ L $$ is analogous to linear
+* Angular momentum $$ L $$ is analogous to linear
   momentum and is given by $$ L=I \omega $$.
 * Angular momentum is changed by torque, following the relationship $$
  \text{net}\tau =\frac{ \Delta L}{\Delta t}. $$
-* {: #import-auto-id2603851} Angular momentum is conserved if the net torque is
+* Angular momentum is conserved if the net torque is
   zero $$ L=\text{constant}\left( \text{net}\tau =0 \right) $$ or
  $$ L=L^{\prime} \left( \text{net}\tau = 0 \right) $$. This equation is known as
   the law of

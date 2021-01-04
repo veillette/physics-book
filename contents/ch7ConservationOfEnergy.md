@@ -242,20 +242,20 @@ Masses and Springs
 
 ### Section Summary
 
-* {: #import-auto-id1537867} The law of conservation of energy states that the
+* The law of conservation of energy states that the
   total energy is constant in any process. Energy may change in form or be
   transferred from one system to another, but the total remains the same.
-* {: #import-auto-id1839690} When all forms of energy are considered,
+* When all forms of energy are considered,
   conservation of energy is written in equation form as $$ \KE_
   {i}+\PE_{i}+W_{\text{nc}}+\text{OE}_{i}=\KE_
   {f}+\PE_{f}+\text{OE}_{f} $$, where $$ \text{OE} $$ is all **other
   forms of energy** besides mechanical energy.
-* {: #import-auto-id1317294} Commonly encountered forms of energy include
+* Commonly encountered forms of energy include
   electric energy, chemical energy, radiant energy, nuclear energy, and thermal
   energy.
-* {: #import-auto-id1787512} Energy is often utilized to do work, but it is not
+* Energy is often utilized to do work, but it is not
   possible to convert all the energy of a system to work.
-* {: #import-auto-id1628394} The efficiency $$ \text{Eff} $$ of a machine or
+* The efficiency $$ \text{Eff} $$ of a machine or
   human is defined to be $$ \text{Eff}=\frac{ W_{\text{out}}}{ E_{\text{in}}}
  $$, where $$ W_{\text{out}} $$ is useful work output and $$ E_{\text{in}} $$ is the energy consumed.
 

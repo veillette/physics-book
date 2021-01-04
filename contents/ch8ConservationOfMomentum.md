@@ -243,7 +243,7 @@ works so well on the large scale.
 
 ### Section Summary
 
-* {: #import-auto-id1509374} The conservation of momentum principle is written
+* The conservation of momentum principle is written
   <div class="equation" id="eip-483">
  $$ \vb{p}_{\text{tot}}=\text{constant} $$
   </div>
@@ -256,14 +256,14 @@ works so well on the large scale.
  $$ \vb{p}_{\text{tot}} $$ is the initial total momentum and $$
   {\vb{p}^{\prime} }_{\text{tot}} $$ is the total momentum some time
   later.
-* {: #import-auto-id1677107} An isolated system is defined to be one for which
+* An isolated system is defined to be one for which
   the net external force is zero $$ \left( \vb{F}_{\text{net}}=0\right). $$
-* {: #import-auto-id1788788} During projectile motion and where air resistance
+* During projectile motion and where air resistance
   is negligible, momentum is conserved in the horizontal direction because
   horizontal forces are zero.
-* {: #import-auto-id1179529} Conservation of momentum applies only when the net
+* Conservation of momentum applies only when the net
   external force is zero.
-* {: #import-auto-id1251868} The conservation of momentum principle is valid
+* The conservation of momentum principle is valid
   when considering systems of particles.
 
 ### Conceptual Questions

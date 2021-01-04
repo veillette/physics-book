@@ -294,16 +294,16 @@ The Ramp
 
 ### Section Summary
 
-* {: #import-auto-id2017406} A nonconservative force is one for which work
+* A nonconservative force is one for which work
   depends on the path.
-* {: #import-auto-id2039859} Friction is an example of a nonconservative force
+* Friction is an example of a nonconservative force
   that changes mechanical energy into thermal energy.
-* {: #import-auto-id1455144} Work $$ W_{\text{nc}} $$ done by a nonconservative
+* Work $$ W_{\text{nc}} $$ done by a nonconservative
   force changes the mechanical energy of a system. In equation form, $$ W_
   {\text{nc}}=\Delta \KE+\Delta \PE $$ or, equivalently, $$
  \KE_\text{i}+\PE_\text{i}+ W_{\text{nc}}=\KE_
   {\text{f}}+\PE_{\text{f}} $$.
-* {: #import-auto-id2011964} When both conservative and nonconservative forces
+* When both conservative and nonconservative forces
   act, energy conservation can be applied and used to calculate motion in terms
   of the known potential energies of the conservative forces and the work done
   by nonconservative forces, instead of finding the net work from the net force,

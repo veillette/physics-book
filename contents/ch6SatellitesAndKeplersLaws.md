@@ -305,7 +305,7 @@ ever more evident.
 
 ### Section Summary
 
-* {: #import-auto-id1917658} Kepler’s laws are stated for a small mass $$ m $$
+* Kepler’s laws are stated for a small mass $$ m $$
   orbiting a larger mass $$ M $$ in near-isolation. Kepler’s laws of planetary
   motion are then as follows:
 
@@ -331,7 +331,7 @@ ever more evident.
   where $$ T $$ is the period (time for one orbit) and $$ r $$ is the average
   radius of the orbit.
 
-* {: #import-auto-id2492446} The period and radius of a satellite’s orbit about
+* The period and radius of a satellite’s orbit about
   a larger body $$ M $$ are related by
   <div class="equation" id="eip-395">
  $$ T^{2}=\frac{4\pi^{2}}{GM} r^{3} $$

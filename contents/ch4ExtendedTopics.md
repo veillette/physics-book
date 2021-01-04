@@ -228,18 +228,18 @@ physics that will be covered in much greater depth in later chapters.
 
 ### Summary
 
-* {: #import-auto-id2055006} The various types of forces that are categorized
+* The various types of forces that are categorized
   for use in many applications are all manifestations of the *four basic forces*
   in nature.
-* {: #import-auto-id1355832} The properties of these forces are summarized
+* The properties of these forces are summarized
   in [[Figure]](#import-auto-id1588108).
-* {: #import-auto-id1381444} Everything we experience directly without sensitive
+* Everything we experience directly without sensitive
   instruments is due to either electromagnetic forces or gravitational forces.
   The nuclear forces are responsible for the submicroscopic structure of matter,
   but they are not directly sensed because of their short ranges. Attempts are
   being made to show all four forces are different manifestations of a single
   unified force.
-* {: #import-auto-id3191620} A force field surrounds an object creating a force
+* A force field surrounds an object creating a force
   and is the carrier of that force.
 
 ### Conceptual Questions

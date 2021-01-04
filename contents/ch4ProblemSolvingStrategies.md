@@ -107,7 +107,7 @@ solving for force and end up with units of m/s, then you have made a mistake.
 
 ### Section Summary
 
-* {: #import-auto-id1655645} To solve problems involving Newton’s laws of
+* To solve problems involving Newton’s laws of
   motion, follow the procedure described:
     1. {: #import-auto-id1435944} Draw a sketch of the problem.
     2. {: #import-auto-id1304011} Identify known and unknown quantities, and

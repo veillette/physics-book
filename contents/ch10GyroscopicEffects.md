@@ -104,18 +104,18 @@ No, energy is always a scalar whether motion is involved or not. No form of ener
 
 ### Section Summary
 
-* {: #import-auto-id1350863} Torque is perpendicular to the plane formed by $$ r
+* Torque is perpendicular to the plane formed by $$ r
  $$ and $$ \vb{F} $$ and is the direction your right thumb would
   point if you curled the fingers of your right hand in the direction of $$
   \vb{F} $$. The direction of the torque is thus the same as that of
   the angular momentum it produces.
-* {: #import-auto-id2682421} The gyroscope precesses around a vertical axis,
+* The gyroscope precesses around a vertical axis,
   since the torque is always horizontal and perpendicular to $$
   \vb{L} $$. If the gyroscope is not spinning, it acquires angular
   momentum in the direction of the torque ( $$ \vb{L}=\Delta \vb{L} $$),
   and it rotates about a horizontal axis, falling over just as we would
   expect.
-* {: #import-auto-id3076022} Earth itself acts like a gigantic gyroscope. Its
+* Earth itself acts like a gigantic gyroscope. Its
   angular momentum is along its axis and points at Polaris, the North Star.
 
 ### Conceptual Questions

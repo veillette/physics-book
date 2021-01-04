@@ -76,12 +76,12 @@ allowfullscreen></iframe>
 
 ### Section Summary
 
-* {: #import-auto-id1164400874565} Statics is the study of forces in
+* Statics is the study of forces in
   equilibrium.
-* {: #import-auto-id1164400874568} Two conditions must be met to achieve
+* Two conditions must be met to achieve
   equilibrium, which is defined to be motion without linear or rotational
   acceleration.
-* {: #import-auto-id1164400866432} The first condition necessary to achieve
+* The first condition necessary to achieve
   equilibrium is that the net external force on the system must be zero, so that
  $$ \text{net}\vb{F}=0 $$.
 

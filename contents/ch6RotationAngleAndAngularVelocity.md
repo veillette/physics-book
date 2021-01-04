@@ -251,7 +251,7 @@ Join the ladybug in an exploration of rotational motion. Rotate the merry-go-rou
 
 ### Section Summary
 
-* {: #import-auto-id2603294} Uniform circular motion is motion in a circle at
+* Uniform circular motion is motion in a circle at
   constant speed. The rotation angle $$ \Delta\theta $$ is defined as the ratio
   of the arc length to the radius of curvature:
   <div class="equation" id="eip-213">
@@ -266,9 +266,9 @@ Join the ladybug in an exploration of rotational motion. Rotate the merry-go-rou
  $$ 2\pi \text{rad}=360^\circ= 1 \text{ revolution} . $$
   </div>
 
-* {: #import-auto-id2384053} The conversion between radians and degrees is $$
+* The conversion between radians and degrees is $$
   1\text{ rad}=57.3^\circ $$.
-* {: #import-auto-id2442213} Angular velocity $$ \omega $$ is the rate of change
+* Angular velocity $$ \omega $$ is the rate of change
   of an angle,
   <div class="equation" id="eip-969">
  $$ \omega =\frac{ \Delta\theta }{\Delta t }, $$

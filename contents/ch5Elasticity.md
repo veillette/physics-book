@@ -588,7 +588,7 @@ Hooke's Law
 
 ### Section Summary
 
-* {: #import-auto-id1165298476009} Hooke’s law is given by
+* Hooke’s law is given by
   <div class="equation" id="eip-149">
  $$ F=k\Delta L, $$
   </div>
@@ -606,16 +606,16 @@ Hooke's Law
   where $$ Y $$ is *Young’s modulus*, which depends on the substance,
  $$ A $$ is the cross-sectional area, and $$ L_{0} $$ is the original length.
 
-* {: #import-auto-id1165298686194} The ratio of force to area, $$ \frac{F}{A}
+* The ratio of force to area, $$ \frac{F}{A}
  $$, is defined as *stress*, measured in $$\text{N/m}^2$$.
-* {: #import-auto-id1165298726978} The ratio of the change in length to length,
+* The ratio of the change in length to length,
  $$ \frac{ \Delta L}{ L_{0}} $$, is defined as *strain* (a unitless quantity).
   In other words,
   <div class="equation" id="eip-98">
  $$ \text{stress}=Y \times \text{strain}. $$
   </div>
 
-* {: #import-auto-id1165298586473} The expression for shear deformation is
+* The expression for shear deformation is
   <div class="equation" id="eip-19">
  $$ \Delta x=\frac{1}{S}\frac{F}{A} L_{0}, $$
   </div>
@@ -624,7 +624,7 @@ Hooke's Law
   perpendicular to $$ L_{0} $$ and parallel to the cross-sectional
   area $$ A $$.
 
-* {: #import-auto-id1165298548492} The relationship of the change in volume to
+* The relationship of the change in volume to
   other physical quantities is given by
   <div class="equation" id="eip-492">
  $$ \Delta V=\frac{1}{B}\frac{F}{A} V_{0}, $$

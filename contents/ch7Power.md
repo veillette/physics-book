@@ -238,12 +238,12 @@ to the environment, which is no longer useful for doing work.
 
 ### Section Summary
 
-* {: #import-auto-id1359343} Power is the rate at which work is done, or in
+* Power is the rate at which work is done, or in
   equation form, for the average power $$ P $$ for work $$ W $$ done over a time
  $$ t $$, $$ P=W/t $$.
-* {: #import-auto-id2488391} The SI unit for power is the watt (W), where $$ 1
+* The SI unit for power is the watt (W), where $$ 1
   \text{W}=1 \text{J/s} $$.
-* {: #import-auto-id1201829} The power of many devices such as electric motors
+* The power of many devices such as electric motors
   is also often expressed in horsepower ( hp), where $$ 1 \text{hp}=746 \text{W} $$.
 
 ### Conceptual Questions

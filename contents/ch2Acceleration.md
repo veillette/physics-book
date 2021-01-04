@@ -522,20 +522,20 @@ Moving Man
 
 ### Section Summary
 
-* {: #import-auto-id2412645} Acceleration is the rate at which velocity changes.
+* Acceleration is the rate at which velocity changes.
   In symbols, **average acceleration** $$ \overline{a} $$ is
   <div class="equation" id="import-auto-id2412659">
  $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{ v_{f}-v_{0}}{ t_{f}-t_{0}}. $$
   </div>
 
-* {: #import-auto-id2412738} The SI unit for acceleration is $$ \mss $$.
-* {: #import-auto-id2412758} Acceleration is a vector, and thus has a both a
+* The SI unit for acceleration is $$ \mss $$.
+* Acceleration is a vector, and thus has a both a
   magnitude and direction.
-* {: #import-auto-id2412770} Acceleration can be caused by either a change in
+* Acceleration can be caused by either a change in
   the magnitude or the direction of the velocity.
-* {: #import-auto-id2412772} Instantaneous acceleration $$ a $$ is the
+* Instantaneous acceleration $$ a $$ is the
   acceleration at a specific instant in time.
-* {: #import-auto-id2412729} Deceleration is an acceleration with a direction
+* Deceleration is an acceleration with a direction
   opposite to that of the velocity.
 
 ### Conceptual Questions

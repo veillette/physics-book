@@ -197,9 +197,9 @@ Masses and Springs
 
 ### Section Summary
 
-* {: #import-auto-id1681073} An elastic collision is one that conserves internal
+* An elastic collision is one that conserves internal
   kinetic energy.
-* {: #import-auto-id1296338} Conservation of kinetic energy and momentum
+* Conservation of kinetic energy and momentum
   together allow the final velocities to be calculated in terms of initial
   velocities and masses in one dimensional two-body collisions.
 

@@ -149,19 +149,19 @@ transformation.
 
 ### Section Summary
 
-* {: #import-auto-id1911578} The relative use of different fuels to provide
+* The relative use of different fuels to provide
   energy has changed over the years, but fuel use is currently dominated by oil,
   although natural gas and solar contributions are increasing.
-* {: #import-auto-id1917503} Although non-renewable sources dominate, some
+* Although non-renewable sources dominate, some
   countries meet a sizeable percentage of their electricity needs from renewable
   resources.
-* {: #import-auto-id2114109} The United States obtains only about 10% of its
+* The United States obtains only about 10% of its
   energy from renewable sources, mostly hydroelectric power.
-* {: #import-auto-id2007732} Economic well-being is dependent upon energy use,
+* Economic well-being is dependent upon energy use,
   and in most countries higher standards of living, as measured by GDP (Gross
   Domestic Product) per capita, are matched by higher levels of energy
   consumption per capita.
-* {: #import-auto-id2076992} Even though, in accordance with the law of
+* Even though, in accordance with the law of
   conservation of energy, energy can never be created or destroyed, energy that
   can be used to do work is always partly converted to less useful forms, such
   as waste heat to the environment, in all of our uses of energy for practical

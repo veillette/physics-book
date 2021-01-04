@@ -157,7 +157,7 @@ long. It is not possible for someone to accelerate at a constant rate of $$ 0.40
 
 ### Section Summary
 
-* {: #import-auto-id927917} *The six basic problem solving steps for physics
+* *The six basic problem solving steps for physics
   are:*
 
   *Step 1*. Examine the situation to determine which physical principles are

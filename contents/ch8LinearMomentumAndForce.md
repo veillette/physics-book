@@ -234,19 +234,19 @@ the strategy used in this example.
 
 ### Section Summary
 
-* {: #import-auto-id1499434} Linear momentum (**momentum** for brevity) is
+* Linear momentum (**momentum** for brevity) is
   defined as the product of a system’s mass multiplied by its velocity.
-* {: #import-auto-id1489206} In symbols, linear momentum $$ \vb{p} $$ is
+* In symbols, linear momentum $$ \vb{p} $$ is
   defined to be
   <div class="equation" id="eip-123">
  $$ \vb{p}=m\vb{v}, $$
   </div>
   where $$ m $$ is the mass of the system and $$ \vb{v} $$ is its velocity.
-* {: #import-auto-id1512300} The SI unit for momentum is $$ \kg · \ms $$.
-* {: #import-auto-id1498973} Newton’s second law of motion in terms of momentum
+* The SI unit for momentum is $$ \kg · \ms $$.
+* Newton’s second law of motion in terms of momentum
   states that the net external force equals the change in momentum of a system
   divided by the time over which it changes.
-* {: #import-auto-id1498977} In symbols, Newton’s second law of motion is
+* In symbols, Newton’s second law of motion is
   defined to be
   <div class="equation" id="eip-370">
  $$ \vb{F}_{\text{net}}=\frac{ \Delta \vb{p}}{\Delta t}, $$

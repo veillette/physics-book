@@ -168,12 +168,12 @@ $$ T $$.
 
 ### Section Summary
 
-* {: #import-auto-id1238080} Simple machines are devices that can be used to
+* Simple machines are devices that can be used to
   multiply or augment a force that we apply – often at the expense of a distance
   through which we have to apply the force.
-* {: #import-auto-id2697990} The ratio of output to input forces for any simple
+* The ratio of output to input forces for any simple
   machine is called its mechanical advantage
-* {: #import-auto-id1279635} A few simple machines are the lever, nail puller,
+* A few simple machines are the lever, nail puller,
   wheelbarrow, crank, etc.
 
 ### Conceptual Questions

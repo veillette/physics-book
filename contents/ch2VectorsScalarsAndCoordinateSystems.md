@@ -84,13 +84,13 @@ Speed is a scalar quantity. It does not change at all with direction changes; th
 
 ### Section Summary
 
-* {: #import-auto-id1534176} A vector is any quantity that has magnitude and
+* A vector is any quantity that has magnitude and
   direction.
-* {: #import-auto-id1777731} A scalar is any quantity that has magnitude but no
+* A scalar is any quantity that has magnitude but no
   direction.
-* {: #import-auto-id1416292} Displacement and velocity are vectors, whereas
+* Displacement and velocity are vectors, whereas
   distance and speed are scalars.
-* {: #import-auto-id1739033} In one-dimensional motion, direction is specified
+* In one-dimensional motion, direction is specified
   by a plus or minus sign to signify left or right, up or down, and the like.
 
 ### Conceptual Questions

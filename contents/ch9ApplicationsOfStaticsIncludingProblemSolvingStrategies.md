@@ -206,7 +206,7 @@ Balancing Act
 
 ### Summary
 
-* {: #import-auto-id2581915} Statics can be applied to a variety of situations,
+* Statics can be applied to a variety of situations,
   ranging from raising a drawbridge to bad posture and back strain. We have
   discussed the problem-solving strategies specifically useful for statics.
   Statics is a special case of Newton’s laws, both the general problem-solving

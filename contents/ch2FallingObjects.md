@@ -412,21 +412,21 @@ Graphing Quadratics
 
 ### Section Summary
 
-* {: #import-auto-id1715211} An object in free-fall experiences constant
+* An object in free-fall experiences constant
   acceleration if air resistance is negligible.
-* {: #import-auto-id1715213} On Earth, all free-falling objects have an
+* On Earth, all free-falling objects have an
   acceleration due to gravity $$ g $$, which averages
   <div class="equation" id="import-auto-id3547826">
  $$ g=9.80 \mss . $$
   </div>
 
-* {: #import-auto-id2150922} Whether the acceleration $$a$$ should be taken
+* Whether the acceleration $$a$$ should be taken
   as $$ +g $$ or $$ -g $$ is determined by your choice of coordinate system. If
   you choose the upward direction as positive, $$ a=-g=-9.80 \mss $$
   is negative. In the opposite case, $$ a=+g=9.80 \mss $$ is positive.
   Since acceleration is constant, the kinematic equations above can be applied
   with the appropriate $$ +g $$ or $$ -g $$ substituted for $$ a $$.
-* {: #import-auto-id4051701} For objects in free-fall, up is normally taken as
+* For objects in free-fall, up is normally taken as
   positive for displacement, velocity, and acceleration.
 
 ### Conceptual Questions

@@ -232,12 +232,12 @@ In addition to being useful in problem solving, the equation $$ v=v_{0}+a t $$
 gives us insight into the relationships among velocity, acceleration, and time.
 From it we can see, for example, that
 
-* {: #import-auto-id2180047} final velocity depends on how large the
+* final velocity depends on how large the
   acceleration is and how long it lasts
-* {: #import-auto-id2180050} if the acceleration is zero, then the final
+* if the acceleration is zero, then the final
   velocity equals the initial velocity $$ \left(   v=v_{0}\right) $$,
   as expected (i.e., velocity is constant)
-* {: #import-auto-id2175665} if $$ a $$ is negative, then the final velocity is less than
+* if $$ a $$ is negative, then the final velocity is less than
   the initial velocity
 
 (All of these observations fit our intuition, and it is always useful to examine
@@ -351,11 +351,11 @@ dragsters can do a quarter mile in even less time than this.
 What else can we learn by examining the equation $$ x=x_{0}+v_{0}t+\frac{1}{2}a
 t^{2} ? $$ We see that:
 
-* {: #import-auto-id2166810} displacement depends on the square of the elapsed
+* displacement depends on the square of the elapsed
   time when acceleration is not zero. In [[Figure]](#fs-id1164906457202), the
   dragster covers only one fourth of the total distance in the first half of the
   elapsed time
-* {: #import-auto-id2167534} if acceleration is zero, then the initial velocity
+* if acceleration is zero, then the initial velocity
   equals average velocity ( $$ v_{0}=\overline{v} $$ ) and $$ x=x_{0}+v_{0}t+\frac{1}{2}a t^{2} $$ becomes $$ x=x_{0}+v_{0}t $$
 
 <div class="note" data-label="" markdown="1">
@@ -429,9 +429,9 @@ An examination of the equation $$ v^{2}=v_{0}^{2}+2a\left(x-x_{0}\right)
 $$ can produce further insights into the general relationships among physical
 quantities:
 
-* {: #import-auto-id1680053} The final velocity depends on how large the
+* The final velocity depends on how large the
   acceleration is and the distance over which it acts
-* {: #import-auto-id1680020} For a fixed deceleration, a car that is going twice
+* For a fixed deceleration, a car that is going twice
   as fast doesn’t simply stop in twice the distance—it takes much further to
   stop. (This is why we have reduced speed zones near schools.)
 
@@ -717,10 +717,10 @@ Rearrange to solve for $$ t $$.
 
 ### Section Summary
 
-* {: #import-auto-id2171459} To simplify calculations we take acceleration to be
+* To simplify calculations we take acceleration to be
   constant, so that $$ \overline{a}=a $$ at all times.
-* {: #import-auto-id2168260} We also take initial time to be zero.
-* {: #import-auto-id2167408} Initial position and velocity are given a subscript
+* We also take initial time to be zero.
+* Initial position and velocity are given a subscript
   0; final values have no subscript. Thus,
   <div class="equation" id="import-auto-id2168257">
  $$ \begin{array}{lll}
@@ -730,7 +730,7 @@ Rearrange to solve for $$ t $$.
  \end{array} $$
   </div>
 
-* {: #import-auto-id2175179} The following kinematic equations for motion with
+* The following kinematic equations for motion with
   constant $$ a $$ are useful:
   <div class="equation" id="import-auto-id2175197">
  $$ x=x_{0}+\overline{v}t $$
@@ -752,7 +752,7 @@ Rearrange to solve for $$ t $$.
  $$ v^{2}=v_{0}^{2}+2a\left(x-x_{0}\right) $$
   </div>
 
-* {: #import-auto-id2176131} In vertical motion, $$ y $$ is substituted for $$ x $$.
+* In vertical motion, $$ y $$ is substituted for $$ x $$.
 
 ### Problems &amp; Exercises
 

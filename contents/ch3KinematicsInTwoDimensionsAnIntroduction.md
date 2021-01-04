@@ -149,10 +149,10 @@ Ladybug Motion 2D
 
 ### Summary
 
-* {: #import-auto-id1165296313373} The shortest path between any two points is a
+* The shortest path between any two points is a
   straight line. In two dimensions, this path can be represented by a vector
   with horizontal and vertical components.
-* {: #import-auto-id1165296414067} The horizontal and vertical components of a
+* The horizontal and vertical components of a
   vector are independent of one another. Motion in the horizontal direction does
   not affect motion in the vertical direction, and vice versa.
 

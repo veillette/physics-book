@@ -309,11 +309,11 @@ you multiply by -2, the magnitude doubles but the direction changes. We can
 summarize these rules in the following way: When vector $$ \vb{A} $$ is
 multiplied by a scalar $$ c $$,
 
-* {: #import-auto-id1165298651742} the magnitude of the vector becomes the
+* the magnitude of the vector becomes the
   absolute value of $$| c A |$$,
-* {: #import-auto-id1165298881521} if $$ c $$ is positive, the direction of the
+* if $$ c $$ is positive, the direction of the
   vector does not change,
-* {: #import-auto-id1165298455414} if $$ c $$ is negative, the direction is
+* if $$ c $$ is negative, the direction is
   reversed.
 
 In our case, $$ c=3 $$ and $$ A=\mag{A}=27.5 \m $$. Vectors are multiplied by
@@ -369,7 +369,7 @@ Maze Game
 
 ### Summary
 
-* {: #import-auto-id1165296253334} The **graphical method of adding vectors**
+* The **graphical method of adding vectors**
  $$ \vb{A} $$ and $$ \vb{B} $$ involves drawing vectors on a graph and
   adding them using the head-to-tail method. The resultant vector $$ \vb{R}
  $$ is defined such that
@@ -377,20 +377,20 @@ Maze Game
   The magnitude and direction of
  $$ \vb{R} $$ are then determined with a ruler and protractor,
   respectively.
-* {: #import-auto-id1165298573640} The **graphical method of subtracting vector**
+* The **graphical method of subtracting vector**
  $$ \vb{B} $$ from $$ \vb{A} $$ involves adding the opposite of vector
  $$ \vb{B} $$, which is defined as $$ -\vb{B} $$. In this case, $$
   \vb{A}-\vb{B}=\vb{A}+\left(-\vb{B}\right)=\vb{R} $$. Then, the 
   head-to-tail method of addition is
   followed in the usual way to obtain the resultant vector $$ \vb{R} $$.
-* {: #import-auto-id1165296680072} Addition of vectors is **commutative** such that $$
+* Addition of vectors is **commutative** such that $$
   \vb{A}+\vb{B}=\vb{B}+\vb{A} $$.
-* {: #import-auto-id1165296269519} The **head-to-tail method**{: class="
+* The **head-to-tail method**{: class="
   term" #import-auto-id1165298982089} of adding vectors involves drawing the
   first vector on a graph and then placing the tail of each subsequent vector at
   the head of the previous vector. The resultant vector is then drawn from the
   tail of the first vector to the head of the final vector.
-* {: #import-auto-id1165298819524} If a vector $$ \vb{A} $$ is multiplied by
+* If a vector $$ \vb{A} $$ is multiplied by
   a scalar quantity $$ c $$, the magnitude of the product is given by $$
   \mag{cA} $$. If $$ c $$ is positive, the direction of the product points in
   the same direction as $$ \vb{A} $$; if $$ c $$ is negative, the direction
