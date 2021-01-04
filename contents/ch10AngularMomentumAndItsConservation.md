@@ -180,7 +180,7 @@ exercise for the reader), which is about right for a lazy Susan.
 Calculating the Torque in a Kick
 </div>
 The person whose leg is shown in [[Figure]](#import-auto-id1817652) kicks his leg by exerting a 2000-N force with his upper leg muscle. The effective perpendicular lever arm is 2.20 cm.
-Given the moment of inertia of the lower leg is $$ 1.25 kg\cdot \mm $$,
+Given the moment of inertia of the lower leg is $$ 1.25 \kg\cdot \mm $$,
 (a) find the angular acceleration of the leg.
 (b) Neglecting the gravitational force, what is the rotational kinetic energy of the leg after it has rotated
 through $$ 57.3^\circ $$
