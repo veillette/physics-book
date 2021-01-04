@@ -14,7 +14,7 @@ layout: page
 Our own bodies, like all living organisms, are energy conversion machines.
 Conservation of energy implies that the chemical energy stored in food is
 converted into work, thermal energy, and/or stored as chemical energy in fatty
-tissue. (See [[Figure]](#import-auto-id1509596).) The fraction going into each
+tissue. (See [Figure](#import-auto-id1509596).) The fraction going into each
 form depends both on how much we eat and on our level of physical activity. If
 we eat more than is needed to do work and stay warm, the remainder goes into
 body fat.
@@ -27,7 +27,7 @@ body fat.
 The *rate* at which the body uses food energy to sustain life and to do
 different activities is called the **metabolic rate**. The total energy conversion rate of a person *at rest*
 is called the **basal metabolic rate** (BMR) and is divided among various systems in the body,
-as shown in [[Figure]](#import-auto-id2209139). The largest fraction goes to the
+as shown in [Figure](#import-auto-id2209139). The largest fraction goes to the
 liver and spleen, with the brain coming next. Of course, during vigorous
 exercise, the energy consumption of the skeletal muscles and heart increase
 markedly. About 75% of the calories burned in a day go into these basic
@@ -51,9 +51,9 @@ greater BMR due to this last factor.
 Energy consumption is directly proportional to oxygen consumption because the
 digestive process is basically one of oxidizing food. We can measure the energy
 people use during various activities by measuring their oxygen use. (
-See [[Figure]](#import-auto-id2767879).) Approximately 20 kJ of energy are
+See [Figure](#import-auto-id2767879).) Approximately 20 kJ of energy are
 produced for each liter of oxygen consumed, independent of the type of
-food. [[Figure]](#import-auto-id1921441) shows energy and oxygen consumption
+food. [Figure](#import-auto-id1921441) shows energy and oxygen consumption
 rates (power expended) for a variety of activities.
 
 ### Power of Doing Useful Work
@@ -73,7 +73,7 @@ If a person needs more energy than they consume, such as when doing vigorous
 work, the body must draw upon the chemical energy stored in fat. So exercise can
 be helpful in losing fat. However, the amount of exercise needed to produce a
 loss in fat, or to burn off extra calories consumed that day, can be large,
-as [[Figure]](#fs-id1636481) illustrates.
+as [Figure](#fs-id1636481) illustrates.
 
 <div class="example" markdown="1">
 <div class="title">
@@ -83,7 +83,7 @@ If a person who normally requires an average of 12 000 kJ (3000 kcal) of food en
 
 **Solution**
 
-[[Figure]](#import-auto-id1921441) states that 400 W are used when cycling at a
+[Figure](#import-auto-id1921441) states that 400 W are used when cycling at a
 moderate speed. The time required to work off 1000 kJ at this rate is then
 
 <div class="equation" id="import-auto-id2091839">
@@ -129,7 +129,7 @@ assuming the energy content of fat to be 39 kJ/g.
 {: #import-auto-id1921441}
 
 All bodily functions, from thinking to lifting weights, require energy. (
-See [[Figure]](#import-auto-id1770894).) The many small muscle actions
+See [Figure](#import-auto-id1770894).) The many small muscle actions
 accompanying all quiet activity, from sleeping to head scratching, ultimately
 become thermal energy, as do less visible muscle actions by the heart, lungs,
 and digestive tract. Shivering, in fact, is an involuntary response to low body
@@ -246,7 +246,7 @@ an efficiency of 20%?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Energy that is not utilized for work or heat transfer is converted to the chemical energy of body fat containing about 39 kJ/g. How many grams of fat will you gain if you eat 10 000 kJ (about 2500 kcal) one day and do nothing but sit relaxed for 16.0 h and sleep for the other 8.00 h? Use data from [[Figure]](#import-auto-id1921441) for the energy consumption rates of these activities.
+Energy that is not utilized for work or heat transfer is converted to the chemical energy of body fat containing about 39 kJ/g. How many grams of fat will you gain if you eat 10 000 kJ (about 2500 kcal) one day and do nothing but sit relaxed for 16.0 h and sleep for the other 8.00 h? Use data from [Figure](#import-auto-id1921441) for the energy consumption rates of these activities.
 
 </div>
 <div class="solution" markdown="1">
@@ -257,14 +257,14 @@ Energy that is not utilized for work or heat transfer is converted to the chemic
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Using data from [[Figure]](#import-auto-id1921441), calculate the daily energy needs of a person who sleeps for 7.00 h, walks for 2.00 h, attends classes for 4.00 h, cycles for 2.00 h, sits relaxed for 3.00 h, and studies for 6.00 h. (Studying consumes energy at the same rate as sitting in class.)
+Using data from [Figure](#import-auto-id1921441), calculate the daily energy needs of a person who sleeps for 7.00 h, walks for 2.00 h, attends classes for 4.00 h, cycles for 2.00 h, sits relaxed for 3.00 h, and studies for 6.00 h. (Studying consumes energy at the same rate as sitting in class.)
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What is the efficiency of a subject on a treadmill who puts out work at the rate of 100 W while consuming oxygen at the rate of 2.00 L/min? (Hint: See [[Figure]](#import-auto-id1921441).)
+What is the efficiency of a subject on a treadmill who puts out work at the rate of 100 W while consuming oxygen at the rate of 2.00 L/min? (Hint: See [Figure](#import-auto-id1921441).)
 
 </div>
 <div class="solution" markdown="1">
@@ -326,8 +326,8 @@ Jogging on hard surfaces with insufficiently padded shoes produces large forces 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Kanellos Kanellopoulos flew 119 km from Crete to Santorini, Greece, on April 23, 1988, in the *Daedalus 88*, an aircraft
-powered by a bicycle-type drive mechanism (see [[Figure]](#import-auto-id2181552)). His useful power output for
-the 234-min trip was about 350 W. Using the efficiency for cycling from [[Figure]](../contents/ch7ConservationOfEnergy.md#import-auto-id1330125),
+powered by a bicycle-type drive mechanism (see [Figure](#import-auto-id2181552)). His useful power output for
+the 234-min trip was about 350 W. Using the efficiency for cycling from [Figure](../contents/ch7ConservationOfEnergy.md#import-auto-id1330125),
 calculate the food energy in kilojoules he metabolized during the flight.
 
 ![An aircraft flying in the air shown from outside, which is powered by a bicycle-type drive mechanism.](../resources/Figure_08_08_05a.jpg "The Daedalus 88 in flight. (credit: NASA photo by Beasley)")
@@ -338,7 +338,7 @@ calculate the food energy in kilojoules he metabolized during the flight.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-The swimmer shown in [[Figure]](#import-auto-id1412118) exerts an average horizontal backward force of 80.0 N with his arm during each 1.80 m long stroke.
+The swimmer shown in [Figure](#import-auto-id1412118) exerts an average horizontal backward force of 80.0 N with his arm during each 1.80 m long stroke.
 (a) What is his work output in each stroke?
 (b) Calculate the power output of his arms if he does 120 strokes per minute.
 
@@ -373,7 +373,7 @@ construct it, working 12-hour days, 330 days per year.
 is at one-fourth its height.
 (b) Only a fraction of the workers lifted blocks;
 most were involved in support services such as building ramps (
-see [[Figure]](#import-auto-id1499612)), bringing food and water, and hauling
+see [Figure](#import-auto-id1499612)), bringing food and water, and hauling
 blocks to the site. Calculate the efficiency of the workers who did the lifting,
 assuming there were 1000 of them and they consumed food energy at the rate of
 300 kcal/h. What does your answer imply about how much of their work went into

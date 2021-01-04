@@ -63,7 +63,7 @@ $$ \rho $$ is the density of the fluid.
 
 Athletes as well as car designers seek to reduce the drag force to lower their
 race times. (
-See [[Figure]](#import-auto-id1165298931800)). “Aerodynamic” shaping of an
+See [Figure](#import-auto-id1165298931800)). “Aerodynamic” shaping of an
 automobile can reduce the drag force and so increase a car’s gas mileage.
 
 ![A two-person team in a bobsled race. The bobsled has an aerodynamic design and smooth runners so it can go as fast as possible.](../resources/Figure_06_02_02a.jpg "From racing cars to bobsled racers, aerodynamic shaping is crucial to achieving top speeds. Bobsleds are designed for speed. They are shaped like a bullet with tapered fins. (credit: U.S. Army, via Wikimedia Commons) ")
@@ -71,13 +71,13 @@ automobile can reduce the drag force and so increase a car’s gas mileage.
 
 The value of the drag coefficient, $$ C $$, is determined empirically, usually
 with the use of a wind tunnel. (
-See [[Figure]](#import-auto-id1165298787035)).
+See [Figure](#import-auto-id1165298787035)).
 
 ![A model plane is can be seen being tested in a wind tunnel.](../resources/Figure_06_02_03a.jpg "NASA researchers test a model plane in a wind tunnel. (credit: NASA/Ames)")
 {: #import-auto-id1165298787035}
 
 The drag coefficient can depend upon velocity, but we will assume that it is a
-constant here. [[Figure]](#import-auto-id1165298535568) lists some typical drag
+constant here. [Figure](#import-auto-id1165298535568) lists some typical drag
 coefficients for a variety of objects. Notice that the drag coefficient is a
 dimensionless quantity. At highway speeds, over 50% of the power of a car is
 used to overcome air drag. The most fuel-efficient cruising speed is about 70–80
@@ -108,7 +108,7 @@ Australian Cathy Freeman wore a full body suit in the 2000 Sydney Olympics, and
 won the gold medal for the 400 m race. Many swimmers in the 2008 Beijing
 Olympics wore full-length body suits; it might have made a difference in 
 breaking
-many world records (See [[Figure]](#import-auto-id1165298678773)). Most elite
+many world records (See [Figure](#import-auto-id1165298678773)). Most elite
 swimmers (and cyclists) shave their body hair. Such innovations can have the
 effect of slicing away milliseconds in a race, sometimes making the difference
 between a gold and a silver medal. One consequence is that careful and precise
@@ -302,7 +302,7 @@ has influenced evolution. Fishes, dolphins, and even massive whales are
 streamlined in shape to reduce drag forces. Birds are streamlined and migratory
 species that fly large distances often have particular features such as long
 necks. Flocks of birds fly in the shape of a spear head as the flock forms a
-streamlined pattern (see [[Figure]](#import-auto-id1165298645387)). In humans,
+streamlined pattern (see [Figure](#import-auto-id1165298645387)). In humans,
 one important example of streamlining is the shape of sperm, which need to be
 efficient in their use of energy.
 
@@ -346,7 +346,7 @@ Masses and Springs
   </div>
 
   where $$ C $$ is the drag coefficient (typical values are given
-  in [[Figure]](#import-auto-id1165298535568)), $$ A $$ is the area of the
+  in [Figure](#import-auto-id1165298535568)), $$ A $$ is the area of the
   object facing the fluid, and $$ \rho $$ is the fluid density.
 * For small objects (such as a bacterium)
   moving in a denser medium (such as water), the drag force is given by Stokes’

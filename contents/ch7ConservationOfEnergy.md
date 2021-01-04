@@ -83,7 +83,7 @@ energy from the random motions is called **thermal energy**, because it is relat
 These and all other forms of energy can be converted into one another and can do
 work.
 
-[[Figure]](#import-auto-id2866785) gives the amount of energy stored, used, or
+[Figure](#import-auto-id2866785) gives the amount of energy stored, used, or
 released from various objects and in various phenomena. The range of energies
 and the variety of types and situations is impressive.
 
@@ -151,7 +151,7 @@ section.)
 
 Another example of energy conversion occurs in a solar cell. Sunlight impinging
 on a solar cell (
-see [[Figure]](#import-auto-id1626980)) produces electricity, which in turn can
+see [Figure](#import-auto-id1626980)) produces electricity, which in turn can
 be used to run an electric motor. Energy is converted from the primary source of
 solar energy into electrical energy and then into mechanical energy.
 
@@ -197,7 +197,7 @@ conversion process is defined as
  $$ \text{Efficiency}\left(\text{Eff}\right)=\frac{ \text{useful energy or work output}}{\text{total energy input}}=\frac{ W_{\text{out}}}{ E_{\text{in}}}. $$
 </div>
 
-[[Figure]](#import-auto-id1330125) lists some efficiencies of mechanical devices
+[Figure](#import-auto-id1330125) lists some efficiencies of mechanical devices
 and human activities. In a coal-fired power plant, for example, about 40% of the
 chemical energy in the coal becomes useful electrical energy. The other 60%
 transforms into other (perhaps less useful) energy forms, such as thermal
@@ -262,7 +262,7 @@ Masses and Springs
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Consider the following scenario. A car for which friction is *not* negligible accelerates from rest down a hill, running out of gasoline after a short distance. The driver lets the car coast farther down the hill, then up and over a small crest. He then coasts down that hill into a gas station, where he brakes to a stop and fills the tank with gasoline. Identify the forms of energy the car has, and how they are changed and transferred in this series of events. (See [[Figure]](#import-auto-id2100801).)
+Consider the following scenario. A car for which friction is *not* negligible accelerates from rest down a hill, running out of gasoline after a short distance. The driver lets the car coast farther down the hill, then up and over a small crest. He then coasts down that hill into a gas station, where he brakes to a stop and fills the tank with gasoline. Identify the forms of energy the car has, and how they are changed and transferred in this series of events. (See [Figure](#import-auto-id2100801).)
 
 ![A car coasting downhill, moving over a crest then again moving downhill and finally stopping at a gas station. Each of these positions is labeled with an arrow pointing downward.](../resources/Figure_08_06_02a.jpg "A car experiencing non-negligible friction coasts down a hill, over a small crest, then downhill again, and comes to a stop at a gas station.")
 {: #import-auto-id2100801}
@@ -302,7 +302,7 @@ List the energy conversions that occur when riding a bicycle.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Using values from [[Figure]](#import-auto-id2866785), how many DNA molecules could be broken by the energy carried by a single electron in the beam of an old-fashioned TV tube? (These electrons were not dangerous in themselves, but they did create dangerous x rays. Later model tube TVs had shielding that absorbed x rays before they escaped and exposed viewers.)
+Using values from [Figure](#import-auto-id2866785), how many DNA molecules could be broken by the energy carried by a single electron in the beam of an old-fashioned TV tube? (These electrons were not dangerous in themselves, but they did create dangerous x rays. Later model tube TVs had shielding that absorbed x rays before they escaped and exposed viewers.)
 
 </div>
 <div class="solution" markdown="1">
@@ -325,14 +325,14 @@ $$ v=\sqrt{2g h +{ v_{0}}^{2}}=\sqrt {2\left(9.80
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-If the energy in fusion bombs were used to supply the energy needs of the world, how many of the 9-megaton variety would be needed for a year’s supply of energy (using data from [[Figure]](#import-auto-id2866785))? This is not as far-fetched as it may sound—there are thousands of nuclear bombs, and their energy can be trapped in underground explosions and converted to electricity, as natural geothermal energy is.
+If the energy in fusion bombs were used to supply the energy needs of the world, how many of the 9-megaton variety would be needed for a year’s supply of energy (using data from [Figure](#import-auto-id2866785))? This is not as far-fetched as it may sound—there are thousands of nuclear bombs, and their energy can be trapped in underground explosions and converted to electricity, as natural geothermal energy is.
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) Use of hydrogen fusion to supply energy is a dream that may be realized in the next century. Fusion would be a relatively clean and almost limitless supply of energy, as can be seen from [[Figure]](#import-auto-id2866785). To illustrate this, calculate how many years the present energy needs of the world could be supplied by one millionth of the oceans’ hydrogen fusion energy.
+(a) Use of hydrogen fusion to supply energy is a dream that may be realized in the next century. Fusion would be a relatively clean and almost limitless supply of energy, as can be seen from [Figure](#import-auto-id2866785). To illustrate this, calculate how many years the present energy needs of the world could be supplied by one millionth of the oceans’ hydrogen fusion energy.
 (b) How does this time compare with historically significant events, such as the duration of stable economic systems?
 
 </div>

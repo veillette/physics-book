@@ -13,7 +13,7 @@ layout: page
 Angular momentum is a vector and, therefore, *has direction as well as
 magnitude*. Torque affects both the direction and the magnitude of angular
 momentum. What is the direction of the angular momentum of a rotating object
-like the disk in [[Figure]](#import-auto-id1549167)? The figure shows the
+like the disk in [Figure](#import-auto-id1549167)? The figure shows the
 **right-hand rule** used to find the
 direction of both angular momentum and angular velocity. Both $$
 \vb{L} $$ and $$ \vb{\omega} $$ are vectors—each has direction
@@ -44,21 +44,21 @@ Now, recall that torque changes angular momentum as expressed by
 
 This equation means that the direction of $$ \Delta \vb{L} $$ is the
 same as the direction of the torque $$ \vb{\tau} $$ that creates it.
-This result is illustrated in [[Figure]](#import-auto-id3122626), which shows
+This result is illustrated in [Figure](#import-auto-id3122626), which shows
 the direction of torque and the angular momentum it creates.
 
 Let us now consider a bicycle wheel with a couple of handles attached to it, as
-shown in [[Figure]](#import-auto-id3014014). (This device is popular in
+shown in [Figure](#import-auto-id3014014). (This device is popular in
 demonstrations among physicists, because it does unexpected things.) With the
 wheel rotating as shown, its angular momentum is to the woman\'s left. Suppose
 the person holding the wheel tries to rotate it as in the figure. Her natural
 expectation is that the wheel will rotate in the direction she pushes it—but
 what happens is quite different. The forces exerted create a torque that is
-horizontal toward the person, as shown in [[Figure]](#import-auto-id3014014)(a).
+horizontal toward the person, as shown in [Figure](#import-auto-id3014014)(a).
 This torque creates a change in angular momentum $$ \vb{L} $$ in the
 same direction, perpendicular to the original angular momentum $$
 \vb{L} $$, thus changing the direction of $$ \vb{L} $$ but
-not the magnitude of $$ \vb{L} $$. [[Figure]](#import-auto-id3014014)
+not the magnitude of $$ \vb{L} $$. [Figure](#import-auto-id3014014)
 shows how $$ \Delta \vb{L} $$ and $$ \vb{L} $$ add, giving
 a new angular momentum with direction that is inclined more toward the person
 than before. The axis of the wheel has thus moved *perpendicular to the forces
@@ -70,7 +70,7 @@ exerted on it*, instead of in the expected direction.
 {: #import-auto-id3014014 height="300"}
 
 This same logic explains the behavior of
-gyroscopes. [[Figure]](#import-auto-id1462916) shows the two forces acting on a
+gyroscopes. [Figure](#import-auto-id1462916) shows the two forces acting on a
 spinning gyroscope. The torque produced is perpendicular to the angular
 momentum, thus the direction of the torque is changed, but not its magnitude.
 The gyroscope *precesses* around a vertical axis, since the torque is always
@@ -141,7 +141,7 @@ Gyroscopes used in guidance systems to indicate directions in space must have an
 **Integrated Concepts**
 
 The axis of Earth makes a 23.5° angle with a direction perpendicular to the
-plane of Earth’s orbit. As shown in [[Figure]](#import-auto-id1403686), this axis
+plane of Earth’s orbit. As shown in [Figure](#import-auto-id1403686), this axis
 precesses, making one complete rotation in 25 780 y.
 
 (a) Calculate the change in angular momentum in half this time.

@@ -27,7 +27,7 @@ the immense.
 
 Sir Isaac Newton was the first scientist to precisely define the gravitational
 force, and to show that it could explain both falling bodies and astronomical
-motions. See [[Figure]](#import-auto-id2409649). But Newton was not the first to
+motions. See [Figure](#import-auto-id2409649). But Newton was not the first to
 suspect that the same force caused both our weight and the motion of planets.
 His forerunner Galileo Galilei had contended that falling bodies and planetary
 motions had the same cause. Some of Newton’s contemporaries, such as Robert
@@ -102,7 +102,7 @@ an object *mg* is the gravitational force between it and Earth. Substituting
 
 where $$ m $$ is the mass of the object, $$ M $$ is the mass of Earth, and $$ r
 $$ is the distance to the center of Earth (the distance between the centers of
-mass of the object and Earth). See [[Figure]](#import-auto-id2448812). The mass
+mass of the object and Earth). See [Figure](#import-auto-id2448812). The mass
 $$ m $$ of the object cancels, leaving an equation for $$ g $$:
 
 <div class="equation" id="eip-713">
@@ -243,7 +243,7 @@ Earth’s gravitational force causes the Moon to orbit Earth.
 Why does Earth not remain stationary as the Moon orbits it? This is because, as
 expected from Newton’s third law, if Earth exerts a force on the Moon, then the
 Moon should exert an equal and opposite force on Earth (
-see [[Figure]](#import-auto-id1955361)). We do not sense the Moon’s effect on
+see [Figure](#import-auto-id1955361)). We do not sense the Moon’s effect on
 Earth’s motion, because the Moon’s gravity moves our bodies right along with
 Earth but there are other signs on Earth that clearly show the effect of the
 Moon’s gravitational force as discussed
@@ -255,7 +255,7 @@ in [Satellites and Kepler\'s Laws: An Argument for Simplicity](../contents/ch6Sa
 ### Tides
 
 Ocean tides are one very observable result of the Moon’s gravity acting on
-Earth. [[Figure]](#import-auto-id2404894) is a simplified drawing of the Moon’s
+Earth. [Figure](#import-auto-id2404894) is a simplified drawing of the Moon’s
 position relative to the tides. Because water easily flows on Earth’s surface, a
 high tide is created on the side of Earth nearest to the Moon, where the Moon’s
 gravitational pull is strongest. Why is there also a high tide on the opposite
@@ -282,7 +282,7 @@ is at a $$ 90^\circ $$ angle to the Earth-Moon alignment.
 Tides are not unique to Earth but occur in many astronomical systems. The most
 extreme tides occur where the gravitational force is the strongest and varies
 most rapidly, such as near black holes (
-see [[Figure]](#import-auto-id3051120)). A few likely candidates for black holes
+see [Figure](#import-auto-id3051120)). A few likely candidates for black holes
 have been observed in our galaxy. These have masses greater than the Sun but
 have diameters only a few kilometers across. The tidal forces near them are so
 great that they can actually tear matter from a companion star.
@@ -351,7 +351,7 @@ basic and important because it determines the strength of one of the four forces
 in nature. Cavendish’s experiment was very difficult because he measured the
 tiny gravitational attraction between two ordinary-sized masses (
 tens of kilograms at most), using apparatus like that
-in [[Figure]](#import-auto-id2055450). Remarkably, his value for $$ G $$ differs
+in [Figure](#import-auto-id2055450). Remarkably, his value for $$ G $$ differs
 by less than 1% from the best modern value.
 
 One important consequence of knowing $$ G $$ was that an accurate value for
@@ -366,7 +366,7 @@ gravitation gives
 
 where $$ m $$ is the mass of the object, $$ M $$ is the mass of Earth, and $$ r
 $$ is the distance to the center of Earth (the distance between the centers of
-mass of the object and Earth). See [[Figure]](#import-auto-id2406145). The mass
+mass of the object and Earth). See [Figure](#import-auto-id2406145). The mass
 $$ m $$ of the object cancels, leaving an equation for $$ g $$:
 
 <div class="equation" id="eip-150">
@@ -534,7 +534,7 @@ the core of the system.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Solve part (b) of [[Figure]](#fs-id3174863) using $$ \ac ={v}^{2}/r $$.
+Solve part (b) of [Figure](#fs-id3174863) using $$ \ac ={v}^{2}/r $$.
 
 </div>
 </div>

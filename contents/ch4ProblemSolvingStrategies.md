@@ -23,8 +23,8 @@ Step 1. As usual, it is first necessary to identify the physical principles
 involved. *Once it is determined that Newton’s laws of motion are involved (if
 the problem involves forces), it is particularly important to draw a careful
 sketch of the situation*. Such a sketch is shown
-in [[Figure]](#import-auto-id1669409)(a). Then, as
-in [[Figure]](#import-auto-id1669409)(b), use arrows to represent all forces,
+in [Figure](#import-auto-id1669409)(a). Then, as
+in [Figure](#import-auto-id1669409)(b), use arrows to represent all forces,
 label them carefully, and make their lengths and directions correspond to the
 forces they represent (whenever sufficient information exists).
 
@@ -42,7 +42,7 @@ unknowns. *Then carefully determine the system of interest*. This decision is a
 crucial step, since Newton’s second law involves only external forces. Once the
 system of interest has been identified, it becomes possible to determine which
 forces are external and which are internal, a necessary step to employ Newton’s
-second law. (See [[Figure]](#import-auto-id1669409)(c).) Newton’s third law may
+second law. (See [Figure](#import-auto-id1669409)(c).) Newton’s third law may
 be used to identify whether forces are exerted between components of a system (
 internal) or between the system and something outside (external). As illustrated
 earlier in this chapter, the system of interest depends on what question we need
@@ -53,12 +53,12 @@ beneficial in later chapters as well.
 A diagram showing the system of interest and all of the external forces is
 called a **free-body diagram**. Only forces are shown on free-body diagrams, not
 acceleration or velocity. We have drawn several of these in worked
-examples. [[Figure]](#import-auto-id1669409)(c) shows a free-body diagram for
+examples. [Figure](#import-auto-id1669409)(c) shows a free-body diagram for
 the system of interest. Note that no internal forces are shown in a free-body
 diagram.
 
 Step 3. Once a free-body diagram is drawn, *Newton’s second law can be applied
-to solve the problem*. This is done in [[Figure]](#import-auto-id1669409)(d) for
+to solve the problem*. This is done in [Figure](#import-auto-id1669409)(d) for
 a particular situation. In general, once external forces are clearly identified
 in free-body diagrams, it should be a straightforward task to put them into
 equation form and solve for the unknown, as done in all previous examples. If
@@ -254,7 +254,7 @@ experienced by the boat and trailer?
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) Find the magnitudes of the forces $$ \vb{F}_{1} $$ and $$ \vb{F}_{2} $$ that add to give the total force $$ \vb{F}_{\text{tot}} $$
-shown in [[Figure]](#import-auto-id2639094). This may be done either graphically
+shown in [Figure](#import-auto-id2639094). This may be done either graphically
 or by using trigonometry.
 (b) Show graphically that the same total force is
 obtained independent of the order of addition of $$ \vb{F}_{1} $$
@@ -272,7 +272,7 @@ $$ \vb{F}_{\text{tot}} $$. Draw these to scale on the same drawing used in part 
 <div class="problem" markdown="1">
 Two children pull a third child on a snow saucer sled exerting forces $$ \vb{F}_{1} $$
 and $$ \vb{F}_{2} $$ as shown from above
-in [[Figure]](#import-auto-id1789737). Find the acceleration of the 49.00-kg sled
+in [Figure](#import-auto-id1789737). Find the acceleration of the 49.00-kg sled
 and child system. Note that the direction of the frictional force is
 unspecified; it will be in the opposite direction of the sum of $$
 \vb{F}_{1} $$ and $$ \vb{F}_{2} $$.
@@ -289,7 +289,7 @@ unspecified; it will be in the opposite direction of the sum of $$
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Suppose your car was mired deeply in the mud and you wanted to use the method illustrated in [[Figure]](#import-auto-id1436345) to pull it out.
+Suppose your car was mired deeply in the mud and you wanted to use the method illustrated in [Figure](#import-auto-id1436345) to pull it out.
 (a) What force would you have to exert perpendicular to the center of the rope to produce a force of 12 000 N on the car if the angle is 2.00°? In this part, explicitly show how you follow the steps in the Problem-Solving Strategy for Newton’s laws of motion.
 (b) Real ropes stretch under such forces. What force would be exerted on the car if the angle increases to 7.00° and you still apply the force found in part (a) to its center?
 
@@ -300,7 +300,7 @@ Suppose your car was mired deeply in the mud and you wanted to use the method il
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What force is exerted on the tooth in [[Figure]](#import-auto-id1569692) if the tension 
+What force is exerted on the tooth in [Figure](#import-auto-id1569692) if the tension 
 in the wire is 25.0 N? Note that the force applied to the tooth is smaller than the tension in the wire, 
 but this is necessitated by practical considerations of how force can be applied in the mouth. 
 Explicitly show how you follow steps in the Problem-Solving Strategy for Newton’s laws of motion.
@@ -331,7 +331,7 @@ Explicitly show how you follow steps in the Problem-Solving Strategy for Newton�
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-[[Figure]](#import-auto-id1655793) shows Superhero and Trusty Sidekick hanging motionless from a rope. Superhero’s mass is 90.0 kg, while Trusty Sidekick’s is 55.0 kg, and the mass of the rope is negligible.
+[Figure](#import-auto-id1655793) shows Superhero and Trusty Sidekick hanging motionless from a rope. Superhero’s mass is 90.0 kg, while Trusty Sidekick’s is 55.0 kg, and the mass of the rope is negligible.
 (a) Draw a free-body diagram of the situation showing all forces acting on Superhero, Trusty Sidekick, and the rope.
 (b) Find the tension in the rope above Superhero.
 (c) Find the tension in the rope between Superhero and Trusty Sidekick. Indicate on your free-body diagram the system of interest used to solve each part.
@@ -385,7 +385,7 @@ the masses of the toboggan and children.
 
 **Unreasonable Results**
 
- (a) Repeat [[Figure]](#fs-id1673888), but assume an acceleration of $$ 1.20 \mss $$ is produced.
+ (a) Repeat [Figure](#fs-id1673888), but assume an acceleration of $$ 1.20 \mss $$ is produced.
  (b) What is unreasonable about the result?
  (c) Which premise is unreasonable, and why is it unreasonable?
 
