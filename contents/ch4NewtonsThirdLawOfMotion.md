@@ -3,7 +3,6 @@ title: "Newton’s Third Law of Motion: Symmetry in Forces"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Understand Newton\'s third law of motion.
 * Apply Newton\'s third law to define systems and solve problems of motion.
@@ -347,10 +346,8 @@ Newton’s third law of motion
 a force that is equal in magnitude and opposite in direction to the force that
 the first body exerts
 
-
 thrust
 : a reaction force that pushes a body forward in response to a backward force;
 rockets, airplanes, and cars are pushed forward by a thrust reaction force
-
 
 </div>

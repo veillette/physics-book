@@ -3,7 +3,6 @@ title: "Power"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Calculate power by calculating changes in energy over time.
 * Examine power consumption and calculations of the cost of energy consumed.
@@ -482,14 +481,11 @@ energy needs $$ \left(6.3\times 10^{19} \J  \right) $$ ?
 power
 : the rate at which work is done
 
-
 watt
 : (W) SI unit of power, with $$ 1 \text{W}=1 \text{J/s} $$
 
-
 horsepower
 : an older non-SI unit of power, with $$ 1 \text{hp}=746 \text{W} $$
-
 
 kilowatt-hour
 : $$ \left(\text{kW}\cdot h\right) $$ unit used primarily for electrical energy

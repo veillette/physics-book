@@ -3,7 +3,6 @@ title: "Collisions of Extended Bodies in Two Dimensions"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Observe collisions of extended bodies in two dimensions.
 * Examine collision at the point of percussion.

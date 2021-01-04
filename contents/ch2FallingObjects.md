@@ -3,7 +3,6 @@ title: "Falling Objects"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Describe the effects of gravity on objects in motion.
 * Describe the motion of objects that are in free fall.
@@ -721,7 +720,6 @@ assuming the floor is absolutely rigid?
 
 free-fall
 : the state of movement that results from gravitational force only
-
 
 acceleration due to gravity
 : acceleration of an object as a result of gravity

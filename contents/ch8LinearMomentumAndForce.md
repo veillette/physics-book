@@ -3,7 +3,6 @@ title: "Linear Momentum and Force"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Define linear momentum.
 * Explain the relationship between momentum and force.
@@ -389,10 +388,8 @@ Calculate its linear momentum.
 linear momentum
 : the product of mass and velocity
 
-
 second law of motion
 : physical law that states that the net external force equals the change in
 momentum of a system divided by the time over which it changes
-
 
 </div>

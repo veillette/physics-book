@@ -3,7 +3,6 @@ title: "Collisions of Point Masses in Two Dimensions"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Discuss two dimensional collisions as an extension of one dimensional analysis.
 * Define point masses.
@@ -521,6 +520,5 @@ away?
 
 point masses
 : structureless particles with no rotation or spin
-
 
 </div>

@@ -3,7 +3,6 @@ title: "Fictitious Forces and Non-inertial Frames: The Coriolis Force"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Discuss the inertial frame of reference.
 * Discuss the non-inertial frame of reference.
@@ -206,19 +205,15 @@ A non-rotating frame of reference placed at the center of the Sun is very nearly
 fictitious force
 : a force having no physical origin
 
-
 centrifugal force
 : a fictitious force that tends to throw an object off when the object is
 rotating in a non-inertial frame of reference
-
 
 Coriolis force
 : the fictitious force causing the apparent deflection of moving objects when
 viewed in a rotating frame of reference
 
-
 non-inertial frame of reference
 : an accelerated frame of reference
-
 
 </div>

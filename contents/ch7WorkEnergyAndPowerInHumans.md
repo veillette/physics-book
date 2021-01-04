@@ -3,7 +3,6 @@ title: "Work, Energy, and Power in Humans"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Explain the human body’s consumption of energy when at rest vs. when engaged in activities that do useful work.
 * Calculate the conversion of chemical energy in food into useful work.
@@ -417,13 +416,10 @@ metabolic rate
 : the rate at which the body uses food energy to sustain life and to do
 different activities
 
-
 basal metabolic rate
 : the total energy conversion rate of a person at rest
 
-
 useful work
 : work done on an external system
-
 
 </div>

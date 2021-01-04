@@ -3,7 +3,6 @@ title: "Satellites and Kepler’s Laws: An Argument for Simplicity"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * State Kepler’s laws of planetary motion.
 * Derive the third Kepler’s law for circular orbits.

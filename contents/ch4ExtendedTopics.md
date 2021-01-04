@@ -3,7 +3,6 @@ title: "Extended Topic: The Four Basic Forces—An Introduction"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Understand the four basic forces that underlie the processes in nature.
 
@@ -303,7 +302,6 @@ What is the ratio of the strength of the strong nuclear force to that of the ele
 carrier particle
 : a fundamental particle of nature that is surrounded by a characteristic force
 field; photons are carrier particles of the electromagnetic force
-
 
 force field
 : a region in which a test particle will experience a force
