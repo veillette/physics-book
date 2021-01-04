@@ -27,8 +27,7 @@ Newton’s first law says that a net external force
 causes a change in motion; thus, we see that a *net external force causes acceleration*.
 
 Another question immediately arises. What do we mean by an external force? An
-intuitive notion of external is correct—an **external force** acts from outside the **system**{: class="
-term"} of interest. For example, in [[Figure]](#import-auto-id1993910)(a) the
+intuitive notion of external is correct—an **external force** acts from outside the **system** of interest. For example, in [[Figure]](#import-auto-id1993910)(a) the
 system of interest is the wagon plus the child in it. The two forces exerted by
 the other children are external forces. An internal force acts between elements
 of the system. Again looking at [[Figure]](#import-auto-id1993910)(a), the force
@@ -70,8 +69,7 @@ of acceleration and net external force as the proportionality.
 </div>
 
 where the symbol $$ \propto $$ means “proportional to,” and $$
-\vb{F}_{\text{net}} $$ is the **net external force**{: class="
-term" #import-auto-id1890102}. (The net external force is the vector sum of all
+\vb{F}_{\text{net}} $$ is the **net external force**. (The net external force is the vector sum of all
 external forces and can be determined graphically, using the head-to-tail
 method, or analytically, using components. The techniques are the same as for
 the addition of other vectors, and are covered
@@ -142,8 +140,7 @@ verification.
 
 $$ \vb{F}_{\text{net}}=m\vb{a} $$ is used to define the
 units of force in terms of the three basic units for mass, length, and time. The
-SI unit of force is called the **newton**{: class="
-term" #import-auto-id2929123} (abbreviated N) and is the force needed to
+SI unit of force is called the **newton** (abbreviated N) and is the force needed to
 accelerate a 1-kg system at the rate of $$ 1\mss $$. That is, since $$
 \vb{F}_{\text{net}}=m\vb{a} $$,
 

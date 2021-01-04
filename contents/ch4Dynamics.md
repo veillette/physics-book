@@ -3,8 +3,6 @@ title: "Introduction to Dynamics: Newton’s Laws of Motion"
 layout: page
 ---
 
-
-
 ![Two dolphins are shown in a pool at Lisbon Zoo. One is in the water, and the other is in the air diving back into water](../resources/Figure_04_00_01.jpg "Newton&#x2019;s laws of motion describe the motion of the dolphin&#x2019;s path. (credit: Jin Jang)")
 {: #import-auto-id2351295}
 

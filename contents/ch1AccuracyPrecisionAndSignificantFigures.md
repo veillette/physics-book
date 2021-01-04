@@ -3,7 +3,6 @@ title: "Accuracy, Precision, and Significant Figures"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Determine the appropriate number of significant figures in both addition and subtraction, as well as multiplication and division calculations.
 * Calculate the percent uncertainty of a measurement.
@@ -96,7 +95,6 @@ as $$ 11\text{in.} \pm 0.2 $$. The factors contributing to uncertainty
 2. The skill of the person making the measurement,
 3. Irregularities in the object being measured,
 4. Any other factors that affect the outcome (highly dependent on the situation).
-
 
 In our example, such factors contributing to the uncertainty could be the
 following: the smallest division on the ruler is 0.1 in., the person using the
@@ -647,25 +645,20 @@ accuracy
 : the degree to which a measured value agrees with correct value for that
 measurement
 
-
 method of adding percents
 : the percent uncertainty in a quantity calculated by multiplication or division
 is the sum of the percent uncertainties in the items used to make the
 calculation
 
-
 percent uncertainty
 : the ratio of the uncertainty of a measurement to the measured value, expressed
 as a percentage
 
-
 precision
 : the degree to which repeated measurements agree with each other
 
-
 significant figures
 : express the precision of a measuring tool used to measure a value
-
 
 uncertainty
 : a quantitative measure of how much your measured values deviate from a

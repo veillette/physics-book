@@ -384,8 +384,7 @@ Maze Game
   followed in the usual way to obtain the resultant vector $$ \vb{R} $$.
 * Addition of vectors is **commutative** such that $$
   \vb{A}+\vb{B}=\vb{B}+\vb{A} $$.
-* The **head-to-tail method**{: class="
-  term" #import-auto-id1165298982089} of adding vectors involves drawing the
+* The **head-to-tail method** of adding vectors involves drawing the
   first vector on a graph and then placing the tail of each subsequent vector at
   the head of the previous vector. The resultant vector is then drawn from the
   tail of the first vector to the head of the final vector.

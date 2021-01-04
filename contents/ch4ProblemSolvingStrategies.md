@@ -51,8 +51,7 @@ an almost unconscious process. Skill in clearly defining systems will be
 beneficial in later chapters as well.
 
 A diagram showing the system of interest and all of the external forces is
-called a **free-body diagram**{: class="
-term" #import-auto-id1606094}. Only forces are shown on free-body diagrams, not
+called a **free-body diagram**. Only forces are shown on free-body diagrams, not
 acceleration or velocity. We have drawn several of these in worked
 examples. [[Figure]](#import-auto-id1669409)(c) shows a free-body diagram for
 the system of interest. Note that no internal forces are shown in a free-body

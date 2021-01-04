@@ -3,7 +3,6 @@ title: "Dynamics of Rotational Motion: Rotational Inertia"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Understand the relationship between force, mass and acceleration.
 * Study the turning effect of force.
@@ -59,9 +58,8 @@ or
 This last equation is the rotational analog of Newton’s second law
 ( $$ \vb{F}=m\vb{a} $$), where torque is analogous to force, angular acceleration is analogous to
 translational acceleration, and $$ m r^{2} $$ is analogous to mass (or inertia).
-The quantity $$ m r^{2} $$ is called the **rotational inertia**{: class="
-term" #import-auto-id3450318} or **moment of inertia**{: class="
-term" #import-auto-id1383999} of a point mass $$ m $$ a distance $$ r $$ from
+The quantity $$ m r^{2} $$ is called the **rotational inertia** or **moment of inertia** of
+a point mass $$ m $$ a distance $$ r $$ from
 the center of rotation.
 
 ![The given figure shows an object of mass m, kept on a horizontal frictionless table, attached to a pivot point, which is in the center of the table, by a cord that supplies centripetal force. A force F is applied to the object perpendicular to the radius r, which is indicated by a red arrow tangential to the circle, causing the object to move in counterclockwise direction.](../resources/Figure_11_03_02a.jpg "An object is supported by a horizontal frictionless table and is attached to a pivot point by a cord that supplies centripetal force. A force \( F \)  is applied to the object perpendicular to the radius \( r \) , causing it to accelerate about the pivot point. The force is kept perpendicular to \( r \) .")
@@ -263,7 +261,6 @@ Olympics, here he comes! Confirmation of these numbers is left as an exercise
 for the reader.
 
 </div>
-
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
@@ -574,17 +571,14 @@ spin rate (angular velocity).
 torque
 : the turning effectiveness of a force
 
-
 rotational inertia
 : resistance to change of rotation. The more rotational inertia an object has,
 the harder it is to rotate
-
 
 moment of inertia
 : mass times the square of perpendicular distance from the rotation axis; for a
 point mass, it is $$ I=m r^{2} $$ and, because any object can be built up from a
 collection of point masses, this relationship is the basis for all other moments
 of inertia
-
 
 </div>

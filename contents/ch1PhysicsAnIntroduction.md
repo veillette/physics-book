@@ -3,7 +3,6 @@ title: "Physics: An Introduction"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Explain the difference between a principle and a law.
 * Explain the difference between a model and a theory.

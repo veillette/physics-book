@@ -31,8 +31,7 @@ One of the simpler characteristics of friction is that it is parallel to the
 contact surface between systems and always in a direction that opposes motion or
 attempted motion of the systems relative to each other. If two systems are in
 contact and moving relative to one another, then the friction between them is
-called **kinetic friction**{: class="
-term" #import-auto-id1165296294917}. For example, friction slows a hockey puck
+called **kinetic friction**. For example, friction slows a hockey puck
 sliding on ice. But when objects are stationary, **static friction**
 can act between them; the static friction is usually greater than the
 kinetic friction between the objects.
@@ -705,11 +704,9 @@ friction
 : a force that opposes relative motion or attempts at motion between systems in
 contact
 
-
 kinetic friction
 : a force that opposes the motion of two systems that are in contact and moving
 relative to one another
-
 
 static friction
 : a force that opposes the motion of two systems that are in contact and are not
@@ -719,11 +716,9 @@ magnitude of static friction
 : $$ f_{\s}\le \mu_{\s}\mag{N} $$, where $$ \mu_{\s} $$ is the coefficient of
 static friction and $$ \mag{N} $$ is the magnitude of the normal force
 
-
 magnitude of kinetic friction
 : $$ f_{\text{k}}=\mu_{\text{k} }\mag{N} $$, where $$ \mu_{\text{k} } $$ is the
 coefficient of kinetic
 friction
-
 
 </div>

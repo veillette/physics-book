@@ -3,7 +3,6 @@ title: "Rotational Kinetic Energy: Work and Energy Revisited"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Derive the equation for rotational work.
 * Calculate rotational kinetic energy.
@@ -778,10 +777,8 @@ work-energy theorem
 energy to change from $$ \KE_{1} $$ to $$ \KE_{2} $$, then the
 work $$ W $$ done by the net force is equal to the change in kinetic energy
 
-
 rotational kinetic energy
 : the kinetic energy due to the rotation of an object. This is part of its total
 kinetic energy
-
 
 </div>

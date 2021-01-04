@@ -3,7 +3,6 @@ title: "Graphical Analysis of One-Dimensional Motion"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Describe a straight-line graph in terms of its slope and y-intercept.
 * Determine average velocity or instantaneous velocity from a graph of position vs. time.
@@ -661,15 +660,12 @@ plotted along the $$ x $$ -axis
 dependent variable
 : the variable that is being measured; usually plotted along the $$ y $$ -axis
 
-
 slope
 : the difference in $$ y $$ -value (the rise) divided by the difference in
 $$ x $$-value (the run) of two points on a straight line
 
-
 y-intercept
 : the $$ y\text{-} $$ value when $$ x = 0 $$,
 or when the graph crosses the $$ y $$ -axis
-
 
 </div>

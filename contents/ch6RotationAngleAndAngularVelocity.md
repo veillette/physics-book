@@ -113,9 +113,8 @@ so that
 
 ### Angular Velocity
 
-How fast is an object rotating? We define **angular velocity**{: class="
-term" #import-auto-id2962847} $$ \omega $$ as the rate of change of an angle. In
-symbols, this is
+How fast is an object rotating? We define **angular velocity** $$ \omega $$ as
+the rate of change of an angle. In symbols, this is
 
 <div class="equation" id="eip-759">
  $$ \omega =\frac{ \Delta\theta }{\Delta t }, $$

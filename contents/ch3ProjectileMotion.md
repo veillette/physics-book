@@ -3,7 +3,6 @@ title: "Projectile Motion"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Identify and explain the properties of a projectile, such as acceleration due to gravity, range, maximum height, and trajectory.
 * Determine the location and velocity of a projectile at different points in its trajectory.
@@ -618,7 +617,6 @@ Projectile Motion
        <div class="equation" id="import-auto-id1979208">
     $$ \theta_{\text{v}}={\tan}^{-1} \left( \frac{v_{y}}{v_{x}} \right) .$$
        </div>
- 
 
 * The maximum height $$ h $$ of a projectile launched
   with initial vertical velocity $$ v_{0y} $$ is given by
@@ -1065,7 +1063,6 @@ air resistance
 : a frictional force that slows the motion of objects as they travel through the
 air; when solving basic physics problems, air resistance is assumed to be zero
 
-
 kinematics
 : the study of motion without regard to mass or force
 
@@ -1076,14 +1073,11 @@ projectile
 : an object that travels through the air and experiences only acceleration due
 to gravity
 
-
 projectile motion
 : the motion of an object that is subject only to the acceleration of gravity
 
-
 range
 : the maximum horizontal distance that a projectile travels
-
 
 trajectory
 : the path of a projectile through the air

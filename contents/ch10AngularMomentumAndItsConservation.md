@@ -685,10 +685,8 @@ Consider the Earth-Moon system. Construct a problem in which you calculate the t
 angular momentum
 : the product of moment of inertia and angular velocity
 
-
 law of conservation of angular momentum
 : angular momentum is conserved, i.e., the initial angular momentum is equal to
 the final angular momentum when no external torque is applied to the system
-
 
 </div>

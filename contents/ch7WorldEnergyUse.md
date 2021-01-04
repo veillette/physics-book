@@ -3,7 +3,6 @@ title: "World Energy Use"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Describe the distinction between renewable and nonrenewable energy sources.
 * Explain why the inevitable conversion of energy to less useful forms makes it necessary to conserve energy resources.
@@ -408,9 +407,7 @@ support his weight as well as that to accelerate him.)
 renewable forms of energy
 : those sources that cannot be used up, such as water, wind, solar, and biomass
 
-
 fossil fuels
 : oil, natural gas, and coal
-
 
 </div>

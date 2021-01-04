@@ -3,7 +3,6 @@ title: "Newton’s First Law of Motion: Inertia"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Define mass and inertia.
 * Understand Newton\'s first law of motion.
@@ -129,19 +128,15 @@ What is the relationship between weight and mass? Which is an intrinsic, unchang
 inertia
 : the tendency of an object to remain at rest or remain in motion
 
-
 law of inertia
 : see Newton’s first law of motion
 
-
 mass
 : the quantity of matter in a substance; measured in kilograms
-
 
 Newton’s first law of motion
 : a body at rest remains at rest, or, if in motion, remains in motion at a
 constant velocity unless acted on by a net external force; also known as the law
 of inertia
-
 
 </div>

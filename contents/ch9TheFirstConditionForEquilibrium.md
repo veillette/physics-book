@@ -3,7 +3,6 @@ title: "The First Condition for Equilibrium"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * State the first condition of equilibrium.
 * Explain static equilibrium.
@@ -110,10 +109,8 @@ static equilibrium
 : a state of equilibrium in which the net external force and torque acting on a
 system is zero
 
-
 dynamic equilibrium
 : a state of equilibrium in which the net external force and torque on a system
 moving with constant velocity are zero
-
 
 </div>

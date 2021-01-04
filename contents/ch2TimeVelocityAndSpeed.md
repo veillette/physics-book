@@ -3,7 +3,6 @@ title: "Time, Velocity, and Speed"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Explain the relationships between instantaneous velocity, average velocity, instantaneous speed, average speed, displacement, and time.
 * Calculate velocity and speed given initial position, initial time, final position, and final time.
@@ -433,31 +432,24 @@ second it makes about the nucleus.
 average speed
 : distance traveled divided by time during which motion occurs
 
-
 average velocity
 : displacement divided by time over which displacement occurs
-
 
 instantaneous velocity
 : velocity at a specific instant, or the average velocity over an infinitesimal
 time interval
 
-
 instantaneous speed
 : magnitude of the instantaneous velocity
 
-
 time
 : change, or the interval over which change occurs
-
 
 model
 : simplified description that contains only those elements necessary to describe
 the physics of a physical situation
 
-
 elapsed time
 : the difference between the ending time and beginning time
-
 
 </div>

@@ -3,7 +3,6 @@ title: "Motion Equations for Constant Acceleration in One Dimension"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Calculate displacement of an object that is not accelerating, given initial position and velocity.
 * Calculate final velocity of an accelerating object, given initial velocity, acceleration, and time.

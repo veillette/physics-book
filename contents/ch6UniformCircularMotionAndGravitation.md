@@ -3,9 +3,6 @@ title: "Introduction to Uniform Circular Motion and Gravitation"
 layout: page
 ---
 
-
-
-
 ![The figure shows, from front, a red and silver coloured Formula One car turning through a curve in a race on the Melbourne Grand Prix track, with the driver in seat.](../resources/Figure_07_00_01a.jpg "This Australian Grand Prix Formula 1 race car moves in a circular path as it makes the turn. Its wheels also spin rapidly&#x2014;the latter completing many revolutions, the former only part of one (a circular arc). The same physical principles are involved in each. (credit: Richard Munckton)")
 {: #import-auto-id3121980}
 
@@ -31,8 +28,6 @@ ice.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iP4RYkt_ur4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-
-
 <div class="glossary" markdown="1">
 
 ### Glossary
@@ -40,6 +35,5 @@ ice.
 
 uniform circular motion
 : the motion of an object in a circular path at constant speed
-
 
 </div>

@@ -3,7 +3,6 @@ title: "Drag Forces"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Express mathematically the drag force.
 * Discuss the applications of drag force.

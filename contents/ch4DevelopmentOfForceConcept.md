@@ -10,8 +10,8 @@ layout: page
 
 **Dynamics** is the study of the
 forces that cause objects and systems to move. To understand this, we need a
-working definition of force. Our intuitive definition of **force**{: class="
-term" #import-auto-id2712510}—that is, a push or a pull—is a good place to
+working definition of force. Our intuitive definition of **force**—that is, 
+a push or a pull—is a good place to
 start. We know that a push or pull has both magnitude and direction (therefore,
 it is a vector quantity) and can vary considerably in each regard. For example,
 a cannon exerts a strong force on a cannonball that is launched into the air. In

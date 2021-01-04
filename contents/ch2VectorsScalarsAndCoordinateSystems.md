@@ -3,7 +3,6 @@ title: "Vectors, Scalars, and Coordinate Systems"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Define and distinguish between scalar and vector quantities.
 * Assign a coordinate system for a scenario involving one-dimensional motion.
@@ -132,9 +131,7 @@ vector or a scalar quantity? Explain.
 scalar
 : a quantity that is described by magnitude, but not direction
 
-
 vector
 : a quantity that is described by both magnitude and direction
-
 
 </div>

@@ -3,7 +3,6 @@ title: "Gyroscopic Effects: Vector Aspects of Angular Momentum"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Describe the right-hand rule to find the direction of angular velocity, momentum, and torque.
 * Explain the gyroscopic effect.
@@ -174,6 +173,5 @@ right-hand rule
 : direction of angular velocity ω and angular momentum L in which the thumb of
 your right hand points when you curl your fingers in the direction of the disk’s
 rotation
-
 
 </div>
