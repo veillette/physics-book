@@ -29,7 +29,7 @@ rotate before or after their collision. For example, if two ice skaters hook
 arms as they pass by one another, they will spin in circles. We will not
 consider such rotation until later, and so for now we arrange things so that no
 rotation is possible. To avoid rotation, we consider only the scattering of
-**point masses**{: class="term" #import-auto-id1362764}—that is, structureless
+**point masses**—that is, structureless
 particles that cannot rotate or spin.
 
 We start by assuming that $$ \vb{F}_{\text{net}}=0 $$, so that momentum $$

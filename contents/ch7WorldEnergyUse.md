@@ -25,10 +25,9 @@ production per year; 66% of that oil is imported!
 The principal energy resources used in the world are shown
 in [[Figure]](#import-auto-id2184457). The fuel mix has changed over the years
 but now is dominated by oil, although natural gas and solar contributions are
-increasing. **Renewable forms of energy**{: class="term"
-#import-auto-id2093286} are those sources that cannot be used up, such as water,
+increasing. **Renewable forms of energy** are those sources that cannot be used up, such as water,
 wind, solar, and biomass. About 85% of our energy comes from nonrenewable
-**fossil fuels**{: class="term" #import-auto-id2811292}—oil, natural gas,
+**fossil fuels**—oil, natural gas,
 coal. The likelihood of a link between global warming and fossil fuel use,
 with its production of carbon dioxide through combustion, has made, in the eyes
 of many scientists, a shift to non-fossil fuels of utmost importance—but it will

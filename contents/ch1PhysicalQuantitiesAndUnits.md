@@ -27,15 +27,14 @@ seconds) a profound simplicity of nature appears—all physical quantities can b
 expressed as combinations of only four fundamental physical quantities: length,
 mass, time, and electric current.
 
-We define a **physical quantity**{: class="term" #import-auto-id1536256}
+We define a **physical quantity**
 either by *specifying how it is measured*
 or by **stating how it is calculated** from other measurements. For example, we
 define distance and time by specifying methods for measuring them, whereas we
 define **average speed** by stating that it is calculated as distance traveled
 divided by time of travel.
 
-Measurements of physical quantities are expressed in terms of **units**{:
-class="term" #import-auto-id1666000} , which are standardized values. For
+Measurements of physical quantities are expressed in terms of **units**, which are standardized values. For
 example, the length of a race, which is a physical quantity, can be expressed in
 units of meters (for sprinters) or kilometers (for distance runners). Without
 standardized units, it would be extremely difficult for scientists to express
@@ -45,8 +44,7 @@ See [Figure 2](#import-auto-id2991258).)
 ![A boy looking at a map and trying to guess distances with unit of length mentioned as cables between two points.](../resources/Figure_01_02_01a.jpg "Distances given in unknown units are maddeningly useless.")
 {: #import-auto-id2991258 height="225"}
 
-There are two major systems of units used in the world: **SI units**{:
-class="term"}
+There are two major systems of units used in the world: **SI units**
 (also known as the metric system) and **English units**
 (also known as the customary or imperial system).
 **English units**
@@ -74,8 +72,7 @@ be tied to SI units through conversions.
 It is an intriguing fact that some physical quantities are more fundamental than
 others and that the most fundamental physical quantities can be defined **only**
 in terms of the procedure used to measure them. The units in which they are
-measured are thus called **fundamental units**{: class="term"
-#import-auto-id3097983}. In this textbook, the fundamental physical quantities
+measured are thus called **fundamental units**. In this textbook, the fundamental physical quantities
 are taken to be length, mass, time, and electric current. (Note that electric
 current will not be introduced until much later in this text.) All other
 physical quantities, such as force and electric charge, can be expressed as
@@ -87,7 +84,7 @@ term" #import-auto-id1950609}.
 
 #### The Second
 
-The SI unit for time, the **second**{: class="term" #import-auto-id2526901}(
+The SI unit for time, the **second**(
 abbreviated s), has a long history. For many years it was defined as 1/86 400 of
 a mean solar day. More recently, a new standard was adopted to gain greater
 accuracy and to define the second in terms of a non-varying, or constant,
@@ -105,8 +102,7 @@ fundamental units themselves.
 
 #### The Meter
 
-The SI unit for length is the **meter**{: class="term"
-#import-auto-id1629056} (abbreviated m); its definition has also changed over
+The SI unit for length is the **meter** (abbreviated m); its definition has also changed over
 time to become more accurate and precise. The meter was first defined in 1791 as
 1/10 000 000 of the distance from the equator to the North Pole. This
 measurement was improved in 1889 by redefining the meter to be the distance
@@ -122,9 +118,7 @@ if the speed of light is someday measured with greater accuracy.
 
 #### The Kilogram
 
-The SI unit for mass is the **kilogram**{: class="term"
-#import-auto-id1989656}
-(abbreviated kg); it was previously
+The SI unit for mass is the **kilogram** (abbreviated kg); it was previously
 defined to be the mass of a platinum-iridium cylinder kept with the old meter
 standard at the International Bureau of Weights and Measures near Paris.
 Exact replicas of the previously defined kilogram are also kept at the
@@ -151,8 +145,7 @@ of length, mass, and time.
 
 ### Metric Prefixes
 
-SI units are part of the **metric system**{: class="term"
-#import-auto-id2678122}. The metric system is convenient for scientific and
+SI units are part of the **metric system**. The metric system is convenient for scientific and
 engineering calculations because the units are categorized by factors of 10.
 [[Figure]](#import-auto-id2643474) gives metric prefixes and symbols used to
 denote various factors of 10.
@@ -168,7 +161,7 @@ while distances in kilometers are appropriate for air travel, and the tiny
 measure of nanometers are convenient in optical design. With the metric system
 there is no need to invent new units for particular applications.
 
-The term **order of magnitude**{: class="term" #import-auto-id1363292}
+The term **order of magnitude**
 refers to the scale of a value expressed in the metric system. Each power of $$
 10 $$ in the metric system represents a different order of magnitude. For
 example, $$ 10^{1},10^{2},10^{3} $$, and so forth are all different orders of
@@ -255,8 +248,7 @@ The first thing to do is to list the units that you have and the units that you
 want to convert to. In this case, we have units in **meters** and we want to
 convert to **kilometers**.
 
-Next, we need to determine a **conversion factor**{: class="term"
-#import-auto-id2657858} relating meters to kilometers. A conversion factor is a
+Next, we need to determine a **conversion factor** relating meters to kilometers. A conversion factor is a
 ratio expressing how many of one unit are equal to another unit. For example,
 there are 12 inches in 1 foot, 100 centimeters in 1 meter, 60 seconds in 1
 minute, and so on. In this case, we know that there are 1 000 meters in 1

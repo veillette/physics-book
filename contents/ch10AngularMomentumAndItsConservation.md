@@ -19,7 +19,7 @@ momentum.
 
 By now the pattern is clear—every rotational phenomenon has a direct
 translational analog. It seems quite reasonable, then, to define **angular
-momentum**{: class="term" #import-auto-id3209780} $$ L $$ as
+momentum** $$ L $$ as
 
 <div class="equation" id="eip-337">
  $$ L=I \omega. $$
@@ -317,8 +317,7 @@ or
  $$ L=L^{\prime} ; \left(\text{net }\tau =0\right). $$
 </div>
 
-These expressions are the **law of conservation of angular momentum**{:
-class="term" #import-auto-id1412261} . Conservation laws are as scarce as
+These expressions are the **law of conservation of angular momentum**. Conservation laws are as scarce as
 they are important.
 
 An example of conservation of angular momentum is seen

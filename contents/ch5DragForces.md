@@ -18,8 +18,7 @@ when you move your hand through water. You might also feel it if you move your
 hand during a strong wind. The faster you move your hand, the harder it is to
 move. You feel a smaller drag force when you tilt your hand so only the side
 goes through the air—you have decreased the area of your hand that faces the
-direction of motion. Like friction, the **drag force**{: class="term"
-#import-auto-id1165298930276} always opposes the motion of an object. Unlike
+direction of motion. Like friction, the **drag force** always opposes the motion of an object. Unlike
 simple friction, the drag force is proportional to some function of the velocity
 of the object in that fluid. This functionality is complicated and depends upon
 the shape of the object, its size, its velocity, and the fluid it is in. For
@@ -267,8 +266,7 @@ times greater than the driving force.*
 The above quadratic dependence of air drag upon velocity does not hold if the
 object is very small, is going very slow, or is in a denser medium than air.
 Then we find that the drag force is proportional just to the velocity. This
-relationship is given by **Stokes’ law**{: class="term"
-#import-auto-id1165298672873}, which states that
+relationship is given by **Stokes’ law**, which states that
 
 <div class="equation" id="eip-798">
 $$ F_{\s}=6 \pi r\eta v, $$

@@ -14,8 +14,7 @@ layout: page
 ### Potential Energy and Conservative Forces
 
 Work is done by a force, and some forces, such as weight, have special
-characteristics. A **conservative force**{: class="term"
-#import-auto-id2259527} is one, like the gravitational force, for which work
+characteristics. A **conservative force** is one, like the gravitational force, for which work
 done by or against it depends only on the starting and ending points of a motion
 and not on the path taken. We can define a **potential energy**{: class="
 term" #import-auto-id2177452} $$ \left(\PE\right)

@@ -23,7 +23,7 @@ acceleration produces a large final velocity, and the distance traveled will
 also be large.
 
 Kinematics is the description of motion. The **kinematics of rotational motion**
-{: class="term" #import-auto-id3025215} describes the relationships among
+** describes the relationships among
 rotation angle, angular velocity, angular acceleration, and
 
 time. Let us start by finding an equation relating $$ \omega $$, $$ \alpha $$,

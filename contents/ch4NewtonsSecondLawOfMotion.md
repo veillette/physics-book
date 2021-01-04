@@ -11,7 +11,7 @@ layout: page
 
 </div>
 
-**Newton’s second law of motion**{: class="term" #import-auto-id765465} is
+**Newton’s second law of motion** is
 closely related to Newton’s first law of motion. It mathematically states the
 cause and effect relationship between force and changes in motion. Newton’s
 second law of motion is more quantitative and is used extensively to calculate
@@ -23,13 +23,12 @@ mentioned.
 First, what do we mean by a change in motion? The answer is that a change in
 motion is equivalent to a change in velocity. A change in velocity means, by
 definition, that there is an
-**acceleration**{: class="term" #import-auto-id3190786}.
+**acceleration**.
 Newton’s first law says that a net external force
 causes a change in motion; thus, we see that a *net external force causes acceleration*.
 
 Another question immediately arises. What do we mean by an external force? An
-intuitive notion of external is correct—an **external force**{: class="term"
-#import-auto-id3026856} acts from outside the **system**{: class="
+intuitive notion of external is correct—an **external force** acts from outside the **system**{: class="
 term"} of interest. For example, in [[Figure]](#import-auto-id1993910)(a) the
 system of interest is the wagon plus the child in it. The two forces exerted by
 the other children are external forces. An internal force acts between elements
@@ -59,8 +58,7 @@ they are assumed to cancel since there is no acceleration in the vertical
 direction. The vertical forces are the weight $$ \vb{w} $$ and the
 support of the ground $$ \vb{N} $$, and the horizontal force $$
 \vb{f} $$ represents the force of friction. These will be discussed
-in more detail in later sections. For now, we will define **friction**{:
-class="term" #import-auto-id2639388} as a force that opposes the motion past
+in more detail in later sections. For now, we will define **friction**as a force that opposes the motion past
 each other of objects that are touching. [[Figure]](#import-auto-id1993910)(b)
 shows how vectors representing the external forces add together to produce a net
 force, $$ \vb{F}_{\text{net}} $$.
@@ -163,8 +161,7 @@ United States the most familiar unit of force is the pound (lb), where 1 N =
 When an object is dropped, it accelerates toward the center of Earth. Newton’s
 second law states that a net force on an object is responsible for its
 acceleration. If air resistance is negligible, the net force on a falling object
-is the gravitational force, commonly called its **weight**{: class="term"
-#import-auto-id3064229} $$ \vb{w} $$. Weight can be denoted as a
+is the gravitational force, commonly called its **weight**, $$ \vb{w} $$. Weight can be denoted as a
 vector $$ \vb{w} $$ because it has a direction; *down* is, by
 definition, the direction of gravity, and hence weight is a downward force. The
 magnitude of weight is denoted as $$ w $$.
@@ -203,7 +200,7 @@ problems with weight.
 </div>
 
 When the net external force on an object is its weight, we say that it is in
-**free-fall**{: class="term" #import-auto-id1999571}. That is, the only force
+**free-fall**. That is, the only force
 acting on the object is the force of gravity. In the real world, when
 objects fall downward toward Earth, they are never truly in free-fall because
 there is always some upward force from the air acting on the object.

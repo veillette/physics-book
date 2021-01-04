@@ -13,7 +13,7 @@ layout: page
 </div>
 
 We have seen that in an elastic collision, internal kinetic energy is conserved.
-An **inelastic collision**{: class="term" #import-auto-id1572341} is one in
+An **inelastic collision** is one in
 which the internal kinetic energy changes (it is not conserved). This lack of
 conservation means that the forces between colliding objects may remove or add
 internal kinetic energy. Work done by internal forces may change the forms of
@@ -37,8 +37,7 @@ then stick together. Their total internal kinetic energy is initially $$
 \frac{1}{2}m v^{2}+\frac{1}{2}m v^{2}=m v^{2} $$. The two objects come to rest
 after sticking together, conserving momentum. But the internal kinetic energy is
 zero after the collision. A collision in which the objects stick together is
-sometimes called a **perfectly inelastic collision**{: class="term"
-#import-auto-id1401573} because it reduces internal kinetic energy more than
+sometimes called a **perfectly inelastic collision** because it reduces internal kinetic energy more than
 does any other type of inelastic collision. In fact, such a collision reduces
 internal kinetic energy to the minimum it can have while still conserving
 momentum.

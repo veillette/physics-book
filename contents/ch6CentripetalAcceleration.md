@@ -27,8 +27,7 @@ points along the path. Acceleration is in the direction of the change in
 velocity, which points directly toward the center of rotation (the center of the
 circular path). This pointing is shown with the vector diagram in the figure. We
 call the acceleration of an object moving in uniform circular motion (
-resulting from a net external force) the **centripetal acceleration**{:
-class="term" #import-auto-id3108952}
+resulting from a net external force) the **centripetal acceleration**
 ( $$ \ac $$); centripetal means “toward the center” or “center seeking.”
 
 ![The given figure shows a circle, with a triangle having vertices A B C made from the center to the boundary. A is at the center and B and C points are at the circle path. Lines A B and A C act as radii and B C is a chord. Delta theta is shown inside the triangle, and the arc length delta s and the chord length delta r are also given. At point B, velocity of object is shown as v one and at point C, velocity of object is shown as v two. Along the circle an equation is shown as delta v equals v sub 2 minus v sub 1.](../resources/Figure_07_02_01a.jpg "The
@@ -89,7 +88,7 @@ magnitude of centripetal acceleration using either of two equations:
 Recall that the direction of $$ \ac $$ is toward the center. You may
 use whichever expression is more convenient, as illustrated in examples below.
 
-A **centrifuge**{: class="term" #import-auto-id3256561} (
+A **centrifuge** (
 see [[Figure]](#import-auto-id3033074)b) is a rotating device used to separate
 specimens of different densities. High centripetal acceleration significantly
 decreases the time it takes for separation to occur, and makes separation
@@ -142,7 +141,7 @@ if you were not wearing a seat belt.
 <div class="title">
 How Big Is the Centripetal Acceleration in an Ultracentrifuge?
 </div>
-Calculate the centripetal acceleration of a point 7.50 cm from the axis of an **ultracentrifuge**{: class="term" #import-auto-id2449410}
+Calculate the centripetal acceleration of a point 7.50 cm from the axis of an **ultracentrifuge**
 spinning at $$ 7.5 \times 10^{4} \text{rev/min.} $$ Determine the ratio of this acceleration to that due to gravity.
 See [[Figure]](#import-auto-id3033074)(b).
 

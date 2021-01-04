@@ -33,7 +33,7 @@ Power is the rate at which work is done.
 <div class="equation">
  $$ P=\frac{W}{t} $$
 </div>
-The SI unit for power is the **watt**{: class="term" #import-auto-id1485594}
+The SI unit for power is the **watt**
 ( $$ \text{W} $$ ), where 1 watt equals 1 joule/second $$ \left(1 \text{W}=1
 \text{J/s}\right).
 $$
@@ -92,7 +92,7 @@ climbing rather than accelerating.
 </div>
 
 It is impressive that this woman’s useful power output is slightly less than
-1 **horsepower**{: class="term" #import-auto-id1522337} $$ \left(1
+1 **horsepower** $$ \left(1
 \text{hp}=746 \text{W}\right) $$ ! People can generate more than a horsepower with their leg muscles for short
 periods of time by rapidly converting available blood sugar and oxygen into work
 output. (A horse can put out 1 hp for hours on end.) Once oxygen is depleted,
@@ -168,8 +168,8 @@ electricity company. So the energy consumed over a time $$ t $$ is
  $$ E=P t .$$
 </div>
 
-Electricity bills state the energy used in units of **kilowatt-hours**{:
-class="term" #import-auto-id1733623} $$ \left(\text{kW}\cdot h\right), $$
+Electricity bills state the energy used in units 
+of **kilowatt-hours** $$ \left(\text{kW}\cdot h\right), $$
 which is the product of power in kilowatts and time in hours. This unit is
 convenient because electrical power consumption at the kilowatt level for hours
 at a time is typical.

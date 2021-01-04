@@ -20,7 +20,7 @@ discussed later in this text.
 
 ### Normal Force
 
-**Weight**{: class="term" #import-auto-id1910210} (also called force of
+**Weight** (also called force of
 gravity) is a pervasive force that acts at all times and must be counteracted to
 keep an object from falling. You definitely notice that you must support the
 weight of a heavy object by pushing up on it when you hold it stationary, as
@@ -48,7 +48,7 @@ We must conclude that whatever supports a load, be it animate or not, must
 supply an upward force equal to the weight of the load, as we assumed in a few
 of the previous examples. If the force supporting a load is perpendicular to the
 surface of contact between the load and its support, this force is defined to be
-a **normal force**{: class="term" #import-auto-id1254224} and here is
+a **normal force** and here is
 given the symbol $$ \vb{N} $$. (This is not the unit for force N.)
 The word *normal* means perpendicular to a surface. The normal force can
 be less than the object’s weight if the object is on an incline, as you will see
@@ -238,7 +238,7 @@ Try two more angles. What does this show?
 
 ### Tension
 
-A **tension**{: class="term" #import-auto-id1608257} is a force along
+A **tension** is a force along
 the length of a medium, especially a force carried by a flexible medium, such as
 a rope or cable. The word “tension” comes from a Latin word meaning “to
 stretch.” Not coincidentally, the flexible cords that carry muscle forces to
@@ -481,7 +481,7 @@ the west that has no physical origin. Of course, what is happening here is that
 Earth is rotating toward the east and moves east under the satellite. In Earth’s
 frame this looks like a westward force on the satellite, or it can be
 interpreted as a violation of Newton’s first law (the law of inertia). An
-**inertial frame of reference**{: class="term" #import-auto-id2695882} is one
+**inertial frame of reference** is one
 in which all forces are real and, equivalently, one in which Newton’s laws have
 the simple forms given in this chapter.
 

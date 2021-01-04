@@ -9,7 +9,7 @@ layout: page
 
 </div>
 
-**Dynamics**{: class="term" #import-auto-id2134480} is the study of the
+**Dynamics** is the study of the
 forces that cause objects and systems to move. To understand this, we need a
 working definition of force. Our intuitive definition of **force**{: class="
 term" #import-auto-id2712510}—that is, a push or a pull—is a good place to
@@ -30,9 +30,8 @@ developed in [Two-Dimensional Kinematics](../contents/ch3TwoDimensionalKinematic
 {: #import-auto-id2379809}
 
 [[Figure]](#import-auto-id2379809)(b) is our first example of a **free-body
-diagram**{: class="term" #import-auto-id1590568}, which is a technique used
-to illustrate all the **external forces**{: class="term"
-#import-auto-id1608860} acting on a body. The body is represented by a single
+diagram**, which is a technique used
+to illustrate all the **external forces** acting on a body. The body is represented by a single
 isolated point (or free body), and only those forces acting *on* the body from the
 outside (external forces) are
 shown. (These forces are the only ones shown, because only external forces
@@ -74,8 +73,7 @@ To investigate force standards and cause and effect, get two identical rubber ba
 * **Force** is a push or pull that can be defined in terms
   of various standards, and it is a vector having both magnitude and direction.
 * **External forces** are any outside forces that act on a
-  body. A **free-body diagram**{:
-  class="term"} is a drawing of all external forces acting on a body.
+  body. A **free-body diagram** is a drawing of all external forces acting on a body.
 
 ### Conceptual Questions
 

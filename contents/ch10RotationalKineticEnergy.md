@@ -18,7 +18,7 @@ created as layers of steel are pared from the pole. The stone continues to turn
 even after the motor is turned off, but it is eventually brought to a stop by
 friction. Clearly, the motor had to work to get the stone spinning. This work
 went into heat, light, sound, vibration, and considerable **rotational kinetic
-energy**{: class="term" #import-auto-id2669979} .
+energy** .
 
 ![The figure shows a mechanic cutting metal with a metal grinder. The sparks are emerging from the point of contact and jumping off tangentially from the cutter.](../resources/Figure_11_04_01a.jpg "The motor works in spinning the grindstone, giving it rotational kinetic energy. That energy is then converted to heat, light, sound, and vibration. (credit: U.S. Navy photo by Mass Communication Specialist Seaman Zachary David Bell)")
 {: #import-auto-id3229349}
@@ -94,11 +94,10 @@ Substituting this into the equation for net $$ W $$ and gathering terms yields
  $$ \text{net}W=\frac{1}{2}I\omega^{2}-\frac{1}{2}I \omega_{0}^{2}. $$
 </div>
 
-This equation is the **work-energy theorem**{: class="term"
-#import-auto-id2409820} for rotational motion only. As you may recall, net work
+This equation is the **work-energy theorem** for rotational motion only. As you may recall, net work
 changes the kinetic energy of a system. Through an analogy with translational
 motion, we define the term $$ \left(\frac{1}{2}\right)I\omega^{2} $$ to be
-**rotational kinetic energy**{: class="term" #import-auto-id3012447} $$
+**rotational kinetic energy** $$
 \KE_{\text{rot}} $$ for an object with a moment of inertia $$ I $$ and
 an angular velocity $$ \omega $$ :
 
@@ -548,8 +547,7 @@ My solar system
   energy into the blades.
 * {: #import-auto-id3224025} Work and energy in rotational motion are completely
   analogous to work and energy in translational motion.
-* {: #import-auto-id2453212} The equation for the **work-energy theorem**{:
-  class="term"} for rotational motion is,
+* {: #import-auto-id2453212} The equation for the **work-energy theorem** for rotational motion is,
   <div class="equation" id="eip-669">
  $$ \text{net}W=\frac{1}{2}I\omega^{2}-\frac{1}{2}I \omega_{0}^{2} . $$
   </div>

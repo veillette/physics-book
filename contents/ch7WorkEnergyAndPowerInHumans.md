@@ -26,10 +26,8 @@ body fat.
 ### Power Consumed at Rest
 
 The *rate* at which the body uses food energy to sustain life and to do
-different activities is called the **metabolic rate**{: class="term"
-#import-auto-id1143113}. The total energy conversion rate of a person *at rest*
-is called the **basal metabolic rate**{: class="term"
-#import-auto-id2859421} (BMR) and is divided among various systems in the body,
+different activities is called the **metabolic rate**. The total energy conversion rate of a person *at rest*
+is called the **basal metabolic rate** (BMR) and is divided among various systems in the body,
 as shown in [[Figure]](#import-auto-id2209139). The largest fraction goes to the
 liver and spleen, with the brain coming next. Of course, during vigorous
 exercise, the energy consumption of the skeletal muscles and heart increase
@@ -61,8 +59,7 @@ rates (power expended) for a variety of activities.
 
 ### Power of Doing Useful Work
 
-Work done by a person is sometimes called **useful work**{: class="term"
-#import-auto-id2048124}, which is *work done on the outside world*, such as
+Work done by a person is sometimes called **useful work**, which is *work done on the outside world*, such as
 lifting weights. Useful work requires a force exerted through a distance on the
 outside world, and so it excludes internal work, such as that done by the heart
 when pumping blood. Useful work does include that done in climbing stairs or

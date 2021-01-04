@@ -27,8 +27,7 @@ are labeled with smaller type.
 ![In the figure a man is shown balancing a child on his hand. The child is enjoying the activity.](../resources/Figure_10_03_01a.jpg "A man balances a toy doll on one hand.")
 {: #import-auto-id3549449}
 
-A system is said to be in **stable equilibrium**{: class="term"
-#import-auto-id2720918} if, when displaced from equilibrium, it experiences
+A system is said to be in **stable equilibrium** if, when displaced from equilibrium, it experiences
 a net force or torque in a direction opposite to the direction of the
 displacement. For example, a marble at the bottom of a bowl will experience a
 *restoring* force when displaced from its equilibrium position. This force moves

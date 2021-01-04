@@ -40,11 +40,11 @@ object through the air, while friction between objects—such as between clothes
 and a laundry chute or between a stone and a pool into which it is dropped—also
 opposes motion between them. For the ideal situations of these first few
 chapters, an object *falling without air resistance or friction* is defined to
-be in **free-fall**{: class="term" #import-auto-id1714641}.
+be in **free-fall**.
 
 The force of gravity causes objects to fall toward the center of Earth. The
 acceleration of free-falling objects is therefore called the **acceleration due
-to gravity**{: class="term" #import-auto-id1707599}. The acceleration due to
+to gravity**. The acceleration due to
 gravity is *constant*, which means we can apply the kinematics equations to any
 falling object where air resistance and friction are negligible. This opens a
 broad class of interesting situations to us. The acceleration due to gravity is

@@ -95,8 +95,7 @@ state.)
 This result—that momentum is conserved—has validity far beyond the preceding
 one-dimensional case. It can be similarly shown that total momentum is conserved
 for any isolated system, with any number of objects in it. In equation form,
-the **conservation of momentum principle**{: class="term"
-#import-auto-id1671854} for an isolated system is written
+the **conservation of momentum principle** for an isolated system is written
 
 <div class="equation" id="eip-986">
  $$ \vb{p}_{\text{tot}}=\text{constant}, $$
@@ -230,8 +229,7 @@ to analyze the masses and other properties of previously undetected particles,
 such as the nucleus of an atom and the existence of quarks that make up
 particles of nuclei. [[Figure]](#import-auto-id1700285) below illustrates how a
 particle scattering backward from another implies that its target is massive and
-dense. Experiments seeking evidence that **quarks**{: class="term"
-#import-auto-id1667063} make up protons (one type of particle that makes up
+dense. Experiments seeking evidence that **quarks** make up protons (one type of particle that makes up
 nuclei) scattered high-energy electrons off
 
 of protons (nuclei of hydrogen atoms). Electrons occasionally scattered straight

@@ -19,7 +19,7 @@ layout: page
 ### Accuracy and Precision of a Measurement
 
 Science is based on observation and experiment—that is, on measurements.
-**Accuracy**{: class="term" #import-auto-id2543264} is how close a
+**Accuracy** is how close a
 measurement is to the correct value for that measurement. For example, let us
 say that you are measuring the length of standard computer paper. The packaging in
 which you purchased the paper states that it is 11.0 inches long. You measure
@@ -29,7 +29,7 @@ are very close to the correct value of 11.0 inches. In contrast, if you had
 obtained a measurement of 12 inches, your measurement would not be very
 accurate.
 
-The **precision**{: class="term" #import-auto-id2607150} of a measurement
+The **precision** of a measurement
 system is refers to how close the agreement is between repeated measurements (
 which are repeated under the same conditions). Consider the example of the paper
 measurements. The precision of the measurements refers to the spread of the
@@ -73,7 +73,7 @@ dots are concentrated rather closely to one another, indicating high precision, 
 ### Accuracy, Precision, and Uncertainty
 
 The degree of accuracy and precision of a measuring system are related to the
-**uncertainty**{: class="term" #import-auto-id1745835} in the measurements.
+**uncertainty** in the measurements.
 Uncertainty is a quantitative measure of how much your measured values
 deviate from a standard or expected value. If your measurements are not very
 accurate or precise, then the uncertainty of your values will be very high. In
@@ -126,7 +126,7 @@ be useless.
 
 One method of expressing uncertainty is as a percent of the measured value. If a
 measurement $$ A $$ is expressed with uncertainty, $$ \delta A $$, the **percent
-uncertainty**{: class="term" #import-auto-id3102818} (%unc)
+uncertainty** (%unc)
 is defined to be
 
 <div class="equation" id="eip-718">
@@ -188,8 +188,7 @@ example, the area of a floor calculated from measurements of its length and
 width has an uncertainty because the length and width have uncertainties. How
 big is the uncertainty in something you calculate by multiplication or division?
 If the measurements going into the calculation have small uncertainties (a few
-percent or less), then the **method of adding percents**{: class="term"
-#import-auto-id1516086} can be used for multiplication or division. This method
+percent or less), then the **method of adding percents** can be used for multiplication or division. This method
 says that **the percent uncertainty in a quantity calculated by multiplication or division is the sum of the percent
 uncertainties in the items used to make the calculation**. For example, if a
 floor has a length of $$ 4.00\m $$ and a width of $$ 3.00\m $$, with
@@ -235,7 +234,7 @@ the person performing the measurement. For example, the person measuring the
 length of a stick with a ruler notices that the stick length seems to be
 somewhere in between $$ 36.6\text{cm} $$ and $$ 36.7\text{cm} $$, and they
 must estimate the value of the last digit. Using the method of **significant
-figures**{: class="term" #import-auto-id2992464}, the rule is that **the
+figures**, the rule is that **the
 last digit written down in a measurement is the first digit with some
 uncertainty**. In order to determine the number of significant digits in a
 value, start with the first measured value at the left and count the number of

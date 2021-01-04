@@ -25,11 +25,10 @@ describe rotational motion.
 When objects rotate about some axis—for example, when the CD (compact disc)
 in [[Figure]](#import-auto-id3402904)
 rotates about its center—each point in the object follows a circular arc.
-Consider a line from the center of the CD to its edge. Each **pit**{:
-class="term" #import-auto-id2654027} used to record sound along this line
+Consider a line from the center of the CD to its edge. Each **pit** used to record sound along this line
 moves through the same angle in the same amount of time. The rotation angle is
 the amount of rotation and is analogous to linear distance. We define the
-**rotation angle**{: class="term" #import-auto-id3255842} $$ \Delta\theta $$
+**rotation angle** $$ \Delta\theta $$
 to be the ratio of the arc length to the radius of curvature:
 
 <div class="equation" id="eip-211">
@@ -55,10 +54,10 @@ is rotated through an angle \( \Delta \theta \). The arc length \( \Delta s \)
 is described on the circumference. ")
 {: #import-auto-id3418263}
 
-The **arc length**{: class="term" #import-auto-id2679165} $$ \Delta s $$ is
+The **arc length** $$ \Delta s $$ is
 the distance traveled along a circular path as shown
 in [[Figure]](#import-auto-id3418263) Note that $$ r $$ is the
-**radius of curvature**{: class="term" #import-auto-id2920709} of the circular path.
+**radius of curvature** of the circular path.
 
 We know that for one complete revolution, the arc length is the circumference of
 a circle of radius $$ r $$. The circumference of a circle is $$ 2\pi r $$. Thus
@@ -69,7 +68,7 @@ for one complete revolution the rotation angle is
 </div>
 
 This result is the basis for defining the units used to measure rotation angles,
-$$ \Delta\theta $$ to be **radians**{: class="term" #import-auto-id2625941} (rad), defined so that
+$$ \Delta\theta $$ to be **radians** (rad), defined so that
 
 <div class="equation" id="eip-135">
  $$ 2\pi \text{rad}=1 \text{revolution.} $$

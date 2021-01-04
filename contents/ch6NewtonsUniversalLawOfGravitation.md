@@ -45,8 +45,7 @@ propose a mechanism that caused them to follow these paths and not others.
 
 The gravitational force is relatively simple. It is always attractive, and it
 depends only on the masses involved and the distance between them. Stated in
-modern language, **Newton’s universal law of gravitation**{: class="term"
-#import-auto-id3092070} states that every particle in the universe attracts
+modern language, **Newton’s universal law of gravitation** states that every particle in the universe attracts
 every other particle with a force along a line joining them. The force is directly proportional to the product of their
 masses and inversely proportional to the square of the distance between them.
 
@@ -64,7 +63,7 @@ consistent with Newton’s third law.
 
 The bodies we are dealing with tend to be large. To simplify the situation we
 assume that the body acts as if its entire mass is concentrated at one specific
-point called the **center of mass**{: class="term" #import-auto-id1546552} (
+point called the **center of mass** (
 CM) , which will be further explored
 in [Linear Momentum and Collisions](../contents/ch8LinearMomentumAndCollisions.md). For two bodies having
 masses $$ m $$ and $$ M $$ with a distance $$ r $$ between their centers of
@@ -309,7 +308,7 @@ weightlessness in some rides in amusement parks.
 ![The figure shows some astronauts floating inside the International Space Station](../resources/Figure_07_05_07ab.jpg "Astronauts experiencing weightlessness on board the International Space Station. (credit: NASA)")
 {: #import-auto-id1849514}
 
-**Microgravity**{: class="term" #import-auto-id2403352} refers to an
+**Microgravity** refers to an
 environment in which the apparent net acceleration of a body is small compared
 with that produced by Earth at its surface. Many interesting biology and physics
 topics have been studied over the past three decades in the presence of

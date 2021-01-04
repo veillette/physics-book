@@ -11,7 +11,7 @@ layout: page
 
 </div>
 
-**Friction**{: class="term" #import-auto-id1165298484489} is a force that is
+**Friction** is a force that is
 around us all the time that opposes relative motion between systems in contact
 but also allows us to move (which you have discovered if you have ever tried to
 walk on ice). While a common force, the behavior of friction is actually very
@@ -34,8 +34,7 @@ attempted motion of the systems relative to each other. If two systems are in
 contact and moving relative to one another, then the friction between them is
 called **kinetic friction**{: class="
 term" #import-auto-id1165296294917}. For example, friction slows a hockey puck
-sliding on ice. But when objects are stationary, **static friction**{:
-class="term" #import-auto-id1165298806829}
+sliding on ice. But when objects are stationary, **static friction**
 can act between them; the static friction is usually greater than the
 kinetic friction between the objects.
 

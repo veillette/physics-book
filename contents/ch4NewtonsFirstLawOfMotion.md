@@ -12,8 +12,7 @@ layout: page
 
 Experience suggests that an object at rest will remain at rest if left alone,
 and that an object in motion tends to slow down and stop unless some effort is
-made to keep it moving. What **Newton’s first law of motion**{: class="term"
-#import-auto-id1777407} states, however, is the following:
+made to keep it moving. What **Newton’s first law of motion** states, however, is the following:
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -26,8 +25,7 @@ A body at rest remains at rest, or, if in motion, remains in motion at a constan
 Note the repeated use of the verb “remains.” We can think of this law as
 preserving the status quo of motion.
 
-Rather than contradicting our experience, **Newton’s first law of motion**{:
-class="term"} states that there must be a *cause* (which is a net external
+Rather than contradicting our experience, **Newton’s first law of motion** states that there must be a *cause* (which is a net external
 force) *for there to be any change in velocity (either a change in magnitude or
 direction)*. We will define *net external force* in the next section. An object
 sliding across a table or floor slows down due to the net force of friction
@@ -66,14 +64,12 @@ perhaps, but not a useful insight.
 ### Mass
 
 The property of a body to remain at rest or to remain in motion with constant
-velocity is called **inertia**{: class="term" #import-auto-id2134480} .
-Newton’s first law is often called the **law of inertia**{: class="term"
-#import-auto-id1408275}. As we know from experience, some objects have more
+velocity is called **inertia** .
+Newton’s first law is often called the **law of inertia**. As we know from experience, some objects have more
 inertia than others. It is obviously more
 
 difficult to change the motion of a large boulder than that of a basketball, for
-example. The inertia of an object is measured by its **mass**{: class="term"
-#import-auto-id1500464}. Roughly speaking, mass is a measure of the amount of
+example. The inertia of an object is measured by its **mass**. Roughly speaking, mass is a measure of the amount of
 “stuff” (or matter) in something. The quantity or amount of matter in an object
 is determined by the numbers of atoms and molecules of various types it
 contains. Unlike weight, mass does not vary with location. The mass of an object

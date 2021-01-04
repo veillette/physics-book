@@ -16,7 +16,7 @@ displacement of moving objects.
 
 ### Vectors in Two Dimensions
 
-A **vector**{: class="term" #import-auto-id1165296389850} is a quantity that
+A **vector** is a quantity that
 has magnitude and direction. Displacement, velocity, acceleration, and force,
 for example, are all vectors. In one-dimensional, or straight-line, motion, the
 direction of a vector can be given simply by a plus or minus sign. In two
@@ -67,12 +67,11 @@ magnitude  \( \mag{D} \)  of the vector is 10.3 units, and the direction  \(
 
 ### Vector Addition: Head-to-Tail Method
 
-The **head-to-tail method**{: class="term" #import-auto-id1165298552505} is
+The **head-to-tail method** is
 a graphical way to add vectors, described
 in [[Figure]](#import-auto-id1165298643218) below and in the steps following.
-The **tail**{: class="term" #import-auto-id1165298535408} of the vector is
-the starting point of the vector, and the **head**{: class="term"
-#import-auto-id1165298982372} (or tip) of a vector is the final, pointed end of
+The **tail** of the vector is
+the starting point of the vector, and the **head** (or tip) of a vector is the final, pointed end of
 the arrow.
 
 ![In part a, a vector of magnitude of nine units and making an angle of theta is equal to zero degrees is drawn from the origin and along the positive direction of x axis. In part b a vector of magnitude of nine units and making an angle of theta is equal to zero degree is drawn from the origin and along the positive direction of x axis. Then a vertical arrow from the head of the horizontal arrow is drawn. In part c a vector D of magnitude ten point three is drawn from the tail of the horizontal vector at an angle theta is equal to twenty nine point one degrees from the positive direction of x axis. The head of the vector D meets the head of the vertical vector. A scale is shown parallel to the vector D to measure its length. Also a protractor is shown to measure the inclination of the vectorD.](../resources/Figure_03_02_03.jpg "Head-to-Tail Method: The head-to-tail method of graphically adding vectors is illustrated for the two displacements of the person walking in a city considered in [link].
@@ -101,19 +100,16 @@ each vector to be added. Note that in our example, we have only two vectors, so
 we have finished placing arrows tip to tail*.
 
 ***Step 4.*** *Draw an arrow from the tail of the first vector to the head of
-the last vector*. This is the **resultant**{: class="term"
-#import-auto-id1165296311722}, or the sum, of the other vectors.
+the last vector*. This is the **resultant**, or the sum, of the other vectors.
 
 ![In part c, a vector D of magnitude ten point three is drawn from the tail of the horizontal vector at an angle theta is equal to twenty nine point one degrees from the positive direction of the x axis. The head of the vector D meets the head of the vertical vector. A scale is shown parallel to the vector D to measure its length. Also a protractor is shown to measure the inclination of the vector D.](../resources/Figure_03_02_06a.jpg)
 {: #import-auto-id1165299000967}
 
-***Step 5.*** To get the **magnitude**{: class="term"
-#import-auto-id1165298794109} of the resultant, *measure its length with a
+***Step 5.*** To get the **magnitude** of the resultant, *measure its length with a
 ruler. (Note that in most calculations, we will use the Pythagorean theorem to
 determine this length.)*
 
-***Step 6.*** To get the **direction**{: class="term"
-#import-auto-id1165298932041} of the resultant, **measure the angle it makes
+***Step 6.*** To get the **direction** of the resultant, **measure the angle it makes
 with the reference frame using a protractor. (Note that in most calculations, we
 will use trigonometric relationships to determine this angle.)**
 
@@ -186,8 +182,7 @@ still get the same solution.
 
 Here, we see that when the same vectors are added in a different order, the
 result is the same. This characteristic is true in every case and is an
-important characteristic of vectors. Vector addition is **commutative**{:
-class="term"}. Vectors can be added in any order.
+important characteristic of vectors. Vector addition is **commutative**. Vectors can be added in any order.
 
 <div class="equation" id="eip-376">
  $$ \vb{A}+\vb{B}=\vb{B}+\vb{A}. $$
@@ -304,7 +299,7 @@ If we decided to walk three times as far on the first leg of the trip considered
 in the preceding example, then we would walk $$ 3 \times 27.5 \m $$, or
 82.5 m, in a direction $$ 66.0^\circ $$ north of east. This is an example of
 multiplying a vector by a positive
-**scalar**{: class="term" #import-auto-id1165296219603}.
+**scalar**.
 Notice that the magnitude changes, but the
 direction stays the same.
 
@@ -334,7 +329,7 @@ In the examples above, we have been adding vectors to determine the resultant
 vector. In many cases, however, we will need to do the opposite. We will need to
 take a single vector and find what other vectors added together produce it. In
 most cases, this involves determining the
-perpendicular **components**{: class="term" #import-auto-id1165298555736}
+perpendicular **components**
 of a single vector, for example the **x**- and **y**-components,
 or the north-south and east-west components.
 
@@ -388,8 +383,7 @@ Maze Game
   \vb{A}-\vb{B}=\vb{A}+\left(-\vb{B}\right)=\vb{R} $$. Then, the 
   head-to-tail method of addition is
   followed in the usual way to obtain the resultant vector $$ \vb{R} $$.
-* {: #import-auto-id1165296680072} Addition of vectors is **commutative**{:
-  class="term" # import-auto-id1165296680069} such that $$
+* {: #import-auto-id1165296680072} Addition of vectors is **commutative** such that $$
   \vb{A}+\vb{B}=\vb{B}+\vb{A} $$.
 * {: #import-auto-id1165296269519} The **head-to-tail method**{: class="
   term" #import-auto-id1165298982089} of adding vectors involves drawing the

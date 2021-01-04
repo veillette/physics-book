@@ -55,7 +55,7 @@ in the answer in order to show the result more precisely.)
 The fact that the straight-line distance (10.3 blocks)
 in [[Figure]](#import-auto-id1165298535408) is less than the total distance
 walked (14 blocks) is one example of a general characteristic of vectors. (
-Recall that **vectors**{: class="term" #import-auto-id1165298541000} are
+Recall that **vectors** are
 quantities that have both magnitude and direction.)
 
 As for one-dimensional kinematics, we use arrows to represent vectors. The

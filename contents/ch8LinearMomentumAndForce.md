@@ -16,8 +16,7 @@ layout: page
 
 The scientific definition of linear momentum is consistent with most people’s
 intuitive understanding of momentum: a large, fast-moving object has greater
-momentum than a smaller, slower object. **Linear momentum**{: class="term"
-#import-auto-id1343909} is defined as the product of a system’s mass multiplied
+momentum than a smaller, slower object. **Linear momentum** is defined as the product of a system’s mass multiplied
 by its velocity. In symbols, linear
 momentum is expressed as
 
@@ -101,7 +100,7 @@ of momentum in later sections.
 The importance of momentum, unlike the importance of energy, was recognized
 early in the development of classical physics. Momentum was deemed so important
 that it was called the “quantity of motion.” Newton actually stated his **second
-law of motion**{: class="term" #import-auto-id1513532} in terms of momentum:
+law of motion** in terms of momentum:
 The net external force equals the change in momentum of a system divided by the
 time over which it changes. Using symbols, this law is
 

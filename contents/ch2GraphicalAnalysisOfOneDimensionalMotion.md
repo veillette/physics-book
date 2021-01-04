@@ -23,9 +23,8 @@ versus time to illustrate one-dimensional kinematics.
 First note that graphs in this text have perpendicular axes, one horizontal and
 the other vertical. When two physical quantities are plotted against one another
 in such a graph, the horizontal axis is usually considered to be an
-**independent variable**{: class="term" #import-auto-id1690042} and the
-vertical axis a **dependent variable**{: class="term"
-#import-auto-id2013112} . If we call the horizontal axis the $$ x $$ -axis and
+**independent variable** and the
+vertical axis a **dependent variable**. If we call the horizontal axis the $$ x $$ -axis and
 the vertical axis the $$ y $$ -axis, as in [[Figure]](#import-auto-id2359358), a
 straight-line graph has the general form
 
@@ -33,10 +32,9 @@ straight-line graph has the general form
  $$ y= m x+b. $$
 </div>
 
-Here $$ m $$ is the **slope**{: class="term" #import-auto-id1773074},
+Here $$ m $$ is the **slope**,
 defined to be the rise divided by the run (as seen in the figure) of the
-straight line. The letter $$ b $$ is used for the **y-intercept**{:
-class="term" #import-auto-id2955215}, which is the point at which the line
+straight line. The letter $$ b $$ is used for the **y-intercept**, which is the point at which the line
 crosses the vertical axis.
 
 ![Graph of a straight-line sloping up at about 40 degrees.](../resources/Figure_02_07_01.jpg "A

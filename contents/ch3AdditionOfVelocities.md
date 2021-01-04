@@ -29,7 +29,7 @@ carries it sideways.
 ![An airplane is trying to fly straight north with velocity v sub p. Due to wind velocity v sub w in south west direction making an angle theta with the horizontal axis, the plane&#x2019;s total velocity is thirty eight point 0 meters per seconds oriented twenty degrees west of north.](../resources/Figure_03_05_02a.jpg "An airplane heading straight north is instead carried to the west and slowed down by wind. The plane does not move relative to the ground in the direction it points; rather, it moves in the direction of its total velocity (solid arrow).")
 {: #import-auto-id1851600}
 
-In each of these situations, an object has a **velocity**{: class="term"#import-auto-id1831655}
+In each of these situations, an object has a **velocity**
 relative to a medium (such as a river) and that medium
 has a velocity relative to an observer on solid ground. The velocity of the
 object **relative to the observer** is the sum of these velocity vectors, as
@@ -40,8 +40,7 @@ add velocities and then consider certain aspects of what relative velocity
 means.
 
 How do we add velocities? Velocity is a vector (it has both magnitude and
-direction); the rules of **vector addition**{: class="term"
-#import-auto-id1402169} discussed
+direction); the rules of **vector addition** discussed
 in [Vector Addition and Subtraction: Graphical Methods](../contents/ch3VectorAdditionAndSubtractionGraphicalMethods.md)
 and [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md)
 apply to the addition of velocities, just as they do for any other vectors. In
@@ -291,12 +290,11 @@ use a coordinate system with one axis parallel to gravity.
 
 When adding velocities, we have been careful to specify that the **velocity is
 relative to some reference frame**. These velocities are called **relative
-velocities**{: class="term" #import-auto-id1929302}. For example, the
+velocities**. For example, the
 velocity of an airplane relative to an air mass is different from its velocity
 relative to the ground. Both are quite different from the velocity of an
 airplane relative to its passengers (which should be close to zero). Relative
-velocities are one aspect of **relativity**{: class="term"
-#import-auto-id1982113}, which is defined to be the study of how different
+velocities are one aspect of **relativity**, which is defined to be the study of how different
 observers moving relative to each other measure the same phenomenon.
 
 Nearly everyone has heard of relativity and immediately associates it with
