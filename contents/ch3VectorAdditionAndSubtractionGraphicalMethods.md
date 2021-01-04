@@ -694,7 +694,7 @@ head of the previous vector
 
 magnitude (of a vector)
 : the length or size of a vector; magnitude is a scalar quantity
-{:#import-auto-id1165298837863}
+
 
 resultant
 : the sum of two or more vectors
@@ -710,6 +710,6 @@ scalar
 
 tail
 : the start point of a vector; opposite to the head or tip of the arrow
-{:#import-auto-id1165298863823}
+
 
 </div>
