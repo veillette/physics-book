@@ -4,7 +4,7 @@ layout: page
 ---
 
 ![Layered rock formation.](../resources/Figure_10_00_01_D.jpg "On a short time scale, rocks like these in Australia&#x2019;s Kings Canyon are static, or motionless relative to the Earth.  (credit: freeaussiestock.com)")
-{: #import-auto-id1398204}
+{: #fig1}
 
 What might desks, bridges, buildings, trees, and mountains have in common—at
 least in the eyes of a physicist? The answer is that they are ordinarily
@@ -20,7 +20,10 @@ are forces acting, but they are balanced. That is, they are in *equilibrium*.
 <div class="title">
 Statics
 </div>
-Statics is the study of forces in equilibrium, a large group of situations that makes up a special case of Newton’s second law. We have already considered a few such situations; in this chapter, we cover the topic more thoroughly, including consideration of such possible effects as the rotation and deformation of an object by the forces acting on it.
+Statics is the study of forces in equilibrium, a large group of situations that makes up a 
+special case of Newton’s second law. We have already considered a few such situations; 
+in this chapter, we cover the topic more thoroughly, including consideration of such possible
+effects as the rotation and deformation of an object by the forces acting on it.
 
 </div>
 

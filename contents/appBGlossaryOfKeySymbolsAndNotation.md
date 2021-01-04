@@ -221,4 +221,4 @@ In this glossary, key symbols and notation are briefly defined.
  | $$ y $$ | vertical axis |
  | $$ Y $$ | elastic modulus or Young\'s modulus |
  | $$ Z $$ | atomic number (number of protons in a nucleus) |
-{: #import-auto-id1688908 summary="......."}
+{: #table1}
