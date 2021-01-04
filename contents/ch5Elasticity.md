@@ -44,9 +44,8 @@ relationship between the extension $$ \Delta L $$ of a spring or of a human
 bone. For metals or springs, the straight line region in which Hooke’s law
 pertains is much larger. Bones are brittle and the elastic region is small and
 the fracture abrupt. Eventually a large enough stress to the material will cause
-it to break or fracture. **Tensile strength**{: class="
-term"} is the breaking stress that will cause permanent deformation or fracture
-of a material.
+it to break or fracture. **Tensile strength** is the breaking stress that will
+cause permanent deformation or fracture of a material.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">

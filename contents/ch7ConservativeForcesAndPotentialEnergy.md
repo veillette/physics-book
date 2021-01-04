@@ -16,8 +16,7 @@ layout: page
 Work is done by a force, and some forces, such as weight, have special
 characteristics. A **conservative force** is one, like the gravitational force, for which work
 done by or against it depends only on the starting and ending points of a motion
-and not on the path taken. We can define a **potential energy**{: class="
-term" #import-auto-id2177452} $$ \left(\PE\right)
+and not on the path taken. We can define a **potential energy** $$ \left(\PE\right)
 $$ for any conservative force, just as we did for the gravitational force. For
 example, when you wind up a toy, an egg timer, or an old-fashioned watch, you do
 work against its spring and store energy in it. (We treat these springs as
@@ -66,8 +65,7 @@ x=\frac{1}{2}k x^{2} $$. Alternatively, we noted
 in [Kinetic Energy and the Work-Energy Theorem](../contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md) that the area
 under a graph of $$ F $$ vs. $$ x $$ is the work done by the force.
 In [[Figure]](#fs-id1593673)(c) we see that this area is also $$ \frac{1}{2}k
-x^{2} $$. We therefore define the **potential energy of a spring**{: class="
-term"}, $$ \PE_{s} $$, to be
+x^{2} $$. We therefore define the **potential energy of a spring**, $$ \PE_{s} $$, to be
 
 <div class="equation">
  $$ \PE_{\s}=\frac{1}{2} k x^{2} , $$

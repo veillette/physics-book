@@ -15,8 +15,7 @@ layout: page
 The effect of a force on an object depends on how long it acts, as well as how
 great the force is. In [[Figure]](../contents/ch8LinearMomentumAndForce.md#fs-id1356444), a very large
 force acting for a short time had a great effect on the momentum of the tennis
-ball. A small force could cause the same **change in momentum**{: class="
-term"}, but it would have to act for a much longer time. For example, if the
+ball. A small force could cause the same **change in momentum**, but it would have to act for a much longer time. For example, if the
 ball were thrown upward, the gravitational force (which is much smaller than the
 tennis racquet’s force) would eventually reverse the momentum of the ball.
 Quantitatively, the effect we are talking about is the change in momentum $$

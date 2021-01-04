@@ -31,8 +31,7 @@ One of the simpler characteristics of friction is that it is parallel to the
 contact surface between systems and always in a direction that opposes motion or
 attempted motion of the systems relative to each other. If two systems are in
 contact and moving relative to one another, then the friction between them is
-called **kinetic friction**{: class="
-term" #import-auto-id1165296294917}. For example, friction slows a hockey puck
+called **kinetic friction**. For example, friction slows a hockey puck
 sliding on ice. But when objects are stationary, **static friction**
 can act between them; the static friction is usually greater than the
 kinetic friction between the objects.

@@ -76,8 +76,7 @@ are taken to be length, mass, time, and electric current. (Note that electric
 current will not be introduced until much later in this text.) All other
 physical quantities, such as force and electric charge, can be expressed as
 algebraic combinations of length, mass, time, and current (for example, speed is
-length divided by time); these units are called **derived units**{: class="
-term" #import-auto-id1950609}.
+length divided by time); these units are called **derived units**.
 
 ### Units of Time, Length, and Mass: The Second, Meter, and Kilogram
 

@@ -56,8 +56,8 @@ In equation form, angular acceleration is expressed as follows:
  $$ \alpha =\frac{ \Delta \omega }{\Delta t}, $$
 </div>
 
-where $$ \Delta \omega $$ is the **change in angular velocity**{: class="
-term" #import-auto-id3406201} and $$ \Delta t $$ is the change in time. The
+where $$ \Delta \omega $$ is the **change in angular velocity** and $$ \Delta t $$ 
+is the change in time. The
 units of angular acceleration are $$ \left(\rads \right)\text{/s} $$,
 or $$ \radss $$. If $$ \omega $$
 increases, then $$ \alpha $$ is positive. If $$ \omega $$ decreases, then $$
