@@ -148,17 +148,17 @@ fat production.
 
 ### Section Summary
 
-* {: #import-auto-id2206939} The human body converts energy stored in food into
+* The human body converts energy stored in food into
   work, thermal energy, and/or chemical energy that is stored in fatty tissue.
-* {: #import-auto-id1888740} The *rate* at which the body uses food energy to
+* The *rate* at which the body uses food energy to
   sustain life and to do different activities is called the metabolic rate, and
   the corresponding rate when at rest is called the basal metabolic rate (  BMR)
-* {: #import-auto-id1616063} The energy included in the basal metabolic rate is
+* The energy included in the basal metabolic rate is
   divided among various systems in the body, with the largest fraction going to
   the liver and spleen, and the brain coming next.
-* {: #import-auto-id1397953} About 75% of food calories are used to sustain
+* About 75% of food calories are used to sustain
   basic body functions included in the basal metabolic rate.
-* {: #import-auto-id2163310} The energy consumption of people during various
+* The energy consumption of people during various
   activities can be determined by measuring their oxygen use, because the
   digestive process is basically one of oxidizing food.
 

@@ -149,9 +149,9 @@ explanations.
 
 ### Section Summary
 
-* {: #import-auto-id2639532} Rotating and accelerated frames of reference are
+* Rotating and accelerated frames of reference are
   non-inertial.
-* {: #import-auto-id1452906} Fictitious forces, such as the Coriolis force, are
+* Fictitious forces, such as the Coriolis force, are
   needed to explain motion in such frames.
 
 ### Conceptual Questions

@@ -364,10 +364,10 @@ Vector Addition
 
 ### Summary
 
-* {: #import-auto-id1165296238488} The analytical method of vector addition and
+* The analytical method of vector addition and
   subtraction involves using the Pythagorean theorem and trigonometric
   identities to determine the magnitude and direction of a resultant vector.
-* {: #import-auto-id1165296238492} The steps to add vectors $$ \vb{A} $$ and
+* The steps to add vectors $$ \vb{A} $$ and
  $$ \vb{B} $$ using the analytical method are as follows:
   Step 1: Determine the coordinate system for the vectors. Then, determine the
   horizontal and vertical components of each vector using the equations

@@ -387,7 +387,7 @@ Forces and Motion
 
 ### Section Summary
 
-* {: #import-auto-id1165296328554} Friction is a contact force between systems
+* Friction is a contact force between systems
   that opposes the motion or attempted motion between them. Simple friction is
   proportional to the magnitude of the normal force $$ \mag{N} $$ pushing the
   systems together. (A
@@ -401,7 +401,7 @@ Forces and Motion
 
   where $$ \mu_{\s} $$ is the coefficient of static friction, which
   depends on both of the materials.
-* {: #import-auto-id1165298621900} The kinetic friction force $$ f_{\text{k}} $$
+* The kinetic friction force $$ f_{\text{k}} $$
   between systems moving relative to one another is given by
   <div class="equation" id="eip-799">
  $$ f_{\text{k}}=\mu_{\text{k}} \mag{N}, $$

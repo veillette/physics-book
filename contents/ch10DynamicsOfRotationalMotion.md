@@ -281,10 +281,10 @@ No. Torque depends on three factors: force magnitude, force direction, and point
 
 ### Section Summary
 
-* {: #import-auto-id3170008} The farther the force is applied from the pivot,
+* The farther the force is applied from the pivot,
   the greater is the angular acceleration; angular acceleration is inversely
   proportional to mass.
-* {: #import-auto-id2684041} If we exert a force $$ F $$ on a point mass $$ m $$
+* If we exert a force $$ F $$ on a point mass $$ m $$
   that is at a distance $$ r $$ from a pivot point and because the force is
   perpendicular to $$ r $$, an acceleration $$ a = F/m $$ is obtained in
   the direction of $$ F $$. We can rearrange this equation such that
@@ -298,7 +298,7 @@ No. Torque depends on three factors: force magnitude, force direction, and point
  $$ F=mr\alpha $$
   </div>
 
-* {: #import-auto-id969263} Torque is the turning effectiveness of a force. In
+* Torque is the turning effectiveness of a force. In
   this case, because $$ F $$ is perpendicular to $$ r $$, torque is simply $$
  \tau =rF $$. If we multiply both sides of the equation above by $$ r $$, we
   get torque on the left-hand side. That is,
@@ -312,13 +312,13 @@ No. Torque depends on three factors: force magnitude, force direction, and point
  $$ \tau =m r^{2} \alpha . $$
   </div>
 
-* {: #import-auto-id3175767} The moment of inertia $$ I $$ of an object is the
+* The moment of inertia $$ I $$ of an object is the
   sum of $$ MR^{2} $$ for all the point masses of which it is composed. That is,
   <div class="equation" id="import-auto-id3110206">
  $$ I=\sum m r^{2} . $$
   </div>
 
-* {: #import-auto-id1011742} The general relationship among torque, moment of
+* The general relationship among torque, moment of
   inertia, and angular acceleration is
   <div class="equation" id="eip-139">
  $$ \tau = I\alpha $$

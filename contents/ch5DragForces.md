@@ -339,7 +339,7 @@ Masses and Springs
 
 ### Section Summary
 
-* {: #import-auto-id1165298595649} Drag forces acting on an object moving in a
+* Drag forces acting on an object moving in a
   fluid oppose the motion. For larger objects (such as a baseball) moving at a
   velocity $$ v $$ in air, the drag force is given by
   <div class="equation" id="eip-233">
@@ -349,7 +349,7 @@ Masses and Springs
   where $$ C $$ is the drag coefficient (typical values are given
   in [[Figure]](#import-auto-id1165298535568)), $$ A $$ is the area of the
   object facing the fluid, and $$ \rho $$ is the fluid density.
-* {: #import-auto-id1165298748357} For small objects (such as a bacterium)
+* For small objects (such as a bacterium)
   moving in a denser medium (such as water), the drag force is given by Stokes’
   law,
   <div class="equation" id="eip-307">

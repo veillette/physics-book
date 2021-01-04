@@ -288,7 +288,7 @@ Take a piece of modeling clay and put it on a table, then mash a cylinder down i
 
 ### Section Summary
 
-* {: #import-auto-id3580915} The second condition assures those torques are also
+* The second condition assures those torques are also
   balanced. Torque is the rotational equivalent of a force in producing a
   rotation and is defined to be
   <div class="equation" id="eip-958">
@@ -311,7 +311,7 @@ Take a piece of modeling clay and put it on a table, then mash a cylinder down i
  $$ \tau =r_{\perp }F. $$
   </div>
 
-* {: #import-auto-id2658945} The perpendicular lever arm $$ r_{\perp } $$ is the
+* The perpendicular lever arm $$ r_{\perp } $$ is the
   shortest distance from the pivot point to the line along which $$ F $$ acts.
   The SI unit for torque is newton-meter $$ \text{(N·m)} $$. The second
   condition necessary to achieve equilibrium is that the net external torque on

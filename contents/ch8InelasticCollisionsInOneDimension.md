@@ -273,12 +273,12 @@ increases by 5.46 J. That energy was released by the spring.
 
 ### Section Summary
 
-* {: #import-auto-id1657908} An inelastic collision is one in which the internal
+* An inelastic collision is one in which the internal
   kinetic energy changes (it is not conserved).
-* {: #import-auto-id1497618} A collision in which the objects stick together is
+* A collision in which the objects stick together is
   sometimes called perfectly inelastic because it reduces internal kinetic
   energy more than does any other type of inelastic collision.
-* {: #import-auto-id1705204} Sports science and technologies also use physics
+* Sports science and technologies also use physics
   concepts such as momentum and rotational motion and vibrations.
 
 ### Conceptual Questions

@@ -220,11 +220,11 @@ html" width="600" height="450"  allowfullscreen></iframe>
 
 ### Section Summary
 
-* {: #import-auto-id1364400} Newton’s third law of motion states that to every
+* Newton’s third law of motion states that to every
   action, there is an equal and opposite reaction.
-* {: #import-auto-id1281672} Acceleration of a rocket is $$ a=\frac{ v_
+* Acceleration of a rocket is $$ a=\frac{ v_
   {\text{e}}}{m}\frac{ \Delta m}{\Delta t}-g $$.
-* {: #import-auto-id1596647} A rocket’s acceleration depends on three main
+* A rocket’s acceleration depends on three main
   factors. They are
     1. The greater the exhaust velocity of the gases, the greater the
        acceleration.

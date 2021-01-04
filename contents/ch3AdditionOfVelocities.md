@@ -457,7 +457,7 @@ Motion in 2D
 
 ### Summary
 
-* {: #import-auto-id2094922} Velocities in two dimensions are added using the
+* Velocities in two dimensions are added using the
   same analytical vector techniques, which are rewritten as
   <div class="equation" id="import-auto-id2094926">
  $$ v_{x}=v\cos{\theta} $$
@@ -475,10 +475,10 @@ Motion in 2D
  $$ \theta ={\tan}^{-1}\left(v_{y}/v_{x}\right). $$
   </div>
 
-* {: #import-auto-id1847577} Relative velocity is the velocity of an object as
+* Relative velocity is the velocity of an object as
   observed from a particular reference frame, and it varies dramatically with
   reference frame.
-* {: #import-auto-id1847580} **Relativity** is the study of how different
+* **Relativity** is the study of how different
   observers measure the same phenomenon, particularly when the observers move
   relative to one another. **Classical relativity** is limited to situations
   where speed is less than about 1% of the speed of light (3000 km/s).

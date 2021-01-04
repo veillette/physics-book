@@ -398,30 +398,30 @@ third and final law of motion.
 
 #### Section Summary
 
-* {: #import-auto-id2667164} Acceleration, $$ \vb{a} $$, is defined
+* Acceleration, $$ \vb{a} $$, is defined
   as a change in velocity, meaning a change in its magnitude or direction, or
   both.
-* {: #import-auto-id2677227} An external force is one acting on a system from
+* An external force is one acting on a system from
   outside the system, as opposed to internal forces, which act between
   components within the system.
-* {: #import-auto-id2937300} Newton’s second law of motion states that the
+* Newton’s second law of motion states that the
   acceleration of a system is directly proportional to and in the same direction
   as the net external force acting on the system, and inversely proportional to
   its mass.
-* {: #import-auto-id3028474} In equation form, Newton’s second law of motion is
+* In equation form, Newton’s second law of motion is
  $$ \vb{a}=\frac{ \vb{F}_{\text{net}}}{m} $$.
-* {: #import-auto-id2962786} This is often written in the more familiar form:
+* This is often written in the more familiar form:
  $$ \vb{F}_{\text{net}}=m\vb{a} $$.
-* {: #import-auto-id1487682} The weight $$ \vb{w} $$ of an object is
+* The weight $$ \vb{w} $$ of an object is
   defined as the force of gravity acting on an object of mass $$ m $$. The
   object experiences an acceleration due to gravity $$ \vb{g} $$:
   <div class="equation" id="eip-id1171442332762">
  $$ \vb{w}=m\vb{g}. $$
   </div>
 
-* {: #import-auto-id3397737} If the only force acting on an object is due to
+* If the only force acting on an object is due to
   gravity, the object is in free fall.
-* {: #import-auto-id1917983} Friction is a force that opposes the motion past
+* Friction is a force that opposes the motion past
   each other of objects that are touching.
 
 #### Conceptual Questions

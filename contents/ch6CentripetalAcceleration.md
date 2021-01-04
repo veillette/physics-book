@@ -214,7 +214,7 @@ Ladybug Motion 2D
 
 ### Section Summary
 
-* {: #import-auto-id1963039} Centripetal acceleration $$ \ac $$ is the
+* Centripetal acceleration $$ \ac $$ is the
   acceleration experienced while in uniform circular motion. It always points
   toward the center of rotation. It is perpendicular to the linear velocity $$ v
  $$ and has the magnitude
@@ -222,7 +222,7 @@ Ladybug Motion 2D
  $$ \ac=\frac{ v^{2}}{r};\ac=r \omega^{2}. $$
   </div>
 
-* {: #import-auto-id2624755} The unit of centripetal acceleration is $$
+* The unit of centripetal acceleration is $$
  \mss $$.
 
 ### Conceptual Questions

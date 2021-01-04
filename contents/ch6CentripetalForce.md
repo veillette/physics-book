@@ -303,7 +303,7 @@ Gravity and Orbits
 
 ### Section Summary
 
-* {: #import-auto-id1381455} Centripetal force $$ \vb{F}_\text{c} $$ is
+*  Centripetal force $$ \vb{F}_\text{c} $$ is
   any force causing uniform circular motion. It is a “center-seeking” force that
   always points toward the center of rotation. It is perpendicular to linear
   velocity $$ v $$ and has magnitude

@@ -126,13 +126,13 @@ Stand straight with your heels, back, and head against a wall. Bend forward from
 
 ### Section Summary
 
-* {: #import-auto-id2997403} A system is said to be in stable equilibrium if,
+* A system is said to be in stable equilibrium if,
   when displaced from equilibrium, it experiences a net force or torque in a
   direction opposite the direction of the displacement.
-* {: #import-auto-id1375503} A system is in unstable equilibrium if, when
+* A system is in unstable equilibrium if, when
   displaced from equilibrium, it experiences a net force or torque in the same
   direction as the displacement from equilibrium.
-* {: #import-auto-id1189194} A system is in neutral equilibrium if its
+* A system is in neutral equilibrium if its
   equilibrium is independent of displacements from its original position.
 
 ### Conceptual Questions

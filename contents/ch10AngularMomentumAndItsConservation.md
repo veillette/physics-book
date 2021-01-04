@@ -472,13 +472,13 @@ Yes, angular and linear momentums are completely analogous. While they are exact
 
 ### Section Summary
 
-* {: #import-auto-id1381663} Every rotational phenomenon has a direct
+* Every rotational phenomenon has a direct
   translational analog , likewise angular momentum $$ L $$ can be defined as $$
   L=I \omega. $$
-* {: #import-auto-id2625259} This equation is an analog to the definition of
+* This equation is an analog to the definition of
   linear momentum as $$ p=mv $$. The relationship between torque and angular
   momentum is $$ \text{net}\tau =\frac{ \Delta L}{\Delta t}. $$
-* {: #import-auto-id3402470} Angular momentum, like energy and linear momentum,
+* Angular momentum, like energy and linear momentum,
   is conserved. This universally applicable law is another sign of underlying
   unity in physical laws. Angular momentum is conserved when net external torque
   is zero, just as linear momentum is conserved when the net external force is

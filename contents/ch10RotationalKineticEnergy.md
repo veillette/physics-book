@@ -533,21 +533,21 @@ My solar system
 
 ### Section Summary
 
-* {: #import-auto-id1360816} The rotational kinetic energy $$ \KE_
+* The rotational kinetic energy $$ \KE_
   {\text{rot}} $$ for an object with a moment of inertia $$ I $$ and an angular
   velocity $$ \omega $$ is given by
   <div class="equation" id="eip-595">
  $$ \KE_{\text{rot}}=\frac{1}{2}I\omega^{2} . $$
   </div>
 
-* {: #import-auto-id1972580} Helicopters store large amounts of rotational
+* Helicopters store large amounts of rotational
   kinetic energy in their blades. This energy must be put into the blades before
   takeoff and maintained until the end of the flight. The engines do not have
   enough power to simultaneously provide lift and put significant rotational
   energy into the blades.
-* {: #import-auto-id3224025} Work and energy in rotational motion are completely
+* Work and energy in rotational motion are completely
   analogous to work and energy in translational motion.
-* {: #import-auto-id2453212} The equation for the **work-energy theorem** for rotational motion is,
+* The equation for the **work-energy theorem** for rotational motion is,
   <div class="equation" id="eip-669">
  $$ \text{net}W=\frac{1}{2}I\omega^{2}-\frac{1}{2}I \omega_{0}^{2} . $$
   </div>

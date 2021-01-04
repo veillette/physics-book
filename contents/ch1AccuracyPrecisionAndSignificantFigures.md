@@ -396,21 +396,21 @@ Estimation
 
 ### Summary
 
-* {: #import-auto-id2581141} Accuracy of a measured value refers to how close a
+* Accuracy of a measured value refers to how close a
   measurement is to the correct value. The uncertainty in a measurement is an
   estimate of the amount by which the measurement result may differ from this
   value.
-* {: #import-auto-id3204227} Precision of measured values refers to how close
+* Precision of measured values refers to how close
   the agreement is between repeated measurements.
-* {: #import-auto-id2921036} The precision of a **measuring tool** is related to
+* The precision of a **measuring tool** is related to
   the size of its measurement increments. The smaller the measurement increment,
   the more precise the tool.
-* {: #import-auto-id1287163} Significant figures express the precision of a
+* Significant figures express the precision of a
   measuring tool.
-* {: #import-auto-id2688249} When multiplying or dividing measured values, the
+* When multiplying or dividing measured values, the
   final answer can contain only as many significant figures as the least precise
   value.
-* {: #import-auto-id1583780} When adding or subtracting measured values, the
+* When adding or subtracting measured values, the
   final answer cannot contain more decimal places than the least precise value.
 
 ### Conceptual Questions

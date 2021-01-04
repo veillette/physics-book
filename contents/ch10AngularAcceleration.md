@@ -318,27 +318,27 @@ Ladybug Revolution
 
 ### Section Summary
 
-* {: #import-auto-id2443525} Uniform circular motion is the motion with a
+*  Uniform circular motion is the motion with a
   constant angular velocity $$ \omega =\frac{ \Delta \theta }{\Delta t} $$.
-* {: #import-auto-id3353297} In non-uniform circular motion, the velocity
+* In non-uniform circular motion, the velocity
   changes with time and the rate of change of angular velocity (i.e. angular
   acceleration) is $$ \alpha =\frac{ \Delta \omega }{\Delta t} $$.
-* {: #import-auto-id1867184} Linear or tangential acceleration refers to changes
+* Linear or tangential acceleration refers to changes
   in the magnitude of velocity but not its direction, given as $$ a_
   {\text{t}}=\frac{ \Delta v}{\Delta t} $$.
-* {: #import-auto-id3035395} For circular motion, note that $$ v=r \omega $$,
+* For circular motion, note that $$ v=r \omega $$,
   so that
   <div class="equation" id="import-auto-id1588138">
  $$ a_{\text{t}}\frac{ \Delta \left(r \omega \right)}{\Delta t}. $$
   </div>
 
-* {: #import-auto-id1549399} The radius r is constant for circular motion, and
+* The radius r is constant for circular motion, and
   so $$ \Delta \left(  r \omega \right)=r\Delta \omega $$. Thus,
   <div class="equation" id="import-auto-id3232862">
  $$ a_{\text{t}}=r\frac{ \Delta \omega }{\Delta t}. $$
   </div>
 
-* {: #import-auto-id3154788} By definition, $$ \Delta \omega /\Delta t=\alpha $$.
+* By definition, $$ \Delta \omega /\Delta t=\alpha $$.
   Thus,
   <div class="equation" id="import-auto-id3077640">
  $$ a_{\text{t}}=r \alpha $$

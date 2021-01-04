@@ -450,20 +450,20 @@ physical principles.
 
 ### Summary
 
-* {: #import-auto-id1586681} Newton’s laws of motion can be applied in numerous
+* Newton’s laws of motion can be applied in numerous
   situations to solve problems of motion.
-* {: #import-auto-id1586684} Some problems will contain multiple force vectors
+* Some problems will contain multiple force vectors
   acting in different directions on an object. Be sure to draw diagrams, resolve
   all force vectors into horizontal and vertical components, and draw a
   free-body diagram. Always analyze the direction in which an object accelerates
   so that you can determine whether $$ F_{\text{net}}=ma $$ or $$ F_
   {\text{net}}=0 $$.
-* {: #import-auto-id3305501} The normal force on an object is not always equal
+* The normal force on an object is not always equal
   in magnitude to the weight of the object. If an object is accelerating, the
   normal force will be less than or greater than the weight of the object. Also,
   if the object is on an inclined plane, the normal force will always be less
   than the full weight of the object.
-* {: #import-auto-id2653368} Some problems will contain various physical
+* Some problems will contain various physical
   quantities, such as forces, acceleration, velocity, or position. You can apply
   concepts from kinematics and dynamics in order to solve these problems of
   motion.

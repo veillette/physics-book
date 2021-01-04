@@ -409,7 +409,7 @@ depart from the inverse square law? So far, no deviation has been observed.
 
 ### Section Summary
 
-* {: #import-auto-id3449413} Newton’s universal law of gravitation: Every
+* Newton’s universal law of gravitation: Every
   particle in the universe attracts every other particle with a force along a
   line joining them. The force is directly proportional to the product of their
   masses and inversely proportional to the square of the distance between them.
@@ -422,7 +422,7 @@ depart from the inverse square law? So far, no deviation has been observed.
   gravitational constant, given by $$ G=6.674 \times 10^{-11}\N \cdot
  \mm/kg^{2} $$.
 
-* {: #import-auto-id3163844} Newton’s law of gravitation applies universally.
+* Newton’s law of gravitation applies universally.
 
 ### Conceptual Questions
 

@@ -400,14 +400,14 @@ The third leg shows a constant negative acceleration that is not as negative as 
 
 ### Section Summary
 
-* {: #import-auto-id2388505} Graphs of motion can be used to analyze motion.
-* {: #import-auto-id4097898} Graphical solutions yield identical solutions to
+* Graphs of motion can be used to analyze motion.
+* Graphical solutions yield identical solutions to
   mathematical methods for deriving motion equations.
-* {: #import-auto-id2294483} The slope of a graph of displacement $$ x $$ vs.
+* The slope of a graph of displacement $$ x $$ vs.
   time $$ t $$ is velocity $$ v $$.
-* {: #import-auto-id2025741} The slope of a graph of velocity $$ v $$
+* The slope of a graph of velocity $$ v $$
   ** vs. time $$ t $$ graph is acceleration $$ a $$.
-* {: #import-auto-id1561758} Average velocity, instantaneous velocity, and
+* Average velocity, instantaneous velocity, and
   acceleration can all be obtained by analyzing graphs.
 
 ### Conceptual Questions

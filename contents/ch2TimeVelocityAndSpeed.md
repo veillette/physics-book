@@ -62,9 +62,9 @@ t=t_{f}\equiv t $$.
 
 In this text, for simplicity’s sake,
 
-* {: #import-auto-id2571110} motion starts at time equal to zero $$ \left(t_
+* motion starts at time equal to zero $$ \left(t_
   {0}=0\right) $$
-* {: #import-auto-id4047929} the symbol $$ t $$ is used for elapsed time unless
+* the symbol $$ t $$ is used for elapsed time unless
   otherwise specified $$ \left(\Delta t=t_{f}\equiv t\right) $$
 
 ### Velocity
@@ -185,10 +185,10 @@ Making Connections: Take-Home Investigation—Getting a Sense of Speed
 </div>
 If you have spent much time driving, you probably have a good sense of speeds between about 10 and 70 miles per hour. But what are these in meters per second? What do we mean when we say that something is moving at 10 m/s? To get a better sense of what these values really mean, do some observations and calculations on your own:
 
-* {: #import-auto-id4058974} calculate typical car speeds in meters per second
-* {: #import-auto-id4058977} estimate jogging and walking speed by timing
+* calculate typical car speeds in meters per second
+* estimate jogging and walking speed by timing
   yourself; convert the measurements into both m/s and mi/h
-* {: #import-auto-id4070923} determine the speed of an ant, snail, or falling
+* determine the speed of an ant, snail, or falling
   leaf
 
 </div>
@@ -220,7 +220,7 @@ travels 40 miles one way and 40 miles back, for a total distance of 80 miles.
 
 ### Section Summary
 
-* {: #import-auto-id4070541} Time is measured in terms of change, and its SI
+* Time is measured in terms of change, and its SI
   unit is the second (s). Elapsed time for an event is
   <div class="equation" id="import-auto-id4146177">
  $$ \Delta t=t_{f}-t_{0}, $$
@@ -229,21 +229,21 @@ travels 40 miles one way and 40 miles back, for a total distance of 80 miles.
   where $$ t_{f} $$ is the final time and $$ t_{0} $$ is the initial time. The
   initial time is often taken to be zero, as if measured with a stopwatch; the
   elapsed time is then just $$ t $$.
-* {: #import-auto-id1770783} Average velocity $$ \overline{v} $$ is defined as
+* Average velocity $$ \overline{v} $$ is defined as
   displacement divided by the travel time. In symbols, average velocity is
   <div class="equation" id="import-auto-id4086565">
  $$ \overline{v}=\frac{ \Delta x}{\Delta t}=\frac{ x_{\text{f}}-x_{0}}{ t_{\text{f}}-t_{0}}. $$
   </div>
 
-* {: #import-auto-id1795857} The SI unit for velocity is m/s.
-* {: #import-auto-id1795847} Velocity is a vector and thus has a direction.
-* {: #import-auto-id4097170} Instantaneous velocity $$ v $$ is the velocity at a
+* The SI unit for velocity is m/s.
+* Velocity is a vector and thus has a direction.
+* Instantaneous velocity $$ v $$ is the velocity at a
   specific instant or the average velocity for an infinitesimal interval.
-* {: #import-auto-id4097153} Instantaneous speed is the magnitude of the
+* Instantaneous speed is the magnitude of the
   instantaneous velocity.
-* {: #import-auto-id4097155} Instantaneous speed is a scalar quantity, as it has
+* Instantaneous speed is a scalar quantity, as it has
   no direction specified.
-* {: #import-auto-id4097159} Average speed is the total distance traveled
+* Average speed is the total distance traveled
   divided by the elapsed time. (Average speed is *not* the magnitude of the
   average velocity.) Speed is a scalar quantity; it has no direction associated
   with it.

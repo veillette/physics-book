@@ -553,9 +553,9 @@ Projectile Motion
 
 ### Summary
 
-* {: #import-auto-id1677012} Projectile motion is the motion of an object
+* Projectile motion is the motion of an object
   through the air that is subject only to the acceleration of gravity.
-* {: #import-auto-id1786765} To solve projectile motion problems, perform the
+* To solve projectile motion problems, perform the
   following steps:
     1. {: #import-auto-id1830314} Determine a coordinate system. Then, resolve
        the position and/or velocity of the object in the horizontal and vertical
@@ -620,13 +620,13 @@ Projectile Motion
        </div>
  
 
-* {: #import-auto-id1888635} The maximum height $$ h $$ of a projectile launched
+* The maximum height $$ h $$ of a projectile launched
   with initial vertical velocity $$ v_{0y} $$ is given by
   <div class="equation" id="import-auto-id1534227">
     $$ h=\frac{ v_{0y}^{2}}{2g}. $$
   </div>
 
-* {: #import-auto-id1823593} The maximum horizontal distance traveled by a
+* The maximum horizontal distance traveled by a
   projectile is called the **range**. The range $$ R $$ of a projectile on level
   ground launched at an angle $$\theta_{0} $$ above the horizontal with initial
   speed $$ v_{0} $$ is given by
