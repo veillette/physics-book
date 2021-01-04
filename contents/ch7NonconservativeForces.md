@@ -15,7 +15,7 @@ Forces are either conservative or nonconservative. Conservative forces were
 discussed in [Conservative Forces and Potential Energy](../contents/ch7ConservaticeForcesAndPotentialEnergy.md). A
 **nonconservative force** is one for
 which work depends on the path taken. Friction is a good example of a
-nonconservative force. As illustrated in [[Figure]](#import-auto-id2415636),
+nonconservative force. As illustrated in [Figure](#import-auto-id2415636),
 work done against
 friction depends on the length of the path between the starting and ending
 points. Because of this dependence on path, there is no potential energy
@@ -35,10 +35,10 @@ is lost or not recoverable in that sense as well.
 *Mechanical* energy *may* not be conserved when nonconservative forces act. For
 example, when a car is brought to a stop by friction on level ground, it loses
 kinetic energy, which is dissipated as thermal energy, reducing its mechanical
-energy. [[Figure]](#import-auto-id2096889) compares the effects of conservative
+energy. [Figure](#import-auto-id2096889) compares the effects of conservative
 and nonconservative forces. We often choose to understand simpler systems such
-as that described in [[Figure]](#import-auto-id2096889)(a) first before studying
-more complicated systems as in [[Figure]](#import-auto-id2096889)(b).
+as that described in [Figure](#import-auto-id2096889)(a) first before studying
+more complicated systems as in [Figure](#import-auto-id2096889)(b).
 
 ![(a) A system is shown in three situations. First, a rock is dropped onto a spring attached to the ground. The rock has potential energy P E sub 0 at the highest point before it is dropped on the spring. In the second situation, the rock has fallen onto the spring and the spring is compressed and has potential energy P E sub s. And in the third situation, the spring pushes the rock into the air; then the rock has some kinetic and some potential energy, labeled as K E plus P E sub g prime. (b) A rock is at some height above the ground, having potential energy P E sub g, and as it hits the ground all of the rock&#x2019;s energy is used to produce heat, sound, and deformation of the ground.](../resources/Figure_08_05_02a.jpg "Comparison of the effects of conservative and nonconservative forces on the mechanical energy of a system. (a) A system with only conservative forces. When a rock is dropped onto a spring, its mechanical energy remains constant (neglecting air resistance) because the force in the spring is conservative. The spring can propel the rock back to its original height, where it once again has only potential energy due to gravity.
 (b) A system with nonconservative forces. When the same rock is dropped onto the ground, it is stopped by nonconservative forces that dissipate its mechanical energy as thermal energy, sound, and surface distortion. The rock has lost mechanical energy. ")
@@ -71,7 +71,7 @@ and $$ W_{\text{c}} $$ is the total work done by all conservative forces.
 ![A person pushing a heavy box up an incline. A force F p applied by the person is shown by a vector pointing up the incline. And frictional force f is shown by a vector pointing down the incline, acting on the box.](../resources/Figure_08_05_03a.jpg "A person pushes a crate up a ramp, doing work on the crate. Friction and gravitational force (not shown) also do work on the crate; both forces oppose the person&#x2019;s push. As the crate is pushed up the ramp, it gains mechanical energy, implying that the work done by the person is greater than the work done by friction.")
 {: #import-auto-id2124288}
 
-Consider [[Figure]](#import-auto-id2124288), in which a person pushes a crate up
+Consider [Figure](#import-auto-id2124288), in which a person pushes a crate up
 a ramp and is opposed by friction. As in the previous section, we note that work
 done by a conservative force comes from a loss of gravitational potential
 energy, so that $$ W_{\text{c}}=-\Delta \PE $$. Substituting this equation
@@ -83,7 +83,7 @@ into the previous one and solving for $$ W_{\text{nc}} $$ gives
 
 This equation means that the total mechanical energy $$ \left(\KE + \PE \right) $$
 changes by exactly the amount of work done by nonconservative
-forces. In [[Figure]](#import-auto-id2124288), this is the work done by the
+forces. In [Figure](#import-auto-id2124288), this is the work done by the
 person minus the work done by friction. So even if energy is not conserved for
 the system of interest ( such as the crate), we know that an equal amount of
 work was done to cause the change in total mechanical energy.
@@ -97,9 +97,9 @@ We rearrange $$ W_{\text{nc}}=\Delta \KE+\Delta \PE $$ to obtain
 This means that the amount of work done by nonconservative forces adds to the
 mechanical energy of a system. If $$ W_{\text{nc}} $$ is positive, then
 mechanical energy is increased, such as when the person pushes the crate up the
-ramp in [[Figure]](#import-auto-id2124288). If $$ W_{\text{nc}} $$ is negative,
+ramp in [Figure](#import-auto-id2124288). If $$ W_{\text{nc}} $$ is negative,
 then mechanical energy is decreased, such as when the rock hits the ground
-in [[Figure]](#import-auto-id2096889)(b). If $$ W_{\text{nc}} $$ is zero, then
+in [Figure](#import-auto-id2096889)(b). If $$ W_{\text{nc}} $$ is zero, then
 mechanical energy is conserved, and nonconservative forces are balanced. For
 example, when you push a lawn mower at constant speed on level ground, your work
 done is removed by the work of friction, and the mower has a constant energy.
@@ -124,7 +124,7 @@ nonconservative forces involved.
 <div class="title">
 Calculating Distance Traveled: How Far a Baseball Player Slides
 </div>
-Consider the situation shown in [[Figure]](#import-auto-id1908314), where a baseball player slides to a stop on level ground. Using energy considerations, calculate the distance the 65.0-kg baseball player slides, given that his initial speed is 6.00 m/s and the force of friction against him is a constant 450 N.
+Consider the situation shown in [Figure](#import-auto-id1908314), where a baseball player slides to a stop on level ground. Using energy considerations, calculate the distance the 65.0-kg baseball player slides, given that his initial speed is 6.00 m/s and the force of friction against him is a constant 450 N.
 
 ![A baseball player slides to stop in a distance d. the displacement d is shown by a vector towards the left and frictional force f on the player is shown by a small vector pointing towards the right equal to four hundred and fifty newtons. K E is equal to half m v squared, which is equal to f times d.](../resources/Figure_08_05_04a.jpg "The baseball player slides to a stop in a distance \( d \) . In the process, friction removes the player&#x2019;s kinetic energy by doing an amount of work \( f d \) equal to the initial kinetic energy. ")
 {: #import-auto-id1908314 height="200"}
@@ -174,7 +174,7 @@ to stop a truck, with its large mechanical energy, than to stop a mosquito.
 <div class="title">
 Calculating Distance Traveled: Sliding Up an Incline
 </div>
-Suppose that the player from [[Figure]](#fs-id1900640) is running up a hill having
+Suppose that the player from [Figure](#fs-id1900640) is running up a hill having
 a $$ 5.00^\circ $$ incline upward with a surface similar to that in the baseball stadium. The
 player slides with the same initial speed, and the frictional force is still 450
 N. Determine how far he slides.
@@ -246,7 +246,7 @@ This experiment involves the conversion of gravitational potential energy into
 thermal energy. Use the ruler, book, and marble
 from [Take-Home Investigation—Converting Potential to Kinetic Energy](../contents/ch7GravitationalPotentialEnergy.md#takeHome).
 In addition, you will need a foam cup with a small hole in the side,
-as shown in [[Figure]](#fs-id1774418). From the 10-cm position on the ruler,
+as shown in [Figure](#fs-id1774418). From the 10-cm position on the ruler,
 let the marble roll into the cup positioned at the bottom of the ruler.
 Measure the distance $$ d $$ the cup moves before stopping.
 What forces caused it to stop? What happened to
@@ -312,7 +312,7 @@ The Ramp
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A 60.0-kg skier with an initial speed of 12.0 m/s coasts up a 2.50-m-high rise as shown in [[Figure]](#import-auto-id1802314). Find her final speed at the top, given that the coefficient of friction between her skis and the snow is 0.0800. (Hint: Find the distance traveled up the incline assuming a straight-line path as shown in the figure.)
+A 60.0-kg skier with an initial speed of 12.0 m/s coasts up a 2.50-m-high rise as shown in [Figure](#import-auto-id1802314). Find her final speed at the top, given that the coefficient of friction between her skis and the snow is 0.0800. (Hint: Find the distance traveled up the incline assuming a straight-line path as shown in the figure.)
 
 ![A skier is about to go up an inclined slope with some initial speed v sub i shown by an arrow towards right. The slope makes a thirty-five-degree with the horizontal. The height of the point where the slope ends from the skiers&#x2019; starting position is two point five meters. Final speed of the skier at the end of the inclined slope is unknown.](../resources/Figure_08_05_07a.jpg "The skier&#x2019;s initial kinetic energy is partially used in coasting to the top of a rise.")
 {: #import-auto-id1802314}

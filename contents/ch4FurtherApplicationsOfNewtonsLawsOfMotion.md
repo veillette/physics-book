@@ -17,7 +17,7 @@ further subtleties of physics and to help build problem-solving skills.
 <div class="title">
 Drag Force on a Barge
 </div>
-Suppose two tugboats push on a barge at different angles, as shown in [[Figure]](#import-auto-id1221020).
+Suppose two tugboats push on a barge at different angles, as shown in [Figure](#import-auto-id1221020).
 The first tugboat exerts a force of $$ 2.7\times 10^{5}\N $$
 in the *x*-direction, and the second tugboat exerts a force of $$ 3.6\times
 10^{5}\N $$ in the *y*-direction.
@@ -34,7 +34,7 @@ drag force opposes the motion of the object.)
 **Strategy**
 
 The directions and magnitudes of acceleration and the applied forces are given
-in [[Figure]](#import-auto-id1221020)**(a)**. We will define the total
+in [Figure](#import-auto-id1221020)**(a)**. We will define the total
 force of the tugboats on the barge as $$ \vb{F}_{\text{app}} $$ so that:
 
 <div class="equation" id="eip-id1203757">
@@ -42,7 +42,7 @@ force of the tugboats on the barge as $$ \vb{F}_{\text{app}} $$ so that:
 </div>
 Since the barge is flat bottomed, the drag of the water $$ \vb{F}_{\text{D}} $$
 will be in the direction opposite to $$ \vb{F}_{\text{app}} $$, as
-shown in the free-body diagram in [[Figure]](#import-auto-id1221020)(b). The
+shown in the free-body diagram in [Figure](#import-auto-id1221020)(b). The
 system of interest here is the barge, since the forces on *it* are given
 as well as its acceleration. Our strategy is to find the magnitude and direction
 of the net applied force $$ \vb{F}_{\text{app}} $$, and then apply
@@ -76,7 +76,7 @@ is in the opposite direction of $$ \vb{F}_{\text{app}} $$, since it
 acts to slow down the acceleration. Therefore, the net external force is in the
 same direction as $$ \vb{F}_{\text{app}} $$, but its magnitude is
 slightly less than $$ \vb{F}_{\text{app}} $$. The problem is now
-one-dimensional. From [[Figure]](#import-auto-id1221020)**(b)**, we can see that
+one-dimensional. From [Figure](#import-auto-id1221020)**(b)**, we can see that
 
 <div class="equation" id="eip-id1624544">
 $$ F_{\text{net}}=F_{\text{app}}-F_{\text{D}}. $$
@@ -126,7 +126,7 @@ trigonometry is involved.
 <div class="title">
 Different Tensions at Different Angles
 </div>
-Consider the traffic light (mass 15.0 kg) suspended from two wires as shown in [[Figure]](#import-auto-id3051538). Find the tension in each wire, neglecting the masses of the wires.
+Consider the traffic light (mass 15.0 kg) suspended from two wires as shown in [Figure](#import-auto-id3051538). Find the tension in each wire, neglecting the masses of the wires.
 
 ![A sketch of a traffic light suspended from two wires supported by two poles is shown. (b) Some forces are shown in this system. Tension T sub one pulling the top of the left-hand pole is shown by the vector arrow along the left wire from the top of the pole, and an equal but opposite tension T sub one is shown by the arrow pointing up along the left-hand wire where it is attached to the light; the wire makes a thirty-degree angle with the horizontal. Tension T sub two is shown by a vector arrow pointing downward from the top of the right-hand pole along the right-hand wire, and an equal but opposite tension T sub two is shown by the arrow pointing up along the right-hand wire, which makes a forty-five degree angle with the horizontal. The traffic light is suspended at the lower end of the wires, and its weight W is shown by a vector arrow acting downward. (c) The traffic light is the system of interest. Tension T sub one starting from the traffic light is shown by an arrow along the wire making an angle of thirty degrees with the horizontal. Tension T sub two starting from the traffic light is shown by an arrow along the wire making an angle of forty-five degrees with the horizontal. The weight W is shown by a vector arrow pointing downward from the traffic light. A free-body diagram is shown with three forces acting on a point. Weight W acts downward; T sub one and T sub two act at an angle with the vertical. (d) Forces are shown with their components T sub one y and T sub two y pointing vertically upward. T sub one x points along the negative x direction, T sub two x points along the positive x direction, and weight W points vertically downward. (e) Vertical forces and horizontal forces are shown separately. Vertical forces T sub one y and T sub two y are shown by vector arrows acting along a vertical line pointing upward, and weight W is shown by a vector arrow acting downward. The net vertical force is zero, so T sub one y plus T sub two y is equal to W. On the other hand, T sub two x is shown by an arrow pointing toward the right, and T sub one x is shown by an arrow pointing toward the left. The net horizontal force is zero, so T sub one x is equal to T sub two x.](../resources/Figure_04_07_02.jpg "A traffic light is suspended from two wires. (b) Some of the forces involved. (c) Only forces acting on the system are shown here. The free-body diagram for the traffic light is also shown. (d) The forces projected onto vertical (y) and horizontal (x) axes. The horizontal components of the tensions must cancel, and the sum of the vertical components of the tensions must equal the weight of the traffic light. (e) The free-body diagram shows the vertical and horizontal forces acting on the traffic light.")
 {: #import-auto-id3051538}
@@ -134,7 +134,7 @@ Consider the traffic light (mass 15.0 kg) suspended from two wires as shown in [
 **Strategy**
 
 The system of interest is the traffic light, and its free-body diagram is shown
-in [[Figure]](#import-auto-id3051538)(c).
+in [Figure](#import-auto-id3051538)(c).
 The three forces involved are not parallel, and so they must be projected onto
 a coordinate system. The most convenient coordinate system has one axis vertical
 and one horizontal, and the vector projections on it are shown in part (d) of
@@ -228,7 +228,7 @@ your weight at rest? Consider the following example.
 <div class="title">
 What Does the Bathroom Scale Read in an Elevator?
 </div>
-[[Figure]](#import-auto-id347645) shows a 75.0-kg man (weight of about 165 lb) standing on a bathroom scale in an elevator. Calculate the scale reading:
+[Figure](#import-auto-id347645) shows a 75.0-kg man (weight of about 165 lb) standing on a bathroom scale in an elevator. Calculate the scale reading:
 (a) if the elevator accelerates upward at a rate of $$ 1.20 \mss $$, and
 (b) if the elevator moves upward at a constant speed of 1 m/s.
 
@@ -240,10 +240,10 @@ What Does the Bathroom Scale Read in an Elevator?
 
 If the scale is accurate, its reading will equal $$ F_{\text{p}} $$, the
 magnitude of the force the person exerts downward on
-it. [[Figure]](#import-auto-id347645)(a) shows the numerous forces acting on the
+it. [Figure](#import-auto-id347645)(a) shows the numerous forces acting on the
 elevator, scale, and person. It makes this one-dimensional problem look much
 more formidable than if the person is chosen to be the system of interest and a
-free-body diagram is drawn as in [[Figure]](#import-auto-id347645)(b). Analysis
+free-body diagram is drawn as in [Figure](#import-auto-id347645)(b). Analysis
 of the free-body diagram using Newton’s laws can produce answers to both parts
 (a) and (b) of this example, as well as some other questions that might arise.
 The only forces acting on the person are his weight $$ \vb{w} $$ and
@@ -506,7 +506,7 @@ direction and magnitude of the acceleration of the flea if its mass is $$ 6.00
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Two muscles in the back of the leg pull upward on the Achilles tendon, as shown in [[Figure]](#import-auto-id2667995). (These muscles are called the medial and lateral heads of the gastrocnemius muscle.) Find the magnitude and direction of the total force on the Achilles tendon. What type of movement could be caused by this force?
+Two muscles in the back of the leg pull upward on the Achilles tendon, as shown in [Figure](#import-auto-id2667995). (These muscles are called the medial and lateral heads of the gastrocnemius muscle.) Find the magnitude and direction of the total force on the Achilles tendon. What type of movement could be caused by this force?
 
 </div>
 </div>
@@ -516,7 +516,7 @@ Two muscles in the back of the leg pull upward on the Achilles tendon, as shown 
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A 76.0-kg person is being pulled away from a burning building as shown in [[Figure]](#import-auto-id2677556). Calculate the tension in the two ropes if the person is momentarily motionless. Include a free-body diagram in your solution.
+A 76.0-kg person is being pulled away from a burning building as shown in [Figure](#import-auto-id2677556). Calculate the tension in the two ropes if the person is momentarily motionless. Include a free-body diagram in your solution.
 
 </div>
 <div class="solution" markdown="1">
@@ -610,7 +610,7 @@ He goes from zero to the velocity found in part (a) in a distance of 0.300 m.
 <div class="problem" markdown="1">
 
 **Integrated Concepts**
- Repeat [[Figure]](#fs-id3178018) for a shell fired at an angle $$ 10.0^\circ $$
+ Repeat [Figure](#fs-id3178018) for a shell fired at an angle $$ 10.0^\circ $$
 from the vertical.
 
 </div>

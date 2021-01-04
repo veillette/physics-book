@@ -24,11 +24,11 @@ position of an object as it relates to stationary objects in that reference
 frame. For example, a rocket launch would be described in terms of the position
 of the rocket with respect to the Earth as a whole, while a professor’s position
 could be described in terms of where she is in relation to the nearby white
-board. ( See [[Figure]](#import-auto-id2972079).) In other cases, we use reference frames
+board. ( See [Figure](#import-auto-id2972079).) In other cases, we use reference frames
 that are not stationary but are in motion relative to the Earth. To describe the
 position of a person in an airplane, for example, we use the airplane, not the
 Earth, as the reference frame. (
-See [[Figure]](#import-auto-id2707699).)
+See [Figure](#import-auto-id2707699).)
 
 ### Displacement
 
@@ -217,7 +217,7 @@ size, while its displacement is small. Why is this?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the following for path A in [[Figure]](#import-auto-id2076702):
+Find the following for path A in [Figure](#import-auto-id2076702):
 (a) The distance traveled.
 (b) The magnitude of the displacement from start to finish.
 (c) The displacement from start to finish.
@@ -234,7 +234,7 @@ Find the following for path A in [[Figure]](#import-auto-id2076702):
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the following for path B in [[Figure]](#import-auto-id2076702):
+Find the following for path B in [Figure](#import-auto-id2076702):
 (a) The distance traveled.
 (b) The magnitude of the displacement from start to finish.
 (c) The displacement from start to finish.
@@ -244,7 +244,7 @@ Find the following for path B in [[Figure]](#import-auto-id2076702):
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the following for path C in [[Figure]](#import-auto-id2076702):
+Find the following for path C in [Figure](#import-auto-id2076702):
 (a) The distance traveled.
 (b) The magnitude of the displacement from start to finish.
 (c) The displacement from start to finish.
@@ -261,7 +261,7 @@ Find the following for path C in [[Figure]](#import-auto-id2076702):
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the following for path D in [[Figure]](#import-auto-id2076702):
+Find the following for path D in [Figure](#import-auto-id2076702):
 (a) The distance traveled.
 (b) The magnitude of the displacement from start to finish.
 (c) The displacement from start to finish.

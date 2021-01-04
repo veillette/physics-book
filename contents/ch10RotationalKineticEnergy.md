@@ -11,7 +11,7 @@ layout: page
 </div>
 
 In this module, we will learn about work and energy associated with rotational
-motion. [[Figure]](#import-auto-id3229349) shows a worker using an electric
+motion. [Figure](#import-auto-id3229349) shows a worker using an electric
 grindstone propelled by a motor. Sparks are flying, and noise and vibration are
 created as layers of steel are pared from the pole. The stone continues to turn
 even after the motor is turned off, but it is eventually brought to a stop by
@@ -27,7 +27,7 @@ was defined in [Uniform Circular Motion and Gravitation](../contents/ch6UniformC
 translational motion, and we can build on that knowledge when considering work
 done in rotational motion. The simplest rotational situation is one in which the
 net force is exerted perpendicular to the radius of a disk (as shown
-in [[Figure]](#import-auto-id2009471)) and remains perpendicular as the disk
+in [Figure](#import-auto-id2009471)) and remains perpendicular as the disk
 starts to rotate. The force is parallel to the displacement, and so the net work
 done is the product of the force times the arc length traveled:
 
@@ -108,7 +108,7 @@ The expression for rotational kinetic energy is exactly analogous to
 translational kinetic energy, with $$ I $$ being analogous to $$ m $$ and $$
 \omega $$ to $$ v $$. Rotational kinetic energy has important effects.
 Flywheels, for example, can be used to store large amounts of rotational kinetic
-energy in a vehicle, as seen in [[Figure]](#import-auto-id1614457).
+energy in a vehicle, as seen in [Figure](#import-auto-id1614457).
 
 ![The figure shows a bus carrying a large flywheel on its board in which rotational kinetic energy is stored.](../resources/Figure_11_04_03a.jpg "Experimental vehicles, such as this bus, have been constructed in which rotational kinetic energy is stored in a large flywheel. When the bus goes down a hill, its transmission converts its gravitational
 potential energy into \(  \KE_{\text{rot}} /). It can also convert translational kinetic energy, when the bus stops, into
@@ -120,7 +120,7 @@ potential energy into \(  \KE_{\text{rot}} /). It can also convert translational
 Calculating the Work and Energy for Spinning a Grindstone
 </div>
 Consider a person who spins a large grindstone by placing her hand on its edge and exerting a force through part of a
-revolution as shown in [[Figure]](#import-auto-id2674234). In this example,
+revolution as shown in [Figure](#import-auto-id2674234). In this example,
 we verify that the work done by the torque she exerts equals the change in rotational energy.
 (a) How much work is done if she exerts a force of 200 N through
 a rotation of $$ 1.00 \text{rad}\left(57.3^\circ\right) $$?
@@ -188,7 +188,7 @@ where the torque is
  $$ \text{net τ}=rF=\left(0.320 \m \right)\left(200 \N \right)=64.0 \N \cdot \m . $$
 </div>
 The formula for the moment of inertia for a disk is found
-in [[Figure]](../contents/ch10DynamicsOfRotationalMotion.md#figMomentOfInertia) :
+in [Figure](../contents/ch10DynamicsOfRotationalMotion.md#figMomentOfInertia) :
 
 <div class="equation" id="eip-119">
  $$ I=\frac{1}{2} MR^{2}=0.5\left(85.0 \kg \right){\left(0.320 \m \right)}^{2}=4.352 \kg \cdot \mm. $$
@@ -271,7 +271,7 @@ Problem-Solving Strategy for Rotational Energy
 <div class="title">
 Calculating Helicopter Energies
 </div>
-A typical small rescue helicopter, similar to the one in [[Figure]](#import-auto-id2420248), has
+A typical small rescue helicopter, similar to the one in [Figure](#import-auto-id2420248), has
 four blades, each is 4.00 m long and has a mass of 50.0 kg. The blades can be approximated as thin rods that rotate about one end of an axis perpendicular to their length. The helicopter has a total loaded mass of 1000 kg.
 (a) Calculate the rotational kinetic energy in the blades when they rotate at 300 rpm.
 (b) Calculate the translational kinetic energy of the helicopter when it flies at 20.0 m/s, and compare it with the rotational energy in the blades.
@@ -298,7 +298,7 @@ is
  $$ \omega =\frac{300 \text{rev}}{1.00 \text{min}}\cdot \frac{2 \pi \text{rad}}{1 \text{rev}}\cdot \frac{1.00 \text{min}}{60.0 \s }=31.4\frac{ \text{rad}}{\s}. $$
 </div>
 The moment of inertia of one blade will be that of a thin rod rotated about its end,
-found in [[Figure]](../contents/ch10DynamicsOfRotationalMotion.md#figMomentOfInertia). The total $$ I $$
+found in [Figure](../contents/ch10DynamicsOfRotationalMotion.md#figMomentOfInertia). The total $$ I $$
 is four times this moment of inertia, because there are four blades. Thus,
 
 <div class="equation" id="eip-897">
@@ -390,7 +390,7 @@ would if it slid down. Furthermore, the thin soup does not rotate, whereas the
 thick soup does, because it sticks to the can. The thick soup thus puts more of
 the can’s original gravitational potential energy into rotation than the thin
 soup, and the can rolls more slowly, as seen
-in [[Figure]](#import-auto-id3105621).
+in [Figure](#import-auto-id3105621).
 
 ![The figure shows a flat surface inclined at a height of h from the surface level, with three cans of soup of different densities numbered as one, two, and three rolling along it.](../resources/Figure_11_04_06a.jpg "Three cans of soup with identical masses race down an incline. The first can has a low friction coating and does not roll but just slides down the incline. It wins because it converts its entire PE into translational KE. The second and third cans both roll down the incline without slipping. The second can contains thin soup and comes in second because part of its initial PE goes into rotating the can (but not the thin soup). The third can contains thick soup. It comes in third because the soup rotates along with the can, taking even more of the initial PE for rotational KE, leaving less for translational KE.")
 {: #import-auto-id3105621}
@@ -449,7 +449,7 @@ Conservation of energy for this situation is written as described above:
  $$ mgh =\frac{1}{2}m v^{2}+\frac{1}{2}I\omega^{2} . $$
 </div>
 Before we can solve for $$ v $$, we must get an expression for $$ I $$
-from [[Figure]](../contents/ch10DynamicsOfRotationalMotion.md#figMomentOfInertia). Because $$ v $$ and $$ \omega $$
+from [Figure](../contents/ch10DynamicsOfRotationalMotion.md#figMomentOfInertia). Because $$ v $$ and $$ \omega $$
 are related (note here that the cylinder is rolling without slipping), we must
 also substitute the relationship $$ \omega =v/R $$ into the expression. These
 substitutions yield
@@ -580,7 +580,7 @@ The Earth has more rotational kinetic energy now than did the cloud of gas and d
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-This problem considers energy and work aspects of [[Figure]](../contents/ch10DynamicsOfRotationalMotion.md#fs-id1468671)—use data from that example as needed.
+This problem considers energy and work aspects of [Figure](../contents/ch10DynamicsOfRotationalMotion.md#fs-id1468671)—use data from that example as needed.
 (a) Calculate the rotational kinetic energy in the merry-go-round plus child when they have an angular velocity of 20.0 rpm.
 (b) Using energy considerations, find the number of revolutions the father will have to push to achieve this angular velocity starting from rest.
 (c) Again, using energy considerations, calculate the force the father must exert to stop the merry-go-round in two revolutions
@@ -618,7 +618,7 @@ What is the final velocity of a hoop that rolls without slipping down a 5.00-m-h
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Calculate the rotational kinetic energy in the motorcycle wheel
-([[Figure]](../contents/ch10DynamicsOfRotationalMotion.md#import-auto-id3370574))
+([Figure](../contents/ch10DynamicsOfRotationalMotion.md#import-auto-id3370574))
 if its angular velocity is 120 rad/s. Assume $$M = 12.0 \kg $$, $$R_1= 0.280 \m $$,
 and $$R_2 = 0.330 \m $$.
 

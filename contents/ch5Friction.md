@@ -56,7 +56,7 @@ started and also to keep it moving. Furthermore, if you oiled the concrete you
 would find it to be easier to get the crate started and keep it going (as you
 might expect).
 
-[[Figure]](#import-auto-id1165298476574) is a crude pictorial representation
+[Figure](#import-auto-id1165298476574) is a crude pictorial representation
 of how friction occurs at the interface between two objects. Close-up inspection
 of these surfaces shows them to be rough. So when you push to get an object
 moving (in this case, a crate), you must raise the object until it can skip
@@ -135,9 +135,9 @@ where $$ \mu_{\text{k}} $$ is the coefficient of kinetic friction.
 
 </div>
 
-As seen in [[Figure]](#import-auto-id1165298658126), the coefficients of kinetic
+As seen in [Figure](#import-auto-id1165298658126), the coefficients of kinetic
 friction are less than their static counterparts. That values of $$ \mu $$
-in [[Figure]](#import-auto-id1165298658126) are stated to only one or, at
+in [Figure](#import-auto-id1165298658126) are stated to only one or, at
 most, two digits is an indication of the approximate description of friction
 given by the above two equations.
 
@@ -196,7 +196,7 @@ ball (at the end of the femur) and socket (part of the pelvis) joint. The ends
 of the bones in the joint are covered by cartilage, which provides a smooth,
 almost glassy surface. The joints also produce a fluid (synovial fluid) that
 reduces friction and wear. A damaged or arthritic joint can be replaced by an
-artificial joint ([[Figure]](#import-auto-id1165296217318)). These replacements
+artificial joint ([Figure](#import-auto-id1165296217318)). These replacements
 can be made of metals (stainless steel or titanium)
 or plastic (polyethylene), also with very small coefficients of friction.
 
@@ -230,7 +230,7 @@ force of the skier on a slope. The normal force is always perpendicular to the
 surface, and since there is no motion perpendicular to the surface, the normal
 force should equal the component of the skier’s weight perpendicular to the
 slope. (See the skier and free-body diagram
-in [[Figure]](#import-auto-id1165296217411).)
+in [Figure](#import-auto-id1165296217411).)
 
 ![The figure shows a skier going down a slope that forms an angle of 25
 degrees with the horizontal. The weight of the skier, labeled w, is
@@ -282,7 +282,7 @@ Substituting known values on the right-hand side of the equation,
 **Discussion**
 
 This result is a little smaller than the coefficient listed
-in [[Figure]](#import-auto-id1165298658126) for waxed wood on snow, but it is
+in [Figure](#import-auto-id1165298658126) for waxed wood on snow, but it is
 still reasonable since values of the coefficients of friction can vary greatly.
 In situations like this, where an object of mass $$ m $$ slides down a slope
 that makes an angle $$ \theta $$ with the horizontal, friction is given by $$ f_
@@ -298,10 +298,10 @@ Take-Home Experiment
 </div>
 An object will slide down an inclined plane at a constant velocity if the net force on the object
 is zero. We can use this fact to measure the coefficient of kinetic friction between two objects.
-As shown in [[Figure]](#fs-id1704828), the kinetic friction force on a slope
+As shown in [Figure](#fs-id1704828), the kinetic friction force on a slope
 $$ f_{\text{k}}=\mu_{\text{k}}mg \cos{\theta} $$.
 The component of the weight down the slope is equal to $$ mg \sin{\theta} $$
-(see the free-body diagram in [[Figure]](#import-auto-id1165296217411)). These
+(see the free-body diagram in [Figure](#import-auto-id1165296217411)). These
 forces act in opposite directions, so when they have equal magnitude, the
 acceleration is zero. Writing these out:
 
@@ -337,7 +337,7 @@ The simpler aspects of friction dealt with so far are its macroscopic (large-sca
 
 </div>
 
-[[Figure]](#import-auto-id1165298530900) illustrates one macroscopic
+[Figure](#import-auto-id1165298530900) illustrates one macroscopic
 characteristic of friction that is explained by microscopic (small-scale)
 research. We have noted that friction is proportional to the normal force, but
 not to the area in contact, a somewhat counterintuitive notion. When two rough
@@ -357,7 +357,7 @@ adhere and cause atomic lattices to vibrate—essentially creating sound waves
 that penetrate the material. The sound waves diminish with distance and their
 energy is converted into heat. Chemical reactions that are related to frictional
 wear can also occur between atoms and molecules on the
-surfaces. [[Figure]](#import-auto-id1165298744656) shows how the tip of a probe
+surfaces. [Figure](#import-auto-id1165298744656) shows how the tip of a probe
 drawn across another material is deformed by atomic-scale friction. The force
 needed to drag the tip can be measured and is found to be related to shear
 stress, which will be discussed later in this chapter. The variation in shear
@@ -520,7 +520,7 @@ A team of eight dogs pulls a sled with waxed wood runners on wet snow (mush!). T
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Consider the 65.0-kg ice skater being pushed by two others shown in [[Figure]](#eip-id1992243).
+Consider the 65.0-kg ice skater being pushed by two others shown in [Figure](#eip-id1992243).
 (a) Find the direction and magnitude of $$ \vb{F}_{\text{tot}} $$,
 the total force exerted on her by the others, given that the magnitudes $$
 F_{1} $$ and $$ F_{2} $$ are 26.4 N and 18.6 N, respectively.
@@ -561,7 +561,7 @@ in the previous problem when friction becomes negligibly small $$ \left(
 <div class="problem" markdown="1">
 Calculate the deceleration of a snow boarder going up a $$ 5.0^\circ $$, slope
 assuming the coefficient of friction for waxed wood on wet snow. The
-result of [[Figure]](#fs-id1395614) may be useful, but be careful to consider the
+result of [Figure](#fs-id1395614) may be useful, but be careful to consider the
 fact that the snow boarder is going uphill. Explicitly show how you follow the
 steps in [Problem-Solving Strategies](../contents/ch4ProblemSolvingStrategies.md).
 
@@ -578,7 +578,7 @@ steps in [Problem-Solving Strategies](../contents/ch4ProblemSolvingStrategies.md
 slope, assuming the coefficient of friction for waxed wood on wet snow.
 (b) Find the angle of the slope down which this skier could coast at a constant velocity.
 You can neglect air resistance in both parts, and you will find the result
-of [[Figure]](#fs-id1395614) to be useful. Explicitly show how you follow the
+of [Figure](#fs-id1395614) to be useful. Explicitly show how you follow the
 steps in the [Problem-Solving Strategies](../contents/ch4ProblemSolvingStrategies.md).
 
 </div>
@@ -629,7 +629,7 @@ slip during the acceleration. (Ignore rolling.)
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Repeat [[Figure]](#fs-id1924033) for a car with four-wheel drive.
+Repeat [Figure](#fs-id1924033) for a car with four-wheel drive.
 
 </div>
 </div>
@@ -658,7 +658,7 @@ mass and that friction is evenly distributed among all of the cars and engines?
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Consider the 52.0-kg mountain climber in [[Figure]](#fs-id1165296580243).
+Consider the 52.0-kg mountain climber in [Figure](#fs-id1165296580243).
 (a) Find the tension in the rope and the force that the mountain climber must
 exert with her feet on the vertical rock face to remain stationary. Assume that
 the force is exerted parallel to her legs. Also, assume negligible force exerted
@@ -673,7 +673,7 @@ and the cliff?
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-A contestant in a winter sporting event pushes a 45.0-kg block of ice across a frozen lake as shown in [[Figure]](#import-auto-id1165298619770)(a).
+A contestant in a winter sporting event pushes a 45.0-kg block of ice across a frozen lake as shown in [Figure](#import-auto-id1165298619770)(a).
 (a) Calculate the minimum force $$ F $$ he must exert to get the block moving.
 (b) What is the magnitude of its acceleration once it starts to move, if that force is maintained?
 
@@ -687,7 +687,7 @@ A contestant in a winter sporting event pushes a 45.0-kg block of ice across a f
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Repeat [[Figure]](#fs-id1531145) with the contestant pulling the block of ice with a rope over his shoulder at the same angle above the horizontal as shown in [[Figure]](#import-auto-id1165298619770)(b).
+Repeat [Figure](#fs-id1531145) with the contestant pulling the block of ice with a rope over his shoulder at the same angle above the horizontal as shown in [Figure](#import-auto-id1165298619770)(b).
 
 ![(a) A block of ice is being pushed by a contestant in a winter sporting event across a frozen lake at an angle of twenty five degrees. (b) A block of ice is being pulled by a contestant in a winter sporting event across a frozen lake at an angle of twenty five degrees.](../resources/Figure_06_01_07a.jpg "Which method of sliding a block of ice requires less force&#x2014;(a) pushing or (b) pulling at the same angle above the horizontal?")
 {: #import-auto-id1165298619770 height="304"}

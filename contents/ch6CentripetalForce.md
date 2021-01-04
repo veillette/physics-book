@@ -70,7 +70,7 @@ What Coefficient of Friction Do Car Tires Need on a Flat Curve?
 
 (b) Assuming an unbanked curve, find the minimum static coefficient of friction,
 between the tires and the road, static friction being the reason that keeps the
-car from slipping (see [[Figure]](#import-auto-id3184285)).
+car from slipping (see [Figure](#import-auto-id3184285)).
 
 **Strategy and Solution for (a)**
 
@@ -85,7 +85,7 @@ $$ F_{\text{c}}=\frac{m v^{2}}{r}
 
 **Strategy for (b)**
 
-[[Figure]](#import-auto-id3184285) shows the forces acting on the car on an
+[Figure](#import-auto-id3184285) shows the forces acting on the car on an
 unbanked (level ground) curve. Friction is to the left, keeping the car from
 slipping, and because it is the only horizontal force acting on the car, the
 friction is the centripetal force in this case. We know that the maximum static
@@ -158,7 +158,7 @@ force would be less as will be discussed below.
 {: #import-auto-id3184285}
 
 Let us now consider **banked curves**, where the slope of the road helps you negotiate the
-curve. See [[Figure]](#import-auto-id1571739). The greater the angle $$ \theta
+curve. See [Figure](#import-auto-id1571739). The greater the angle $$ \theta
 $$, the faster you can take the curve. Race tracks for bikes as well as cars,
 for example, often have steeply banked curves. In an “ideally banked curve,” the
 angle $$ \theta $$ is such that you can negotiate the curve at a certain speed
@@ -174,7 +174,7 @@ respectively. In cases in which forces are not parallel, it is most convenient
 to consider components along perpendicular axes—in this case, the vertical and
 horizontal directions.
 
-[[Figure]](#import-auto-id1571739) shows a free body diagram for a car on a
+[Figure](#import-auto-id1571739) shows a free body diagram for a car on a
 frictionless banked curve. If the angle $$ \theta $$ is ideal for the speed and
 radius, then the net external force will equal the necessary centripetal force.
 The only two external forces acting on the car are its weight $$ \vb{w} $$
@@ -348,7 +348,7 @@ If centripetal force is directed toward the center, why do you feel that you are
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Race car drivers routinely cut corners as shown in [[Figure]](#import-auto-id2673863). Explain how this allows the curve to be taken at the greatest speed.
+Race car drivers routinely cut corners as shown in [Figure](#import-auto-id2673863). Explain how this allows the curve to be taken at the greatest speed.
 
 ![In the figure, two paths are shown inside a race track through a steep curve, approximately equal to ninety degrees. Two cars are shown. One car is on the path one, which is the inside path along the track. The path of this car is shown with an arrow through the inside path. The second car is shown overtaking the first car, while taking a left turn, showing it to be crossing into the inside path from the second path. The path of this car is also shown with an arrow throughout.](../resources/Figure_07_03_04a.jpg "Two paths around a race track curve are shown. Race car drivers will take the inside path (called cutting the corner) whenever possible because it allows them to take the curve at the highest speed.")
 {: #import-auto-id2673863}
@@ -358,7 +358,7 @@ Race car drivers routinely cut corners as shown in [[Figure]](#import-auto-id267
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-A number of amusement parks have rides that make vertical loops like the one shown in [[Figure]](#import-auto-id2452691). For safety, the cars are attached to the rails in such a way that they cannot fall off. If the car goes over the top at just the right speed, gravity alone will supply the centripetal force. What other force acts and what is its direction if:
+A number of amusement parks have rides that make vertical loops like the one shown in [Figure](#import-auto-id2452691). For safety, the cars are attached to the rails in such a way that they cannot fall off. If the car goes over the top at just the right speed, gravity alone will supply the centripetal force. What other force acts and what is its direction if:
 
 (a) The car goes over the top at faster than this speed?
 
@@ -372,7 +372,7 @@ A number of amusement parks have rides that make vertical loops like the one sho
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-What is the direction of the force exerted by the car on the passenger as the car goes over the top of the amusement ride pictured in [[Figure]](#import-auto-id2452691) under the following circumstances:
+What is the direction of the force exerted by the car on the passenger as the car goes over the top of the amusement ride pictured in [Figure](#import-auto-id2452691) under the following circumstances:
 
 (a) The car goes over the top at such a speed that the gravitational force is
 the only force acting?
@@ -393,7 +393,7 @@ As a skater forms a circle, what force is responsible for making her turn? Use a
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Suppose a child is riding on a merry-go-round at a distance about halfway between its center and edge. She has a lunch box resting on wax paper, so that there is very little friction between it and the merry-go-round. Which path shown in [[Figure]](#import-auto-id2990767) will the lunch box take when she lets go? The lunch box leaves a trail in the dust on the merry-go-round. Is that trail straight, curved to the left, or curved to the right? Explain your answer.
+Suppose a child is riding on a merry-go-round at a distance about halfway between its center and edge. She has a lunch box resting on wax paper, so that there is very little friction between it and the merry-go-round. Which path shown in [Figure](#import-auto-id2990767) will the lunch box take when she lets go? The lunch box leaves a trail in the dust on the merry-go-round. Is that trail straight, curved to the left, or curved to the right? Explain your answer.
 
 ![The given figure shows the circular base of a merry-go-round, whose angular velocity is clockwise, shown here with an arrow. A single horse is shown on whom a child is sitting, with a vertical line shown passed through her, which goes from the bottom of the merry-go-round to the top of it. A point P is shown alongside the horse, through which three arrows in downward three directions are shown which depicts the three possible path of the fall of the lunch box.](../resources/Figure_07_03_06a.jpg "A child riding on a merry-go-round releases her lunch box at point P. This is a view from above the clockwise rotation. Assuming it slides with negligible friction, will it follow path A, B, or C, as viewed from Earth&#x2019;s frame of reference? What will be the shape of the path it leaves in the dust on the merry-go-round?")
 {: #import-auto-id2990767}
@@ -486,7 +486,7 @@ through sharply banked turns.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Part of riding a bicycle involves leaning at the correct angle when making a turn, as seen in [[Figure]](#import-auto-id2682310). To be stable, the force exerted by the ground must be on a line going through the center of gravity. The force on the bicycle wheel can be resolved into two perpendicular components—friction parallel to the road (this must supply the centripetal force), and the vertical normal force (which must equal the system’s weight).
+Part of riding a bicycle involves leaning at the correct angle when making a turn, as seen in [Figure](#import-auto-id2682310). To be stable, the force exerted by the ground must be on a line going through the center of gravity. The force on the bicycle wheel can be resolved into two perpendicular components—friction parallel to the road (this must supply the centripetal force), and the vertical normal force (which must equal the system’s weight).
 
 (a) Show that $$ \theta $$
 (as defined in the figure) is related to the speed $$ v $$ and radius of
@@ -502,13 +502,13 @@ roadway—that is, $$ \theta ={\tan}^{-1}{v}^{2}/rg $$
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A large centrifuge, like the one shown in [[Figure]](#import-auto-id3099006)(a), is used to expose aspiring astronauts to accelerations similar to those experienced in rocket launches and atmospheric reentries.
+A large centrifuge, like the one shown in [Figure](#import-auto-id3099006)(a), is used to expose aspiring astronauts to accelerations similar to those experienced in rocket launches and atmospheric reentries.
 
 (a) At what angular velocity is the centripetal acceleration $$ 10 g $$ if the
 rider is 15.0 m from the center of rotation?
 
 (b) The rider’s cage hangs on a pivot at the end of the arm, allowing it to
-swing outward during rotation as shown in [[Figure]](#import-auto-id3099006)(b).
+swing outward during rotation as shown in [Figure](#import-auto-id3099006)(b).
 At what angle $$ \theta $$ below the horizontal will the cage hang when the
 centripetal acceleration is $$ 10 g $$ ? (Hint: The arm supplies centripetal
 force and supports the weight of the cage. Draw a free body diagram of the
@@ -549,7 +549,7 @@ b) 0.234
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Modern roller coasters have vertical loops like the one shown in [[Figure]](#import-auto-id2514816). The radius of curvature is smaller at the top than on the sides so that the downward centripetal acceleration at the top will be greater than the acceleration due to gravity, keeping the passengers pressed firmly into their seats. What is the speed of the roller coaster at the top of the loop if the radius of curvature there is 15.0 m and the downward acceleration of the car is 1.50 g?
+Modern roller coasters have vertical loops like the one shown in [Figure](#import-auto-id2514816). The radius of curvature is smaller at the top than on the sides so that the downward centripetal acceleration at the top will be greater than the acceleration due to gravity, keeping the passengers pressed firmly into their seats. What is the speed of the roller coaster at the top of the loop if the radius of curvature there is 15.0 m and the downward acceleration of the car is 1.50 g?
 
 ![A teardrop shaped loop of a roller coaster is shown. The car of the roller coaster starts from the point A near the right of the base and covers the teardrop portion of the roller coaster and move to a point D at the left of base. Near the top of tear drop portion an upward arrow is shown labeled as r-minimum. Also at a point near the base toward A there is a label called r-maximum. The wire frame of the base is also shown.](../resources/Figure_07_03_10a.jpg "Teardrop-shaped loops are used in the latest roller coasters so that the radius of curvature gradually decreases to a minimum at the top. This means that the centripetal acceleration builds from zero to a maximum at the top and gradually decreases again. A circular loop would cause a jolting change in acceleration at entry, a disadvantage discovered long ago in railroad curve design. With a small radius of curvature at the top, the centripetal acceleration can more easily be kept greater than &#10; &#10; &#10; g&#10; &#10; &#10; so that the passengers do not lose contact with their seats nor do they need seat belts to keep them in place.")
 {: #import-auto-id2514816}

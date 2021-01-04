@@ -34,9 +34,9 @@ particles that cannot rotate or spin.
 We start by assuming that $$ \vb{F}_{\text{net}}=0 $$, so that momentum $$
 \vb{p} $$ is conserved. The simplest collision is one in which one of the
 particles is initially at rest. (
-See [[Figure]](#import-auto-id2747387).) The best choice for a coordinate system
+See [Figure](#import-auto-id2747387).) The best choice for a coordinate system
 is one with an axis parallel to the velocity of the incoming particle, as shown
-in [[Figure]](#import-auto-id2747387). Because momentum is conserved, the
+in [Figure](#import-auto-id2747387). Because momentum is conserved, the
 components of momentum along the $$ x $$- and $$ y $$-axes
 $$ \left( p_{x}\text{ and } p_{y}\right) $$ will also be
   conserved, but with the chosen coordinate system, $$ p_{y} $$ is initially
@@ -80,7 +80,7 @@ Conservation of momentum along the $$ x $$ -axis gives the following equation:
 </div>
 
 where $$\theta_{1} $$ and $$\theta_{2} $$ are as shown
-in [[Figure]](#import-auto-id2747387).
+in [Figure](#import-auto-id2747387).
 
 <div class="note" data-label="">
 <div class="title">
@@ -154,7 +154,7 @@ collision.
 **Strategy**
 
 Momentum is conserved because the surface is frictionless. The coordinate system
-shown in [[Figure]](#import-auto-id2747922) is one in which $$ m_{2} $$ is
+shown in [Figure](#import-auto-id2747922) is one in which $$ m_{2} $$ is
 originally at rest and the initial velocity is parallel to the $$ x $$ -axis, so
 that conservation of momentum along the $$ x $$ - and $$ y $$ -axes is
 applicable.
@@ -186,7 +186,7 @@ Thus,
 <div class="equation" id="eip-532">
  $$\theta_{2}={\tan}^{-1}\left(-1.129\right)=311.5^\circ \approx 312^\circ. $$
 </div>
-Angles are defined as positive in the counter clockwise direction, so this angle indicates that $$ m_{2} $$ is scattered to the right in [[Figure]](#import-auto-id2747922), as expected (
+Angles are defined as positive in the counter clockwise direction, so this angle indicates that $$ m_{2} $$ is scattered to the right in [Figure](#import-auto-id2747922), as expected (
 this angle is in the fourth quadrant). Either equation for the $$ x $$- or
 $$ y $$-axis can now be used to solve for $$ v^{\prime}_{2} $$, but the latter
 equation is easiest because it has fewer terms.
@@ -226,7 +226,7 @@ and the collision is elastic. This situation is nearly the case with colliding
 billiard balls, and precisely the case with some subatomic particle collisions.
 We can thus get a mental image of a collision of subatomic particles by thinking
 about billiards (or pool)
-. (Refer to [[Figure]](#import-auto-id2747387) for masses and angles.) First, an
+. (Refer to [Figure](#import-auto-id2747387) for masses and angles.) First, an
 elastic collision conserves internal kinetic energy. Again, let us assume object
 2 $$ \left( m_{2}\right) $$ is initially at rest. Then, the internal kinetic
 energy before and after the collision of two objects that have equal masses is
@@ -308,7 +308,7 @@ the atomic nucleus from such experiments.
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-[[Figure]](#import-auto-id2692680) shows a cube at rest and a small object heading toward it.
+[Figure](#import-auto-id2692680) shows a cube at rest and a small object heading toward it.
 (a) Describe the directions (angle $$\theta_{1} $$)
 at which the small object can emerge after colliding elastically with the
 cube. How does $$\theta_{1} $$ depend on $$ b $$, the so-called impact
@@ -356,7 +356,7 @@ $$
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Confirm that the results of the example [[Figure]](#fs-id1311272) do conserve momentum in
+Confirm that the results of the example [Figure](#fs-id1311272) do conserve momentum in
 both the $$ x $$- and $$ y $$-directions.
 
 </div>

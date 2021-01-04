@@ -145,7 +145,7 @@ of length, mass, and time.
 
 SI units are part of the **metric system**. The metric system is convenient for scientific and
 engineering calculations because the units are categorized by factors of 10.
-[[Figure]](#import-auto-id2643474) gives metric prefixes and symbols used to
+[Figure](#import-auto-id2643474) gives metric prefixes and symbols used to
 denote various factors of 10.
 
 Metric systems have the advantage that conversions of units involve only powers
@@ -220,9 +220,9 @@ are related to large-scale currents and forces between wires.
 
 The vastness of the universe and the breadth over which physics applies are
 illustrated by the wide range of examples of known lengths, masses, and times
-in [[Figure]](#import-auto-id1677589). Examination of this table will give you
+in [Figure](#import-auto-id1677589). Examination of this table will give you
 some feeling for the range of possible topics and numerical values. (
-See [[Figure]](#import-auto-id3143533) and [[Figure]](#import-auto-id3083060).)
+See [Figure](#import-auto-id3143533) and [Figure](#import-auto-id3083060).)
 
 ![A magnified image of tiny phytoplankton swimming among the crystal of ice.\[](../resources/Figure_01_02_04a.jpg "Tiny phytoplankton swims among crystals of ice in the Antarctic Sea. They range from a few micrometers to as much as 2 millimeters in length. (credit: Prof. Gordon T. Taylor, Stony Brook University; NOAA Corps Collections)")
 {: #import-auto-id3143533}
@@ -573,7 +573,7 @@ speed of 4.0 cm/year.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) Refer to [[Figure]](#import-auto-id1677589) to determine the average distance between the Earth and the Sun.
+(a) Refer to [Figure](#import-auto-id1677589) to determine the average distance between the Earth and the Sun.
 Then calculate the average speed of the Earth in its orbit in kilometers per second.
 (b) What is this in meters per second?
 
