@@ -158,7 +158,7 @@ something that is often too difficult (or impossible) to display directly. While
 a model is justified with experimental proof, it is only accurate under limited
 situations. An example is the planetary model of the atom in which electrons are
 pictured as orbiting the nucleus, analogous to the way planets orbit the Sun. (
-See [Figure 9](#fs-id1165298745067).) We cannot observe electron orbits
+See [Figure 9](#Fig9).) We cannot observe electron orbits
 directly, but the mental image helps explain the observations we can make, such
 as the emission of light from hot gases (atomic spectra). Physicists use models
 for a variety of purposes. For example, models can help physicists analyze a
@@ -199,7 +199,7 @@ between laws and principles often is not carefully made.
 center and negatively charged particles moving in orbits
 around the nucleus.](../resources/Figure_01_atom.svg "What is a model? This planetary model of the atom shows 
 electrons orbiting the nucleus. It is a drawing that we use to form a mental 
-image of the atom that we cannot see directly with our eyes because it is too small."){: #fs-id1165298745067 height="150"}
+image of the atom that we cannot see directly with our eyes because it is too small."){: #Fig9 height="150"}
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
