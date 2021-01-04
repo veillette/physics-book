@@ -505,3 +505,8 @@ h6:hover .header-link {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
+iframe {
+    display:block;
+    width:100%;  /* fit iframe to div */
+}
