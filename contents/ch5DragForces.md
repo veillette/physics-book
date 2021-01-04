@@ -324,9 +324,9 @@ have observed? Would this result be different if done on the Moon?
 
 </div>
 
-<div class="note" id="eip-418" data-label="" markdown="1">
+<div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
-PhET Exploration: Masses &amp; Springs
+ Masses &amp; Springs
 </div>
 A realistic mass and spring laboratory. Hang masses from springs and adjust the spring stiffness and damping. You can even slow time. Transport the lab to different planets. A chart shows the kinetic, potential, and thermal energy for each spring.
 

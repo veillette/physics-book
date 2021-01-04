@@ -275,9 +275,9 @@ proportional to the mass of the steel and glass marbles?
 
 </div>
 
-<div class="note" data-label="" markdown="1">
+<div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
-PhET Exploration: The Ramp
+ The Ramp
 </div>
 Explore forces, energy and work as you push household objects up and down a ramp. Lower and
 raise the ramp to see how the angle of inclination affects the parallel forces acting on the file

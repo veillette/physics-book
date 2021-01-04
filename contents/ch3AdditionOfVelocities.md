@@ -443,9 +443,9 @@ Because Einstein was able to clearly define how measurements are made (some invo
 </div>
 </div>
 
-<div class="note" id="eip-584" data-label="" markdown="1">
+<div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
-PhET Exploration: Motion in 2D
+ Motion in 2D
 </div>
 Try the new \"Ladybug Motion 2D\" simulation for the latest updated version. Learn about position, velocity, and acceleration vectors. Move the ball with the mouse or let the simulation move the ball in four types of motion (2 types of linear, simple harmonic, circle).
 

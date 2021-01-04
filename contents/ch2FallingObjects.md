@@ -393,9 +393,9 @@ Thus, it takes about 2.5 seconds for the piece of ice to hit the water.
 </div>
 </div>
 
-<div class="note" data-label="" markdown="1">
+<div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
-PhET Exploration: Graphing Quadratics
+ Graphing Quadratics
 </div>
 Learn about graphing polynomials. The shape of the curve changes as the constants are adjusted. View the curves for the
 individual terms (e.g. $$ y= b x $$) to see how they add to generate the polynomial curve.

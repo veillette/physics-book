@@ -347,9 +347,9 @@ physics.
 ![In this figure, the subtraction of two vectors A and B is shown. A red colored vector A is inclined at an angle theta A to the positive of x axis. From the head of vector A a blue vector negative B is drawn. Vector B is in west of south direction. The resultant of the vector A and vector negative B is shown as a black vector R from the tail of vector A to the head of vector negative B. The resultant R is inclined to x axis at an angle theta below the x axis. The components of the vectors are also shown along the coordinate axes as dotted lines of their respective colors.](../resources/Figure_03_03_10a.jpg "The subtraction of the two vectors shown in [link]. The components of &#x2013; \( B \)  are the negatives of the components of  \( B \) . The method of subtraction is the same as that for addition.")
 {: #import-auto-id1165298841604}
 
-<div class="note" id="eip-948" data-label="" markdown="1">
+<div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
-PhET Exploration: Vector Addition
+ Vector Addition
 </div>
 Learn how to add vectors. Drag vectors onto a graph, change their length and angle, and sum them together. The magnitude, angle, and components of each vector can be displayed in several formats.
 

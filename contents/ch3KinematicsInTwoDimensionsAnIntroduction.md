@@ -131,9 +131,9 @@ in [Vector Addition and Subtraction: Graphical Methods](../contents/ch3VectorAdd
 and [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md). We
 will find such techniques to be useful in many areas of physics.
 
-<div class="note" id="eip-652" data-label="" markdown="1">
+<div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
-PhET Exploration: Ladybug Motion 2D
+ Ladybug Motion 2D
 </div>
 Learn about position, velocity and acceleration vectors. Move the ladybug by setting the position, velocity or acceleration,
 and see how the vectors change. Choose linear, circular or elliptical motion, and record

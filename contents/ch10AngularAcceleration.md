@@ -302,9 +302,9 @@ moment of inertia about her spin axis.
 </div>
 
 
-<div class="note" data-label="" markdown="1">
+<div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
-PhET Exploration: Ladybug Revolution
+ Ladybug Revolution
 </div>
 Join the ladybug in an exploration of rotational motion. Rotate the merry-go-round to change its angle, or choose a constant angular velocity or angular acceleration. Explore how circular motion relates to the bug\'s x,y position, velocity, and acceleration using vectors or graphs.
 

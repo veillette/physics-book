@@ -189,9 +189,9 @@ This is an experiment to perform while standing in a bus or a train. Stand facin
 
 </div>
 
-<div class="note" data-label="" markdown="1">
+<div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
-PhET Exploration: Balancing Act
+ Balancing Act
 </div>
 Play with objects on a teeter totter to learn about balance. Test what you\'ve learned by trying the Balance Challenge game.
 

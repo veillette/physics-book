@@ -203,9 +203,9 @@ atmosphere’s resistance.
 ![The space shuttle is launched. It consists of the shuttle orbiter, two solid rocket boosters, and an expendable external tank. It takes off leaving much smoke and fire.](../resources/Figure_09_07_02a.jpg "The space shuttle had a number of reusable parts. Solid fuel boosters on either side were recovered and refueled after each flight, and the entire orbiter returned to Earth for use in subsequent flights. The large liquid fuel tank was expended. The space shuttle was a complex assemblage of technologies, employing both solid and liquid fuel and pioneering ceramic tiles as reentry heat shields. As a result, it permitted multiple launches as opposed to single-use rockets. (credit: NASA)")
 {: #import-auto-id2998704}
 
-<div class="note" id="eip-225" data-label="" markdown="1">
+<div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
-PhET Exploration: Lunar Lander
+ Lunar Lander
 </div>
 Can you avoid the boulder field and land safely, just before your fuel runs out, as Neil Armstrong did in 1969? Our version of this classic video game accurately simulates the real motion of the lunar lander with the correct mass, thrust, fuel consumption rate, and lunar gravity. The real lunar lander is very hard to control.
 

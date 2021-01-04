@@ -504,9 +504,9 @@ to find in physics is in the long list of forces. Are some more basic than
 others? Are some different manifestations of the same underlying force? The
 answer to both questions is yes, as will be seen in the next few sections.
 
-<div class="note" id="eip-456" data-label="" markdown="1">
+<div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
-PhET Exploration: Forces in 1 Dimension
+ Forces in 1 Dimension
 </div>
 Explore the forces at work when you try to push a filing cabinet. Create an applied force and see the resulting friction force and total force acting on the cabinet. Charts show the forces, position, velocity, and acceleration vs. time. View a free-body diagram of all the forces (including gravitational and normal forces).
 
