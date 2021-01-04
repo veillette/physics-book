@@ -264,8 +264,7 @@ Problem-Solving Strategy for Rotational Energy
    are, and calculate them as necessary.
 6. *Eliminate terms wherever possible to simplify the
    algebra*.
-7. *Check the answer to see if it is reasonable*. {:
-   type="1"}
+7. *Check the answer to see if it is reasonable*.
 
 </div>
 
