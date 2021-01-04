@@ -3,7 +3,6 @@ title: "Friction"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Discuss the general characteristics of friction.
 * Describe the various types of friction.

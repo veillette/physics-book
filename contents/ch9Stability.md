@@ -3,7 +3,6 @@ title: "Stability"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * State the types of equilibrium.
 * Describe stable and unstable equilibriums.
@@ -300,15 +299,12 @@ neutral equilibrium
 : a state of equilibrium that is independent of a system’s displacements from
 its original position
 
-
 stable equilibrium
 : a system, when displaced, experiences a net force or torque in a direction
 opposite to the direction of the displacement
 
-
 unstable equilibrium
 : a system, when displaced, experiences a net force or torque in the same
 direction as the displacement from equilibrium
-
 
 </div>

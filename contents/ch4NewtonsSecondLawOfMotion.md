@@ -3,7 +3,6 @@ title: "Newton’s Second Law of Motion: Concept of a System"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Define net force, external force, and system.
 * Understand Newton’s second law of motion.
@@ -710,21 +709,17 @@ from the Moon is 10 000 kg. The thrust of its engines is 30 000 N.
 acceleration
 : the rate at which an object’s velocity changes over a period of time
 
-
 free-fall
 : a situation in which the only force acting on an object is the force due to
 gravity
-
 
 friction
 : a force past each other of objects that are touching; examples include rough
 surfaces and air resistance
 
-
 net external force
 : the vector sum of all external forces acting on an object or system; causes a
 mass to accelerate
-
 
 Newton’s second law of motion
 : the net external force $$ \vb{F}_{\text{net}} $$ on an object
@@ -733,12 +728,10 @@ acceleration of the object, $$ \vb{a} $$, and inversely proportional
 to the mass; defined mathematically as
 $$ \vb{a}=\frac{ \vb{F}_{\text{net}}}{m} $$
 
-
 system
 : defined by the boundaries of an object or collection of objects being
 observed; all forces originating from outside of the system are considered
 external forces
-
 
 weight
 : the force $$ \vb{w} $$ due to gravity acting on an object of mass

@@ -3,7 +3,6 @@ title: "Vector Addition and Subtraction: Graphical Methods"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Understand the rules of vector addition, subtraction, and multiplication.
 * Apply graphical methods of vector addition and subtraction to determine the
@@ -671,45 +670,35 @@ component (of a 2-d vector)
 direction; every 2-d vector can be expressed as a sum of two vertical and
 horizontal vector components
 
-
 commutative
 : refers to the interchangeability of order in a function; vector addition is
 commutative because the order in which vectors are added together does not
 affect the final sum
 
-
 direction (of a vector)
 : the orientation of a vector in space
-
 
 head (of a vector)
 : the end point of a vector; the location of the tip of the vector’s arrowhead;
 also referred to as the “tip”
 
-
 head-to-tail method
 : a method of adding vectors in which the tail of each vector is placed at the
 head of the previous vector
 
-
 magnitude (of a vector)
 : the length or size of a vector; magnitude is a scalar quantity
-
 
 resultant
 : the sum of two or more vectors
 
-
 resultant vector
 : the vector sum of two or more vectors
-
 
 scalar
 : a quantity with magnitude but no direction
 
-
 tail
 : the start point of a vector; opposite to the head or tip of the arrow
-
 
 </div>

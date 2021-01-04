@@ -3,7 +3,6 @@ title: "Applications of Statics, Including Problem-Solving Strategies"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Discuss the applications of Statics in real life.
 * State and discuss various problem-solving strategies in Statics.
@@ -254,6 +253,5 @@ Strategy for static equilibrium described above.
 static equilibrium
 : equilibrium in which the acceleration of the system is zero and accelerated
 rotation does not occur
-
 
 </div>

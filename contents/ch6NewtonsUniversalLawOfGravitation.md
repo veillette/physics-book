@@ -3,7 +3,6 @@ title: "Newton’s Universal Law of Gravitation"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Explain Earth’s gravitational force.
 * Describe the gravitational effect of the Moon on Earth.
@@ -640,21 +639,17 @@ gravitational constant, *G*
 gravitation; it is a universal constant—that is, it is thought to be the same
 everywhere in the universe
 
-
 center of mass
 : the point where the entire mass of an object can be thought to be concentrated
-
 
 microgravity
 : an environment in which the apparent net acceleration of a body is small
 compared with that produced by Earth at its surface
-
 
 Newton’s universal law of gravitation
 : every particle in the universe attracts every other particle with a force
 along a line joining them; the force is directly proportional to the product of
 their masses and inversely proportional to the square of the distance between
 them
-
 
 </div>

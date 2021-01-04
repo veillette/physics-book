@@ -3,7 +3,6 @@ title: "Physical Quantities and Units"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Perform unit conversions both in the SI and English units.
 * Explain the most common prefixes in the SI units and be able to write them in scientific notation.

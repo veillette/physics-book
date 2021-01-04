@@ -3,7 +3,6 @@ title: "Problem-Solving Strategies"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Understand and apply a problem-solving procedure to solve problems using Newton\'s laws of motion.
 
@@ -50,7 +49,6 @@ earlier in this chapter, the system of interest depends on what question we need
 to answer. This choice becomes easier with practice, eventually developing into
 an almost unconscious process. Skill in clearly defining systems will be
 beneficial in later chapters as well.
-
 
 A diagram showing the system of interest and all of the external forces is
 called a **free-body diagram**{: class="

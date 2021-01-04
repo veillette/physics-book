@@ -3,7 +3,6 @@ title: "Acceleration"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Define and distinguish between instantaneous acceleration, average acceleration, and deceleration.
 * Calculate acceleration given initial time, initial velocity, final time, and final velocity.
@@ -633,18 +632,14 @@ $$ \left(9.80 \mss \right)? $$
 acceleration
 : the rate of change in velocity; the change in velocity over time
 
-
 average acceleration
 : the change in velocity divided by the time over which it changes
-
 
 instantaneous acceleration
 : acceleration at a specific point in time
 
-
 deceleration
 : acceleration in the direction opposite to velocity; acceleration that results
 in a decrease in velocity
-
 
 </div>

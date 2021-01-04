@@ -3,7 +3,6 @@ title: "Kinetic Energy and the Work-Energy Theorem"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Explain work as a transfer of energy and net work as the work done by the net force.
 * Explain and apply the work-energy theorem.

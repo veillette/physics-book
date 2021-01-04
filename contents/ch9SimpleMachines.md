@@ -3,7 +3,6 @@ title: "Simple Machines"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Describe different simple machines.
 * Calculate the mechanical advantage.
@@ -296,6 +295,5 @@ b) $$ 897 \N $$ upward
 
 mechanical advantage
 : the ratio of output to input forces for any simple machine
-
 
 </div>

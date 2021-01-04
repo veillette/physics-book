@@ -3,7 +3,6 @@ title: "Elastic Collisions in One Dimension"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Describe an elastic collision of two objects in one dimension.
 * Define internal kinetic energy.

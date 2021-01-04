@@ -3,7 +3,6 @@ title: "Forces and Torques in Muscles and Joints"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Explain the forces exerted by muscles.
 * State how a bad posture causes back strain.

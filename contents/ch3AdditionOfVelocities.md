@@ -3,7 +3,6 @@ title: "Addition of Velocities"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Apply principles of vector addition to determine relative velocity.
 * Explain the significance of the observer in the measurement of velocity.

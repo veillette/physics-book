@@ -3,7 +3,6 @@ title: "Angular Momentum and Its Conservation"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Understand the analogy between angular momentum and linear momentum.
 * Observe the relationship between torque and angular momentum.

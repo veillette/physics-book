@@ -3,7 +3,6 @@ title: "Centripetal Force"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Calculate coefficient of friction on a car tire.
 * Calculate ideal speed and angle of a car on a turn.
@@ -589,23 +588,19 @@ c) The assumed speed is too great for the tight curve.
 centripetal force
 : any net force causing uniform circular motion
 
-
 ideal banking
 : the sloping of a curve in a road, where the angle of the slope allows the
 vehicle to negotiate the curve at a certain speed without the aid of friction
 between the tires and the road; the net external force on the vehicle equals the
 horizontal centripetal force in the absence of friction
 
-
 ideal speed
 : the maximum safe speed at which a vehicle can turn on a curve without the aid
 of friction between the tire and the road
 
-
 ideal angle
 : the angle at which a car can turn safely on a steep curve, which is in
 proportion to the ideal speed
-
 
 banked curve
 : the curve in a road that is sloping in a manner that helps a vehicle negotiate

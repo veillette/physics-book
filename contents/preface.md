@@ -3,7 +3,6 @@ title: "Preface"
 layout: page
 ---
 
-
 Welcome to *General Physics*. This textbook is derived from *College 
 Physics*, an OpenStax resource. OpenStax is a nonprofit based at Rice 
 University, whose mission is to improve student access to education. This 

@@ -3,7 +3,6 @@ title: "Development of Force Concept"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Understand the definition of force.
 
@@ -99,21 +98,17 @@ What properties do forces have that allow us to classify them as vectors?
 dynamics
 : the study of how forces affect the motion of objects and systems
 
-
 external force
 : a force acting on an object or system that originates outside of the object or
 system
-
 
 free-body diagram
 : a sketch showing all of the external forces acting on an object or system; the
 system is represented by a dot, and the forces are represented by vectors
 extending outward from the dot
 
-
 force
 : a push or pull on an object with a specific magnitude and direction; can be
 represented by vectors; can be expressed as a multiple of a standard force
-
 
 </div>

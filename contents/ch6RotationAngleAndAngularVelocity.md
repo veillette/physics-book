@@ -3,7 +3,6 @@ title: "Rotation Angle and Angular Velocity"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Define arc length, rotation angle, radius of curvature and angular velocity.
 * Calculate the angular velocity of a car wheel spin.
@@ -414,11 +413,9 @@ friction between the riders’ clothing and the wall.
 arc length
 : $$ \Delta s $$, the distance traveled by an object along a circular path
 
-
 pit
 : a tiny indentation on the spiral track moulded into the top of the
 polycarbonate layer of CD
-
 
 rotation angle
 : the ratio of the arc length to the radius of curvature on a circular path:

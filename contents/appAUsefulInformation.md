@@ -3,7 +3,6 @@ title: "Useful Information"
 layout: page
 ---
 
-
 This appendix is broken into several tables.
 
 * [Important Constants](#Important-Constants)

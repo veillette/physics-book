@@ -3,7 +3,6 @@ title: "Problem-Solving Basics for One-Dimensional Kinematics"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Apply problem-solving steps and strategies to solve problems of one-dimensional kinematics.
 * Apply strategies to determine whether or not the result of a problem is reasonable, and if not, determine the cause.

@@ -3,7 +3,6 @@ title: "Kinematics of Rotational Motion"
 layout: page
 ---
 
-
 <div class="abstract" markdown="1">
 * Observe the kinematics of rotational motion.
 * Derive rotational kinematic equations.
@@ -107,7 +106,6 @@ Problem-Solving Strategy for Rotational Kinematics
 4.  *Solve the appropriate equation or equations for the quantity to be determined (the unknown)*. It can be useful to think in terms of a translational analog because by now you are familiar with such motion.
 5.  *Substitute the known values along with their units into the appropriate equation, and obtain numerical solutions complete with units*. Be sure to use units of radians for angles.
 6.  *Check your answer to see if it is reasonable: Does your answer make sense*?
-
 
 </div>
 
