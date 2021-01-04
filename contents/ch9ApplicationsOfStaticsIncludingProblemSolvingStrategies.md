@@ -35,8 +35,7 @@ projecting forces.
    examining the magnitude, direction, and units of the answer. The importance
    of this last step never diminishes, although in unfamiliar applications, it
    is usually more difficult to judge reasonableness. These judgments become
-   progressively easier with experience. {:
-   type="1"}
+   progressively easier with experience. 
 
 </div>
 

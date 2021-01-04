@@ -252,8 +252,7 @@ the solar system, a planet is a celestial body that:
 1. is in orbit around the Sun,
 2. has sufficient mass to assume hydrostatic
    equilibrium and
-3. has cleared the neighborhood around its orbit. {:
-   type="1"}
+3. has cleared the neighborhood around its orbit.
 
 A non-satellite body fulfilling only the first two of the above criteria is
 classified as “dwarf planet.”
