@@ -362,7 +362,7 @@ h6:hover .header-link {
 
 .example .solution:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before,
 .exercise .solution:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before {
-    content: 'Show Solution';
+    content: "Show Solution";
 }
 
 .example .solution:not(.ui-solution-visible) > section,
@@ -372,7 +372,7 @@ h6:hover .header-link {
 
 .example .solution.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before,
 .exercise .solution.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before {
-    content: 'Hide Solution';
+    content: "Hide Solution";
 }
 
 
@@ -405,12 +405,12 @@ h6:hover .header-link {
 
 .example[data-element-type="problems-exercises"] .problem::before,
 .exercise[data-element-type="problems-exercises"] .problem::before {
-    content: "Problem";
+    content: "";
 }
 
 .example[data-element-type="problems-exercises"] .solution::before,
 .exercise[data-element-type="problems-exercises"] .solution::before {
-    content: "Solution";
+    content: "";
 }
 
 .book.with-summary .book-body {
