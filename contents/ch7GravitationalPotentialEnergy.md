@@ -26,9 +26,8 @@ Let us calculate the work done in lifting an object of mass $$ m $$ through a
 height $$ h $$, such as in [[Figure]](#import-auto-id1697782). If the object is
 lifted straight up at constant speed, then the force needed to lift it is equal
 to its weight $$ mg $$. The work done on the mass is then $$ W = Fd = mgh
-$$. We define this to be the **gravitational potential energy**{: class="
-term"
-} $$ \left(\PE_{\text{g}}\right) $$ put into (or gained by) the
+$$. We define this to be the **gravitational potential energy** $$ \left(\PE_{\text{g}}\right) $$ 
+put into (or gained by) the
 object-Earth system. This energy is associated with the state of separation
 between two objects that attract each other by the gravitational force. For
 convenience, we refer to this as the $$ \PE_{\text{g}} $$ gained by the

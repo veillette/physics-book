@@ -59,9 +59,8 @@ or
 This last equation is the rotational analog of Newton’s second law
 ( $$ \vb{F}=m\vb{a} $$), where torque is analogous to force, angular acceleration is analogous to
 translational acceleration, and $$ m r^{2} $$ is analogous to mass (or inertia).
-The quantity $$ m r^{2} $$ is called the **rotational inertia**{: class="
-term" #import-auto-id3450318} or **moment of inertia**{: class="
-term" #import-auto-id1383999} of a point mass $$ m $$ a distance $$ r $$ from
+The quantity $$ m r^{2} $$ is called the **rotational inertia** or **moment of inertia** of
+a point mass $$ m $$ a distance $$ r $$ from
 the center of rotation.
 
 ![The given figure shows an object of mass m, kept on a horizontal frictionless table, attached to a pivot point, which is in the center of the table, by a cord that supplies centripetal force. A force F is applied to the object perpendicular to the radius r, which is indicated by a red arrow tangential to the circle, causing the object to move in counterclockwise direction.](../resources/Figure_11_03_02a.jpg "An object is supported by a horizontal frictionless table and is attached to a pivot point by a cord that supplies centripetal force. A force \( F \)  is applied to the object perpendicular to the radius \( r \) , causing it to accelerate about the pivot point. The force is kept perpendicular to \( r \) .")
