@@ -11,7 +11,7 @@ layout: page
 </div>
 
 ![Two Canada geese flying close to each other in the sky.](../resources/Figure_01_01_01_aa.jpg "The flight formations of migratory birds such as Canada geese are governed by the laws of physics. (credit: David Merrett)")
-{: #import-auto-id1580373}
+{: #Fig1}
 
 The physical universe is enormously complex in its detail. Every day, each of us
 observes a great variety of objects and phenomena. Over the centuries, the
@@ -52,7 +52,7 @@ theory).
 Science consists of the theories and laws that are the general truths of nature
 as well as the body of knowledge they encompass. Scientists are continually
 trying to expand this body of knowledge and to perfect the expression of the
-laws that describe it. **Physics**{: class="term" #import-auto-id3095144} is
+laws that describe it. **Physics** is
 concerned with describing the interactions of energy, matter, space, and time,
 and it is especially interested in what fundamental mechanisms underlie every
 phenomenon. The concern for describing the basic phenomena in nature essentially
@@ -61,7 +61,7 @@ defines the **realm of physics**.
 Physics aims to describe the function of everything around us, from the movement
 of tiny charged particles to the motion of people, cars, and spaceships. In
 fact, almost everything around you can be described quite accurately by the laws
-of physics. Consider a smart phone ([Figure 2](#import-auto-id1956069)). Physics
+of physics. Consider a smart phone ([Figure 2](#Fig2)). Physics
 describes how electricity interacts with the various circuits inside the device.
 This knowledge helps engineers select the appropriate materials and circuit
 layout when building the smart phone. Next, consider a GPS system. Physics
@@ -71,16 +71,15 @@ GPS device in a vehicle, it utilizes these physics equations to determine the
 travel time from one location to another.
 
 ![A topographical map of a location is shown on an iPhone with some information about the location using the G P S system.](../resources/Figure_01_01_02_aa.jpg "The Apple &#x201C;iPhone&#x201D; is a common smart phone with a GPS function. Physics describes the way that electricity flows through the circuits of this device. Engineers use their knowledge of physics to construct an iPhone with features that consumers will enjoy. One specific feature of an iPhone is the GPS function. GPS uses physics equations to determine the driving time between two locations on a map. (credit: @gletham GIS, Social, Mobile Tech Images)&#10;                ")
-{: #import-auto-id1956069 height="250"}
+{: #Fig2 height="250"}
 
 ### Applications of Physics
 
 You need not be a scientist to use physics. On the contrary, knowledge of
 physics is useful in everyday situations as well as in nonscientific
 professions. It can help you understand how microwave ovens work, why metals
-should not be put into them, and why they might affect pacemakers. (
-See [Figure 3](#import-auto-id1301457)
-and [Figure 4](#import-auto-id2543552).) Physics allows you to understand the
+should not be put into them, and why they might affect pacemakers. 
+(See [Figure 3](#Fig3) and [Figure 4](#Fig4).) Physics allows you to understand the
 hazards of radiation and rationally evaluate these hazards more easily. Physics
 also explains the reason why a black car radiator helps remove heat in a car
 engine, and it explains why a white roof helps keep the inside of a house cool.
@@ -100,8 +99,7 @@ physics and other disciplines.
 
 Physics has many applications in the biological sciences. On the microscopic
 level, it helps describe the properties of cell walls and cell
-membranes ([Figure 5](#import-auto-id2821668)
-and [Figure 6](#import-auto-id1622392)). On the macroscopic level, it can
+membranes ([Figure 5](#Fig5)) and [Figure 6](#Fig6)). On the macroscopic level, it can
 explain the heat, work, and power associated with the human body. Physics is
 involved in medical diagnostics, such as x-rays, magnetic resonance imaging (
 MRI), and ultrasonic blood flow measurements. Medical therapy sometimes directly
@@ -117,16 +115,16 @@ of science, so it is used by all of the sciences, and the study of physics makes
 other sciences easier to understand.
 
 ![A microwave oven is shown with some food on the nonmetal plate inside it.](../resources/Figure_01_01_03_aa.jpg "The laws of physics help us understand how common appliances work. For example, the laws of physics can help explain how microwave ovens heat up food, and they also help us understand why it is dangerous to place metal objects in a microwave oven. (credit: MoneyBlogNewz)")
-{: #import-auto-id1301457}
+{: #Fig3}
 
 ![M R I scan of a brain with specific tumors.](../resources/Figure_01_01_04_aa.jpg "These two applications of physics have more in common than meets the eye. Microwave ovens use electromagnetic waves to heat food. Magnetic resonance imaging (MRI) also uses electromagnetic waves to yield an image of the brain, from which the exact location of tumors can be determined. (credit: Rashmi Chawla, Daniel Smith, and Paul E. Marik)")
-{: #import-auto-id2543552 height="225"}
+{: #Fig4 height="225"}
 
 ![Cell membranes of onion cells, similar in appearance to a section of a brick wall.](../resources/Figure_01_01_05_aa.jpg "Physics, chemistry, and biology help describe the properties of cell walls in plant cells, such as the onion cells seen here. (credit: Umberto Salvagnin)")
-{: #import-auto-id2821668}
+{: #Fig5}
 
 ![A detailed diagram of a cell membrane is shown with parts labeled as Protein channel, Globular protein, Glycoprotein, Carbohydrate, Hydrophilic heads, Phospholipid bilayer , Phospholipid molecule, Hydrophobic tails, Alpha-Helix protein, Surface protein, Filaments of cytoskeleton, Integral protein, Peripheral protein, Glycolipid, and Cholesterol.](../resources/Figure_01_01_06_aa.jpg "An artist&#x2019;s rendition of the structure of a cell membrane. Membranes form the boundaries of animal cells and are complex in structure and function. Many of the most fundamental properties of life, such as the firing of nerve cells, are related to membranes. The disciplines of biology, chemistry, and physics all help us understand the membranes of animal cells. (credit: Mariana Ruiz)")
-{: #import-auto-id1622392}
+{: #Fig6}
 
 ### Models, Theories, and Laws; The Role of Experimentation
 
@@ -136,15 +134,15 @@ follow. Such laws are intrinsic to the universe; humans did not create them and
 so cannot change them. We can only discover and understand them. Their discovery
 is a very human endeavor, with all the elements of mystery, imagination,
 struggle, triumph, and disappointment inherent in any creative effort. (
-See [Figure 7](#import-auto-id2747660) and [Figure 8](#import-auto-id1596747).)
+See [Figure 7](#Fig7) and [Figure 8](#Fig8).)
 The cornerstone of discovering natural laws is observation; science must
 describe the universe as it is, not as we may imagine it to be.
 
 ![A portrait of Isaac Newton. ](../resources/Figure_01_01_07_aa.jpg "Isaac Newton (1642&#x2013;1727) was very reluctant to publish his revolutionary work and had to be convinced to do so. In his later years, he stepped down from his academic post and became exchequer of the Royal Mint. He took this post seriously, inventing reeding (or creating ridges) on the edge of coins to prevent unscrupulous people from trimming the silver off of them before using them as currency. (credit: Arthur Shuster and Arthur E. Shipley: Britain&#x2019;s Heritage of Science. London, 1917.)")
-{: #import-auto-id2747660 height="275"}
+{: #Fig7 height="275"}
 
 ![A photograph of Marie Curie](../resources/Figure_01_01_08_aa.jpg "Marie Curie (1867&#x2013;1934) sacrificed monetary assets to help finance her early research and damaged her physical well-being with radiation exposure. She is the only person to win Nobel prizes in both physics and chemistry. One of her daughters also won a Nobel Prize. (credit: Wikimedia Commons)&#10;                ")
-{: #import-auto-id1596747 height="225"}
+{: #Fig8 height="225"}
 
 We all are curious to some extent. We look around, make generalizations, and try
 to understand what we see—for example, we look up and wonder whether one type of
@@ -155,7 +153,7 @@ ideas about how the data may be organized and unified. We then formulate models,
 theories, and laws based on the data we have collected and analyzed to
 generalize and communicate the results of these experiments.
 
-A **model**{: class="term" #import-auto-id2607437} is a representation of
+A **model** is a representation of
 something that is often too difficult (or impossible) to display directly. While
 a model is justified with experimental proof, it is only accurate under limited
 situations. An example is the planetary model of the atom in which electrons are
@@ -165,8 +163,7 @@ directly, but the mental image helps explain the observations we can make, such
 as the emission of light from hot gases (atomic spectra). Physicists use models
 for a variety of purposes. For example, models can help physicists analyze a
 scenario and perform a calculation, or they can be used to represent a situation
-in the form of a computer simulation. A **theory**{: class="term"
-#import-auto-id2786489} is an explanation for patterns in nature that is
+in the form of a computer simulation. A **theory** is an explanation for patterns in nature that is
 supported by scientific evidence and verified multiple times by various groups
 of researchers. Some theories include models to help visualize phenomena,
 whereas others do not. Newton’s theory of gravity, for example, does not require
@@ -176,7 +173,7 @@ a gas is viewed as being composed of atoms and molecules. Atoms and molecules
 are too small to be observed directly with our senses—thus, we picture them
 mentally to understand what our instruments tell us about the behavior of gases.
 
-A **law**{: class="term" #import-auto-id1509407} uses concise language to
+A **law** uses concise language to
 describe a generalized pattern in nature that is supported by scientific
 evidence and repeated experiments. Often, a law can be expressed in the form of
 a single mathematical equation. Laws and theories are similar in that they are
@@ -237,7 +234,7 @@ sublime for the insights gained.
 The Scientific Method
 </div>
 As scientists inquire and gather information about the world, they follow a 
-process called the **scientific method**{: class="term" #import-auto-id1666405}.
+process called the **scientific method**.
 This process typically begins with an observation and question that the scientist
 will research. Next, the scientist typically performs some research about the topic
 and then devises a hypothesis. Then, the scientist will test the hypothesis by
@@ -269,21 +266,21 @@ including astronomy, biology, chemistry, physics, mathematics, and medicine.
 Over the last few centuries, the growth of knowledge has resulted in
 ever-increasing specialization and branching of natural philosophy into separate
 fields, with physics retaining the most basic facets. (
-See [Figure 10](#import-auto-id3143608), [Figure 11](#import-auto-id2681333),
-and [Figure 12](#import-auto-id2681780).) Physics as it developed from the
+See [Figure 10](#Fig10), [Figure 11](#Fig11),
+and [Figure 12](#Fig12).) Physics as it developed from the
 Renaissance to the end of the 19th century is called **classical physics**{:
 class="term" #import-auto-id2676866} . It was transformed into modern
 physics by revolutionary discoveries made starting at the beginning of the 20th
 century.
 
 ![A marble statue of Aristotle.](../resources/Figure_01_01_10_aa.jpg "Over the centuries, natural philosophy has evolved into more specialized disciplines, as illustrated by the contributions of some of the greatest minds in history. The Greek philosopher Aristotle (384&#x2013;322 B.C.) wrote on a broad range of topics including physics, animals, the soul, politics, and poetry. (credit: Jastrow (2006)/Ludovisi Collection)&#10;                ")
-{: #import-auto-id3143608 height="225"}
+{: #Fig10 height="225"}
 
 ![A painting of Galileo Galilei.](../resources/Figure_01_01_11_aa.jpg "Galileo Galilei (1564&#x2013;1642) laid the foundation of modern experimentation and made contributions in mathematics, physics, and astronomy. (credit: Domenico Tintoretto)&#10;                ")
-{: #import-auto-id2681333 height="225"}
+{: #Fig11 height="225"}
 
 ![A photograph of Niels Bohr](../resources/Figure_01_01_12_aa.jpg "Niels Bohr (1885&#x2013;1962) made fundamental contributions to the development of quantum mechanics, one part of modern physics. (credit: United States Library of Congress Prints and Photographs Division)&#10;                ")
-{: #import-auto-id2681780 height="225"}
+{: #Fig12 height="225"}
 
 Classical physics is not an exact description of the universe, but it is an
 excellent approximation under the following conditions: Matter must be moving at
@@ -299,7 +296,7 @@ with our senses might be like. For example, we can understand an atom’s
 properties because we can picture it in our minds, although we have never seen
 an atom with our eyes. New tools, of course, allow us to better picture
 phenomena we cannot see. In fact, new instrumentation has allowed us in recent
-years to actually “picture” the atom. (see [Figure 13](#import-auto-id2990813).)
+years to actually “picture” the atom. (see [Figure 13](#Fig13).)
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -310,7 +307,7 @@ For the laws of classical physics to apply, the following criteria must be met: 
 </div>
 
 ![A high-resolution image of gold sheet obtained from S T M.](../resources/Figure_01_01_13_aa.jpg "Using a scanning tunneling microscope (STM), scientists can see the individual atoms that compose this sheet of gold. (credit: Erwinrossen)")
-{: #import-auto-id2990813 height="150"}
+{: #Fig13 height="150"}
 
 Some of the most spectacular advances in science have been made in modern
 physics. Many of the laws of classical physics have been modified or rejected,
@@ -323,13 +320,13 @@ an extremely accurate description of the universe under a wide range of everyday
 circumstances, and knowledge of classical physics is necessary to understand
 modern physics.
 
-**Modern physics**{: class="term" #import-auto-id2607150} itself consists of
+**Modern physics** itself consists of
 the two revolutionary theories, relativity and quantum mechanics. These theories
 deal with the very fast and the very small, respectively.
-**Relativity**{: class="term" #import-auto-id1309764} must be used whenever
+**Relativity** must be used whenever
 an object is traveling at greater than about 1% of the speed of light or
 experiences a strong gravitational field such as that near the Sun.
-**Quantum mechanics**{: class="term" #import-auto-id2992874} must be used
+**Quantum mechanics** must be used
 for objects smaller than can be seen with a microscope. The combination of these
 two theories is *relativistic quantum mechanics,* and it describes the behavior
 of small objects traveling at high speeds or experiencing a strong gravitational
@@ -373,11 +370,11 @@ Graphing Quadratics
 
 ### Summary
 
-* {: #import-auto-id1961798} Science seeks to discover and describe the
+* Science seeks to discover and describe the
   underlying order and simplicity in nature.
-* {: #import-auto-id2575847} Physics is the most basic of the sciences,
+* Physics is the most basic of the sciences,
   concerning itself with energy, matter, space and time, and their interactions.
-* {: #import-auto-id2757516} Scientific laws and theories express the general
+* Scientific laws and theories express the general
   truths of nature and the body of knowledge they encompass. These laws of
   nature are rules that all natural processes appear to follow.
 
@@ -453,29 +450,24 @@ Can classical physics be used to accurately describe a satellite moving at a spe
 
 classical physics
 : physics that was developed from the Renaissance to the end of the 19th century
-{: #import-auto-id1948935}
 
 physics
 : the science concerned with describing the interactions of energy, matter,
 space, and time; it is especially interested in what fundamental mechanisms
 underlie every phenomenon
-{: #import-auto-id1636862}
 
 model
 : representation of something that is often too difficult (or impossible) to
 display directly
-{: #import-auto-id1999008}
 
 theory
 : an explanation for patterns in nature that is supported by scientific evidence
 and verified multiple times by various groups of researchers
-{: #import-auto-id3089935}
 
 law
 : a description, using concise language or a mathematical formula, a generalized
 pattern in nature that is supported by scientific evidence and repeated
 experiments
-{: #import-auto-id2724260}
 
 scientific method
 : a method that typically begins with an observation and question that the
@@ -483,19 +475,15 @@ scientist will research; next, the scientist typically performs some research
 about the topic and then devises a hypothesis; then, the scientist will test the
 hypothesis by performing an experiment; finally, the scientist analyzes the
 results of the experiment and draws a conclusion
-{: #import-auto-id2998505}
 
 modern physics
 : the study of relativity, quantum mechanics, or both
-{: #import-auto-id2692942}
 
 relativity
 : the study of objects moving at speeds greater than about 1% of the speed of
 light, or of objects being affected by a strong gravitational field
-{: #import-auto-id3113698}
 
 quantum mechanics
 : the study of objects smaller than can be seen with a microscope
-{: #import-auto-id2723056}
 
 </div>
