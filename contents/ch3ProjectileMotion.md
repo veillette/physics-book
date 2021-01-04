@@ -1079,7 +1079,7 @@ to gravity
 
 projectile motion
 : the motion of an object that is subject only to the acceleration of gravity
-{:#import-auto-id1981500}
+
 
 range
 : the maximum horizontal distance that a projectile travels
