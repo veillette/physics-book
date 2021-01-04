@@ -542,7 +542,7 @@ will also yield insights beyond the immediate topic.
 Blast a Buick out of a cannon! Learn about projectile motion by firing various objects. Set the angle, initial speed, and mass. Add air resistance. Make a game out of this simulation by trying to hit a target.
 
 <figure markdown="1">
-<iframe src="https://phet.colorado.edu/sims/html/projectile-motion/latest/projectile-motion_en.html" width="600" height="450"  allowfullscreen></iframe>
+<iframe loading="lazy" src="https://phet.colorado.edu/sims/html/projectile-motion/latest/projectile-motion_en.html" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 Projectile Motion
 </figcaption>

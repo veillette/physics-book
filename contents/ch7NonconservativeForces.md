@@ -283,7 +283,7 @@ raise the ramp to see how the angle of inclination affects the parallel forces a
 cabinet. Graphs show forces, energy and work.
 
 <figure markdown="1">
-<iframe src="https://phet.colorado.edu/sims/cheerpj/the-ramp/latest/the-ramp.html?simulation=the-ramp" width="600" height="450"  allowfullscreen></iframe>
+<iframe loading="lazy" src="https://phet.colorado.edu/sims/cheerpj/the-ramp/latest/the-ramp.html?simulation=the-ramp" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 The Ramp
 </figcaption>

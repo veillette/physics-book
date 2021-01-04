@@ -212,7 +212,7 @@ Can you avoid the boulder field and land safely, just before your fuel runs out,
 <figcaption>
 Lunar Lander
 </figcaption>
-<iframe src="https://phet.colorado.edu/sims/lunar-lander/lunar-lander_en.
+<iframe loading="lazy" src="https://phet.colorado.edu/sims/lunar-lander/lunar-lander_en.
 html" width="600" height="450"  allowfullscreen></iframe>
 </figure>
 </div>

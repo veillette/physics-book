@@ -574,7 +574,7 @@ Stretch and compress springs to explore the relationships between force,
 spring constant and displacement.
 
 <figure markdown="1">
-<iframe src="https://phet.colorado.
+<iframe loading="lazy" src="https://phet.colorado.
 edu/sims/html/hookes-law/latest/hookes-law_en.html" width="600"
 height="450"  allowfullscreen></iframe>
 <figcaption>

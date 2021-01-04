@@ -405,6 +405,22 @@ depart from the inverse square law? So far, no deviation has been observed.
 ![In the figure, there is a circular stand at the floor holding two weight bars over it attached through an inverted cup shape object fitted over the stand. The first bar over this is a horizontal flat panel and contains two spheres of mass M at its end. Just over this bar is a stick shaped bar holding two spherical objects of mass m at its end. Over to this bar is mirror at the center of the device facing east. The rotation of this device over the axis of the stand is anti-clockwise. A light source on the right side of the device emits a ray of light toward the mirror which is then reflected toward a scale bar which is on the right to the device below the light source.](../resources/Figure_07_05_08a.jpg "Cavendish used an apparatus like this to measure the gravitational attraction between the two suspended spheres ( \( m \) ) and the two on the stand ( \( M \) ) by observing the amount of torsion (twisting) created in the fiber. Distance between the masses can be varied to check the dependence of the force on distance. Modern experiments of this type continue to explore gravity.")
 {: #import-auto-id2055450}
 
+<div class="note" data-label="PhET Exploration" markdown="1">
+<div class="title">
+ Gravity Force Lab
+</div>
+Visualize the gravitational force that two objects exert on each other. Change properties of the objects in
+order to  see how it changes the gravity force.
+
+<figure markdown="1">
+<iframe loading="lazy" src="https://phet.colorado.edu/sims/html/gravity-force-lab/latest/gravity-force-lab_en.html" width="600" height="450"  allowfullscreen></iframe>
+<figcaption>
+Gravity Force Lab
+</figcaption>
+
+</figure>
+</div>
+
 ### Section Summary
 
 * Newton’s universal law of gravitation: Every
