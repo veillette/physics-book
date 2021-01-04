@@ -27,6 +27,12 @@ centered on one point. Pure *translational motion* is motion with no rotation.
 Some motion combines both types, such as a rotating hockey puck moving along
 ice.
 
+<div class="note" data-label="Video" markdown="1">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iP4RYkt_ur4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+
 <div class="glossary" markdown="1">
 
 ### Glossary

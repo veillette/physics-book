@@ -21,3 +21,8 @@ Both two- and three-dimensional kinematics are simple extensions of the
 one-dimensional kinematics developed for straight-line motion in the previous
 chapter. This simple extension will allow us to apply physics to many more
 situations, and it will also yield unexpected insights about nature.
+
+
+<div class="note" data-label="Video" markdown="1">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/shFNnyLztWE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
