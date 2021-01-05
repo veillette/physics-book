@@ -70,12 +70,12 @@ along its length.
 {: #fig1}
 
 ![A pole vaulter is standing on the ground holding a pole with his two hands. The center of gravity of the pole is between the hands of the pole vaulter and is near the right hand of the man. The weight W is shown as an arrow downward toward center of gravity. The reactions F sub R and F sub L of the hands of the man are shown with vectors in upward direction. A free body diagram of the situation is shown on the top right side of the figure.](../resources/Figure_10_04_01b.jpg "A pole vaulter is holding a pole horizontally with both hands. The center of gravity is near his right hand.")
-{: #eip-id2351570}
+{: #fig2}
 
 ![A pole vaulter is standing on the ground holding a pole from one side with his two hands. The centre of gravity of the pole is to the left of the pole vaulter. The weight W is shown as an arrow downward at center of gravity. The reaction F sub R is shown with a vector pointing downward from the man&#x2019;s right hand and F sub L is shown with a vector in upward direction at the location of the man&#x2019;s left hand. A free body diagram of the situation is shown on the top right side of the figure.](../resources/Figure_10_04_01c.jpg "A pole vaulter is holding a pole horizontally with both hands. The center of gravity is to the left side of the vaulter.")
-{: #eip-id2351577}
+{: #fig3}
 
-If the pole vaulter holds the pole as shown in [Figure](#eip-id2351570), the
+If the pole vaulter holds the pole as shown in [Figure 2](#fig2), the
 situation is not as simple. The total force he exerts is still equal to the
 weight of the pole, but it is not evenly divided between his hands. (If $$ F_
 {L}=F_{R} $$, then the torques about the cg would not be equal since the lever
@@ -87,21 +87,21 @@ Finding the forces $$ F_{L} $$ and $$ F_{R} $$ is straightforward, as the next
 example shows.
 
 If the pole vaulter holds the pole from near the end of the
-pole ([Figure](#eip-id2351577)), the direction of the force applied by the
+pole ([Figure 3](#fig3)), the direction of the force applied by the
 right hand of the vaulter reverses its direction.
 
 <div class="example" markdown="1">
 <div class="title">
 What Force Is Needed to Support a Weight Held Near Its CG?
 </div>
-For the situation shown in [Figure](#eip-id2351570), calculate:
+For the situation shown in [Figure 2](#fig2), calculate:
 (a) $$ F_{R} $$, the force exerted by the right hand, and
 (b) $$ F_{L} $$, the force exerted by the left hand. The hands are 0.900 m apart, and the cg of the pole is 0.600 m
 from the left hand.
 
 **Strategy**
 
-[Figure](#eip-id2351570) includes a free body diagram for the pole, the system
+[Figure 2](#fig2) includes a free body diagram for the pole, the system
 of interest. There is not enough information to use the first condition for
 equilibrium, $$ \text{(net}F=0 $$, since two of the three forces are unknown and the hand forces cannot be
 assumed to be equal in this case. There is enough information to use the second
@@ -176,7 +176,7 @@ F_{L} $$ is applied twice as far from the cg as $$ F_{R} $$.
 </div>
 
 If the pole vaulter holds the pole as he might at the start of a run, shown
-in [Figure](#eip-id2351577), the forces change again. Both are considerably
+in [Figure 3](#fig3), the forces change again. Both are considerably
 greater, and one force reverses direction.
 
 <div class="note" data-label="" markdown="1">
@@ -231,7 +231,7 @@ To get up on the roof, a person (mass 70.0 kg) places a 6.00-m aluminum ladder (
 
 <div class="exercise" id="eip-339" data-element-type="problems-exercises">
 <div class="problem" id="eip-6" markdown="1">
-In [Figure](#eip-id2351577), the cg of the pole held by the pole vaulter is 2.00 m from the left hand, and
+In [Figure 3](#fig3), the cg of the pole held by the pole vaulter is 2.00 m from the left hand, and
 the hands are 0.700 m apart. Calculate the force exerted by
 (a) his right hand and
 (b) his left hand.

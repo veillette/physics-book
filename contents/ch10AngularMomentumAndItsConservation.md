@@ -588,7 +588,7 @@ Draw a free body diagram to show how a diver gains angular momentum when leaving
 In terms of angular momentum, what is the advantage of giving a football or a rifle bullet a spin when throwing or releasing it?
 
 ![](../resources/Figure_11_05_06a.jpg "The image shows a view down the barrel of a cannon, emphasizing its rifling. Rifling in the barrel of a canon causes the projectile to spin just as is the case for rifles (hence the name for the grooves in the barrel). (credit: Elsie esq., Flickr)&#10;  ")
-{: #eip-id2784428}
+{: #fig7}
 
 </div>
 </div>

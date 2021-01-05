@@ -449,7 +449,7 @@ along the direction of $$ \vb{A} $$
 </div>
 </div>
 
-### Problems &amp; Exercises {#eip-18}
+### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
@@ -488,7 +488,7 @@ North-component 87.0 km, east-component 87.0 km
 </div>
 </div>
 
-<div class="exercise" id="eip-287" data-element-type="problems-exercises">
+<div class="exercise" id="problem" data-element-type="problems-exercises">
 <div class="problem" id="eip-61" markdown="1">
 Solve the following problem using analytical techniques: Suppose you walk 18.0 m straight west and then 25.0 m straight north. How far are you from your starting point, and what is the compass direction of a line connecting your starting point to your final position?
 (If you represent the two legs of the walk as vector displacements $$ \vb{A} $$ and $$ \vb{B} $$, as in [Figure 13](#fig13), then this problem asks you to
@@ -507,7 +507,7 @@ graphical technique.
 
 <div class="exercise" id="eip-430" data-element-type="problems-exercises">
 <div class="problem" id="eip-400" markdown="1">
-Repeat [Figure](#eip-287) using analytical techniques, but reverse the order of the two legs of the walk and show that you get the same final result.
+Repeat the previous [Problem](#problem) using analytical techniques, but reverse the order of the two legs of the walk and show that you get the same final result.
 (This problem shows that adding them in reverse order gives the same result—that is,
 $$ \vb{B} + \vb{A} = \vb{A} + \vb{B} $$.) Discuss how taking another path to reach the same point might help to
 overcome an obstacle blocking your other path.
@@ -535,7 +535,7 @@ north legs are reversed in order.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Do [Figure](#eip-287) again using analytical techniques and change the second leg of the walk to $$ 25.0 \m  $$
+Do [Problem](#problem) again using analytical techniques and change the second leg of the walk to $$ 25.0 \m  $$
 straight south. (This is equivalent to subtracting $$ \vb{B} $$
 from $$ \vb{A} $$
 —that is, finding $$ \vb{R}^\prime =\vb{A} - \vb{B} $$)
@@ -558,11 +558,11 @@ from $$ \vb{B} $$
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A new landowner has a triangular piece of flat land she wishes to fence. Starting at the west corner, she measures the first side to be 80.0 m long and the next to be 105 m. These sides are represented as displacement vectors $$ \vb{A} $$ from $$ \vb{B} $$
-in [Figure](#eip-id3165265). She then correctly calculates the length and
+in [Figure 14](#fig14). She then correctly calculates the length and
 orientation of the third side $$ \text{C} $$. What is her result?
 
 ![In the given figure the sides of a triangular piece of land are shown in vector form. West corner is at origin. A vector starts from the origin towards south east direction and makes an angle twenty-one degrees with the horizontal. Then from the head of this vector another vector B making an angle eleven degrees with the vertical is drawn upwards. Then another vector C from the head of the vector B to the tail of the initial vector is drawn. The length and orientation of side C is indicated as unknown, represented by a question mark.](../resources/Figure_03_03_11a.jpg)
-{: #eip-id3165265}
+{: #fig14}
 
 </div>
 </div>
@@ -592,11 +592,11 @@ west of north
 <div class="problem" id="eip-201" markdown="1">
 A farmer wants to fence off his four-sided plot of flat land.
 He measures the first three sides, shown as $$ \vb{A}, $$
-$$ \vb{B}, $$ and $$ \vb{C} $$ in [Figure 14](#fig14), and then correctly calculates the length and orientation of the fourth side $$
+$$ \vb{B}, $$ and $$ \vb{C} $$ in [Figure 15](#fig15), and then correctly calculates the length and orientation of the fourth side $$
 \vb{D} $$. What is his result?
 
 ![A quadrilateral with sides A, B, C, and D. A begins at the end of D and is 4 point seven zero kilometers  at an angle of 7 point 5 degrees south of west. B begins at the end of A and is 2 point four eight kilometers in a direction sixteen degrees west of north. C begins at the end of B and is 3 point zero 2 kilometers in a direction nineteen degrees north of west. D begins at the end of C and runs distance and direction that must be calculated](../resources/Figure_03_03_12a.jpg)
-{: #fig14}
+{: #fig15}
 
 </div>
 </div>
@@ -624,7 +624,7 @@ relative to the island?
 Suppose a pilot flies $$ 40.0 \text{km} $$ in a direction $$ 60^\circ $$
 north of east and then flies $$ 30.0 \text{km} $$
 in a direction $$ 15^\circ $$
-north of east as shown in [Figure 15](#fig15). Find her total
+north of east as shown in [Figure 16](#fig16). Find her total
 distance $$ R $$
 from the starting point and the direction $$ \theta $$
 of the straight-line path to the final position. Discuss qualitatively how this
@@ -633,7 +633,7 @@ would depend on both wind speed and the speed of the plane relative to the air
 mass.
 
 ![A triangle  defined by vectors A, B, and R. A begins at the origin and run forty kilometers in a direction sixty degrees north of east. B begins at the end of A and runs thirty kilometers in a direction fifteen degrees north of east. R is the resultant vector and runs from the origin (the beginning of A) to the end of B for a distance and in a direction theta that need to be calculated.](../resources/Figure_03_03_13a.jpg)
-{: #fig15}
+{: #fig16}
 
 </div>
 </div>
@@ -646,6 +646,5 @@ mass.
 analytical method
 : the method of determining the magnitude and direction of a resultant vector
 using the Pythagorean theorem and trigonometric identities
-{: #fig16}
 
 </div>

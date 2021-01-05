@@ -435,7 +435,7 @@ weight.
 (c)
 
 ![A rectangle with a base longer than the height. A vertical line with arrowheads on both ends passes through the rectangle, bisecting the horizontal sides. The top of the arrow is labeled N, and the bottom is labeled w.](../resources/Figure_07_02_03a.jpg)
-{: #eip-id1165317522148}
+{: #fig3}
 
 (d) $$ 1.76\times 10^{3}\N $$ or $$ 3.00 \text{w} $$, that is, the
 normal force (upward) is three times her weight.
