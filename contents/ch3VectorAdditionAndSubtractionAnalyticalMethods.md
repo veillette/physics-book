@@ -37,7 +37,7 @@ components of $$ \vb{A} $$ along the **x**- and **y**-axes. The three
 vectors $$ \vb{A} $$, $$ \vb{A}_{x} $$, and $$ \vb{A}_{y} $$
 form a right triangle:
 
-<div class="equation" id="eip-680">
+<div class="equation">
  $$ \vb{A}_{x}+ \vb{A}_{y} = \vb{A}. $$
 </div>
 
@@ -49,7 +49,7 @@ $$ north, and $$ \vb{A}=5 \m $$ north-east, then it is true
 that the vectors $$ \vb{A}_{x} +\vb{A}_{y} =\vb{A} $$. However, it is
 **not** true that the sum of the magnitudes of the vectors is also equal. That is,
 
-<div class="equation" id="eip-818">
+<div class="equation">
  $$ \begin{array}{}
 3 \m + 4 \m \ne 5 \m \\ 
 \end{array} $$
@@ -57,7 +57,7 @@ that the vectors $$ \vb{A}_{x} +\vb{A}_{y} =\vb{A} $$. However, it is
 
 Thus,
 
-<div class="equation" id="eip-505">
+<div class="equation">
  $$ A_x+A_y \neq A $$
 </div>
 
@@ -67,13 +67,13 @@ If the vector $$ \vb{A} $$ is known, then its magnitude $$ A $$
  and $$ A_{y} $$, its **x**- and **y**-components, we use the
 following relationships for a right triangle.
 
-<div class="equation" id="eip-377">
+<div class="equation">
  $$ A_{x}=A\cos{\theta} $$
 </div>
 
 and
 
-<div class="equation" id="eip-69">
+<div class="equation">
  $$ A_{y}=A\sin{\theta} . $$
 </div>
 
@@ -90,11 +90,11 @@ and [Vector Addition and Subtraction: Graphical Methods](../contents/ch3VectorAd
 
 Then $$ A=10.3 $$ blocks and $$ \theta =29.1^\circ $$, so that
 
-<div class="equation" id="eip-id1646569">
+<div class="equation">
  $$ A_{x}=\mag{A} \cos{\theta} =\left(10.3 \text{blocks}\right)\left(\cos{29.1^\circ }\right)=9.0 \text{blocks} $$
 </div>
 
-<div class="equation" id="eip-id2495034">
+<div class="equation">
  $$ A_{y} = \mag{A} \sin{\theta} =\left(10.3 \text{ blocks}\right)\left(\sin{29.1^\circ }\right)=5.0 \text{blocks}. $$
 </div>
 
@@ -106,11 +106,11 @@ found analytically. To find the magnitude $$ A $$ and direction $$ \theta $$ of
 a vector from its perpendicular components $$ \vb{A}_{x} $$ and $$
 \vb{A}_{y} $$, we use the following relationships:
 
-<div class="equation" id="eip-109">
+<div class="equation">
  $$ A=\sqrt{ A_x^2+ A_y^2} $$
 </div>
 
-<div class="equation" id="eip-750">
+<div class="equation">
  $$ \theta ={\tan}^{-1} \left( \frac{ A_{y}}{ A_{x}} \right). $$
 </div>
 
@@ -178,13 +178,13 @@ $$ \theta_{\text{B}} $$, respectively.
 the components of the individual vectors along that axis.* That is, as
 shown in [Figure](#import-auto-id1165298866862),
 
-<div class="equation" id="eip-284">
+<div class="equation">
  $$ R_{x}= A_{x}+B_{x} $$
 </div>
 
 and
 
-<div class="equation" id="eip-92">
+<div class="equation">
  $$ R_{y}= A_{y}+B_{y}. $$
 </div>
 
@@ -203,13 +203,13 @@ found.
 ***Step 3.*** *To get the magnitude $$ R $$ of the resultant, use the
 Pythagorean theorem:*
 
-<div class="equation" id="eip-960">
+<div class="equation">
 $$ R=\sqrt{ R_{x}^{2}+R_{y}^{2}}. $$
 </div>
 
 ***Step 4.*** *To get the direction of the resultant:*
 
-<div class="equation" id="eip-173">
+<div class="equation">
 $$ \theta ={\tan}^{-1} \left( R_{y}/R_{x} \right). $$
 </div>
 
@@ -249,7 +249,7 @@ A=53.0 \m $$, $$ \theta_{\text{A}}=20.0^\circ $$, $$ B=34.0 \m $$,
 and $$ \theta_{\text{B}}=63.0^\circ $$. We find the **x**-components by using $$
 A_{x}=A\cos{\theta} $$, which gives
 
-<div class="equation" id="eip-253">
+<div class="equation">
  $$ \begin{array}{lll}
 A_{x}& =& A\cos{\theta_{A}}=\left(53.0 \m \right) \left(\cos{20.0^\circ}\right)\\
  & =& \left(53.0 \m \right)\left(0.940 \right)=49.8 \m
@@ -257,7 +257,7 @@ A_{x}& =& A\cos{\theta_{A}}=\left(53.0 \m \right) \left(\cos{20.0^\circ}\right)\
 </div>
 and
 
-<div class="equation" id="eip-356">
+<div class="equation">
  $$ \begin{array}{lll}
 B_{x}& =& B\cos{\theta_{B}}=\left(34.0 \m \right) \left(\cos{63.0^\circ}\right)\\
 & =& \left(34.0 \m \right)\left(0.454\right)=15.4 \m .
@@ -265,7 +265,7 @@ B_{x}& =& B\cos{\theta_{B}}=\left(34.0 \m \right) \left(\cos{63.0^\circ}\right)\
 </div>
 Similarly, the *y*-components are found using $$ A_{y}=A\sin{\theta_{A}} $$:
 
-<div class="equation" id="eip-802">
+<div class="equation">
  $$ \begin{array}{lll}
 A_{y}& =& A\sin{\theta_{A}}=\left(53.0 \m \right) \left(\sin{20.0^\circ }\right)\\
 & =& \left(53.0 \m \right)\left(0.342\right)=18.1 \m
@@ -273,7 +273,7 @@ A_{y}& =& A\sin{\theta_{A}}=\left(53.0 \m \right) \left(\sin{20.0^\circ }\right)
 </div>
 and
 
-<div class="equation" id="eip-837">
+<div class="equation">
  $$ \begin{array}{lll}
 B_{y}& =& B\sin{\theta_{B}}=\left(34.0 \m \right)\left(\sin{ 63.0^\circ}\right)\\
 & = &\left(34.0 \m \right)\left(0.891\right)=30.3 \m .
@@ -281,33 +281,33 @@ B_{y}& =& B\sin{\theta_{B}}=\left(34.0 \m \right)\left(\sin{ 63.0^\circ}\right)\
 </div>
 The **x**- and **y**-components of the resultant are thus
 
-<div class="equation" id="eip-196">
+<div class="equation">
  $$ R_{x}= A_{x}+B_{x}=49.8 \m +15.4 \m =65.2 \m $$
 </div>
 and
 
-<div class="equation" id="eip-325">
+<div class="equation">
  $$ R_{y}= A_{y}+B_{y}=18.1 \m  +30.3 \m =48.4  \m . $$
 </div>
 Now we can find the magnitude of the resultant by using the Pythagorean theorem:
 
-<div class="equation" id="eip-941">
+<div class="equation">
  $$ R=\sqrt{ R_{x}^{2}+R_{y}^{2} }=
 \sqrt{ \left( 65.2 \m  \right)^{2}+\left(48.4 \m  \right)^{2} } $$
 </div>
 so that
 
-<div class="equation" id="eip-702">
+<div class="equation">
  $$ R=81.2 \m $$
 </div>
 Finally, we find the direction of the resultant:
 
-<div class="equation" id="eip-713">
+<div class="equation">
  $$ \theta ={\tan}^{-1}\left( \frac{ R_{y}}{R_{x}} \right)= +{\tan}^{-1}\left( \frac{48.4 \m}{65.2\m}\right) . $$
 </div>
 Thus,
 
-<div class="equation" id="eip-755">
+<div class="equation">
  $$ \theta ={\tan}^{-1}\left(0.742\right)=36.6^\circ . $$
 </div>
 ![The addition of two vectors A and B is shown. Vector A is of magnitude fifty three units and is inclined at an angle of twenty degrees to the horizontal. Vector B is of magnitude thirty four units and is inclined at angle sixty three degrees to the horizontal. The components of vector A are shown as dotted vectors A X is equal to forty nine point eight meter along x axis and A Y is equal to eighteen point one meter along Y axis. The components of vector B are also shown as dotted vectors B X is equal to fifteen point four meter and B Y is equal to thirty point three meter. The horizontal component of the resultant R X is equal to A X plus B X is equal to sixty five point two meter. The vertical component of the resultant R Y is equal to A Y plus B Y is equal to forty eight point four meter. The magnitude of the resultant of two vectors is eighty one point two meters. The direction of the resultant R is in thirty six point six degree from the vector A in anticlockwise direction.](../resources/Figure_03_03_09a.jpg "Using analytical methods, we see that the magnitude of  \( R \)  is 81.2 m and its direction is 36.6 degrees north of east."){: #import-auto-id1165298804108}
@@ -325,12 +325,12 @@ is identical to that for addition*. The components of $$ -\vb{B} $$
 are the negatives of the components of $$ \vb{B} $$. The *x*- and **y**-components
 of the resultant $$ \vb{A}-\vb{B} = \vb{R} $$ are thus
 
-<div class="equation" id="eip-772">
+<div class="equation">
  $$ R_{x}= A_{x}+\left(- B_{x}\right) $$
 </div>
 and
 
-<div class="equation" id="eip-532">
+<div class="equation">
  $$ R_{y}= A_{y}+\left(- B_{y}\right) $$
 </div>
 and the rest of the method outlined above is identical to that for addition. (See [Figure](#import-auto-id1165298841604).)
@@ -371,13 +371,13 @@ Vector Addition
   Step 1: Determine the coordinate system for the vectors. Then, determine the
   horizontal and vertical components of each vector using the equations
 
-  <div class="equation" id="import-auto-id1165298699812">
+  <div class="equation">
  $$ \begin{array}{lll} A_{x}& =& A\cos{\theta} \\  B_{x}& =& B\cos{\theta} \end{array} $$
   </div>
 
   and
 
-  <div class="equation" id="import-auto-id1165298717989">
+  <div class="equation">
  $$ \begin{array}{lll} A_{y}& =& A\sin{\theta} \\  B_{y}& =& B\sin{\theta} .
 \end{array} $$
   </div>
@@ -385,26 +385,26 @@ Vector Addition
   Step 2: Add the horizontal and vertical components of each vector to determine
   the components $$ R_{x} $$ and $$ R_{y} $$ of the resultant vector, $$ \vb{R} $$:
 
-  <div class="equation" id="import-auto-id1165298564746">
+  <div class="equation">
  $$ R_{x}= A_{x}+B_{x} $$
   </div>
 
   and
 
-  <div class="equation" id="import-auto-id1165298586327">
+  <div class="equation">
  $$ R_{y}= A_{y}+B_{y} . $$
   </div>
 
   Step 3: Use the Pythagorean theorem to determine the magnitude, $$ R $$, of
   the resultant vector $$ \vb{R} $$:
 
-  <div class="equation" id="import-auto-id1165298936413">
+  <div class="equation">
  $$ R=\sqrt{ R_{x}^{2}+R_{y}^{2}}. $$
   </div>
 
   Step 4: Use a trigonometric identity to determine the direction, $$ \theta $$, of $$ \vb{R} $$:
 
-  <div class="equation" id="import-auto-id1165296245925">
+  <div class="equation">
  $$ \theta ={\tan}^{-1}\left( R_{y}/ R_{x}\right). $$
   </div>
 

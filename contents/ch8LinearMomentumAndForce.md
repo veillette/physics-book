@@ -19,7 +19,7 @@ momentum than a smaller, slower object. **Linear momentum** is defined as the pr
 by its velocity. In symbols, linear
 momentum is expressed as
 
-<div class="equation" id="eip-927">
+<div class="equation">
  $$ \vb{p}=m\vb{v}. $$
 </div>
 
@@ -35,7 +35,7 @@ Linear Momentum
 </div>
 Linear momentum is defined as the product of a system’s mass multiplied by its velocity:
 
-<div class="equation" id="eip-695">
+<div class="equation">
  $$ \vb{p}=m\vb{v}. $$
 </div>
 </div>
@@ -56,7 +56,7 @@ vector.) In both parts of this example, the magnitude of momentum can be
 calculated directly from the definition of momentum given in the equation, which
 becomes
 
-<div class="equation" id="eip-605">
+<div class="equation">
  $$ p=mv $$
 </div>
 when only magnitudes are considered.
@@ -66,7 +66,7 @@ when only magnitudes are considered.
 To determine the momentum of the player, substitute the known values for the
 player’s mass and speed into the equation.
 
-<div class="equation" id="eip-926">
+<div class="equation">
  $$ p_{\text{player}}=\left(110 \kg \right)\left(8.00  \ms \right)=880 \kg · \ms $$
 </div>
 
@@ -75,12 +75,12 @@ player’s mass and speed into the equation.
 To determine the momentum of the ball, substitute the known values for the
 ball’s mass and speed into the equation.
 
-<div class="equation" id="eip-722">
+<div class="equation">
  $$ p_{\text{ball}}=\left(0.410 \kg \right)\left(25.0  \ms \right)=10.3 \kg · \ms $$
 </div>
 The ratio of the player’s momentum to that of the ball is
 
-<div class="equation" id="eip-45">
+<div class="equation">
  $$ \frac{ p_{\text{player}}}{ p_{\text{ball}}}=\frac{880}{10.3}=85.9 . $$
 </div>
 
@@ -103,7 +103,7 @@ law of motion** in terms of momentum:
 The net external force equals the change in momentum of a system divided by the
 time over which it changes. Using symbols, this law is
 
-<div class="equation" id="eip-96">
+<div class="equation">
  $$ \vb{F}_{\text{net}}=\frac{ \Delta \vb{p}}{\Delta t}, $$
 </div>
 
@@ -117,7 +117,7 @@ Newton’s Second Law of Motion in Terms of Momentum
 </div>
 The net external force equals the change in momentum of a system divided by the time over which it changes.
 
-<div class="equation" id="eip-763">
+<div class="equation">
  $$ \vb{F}_{\text{net}}=\frac{ \Delta \vb{p}}{\Delta t} $$
 </div>
 </div>
@@ -135,26 +135,26 @@ This statement of Newton’s second law of motion includes the more familiar $$
 form as follows. First, note that the change in momentum $$ \Delta \vb{p} $$
 is given by
 
-<div class="equation" id="eip-210">
+<div class="equation">
  $$ \Delta \vb{p}=\Delta \left(m\vb{v}\right). $$
 </div>
 
 If the mass of the system is constant, then
 
-<div class="equation" id="eip-316">
+<div class="equation">
  $$ \Delta \left(m\vb{v}\right)=m\Delta \vb{v}. $$
 </div>
 
 So that for constant mass, Newton’s second law of motion becomes
 
-<div class="equation" id="eip-844">
+<div class="equation">
  $$ \vb{F}_{\text{net}}=\frac{ \Delta \vb{p}}{\Delta t}=\frac{m\Delta \vb{v}}{\Delta t}. $$
 </div>
 
 Because $$ \frac{ \Delta \vb{v}}{\Delta t}=\vb{a} $$, we get the familiar
 equation
 
-<div class="equation" id="eip-17">
+<div class="equation">
  $$ \vb{F}_{\text{net}}=m\vb{a} $$
 </div>
 
@@ -184,12 +184,12 @@ This problem involves only one dimension because the ball starts from having no
 horizontal velocity component before impact. Newton’s second law stated in terms
 of momentum is then written as
 
-<div class="equation" id="eip-344">
+<div class="equation">
  $$ \vb{F}_{\text{net}}=\frac{ \Delta \vb{p}}{\Delta t}. $$
 </div>
 As noted above, when mass is constant, the change in momentum is given by
 
-<div class="equation" id="eip-440">
+<div class="equation">
  $$ \Delta p=m\Delta v=m\left(v_{f}-v_{i}\right). $$
 </div>
 In this example, the velocity just after impact and the change in time are
@@ -202,7 +202,7 @@ the force.
 To determine the change in momentum, substitute the values for the initial and
 final velocities into the equation above.
 
-<div class="equation" id="eip-107">
+<div class="equation">
  $$ \begin{array}{lll}
 \Delta p & =& m \left( v_{f} - v_{i} \right)\\
  & =& \left(0.057 \kg \right)\left(58  \ms -0 \ms \right)\\
@@ -212,7 +212,7 @@ final velocities into the equation above.
 Now the magnitude of the net external force can determined by
 using $$ F_{\text{net}}=\frac{ \Delta p}{\Delta t} $$:
 
-<div class="equation" id="eip-211">
+<div class="equation">
  $$ \begin{array}{lll}
 F_{\text{net}}& =& \frac{ \Delta p}{\Delta t}=\frac{3.306 \kg \cdot  \ms }{5.0\times 10^{-3}s}\\
 & =& 661 \N \approx 660  \text{N,}
@@ -237,7 +237,7 @@ the strategy used in this example.
   defined as the product of a system’s mass multiplied by its velocity.
 * In symbols, linear momentum $$ \vb{p} $$ is
   defined to be
-  <div class="equation" id="eip-123">
+  <div class="equation">
  $$ \vb{p}=m\vb{v}, $$
   </div>
   where $$ m $$ is the mass of the system and $$ \vb{v} $$ is its velocity.
@@ -247,7 +247,7 @@ the strategy used in this example.
   divided by the time over which it changes.
 * In symbols, Newton’s second law of motion is
   defined to be
-  <div class="equation" id="eip-370">
+  <div class="equation">
  $$ \vb{F}_{\text{net}}=\frac{ \Delta \vb{p}}{\Delta t}, $$
   </div>
  $$ \vb{F}_{\text{net}} $$ is the net external force, $$ \Delta

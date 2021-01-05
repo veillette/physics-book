@@ -50,7 +50,7 @@ broad class of interesting situations to us. The acceleration due to gravity is
 so important that its magnitude is given its own symbol, $$ g $$. It is constant
 at any given location on Earth and has the average value
 
-<div class="equation" id="eip-636">
+<div class="equation">
  $$ g=9.80 \mss . $$
 </div>
 
@@ -83,13 +83,13 @@ displacement.
 <div class="title">
 Kinematic Equations for Objects in Free-Fall where Acceleration = -*g*
 </div>
-<div class="equation" id="import-auto-id2222965">
+<div class="equation">
  $$ v=v_{0}-g t $$
 </div>
-<div class="equation" id="import-auto-id4048491">
+<div class="equation">
  $$ y=y_{0}+v_{0}t-\frac{1}{2}g t^{2} $$
 </div>
-<div class="equation" id="import-auto-id4019890">
+<div class="equation">
  $$ v^{2}=v_{0}^{2}-2g\left(y-y_{0}\right) $$
 </div>
 </div>
@@ -137,7 +137,7 @@ which is the value we want to find.
 
 3\. Plug in the known values and solve for $$ y_{1} $$.
 
-<div class="equation" id="import-auto-id2302522">
+<div class="equation">
  $$ y_{1}=0+\left(13.0 \ms \right)\left(1.00 \s \right)+\frac{1}{2}\left(-9.80\mss \right){\left(1.00 \s \right)}^{2}=8.10\m $$
 </div>
 
@@ -159,7 +159,7 @@ above that $$ y_{1}=8.10 \m $$.
 
 3\. Plug in the knowns and solve.
 
-<div class="equation" id="import-auto-id1688803">
+<div class="equation">
  $$ v_{1}=v_{0}-gt= 13.0 \ms -\left(9.80 \mss \right)
 \left(1.00 \s \right)=3.20 \ms $$
 </div>
@@ -248,7 +248,7 @@ the only unknown in it is $$ v $$. (We will plug $$ y_{1} $$ in for $$ y $$.)
 
 3\. Enter the known values
 
-<div class="equation" id="import-auto-id2025017">
+<div class="equation">
  $$ v^{2}={\left(-13.0 \ms \right)}^{2}+
 2\left(-9.80 \mss \right)
 \left(-5.10 \m -0 \m \right)=268.96 \mmss , $$
@@ -258,12 +258,12 @@ where we have retained extra significant figures because this is an intermediate
 Taking the square root, and noting that a square root can be positive or
 negative, gives
 
-<div class="equation" id="import-auto-id1763704">
+<div class="equation">
  $$ v= \pm  16.4 \ms . $$
 </div>
 The negative root is chosen to indicate that the rock is still heading down. Thus,
 
-<div class="equation" id="import-auto-id2563747">
+<div class="equation">
  $$ v=-16.4 \ms . $$
 </div>
 
@@ -330,29 +330,29 @@ is downward and therefore negative, as is acceleration.
 2\. Choose the equation that allows you to solve for $$ a $$ using the known
 values.
 
-<div class="equation" id="import-auto-id3578358">
+<div class="equation">
  $$ y=y_{0}+v_{0}t+\frac{1}{2}a t^{2} $$
 </div>
 3\. Substitute 0 for $$ v_{0} $$ and rearrange the equation to solve for $$
 a $$. Substituting 0 for $$ v_{0} $$ yields
 
-<div class="equation" id="import-auto-id3538274">
+<div class="equation">
  $$ y=y_{0}+\frac{1}{2}a t^{2}. $$
 </div>
 Solving for $$ a $$ gives
 
-<div class="equation" id="import-auto-id3504484">
+<div class="equation">
  $$ a=\frac{2\left(y-y_{0}\right)}{ t^{2}}. $$
 </div>
 4\. Substitute known values yields
 
-<div class="equation" id="import-auto-id2571438">
+<div class="equation">
  $$ a=\frac{2\left(-1.0000 \m  - 0 \right)}
 {\left(0.45173 \s \right)^{2}}=-9.8010\mss ,$$
 </div>
 so, because $$ a=-g $$ with the directions we have chosen,
 
-<div class="equation" id="import-auto-id1706716">
+<div class="equation">
  $$ g=9.8010 \mss . $$
 </div>
 
@@ -380,7 +380,7 @@ We know that initial position $$ y_{0}=0 $$, final position $$ y=−30.0 \text
 {m} $$, and $$ a=-g=-9.80 \mss $$. We can then use the equation $$
 y=y_{0}+v_{0}t+\frac{1}{2}a t^{2} $$ to solve for $$ t $$. Inserting $$ a=-g $$, we obtain
 
-<div class="equation" id="import-auto-id2358783">
+<div class="equation">
  $$ \begin{array}{lll}
 y& =& 0+0-\frac{1}{2}g t^{2} \\
 t^{2}& =& \frac{2y}{-g}\\
@@ -415,7 +415,7 @@ Graphing Quadratics
   acceleration if air resistance is negligible.
 * On Earth, all free-falling objects have an
   acceleration due to gravity $$ g $$, which averages
-  <div class="equation" id="import-auto-id3547826">
+  <div class="equation">
  $$ g=9.80 \mss . $$
   </div>
 
@@ -544,7 +544,7 @@ where velocity is zero. Use equation $$ v^{2}=v_{0}^{2}+2a\left(y-y_{0}\right)
 $$ because it contains all known values except for $$ y $$, so we can solve for
 $$ y $$. Solving for $$ y $$ gives
 
-<div class="equation" id="eip-id2418613">
+<div class="equation">
  $$ \begin{array}{lll}
 v^{2}-v_{0}^{2}& =& 2a\left(y-y_{0}\right)\\
 \frac{ v^{2}-v_{0}^{2}}{2a}& =& y-y_{0}\\

@@ -57,12 +57,12 @@ velocity.
 
 Conservation of angular momentum states
 
-<div class="equation" id="eip-546">
+<div class="equation">
  $$ L=L^{\prime} , $$
 </div>
 where primed quantities stand for conditions after the collision and both momenta are calculated relative to the pivot point. The initial angular momentum of the system of stick-disk is that of the disk just before it strikes the stick. That is,
 
-<div class="equation" id="eip-376">
+<div class="equation">
  $$ L=I \omega, $$
 </div>
 where $$ I $$ is the moment of inertia of the disk and $$ \omega $$
@@ -70,23 +70,23 @@ is its angular velocity around the pivot point. Now, $$
 I=mr^{2} $$
 (taking the disk to be approximately a point mass) and $$ \omega =v/r $$, so that
 
-<div class="equation" id="eip-881">
+<div class="equation">
  $$ L=m r^{2} \frac{v}{r}= mvr . $$
 </div>
 After the collision,
 
-<div class="equation" id="eip-513">
+<div class="equation">
  $$ L^{\prime} =I^{\prime} \omega^\prime . $$
 </div>
 It is $$ \omega^\prime $$ that we wish to find. Conservation of angular
 momentum gives
 
-<div class="equation" id="eip-525">
+<div class="equation">
  $$ I^{\prime} \omega^\prime = mvr . $$
 </div>
 Rearranging the equation yields
 
-<div class="equation" id="eip-17">
+<div class="equation">
  $$ \omega^\prime =\frac{ mvr }{I^{\prime} }, $$
 </div>
 where $$ I^{\prime} $$ is the moment of inertia of the stick and disk stuck together, which is the sum
@@ -95,19 +95,19 @@ nail. [Figure](../contents/ch10DynamicsOfRotationalMotion.md#figMomentOfInertia)
 rotating around one end to be $$
 I=Mr^{2}/3 $$. Thus,
 
-<div class="equation" id="eip-920">
+<div class="equation">
  $$ I^{\prime} =m r^{2} +\frac{ Mr^{2}}{3}=\left(m+\frac{M}{3}\right){r}^{2}. $$
 </div>
 Entering known values in this equation yields,
 
-<div class="equation" id="eip-177">
+<div class="equation">
  $$ I^\prime =\left(0.0500\kg +0.667 \kg \right){\left(1.20\m
 \right)
 }^{2}=1.032\kg \cdot \mm. $$
 </div>
 The value of $$ I^{\prime} $$ is now entered into the expression for $$ \omega^\prime $$, which yields
 
-<div class="equation" id="eip-74">
+<div class="equation">
  $$ \begin{array}{lll}
 \omega^\prime & =& \frac{ mvr }{I^{\prime} }=\frac
 {\left(0.0500 \kg \right)\left(30.0 m/s\right)\left(1.20 \m \right)}{1.032 \kg \cdot \mm}\\
@@ -126,12 +126,12 @@ the two stuck together.
 First, we calculate the translational kinetic energy by entering given values
 for the mass and speed of the incoming disk.
 
-<div class="equation" id="eip-27">
+<div class="equation">
  $$ \KE=\frac{1}{2}m v^{2}=\left(0.500\right)\left(0.0500\kg \right){\left(30.0 \ms \right)}^{2}=22.5 \J $$
 </div>
 After the collision, the rotational kinetic energy can be found because we now know the final angular velocity and the final moment of inertia. Thus, entering the values into the rotational kinetic energy equation gives
 
-<div class="equation" id="eip-100">
+<div class="equation">
  $$ \begin{array}{lll}
 \KE^\prime & =& \frac{1}{2}I^{\prime} {\omega^\prime}^{2}
 =\left(0.5\right)\left(1.032\kg
@@ -150,7 +150,7 @@ of the stick.
 
 Before the collision, then, linear momentum is
 
-<div class="equation" id="eip-283">
+<div class="equation">
  $$ p=mv =\left(0.0500\kg \right)\left(30.0 \ms \right)=1.50\kg \cdot \ms . $$
 </div>
 After the collision, the disk and the stick’s center of mass move in the same direction.
@@ -159,22 +159,22 @@ velocity $$ v^{\prime} =r \omega^\prime $$ plus that of the stick’s center of 
 which moves at half this speed because $$ v_{\text{CM}}=\left(
 \frac{r}{2} \right) \omega^\prime =\frac{v^{\prime} }{2} $$. Thus,
 
-<div class="equation" id="eip-953">
+<div class="equation">
  $$ p^{\prime} =mv^{\prime} +Mv_{\text{CM}}=mv^{\prime} +\frac{Mv^\prime }{2}. $$
 </div>
 Gathering similar terms in the equation yields,
 
-<div class="equation" id="eip-699">
+<div class="equation">
  $$ p^{\prime} =\left(m+\frac{M}{2}\right)v^{\prime} $$
 </div>
 so that
 
-<div class="equation" id="eip-915">
+<div class="equation">
  $$ p^{\prime} =\left(m+\frac{M}{2}\right)r \omega^\prime . $$
 </div>
 Substituting known values into the equation,
 
-<div class="equation" id="eip-1000">
+<div class="equation">
  $$ p^{\prime} =\left(1.050 \kg \right)\left(1.20\m \right)\left(1.744 \rads \right)=2.20 \kg \cdot \ms . $$
 </div>
 

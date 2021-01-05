@@ -84,10 +84,10 @@ For example, if the system is accelerating in the horizontal direction, but it
 is not accelerating in the vertical direction, then you will have the following
 conclusions:
 
-<div class="equation" id="eip-id1449134">
+<div class="equation">
  $$ F_{\text{net}x}=m a , $$
 </div>
-<div class="equation" id="eip-id1478667">
+<div class="equation">
  $$ F_{\text{net}y}=0 . $$
 </div>
 You will need this information in order to determine unknown forces acting in a system.

@@ -23,7 +23,7 @@ Quantitatively, the effect we are talking about is the change in momentum $$
 By rearranging the equation $$ \vb{F}_{\text{net}}=\frac{ \Delta
 \vb{p}}{\Delta t} $$ to be
 
-<div class="equation" id="eip-75">
+<div class="equation">
  $$ \Delta \vb{p}=\vb{F}_{\text{net}}\Delta t, $$
 </div>
 
@@ -38,7 +38,7 @@ Impulse: Change in Momentum
 </div>
 Change in momentum equals the average net external force multiplied by the time this force acts.
 
-<div class="equation" id="eip-135">
+<div class="equation">
  $$ \Delta \vb{p}=\vb{F}_{\text{net}}\Delta t $$
 </div>
 The quantity $$ \vb{F}_{\text{net}}\Delta t $$ is given the name impulse.
@@ -114,12 +114,12 @@ and $$ m $$ the mass of each ball. Choose the $$ x $$-axis and $$ y $$-axis
 as previously described, and consider the change in momentum of
 the first ball which strikes perpendicular to the wall.
 
-<div class="equation" id="eip-263">
+<div class="equation">
 \begin{array}{ c c c}
   p_{\text{xi}}=m u  & \text{;} & p_{\text{yi}}=0
 \end{array}
 </div>
-<div class="equation" id="eip-640">
+<div class="equation">
 \begin{array}{ c c c}
   p_{\text{xf}}=-m u & \text{;} &
 p_{\text{yf}}=0
@@ -131,13 +131,13 @@ of impulse is equal to zero.
 
 Now consider the change in momentum of the second ball.
 
-<div class="equation" id="eip-123">
+<div class="equation">
 \begin{array}{ c c c}
 p_{\text{xi}}= m u \cos{30^\circ} &\text{;} &
 p_{\text{yi}}=- m u \sin{30^\circ }
 \end{array}
 </div>
-<div class="equation" id="eip-344">
+<div class="equation">
 \begin{array}{ c c c}
 p_{\text{xf}}=-m u\cos{30^\circ } &\text{;}&
 p_{\text{yf}}=-m u\sin{30^\circ }
@@ -150,7 +150,7 @@ of impulse is equal to zero.
 
 The ratio of the magnitudes of the impulse imparted to the balls is
 
-<div class="equation" id="eip-611">
+<div class="equation">
  $$ \frac{2m u}{2m u\cos{30^\circ }}=\frac{2}{\sqrt{3}}=1.155 .$$
 </div>
 
@@ -210,7 +210,7 @@ In both cases, nature is adequately described without the use of calculus.
 
 * Impulse, or change in momentum, equals the average
   net external force multiplied by the time this force acts:
-  <div class="equation" id="eip-id1637629">
+  <div class="equation">
  $$ \Delta \vb{p}=\vb{F}_{\text{net}}\Delta t. $$
   </div>
 
@@ -449,7 +449,7 @@ as a function of its momentum.
 
 </div>
 <div class="solution">
-<div class="equation" id="eip-id4088327">
+<div class="equation">
  $$ \begin{array}{}
 \vb{p}=m\vb{v}⇒{p}^{2}={m}^{2}{v}^{2}⇒
 \frac{ p^{2}}{m}=mv^{2}\\ ⇒\frac{ p^{2}}{2m}=\frac{1}{2}m v^{2}=\KE\\

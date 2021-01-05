@@ -68,7 +68,7 @@ in [Linear Momentum and Collisions](../contents/ch8LinearMomentumAndCollisions.m
 masses $$ m $$ and $$ M $$ with a distance $$ r $$ between their centers of
 mass, the equation for Newton’s universal law of gravitation is
 
-<div class="equation" id="eip-492">
+<div class="equation">
  $$ F=G\frac{mM}{ r^{2}}, $$
 </div>
 
@@ -77,7 +77,7 @@ proportionality factor called the **gravitational constant**. $$ G $$ is a unive
 constant—that is, it is thought to be the same everywhere in the universe. It
 has been measured experimentally to be
 
-<div class="equation" id="eip-939">
+<div class="equation">
  $$ G=6.674 \times 10^{-11}\frac{ \N \cdot \mm}{ {\kg }^{2}} $$
 </div>
 
@@ -96,7 +96,7 @@ Recall that the acceleration due to gravity $$ g $$ is about $$ 9.80
 an object *mg* is the gravitational force between it and Earth. Substituting
 *mg* for $$ F $$ in Newton’s universal law of gravitation gives
 
-<div class="equation" id="eip-171">
+<div class="equation">
  $$ mg =G\frac{mM}{ r^{2}}, $$
 </div>
 
@@ -105,20 +105,20 @@ $$ is the distance to the center of Earth (the distance between the centers of
 mass of the object and Earth). See [Figure](#import-auto-id2448812). The mass
 $$ m $$ of the object cancels, leaving an equation for $$ g $$:
 
-<div class="equation" id="eip-713">
+<div class="equation">
  $$ g=G\frac{M}{ r^{2}}. $$
 </div>
 
 Substituting known values for Earth’s mass and radius (to three significant
 figures),
 
-<div class="equation" id="eip-216">
+<div class="equation">
  $$ g=\left(6.67 \times 10^{-11}\frac{ \N \cdot \mm}{ {\kg }^{2}}\right)×\frac{5.98 \times 10^{24}\kg }{\left(6.38 \times 10^{6}\m \right)^{2}}, $$
 </div>
 
 and we obtain a value for the acceleration of a falling body:
 
-<div class="equation" id="eip-206">
+<div class="equation">
  $$ g=9.80\mss . $$
 </div>
 
@@ -178,7 +178,7 @@ to the center of the Moon. The radius of the Moon’s nearly circular orbit is $
 Substituting known values into the expression for $$ g $$ found above,
 remembering that $$ M $$ is the mass of Earth not the Moon, yields
 
-<div class="equation" id="eip-972">
+<div class="equation">
  $$ \begin{array}{lll}
 g& =& G\frac{M}{ r^{2}}=\left(6.67 \times 10^{-11}\frac{ \N \cdot \mm}{ {\kg }^{2}}\right)×\frac{5.98 \times 10^{24}\kg }{\left(3.84 \times 10^{8}\m \right)^{2}}\\
 & =& 2.70 \times 10^{-3}\mss .
@@ -189,7 +189,7 @@ g& =& G\frac{M}{ r^{2}}=\left(6.67 \times 10^{-11}\frac{ \N \cdot \mm}{ {\kg }^{
 
 Centripetal acceleration can be calculated using either form of
 
-<div class="equation" id="eip-859">
+<div class="equation">
  $$
 \left.
 \begin{array}{c}
@@ -199,7 +199,7 @@ Centripetal acceleration can be calculated using either form of
 </div>
 We choose to use the second form:
 
-<div class="equation" id="eip-562">
+<div class="equation">
  $$ \ac =r \omega^{2}, $$
 </div>
 where $$ \omega $$ is the angular velocity of the Moon about Earth.
@@ -209,19 +209,19 @@ where $$ \omega $$ is the angular velocity of the Moon about Earth.
 Given that the period (the time it takes to make one complete rotation) of the
 Moon’s orbit is 27.3 days, (d) and using
 
-<div class="equation" id="eip-281">
+<div class="equation">
  $$ 1 d \times 24\frac{ \text{hr}}{\text{d}}\times 60\frac{min}{\text{hr}}\times 60\frac{s}{\text{min}}=
 86 400 \s $$
 </div>
 we see that
 
-<div class="equation" id="eip-54">
+<div class="equation">
  $$ \omega =\frac{ \Delta \theta }{\Delta t}=\frac{2\pi \text{rad}}{\left(27.3 \text{d}\right)
 \left(86 400 \text{s/d}\right)}=2.66 \times 10^{-6}\frac{ \text{rad}}{\s}. $$
 </div>
 The centripetal acceleration is
 
-<div class="equation" id="eip-959">
+<div class="equation">
  $$ \begin{array}{lll}
 \ac & =& r \omega^{2}=\left(3.84 \times 10^{8}\m \right)\left(2.66 \times 10^{-6}\rads \right)^{2}\\
 & =& 2.72\times 10^{-3} \mss .
@@ -360,7 +360,7 @@ acceleration due to gravity as accurately as possible and then calculating the
 mass of Earth $$ M $$ from the relationship Newton’s universal law of
 gravitation gives
 
-<div class="equation" id="eip-176">
+<div class="equation">
  $$ mg =G\frac{mM}{ r^{2}}, $$
 </div>
 
@@ -369,13 +369,13 @@ $$ is the distance to the center of Earth (the distance between the centers of
 mass of the object and Earth). See [Figure](#import-auto-id2406145). The mass
 $$ m $$ of the object cancels, leaving an equation for $$ g $$:
 
-<div class="equation" id="eip-150">
+<div class="equation">
  $$ g=G\frac{M}{ r^{2}} . $$
 </div>
 
 Rearranging to solve for $$ M $$ yields
 
-<div class="equation" id="eip-857">
+<div class="equation">
  $$ M=\frac{ gr^{2}}{G} . $$
 </div>
 
@@ -428,7 +428,7 @@ Gravity Force Lab
   line joining them. The force is directly proportional to the product of their
   masses and inversely proportional to the square of the distance between them.
   In equation form, this is
-  <div class="equation" id="eip-143">
+  <div class="equation">
  $$ F=G\frac{mM}{ r^{2}}, $$
   </div>
 

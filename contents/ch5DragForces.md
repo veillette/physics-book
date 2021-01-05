@@ -27,7 +27,7 @@ proportional to the square of the speed of the object. We can write this
 relationship mathematically as $$ F_{\text{D}}\propto v^{2} $$.
 When taking into account other factors, this relationship becomes
 
-<div class="equation" id="eip-871">
+<div class="equation">
 $$ F_{\text{D}}=\frac{1}{2}C \rho A v^{2}, $$
 </div>
 
@@ -49,10 +49,10 @@ Drag force $$ F_{\text{D}} $$
 is found to be proportional to the square of the speed of the object.
 Mathematically
 
-<div class="equation" id="eip-4">
+<div class="equation">
 $$ F_{\text{D}}\propto v^{2} $$
 </div>
-<div class="equation" id="eip-833">
+<div class="equation">
 $$ F_{\text{D}}=\frac{1}{2} C \rho A v^{2}, $$
 </div>
 where $$ C $$ is the drag coefficient,
@@ -143,25 +143,25 @@ quantitatively.
 
 At the terminal velocity,
 
-<div class="equation" id="eip-303">
+<div class="equation">
 $$ F_{\text{net}}=mg -F_{\text{D}}=ma =0 . $$
 </div>
 
 Thus,
 
-<div class="equation" id="eip-38">
+<div class="equation">
  $$ mg =F_{\text{D}}. $$
 </div>
 
 Using the equation for drag force, we have
 
-<div class="equation" id="eip-19">
+<div class="equation">
  $$ mg =\frac{1}{2}\rho C Av^{2}. $$
 </div>
 
 Solving for the velocity, we obtain
 
-<div class="equation" id="eip-545">
+<div class="equation">
  $$ v=\sqrt{\frac{2mg }{\rho CA}}. $$
 </div>
 
@@ -169,7 +169,7 @@ Assume the density of air is $$ \rho =1.21 \text{kg/m}^{3} $$. A 75-kg skydiver
 descending head first will have an area approximately $$ A=0.18 \mm $$
 and a drag coefficient of approximately $$ C=0.70 $$. We find that
 
-<div class="equation" id="eip-981">
+<div class="equation">
  $$ \begin{array}{lll}
 v& =& \sqrt{\frac{2\left(75 \kg \right)\left(9.80 \mss \right)}{\left(1.21 \kg/\m^{3}\right)\left(0.70\right)\left(0.18 \mm\right)}}\\
  & =& 98 \ms \\
@@ -211,7 +211,7 @@ drag force, we find $$ mg =\frac{1}{2}\rho C A v^{2} $$.
 
 Thus the terminal velocity $$ v_{t} $$ can be written as
 
-<div class="equation" id="eip-306">
+<div class="equation">
  $$ v_{\text{t}}=\sqrt{\frac{2mg }{\rho C A}}. $$
 </div>
 
@@ -220,12 +220,12 @@ Thus the terminal velocity $$ v_{t} $$ can be written as
 All quantities are known except the person’s projected area. This is an adult
 (85 kg) falling spread eagle. We can estimate the frontal area as
 
-<div class="equation" id="eip-769">
+<div class="equation">
  $$ A=\left(2 \m \right)\left(0.35 \m \right)=0.70 \mm . $$
 </div>
 Using our equation for $$ v_{\text{t}} $$, we find that
 
-<div class="equation" id="eip-656">
+<div class="equation">
  $$ \begin{array}{lll}
 v_{\text{t}}& =& \sqrt{\frac{2\left(85\kg \right)\left(9.80\mss \right)}{\left(1.21\text{kg/m}^{3}\right)
 \left(1.0\right)\left(0.70 \mm\right)}}\\
@@ -267,7 +267,7 @@ object is very small, is going very slow, or is in a denser medium than air.
 Then we find that the drag force is proportional just to the velocity. This
 relationship is given by **Stokes’ law**, which states that
 
-<div class="equation" id="eip-798">
+<div class="equation">
 $$ F_{\s}=6 \pi r\eta v, $$
 </div>
 
@@ -278,7 +278,7 @@ fluid, and $$ v $$ is the object’s velocity.
 <div class="title">
 Stokes’ Law
 </div>
-<div class="equation" id="eip-271">
+<div class="equation">
 $$ F_{\s}=6 \pi r\eta v, $$
 </div>
 where $$ r $$ is the radius of the object,
@@ -341,7 +341,7 @@ Masses and Springs
 * Drag forces acting on an object moving in a
   fluid oppose the motion. For larger objects (such as a baseball) moving at a
   velocity $$ v $$ in air, the drag force is given by
-  <div class="equation" id="eip-233">
+  <div class="equation">
  $$ F_{\text{D}}=\frac{1}{2}C\rho Av^{2}, $$
   </div>
 
@@ -351,7 +351,7 @@ Masses and Springs
 * For small objects (such as a bacterium)
   moving in a denser medium (such as water), the drag force is given by Stokes’
   law,
-  <div class="equation" id="eip-307">
+  <div class="equation">
  $$ F_{\s}=6 \pi r \eta v , $$
   </div>
 
@@ -477,7 +477,7 @@ Using Stokes’ law, verify that the units for viscosity are kilograms per meter
 
 </div>
 <div class="solution" id="eip-id1351403">
-<div class="equation" id="eip-id1168951431445">
+<div class="equation">
  $$ \left[\eta \right]=\frac{ \left[F_{\s}\right]}{\left[r\right]\left[v\right]}
 =\frac{ \kg \cdot \mss }{\m \cdot \ms }
 =\frac{ \kg }{\m \cdot \s } $$

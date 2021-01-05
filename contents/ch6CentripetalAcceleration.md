@@ -42,20 +42,20 @@ triangles ABC and PQR are isosceles triangles (two equal sides). The two equal
 sides of the velocity vector triangle are the speeds $$ v_{1}= v_{2}=v $$. Using
 the properties of two similar triangles, we obtain
 
-<div class="equation" id="eip-829">
+<div class="equation">
  $$ \frac{ \Delta v}{v}=\frac{ \Delta s}{r}. $$
 </div>
 
 Acceleration is $$ \Delta v/\Delta t $$, and so we first solve this expression
 for $$ \Delta v $$:
 
-<div class="equation" id="eip-0">
+<div class="equation">
  $$ \Delta v=\frac{v}{r}\Delta s. $$
 </div>
 
 Then we divide this by $$ \Delta t $$, yielding
 
-<div class="equation" id="eip-593">
+<div class="equation">
  $$ \frac{ \Delta v}{\Delta t}=\frac{v}{r}×\frac{ \Delta s}{\Delta t}. $$
 </div>
 
@@ -63,7 +63,7 @@ Finally, noting that $$ \Delta v/\Delta t=\ac $$ and that $$ \Delta
 s/\Delta t=v $$, the linear or tangential speed, we see that the magnitude of
 the centripetal acceleration is
 
-<div class="equation" id="eip-684">
+<div class="equation">
  $$ \ac=\frac{ v^{2}}{r}, $$
 </div>
 
@@ -80,7 +80,7 @@ Substituting $$ v=r \omega $$ into the above expression, we find
 $$ \ac= \left(r \omega \right)^{2}/r= r \omega^{2} $$. We can express the
 magnitude of centripetal acceleration using either of two equations:
 
-<div class="equation" id="eip-740">
+<div class="equation">
  $$ \ac=\frac{ v^{2}}{r} \text{ and }  \ac=r \omega^{2}. $$
 </div>
 
@@ -118,7 +118,7 @@ convenient to use.
 Entering the given values of $$ v=25.0\ms $$ and $$ r=500 \m $$
 into the first expression for $$ \ac $$ gives
 
-<div class="equation" id="eip-122">
+<div class="equation">
  $$ \ac=\frac{ v^{2}}{r}=\frac{ \left(25.0 \ms \right)^{2}}{500 \m }=1.25\mss . $$
 </div>
 
@@ -158,25 +158,25 @@ To convert $$ 7.50\times 10^{4}\text{rev}/\text{min} $$ to radians per second,
 we use the facts that one revolution is $$ 2\pi \text{rad} $$ and one minute is
 60.0 s. Thus,
 
-<div class="equation" id="eip-458">
+<div class="equation">
  $$ \omega =7.50\times 10^{4}\frac{ \text{rev}}{\text{min}}×\frac{2\pi \text{rad}}{1 \text{rev}}×\frac{1\text{min}}{60.0 \s }
 =7854\rads . $$
 </div>
 Now the centripetal acceleration is given by the second expression in
 $$ \ac=\frac{ v^{2}}{r}$$; $$ \ac=r \omega^{2} $$ as
 
-<div class="equation" id="eip-969">
+<div class="equation">
  $$ \ac=r \omega^{2}. $$
 </div>
 Converting 7.50 cm to meters and substituting known values gives
 
-<div class="equation" id="eip-576">
+<div class="equation">
  $$ \ac=\left(0.0750 \m \right)\left(7854 \rads \right)^{2}=4.63\times 10^{6}\mss . $$
 </div>
 Note that the unitless radians are discarded in order to get the correct units for centripetal acceleration. Taking the ratio of $$ \ac $$ to $$ g $$
 yields
 
-<div class="equation" id="eip-736">
+<div class="equation">
  $$ \frac{ \ac}{g}=\frac{4.63\times 10^{6}}{9.80}=4.72\times 10^{5}. $$
 </div>
 
@@ -217,7 +217,7 @@ Ladybug Motion 2D
   acceleration experienced while in uniform circular motion. It always points
   toward the center of rotation. It is perpendicular to the linear velocity $$ v
  $$ and has the magnitude
-  <div class="equation" id="eip-440">
+  <div class="equation">
  $$ \ac=\frac{ v^{2}}{r};\ac=r \omega^{2}. $$
   </div>
 

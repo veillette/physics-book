@@ -105,7 +105,7 @@ the problem, then forces are all conservative, and you can apply conservation of
 mechanical energy simply in terms of potential and kinetic energy. The equation
 expressing conservation of energy is
 
-<div class="equation" id="eip-423">
+<div class="equation">
  $$ \KE_{\text{i}}+\PE_{\text{i}}=\KE_{\text{f}}+\PE_{\text{f}}. $$
 </div>
 

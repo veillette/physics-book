@@ -80,7 +80,7 @@ static friction), the other for when there is motion (kinetic friction).
 When there is no motion between the objects,
 the **magnitude of static friction** , $$f_{s} $$ is given by
 
-<div class="equation" id="eip-70">
+<div class="equation">
  $$ f_{\s}\le \mu_{\s} \mag{N}, $$
 </div>
 
@@ -93,7 +93,7 @@ Magnitude of Static Friction
 </div>
 Magnitude of static friction force $$ f_{\s} $$ is
 
-<div class="equation" id="eip-213">
+<div class="equation">
  $$ f_{\s}\le \mu_{\s} \mag{N}, $$
 </div>
 where $$ \mu_{\s} $$ is the coefficient of static friction and $$ \mag{N} $$
@@ -107,14 +107,14 @@ friction is a responsive force that increases to be equal and opposite to
 whatever force is exerted, up to its maximum limit. Once the applied force
 exceeds $$ f_{\s \left(\text{max}\right)} $$, the object will move. Thus
 
-<div class="equation" id="eip-410">
+<div class="equation">
  $$ f_{\s  \left(\text{max}\right)}=\mu_{\s} \mag{N} . $$
 </div>
 
 Once an object is moving,
 the **magnitude of kinetic friction** , $$ f_k $$ is given by
 
-<div class="equation" id="eip-98">
+<div class="equation">
  $$ f_{\text{k}}=\mu_{\text{k}} \mag{N} , $$
 </div>
 
@@ -128,7 +128,7 @@ Magnitude of Kinetic Friction
 </div>
 The magnitude of kinetic friction $$ f_{\text{k}} $$ is given by
 
-<div class="equation" id="eip-40">
+<div class="equation">
  $$ f_{\text{k}}=\mu_{\text{k}} \mag{N}, $$
 </div>
 where $$ \mu_{\text{k}} $$ is the coefficient of kinetic friction.
@@ -255,12 +255,12 @@ than \( \mag{W} \)  in magnitude, so there is acceleration down the slope
 
 That is,
 
-<div class="equation" id="eip-302">
+<div class="equation">
  $$ \mag{N}= w_{\perp }=w\cos{ 25^\circ }=mg \cos{ 25^\circ }. $$
 </div>
 Substituting this into our expression for kinetic friction, we get
 
-<div class="equation" id="eip-134">
+<div class="equation">
  $$ f_{\text{k}}=\mu_{\text{k}}mg \cos{ 25^\circ }, $$
 </div>
 which can now be solved for the coefficient of kinetic friction $$ \mu_{\text{k}} $$.
@@ -269,13 +269,13 @@ which can now be solved for the coefficient of kinetic friction $$ \mu_{\text{k}
 
 Solving for $$ \mu_{\text{k} } $$ gives
 
-<div class="equation" id="eip-322">
+<div class="equation">
  $$ \mu_{\text{k}}=\frac{ f_{\text{k}}}{\mag{N}}=\frac{ f_{\text{k}}}{w\cos{
 25^\circ }}=\frac{ f_{\text{k}}}{mg \cos{ 25^\circ }.} $$
 </div>
 Substituting known values on the right-hand side of the equation,
 
-<div class="equation" id="eip-97">
+<div class="equation">
  $$ \mu_{\text{k}}=\frac{45.0 \N }{\left(62 \kg \right)\left(9.80 \mss \right)\left(0.906\right)}=0.082. $$
 </div>
 
@@ -305,15 +305,15 @@ The component of the weight down the slope is equal to $$ mg \sin{\theta} $$
 forces act in opposite directions, so when they have equal magnitude, the
 acceleration is zero. Writing these out:
 
-<div class="equation" id="eip-387">
+<div class="equation">
  $$ f_{\text{k}}=m g \sin{\theta} $$
 </div>
-<div class="equation" id="eip-368">
+<div class="equation">
  $$ \mu_{\text{k}}mg \cos{\theta} =mg \sin{\theta} . $$
 </div>
 Solving for $$ \mu_{\text{k}} $$, we find that
 
-<div class="equation" id="eip-680">
+<div class="equation">
  $$ \mu_{\text{k}}=\frac{mg \sin{\theta} }{mg \cos{\theta} }=\tan{\theta} . $$
 </div>
 Put a coin on a book and tilt it until the coin slides at a constant velocity down the book. You might need to tap the book lightly to get the coin to move. Measure the angle of tilt relative to the horizontal and find $$ \mu_{\text{k}} $$. Note that the coin will not start to slide at all until an angle greater than
@@ -393,7 +393,7 @@ Forces and Motion
   Friction depends on both of the materials involved. The magnitude of static
   friction $$ f_{\s} $$ between systems stationary relative to one another
   is given by
-  <div class="equation" id="eip-940">
+  <div class="equation">
  $$ f_{\s}\le \mu_{\s} \mag{N}, $$
   </div>
 
@@ -401,7 +401,7 @@ Forces and Motion
   depends on both of the materials.
 * The kinetic friction force $$ f_{\text{k}} $$
   between systems moving relative to one another is given by
-  <div class="equation" id="eip-799">
+  <div class="equation">
  $$ f_{\text{k}}=\mu_{\text{k}} \mag{N}, $$
   </div>
 

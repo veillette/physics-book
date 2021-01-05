@@ -120,15 +120,15 @@ parallel to the slope are the amount of the skier’s weight parallel to the slo
 $$ w_{\parallel } $$ and friction $$ f $$. Using Newton’s second law, with
 subscripts to denote quantities parallel to the slope,
 
-<div class="equation" id="eip-id2648920">
+<div class="equation">
  $$ a_{\parallel }=\frac{ F_{\text{net}\parallel }}{m} $$
 </div>
 where $$ F_{\text{net}\parallel }=w_{\parallel }=mg \sin\left(25^\circ\right) $$, assuming no friction for this part, so that
 
-<div class="equation" id="eip-id1172560">
+<div class="equation">
  $$ a_{\parallel }=\frac{ F_{\text{net}\parallel }}{m}=\frac{mg \sin\left(25^\circ\right)}{m}=g\sin\left(25^\circ\right) $$
 </div>
-<div class="equation" id="eip-id1165294200578">
+<div class="equation">
  $$ \left(9.80\mss \right)\left(0.4226\right)=4.14\mss $$
 </div>
 is the acceleration.
@@ -137,22 +137,22 @@ is the acceleration.
 direction is parallel to the slope and it opposes motion between surfaces in
 contact. So the net external force is now
 
-<div class="equation" id="eip-id1959204">
+<div class="equation">
 $$ F_{\text{net}\parallel }=w_{\parallel }-f, $$
 </div>
 and substituting this into Newton’s second law, $$ a_{\parallel }=\frac{ F_{\text{net}\parallel }}{m} $$, gives
 
-<div class="equation" id="eip-id1527388">
+<div class="equation">
  $$ a_{\parallel }=\frac{ F_{\text{net}\mid \mid }}{m}=\frac{ w_{\parallel }-f}{m}=\frac{mg \sin\left(25^\circ\right)-f}{m}. $$
 </div>
 We substitute known values to obtain
 
-<div class="equation" id="eip-id1967372">
+<div class="equation">
  $$ a_{\parallel }=\frac{ \left(60.0 \kg \right)\left(9.80 \mss \right)\left(0.4226\right)-45.0 \N }{60.0 \kg }, $$
 </div>
 which yields
 
-<div class="equation" id="eip-id1337555">
+<div class="equation">
  $$ a_{\parallel }=3.39 \mss , $$
 </div>
 which is the acceleration parallel to the incline when there is 45.0 N of opposing friction.
@@ -191,12 +191,12 @@ It is important to be careful when resolving the weight of the object into
 components. If the angle of the incline is at an angle $$ \theta $$ to the
 horizontal, then the magnitudes of the weight components are
 
-<div class="equation" id="eip-id2265769">
+<div class="equation">
  $$ w_{\parallel }=w\sin\left(\theta \right)=mg \sin\left(\theta \right) $$
 </div>
 and
 
-<div class="equation" id="eip-id1553388">
+<div class="equation">
  $$ w_{\perp }=w\cos\left(\theta \right)=mg \cos\left(\theta \right). $$
 </div>
 Instead of memorizing these equations, it is helpful to be able to
@@ -207,13 +207,13 @@ of the incline is the same as the angle formed between $$ \vb{w} $$
 Knowing this property, you can use trigonometry to determine the magnitude
 of the weight components:
 
-<div class="equation" id="eip-id2503179">
+<div class="equation">
  $$ \begin{array}{lll}
 \cos\left(\theta \right)& =& \frac{ w_{\perp }}{w}\\
 w_{\perp }& =& w\cos\left(\theta \right)=mg \cos\left(\theta \right)
 \end{array} $$
 </div>
-<div class="equation" id="eip-id1900825">
+<div class="equation">
 $$ \begin{array}{lll}
 \sin\left(\theta \right)& =& \frac{ w_{\parallel }}{w}\\
 w_{\parallel }& =& w\sin\left(\theta \right)=mg \sin\left(\theta \right)
@@ -261,7 +261,7 @@ its acceleration is zero, and thus $$ \vb{F}_{\text{net}}=0 $$. The
 only external forces acting on the mass are its weight $$ \vb{w} $$
 and the tension $$ \vb{T} $$ supplied by the rope. Thus,
 
-<div class="equation" id="eip-id2555725">
+<div class="equation">
 $$ F_{\text{net}}=T-w=0, $$
 </div>
 
@@ -269,13 +269,13 @@ where $$ T $$ and $$ w $$ are the magnitudes of the tension and weight and their
 direction, with up being positive here. Thus, just as you would expect, the
 tension equals the weight of the supported mass:
 
-<div class="equation" id="eip-id1640254">
+<div class="equation">
  $$ T=w=mg . $$
 </div>
 
 For a 5.00-kg mass, then (neglecting the mass of the rope) we see that
 
-<div class="equation" id="eip-id2489897">
+<div class="equation">
  $$ T=mg =\left(5.00 \kg \right)
 \left(9.80 \mss \right)=49.0 \N . $$
 </div>
@@ -341,13 +341,13 @@ horizontal and vertical components of each force acting on the system.
 Consider the horizontal components of the forces
 (denoted with a subscript $$ x $$):
 
-<div class="equation" id="eip-id2592142">
+<div class="equation">
 $$ F_{\text{net}x}=T_{\text{L}x}-T_{\text{R}x}. $$
 </div>
 The net external horizontal force $$ F_{\text{net}x}=0 $$,
 since the person is stationary. Thus,
 
-<div class="equation" id="eip-id2123898">
+<div class="equation">
  $$ \begin{array}{lll}
 F_{\text{net}x}=0& =& T_{\text{L}x}-T_{\text{R}x}\\
 T_{\text{L}x}& =& T_{\text{R}x}.
@@ -357,7 +357,7 @@ Now, observe [Figure](#import-auto-id1561864). You can use trigonometry
 to determine the magnitude of $$ T_{\text{L}} $$
 and $$ T_{\text{R}} $$. Notice that:
 
-<div class="equation" id="eip-id2130931">
+<div class="equation">
  $$ \begin{array}{lll}
 \cos\left(5.0^\circ \right)& =& \frac{ T_{\text{L}x}}{ T_{\text{L}}}\\
 T_{\text{L}x}& =& T_{\text{L}}\cos\left(5.0^\circ \right)\\
@@ -367,12 +367,12 @@ T_{\text{R}x}& =& T_{\text{R}}\cos\left(5.0^\circ \right).
 </div>
 Equating $$ T_{\text{L}x} $$ and $$ T_{\text{R}x} $$:
 
-<div class="equation" id="eip-id2382116">
+<div class="equation">
  $$ T_{\text{L}}\cos\left(5.0^\circ \right)=T_{\text{R}}\cos\left(5.0^\circ \right). $$
 </div>
 Thus,
 
-<div class="equation" id="eip-id2350456">
+<div class="equation">
  $$ T_{\text{L}}=T_{\text{R}}=T, $$
 </div>
 as predicted. Now, considering the vertical components
@@ -380,7 +380,7 @@ as predicted. Now, considering the vertical components
 second law implies that net $$ F_{y}=0 $$. Thus, as illustrated in the free-body
 diagram in [Figure](#import-auto-id1561864),
 
-<div class="equation" id="eip-id1851063">
+<div class="equation">
 $$ F_{\text{net}y}=T_{\text{L}y}+T_{\text{R}y}-w=0. $$
 </div>
 Observing [Figure](#import-auto-id1561864), we can use trigonometry
@@ -388,7 +388,7 @@ to determine the relationship between $$ T_{\text{L}y} $$,
 $$ T_{\text{R}y} $$, and $$ T $$. As we determined from the analysis in the
 horizontal direction, $$ T_{\text{L}}=T_{\text{R}}=T $$:
 
-<div class="equation" id="eip-id3367015">
+<div class="equation">
  $$ \begin{array}{lll}
 \sin\left(5.0^\circ \right)& =& \frac{ T_{\text{L}y}}{ T_{\text{L}}}\\
 T_{\text{L}y}=T_{\text{L}}\sin\left(5.0^\circ \right)& =& T\sin\left(5.0^\circ \right)\\
@@ -400,23 +400,23 @@ Now, we can substitute the values for $$ T_{\text{L}y} $$
 and $$ T_{\text{R}y} $$, into the net force equation in the vertical
 direction:
 
-<div class="equation" id="eip-id2085200">
+<div class="equation">
  $$ \begin{array}{lll}
 {F}_{\text{net}y}& =& T_{\text{L}y}+T_{\text{R}y}-w=0\\
 {F}_{\text{net}y}& =& T\sin\left(5.0^\circ \right)+T\sin\left(5.0^\circ \right)-w=0\\ 2T\sin\left(5.0^\circ \right)-w& =& 0\\ 2T\sin\left(5.0^\circ \right)& =& w\end{array} $$
 </div>
 and
 
-<div class="equation" id="eip-id2089830">
+<div class="equation">
  $$ T=\frac{w}{2\sin\left(5.0^\circ \right)}=\frac{mg }{2\sin\left(5.0^\circ \right)}, $$
 </div>
 so that
 
-<div class="equation" id="eip-id2121189">
+<div class="equation">
  $$ T=\frac{ \left(70.0 \kg \right)\left(9.80 \mss \right)}{2\left(0.0872\right)}, $$
 </div>
 and the tension is
-<div class="equation" id="eip-id1633382">
+<div class="equation">
  $$ T=3900 \N . $$
 </div>
 
@@ -439,7 +439,7 @@ of the tightrope walker acted as a force perpendicular to the rope. We saw that
 the tension in the roped related to the weight of the tightrope walker in the
 following way:
 
-<div class="equation" id="eip-id2294185">
+<div class="equation">
  $$ T=\frac{w}{2\sin\left(\theta \right)}. $$
 </div>
 
@@ -447,7 +447,7 @@ We can extend this expression to describe the tension $$ T $$ created when a
 perpendicular force ( $$ \vb{F}_{\perp } $$)
 is exerted at the middle of a flexible connector:
 
-<div class="equation" id="eip-id1535477">
+<div class="equation">
  $$ T=\frac{ F_{\perp }}{2\sin\left(\theta \right)}. $$
 </div>
 
@@ -528,7 +528,7 @@ width="800" height="600"  allowfullscreen></iframe>
  $$.
 * When objects rest on a non-accelerating horizontal surface, the magnitude of
   the normal force is equal to the weight of the object:
-  <div class="equation" id="eip-id1331551">
+  <div class="equation">
  $$ N=mg . $$
   </div>
 
@@ -538,11 +538,11 @@ width="800" height="600"  allowfullscreen></iframe>
   and parallel ( $$ \vb{w}_{\parallel } $$)
   to the surface of the plane. These components can be
   calculated using:
-  <div class="equation" id="eip-id2419526">
+  <div class="equation">
  $$ w_{\parallel }=w\sin\left(\theta \right)=mg \sin\left(\theta \right) $$
   </div>
 
-  <div class="equation" id="eip-id1949783">
+  <div class="equation">
  $$ w_{\perp }=w\cos\left(\theta \right)=mg \cos\left(\theta \right). $$
   </div>
 
@@ -550,7 +550,7 @@ width="800" height="600"  allowfullscreen></iframe>
   rope or cable, is called tension, $$ \vb{T} $$. When a rope
   supports the weight of an object that is at rest, the tension in the rope is
   equal to the weight of the object:
-  <div class="equation" id="eip-id1166246">
+  <div class="equation">
  $$ T=mg . $$
   </div>
 
@@ -642,13 +642,13 @@ tension of magnitude $$ T=\frac{ F_{\perp }}{2\sin\left( \theta \right)} $$.
 <div class="solution" markdown="1">
 Newton’s second law applied in vertical direction gives
 
-<div class="equation" id="eip-id572267">
+<div class="equation">
 $$ F_{y}=F-2T\sin{\theta} =0 $$
 </div>
-<div class="equation" id="eip-id1779725">
+<div class="equation">
 $$ F=2T\sin{\theta} $$
 </div>
-<div class="equation" id="eip-id1533937">
+<div class="equation">
  $$ T=\frac{ F}{2 \sin{\theta} }. $$
 </div>
 </div>

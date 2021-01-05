@@ -205,7 +205,7 @@ are $$ \KE_{f}=0 $$ for the kinetic energy and $$ \PE_{f}=mgh
 
 Substituting these values gives
 
-<div class="equation" id="eip-652">
+<div class="equation">
  $$ \frac{1}{2} m v_{i}^{2}+0+\left(-f d \right)=0+ m g d \sin{\theta} . $$
 </div>
 Solve this for $$ d $$ to obtain

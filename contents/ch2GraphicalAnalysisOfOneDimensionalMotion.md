@@ -27,7 +27,7 @@ vertical axis a **dependent variable**. If we call the horizontal axis the $$ x 
 the vertical axis the $$ y $$ -axis, as in [Figure](#import-auto-id2359358), a
 straight-line graph has the general form
 
-<div class="equation" id="import-auto-id4175150">
+<div class="equation">
  $$ y= m x+b. $$
 </div>
 
@@ -64,13 +64,13 @@ the slope in the graph above is average velocity $$ \overline{v} $$ and the
 intercept is position at time zero—that is, $$ x_{0} $$. Substituting these
 symbols into $$ y= mx+b $$ gives
 
-<div class="equation" id="import-auto-id4019047">
+<div class="equation">
  $$ x=\overline{v}t+x_{0} $$
 </div>
 
 or
 
-<div class="equation" id="import-auto-id2357165">
+<div class="equation">
  $$ x=x_{0}+\overline{v}t . $$
 </div>
 
@@ -85,7 +85,7 @@ The Slope of *x* vs. *t*
 The slope of the graph of position $$ x $$ vs. time $$ t $$ is velocity $$
 v $$.
 
-<div class="equation" id="import-auto-id4121188">
+<div class="equation">
  $$ \text{slope}=\frac{ \Delta x}{\Delta t}=v $$
 </div>
 Notice that this equation is the same as that derived algebraically from other motion equations 
@@ -110,7 +110,7 @@ The slope of a graph of $$ x $$ vs. $$ t $$ is average velocity, since slope
 equals rise over run. In this case, rise = change in position and run = change
 in time, so that
 
-<div class="equation" id="import-auto-id1850584">
+<div class="equation">
  $$ \text{slope}=\frac{ \Delta x}{\Delta t}=\overline{v}. $$
 </div>
 Since the slope is constant here, any two points on the graph can be used to find the slope. (Generally speaking, it is most accurate to use two widely separated points on the straight line. This is because any error in reading data from the graph is proportionally smaller if the interval is larger.)
@@ -125,12 +125,12 @@ choose any two points.)
 equation. Remember in calculating change $$ \left(\Delta \right) $$ we always
 use final value minus initial value.
 
-<div class="equation" id="import-auto-id4181834">
+<div class="equation">
  $$ \overline{v}=\frac{ \Delta x}{\Delta t}=\frac{2000 \m -525 \m }{6.4 \s  -0.50 \s }, $$
 </div>
 yielding
 
-<div class="equation" id="import-auto-id2024433">
+<div class="equation">
  $$ \overline{v}=250 \ms . $$
 </div>
 
@@ -223,12 +223,12 @@ $$.
 
 3\. Plug these endpoints into the equation to solve for the slope, $$ v $$.
 
-<div class="equation" id="import-auto-id3627758">
+<div class="equation">
  $$ \text{slope}=v_{Q}=\frac{ \Delta x_{Q}}{ \Delta t_{Q}}=\frac{ \left(3120 \m -1300 \m \right)}{\left(32 \s  -19 \s \right)} $$
 </div>
 Thus,
 
-<div class="equation" id="import-auto-id1657105">
+<div class="equation">
  $$ v_{Q}=\frac{1820 \m }{13 \s }=140 \ms . $$
 </div>
 
@@ -253,7 +253,7 @@ The Slope of \(v \) vs. \(t\)
 The slope of a graph of velocity $$ v $$ vs. time $$ t $$
 is acceleration $$ a $$.
 
-<div class="equation" id="import-auto-id4096826">
+<div class="equation">
  $$ \text{slope}=\frac{ \Delta v}{\Delta t}=a $$
 </div>
 </div>
@@ -271,7 +271,7 @@ In this case, the vertical axis $$ y $$ is $$ V $$, the intercept $$ b $$ is $$
 v_{0} $$, the slope $$ m $$ is $$ a $$, and the horizontal axis $$ x $$ is $$ t
 $$. Substituting these symbols yields
 
-<div class="equation" id="import-auto-id1714581">
+<div class="equation">
  $$ v=v_{0}+a t . $$
 </div>
 
@@ -336,10 +336,10 @@ tangent at that point, as illustrated in [Figure](#import-auto-id1534076)(b).
 Determine endpoints of the tangent line from the figure, and then plug them into
 the equation to solve for slope, $$ a $$.
 
-<div class="equation" id="import-auto-id3503054">
+<div class="equation">
  $$ \text{slope}=\frac{ \Delta v}{\Delta t}=\frac{ \left(260 \ms -210 \ms \right)}{\left(51 \s  -1.0 s\right)} $$
 </div>
-<div class="equation" id="import-auto-id2028886">
+<div class="equation">
  $$ a=\frac{50 \ms }{50 \s }=1.0 \mss . $$
 </div>
 
@@ -552,7 +552,7 @@ is approximately 0.24 m/s.
 
 </div>
 <div class="solution">
-<div class="equation" id="eip-id2453534">
+<div class="equation">
  $$ v=\frac{ \left(11.7-6.95\right)\times 10^{3}\m }{\left(40.0 - 20.0\right)\s }=238 \ms $$
 </div>
 </div>

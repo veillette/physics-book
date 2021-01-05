@@ -51,7 +51,7 @@ $$ \left( p_{x}\text{ and } p_{y}\right) $$ will also be
 
 Along the $$ x $$ -axis, the equation for conservation of momentum is
 
-<div class="equation" id="eip-854">
+<div class="equation">
  $$ p_{1x}+ p_{2x}=p^{\prime}_{1x}+p^{\prime}_{2x}. $$
 </div>
 
@@ -59,13 +59,13 @@ Where the subscripts denote the particles and axes and the primes denote the
 situation after the collision. In terms of masses and velocities, this equation
 is
 
-<div class="equation" id="eip-881">
+<div class="equation">
  $$ m_{1} v_{1x}+ m_{2} v_{2x}= m_{1}v^{\prime}_{1x}+ m_{2}v^{\prime}_{2x}. $$
 </div>
 
 But because particle 2 is initially at rest, this equation becomes
 
-<div class="equation" id="eip-166">
+<div class="equation">
  $$ m_{1} v_{1x}= m_{1}v^{\prime}_{1x}+ m_{2}v^{\prime}_{2x}. $$
 </div>
 
@@ -75,7 +75,7 @@ find $$ v_{1x}= v_{1} $$.
 
 Conservation of momentum along the $$ x $$ -axis gives the following equation:
 
-<div class="equation" id="eip-488">
+<div class="equation">
  $$ m_{1} v_{1}= m_{1}v^{\prime}_{1}\cos{\theta_{1}}+ m_{2}v^{\prime}_{2}\cos{\theta_{2}}, $$
 </div>
 
@@ -86,20 +86,20 @@ in [Figure](#import-auto-id2747387).
 <div class="title">
 Conservation of Momentum along the \( x \) -axis
 </div>
-<div class="equation" id="eip-224">
+<div class="equation">
  $$ m_{1} v_{1}= m_{1}v^{\prime}_{1}\cos{\theta_{1}}+ m_{2}v^{\prime}_{2}\cos{\theta_{2}} $$
 </div>
 </div>
 
 Along the $$ y $$ -axis, the equation for conservation of momentum is
 
-<div class="equation" id="eip-742">
+<div class="equation">
  $$ p_{1y}+ p_{2y}=p^{\prime}_{1y}+p^{\prime}_{2y} $$
 </div>
 
 or
 
-<div class="equation" id="eip-770">
+<div class="equation">
  $$ m_{1} v_{1y}+ m_{2} v_{2y}= m_{1}v^{\prime}_{1y}+ m_{2}v^{\prime}_{2y}. $$
 </div>
 
@@ -107,7 +107,7 @@ But $$ v_{1y} $$ is zero, because particle 1 initially moves along
 the $$ x $$ -axis. Because particle 2 is initially at rest, $$ v_{2y} $$ is also zero. The
 equation for conservation of momentum along the $$ y $$ -axis becomes
 
-<div class="equation" id="eip-10">
+<div class="equation">
  $$ 0= m_{1}v^{\prime}_{1y}+ m_{2}v^{\prime}_{2y}. $$
 </div>
 
@@ -117,7 +117,7 @@ v\sin{\theta} $$.
 Thus, conservation of momentum along the $$ y $$ -axis gives the following
 equation:
 
-<div class="equation" id="eip-545">
+<div class="equation">
  $$ 0= m_{1}v^{\prime}_{1}\sin{\theta_{1}}+ m_{2}v^{\prime}_{2}\sin{\theta_{2}}. $$
 </div>
 
@@ -125,7 +125,7 @@ equation:
 <div class="title">
 Conservation of Momentum along the \( y \) -axis
 </div>
-<div class="equation" id="eip-860">
+<div class="equation">
  $$ 0= m_{1}v^{\prime}_{1}\sin{\theta_{1}}+ m_{2}v^{\prime}_{2}\sin{\theta_{2}} $$
 </div>
 </div>
@@ -173,17 +173,17 @@ $$ v^{\prime}_{2}\sin{\theta }_{2} $$ and taking the ratio yields an equation (
 in which $$ \theta_2 $$ is the only unknown quantity. Applying the identity $$
 \left(\tan{\theta} =\frac{ \sin{\theta} }{\cos{\theta} }\right) $$, we obtain:
 
-<div class="equation" id="eip-329">
+<div class="equation">
  $$ \tan{\theta_{2}}=\frac{ v^{\prime}_{1}\sin{\theta_{1}}}{ v^{\prime}_{1}\cos{\theta_{1}}- v_{1}}. $$
 </div>
 Entering known values into the previous equation gives
 
-<div class="equation" id="eip-45">
+<div class="equation">
  $$ \tan{\theta_{2}}=\frac{ \left(1.50 \ms \right)\left(0.7071\right)}{\left(1.50 \ms \right)\left(0.7071\right)-2.00 \ms }=-1.129. $$
 </div>
 Thus,
 
-<div class="equation" id="eip-532">
+<div class="equation">
  $$\theta_{2}={\tan}^{-1}\left(-1.129\right)=311.5^\circ \approx 312^\circ. $$
 </div>
 Angles are defined as positive in the counter clockwise direction, so this angle indicates that $$ m_{2} $$ is scattered to the right in [Figure](#import-auto-id2747922), as expected (
@@ -191,17 +191,17 @@ this angle is in the fourth quadrant). Either equation for the $$ x $$- or
 $$ y $$-axis can now be used to solve for $$ v^{\prime}_{2} $$, but the latter
 equation is easiest because it has fewer terms.
 
-<div class="equation" id="eip-516">
+<div class="equation">
  $$ v^{\prime}_{2}=-\frac{ m_{1}}{ m_{2}}v^{\prime}_{1}\frac{ \sin{\theta_{1}}}{\sin{\theta_{2}}} $$
 </div>
 Entering known values into this equation gives
 
-<div class="equation" id="eip-497">
+<div class="equation">
  $$ v^{\prime}_{2}=-\left(\frac{0.250\kg }{0.400\kg }\right)\left(1.50 \ms \right)\left(\frac{0.7071}{-0.7485}\right). $$
 </div>
 Thus,
 
-<div class="equation" id="eip-721">
+<div class="equation">
  $$ v^{\prime}_{2}=0.886 \ms . $$
 </div>
 
@@ -231,21 +231,21 @@ elastic collision conserves internal kinetic energy. Again, let us assume object
 2 $$ \left( m_{2}\right) $$ is initially at rest. Then, the internal kinetic
 energy before and after the collision of two objects that have equal masses is
 
-<div class="equation" id="eip-213">
+<div class="equation">
  $$ \frac{1}{2}m v_{1}^{2}=\frac{1}{2}{ m {v^{\prime}}_{1}}^{2}+\frac{1}{2}{ m {v^{\prime} }_{2}}^{2}. $$
 </div>
 
 Because the masses are equal, $$ m_{1}=m_{2}=m $$. Algebraic manipulation (left
 to the reader) of conservation of momentum in the $$ x $$- and $$ y $$ -directions can show that
 
-<div class="equation" id="eip-717">
+<div class="equation">
  $$ \frac{1}{2} m v_{1}^{2}=\frac{1}{2}{ m {v^{\prime} }_{1}}^{2}+\frac{1}{2}{ m {v^{\prime} }_{2}}^{2}+{mv^{\prime} }_{1}v^{\prime}_{2}\cos\left({\theta_{1}}-{\theta_{2}}\right). $$
 </div>
 
 (Remember that $$\theta_{2} $$ is negative here.) The two preceding equations
 can both be true only if
 
-<div class="equation" id="eip-590">
+<div class="equation">
  $$ mv^{\prime}_{1}v^{\prime}_{2}\cos\left({\theta_{1}}-{\theta_{2}}\right)=0. $$
 </div>
 
@@ -295,7 +295,7 @@ the atomic nucleus from such experiments.
   m_{1}v^{\prime}_{1y}+m_{2}v^{\prime}_{2y} $$.
 * The internal kinetic before and after the collision of two objects that have
   equal masses is
-  <div class="equation" id="eip-id2398000">
+  <div class="equation">
  $$ \frac{1}{2} m v_{1}^{2}=
  \frac{1}{2} m{v^{\prime}}_{1}^{2}+
  \frac{1}{2} m{v^{\prime}_{2}}^{2}+
@@ -458,7 +458,7 @@ for conservation of momentum in the $$ x $$ - and $$ y $$ -directions
 and assuming that one object is originally stationary, prove that
 for an elastic collision of two objects of equal masses,
 
-<div class="equation" id="import-auto-id2985541">
+<div class="equation">
  $$ \frac{1}{2} m v_{1}^{2}=\frac{1}{2}{ m{v^{\prime} }_{1}}^{2}+\frac{1}{2}{ m {v^{\prime} }_{2}}^{2}+{mv^{\prime} }_{1}v^{\prime}_{2}\cos\left({\theta_{1}}-{\theta_{2}}\right) $$
 </div>
 as discussed in the text.
@@ -467,17 +467,17 @@ as discussed in the text.
 <div class="solution" id="eip-id2538314" markdown="1">
 We are given that $$ m_{1}=m_{2}\equiv m $$. The given equations then become:
 
-<div class="equation" id="eip-id1899177">
+<div class="equation">
  $$ v_{1}=v_{1}\cos{\theta_{1}}+v_{2}\cos{\theta_{2}} $$
 </div>
 and
 
-<div class="equation" id="eip-id1899459">
+<div class="equation">
  $$ 0=v^{\prime}_{1}\sin{\theta_{1}}+v^{\prime}_{2}\sin{\theta_{2}}. $$
 </div>
 Square each equation to get
 
-<div class="equation" id="eip-id2304354">
+<div class="equation">
  $$ \begin{array}{lll}
 v_{1}^{2}& =& { v^{\prime}_{1}}^{2}{\cos}^{2}{\theta_{1}}+{ v^{\prime}_{2}}^{2}{\cos}^{2}{\theta_{2}}+2v^{\prime}_{1}v^{\prime}_{2}\cos{\theta_{1}}\cos{\theta_{2}}\\
 0 & =& { v^{\prime}_{1}}^{2}{\sin}^{2}{\theta_{1}}+{ v^{\prime}_{2}}^{2}{\sin}^{2}{\theta_{2}}+2v^{\prime}_{1}v^{\prime}_{2}\sin{\theta_{1}}\sin{\theta_{2}}.
@@ -485,7 +485,7 @@ v_{1}^{2}& =& { v^{\prime}_{1}}^{2}{\cos}^{2}{\theta_{1}}+{ v^{\prime}_{2}}^{2}{
 </div>
 Add these two equations and simplify:
 
-<div class="equation" id="eip-id1300045">
+<div class="equation">
  $$ \begin{array}{lll}
 v_{1}^{2}& =& { v^{\prime}_{1}}^{2}+{ v^{\prime}_{2}}^{2}+2 v^{\prime}_{1}  v^{\prime}_{2} \left(\cos{\theta_{1}}\cos{\theta_{2}}+\sin{\theta_{1}}\sin{\theta_{2}}\right)\\
 & =& { v^{\prime}_{1}}^{2}+{ v^{\prime}_{2}}^{2}+2v^{\prime}_{1}v^{\prime}_{2}\left[\frac{1}{2}\cos\left({\theta_{1}}-{\theta_{2}}\right)+\frac{1}{2}\cos\left({\theta_{1}}+{\theta_{2}}\right)+\frac{1}{2}\cos\left({\theta_{1}}-{\theta_{2}}\right)-\frac{1}{2}\cos\left({\theta_{1}}+{\theta_{2}}\right)\right]\\
@@ -494,7 +494,7 @@ v_{1}^{2}& =& { v^{\prime}_{1}}^{2}+{ v^{\prime}_{2}}^{2}+2 v^{\prime}_{1}  v^{\
 </div>
 Multiply the entire equation by $$ \frac{1}{2}m $$ to recover the kinetic energy:
 
-<div class="equation" id="eip-id2367723">
+<div class="equation">
  $$ \frac{1}{2} mv_{1}^{2}=\frac{1}{2}m{ v^{\prime}_{1}}^{2}+\frac{1}{2}m{ {v^{\prime} }_{2}}^{2}+m{v^{\prime} }_{1}{v^{\prime} }_{2}\cos\left({\theta_{1}}-{\theta_{2}}\right) $$
 </div>
 </div>

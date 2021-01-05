@@ -183,7 +183,7 @@ Here, we see that when the same vectors are added in a different order, the
 result is the same. This characteristic is true in every case and is an
 important characteristic of vectors. Vector addition is **commutative**. Vectors can be added in any order.
 
-<div class="equation" id="eip-376">
+<div class="equation">
  $$ \vb{A}+\vb{B}=\vb{B}+\vb{A}. $$
 </div>
 (This is true for the addition of ordinary numbers as well—you get the same result
@@ -213,7 +213,7 @@ to $$ \vb{A} $$. Note that vector subtraction
 is the addition of a negative vector. The order of subtraction does not affect
 the results.
 
-<div class="equation" id="eip-454">
+<div class="equation">
  $$ \vb{A} - \vb{B} = \vb{A} + \left( -\vb{B} \right). $$
 </div>
 

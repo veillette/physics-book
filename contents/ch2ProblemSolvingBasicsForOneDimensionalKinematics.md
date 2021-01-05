@@ -122,7 +122,7 @@ the worked examples in the text*. In the example given in the preceding
 paragraph, you would identify the givens as the acceleration and time and use
 the equation below to find the unknown final velocity. That is,
 
-<div class="equation" id="import-auto-id4167672">
+<div class="equation">
  $$ v=v_{0}+a t  =0+\left(0.40\mss \right)\left(100\s \right)=40 \ms . $$
 </div>
 
@@ -132,7 +132,7 @@ the equation below to find the unknown final velocity. That is,
 does it have the wrong sign, improper units, …? In this case, you may need to
 convert meters per second into a more familiar unit, such as miles per hour.
 
-<div class="equation" id="import-auto-id1437508">
+<div class="equation">
  $$ \left(\frac{40 \m }{\s}\right)
 \left(\frac{3.28 \text{ft}}{\m}\right)
 \left(\frac{1 \text{mi}}{5280 \text{ft}}\right)

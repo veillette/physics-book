@@ -127,7 +127,7 @@ measurement $$ A $$ is expressed with uncertainty, $$ \delta A $$, the **percent
 uncertainty** (%unc)
 is defined to be
 
-<div class="equation" id="eip-718">
+<div class="equation">
  $$ \% \text{unc} = \frac{ \delta A}{A} \times 100 \% . $$
 </div>
 
@@ -156,7 +156,7 @@ First, observe that the expected value of the bag’s weight, $$ A $$, is 5 lb.
 The uncertainty in this value, $$ \delta A $$, is 0.4 lb. We can use the
 following equation to determine the percent uncertainty of the weight:
 
-<div class="equation" id="eip-136">
+<div class="equation">
  $$ \% \text{unc} =\frac{ \delta A}{A} \times 100 \% . $$
 </div>
 
@@ -164,7 +164,7 @@ following equation to determine the percent uncertainty of the weight:
 
 Plug the known values into the equation:
 
-<div class="equation" id="eip-191">
+<div class="equation">
  $$ \% \text{unc} =\frac{0.4\text{lb}}{5\text{lb}} \times 100  \% = 8 \% . $$
 </div>
 
@@ -299,7 +299,7 @@ circle can be calculated from its radius using $$ A=\pi r^{2} $$. Let us see how
 many significant figures the area has if the radius has only two—say, $$
 r=1.2\m $$. Then,
 
-<div class="equation" id="eip-722">
+<div class="equation">
  $$ A=\pi r^{2}=\left(3.1415927 \dots \right) \times  \left(1.2\m  \right)^{2}
 =4.5238934 \mm $$
 </div>
@@ -308,7 +308,7 @@ is what you would get using a calculator that has an eight-digit output. But
 because the radius has only two significant figures, it limits the calculated
 quantity to two significant figures or
 
-<div class="equation" id="eip-890">
+<div class="equation">
  $$ A=4.5 \mm, $$
 </div>
 
@@ -323,7 +323,7 @@ potatoes as measured by a bathroom scale with precision 0.1 kg. How many
 kilograms of potatoes do you now have, and how many significant figures are
 appropriate in the answer? The mass is found by simple addition and subtraction:
 
-<div class="equation" id="eip-336">
+<div class="equation">
 $$
 \eqalign{
 7 & . & 56 \kg \\

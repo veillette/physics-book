@@ -18,7 +18,7 @@ do more work than the energy put into it. However, machines can reduce the input
 force that is needed to perform the job. The ratio of output to input force
 magnitudes for any simple machine is called its **mechanical advantage** (MA).
 
-<div class="equation" id="eip-598">
+<div class="equation">
  $$ \text{MA}=\frac{ F_{\text{o}}}{ F_{\text{i}}} $$
 </div>
 
@@ -49,7 +49,7 @@ $$ \left(\text{net}\tau =0\right) $$. (In order for the nail to actually move, t
 due to $$ \vb{F}_{\text{i}} $$ must be ever-so-slightly greater
 than torque due to $$ \vb{F}_{\N } $$.) Hence,
 
-<div class="equation" id="eip-158">
+<div class="equation">
  $$ l_{\text{i}}F_{\text{i}}=l_{\text{o}}F_{\text{o}} $$
 </div>
 
@@ -57,7 +57,7 @@ where $$ l_{\text{i}} $$ and $$ l_{\text{o}} $$ are the distances from where the
 input and output forces are applied to the pivot, as shown in the figure.
 Rearranging the last equation gives
 
-<div class="equation" id="eip-958">
+<div class="equation">
  $$ \frac{ F_{\text{o}}}{ F_{\text{i}}}=\frac{ l_{\text{i}}}{ l_{\text{o}}}. $$
 </div>
 
@@ -66,7 +66,7 @@ nail puller, $$F_{\text{o}}$$, is much greater than the magnitude of the input
 force applied to the puller at the other end, $$ F_{\text{i}} $$. For the nail
 puller,
 
-<div class="equation" id="eip-394">
+<div class="equation">
  $$ \text{MA}=\frac{ F_{\text{o}}}{ F_{\text{i}}}=\frac{ l_{\text{i}}}{ l_{\text{o}}}. $$
 </div>
 
@@ -109,12 +109,12 @@ Here, we use the concept of mechanical advantage.
 (a) In this case, $$ \frac{ F_{\text{o}}}{ F_{\text{i}}}=\frac{ l_{i}}{ l_{o}}
 $$ becomes
 
-<div class="equation" id="eip-501">
+<div class="equation">
 $$ F_{\text{i}}=F_{\text{o}}\frac{ l_{o}}{ l_{i}}. $$
 </div>
 Adding values into this equation yields
 
-<div class="equation" id="eip-453">
+<div class="equation">
 $$ F_{\text{i}}=\left(45.0\kg \right)\left(9.80\mss \right)\frac{0.075 \m }{1.02 \m }=32.4 \N . $$
 </div>
 The free-body diagram (see [Figure](#import-auto-id2664028)) gives the following normal force: $$ F_{i}+N=W $$. Therefore, $$ N=\left(45.0 \kg \right)\left(

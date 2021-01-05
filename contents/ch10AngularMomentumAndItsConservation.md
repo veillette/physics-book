@@ -20,7 +20,7 @@ By now the pattern is clear—every rotational phenomenon has a direct
 translational analog. It seems quite reasonable, then, to define **angular
 momentum** $$ L $$ as
 
-<div class="equation" id="eip-337">
+<div class="equation">
  $$ L=I \omega. $$
 </div>
 
@@ -51,12 +51,12 @@ pertinent data before we can calculate $$ L=I \omega $$. First, according
 to [Figure](../contents/ch10DynamicsOfRotationalMotion.md#figMomentOfInertia), the formula for the moment of
 inertia of a sphere is
 
-<div class="equation" id="eip-654">
+<div class="equation">
  $$ I=\frac{2 MR^{2}}{5} $$
 </div>
 so that
 
-<div class="equation" id="eip-239">
+<div class="equation">
  $$ L=I\omega=\frac{2 MR^{2}\omega }{5}. $$
 </div>
 Earth’s mass $$ M $$ is $$ 5.979 \times 10^{24}\kg $$ and its radius $$ R $$ is $$ 6.376 \times
@@ -69,7 +69,7 @@ second to do the calculation in SI units.
 Substituting known information into the expression for $$ L $$ and converting $$
 \omega $$ to radians per second gives
 
-<div class="equation" id="eip-297">
+<div class="equation">
  $$ \begin{array}{lll}
 L& =& 0.4\left(5.979 \times 10^{24}\kg \right){\left(6.376 \times 10^{6}\m \right)}^{2}\left(\frac{1\text{rev}}{\text{d}}\right)\\
  & =& 9.72 \times 10^{37}\kg \cdot \mm\cdot \text{rev/d}.
@@ -77,7 +77,7 @@ L& =& 0.4\left(5.979 \times 10^{24}\kg \right){\left(6.376 \times 10^{6}\m \righ
 </div>
 Substituting $$ 2\pi $$ rad for $$ 1 $$ rev and $$ 8.64 \times 10^{4}\s $$ for 1 day gives
 
-<div class="equation" id="eip-195">
+<div class="equation">
  $$ \begin{array}{lll}
 L& =& \left(9.72 \times 10^{37}\kg \cdot \mm\right)\left(\frac{2\pi \text{rad/rev}}{8.64 \times 10^{4}\text{s/d}}\right)\left(1\text{rev/d}\right)\\
  & =& 7.07 \times 10^{33}\kg \cdot \mms .
@@ -98,7 +98,7 @@ rotation accelerates, and angular momentum increases. The greater the net
 torque, the more rapid the increase in $$ L $$. The relationship between torque
 and angular momentum is
 
-<div class="equation" id="eip-628">
+<div class="equation">
  $$ \text{net}\tau =\frac{ \Delta L}{\Delta t}. $$
 </div>
 
@@ -133,13 +133,13 @@ $$ L=I \omega $$.
 
 Solving $$ \text{net}\tau =\frac{ \Delta L}{\Delta t} $$ for $$ \Delta L $$ gives
 
-<div class="equation" id="eip-994">
+<div class="equation">
  $$ \Delta L=\left(\text{net}\text{τ}\right)\Delta t . $$
 </div>
 Because the force is perpendicular to $$ r $$,
 we see that $$ \text{net}\tau =rF $$, so that
 
-<div class="equation" id="eip-911">
+<div class="equation">
  $$ \begin{array}{lll}
 L& =& rF\Delta t=\left(0.260 \m \right)\left(2.50 N\right)\left(0.150 s\right)
 =& 9.75 \times 10^{-2}\kg \cdot \mm/\s .
@@ -151,18 +151,18 @@ L& =& rF\Delta t=\left(0.260 \m \right)\left(2.50 N\right)\left(0.150 s\right)
 The final angular velocity can be calculated from the definition of angular
 momentum,
 
-<div class="equation" id="eip-982">
+<div class="equation">
  $$ L=I \omega. $$
 </div>
 Solving for $$ \omega $$ and substituting the formula
 for the moment of inertia of a disk into the resulting equation gives
 
-<div class="equation" id="eip-963">
+<div class="equation">
  $$ \omega =\frac{L}{I}=\frac{L}{\frac{1}{2}M R^{2}}. $$
 </div>
 And substituting known values into the preceding equation yields
 
-<div class="equation" id="eip-98">
+<div class="equation">
  $$ \omega =\frac{9.75 \times 10^{-2}\kg \cdot \mms }{\left(0.500\right)\left(4.00\kg \right)\left(0.260\m \right)}=0.721\rads . $$
 </div>
 
@@ -202,13 +202,13 @@ angular velocity and rotational kinetic energy can be calculated.
 From the rotational analog to Newton’s second law, the angular acceleration $$
 \alpha $$ is
 
-<div class="equation" id="eip-761">
+<div class="equation">
  $$ \alpha =\frac{ \text{net}\tau }{I}. $$
 </div>
 Because the force and the perpendicular lever arm are given and the leg is vertical
 so that its weight does not create a torque, the net torque is thus
 
-<div class="equation" id="eip-466">
+<div class="equation">
  $$ \begin{array}{lll}
 \text{net}\tau & =& r_{\perp }F\\
  & =& \left(0.0220 \m \right)\left(2000\N \right)\\
@@ -218,7 +218,7 @@ so that its weight does not create a torque, the net torque is thus
 Substituting this value for the torque and the given value for the moment of inertia into the expression for $$ \alpha $$
 gives
 
-<div class="equation" id="eip-388">
+<div class="equation">
  $$ \alpha =\frac{44.0\N \cdot \m }{1.25\kg \cdot \mm}=35.2 \radss . $$
 </div>
 
@@ -226,24 +226,24 @@ gives
 
 The final angular velocity can be calculated from the kinematic expression
 
-<div class="equation" id="eip-632">
+<div class="equation">
  $$ \omega^{2}=\omega_{0}^{2}+2 \alpha \theta $$
 </div>
 or
 
-<div class="equation" id="eip-493">
+<div class="equation">
  $$ \omega^{2}=2 \alpha \theta $$
 </div>
 because the initial angular velocity is zero. The kinetic energy of rotation is
 
-<div class="equation" id="eip-182">
+<div class="equation">
  $$ \KE_{\text{rot}}=\frac{1}{2}I\omega^{2} $$
 </div>
 so it is most convenient to use the value of $$ \omega^{2} $$ just
 found and the given value for the moment of inertia. The kinetic energy is
 then
 
-<div class="equation" id="eip-877">
+<div class="equation">
  $$ \begin{array}{lll}\KE_{\text{rot}}& =& 0.5\left(1.25\kg \cdot \mm\right)
 \left(70.4{\text{rad}}^{2}/{\s}^{2}\right)\\
  & =& 44.0 \J
@@ -293,26 +293,26 @@ What we have here is, in fact, another conservation law. If the net torque is
 rigorously by considering $$ \text{net}\tau =\frac{ \Delta L}{\Delta t} $$ for
 the situation in which the net torque is zero. In that case,
 
-<div class="equation" id="eip-283">
+<div class="equation">
  $$ \text{net}\tau =0 $$
 </div>
 
 implying that
 
-<div class="equation" id="eip-576">
+<div class="equation">
  $$ \frac{ \Delta L}{\Delta t}=0. $$
 </div>
 
 If the change in angular momentum $$ \Delta L $$ is zero, then the angular
 momentum is constant; thus,
 
-<div class="equation" id="eip-10">
+<div class="equation">
  $$ L=\text{constant}; \left(\text{net}\tau =0\right) $$
 </div>
 
 or
 
-<div class="equation" id="eip-67">
+<div class="equation">
  $$ L=L^{\prime} ; \left(\text{net }\tau =0\right). $$
 </div>
 
@@ -329,13 +329,13 @@ time. She can do something else, too. She can increase her rate of spin by
 pulling her arms and legs in. Why does pulling her arms and legs in increase her
 rate of spin? The answer is that her angular momentum is constant, so that
 
-<div class="equation" id="eip-572">
+<div class="equation">
  $$ L=L^{\prime} . $$
 </div>
 
 Expressing this equation in terms of the moment of inertia,
 
-<div class="equation" id="eip-752">
+<div class="equation">
  $$ I\omega =I^{\prime}  \omega^\prime , $$
 </div>
 
@@ -367,7 +367,7 @@ quantity, we use the conservation of angular momentum and note that the moments
 of inertia and initial angular velocity are given. To find the initial and final
 kinetic energies, we use the definition of rotational kinetic energy given by
 
-<div class="equation" id="eip-489">
+<div class="equation">
  $$ \KE_{\text{rot}}=\frac{1}{2}I\omega^{2}. $$
 </div>
 
@@ -376,17 +376,17 @@ kinetic energies, we use the definition of rotational kinetic energy given by
 Because torque is negligible (as discussed above), the conservation of angular
 momentum given in $$ I\omega = I^{\prime} \omega^\prime $$ is applicable. Thus,
 
-<div class="equation" id="eip-310">
+<div class="equation">
  $$ L=L^{\prime} $$
 </div>
 or
 
-<div class="equation" id="eip-100">
+<div class="equation">
  $$ I\omega=I^{\prime} \omega^\prime $$
 </div>
 Solving for $$ \omega \prime $$ and substituting known values into the resulting equation gives
 
-<div class="equation" id="eip-158">
+<div class="equation">
  $$ \begin{array}{lll}
 \omega \prime & =& \frac{I}{I^{\prime}}\omega
 =\left(\frac{2.34 \kg \cdot {m}^{2}}{0.363 \kg \cdot {m}^{2}}\right)
@@ -399,12 +399,12 @@ Solving for $$ \omega \prime $$ and substituting known values into the resulting
 
 Rotational kinetic energy is given by
 
-<div class="equation" id="eip-377">
+<div class="equation">
  $$ \KE_{\text{rot}}=\frac{1}{2}I\omega^{2}. $$
 </div>
 The initial value is found by substituting known values into the equation and converting the angular velocity to rad/s:
 
-<div class="equation" id="eip-8">
+<div class="equation">
  $$ \begin{array}{lll}
 \KE_{\text{rot}}& =& \left(0.5\right)\left(2.34\kg \cdot \mm\right){\left(\left(0.800\text{rev/s}\right)\left(2\pi \text{rad/rev}\right)\right)}^{2}\\
  & =& 29.6 \J .
@@ -412,12 +412,12 @@ The initial value is found by substituting known values into the equation and co
 </div>
 The final rotational kinetic energy is
 
-<div class="equation" id="eip-30">
+<div class="equation">
  $$ \KE_{\text{rot}}\prime =\frac{1}{2}I^{\prime} {\omega \prime }^{2}. $$
 </div>
 Substituting known values into this equation gives
 
-<div class="equation" id="eip-307">
+<div class="equation">
  $$ \begin{array}{lll}
 K{E}_{\text{rot}}\prime & =& \left(0.5\right)\left(0.363 \kg \cdot {m}^{2}\right){\left[\left(5.16 \text{rev/s}\right)\left(2\pi  rad/rev\right)\right]}^{2}\\
  & =& 191 \J .

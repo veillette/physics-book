@@ -45,7 +45,7 @@ is the same before and after the collision (if you assume friction is negligible
 
 Using the definition of impulse, the change in momentum of car 1 is given by
 
-<div class="equation" id="eip-776">
+<div class="equation">
  $$ \Delta p_{1}= F_{1}\Delta t, $$
 </div>
 
@@ -58,7 +58,7 @@ momentum is conserved.
 
 Similarly, the change in momentum of car 2 is
 
-<div class="equation" id="eip-591">
+<div class="equation">
  $$ \Delta p_{2}= F_{2}\Delta t , $$
 </div>
 
@@ -66,24 +66,24 @@ where $$ F_{2} $$ is the force on car 2 due to car 1, and we assume the duration
 of the collision $$ \Delta t $$ is the same for both cars. We know from Newton’s
 third law that $$ F_{2}=- F_{1} $$, and so
 
-<div class="equation" id="eip-340">
+<div class="equation">
  $$ \Delta  p_{2}=- F_{1}\Delta t=-\Delta  p_{1}. $$
 </div>
 
 Thus, the changes in momentum are equal and opposite, and
 
-<div class="equation" id="eip-727">
+<div class="equation">
  $$ \Delta  p_{1}+\Delta  p_{2}=0. $$
 </div>
 
 Because the changes in momentum add to zero, the total momentum of the two-car
 system is constant. That is,
 
-<div class="equation" id="eip-991">
+<div class="equation">
  $$ p_{1}+ p_{2}=\text{constant}, $$
 </div>
 
-<div class="equation" id="eip-564">
+<div class="equation">
  $$ p_{1}+ p_{2}={p^{\prime} }_{1}+{p^{\prime} }_{2}, $$
 </div>
 
@@ -96,13 +96,13 @@ one-dimensional case. It can be similarly shown that total momentum is conserved
 for any isolated system, with any number of objects in it. In equation form,
 the **conservation of momentum principle** for an isolated system is written
 
-<div class="equation" id="eip-986">
+<div class="equation">
  $$ \vb{p}_{\text{tot}}=\text{constant}, $$
 </div>
 
 or
 
-<div class="equation" id="eip-32">
+<div class="equation">
  $$ \vb{p}_{\text{tot}}={\vb{p}^{\prime} }_{\text{tot}}, $$
 </div>
 
@@ -117,7 +117,7 @@ for which the net external force is zero $$ \left(\vb{F}_
 <div class="title">
 Conservation of Momentum Principle
 </div>
-<div class="equation" id="eip-387">
+<div class="equation">
  $$ \begin{array}{lll}
 \vb{p}_{\text{tot}}& =& \text{constant}\\
 \vb{p}_{\text{tot}}& =& {\vb{p}^{\prime} }_{\text{tot}}\left(\text{isolated system}\right)\end{array} $$
@@ -243,12 +243,12 @@ works so well on the large scale.
 ### Section Summary
 
 * The conservation of momentum principle is written
-  <div class="equation" id="eip-483">
+  <div class="equation">
  $$ \vb{p}_{\text{tot}}=\text{constant} $$
   </div>
 
   or
-  <div class="equation" id="eip-814">
+  <div class="equation">
  $$ \vb{p}_{\text{tot}}={\vb{p}^{\prime} }_{\text{tot}}\left(\text{isolated system}\right), $$
   </div>
 

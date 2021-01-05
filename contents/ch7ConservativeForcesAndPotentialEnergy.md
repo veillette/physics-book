@@ -176,14 +176,14 @@ A 0.100-kg toy car is propelled by a compressed spring, as shown in [Figure](#im
 The spring force and the gravitational force are conservative forces, so
 conservation of mechanical energy can be used. Thus,
 
-<div class="equation" id="eip-576">
+<div class="equation">
  $$
 \KE_{\text{i}}+\PE_{\text{i}}=
 \KE_{\text{f}}+\PE_{\text{f}} $$
 </div>
 or
 
-<div class="equation" id="eip-82">
+<div class="equation">
  $$
 \frac{1}{2} m v_{i}^{2}+ mgh_{i}+ \frac{1}{2} k x_{i}^{2}=
 \frac{1}{2} m v_{f}^{2}+ mgh_{f}+ \frac{1}{2} k x_{f}^{2}, $$
@@ -203,14 +203,14 @@ Furthermore, the initial speed $$ v_{\text{i}} $$ is zero and the final
 compression of the spring $$ x_{\text{f}} $$ is zero, and so several terms in
 the conservation of mechanical energy equation are zero and it simplifies to
 
-<div class="equation" id="eip-654">
+<div class="equation">
  $$ \frac{1}{2}k x_{i}^{2}=\frac{1}{2} m v_{f}^{2}. $$
 </div>
 In other words, the initial potential energy in the spring is converted completely
 to kinetic energy in the absence of friction.
 Solving for the final speed and entering known values yields
 
-<div class="equation" id="eip-196">
+<div class="equation">
 $$ \begin{array}{lll}
 v_{f}& =& \sqrt{\frac{k}{m}} x_{i}  \\
      & =& \sqrt{\frac{250.0 \text{N/m}}{0.100 \kg } } \left(0.0400 \m \right)\\
@@ -234,7 +234,7 @@ converted partly to gravitational potential energy and partly to kinetic
 energy. The final speed at the top of the slope will be less than at the bottom.
 Solving for $$ v_{\text{f}} $$ and substituting known values gives
 
-<div class="equation" id="eip-334">
+<div class="equation">
  $$ \begin{array}{lll}
 v_{f}& =& \sqrt{\frac{ k x_{\text{i}}^{2}}{m}-2 g h_{\text{f}}}\\
      & =& \sqrt{\left(\frac{250.0 \text{N/m}}{0.100 \kg }\right)
@@ -289,7 +289,7 @@ Energy Skate Park
 * When only conservative forces act on and within a system, the total mechanical
   energy is constant. In equation form,
 
-<div class="equation" id="eip-201">
+<div class="equation">
  $$ \begin{array}{cc}
 & \KE+\PE=\text{constant}\\
 & \text{or} \\

@@ -50,7 +50,7 @@ By calculating the change in momentum for the entire system over $$ \Delta t $$,
 and equating this change to the impulse, the following expression can be shown
 to be a good approximation for the acceleration of the rocket.
 
-<div class="equation" id="eip-188">
+<div class="equation">
  $$ a=\frac{ v_{\text{e}}}{m}\frac{ \Delta m}{\Delta t}-g $$
 </div>
 
@@ -63,7 +63,7 @@ Acceleration of a Rocket
 </div>
 Acceleration of a rocket is
 
-<div class="equation" id="eip-653">
+<div class="equation">
  $$ a=\frac{ v_{\text{e}}}{m}\frac{ \Delta m}{\Delta t}-g, $$
 </div>
 where $$ a $$ is the acceleration of the rocket, $$ v_{\text{e}} $$
@@ -120,7 +120,7 @@ because $$ a $$ is the unknown and all of the terms on the right side of the equ
 
 Substituting the given values into the equation for acceleration yields
 
-<div class="equation" id="eip-13">
+<div class="equation">
  $$ \begin{array}{lll}
 a& =& \frac{ v_{\text{e}}}{m}\frac{ \Delta m}{\Delta t}-g\\
  & =
@@ -146,7 +146,7 @@ small as possible. It can be shown that, in the absence of air resistance and
 neglecting gravity, the final velocity of a one-stage rocket initially at rest
 is
 
-<div class="equation" id="eip-71">
+<div class="equation">
  $$ v=v_{\text{e}} \ln \frac{ m_{0}}{ m_{\text{r}}}, $$
 </div>
 
@@ -160,19 +160,19 @@ escape Earth’s gravity starting from rest, given that the escape velocity from
 Earth is about $$ 11.2\times 10^{3} \ms $$, and assuming an exhaust
 velocity $$ v_{\text{e}}=2.5\times 10^{3} \ms $$.
 
-<div class="equation" id="eip-31">
+<div class="equation">
  $$ \ln \frac{ m_{0}}{ m_{\text{r}}}=\frac{v}{ v_{\text{e}}}=\frac{11.2\times 10^{3} \ms }{2.5\times 10^{3} \ms }=4.48 $$
 </div>
 
 Solving for $$ m_{0}/m_{\text{r}} $$ gives
 
-<div class="equation" id="eip-607">
+<div class="equation">
  $$ \frac{ m_{0}}{ m_{\text{r}}}={e}^{4.48}=88. $$
 </div>
 
 Thus, the mass of the rocket is
 
-<div class="equation" id="eip-263">
+<div class="equation">
  $$ m_{\text{r}}=\frac{ m_{0}}{88}. $$
 </div>
 

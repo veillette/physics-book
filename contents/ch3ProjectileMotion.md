@@ -60,19 +60,19 @@ the kinematic equations can be used.
 <div class="title">
 Review of Kinematic Equations (constant \( a \) )
 </div>
-<div class="equation" id="eip-891">
+<div class="equation">
  $$ x=x_{0}+\overline{v}t $$
 </div>
-<div class="equation" id="eip-557">
+<div class="equation">
  $$ \overline{v}=\frac{ v_{0}+v}{2} $$
 </div>
-<div class="equation" id="eip-405">
+<div class="equation">
  $$ v=v_{0}+a t $$
 </div>
-<div class="equation" id="eip-556">
+<div class="equation">
  $$ x=x_{0}+v_{0}t+\frac{1}{2}a t^{2} $$
 </div>
-<div class="equation" id="eip-389">
+<div class="equation">
  $$ v^{2}=v_{0}^{2}+2a\left(x-x_{0}\right). $$
 </div>
 </div>
@@ -104,35 +104,35 @@ subscript 0, as usual.
 horizontal and the other vertical.* The kinematic equations for horizontal and
 vertical motion take the following forms:
 
-<div class="equation" id="eip-338">
+<div class="equation">
  $$ \text{Horizontal Motion}\left(a_{x}=0\right) $$
 </div>
 
-<div class="equation" id="eip-362">
+<div class="equation">
  $$ x=x_{0}+v_{x}t $$
 </div>
 
-<div class="equation" id="eip-627">
+<div class="equation">
  $$ v_{x}=v_{0x}=v_{x}=\text{velocity is a constant.} $$
 </div>
 
-<div class="equation" id="eip-293">
+<div class="equation">
  $$ \text{Vertical Motion}\left(\text{assuming positive is up}a_{y}=-g=-9.80\mss \right) $$
 </div>
 
-<div class="equation" id="eip-131">
+<div class="equation">
  $$ y=y_{0}+\frac{1}{2}\left(v_{0y}+v_{y}\right)t $$
 </div>
 
-<div class="equation" id="eip-305">
+<div class="equation">
  $$ v_{y}= v_{0y}- g t $$
 </div>
 
-<div class="equation" id="eip-542">
+<div class="equation">
  $$ y=y_{0}+v_{0y}t-\frac{1}{2} g t^{2} $$
 </div>
 
-<div class="equation" id="eip-243">
+<div class="equation">
  $$ v_{y}^{2}= v_{0y}^{2}-2g \left( y-y_{0} \right) . $$
 </div>
 
@@ -152,19 +152,19 @@ direction of the velocity $$ \vb{v} $$.
 
 **Total displacement and velocity**
 
-<div class="equation" id="eip-743">
+<div class="equation">
  $$ s=\sqrt{ x^{2}+{y}^{2}} $$
 </div>
 
-<div class="equation" id="eip-373">
+<div class="equation">
  $$ \theta ={\tan}^{-1}\left(\frac{y}{x} \right) $$
 </div>
 
-<div class="equation" id="eip-679">
+<div class="equation">
  $$ v=\sqrt{ v_{x}^{2}+v_{y}^{2}} $$
 </div>
 
-<div class="equation" id="eip-264">
+<div class="equation">
  $$\theta_{v}={\tan}^{-1}\left( \frac{v_{y}}{v_{x}}\right). $$
 </div>
 
@@ -200,38 +200,38 @@ point. The highest point in any trajectory, called the apex, is reached when $$
 v_{y}=0 $$. Since we know the initial and final velocities as well as the
 initial position, we use the following equation to find $$ y $$:
 
-<div class="equation" id="eip-734">
+<div class="equation">
  $$ v_{y}^{2}=v_{0y}^{2}-2g\left(y-y_{0}\right). $$
 </div>
 ![The x y graph shows the trajectory of fireworks shell. The initial velocity of the shell v zero is at angle theta zero equal to seventy five degrees with the horizontal x axis. The fuse is set to explode the shell at the highest point of the trajectory which is at a height h equal to two hundred thirty three meters and at a horizontal distance x equal to one hundred twenty five meters from the origin.](../resources/Figure_03_04_03a.jpg "The trajectory of a fireworks shell. The fuse is set to explode the shell at the highest point in its trajectory, which is found to be at a height of 233 m and 125 m away horizontally."){: #import-auto-id934168 height="250"}
 
 Because $$ y_{0} $$ and $$ v_{y} $$ are both zero, the equation simplifies to
 
-<div class="equation" id="eip-42">
+<div class="equation">
  $$ 0=v_{0y}^{2}-2\text{gy.} $$
 </div>
 Solving for $$ y $$ gives
 
-<div class="equation" id="eip-256">
+<div class="equation">
  $$ y=\frac{ v_{0y}^{2}}{2g}. $$
 </div>
 Now we must find $$ v_{0y} $$, the component of the initial velocity in the *y*-direction. It is given by $$
 v_{0y}=v_{0} \sin{\theta} $$, where $$ v_{0y} $$ is the initial velocity of
 70.0 m/s, and $$ \theta_{0}=75.0^\circ $$ is the initial angle. Thus,
 
-<div class="equation" id="eip-677">
+<div class="equation">
  $$ v_{0y}=v_{0}\sin{\theta_{0}}=
 \left(70.0 \ms \right)\left(\sin{75^\circ }\right)
 =67.6 \ms . $$
 </div>
 and $$ y $$ is
 
-<div class="equation" id="eip-512">
+<div class="equation">
  $$ y=\frac{ \left(67.6 \ms \right)^{2}}{2\left(9.80 \mss \right)}, $$
 </div>
 so that
 
-<div class="equation" id="eip-310">
+<div class="equation">
  $$ y=233 \m . $$
 </div>
 
@@ -254,12 +254,12 @@ the highest point. In this case, the easiest method is to use $$ y=y_
 {0}+\frac{1}{2}\left(v_{0y}+v_{y}\right)t $$. Because $$ y_{0} $$ is zero, this
 equation reduces to simply
 
-<div class="equation" id="eip-383">
+<div class="equation">
  $$ y=\frac{1}{2}\left(v_{0y}+v_{y}\right)t. $$
 </div>
 Note that the final vertical velocity, $$ v_{y} $$, at the highest point is zero. Thus,
 
-<div class="equation" id="eip-50">
+<div class="equation">
  $$ \begin{array}{lll}
 t& =& \frac{2y}{\left(v_{0y}+v_{y}\right)}=\frac{2\left(233 \m \right)}{\left(67.6 \ms \right)}\\
  & =& 6.90 \s .
@@ -280,18 +280,18 @@ is constant, as discussed above. The horizontal displacement is horizontal
 velocity multiplied by time as given by $$ x=x_{0}+v_{x}t $$, where $$ x_{0} $$
 is equal to zero:
 
-<div class="equation" id="eip-675">
+<div class="equation">
  $$ x=v_{x}t, $$
 </div>
 where $$ v_{x} $$ is the **x**-component of the velocity, which is given by $$ v_{x}=v_
 {0}\cos{\theta_{0}}$$. Now,
 
-<div class="equation" id="eip-884">
+<div class="equation">
  $$ v_{x}=v_{0}\cos{\theta_{0}}=\left(70.0 \ms \right)\left(\cos {75.0^\circ }\right)=18.1 m/s. $$
 </div>
 The time $$ t $$ for both motions is the same, and so $$ x $$ is
 
-<div class="equation" id="eip-685">
+<div class="equation">
  $$ x=\left(18.1 \ms \right)\left(6.90 \s \right)=125 \m . $$
 </div>
 
@@ -308,7 +308,7 @@ In solving part (a) of the preceding example, the expression we found for $$ y
 $$ is valid for any projectile motion where air resistance is negligible. Call
 the maximum height $$ y=h $$; then,
 
-<div class="equation" id="eip-803">
+<div class="equation">
  $$ h=\frac{ v_{0y}^{2}}{2g}. $$
 </div>
 
@@ -369,26 +369,26 @@ the first part of the example.
 While the rock is in the air, it rises and then falls to a final position 20.0 m
 lower than its starting altitude. We can find the time for this by using
 
-<div class="equation" id="eip-895">
+<div class="equation">
  $$ y=y_{0}+v_{0y}t-\frac{1}{2}g t^{2} . $$
 </div>
 If we take the initial position $$ y_{0} $$ to be zero, then the final position is
 $$ y=-20.0 \m $$. Now the initial vertical velocity is the vertical component of the initial velocity,
 found from $$ v_{0y}=v_{0}\sin{\theta_{0}} = ( 25.0 \ms  )( \sin{35.0^\circ } ) = 14.3 \ms $$. Substituting known values yields
 
-<div class="equation" id="eip-722">
+<div class="equation">
  $$ -20.0 \m =\left(14.3 \ms \right)t-\left(4.90 \mss \right){t}^{2}. $$
 </div>
 Rearranging terms gives a quadratic equation in $$ t $$:
 
-<div class="equation" id="eip-931">
+<div class="equation">
  $$ \left(4.90 \mss \right) t^{2}-\left(14.3 \ms \right)t-\left(20.0 \m \right)=0. $$
 </div>
 This expression is a quadratic equation of the form $$ a t^{2} + b t+c=0 $$,
 where the constants are $$ a=4.90 $$, $$ b=-14.3 $$, and $$ c=-20.0. $$
 Its solutions are given by the quadratic formula:
 
-<div class="equation" id="eip-880">
+<div class="equation">
  $$ t=\frac{-b \pm \sqrt{ b^{2}-4 a c }} {2a}. $$
 </div>
 This equation yields two solutions: $$ t=3.96 $$
@@ -397,7 +397,7 @@ is $$ t=3.96\s $$ or $$ -1.03\s $$. The negative value of time implies an event 
 motion, and so
 we discard it. Thus,
 
-<div class="equation" id="eip-267">
+<div class="equation">
  $$ t=3.96 \s . $$
 </div>
 
@@ -417,49 +417,49 @@ course, $$ v_{x} $$ is constant so we can solve for it at any horizontal
 location. In this case, we chose the starting point since we know both the
 initial velocity and initial angle. Therefore:
 
-<div class="equation" id="eip-873">
+<div class="equation">
  $$ v_{x}=v_{0}\cos{\theta_{0}}=\left(25.0 \ms \right)\left(\cos{35^\circ }\right)=20.5 \ms $$
 </div>
 The final vertical velocity is given by the following equation:
 
-<div class="equation" id="eip-168">
+<div class="equation">
  $$ v_{y}=v_{0y}-gt, $$
 </div>
 where $$ v_{0y} $$ was found in part (a) to be $$ 14.3 \ms $$. Thus,
 
-<div class="equation" id="eip-113">
+<div class="equation">
  $$ v_{y}=14.3 \ms -\left(9.80 \mss \right)\left(3.96 \s \right) $$
 </div>
 so that
 
-<div class="equation" id="eip-571">
+<div class="equation">
  $$ v_{y}=-24.5 \ms $$
 </div>
 To find the magnitude of the final velocity $$ \mag{v} $$, we combine its
 perpendicular components, using the following equation:
 
-<div class="equation" id="eip-394">
+<div class="equation">
  $$ \mag{v}=\sqrt{ v_{x}^{2}+v_{y}^{2}}=\sqrt{\left(20.5 \ms \right)^{2}+\left
 (-24.5 \ms \right)^{2}}, $$
 </div>
 which gives
 
-<div class="equation" id="eip-60">
+<div class="equation">
  $$ \mag{v}=31.9 \ms $$
 </div>
 The direction $$\theta_{v} $$ is found from the equation:
 
-<div class="equation" id="eip-353">
+<div class="equation">
  $$\theta_{v}={\tan}^{-1}\left(v_{y}/v_{x}\right) $$
 </div>
 so that
 
-<div class="equation" id="eip-589">
+<div class="equation">
  $$\theta_{v}={\tan}^{-1}\left(-24.5/20.5\right)={\tan}^{-1}\left(-1.19\right). $$
 </div>
 Thus,
 
-<div class="equation" id="eip-379">
+<div class="equation">
  $$\theta_{v}=-50.1^\circ . $$
 </div>
 
@@ -503,7 +503,7 @@ lunar astronaut Alan Shepherd was able to drive a golf ball a great distance on
 the Moon because gravity is weaker there. The range $$ R $$ of a projectile
 on **level ground** for which air resistance is negligible is given by
 
-<div class="equation" id="eip-240">
+<div class="equation">
  $$ R=\frac{ v_0^2\sin{ 2\theta_0 }}{g}, $$
 </div>
 
@@ -565,62 +565,62 @@ Projectile Motion
  $$ \theta $$ is its direction.
     2. Analyze the motion of the projectile in the
        horizontal direction using the following equations:
-       <div class="equation" id="eip-898">
+       <div class="equation">
          $$ \text{Horizontal motion}\left(a_{x}=0\right) $$
        </div>
 
-       <div class="equation" id="eip-236">
+       <div class="equation">
             $$ x=x_{0}+v_{x}t $$
        </div>
 
-       <div class="equation" id="eip-612">
+       <div class="equation">
         $$ v_{x}=v_{0x}=\vb{v}_{\text{x}}=\text{velocity is a constant.} $$
        </div>
 
     3. Analyze the motion of the projectile in the
        vertical direction using the following equations:
-       <div class="equation" id="import-auto-id1939084">
+       <div class="equation">
      $$ \text{Vertical motion}\left(\text{Assuming positive direction is up;}a_
      {y}=-g=-9.80 \mss \right) $$
        </div>
 
-       <div class="equation" id="import-auto-id1492830">
+       <div class="equation">
        $$ y=y_{0}+\frac{1}{2}\left(v_{0y}+v_{y}\right)t $$
        </div>
 
-       <div class="equation" id="import-auto-id2022844">
+       <div class="equation">
        $$ v_{y}=v_{0y}-g t $$
        </div>
 
-       <div class="equation" id="import-auto-id1677876">
+       <div class="equation">
         $$ y=y_{0}+v_{0y}t-\frac{1}{2} g t^{2} $$
        </div>
 
-       <div class="equation" id="import-auto-id1653540">
+       <div class="equation">
        $$ v_{y}^{2}=v_{0y}^{2}-2g\left(y-y_{0}\right). $$
        </div>
 
     4. Recombine the horizontal and vertical
        components of location and/or velocity using the following equations:
-       <div class="equation" id="import-auto-id2092332">
+       <div class="equation">
         $$ s=\sqrt{ x^{2}+{y}^{2}} $$
        </div>
 
-       <div class="equation" id="import-auto-id2282348">
+       <div class="equation">
         $$ \theta =\tan^{-1}\left(\frac{y}{x}\right) $$
        </div>
 
-       <div class="equation" id="import-auto-id2274748">
+       <div class="equation">
     $$ v=\sqrt{ v_{x}^{2}+v_{y}^{2}} $$
        </div>
 
-       <div class="equation" id="import-auto-id1979208">
+       <div class="equation">
     $$ \theta_{\text{v}}={\tan}^{-1} \left( \frac{v_{y}}{v_{x}} \right) .$$
        </div>
 
 * The maximum height $$ h $$ of a projectile launched
   with initial vertical velocity $$ v_{0y} $$ is given by
-  <div class="equation" id="import-auto-id1534227">
+  <div class="equation">
     $$ h=\frac{ v_{0y}^{2}}{2g}. $$
   </div>
 
@@ -628,7 +628,7 @@ Projectile Motion
   projectile is called the **range**. The range $$ R $$ of a projectile on level
   ground launched at an angle $$\theta_{0} $$ above the horizontal with initial
   speed $$ v_{0} $$ is given by
-  <div class="equation" id="import-auto-id1951750">
+  <div class="equation">
  $$ R=\frac{ v_0^2 \sin{2\theta_0} }{g}. $$
   </div>
 
