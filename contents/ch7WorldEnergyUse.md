@@ -22,7 +22,7 @@ production per year; 66% of that oil is imported!
 ### Renewable and Nonrenewable Energy Sources
 
 The principal energy resources used in the world are shown
-in [Figure](#fig1). The fuel mix has changed over the years
+in [Figure 1](#fig1). The fuel mix has changed over the years
 but now is dominated by oil, although natural gas and solar contributions are
 increasing. **Renewable forms of energy** are those sources that cannot be used up, such as water,
 wind, solar, and biomass. About 85% of our energy comes from nonrenewable
@@ -46,7 +46,7 @@ World Energy (credit:Veillette)")
 ### The World’s Growing Energy Needs
 
 World energy consumption continues to rise, especially in the developing
-countries. ( See [Figure](#fig2).)
+countries. ( See [Figure 2](#fig2).)
 Global demand for energy has tripled in
 the past 50 years and might triple again in the next 30 years. While much of
 this growth will come from the rapidly booming economies of China and India,
@@ -55,7 +55,7 @@ their energy needs by expanding the use of renewable sources. Although presently
 only a small percentage, renewable energy is growing very fast, especially wind
 energy. For example, Germany plans to meet 20% of its electricity and 10% of its
 overall energy needs with renewable resources by the year 2020. (
-See [Figure](#fig3).) Energy is a key constraint in the rapid
+See [Figure 3](#fig3).) Energy is a key constraint in the rapid
 economic growth of China and India. In 2003, China surpassed Japan as the
 world’s second largest consumer of oil. However, over 1/3 of this is imported.
 Unlike most Western countries, coal dominates the commercial energy resources of
@@ -107,7 +107,7 @@ The last two columns in this table examine the energy and electricity use per
 capita. Economic well-being is dependent upon energy use, and in most countries
 higher standards of living, as measured by GDP (gross domestic product) per
 capita, are matched by higher levels of energy consumption per capita. This is
-borne out in [Figure](#fig4). Increased efficiency of energy
+borne out in [Figure 4](#fig4). Increased efficiency of energy
 use will change this dependency. A global problem is balancing energy resource
 development against the harmful effects upon the environment in its extraction
 and use.
@@ -189,7 +189,7 @@ If the efficiency of a coal-fired electrical generating plant is 35%, then what 
 
 **Integrated Concepts**
 
-(a) Calculate the force the woman in [Figure](#fig5) exerts to
+(a) Calculate the force the woman in [Figure 5](#fig5) exerts to
 do a push-up at constant speed, taking all data to be known to three digits.
 (b) How much work does she do if her center of mass rises 0.240 m?
 (c) What is her useful power output if she does 25 push-ups in 1 min?

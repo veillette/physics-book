@@ -12,7 +12,7 @@ layout: page
 
 If you have ever spun a bike wheel or pushed a merry-go-round, you know that
 force is needed to change angular velocity as seen
-in [Figure](#fig1). In fact, your intuition is reliable in
+in [Figure 1](#fig1). In fact, your intuition is reliable in
 predicting many of the factors that are involved. For example, we know that a
 door opens slowly if we push too close to its hinges. Furthermore, we know that
 the more massive the door, the more slowly it opens. The first example implies
@@ -29,7 +29,7 @@ force and mass.
 To develop the precise relationship among force, mass, radius, and angular
 acceleration, consider what happens if we exert a force $$ F $$ on a point mass
 $$ m $$ that is at a distance $$ r $$ from a pivot point, as shown
-in [Figure](#fig2). Because the force is perpendicular to $$
+in [Figure 2](#fig2). Because the force is perpendicular to $$
 r $$, an acceleration $$ a=\frac{F}{m} $$ is obtained in the direction of $$ F
 $$. We can rearrange this equation such that $$ F=ma $$ and then look for ways
 to relate this expression to expressions for rotational quantities. We note that
@@ -79,7 +79,7 @@ mass that behave just as we would expect from our earlier experiences.
 ### Rotational Inertia and Moment of Inertia
 
 Before we can consider the rotation of anything other than a point mass like the
-one in [Figure](#fig2), we must extend the idea of rotational
+one in [Figure 2](#fig2), we must extend the idea of rotational
 inertia to all types of objects. To expand our concept of rotational inertia, we
 define the **moment of inertia** $$ I
 $$ of an object to be the sum of $$ m r^{2} $$ for all the point masses of which
@@ -169,7 +169,7 @@ In statics, the net torque is zero, and there is no angular acceleration. In rot
 <div class="title">
 Calculating the Effect of Mass Distribution on a Merry-Go-Round
 </div>
-Consider the father pushing a playground merry-go-round in [Figure](#fig3).
+Consider the father pushing a playground merry-go-round in [Figure 3](#fig3).
 He exerts a force
 of 250 N at the edge of the 50.0-kg merry-go-round, which has a 1.50 m radius.
 Calculate the angular acceleration produced
@@ -455,7 +455,7 @@ an opposing frictional force of 20.0 N exerted 1.50 cm from the axis?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Consider the 12.0 kg motorcycle wheel shown in [Figure](#fig4). Assume it to be approximately an annular ring with an inner radius of 0.280 m and an outer radius of 0.330 m. The motorcycle is on its center stand, so that the wheel can spin freely.
+Consider the 12.0 kg motorcycle wheel shown in [Figure 4](#fig4). Assume it to be approximately an annular ring with an inner radius of 0.280 m and an outer radius of 0.330 m. The motorcycle is on its center stand, so that the wheel can spin freely.
 (a) If the drive chain exerts a force of 2200 N at a radius of 5.00 cm, what is the angular acceleration of the wheel?
 (b) What is the tangential acceleration of a point on the outer edge of the tire?
 (c) How long, starting from rest, does it take to reach an angular velocity of 80.0 rad/s?

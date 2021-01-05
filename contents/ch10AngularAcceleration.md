@@ -21,7 +21,7 @@ defined as the time rate of change of angle $$ \theta $$:
 </div>
 
 where $$ \theta $$ is the angle of rotation as seen
-in [Figure](#fig1). The relationship between angular velocity
+in [Figure 1](#fig1). The relationship between angular velocity
 $$ \omega $$ and linear velocity $$ v $$ was also defined
 in [Rotation Angle and Angular Velocity](../contents/ch6RotationAngleAndAngularVelocity.md) as
 

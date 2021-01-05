@@ -23,9 +23,9 @@ discussed later in this text.
 gravity) is a pervasive force that acts at all times and must be counteracted to
 keep an object from falling. You definitely notice that you must support the
 weight of a heavy object by pushing up on it when you hold it stationary, as
-illustrated in [Figure](#fig1)(a). But how do inanimate
+illustrated in [Figure 1](#fig1)(a). But how do inanimate
 objects like a table support the weight of a mass placed on them, such as shown
-in [Figure](#fig1)(b)? When the bag of dog food is placed on
+in [Figure 1](#fig1)(b)? When the bag of dog food is placed on
 the table, the table actually sags slightly under the load. This would be
 noticeable if the load were placed on a card table, but even rigid objects
 deform when a force is applied to them. Unless the object is deformed beyond its
@@ -74,7 +74,7 @@ and the unit watts (W).
 <div class="title">
 Weight on an Incline, a Two-Dimensional Problem
 </div>
-Consider the skier on a slope shown in [Figure](#fig2). Her mass including equipment is 60.0 kg.
+Consider the skier on a slope shown in [Figure 2](#fig2). Her mass including equipment is 60.0 kg.
 (a) What is her acceleration if friction is negligible?
 (b) What is her acceleration if friction is known to be 45.0 N?
 
@@ -97,7 +97,7 @@ slope and because friction is always parallel to the surface between two
 objects. The only external forces acting on the system are the skier’s weight,
 friction, and the support of the slope, respectively labeled $$\vb{w}
 $$, $$ \vb{f} $$, and $$ \vb{N} $$
-in [Figure](#fig2). $$ \vb{N} $$
+in [Figure 2](#fig2). $$ \vb{N} $$
  is always perpendicular to the slope, and $$ \vb{f} $$
  is parallel to it. But $$ \vb{w} $$ is not in the direction of
 either axis, and so the first step we take is to project it into components
@@ -250,7 +250,7 @@ phrase: “You can’t push a rope.” The tension force pulls outward along the
 ends of a rope.
 
 Consider a person holding a mass on a rope as shown
-in [Figure](#fig4).
+in [Figure 4](#fig4).
 
 ![An object of mass m is attached to a rope and a person is holding the rope. A weight vector W points downward starting from the lower point of the mass. A tension vector T is shown by an arrow pointing upward initiating from the hook where the mass and rope are joined, and a third vector, also T, is shown by an arrow pointing downward initiating from the hand of the person.](../resources/Figure_04_05_04.jpg "When a perfectly flexible connector (one requiring no force to bend it) such as this rope transmits a force  \( T \) , that force must be parallel to the length of the rope, as shown. The pull such a flexible connector exerts is a tension. Note that the rope pulls with equal force but in opposite directions on the hand and the supported mass (neglecting the weight of the rope). This is an example of Newton&#x2019;s third law. The rope is the medium that carries the equal and opposite forces between the two objects. The tension anywhere in the rope between the hand and the mass is equal. Once you have determined the tension in one location, you have determined the tension at all locations along the rope.")
 {: #fig4}
@@ -288,7 +288,7 @@ Flexible connectors are often used to transmit forces around corners, such as in
 a hospital traction system, a finger joint, or a bicycle brake cable. If there
 is no friction, the tension is transmitted undiminished. Only its direction
 changes, and it is always parallel to the flexible connector. This is
-illustrated in [Figure](#fig5) (a) and (b).
+illustrated in [Figure 5](#fig5) (a) and (b).
 
 ![The internal structure of a finger with tendon, extensor muscle, and flexor muscle is shown. The force in the muscles is shown by arrows pointing along the tendon. In the second figure, part of a bicycle with a brake cable is shown. Three tension vectors are shown by the arrows along the brake cable, starting from the handle to the wheels. The tensions have the same magnitude but different directions.](../resources/Figure_04_05_05.jpg "(a) Tendons in the finger carry force  \( T \)  from the muscles to other parts of the finger, usually changing the force&#x2019;s direction, but not its magnitude (the tendons are relatively friction free). (b) The brake cable on a bicycle carries the tension  \( T \)  from the handlebars to the brake mechanism. Again, the direction but not the magnitude of  \( T \)  is changed. ")
 {: #fig5 height="325"}
@@ -297,7 +297,7 @@ illustrated in [Figure](#fig5) (a) and (b).
 <div class="title">
 What Is the Tension in a Tightrope?
 </div>
-Calculate the tension in the wire supporting the 70.0-kg tightrope walker shown in [Figure](#fig6).
+Calculate the tension in the wire supporting the 70.0-kg tightrope walker shown in [Figure 6](#fig6).
 
 ![A tightrope walker is walking on a wire. His weight W is acting downward, shown by a vector arrow. The wire sags and makes a five-degree angle with the horizontal at both ends. T sub R, shown by a vector arrow, is toward the right along the wire. T sub L is shown by an arrow toward the left along the wire. All three vectors W, T sub L, and T sub R start from the foot of the person on the wire. In a free-body diagram, W is acting downward, T sub R is acting toward the right with a small inclination, and T sub L is acting toward the left with a small inclination.](../resources/Figure_04_05_06.jpg "The weight of a tightrope walker causes a wire to sag by 5.0 degrees. The system of interest here is the point in the wire at which the tightrope walker is standing.")
 {: #fig6}
@@ -353,7 +353,7 @@ F_{\text{net}x}=0&=& T_{\text{L}x}-T_{\text{R}x}\\
 T_{\text{L}x}&=& T_{\text{R}x}.
 \end{array} $$
 </div>
-Now, observe [Figure](#fig7). You can use trigonometry
+Now, observe [Figure 7](#fig7). You can use trigonometry
 to determine the magnitude of $$ T_{\text{L}} $$
 and $$ T_{\text{R}} $$. Notice that:
 
@@ -378,12 +378,12 @@ Thus,
 as predicted. Now, considering the vertical components
 (denoted by a subscript $$ y $$ ), we can solve for $$ T $$. Again, since the person is stationary, Newton’s
 second law implies that net $$ F_{y}=0 $$. Thus, as illustrated in the free-body
-diagram in [Figure](#fig7),
+diagram in [Figure 7](#fig7),
 
 <div class="equation">
 $$ F_{\text{net}y}=T_{\text{L}y}+T_{\text{R}y}-w=0. $$
 </div>
-Observing [Figure](#fig7), we can use trigonometry
+Observing [Figure 7](#fig7), we can use trigonometry
 to determine the relationship between $$ T_{\text{L}y} $$,
 $$ T_{\text{R}y} $$, and $$ T $$. As we determined from the analysis in the
 horizontal direction, $$ T_{\text{L}}=T_{\text{R}}=T $$:
@@ -434,7 +434,7 @@ used to support the weight of the tightrope walker.
 
 If we wish to *create* a very large tension, all we have to do is exert a force
 perpendicular to a flexible connector, as illustrated
-in [Figure](#fig8). As we saw in the last example, the weight
+in [Figure 8](#fig8). As we saw in the last example, the weight
 of the tightrope walker acted as a force perpendicular to the rope. We saw that
 the tension in the roped related to the weight of the tightrope walker in the
 following way:
@@ -456,7 +456,7 @@ connector. In this case, $$ T $$ becomes very large as $$ \theta $$ approaches
 zero. Even the relatively small weight of any flexible connector will cause it
 to sag, since an infinite tension would result if it were horizontal (
 i.e., $$ \theta =0 $$ and $$ \sin{\theta} =0 $$).
- (See [Figure](#fig8).)
+ (See [Figure 8](#fig8).)
 
 ![A car stuck in mud is being pulled out by a chain tied to a tree trunk. A force perpendicular to the length of the chain is applied, represented by an arrow. The tension T along the chain makes an angle with the horizontal line.](../resources/Figure_04_05_08.jpg "We can create a very large tension in the chain by pushing on it perpendicular to its length, as shown. Suppose we wish to pull a car out of the mud when no tow truck is available. Each time the car moves forward, the chain is tightened to keep it as nearly straight as possible.
 The tension in the chain is given by \( T= \frac{F_{\perp}}{2 \sin{ \theta }}
@@ -562,7 +562,7 @@ width="800" height="600"  allowfullscreen></iframe>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-If a leg is suspended by a traction setup as shown in [Figure](#fig10), what is the tension in the rope?
+If a leg is suspended by a traction setup as shown in [Figure 10](#fig10), what is the tension in the rope?
 
 ![Diagram of a leg in traction.](../resources/Figure_04_05_10.jpg "A leg is suspended by a traction system in which wires are used to transmit forces. Frictionless pulleys change the direction of the force T without changing its magnitude.")
 {: #fig10 height="275"}
@@ -572,7 +572,7 @@ If a leg is suspended by a traction setup as shown in [Figure](#fig10), what is 
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-In a traction setup for a broken bone, with pulleys and rope available, how might we be able to increase the force along the tibia using the same weight? (See [Figure](#fig10).) (Note that the tibia is the shin bone shown in this image.)
+In a traction setup for a broken bone, with pulleys and rope available, how might we be able to increase the force along the tibia using the same weight? (See [Figure 10](#fig10).) (Note that the tibia is the shin bone shown in this image.)
 
 </div>
 </div>
@@ -608,7 +608,7 @@ moving either up or down, or be stationary.
 mass $$ 8.00 \times 10^{-5}\kg $$ hangs motionless on it.
 (b) Calculate the tension in a horizontal strand of
 spider web if the same spider sits motionless in the middle of it much like the
-tightrope walker in [Figure](#fig6). The strand sags at an
+tightrope walker in [Figure 6](#fig6). The strand sags at an
 angle of $$ 12^\circ $$ below the horizontal. Compare this with the tension in
 the vertical strand (find their ratio).
 
@@ -635,7 +635,7 @@ Suppose a 60.0-kg gymnast climbs a rope.
 <div class="problem" markdown="1">
 Show that, as stated in the text, a force $$ \vb{F}_{\perp } $$
 exerted on a flexible medium at its center and perpendicular to its length (such
-as on the tightrope wire in [Figure](#fig6)) gives rise to a
+as on the tightrope wire in [Figure 6](#fig6)) gives rise to a
 tension of magnitude $$ T=\frac{ F_{\perp }}{2\sin\left( \theta \right)} $$.
 
 </div>
@@ -656,7 +656,7 @@ $$ F=2T\sin{\theta} $$
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Consider the baby being weighed in [Figure](#fig11).
+Consider the baby being weighed in [Figure 11](#fig11).
 (a) What is the mass of the child and basket if a scale reading of 55 N is
 observed?
 (b) What is the tension $$ T_{1} $$ in the cord attaching the baby to the scale?

@@ -19,7 +19,7 @@ The second condition necessary to achieve equilibrium involves avoiding accelera
 </div>
 
 Several familiar factors determine how effective you are in opening the door.
-See [Figure](#fig1). First of all, the larger the force, the
+See [Figure 1](#fig1). First of all, the larger the force, the
 more effective it is in opening the door—obviously, the harder you push, the
 more rapidly the door opens. Also, the point at which you push is crucial. If
 you apply your force too close to the hinges, the door will open slowly, if at
@@ -48,11 +48,11 @@ where $$ \tau $$
 the pivot point to the point where the force is applied, $$ F $$ is the
 magnitude of the force, and $$ \theta $$ is the angle between the force and the
 vector directed from the point of application to the pivot point, as seen
-in [Figure](#fig1)
-and [Figure](#fig2). An alternative expression for torque is
+in [Figure 1](#fig1)
+and [Figure 2](#fig2). An alternative expression for torque is
 given in terms of the **perpendicular lever arm** $$ r_{\perp } $$ as shown
-in [Figure](#fig1)
-and [Figure](#fig2), which is defined as
+in [Figure 1](#fig1)
+and [Figure 2](#fig2), which is defined as
 
 <div class="equation">
  $$ r_{\perp }=r\sin{\theta} $$
@@ -70,8 +70,8 @@ so that
 
 The perpendicular lever arm $$ r_{\perp } $$ is the shortest distance from the
 pivot point to the line along which $$ \vb{F} $$ acts; it is shown as
-a dashed line in [Figure](#fig1)
-and [Figure](#fig2). Note that the line segment that defines
+a dashed line in [Figure 1](#fig1)
+and [Figure 2](#fig2). Note that the line segment that defines
 the distance $$ r_{\perp } $$ is perpendicular to $$ \vb{F} $$, as
 its name implies. It is sometimes easier to find or visualize $$ r_{\perp } $$
 than to find both $$ r $$ and $$ \theta $$. In such cases, it may be more
@@ -95,7 +95,7 @@ the chosen “pivot point.”
 Note that for rotation in a plane, torque has two possible directions. Torque is
 either clockwise or counterclockwise relative to the chosen pivot point, as
 illustrated for points B and A, respectively,
-in [Figure](#fig2). If the object can rotate about point A,
+in [Figure 2](#fig2). If the object can rotate about point A,
 it will rotate counterclockwise, which means that the torque for the force is
 shown as counterclockwise relative to A. But if the object can rotate about
 point B, it will rotate clockwise, which means the torque for the force shown is
@@ -122,7 +122,7 @@ opposite signs. A common convention is to call counterclockwise (ccw) torques
 positive and clockwise (cw) torques negative.
 
 When two children balance a seesaw as shown
-in [Figure](#fig3), they satisfy the two conditions for
+in [Figure 3](#fig3), they satisfy the two conditions for
 equilibrium. Most people have perfect intuition about seesaws, knowing that the
 lighter child must sit farther from the pivot and that a heavier child can keep
 a lighter one off the ground indefinitely.
@@ -134,7 +134,7 @@ a lighter one off the ground indefinitely.
 <div class="title">
 She Saw Torques On A Seesaw
 </div>
-The two children shown in [Figure](#fig3) are balanced on a seesaw of negligible mass.
+The two children shown in [Figure 3](#fig3) are balanced on a seesaw of negligible mass.
 (This assumption is made to keep the example simple—more involved examples will follow.)
 The first child has a mass of 26.0 kg and sits 1.60 m from the pivot.
 (a) If the second child has a mass of 32.0 kg, how far is she from the pivot?

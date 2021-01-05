@@ -168,7 +168,7 @@ simply the magnitude of average velocity.
 Another way of visualizing the motion of an object is to use a graph. A plot of
 position or of velocity as a function of time can be very useful. For example,
 for this trip to the store, the position, velocity, and speed-vs.-time graphs
-are displayed in [Figure](#fig4). (Note that these graphs
+are displayed in [Figure 4](#fig4). (Note that these graphs
 depict a very simplified **model** of
 the trip. We are assuming that speed is constant during the trip, which is
 unrealistic given that we’ll probably stop at the store. But for simplicity’s

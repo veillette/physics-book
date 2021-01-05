@@ -127,7 +127,7 @@ center, independent of the presence of other masses. The concept of a field is
 useful because equations can be written for force fields surrounding objects (
 for gravity, this yields $$ w=mg $$ at Earth’s surface), and motions can be
 calculated from these equations. (
-See [Figure](#fig1).)
+See [Figure 1](#fig1).)
 
 ![The electric force field between a positively charged particle and a negatively charged particle. Electric field lines start from the positive charge and end at the negative charge, and each line is represented as a curved arrow.](../resources/Figure_04_08_01.jpg "The electric force field between a positively charged particle and a negatively charged particle. When a positive test charge is placed in the field, the charge will experience a force in the direction of the force field lines.")
 {: #fig1}
@@ -149,7 +149,7 @@ Yukawa’s (1907–1981) work on the strong nuclear force, that all forces are
 transmitted by the exchange of elementary particles. We can visualize particle
 exchange as analogous to macroscopic phenomena such as two people passing a
 basketball back and forth, thereby exerting a repulsive force without touching
-one another. (See [Figure](#fig2).)
+one another. (See [Figure 2](#fig2).)
 
 ![(a) Two persons throwing a basketball to each other. The person on the left is throwing the ball with some force F sub p one, represented by a vector pointing right, in the direction of the motion of the ball. A reaction force F sub B is shown on the person by a vector pointing left. (b) The person catches the ball, exerting a force F sub p two on the ball toward the left, shown by a vector F sub p two toward the left. A reaction force F prime sub B acts on the person, shown by a vector pointing toward right.
 (c) The exchange of a meson is shown between a proton and a neutron. Both are moving in different directions, and the proton feels a force F sub exch toward the left and the neutron feels a force F prime sub exch toward the right. The meson is also moving toward the right between the proton and the neutron.](../resources/Figure_04_08_02.jpg "The exchange of masses resulting in repulsive forces. (a) The person throwing the basketball exerts a force \( \vb{F}_{p1} \) on it toward the other person and feels a reaction force &#10; \( \vb{F}_B \) away from the second person. (b) The person catching the basketball exerts a force &#10;\( \vb{F}_{p2} \) on it to stop the ball and feels a reaction force &#10; \( \vb{F}^\prime_B \) away from the first person.
@@ -174,7 +174,7 @@ circumference) allows two high-energy proton beams, traveling in opposite
 directions, to collide. An energy of 14 trillion electron volts will be
 available. It is anticipated that some new particles, possibly force carrier
 particles, will be found. (
-See [Figure](#fig3).) One of the force carriers of high
+See [Figure 3](#fig3).) One of the force carriers of high
 interest that researchers hope to detect is the Higgs boson. The observation of
 its properties might tell us why different particles have different masses.
 
@@ -207,7 +207,7 @@ Earthly noises will be no problem for these monitoring spacecraft. LISA will
 complement LIGO by looking at much more massive black holes through the
 observation of gravitational-wave sources emitting much larger wavelengths.
 Three satellites will be placed in space above Earth in an equilateral
-triangle (with 5 000 000-km sides) ([Figure](#fig4)). The
+triangle (with 5 000 000-km sides) ([Figure 4](#fig4)). The
 system will measure the relative positions of each satellite to detect passing
 gravitational waves. Accuracy to within 10% of the size of an atom will be
 needed to detect any waves.

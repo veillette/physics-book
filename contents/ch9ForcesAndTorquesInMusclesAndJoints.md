@@ -13,7 +13,7 @@ layout: page
 
 Muscles, bones, and joints are some of the most interesting applications of
 statics. There are some surprises. Muscles, for example, exert far greater
-forces than we might think. [Figure](#fig1) shows a forearm
+forces than we might think. [Figure 1](#fig1) shows a forearm
 holding a book and a schematic diagram of an analogous lever system. The
 schematic is a good approximation for the forearm, which looks more complicated
 than it is, and we can get some insight into the way typical muscle systems
@@ -27,7 +27,7 @@ forces within the body than the limbs apply to the outside world. The reason is
 clear once we realize that most muscles are attached to bones via tendons close
 to joints, causing these systems to have mechanical advantages much less than
 one. Viewing them as simple machines, the input force is much greater than the
-output force, as seen in [Figure](#fig1).
+output force, as seen in [Figure 1](#fig1).
 
 ![A forearm of a person holding a physics book is shown. The biceps and triceps muscles of the arm are visible. The elbow joint is the pivot point. The upper part of the arm is vertical and the lower part is horizontal. Biceps muscles are applying a force F B upward. The vertical bone of hand exerts a force F E on the pivot. At the midpoint of the lower part of the hand, the center of gravity of the hand is shown where the weight of the hand acts. The midpoint of the front face of the book is its center of gravity, where its weight acts downward. A free body diagram is also shown and the distances of the three forces F-B, C-G of arm, and C-G of book from the pivot are shown as r one, r two and r three.](../resources/Figure_10_06_01a.jpg "(a) The figure shows the forearm of a person holding a book. The biceps exert a force &#10; &#10; &#10; F&#10; B&#10; &#10; &#10;&#10;&#10;to support the weight of the forearm and the book. The triceps are assumed to be relaxed. (b) Here, you can view an approximately equivalent mechanical system with the pivot at the elbow joint as seen in [link].")
 {: #fig1}
@@ -36,7 +36,7 @@ output force, as seen in [Figure](#fig1).
 <div class="title">
 Muscles Exert Bigger Forces Than You Might Think
 </div>
-Calculate the force the biceps muscle must exert to hold the forearm and its load as shown in [Figure](#fig1), and compare this force with the weight of the forearm plus its load. You may take the data in the figure to be accurate to three significant figures.
+Calculate the force the biceps muscle must exert to hold the forearm and its load as shown in [Figure 1](#fig1), and compare this force with the weight of the forearm plus its load. You may take the data in the figure to be accurate to three significant figures.
 
 **Strategy**
 
@@ -147,7 +147,7 @@ muscles and joints between vertebrae, all having mechanical advantages less than
    clenching of teeth where the sustained large force translates into fatigue in
    muscles around the skull.
 
-[Figure](#fig2) shows how bad posture causes back strain. In
+[Figure 2](#fig2) shows how bad posture causes back strain. In
 part (a), we see a person with good posture. Note that her upper body’s cg is
 directly above the pivot point in the hips, which in turn is directly above the
 base of support at her feet. Because of this, her upper body’s weight exerts no
@@ -165,11 +165,11 @@ strain for people sitting at their desks using computers. Special chairs are
 available that allow the body’s CG to be more easily situated above the seat, to
 reduce back pain. Prolonged muscle action produces muscle strain. Note that the
 cg of the entire body is still directly above the base of support in part (
-b) of [Figure](#fig2). This is compulsory; otherwise the
+b) of [Figure 2](#fig2). This is compulsory; otherwise the
 person would not be in equilibrium. We lean forward for the same reason when
 carrying a load on our backs, to the side when carrying a load in one arm, and
 backward when carrying a load in front of us, as seen
-in [Figure](#fig3).
+in [Figure 3](#fig3).
 
 ![In part a of the figure, a side view of a girl standing on a surface is shown. The weight of the girl is acting vertically downward and is in the line with her hips. A point above her legs is marked as the pivot point. The weight vector is in the direction of the pivot. In part b, a side view of a girl standing on a surface is shown. The girl is bending slightly toward her front. The weight of her upper body is acting downward and the line of action of weight is not passing through the upper body pivot point.](../resources/Figure_10_06_02a.jpg "(a) Good posture places the upper body&#x2019;s cg over the pivots in the hips, eliminating the need for muscle action to balance the body. (b) Poor posture requires exertion by the back muscles to counteract the clockwise torque produced around the pivot by the upper body&#x2019;s weight. The back muscles have a small effective perpendicular lever arm, \( r_b \), and must therefore exert a large force \( F_b \) . Note that the legs lean backward to keep the cg of the entire body above the base of support in the feet.")
 {: #fig2}
@@ -189,7 +189,7 @@ spine.
 Do Not Lift with Your Back
 </div>
 Consider the person lifting a heavy box with his back, shown in
-[Figure](#fig4).
+[Figure 4](#fig4).
 (a) Calculate the magnitude of the force $$ F_{\text{B}} $$ in the back muscles that is needed to support the upper body plus the box and
 compare this with his weight. The mass of the upper body is 55.0 kg and the mass
 of the box is 30.0 kg.
@@ -404,7 +404,7 @@ F_{\text{E}}&=& w_{\text{a}}
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Two muscles in the back of the leg pull on the Achilles tendon as shown in [Figure](#fig5). What total force do they exert?
+Two muscles in the back of the leg pull on the Achilles tendon as shown in [Figure 5](#fig5). What total force do they exert?
 
 ![An Achilles tendon is shown in the figure. A vertical dotted line is shown at the middle of the top part. Two vectors inclined at twenty degree each with respect to the vertical dotted line are shown.](../resources/Figure_10_06_05a.jpg "The Achilles tendon of the posterior leg serves to attach plantaris, gastrocnemius, and soleus muscles to calcaneus bone.")
 {: #fig5}
@@ -414,7 +414,7 @@ Two muscles in the back of the leg pull on the Achilles tendon as shown in [Figu
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-The upper leg muscle (quadriceps) exerts a force of 1250 N, which is carried by a tendon over the kneecap (the patella) at the angles shown in [Figure](#fig6). Find the direction and magnitude of the force exerted by the kneecap on the upper leg bone (the femur).
+The upper leg muscle (quadriceps) exerts a force of 1250 N, which is carried by a tendon over the kneecap (the patella) at the angles shown in [Figure 6](#fig6). Find the direction and magnitude of the force exerted by the kneecap on the upper leg bone (the femur).
 
 ![The figure shows a side view of the bones of a knee and the quadriceps muscle. The upper bone is inclined at fifty five degrees to the horizontal and the tension exerted by the quadriceps muscle is one thousand two hundred and fifty newtons. The tendon from the knee cap to the lower bone is inclined at seventy five degrees below the horizontal. The force in this direction is the same as that provided by the quadriceps.](../resources/Figure_10_06_06a.jpg "The knee joint works like a hinge to bend and straighten the lower leg. It permits a person to sit, stand, and pivot.")
 {: #fig6}
@@ -431,7 +431,7 @@ The upper leg muscle (quadriceps) exerts a force of 1250 N, which is carried by 
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A device for exercising the upper leg muscle is shown in [Figure](#fig7), together with a schematic representation of an equivalent lever system.
+A device for exercising the upper leg muscle is shown in [Figure 7](#fig7), together with a schematic representation of an equivalent lever system.
 Calculate the force exerted by the upper leg muscle to lift the mass at a constant speed. Explicitly show how you follow the steps in the Problem-Solving Strategy for static equilibrium 
 in [Applications of Statics, Including Problem-Solving Strategies]
 (../contents/ch9ApplicationsOfStaticsIncludingProblemSolvingStrategies.md).
@@ -444,7 +444,7 @@ in [Applications of Statics, Including Problem-Solving Strategies]
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A person working at a drafting board may hold her head as shown in [Figure](#fig8), requiring muscle action to support the head. The three major acting forces are shown. Calculate the direction and magnitude of the force supplied by the upper vertebrae $$ \vb{F}_{\text{V}} $$ to hold the head stationary, assuming that this force acts along a line through
+A person working at a drafting board may hold her head as shown in [Figure 8](#fig8), requiring muscle action to support the head. The three major acting forces are shown. Calculate the direction and magnitude of the force supplied by the upper vertebrae $$ \vb{F}_{\text{V}} $$ to hold the head stationary, assuming that this force acts along a line through
 the center of mass as do the weight and muscle force.
 
 ![The head of a person working at a drafting board in relaxed position is shown. The inclination of the head is theta to the horizontal and the center of gravity is near the top of the head. The weight of the head is fifty newtons and is acting downward at the center of gravity. Three major forces are shown. The force exerted along the neck is sixty newtons.](../resources/Figure_10_06_08a.jpg)
@@ -468,7 +468,7 @@ and the forearm is in a downward position.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Even when the head is held erect, as in [Figure](#fig9), its center of mass is not directly over the principal point of support (the atlanto-occipital joint). The muscles at the back of the neck should therefore exert a force to keep the head erect. That is why your head falls forward when you fall asleep in the class.
+Even when the head is held erect, as in [Figure 9](#fig9), its center of mass is not directly over the principal point of support (the atlanto-occipital joint). The muscles at the back of the neck should therefore exert a force to keep the head erect. That is why your head falls forward when you fall asleep in the class.
 (a) Calculate the force exerted by these muscles using the information in the figure.
 (b) What is the force exerted by the pivot on the head?
 
@@ -486,7 +486,7 @@ Even when the head is held erect, as in [Figure](#fig9), its center of mass is n
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A 75-kg man stands on his toes by exerting an upward force through the Achilles tendon, as in [Figure](#fig10).
+A 75-kg man stands on his toes by exerting an upward force through the Achilles tendon, as in [Figure 10](#fig10).
 (a) What is the force in the Achilles tendon if he stands on one foot?
 (b) Calculate the force at the pivot of the simplified lever system shown—that force is representative of forces in the ankle joint.
 
@@ -504,7 +504,7 @@ A 75-kg man stands on his toes by exerting an upward force through the Achilles 
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A father lifts his child as shown in [Figure](#fig11). What force should the upper leg muscle exert to lift the child at a constant speed?
+A father lifts his child as shown in [Figure 11](#fig11). What force should the upper leg muscle exert to lift the child at a constant speed?
 
 ![A leg of a person is shown. On the foot, a child is sitting. The weight of the child is ten kilograms acting downward. The center of gravity of the leg is shown at the middle part of the lower leg. The knee is acting as the pivot. The mass of the leg is marked as four kilograms. The distance of the head of the child is thirty eight centimeters from the pivot and the perpendicular distance between the center of gravity of the leg and pivot is twenty centimeters.](../resources/Figure_10_06_11a.jpg "A child being lifted by a father&#x2019;s lower leg.")
 {: #fig11}
@@ -514,7 +514,7 @@ A father lifts his child as shown in [Figure](#fig11). What force should the upp
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Unlike most of the other muscles in our bodies, the masseter muscle in the jaw, as illustrated in [Figure](#fig12),
+Unlike most of the other muscles in our bodies, the masseter muscle in the jaw, as illustrated in [Figure 12](#fig12),
 is attached relatively far from the joint, enabling large forces to be exerted by the back teeth.
 (a) Using the information in the figure, calculate the force exerted by the lower teeth on the bullet.
 (b) Calculate the force on the joint.
@@ -551,7 +551,7 @@ biceps muscle is still perpendicular to the forearm.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) What force should the woman in [Figure](#fig13) exert on the floor with each hand to do a push-up? Assume that she moves up at a constant speed.
+(a) What force should the woman in [Figure 13](#fig13) exert on the floor with each hand to do a push-up? Assume that she moves up at a constant speed.
 (b) The triceps muscle at the back of her upper arm has an effective lever arm of 1.75 cm, and she exerts force on the floor at a horizontal distance of 20.0 cm from the elbow joint. Calculate the magnitude of the force in each triceps muscle, and compare it to her weight.
 (c) How much work does she do if her center of mass rises 0.240 m?
 (d) What is her useful power output if she does 25 pushups in one minute?

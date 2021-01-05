@@ -33,7 +33,7 @@ along the horizontal axis and the other along the vertical. (This choice of axes
 is the most sensible, because acceleration due to gravity is vertical—thus,
 there will be no acceleration along the horizontal axis when air resistance is
 negligible.) As is customary, we call the horizontal axis the **x**-axis and the
-vertical axis the **y**-axis. [Figure](#fig1) illustrates the
+vertical axis the **y**-axis. [Figure 1](#fig1) illustrates the
 notation for displacement, where $$ \vb{s} $$ is defined to be the total
 displacement and $$ \vb{x} $$ and $$ \vb{y} $$ are its components along
 the horizontal and vertical axes, respectively. The magnitudes of these vectors
@@ -97,7 +97,7 @@ the components of displacement $$ \vb{s} $$ along these axes are $$ x $$ and
 $$ y $$. The magnitudes of the components of the velocity $$ \vb{v} $$ are
 $$ v_{x}=v\cos{\theta} $$ and $$ v_{y}=v\sin{\theta}$$, where $$ v $$ is the
 magnitude of the velocity and $$ \theta $$ is its direction, as shown
-in [Figure](#fig2). Initial values are denoted with a
+in [Figure 2](#fig2). Initial values are denoted with a
 subscript 0, as usual.
 
 ***Step 2.*** *Treat the motion as two independent one-dimensional motions, one
@@ -179,7 +179,7 @@ A Fireworks Projectile Explodes High and Away
 </div>
 During a fireworks display, a shell is shot into the air with an initial speed of
 70.0 m/s at an angle of $$ 75.0^\circ $$
-above the horizontal, as illustrated in [Figure](#fig3). The
+above the horizontal, as illustrated in [Figure 3](#fig3). The
 fuse is timed to ignite the shell just as it reaches its highest point above the
 ground.
 (a) Calculate the height at which the shell explodes.
@@ -344,7 +344,7 @@ Kilauea in Hawaii is the world’s most continuously active volcano. Very active
 red-hot rocks and lava rather than smoke and ash.
 Suppose a large rock is ejected from the volcano with a speed of 25.0 m/s and
 at an angle $$ 35.0^\circ $$
-above the horizontal, as shown in [Figure](#fig4). The rock
+above the horizontal, as shown in [Figure 4](#fig4). The rock
 strikes the side of the volcano at an altitude 20.0 m lower than its starting
 point.
 (a) Calculate the time it takes the rock to follow this path.
@@ -469,7 +469,7 @@ The negative angle means that the velocity is $$ 50.1^\circ $$ below the
 horizontal. This result is consistent with the fact that the final vertical
 velocity is negative and hence downward—as you would expect because the final
 altitude is 20.0 m lower than the initial altitude. (
-See [Figure](#fig4).)
+See [Figure 4](#fig4).)
 
 </div>
 
@@ -490,9 +490,9 @@ further.
 
 How does the initial velocity of a projectile affect its range? Obviously, the
 greater the initial speed $$ v_{0} $$, the greater the range, as shown
-in [Figure](#fig5)(a). The initial angle $$ \theta_{0} $$
+in [Figure 5](#fig5)(a). The initial angle $$ \theta_{0} $$
 also has a dramatic effect on the range, as illustrated
-in [Figure](#fig5)(b). For a fixed initial speed, such as
+in [Figure 5](#fig5)(b). For a fixed initial speed, such as
 might be produced by a cannon, the maximum range is obtained with $$ \theta_
 {0}=45^\circ $$. This is true only for conditions neglecting air resistance. If
 air resistance is considered, the maximum angle is approximately $$ 38^\circ $$.
@@ -518,7 +518,7 @@ range is large, the Earth curves away below the projectile and acceleration of
 gravity changes direction along the path. The range is larger than predicted by
 the range equation given above because the projectile has farther to fall than
 it would on level ground. (
-See [Figure](#fig6).) If the initial speed is great enough,
+See [Figure 6](#fig6).) If the initial speed is great enough,
 the projectile goes into orbit. This possibility was recognized centuries before
 it could be accomplished. When an object is in orbit, the Earth curves away from
 underneath the object at the same rate as it falls. The object thus falls
@@ -768,7 +768,7 @@ A rugby player passes the ball 7.00 m across the field, where it is caught at th
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Verify the ranges for the projectiles in [Figure](#fig5)(a) for $$ \theta =45^\circ $$
+Verify the ranges for the projectiles in [Figure 5](#fig5)(a) for $$ \theta =45^\circ $$
 and the given initial velocities.
 
 </div>
@@ -786,7 +786,7 @@ v_{0}=40 \ms $$; $$ R=255\m $$ for $$ v_{0}=50 \ms $$.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Verify the ranges shown for the projectiles in [Figure](#fig5)(b) for an initial velocity of 50 m/s at the given initial angles.
+Verify the ranges shown for the projectiles in [Figure 5](#fig5)(b) for an initial velocity of 50 m/s at the given initial angles.
 
 </div>
 </div>

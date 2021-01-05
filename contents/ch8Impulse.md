@@ -168,7 +168,7 @@ the time interval $$ \Delta t $$. *Forces are usually not constant*. Forces vary
 considerably even during the brief time intervals considered. It is, however,
 possible to find an average effective force $$ F_{\text{eff}} $$ that produces
 the same result as the corresponding time-varying
-force. [Figure](#fig1) shows a graph of what an actual force
+force. [Figure 1](#fig1) shows a graph of what an actual force
 looks like as a function of time for a ball bouncing off the floor. The area
 under the curve has units of momentum and is equal to the impulse or change in
 momentum between times $$ t_{1} $$ and $$ t_{2} $$. That area is equal to the

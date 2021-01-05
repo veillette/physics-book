@@ -15,7 +15,7 @@ layout: page
 ### Two-Dimensional Motion: Walking in a City
 
 Suppose you want to walk from one point to another in a city with uniform square
-blocks, as pictured in [Figure](#fig2).
+blocks, as pictured in [Figure 2](#fig2).
 
 ![An X Y graph with origin at zero zero with x axis labeled nine blocks east and y axis labeled five blocks north. Starting point at the origin and destination at point nine on the x axis and point five on the y axis.](../resources/Figure_03_01_01.jpg "A pedestrian walks a two-dimensional path between two points in a city. In this scene, all blocks are square and are the same size.")
 {: #fig2}
@@ -52,22 +52,22 @@ in the answer in order to show the result more precisely.)
 {: #fig4}
 
 The fact that the straight-line distance (10.3 blocks)
-in [Figure](#fig4) is less than the total distance
+in [Figure 4](#fig4) is less than the total distance
 walked (14 blocks) is one example of a general characteristic of vectors. (
 Recall that **vectors** are
 quantities that have both magnitude and direction.)
 
 As for one-dimensional kinematics, we use arrows to represent vectors. The
 length of the arrow is proportional to the vector’s magnitude. The arrow’s
-length is indicated by hash marks in [Figure](#fig2)
-and [Figure](#fig4). The arrow points in the same
+length is indicated by hash marks in [Figure 2](#fig2)
+and [Figure 4](#fig4). The arrow points in the same
 direction as the vector. For two-dimensional motion, the path of an object can
 be represented with three vectors: one vector shows the straight-line path
 between the initial and final points of the motion, one vector shows the
 horizontal component of the motion, and one vector shows the vertical component
 of the motion. The horizontal and vertical components of the motion add together
 to give the straight-line path. For example, observe the three vectors
-in [Figure](#fig4). The first represents a 9-block
+in [Figure 4](#fig4). The first represents a 9-block
 displacement east. The second represents a 5-block displacement north. These
 vectors are added to give the third vector, with a 10.3-block total
 displacement. The third vector is the straight-line path between the two points.
@@ -82,7 +82,7 @@ and [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorA
 
 ### The Independence of Perpendicular Motions
 
-The person taking the path shown in [Figure](#fig4)
+The person taking the path shown in [Figure 4](#fig4)
 walks east and then north (two perpendicular directions). How far they
 walk east is only affected by their motion eastward. Similarly, how far they
 walk north is only affected by their motion northward.

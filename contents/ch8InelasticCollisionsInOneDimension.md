@@ -30,7 +30,7 @@ An inelastic collision is one in which the internal kinetic energy changes (it i
 
 </div>
 
-[Figure](#fig1) shows an example of an inelastic collision.
+[Figure 1](#fig1) shows an example of an inelastic collision.
 Two objects that have equal masses head toward one another at equal speeds and
 then stick together. Their total internal kinetic energy is initially $$
 \frac{1}{2}m v^{2}+\frac{1}{2}m v^{2}=m v^{2} $$. The two objects come to rest
@@ -58,7 +58,7 @@ A collision in which the objects stick together is sometimes called “perfectly
 Calculating Velocity and Change in Kinetic Energy: Inelastic Collision of a Puck and a Goalie
 </div>
 (a) Find the recoil velocity of a 70.0-kg ice hockey goalie, originally at rest, who catches a 0.150-kg hockey puck slapped at him at a velocity of 35.0 m/s.
-(b) How much kinetic energy is lost during the collision? Assume friction between the ice and the puck-goalie system is negligible. (See [Figure](#fig2) )
+(b) How much kinetic energy is lost during the collision? Assume friction between the ice and the puck-goalie system is negligible. (See [Figure 2](#fig2) )
 
 ![The first picture shows an ice hockey goal keeper of mass m 2 bent on his knees, turning to the left on a frictionless ice surface with zero velocity and a hockey puck of mass m 1 and velocity V 1 moving toward the right. The total momentum of the system is p 1 which is the momentum of the puck and the net force is zero. The second picture shows the goalie to catch the puck. The puck moves with velocity V 1prime and the goalie with velocity V 2 prime and their magnitudes are equal. The momentum of the puck is p 1 prime and the goalie is p 2 prime. The total momentum remains same as before collision. But the kinetic energy after collision is lesser than the kinetic energy before collision. This is true for inelastic collisions.](../resources/Figure_09_05_02a.jpg "An ice hockey goalie catches a hockey puck and recoils backward. The initial kinetic energy of the puck is almost entirely converted to thermal energy and sound in this inelastic collision.")
 {: #fig2}
@@ -149,7 +149,7 @@ thermal energy and sound.
 During some collisions, the objects do not stick together and less of the
 internal kinetic energy is removed—such as happens in most automobile accidents.
 Alternatively, stored energy may be converted into internal kinetic energy
-during a collision. [Figure](#fig3) shows a one-dimensional
+during a collision. [Figure 3](#fig3) shows a one-dimensional
 example in which two carts on an air track collide, releasing potential energy
 from a compressed spring. [Figure](#fs-id04) deals with data from such a
 collision.
@@ -193,11 +193,11 @@ a concrete or wooden floor ( $$ c=0.85 $$ for new tennis balls used on a tennis 
 <div class="title">
 Calculating Final Velocity and Energy Release: Two Carts Collide
 </div>
-In the collision pictured in [Figure](#fig3), two carts collide inelastically. Cart 1 (denoted $$ m_{1} $$ carries a spring which is initially compressed. During the collision, the spring
+In the collision pictured in [Figure 3](#fig3), two carts collide inelastically. Cart 1 (denoted $$ m_{1} $$ carries a spring which is initially compressed. During the collision, the spring
 releases its potential energy and converts it to internal kinetic energy. The
 mass of cart 1 and the spring is 0.350 kg, and the cart and the spring together
 have an initial velocity of $$ 2.00 \ms $$. Cart 2 (denoted $$ m_{2} $$
-in [Figure](#fig3)) has a mass of 0.500 kg and an initial
+in [Figure 3](#fig3)) has a mass of 0.500 kg and an initial
 velocity of $$ -0.500 \ms $$. After the collision, cart 1 is observed to recoil
 with a velocity of $$-4.00 \ms $$.
 (a) What is the final velocity of cart 2?

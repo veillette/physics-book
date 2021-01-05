@@ -74,7 +74,7 @@ direction of the velocity. Deceleration always reduces speed. Negative accelerat
 however, is acceleration *in the negative direction in the chosen coordinate
 system*. Negative acceleration may or may not be deceleration, and deceleration
 may or may not be considered negative acceleration. For example,
-consider [Figure](#fig3).
+consider [Figure 3](#fig3).
 
 ![Four separate diagrams of cars moving. Diagram a:
 A car moving toward the right. A velocity vector arrow points toward the right.
@@ -162,14 +162,14 @@ in [Time, Velocity, and Speed](../contents/ch2TimeVelocityAndSpeed.md)—that is
 infinitesimally small interval of time. How do we find instantaneous
 acceleration using only algebra? The answer is that we choose an average
 acceleration that is representative of the
-motion. [Figure](#fig6) shows graphs of instantaneous
+motion. [Figure 6](#fig6) shows graphs of instantaneous
 acceleration versus time for two very different motions.
-In [Figure](#fig6)(a), the acceleration varies slightly and
+In [Figure 6](#fig6)(a), the acceleration varies slightly and
 the average over the entire interval is nearly the same as the instantaneous
 acceleration at any time. In this case, we should treat this motion as if it had
 a constant acceleration equal to the average (in this case about $$ 1.8
 \mss $$).
- In [Figure](#fig6)(b), the acceleration varies drastically
+ In [Figure 6](#fig6)(b), the acceleration varies drastically
 over time. In such situations it is best to consider smaller time intervals and
 choose an average acceleration for each. For example, we could consider motion
 over the time intervals from 0 to 1.0 s and from 1.0 to 3.0 s as separate
@@ -180,7 +180,7 @@ motions with accelerations of $$ +3.0 \mss $$ and $$ -2.0
 {: #fig6}
 
 The next several examples consider the motion of the subway train shown
-in [Figure](#fig7). In (a)
+in [Figure 7](#fig7). In (a)
 the shuttle moves to the right, and in (b) it moves to the left. The examples
 are designed to further illustrate aspects of motion and to illustrate some of
 the reasoning that goes into solving problems.
@@ -204,7 +204,7 @@ distinguish between displacement in the two different situations. The distances 
 <div class="title">
 Calculating Displacement: A Subway Train
 </div>
-What are the magnitude and sign of displacements for the motions of the subway train shown in parts (a) and (b) of [Figure](#fig7)?
+What are the magnitude and sign of displacements for the motions of the subway train shown in parts (a) and (b) of [Figure 7](#fig7)?
 
 **Strategy**
 
@@ -243,7 +243,7 @@ has a negative sign.
 <div class="title">
 Comparing Distance Traveled with Displacement: A Subway Train
 </div>
-What are the distances traveled for the motions shown in parts (a) and (b) of the subway train in [Figure](#fig7)?
+What are the distances traveled for the motions shown in parts (a) and (b) of the subway train in [Figure 7](#fig7)?
 
 **Strategy**
 
@@ -253,7 +253,7 @@ positions is defined to be the magnitude of displacement, which was found
 in [Figure](#fs-id30). Distance traveled is the total length of the path
 traveled between the two positions. (
 See [Displacement](../contents/ch2Displacement.md).) In the case of the subway train shown
-in [Figure](#fig7), the distance traveled is the same as the
+in [Figure 7](#fig7), the distance traveled is the same as the
 distance between the initial and final positions of the train.
 
 **Solution**
@@ -276,7 +276,7 @@ Distance is a scalar. It has magnitude but no sign to indicate direction.
 <div class="title">
 Calculating Acceleration: A Subway Train Speeding Up
 </div>
-Suppose the train in [Figure](#fig7)(a) accelerates from rest to 30.0 km/h in the first 20.0 s of its motion. What is its average acceleration during that time interval?
+Suppose the train in [Figure 7](#fig7)(a) accelerates from rest to 30.0 km/h in the first 20.0 s of its motion. What is its average acceleration during that time interval?
 
 **Strategy**
 
@@ -324,7 +324,7 @@ velocity, as is always the case.
 <div class="title">
 Calculate Acceleration: A Subway Train Slowing Down
 </div>
-Now suppose that at the end of its trip, the train in [Figure](#fig7)(a) slows to a stop from a speed of 30.0 km/h in 8.00 s. What is its average acceleration while stopping?
+Now suppose that at the end of its trip, the train in [Figure 7](#fig7)(a) slows to a stop from a speed of 30.0 km/h in 8.00 s. What is its average acceleration while stopping?
 
 **Strategy**
 
@@ -371,7 +371,7 @@ the velocity.
 The graphs of position, velocity, and acceleration vs. time for the trains
 in [Figure](#fs-id21)
 and [Figure](#fs-id66) are displayed
-in [Figure](#fig10). (We have taken the velocity to remain
+in [Figure 10](#fig10). (We have taken the velocity to remain
 constant from 20 to 40 s, after which the train decelerates.)
 
 ![Three graphs. The first is a line graph of position in meters versus time in seconds. The line begins at the origin and has a concave up shape from time equals zero to time equals twenty seconds. It is straight with a positive slope from twenty seconds to forty seconds. It is then convex up from forty to fifty seconds. The second graph is a line graph of velocity in meters per second versus time in seconds. The line is straight with a positive slope beginning at the origin from 0 to twenty seconds. It is flat from twenty to forty seconds. From forty to fifty seconds the line is straight with a negative slope back down to a velocity of 0. The third graph is a line graph of acceleration in meters per second per second versus time in seconds. The line is flat with a positive constant acceleration from zero to twenty seconds. The line then drops to an acceleration of 0 from twenty to forty seconds. The line drops again to a negative acceleration from forty to fifty seconds.](../resources/Figure_02_03_04.jpg "(a) Position of the train over time. Notice that the train&#x2019;s position changes slowly at the beginning of the journey, then more and more quickly as it picks up speed. Its position then changes more slowly as it slows down at the end of the journey. In the middle of the journey, while the velocity remains constant, the position changes at a constant rate.
@@ -422,7 +422,7 @@ The negative velocity indicates motion to the left.
 <div class="title">
 Calculating Deceleration: The Subway Train
 </div>
-Finally, suppose the train in [Figure](#fig11) slows to a stop from a velocity of 20.0 km/h in 10.0 s. What is its average acceleration?
+Finally, suppose the train in [Figure 11](#fig11) slows to a stop from a velocity of 20.0 km/h in 10.0 s. What is its average acceleration?
 
 **Strategy**
 
@@ -483,7 +483,7 @@ was not the case in [Figure](#fs-id60), where a positive acceleration
 slowed a negative velocity. The crucial distinction was that the acceleration
 was in the opposite direction from the velocity. In fact, a negative
 acceleration will *increase* a negative velocity. For example, the train moving
-to the left in [Figure](#fig11) is sped up by an acceleration
+to the left in [Figure 11](#fig11) is sped up by an acceleration
 to the left. In that case, both $$ v $$ and $$ a $$ are negative. The plus and
 minus signs give the directions of the accelerations. If acceleration has the
 same sign as the velocity, the object is speeding up. If acceleration has the

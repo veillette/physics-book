@@ -12,11 +12,11 @@ layout: page
 
 It is one thing to have a system in equilibrium; it is quite another for it to
 be stable. The toy doll perched on the man’s hand
-in [Figure](#fig1), for example, is not in stable
+in [Figure 1](#fig1), for example, is not in stable
 equilibrium. There are *three types of equilibrium* : *stable*, *unstable*,
 and *neutral*. Figures throughout this module illustrate various examples.
 
-[Figure](#fig1) presents a balanced system, such as
+[Figure 1](#fig1) presents a balanced system, such as
 the toy doll on the man’s hand, which has its center of gravity (cg) directly
 over the pivot, so that the torque of the total weight is zero. This is
 equivalent to having the torques of the individual parts balanced about the
@@ -32,7 +32,7 @@ displacement. For example, a marble at the bottom of a bowl will experience a
 *restoring* force when displaced from its equilibrium position. This force moves
 it back toward the equilibrium position. Most systems are in stable equilibrium,
 especially for small displacements. For another example of stable equilibrium,
-see the pencil in [Figure](#fig2)
+see the pencil in [Figure 2](#fig2)
 .
 
 ![A pencil is balanced vertically on its flat end. The weight W of the pencil is acting at its center of gravity downward. The normal reaction N of the surface is shown as an arrow upward. A free body diagram is shown at right of the pencil. The midpoint of the flat base of the pencil is marked as pivot point.](../resources/Figure_10_03_02aa.jpg "This pencil is in the condition of equilibrium. The net force on the pencil is zero and the total torque about any pivot is zero. ")
@@ -69,8 +69,8 @@ side. [Figure](#eip-id1469477) shows another example of neutral equilibrium.
 
 When we consider how far a system in stable equilibrium can be displaced before
 it becomes unstable, we find that some systems in stable equilibrium are more
-stable than others. The pencil in [Figure](#fig2) and the
-person in [Figure](#fig6)(a) are in stable equilibrium, but
+stable than others. The pencil in [Figure 2](#fig2) and the
+person in [Figure 6](#fig6)(a) are in stable equilibrium, but
 become unstable for relatively small displacements to the side. The critical
 point is reached when the cg is no longer *above* the base of support.
 Additionally, since the cg of a person’s body is above the pivots in the hips,
@@ -89,7 +89,7 @@ increases the challenge of learning to walk.
 {: #fig6}
 
 Animals such as chickens have easier systems to
-control. [Figure](#fig7) shows that the cg of a chicken lies
+control. [Figure 7](#fig7) shows that the cg of a chicken lies
 below its hip joints and between its widely separated and broad feet. Even
 relatively large displacements of the chicken’s cg are stable and result in
 restoring forces and torques that return the cg to its equilibrium position with
@@ -97,7 +97,7 @@ little effort on the chicken’s part. Not all birds are like chickens, of cours
 Some birds, such as the flamingo, have balance systems that are almost as
 sophisticated as that of humans.
 
-[Figure](#fig7) shows that the cg of a chicken is below the
+[Figure 7](#fig7) shows that the cg of a chicken is below the
 hip joints and lies above a broad base of support formed by widely-separated and
 large feet. Hence, the chicken is in very stable equilibrium, since a relatively
 large displacement is needed to render it unstable. The body of the chicken is
@@ -138,7 +138,7 @@ Stand straight with your heels, back, and head against a wall. Bend forward from
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-A round pencil lying on its side as in [Figure](#fig4) is in neutral equilibrium relative to displacements perpendicular to its length. What is its stability relative to displacements parallel to its length?
+A round pencil lying on its side as in [Figure 4](#fig4) is in neutral equilibrium relative to displacements perpendicular to its length. What is its stability relative to displacements parallel to its length?
 
 </div>
 </div>
@@ -154,7 +154,7 @@ Explain the need for tall towers on a suspension bridge to ensure stable equilib
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Suppose a horse leans against a wall as in [Figure](#fig8). Calculate the force exerted on the wall assuming that force is horizontal while using the data in the schematic representation of the situation. Note that the force exerted on the wall is equal in magnitude and opposite in direction to the force exerted on the horse, keeping it in equilibrium. The total mass of the horse and rider is 500 kg. Take the data to be accurate to three digits.
+Suppose a horse leans against a wall as in [Figure 8](#fig8). Calculate the force exerted on the wall assuming that force is horizontal while using the data in the schematic representation of the situation. Note that the force exerted on the wall is equal in magnitude and opposite in direction to the force exerted on the horse, keeping it in equilibrium. The total mass of the horse and rider is 500 kg. Take the data to be accurate to three digits.
 
 ![In part a, a horse is standing next to a wall with its legs crossed. A sleepy-looking rider is leaning against the wall. Part b is a drawing of the same horse from a rear view, but this time with no rider. The horse is crossing its rear legs, and its rump is leaning against the wall. The reaction of the wall F is acting on the horse at a height one point two meters above the ground. The weight of the horse is acting at its center of gravity near the base of the tail. The center of gravity is one point four meters above the ground. The line of action of weight is zero point three five meters away from the feet of the horse.](../resources/Figure_10_03_07a.jpg)
 {: #fig8}
@@ -175,7 +175,7 @@ Two children of mass 20.0 kg and 30.0 kg sit balanced on a seesaw with the pivot
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-(a) Calculate the magnitude and direction of the force on each foot of the horse in [Figure](#fig8) (two are on the ground), assuming the center of mass of the horse is midway between the feet. The total mass of the horse and rider is 500kg.
+(a) Calculate the magnitude and direction of the force on each foot of the horse in [Figure 8](#fig8) (two are on the ground), assuming the center of mass of the horse is midway between the feet. The total mass of the horse and rider is 500kg.
 (b) What is the minimum coefficient of friction between the hooves and ground? Note that the force exerted by the wall is horizontal.
 
 </div>
@@ -199,7 +199,7 @@ and $$ \vb{F}_{2} $$ ?
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-A 17.0-m-high and 11.0-m-long wall under construction and its bracing are shown in [Figure](#fig9). The wall is in stable equilibrium without the bracing but can pivot at its base. Calculate the force exerted by each of the 10 braces if a strong wind exerts a horizontal force of 650 N on each square meter of the wall. Assume that the net force from the wind acts at a height halfway up the wall and that all braces exert equal forces parallel to their lengths. Neglect the thickness of the wall.
+A 17.0-m-high and 11.0-m-long wall under construction and its bracing are shown in [Figure 9](#fig9). The wall is in stable equilibrium without the bracing but can pivot at its base. Calculate the force exerted by each of the 10 braces if a strong wind exerts a horizontal force of 650 N on each square meter of the wall. Assume that the net force from the wind acts at a height halfway up the wall and that all braces exert equal forces parallel to their lengths. Neglect the thickness of the wall.
 
 ![A seventeen meter high wall is standing on the ground with ten braces to support it. At the base of the figure a brown colored ground is visible. Only one brace is visible from a side. A brace makes an angle of thirty five degree with the wall. The point of contact of the brace is eight point five meters high. You have to find the force exerted by this brace on the wall to support.](../resources/Figure_10_03_08a.jpg)
 {: #fig9}
@@ -213,7 +213,7 @@ $$ F_{\text{B}}=2.12\times 10^{4}\N $$
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-(a) What force must be exerted by the wind to support a 2.50-kg chicken in the position shown in [Figure](#fig10)?
+(a) What force must be exerted by the wind to support a 2.50-kg chicken in the position shown in [Figure 10](#fig10)?
 (b) What is the ratio of this force to the chicken’s weight?
 (c) Does this support the contention that the chicken has a relatively stable construction?
 
@@ -225,7 +225,7 @@ $$ F_{\text{B}}=2.12\times 10^{4}\N $$
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Suppose the weight of the drawbridge in [Figure](#fig11) is supported entirely by its hinges and the opposite shore, so that its cables are slack.
+Suppose the weight of the drawbridge in [Figure 11](#fig11) is supported entirely by its hinges and the opposite shore, so that its cables are slack.
 (a) What fraction of the weight is supported by the opposite shore if the point of support is directly beneath the cable attachments?
 (b) What is the direction and magnitude of the force the hinges exert on the bridge under these circumstances? The mass of the bridge is 2500 kg.
 
@@ -243,7 +243,7 @@ b) $$ F=2.0\times 10^{4}\N $$, straight up.
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Suppose a 900-kg car is on the bridge in [Figure](#fig11) with its center of mass halfway between the hinges and the cable attachments. (The bridge is supported by the cables and hinges only.)
+Suppose a 900-kg car is on the bridge in [Figure 11](#fig11) with its center of mass halfway between the hinges and the cable attachments. (The bridge is supported by the cables and hinges only.)
 (a) Find the force in the cables.
 (b) Find the direction and magnitude of the force exerted by the hinges on the bridge.
 
@@ -252,7 +252,7 @@ Suppose a 900-kg car is on the bridge in [Figure](#fig11) with its center of mas
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-A sandwich board advertising sign is constructed as shown in [Figure](#fig12). The sign’s mass is 8.00 kg.
+A sandwich board advertising sign is constructed as shown in [Figure 12](#fig12). The sign’s mass is 8.00 kg.
 (a) Calculate the tension in the chain assuming no friction between the legs and the sidewalk.
 (b) What force is exerted by each side on the hinge?
 
@@ -270,7 +270,7 @@ b) 21.6 N
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-(a) What minimum coefficient of friction is needed between the legs and the ground to keep the sign in [Figure](#fig12) in the position shown if the chain breaks?
+(a) What minimum coefficient of friction is needed between the legs and the ground to keep the sign in [Figure 12](#fig12) in the position shown if the chain breaks?
 (b) What force is exerted by each side on the hinge?
 
 </div>
@@ -278,7 +278,7 @@ b) 21.6 N
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-A gymnast is attempting to perform splits. From the information given in [Figure](#fig13), calculate the magnitude and direction of the force exerted on each foot by the floor.
+A gymnast is attempting to perform splits. From the information given in [Figure 13](#fig13), calculate the magnitude and direction of the force exerted on each foot by the floor.
 
 ![A gymnast with two pompoms in her hands is shown. One of the hand is horizontal toward left and the other is vertical. The gymnast is attempting to perform a full split. The span of her legs is one point eight meters, and the distance of one foot from the center of gravity is zero point nine meters. The weight of the girl is labeled as seven hundred newtons. The vertical distance of one foot from the center of gravity is zero point three zero meter.](../resources/Figure_10_03_12a.jpg "A gymnast performs full split. The center of gravity and the various distances from it are shown.")
 {: #fig13}

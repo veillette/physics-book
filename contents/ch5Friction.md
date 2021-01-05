@@ -56,7 +56,7 @@ started and also to keep it moving. Furthermore, if you oiled the concrete you
 would find it to be easier to get the crate started and keep it going (as you
 might expect).
 
-[Figure](#fig1) is a crude pictorial representation
+[Figure 1](#fig1) is a crude pictorial representation
 of how friction occurs at the interface between two objects. Close-up inspection
 of these surfaces shows them to be rough. So when you push to get an object
 moving (in this case, a crate), you must raise the object until it can skip
@@ -196,7 +196,7 @@ ball (at the end of the femur) and socket (part of the pelvis) joint. The ends
 of the bones in the joint are covered by cartilage, which provides a smooth,
 almost glassy surface. The joints also produce a fluid (synovial fluid) that
 reduces friction and wear. A damaged or arthritic joint can be replaced by an
-artificial joint ([Figure](#fig2)). These replacements
+artificial joint ([Figure 2](#fig2)). These replacements
 can be made of metals (stainless steel or titanium)
 or plastic (polyethylene), also with very small coefficients of friction.
 
@@ -230,7 +230,7 @@ force of the skier on a slope. The normal force is always perpendicular to the
 surface, and since there is no motion perpendicular to the surface, the normal
 force should equal the component of the skier’s weight perpendicular to the
 slope. (See the skier and free-body diagram
-in [Figure](#fig3).)
+in [Figure 3](#fig3).)
 
 ![The figure shows a skier going down a slope that forms an angle of 25
 degrees with the horizontal. The weight of the skier, labeled w, is
@@ -301,7 +301,7 @@ is zero. We can use this fact to measure the coefficient of kinetic friction bet
 As shown in [Figure](#fs-id28), the kinetic friction force on a slope
 $$ f_{\text{k}}=\mu_{\text{k}}mg \cos{\theta} $$.
 The component of the weight down the slope is equal to $$ mg \sin{\theta} $$
-(see the free-body diagram in [Figure](#fig3)). These
+(see the free-body diagram in [Figure 3](#fig3)). These
 forces act in opposite directions, so when they have equal magnitude, the
 acceleration is zero. Writing these out:
 
@@ -337,7 +337,7 @@ The simpler aspects of friction dealt with so far are its macroscopic (large-sca
 
 </div>
 
-[Figure](#fig4) illustrates one macroscopic
+[Figure 4](#fig4) illustrates one macroscopic
 characteristic of friction that is explained by microscopic (small-scale)
 research. We have noted that friction is proportional to the normal force, but
 not to the area in contact, a somewhat counterintuitive notion. When two rough
@@ -357,7 +357,7 @@ adhere and cause atomic lattices to vibrate—essentially creating sound waves
 that penetrate the material. The sound waves diminish with distance and their
 energy is converted into heat. Chemical reactions that are related to frictional
 wear can also occur between atoms and molecules on the
-surfaces. [Figure](#fig5) shows how the tip of a probe
+surfaces. [Figure 5](#fig5) shows how the tip of a probe
 drawn across another material is deformed by atomic-scale friction. The force
 needed to drag the tip can be measured and is found to be related to shear
 stress, which will be discussed later in this chapter. The variation in shear
@@ -673,7 +673,7 @@ and the cliff?
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-A contestant in a winter sporting event pushes a 45.0-kg block of ice across a frozen lake as shown in [Figure](#fig6)(a).
+A contestant in a winter sporting event pushes a 45.0-kg block of ice across a frozen lake as shown in [Figure 6](#fig6)(a).
 (a) Calculate the minimum force $$ F $$ he must exert to get the block moving.
 (b) What is the magnitude of its acceleration once it starts to move, if that force is maintained?
 
@@ -687,7 +687,7 @@ A contestant in a winter sporting event pushes a 45.0-kg block of ice across a f
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Repeat [Figure](#fs-id45) with the contestant pulling the block of ice with a rope over his shoulder at the same angle above the horizontal as shown in [Figure](#fig6)(b).
+Repeat [Figure](#fs-id45) with the contestant pulling the block of ice with a rope over his shoulder at the same angle above the horizontal as shown in [Figure 6](#fig6)(b).
 
 ![(a) A block of ice is being pushed by a contestant in a winter sporting event across a frozen lake at an angle of twenty five degrees. (b) A block of ice is being pulled by a contestant in a winter sporting event across a frozen lake at an angle of twenty five degrees.](../resources/Figure_06_01_07a.jpg "Which method of sliding a block of ice requires less force&#x2014;(a) pushing or (b) pulling at the same angle above the horizontal?")
 {: #fig6 height="304"}

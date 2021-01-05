@@ -11,7 +11,7 @@ layout: page
 </div>
 
 In this module, we will learn about work and energy associated with rotational
-motion. [Figure](#fig1) shows a worker using an electric
+motion. [Figure 1](#fig1) shows a worker using an electric
 grindstone propelled by a motor. Sparks are flying, and noise and vibration are
 created as layers of steel are pared from the pole. The stone continues to turn
 even after the motor is turned off, but it is eventually brought to a stop by
@@ -27,7 +27,7 @@ was defined in [Uniform Circular Motion and Gravitation](../contents/ch6UniformC
 translational motion, and we can build on that knowledge when considering work
 done in rotational motion. The simplest rotational situation is one in which the
 net force is exerted perpendicular to the radius of a disk (as shown
-in [Figure](#fig2)) and remains perpendicular as the disk
+in [Figure 2](#fig2)) and remains perpendicular as the disk
 starts to rotate. The force is parallel to the displacement, and so the net work
 done is the product of the force times the arc length traveled:
 
@@ -108,7 +108,7 @@ The expression for rotational kinetic energy is exactly analogous to
 translational kinetic energy, with $$ I $$ being analogous to $$ m $$ and $$
 \omega $$ to $$ v $$. Rotational kinetic energy has important effects.
 Flywheels, for example, can be used to store large amounts of rotational kinetic
-energy in a vehicle, as seen in [Figure](#fig3).
+energy in a vehicle, as seen in [Figure 3](#fig3).
 
 ![The figure shows a bus carrying a large flywheel on its board in which rotational kinetic energy is stored.](../resources/Figure_11_04_03a.jpg "Experimental vehicles, such as this bus, have been constructed in which rotational kinetic energy is stored in a large flywheel. When the bus goes down a hill, its transmission converts its gravitational
 potential energy into \(  \KE_{\text{rot}} /). It can also convert translational kinetic energy, when the bus stops, into
@@ -120,7 +120,7 @@ potential energy into \(  \KE_{\text{rot}} /). It can also convert translational
 Calculating the Work and Energy for Spinning a Grindstone
 </div>
 Consider a person who spins a large grindstone by placing her hand on its edge and exerting a force through part of a
-revolution as shown in [Figure](#fig4). In this example,
+revolution as shown in [Figure 4](#fig4). In this example,
 we verify that the work done by the torque she exerts equals the change in rotational energy.
 (a) How much work is done if she exerts a force of 200 N through
 a rotation of $$ 1.00 \text{rad}\left(57.3^\circ\right) $$?
@@ -271,7 +271,7 @@ Problem-Solving Strategy for Rotational Energy
 <div class="title">
 Calculating Helicopter Energies
 </div>
-A typical small rescue helicopter, similar to the one in [Figure](#fig5), has
+A typical small rescue helicopter, similar to the one in [Figure 5](#fig5), has
 four blades, each is 4.00 m long and has a mass of 50.0 kg. The blades can be approximated as thin rods that rotate about one end of an axis perpendicular to their length. The helicopter has a total loaded mass of 1000 kg.
 (a) Calculate the rotational kinetic energy in the blades when they rotate at 300 rpm.
 (b) Calculate the translational kinetic energy of the helicopter when it flies at 20.0 m/s, and compare it with the rotational energy in the blades.
@@ -390,7 +390,7 @@ would if it slid down. Furthermore, the thin soup does not rotate, whereas the
 thick soup does, because it sticks to the can. The thick soup thus puts more of
 the can’s original gravitational potential energy into rotation than the thin
 soup, and the can rolls more slowly, as seen
-in [Figure](#fig6).
+in [Figure 6](#fig6).
 
 ![The figure shows a flat surface inclined at a height of h from the surface level, with three cans of soup of different densities numbered as one, two, and three rolling along it.](../resources/Figure_11_04_06a.jpg "Three cans of soup with identical masses race down an incline. The first can has a low friction coating and does not roll but just slides down the incline. It wins because it converts its entire PE into translational KE. The second and third cans both roll down the incline without slipping. The second can contains thin soup and comes in second because part of its initial PE goes into rotating the can (but not the thin soup). The third can contains thick soup. It comes in third because the soup rotates along with the can, taking even more of the initial PE for rotational KE, leaving less for translational KE.")
 {: #fig6}

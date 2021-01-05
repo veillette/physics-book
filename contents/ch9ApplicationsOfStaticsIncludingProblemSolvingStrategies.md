@@ -40,7 +40,7 @@ projecting forces.
 
 Now let us apply this problem-solving strategy for the pole vaulter shown in the
 three figures below. The pole is uniform and has a mass of 5.00 kg.
-In [Figure](#fig1), the pole’s cg lies halfway between the
+In [Figure 1](#fig1), the pole’s cg lies halfway between the
 vaulter’s hands. It seems reasonable that the force exerted by each hand is
 equal to half the weight of the pole, or 24.5 N. This obviously satisfies the
 first condition for equilibrium $$ \left( \text{net} F=0 \right) $$. The second
@@ -53,11 +53,11 @@ hold for other systems where supporting forces are exerted symmetrically about
 the cg. For example, the four legs of a uniform table each support one-fourth of
 its weight.
 
-In [Figure](#fig1), a pole vaulter holding a pole with its cg
+In [Figure 1](#fig1), a pole vaulter holding a pole with its cg
 halfway between his hands is shown. Each hand exerts a force equal to half the
 weight of the pole,$$ F_{R}=F_{L}=w/2 $$.
 (b) The pole vaulter moves the pole to  his left, and the forces that the hands exert
-are no longer equal. See [Figure](#fig1).
+are no longer equal. See [Figure 1](#fig1).
 If the pole is held with its cg to the
 left of the person, then he must push down with his right hand and up with his
 left. The forces he exerts are larger here because they are in opposite
@@ -235,7 +235,7 @@ In [Figure](#eip-id2351577), the cg of the pole held by the pole vaulter is 2.00
 the hands are 0.700 m apart. Calculate the force exerted by
 (a) his right hand and
 (b) his left hand.
-(c) If each hand supports half the weight of the pole in [Figure](#fig1),
+(c) If each hand supports half the weight of the pole in [Figure 1](#fig1),
 show that the second condition for equilibrium $$ \left( \text{net} \tau= 0
 \right) $$
 is satisfied for a pivot other than the one located at the center of gravity of

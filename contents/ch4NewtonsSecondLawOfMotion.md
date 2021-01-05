@@ -27,10 +27,10 @@ Newton’s first law says that a net external force
 causes a change in motion; thus, we see that a *net external force causes acceleration*.
 
 Another question immediately arises. What do we mean by an external force? An
-intuitive notion of external is correct—an **external force** acts from outside the **system** of interest. For example, in [Figure](#fig1)(a) the
+intuitive notion of external is correct—an **external force** acts from outside the **system** of interest. For example, in [Figure 1](#fig1)(a) the
 system of interest is the wagon plus the child in it. The two forces exerted by
 the other children are external forces. An internal force acts between elements
-of the system. Again looking at [Figure](#fig1)(a), the force
+of the system. Again looking at [Figure 1](#fig1)(a), the force
 the child in the wagon exerts to hang onto the wagon is an internal force
 between elements of the system of interest. Only external forces affect the
 motion of a system, according to Newton’s first law. (The internal forces
@@ -49,7 +49,7 @@ revisited many times on our journey through physics.
 Now, it seems reasonable that acceleration should be directly proportional to
 and in the same direction as the net (
 total) external force acting on a system. This assumption has been verified
-experimentally and is illustrated in [Figure](#fig1). In
+experimentally and is illustrated in [Figure 1](#fig1). In
 part (a), a smaller force causes a smaller acceleration than the larger force
 illustrated in part (c). For completeness, the vertical forces are also shown;
 they are assumed to cancel since there is no acceleration in the vertical
@@ -57,7 +57,7 @@ direction. The vertical forces are the weight $$ \vb{w} $$ and the
 support of the ground $$ \vb{N} $$, and the horizontal force $$
 \vb{f} $$ represents the force of friction. These will be discussed
 in more detail in later sections. For now, we will define **friction**as a force that opposes the motion past
-each other of objects that are touching. [Figure](#fig1)(b)
+each other of objects that are touching. [Figure 1](#fig1)(b)
 shows how vectors representing the external forces add together to produce a net
 force, $$ \vb{F}_{\text{net}} $$.
 
@@ -86,7 +86,7 @@ to our simplification.
 Now, it also seems reasonable that acceleration should be inversely proportional
 to the mass of the system. In other words, the larger the mass (the inertia),
 the smaller the acceleration produced by a given force. And indeed, as
-illustrated in [Figure](#fig2), the same net external force
+illustrated in [Figure 2](#fig2), the same net external force
 applied to a car produces a much smaller acceleration than when applied to a
 basketball. The proportionality is written as
 
@@ -500,7 +500,7 @@ the velocity and acceleration of the object?
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-The gravitational force on the basketball in [Figure](#fig2)
+The gravitational force on the basketball in [Figure 2](#fig2)
 is ignored. When gravity *is* taken into account, what is the direction of the net external
 force on the basketball—above horizontal, below horizontal, or still horizontal?
 
