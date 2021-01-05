@@ -116,7 +116,10 @@ First we draw a sketch and assign a coordinate system to the problem. This is a
 simple problem, but it always helps to visualize it. Notice that we assign east
 as positive and west as negative. Thus, in this case, we have negative velocity.
 
-![An acceleration vector arrow pointing west, in the negative x direction, labeled with a equals question mark. A velocity vector arrow also pointing toward the left, with initial velocity labeled as 0 and final velocity labeled as negative fifteen point 0 meters per second.](../resources/Figure_02_03_01a.jpg)
+![An acceleration vector arrow pointing west, in the negative x direction, 
+labeled with a equals question mark. A velocity vector arrow also pointing 
+toward the left, with initial velocity labeled as 0 and final velocity 
+labeled as negative fifteen point 0 meters per second.](../resources/Figure_02_03_01a.jpg " ")
 {: #fig5}
 
 We can solve this problem by identifying $$ \Delta v $$ and $$ \Delta t $$ from

@@ -8,7 +8,7 @@ layout: page
 
 Describe the forces on the hip joint. What means are taken to ensure that this
 will be a good movable joint? From the photograph (for an adult)
-in [Figure 1](#fig 1), estimate the dimensions of the
+in [Figure 1](#fig1), estimate the dimensions of the
 artificial device.
 
 It is difficult to categorize forces into various types (aside from the four

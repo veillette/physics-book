@@ -427,14 +427,13 @@ paths. (See [Figure 7](#fig7).) In addition, both observers see
 the coin fall 1.50 m vertically, but the one on the ground also sees it move
 forward 144 m (this calculation is left for the reader).
 Thus, one observer sees a vertical path, the other a nearly horizontal path.
+</div>
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
 Making Connections: Relativity and Einstein
 </div>
 Because Einstein was able to clearly define how measurements are made (some involve light) and because the speed of light is the same for all observers, the outcomes are spectacularly unexpected. Time varies with observer, energy is stored as increased mass, and more surprises await.
-
-</div>
 </div>
 
 <div class="note" data-label="PhET Exploration" markdown="1">
@@ -643,12 +642,11 @@ travel in order to have a velocity straight north relative to the Earth, assumin
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) Another airplane is flying in a jet stream that is blowing at 45.0 m/s
-in a direction $$ 20^\circ $$ south of east (as in [Figure](#eip-741)). Its direction of motion relative to
+in a direction $$ 20^\circ $$ south of east (as in [Figure 5](#fig5)). Its direction of motion relative to
 the Earth is $$ 45.0^\circ $$ south of west, while its direction of travel
 relative to the air is $$ 5.00^\circ $$ south of west. What is the airplane’s
 speed relative to the air mass?
-(b) What is the airplane’s speed relative to the
-Earth?
+(b) What is the airplane’s speed relative to the Earth?
 
 </div>
 <div class="solution" markdown="1">

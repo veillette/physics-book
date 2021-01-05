@@ -520,7 +520,7 @@ A team of eight dogs pulls a sled with waxed wood runners on wet snow (mush!). T
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Consider the 65.0-kg ice skater being pushed by two others shown in [Figure](#eip-id1992243).
+Consider the 65.0-kg ice skater being pushed by two others shown in [Figure 6](#fig6).
 (a) Find the direction and magnitude of $$ \vb{F}_{\text{tot}} $$,
 the total force exerted on her by the others, given that the magnitudes $$
 F_{1} $$ and $$ F_{2} $$ are 26.4 N and 18.6 N, respectively.
@@ -533,7 +533,7 @@ of $$ \vb{F}_{\text{tot}} $$?
 or attempted motion between surfaces in contact.)
 
 ![(a) Overhead view of two ice skaters pushing on a third. One skater pushes with a force F two, represented by an arrow pointing up, and a second skater pushes with a force F one, represented by an arrow pointing from left to right. Vector F one and vector F two are along the arms of the two skaters acting on the third skater. A vector diagram is shown in the form of a right triangle in which the base is vector F one pointing east, and perpendicular to F one is vector F two pointing north. The resultant vector is shown by the hypotenuse pointing northeast. (b) Free-body diagram showing only the forces acting on the skater.](../resources/Figure 04_01_01a.jpg)
-{: #eip-id1992243}
+{: #fig6}
 
 </div>
 </div>
@@ -673,7 +673,7 @@ and the cliff?
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-A contestant in a winter sporting event pushes a 45.0-kg block of ice across a frozen lake as shown in [Figure 6](#fig6)(a).
+A contestant in a winter sporting event pushes a 45.0-kg block of ice across a frozen lake as shown in [Figure 7](#fig7)(a).
 (a) Calculate the minimum force $$ F $$ he must exert to get the block moving.
 (b) What is the magnitude of its acceleration once it starts to move, if that force is maintained?
 
@@ -690,7 +690,7 @@ A contestant in a winter sporting event pushes a 45.0-kg block of ice across a f
 Repeat [Figure](#fs-id45) with the contestant pulling the block of ice with a rope over his shoulder at the same angle above the horizontal as shown in [Figure 6](#fig6)(b).
 
 ![(a) A block of ice is being pushed by a contestant in a winter sporting event across a frozen lake at an angle of twenty five degrees. (b) A block of ice is being pulled by a contestant in a winter sporting event across a frozen lake at an angle of twenty five degrees.](../resources/Figure_06_01_07a.jpg "Which method of sliding a block of ice requires less force&#x2014;(a) pushing or (b) pulling at the same angle above the horizontal?")
-{: #fig6 height="304"}
+{: #fig7 height="304"}
 
 </div>
 </div>
