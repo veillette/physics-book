@@ -24,7 +24,7 @@ precision with which physical quantities are known.
 Analytical techniques and right triangles go hand-in-hand in physics because (
 among other things) motions along perpendicular directions are independent. We
 very often need to separate a vector into perpendicular components. For example,
-given a vector like $$ \vb{A} $$ in [Figure](#fig1),
+given a vector like $$ \vb{A} $$ in [Figure 1](#fig1),
 we may wish to find which two perpendicular vectors, $$ \vb{A}_{x} $$
 and $$ \vb{A}_{y} $$, add to produce it.
 
@@ -141,7 +141,7 @@ subtraction.
 ### Adding Vectors Using Analytical Methods
 
 To see how to add vectors using perpendicular components,
-consider [Figure](#fig5), in which the vectors $$
+consider [Figure 5](#fig5), in which the vectors $$
 \vb{A} $$ and $$ \vb{B} $$ are added to produce the resultant $$
 \vb{R} $$.
 
@@ -164,7 +164,7 @@ or the magnitude and direction of a vector.
 Then, find the components of each vector to be added along the chosen
 perpendicular axes.* Use the equations $$ A_{x}=A\cos{\theta} $$ and $$ A_
 {y}=A\sin{\theta} $$ to find the components.
-In [Figure](#fig6), these components are $$ A_{x} $$,
+In [Figure 6](#fig6), these components are $$ A_{x} $$,
 $$ A_{y} $$, $$ B_{x} $$, and $$ B_{y} $$. The angles that vectors $$ \vb{A}
 $$ and $$ \vb{B} $$ make with the **x**-axis are $$ \theta_{\text{A}} $$ and
 $$ \theta_{\text{B}} $$, respectively.
@@ -174,7 +174,7 @@ $$ \theta_{\text{B}} $$, respectively.
 
 ***Step 2.*** *Find the components of the resultant along each axis by adding
 the components of the individual vectors along that axis.* That is, as
-shown in [Figure](#fig7),
+shown in [Figure 7](#fig7),
 
 <div class="equation">
  $$ R_{x}= A_{x}+B_{x} $$
@@ -219,7 +219,7 @@ perpendicular components.
 Adding Vectors Using Analytical Methods
 </div>
 Add the vector $$ \vb{A} $$ to the vector $$ \vb{B} $$
-shown in [Figure](#fig8), using perpendicular
+shown in [Figure 8](#fig8), using perpendicular
 components along the **x**- and **y**-axes. The **x**- and **y**-axes are along
 the east–west and north–south directions, respectively. Vector $$ \vb{A}
 $$
@@ -331,7 +331,7 @@ and
 <div class="equation">
  $$ R_{y}= A_{y}+\left(- B_{y}\right) $$
 </div>
-and the rest of the method outlined above is identical to that for addition. (See [Figure](#fig10).)
+and the rest of the method outlined above is identical to that for addition. (See [Figure 10](#fig10).)
 
 </div>
 
@@ -453,7 +453,7 @@ along the direction of $$ \vb{A} $$
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the following for path C in [Figure](#fig11): (a) the total distance traveled and (b) the magnitude and direction of the displacement from start to finish. In this part of the problem, explicitly show how you follow the steps of the analytical method of vector addition.
+Find the following for path C in [Figure 11](#fig11): (a) the total distance traveled and (b) the magnitude and direction of the displacement from start to finish. In this part of the problem, explicitly show how you follow the steps of the analytical method of vector addition.
 
 ![A map of city is shown. The houses are in form of square blocks of side one hundred and twenty meter each. Four paths A B C and D are shown in different colors. The path c shown as blue extends to one block towards north, then five blocks towards east and then two blocks towards south then one block towards west and one block towards north and finally three blocks towards west. It is asked to find out the total distance traveled the magnitude and the direction of the displacement from start to finish for path C.](../resources/Figure_03_02_20a.jpg "The various lines represent paths taken by different people walking in a city. All blocks are 120 m on a side.")
 {: #fig11}
@@ -469,14 +469,14 @@ Find the following for path C in [Figure](#fig11): (a) the total distance travel
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the following for path D in [Figure](#fig11): (a) the total distance traveled and (b) the magnitude and direction of the displacement from start to finish. In this part of the problem, explicitly show how you follow the steps of the analytical method of vector addition.
+Find the following for path D in [Figure 11](#fig11): (a) the total distance traveled and (b) the magnitude and direction of the displacement from start to finish. In this part of the problem, explicitly show how you follow the steps of the analytical method of vector addition.
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the north and east components of the displacement from San Francisco to Sacramento shown in [Figure](#fig12).
+Find the north and east components of the displacement from San Francisco to Sacramento shown in [Figure 12](#fig12).
 
 ![A map of northern California with a circle with a radius of one hundred twenty three kilometers centered on San Francisco. Sacramento lies on the circumference of this circle in a direction forty-five degrees north of east from San Francisco.](../resources/Figure_03_02_19a.jpg)
 {: #fig12}
@@ -491,7 +491,7 @@ North-component 87.0 km, east-component 87.0 km
 <div class="exercise" id="eip-287" data-element-type="problems-exercises">
 <div class="problem" id="eip-61" markdown="1">
 Solve the following problem using analytical techniques: Suppose you walk 18.0 m straight west and then 25.0 m straight north. How far are you from your starting point, and what is the compass direction of a line connecting your starting point to your final position?
-(If you represent the two legs of the walk as vector displacements $$ \vb{A} $$ and $$ \vb{B} $$, as in [Figure](#fig13), then this problem asks you to
+(If you represent the two legs of the walk as vector displacements $$ \vb{A} $$ and $$ \vb{B} $$, as in [Figure 13](#fig13), then this problem asks you to
 find their sum $$
 \vb{R}=\vb{A}+\vb{B} $$.)
 
@@ -592,7 +592,7 @@ west of north
 <div class="problem" id="eip-201" markdown="1">
 A farmer wants to fence off his four-sided plot of flat land.
 He measures the first three sides, shown as $$ \vb{A}, $$
-$$ \vb{B}, $$ and $$ \vb{C} $$ in [Figure](#fig14), and then correctly calculates the length and orientation of the fourth side $$
+$$ \vb{B}, $$ and $$ \vb{C} $$ in [Figure 14](#fig14), and then correctly calculates the length and orientation of the fourth side $$
 \vb{D} $$. What is his result?
 
 ![A quadrilateral with sides A, B, C, and D. A begins at the end of D and is 4 point seven zero kilometers  at an angle of 7 point 5 degrees south of west. B begins at the end of A and is 2 point four eight kilometers in a direction sixteen degrees west of north. C begins at the end of B and is 3 point zero 2 kilometers in a direction nineteen degrees north of west. D begins at the end of C and runs distance and direction that must be calculated](../resources/Figure_03_03_12a.jpg)
@@ -624,7 +624,7 @@ relative to the island?
 Suppose a pilot flies $$ 40.0 \text{km} $$ in a direction $$ 60^\circ $$
 north of east and then flies $$ 30.0 \text{km} $$
 in a direction $$ 15^\circ $$
-north of east as shown in [Figure](#fig15). Find her total
+north of east as shown in [Figure 15](#fig15). Find her total
 distance $$ R $$
 from the starting point and the direction $$ \theta $$
 of the straight-line path to the final position. Discuss qualitatively how this

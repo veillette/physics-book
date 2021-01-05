@@ -222,7 +222,7 @@ The vastness of the universe and the breadth over which physics applies are
 illustrated by the wide range of examples of known lengths, masses, and times
 in [Figure](#import-auto-id1677589). Examination of this table will give you
 some feeling for the range of possible topics and numerical values. (
-See [Figure](#fig5) and [Figure](#fig6).)
+See [Figure 5](#fig5) and [Figure 6](#fig6).)
 
 ![A magnified image of tiny phytoplankton swimming among the crystal of ice.\[](../resources/Figure_01_02_04a.jpg "Tiny phytoplankton swims among crystals of ice in the Antarctic Sea. They range from a few micrometers to as much as 2 millimeters in length. (credit: Prof. Gordon T. Taylor, Stony Brook University; NOAA Corps Collections)")
 {: #fig5}

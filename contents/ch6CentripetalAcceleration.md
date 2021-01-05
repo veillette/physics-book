@@ -20,7 +20,7 @@ and the car are changing direction. The sharper the curve and the greater your
 speed, the more noticeable this acceleration will become. In this section we
 examine the direction and magnitude of that acceleration.
 
-[Figure](#fig1) shows an object moving in a circular path at
+[Figure 1](#fig1) shows an object moving in a circular path at
 constant speed. The direction of the instantaneous velocity is shown at two
 points along the path. Acceleration is in the direction of the change in
 velocity, which points directly toward the center of rotation (the center of the
@@ -88,7 +88,7 @@ Recall that the direction of $$ \ac $$ is toward the center. You may
 use whichever expression is more convenient, as illustrated in examples below.
 
 A **centrifuge** (
-see [Figure](#fig2)b) is a rotating device used to separate
+see [Figure 2](#fig2)b) is a rotating device used to separate
 specimens of different densities. High centripetal acceleration significantly
 decreases the time it takes for separation to occur, and makes separation
 possible with small samples. Centrifuges are used in a variety of applications
@@ -105,7 +105,7 @@ to the effects of accelerations larger than that of Earth’s gravity.
 <div class="title">
 How Does the Centripetal Acceleration of a Car Around a Curve Compare with That Due to Gravity?
 </div>
-What is the magnitude of the centripetal acceleration of a car following a curve of radius 500 m at a speed of 25.0 m/s (about 90 km/h)? Compare the acceleration with that due to gravity for this fairly gentle curve taken at highway speed. See [Figure](#fig2)(a).
+What is the magnitude of the centripetal acceleration of a car following a curve of radius 500 m at a speed of 25.0 m/s (about 90 km/h)? Compare the acceleration with that due to gravity for this fairly gentle curve taken at highway speed. See [Figure 2](#fig2)(a).
 
 **Strategy**
 
@@ -142,7 +142,7 @@ How Big Is the Centripetal Acceleration in an Ultracentrifuge?
 </div>
 Calculate the centripetal acceleration of a point 7.50 cm from the axis of an **ultracentrifuge**
 spinning at $$ 7.5 \times 10^{4} \text{rev/min.} $$ Determine the ratio of this acceleration to that due to gravity.
-See [Figure](#fig2)(b).
+See [Figure 2](#fig2)(b).
 
 **Strategy**
 

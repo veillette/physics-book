@@ -38,7 +38,7 @@ friction force is. Rearranging this to
 </div>
 
 makes it clear that the deformation is proportional to the applied
-force. [Figure](#fig1) shows the Hooke’s law
+force. [Figure 1](#fig1) shows the Hooke’s law
 relationship between the extension $$ \Delta L $$ of a spring or of a human
 bone. For metals or springs, the straight line region in which Hooke’s law
 pertains is much larger. Bones are brittle and the elastic region is small and
@@ -74,7 +74,7 @@ tightened, and the elongation $$ \Delta L $$ is proportional to the force
 applied (at least for small deformations). Thicker nylon strings and ones made
 of steel stretch less for the same applied force, implying they have a larger $$
 k $$
-(see [Figure](#fig2)). Finally, all three strings
+(see [Figure 2](#fig2)). Finally, all three strings
 return to their normal lengths when the force is removed, provided the
 deformation is small. Most materials will behave in this manner if the
 deformation is less than about 0.1% or about 1 part in $$ 10^{3} $$.
@@ -103,7 +103,7 @@ otherwise stated.
 A change in length $$ \Delta L $$ is produced when a force is applied to a wire
 or rod parallel to its length $$ L_{0} $$, either stretching it (a tension) or
 compressing it. (
-See [Figure](#fig3).)
+See [Figure 3](#fig3).)
 
 ![Figure a is a cylindrical rod standing on its end with a height of L sub zero. Two vectors labeled F extend away from each end. A dotted outline indicates that the rod is stretched by a length of delta L. Figure b is a similar rod of identical height L sub zero, but two vectors labeled F exert a force toward the ends of the rod. A dotted line indicates that the rod is compressed by a length of delta L.](../resources/Figure_06_03_03a.jpg "(a) Tension. The rod is stretched a length \( \Delta L \)  when a force is applied parallel to its length. (b) Compression. The same rod is compressed by forces with the same magnitude in the opposite direction. For very small deformations and uniform materials, \( \Delta L \) is approximately the same for the same magnitude of tension or compression. For larger deformations, the cross-sectional area changes as the rod is compressed or stretched.")
 {: #fig3}
@@ -166,7 +166,7 @@ in [Table 1](#table1) because they cannot be stretched or
 compressed in only one direction. Note that there is an assumption that the
 object does not accelerate, so that there are actually two applied forces of
 magnitude $$ F $$ acting in opposite directions. For example, the strings
-in [Figure](#fig3) are being pulled down by a force of
+in [Figure 3](#fig3) are being pulled down by a force of
 magnitude $$ w $$ and held up by the ceiling, which also exerts a force of
 magnitude $$ w $$.
 
@@ -174,7 +174,7 @@ magnitude $$ w $$.
 <div class="title">
 The Stretch of a Long Cable
 </div>
-Suspension cables are used to carry gondolas at ski resorts. (See [Figure](#fig4)) Consider a suspension cable that includes an unsupported span of 3020 m. Calculate the amount of stretch in the steel cable. Assume that the cable has a diameter of 5.6 cm and the maximum tension it can withstand is $$ 3.0\times 10^{6}\N $$.
+Suspension cables are used to carry gondolas at ski resorts. (See [Figure 4](#fig4)) Consider a suspension cable that includes an unsupported span of 3020 m. Calculate the amount of stretch in the steel cable. Assume that the cable has a diameter of 5.6 cm and the maximum tension it can withstand is $$ 3.0\times 10^{6}\N $$.
 
 ![Ski gondolas travel along suspension cables. A vast forest and snowy mountain peaks can be seen in the background.](../resources/Figure_06_03_04a.jpg "Gondolas travel along suspension cables at the Gala Yuzawa ski resort in Japan. (credit: Rudy Herman, Flickr)")
 {: #fig4}
@@ -220,7 +220,7 @@ bone damage due to sustained compressions in bone joints and tendons.
 Another biological example of Hooke’s law occurs in tendons. Functionally, the
 tendon (the tissue connecting muscle to bone) must stretch easily at first when
 a force is applied, but offer a much greater restoring force for a greater
-strain. [Figure](#fig5) shows a stress-strain
+strain. [Figure 5](#fig5) shows a stress-strain
 relationship for a human tendon. Some tendons have a high collagen content so
 there is relatively little strain, or length change; others, like support
 tendons (as in the leg) can change length up to 10%. Note that this
@@ -351,7 +351,7 @@ is defined as strain (a unitless quantity). In other words,
 
 ### Sideways Stress: Shear Modulus
 
-[Figure](#fig6) illustrates what is meant by a sideways
+[Figure 6](#fig6) illustrates what is meant by a sideways
 stress or a *shearing force*. Here the deformation is called $$ \Delta x $$ and
 it is perpendicular to $$ L_{0} $$, rather than parallel as with tension and
 compression. Shear deformation behaves similarly to tension and compression and
@@ -367,7 +367,7 @@ see [Table 1](#table1)) and $$ F $$ is the force applied
 perpendicular to $$ L_{0} $$ and parallel to the cross-sectional area $$ A $$.
 Again, to keep the object from accelerating, there are actually two equal and
 opposite forces $$ F $$ applied across opposite faces, as illustrated
-in [Figure](#fig6). The equation is logical—for
+in [Figure 6](#fig6). The equation is logical—for
 example, it is easier to bend a long thin pencil (small $$ A $$ )
 than a short thick one, and both are more easily bent than similar steel
 rods (large $$ S $$ ).
@@ -420,7 +420,7 @@ response to shearing forces.
 <div class="title">
 Calculating Force Required to Deform: That Nail Does Not Bend Much Under a Load
 </div>
-Find the mass of the picture hanging from a steel nail as shown in [Figure](#fig7),
+Find the mass of the picture hanging from a steel nail as shown in [Figure 7](#fig7),
 given that the nail bends only $$ 1.80\times 10^{-6} \m $$. (Assume the shear
 modulus is known to two significant figures.)
 
@@ -470,7 +470,7 @@ $$ 1.80\times 10^{-6} \m $$ —an amount undetectable to the unaided eye.
 ### Changes in Volume: Bulk Modulus
 
 An object will be compressed in all directions if inward forces are applied
-evenly on all its surfaces as in [Figure](#fig8). It is
+evenly on all its surfaces as in [Figure 8](#fig8). It is
 relatively easy to compress gases and extremely difficult to compress liquids
 and solids. For example, air in a wine bottle is compressed when it is corked.
 But if you try corking a brim-full bottle, you cannot compress the wine—some
@@ -901,7 +901,7 @@ was originally 15 m long and 0.50 cm in diameter.
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-The pole in [Figure](#fig9) is at a $$ 90.0^\circ $$
+The pole in [Figure 9](#fig9) is at a $$ 90.0^\circ $$
 bend in a power line and is therefore subjected to more shear force than poles
 in straight parts of the line. The tension in each line is $$ 4.00 \times
 10^{4}N $$, at the angles shown. The pole is 15.0 m tall, has an 18.0 cm

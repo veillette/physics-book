@@ -31,7 +31,7 @@ distances.
 ![There is a nail in a wooden plank. A nail puller is being used to pull the nail out of the plank. A hand is applying force F sub I downward on the handle of the nail puller. The top of the nail exerts a force F sub N downward on the puller. At the point where the nail puller touches the plank, the reaction of the surface force N is applied. At the top of the figure, a free body diagram is shown.](../resources/Figure_10_05_01a.jpg "A nail puller is a lever with a large mechanical advantage. The external forces on the nail puller are represented by solid arrows. The force that the nail puller applies to the nail (  \( F_o \) )  is not a force on the nail puller. The reaction force the nail exerts back on the puller ( \( F_n \) )  is an external force and is equal and opposite to  \( F_o \) . The perpendicular lever arms of the input and output forces are  \( l_i \)  and \( l_0 \).")
 {: #fig1}
 
-[Figure](#fig1) shows a lever type that is used as a nail
+[Figure 1](#fig1) shows a lever type that is used as a nail
 puller. Crowbars, seesaws, and other such levers are all analogous to this one.
 $$ \vb{F}_{\text{i}} $$ is the input force and $$
 \vb{F}_{\text{o}} $$ is the output force. There are three vertical
@@ -75,7 +75,7 @@ certainly greater than one. The longer the handle on the nail puller, the
 greater the force you can exert with it.
 
 Two other types of levers that differ slightly from the nail puller are a
-wheelbarrow and a shovel, shown in [Figure](#fig2). All these
+wheelbarrow and a shovel, shown in [Figure 2](#fig2). All these
 lever types are similar in that only three forces are involved – the input
 force, the output force, and the force on the pivot – and thus their MAs are
 given by $$ \text{MA}=\frac{ F_{\text{o}}}{ F_{\text{i}}} $$ and $$
@@ -96,7 +96,7 @@ is less than one.
 <div class="title">
 What is the Advantage for the Wheelbarrow?
 </div>
-In the wheelbarrow of [Figure](#fig2), the load has a perpendicular lever arm of 7.50 cm, while the hands have a perpendicular lever arm of 1.02 m.
+In the wheelbarrow of [Figure 2](#fig2), the load has a perpendicular lever arm of 7.50 cm, while the hands have a perpendicular lever arm of 1.02 m.
 (a) What upward force must you exert to support the wheelbarrow and its load if their combined mass is 45.0 kg?
 (b) What force does the wheelbarrow exert on the ground?
 
@@ -117,7 +117,7 @@ Adding values into this equation yields
 <div class="equation">
 $$ F_{\text{i}}=\left(45.0\kg \right)\left(9.80\mss \right)\frac{0.075 \m }{1.02 \m }=32.4 \N . $$
 </div>
-The free-body diagram (see [Figure](#fig2)) gives the following normal force: $$ F_{i}+N=W $$. Therefore, $$ N=\left(45.0 \kg \right)\left(
+The free-body diagram (see [Figure 2](#fig2)) gives the following normal force: $$ F_{i}+N=W $$. Therefore, $$ N=\left(45.0 \kg \right)\left(
 9.80\mss \right)-32.4 \N = 409 \N $$. $$ N $$ is the normal force acting on the wheel; by Newton’s third law, the force the
 wheel exerts on the ground is $$ 409 \N $$.
 
@@ -136,7 +136,7 @@ probably used during the construction of the Egyptian pyramids to move large
 blocks of stone to the top.
 
 A crank is a lever that can be rotated $$ 360^\circ $$ about its pivot, as shown
-in [Figure](#fig3). Such a machine may not look like a lever,
+in [Figure 3](#fig3). Such a machine may not look like a lever,
 but the physics of its actions remain the same. The MA for a crank is simply the
 ratio of the radii $$ r_{\text{i}}/r_{0} $$. Wheels and gears have this simple
 expression for their MAs too. The MA can be greater than 1, as it is for the
@@ -152,7 +152,7 @@ force of $$ 1000 \N $$ on the ground.
 
 An ordinary pulley has an MA of 1; it only changes the direction of the force
 and not its magnitude. Combinations of pulleys, such as those illustrated
-in [Figure](#fig4), are used to multiply force. If the
+in [Figure 4](#fig4), are used to multiply force. If the
 pulleys are friction-free, then the force output is approximately an integral
 multiple of the tension in the cable. The number of cables pulling directly
 upward on the system of interest, as illustrated in the figures given below, is
@@ -179,14 +179,14 @@ $$ T $$.
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Scissors are like a double-lever system. Which of the simple machines in [Figure](#fig1) and [Figure](#fig2) is most analogous to scissors?
+Scissors are like a double-lever system. Which of the simple machines in [Figure 1](#fig1) and [Figure 2](#fig2) is most analogous to scissors?
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Suppose you pull a nail at a constant rate using a nail puller as shown in [Figure](#fig1). Is the nail puller in equilibrium? What if you pull the nail with some acceleration – is the nail puller in equilibrium then? In which case is the force applied to the nail puller larger and why?
+Suppose you pull a nail at a constant rate using a nail puller as shown in [Figure 1](#fig1). Is the nail puller in equilibrium? What if you pull the nail with some acceleration – is the nail puller in equilibrium then? In which case is the force applied to the nail puller larger and why?
 
 </div>
 </div>
@@ -209,7 +209,7 @@ Explain why the forces in our joints are several times larger than the forces we
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What is the mechanical advantage of a nail puller—similar to the one shown in [Figure](#fig1) —where you exert a force $$ 45 \text{cm} $$
+What is the mechanical advantage of a nail puller—similar to the one shown in [Figure 1](#fig1) —where you exert a force $$ 45 \text{cm} $$
 from the pivot and the nail is $$ 1.8 \text{cm} $$
 on the other side? What minimum force must you exert to apply a force of $$ 1250 \N  $$
 to the nail?
@@ -232,7 +232,7 @@ Suppose you needed to raise a 250-kg mower a distance of 6.0 cm above the ground
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) What is the mechanical advantage of a wheelbarrow, such as the one in [Figure](#fig2), if the center of gravity of the wheelbarrow and its load has a perpendicular lever arm of 5.50 cm, while the hands have a perpendicular lever arm of 1.02 m?
+(a) What is the mechanical advantage of a wheelbarrow, such as the one in [Figure 2](#fig2), if the center of gravity of the wheelbarrow and its load has a perpendicular lever arm of 5.50 cm, while the hands have a perpendicular lever arm of 1.02 m?
 (b) What upward force should you exert to support the wheelbarrow and its load if their combined mass is 55.0 kg?
 (c) What force does the wheel exert on the ground?
 
@@ -248,7 +248,7 @@ c) 510 N downward
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A typical car has an axle with $$ 1.10 \text{cm} $$ radius driving a tire with a radius of $$ 27.5 \text{cm} $$. What is its mechanical advantage assuming the very simplified model
-in [Figure](#fig3)(b)?
+in [Figure 3](#fig3)(b)?
 
 </div>
 </div>
@@ -266,7 +266,7 @@ What force does the nail puller in [Figure](#fs-id77) exert on the supporting su
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-If you used an ideal pulley of the type shown in [Figure](#fig4)(a)
+If you used an ideal pulley of the type shown in [Figure 4](#fig4)(a)
 to support a car engine of mass $$ 115 \kg $$,
 (a) What would be the tension in the rope?
 (b) What force must the ceiling supply, assuming you pull straight down on the rope?
@@ -277,7 +277,7 @@ Neglect the pulley system’s mass.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Repeat [Figure](#fs-id16) for the pulley shown in [Figure](#fig4)(c), assuming you pull straight up on the rope. The pulley system’s mass is $$ 7.00 \kg $$.
+Repeat [Figure](#fs-id16) for the pulley shown in [Figure 4](#fig4)(c), assuming you pull straight up on the rope. The pulley system’s mass is $$ 7.00 \kg $$.
 
 </div>
 <div class="solution" markdown="1">

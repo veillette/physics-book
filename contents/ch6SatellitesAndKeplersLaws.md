@@ -56,7 +56,7 @@ The orbit of each planet about the Sun is an ellipse with the Sun at one focus.
 
 Each planet moves so that an imaginary line drawn from the Sun to the planet
 sweeps out equal areas in equal times (
-see [Figure](#fig2)).
+see [Figure 2](#fig2)).
 
 **Kepler’s Third Law**
 
@@ -286,13 +286,13 @@ system. It epitomizes the underlying unity and simplicity of physics.
 
 Before the discoveries of Kepler, Copernicus, Galileo, Newton, and others, the
 solar system was thought to revolve around Earth as shown
-in [Figure](#fig3)(a). This is called the Ptolemaic view, for
+in [Figure 3](#fig3)(a). This is called the Ptolemaic view, for
 the Greek philosopher who lived in the second century AD. This model is
 characterized by a list of facts for the motions of planets with no cause and
 effect explanation. There tended to be a different rule for each heavenly body
 and a general lack of simplicity.
 
-[Figure](#fig3)(b) represents the modern or Copernican model.
+[Figure 3](#fig3)(b) represents the modern or Copernican model.
 In this model, a small set of rules and a single underlying force explain not
 only all motions in the solar system, but all other situations involving
 gravity. The breadth and simplicity of the laws of physics are compelling. As

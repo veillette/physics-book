@@ -117,7 +117,7 @@ A deep-sea fisherman hooks a big fish that swims away from the boat pulling the 
 line from his fishing reel. The whole system is initially at rest and the fishing line unwinds
 from the reel at a radius of 4.50 cm from its axis of rotation. The reel is given an angular
 acceleration of $$ 110 \radss $$
-for 2.00 s as seen in [Figure](#fig1).
+for 2.00 s as seen in [Figure 1](#fig1).
 
 (a) What is the final angular velocity of the reel?
 
@@ -324,7 +324,7 @@ The distance traveled is fairly large and the final velocity is fairly slow (jus
 </div>
 
 There is translational motion even for something spinning in place, as the
-following example illustrates. [Figure](#fig2) shows a fly on
+following example illustrates. [Figure 2](#fig2) shows a fly on
 the edge of a rotating microwave oven plate. The example below calculates the
 total distance it travels.
 

@@ -22,7 +22,7 @@ describe rotational motion.
 ### Rotation Angle
 
 When objects rotate about some axis—for example, when the CD (compact disc)
-in [Figure](#fig1)
+in [Figure 1](#fig1)
 rotates about its center—each point in the object follows a circular arc.
 Consider a line from the center of the CD to its edge. Each **pit** used to record sound along this line
 moves through the same angle in the same amount of time. The rotation angle is
@@ -55,7 +55,7 @@ is described on the circumference. ")
 
 The **arc length** $$ \Delta s $$ is
 the distance traveled along a circular path as shown
-in [Figure](#fig2) Note that $$ r $$ is the
+in [Figure 2](#fig2) Note that $$ r $$ is the
 **radius of curvature** of the circular path.
 
 We know that for one complete revolution, the arc length is the circumference of
@@ -154,7 +154,7 @@ as you might expect. We can also call this linear speed $$ v $$ of a point on
 the rim the *tangential speed*. The second relationship in $$ v=r \omega \text{
 or }\omega =\frac{v}{r} $$ can be illustrated by considering the tire of a
 moving car. Note that the speed of a point on the rim of the tire is the same as
-the speed $$ v $$ of the car. See [Figure](#fig4). So the
+the speed $$ v $$ of the car. See [Figure 4](#fig4). So the
 faster the car moves, the faster the tire spins—large $$ v $$ means a large $$
 \omega $$, because $$ v=r \omega $$. Similarly, a larger-radius tire rotating at
 the same angular velocity ( $$ \omega $$)
@@ -179,7 +179,7 @@ velocity for the tire means a greater velocity for the car. ")
 How Fast Does a Car Tire Spin?
 </div>
 Calculate the angular velocity of a 0.300 m radius car tire when the car travels at $$ 15.0 \ms $$
-(about $$54 \text{km/h} $$). See [Figure](#fig4).
+(about $$54 \text{km/h} $$). See [Figure 4](#fig4).
 
 **Strategy**
 
@@ -220,7 +220,7 @@ Both $$ \omega $$ and $$ v $$ have directions (hence they are angular and
 linear *velocities*, respectively). Angular velocity has only two directions
 with respect to the axis of rotation—it is either clockwise or counterclockwise.
 Linear velocity is tangent to the path, as illustrated
-in [Figure](#fig5).
+in [Figure 5](#fig5).
 
 <div class="note" data-label="" markdown="1">
 <div class="title">

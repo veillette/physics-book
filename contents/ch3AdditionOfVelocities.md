@@ -13,12 +13,12 @@ layout: page
 
 If a person rows a boat across a rapidly flowing river and tries to head
 directly for the other shore, the boat instead moves **diagonally** relative to
-the shore, as in [Figure](#fig1). The boat does not move in
+the shore, as in [Figure 1](#fig1). The boat does not move in
 the direction in which it is pointed. The reason, of course, is that the river
 carries the boat downstream. Similarly, if a small airplane flies overhead in a
 strong crosswind, you can sometimes see that the plane is not moving in the
 direction in which it is pointed, as illustrated
-in [Figure](#fig2). The plane is moving straight ahead
+in [Figure 2](#fig2). The plane is moving straight ahead
 relative to the air, but the movement of the air mass relative to the ground
 carries it sideways.
 
@@ -32,8 +32,8 @@ In each of these situations, an object has a **velocity**
 relative to a medium (such as a river) and that medium
 has a velocity relative to an observer on solid ground. The velocity of the
 object **relative to the observer** is the sum of these velocity vectors, as
-indicated in [Figure](#fig1)
-and [Figure](#fig2). These situations are only two of many in
+indicated in [Figure 1](#fig1)
+and [Figure 2](#fig2). These situations are only two of many in
 which it is useful to add velocities. In this module, we first re-examine how to
 add velocities and then consider certain aspects of what relative velocity
 means.
@@ -99,7 +99,7 @@ Adding Velocities: A Boat on a River
 </div>
 ![A boat is trying to cross a river. Due to the velocity of the river the path traveled by the boat is diagonal. The velocity of the boat, v boat, is equal to zero point seven five meters per second and is in positive y direction. The velocity of the river, v-river, is equal to one point two meters per second and is in positive x direction. The resultant diagonal velocity v total, which makes an angle of theta with the horizontal x axis, is towards north east direction.](../resources/Figure_03_05_09a.jpg "A boat attempts to travel straight across a river at a speed 0.75 m/s. The current in the river, however, flows at a speed of 1.20 m/s to the right. What is the total displacement of the boat relative to the shore?"){: #fig4}
 
-Refer to [Figure](#fig4), which shows a boat trying to go
+Refer to [Figure 4](#fig4), which shows a boat trying to go
 straight across the river. Let us calculate the magnitude and direction of the
 boat’s velocity relative to an observer on the shore, $$ \vb{v}_
 {\text{tot}} $$. The velocity of the boat, $$ \vb{v}_{\text{boat}}
@@ -110,7 +110,7 @@ right.
 **Strategy**
 
 We start by choosing a coordinate system with its $$ x $$ -axis parallel to the
-velocity of the river, as shown in [Figure](#fig4). Because
+velocity of the river, as shown in [Figure 4](#fig4). Because
 the boat is directed straight toward the other shore, its velocity relative to
 the water is parallel to the $$ y $$ -axis and perpendicular to the velocity of
 the river. Thus, we can add the two velocities by using the equations $$ v_
@@ -161,7 +161,7 @@ This equation gives
 **Discussion**
 
 Both the magnitude $$ v $$ and the direction $$ \theta $$ of the total velocity
-are consistent with [Figure](#fig4). Note that because the
+are consistent with [Figure 4](#fig4). Note that because the
 velocity of the river is large compared with the velocity of the boat, it is
 swept rapidly downstream. This result is evidenced by the small angle (only $$ 32.0^\circ $$)
 the total velocity has relative to the riverbank.
@@ -172,7 +172,7 @@ the total velocity has relative to the riverbank.
 <div class="title">
 Calculating Velocity: Wind Velocity Causes an Airplane to Drift
 </div>
-Calculate the wind velocity for the situation shown in [Figure](#fig5). The plane is known to be moving at 45.0 m/s due north relative to the air mass, while its velocity relative to the
+Calculate the wind velocity for the situation shown in [Figure 5](#fig5). The plane is known to be moving at 45.0 m/s due north relative to the air mass, while its velocity relative to the
 ground (its total velocity) is 38.0 m/s in a direction $$20.0^\circ $$ west of north.
 
 ![An airplane is trying to fly north with velocity v p equal to forty five meters per second at angle of one hundred and ten degrees but due to wind velocity v w in south west direction making an angle theta with the horizontal axis it reaches a position in north west direction with resultant velocity v total equal to thirty eight meters per second and the direction is twenty degrees west of north.](../resources/Figure_03_05_04a.jpg "An airplane is known to be heading north at 45.0 m/s, though its velocity relative to the ground is 38.0 m/s at an angle  west of north. What is the speed and direction of the wind?")
@@ -190,7 +190,7 @@ other velocities, $$ \vb{v}_{\text{w}} $$
 find their components along a common set of perpendicular axes. If we can find
 the components of $$ \vb{v}_{\text{w}} $$, then we can combine them
 to solve for its magnitude and direction. As shown
-in [Figure](#fig5), we choose a coordinate system with its
+in [Figure 5](#fig5), we choose a coordinate system with its
 *x*-axis due east and its *y*-axis due north (parallel to $$ \vb{v}_
 {\text{p}} $$).
  (You may wish to look back at the discussion of the addition of vectors using
@@ -269,7 +269,7 @@ giving
 
 The wind’s speed and direction are consistent with the significant effect the
 wind has on the total velocity of the plane, as seen
-in [Figure](#fig5). Because the plane is fighting a strong
+in [Figure 5](#fig5). Because the plane is fighting a strong
 combination of crosswind and head-wind, it ends up with a total velocity
 significantly less than its velocity relative to the air mass as well as heading
 in a different direction.
@@ -313,10 +313,10 @@ the base of the mast at a point directly below its point of release. Now let us
 consider what two different observers see when the binoculars drop. One observer
 is on the ship and the other on shore. The binoculars have no horizontal
 velocity relative to the observer on the ship, and so he sees them fall straight
-down the mast. (See [Figure](#fig6).) To the observer on
+down the mast. (See [Figure 6](#fig6).) To the observer on
 shore, the binoculars and the ship have the **same** horizontal velocity, so
 both move the same distance forward while the binoculars are falling. This
-observer sees the curved path shown in [Figure](#fig6).
+observer sees the curved path shown in [Figure 6](#fig6).
 Although the paths look different to the different observers, each sees the same
 result—the binoculars hit at the base of the mast and not behind it. To get the
 correct description, it is crucial to correctly specify the velocities relative
@@ -423,7 +423,7 @@ airplane. The motions as seen by different observers (one in the plane and one
 on the ground) in this example are analogous to those discussed for the
 binoculars dropped from the mast of a moving ship, except that the velocity of
 the plane is much larger, so that the two observers see **very** different
-paths. (See [Figure](#fig7).) In addition, both observers see
+paths. (See [Figure 7](#fig7).) In addition, both observers see
 the coin fall 1.50 m vertically, but the one on the ground also sees it move
 forward 144 m (this calculation is left for the reader).
 Thus, one observer sees a vertical path, the other a nearly horizontal path.
@@ -685,7 +685,7 @@ What is the velocity of the wind relative to the water?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-The great astronomer Edwin Hubble discovered that all distant galaxies are receding from our Milky Way Galaxy with velocities proportional to their distances. It appears to an observer on the Earth that we are at the center of an expanding universe. [Figure](#fig8) illustrates this for five galaxies lying along a straight line, with the Milky Way Galaxy at the center. Using the data from the figure, calculate the velocities:
+The great astronomer Edwin Hubble discovered that all distant galaxies are receding from our Milky Way Galaxy with velocities proportional to their distances. It appears to an observer on the Earth that we are at the center of an expanding universe. [Figure 8](#fig8) illustrates this for five galaxies lying along a straight line, with the Milky Way Galaxy at the center. Using the data from the figure, calculate the velocities:
 (a) relative to galaxy 2 and
 (b) relative to galaxy 5. The results mean that observers on all galaxies will see themselves at the center of the expanding universe, and they would likely be aware of relative velocities, concluding that it is not possible to locate the center of expansion with the given information.
 
@@ -697,7 +697,7 @@ The great astronomer Edwin Hubble discovered that all distant galaxies are reced
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) Use the distance and velocity data in [Figure](#fig8) to find the rate of expansion as a function of distance.
+(a) Use the distance and velocity data in [Figure 8](#fig8) to find the rate of expansion as a function of distance.
 (b) If you extrapolate back in time, how long ago would all of the galaxies have
 been at approximately the same position? The two parts of this problem give you
 some idea of how the Hubble constant for universal expansion and the time back
@@ -737,7 +737,7 @@ Stream a few hundred kilometers off the east coast of the United States.)
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 An ice hockey player is moving at 8.00 m/s when he hits the puck toward the goal. The speed of the puck relative to the player is 29.0 m/s. The line between the center of the goal and the player makes a $$ 90.0^\circ $$
-angle relative to his path as shown in [Figure](#fig9). What
+angle relative to his path as shown in [Figure 9](#fig9). What
 angle must the puck’s velocity make relative to the player (in his frame of
 reference) to hit the center of the goal?
 

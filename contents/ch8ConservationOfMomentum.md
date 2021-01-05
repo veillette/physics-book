@@ -28,7 +28,7 @@ be neglected in any practical sense, but it is real nevertheless.
 
 Consider what happens if the masses of two colliding objects are more similar
 than the masses of a football player and Earth—for example, one car bumping into
-another, as shown in [Figure](#fig1). Both cars are coasting
+another, as shown in [Figure 1](#fig1). Both cars are coasting
 in the same direction when the lead car (labeled $$ m_{2}  $$)  is
 bumped by
 the trailing car (labeled $$ m_{1} $$ ). The only unbalanced force
@@ -147,7 +147,7 @@ and where air resistance is negligible, momentum is conserved in the horizontal
 direction because horizontal forces are zero and momentum is unchanged. But
 along the vertical direction, the net vertical force is not zero and the
 momentum of the projectile is not conserved. (
-See [Figure](#fig2)
+See [Figure 2](#fig2)
 .) However, if the momentum of the projectile-Earth system is considered in the
 vertical direction, we find that the total momentum is conserved.
 
@@ -226,7 +226,7 @@ these measurements. Furthermore, we find that the conservation of momentum
 principle is valid when considering systems of particles. We use this principle
 to analyze the masses and other properties of previously undetected particles,
 such as the nucleus of an atom and the existence of quarks that make up
-particles of nuclei. [Figure](#fig3) below illustrates how a
+particles of nuclei. [Figure 3](#fig3) below illustrates how a
 particle scattering backward from another implies that its target is massive and
 dense. Experiments seeking evidence that **quarks** make up protons (one type of particle that makes up
 nuclei) scattered high-energy electrons off

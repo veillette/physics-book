@@ -174,7 +174,7 @@ expected.
 
 The procedures for calculating the position and velocity at $$ t=2.00\s $$
 and $$ 3.00 \s $$ are the same as those above. The results are summarized
-in [Table 1](#table1) and illustrated in [Figure](#fig3).
+in [Table 1](#table1) and illustrated in [Figure 3](#fig3).
 
 ##### Table: Results
 
@@ -271,7 +271,7 @@ The negative root is chosen to indicate that the rock is still heading down. Thu
 
 Note that *this is exactly the same velocity the rock had at this position when
 it was thrown straight upward with the same initial speed*. (
-See [Figure](#fs-id58) and [Figure](#fig5)(a).) This
+See [Figure](#fs-id58) and [Figure 5](#fig5)(a).) This
 is not a coincidental result. Because we only consider the acceleration due to
 gravity in this problem, the *speed* of a falling object depends only on its
 initial speed and its vertical position relative to the starting point. For
@@ -303,7 +303,7 @@ is the same.
 <div class="title">
 Find *g* from Data on a Falling Object
 </div>
-The acceleration due to gravity on Earth differs slightly from place to place, depending on topography (e.g., whether you are on a hill or in a valley) and subsurface geology (whether there is dense rock like iron ore as opposed to light rock like salt beneath you.) The precise acceleration due to gravity can be calculated from data taken in an introductory physics laboratory course. An object, usually a metal ball for which air resistance is negligible, is dropped and the time it takes to fall a known distance is measured. See, for example, [Figure](#fig6). Very precise results can be produced with this method if sufficient care is taken in measuring the distance fallen and the elapsed time.
+The acceleration due to gravity on Earth differs slightly from place to place, depending on topography (e.g., whether you are on a hill or in a valley) and subsurface geology (whether there is dense rock like iron ore as opposed to light rock like salt beneath you.) The precise acceleration due to gravity can be calculated from data taken in an introductory physics laboratory course. An object, usually a metal ball for which air resistance is negligible, is dropped and the time it takes to fall a known distance is measured. See, for example, [Figure 6](#fig6). Very precise results can be produced with this method if sufficient care is taken in measuring the distance fallen and the elapsed time.
 
 ![Figure has four panels. The first panel (on the top) is an illustration of a ball falling toward the ground at intervals of one tenth of a second. The space between the vertical position of the ball at one time step and the next increases with each time step. At time equals 0, position and velocity are also 0. At time equals 0 point 1 seconds, y position equals negative 0 point 049 meters and velocity is negative 0 point 98 meters per second. At 0 point 5 seconds, y position is negative 1 point 225 meters and velocity is negative 4 point 90 meters per second. The second panel (in the middle) is a line graph of position in meters versus time in seconds. Line begins at the origin and slopes down with increasingly negative slope. The third panel (bottom left) is a line graph of velocity in meters per second versus time in seconds. Line is straight, beginning at the origin and with a constant negative slope. The fourth panel (bottom right) is a line graph of acceleration in meters per second squared versus time in seconds. Line is flat, at a constant y value of negative 9 point 80 meters per second squared.](../resources/Figure_02_06_02.jpg "Positions and velocities of a metal ball released from rest when air resistance is negligible. Velocity is seen to increase linearly with time while displacement increases with time squared. Acceleration is a constant and is equal to gravitational acceleration.")
 {: #fig6}

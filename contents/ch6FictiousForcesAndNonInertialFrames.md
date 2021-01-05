@@ -74,7 +74,7 @@ according to Newton&#x2019;s laws, it is his inertia that carries him off and no
 
 This inertial effect, carrying you away from the center of rotation if there is
 no centripetal force to cause circular motion, is put to good use in
-centrifuges (see [Figure](#fig3)). A centrifuge spins a
+centrifuges (see [Figure 3](#fig3)). A centrifuge spins a
 sample very rapidly, as mentioned earlier in this chapter. Viewed from the
 rotating frame of reference, the fictitious centrifugal force throws particles
 outward, hastening their sedimentation. The greater the angular velocity, the
@@ -87,7 +87,7 @@ tube is forced in a circular path by a centripetal force.
 
 Let us now consider what happens if something moves in a frame of reference that
 rotates. For example, what if you slide a ball directly away from the center of
-the merry-go-round, as shown in [Figure](#fig4)? The ball
+the merry-go-round, as shown in [Figure 4](#fig4)? The ball
 follows a straight path relative to Earth (assuming negligible friction) and a
 path curved to the right on the merry-go-round’s surface. A person standing next
 to the merry-go-round sees the ball moving straight and the merry-go-round
@@ -107,7 +107,7 @@ exist—in the rotation of weather systems, for example. Most consequences of
 Earth’s rotation can be qualitatively understood by analogy with the
 merry-go-round. Viewed from above the North Pole, Earth rotates
 counterclockwise, as does the merry-go-round
-in [Figure](#fig4). As on the merry-go-round, any motion in
+in [Figure 4](#fig4). As on the merry-go-round, any motion in
 Earth’s northern hemisphere experiences a Coriolis force to the right. Just the
 opposite occurs in the southern hemisphere; there, the force is to the left.
 Because Earth’s angular velocity is small, the Coriolis force is usually
@@ -120,7 +120,7 @@ called below the equator) in the southern hemisphere rotate in the clockwise
 direction. The terms hurricane, typhoon, and tropical storm are
 regionally-specific names for tropical cyclones, storm systems characterized by
 low pressure centers, strong winds, and heavy
-rains. [Figure](#fig5) helps show how these rotations take
+rains. [Figure 5](#fig5) helps show how these rotations take
 place. Air flows toward any region of low pressure, and tropical cyclones
 contain particularly low pressures. Thus winds flow toward the center of a
 tropical cyclone or a low-pressure weather system at the surface. In the
