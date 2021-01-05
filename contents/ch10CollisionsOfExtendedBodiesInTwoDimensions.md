@@ -327,7 +327,7 @@ remains in his geometrical center.
 Repeat [Figure](#fs-id71) in which the stick is free to have translational motion as well as rotational motion.
 
 </div>
-<div class="solution" id="eip-id1884339" markdown="1">
+<div class="solution"  markdown="1">
 (a) 1.70 rad/s
 
 (b) Initial KE = 22.5 J, final KE = 2.04 J

@@ -548,8 +548,8 @@ relative to the Earth. What was his average velocity relative to the air?
 </div>
 </div>
 
-<div class="exercise" id="eip-342" data-element-type="problems-exercises">
-<div class="problem" id="eip-949" markdown="1">
+<div class="exercise"  data-element-type="problems-exercises">
+<div class="problem"  markdown="1">
 A seagull flies at a velocity of 9.00 m/s straight into the wind.
 (a) If it takes the bird 20.0 min to travel 6.00 km relative to the Earth,
 what is the velocity of the wind?
@@ -611,8 +611,8 @@ A ship sets sail from Rotterdam, The Netherlands, heading due north at 7.00 m/s 
 </div>
 </div>
 
-<div class="exercise" id="eip-741" data-element-type="problems-exercises">
-<div class="problem" id="eip-689" markdown="1">
+<div class="exercise"  data-element-type="problems-exercises">
+<div class="problem"  markdown="1">
 (a) A jet airplane flying from Darwin, Australia, has an air speed of 260
 m/s in a direction $$ 5.0^\circ $$ south of west. It is in the jet stream, which is blowing at 35.0 m/s in a
 direction $$ 15^\circ $$ south of east. What is the velocity of the airplane
@@ -621,7 +621,7 @@ relative to the Earth?
 effect of the wind on the plane’s path.
 
 </div>
-<div class="solution" id="eip-295" markdown="1">
+<div class="solution"  markdown="1">
 (a) $$ 230 \ms $$, $$ 8.0^\circ $$ south of west
 
 (b) The wind should make the plane travel slower and more to the south,

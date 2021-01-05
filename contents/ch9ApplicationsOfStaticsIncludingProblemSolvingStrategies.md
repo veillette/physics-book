@@ -229,8 +229,8 @@ To get up on the roof, a person (mass 70.0 kg) places a 6.00-m aluminum ladder (
 </div>
 </div>
 
-<div class="exercise" id="eip-339" data-element-type="problems-exercises">
-<div class="problem" id="eip-6" markdown="1">
+<div class="exercise"  data-element-type="problems-exercises">
+<div class="problem"  markdown="1">
 In [Figure 3](#fig3), the cg of the pole held by the pole vaulter is 2.00 m from the left hand, and
 the hands are 0.700 m apart. Calculate the force exerted by
 (a) his right hand and

@@ -278,7 +278,7 @@ unspecified; it will be in the opposite direction of the sum of $$
 \vb{F}_{1} $$ and $$ \vb{F}_{2} $$.
 
 </div>
-<div class="solution" id="eip-id2093801" markdown="1">
+<div class="solution"  markdown="1">
  $$ a=0.139 \ms $$, $$ \theta =12.4^\circ $$ north of east
 
 </div>

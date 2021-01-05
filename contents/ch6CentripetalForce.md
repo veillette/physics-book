@@ -451,8 +451,8 @@ What is the ideal speed to take a 100 m radius curve banked at a 20.0° angle?
 </div>
 </div>
 
-<div class="exercise" id="eip-id1167458029802" data-element-type="problems-exercises">
-<div class="problem" id="eip-id1167457015961" markdown="1">
+<div class="exercise"  data-element-type="problems-exercises">
+<div class="problem"  markdown="1">
 (a) What is the radius of a bobsled turn banked at 75.0° and taken at 30.0 m/s, assuming it is ideally banked?
 
 (b) Calculate the centripetal acceleration.

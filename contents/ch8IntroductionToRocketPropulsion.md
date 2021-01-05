@@ -341,7 +341,7 @@ acceleration due to gravity is negligible.
 Derive the equation for the vertical acceleration of a rocket.
 
 </div>
-<div class="solution" id="eip-id1171092807004" markdown="1">
+<div class="solution"  markdown="1">
 The force needed to give a small mass $$ \Delta m $$
 an acceleration $$ a_{\Delta m} $$ is $$ F=\Delta m a_{\Delta m} $$. To
 accelerate this mass in the small time interval $$ \Delta t $$ at a speed $$ v_

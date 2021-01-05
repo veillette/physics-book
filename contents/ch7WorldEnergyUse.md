@@ -344,8 +344,8 @@ sprinting for 2 hours!).
 </div>
 </div>
 
-<div class="exercise" id="eip-211" data-element-type="problems-exercises">
-<div class="problem" id="eip-202" markdown="1">
+<div class="exercise"  data-element-type="problems-exercises">
+<div class="problem"  markdown="1">
 
 **Construct Your Own Problem**
 
@@ -389,7 +389,7 @@ support his weight as well as that to accelerate him.)
 (c) What was his power output during the acceleration phase?
 
 </div>
-<div class="solution" id="eip-id1450454" markdown="1">
+<div class="solution"  markdown="1">
 (a) 4.32 m/s
 
 (b) $$ 3.47\times 10^{3} \N  $$

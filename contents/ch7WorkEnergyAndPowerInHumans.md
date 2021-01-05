@@ -354,8 +354,8 @@ The swimmer shown in [Figure 6](#fig6) exerts an average horizontal backward for
 </div>
 </div>
 
-<div class="exercise" id="eip-367" data-element-type="problems-exercises">
-<div class="problem" id="eip-349" markdown="1">
+<div class="exercise"  data-element-type="problems-exercises">
+<div class="problem"  markdown="1">
 Mountain climbers carry bottled oxygen when at very high altitudes.
 (a) Assuming that a mountain climber uses oxygen at twice the rate for climbing 116 stairs per minute (because of low air temperature and winds), calculate how many liters of oxygen a climber would need for 10.0 h of climbing. (These are liters at sea level.) Note that only 40% of the inhaled oxygen is utilized; the rest is exhaled.
 (b) How much useful work does the climber do if he and his equipment have a mass of 90.0 kg and he gains 1000 m of altitude?
