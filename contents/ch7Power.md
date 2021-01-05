@@ -112,7 +112,7 @@ Determine your own power rating by measuring the time it takes you to climb a fl
 
 Examples of power are limited only by the imagination, because there are as many
 types as there are forms of work and energy. (
-See [Figure](#import-auto-id2195139) for some examples.) Sunlight reaching
+See [Table 1](#table1) for some examples.) Sunlight reaching
 Earth’s surface carries a maximum power of about 1.3 kilowatts per square meter
 $$ \left({\text{kW/m}}^{2}\right)$$. A tiny fraction of this is retained
 by Earth over the long term. Our consumption rate of fossil fuels is far greater
@@ -272,7 +272,7 @@ A spark of static electricity, such as that you might receive from a doorknob on
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-The Crab Nebula (see [Figure 4](#fig4)) pulsar is the remnant of a supernova that occurred in A.D. 1054. Using data from [Figure](#import-auto-id2195139), calculate the approximate factor by which the power output of this astronomical object has declined since its explosion.
+The Crab Nebula (see [Figure 4](#fig4)) pulsar is the remnant of a supernova that occurred in A.D. 1054. Using data from [Table 1](#table1), calculate the approximate factor by which the power output of this astronomical object has declined since its explosion.
 
 ![A supernova explosion.](../resources/crabNebula.jpg "Crab Nebula (credit: ESO, via Wikimedia Commons)")
 
@@ -288,7 +288,7 @@ The Crab Nebula (see [Figure 4](#fig4)) pulsar is the remnant of a supernova tha
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Suppose a star 1000 times brighter than our Sun (that is, emitting 1000 times the power) suddenly goes supernova. Using data from [Figure](#import-auto-id2195139):
+Suppose a star 1000 times brighter than our Sun (that is, emitting 1000 times the power) suddenly goes supernova. Using data from [Table 1](##table1):
 (a) By what factor does its power output increase?
 (b) How many times brighter than our entire Milky Way galaxy is the supernova?
 (c) Based on your answers, discuss whether it should be possible to observe supernovas in distant galaxies. Note that there are on the order of $$ 10^{11} $$

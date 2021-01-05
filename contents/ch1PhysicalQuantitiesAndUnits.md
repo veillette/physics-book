@@ -145,7 +145,7 @@ of length, mass, and time.
 
 SI units are part of the **metric system**. The metric system is convenient for scientific and
 engineering calculations because the units are categorized by factors of 10.
-[Figure](#import-auto-id2643474) gives metric prefixes and symbols used to
+[Table 2](#table2) gives metric prefixes and symbols used to
 denote various factors of 10.
 
 Metric systems have the advantage that conversions of units involve only powers
@@ -220,7 +220,7 @@ are related to large-scale currents and forces between wires.
 
 The vastness of the universe and the breadth over which physics applies are
 illustrated by the wide range of examples of known lengths, masses, and times
-in [Figure](#import-auto-id1677589). Examination of this table will give you
+in [Table 2](#table2). Examination of this table will give you
 some feeling for the range of possible topics and numerical values. (
 See [Figure 5](#fig5) and [Figure 6](#fig6).)
 
@@ -574,7 +574,7 @@ speed of 4.0 cm/year.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) Refer to [Figure](#import-auto-id1677589) to determine the average distance between the Earth and the Sun.
+(a) Refer to [Table 2](#table2) to determine the average distance between the Earth and the Sun.
 Then calculate the average speed of the Earth in its orbit in kilometers per second.
 (b) What is this in meters per second?
 

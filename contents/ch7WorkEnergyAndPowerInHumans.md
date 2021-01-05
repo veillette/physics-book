@@ -53,7 +53,7 @@ digestive process is basically one of oxidizing food. We can measure the energy
 people use during various activities by measuring their oxygen use. (
 See [Figure 2](#fig2).) Approximately 20 kJ of energy are
 produced for each liter of oxygen consumed, independent of the type of
-food. [Figure](#import-auto-id1921441) shows energy and oxygen consumption
+food. [Table 1](#table1) shows energy and oxygen consumption
 rates (power expended) for a variety of activities.
 
 ### Power of Doing Useful Work
@@ -83,7 +83,7 @@ If a person who normally requires an average of 12 000 kJ (3000 kcal) of food en
 
 **Solution**
 
-[Figure](#import-auto-id1921441) states that 400 W are used when cycling at a
+[Table 2](#table2) states that 400 W are used when cycling at a
 moderate speed. The time required to work off 1000 kJ at this rate is then
 
 <div class="equation">

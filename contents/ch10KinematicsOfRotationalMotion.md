@@ -92,7 +92,7 @@ and average velocity $$ \overline{v} $$ are defined as follows:
 {0}+v}{2} . $$
 </div>
 
-The equations given above in [Figure](#import-auto-id3400476) can be used to
+The equations given above in [Table 1](#table1) can be used to
 solve any rotational or translational kinematics problem in which $$ a $$ and $$
 \alpha $$ are constant.
 
@@ -398,7 +398,7 @@ Rotational kinematics (just like linear kinematics) is descriptive and does not 
 * Starting with the four kinematic equations we
   developed in the [One-Dimensional Kinematics](../contents/ch2Kinematics.md), we can derive
   the four rotational kinematic equations (presented together with their
-  translational counterparts) seen in [Figure](#import-auto-id3400476).
+  translational counterparts) seen in [Table 1](#table1).
 * In these equations, the subscript 0 denotes initial
   values ($$ x_{0} $$ and $$ t_{0} $$ are initial values), and the average angular velocity $$
  \overline{\omega } $$ and average velocity $$ \overline{v} $$ are defined as
