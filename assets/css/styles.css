@@ -25,10 +25,6 @@ section.normal > .title {
     counter-reset: figure note exercise equation example table;
 }
 
-.book .book-body .page-wrapper .page-inner section.normal *[data-type='abstract'] {
-    display: none;
-}
-
 /* When the URL refers to in-page elements make them stand out a bit */
 :target {
     background-color: #ffd;
