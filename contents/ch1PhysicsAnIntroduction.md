@@ -10,7 +10,7 @@ layout: page
 </div>
 
 ![Two Canada geese flying close to each other in the sky.](../resources/Figure_01_01_01_aa.jpg "The flight formations of migratory birds such as Canada geese are governed by the laws of physics. (credit: David Merrett)")
-{: #Fig1}
+{: #fig1}
 
 The physical universe is enormously complex in its detail. Every day, each of us
 observes a great variety of objects and phenomena. Over the centuries, the
@@ -60,7 +60,7 @@ defines the **realm of physics**.
 Physics aims to describe the function of everything around us, from the movement
 of tiny charged particles to the motion of people, cars, and spaceships. In
 fact, almost everything around you can be described quite accurately by the laws
-of physics. Consider a smart phone ([Figure 2](#Fig2)). Physics
+of physics. Consider a smart phone ([Figure 2](#fig2)). Physics
 describes how electricity interacts with the various circuits inside the device.
 This knowledge helps engineers select the appropriate materials and circuit
 layout when building the smart phone. Next, consider a GPS system. Physics
@@ -70,7 +70,7 @@ GPS device in a vehicle, it utilizes these physics equations to determine the
 travel time from one location to another.
 
 ![A topographical map of a location is shown on an iPhone with some information about the location using the G P S system.](../resources/Figure_01_01_02_aa.jpg "The Apple &#x201C;iPhone&#x201D; is a common smart phone with a GPS function. Physics describes the way that electricity flows through the circuits of this device. Engineers use their knowledge of physics to construct an iPhone with features that consumers will enjoy. One specific feature of an iPhone is the GPS function. GPS uses physics equations to determine the driving time between two locations on a map. (credit: @gletham GIS, Social, Mobile Tech Images)&#10;                ")
-{: #Fig2 height="250"}
+{: #fig2 height="250"}
 
 ### Applications of Physics
 
@@ -78,7 +78,7 @@ You need not be a scientist to use physics. On the contrary, knowledge of
 physics is useful in everyday situations as well as in nonscientific
 professions. It can help you understand how microwave ovens work, why metals
 should not be put into them, and why they might affect pacemakers. 
-(See [Figure 3](#Fig3) and [Figure 4](#Fig4).) Physics allows you to understand the
+(See [Figure 3](#fig3) and [Figure 4](#fig4).) Physics allows you to understand the
 hazards of radiation and rationally evaluate these hazards more easily. Physics
 also explains the reason why a black car radiator helps remove heat in a car
 engine, and it explains why a white roof helps keep the inside of a house cool.
@@ -98,7 +98,7 @@ physics and other disciplines.
 
 Physics has many applications in the biological sciences. On the microscopic
 level, it helps describe the properties of cell walls and cell
-membranes ([Figure 5](#Fig5)) and [Figure 6](#Fig6)). On the macroscopic level, it can
+membranes ([Figure 5](#fig5)) and [Figure 6](#fig6)). On the macroscopic level, it can
 explain the heat, work, and power associated with the human body. Physics is
 involved in medical diagnostics, such as x-rays, magnetic resonance imaging (
 MRI), and ultrasonic blood flow measurements. Medical therapy sometimes directly
@@ -114,16 +114,16 @@ of science, so it is used by all of the sciences, and the study of physics makes
 other sciences easier to understand.
 
 ![A microwave oven is shown with some food on the nonmetal plate inside it.](../resources/Figure_01_01_03_aa.jpg "The laws of physics help us understand how common appliances work. For example, the laws of physics can help explain how microwave ovens heat up food, and they also help us understand why it is dangerous to place metal objects in a microwave oven. (credit: MoneyBlogNewz)")
-{: #Fig3}
+{: #fig3}
 
 ![M R I scan of a brain with specific tumors.](../resources/Figure_01_01_04_aa.jpg "These two applications of physics have more in common than meets the eye. Microwave ovens use electromagnetic waves to heat food. Magnetic resonance imaging (MRI) also uses electromagnetic waves to yield an image of the brain, from which the exact location of tumors can be determined. (credit: Rashmi Chawla, Daniel Smith, and Paul E. Marik)")
-{: #Fig4 height="225"}
+{: #fig4 height="225"}
 
 ![Cell membranes of onion cells, similar in appearance to a section of a brick wall.](../resources/Figure_01_01_05_aa.jpg "Physics, chemistry, and biology help describe the properties of cell walls in plant cells, such as the onion cells seen here. (credit: Umberto Salvagnin)")
-{: #Fig5}
+{: #fig5}
 
 ![A detailed diagram of a cell membrane is shown with parts labeled as Protein channel, Globular protein, Glycoprotein, Carbohydrate, Hydrophilic heads, Phospholipid bilayer , Phospholipid molecule, Hydrophobic tails, Alpha-Helix protein, Surface protein, Filaments of cytoskeleton, Integral protein, Peripheral protein, Glycolipid, and Cholesterol.](../resources/Figure_01_01_06_aa.jpg "An artist&#x2019;s rendition of the structure of a cell membrane. Membranes form the boundaries of animal cells and are complex in structure and function. Many of the most fundamental properties of life, such as the firing of nerve cells, are related to membranes. The disciplines of biology, chemistry, and physics all help us understand the membranes of animal cells. (credit: Mariana Ruiz)")
-{: #Fig6}
+{: #fig6}
 
 ### Models, Theories, and Laws; The Role of Experimentation
 
@@ -133,15 +133,15 @@ follow. Such laws are intrinsic to the universe; humans did not create them and
 so cannot change them. We can only discover and understand them. Their discovery
 is a very human endeavor, with all the elements of mystery, imagination,
 struggle, triumph, and disappointment inherent in any creative effort. (
-See [Figure 7](#Fig7) and [Figure 8](#Fig8).)
+See [Figure 7](#fig7) and [Figure 8](#fig8).)
 The cornerstone of discovering natural laws is observation; science must
 describe the universe as it is, not as we may imagine it to be.
 
 ![A portrait of Isaac Newton. ](../resources/Figure_01_01_07_aa.jpg "Isaac Newton (1642&#x2013;1727) was very reluctant to publish his revolutionary work and had to be convinced to do so. In his later years, he stepped down from his academic post and became exchequer of the Royal Mint. He took this post seriously, inventing reeding (or creating ridges) on the edge of coins to prevent unscrupulous people from trimming the silver off of them before using them as currency. (credit: Arthur Shuster and Arthur E. Shipley: Britain&#x2019;s Heritage of Science. London, 1917.)")
-{: #Fig7 height="275"}
+{: #fig7 height="275"}
 
 ![A photograph of Marie Curie](../resources/Figure_01_01_08_aa.jpg "Marie Curie (1867&#x2013;1934) sacrificed monetary assets to help finance her early research and damaged her physical well-being with radiation exposure. She is the only person to win Nobel prizes in both physics and chemistry. One of her daughters also won a Nobel Prize. (credit: Wikimedia Commons)&#10;                ")
-{: #Fig8 height="225"}
+{: #fig8 height="225"}
 
 We all are curious to some extent. We look around, make generalizations, and try
 to understand what we see—for example, we look up and wonder whether one type of
@@ -157,7 +157,7 @@ something that is often too difficult (or impossible) to display directly. While
 a model is justified with experimental proof, it is only accurate under limited
 situations. An example is the planetary model of the atom in which electrons are
 pictured as orbiting the nucleus, analogous to the way planets orbit the Sun. (
-See [Figure 9](#Fig9).) We cannot observe electron orbits
+See [Figure 9](#fig9).) We cannot observe electron orbits
 directly, but the mental image helps explain the observations we can make, such
 as the emission of light from hot gases (atomic spectra). Physicists use models
 for a variety of purposes. For example, models can help physicists analyze a
@@ -198,7 +198,7 @@ between laws and principles often is not carefully made.
 center and negatively charged particles moving in orbits
 around the nucleus.](../resources/Figure_01_atom.svg "What is a model? This planetary model of the atom shows 
 electrons orbiting the nucleus. It is a drawing that we use to form a mental 
-image of the atom that we cannot see directly with our eyes because it is too small."){: #Fig9 height="150"}
+image of the atom that we cannot see directly with our eyes because it is too small."){: #fig9 height="150"}
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -265,20 +265,20 @@ including astronomy, biology, chemistry, physics, mathematics, and medicine.
 Over the last few centuries, the growth of knowledge has resulted in
 ever-increasing specialization and branching of natural philosophy into separate
 fields, with physics retaining the most basic facets. (
-See [Figure 10](#Fig10), [Figure 11](#Fig11),
-and [Figure 12](#Fig12).) Physics as it developed from the
+See [Figure 10](#fig10), [Figure 11](#fig11),
+and [Figure 12](#fig12).) Physics as it developed from the
 Renaissance to the end of the 19th century is called **classical physics**. It was transformed into modern
 physics by revolutionary discoveries made starting at the beginning of the 20th
 century.
 
 ![A marble statue of Aristotle.](../resources/Figure_01_01_10_aa.jpg "Over the centuries, natural philosophy has evolved into more specialized disciplines, as illustrated by the contributions of some of the greatest minds in history. The Greek philosopher Aristotle (384&#x2013;322 B.C.) wrote on a broad range of topics including physics, animals, the soul, politics, and poetry. (credit: Jastrow (2006)/Ludovisi Collection)&#10;                ")
-{: #Fig10 height="225"}
+{: #fig10 height="225"}
 
 ![A painting of Galileo Galilei.](../resources/Figure_01_01_11_aa.jpg "Galileo Galilei (1564&#x2013;1642) laid the foundation of modern experimentation and made contributions in mathematics, physics, and astronomy. (credit: Domenico Tintoretto)&#10;                ")
-{: #Fig11 height="225"}
+{: #fig11 height="225"}
 
 ![A photograph of Niels Bohr](../resources/Figure_01_01_12_aa.jpg "Niels Bohr (1885&#x2013;1962) made fundamental contributions to the development of quantum mechanics, one part of modern physics. (credit: United States Library of Congress Prints and Photographs Division)&#10;                ")
-{: #Fig12 height="225"}
+{: #fig12 height="225"}
 
 Classical physics is not an exact description of the universe, but it is an
 excellent approximation under the following conditions: Matter must be moving at
@@ -294,7 +294,7 @@ with our senses might be like. For example, we can understand an atom’s
 properties because we can picture it in our minds, although we have never seen
 an atom with our eyes. New tools, of course, allow us to better picture
 phenomena we cannot see. In fact, new instrumentation has allowed us in recent
-years to actually “picture” the atom. (see [Figure 13](#Fig13).)
+years to actually “picture” the atom. (see [Figure 13](#fig13).)
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -305,7 +305,7 @@ For the laws of classical physics to apply, the following criteria must be met: 
 </div>
 
 ![A high-resolution image of gold sheet obtained from S T M.](../resources/Figure_01_01_13_aa.jpg "Using a scanning tunneling microscope (STM), scientists can see the individual atoms that compose this sheet of gold. (credit: Erwinrossen)")
-{: #Fig13 height="150"}
+{: #fig13 height="150"}
 
 Some of the most spectacular advances in science have been made in modern
 physics. Many of the laws of classical physics have been modified or rejected,
