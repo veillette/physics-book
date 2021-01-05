@@ -174,7 +174,7 @@ expected.
 
 The procedures for calculating the position and velocity at $$ t=2.00\s $$
 and $$ 3.00 \s $$ are the same as those above. The results are summarized
-in [Figure](#eip-304) and illustrated in [Figure](#import-auto-id4064055).
+in [Table 1](#table1) and illustrated in [Figure](#import-auto-id4064055).
 
 ##### Table: Results
 
@@ -183,7 +183,7 @@ in [Figure](#eip-304) and illustrated in [Figure](#import-auto-id4064055).
 | $$1.00 \s $$ | $$8.10 \m $$ | $$3.20 \ms $$ | $$-9.80 \mss $$ |
 | $$2.00 \s $$ | $$6.40 \m $$| $$-6.60 \ms $$ | $$-9.80 \mss $$ |
 | $$3.00 \s $$ | $$-5.10 \m $$ | $$-16.4 \ms $$ | $$-9.80 \mss $$|
-{: #eip-304}
+{: #table1}
 
 Graphing the data helps us understand it more clearly.
 

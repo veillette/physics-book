@@ -74,7 +74,7 @@ in the world.
 arrays in Manchester, Vermont, USA (credit: MarkBuckawicki, Wikimedia)")
 {: #import-auto-id2090554}
 
-[Figure](#import-auto-id1764068) displays the 2006 commercial energy mix by
+[Table 1](#table1) displays the 2006 commercial energy mix by
 country for some of the prime energy users in the world. While non-renewable
 sources dominate, some countries get a sizeable percentage of their electricity
 from renewable resources. For example, about 67% of New Zealand’s electricity
@@ -99,7 +99,7 @@ population, so these percentages in this table are left blank.
 |Russia|31|19%|53%|16%|5%|6%||5700|202|
 |U.S.|105|40%|23%|22%|8%|3%|1%|12500|340|
 |World|432|39%|23%|24%|6%|6%|2%|2600|71|
-{: #import-auto-id1764068}
+{: #table1}
 
 ### Energy and Economic Well-being
 

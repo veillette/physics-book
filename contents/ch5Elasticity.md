@@ -129,7 +129,7 @@ for several materials—those with a large $$ Y $$ are said to have a
 large tensile stiffness because they deform less for a given tension or
 compression. 
 
-##### Table: Elastic Moduli [^1]
+##### Table 1: Elastic Moduli [^1]
 
 |Material|Young’s modulus (tension–compression)Y $$(10^9 \text{N/m}^2)$$ |Shear modulus S $$(10^9 \text{N/m}^2) $$ | Bulk modulus B $$(10^9 \text{N/m}^2) $$ |
 |--- |--- |--- |--- |
@@ -157,12 +157,12 @@ compression.
 |Glycerin|||4.5|
 |Mercury|||25|
 |Water|||2.2|
-{: #import-auto-id1165298671576}
+{: #table1}
 
 [^1]: Footnote: Approximate and average values. Young’s moduli $$ Y $$ for tension and compression sometimes differ but are averaged here. Bone has significantly different Young’s moduli for tension and compression.
 
 Young’s moduli are not listed for liquids and gases
-in [Figure](#import-auto-id1165298671576) because they cannot be stretched or
+in [Table 1](#table1) because they cannot be stretched or
 compressed in only one direction. Note that there is an assumption that the
 object does not accelerate, so that there are actually two applied forces of
 magnitude $$ F $$ acting in opposite directions. For example, the strings
@@ -288,7 +288,7 @@ This small change in length seems reasonable, consistent with our experience
 that bones are rigid. In fact, even the rather large forces encountered during
 strenuous physical activity do not compress or bend bones by large amounts.
 Although bone is rigid compared with fat or muscle, several of the substances
-listed in [Figure](#import-auto-id1165298671576) have larger values of Young’s
+listed in [Table 1](#table1) have larger values of Young’s
 modulus $$ Y $$. In other words, they are more rigid.
 
 </div>
@@ -363,7 +363,7 @@ can be described with similar equations. The expression for
 </div>
 
 where $$ S $$ is the shear modulus (
-see [Figure](#import-auto-id1165298671576)) and $$ F $$ is the force applied
+see [Table 1](#table1)) and $$ F $$ is the force applied
 perpendicular to $$ L_{0} $$ and parallel to the cross-sectional area $$ A $$.
 Again, to keep the object from accelerating, there are actually two equal and
 opposite forces $$ F $$ applied across opposite faces, as illustrated
@@ -388,7 +388,7 @@ and parallel to the cross-sectional area $$ A $$.
 ![Bookcase sheared by a force applied at the bottom right toward the bottom left, and at the top left toward the top right.](../resources/Figure_06_03_06a.jpg "Shearing forces are applied perpendicular to the length \( L_0 \) and parallel to the area \( A \), producing a deformation  \( \Delta x \). Vertical forces are not shown, but it should be kept in mind that in addition to the two shearing forces, \( F \) , there must be supporting forces to keep the object from rotating. The distorting effects of these supporting forces are ignored in this treatment. The weight of the object also is not shown, since it is usually negligible compared with forces large enough to cause significant deformations.")
 {: #import-auto-id1165296375245}
 
-Examination of the shear moduli in [Figure](#import-auto-id1165298671576)
+Examination of the shear moduli in [Table 1](#table1)
 reveals some telling patterns. For example, shear moduli are less than Young’s
 moduli for most materials. Bone is a remarkable exception. Its shear modulus is
 not only greater than its Young’s modulus, but it is as large as that of steel.
@@ -442,7 +442,7 @@ see that all other quantities can be found:
 <div class="equation">
  $$ F= \frac{S A}{L_{0}} \Delta x. $$
 </div>
-*S* is found in [Figure](#import-auto-id1165298671576) and is
+*S* is found in [Table 1](#table1) and is
 $$ S=80 \times 10^{9} \text{N/m}^{2} $$. The radius $$ r $$
 is 0.750 mm (as seen in the figure), so the cross-sectional area is
 
@@ -497,7 +497,7 @@ change in volume to other physical quantities is given by
  $$ \Delta V=\frac{1}{B}\frac{F}{A} V_{0}, $$
 </div>
 
-where $$ B $$ is the bulk modulus (see [Figure](#import-auto-id1165298671576)),
+where $$ B $$ is the bulk modulus (see [Table 1](#table1)),
 $$ V_{0} $$ is the original volume, and $$ \frac{F}{A} $$ is the force per
 unit area applied uniformly inward on all surfaces. Note that
   no bulk moduli are given for gases.
@@ -535,7 +535,7 @@ Solving for the unknown $$ \frac{ \Delta V}{ V_{0}} $$ gives
  $$ \frac{ \Delta V}{ V_{0}}=\frac{1}{B}\frac{F}{A}. $$
 </div>
 Substituting known values with the value for the bulk modulus
-$$ B $$ from [Figure](#import-auto-id1165298671576),
+$$ B $$ from [Table 1](#table1),
 
 <div class="equation">
  $$ \begin{array}{lll}

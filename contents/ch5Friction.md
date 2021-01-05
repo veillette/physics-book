@@ -135,13 +135,13 @@ where $$ \mu_{\text{k}} $$ is the coefficient of kinetic friction.
 
 </div>
 
-As seen in [Figure](#import-auto-id1165298658126), the coefficients of kinetic
+As seen in [Table 1](#table1), the coefficients of kinetic
 friction are less than their static counterparts. That values of $$ \mu $$
-in [Figure](#import-auto-id1165298658126) are stated to only one or, at
+in [Table 1](#table1) are stated to only one or, at
 most, two digits is an indication of the approximate description of friction
 given by the above two equations.
 
-##### Table : Coefficients of friction
+##### Table 1: Coefficients of friction
 
 |System|Coefficients of Static friction $$ \mu_{\s} $$| Coefficients of Kinetic friction $$ \mu_{\text{k}} $$|
 |--- |--- |--- |
@@ -158,7 +158,7 @@ given by the above two equations.
 |Shoes on ice|0.1|0.05|
 |Ice on ice|0.1|0.03|
 |Steel on ice|0.04|0.02|
-{: #import-auto-id1165298658126}
+{: #table1}
 
 The equations given earlier include the dependence of friction on materials
 and the normal force. The direction of friction is always opposite that of
@@ -282,7 +282,7 @@ Substituting known values on the right-hand side of the equation,
 **Discussion**
 
 This result is a little smaller than the coefficient listed
-in [Figure](#import-auto-id1165298658126) for waxed wood on snow, but it is
+in [Table 1](#table1) for waxed wood on snow, but it is
 still reasonable since values of the coefficients of friction can vary greatly.
 In situations like this, where an object of mass $$ m $$ slides down a slope
 that makes an angle $$ \theta $$ with the horizontal, friction is given by $$ f_

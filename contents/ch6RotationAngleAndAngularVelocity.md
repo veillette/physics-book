@@ -74,9 +74,9 @@ $$ \Delta\theta $$ to be **radians** (rad), defined so that
 </div>
 
 A comparison of some useful angles expressed in both degrees and radians is
-shown in [Figure](#import-auto-id2588905).
+shown in [Table 1](#table1).
 
-##### Table: Comparison of Angular units
+##### Table 1: Comparison of Angular units
 
 |Degree Measures	|Radian Measure |
 | ------ | -----|
@@ -86,7 +86,7 @@ shown in [Figure](#import-auto-id2588905).
 |120º 	 |2𝜋/3 |
 |135º 	 |3𝜋/4 |
 |180º 	 |𝜋 |
-{: #import-auto-id2588905}
+{: #table1}
 
 ![A circle is shown. Two radii of the circle, inclined at an acute angle delta theta, are shown.
 On one of the radii, two points, one and two are marked. The point one is inside the circle through which an

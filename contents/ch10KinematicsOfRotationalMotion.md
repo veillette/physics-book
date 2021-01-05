@@ -80,7 +80,7 @@ following four rotational kinematic equations (presented together with their tra
 | $$\omega=\omega_0 + \alpha t $$ | $$v = v_0 + a t $$ | constant $$\alpha$$, constant $$a$$ |
 | $$\theta=\omega_0 t + \frac{1}{2} \alpha t^2 $$ | $$ x = v_0 t + \frac{1}{2} a t^2 $$ | constant $$\alpha$$, constant $$a$$ |
 | $$\omega^2= \omega_0^2 + 2 \alpha \theta $$ | $$ v^2 =v_0^2 + 2 a x $$ | constant $$\alpha$$, constant $$a$$ |
-{: #import-auto-id3400476}
+{: #table1}
 
 In these equations, the subscript 0 denotes initial values
 ($$ \theta_{0} $$, $$ x_{0} $$, and $$ t_{0} $$ are initial values),

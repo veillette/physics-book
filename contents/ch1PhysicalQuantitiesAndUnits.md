@@ -55,7 +55,7 @@ the French *Système International*.
 
 ### SI Units: Fundamental and Derived Units
 
-[Table 1](#import-auto-id3094653) gives the fundamental SI units that are used
+[Table 1](#table 1) gives the fundamental SI units that are used
 throughout this textbook. This text uses non-SI units in a few applications
 where they are in very common use, such as the measurement of blood pressure in
 millimeters of mercury (mm Hg). Whenever non-SI units are discussed, they will
@@ -66,7 +66,7 @@ be tied to SI units through conversions.
 |Length|Mass|Time|Electric Current|
 |--- |--- |--- |--- |
 |meter (m)|kilogram (kg)|second (s)|ampere (A)|
-{: #import-auto-id3094653}
+{: #table1}
 
 It is an intriguing fact that some physical quantities are more fundamental than
 others and that the most fundamental physical quantities can be defined **only**
@@ -193,7 +193,7 @@ are related to large-scale currents and forces between wires.
 
 </div>
 
-##### Table: Metric Prefixes for Powers of 10 and their Symbols
+##### Table 2: Metric Prefixes for Powers of 10 and their Symbols
 
 | Prefix| Symbol	| Value	| Example | | | Example (some are approximate) |
 | ---   | ---  | ---         | ---         | --- | ---           | --- |
@@ -214,7 +214,7 @@ are related to large-scale currents and forces between wires.
 | pico  |   p  | $$10^{-12}$$ |  picofarad  | pF  | $$10^{-12}$$ F |  small capacitor in radio |
 | femto	|   f  | $$10^{-15}$$ |  femtometer | fm  | $$10^{-15}$$ m |  size of a proton |
 | atto  |	a  | $$10^{-18}$$ |  attosecond | as  | $$10^{-18}$$ s  |  time light crosses an atom |
-{: #import-auto-id2643474}
+{: #table2}
 
 ### Known Ranges of Length, Mass, and Time
 
@@ -267,7 +267,7 @@ use this method to convert between any types of unit.
 The [\[Appendix\]](../contents/appAUsefulInformation.md) has a more complete list of conversion
 factors.
 
-##### Table: Approximate Values of Length, Mass, and Time
+##### Table 3: Approximate Values of Length, Mass, and Time
 
 | | Lengths in meters	| | Masses in kilograms (more precise values in parentheses) | |	Times in seconds (more precise values in parentheses)|
 | --- | --- | ---- | --- | ---| ---|
@@ -287,6 +287,7 @@ factors.
 | $$ 10^{21} $$ | Diameter of the Milky Way galaxy | $$ 10^{30} $$ | Mass of the Sun ($$ 1.99 \times 10^{30} $$ kg)  |
 | $$ 10^{22} $$ | Distance from the Earth to the nearest large galaxy (Andromeda) | $$ 10^{42} $$ | Mass of the Milky Way galaxy (current upper limit)|
 | $$ 10^{26} $$ | Distance from the Earth to the edges of the known universe | $$ 10^{53} $$ | Mass of the known universe (current upper limit)		|
+{: #table3}
 
 <div class="example" markdown="1">
 <div class="title">
