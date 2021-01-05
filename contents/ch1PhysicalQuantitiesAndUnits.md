@@ -55,7 +55,7 @@ the French *Système International*.
 
 ### SI Units: Fundamental and Derived Units
 
-[Table 1](#table 1) gives the fundamental SI units that are used
+[Table 1](#table1) gives the fundamental SI units that are used
 throughout this textbook. This text uses non-SI units in a few applications
 where they are in very common use, such as the measurement of blood pressure in
 millimeters of mercury (mm Hg). Whenever non-SI units are discussed, they will
@@ -220,7 +220,7 @@ are related to large-scale currents and forces between wires.
 
 The vastness of the universe and the breadth over which physics applies are
 illustrated by the wide range of examples of known lengths, masses, and times
-in [Table 2](#table2). Examination of this table will give you
+in [Table 3](#table3). Examination of this table will give you
 some feeling for the range of possible topics and numerical values. (
 See [Figure 5](#fig5) and [Figure 6](#fig6).)
 
@@ -264,7 +264,7 @@ $$
 Note that the unwanted m unit cancels, leaving only the desired km unit. You can
 use this method to convert between any types of unit.
 
-The [\[Appendix\]](../contents/appAUsefulInformation.md) has a more complete list of conversion
+The [Appendix](../contents/appAUsefulInformation.md) has a more complete list of conversion
 factors.
 
 ##### Table 3: Approximate Values of Length, Mass, and Time
