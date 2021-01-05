@@ -255,7 +255,7 @@ moving at constant speed despite friction. (See [Figure](../contents/ch7Conserva
 <div class="problem" markdown="1">
 Calculate the work done by an 85.0-kg man who pushes a crate 4.00 m up along a
 ramp that makes an angle of $$ 20.0^\circ $$ with the horizontal.
-(See [Figure](#fs-id2047040).) He exerts a force of 500 N
+(See [Figure](#fs-id40).) He exerts a force of 500 N
 on the crate parallel to the ramp and moves at a constant speed. Be certain to
 include the work he does on the crate *and* on his body to get up the ramp.
 

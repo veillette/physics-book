@@ -356,7 +356,7 @@ $$
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Confirm that the results of the example [Figure](#fs-id1311272) do conserve momentum in
+Confirm that the results of the example [Figure](#fs-id72) do conserve momentum in
 both the $$ x $$- and $$ y $$-directions.
 
 </div>

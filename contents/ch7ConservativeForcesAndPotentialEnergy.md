@@ -51,7 +51,7 @@ $$ \PE_{s} $$).
 law. (Hooke’s law was examined
 in [Elasticity: Stress and Strain](../contents/ch5Elasticity.md), and states that the
 magnitude of force $$ F $$ on the spring and the resulting deformation $$ \Delta
-L $$ are proportional, $$ F=k\Delta L $$.) (See [Figure](#fs-id1593673).) For
+L $$ are proportional, $$ F=k\Delta L $$.) (See [Figure](#fs-id73).) For
 our spring, we will replace $$ \Delta L $$
 (the amount of deformation produced by a force $$ F $$)
 by the distance $$ x $$ that the spring is stretched or compressed along its
@@ -63,7 +63,7 @@ compressing the spring is $$ W_{s}=F d =\left(\frac{ k x}{2}\right)
 x=\frac{1}{2}k x^{2} $$. Alternatively, we noted
 in [Kinetic Energy and the Work-Energy Theorem](../contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md) that the area
 under a graph of $$ F $$ vs. $$ x $$ is the work done by the force.
-In [Figure](#fs-id1593673)(c) we see that this area is also $$ \frac{1}{2}k
+In [Figure](#fs-id73)(c) we see that this area is also $$ \frac{1}{2}k
 x^{2} $$. We therefore define the **potential energy of a spring**, $$ \PE_{s} $$, to be
 
 <div class="equation">
@@ -253,7 +253,7 @@ take the final conditions in part (a) to be the initial conditions in part (b).
 
 Note that, for conservative forces, we do not directly calculate the work they
 do; rather, we consider their effects through their corresponding potential
-energies, just as we did in [Figure](#fs-id1893243). Note also that we do not
+energies, just as we did in [Figure](#fs-id43). Note also that we do not
 consider details of the path taken—only the starting and ending points are
 important (as long as the path is not impossible). This assumption is usually a
 tremendous simplification, because the path may be complicated and forces may

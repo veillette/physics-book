@@ -88,7 +88,7 @@ Thus, as expected, the net force is parallel to the displacement, so that $$
 The effect of the net force $$ \vb{F}_{\text{net}} $$ is to accelerate the
 package from $$ v_{0} $$ to $$ v $$. The kinetic energy of the package
 increases, indicating that the net work done on the system is positive. (
-See [Figure](#fs-id1703845).) By using Newton’s second law, and doing some
+See [Figure](#fs-id45).) By using Newton’s second law, and doing some
 algebra, we can reach an interesting conclusion. Substituting $$ F_
 {\text{net}}=ma $$ from Newton’s second law gives
 
@@ -410,7 +410,7 @@ Work done on a system puts energy into it. Work done by a system removes energy 
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-When solving for speed in [Figure](#fs-id1534836), we kept only the positive root. Why?
+When solving for speed in [Figure](#fs-id36), we kept only the positive root. Why?
 
 </div>
 </div>

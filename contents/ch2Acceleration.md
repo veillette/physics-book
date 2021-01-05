@@ -250,7 +250,7 @@ What are the distances traveled for the motions shown in parts (a) and (b) of th
 To answer this question, think about the definitions of distance and distance
 traveled, and how they are related to displacement. Distance between two
 positions is defined to be the magnitude of displacement, which was found
-in [Figure](#fs-id1744930). Distance traveled is the total length of the path
+in [Figure](#fs-id30). Distance traveled is the total length of the path
 traveled between the two positions. (
 See [Displacement](../contents/ch2Displacement.md).) In the case of the subway train shown
 in [Figure](#fig7), the distance traveled is the same as the
@@ -369,8 +369,8 @@ the velocity.
 </div>
 
 The graphs of position, velocity, and acceleration vs. time for the trains
-in [Figure](#fs-id1372721)
-and [Figure](#fs-id3600466) are displayed
+in [Figure](#fs-id21)
+and [Figure](#fs-id66) are displayed
 in [Figure](#fig10). (We have taken the velocity to remain
 constant from 20 to 40 s, after which the train decelerates.)
 
@@ -383,7 +383,7 @@ constant from 20 to 40 s, after which the train decelerates.)
 <div class="title">
 Calculating Average Velocity: The Subway Train
 </div>
-What is the average velocity of the train in part b of [Figure](#fs-id1744930), and shown again below, if it takes 5.00 min to make its trip?
+What is the average velocity of the train in part b of [Figure](#fs-id30), and shown again below, if it takes 5.00 min to make its trip?
 
 ![The train moves toward the left, from an initial position of 5 point 25 kilometers to a final position of 3 point 75 kilometers.](../resources/Figure_02_03_04a.jpg)
 {: #fig11}
@@ -399,7 +399,7 @@ since the train moves to the left and has a negative displacement.
 {0}=5.25 \text{km} $$, $$ \Delta t=5.00 \text{min} $$.
 
 2\. Determine displacement, $$ \Delta x^{\prime} $$. We found $$ \Delta
-x^{\prime} $$ to be $$ -1.5 \text{km} $$ in [Figure](#fs-id1744930).
+x^{\prime} $$ to be $$ -1.5 \text{km} $$ in [Figure](#fs-id30).
 
 3\. Solve for average velocity.
 
@@ -466,7 +466,7 @@ The plus sign means that acceleration is to the right. This is reasonable
 because the train initially has a negative velocity (to the left) in this
 problem and a positive acceleration opposes the motion (and so it is to the
 right). Again, acceleration is in the same direction as the *change* in
-velocity, which is positive here. As in [Figure](#fs-id3600466), this
+velocity, which is positive here. As in [Figure](#fs-id66), this
 acceleration can be called a deceleration since it is in the direction opposite
 to the velocity.
 
@@ -479,7 +479,7 @@ the answers. In our chosen coordinate system, plus means the quantity is to the
 right and minus means it is to the left. This is easy to imagine for
 displacement and velocity. But it is a little less obvious for acceleration.
 Most people interpret negative acceleration as the slowing of an object. This
-was not the case in [Figure](#fs-id4015260), where a positive acceleration
+was not the case in [Figure](#fs-id60), where a positive acceleration
 slowed a negative velocity. The crucial distinction was that the acceleration
 was in the opposite direction from the velocity. In fact, a negative
 acceleration will *increase* a negative velocity. For example, the train moving

@@ -298,7 +298,7 @@ Take-Home Experiment
 </div>
 An object will slide down an inclined plane at a constant velocity if the net force on the object
 is zero. We can use this fact to measure the coefficient of kinetic friction between two objects.
-As shown in [Figure](#fs-id1704828), the kinetic friction force on a slope
+As shown in [Figure](#fs-id28), the kinetic friction force on a slope
 $$ f_{\text{k}}=\mu_{\text{k}}mg \cos{\theta} $$.
 The component of the weight down the slope is equal to $$ mg \sin{\theta} $$
 (see the free-body diagram in [Figure](#fig3)). These
@@ -561,7 +561,7 @@ in the previous problem when friction becomes negligibly small $$ \left(
 <div class="problem" markdown="1">
 Calculate the deceleration of a snow boarder going up a $$ 5.0^\circ $$, slope
 assuming the coefficient of friction for waxed wood on wet snow. The
-result of [Figure](#fs-id1395614) may be useful, but be careful to consider the
+result of [Figure](#fs-id14) may be useful, but be careful to consider the
 fact that the snow boarder is going uphill. Explicitly show how you follow the
 steps in [Problem-Solving Strategies](../contents/ch4ProblemSolvingStrategies.md).
 
@@ -578,7 +578,7 @@ steps in [Problem-Solving Strategies](../contents/ch4ProblemSolvingStrategies.md
 slope, assuming the coefficient of friction for waxed wood on wet snow.
 (b) Find the angle of the slope down which this skier could coast at a constant velocity.
 You can neglect air resistance in both parts, and you will find the result
-of [Figure](#fs-id1395614) to be useful. Explicitly show how you follow the
+of [Figure](#fs-id14) to be useful. Explicitly show how you follow the
 steps in the [Problem-Solving Strategies](../contents/ch4ProblemSolvingStrategies.md).
 
 </div>
@@ -629,7 +629,7 @@ slip during the acceleration. (Ignore rolling.)
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Repeat [Figure](#fs-id1924033) for a car with four-wheel drive.
+Repeat [Figure](#fs-id33) for a car with four-wheel drive.
 
 </div>
 </div>
@@ -658,7 +658,7 @@ mass and that friction is evenly distributed among all of the cars and engines?
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Consider the 52.0-kg mountain climber in [Figure](#fs-id1165296580243).
+Consider the 52.0-kg mountain climber in [Figure](#fs-id43).
 (a) Find the tension in the rope and the force that the mountain climber must
 exert with her feet on the vertical rock face to remain stationary. Assume that
 the force is exerted parallel to her legs. Also, assume negligible force exerted
@@ -687,7 +687,7 @@ A contestant in a winter sporting event pushes a 45.0-kg block of ice across a f
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Repeat [Figure](#fs-id1531145) with the contestant pulling the block of ice with a rope over his shoulder at the same angle above the horizontal as shown in [Figure](#fig6)(b).
+Repeat [Figure](#fs-id45) with the contestant pulling the block of ice with a rope over his shoulder at the same angle above the horizontal as shown in [Figure](#fig6)(b).
 
 ![(a) A block of ice is being pushed by a contestant in a winter sporting event across a frozen lake at an angle of twenty five degrees. (b) A block of ice is being pulled by a contestant in a winter sporting event across a frozen lake at an angle of twenty five degrees.](../resources/Figure_06_01_07a.jpg "Which method of sliding a block of ice requires less force&#x2014;(a) pushing or (b) pulling at the same angle above the horizontal?")
 {: #fig6 height="304"}

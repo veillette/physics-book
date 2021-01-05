@@ -584,7 +584,7 @@ line, who will win the race, assuming they run at constant velocity?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Verify that the coin dropped by the airline passenger in the [Figure](#fs-id1890300)
+Verify that the coin dropped by the airline passenger in the [Figure](#fs-id00)
 travels 144 m horizontally while falling 1.50 m in the frame of reference of the Earth.
 
 </div>
@@ -633,7 +633,7 @@ which is what was calculated.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) In what direction would the ship in [Figure](#fs-id1545568) have to
+(a) In what direction would the ship in [Figure](#fs-id68) have to
 travel in order to have a velocity straight north relative to the Earth, assuming its speed relative to the water remains $$ 7.00 \ms $$ ?
 (b) What would its speed be relative to the Earth?
 

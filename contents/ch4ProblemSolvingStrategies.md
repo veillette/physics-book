@@ -385,7 +385,7 @@ the masses of the toboggan and children.
 
 **Unreasonable Results**
 
- (a) Repeat [Figure](#fs-id1673888), but assume an acceleration of $$ 1.20 \mss $$ is produced.
+ (a) Repeat [Figure](#fs-id88), but assume an acceleration of $$ 1.20 \mss $$ is produced.
  (b) What is unreasonable about the result?
  (c) Which premise is unreasonable, and why is it unreasonable?
 
