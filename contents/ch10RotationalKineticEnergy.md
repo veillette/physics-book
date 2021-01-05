@@ -152,8 +152,8 @@ yields
 
 <div class="equation">
  $$ \begin{array}{lll}
-\text{net}W& =& rF\theta =\left(0.320 \m \right)\left(200 \N \right)\left(1.00 \text{rad}\right)\\
- & =& 64.0 \N \cdot \m .
+\text{net}W&=& rF\theta =\left(0.320 \m \right)\left(200 \N \right)\left(1.00 \text{rad}\right)\\
+\text{net}W&=& 64.0 \N \cdot \m .
 \end{array} $$
 </div>
 Noting that $$ 1 \N·\m =1 \J $$,
@@ -308,8 +308,8 @@ Entering $$ \omega $$ and $$ I $$ into the expression for rotational kinetic ene
 
 <div class="equation">
  $$ \begin{array}{lll}
-\KE_{\text{rot}}& =& 0.5\left(1067 \kg \cdot \mm\right){\left(31.4 \rads \right)}^{2}\\
- & =& 5.26\times 10^{5} \J
+\KE_{\text{rot}}&=& 0.5\left(1067 \kg \cdot \mm\right){\left(31.4 \rads \right)}^{2}\\
+\KE_{\text{rot}}&=& 5.26\times 10^{5} \J
 \end{array} $$
 </div>
 

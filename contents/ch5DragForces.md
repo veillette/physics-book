@@ -171,9 +171,9 @@ and a drag coefficient of approximately $$ C=0.70 $$. We find that
 
 <div class="equation">
  $$ \begin{array}{lll}
-v& =& \sqrt{\frac{2\left(75 \kg \right)\left(9.80 \mss \right)}{\left(1.21 \kg/\m^{3}\right)\left(0.70\right)\left(0.18 \mm\right)}}\\
- & =& 98 \ms \\
- & =& 350 \text{km/h}.
+v&=& \sqrt{\frac{2\left(75 \kg \right)\left(9.80 \mss \right)}{\left(1.21 \kg/\m^{3}\right)\left(0.70\right)\left(0.18 \mm\right)}}\\
+v&=& 98 \ms \\
+v&=& 350 \text{km/h}.
 \end{array} $$
 </div>
 
@@ -227,9 +227,9 @@ Using our equation for $$ v_{\text{t}} $$, we find that
 
 <div class="equation">
  $$ \begin{array}{lll}
-v_{\text{t}}& =& \sqrt{\frac{2\left(85\kg \right)\left(9.80\mss \right)}{\left(1.21\text{kg/m}^{3}\right)
+v_{\text{t}}&=& \sqrt{\frac{2\left(85\kg \right)\left(9.80\mss \right)}{\left(1.21\text{kg/m}^{3}\right)
 \left(1.0\right)\left(0.70 \mm\right)}}\\
- & =& 44 \ms .
+v_{\text{t}}&=& 44 \ms .
 \end{array} $$
 </div>
 

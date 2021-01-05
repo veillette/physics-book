@@ -57,17 +57,17 @@ Pythagorean theorem:
 
 <div class="equation">
  $$ \begin{array}{lll}
-F_{\text{app}}& =& \sqrt{ F_{x}^{2}+F_{y}^{2}} \\
-F_{\text{app}}& =& \sqrt{\left(2.7\times 10^{5}\N \right)^{2}+\left(3.6\times 10^{5}\N \right)^{2}}
-& =& 4.5\times 10^{5}\N .
+F_{\text{app}}&=& \sqrt{ F_{x}^{2}+F_{y}^{2}} \\
+F_{\text{app}}&=& \sqrt{\left(2.7\times 10^{5}\N \right)^{2}+\left(3.6\times 10^{5}\N \right)^{2}}
+F_{\text{app}}&=& 4.5\times 10^{5}\N .
 \end{array} $$
 </div>
 The angle is given by
 
 <div class="equation">
 $$ \begin{array}{lll}
-\theta & =& {\tan}^{-1}\left(\frac{ F_{y}}{ F_{x}}\right)\\
-\theta & =& {\tan}^{-1}\left(\frac{3.6\times 10^{5}\N }{2.7\times 10^{5}\N }\right)=53^\circ,
+\theta &=& {\tan}^{-1}\left(\frac{ F_{y}}{ F_{x}}\right)\\
+\theta &=& {\tan}^{-1}\left(\frac{3.6\times 10^{5}\N }{2.7\times 10^{5}\N }\right)=53^\circ,
 \end{array} $$
 </div>
 which we know, because of Newton’s first law, is the same direction
@@ -295,10 +295,10 @@ his weight:
 
 <div class="equation">
  $$ \begin{array}{lll}
-F_{\text{net}}& =& ma =0=F_{\s}-w\\
-F_{\s}& =& w=mg \\
-F_{\s}& =& \left(75.0 \kg \right)\left(9.80 \mss \right)\\
-F_{\s}& =& 735 \N .
+F_{\text{net}}&=& ma =0=F_{\s}-w\\
+F_{\s}&=& w=mg \\
+F_{\s}&=& \left(75.0 \kg \right)\left(9.80 \mss \right)\\
+F_{\s}&=& 735 \N .
 \end{array} $$
 </div>
 So, the scale reading in the elevator is greater than his 735-N (165 lb) weight. This means that the scale is pushing up on the person with a force greater than his weight, as it must in order to accelerate him upward. Clearly, the greater the acceleration of the elevator, the greater the scale reading, consistent with what you feel in rapidly accelerating versus slowly accelerating elevators.
@@ -400,8 +400,8 @@ Substituting the known values yields
 
 <div class="equation">
  $$ \begin{array}{lll}
-a& =& \frac{8.00 \ms }{2.50 \s} \\
- & =& 3.20 \mss .
+a&=& \frac{8.00 \ms }{2.50 \s} \\
+a&=& 3.20 \mss .
 \end{array} $$
 </div>
 
@@ -425,8 +425,8 @@ Substituting the known values of $$ m $$ and $$ a $$ gives
 
 <div class="equation">
  $$ \begin{array}{lll}
-F_{\text{net}}& =& \left(70.0 \kg \right)\left(3.20 \mss \right)\\
-& =& 224 \N .
+F_{\text{net}}&=& \left(70.0 \kg \right)\left(3.20 \mss \right)\\
+F_{\text{net}}&=& 224 \N .
 \end{array} $$
 </div>
 

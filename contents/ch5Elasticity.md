@@ -192,8 +192,8 @@ All quantities are known. Thus,
 
 <div class="equation">
  $$ \begin{array}{lll}
-\Delta L& =& \left(\frac{1}{210 \times 10^{9}\text{N/m}^{2}}\right)\left(\frac{3.0\times 10^{6}\N }{2.46\times 10^{-3} \mm}\right)\left(3020 \m \right)\\
-& =& 18 \m .
+\Delta L&=& \left(\frac{1}{210 \times 10^{9}\text{N/m}^{2}}\right)\left(\frac{3.0\times 10^{6}\N }{2.46\times 10^{-3} \mm}\right)\left(3020 \m \right)\\
+\Delta L&=& 18 \m .
 \end{array} $$
 </div>
 
@@ -277,8 +277,8 @@ for Young’s modulus for bone must be used here. Thus,
 
 <div class="equation">
  $$ \begin{array}{lll}
-\Delta L& =& \left(\frac{1}{9\times 10^{9}\text{N/m}^{2}}\right)\left(\frac{607.6 \N }{1.257\times 10^{-3} \mm}\right)\left(0.400 \m \right)\\
-& =& 2\times 10^{-5}\m .
+\Delta L&=& \left(\frac{1}{9\times 10^{9}\text{N/m}^{2}}\right)\left(\frac{607.6 \N }{1.257\times 10^{-3} \mm}\right)\left(0.400 \m \right)\\
+\Delta L&=& 2\times 10^{-5}\m .
 \end{array} $$
 </div>
 
@@ -539,10 +539,8 @@ $$ B $$ from [Figure](#import-auto-id1165298671576),
 
 <div class="equation">
  $$ \begin{array}{lll}
-\frac{ \Delta V}{ V_{0}}
-& =& \frac{5.00\times 10^{7} \N/\mm }
-{2.2\times 10^{9} \N/\mm} \\
-& =& 0.023=2.3%.
+\frac{ \Delta V}{ V_0}&=& \frac{5.00\times 10^{7} \N/\mm }{2.2\times 10^{9} \N/\mm} \\
+\frac{ \Delta V}{ V_0}&=& 0.023=2.3%.
 \end{array} $$
 </div>
 

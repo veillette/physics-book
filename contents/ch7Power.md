@@ -76,9 +76,9 @@ Entering known values yields
 
 <div class="equation">
  $$ \begin{array}{lll}
-P& =& \frac{0.5\left(60.0 \kg \right){\left(2.00  \ms \right)}^{2}+\left(60.0 \kg \right)\left( 9.80 \mss \right)\left(3.00 \m \right)}{3.50 \s  }\\
-& =& \frac{120  \J +1764  \J }{3.50 \s  }\\
-& =& 538 \text{W} .
+P&=& \frac{0.5\left(60.0 \kg \right){\left(2.00  \ms \right)}^{2}+\left(60.0 \kg \right)\left( 9.80 \mss \right)\left(3.00 \m \right)}{3.50 \s  }\\
+P&=& \frac{120  \J +1764  \J }{3.50 \s  }\\
+P&=& 538 \text{W} .
 \end{array} $$
 </div>
 
@@ -193,8 +193,8 @@ The energy consumed in $$ \text{kW}\cdot \text{h} $$ is
 
 <div class="equation">
  $$ \begin{array}{lll}
-E& =& P t=\left(0.200\text{kW}\right)\left(6.00\text{h/d}\right)\left(30.0\text{d}\right)\\
-& = & 36.0 \text{kW}\cdot \text{h,}
+E&=& P t=\left(0.200\text{kW}\right)\left(6.00\text{h/d}\right)\left(30.0\text{d}\right)\\
+E&=& 36.0 \text{kW}\cdot \text{h,}
 \end{array} $$
 </div>
 and the cost is simply given by
@@ -442,11 +442,10 @@ $$ F=f+w=600 \N +mg \sin{\theta} $$ Insert this into the expression for
 power and solve:
 
 $$ \begin{array}{lll}
-P& =& \left( f+mg \sin{\theta} \right)v \\
- & =&  \left[600 \N +\left(950 \kg \right)\left(9.80 \mss
-\right) \sin{2^\circ }\right]
+P&=& \left( f+mg \sin{\theta} \right)v \\
+P&=&  \left[600 \N +\left(950 \kg \right)\left(9.80 \mss \right) \sin{2^\circ }\right]
 \left(30.0  \ms \right)\\
-& =& 2.77\times 10^{4} \text{W}
+P&=& 2.77\times 10^{4} \text{W}
 \end{array} $$
 About 28 kW (or about 37 hp) is reasonable for a car to climb a gentle incline.
 

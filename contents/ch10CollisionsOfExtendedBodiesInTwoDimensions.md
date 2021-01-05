@@ -109,9 +109,9 @@ The value of $$ I^{\prime} $$ is now entered into the expression for $$ \omega^\
 
 <div class="equation">
  $$ \begin{array}{lll}
-\omega^\prime & =& \frac{ mvr }{I^{\prime} }=\frac
+\omega^\prime &=& \frac{ mvr }{I^{\prime} }=\frac
 {\left(0.0500 \kg \right)\left(30.0 m/s\right)\left(1.20 \m \right)}{1.032 \kg \cdot \mm}\\
- & =& 1.744 \rads \approx 1.74 \rads .
+\omega^\prime &=& 1.744 \rads \approx 1.74 \rads .
 \end{array} $$
 </div>
 
@@ -133,10 +133,10 @@ After the collision, the rotational kinetic energy can be found because we now k
 
 <div class="equation">
  $$ \begin{array}{lll}
-\KE^\prime & =& \frac{1}{2}I^{\prime} {\omega^\prime}^{2}
+\KE^\prime &=& \frac{1}{2}I^{\prime} {\omega^\prime}^{2}
 =\left(0.5\right)\left(1.032\kg
 \cdot \mm\right){\left(1.744\frac{ \text{rad}}{\s}\right)}^{2}\\
-& =& 1.57 \J .
+\KE^\prime &=& 1.57 \J .
 \end{array} $$
 </div>
 

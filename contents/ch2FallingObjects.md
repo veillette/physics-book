@@ -382,9 +382,9 @@ y=y_{0}+v_{0}t+\frac{1}{2}a t^{2} $$ to solve for $$ t $$. Inserting $$ a=-g $$,
 
 <div class="equation">
  $$ \begin{array}{lll}
-y& =& 0+0-\frac{1}{2}g t^{2} \\
-t^{2}& =& \frac{2y}{-g}\\
-t& =& \pm \sqrt{\frac{2y}{-g}}= \pm \sqrt{\frac{2\left(-30.0 \m \right)}{-9.80 \mss }^{2}}}= \pm \sqrt{6.12 \s  ^{2}}=2.47 \s \approx 2.5 \s
+y&=& 0+0-\frac{1}{2}g t^{2} \\
+t^{2}&=& \frac{2y}{-g}\\
+t&=& \pm \sqrt{\frac{2y}{-g}}= \pm \sqrt{\frac{2\left(-30.0 \m \right)}{-9.80 \mss }^{2}}}= \pm \sqrt{6.12 \s  ^{2}}=2.47 \s \approx 2.5 \s
 \end{array} $$
 </div>
 where we take the positive value as the physically relevant answer.
@@ -546,9 +546,9 @@ $$ y $$. Solving for $$ y $$ gives
 
 <div class="equation">
  $$ \begin{array}{lll}
-v^{2}-v_{0}^{2}& =& 2a\left(y-y_{0}\right)\\
-\frac{ v^{2}-v_{0}^{2}}{2a}& =& y-y_{0}\\
-y& =& y_{0}+\frac{ v^{2}-v_{0}^{2}}{2a}=0 m+\frac{ {\left(0 \ms \right)}^{2}-{\left(13.0 \ms \right)}^{2}}{2\left(-9.80 \mss \right)}=8.62 \m
+v^{2}-v_{0}^{2}&=& 2a\left(y-y_{0}\right)\\
+\frac{ v^{2}-v_{0}^{2}}{2a}&=& y-y_{0}\\
+y&=& y_{0}+\frac{ v^{2}-v_{0}^{2}}{2a}=0 m+\frac{ {\left(0 \ms \right)}^{2}-{\left(13.0 \ms \right)}^{2}}{2\left(-9.80 \mss \right)}=8.62 \m
 \end{array} $$
 </div>
 Dolphins measure about 2 meters long and can jump several times their length out of the water, so this is a reasonable result.

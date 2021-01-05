@@ -246,9 +246,9 @@ Thus,
 
 <div class="equation">
  $$ \begin{array}{lll}
-F_{\text{V}y}& =& w_{\text{ub}}+w_{\text{box}}+ F_{\text{B}}
+F_{\text{V}y}&=& w_{\text{ub}}+w_{\text{box}}+ F_{\text{B}}
 \sin{29.0^\circ }\\
- & =& 833 \N +\left(4200 \N \right)\sin{29.0^\circ }
+F_{\text{V}y}&=& 833 \N +\left(4200 \N \right)\sin{29.0^\circ }
 \end{array} $$
 </div>
 yielding
@@ -386,17 +386,17 @@ Verify that the force in the elbow joint in [Figure](#fs-id1169737940047) is 407
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
  $$ \begin{array}{lll}
-F_{\text{B}}& =& 470 \N ;r_{1}=4.00 \text{cm};
+F_{\text{B}}&=& 470 \N ;r_{1}=4.00 \text{cm};
 w_{\text{a}}=2.50 \kg ; r_{2}= 16.0 \text{cm};
 w_{\text{b}}=4.00 \kg ; r_{3}=38.0 \text{cm}\\
-F_{\text{E}}& =& w_{\text{a}}
+F_{\text{E}}&=& w_{\text{a}}
 \left(\frac{r_{2}}{r_{1}}-1\right)+w_{\text{b}}\left(\frac{r_{3}}{r_{1}}-1\right)\\
- & =& \left(2.50 \kg \right)\left(9.80 \mss \right)
+ &=& \left(2.50 \kg \right)\left(9.80 \mss \right)
 \left(\frac{16.0 \text{cm}}{4.0 \text{cm}}-1\right)\\
  & &
 +\left(4.00 \kg \right)\left(9.80 \mss \right)
 \left(\frac{38.0 \text{cm}}{4.00 \text{cm}}-1\right)\\
- & =& 407 \N
+ &=& 407 \N
 \end{array} $$
 
 </div>
@@ -421,7 +421,9 @@ The upper leg muscle (quadriceps) exerts a force of 1250 N, which is carried by 
 
 </div>
 <div class="solution" markdown="1">
- $$ \begin{array}{c}1.1\times 10^{3}\N \\ \theta =190^\circ\text{ccw from positive}x\text{axis}
+ $$ \begin{array}{c}
+1.1\times 10^{3}\N \\ 
+\theta =190^\circ\text{ccw from positive}x\text{axis}
 \end{array} $$
 
 </div>

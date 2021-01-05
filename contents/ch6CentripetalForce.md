@@ -100,9 +100,9 @@ Now we have a relationship between centripetal force and the coefficient of fric
 Using the first expression for $$ F_{\text{c}} $$
  from the equation
 <div class="equation">
-$$ \begin{array}{c}
-{F}_{\text{c}}=m\frac{ v^{2}}{r}\\
-{F}_{\text{c}}= mr \omega^{2}
+$$ \begin{array}{lll}
+{F}_{\text{c}}&=&m\frac{ v^{2}}{r}\\
+{F}_{\text{c}}&=& mr \omega^{2}
 \end{array}, $$
 </div>
 
@@ -134,9 +134,9 @@ digits.)
 We could also solve part (a) using the first expression in
 $$
 \left.
-\begin{array}{c}
-F_{\text{c}}=m\frac{ v^{2}}{r}\\
-F_{\text{c}}=mr\omega^{2}
+\begin{array}{lll}
+F_{\text{c}}&=&m\frac{ v^{2}}{r}\\
+F_{\text{c}}&=&mr\omega^{2}
 \end{array}
 \right\} ,
 $$
@@ -211,8 +211,9 @@ and substituting this into the first yields
 </div>
 
 <div class="equation">
- $$ \begin{array}{rrr}mg \tan\left(\theta \right)& =& \frac{ mv^{2}}{r}\\
-\tan{\theta} & =& \frac{ v^{2}}{rg} .
+ $$ \begin{array}{rrr}
+mg \tan\left(\theta \right)&=& \frac{ mv^{2}}{r}\\
+\tan{\theta} &=& \frac{ v^{2}}{rg} .
 \end{array} $$
 </div>
 
@@ -260,8 +261,8 @@ Noting that $$\tan{65.0^\circ } = 2.14 $$, we obtain
 
 <div class="equation">
  $$ \begin{array}{lll}
-v& =& \sqrt{\left(100 \m \right) \left(9.80 \mss \right)\left(2.14\right)}\\
- & =& 45.8 \ms .
+v&=& \sqrt{\left(100 \m \right) \left(9.80 \mss \right)\left(2.14\right)}\\
+v&=& 45.8 \ms .
 \end{array} $$
 </div>
 

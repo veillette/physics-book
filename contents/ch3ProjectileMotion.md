@@ -261,8 +261,8 @@ Note that the final vertical velocity, $$ v_{y} $$, at the highest point is zero
 
 <div class="equation">
  $$ \begin{array}{lll}
-t& =& \frac{2y}{\left(v_{0y}+v_{y}\right)}=\frac{2\left(233 \m \right)}{\left(67.6 \ms \right)}\\
- & =& 6.90 \s .
+t&=& \frac{2y}{\left(v_{0y}+v_{y}\right)}=\frac{2\left(233 \m \right)}{\left(67.6 \ms \right)}\\
+t&=& 6.90 \s .
 \end{array} $$
 </div>
 
@@ -692,8 +692,8 @@ distances from where the projectile was launched to where it lands?
 </div>
 <div class="solution" markdown="1">
  $$ \begin{array}{lll}
-x& =& 1.30 \m \times 10^{2}\\
-y& =& 30.9 \m .
+x&=& 1.30 \m \times 10^{2}\\
+y&=& 30.9 \m .
 \end{array} $$
 </div>
 </div>

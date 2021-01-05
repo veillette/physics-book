@@ -38,9 +38,9 @@ simplified notation, with the initial time taken to be zero,
 
 <div class="equation">
  $$ \begin{array}{lll}
-\Delta t& =& t\\
-\Delta x& =& x-x_{0}\\
-\Delta v& =& v-v_{0}
+\Delta t&=& t\\
+\Delta x&=& x-x_{0}\\
+\Delta v&=& v-v_{0}
 \end{array} $$
 </div>
 where *the subscript 0 denotes an initial value and the absence of a subscript
@@ -723,9 +723,9 @@ Rearrange to solve for $$ t $$.
   0; final values have no subscript. Thus,
   <div class="equation">
  $$ \begin{array}{lll}
- \Delta t& =& t\\
- \Delta x& =& x-x_{0}\\
- \Delta v& =& v-v_{0}
+ \Delta t&=& t\\
+ \Delta x&=& x-x_{0}\\
+ \Delta v&=& v-v_{0}
  \end{array} $$
   </div>
 

@@ -479,17 +479,17 @@ Square each equation to get
 
 <div class="equation">
  $$ \begin{array}{lll}
-v_{1}^{2}& =& { v^{\prime}_{1}}^{2}{\cos}^{2}{\theta_{1}}+{ v^{\prime}_{2}}^{2}{\cos}^{2}{\theta_{2}}+2v^{\prime}_{1}v^{\prime}_{2}\cos{\theta_{1}}\cos{\theta_{2}}\\
-0 & =& { v^{\prime}_{1}}^{2}{\sin}^{2}{\theta_{1}}+{ v^{\prime}_{2}}^{2}{\sin}^{2}{\theta_{2}}+2v^{\prime}_{1}v^{\prime}_{2}\sin{\theta_{1}}\sin{\theta_{2}}.
+v_{1}^{2}&=& { v^{\prime}_{1}}^{2}{\cos}^{2}{\theta_{1}}+{ v^{\prime}_{2}}^{2}{\cos}^{2}{\theta_{2}}+2v^{\prime}_{1}v^{\prime}_{2}\cos{\theta_{1}}\cos{\theta_{2}}\\
+0 &=& { v^{\prime}_{1}}^{2}{\sin}^{2}{\theta_{1}}+{ v^{\prime}_{2}}^{2}{\sin}^{2}{\theta_{2}}+2v^{\prime}_{1}v^{\prime}_{2}\sin{\theta_{1}}\sin{\theta_{2}}.
 \end{array} $$
 </div>
 Add these two equations and simplify:
 
 <div class="equation">
  $$ \begin{array}{lll}
-v_{1}^{2}& =& { v^{\prime}_{1}}^{2}+{ v^{\prime}_{2}}^{2}+2 v^{\prime}_{1}  v^{\prime}_{2} \left(\cos{\theta_{1}}\cos{\theta_{2}}+\sin{\theta_{1}}\sin{\theta_{2}}\right)\\
-& =& { v^{\prime}_{1}}^{2}+{ v^{\prime}_{2}}^{2}+2v^{\prime}_{1}v^{\prime}_{2}\left[\frac{1}{2}\cos\left({\theta_{1}}-{\theta_{2}}\right)+\frac{1}{2}\cos\left({\theta_{1}}+{\theta_{2}}\right)+\frac{1}{2}\cos\left({\theta_{1}}-{\theta_{2}}\right)-\frac{1}{2}\cos\left({\theta_{1}}+{\theta_{2}}\right)\right]\\
- & =& { v^{\prime}_{1}}^{2}+{ v^{\prime}_{2}}^{2}+2v^{\prime}_{1}v^{\prime}_{2}\cos\left({\theta_{1}}-{\theta_{2}}\right).
+v_{1}^{2}&=& { v^{\prime}_{1}}^{2}+{ v^{\prime}_{2}}^{2}+2 v^{\prime}_{1}  v^{\prime}_{2} \left(\cos{\theta_{1}}\cos{\theta_{2}}+\sin{\theta_{1}}\sin{\theta_{2}}\right)\\
+v_{1}^{2}&=& { v^{\prime}_{1}}^{2}+{ v^{\prime}_{2}}^{2}+2v^{\prime}_{1}v^{\prime}_{2}\left[\frac{1}{2}\cos\left({\theta_{1}}-{\theta_{2}}\right)+\frac{1}{2}\cos\left({\theta_{1}}+{\theta_{2}}\right)+\frac{1}{2}\cos\left({\theta_{1}}-{\theta_{2}}\right)-\frac{1}{2}\cos\left({\theta_{1}}+{\theta_{2}}\right)\right]\\
+v_{1}^{2}&=& { v^{\prime}_{1}}^{2}+{ v^{\prime}_{2}}^{2}+2v^{\prime}_{1}v^{\prime}_{2}\cos\left({\theta_{1}}-{\theta_{2}}\right).
 \end{array} $$
 </div>
 Multiply the entire equation by $$ \frac{1}{2}m $$ to recover the kinetic energy:

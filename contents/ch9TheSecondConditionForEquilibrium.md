@@ -173,9 +173,10 @@ second,
 and third,
 
 <div class="equation">
- $$ \begin{array}{lll}{\tau }_{\text{p}}& =& r_{\text{p}}{F}_{\text{p}}\\
- & =& 0\cdot F_{\text{p}}\\
- & =& 0.
+ $$ \begin{array}{lll}
+\tau_{\text{p}}&=& r_{\text{p}}{F}_{\text{p}}\\
+\tau_{\text{p}}&=& 0\cdot F_{\text{p}}\\
+\tau_{\text{p}}&=& 0.
 \end{array} $$
 </div>
 Note that a minus sign has been inserted into the second equation because this torque is clockwise and is therefore negative by convention. Since $$ F_{\text{p}} $$ acts directly on the pivot point, the distance $$ r_{\text{p}} $$
@@ -240,8 +241,9 @@ $$ F_{\text{p}}=m_{1}g+m_{2}g. $$
 Entering known values gives
 
 <div class="equation">
- $$ \begin{array}{lll}{F}_{\text{p}}& =& \left(26.0 \kg \right)\left(9.80\mss \right)+\left(32.0 \kg \right)\left(9.80\mss \right)\\
- & =& 568 \N .
+ $$ \begin{array}{lll}
+F_{\text{p}}&=& \left(26.0 \kg \right)\left(9.80\mss \right)+\left(32.0 \kg \right)\left(9.80\mss \right)\\
+F_{\text{p}}&=& 568 \N .
 \end{array} $$
 </div>
 
@@ -410,8 +412,8 @@ Given:
 
 <div class="equation">
  $$ \begin{array}{ccc}
-m_{1}& =& 26.0 \kg ,m_{2}=32.0 \kg , m_{\s}=12.0 \kg ,\\
-r_{1}& =& 1.60 \m , r_{\s}=0.160 \m , \text{find (a)}r_{2,}\text{(b)}{F}_{\text{p}}
+m_{1}&=& 26.0 \kg ,m_{2}=32.0 \kg , m_{\s}=12.0 \kg ,\\
+r_{1}&=& 1.60 \m , r_{\s}=0.160 \m , \text{find (a)}r_{2,}\text{(b)}{F}_{\text{p}}
 \end{array} $$
 </div>
 a) Since children are balancing:
@@ -426,24 +428,25 @@ So, solving for $$ r_{2} $$ gives:
 
 <div class="equation">
  $$ \begin{array}{lll}
-r_{2}& =& \frac{ w_{1}r_{1}+m_{\s}{gr}_{\s}}{ w_{2}}=\frac{ m_{1}{gr}_{1}+m_{\s}{gr}_{\s}}{ m_{2}g}=\frac{ m_{1}r_{1}+m_{\s}r_{\s}}{ m_{2}}\\
- & =& \frac{ \left(26.0 \kg \right)\left(1.60 \m \right)+\left(12.0 \kg \right)\left(0.160 \m \right)}{32.0 \kg }\\
- & =& 1.36 \m
+r_{2}&=& \frac{ w_{1}r_{1}+m_{\s}{gr}_{\s}}{ w_{2}}=\frac{ m_{1}{gr}_{1}+m_{\s}{gr}_{\s}}{ m_{2}g}=\frac{ m_{1}r_{1}+m_{\s}r_{\s}}{ m_{2}}\\
+r_{2}&=& \frac{ \left(26.0 \kg \right)\left(1.60 \m \right)+\left(12.0 \kg \right)\left(0.160 \m \right)}{32.0 \kg }\\
+r_{2}&=& 1.36 \m
 \end{array} $$
 </div>
 b) Since the children are not moving:
 
 <div class="equation">
  $$ \begin{array}{}
-\text{net}F=0=F_{\text{p}}-w_{1}-w_{2}-w_{\s}\\ ⇒{F}_{\text{p}}=w_{1}+w_{2}+w_{s}
+\text{net}F=0=F_{\text{p}}-w_{1}-w_{2}-w_{\s}\\ 
+⇒{F}_{\text{p}}=w_{1}+w_{2}+w_{s}
 \end{array} $$
 </div>
 So that
 
 <div class="equation">
  $$ \begin{array}{lll}
-F_{\text{p}}& =& \left(26.0 \kg +32.0 \kg +12.0 \kg \right)\left(9.80 \mss \right)\\
-& =& 686 \N
+F_{\text{p}}&=& \left(26.0 \kg +32.0 \kg +12.0 \kg \right)\left(9.80 \mss \right)\\
+F_{\text{p}}&=& 686 \N
 \end{array} $$
 </div>
 </div>

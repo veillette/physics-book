@@ -212,9 +212,9 @@ Solving for the final speed and entering known values yields
 
 <div class="equation">
 $$ \begin{array}{lll}
-v_{f}& =& \sqrt{\frac{k}{m}} x_{i}  \\
-     & =& \sqrt{\frac{250.0 \text{N/m}}{0.100 \kg } } \left(0.0400 \m \right)\\
-     & =& 2.00 \ms .
+v_{f}&=& \sqrt{\frac{k}{m}} x_{i}  \\
+v_{f}&=& \sqrt{\frac{250.0 \text{N/m}}{0.100 \kg } } \left(0.0400 \m \right)\\
+v_{f}&=& 2.00 \ms .
 \end{array} $$
 </div>
 
@@ -236,10 +236,10 @@ Solving for $$ v_{\text{f}} $$ and substituting known values gives
 
 <div class="equation">
  $$ \begin{array}{lll}
-v_{f}& =& \sqrt{\frac{ k x_{\text{i}}^{2}}{m}-2 g h_{\text{f}}}\\
-     & =& \sqrt{\left(\frac{250.0 \text{N/m}}{0.100 \kg }\right)
+v_{f}&=& \sqrt{\frac{ k x_{\text{i}}^{2}}{m}-2 g h_{\text{f}}}\\
+v_{f}&=& \sqrt{\left(\frac{250.0 \text{N/m}}{0.100 \kg }\right)
 \left(0.0400 \m \right)^{2}-2\left(9.80\mss \right) \left(0.180 \m \right) }\\
- & =& 0.687 \ms .
+v_{f}&=& 0.687 \ms .
 \end{array} $$
 </div>
 

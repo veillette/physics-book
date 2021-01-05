@@ -245,11 +245,8 @@ and $$ v_{\text{w}y} $$ are known, we can find the magnitude and direction of $$
 
 <div class="equation">
  $$ \begin{array}{lll}
-v_{\text{w}}& =& \sqrt{ v_{\text{w}x}^{2}+v_{\text{w}y}^{2}}\\
-& =& \sqrt{
-\left(-13.0 \ms \right)^{2}+
-\left(-9.29 \ms \right)^{2}
-}
+v_\text{w}&=& \sqrt{ v_{\text{w}x}^{2}+v_{\text{w}y}^{2}}\\
+v_\text{w}&=& \sqrt{\left(-13.0 \ms \right)^{2}+\left(-9.29 \ms \right)^{2}}
 \end{array} $$
 </div>
 so that
