@@ -23,7 +23,7 @@ removed—that is, the deformation is elastic for small deformations. Second, th
 size of the deformation is proportional to the force—that is, for small
 deformations, Hooke’s law is obeyed. In equation form, **Hooke’s law** is given by
 
-<div class="equation" id="eip-940">
+<div class="equation">
  $$ F=k\Delta L, $$
 </div>
 
@@ -33,7 +33,7 @@ composition of the object and the direction of the force. Note that this force
 is a function of the deformation $$ \Delta L $$ —it is not constant as a kinetic
 friction force is. Rearranging this to
 
-<div class="equation" id="eip-72">
+<div class="equation">
  $$ \Delta L=\frac{F}{k} $$
 </div>
 
@@ -50,7 +50,7 @@ cause permanent deformation or fracture of a material.
 <div class="title">
 Hooke’s Law
 </div>
-<div class="equation" id="eip-319">
+<div class="equation">
  $$ F= k\Delta L, $$
 </div>
 where $$ \Delta L $$ is the amount of deformation (the change in length, for example)
@@ -58,7 +58,7 @@ produced by the force $$ F $$, and $$ k $$
 is a proportionality constant that depends on the shape and composition of the
 object and the direction of the force.
 
-<div class="equation" id="eip-516">
+<div class="equation">
  $$ \Delta L=\frac{F}{k} $$
 </div>
 </div>
@@ -117,7 +117,7 @@ area of the wire or rod. For example, a long guitar string will stretch more
 than a short one, and a thick string will stretch less than a thin one. We can
 combine all these factors into one equation for $$ \Delta L $$:
 
-<div class="equation" id="eip-511">
+<div class="equation">
  $$ \Delta L=\frac{1}{Y}\frac{F}{A} L_{0}, $$
 </div>
 
@@ -190,7 +190,7 @@ change in length.
 
 All quantities are known. Thus,
 
-<div class="equation" id="eip-657">
+<div class="equation">
  $$ \begin{array}{lll}
 \Delta L& =& \left(\frac{1}{210 \times 10^{9}\text{N/m}^{2}}\right)\left(\frac{3.0\times 10^{6}\N }{2.46\times 10^{-3} \mm}\right)\left(3020 \m \right)\\
 & =& 18 \m .
@@ -264,7 +264,7 @@ uniform rod that is 40.0 cm long and 2.00 cm in radius.
 
 The force is equal to the weight supported, or
 
-<div class="equation" id="eip-843">
+<div class="equation">
  $$ F=mg =\left(62.0 \kg \right)\left(9.80 \mss \right)=607.6 \N , $$
 </div>
 and the cross-sectional area is $$ \pi r^{2}=1.257 \times 10^{-3} \mm $$. The equation $$ \Delta L=\frac{1}{Y}\frac{F}{A} L_{0} $$
@@ -275,7 +275,7 @@ can be used to find the change in length.
 All quantities except $$ \Delta L $$ are known. Note that the compression value
 for Young’s modulus for bone must be used here. Thus,
 
-<div class="equation" id="eip-24">
+<div class="equation">
  $$ \begin{array}{lll}
 \Delta L& =& \left(\frac{1}{9\times 10^{9}\text{N/m}^{2}}\right)\left(\frac{607.6 \N }{1.257\times 10^{-3} \mm}\right)\left(0.400 \m \right)\\
 & =& 2\times 10^{-5}\m .
@@ -296,7 +296,7 @@ modulus $$ Y $$. In other words, they are more rigid.
 The equation for change in length is traditionally rearranged and written in the
 following form:
 
-<div class="equation" id="eip-725">
+<div class="equation">
  $$ \frac{F}{A}=Y\frac{ \Delta L}{ L_{0}}. $$
 </div>
 
@@ -306,7 +306,7 @@ to length, $$ \frac{ \Delta L}{ L_{0}} $$, is defined as
 **strain**
 (a unitless quantity). In other words,
 
-<div class="equation" id="eip-760">
+<div class="equation">
  $$ \text{stress}=Y \times \text{strain}. $$
 </div>
 
@@ -314,13 +314,13 @@ In this form, the equation is analogous to Hooke’s law, with stress analogous 
 force and strain analogous to deformation. If we again rearrange this equation
 to the form
 
-<div class="equation" id="eip-77">
+<div class="equation">
  $$ F= Y A \frac{ \Delta L}{ L_{0}}, $$
 </div>
 
 we see that it is the same as Hooke’s law with a proportionality constant
 
-<div class="equation" id="eip-903">
+<div class="equation">
  $$ k=\frac{ Y A}{ L_{0}}. $$
 </div>
 
@@ -344,7 +344,7 @@ Strain
 The ratio of the change in length to length, $$ \frac{ \Delta L}{ L_{0}} $$,
 is defined as strain (a unitless quantity). In other words,
 
-<div class="equation" id="eip-282">
+<div class="equation">
  $$ \text{stress}=Y×\text{strain}. $$
 </div>
 </div>
@@ -358,7 +358,7 @@ compression. Shear deformation behaves similarly to tension and compression and
 can be described with similar equations. The expression for
 **shear deformation** is
 
-<div class="equation" id="eip-178">
+<div class="equation">
  $$ \Delta x=\frac{1}{S}\frac{F}{A} L_{0}, $$
 </div>
 
@@ -376,7 +376,7 @@ rods (large $$ S $$ ).
 <div class="title">
 Shear Deformation
 </div>
-<div class="equation" id="eip-894">
+<div class="equation">
  $$ \Delta x=\frac{1}{S}\frac{F}{A} L_{0}, $$
 </div>
 where $$ S $$ is the shear modulus and $$ F $$
@@ -439,24 +439,24 @@ can be solved for $$ F $$.
 Solving the equation $$ \Delta x=\frac{1}{S}\frac{F}{A} L_{0} $$ for $$ F $$, we
 see that all other quantities can be found:
 
-<div class="equation" id="eip-458">
+<div class="equation">
  $$ F= \frac{S A}{L_{0}} \Delta x. $$
 </div>
 *S* is found in [Figure](#import-auto-id1165298671576) and is
 $$ S=80 \times 10^{9} \text{N/m}^{2} $$. The radius $$ r $$
 is 0.750 mm (as seen in the figure), so the cross-sectional area is
 
-<div class="equation" id="eip-365">
+<div class="equation">
  $$ A=\pi r^{2}=1.77 \times 10^{-6} \mm. $$
 </div>
 The value for $$ L_{0} $$ is also shown in the figure. Thus,
 
-<div class="equation" id="eip-736">
+<div class="equation">
  $$ F=\frac{ \left(80 \times 10^{9} \text{N/m}^{2}\right)\left(1.77 \times 10^{-6} \mm\right)}{\left(5.00 \times 10^{-3}\m \right)}\left(1.80 \times 10^{-6}\m \right)=51 \N . $$
 </div>
 This 51 N force is the weight $$ w $$ of the picture, so the picture’s mass is
 
-<div class="equation" id="eip-147">
+<div class="equation">
  $$ m=\frac{w}{g}=\frac{F}{g}=5.2 \kg . $$
 </div>
 
@@ -493,7 +493,7 @@ discussed. (This is not surprising, since a compression of the entire object is
 equivalent to compressing each of its three dimensions.) The relationship of the
 change in volume to other physical quantities is given by
 
-<div class="equation" id="eip-63">
+<div class="equation">
  $$ \Delta V=\frac{1}{B}\frac{F}{A} V_{0}, $$
 </div>
 
@@ -531,13 +531,13 @@ $$ are known.
 
 Solving for the unknown $$ \frac{ \Delta V}{ V_{0}} $$ gives
 
-<div class="equation" id="eip-646">
+<div class="equation">
  $$ \frac{ \Delta V}{ V_{0}}=\frac{1}{B}\frac{F}{A}. $$
 </div>
 Substituting known values with the value for the bulk modulus
 $$ B $$ from [Figure](#import-auto-id1165298671576),
 
-<div class="equation" id="eip-818">
+<div class="equation">
  $$ \begin{array}{lll}
 \frac{ \Delta V}{ V_{0}}
 & =& \frac{5.00\times 10^{7} \N/\mm }
@@ -587,7 +587,7 @@ Hooke's Law
 ### Section Summary
 
 * Hooke’s law is given by
-  <div class="equation" id="eip-149">
+  <div class="equation">
  $$ F=k\Delta L, $$
   </div>
 
@@ -597,7 +597,7 @@ Hooke's Law
   force. The relationship between the deformation and the applied force can also
   be written as
 
-  <div class="equation" id="eip-556">
+  <div class="equation">
  $$ \Delta L=\frac{1}{Y}\frac{F}{A} L_{0}, $$
   </div>
 
@@ -609,12 +609,12 @@ Hooke's Law
 * The ratio of the change in length to length,
  $$ \frac{ \Delta L}{ L_{0}} $$, is defined as *strain* (a unitless quantity).
   In other words,
-  <div class="equation" id="eip-98">
+  <div class="equation">
  $$ \text{stress}=Y \times \text{strain}. $$
   </div>
 
 * The expression for shear deformation is
-  <div class="equation" id="eip-19">
+  <div class="equation">
  $$ \Delta x=\frac{1}{S}\frac{F}{A} L_{0}, $$
   </div>
 
@@ -624,7 +624,7 @@ Hooke's Law
 
 * The relationship of the change in volume to
   other physical quantities is given by
-  <div class="equation" id="eip-492">
+  <div class="equation">
  $$ \Delta V=\frac{1}{B}\frac{F}{A} V_{0}, $$
   </div>
 
@@ -708,7 +708,7 @@ rod 35.0 cm long and 1.80 cm in radius. Her mass is 60.0 kg.
 
 </div>
 <div class="solution">
-<div class="equation" id="eip-id1565399">
+<div class="equation">
  $$ 1.90 \times 10^{-3}\text{cm} $$
 </div>
 </div>
@@ -809,7 +809,7 @@ taking the vertebra to be a cylinder 3.00 cm high and 4.00 cm in diameter.
 
 </div>
 <div class="solution">
-<div class="equation" id="eip-id1373472">
+<div class="equation">
  $$ 1.49 \times 10^{-7}\m $$
 </div>
 </div>

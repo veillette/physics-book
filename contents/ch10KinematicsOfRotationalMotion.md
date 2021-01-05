@@ -29,7 +29,7 @@ time. Let us start by finding an equation relating $$ \omega $$, $$ \alpha $$,
 and $$ t $$. To determine this equation, we recall a familiar kinematic equation
 for translational, or straight-line, motion:
 
-<div class="equation" id="eip-580">
+<div class="equation">
  $$ v=v_{0}+ at \left(\text{constant } a\right) $$
 </div>
 
@@ -39,13 +39,13 @@ kinematics, we assume $$ a $$ is constant, which means that angular acceleration
 $$ \alpha $$ is also a constant, because $$ a= r\alpha $$. Now, let us
 substitute $$ v=r \omega $$ and $$ a= r\alpha $$ into the linear equation above:
 
-<div class="equation" id="eip-343">
+<div class="equation">
  $$ r \omega =r \omega_{0}+ r\alpha t . $$
 </div>
 
 The radius $$ r $$ cancels in the equation, yielding
 
-<div class="equation" id="eip-323">
+<div class="equation">
  $$ \omega =\omega_{0} +a t \left(\text{constant } a\right), $$
 </div>
 
@@ -87,7 +87,7 @@ In these equations, the subscript 0 denotes initial values
 and the average angular velocity $$ \overline{\omega } $$
 and average velocity $$ \overline{v} $$ are defined as follows:
 
-<div class="equation" id="eip-900">
+<div class="equation">
  $$ \overline{\omega }=\frac{ \omega_{0} +\omega }{2}; \overline{v}=\frac{ v_
 {0}+v}{2} . $$
 </div>
@@ -140,13 +140,13 @@ The most straightforward equation to use is $$ \omega =\omega_{0} +\alpha t $$
 because the unknown is already on one side and all other terms are known. That
 equation states that
 
-<div class="equation" id="eip-826">
+<div class="equation">
  $$ \omega =\omega_{0} +\alpha t . $$
 </div>
 We are also given that $$ \omega_{0} =0 $$
 (it starts from rest), so that
 
-<div class="equation" id="eip-74">
+<div class="equation">
  $$ \omega =0+\left( 110 \radss \right)\left(2.00\s \right) =220\rads . $$
 </div>
 
@@ -154,12 +154,12 @@ We are also given that $$ \omega_{0} =0 $$
 
 Now that $$ \omega $$ is known, the speed $$ v $$ can most easily be found using the relationship
 
-<div class="equation" id="eip-825">
+<div class="equation">
  $$ v=r \omega , $$
 </div>
 where the radius $$ r $$ of the reel is given to be 4.50 cm; thus,
 
-<div class="equation" id="eip-147">
+<div class="equation">
  $$ v=\left(0.0450 \m \right)\left(220 \rads \right)=9.90 \ms . $$
 </div>
 Note again that radians must always be used in any calculation relating linear and angular quantities. Also, because radians are dimensionless, we have $$ \m ×\text{rad}=\m $$.
@@ -172,7 +172,7 @@ in radians. We are given $$ \alpha $$ and $$ t $$, and we know $$ \omega_{0} $$
 is zero, so that $$ \theta $$ can be obtained using $$ \theta =\omega_{0}
 t+\frac{1}{2} \alpha t^{2} $$.
 
-<div class="equation" id="eip-252">
+<div class="equation">
  $$ \begin{array}{lll}
 \theta & =& \omega_{0} t+\frac{1}{2}\alpha t^{2}\\
  & =& 0+\left(0.500\right)\left(110 \radss \right){\left(2.00 \s \right)}^{2}=220 \text{rad}.
@@ -180,7 +180,7 @@ t+\frac{1}{2} \alpha t^{2} $$.
 </div>
 Converting radians to revolutions gives
 
-<div class="equation" id="eip-689">
+<div class="equation">
  $$ \theta =\left(220 \text{rad}\right)\frac{1 \text{rev}}{2 \pi \text{rad}}
 =35.0 \text{rev} . $$
 </div>
@@ -190,7 +190,7 @@ Converting radians to revolutions gives
 The number of meters of fishing line is $$ x $$, which
 can be obtained through its relationship with $$ \theta $$:
 
-<div class="equation" id="eip-665">
+<div class="equation">
  $$ x=r\theta = \left(0.0450 \m \right)\left(220 \text{rad} \right)=9.90 \m . $$
 </div>
 
@@ -231,12 +231,12 @@ use this equation.
 
 The equation states
 
-<div class="equation" id="eip-736">
+<div class="equation">
  $$ \omega =\omega_{0}+ \alpha t . $$
 </div>
 We solve the equation algebraically for *t*, and then substitute the known values as usual, yielding
 
-<div class="equation" id="eip-309">
+<div class="equation">
  $$ t=\frac{ \omega -\omega_{0} }{\alpha }=\frac{0-220 \rads }
 {-300 \radss }=0.733 \s  . $$
 </div>
@@ -271,23 +271,23 @@ radius of the wheels $$ r $$, and the angular acceleration $$ \alpha $$.
 The distance $$ x $$ is very easily found from the relationship between distance
 and rotation angle:
 
-<div class="equation" id="eip-36">
+<div class="equation">
  $$ \theta =\frac{x}{r}. $$
 </div>
 Solving this equation for $$ x $$ yields
 
-<div class="equation" id="eip-53">
+<div class="equation">
  $$ x=r\theta . $$
 </div>
 Before using this equation, we must convert the number of revolutions into radians, because we are dealing with a relationship between linear and rotational quantities:
 
-<div class="equation" id="eip-915">
+<div class="equation">
  $$ \theta =\left(200\text{rev}\right)\frac{2\pi \text{rad}}{1 \text{rev}}=1257\text{rad}. $$
 </div>
 Now we can substitute the known values into $$ x= r\theta $$
 to find the distance the train moved down the track:
 
-<div class="equation" id="eip-271">
+<div class="equation">
  $$ x= r\theta =\left(0.350 \m \right)\left(1257 \text{rad}\right)=440 \m . $$
 </div>
 
@@ -298,12 +298,12 @@ because the equation would have at least two unknown values. The equation $$
 \omega^{2}=\omega_{0}^{2}+2 \alpha \theta $$ will work, because we know the
 values for all variables except $$ \omega $$:
 
-<div class="equation" id="eip-401">
+<div class="equation">
  $$ \omega^{2}=\omega_{0}^{2}+2 \alpha \theta $$
 </div>
 Taking the square root of this equation and entering the known values gives
 
-<div class="equation" id="eip-6">
+<div class="equation">
  $$ \begin{array}{lll}
 \omega & =& {\left[ 0+ 2\left(0.250 \radss \right)
 \left(1257 \text{rad}\right)\right]}^{1/2} \\
@@ -313,7 +313,7 @@ Taking the square root of this equation and entering the known values gives
 We can find the linear velocity of the train, $$ v $$,
 through its relationship to $$ \omega $$:
 
-<div class="equation" id="eip-84">
+<div class="equation">
  $$ v=r \omega =\left(0.350 \m\right)\left(25.1 \rads \right)=8.77 \ms . $$
 </div>
 
@@ -347,20 +347,20 @@ $$ \theta $$ because $$ \overline{\omega } $$ is given to be 6.0 rpm.
 
 Entering known values into $$ \theta =\overline{\omega }t $$ gives
 
-<div class="equation" id="eip-477">
+<div class="equation">
  $$ \theta =\overline{\omega} t=\left(6.0 \text{rpm}\right)\left(2.0 \text{min}\right)=12 \text{rev}. $$
 </div>
 As always, it is necessary to convert revolutions to radians before
 calculating a linear quantity like $$ x $$ from an angular quantity like $$ \theta $$:
 
-<div class="equation" id="eip-745">
+<div class="equation">
  $$ \theta =\left(12 \text{rev}\right)\left(\frac{2\pi \text{rad}}{1 \text
 {rev}}\right)=75.4\text{rad.} $$
 </div>
 Now, using the relationship between $$ x $$
 and $$ \theta $$, we can determine the distance traveled:
 
-<div class="equation" id="eip-624">
+<div class="equation">
  $$ x=r \theta =\left(0.15\m \right)\left(75.4\text{rad}\right)
 =11\m . $$
 </div>
@@ -403,7 +403,7 @@ Rotational kinematics (just like linear kinematics) is descriptive and does not 
   values ($$ x_{0} $$ and $$ t_{0} $$ are initial values), and the average angular velocity $$
  \overline{\omega } $$ and average velocity $$ \overline{v} $$ are defined as
   follows:
-  <div class="equation" id="eip-462">
+  <div class="equation">
  $$ \overline{\omega }=\frac{ \omega_{0} +\omega }{2}\text{ and }\overline{v}=\frac{ v_{0}+v}{2}. $$
   </div>
 

@@ -39,7 +39,7 @@ force. It is a measure of the effectiveness of a force in changing or
 accelerating a rotation (changing the angular velocity over a period of time).
 In equation form, the magnitude of torque is defined to be
 
-<div class="equation" id="eip-645">
+<div class="equation">
  $$ \tau =rF\sin{\theta} $$
 </div>
 
@@ -54,13 +54,13 @@ given in terms of the **perpendicular lever arm** $$ r_{\perp } $$ as shown
 in [Figure](#import-auto-id3533620)
 and [Figure](#import-auto-id2573920), which is defined as
 
-<div class="equation" id="eip-505">
+<div class="equation">
  $$ r_{\perp }=r\sin{\theta} $$
 </div>
 
 so that
 
-<div class="equation" id="eip-139">
+<div class="equation">
  $$ \tau =r_{\perp }F. $$
 </div>
 
@@ -113,7 +113,7 @@ point in or out of the system of interest. (This is true only in an inertial
 frame of reference.) The second condition necessary to achieve equilibrium is
 stated in equation form as
 
-<div class="equation" id="eip-143">
+<div class="equation">
  $$ \text{net}\tau =0 $$
 </div>
 
@@ -156,23 +156,23 @@ The three external forces acting on the system are the weights of the two
 children and the supporting force of the pivot. Let us examine the torque
 produced by each. Torque is defined to be
 
-<div class="equation" id="eip-632">
+<div class="equation">
  $$ \tau =rF\sin{\theta} . $$
 </div>
 Here $$ \theta =90^\circ $$, so that $$ \sin{\theta} =1 $$ for all three forces.
 That means $$ r_{\perp }=r $$ for all three. The torques exerted by the three forces are first,
 
-<div class="equation" id="eip-308">
+<div class="equation">
  $$ \tau_{1}=r_{1}w_{1} $$
 </div>
 second,
 
-<div class="equation" id="eip-488">
+<div class="equation">
  $$ \tau_{2}=-r_{2}w_{2} $$
 </div>
 and third,
 
-<div class="equation" id="eip-280">
+<div class="equation">
  $$ \begin{array}{lll}{\tau }_{\text{p}}& =& r_{\text{p}}{F}_{\text{p}}\\
  & =& 0\cdot F_{\text{p}}\\
  & =& 0.
@@ -184,27 +184,27 @@ directly on the hinges of a door will not cause it to rotate. Now, the second
 condition for equilibrium is that the sum of the torques on both children is
 zero. Therefore
 
-<div class="equation" id="eip-443">
+<div class="equation">
  $$ \tau_{2}=-\tau_{1}, $$
 </div>
 or
 
-<div class="equation" id="eip-55">
+<div class="equation">
  $$ r_{2}w_{2}=r_{1}w_{1}. $$
 </div>
 Weight is mass times the acceleration due to gravity. Entering $$ mg $$ for $$ w $$, we get
 
-<div class="equation" id="eip-486">
+<div class="equation">
  $$ r_{2}m_{2}g=r_{1}m_{1}g. $$
 </div>
 Solve this for the unknown $$ r_{2} $$:
 
-<div class="equation" id="eip-573">
+<div class="equation">
  $$ r_{2}=r_{1}\frac{ m_{1}}{ m_{2}}. $$
 </div>
 The quantities on the right side of the equation are known; thus, $$ r_{2} $$ is
 
-<div class="equation" id="eip-42">
+<div class="equation">
  $$ r_{2}=\left(1.60 \m \right)\frac{26.0 \kg }{32.0 \kg }=1.30 \m . $$
 </div>
 As expected, the heavier child must sit closer to the pivot (1.30 m versus 1.60 m) to balance the seesaw.
@@ -214,32 +214,32 @@ As expected, the heavier child must sit closer to the pivot (1.30 m versus 1.60 
 This part asks for a force $$ F_{\text{p}} $$. The easiest way to find it is to
 use the first condition for equilibrium, which is
 
-<div class="equation" id="eip-903">
+<div class="equation">
  $$ \text{net}\vb{F}=0. $$
 </div>
 The forces are all vertical, so that we are dealing with a one-dimensional problem along the vertical axis; hence, the condition can be written as
 
-<div class="equation" id="eip-156">
+<div class="equation">
  $$ \text{net} F_{y}=0 $$
 </div>
 where we again call the vertical axis the *y*-axis. Choosing upward to be the positive direction, and using plus and minus signs to indicate the directions of the forces, we see that
 
-<div class="equation" id="eip-287">
+<div class="equation">
 $$ F_{\text{p}}-w_{1}-w_{2}=0. $$
 </div>
 This equation yields what might have been guessed at the beginning:
 
-<div class="equation" id="eip-569">
+<div class="equation">
 $$ F_{\text{p}}=w_{1}+w_{2}. $$
 </div>
 So, the pivot supplies a supporting force equal to the total weight of the system:
 
-<div class="equation" id="eip-660">
+<div class="equation">
 $$ F_{\text{p}}=m_{1}g+m_{2}g. $$
 </div>
 Entering known values gives
 
-<div class="equation" id="eip-830">
+<div class="equation">
  $$ \begin{array}{lll}{F}_{\text{p}}& =& \left(26.0 \kg \right)\left(9.80\mss \right)+\left(32.0 \kg \right)\left(9.80\mss \right)\\
  & =& 568 \N .
 \end{array} $$
@@ -290,7 +290,7 @@ Take a piece of modeling clay and put it on a table, then mash a cylinder down i
 * The second condition assures those torques are also
   balanced. Torque is the rotational equivalent of a force in producing a
   rotation and is defined to be
-  <div class="equation" id="eip-958">
+  <div class="equation">
  $$ \tau =rF\sin{\theta} $$
   </div>
 
@@ -300,13 +300,13 @@ Take a piece of modeling clay and put it on a table, then mash a cylinder down i
   directed from the point where the force acts to the pivot point. The
   perpendicular lever arm $$ r_{\perp } $$ is defined to be
 
-  <div class="equation" id="eip-1000">
+  <div class="equation">
  $$ r_{\perp }=r\sin{\theta} $$
   </div>
 
   so that
 
-  <div class="equation" id="eip-196">
+  <div class="equation">
  $$ \tau =r_{\perp }F. $$
   </div>
 
@@ -315,7 +315,7 @@ Take a piece of modeling clay and put it on a table, then mash a cylinder down i
   The SI unit for torque is newton-meter $$ \text{(N·m)} $$. The second
   condition necessary to achieve equilibrium is that the net external torque on
   a system must be zero:
-  <div class="equation" id="eip-28">
+  <div class="equation">
  $$ \text{net}\tau =0 $$
   </div>
 
@@ -408,7 +408,7 @@ Repeat the seesaw problem in [Figure](#fs-id2603151) with the center of mass of 
 <div class="solution" data-element-type="problem-exercises" markdown="1">
 Given:
 
-<div class="equation" id="eip-id2115028">
+<div class="equation">
  $$ \begin{array}{ccc}
 m_{1}& =& 26.0 \kg ,m_{2}=32.0 \kg , m_{\s}=12.0 \kg ,\\
 r_{1}& =& 1.60 \m , r_{\s}=0.160 \m , \text{find (a)}r_{2,}\text{(b)}{F}_{\text{p}}
@@ -416,7 +416,7 @@ r_{1}& =& 1.60 \m , r_{\s}=0.160 \m , \text{find (a)}r_{2,}\text{(b)}{F}_{\text{
 </div>
 a) Since children are balancing:
 
-<div class="equation" id="import-auto-id581634">
+<div class="equation">
  $$ \begin{array}{}
 \text{net}{\tau }_{\text{cw}}=-\text{net}{\tau }_{\text{ccw}}\\
 ⇒w_{1}r_{1}+m_{\s}{gr}_{\s}=w_{2}r_{2}\\
@@ -424,7 +424,7 @@ a) Since children are balancing:
 </div>
 So, solving for $$ r_{2} $$ gives:
 
-<div class="equation" id="import-auto-id1402886">
+<div class="equation">
  $$ \begin{array}{lll}
 r_{2}& =& \frac{ w_{1}r_{1}+m_{\s}{gr}_{\s}}{ w_{2}}=\frac{ m_{1}{gr}_{1}+m_{\s}{gr}_{\s}}{ m_{2}g}=\frac{ m_{1}r_{1}+m_{\s}r_{\s}}{ m_{2}}\\
  & =& \frac{ \left(26.0 \kg \right)\left(1.60 \m \right)+\left(12.0 \kg \right)\left(0.160 \m \right)}{32.0 \kg }\\
@@ -433,14 +433,14 @@ r_{2}& =& \frac{ w_{1}r_{1}+m_{\s}{gr}_{\s}}{ w_{2}}=\frac{ m_{1}{gr}_{1}+m_{\s}
 </div>
 b) Since the children are not moving:
 
-<div class="equation" id="import-auto-id1428249">
+<div class="equation">
  $$ \begin{array}{}
 \text{net}F=0=F_{\text{p}}-w_{1}-w_{2}-w_{\s}\\ ⇒{F}_{\text{p}}=w_{1}+w_{2}+w_{s}
 \end{array} $$
 </div>
 So that
 
-<div class="equation" id="import-auto-id1404316">
+<div class="equation">
  $$ \begin{array}{lll}
 F_{\text{p}}& =& \left(26.0 \kg +32.0 \kg +12.0 \kg \right)\left(9.80 \mss \right)\\
 & =& 686 \N

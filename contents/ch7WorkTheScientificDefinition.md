@@ -26,7 +26,7 @@ force in the direction of motion times the distance through which the force
 acts*. For one-way motion in one dimension, this is expressed in equation form
 as
 
-<div class="equation" id="eip-354">
+<div class="equation">
  $$ W= \mag{F} \left(\cos \theta \right) \mag{d} , $$
 </div>
 
@@ -163,7 +163,7 @@ chemical energy in fat.
   product of the magnitude $$ F $$ of the force, times the magnitude $$ d $$ of
   the displacement, times the cosine of the angle $$ \theta $$ between them. In
   symbols,
-  <div class="equation" id="eip-id3298145">
+  <div class="equation">
  $$ W=F d \cos{\theta} . $$
   </div>
 

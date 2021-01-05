@@ -36,7 +36,7 @@ now $$ \Delta x=x-x_{0} $$. Also, it simplifies the expression for change in
 velocity, which is now $$ \Delta v=v-v_{0} $$. To summarize, using the
 simplified notation, with the initial time taken to be zero,
 
-<div class="equation" id="import-auto-id2563693">
+<div class="equation">
  $$ \begin{array}{lll}
 \Delta t& =& t\\
 \Delta x& =& x-x_{0}\\
@@ -51,7 +51,7 @@ assumption allows us to avoid using calculus to find instantaneous acceleration.
 Since acceleration is constant, the average and instantaneous accelerations are
 equal. That is,
 
-<div class="equation" id="import-auto-id1819116">
+<div class="equation">
  $$ \overline{a}=a=\text{constant}, $$
 </div>
 
@@ -72,23 +72,23 @@ Solving for Displacement ( \( \Delta x \) ) and Final Position (
 </div>
 To get our first two new equations, we start with the definition of average velocity:
 
-<div class="equation" id="import-auto-id1782525">
+<div class="equation">
  $$ \overline{v}=\frac{ \Delta x}{\Delta t}. $$
 </div>
 Substituting the simplified notation for $$ \Delta x $$ and $$ \Delta t $$
 yields
 
-<div class="equation" id="import-auto-id4145482">
+<div class="equation">
  $$ \overline{v}=\frac{x-x_{0}}{t}. $$
 </div>
 Solving for $$ x $$ yields
 
-<div class="equation" id="import-auto-id2297251">
+<div class="equation">
  $$ x=x_{0}+\overline{v}t, $$
 </div>
 where the average velocity is
 
-<div class="equation" id="import-auto-id2086556">
+<div class="equation">
  $$ \overline{v}=\frac{ v_{0}+v}{2}\left(\text{constant}a\right). $$
 </div>
 </div>
@@ -100,7 +100,7 @@ that is, with constant acceleration) from 30 to 60 km/h, then your average
 velocity during this steady increase is 45 km/h. Using the equation $$
 \overline{v}=\frac{ v_{0}+v}{2} $$ to check this, we see that
 
-<div class="equation" id="import-auto-id4152098">
+<div class="equation">
  $$ \overline{v}=\frac{ v_{0}+v}{2}=\frac{30 \text{km/h}+60 \text{km/h}}{2}=45 \text{km/h,} $$
 </div>
 
@@ -122,7 +122,7 @@ Draw a sketch.
 
 The final position $$ x $$ is given by the equation
 
-<div class="equation" id="import-auto-id2168543">
+<div class="equation">
  $$ x=x_{0}+\overline{v}t. $$
 </div>
 To find $$ x $$, we identify the values of $$ x_{0} $$, $$ \overline{v} $$,
@@ -135,7 +135,7 @@ and $$ t $$ from the statement of the problem and substitute them into the equat
 
 2\. Enter the known values into the equation.
 
-<div class="equation" id="import-auto-id2300752">
+<div class="equation">
  $$ x=x_{0}+\overline{v}t=0+\left(4.00 \ms \right)\left(120 \s \right)=480 \m $$
 </div>
 
@@ -169,18 +169,18 @@ Solving for Final Velocity
 </div>
 We can derive another useful equation by manipulating the definition of acceleration.
 
-<div class="equation" id="import-auto-id2366011">
+<div class="equation">
  $$ a=\frac{ \Delta v}{\Delta t} $$
 </div>
 Substituting the simplified notation for $$ \Delta v $$ and $$ \Delta t $$
 gives us
 
-<div class="equation" id="import-auto-id1962571">
+<div class="equation">
  $$ a=\frac{v-v_{0}}{t} \left(\text{constant}a\right). $$
 </div>
 Solving for $$ v $$ yields
 
-<div class="equation" id="import-auto-id2168495">
+<div class="equation">
  $$ v=v_{0}+a t \left(\text{ constant }a\right). $$
 </div>
 </div>
@@ -211,7 +211,7 @@ the equation $$ v=v_{0}+a t $$.
 
 4\. Plug in the known values and solve.
 
-<div class="equation" id="import-auto-id2177855">
+<div class="equation">
  $$ v=v_{0}+a t  =70.0 \ms +\left(-1.50 \mss \right)\left(40.0 \s \right)=10.0 \ms $$
 </div>
 
@@ -267,22 +267,22 @@ Solving for Final Position When Velocity is Not Constant ( i.e acceleration is n
 </div>
 We can combine the equations above to find a third equation that allows us to calculate the final position of an object experiencing constant acceleration. We start with
 
-<div class="equation" id="import-auto-id2166975">
+<div class="equation">
  $$ v=v_{0}+a t . $$
 </div>
 Adding $$ v_{0} $$ to each side of this equation and dividing by 2 gives
 
-<div class="equation" id="import-auto-id1689620">
+<div class="equation">
  $$ \frac{ v_{0}+v}{2}=v_{0}+\frac{1}{2}a t . $$
 </div>
 Since $$ \frac{ v_{0}+v }{2}=\overline{v} $$ for constant acceleration, then
 
-<div class="equation" id="import-auto-id2301379">
+<div class="equation">
  $$ \overline{v}=v_{0}+\frac{1}{2}a t . $$
 </div>
 Now we substitute this expression for $$ \overline{v} $$ into the equation for displacement, $$ x=x_{0}+\overline{v}t $$, yielding
 
-<div class="equation" id="import-auto-id1807031">
+<div class="equation">
  $$ x=x_{0}+v_{0}t+\frac{1}{2} a t^{2} \left(\text{constant}a\right). $$
 </div>
 </div>
@@ -318,23 +318,23 @@ is given as $$ 26.0\mss $$ and $$ t $$ is given as 5.56 s.
 
 2\. Plug the known values into the equation to solve for the unknown $$ x $$:
 
-<div class="equation" id="import-auto-id2171407">
+<div class="equation">
  $$ x=x_{0}+v_{0}t+\frac{1}{2}a t^{2} . $$
 </div>
 Since the initial position and velocity are both zero, this simplifies to
 
-<div class="equation" id="import-auto-id2171445">
+<div class="equation">
  $$ x=\frac{1}{2}a t^{2} . $$
 </div>
 Substituting the identified values of $$ a $$ and $$ t $$
 gives
 
-<div class="equation" id="import-auto-id2169820">
+<div class="equation">
  $$ x=\frac{1}{2}\left(26.0 \mss \right){\left(5.56 \s \right)}^{2}, $$
 </div>
 yielding
 
-<div class="equation" id="import-auto-id2171362">
+<div class="equation">
  $$ x=402 \m . $$
 </div>
 
@@ -365,12 +365,12 @@ A fourth useful equation can be obtained from another algebraic manipulation of 
 
 If we solve $$ v=v_{0}+a t $$ for $$ t $$, we get
 
-<div class="equation" id="import-auto-id2365760">
+<div class="equation">
  $$ t=\frac{v-v_{0}}{a}. $$
 </div>
 Substituting this and $$ \overline{v}=\frac{ v_{0}+v}{2} $$ into $$ x=x_{0}+\overline{v}t $$, we get
 
-<div class="equation" id="import-auto-id1659227">
+<div class="equation">
  $$ v^{2}=v_{0}^{2}+2a\left(x-x_{0}\right) \left(\text{ constant }a\right). $$
 </div>
 </div>
@@ -401,17 +401,17 @@ acceleration was given to be $$ a=26.0 \mss $$.
 
 2\. Plug the knowns into the equation $$ v^{2}=v_{0}^{2}+2a\left(x-x_
 {0}\right) $$ and solve for $$ v. $$
-<div class="equation" id="import-auto-id1680164">
+<div class="equation">
  $$ v^{2}=0+2 \left(26.0 \mss \right) \left(402 \m \right) . $$
 </div>
 Thus
 
-<div class="equation" id="import-auto-id2177794">
+<div class="equation">
  $$ v^{2}=2.09 \times 10^{4} \mmss . $$
 </div>
 To get $$ v $$, we take the square root:
 
-<div class="equation" id="import-auto-id2177812">
+<div class="equation">
  $$ v=\sqrt{2.09 \times 10^{4} \mmss}=145 \ms . $$
 </div>
 
@@ -445,19 +445,19 @@ reference to the equations needed.
 <div class="title">
 Summary of Kinematic Equations (constant acceleration )
 </div>
-<div class="equation" id="import-auto-id1771742">
+<div class="equation">
  $$ x=x_{0}+\overline{v}t $$
 </div>
-<div class="equation" id="import-auto-id4178996">
+<div class="equation">
  $$ \overline{v}=\frac{ v_{0}+v}{2} $$
 </div>
-<div class="equation" id="import-auto-id1680040">
+<div class="equation">
  $$ v=v_{0}+a t $$
 </div>
-<div class="equation" id="import-auto-id1680037">
+<div class="equation">
  $$ x=x_{0}+v_{0}t+\frac{1}{2}a t^{2} $$
 </div>
-<div class="equation" id="import-auto-id2178979">
+<div class="equation">
  $$ v^{2}=v_{0}^{2}+2a\left(x-x_{0}\right) $$
 </div>
 </div>
@@ -497,7 +497,7 @@ take $$ x_{0} $$ to be 0. We are looking for displacement $$ \Delta x $$, or $$ 
 2\. Identify the equation that will help up solve the problem. The best equation
 to use is
 
-<div class="equation" id="import-auto-id2180580">
+<div class="equation">
  $$ v^{2}=v_{0}^{2}+2a\left(x-x_{0}\right). $$
 </div>
 This equation is best because it includes only one unknown, $$ x $$. We know the values of all the other variables in this equation. (There are
@@ -506,18 +506,18 @@ calculations.)
 
 3\. Rearrange the equation to solve for $$ x $$.
 
-<div class="equation" id="import-auto-id4179294">
+<div class="equation">
  $$ x-x_{0}=\frac{ v^{2}-v_{0}^{2}}{2a} $$
 </div>
 
 4\. Enter known values.
 
-<div class="equation" id="import-auto-id2293184">
+<div class="equation">
  $$ x-0=\frac{ 0^{2}-{\left(30.0 \ms \right)}^{2}}{2\left(-7.00 \mss \right)} $$
 </div>
 Thus,
 
-<div class="equation" id="import-auto-id2293155">
+<div class="equation">
  $$ x=64.3 \m \text{ on dry concrete}. $$
 </div>
 
@@ -526,7 +526,7 @@ Thus,
 This part can be solved in exactly the same manner as Part A. The only
 difference is that the deceleration is $$ -5.00 \mss $$. The result is
 
-<div class="equation" id="import-auto-id2178635">
+<div class="equation">
  $$ x_{\text{wet}}=90.0 \m $$ on wet concrete.
 </div>
 
@@ -548,7 +548,7 @@ $$, which is what we want to solve for.
 
 3\. Plug in the knowns to solve the equation.
 
-<div class="equation" id="import-auto-id2175306">
+<div class="equation">
  $$ x=0+\left(30.0 \ms \right)\left(0.500 \s \right)=15.0 \m . $$
 </div>
 This means the car travels 15.0 m while the driver reacts, making the total displacements in the two cases of dry and wet concrete 15.0 m greater than if he reacted instantly.
@@ -556,7 +556,7 @@ This means the car travels 15.0 m while the driver reacts, making the total disp
 4\. Add the displacement during the reaction time to the displacement when
 braking.
 
-<div class="equation" id="import-auto-id1658817">
+<div class="equation">
  $$ x_{\text{braking}}+x_{\text{reaction}}=x_{\text{total}} $$
 </div>
 (a)  64.3 m + 15.0 m = 79.3 m when dry
@@ -610,48 +610,48 @@ is the variable $$ t $$ for which we need to solve.
 3\. We will need to rearrange the equation to solve for $$ t $$. In this case,
 it will be easier to plug in the knowns first.
 
-<div class="equation" id="import-auto-id2179013">
+<div class="equation">
  $$ 200 \m =0 \m +\left(10.0 \ms \right)t+\frac{1}{2}\left(2.00 \mss \right){t}^{2} $$
 </div>
 4\. Simplify the equation. The units of meters (m) cancel because they are in each term.
 We can get the units of seconds (s) to cancel by taking $$ t=t\s $$, where $$ t $$
 is the magnitude of time and s is the unit. Doing so leaves
 
-<div class="equation" id="eip-635">
+<div class="equation">
  $$ 200 =10 t+ t^{2}. $$
 </div>
 5\. Use the quadratic formula to solve for $$ t $$.
 (a) Rearrange the equation to get 0 on one side of the equation.
 
-<div class="equation" id="import-auto-id1680208">
+<div class="equation">
  $$ t^{2}+10 t-200 =0 $$
 </div>
 This is a quadratic equation of the form
 
-<div class="equation" id="import-auto-id1680214">
+<div class="equation">
  $$ a t^{2} + b t +c=0, $$
 </div>
 where the constants are $$a=1.00$$, $$b=10.0$$,  and $$c=-200$$.
 
 (b) Its solutions are given by the quadratic formula:
 
-<div class="equation" id="import-auto-id2367246">
+<div class="equation">
  $$t=\frac{-b \pm \sqrt{ b^{2}-4 a c} }{2a} .$$
 </div>
 This yields two solutions for $$ t $$, which are
 
-<div class="equation" id="import-auto-id1772100">
+<div class="equation">
  $$t=10.0 \text{ and } - 20.0 . $$
 </div>
 In this case, then, the time is $$ t=t $$ in seconds, or
 
-<div class="equation" id="import-auto-id2175275">
+<div class="equation">
  $$ t=10.0\s \text{ and }-20.0\s . $$
 </div>
 A negative value for time is unreasonable, since it would mean
 that the event happened 20s before the motion began. We can discard that solution. Thus,
 
-<div class="equation" id="import-auto-id2177316">
+<div class="equation">
  $$ t=10.0\s . $$
 </div>
 
@@ -703,12 +703,12 @@ during launch. How long does it take the rocket to reach a velocity of 400 m/s?
 To answer this, choose an equation that allows you to solve for time $$ t $$,
 given only $$ a $$, $$ v_{0} $$, and $$ v $$.
 
-<div class="equation" id="import-auto-id2168910">
+<div class="equation">
  $$ v=v_{0}+a t $$
 </div>
 Rearrange to solve for $$ t $$.
 
-<div class="equation" id="import-auto-id2168930">
+<div class="equation">
  $$ t=\frac{v-v_{0}}{a}=\frac{400 \ms -0 \ms }{ 20 \mss }=20 \s $$
 </div>
 </div>
@@ -721,7 +721,7 @@ Rearrange to solve for $$ t $$.
 * We also take initial time to be zero.
 * Initial position and velocity are given a subscript
   0; final values have no subscript. Thus,
-  <div class="equation" id="import-auto-id2168257">
+  <div class="equation">
  $$ \begin{array}{lll}
  \Delta t& =& t\\
  \Delta x& =& x-x_{0}\\
@@ -731,23 +731,23 @@ Rearrange to solve for $$ t $$.
 
 * The following kinematic equations for motion with
   constant $$ a $$ are useful:
-  <div class="equation" id="import-auto-id2175197">
+  <div class="equation">
  $$ x=x_{0}+\overline{v}t $$
   </div>
 
-  <div class="equation" id="import-auto-id2175206">
+  <div class="equation">
  $$ \overline{v}=\frac{ v_{0}+v}{2} $$
   </div>
 
-  <div class="equation" id="import-auto-id2175249">
+  <div class="equation">
  $$ v=v_{0}+a t $$
   </div>
 
-  <div class="equation" id="import-auto-id2176087">
+  <div class="equation">
  $$ x=x_{0}+v_{0}t+\frac{1}{2}a t^{2} $$
   </div>
 
-  <div class="equation" id="import-auto-id2175231">
+  <div class="equation">
  $$ v^{2}=v_{0}^{2}+2a\left(x-x_{0}\right) $$
   </div>
 

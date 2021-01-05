@@ -25,7 +25,7 @@ acceleration is the
 centripetal acceleration— $$\vb{a}=\vb{a}_\text{c}$$. Thus,
 the magnitude of centripetal force $$\mag{F_\text{c} } $$ is
 
-<div class="equation" id="eip-696">
+<div class="equation">
 $$ \mag{F_\text{c}} = m \mag{ \ac }. $$
 </div>
 
@@ -36,7 +36,7 @@ magnitude of the centripetal force $$ \mag{F_\text{c} } $$ in terms of mass,
 velocity, angular
 velocity, and radius of curvature:
 
-<div class="equation" id="eip-562">
+<div class="equation">
  $$ F_\text{c}=m\frac{ v^{2}}{r}; F_\text{c}=m r \omega^{2}. $$
 </div>
 
@@ -47,7 +47,7 @@ pointing to the center of curvature, because $$ \vb{a}_{\text{c}} $$ is
 perpendicular to the velocity and pointing to the center of curvature.
 
 Note that if you solve the first expression for $$ r $$, you get
-<div class="equation" id="eip-58">
+<div class="equation">
 $$ r=\frac{ mv^{2}}{ F_\text{c}}. $$
 </div>
 
@@ -76,7 +76,7 @@ car from slipping (see [Figure](#import-auto-id3184285)).
 
 We know that $$ F_{\text{c}}=\frac{ m v^{2} }{r} $$.
 Thus,
-<div class="equation" id="eip-211">
+<div class="equation">
 $$ F_{\text{c}}=\frac{m v^{2}}{r}
 =\frac{ \left( 900 \kg \right)
 \left(25.0 \ms \right)^{2}}
@@ -93,27 +93,27 @@ friction (at which the tires roll but do not slip) is $$ \mu_{\s}N $$,
 where $$ \mu_{\s} $$ is the static coefficient of friction and N is the
 normal force. The normal force equals the car’s weight on level ground, so that
 $$ N=mg $$. Thus the centripetal force in this situation is
-<div class="equation" id="eip-109">
+<div class="equation">
 $$ F_{\text{c}}=f=\mu_{\s} N=\mu_{\s} mg . $$
 </div>
 Now we have a relationship between centripetal force and the coefficient of friction.
 Using the first expression for $$ F_{\text{c}} $$
  from the equation
-<div class="equation" id="eip-735">
+<div class="equation">
 $$ \begin{array}{c}
 {F}_{\text{c}}=m\frac{ v^{2}}{r}\\
 {F}_{\text{c}}= mr \omega^{2}
 \end{array}, $$
 </div>
 
-<div class="equation" id="eip-18">
+<div class="equation">
  $$ m\frac{ v^{2}}{r}=\mu_{\s}mg . $$
 </div>
 
 We solve this for $$ \mu_{\s}$$, noting that mass cancels, and
 obtain
 
-<div class="equation" id="eip-99">
+<div class="equation">
 $$ \mu_{\s}=\frac{ v^{2}}{rg}. $$
 </div>
 
@@ -121,7 +121,7 @@ $$ \mu_{\s}=\frac{ v^{2}}{rg}. $$
 
 Substituting the knowns,
 
-<div class="equation" id="eip-971">
+<div class="equation">
 $$ \mu_{\s}=\frac{ \left(25.0 \ms \right)^{2}} {\left(500
 \m \right)\left(9.80 \mss \right)}=0.13. $$
 </div>
@@ -186,7 +186,7 @@ the crucial force and it is horizontal, we use a coordinate system with vertical
 and horizontal axes. Only the normal force has a horizontal component, and so
 this must equal the centripetal force—that is,
 
-<div class="equation" id="eip-584">
+<div class="equation">
  $$ N\sin{\theta} =\frac{ mv^{2}}{r}. $$
 </div>
 
@@ -197,7 +197,7 @@ that the vertical component of the normal force is $$ N\cos{\theta} $$, and the
 only other vertical force is the car’s weight. These must be equal in magnitude;
 thus,
 
-<div class="equation" id="eip-125">
+<div class="equation">
  $$ N\cos{\theta} =mg . $$
 </div>
 
@@ -206,11 +206,11 @@ expression for $$ \theta $$, as desired. Solving the second equation for
 $$ N=mg/\left( \cos{\theta} \right) $$,
 and substituting this into the first yields
 
-<div class="equation" id="eip-713">
+<div class="equation">
  $$ mg \frac{ \sin{\theta} }{\cos{\theta} }=\frac{ m v^{2}}{r} $$
 </div>
 
-<div class="equation" id="eip-285">
+<div class="equation">
  $$ \begin{array}{rrr}mg \tan\left(\theta \right)& =& \frac{ mv^{2}}{r}\\
 \tan{\theta} & =& \frac{ v^{2}}{rg} .
 \end{array} $$
@@ -218,7 +218,7 @@ and substituting this into the first yields
 
 Taking the inverse tangent gives
 
-<div class="equation" id="eip-239">
+<div class="equation">
  $$ \theta ={\tan}^{-1}\left(\frac{ v^{2}}{rg}\right)\text{(ideally banked curve, no friction).} $$
 </div>
 
@@ -248,17 +248,17 @@ appears on the left-hand side and then substitute known quantities.
 
 Starting with
 
-<div class="equation" id="eip-895">
+<div class="equation">
  $$ \tan{\theta} =\frac{ v^{2}}{r g} $$
 </div>
 we get
 
-<div class="equation" id="eip-6">
+<div class="equation">
  $$ v=\sqrt{rg \tan{\theta}}. $$
 </div>
 Noting that $$\tan{65.0^\circ } = 2.14 $$, we obtain
 
-<div class="equation" id="eip-571">
+<div class="equation">
  $$ \begin{array}{lll}
 v& =& \sqrt{\left(100 \m \right) \left(9.80 \mss \right)\left(2.14\right)}\\
  & =& 45.8 \ms .
@@ -291,13 +291,13 @@ Ask a friend or relative to swing a golf club or a tennis racquet. Take appropri
   any force causing uniform circular motion. It is a “center-seeking” force that
   always points toward the center of rotation. It is perpendicular to linear
   velocity $$ v $$ and has magnitude
-  <div class="equation" id="eip-67">
+  <div class="equation">
  $$ F_{\text{c}}= m \ac , $$
   </div>
 
   which can also be expressed as
 
-  <div class="equation" id="eip-967">
+  <div class="equation">
  $$
  \begin{array}{c}
    F_{\text{c}}=m\frac{ v^{2}}{r}\\

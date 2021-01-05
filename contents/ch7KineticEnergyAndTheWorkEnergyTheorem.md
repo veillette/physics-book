@@ -179,7 +179,7 @@ Entering known values gives
 </div>
 which yields
 
-<div class="equation" id="eip-261">
+<div class="equation">
  $$ \KE=3.75 \kg \cdot \mmss=3.75 \J . $$
 </div>
 

@@ -57,19 +57,19 @@ velocity ( $$ v $$ and $$ \theta $$ ) and its components ( $$ v_{x} $$ and $$ v_
 {y} $$ ) along the **x**- and **y**-axes of an appropriately chosen coordinate
 system:
 
-<div class="equation" id="eip-343">
+<div class="equation">
  $$ v_{x}=v\cos{\theta} $$
 </div>
 
-<div class="equation" id="eip-859">
+<div class="equation">
  $$ v_{y}=v\sin{\theta} $$
 </div>
 
-<div class="equation" id="eip-505">
+<div class="equation">
  $$ v=\sqrt{ v_{x}^{2}+v_{y}^{2}} $$
 </div>
 
-<div class="equation" id="eip-213">
+<div class="equation">
  $$ \theta ={\tan}^{-1}\left(v_{y}/v_{x}\right). $$
 </div>
 
@@ -121,22 +121,22 @@ the river. Thus, we can add the two velocities by using the equations $$ v_
 
 The magnitude of the total velocity is
 
-<div class="equation" id="eip-120">
+<div class="equation">
  $$ v_{\text{tot}}=\sqrt{ v_{x}^{2}+v_{y}^{2}}, $$
 </div>
 where
 
-<div class="equation" id="eip-845">
+<div class="equation">
  $$ v_{x}=v_{\text{river}}=1.20 \ms $$
 </div>
 and
 
-<div class="equation" id="eip-311">
+<div class="equation">
  $$ v_{y}=v_{\text{boat}}=0.750 \ms . $$
 </div>
 Thus,
 
-<div class="equation" id="eip-869">
+<div class="equation">
  $$ v_{\text{tot}}=\sqrt{
 \left( 1.20 \ms \right)^{2}+
 \left( 0.750 \ms \right)^{2}
@@ -144,17 +144,17 @@ Thus,
 </div>
 yielding
 
-<div class="equation" id="eip-166">
+<div class="equation">
  $$ v_{\text{tot}}=1.42 \ms . $$
 </div>
 The direction of the total velocity $$ \theta $$ is given by:
 
-<div class="equation" id="eip-862">
+<div class="equation">
  $$ \theta ={\tan}^{-1}\left(v_{y}/v_{x}\right)={\tan}^{-1}\left(0.750/1.20\right). $$
 </div>
 This equation gives
 
-<div class="equation" id="eip-16">
+<div class="equation">
  $$ \theta =32.0^\circ . $$
 </div>
 
@@ -205,35 +205,35 @@ its *x*- and *y*-components are the sums of the *x*- and *y*-components of the
 wind and plane velocities. Note that the plane only has vertical component of
 velocity so $$ v_{px}=0 $$ and $$ v_{py}=v_{\text{p}} $$. That is,
 
-<div class="equation" id="eip-190">
+<div class="equation">
  $$ v_{\text{tot}x}=v_{\text{w}x} $$
 </div>
 and
 
-<div class="equation" id="eip-690">
+<div class="equation">
  $$ v_{\text{tot}y}=v_{\text{w}y}+v_{\text{p}}. $$
 </div>
 We can use the first of these two equations to find $$ v_{\text{w}x} $$:
 
-<div class="equation" id="eip-615">
+<div class="equation">
  $$ v_{\text{w}x}=v_{\text{tot}x}=v_{\text{tot}}\cos{110^\circ }. $$
 </div>
 Because $$ v_{\text{tot}}=38.0 \ms $$ and $$ \cos{110^\circ }=-0.342 $$
 we have
 
-<div class="equation" id="eip-112">
+<div class="equation">
  $$ v_{\text{w}x}=\left(38.0 \ms \right)\left(-0.342 \right)=-13 \ms . $$
 </div>
 The minus sign indicates motion west which is consistent with the diagram.
 
 Now, to find $$ v_{\text{w}\text{y}} $$ we note that
 
-<div class="equation" id="eip-142">
+<div class="equation">
  $$ v_{\text{tot}y}=v_{\text{w}y}+v_{\text{p}} $$
 </div>
 Here $$ v_{\text{tot}y}=v_{\text{tot}}\sin{110^\circ } $$; thus,
 
-<div class="equation" id="eip-206">
+<div class="equation">
  $$ v_{\text{w}y}=\left(38.0 \ms \right)
 \left(0.940 \right)-45.0 \ms = -9.29 \ms . $$
 </div>
@@ -243,7 +243,7 @@ Now that the perpendicular components of the wind velocity $$ v_{\text{w}x} $$
 and $$ v_{\text{w}y} $$ are known, we can find the magnitude and direction of $$
 \vb{v}_{\text{w}} $$. First, the magnitude is
 
-<div class="equation" id="eip-128">
+<div class="equation">
  $$ \begin{array}{lll}
 v_{\text{w}}& =& \sqrt{ v_{\text{w}x}^{2}+v_{\text{w}y}^{2}}\\
 & =& \sqrt{
@@ -254,17 +254,17 @@ v_{\text{w}}& =& \sqrt{ v_{\text{w}x}^{2}+v_{\text{w}y}^{2}}\\
 </div>
 so that
 
-<div class="equation" id="eip-637">
+<div class="equation">
  $$ v_{\text{w}}=16.0 \ms . $$
 </div>
 The direction is:
 
-<div class="equation" id="eip-359">
+<div class="equation">
  $$ \theta ={\tan}^{-1}\left(v_{\text{w}y}/v_{\text{w}x}\right)={\tan}^{-1}\left(-9.29/-13.0\right) $$
 </div>
 giving
 
-<div class="equation" id="eip-955">
+<div class="equation">
  $$ \theta =35.6^\circ . $$
 </div>
 
@@ -354,18 +354,18 @@ Using the given information, we note that the initial velocity and position are
 zero, and the final position is 1.50 m. The final velocity can be found using
 the equation:
 
-<div class="equation" id="eip-313">
+<div class="equation">
  $$ v_{y}^{2}=v_{0y}^{2}-2g\left(y-y_{0}\right). $$
 </div>
 Substituting known values into the equation, we get
 
-<div class="equation" id="eip-444">
+<div class="equation">
  $$ v_{y}^{2}=0^{2}-2\left(9.80\mss \right)
 \left(-1.50\m -0 \m \right)=29.4 \mmss $$
 </div>
 yielding
 
-<div class="equation" id="eip-877">
+<div class="equation">
  $$ v_{y}=-5.42 \ms . $$
 </div>
 We know that the square root of 29.4 has two roots: 5.42 and -5.42. We choose
@@ -385,27 +385,27 @@ and final horizontal velocities are the same and $$ v_{x}=260 \ms $$.
 The *x*- and *y*-components of velocity can be combined to find the magnitude of
 the final velocity:
 
-<div class="equation" id="eip-558">
+<div class="equation">
  $$ v=\sqrt{ v_{x}^{2}+ v_{y}^{2} }. $$
 </div>
 Thus,
 
-<div class="equation" id="eip-842">
+<div class="equation">
  $$ v=\sqrt{\left(260 \ms \right)^{2}+\left(-5.42 \ms \right)^{2} } $$
 </div>
 yielding
 
-<div class="equation" id="eip-98">
+<div class="equation">
  $$ v=260.06 \ms . $$
 </div>
 The direction is given by:
 
-<div class="equation" id="eip-73">
+<div class="equation">
  $$ \theta ={\tan}^{-1}\left(v_{y}/v_{x}\right)={\tan}^{-1}\left(-5.42/260 \right) $$
 </div>
 so that
 
-<div class="equation" id="eip-328">
+<div class="equation">
  $$ \theta ={\tan}^{-1}\left(-0.0208\right)=-1.19^\circ. $$
 </div>
 
@@ -458,19 +458,19 @@ Motion in 2D
 
 * Velocities in two dimensions are added using the
   same analytical vector techniques, which are rewritten as
-  <div class="equation" id="import-auto-id2094926">
+  <div class="equation">
  $$ v_{x}=v\cos{\theta} $$
   </div>
 
-  <div class="equation" id="import-auto-id2094928">
+  <div class="equation">
  $$ v_{y}=v\sin{\theta} $$
   </div>
 
-  <div class="equation" id="import-auto-id1887202">
+  <div class="equation">
  $$ v=\sqrt{ v_{x}^{2}+v_{y}^{2}} $$
   </div>
 
-  <div class="equation" id="import-auto-id1938198">
+  <div class="equation">
  $$ \theta ={\tan}^{-1}\left(v_{y}/v_{x}\right). $$
   </div>
 

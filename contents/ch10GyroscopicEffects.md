@@ -38,7 +38,7 @@ the direction in which the thumb of your right hand points when you curl your fi
 
 Now, recall that torque changes angular momentum as expressed by
 
-<div class="equation" id="eip-1000">
+<div class="equation">
  $$ \text{net} \vb{\tau}=\frac{ \Delta \vb{L}}{\Delta t}. $$
 </div>
 

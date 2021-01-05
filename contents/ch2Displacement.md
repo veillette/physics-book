@@ -43,7 +43,7 @@ position is known as **displacement**. The word
 Displacement
 </div>
 Displacement is the *change in position* of an object:
-<div class="equation" id="eip-458">
+<div class="equation">
 $$ \Delta x=x_{\text{f}}-x_{0},$$
 </div>
 where $$\Delta x$$ is displacement, $$x_{\text{f}}$$ is the final
@@ -87,7 +87,7 @@ to select positive as being any direction). The professor’s initial position i
 $$ x_{0}=1.5\m $$ and her final position is $$ x_{\text{f}}=3.5\m
 $$. Thus her displacement is
 
-<div class="equation" id="eip-556">
+<div class="equation">
  $$ \Delta x=x_{f}-x_{0}=3.5 \m -1.5 \m=+2.0 \m . $$
 </div>
 
@@ -96,7 +96,7 @@ the left is negative. Similarly, the airplane passenger’s initial position is
 $$ x_{0}=6.0 \m $$ and his final position is $$ x_{f}=2.0 \m $$, so his displacement
 is
 
-<div class="equation" id="eip-778">
+<div class="equation">
  $$ \Delta x=x_{f}-x_{0}=2.0 \m -6.0 \m =-4.0 \m . $$
 </div>
 

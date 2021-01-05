@@ -56,31 +56,31 @@ The torques created by the weights are clockwise relative to the pivot, while
 the torque created by the biceps is counterclockwise; thus, the second condition
 for equilibrium $$ \left(\text{net}\tau =0 \right) $$ becomes
 
-<div class="equation" id="eip-950">
+<div class="equation">
  $$ r_{2} w_{\text{a}}+ r_{3} w_{\text{b}}= r_{1} F_{\text{B}}. $$
 </div>
 Note that $$ \sin{\theta} =1 $$ for all forces, since $$ \theta =90^\circ $$
 for all forces. This equation can easily be solved for $$ F_{\text{B}} $$
 in terms of known quantities, yielding
 
-<div class="equation" id="eip-574">
+<div class="equation">
  $$ F_{\text{B}}=\frac{ r_{2} w_{\text{a}}+ r_{3} w_{\text{b}}}{ r_{1}}. $$
 </div>
 Entering the known values gives
 
-<div class="equation" id="eip-311">
+<div class="equation">
  $$ F_{\text{B}}=\frac{ \left(0.160\m \right)\left(2.50\kg \right)\left(9.80\mss \right)+\left(0.380\m \right)\left(4.00\kg \right)\left(9.80\mss \right)}{0.0400\m } $$
 </div>
 which yields
 
-<div class="equation" id="eip-232">
+<div class="equation">
  $$ F_{\text{B}}=470 \N . $$
 </div>
 Now, the combined weight of the arm and its load is
 $$ \left(6.50 \kg \right)\left(9.80\mss \right)=63.7 \N $$,
 so that the ratio of the force exerted by the biceps to the total weight is
 
-<div class="equation" id="eip-476">
+<div class="equation">
  $$ \frac{ F_{\text{B}}}{ w_{\text{a}}+ w_{\text{b}}}=
 \frac{470}{63.7}=7.38. $$
 </div>
@@ -211,17 +211,17 @@ created by $$ \vb{w}_{\text{ub}} $$ and $$ \vb{w}_
 Using the perpendicular lever arms given in the figure, the second condition for
 equilibrium $$ \left( \text{net}\tau =0 \right) $$ becomes
 
-<div class="equation" id="eip-780">
+<div class="equation">
  $$ \left(0.350 \m \right)\left(55.0 \kg \right)\left(9.80\mss \right)+\left(0.500 \m \right)\left(30.0 \kg \right)\left(9.80\mss \right)=\left(0.0800 \m \right) F_{\text{B}}. $$
 </div>
 Solving for $$ F_{\text{B}} $$ yields
 
-<div class="equation" id="eip-826">
+<div class="equation">
  $$ F_{\text{B}}=4.20\times 10^{3}\N . $$
 </div>
 The ratio of the force the back muscles exert to the weight of the upper body plus its load is
 
-<div class="equation" id="eip-864">
+<div class="equation">
  $$ \frac{ F_{\text{B}}}{ w_{\text{ub}}+ w_{\text{box}}}=\frac{4200 \N }{833 \N }=5.04. $$
 </div>
 This force is considerably larger than it would be if the load were not present.
@@ -234,17 +234,17 @@ can be used to find its magnitude and direction. Using $$ y $$ for vertical
 and $$ x $$ for horizontal, the condition for the net external forces along
 those axes to be zero
 
-<div class="equation" id="eip-349">
+<div class="equation">
  $$ \text{net} F_{y}=0\text{ and }\text{net} F_{x}=0. $$
 </div>
 Starting with the vertical ($$ y $$) components, this yields
 
-<div class="equation" id="eip-486">
+<div class="equation">
  $$ F_{\text{V}y}- w_{\text{ub}}-w_{\text{box}}- F_{\text{B}} \sin{29.0^\circ }=0. $$
 </div>
 Thus,
 
-<div class="equation" id="eip-325">
+<div class="equation">
  $$ \begin{array}{lll}
 F_{\text{V}y}& =& w_{\text{ub}}+w_{\text{box}}+ F_{\text{B}}
 \sin{29.0^\circ }\\
@@ -253,33 +253,33 @@ F_{\text{V}y}& =& w_{\text{ub}}+w_{\text{box}}+ F_{\text{B}}
 </div>
 yielding
 
-<div class="equation" id="eip-600">
+<div class="equation">
  $$ F_{\text{V}y}=2.87\times 10^{3}\N . $$
 </div>
 Similarly, for the horizontal ( $$ x $$ ) components,
 
-<div class="equation" id="eip-341">
+<div class="equation">
  $$ F_{\text{V}x}- F_{\text{B}}\cos{29.0^\circ }=0 $$
 </div>
 yielding
 
-<div class="equation" id="eip-425">
+<div class="equation">
  $$ F_{\text{V}x}=3.67\times 10^{3}\N . $$
 </div>
 The magnitude of $$ \vb{F}_{\text{V}} $$
 is given by the Pythagorean theorem:
 
-<div class="equation" id="eip-797">
+<div class="equation">
  $$ F_{\text{V}}=\sqrt{ F_{\text{V}x}^{2}+ F_{\text{V}y}^{2}}=4.66\times 10^{3}\N . $$
 </div>
 The direction of $$ \vb{F}_{\text{V}} $$ is
 
-<div class="equation" id="eip-29">
+<div class="equation">
  $$ \theta ={\tan}^{-1}\left(\frac{ F_{\text{V}y}}{ F_{\text{V}x}}\right)=38.0^\circ. $$
 </div>
 Note that the ratio of $$ F_{\text{V}} $$ to the weight supported is
 
-<div class="equation" id="eip-142">
+<div class="equation">
  $$ \frac{ F_{\text{V}}}{ w_{\text{ub}}+w_{\text{box}}}=\frac{4660 \N }{833 \N }=5.59. $$
 </div>
 

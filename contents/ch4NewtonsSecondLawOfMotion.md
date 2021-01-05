@@ -64,7 +64,7 @@ force, $$ \vb{F}_{\text{net}} $$.
 To obtain an equation for Newton’s second law, we first write the relationship
 of acceleration and net external force as the proportionality.
 
-<div class="equation" id="eip-id1450972">
+<div class="equation">
  $$ \vb{a} \propto \vb{F}_{\text{net}}, $$
 </div>
 
@@ -90,7 +90,7 @@ illustrated in [Figure](#import-auto-id1375143), the same net external force
 applied to a car produces a much smaller acceleration than when applied to a
 basketball. The proportionality is written as
 
-<div class="equation" id="eip-id1969451">
+<div class="equation">
  $$ \mag{a}\propto \frac{1}{m} $$
 </div>
 
@@ -115,17 +115,17 @@ The acceleration of a system is directly proportional to and in the same directi
 
 In equation form, Newton’s second law of motion is
 
-<div class="equation" id="eip-id1628753">
+<div class="equation">
  $$ \vb{a}=\frac{ \vb{F}_{\text{net}}}{m} . $$
 </div>
 This is often written in the more familiar form
 
-<div class="equation" id="eip-id2606927">
+<div class="equation">
  $$ \vb{F}_{\text{net}}=m \vb{a} . $$
 </div>
 When only the magnitude of force and acceleration are considered, this equation is simply
 
-<div class="equation" id="eip-id1641404">
+<div class="equation">
 $$ F_{\text{net}}=ma . $$
 </div>
 </div>
@@ -144,7 +144,7 @@ SI unit of force is called the **newton** (abbreviated N) and is the force neede
 accelerate a 1-kg system at the rate of $$ 1\mss $$. That is, since $$
 \vb{F}_{\text{net}}=m\vb{a} $$,
 
-<div class="equation" id="eip-id2390555">
+<div class="equation">
  $$ 1 \N =1 \kg \cdot \mss . $$
 </div>
 
@@ -180,13 +180,13 @@ Weight
 </div>
 This is the equation for *weight*—the gravitational force on a mass $$ m $$:
 
-<div class="equation" id="eip-id1171442268322">
+<div class="equation">
  $$ w=mg . $$
 </div>
 Since $$ g=9.80\mss $$ on Earth, the weight of a 1.0 kg object on Earth
 is 9.8 N, as we see:
 
-<div class="equation" id="eip-id1171443439158">
+<div class="equation">
  $$ w=mg =\left(1.0 \kg \right)\left(9.80\mss \right)=9.8\N . $$
 </div>
 Recall that $$ g $$ can take a positive or negative value, depending on the positive direction in
@@ -283,12 +283,12 @@ law as stated in $$ \vb{F}_{\text{net}}=m\vb{a} $$.
 The magnitude of the acceleration $$ a $$ is $$ a=\frac{ F_{\text{net}}}{m} $$.
 Entering known values gives
 
-<div class="equation" id="eip-id1171443383293">
+<div class="equation">
  $$ a=\frac{51 \N }{24 \kg } $$
 </div>
 Substituting the units $$ \kg \cdot \mss $$ for N yields
 
-<div class="equation" id="eip-id2603472">
+<div class="equation">
  $$ a=\frac{51 \kg \cdot \mss }{24 \kg }=2.1 \mss . $$
 </div>
 
@@ -334,39 +334,39 @@ we have defined the direction of the force and acceleration as acting “to the
 right,” we need to consider only the magnitudes of these quantities in the
 calculations. Hence, we begin with
 
-<div class="equation" id="eip-id2420800">
+<div class="equation">
 $$ F_{\text{net}}=ma , $$
 </div>
 where $$ F_{\text{net}} $$ is the net force along the horizontal direction. We can see
 from [Figure](#fs-id2407992) that the engine thrusts add, while friction
 opposes the thrust. In equation form, the net external force is
 
-<div class="equation" id="eip-id1522873">
+<div class="equation">
 $$ F_{\text{net}}=4T-f. $$
 </div>
 Substituting this into Newton’s second law gives
 
-<div class="equation" id="eip-id1858333">
+<div class="equation">
 $$ F_{\text{net}}=ma =4T-f. $$
 </div>
 Using a little algebra, we solve for the total thrust, $$ 4 T $$ :
 
-<div class="equation" id="eip-id1948969">
+<div class="equation">
  $$ 4T=ma + f . $$
 </div>
 Substituting known values yields
 
-<div class="equation" id="eip-id2054706">
+<div class="equation">
  $$ 4T=ma +f=\left(2100 \kg \right)\left(49 \mss \right)+650 \N . $$
 </div>
 So the total thrust is
 
-<div class="equation" id="eip-id1631559">
+<div class="equation">
  $$ 4T=1.0\times 10^{5}\N , $$
 </div>
 and the individual thrusts are
 
-<div class="equation" id="eip-id1171442277241">
+<div class="equation">
  $$ T=\frac{1.0\times 10^{5}\N }{4}=2.6\times 10^{4}\N . $$
 </div>
 
@@ -411,7 +411,7 @@ third and final law of motion.
 * The weight $$ \vb{w} $$ of an object is
   defined as the force of gravity acting on an object of mass $$ m $$. The
   object experiences an acceleration due to gravity $$ \vb{g} $$:
-  <div class="equation" id="eip-id1171442332762">
+  <div class="equation">
  $$ \vb{w}=m\vb{g}. $$
   </div>
 

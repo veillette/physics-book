@@ -16,7 +16,7 @@ uniform circular motion, which is motion in a circle at constant speed and,
 hence, constant angular velocity. Recall that angular velocity $$ \omega $$ was
 defined as the time rate of change of angle $$ \theta $$:
 
-<div class="equation" id="eip-257">
+<div class="equation">
  $$ \omega =\frac{ \Delta \theta }{\Delta t}, $$
 </div>
 
@@ -25,13 +25,13 @@ in [Figure](#fig1). The relationship between angular velocity
 $$ \omega $$ and linear velocity $$ v $$ was also defined
 in [Rotation Angle and Angular Velocity](../contents/ch6RotationAngleAndAngularVelocity.md) as
 
-<div class="equation" id="eip-989">
+<div class="equation">
  $$ v=r \omega $$
 </div>
 
 or
 
-<div class="equation" id="eip-363">
+<div class="equation">
  $$ \omega =\frac{v}{r}, $$
 </div>
 
@@ -51,7 +51,7 @@ faster the change occurs, the greater the angular acceleration. Angular
 acceleration $$ \alpha $$ is defined as the rate of change of angular velocity.
 In equation form, angular acceleration is expressed as follows:
 
-<div class="equation" id="eip-974">
+<div class="equation">
  $$ \alpha =\frac{ \Delta \omega }{\Delta t}, $$
 </div>
 
@@ -82,7 +82,7 @@ s.
 
 Entering known information into the definition of angular acceleration, we get
 
-<div class="equation" id="eip-272">
+<div class="equation">
  $$ \begin{array}{lll}
 \alpha & =& \frac{ \Delta \omega }{\Delta t}\\
 & =& \frac{250 \text{rpm}}{5.00 \s }.
@@ -93,7 +93,7 @@ and we want the standard units of $$
 \radss $$ for angular acceleration, we need to convert $$ \Delta
 \omega $$ from rpm to rad/s:
 
-<div class="equation" id="eip-25">
+<div class="equation">
  $$ \begin{array}{lll}
 \Delta \omega & =& 250\frac{ \text{rev}}{\text{min}}\cdot \frac{ 2\pi \text{rad}}{\text{rev}}\cdot \frac{1 \text{min}}{60 \text{sec}}\\
 & =& 26.2\frac{ \text{rad}}{\s}.
@@ -101,7 +101,7 @@ and we want the standard units of $$
 </div>
 Entering this quantity into the expression for $$ \alpha $$, we get
 
-<div class="equation" id="eip-899">
+<div class="equation">
  $$ \begin{array}{lll}
 \alpha & =& \frac{ \Delta \omega }{\Delta t}\\
 & =&\frac{26.2 \rads }{5.00 \s }\\
@@ -115,7 +115,7 @@ In this part, we know the angular acceleration and the initial angular velocity.
 We can find the stoppage time by using the definition of angular acceleration
 and solving for $$ \Delta t $$, yielding
 
-<div class="equation" id="eip-273">
+<div class="equation">
  $$ \Delta t=\frac{ \Delta \omega }{\alpha }. $$
 </div>
 
@@ -125,7 +125,7 @@ Here the angular velocity decreases from $$ 26.2 \rads $$
 (250 rpm) to zero, so that $$ \Delta \omega $$ is $$ -26.2 \rads $$, and
 $$ \alpha $$ is given to be $$ -87.3 \radss $$. Thus,
 
-<div class="equation" id="eip-455">
+<div class="equation">
  $$ \begin{array}{lll}
 \Delta t& =& \frac{-26.2 \rads }{-87.3 \radss }\\
 &=& 0.300 \s  .
@@ -176,32 +176,32 @@ Now we can find the exact relationship between linear acceleration $$ a_
 is proportional to a change in the magnitude of the velocity, it is defined (as
 it was in [One-Dimensional Kinematics](../contents/ch2Kinematics.md)) to be
 
-<div class="equation" id="eip-85">
+<div class="equation">
  $$ a_{\text{t}}=\frac{ \Delta v}{\Delta t}. $$
 </div>
 
 For circular motion, note that $$ v=r \omega $$, so that
 
-<div class="equation" id="eip-139">
+<div class="equation">
  $$ a_{\text{t}}=\frac{ \Delta \left(r \omega \right)}{\Delta t}. $$
 </div>
 
 The radius $$ r $$ is constant for circular motion, and so
 $$ \Delta \left( r\omega \right)=r\left(\Delta \omega \right) $$. Thus,
 
-<div class="equation" id="eip-688">
+<div class="equation">
  $$ a_{\text{t}}=r\frac{ \Delta \omega }{\Delta t}. $$
 </div>
 
 By definition, $$ \alpha =\frac{ \Delta \omega }{\Delta t} $$. Thus,
 
-<div class="equation" id="eip-256">
+<div class="equation">
  $$ a_{\text{t}}=r \alpha, $$
 </div>
 
 or
 
-<div class="equation" id="eip-773">
+<div class="equation">
  $$ \alpha =\frac{ a_{\text{t}}}{r}. $$
 </div>
 
@@ -232,7 +232,7 @@ can find its linear acceleration $$ a_{\text{t}} $$. Then, the expression $$
 
 The linear acceleration is
 
-<div class="equation" id="eip-20">
+<div class="equation">
  $$ \begin{array}{lll}
 a_{\text{t}}& =& \frac{ \Delta v}{\Delta t}\\
 & =& \frac{30.0 \ms }{4.20 \s }\\
@@ -242,7 +242,7 @@ a_{\text{t}}& =& \frac{ \Delta v}{\Delta t}\\
 We also know the radius of the wheels. Entering the values for $$ a_{\text{t}} $$
 and $$ r $$ into $$ \alpha =\frac{ a_{\text{t}}}{r} $$, we get
 
-<div class="equation" id="eip-155">
+<div class="equation">
  $$ \begin{array}{lll}
 \alpha & =& \frac{ a_{\text{t}}}{r}\\
 & =& \frac{7.14\mss }{0.320 \m }\\
@@ -328,25 +328,25 @@ Ladybug Revolution
   {\text{t}}=\frac{ \Delta v}{\Delta t} $$.
 * For circular motion, note that $$ v=r \omega $$,
   so that
-  <div class="equation" id="import-auto-id1588138">
+  <div class="equation">
  $$ a_{\text{t}}\frac{ \Delta \left(r \omega \right)}{\Delta t}. $$
   </div>
 
 * The radius r is constant for circular motion, and
   so $$ \Delta \left(  r \omega \right)=r\Delta \omega $$. Thus,
-  <div class="equation" id="import-auto-id3232862">
+  <div class="equation">
  $$ a_{\text{t}}=r\frac{ \Delta \omega }{\Delta t}. $$
   </div>
 
 * By definition, $$ \Delta \omega /\Delta t=\alpha $$.
   Thus,
-  <div class="equation" id="import-auto-id3077640">
+  <div class="equation">
  $$ a_{\text{t}}=r \alpha $$
   </div>
 
   or
 
-  <div class="equation" id="import-auto-id3025466">
+  <div class="equation">
  $$ \alpha =\frac{ a_{\text{t}}}{r}. $$
   </div>
 

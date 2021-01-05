@@ -86,7 +86,7 @@ If a person who normally requires an average of 12 000 kJ (3000 kcal) of food en
 [Figure](#import-auto-id1921441) states that 400 W are used when cycling at a
 moderate speed. The time required to work off 1000 kJ at this rate is then
 
-<div class="equation" id="import-auto-id2091839">
+<div class="equation">
  $$ \text{Time}=\frac{ \text{energy}}{\left(\frac{ \text{energy}}{\text{time}}\right)}=\frac{1000 \text{kJ}}{400 \text{W}}=2500 \s  =42 \text{min.} $$
 </div>
 
@@ -96,7 +96,7 @@ If this person uses more energy than they consume, the person’s body will
 obtain the needed energy by metabolizing body fat. If the person uses 13 000 kJ
 but consumes only 12 000 kJ, then the amount of fat loss will be
 
-<div class="equation" id="import-auto-id1468507">
+<div class="equation">
  $$ \text{Fat loss}=\left(1000 \text{kJ}\right)\left(\frac{1.0 \text{g fat}}{39 \text{kJ}}\right)=26\text{g,} $$
 </div>
 assuming the energy content of fat to be 39 kJ/g.

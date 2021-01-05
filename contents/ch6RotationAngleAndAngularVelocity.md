@@ -30,7 +30,7 @@ the amount of rotation and is analogous to linear distance. We define the
 **rotation angle** $$ \Delta\theta $$
 to be the ratio of the arc length to the radius of curvature:
 
-<div class="equation" id="eip-211">
+<div class="equation">
  $$ \Delta\theta =\frac{ \Delta s }{r}. $$
 </div>
 
@@ -62,14 +62,14 @@ We know that for one complete revolution, the arc length is the circumference of
 a circle of radius $$ r $$. The circumference of a circle is $$ 2\pi r $$. Thus
 for one complete revolution the rotation angle is
 
-<div class="equation" id="eip-191">
+<div class="equation">
  $$ \Delta\theta =\frac{2\pi r}{r}=2\pi . $$
 </div>
 
 This result is the basis for defining the units used to measure rotation angles,
 $$ \Delta\theta $$ to be **radians** (rad), defined so that
 
-<div class="equation" id="eip-135">
+<div class="equation">
  $$ 2\pi \text{rad}=1 \text{revolution.} $$
 </div>
 
@@ -101,13 +101,13 @@ and every point on the CD is back at its original position. Because there are $$
 360^\circ $$ in a circle or one revolution, the relationship between radians and
 degrees is thus
 
-<div class="equation" id="eip-808">
+<div class="equation">
  $$ 2\pi \text{rad}=360^\circ $$
 </div>
 
 so that
 
-<div class="equation" id="eip-873">
+<div class="equation">
  $$ 1\text{rad}=\frac{360^\circ}{2\pi }\approx 57.3^\circ . $$
 </div>
 
@@ -116,7 +116,7 @@ so that
 How fast is an object rotating? We define **angular velocity** $$ \omega $$ as
 the rate of change of an angle. In symbols, this is
 
-<div class="equation" id="eip-759">
+<div class="equation">
  $$ \omega =\frac{ \Delta\theta }{\Delta t }, $$
 </div>
 
@@ -129,21 +129,21 @@ the precise relationship between angular and linear velocity, we again consider
 a pit on the rotating CD. This pit moves an arc length $$ \Delta s $$ in a time
 $$ \Delta t $$, and so it has a linear velocity
 
-<div class="equation" id="eip-400">
+<div class="equation">
  $$ v=\frac{ \Delta s }{\Delta t }. $$
 </div>
 
 From $$ \Delta\theta =\frac{ \Delta s }{r} $$ we see that $$ \Delta s
 =r\Delta\theta $$. Substituting this into the expression for $$ v $$ gives
 
-<div class="equation" id="eip-637">
+<div class="equation">
  $$ v=\frac{r\Delta\theta }{\Delta t }=r \omega . $$
 </div>
 
 We write this relationship in two different ways and gain two different
 insights:
 
-<div class="equation" id="eip-639">
+<div class="equation">
  $$ v=r \omega \text{ or }\omega =\frac{v}{r}. $$
 </div>
 
@@ -193,12 +193,12 @@ velocity.
 
 To calculate the angular velocity, we will use the following relationship:
 
-<div class="equation" id="eip-97">
+<div class="equation">
  $$ \omega =\frac{v}{r}. $$
 </div>
 Substituting the knowns,
 
-<div class="equation" id="eip-451">
+<div class="equation">
  $$ \omega =\frac{15.0 \ms }{0.300\m }=50.0\text{rad/s.} $$
 </div>
 
@@ -211,7 +211,7 @@ answer for the angular velocity. Also note that if an earth mover with much
 larger tires, say 1.20 m in radius, were moving at the same speed of 15.0 m/s,
 its tires would rotate more slowly. They would have an angular velocity
 
-<div class="equation" id="eip-971">
+<div class="equation">
  $$ \omega =\left(15.0 \ms \right)/\left(1.20\m \right)=12.5\text{rad/s.} $$
 </div>
 </div>
@@ -252,7 +252,7 @@ Join the ladybug in an exploration of rotational motion. Rotate the merry-go-rou
 * Uniform circular motion is motion in a circle at
   constant speed. The rotation angle $$ \Delta\theta $$ is defined as the ratio
   of the arc length to the radius of curvature:
-  <div class="equation" id="eip-213">
+  <div class="equation">
  $$ \Delta\theta =\frac{ \Delta s }{r}, $$
   </div>
 
@@ -260,7 +260,7 @@ Join the ladybug in an exploration of rotational motion. Rotate the merry-go-rou
  $$ r $$ is the radius of curvature of the circular path. The quantity $$
   \Delta\theta $$ is measured in units of radians (rad), for which
 
-  <div class="equation" id="eip-567">
+  <div class="equation">
  $$ 2\pi \text{rad}=360^\circ= 1 \text{ revolution} . $$
   </div>
 
@@ -268,7 +268,7 @@ Join the ladybug in an exploration of rotational motion. Rotate the merry-go-rou
   1\text{ rad}=57.3^\circ $$.
 * Angular velocity $$ \omega $$ is the rate of change
   of an angle,
-  <div class="equation" id="eip-969">
+  <div class="equation">
  $$ \omega =\frac{ \Delta\theta }{\Delta t }, $$
   </div>
 
@@ -276,7 +276,7 @@ Join the ladybug in an exploration of rotational motion. Rotate the merry-go-rou
   units of angular velocity are radians per second (rad/s). Linear velocity $$ v
  $$ and angular velocity $$ \omega $$ are related by
 
-  <div class="equation" id="eip-513">
+  <div class="equation">
  $$ v=r \omega \text{ or }\omega =\frac{v}{r}. $$
   </div>
 

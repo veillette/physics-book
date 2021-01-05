@@ -41,7 +41,7 @@ building. If we use the fact that the height of one story is approximately equal
 to about the length of two adult humans (each human is about 2-m tall), then we
 can estimate the total height of the building to be
 
-<div class="equation" id="eip-159">
+<div class="equation">
  $$ \frac{2 \m }{1 \text{person}}×\frac{2 \text{person}}{1 \text{story}}× 39\text{stories}
 = 156 \m . $$
 </div>
@@ -84,7 +84,7 @@ multiplied by the unknown height.
 bill are approximately 3 in. by 6 in. A stack of 100 of these is about 0.5 in.
 thick. So the total volume of a stack of 100 bills is:
 
-<div class="equation" id="eip-51">
+<div class="equation">
  $$ \begin{array}{}
 \text{volume of stack}=\text{length}×\text{width}×\text{height,}\\
 \text{volume of stack}=6 \text{in.}×3 \text{in.}\times 0.5 \text{in.},\\
@@ -95,7 +95,7 @@ thick. So the total volume of a stack of 100 bills is:
 and a stack of one-hundred $$ $100 $$ bills is equal to $$ $10 000, $$
 or $$ $1\times 10^{4} $$. The number of stacks you will have is:
 
-<div class="equation" id="eip-203">
+<div class="equation">
  $$ \$1 \times 10^{12}
 \left( \text{a trillion dollars} \right)
  1 \times 10^{4} \$ \text{per stack}=1\times 10^{8}\text{stacks.} $$
@@ -106,7 +106,7 @@ which gives $$ 5000 \text{yd}^{2}. $$
 Because we are working in inches, we need to convert square yards to square
 inches:
 
-<div class="equation" id="eip-446">
+<div class="equation">
  $$ \begin{array}{}
 \text{Area}=5 000 \text{yd}^{2}×\frac{3\text{ft}}{1 \text{yd}} \times
 \frac{3\text{ft}}{1 \text{yd}} \times \frac{12 \text{in.}}{1 \text{ft}}
@@ -125,7 +125,7 @@ stacks}=9\times 10^{8}\text{in.}^{3}. $$
 (5) Calculate the height. To determine the height of the bills, use the
 equation:
 
-<div class="equation" id="eip-690">
+<div class="equation">
  $$ \begin{array}{lll}
 \text{volume of bills}& =& \text{area of field}×\text{height of money:}\\
 \text{Height of money}& =& \frac{ \text{volume of bills}}{\text{area of field}},\\
@@ -135,7 +135,7 @@ equation:
 </div>
 The height of the money will be about 100 in. high. Converting this value to feet gives
 
-<div class="equation" id="eip-635">
+<div class="equation">
  $$ 100 \text{in.}×\frac{1 \text{ft}}{12 \text{in.}}=8.33 \text{ft}\approx 8 \text{ft.} $$
 </div>
 

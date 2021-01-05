@@ -64,7 +64,7 @@ The ratio of the squares of the periods of any two planets about the Sun is
 equal to the ratio of the cubes of their average distances from the Sun. In
 equation form, this is
 
-<div class="equation" id="eip-976">
+<div class="equation">
  $$ \frac{ T_{1}^{2}}{ T_{2}^{2}}=\frac{ r_{1}^{3}}{ r_{2}^{3}}, $$
 </div>
 
@@ -109,20 +109,20 @@ can be found.
 
 Kepler’s third law is
 
-<div class="equation" id="eip-618">
+<div class="equation">
  $$ \frac{ T_{1}^{2}}{ T_{2}^{2}}=\frac{ r_{1}^{3}}{ r_{2}^{3}}. $$
 </div>
 To solve for $$ T_{2} $$, we cross-multiply and take the square root, yielding
 
-<div class="equation" id="eip-113">
+<div class="equation">
  $$ T_{2}^{2}=T_{1}^{2}\left(\frac{r_{2}}{ r_{1}}\right)^{3} $$
 </div>
-<div class="equation" id="eip-925">
+<div class="equation">
  $$ T_{2}=T_{1} \left(\frac{r_{2}}{r_{1}}\right)^{3/2}. $$
 </div>
 Substituting known values yields
 
-<div class="equation" id="eip-552">
+<div class="equation">
  $$ \begin{array}{lll} T_{2}& =& 27.3 \text{d} \times
 \frac{24.0 \text{h}}{\text{d}}
 \times {\left(\frac{7880 \text{km}}{3.84\times 10^{5}\text{km}}\right)}^{3/2}\\
@@ -151,20 +151,20 @@ M $$, satisfying the two conditions stated at the beginning of this section.
 Gravity supplies the centripetal force to mass $$ m $$. Starting with Newton’s
 second law applied to circular motion,
 
-<div class="equation" id="eip-729">
+<div class="equation">
 $$ F_{\text{net}}= m \ac =m\frac{ v^{2}}{r}. $$
 </div>
 
 The net external force on mass $$ m $$ is gravity, and so we substitute the
 force of gravity for $$ F_{\text{net}} $$:
 
-<div class="equation" id="eip-623">
+<div class="equation">
  $$ G\frac{mM}{ r^{2}}=m\frac{ v^{2}}{r}. $$
 </div>
 
 The mass $$ m $$ cancels, yielding
 
-<div class="equation" id="eip-457">
+<div class="equation">
  $$ G\frac{M}{r}={v}^{2}. $$
 </div>
 
@@ -176,26 +176,26 @@ third law, we must get the period $$ T $$ into the equation. By definition,
 period $$ T $$ is the time for one complete orbit. Now the average speed $$ v $$
 is the circumference divided by the period—that is,
 
-<div class="equation" id="eip-519">
+<div class="equation">
  $$ v=\frac{2\pi r}{T}. $$
 </div>
 
 Substituting this into the previous equation gives
 
-<div class="equation" id="eip-362">
+<div class="equation">
  $$ G\frac{M}{r}=\frac{ 4\pi^{2}{r}^{2}}{T^{2}}. $$
 </div>
 
 Solving for $$ T^{2} $$ yields
 
-<div class="equation" id="eip-444">
+<div class="equation">
  $$ T^{2}=\frac{ 4\pi^{2}}{GM} r^{3}. $$
 </div>
 
 Using subscripts 1 and 2 to denote two different satellites, and taking the
 ratio of the last equation for satellite 1 to satellite 2 yields
 
-<div class="equation" id="eip-209">
+<div class="equation">
  $$ \frac{ T_{1}^{2}}{ T_{2}^{2}}=\frac{ r_{1}^{3}}{ r_{2}^{3}}. $$
 </div>
 
@@ -207,7 +207,7 @@ Now consider what we get if we solve $$ T^{2}=\frac{ 4\pi^{2} }{GM}{r}^{3} $$
 for the ratio $$ r^{3}/ T^{2} $$. We obtain a relationship that can be used to
 determine the mass $$ M $$ of a parent body from the orbits of its satellites:
 
-<div class="equation" id="eip-658">
+<div class="equation">
  $$ \frac{ r^{3}}{ T^{2}}=\frac{G}{ 4\pi^2 }M. $$
 </div>
 
@@ -337,7 +337,7 @@ Gravity and Orbits
   The ratio of the squares of the periods of any two planets about the Sun is
   equal to the ratio of the cubes of their average distances from the Sun:
 
-  <div class="equation" id="eip-233">
+  <div class="equation">
  $$ \frac{T_{1}^{2}}{ T_{2}^{2}}=\frac{ r_{1}^{3}}{r_{2}^{3}}, $$
   </div>
 
@@ -346,13 +346,13 @@ Gravity and Orbits
 
 * The period and radius of a satellite’s orbit about
   a larger body $$ M $$ are related by
-  <div class="equation" id="eip-395">
+  <div class="equation">
  $$ T^{2}=\frac{4\pi^{2}}{GM} r^{3} $$
   </div>
 
   or
 
-  <div class="equation" id="eip-839">
+  <div class="equation">
  $$ \frac{ r^{3}}{ T^{2}}=\frac{G}{ 4\pi^{2}}M. $$
   </div>
 

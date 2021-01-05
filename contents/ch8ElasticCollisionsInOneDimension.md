@@ -57,13 +57,13 @@ objects we can use the equations for conservation of momentum and conservation
 of internal kinetic energy. First, the equation for conservation of momentum for
 two objects in a one-dimensional collision is
 
-<div class="equation" id="eip-545">
+<div class="equation">
  $$ p_{1}+p_{2}=p^{\prime}_{1}+p^{\prime}_{2}\left({F}_{\text{net}}=0\right) $$
 </div>
 
 or
 
-<div class="equation" id="eip-485">
+<div class="equation">
  $$ m_{1}v_{1}+m_{2}v_{2}=m_{1}v^{\prime}_{1}+m_{2}v^{\prime}_{2}\left({F}_{\text{net}}=0\right), $$
 </div>
 
@@ -71,7 +71,7 @@ where the primes (\') indicate values after the collision. By definition, an
 elastic collision conserves internal kinetic energy, and so the sum of kinetic
 energies before the collision equals the sum after the collision. Thus,
 
-<div class="equation" id="eip-940">
+<div class="equation">
  $$ \frac{1}{2}m_{1}{ v_{1}}^{2}+\frac{1}{2}m_{2}{ v_{2}}^{2}=\frac{1}{2}m_{1}{ v^{\prime}_{1}}^{2}+\frac{1}{2}m_{2}{ v^{\prime}_{2}}^{2}\text{(two-object elastic collision)} $$
 </div>
 
@@ -84,7 +84,7 @@ Calculating Velocities Following an Elastic Collision
 </div>
 Calculate the velocities of two objects following an elastic collision, given that
 
-<div class="equation" id="eip-634">
+<div class="equation">
  $$ m_{1}=0.500 \kg , m_{2}=3.50 \kg , v_{1}=4.00 \ms, \text{ and } v_{2}=0. $$
 </div>
 
@@ -106,17 +106,17 @@ unknowns.
 For this problem, note that $$ v_{2}=0 $$ and use conservation of momentum.
 Thus,
 
-<div class="equation" id="eip-773">
+<div class="equation">
  $$ p_{1}=p^{\prime} {}_{1}+p^{\prime} {}_{2} $$
 </div>
 or
 
-<div class="equation" id="eip-832">
+<div class="equation">
  $$ m_{1}v_{1}=m_{1}v^{\prime}_{1}+m_{2}v^{\prime}_{2}. $$
 </div>
 Using conservation of internal kinetic energy and that $$ v_{2}=0 $$,
 
-<div class="equation" id="eip-901">
+<div class="equation">
  $$ \frac{1}{2} m_{1} v_{1}^{2}
 =\frac{1}{2} m_{1} {v^{\prime}_{1}}^{2}+ \frac{1}{2}m_{2}{v^{\prime}_{2}}^{2}.
 $$
@@ -124,7 +124,7 @@ $$
 Solving the first equation (momentum equation) for $$ v^{\prime}_{2} $$,
 we obtain
 
-<div class="equation" id="eip-436">
+<div class="equation">
  $$ v^{\prime}_{2}=\frac{ m_{1}}{ m_{2}}\left(v_{1}-v^{\prime}_{1}\right). $$
 </div>
 Substituting this expression into the second equation (internal kinetic energy equation)
@@ -132,12 +132,12 @@ eliminates the variable $$ v^{\prime}_{2} $$, leaving only $$ v^{\prime}_{1} $$ 
 (the algebra is left as an exercise for the reader). There are two solutions to any quadratic equation; in
 this example, they are
 
-<div class="equation" id="eip-464">
+<div class="equation">
  $$ v^{\prime}_{1}=4.00 \ms $$
 </div>
 and
 
-<div class="equation" id="eip-990">
+<div class="equation">
  $$ v^{\prime}_{1}=-3.00 \ms . $$
 </div>
 As noted when quadratic equations were encountered in earlier chapters, both solutions may or may not be meaningful. In this case, the first solution is the same as the initial condition. The first solution thus represents the situation before the collision and is discarded. The second solution $$ \left(v^{\prime}_{1}=-3.00 \ms \right) $$
@@ -146,12 +146,12 @@ is negative, meaning that the first object bounces backward. When this negative
 value of $$ v^{\prime}_{1} $$ is used to find the velocity of the second object
 after the collision, we get
 
-<div class="equation" id="eip-560">
+<div class="equation">
  $$ v^{\prime}_{2}=\frac{ m_{1}}{ m_{2}}\left(v_{1}-v^{\prime}_{1}\right)=\frac{0.500 \kg }{3.50 \kg }\left[4.00-\left(-3.00\right)\right] \ms $$
 </div>
 or
 
-<div class="equation" id="eip-819">
+<div class="equation">
  $$ v^{\prime}_{2}=1.00 \ms . $$
 </div>
 

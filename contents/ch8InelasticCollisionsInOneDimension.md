@@ -79,28 +79,28 @@ is zero.
 
 Conservation of momentum is
 
-<div class="equation" id="eip-46">
+<div class="equation">
  $$ p_{1}+p_{2}={p^{\prime} }_{1}+{p^{\prime} }_{2} $$
 </div>
 or
 
-<div class="equation" id="eip-225">
+<div class="equation">
  $$ m_{1}v_{1}+m_{2}v_{2}=m_{1}{v^{\prime} }_{1}+m_{2}{v^{\prime} }_{2}. $$
 </div>
 Because the goalie is initially at rest, we know $$ v_{2}=0 $$. Because the goalie catches the puck, the final velocities are equal, or $$
 {v^{\prime} }_{1}={v^{\prime} }_{2}=v^{\prime} $$. Thus, the conservation of momentum equation simplifies to
 
-<div class="equation" id="eip-125">
+<div class="equation">
  $$ m_{1}v_{1}=\left(m_{1}+m_{2}\right)v^{\prime} . $$
 </div>
 Solving for $$ v^{\prime} $$ yields
 
-<div class="equation" id="eip-370">
+<div class="equation">
  $$ v^{\prime} =\frac{ m_{1}}{ m_{1}+m_{2}}v_{1}. $$
 </div>
 Entering known values in this equation, we get
 
-<div class="equation" id="eip-777">
+<div class="equation">
  $$ v^{\prime} =\left(\frac{0.150 \kg }{0.150 \kg +70.0 \kg }\right)\left(35.0 \ms \right)=7.48 \times 10^{-2} \ms . $$
 </div>
 
@@ -115,7 +115,7 @@ Before the collision, the internal kinetic energy $$ \KE_{\text{int}} $$
 of the system is that of the hockey puck, because the goalie is initially at
 rest. Therefore, $$ \KE_{\text{int}} $$ is initially
 
-<div class="equation" id="eip-672">
+<div class="equation">
  $$ \begin{array}{lll}
 \KE_{\text{int}}& =& \frac{1}{2}m v^{2}=\frac{1}{2}\left(0.150 \kg \right){\left(35.0 \ms \right)}^{2}\\
 & =& 91.9 \J .
@@ -123,7 +123,7 @@ rest. Therefore, $$ \KE_{\text{int}} $$ is initially
 </div>
 After the collision, the internal kinetic energy is
 
-<div class="equation" id="eip-440">
+<div class="equation">
  $$ \begin{array}{lll}
 \KE^\prime_{\text{int}}& =& \frac{1}{2}\left(m+M\right){v}^{2}=
 \frac{1}{2}\left(70.15 \kg \right){\left(7.48 \times 10^{-2} \ms \right)}^{2}\\
@@ -132,7 +132,7 @@ After the collision, the internal kinetic energy is
 </div>
 The change in internal kinetic energy is thus
 
-<div class="equation" id="eip-172">
+<div class="equation">
  $$ \begin{array}{lll}
 \KE^{\prime}_{\text{int}}-\KE_{\text{int}}& =& 0.196 \J -91.9 \J \\
 & =& -91.7 \J
@@ -215,13 +215,13 @@ after the collision to see how much energy was released by the spring.
 
 As before, the equation for conservation of momentum in a two-object system is
 
-<div class="equation" id="eip-473">
+<div class="equation">
  $$ m_{1}v_{1}+m_{2}v_{2}=m_{1}{v^{\prime} }_{1}+m_{2}{v^{\prime} }_{2}. $$
 </div>
 The only unknown in this equation is $$ v^{\prime}_{2} $$. Solving for $$ v^{\prime}_{2} $$
 and substituting known values into the previous equation yields
 
-<div class="equation" id="eip-999">
+<div class="equation">
  $$ \begin{array}{lll}
 v^{\prime}_{2}& =& \frac{ m_{1}v_{1}+m_{2}v_{2}-m_{1}{v^{\prime} }_{1}}{ m_{2}}\\
 & =& \frac{ \left(0.350 \kg \right)\left(2.00 \ms \right)+
@@ -235,7 +235,7 @@ v^{\prime}_{2}& =& \frac{ m_{1}v_{1}+m_{2}v_{2}-m_{1}{v^{\prime} }_{1}}{ m_{2}}\
 
 The internal kinetic energy before the collision is
 
-<div class="equation" id="eip-530">
+<div class="equation">
  $$ \begin{array}{lll}
 \KE_{\text{int}}& =& \frac{1}{2}m_{1}v_{1}^{2}+\frac{1}{2}m_{2}v_{2}^{2}\\
 & =& \frac{1}{2}\left(0.350 \kg \right){\left(2.00 \ms \right)}^{2}+\frac{1}{2}\left(0.500 \kg \right){\left(-0.500 \ms \right)}^{2}\\
@@ -244,7 +244,7 @@ The internal kinetic energy before the collision is
 </div>
 After the collision, the internal kinetic energy is
 
-<div class="equation" id="eip-626">
+<div class="equation">
  $$ \begin{array}{lll}
 \KE^\prime_{\text{int}}& =& \frac{1}{2}m_{1}{v^{\prime}}_{1}^{2}+\frac{1}{2}m_{2}{v^{\prime}}_{2}^{2}\\
 & =& \frac{1}{2}\left(0.350 \kg \right) \left(-4.00 \ms \right)^{2}+
@@ -254,7 +254,7 @@ After the collision, the internal kinetic energy is
 </div>
 The change in internal kinetic energy is thus
 
-<div class="equation" id="eip-246">
+<div class="equation">
  $$ \begin{array}{lll}
 \KE^{\prime}_{\text{int}}-\KE_{\text{int}}& =& 6.22 \J -0.763 \J \\
 & =& 5.46 \J .

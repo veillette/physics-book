@@ -126,23 +126,23 @@ diagram in the figure.
 
 Newton’s second law is given by
 
-<div class="equation" id="eip-id1456392">
+<div class="equation">
  $$ a=\frac{ F_{\text{net}}}{m}. $$
 </div>
 The net external force on System 1 is deduced from [Figure](#import-auto-id2324690)
 and the discussion above to be
 
-<div class="equation" id="eip-id1515829">
+<div class="equation">
 $$ F_{\text{net}}=F_{\text{floor}}-f=150 \N -24.0 \N =126 \N . $$
 </div>
 The mass of System 1 is
 
-<div class="equation" id="eip-id1213154">
+<div class="equation">
  $$ m=\left(65.0+12.0+7.0\right)\kg =84 \kg . $$
 </div>
 These values of $$ F_{\text{net}} $$ and $$ m $$ produce an acceleration of
 
-<div class="equation" id="eip-id1741589">
+<div class="equation">
  $$ \begin{array}{}
 a=\frac{ F_{\text{net}}}{m},\\
 a=\frac{126 \N }{84 \kg }=1.5 \mss .
@@ -185,41 +185,41 @@ for System 2.
 Newton’s second law can be used to find $$ \vb{F}_{\text{prof}} $$.
 Starting with
 
-<div class="equation" id="eip-id1949236">
+<div class="equation">
  $$ a=\frac{ F_{\text{net}}}{m} $$
 </div>
 and noting that the magnitude of the net external force on System 2 is
 
-<div class="equation" id="eip-id2390884">
+<div class="equation">
 $$ F_{\text{net}}=F_{\text{prof}}-f, $$
 </div>
 we solve for $$ F_{\text{prof}} $$, the desired quantity:
 
-<div class="equation" id="eip-id1373488">
+<div class="equation">
 $$ F_{\text{prof}}=F_{\text{net}}+f. $$
 </div>
 The value of $$ f $$ is given, so we must calculate net $$ F_{\text{net}} $$. That can be done
 since both the acceleration and mass of System 2 are known. Using Newton’s
 second law we see that
 
-<div class="equation" id="eip-id2367884">
+<div class="equation">
 $$ F_{\text{net}}=ma , $$
 </div>
 where the mass of System 2 is 19.0 kg ( $$ m $$ = 12.0 kg + 7.0 kg) and its acceleration was found to be $$
 a=1.5\mss $$ in the previous example. Thus,
 
-<div class="equation" id="eip-id3477001">
+<div class="equation">
 $$ F_{\text{net}}=ma , $$
 </div>
-<div class="equation" id="eip-id1454423">
+<div class="equation">
 $$ F_{\text{net}}=\left(19.0 \kg \right)\left(1.5\mss \right)=29 \N . $$
 </div>
 Now we can find the desired force:
 
-<div class="equation" id="eip-id1004496">
+<div class="equation">
 $$ F_{\text{prof}}=F_{\text{net}}+f, $$
 </div>
-<div class="equation" id="eip-id1197329">
+<div class="equation">
 $$ F_{\text{prof}}=29 \N +24.0 \N =53 \N . $$
 </div>
 

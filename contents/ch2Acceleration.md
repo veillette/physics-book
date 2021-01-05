@@ -26,7 +26,7 @@ Average Acceleration
 
 **Average Acceleration** is *the rate at which velocity changes*,
 
-<div class="equation" id="import-auto-id4040806">
+<div class="equation">
  $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{ v_{f}-v_{0}}{ t_{f}-t_{0}}, $$
 </div>
 where $$ \overline{a} $$ is average acceleration, $$ v $$ is velocity, and $$ t $$
@@ -137,7 +137,7 @@ s} $$.
 3\. Plug in the known values ( $$ \Delta v $$ and $$ \Delta t $$)
 and solve for the unknown $$ \overline{a} $$.
 
-<div class="equation" id="import-auto-id2400983">
+<div class="equation">
  $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{-15.0 \ms }{1.80 \s }=-8.33 \mss . $$
 </div>
 
@@ -222,12 +222,12 @@ and $$ x_{0}=4.70 \text{km} $$ for part (a), and $$ x^{\prime}_{f}=3.75
 
 2\. Solve for displacement in part (a).
 
-<div class="equation" id="import-auto-id2400875">
+<div class="equation">
  $$ \Delta x=x_{f}-x_{0}=6.70 \text{km}-4.70 \text{km}=+2.00 \text{km} $$
 </div>
 3\. Solve for displacement in part (b).
 
-<div class="equation" id="import-auto-id2589758">
+<div class="equation">
  $$ \Delta x^{\prime} =x^{\prime}_{f}-x^{\prime}_{0}=3.75 \text{km}-5.25 \text{km}=-1.50 \text{km} $$
 </div>
 
@@ -301,13 +301,13 @@ to the right.
 
 3\. Plug in known values and solve for the unknown, $$ \overline{a} $$.
 
-<div class="equation" id="import-auto-id2412947">
+<div class="equation">
  $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{+30.0 \text{km/h}}{20.0 s} $$
 </div>
 4\. Since the units are mixed (we have both hours and seconds for time), we need to convert everything into SI 
 units of meters and seconds. (See [Physical Quantities and Units](../contents/ch1PhysicalQuantitiesAndUnits.md) for more guidance.)
 
-<div class="equation" id="import-auto-id2297812">
+<div class="equation">
  $$ \overline{a}=\left(\frac{+30 \text{km/h}}{20.0 \s }\right)\left(\frac{ 10^{3}\m }{1 \text{km}}\right)\left(\frac{1 \text{h}}{3600 \s }\right)=0.417 \mss $$
 </div>
 
@@ -342,17 +342,17 @@ velocity and the change in time and then solve for acceleration.
 
 2\. Solve for the change in velocity, $$ \Delta v $$.
 
-<div class="equation" id="import-auto-id2586229">
+<div class="equation">
  $$ \Delta v=v_{f}-v_{0}=0-30.0 \text{km/h}=-30.0 \text{km/h} $$
 </div>
 3\. Plug in the knowns, $$ \Delta v $$ and $$ \Delta t $$, and solve for $$ \overline{a} $$.
 
-<div class="equation" id="import-auto-id2412874">
+<div class="equation">
  $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{-30.0 \text{km/h}}{8.00 \s } $$
 </div>
 4\. Convert the units to meters and seconds.
 
-<div class="equation" id="import-auto-id2596926">
+<div class="equation">
  $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\left(\frac{-30.0 \text{km/h}}{8.00 \s }\right)\left(\frac{ 10^{3}\m }{1 \text{km}}\right)\left(\frac{1 \text{h}}{3600 \s }\right)
 =−1.04 \mss . $$
 </div>
@@ -403,12 +403,12 @@ x^{\prime} $$ to be $$ -1.5 \text{km} $$ in [Figure](#fs-id1744930).
 
 3\. Solve for average velocity.
 
-<div class="equation" id="import-auto-id2338961">
+<div class="equation">
  $$ \overline{v}=\frac{ \Delta x^{\prime} }{\Delta t}=\frac{-1.50 \text{km}}{5.00 \text{min}} $$
 </div>
 4\. Convert units.
 
-<div class="equation" id="import-auto-id2338968">
+<div class="equation">
  $$ \overline{v}=\frac{ \Delta x^{\prime} }{\Delta t}=\left(\frac{-1.50 \text{km}}{5.00 \text{min}}\right)\left(\frac{60 \text{min}}{1 h}\right)=-18.0 \text{km/h} $$
 </div>
 
@@ -442,19 +442,19 @@ calculate average acceleration.
 2\. Calculate $$ \Delta v $$. The change in velocity here is actually positive,
 since
 
-<div class="equation" id="import-auto-id2581122">
+<div class="equation">
  $$ \Delta v=v_{f}-v_{0}=0-\left(-20 \text{km/h}\right)= +20 \text{km/h}. $$
 </div>
 3\. Solve for $$ \overline{a} $$.
 
-<div class="equation" id="import-auto-id2585925">
+<div class="equation">
  $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{+20.0 \text{km/h}}{10.0
 \s }
 $$
 </div>
 4\. Convert units.
 
-<div class="equation" id="import-auto-id2581171">
+<div class="equation">
  $$ \overline{a}=\left(\frac{+20.0 \text{km/h}}{10.0 \s }\right)\left
 (\frac{ 10^{3} \m }{1 \text{km}}\right)\left(\frac{1 \text{h}}{3600 \text
 {s}}\right)=+0.556 \mss $$
@@ -523,7 +523,7 @@ Moving Man
 
 * Acceleration is the rate at which velocity changes.
   In symbols, **average acceleration** $$ \overline{a} $$ is
-  <div class="equation" id="import-auto-id2412659">
+  <div class="equation">
  $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{ v_{f}-v_{0}}{ t_{f}-t_{0}}. $$
   </div>
 

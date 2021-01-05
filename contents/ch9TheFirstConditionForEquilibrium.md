@@ -14,7 +14,7 @@ The first condition necessary to achieve equilibrium is the one already
 mentioned: the net external force on the system must be zero. Expressed as an
 equation, this is simply
 
-<div class="equation" id="eip-6">
+<div class="equation">
  $$ \text{net}\vb{F}=0 $$
 </div>
 
@@ -22,7 +22,7 @@ Note that if net $$ F $$ is zero, then the net external force in **any**
 direction is zero. For example, the net external forces along the typical *x*-
 and *y*-axes are zero. This is written as
 
-<div class="equation" id="eip-180">
+<div class="equation">
  $$ \text{net}F_{x}=0\text{ and }F_{y}=0 $$
 </div>
 

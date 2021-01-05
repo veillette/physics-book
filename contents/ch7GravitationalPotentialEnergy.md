@@ -62,7 +62,7 @@ problems using energy (if possible) rather than explicitly using forces.
 More precisely, we define the *change* in gravitational potential energy $$
 \Delta \PE_{\text{g}} $$ to be
 
-<div class="equation" id="eip-306">
+<div class="equation">
  $$ \Delta \PE_{\text{g}}=mgh , $$
 </div>
 
@@ -121,7 +121,7 @@ this kinetic energy to zero.
 
 The work done on the person by the floor as he stops is given by
 
-<div class="equation" id="eip-955">
+<div class="equation">
  $$ W=F d \cos{\theta} =-F d , $$
 </div>
 with a minus sign because the displacement while stopping and the force from floor are in opposite directions $$ \left(\cos{\theta} =\cos{ 180^\circ }=-1\right) $$. The floor removes energy from the system, so it does negative work.
@@ -139,7 +139,7 @@ bend is ignored.
 The work $$ W $$ done by the floor on the person stops the person and brings the
 person’s kinetic energy to zero:
 
-<div class="equation" id="eip-418">
+<div class="equation">
  $$ W=-\KE=mgh . $$
 </div>
 Combining this equation with the expression for $$ W $$ gives
@@ -150,7 +150,7 @@ Combining this equation with the expression for $$ W $$ gives
 Recalling that $$ h $$ is negative because the person fell *down*,
 the force on the knee joints is given by
 
-<div class="equation" id="eip-118">
+<div class="equation">
  $$ F=-\frac{mgh }{d}=-\frac{ \left(60.0 \kg \right)\left(9.80 \mss \right)\left(-3.00 \m \right)}{5.00\times 10^{-3}\m }=3.53\times 10^{5}N. $$
 </div>
 
@@ -205,17 +205,17 @@ sign clearly. Thus,
 </div>
 becomes
 
-<div class="equation" id="eip-579">
+<div class="equation">
  $$ mg \mid h\mid =\frac{1}{2}m v^{2}. $$
 </div>
 Solving for $$ v $$, we find that mass cancels and that
 
-<div class="equation" id="eip-895">
+<div class="equation">
  $$ v=\sqrt{2g\mid h\mid }. $$
 </div>
 Substituting known values,
 
-<div class="equation" id="eip-230">
+<div class="equation">
  $$ \begin{array}{lll}
 v& =& \sqrt{2\left(9.80 \mss \right)\left(20.0 \m \right)}\\
  & =&19.6 \ms .
@@ -228,17 +228,17 @@ Again $$ -\Delta \PE_{\text{g}}=\Delta \KE $$. In this case there is initial
 kinetic energy, so $$ \Delta \KE=\frac{1}{2}m v^{2}-\frac{1}{2}m v_{0}^{2}
 $$. Thus,
 
-<div class="equation" id="eip-90">
+<div class="equation">
  $$ mg \mid h\mid =\frac{1}{2}m v^{2}-\frac{1}{2}m v_{0}^{2}. $$
 </div>
 Rearranging gives
 
-<div class="equation" id="eip-484">
+<div class="equation">
  $$ \frac{1}{2} m v^{2}=mg \mid h\mid +\frac{1}{2}m  v_{0}^{2}. $$
 </div>
 This means that the final kinetic energy is the sum of the initial kinetic energy and the gravitational potential energy. Mass again cancels, and
 
-<div class="equation" id="eip-436">
+<div class="equation">
  $$ v=\sqrt{2g\mid h\mid +v_{0}^{2}}. $$
 </div>
 This equation is very similar to the kinematics equation $$ v=\sqrt{ v_{0}^{2}+2ad} $$,
@@ -247,7 +247,7 @@ acceleration, whereas our equation above is valid for any path regardless of
 whether the object moves with a constant acceleration. Now, substituting known
 values gives
 
-<div class="equation" id="eip-388">
+<div class="equation">
  $$ \begin{array}{lll}
 v& =& \sqrt{2\left(9.80\mss \right)\left(20.0 \m \right)+\left(5.00 \ms \right)^{2}}\\
 & =& 20.4 \ms .
@@ -387,7 +387,7 @@ A 100-g toy car is propelled by a compressed spring that starts it moving. The c
 
 </div>
 <div class="solution">
-<div class="equation" id="eip-id2183293">
+<div class="equation">
  $$ v_{f}=\sqrt{2g h +{ v_{0}}^{2}}=\sqrt{2\left(9.80 \mss \right)\left(-0.180 \m \right)+\left(2.00 \ms \right)^{2}}=0.687 \ms $$
 </div>
 </div>

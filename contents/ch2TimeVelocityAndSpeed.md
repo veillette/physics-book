@@ -45,7 +45,7 @@ start at 11:00 A.M. and end at 11:50 A.M., so that the elapsed time would
 be 50 min. **Elapsed time** $$ \Delta t $$ 
 is the difference between the ending time and beginning time,
 
-<div class="equation" id="import-auto-id1757927">
+<div class="equation">
  $$ \Delta t=t_{f}-t_{0}, $$
 </div>
 
@@ -80,7 +80,7 @@ Average Velocity
 
 **Average velocity** is *displacement (change in position) divided by the time of travel*,
 
-<div class="equation" id="import-auto-id4059844">
+<div class="equation">
  $$ \overline{v}=\frac{ \Delta x}{\Delta t}=\frac{ x_{f}-x_{0}}{ t_{f}-t_{0}}, $$
 </div>
 where $$ \overline{v} $$ is the *average* (indicated by the bar over the $$
@@ -89,7 +89,7 @@ x_{f} $$ and $$ x_{0} $$ are the final and beginning positions at times $$ t_{f}
 $$ and $$ t_{0} $$, respectively. If the starting time $$ t_{0} $$ is taken to
 be zero, then the average velocity is simply
 
-<div class="equation" id="import-auto-id2027122">
+<div class="equation">
  $$ \overline{v}=\frac{ \Delta x}{t}. $$
 </div>
 </div>
@@ -101,7 +101,7 @@ also written as mph), and cm/s, are in common use. Suppose, for example, an
 airplane passenger took 5 seconds to move −4 m (the negative sign indicates that
 displacement is toward the back of the plane). His average velocity would be
 
-<div class="equation" id="import-auto-id4051374">
+<div class="equation">
  $$ \overline{v}=\frac{ \Delta x}{t}=\frac{-4\m }{5\s }=-0.8 \ms . $$
 </div>
 
@@ -208,10 +208,10 @@ A commuter train travels from Baltimore to Washington, DC, and back in 1 hour an
 (b) The average speed of the train is calculated below. Note that the train
 travels 40 miles one way and 40 miles back, for a total distance of 80 miles.
 
-<div class="equation" id="import-auto-id4070756">
+<div class="equation">
  $$ \frac{ \text{distance}}{\text{time}}=\frac{80 \text{miles}}{105 \text{minutes}} $$
 </div>
-<div class="equation" id="import-auto-id1750086">
+<div class="equation">
  $$ \frac{80 \text{miles}}{105 \text{minutes}}×\frac{5280 \text{feet}}{1 \text{mile}}×\frac{1 \text{meter}}{3.28 \text{feet}}×\frac{1 \text{minute}}{60 \text{seconds}}=20 \ms $$
 </div>
 </div>
@@ -221,7 +221,7 @@ travels 40 miles one way and 40 miles back, for a total distance of 80 miles.
 
 * Time is measured in terms of change, and its SI
   unit is the second (s). Elapsed time for an event is
-  <div class="equation" id="import-auto-id4146177">
+  <div class="equation">
  $$ \Delta t=t_{f}-t_{0}, $$
   </div>
 
@@ -230,7 +230,7 @@ travels 40 miles one way and 40 miles back, for a total distance of 80 miles.
   elapsed time is then just $$ t $$.
 * Average velocity $$ \overline{v} $$ is defined as
   displacement divided by the travel time. In symbols, average velocity is
-  <div class="equation" id="import-auto-id4086565">
+  <div class="equation">
  $$ \overline{v}=\frac{ \Delta x}{\Delta t}=\frac{ x_{\text{f}}-x_{0}}{ t_{\text{f}}-t_{0}}. $$
   </div>
 

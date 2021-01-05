@@ -256,7 +256,7 @@ Now we can set up our unit conversion. We will write the units that we have and
 then multiply them by the conversion factor so that the units cancel out, as
 shown:
 
-<div class="equation" id="eip-442">
+<div class="equation">
  $$ 80 \m ×\frac{1 \text{km}}{1000\m }=0.080\text{km}.
 $$
 </div>
@@ -310,18 +310,18 @@ unwanted unit and leaves the desired unit in its place.
 of travel. (Take this definition as a given for now—average speed and other
 motion concepts will be covered in a later module.) In equation form,
 
-<div class="equation" id="eip-389">
+<div class="equation">
  $$ \text{average speed =}\frac{ \text{distance}}{\text{time}}. $$
 </div>
 (2) Substitute the given values for distance and time.
 
-<div class="equation" id="eip-702">
+<div class="equation">
  $$ \text{average speed} =\frac{10.0\text{km}}{20.0\text{min}}=0.500\frac{ \text{km}}{\text{min}}. $$
 </div>
 (3) Convert km/min to km/h: multiply by the conversion factor that will cancel minutes and leave hours.
 That conversion factor is $$ 60 \text{min/hr} $$. Thus,
 
-<div class="equation" id="eip-583">
+<div class="equation">
  $$ \text{average speed} = 0.500\frac{ \text{km}}{\text{min}}×\frac{60 \text
 { min}}{1\text{h}}=30.0\frac{ \text{km}}{\text{h}}. $$
 </div>
@@ -336,7 +336,7 @@ cancel properly in the equation. If you accidentally get the ratio upside down,
 then the units will not cancel; rather, they will give you the wrong units as
 follows:
 
-<div class="equation" id="eip-593">
+<div class="equation">
  $$ \frac{ \text{km}}{\text{min}}×\frac{1\text{hr}}{60 \text{min}}
 =\frac{1}{60}\frac{ \text{km}\cdot \text{hr}}{ {\text{min}}^{2}}, $$
 </div>
@@ -368,10 +368,10 @@ meters.
 
 (2) Multiplying by these yields
 
-<div class="equation" id="eip-790">
+<div class="equation">
  $$ \text{Average speed}=30.0\frac{ \text{km}}{\text{h}}×\frac{1\text{h}}{3 600 \s  }×\frac{1 000 \m }{1 \text{km}}, $$
 </div>
-<div class="equation" id="eip-130">
+<div class="equation">
  $$ \text{Average speed}=8.33\frac{ \m }{\s}. $$
 </div>
 

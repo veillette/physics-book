@@ -37,7 +37,7 @@ The directions and magnitudes of acceleration and the applied forces are given
 in [Figure](#import-auto-id1221020)**(a)**. We will define the total
 force of the tugboats on the barge as $$ \vb{F}_{\text{app}} $$ so that:
 
-<div class="equation" id="eip-id1203757">
+<div class="equation">
  $$ \vb{F}_{\text{app}}=\vb{F}_{x}+\vb{F}_{y} $$
 </div>
 Since the barge is flat bottomed, the drag of the water $$ \vb{F}_{\text{D}} $$
@@ -55,7 +55,7 @@ the magnitude and direction of $$ \vb{F}_{\text{app}} $$
 are easily found. First, the resultant magnitude is given by the
 Pythagorean theorem:
 
-<div class="equation" id="eip-id2112578">
+<div class="equation">
  $$ \begin{array}{lll}
 F_{\text{app}}& =& \sqrt{ F_{x}^{2}+F_{y}^{2}} \\
 F_{\text{app}}& =& \sqrt{\left(2.7\times 10^{5}\N \right)^{2}+\left(3.6\times 10^{5}\N \right)^{2}}
@@ -64,7 +64,7 @@ F_{\text{app}}& =& \sqrt{\left(2.7\times 10^{5}\N \right)^{2}+\left(3.6\times 10
 </div>
 The angle is given by
 
-<div class="equation" id="eip-id3026466">
+<div class="equation">
 $$ \begin{array}{lll}
 \theta & =& {\tan}^{-1}\left(\frac{ F_{y}}{ F_{x}}\right)\\
 \theta & =& {\tan}^{-1}\left(\frac{3.6\times 10^{5}\N }{2.7\times 10^{5}\N }\right)=53^\circ,
@@ -78,28 +78,28 @@ same direction as $$ \vb{F}_{\text{app}} $$, but its magnitude is
 slightly less than $$ \vb{F}_{\text{app}} $$. The problem is now
 one-dimensional. From [Figure](#import-auto-id1221020)**(b)**, we can see that
 
-<div class="equation" id="eip-id1624544">
+<div class="equation">
 $$ F_{\text{net}}=F_{\text{app}}-F_{\text{D}}. $$
 </div>
 But Newton’s second law states that
 
-<div class="equation" id="eip-id1230866">
+<div class="equation">
 $$ F_{\text{net}}=ma . $$
 </div>
 Thus,
 
-<div class="equation" id="eip-id2268355">
+<div class="equation">
 $$ F_{\text{app}}-F_{\text{D}}=ma . $$
 </div>
 This can be solved for the magnitude of the drag force of the water $$ F_{\text{D}} $$
 in terms of known quantities:
 
-<div class="equation" id="eip-id1464099">
+<div class="equation">
 $$ F_{\text{D}}=F_{\text{app}}-ma . $$
 </div>
 Substituting known values gives
 
-<div class="equation" id="eip-id1715978">
+<div class="equation">
  $$ F_{\text{D}}=\left(4.5 \times 10^{5}\N \right)-\left(5.0 \times 10^{6}\kg \right)\left(7.5 \times 10^{-2}\mss \right)=7.5 \times 10^{4}\N . $$
 </div>
 The direction of $$ \vb{F}_{\text{D}} $$
@@ -147,22 +147,22 @@ the net external force is zero along each axis because acceleration is zero.
 
 First consider the horizontal or *x*-axis:
 
-<div class="equation" id="eip-id2514755">
+<div class="equation">
 $$ F_{\text{net}x}=T_{2x}-T_{1x}=0. $$
 </div>
 Thus, as you might expect,
 
-<div class="equation" id="eip-id2540452">
+<div class="equation">
  $$ T_{1x}=T_{2x}. $$
 </div>
 This gives us the following relationship between $$ T_{1} $$ and $$ T_{2} $$:
 
-<div class="equation" id="eip-id2122298">
+<div class="equation">
  $$ T_{1}\cos\left(30^\circ\right)=T_{2}\cos\left(45^\circ\right). $$
 </div>
 Thus,
 
-<div class="equation" id="eip-id2577136">
+<div class="equation">
  $$ T_{2}=\left(1.225\right) T_{1}. $$
 </div>
 Note that $$ T_{1} $$ and $$ T_{2} $$ are not equal in this case, because the angles on either side
@@ -171,40 +171,40 @@ T_{1} $$, because it is exerted more vertically than $$ T_{1} $$.
 
 Now consider the force components along the vertical or *y*-axis:
 
-<div class="equation" id="eip-id2308230">
+<div class="equation">
 $$ F_{\text{net}y}=T_{1y}+T_{2y}-w=0. $$
 </div>
 This implies
 
-<div class="equation" id="eip-id1339509">
+<div class="equation">
  $$ T_{1y}+T_{2y}=w. $$
 </div>
 Substituting the expressions for the vertical components gives
 
-<div class="equation" id="eip-id1925561">
+<div class="equation">
  $$ T_{1}\sin\{\left(30^{\circ} \right)\}+T_{2}\sin\left(45^\circ\right)=w. $$
 </div>
 There are two unknowns in this equation, but substituting the expression for $$ T_{2} $$
 in terms of $$ T_{1} $$ reduces this to one equation with one unknown:
 
-<div class="equation" id="eip-id2259246">
+<div class="equation">
  $$ T_{1}\left(0.500\right)+\left(1.225 T_{1}\right)\left(0.707\right)=w=mg , $$
 </div>
 which yields
 
-<div class="equation" id="eip-id2556360">
+<div class="equation">
  $$ \left(1.366\right) T_{1}=\left(15.0 \kg \right)\left(9.80 \mss \right). $$
 </div>
 Solving this last equation gives the magnitude of $$ T_{1} $$ to be
 
-<div class="equation" id="eip-id1747068">
+<div class="equation">
  $$ T_{1}=108 \N . $$
 </div>
 Finally, the magnitude of $$ T_{2} $$ is determined using
 the relationship between them, $$ T_{2} $$ = 1.225 $$ T_{1} $$,
 found above. Thus we obtain
 
-<div class="equation" id="eip-id1744019">
+<div class="equation">
  $$ T_{2}=132 \N . $$
 </div>
 
@@ -253,23 +253,23 @@ Newton’s third law $$ \vb{F}_{\text{p}} $$ and $$
 direction, so that we need to find $$ F_{\s} $$ in order to find what
 the scale reads. We can do this, as usual, by applying Newton’s second law,
 
-<div class="equation" id="eip-id2548908">
+<div class="equation">
 $$ F_{\text{net}}=ma . $$
 </div>
 From the free-body diagram we see that $$ F_{\text{net}}=F_{\s}-w $$,
 so that
 
-<div class="equation" id="eip-id2522872">
+<div class="equation">
 $$ F_{\s}-w=ma . $$
 </div>
 Solving for $$ F_{\s} $$ gives an equation with only one unknown:
 
-<div class="equation" id="eip-id1957748">
+<div class="equation">
 $$ F_{\s}=ma +w, $$
 </div>
 or, because $$ w=mg $$, simply
 
-<div class="equation" id="eip-id3507099">
+<div class="equation">
 $$ F_{\s}=ma +mg . $$
 </div>
 No assumptions were made about the acceleration, and so this solution should be valid for a variety of accelerations in addition to the ones in this exercise.
@@ -278,12 +278,12 @@ No assumptions were made about the acceleration, and so this solution should be 
 
 In this part of the problem, $$ a=1.20\mss $$, so that
 
-<div class="equation" id="eip-id1966528">
+<div class="equation">
 $$ F_{\s}=\left(75.0 \kg \right)\left(1.20 \mss \right)+\left(75.0 \kg \right)\left(9.80 \mss \right), $$
 </div>
 yielding
 
-<div class="equation" id="eip-id1707818">
+<div class="equation">
 $$ F_{\s}=825 \N . $$
 </div>
 
@@ -293,7 +293,7 @@ This is about 185 lb. What would the scale have read if he were stationary?
 Since his acceleration would be zero, the force of the scale would be equal to
 his weight:
 
-<div class="equation" id="eip-id2384618">
+<div class="equation">
  $$ \begin{array}{lll}
 F_{\text{net}}& =& ma =0=F_{\s}-w\\
 F_{\s}& =& w=mg \\
@@ -312,17 +312,17 @@ $$ \Delta v=0 $$.
 
 Thus,
 
-<div class="equation" id="eip-id2587837">
+<div class="equation">
 $$ F_{\s}=ma +mg =0+mg . $$
 </div>
 Now
 
-<div class="equation" id="eip-id1546720">
+<div class="equation">
 $$ F_{\s}=\left(75.0 \kg \right)\left(9.80 \mss \right), $$
 </div>
 which gives
 
-<div class="equation" id="eip-id1499798">
+<div class="equation">
 $$ F_{\s}=735 \N . $$
 </div>
 
@@ -393,12 +393,12 @@ the change in velocity is $$ \Delta v=8.00 m/s $$. We are given the elapsed
 time, and so $$ \Delta t=2.50 \s $$. The unknown is acceleration, which can be
 found from its definition:
 
-<div class="equation" id="eip-id1739294">
+<div class="equation">
  $$ a=\frac{ \Delta v}{\Delta t}. $$
 </div>
 Substituting the known values yields
 
-<div class="equation" id="eip-id2063281">
+<div class="equation">
  $$ \begin{array}{lll}
 a& =& \frac{8.00 \ms }{2.50 \s} \\
  & =& 3.20 \mss .
@@ -418,12 +418,12 @@ causes his acceleration. Since we now know the player’s acceleration and are
 given his mass, we can use Newton’s second law to find the force exerted. That
 is,
 
-<div class="equation" id="eip-id1756199">
+<div class="equation">
 $$ F_{\text{net}}=ma . $$
 </div>
 Substituting the known values of $$ m $$ and $$ a $$ gives
 
-<div class="equation" id="eip-id1351504">
+<div class="equation">
  $$ \begin{array}{lll}
 F_{\text{net}}& =& \left(70.0 \kg \right)\left(3.20 \mss \right)\\
 & =& 224 \N .

@@ -31,21 +31,21 @@ in [Figure](#import-auto-id2009471)) and remains perpendicular as the disk
 starts to rotate. The force is parallel to the displacement, and so the net work
 done is the product of the force times the arc length traveled:
 
-<div class="equation" id="eip-458">
+<div class="equation">
  $$ \text{net}W=\left(\text{net}F\right)\Delta s. $$
 </div>
 
 To get torque and other rotational quantities into the equation, we multiply and
 divide the right-hand side of the equation by $$ r $$, and gather terms:
 
-<div class="equation" id="eip-909">
+<div class="equation">
  $$ \text{net}W=\left(r\text{net}F\right)\frac{ \Delta s}{r}. $$
 </div>
 
 We recognize that $$ r\text{net}F=\text{net τ} $$ and $$ \Delta s/r=\theta $$,
 so that
 
-<div class="equation" id="eip-690">
+<div class="equation">
  $$ \text{net}W=\left(\text{net τ}\right)\theta . $$
 </div>
 
@@ -59,7 +59,7 @@ To get an expression for rotational kinetic energy, we must again perform some
 algebraic manipulations. The first step is to note that $$ \text{net τ}=I\alpha
 $$, so that
 
-<div class="equation" id="eip-404">
+<div class="equation">
  $$ \text{net}W=I \alpha \theta . $$
 </div>
 
@@ -77,19 +77,19 @@ Work and energy in rotational motion are completely analogous to work and energy
 Now, we solve one of the rotational kinematics equations for $$ \alpha \theta
 $$. We start with the equation
 
-<div class="equation" id="eip-750">
+<div class="equation">
  $$ \omega^{2}= \omega_{0}^{2}+2 \alpha \theta. $$
 </div>
 
 Next, we solve for $$ \alpha \theta $$:
 
-<div class="equation" id="eip-241">
+<div class="equation">
  $$ \alpha \theta=\frac{ \omega^{2}- \omega_{0}^{2} }{2}. $$
 </div>
 
 Substituting this into the equation for net $$ W $$ and gathering terms yields
 
-<div class="equation" id="eip-789">
+<div class="equation">
  $$ \text{net}W=\frac{1}{2}I\omega^{2}-\frac{1}{2}I \omega_{0}^{2}. $$
 </div>
 
@@ -100,7 +100,7 @@ motion, we define the term $$ \left(\frac{1}{2}\right)I\omega^{2} $$ to be
 \KE_{\text{rot}} $$ for an object with a moment of inertia $$ I $$ and
 an angular velocity $$ \omega $$ :
 
-<div class="equation" id="eip-682">
+<div class="equation">
  $$ \KE_{\text{rot}}=\frac{1}{2} I\omega^{2}. $$
 </div>
 
@@ -142,7 +142,7 @@ calculate the rotational kinetic energy from its expression in $$ \KE_
 
 The net work is expressed in the equation
 
-<div class="equation" id="eip-117">
+<div class="equation">
  $$ \text{net}W=\left(\text{net τ}\right)\theta , $$
 </div>
 where net $$ \tau $$ is the applied force multiplied by the radius $$ \left(rF\right) $$ because
@@ -150,7 +150,7 @@ there is no retarding friction, and the force is perpendicular to $$ r $$. The
 angle $$ \theta $$ is given. Substituting the given values in the equation above
 yields
 
-<div class="equation" id="eip-348">
+<div class="equation">
  $$ \begin{array}{lll}
 \text{net}W& =& rF\theta =\left(0.320 \m \right)\left(200 \N \right)\left(1.00 \text{rad}\right)\\
  & =& 64.0 \N \cdot \m .
@@ -158,7 +158,7 @@ yields
 </div>
 Noting that $$ 1 \N·\m =1 \J $$,
 
-<div class="equation" id="eip-903">
+<div class="equation">
  $$ \text{net}W=64.0 \J . $$
 </div>
 ![The figure shows a large grindstone of radius r which is being given a spin by applying a force F in a counterclockwise direction, as indicated by the arrows.](../resources/Figure_11_04_04a.jpg "A large grindstone is given a spin by a person grasping its outer edge."){: #import-auto-id2674234 height="225"}
@@ -168,41 +168,41 @@ Noting that $$ 1 \N·\m =1 \J $$,
 To find $$ \omega $$ from the given information requires more than one step. We
 start with the kinematic relationship in the equation
 
-<div class="equation" id="eip-576">
+<div class="equation">
  $$ \omega^{2}=\omega_{0}^{2}+2 \alpha \theta. $$
 </div>
 Note that $$ \omega_{0}=0 $$ because we start from rest. Taking the square root of the resulting equation
 gives
 
-<div class="equation" id="eip-981">
+<div class="equation">
  $$ \omega ={\left(2 \alpha \theta\right)}^{1/2}. $$
 </div>
 Now we need to find $$ \alpha $$. One possibility is
 
-<div class="equation" id="eip-825">
+<div class="equation">
  $$ \alpha =\frac{ \text{net τ}}{I}, $$
 </div>
 where the torque is
 
-<div class="equation" id="eip-643">
+<div class="equation">
  $$ \text{net τ}=rF=\left(0.320 \m \right)\left(200 \N \right)=64.0 \N \cdot \m . $$
 </div>
 The formula for the moment of inertia for a disk is found
 in [Figure](../contents/ch10DynamicsOfRotationalMotion.md#figMomentOfInertia) :
 
-<div class="equation" id="eip-119">
+<div class="equation">
  $$ I=\frac{1}{2} MR^{2}=0.5\left(85.0 \kg \right){\left(0.320 \m \right)}^{2}=4.352 \kg \cdot \mm. $$
 </div>
 Substituting the values of torque and moment of inertia into the expression for $$ \alpha $$,
 we obtain
 
-<div class="equation" id="eip-877">
+<div class="equation">
  $$ \alpha =\frac{64.0 \N \cdot \m }{4.352 \kg \cdot \mm}=14.7 \radss . $$
 </div>
 Now, substitute this value and the given value for $$ \theta $$
 into the above expression for $$ \omega $$:
 
-<div class="equation" id="eip-116">
+<div class="equation">
  $$ \omega ={\left(2 \alpha \theta \right)}^{1/2}=
 {\left[2\left(14.7 \radss \right) \left(1.00 \text{rad} \right) \right]}^{1/2}
 =5.42 \rads . $$
@@ -212,12 +212,12 @@ into the above expression for $$ \omega $$:
 
 The final rotational kinetic energy is
 
-<div class="equation" id="eip-291">
+<div class="equation">
  $$ \KE_{\text{rot}}=\frac{1}{2}I\omega^{2}. $$
 </div>
 Both $$ I $$ and $$ \omega $$ were found above. Thus,
 
-<div class="equation" id="eip-256">
+<div class="equation">
  $$ \KE_{\text{rot}}=\left(0.5\right)\left(4.352 \kg \cdot \mm\right){\left(5.42 \rads \right)}^{2}=64.0 \J . $$
 </div>
 
@@ -288,25 +288,25 @@ potential energy.
 
 The rotational kinetic energy is
 
-<div class="equation" id="eip-327">
+<div class="equation">
  $$ \KE_{\text{rot}}=\frac{1}{2}I\omega^{2}. $$
 </div>
 We must convert the angular velocity to radians per second and calculate the moment of inertia before we can find $$ \KE_{\text{rot}} $$. The angular velocity $$ \omega $$
 is
 
-<div class="equation" id="eip-583">
+<div class="equation">
  $$ \omega =\frac{300 \text{rev}}{1.00 \text{min}}\cdot \frac{2 \pi \text{rad}}{1 \text{rev}}\cdot \frac{1.00 \text{min}}{60.0 \s }=31.4\frac{ \text{rad}}{\s}. $$
 </div>
 The moment of inertia of one blade will be that of a thin rod rotated about its end,
 found in [Figure](../contents/ch10DynamicsOfRotationalMotion.md#figMomentOfInertia). The total $$ I $$
 is four times this moment of inertia, because there are four blades. Thus,
 
-<div class="equation" id="eip-897">
+<div class="equation">
  $$ I=4\frac{ M\ell^{2}}{3}=4×\frac{ \left(50.0 \kg \right){\left(4.00 \m \right)}^{2}}{3}=1067 \kg \cdot \mm. $$
 </div>
 Entering $$ \omega $$ and $$ I $$ into the expression for rotational kinetic energy gives
 
-<div class="equation" id="eip-913">
+<div class="equation">
  $$ \begin{array}{lll}
 \KE_{\text{rot}}& =& 0.5\left(1067 \kg \cdot \mm\right){\left(31.4 \rads \right)}^{2}\\
  & =& 5.26\times 10^{5} \J
@@ -319,12 +319,12 @@ Translational kinetic energy was defined
 in [Uniform Circular Motion and Gravitation](../contents/ch6UniformCircularMotionAndGravitation.md). Entering the
 given values of mass and velocity, we obtain
 
-<div class="equation" id="eip-2">
+<div class="equation">
  $$ \KE_{\text{trans}}=\frac{1}{2}m v^{2}=\left(0.5\right)\left(1000 \kg \right){\left(20.0 \ms \right)}^{2}=2.00\times 10^{5} \J . $$
 </div>
 To compare kinetic energies, we take the ratio of translational kinetic energy to rotational kinetic energy. This ratio is
 
-<div class="equation" id="eip-973">
+<div class="equation">
  $$ \frac{2.00\times 10^{5} \J }{5.26\times 10^{5} \J }=0.380. $$
 </div>
 
@@ -333,17 +333,17 @@ To compare kinetic energies, we take the ratio of translational kinetic energy t
 At the maximum height, all rotational kinetic energy will have been converted to
 gravitational energy. To find this height, we equate those two energies:
 
-<div class="equation" id="eip-487">
+<div class="equation">
  $$ \KE_{\text{rot}}=\PE_{\text{grav}} $$
 </div>
 or
 
-<div class="equation" id="eip-154">
+<div class="equation">
  $$ \frac{1}{2}I\omega^{2}=mgh . $$
 </div>
 We now solve for $$ h $$ and substitute known values into the resulting equation
 
-<div class="equation" id="eip-232">
+<div class="equation">
  $$ h=\frac{ \frac{1}{2} I \omega^{2} }{mg}=\frac{5.26\times 10^{5} \J }{\left(1000 \kg \right)\left(9.80\mss \right)}=53.7 \m . $$
 </div>
 
@@ -400,19 +400,19 @@ Therefore the total work done is the change in kinetic energy. As the cans start
 moving, the potential energy is changing into kinetic energy. Conservation of
 energy gives
 
-<div class="equation" id="eip-138">
+<div class="equation">
  $$ \PE_\text{i}=\KE_\text{f}. $$
 </div>
 
 More specifically,
 
-<div class="equation" id="eip-449">
+<div class="equation">
  $$ \PE_{\text{grav}}=\KE_{\text{trans}}+\KE_{\text{rot}} $$
 </div>
 
 or
 
-<div class="equation" id="eip-210">
+<div class="equation">
  $$ mgh =\frac{1}{2}m v^{2}+\frac{1}{2}I\omega^{2} . $$
 </div>
 
@@ -445,7 +445,7 @@ up with $$ v $$ as the only unknown.
 
 Conservation of energy for this situation is written as described above:
 
-<div class="equation" id="eip-454">
+<div class="equation">
  $$ mgh =\frac{1}{2}m v^{2}+\frac{1}{2}I\omega^{2} . $$
 </div>
 Before we can solve for $$ v $$, we must get an expression for $$ I $$
@@ -454,22 +454,22 @@ are related (note here that the cylinder is rolling without slipping), we must
 also substitute the relationship $$ \omega =v/R $$ into the expression. These
 substitutions yield
 
-<div class="equation" id="eip-97">
+<div class="equation">
  $$ mgh =\frac{1}{2}m v^{2}+\frac{1}{2}\left(\frac{1}{2}m R^{2}\right)\left(\frac{ v^{2}}{ R^{2}}\right). $$
 </div>
 Interestingly, the cylinder’s radius $$ R $$ and mass $$ m $$ cancel, yielding
 
-<div class="equation" id="eip-798">
+<div class="equation">
  $$ g h =\frac{1}{2}{v}^{2}+\frac{1}{4}{v}^{2}=\frac{3}{4}{v}^{2} . $$
 </div>
 Solving algebraically, the equation for the final velocity $$ v $$ gives
 
-<div class="equation" id="eip-320">
+<div class="equation">
  $$ v=\sqrt{ \frac{4 g h }{3} } . $$
 </div>
 Substituting known values into the resulting expression yields
 
-<div class="equation" id="eip-191">
+<div class="equation">
  $$ v=\sqrt{ \frac{4\left(9.80\mss \right)\left(2.00 \m \right)}{3} }=5.11 \ms . $$
 </div>
 
@@ -534,7 +534,7 @@ My solar system
 * The rotational kinetic energy $$ \KE_
   {\text{rot}} $$ for an object with a moment of inertia $$ I $$ and an angular
   velocity $$ \omega $$ is given by
-  <div class="equation" id="eip-595">
+  <div class="equation">
  $$ \KE_{\text{rot}}=\frac{1}{2}I\omega^{2} . $$
   </div>
 
@@ -546,7 +546,7 @@ My solar system
 * Work and energy in rotational motion are completely
   analogous to work and energy in translational motion.
 * The equation for the **work-energy theorem** for rotational motion is,
-  <div class="equation" id="eip-669">
+  <div class="equation">
  $$ \text{net}W=\frac{1}{2}I\omega^{2}-\frac{1}{2}I \omega_{0}^{2} . $$
   </div>
 
@@ -634,7 +634,7 @@ the forearm is $$ 0.500 \kg \cdot \mm $$, what is the rotational kinetic energy 
 
 </div>
 <div class="solution">
-<div class="equation" id="eip-id1583692">
+<div class="equation">
  $$ \KE_{\text{rot}}=434 \J $$
 </div>
 </div>

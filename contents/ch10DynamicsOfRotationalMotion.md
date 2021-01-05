@@ -35,7 +35,7 @@ $$. We can rearrange this equation such that $$ F=ma $$ and then look for ways
 to relate this expression to expressions for rotational quantities. We note that
 $$ a=r \alpha $$, and we substitute this expression into $$ F=ma $$, yielding
 
-<div class="equation" id="eip-426">
+<div class="equation">
  $$ F= m r \alpha . $$
 </div>
 
@@ -45,13 +45,13 @@ perpendicular to $$ r $$, torque is simply $$ \tau =F r $$. So, if we multiply
 both sides of the equation above by $$ r $$, we get torque on the left-hand
 side. That is,
 
-<div class="equation" id="eip-304">
+<div class="equation">
  $$ rF=m r^{2} \alpha $$
 </div>
 
 or
 
-<div class="equation" id="eip-357">
+<div class="equation">
  $$ \tau =m r^{2} \alpha . $$
 </div>
 
@@ -100,13 +100,13 @@ units of mass multiplied by distance squared
 The general relationship among torque, moment of inertia, and angular
 acceleration is
 
-<div class="equation" id="eip-724">
+<div class="equation">
  $$ \text{net τ}= I\alpha $$
 </div>
 
 or
 
-<div class="equation" id="eip-480">
+<div class="equation">
  $$ \alpha =\frac{ \text{net τ}}{I} , $$
 </div>
 
@@ -185,7 +185,7 @@ Consider the merry-go-round itself to be a uniform disk with negligible retardin
 Angular acceleration is given directly by the expression $$ \alpha
 =\frac{ \text{net τ}}{I} $$:
 
-<div class="equation" id="eip-704">
+<div class="equation">
  $$ \alpha =\frac{ \tau }{I}. $$
 </div>
 To solve for $$ \alpha $$, we must first calculate the torque $$ \tau $$
@@ -193,7 +193,7 @@ To solve for $$ \alpha $$, we must first calculate the torque $$ \tau $$
 (which is greater in the second case). To find the torque, we note that the
 applied force is perpendicular to the radius and friction is negligible, so that
 
-<div class="equation" id="eip-946">
+<div class="equation">
  $$ \tau =rF \sin{\theta}=\left(1.50 \m \right)\left(250 \N \right)=375 \N \cdot \m . $$
 </div>
 
@@ -202,12 +202,12 @@ applied force is perpendicular to the radius and friction is negligible, so that
 The moment of inertia of a solid disk about this axis is given
 in [Figure](#figMomentOfInertia) to be
 
-<div class="equation" id="eip-659">
+<div class="equation">
  $$ \frac{1}{2} MR^{2}, $$
 </div>
 where $$ M=50.0 \kg $$ and $$ R=1.50 \m $$, so that
 
-<div class="equation" id="eip-768">
+<div class="equation">
  $$ I=\left(0.500\right)
 \left(50.0 \kg \right)
 \left(1.50 \m \right)^{2}
@@ -215,7 +215,7 @@ where $$ M=50.0 \kg $$ and $$ R=1.50 \m $$, so that
 </div>
 Now, after we substitute the known values, we find the angular acceleration to be
 
-<div class="equation" id="eip-861">
+<div class="equation">
  $$ \alpha =\frac{ \tau }{I}=\frac{375 \N \text{⋅}\m }{56.25 \kg \cdot \mm}=
 6.67 \radss. $$
 </div>
@@ -228,7 +228,7 @@ merry-go-round. To find the total moment of inertia $$ I $$, we first find the
 child’s moment of inertia $$ I_{\text{c}} $$ by considering the child to be
 equivalent to a point mass at a distance of 1.25 m from the axis. Then,
 
-<div class="equation" id="eip-266">
+<div class="equation">
  $$ I_{\text{c}}=MR^{2}=
 \left(18.0 \kg \right)
 \left(1.25 \m \right)^{2}=28.13 \kg \cdot \mm. $$
@@ -237,12 +237,12 @@ The total moment of inertia is the sum of moments of inertia of the merry-go-rou
 and the child (about the same axis). To justify this sum to yourself, examine the
 definition of $$ I $$:
 
-<div class="equation" id="eip-141">
+<div class="equation">
  $$ I=28.13 \kg \cdot \mm+56.25 \kg \cdot \mm=84.38 \kg \cdot \mm. $$
 </div>
 Substituting known values into the equation for $$ \alpha $$ gives
 
-<div class="equation" id="eip-50">
+<div class="equation">
  $$ \alpha =\frac{ \text{τ}}{I}=\frac{375 \N \cdot \m }{84.38 \kg \cdot \mm}
 =4.44 \radss. $$
 </div>
@@ -305,25 +305,25 @@ No. Torque depends on three factors: force magnitude, force direction, and point
 
   or
 
-  <div class="equation" id="import-auto-id2930863">
+  <div class="equation">
  $$ \tau =m r^{2} \alpha . $$
   </div>
 
 * The moment of inertia $$ I $$ of an object is the
   sum of $$ MR^{2} $$ for all the point masses of which it is composed. That is,
-  <div class="equation" id="import-auto-id3110206">
+  <div class="equation">
  $$ I=\sum m r^{2} . $$
   </div>
 
 * The general relationship among torque, moment of
   inertia, and angular acceleration is
-  <div class="equation" id="eip-139">
+  <div class="equation">
  $$ \tau = I\alpha $$
   </div>
 
   or
 
-  <div class="equation" id="eip-317`">
+  <div class="equation">
  $$ \alpha =\frac{ \text{net τ}}{I} . $$
   </div>
 

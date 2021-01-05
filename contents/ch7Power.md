@@ -199,7 +199,7 @@ E& =& P t=\left(0.200\text{kW}\right)\left(6.00\text{h/d}\right)\left(30.0\text{
 </div>
 and the cost is simply given by
 
-<div class="equation" id="eip-110">
+<div class="equation">
  $$ \text{cost}=\left(36.0 \text{kW}\cdot h\right)\left($0.120 \text{ per
 kW} \cdot h\right)=$4.32 \text{per month}. $$
 </div>
