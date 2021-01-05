@@ -97,14 +97,6 @@ h6:hover .header-link {
 }
 
 
-.book .book-body .page-wrapper .page-inner span.list[data-list-type='labeled-item']:not([data-item-sep]) > .item:not(:last-child)::after {
-    content: '; ';
-}
-
-.book .book-body .page-wrapper .page-inner span.list[data-list-type='labeled-item'][data-item-sep] > .item:not(:last-child)::after {
-    content: '; ';
-}
-
 .abstract {
     margin: 30px 6rem 0 6rem;
     padding: 15px;
