@@ -12,7 +12,7 @@ layout: page
 ![An airplane flying very low to the ground, just above a beach full of onlookers, as it comes in for a landing.](../resources/Figure_02_04_00.jpg "A plane decelerates,
 or slows down, as it comes in for landing in St. Maarten. Its acceleration is opposite
 in direction to its velocity. (credit: Steve Conry, Flickr)")
-{: #import-auto-id3514068}
+{: #fig1}
 
 In everyday conversation, to accelerate means to speed up. The accelerator in a
 car can in fact cause it to speed up. The greater the **acceleration**, the greater the change in velocity
@@ -63,7 +63,7 @@ down, its acceleration is opposite to the direction of its motion. This is known
 as **deceleration**.
 
 ![A subway train arriving at a station. A velocity vector arrow points along the track away from the train. An acceleration vector arrow points along the track toward the train.](../resources/Figure_02_04_00a.jpg "A subway train in Sao Paulo, Brazil, decelerates as it comes into a station. It is accelerating in a direction opposite to its direction of motion. (credit: Yusuke Kawasaki, Flickr)")
-{: #import-auto-id1515319}
+{: #fig2}
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -74,7 +74,7 @@ direction of the velocity. Deceleration always reduces speed. Negative accelerat
 however, is acceleration *in the negative direction in the chosen coordinate
 system*. Negative acceleration may or may not be deceleration, and deceleration
 may or may not be considered negative acceleration. For example,
-consider [Figure](#import-auto-id3579626).
+consider [Figure](#fig3).
 
 ![Four separate diagrams of cars moving. Diagram a:
 A car moving toward the right. A velocity vector arrow points toward the right.
@@ -96,7 +96,7 @@ car is decelerating because its acceleration is opposite to its motion. (d)
 This car is speeding up as it moves toward the left. It has negative acceleration
 because it is accelerating toward the left. However, because its acceleration is
 in the same direction as its motion, it is speeding up (not decelerating).")
-{: #import-auto-id3579626}
+{: #fig3}
 
 </div>
 
@@ -108,7 +108,7 @@ A racehorse coming out of the gate accelerates from rest to a velocity of 15.0 m
 
 ![Two racehorses running toward the left.](../resources/racehorse.jpg "(credit: Jon Sullivan, PD Photo.org)")
 
-{: #import-auto-id1806246}
+{: #fig4}
 
 **Strategy**
 
@@ -117,7 +117,7 @@ simple problem, but it always helps to visualize it. Notice that we assign east
 as positive and west as negative. Thus, in this case, we have negative velocity.
 
 ![An acceleration vector arrow pointing west, in the negative x direction, labeled with a equals question mark. A velocity vector arrow also pointing toward the left, with initial velocity labeled as 0 and final velocity labeled as negative fifteen point 0 meters per second.](../resources/Figure_02_03_01a.jpg)
-{: #import-auto-id1464243}
+{: #fig5}
 
 We can solve this problem by identifying $$ \Delta v $$ and $$ \Delta t $$ from
 the given information and then calculating the average acceleration directly
@@ -162,14 +162,14 @@ in [Time, Velocity, and Speed](../contents/ch2TimeVelocityAndSpeed.md)—that is
 infinitesimally small interval of time. How do we find instantaneous
 acceleration using only algebra? The answer is that we choose an average
 acceleration that is representative of the
-motion. [Figure](#import-auto-id2590846) shows graphs of instantaneous
+motion. [Figure](#fig6) shows graphs of instantaneous
 acceleration versus time for two very different motions.
-In [Figure](#import-auto-id2590846)(a), the acceleration varies slightly and
+In [Figure](#fig6)(a), the acceleration varies slightly and
 the average over the entire interval is nearly the same as the instantaneous
 acceleration at any time. In this case, we should treat this motion as if it had
 a constant acceleration equal to the average (in this case about $$ 1.8
 \mss $$).
- In [Figure](#import-auto-id2590846)(b), the acceleration varies drastically
+ In [Figure](#fig6)(b), the acceleration varies drastically
 over time. In such situations it is best to consider smaller time intervals and
 choose an average acceleration for each. For example, we could consider motion
 over the time intervals from 0 to 1.0 s and from 1.0 to 3.0 s as separate
@@ -177,10 +177,10 @@ motions with accelerations of $$ +3.0 \mss $$ and $$ -2.0
 \mss $$, respectively.
 
 ![Line graphs of instantaneous acceleration in meters per second per second versus time in seconds. The line on graph (a) shows slight variation above and below an average acceleration of about 1 point 8 meters per second per second. The line on graph (b) shows great variation over time, with instantaneous acceleration constant at 3 point 0 meters per second per second for 1 second, then dropping to negative 2 point 0 meters per second per second for the next 2 seconds, and then rising again, and so forth.](../resources/Figure_02_03_02.jpg "Graphs of instantaneous acceleration versus time for two different one-dimensional motions. (a) Here acceleration varies only slightly and is always in the same direction, since it is positive. The average over the interval is nearly the same as the acceleration at any given time. (b) Here the acceleration varies greatly, perhaps representing a package on a post office conveyor belt that is accelerated forward and backward as it bumps along. It is necessary to consider small time intervals (such as from 0 to 1.0 s) with constant or nearly constant acceleration in such a situation.")
-{: #import-auto-id2590846}
+{: #fig6}
 
 The next several examples consider the motion of the subway train shown
-in [Figure](#import-auto-id2590556). In (a)
+in [Figure](#fig7). In (a)
 the shuttle moves to the right, and in (b) it moves to the left. The examples
 are designed to further illustrate aspects of motion and to illustrate some of
 the reasoning that goes into solving problems.
@@ -198,13 +198,13 @@ train moves to the right from \(x_0\) to \( x_f\). Its displacement \(
 displacement \( \Delta x'=1.5 \text{km} \). (Note that the prime symbol (') is
 used simply to
 distinguish between displacement in the two different situations. The distances of travel and the size of the cars are on different scales to fit everything into the diagram.)")
-{: #import-auto-id2590556}
+{: #fig7}
 
 <div class="example" markdown="1">
 <div class="title">
 Calculating Displacement: A Subway Train
 </div>
-What are the magnitude and sign of displacements for the motions of the subway train shown in parts (a) and (b) of [Figure](#import-auto-id2590556)?
+What are the magnitude and sign of displacements for the motions of the subway train shown in parts (a) and (b) of [Figure](#fig7)?
 
 **Strategy**
 
@@ -243,7 +243,7 @@ has a negative sign.
 <div class="title">
 Comparing Distance Traveled with Displacement: A Subway Train
 </div>
-What are the distances traveled for the motions shown in parts (a) and (b) of the subway train in [Figure](#import-auto-id2590556)?
+What are the distances traveled for the motions shown in parts (a) and (b) of the subway train in [Figure](#fig7)?
 
 **Strategy**
 
@@ -253,7 +253,7 @@ positions is defined to be the magnitude of displacement, which was found
 in [Figure](#fs-id1744930). Distance traveled is the total length of the path
 traveled between the two positions. (
 See [Displacement](../contents/ch2Displacement.md).) In the case of the subway train shown
-in [Figure](#import-auto-id2590556), the distance traveled is the same as the
+in [Figure](#fig7), the distance traveled is the same as the
 distance between the initial and final positions of the train.
 
 **Solution**
@@ -276,14 +276,14 @@ Distance is a scalar. It has magnitude but no sign to indicate direction.
 <div class="title">
 Calculating Acceleration: A Subway Train Speeding Up
 </div>
-Suppose the train in [Figure](#import-auto-id2590556)(a) accelerates from rest to 30.0 km/h in the first 20.0 s of its motion. What is its average acceleration during that time interval?
+Suppose the train in [Figure](#fig7)(a) accelerates from rest to 30.0 km/h in the first 20.0 s of its motion. What is its average acceleration during that time interval?
 
 **Strategy**
 
 It is worth it at this point to make a simple sketch:
 
 ![A point represents the initial velocity of 0 kilometers per second. Below the point is a velocity vector arrow pointing to the right, representing the final velocity of thirty point zero kilometers per hour. Below the velocity vector is an acceleration vector arrow labeled a equals question mark.](../resources/Figure_02_03_03c.jpg)
-{: #import-auto-id2400753}
+{: #fig8}
 
 This problem involves three steps. First we must determine the change in
 velocity, then we must determine the change in time, and finally we use these
@@ -324,12 +324,12 @@ velocity, as is always the case.
 <div class="title">
 Calculate Acceleration: A Subway Train Slowing Down
 </div>
-Now suppose that at the end of its trip, the train in [Figure](#import-auto-id2590556)(a) slows to a stop from a speed of 30.0 km/h in 8.00 s. What is its average acceleration while stopping?
+Now suppose that at the end of its trip, the train in [Figure](#fig7)(a) slows to a stop from a speed of 30.0 km/h in 8.00 s. What is its average acceleration while stopping?
 
 **Strategy**
 
 ![A velocity vector arrow pointing toward the right with initial velocity of thirty point zero kilometers per hour and final velocity of 0. An acceleration vector arrow pointing toward the left, labeled a equals question mark.](../resources/Figure_02_03_03d.jpg)
-{: #import-auto-id2324504}
+{: #fig9}
 
 In this case, the train is decelerating and its acceleration is negative because
 it is toward the left. As in the previous example, we must find the change in
@@ -371,13 +371,13 @@ the velocity.
 The graphs of position, velocity, and acceleration vs. time for the trains
 in [Figure](#fs-id1372721)
 and [Figure](#fs-id3600466) are displayed
-in [Figure](#import-auto-id2596938). (We have taken the velocity to remain
+in [Figure](#fig10). (We have taken the velocity to remain
 constant from 20 to 40 s, after which the train decelerates.)
 
 ![Three graphs. The first is a line graph of position in meters versus time in seconds. The line begins at the origin and has a concave up shape from time equals zero to time equals twenty seconds. It is straight with a positive slope from twenty seconds to forty seconds. It is then convex up from forty to fifty seconds. The second graph is a line graph of velocity in meters per second versus time in seconds. The line is straight with a positive slope beginning at the origin from 0 to twenty seconds. It is flat from twenty to forty seconds. From forty to fifty seconds the line is straight with a negative slope back down to a velocity of 0. The third graph is a line graph of acceleration in meters per second per second versus time in seconds. The line is flat with a positive constant acceleration from zero to twenty seconds. The line then drops to an acceleration of 0 from twenty to forty seconds. The line drops again to a negative acceleration from forty to fifty seconds.](../resources/Figure_02_03_04.jpg "(a) Position of the train over time. Notice that the train&#x2019;s position changes slowly at the beginning of the journey, then more and more quickly as it picks up speed. Its position then changes more slowly as it slows down at the end of the journey. In the middle of the journey, while the velocity remains constant, the position changes at a constant rate.
 (b) Velocity of the train over time. The train&#x2019;s velocity increases as it accelerates at the beginning of the journey. It remains the same in the middle of the journey (where there is no acceleration). It decreases as the train decelerates at the end of the journey.
 (c) The acceleration of the train over time. The train has positive acceleration as it speeds up at the beginning of the journey. It has no acceleration as it travels at constant velocity in the middle of the journey. Its acceleration is negative as it slows down at the end of the journey.")
-{: #import-auto-id2596938}
+{: #fig10}
 
 <div class="example" markdown="1">
 <div class="title">
@@ -386,7 +386,7 @@ Calculating Average Velocity: The Subway Train
 What is the average velocity of the train in part b of [Figure](#fs-id1744930), and shown again below, if it takes 5.00 min to make its trip?
 
 ![The train moves toward the left, from an initial position of 5 point 25 kilometers to a final position of 3 point 75 kilometers.](../resources/Figure_02_03_04a.jpg)
-{: #import-auto-id2412190}
+{: #fig11}
 
 **Strategy**
 
@@ -422,14 +422,14 @@ The negative velocity indicates motion to the left.
 <div class="title">
 Calculating Deceleration: The Subway Train
 </div>
-Finally, suppose the train in [Figure](#import-auto-id2412190) slows to a stop from a velocity of 20.0 km/h in 10.0 s. What is its average acceleration?
+Finally, suppose the train in [Figure](#fig11) slows to a stop from a velocity of 20.0 km/h in 10.0 s. What is its average acceleration?
 
 **Strategy**
 
 Once again, let’s draw a sketch:
 
 ![A velocity vector arrow pointing to the left with initial velocity of negative twenty point 0 kilometers per hour and a final velocity of 0. An acceleration vector arrow pointing toward the right, labeled a equals question mark.](../resources/Figure_02_03_04b.jpg)
-{: #import-auto-id2412073}
+{: #fig12}
 
 As before, we must find the change in velocity and the change in time to
 calculate average acceleration.
@@ -483,7 +483,7 @@ was not the case in [Figure](#fs-id4015260), where a positive acceleration
 slowed a negative velocity. The crucial distinction was that the acceleration
 was in the opposite direction from the velocity. In fact, a negative
 acceleration will *increase* a negative velocity. For example, the train moving
-to the left in [Figure](#import-auto-id2412190) is sped up by an acceleration
+to the left in [Figure](#fig11) is sped up by an acceleration
 to the left. In that case, both $$ v $$ and $$ a $$ are negative. The plus and
 minus signs give the directions of the accelerations. If acceleration has the
 same sign as the velocity, the object is speeding up. If acceleration has the

@@ -151,12 +151,12 @@ section.)
 
 Another example of energy conversion occurs in a solar cell. Sunlight impinging
 on a solar cell (
-see [Figure](#import-auto-id1626980)) produces electricity, which in turn can
+see [Figure](#fig1)) produces electricity, which in turn can
 be used to run an electric motor. Energy is converted from the primary source of
 solar energy into electrical energy and then into mechanical energy.
 
 ![A solar-powered aircraft flying over the sea. Solar cells are on the upper surface of the wings, where they are exposed to sunlight.](../resources/Figure_08_06_01a.jpg "Solar energy is converted into electrical energy by solar cells, which is used to run a motor in this solar-power aircraft. (credit: NASA)")
-{: #import-auto-id1626980}
+{: #fig1}
 
 ##### Table 1:Energy of Various Objects and Phenomena
 
@@ -262,10 +262,10 @@ Masses and Springs
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Consider the following scenario. A car for which friction is *not* negligible accelerates from rest down a hill, running out of gasoline after a short distance. The driver lets the car coast farther down the hill, then up and over a small crest. He then coasts down that hill into a gas station, where he brakes to a stop and fills the tank with gasoline. Identify the forms of energy the car has, and how they are changed and transferred in this series of events. (See [Figure](#import-auto-id2100801).)
+Consider the following scenario. A car for which friction is *not* negligible accelerates from rest down a hill, running out of gasoline after a short distance. The driver lets the car coast farther down the hill, then up and over a small crest. He then coasts down that hill into a gas station, where he brakes to a stop and fills the tank with gasoline. Identify the forms of energy the car has, and how they are changed and transferred in this series of events. (See [Figure](#fig2).)
 
 ![A car coasting downhill, moving over a crest then again moving downhill and finally stopping at a gas station. Each of these positions is labeled with an arrow pointing downward.](../resources/Figure_08_06_02a.jpg "A car experiencing non-negligible friction coasts down a hill, over a small crest, then downhill again, and comes to a stop at a gas station.")
-{: #import-auto-id2100801}
+{: #fig2}
 
 </div>
 </div>

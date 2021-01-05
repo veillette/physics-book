@@ -32,7 +32,7 @@ as
 
 where $$ W $$ is work, $$ \mag{d} $$ is the magnitude of the displacement of the system, and
 $$ \theta $$ is the angle between the force vector $$ \vb{F} $$ and the
-displacement vector $$ \vb{d} $$, as in [Figure](#import-auto-id2495459).
+displacement vector $$ \vb{d} $$, as in [Figure](#fig1).
 We can also write this as
 
 <div class="equation">
@@ -63,11 +63,11 @@ and the displacement vector $$ \vb{d} $$.
 ![Five drawings labeled a through e. In (a), person pushing a lawn mower with a force F. Force is represented by a vector making an angle theta with the horizontal and displacement of the mower is represented by vector d. The component of vector F along vector d is F cosine theta. Work done by the person W is equal to F d cosine theta. (b) A person is standing with a briefcase in his hand. The force F shown by a vector arrow pointing upwards starting from the handle of briefcase and the displacement d is equal to zero.
 (c) A person is walking holding the briefcase in his hand. Force vector F is in the vertical direction starting from the handle of briefcase and displacement vector d is in horizontal direction starting from the same point as vector F. The angle between F and d theta is equal to 90 degrees. Cosine theta is equal to zero. (d) A briefcase is shown in front of a set of stairs. A vector d starting from the first stair points along the incline of the stair and a force vector F is in vertical direction starting from the same point as vector d. The angle between them is theta. A component of vector F along vector d is F d cosine theta. (e) A briefcase is shown lowered vertically down from an electric generator. The displacement vector d points downwards and force vector F points upwards acting on the briefcase.](../resources/Figure_08_02_01.jpg "Examples of work. (a) The work done by the force \( F \)  on this lawn mower is \( F d \cos{ \theta} \) . Note that \( F \cos{ \theta} \) is the component of the force in the direction of motion. (b) A person holding a briefcase does no work on it, because there is no displacement. No energy is transferred to or from the briefcase.
 (c) The person moving the briefcase horizontally at a constant speed does no work on it, and transfers no energy to it. (d) Work is done on the briefcase by carrying it up stairs at constant speed, because there is necessarily a component of force \( F \)  in the direction of the motion. Energy is transferred to the briefcase and could in turn be used to do work. (e) When the briefcase is lowered, energy is transferred out of the briefcase and into an electric generator. Here the work done on the briefcase by the generator is negative, removing energy from the briefcase, because \( F \)  and \( d \)  are in opposite directions.")
-{: #import-auto-id2495459}
+{: #fig1}
 
 To examine what the definition of work means, let us consider the other
-situations shown in [Figure](#import-auto-id2495459). The person holding the
-briefcase in [Figure](#import-auto-id2495459)(b) does no work, for example.
+situations shown in [Figure](#fig1). The person holding the
+briefcase in [Figure](#fig1)(b) does no work, for example.
 Here $$ d=0 $$, so $$ W=0 $$. Why is it you get tired just holding a load? The
 answer is that your muscles are doing work against one another, *but they are
 doing no work on the system of interest* (the “briefcase-Earth
@@ -75,14 +75,14 @@ system”—see [Gravitational Potential Energy](../contents/ch7GravitationalPot
 details).
 There must be displacement for work to be done, and there must be a component
 of the force in the direction of the motion. For example, the person carrying
-the briefcase on level ground in [Figure](#import-auto-id2495459)
+the briefcase on level ground in [Figure](#fig1)
 (c) does no  work on it, because the force is perpendicular to the motion.
 That is, $$\cos{90^\circ} =0 $$, and so $$ W=0 $$.
 
 In contrast, when a force exerted on the system has a component in the direction
-of motion, such as in [Figure](#import-auto-id2495459)(d), work *is*
+of motion, such as in [Figure](#fig1)(d), work *is*
 done—energy is transferred to the briefcase. Finally,
-in [Figure](#import-auto-id2495459)(e), energy is transferred from the
+in [Figure](#fig1)(e), energy is transferred from the
 briefcase to a generator. There are two good ways to interpret this energy
 transfer. One interpretation is that the briefcase’s weight does work on the
 generator, giving it energy. The other interpretation is that the generator does
@@ -105,7 +105,7 @@ large amount of energy; it would lift a small 100-gram apple a distance of about
 <div class="title">
 Calculating the Work You Do to Push a Lawn Mower Across a Large Lawn
 </div>
-How much work is done on the lawn mower by the person in [Figure](#import-auto-id2495459)
+How much work is done on the lawn mower by the person in [Figure](#fig1)
 (a) if he exerts a constant force of $$ 75.0\N $$ at an angle $$35^\circ $$
 below the horizontal and pushes the mower $$ 25.0\m $$
 on level ground? Convert the amount of work from joules to kilocalories and
@@ -272,10 +272,10 @@ include the work he does on the crate *and* on his body to get up the ramp.
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 How much work is done by the boy pulling his sister 30.0 m in a wagon as shown
-in [Figure](#import-auto-id1538391)? Assume no friction acts on the wagon.
+in [Figure](#fig2)? Assume no friction acts on the wagon.
 
 ![A child is sitting inside a wagon and being pulled by a boy with a force F at an angle thirty degrees upward from the horizontal. F is equal to fifty newtons, the displacement vector d is horizontal in the direction of motion. The magnitude of d is thirty meters.](../resources/Figure_08_01_03a.jpg "The boy does work on the system of the wagon and the child when he pulls them as shown. ")
-{: #import-auto-id1538391}
+{: #fig2}
 
 </div>
 </div>
@@ -309,7 +309,7 @@ below the horizontal.
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Suppose the ski patrol lowers a rescue sled and victim, having a total mass of
-90.0 kg, down a $$ 60.0^\circ $$ slope at constant speed, as shown in [Figure](#import-auto-id2504152). The
+90.0 kg, down a $$ 60.0^\circ $$ slope at constant speed, as shown in [Figure](#fig3). The
 coefficient of friction between the sled and the snow is 0.100.
 (a) How much work is done by friction as the sled moves 30.0 m along the hill?
 (b) How much work is done by the rope on the sled in this distance?
@@ -317,7 +317,7 @@ coefficient of friction between the sled and the snow is 0.100.
 (d) What is the total work done?
 
 ![A person on a rescue sled is shown being pulled up a slope. The slope makes an angle of sixty degrees from the horizontal. The weight of the person is shown by vector w acting vertically downward. The tension in the rope depicted by vector T is along the incline in the upward direction; vector f depicting frictional force is also acting in the same direction.](../resources/Figure_08_01_04a.jpg "A rescue sled and victim are lowered down a steep slope. ")
-{: #import-auto-id2504152}
+{: #fig3}
 
 </div>
 </div>

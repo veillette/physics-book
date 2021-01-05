@@ -26,7 +26,7 @@ the *car* moves to the right, and there is no real force on you to the left.
 Recall Newton’s first law.
 
 ![In figure a, there is a girl driving a car turning toward right. A fictitious force vector is acting on her body toward left. In figure b, the actual force vector acting on the girl&#x2019;s body is shown toward right.](../resources/Figure_07_04_01a.jpg "(a) The car driver feels herself forced to the left relative to the car when she makes a right turn. This is a fictitious force arising from the use of the car as a frame of reference. (b) In the Earth&#x2019;s frame of reference, the driver moves in a straight line, obeying Newton&#x2019;s first law, and the car moves to the right. There is no real force to the left on the driver relative to Earth. There is a real force to the right on the car to make it turn.")
-{: #import-auto-id2398724}
+{: #fig1}
 
 We can reconcile these points of view by examining the frames of reference used.
 Let us concentrate on people in a car. Passengers instinctively use the car as a
@@ -70,11 +70,11 @@ merry-go-round feels as if he is being thrown off. This fictitious force is
 called the centrifugal force&#x2014;it explains the rider&#x2019;s motion in
 the rotating frame of reference.  (b) In an inertial frame of reference and
 according to Newton&#x2019;s laws, it is his inertia that carries him off and not a real force (the  unshaded rider has \( F_\text{net}=0 \) and heads in a straight line). A real force,  \( F_{\text{centripetal}} \) , is needed to cause a circular path. ")
-{: #import-auto-id2058202}
+{: #fig2}
 
 This inertial effect, carrying you away from the center of rotation if there is
 no centripetal force to cause circular motion, is put to good use in
-centrifuges (see [Figure](#import-auto-id2521081)). A centrifuge spins a
+centrifuges (see [Figure](#fig3)). A centrifuge spins a
 sample very rapidly, as mentioned earlier in this chapter. Viewed from the
 rotating frame of reference, the fictitious centrifugal force throws particles
 outward, hastening their sedimentation. The greater the angular velocity, the
@@ -83,11 +83,11 @@ the particles carries them along a line tangent to the circle while the test
 tube is forced in a circular path by a centripetal force.
 
 ![A test tube is fitted in a centrifuge. The centrifuge is rotating toward the left. The inertial force vector on a particle inside the liquid is directed toward the left. The  centrifugal force is directed toward the bottom of the test tube. The angular velocity is marked as omega.](../resources/Figure_07_04_03a.jpg "Centrifuges use inertia to perform their task. Particles in the fluid sediment come out because their inertia carries them away from the center of rotation. The large angular velocity of the centrifuge quickens the sedimentation. Ultimately, the particles will come into contact with the test tube walls, which will then supply the centripetal force needed to make them move in a circle of constant radius.")
-{: #import-auto-id2521081}
+{: #fig3}
 
 Let us now consider what happens if something moves in a frame of reference that
 rotates. For example, what if you slide a ball directly away from the center of
-the merry-go-round, as shown in [Figure](#import-auto-id1471752)? The ball
+the merry-go-round, as shown in [Figure](#fig4)? The ball
 follows a straight path relative to Earth (assuming negligible friction) and a
 path curved to the right on the merry-go-round’s surface. A person standing next
 to the merry-go-round sees the ball moving straight and the merry-go-round
@@ -99,7 +99,7 @@ in that frame of reference to explain why objects follow curved paths and allows
 us to apply Newton’s Laws in non-inertial frames of reference.
 
 ![In the figure, a child on a merry-go-round is shown. A person slides a ball from the center from the point A toward the point B. The path covered by the ball on the merry-go-round is shown, which is a curved path. The ball reaches a point away from the point B.](../resources/Figure_07_04_04a.jpg "Looking down on the counterclockwise rotation of a merry-go-round, we see that a ball slid straight toward the edge follows a path curved to the right. The person slides the ball toward point B, starting at point A. Both points rotate to the shaded positions (A&#x2019; and B&#x2019;) shown in the time that the ball follows the curved path in the rotating frame and a straight path in Earth&#x2019;s frame.")
-{: #import-auto-id1471752}
+{: #fig4}
 
 Up until now, we have considered Earth to be an inertial frame of reference with
 little or no worry about effects due to its rotation. Yet such effects *do*
@@ -107,7 +107,7 @@ exist—in the rotation of weather systems, for example. Most consequences of
 Earth’s rotation can be qualitatively understood by analogy with the
 merry-go-round. Viewed from above the North Pole, Earth rotates
 counterclockwise, as does the merry-go-round
-in [Figure](#import-auto-id1471752). As on the merry-go-round, any motion in
+in [Figure](#fig4). As on the merry-go-round, any motion in
 Earth’s northern hemisphere experiences a Coriolis force to the right. Just the
 opposite occurs in the southern hemisphere; there, the force is to the left.
 Because Earth’s angular velocity is small, the Coriolis force is usually
@@ -120,7 +120,7 @@ called below the equator) in the southern hemisphere rotate in the clockwise
 direction. The terms hurricane, typhoon, and tropical storm are
 regionally-specific names for tropical cyclones, storm systems characterized by
 low pressure centers, strong winds, and heavy
-rains. [Figure](#import-auto-id2962993) helps show how these rotations take
+rains. [Figure](#fig5) helps show how these rotations take
 place. Air flows toward any region of low pressure, and tropical cyclones
 contain particularly low pressures. Thus winds flow toward the center of a
 tropical cyclone or a low-pressure weather system at the surface. In the
@@ -144,7 +144,7 @@ explanations.
 
 ![Figure a is a satellite photo of a hurricane rotating in counterclockwise direction. Figures b, c, and d are diagrams. In figure b, there are four arrows directed toward a low pressure zone at a point from North, East, West and South. Near each arrow there is a green dotted vector turned toward right at its arrow head which shows the direction of Coriolis force. In figure c, there is a small circle directed counter clockwise over the low pressure zone, which shows that the winds are deflected by Coriolis force. In figure d, a high-pressure zone is shown. Around it there are four green vectors directed toward their right near the arrow head. Figure e is a satellite photo of a tropical cyclone in the southern hemisphere. The direction of this cyclone is clockwise.](../resources/Figure_07_04_05a.jpg "(a) The counterclockwise rotation of this northern hemisphere hurricane is a major consequence of the Coriolis force. (credit: NASA)  (b) Without the Coriolis force, air would flow straight into a low-pressure zone, such as that found in tropical cyclones.
 (c) The Coriolis force deflects the winds to the right, producing a counterclockwise rotation. (d) Wind flowing away from a high-pressure zone is also deflected to the right, producing a clockwise rotation.  (e) The opposite direction of rotation is produced by the Coriolis force in the southern hemisphere, leading to tropical cyclones. (credit: NASA)")
-{: #import-auto-id2962993}
+{: #fig5}
 
 ### Section Summary
 

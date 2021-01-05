@@ -22,7 +22,7 @@ production per year; 66% of that oil is imported!
 ### Renewable and Nonrenewable Energy Sources
 
 The principal energy resources used in the world are shown
-in [Figure](#import-auto-id2184457). The fuel mix has changed over the years
+in [Figure](#fig1). The fuel mix has changed over the years
 but now is dominated by oil, although natural gas and solar contributions are
 increasing. **Renewable forms of energy** are those sources that cannot be used up, such as water,
 wind, solar, and biomass. About 85% of our energy comes from nonrenewable
@@ -41,12 +41,12 @@ five percent is geothermal, biomass,
 or solar energy not used for electricity.](../resources/cover/ch8_energy_resources.svg "World energy
 consumption (2018) based on data from BP Statistical Review of
 World Energy (credit:Veillette)")
-{: #import-auto-id2184457}
+{: #fig1}
 
 ### The World’s Growing Energy Needs
 
 World energy consumption continues to rise, especially in the developing
-countries. ( See [Figure](#import-auto-id2876325).)
+countries. ( See [Figure](#fig2).)
 Global demand for energy has tripled in
 the past 50 years and might triple again in the next 30 years. While much of
 this growth will come from the rapidly booming economies of China and India,
@@ -55,7 +55,7 @@ their energy needs by expanding the use of renewable sources. Although presently
 only a small percentage, renewable energy is growing very fast, especially wind
 energy. For example, Germany plans to meet 20% of its electricity and 10% of its
 overall energy needs with renewable resources by the year 2020. (
-See [Figure](#import-auto-id2090554).) Energy is a key constraint in the rapid
+See [Figure](#fig3).) Energy is a key constraint in the rapid
 economic growth of China and India. In 2003, China surpassed Japan as the
 world’s second largest consumer of oil. However, over 1/3 of this is imported.
 Unlike most Western countries, coal dominates the commercial energy resources of
@@ -68,11 +68,11 @@ rapidly growing wind energy base, and it has the largest solar cooking program
 in the world.
 
 ![A bar graph depicting world energy consumption is shown. The year is listed on the horizontal axis and energy consumed is listed on the vertical axis. Energy consumption by the world is shown for different years. Energy consumption rises over time. In the year nineteen hundred and ninety it was three hundred seventy three multiplied by ten to the power eighteen joules, and the projection is that it will become eight hundred twelve multiplied by ten to the power eighteen joules by the year twenty thirty five.](../resources/Figure_08_09_02a.jpg "Past and projected world energy use (source: Based on data from U.S. Energy Information Administration, 2011)")
-{: #import-auto-id2876325}
+{: #fig2}
 
 ![Solar cell arrays lined up in a field.](../resources/cover/Solar_Panel_Array.jpg "Solar cell 
 arrays in Manchester, Vermont, USA (credit: MarkBuckawicki, Wikimedia)")
-{: #import-auto-id2090554}
+{: #fig3}
 
 [Table 1](#table1) displays the 2006 commercial energy mix by
 country for some of the prime energy users in the world. While non-renewable
@@ -107,7 +107,7 @@ The last two columns in this table examine the energy and electricity use per
 capita. Economic well-being is dependent upon energy use, and in most countries
 higher standards of living, as measured by GDP (gross domestic product) per
 capita, are matched by higher levels of energy consumption per capita. This is
-borne out in [Figure](#import-auto-id2123825). Increased efficiency of energy
+borne out in [Figure](#fig4). Increased efficiency of energy
 use will change this dependency. A global problem is balancing energy resource
 development against the harmful effects upon the environment in its extraction
 and use.
@@ -119,7 +119,7 @@ and G D P per capita is show alon
 g the vertical axis.](../resources/cover/ch8energy-use-per-capita-vs-gdp-per-capita.svg "Power consumption per capita 
 versus GDP per capita for 
 various countries. Note the increase in energy usage with increasing GDP. (2015, credit: International Energy Agency (IEA) via The World Bank)")
-{: #import-auto-id2123825}
+{: #fig4}
 
 ### Conserving Energy
 
@@ -189,7 +189,7 @@ If the efficiency of a coal-fired electrical generating plant is 35%, then what 
 
 **Integrated Concepts**
 
-(a) Calculate the force the woman in [Figure](#import-auto-id1912970) exerts to
+(a) Calculate the force the woman in [Figure](#fig5) exerts to
 do a push-up at constant speed, taking all data to be known to three digits.
 (b) How much work does she do if her center of mass rises 0.240 m?
 (c) What is her useful power output if she does 25 push-ups in 1 min?
@@ -197,7 +197,7 @@ do a push-up at constant speed, taking all data to be known to three digits.
 in [Work, Energy, and Power in Humans](../contents/ch7WorkEnergyAndPowerInHumans.md).
 
 ![A woman is doing push-ups. Her weight w is acting on her center of gravity , shown by a vector pointing downwards. Her center of gravity  is zero point nine zero meters from her feet and reaction force F acting on her arms is shown by the vector pointing upward along her arms. The distance of reaction force from the feet is one point five zero meters.](../resources/Figure_08_09_06a.jpg "Forces involved in doing push-ups. The woman&#x2019;s weight acts as a force exerted downward on her center of gravity (CG).")
-{: #import-auto-id1912970}
+{: #fig5}
 
 </div>
 <div class="solution" markdown="1">
