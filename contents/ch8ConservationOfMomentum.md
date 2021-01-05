@@ -28,7 +28,7 @@ be neglected in any practical sense, but it is real nevertheless.
 
 Consider what happens if the masses of two colliding objects are more similar
 than the masses of a football player and Earth—for example, one car bumping into
-another, as shown in [Figure](#import-auto-id1686933). Both cars are coasting
+another, as shown in [Figure](#fig1). Both cars are coasting
 in the same direction when the lead car (labeled $$ m_{2}  $$)  is
 bumped by
 the trailing car (labeled $$ m_{1} $$ ). The only unbalanced force
@@ -41,7 +41,7 @@ that the total momentum of the two-car system remains constant.
 As a result, the first car slows down to a velocity of \( v^\prime_1 \) and the second speeds up to a velocity of
 \( v^\prime_2 \). The momentum of each car is changed, but the total momentum  \( p_{\text{tot}} \)  of the two cars
 is the same before and after the collision (if you assume friction is negligible).")
-{: #import-auto-id1686933}
+{: #fig1}
 
 Using the definition of impulse, the change in momentum of car 1 is given by
 
@@ -147,12 +147,12 @@ and where air resistance is negligible, momentum is conserved in the horizontal
 direction because horizontal forces are zero and momentum is unchanged. But
 along the vertical direction, the net vertical force is not zero and the
 momentum of the projectile is not conserved. (
-See [Figure](#import-auto-id1646148)
+See [Figure](#fig2)
 .) However, if the momentum of the projectile-Earth system is considered in the
 vertical direction, we find that the total momentum is conserved.
 
 ![A space probe is projected upward. It takes a parabolic path. No horizontal net force acts on. The horizontal component of momentum remains conserved. The vertical net force is not zero and the vertical component of momentum is not a constant. When the space probe separates, the horizontal net force remains zero as the force causing separation is internal to the system. The vertical net force is not zero and the vertical component of momentum is also not a constant after separation. The centre of mass however continues in the same parabolic path.](../resources/Figure_09_03_02a.jpg "The horizontal component of a projectile&#x2019;s momentum is conserved if air resistance is negligible, even in this case where a space probe separates. The forces causing the separation are internal to the system, so that the net external horizontal force Fx&#x2013;net is still zero. The vertical component of the momentum is not conserved, because the net vertical force Fy&#x2013;net is not zero. In the vertical direction, the space probe-Earth system needs to be considered and we find that the total momentum is conserved. The center of mass of the space probe takes the same path it would if the separation did not occur.")
-{: #import-auto-id1646148}
+{: #fig2}
 
 The conservation of momentum principle can be applied to systems as different as
 a comet striking Earth and a gas containing huge numbers of atoms and molecules.
@@ -226,7 +226,7 @@ these measurements. Furthermore, we find that the conservation of momentum
 principle is valid when considering systems of particles. We use this principle
 to analyze the masses and other properties of previously undetected particles,
 such as the nucleus of an atom and the existence of quarks that make up
-particles of nuclei. [Figure](#import-auto-id1700285) below illustrates how a
+particles of nuclei. [Figure](#fig3) below illustrates how a
 particle scattering backward from another implies that its target is massive and
 dense. Experiments seeking evidence that **quarks** make up protons (one type of particle that makes up
 nuclei) scattered high-energy electrons off
@@ -238,7 +238,7 @@ analysis was based partly on the same conservation of momentum principle that
 works so well on the large scale.
 
 ![An electron strikes on a macroscopic target and recoils back. A closer look shows the electron to scatter backward after interacting with the proton.](../resources/Figure_09_03_04a.jpg "A subatomic particle scatters straight backward from a target particle. In experiments seeking evidence for quarks, electrons were observed to occasionally scatter straight backward from a proton.")
-{: #import-auto-id1700285}
+{: #fig3}
 
 ### Section Summary
 

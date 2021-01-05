@@ -56,7 +56,7 @@ started and also to keep it moving. Furthermore, if you oiled the concrete you
 would find it to be easier to get the crate started and keep it going (as you
 might expect).
 
-[Figure](#import-auto-id1165298476574) is a crude pictorial representation
+[Figure](#fig1) is a crude pictorial representation
 of how friction occurs at the interface between two objects. Close-up inspection
 of these surfaces shows them to be rough. So when you push to get an object
 moving (in this case, a crate), you must raise the object until it can skip
@@ -72,7 +72,7 @@ molecules adhering), so less force is required to keep the object moving. At
 small but nonzero speeds, friction is nearly independent of speed.
 
 ![The figure shows a crate on a flat surface, and a magnified view of a bottom corner of the crate and the supporting surface. The magnified view shows that there is roughness in the two surfaces in contact with each other. A black arrow points toward the right, away from the crate, and it is labeled as the direction of motion or attempted motion. A red arrow pointing toward the left is located near the bottom left corner of the crate, at the interface between that corner and the supporting surface. The red arrow is labeled as f, representing friction between the two surfaces in contact with each other.](../resources/Figure_06_01_01a.jpg "Frictional forces, such as  \( \vb{f} \) , always oppose motion or attempted motion between objects in contact. Friction arises in part because of the roughness of the surfaces in contact, as seen in the expanded view. In order for the object to move, it must rise to where the peaks can skip along the bottom surface. Thus a force is required just to set the object in motion. Some of the peaks will be broken off, also requiring a force to maintain motion. Much of the friction is actually due to attractive forces between molecules making up the two objects, so that even perfectly smooth surfaces are not friction-free. Such adhesive forces also depend on the substances the surfaces are made of, explaining, for example, why rubber-soled shoes slip less than those with leather soles.")
-{: #import-auto-id1165298476574}
+{: #fig1}
 
 The magnitude of the frictional force has two forms: one for static situations (
 static friction), the other for when there is motion (kinetic friction).
@@ -196,12 +196,12 @@ ball (at the end of the femur) and socket (part of the pelvis) joint. The ends
 of the bones in the joint are covered by cartilage, which provides a smooth,
 almost glassy surface. The joints also produce a fluid (synovial fluid) that
 reduces friction and wear. A damaged or arthritic joint can be replaced by an
-artificial joint ([Figure](#import-auto-id1165296217318)). These replacements
+artificial joint ([Figure](#fig2)). These replacements
 can be made of metals (stainless steel or titanium)
 or plastic (polyethylene), also with very small coefficients of friction.
 
 ![Two X-x rays of an artificial knee replacement are shown.](../resources/Figure_06_01_02a.jpg "Artificial knee replacement is a procedure that has been performed for more than 20 years. In this figure, we see the post-op x rays of the right knee joint replacement. (credit: Mike Baird, Flickr)")
-{: #import-auto-id1165296217318}
+{: #fig2}
 
 Other natural lubricants include saliva produced in our mouths to aid in the
 swallowing process, and the slippery mucus found between organs in the body,
@@ -230,7 +230,7 @@ force of the skier on a slope. The normal force is always perpendicular to the
 surface, and since there is no motion perpendicular to the surface, the normal
 force should equal the component of the skier’s weight perpendicular to the
 slope. (See the skier and free-body diagram
-in [Figure](#import-auto-id1165296217411).)
+in [Figure](#fig3).)
 
 ![The figure shows a skier going down a slope that forms an angle of 25
 degrees with the horizontal. The weight of the skier, labeled w, is
@@ -251,7 +251,7 @@ components along both axes, namely \( w_\perp \) and \( w_\parallel \) . \(
 there is no motion perpendicular to the slope. However, \( \mag{f} \) is less
 than \( \mag{W} \)  in magnitude, so there is acceleration down the slope
 (along the x-axis).")
-{: #import-auto-id1165296217411}
+{: #fig3}
 
 That is,
 
@@ -301,7 +301,7 @@ is zero. We can use this fact to measure the coefficient of kinetic friction bet
 As shown in [Figure](#fs-id1704828), the kinetic friction force on a slope
 $$ f_{\text{k}}=\mu_{\text{k}}mg \cos{\theta} $$.
 The component of the weight down the slope is equal to $$ mg \sin{\theta} $$
-(see the free-body diagram in [Figure](#import-auto-id1165296217411)). These
+(see the free-body diagram in [Figure](#fig3)). These
 forces act in opposite directions, so when they have equal magnitude, the
 acceleration is zero. Writing these out:
 
@@ -337,7 +337,7 @@ The simpler aspects of friction dealt with so far are its macroscopic (large-sca
 
 </div>
 
-[Figure](#import-auto-id1165298530900) illustrates one macroscopic
+[Figure](#fig4) illustrates one macroscopic
 characteristic of friction that is explained by microscopic (small-scale)
 research. We have noted that friction is proportional to the normal force, but
 not to the area in contact, a somewhat counterintuitive notion. When two rough
@@ -347,7 +347,7 @@ actual contact area increases, and it is found that the friction is proportional
 to this area.
 
 ![This figure has two parts, each of which shows two rough surfaces in close proximity to each other. In the first part, the normal force is small, so that the area of contact between the two surfaces is much smaller than their total area. In the second part, the normal force is large, so that the area of contact between the two surfaces has increased. As a result, the friction between the two surfaces in the second part is also greater than the friction in the first part.](../resources/Figure_06_01_04a.jpg "Two rough surfaces in contact have a much smaller area of actual contact than their total area. When there is a greater normal force as a result of a greater applied force, the area of actual contact increases as does friction.")
-{: #import-auto-id1165298530900}
+{: #fig4}
 
 But the atomic-scale view promises to explain far more than the simpler features
 of friction. The mechanism for how heat is generated is now being determined. In
@@ -357,7 +357,7 @@ adhere and cause atomic lattices to vibrate—essentially creating sound waves
 that penetrate the material. The sound waves diminish with distance and their
 energy is converted into heat. Chemical reactions that are related to frictional
 wear can also occur between atoms and molecules on the
-surfaces. [Figure](#import-auto-id1165298744656) shows how the tip of a probe
+surfaces. [Figure](#fig5) shows how the tip of a probe
 drawn across another material is deformed by atomic-scale friction. The force
 needed to drag the tip can be measured and is found to be related to shear
 stress, which will be discussed later in this chapter. The variation in shear
@@ -367,7 +367,7 @@ fundamental understanding of a large-scale phenomenon known since ancient
 times—friction.
 
 ![This figure shows a molecular model of a probe that is dragged over the surface of a substrate. The substrate is represented by a rectangular prism, made up of a grid of small spheres, each sphere representing an atom. The probe, made up of a different grid of small spheres, is in the form of an inverted pyramid with a flattened peak. The pyramid is somewhat distorted because of friction.](../resources/Figure_06_01_05a.jpg "The tip of a probe is deformed sideways by frictional force as the probe is dragged across a surface. Measurements of how the force varies for different materials are yielding fundamental insights into the atomic nature of friction.")
-{: #import-auto-id1165298744656}
+{: #fig5}
 
 <div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
@@ -673,7 +673,7 @@ and the cliff?
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-A contestant in a winter sporting event pushes a 45.0-kg block of ice across a frozen lake as shown in [Figure](#import-auto-id1165298619770)(a).
+A contestant in a winter sporting event pushes a 45.0-kg block of ice across a frozen lake as shown in [Figure](#fig6)(a).
 (a) Calculate the minimum force $$ F $$ he must exert to get the block moving.
 (b) What is the magnitude of its acceleration once it starts to move, if that force is maintained?
 
@@ -687,10 +687,10 @@ A contestant in a winter sporting event pushes a 45.0-kg block of ice across a f
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Repeat [Figure](#fs-id1531145) with the contestant pulling the block of ice with a rope over his shoulder at the same angle above the horizontal as shown in [Figure](#import-auto-id1165298619770)(b).
+Repeat [Figure](#fs-id1531145) with the contestant pulling the block of ice with a rope over his shoulder at the same angle above the horizontal as shown in [Figure](#fig6)(b).
 
 ![(a) A block of ice is being pushed by a contestant in a winter sporting event across a frozen lake at an angle of twenty five degrees. (b) A block of ice is being pulled by a contestant in a winter sporting event across a frozen lake at an angle of twenty five degrees.](../resources/Figure_06_01_07a.jpg "Which method of sliding a block of ice requires less force&#x2014;(a) pushing or (b) pulling at the same angle above the horizontal?")
-{: #import-auto-id1165298619770 height="304"}
+{: #fig6 height="304"}
 
 </div>
 </div>

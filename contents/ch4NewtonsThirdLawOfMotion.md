@@ -36,7 +36,7 @@ forces and understanding which forces are external to a system.
 
 We can readily see Newton’s third law at work by taking a look at how people
 move about. Consider a swimmer pushing off from the side of a pool, as
-illustrated in [Figure](#import-auto-id2338100). She pushes against the pool
+illustrated in [Figure](#fig1). She pushes against the pool
 wall with her feet and accelerates in the direction *opposite* to that of her
 push. The wall has exerted an equal and opposite force back on the swimmer. You
 might think that two equal and opposite forces would cancel, but they do not
@@ -68,7 +68,7 @@ only \( \vb{F}_\text{feet on wall} \), \( \vb{w} \),
 the gravitational force, and \( \vb{BF} \), the buoyant force of the water
 supporting the swimmer’s weight. The vertical forces \( \vb{w} \) and \( \vb{BF} \)
 cancel since there is no vertical motion.")
-{: #import-auto-id2338100}
+{: #fig1}
 
 Other examples of Newton’s third law are easy to find. As a professor paces in
 front of a whiteboard, she exerts a force backward on the floor. The floor
@@ -97,16 +97,16 @@ body.
 <div class="title">
 Getting Up To Speed: Choosing the Correct System
 </div>
-A physics professor pushes a cart of demonstration equipment to a lecture hall, as seen in [Figure](#import-auto-id2324690). Her mass is 65.0 kg, the cart’s is 12.0 kg, and the equipment’s is 7.0 kg. Calculate the acceleration produced when the professor exerts a backward force of 150 N on the floor. All forces opposing the motion, such as friction on the cart’s wheels and air resistance, total 24.0 N.
+A physics professor pushes a cart of demonstration equipment to a lecture hall, as seen in [Figure](#fig2). Her mass is 65.0 kg, the cart’s is 12.0 kg, and the equipment’s is 7.0 kg. Calculate the acceleration produced when the professor exerts a backward force of 150 N on the floor. All forces opposing the motion, such as friction on the cart’s wheels and air resistance, total 24.0 N.
 
 ![A professor is pushing a cart of demonstration equipment. Two systems are labeled in the figure. System one includes both the professor and cart, and system two only has the cart. She is exerting some force F sub prof toward the right, shown by a vector arrow, and the cart is also pushing her with the same magnitude of force directed toward the left, shown by a vector F sub cart, having same length as F sub prof. The friction force small f is shown by a vector arrow pointing left acting between the wheels of the cart and the floor. The professor is pushing the floor with her feet with a force F sub foot toward the left, shown by a vector arrow. The floor is pushing her feet with a force that has the same magnitude, F sub floor, shown by a vector arrow pointing right that has the same length as the vector F sub foot. A free-body diagram is also shown. For system one, friction force acting toward the left is shown by a vector arrow having a small length, and the force F sub floor is acting toward the right, shown by a vector arrow larger than the length of vector f. In system two, friction force represented by a short vector small f acts toward the left and another vector F sub prof is represented by a vector arrow toward the right. F sub prof is longer than small f.](../resources/Figure_04_04_02.jpg "A professor pushes a cart of demonstration equipment. The lengths of the arrows are proportional to the magnitudes of the forces (except for  \( \vb{f} \) , since it is too small to draw to scale). Different questions are asked in each example; thus, the system of interest must be defined differently for each. System 1 is appropriate for this example, since it asks for the acceleration of the entire group of objects.
 Only  \( \vb{F}_{\text{floor}} \) and  \( \vb{f} \)  are external forces acting on System 1 along the line of motion. All other forces either cancel or act on the outside world. System 2 is chosen for [link] so that  \( \vb{F}_{\text{prof}} \) will be an external force and enter into Newton&#x2019;s second law. Note that the free-body diagrams, which allow us to apply Newton&#x2019;s second law, vary with the system chosen. ")
-{: #import-auto-id2324690}
+{: #fig2}
 
 **Strategy**
 
 Since they accelerate as a unit, we define the system to be the professor, cart,
-and equipment. This is System 1 in [Figure](#import-auto-id2324690). The
+and equipment. This is System 1 in [Figure](#fig2). The
 professor pushes backward with a force $$ \vb{F}_{\text{foot}} $$
 of 150 N. According to Newton’s third law, the floor exerts a forward reaction
 force $$ \vb{F}_{\text{floor}} $$ of 150 N on System 1. Because all
@@ -129,7 +129,7 @@ Newton’s second law is given by
 <div class="equation">
  $$ a=\frac{ F_{\text{net}}}{m}. $$
 </div>
-The net external force on System 1 is deduced from [Figure](#import-auto-id2324690)
+The net external force on System 1 is deduced from [Figure](#fig2)
 and the discussion above to be
 
 <div class="equation">
@@ -167,13 +167,13 @@ this problem.
 <div class="title">
 Force on the Cart—Choosing a New System
 </div>
-Calculate the force the professor exerts on the cart in [Figure](#import-auto-id2324690)
+Calculate the force the professor exerts on the cart in [Figure](#fig2)
 using data from the previous example if needed.
 
 **Strategy**
 
 If we now define the system of interest to be the cart plus equipment (System 2
-in [Figure](#import-auto-id2324690)), then the net external force on System 2
+in [Figure](#fig2)), then the net external force on System 2
 is the force the professor exerts on the cart minus friction. The force she
 exerts on the cart, $$ \vb{F}_{\text{prof}} $$, is an external
 force acting on System 2. $$ \vb{F}_{\text{prof}} $$ was internal

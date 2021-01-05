@@ -90,10 +90,10 @@ in any elastic medium by deforming it. Indeed, the general definition of
 configuration. For shape or position deformations, stored energy is $$
 \PE_{s}=\frac{1}{2}k x^{2} $$, where $$ k $$ is the force constant of
 the particular system and $$ x $$ is its deformation. Another example is seen
-in [Figure](#import-auto-id1089734) for a guitar string.
+in [Figure](#fig1) for a guitar string.
 
 ![A six-string guitar is placed vertically. The left-most string is plucked in the left direction with a force F shown by an arrow pointing left. The displacement of the string from the mean position is d. The plucked string is labeled P E sub string, to represent the potential energy of the string.](../resources/Figure_08_04_02a.jpg "Work is done to deform the guitar string, giving it potential energy. When released, the potential energy is converted to kinetic energy and back to potential as the string oscillates back and forth. A very small fraction is dissipated as sound energy, slowly removing energy from the string.")
-{: #import-auto-id1089734}
+{: #fig1}
 
 ### Conservation of Mechanical Energy
 
@@ -166,10 +166,10 @@ with the total energy remaining constant.
 <div class="title">
 Using Conservation of Mechanical Energy to Calculate the Speed of a Toy Car
 </div>
-A 0.100-kg toy car is propelled by a compressed spring, as shown in [Figure](#import-auto-id2687249). The car follows a track that rises 0.180 m above the starting point. The spring is compressed 4.00 cm and has a force constant of 250.0 N/m. Assuming work done by friction to be negligible, find (a) how fast the car is going before it starts up the slope and (b) how fast it is going at the top of the slope.
+A 0.100-kg toy car is propelled by a compressed spring, as shown in [Figure](#fig2). The car follows a track that rises 0.180 m above the starting point. The spring is compressed 4.00 cm and has a force constant of 250.0 N/m. Assuming work done by friction to be negligible, find (a) how fast the car is going before it starts up the slope and (b) how fast it is going at the top of the slope.
 
 ![The figure shows a toy race car that has just been released from a spring. Two possible paths for the car are shown. One path has a gradual upward incline, leveling off at a height of eighteen centimeters above its starting level. An alternative path shows the car descending from its starting point, making a loop, and then ascending back up and leveling off at a height of eighteen centimeters above its starting level. ](../resources/Figure_08_04_03a.jpg "A toy car is pushed by a compressed spring and coasts up a slope. Assuming negligible friction, the potential energy in the spring is first completely converted to kinetic energy, and then to a combination of kinetic and gravitational potential energy as the car rises. The details of the path are unimportant because all forces are conservative&#x2014;the car would have the same final speed if it took the alternate path shown.")
-{: #import-auto-id2687249 height="125"}
+{: #fig2 height="125"}
 
 **Strategy**
 

@@ -13,7 +13,7 @@ layout: page
 distance it has traveled (a scalar quantity) or its displacement in a
 specific direction (a vector quantity). In order to specify the direction of
 motion, its displacement must be described based on a coordinate system. In this case, it may be convenient to choose motion toward the left as positive motion (it is the forward direction for the plane), although in many cases, the \(x\)-coordinate runs from left to right, with motion to the right as positive and motion to the left as negative. (credit: Armchair Aviator, Flickr)")
-{: #import-auto-id1778274}
+{: #fig1}
 
 What is the difference between distance and displacement? Whereas displacement
 is defined by both direction and magnitude, distance is defined only by
@@ -47,7 +47,7 @@ is a simple coordinate system consisting of a one-dimensional coordinate line.
 In general, when describing horizontal motion, motion to the right is usually
 considered positive, and motion to the left is considered negative. With
 vertical motion, motion up is usually positive and motion down is negative. In
-some cases, however, as with the jet in [Figure](#import-auto-id1778274), it
+some cases, however, as with the jet in [Figure](#fig1), it
 can be more convenient to switch the positive and negative directions. For
 example, if you are analyzing the motion of falling objects, it can be useful to
 define downwards as the positive direction. If people in a race are running to
@@ -64,7 +64,7 @@ Negative y points downward.](../resources/Figure_02_02_00b.jpg "
 It is usually convenient to consider motion
 upward or to the right as positive ( + )and motion downward or to the left as
 negative (-).")
-{: #import-auto-id1758074}
+{: #fig2}
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">

@@ -12,7 +12,7 @@ layout: page
 </div>
 
 ![Three people cycling along a canal. The blurred buildings in the background convey a sense of motion of the cyclists.](../resources/Figure_02_01_00.jpg "These cyclists in Vietnam can be described by their position relative to buildings and a canal. Their motion can be described by their change in position, or displacement, in the frame of reference. (credit: Suzan Black, Fotopedia)")
-{: #import-auto-id2723149}
+{: #fig1}
 
 ### Position
 
@@ -24,11 +24,11 @@ position of an object as it relates to stationary objects in that reference
 frame. For example, a rocket launch would be described in terms of the position
 of the rocket with respect to the Earth as a whole, while a professor’s position
 could be described in terms of where she is in relation to the nearby white
-board. ( See [Figure](#import-auto-id2972079).) In other cases, we use reference frames
+board. ( See [Figure](#fig2).) In other cases, we use reference frames
 that are not stationary but are in motion relative to the Earth. To describe the
 position of a person in an airplane, for example, we use the airplane, not the
 Earth, as the reference frame. (
-See [Figure](#import-auto-id2707699).)
+See [Figure](#fig3).)
 
 ### Displacement
 
@@ -63,7 +63,7 @@ when units other than the meter are used in a problem, you may need to convert
 them into meters to complete the calculation.
 
 ![The initial and final position of a professor as she moves to the right while writing on a whiteboard. Her initial position is 1 point 5 meters. Her final position is 3 point 5 meters. Her displacement is given by the equation delta x equals x sub f minus x sub 0 equals 2 point 0 meters.](../resources/Figure_02_01_01.jpg "A professor paces left and right while lecturing. Her position relative to Earth is given by \( \Delta x \) . The +2.0m displacement of the professor relative to Earth is represented by an arrow pointing to the right.")
-{: #import-auto-id2972079}
+{: #fig2}
 
 ![View of an airplane with an inset of the passengers sitting inside.
 A passenger has just moved from his seat and is now standing in the back.
@@ -76,7 +76,7 @@ displacement of the
 passenger relative to the plane is represented by an arrow toward the rear of
 the plane. Notice that the arrow representing his displacement is twice as long
 as the arrow representing the displacement of the professor (he moves twice as far) in [link].")
-{: #import-auto-id2707699}
+{: #fig3}
 
 Note that displacement has a direction as well as a magnitude. The professor’s
 displacement is 2.0 m to the right, and the airline passenger’s displacement is
@@ -149,7 +149,7 @@ A cyclist rides 3 km west and then turns around and rides 2 km east.
 
 </div>
 <div class="solution" markdown="1">
-![Two diagrams side by side. To the left is a horizontal line, or x axis, with points for final position and initial position. Displacement 1, shown by an arrow pointing leftward, equals negative 3 kilometers. Displacement 2, shown by an arrow pointing rightward, equals 2 kilometers. To the right is a pair of x and y axes, showing that east is the positive x direction and west is the negative x direction.](../resources/Figure_02_01_03.jpg){: #import-auto-id2776946}
+![Two diagrams side by side. To the left is a horizontal line, or x axis, with points for final position and initial position. Displacement 1, shown by an arrow pointing leftward, equals negative 3 kilometers. Displacement 2, shown by an arrow pointing rightward, equals 2 kilometers. To the right is a pair of x and y axes, showing that east is the positive x direction and west is the negative x direction.](../resources/Figure_02_01_03.jpg){: #fig4}
 
 (a) The rider’s displacement is $$ \Delta x=x_{f}-x_{0}=\text{−1 km} $$. (The
 displacement is negative because we take east to be positive and west to be
@@ -213,11 +213,11 @@ size, while its displacement is small. Why is this?
 ### Problems &amp; Exercises
 
 ![An x axis starts at 0 meters and ends at 12 meters. There are four points on the graph with displacement paths. Path A starts at 0 and stops at 7. Path B starts at 12 and ends at 7. Path C starts at 2, goes to 10, turns around and goes back to 8, then turns around again and stops at 11. Path D starts at 9, goes to 3, then turns around and stops at 5.](../resources/Figure_02_01Sol_01.jpg)
-{: #import-auto-id2076702}
+{: #fig5}
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the following for path A in [Figure](#import-auto-id2076702):
+Find the following for path A in [Figure](#fig5):
 (a) The distance traveled.
 (b) The magnitude of the displacement from start to finish.
 (c) The displacement from start to finish.
@@ -234,7 +234,7 @@ Find the following for path A in [Figure](#import-auto-id2076702):
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the following for path B in [Figure](#import-auto-id2076702):
+Find the following for path B in [Figure](#fig5):
 (a) The distance traveled.
 (b) The magnitude of the displacement from start to finish.
 (c) The displacement from start to finish.
@@ -244,7 +244,7 @@ Find the following for path B in [Figure](#import-auto-id2076702):
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the following for path C in [Figure](#import-auto-id2076702):
+Find the following for path C in [Figure](#fig5):
 (a) The distance traveled.
 (b) The magnitude of the displacement from start to finish.
 (c) The displacement from start to finish.
@@ -261,7 +261,7 @@ Find the following for path C in [Figure](#import-auto-id2076702):
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the following for path D in [Figure](#import-auto-id2076702):
+Find the following for path D in [Figure](#fig5):
 (a) The distance traveled.
 (b) The magnitude of the displacement from start to finish.
 (c) The displacement from start to finish.

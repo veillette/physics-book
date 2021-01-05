@@ -20,7 +20,7 @@ and the car are changing direction. The sharper the curve and the greater your
 speed, the more noticeable this acceleration will become. In this section we
 examine the direction and magnitude of that acceleration.
 
-[Figure](#import-auto-id1561888) shows an object moving in a circular path at
+[Figure](#fig1) shows an object moving in a circular path at
 constant speed. The direction of the instantaneous velocity is shown at two
 points along the path. Acceleration is in the direction of the change in
 velocity, which points directly toward the center of rotation (the center of the
@@ -33,7 +33,7 @@ resulting from a net external force) the **centripetal acceleration**
 directions of the velocity of an object at two different points are shown, and the change in velocity \( \vb{\Delta v} \)  is seen to point directly toward the center of curvature.
 (See small inset.) Because \( \vb{a}_c =\frac{ \vb{\Delta v} }{\Delta t} \), the acceleration is also toward the center; \( \vb{a}_c \)  is called centripetal acceleration.
 (Because \( \Delta \theta \) is very small, the arc length \( \Delta s \) is equal to the chord length \( \Delta r \) for small time differences.)")
-{: #import-auto-id1561888}
+{: #fig1}
 
 The direction of centripetal acceleration is toward the center of curvature, but
 what is its magnitude? Note that the triangle formed by the velocity vectors and
@@ -88,7 +88,7 @@ Recall that the direction of $$ \ac $$ is toward the center. You may
 use whichever expression is more convenient, as illustrated in examples below.
 
 A **centrifuge** (
-see [Figure](#import-auto-id3033074)b) is a rotating device used to separate
+see [Figure](#fig2)b) is a rotating device used to separate
 specimens of different densities. High centripetal acceleration significantly
 decreases the time it takes for separation to occur, and makes separation
 possible with small samples. Centrifuges are used in a variety of applications
@@ -105,7 +105,7 @@ to the effects of accelerations larger than that of Earth’s gravity.
 <div class="title">
 How Does the Centripetal Acceleration of a Car Around a Curve Compare with That Due to Gravity?
 </div>
-What is the magnitude of the centripetal acceleration of a car following a curve of radius 500 m at a speed of 25.0 m/s (about 90 km/h)? Compare the acceleration with that due to gravity for this fairly gentle curve taken at highway speed. See [Figure](#import-auto-id3033074)(a).
+What is the magnitude of the centripetal acceleration of a car following a curve of radius 500 m at a speed of 25.0 m/s (about 90 km/h)? Compare the acceleration with that due to gravity for this fairly gentle curve taken at highway speed. See [Figure](#fig2)(a).
 
 **Strategy**
 
@@ -134,7 +134,7 @@ if you were not wearing a seat belt.
 </div>
 
 ![In figure a, a car shown from top is running on a circular road around a circular path. The center of the park is termed as the center of this circle and the distance from this point to the car is taken as radius r. The linear velocity is shown in perpendicular direction toward the front of the car, shown as v the centripetal acceleration is shown with an arrow pointed towards the center of rotation. In figure b, a centrifuge is shown an object of mass m is rotating in it at a constant speed. The object is at the distance equal to the radius, r, of the centrifuge. The centripetal acceleration is shown towards the center of rotation, and the velocity, v is shown perpendicular to the object in the clockwise direction.](../resources/Figure_07_02_02a.jpg "(a) The car following a circular path at constant speed is accelerated perpendicular to its velocity, as shown. The magnitude of this centripetal acceleration is found in [link]. (b) A particle of mass in a centrifuge is rotating at constant angular velocity . It must be accelerated perpendicular to its velocity or it would continue in a straight line. The magnitude of the necessary acceleration is found in [link].")
-{: #import-auto-id3033074}
+{: #fig2}
 
 <div class="example" markdown="1">
 <div class="title">
@@ -142,7 +142,7 @@ How Big Is the Centripetal Acceleration in an Ultracentrifuge?
 </div>
 Calculate the centripetal acceleration of a point 7.50 cm from the axis of an **ultracentrifuge**
 spinning at $$ 7.5 \times 10^{4} \text{rev/min.} $$ Determine the ratio of this acceleration to that due to gravity.
-See [Figure](#import-auto-id3033074)(b).
+See [Figure](#fig2)(b).
 
 **Strategy**
 

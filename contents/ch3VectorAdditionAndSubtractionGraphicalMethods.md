@@ -11,7 +11,7 @@ displacement of moving objects.
 </div>
 
 ![Some Hawaiian Islands like Kauai Oahu, Molokai, Lanai, Maui, Kahoolawe, and Hawaii are shown. On the scale map of Hawaiian Islands the path of a journey is shown moving from Hawaii to Molokai. The path of the journey is turning at different angles and finally reaching its destination. The displacement of the journey is shown with the help of a straight line connecting its starting point and the destination.](../resources/Figure_03_02_00a.jpg "Displacement can be determined graphically using a scale map, such as this one of the Hawaiian Islands. A journey from Hawai&#x2019;i to Moloka&#x2019;i has a number of legs, or journey segments. These segments can be added graphically with a ruler to determine the total two-dimensional displacement of the journey. (credit: US Geological Survey)")
-{: #import-auto-id1165296227310}
+{: #fig1}
 
 ### Vectors in Two Dimensions
 
@@ -24,7 +24,7 @@ reference frame (i.e., coordinate system), using an arrow having length
 proportional to the vector’s magnitude and pointing in the direction of the
 vector.
 
-[Figure](#import-auto-id1165298666909) shows such a *graphical representation
+[Figure](#fig2) shows such a *graphical representation
 of a vector*, using as an example the total displacement for the person walking
 in a city considered
 in [Kinematics in Two Dimensions: An Introduction](../contents/ch3KinematicsInTwoDimensionsAnIntroduction.md). We shall
@@ -48,7 +48,7 @@ variable will be given by an angle $$ \theta $$.
 </div>
 
 ![A graph is shown. On the axes the scale is set to one block is equal to one unit. A helicopter starts moving from the origin at an angle of twenty nine point one degrees above the x axis. The current position of the helicopter is ten point three blocks along its line of motion. The destination of the helicopter is the point which is nine blocks in the positive x direction and five blocks in the positive y direction. The positive direction of the x axis is east and the positive direction of the y axis is north.](../resources/Figure_03_02_01.jpg "A person walks 9 blocks east and 5 blocks north. The displacement is 10.3 blocks at an angle 29.1 degrees north of east.")
-{: #import-auto-id1165298666909}
+{: #fig2}
 
 ![On a graph a vector is shown. It is inclined at an angle theta equal to
 twenty nine point one degrees above the positive x axis. A protractor is
@@ -62,13 +62,13 @@ length  \( \mag{D} \)  of the arrow is proportional to the vector&#x2019;s
 magnitude and is measured along the line with a ruler. In this example, the 
 magnitude  \( \mag{D} \)  of the vector is 10.3 units, and the direction  \( 
 \theta \)  is 29.1 degrees north of east. ")
-{: #import-auto-id1165298918248 height="250"}
+{: #fig3 height="250"}
 
 ### Vector Addition: Head-to-Tail Method
 
 The **head-to-tail method** is
 a graphical way to add vectors, described
-in [Figure](#import-auto-id1165298643218) below and in the steps following.
+in [Figure](#fig4) below and in the steps following.
 The **tail** of the vector is
 the starting point of the vector, and the **head** (or tip) of a vector is the final, pointed end of
 the arrow.
@@ -80,19 +80,19 @@ the arrow.
 north-pointing vector to form the sum or resultant vector  \( \vb{D} \) . The 
 length of the arrow  \( \mag{D} \)  is proportional to the vector&#x2019;s 
 magnitude and is measured to be 10.3 units . Its direction, described as the angle with respect to the east (or horizontal axis)  \( \theta \)  is measured with a protractor to be 29.1 degrees .")
-{: #import-auto-id1165298643218}
+{: #fig4}
 
 ***Step 1.*** **Draw an arrow to represent the first vector (9 blocks to the
 east) using a ruler and protractor**.
 
 ![In part a, a vector of magnitude of nine units and making an angle theta is equal to zero degree is drawn from the origin and along the positive direction of x axis.](../resources/Figure_03_02_04a.jpg)
-{: #import-auto-id1165298876451 height="200"}
+{: #fig5 height="200"}
 
 ***Step 2.*** Now draw an arrow to represent the second vector (5 blocks to the
 north). *Place the tail of the second vector at the head of the first vector*.
 
 ![In part b, a vector of magnitude of nine units and making an angle theta is equal to zero degree is drawn from the origin and along the positive direction of x axis. Then a vertical vector from the head of the horizontal vector is drawn.](../resources/Figure_03_02_05a.jpg)
-{: #import-auto-id1165298818267 height="200"}
+{: #fig6 height="200"}
 
 ***Step 3.*** *If there are more than two vectors, continue this process for
 each vector to be added. Note that in our example, we have only two vectors, so
@@ -102,7 +102,7 @@ we have finished placing arrows tip to tail*.
 the last vector*. This is the **resultant**, or the sum, of the other vectors.
 
 ![In part c, a vector D of magnitude ten point three is drawn from the tail of the horizontal vector at an angle theta is equal to twenty nine point one degrees from the positive direction of the x axis. The head of the vector D meets the head of the vertical vector. A scale is shown parallel to the vector D to measure its length. Also a protractor is shown to measure the inclination of the vector D.](../resources/Figure_03_02_06a.jpg)
-{: #import-auto-id1165299000967}
+{: #fig7}
 
 ***Step 5.*** To get the **magnitude** of the resultant, *measure its length with a
 ruler. (Note that in most calculations, we will use the Pythagorean theorem to
@@ -140,18 +140,18 @@ denoted $$ \vb{R} $$.
 (1) Draw the three displacement vectors.
 
 ![On the graph a vector of magnitude twenty three meters and inclined above the x axis at an angle theta-b equal to fifteen degrees is shown. This vector is labeled as B.](../resources/Figure_03_02_08.jpg)
-{: #import-auto-id1165296232338}
+{: #fig8}
 
 (2) Place the vectors head to tail retaining both their initial magnitude and
 direction.
 
 ![In this figure a vector A with a positive slope is drawn from the origin. Then from the head of the vector A another vector B with positive slope is drawn and then another vector C with negative slope from the head of the vector B is drawn which cuts the x axis.](../resources/Figure_03_02_09.jpg)
-{: #import-auto-id1165298788198}
+{: #fig9}
 
 (3) Draw the resultant vector, $$ \vb{R} $$.
 
 ![In this figure a vector A with a positive slope is drawn from the origin. Then from the head of the vector A another vector B with positive slope is drawn and then another vector C with negative slope from the head of the vector B is drawn which cuts the x axis. From the tail of the vector A a vector R of magnitude of fifty point zero meters and with negative slope of seven degrees is drawn. The head of this vector R meets the head of the vector C. The vector R is known as the resultant vector.](../resources/Figure_03_02_10.jpg)
-{: #import-auto-id1165298786300}
+{: #fig10}
 
 (4) Use a ruler to measure the magnitude of $$ \vb{R} $$, and a
 protractor to measure the direction of $$ \vb{R} $$. While the direction of
@@ -161,7 +161,7 @@ resultant vector is south of the eastward pointing axis, we flip the protractor
 upside down and measure the angle between the eastward axis and the vector.
 
 ![In this figure a vector A with a positive slope is drawn from the origin. Then from the head of the vector A another vector B with positive slope is drawn and then another vector C with negative slope from the head of the vector B is drawn which cuts the x axis. From the tail of the vector A a vector R of magnitude of fifty meter and with negative slope of seven degrees is drawn. The head of this vector R meets the head of the vector C. The vector R is known as the resultant vector. A ruler is placed along the vector R to measure it. Also there is a protractor to measure the angle.](../resources/Figure_03_02_11a.jpg)
-{: #import-auto-id1165298931707}
+{: #fig11}
 
 In this case, the total displacement $$ \vb{R} $$ is seen to have a
 magnitude of 50.8 m and to lie in a direction $$ 5.5^\circ $$ south of east. By
@@ -173,11 +173,11 @@ as $$ \mag{R}=50.8 \m $$ and $$ \theta =5.5^\circ $$ south of east.
 The head-to-tail graphical method of vector addition works for any number of
 vectors. It is also important to note that the resultant is independent of the
 order in which the vectors are added. Therefore, we could add the vectors in any
-order as illustrated in [Figure](#import-auto-id1165298931858) and we will
+order as illustrated in [Figure](#fig12) and we will
 still get the same solution.
 
 ![In this figure a vector C with a negative slope is drawn from the origin. Then from the head of the vector C another vector A with positive slope is drawn and then another vector B with negative slope from the head of the vector A is drawn. From the tail of the vector C a vector R of magnitude of fifty point zero meters and with negative slope of seven degrees is drawn. The head of this vector R meets the head of the vector B. The vector R is known as the resultant vector.](../resources/Figure_03_02_12.jpg)
-{: #import-auto-id1165298931858}
+{: #fig12}
 
 Here, we see that when the same vectors are added in a different order, the
 result is the same. This characteristic is true in every case and is an
@@ -199,13 +199,13 @@ subtraction (say we want to subtract $$ \vb{B} $$ from $$
 first define what we mean by subtraction. The *negative* of a vector $$
 \vb{B} $$ is defined to be $$ -\vb{B} $$; that is,
 graphically *the negative of any vector has the same magnitude but the opposite
-direction*, as shown in [Figure](#import-auto-id1165298692950). In other
+direction*, as shown in [Figure](#fig13). In other
 words, $$ \vb{B} $$ has the same length as $$ -\vb{B} $$,
 but points in the opposite direction. Essentially, we just flip the vector so it
 points in the opposite direction.
 
 ![Two vectors are shown. One of the vectors is labeled as vector   in north east direction. The other vector is of the same magnitude and is in the opposite direction to that of vector B. This vector is denoted as negative B.](../resources/Figure_03_02_13a.jpg "The negative of a vector is just another vector of the same magnitude but pointing in the opposite direction. So  \( \vb{B} \)  is the negative of \( -\vb{B} \) ; it has the same length but opposite direction. ")
-{: #import-auto-id1165298692950 height="200"}
+{: #fig13 height="200"}
 
 The **subtraction** of vector $$ \vb{B} $$ from vector $$
 \vb{A} $$ is then simply defined to be the addition of $$-\vb{B} $$
@@ -235,7 +235,7 @@ direction for the second leg of the trip, where will she end up? Compare this
 location with the location of the dock.
 
 ![A vector of magnitude twenty seven point five meters is shown. It is inclined to the horizontal at an angle of sixty six degrees. Another vector of magnitude thirty point zero meters is shown. It is inclined to the horizontal at an angle of one hundred and twelve degrees.](../resources/Figure_03_02_14.jpg)
-{: #import-auto-id1165296408744}
+{: #fig14}
 
 **Strategy**
 
@@ -251,7 +251,7 @@ in the opposite direction. Thus, she will end up at a location $$
 \vb{A}+\left( -\vb{B} \right) $$, or $$ \vb{A} - \vb{B} $$.
 
 ![A vector labeled negative B is inclined at an angle of sixty-eight degrees below a horizontal line. A dotted line in the reverse direction inclined at one hundred and twelve degrees above the horizontal line is also shown.](../resources/Figure_03_02_15a.jpg)
-{: #import-auto-id1165296408745}
+{: #fig15}
 
 We will perform vector addition to compare the location of the dock,
 $$ \vb{A} + \vb{B} $$, with the location at which the woman mistakenly arrives, $$
@@ -269,7 +269,7 @@ vectors $$ \vb{A} $$ and $$ -\vb{B} $$.
 (4) Use a ruler and protractor to measure the magnitude and direction of $$ \vb{R} $$.
 
 ![Vectors A and negative B are connected in head to tail method. Vector A is inclined with horizontal with positive slope and vector negative B with a negative slope. The resultant of these two vectors is shown as a vector R from tail of A to the head of negative B. The length of the resultant is twenty three point zero meters and has a negative slope of seven point five degrees.](../resources/Figure_03_02_16a.jpg)
-{: #import-auto-id1165298476927}
+{: #fig16}
 
 In this case, $$ \mag{R}=23.0 \m $$ and $$ \theta =7.5^\circ $$ south of east.
 
@@ -278,7 +278,7 @@ $$ \vb{A} $$ and $$ \vb{B} $$. We obtain the resultant
 vector $$ \vb{R}^\prime $$:
 
 ![A vector A inclined at sixty six degrees with horizontal is shown. From the head of this vector another vector B is started. Vector B is inclined at one hundred and twelve degrees with the horizontal. Another vector labeled as R prime from the tail of vector A to the head of vector B is drawn. The length of this vector is fifty two point nine meters and its inclination with the horizontal is shown as ninety point one degrees. Vector R prime is equal to the sum of vectors A and B.](../resources/Figure_03_02_17a.jpg)
-{: #import-auto-id1165296298190}
+{: #fig17}
 
 In this case $$ \mag{R}= 52.9 \m $$ and $$ \theta =90.1^\circ $$ north of east.
 We can see that the woman will end up a significant distance from the dock if
@@ -428,7 +428,7 @@ The total distance traveled along Path 1 is 7.5 km, and that along
 Path 2 is 8.2 km. What is the final displacement of each camper?
 
 ![At the southwest corner of the figure is a cabin and in the northeast corner is a lake. A vector S with a length five point zero kilometers connects the cabin to the lake at an angle of 40 degrees north of east. Two winding paths labeled Path 1 and Path 2 represent the routes travelled from the cabin to the lake.](../resources/Figure_03_02_18a.jpg)
-{: #import-auto-id1165298840401}
+{: #fig18}
 
 </div>
 </div>
@@ -437,11 +437,11 @@ Path 2 is 8.2 km. What is the final displacement of each camper?
 <div class="problem" markdown="1">
 If an airplane pilot is told to fly 123 km in a straight line to
 get from San Francisco to Sacramento, explain why he could end up
-anywhere on the circle shown in [Figure](#import-auto-id1165296384452).
+anywhere on the circle shown in [Figure](#fig19).
 What other information would he need to get to Sacramento?
 
 ![A map of northern California with a circle with a radius of one hundred twenty three kilometers centered on San Francisco. Sacramento lies on the circumference of this circle in a direction forty-five degrees north of east from San Francisco.](../resources/Figure_03_02_19a.jpg)
-{: #import-auto-id1165296384452 height="300"}
+{: #fig19 height="300"}
 
 </div>
 </div>
@@ -479,12 +479,12 @@ graphs is accurate to three digits.**
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the following for path A in [Figure](#import-auto-id1165298872310):
+Find the following for path A in [Figure](#fig20):
 (a) the total distance traveled, and
 (b) the magnitude and direction of the displacement from start to finish.
 
 ![A map of city is shown. The houses are in form of square blocks of side one hundred and twenty meters each. The path of A extends to three blocks towards north and then one block towards east. It is asked to find out the total distance traveled the magnitude and the direction of the displacement from start to finish.](../resources/Figure_03_02_20a.jpg "The various lines represent paths taken by different people walking in a city. All blocks are 120 m on a side.")
-{: #import-auto-id1165298872310}
+{: #fig20}
 
 </div>
 <div class="solution" markdown="1">
@@ -497,7 +497,7 @@ Find the following for path A in [Figure](#import-auto-id1165298872310):
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the following for path B in [Figure](#import-auto-id1165298872310):
+Find the following for path B in [Figure](#fig20):
 (a) the total distance traveled, and
 (b) the magnitude and direction of the displacement from start to finish.
 
@@ -507,7 +507,7 @@ Find the following for path B in [Figure](#import-auto-id1165298872310):
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Find the north and east components of the displacement for
-the hikers shown in [Figure](#import-auto-id1165298840401).
+the hikers shown in [Figure](#fig18).
 
 </div>
 <div class="solution" markdown="1">
@@ -523,7 +523,7 @@ you from your starting point, and what is the compass direction of a line
 connecting your starting point to your final position?
 (If you represent the two legs of the walk as vector displacements
 $$ \vb{A} $$
-and $$ \vb{B} $$, as in [Figure](#import-auto-id1165296241785),
+and $$ \vb{B} $$, as in [Figure](#fig21),
 then this problem asks you to
 find their sum $$\vb{R}=\vb{A}+\vb{B} $$.)
 
@@ -535,7 +535,7 @@ head of vector B. This vector R is inclined at an angle theta with the
 negative x axis.](../resources/Figure_03_02_21a.jpg "The two displacements \( \vb{A} \)  
 and  \( \vb{B} \)  add to give a total displacement  \( \vb{R} \)  
 having magnitude  \( \mag{R} \)  and direction  \( \theta \) .")
-{: #import-auto-id1165296241785}
+{: #fig21}
 
 </div>
 </div>
@@ -547,11 +547,11 @@ west of north and then 20.0 m in a direction $$ 40.0^\circ $$ south of west. How
 far are you from your starting point, and what is the compass direction of a
 line connecting your starting point to your final position? (If you represent
 the two legs of the walk as vector displacements $$ \vb{A} $$ and $$
-\vb{B} $$, as in [Figure](#import-auto-id1165296430663), then this problem
+\vb{B} $$, as in [Figure](#fig22), then this problem
 finds their sum $$ \vb{R} = \vb{A} + \vb{B} $$.)
 
 ![In the given figure coordinates axes are shown. Vector A with tail at origin is inclined at an angle of twenty degrees with the positive direction of x axis. The magnitude of vector A is twelve meters. Another vector B is starts from the head of vector A and inclined at an angle of forty degrees with the horizontal. The resultant R of the vectors A and B is also drawn from the tail of vector A to the head of vector B. The inclination of vector R is theta with the horizontal.](../resources/Figure_03_02_22a.jpg)
-{: #import-auto-id1165296430663}
+{: #fig22}
 
 </div>
 <div class="solution" markdown="1">
@@ -610,7 +610,7 @@ added; choose only one.)
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Show that the sum of the vectors discussed in [Figure](#fs-id1165296679497) gives the result shown in [Figure](#import-auto-id1165296298190).
+Show that the sum of the vectors discussed in [Figure](#fs-id1165296679497) gives the result shown in [Figure](#fig17).
 
 </div>
 <div class="solution" markdown="1">
@@ -622,7 +622,7 @@ Show that the sum of the vectors discussed in [Figure](#fs-id1165296679497) give
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Find the magnitudes of velocities $$ v_{\text{A}} $$
-and $$ v_{\text{B}} $$ in [Figure](#import-auto-id1165296217666)
+and $$ v_{\text{B}} $$ in [Figure](#fig23)
 
 ![On the graph velocity vector V sub A begins at the origin and is inclined 
 to x axis at an angle of twenty two point five degrees. From the head of 
@@ -631,7 +631,7 @@ vectors, labeled V sub tot, is inclined to vector V sub A at twenty six
 point five degrees and to the vector V sub B at twenty three point zero 
 degrees. V sub tot has a magnitude of 6.72 meters per second.](../resources/Figure_03_02_23a.jpg "The two velocities  \( \vb{v}_A \)  and  \( 
 \vb{v}_B \)  add to give a total  \( \vb{v}_\text{tot} \) .")
-{: #import-auto-id1165296217666}
+{: #fig23}
 
 </div>
 </div>
@@ -639,7 +639,7 @@ degrees. V sub tot has a magnitude of 6.72 meters per second.](../resources/Figu
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Find the components of $$ v_{\text{tot}} $$
-along the **x**- and **y**-axes in [Figure](#import-auto-id1165296217666).
+along the **x**- and **y**-axes in [Figure](#fig23).
 
 </div>
 <div class="solution" markdown="1">
@@ -654,7 +654,7 @@ along the **x**- and **y**-axes in [Figure](#import-auto-id1165296217666).
 <div class="problem" markdown="1">
 Find the components of $$ v_{\text{tot}} $$
 along a set of perpendicular axes rotated $$ 30^\circ $$ counterclockwise
-relative to those in [Figure](#import-auto-id1165296217666).
+relative to those in [Figure](#fig23).
 
 </div>
 </div>
