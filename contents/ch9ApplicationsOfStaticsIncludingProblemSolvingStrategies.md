@@ -138,9 +138,9 @@ Thus,
 
 <div class="equation">
  $$ \begin{array}{lll}
-F_{R}& =& \left(0.667\right)\left(5.00 \kg \right)
+F_{R}&=& \left(0.667\right)\left(5.00 \kg \right)
 \left(9.80\mss \right)\\
- & =& 32.7 \N .
+F_{R}&=& 32.7 \N .
 \end{array} $$
 </div>
 
@@ -161,10 +161,10 @@ Solving for $$ F_{L} $$, we obtain
 
 <div class="equation">
  $$ \begin{array}{lll}
-F_{L}& =& mg-F_{R}\\
-& =& mg-32.7 N\\
-& =& \left(5.00 \kg \right)\left(9.80\mss \right)-32.7 \N \\
-& =& 16.3 \N
+F_{L}&=& mg-F_{R}\\
+F_{L}&=& mg-32.7 N\\
+F_{L}&=& \left(5.00 \kg \right)\left(9.80\mss \right)-32.7 \N \\
+F_{L}&=& 16.3 \N
 \end{array} $$
 </div>
 

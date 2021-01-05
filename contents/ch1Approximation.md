@@ -127,9 +127,9 @@ equation:
 
 <div class="equation">
  $$ \begin{array}{lll}
-\text{volume of bills}& =& \text{area of field}×\text{height of money:}\\
-\text{Height of money}& =& \frac{ \text{volume of bills}}{\text{area of field}},\\
-\text{Height of money}& =& \frac{9\times 10^{8}\text{in.}^{3}}{6\times 10^{6}{\text{in.}}^{2}}=1.33\times 10^{2}\text{in.,}\\
+\text{volume of bills}&=& \text{area of field}×\text{height of money:}\\
+\text{Height of money}&=& \frac{ \text{volume of bills}}{\text{area of field}},\\
+\text{Height of money}&=& \frac{9\times 10^{8}\text{in.}^{3}}{6\times 10^{6}{\text{in.}}^{2}}=1.33\times 10^{2}\text{in.,}\\
 \text{Height of money}& \approx & 1\times 10^{2}\text{in.}=100 \text{in.}
 \end{array} $$
 </div>

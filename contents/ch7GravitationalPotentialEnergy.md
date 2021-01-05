@@ -74,8 +74,8 @@ potential energy is
 
 <div class="equation">
  $$ \begin{array}{lll}
-mgh & =& \left(0.500 \kg \right)\left( 9.80\mss \right)\left(1.00 \m \right)\\
- & =& 4.90 \kg \cdot \mmss= 4.90 \J .
+mgh &=& \left(0.500 \kg \right)\left( 9.80\mss \right)\left(1.00 \m \right)\\
+mgh &=& 4.90 \kg \cdot \mmss= 4.90 \J .
 \end{array} $$
 </div>
 
@@ -217,8 +217,8 @@ Substituting known values,
 
 <div class="equation">
  $$ \begin{array}{lll}
-v& =& \sqrt{2\left(9.80 \mss \right)\left(20.0 \m \right)}\\
- & =&19.6 \ms .
+v&=& \sqrt{2\left(9.80 \mss \right)\left(20.0 \m \right)}\\
+v&=&19.6 \ms .
 \end{array} $$
 </div>
 
@@ -249,8 +249,8 @@ values gives
 
 <div class="equation">
  $$ \begin{array}{lll}
-v& =& \sqrt{2\left(9.80\mss \right)\left(20.0 \m \right)+\left(5.00 \ms \right)^{2}}\\
-& =& 20.4 \ms .
+v&=& \sqrt{2\left(9.80\mss \right)\left(20.0 \m \right)+\left(5.00 \ms \right)^{2}}\\
+v&=& 20.4 \ms .
 \end{array} $$
 </div>
 

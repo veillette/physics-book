@@ -143,9 +143,9 @@ The mass of System 1 is
 These values of $$ F_{\text{net}} $$ and $$ m $$ produce an acceleration of
 
 <div class="equation">
- $$ \begin{array}{}
-a=\frac{ F_{\text{net}}}{m},\\
-a=\frac{126 \N }{84 \kg }=1.5 \mss .
+ $$ \begin{array}{lll}
+a&=&\frac{ F_{\text{net}}}{m},\\
+a&=&\frac{126 \N }{84 \kg }=1.5 \mss .
 \end{array} $$
 </div>
 

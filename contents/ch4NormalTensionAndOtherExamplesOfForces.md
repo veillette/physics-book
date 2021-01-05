@@ -209,14 +209,14 @@ of the weight components:
 
 <div class="equation">
  $$ \begin{array}{lll}
-\cos\left(\theta \right)& =& \frac{ w_{\perp }}{w}\\
-w_{\perp }& =& w\cos\left(\theta \right)=mg \cos\left(\theta \right)
+\cos\left(\theta \right)&=& \frac{ w_{\perp }}{w}\\
+w_{\perp }&=& w\cos\left(\theta \right)=mg \cos\left(\theta \right)
 \end{array} $$
 </div>
 <div class="equation">
 $$ \begin{array}{lll}
-\sin\left(\theta \right)& =& \frac{ w_{\parallel }}{w}\\
-w_{\parallel }& =& w\sin\left(\theta \right)=mg \sin\left(\theta \right)
+\sin\left(\theta \right)&=& \frac{ w_{\parallel }}{w}\\
+w_{\parallel }&=& w\sin\left(\theta \right)=mg \sin\left(\theta \right)
 \end{array} $$
 </div>
 </div>
@@ -349,8 +349,8 @@ since the person is stationary. Thus,
 
 <div class="equation">
  $$ \begin{array}{lll}
-F_{\text{net}x}=0& =& T_{\text{L}x}-T_{\text{R}x}\\
-T_{\text{L}x}& =& T_{\text{R}x}.
+F_{\text{net}x}=0&=& T_{\text{L}x}-T_{\text{R}x}\\
+T_{\text{L}x}&=& T_{\text{R}x}.
 \end{array} $$
 </div>
 Now, observe [Figure](#import-auto-id1561864). You can use trigonometry
@@ -359,10 +359,10 @@ and $$ T_{\text{R}} $$. Notice that:
 
 <div class="equation">
  $$ \begin{array}{lll}
-\cos\left(5.0^\circ \right)& =& \frac{ T_{\text{L}x}}{ T_{\text{L}}}\\
-T_{\text{L}x}& =& T_{\text{L}}\cos\left(5.0^\circ \right)\\
-\cos\left(5.0^\circ \right)& =& \frac{ T_{\text{R}x}}{ T_{\text{R}}}\\
-T_{\text{R}x}& =& T_{\text{R}}\cos\left(5.0^\circ \right).
+\cos\left(5.0^\circ \right)&=& \frac{ T_{\text{L}x}}{ T_{\text{L}}}\\
+T_{\text{L}x}&=& T_{\text{L}}\cos\left(5.0^\circ \right)\\
+\cos\left(5.0^\circ \right)&=& \frac{ T_{\text{R}x}}{ T_{\text{R}}}\\
+T_{\text{R}x}&=& T_{\text{R}}\cos\left(5.0^\circ \right).
 \end{array} $$
 </div>
 Equating $$ T_{\text{L}x} $$ and $$ T_{\text{R}x} $$:
@@ -390,10 +390,10 @@ horizontal direction, $$ T_{\text{L}}=T_{\text{R}}=T $$:
 
 <div class="equation">
  $$ \begin{array}{lll}
-\sin\left(5.0^\circ \right)& =& \frac{ T_{\text{L}y}}{ T_{\text{L}}}\\
-T_{\text{L}y}=T_{\text{L}}\sin\left(5.0^\circ \right)& =& T\sin\left(5.0^\circ \right)\\
-\sin\left(5.0^\circ \right)& =& \frac{ T_{\text{R}y}}{ T_{\text{R}}}\\
-T_{\text{R}y}=T_{\text{R}}\sin\left(5.0^\circ \right)& =& T\sin\left(5.0^\circ \right).
+\sin\left(5.0^\circ \right)&=& \frac{ T_{\text{L}y}}{ T_{\text{L}}}\\
+T_{\text{L}y}=T_{\text{L}}\sin\left(5.0^\circ \right)&=& T\sin\left(5.0^\circ \right)\\
+\sin\left(5.0^\circ \right)&=& \frac{ T_{\text{R}y}}{ T_{\text{R}}}\\
+T_{\text{R}y}=T_{\text{R}}\sin\left(5.0^\circ \right)&=& T\sin\left(5.0^\circ \right).
 \end{array} $$
 </div>
 Now, we can substitute the values for $$ T_{\text{L}y} $$
@@ -402,8 +402,8 @@ direction:
 
 <div class="equation">
  $$ \begin{array}{lll}
-{F}_{\text{net}y}& =& T_{\text{L}y}+T_{\text{R}y}-w=0\\
-{F}_{\text{net}y}& =& T\sin\left(5.0^\circ \right)+T\sin\left(5.0^\circ \right)-w=0\\ 2T\sin\left(5.0^\circ \right)-w& =& 0\\ 2T\sin\left(5.0^\circ \right)& =& w\end{array} $$
+{F}_{\text{net}y}&=& T_{\text{L}y}+T_{\text{R}y}-w=0\\
+{F}_{\text{net}y}&=& T\sin\left(5.0^\circ \right)+T\sin\left(5.0^\circ \right)-w=0\\ 2T\sin\left(5.0^\circ \right)-w&=& 0\\ 2T\sin\left(5.0^\circ \right)&=& w\end{array} $$
 </div>
 and
 

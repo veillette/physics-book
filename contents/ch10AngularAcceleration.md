@@ -84,8 +84,8 @@ Entering known information into the definition of angular acceleration, we get
 
 <div class="equation">
  $$ \begin{array}{lll}
-\alpha & =& \frac{ \Delta \omega }{\Delta t}\\
-& =& \frac{250 \text{rpm}}{5.00 \s }.
+\alpha &=& \frac{ \Delta \omega }{\Delta t}\\
+\alpha &=& \frac{250 \text{rpm}}{5.00 \s }.
 \end{array} $$
 </div>
 Because $$ \Delta \omega $$ is in revolutions per minute (rpm)
@@ -95,17 +95,17 @@ and we want the standard units of $$
 
 <div class="equation">
  $$ \begin{array}{lll}
-\Delta \omega & =& 250\frac{ \text{rev}}{\text{min}}\cdot \frac{ 2\pi \text{rad}}{\text{rev}}\cdot \frac{1 \text{min}}{60 \text{sec}}\\
-& =& 26.2\frac{ \text{rad}}{\s}.
+\Delta \omega &=& 250\frac{ \text{rev}}{\text{min}}\cdot \frac{ 2\pi \text{rad}}{\text{rev}}\cdot \frac{1 \text{min}}{60 \text{sec}}\\
+\Delta \omega &=& 26.2\frac{ \text{rad}}{\s}.
 \end{array} $$
 </div>
 Entering this quantity into the expression for $$ \alpha $$, we get
 
 <div class="equation">
  $$ \begin{array}{lll}
-\alpha & =& \frac{ \Delta \omega }{\Delta t}\\
-& =&\frac{26.2 \rads }{5.00 \s }\\
-& =& 5.24\radss .
+\alpha &=& \frac{ \Delta \omega }{\Delta t}\\
+\alpha &=&\frac{26.2 \rads }{5.00 \s }\\
+\alpha &=& 5.24\radss .
 \end{array} $$
 </div>
 
@@ -127,8 +127,8 @@ $$ \alpha $$ is given to be $$ -87.3 \radss $$. Thus,
 
 <div class="equation">
  $$ \begin{array}{lll}
-\Delta t& =& \frac{-26.2 \rads }{-87.3 \radss }\\
-&=& 0.300 \s  .
+\Delta t&=& \frac{-26.2 \rads }{-87.3 \radss }\\
+\Delta t&=& 0.300 \s  .
 \end{array}$$
 </div>
 
@@ -234,9 +234,9 @@ The linear acceleration is
 
 <div class="equation">
  $$ \begin{array}{lll}
-a_{\text{t}}& =& \frac{ \Delta v}{\Delta t}\\
-& =& \frac{30.0 \ms }{4.20 \s }\\
-& =& 7.14\mss .
+a_\text{t}&=& \frac{ \Delta v}{\Delta t}\\
+a_\text{t}&=& \frac{30.0 \ms }{4.20 \s }\\
+a_\text{t}&=& 7.14\mss .
 \end{array} $$
 </div>
 We also know the radius of the wheels. Entering the values for $$ a_{\text{t}} $$
@@ -244,9 +244,9 @@ and $$ r $$ into $$ \alpha =\frac{ a_{\text{t}}}{r} $$, we get
 
 <div class="equation">
  $$ \begin{array}{lll}
-\alpha & =& \frac{ a_{\text{t}}}{r}\\
-& =& \frac{7.14\mss }{0.320 \m }\\
-& =& 22.3 \radss .
+\alpha &=& \frac{ a_{\text{t}}}{r}\\
+\alpha &=& \frac{7.14\mss }{0.320 \m }\\
+\alpha &=& 22.3 \radss .
 \end{array} $$
 </div>
 

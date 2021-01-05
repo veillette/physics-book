@@ -155,10 +155,10 @@ Solving the previous equation for $$ d $$ and substituting known values yields
 
 <div class="equation">
  $$ \begin{array}{lll}
-d& =& \frac{m v_{i}^{2}}{2f}\\
- & =& \frac{ \left(65.0 \kg \right)\left(6.00 \ms \right)^{2}}
+d&=& \frac{m v_{i}^{2}}{2f}\\
+d&=& \frac{ \left(65.0 \kg \right)\left(6.00 \ms \right)^{2}}
 {\left(2\right)\left(450 \N \right)}\\
- & =& 2.60 \m .
+d&=& 2.60 \m .
 \end{array} $$
 </div>
 
@@ -212,13 +212,13 @@ Solve this for $$ d $$ to obtain
 
 <div class="equation">
  $$ \begin{array}{lll}
-d& =& \frac{ \frac{1}{2} mv_\text{i}^{2} }
+d&=& \frac{ \frac{1}{2} mv_\text{i}^{2} }
 {f+mg \sin{\theta} }\\
- & =& \frac{ \text{(0.5)}\left(65.0 \kg \right)
+d&=& \frac{ \text{(0.5)}\left(65.0 \kg \right)
 \left(6.00 \ms \right)^{2}}
 {450 \N +\left(65.0 \kg \right)
 \left( 9.80 \mss \right){\sin{(5.00^\circ )}}}\\
- & =& 2.31 \m .
+d&=& 2.31 \m .
 \end{array} $$
 </div>
 

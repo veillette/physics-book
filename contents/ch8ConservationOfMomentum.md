@@ -119,8 +119,8 @@ Conservation of Momentum Principle
 </div>
 <div class="equation">
  $$ \begin{array}{lll}
-\vb{p}_{\text{tot}}& =& \text{constant}\\
-\vb{p}_{\text{tot}}& =& {\vb{p}^{\prime} }_{\text{tot}}\left(\text{isolated system}\right)\end{array} $$
+\vb{p}_{\text{tot}}&=& \text{constant}\\
+\vb{p}_{\text{tot}}&=& {\vb{p}^{\prime} }_{\text{tot}}\left(\text{isolated system}\right)\end{array} $$
 </div>
 </div>
 

@@ -218,8 +218,8 @@ The net force is the push force minus friction, or $$ F_{\text{net}} = 120 N -
 
 <div class="equation">
  $$ \begin{array}{lll}
-W_{\text{net}}& =& F_{\text{net}}d=\left(115 \N \right)\left(0.800 \m \right)\\
- & =& 92.0 \N \cdot \m=92.0 \J .
+W_{\text{net}}&=& F_{\text{net}}d=\left(115 \N \right)\left(0.800 \m \right)\\
+W_{\text{net}}&=& 92.0 \N \cdot \m=92.0 \J .
 \end{array} $$
 </div>
 
@@ -242,9 +242,9 @@ The applied force does work.
 
 <div class="equation">
  $$ \begin{array}{lll}
-W_{\text{app}}& =& F_{\text{app}}d\cos\left(0^\circ \right)=F_{\text{app}}d\\
- & =& \left(120 \N \right)\left(0.800 \m \right)\\
- & =& 96.0 \J
+W_{\text{app}}&=& F_{\text{app}}d\cos\left(0^\circ \right)=F_{\text{app}}d\\
+W_{\text{app}}&=& \left(120 \N \right)\left(0.800 \m \right)\\
+W_{\text{app}}&=& 96.0 \J
 \end{array} $$
 </div>
 The friction force and displacement are in opposite directions, so that $$ \theta =180^\circ $$,
@@ -252,17 +252,19 @@ and the work done by friction is
 
 <div class="equation">
  $$ \begin{array}{lll}
-W_{\text{fr}}& =& F_{\text{fr}}d\cos\left(180^\circ\right)=-F_{\text{fr}}d\\
- & =& -\left(5.00 \N \right)\left(0.800 \m \right)\\
- & =& -4.00 \J .
+W_{\text{fr}}&=& F_{\text{fr}}d\cos\left(180^\circ\right)=-F_{\text{fr}}d\\
+W_{\text{fr}}&=& -\left(5.00 \N \right)\left(0.800 \m \right)\\
+W_{\text{fr}}&=& -4.00 \J .
 \end{array} $$
 </div>
 So the amounts of work done by gravity, by the normal force, by the applied force, and by friction are, respectively,
 
 <div class="equation">
  $$ \begin{array}{lll}
-W_{\text{gr}}& =& 0,\\ W_{N}& =& 0,\\ W_{\text{app}}& =& 96.0 \J  ,\\
-W_{\text{fr}}& =& -4.00 \J .
+W_{\text{gr}}&=& 0,\\ 
+W_{N}&=& 0,\\ 
+W_{\text{app}}&=& 96.0 \J  ,\\
+W_{\text{fr}}&=& -4.00 \J .
 \end{array} $$
 </div>
 The total work done as the sum of the work done by each force is then seen to be
@@ -314,8 +316,8 @@ Solving for the final speed as requested and entering known values gives
 
 <div class="equation">
  $$ \begin{array}{lll}
-v& =& \sqrt{\frac{2\text{(95.75 J)}}{m}}=\sqrt{\frac{191.5 \kg \cdot \mmss }{30.0 \kg }}\\
- & =& 2.53 \ms .
+v&=& \sqrt{\frac{2\text{(95.75 J)}}{m}}=\sqrt{\frac{191.5 \kg \cdot \mmss }{30.0 \kg }}\\
+v&=& 2.53 \ms .
 \end{array} $$
 </div>
 

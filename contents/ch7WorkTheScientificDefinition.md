@@ -133,8 +133,8 @@ Substituting the known values gives
 
 <div class="equation">
  $$ \begin{array}{lll}
-W& =& \left(75.0 \N \right)\left(25.0 \m \right)\cos\left(35.0^\circ\right)\\
- & =& 1536 \J =1.54\times 10^{3} \J .
+W&=& \left(75.0 \N \right)\left(25.0 \m \right)\cos\left(35.0^\circ\right)\\
+W&=& 1536 \J =1.54\times 10^{3} \J .
 \end{array} $$
 </div>
 Converting the work in joules to kilocalories yields

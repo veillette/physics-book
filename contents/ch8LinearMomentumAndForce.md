@@ -204,9 +204,9 @@ final velocities into the equation above.
 
 <div class="equation">
  $$ \begin{array}{lll}
-\Delta p & =& m \left( v_{f} - v_{i} \right)\\
- & =& \left(0.057 \kg \right)\left(58  \ms -0 \ms \right)\\
- & =& 3.306 \kg · \ms \approx 3.3 \kg · \ms
+\Delta p &=& m \left( v_{f} - v_{i} \right)\\
+\Delta p &=& \left(0.057 \kg \right)\left(58  \ms -0 \ms \right)\\
+\Delta p &=& 3.306 \kg · \ms \approx 3.3 \kg · \ms
 \end{array} $$
 </div>
 Now the magnitude of the net external force can determined by
@@ -214,8 +214,8 @@ using $$ F_{\text{net}}=\frac{ \Delta p}{\Delta t} $$:
 
 <div class="equation">
  $$ \begin{array}{lll}
-F_{\text{net}}& =& \frac{ \Delta p}{\Delta t}=\frac{3.306 \kg \cdot  \ms }{5.0\times 10^{-3}s}\\
-& =& 661 \N \approx 660  \text{N,}
+F_{\text{net}}&=& \frac{ \Delta p}{\Delta t}=\frac{3.306 \kg \cdot  \ms }{5.0\times 10^{-3}s}\\
+F_{\text{net}}&=& 661 \N \approx 660  \text{N,}
 \end{array} $$
 </div>
 where we have retained only two significant figures in the final step.

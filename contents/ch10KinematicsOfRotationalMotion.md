@@ -174,8 +174,8 @@ t+\frac{1}{2} \alpha t^{2} $$.
 
 <div class="equation">
  $$ \begin{array}{lll}
-\theta & =& \omega_{0} t+\frac{1}{2}\alpha t^{2}\\
- & =& 0+\left(0.500\right)\left(110 \radss \right){\left(2.00 \s \right)}^{2}=220 \text{rad}.
+\theta &=& \omega_{0} t+\frac{1}{2}\alpha t^{2}\\
+\theta &=& 0+\left(0.500\right)\left(110 \radss \right){\left(2.00 \s \right)}^{2}=220 \text{rad}.
 \end{array} $$
 </div>
 Converting radians to revolutions gives
@@ -305,9 +305,9 @@ Taking the square root of this equation and entering the known values gives
 
 <div class="equation">
  $$ \begin{array}{lll}
-\omega & =& {\left[ 0+ 2\left(0.250 \radss \right)
+\omega &=& {\left[ 0+ 2\left(0.250 \radss \right)
 \left(1257 \text{rad}\right)\right]}^{1/2} \\
- & =& 25.1 \text{rad/s.}
+\omega &=& 25.1 \text{rad/s.}
 \end{array} $$
 </div>
 We can find the linear velocity of the train, $$ v $$,

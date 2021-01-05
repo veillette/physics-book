@@ -122,11 +122,9 @@ Substituting the given values into the equation for acceleration yields
 
 <div class="equation">
  $$ \begin{array}{lll}
-a& =& \frac{ v_{\text{e}}}{m}\frac{ \Delta m}{\Delta t}-g\\
- & =
-&\frac{2.40\times 10^{3} \ms }{2.80\times 10^{6}\kg }\left(1.40\times 10^{4}\text{kg/s}\right)-9.80\mss \\
- & =
-&2.20\mss .
+a&=& \frac{ v_{\text{e}}}{m}\frac{ \Delta m}{\Delta t}-g\\
+a&=&\frac{2.40\times 10^{3} \ms }{2.80\times 10^{6}\kg }\left(1.40\times 10^{4}\text{kg/s}\right)-9.80\mss \\
+a&=&2.20\mss .
 \end{array} $$
 </div>
 

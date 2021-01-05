@@ -123,10 +123,11 @@ To solve for $$ T_{2} $$, we cross-multiply and take the square root, yielding
 Substituting known values yields
 
 <div class="equation">
- $$ \begin{array}{lll} T_{2}& =& 27.3 \text{d} \times
+ $$ \begin{array}{lll} 
+T_{2}&=& 27.3 \text{d} \times
 \frac{24.0 \text{h}}{\text{d}}
 \times {\left(\frac{7880 \text{km}}{3.84\times 10^{5}\text{km}}\right)}^{3/2}\\
- & =& 1.93 \text{h} .
+T_{2}&=& 1.93 \text{h} .
 \end{array} $$
 </div>
 

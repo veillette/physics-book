@@ -50,9 +50,7 @@ that the vectors $$ \vb{A}_{x} +\vb{A}_{y} =\vb{A} $$. However, it is
 **not** true that the sum of the magnitudes of the vectors is also equal. That is,
 
 <div class="equation">
- $$ \begin{array}{}
-3 \m + 4 \m \ne 5 \m \\ 
-\end{array} $$
+ $$ 3 \m + 4 \m \ne 5 \m $$
 </div>
 
 Thus,
@@ -251,32 +249,32 @@ A_{x}=A\cos{\theta} $$, which gives
 
 <div class="equation">
  $$ \begin{array}{lll}
-A_{x}& =& A\cos{\theta_{A}}=\left(53.0 \m \right) \left(\cos{20.0^\circ}\right)\\
- & =& \left(53.0 \m \right)\left(0.940 \right)=49.8 \m
+A_{x}&=& A\cos{\theta_{A}}=\left(53.0 \m \right) \left(\cos{20.0^\circ}\right)\\
+A_{x}&=& \left(53.0 \m \right)\left(0.940 \right)=49.8 \m
 \end{array} $$
 </div>
 and
 
 <div class="equation">
  $$ \begin{array}{lll}
-B_{x}& =& B\cos{\theta_{B}}=\left(34.0 \m \right) \left(\cos{63.0^\circ}\right)\\
-& =& \left(34.0 \m \right)\left(0.454\right)=15.4 \m .
+B_{x}&=& B\cos{\theta_{B}}=\left(34.0 \m \right) \left(\cos{63.0^\circ}\right)\\
+B_{x}&=& \left(34.0 \m \right)\left(0.454\right)=15.4 \m .
 \end{array} $$
 </div>
 Similarly, the *y*-components are found using $$ A_{y}=A\sin{\theta_{A}} $$:
 
 <div class="equation">
  $$ \begin{array}{lll}
-A_{y}& =& A\sin{\theta_{A}}=\left(53.0 \m \right) \left(\sin{20.0^\circ }\right)\\
-& =& \left(53.0 \m \right)\left(0.342\right)=18.1 \m
+A_{y}&=& A\sin{\theta_{A}}=\left(53.0 \m \right) \left(\sin{20.0^\circ }\right)\\
+A_{y}&=& \left(53.0 \m \right)\left(0.342\right)=18.1 \m
 \end{array} $$
 </div>
 and
 
 <div class="equation">
  $$ \begin{array}{lll}
-B_{y}& =& B\sin{\theta_{B}}=\left(34.0 \m \right)\left(\sin{ 63.0^\circ}\right)\\
-& = &\left(34.0 \m \right)\left(0.891\right)=30.3 \m .
+B_{y}&=& B\sin{\theta_{B}}=\left(34.0 \m \right)\left(\sin{ 63.0^\circ}\right)\\
+B_{y}&=&\left(34.0 \m \right)\left(0.891\right)=30.3 \m .
 \end{array} $$
 </div>
 The **x**- and **y**-components of the resultant are thus
@@ -372,13 +370,18 @@ Vector Addition
   horizontal and vertical components of each vector using the equations
 
   <div class="equation">
- $$ \begin{array}{lll} A_{x}& =& A\cos{\theta} \\  B_{x}& =& B\cos{\theta} \end{array} $$
+ $$ \begin{array}{lll} 
+ A_{x}&=& A\cos{\theta} \\ 
+ B_{x}&=& B\cos{\theta} 
+ \end{array} $$
   </div>
 
   and
 
   <div class="equation">
- $$ \begin{array}{lll} A_{y}& =& A\sin{\theta} \\  B_{y}& =& B\sin{\theta} .
+ $$ \begin{array}{lll} 
+A_{y}&=& A\sin{\theta} \\ 
+B_{y}&=& B\sin{\theta} .
 \end{array} $$
   </div>
 
