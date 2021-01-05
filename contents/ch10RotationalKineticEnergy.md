@@ -580,7 +580,7 @@ The Earth has more rotational kinetic energy now than did the cloud of gas and d
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-This problem considers energy and work aspects of [Figure](../contents/ch10DynamicsOfRotationalMotion.md#fs-id1468671)—use data from that example as needed.
+This problem considers energy and work aspects of [Figure](../contents/ch10DynamicsOfRotationalMotion.md#fs-id71)—use data from that example as needed.
 (a) Calculate the rotational kinetic energy in the merry-go-round plus child when they have an angular velocity of 20.0 rpm.
 (b) Using energy considerations, find the number of revolutions the father will have to push to achieve this angular velocity starting from rest.
 (c) Again, using energy considerations, calculate the force the father must exert to stop the merry-go-round in two revolutions
@@ -658,7 +658,7 @@ than the tip of the shoe (necessary for a decent kick distance).
 <div class="problem" markdown="1">
 A bus contains a 1500 kg flywheel (a disk that has a 0.600 m radius) and has a total mass of 10 000 kg.
 (a) Calculate the angular velocity the flywheel must have to contain enough energy to take the bus from rest to a speed of 20.0 m/s, assuming 90.0% of the rotational kinetic energy can be transformed into translational energy.
-(b) How high a hill can the bus climb with this stored energy and still have a speed of 3.00 m/s at the top of the hill? Explicitly show how you follow the steps in the [Problem-Solving Strategy for Rotational Energy](#fs-id1986333).
+(b) How high a hill can the bus climb with this stored energy and still have a speed of 3.00 m/s at the top of the hill? Explicitly show how you follow the steps in the [Problem-Solving Strategy for Rotational Energy](#fs-id33).
 
 </div>
 <div class="solution" markdown="1">

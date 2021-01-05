@@ -381,7 +381,7 @@ Explain one of the reasons why pregnant women often suffer from back strain late
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Verify that the force in the elbow joint in [Figure](#fs-id1169737940047) is 407 N, as stated in the text.
+Verify that the force in the elbow joint in [Figure](#fs-id47) is 407 N, as stated in the text.
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
@@ -459,7 +459,7 @@ the center of mass as do the weight and muscle force.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-We analyzed the biceps muscle example with the angle between forearm and upper arm set at $$ 90^\circ $$. Using the same numbers as in [Figure](#fs-id1169737940047), find the force
+We analyzed the biceps muscle example with the angle between forearm and upper arm set at $$ 90^\circ $$. Using the same numbers as in [Figure](#fs-id47), find the force
 exerted by the biceps muscle when the angle is $$ 120^\circ $$
 and the forearm is in a downward position.
 
@@ -536,7 +536,7 @@ is attached relatively far from the joint, enabling large forces to be exerted b
 
 **Integrated Concepts**
 
-Suppose we replace the 4.0-kg book in [Figure](#fs-id1169737911368) of the
+Suppose we replace the 4.0-kg book in [Figure](#fs-id68) of the
 biceps muscle with an elastic exercise rope that obeys Hooke’s Law. Assume its
 force constant $$ k=600 \text{N/m} $$.
 (a) How much is the rope stretched (past

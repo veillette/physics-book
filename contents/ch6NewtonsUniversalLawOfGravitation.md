@@ -550,7 +550,7 @@ the core of the system.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Solve part (b) of [Figure](#fs-id3174863) using $$ \ac ={v}^{2}/r $$.
+Solve part (b) of [Figure](#fs-id63) using $$ \ac ={v}^{2}/r $$.
 
 </div>
 </div>

@@ -271,12 +271,12 @@ The negative root is chosen to indicate that the rock is still heading down. Thu
 
 Note that *this is exactly the same velocity the rock had at this position when
 it was thrown straight upward with the same initial speed*. (
-See [Figure](#fs-id4067058) and [Figure](#fig5)(a).) This
+See [Figure](#fs-id58) and [Figure](#fig5)(a).) This
 is not a coincidental result. Because we only consider the acceleration due to
 gravity in this problem, the *speed* of a falling object depends only on its
 initial speed and its vertical position relative to the starting point. For
 example, if the velocity of the rock is calculated at a height of 8.10 m above
-the starting point (using the method from [Figure](#fs-id4067058)) when the
+the starting point (using the method from [Figure](#fs-id58)) when the
 initial velocity is 13.0 m/s straight up, a result of $$ \pm 3.20 \ms $$
 is obtained. Here both signs are meaningful; the positive value occurs when the
 rock is at 8.10 m and heading up, and the negative value occurs when the rock is
@@ -286,7 +286,7 @@ direction.
 ![Two figures are shown. At left, a man standing on the edge of a cliff throws a rock straight up with an initial speed of thirteen meters per second. At right, the man throws the rock straight down with a speed of thirteen meters per second. In both figures, a line indicates the rock&#x2019;s trajectory. When the rock is thrown straight up, it has a speed of minus sixteen point four meters per second at minus five point one zero meters below the point where the man released the rock. When the rock is thrown straight down, the velocity is the same at this position.](../resources/Figure_02_06_00b.jpg "(a) A person throws a rock straight up, as explored in [link]. The arrows are velocity vectors at 0, 1.00, 2.00, and 3.00 s. (b) A person throws a rock straight down from a cliff with the same initial speed as before, as in [link]. Note that at the same distance below the point of release, the rock has the same velocity in both cases. ")
 {: #fig5}
 
-Another way to look at it is this: In [Figure](#fs-id4067058), the rock is
+Another way to look at it is this: In [Figure](#fs-id58), the rock is
 thrown up with an initial velocity of $$ 13.0 \ms $$. It rises and then
 falls back down. When its position is $$ y=0 $$ on its way back down, its
 velocity is $$ -13.0 \ms $$. That is, it has the same speed on its way

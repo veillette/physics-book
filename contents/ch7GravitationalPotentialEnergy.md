@@ -53,7 +53,7 @@ of work equal to $$ mgh $$ on it, thereby increasing its kinetic energy by that
 same amount (by the work-energy theorem). We will find it more useful to
 consider just the conversion of $$ \PE_{\text{g}} $$ to $$ \KE $$
 without explicitly considering the intermediate step of work. (
-See [Figure](#fs-id2895434).) This shortcut makes it is easier to solve
+See [Figure](#fs-id34).) This shortcut makes it is easier to solve
 problems using energy (if possible) rather than explicitly using forces.
 
 ![(a) The weight attached to the cuckoo clock is raised by a height h shown by a displacement vector d pointing upward. The weight is attached to a winding chain labeled with a force F vector pointing downward. Vector d is also shown in the same direction as force F. E in is equal to W and W is equal to m g h. (b) The weight attached to the cuckoo clock moves downward. E out is equal to m g h.](../resources/Figure_08_03_01a.jpg "(a) The work done to lift the weight is stored in the mass-Earth system as gravitational potential energy. (b) As the weight moves downward, this gravitational potential energy is transferred to the cuckoo clock.")
@@ -163,7 +163,7 @@ force acts. A bending motion of 0.5 m this way yields a force 100 times smaller
 than in the example. A kangaroo\'s hopping shows this method in action. The
 kangaroo is the only large animal to use hopping for locomotion, but the shock
 in hopping is cushioned by the bending of its hind legs in each jump.(
-See [Figure](#fs-id1503032).)
+See [Figure](#fs-id32).)
 
 </div>
 
@@ -308,7 +308,7 @@ One can study the conversion of gravitational potential energy into kinetic ener
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-In [Figure](#fs-id2895434), we calculated the final speed of a roller coaster that descended 20 m in height and had an initial speed of 5 m/s downhill. Suppose the roller coaster had had an initial speed of 5 m/s *uphill* instead, and it coasted uphill, stopped, and then rolled back down to a final point 20 m below the start. We would find in that case that its final speed is the same as its initial speed. Explain in terms of conservation of energy.
+In [Figure](#fs-id34), we calculated the final speed of a roller coaster that descended 20 m in height and had an initial speed of 5 m/s downhill. Suppose the roller coaster had had an initial speed of 5 m/s *uphill* instead, and it coasted uphill, stopped, and then rolled back down to a final point 20 m below the start. We would find in that case that its final speed is the same as its initial speed. Explain in terms of conservation of energy.
 
 </div>
 </div>
@@ -371,7 +371,7 @@ Suppose a 350-g kookaburra (a large kingfisher bird) picks up a 75-g snake and r
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-In [Figure](#fs-id2895434), we found that the speed of a roller coaster that had descended 20.0 m was only slightly greater when it had an initial speed of 5.00 m/s
+In [Figure](#fs-id34), we found that the speed of a roller coaster that had descended 20.0 m was only slightly greater when it had an initial speed of 5.00 m/s
 than when it started from rest. This implies that $$ \Delta \PE \gg \KE_{\text{i}} $$. Confirm this statement by taking the ratio of $$ \Delta \PE $$
 to $$ \KE_{\text{i}} $$. (Note that mass cancels.)
 

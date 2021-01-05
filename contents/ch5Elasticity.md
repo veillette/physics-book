@@ -843,7 +843,7 @@ to the horizontal.
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
 To consider the effect of wires hung on poles, we take data
-from [Figure](../contents/ch5FurtherApplicationsOfNewtonsLaws.md#fs-id1348788), in which tensions in wires
+from [Figure](../contents/ch5FurtherApplicationsOfNewtonsLaws.md#fs-id88), in which tensions in wires
 supporting a traffic light were calculated. The left wire made an angle $$ 30.0^\circ $$
 below the horizontal with the top of its pole and carried a tension of 108 N.
 The 12.0 m tall hollow aluminum pole is equivalent in stiffness to a 4.50 cm
@@ -887,7 +887,7 @@ the like?
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
 This problem returns to the tightrope walker studied 
-in [Figure](../contents/ch5NormalTensionandOtherExamplesOfForces.md#fs-id986136), who created a tension of $$ 3.94 \times 10^{3}N $$
+in [Figure](../contents/ch5NormalTensionandOtherExamplesOfForces.md#fs-id36), who created a tension of $$ 3.94 \times 10^{3}N $$
 in a wire making an angle $$ 5.0^\circ $$ below the horizontal with each
 supporting pole. Calculate how much this tension stretches the steel wire if it
 was originally 15 m long and 0.50 cm in diameter.

@@ -73,7 +73,7 @@ If a person needs more energy than they consume, such as when doing vigorous
 work, the body must draw upon the chemical energy stored in fat. So exercise can
 be helpful in losing fat. However, the amount of exercise needed to produce a
 loss in fat, or to burn off extra calories consumed that day, can be large,
-as [Figure](#fs-id1636481) illustrates.
+as [Figure](#fs-id81) illustrates.
 
 <div class="example" markdown="1">
 <div class="title">
