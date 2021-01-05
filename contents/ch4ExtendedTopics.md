@@ -22,7 +22,7 @@ explained by the existence of a **force field** rather than by “physical conta
 
 The *four basic forces* are the gravitational force, the electromagnetic force,
 the weak nuclear force, and the strong nuclear force. Their properties are
-summarized in [Figure](#import-auto-id1588108). Since the weak and strong
+summarized in [Table 1](#table1). Since the weak and strong
 nuclear forces act over an extremely short range, the size of a nucleus or less,
 we do not experience them directly, although they are crucial to the very
 structure of matter. These forces determine which nuclei are stable and which
@@ -44,7 +44,7 @@ The nuclear forces are vital to the substructure of matter, but they are not dir
 experienced on the macroscopic scale.
 </div>
 
-##### Table: Properties of the Four Basic Forces
+##### Table 1: Properties of the Four Basic Forces
 
 | Force           |	Approximate Relative Strengths	| Range|	Attraction/Repulsion	| Carrier Particle |
 |----|----|----|----|----|
@@ -53,7 +53,7 @@ experienced on the macroscopic scale.
 | Weak nuclear    | $$10^{-13}$$  | $$<10^{-18}$$m  | attractive and repulsive	| W+, W–, Z0 |
 | Strong nuclear  | $$1$$         | $$<10^{-15}$$m 	| attractive and repulsive	| gluons |
 
-{: #import-auto-id1588108}
+{: #table1}
 
 The gravitational force is surprisingly weak—it is only because gravity is
 always attractive that we notice it at all. Our weight is the gravitational
@@ -158,7 +158,7 @@ one another. (See [Figure](#import-auto-id2011579).)
 
 This idea of particle exchange deepens rather than contradicts field concepts.
 It is more satisfying philosophically to think of something physical actually
-moving between objects acting at a distance. [Figure](#import-auto-id1588108)
+moving between objects acting at a distance. [Table 1](#table1)
 lists the exchange or **carrier particles**, both observed and proposed, that carry the four forces.
 But the real fruit of the particle-exchange proposal is that searches for
 Yukawa’s proposed particle found it *and* a number of others that were
@@ -231,7 +231,7 @@ physics that will be covered in much greater depth in later chapters.
   for use in many applications are all manifestations of the *four basic forces*
   in nature.
 * The properties of these forces are summarized
-  in [Figure](#import-auto-id1588108).
+  in [Table 1](#table1).
 * Everything we experience directly without sensitive
   instruments is due to either electromagnetic forces or gravitational forces.
   The nuclear forces are responsible for the submicroscopic structure of matter,

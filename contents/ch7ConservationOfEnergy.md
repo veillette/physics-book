@@ -83,7 +83,7 @@ energy from the random motions is called **thermal energy**, because it is relat
 These and all other forms of energy can be converted into one another and can do
 work.
 
-[Figure](#import-auto-id2866785) gives the amount of energy stored, used, or
+[Table 1](#table1) gives the amount of energy stored, used, or
 released from various objects and in various phenomena. The range of energies
 and the variety of types and situations is impressive.
 
@@ -158,7 +158,7 @@ solar energy into electrical energy and then into mechanical energy.
 ![A solar-powered aircraft flying over the sea. Solar cells are on the upper surface of the wings, where they are exposed to sunlight.](../resources/Figure_08_06_01a.jpg "Solar energy is converted into electrical energy by solar cells, which is used to run a motor in this solar-power aircraft. (credit: NASA)")
 {: #import-auto-id1626980}
 
-##### Table:Energy of Various Objects and Phenomena
+##### Table 1:Energy of Various Objects and Phenomena
 
 |Object/phenomenon |	Energy in joules|
 | ---- | --- |
@@ -185,7 +185,7 @@ solar energy into electrical energy and then into mechanical energy.
 |Mosquito ($$10^{-2}$$g at 0.5 m/s) | $$ 1.3×10^{-6} $$ |
 |Single electron in a TV tube beam  | $$ 4.0×10^{-15} $$ |
 |Energy to break one DNA strand  | $$ 10^{-19} $$ |
-{: #import-auto-id2866785}
+{: #table1}
 
 ### Efficiency
 
@@ -197,7 +197,7 @@ conversion process is defined as
  $$ \text{Efficiency}\left(\text{Eff}\right)=\frac{ \text{useful energy or work output}}{\text{total energy input}}=\frac{ W_{\text{out}}}{ E_{\text{in}}}. $$
 </div>
 
-[Figure](#import-auto-id1330125) lists some efficiencies of mechanical devices
+[Table 2](#table2) lists some efficiencies of mechanical devices
 and human activities. In a coal-fired power plant, for example, about 40% of the
 chemical energy in the coal becomes useful electrical energy. The other 60%
 transforms into other (perhaps less useful) energy forms, such as thermal
@@ -222,7 +222,7 @@ cooling towers.
 |Compact fluorescent light|20|
 |Gas heater (residential)|90|
 |Solar cell|10|
-{: #import-auto-id1330125}
+{: #table2}
 
 <div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
@@ -302,7 +302,7 @@ List the energy conversions that occur when riding a bicycle.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Using values from [Figure](#import-auto-id2866785), how many DNA molecules could be broken by the energy carried by a single electron in the beam of an old-fashioned TV tube? (These electrons were not dangerous in themselves, but they did create dangerous x rays. Later model tube TVs had shielding that absorbed x rays before they escaped and exposed viewers.)
+Using values from [Table 1](#table1), how many DNA molecules could be broken by the energy carried by a single electron in the beam of an old-fashioned TV tube? (These electrons were not dangerous in themselves, but they did create dangerous x rays. Later model tube TVs had shielding that absorbed x rays before they escaped and exposed viewers.)
 
 </div>
 <div class="solution" markdown="1">
@@ -325,14 +325,14 @@ $$ v=\sqrt{2g h +{ v_{0}}^{2}}=\sqrt {2\left(9.80
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-If the energy in fusion bombs were used to supply the energy needs of the world, how many of the 9-megaton variety would be needed for a year’s supply of energy (using data from [Figure](#import-auto-id2866785))? This is not as far-fetched as it may sound—there are thousands of nuclear bombs, and their energy can be trapped in underground explosions and converted to electricity, as natural geothermal energy is.
+If the energy in fusion bombs were used to supply the energy needs of the world, how many of the 9-megaton variety would be needed for a year’s supply of energy (using data from [Table 1](#table1))? This is not as far-fetched as it may sound—there are thousands of nuclear bombs, and their energy can be trapped in underground explosions and converted to electricity, as natural geothermal energy is.
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) Use of hydrogen fusion to supply energy is a dream that may be realized in the next century. Fusion would be a relatively clean and almost limitless supply of energy, as can be seen from [Figure](#import-auto-id2866785). To illustrate this, calculate how many years the present energy needs of the world could be supplied by one millionth of the oceans’ hydrogen fusion energy.
+(a) Use of hydrogen fusion to supply energy is a dream that may be realized in the next century. Fusion would be a relatively clean and almost limitless supply of energy, as can be seen from [Table 1](#table1). To illustrate this, calculate how many years the present energy needs of the world could be supplied by one millionth of the oceans’ hydrogen fusion energy.
 (b) How does this time compare with historically significant events, such as the duration of stable economic systems?
 
 </div>

@@ -27,7 +27,7 @@ body fat.
 The *rate* at which the body uses food energy to sustain life and to do
 different activities is called the **metabolic rate**. The total energy conversion rate of a person *at rest*
 is called the **basal metabolic rate** (BMR) and is divided among various systems in the body,
-as shown in [Figure](#import-auto-id2209139). The largest fraction goes to the
+as shown in [Table 1](#table1). The largest fraction goes to the
 liver and spleen, with the brain coming next. Of course, during vigorous
 exercise, the energy consumption of the skeletal muscles and heart increase
 markedly. About 75% of the calories burned in a day go into these basic
@@ -35,7 +35,7 @@ functions. The BMR is a function of age, gender, total body weight, and amount
 of muscle mass (which burns more calories than body fat). Athletes have a
 greater BMR due to this last factor.
 
-##### Table: Basal Metabolic Rates (BMR) for a 76-kg person.
+##### Table 1: Basal Metabolic Rates (BMR) for a 76-kg person.
 
 |Organ|Power consumed at rest (W)|Oxygen consumption (mL/min)|Percent of BMR|
 |--- |--- |--- |--- |
@@ -46,7 +46,7 @@ greater BMR due to this last factor.
 |Heart|6|17|7|
 |Other|16|48|19|
 |Totals|85 W|250 mL/min|100%|
-{: #import-auto-id2209139}
+{: #table1}
 
 Energy consumption is directly proportional to oxygen consumption because the
 digestive process is basically one of oxidizing food. We can measure the energy
@@ -106,7 +106,7 @@ assuming the energy content of fat to be 39 kJ/g.
 ![A person is measuring the amount of oxygen in blood and metabolic rate using a pulse oxymeter. The pulse oxymeter is strapped to the person&#x2019;s wrist, and the index finger is inside the clip.](../resources/Figure_08_08_02a.jpg "A pulse oxymeter is an apparatus that measures the amount of oxygen in blood. Oxymeters can be used to determine a person&#x2019;s metabolic rate, which is the rate at which food energy is converted to another form. Such measurements can indicate the level of athletic conditioning as well as certain medical problems. (credit: UusiAjaja, Wikimedia Commons)")
 {: #import-auto-id2767879}
 
-##### Table: Energy and Oxygen Consumption Rates
+##### Table 2: Energy and Oxygen Consumption Rates
 
 |Activity|Energy consumption in watts|Oxygen consumption in liters O2/min|
 |--- |--- |--- |
@@ -126,7 +126,7 @@ assuming the energy content of fat to be 39 kJ/g.
 |Playing basketball|800|2.28|
 |Cycling, professional racer|1855|5.30|
 |Sprinting|2415|6.90|
-{: #import-auto-id1921441}
+{: #table2}
 
 All bodily functions, from thinking to lifting weights, require energy. (
 See [Figure](#import-auto-id1770894).) The many small muscle actions
@@ -246,7 +246,7 @@ an efficiency of 20%?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Energy that is not utilized for work or heat transfer is converted to the chemical energy of body fat containing about 39 kJ/g. How many grams of fat will you gain if you eat 10 000 kJ (about 2500 kcal) one day and do nothing but sit relaxed for 16.0 h and sleep for the other 8.00 h? Use data from [Figure](#import-auto-id1921441) for the energy consumption rates of these activities.
+Energy that is not utilized for work or heat transfer is converted to the chemical energy of body fat containing about 39 kJ/g. How many grams of fat will you gain if you eat 10 000 kJ (about 2500 kcal) one day and do nothing but sit relaxed for 16.0 h and sleep for the other 8.00 h? Use data from [Table 2](#table2) for the energy consumption rates of these activities.
 
 </div>
 <div class="solution" markdown="1">
@@ -257,14 +257,14 @@ Energy that is not utilized for work or heat transfer is converted to the chemic
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Using data from [Figure](#import-auto-id1921441), calculate the daily energy needs of a person who sleeps for 7.00 h, walks for 2.00 h, attends classes for 4.00 h, cycles for 2.00 h, sits relaxed for 3.00 h, and studies for 6.00 h. (Studying consumes energy at the same rate as sitting in class.)
+Using data from [Table 2](#table2), calculate the daily energy needs of a person who sleeps for 7.00 h, walks for 2.00 h, attends classes for 4.00 h, cycles for 2.00 h, sits relaxed for 3.00 h, and studies for 6.00 h. (Studying consumes energy at the same rate as sitting in class.)
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What is the efficiency of a subject on a treadmill who puts out work at the rate of 100 W while consuming oxygen at the rate of 2.00 L/min? (Hint: See [Figure](#import-auto-id1921441).)
+What is the efficiency of a subject on a treadmill who puts out work at the rate of 100 W while consuming oxygen at the rate of 2.00 L/min? (Hint: See [Table 2](#table2).)
 
 </div>
 <div class="solution" markdown="1">
