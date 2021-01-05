@@ -403,8 +403,8 @@ friction, etc.) is the same regardless of the coordinate system chosen.
 </div>
 </div>
 
-<div class="exercise" id="eip-384" data-element-type="problems-exercises">
-<div class="problem" id="eip-id2465154" markdown="1">
+<div class="exercise"  data-element-type="problems-exercises">
+<div class="problem"  markdown="1">
 
 **Professional Application**
 
@@ -480,8 +480,8 @@ are accurate to three digits only.
 </div>
 </div>
 
-<div class="exercise" id="eip-558" data-element-type="problems-exercises">
-<div class="problem" id="eip-id2217805" markdown="1">
+<div class="exercise"  data-element-type="problems-exercises">
+<div class="problem"  markdown="1">
 
 **Professional Application**
 
@@ -500,7 +500,7 @@ The mass of the rocket was 2000 kg and  its speed upon impact was 9000 km/h.
 How does the plume produced alter these  results?
 
 </div>
-<div class="solution" id="eip-id2466104" markdown="1">
+<div class="solution"  markdown="1">
 (a) $$ 1.02 \times 10^{-6} \ms $$
 
 (b) $$ 5.63 \times 10^{20} \J $$ (almost all KE lost)
@@ -514,8 +514,8 @@ transferred to the kinetic energy of the plume particles.
 </div>
 </div>
 
-<div class="exercise" id="eip-24" data-element-type="problems-exercises">
-<div class="problem" id="eip-989" markdown="1">
+<div class="exercise"  data-element-type="problems-exercises">
+<div class="problem"  markdown="1">
 
 **Professional Application**
 
@@ -527,33 +527,33 @@ is their velocity just after impact if they cling together?
 </div>
 </div>
 
-<div class="exercise" id="eip-826" data-element-type="problems-exercises">
-<div class="problem" id="eip-605" markdown="1">
+<div class="exercise"  data-element-type="problems-exercises">
+<div class="problem"  markdown="1">
 What is the speed of a garbage truck that is $$ 1.20 \times 10^{4}\kg $$ and is initially moving at 25.0 m/s just after it hits and adheres to a trash
 can that is 80.0 kg and is initially at rest?
 
 </div>
-<div class="solution" id="eip-id1729789" markdown="1">
+<div class="solution"  markdown="1">
 24.8 m/s
 
 </div>
 </div>
 
-<div class="exercise" id="eip-414" data-element-type="problems-exercises">
-<div class="problem" id="eip-486" markdown="1">
+<div class="exercise"  data-element-type="problems-exercises">
+<div class="problem"  markdown="1">
 During a circus act, an elderly performer thrills the crowd by catching a cannon ball shot at him. The cannon ball has a mass of 10.0 kg and the horizontal component of its velocity is 8.00 m/s when the 65.0-kg performer catches it. If the performer is on nearly frictionless roller skates, what is his recoil velocity?
 
 </div>
 </div>
 
-<div class="exercise" id="eip-765" data-element-type="problems-exercises">
-<div class="problem" id="eip-591" markdown="1">
+<div class="exercise"  data-element-type="problems-exercises">
+<div class="problem"  markdown="1">
 (a) During an ice skating performance, an initially motionless 80.0-kg clown throws a fake barbell away. The clown’s ice skates allow her to recoil frictionlessly. If the clown recoils with a velocity of 0.500 m/s and the barbell is thrown with a velocity of 10.0 m/s, what is the mass of the barbell?
 (b) How much kinetic energy is gained by this maneuver?
 (c) Where does the kinetic energy come from?
 
 </div>
-<div class="solution" id="eip-97" markdown="1">
+<div class="solution"  markdown="1">
 (a) 4.00 kg
 
 (b) 210 J

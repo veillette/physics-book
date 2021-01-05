@@ -459,7 +459,7 @@ Find the following for path C in [Figure 11](#fig11): (a) the total distance tra
 {: #fig11}
 
 </div>
-<div class="solution" id="eip-id2052721" markdown="1">
+<div class="solution"  markdown="1">
 (a) 1.56 km
 
 (b) 120 m east
@@ -482,14 +482,14 @@ Find the north and east components of the displacement from San Francisco to Sac
 {: #fig12}
 
 </div>
-<div class="solution" id="eip-id2406348" markdown="1">
+<div class="solution"  markdown="1">
 North-component 87.0 km, east-component 87.0 km
 
 </div>
 </div>
 
 <div class="exercise" id="problem" data-element-type="problems-exercises">
-<div class="problem" id="eip-61" markdown="1">
+<div class="problem"  markdown="1">
 Solve the following problem using analytical techniques: Suppose you walk 18.0 m straight west and then 25.0 m straight north. How far are you from your starting point, and what is the compass direction of a line connecting your starting point to your final position?
 (If you represent the two legs of the walk as vector displacements $$ \vb{A} $$ and $$ \vb{B} $$, as in [Figure 13](#fig13), then this problem asks you to
 find their sum $$
@@ -505,15 +505,15 @@ graphical technique.
 </div>
 </div>
 
-<div class="exercise" id="eip-430" data-element-type="problems-exercises">
-<div class="problem" id="eip-400" markdown="1">
+<div class="exercise"  data-element-type="problems-exercises">
+<div class="problem"  markdown="1">
 Repeat the previous [Problem](#problem) using analytical techniques, but reverse the order of the two legs of the walk and show that you get the same final result.
 (This problem shows that adding them in reverse order gives the same result—that is,
 $$ \vb{B} + \vb{A} = \vb{A} + \vb{B} $$.) Discuss how taking another path to reach the same point might help to
 overcome an obstacle blocking your other path.
 
 </div>
-<div class="solution" id="eip-24" markdown="1">
+<div class="solution"  markdown="1">
 30.8 m, 35.8 west of north
 
 </div>
@@ -588,8 +588,8 @@ west of north
 </div>
 </div>
 
-<div class="exercise" id="eip-379" data-element-type="problems-exercises">
-<div class="problem" id="eip-201" markdown="1">
+<div class="exercise"  data-element-type="problems-exercises">
+<div class="problem"  markdown="1">
 A farmer wants to fence off his four-sided plot of flat land.
 He measures the first three sides, shown as $$ \vb{A}, $$
 $$ \vb{B}, $$ and $$ \vb{C} $$ in [Figure 15](#fig15), and then correctly calculates the length and orientation of the fourth side $$

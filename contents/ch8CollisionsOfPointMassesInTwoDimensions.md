@@ -464,7 +464,7 @@ for an elastic collision of two objects of equal masses,
 as discussed in the text.
 
 </div>
-<div class="solution" id="eip-id2538314" markdown="1">
+<div class="solution"  markdown="1">
 We are given that $$ m_{1}=m_{2}\equiv m $$. The given equations then become:
 
 <div class="equation">

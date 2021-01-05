@@ -632,7 +632,7 @@ gravitational measurements can easily detect the effect of nearby mountains and
 variations in local geology.)
 
 </div>
-<div class="solution" id="eip-id1570835" markdown="1">
+<div class="solution"  markdown="1">
 a) $$ 2.937\times 10^{17}\kg $$
 
 b) $$ 4.91\times 10^{-8} $$ of the Earth’s mass.

@@ -1014,7 +1014,7 @@ for the range of a projectile on level ground by finding the time $$ t $$ at
 which $$ y $$ becomes zero and substituting this value of $$ t $$ into the
 expression for $$ x-x_{0} $$, noting that $$ R=x-x_{0} $$
 </div>
-<div class="solution" id="eip-id2932521" markdown="1">
+<div class="solution"  markdown="1">
  $$ y-y_{0}=0=v_{0y}t-\frac{1}{2}g t^{2}=\left(v_{0}\sin{\theta} \right)
 t-\frac{1}{2}gt^{2} $$, so that $$ t=\frac{2\left(v_{0}\sin{\theta}\right)}{g} $$
 $$ x-x_{0}=v_{0x}t=\left(v_{0}\cos{\theta}\right)t=R, $$

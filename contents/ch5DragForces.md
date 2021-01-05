@@ -405,7 +405,7 @@ second and kilometers per hour) of an 80.0-kg skydiver falling in a pike
 (headfirst) position with a surface area of $$ 0.140 \mm $$.
 
 </div>
-<div class="solution" id="eip-id1170075023622" markdown="1">
+<div class="solution"  markdown="1">
  $$115 \ms ; 414 \text{km/hr} $$
 
 </div>
@@ -431,7 +431,7 @@ drag coefficient for a horizontal skydiver.) What will be the velocity of a
 distance?
 
 </div>
-<div class="solution" id="eip-id1170075018299" markdown="1">
+<div class="solution"  markdown="1">
  $$ 25 \ms ;  9.9 \ms $$
 
 </div>
@@ -456,7 +456,7 @@ Assume all values are accurate to three significant digits.
 By what factor does the drag force on a car increase as it goes from 65 to 110 km/h?
 
 </div>
-<div class="solution" id="eip-id1626548" markdown="1">
+<div class="solution"  markdown="1">
  $$ 2.9 $$
 
 </div>
@@ -477,7 +477,7 @@ $$ 1.00\times 10^{3}{\text{kg/m}}^{3} $$, and the surface area to be $$ \pi r^{2
 Using Stokes’ law, verify that the units for viscosity are kilograms per meter per second.
 
 </div>
-<div class="solution" id="eip-id1351403">
+<div class="solution" >
 <div class="equation">
  $$ \left[\eta \right]=\frac{ \left[F_{\s}\right]}{\left[r\right]\left[v\right]}
 =\frac{ \kg \cdot \mss }{\m \cdot \ms }
@@ -507,7 +507,7 @@ $$ 3.0 \text{mm} $$) is dropped in a container of motor oil.
 It takes 12 s to fall a distance of 0.60 m. Calculate the viscosity of the oil.
 
 </div>
-<div class="solution" id="eip-id1586160" markdown="1">
+<div class="solution"  markdown="1">
  $$ 0.76 \text{kg/m}\cdot \s $$
 
 </div>

@@ -538,7 +538,7 @@ A cleaner pushes a 4.50-kg laundry cart in such a way that the net external
 force on it is 60.0 N. Calculate the magnitude of its acceleration.
 
 </div>
-<div class="solution" id="eip-id1377423" markdown="1">
+<div class="solution"  markdown="1">
  $$ 13.3 \mss $$
 
 </div>
@@ -592,7 +592,7 @@ the thrust T is $$ 2.4\times 10^{4} \N $$, and the force of friction opposing th
 (b) Why is the acceleration not one-fourth of what it is with all rockets burning?
 
 </div>
-<div class="solution" id="eip-id1494654" markdown="1">
+<div class="solution"  markdown="1">
 (a) $$ 12\mss $$.
 
 (b) The acceleration is not one-fourth of what it was with all rockets burning
@@ -682,7 +682,7 @@ The weight of an astronaut plus his space suit on the Moon is only 250 N.
 How much do they weigh on Earth? What is the mass on the Moon? On Earth?
 
 </div>
-<div class="solution" id="eip-id1480319" markdown="1">
+<div class="solution"  markdown="1">
  $$ 1.5\times 10^{3}\N ,150 \kg ,150 \kg $$
 
 </div>

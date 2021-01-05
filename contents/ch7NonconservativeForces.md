@@ -170,7 +170,7 @@ to stop a truck, with its large mechanical energy, than to stop a mosquito.
 
 </div>
 
-<div class="example" id="eip-944" markdown="1">
+<div class="example"  markdown="1">
 <div class="title">
 Calculating Distance Traveled: Sliding Up an Incline
 </div>

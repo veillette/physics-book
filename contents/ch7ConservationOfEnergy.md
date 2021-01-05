@@ -310,12 +310,12 @@ Using values from [Table 1](#table1), how many DNA molecules could be broken by 
 </div>
 </div>
 
-<div class="exercise" id="eip-309" data-element-type="problems-exercises">
-<div class="problem" id="eip-267" markdown="1">
+<div class="exercise"  data-element-type="problems-exercises">
+<div class="problem"  markdown="1">
 Using energy considerations and assuming negligible air resistance, show that a rock thrown from a bridge 20.0 m above water with an initial speed of 15.0 m/s strikes the water with a speed of 24.8 m/s independent of the direction thrown.
 
 </div>
-<div class="solution" id="eip-232" markdown="1">
+<div class="solution"  markdown="1">
 Equating $$ \Delta \PE_{g} $$ and $$ \Delta \KE $$, we obtain
 $$ v=\sqrt{2g h +{ v_{0}}^{2}}=\sqrt {2\left(9.80
 \mss \right)\left(20.0 \m \right)+\left(15.0  \ms {\right)
@@ -336,7 +336,7 @@ If the energy in fusion bombs were used to supply the energy needs of the world,
 (b) How does this time compare with historically significant events, such as the duration of stable economic systems?
 
 </div>
-<div class="solution" id="eip-id1855045" markdown="1">
+<div class="solution"  markdown="1">
 (a) $$ 25 \times 10^{6}\text{years} $$
 
 (b) This is much, much longer than human time scales.

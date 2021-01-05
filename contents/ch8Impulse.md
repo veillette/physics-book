@@ -425,7 +425,7 @@ of the force exerted on the wall, assuming the water’s horizontal
 momentum is reduced to zero.
 
 </div>
-<div class="solution" id="eip-id2108527" markdown="1">
+<div class="solution"  markdown="1">
  $$ 2.10\times 10^{3} \N $$ away from the wall
 
 </div>

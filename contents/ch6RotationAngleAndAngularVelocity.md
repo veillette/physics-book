@@ -334,7 +334,7 @@ An automobile with 0.260 m radius tires travels 80 000 km before wearing them ou
 A baseball pitcher brings his arm forward during a pitch, rotating the forearm about the elbow. If the velocity of the ball in the pitcher’s hand is 35.0 m/s and the ball is 0.300 m from the elbow joint, what is the angular velocity of the forearm?
 
 </div>
-<div class="solution" id="eip-id1922676" markdown="1">
+<div class="solution"  markdown="1">
 117 rad/s
 
 </div>
