@@ -77,14 +77,14 @@ See [Figure 2](#fig2)).
 {: #fig2}
 
 The drag coefficient can depend upon velocity, but we will assume that it is a
-constant here. [Figure](#import-auto-id1165298535568) lists some typical drag
+constant here. [Table 1](#table1) lists some typical drag
 coefficients for a variety of objects. Notice that the drag coefficient is a
 dimensionless quantity. At highway speeds, over 50% of the power of a car is
 used to overcome air drag. The most fuel-efficient cruising speed is about 70–80
 km/h (about 45–50 mi/h). For this reason, during the 1970s oil crisis in the
 United States, maximum speeds on highways were set at about 90 km/h (55 mi/h).
 
-### Drag Coefficient values $$C$$
+#### Table 1: Drag Coefficient values $$C$$
 
 |Object| $$C$$ |
 |--- |--- |
@@ -100,6 +100,7 @@ United States, maximum speeds on highways were set at about 90 km/h (55 mi/h).
 |Bicycle|0.90|
 |Skydiver (horizontal)|1.00|
 |Circular flat plate|1.12|
+{: #table1}
 
 Substantial research is under way in the sporting world to minimize drag. The
 dimples on golf balls are being redesigned as are the clothes that athletes
@@ -346,7 +347,7 @@ Masses and Springs
   </div>
 
   where $$ C $$ is the drag coefficient (typical values are given
-  in [Figure](#import-auto-id1165298535568)), $$ A $$ is the area of the
+  in [Table 1](#table1)), $$ A $$ is the area of the
   object facing the fluid, and $$ \rho $$ is the fluid density.
 * For small objects (such as a bacterium)
   moving in a denser medium (such as water), the drag force is given by Stokes’

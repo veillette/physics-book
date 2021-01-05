@@ -17,7 +17,7 @@ other areas of physics. Many problem-solving strategies are stated outright in
 the worked examples, and so the following techniques should reinforce skills you
 have already begun to develop.
 
-### Problem-Solving Strategy for Newton’s Laws of Motion {#import-auto-id2655652}
+### Problem-Solving Strategy for Newton’s Laws of Motion
 
 Step 1. As usual, it is first necessary to identify the physical principles
 involved. *Once it is determined that Newton’s laws of motion are involved (if

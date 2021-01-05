@@ -110,7 +110,7 @@ text, it is fascinating that such underlying simplicity exists in the face of
 the overt complexity of the universe. There is no reason that nature must be
 simple—it simply is.
 
-### Action at a Distance: Concept of a Field {#import-auto-id3077454}
+### Action at a Distance: Concept of a Field
 
 All forces act at a distance. This is obvious for the gravitational force. Earth
 and the Moon, for example, interact without coming into contact. It is also true

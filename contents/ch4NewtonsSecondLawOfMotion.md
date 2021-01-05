@@ -136,7 +136,7 @@ relationship* among three quantities that is not simply based on their
 definitions. The validity of the second law is completely based on experimental
 verification.
 
-### Units of Force {#import-auto-id1422615}
+### Units of Force 
 
 $$ \vb{F}_{\text{net}}=m\vb{a} $$ is used to define the
 units of force in terms of the three basic units for mass, length, and time. The
@@ -152,7 +152,7 @@ While almost the entire world uses the newton for the unit of force, in the
 United States the most familiar unit of force is the pound (lb), where 1 N =
 0.225 lb.
 
-### Weight and the Gravitational Force {#import-auto-id1404093}
+### Weight and the Gravitational Force
 
 When an object is dropped, it accelerates toward the center of Earth. Newton’s
 second law states that a net force on an object is responsible for its

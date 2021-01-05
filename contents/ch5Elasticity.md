@@ -124,7 +124,7 @@ combine all these factors into one equation for $$ \Delta L $$:
 where $$ \Delta L $$ is the change in length, $$ F $$ the applied force, $$ Y
 $$ is a factor, called the elastic modulus or Young’s modulus, that depends on
 the substance, $$ A $$ is the cross-sectional area, and $$ L_{0} $$ is the
-original length. [Figure](#import-auto-id1165298671576) lists values of $$ Y$$
+original length. [Table 1](#table1) lists values of $$ Y$$
 for several materials—those with a large $$ Y $$ are said to have a
 large tensile stiffness because they deform less for a given tension or
 compression. 
