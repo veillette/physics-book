@@ -53,7 +53,7 @@ of work equal to $$ mgh $$ on it, thereby increasing its kinetic energy by that
 same amount (by the work-energy theorem). We will find it more useful to
 consider just the conversion of $$ \PE_{\text{g}} $$ to $$ \KE $$
 without explicitly considering the intermediate step of work. (
-See [Exercise](#fs-id34).) This shortcut makes it is easier to solve
+See [Example 2](#example2).) This shortcut makes it is easier to solve
 problems using energy (if possible) rather than explicitly using forces.
 
 ![(a) The weight attached to the cuckoo clock is raised by a height h shown by a displacement vector d pointing upward. The weight is attached to a winding chain labeled with a force F vector pointing downward. Vector d is also shown in the same direction as force F. E in is equal to W and W is equal to m g h. (b) The weight attached to the cuckoo clock moves downward. E out is equal to m g h.](../resources/Figure_08_03_01a.jpg "(a) The work done to lift the weight is stored in the mass-Earth system as gravitational potential energy. (b) As the weight moves downward, this gravitational potential energy is transferred to the cuckoo clock.")
@@ -103,7 +103,7 @@ done by or against the gravitational force.
 ![There is a four-story building. A person is carrying a television up the stairs of the building. The height of third story is h from the ground. A girl is standing outside the building and is lifting a similar television with the help of a pulley.](../resources/Figure_08_03_02a.jpg "The change in gravitational potential energy \( (\Delta \PE_\text{g} ) \)   between points A and B is independent of the path. \( \Delta \PE_\text{g} =mgh \) for any path between the two points. Gravity is one of a small class of forces where the work done by or against the force depends only on the starting and ending points, not on the path between them.")
 {: #fig2}
 
-<div class="example" markdown="1">
+<div class="example" id="example1" markdown="1">
 <div class="title">
 The Force to Stop Falling
 </div>
@@ -163,14 +163,14 @@ force acts. A bending motion of 0.5 m this way yields a force 100 times smaller
 than in the example. A kangaroo\'s hopping shows this method in action. The
 kangaroo is the only large animal to use hopping for locomotion, but the shock
 in hopping is cushioned by the bending of its hind legs in each jump.(
-See [Exercise](#fs-id32).)
+See [Figure 3](#fig3).)
 
 </div>
 
 ![A hopping kangaroo is shown landing on the ground in one photograph and in the air just after taking another jump in the second photograph.](../resources/Figure_08_03_03.jpg "The work done by the ground upon the kangaroo reduces its kinetic energy to zero as it lands. However, by applying the force of the ground on the hind legs over a longer distance, the impact on the bones is reduced. (credit: Chris Samuel, Flickr)")
-{: height="300"}
+{: #fig3 height="300"}
 
-<div class="example" markdown="1">
+<div class="example" id="example2" markdown="1">
 <div class="title">
 Finding the Speed of a Roller Coaster from its Height
 </div>
@@ -178,7 +178,7 @@ Finding the Speed of a Roller Coaster from its Height
 (b) What is its final speed (again assuming negligible friction) if its initial speed is 5.00 m/s?
 
 ![A roller coaster track is shown with a car about to go downhill. The initial height of the roller coaster car on the track is twenty-five meters from the lowest part of the track and its speed v sub zero is equal to zero. The roller coaster&#x2019;s height from the level part of the track is twenty meters. The finish point of the car is on the level part of the track and the speed at that point is unknown.](../resources/Figure_08_03_04a.jpg "The speed of a roller coaster increases as gravity pulls it downhill and is greatest at its lowest point. Viewed in terms of energy, the roller-coaster-Earth system&#x2019;s gravitational potential energy is converted to kinetic energy. If work done by friction is negligible, all \( \Delta \PE_\text{g} \)  is converted to \( \Delta \KE \) .")
-{: #fig3 height="200"}
+{: #fig4 height="200"}
 
 **Strategy**
 
@@ -282,10 +282,10 @@ definition of the law of conservation of energy.
 <div class="title">
 Making Connections: Take-Home Investigation—Converting Potential to Kinetic Energy
 </div>
-One can study the conversion of gravitational potential energy into kinetic energy in this experiment. On a smooth, level surface, use a ruler of the kind that has a groove running along its length and a book to make an incline (see [Figure 4](#fig4)). Place a marble at the 10-cm position on the ruler and let it roll down the ruler. When it hits the level surface, measure the time it takes to roll one meter. Now place the marble at the 20-cm and the 30-cm positions and again measure the times it takes to roll 1 m on the level surface. Find the velocity of the marble on the level surface for all three positions. Plot velocity squared versus the distance traveled by the marble. What is the shape of each plot? If the shape is a straight line, the plot shows that the marble’s kinetic energy at the bottom is proportional to its potential energy at the release point.
+One can study the conversion of gravitational potential energy into kinetic energy in this experiment. On a smooth, level surface, use a ruler of the kind that has a groove running along its length and a book to make an incline (see [Figure 5](#fig5)). Place a marble at the 10-cm position on the ruler and let it roll down the ruler. When it hits the level surface, measure the time it takes to roll one meter. Now place the marble at the 20-cm and the 30-cm positions and again measure the times it takes to roll 1 m on the level surface. Find the velocity of the marble on the level surface for all three positions. Plot velocity squared versus the distance traveled by the marble. What is the shape of each plot? If the shape is a straight line, the plot shows that the marble’s kinetic energy at the bottom is proportional to its potential energy at the release point.
 
 ![A book is lying on the table and one end of a ruler rests on the edge of this book while the other end rests on the table, making it an incline. A marble is shown rolling down the ruler.](../resources/Figure_08_03_05a.jpg "A marble rolls down a ruler, and its speed on the level surface is measured. ")
-{: #fig4 height="150"}
+{: #fig5 height="150"}
 
 </div>
 
@@ -308,7 +308,7 @@ One can study the conversion of gravitational potential energy into kinetic ener
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-In [Exercise](#fs-id34), we calculated the final speed of a roller coaster that descended 20 m in height and had an initial speed of 5 m/s downhill. Suppose the roller coaster had had an initial speed of 5 m/s *uphill* instead, and it coasted uphill, stopped, and then rolled back down to a final point 20 m below the start. We would find in that case that its final speed is the same as its initial speed. Explain in terms of conservation of energy.
+In [Example 2](#example2), we calculated the final speed of a roller coaster that descended 20 m in height and had an initial speed of 5 m/s downhill. Suppose the roller coaster had had an initial speed of 5 m/s *uphill* instead, and it coasted uphill, stopped, and then rolled back down to a final point 20 m below the start. We would find in that case that its final speed is the same as its initial speed. Explain in terms of conservation of energy.
 
 </div>
 </div>
@@ -324,14 +324,14 @@ Does the work you do on a book when you lift it onto a shelf depend on the path 
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A hydroelectric power facility (see [Figure 5](#fig5)) converts the gravitational potential energy of water behind a dam to electric energy.
+A hydroelectric power facility (see [Figure 6](#fig6)) converts the gravitational potential energy of water behind a dam to electric energy.
 (a) What is the gravitational potential energy relative to the generators of a lake of volume
 $$ 50.0 \text{km}^{3} $$ $$ \left( \text{mass}=5.00\times 10^{13}\kg \right)$$,
 given that the lake has an average height of 40.0 m above the generators?
 (b) Compare this with the energy stored in a 9-megaton fusion bomb.
 
 ![A dam with water flowing down its gates.](../resources/Figure_08_03_06a.jpg "Hydroelectric facility (credit: Denis Belevich, Wikimedia Commons)")
-{: #fig5 height="250"}
+{: #fig6 height="250"}
 
 </div>
 <div class="solution" markdown="1">
@@ -371,7 +371,7 @@ Suppose a 350-g kookaburra (a large kingfisher bird) picks up a 75-g snake and r
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-In [Exercise](#fs-id34), we found that the speed of a roller coaster that had descended 20.0 m was only slightly greater when it had an initial speed of 5.00 m/s
+In [Example 2](#example2), we found that the speed of a roller coaster that had descended 20.0 m was only slightly greater when it had an initial speed of 5.00 m/s
 than when it started from rest. This implies that $$ \Delta \PE \gg \KE_{\text{i}} $$. Confirm this statement by taking the ratio of $$ \Delta \PE $$
 to $$ \KE_{\text{i}} $$. (Note that mass cancels.)
 
@@ -380,10 +380,10 @@ to $$ \KE_{\text{i}} $$. (Note that mass cancels.)
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A 100-g toy car is propelled by a compressed spring that starts it moving. The car follows the curved track in [Figure 6](#fig6). Show that the final speed of the toy car is 0.687 m/s if its initial speed is 2.00 m/s and it coasts up the frictionless slope, gaining 0.180 m in altitude.
+A 100-g toy car is propelled by a compressed spring that starts it moving. The car follows the curved track in [Figure 7](#fig7). Show that the final speed of the toy car is 0.687 m/s if its initial speed is 2.00 m/s and it coasts up the frictionless slope, gaining 0.180 m in altitude.
 
 ![A toy car is moving up a curved track.](../resources/Figure_08_03_07a.jpg "A toy car moves up a sloped track. (credit: Leszek Leszczynski, Flickr)")
-{: #fig6 height="200"}
+{: #fig7 height="200"}
 
 </div>
 <div class="solution">

@@ -76,6 +76,11 @@ h6:hover .header-link {
     counter-increment: figure;
 }
 
+.book .book-body .page-wrapper .page-inner figure img {
+    display: table;
+    width: 50%;
+}
+
 .book .book-body .page-wrapper .page-inner figure > [data-type='title'] {
     font-weight: bold;
     font-size: small;

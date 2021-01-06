@@ -12,7 +12,7 @@ layout: page
 ![An airplane flying very low to the ground, just above a beach full of onlookers, as it comes in for a landing.](../resources/Figure_02_04_00.jpg "A plane decelerates,
 or slows down, as it comes in for landing in St. Maarten. Its acceleration is opposite
 in direction to its velocity. (credit: Steve Conry, Flickr)")
-{: #fig1}
+{: #fig1 width="20px"}
 
 In everyday conversation, to accelerate means to speed up. The accelerator in a
 car can in fact cause it to speed up. The greater the **acceleration**, the greater the change in velocity
@@ -107,7 +107,6 @@ Calculating Acceleration: A Racehorse Leaves the Gate
 A racehorse coming out of the gate accelerates from rest to a velocity of 15.0 m/s due west in 1.80 s. What is its average acceleration?
 
 ![Two racehorses running toward the left.](../resources/racehorse.jpg "(credit: Jon Sullivan, PD Photo.org)")
-
 {: #fig4}
 
 **Strategy**
@@ -203,7 +202,7 @@ used simply to
 distinguish between displacement in the two different situations. The distances of travel and the size of the cars are on different scales to fit everything into the diagram.)")
 {: #fig7}
 
-<div class="example" markdown="1">
+<div class="example" id="exampleDisplacement" markdown="1">
 <div class="title">
 Calculating Displacement: A Subway Train
 </div>
@@ -242,7 +241,7 @@ has a negative sign.
 
 </div>
 
-<div class="example" markdown="1">
+<div class="example" id="exampleDistance" markdown="1">
 <div class="title">
 Comparing Distance Traveled with Displacement: A Subway Train
 </div>
@@ -253,7 +252,7 @@ What are the distances traveled for the motions shown in parts (a) and (b) of th
 To answer this question, think about the definitions of distance and distance
 traveled, and how they are related to displacement. Distance between two
 positions is defined to be the magnitude of displacement, which was found
-in [Exercise](#fs-id30). Distance traveled is the total length of the path
+in [Example 2](#exampleDisplacement). Distance traveled is the total length of the path
 traveled between the two positions. (
 See [Displacement](../contents/ch2Displacement.md).) In the case of the subway train shown
 in [Figure 7](#fig7), the distance traveled is the same as the
@@ -275,7 +274,7 @@ Distance is a scalar. It has magnitude but no sign to indicate direction.
 
 </div>
 
-<div class="example" markdown="1">
+<div class="example" id="exampleSpeedingUp" markdown="1">
 <div class="title">
 Calculating Acceleration: A Subway Train Speeding Up
 </div>
@@ -285,7 +284,11 @@ Suppose the train in [Figure 7](#fig7)(a) accelerates from rest to 30.0 km/h in 
 
 It is worth it at this point to make a simple sketch:
 
-![A point represents the initial velocity of 0 kilometers per second. Below the point is a velocity vector arrow pointing to the right, representing the final velocity of thirty point zero kilometers per hour. Below the velocity vector is an acceleration vector arrow labeled a equals question mark.](../resources/Figure_02_03_03c.jpg)
+![A point represents the initial velocity of 0 kilometers per second. Below 
+the point is a velocity vector arrow pointing to the right, representing the 
+final velocity of thirty point zero kilometers per hour. Below the velocity 
+vector is an acceleration vector arrow labeled a equals question mark.](..
+/resources/Figure_02_03_03c.jpg "Velocity Vectors")
 {: #fig8}
 
 This problem involves three steps. First we must determine the change in
@@ -323,7 +326,7 @@ velocity, as is always the case.
 
 </div>
 
-<div class="example" markdown="1">
+<div class="example" id="exampleSlowingDown" markdown="1">
 <div class="title">
 Calculate Acceleration: A Subway Train Slowing Down
 </div>
@@ -331,7 +334,11 @@ Now suppose that at the end of its trip, the train in [Figure 7](#fig7)(a) slows
 
 **Strategy**
 
-![A velocity vector arrow pointing toward the right with initial velocity of thirty point zero kilometers per hour and final velocity of 0. An acceleration vector arrow pointing toward the left, labeled a equals question mark.](../resources/Figure_02_03_03d.jpg)
+![A velocity vector arrow pointing toward the right with initial velocity of 
+thirty point zero kilometers per hour and final velocity of 0. An 
+acceleration vector arrow pointing toward the left, labeled a equals 
+question mark.](../resources/Figure_02_03_03d.jpg "Velocity and Acceleration 
+Vectors")
 {: #fig9}
 
 In this case, the train is decelerating and its acceleration is negative because
@@ -372,23 +379,25 @@ the velocity.
 </div>
 
 The graphs of position, velocity, and acceleration vs. time for the trains
-in [Exercise](#fs-id21)
-and [Exercise](#fs-id66) are displayed
+in [Example 4](#exampleSpeedingUp) and [Example 5](#exampleSlowingDown) are 
+displayed
 in [Figure 10](#fig10). (We have taken the velocity to remain
 constant from 20 to 40 s, after which the train decelerates.)
 
 ![Three graphs. The first is a line graph of position in meters versus time in seconds. The line begins at the origin and has a concave up shape from time equals zero to time equals twenty seconds. It is straight with a positive slope from twenty seconds to forty seconds. It is then convex up from forty to fifty seconds. The second graph is a line graph of velocity in meters per second versus time in seconds. The line is straight with a positive slope beginning at the origin from 0 to twenty seconds. It is flat from twenty to forty seconds. From forty to fifty seconds the line is straight with a negative slope back down to a velocity of 0. The third graph is a line graph of acceleration in meters per second per second versus time in seconds. The line is flat with a positive constant acceleration from zero to twenty seconds. The line then drops to an acceleration of 0 from twenty to forty seconds. The line drops again to a negative acceleration from forty to fifty seconds.](../resources/Figure_02_03_04.jpg "(a) Position of the train over time. Notice that the train&#x2019;s position changes slowly at the beginning of the journey, then more and more quickly as it picks up speed. Its position then changes more slowly as it slows down at the end of the journey. In the middle of the journey, while the velocity remains constant, the position changes at a constant rate.
 (b) Velocity of the train over time. The train&#x2019;s velocity increases as it accelerates at the beginning of the journey. It remains the same in the middle of the journey (where there is no acceleration). It decreases as the train decelerates at the end of the journey.
 (c) The acceleration of the train over time. The train has positive acceleration as it speeds up at the beginning of the journey. It has no acceleration as it travels at constant velocity in the middle of the journey. Its acceleration is negative as it slows down at the end of the journey.")
-{: #fig10}
+{: #fig10 height="200"}
 
-<div class="example" markdown="1">
+<div class="example" id="exampleAverage" markdown="1">
 <div class="title">
 Calculating Average Velocity: The Subway Train
 </div>
-What is the average velocity of the train in part b of [Exercise](#fs-id30), and shown again below, if it takes 5.00 min to make its trip?
+What is the average velocity of the train in part b of [Example 2](#exampleDisplacement), and shown again below, if it takes 5.00 min to make its 
+trip?
 
-![The train moves toward the left, from an initial position of 5 point 25 kilometers to a final position of 3 point 75 kilometers.](../resources/Figure_02_03_04a.jpg)
+![The train moves toward the left, from an initial position of 5 point 25 
+kilometers to a final position of 3 point 75 kilometers.](../resources/Figure_02_03_04a.jpg "Train Diagram")
 {: #fig11}
 
 **Strategy**
@@ -402,7 +411,7 @@ since the train moves to the left and has a negative displacement.
 {0}=5.25 \text{km} $$, $$ \Delta t=5.00 \text{min} $$.
 
 2\. Determine displacement, $$ \Delta x^{\prime} $$. We found $$ \Delta
-x^{\prime} $$ to be $$ -1.5 \text{km} $$ in [Exercise](#fs-id30).
+x^{\prime} $$ to be $$ -1.5 \text{km} $$ in [Example 2](#exampleDisplacement).
 
 3\. Solve for average velocity.
 
@@ -421,7 +430,7 @@ The negative velocity indicates motion to the left.
 
 </div>
 
-<div class="example" markdown="1">
+<div class="example" id="exampleDecelerating" markdown="1">
 <div class="title">
 Calculating Deceleration: The Subway Train
 </div>
@@ -431,7 +440,11 @@ Finally, suppose the train in [Figure 11](#fig11) slows to a stop from a velocit
 
 Once again, let’s draw a sketch:
 
-![A velocity vector arrow pointing to the left with initial velocity of negative twenty point 0 kilometers per hour and a final velocity of 0. An acceleration vector arrow pointing toward the right, labeled a equals question mark.](../resources/Figure_02_03_04b.jpg)
+![A velocity vector arrow pointing to the left with initial velocity of 
+negative twenty point 0 kilometers per hour and a final velocity of 0. An 
+acceleration vector arrow pointing toward the right, labeled a equals 
+question mark.](../resources/Figure_02_03_04b.jpg "Vector and 
+Acceleration Diagram")
 {: #fig12}
 
 As before, we must find the change in velocity and the change in time to
@@ -469,7 +482,7 @@ The plus sign means that acceleration is to the right. This is reasonable
 because the train initially has a negative velocity (to the left) in this
 problem and a positive acceleration opposes the motion (and so it is to the
 right). Again, acceleration is in the same direction as the *change* in
-velocity, which is positive here. As in [Exercise](#fs-id66), this
+velocity, which is positive here. As in [Example 5](#exampleSlowingDown), this
 acceleration can be called a deceleration since it is in the direction opposite
 to the velocity.
 
@@ -482,7 +495,8 @@ the answers. In our chosen coordinate system, plus means the quantity is to the
 right and minus means it is to the left. This is easy to imagine for
 displacement and velocity. But it is a little less obvious for acceleration.
 Most people interpret negative acceleration as the slowing of an object. This
-was not the case in [Exercise](#fs-id60), where a positive acceleration
+was not the case in [Example 7](#exampleDecelerating), where a positive 
+acceleration
 slowed a negative velocity. The crucial distinction was that the acceleration
 was in the opposite direction from the velocity. In fact, a negative
 acceleration will *increase* a negative velocity. For example, the train moving
@@ -513,7 +527,7 @@ If we take east to be positive, then the airplane has negative acceleration, as 
 Learn about position, velocity, and acceleration graphs. Move the little man back and forth with the mouse and plot his motion. Set the position, velocity, or acceleration and let the simulation move the man for you.
 
 <figure markdown="1">
-<div class="cnxsim">
+<div class="figure">
 <iframe loading="lazy" src="https://veillette.github.io/simulations/moving-man/" width="750" height="500"  allowfullscreen></iframe>
 <figcaption>
 Moving Man

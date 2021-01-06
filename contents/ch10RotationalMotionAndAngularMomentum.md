@@ -10,7 +10,7 @@ Why do tornadoes spin at all? And why do tornados spin so rapidly? The answer is
 that air masses that produce tornadoes are themselves rotating, and when the
 radii of the air masses decrease, their rate of rotation increases. An ice
 skater increases her spin in an exactly analogous manner as seen
-in [Figure] (#fig2). The skater starts her rotation with
+in [Figure 2](#fig2). The skater starts her rotation with
 outstretched limbs and increases her spin by pulling them in toward her body.
 The same physics describes the exhilarating spin of a skater and the wrenching
 force of a tornado.

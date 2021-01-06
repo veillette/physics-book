@@ -325,7 +325,7 @@ to the observer.
 ![A person is observing a moving ship from the shore. Another person is on top of ship&#x2019;s mast. The person in the ship drops binoculars and sees it dropping straight. The person on the shore sees the binoculars taking a curved trajectory.](../resources/Figure_03_05_05a.jpg "Classical relativity. The same motion as viewed by two different observers. An observer on the moving ship sees the binoculars dropped from the top of its mast fall straight down. An observer on shore sees the binoculars take the curved path, moving forward with the ship. Both observers see the binoculars strike the deck at the base of the mast. The initial horizontal velocity is different relative to the two observers. (The ship is shown moving rather fast to emphasize the effect.)")
 {: #fig6}
 
-<div class="example" markdown="1">
+<div class="example" id="exampleCoin" markdown="1">
 <div class="title">
 Calculating Relative Velocity: An Airline Passenger Drops a Coin
 </div>
@@ -583,7 +583,7 @@ line, who will win the race, assuming they run at constant velocity?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Verify that the coin dropped by the airline passenger in the [Exercise](#fs-id00)
+Verify that the coin dropped by the airline passenger in the [Example](#exampleCoin)
 travels 144 m horizontally while falling 1.50 m in the frame of reference of the Earth.
 
 </div>

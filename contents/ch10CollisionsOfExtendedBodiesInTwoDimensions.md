@@ -27,7 +27,7 @@ arm $$ r $$ is zero. Angular momentum is therefore conserved in the collision.
 Kinetic energy is not conserved, because the collision is inelastic. It is
 possible that momentum is not conserved either because the force at the nail may
 have a component in the direction of the disk’s initial velocity. Let us examine
-a case of rotation in a collision in [Exercise](#fs-id71).
+a case of rotation in a collision in [Example 1](#example1).
 
 ![A bowling ball, just as it is striking the pins.](../resources/Figure_11_06_01a.jpg "The bowling ball causes the pins to fly, some of them spinning violently. (credit: Tinou Bao, Flickr)")
 {: #fig1}
@@ -35,7 +35,7 @@ a case of rotation in a collision in [Exercise](#fs-id71).
 ![Figure a shows a disc m sliding toward a motionless stick M of length r pivoted about a nail, on a frictionless surface. In figure b, a disk hits the stick at one end and adheres to it, and the stick rotates, pivoting around the nail in a direction shown by the arrow in the clockwise direction and angular velocity omega.](../resources/Figure_11_06_02a.jpg "(a) A disk slides toward a motionless stick on a frictionless surface. &#10;        (b) The disk hits the stick at one end and adheres to it, and they rotate together, pivoting around the nail. Angular momentum is conserved for this inelastic collision because the surface is frictionless and the unbalanced external force at the nail exerts no torque.")
 {: #fig2}
 
-<div class="example" markdown="1">
+<div class="example" id="example1" markdown="1">
 <div class="title">
 Rotation in a Collision
 </div>
@@ -91,7 +91,7 @@ Rearranging the equation yields
 </div>
 where $$ I^{\prime} $$ is the moment of inertia of the stick and disk stuck together, which is the sum
 of their individual moments of inertia about the
-nail. [Figure](../contents/ch10DynamicsOfRotationalMotion.md#figMomentOfInertia) gives the formula for a rod
+nail. [Figure](../contents/ch10DynamicsOfRotationalMotion.md#fig3) gives the formula for a rod
 rotating around one end to be $$
 I=Mr^{2}/3 $$. Thus,
 
@@ -265,7 +265,7 @@ While driving his motorcycle at highway speed, a physics student notices that pu
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Repeat [Exercise](#fs-id71) in which the disk strikes and adheres to the stick 0.100 m from the nail.
+Repeat [Example 1](#example1) in which the disk strikes and adheres to the stick 0.100 m from the nail.
 
 </div>
 <div class="solution" markdown="1">
@@ -279,7 +279,7 @@ Repeat [Exercise](#fs-id71) in which the disk strikes and adheres to the stick 0
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Repeat [Exercise](#fs-id71) in which the disk originally spins clockwise at 1000 rpm and has a radius of 1.50 cm.
+Repeat [Example 1](#example1) in which the disk originally spins clockwise at 1000 rpm and has a radius of 1.50 cm.
 
 </div>
 </div>
@@ -324,7 +324,7 @@ remains in his geometrical center.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Repeat [Exercise](#fs-id71) in which the stick is free to have translational motion as well as rotational motion.
+Repeat [Example 1](#example1) in which the stick is free to have translational motion as well as rotational motion.
 
 </div>
 <div class="solution"  markdown="1">

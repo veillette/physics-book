@@ -149,7 +149,13 @@ A cyclist rides 3 km west and then turns around and rides 2 km east.
 
 </div>
 <div class="solution" markdown="1">
-![Two diagrams side by side. To the left is a horizontal line, or x axis, with points for final position and initial position. Displacement 1, shown by an arrow pointing leftward, equals negative 3 kilometers. Displacement 2, shown by an arrow pointing rightward, equals 2 kilometers. To the right is a pair of x and y axes, showing that east is the positive x direction and west is the negative x direction.](../resources/Figure_02_01_03.jpg){: #fig4}
+![Two diagrams side by side. To the left is a horizontal line, or x axis, 
+with points for final position and initial position. Displacement 1, shown 
+by an arrow pointing leftward, equals negative 3 kilometers. Displacement 2, 
+shown by an arrow pointing rightward, equals 2 kilometers. To the right is a 
+pair of x and y axes, showing that east is the positive x direction and west 
+is the negative x direction.](../resources/Figure_02_01_03.jpg "Displacements 
+"){: #fig4}
 
 (a) The rider’s displacement is $$ \Delta x=x_{f}-x_{0}=\text{−1 km} $$. (The
 displacement is negative because we take east to be positive and west to be
@@ -212,12 +218,17 @@ size, while its displacement is small. Why is this?
 
 ### Problems &amp; Exercises
 
-![An x axis starts at 0 meters and ends at 12 meters. There are four points on the graph with displacement paths. Path A starts at 0 and stops at 7. Path B starts at 12 and ends at 7. Path C starts at 2, goes to 10, turns around and goes back to 8, then turns around again and stops at 11. Path D starts at 9, goes to 3, then turns around and stops at 5.](../resources/Figure_02_01Sol_01.jpg)
+![An x axis starts at 0 meters and ends at 12 meters. There are four points 
+on the graph with displacement paths. Path A starts at 0 and stops at 7. 
+Path B starts at 12 and ends at 7. Path C starts at 2, goes to 10, turns 
+around and goes back to 8, then turns around again and stops at 11. Path D 
+starts at 9, goes to 3, then turns around and stops at 5.](..
+/resources/Figure_02_01Sol_01.jpg "Displacement Paths")
 {: #fig5}
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the following for path A in [Figure 5](#fig5):
+Find the following for path A in the [Figure](#fig5) above:
 (a) The distance traveled.
 (b) The magnitude of the displacement from start to finish.
 (c) The displacement from start to finish.
@@ -234,7 +245,7 @@ Find the following for path A in [Figure 5](#fig5):
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the following for path B in [Figure 5](#fig5):
+Find the following for path B in the [Figure](#fig5) above:
 (a) The distance traveled.
 (b) The magnitude of the displacement from start to finish.
 (c) The displacement from start to finish.
@@ -244,7 +255,7 @@ Find the following for path B in [Figure 5](#fig5):
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the following for path C in [Figure 5](#fig5):
+Find the following for path C in the [Figure](#fig5) above:
 (a) The distance traveled.
 (b) The magnitude of the displacement from start to finish.
 (c) The displacement from start to finish.
@@ -261,7 +272,7 @@ Find the following for path C in [Figure 5](#fig5):
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the following for path D in [Figure 5](#fig5):
+Find the following for path D in the [Figure](#fig5) above:
 (a) The distance traveled.
 (b) The magnitude of the displacement from start to finish.
 (c) The displacement from start to finish.
