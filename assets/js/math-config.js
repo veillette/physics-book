@@ -14,7 +14,7 @@ window.MathJax = {
             kg: '\\mathrm{kg}',     // kg
             ms: '\\mathrm{m/s}',     // m/s
             mm: '\\mathrm{m}^2',     // m^2
-            mms: '\\mathrm{m}^2\\mathrm{/s}' ,     // m^2/s
+            mms: '\\mathrm{m}^2\\mathrm{/s}',     // m^2/s
             mmss: '\\mathrm{m}^2\\mathrm{/s}^2',    // m^2/s^2
             mss: '\\mathrm{m/s}^2',     // m/s^2
             rads: '\\mathrm{rad/s}',     // rad/s
