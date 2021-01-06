@@ -610,7 +610,7 @@ added; choose only one.)
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Show that the sum of the vectors discussed in [Figure](#fs-id97) gives the result shown in [Figure 17](#fig17).
+Show that the sum of the vectors discussed in [Exercise](#fs-id97) gives the result shown in [Figure 17](#fig17).
 
 </div>
 <div class="solution" markdown="1">

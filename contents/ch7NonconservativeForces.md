@@ -174,7 +174,7 @@ to stop a truck, with its large mechanical energy, than to stop a mosquito.
 <div class="title">
 Calculating Distance Traveled: Sliding Up an Incline
 </div>
-Suppose that the player from [Figure](#fs-id40) is running up a hill having
+Suppose that the player from [Exercise](#fs-id40) is running up a hill having
 a $$ 5.00^\circ $$ incline upward with a surface similar to that in the baseball stadium. The
 player slides with the same initial speed, and the frictional force is still 450
 N. Determine how far he slides.
@@ -246,7 +246,7 @@ This experiment involves the conversion of gravitational potential energy into
 thermal energy. Use the ruler, book, and marble
 from [Take-Home Investigation—Converting Potential to Kinetic Energy](../contents/ch7GravitationalPotentialEnergy.md#takeHome).
 In addition, you will need a foam cup with a small hole in the side,
-as shown in [Figure](#fs-id18). From the 10-cm position on the ruler,
+as shown in [Exercise](#fs-id18). From the 10-cm position on the ruler,
 let the marble roll into the cup positioned at the bottom of the ruler.
 Measure the distance $$ d $$ the cup moves before stopping.
 What forces caused it to stop? What happened to

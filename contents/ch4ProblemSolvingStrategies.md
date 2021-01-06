@@ -235,7 +235,7 @@ including the free-body diagrams for each.
 </div>
 </div>
 
-<div class="exercise" data-element-type="problems-exercises">
+<div class="exercise" id="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A 1100-kg car pulls a boat on a trailer.
 (a) What total force resists the motion of the car, boat, and trailer, if the car exerts a 1900-N force on the road and produces an acceleration of $$ 0.550 \mss $$
@@ -374,7 +374,7 @@ taken to reach that velocity.
 
 Consider two people pushing a toboggan with four children on it up a snow-covered slope.
 Construct a problem in which you calculate the acceleration of the toboggan and its load.
-hings to be considered are the forces exerted by those pushing, the angle of the slope, and
+Things to be considered are the forces exerted by those pushing, the angle of the slope, and
 the masses of the toboggan and children.
 
 </div>
@@ -385,7 +385,7 @@ the masses of the toboggan and children.
 
 **Unreasonable Results**
 
- (a) Repeat [Figure](#fs-id88), but assume an acceleration of $$ 1.20 \mss $$ is produced.
+ (a) Repeat [Exercise](#exercise), but assume an acceleration of $$ 1.20 \mss $$ is produced.
  (b) What is unreasonable about the result?
  (c) Which premise is unreasonable, and why is it unreasonable?
 
