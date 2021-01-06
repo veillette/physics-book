@@ -154,7 +154,6 @@ effective point on the equator, what would its magnitude be?
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 right-hand rule

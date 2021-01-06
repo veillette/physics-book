@@ -404,7 +404,6 @@ slope neglecting friction:
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 gravitational potential energy

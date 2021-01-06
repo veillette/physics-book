@@ -287,7 +287,6 @@ b) $$ 897 \N $$ upward
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 mechanical advantage

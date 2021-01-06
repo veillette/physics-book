@@ -549,7 +549,6 @@ c) The assumed speed is too great for the tight curve.
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 centripetal force

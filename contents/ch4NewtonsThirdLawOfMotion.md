@@ -319,7 +319,6 @@ For this situation, draw a free-body diagram and write the net force equation.
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 Newton’s third law of motion

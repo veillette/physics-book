@@ -126,7 +126,6 @@ What is the relationship between weight and mass? Which is an intrinsic, unchang
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 inertia

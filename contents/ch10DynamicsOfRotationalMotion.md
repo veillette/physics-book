@@ -566,7 +566,6 @@ spin rate (angular velocity).
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 torque

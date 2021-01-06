@@ -591,7 +591,6 @@ $$ \left(9.80 \mss \right)? $$
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 acceleration

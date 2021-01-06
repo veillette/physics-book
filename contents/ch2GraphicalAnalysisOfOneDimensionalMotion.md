@@ -570,7 +570,6 @@ first 4 s?
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 independent variable

@@ -349,7 +349,6 @@ If the energy in fusion bombs were used to supply the energy needs of the world,
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 law of conservation of energy

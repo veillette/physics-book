@@ -414,7 +414,6 @@ the mass of bulk and nondigestible materials consumed.)
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 metabolic rate

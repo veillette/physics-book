@@ -501,7 +501,6 @@ direction)?
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 change in momentum

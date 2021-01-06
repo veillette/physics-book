@@ -767,7 +767,6 @@ increase in kinetic energy.
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 work-energy theorem

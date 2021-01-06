@@ -181,7 +181,6 @@ A non-rotating frame of reference placed at the center of the Sun is very nearly
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 fictitious force

@@ -257,7 +257,6 @@ Assuming one nerve impulse must end before another can begin, what is the maximu
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 approximation

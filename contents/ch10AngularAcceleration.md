@@ -447,7 +447,6 @@ the acceleration lasts 2.00 s?
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 angular acceleration

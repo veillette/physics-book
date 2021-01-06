@@ -83,8 +83,7 @@ measurement include:
 1. Limitations of the measuring device,
 2. The skill of the person making the measurement,
 3. Irregularities in the object being measured,
-4. Any other factors that affect the outcome (highly dependent on the situation)
-   .
+4. Any other factors that affect the outcome (highly dependent on the situation).
 
 In our example, such factors contributing to the uncertainty could be the
 following: the smallest division on the ruler is 0.1 in., the person using the
@@ -627,7 +626,6 @@ volume in cubic centimeters?
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 accuracy

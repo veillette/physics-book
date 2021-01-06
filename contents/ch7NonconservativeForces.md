@@ -339,7 +339,6 @@ above the horizontal?
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 nonconservative force

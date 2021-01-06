@@ -362,7 +362,6 @@ the [Problem-Solving Strategies for Energy](../contents/ch7ConservationOfEnergy.
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 conservative force

@@ -567,7 +567,6 @@ ATP into kinetic energy.
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 inelastic collision

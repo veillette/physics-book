@@ -715,7 +715,6 @@ assuming the floor is absolutely rigid?
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 free-fall

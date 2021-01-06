@@ -272,7 +272,6 @@ Find the following for path D in the [Figure](#fig5) above:
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 kinematics

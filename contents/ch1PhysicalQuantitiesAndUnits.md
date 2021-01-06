@@ -587,7 +587,6 @@ Then calculate the average speed of the Earth in its orbit in kilometers per sec
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 physical quantity

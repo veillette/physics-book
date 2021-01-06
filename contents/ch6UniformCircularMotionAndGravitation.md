@@ -30,7 +30,6 @@ ice.
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 uniform circular motion
