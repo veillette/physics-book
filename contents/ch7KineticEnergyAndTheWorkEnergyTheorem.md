@@ -395,7 +395,10 @@ generally shorter and easier than those using kinematics and dynamics alone.
 <div class="problem" markdown="1">
 The person in [Figure 3](#fig3) does work on the lawn mower. Under what conditions would the mower gain energy? Under what conditions would it lose energy?
 
-![A person pushing a lawn mower with a force F. Force is represented by a vector making an angle theta below the horizontal and distance moved by the mover is represented by vector d. The component of vector F along vector d is F cosine theta. Work done by the person, W, is equal to F d cosine theta.](../resources/Figure_08_02_04a.jpg)
+![A person pushing a lawn mower with a force F. Force is represented by a vector making an angle theta below the 
+horizontal and distance moved by the mover is represented by vector d. The component of vector F along vector d is F 
+cosine theta. Work done by the person, W, is equal to F d cosine theta.](../resources/Figure_08_02_04a.jpg "Person 
+ushing a lawn mower.")
 {: #fig3}
 
 </div>

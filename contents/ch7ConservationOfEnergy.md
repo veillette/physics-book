@@ -150,8 +150,7 @@ into the forms mentioned. This important point is discussed later in this
 section.)
 
 Another example of energy conversion occurs in a solar cell. Sunlight impinging
-on a solar cell (
-see [Figure 1](#fig1)) produces electricity, which in turn can
+on a solar cell (see [Figure 1](#fig1)) produces electricity, which in turn can
 be used to run an electric motor. Energy is converted from the primary source of
 solar energy into electrical energy and then into mechanical energy.
 
@@ -204,7 +203,7 @@ transforms into other (perhaps less useful) energy forms, such as thermal
 energy, which is then released to the environment through combustion gases and
 cooling towers.
 
-##### Table: Efficiency of the Human Body and Mechanical Devices (representative values)
+##### Table 2: Efficiency of the Human Body and Mechanical Devices (representative values)
 
 |Activity/device|Efficiency (%)|
 |--- |--- |
@@ -235,8 +234,8 @@ A realistic mass and spring laboratory. Hang masses from springs and adjust the 
 <figcaption>
 Masses and Springs
 </figcaption>
-
 </figure>
+{: #fig2}
 </div>
 
 ### Section Summary
@@ -262,10 +261,14 @@ Masses and Springs
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Consider the following scenario. A car for which friction is *not* negligible accelerates from rest down a hill, running out of gasoline after a short distance. The driver lets the car coast farther down the hill, then up and over a small crest. He then coasts down that hill into a gas station, where he brakes to a stop and fills the tank with gasoline. Identify the forms of energy the car has, and how they are changed and transferred in this series of events. (See [Figure 2](#fig2).)
+Consider the following scenario. A car for which friction is *not* negligible accelerates from 
+rest down a hill, running out of gasoline after a short distance. The driver lets the car coast 
+farther down the hill, then up and over a small crest. He then coasts down that hill into a gas 
+station, where he brakes to a stop and fills the tank with gasoline. Identify the forms of energy the 
+car has, and how they are changed and transferred in this series of events. (See [Figure 3](#fig3).)
 
 ![A car coasting downhill, moving over a crest then again moving downhill and finally stopping at a gas station. Each of these positions is labeled with an arrow pointing downward.](../resources/Figure_08_06_02a.jpg "A car experiencing non-negligible friction coasts down a hill, over a small crest, then downhill again, and comes to a stop at a gas station.")
-{: #fig2}
+{: #fig3}
 
 </div>
 </div>
@@ -317,9 +320,8 @@ Using energy considerations and assuming negligible air resistance, show that a 
 </div>
 <div class="solution"  markdown="1">
 Equating $$ \Delta \PE_{g} $$ and $$ \Delta \KE $$, we obtain
-$$ v=\sqrt{2g h +{ v_{0}}^{2}}=\sqrt {2\left(9.80
-\mss \right)\left(20.0 \m \right)+\left(15.0  \ms {\right)
-}^{2}}=24.8  \ms  $$
+$$ v=\sqrt{2g h + v_0^{2}}=\sqrt{ 2\left(9.80 \mss \right)\left(20.0 \m \right)+\left(15.0  \ms \right)^{2}}=24.8  
+\ms  $$
 </div>
 </div>
 

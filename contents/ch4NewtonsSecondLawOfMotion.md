@@ -111,7 +111,8 @@ just given yields Newton\'s second law of motion.
 <div class="title">
 Newton’s Second Law of Motion
 </div>
-The acceleration of a system is directly proportional to and in the same direction as the net external force acting on the system, and inversely proportional to its mass.
+The acceleration of a system is directly proportional to and in the same direction as the net external 
+force acting on the system, and inversely proportional to its mass.
 
 In equation form, Newton’s second law of motion is
 
@@ -260,7 +261,13 @@ losing “mass” (which in turn causes them to weigh less).
 <div class="title">
 Take-Home Experiment: Mass and Weight
 </div>
-What do bathroom scales measure? When you stand on a bathroom scale, what happens to the scale? It depresses slightly. The scale contains springs that compress in proportion to your weight—similar to rubber bands expanding when pulled. The springs provide a measure of your weight (for an object which is not accelerating). This is a force in newtons (or pounds). In most countries, the measurement is divided by 9.80 to give a reading in mass units of kilograms. The scale measures weight but is calibrated to provide information about mass. While standing on a bathroom scale, push down on a table next to you. What happens to the reading? Why? Would your scale measure the same “mass” on Earth as on the Moon?
+What do bathroom scales measure? When you stand on a bathroom scale, what happens to the scale? It depresses slightly.
+The scale contains springs that compress in proportion to your weight—similar to rubber bands expanding when pulled. 
+The springs provide a measure of your weight (for an object which is not accelerating). This is a force in newtons
+(or pounds). In most countries, the measurement is divided by 9.80 to give a reading in mass units of kilograms. 
+The scale measures weight but is calibrated to provide information about mass. While standing on a bathroom scale,
+push down on a table next to you. What happens to the reading? Why? Would your scale measure the same “mass” on 
+Earth as on the Moon?
 
 </div>
 
@@ -268,9 +275,11 @@ What do bathroom scales measure? When you stand on a bathroom scale, what happen
 <div class="title">
 What Acceleration Can a Person Produce when Pushing a Lawn Mower?
 </div>
-Suppose that the net external force (push minus friction) exerted on a lawn mower is 51 N (about 11 lb) parallel to the ground. The mass of the mower is 24 kg. What is its acceleration?
+Suppose that the net external force (push minus friction) exerted on a lawn mower is 51 N (about 11 lb) parallel to 
+the ground. The mass of the mower is 24 kg. What is its acceleration?
 
 ![A man pushing a lawnmower to the right. A red vector above the lawnmower is pointing to the right and labeled F sub net.](../resources/Figure 04_03_03.jpg "The net force on a lawn mower is 51 N to the right. At what rate does the lawn mower accelerate to the right?")
+{: #fig3}
 
 **Strategy**
 
@@ -311,12 +320,27 @@ because the person’s top speed would soon be reached.
 <div class="title">
 What Rocket Thrust Accelerates This Sled?
 </div>
-Prior to manned space flights, rocket sleds were used to test aircraft, missile equipment, and physiological effects on human subjects at high speeds. They consisted of a platform that was mounted on one or two rails and propelled by several rockets. Calculate the magnitude of force exerted by each rocket, called its thrust $$ \vb{T} $$, for the four-rocket propulsion system shown in [Exercise](#fs-id92). The
+Prior to manned space flights, rocket sleds were used to test aircraft, missile equipment, and physiological effects on
+human subjects at high speeds. They consisted of a platform that was mounted on one or two rails and propelled by
+several rockets. Calculate the magnitude of force exerted by each rocket, called its thrust $$ \vb{T} $$, for the 
+four-rocket propulsion system shown in [Figure 4](#fig4). The
 sled’s initial acceleration is $$ 49\mss $$,
 the mass of the system is 2100 kg, and the force of friction opposing the motion
 is known to be 650 N.
 
-![A sled is shown with four rockets, each producing the same thrust, represented by equal length arrows labeled as vector T pushing the sled toward the right. Friction force is represented by an arrow labeled as vector f pointing toward the left on the sled. The weight of the sled is represented by an arrow labeled as vector W, shown pointing downward, and the normal force is represented by an arrow labeled as vector N having the same length as W acting upward on the sled. A free-body diagram is also shown for the situation. Four arrows of equal length representing vector T point toward the right, a vector f represented by a smaller arrow points left, vector N is an arrow pointing upward, and the weight W is an arrow of equal length pointing downward.](../resources/Figure_04_03_04.jpg "A sled experiences a rocket thrust that accelerates it to the right. Each rocket creates an identical thrust \( \vb{T} \) . As in other situations where there is only horizontal acceleration, the vertical forces cancel. The ground exerts an upward force \( \vb{N} \)  on the system that is equal in magnitude and opposite in direction to its weight, \( \vb{w} \) . The system here is the sled, its rockets, and rider, so none of the forces between these objects are considered. The arrow representing friction ( \( \vb{f} \) ) is drawn larger than scale.")
+![A sled is shown with four rockets, each producing the same thrust, represented by equal length arrows labeled as vector T
+pushing the sled toward the right. Friction force is represented by an arrow labeled as vector f pointing toward the
+left on the sled. The weight of the sled is represented by an arrow labeled as vector W, shown pointing downward, and
+the normal force is represented by an arrow labeled as vector N having the same length as W acting upward on the sled.
+A free-body diagram is also shown for the situation. Four arrows of equal length representing vector T point
+toward the right, a vector f represented by a smaller arrow points left, vector N is an arrow pointing upward,
+and the weight W is an arrow of equal length pointing downward.](../resources/Figure_04_03_04.jpg "A sled experiences a 
+rocket thrust that accelerates it to the right. Each rocket creates an identical thrust \( \vb{T} \) . As in other sit
+uations where there is only horizontal acceleration, the vertical forces cancel. The ground exerts an upward for
+ce \( \vb{N} \)  on the system that is equal in magnitude and opposite in direction to its weight, \( \vb{w} \) . The system
+here is the sled, its rockets, and rider, so none of the forces between these objects are considered.
+The arrow representing friction ( \( \vb{f} \) ) is drawn larger than scale.")
+{: #fig4}
 
 **Strategy**
 
@@ -338,7 +362,7 @@ calculations. Hence, we begin with
 $$ F_{\text{net}}=ma , $$
 </div>
 where $$ F_{\text{net}} $$ is the net force along the horizontal direction. We can see
-from [Exercise](#fs-id92) that the engine thrusts add, while friction
+from [Example 2](#example2) that the engine thrusts add, while friction
 opposes the thrust. In equation form, the net external force is
 
 <div class="equation">
@@ -562,7 +586,7 @@ in which recoil of the vehicle is avoided.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-In [Exercise](#fs-id10), the net external force on the 24-kg mower is stated to be 51 N.
+In [Figure 3](#fig3), the net external force on the 24-kg mower is stated to be 51 N.
 If the force of friction opposing the motion is 24 N, what force $$ F $$
 (in newtons) is the person exerting on the mower? Suppose the mower is moving at
 1.5 m/s when the force $$ F $$ is removed. How far will the mower go before
@@ -573,7 +597,7 @@ stopping?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-The same rocket sled drawn in [Exercise](#fs-id55) is decelerated at a rate of
+The same rocket sled drawn in [Figure 5](#fig5) is decelerated at a rate of
 $$ 196 \mss $$.
 What force is necessary to produce this deceleration? Assume that the rockets
 are off. The mass of the system is 2100 kg.
@@ -582,10 +606,12 @@ are off. The mass of the system is 2100 kg.
 </div>
 
 ![A sled is shown with four rockets. Friction force is represented by an arrow labeled as vector f pointing toward the left on the sled. Weight of the sled is represented by an arrow labeled as vector W, shown pointing downward, and normal force is represented by an arrow labeled as vector N having the same length as W acting upward on the sled.](../resources/Figure_04_03_07.jpg)
+{: #fig5}
+
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) If the rocket sled shown in [Exercise](#fs-id92) starts with only one rocket
+(a) If the rocket sled shown in [Figure 6](#fig6) starts with only one rocket
 burning, what is the magnitude of
 its acceleration? Assume that the mass of the system is 2100 kg,
 the thrust T is $$ 2.4\times 10^{4} \N $$, and the force of friction opposing the motion is known to be 650 N.
@@ -603,6 +629,8 @@ burning.
 </div>
 
 ![A sled is shown with thrust represented by a vector T pushing the sled toward the right. Friction force is represented by an arrow labeled as vector f pointing toward the left on the sled. The weight of the sled is represented by an arrow labeled as vector W, shown pointing downward, and the normal force is represented by an arrow labeled as vector N having the same length as W acting upward on the sled.](../resources/Figure_04_03_05.jpg)
+{: #fig6}
+
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
@@ -615,7 +643,8 @@ from a speed of 1000 km/h?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Suppose two children push horizontally, but in exactly opposite directions, on a third child in a wagon. The first child exerts a force of 75.0 N, the second a force of 90.0 N, friction is 12.0 N, and the mass of the third child plus wagon is 23.0 kg.
+Suppose two children push horizontally, but in exactly opposite directions, on a third child in a wagon.
+The first child exerts a force of 75.0 N, the second a force of 90.0 N, friction is 12.0 N, and the mass of the third child plus wagon is 23.0 kg.
 (a) What is the system of interest if the acceleration of the child in the wagon is to be calculated?
 (b) Draw a free-body diagram, including all forces acting on the system.
 (c) Calculate the acceleration.
@@ -628,7 +657,7 @@ Suppose two children push horizontally, but in exactly opposite directions, on a
 (b)
 
 ![An object represented as a dot labeled m is shown at the center. One force represented by an arrow labeled as vector F sub 2 acts toward the right. Another force represented by an arrow labeled as vector F sub 1 having a slightly shorter length in comparison with F sub 2 acts on the object pointing left. A friction force represented by an arrow labeled as vector f having a small length acts on the object toward the left. Weight, represented by an arrow labeled as vector W, acts on the object downward, and normal force, represented by an arrow labeled as vector N, acts upward, having the same length as W.](../resources/Figure_04_03_06.jpg)
-{: #fig3}
+{: #fig7}
 
 (c) $$ a=0.130\mss $$ in the direction of the second child’s push.
 
@@ -650,7 +679,9 @@ its acceleration if the mass of the motorcycle with rider is 245 kg?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-The rocket sled shown in [Exercise](#fs-id95) accelerates at a rate of $$ 49.0\mss $$. Its passenger has a mass of 75.0 kg.
+The rocket sled shown in the [Figure](#fig8) below accelerates at a rate of $$ 49.0\mss $$. Its passenger has a mass 
+of 75.
+0 kg.
 (a) Calculate the horizontal component of
 the force the seat exerts against his body. Compare this with his weight by
 using a ratio.
@@ -666,6 +697,7 @@ seat exerts against his body.
 </div>
 
 ![A sled is shown with four rockets. Friction force is represented by an arrow labeled as vector f pointing toward the left on the sled. The weight of the sled is represented by an arrow labeled as vector W, shown pointing downward, and the normal force is represented by an arrow labeled as vector N having the same length as W acting upward on the sled. ](../resources/Figure_04_03_07.jpg)
+{: #fig8}
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">

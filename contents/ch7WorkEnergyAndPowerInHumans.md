@@ -73,9 +73,9 @@ If a person needs more energy than they consume, such as when doing vigorous
 work, the body must draw upon the chemical energy stored in fat. So exercise can
 be helpful in losing fat. However, the amount of exercise needed to produce a
 loss in fat, or to burn off extra calories consumed that day, can be large,
-as [Exercise](#fs-id81) illustrates.
+as [Example 1](#example1) illustrates.
 
-<div class="example" markdown="1">
+<div class="example" id="example1" markdown="1">
 <div class="title">
 Calculating Weight Loss from Exercising
 </div>
@@ -327,7 +327,8 @@ Jogging on hard surfaces with insufficiently padded shoes produces large forces 
 <div class="problem" markdown="1">
 Kanellos Kanellopoulos flew 119 km from Crete to Santorini, Greece, on April 23, 1988, in the *Daedalus 88*, an aircraft
 powered by a bicycle-type drive mechanism (see [Figure 5](#fig5)). His useful power output for
-the 234-min trip was about 350 W. Using the efficiency for cycling from [Figure](../contents/ch7ConservationOfEnergy.md#import-auto-id1330125),
+the 234-min trip was about 350 W. Using the efficiency for 
+cycling from the module on [Conservation of Energy](../contents/ch7ConservationOfEnergy.md),
 calculate the food energy in kilojoules he metabolized during the flight.
 
 ![An aircraft flying in the air shown from outside, which is powered by a bicycle-type drive mechanism.](../resources/Figure_08_08_05a.jpg "The Daedalus 88 in flight. (credit: NASA photo by Beasley)")
@@ -342,7 +343,10 @@ The swimmer shown in [Figure 6](#fig6) exerts an average horizontal backward for
 (a) What is his work output in each stroke?
 (b) Calculate the power output of his arms if he does 120 strokes per minute.
 
-![A person swimming and his arm motion in each stroke is represented. The arm action is shown by an arc starting from where his hand enters the surface of the water and ending at the point where his hand emerges from the water. The diameter of this arc made by the person&#x2019;s hand tip in one stroke is one point eight meters.](../resources/Figure_08_08_06a.jpg)
+![A person swimming and his arm motion in each stroke is represented. The arm action is shown by an arc starting 
+from where his hand enters the surface of the water and ending at the point where his hand emerges from the water. 
+The diameter of this arc made by the person&#x2019;s hand tip in one stroke is one point eight meters.](..
+/resources/Figure_08_08_06a.jpg "A person swimming with a stroke of 1.80m")
 {: #fig6}
 
 </div>

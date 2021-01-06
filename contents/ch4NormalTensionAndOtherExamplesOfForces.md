@@ -516,8 +516,8 @@ Forces in 1 Dimension
 <iframe loading="lazy" src="https://phet.colorado.
 edu/sims/cheerpj/forces-1d/latest/forces-1d.html?simulation=forces-1d"
 width="800" height="600"  allowfullscreen></iframe>
-
 </figure>
+{: #fig10}
 </div>
 
 ### Section Summary
@@ -562,10 +562,10 @@ width="800" height="600"  allowfullscreen></iframe>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-If a leg is suspended by a traction setup as shown in [Figure 10](#fig10), what is the tension in the rope?
+If a leg is suspended by a traction setup as shown in [Figure 11](#fig11), what is the tension in the rope?
 
 ![Diagram of a leg in traction.](../resources/Figure_04_05_10.jpg "A leg is suspended by a traction system in which wires are used to transmit forces. Frictionless pulleys change the direction of the force T without changing its magnitude.")
-{: #fig10 height="275"}
+{: #fig11 height="275"}
 
 </div>
 </div>
@@ -656,7 +656,7 @@ $$ F=2T\sin{\theta} $$
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Consider the baby being weighed in [Figure 11](#fig11).
+Consider the baby being weighed in [Figure 12](#fig12).
 (a) What is the mass of the child and basket if a scale reading of 55 N is
 observed?
 (b) What is the tension $$ T_{1} $$ in the cord attaching the baby to the scale?
@@ -668,7 +668,7 @@ solve each part. The masses of the cords are negligible.
 </div>
 
 ![A vertical spring scale measuring the weight of a baby is shown. The scale is hung from the ceiling by a cord. The weight W of the baby is shown by a vector arrow acting downward and tension T sub one acting in the cord is shown by an arrow upward. The tension in the cord T sub two attached to the ceiling is represented by an arrow upward from the spring scale and downward from the ceiling.](../resources/Figure_04_05_14.jpg "A baby is weighed using a spring scale.")
-{: #fig11}
+{: #fig12}
 
 <div class="glossary" markdown="1">
 

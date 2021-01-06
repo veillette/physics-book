@@ -275,7 +275,6 @@ A spark of static electricity, such as that you might receive from a doorknob on
 The Crab Nebula (see [Figure 4](#fig4)) pulsar is the remnant of a supernova that occurred in A.D. 1054. Using data from [Table 1](#table1), calculate the approximate factor by which the power output of this astronomical object has declined since its explosion.
 
 ![A supernova explosion.](../resources/crabNebula.jpg "Crab Nebula (credit: ESO, via Wikimedia Commons)")
-
 {: #fig4}
 
 </div>

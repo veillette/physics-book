@@ -578,8 +578,8 @@ height="450"  allowfullscreen></iframe>
 <figcaption>
 Hooke's Law
 </figcaption>
-
 </figure>
+{: fig9}
 </div>
 
 ### Section Summary
@@ -843,7 +843,7 @@ to the horizontal.
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
 To consider the effect of wires hung on poles, we take data
-from [Figure](../contents/ch5FurtherApplicationsOfNewtonsLaws.md#fs-id88), in which tensions in wires
+from [Example 2](../contents/ch4FurtherApplicationsOfNewtonsLawsOfMotion.md), in which tensions in wires
 supporting a traffic light were calculated. The left wire made an angle $$ 30.0^\circ $$
 below the horizontal with the top of its pole and carried a tension of 108 N.
 The 12.0 m tall hollow aluminum pole is equivalent in stiffness to a 4.50 cm
@@ -887,7 +887,10 @@ the like?
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
 This problem returns to the tightrope walker studied 
-in [Figure](../contents/ch5NormalTensionandOtherExamplesOfForces.md#fs-id36), who created a tension of $$ 3.94 \times 10^{3}N $$
+in Example 2 of [Normal Tension and Other Examples Of Forces](../contents/ch4NormalTensionandOtherExamplesOfForces.md), 
+who created a tension of $$ 3.94 
+\times 10^
+{3}N $$
 in a wire making an angle $$ 5.0^\circ $$ below the horizontal with each
 supporting pole. Calculate how much this tension stretches the steel wire if it
 was originally 15 m long and 0.50 cm in diameter.
@@ -901,7 +904,7 @@ was originally 15 m long and 0.50 cm in diameter.
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-The pole in [Figure 9](#fig9) is at a $$ 90.0^\circ $$
+The pole in [Figure 10](#fig10) is at a $$ 90.0^\circ $$
 bend in a power line and is therefore subjected to more shear force than poles
 in straight parts of the line. The tension in each line is $$ 4.00 \times
 10^{4}N $$, at the angles shown. The pole is 15.0 m tall, has an 18.0 cm
@@ -913,7 +916,7 @@ to the top of the pole at an angle of $$ 30.0^\circ $$ with the vertical. (
 Clearly, the guy wire must be in the opposite direction of the bend.)
 
 ![A telephone pole is located at a ninety degree bend in a power line. Each part of the line is at an angle of eighty degrees with the pole and has a tension labeled T. A guy wire is attached to the top of the pole at an angle of thirty degrees with the vertical.](../resources/Figure_06_03_10a.jpg "This telephone pole is at a 90 degrees bend in a power line. A guy wire is attached to the top of the pole at an angle of 30 degrees with the vertical.")
-{: #fig9}
+{: #fig10}
 
 </div>
 </div>
