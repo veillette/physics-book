@@ -10,32 +10,29 @@ layout: page
 
 </div>
 
-**Analytical methods** of
-vector addition and subtraction employ geometry and simple trigonometry rather
-than the ruler and protractor of graphical methods. Part of the graphical
-technique is retained, because vectors are still represented by arrows for easy
-visualization. However, analytical methods are more concise, accurate, and
-precise than graphical methods, which are limited by the accuracy with which a
-drawing can be made. Analytical methods are limited only by the accuracy and
-precision with which physical quantities are known.
+**Analytical methods** of vector addition and subtraction employ geometry and
+simple trigonometry rather than the ruler and protractor of graphical methods.
+Part of the graphical technique is retained, because vectors are still
+represented by arrows for easy visualization. However, analytical methods are
+more concise, accurate, and precise than graphical methods, which are limited by
+the accuracy with which a drawing can be made. Analytical methods are limited
+only by the accuracy and precision with which physical quantities are known.
 
 ### Resolving a Vector into Perpendicular Components
 
 Analytical techniques and right triangles go hand-in-hand in physics because (
 among other things) motions along perpendicular directions are independent. We
 very often need to separate a vector into perpendicular components. For example,
-given a vector like $$ \vb{A} $$ in [Figure 1](#fig1),
-we may wish to find which two perpendicular vectors, $$ \vb{A}_{x} $$
-and $$ \vb{A}_{y} $$, add to produce it.
+given a vector like $$ \vb{A} $$ in [Figure 1](#fig1), we may wish to find which
+two perpendicular vectors, $$ \vb{A}_{x} $$ and $$ \vb{A}_{y} $$, add to produce
+it.
 
-![In the given figure a dotted vector A sub x is drawn from the origin along the x axis. From the head of the vector A sub x another vector A sub y is drawn in the upward direction. Their resultant vector A is drawn from the tail of the vector A sub x to the head of the vector A sub y at an angle theta from the x axis. On the graph a vector A, inclined at an angle theta with x axis is shown. Therefore vector A is the sum of the vectors A sub x and A sub y.](../resources/Figure_03_03_01a.jpg "The vector  \( A \) , with its tail at the origin of an x, y-coordinate system, is shown together with its x- and y-components,  \( A_x \)  and  \( A_y \) .
-These vectors form a right triangle. The analytical relationships among these vectors are summarized below.")
+![In the given figure a dotted vector A sub x is drawn from the origin along the x axis. From the head of the vector A sub x another vector A sub y is drawn in the upward direction. Their resultant vector A is drawn from the tail of the vector A sub x to the head of the vector A sub y at an angle theta from the x axis. On the graph a vector A, inclined at an angle theta with x axis is shown. Therefore vector A is the sum of the vectors A sub x and A sub y.](../resources/Figure_03_03_01a.jpg "The vector \( A \) , with its tail at the origin of an x, y-coordinate system, is shown together with its x- and y-components, \( A_x \) and \( A_y \) . These vectors form a right triangle. The analytical relationships among these vectors are summarized below.")
 {: #fig1 height="200"}
 
-$$ \vb{A}_{x} $$ and $$ \vb{A}_{y} $$ are defined to be the
-components of $$ \vb{A} $$ along the **x**- and **y**-axes. The three
-vectors $$ \vb{A} $$, $$ \vb{A}_{x} $$, and $$ \vb{A}_{y} $$
-form a right triangle:
+$$ \vb{A}_{x} $$ and $$ \vb{A}_{y} $$ are defined to be the components of $$
+\vb{A} $$ along the **x**- and **y**-axes. The three vectors $$ \vb{A} $$, $$
+\vb{A}_{x} $$, and $$ \vb{A}_{y} $$ form a right triangle:
 
 <div class="equation">
  $$ \vb{A}_{x}+ \vb{A}_{y} = \vb{A}. $$
@@ -44,10 +41,11 @@ form a right triangle:
 Note that this relationship between vector components and the resultant vector
 holds only for vector quantities (which include both magnitude and direction).
 The relationship does not apply for the magnitudes alone. For example, if $$
-\vb{A}_{x}=3 \m $$ east, $$ \vb{A}_{y}=4 \m
-$$ north, and $$ \vb{A}=5 \m $$ north-east, then it is true
-that the vectors $$ \vb{A}_{x} +\vb{A}_{y} =\vb{A} $$. However, it is
-**not** true that the sum of the magnitudes of the vectors is also equal. That is,
+\vb{A}_{x}=3 \m $$ east, $$ \vb{A}_{y}=4 \m $$ north, and $$ \vb{A}=5 \m $$
+north-east, then it is true that the vectors $$ \vb{A}_{x} +\vb{A}_{y} =\vb{A}
+$$. However, it is
+**not** true that the sum of the magnitudes of the vectors is also equal. That
+is,
 
 <div class="equation">
  $$ 3 \m + 4 \m \ne 5 \m $$
@@ -61,9 +59,8 @@ Thus,
 
 If the vector $$ \vb{A} $$ is known, then its magnitude $$ A $$
 (its length) and its angle $$ \theta $$
-(its direction) are known. To find $$ A_{x} $$
- and $$ A_{y} $$, its **x**- and **y**-components, we use the
-following relationships for a right triangle.
+(its direction) are known. To find $$ A_{x} $$ and $$ A_{y} $$, its **x**-
+and **y**-components, we use the following relationships for a right triangle.
 
 <div class="equation">
  $$ A_{x}=A\cos{\theta} $$
@@ -75,13 +72,14 @@ and
  $$ A_{y}=A\sin{\theta} . $$
 </div>
 
-![\]A dotted vector A sub x whose magnitude is equal to A cosine theta is drawn from the origin along the x axis. From the head of the vector A sub x another vector A sub y whose magnitude is equal to A sine theta is drawn in the upward direction. Their resultant vector A is drawn from the tail of the vector A sub x to the head of the vector A-y at an angle theta from the x axis. Therefore vector A is the sum of the vectors A sub x and A sub y.](../resources/Figure_03_03_02a.jpg "The magnitudes of the vector components  \( A_x \)  and  \( A_y \)  can be related to the resultant vector  \( A \)  and the angle \( \theta \) with trigonometric identities. Here we see that \( A_x = A \cos{\theta } \) and \( A_y=A \sin{\theta} \) .")
+![\]A dotted vector A sub x whose magnitude is equal to A cosine theta is drawn from the origin along the x axis. From the head of the vector A sub x another vector A sub y whose magnitude is equal to A sine theta is drawn in the upward direction. Their resultant vector A is drawn from the tail of the vector A sub x to the head of the vector A-y at an angle theta from the x axis. Therefore vector A is the sum of the vectors A sub x and A sub y.](../resources/Figure_03_03_02a.jpg "The magnitudes of the vector components \( A_x \) and \( A_y \) can be related to the resultant vector \( A \) and the angle \( \theta \) with trigonometric identities. Here we see that \( A_x = A \cos{\theta } \) and \( A_y=A \sin{\theta} \) .")
 {: #fig2 height="225"}
 
 Suppose, for example, that $$ \vb{A} $$ is the vector representing the total
 displacement of the person walking in a city considered
 in [Kinematics in Two Dimensions: An Introduction](../contents/ch3KinematicsInTwoDimensionsAnIntroduction.md)
-and [Vector Addition and Subtraction: Graphical Methods](../contents/ch3VectorAdditionAndSubtractionGraphicalMethods.md).
+and [Vector Addition and Subtraction: Graphical Methods](../contents/ch3VectorAdditionAndSubtractionGraphicalMethods.md)
+.
 
 ![In the given figure a vector A of magnitude ten point three blocks is inclined at an angle twenty nine point one degrees to the positive x axis. The horizontal component A sub x of vector A is equal to A cosine theta which is equal to ten point three blocks multiplied to cosine twenty nine point one degrees which is equal to nine blocks east. Also the vertical component A sub y of vector A is equal to A sin theta is equal to ten point three blocks multiplied to sine twenty nine point one degrees, which is equal to five point zero blocks north.](../resources/Figure_03_03_03.jpg "We can use the relationships \( A_x=A \cos{ \theta} \) and \( A_y=A \sin{ \theta } \) to determine the magnitude of the horizontal and vertical component vectors in this example.")
 {: #fig3}
@@ -98,11 +96,11 @@ Then $$ A=10.3 $$ blocks and $$ \theta =29.1^\circ $$, so that
 
 ### Calculating a Resultant Vector
 
-If the perpendicular components $$ \vb{A}_{x} $$ and $$ \vb{A}_{y}
-$$ of a vector $$ \vb{A} $$ are known, then $$ \vb{A} $$ can also be
-found analytically. To find the magnitude $$ A $$ and direction $$ \theta $$ of
-a vector from its perpendicular components $$ \vb{A}_{x} $$ and $$
-\vb{A}_{y} $$, we use the following relationships:
+If the perpendicular components $$ \vb{A}_{x} $$ and $$ \vb{A}_{y} $$ of a
+vector $$ \vb{A} $$ are known, then $$ \vb{A} $$ can also be found analytically.
+To find the magnitude $$ A $$ and direction $$ \theta $$ of a vector from its
+perpendicular components $$ \vb{A}_{x} $$ and $$ \vb{A}_{y} $$, we use the
+following relationships:
 
 <div class="equation">
  $$ A=\sqrt{ A_x^2+ A_y^2} $$
@@ -141,21 +139,20 @@ subtraction.
 ### Adding Vectors Using Analytical Methods
 
 To see how to add vectors using perpendicular components,
-consider [Figure 5](#fig5), in which the vectors $$
-\vb{A} $$ and $$ \vb{B} $$ are added to produce the resultant $$
-\vb{R} $$.
+consider [Figure 5](#fig5), in which the vectors $$ \vb{A} $$ and $$ \vb{B} $$
+are added to produce the resultant $$ \vb{R} $$.
 
-![Two vectors A and B are shown. The tail of vector B is at the head of vector A and the tail of the vector A is at origin. Both the vectors are in the first quadrant. The resultant R of these two vectors extending from the tail of vector A to the head of vector B is also shown.](../resources/Figure_03_03_05a.jpg "Vectors  \( A \)  and  \( B \)  are two legs of a walk, and  \( R \)  is the resultant or total displacement. You can use analytical methods to determine the magnitude and direction of  \( R \) .")
+![Two vectors A and B are shown. The tail of vector B is at the head of vector A and the tail of the vector A is at origin. Both the vectors are in the first quadrant. The resultant R of these two vectors extending from the tail of vector A to the head of vector B is also shown.](../resources/Figure_03_03_05a.jpg "Vectors \( A \) and \( B \) are two legs of a walk, and \( R \) is the resultant or total displacement. You can use analytical methods to determine the magnitude and direction of \( R \) .")
 {: #fig5}
 
 If $$ \vb{A} $$ and $$ \vb{B} $$ represent two legs of a walk (two
-displacements), then $$ \vb{R} $$ is the total displacement. The person
-taking the walk ends up at the tip of $$ \vb{R}$$. There are many ways to
-arrive at the same point. In particular, the person could have walked first in
-the *x*-direction and then in the *y*-direction. Those paths are the *x*- and
-*y*-components of the resultant, $$ \vb{R}_{x} $$ and $$ \vb{R}_{y}
-$$. If we know $$ \vb{R}_{x} $$ and $$ \vb{R}_{y} $$, we can
-find $$ R $$ and $$ \theta $$ using the equations $$ A=\sqrt{ A_{x}^{2}+ A_
+displacements), then $$ \vb{R} $$ is the total displacement. The person taking
+the walk ends up at the tip of $$ \vb{R}$$. There are many ways to arrive at the
+same point. In particular, the person could have walked first in the *x*
+-direction and then in the *y*-direction. Those paths are the *x*- and
+*y*-components of the resultant, $$ \vb{R}_{x} $$ and $$ \vb{R}_{y} $$. If we
+know $$ \vb{R}_{x} $$ and $$ \vb{R}_{y} $$, we can find $$ R $$ and $$ \theta $$
+using the equations $$ A=\sqrt{ A_{x}^{2}+ A_
 {y}^{2}} $$ and $$ \theta ={\tan}^{-1}\left( A_{y}/ A_{x}\right) $$. When you
 use the analytical method of vector addition, you can determine the components
 or the magnitude and direction of a vector.
@@ -163,18 +160,17 @@ or the magnitude and direction of a vector.
 ***Step 1.*** *Identify the x- and y-axes that will be used in the problem.
 Then, find the components of each vector to be added along the chosen
 perpendicular axes.* Use the equations $$ A_{x}=A\cos{\theta} $$ and $$ A_
-{y}=A\sin{\theta} $$ to find the components.
-In [Figure 6](#fig6), these components are $$ A_{x} $$,
-$$ A_{y} $$, $$ B_{x} $$, and $$ B_{y} $$. The angles that vectors $$ \vb{A}
-$$ and $$ \vb{B} $$ make with the **x**-axis are $$ \theta_{\text{A}} $$ and
-$$ \theta_{\text{B}} $$, respectively.
+{y}=A\sin{\theta} $$ to find the components. In [Figure 6](#fig6), these
+components are $$ A_{x} $$, $$ A_{y} $$, $$ B_{x} $$, and $$ B_{y} $$. The
+angles that vectors $$ \vb{A} $$ and $$ \vb{B} $$ make with the **x**-axis are
+$$ \theta_{\text{A}} $$ and $$ \theta_{\text{B}} $$, respectively.
 
-![Two vectors A and B are shown. The tail of the vector B is at the head of vector A and the tail of the vector A is at origin. Both the vectors are in the first quadrant. The resultant R of these two vectors extending from the tail of vector A to the head of vector B is also shown. The horizontal and vertical components of the vectors A and B are shown with the help of dotted lines. The vectors labeled as A sub x and A sub y are the components of vector A, and B sub x and B sub y as the components of vector B..](../resources/Figure_03_03_06a.jpg "To add vectors  \( A \)  and  \( B \) , first determine the horizontal and vertical components of each vector. These are the dotted vectors  \( A_x \) ,  \( A_y \) ,  \( B_x \)  and   \( B_y \)  shown in the image.")
+![Two vectors A and B are shown. The tail of the vector B is at the head of vector A and the tail of the vector A is at origin. Both the vectors are in the first quadrant. The resultant R of these two vectors extending from the tail of vector A to the head of vector B is also shown. The horizontal and vertical components of the vectors A and B are shown with the help of dotted lines. The vectors labeled as A sub x and A sub y are the components of vector A, and B sub x and B sub y as the components of vector B..](../resources/Figure_03_03_06a.jpg "To add vectors \( A \) and \( B \) , first determine the horizontal and vertical components of each vector. These are the dotted vectors \( A_x \) , \( A_y \) , \( B_x \) and \( B_y \) shown in the image.")
 {: #fig6}
 
 ***Step 2.*** *Find the components of the resultant along each axis by adding
-the components of the individual vectors along that axis.* That is, as
-shown in [Figure 7](#fig7),
+the components of the individual vectors along that axis.* That is, as shown
+in [Figure 7](#fig7),
 
 <div class="equation">
  $$ R_{x}= A_{x}+B_{x} $$
@@ -186,7 +182,7 @@ and
  $$ R_{y}= A_{y}+B_{y}. $$
 </div>
 
-![Two vectors A and B are shown. The tail of vector B is at the head of vector A and the tail of the vector A is at origin. Both the vectors are in the first quadrant. The resultant R of these two vectors extending from the tail of vector A to the head of vector B is also shown. The vectors A and B are resolved into the horizontal and vertical components shown as dotted lines parallel to x axis and y axis respectively. The horizontal components of vector A and vector B are labeled as A sub x and B sub x and the horizontal component of the resultant R is labeled at R sub x and is equal to A sub x plus B sub x. The vertical components of vector A and vector B are labeled as A sub y and B sub y and the vertical components of the resultant R is labeled as R sub y is equal to A sub y plus B sub y.](../resources/Figure_03_03_07a.jpg "The magnitude of the vectors  \( A_x \)  and  \( B_x \)  add to give the magnitude  \( R_x \)  of the resultant vector in the horizontal direction. Similarly, the magnitudes of the vectors  \( A_y \)  and   \( B_y \)  add to give the magnitude  \( R_y \)  of the resultant vector in the vertical direction.")
+![Two vectors A and B are shown. The tail of vector B is at the head of vector A and the tail of the vector A is at origin. Both the vectors are in the first quadrant. The resultant R of these two vectors extending from the tail of vector A to the head of vector B is also shown. The vectors A and B are resolved into the horizontal and vertical components shown as dotted lines parallel to x axis and y axis respectively. The horizontal components of vector A and vector B are labeled as A sub x and B sub x and the horizontal component of the resultant R is labeled at R sub x and is equal to A sub x plus B sub x. The vertical components of vector A and vector B are labeled as A sub y and B sub y and the vertical components of the resultant R is labeled as R sub y is equal to A sub y plus B sub y.](../resources/Figure_03_03_07a.jpg "The magnitude of the vectors \( A_x \) and \( B_x \) add to give the magnitude \( R_x \) of the resultant vector in the horizontal direction. Similarly, the magnitudes of the vectors \( A_y \) and \( B_y \) add to give the magnitude \( R_y \) of the resultant vector in the vertical direction.")
 {: #fig7}
 
 Components along the same axis, say the **x**-axis, are vectors along the same
@@ -230,7 +226,7 @@ represents the second leg, a displacement of $$ 34.0 \m  $$
 in a direction $$ 63.0^\circ $$
 north of east.
 
-![Two vectors A and B are shown. The tail of the vector A is at origin. Both the vectors are in the first quadrant. Vector A is of magnitude fifty three units and is inclined at an angle of twenty degrees to the horizontal. From the head of the vector A another vector B of magnitude 34 units is drawn and is inclined at angle sixty three degrees with the horizontal. The resultant of two vectors is drawn from the tail of the vector A to the head of the vector B.](../resources/Figure_03_03_08a.jpg "Vector  \( A \)  has magnitude 53.0 m and direction 20.0 degrees north of the x-axis. Vector  \( B \)  has magnitude 34.0 m and direction 63.0 degrees north of the x-axis. You can use analytical methods to determine the magnitude and direction of  \( R \) .")
+![Two vectors A and B are shown. The tail of the vector A is at origin. Both the vectors are in the first quadrant. Vector A is of magnitude fifty three units and is inclined at an angle of twenty degrees to the horizontal. From the head of the vector A another vector B of magnitude 34 units is drawn and is inclined at angle sixty three degrees with the horizontal. The resultant of two vectors is drawn from the tail of the vector A to the head of the vector B.](../resources/Figure_03_03_08a.jpg "Vector \( A \) has magnitude 53.0 m and direction 20.0 degrees north of the x-axis. Vector \( B \) has magnitude 34.0 m and direction 63.0 degrees north of the x-axis. You can use analytical methods to determine the magnitude and direction of \( R \) .")
 {: #fig8}
 
 **Strategy**
@@ -241,11 +237,11 @@ point. Once found, they are combined to produce the resultant.
 
 **Solution**
 
-Following the method outlined above, we first find the components of $$
-\vb{A} $$ and $$ \vb{B} $$ along the **x**- and **y**-axes. Note that $$
-A=53.0 \m $$, $$ \theta_{\text{A}}=20.0^\circ $$, $$ B=34.0 \m $$,
-and $$ \theta_{\text{B}}=63.0^\circ $$. We find the **x**-components by using $$
-A_{x}=A\cos{\theta} $$, which gives
+Following the method outlined above, we first find the components of $$ \vb{A}
+$$ and $$ \vb{B} $$ along the **x**- and **y**-axes. Note that $$ A=53.0 \m $$,
+$$ \theta_{\text{A}}=20.0^\circ $$, $$ B=34.0 \m $$, and $$ \theta_
+{\text{B}}=63.0^\circ $$. We find the **x**-components by using $$ A_
+{x}=A\cos{\theta} $$, which gives
 
 <div class="equation">
  $$ \begin{array}{lll}
@@ -317,11 +313,11 @@ Vector subtraction using perpendicular components is very similar—it is just t
 addition of a negative vector.
 
 Subtraction of vectors is accomplished by the addition of a negative vector.
-That is, $$ \vb{A}-\vb{B}\equiv \vb{A}+\left( -\vb{B} \right) $$.
-Thus, *the method for the subtraction of vectors using perpendicular components
-is identical to that for addition*. The components of $$ -\vb{B} $$
-are the negatives of the components of $$ \vb{B} $$. The *x*- and **y**-components
-of the resultant $$ \vb{A}-\vb{B} = \vb{R} $$ are thus
+That is, $$ \vb{A}-\vb{B}\equiv \vb{A}+\left( -\vb{B} \right) $$. Thus, *the
+method for the subtraction of vectors using perpendicular components is
+identical to that for addition*. The components of $$ -\vb{B} $$ are the
+negatives of the components of $$ \vb{B} $$. The *x*- and **y**-components of
+the resultant $$ \vb{A}-\vb{B} = \vb{R} $$ are thus
 
 <div class="equation">
  $$ R_{x}= A_{x}+\left(- B_{x}\right) $$
@@ -337,11 +333,11 @@ and the rest of the method outlined above is identical to that for addition. (Se
 
 Analyzing vectors using perpendicular components is very useful in many areas of
 physics, because perpendicular quantities are often independent of one another.
-The next module, [Projectile Motion](../contents/ch3ProjectileMotion.md), is one of many in which
-using perpendicular components helps make the picture clear and simplifies the
-physics.
+The next module, [Projectile Motion](../contents/ch3ProjectileMotion.md), is one
+of many in which using perpendicular components helps make the picture clear and
+simplifies the physics.
 
-![In this figure, the subtraction of two vectors A and B is shown. A red colored vector A is inclined at an angle theta A to the positive of x axis. From the head of vector A a blue vector negative B is drawn. Vector B is in west of south direction. The resultant of the vector A and vector negative B is shown as a black vector R from the tail of vector A to the head of vector negative B. The resultant R is inclined to x axis at an angle theta below the x axis. The components of the vectors are also shown along the coordinate axes as dotted lines of their respective colors.](../resources/Figure_03_03_10a.jpg "The subtraction of the two vectors shown in [link]. The components of &#x2013; \( B \)  are the negatives of the components of  \( B \) . The method of subtraction is the same as that for addition.")
+![In this figure, the subtraction of two vectors A and B is shown. A red colored vector A is inclined at an angle theta A to the positive of x axis. From the head of vector A a blue vector negative B is drawn. Vector B is in west of south direction. The resultant of the vector A and vector negative B is shown as a black vector R from the tail of vector A to the head of vector negative B. The resultant R is inclined to x axis at an angle theta below the x axis. The components of the vectors are also shown along the coordinate axes as dotted lines of their respective colors.](../resources/Figure_03_03_10a.jpg "The subtraction of the two vectors shown in [link]. The components of &#x2013; \( B \) are the negatives of the components of \( B \) . The method of subtraction is the same as that for addition.")
 {: #fig10}
 
 <div class="note" data-label="PhET Exploration" markdown="1">
@@ -361,22 +357,21 @@ Vector Addition
 
 ### Summary
 
-* The analytical method of vector addition and
-  subtraction involves using the Pythagorean theorem and trigonometric
-  identities to determine the magnitude and direction of a resultant vector.
-* The steps to add vectors $$ \vb{A} $$ and
- $$ \vb{B} $$ using the analytical method are as follows:
+* The analytical method of vector addition and subtraction involves using the
+  Pythagorean theorem and trigonometric identities to determine the magnitude
+  and direction of a resultant vector.
+* The steps to add vectors $$ \vb{A} $$ and $$ \vb{B} $$ using the analytical
+  method are as follows:
   Step 1: Determine the coordinate system for the vectors. Then, determine the
   horizontal and vertical components of each vector using the equations
 
   <div class="equation">
- $$ \begin{array}{lll} 
- A_{x}&=& A\cos{\theta} \\ 
- B_{x}&=& B\cos{\theta} 
- \end{array} $$
+
+$$ \begin{array}{lll} A_{x}&=& A\cos{\theta} \\ B_{x}&=& B\cos{\theta}
+\end{array} $$
   </div>
 
-  and
+and
 
   <div class="equation">
  $$ \begin{array}{lll} 
@@ -385,27 +380,29 @@ B_{y}&=& B\sin{\theta} .
 \end{array} $$
   </div>
 
-  Step 2: Add the horizontal and vertical components of each vector to determine
-  the components $$ R_{x} $$ and $$ R_{y} $$ of the resultant vector, $$ \vb{R} $$:
+Step 2: Add the horizontal and vertical components of each vector to determine
+the components $$ R_{x} $$ and $$ R_{y} $$ of the resultant vector, $$ \vb{R}
+$$:
 
   <div class="equation">
  $$ R_{x}= A_{x}+B_{x} $$
   </div>
 
-  and
+and
 
   <div class="equation">
  $$ R_{y}= A_{y}+B_{y} . $$
   </div>
 
-  Step 3: Use the Pythagorean theorem to determine the magnitude, $$ R $$, of
-  the resultant vector $$ \vb{R} $$:
+Step 3: Use the Pythagorean theorem to determine the magnitude, $$ R $$, of the
+resultant vector $$ \vb{R} $$:
 
   <div class="equation">
  $$ R=\sqrt{ R_{x}^{2}+R_{y}^{2}}. $$
   </div>
 
-  Step 4: Use a trigonometric identity to determine the direction, $$ \theta $$, of $$ \vb{R} $$:
+Step 4: Use a trigonometric identity to determine the direction, $$ \theta $$,
+of $$ \vb{R} $$:
 
   <div class="equation">
  $$ \theta ={\tan}^{-1}\left( R_{y}/ R_{x}\right). $$
@@ -495,7 +492,7 @@ Solve the following problem using analytical techniques: Suppose you walk 18.0 m
 find their sum $$
 \vb{R}=\vb{A}+\vb{B} $$.)
 
-![In the given figure displacement of a person is shown. First movement of the person is shown as vector A from origin along negative x axis. He then turns to his right. His movement is now shown as a vertical vector in north direction. The displacement vector R is also shown. In the question you are asked to find the displacement of the person from the start to finish.](../resources/Figure_03_02_21a.jpg "The two displacements  \( A \)  and  \( B \)  add to give a total displacement  \( R \)  having magnitude  \( R \)  and direction  \( \theta \) .")
+![In the given figure displacement of a person is shown. First movement of the person is shown as vector A from origin along negative x axis. He then turns to his right. His movement is now shown as a vertical vector in north direction. The displacement vector R is also shown. In the question you are asked to find the displacement of the person from the start to finish.](../resources/Figure_03_02_21a.jpg "The two displacements \( A \) and \( B \) add to give a total displacement \( R \) having magnitude \( R \) and direction \( \theta \) .")
 {: #fig13}
 
 Note that you can also solve this graphically. Discuss why the analytical
@@ -540,11 +537,9 @@ straight south. (This is equivalent to subtracting $$ \vb{B} $$
 from $$ \vb{A} $$
 —that is, finding $$ \vb{R}^\prime =\vb{A} - \vb{B} $$)
 
-(b) Repeat again, but now you first walk $$ 25.0 \m  $$
-north and then $$ 18.0 \m  $$
-east. (This is equivalent to subtract $$ \vb{A} $$
-from $$ \vb{B} $$
-—that is, to find $$ \vb{A}=\vb{B}+\vb{C} $$. Is that consistent with your result?)
+(b) Repeat again, but now you first walk $$ 25.0 \m $$ north and then $$ 18.0 \m
+$$ east. (This is equivalent to subtract $$ \vb{A} $$ from $$ \vb{B} $$ —that
+is, to find $$ \vb{A}=\vb{B}+\vb{C} $$. Is that consistent with your result?)
 
 </div>
 <div class="solution" markdown="1">
@@ -641,6 +636,7 @@ mass.
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 analytical method

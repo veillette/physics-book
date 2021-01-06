@@ -13,15 +13,16 @@ layout: page
 ### Law of Conservation of Energy
 
 Energy, as we have noted, is conserved, making it one of the most important
-physical quantities in nature. The **law of conservation of energy** can be stated as follows:
+physical quantities in nature. The **law of conservation of energy** can be
+stated as follows:
 
 *Total energy is constant in any process. It may change in form or be
 transferred from one system to another, but the total remains the same.*
 
 We have explored some forms of energy and some ways it can be transferred from
 one system to another. This exploration led to the definition of two major types
-of energy—mechanical energy $$ \left(\KE+\PE\right) $$ and energy
-transferred via work done by nonconservative forces $$ \left(W_
+of energy—mechanical energy $$ \left(\KE+\PE\right) $$ and energy transferred
+via work done by nonconservative forces $$ \left(W_
 {\text{nc}}\right) $$. But energy takes *many* other forms, manifesting itself
 in *many* different ways, and we need to be able to deal with all of these
 before we can write an equation for the above general statement of the
@@ -30,20 +31,19 @@ conservation of energy.
 ### Other Forms of Energy than Mechanical Energy
 
 At this point, we deal with all other forms of energy by lumping them into a
-single group called other energy ( $$ \text{OE} $$).
-Then we can state the conservation of energy in equation form as
+single group called other energy ( $$ \text{OE} $$). Then we can state the
+conservation of energy in equation form as
 
 <div class="equation">
  $$ \KE_{\text{i}}+\PE_{\text{i}}+W_{\text{nc}}+\text{OE}_{\text{i}}=\KE_{\text{f}}+\PE_{\text{f}}+\text{OE}_{\text{f}}. $$
 </div>
 
 All types of energy and work can be included in this very general statement of
-conservation of energy. Kinetic energy is $$ \KE $$, work done by a
-conservative force is represented by $$ \PE $$, work done by
-nonconservative forces is $$ W_{\text{nc}} $$, and all other energies are
-included as $$ \text{OE} $$. This equation applies to all previous examples; in
-those situations $$ \text{OE} $$ was constant, and so it subtracted out and was
-not directly considered.
+conservation of energy. Kinetic energy is $$ \KE $$, work done by a conservative
+force is represented by $$ \PE $$, work done by nonconservative forces is $$ W_
+{\text{nc}} $$, and all other energies are included as $$ \text{OE} $$. This
+equation applies to all previous examples; in those situations $$ \text{OE} $$
+was constant, and so it subtracted out and was not directly considered.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -63,29 +63,28 @@ another form of $$ \text{OE} $$).
 
 What are some other forms of energy? You can probably name a number of forms of
 energy not yet discussed. Many of these will be covered in later chapters, but
-let us detail a few here. **Electrical energy** is a common form that is converted to many other forms
-and does work in a wide range of practical situations. Fuels, such as gasoline
-and food, carry **chemical energy**
+let us detail a few here. **Electrical energy** is a common form that is
+converted to many other forms and does work in a wide range of practical
+situations. Fuels, such as gasoline and food, carry **chemical energy**
 that can be transferred to a system through oxidation. Chemical fuel can also
 produce electrical
 
 energy, such as in batteries. Batteries can in turn produce light, which is a
 very pure form of energy. Most energy sources on Earth are in fact stored energy
 from the energy we receive from the Sun. We sometimes refer to this as **radiant
-energy**, or electromagnetic
-radiation, which includes visible light, infrared, and ultraviolet radiation.
-**Nuclear energy** comes from processes
-that convert measurable amounts of mass into energy. Nuclear energy is
-transformed into the energy of sunlight, into electrical energy in power plants,
-and into the energy of the heat transfer and blast in weapons. Atoms and
-molecules inside all objects are in random motion. This internal mechanical
-energy from the random motions is called **thermal energy**, because it is related to the temperature of the object.
-These and all other forms of energy can be converted into one another and can do
-work.
+energy**, or electromagnetic radiation, which includes visible light, infrared,
+and ultraviolet radiation.
+**Nuclear energy** comes from processes that convert measurable amounts of mass
+into energy. Nuclear energy is transformed into the energy of sunlight, into
+electrical energy in power plants, and into the energy of the heat transfer and
+blast in weapons. Atoms and molecules inside all objects are in random motion.
+This internal mechanical energy from the random motions is called **thermal
+energy**, because it is related to the temperature of the object. These and all
+other forms of energy can be converted into one another and can do work.
 
-[Table 1](#table1) gives the amount of energy stored, used, or
-released from various objects and in various phenomena. The range of energies
-and the variety of types and situations is impressive.
+[Table 1](#table1) gives the amount of energy stored, used, or released from
+various objects and in various phenomena. The range of energies and the variety
+of types and situations is impressive.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -109,10 +108,11 @@ expressing conservation of energy is
  $$ \KE_{\text{i}}+\PE_{\text{i}}=\KE_{\text{f}}+\PE_{\text{f}}. $$
 </div>
 
-**Step 4.** If you know the potential energy for only some of the forces, possibly because
-some of them are nonconservative and do not have a potential energy, or if there are other
-energies that are not easily treated in terms of force and work, then the conservation of
-energy law in its most general form must be used.
+**Step 4.** If you know the potential energy for only some of the forces,
+possibly because some of them are nonconservative and do not have a potential
+energy, or if there are other energies that are not easily treated in terms of
+force and work, then the conservation of energy law in its most general form
+must be used.
 
 <div class="equation">
  $$ \KE_{\text{i}}+\PE_{\text{i}}+W_{\text{nc}}+\text{OE}_{\text{i}}=\KE_{\text{f}}+\PE_{\text{f}}+\text{OE}_{\text{f}}. $$
@@ -123,8 +123,8 @@ In most problems, one or more of the terms is zero, simplifying its solution. Do
 **Step 5.** You have already identified the types of work and energy involved (
 in step 2). Before solving for the unknown, *eliminate terms wherever possible*
 to simplify the algebra. For example, choose $$ h=0 $$ at either the initial or
-final point, so that $$ \PE_{\text{g}} $$ is zero there. Then solve for
-the unknown in the customary manner.
+final point, so that $$ \PE_{\text{g}} $$ is zero there. Then solve for the
+unknown in the customary manner.
 
 **Step 6.** *Check the answer to see if it is reasonable*. Once you have solved
 a problem, reexamine the forms of work and energy to see if you have set up the
@@ -159,7 +159,7 @@ solar energy into electrical energy and then into mechanical energy.
 
 ##### Table 1:Energy of Various Objects and Phenomena
 
-|Object/phenomenon |	Energy in joules|
+|Object/phenomenon |    Energy in joules|
 | ---- | --- |
 |Big Bang | $$ 10^{68} $$ |
 |Energy released in a supernova | $$ 10^{44} $$ |
@@ -184,24 +184,24 @@ solar energy into electrical energy and then into mechanical energy.
 |Mosquito ($$10^{-2}$$g at 0.5 m/s) | $$ 1.3×10^{-6} $$ |
 |Single electron in a TV tube beam  | $$ 4.0×10^{-15} $$ |
 |Energy to break one DNA strand  | $$ 10^{-19} $$ |
+
 {: #table1}
 
 ### Efficiency
 
 Even though energy is conserved in an energy conversion process, the output of
-*useful energy* or work will be less than the energy input. The **efficiency** $$ \text{Eff} $$ of an energy
-conversion process is defined as
+*useful energy* or work will be less than the energy input. The **efficiency**
+$$ \text{Eff} $$ of an energy conversion process is defined as
 
 <div class="equation">
  $$ \text{Efficiency}\left(\text{Eff}\right)=\frac{ \text{useful energy or work output}}{\text{total energy input}}=\frac{ W_{\text{out}}}{ E_{\text{in}}}. $$
 </div>
 
-[Table 2](#table2) lists some efficiencies of mechanical devices
-and human activities. In a coal-fired power plant, for example, about 40% of the
-chemical energy in the coal becomes useful electrical energy. The other 60%
-transforms into other (perhaps less useful) energy forms, such as thermal
-energy, which is then released to the environment through combustion gases and
-cooling towers.
+[Table 2](#table2) lists some efficiencies of mechanical devices and human
+activities. In a coal-fired power plant, for example, about 40% of the chemical
+energy in the coal becomes useful electrical energy. The other 60% transforms
+into other (perhaps less useful) energy forms, such as thermal energy, which is
+then released to the environment through combustion gases and cooling towers.
 
 ##### Table 2: Efficiency of the Human Body and Mechanical Devices (representative values)
 
@@ -221,6 +221,7 @@ cooling towers.
 |Compact fluorescent light|20|
 |Gas heater (residential)|90|
 |Solar cell|10|
+
 {: #table2}
 
 <div class="note" data-label="PhET Exploration" markdown="1">
@@ -240,22 +241,21 @@ Masses and Springs
 
 ### Section Summary
 
-* The law of conservation of energy states that the
-  total energy is constant in any process. Energy may change in form or be
-  transferred from one system to another, but the total remains the same.
-* When all forms of energy are considered,
-  conservation of energy is written in equation form as $$ \KE_
+* The law of conservation of energy states that the total energy is constant in
+  any process. Energy may change in form or be transferred from one system to
+  another, but the total remains the same.
+* When all forms of energy are considered, conservation of energy is written in
+  equation form as $$ \KE_
   {i}+\PE_{i}+W_{\text{nc}}+\text{OE}_{i}=\KE_
-  {f}+\PE_{f}+\text{OE}_{f} $$, where $$ \text{OE} $$ is all **other
-  forms of energy** besides mechanical energy.
-* Commonly encountered forms of energy include
-  electric energy, chemical energy, radiant energy, nuclear energy, and thermal
-  energy.
-* Energy is often utilized to do work, but it is not
-  possible to convert all the energy of a system to work.
-* The efficiency $$ \text{Eff} $$ of a machine or
-  human is defined to be $$ \text{Eff}=\frac{ W_{\text{out}}}{ E_{\text{in}}}
- $$, where $$ W_{\text{out}} $$ is useful work output and $$ E_{\text{in}} $$ is the energy consumed.
+  {f}+\PE_{f}+\text{OE}_{f} $$, where $$ \text{OE} $$ is all **other forms of
+  energy** besides mechanical energy.
+* Commonly encountered forms of energy include electric energy, chemical energy,
+  radiant energy, nuclear energy, and thermal energy.
+* Energy is often utilized to do work, but it is not possible to convert all the
+  energy of a system to work.
+* The efficiency $$ \text{Eff} $$ of a machine or human is defined to be $$
+  \text{Eff}=\frac{ W_{\text{out}}}{ E_{\text{in}}} $$, where $$ W_{\text{out}}
+  $$ is useful work output and $$ E_{\text{in}} $$ is the energy consumed.
 
 ### Conceptual Questions
 
@@ -349,6 +349,7 @@ If the energy in fusion bombs were used to supply the energy needs of the world,
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 law of conservation of energy

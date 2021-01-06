@@ -18,19 +18,20 @@ the previous section. As we will see, the basic forces are all thought to act
 through the exchange of microscopic carrier particles, and the characteristics
 of the basic forces are determined by the types of particles exchanged. Action
 at a distance, such as the gravitational force of Earth on the Moon, is
-explained by the existence of a **force field** rather than by “physical contact.”
+explained by the existence of a **force field** rather than by “physical
+contact.”
 
 The *four basic forces* are the gravitational force, the electromagnetic force,
 the weak nuclear force, and the strong nuclear force. Their properties are
-summarized in [Table 1](#table1). Since the weak and strong
-nuclear forces act over an extremely short range, the size of a nucleus or less,
-we do not experience them directly, although they are crucial to the very
-structure of matter. These forces determine which nuclei are stable and which
-decay, and they are the basis of the release of energy in certain nuclear
-reactions. Nuclear forces determine not only the stability of nuclei, but also
-the relative abundance of elements in nature. The properties of the nucleus of
-an atom determine the number of electrons it has and, thus, indirectly determine
-the chemistry of the atom. More will be said of all of these topics in later
+summarized in [Table 1](#table1). Since the weak and strong nuclear forces act
+over an extremely short range, the size of a nucleus or less, we do not
+experience them directly, although they are crucial to the very structure of
+matter. These forces determine which nuclei are stable and which decay, and they
+are the basis of the release of energy in certain nuclear reactions. Nuclear
+forces determine not only the stability of nuclei, but also the relative
+abundance of elements in nature. The properties of the nucleus of an atom
+determine the number of electrons it has and, thus, indirectly determine the
+chemistry of the atom. More will be said of all of these topics in later
 chapters.
 
 <div class="note" data-label="" markdown="1">
@@ -46,23 +47,23 @@ experienced on the macroscopic scale.
 
 ##### Table 1: Properties of the Four Basic Forces
 
-| Force           |	Approximate Relative Strengths	| Range|	Attraction/Repulsion	| Carrier Particle |
+| Force           |    Approximate Relative Strengths    | Range|    Attraction/Repulsion    | Carrier Particle |
 |----|----|----|----|----|
-| Gravitational   | $$ 10^{−38}$$ | $$\infty$$      | attractive only	        | Graviton |
-| Electromagnetic | $$10^{-2}$$   | $$\infty$$      | attractive and repulsive	| Photon |
-| Weak nuclear    | $$10^{-13}$$  | $$<10^{-18}$$m  | attractive and repulsive	| W+, W–, Z0 |
-| Strong nuclear  | $$1$$         | $$<10^{-15}$$m 	| attractive and repulsive	| Gluons |
+| Gravitational   | $$ 10^{−38}$$ | $$\infty$$      | attractive only            | Graviton |
+| Electromagnetic | $$10^{-2}$$   | $$\infty$$      | attractive and repulsive    | Photon |
+| Weak nuclear    | $$10^{-13}$$  | $$<10^{-18}$$m  | attractive and repulsive    | W+, W–, Z0 |
+| Strong nuclear  | $$1$$         | $$<10^{-15}$$m    | attractive and repulsive    | Gluons |
+
 {: #table1}
 
 The gravitational force is surprisingly weak—it is only because gravity is
 always attractive that we notice it at all. Our weight is the gravitational
-force due to the *entire* Earth acting on us. On the very large scale, as
-in astronomical systems, the gravitational force is the dominant force
-determining the motions of moons, planets, stars, and galaxies. The
-gravitational force also affects the nature of space and time. As we shall see
-later in the study of general relativity, space is curved in the vicinity of
-very massive bodies, such as the Sun, and time actually slows down near massive
-bodies.
+force due to the *entire* Earth acting on us. On the very large scale, as in
+astronomical systems, the gravitational force is the dominant force determining
+the motions of moons, planets, stars, and galaxies. The gravitational force also
+affects the nature of space and time. As we shall see later in the study of
+general relativity, space is curved in the vicinity of very massive bodies, such
+as the Sun, and time actually slows down near massive bodies.
 
 Electromagnetic forces can be either attractive or repulsive. They are
 long-range forces, which act over extremely large distances, and they nearly
@@ -115,15 +116,16 @@ All forces act at a distance. This is obvious for the gravitational force. Earth
 and the Moon, for example, interact without coming into contact. It is also true
 for all other forces. Friction, for example, is an electromagnetic force between
 atoms that may not actually touch. What is it that carries forces between
-objects? One way to answer this question is to imagine that a **force field**surrounds whatever object creates the
-force. A second object (often called a *test object*) placed in this field will
-experience a force that is a function of location and other variables. The field
-itself is the “thing” that carries the force from one object to another. The
-field is defined so as to be a characteristic of the object creating it; the
-field does not depend on the test object placed in it. Earth’s gravitational
-field, for example, is a function of the mass of Earth and the distance from its
-center, independent of the presence of other masses. The concept of a field is
-useful because equations can be written for force fields surrounding objects (
+objects? One way to answer this question is to imagine that a **force field**
+surrounds whatever object creates the force. A second object (often called a *
+test object*) placed in this field will experience a force that is a function of
+location and other variables. The field itself is the “thing” that carries the
+force from one object to another. The field is defined so as to be a
+characteristic of the object creating it; the field does not depend on the test
+object placed in it. Earth’s gravitational field, for example, is a function of
+the mass of Earth and the distance from its center, independent of the presence
+of other masses. The concept of a field is useful because equations can be
+written for force fields surrounding objects (
 for gravity, this yields $$ w=mg $$ at Earth’s surface), and motions can be
 calculated from these equations. (
 See [Figure 1](#fig1).)
@@ -158,12 +160,12 @@ one another. (See [Figure 2](#fig2).)
 This idea of particle exchange deepens rather than contradicts field concepts.
 It is more satisfying philosophically to think of something physical actually
 moving between objects acting at a distance. [Table 1](#table1)
-lists the exchange or **carrier particles**, both observed and proposed, that carry the four forces.
-But the real fruit of the particle-exchange proposal is that searches for
-Yukawa’s proposed particle found it *and* a number of others that were
-completely unexpected, stimulating yet more research. All of this research
-eventually led to the proposal of quarks as the underlying substructure of
-matter, which is a basic tenet of GUTs. If successful, these theories will
+lists the exchange or **carrier particles**, both observed and proposed, that
+carry the four forces. But the real fruit of the particle-exchange proposal is
+that searches for Yukawa’s proposed particle found it *and* a number of others
+that were completely unexpected, stimulating yet more research. All of this
+research eventually led to the proposal of quarks as the underlying substructure
+of matter, which is a basic tenet of GUTs. If successful, these theories will
 explain not only forces, but also the structure of matter itself. Yet physics is
 an experimental science, so the test of these theories must lie in the domain of
 the real world. As of this writing, scientists at the CERN laboratory in
@@ -173,9 +175,9 @@ circumference) allows two high-energy proton beams, traveling in opposite
 directions, to collide. An energy of 14 trillion electron volts will be
 available. It is anticipated that some new particles, possibly force carrier
 particles, will be found. (
-See [Figure 3](#fig3).) One of the force carriers of high
-interest that researchers hope to detect is the Higgs boson. The observation of
-its properties might tell us why different particles have different masses.
+See [Figure 3](#fig3).) One of the force carriers of high interest that
+researchers hope to detect is the Higgs boson. The observation of its properties
+might tell us why different particles have different masses.
 
 ![A close-up view of part of the world&#x2019;s largest particle accelerator.](../resources/Figure_04_08_03.jpg "The world&#x2019;s largest particle accelerator spans the border between Switzerland and France. Two beams, traveling in opposite directions close to the speed of light, collide in a tube similar to the central tube shown here. External magnets determine the beam&#x2019;s path. Special detectors will analyze particles created in these collisions. Questions as broad as what is the origin of mass and what was matter like the first few seconds of our universe will be explored. This accelerator began preliminary operation in 2008. (credit: Frank Hommes)")
 {: #fig3}
@@ -206,10 +208,10 @@ Earthly noises will be no problem for these monitoring spacecraft. LISA will
 complement LIGO by looking at much more massive black holes through the
 observation of gravitational-wave sources emitting much larger wavelengths.
 Three satellites will be placed in space above Earth in an equilateral
-triangle (with 5 000 000-km sides) ([Figure 4](#fig4)). The
-system will measure the relative positions of each satellite to detect passing
-gravitational waves. Accuracy to within 10% of the size of an atom will be
-needed to detect any waves.
+triangle (with 5 000 000-km sides) ([Figure 4](#fig4)). The system will measure
+the relative positions of each satellite to detect passing gravitational waves.
+Accuracy to within 10% of the size of an atom will be needed to detect any
+waves.
 
 *“I’m sure LIGO will tell us something about the universe that we didn’t know
 before. The history of science tells us that any time you go where you haven’t
@@ -226,19 +228,17 @@ physics that will be covered in much greater depth in later chapters.
 
 ### Summary
 
-* The various types of forces that are categorized
-  for use in many applications are all manifestations of the *four basic forces*
+* The various types of forces that are categorized for use in many applications
+  are all manifestations of the *four basic forces*
   in nature.
-* The properties of these forces are summarized
-  in [Table 1](#table1).
-* Everything we experience directly without sensitive
-  instruments is due to either electromagnetic forces or gravitational forces.
-  The nuclear forces are responsible for the submicroscopic structure of matter,
-  but they are not directly sensed because of their short ranges. Attempts are
-  being made to show all four forces are different manifestations of a single
-  unified force.
-* A force field surrounds an object creating a force
-  and is the carrier of that force.
+* The properties of these forces are summarized in [Table 1](#table1).
+* Everything we experience directly without sensitive instruments is due to
+  either electromagnetic forces or gravitational forces. The nuclear forces are
+  responsible for the submicroscopic structure of matter, but they are not
+  directly sensed because of their short ranges. Attempts are being made to show
+  all four forces are different manifestations of a single unified force.
+* A force field surrounds an object creating a force and is the carrier of that
+  force.
 
 ### Conceptual Questions
 
@@ -296,6 +296,7 @@ What is the ratio of the strength of the strong nuclear force to that of the ele
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 carrier particle

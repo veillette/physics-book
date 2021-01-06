@@ -8,15 +8,14 @@ layout: page
 
 Describe the forces on the hip joint. What means are taken to ensure that this
 will be a good movable joint? From the photograph (for an adult)
-in [Figure 1](#fig1), estimate the dimensions of the
-artificial device.
+in [Figure 1](#fig1), estimate the dimensions of the artificial device.
 
 It is difficult to categorize forces into various types (aside from the four
-basic forces discussed in previous chapter).
-We know that a net force affects the motion, position, and shape of an object.
-It is useful at this point to look at some particularly interesting and common
-forces that will provide further applications of Newton’s laws of motion. We
-have in mind the forces of friction, air or liquid drag, and deformation.
+basic forces discussed in previous chapter). We know that a net force affects
+the motion, position, and shape of an object. It is useful at this point to look
+at some particularly interesting and common forces that will provide further
+applications of Newton’s laws of motion. We have in mind the forces of friction,
+air or liquid drag, and deformation.
 
 <div class="note" data-label="Video" markdown="1">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kbZGcfF9UfA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -25,11 +25,11 @@ momentum** $$ L $$ as
 </div>
 
 This equation is an analog to the definition of linear momentum as $$ p=mv $$.
-Units for linear momentum are $$ \kg \cdot \ms $$ while units for
-angular momentum are $$ \kg \cdot \mms $$. As we would
-expect, an object that has a large moment of inertia $$ I $$, such as Earth, has
-a very large angular momentum. An object that has a large angular velocity $$
-\omega $$, such as a centrifuge, also has a rather large angular momentum.
+Units for linear momentum are $$ \kg \cdot \ms $$ while units for angular
+momentum are $$ \kg \cdot \mms $$. As we would expect, an object that has a
+large moment of inertia $$ I $$, such as Earth, has a very large angular
+momentum. An object that has a large angular velocity $$ \omega $$, such as a
+centrifuge, also has a rather large angular momentum.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -48,8 +48,8 @@ Calculating Angular Momentum of the Earth
 
 No information is given in the statement of the problem; so we must look up
 pertinent data before we can calculate $$ L=I \omega $$. First, according
-to [Figure](../contents/ch10DynamicsOfRotationalMotion.md#fig3), the formula for the moment of
-inertia of a sphere is
+to [Figure](../contents/ch10DynamicsOfRotationalMotion.md#fig3), the formula for
+the moment of inertia of a sphere is
 
 <div class="equation">
  $$ I=\frac{2 MR^{2}}{5} $$
@@ -104,8 +104,8 @@ and angular momentum is
 
 This expression is exactly analogous to the relationship between force and
 linear momentum, $$ F=\Delta p/\Delta t $$. The equation $$ \text{net}\tau
-=\frac{ \Delta L}{\Delta t} $$ is very fundamental and broadly applicable. It is,
-in fact, the rotational form of Newton’s second law.
+=\frac{ \Delta L}{\Delta t} $$ is very fundamental and broadly applicable. It
+is, in fact, the rotational form of Newton’s second law.
 
 <div class="example" markdown="1">
 <div class="title">
@@ -115,9 +115,7 @@ Calculating the Torque Putting Angular Momentum Into a Lazy Susan
 (a) What is the final angular momentum of the lazy Susan if it starts from rest, assuming friction is negligible?
 (b) What is the final angular velocity of the lazy Susan, given that its mass is 4.00 kg and assuming its moment of inertia is that of a disk?
 
-![The given figure shows a lazy Susan on which various eatables like cake, salad grapes, and a drink are kept. A hand is shown that applies a force F, indicated by a leftward pointing horizontal arrow. This force is perpendicular to the radius r and thus tangential to the circular lazy Susan.](../resources/Figure_11_05_01a.jpg "A partygoer exerts a torque on a lazy Susan to make it rotate.
-The equation \( \text{net} \vb{\tau} =\frac{\Delta \vb{L}}{\Delta t} \) gives 
-the relationship between torque and the angular momentum produced.")
+![The given figure shows a lazy Susan on which various eatables like cake, salad grapes, and a drink are kept. A hand is shown that applies a force F, indicated by a leftward pointing horizontal arrow. This force is perpendicular to the radius r and thus tangential to the circular lazy Susan.](../resources/Figure_11_05_01a.jpg "A partygoer exerts a torque on a lazy Susan to make it rotate. The equation \( \text{net} \vb{\tau} =\frac{\Delta \vb{L}}{\Delta t} \) gives the relationship between torque and the angular momentum produced.")
 {: #fig1}
 
 **Strategy**
@@ -131,7 +129,8 @@ $$ L=I \omega $$.
 
 **Solution for (a)**
 
-Solving $$ \text{net}\tau =\frac{ \Delta L}{\Delta t} $$ for $$ \Delta L $$ gives
+Solving $$ \text{net}\tau =\frac{ \Delta L}{\Delta t} $$ for $$ \Delta L $$
+gives
 
 <div class="equation">
  $$ \Delta L=\left(\text{net}\text{τ}\right)\Delta t . $$
@@ -278,16 +277,15 @@ momentum is conserved when the net external force is zero.
 ### Conservation of Angular Momentum
 
 We can now understand why Earth keeps on spinning. As we saw in the previous
-example, $$ \Delta L=\left(\text{net}\tau \right)\Delta t $$.
-This equation means that, to change angular
-momentum, a torque must act over some period of time. Because Earth has a large
-angular momentum, a large torque acting over a long time is needed to change its
-rate of spin. So what external torques are there? Tidal friction exerts torque
-that is slowing Earth’s rotation, but tens of millions of years must pass before
-the change is very significant. Recent research indicates the length of the day
-was 18 h some 900 million years ago. Only the tides exert significant retarding
-torques on Earth, and so it will continue to spin, although ever more slowly,
-for many billions of years.
+example, $$ \Delta L=\left(\text{net}\tau \right)\Delta t $$. This equation
+means that, to change angular momentum, a torque must act over some period of
+time. Because Earth has a large angular momentum, a large torque acting over a
+long time is needed to change its rate of spin. So what external torques are
+there? Tidal friction exerts torque that is slowing Earth’s rotation, but tens
+of millions of years must pass before the change is very significant. Recent
+research indicates the length of the day was 18 h some 900 million years ago.
+Only the tides exert significant retarding torques on Earth, and so it will
+continue to spin, although ever more slowly, for many billions of years.
 
 What we have here is, in fact, another conservation law. If the net torque is
 *zero*, then angular momentum is constant or *conserved*. We can see this
@@ -317,18 +315,18 @@ or
  $$ L=L^{\prime} ; \left(\text{net }\tau =0\right). $$
 </div>
 
-These expressions are the **law of conservation of angular momentum**. Conservation laws are as scarce as
-they are important.
+These expressions are the **law of conservation of angular momentum**.
+Conservation laws are as scarce as they are important.
 
-An example of conservation of angular momentum is seen
-in [Figure 3](#fig3), in which an ice skater is executing a
-spin. The net torque on her is very close to zero, because there is relatively
-little friction between her skates and the ice and because the friction is
-exerted very close to the pivot point. (Both $$ F $$ and $$ r $$ are small, and
-so $$ \tau $$ is negligibly small.) Consequently, she can spin for quite some
-time. She can do something else, too. She can increase her rate of spin by
-pulling her arms and legs in. Why does pulling her arms and legs in increase her
-rate of spin? The answer is that her angular momentum is constant, so that
+An example of conservation of angular momentum is seen in [Figure 3](#fig3), in
+which an ice skater is executing a spin. The net torque on her is very close to
+zero, because there is relatively little friction between her skates and the ice
+and because the friction is exerted very close to the pivot point. (Both $$ F $$
+and $$ r $$ are small, and so $$ \tau $$ is negligibly small.) Consequently, she
+can spin for quite some time. She can do something else, too. She can increase
+her rate of spin by pulling her arms and legs in. Why does pulling her arms and
+legs in increase her rate of spin? The answer is that her angular momentum is
+constant, so that
 
 <div class="equation">
  $$ L=L^{\prime} . $$
@@ -472,17 +470,15 @@ Yes, angular and linear momentums are completely analogous. While they are exact
 
 ### Section Summary
 
-* Every rotational phenomenon has a direct
-  translational analog , likewise angular momentum $$ L $$ can be defined as $$
-  L=I \omega. $$
-* This equation is an analog to the definition of
-  linear momentum as $$ p=mv $$. The relationship between torque and angular
-  momentum is $$ \text{net}\tau =\frac{ \Delta L}{\Delta t}. $$
-* Angular momentum, like energy and linear momentum,
-  is conserved. This universally applicable law is another sign of underlying
-  unity in physical laws. Angular momentum is conserved when net external torque
-  is zero, just as linear momentum is conserved when the net external force is
-  zero.
+* Every rotational phenomenon has a direct translational analog , likewise
+  angular momentum $$ L $$ can be defined as $$ L=I \omega. $$
+* This equation is an analog to the definition of linear momentum as $$ p=mv $$.
+  The relationship between torque and angular momentum is $$ \text{net}\tau
+  =\frac{ \Delta L}{\Delta t}. $$
+* Angular momentum, like energy and linear momentum, is conserved. This
+  universally applicable law is another sign of underlying unity in physical
+  laws. Angular momentum is conserved when net external torque is zero, just as
+  linear momentum is conserved when the net external force is zero.
 
 ### Conceptual Questions
 
@@ -606,9 +602,9 @@ axis.
 <div class="solution" markdown="1">
 (a) $$ 2.66 \times 10^{40}\kg \cdot \mms $$
 
-(b) $$ 7.07 \times 10^{33}\kg \cdot \mms $$ The angular
-momentum of the Earth in its orbit around the Sun is $$ 3.77 \times 10^{6} $$
-times larger than the angular momentum of the Earth around its axis.
+(b) $$ 7.07 \times 10^{33}\kg \cdot \mms $$ The angular momentum of the Earth in
+its orbit around the Sun is $$ 3.77 \times 10^{6} $$ times larger than the
+angular momentum of the Earth around its axis.
 
 </div>
 </div>
@@ -681,6 +677,7 @@ Consider the Earth-Moon system. Construct a problem in which you calculate the t
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 angular momentum

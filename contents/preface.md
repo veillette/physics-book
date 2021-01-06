@@ -3,31 +3,29 @@ title: "Preface"
 layout: page
 ---
 
-Welcome to *General Physics*. This textbook is derived from *College 
-Physics*, an OpenStax resource. OpenStax is a nonprofit based at Rice 
-University, whose mission is to improve student access to education. This 
-textbook was written to increase student access to high-quality learning
-materials, maintaining highest standards of academic rigor at little to no 
-cost.
+Welcome to *General Physics*. This textbook is derived from *College Physics*,
+an OpenStax resource. OpenStax is a nonprofit based at Rice University, whose
+mission is to improve student access to education. This textbook was written to
+increase student access to high-quality learning materials, maintaining highest
+standards of academic rigor at little to no cost.
 
-#### Customization 
+#### Customization
 
 General Physics is licensed under a Creative Commons Attribution 4.0
 International (CC BY) license, which means that you can distribute, remix, and
-build upon the content, as long as you provide attribution to its
-content contributors.
+build upon the content, as long as you provide attribution to its content
+contributors.
 
-### About *General Physics*   
+### About *General Physics*
 
-*General Physics* meets standard scope and sequence requirements for 
-an introductory algebra-based physics course. The text is grounded in
-real-world examples to help students grasp fundamental physics concepts. It
-requires knowledge of algebra and some trigonometry, but not calculus. *General
-Physics* includes learning objectives, concept questions, links to labs and
-simulations, and ample practice opportunities for traditional physics
-application problems.
+*General Physics* meets standard scope and sequence requirements for an
+introductory algebra-based physics course. The text is grounded in real-world
+examples to help students grasp fundamental physics concepts. It requires
+knowledge of algebra and some trigonometry, but not calculus. *General Physics*
+includes learning objectives, concept questions, links to labs and simulations,
+and ample practice opportunities for traditional physics application problems.
 
-#### Coverage and Scope 
+#### Coverage and Scope
 
 General Physics is organized such that topics are introduced conceptually with a
 steady progression to precise definitions and analytical applications. The
@@ -36,14 +34,12 @@ on to another topic. Each introductory chapter, for example, opens with an
 engaging photograph relevant to the subject of the chapter and interesting
 applications that are easy for most students to visualize.
 
-* [Chapter 1: Introduction: The Nature of Science and 
-  Physics](../contents/ch1PhysicsAnIntroduction.md)
+* [Chapter 1: Introduction: The Nature of Science and Physics](../contents/ch1PhysicsAnIntroduction.md)
 * [Chapter 2: Kinematics](../contents/ch2Kinematics.md)
 * [Chapter 3: Two-Dimensional Kinematics](../contents/ch2Kinematics.md)
 * [Chapter 4: Dynamics: Force and Newton\'s Laws of Motion](../contents/ch4Dynamics.md)
-* [Chapter 5: Further Applications of Newton\'s Laws: 
-  Friction, Drag, and 
-Elasticity](ch5FurtherApplicationsOfNewtonsLaws.md)
+* [Chapter 5: Further Applications of Newton\'s Laws:
+  Friction, Drag, and Elasticity](ch5FurtherApplicationsOfNewtonsLaws.md)
 * [Chapter 6: Uniform Circular Motion and Gravitation](../contents/ch6UniformCircularMotionAndGravitation.md)
 * [Chapter 7: Work, Energy, and Energy Resources](../contents/ch7WorkEnergyAndEnergyResources.md)
 * [Chapter 8: Linear Momentum and Collisions](../contents/ch8LinearMomentumAndCollisions.md)
@@ -53,36 +49,36 @@ Elasticity](ch5FurtherApplicationsOfNewtonsLaws.md)
 * [Appendix A: Useful Information](../contents/appAUsefulInformation.md)
 * [Appendix B: Glossary of Key Symbols and Notation](../contents/appBGlossaryOfKeySymbolsAndNotation.md)
 
-#### Concepts and Calculations 
+#### Concepts and Calculations
 
 The ability to calculate does not guarantee conceptual understanding. In order
 to unify conceptual, analytical, and calculation skills within the learning
 process, we have integrated Strategies and Discussions throughout the text.
 
-#### Key Features 
+#### Key Features
 
-##### Learning Objectives 
+##### Learning Objectives
 
 Every module begins with a set of learning objectives. These objectives are
 designed to guide the instructor in deciding what content to include or assign,
-and to guide the student with respect to what they can expect to learn.
-After completing the module and end-of-module exercises, students should be able
-to demonstrate mastery of the learning objectives.
+and to guide the student with respect to what they can expect to learn. After
+completing the module and end-of-module exercises, students should be able to
+demonstrate mastery of the learning objectives.
 
-##### Call-Outs 
+##### Call-Outs
 
 Key definitions, concepts, and equations are called out with a special design
 treatment. Call-outs are designed to catch readers’ attention, to make it clear
 that a specific term, concept, or equation is particularly important, and to
 provide easy reference for a student reviewing content.
 
-##### Key Terms 
+##### Key Terms
 
 Key terms are in bold and are followed by a definition in context. Definitions
 of key terms are also listed in the Glossary, which appears at the end of the
 module.
 
-##### Worked Examples 
+##### Worked Examples
 
 Worked examples have four distinct parts to promote both analytical and
 conceptual skills. Worked examples are introduced in words, always using some
@@ -96,7 +92,7 @@ parts. Finally, worked examples employ the techniques of the problem-solving
 strategies so that students can see how those strategies succeed in practice as
 well as in theory.
 
-##### Problem-Solving Strategies 
+##### Problem-Solving Strategies
 
 Problem-solving strategies are first presented in a special section and
 subsequently appear at crucial points in the text where students can benefit
@@ -104,7 +100,7 @@ most from them. Problem-solving strategies have a logical structure that is
 reinforced in the worked examples and supported in certain places by line
 drawings that illustrate various steps.
 
-##### Misconception Alerts 
+##### Misconception Alerts
 
 Students come to physics with preconceptions from everyday experiences and from
 previous courses. Some of these preconceptions are misconceptions, and many are
@@ -112,12 +108,12 @@ very common among students and the general public. Some are inadvertently picked
 up through misunderstandings of lectures and texts. The Misconception Alerts
 feature is designed to point these out and correct them explicitly.
 
-##### Take-Home Investigations 
+##### Take-Home Investigations
 
 Take Home Investigations provide the opportunity for students to apply or
 explore what they have learned with a hands-on activity.
 
-##### Things Great and Small 
+##### Things Great and Small
 
 In these special topic essays, macroscopic phenomena (such as air pressure) are
 explained with submicroscopic phenomena (such as atoms bouncing off walls).
@@ -125,13 +121,13 @@ These essays support the modern perspective by describing aspects of modern
 physics before they are formally treated in later chapters. Connections are also
 made between apparently disparate phenomena.
 
-##### Simulations 
+##### Simulations
 
 Where applicable, students are directed to the interactive PhET physics
 simulations developed by the University of Colorado. There they can further
 explore the physics concepts they have learned about in the module.
 
-##### Summary 
+##### Summary
 
 Module summaries are thorough and functional and present all important
 definitions and equations. Students are able to find the definitions of all
@@ -139,12 +135,12 @@ terms and symbols as well as their physical relationships. The structure of the
 summary makes plain the fundamental principles of the module or collection and
 serves as a useful study guide.
 
-##### Glossary 
+##### Glossary
 
 At the end of every module or chapter is a Glossary containing definitions of
 all of the key terms in the module or chapter.
 
-##### End-of-Module Problems 
+##### End-of-Module Problems
 
 At the end of every chapter is a set of Conceptual Questions and/or skills-based
 Problems &amp; Exercises. Conceptual Questions challenge students’ ability to
@@ -159,14 +155,14 @@ of end-of-module problems: Integrated Concept Problems, Unreasonable Results
 Problems, and Construct Your Own Problems. All of these problems are indicated
 with a subtitle preceding the problem.
 
-##### Integrated Concept Problems 
+##### Integrated Concept Problems
 
 In Integrated Concept Problems, students are asked to apply what they have
 learned about two or more concepts to arrive at a solution to a problem. These
 problems require a higher level of thinking because, before solving a problem,
 students have to recognize the combination of strategies required to solve it.
 
-##### Unreasonable Results 
+##### Unreasonable Results
 
 In Unreasonable Results Problems, students are challenged to not only apply
 concepts and skills to solve a problem, but also to analyze the answer with
@@ -175,7 +171,7 @@ premise that produces an unreasonable answer and are designed to further
 emphasize that properly applied physics must describe nature accurately and is
 not simply the process of solving equations.
 
-##### Construct Your Own Problem 
+##### Construct Your Own Problem
 
 These problems require students to construct the details of a problem, justify
 their starting assumptions, show specific steps in the problem’s solution, and

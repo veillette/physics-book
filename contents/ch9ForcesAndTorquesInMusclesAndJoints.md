@@ -13,11 +13,11 @@ layout: page
 
 Muscles, bones, and joints are some of the most interesting applications of
 statics. There are some surprises. Muscles, for example, exert far greater
-forces than we might think. [Figure 1](#fig1) shows a forearm
-holding a book and a schematic diagram of an analogous lever system. The
-schematic is a good approximation for the forearm, which looks more complicated
-than it is, and we can get some insight into the way typical muscle systems
-function by analyzing it.
+forces than we might think. [Figure 1](#fig1) shows a forearm holding a book and
+a schematic diagram of an analogous lever system. The schematic is a good
+approximation for the forearm, which looks more complicated than it is, and we
+can get some insight into the way typical muscle systems function by analyzing
+it.
 
 Muscles can only contract, so they occur in pairs. In the arm, the biceps muscle
 is a flexor—that is, it closes the limb. The triceps muscle is an extensor that
@@ -44,8 +44,8 @@ There are four forces acting on the forearm and its load (the system of
 interest). The magnitude of the force of the biceps is $$ F_{\text{B}} $$; that
 of the elbow joint is $$ F_{\text{E}} $$; that of the weights of the forearm is
 $$ w_{\text{a}} $$, and its load is $$ w_{\text{b}} $$. Two of these are
-unknown ( $$ F_{\text{B}} $$ and $$ F_{\text{E}} $$),
-so that the first condition for equilibrium cannot by itself yield $$ F_
+unknown ( $$ F_{\text{B}} $$ and $$ F_{\text{E}} $$), so that the first
+condition for equilibrium cannot by itself yield $$ F_
 {\text{B}} $$. But if we use the second condition and choose the pivot to be at
 the elbow, then the torque due to $$ F_{\text{E}} $$ is zero, and the only
 unknown becomes $$ F_{\text{B}} $$.
@@ -99,16 +99,16 @@ the biceps muscle can exert depends upon its length; it is smaller when it is
 shorter than when it is stretched.
 
 Very large forces are also created in the joints. In the previous example, the
-downward force $$ F_{\text{E}} $$ exerted by the humerus at the elbow joint equals 407 N, or 6.38 times
-the total weight supported. (The calculation of $$ F_{\text{E}} $$ is
-straightforward and is left as an end-of-chapter problem.) Because muscles can
-contract, but not expand beyond their resting length, joints and muscles often
-exert forces that act in opposite directions and thus subtract. (In the above
-example, the upward force of the muscle minus the downward force of the joint
-equals the weight supported—that is, $$ 470 \N -407 \N =63 \N
-$$, approximately equal to the weight supported.) Forces in muscles and joints
-are largest when their load is a long distance from the joint, as the book is in
-the previous example.
+downward force $$ F_{\text{E}} $$ exerted by the humerus at the elbow joint
+equals 407 N, or 6.38 times the total weight supported. (The calculation of $$
+F_{\text{E}} $$ is straightforward and is left as an end-of-chapter problem.)
+Because muscles can contract, but not expand beyond their resting length, joints
+and muscles often exert forces that act in opposite directions and thus
+subtract. (In the above example, the upward force of the muscle minus the
+downward force of the joint equals the weight supported—that is, $$ 470 \N -407
+\N =63 \N $$, approximately equal to the weight supported.) Forces in muscles
+and joints are largest when their load is a long distance from the joint, as the
+book is in the previous example.
 
 In racquet sports such as tennis the constant extension of the arm during game
 play creates large forces in this way. The mass times the lever arm of a tennis
@@ -121,9 +121,9 @@ sporting prowess but can minimize fatigue and long-term damage to the body. For
 example, tennis balls correctly hit at the “sweet spot” on the racquet will
 result in little vibration or impact force being felt in the racquet and the
 body—less torque as explained
-in [Collisions of Extended Bodies in Two Dimensions](ch10CollisionsOfExtendedBodiesInTwoDimensions.md). Twisting
-the hand to provide top spin on the ball or using an extended rigid elbow in a
-backhand stroke can also aggravate the tendons in the elbow.
+in [Collisions of Extended Bodies in Two Dimensions](ch10CollisionsOfExtendedBodiesInTwoDimensions.md)
+. Twisting the hand to provide top spin on the ball or using an extended rigid
+elbow in a backhand stroke can also aggravate the tendons in the elbow.
 
 Training coaches and physical therapists use the knowledge of relationships
 between forces and torques in the treatment of muscles and joints. In physical
@@ -147,15 +147,15 @@ muscles and joints between vertebrae, all having mechanical advantages less than
    clenching of teeth where the sustained large force translates into fatigue in
    muscles around the skull.
 
-[Figure 2](#fig2) shows how bad posture causes back strain. In
-part (a), we see a person with good posture. Note that her upper body’s cg is
-directly above the pivot point in the hips, which in turn is directly above the
-base of support at her feet. Because of this, her upper body’s weight exerts no
-torque about the hips. The only force needed is a vertical force at the hips
-equal to the weight supported. No muscle action is required, since the bones are
-rigid and transmit this force from the floor. This is a position of unstable
-equilibrium, but only small forces are needed to bring the upper body back to
-vertical if it is slightly displaced. Bad posture is shown in part (b)
+[Figure 2](#fig2) shows how bad posture causes back strain. In part (a), we see
+a person with good posture. Note that her upper body’s cg is directly above the
+pivot point in the hips, which in turn is directly above the base of support at
+her feet. Because of this, her upper body’s weight exerts no torque about the
+hips. The only force needed is a vertical force at the hips equal to the weight
+supported. No muscle action is required, since the bones are rigid and transmit
+this force from the floor. This is a position of unstable equilibrium, but only
+small forces are needed to bring the upper body back to vertical if it is
+slightly displaced. Bad posture is shown in part (b)
 ; we see that the upper body’s cg is in front of the pivot in the hips. This
 creates a clockwise torque around the hips that is counteracted by muscles in
 the lower back. These muscles must exert large forces, since they have typically
@@ -165,11 +165,10 @@ strain for people sitting at their desks using computers. Special chairs are
 available that allow the body’s CG to be more easily situated above the seat, to
 reduce back pain. Prolonged muscle action produces muscle strain. Note that the
 cg of the entire body is still directly above the base of support in part (
-b) of [Figure 2](#fig2). This is compulsory; otherwise the
-person would not be in equilibrium. We lean forward for the same reason when
-carrying a load on our backs, to the side when carrying a load in one arm, and
-backward when carrying a load in front of us, as seen
-in [Figure 3](#fig3).
+b) of [Figure 2](#fig2). This is compulsory; otherwise the person would not be
+in equilibrium. We lean forward for the same reason when carrying a load on our
+backs, to the side when carrying a load in one arm, and backward when carrying a
+load in front of us, as seen in [Figure 3](#fig3).
 
 ![In part a of the figure, a side view of a girl standing on a surface is shown. The weight of the girl is acting vertically downward and is in the line with her hips. A point above her legs is marked as the pivot point. The weight vector is in the direction of the pivot. In part b, a side view of a girl standing on a surface is shown. The girl is bending slightly toward her front. The weight of her upper body is acting downward and the line of action of weight is not passing through the upper body pivot point.](../resources/Figure_10_06_02a.jpg "(a) Good posture places the upper body&#x2019;s cg over the pivots in the hips, eliminating the need for muscle action to balance the body. (b) Poor posture requires exertion by the back muscles to counteract the clockwise torque produced around the pivot by the upper body&#x2019;s weight. The back muscles have a small effective perpendicular lever arm, \( r_b \), and must therefore exert a large force \( F_b \) . Note that the legs lean backward to keep the cg of the entire body above the base of support in the feet.")
 {: #fig2}
@@ -228,11 +227,12 @@ This force is considerably larger than it would be if the load were not present.
 
 **Solution for (b)**
 
-More important in terms of its damage potential is the force on the vertebrae
-$$ \vb{F}_{\text{V}} $$. The first condition for equilibrium ( $$ \text{net}\vb{F}=0 $$)
-can be used to find its magnitude and direction. Using $$ y $$ for vertical
-and $$ x $$ for horizontal, the condition for the net external forces along
-those axes to be zero
+More important in terms of its damage potential is the force on the vertebrae $$
+\vb{F}_{\text{V}} $$. The first condition for equilibrium ( $$
+\text{net}\vb{F}=0 $$)
+can be used to find its magnitude and direction. Using $$ y $$ for vertical and
+$$ x $$ for horizontal, the condition for the net external forces along those
+axes to be zero
 
 <div class="equation">
  $$ \text{net} F_{y}=0\text{ and }\text{net} F_{x}=0. $$
@@ -536,15 +536,15 @@ is attached relatively far from the joint, enabling large forces to be exerted b
 
 **Integrated Concepts**
 
-Suppose we replace the 4.0-kg book in [Exercise](#fs-id68) of the
-biceps muscle with an elastic exercise rope that obeys Hooke’s Law. Assume its
-force constant $$ k=600 \text{N/m} $$.
-(a) How much is the rope stretched (past
-equilibrium) to provide the same force $$ F_{\text{B}} $$ as in this example?
-Assume the rope is held in the hand at the same location as the book.
-(b) What force is on the biceps muscle if the exercise rope is pulled straight up so that
-the forearm makes an angle of $$ 25^\circ $$ with the horizontal? Assume the
-biceps muscle is still perpendicular to the forearm.
+Suppose we replace the 4.0-kg book in [Exercise](#fs-id68) of the biceps muscle
+with an elastic exercise rope that obeys Hooke’s Law. Assume its force constant
+$$ k=600 \text{N/m} $$.
+(a) How much is the rope stretched (past equilibrium) to provide the same force
+$$ F_{\text{B}} $$ as in this example? Assume the rope is held in the hand at
+the same location as the book.
+(b) What force is on the biceps muscle if the exercise rope is pulled straight
+up so that the forearm makes an angle of $$ 25^\circ $$ with the horizontal?
+Assume the biceps muscle is still perpendicular to the forearm.
 
 </div>
 </div>

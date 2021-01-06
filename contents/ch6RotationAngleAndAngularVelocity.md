@@ -9,53 +9,40 @@ layout: page
 
 </div>
 
-In [Kinematics](../contents/ch2Kinematics.md), we studied motion along a straight line and
-introduced such concepts as displacement, velocity, and
-acceleration. [Two-Dimensional Kinematics](../contents/ch3TwoDimensionalKinematics.md) dealt with motion
-in two dimensions. Projectile motion is a special case of two-dimensional
-kinematics in which the object is projected into the air, while being subject to
-the gravitational force, and lands a distance away. In this chapter, we consider
-situations where the object does not land but moves in a curve. We begin the
-study of uniform circular motion by defining two angular quantities needed to
-describe rotational motion.
+In [Kinematics](../contents/ch2Kinematics.md), we studied motion along a
+straight line and introduced such concepts as displacement, velocity, and
+acceleration. [Two-Dimensional Kinematics](../contents/ch3TwoDimensionalKinematics.md)
+dealt with motion in two dimensions. Projectile motion is a special case of
+two-dimensional kinematics in which the object is projected into the air, while
+being subject to the gravitational force, and lands a distance away. In this
+chapter, we consider situations where the object does not land but moves in a
+curve. We begin the study of uniform circular motion by defining two angular
+quantities needed to describe rotational motion.
 
 ### Rotation Angle
 
 When objects rotate about some axis—for example, when the CD (compact disc)
 in [Figure 1](#fig1)
 rotates about its center—each point in the object follows a circular arc.
-Consider a line from the center of the CD to its edge. Each **pit** used to record sound along this line
-moves through the same angle in the same amount of time. The rotation angle is
-the amount of rotation and is analogous to linear distance. We define the
-**rotation angle** $$ \Delta\theta $$
-to be the ratio of the arc length to the radius of curvature:
+Consider a line from the center of the CD to its edge. Each **pit** used to
+record sound along this line moves through the same angle in the same amount of
+time. The rotation angle is the amount of rotation and is analogous to linear
+distance. We define the
+**rotation angle** $$ \Delta\theta $$ to be the ratio of the arc length to the
+radius of curvature:
 
 <div class="equation">
  $$ \Delta\theta =\frac{ \Delta s }{r}. $$
 </div>
 
-![The figure shows the back side of a compact disc.
-There is a scratched part on the upper right side of the C D,
-about one-fifth size of the whole area, with inner circular
-dots clearly visible. Two line segments are drawn enclosing
-the scratched area from the border of the C D to the middle
-plastic portion. A curved arrow is drawn between the two line
-segments near this middle portion and angle delta theta
-written alongside it.](../resources/Figure_07_01_01aa.jpg "All points on a CD travel
-in circular arcs. The pits along a line from the center to the edge all move through
-the same angle \( \Delta \theta \)")
+![The figure shows the back side of a compact disc. There is a scratched part on the upper right side of the C D, about one-fifth size of the whole area, with inner circular dots clearly visible. Two line segments are drawn enclosing the scratched area from the border of the C D to the middle plastic portion. A curved arrow is drawn between the two line segments near this middle portion and angle delta theta written alongside it.](../resources/Figure_07_01_01aa.jpg "All points on a CD travel in circular arcs. The pits along a line from the center to the edge all move through the same angle \( \Delta \theta \)")
 {: #fig1}
 
-![A circle of radius r and center O is shown. A radius O-A of the circle
-is rotated through angle delta theta about the center O to terminate as radius O-B.
-The arc length A-B is marked as delta s.](../resources/Figure_07_01_01ab.jpg "The radius of a circle
-is rotated through an angle \( \Delta \theta \). The arc length \( \Delta s \)
-is described on the circumference. ")
+![A circle of radius r and center O is shown. A radius O-A of the circle is rotated through angle delta theta about the center O to terminate as radius O-B. The arc length A-B is marked as delta s.](../resources/Figure_07_01_01ab.jpg "The radius of a circle is rotated through an angle \( \Delta \theta \). The arc length \( \Delta s \) is described on the circumference. ")
 {: #fig2}
 
-The **arc length** $$ \Delta s $$ is
-the distance traveled along a circular path as shown
-in [Figure 2](#fig2) Note that $$ r $$ is the
+The **arc length** $$ \Delta s $$ is the distance traveled along a circular path
+as shown in [Figure 2](#fig2) Note that $$ r $$ is the
 **radius of curvature** of the circular path.
 
 We know that for one complete revolution, the arc length is the circumference of
@@ -78,22 +65,19 @@ shown in [Table 1](#table1).
 
 ##### Table 1: Comparison of Angular units
 
-|Degree Measures	|Radian Measure |
+|Degree Measures    |Radian Measure |
 | ------ | -----|
-|30º 	 | 𝜋/6 |
-|60º 	 |𝜋/3 |
-|90º 	 |𝜋/2 |
-|120º 	 |2𝜋/3 |
-|135º 	 |3𝜋/4 |
-|180º 	 |𝜋 |
+|30º     | 𝜋/6 |
+|60º     |𝜋/3 |
+|90º     |𝜋/2 |
+|120º     |2𝜋/3 |
+|135º     |3𝜋/4 |
+|180º     |𝜋 |
+
 {: #table1}
 
-![A circle is shown. Two radii of the circle, inclined at an acute angle delta theta, are shown.
-On one of the radii, two points, one and two are marked. The point one is inside the circle through which an
-arc between the two radii is shown. The point two is on the circumference of the circle. The two arc lengths
-are delta s one and delta s two respectively for the two points.](../resources/Figure_07_01_02a.jpg
-"Points 1 and 2 rotate through the same angle \( \Delta \theta \), but point 2 moves through a greater arc length
-\( \Delta s \) because it is at a greater distance from the center of rotation \( r \) ")
+![A circle is shown. Two radii of the circle, inclined at an acute angle delta theta, are shown. On one of the radii, two points, one and two are marked. The point one is inside the circle through which an arc between the two radii is shown. The point two is on the circumference of the circle. The two arc lengths are delta s one and delta s two respectively for the two points.](../resources/Figure_07_01_02a.jpg
+"Points 1 and 2 rotate through the same angle \( \Delta \theta \), but point 2 moves through a greater arc length \( \Delta s \) because it is at a greater distance from the center of rotation \( r \) ")
 {: #fig3}
 
 If $$ \Delta\theta =2\pi $$ rad, then the CD has made one complete revolution,
@@ -149,29 +133,19 @@ insights:
 
 The first relationship in $$ v=r \omega$$ or $$\omega =\frac{v}{r} $$ states
 that the linear velocity $$ v $$ is proportional to the distance from the center
-of rotation, thus, it is largest for a point on the rim (largest $$ r $$ ),
-as you might expect. We can also call this linear speed $$ v $$ of a point on
-the rim the *tangential speed*. The second relationship in $$ v=r \omega \text{
-or }\omega =\frac{v}{r} $$ can be illustrated by considering the tire of a
-moving car. Note that the speed of a point on the rim of the tire is the same as
-the speed $$ v $$ of the car. See [Figure 4](#fig4). So the
-faster the car moves, the faster the tire spins—large $$ v $$ means a large $$
-\omega $$, because $$ v=r \omega $$. Similarly, a larger-radius tire rotating at
-the same angular velocity ( $$ \omega $$)
+of rotation, thus, it is largest for a point on the rim (largest $$ r $$ ), as
+you might expect. We can also call this linear speed $$ v $$ of a point on the
+rim the *tangential speed*. The second relationship in $$ v=r \omega \text{ or
+}\omega =\frac{v}{r} $$ can be illustrated by considering the tire of a moving
+car. Note that the speed of a point on the rim of the tire is the same as the
+speed $$ v $$ of the car. See [Figure 4](#fig4). So the faster the car moves,
+the faster the tire spins—large $$ v $$ means a large $$ \omega $$, because $$
+v=r \omega $$. Similarly, a larger-radius tire rotating at the same angular
+velocity ( $$ \omega $$)
 will produce a greater linear speed ( $$ v $$)
 for the car.
 
-![The given figure shows the front wheel of a car. The radius of the car wheel, r, is
-shown as an arrow and the linear velocity, v, is shown with a green horizontal arrow
-pointing rightward. The angular velocity, omega, is shown with a clockwise-curved arrow
-over the wheel.](../resources/Figure_07_01_03a.jpg "A car moving at a velocity \( v \)
-to the right has a tire rotating
-with an angular velocity \( \omega \).
-The speed of the tread of the tire relative to the axle is \( v \) , the same as
-if the car were jacked up. Thus the car moves forward at linear velocity
-\( r \omega \) , where \( r \) is the tire
-radius. A larger angular
-velocity for the tire means a greater velocity for the car. ")
+![The given figure shows the front wheel of a car. The radius of the car wheel, r, is shown as an arrow and the linear velocity, v, is shown with a green horizontal arrow pointing rightward. The angular velocity, omega, is shown with a clockwise-curved arrow over the wheel.](../resources/Figure_07_01_03a.jpg "A car moving at a velocity \( v \) to the right has a tire rotating with an angular velocity \( \omega \). The speed of the tread of the tire relative to the axle is \( v \) , the same as if the car were jacked up. Thus the car moves forward at linear velocity \( r \omega \) , where \( r \) is the tire radius. A larger angular velocity for the tire means a greater velocity for the car. ")
 {: #fig4}
 
 <div class="example" markdown="1">
@@ -184,10 +158,9 @@ Calculate the angular velocity of a 0.300 m radius car tire when the car travels
 **Strategy**
 
 Because the linear speed of the tire rim is the same as the speed of the car, we
-have $$ v=15.0  \ms $$. The radius of the tire is given to be $$ r=0.300
-\m $$. Knowing $$ v $$ and $$ r $$, we can use the second relationship in
-$$ v=r \omega$$, $$ \omega =\frac{v}{r} $$ to calculate the angular
-velocity.
+have $$ v=15.0 \ms $$. The radius of the tire is given to be $$ r=0.300 \m $$.
+Knowing $$ v $$ and $$ r $$, we can use the second relationship in $$ v=r
+\omega$$, $$ \omega =\frac{v}{r} $$ to calculate the angular velocity.
 
 **Solution**
 
@@ -219,8 +192,7 @@ its tires would rotate more slowly. They would have an angular velocity
 Both $$ \omega $$ and $$ v $$ have directions (hence they are angular and
 linear *velocities*, respectively). Angular velocity has only two directions
 with respect to the axis of rotation—it is either clockwise or counterclockwise.
-Linear velocity is tangent to the path, as illustrated
-in [Figure 5](#fig5).
+Linear velocity is tangent to the path, as illustrated in [Figure 5](#fig5).
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -249,32 +221,32 @@ Join the ladybug in an exploration of rotational motion. Rotate the merry-go-rou
 
 ### Section Summary
 
-* Uniform circular motion is motion in a circle at
-  constant speed. The rotation angle $$ \Delta\theta $$ is defined as the ratio
-  of the arc length to the radius of curvature:
+* Uniform circular motion is motion in a circle at constant speed. The rotation
+  angle $$ \Delta\theta $$ is defined as the ratio of the arc length to the
+  radius of curvature:
   <div class="equation">
- $$ \Delta\theta =\frac{ \Delta s }{r}, $$
+
+$$ \Delta\theta =\frac{ \Delta s }{r}, $$
   </div>
 
-  where arc length $$ \Delta s $$ is distance traveled along a circular path and
- $$ r $$ is the radius of curvature of the circular path. The quantity $$
-  \Delta\theta $$ is measured in units of radians (rad), for which
+where arc length $$ \Delta s $$ is distance traveled along a circular path and
+$$ r $$ is the radius of curvature of the circular path. The quantity $$
+\Delta\theta $$ is measured in units of radians (rad), for which
 
   <div class="equation">
  $$ 2\pi \text{rad}=360^\circ= 1 \text{ revolution} . $$
   </div>
 
-* The conversion between radians and degrees is $$
-  1\text{ rad}=57.3^\circ $$.
-* Angular velocity $$ \omega $$ is the rate of change
-  of an angle,
+* The conversion between radians and degrees is $$ 1\text{ rad}=57.3^\circ $$.
+* Angular velocity $$ \omega $$ is the rate of change of an angle,
   <div class="equation">
- $$ \omega =\frac{ \Delta\theta }{\Delta t }, $$
+
+$$ \omega =\frac{ \Delta\theta }{\Delta t }, $$
   </div>
 
-  where a rotation $$ \Delta\theta $$ takes place in a time $$ \Delta t $$. The
-  units of angular velocity are radians per second (rad/s). Linear velocity $$ v
- $$ and angular velocity $$ \omega $$ are related by
+where a rotation $$ \Delta\theta $$ takes place in a time $$ \Delta t $$. The
+units of angular velocity are radians per second (rad/s). Linear velocity $$ v
+$$ and angular velocity $$ \omega $$ are related by
 
   <div class="equation">
  $$ v=r \omega \text{ or }\omega =\frac{v}{r}. $$
@@ -364,7 +336,7 @@ A truck with 0.420-m-radius tires travels at 32.0 m/s. What is the angular veloc
 <div class="problem" markdown="1">
 
 **Integrated Concepts**
- When kicking a football, the kicker rotates his leg about the hip joint.
+When kicking a football, the kicker rotates his leg about the hip joint.
 
 (a) If the velocity of the tip of the kicker’s shoe is 35.0 m/s and the hip
 joint is 1.05 m from the tip of the shoe, what is the shoe tip’s angular
@@ -407,6 +379,7 @@ friction between the riders’ clothing and the wall.
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 arc length

@@ -20,18 +20,17 @@ and the car are changing direction. The sharper the curve and the greater your
 speed, the more noticeable this acceleration will become. In this section we
 examine the direction and magnitude of that acceleration.
 
-[Figure 1](#fig1) shows an object moving in a circular path at
-constant speed. The direction of the instantaneous velocity is shown at two
-points along the path. Acceleration is in the direction of the change in
-velocity, which points directly toward the center of rotation (the center of the
-circular path). This pointing is shown with the vector diagram in the figure. We
-call the acceleration of an object moving in uniform circular motion (
+[Figure 1](#fig1) shows an object moving in a circular path at constant speed.
+The direction of the instantaneous velocity is shown at two points along the
+path. Acceleration is in the direction of the change in velocity, which points
+directly toward the center of rotation (the center of the circular path). This
+pointing is shown with the vector diagram in the figure. We call the
+acceleration of an object moving in uniform circular motion (
 resulting from a net external force) the **centripetal acceleration**
 ( $$ \ac $$); centripetal means “toward the center” or “center seeking.”
 
-![The given figure shows a circle, with a triangle having vertices A B C made from the center to the boundary. A is at the center and B and C points are at the circle path. Lines A B and A C act as radii and B C is a chord. Delta theta is shown inside the triangle, and the arc length delta s and the chord length delta r are also given. At point B, velocity of object is shown as v one and at point C, velocity of object is shown as v two. Along the circle an equation is shown as delta v equals v sub 2 minus v sub 1.](../resources/Figure_07_02_01a.jpg "The
-directions of the velocity of an object at two different points are shown, and the change in velocity \( \vb{\Delta v} \)  is seen to point directly toward the center of curvature.
-(See small inset.) Because \( \vb{a}_c =\frac{ \vb{\Delta v} }{\Delta t} \), the acceleration is also toward the center; \( \vb{a}_c \)  is called centripetal acceleration.
+![The given figure shows a circle, with a triangle having vertices A B C made from the center to the boundary. A is at the center and B and C points are at the circle path. Lines A B and A C act as radii and B C is a chord. Delta theta is shown inside the triangle, and the arc length delta s and the chord length delta r are also given. At point B, velocity of object is shown as v one and at point C, velocity of object is shown as v two. Along the circle an equation is shown as delta v equals v sub 2 minus v sub 1.](../resources/Figure_07_02_01a.jpg "The directions of the velocity of an object at two different points are shown, and the change in velocity \( \vb{\Delta v} \) is seen to point directly toward the center of curvature.
+(See small inset.) Because \( \vb{a}_c =\frac{ \vb{\Delta v} }{\Delta t} \), the acceleration is also toward the center; \( \vb{a}_c \) is called centripetal acceleration.
 (Because \( \Delta \theta \) is very small, the arc length \( \Delta s \) is equal to the chord length \( \Delta r \) for small time differences.)")
 {: #fig1}
 
@@ -59,9 +58,9 @@ Then we divide this by $$ \Delta t $$, yielding
  $$ \frac{ \Delta v}{\Delta t}=\frac{v}{r}×\frac{ \Delta s}{\Delta t}. $$
 </div>
 
-Finally, noting that $$ \Delta v/\Delta t=\ac $$ and that $$ \Delta
-s/\Delta t=v $$, the linear or tangential speed, we see that the magnitude of
-the centripetal acceleration is
+Finally, noting that $$ \Delta v/\Delta t=\ac $$ and that $$ \Delta s/\Delta t=v
+$$, the linear or tangential speed, we see that the magnitude of the centripetal
+acceleration is
 
 <div class="equation">
  $$ \ac=\frac{ v^{2}}{r}, $$
@@ -69,37 +68,37 @@ the centripetal acceleration is
 
 which is the acceleration of an object in a circle of radius $$ r $$ at a speed
 $$ v $$. So, centripetal acceleration is greater at high speeds and in sharp
-curves ( smaller radius), as you have noticed when driving a car. But it is a bit
-surprising that $$ \ac $$ is proportional to speed squared, implying,
-for example, that it is four times as hard to take a curve at 100 km/h than at
-50 km/h. A sharp corner has a small radius, so that $$ \ac $$ is
-greater for tighter turns, as you have probably noticed.
+curves ( smaller radius), as you have noticed when driving a car. But it is a
+bit surprising that $$ \ac $$ is proportional to speed squared, implying, for
+example, that it is four times as hard to take a curve at 100 km/h than at 50
+km/h. A sharp corner has a small radius, so that $$ \ac $$ is greater for
+tighter turns, as you have probably noticed.
 
 It is also useful to express $$ \ac $$ in terms of angular velocity.
-Substituting $$ v=r \omega $$ into the above expression, we find
-$$ \ac= \left(r \omega \right)^{2}/r= r \omega^{2} $$. We can express the
-magnitude of centripetal acceleration using either of two equations:
+Substituting $$ v=r \omega $$ into the above expression, we find $$ \ac= \left(r
+\omega \right)^{2}/r= r \omega^{2} $$. We can express the magnitude of
+centripetal acceleration using either of two equations:
 
 <div class="equation">
  $$ \ac=\frac{ v^{2}}{r} \text{ and }  \ac=r \omega^{2}. $$
 </div>
 
-Recall that the direction of $$ \ac $$ is toward the center. You may
-use whichever expression is more convenient, as illustrated in examples below.
+Recall that the direction of $$ \ac $$ is toward the center. You may use
+whichever expression is more convenient, as illustrated in examples below.
 
 A **centrifuge** (
-see [Figure 2](#fig2)b) is a rotating device used to separate
-specimens of different densities. High centripetal acceleration significantly
-decreases the time it takes for separation to occur, and makes separation
-possible with small samples. Centrifuges are used in a variety of applications
-in science and medicine, including the separation of single cell suspensions
-such as bacteria, viruses, and blood cells from a liquid medium and the
-separation of macromolecules, such as DNA and protein, from a solution.
-Centrifuges are often rated in terms of their centripetal acceleration relative
-to acceleration due to gravity $$ (g) $$; maximum centripetal acceleration of
-several hundred thousand $$ g $$ is possible in a vacuum. Human centrifuges,
-extremely large centrifuges, have been used to test the tolerance of astronauts
-to the effects of accelerations larger than that of Earth’s gravity.
+see [Figure 2](#fig2)b) is a rotating device used to separate specimens of
+different densities. High centripetal acceleration significantly decreases the
+time it takes for separation to occur, and makes separation possible with small
+samples. Centrifuges are used in a variety of applications in science and
+medicine, including the separation of single cell suspensions such as bacteria,
+viruses, and blood cells from a liquid medium and the separation of
+macromolecules, such as DNA and protein, from a solution. Centrifuges are often
+rated in terms of their centripetal acceleration relative to acceleration due to
+gravity $$ (g) $$; maximum centripetal acceleration of several hundred thousand
+$$ g $$ is possible in a vacuum. Human centrifuges, extremely large centrifuges,
+have been used to test the tolerance of astronauts to the effects of
+accelerations larger than that of Earth’s gravity.
 
 <div class="example" markdown="1">
 <div class="title">
@@ -110,13 +109,12 @@ What is the magnitude of the centripetal acceleration of a car following a curve
 **Strategy**
 
 Because $$ v $$ and $$ r $$ are given, the first expression in $$ a_
-{\text{c}}=\frac{ v^{2}}{r} ; \ac=r \omega^{2} $$ is the most
-convenient to use.
+{\text{c}}=\frac{ v^{2}}{r} ; \ac=r \omega^{2} $$ is the most convenient to use.
 
 **Solution**
 
-Entering the given values of $$ v=25.0\ms $$ and $$ r=500 \m $$
-into the first expression for $$ \ac $$ gives
+Entering the given values of $$ v=25.0\ms $$ and $$ r=500 \m $$ into the first
+expression for $$ \ac $$ gives
 
 <div class="equation">
  $$ \ac=\frac{ v^{2}}{r}=\frac{ \left(25.0 \ms \right)^{2}}{500 \m }=1.25\mss . $$
@@ -124,12 +122,11 @@ into the first expression for $$ \ac $$ gives
 
 **Discussion**
 
-To compare this with the acceleration due to gravity
-$$ \left( g=9.80\mss \right) $$, we take the ratio of
-$$ \ac/g=\left( 1.25\mss \right)
+To compare this with the acceleration due to gravity $$ \left( g=9.80\mss
+\right) $$, we take the ratio of $$ \ac/g=\left( 1.25\mss \right)
 /\left(9.80\mss \right)
-=0.128 $$. Thus, $$ \ac=0.128 g $$ and is noticeable especially
-if you were not wearing a seat belt.
+=0.128 $$. Thus, $$ \ac=0.128 g $$ and is noticeable especially if you were not
+wearing a seat belt.
 
 </div>
 
@@ -149,8 +146,8 @@ See [Figure 2](#fig2)(b).
 The term rev/min stands for revolutions per minute. By converting this to
 radians per second, we obtain the angular velocity $$ \omega $$. Because $$ r $$
 is given, we can use the second expression in the equation $$ a_
-{\text{c}}=\frac{ v^{2}}{r};\ac=r \omega^{2} $$ to calculate the
-centripetal acceleration.
+{\text{c}}=\frac{ v^{2}}{r};\ac=r \omega^{2} $$ to calculate the centripetal
+acceleration.
 
 **Solution**
 
@@ -192,8 +189,9 @@ materials.
 
 Of course, a net external force is needed to cause any acceleration, just as
 Newton proposed in his second law of motion. So a net external force is needed
-to cause a centripetal acceleration. In [Centripetal Force](../contents/ch6CentripetalForce.md),
-we will consider the forces involved in circular motion.
+to cause a centripetal acceleration.
+In [Centripetal Force](../contents/ch6CentripetalForce.md), we will consider the
+forces involved in circular motion.
 
 <div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
@@ -213,16 +211,15 @@ Ladybug Motion 2D
 
 ### Section Summary
 
-* Centripetal acceleration $$ \ac $$ is the
-  acceleration experienced while in uniform circular motion. It always points
-  toward the center of rotation. It is perpendicular to the linear velocity $$ v
- $$ and has the magnitude
+* Centripetal acceleration $$ \ac $$ is the acceleration experienced while in
+  uniform circular motion. It always points toward the center of rotation. It is
+  perpendicular to the linear velocity $$ v $$ and has the magnitude
   <div class="equation">
- $$ \ac=\frac{ v^{2}}{r};\ac=r \omega^{2}. $$
+
+$$ \ac=\frac{ v^{2}}{r};\ac=r \omega^{2}. $$
   </div>
 
-* The unit of centripetal acceleration is $$
- \mss $$.
+* The unit of centripetal acceleration is $$ \mss $$.
 
 ### Conceptual Questions
 
@@ -388,8 +385,8 @@ At takeoff, a commercial jet has a 60.0 m/s speed. Its tires have a diameter of 
 
 (b) What is the centripetal acceleration at the edge of the tire?
 
-(c) With what force must a determined $$ 1.00\times 10^{-15}\kg $$
-bacterium cling to the rim?
+(c) With what force must a determined $$ 1.00\times 10^{-15}\kg $$ bacterium
+cling to the rim?
 
 (d) Take the ratio of this force to the bacterium’s weight.
 
@@ -437,8 +434,8 @@ weight.
 ![A rectangle with a base longer than the height. A vertical line with arrowheads on both ends passes through the rectangle, bisecting the horizontal sides. The top of the arrow is labeled N, and the bottom is labeled w.](../resources/Figure_07_02_03a.jpg)
 {: #fig3}
 
-(d) $$ 1.76\times 10^{3}\N $$ or $$ 3.00 \text{w} $$, that is, the
-normal force (upward) is three times her weight.
+(d) $$ 1.76\times 10^{3}\N $$ or $$ 3.00 \text{w} $$, that is, the normal
+force (upward) is three times her weight.
 
 (e) This answer seems reasonable, since she feels like she’s being forced into
 the chair MUCH stronger than just by gravity.
@@ -471,7 +468,8 @@ a) $$ 40.5 \mss $$
 
 b) $$ 905 \N $$
 
-c) The force in part (b) is very large. The acceleration in part (a) is too much, about 4 g.
+c) The force in part (b) is very large. The acceleration in part (a) is too
+much, about 4 g.
 
 d) The speed of the swing is too large. At the given velocity at the bottom of
 the swing, there is enough kinetic energy to send the child all the way over the
@@ -483,6 +481,7 @@ top, ignoring friction.
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 centripetal acceleration

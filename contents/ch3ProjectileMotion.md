@@ -11,14 +11,12 @@ layout: page
 </div>
 
 **Projectile motion** is the
-**motion** of an object thrown or
-projected into the air, subject to only the acceleration of gravity. The
-object is called a **projectile**,
-and its path is called its
-**trajectory**. The motion of
-falling objects, as covered
-in [Problem-Solving Basics for One-Dimensional Kinematics](../contents/ch2ProblemSolvingBasicsForOneDimensionalKinematics.md), is
-a simple one-dimensional type of projectile motion in which there is no
+**motion** of an object thrown or projected into the air, subject to only the
+acceleration of gravity. The object is called a **projectile**, and its path is
+called its
+**trajectory**. The motion of falling objects, as covered
+in [Problem-Solving Basics for One-Dimensional Kinematics](../contents/ch2ProblemSolvingBasicsForOneDimensionalKinematics.md)
+, is a simple one-dimensional type of projectile motion in which there is no
 horizontal movement. In this section, we consider two-dimensional projectile
 motion, such as that of a football or other object for which
 **air resistance**
@@ -26,30 +24,30 @@ motion, such as that of a football or other object for which
 
 The most important fact to remember here is that **motions along perpendicular
 axes are independent** and thus can be analyzed separately. This fact was
-discussed in [Kinematics in Two Dimensions: An Introduction](../contents/ch3KinematicsInTwoDimensionsAnIntroduction.md),
-where vertical and horizontal motions were seen to be independent. The key to
+discussed
+in [Kinematics in Two Dimensions: An Introduction](../contents/ch3KinematicsInTwoDimensionsAnIntroduction.md)
+, where vertical and horizontal motions were seen to be independent. The key to
 analyzing two-dimensional projectile motion is to break it into two motions, one
 along the horizontal axis and the other along the vertical. (This choice of axes
 is the most sensible, because acceleration due to gravity is vertical—thus,
 there will be no acceleration along the horizontal axis when air resistance is
 negligible.) As is customary, we call the horizontal axis the **x**-axis and the
-vertical axis the **y**-axis. [Figure 1](#fig1) illustrates the
-notation for displacement, where $$ \vb{s} $$ is defined to be the total
-displacement and $$ \vb{x} $$ and $$ \vb{y} $$ are its components along
-the horizontal and vertical axes, respectively. The magnitudes of these vectors
-are $$\mag{s}$$, $$\mag{x}$$, and $$\mag{y}$$.
-(Note that in the last section we used the notation
-$$ \vb{A} $$ to represent a vector with components $$ \vb{A}_{x} $$
-and $$ \vb{A}_{y} $$. If we continued this format, we would call
-displacement $$ \vb{s} $$ with components $$ \vb{s}_{x} $$ and $$
-\vb{s}_{y} $$. However, to simplify the notation, we will simply represent
-the component vectors as $$ s_x $$ and $$ s_y $$.)
+vertical axis the **y**-axis. [Figure 1](#fig1) illustrates the notation for
+displacement, where $$ \vb{s} $$ is defined to be the total displacement and $$
+\vb{x} $$ and $$ \vb{y} $$ are its components along the horizontal and vertical
+axes, respectively. The magnitudes of these vectors are $$\mag{s}$$,
+$$\mag{x}$$, and $$\mag{y}$$.
+(Note that in the last section we used the notation $$ \vb{A} $$ to represent a
+vector with components $$ \vb{A}_{x} $$ and $$ \vb{A}_{y} $$. If we continued
+this format, we would call displacement $$ \vb{s} $$ with components $$ \vb{s}_
+{x} $$ and $$ \vb{s}_{y} $$. However, to simplify the notation, we will simply
+represent the component vectors as $$ s_x $$ and $$ s_y $$.)
 
 Of course, to describe motion we must deal with velocity and acceleration, as
 well as with displacement. We must find their components along the **x**- and
-**y**-axes, too. We will assume all forces except gravity (such as air resistance
-and friction, for example) are negligible. The components of acceleration are
-then very simple: $$ a_{y}=-g=-9.80 \mss $$. (Note that this
+**y**-axes, too. We will assume all forces except gravity (such as air
+resistance and friction, for example) are negligible. The components of
+acceleration are then very simple: $$ a_{y}=-g=-9.80 \mss $$. (Note that this
 definition assumes that the upwards direction is defined as the positive
 direction. If you arrange the coordinate system instead such that the downwards
 direction is positive, then acceleration due to gravity takes a positive value.)
@@ -77,14 +75,7 @@ Review of Kinematic Equations (constant \( a \) )
 </div>
 </div>
 
-![A soccer player is kicking a soccer ball. The ball travels in a projectile
-motion and reaches a point whose vertical distance is y and horizontal
-distance is x. The displacement between the kicking point and the final
-point is s. The angle made by this displacement vector with x axis is theta.](../resources/Figure_03_04_01.jpg "The total displacement \( \vb{s} \)  of a
-soccer ball at a point along its path. The vector \( \vb{s} \)  has components
-\( x \)  and \( y \)  along the horizontal and vertical axes. Its magnitude
-\( x \)  and \( y \)  along the horizontal and vertical axes. Its magnitude
-is \( \mag{s} \) , and it makes an angle \( \theta \)  with the horizontal.")
+![A soccer player is kicking a soccer ball. The ball travels in a projectile motion and reaches a point whose vertical distance is y and horizontal distance is x. The displacement between the kicking point and the final point is s. The angle made by this displacement vector with x axis is theta.](../resources/Figure_03_04_01.jpg "The total displacement \( \vb{s} \) of a soccer ball at a point along its path. The vector \( \vb{s} \) has components \( x \) and \( y \) along the horizontal and vertical axes. Its magnitude \( x \) and \( y \) along the horizontal and vertical axes. Its magnitude is \( \mag{s} \) , and it makes an angle \( \theta \) with the horizontal.")
 {: #fig1}
 
 Given these assumptions, the following steps are then used to analyze projectile
@@ -93,12 +84,11 @@ motion:
 ***Step 1.*** *Resolve or break the motion into horizontal and vertical
 components along the x- and y-axes.* These axes are perpendicular, so $$ A_
 {x}=A\cos{\theta} $$ and $$ A_{y}=A\sin{\theta} $$ are used. The magnitude of
-the components of displacement $$ \vb{s} $$ along these axes are $$ x $$ and
-$$ y $$. The magnitudes of the components of the velocity $$ \vb{v} $$ are
-$$ v_{x}=v\cos{\theta} $$ and $$ v_{y}=v\sin{\theta}$$, where $$ v $$ is the
+the components of displacement $$ \vb{s} $$ along these axes are $$ x $$ and $$
+y $$. The magnitudes of the components of the velocity $$ \vb{v} $$ are $$ v_
+{x}=v\cos{\theta} $$ and $$ v_{y}=v\sin{\theta}$$, where $$ v $$ is the
 magnitude of the velocity and $$ \theta $$ is its direction, as shown
-in [Figure 2](#fig2). Initial values are denoted with a
-subscript 0, as usual.
+in [Figure 2](#fig2). Initial values are denoted with a subscript 0, as usual.
 
 ***Step 2.*** *Treat the motion as two independent one-dimensional motions, one
 horizontal and the other vertical.* The kinematic equations for horizontal and
@@ -136,19 +126,19 @@ vertical motion take the following forms:
  $$ v_{y}^{2}= v_{0y}^{2}-2g \left( y-y_{0} \right) . $$
 </div>
 
-***Step 3.*** *Solve for the unknowns in the two separate motions—one
-horizontal and one vertical.* Note that the only common variable between the
-motions is time $$ t $$. The problem solving procedures here are the same as for
-one-dimensional **kinematics** and are illustrated in the
-solved examples below.
+***Step 3.*** *Solve for the unknowns in the two separate motions—one horizontal
+and one vertical.* Note that the only common variable between the motions is
+time $$ t $$. The problem solving procedures here are the same as for
+one-dimensional **kinematics** and are illustrated in the solved examples below.
 
-***Step 4.*** *Recombine the two motions to find the total displacement* $$ \vb{s} $$ *and velocity* $$ \vb{v} $$. Because the *x*- and *y*-motions
-  are perpendicular, we determine these vectors by using the techniques outlined in
-the [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md) and
-employing $$ A=\sqrt{ A_x^2+ A_y^2} $$ and $$ \theta ={\tan}^{-1}\left(
+***Step 4.*** *Recombine the two motions to find the total displacement* $$
+\vb{s} $$ *and velocity* $$ \vb{v} $$. Because the *x*- and *y*-motions are
+perpendicular, we determine these vectors by using the techniques outlined in
+the [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md)
+and employing $$ A=\sqrt{ A_x^2+ A_y^2} $$ and $$ \theta ={\tan}^{-1}\left(
 \frac{A_y}{A_x}\right) $$ in the following form, where $$ \theta $$ is the
-direction of the displacement $$ \vb{s} $$ and $$\theta_{v} $$ is the
-direction of the velocity $$ \vb{v} $$.
+direction of the displacement $$ \vb{s} $$ and $$\theta_{v} $$ is the direction
+of the velocity $$ \vb{v} $$.
 
 **Total displacement and velocity**
 
@@ -169,7 +159,7 @@ direction of the velocity $$ \vb{v} $$.
 </div>
 
 ![In part a the figure shows projectile motion of a ball with initial velocity of v zero at an angle of theta zero with the horizontal x axis. The horizontal component v x and the vertical component v y at various positions of ball in the projectile path is shown. In part b only the horizontal velocity component v sub x is shown whose magnitude is constant at various positions in the path. In part c only vertical velocity component v sub y is shown. The vertical velocity component v sub y is upwards till it reaches the maximum point and then its direction changes to downwards. In part d resultant v of horizontal velocity component v sub x and downward vertical velocity component v sub y is found which makes an angle theta with the horizontal x axis. The direction of resultant velocity v is towards south east.](../resources/Figure_03_04_02.jpg "(a) We analyze two-dimensional projectile motion by breaking it into two independent one-dimensional motions along the vertical and horizontal axes.
-(b) The horizontal motion is simple, because \( a_x=0 \) and \( v_x \)  is thus constant.
+(b) The horizontal motion is simple, because \( a_x=0 \) and \( v_x \) is thus constant.
 (c) The velocity in the vertical direction begins to decrease as the object rises; at its highest point, the vertical velocity is zero. As the object falls towards the Earth again, the vertical velocity increases again in magnitude but points in the opposite direction to the initial vertical velocity. (d) The x - and y -motions are recombined to give the total velocity at any given point on the trajectory.")
 {: #fig2 height="600"}
 
@@ -410,12 +400,11 @@ So any projectile that has an initial vertical velocity of 14.3 m/s and lands
 **Solution for (b)**
 
 From the information now in hand, we can find the final horizontal and vertical
-velocities $$ v_{x} $$ and $$ v_{y} $$ and combine them to find the
-magnitude of the velocity $$ \mag{v} $$ and the angle $$ \theta_{0} $$ it makes with the
-horizontal. Of
-course, $$ v_{x} $$ is constant so we can solve for it at any horizontal
-location. In this case, we chose the starting point since we know both the
-initial velocity and initial angle. Therefore:
+velocities $$ v_{x} $$ and $$ v_{y} $$ and combine them to find the magnitude of
+the velocity $$ \mag{v} $$ and the angle $$ \theta_{0} $$ it makes with the
+horizontal. Of course, $$ v_{x} $$ is constant so we can solve for it at any
+horizontal location. In this case, we chose the starting point since we know
+both the initial velocity and initial angle. Therefore:
 
 <div class="equation">
  $$ v_{x}=v_{0}\cos{\theta_{0}}=\left(25.0 \ms \right)\left(\cos{35^\circ }\right)=20.5 \ms $$
@@ -476,12 +465,12 @@ See [Figure 4](#fig4).)
 One of the most important things illustrated by projectile motion is that
 vertical and horizontal motions are independent of each other. Galileo was the
 first person to fully comprehend this characteristic. He used it to predict the
-range of a projectile. On level ground, we define **range** to be the horizontal distance $$ R $$ traveled by a
-projectile. Galileo and many others were interested in the range of projectiles
-primarily for military purposes—such as aiming cannons. However, investigating
-the range of projectiles can shed light on other interesting phenomena, such as
-the orbits of satellites around the Earth. Let us consider projectile range
-further.
+range of a projectile. On level ground, we define **range** to be the horizontal
+distance $$ R $$ traveled by a projectile. Galileo and many others were
+interested in the range of projectiles primarily for military purposes—such as
+aiming cannons. However, investigating the range of projectiles can shed light
+on other interesting phenomena, such as the orbits of satellites around the
+Earth. Let us consider projectile range further.
 
 ![Part a of the figure shows three different trajectories of projectiles on level ground. In each case the projectiles makes an angle of forty five degrees with the horizontal axis. The first projectile of initial velocity thirty meters per second travels a horizontal distance of R equal to ninety one point eight meters. The second projectile of initial velocity forty meters per second travels a horizontal distance of R equal to one hundred sixty three meters. The third projectile of initial velocity fifty meters per second travels a horizontal distance of R equal to two hundred fifty five meters.](../resources/Figure_03_04_05a.jpg "Trajectories of projectiles on level ground.
 (a) The greater the initial speed \( v_0 \), the greater the range for a given initial angle.
@@ -490,10 +479,10 @@ further.
 
 How does the initial velocity of a projectile affect its range? Obviously, the
 greater the initial speed $$ v_{0} $$, the greater the range, as shown
-in [Figure 5](#fig5)(a). The initial angle $$ \theta_{0} $$
-also has a dramatic effect on the range, as illustrated
-in [Figure 5](#fig5)(b). For a fixed initial speed, such as
-might be produced by a cannon, the maximum range is obtained with $$ \theta_
+in [Figure 5](#fig5)(a). The initial angle $$ \theta_{0} $$ also has a dramatic
+effect on the range, as illustrated in [Figure 5](#fig5)(b). For a fixed initial
+speed, such as might be produced by a cannon, the maximum range is obtained with
+$$ \theta_
 {0}=45^\circ $$. This is true only for conditions neglecting air resistance. If
 air resistance is considered, the maximum angle is approximately $$ 38^\circ $$.
 Interestingly, for every initial angle except $$ 45^\circ $$, there are two
@@ -518,19 +507,20 @@ range is large, the Earth curves away below the projectile and acceleration of
 gravity changes direction along the path. The range is larger than predicted by
 the range equation given above because the projectile has farther to fall than
 it would on level ground. (
-See [Figure 6](#fig6).) If the initial speed is great enough,
-the projectile goes into orbit. This possibility was recognized centuries before
-it could be accomplished. When an object is in orbit, the Earth curves away from
-underneath the object at the same rate as it falls. The object thus falls
-continuously but never hits the surface. These and other aspects of orbital
-motion, such as the rotation of the Earth, will be covered analytically and in
-greater depth later in this text.
+See [Figure 6](#fig6).) If the initial speed is great enough, the projectile
+goes into orbit. This possibility was recognized centuries before it could be
+accomplished. When an object is in orbit, the Earth curves away from underneath
+the object at the same rate as it falls. The object thus falls continuously but
+never hits the surface. These and other aspects of orbital motion, such as the
+rotation of the Earth, will be covered analytically and in greater depth later
+in this text.
 
 Once again we see that thinking about one topic, such as the range of a
 projectile, can lead us to others, such as the Earth orbits.
-In [Addition of Velocities](../contents/ch3AdditionOfVelocities.md), we will examine the addition of
-velocities, which is another important aspect of two-dimensional kinematics and
-will also yield insights beyond the immediate topic.
+In [Addition of Velocities](../contents/ch3AdditionOfVelocities.md), we will
+examine the addition of velocities, which is another important aspect of
+two-dimensional kinematics and will also yield insights beyond the immediate
+topic.
 
 ![A figure of the Earth is shown and on top of it a very high tower is placed. A projectile satellite is launched from this very high tower with initial velocity of v zero in the horizontal direction. Several trajectories are shown with increasing range. A circular trajectory is shown indicating the satellite achieved its orbit and it is revolving around the Earth.](../resources/Figure_03_04_06a.jpg "Projectile to satellite. In each case shown here, a projectile is launched from a very high tower to avoid air resistance. With increasing initial speed, the range increases and becomes longer than it would be on level ground because the Earth curves away underneath its path. With a large enough initial speed, orbit is achieved.")
 {: #fig6}
@@ -552,19 +542,18 @@ Projectile Motion
 
 ### Summary
 
-* Projectile motion is the motion of an object
-  through the air that is subject only to the acceleration of gravity.
-* To solve projectile motion problems, perform the
-  following steps:
-    1. Determine a coordinate system. Then, resolve
-       the position and/or velocity of the object in the horizontal and vertical
-       components. The components of position $$ \vb{s} $$ are given by the
-       quantities $$ x $$ and $$ y $$, and the components of the velocity $$
-     \vb{v} $$ are given by $$ v_{x}=v\cos{\theta} $$ and $$ v_
+* Projectile motion is the motion of an object through the air that is subject
+  only to the acceleration of gravity.
+* To solve projectile motion problems, perform the following steps:
+    1. Determine a coordinate system. Then, resolve the position and/or velocity
+       of the object in the horizontal and vertical components. The components
+       of position $$ \vb{s} $$ are given by the quantities $$ x $$ and $$ y $$,
+       and the components of the velocity $$ \vb{v} $$ are given by $$ v_
+       {x}=v\cos{\theta} $$ and $$ v_
        {y}=v\sin{\theta} $$, where $$ v $$ is the magnitude of the velocity and
- $$ \theta $$ is its direction.
-    2. Analyze the motion of the projectile in the
-       horizontal direction using the following equations:
+       $$ \theta $$ is its direction.
+    2. Analyze the motion of the projectile in the horizontal direction using
+       the following equations:
        <div class="equation">
          $$ \text{Horizontal motion}\left(a_{x}=0\right) $$
        </div>
@@ -577,12 +566,12 @@ Projectile Motion
         $$ v_{x}=v_{0x}=\vb{v}_{\text{x}}=\text{velocity is a constant.} $$
        </div>
 
-    3. Analyze the motion of the projectile in the
-       vertical direction using the following equations:
+    3. Analyze the motion of the projectile in the vertical direction using the
+       following equations:
        <div class="equation">
-     $$ \text{Vertical motion}\left(\text{Assuming positive direction is up;}a_
-     {y}=-g=-9.80 \mss \right) $$
-       </div>
+  $$ \text{Vertical motion}\left(\text{Assuming positive direction is up;}a_
+  {y}=-g=-9.80 \mss \right) $$
+  </div>
 
        <div class="equation">
        $$ y=y_{0}+\frac{1}{2}\left(v_{0y}+v_{y}\right)t $$
@@ -600,8 +589,8 @@ Projectile Motion
        $$ v_{y}^{2}=v_{0y}^{2}-2g\left(y-y_{0}\right). $$
        </div>
 
-    4. Recombine the horizontal and vertical
-       components of location and/or velocity using the following equations:
+    4. Recombine the horizontal and vertical components of location and/or
+       velocity using the following equations:
        <div class="equation">
         $$ s=\sqrt{ x^{2}+{y}^{2}} $$
        </div>
@@ -611,25 +600,26 @@ Projectile Motion
        </div>
 
        <div class="equation">
-    $$ v=\sqrt{ v_{x}^{2}+v_{y}^{2}} $$
-       </div>
+  $$ v=\sqrt{ v_{x}^{2}+v_{y}^{2}} $$
+  </div>
 
        <div class="equation">
-    $$ \theta_{\text{v}}={\tan}^{-1} \left( \frac{v_{y}}{v_{x}} \right) .$$
-       </div>
+  $$ \theta_{\text{v}}={\tan}^{-1} \left( \frac{v_{y}}{v_{x}} \right) .$$
+  </div>
 
-* The maximum height $$ h $$ of a projectile launched
-  with initial vertical velocity $$ v_{0y} $$ is given by
+* The maximum height $$ h $$ of a projectile launched with initial vertical
+  velocity $$ v_{0y} $$ is given by
   <div class="equation">
     $$ h=\frac{ v_{0y}^{2}}{2g}. $$
   </div>
 
-* The maximum horizontal distance traveled by a
-  projectile is called the **range**. The range $$ R $$ of a projectile on level
-  ground launched at an angle $$\theta_{0} $$ above the horizontal with initial
-  speed $$ v_{0} $$ is given by
+* The maximum horizontal distance traveled by a projectile is called the **
+  range**. The range $$ R $$ of a projectile on level ground launched at an
+  angle $$\theta_{0} $$ above the horizontal with initial speed $$ v_{0} $$ is
+  given by
   <div class="equation">
- $$ R=\frac{ v_0^2 \sin{2\theta_0} }{g}. $$
+
+$$ R=\frac{ v_0^2 \sin{2\theta_0} }{g}. $$
   </div>
 
 ### Conceptual Questions
@@ -778,8 +768,8 @@ R=\frac{  v_{0} }{\sin{2\theta }_{0}g}\\
 \text{For}\theta =45^\circ,R=\frac{ v_{0} }{g}
 \end{array} $$
 
-$$ R=91.8\m $$ for $$ v_{0}=30 \ms $$; $$ R=163\m $$ for $$
-v_{0}=40 \ms $$; $$ R=255\m $$ for $$ v_{0}=50 \ms $$.
+$$ R=91.8\m $$ for $$ v_{0}=30 \ms $$; $$ R=163\m $$ for $$ v_{0}=40 \ms $$; $$
+R=255\m $$ for $$ v_{0}=50 \ms $$.
 
 </div>
 </div>
@@ -1023,7 +1013,7 @@ gives:
 
 $$ R=v_{0}\cos{\theta} \left(\frac{ 2 v_{0}\sin{\theta}}{g}\right)=\frac{ 2v_
 {0}^{2}\sin{\theta} \cos{\theta} }{g} $$ since $$ 2\sin{\theta} \cos{\theta}
-=\sin{2\theta}$$,  the range is:
+=\sin{2\theta}$$, the range is:
 
 $$ R=\frac{ v_{0}^{2}\sin{2\theta}}{g}.$$
 
@@ -1035,10 +1025,14 @@ $$ R=\frac{ v_{0}^{2}\sin{2\theta}}{g}.$$
 
 **Unreasonable Results**
 
-(a) Find the maximum range of a super cannon that has a muzzle velocity of 4.0 km/s.
+(a) Find the maximum range of a super cannon that has a muzzle velocity of 4.0
+km/s.
 (b) What is unreasonable about the range you found?
-(c) Is the premise unreasonable or is the available equation inapplicable? Explain your answer.
-(d) If such a muzzle velocity could be obtained, discuss the effects of air resistance, thinning air with altitude, and the curvature of the Earth on the range of the super cannon.
+(c) Is the premise unreasonable or is the available equation inapplicable?
+Explain your answer.
+(d) If such a muzzle velocity could be obtained, discuss the effects of air
+resistance, thinning air with altitude, and the curvature of the Earth on the
+range of the super cannon.
 
 </div>
 </div>
@@ -1048,7 +1042,13 @@ $$ R=\frac{ v_{0}^{2}\sin{2\theta}}{g}.$$
 
 **Construct Your Own Problem**
 
-Consider a ball tossed over a fence. Construct a problem in which you calculate the ball’s needed initial velocity to just clear the fence. Among the things to determine are; the height of the fence, the distance to the fence from the point of release of the ball, and the height at which the ball is released. You should also consider whether it is possible to choose the initial speed for the ball and just calculate the angle at which it is thrown. Also examine the possibility of multiple solutions given the distances and heights you have chosen.
+Consider a ball tossed over a fence. Construct a problem in which you calculate
+the ball’s needed initial velocity to just clear the fence. Among the things to
+determine are; the height of the fence, the distance to the fence from the point
+of release of the ball, and the height at which the ball is released. You should
+also consider whether it is possible to choose the initial speed for the ball
+and just calculate the angle at which it is thrown. Also examine the possibility
+of multiple solutions given the distances and heights you have chosen.
 
 </div>
 </div>
@@ -1057,6 +1057,7 @@ Consider a ball tossed over a fence. Construct a problem in which you calculate 
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 air resistance

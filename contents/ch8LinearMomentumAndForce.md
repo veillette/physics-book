@@ -15,8 +15,8 @@ layout: page
 
 The scientific definition of linear momentum is consistent with most people’s
 intuitive understanding of momentum: a large, fast-moving object has greater
-momentum than a smaller, slower object. **Linear momentum** is defined as the product of a system’s mass multiplied
-by its velocity. In symbols, linear
+momentum than a smaller, slower object. **Linear momentum** is defined as the
+product of a system’s mass multiplied by its velocity. In symbols, linear
 momentum is expressed as
 
 <div class="equation">
@@ -26,8 +26,7 @@ momentum is expressed as
 Momentum is directly proportional to the object’s mass and also its velocity.
 Thus the greater an object’s mass or the greater its velocity, the greater its
 momentum. Momentum $$ \vb{p} $$ is a vector having the same direction as the
-velocity $$ \vb{v} $$. The SI unit for momentum is $$
-\kg · \ms $$.
+velocity $$ \vb{v} $$. The SI unit for momentum is $$ \kg · \ms $$.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -107,9 +106,8 @@ time over which it changes. Using symbols, this law is
  $$ \vb{F}_{\text{net}}=\frac{ \Delta \vb{p}}{\Delta t}, $$
 </div>
 
-where $$ \vb{F}_{\text{net}} $$ is the net external force, $$ \Delta
-\vb{p} $$ is the change in momentum, and $$ \Delta t $$ is the change in
-time.
+where $$ \vb{F}_{\text{net}} $$ is the net external force, $$ \Delta \vb{p} $$
+is the change in momentum, and $$ \Delta t $$ is the change in time.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -131,9 +129,8 @@ Force and momentum are intimately related. Force acting over time can change mom
 </div>
 
 This statement of Newton’s second law of motion includes the more familiar $$
-\vb{F}_{\text{net}}=m\vb{a} $$ as a special case. We can derive this
-form as follows. First, note that the change in momentum $$ \Delta \vb{p} $$
-is given by
+\vb{F}_{\text{net}}=m\vb{a} $$ as a special case. We can derive this form as
+follows. First, note that the change in momentum $$ \Delta \vb{p} $$ is given by
 
 <div class="equation">
  $$ \Delta \vb{p}=\Delta \left(m\vb{v}\right). $$
@@ -233,12 +230,12 @@ the strategy used in this example.
 
 ### Section Summary
 
-* Linear momentum (**momentum** for brevity) is
-  defined as the product of a system’s mass multiplied by its velocity.
-* In symbols, linear momentum $$ \vb{p} $$ is
-  defined to be
+* Linear momentum (**momentum** for brevity) is defined as the product of a
+  system’s mass multiplied by its velocity.
+* In symbols, linear momentum $$ \vb{p} $$ is defined to be
   <div class="equation">
- $$ \vb{p}=m\vb{v}, $$
+
+$$ \vb{p}=m\vb{v}, $$
   </div>
   where $$ m $$ is the mass of the system and $$ \vb{v} $$ is its velocity.
 * The SI unit for momentum is $$ \kg · \ms $$.
@@ -297,10 +294,10 @@ How can a small force impart the same momentum to an object as a large force?
 (a) Calculate the momentum of a 2000-kg elephant charging a hunter at a speed of $$ 7.50  \ms $$.
 
 (b) Compare the elephant’s momentum with the momentum of a 0.0400-kg
-tranquilizer dart fired at a speed of $$ 600  \ms $$.
+tranquilizer dart fired at a speed of $$ 600 \ms $$.
 
-(c) What is the momentum of the 90.0-kg hunter running at $$ 7.40  \ms  $$
-after missing the elephant?
+(c) What is the momentum of the 90.0-kg hunter running at $$ 7.40 \ms $$ after
+missing the elephant?
 
 </div>
 <div class="solution" markdown="1">
@@ -308,7 +305,7 @@ after missing the elephant?
 
 (b) 625 to 1
 
-(c) $$ 6.66 \times 10^{2}\kg \cdot  \ms  $$
+(c) $$ 6.66 \times 10^{2}\kg \cdot \ms $$
 </div>
 </div>
 
@@ -318,7 +315,7 @@ after missing the elephant?
 when the ship is moving at a speed of $$ 48.0 \text{km/h} $$ ?
 
 (b) Compare the ship’s momentum to the momentum of a 1100-kg artillery shell
-fired at a speed of $$ 1200  \ms $$.
+fired at a speed of $$ 1200 \ms $$.
 
 </div>
 </div>
@@ -329,21 +326,22 @@ fired at a speed of $$ 1200  \ms $$.
 airplane have to fly to have a momentum of $$ 1.60 \times
 10^{9}\kg · \ms  $$ (the same as the ship’s momentum in the problem above)?
 
-(b) What is the plane’s momentum when it is taking off at a speed of $$ 60.0  \ms $$ ?
+(b) What is the plane’s momentum when it is taking off at a speed of $$ 60.0 \ms
+$$ ?
 
-(c) If the ship is an aircraft carrier that launches these airplanes with a catapult,
-discuss the implications of your answer to (b) as it relates to recoil effects
-of the catapult on the ship.
+(c) If the ship is an aircraft carrier that launches these airplanes with a
+catapult, discuss the implications of your answer to (b) as it relates to recoil
+effects of the catapult on the ship.
 
 </div>
 <div class="solution" markdown="1">
 (a) $$ 8.00 \times 10^{4} \ms $$
 
-(b) $$ 1.20 \times 10^{6}\kg · \ms  $$
+(b) $$ 1.20 \times 10^{6}\kg · \ms $$
 
 (c) Because the momentum of the airplane is 3 orders of magnitude smaller than
 of the ship, the ship will not recoil very much. The recoil would be $$ -0.0100
- \ms $$, which is probably not noticeable.
+\ms $$, which is probably not noticeable.
 
 </div>
 </div>
@@ -353,7 +351,8 @@ of the ship, the ship will not recoil very much. The recoil would be $$ -0.0100
 (a) What is the momentum of a garbage truck that is $$ 1.20 \times 10^{4}\kg $$
 and is moving at $$ 10.0  \ms $$ ?
 
-(b) At what speed would an 8.00-kg trash can have the same momentum as the truck?
+(b) At what speed would an 8.00-kg trash can have the same momentum as the
+truck?
 
 </div>
 </div>
@@ -383,6 +382,7 @@ Calculate its linear momentum.
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 linear momentum

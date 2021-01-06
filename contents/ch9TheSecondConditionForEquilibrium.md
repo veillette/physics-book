@@ -19,25 +19,25 @@ The second condition necessary to achieve equilibrium involves avoiding accelera
 </div>
 
 Several familiar factors determine how effective you are in opening the door.
-See [Figure 1](#fig1). First of all, the larger the force, the
-more effective it is in opening the door—obviously, the harder you push, the
-more rapidly the door opens. Also, the point at which you push is crucial. If
-you apply your force too close to the hinges, the door will open slowly, if at
-all. Most people have been embarrassed by making this mistake and bumping up
-against a door when it did not open as quickly as expected. Finally, the
-direction in which you push is also important. The most effective direction is
-perpendicular to the door—we push in this direction almost instinctively.
+See [Figure 1](#fig1). First of all, the larger the force, the more effective it
+is in opening the door—obviously, the harder you push, the more rapidly the door
+opens. Also, the point at which you push is crucial. If you apply your force too
+close to the hinges, the door will open slowly, if at all. Most people have been
+embarrassed by making this mistake and bumping up against a door when it did not
+open as quickly as expected. Finally, the direction in which you push is also
+important. The most effective direction is perpendicular to the door—we push in
+this direction almost instinctively.
 
 ![In the figure, six top views of a door are shown. In the first figure, a force vector is shown in the North West direction. The perpendicular distance of the force from the point of rotation is r. In the second figure, a force is applied in the opposite direction at the same distance from the hinges. In the third figure, a smaller force in applied at the same point. In the next figure, a horizontal force is applied at the same point. In this case, the perpendicular distance from the hinges is shown as r sin theta. In the next figure, force is applied at a distance near the hinges. In the final figure, the force is shown along the direction of hinges toward the handle of the door.](../resources/Figure_10_02_01a.jpg "Torque is the turning or twisting effectiveness of a force, illustrated here for door rotation on its hinges (as viewed from overhead). Torque has both magnitude and direction. (a) Counterclockwise torque is produced by this force, which means that the door will rotate in a counterclockwise due to \( F \) . Note that \( r_\perp \) is the perpendicular distance of the pivot from the line of action of the force.
 (b) A smaller counterclockwise torque is produced by a smaller force \( F^\prime \) acting at the same distance from the hinges (the pivot point).
-(c) The same force as in (a) produces a smaller counterclockwise torque when applied at a smaller distance from the hinges. (d) The same force as in (a), but acting in the opposite direction, produces a clockwise torque. (e) A smaller counterclockwise torque is produced by the same magnitude force acting at the same point but in a different direction. Here, \( \theta \)  is less than 90&#xBA;. (f) Torque is zero here since the force just pulls on the hinges, producing no rotation. In this case, \( \theta= 0^\circ \) .")
+(c) The same force as in (a) produces a smaller counterclockwise torque when applied at a smaller distance from the hinges. (d) The same force as in (a), but acting in the opposite direction, produces a clockwise torque. (e) A smaller counterclockwise torque is produced by the same magnitude force acting at the same point but in a different direction. Here, \( \theta \) is less than 90&#xBA;. (f) Torque is zero here since the force just pulls on the hinges, producing no rotation. In this case, \( \theta= 0^\circ \) .")
 {: #fig1}
 
 The magnitude, direction, and point of application of the force are incorporated
-into the definition of the physical quantity called torque. **Torque** is the rotational equivalent of a
-force. It is a measure of the effectiveness of a force in changing or
-accelerating a rotation (changing the angular velocity over a period of time).
-In equation form, the magnitude of torque is defined to be
+into the definition of the physical quantity called torque. **Torque** is the
+rotational equivalent of a force. It is a measure of the effectiveness of a
+force in changing or accelerating a rotation (changing the angular velocity over
+a period of time). In equation form, the magnitude of torque is defined to be
 
 <div class="equation">
  $$ \tau =rF\sin{\theta} $$
@@ -49,9 +49,8 @@ the pivot point to the point where the force is applied, $$ F $$ is the
 magnitude of the force, and $$ \theta $$ is the angle between the force and the
 vector directed from the point of application to the pivot point, as seen
 in [Figure 1](#fig1)
-and [Figure 2](#fig2). An alternative expression for torque is
-given in terms of the **perpendicular lever arm** $$ r_{\perp } $$ as shown
-in [Figure 1](#fig1)
+and [Figure 2](#fig2). An alternative expression for torque is given in terms of
+the **perpendicular lever arm** $$ r_{\perp } $$ as shown in [Figure 1](#fig1)
 and [Figure 2](#fig2), which is defined as
 
 <div class="equation">
@@ -64,26 +63,25 @@ so that
  $$ \tau =r_{\perp }F. $$
 </div>
 
-![In the first part of the figure, a hockey stick is shown. At a point A near the bottom, a nail is fixed. A force is applied at a point near the holding grip of the hockey stick. A quarter circular arrow shows that the stick rotates in the counterclockwise direction. The perpendicular distance between the pivot point and the force vector direction is labeled as r-perpendicular, and the angle between the direction of force and the line joining the pivot A to the point of application of force is given as theta. In the second part of the figure, the pivot point is near the top of the stick and the point of application of the force is about the same as that in the first part of the figure. An upward quarter circle arrow shows that the stick rotates in the clockwise direction.](../resources/Figure_10_02_02abc.jpg "A force applied to an object can produce a torque, which depends on the location of the pivot point. (a) The three factors r, F, and \( \theta \)  for pivot point A on a body are shown here&#x2014;r is the distance from the chosen pivot point to the point where the force F is applied, and &#x3B8; is the angle between F and the vector directed from the point of application to the pivot point. If the object can rotate around point A, it will rotate counterclockwise. This means that torque is counterclockwise relative to pivot A.
+![In the first part of the figure, a hockey stick is shown. At a point A near the bottom, a nail is fixed. A force is applied at a point near the holding grip of the hockey stick. A quarter circular arrow shows that the stick rotates in the counterclockwise direction. The perpendicular distance between the pivot point and the force vector direction is labeled as r-perpendicular, and the angle between the direction of force and the line joining the pivot A to the point of application of force is given as theta. In the second part of the figure, the pivot point is near the top of the stick and the point of application of the force is about the same as that in the first part of the figure. An upward quarter circle arrow shows that the stick rotates in the clockwise direction.](../resources/Figure_10_02_02abc.jpg "A force applied to an object can produce a torque, which depends on the location of the pivot point. (a) The three factors r, F, and \( \theta \) for pivot point A on a body are shown here&#x2014;r is the distance from the chosen pivot point to the point where the force F is applied, and &#x3B8; is the angle between F and the vector directed from the point of application to the pivot point. If the object can rotate around point A, it will rotate counterclockwise. This means that torque is counterclockwise relative to pivot A.
 (b) In this case, point B is the pivot point. The torque from the applied force will cause a clockwise rotation around point B, and so it is a clockwise torque relative to B.&#10;      ")
 {: #fig2}
 
 The perpendicular lever arm $$ r_{\perp } $$ is the shortest distance from the
-pivot point to the line along which $$ \vb{F} $$ acts; it is shown as
-a dashed line in [Figure 1](#fig1)
-and [Figure 2](#fig2). Note that the line segment that defines
-the distance $$ r_{\perp } $$ is perpendicular to $$ \vb{F} $$, as
-its name implies. It is sometimes easier to find or visualize $$ r_{\perp } $$
-than to find both $$ r $$ and $$ \theta $$. In such cases, it may be more
-convenient to use $$ \tau =r_{\perp }F $$ rather than $$ \tau =rF\sin{\theta} $$ for torque, but both are equally
-valid.
+pivot point to the line along which $$ \vb{F} $$ acts; it is shown as a dashed
+line in [Figure 1](#fig1)
+and [Figure 2](#fig2). Note that the line segment that defines the distance $$
+r_{\perp } $$ is perpendicular to $$ \vb{F} $$, as its name implies. It is
+sometimes easier to find or visualize $$ r_{\perp } $$ than to find both $$ r $$
+and $$ \theta $$. In such cases, it may be more convenient to use $$ \tau =r_
+{\perp }F $$ rather than $$ \tau =rF\sin{\theta} $$ for torque, but both are
+equally valid.
 
-The **SI unit of torque** is newtons
-times meters, usually written as $$ \N ·\m $$. For example, if you
-push perpendicular to the door with a force of 40 N at a distance of 0.800 m
-from the hinges, you exert a torque of $$ 32 \text{N·m} (0.800 \m  · 40
-\N \sin{90^\circ} ) $$ relative to the hinges. If you reduce the force to
-20 N, the torque is reduced to $$ 16 \text{N·m} $$, and so on.
+The **SI unit of torque** is newtons times meters, usually written as $$ \N ·\m
+$$. For example, if you push perpendicular to the door with a force of 40 N at a
+distance of 0.800 m from the hinges, you exert a torque of $$ 32 \text{N·m} (
+0.800 \m · 40 \N \sin{90^\circ} ) $$ relative to the hinges. If you reduce the
+force to 20 N, the torque is reduced to $$ 16 \text{N·m} $$, and so on.
 
 The torque is always calculated with reference to some chosen pivot point. For
 the same applied force, a different choice for the location of the pivot will
@@ -94,13 +92,12 @@ the chosen “pivot point.”
 
 Note that for rotation in a plane, torque has two possible directions. Torque is
 either clockwise or counterclockwise relative to the chosen pivot point, as
-illustrated for points B and A, respectively,
-in [Figure 2](#fig2). If the object can rotate about point A,
-it will rotate counterclockwise, which means that the torque for the force is
-shown as counterclockwise relative to A. But if the object can rotate about
-point B, it will rotate clockwise, which means the torque for the force shown is
-clockwise relative to B. Also, the magnitude of the torque is greater when the
-lever arm is longer.
+illustrated for points B and A, respectively, in [Figure 2](#fig2). If the
+object can rotate about point A, it will rotate counterclockwise, which means
+that the torque for the force is shown as counterclockwise relative to A. But if
+the object can rotate about point B, it will rotate clockwise, which means the
+torque for the force shown is clockwise relative to B. Also, the magnitude of
+the torque is greater when the lever arm is longer.
 
 Now, *the second condition necessary to achieve equilibrium* is that *the net
 external torque on a system must be zero*. An external torque is one that is
@@ -121,11 +118,10 @@ where net means total. Torques, which are in opposite directions are assigned
 opposite signs. A common convention is to call counterclockwise (ccw) torques
 positive and clockwise (cw) torques negative.
 
-When two children balance a seesaw as shown
-in [Figure 3](#fig3), they satisfy the two conditions for
-equilibrium. Most people have perfect intuition about seesaws, knowing that the
-lighter child must sit farther from the pivot and that a heavier child can keep
-a lighter one off the ground indefinitely.
+When two children balance a seesaw as shown in [Figure 3](#fig3), they satisfy
+the two conditions for equilibrium. Most people have perfect intuition about
+seesaws, knowing that the lighter child must sit farther from the pivot and that
+a heavier child can keep a lighter one off the ground indefinitely.
 
 ![Two children are sitting on a seesaw. On the left side, a lighter child is sitting and on the right, a heavier one. The distance of the lighter child from the fulcrum is more than that of heavier child. At the fulcrum, an upward force vector labeled as F-p is shown. The weights of the two children, w-one and w-two, are shown as vectors in the downward direction, and the force at the fulcrum, F-p, is shown as a vector in the upward direction.](../resources/Figure_10_02_03a.jpg "Two children balancing a seesaw satisfy both conditions for equilibrium. The lighter child sits farther from the pivot to create a torque equal in magnitude to that of the heavier child.")
 {: #fig3}
@@ -271,9 +267,10 @@ the correct forces—do not jump ahead to enter some ratio of masses.
 
 Third, the weight of each child is distributed over an area of the seesaw, yet
 we treated the weights as if each force were exerted at a single point. This is
-not an approximation—the distances $$ r_{1} $$ and $$ r_{2} $$ are the
-distances to points directly below the **center of gravity** of each child. As we shall see in the next section, the
-mass and weight of a system can act as if they are located at a single point.
+not an approximation—the distances $$ r_{1} $$ and $$ r_{2} $$ are the distances
+to points directly below the **center of gravity** of each child. As we shall
+see in the next section, the mass and weight of a system can act as if they are
+located at a single point.
 
 Finally, note that the concept of torque has an importance beyond static
 equilibrium. *Torque plays the same role in rotational motion that force plays
@@ -289,40 +286,40 @@ Take a piece of modeling clay and put it on a table, then mash a cylinder down i
 
 ### Section Summary
 
-* The second condition assures those torques are also
-  balanced. Torque is the rotational equivalent of a force in producing a
-  rotation and is defined to be
+* The second condition assures those torques are also balanced. Torque is the
+  rotational equivalent of a force in producing a rotation and is defined to be
   <div class="equation">
- $$ \tau =rF\sin{\theta} $$
+
+$$ \tau =rF\sin{\theta} $$
   </div>
 
-  where $$ \tau $$ is torque, $$ r $$ is the distance from the pivot point to
-  the point where the force is applied, $$ F $$ is the magnitude of the force,
-  and $$ \theta $$ is the angle between $$ \vb{F} $$ and the vector
-  directed from the point where the force acts to the pivot point. The
-  perpendicular lever arm $$ r_{\perp } $$ is defined to be
+where $$ \tau $$ is torque, $$ r $$ is the distance from the pivot point to the
+point where the force is applied, $$ F $$ is the magnitude of the force, and $$
+\theta $$ is the angle between $$ \vb{F} $$ and the vector directed from the
+point where the force acts to the pivot point. The perpendicular lever arm $$ r_
+{\perp } $$ is defined to be
 
   <div class="equation">
  $$ r_{\perp }=r\sin{\theta} $$
   </div>
 
-  so that
+so that
 
   <div class="equation">
  $$ \tau =r_{\perp }F. $$
   </div>
 
-* The perpendicular lever arm $$ r_{\perp } $$ is the
-  shortest distance from the pivot point to the line along which $$ F $$ acts.
-  The SI unit for torque is newton-meter $$ \text{(N·m)} $$. The second
-  condition necessary to achieve equilibrium is that the net external torque on
-  a system must be zero:
+* The perpendicular lever arm $$ r_{\perp } $$ is the shortest distance from the
+  pivot point to the line along which $$ F $$ acts. The SI unit for torque is
+  newton-meter $$ \text{(N·m)} $$. The second condition necessary to achieve
+  equilibrium is that the net external torque on a system must be zero:
   <div class="equation">
- $$ \text{net}\tau =0 $$
+
+$$ \text{net}\tau =0 $$
   </div>
 
-  By convention, counterclockwise torques are positive, and clockwise torques
-  are negative.
+By convention, counterclockwise torques are positive, and clockwise torques are
+negative.
 
 ### Conceptual Questions
 
@@ -455,14 +452,15 @@ F_{\text{p}}&=& 686 \N
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 torque
 : turning or twisting effectiveness of a force
 
 perpendicular lever arm
-: the shortest distance from the pivot point to the line along which $$
-\vb{F} $$ lies
+: the shortest distance from the pivot point to the line along which $$ \vb{F}
+$$ lies
 
 SI units of torque
 : newton times meters, usually written as N·m

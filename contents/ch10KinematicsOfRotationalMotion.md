@@ -22,8 +22,8 @@ acceleration produces a large final velocity, and the distance traveled will
 also be large.
 
 Kinematics is the description of motion. The **kinematics of rotational motion**
-** describes the relationships among
-rotation angle, angular velocity, angular acceleration, and
+** describes the relationships among rotation angle, angular velocity, angular
+acceleration, and
 
 time. Let us start by finding an equation relating $$ \omega $$, $$ \alpha $$,
 and $$ t $$. To determine this equation, we recall a familiar kinematic equation
@@ -70,7 +70,8 @@ velocity, and acceleration have direct analogs in rotational motion.
 
 Starting with the four kinematic equations we developed
 in [One-Dimensional Kinematics](../contents/ch2Kinematics.md), we can derive the
-following four rotational kinematic equations (presented together with their translational counterparts):
+following four rotational kinematic equations (presented together with their
+translational counterparts):
 
 ##### Table: Rotational Kinematic Equations
 
@@ -80,21 +81,22 @@ following four rotational kinematic equations (presented together with their tra
 | $$\omega=\omega_0 + \alpha t $$ | $$v = v_0 + a t $$ | constant $$\alpha$$, constant $$a$$ |
 | $$\theta=\omega_0 t + \frac{1}{2} \alpha t^2 $$ | $$ x = v_0 t + \frac{1}{2} a t^2 $$ | constant $$\alpha$$, constant $$a$$ |
 | $$\omega^2= \omega_0^2 + 2 \alpha \theta $$ | $$ v^2 =v_0^2 + 2 a x $$ | constant $$\alpha$$, constant $$a$$ |
+
 {: #table1}
 
 In these equations, the subscript 0 denotes initial values
-($$ \theta_{0} $$, $$ x_{0} $$, and $$ t_{0} $$ are initial values),
-and the average angular velocity $$ \overline{\omega } $$
-and average velocity $$ \overline{v} $$ are defined as follows:
+($$ \theta_{0} $$, $$ x_{0} $$, and $$ t_{0} $$ are initial values), and the
+average angular velocity $$ \overline{\omega } $$ and average velocity $$
+\overline{v} $$ are defined as follows:
 
 <div class="equation">
  $$ \overline{\omega }=\frac{ \omega_{0} +\omega }{2}; \overline{v}=\frac{ v_
 {0}+v}{2} . $$
 </div>
 
-The equations given above in [Table 1](#table1) can be used to
-solve any rotational or translational kinematics problem in which $$ a $$ and $$
-\alpha $$ are constant.
+The equations given above in [Table 1](#table1) can be used to solve any
+rotational or translational kinematics problem in which $$ a $$ and $$ \alpha $$
+are constant.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -152,7 +154,8 @@ We are also given that $$ \omega_{0} =0 $$
 
 **Solution for (b)**
 
-Now that $$ \omega $$ is known, the speed $$ v $$ can most easily be found using the relationship
+Now that $$ \omega $$ is known, the speed $$ v $$ can most easily be found using
+the relationship
 
 <div class="equation">
  $$ v=r \omega , $$
@@ -187,8 +190,8 @@ Converting radians to revolutions gives
 
 **Solution for (d)**
 
-The number of meters of fishing line is $$ x $$, which
-can be obtained through its relationship with $$ \theta $$:
+The number of meters of fishing line is $$ x $$, which can be obtained through
+its relationship with $$ \theta $$:
 
 <div class="equation">
  $$ x=r\theta = \left(0.0450 \m \right)\left(220 \text{rad} \right)=9.90 \m . $$
@@ -221,11 +224,10 @@ Now let us consider what happens if the fisherman applies a brake to the spinnin
 We are asked to find the time $$ t $$ for the reel to come to a stop. The
 initial and final conditions are different from those in the previous problem,
 which involved the same fishing reel. Now we see that the initial angular
-velocity is $$ \omega_{0}=220 \rads $$ and the final angular velocity $$
-\omega $$ is zero. The angular acceleration is given to be $$ \alpha =-300
-\radss $$. Examining the available equations, we see all quantities
-but *t* are known in $$ \omega =\omega_{0}+ \alpha t, $$ making it easiest to
-use this equation.
+velocity is $$ \omega_{0}=220 \rads $$ and the final angular velocity $$ \omega
+$$ is zero. The angular acceleration is given to be $$ \alpha =-300 \radss $$.
+Examining the available equations, we see all quantities but *t* are known in $$
+\omega =\omega_{0}+ \alpha t, $$ making it easiest to use this equation.
 
 **Solution**
 
@@ -319,14 +321,15 @@ through its relationship to $$ \omega $$:
 
 **Discussion**
 
-The distance traveled is fairly large and the final velocity is fairly slow (just under 32 km/h).
+The distance traveled is fairly large and the final velocity is fairly slow (
+just under 32 km/h).
 
 </div>
 
 There is translational motion even for something spinning in place, as the
-following example illustrates. [Figure 2](#fig2) shows a fly on
-the edge of a rotating microwave oven plate. The example below calculates the
-total distance it travels.
+following example illustrates. [Figure 2](#fig2) shows a fly on the edge of a
+rotating microwave oven plate. The example below calculates the total distance
+it travels.
 
 ![The figure shows a fly that has landed on the rotating plate of the microwave. The direction of rotation of the plate, omega, is counterclockwise and is shown with an arrow.](../resources/Figure_11_02_02a.jpg "The image shows a microwave plate. The fly makes revolutions while the food is heated (along with the fly).")
 {: #fig2}
@@ -392,19 +395,20 @@ Rotational kinematics (just like linear kinematics) is descriptive and does not 
 ### Section Summary
 
 * Kinematics is the description of motion.
-* The kinematics of rotational motion describes the
-  relationships among rotation angle, angular velocity, angular acceleration,
-  and time.
-* Starting with the four kinematic equations we
-  developed in the [One-Dimensional Kinematics](../contents/ch2Kinematics.md), we can derive
+* The kinematics of rotational motion describes the relationships among rotation
+  angle, angular velocity, angular acceleration, and time.
+* Starting with the four kinematic equations we developed in
+  the [One-Dimensional Kinematics](../contents/ch2Kinematics.md), we can derive
   the four rotational kinematic equations (presented together with their
   translational counterparts) seen in [Table 1](#table1).
-* In these equations, the subscript 0 denotes initial
-  values ($$ x_{0} $$ and $$ t_{0} $$ are initial values), and the average angular velocity $$
- \overline{\omega } $$ and average velocity $$ \overline{v} $$ are defined as
+* In these equations, the subscript 0 denotes initial values ($$ x_{0} $$ and $$
+  t_{0} $$ are initial values), and the average angular velocity $$
+  \overline{\omega } $$ and average velocity $$ \overline{v} $$ are defined as
   follows:
   <div class="equation">
- $$ \overline{\omega }=\frac{ \omega_{0} +\omega }{2}\text{ and }\overline{v}=\frac{ v_{0}+v}{2}. $$
+
+$$ \overline{\omega }=\frac{ \omega_{0} +\omega }{2}\text{ and
+}\overline{v}=\frac{ v_{0}+v}{2}. $$
   </div>
 
 ### Problems &amp; Exercises
@@ -502,9 +506,11 @@ c) 21.0 m/s
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 kinematics of rotational motion
-: describes the relationships among rotation angle, angular velocity, angular acceleration, and time
+: describes the relationships among rotation angle, angular velocity, angular
+acceleration, and time
 
 </div>

@@ -22,20 +22,20 @@ The first tugboat exerts a force of $$ 2.7\times 10^{5}\N $$
 in the *x*-direction, and the second tugboat exerts a force of $$ 3.6\times
 10^{5}\N $$ in the *y*-direction.
 
-![(a) A view from above two tugboats pushing on a barge. One tugboat is pushing with the force F sub x equal to two point seven multiplied by ten to the power five newtons, shown by a vector arrow acting toward the right in the x direction. Another tugboat is pushing with a force F sub y equal to three point six multiplied by ten to the power five newtons acting upward in the positive y direction. Acceleration of the barge, a, is shown by a vector arrow directed fifty-three point one degree angle above the x axis. In the free-body diagram, F sub y is acting on a point upward, F sub x is acting toward the right, and F sub D is acting approximately southwest. (b) A right triangle is made by the vectors F sub x and F sub y. The base vector is shown by the force vector F sub x. and the perpendicular vector is shown by the force vector F sub y. The resultant is the hypotenuse of this triangle, making a fifty-three point one degree angle from the base, shown by the vector force F sub net pointing up the inclination. A vector F sub D points down the incline. ](../resources/Figure_04_07_01.jpg "(a) A view from above of two tugboats pushing on a barge. (b) The free-body diagram for the ship contains only forces acting in the plane of the water. It omits the two vertical forces&#x2014;the weight of the barge and the buoyant force of the water supporting it cancel and are not shown. Since the applied forces are perpendicular, the x- and y-axes are in the same direction as \( \vb{F}_x \)  and \( \vb{F}_y \) . The problem quickly becomes a one-dimensional problem along the direction of \( \vb{F}_{\text{app}} \),  since friction is in the direction opposite to \( \vb{F}_{\text{app}} \). ")
+![(a) A view from above two tugboats pushing on a barge. One tugboat is pushing with the force F sub x equal to two point seven multiplied by ten to the power five newtons, shown by a vector arrow acting toward the right in the x direction. Another tugboat is pushing with a force F sub y equal to three point six multiplied by ten to the power five newtons acting upward in the positive y direction. Acceleration of the barge, a, is shown by a vector arrow directed fifty-three point one degree angle above the x axis. In the free-body diagram, F sub y is acting on a point upward, F sub x is acting toward the right, and F sub D is acting approximately southwest. (b) A right triangle is made by the vectors F sub x and F sub y. The base vector is shown by the force vector F sub x. and the perpendicular vector is shown by the force vector F sub y. The resultant is the hypotenuse of this triangle, making a fifty-three point one degree angle from the base, shown by the vector force F sub net pointing up the inclination. A vector F sub D points down the incline. ](../resources/Figure_04_07_01.jpg "(a) A view from above of two tugboats pushing on a barge. (b) The free-body diagram for the ship contains only forces acting in the plane of the water. It omits the two vertical forces&#x2014;the weight of the barge and the buoyant force of the water supporting it cancel and are not shown. Since the applied forces are perpendicular, the x- and y-axes are in the same direction as \( \vb{F}_x \) and \( \vb{F}_y \) . The problem quickly becomes a one-dimensional problem along the direction of \( \vb{F}_{\text{app}} \), since friction is in the direction opposite to \( \vb{F}_{\text{app}} \). ")
 {: #fig1}
 
-If the mass of the barge is $$ 5.0\times 10^{6}\kg $$ and its acceleration
-is observed to be $$ 7.5 \times 10^{-2}\mss $$ in the direction shown,
-what is the drag force of the water on the barge resisting the motion? (Note:
+If the mass of the barge is $$ 5.0\times 10^{6}\kg $$ and its acceleration is
+observed to be $$ 7.5 \times 10^{-2}\mss $$ in the direction shown, what is the
+drag force of the water on the barge resisting the motion? (Note:
 drag force is a frictional force exerted by fluids, such as air or water. The
 drag force opposes the motion of the object.)
 
 **Strategy**
 
 The directions and magnitudes of acceleration and the applied forces are given
-in [Figure 1](#fig1)**(a)**. We will define the total
-force of the tugboats on the barge as $$ \vb{F}_{\text{app}} $$ so that:
+in [Figure 1](#fig1)**(a)**. We will define the total force of the tugboats on
+the barge as $$ \vb{F}_{\text{app}} $$ so that:
 
 <div class="equation">
  $$ \vb{F}_{\text{app}}=\vb{F}_{x}+\vb{F}_{y} $$
@@ -50,10 +50,9 @@ Newton’s second law to solve for the drag force $$ \vb{F}_{\text{D}} $$.
 
 **Solution**
 
-Since $$ \vb{F}_{x} $$ and $$ \vb{F}_{y} $$ are perpendicular,
-the magnitude and direction of $$ \vb{F}_{\text{app}} $$
-are easily found. First, the resultant magnitude is given by the
-Pythagorean theorem:
+Since $$ \vb{F}_{x} $$ and $$ \vb{F}_{y} $$ are perpendicular, the magnitude and
+direction of $$ \vb{F}_{\text{app}} $$ are easily found. First, the resultant
+magnitude is given by the Pythagorean theorem:
 
 <div class="equation">
  $$ \begin{array}{lll}
@@ -134,14 +133,14 @@ Consider the traffic light (mass 15.0 kg) suspended from two wires as shown in [
 **Strategy**
 
 The system of interest is the traffic light, and its free-body diagram is shown
-in [Figure 2](#fig2)(c).
-The three forces involved are not parallel, and so they must be projected onto
-a coordinate system. The most convenient coordinate system has one axis vertical
-and one horizontal, and the vector projections on it are shown in part (d) of
-the figure. There are two unknowns in this problem ( $$ T_{1} $$ and $$ T_{2} $$),
-so two equations are needed to find them. These two equations come from
-applying Newton’s second law along the vertical and horizontal axes, noting that
-the net external force is zero along each axis because acceleration is zero.
+in [Figure 2](#fig2)(c). The three forces involved are not parallel, and so they
+must be projected onto a coordinate system. The most convenient coordinate
+system has one axis vertical and one horizontal, and the vector projections on
+it are shown in part (d) of the figure. There are two unknowns in this problem (
+$$ T_{1} $$ and $$ T_{2} $$), so two equations are needed to find them. These
+two equations come from applying Newton’s second law along the vertical and
+horizontal axes, noting that the net external force is zero along each axis
+because acceleration is zero.
 
 **Solution**
 
@@ -232,26 +231,25 @@ What Does the Bathroom Scale Read in an Elevator?
 (a) if the elevator accelerates upward at a rate of $$ 1.20 \mss $$, and
 (b) if the elevator moves upward at a constant speed of 1 m/s.
 
-![A person is standing on a bathroom scale in an elevator. His weight w is shown by an arrow pointing downward. F sub s is the force of the scale on the person, shown by a vector starting from his feet pointing vertically upward. W sub s is the weight of the scale pointing vertically downward. W sub e is the weight of the elevator, shown by the broken arrow pointing vertically downward. F sub p is the force of the person on the scale, acting vertically downward. F sub t is the force of the scale on the floor of the elevator, pointing vertically downward, and N is the normal force of the floor on the scale, pointing upward. (b) The same person is shown on the scale in the elevator, but only a few forces are shown acting on the person, which is our system of interest. W is shown by an arrow acting downward, and F sub s is the force of the scale on the person, shown by a vector starting from his feet pointing vertically upward. The free-body diagram is also shown, with two forces acting on a point. F sub s acts vertically upward, and w acts vertically downward.](../resources/Figure_04_07_03.jpg "(a) The various forces acting when a person stands on a bathroom scale in an elevator. The arrows are approximately correct for when the elevator is accelerating upward&#x2014;broken arrows represent forces too large to be drawn to scale. \( \vb{T} \) is the tension in the supporting cable, \( \vb{w} \) is the weight of the person, \( \vb{w}_s \)  is the weight of the scale, \( \vb{w}_e \)  is the weight of the elevator, \( \vb{F}_s \)  is the force of the scale on the person, \( \vb{F}_p \)  is the force of the person on the scale, \( \vb{F}_t \)  is the force of the scale on the floor of the elevator, and \( \vb{N} \) is the force of the floor upward on the scale.
+![A person is standing on a bathroom scale in an elevator. His weight w is shown by an arrow pointing downward. F sub s is the force of the scale on the person, shown by a vector starting from his feet pointing vertically upward. W sub s is the weight of the scale pointing vertically downward. W sub e is the weight of the elevator, shown by the broken arrow pointing vertically downward. F sub p is the force of the person on the scale, acting vertically downward. F sub t is the force of the scale on the floor of the elevator, pointing vertically downward, and N is the normal force of the floor on the scale, pointing upward. (b) The same person is shown on the scale in the elevator, but only a few forces are shown acting on the person, which is our system of interest. W is shown by an arrow acting downward, and F sub s is the force of the scale on the person, shown by a vector starting from his feet pointing vertically upward. The free-body diagram is also shown, with two forces acting on a point. F sub s acts vertically upward, and w acts vertically downward.](../resources/Figure_04_07_03.jpg "(a) The various forces acting when a person stands on a bathroom scale in an elevator. The arrows are approximately correct for when the elevator is accelerating upward&#x2014;broken arrows represent forces too large to be drawn to scale. \( \vb{T} \) is the tension in the supporting cable, \( \vb{w} \) is the weight of the person, \( \vb{w}_s \) is the weight of the scale, \( \vb{w}_e \) is the weight of the elevator, \( \vb{F}_s \) is the force of the scale on the person, \( \vb{F}_p \) is the force of the person on the scale, \( \vb{F}_t \) is the force of the scale on the floor of the elevator, and \( \vb{N} \) is the force of the floor upward on the scale.
 (b) The free-body diagram shows only the external forces acting on the designated system of interest&#x2014;the person.")
 {: #fig3}
 
 **Strategy**
 
 If the scale is accurate, its reading will equal $$ F_{\text{p}} $$, the
-magnitude of the force the person exerts downward on
-it. [Figure 3](#fig3)(a) shows the numerous forces acting on the
-elevator, scale, and person. It makes this one-dimensional problem look much
-more formidable than if the person is chosen to be the system of interest and a
-free-body diagram is drawn as in [Figure 3](#fig3)(b). Analysis
-of the free-body diagram using Newton’s laws can produce answers to both parts
+magnitude of the force the person exerts downward on it. [Figure 3](#fig3)(a)
+shows the numerous forces acting on the elevator, scale, and person. It makes
+this one-dimensional problem look much more formidable than if the person is
+chosen to be the system of interest and a free-body diagram is drawn as
+in [Figure 3](#fig3)(b). Analysis of the free-body diagram using Newton’s laws
+can produce answers to both parts
 (a) and (b) of this example, as well as some other questions that might arise.
-The only forces acting on the person are his weight $$ \vb{w} $$ and
-the upward force of the scale $$ \vb{F}_{\s} $$. According to
-Newton’s third law $$ \vb{F}_{\text{p}} $$ and $$
-\vb{F}_{\s} $$ are equal in magnitude and opposite in
-direction, so that we need to find $$ F_{\s} $$ in order to find what
-the scale reads. We can do this, as usual, by applying Newton’s second law,
+The only forces acting on the person are his weight $$ \vb{w} $$ and the upward
+force of the scale $$ \vb{F}_{\s} $$. According to Newton’s third law $$ \vb{F}_
+{\text{p}} $$ and $$ \vb{F}_{\s} $$ are equal in magnitude and opposite in
+direction, so that we need to find $$ F_{\s} $$ in order to find what the scale
+reads. We can do this, as usual, by applying Newton’s second law,
 
 <div class="equation">
 $$ F_{\text{net}}=ma . $$
@@ -376,15 +374,15 @@ The player’s mass is 70.0 kg, and air resistance is negligible.
 
 **Strategy**
 
-1. To solve an *integrated concept problem*, we
-   must first identify the physical principles involved and identify the
-   chapters in which they are found. Part (a) of this example considers *
+1. To solve an *integrated concept problem*, we must first identify the physical
+   principles involved and identify the chapters in which they are found. Part (
+   a) of this example considers *
    acceleration* along a straight line. This is a topic of *kinematics*. Part (
    b) deals with *force*, a topic of *dynamics* found in this chapter.
-2. The following solutions to each part of the
-   example illustrate how the specific problem-solving strategies are applied.
-   These involve identifying knowns and unknowns, checking to see if the answer
-   is reasonable, and so forth.
+2. The following solutions to each part of the example illustrate how the
+   specific problem-solving strategies are applied. These involve identifying
+   knowns and unknowns, checking to see if the answer is reasonable, and so
+   forth.
 
 **Solution for (a)**
 
@@ -432,39 +430,37 @@ F_{\text{net}}&=& 224 \N .
 
 **Discussion for (b)**
 
-This is about 50 pounds, a reasonable average force.
-This worked example illustrates how to apply problem-solving strategies to
-situations that include topics from different chapters. The first step is to
-identify the physical principles involved in the problem. The second step is to
-solve for the unknown using familiar problem-solving strategies. These
-strategies are found throughout the text, and many worked examples show how to
-use them for single topics. You will find these techniques for integrated
-concept problems useful in applications of physics outside of a physics course,
-such as in your profession, in other science disciplines, and in everyday life.
-The following problems will build your skills in the broad application of
-physical principles.
+This is about 50 pounds, a reasonable average force. This worked example
+illustrates how to apply problem-solving strategies to situations that include
+topics from different chapters. The first step is to identify the physical
+principles involved in the problem. The second step is to solve for the unknown
+using familiar problem-solving strategies. These strategies are found throughout
+the text, and many worked examples show how to use them for single topics. You
+will find these techniques for integrated concept problems useful in
+applications of physics outside of a physics course, such as in your profession,
+in other science disciplines, and in everyday life. The following problems will
+build your skills in the broad application of physical principles.
 
 </div>
 
 ### Summary
 
-* Newton’s laws of motion can be applied in numerous
-  situations to solve problems of motion.
-* Some problems will contain multiple force vectors
-  acting in different directions on an object. Be sure to draw diagrams, resolve
-  all force vectors into horizontal and vertical components, and draw a
-  free-body diagram. Always analyze the direction in which an object accelerates
-  so that you can determine whether $$ F_{\text{net}}=ma $$ or $$ F_
+* Newton’s laws of motion can be applied in numerous situations to solve
+  problems of motion.
+* Some problems will contain multiple force vectors acting in different
+  directions on an object. Be sure to draw diagrams, resolve all force vectors
+  into horizontal and vertical components, and draw a free-body diagram. Always
+  analyze the direction in which an object accelerates so that you can determine
+  whether $$ F_{\text{net}}=ma $$ or $$ F_
   {\text{net}}=0 $$.
-* The normal force on an object is not always equal
-  in magnitude to the weight of the object. If an object is accelerating, the
-  normal force will be less than or greater than the weight of the object. Also,
-  if the object is on an inclined plane, the normal force will always be less
-  than the full weight of the object.
-* Some problems will contain various physical
-  quantities, such as forces, acceleration, velocity, or position. You can apply
-  concepts from kinematics and dynamics in order to solve these problems of
-  motion.
+* The normal force on an object is not always equal in magnitude to the weight
+  of the object. If an object is accelerating, the normal force will be less
+  than or greater than the weight of the object. Also, if the object is on an
+  inclined plane, the normal force will always be less than the full weight of
+  the object.
+* Some problems will contain various physical quantities, such as forces,
+  acceleration, velocity, or position. You can apply concepts from kinematics
+  and dynamics in order to solve these problems of motion.
 
 ### Conceptual Questions
 
@@ -534,8 +530,9 @@ $$ T_{1}=736 \N $$, $$ T_{2}=194 \N $$
 <div class="problem" markdown="1">
 
 **Integrated Concepts**
- A 35.0-kg dolphin decelerates from 12.0 to 7.50 m/s in 2.30 s to join another dolphin in play. What average force was
-exerted to slow him if he was moving horizontally?
+A 35.0-kg dolphin decelerates from 12.0 to 7.50 m/s in 2.30 s to join another
+dolphin in play. What average force was exerted to slow him if he was moving
+horizontally?
 (The gravitational force is balanced by the buoyant force of the water.)
 
 </div>
@@ -545,7 +542,8 @@ exerted to slow him if he was moving horizontally?
 <div class="problem" markdown="1">
 
 **Integrated Concepts**
- When starting a foot race, a 70.0-kg sprinter exerts an average force of 650 N backward on the ground for 0.800 s.
+When starting a foot race, a 70.0-kg sprinter exerts an average force of 650 N
+backward on the ground for 0.800 s.
 (a) What is his final speed?
 (b) How far does he travel?
 
@@ -562,15 +560,14 @@ exerted to slow him if he was moving horizontally?
 <div class="problem" markdown="1">
 
 **Integrated Concepts**
- A large rocket has a mass of $$ 2.00 \times 10^{6}\kg $$
-at takeoff, and its engines produce a thrust of $$ 3.50 \times 10^{7}\N
-$$.
+A large rocket has a mass of $$ 2.00 \times 10^{6}\kg $$ at takeoff, and its
+engines produce a thrust of $$ 3.50 \times 10^{7}\N $$.
 (a) Find its initial acceleration if it takes off vertically.
-(b) How long does it take to reach a velocity of 120 km/h straight up, assuming constant mass
-and thrust?
-(c) In reality, the mass of a rocket decreases significantly as its
-fuel is consumed. Describe qualitatively how this affects the acceleration and
-time for this motion.
+(b) How long does it take to reach a velocity of 120 km/h straight up, assuming
+constant mass and thrust?
+(c) In reality, the mass of a rocket decreases significantly as its fuel is
+consumed. Describe qualitatively how this affects the acceleration and time for
+this motion.
 
 </div>
 </div>
@@ -579,11 +576,15 @@ time for this motion.
 <div class="problem" markdown="1">
 
 **Integrated Concepts**
- A basketball player jumps straight up for a ball. To do this, he lowers his body 0.300 m and then accelerates through this distance by forcefully straightening his legs. This player leaves the floor with a vertical velocity sufficient to carry him 0.900 m above the floor.
+A basketball player jumps straight up for a ball. To do this, he lowers his body
+0.300 m and then accelerates through this distance by forcefully straightening
+his legs. This player leaves the floor with a vertical velocity sufficient to
+carry him 0.900 m above the floor.
 (a) Calculate his velocity when he leaves the floor.
-(b) Calculate his acceleration while he is straightening his legs.
-He goes from zero to the velocity found in part (a) in a distance of 0.300 m.
-(c) Calculate the force he exerts on the floor to do this, given that his mass is 110 kg.
+(b) Calculate his acceleration while he is straightening his legs. He goes from
+zero to the velocity found in part (a) in a distance of 0.300 m.
+(c) Calculate the force he exerts on the floor to do this, given that his mass
+is 110 kg.
 
 </div>
 <div class="solution" markdown="1">
@@ -599,10 +600,14 @@ He goes from zero to the velocity found in part (a) in a distance of 0.300 m.
 <div class="problem" markdown="1">
 
 **Integrated Concepts**
- A 2.50-kg fireworks shell is fired straight up from a mortar and reaches a height of 110 m.
-(a) Neglecting air resistance (a poor assumption, but we will make it for this example), calculate the shell’s velocity when it leaves the mortar.
-(b) The mortar itself is a tube 0.450 m long. Calculate the average acceleration of the shell in the tube as it goes from zero to the velocity found in (a).
-(c) What is the average force on the shell in the mortar? Express your answer in newtons and as a ratio to the weight of the shell.
+A 2.50-kg fireworks shell is fired straight up from a mortar and reaches a
+height of 110 m.
+(a) Neglecting air resistance (a poor assumption, but we will make it for this
+example), calculate the shell’s velocity when it leaves the mortar.
+(b) The mortar itself is a tube 0.450 m long. Calculate the average acceleration
+of the shell in the tube as it goes from zero to the velocity found in (a).
+(c) What is the average force on the shell in the mortar? Express your answer in
+newtons and as a ratio to the weight of the shell.
 
 </div>
 </div>
@@ -611,8 +616,8 @@ He goes from zero to the velocity found in part (a) in a distance of 0.300 m.
 <div class="problem" markdown="1">
 
 **Integrated Concepts**
- Repeat the previous exercise for a shell fired at an angle $$ 10.0^\circ $$
-from the vertical.
+Repeat the previous exercise for a shell fired at an angle $$ 10.0^\circ $$ from
+the vertical.
 
 </div>
 <div class="solution" markdown="1">
@@ -630,16 +635,15 @@ weight.
 <div class="problem" markdown="1">
 
 **Integrated Concepts**
- An elevator filled with passengers has a mass of 1700 kg.
-(a) The elevator accelerates upward from rest at a rate of $$ 1.20 \mss $$
-for 1.50 s. Calculate the tension in the cable supporting the elevator.
-(b) The elevator continues upward at constant velocity for 8.50 s. What is the tension
-in the cable during this time?
-(c) The elevator decelerates at a rate of $$
-0.600 \mss $$ for 3.00 s. What is the tension in the cable during
-deceleration?
-(d) How high has the elevator moved above its original starting
-point, and what is its final velocity?
+An elevator filled with passengers has a mass of 1700 kg.
+(a) The elevator accelerates upward from rest at a rate of $$ 1.20 \mss $$ for
+1.50 s. Calculate the tension in the cable supporting the elevator.
+(b) The elevator continues upward at constant velocity for 8.50 s. What is the
+tension in the cable during this time?
+(c) The elevator decelerates at a rate of $$ 0.600 \mss $$ for 3.00 s. What is
+the tension in the cable during deceleration?
+(d) How high has the elevator moved above its original starting point, and what
+is its final velocity?
 
 </div>
 </div>
@@ -649,8 +653,8 @@ point, and what is its final velocity?
 
 **Unreasonable Results**
 
-(a) What is the final velocity of a car originally traveling at 50.0 km/h that decelerates at a rate of $$ 0.400 \mss $$
-for 50.0 s?
+(a) What is the final velocity of a car originally traveling at 50.0 km/h that
+decelerates at a rate of $$ 0.400 \mss $$ for 50.0 s?
 (b) What is unreasonable about the result?
 (c) Which premise is unreasonable, or which premises are inconsistent?
 
@@ -661,9 +665,11 @@ for 50.0 s?
 <div class="problem" markdown="1">
 
 **Unreasonable Results**
- A 75.0-kg man stands on a bathroom scale in
-an elevator that accelerates from rest to 30.0 m/s in 2.00 s.
-(a) Calculate the scale reading in newtons and compare it with his weight. (The scale exerts an upward force on him equal to its reading.) (b) What is unreasonable about the result?
+A 75.0-kg man stands on a bathroom scale in an elevator that accelerates from
+rest to 30.0 m/s in 2.00 s.
+(a) Calculate the scale reading in newtons and compare it with his weight. (The
+scale exerts an upward force on him equal to its reading.) (b) What is
+unreasonable about the result?
 (c) Which premise is unreasonable, or which premises are inconsistent?
 
 </div>

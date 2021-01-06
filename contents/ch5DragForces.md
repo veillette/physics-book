@@ -17,15 +17,15 @@ when you move your hand through water. You might also feel it if you move your
 hand during a strong wind. The faster you move your hand, the harder it is to
 move. You feel a smaller drag force when you tilt your hand so only the side
 goes through the air—you have decreased the area of your hand that faces the
-direction of motion. Like friction, the **drag force** always opposes the motion of an object. Unlike
-simple friction, the drag force is proportional to some function of the velocity
-of the object in that fluid. This functionality is complicated and depends upon
-the shape of the object, its size, its velocity, and the fluid it is in. For
-most large objects such as bicyclists, cars, and baseballs not moving too
-slowly, the magnitude of the drag force $$ F_{\text{D}} $$ is found to be
-proportional to the square of the speed of the object. We can write this
-relationship mathematically as $$ F_{\text{D}}\propto v^{2} $$.
-When taking into account other factors, this relationship becomes
+direction of motion. Like friction, the **drag force** always opposes the motion
+of an object. Unlike simple friction, the drag force is proportional to some
+function of the velocity of the object in that fluid. This functionality is
+complicated and depends upon the shape of the object, its size, its velocity,
+and the fluid it is in. For most large objects such as bicyclists, cars, and
+baseballs not moving too slowly, the magnitude of the drag force $$ F_{\text{D}}
+$$ is found to be proportional to the square of the speed of the object. We can
+write this relationship mathematically as $$ F_{\text{D}}\propto v^{2} $$. When
+taking into account other factors, this relationship becomes
 
 <div class="equation">
 $$ F_{\text{D}}=\frac{1}{2}C \rho A v^{2}, $$
@@ -34,12 +34,12 @@ $$ F_{\text{D}}=\frac{1}{2}C \rho A v^{2}, $$
 where $$ C $$ is the drag coefficient, $$ A $$ is the area of the object facing
 the fluid, and $$ \rho $$ is the density of the fluid. (Recall that density is
 mass per unit volume.) This equation can also be written in a more generalized
-fashion as $$ F_{\text{D}}=b v^{2} $$, where $$ b $$ is a constant equivalent
-to $$ 0.5 C \rho A $$. We have set the exponent for
-these equations as 2 because, when an object is moving at high velocity through
-air, the magnitude of the drag force is proportional to the square of the speed.
-As we shall see in a few pages on fluid dynamics, for small particles moving at
-low speeds in a fluid, the exponent is equal to 1.
+fashion as $$ F_{\text{D}}=b v^{2} $$, where $$ b $$ is a constant equivalent to
+$$ 0.5 C \rho A $$. We have set the exponent for these equations as 2 because,
+when an object is moving at high velocity through air, the magnitude of the drag
+force is proportional to the square of the speed. As we shall see in a few pages
+on fluid dynamics, for small particles moving at low speeds in a fluid, the
+exponent is equal to 1.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -63,8 +63,8 @@ $$ \rho $$ is the density of the fluid.
 
 Athletes as well as car designers seek to reduce the drag force to lower their
 race times. (
-See [Figure 1](#fig1)). “Aerodynamic” shaping of an
-automobile can reduce the drag force and so increase a car’s gas mileage.
+See [Figure 1](#fig1)). “Aerodynamic” shaping of an automobile can reduce the
+drag force and so increase a car’s gas mileage.
 
 ![A two-person team in a bobsled race. The bobsled has an aerodynamic design and smooth runners so it can go as fast as possible.](../resources/Figure_06_02_02a.jpg "From racing cars to bobsled racers, aerodynamic shaping is crucial to achieving top speeds. Bobsleds are designed for speed. They are shaped like a bullet with tapered fins. (credit: U.S. Army, via Wikimedia Commons) ")
 {: #fig1}
@@ -77,12 +77,12 @@ See [Figure 2](#fig2)).
 {: #fig2}
 
 The drag coefficient can depend upon velocity, but we will assume that it is a
-constant here. [Table 1](#table1) lists some typical drag
-coefficients for a variety of objects. Notice that the drag coefficient is a
-dimensionless quantity. At highway speeds, over 50% of the power of a car is
-used to overcome air drag. The most fuel-efficient cruising speed is about 70–80
-km/h (about 45–50 mi/h). For this reason, during the 1970s oil crisis in the
-United States, maximum speeds on highways were set at about 90 km/h (55 mi/h).
+constant here. [Table 1](#table1) lists some typical drag coefficients for a
+variety of objects. Notice that the drag coefficient is a dimensionless
+quantity. At highway speeds, over 50% of the power of a car is used to overcome
+air drag. The most fuel-efficient cruising speed is about 70–80 km/h (about
+45–50 mi/h). For this reason, during the 1970s oil crisis in the United States,
+maximum speeds on highways were set at about 90 km/h (55 mi/h).
 
 #### Table 1: Drag Coefficient values $$C$$
 
@@ -100,6 +100,7 @@ United States, maximum speeds on highways were set at about 90 km/h (55 mi/h).
 |Bicycle|0.90|
 |Skydiver (horizontal)|1.00|
 |Circular flat plate|1.12|
+
 {: #table1}
 
 Substantial research is under way in the sporting world to minimize drag. The
@@ -107,23 +108,14 @@ dimples on golf balls are being redesigned as are the clothes that athletes
 wear. Bicycle racers and some swimmers and runners wear full bodysuits.
 Australian Cathy Freeman wore a full body suit in the 2000 Sydney Olympics, and
 won the gold medal for the 400 m race. Many swimmers in the 2008 Beijing
-Olympics wore full-length body suits; it might have made a difference in 
-breaking
-many world records (See [Figure 3](#fig3)). Most elite
-swimmers (and cyclists) shave their body hair. Such innovations can have the
-effect of slicing away milliseconds in a race, sometimes making the difference
-between a gold and a silver medal. One consequence is that careful and precise
-guidelines must be continuously developed to maintain the integrity of the
-sport.
+Olympics wore full-length body suits; it might have made a difference in
+breaking many world records (See [Figure 3](#fig3)). Most elite swimmers (and
+cyclists) shave their body hair. Such innovations can have the effect of slicing
+away milliseconds in a race, sometimes making the difference between a gold and
+a silver medal. One consequence is that careful and precise guidelines must be
+continuously developed to maintain the integrity of the sport.
 
-![Three swimmers with are each wearing an L Z R Racer Suit, which is a swimsuit composed of
-elastane nylon and polyurethane. The seams of the suit are ultrasonically welded
-to reduce drag.](../resources/Figure_06_02_05a.jpg "Body suits, such as this LZR Racer Suit,
-have been credited with many world records after their release in 2008.
-Smoother &#x201C;skin&#x201D; and more compression forces
-on a swimmer&#x2019;s body provide at least 10% less drag.
-They were deemed to provide an unfair advantage to the wearer by FINA, 
-which led to a ban on all swimsuits of a similar nature.
+![Three swimmers with are each wearing an L Z R Racer Suit, which is a swimsuit composed of elastane nylon and polyurethane. The seams of the suit are ultrasonically welded to reduce drag.](../resources/Figure_06_02_05a.jpg "Body suits, such as this LZR Racer Suit, have been credited with many world records after their release in 2008. Smoother &#x201C;skin&#x201D; and more compression forces on a swimmer&#x2019;s body provide at least 10% less drag. They were deemed to provide an unfair advantage to the wearer by FINA, which led to a ban on all swimsuits of a similar nature.
 (credit: NASA/Kathy Barnstorff)")
 {: #fig3}
 
@@ -167,8 +159,8 @@ Solving for the velocity, we obtain
 </div>
 
 Assume the density of air is $$ \rho =1.21 \text{kg/m}^{3} $$. A 75-kg skydiver
-descending head first will have an area approximately $$ A=0.18 \mm $$
-and a drag coefficient of approximately $$ C=0.70 $$. We find that
+descending head first will have an area approximately $$ A=0.18 \mm $$ and a
+drag coefficient of approximately $$ C=0.70 $$. We find that
 
 <div class="equation">
  $$ \begin{array}{lll}
@@ -237,9 +229,8 @@ v_{\text{t}}&=& 44 \ms .
 **Discussion**
 
 This result is consistent with the value for $$ v_{\text{t}} $$ mentioned
-earlier. The 75-kg skydiver going feet first had a $$ v=98 \ms $$. He
-weighed less but had a smaller frontal area and so a smaller drag due to the
-air.
+earlier. The 75-kg skydiver going feet first had a $$ v=98 \ms $$. He weighed
+less but had a smaller frontal area and so a smaller drag due to the air.
 
 </div>
 
@@ -292,20 +283,20 @@ Good examples of this law are provided by microorganisms, pollen, and dust
 particles. Because each of these objects is so small, we find that many of these
 objects travel unaided only at a constant (terminal) velocity. Terminal
 velocities for bacteria (size about $$ 1 \text{μm} $$)
-can be about $$ 2 \text{μm/s} $$. To move at a greater speed, many bacteria
-swim using flagella (organelles shaped like little tails) that are powered by
-little motors embedded in the cell. Sediment in a lake can move at a greater
-terminal velocity (about $$ 5 \text{μm/s} $$ ), so it can take days to reach the
-bottom of the lake after being deposited on the surface.
+can be about $$ 2 \text{μm/s} $$. To move at a greater speed, many bacteria swim
+using flagella (organelles shaped like little tails) that are powered by little
+motors embedded in the cell. Sediment in a lake can move at a greater terminal
+velocity (about $$ 5 \text{μm/s} $$ ), so it can take days to reach the bottom
+of the lake after being deposited on the surface.
 
 If we compare animals living on land with those in water, you can see how drag
 has influenced evolution. Fishes, dolphins, and even massive whales are
 streamlined in shape to reduce drag forces. Birds are streamlined and migratory
 species that fly large distances often have particular features such as long
 necks. Flocks of birds fly in the shape of a spear head as the flock forms a
-streamlined pattern (see [Figure 4](#fig4)). In humans,
-one important example of streamlining is the shape of sperm, which need to be
-efficient in their use of energy.
+streamlined pattern (see [Figure 4](#fig4)). In humans, one important example of
+streamlining is the shape of sperm, which need to be efficient in their use of
+energy.
 
 ![Geese flying across the sky in a V formation.](../resources/Figure_06_02_06a.jpg "Geese fly in a V formation during their long migratory travels. This shape reduces drag and energy consumption for individual birds, and also allows them a better way to communicate. (credit: Julo, Wikimedia Commons)")
 {: #fig4}
@@ -339,25 +330,28 @@ Masses and Springs
 
 ### Section Summary
 
-* Drag forces acting on an object moving in a
-  fluid oppose the motion. For larger objects (such as a baseball) moving at a
-  velocity $$ v $$ in air, the drag force is given by
+* Drag forces acting on an object moving in a fluid oppose the motion. For
+  larger objects (such as a baseball) moving at a velocity $$ v $$ in air, the
+  drag force is given by
   <div class="equation">
- $$ F_{\text{D}}=\frac{1}{2}C\rho Av^{2}, $$
+
+$$ F_{\text{D}}=\frac{1}{2}C\rho Av^{2}, $$
   </div>
 
-  where $$ C $$ is the drag coefficient (typical values are given
-  in [Table 1](#table1)), $$ A $$ is the area of the
-  object facing the fluid, and $$ \rho $$ is the fluid density.
+where $$ C $$ is the drag coefficient (typical values are given
+in [Table 1](#table1)), $$ A $$ is the area of the object facing the fluid, and
+$$ \rho $$ is the fluid density.
+
 * For small objects (such as a bacterium)
   moving in a denser medium (such as water), the drag force is given by Stokes’
   law,
   <div class="equation">
- $$ F_{\s}=6 \pi r \eta v , $$
+
+$$ F_{\s}=6 \pi r \eta v , $$
   </div>
 
-  where $$ r $$ is the radius of the object, $$ \eta $$ is the fluid viscosity, and
- $$ v $$ is the object’s velocity.
+where $$ r $$ is the radius of the object, $$ \eta $$ is the fluid viscosity,
+and $$ v $$ is the object’s velocity.
 
 ### Conceptual Questions
 
@@ -516,6 +510,7 @@ It takes 12 s to fall a distance of 0.60 m. Calculate the viscosity of the oil.
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 drag force

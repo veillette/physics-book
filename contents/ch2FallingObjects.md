@@ -25,10 +25,7 @@ independent of their mass*. This experimentally determined fact is unexpected,
 because we are so accustomed to the effects of air resistance and friction that
 we expect light objects to fall slower than heavy ones.
 
-![Positions of a feather and hammer over time as they fall on the Moon. The
-feather and hammer are at the exact same position at each moment in time.](../resources/Figure_02_07_00a.jpg "A hammer and a feather will fall with the
-same constant acceleration if air resistance is considered negligible. This is a general characteristic of gravity not unique to Earth, as astronaut David R. Scott demonstrated on the Moon in 1971, where the acceleration due to gravity is only
-\( 1.67 \mss \) ")
+![Positions of a feather and hammer over time as they fall on the Moon. The feather and hammer are at the exact same position at each moment in time.](../resources/Figure_02_07_00a.jpg "A hammer and a feather will fall with the same constant acceleration if air resistance is considered negligible. This is a general characteristic of gravity not unique to Earth, as astronaut David R. Scott demonstrated on the Moon in 1971, where the acceleration due to gravity is only \( 1.67 \mss \) ")
 {: #fig1}
 
 In the real world, air resistance can cause a lighter object to fall slower than
@@ -43,28 +40,27 @@ be in **free-fall**.
 
 The force of gravity causes objects to fall toward the center of Earth. The
 acceleration of free-falling objects is therefore called the **acceleration due
-to gravity**. The acceleration due to
-gravity is *constant*, which means we can apply the kinematics equations to any
-falling object where air resistance and friction are negligible. This opens a
-broad class of interesting situations to us. The acceleration due to gravity is
-so important that its magnitude is given its own symbol, $$ g $$. It is constant
-at any given location on Earth and has the average value
+to gravity**. The acceleration due to gravity is *constant*, which means we can
+apply the kinematics equations to any falling object where air resistance and
+friction are negligible. This opens a broad class of interesting situations to
+us. The acceleration due to gravity is so important that its magnitude is given
+its own symbol, $$ g $$. It is constant at any given location on Earth and has
+the average value
 
 <div class="equation">
  $$ g=9.80 \mss . $$
 </div>
 
-Although $$ g $$ varies from $$ 9.78 \mss $$ to $$ 9.83
-\mss $$, depending on latitude, altitude, underlying geological
-formations, and local topography, the average value of $$ 9.80 \mss $$
-will be used in this text unless otherwise specified. The direction of the
-acceleration due to gravity is *downward (
+Although $$ g $$ varies from $$ 9.78 \mss $$ to $$ 9.83 \mss $$, depending on
+latitude, altitude, underlying geological formations, and local topography, the
+average value of $$ 9.80 \mss $$ will be used in this text unless otherwise
+specified. The direction of the acceleration due to gravity is *downward (
 towards the center of Earth)*. In fact, its direction *defines* what we call
 vertical. Note that whether the acceleration $$ a $$ in the kinematic equations
 has the value $$ +g $$ or $$ -g $$ depends on how we define our coordinate
-system. If we define the upward direction as positive, then $$ a=-g=-9.80
-\mss $$, and if we define the downward direction as positive, then $$
-a=g=9.80 \mss $$.
+system. If we define the upward direction as positive, then $$ a=-g=-9.80 \mss
+$$, and if we define the downward direction as positive, then $$ a=g=9.80 \mss
+$$.
 
 ### One-Dimensional Motion Involving Gravity
 
@@ -108,10 +104,7 @@ is thrown, neglecting the effects of air resistance.
 
 Draw a sketch.
 
-![Velocity vector arrow pointing up in the positive y direction, labeled v 
-sub 0 equals thirteen point 0 meters per second. Acceleration vector arrow 
-pointing down in the negative y direction, labeled a equals negative 9 point 
-8 meters per second squared.](../resources/Figure_02_07_00b.jpg 
+![Velocity vector arrow pointing up in the positive y direction, labeled v sub 0 equals thirteen point 0 meters per second. Acceleration vector arrow pointing down in the negative y direction, labeled a equals negative 9 point 8 meters per second squared.](../resources/Figure_02_07_00b.jpg
 "Velocity and Acceleration Sketch")
 {: #fig2}
 
@@ -126,14 +119,13 @@ gravity have opposite signs. Opposite signs indicate that the acceleration due
 to gravity opposes the initial motion and will slow and eventually reverse it.
 
 Since we are asked for values of position and velocity at three times, we will
-refer to these as $$ y_{1} $$ and $$ v_{1} $$; $$ y_{2} $$ and $$ v_{2} $$;
-and $$ y_{3} $$ and $$ v_{3} $$.
+refer to these as $$ y_{1} $$ and $$ v_{1} $$; $$ y_{2} $$ and $$ v_{2} $$; and
+$$ y_{3} $$ and $$ v_{3} $$.
 
 **Solution for Position** $$ y_{1} $$
 
-1\. Identify the knowns. We
-know that $$ y_{0}=0 $$; $$ v_{0}=13.0 \ms $$; $$ a=-g=-9.80
-\mss $$; and $$ t=1.00 \s $$.
+1\. Identify the knowns. We know that $$ y_{0}=0 $$; $$ v_{0}=13.0 \ms $$; $$
+a=-g=-9.80 \mss $$; and $$ t=1.00 \s $$.
 
 2\. Identify the best equation to use. We will use $$ y=y_{0}+v_{0}t+\frac{1}{2}
 at^{2} $$ because it includes only one unknown, $$ y $$ (or $$ y_{1} $$, here),
@@ -147,18 +139,19 @@ which is the value we want to find.
 
 **Discussion**
 
-The rock is 8.10 m above its starting point at $$ t=1.00 \s $$, since $$ y_{1}>y_
+The rock is 8.10 m above its starting point at $$ t=1.00 \s $$, since $$ y_{1}>
+y_
 {0} $$. It could be *moving* up or down; the only way to tell is to calculate $$
 v_{1} $$ and find out if it is positive or negative.
 
 **Solution for Velocity** $$ v_{1} $$
 
-1\. Identify the knowns. We
-know that $$ y_{0}=0 $$; $$ v_{0}=13.0 \ms $$; $$ a=-g=-9.80
-\mss $$; and $$ t=1.00 \s $$. We also know from the solution
-above that $$ y_{1}=8.10 \m $$.
+1\. Identify the knowns. We know that $$ y_{0}=0 $$; $$ v_{0}=13.0 \ms $$; $$
+a=-g=-9.80 \mss $$; and $$ t=1.00 \s $$. We also know from the solution above
+that $$ y_{1}=8.10 \m $$.
 
-2\. Identify the best equation to use. The most straightforward is $$ v=v_{0}-gt $$
+2\. Identify the best equation to use. The most straightforward is $$ v=v_{0}-gt
+$$
 (from $$ v=v_{0}+at $$, where $$ a=\text{gravitational acceleration}=-g $$).
 
 3\. Plug in the knowns and solve.
@@ -176,8 +169,8 @@ expected.
 
 **Solution for Remaining Times**
 
-The procedures for calculating the position and velocity at $$ t=2.00\s $$
-and $$ 3.00 \s $$ are the same as those above. The results are summarized
+The procedures for calculating the position and velocity at $$ t=2.00\s $$ and
+$$ 3.00 \s $$ are the same as those above. The results are summarized
 in [Table 1](#table1) and illustrated in [Figure 3](#fig3).
 
 ##### Table: Results
@@ -187,6 +180,7 @@ in [Table 1](#table1) and illustrated in [Figure 3](#fig3).
 | $$1.00 \s $$ | $$8.10 \m $$ | $$3.20 \ms $$ | $$-9.80 \mss $$ |
 | $$2.00 \s $$ | $$6.40 \m $$| $$-6.60 \ms $$ | $$-9.80 \mss $$ |
 | $$3.00 \s $$ | $$-5.10 \m $$ | $$-16.4 \ms $$ | $$-9.80 \mss $$|
+
 {: #table1}
 
 Graphing the data helps us understand it more clearly.
@@ -202,14 +196,14 @@ both positive. At 2.00 s, the rock is still above its starting point, but the
 negative velocity means it is moving downward. At 3.00 s, both $$ y_{3} $$ and
 $$ v_{3} $$ are negative, meaning the rock is below its starting point and
 continuing to move downward. Notice that when the rock is at its highest point (
-at 1.5 s), its velocity is zero, but its acceleration is still $$ -9.80
-\mss $$. Its acceleration is $$ -9.80 \mss $$ for the
-whole trip—while it is moving up and while it is moving down.
-Note that the values for $$ y $$ are the positions (or displacements) of the rock, not the total distances
-traveled. Finally, note that free-fall applies to upward motion as well as
-downward. Both have the same acceleration—the acceleration due to gravity, which
-remains constant the entire time. Astronauts training in the famous Vomit Comet,
-for example, experience free-fall while arcing up as well as down, as we will
+at 1.5 s), its velocity is zero, but its acceleration is still $$ -9.80 \mss $$.
+Its acceleration is $$ -9.80 \mss $$ for the whole trip—while it is moving up
+and while it is moving down. Note that the values for $$ y $$ are the
+positions (or displacements) of the rock, not the total distances traveled.
+Finally, note that free-fall applies to upward motion as well as downward. Both
+have the same acceleration—the acceleration due to gravity, which remains
+constant the entire time. Astronauts training in the famous Vomit Comet, for
+example, experience free-fall while arcing up as well as down, as we will
 discuss in more detail later.
 
 </div>
@@ -232,11 +226,8 @@ What happens if the person on the cliff throws the rock straight down, instead o
 
 Draw a sketch.
 
-![Velocity vector arrow pointing down in the negative y direction and 
-labeled v sub zero equals negative thirteen point 0 meters per second. 
-Acceleration vector arrow also pointing down in the negative y direction, 
-labeled a equals negative 9 point 80 meters per second squared.](..
-/resources/Figure_02_06_01a.jpg "Velocity and Accelerator Sketch")
+![Velocity vector arrow pointing down in the negative y direction and labeled v sub zero equals negative thirteen point 0 meters per second. Acceleration vector arrow also pointing down in the negative y direction, labeled a equals negative 9 point 80 meters per second squared.](
+.. /resources/Figure_02_06_01a.jpg "Velocity and Accelerator Sketch")
 {: #fig4}
 
 Since up is positive, the final position of the rock will be negative because it
@@ -251,8 +242,8 @@ continue to move downward.
 {0}=-13.0 \ms $$; $$ a=-g=-9.80 \mss $$.
 
 2\. Choose the kinematic equation that makes it easiest to solve the problem.
-The equation $$ v^{2}=v_{0}^{2}+2a\left(y-y_{0}\right) $$ works well because
-the only unknown in it is $$ v $$. (We will plug $$ y_{1} $$ in for $$ y $$.)
+The equation $$ v^{2}=v_{0}^{2}+2a\left(y-y_{0}\right) $$ works well because the
+only unknown in it is $$ v $$. (We will plug $$ y_{1} $$ in for $$ y $$.)
 
 3\. Enter the known values
 
@@ -279,31 +270,29 @@ The negative root is chosen to indicate that the rock is still heading down. Thu
 
 Note that *this is exactly the same velocity the rock had at this position when
 it was thrown straight upward with the same initial speed*. (
-See [Example 1](#example1) and [Figure 5](#fig5)(a).) This
-is not a coincidental result. Because we only consider the acceleration due to
-gravity in this problem, the *speed* of a falling object depends only on its
-initial speed and its vertical position relative to the starting point. For
-example, if the velocity of the rock is calculated at a height of 8.10 m above
-the starting point (using the method from [Example 1](#example1)) when the
-initial velocity is 13.0 m/s straight up, a result of $$ \pm 3.20 \ms $$
-is obtained. Here both signs are meaningful; the positive value occurs when the
-rock is at 8.10 m and heading up, and the negative value occurs when the rock is
-at 8.10 m and heading back down. It has the same *speed* but the opposite
-direction.
+See [Example 1](#example1) and [Figure 5](#fig5)(a).) This is not a coincidental
+result. Because we only consider the acceleration due to gravity in this
+problem, the *speed* of a falling object depends only on its initial speed and
+its vertical position relative to the starting point. For example, if the
+velocity of the rock is calculated at a height of 8.10 m above the starting
+point (using the method from [Example 1](#example1)) when the initial velocity
+is 13.0 m/s straight up, a result of $$ \pm 3.20 \ms $$ is obtained. Here both
+signs are meaningful; the positive value occurs when the rock is at 8.10 m and
+heading up, and the negative value occurs when the rock is at 8.10 m and heading
+back down. It has the same *speed* but the opposite direction.
 
 ![Two figures are shown. At left, a man standing on the edge of a cliff throws a rock straight up with an initial speed of thirteen meters per second. At right, the man throws the rock straight down with a speed of thirteen meters per second. In both figures, a line indicates the rock&#x2019;s trajectory. When the rock is thrown straight up, it has a speed of minus sixteen point four meters per second at minus five point one zero meters below the point where the man released the rock. When the rock is thrown straight down, the velocity is the same at this position.](../resources/Figure_02_06_00b.jpg "(a) A person throws a rock straight up, as explored in [link]. The arrows are velocity vectors at 0, 1.00, 2.00, and 3.00 s. (b) A person throws a rock straight down from a cliff with the same initial speed as before, as in [link]. Note that at the same distance below the point of release, the rock has the same velocity in both cases. ")
 {: #fig5}
 
-Another way to look at it is this: In [Example 1](#example1), the rock is
-thrown up with an initial velocity of $$ 13.0 \ms $$. It rises and then
-falls back down. When its position is $$ y=0 $$ on its way back down, its
-velocity is $$ -13.0 \ms $$. That is, it has the same speed on its way
-down as on its way up. We would then expect its velocity at a position of $$
-y=-5.10 \m $$ to be the same whether we have thrown it upwards at $$ +13.0
- \ms $$ or thrown it downwards at $$ -13.0 \ms $$. The velocity of
-the rock on its way down from $$ y=0 $$ is the same whether we have thrown it up
-or down to start with, as long as the speed with which it was initially thrown
-is the same.
+Another way to look at it is this: In [Example 1](#example1), the rock is thrown
+up with an initial velocity of $$ 13.0 \ms $$. It rises and then falls back
+down. When its position is $$ y=0 $$ on its way back down, its velocity is $$
+-13.0 \ms $$. That is, it has the same speed on its way down as on its way up.
+We would then expect its velocity at a position of $$ y=-5.10 \m $$ to be the
+same whether we have thrown it upwards at $$ +13.0 \ms $$ or thrown it downwards
+at $$ -13.0 \ms $$. The velocity of the rock on its way down from $$ y=0 $$ is
+the same whether we have thrown it up or down to start with, as long as the
+speed with which it was initially thrown is the same.
 
 </div>
 
@@ -332,8 +321,8 @@ is downward and therefore negative, as is acceleration.
 
 **Solution**
 
-1\. Identify the knowns. $$ y_{0}=0 $$; $$ y=-1.0000 \m $$; $$ t=0.45173
-\s $$; $$ v_{0}=0 $$.
+1\. Identify the knowns. $$ y_{0}=0 $$; $$ y=-1.0000 \m $$; $$ t=0.45173 \s $$;
+$$ v_{0}=0 $$.
 
 2\. Choose the equation that allows you to solve for $$ a $$ using the known
 values.
@@ -368,10 +357,10 @@ so, because $$ a=-g $$ with the directions we have chosen,
 
 The negative value for $$ a $$ indicates that the gravitational acceleration is
 downward, as expected. We expect the value to be somewhere around the average
-value of $$ 9.80 \mss $$, so $$ 9.8010 \mss $$ makes sense.
-Since the data going into the calculation are relatively precise, this value for
-$$ g $$ is more precise than the average value of $$ 9.80 \mss $$; it
-represents the local value for the acceleration due to gravity.
+value of $$ 9.80 \mss $$, so $$ 9.8010 \mss $$ makes sense. Since the data going
+into the calculation are relatively precise, this value for $$ g $$ is more
+precise than the average value of $$ 9.80 \mss $$; it represents the local value
+for the acceleration due to gravity.
 </div>
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
@@ -420,22 +409,23 @@ Graphing Quadratics
 
 ### Section Summary
 
-* An object in free-fall experiences constant
-  acceleration if air resistance is negligible.
-* On Earth, all free-falling objects have an
-  acceleration due to gravity $$ g $$, which averages
+* An object in free-fall experiences constant acceleration if air resistance is
+  negligible.
+* On Earth, all free-falling objects have an acceleration due to gravity $$ g
+  $$, which averages
   <div class="equation">
- $$ g=9.80 \mss . $$
+
+$$ g=9.80 \mss . $$
   </div>
 
-* Whether the acceleration $$a$$ should be taken
-  as $$ +g $$ or $$ -g $$ is determined by your choice of coordinate system. If
-  you choose the upward direction as positive, $$ a=-g=-9.80 \mss $$
-  is negative. In the opposite case, $$ a=+g=9.80 \mss $$ is positive.
-  Since acceleration is constant, the kinematic equations above can be applied
-  with the appropriate $$ +g $$ or $$ -g $$ substituted for $$ a $$.
-* For objects in free-fall, up is normally taken as
-  positive for displacement, velocity, and acceleration.
+* Whether the acceleration $$a$$ should be taken as $$ +g $$ or $$ -g $$ is
+  determined by your choice of coordinate system. If you choose the upward
+  direction as positive, $$ a=-g=-9.80 \mss $$ is negative. In the opposite
+  case, $$ a=+g=9.80 \mss $$ is positive. Since acceleration is constant, the
+  kinematic equations above can be applied with the appropriate $$ +g $$ or $$
+  -g $$ substituted for $$ a $$.
+* For objects in free-fall, up is normally taken as positive for displacement,
+  velocity, and acceleration.
 
 ### Conceptual Questions
 
@@ -725,6 +715,7 @@ assuming the floor is absolutely rigid?
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 free-fall

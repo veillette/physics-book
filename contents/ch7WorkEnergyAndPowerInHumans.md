@@ -14,10 +14,9 @@ layout: page
 Our own bodies, like all living organisms, are energy conversion machines.
 Conservation of energy implies that the chemical energy stored in food is
 converted into work, thermal energy, and/or stored as chemical energy in fatty
-tissue. (See [Figure 1](#fig1).) The fraction going into each
-form depends both on how much we eat and on our level of physical activity. If
-we eat more than is needed to do work and stay warm, the remainder goes into
-body fat.
+tissue. (See [Figure 1](#fig1).) The fraction going into each form depends both
+on how much we eat and on our level of physical activity. If we eat more than is
+needed to do work and stay warm, the remainder goes into body fat.
 
 ![A schematic diagram of energy consumed by humans and converted to various other forms is shown. Food energy is converted into work, thermal energy, and stored fat depicted by an arrow branching out of food energy and ending at these three forms. Stored fat plus thermal energy is equal to the final other energy, labeled  O E sub f, and nonconservative work is shown by W sub n c, which is negative, so the initial other energy, labeled O E sub i, plus W sub n c is equal to O E sub f .](../resources/Figure_08_08_01a.jpg "Energy consumed by humans is converted to work, thermal energy, and stored fat. By far the largest fraction goes to thermal energy, although the fraction varies depending on the type of physical activity.")
 {: #fig1}
@@ -25,10 +24,11 @@ body fat.
 ### Power Consumed at Rest
 
 The *rate* at which the body uses food energy to sustain life and to do
-different activities is called the **metabolic rate**. The total energy conversion rate of a person *at rest*
-is called the **basal metabolic rate** (BMR) and is divided among various systems in the body,
-as shown in [Table 1](#table1). The largest fraction goes to the
-liver and spleen, with the brain coming next. Of course, during vigorous
+different activities is called the **metabolic rate**. The total energy
+conversion rate of a person *at rest*
+is called the **basal metabolic rate** (BMR) and is divided among various
+systems in the body, as shown in [Table 1](#table1). The largest fraction goes
+to the liver and spleen, with the brain coming next. Of course, during vigorous
 exercise, the energy consumption of the skeletal muscles and heart increase
 markedly. About 75% of the calories burned in a day go into these basic
 functions. The BMR is a function of age, gender, total body weight, and amount
@@ -46,25 +46,27 @@ greater BMR due to this last factor.
 |Heart|6|17|7|
 |Other|16|48|19|
 |Totals|85 W|250 mL/min|100%|
+
 {: #table1}
 
 Energy consumption is directly proportional to oxygen consumption because the
 digestive process is basically one of oxidizing food. We can measure the energy
 people use during various activities by measuring their oxygen use. (
-See [Figure 2](#fig2).) Approximately 20 kJ of energy are
-produced for each liter of oxygen consumed, independent of the type of
-food. [Table 1](#table1) shows energy and oxygen consumption
-rates (power expended) for a variety of activities.
+See [Figure 2](#fig2).) Approximately 20 kJ of energy are produced for each
+liter of oxygen consumed, independent of the type of food. [Table 1](#table1)
+shows energy and oxygen consumption rates (power expended) for a variety of
+activities.
 
 ### Power of Doing Useful Work
 
-Work done by a person is sometimes called **useful work**, which is *work done on the outside world*, such as
-lifting weights. Useful work requires a force exerted through a distance on the
-outside world, and so it excludes internal work, such as that done by the heart
-when pumping blood. Useful work does include that done in climbing stairs or
-accelerating to a full run, because these are accomplished by exerting forces on
-the outside world. Forces exerted by the body are nonconservative, so that they
-can change the mechanical energy ( $$ \KE+\PE $$ )
+Work done by a person is sometimes called **useful work**, which is *work done
+on the outside world*, such as lifting weights. Useful work requires a force
+exerted through a distance on the outside world, and so it excludes internal
+work, such as that done by the heart when pumping blood. Useful work does
+include that done in climbing stairs or accelerating to a full run, because
+these are accomplished by exerting forces on the outside world. Forces exerted
+by the body are nonconservative, so that they can change the mechanical energy (
+$$ \KE+\PE $$ )
 of the system worked upon, and this is often the goal. A baseball player
 throwing a ball, for example, increases both the ball’s kinetic and potential
 energy.
@@ -83,8 +85,8 @@ If a person who normally requires an average of 12 000 kJ (3000 kcal) of food en
 
 **Solution**
 
-[Table 2](#table2) states that 400 W are used when cycling at a
-moderate speed. The time required to work off 1000 kJ at this rate is then
+[Table 2](#table2) states that 400 W are used when cycling at a moderate speed.
+The time required to work off 1000 kJ at this rate is then
 
 <div class="equation">
  $$ \text{Time}=\frac{ \text{energy}}{\left(\frac{ \text{energy}}{\text{time}}\right)}=\frac{1000 \text{kJ}}{400 \text{W}}=2500 \s  =42 \text{min.} $$
@@ -92,9 +94,9 @@ moderate speed. The time required to work off 1000 kJ at this rate is then
 
 **Discussion**
 
-If this person uses more energy than they consume, the person’s body will
-obtain the needed energy by metabolizing body fat. If the person uses 13 000 kJ
-but consumes only 12 000 kJ, then the amount of fat loss will be
+If this person uses more energy than they consume, the person’s body will obtain
+the needed energy by metabolizing body fat. If the person uses 13 000 kJ but
+consumes only 12 000 kJ, then the amount of fat loss will be
 
 <div class="equation">
  $$ \text{Fat loss}=\left(1000 \text{kJ}\right)\left(\frac{1.0 \text{g fat}}{39 \text{kJ}}\right)=26\text{g,} $$
@@ -126,40 +128,40 @@ assuming the energy content of fat to be 39 kJ/g.
 |Playing basketball|800|2.28|
 |Cycling, professional racer|1855|5.30|
 |Sprinting|2415|6.90|
+
 {: #table2}
 
 All bodily functions, from thinking to lifting weights, require energy. (
-See [Figure 3](#fig3).) The many small muscle actions
-accompanying all quiet activity, from sleeping to head scratching, ultimately
-become thermal energy, as do less visible muscle actions by the heart, lungs,
-and digestive tract. Shivering, in fact, is an involuntary response to low body
-temperature that pits muscles against one another to produce thermal energy in
-the body (and do no work). The kidneys and liver consume a surprising amount of
-energy, but the biggest surprise of all is that a full 25% of all energy
-consumed by the body is used to maintain electrical potentials in all living
-cells. (Nerve cells use this electrical potential in nerve impulses.) This
-bioelectrical energy ultimately becomes mostly thermal energy, but some is
-utilized to power chemical processes such as in the kidneys and liver, and in
-fat production.
+See [Figure 3](#fig3).) The many small muscle actions accompanying all quiet
+activity, from sleeping to head scratching, ultimately become thermal energy, as
+do less visible muscle actions by the heart, lungs, and digestive tract.
+Shivering, in fact, is an involuntary response to low body temperature that pits
+muscles against one another to produce thermal energy in the body (and do no
+work). The kidneys and liver consume a surprising amount of energy, but the
+biggest surprise of all is that a full 25% of all energy consumed by the body is
+used to maintain electrical potentials in all living cells. (Nerve cells use
+this electrical potential in nerve impulses.) This bioelectrical energy
+ultimately becomes mostly thermal energy, but some is utilized to power chemical
+processes such as in the kidneys and liver, and in fat production.
 
 ![An f M R I scan of a human head with energy consumption in the vision center shown by a bright spot. This brightness indicates the energy consumption.](../resources/Figure_08_08_03a.jpg "This fMRI scan shows an increased level of energy consumption in the vision center of the brain. Here, the patient was being asked to recognize faces. (credit: NIH via Wikimedia Commons)")
 {: #fig3}
 
 ### Section Summary
 
-* The human body converts energy stored in food into
-  work, thermal energy, and/or chemical energy that is stored in fatty tissue.
-* The *rate* at which the body uses food energy to
-  sustain life and to do different activities is called the metabolic rate, and
-  the corresponding rate when at rest is called the basal metabolic rate (  BMR)
-* The energy included in the basal metabolic rate is
-  divided among various systems in the body, with the largest fraction going to
-  the liver and spleen, and the brain coming next.
-* About 75% of food calories are used to sustain
-  basic body functions included in the basal metabolic rate.
-* The energy consumption of people during various
-  activities can be determined by measuring their oxygen use, because the
-  digestive process is basically one of oxidizing food.
+* The human body converts energy stored in food into work, thermal energy,
+  and/or chemical energy that is stored in fatty tissue.
+* The *rate* at which the body uses food energy to sustain life and to do
+  different activities is called the metabolic rate, and the corresponding rate
+  when at rest is called the basal metabolic rate (  BMR)
+* The energy included in the basal metabolic rate is divided among various
+  systems in the body, with the largest fraction going to the liver and spleen,
+  and the brain coming next.
+* About 75% of food calories are used to sustain basic body functions included
+  in the basal metabolic rate.
+* The energy consumption of people during various activities can be determined
+  by measuring their oxygen use, because the digestive process is basically one
+  of oxidizing food.
 
 ### Conceptual Questions
 
@@ -293,7 +295,7 @@ Very large forces are produced in joints when a person jumps from some height to
 <div class="solution" markdown="1">
 (a) $$ 3.21\times 10^{4}\N $$
 
-(b) $$ 2.35\times 10^{3}\N  $$
+(b) $$ 2.35\times 10^{3}\N $$
 
 (c) Ratio of net force to weight of person is 41.0 in part (a); 3.00 in part (b)
 
@@ -343,10 +345,8 @@ The swimmer shown in [Figure 6](#fig6) exerts an average horizontal backward for
 (a) What is his work output in each stroke?
 (b) Calculate the power output of his arms if he does 120 strokes per minute.
 
-![A person swimming and his arm motion in each stroke is represented. The arm action is shown by an arc starting 
-from where his hand enters the surface of the water and ending at the point where his hand emerges from the water. 
-The diameter of this arc made by the person&#x2019;s hand tip in one stroke is one point eight meters.](..
-/resources/Figure_08_08_06a.jpg "A person swimming with a stroke of 1.80m")
+![A person swimming and his arm motion in each stroke is represented. The arm action is shown by an arc starting from where his hand enters the surface of the water and ending at the point where his hand emerges from the water. The diameter of this arc made by the person&#x2019;s hand tip in one stroke is one point eight meters.](
+.. /resources/Figure_08_08_06a.jpg "A person swimming with a stroke of 1.80m")
 {: #fig6}
 
 </div>
@@ -397,7 +397,7 @@ the mass of bulk and nondigestible materials consumed.)
 
 (b) 2.52%
 
-(c) $$ 1.4\times 10^{4}\kg  $$
+(c) $$ 1.4\times 10^{4}\kg $$
 (14 metric tons)
 
 </div>
@@ -414,6 +414,7 @@ the mass of bulk and nondigestible materials consumed.)
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 metabolic rate

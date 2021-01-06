@@ -28,25 +28,23 @@ rotate before or after their collision. For example, if two ice skaters hook
 arms as they pass by one another, they will spin in circles. We will not
 consider such rotation until later, and so for now we arrange things so that no
 rotation is possible. To avoid rotation, we consider only the scattering of
-**point masses**—that is, structureless
-particles that cannot rotate or spin.
+**point masses**—that is, structureless particles that cannot rotate or spin.
 
 We start by assuming that $$ \vb{F}_{\text{net}}=0 $$, so that momentum $$
 \vb{p} $$ is conserved. The simplest collision is one in which one of the
 particles is initially at rest. (
-See [Figure 1](#fig1).) The best choice for a coordinate system
-is one with an axis parallel to the velocity of the incoming particle, as shown
-in [Figure 1](#fig1). Because momentum is conserved, the
-components of momentum along the $$ x $$- and $$ y $$-axes
-$$ \left( p_{x}\text{ and } p_{y}\right) $$ will also be
-  conserved, but with the chosen coordinate system, $$ p_{y} $$ is initially
-  zero and $$ p_{x} $$ is the momentum of the incoming particle. Both facts
-  simplify the analysis. (   Even with the simplifying assumptions of point masses,
-  one particle initially
-  at rest, and a convenient coordinate system, we still gain new insights into
-  nature from the analysis of two-dimensional collisions.)
+See [Figure 1](#fig1).) The best choice for a coordinate system is one with an
+axis parallel to the velocity of the incoming particle, as shown
+in [Figure 1](#fig1). Because momentum is conserved, the components of momentum
+along the $$ x $$- and $$ y $$-axes $$ \left( p_{x}\text{ and } p_{y}\right) $$
+will also be conserved, but with the chosen coordinate system, $$ p_{y} $$ is
+initially zero and $$ p_{x} $$ is the momentum of the incoming particle. Both
+facts simplify the analysis. (   Even with the simplifying assumptions of point
+masses, one particle initially at rest, and a convenient coordinate system, we
+still gain new insights into nature from the analysis of two-dimensional
+collisions.)
 
-![A purple ball of mass m1 moves with velocity V 1 toward the right side along the X direction. The orange ball of mass m 2 is initially at rest. The total momentum is the momentum possessed by purple ball only. After collision purple ball moves with velocity v 1prime in the positive X Y plane making an angle theta 1 with the x axis and the orange ball moves in the X Y plane below the x axis making an angle theta 2 with the x axis. The total momentum would be the sum of the momentum of purple ball p1 prime and the orange ball p 2 prime. In two-dimensional collision too the momentum before and after collision remains the same.](../resources/Figure_09_06_02a.jpg "A two-dimensional collision with the coordinate system chosen so that \( m_2 \)  is initially at rest and \( v_1 \)  is parallel to the \( x \)  -axis. This coordinate system is sometimes called the laboratory coordinate system, because many scattering experiments have a target that is stationary in the laboratory, while particles are scattered from it to determine the particles that make-up the target and how they are bound together. The particles may not be observed directly, but their initial and final velocities are.")
+![A purple ball of mass m1 moves with velocity V 1 toward the right side along the X direction. The orange ball of mass m 2 is initially at rest. The total momentum is the momentum possessed by purple ball only. After collision purple ball moves with velocity v 1prime in the positive X Y plane making an angle theta 1 with the x axis and the orange ball moves in the X Y plane below the x axis making an angle theta 2 with the x axis. The total momentum would be the sum of the momentum of purple ball p1 prime and the orange ball p 2 prime. In two-dimensional collision too the momentum before and after collision remains the same.](../resources/Figure_09_06_02a.jpg "A two-dimensional collision with the coordinate system chosen so that \( m_2 \) is initially at rest and \( v_1 \) is parallel to the \( x \) -axis. This coordinate system is sometimes called the laboratory coordinate system, because many scattering experiments have a target that is stationary in the laboratory, while particles are scattered from it to determine the particles that make-up the target and how they are bound together. The particles may not be observed directly, but their initial and final velocities are.")
 {: #fig1}
 
 Along the $$ x $$ -axis, the equation for conservation of momentum is
@@ -79,8 +77,7 @@ Conservation of momentum along the $$ x $$ -axis gives the following equation:
  $$ m_{1} v_{1}= m_{1}v^{\prime}_{1}\cos{\theta_{1}}+ m_{2}v^{\prime}_{2}\cos{\theta_{2}}, $$
 </div>
 
-where $$\theta_{1} $$ and $$\theta_{2} $$ are as shown
-in [Figure 1](#fig1).
+where $$\theta_{1} $$ and $$\theta_{2} $$ are as shown in [Figure 1](#fig1).
 
 <div class="note" data-label="">
 <div class="title">
@@ -103,8 +100,8 @@ or
  $$ m_{1} v_{1y}+ m_{2} v_{2y}= m_{1}v^{\prime}_{1y}+ m_{2}v^{\prime}_{2y}. $$
 </div>
 
-But $$ v_{1y} $$ is zero, because particle 1 initially moves along
-the $$ x $$ -axis. Because particle 2 is initially at rest, $$ v_{2y} $$ is also zero. The
+But $$ v_{1y} $$ is zero, because particle 1 initially moves along the $$ x $$
+-axis. Because particle 2 is initially at rest, $$ v_{2y} $$ is also zero. The
 equation for conservation of momentum along the $$ y $$ -axis becomes
 
 <div class="equation">
@@ -130,12 +127,12 @@ Conservation of Momentum along the \( y \) -axis
 </div>
 </div>
 
-The equations of conservation of momentum along the $$ x $$ -axis and $$ y $$ -axis
-are very useful in analyzing two-dimensional collisions
-of particles, where one is originally stationary (a common laboratory situation).
-But two equations can only be used to find two unknowns, and so other data may
-be necessary when collision experiments are used to explore nature at the
-subatomic level.
+The equations of conservation of momentum along the $$ x $$ -axis and $$ y $$
+-axis are very useful in analyzing two-dimensional collisions of particles,
+where one is originally stationary (a common laboratory situation). But two
+equations can only be used to find two unknowns, and so other data may be
+necessary when collision experiments are used to explore nature at the subatomic
+level.
 
 <div class="example" markdown="1">
 <div class="title">
@@ -154,10 +151,9 @@ collision.
 **Strategy**
 
 Momentum is conserved because the surface is frictionless. The coordinate system
-shown in [Figure 2](#fig2) is one in which $$ m_{2} $$ is
-originally at rest and the initial velocity is parallel to the $$ x $$ -axis, so
-that conservation of momentum along the $$ x $$ - and $$ y $$ -axes is
-applicable.
+shown in [Figure 2](#fig2) is one in which $$ m_{2} $$ is originally at rest and
+the initial velocity is parallel to the $$ x $$ -axis, so that conservation of
+momentum along the $$ x $$ - and $$ y $$ -axes is applicable.
 
 Everything is known in these equations except $$ v^{\prime}_{2} $$ and $$\theta_
 {2} $$, which are precisely the quantities we wish to find. We can find two
@@ -216,7 +212,7 @@ physicist want to explore the system further.
 
 </div>
 
-![A purple ball of mass m1 and velocity v one moves in the right direction into a dark room. It collides with an object of mass m two of value zero point four zero milligrams which was initially at rest and then leaves the dark room from the top right hand side making an angle of forty-five degrees with the horizontal and at velocity v one prime. The net external force on the system is zero. The momentum before and after collision remains the same. The velocity v two prime of the mass m two and the angle theta two it would make with the horizontal after collision not given.](../resources/Figure_09_06_03a.jpg "A collision taking place in a dark room is explored in  [link]. The incoming object \( m_1 \)  is scattered by an initially stationary object. Only the stationary object&#x2019;s mass \( m_2 \)  is known. By measuring the angle and speed at which \( m_1 \)  emerges from the room, it is possible to calculate the magnitude and direction of the initially stationary object&#x2019;s velocity after the collision.")
+![A purple ball of mass m1 and velocity v one moves in the right direction into a dark room. It collides with an object of mass m two of value zero point four zero milligrams which was initially at rest and then leaves the dark room from the top right hand side making an angle of forty-five degrees with the horizontal and at velocity v one prime. The net external force on the system is zero. The momentum before and after collision remains the same. The velocity v two prime of the mass m two and the angle theta two it would make with the horizontal after collision not given.](../resources/Figure_09_06_03a.jpg "A collision taking place in a dark room is explored in  [link]. The incoming object \( m_1 \) is scattered by an initially stationary object. Only the stationary object&#x2019;s mass \( m_2 \) is known. By measuring the angle and speed at which \( m_1 \) emerges from the room, it is possible to calculate the magnitude and direction of the initially stationary object&#x2019;s velocity after the collision.")
 {: #fig2}
 
 ### Elastic Collisions of Two Objects with Equal Mass
@@ -226,17 +222,18 @@ and the collision is elastic. This situation is nearly the case with colliding
 billiard balls, and precisely the case with some subatomic particle collisions.
 We can thus get a mental image of a collision of subatomic particles by thinking
 about billiards (or pool)
-. (Refer to [Figure 1](#fig1) for masses and angles.) First, an
-elastic collision conserves internal kinetic energy. Again, let us assume object
-2 $$ \left( m_{2}\right) $$ is initially at rest. Then, the internal kinetic
-energy before and after the collision of two objects that have equal masses is
+. (Refer to [Figure 1](#fig1) for masses and angles.) First, an elastic
+collision conserves internal kinetic energy. Again, let us assume object 2 $$
+\left( m_{2}\right) $$ is initially at rest. Then, the internal kinetic energy
+before and after the collision of two objects that have equal masses is
 
 <div class="equation">
  $$ \frac{1}{2}m v_{1}^{2}=\frac{1}{2}{ m {v^{\prime}}_{1}}^{2}+\frac{1}{2}{ m {v^{\prime} }_{2}}^{2}. $$
 </div>
 
 Because the masses are equal, $$ m_{1}=m_{2}=m $$. Algebraic manipulation (left
-to the reader) of conservation of momentum in the $$ x $$- and $$ y $$ -directions can show that
+to the reader) of conservation of momentum in the $$ x $$- and $$ y $$
+-directions can show that
 
 <div class="equation">
  $$ \frac{1}{2} m v_{1}^{2}=\frac{1}{2}{ m {v^{\prime} }_{1}}^{2}+\frac{1}{2}{ m {v^{\prime} }_{2}}^{2}+{mv^{\prime} }_{1}v^{\prime}_{2}\cos\left({\theta_{1}}-{\theta_{2}}\right). $$
@@ -256,8 +253,8 @@ There are three ways that this term can be zero. They are
 * $$ v^{\prime}_{2}=0 $$: no collision; incoming ball continues unaffected
 
 * $$ \cos\left({\theta_{1}}-{\theta_{2}}\right)=0 $$: angle of separation $$
- \left({\theta_{1}}-{\theta_{2}}\right) $$ is $$ 90^\circ $$ after the
-  collision 
+  \left({\theta_{1}}-{\theta_{2}}\right) $$ is $$ 90^\circ $$ after the
+  collision
 
 All three of these ways are familiar occurrences in billiards and pool, although
 most of us try to avoid the second. If you play enough pool, you will notice
@@ -289,17 +286,17 @@ the atomic nucleus from such experiments.
   velocity of the incoming particle.
 * Two-dimensional collisions of point masses where mass 2 is initially at rest
   conserve momentum along the initial direction of mass 1 (the $$ x $$ -axis),
-  stated by $$ m_{1} v_{1} = m_{1} v^{\prime}_{1}
- \cos{\theta }_{1}+m_{2}v^{\prime}_{2} \cos{\theta }_{2} $$ and along the direction perpendicular
-  to the initial direction (the $$ y $$ -axis) stated by $$ 0=
-  m_{1}v^{\prime}_{1y}+m_{2}v^{\prime}_{2y} $$.
+  stated by $$ m_{1} v_{1} = m_{1} v^{\prime}_{1} \cos{\theta }_{1}+m_
+  {2}v^{\prime}_{2} \cos{\theta }_{2} $$ and along the direction perpendicular
+  to the initial direction (the $$ y $$ -axis) stated by $$ 0= m_{1}v^{\prime}_
+  {1y}+m_{2}v^{\prime}_{2y} $$.
 * The internal kinetic before and after the collision of two objects that have
   equal masses is
   <div class="equation">
- $$ \frac{1}{2} m v_{1}^{2}=
- \frac{1}{2} m{v^{\prime}}_{1}^{2}+
- \frac{1}{2} m{v^{\prime}_{2}}^{2}+
-   mv^{\prime}_{1} v^{\prime}_{2} \cos{\left( \theta_{1}-\theta_{2} \right) }. $$
+
+$$ \frac{1}{2} m v_{1}^{2}= \frac{1}{2} m{v^{\prime}}_{1}^{2}+ \frac{1}{2}
+m{v^{\prime}_{2}}^{2}+ mv^{\prime}_{1} v^{\prime}_{2} \cos{\left( \theta_
+{1}-\theta_{2} \right) }. $$
   </div>
 
 * Point masses are structureless particles that cannot spin.
@@ -341,16 +338,11 @@ below $$ x $$ -axis
 
 (b) Find speed of first puck after collision:
 $$ 0=m v^{\prime}_{1} \sin{30^\circ}-m v^{\prime}_{2}\sin{ 60^\circ }⇒
-v^{\prime}_{1}=v^{\prime}_{2}\frac{ \sin{ 60^\circ}}{\sin{ 30^\circ }}= 5.196 \ms $$
-Verify that ratio of initial to final KE equals one:
-$$
-\left.
-\begin{array}{l}
-\KE=\frac{1}{2} m v_{1}^{2}=18 \text{mJ}\\
-\KE=\frac{1}{2} m {v^{\prime}_{1}}^{2}+\frac{1}{2} m{v^{\prime}_{2}}^{2}=18\text{mJ}
-\end{array}
-\right}
-\frac{\KE}{\KE^\prime}=1.00 $$
+v^{\prime}_{1}=v^{\prime}_{2}\frac{ \sin{ 60^\circ}}{\sin{ 30^\circ }}= 5.196
+\ms $$ Verify that ratio of initial to final KE equals one:
+$$ \left. \begin{array}{l} \KE=\frac{1}{2} m v_{1}^{2}=18 \text{mJ}\\
+\KE=\frac{1}{2} m {v^{\prime}_{1}}^{2}+\frac{1}{2} m{v^{\prime}_
+{2}}^{2}=18\text{mJ} \end{array} \right} \frac{\KE}{\KE^\prime}=1.00 $$
 </div>
 </div>
 
@@ -397,9 +389,8 @@ which is scattered at an angle of $$ 85.0^\circ $$ to the initial direction of
 the bowling ball and with a speed of 15.0 m/s.
 (a) Calculate the final velocity (magnitude and direction) of the bowling ball.
 (b) Is the collision elastic?
-(c) Linear kinetic energy is greater after the
-collision. Discuss how spin on the ball might be converted to linear kinetic
-energy in the collision.
+(c) Linear kinetic energy is greater after the collision. Discuss how spin on
+the ball might be converted to linear kinetic energy in the collision.
 
 </div>
 </div>
@@ -413,11 +404,12 @@ Ernest Rutherford (the first New Zealander to be awarded the Nobel Prize in
 Chemistry) demonstrated that nuclei were very small and dense by scattering
 helium-4 nuclei $$ \left({}^{4}\text{He}\right) $$ from gold-197 nuclei $$
 \left({}^{197}\text{Au}\right) $$. The energy of the incoming helium nucleus was
-$$ 8.00\times 10^{-13} \J $$, and the masses of the helium and gold nuclei
-were $$ 6.68\times 10^{-27}\kg $$ and $$ 3.29\times 10^{-25}\kg $$,
-respectively (note that their mass ratio is 4 to 197).
-(a) If a helium nucleus scatters to an angle of $$ 120^\circ $$ during an elastic collision with a gold
-nucleus, calculate the helium nucleus’s final speed and the final velocity (
+$$ 8.00\times 10^{-13} \J $$, and the masses of the helium and gold nuclei were
+$$ 6.68\times 10^{-27}\kg $$ and $$ 3.29\times 10^{-25}\kg $$, respectively (
+note that their mass ratio is 4 to 197).
+(a) If a helium nucleus scatters to an angle of $$ 120^\circ $$ during an
+elastic collision with a gold nucleus, calculate the helium nucleus’s final
+speed and the final velocity (
 magnitude and direction) of the gold nucleus.
 (b) What is the final kinetic energy of the helium nucleus?
 
@@ -436,14 +428,12 @@ at $$ -29.5^\circ $$
 **Professional Application**
 
 Two cars collide at an icy intersection and stick together afterward. The first
-car has a mass of 1200 kg and is approaching at $$ 8.00 \ms $$ due south.
-The second car has a mass of 850 kg and is approaching at $$ 17.0 \ms $$
-due west.
-(a) Calculate the final velocity (magnitude and direction) of the
-cars.
-(b) How much kinetic energy is lost in the collision? (This energy goes
-into deformation of the cars.) Note that because both cars have an initial
-velocity, you cannot use the equations for conservation of momentum along the *
+car has a mass of 1200 kg and is approaching at $$ 8.00 \ms $$ due south. The
+second car has a mass of 850 kg and is approaching at $$ 17.0 \ms $$ due west.
+(a) Calculate the final velocity (magnitude and direction) of the cars.
+(b) How much kinetic energy is lost in the collision? (This energy goes into
+deformation of the cars.) Note that because both cars have an initial velocity,
+you cannot use the equations for conservation of momentum along the *
 $$ x $$
 *-axis and $$ y $$ -axis; instead, you must look for other simplifying aspects.
 
@@ -516,6 +506,7 @@ away?
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 point masses

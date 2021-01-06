@@ -18,12 +18,12 @@ can change forms, but it cannot appear from nothing or disappear without a
 trace. Energy is thus one of a handful of physical quantities that we say is
 *conserved*.
 
-**Conservation of energy** (as
-physicists like to call the principle that energy can neither be created nor
-destroyed) is based on experiment. Even as scientists discovered new forms of
-energy, conservation of energy has always been found to apply. Perhaps the most
-dramatic example of this was supplied by Einstein when he suggested that mass is
-equivalent to energy (his famous equation $$ E=mc^{2} $$).
+**Conservation of energy** (as physicists like to call the principle that energy
+can neither be created nor destroyed) is based on experiment. Even as scientists
+discovered new forms of energy, conservation of energy has always been found to
+apply. Perhaps the most dramatic example of this was supplied by Einstein when
+he suggested that mass is equivalent to energy (his famous equation $$ E=mc^{2}
+$$).
 
 From a societal viewpoint, energy is one of the major building blocks of modern
 civilization. Energy resources are key limiting factors to economic growth. The
@@ -33,11 +33,11 @@ briefly examine the world’s energy use patterns at the end of this chapter.
 
 There is no simple, yet accurate, scientific definition for energy. Energy is
 characterized by its many forms and the fact that it is conserved. We can
-loosely define **energy** as the
-ability to do work, admitting that in some circumstances not all energy is
-available to do work. Because of the association of energy with work, we begin
-the chapter with a discussion of work. Work is intimately related to energy and
-how energy moves from one system to another or changes form.
+loosely define **energy** as the ability to do work, admitting that in some
+circumstances not all energy is available to do work. Because of the association
+of energy with work, we begin the chapter with a discussion of work. Work is
+intimately related to energy and how energy moves from one system to another or
+changes form.
 
 <div class="note" data-label="Video" markdown="1">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8_TjOq5BNo8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

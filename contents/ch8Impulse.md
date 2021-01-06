@@ -12,16 +12,17 @@ layout: page
 </div>
 
 The effect of a force on an object depends on how long it acts, as well as how
-great the force is. In [Figure](../contents/ch8LinearMomentumAndForce.md#fs-id44), a very large
+great the force is.
+In [Figure](../contents/ch8LinearMomentumAndForce.md#fs-id44), a very large
 force acting for a short time had a great effect on the momentum of the tennis
-ball. A small force could cause the same **change in momentum**, but it would have to act for a much longer time. For example, if the
-ball were thrown upward, the gravitational force (which is much smaller than the
-tennis racquet’s force) would eventually reverse the momentum of the ball.
-Quantitatively, the effect we are talking about is the change in momentum $$
-\Delta \vb{p} $$.
+ball. A small force could cause the same **change in momentum**, but it would
+have to act for a much longer time. For example, if the ball were thrown upward,
+the gravitational force (which is much smaller than the tennis racquet’s force)
+would eventually reverse the momentum of the ball. Quantitatively, the effect we
+are talking about is the change in momentum $$ \Delta \vb{p} $$.
 
-By rearranging the equation $$ \vb{F}_{\text{net}}=\frac{ \Delta
-\vb{p}}{\Delta t} $$ to be
+By rearranging the equation $$ \vb{F}_{\text{net}}=\frac{ \Delta \vb{p}}{\Delta
+t} $$ to be
 
 <div class="equation">
  $$ \Delta \vb{p}=\vb{F}_{\text{net}}\Delta t, $$
@@ -29,8 +30,8 @@ By rearranging the equation $$ \vb{F}_{\text{net}}=\frac{ \Delta
 
 we can see how the change in momentum equals the average net external force
 multiplied by the time this force acts. The quantity $$ \vb{F}_
-{\text{net}}\Delta t $$ is given the name **impulse**.
-Impulse is the same as the change in momentum.
+{\text{net}}\Delta t $$ is given the name **impulse**. Impulse is the same as
+the change in momentum.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -84,23 +85,23 @@ wall.
 
 In order to determine the force on the wall, consider the force on the ball due
 to the wall using Newton’s second law and then apply Newton’s third law to
-determine the direction. Assume the $$ x $$ -axis to be
-normal to the wall and to be positive in the initial direction of
-motion. Choose the $$ y $$-axis to be along the wall in the plane
-of the second ball’s motion. The
-momentum direction and the velocity direction are the same.
+determine the direction. Assume the $$ x $$ -axis to be normal to the wall and
+to be positive in the initial direction of motion. Choose the $$ y $$-axis to be
+along the wall in the plane of the second ball’s motion. The momentum direction
+and the velocity direction are the same.
 
 **Solution for (a)**
 
-The first ball bounces directly into the wall and exerts a force on it in the
-$$ +x $$ direction. Therefore the wall exerts a force on the ball in the $$ -x $$
- direction. The second ball continues with the same momentum component in the
- $$ y $$ direction, but reverses its $$ x $$-component of momentum,
-as seen by sketching a diagram of the angles involved
-  and keeping in mind the proportionality between velocity and momentum.
+The first ball bounces directly into the wall and exerts a force on it in the $$
++x $$ direction. Therefore the wall exerts a force on the ball in the $$ -x $$
+direction. The second ball continues with the same momentum component in the $$
+y $$ direction, but reverses its $$ x $$-component of momentum, as seen by
+sketching a diagram of the angles involved and keeping in mind the
+proportionality between velocity and momentum.
 
-These changes mean the change in momentum for both balls is in the $$ -x $$ direction,
-so the force of the wall on each ball is along the $$ -x $$ direction.
+These changes mean the change in momentum for both balls is in the $$ -x $$
+direction, so the force of the wall on each ball is along the $$ -x $$
+direction.
 
 **Strategy for (b)**
 
@@ -110,9 +111,9 @@ imparted to the ball.
 **Solution for (b)**
 
 Let $$ u $$ be the speed of each ball before and after collision with the wall,
-and $$ m $$ the mass of each ball. Choose the $$ x $$-axis and $$ y $$-axis
-as previously described, and consider the change in momentum of
-the first ball which strikes perpendicular to the wall.
+and $$ m $$ the mass of each ball. Choose the $$ x $$-axis and $$ y $$-axis as
+previously described, and consider the change in momentum of the first ball
+which strikes perpendicular to the wall.
 
 <div class="equation">
 \begin{array}{ c c c}
@@ -167,16 +168,15 @@ Our definition of impulse includes an assumption that the force is constant over
 the time interval $$ \Delta t $$. *Forces are usually not constant*. Forces vary
 considerably even during the brief time intervals considered. It is, however,
 possible to find an average effective force $$ F_{\text{eff}} $$ that produces
-the same result as the corresponding time-varying
-force. [Figure 1](#fig1) shows a graph of what an actual force
-looks like as a function of time for a ball bouncing off the floor. The area
-under the curve has units of momentum and is equal to the impulse or change in
-momentum between times $$ t_{1} $$ and $$ t_{2} $$. That area is equal to the
-area inside the rectangle bounded by $$ F_{\text{eff}} $$, $$ t_{1} $$, and $$
-t_{2} $$. Thus the impulses and their effects are the same for both the actual
-and effective forces.
+the same result as the corresponding time-varying force. [Figure 1](#fig1) shows
+a graph of what an actual force looks like as a function of time for a ball
+bouncing off the floor. The area under the curve has units of momentum and is
+equal to the impulse or change in momentum between times $$ t_{1} $$ and $$ t_
+{2} $$. That area is equal to the area inside the rectangle bounded by $$ F_
+{\text{eff}} $$, $$ t_{1} $$, and $$ t_{2} $$. Thus the impulses and their
+effects are the same for both the actual and effective forces.
 
-![Figure is a graph of force, F, versus time, t. Two curves, F actual and F effective, are drawn. F actual is drawn between t sub1 and t sub 2 and it resembles a bell-shaped curve that peaks mid-way between t sub 1 and t sub 2. F effective is a line parallel to the x axis drawn at about fifty five percent of the maximum value of F actual and it extends up to t sub 2.](../resources/Figure_09_02_01a.jpg "A graph of force versus time with time along the  \( x \) -axis and force along the  \( y \) -axis for an actual force and an equivalent effective force. The areas under the two curves are equal.")
+![Figure is a graph of force, F, versus time, t. Two curves, F actual and F effective, are drawn. F actual is drawn between t sub1 and t sub 2 and it resembles a bell-shaped curve that peaks mid-way between t sub 1 and t sub 2. F effective is a line parallel to the x axis drawn at about fifty five percent of the maximum value of F actual and it extends up to t sub 2.](../resources/Figure_09_02_01a.jpg "A graph of force versus time with time along the \( x \) -axis and force along the \( y \) -axis for an actual force and an equivalent effective force. The areas under the two curves are equal.")
 {: #fig1}
 
 <div class="note" data-label="" markdown="1">
@@ -208,14 +208,14 @@ In both cases, nature is adequately described without the use of calculus.
 
 ### Section Summary
 
-* Impulse, or change in momentum, equals the average
-  net external force multiplied by the time this force acts:
+* Impulse, or change in momentum, equals the average net external force
+  multiplied by the time this force acts:
   <div class="equation">
- $$ \Delta \vb{p}=\vb{F}_{\text{net}}\Delta t. $$
+
+$$ \Delta \vb{p}=\vb{F}_{\text{net}}\Delta t. $$
   </div>
 
-* Forces are usually not constant over a period of
-  time.
+* Forces are usually not constant over a period of time.
 
 ### Conceptual Questions
 
@@ -291,7 +291,8 @@ and brought them to rest in the same time? Explain why or why not.
 <div class="solution" markdown="1">
 a) $$ 2.40\times 10^{3}\N $$ toward the leg
 
-b) The force on each hand would have the same magnitude as that found in part (a)
+b) The force on each hand would have the same magnitude as that found in part (
+a)
 (but in opposite directions by Newton’s third law) because the change in
 momentum and the time interval are the same.
 
@@ -306,10 +307,11 @@ momentum and the time interval are the same.
 A professional boxer hits his opponent with a 1000-N horizontal blow that lasts
 for 0.150 s.
 (a) Calculate the impulse imparted by this blow.
-(b) What is the opponent’s final velocity, if his mass is 105 kg and he is motionless in midair
-when struck near his center of mass?
-(c) Calculate the recoil velocity of the opponent’s 10.0-kg head if hit in this manner, assuming the head does not
-initially transfer significant momentum to the boxer’s body.
+(b) What is the opponent’s final velocity, if his mass is 105 kg and he is
+motionless in midair when struck near his center of mass?
+(c) Calculate the recoil velocity of the opponent’s 10.0-kg head if hit in this
+manner, assuming the head does not initially transfer significant momentum to
+the boxer’s body.
 (d) Discuss the implications of your answers for parts (b) and (c).
 
 </div>
@@ -323,15 +325,15 @@ initially transfer significant momentum to the boxer’s body.
 Suppose a child drives a bumper car head on into the side rail, which exerts a
 force of 4000 N on the car for 0.200 s.
 (a) What impulse is imparted by this force?
-(b) Find the final velocity of the
-bumper car if its initial velocity was 2.80 m/s and the car plus driver have a
-mass of 200 kg. You may neglect friction between the car and floor.
+(b) Find the final velocity of the bumper car if its initial velocity was 2.80
+m/s and the car plus driver have a mass of 200 kg. You may neglect friction
+between the car and floor.
 
 </div>
 <div class="solution" markdown="1">
 a) $$ 800 \kg \cdot  \ms $$ away from the wall
 
-b) $$ 1.20  \ms $$ away from the wall
+b) $$ 1.20 \ms $$ away from the wall
 
 </div>
 </div>
@@ -345,8 +347,8 @@ One hazard of space travel is debris left by previous missions. There are
 several thousand objects orbiting Earth that are large enough to be detected by
 radar, but there are far greater numbers of very small objects, such as flakes
 of paint. Calculate the force exerted by a 0.100-mg chip of paint that strikes a
-spacecraft window at a relative speed of $$ 4.00\times 10^{3} \ms $$,
-given the collision lasts $$ 6.00\times 10^{-8} \s $$.
+spacecraft window at a relative speed of $$ 4.00\times 10^{3} \ms $$, given the
+collision lasts $$ 6.00\times 10^{-8} \s $$.
 
 </div>
 </div>
@@ -358,10 +360,10 @@ given the collision lasts $$ 6.00\times 10^{-8} \s $$.
 
 A 75.0-kg person is riding in a car moving at 20.0 m/s when the car runs into a
 bridge abutment.
-(a) Calculate the average force on the person if he is stopped
-by a padded dashboard that compresses an average of 1.00 cm.
-(b) Calculate the average force on the person if he is stopped by an air bag that compresses an
-average of 15.0 cm.
+(a) Calculate the average force on the person if he is stopped by a padded
+dashboard that compresses an average of 1.00 cm.
+(b) Calculate the average force on the person if he is stopped by an air bag
+that compresses an average of 15.0 cm.
 
 </div>
 <div class="solution" markdown="1">
@@ -381,11 +383,12 @@ Military rifles have a mechanism for reducing the recoil forces of the gun on
 the person firing it. An internal part recoils over a relatively large distance
 and is stopped by damping mechanisms in the gun. The larger distance reduces the
 average force needed to stop the internal part.
-(a) Calculate the recoil velocity of a 1.00-kg plunger that directly interacts with a 0.0200-kg bullet
-fired at 600 m/s from the gun.
-(b) If this part is stopped over a distance of 20.0 cm, what average force is exerted upon it by the gun?
-(c) Compare this to the force exerted on the gun if the bullet is accelerated to its velocity in
-10.0 ms (milliseconds).
+(a) Calculate the recoil velocity of a 1.00-kg plunger that directly interacts
+with a 0.0200-kg bullet fired at 600 m/s from the gun.
+(b) If this part is stopped over a distance of 20.0 cm, what average force is
+exerted upon it by the gun?
+(c) Compare this to the force exerted on the gun if the bullet is accelerated to
+its velocity in 10.0 ms (milliseconds).
 
 </div>
 </div>
@@ -498,6 +501,7 @@ direction)?
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 change in momentum

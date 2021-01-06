@@ -14,7 +14,8 @@ drawbridge to bad posture and back strain. We begin with a discussion of
 problem-solving strategies specifically used for statics. Since statics is a
 special case of Newton’s laws, both the general problem-solving strategies and
 the special strategies for Newton’s laws, discussed
-in [Problem-Solving Strategies](../contents/ch4ProblemSolvingStrategies.md), still apply.
+in [Problem-Solving Strategies](../contents/ch4ProblemSolvingStrategies.md),
+still apply.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -30,37 +31,35 @@ list of known and unknown factors. If the second condition is involved,
  $$ \theta =0 $$ )). Always choose a convenient coordinate system for
 projecting forces.
 
-4. *Check the solution to see if it is reasonable* by
-   examining the magnitude, direction, and units of the answer. The importance
-   of this last step never diminishes, although in unfamiliar applications, it
-   is usually more difficult to judge reasonableness. These judgments become
-   progressively easier with experience. 
+4. *Check the solution to see if it is reasonable* by examining the magnitude,
+   direction, and units of the answer. The importance of this last step never
+   diminishes, although in unfamiliar applications, it is usually more difficult
+   to judge reasonableness. These judgments become progressively easier with
+   experience.
 
 </div>
 
 Now let us apply this problem-solving strategy for the pole vaulter shown in the
 three figures below. The pole is uniform and has a mass of 5.00 kg.
-In [Figure 1](#fig1), the pole’s cg lies halfway between the
-vaulter’s hands. It seems reasonable that the force exerted by each hand is
-equal to half the weight of the pole, or 24.5 N. This obviously satisfies the
-first condition for equilibrium $$ \left( \text{net} F=0 \right) $$. The second
-condition $$ \left( \text{net}\tau = 0 \right) $$ is also satisfied, as we can
-see by choosing the cg to be the pivot point. The weight exerts no torque about
-a pivot point located at the cg, since it is applied at that point and its lever
-arm is zero. The equal forces exerted by the hands are equidistant from the
-chosen pivot, and so they exert equal and opposite torques. Similar arguments
-hold for other systems where supporting forces are exerted symmetrically about
-the cg. For example, the four legs of a uniform table each support one-fourth of
-its weight.
+In [Figure 1](#fig1), the pole’s cg lies halfway between the vaulter’s hands. It
+seems reasonable that the force exerted by each hand is equal to half the weight
+of the pole, or 24.5 N. This obviously satisfies the first condition for
+equilibrium $$ \left( \text{net} F=0 \right) $$. The second condition $$ \left(
+\text{net}\tau = 0 \right) $$ is also satisfied, as we can see by choosing the
+cg to be the pivot point. The weight exerts no torque about a pivot point
+located at the cg, since it is applied at that point and its lever arm is zero.
+The equal forces exerted by the hands are equidistant from the chosen pivot, and
+so they exert equal and opposite torques. Similar arguments hold for other
+systems where supporting forces are exerted symmetrically about the cg. For
+example, the four legs of a uniform table each support one-fourth of its weight.
 
-In [Figure 1](#fig1), a pole vaulter holding a pole with its cg
-halfway between his hands is shown. Each hand exerts a force equal to half the
-weight of the pole,$$ F_{R}=F_{L}=w/2 $$.
-(b) The pole vaulter moves the pole to  his left, and the forces that the hands exert
-are no longer equal. See [Figure 1](#fig1).
-If the pole is held with its cg to the
-left of the person, then he must push down with his right hand and up with his
-left. The forces he exerts are larger here because they are in opposite
+In [Figure 1](#fig1), a pole vaulter holding a pole with its cg halfway between
+his hands is shown. Each hand exerts a force equal to half the weight of the
+pole,$$ F_{R}=F_{L}=w/2 $$.
+(b) The pole vaulter moves the pole to his left, and the forces that the hands
+exert are no longer equal. See [Figure 1](#fig1). If the pole is held with its
+cg to the left of the person, then he must push down with his right hand and up
+with his left. The forces he exerts are larger here because they are in opposite
 directions and the cg is at a long distance from either hand.
 
 Similar observations can be made using a meter stick held at different locations
@@ -75,9 +74,9 @@ along its length.
 ![A pole vaulter is standing on the ground holding a pole from one side with his two hands. The centre of gravity of the pole is to the left of the pole vaulter. The weight W is shown as an arrow downward at center of gravity. The reaction F sub R is shown with a vector pointing downward from the man&#x2019;s right hand and F sub L is shown with a vector in upward direction at the location of the man&#x2019;s left hand. A free body diagram of the situation is shown on the top right side of the figure.](../resources/Figure_10_04_01c.jpg "A pole vaulter is holding a pole horizontally with both hands. The center of gravity is to the left side of the vaulter.")
 {: #fig3}
 
-If the pole vaulter holds the pole as shown in [Figure 2](#fig2), the
-situation is not as simple. The total force he exerts is still equal to the
-weight of the pole, but it is not evenly divided between his hands. (If $$ F_
+If the pole vaulter holds the pole as shown in [Figure 2](#fig2), the situation
+is not as simple. The total force he exerts is still equal to the weight of the
+pole, but it is not evenly divided between his hands. (If $$ F_
 {L}=F_{R} $$, then the torques about the cg would not be equal since the lever
 arms are different.) Logically, the right hand should support more weight, since
 it is closer to the cg. In fact, if the right hand is moved directly under the
@@ -87,8 +86,8 @@ Finding the forces $$ F_{L} $$ and $$ F_{R} $$ is straightforward, as the next
 example shows.
 
 If the pole vaulter holds the pole from near the end of the
-pole ([Figure 3](#fig3)), the direction of the force applied by the
-right hand of the vaulter reverses its direction.
+pole ([Figure 3](#fig3)), the direction of the force applied by the right hand
+of the vaulter reverses its direction.
 
 <div class="example" markdown="1">
 <div class="title">
@@ -101,21 +100,21 @@ from the left hand.
 
 **Strategy**
 
-[Figure 2](#fig2) includes a free body diagram for the pole, the system
-of interest. There is not enough information to use the first condition for
-equilibrium, $$ \text{(net}F=0 $$, since two of the three forces are unknown and the hand forces cannot be
-assumed to be equal in this case. There is enough information to use the second
-condition for equilibrium, $$ \text{(net}\tau =0 $$, if the pivot point is chosen to be at either hand, thereby making the
-torque from that hand zero. We choose to locate the pivot at the left hand in
-this part of the problem, to eliminate the torque from the left hand.
+[Figure 2](#fig2) includes a free body diagram for the pole, the system of
+interest. There is not enough information to use the first condition for
+equilibrium, $$ \text{(net}F=0 $$, since two of the three forces are unknown and
+the hand forces cannot be assumed to be equal in this case. There is enough
+information to use the second condition for equilibrium, $$ \text{(net}\tau =0
+$$, if the pivot point is chosen to be at either hand, thereby making the torque
+from that hand zero. We choose to locate the pivot at the left hand in this part
+of the problem, to eliminate the torque from the left hand.
 
 **Solution for (a)**
 
 There are now only two nonzero torques, those from the gravitational force
 ( $$ \tau_{\text{w}} $$ ) and from the push or pull of the right hand
-( $$\theta_{tau} $$).
-Stating the second condition in terms of clockwise and counterclockwise
-torques,
+( $$\theta_{tau} $$). Stating the second condition in terms of clockwise and
+counterclockwise torques,
 
 <div class="equation">
  $$ \text{net} \tau_{\text{cw}}=\text{-net} \tau_{\text{ccw}} . $$
@@ -170,14 +169,14 @@ F_{L}&=& 16.3 \N
 
 **Discussion**
 
-$$ F_{L} $$ is seen to be exactly half of $$ F_{R} $$, as we might have guessed, since $$
-F_{L} $$ is applied twice as far from the cg as $$ F_{R} $$.
+$$ F_{L} $$ is seen to be exactly half of $$ F_{R} $$, as we might have guessed,
+since $$ F_{L} $$ is applied twice as far from the cg as $$ F_{R} $$.
 
 </div>
 
 If the pole vaulter holds the pole as he might at the start of a run, shown
-in [Figure 3](#fig3), the forces change again. Both are considerably
-greater, and one force reverses direction.
+in [Figure 3](#fig3), the forces change again. Both are considerably greater,
+and one force reverses direction.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -204,12 +203,13 @@ Balancing Act
 
 ### Summary
 
-* Statics can be applied to a variety of situations,
-  ranging from raising a drawbridge to bad posture and back strain. We have
-  discussed the problem-solving strategies specifically useful for statics.
-  Statics is a special case of Newton’s laws, both the general problem-solving
-  strategies and the special strategies for Newton’s laws, discussed
-  in [Problem-Solving Strategies](../contents/ch4ProblemSolvingStrategies.md), still apply.
+* Statics can be applied to a variety of situations, ranging from raising a
+  drawbridge to bad posture and back strain. We have discussed the
+  problem-solving strategies specifically useful for statics. Statics is a
+  special case of Newton’s laws, both the general problem-solving strategies and
+  the special strategies for Newton’s laws, discussed
+  in [Problem-Solving Strategies](../contents/ch4ProblemSolvingStrategies.md),
+  still apply.
 
 ### Conceptual Questions
 
@@ -248,6 +248,7 @@ Strategy for static equilibrium described above.
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 static equilibrium

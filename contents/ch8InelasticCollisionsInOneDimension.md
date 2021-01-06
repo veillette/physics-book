@@ -12,15 +12,14 @@ layout: page
 </div>
 
 We have seen that in an elastic collision, internal kinetic energy is conserved.
-An **inelastic collision** is one in
-which the internal kinetic energy changes (it is not conserved). This lack of
-conservation means that the forces between colliding objects may remove or add
-internal kinetic energy. Work done by internal forces may change the forms of
-energy within a system. For inelastic collisions, such as when colliding objects
-stick together, this internal work may transform some internal kinetic energy
-into heat transfer. Or it may convert stored energy into internal kinetic
-energy, such as when exploding bolts separate a satellite from its launch
-vehicle.
+An **inelastic collision** is one in which the internal kinetic energy changes (
+it is not conserved). This lack of conservation means that the forces between
+colliding objects may remove or add internal kinetic energy. Work done by
+internal forces may change the forms of energy within a system. For inelastic
+collisions, such as when colliding objects stick together, this internal work
+may transform some internal kinetic energy into heat transfer. Or it may convert
+stored energy into internal kinetic energy, such as when exploding bolts
+separate a satellite from its launch vehicle.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -30,16 +29,16 @@ An inelastic collision is one in which the internal kinetic energy changes (it i
 
 </div>
 
-[Figure 1](#fig1) shows an example of an inelastic collision.
-Two objects that have equal masses head toward one another at equal speeds and
-then stick together. Their total internal kinetic energy is initially $$
-\frac{1}{2}m v^{2}+\frac{1}{2}m v^{2}=m v^{2} $$. The two objects come to rest
-after sticking together, conserving momentum. But the internal kinetic energy is
-zero after the collision. A collision in which the objects stick together is
-sometimes called a **perfectly inelastic collision** because it reduces internal kinetic energy more than
-does any other type of inelastic collision. In fact, such a collision reduces
-internal kinetic energy to the minimum it can have while still conserving
-momentum.
+[Figure 1](#fig1) shows an example of an inelastic collision. Two objects that
+have equal masses head toward one another at equal speeds and then stick
+together. Their total internal kinetic energy is initially $$ \frac{1}{2}m
+v^{2}+\frac{1}{2}m v^{2}=m v^{2} $$. The two objects come to rest after sticking
+together, conserving momentum. But the internal kinetic energy is zero after the
+collision. A collision in which the objects stick together is sometimes called
+a **perfectly inelastic collision** because it reduces internal kinetic energy
+more than does any other type of inelastic collision. In fact, such a collision
+reduces internal kinetic energy to the minimum it can have while still
+conserving momentum.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -111,9 +110,9 @@ velocity, as we might expect.
 
 **Solution for (b)**
 
-Before the collision, the internal kinetic energy $$ \KE_{\text{int}} $$
-of the system is that of the hockey puck, because the goalie is initially at
-rest. Therefore, $$ \KE_{\text{int}} $$ is initially
+Before the collision, the internal kinetic energy $$ \KE_{\text{int}} $$ of the
+system is that of the hockey puck, because the goalie is initially at rest.
+Therefore, $$ \KE_{\text{int}} $$ is initially
 
 <div class="equation">
  $$ \begin{array}{lll}
@@ -143,16 +142,15 @@ where the minus sign indicates that the energy was lost.
 **Discussion for (b)**
 
 Nearly all of the initial internal kinetic energy is lost in this perfectly
-inelastic collision. $$ \KE_{\text{int}} $$ is mostly converted to
-thermal energy and sound.
+inelastic collision. $$ \KE_{\text{int}} $$ is mostly converted to thermal
+energy and sound.
 
 During some collisions, the objects do not stick together and less of the
 internal kinetic energy is removed—such as happens in most automobile accidents.
 Alternatively, stored energy may be converted into internal kinetic energy
-during a collision. [Figure 3](#fig3) shows a one-dimensional
-example in which two carts on an air track collide, releasing potential energy
-from a compressed spring. [Exercise](#fs-id04) deals with data from such a
-collision.
+during a collision. [Figure 3](#fig3) shows a one-dimensional example in which
+two carts on an air track collide, releasing potential energy from a compressed
+spring. [Exercise](#fs-id04) deals with data from such a collision.
 
 ![An uncoiled spring is connected to a glider with triangular cross sectional area of mass m 1 which moves with velocity v 1 toward the right. Another solid glider of mass m 2 and triangular cross sectional area moves toward the left with velocity V 2 on a frictionless surface. The total momentum is the sum of their individual momentum p 1 and p 2. After collision m 1 moves to the left with velocity V 1 prime and momentum p 1prime. M 2 moves to the right with velocity V 2 prime. Their individual momentum becomes p 1prime and p 2 prime but the total momentum remains the same. The internal kinetic energy after collision is greater than the kinetic energy before collision.](../resources/Figure_09_05_03a.jpg "An air track is nearly frictionless, so that momentum is conserved. Motion is one-dimensional. In this collision, examined in [link], the potential energy of a compressed spring is released during the collision and is converted to internal kinetic energy.")
 {: #fig3}
@@ -271,13 +269,13 @@ increases by 5.46 J. That energy was released by the spring.
 
 ### Section Summary
 
-* An inelastic collision is one in which the internal
-  kinetic energy changes (it is not conserved).
-* A collision in which the objects stick together is
-  sometimes called perfectly inelastic because it reduces internal kinetic
-  energy more than does any other type of inelastic collision.
-* Sports science and technologies also use physics
-  concepts such as momentum and rotational motion and vibrations.
+* An inelastic collision is one in which the internal kinetic energy changes (it
+  is not conserved).
+* A collision in which the objects stick together is sometimes called perfectly
+  inelastic because it reduces internal kinetic energy more than does any other
+  type of inelastic collision.
+* Sports science and technologies also use physics concepts such as momentum and
+  rotational motion and vibrations.
 
 ### Conceptual Questions
 
@@ -336,14 +334,16 @@ During an ice show, a 60.0-kg skater leaps into the air and is caught by an init
 
 **Professional Application**
 
-Using mass and speed data from [Figure](../contents/ch8LinearMomentumAndForce.md#fs-id44) and
-assuming that the football player catches the ball with his feet off the ground
-with both of them moving horizontally, calculate:
-(a) the final velocity if the ball and player are going in the same direction and
-(b) the loss of kinetic  energy in this case.
-(c) Repeat parts (a) and (b) for the situation in which the ball and the player are going in opposite
-directions. Might the loss of kinetic energy be related to how much it hurts to
-catch the pass?
+Using mass and speed data
+from [Figure](../contents/ch8LinearMomentumAndForce.md#fs-id44) and assuming
+that the football player catches the ball with his feet off the ground with both
+of them moving horizontally, calculate:
+(a) the final velocity if the ball and player are going in the same direction
+and
+(b) the loss of kinetic energy in this case.
+(c) Repeat parts (a) and (b) for the situation in which the ball and the player
+are going in opposite directions. Might the loss of kinetic energy be related to
+how much it hurts to catch the pass?
 
 </div>
 <div class="solution" markdown="1">
@@ -376,15 +376,15 @@ energy released by the gun powder—significant heat transfer occurs.
 **Professional Application**
 
 Two manned satellites approaching one another, at a relative speed of 0.250 m/s,
-intending to dock. The first has a mass of $$ 4.00 \times 10^{3}\kg $$,
-and the second a mass of $$ 7.50\times 10^{3}\kg $$.
-(a) Calculate the final velocity (after docking) by using the frame of reference in which the
-first satellite was originally at rest.
+intending to dock. The first has a mass of $$ 4.00 \times 10^{3}\kg $$, and the
+second a mass of $$ 7.50\times 10^{3}\kg $$.
+(a) Calculate the final velocity (after docking) by using the frame of reference
+in which the first satellite was originally at rest.
 (b) What is the loss of kinetic energy in this inelastic collision?
-(c) Repeat both parts by using the frame of
-reference in which the second satellite was originally at rest. Explain why the
-change in velocity is different in the two frames, whereas the change in kinetic
-energy is the same in both.
+(c) Repeat both parts by using the frame of reference in which the second
+satellite was originally at rest. Explain why the change in velocity is
+different in the two frames, whereas the change in kinetic energy is the same in
+both.
 
 </div>
 <div class="solution" markdown="1">
@@ -392,13 +392,13 @@ energy is the same in both.
 
 (b) 81.6 J
 
-(c) $$ 8.70 \times 10^{-2} \ms $$ in the direction of motion of the less
-massive satellite, 81.5 J. Because there are no external forces, the velocity of
-the center of mass of the two-satellite system is unchanged by the collision.
-The two velocities calculated above are the velocity of the center of mass in
-each of the two different individual reference frames. The loss in KE is the
-same in both reference frames because the KE lost to internal forces (heat,
-friction, etc.) is the same regardless of the coordinate system chosen.
+(c) $$ 8.70 \times 10^{-2} \ms $$ in the direction of motion of the less massive
+satellite, 81.5 J. Because there are no external forces, the velocity of the
+center of mass of the two-satellite system is unchanged by the collision. The
+two velocities calculated above are the velocity of the center of mass in each
+of the two different individual reference frames. The loss in KE is the same in
+both reference frames because the KE lost to internal forces (heat, friction,
+etc.) is the same regardless of the coordinate system chosen.
 
 </div>
 </div>
@@ -466,16 +466,15 @@ One of the waste products of a nuclear reactor is plutonium-239 $$ \left(
 {}^{239}\text{Pu}\right) $$. This nucleus is radioactive and decays by splitting
 into a helium-4 nucleus and a uranium-235 nucleus $$ \left(
 {}^{4}{\text{He}}+{}^{235}U\right) $$, the latter of which is also radioactive
-and will itself decay some time later. The energy emitted in the plutonium
-decay
-is $$ 8.40\times 10^{-13} \J $$ and is entirely converted to kinetic
-energy of the helium and uranium nuclei. The mass of the helium nucleus is $$ 6.68\times
-10^{-27}\kg $$, while that of the uranium is $$ 3.92 \times
-10^{-25}\kg $$
+and will itself decay some time later. The energy emitted in the plutonium decay
+is $$ 8.40\times 10^{-13} \J $$ and is entirely converted to kinetic energy of
+the helium and uranium nuclei. The mass of the helium nucleus is $$ 6.68\times
+10^{-27}\kg $$, while that of the uranium is $$ 3.92 \times 10^{-25}\kg $$
 (note that the ratio of the masses is 4 to 235).
-(a) Calculate the velocities of the two nuclei, assuming the plutonium nucleus is originally at rest.
-(b) How much kinetic energy does each nucleus carry away? Note that the data given here
-are accurate to three digits only.
+(a) Calculate the velocities of the two nuclei, assuming the plutonium nucleus
+is originally at rest.
+(b) How much kinetic energy does each nucleus carry away? Note that the data
+given here are accurate to three digits only.
 
 </div>
 </div>
@@ -488,16 +487,16 @@ are accurate to three digits only.
 The Moon’s craters are remnants of meteorite collisions. Suppose a fairly large
 asteroid that has a mass of $$ 5.00 \times {10}^{12}\kg $$
 (about a kilometer across) strikes the Moon at a speed of 15.0 km/s.
-(a) At what speed does the Moon recoil after the perfectly inelastic collision (the mass of
-the Moon is $$7.36 \times {10}^{22}\kg $$) ?
+(a) At what speed does the Moon recoil after the perfectly inelastic collision (
+the mass of the Moon is $$7.36 \times {10}^{22}\kg $$) ?
 (b) How much kinetic energy is lost in the collision? Such an event may have
 been observed by medieval English monks who reported observing a red glow and
 subsequent haze about the Moon.
-(c) In October 2009, NASA crashed a rocket into
-the Moon, and analyzed the plume produced by the impact. (Significant amounts of
-water were detected.) Answer part (a) and (b) for this real-life experiment.
-The mass of the rocket was 2000 kg and  its speed upon impact was 9000 km/h.
-How does the plume produced alter these  results?
+(c) In October 2009, NASA crashed a rocket into the Moon, and analyzed the plume
+produced by the impact. (Significant amounts of water were detected.) Answer
+part (a) and (b) for this real-life experiment. The mass of the rocket was 2000
+kg and its speed upon impact was 9000 km/h. How does the plume produced alter
+these results?
 
 </div>
 <div class="solution"  markdown="1">
@@ -505,11 +504,11 @@ How does the plume produced alter these  results?
 
 (b) $$ 5.63 \times 10^{20} \J $$ (almost all KE lost)
 
-(c) Recoil speed is $$6.79 \times 10^{-17} \ms $$, energy lost is $$6.25
-\times 10^{9} \J $$. The plume will not affect the momentum result because
-the plume is still part of the Moon system. The plume may affect the kinetic
-energy result because a significant part of the initial kinetic energy may be
-transferred to the kinetic energy of the plume particles.
+(c) Recoil speed is $$6.79 \times 10^{-17} \ms $$, energy lost is $$6.25 \times
+10^{9} \J $$. The plume will not affect the momentum result because the plume is
+still part of the Moon system. The plume may affect the kinetic energy result
+because a significant part of the initial kinetic energy may be transferred to
+the kinetic energy of the plume particles.
 
 </div>
 </div>
@@ -568,6 +567,7 @@ ATP into kinetic energy.
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 inelastic collision

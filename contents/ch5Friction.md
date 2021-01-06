@@ -10,14 +10,13 @@ layout: page
 
 </div>
 
-**Friction** is a force that is
-around us all the time that opposes relative motion between systems in contact
-but also allows us to move (which you have discovered if you have ever tried to
-walk on ice). While a common force, the behavior of friction is actually very
-complicated and is still not completely understood. We have to rely heavily on
-observations for whatever understandings we can gain. However, we can still deal
-with its more elementary general characteristics and understand the
-circumstances in which it behaves.
+**Friction** is a force that is around us all the time that opposes relative
+motion between systems in contact but also allows us to move (which you have
+discovered if you have ever tried to walk on ice). While a common force, the
+behavior of friction is actually very complicated and is still not completely
+understood. We have to rely heavily on observations for whatever understandings
+we can gain. However, we can still deal with its more elementary general
+characteristics and understand the circumstances in which it behaves.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -31,10 +30,10 @@ One of the simpler characteristics of friction is that it is parallel to the
 contact surface between systems and always in a direction that opposes motion or
 attempted motion of the systems relative to each other. If two systems are in
 contact and moving relative to one another, then the friction between them is
-called **kinetic friction**. For example, friction slows a hockey puck
-sliding on ice. But when objects are stationary, **static friction**
-can act between them; the static friction is usually greater than the
-kinetic friction between the objects.
+called **kinetic friction**. For example, friction slows a hockey puck sliding
+on ice. But when objects are stationary, **static friction**
+can act between them; the static friction is usually greater than the kinetic
+friction between the objects.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -56,36 +55,36 @@ started and also to keep it moving. Furthermore, if you oiled the concrete you
 would find it to be easier to get the crate started and keep it going (as you
 might expect).
 
-[Figure 1](#fig1) is a crude pictorial representation
-of how friction occurs at the interface between two objects. Close-up inspection
-of these surfaces shows them to be rough. So when you push to get an object
-moving (in this case, a crate), you must raise the object until it can skip
-along with just the tips of the surface hitting, break off the points, or do
-both. A considerable force can be resisted by friction with no apparent motion.
-The harder the surfaces are pushed together (such as if another box is placed on
-the crate), the more force is needed to move them. Part of the friction is due
-to adhesive forces between the surface molecules of the two objects, which
-explain the dependence of friction on the nature of the substances. Adhesion
-varies with substances in contact and is a complicated aspect of surface
-physics. Once an object is moving, there are fewer points of contact (fewer
-molecules adhering), so less force is required to keep the object moving. At
-small but nonzero speeds, friction is nearly independent of speed.
+[Figure 1](#fig1) is a crude pictorial representation of how friction occurs at
+the interface between two objects. Close-up inspection of these surfaces shows
+them to be rough. So when you push to get an object moving (in this case, a
+crate), you must raise the object until it can skip along with just the tips of
+the surface hitting, break off the points, or do both. A considerable force can
+be resisted by friction with no apparent motion. The harder the surfaces are
+pushed together (such as if another box is placed on the crate), the more force
+is needed to move them. Part of the friction is due to adhesive forces between
+the surface molecules of the two objects, which explain the dependence of
+friction on the nature of the substances. Adhesion varies with substances in
+contact and is a complicated aspect of surface physics. Once an object is
+moving, there are fewer points of contact (fewer molecules adhering), so less
+force is required to keep the object moving. At small but nonzero speeds,
+friction is nearly independent of speed.
 
-![The figure shows a crate on a flat surface, and a magnified view of a bottom corner of the crate and the supporting surface. The magnified view shows that there is roughness in the two surfaces in contact with each other. A black arrow points toward the right, away from the crate, and it is labeled as the direction of motion or attempted motion. A red arrow pointing toward the left is located near the bottom left corner of the crate, at the interface between that corner and the supporting surface. The red arrow is labeled as f, representing friction between the two surfaces in contact with each other.](../resources/Figure_06_01_01a.jpg "Frictional forces, such as  \( \vb{f} \) , always oppose motion or attempted motion between objects in contact. Friction arises in part because of the roughness of the surfaces in contact, as seen in the expanded view. In order for the object to move, it must rise to where the peaks can skip along the bottom surface. Thus a force is required just to set the object in motion. Some of the peaks will be broken off, also requiring a force to maintain motion. Much of the friction is actually due to attractive forces between molecules making up the two objects, so that even perfectly smooth surfaces are not friction-free. Such adhesive forces also depend on the substances the surfaces are made of, explaining, for example, why rubber-soled shoes slip less than those with leather soles.")
+![The figure shows a crate on a flat surface, and a magnified view of a bottom corner of the crate and the supporting surface. The magnified view shows that there is roughness in the two surfaces in contact with each other. A black arrow points toward the right, away from the crate, and it is labeled as the direction of motion or attempted motion. A red arrow pointing toward the left is located near the bottom left corner of the crate, at the interface between that corner and the supporting surface. The red arrow is labeled as f, representing friction between the two surfaces in contact with each other.](../resources/Figure_06_01_01a.jpg "Frictional forces, such as \( \vb{f} \) , always oppose motion or attempted motion between objects in contact. Friction arises in part because of the roughness of the surfaces in contact, as seen in the expanded view. In order for the object to move, it must rise to where the peaks can skip along the bottom surface. Thus a force is required just to set the object in motion. Some of the peaks will be broken off, also requiring a force to maintain motion. Much of the friction is actually due to attractive forces between molecules making up the two objects, so that even perfectly smooth surfaces are not friction-free. Such adhesive forces also depend on the substances the surfaces are made of, explaining, for example, why rubber-soled shoes slip less than those with leather soles.")
 {: #fig1}
 
 The magnitude of the frictional force has two forms: one for static situations (
 static friction), the other for when there is motion (kinetic friction).
 
-When there is no motion between the objects,
-the **magnitude of static friction** , $$f_{s} $$ is given by
+When there is no motion between the objects, the **magnitude of static
+friction** , $$f_{s} $$ is given by
 
 <div class="equation">
  $$ f_{\s}\le \mu_{\s} \mag{N}, $$
 </div>
 
-where $$ \mu_{\s} $$ is the coefficient of static friction and $$ \mag{N}$$
-is the magnitude of the normal force (the force perpendicular to the surface).
+where $$ \mu_{\s} $$ is the coefficient of static friction and $$ \mag{N}$$ is
+the magnitude of the normal force (the force perpendicular to the surface).
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -111,8 +110,8 @@ exceeds $$ f_{\s \left(\text{max}\right)} $$, the object will move. Thus
  $$ f_{\s  \left(\text{max}\right)}=\mu_{\s} \mag{N} . $$
 </div>
 
-Once an object is moving,
-the **magnitude of kinetic friction** , $$ f_k $$ is given by
+Once an object is moving, the **magnitude of kinetic friction** , $$ f_k $$ is
+given by
 
 <div class="equation">
  $$ f_{\text{k}}=\mu_{\text{k}} \mag{N} , $$
@@ -135,11 +134,10 @@ where $$ \mu_{\text{k}} $$ is the coefficient of kinetic friction.
 
 </div>
 
-As seen in [Table 1](#table1), the coefficients of kinetic
-friction are less than their static counterparts. That values of $$ \mu $$
-in [Table 1](#table1) are stated to only one or, at
-most, two digits is an indication of the approximate description of friction
-given by the above two equations.
+As seen in [Table 1](#table1), the coefficients of kinetic friction are less
+than their static counterparts. That values of $$ \mu $$ in [Table 1](#table1)
+are stated to only one or, at most, two digits is an indication of the
+approximate description of friction given by the above two equations.
 
 ##### Table 1: Coefficients of friction
 
@@ -158,21 +156,22 @@ given by the above two equations.
 |Shoes on ice|0.1|0.05|
 |Ice on ice|0.1|0.03|
 |Steel on ice|0.04|0.02|
+
 {: #table1}
 
-The equations given earlier include the dependence of friction on materials
-and the normal force. The direction of friction is always opposite that of
-motion, parallel to the surface between objects, and perpendicular to the normal
-force. For example, if the crate you try to push (with a force parallel to the
-floor) has a mass of 100 kg, then the normal force would be equal to its weight,
-$$ W=mg\left(100 \kg \right)\left(
-9.80\mss \right)=980 \N $$, perpendicular to the floor. If the
-coefficient of static friction is 0.45, you would have to exert a force parallel
-to the floor greater than $$ f_{\s  \left(\text{max}\right)}=\mu_
+The equations given earlier include the dependence of friction on materials and
+the normal force. The direction of friction is always opposite that of motion,
+parallel to the surface between objects, and perpendicular to the normal force.
+For example, if the crate you try to push (with a force parallel to the floor)
+has a mass of 100 kg, then the normal force would be equal to its weight, $$
+W=mg\left(100 \kg \right)\left(
+9.80\mss \right)=980 \N $$, perpendicular to the floor. If the coefficient of
+static friction is 0.45, you would have to exert a force parallel to the floor
+greater than $$ f_{\s \left(\text{max}\right)}=\mu_
 {\s} \mag{N}=\left(0.45\right)\left(980 \N \right)
-=440\N $$ to move the crate. Once there is motion, friction is less and
-the coefficient of kinetic friction might be 0.30, so that a force of only 290
-N ( $$ f_{\text{k}}=\mu_{\text{k}} \mag{N}=\left(0.30\right)\left( 980\N \right)
+=440\N $$ to move the crate. Once there is motion, friction is less and the
+coefficient of kinetic friction might be 0.30, so that a force of only 290 N (
+$$ f_{\text{k}}=\mu_{\text{k}} \mag{N}=\left(0.30\right)\left( 980\N \right)
 =290\N $$ ) would keep it moving at a constant speed. If the floor is
 lubricated, both coefficients are considerably less than they would be without
 lubrication. Coefficient of friction is a unit less quantity with a magnitude
@@ -196,8 +195,8 @@ ball (at the end of the femur) and socket (part of the pelvis) joint. The ends
 of the bones in the joint are covered by cartilage, which provides a smooth,
 almost glassy surface. The joints also produce a fluid (synovial fluid) that
 reduces friction and wear. A damaged or arthritic joint can be replaced by an
-artificial joint ([Figure 2](#fig2)). These replacements
-can be made of metals (stainless steel or titanium)
+artificial joint ([Figure 2](#fig2)). These replacements can be made of metals (
+stainless steel or titanium)
 or plastic (polyethylene), also with very small coefficients of friction.
 
 ![Two X-x rays of an artificial knee replacement are shown.](../resources/Figure_06_01_02a.jpg "Artificial knee replacement is a procedure that has been performed for more than 20 years. In this figure, we see the post-op x rays of the right knee joint replacement. (credit: Mike Baird, Flickr)")
@@ -223,33 +222,14 @@ A skier with a mass of 62 kg is sliding down a snowy slope. Find the coefficient
 
 The magnitude of kinetic friction was given in to be 45.0 N. Kinetic friction is
 related to the normal force $$\mag{N}$$ as $$ f_{\text{k}}=\mu_{\text{k}}
-\mag{N}
-$$;
-thus, the coefficient of kinetic friction can be found if we can find the normal
-force of the skier on a slope. The normal force is always perpendicular to the
-surface, and since there is no motion perpendicular to the surface, the normal
-force should equal the component of the skier’s weight perpendicular to the
-slope. (See the skier and free-body diagram
+\mag{N} $$; thus, the coefficient of kinetic friction can be found if we can
+find the normal force of the skier on a slope. The normal force is always
+perpendicular to the surface, and since there is no motion perpendicular to the
+surface, the normal force should equal the component of the skier’s weight
+perpendicular to the slope. (See the skier and free-body diagram
 in [Figure 3](#fig3).)
 
-![The figure shows a skier going down a slope that forms an angle of 25
-degrees with the horizontal. The weight of the skier, labeled w, is
-represented by a red arrow pointing vertically downward. This weight is
-divided into two components, w perpendicular is perpendicular to the slope,
-and w parallel is parallel to the slope. The normal force, labeled N, is
-also perpendicular to the slope, equal in magnitude but opposite in
-direction to w perpendicular. The friction, f, is represented by a red arrow
-pointing upslope. In addition, the figure shows a free body diagram that
-shows the relative magnitudes and directions of w, f, and N.](../resources/Figure_06_01_03a.jpg "The motion of the skier and friction are
-parallel to the slope and so it is most convenient to project all forces
-onto a coordinate system where one axis is parallel to the slope and the
-other is perpendicular (axes shown to left of skier). \( \vb{N} \) (the normal
-force) is perpendicular to the slope, and \( \vb{f} \) (the friction) is
-parallel to the slope, but \( \vb{w} \) (the skier&#x2019;s weight) has
-components along both axes, namely \( w_\perp \) and \( w_\parallel \) . \(
-\vb{N} \) is equal in magnitude to \( w_\perp \), so
-there is no motion perpendicular to the slope. However, \( \mag{f} \) is less
-than \( \mag{W} \)  in magnitude, so there is acceleration down the slope
+![The figure shows a skier going down a slope that forms an angle of 25 degrees with the horizontal. The weight of the skier, labeled w, is represented by a red arrow pointing vertically downward. This weight is divided into two components, w perpendicular is perpendicular to the slope, and w parallel is parallel to the slope. The normal force, labeled N, is also perpendicular to the slope, equal in magnitude but opposite in direction to w perpendicular. The friction, f, is represented by a red arrow pointing upslope. In addition, the figure shows a free body diagram that shows the relative magnitudes and directions of w, f, and N.](../resources/Figure_06_01_03a.jpg "The motion of the skier and friction are parallel to the slope and so it is most convenient to project all forces onto a coordinate system where one axis is parallel to the slope and the other is perpendicular (axes shown to left of skier). \( \vb{N} \) (the normal force) is perpendicular to the slope, and \( \vb{f} \) (the friction) is parallel to the slope, but \( \vb{w} \) (the skier&#x2019;s weight) has components along both axes, namely \( w_\perp \) and \( w_\parallel \) . \( \vb{N} \) is equal in magnitude to \( w_\perp \), so there is no motion perpendicular to the slope. However, \( \mag{f} \) is less than \( \mag{W} \) in magnitude, so there is acceleration down the slope
 (along the x-axis).")
 {: #fig3}
 
@@ -282,10 +262,10 @@ Substituting known values on the right-hand side of the equation,
 **Discussion**
 
 This result is a little smaller than the coefficient listed
-in [Table 1](#table1) for waxed wood on snow, but it is
-still reasonable since values of the coefficients of friction can vary greatly.
-In situations like this, where an object of mass $$ m $$ slides down a slope
-that makes an angle $$ \theta $$ with the horizontal, friction is given by $$ f_
+in [Table 1](#table1) for waxed wood on snow, but it is still reasonable since
+values of the coefficients of friction can vary greatly. In situations like
+this, where an object of mass $$ m $$ slides down a slope that makes an angle $$
+\theta $$ with the horizontal, friction is given by $$ f_
 {\text{k}}=\mu_{\text{k}}mg \cos{\theta} $$. All objects will slide down a slope
 with constant acceleration under these circumstances. Proof of this is left for
 this chapter’s Problems and Exercises.
@@ -337,8 +317,8 @@ The simpler aspects of friction dealt with so far are its macroscopic (large-sca
 
 </div>
 
-[Figure 4](#fig4) illustrates one macroscopic
-characteristic of friction that is explained by microscopic (small-scale)
+[Figure 4](#fig4) illustrates one macroscopic characteristic of friction that is
+explained by microscopic (small-scale)
 research. We have noted that friction is proportional to the normal force, but
 not to the area in contact, a somewhat counterintuitive notion. When two rough
 surfaces are in contact, the actual contact area is a tiny fraction of the total
@@ -357,11 +337,11 @@ adhere and cause atomic lattices to vibrate—essentially creating sound waves
 that penetrate the material. The sound waves diminish with distance and their
 energy is converted into heat. Chemical reactions that are related to frictional
 wear can also occur between atoms and molecules on the
-surfaces. [Figure 5](#fig5) shows how the tip of a probe
-drawn across another material is deformed by atomic-scale friction. The force
-needed to drag the tip can be measured and is found to be related to shear
-stress, which will be discussed later in this chapter. The variation in shear
-stress is remarkable ( more than a factor of $$ 10^{12} $$ )
+surfaces. [Figure 5](#fig5) shows how the tip of a probe drawn across another
+material is deformed by atomic-scale friction. The force needed to drag the tip
+can be measured and is found to be related to shear stress, which will be
+discussed later in this chapter. The variation in shear stress is remarkable (
+more than a factor of $$ 10^{12} $$ )
 and difficult to predict theoretically, but shear stress is yielding a
 fundamental understanding of a large-scale phenomenon known since ancient
 times—friction.
@@ -386,28 +366,30 @@ Forces and Motion
 
 ### Section Summary
 
-* Friction is a contact force between systems
-  that opposes the motion or attempted motion between them. Simple friction is
-  proportional to the magnitude of the normal force $$ \mag{N} $$ pushing the
-  systems together. (A
+* Friction is a contact force between systems that opposes the motion or
+  attempted motion between them. Simple friction is proportional to the
+  magnitude of the normal force $$ \mag{N} $$ pushing the systems together. (A
   normal force is always perpendicular to the contact surface between systems.)
   Friction depends on both of the materials involved. The magnitude of static
-  friction $$ f_{\s} $$ between systems stationary relative to one another
-  is given by
+  friction $$ f_{\s} $$ between systems stationary relative to one another is
+  given by
   <div class="equation">
- $$ f_{\s}\le \mu_{\s} \mag{N}, $$
+
+$$ f_{\s}\le \mu_{\s} \mag{N}, $$
   </div>
 
-  where $$ \mu_{\s} $$ is the coefficient of static friction, which
-  depends on both of the materials.
-* The kinetic friction force $$ f_{\text{k}} $$
-  between systems moving relative to one another is given by
+where $$ \mu_{\s} $$ is the coefficient of static friction, which depends on
+both of the materials.
+
+* The kinetic friction force $$ f_{\text{k}} $$ between systems moving relative
+  to one another is given by
   <div class="equation">
- $$ f_{\text{k}}=\mu_{\text{k}} \mag{N}, $$
+
+$$ f_{\text{k}}=\mu_{\text{k}} \mag{N}, $$
   </div>
 
-  where $$ \mu_{\text{k}} $$ is the coefficient of kinetic friction, which also
-  depends on both materials.
+where $$ \mu_{\text{k}} $$ is the coefficient of kinetic friction, which also
+depends on both materials.
 
 ### Conceptual Questions
 
@@ -487,7 +469,7 @@ Suppose you have a 120-kg wooden crate resting on a wood floor.
 <div class="solution" markdown="1">
 (a) 588 N
 
-(b) $$ 1.96 \mss  $$
+(b) $$ 1.96 \mss $$
 </div>
 </div>
 
@@ -512,7 +494,7 @@ A team of eight dogs pulls a sled with waxed wood runners on wet snow (mush!). T
 <div class="solution" markdown="1">
 (a) $$ 3.29 \mss  $$
 
-(b) $$ 3.52 \mss  $$
+(b) $$ 3.52 \mss $$
 
 (c) 980 N; 945 N
 
@@ -533,13 +515,8 @@ of $$ \vb{F}_{\text{tot}} $$?
 (Remember that friction always acts in the direction opposite that of motion
 or attempted motion between surfaces in contact.)
 
-![(a) Overhead view of two ice skaters pushing on a third. One skater pushes with a force F two, represented by an 
-arrow pointing up, and a second skater pushes with a force F one, represented by an arrow pointing from left to 
-right. Vector F one and vector F two are along the arms of the two skaters acting on the third skater. A vector 
-diagram is shown in the form of a right triangle in which the base is vector F one pointing east, and perpendicular 
-to F one is vector F two pointing north. The resultant vector is shown by the hypotenuse pointing northeast. (b) 
-Free-body diagram showing only the forces acting on the skater.](../resources/Figure 04_01_01a.jpg " (a) Overhead 
-view of two ice skaters pushing on a third. (b) Free-body diagram") 
+![(a) Overhead view of two ice skaters pushing on a third. One skater pushes with a force F two, represented by an arrow pointing up, and a second skater pushes with a force F one, represented by an arrow pointing from left to right. Vector F one and vector F two are along the arms of the two skaters acting on the third skater. A vector diagram is shown in the form of a right triangle in which the base is vector F one pointing east, and perpendicular to F one is vector F two pointing north. The resultant vector is shown by the hypotenuse pointing northeast. (b)
+Free-body diagram showing only the forces acting on the skater.](../resources/Figure 04_01_01a.jpg " (a) Overhead view of two ice skaters pushing on a third. (b) Free-body diagram")
 {: #fig7}
 
 </div>
@@ -689,7 +666,7 @@ A contestant in a winter sporting event pushes a 45.0-kg block of ice across a f
 <div class="solution" markdown="1">
 (a) $$ 51.0 \N $$
 
-(b) $$ 0.720 \mss  $$
+(b) $$ 0.720 \mss $$
 </div>
 </div>
 
@@ -708,6 +685,7 @@ angle above the horizontal as shown in [Figure 9](#fig9)(b).
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 friction
@@ -728,7 +706,6 @@ static friction and $$ \mag{N} $$ is the magnitude of the normal force
 
 magnitude of kinetic friction
 : $$ f_{\text{k}}=\mu_{\text{k} }\mag{N} $$, where $$ \mu_{\text{k} } $$ is the
-coefficient of kinetic
-friction
+coefficient of kinetic friction
 
 </div>

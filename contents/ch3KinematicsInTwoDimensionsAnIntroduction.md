@@ -30,18 +30,12 @@ line. The two legs of the trip and the straight-line path form a right triangle,
 and so the Pythagorean theorem, $$ a^{2} + b^{2} = c^{2} $$, can be used to find
 the straight-line distance.
 
-![A right-angled triangle with base labeled a height labeled b and hypotenuse labeled c is shown. Using Pythagorean theorem c is calculated as square root of a squared plus b squared.](../resources/Figure_03_01_02.jpg "The Pythagore
-an theorem relates the length of the legs of a right triangle, labeled \( a\)
-and \( b \),
-with the hypotenuse, labeled \( c \).
-The relationship is given by: \( a^2+b^2=c^2 \). This can be rewritten,
-solving for \( c \).")
+![A right-angled triangle with base labeled a height labeled b and hypotenuse labeled c is shown. Using Pythagorean theorem c is calculated as square root of a squared plus b squared.](../resources/Figure_03_01_02.jpg "The Pythagore an theorem relates the length of the legs of a right triangle, labeled \( a\) and \( b \), with the hypotenuse, labeled \( c \). The relationship is given by: \( a^2+b^2=c^2 \). This can be rewritten, solving for \( c \).")
 {: #fig3}
 
 The hypotenuse of the triangle is the straight-line path, and so in this case
-its length in units of city blocks is
-$$ \sqrt{\left(9 \text{ blocks} \right)^{2} + \left(5 \text{ blocks}\right)^{2}
-} = 10.3 \text{blocks} $$, considerably
+its length in units of city blocks is $$ \sqrt{\left(9 \text{ blocks} \right)
+^{2} + \left(5 \text{ blocks}\right)^{2} } = 10.3 \text{blocks} $$, considerably
 shorter than the 14 blocks you walked. (Note that we are using three significant
 figures in the answer. Although it appears that “9” and “5” have only one
 significant digit, they are discrete numbers. In this case “9 blocks” is the
@@ -52,40 +46,39 @@ in the answer in order to show the result more precisely.)
 {: #fig4}
 
 The fact that the straight-line distance (10.3 blocks)
-in [Figure 4](#fig4) is less than the total distance
-walked (14 blocks) is one example of a general characteristic of vectors. (
-Recall that **vectors** are
-quantities that have both magnitude and direction.)
+in [Figure 4](#fig4) is less than the total distance walked (14 blocks) is one
+example of a general characteristic of vectors. (
+Recall that **vectors** are quantities that have both magnitude and direction.)
 
 As for one-dimensional kinematics, we use arrows to represent vectors. The
 length of the arrow is proportional to the vector’s magnitude. The arrow’s
 length is indicated by hash marks in [Figure 2](#fig2)
-and [Figure 4](#fig4). The arrow points in the same
-direction as the vector. For two-dimensional motion, the path of an object can
-be represented with three vectors: one vector shows the straight-line path
-between the initial and final points of the motion, one vector shows the
-horizontal component of the motion, and one vector shows the vertical component
-of the motion. The horizontal and vertical components of the motion add together
-to give the straight-line path. For example, observe the three vectors
-in [Figure 4](#fig4). The first represents a 9-block
-displacement east. The second represents a 5-block displacement north. These
-vectors are added to give the third vector, with a 10.3-block total
-displacement. The third vector is the straight-line path between the two points.
-Note that in this example, the vectors that we are adding are perpendicular to
-each other and thus form a right triangle. This means that we can use the
-Pythagorean theorem to calculate the magnitude of the total displacement. (Note
-that we cannot use the Pythagorean theorem to add vectors that are not
-perpendicular. We will develop techniques for adding vectors having any
-direction, not just those perpendicular to one another,
+and [Figure 4](#fig4). The arrow points in the same direction as the vector. For
+two-dimensional motion, the path of an object can be represented with three
+vectors: one vector shows the straight-line path between the initial and final
+points of the motion, one vector shows the horizontal component of the motion,
+and one vector shows the vertical component of the motion. The horizontal and
+vertical components of the motion add together to give the straight-line path.
+For example, observe the three vectors in [Figure 4](#fig4). The first
+represents a 9-block displacement east. The second represents a 5-block
+displacement north. These vectors are added to give the third vector, with a
+10.3-block total displacement. The third vector is the straight-line path
+between the two points. Note that in this example, the vectors that we are
+adding are perpendicular to each other and thus form a right triangle. This
+means that we can use the Pythagorean theorem to calculate the magnitude of the
+total displacement. (Note that we cannot use the Pythagorean theorem to add
+vectors that are not perpendicular. We will develop techniques for adding
+vectors having any direction, not just those perpendicular to one another,
 in [Vector Addition and Subtraction: Graphical Methods](../contents/ch3VectorAdditionAndSubtractionGraphicalMethods.md)
-and [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md).)
+and [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md)
+.)
 
 ### The Independence of Perpendicular Motions
 
 The person taking the path shown in [Figure 4](#fig4)
-walks east and then north (two perpendicular directions). How far they
-walk east is only affected by their motion eastward. Similarly, how far they
-walk north is only affected by their motion northward.
+walks east and then north (two perpendicular directions). How far they walk east
+is only affected by their motion eastward. Similarly, how far they walk north is
+only affected by their motion northward.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -127,8 +120,8 @@ directions. Resolving two-dimensional motion into perpendicular components is
 possible because the components are independent. We shall see how to resolve
 vectors
 in [Vector Addition and Subtraction: Graphical Methods](../contents/ch3VectorAdditionAndSubtractionGraphicalMethods.md)
-and [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md). We
-will find such techniques to be useful in many areas of physics.
+and [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md)
+. We will find such techniques to be useful in many areas of physics.
 
 <div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
@@ -148,16 +141,17 @@ Ladybug Motion 2D
 
 ### Summary
 
-* The shortest path between any two points is a
-  straight line. In two dimensions, this path can be represented by a vector
-  with horizontal and vertical components.
-* The horizontal and vertical components of a
-  vector are independent of one another. Motion in the horizontal direction does
-  not affect motion in the vertical direction, and vice versa.
+* The shortest path between any two points is a straight line. In two
+  dimensions, this path can be represented by a vector with horizontal and
+  vertical components.
+* The horizontal and vertical components of a vector are independent of one
+  another. Motion in the horizontal direction does not affect motion in the
+  vertical direction, and vice versa.
 
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 vector
