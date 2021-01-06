@@ -539,11 +539,11 @@ relative to the Earth. What was his average velocity relative to the air?
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 35.8 km $$, $$ 45^\circ $$ south of east
+(a) $$ 35.8 \text{km} $$, $$ 45^\circ $$ south of east
 
 (b) $$ 5.53 \ms $$, $$ 45^\circ $$ south of east
 
-(c) $$ 56.1 km $$, $$ 45^\circ $$ south of east
+(c) $$ 56.1\text{km} $$, $$ 45^\circ $$ south of east
 
 </div>
 </div>
@@ -604,7 +604,7 @@ is the initial velocity of the ball
 </div>
 </div>
 
-<div class="exercise" data-element-type="problems-exercises">
+<div class="exercise" id="exerciseShip" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A ship sets sail from Rotterdam, The Netherlands, heading due north at 7.00 m/s relative to the water. The local ocean current is 1.50 m/s in a direction $$ 40.0^\circ $$ north of east. What is the velocity of the ship relative to the Earth?
 
@@ -632,7 +632,8 @@ which is what was calculated.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) In what direction would the ship in [Exercise](#fs-id68) have to
+(a) In what direction would the ship in the previous [Exercise](#exerciseShip) 
+have to
 travel in order to have a velocity straight north relative to the Earth, assuming its speed relative to the water remains $$ 7.00 \ms $$ ?
 (b) What would its speed be relative to the Earth?
 
@@ -683,19 +684,22 @@ What is the velocity of the wind relative to the water?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-The great astronomer Edwin Hubble discovered that all distant galaxies are receding from our Milky Way Galaxy with velocities proportional to their distances. It appears to an observer on the Earth that we are at the center of an expanding universe. [Figure 8](#fig8) illustrates this for five galaxies lying along a straight line, with the Milky Way Galaxy at the center. Using the data from the figure, calculate the velocities:
+The great astronomer Edwin Hubble discovered that all distant galaxies are 
+receding from our Milky Way Galaxy with velocities proportional to their 
+distances. It appears to an observer on the Earth that we are at the center of an expanding universe. [Figure 9](#fig9) illustrates this for five galaxies lying along a straight line, with the Milky Way Galaxy at the center. Using the data from the figure, calculate the velocities:
 (a) relative to galaxy 2 and
 (b) relative to galaxy 5. The results mean that observers on all galaxies will see themselves at the center of the expanding universe, and they would likely be aware of relative velocities, concluding that it is not possible to locate the center of expansion with the given information.
 
 ![Five galaxies on a horizontal straight line are shown. The left most galaxy one has distance of three hundred millions of light years and it is moving towards left. The second and third galaxies in the figure have shown no velocities. The velocities of fourth and fifth galaxies are towards right.](../resources/Figure_03_05_07.jpg "Five galaxies on a straight line, showing their distances and velocities relative to the Milky Way (MW) Galaxy. The distances are in millions of light years (Mly), where a light year is the distance light travels in one year. The velocities are nearly proportional to the distances. The sizes of the galaxies are greatly exaggerated; an average galaxy is about 0.1 Mly across.")
-{: #fig8}
+{: #fig9}
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) Use the distance and velocity data in [Figure 8](#fig8) to find the rate of expansion as a function of distance.
+(a) Use the distance and velocity data in [Figure 9](#fig9) to find the rate 
+of expansion as a function of distance.
 (b) If you extrapolate back in time, how long ago would all of the galaxies have
 been at approximately the same position? The two parts of this problem give you
 some idea of how the Hubble constant for universal expansion and the time back
@@ -735,12 +739,12 @@ Stream a few hundred kilometers off the east coast of the United States.)
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 An ice hockey player is moving at 8.00 m/s when he hits the puck toward the goal. The speed of the puck relative to the player is 29.0 m/s. The line between the center of the goal and the player makes a $$ 90.0^\circ $$
-angle relative to his path as shown in [Figure 9](#fig9). What
+angle relative to his path as shown in [Figure 10](#fig10). What
 angle must the puck’s velocity make relative to the player (in his frame of
 reference) to hit the center of the goal?
 
 ![An ice hockey player is moving across the rink with velocity v player towards north direction. The goal post is in east direction. To hit the goal the hockey player must hit with velocity of puck v puck making an angle theta with the horizontal axis so that its direction is towards south east.](../resources/Figure_03_05_08a.jpg "An ice hockey player moving across the rink must shoot backward to give the puck a velocity toward the goal.")
-{: #fig9}
+{: #fig10}
 
 </div>
 </div>
