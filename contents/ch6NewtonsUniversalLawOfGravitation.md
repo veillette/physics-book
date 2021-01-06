@@ -651,7 +651,6 @@ d) The gravitational force assumed to be exerted by the mountain is too great.
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 gravitational constant, *G*

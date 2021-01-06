@@ -89,7 +89,6 @@ What properties do forces have that allow us to classify them as vectors?
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 dynamics

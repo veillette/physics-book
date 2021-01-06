@@ -621,7 +621,6 @@ relative to those in [Figure 23](#fig23).
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 component (of a 2-d vector)

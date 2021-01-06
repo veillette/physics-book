@@ -112,7 +112,6 @@ vector or a scalar quantity? Explain.
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 scalar

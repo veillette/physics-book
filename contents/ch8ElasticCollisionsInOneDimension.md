@@ -245,7 +245,6 @@ A 70.0-kg ice hockey goalie, originally at rest, catches a 0.150-kg hockey puck 
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 elastic collision

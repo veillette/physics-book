@@ -390,7 +390,6 @@ support his weight as well as that to accelerate him.)
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 renewable forms of energy

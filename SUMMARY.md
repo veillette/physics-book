@@ -9,8 +9,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
 </div>
 
 1. {: .preface} [Preface](contents/preface.md)
-2. {:
-   .chapter} [Introduction: The Nature of Science and Physics](contents/ch1IntroductionTheNatureOfScienceAndPhysics.md)
+2. {: .chapter} [Introduction: The Nature of Science and Physics](contents/ch1IntroductionTheNatureOfScienceAndPhysics.md)
     1. [Physics: An Introduction](contents/ch1PhysicsAnIntroduction.md)
     2. [Physical Quantities and Units](contents/ch1PhysicalQuantitiesAndUnits.md)
     3. [Accuracy, Precision, and Significant Figures](contents/ch1AccuracyPrecisionAndSignificantFigures.md)
@@ -26,16 +25,14 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     7. [Falling Objects](contents/ch2FallingObjects.md)
     8. [Graphical Analysis of One-Dimensional Motion](contents/ch2GraphicalAnalysisOfOneDimensionalMotion.md)
 
-4. {:
-   .chapter} [Two-Dimensional Kinematics](contents/ch3TwoDimensionalKinematics.md)
+4. {: .chapter} [Two-Dimensional Kinematics](contents/ch3TwoDimensionalKinematics.md)
     1. [Kinematics in Two Dimensions: An Introduction](contents/ch3KinematicsInTwoDimensionsAnIntroduction.md)
     2. [Vector Addition and Subtraction: Graphical Methods](contents/ch3VectorAdditionAndSubtractionGraphicalMethods.md)
     3. [Vector Addition and Subtraction: Analytical Methods](contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md)
     4. [Projectile Motion](contents/ch3ProjectileMotion.md)
     5. [Addition of Velocities](contents/ch3AdditionOfVelocities.md)
 
-5. {:
-   .chapter} [Dynamics: Force and Newton\'s Laws of Motion](contents/ch4Dynamics.md)
+5. {: .chapter} [Dynamics: Force and Newton\'s Laws of Motion](contents/ch4Dynamics.md)
     1. [Development of Force Concept](contents/ch4DevelopmentOfForceConcept.md)
     2. [Newton’s First Law of Motion: Inertia](contents/ch4NewtonsFirstLawOfMotion.md)
     3. [Newton’s Second Law of Motion: Concept of a System](contents/ch4NewtonsSecondLawOfMotion.md)
@@ -45,14 +42,12 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     7. [Further Applications of Newton’s Laws of Motion](contents/ch4FurtherApplicationsOfNewtonsLawsOfMotion.md)
     8. [Extended Topic: The Four Basic Forces—An Introduction](contents/ch4ExtendedTopics.md)
 
-6. {:
-   .chapter} [Further Applications of Newton\'s Laws: Friction, Drag, and Elasticity](contents/ch5FurtherApplicationsOfNewtonsLaws.md)
+6. {: .chapter} [Further Applications of Newton\'s Laws: Friction, Drag, and Elasticity](contents/ch5FurtherApplicationsOfNewtonsLaws.md)
     1. [Friction](contents/ch5Friction.md)
     2. [Drag Forces](contents/ch5DragForces.md)
     3. [Elasticity: Stress and Strain](contents/ch5Elasticity.md)
 
-7. {:
-   .chapter} [Uniform Circular Motion and Gravitation](contents/ch6UniformCircularMotionAndGravitation.md)
+7. {: .chapter} [Uniform Circular Motion and Gravitation](contents/ch6UniformCircularMotionAndGravitation.md)
     1. [Rotation Angle and Angular Velocity](contents/ch6RotationAngleAndAngularVelocity.md)
     2. [Centripetal Acceleration](contents/ch6CentripetalAcceleration.md)
     3. [Centripetal Force](contents/ch6CentripetalForce.md)
@@ -60,8 +55,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     5. [Newton’s Universal Law of Gravitation](contents/ch6NewtonsUniversalLawOfGravitation.md)
     6. [Satellites and Kepler’s Laws: An Argument for Simplicity](contents/ch6SatellitesAndKeplersLaws.md)
 
-8. {:
-   .chapter} [Work, Energy, and Energy Resources](contents/ch7WorkEnergyAndEnergyResources.md)
+8. {: .chapter} [Work, Energy, and Energy Resources](contents/ch7WorkEnergyAndEnergyResources.md)
     1. [Work: The Scientific Definition](contents/ch7WorkTheScientificDefinition.md)
     2. [Kinetic Energy and the Work-Energy Theorem](contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md)
     3. [Gravitational Potential Energy](contents/ch7GravitationalPotentialEnergy.md)
@@ -72,8 +66,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     8. [Work, Energy, and Power in Humans](contents/ch7WorkEnergyAndPowerInHumans.md)
     9. [World Energy Use](contents/ch7WorldEnergyUse.md)
 
-9. {:
-   .chapter} [Linear Momentum and Collisions](contents/ch8LinearMomentumAndCollisions.md)
+9. {: .chapter} [Linear Momentum and Collisions](contents/ch8LinearMomentumAndCollisions.md)
     1. [Linear Momentum and Force](contents/ch8LinearMomentumAndForce.md)
     2. [Impulse](contents/ch8Impulse.md)
     3. [Conservation of Momentum](contents/ch8ConservationOfMomentum.md)
@@ -90,8 +83,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     5. [Simple Machines](contents/ch9SimpleMachines.md)
     6. [Forces and Torques in Muscles and Joints](contents/ch9ForcesAndTorquesInMusclesAndJoints.md)
 
-11. {:
-    .chapter} [Rotational Motion and Angular Momentum](contents/ch10RotationalMotionAndAngularMomentum.md)
+11. {: .chapter} [Rotational Motion and Angular Momentum](contents/ch10RotationalMotionAndAngularMomentum.md)
     1. [Angular Acceleration](contents/ch10AngularAcceleration.md)
     2. [Kinematics of Rotational Motion](contents/ch10KinematicsOfRotationalMotion.md)
     3. [Dynamics of Rotational Motion: Rotational Inertia](contents/ch10DynamicsOfRotationalMotion.md)
@@ -102,5 +94,4 @@ This introductory, algebra-based, college physics book is grounded with real-wor
 
 
 12. {: .appendix} [Useful Information](contents/appAUsefulInformation.md)
-13. {:
-    .appendix} [Glossary of Key Symbols and Notation](contents/appBGlossaryOfKeySymbolsAndNotation.md)
+13. {: .appendix} [Glossary of Key Symbols and Notation](contents/appBGlossaryOfKeySymbolsAndNotation.md)

@@ -322,7 +322,6 @@ coefficient of friction between the sled and the snow is 0.100.
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 energy

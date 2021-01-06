@@ -792,7 +792,6 @@ straight down the runway.
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 classical relativity

@@ -481,7 +481,6 @@ top, ignoring friction.
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 centripetal acceleration

@@ -452,7 +452,6 @@ F_{\text{p}}&=& 686 \N
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 torque

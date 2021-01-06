@@ -382,7 +382,6 @@ Calculate its linear momentum.
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 linear momentum

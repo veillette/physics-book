@@ -248,7 +248,6 @@ Strategy for static equilibrium described above.
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 static equilibrium

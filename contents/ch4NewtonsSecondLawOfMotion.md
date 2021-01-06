@@ -718,7 +718,6 @@ from the Moon is 10 000 kg. The thrust of its engines is 30 000 N.
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 acceleration

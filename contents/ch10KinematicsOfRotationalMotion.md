@@ -506,7 +506,6 @@ c) 21.0 m/s
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 kinematics of rotational motion

@@ -665,7 +665,6 @@ solve each part. The masses of the cords are negligible.
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 inertial frame of reference

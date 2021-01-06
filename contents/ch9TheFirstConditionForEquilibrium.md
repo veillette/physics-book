@@ -98,7 +98,6 @@ Under what conditions can a rotating body be in equilibrium? Give an example.
 <div class="glossary" markdown="1">
 
 ### Glossary
-
 {: class="glossary-title"}
 
 static equilibrium
