@@ -169,7 +169,6 @@ over the time interval plotted.")
 {: #fig3}
 
 ![](../resources/Figure_02_07_03a.jpg "A U.S. Air Force jet car speeds down a track. (credit: Matt Trostle, Flickr)")
-
 {: #fig4}
 
 The graph of position versus time in [Figure 3](#fig3)(a) is a

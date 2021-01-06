@@ -133,7 +133,8 @@ in the Problem-Solving Strategy for Newton’s laws of motion.
 
 </div>
 <div class="solution" markdown="1">
-![An object of mass m is shown. Three forces acting on it are tension T, shown by an arrow acting vertically upward, and friction f and gravity m g, shown by two arrows acting vertically downward.](../resources/Figure_04_06_02.jpg){: #fig2 height="150"}
+![An object of mass m is shown. Three forces acting on it are tension T, shown by an arrow acting vertically upward, and friction f and gravity m g, shown by two arrows acting vertically downward.](../resources/Figure_04_06_02.jpg)
+{: #fig2 height="150"}
 
 Using the free-body diagram:
 
@@ -167,17 +168,18 @@ Calculate the force a 70.0-kg high jumper must exert on the ground to produce an
 </div>
 <div class="solution" markdown="1">
 
-1. Use Newton’s laws of motion. ![Two forces are acting on an object of mass m: F, shown by an arrow pointing upward, and its weight w, shown by an arrow pointing downward. Acceleration a is represented by a vector arrow pointing upward. The figure depicts the forces acting on a high jumper.](../resources/Figure_04_06_03.jpg){: #fig3 height="150"}
+1. Use Newton’s laws of motion. ![Two forces are acting on an object of mass m: F, shown by an arrow pointing upward, and its weight w, shown by an arrow pointing downward. Acceleration a is represented by a vector arrow pointing upward. The figure depicts the forces acting on a high jumper.](../resources/Figure_04_06_03.jpg)
+   {: #fig3 height="150"}
 
 2. Given :
  $$ a=4.00g=\left(4.00\right)\left(9.80 \mss \right)
    =39.2\mss $$; $$ m=70.0 \kg $$, Find: $$ F $$.
 
-3. $$ \sum F = +F - w = m a $$,  so that $$ F=ma +w=ma +mg =m\left(
-   a+g\right) $$. $$ F=\left(70.0 \kg \right) 
-   \left\[ \left(39.2 \mss \right)
-   +\left(9.80 \mss \right) \right\] =3.43\times 10^{3}\N $$. The force 
-   exerted by the high-jumper is actually down on the ground, but
+3. $$ \sum F = +F - w = m a $$,  so that 
+   $$ F=ma +w=ma +mg =m\left(a+g\right) $$. 
+   $$ F=\left(70.0 \kg \right) \left[ \left(39.2 \mss \right) +\left(9.80 \mss \right) \right] =3.43\times 10^{3}
+   \N $$.
+   The force exerted by the high-jumper is actually down on the ground, but
  $$ F $$ is up from the ground and makes him jump.
 
 4. This result is reasonable, since it is quite possible for a person to exert a
@@ -254,7 +256,7 @@ experienced by the boat and trailer?
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) Find the magnitudes of the forces $$ \vb{F}_{1} $$ and $$ \vb{F}_{2} $$ that add to give the total force $$ \vb{F}_{\text{tot}} $$
-shown in [Figure 4](#fig4). This may be done either graphically
+shown in [Figure](#fig4) below. This may be done either graphically
 or by using trigonometry.
 (b) Show graphically that the same total force is
 obtained independent of the order of addition of $$ \vb{F}_{1} $$
@@ -272,7 +274,7 @@ $$ \vb{F}_{\text{tot}} $$. Draw these to scale on the same drawing used in part 
 <div class="problem" markdown="1">
 Two children pull a third child on a snow saucer sled exerting forces $$ \vb{F}_{1} $$
 and $$ \vb{F}_{2} $$ as shown from above
-in [Figure 5](#fig5). Find the acceleration of the 49.00-kg sled
+in [Figure](#fig5) below. Find the acceleration of the 49.00-kg sled
 and child system. Note that the direction of the frictional force is
 unspecified; it will be in the opposite direction of the sum of $$
 \vb{F}_{1} $$ and $$ \vb{F}_{2} $$.
@@ -289,9 +291,12 @@ unspecified; it will be in the opposite direction of the sum of $$
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Suppose your car was mired deeply in the mud and you wanted to use the method illustrated in [Figure 6](#fig6) to pull it out.
-(a) What force would you have to exert perpendicular to the center of the rope to produce a force of 12 000 N on the car if the angle is 2.00°? In this part, explicitly show how you follow the steps in the Problem-Solving Strategy for Newton’s laws of motion.
-(b) Real ropes stretch under such forces. What force would be exerted on the car if the angle increases to 7.00° and you still apply the force found in part (a) to its center?
+Suppose your car was mired deeply in the mud and you wanted to use the method illustrated in the [Figure](#fig6) 
+below to pull it out.
+(a) What force would you have to exert perpendicular to the center of the rope to produce a force of 12 000 N on the
+car if the angle is 2.00°? In this part, explicitly show how you follow the steps in the Problem-Solving Strategy for Newton’s laws of motion.
+(b) Real ropes stretch under such forces. What force would be exerted on the car if the angle increases to 7.00° and
+you still apply the force found in part (a) to its center?
 
 </div>
 </div>
@@ -300,7 +305,7 @@ Suppose your car was mired deeply in the mud and you wanted to use the method il
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What force is exerted on the tooth in [Figure 8](#fig8) if the tension 
+What force is exerted on the tooth in the [Figure](#fig8) below if the tension 
 in the wire is 25.0 N? Note that the force applied to the tooth is smaller than the tension in the wire, 
 but this is necessitated by practical considerations of how force can be applied in the mouth. 
 Explicitly show how you follow steps in the Problem-Solving Strategy for Newton’s laws of motion.
@@ -310,7 +315,8 @@ Explicitly show how you follow steps in the Problem-Solving Strategy for Newton�
 
 1.  Use Newton’s laws since we are looking for forces.
 
-2.  Draw a free-body diagram: ![A horizontal dotted line with two vectors extending downward from the mid-point of the dotted line, both at angles of fifteen degrees. A third vector points straight downward from the intersection of the first two angles, bisecting them; it is perpendicular to the dotted line.](../resources/Figure_04_06_06.jpg){: #fig7}
+2.  Draw a free-body diagram: ![A horizontal dotted line with two vectors extending downward from the mid-point of the dotted line, both at angles of fifteen degrees. A third vector points straight downward from the intersection of the first two angles, bisecting them; it is perpendicular to the dotted line.](../resources/Figure_04_06_06.jpg)
+    {: #fig7}
 
 3. The tension is given as $$ T=25.0 \N $$.  Find $$ F_
    {\text{app}}$$. Using Newton’s laws gives:
@@ -331,7 +337,9 @@ Explicitly show how you follow steps in the Problem-Solving Strategy for Newton�
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-[Figure 9](#fig9) shows Superhero and Trusty Sidekick hanging motionless from a rope. Superhero’s mass is 90.0 kg, while Trusty Sidekick’s is 55.0 kg, and the mass of the rope is negligible.
+The [Figure](#fig9) below shows Superhero and Trusty Sidekick hanging motionless from a rope. Superhero’s mass is 90.0 
+kg, 
+while Trusty Sidekick’s is 55.0 kg, and the mass of the rope is negligible.
 (a) Draw a free-body diagram of the situation showing all forces acting on Superhero, Trusty Sidekick, and the rope.
 (b) Find the tension in the rope above Superhero.
 (c) Find the tension in the rope between Superhero and Trusty Sidekick. Indicate on your free-body diagram the system of interest used to solve each part.
@@ -385,7 +393,7 @@ the masses of the toboggan and children.
 
 **Unreasonable Results**
 
- (a) Repeat [Exercise](#exercise), but assume an acceleration of $$ 1.20 \mss $$ is produced.
+ (a) Repeat [Exercise 7](#exercise), but assume an acceleration of $$ 1.20 \mss $$ is produced.
  (b) What is unreasonable about the result?
  (c) Which premise is unreasonable, and why is it unreasonable?
 
@@ -397,10 +405,9 @@ the masses of the toboggan and children.
 
 **Unreasonable Results**
 
-(a) What is the initial acceleration of a rocket that has a mass of $$ 1.50 \times 10^{6}\kg $$ at takeoff, the engines of which produce a thrust of $$ 2.00 \times
-10^{6}\N $$ ? Do not neglect gravity.
-(b) What is unreasonable about the
-result? (This result has been unintentionally achieved by several real
+(a) What is the initial acceleration of a rocket that has a mass of $$ 1.50 \times 10^{6}\kg $$ at takeoff, 
+the engines of which produce a thrust of $$ 2.00 \times 10^{6}\N $$ ? Do not neglect gravity.
+(b) What is unreasonable about the result? (This result has been unintentionally achieved by several real
 rockets.)
 (c) Which premise is unreasonable, or which premises are
 inconsistent? (You may find it useful to compare this problem to the rocket

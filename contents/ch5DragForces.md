@@ -528,14 +528,11 @@ object; mathematically
   <div class="equation">
  $$ F_{\text{D}}=\frac{1}{2} C\rho Av^{2}, $$
   </div>
-
 where $$ C $$ is the drag coefficient, $$ A $$ is the area of the object facing
 the fluid, and $$ \rho $$ is the density of the fluid
-{: #fig5}
 
 Stokes’ law
 : $$ F_{s}=6 \pi r \eta v $$, where $$ r $$ is the radius of the object, $$ \eta
 $$ is the viscosity of the fluid, and $$ v $$ is the object’s velocity
-{: #fig6}
 
 </div>

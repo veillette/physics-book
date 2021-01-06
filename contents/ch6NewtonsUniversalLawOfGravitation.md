@@ -156,7 +156,7 @@ Earth, then the acceleration due to gravity should equal the centripetal
 acceleration of the Moon in its orbit. Newton found that the two accelerations
 agreed “pretty nearly.”
 
-<div class="example" markdown="1">
+<div class="example" id="example1" markdown="1">
 <div class="title">
 Earth’s Gravitational Force Is the Centripetal Force Making the Moon Move in a Curved Path
 </div>
@@ -550,7 +550,7 @@ the core of the system.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Solve part (b) of [Exercise](#fs-id63) using $$ \ac ={v}^{2}/r $$.
+Solve part (b) of [Example 1](#example1) using $$ \ac =v^2/r $$.
 
 </div>
 </div>

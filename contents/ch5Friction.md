@@ -213,7 +213,7 @@ the surface between the transducer and the skin—thereby reducing the coefficie
 of friction between the two surfaces. This allows the transducer to move freely
 over the skin.
 
-<div class="example" markdown="1">
+<div class="example" id="example1" markdown="1">
 <div class="title">
 Skiing Exercise
 </div>
@@ -298,7 +298,7 @@ Take-Home Experiment
 </div>
 An object will slide down an inclined plane at a constant velocity if the net force on the object
 is zero. We can use this fact to measure the coefficient of kinetic friction between two objects.
-As shown in [Exercise](#fs-id28), the kinetic friction force on a slope
+As shown in [Example 1](#example1), the kinetic friction force on a slope
 $$ f_{\text{k}}=\mu_{\text{k}}mg \cos{\theta} $$.
 The component of the weight down the slope is equal to $$ mg \sin{\theta} $$
 (see the free-body diagram in [Figure 3](#fig3)). These
@@ -381,6 +381,7 @@ Forces and Motion
 </figcaption>
 <iframe loading="lazy" src="https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_en.html" width="600" height="450"  allowfullscreen></iframe>
 </figure>
+{: #fig6}
 </div>
 
 ### Section Summary
@@ -520,7 +521,7 @@ A team of eight dogs pulls a sled with waxed wood runners on wet snow (mush!). T
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Consider the 65.0-kg ice skater being pushed by two others shown in [Figure 6](#fig6).
+Consider the 65.0-kg ice skater being pushed by two others shown in [Figure 7](#fig7).
 (a) Find the direction and magnitude of $$ \vb{F}_{\text{tot}} $$,
 the total force exerted on her by the others, given that the magnitudes $$
 F_{1} $$ and $$ F_{2} $$ are 26.4 N and 18.6 N, respectively.
@@ -532,8 +533,14 @@ of $$ \vb{F}_{\text{tot}} $$?
 (Remember that friction always acts in the direction opposite that of motion
 or attempted motion between surfaces in contact.)
 
-![(a) Overhead view of two ice skaters pushing on a third. One skater pushes with a force F two, represented by an arrow pointing up, and a second skater pushes with a force F one, represented by an arrow pointing from left to right. Vector F one and vector F two are along the arms of the two skaters acting on the third skater. A vector diagram is shown in the form of a right triangle in which the base is vector F one pointing east, and perpendicular to F one is vector F two pointing north. The resultant vector is shown by the hypotenuse pointing northeast. (b) Free-body diagram showing only the forces acting on the skater.](../resources/Figure 04_01_01a.jpg)
-{: #fig6}
+![(a) Overhead view of two ice skaters pushing on a third. One skater pushes with a force F two, represented by an 
+arrow pointing up, and a second skater pushes with a force F one, represented by an arrow pointing from left to 
+right. Vector F one and vector F two are along the arms of the two skaters acting on the third skater. A vector 
+diagram is shown in the form of a right triangle in which the base is vector F one pointing east, and perpendicular 
+to F one is vector F two pointing north. The resultant vector is shown by the hypotenuse pointing northeast. (b) 
+Free-body diagram showing only the forces acting on the skater.](../resources/Figure 04_01_01a.jpg " (a) Overhead 
+view of two ice skaters pushing on a third. (b) Free-body diagram") 
+{: #fig7}
 
 </div>
 </div>
@@ -561,7 +568,7 @@ in the previous problem when friction becomes negligibly small $$ \left(
 <div class="problem" markdown="1">
 Calculate the deceleration of a snow boarder going up a $$ 5.0^\circ $$, slope
 assuming the coefficient of friction for waxed wood on wet snow. The
-result of [Exercise](#fs-id14) may be useful, but be careful to consider the
+result of [Example 1](#example1) may be useful, but be careful to consider the
 fact that the snow boarder is going uphill. Explicitly show how you follow the
 steps in [Problem-Solving Strategies](../contents/ch4ProblemSolvingStrategies.md).
 
@@ -578,7 +585,7 @@ steps in [Problem-Solving Strategies](../contents/ch4ProblemSolvingStrategies.md
 slope, assuming the coefficient of friction for waxed wood on wet snow.
 (b) Find the angle of the slope down which this skier could coast at a constant velocity.
 You can neglect air resistance in both parts, and you will find the result
-of [Exercise](#fs-id14) to be useful. Explicitly show how you follow the
+of [Example 1](#example1) to be useful. Explicitly show how you follow the
 steps in the [Problem-Solving Strategies](../contents/ch4ProblemSolvingStrategies.md).
 
 </div>
@@ -629,7 +636,7 @@ slip during the acceleration. (Ignore rolling.)
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Repeat [Exercise](#fs-id33) for a car with four-wheel drive.
+Repeat the previous exercise for a car with four-wheel drive.
 
 </div>
 </div>
@@ -658,7 +665,7 @@ mass and that friction is evenly distributed among all of the cars and engines?
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Consider the 52.0-kg mountain climber in [Exercise](#fs-id43).
+Consider the 52.0-kg mountain climber in [Figure 8](#fig8).
 (a) Find the tension in the rope and the force that the mountain climber must
 exert with her feet on the vertical rock face to remain stationary. Assume that
 the force is exerted parallel to her legs. Also, assume negligible force exerted
@@ -667,13 +674,14 @@ by her arms.
 and the cliff?
 
 ![A mountain climber with a mass of fifty two kilograms exerts force with her feet parallel to her legs on a vertical rock face to remain stationary. The angle between her legs and the rock face is fifteen degrees, whereas the angle between the rope and the cliff is thirty one degrees.](../resources/Figure_06_01_06a.jpg "Part of the climber&#x2019;s weight is supported by her rope and part by friction between her feet and the rock face.")
+{: #fig8}
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-A contestant in a winter sporting event pushes a 45.0-kg block of ice across a frozen lake as shown in [Figure 7](#fig7)(a).
+A contestant in a winter sporting event pushes a 45.0-kg block of ice across a frozen lake as shown in [Figure 9](#fig9)(a).
 (a) Calculate the minimum force $$ F $$ he must exert to get the block moving.
 (b) What is the magnitude of its acceleration once it starts to move, if that force is maintained?
 
@@ -685,12 +693,14 @@ A contestant in a winter sporting event pushes a 45.0-kg block of ice across a f
 </div>
 </div>
 
+![(a) A block of ice is being pushed by a contestant in a winter sporting event across a frozen lake at an angle of twenty five degrees. (b) A block of ice is being pulled by a contestant in a winter sporting event across a frozen lake at an angle of twenty five degrees.](../resources/Figure_06_01_07a.jpg "Which method of sliding a block of ice requires less force&#x2014;(a) pushing or (b) pulling at the same angle above the horizontal?")
+{: #fig9 height="304"}
+
+
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Repeat [Exercise](#fs-id45) with the contestant pulling the block of ice with a rope over his shoulder at the same angle above the horizontal as shown in [Figure 6](#fig6)(b).
-
-![(a) A block of ice is being pushed by a contestant in a winter sporting event across a frozen lake at an angle of twenty five degrees. (b) A block of ice is being pulled by a contestant in a winter sporting event across a frozen lake at an angle of twenty five degrees.](../resources/Figure_06_01_07a.jpg "Which method of sliding a block of ice requires less force&#x2014;(a) pushing or (b) pulling at the same angle above the horizontal?")
-{: #fig7 height="304"}
+Repeat the previous exercise with the contestant pulling the block of ice with a rope over his shoulder at the same
+angle above the horizontal as shown in [Figure 9](#fig9)(b).
 
 </div>
 </div>

@@ -174,8 +174,8 @@ to stop a truck, with its large mechanical energy, than to stop a mosquito.
 <div class="title">
 Calculating Distance Traveled: Sliding Up an Incline
 </div>
-Suppose that the player from [Exercise](#fs-id40) is running up a hill having
-a $$ 5.00^\circ $$ incline upward with a surface similar to that in the baseball stadium. The
+Suppose that the player from the previous example is running up a hill having
+a $$ 5.00^\circ $$ incline upward with a surface similar to that in the baseball stadium (see [Figure 5](#fig5)). The
 player slides with the same initial speed, and the frictional force is still 450
 N. Determine how far he slides.
 
@@ -246,7 +246,7 @@ This experiment involves the conversion of gravitational potential energy into
 thermal energy. Use the ruler, book, and marble
 from [Take-Home Investigation—Converting Potential to Kinetic Energy](../contents/ch7GravitationalPotentialEnergy.md#takeHome).
 In addition, you will need a foam cup with a small hole in the side,
-as shown in [Exercise](#fs-id18). From the 10-cm position on the ruler,
+as shown in [Figure 6](#fig6). From the 10-cm position on the ruler,
 let the marble roll into the cup positioned at the bottom of the ruler.
 Measure the distance $$ d $$ the cup moves before stopping.
 What forces caused it to stop? What happened to
@@ -270,7 +270,7 @@ the marble at the bottom of the ruler? Is the distance the cup moves
 proportional to the mass of the steel and glass marbles?
 
 ![A marble is rolling down a makeshift ramp consisting of a small wooden ruler propped up on one end at about a thirty degree angle. At the bottom of the ramp is a foam drinking cup standing upside-down on its lip. A hole is cut out on one side of the cup so that the marble will roll through the hole when it reaches the bottom of the ramp.](../resources/Figure_08_05_06a.jpg "Rolling a marble down a ruler into a foam cup.")
-{: height="150"}
+{: #fig6 height="150"}
 
 </div>
 
@@ -287,8 +287,8 @@ cabinet. Graphs show forces, energy and work.
 <figcaption>
 The Ramp
 </figcaption>
-
 </figure>
+{: #fig7}
 </div>
 
 ### Section Summary
@@ -312,10 +312,13 @@ The Ramp
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A 60.0-kg skier with an initial speed of 12.0 m/s coasts up a 2.50-m-high rise as shown in [Figure 6](#fig6). Find her final speed at the top, given that the coefficient of friction between her skis and the snow is 0.0800. (Hint: Find the distance traveled up the incline assuming a straight-line path as shown in the figure.)
+A 60.0-kg skier with an initial speed of 12.0 m/s coasts up a 2.50-m-high rise as shown 
+in [Figure 8](#fig8). Find her final speed at the top, given that the coefficient of friction
+between her skis and the snow is 0.0800. (Hint: Find the distance traveled up the incline
+assuming a straight-line path as shown in the figure.)
 
 ![A skier is about to go up an inclined slope with some initial speed v sub i shown by an arrow towards right. The slope makes a thirty-five-degree with the horizontal. The height of the point where the slope ends from the skiers&#x2019; starting position is two point five meters. Final speed of the skier at the end of the inclined slope is unknown.](../resources/Figure_08_05_07a.jpg "The skier&#x2019;s initial kinetic energy is partially used in coasting to the top of a rise.")
-{: #fig6}
+{: #fig8}
 
 </div>
 <div class="solution" markdown="1">
