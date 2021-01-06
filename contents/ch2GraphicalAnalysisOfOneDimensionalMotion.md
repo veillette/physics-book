@@ -525,7 +525,8 @@ in [Figure 20](#fig20).
 {: #fig20}
 
 ![Line graph of velocity over time.](../resources/Figure_02_08Sol_18.jpg){:
-#fig21}
+
+# fig21}
 
 </div>
 </div>

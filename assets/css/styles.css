@@ -129,12 +129,12 @@ h6:hover .header-link {
 }
 
 .equation::after {
-  /*  content: 'Eq.( ' counter(equation) ')'; */
+    /*  content: 'Eq.( ' counter(equation) ')'; */
 }
 
-.equation{
+.equation {
     counter-increment: equation;
-   /*  text-align: right; */
+    /*  text-align: right; */
 }
 
 .note {
@@ -508,6 +508,6 @@ h6:hover .header-link {
 }
 
 iframe {
-    display:block;
-    width:100%;  /* fit iframe to div */
+    display: block;
+    width: 100%; /* fit iframe to div */
 }
