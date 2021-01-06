@@ -610,7 +610,7 @@ He goes from zero to the velocity found in part (a) in a distance of 0.300 m.
 <div class="problem" markdown="1">
 
 **Integrated Concepts**
- Repeat [Exercise](#fs-id18) for a shell fired at an angle $$ 10.0^\circ $$
+ Repeat the previous exercise for a shell fired at an angle $$ 10.0^\circ $$
 from the vertical.
 
 </div>

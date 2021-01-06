@@ -188,7 +188,7 @@ where the torque is
  $$ \text{net τ}=rF=\left(0.320 \m \right)\left(200 \N \right)=64.0 \N \cdot \m . $$
 </div>
 The formula for the moment of inertia for a disk is found
-in [Figure](../contents/ch10DynamicsOfRotationalMotion.md#figMomentOfInertia) :
+in [Figure](../contents/ch10DynamicsOfRotationalMotion.md#fig3) :
 
 <div class="equation">
  $$ I=\frac{1}{2} MR^{2}=0.5\left(85.0 \kg \right){\left(0.320 \m \right)}^{2}=4.352 \kg \cdot \mm. $$
@@ -298,7 +298,7 @@ is
  $$ \omega =\frac{300 \text{rev}}{1.00 \text{min}}\cdot \frac{2 \pi \text{rad}}{1 \text{rev}}\cdot \frac{1.00 \text{min}}{60.0 \s }=31.4\frac{ \text{rad}}{\s}. $$
 </div>
 The moment of inertia of one blade will be that of a thin rod rotated about its end,
-found in [Figure](../contents/ch10DynamicsOfRotationalMotion.md#figMomentOfInertia). The total $$ I $$
+found in [Figure](../contents/ch10DynamicsOfRotationalMotion.md#fig3). The total $$ I $$
 is four times this moment of inertia, because there are four blades. Thus,
 
 <div class="equation">
@@ -449,7 +449,7 @@ Conservation of energy for this situation is written as described above:
  $$ mgh =\frac{1}{2}m v^{2}+\frac{1}{2}I\omega^{2} . $$
 </div>
 Before we can solve for $$ v $$, we must get an expression for $$ I $$
-from [Figure](../contents/ch10DynamicsOfRotationalMotion.md#figMomentOfInertia). Because $$ v $$ and $$ \omega $$
+from [Figure](../contents/ch10DynamicsOfRotationalMotion.md#fig3). Because $$ v $$ and $$ \omega $$
 are related (note here that the cylinder is rolling without slipping), we must
 also substitute the relationship $$ \omega =v/R $$ into the expression. These
 substitutions yield

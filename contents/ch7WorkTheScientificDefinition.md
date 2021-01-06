@@ -255,12 +255,12 @@ moving at constant speed despite friction. (See [Figure](../contents/ch7Conserva
 <div class="problem" markdown="1">
 Calculate the work done by an 85.0-kg man who pushes a crate 4.00 m up along a
 ramp that makes an angle of $$ 20.0^\circ $$ with the horizontal.
-(See [Exercise](#fs-id40).) He exerts a force of 500 N
+(See [Figure 2](#fig2).) He exerts a force of 500 N
 on the crate parallel to the ramp and moves at a constant speed. Be certain to
 include the work he does on the crate *and* on his body to get up the ramp.
 
 ![A person is pushing a heavy crate up a ramp. The force vector F applied by the person is acting parallel to the ramp.](../resources/Figure_08_01_02a.jpg "A man pushes a crate up a ramp.")
-
+{: #fig2}
 </div>
 <div class="solution">
 <div class="equation">
@@ -272,10 +272,10 @@ include the work he does on the crate *and* on his body to get up the ramp.
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 How much work is done by the boy pulling his sister 30.0 m in a wagon as shown
-in [Figure 2](#fig2)? Assume no friction acts on the wagon.
+in [Figure 3](#fig3)? Assume no friction acts on the wagon.
 
 ![A child is sitting inside a wagon and being pulled by a boy with a force F at an angle thirty degrees upward from the horizontal. F is equal to fifty newtons, the displacement vector d is horizontal in the direction of motion. The magnitude of d is thirty meters.](../resources/Figure_08_01_03a.jpg "The boy does work on the system of the wagon and the child when he pulls them as shown. ")
-{: #fig2}
+{: #fig3}
 
 </div>
 </div>
@@ -309,7 +309,7 @@ below the horizontal.
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Suppose the ski patrol lowers a rescue sled and victim, having a total mass of
-90.0 kg, down a $$ 60.0^\circ $$ slope at constant speed, as shown in [Figure 3](#fig3). The
+90.0 kg, down a $$ 60.0^\circ $$ slope at constant speed, as shown in [Figure 4](#fig4). The
 coefficient of friction between the sled and the snow is 0.100.
 (a) How much work is done by friction as the sled moves 30.0 m along the hill?
 (b) How much work is done by the rope on the sled in this distance?
@@ -317,7 +317,7 @@ coefficient of friction between the sled and the snow is 0.100.
 (d) What is the total work done?
 
 ![A person on a rescue sled is shown being pulled up a slope. The slope makes an angle of sixty degrees from the horizontal. The weight of the person is shown by vector w acting vertically downward. The tension in the rope depicted by vector T is along the incline in the upward direction; vector f depicting frictional force is also acting in the same direction.](../resources/Figure_08_01_04a.jpg "A rescue sled and victim are lowered down a steep slope. ")
-{: #fig3}
+{: #fig4}
 
 </div>
 </div>

@@ -287,7 +287,7 @@ Now we substitute this expression for $$ \overline{v} $$ into the equation for d
 </div>
 </div>
 
-<div class="example" markdown="1">
+<div class="example" id="exampleDragster1" markdown="1">
 <div class="title">
 Calculating Displacement of an Accelerating Object: Dragsters
 </div>
@@ -351,13 +351,13 @@ What else can we learn by examining the equation $$ x=x_{0}+v_{0}t+\frac{1}{2}a
 t^{2} ? $$ We see that:
 
 * displacement depends on the square of the elapsed
-  time when acceleration is not zero. In [Exercise](#fs-id02), the
+  time when acceleration is not zero. In [Example 3](#exampleDragster1), the
   dragster covers only one fourth of the total distance in the first half of the
   elapsed time
 * if acceleration is zero, then the initial velocity
   equals average velocity ( $$ v_{0}=\overline{v} $$ ) and $$ x=x_{0}+v_{0}t+\frac{1}{2}a t^{2} $$ becomes $$ x=x_{0}+v_{0}t $$
 
-<div class="note" data-label="" markdown="1">
+<div class="note" id="exampleDragster2" data-label="" markdown="1">
 <div class="title">
 Solving for Final Velocity when Velocity Is Not Constant ( acceleration is non-zero )
 </div>
@@ -375,11 +375,13 @@ Substituting this and $$ \overline{v}=\frac{ v_{0}+v}{2} $$ into $$ x=x_{0}+\ove
 </div>
 </div>
 
-<div class="example" markdown="1">
+<div class="example" id="exampleDragster3" markdown="1">
 <div class="title">
 Calculating Final Velocity: Dragsters
 </div>
-Calculate the final velocity of the dragster in [Exercise](#fs-id02) without using information about time.
+Calculate the final velocity of the dragster in [Example 3](#exampleDragster1) 
+without 
+using information about time.
 
 **Strategy**
 
@@ -396,7 +398,7 @@ time information is required.
 
 1\. Identify the known values. We know that $$ v_{0}=0 $$, since the dragster
 starts from rest. Then we note that $$ x-x_{0}=402 \m $$
-(this was the answer in [Exercise](#fs-id02)). Finally, the average
+(this was the answer in [Example 3](#exampleDragster1)). Finally, the average
 acceleration was given to be $$ a=26.0 \mss $$.
 
 2\. Plug the knowns into the equation $$ v^{2}=v_{0}^{2}+2a\left(x-x_
@@ -1023,8 +1025,8 @@ the station?
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Dragsters can actually reach a top speed of 145 m/s in only 4.45 s—considerably
-less time than given in [Exercise](#fs-id02) and
-[Exercise](#fs-id76).
+less time than given in [Example 3](#exampleDragster1) and
+[Example 4](#exampleDragster2).
 (a) Calculate the average acceleration for such a dragster.
 (b) Find the final velocity of this dragster starting from rest and accelerating at the rate found in (a) for 402 m (a quarter mile) without using any information on time.
 (c) Why is the final velocity greater than that used to find the average acceleration? *Hint*: Consider whether the assumption of constant acceleration is valid for a dragster. If not, discuss whether the acceleration would be greater at the beginning or end of the run and what effect that would have on the final velocity.

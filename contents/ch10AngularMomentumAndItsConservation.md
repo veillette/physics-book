@@ -48,7 +48,7 @@ Calculating Angular Momentum of the Earth
 
 No information is given in the statement of the problem; so we must look up
 pertinent data before we can calculate $$ L=I \omega $$. First, according
-to [Figure](../contents/ch10DynamicsOfRotationalMotion.md#figMomentOfInertia), the formula for the moment of
+to [Figure](../contents/ch10DynamicsOfRotationalMotion.md#fig3), the formula for the moment of
 inertia of a sphere is
 
 <div class="equation">

@@ -201,9 +201,7 @@ A commuter train travels from Baltimore to Washington, DC, and back in 1 hour an
 
 </div>
 <div class="solution" markdown="1">
-(a) The average velocity of the train is zero because $$ x_{f}=x_{0} $$
-
-; the train ends up at the same place it starts.
+(a) The average velocity of the train is zero because $$ x_{f}=x_{0} $$; the train ends up at the same place it starts.
 
 (b) The average speed of the train is calculated below. Note that the train
 travels 40 miles one way and 40 miles back, for a total distance of 80 miles.

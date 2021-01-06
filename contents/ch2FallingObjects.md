@@ -94,7 +94,7 @@ Kinematic Equations for Objects in Free-Fall where Acceleration = -*g*
 </div>
 </div>
 
-<div class="example" markdown="1">
+<div class="example" id="example1" markdown="1">
 <div class="title">
 Calculating Position and Velocity of a Falling Object: A Rock Thrown Upward
 </div>
@@ -108,7 +108,11 @@ is thrown, neglecting the effects of air resistance.
 
 Draw a sketch.
 
-![Velocity vector arrow pointing up in the positive y direction, labeled v sub 0 equals thirteen point 0 meters per second. Acceleration vector arrow pointing down in the negative y direction, labeled a equals negative 9 point 8 meters per second squared.](../resources/Figure_02_07_00b.jpg)
+![Velocity vector arrow pointing up in the positive y direction, labeled v 
+sub 0 equals thirteen point 0 meters per second. Acceleration vector arrow 
+pointing down in the negative y direction, labeled a equals negative 9 point 
+8 meters per second squared.](../resources/Figure_02_07_00b.jpg 
+"Velocity and Acceleration Sketch")
 {: #fig2}
 
 We are asked to determine the position $$ y $$ at various times. It is
@@ -228,7 +232,11 @@ What happens if the person on the cliff throws the rock straight down, instead o
 
 Draw a sketch.
 
-![Velocity vector arrow pointing down in the negative y direction and labeled v sub zero equals negative thirteen point 0 meters per second. Acceleration vector arrow also pointing down in the negative y direction, labeled a equals negative 9 point 80 meters per second squared.](../resources/Figure_02_06_01a.jpg)
+![Velocity vector arrow pointing down in the negative y direction and 
+labeled v sub zero equals negative thirteen point 0 meters per second. 
+Acceleration vector arrow also pointing down in the negative y direction, 
+labeled a equals negative 9 point 80 meters per second squared.](..
+/resources/Figure_02_06_01a.jpg "Velocity and Accelerator Sketch")
 {: #fig4}
 
 Since up is positive, the final position of the rock will be negative because it
@@ -271,12 +279,12 @@ The negative root is chosen to indicate that the rock is still heading down. Thu
 
 Note that *this is exactly the same velocity the rock had at this position when
 it was thrown straight upward with the same initial speed*. (
-See [Exercise](#fs-id58) and [Figure 5](#fig5)(a).) This
+See [Example 1](#example1) and [Figure 5](#fig5)(a).) This
 is not a coincidental result. Because we only consider the acceleration due to
 gravity in this problem, the *speed* of a falling object depends only on its
 initial speed and its vertical position relative to the starting point. For
 example, if the velocity of the rock is calculated at a height of 8.10 m above
-the starting point (using the method from [Exercise](#fs-id58)) when the
+the starting point (using the method from [Example 1](#example1)) when the
 initial velocity is 13.0 m/s straight up, a result of $$ \pm 3.20 \ms $$
 is obtained. Here both signs are meaningful; the positive value occurs when the
 rock is at 8.10 m and heading up, and the negative value occurs when the rock is
@@ -286,7 +294,7 @@ direction.
 ![Two figures are shown. At left, a man standing on the edge of a cliff throws a rock straight up with an initial speed of thirteen meters per second. At right, the man throws the rock straight down with a speed of thirteen meters per second. In both figures, a line indicates the rock&#x2019;s trajectory. When the rock is thrown straight up, it has a speed of minus sixteen point four meters per second at minus five point one zero meters below the point where the man released the rock. When the rock is thrown straight down, the velocity is the same at this position.](../resources/Figure_02_06_00b.jpg "(a) A person throws a rock straight up, as explored in [link]. The arrows are velocity vectors at 0, 1.00, 2.00, and 3.00 s. (b) A person throws a rock straight down from a cliff with the same initial speed as before, as in [link]. Note that at the same distance below the point of release, the rock has the same velocity in both cases. ")
 {: #fig5}
 
-Another way to look at it is this: In [Exercise](#fs-id58), the rock is
+Another way to look at it is this: In [Example 1](#example1), the rock is
 thrown up with an initial velocity of $$ 13.0 \ms $$. It rises and then
 falls back down. When its position is $$ y=0 $$ on its way back down, its
 velocity is $$ -13.0 \ms $$. That is, it has the same speed on its way
@@ -384,7 +392,8 @@ y=y_{0}+v_{0}t+\frac{1}{2}a t^{2} $$ to solve for $$ t $$. Inserting $$ a=-g $$,
  $$ \begin{array}{lll}
 y&=& 0+0-\frac{1}{2}g t^{2} \\
 t^{2}&=& \frac{2y}{-g}\\
-t&=& \pm \sqrt{\frac{2y}{-g}}= \pm \sqrt{\frac{2\left(-30.0 \m \right)}{-9.80 \mss }^{2}}}= \pm \sqrt{6.12 \s  ^{2}}=2.47 \s \approx 2.5 \s
+t&=& \pm \sqrt{\frac{2y}{-g}}= \pm \sqrt{\frac{2\left(-30.0 \m \right)}{-9.
+80 \mss }}= \pm \sqrt{6.12 \s^{2}}=2.47 \s \approx 2.5 \s
 \end{array} $$
 </div>
 where we take the positive value as the physically relevant answer.

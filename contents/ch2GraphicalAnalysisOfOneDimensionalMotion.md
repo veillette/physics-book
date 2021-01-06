@@ -535,7 +535,7 @@ Line is straight with a positive slope.](../resources/Figure_02_08Sol_12.jpg)
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Using approximate values, calculate the slope of the curve
-in[Figure 16](#fig16) to verify that the velocity at $$ t=10.0 \s $$
+in [Figure 16](#fig16) to verify that the velocity at $$ t=10.0 \s $$
 is 0.208 m/s. Assume all values are known to 3 significant figures.
 
 ![Line graph of position versus time.
@@ -573,13 +573,14 @@ Line has a positive slope that decreases over time until the line flattens out.]
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Construct the position graph for the subway shuttle train as shown
-in [Figure](../contents/ch2Acceleration.md#import-auto-id2590556) (a). 
+in the [Acceleration module](../contents/ch2Acceleration.md) (a). 
 Your graph should show the position of the train, in kilometers, from t = 0 to 20 s.
-You will need to use the information on acceleration and velocity given in the examples
-for this figure.
+You will need to use the information on acceleration and velocity given in 
+the examples for this figure.
 
 </div>
 <div class="solution" markdown="1">
+
 ![Line graph of position versus time. Line begins with a slight positive slope. It then kinks to a much greater positive slope.](../resources/Figure_02_08Sol_15.jpg){: #fig18}
 </div>
 </div>
@@ -599,7 +600,7 @@ Line begins with a positive slope, then kinks downward with a negative slope, th
 It kinks back down again slightly, then back up again, and ends with a slightly less positive slope.](../resources/Figure02_08Sol_17.jpg)
 {: #fig20}
 
-![](../resources/Figure_02_08Sol_18.jpg){: #fig21}
+![Line graph of velocity over time.](../resources/Figure_02_08Sol_18.jpg){: #fig21}
 
 </div>
 </div>

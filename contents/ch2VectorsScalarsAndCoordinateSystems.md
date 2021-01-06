@@ -104,7 +104,7 @@ What has the student actually described? Explain.
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-What is the speed of the bird in [Exercise](#fs-id75)?
+What is the speed of the bird in the previous exercise?
 </div>
 </div>
 

@@ -70,7 +70,7 @@ where a force is used to accelerate an object in a direction parallel to its
 initial velocity. Such a situation occurs for the package on the roller belt
 conveyor system shown in [Figure 2](#fig2).
 
-![A package shown on a roller belt pushed with a force F towards the right shown by a vector F sub app equal to one hundred and twenty newtons. A vector w is in the downward direction starting from the bottom of the package and the reaction force N on the package is shown by the vector N pointing upwards at the bottom of the package. A frictional force vector of five point zero zero newtons acts on the package leftwards. The displacement d is shown by the vector pointing to the right with a value of zero point eight zero zero meters.](../resources/Figure_08_02_03a.jpg "A package on a roller belt is pushed horizontally through a distance &#10; &#10; d&#10; &#10;. ")
+![A package shown on a roller belt pushed with a force F towards the right shown by a vector F sub app equal to one hundred and twenty newtons. A vector w is in the downward direction starting from the bottom of the package and the reaction force N on the package is shown by the vector N pointing upwards at the bottom of the package. A frictional force vector of five point zero zero newtons acts on the package leftwards. The displacement d is shown by the vector pointing to the right with a value of zero point eight zero zero meters.](../resources/Figure_08_02_03a.jpg "A package on a roller belt is pushed horizontally through a distance \( d ). ")
 {: #fig2}
 
 The force of gravity and the normal force acting on the package are
@@ -88,7 +88,7 @@ Thus, as expected, the net force is parallel to the displacement, so that $$
 The effect of the net force $$ \vb{F}_{\text{net}} $$ is to accelerate the
 package from $$ v_{0} $$ to $$ v $$. The kinetic energy of the package
 increases, indicating that the net work done on the system is positive. (
-See [Exercise](#fs-id45).) By using Newton’s second law, and doing some
+See [Figure 2](#fig2).) By using Newton’s second law, and doing some
 algebra, we can reach an interesting conclusion. Substituting $$ F_
 {\text{net}}=ma $$ from Newton’s second law gives
 
@@ -282,7 +282,7 @@ calculated by either approach.
 
 </div>
 
-<div class="example" markdown="1">
+<div class="example" id="example3" markdown="1">
 <div class="title">
 Determining Speed from Work and Energy
 </div>
@@ -410,7 +410,7 @@ Work done on a system puts energy into it. Work done by a system removes energy 
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-When solving for speed in [Exercise](#fs-id36), we kept only the positive root. Why?
+When solving for speed in [Example 3](#example3), we kept only the positive root. Why?
 
 </div>
 </div>

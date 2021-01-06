@@ -574,7 +574,8 @@ speed of 4.0 cm/year.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) Refer to [Table 2](#table2) to determine the average distance between the Earth and the Sun.
+(a) Refer to [Table 3](#table3) to determine the average distance between 
+the Earth and the Sun.
 Then calculate the average speed of the Earth in its orbit in kilometers per second.
 (b) What is this in meters per second?
 
