@@ -396,7 +396,7 @@ to keep the door from moving? Assume friction is negligible.
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
 Use the second condition for equilibrium $$ \text{(net τ = 0)} $$ to calculate $$ F_{\text{p}} $$
-in [Figure](#fs-id51), employing any data given or solved for in part (a)
+in [Exercise](#fs-id51), employing any data given or solved for in part (a)
 of the example.
 
 </div>
@@ -404,7 +404,7 @@ of the example.
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Repeat the seesaw problem in [Figure](#fs-id51) with the center of mass of the seesaw 0.160 m to the left of the pivot (on the side of the lighter child) and assuming a mass of 12.0 kg for the seesaw. The other data given in the example remain unchanged. Explicitly show how you follow the steps in the Problem-Solving Strategy for static equilibrium.
+Repeat the seesaw problem in [Exercise](#fs-id51) with the center of mass of the seesaw 0.160 m to the left of the pivot (on the side of the lighter child) and assuming a mass of 12.0 kg for the seesaw. The other data given in the example remain unchanged. Explicitly show how you follow the steps in the Problem-Solving Strategy for static equilibrium.
 
 </div>
 <div class="solution" data-element-type="problem-exercises" markdown="1">
