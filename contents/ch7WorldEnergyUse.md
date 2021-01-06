@@ -225,12 +225,13 @@ reaches a level area, how long will it take him to reach a velocity of 10.0 m/s?
 </div>
 </div>
 
+
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 
 **Integrated Concepts**
 
-The 70.0-kg swimmer in [Figure](../contents/ch7WorkEnergyAndPowerInHumans.md#import-auto-id1412118) starts a
+The 70.0-kg swimmer in [Figure 6](#fig6) starts a
 race with an initial velocity of 1.25 m/s and exerts an average force of 80.0 N
 backward with his arms during each 1.80 m long stroke.
 (a) What is his initial acceleration if water resistance is 45.0 N?
@@ -238,6 +239,14 @@ backward with his arms during each 1.80 m long stroke.
 velocity of 2.50 m/s?
 (c) Discuss whether water resistance seems to increase
 linearly with velocity.
+
+
+![A person swimming and his arm motion in each stroke is represented. The arm action is shown by an arc starting
+from where his hand enters the surface of the water and ending at the point where his hand emerges from the water.
+The diameter of this arc made by the person&#x2019;s hand tip in one stroke is one point eight meters.](..
+/resources/Figure_08_08_06a.jpg "A person swimming with a stroke of 1.80m")
+{: #fig6}
+
 
 </div>
 <div class="solution" markdown="1">
@@ -335,7 +344,7 @@ metabolize fat at the rate of 0.500 kg in 2.00 h.
 (b) 38.8 kcal/min
 
 (c) This power output is higher than the highest value
-on [Figure](../contents/ch7WorkEnergyAndPowerInHumans.md#import-auto-id1921441), which is about 35
+on Table 2 of [Work Energy And Power In Humans](../contents/ch7WorkEnergyAndPowerInHumans.md), which is about 35
 kcal/min (corresponding to 2415 watts) for sprinting.
 
 (d) It would be impossible to maintain this power output for 2 hours (imagine
