@@ -14,18 +14,19 @@ layout: page
 What happens to the work done on a system? Energy is transferred into the
 system, but in what form? Does it remain in the system or move on? The answers
 depend on the situation. For example, if the lawn mower
-in [Figure](../contents/ch7WorkTheScientificDefinition.md#import-auto-id2495459)(a) is pushed just hard
-enough to keep it going at a constant speed, then energy put into the mower by
-the person is removed continuously by friction, and eventually leaves the system
-in the form of heat transfer. In contrast, work done on the briefcase by the
-person carrying it up stairs
-in [Figure](../contents/ch7WorkTheScientificDefinition.md#import-auto-id2495459)(d) is stored in the
-briefcase-Earth system and can be recovered at any time, as shown
-in [Figure](../contents/ch7WorkTheScientificDefinition.md#import-auto-id2495459)(e). In fact, the building
-of the pyramids in ancient Egypt is an example of storing energy in a system by
-doing work on the system. Some of the energy imparted to the stone blocks in
-lifting them during construction of the pyramids remains in the stone-Earth
-system and has the potential to do work.
+in [Figure](../contents/ch7WorkTheScientificDefinition.md#import-auto-id2495459)(
+a) is pushed just hard enough to keep it going at a constant speed, then energy
+put into the mower by the person is removed continuously by friction, and
+eventually leaves the system in the form of heat transfer. In contrast, work
+done on the briefcase by the person carrying it up stairs
+in [Figure](../contents/ch7WorkTheScientificDefinition.md#import-auto-id2495459)(
+d) is stored in the briefcase-Earth system and can be recovered at any time, as
+shown
+in [Figure](../contents/ch7WorkTheScientificDefinition.md#import-auto-id2495459)(
+e). In fact, the building of the pyramids in ancient Egypt is an example of
+storing energy in a system by doing work on the system. Some of the energy
+imparted to the stone blocks in lifting them during construction of the pyramids
+remains in the stone-Earth system and has the potential to do work.
 
 In this section we begin the study of various types of work and forms of energy.
 We will find that some types of work leave the energy of a system constant, for
@@ -36,33 +37,31 @@ energy of motion.
 ### Net Work and the Work-Energy Theorem
 
 We know from the study of Newton’s laws
-in [Dynamics: Force and Newton\'s Laws of Motion](../contents/ch4Dynamics.md) that net
-force causes acceleration. We will see in this section that work done by the net
-force gives a system energy of motion, and in the process we will also find an
-expression for the energy of motion.
+in [Dynamics: Force and Newton\'s Laws of Motion](../contents/ch4Dynamics.md)
+that net force causes acceleration. We will see in this section that work done
+by the net force gives a system energy of motion, and in the process we will
+also find an expression for the energy of motion.
 
 Let us start by considering the total, or net, work done on a system. Net work
 is defined to be the sum of work done by all external forces—that is, **net
-work** is the work done by the net external force $$
-\vb{F}_{\text{net}} $$. In equation form, this is $$ W_{\text{net}}=F_
+work** is the work done by the net external force $$ \vb{F}_{\text{net}} $$. In
+equation form, this is $$ W_{\text{net}}=F_
 {\text{net}}d\cos{\theta} $$ where $$ \theta $$ is the angle between the force
 vector and the displacement vector.
 
-[Figure 1](#fig1)(a) shows a graph of force versus displacement
-for the component of the force in the direction of the displacement—that is, an
-$$ F\cos{\theta} $$ vs. $$ d $$ graph. In this case, $$ F\cos{\theta} $$ is
+[Figure 1](#fig1)(a) shows a graph of force versus displacement for the
+component of the force in the direction of the displacement—that is, an $$
+F\cos{\theta} $$ vs. $$ d $$ graph. In this case, $$ F\cos{\theta} $$ is
 constant. You can see that the area under the graph is $$ Fd\cos{\theta} $$, or
-the work done. [Figure 1](#fig1)(b) shows a more general
-process where the force varies. The area under the curve is divided into strips,
-each having an average force $$ \left(
-F\cos{\theta} \right)_{i\left(\text{ave}\right)} $$. The work done is $$
-\left(
-F\cos{\theta} \right)_{i\left(\text{ave}\right)}d_{i} $$ for each strip, and
-the total work done is the sum of the $$ W_{i} $$. Thus the total work done is
-the total area under the curve, a useful property to which we shall refer later.
+the work done. [Figure 1](#fig1)(b) shows a more general process where the force
+varies. The area under the curve is divided into strips, each having an average
+force $$ \left(
+F\cos{\theta} \right)_{i\left(\text{ave}\right)} $$. The work done is $$ \left(
+F\cos{\theta} \right)_{i\left(\text{ave}\right)}d_{i} $$ for each strip, and the
+total work done is the sum of the $$ W_{i} $$. Thus the total work done is the
+total area under the curve, a useful property to which we shall refer later.
 
-![Two drawings labeled a and b. (a) A graph of force component F cosine 
-theta versus distance d. d is along the x axis and F cosine theta is along the y axis. A line of length d is drawn parallel to the horizontal axis for some value of F cosine theta. Area under this line in the graph is shaded and is equal to F cosine theta multiplied by d. F d cosine theta is equal to work W. (b) A graph of force component F cosine theta versus distance d. d is along the x axis and F cosine theta is along the y axis. There is an inclined line and the area under it is divided into many thin vertical strips of width d sub i. The area of one vertical stripe is equal to average value of F cosine theta times d sub i which equals to work W sub i.](../resources/Figure_08_02_02a.jpg "(a) A graph of \( F\cos{ \theta} \) vs. \( d \) , when \( F \cos{ \theta} \) is constant. The area under the curve represents the work done by the force. (b) A graph of \( F \cos{ \theta} \) vs. \( d \)  in which the force varies. The work done for each interval is the area of each strip; thus, the total area under the curve equals the total work done.")
+![Two drawings labeled a and b. (a) A graph of force component F cosine theta versus distance d. d is along the x axis and F cosine theta is along the y axis. A line of length d is drawn parallel to the horizontal axis for some value of F cosine theta. Area under this line in the graph is shaded and is equal to F cosine theta multiplied by d. F d cosine theta is equal to work W. (b) A graph of force component F cosine theta versus distance d. d is along the x axis and F cosine theta is along the y axis. There is an inclined line and the area under it is divided into many thin vertical strips of width d sub i. The area of one vertical stripe is equal to average value of F cosine theta times d sub i which equals to work W sub i.](../resources/Figure_08_02_02a.jpg "(a) A graph of \( F\cos{ \theta} \) vs. \( d \) , when \( F \cos{ \theta} \) is constant. The area under the curve represents the work done by the force. (b) A graph of \( F \cos{ \theta} \) vs. \( d \) in which the force varies. The work done for each interval is the area of each strip; thus, the total area under the curve equals the total work done.")
 {: #fig1}
 
 Net work will be simpler to examine if we consider a one-dimensional situation
@@ -76,10 +75,10 @@ conveyor system shown in [Figure 2](#fig2).
 The force of gravity and the normal force acting on the package are
 perpendicular to the displacement and do no work. Moreover, they are also equal
 in magnitude and opposite in direction so they cancel in calculating the net
-force. The net force arises solely from the horizontal applied force $$
-\vb{F}_{\text{app}} $$ and the horizontal friction force $$ \vb{f} $$.
-Thus, as expected, the net force is parallel to the displacement, so that $$
-\theta =0^\circ $$ and $$ \cos{\theta} =1 $$, and the net work is given by
+force. The net force arises solely from the horizontal applied force $$ \vb{F}_
+{\text{app}} $$ and the horizontal friction force $$ \vb{f} $$. Thus, as
+expected, the net force is parallel to the displacement, so that $$ \theta
+=0^\circ $$ and $$ \cos{\theta} =1 $$, and the net work is given by
 
 <div class="equation">
  $$ W_{\text{net}}=F_{\text{net}}d. $$
@@ -88,8 +87,8 @@ Thus, as expected, the net force is parallel to the displacement, so that $$
 The effect of the net force $$ \vb{F}_{\text{net}} $$ is to accelerate the
 package from $$ v_{0} $$ to $$ v $$. The kinetic energy of the package
 increases, indicating that the net work done on the system is positive. (
-See [Figure 2](#fig2).) By using Newton’s second law, and doing some
-algebra, we can reach an interesting conclusion. Substituting $$ F_
+See [Figure 2](#fig2).) By using Newton’s second law, and doing some algebra, we
+can reach an interesting conclusion. Substituting $$ F_
 {\text{net}}=ma $$ from Newton’s second law gives
 
 <div class="equation">
@@ -115,11 +114,12 @@ The $$ d $$ cancels, and we rearrange this to obtain
  $$ W_{\text{net}}=\frac{1}{2}m v^{2}-\frac{1}{2} mv_{0}^{2}. $$
 </div>
 
-This expression is called the **work-energy theorem**, and it actually applies *in general* (even for forces
-that vary in direction and magnitude), although we have derived it for the
-special case of a constant force parallel to the displacement. The theorem
-implies that the net work on a system equals the change in the quantity $$
-\frac{1}{2}m v^{2} $$. This quantity is our first example of a form of energy.
+This expression is called the **work-energy theorem**, and it actually applies *
+in general* (even for forces that vary in direction and magnitude), although we
+have derived it for the special case of a constant force parallel to the
+displacement. The theorem implies that the net work on a system equals the
+change in the quantity $$ \frac{1}{2}m v^{2} $$. This quantity is our first
+example of a form of energy.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -133,7 +133,8 @@ The net work on a system equals the change in the quantity $$ \frac{1}{2}m v^{2}
 </div>
 
 The quantity $$ \frac{1}{2}m v^{2} $$ in the work-energy theorem is defined to
-be the translational **kinetic energy** (KE) of a mass $$ m $$ moving at a speed $$ v $$.
+be the translational **kinetic energy** (KE) of a mass $$ m $$ moving at a speed
+$$ v $$.
 (*Translational* kinetic energy is distinct from *rotational* kinetic energy,
 which is considered later.) In equation form, the translational kinetic energy,
 
@@ -146,12 +147,12 @@ energy associated with the motion of a particle, single body, or system of
 objects moving together.
 
 We are aware that it takes energy to get an object, like a car or the package
-in [Figure 2](#fig2), up to speed, but it may be a bit
-surprising that kinetic energy is proportional to speed squared. This
-proportionality means, for example, that a car traveling at 100 km/h has four
-times the kinetic energy it has at 50 km/h, helping to explain why high-speed
-collisions are so devastating. We will now consider a series of examples to
-illustrate various aspects of work and energy.
+in [Figure 2](#fig2), up to speed, but it may be a bit surprising that kinetic
+energy is proportional to speed squared. This proportionality means, for
+example, that a car traveling at 100 km/h has four times the kinetic energy it
+has at 50 km/h, helping to explain why high-speed collisions are so devastating.
+We will now consider a series of examples to illustrate various aspects of work
+and energy.
 
 <div class="example" markdown="1">
 <div class="title">
@@ -162,8 +163,8 @@ Suppose a 30.0-kg package on the roller belt conveyor system in [Figure 2](#fig2
 **Strategy**
 
 Because the mass $$ m $$ and speed $$ v $$ are given, the kinetic energy can be
-calculated from its definition as given in the equation $$
-\KE=\frac{1}{2}m v^{2} $$.
+calculated from its definition as given in the equation $$ \KE=\frac{1}{2}m
+v^{2} $$.
 
 **Solution**
 
@@ -208,13 +209,13 @@ This is a motion in one dimension problem, because the downward force (from the
 weight of the package) and the normal force have equal magnitude and opposite
 direction, so that they cancel in calculating the net force, while the applied
 force, friction, and the displacement are all horizontal. (
-See [Figure 2](#fig2).) As expected, the net work is the net
-force times distance.
+See [Figure 2](#fig2).) As expected, the net work is the net force times
+distance.
 
 **Solution for (a)**
 
 The net force is the push force minus friction, or $$ F_{\text{net}} = 120 N -
-5.00\N  = 115 \N $$. Thus the net work is
+5.00\N = 115 \N $$. Thus the net work is
 
 <div class="equation">
  $$ \begin{array}{lll}
@@ -352,8 +353,8 @@ displacement, so $$ \theta =180^\circ $$. To reduce the kinetic energy of the
 package to zero, the work $$ W_{\text{fr}} $$ by friction must be minus the
 kinetic energy that the package started with plus what the package accumulated
 due to the pushing. Thus $$ W_{\text{fr}}=-95.75 \J $$. Furthermore, $$ W_
-{\text{fr}}=fd^{\prime} \cos{\theta} = -fd^{\prime} $$, where $$
-d^{\prime} $$ is the distance it takes to stop. Thus,
+{\text{fr}}=fd^{\prime} \cos{\theta} = -fd^{\prime} $$, where $$ d^{\prime} $$
+is the distance it takes to stop. Thus,
 
 <div class="equation">
  $$ d^{\prime} =-\frac{ W_{\text{fr}}}{f}=-\frac{-95.75 \J }{5.00 \N }, $$
@@ -384,7 +385,7 @@ generally shorter and easier than those using kinematics and dynamics alone.
   an object.
 * Work done on an object transfers energy to the object.
 * The translational kinetic energy of an object of mass $$ m $$ moving at speed
- $$ v $$ is $$ \KE=\frac{1}{2}m v^{2} $$.
+  $$ v $$ is $$ \KE=\frac{1}{2}m v^{2} $$.
 * The work-energy theorem states that the net work $$ W_{\text{net}} $$ on a
   system changes its kinetic energy, $$ W_{\text{net}}=\frac{1}{2}m
   v^{2}-\frac{1}{2} mv_{0}^{2} $$.
@@ -395,10 +396,7 @@ generally shorter and easier than those using kinematics and dynamics alone.
 <div class="problem" markdown="1">
 The person in [Figure 3](#fig3) does work on the lawn mower. Under what conditions would the mower gain energy? Under what conditions would it lose energy?
 
-![A person pushing a lawn mower with a force F. Force is represented by a vector making an angle theta below the 
-horizontal and distance moved by the mover is represented by vector d. The component of vector F along vector d is F 
-cosine theta. Work done by the person, W, is equal to F d cosine theta.](../resources/Figure_08_02_04a.jpg "Person 
-ushing a lawn mower.")
+![A person pushing a lawn mower with a force F. Force is represented by a vector making an angle theta below the horizontal and distance moved by the mover is represented by vector d. The component of vector F along vector d is F cosine theta. Work done by the person, W, is equal to F d cosine theta.](../resources/Figure_08_02_04a.jpg "Person ushing a lawn mower.")
 {: #fig3}
 
 </div>
@@ -508,6 +506,7 @@ force of 30.0 N against him.
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 net work

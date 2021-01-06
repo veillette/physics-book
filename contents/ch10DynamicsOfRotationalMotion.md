@@ -11,17 +11,16 @@ layout: page
 </div>
 
 If you have ever spun a bike wheel or pushed a merry-go-round, you know that
-force is needed to change angular velocity as seen
-in [Figure 1](#fig1). In fact, your intuition is reliable in
-predicting many of the factors that are involved. For example, we know that a
-door opens slowly if we push too close to its hinges. Furthermore, we know that
-the more massive the door, the more slowly it opens. The first example implies
-that the farther the force is applied from the pivot, the greater the angular
-acceleration; another implication is that angular acceleration is inversely
-proportional to mass. These relationships should seem very similar to the
-familiar relationships among force, mass, and acceleration embodied in Newton’s
-second law of motion. There are, in fact, precise rotational analogs to both
-force and mass.
+force is needed to change angular velocity as seen in [Figure 1](#fig1). In
+fact, your intuition is reliable in predicting many of the factors that are
+involved. For example, we know that a door opens slowly if we push too close to
+its hinges. Furthermore, we know that the more massive the door, the more slowly
+it opens. The first example implies that the farther the force is applied from
+the pivot, the greater the angular acceleration; another implication is that
+angular acceleration is inversely proportional to mass. These relationships
+should seem very similar to the familiar relationships among force, mass, and
+acceleration embodied in Newton’s second law of motion. There are, in fact,
+precise rotational analogs to both force and mass.
 
 ![The given figure shows a bike tire being pulled by a hand with a force F backward indicated by a red horizontal arrow that produces an angular acceleration alpha indicated by a curved yellow arrow in counter-clockwise direction.](../resources/Figure_11_03_01a.jpg "Force is required to spin the bike wheel. The greater the force, the greater the angular acceleration produced. The more massive the wheel, the smaller the angular acceleration. If you push on a spoke closer to the axle, the angular acceleration will be smaller.")
 {: #fig1}
@@ -29,21 +28,20 @@ force and mass.
 To develop the precise relationship among force, mass, radius, and angular
 acceleration, consider what happens if we exert a force $$ F $$ on a point mass
 $$ m $$ that is at a distance $$ r $$ from a pivot point, as shown
-in [Figure 2](#fig2). Because the force is perpendicular to $$
-r $$, an acceleration $$ a=\frac{F}{m} $$ is obtained in the direction of $$ F
-$$. We can rearrange this equation such that $$ F=ma $$ and then look for ways
-to relate this expression to expressions for rotational quantities. We note that
-$$ a=r \alpha $$, and we substitute this expression into $$ F=ma $$, yielding
+in [Figure 2](#fig2). Because the force is perpendicular to $$ r $$, an
+acceleration $$ a=\frac{F}{m} $$ is obtained in the direction of $$ F $$. We can
+rearrange this equation such that $$ F=ma $$ and then look for ways to relate
+this expression to expressions for rotational quantities. We note that $$ a=r
+\alpha $$, and we substitute this expression into $$ F=ma $$, yielding
 
 <div class="equation">
  $$ F= m r \alpha . $$
 </div>
 
-Recall that **torque** is the turning
-effectiveness of a force. In this case, because $$ \vb{F} $$ is
-perpendicular to $$ r $$, torque is simply $$ \tau =F r $$. So, if we multiply
-both sides of the equation above by $$ r $$, we get torque on the left-hand
-side. That is,
+Recall that **torque** is the turning effectiveness of a force. In this case,
+because $$ \vb{F} $$ is perpendicular to $$ r $$, torque is simply $$ \tau =F r
+$$. So, if we multiply both sides of the equation above by $$ r $$, we get
+torque on the left-hand side. That is,
 
 <div class="equation">
  $$ rF=m r^{2} \alpha $$
@@ -56,13 +54,13 @@ or
 </div>
 
 This last equation is the rotational analog of Newton’s second law
-( $$ \vb{F}=m\vb{a} $$), where torque is analogous to force, angular acceleration is analogous to
-translational acceleration, and $$ m r^{2} $$ is analogous to mass (or inertia).
-The quantity $$ m r^{2} $$ is called the **rotational inertia** or **moment of inertia** of
-a point mass $$ m $$ a distance $$ r $$ from
-the center of rotation.
+( $$ \vb{F}=m\vb{a} $$), where torque is analogous to force, angular
+acceleration is analogous to translational acceleration, and $$ m r^{2} $$ is
+analogous to mass (or inertia). The quantity $$ m r^{2} $$ is called the **
+rotational inertia** or **moment of inertia** of a point mass $$ m $$ a distance
+$$ r $$ from the center of rotation.
 
-![The given figure shows an object of mass m, kept on a horizontal frictionless table, attached to a pivot point, which is in the center of the table, by a cord that supplies centripetal force. A force F is applied to the object perpendicular to the radius r, which is indicated by a red arrow tangential to the circle, causing the object to move in counterclockwise direction.](../resources/Figure_11_03_02a.jpg "An object is supported by a horizontal frictionless table and is attached to a pivot point by a cord that supplies centripetal force. A force \( F \)  is applied to the object perpendicular to the radius \( r \) , causing it to accelerate about the pivot point. The force is kept perpendicular to \( r \) .")
+![The given figure shows an object of mass m, kept on a horizontal frictionless table, attached to a pivot point, which is in the center of the table, by a cord that supplies centripetal force. A force F is applied to the object perpendicular to the radius r, which is indicated by a red arrow tangential to the circle, causing the object to move in counterclockwise direction.](../resources/Figure_11_03_02a.jpg "An object is supported by a horizontal frictionless table and is attached to a pivot point by a cord that supplies centripetal force. A force \( F \) is applied to the object perpendicular to the radius \( r \) , causing it to accelerate about the pivot point. The force is kept perpendicular to \( r \) .")
 {: #fig2}
 
 <div class="note" data-label="" markdown="1">
@@ -79,22 +77,21 @@ mass that behave just as we would expect from our earlier experiences.
 ### Rotational Inertia and Moment of Inertia
 
 Before we can consider the rotation of anything other than a point mass like the
-one in [Figure 2](#fig2), we must extend the idea of rotational
-inertia to all types of objects. To expand our concept of rotational inertia, we
-define the **moment of inertia** $$ I
-$$ of an object to be the sum of $$ m r^{2} $$ for all the point masses of which
-it is composed. That is, $$ I=\sum m r^{2} $$. Here $$ I $$ is analogous to $$ m
-$$ in translational motion. Because of the distance $$ r $$, the moment of
-inertia for any object depends on the chosen axis. Actually, calculating $$ I $$
-is beyond the scope of this text except for one simple case—that of a hoop,
-which has all its mass at the same distance from its axis. A hoop’s moment of
-inertia around its axis is therefore $$ MR^{2} $$, where $$ M $$ is its total
-mass and $$ R $$ its radius. (We use $$ M $$ and $$ R $$ for an entire object to
-distinguish them from $$ m $$ and $$ r $$ for point masses.) In all other cases,
-we must consult [Figure 3](#fig3) (note that the table is piece of
-artwork that has shapes as well as formulae) for formulas for $$ I $$ that have
-been derived from integration over the continuous body. Note that $$ I $$ has
-units of mass multiplied by distance squared
+one in [Figure 2](#fig2), we must extend the idea of rotational inertia to all
+types of objects. To expand our concept of rotational inertia, we define the **
+moment of inertia** $$ I $$ of an object to be the sum of $$ m r^{2} $$ for all
+the point masses of which it is composed. That is, $$ I=\sum m r^{2} $$. Here $$
+I $$ is analogous to $$ m $$ in translational motion. Because of the distance $$
+r $$, the moment of inertia for any object depends on the chosen axis. Actually,
+calculating $$ I $$ is beyond the scope of this text except for one simple
+case—that of a hoop, which has all its mass at the same distance from its axis.
+A hoop’s moment of inertia around its axis is therefore $$ MR^{2} $$, where $$ M
+$$ is its total mass and $$ R $$ its radius. (We use $$ M $$ and $$ R $$ for an
+entire object to distinguish them from $$ m $$ and $$ r $$ for point masses.) In
+all other cases, we must consult [Figure 3](#fig3) (note that the table is piece
+of artwork that has shapes as well as formulae) for formulas for $$ I $$ that
+have been derived from integration over the continuous body. Note that $$ I $$
+has units of mass multiplied by distance squared
 ( $$ \kg \cdot \mm $$), as we might expect from its definition.
 
 The general relationship among torque, moment of inertia, and angular
@@ -113,9 +110,9 @@ or
 where net $$ \tau $$ is the total torque from all forces relative to a chosen
 axis. For simplicity, we will only consider torques exerted by forces in the
 plane of the rotation. Such torques are either positive or negative and add like
-ordinary numbers. The relationship in $$ \tau =I \alpha , \alpha
-=\frac{ \text{net τ}}{I} $$ is the rotational analog to Newton’s second law and
-is very generally applicable. This equation is actually valid for
+ordinary numbers. The relationship in $$ \tau =I \alpha , \alpha =\frac{
+\text{net τ}}{I} $$ is the rotational analog to Newton’s second law and is very
+generally applicable. This equation is actually valid for
 *any* torque, applied to *any* object, relative to *any* axis.
 
 As we might expect, the larger the torque is, the larger the angular
@@ -125,11 +122,11 @@ slower it accelerates for the same torque. The basic relationship between moment
 of inertia and angular acceleration is that the larger the moment of inertia,
 the smaller is the angular acceleration. But there is an additional twist. The
 moment of inertia depends not only on the mass of an object, but also on its
-*distribution* of mass relative to the axis around which it rotates. For example,
-it will be much easier to accelerate a merry-go-round full of children if they
-stand close to its axis than if they all stand at the outer edge. The mass is
-the same in both cases; but the moment of inertia is much larger when the
-children are at the edge.
+*distribution* of mass relative to the axis around which it rotates. For
+example, it will be much easier to accelerate a merry-go-round full of children
+if they stand close to its axis than if they all stand at the outer edge. The
+mass is the same in both cases; but the moment of inertia is much larger when
+the children are at the edge.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -148,8 +145,7 @@ Problem-Solving Strategy for Rotational Dynamics
 3.  *Draw a free body diagram*. That is, draw and label all external forces acting on the system of interest.
 4.  *Apply $$ \text{net} \tau= I\alpha$$, $$\alpha =\frac{ \text{net τ}}{I} $$, the rotational equivalent of Newton’s second law, to solve the problem*. Care must be taken to use the correct moment of inertia and to consider the torque about the point of rotation.
 
-5. *As always, check the solution to see if it is
-   reasonable*. 
+5. *As always, check the solution to see if it is reasonable*.
 
 </div>
 {: #problemSolving}
@@ -182,8 +178,8 @@ Consider the merry-go-round itself to be a uniform disk with negligible retardin
 
 **Strategy**
 
-Angular acceleration is given directly by the expression $$ \alpha
-=\frac{ \text{net τ}}{I} $$:
+Angular acceleration is given directly by the expression $$ \alpha =\frac{
+\text{net τ}}{I} $$:
 
 <div class="equation">
  $$ \alpha =\frac{ \tau }{I}. $$
@@ -278,15 +274,15 @@ No. Torque depends on three factors: force magnitude, force direction, and point
 
 ### Section Summary
 
-* The farther the force is applied from the pivot,
-  the greater is the angular acceleration; angular acceleration is inversely
-  proportional to mass.
-* If we exert a force $$ F $$ on a point mass $$ m $$
-  that is at a distance $$ r $$ from a pivot point and because the force is
-  perpendicular to $$ r $$, an acceleration $$ a = F/m $$ is obtained in
-  the direction of $$ F $$. We can rearrange this equation such that
+* The farther the force is applied from the pivot, the greater is the angular
+  acceleration; angular acceleration is inversely proportional to mass.
+* If we exert a force $$ F $$ on a point mass $$ m $$ that is at a distance $$ r
+  $$ from a pivot point and because the force is perpendicular to $$ r $$, an
+  acceleration $$ a = F/m $$ is obtained in the direction of $$ F $$. We can
+  rearrange this equation such that
   <div class="equation">
- $$ F = ma, $$
+
+$$ F = ma, $$
   </div>
   and then look for ways to relate this expression to expressions for rotational
   quantities. We note that $$ a = r\alpha $$, and we substitute this expression
@@ -295,33 +291,36 @@ No. Torque depends on three factors: force magnitude, force direction, and point
  $$ F=mr\alpha $$
   </div>
 
-* Torque is the turning effectiveness of a force. In
-  this case, because $$ F $$ is perpendicular to $$ r $$, torque is simply $$
- \tau =rF $$. If we multiply both sides of the equation above by $$ r $$, we
-  get torque on the left-hand side. That is,
+* Torque is the turning effectiveness of a force. In this case, because $$ F $$
+  is perpendicular to $$ r $$, torque is simply $$ \tau =rF $$. If we multiply
+  both sides of the equation above by $$ r $$, we get torque on the left-hand
+  side. That is,
   <div class="equation">
- $$ rF=m r^{2} \alpha $$
+
+$$ rF=m r^{2} \alpha $$
   </div>
 
-  or
+or
 
   <div class="equation">
  $$ \tau =m r^{2} \alpha . $$
   </div>
 
-* The moment of inertia $$ I $$ of an object is the
-  sum of $$ MR^{2} $$ for all the point masses of which it is composed. That is,
+* The moment of inertia $$ I $$ of an object is the sum of $$ MR^{2} $$ for all
+  the point masses of which it is composed. That is,
   <div class="equation">
- $$ I=\sum m r^{2} . $$
+
+$$ I=\sum m r^{2} . $$
   </div>
 
-* The general relationship among torque, moment of
-  inertia, and angular acceleration is
+* The general relationship among torque, moment of inertia, and angular
+  acceleration is
   <div class="equation">
- $$ \tau = I\alpha $$
+
+$$ \tau = I\alpha $$
   </div>
 
-  or
+or
 
   <div class="equation">
  $$ \alpha =\frac{ \text{net τ}}{I} . $$
@@ -524,8 +523,7 @@ slow and then reverse her angular velocity. Her initial angular velocity is 10.0
 rad/s, and her moment of inertia is $$ 0.050\kg \cdot \mm $$.
 (a) What time is required for her to exactly reverse her spin?
 (b) What is unreasonable about the result?
-(c) Which premises are unreasonable or
-inconsistent?
+(c) Which premises are unreasonable or inconsistent?
 
 </div>
 <div class="solution" markdown="1">
@@ -547,8 +545,8 @@ A torque of $$ 500 \N \cdot \m $$ is reasonable.
 An advertisement claims that an 800-kg car is aided by its 20.0-kg flywheel,
 which can accelerate the car from rest to a speed of 30.0 m/s. The flywheel is a
 disk with a 0.150-m radius.
-(a) Calculate the angular velocity the flywheel must
-have if 95.0% of its rotational energy is used to get the car up to speed.
+(a) Calculate the angular velocity the flywheel must have if 95.0% of its
+rotational energy is used to get the car up to speed.
 (b) What is unreasonable about the result?
 (c) Which premise is unreasonable or which premises are inconsistent?
 
@@ -568,6 +566,7 @@ spin rate (angular velocity).
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 torque

@@ -19,39 +19,37 @@ discussed later in this text.
 
 ### Normal Force
 
-**Weight** (also called force of
-gravity) is a pervasive force that acts at all times and must be counteracted to
-keep an object from falling. You definitely notice that you must support the
-weight of a heavy object by pushing up on it when you hold it stationary, as
-illustrated in [Figure 1](#fig1)(a). But how do inanimate
-objects like a table support the weight of a mass placed on them, such as shown
-in [Figure 1](#fig1)(b)? When the bag of dog food is placed on
-the table, the table actually sags slightly under the load. This would be
-noticeable if the load were placed on a card table, but even rigid objects
-deform when a force is applied to them. Unless the object is deformed beyond its
-limit, it will exert a restoring force much like a deformed spring (or
-trampoline or diving board). The greater the deformation, the greater the
-restoring force. So when the load is placed on the table, the table sags until
-the restoring force becomes as large as the weight of the load. At this point
-the net external force on the load is zero. That is the situation when the load
-is stationary on the table. The table sags quickly, and the sag is slight so we
-do not notice it. But it is similar to the sagging of a trampoline when you
-climb onto it.
+**Weight** (also called force of gravity) is a pervasive force that acts at all
+times and must be counteracted to keep an object from falling. You definitely
+notice that you must support the weight of a heavy object by pushing up on it
+when you hold it stationary, as illustrated in [Figure 1](#fig1)(a). But how do
+inanimate objects like a table support the weight of a mass placed on them, such
+as shown in [Figure 1](#fig1)(b)? When the bag of dog food is placed on the
+table, the table actually sags slightly under the load. This would be noticeable
+if the load were placed on a card table, but even rigid objects deform when a
+force is applied to them. Unless the object is deformed beyond its limit, it
+will exert a restoring force much like a deformed spring (or trampoline or
+diving board). The greater the deformation, the greater the restoring force. So
+when the load is placed on the table, the table sags until the restoring force
+becomes as large as the weight of the load. At this point the net external force
+on the load is zero. That is the situation when the load is stationary on the
+table. The table sags quickly, and the sag is slight so we do not notice it. But
+it is similar to the sagging of a trampoline when you climb onto it.
 
 ![A person is holding a bag of dog food at some height from a table. He is exerting a force F sub hand, shown by a vector arrow in upward direction, and the weight W of the bag is acting downward, shown by a vector arrow having the same length as vector F sub hand. In a free-body diagram two forces are acting on the red point; one is F sub hand, shown by a vector arrow upward, and another is the weight W, shown by a vector arrow having the same length as vector F sub hand but pointing downward. (b) The bag of dog food is on the table, which deforms due to the weight W, shown by a vector arrow downward; the normal force N is shown by a vector arrow pointing upward having the same length as W. In the free-body diagram, vector W is shown by an arrow downward and vector N is shown by an arrow having the same length as vector W but pointing upward.](../resources/Figure_04_05_01.jpg "
-(a) The person holding the bag of dog food must supply an upward force  \( \vb{F}_{\text{hand}} \)  equal in magnitude and opposite in direction to the weight of the food  \( \vb{w} \) .
-(b) The card table sags when the dog food is placed on it, much like a stiff trampoline. Elastic restoring forces in the table grow as it sags until they supply a force  \( \vb{N} \)  equal in magnitude and opposite in direction to the weight of the load.")
+(a) The person holding the bag of dog food must supply an upward force \( \vb{F}_{\text{hand}} \) equal in magnitude and opposite in direction to the weight of the food \( \vb{w} \) .
+(b) The card table sags when the dog food is placed on it, much like a stiff trampoline. Elastic restoring forces in the table grow as it sags until they supply a force \( \vb{N} \) equal in magnitude and opposite in direction to the weight of the load.")
 {: #fig1}
 
 We must conclude that whatever supports a load, be it animate or not, must
 supply an upward force equal to the weight of the load, as we assumed in a few
 of the previous examples. If the force supporting a load is perpendicular to the
 surface of contact between the load and its support, this force is defined to be
-a **normal force** and here is
-given the symbol $$ \vb{N} $$. (This is not the unit for force N.)
-The word *normal* means perpendicular to a surface. The normal force can
-be less than the object’s weight if the object is on an incline, as you will see
-in the next example.
+a **normal force** and here is given the symbol $$ \vb{N} $$. (This is not the
+unit for force N.)
+The word *normal* means perpendicular to a surface. The normal force can be less
+than the object’s weight if the object is on an incline, as you will see in the
+next example.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -78,7 +76,7 @@ Consider the skier on a slope shown in [Figure 2](#fig2). Her mass including equ
 (a) What is her acceleration if friction is negligible?
 (b) What is her acceleration if friction is known to be 45.0 N?
 
-![A skier is skiing down the slope and the slope makes a twenty-five degree angle with the horizontal. Her weight W, shown by a vector vertically downward, breaks into two components&#x2014;one is W parallel, which is shown by a vector arrow parallel to the slope, and the other is W perpendicular, shown by a vector arrow perpendicular to the slope in the downward direction. Vector N is represented by an arrow pointing upward and perpendicular to the slope, having the same length as W perpendicular. Friction vector f is represented by an arrow along the slope in the uphill direction. IIn a free-body diagram, the vector arrow W for weight is acting downward, the vector arrow for f is shown along the direction of the slope, and the vector arrow for N is shown perpendicular to the slope.](../resources/Figure_04_05_02.jpg "Since motion and friction are parallel to the slope, it is most convenient to project all forces onto a coordinate system where one axis is parallel to the slope and the other is perpendicular (axes shown to left of skier).  \( \vb{N} \)  is perpendicular to the slope and \( \vb{f} \) is parallel to the slope, but  \( \vb{w} \)  has components along both axes, namely \( \vb{w}_\perp \)  and \( \vb{w}_\parallel \) .  \( \vb{N} \)  is equal in magnitude to \( \vb{w}_\parallel \) so that there is no motion perpendicular to the slope, but  \( \vb{f} \)  is less than \( \vb{w}_\parallel \), so that there is a downslope acceleration (along the parallel axis).")
+![A skier is skiing down the slope and the slope makes a twenty-five degree angle with the horizontal. Her weight W, shown by a vector vertically downward, breaks into two components&#x2014;one is W parallel, which is shown by a vector arrow parallel to the slope, and the other is W perpendicular, shown by a vector arrow perpendicular to the slope in the downward direction. Vector N is represented by an arrow pointing upward and perpendicular to the slope, having the same length as W perpendicular. Friction vector f is represented by an arrow along the slope in the uphill direction. IIn a free-body diagram, the vector arrow W for weight is acting downward, the vector arrow for f is shown along the direction of the slope, and the vector arrow for N is shown perpendicular to the slope.](../resources/Figure_04_05_02.jpg "Since motion and friction are parallel to the slope, it is most convenient to project all forces onto a coordinate system where one axis is parallel to the slope and the other is perpendicular (axes shown to left of skier). \( \vb{N} \) is perpendicular to the slope and \( \vb{f} \) is parallel to the slope, but \( \vb{w} \) has components along both axes, namely \( \vb{w}_\perp \) and \( \vb{w}_\parallel \) . \( \vb{N} \) is equal in magnitude to \( \vb{w}_\parallel \) so that there is no motion perpendicular to the slope, but \( \vb{f} \) is less than \( \vb{w}_\parallel \), so that there is a downslope acceleration (along the parallel axis).")
 {: #fig2}
 
 **Strategy**
@@ -95,16 +93,15 @@ represent perpendicular and parallel, respectively. This choice of axes
 simplifies this type of problem, because there is no motion perpendicular to the
 slope and because friction is always parallel to the surface between two
 objects. The only external forces acting on the system are the skier’s weight,
-friction, and the support of the slope, respectively labeled $$\vb{w}
-$$, $$ \vb{f} $$, and $$ \vb{N} $$
-in [Figure 2](#fig2). $$ \vb{N} $$
- is always perpendicular to the slope, and $$ \vb{f} $$
- is parallel to it. But $$ \vb{w} $$ is not in the direction of
-either axis, and so the first step we take is to project it into components
-along the chosen axes, defining $$ w_{\parallel } $$ to be the component of
-weight parallel to the slope and $$ w_{\perp } $$ the component of weight
-perpendicular to the slope. Once this is done, we can consider the two separate
-problems of forces parallel to the slope and forces perpendicular to the slope.
+friction, and the support of the slope, respectively labeled $$\vb{w} $$, $$
+\vb{f} $$, and $$ \vb{N} $$ in [Figure 2](#fig2). $$ \vb{N} $$ is always
+perpendicular to the slope, and $$ \vb{f} $$ is parallel to it. But $$ \vb{w} $$
+is not in the direction of either axis, and so the first step we take is to
+project it into components along the chosen axes, defining $$ w_{\parallel } $$
+to be the component of weight parallel to the slope and $$ w_{\perp } $$ the
+component of weight perpendicular to the slope. Once this is done, we can
+consider the two separate problems of forces parallel to the slope and forces
+perpendicular to the slope.
 
 **Solution**
 
@@ -182,10 +179,10 @@ components: a force acting perpendicular to the plane, $$ \vb{w}_
 {\perp } $$, and a force acting parallel to the plane, $$ \vb{w}_
 {\parallel } $$. The perpendicular force of weight, $$ \vb{w}_
 {\perp } $$, is typically equal in magnitude and opposite in direction to the
-normal force, $$ \vb{N} $$. The force acting parallel to the plane,
-$$ \vb{w}_{\parallel } $$, causes the object to accelerate down the
-incline. The force of friction, $$ \vb{f} $$, opposes the motion of the
-object, so it acts upward along the plane.
+normal force, $$ \vb{N} $$. The force acting parallel to the plane, $$ \vb{w}_
+{\parallel } $$, causes the object to accelerate down the incline. The force of
+friction, $$ \vb{f} $$, opposes the motion of the object, so it acts upward
+along the plane.
 
 It is important to be careful when resolving the weight of the object into
 components. If the angle of the incline is at an angle $$ \theta $$ to the
@@ -237,37 +234,35 @@ Try two more angles. What does this show?
 
 ### Tension
 
-A **tension** is a force along
-the length of a medium, especially a force carried by a flexible medium, such as
-a rope or cable. The word “tension” comes from a Latin word meaning “to
-stretch.” Not coincidentally, the flexible cords that carry muscle forces to
-other parts of the body are called *tendons*.
-Any flexible connector, such as a string, rope, chain, wire, or cable,
-can exert pulls only parallel to its length; thus, a force carried by a flexible
-connector is a tension with direction parallel to the connector. It is important
-to understand that tension is a pull in a connector. In contrast, consider the
+A **tension** is a force along the length of a medium, especially a force
+carried by a flexible medium, such as a rope or cable. The word “tension” comes
+from a Latin word meaning “to stretch.” Not coincidentally, the flexible cords
+that carry muscle forces to other parts of the body are called *tendons*. Any
+flexible connector, such as a string, rope, chain, wire, or cable, can exert
+pulls only parallel to its length; thus, a force carried by a flexible connector
+is a tension with direction parallel to the connector. It is important to
+understand that tension is a pull in a connector. In contrast, consider the
 phrase: “You can’t push a rope.” The tension force pulls outward along the two
 ends of a rope.
 
-Consider a person holding a mass on a rope as shown
-in [Figure 4](#fig4).
+Consider a person holding a mass on a rope as shown in [Figure 4](#fig4).
 
-![An object of mass m is attached to a rope and a person is holding the rope. A weight vector W points downward starting from the lower point of the mass. A tension vector T is shown by an arrow pointing upward initiating from the hook where the mass and rope are joined, and a third vector, also T, is shown by an arrow pointing downward initiating from the hand of the person.](../resources/Figure_04_05_04.jpg "When a perfectly flexible connector (one requiring no force to bend it) such as this rope transmits a force  \( T \) , that force must be parallel to the length of the rope, as shown. The pull such a flexible connector exerts is a tension. Note that the rope pulls with equal force but in opposite directions on the hand and the supported mass (neglecting the weight of the rope). This is an example of Newton&#x2019;s third law. The rope is the medium that carries the equal and opposite forces between the two objects. The tension anywhere in the rope between the hand and the mass is equal. Once you have determined the tension in one location, you have determined the tension at all locations along the rope.")
+![An object of mass m is attached to a rope and a person is holding the rope. A weight vector W points downward starting from the lower point of the mass. A tension vector T is shown by an arrow pointing upward initiating from the hook where the mass and rope are joined, and a third vector, also T, is shown by an arrow pointing downward initiating from the hand of the person.](../resources/Figure_04_05_04.jpg "When a perfectly flexible connector (one requiring no force to bend it) such as this rope transmits a force \( T \) , that force must be parallel to the length of the rope, as shown. The pull such a flexible connector exerts is a tension. Note that the rope pulls with equal force but in opposite directions on the hand and the supported mass (neglecting the weight of the rope). This is an example of Newton&#x2019;s third law. The rope is the medium that carries the equal and opposite forces between the two objects. The tension anywhere in the rope between the hand and the mass is equal. Once you have determined the tension in one location, you have determined the tension at all locations along the rope.")
 {: #fig4}
 
 Tension in the rope must equal the weight of the supported mass, as we can prove
 using Newton’s second law. If the 5.00-kg mass in the figure is stationary, then
-its acceleration is zero, and thus $$ \vb{F}_{\text{net}}=0 $$. The
-only external forces acting on the mass are its weight $$ \vb{w} $$
-and the tension $$ \vb{T} $$ supplied by the rope. Thus,
+its acceleration is zero, and thus $$ \vb{F}_{\text{net}}=0 $$. The only
+external forces acting on the mass are its weight $$ \vb{w} $$ and the tension
+$$ \vb{T} $$ supplied by the rope. Thus,
 
 <div class="equation">
 $$ F_{\text{net}}=T-w=0, $$
 </div>
 
-where $$ T $$ and $$ w $$ are the magnitudes of the tension and weight and their signs indicate
-direction, with up being positive here. Thus, just as you would expect, the
-tension equals the weight of the supported mass:
+where $$ T $$ and $$ w $$ are the magnitudes of the tension and weight and their
+signs indicate direction, with up being positive here. Thus, just as you would
+expect, the tension equals the weight of the supported mass:
 
 <div class="equation">
  $$ T=w=mg . $$
@@ -290,7 +285,7 @@ is no friction, the tension is transmitted undiminished. Only its direction
 changes, and it is always parallel to the flexible connector. This is
 illustrated in [Figure 5](#fig5) (a) and (b).
 
-![The internal structure of a finger with tendon, extensor muscle, and flexor muscle is shown. The force in the muscles is shown by arrows pointing along the tendon. In the second figure, part of a bicycle with a brake cable is shown. Three tension vectors are shown by the arrows along the brake cable, starting from the handle to the wheels. The tensions have the same magnitude but different directions.](../resources/Figure_04_05_05.jpg "(a) Tendons in the finger carry force  \( T \)  from the muscles to other parts of the finger, usually changing the force&#x2019;s direction, but not its magnitude (the tendons are relatively friction free). (b) The brake cable on a bicycle carries the tension  \( T \)  from the handlebars to the brake mechanism. Again, the direction but not the magnitude of  \( T \)  is changed. ")
+![The internal structure of a finger with tendon, extensor muscle, and flexor muscle is shown. The force in the muscles is shown by arrows pointing along the tendon. In the second figure, part of a bicycle with a brake cable is shown. Three tension vectors are shown by the arrows along the brake cable, starting from the handle to the wheels. The tensions have the same magnitude but different directions.](../resources/Figure_04_05_05.jpg "(a) Tendons in the finger carry force \( T \) from the muscles to other parts of the finger, usually changing the force&#x2019;s direction, but not its magnitude (the tendons are relatively friction free). (b) The brake cable on a bicycle carries the tension \( T \) from the handlebars to the brake mechanism. Again, the direction but not the magnitude of \( T \) is changed. ")
 {: #fig5 height="325"}
 
 <div class="example" markdown="1">
@@ -309,9 +304,8 @@ be!), but is bent under the person’s weight. Thus, the tension on either side 
 the person has an upward component that can support his weight. As usual, forces
 are vectors represented pictorially by arrows having the same directions as the
 forces and lengths proportional to their magnitudes. The system is the tightrope
-walker, and the only external forces acting on him are his weight
-$$ \vb{w} $$ and the two tensions
-$$ \vb{T}_{\text{L}} $$
+walker, and the only external forces acting on him are his weight $$ \vb{w} $$
+and the two tensions $$ \vb{T}_{\text{L}} $$
 (left tension) and $$ \vb{T}_{\text{R}} $$
 (right tension), as illustrated. It is reasonable to neglect the weight of the
 wire itself. The net external force is zero since the system is stationary. A
@@ -319,9 +313,9 @@ little trigonometry can now be used to find the tensions. One conclusion is
 possible at the outset—we can see from part (b) of the figure that the
 magnitudes of the tensions $$ T_{\text{L}} $$ and $$ T_{\text{R}} $$ must be
 equal. This is because there is no horizontal acceleration in the rope, and the
-only forces acting to the left and right are $$ T_{\text{L}} $$ and
-$$ T_{R} $$. Thus, the magnitude of those forces must be equal so that they cancel each
-other out.
+only forces acting to the left and right are $$ T_{\text{L}} $$ and $$ T_{R} $$.
+Thus, the magnitude of those forces must be equal so that they cancel each other
+out.
 
 Whenever we have two-dimensional vector problems in which no two vectors are
 parallel, the easiest method of solution is to pick a convenient coordinate
@@ -335,7 +329,7 @@ First, we need to resolve the tension vectors into their horizontal and vertical
 components. It helps to draw a new free-body diagram showing all of the
 horizontal and vertical components of each force acting on the system.
 
-![A vector T sub L making an angle of five degrees with the negative x axis is shown. It has two components, one in the vertical direction, T sub L y, and another horizontal, T sub L x. Another vector is shown making an angle of five degrees with the positive x axis, having two components, one along the y direction, T sub R y, and the other along the x direction, T sub R x. In the free-body diagram, vertical component T sub L y is shown by a vector arrow in the upward direction, T sub R y is shown by a vector arrow in the upward direction, and weight W is shown by a vector arrow in the downward direction. The net force F sub y is equal to zero. In the horizontal direction, T sub R x is shown by a vector arrow pointing toward the right and T sub L x is shown by a vector arrow pointing toward the left, both having the same length so that the net force in the horizontal direction, F sub x, is equal to zero.](../resources/Figure_04_05_07.jpg "When the vectors are projected onto vertical and horizontal axes, their components along those axes must add to zero, since the tightrope walker is stationary. The small angle results in  \( T \)  being much greater than  \( w \) .")
+![A vector T sub L making an angle of five degrees with the negative x axis is shown. It has two components, one in the vertical direction, T sub L y, and another horizontal, T sub L x. Another vector is shown making an angle of five degrees with the positive x axis, having two components, one along the y direction, T sub R y, and the other along the x direction, T sub R x. In the free-body diagram, vertical component T sub L y is shown by a vector arrow in the upward direction, T sub R y is shown by a vector arrow in the upward direction, and weight W is shown by a vector arrow in the downward direction. The net force F sub y is equal to zero. In the horizontal direction, T sub R x is shown by a vector arrow pointing toward the right and T sub L x is shown by a vector arrow pointing toward the left, both having the same length so that the net force in the horizontal direction, F sub x, is equal to zero.](../resources/Figure_04_05_07.jpg "When the vectors are projected onto vertical and horizontal axes, their components along those axes must add to zero, since the tightrope walker is stationary. The small angle results in \( T \) being much greater than \( w \) .")
 {: #fig7}
 
 Consider the horizontal components of the forces
@@ -423,21 +417,20 @@ and the tension is
 **Discussion**
 
 Note that the vertical tension in the wire acts as a normal force that supports
-the weight of the tightrope walker.
-The tension is almost six times the 686-N weight of the tightrope walker. Since
-the wire is nearly horizontal, the vertical component of its tension is only a
-small fraction of the tension in the wire. The large horizontal components are
-in opposite directions and cancel, and so most of the tension in the wire is not
-used to support the weight of the tightrope walker.
+the weight of the tightrope walker. The tension is almost six times the 686-N
+weight of the tightrope walker. Since the wire is nearly horizontal, the
+vertical component of its tension is only a small fraction of the tension in the
+wire. The large horizontal components are in opposite directions and cancel, and
+so most of the tension in the wire is not used to support the weight of the
+tightrope walker.
 
 </div>
 
 If we wish to *create* a very large tension, all we have to do is exert a force
-perpendicular to a flexible connector, as illustrated
-in [Figure 8](#fig8). As we saw in the last example, the weight
-of the tightrope walker acted as a force perpendicular to the rope. We saw that
-the tension in the roped related to the weight of the tightrope walker in the
-following way:
+perpendicular to a flexible connector, as illustrated in [Figure 8](#fig8). As
+we saw in the last example, the weight of the tightrope walker acted as a force
+perpendicular to the rope. We saw that the tension in the roped related to the
+weight of the tightrope walker in the following way:
 
 <div class="equation">
  $$ T=\frac{w}{2\sin\left(\theta \right)}. $$
@@ -456,11 +449,9 @@ connector. In this case, $$ T $$ becomes very large as $$ \theta $$ approaches
 zero. Even the relatively small weight of any flexible connector will cause it
 to sag, since an infinite tension would result if it were horizontal (
 i.e., $$ \theta =0 $$ and $$ \sin{\theta} =0 $$).
- (See [Figure 8](#fig8).)
+(See [Figure 8](#fig8).)
 
-![A car stuck in mud is being pulled out by a chain tied to a tree trunk. A force perpendicular to the length of the chain is applied, represented by an arrow. The tension T along the chain makes an angle with the horizontal line.](../resources/Figure_04_05_08.jpg "We can create a very large tension in the chain by pushing on it perpendicular to its length, as shown. Suppose we wish to pull a car out of the mud when no tow truck is available. Each time the car moves forward, the chain is tightened to keep it as nearly straight as possible.
-The tension in the chain is given by \( T= \frac{F_{\perp}}{2 \sin{ \theta }}
-\), since \( \theta \)  is small,  \( T \)  is very large. This situation is analogous to the tightrope walker shown in [link], except that the tensions shown here are those transmitted to the car and the tree rather than those acting at the point where \( F_\perp \) is applied.")
+![A car stuck in mud is being pulled out by a chain tied to a tree trunk. A force perpendicular to the length of the chain is applied, represented by an arrow. The tension T along the chain makes an angle with the horizontal line.](../resources/Figure_04_05_08.jpg "We can create a very large tension in the chain by pushing on it perpendicular to its length, as shown. Suppose we wish to pull a car out of the mud when no tow truck is available. Each time the car moves forward, the chain is tightened to keep it as nearly straight as possible. The tension in the chain is given by \( T= \frac{F_{\perp}}{2 \sin{ \theta }} \), since \( \theta \) is small, \( T \) is very large. This situation is analogous to the tightrope walker shown in [link], except that the tensions shown here are those transmitted to the car and the tree rather than those acting at the point where \( F_\perp \) is applied.")
 {: #fig8}
 
 ![A picture of the Golden Gate Bridge.](../resources/Figure_04_05_09.jpg "Unless an infinite tension is exerted, any flexible connector&#x2014;such as the chain at the bottom of the picture&#x2014;will sag under its own weight, giving a characteristic curve when the weight is evenly distributed along the length. Suspension bridges&#x2014;such as the Golden Gate Bridge shown in this image&#x2014;are essentially very heavy flexible connectors. The weight of the bridge is evenly distributed along the length of flexible connectors, usually cables, which take on the characteristic shape. (credit: Leaflet, Wikimedia Commons)")
@@ -469,8 +460,8 @@ The tension in the chain is given by \( T= \frac{F_{\perp}}{2 \sin{ \theta }}
 ### Extended Topic: Real Forces and Inertial Frames
 
 There is another distinction among forces in addition to the types already
-mentioned. Some forces are real, whereas others are not. *Real forces* are
-those that have some physical origin, such as the gravitational pull.
+mentioned. Some forces are real, whereas others are not. *Real forces* are those
+that have some physical origin, such as the gravitational pull.
 Contrastingly, **fictitious forces** are those that arise simply because an
 observer is in an accelerating frame of reference, such as one that rotates (
 like a merry-go-round) or undergoes linear acceleration (like a car slowing
@@ -480,9 +471,9 @@ the west that has no physical origin. Of course, what is happening here is that
 Earth is rotating toward the east and moves east under the satellite. In Earth’s
 frame this looks like a westward force on the satellite, or it can be
 interpreted as a violation of Newton’s first law (the law of inertia). An
-**inertial frame of reference** is one
-in which all forces are real and, equivalently, one in which Newton’s laws have
-the simple forms given in this chapter.
+**inertial frame of reference** is one in which all forces are real and,
+equivalently, one in which Newton’s laws have the simple forms given in this
+chapter.
 
 Earth’s rotation is slow enough that Earth is nearly an inertial frame. You
 ordinarily must perform precise experiments to observe fictitious forces and the
@@ -524,22 +515,22 @@ width="800" height="600"  allowfullscreen></iframe>
 
 * When objects rest on a surface, the surface applies a force to the object that
   supports the weight of the object. This supporting force acts perpendicular to
-  and away from the surface. It is called a normal force, $$ \vb{N}
- $$.
+  and away from the surface. It is called a normal force, $$ \vb{N} $$.
 * When objects rest on a non-accelerating horizontal surface, the magnitude of
   the normal force is equal to the weight of the object:
   <div class="equation">
- $$ N=mg . $$
+
+$$ N=mg . $$
   </div>
 
 * When objects rest on an inclined plane that makes an angle $$ \theta $$ with
   the horizontal surface, the weight of the object can be resolved into
   components that act perpendicular ( $$ \vb{w}_{\perp } $$)
   and parallel ( $$ \vb{w}_{\parallel } $$)
-  to the surface of the plane. These components can be
-  calculated using:
+  to the surface of the plane. These components can be calculated using:
   <div class="equation">
- $$ w_{\parallel }=w\sin\left(\theta \right)=mg \sin\left(\theta \right) $$
+
+$$ w_{\parallel }=w\sin\left(\theta \right)=mg \sin\left(\theta \right) $$
   </div>
 
   <div class="equation">
@@ -547,11 +538,12 @@ width="800" height="600"  allowfullscreen></iframe>
   </div>
 
 * The pulling force that acts along a stretched flexible connector, such as a
-  rope or cable, is called tension, $$ \vb{T} $$. When a rope
-  supports the weight of an object that is at rest, the tension in the rope is
-  equal to the weight of the object:
+  rope or cable, is called tension, $$ \vb{T} $$. When a rope supports the
+  weight of an object that is at rest, the tension in the rope is equal to the
+  weight of the object:
   <div class="equation">
- $$ T=mg . $$
+
+$$ T=mg . $$
   </div>
 
 * In any inertial frame of reference (one that is not accelerated or rotated),
@@ -589,7 +581,7 @@ Two teams of nine members each engage in a tug of war. Each of the first team’
 <div class="solution" markdown="1">
 (a) $$ 0.11 \mss $$
 
-(b) $$ 1.2\times 10^{4}\N $$ 
+(b) $$ 1.2\times 10^{4}\N $$
 
 </div>
 </div>
@@ -616,8 +608,8 @@ the vertical strand (find their ratio).
 <div class="solution" markdown="1">
 (a) $$ 7.84 \times 10^{-4}\N $$
 
-(b) $$ 1.89 \times 10^{-3}\N $$. This is 2.41 times the tension in the
-vertical strand.
+(b) $$ 1.89 \times 10^{-3}\N $$. This is 2.41 times the tension in the vertical
+strand.
 
 </div>
 </div>
@@ -673,6 +665,7 @@ solve each part. The masses of the cords are negligible.
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 inertial frame of reference

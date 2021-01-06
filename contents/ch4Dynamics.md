@@ -11,11 +11,11 @@ at the forces needed to achieve spectacular motion, such as that of a dolphin
 jumping out of the water, or a pole vaulter, or the flight of a bird, or the
 orbit of a satellite. The study of motion is kinematics, but kinematics only
 *describes* the way objects move—their velocity and their acceleration.
-**Dynamics** considers the forces
-that affect the motion of moving objects and systems. Newton’s laws of motion
-are the foundation of dynamics. These laws provide an example of the breadth and
-simplicity of principles under which nature functions. They are also universal
-laws in that they apply to similar situations on Earth as well as in space.
+**Dynamics** considers the forces that affect the motion of moving objects and
+systems. Newton’s laws of motion are the foundation of dynamics. These laws
+provide an example of the breadth and simplicity of principles under which
+nature functions. They are also universal laws in that they apply to similar
+situations on Earth as well as in space.
 
 Isaac Newton’s (1642–1727) laws of motion were just one part of the monumental
 work that has made him legendary. The development of Newton’s laws marks the
@@ -56,13 +56,12 @@ motion only when the objects are moving at speeds much, much less than the speed
 of light and when those objects are larger than the size of most molecules (
 about $$ 10^{-9}\m $$ in diameter). These constraints define the realm of
 classical mechanics, as discussed
-in [Introduction to the Nature of Science and Physics](../contents/ch1IntroductionTheNatureOfScienceAndPhysics.md). At the
-beginning of the 20th
-century, Albert Einstein (1879–1955) developed the theory of relativity and,
-along with many other scientists, developed quantum theory. This theory does not
-have the constraints present in classical physics. All of the situations we
-consider in this chapter are in the realm of classical
-physics.
+in [Introduction to the Nature of Science and Physics](../contents/ch1IntroductionTheNatureOfScienceAndPhysics.md)
+. At the beginning of the 20th century, Albert Einstein (1879–1955) developed
+the theory of relativity and, along with many other scientists, developed
+quantum theory. This theory does not have the constraints present in classical
+physics. All of the situations we consider in this chapter are in the realm of
+classical physics.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">

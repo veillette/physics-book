@@ -28,26 +28,24 @@ rotation about a pivot point. Distances from the physical pivot of the lever are
 crucial, and we can obtain a useful expression for the MA in terms of these
 distances.
 
-![There is a nail in a wooden plank. A nail puller is being used to pull the nail out of the plank. A hand is applying force F sub I downward on the handle of the nail puller. The top of the nail exerts a force F sub N downward on the puller. At the point where the nail puller touches the plank, the reaction of the surface force N is applied. At the top of the figure, a free body diagram is shown.](../resources/Figure_10_05_01a.jpg "A nail puller is a lever with a large mechanical advantage. The external forces on the nail puller are represented by solid arrows. The force that the nail puller applies to the nail (  \( F_o \) )  is not a force on the nail puller. The reaction force the nail exerts back on the puller ( \( F_n \) )  is an external force and is equal and opposite to  \( F_o \) . The perpendicular lever arms of the input and output forces are  \( l_i \)  and \( l_0 \).")
+![There is a nail in a wooden plank. A nail puller is being used to pull the nail out of the plank. A hand is applying force F sub I downward on the handle of the nail puller. The top of the nail exerts a force F sub N downward on the puller. At the point where the nail puller touches the plank, the reaction of the surface force N is applied. At the top of the figure, a free body diagram is shown.](../resources/Figure_10_05_01a.jpg "A nail puller is a lever with a large mechanical advantage. The external forces on the nail puller are represented by solid arrows. The force that the nail puller applies to the nail (  \( F_o \) )  is not a force on the nail puller. The reaction force the nail exerts back on the puller ( \( F_n \) )  is an external force and is equal and opposite to \( F_o \) . The perpendicular lever arms of the input and output forces are \( l_i \) and \( l_0 \).")
 {: #fig1}
 
-[Figure 1](#fig1) shows a lever type that is used as a nail
-puller. Crowbars, seesaws, and other such levers are all analogous to this one.
-$$ \vb{F}_{\text{i}} $$ is the input force and $$
-\vb{F}_{\text{o}} $$ is the output force. There are three vertical
-forces acting on the nail puller (
-the system of interest) – these are $$ \vb{F}_{\text{i}},
-\vb{F}_{\N } $$, and $$ \vb{N} $$. $$
-\vb{F}_{\N } $$ is the reaction force back on the system,
-equal and opposite to $$ \vb{F}_{\text{o}} $$. (Note that $$
-\vb{F}_{\text{o}} $$ is not a force on the system.)  $$
-\vb{N} $$ is the normal force upon the lever, and its torque is zero
-since it is exerted at the pivot. The torques due to $$ \vb{F}_
-{\text{i}} $$ and $$ \vb{F}_{\N } $$ must be equal to each
-other if the nail is not moving, to satisfy the second condition for equilibrium
-$$ \left(\text{net}\tau =0\right) $$. (In order for the nail to actually move, the torque
-due to $$ \vb{F}_{\text{i}} $$ must be ever-so-slightly greater
-than torque due to $$ \vb{F}_{\N } $$.) Hence,
+[Figure 1](#fig1) shows a lever type that is used as a nail puller. Crowbars,
+seesaws, and other such levers are all analogous to this one. $$ \vb{F}_
+{\text{i}} $$ is the input force and $$ \vb{F}_{\text{o}} $$ is the output
+force. There are three vertical forces acting on the nail puller (
+the system of interest) – these are $$ \vb{F}_{\text{i}}, \vb{F}_{\N } $$, and
+$$ \vb{N} $$. $$ \vb{F}_{\N } $$ is the reaction force back on the system, equal
+and opposite to $$ \vb{F}_{\text{o}} $$. (Note that $$ \vb{F}_{\text{o}} $$ is
+not a force on the system.)  $$ \vb{N} $$ is the normal force upon the lever,
+and its torque is zero since it is exerted at the pivot. The torques due to $$
+\vb{F}_
+{\text{i}} $$ and $$ \vb{F}_{\N } $$ must be equal to each other if the nail is
+not moving, to satisfy the second condition for equilibrium $$ \left(
+\text{net}\tau =0\right) $$. (In order for the nail to actually move, the torque
+due to $$ \vb{F}_{\text{i}} $$ must be ever-so-slightly greater than torque due
+to $$ \vb{F}_{\N } $$.) Hence,
 
 <div class="equation">
  $$ l_{\text{i}}F_{\text{i}}=l_{\text{o}}F_{\text{o}} $$
@@ -75,13 +73,13 @@ certainly greater than one. The longer the handle on the nail puller, the
 greater the force you can exert with it.
 
 Two other types of levers that differ slightly from the nail puller are a
-wheelbarrow and a shovel, shown in [Figure 2](#fig2). All these
-lever types are similar in that only three forces are involved – the input
-force, the output force, and the force on the pivot – and thus their MAs are
-given by $$ \text{MA}=\frac{ F_{\text{o}}}{ F_{\text{i}}} $$ and $$
-\text{MA}=\frac{ d_{1}}{ d_{2}} $$, with distances being measured relative to
-the physical pivot. The wheelbarrow and shovel differ from the nail puller
-because both the input and output forces are on the same side of the pivot.
+wheelbarrow and a shovel, shown in [Figure 2](#fig2). All these lever types are
+similar in that only three forces are involved – the input force, the output
+force, and the force on the pivot – and thus their MAs are given by $$
+\text{MA}=\frac{ F_{\text{o}}}{ F_{\text{i}}} $$ and $$ \text{MA}=\frac{ d_{1}}{
+d_{2}} $$, with distances being measured relative to the physical pivot. The
+wheelbarrow and shovel differ from the nail puller because both the input and
+output forces are on the same side of the pivot.
 
 In the case of the wheelbarrow, the output force or load is between the pivot (
 the wheel’s axle) and the input or applied force. In the case of the shovel, the
@@ -136,15 +134,15 @@ probably used during the construction of the Egyptian pyramids to move large
 blocks of stone to the top.
 
 A crank is a lever that can be rotated $$ 360^\circ $$ about its pivot, as shown
-in [Figure 3](#fig3). Such a machine may not look like a lever,
-but the physics of its actions remain the same. The MA for a crank is simply the
-ratio of the radii $$ r_{\text{i}}/r_{0} $$. Wheels and gears have this simple
-expression for their MAs too. The MA can be greater than 1, as it is for the
-crank, or less than 1, as it is for the simplified car axle driving the wheels,
-as shown. If the axle’s radius is $$ 2.0 \text{cm} $$ and the wheel’s radius is $$ 24.0
+in [Figure 3](#fig3). Such a machine may not look like a lever, but the physics
+of its actions remain the same. The MA for a crank is simply the ratio of the
+radii $$ r_{\text{i}}/r_{0} $$. Wheels and gears have this simple expression for
+their MAs too. The MA can be greater than 1, as it is for the crank, or less
+than 1, as it is for the simplified car axle driving the wheels, as shown. If
+the axle’s radius is $$ 2.0 \text{cm} $$ and the wheel’s radius is $$ 24.0
 \text{cm} $$, then $$ \text{MA}=2.0/24.0=0.083 $$ and the axle would have to
-exert a force of $$ 12 000 \N $$ on the wheel to enable it to exert a
-force of $$ 1000 \N $$ on the ground.
+exert a force of $$ 12 000 \N $$ on the wheel to enable it to exert a force of
+$$ 1000 \N $$ on the ground.
 
 ![In figure a, a crank lever is shown in which a hand is at the handle of the crank lever. The output force F sub O is at the base of the lever and the input force F sub I is at the handle of the lever. The distance between input force and output force is labeled as R sub I. In figure b, a simplified axle of the car is shown. The input force is shown as a vector F sub I on the axle toward right. The output force is shown at the point of contact of the wheel with the ground toward left. The distance between the output force and the pivot point is labeled as R sub O. In figure c, rope over the pulley is shown. The input force is shown as a downward arrow at the left part of rope. The output force is acting on the right part of the rope. The center of the pulley is the pivot point. The distances of the two forces from the pivot are R sub I and R sub O respectively.](../resources/Figure_10_05_03.jpg "(a) A crank is a type of lever that can be rotated &#10; &#10; 360&#xBA; &#10; &#10; about its pivot. Cranks are usually designed to have a large MA. (b) A simplified automobile axle drives a wheel, which has a much larger diameter than the axle. The MA is less than 1.
 (c) An ordinary pulley is used to lift a heavy load. The pulley changes the direction of the force &#10; &#10; T &#10; &#10; exerted by the cord without changing its magnitude. Hence, this machine has an MA of 1.")
@@ -152,28 +150,26 @@ force of $$ 1000 \N $$ on the ground.
 
 An ordinary pulley has an MA of 1; it only changes the direction of the force
 and not its magnitude. Combinations of pulleys, such as those illustrated
-in [Figure 4](#fig4), are used to multiply force. If the
-pulleys are friction-free, then the force output is approximately an integral
-multiple of the tension in the cable. The number of cables pulling directly
-upward on the system of interest, as illustrated in the figures given below, is
-approximately the MA of the pulley system. Since each attachment applies an
-external force in approximately the same direction as the others, they add,
-producing a total force that is nearly an integral multiple of the input force
-$$ T $$.
+in [Figure 4](#fig4), are used to multiply force. If the pulleys are
+friction-free, then the force output is approximately an integral multiple of
+the tension in the cable. The number of cables pulling directly upward on the
+system of interest, as illustrated in the figures given below, is approximately
+the MA of the pulley system. Since each attachment applies an external force in
+approximately the same direction as the others, they add, producing a total
+force that is nearly an integral multiple of the input force $$ T $$.
 
 ![In figure a, a rope over two pulleys is shown. One pulley is fixed at the roof and the other is hanging through the rope. A weight is hanging from the second pulley. The tensions T are shown at the two parts of hanging pulley and at the free end of the rope. The mechanical advantage of the system is two. In figure b, a set of three pulleys is shown. A pulley is fixed at the roof with another pulley below it. The third pulley is hanging through the rope with a weight hanging at it. The tensions on the rope are shown as vectors on the rope and at the end of the rope. In figure c, set of three pulleys is shown. One of the pulleys is fixed at the roof. Two connected pulleys are hanging through a rope over the first pulley. The directions of the tensions are marked on the ropes and at the end of the rope.](../resources/Figure_10_05_04a.jpg "(a) The combination of pulleys is used to multiply force. The force is an integral multiple of tension if the pulleys are frictionless. This pulley system has two cables attached to its load, thus applying a force of approximately \( 2T \). This machine has \( MA \approx 2 \). (b) Three pulleys are used to lift a load in such a way that the mechanical advantage is about 3. Effectively, there are three cables attached to the load.
-(c) This pulley system applies a force of  \( 4 T \) , so that it has \( MA \approx 4 \). Effectively, four cables are pulling on the system of interest. ")
+(c) This pulley system applies a force of \( 4 T \) , so that it has \( MA \approx 4 \). Effectively, four cables are pulling on the system of interest. ")
 {: #fig4}
 
 ### Section Summary
 
-* Simple machines are devices that can be used to
-  multiply or augment a force that we apply – often at the expense of a distance
-  through which we have to apply the force.
-* The ratio of output to input forces for any simple
-  machine is called its mechanical advantage
-* A few simple machines are the lever, nail puller,
-  wheelbarrow, crank, etc.
+* Simple machines are devices that can be used to multiply or augment a force
+  that we apply – often at the expense of a distance through which we have to
+  apply the force.
+* The ratio of output to input forces for any simple machine is called its
+  mechanical advantage
+* A few simple machines are the lever, nail puller, wheelbarrow, crank, etc.
 
 ### Conceptual Questions
 
@@ -291,6 +287,7 @@ b) $$ 897 \N $$ upward
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 mechanical advantage

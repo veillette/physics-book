@@ -20,20 +20,19 @@ work is done, energy is transferred.
 For work, in the scientific sense, to be done, a force must be exerted and there
 must be displacement in the direction of the force.
 
-Formally, the **work** done on a
-system by a constant force is defined to be *the product of the component of the
-force in the direction of motion times the distance through which the force
-acts*. For one-way motion in one dimension, this is expressed in equation form
-as
+Formally, the **work** done on a system by a constant force is defined to be *
+the product of the component of the force in the direction of motion times the
+distance through which the force acts*. For one-way motion in one dimension,
+this is expressed in equation form as
 
 <div class="equation">
  $$ W= \mag{F} \left(\cos \theta \right) \mag{d} , $$
 </div>
 
-where $$ W $$ is work, $$ \mag{d} $$ is the magnitude of the displacement of the system, and
-$$ \theta $$ is the angle between the force vector $$ \vb{F} $$ and the
-displacement vector $$ \vb{d} $$, as in [Figure 1](#fig1).
-We can also write this as
+where $$ W $$ is work, $$ \mag{d} $$ is the magnitude of the displacement of the
+system, and $$ \theta $$ is the angle between the force vector $$ \vb{F} $$ and
+the displacement vector $$ \vb{d} $$, as in [Figure 1](#fig1). We can also write
+this as
 
 <div class="equation">
  $$ W=Fd\cos{\theta} . $$
@@ -61,43 +60,40 @@ and the displacement vector $$ \vb{d} $$.
 </div>
 
 ![Five drawings labeled a through e. In (a), person pushing a lawn mower with a force F. Force is represented by a vector making an angle theta with the horizontal and displacement of the mower is represented by vector d. The component of vector F along vector d is F cosine theta. Work done by the person W is equal to F d cosine theta. (b) A person is standing with a briefcase in his hand. The force F shown by a vector arrow pointing upwards starting from the handle of briefcase and the displacement d is equal to zero.
-(c) A person is walking holding the briefcase in his hand. Force vector F is in the vertical direction starting from the handle of briefcase and displacement vector d is in horizontal direction starting from the same point as vector F. The angle between F and d theta is equal to 90 degrees. Cosine theta is equal to zero. (d) A briefcase is shown in front of a set of stairs. A vector d starting from the first stair points along the incline of the stair and a force vector F is in vertical direction starting from the same point as vector d. The angle between them is theta. A component of vector F along vector d is F d cosine theta. (e) A briefcase is shown lowered vertically down from an electric generator. The displacement vector d points downwards and force vector F points upwards acting on the briefcase.](../resources/Figure_08_02_01.jpg "Examples of work. (a) The work done by the force \( F \)  on this lawn mower is \( F d \cos{ \theta} \) . Note that \( F \cos{ \theta} \) is the component of the force in the direction of motion. (b) A person holding a briefcase does no work on it, because there is no displacement. No energy is transferred to or from the briefcase.
-(c) The person moving the briefcase horizontally at a constant speed does no work on it, and transfers no energy to it. (d) Work is done on the briefcase by carrying it up stairs at constant speed, because there is necessarily a component of force \( F \)  in the direction of the motion. Energy is transferred to the briefcase and could in turn be used to do work. (e) When the briefcase is lowered, energy is transferred out of the briefcase and into an electric generator. Here the work done on the briefcase by the generator is negative, removing energy from the briefcase, because \( F \)  and \( d \)  are in opposite directions.")
+(c) A person is walking holding the briefcase in his hand. Force vector F is in the vertical direction starting from the handle of briefcase and displacement vector d is in horizontal direction starting from the same point as vector F. The angle between F and d theta is equal to 90 degrees. Cosine theta is equal to zero. (d) A briefcase is shown in front of a set of stairs. A vector d starting from the first stair points along the incline of the stair and a force vector F is in vertical direction starting from the same point as vector d. The angle between them is theta. A component of vector F along vector d is F d cosine theta. (e) A briefcase is shown lowered vertically down from an electric generator. The displacement vector d points downwards and force vector F points upwards acting on the briefcase.](../resources/Figure_08_02_01.jpg "Examples of work. (a) The work done by the force \( F \) on this lawn mower is \( F d \cos{ \theta} \) . Note that \( F \cos{ \theta} \) is the component of the force in the direction of motion. (b) A person holding a briefcase does no work on it, because there is no displacement. No energy is transferred to or from the briefcase.
+(c) The person moving the briefcase horizontally at a constant speed does no work on it, and transfers no energy to it. (d) Work is done on the briefcase by carrying it up stairs at constant speed, because there is necessarily a component of force \( F \) in the direction of the motion. Energy is transferred to the briefcase and could in turn be used to do work. (e) When the briefcase is lowered, energy is transferred out of the briefcase and into an electric generator. Here the work done on the briefcase by the generator is negative, removing energy from the briefcase, because \( F \) and \( d \) are in opposite directions.")
 {: #fig1}
 
 To examine what the definition of work means, let us consider the other
-situations shown in [Figure 1](#fig1). The person holding the
-briefcase in [Figure 1](#fig1)(b) does no work, for example.
-Here $$ d=0 $$, so $$ W=0 $$. Why is it you get tired just holding a load? The
-answer is that your muscles are doing work against one another, *but they are
-doing no work on the system of interest* (the “briefcase-Earth
-system”—see [Gravitational Potential Energy](../contents/ch7GravitationalPotentialEnergy.md) for more
-details).
-There must be displacement for work to be done, and there must be a component
-of the force in the direction of the motion. For example, the person carrying
-the briefcase on level ground in [Figure 1](#fig1)
-(c) does no  work on it, because the force is perpendicular to the motion.
-That is, $$\cos{90^\circ} =0 $$, and so $$ W=0 $$.
+situations shown in [Figure 1](#fig1). The person holding the briefcase
+in [Figure 1](#fig1)(b) does no work, for example. Here $$ d=0 $$, so $$ W=0 $$.
+Why is it you get tired just holding a load? The answer is that your muscles are
+doing work against one another, *but they are doing no work on the system of
+interest* (the “briefcase-Earth
+system”—see [Gravitational Potential Energy](../contents/ch7GravitationalPotentialEnergy.md)
+for more details). There must be displacement for work to be done, and there
+must be a component of the force in the direction of the motion. For example,
+the person carrying the briefcase on level ground in [Figure 1](#fig1)
+(c) does no work on it, because the force is perpendicular to the motion. That
+is, $$\cos{90^\circ} =0 $$, and so $$ W=0 $$.
 
 In contrast, when a force exerted on the system has a component in the direction
 of motion, such as in [Figure 1](#fig1)(d), work *is*
-done—energy is transferred to the briefcase. Finally,
-in [Figure 1](#fig1)(e), energy is transferred from the
-briefcase to a generator. There are two good ways to interpret this energy
-transfer. One interpretation is that the briefcase’s weight does work on the
-generator, giving it energy. The other interpretation is that the generator does
-negative work on the briefcase, thus removing energy from it. The drawing shows
-the latter, with the force from the generator upward on the briefcase, and the
-displacement downward. This makes $$ \theta =180^\circ $$, and $$ \cos
-180^\circ=-1 $$; therefore, $$ W $$ is negative.
+done—energy is transferred to the briefcase. Finally, in [Figure 1](#fig1)(e),
+energy is transferred from the briefcase to a generator. There are two good ways
+to interpret this energy transfer. One interpretation is that the briefcase’s
+weight does work on the generator, giving it energy. The other interpretation is
+that the generator does negative work on the briefcase, thus removing energy
+from it. The drawing shows the latter, with the force from the generator upward
+on the briefcase, and the displacement downward. This makes $$ \theta =180^\circ
+$$, and $$ \cos 180^\circ=-1 $$; therefore, $$ W $$ is negative.
 
 ### Calculating Work
 
 Work and energy have the same units. From the definition of work, we see that
 those units are force times distance. Thus, in SI units, work and energy are
-measured in **newton-meters**. A
-newton-meter is given the special name **joule** (J), and $$ 1 \J =1\N \cdot
-\m =1\kg \cdot \mmss $$. One joule is not a
+measured in **newton-meters**. A newton-meter is given the special name **
+joule** (J), and $$ 1 \J =1\N \cdot \m =1\kg \cdot \mmss $$. One joule is not a
 large amount of energy; it would lift a small 100-gram apple a distance of about
 1 meter.
 
@@ -159,16 +155,17 @@ chemical energy in fat.
 
 * Work is the transfer of energy by a force acting on an object as it is
   displaced.
-* The work $$ W $$ that a force $$ \vb{F} $$ does on an object is the
-  product of the magnitude $$ F $$ of the force, times the magnitude $$ d $$ of
-  the displacement, times the cosine of the angle $$ \theta $$ between them. In
+* The work $$ W $$ that a force $$ \vb{F} $$ does on an object is the product of
+  the magnitude $$ F $$ of the force, times the magnitude $$ d $$ of the
+  displacement, times the cosine of the angle $$ \theta $$ between them. In
   symbols,
   <div class="equation">
- $$ W=F d \cos{\theta} . $$
+
+$$ W=F d \cos{\theta} . $$
   </div>
 
-* The SI unit for work and energy is the joule (J), where $$
-  1 \J =1\N \cdot \m =1 \kg \cdot \mmss $$.
+* The SI unit for work and energy is the joule (J), where $$ 1 \J =1\N \cdot \m
+  =1 \kg \cdot \mmss $$.
 * The work done by a force is zero if the displacement is either zero or
   perpendicular to the force.
 * The work done is positive if the force and displacement have the same
@@ -325,6 +322,7 @@ coefficient of friction between the sled and the snow is 0.100.
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 energy

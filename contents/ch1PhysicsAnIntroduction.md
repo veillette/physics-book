@@ -51,23 +51,22 @@ theory).
 Science consists of the theories and laws that are the general truths of nature
 as well as the body of knowledge they encompass. Scientists are continually
 trying to expand this body of knowledge and to perfect the expression of the
-laws that describe it. **Physics** is
-concerned with describing the interactions of energy, matter, space, and time,
-and it is especially interested in what fundamental mechanisms underlie every
-phenomenon. The concern for describing the basic phenomena in nature essentially
-defines the **realm of physics**.
+laws that describe it. **Physics** is concerned with describing the interactions
+of energy, matter, space, and time, and it is especially interested in what
+fundamental mechanisms underlie every phenomenon. The concern for describing the
+basic phenomena in nature essentially defines the **realm of physics**.
 
 Physics aims to describe the function of everything around us, from the movement
 of tiny charged particles to the motion of people, cars, and spaceships. In
 fact, almost everything around you can be described quite accurately by the laws
-of physics. Consider a smart phone ([Figure 2](#fig2)). Physics
-describes how electricity interacts with the various circuits inside the device.
-This knowledge helps engineers select the appropriate materials and circuit
-layout when building the smart phone. Next, consider a GPS system. Physics
-describes the relationship between the speed of an object, the distance over
-which it travels, and the time it takes to travel that distance. When you use a
-GPS device in a vehicle, it utilizes these physics equations to determine the
-travel time from one location to another.
+of physics. Consider a smart phone ([Figure 2](#fig2)). Physics describes how
+electricity interacts with the various circuits inside the device. This
+knowledge helps engineers select the appropriate materials and circuit layout
+when building the smart phone. Next, consider a GPS system. Physics describes
+the relationship between the speed of an object, the distance over which it
+travels, and the time it takes to travel that distance. When you use a GPS
+device in a vehicle, it utilizes these physics equations to determine the travel
+time from one location to another.
 
 ![A topographical map of a location is shown on an iPhone with some information about the location using the G P S system.](../resources/Figure_01_01_02_aa.jpg "The Apple &#x201C;iPhone&#x201D; is a common smart phone with a GPS function. Physics describes the way that electricity flows through the circuits of this device. Engineers use their knowledge of physics to construct an iPhone with features that consumers will enjoy. One specific feature of an iPhone is the GPS function. GPS uses physics equations to determine the driving time between two locations on a map. (credit: @gletham GIS, Social, Mobile Tech Images)&#10;                ")
 {: #fig2 height="250"}
@@ -77,14 +76,14 @@ travel time from one location to another.
 You need not be a scientist to use physics. On the contrary, knowledge of
 physics is useful in everyday situations as well as in nonscientific
 professions. It can help you understand how microwave ovens work, why metals
-should not be put into them, and why they might affect pacemakers. 
-(See [Figure 3](#fig3) and [Figure 4](#fig4).) Physics allows you to understand the
-hazards of radiation and rationally evaluate these hazards more easily. Physics
-also explains the reason why a black car radiator helps remove heat in a car
-engine, and it explains why a white roof helps keep the inside of a house cool.
-Similarly, the operation of a car’s ignition system as well as the transmission
-of electrical signals through our body’s nervous system are much easier to
-understand when you think about them in terms of basic physics.
+should not be put into them, and why they might affect pacemakers.
+(See [Figure 3](#fig3) and [Figure 4](#fig4).) Physics allows you to understand
+the hazards of radiation and rationally evaluate these hazards more easily.
+Physics also explains the reason why a black car radiator helps remove heat in a
+car engine, and it explains why a white roof helps keep the inside of a house
+cool. Similarly, the operation of a car’s ignition system as well as the
+transmission of electrical signals through our body’s nervous system are much
+easier to understand when you think about them in terms of basic physics.
 
 Physics is the foundation of many important disciplines and contributes directly
 to others. Chemistry, for example—since it deals with the interactions of atoms
@@ -98,9 +97,9 @@ physics and other disciplines.
 
 Physics has many applications in the biological sciences. On the microscopic
 level, it helps describe the properties of cell walls and cell
-membranes ([Figure 5](#fig5) and [Figure 6](#fig6)). On the macroscopic level, it can
-explain the heat, work, and power associated with the human body. Physics is
-involved in medical diagnostics, such as x-rays, magnetic resonance imaging (
+membranes ([Figure 5](#fig5) and [Figure 6](#fig6)). On the macroscopic level,
+it can explain the heat, work, and power associated with the human body. Physics
+is involved in medical diagnostics, such as x-rays, magnetic resonance imaging (
 MRI), and ultrasonic blood flow measurements. Medical therapy sometimes directly
 involves physics; for example, cancer radiotherapy uses ionizing radiation.
 Physics can also explain sensory phenomena, such as how musical instruments make
@@ -152,19 +151,19 @@ ideas about how the data may be organized and unified. We then formulate models,
 theories, and laws based on the data we have collected and analyzed to
 generalize and communicate the results of these experiments.
 
-A **model** is a representation of
-something that is often too difficult (or impossible) to display directly. While
-a model is justified with experimental proof, it is only accurate under limited
-situations. An example is the planetary model of the atom in which electrons are
-pictured as orbiting the nucleus, analogous to the way planets orbit the Sun. (
-See [Figure 9](#fig9).) We cannot observe electron orbits
-directly, but the mental image helps explain the observations we can make, such
-as the emission of light from hot gases (atomic spectra). Physicists use models
-for a variety of purposes. For example, models can help physicists analyze a
-scenario and perform a calculation, or they can be used to represent a situation
-in the form of a computer simulation. A **theory** is an explanation for patterns in nature that is
-supported by scientific evidence and verified multiple times by various groups
-of researchers. Some theories include models to help visualize phenomena,
+A **model** is a representation of something that is often too difficult (or
+impossible) to display directly. While a model is justified with experimental
+proof, it is only accurate under limited situations. An example is the planetary
+model of the atom in which electrons are pictured as orbiting the nucleus,
+analogous to the way planets orbit the Sun. (
+See [Figure 9](#fig9).) We cannot observe electron orbits directly, but the
+mental image helps explain the observations we can make, such as the emission of
+light from hot gases (atomic spectra). Physicists use models for a variety of
+purposes. For example, models can help physicists analyze a scenario and perform
+a calculation, or they can be used to represent a situation in the form of a
+computer simulation. A **theory** is an explanation for patterns in nature that
+is supported by scientific evidence and verified multiple times by various
+groups of researchers. Some theories include models to help visualize phenomena,
 whereas others do not. Newton’s theory of gravity, for example, does not require
 a model or mental image, because we can observe the objects directly with our
 own senses. The kinetic theory of gases, on the other hand, is a model in which
@@ -172,33 +171,29 @@ a gas is viewed as being composed of atoms and molecules. Atoms and molecules
 are too small to be observed directly with our senses—thus, we picture them
 mentally to understand what our instruments tell us about the behavior of gases.
 
-A **law** uses concise language to
-describe a generalized pattern in nature that is supported by scientific
-evidence and repeated experiments. Often, a law can be expressed in the form of
-a single mathematical equation. Laws and theories are similar in that they are
-both scientific statements that result from a tested hypothesis and are
-supported by scientific evidence. However, the designation **law** is reserved
-for a concise and very general statement that describes phenomena in nature,
-such as the law that energy is conserved during any process, or Newton’s second
-law of motion, which relates force, mass, and acceleration by the simple
-equation $$ \vb{F}=m\vb{a} $$. A theory, in contrast, is a less concise
-statement of observed phenomena. For example, the Theory of Evolution and the
-Theory of Relativity cannot be expressed concisely enough to be considered a
-law. The biggest difference between a law and a theory is that a theory is much
-more complex and dynamic. A law describes a single action, whereas a theory
-explains an entire group of related phenomena. And, whereas a law is a postulate
-that forms the foundation of the scientific method, a theory is the end result
-of that process.
+A **law** uses concise language to describe a generalized pattern in nature that
+is supported by scientific evidence and repeated experiments. Often, a law can
+be expressed in the form of a single mathematical equation. Laws and theories
+are similar in that they are both scientific statements that result from a
+tested hypothesis and are supported by scientific evidence. However, the
+designation **law** is reserved for a concise and very general statement that
+describes phenomena in nature, such as the law that energy is conserved during
+any process, or Newton’s second law of motion, which relates force, mass, and
+acceleration by the simple equation $$ \vb{F}=m\vb{a} $$. A theory, in contrast,
+is a less concise statement of observed phenomena. For example, the Theory of
+Evolution and the Theory of Relativity cannot be expressed concisely enough to
+be considered a law. The biggest difference between a law and a theory is that a
+theory is much more complex and dynamic. A law describes a single action,
+whereas a theory explains an entire group of related phenomena. And, whereas a
+law is a postulate that forms the foundation of the scientific method, a theory
+is the end result of that process.
 
 Less broadly applicable statements are usually called principles (such as
 Pascal’s principle, which is applicable only in fluids), but the distinction
 between laws and principles often is not carefully made.
 
-![A planetary model of an atom with a positively charged nucleus at the 
-center and negatively charged particles moving in orbits
-around the nucleus.](../resources/Figure_01_atom.svg "What is a model? This planetary model of the atom shows 
-electrons orbiting the nucleus. It is a drawing that we use to form a mental 
-image of the atom that we cannot see directly with our eyes because it is too small."){: #fig9 height="150"}
+![A planetary model of an atom with a positively charged nucleus at the center and negatively charged particles moving in orbits around the nucleus.](../resources/Figure_01_atom.svg "What is a model? This planetary model of the atom shows electrons orbiting the nucleus. It is a drawing that we use to form a mental image of the atom that we cannot see directly with our eyes because it is too small.")
+{: #fig9 height="150"}
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -265,11 +260,10 @@ including astronomy, biology, chemistry, physics, mathematics, and medicine.
 Over the last few centuries, the growth of knowledge has resulted in
 ever-increasing specialization and branching of natural philosophy into separate
 fields, with physics retaining the most basic facets. (
-See [Figure 10](#fig10), [Figure 11](#fig11),
-and [Figure 12](#fig12).) Physics as it developed from the
-Renaissance to the end of the 19th century is called **classical physics**. It was transformed into modern
-physics by revolutionary discoveries made starting at the beginning of the 20th
-century.
+See [Figure 10](#fig10), [Figure 11](#fig11), and [Figure 12](#fig12).) Physics
+as it developed from the Renaissance to the end of the 19th century is called **
+classical physics**. It was transformed into modern physics by revolutionary
+discoveries made starting at the beginning of the 20th century.
 
 ![A marble statue of Aristotle.](../resources/Figure_01_01_10_aa.jpg "Over the centuries, natural philosophy has evolved into more specialized disciplines, as illustrated by the contributions of some of the greatest minds in history. The Greek philosopher Aristotle (384&#x2013;322 B.C.) wrote on a broad range of topics including physics, animals, the soul, politics, and poetry. (credit: Jastrow (2006)/Ludovisi Collection)&#10;                ")
 {: #fig10 height="225"}
@@ -318,21 +312,21 @@ an extremely accurate description of the universe under a wide range of everyday
 circumstances, and knowledge of classical physics is necessary to understand
 modern physics.
 
-**Modern physics** itself consists of
-the two revolutionary theories, relativity and quantum mechanics. These theories
-deal with the very fast and the very small, respectively.
-**Relativity** must be used whenever
-an object is traveling at greater than about 1% of the speed of light or
-experiences a strong gravitational field such as that near the Sun.
-**Quantum mechanics** must be used
-for objects smaller than can be seen with a microscope. The combination of these
-two theories is *relativistic quantum mechanics,* and it describes the behavior
-of small objects traveling at high speeds or experiencing a strong gravitational
-field. Relativistic quantum mechanics is the best universally applicable theory
-we have. Because of its mathematical complexity, it is used only when necessary,
-and the other theories are used whenever they will produce sufficiently accurate
-results. We will find, however, that we can do a great deal of modern physics
-with the algebra and trigonometry used in this text.
+**Modern physics** itself consists of the two revolutionary theories, relativity
+and quantum mechanics. These theories deal with the very fast and the very
+small, respectively.
+**Relativity** must be used whenever an object is traveling at greater than
+about 1% of the speed of light or experiences a strong gravitational field such
+as that near the Sun.
+**Quantum mechanics** must be used for objects smaller than can be seen with a
+microscope. The combination of these two theories is *relativistic quantum
+mechanics,* and it describes the behavior of small objects traveling at high
+speeds or experiencing a strong gravitational field. Relativistic quantum
+mechanics is the best universally applicable theory we have. Because of its
+mathematical complexity, it is used only when necessary, and the other theories
+are used whenever they will produce sufficiently accurate results. We will find,
+however, that we can do a great deal of modern physics with the algebra and
+trigonometry used in this text.
 
 <div class="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
 <div class="title">
@@ -368,13 +362,13 @@ Graphing Quadratics
 
 ### Summary
 
-* Science seeks to discover and describe the
-  underlying order and simplicity in nature.
-* Physics is the most basic of the sciences,
-  concerning itself with energy, matter, space and time, and their interactions.
-* Scientific laws and theories express the general
-  truths of nature and the body of knowledge they encompass. These laws of
-  nature are rules that all natural processes appear to follow.
+* Science seeks to discover and describe the underlying order and simplicity in
+  nature.
+* Physics is the most basic of the sciences, concerning itself with energy,
+  matter, space and time, and their interactions.
+* Scientific laws and theories express the general truths of nature and the body
+  of knowledge they encompass. These laws of nature are rules that all natural
+  processes appear to follow.
 
 ### Conceptual Questions
 
@@ -444,6 +438,7 @@ Can classical physics be used to accurately describe a satellite moving at a spe
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 classical physics

@@ -28,12 +28,12 @@ Hold a balloon and fill it with air. Then, let the balloon go. In which directio
 
 </div>
 
-[Figure 1](#fig1) shows a rocket accelerating straight up. In
-part (a), the rocket has a mass $$ m $$ and a velocity $$ v $$ relative to
-Earth, and hence a momentum $$ mgh $$. In part (b), a time $$ \Delta t $$ has
-elapsed in which the rocket has ejected a mass $$ \Delta m $$ of hot gas at a
-velocity $$ v_{\text{e}} $$ relative to the rocket. The remainder of the mass $$
-\left(m-\Delta m\right)
+[Figure 1](#fig1) shows a rocket accelerating straight up. In part (a), the
+rocket has a mass $$ m $$ and a velocity $$ v $$ relative to Earth, and hence a
+momentum $$ mgh $$. In part (b), a time $$ \Delta t $$ has elapsed in which the
+rocket has ejected a mass $$ \Delta m $$ of hot gas at a velocity $$ v_
+{\text{e}} $$ relative to the rocket. The remainder of the mass $$ \left(
+m-\Delta m\right)
 $$ now has a greater velocity $$ \left(v+\Delta v\right) $$. The momentum of the
 entire system (rocket plus expelled gas) has actually decreased because the
 force of gravity has acted for a time $$ \Delta t $$, producing a negative
@@ -72,23 +72,23 @@ is the mass of the ejected gas, and $$ \Delta t $$ is the time in which the gas 
 
 </div>
 
-![Picture a shows a rocket launched into space. It moves upward with velocity v in time t and the burning of fuel is also shown. After time t plus delta t the mass of fuel decreases by delta m and hence the velocity of the rocket increases to v plus delta v. The free body diagram shows the weight W of the rocket downward, reaction force upward and the resultant velocity upward too.](../resources/Figure_09_07_01a.jpg "(a) This rocket has a mass \( m \)  and an upward velocity \( v \) . The net external force on the system is \( mg \) pointing down, if air resistance is neglected. (b) A time \( \Delta t) later the system has two main parts, the ejected gas and the remainder of the rocket. The reaction force on the rocket is what overcomes the gravitational force and accelerates it upward.")
+![Picture a shows a rocket launched into space. It moves upward with velocity v in time t and the burning of fuel is also shown. After time t plus delta t the mass of fuel decreases by delta m and hence the velocity of the rocket increases to v plus delta v. The free body diagram shows the weight W of the rocket downward, reaction force upward and the resultant velocity upward too.](../resources/Figure_09_07_01a.jpg "(a) This rocket has a mass \( m \) and an upward velocity \( v \) . The net external force on the system is \( mg \) pointing down, if air resistance is neglected. (b) A time \( \Delta t) later the system has two main parts, the ejected gas and the remainder of the rocket. The reaction force on the rocket is what overcomes the gravitational force and accelerates it upward.")
 {: #fig1}
 
 A rocket’s acceleration depends on three major factors, consistent with the
-equation for acceleration of a rocket. First, the greater the
-exhaust velocity of the gases relative to the rocket, $$ v_{\text{e}} $$, the
-greater the acceleration is. The practical limit for $$ v_{\text{e}} $$ is
-about $$ 2.5\times 10^{3} \ms $$ for conventional (non-nuclear) hot-gas
-propulsion systems. The second factor is the rate at which mass is ejected from
-the rocket. This is the factor $$ \Delta m/\Delta t $$ in the equation. The
-quantity $$ \left(\Delta m/\Delta t\right)v_{\text{e}} $$, with units of
-newtons, is called \"thrust.” The faster the rocket burns its fuel, the greater
-its thrust, and the greater its acceleration. The third factor is the mass $$
-m $$ of the rocket. The smaller the mass is (all other factors being the same), the
-  greater the acceleration. The rocket mass $$ m $$ decreases dramatically during flight because most of the rocket is fuel to
-  begin with, so that acceleration increases continuously, reaching a maximum
-  just before the fuel is exhausted.
+equation for acceleration of a rocket. First, the greater the exhaust velocity
+of the gases relative to the rocket, $$ v_{\text{e}} $$, the greater the
+acceleration is. The practical limit for $$ v_{\text{e}} $$ is about $$
+2.5\times 10^{3} \ms $$ for conventional (non-nuclear) hot-gas propulsion
+systems. The second factor is the rate at which mass is ejected from the rocket.
+This is the factor $$ \Delta m/\Delta t $$ in the equation. The quantity $$
+\left(\Delta m/\Delta t\right)v_{\text{e}} $$, with units of newtons, is called
+\"thrust.” The faster the rocket burns its fuel, the greater its thrust, and the
+greater its acceleration. The third factor is the mass $$ m $$ of the rocket.
+The smaller the mass is (all other factors being the same), the greater the
+acceleration. The rocket mass $$ m $$ decreases dramatically during flight
+because most of the rocket is fuel to begin with, so that acceleration increases
+continuously, reaching a maximum just before the fuel is exhausted.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -113,8 +113,8 @@ acceleration.
 **Strategy**
 
 This problem is a straightforward application of the expression for acceleration
-because $$ a $$ is the unknown and all of the terms on the right side of the equation are
-  given.
+because $$ a $$ is the unknown and all of the terms on the right side of the
+equation are given.
 
 **Solution**
 
@@ -155,8 +155,8 @@ that $$ v $$ is actually the change in velocity, so the equation can be used for
 any segment of the flight. If we start from rest, the change in velocity equals
 the final velocity.) For example, let us calculate the mass ratio needed to
 escape Earth’s gravity starting from rest, given that the escape velocity from
-Earth is about $$ 11.2\times 10^{3} \ms $$, and assuming an exhaust
-velocity $$ v_{\text{e}}=2.5\times 10^{3} \ms $$.
+Earth is about $$ 11.2\times 10^{3} \ms $$, and assuming an exhaust velocity $$
+v_{\text{e}}=2.5\times 10^{3} \ms $$.
 
 <div class="equation">
  $$ \ln \frac{ m_{0}}{ m_{\text{r}}}=\frac{v}{ v_{\text{e}}}=\frac{11.2\times 10^{3} \ms }{2.5\times 10^{3} \ms }=4.48 $$
@@ -188,14 +188,14 @@ to fuel becomes more favorable, too.
 
 The space shuttle was an attempt at an economical vehicle with some reusable
 parts, such as the solid fuel boosters and the craft itself. (
-See [Figure 2](#fig2)) The shuttle’s need to be operated by
-humans, however, made it at least as costly for launching satellites as
-expendable, unmanned rockets. Ideally, the shuttle would only have been used
-when human activities were required for the success of a mission, such as the
-repair of the Hubble space telescope. Rockets with satellites can also be
-launched from airplanes. Using airplanes has the double advantage that the
-initial velocity is significantly above zero and a rocket can avoid most of the
-atmosphere’s resistance.
+See [Figure 2](#fig2)) The shuttle’s need to be operated by humans, however,
+made it at least as costly for launching satellites as expendable, unmanned
+rockets. Ideally, the shuttle would only have been used when human activities
+were required for the success of a mission, such as the repair of the Hubble
+space telescope. Rockets with satellites can also be launched from airplanes.
+Using airplanes has the double advantage that the initial velocity is
+significantly above zero and a rocket can avoid most of the atmosphere’s
+resistance.
 
 ![The space shuttle is launched. It consists of the shuttle orbiter, two solid rocket boosters, and an expendable external tank. It takes off leaving much smoke and fire.](../resources/Figure_09_07_02a.jpg "The space shuttle had a number of reusable parts. Solid fuel boosters on either side were recovered and refueled after each flight, and the entire orbiter returned to Earth for use in subsequent flights. The large liquid fuel tank was expended. The space shuttle was a complex assemblage of technologies, employing both solid and liquid fuel and pioneering ceramic tiles as reentry heat shields. As a result, it permitted multiple launches as opposed to single-use rockets. (credit: NASA)")
 {: #fig2}
@@ -217,12 +217,11 @@ html" width="600" height="450"  allowfullscreen></iframe>
 
 ### Section Summary
 
-* Newton’s third law of motion states that to every
-  action, there is an equal and opposite reaction.
+* Newton’s third law of motion states that to every action, there is an equal
+  and opposite reaction.
 * Acceleration of a rocket is $$ a=\frac{ v_
   {\text{e}}}{m}\frac{ \Delta m}{\Delta t}-g $$.
-* A rocket’s acceleration depends on three main
-  factors. They are
+* A rocket’s acceleration depends on three main factors. They are
     1. The greater the exhaust velocity of the gases, the greater the
        acceleration.
     2. The faster the rocket burns its fuel, the greater its acceleration.
@@ -293,9 +292,8 @@ kg of gas per second at an exhaust velocity of $$ 2.50\times 10^{3} \ms $$ ?
 **Professional Application**
 
 What is the acceleration of a 5000-kg rocket taking off from the Moon, where the
-acceleration due to gravity is only $$ 1.6\mss $$, if the rocket
-expels 8.00 kg of gas per second at an exhaust velocity of $$ 2.20\times
-10^{3}\ms $$ ?
+acceleration due to gravity is only $$ 1.6\mss $$, if the rocket expels 8.00 kg
+of gas per second at an exhaust velocity of $$ 2.20\times 10^{3}\ms $$ ?
 </div>
 </div>
 
@@ -325,8 +323,8 @@ ionization techniques and nuclear energy sources to produce extremely high
 exhaust velocities, perhaps as great as $$ 8.00\times 10^{6} \ms $$. These
 techniques allow a much more favorable payload-to-fuel ratio. To illustrate this
 fact:
-(a) Calculate the increase in velocity of a 20 000-kg space probe that
-expels only 40.0-kg of its mass at the given exhaust velocity.
+(a) Calculate the increase in velocity of a 20 000-kg space probe that expels
+only 40.0-kg of its mass at the given exhaust velocity.
 (b) These engines are usually designed to produce a very small thrust for a very
 long time—the type of engine that might be useful on a trip to the outer
 planets, for example. Calculate the acceleration of such an engine if it expels
@@ -364,8 +362,8 @@ $$, where $$ m $$ is the mass of the rocket and unburnt fuel.
 (a) Calculate the maximum rate at which a rocket can expel gases if its
 acceleration cannot exceed seven times that of gravity. The mass of the rocket
 just as it runs out of fuel is 75 000-kg, and its exhaust velocity is $$
-2.40\times 10^{3} \ms $$. Assume that the acceleration of gravity is the
-same as on Earth’s surface $$ \left( 9.80\mss \right) $$.
+2.40\times 10^{3} \ms $$. Assume that the acceleration of gravity is the same as
+on Earth’s surface $$ \left( 9.80\mss \right) $$.
 (b) Why might it be necessary to limit the acceleration of a rocket?
 
 </div>
@@ -416,11 +414,12 @@ of 10.0 m/s. What is the recoil velocity of the squid if the ejection is done in
 
 Squids have been reported to jump from the ocean and travel $$ 30.0\m $$
 (measured horizontally) before re-entering the water.
-(a) Calculate the initial speed of the squid if it leaves the water at an angle of $$ 20.0^\circ $$,
-assuming negligible lift from the air and negligible air resistance.
-(b) The squid propels itself by squirting water. What fraction of its mass would it have
-to eject in order to achieve the speed found in the previous part? The water is
-ejected at $$ 12.0 \ms $$; gravitational force and friction are
+(a) Calculate the initial speed of the squid if it leaves the water at an angle
+of $$ 20.0^\circ $$, assuming negligible lift from the air and negligible air
+resistance.
+(b) The squid propels itself by squirting water. What fraction of its mass would
+it have to eject in order to achieve the speed found in the previous part? The
+water is ejected at $$ 12.0 \ms $$; gravitational force and friction are
 neglected.
 (c) What is unreasonable about the results?
 (d) Which premise is unreasonable, or which premises are inconsistent?

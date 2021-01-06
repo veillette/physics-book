@@ -11,23 +11,23 @@ layout: page
 
 Bowling pins are sent flying and spinning when hit by a bowling ball—angular
 momentum as well as linear momentum and energy have been imparted to the pins. (
-See [Figure 1](#fig1)). Many collisions involve angular
-momentum. Cars, for example, may spin and collide on ice or a wet surface.
-Baseball pitchers throw curves by putting spin on the baseball. A tennis player
-can put a lot of top spin on the tennis ball which causes it to dive down onto
-the court once it crosses the net. We now take a brief look at what happens when
-objects that can rotate collide.
+See [Figure 1](#fig1)). Many collisions involve angular momentum. Cars, for
+example, may spin and collide on ice or a wet surface. Baseball pitchers throw
+curves by putting spin on the baseball. A tennis player can put a lot of top
+spin on the tennis ball which causes it to dive down onto the court once it
+crosses the net. We now take a brief look at what happens when objects that can
+rotate collide.
 
-Consider the relatively simple collision shown
-in [Figure 2](#fig2), in which a disk strikes and adheres to an
-initially motionless stick nailed at one end to a frictionless surface. After
-the collision, the two rotate about the nail. There is an unbalanced external
-force on the system at the nail. This force exerts no torque because its lever
-arm $$ r $$ is zero. Angular momentum is therefore conserved in the collision.
-Kinetic energy is not conserved, because the collision is inelastic. It is
-possible that momentum is not conserved either because the force at the nail may
-have a component in the direction of the disk’s initial velocity. Let us examine
-a case of rotation in a collision in [Example 1](#example1).
+Consider the relatively simple collision shown in [Figure 2](#fig2), in which a
+disk strikes and adheres to an initially motionless stick nailed at one end to a
+frictionless surface. After the collision, the two rotate about the nail. There
+is an unbalanced external force on the system at the nail. This force exerts no
+torque because its lever arm $$ r $$ is zero. Angular momentum is therefore
+conserved in the collision. Kinetic energy is not conserved, because the
+collision is inelastic. It is possible that momentum is not conserved either
+because the force at the nail may have a component in the direction of the
+disk’s initial velocity. Let us examine a case of rotation in a collision
+in [Example 1](#example1).
 
 ![A bowling ball, just as it is striking the pins.](../resources/Figure_11_06_01a.jpg "The bowling ball causes the pins to fly, some of them spinning violently. (credit: Tinou Bao, Flickr)")
 {: #fig1}
@@ -199,14 +199,13 @@ nearest the nail, a forward force is exerted on the nail. Thus, striking it at a
 certain point in between produces no force on the nail. This intermediate point
 is known as the *percussion point*.
 
-An analogous situation occurs in tennis as seen
-in [Figure 3](#fig3). If you hit a ball with the end of your
-racquet, the handle is pulled away from your hand. If you hit a ball much
-farther down, for example, on the shaft of the racquet, the handle is pushed
-into your palm. And if you hit the ball at the racquet’s percussion point (what
-some people call the “sweet spot”), then little or *no* force is exerted on your
-hand, and there is less vibration, reducing chances of a tennis elbow. The same
-effect occurs for a baseball bat.
+An analogous situation occurs in tennis as seen in [Figure 3](#fig3). If you hit
+a ball with the end of your racquet, the handle is pulled away from your hand.
+If you hit a ball much farther down, for example, on the shaft of the racquet,
+the handle is pushed into your palm. And if you hit the ball at the racquet’s
+percussion point (what some people call the “sweet spot”), then little or *no*
+force is exerted on your hand, and there is less vibration, reducing chances of
+a tennis elbow. The same effect occurs for a baseball bat.
 
 ![In figure a, a disk hitting a stick is compared to a tennis ball being hit by a racquet. When the ball strikes the racquet near the end with a force denoted by f ball as shown by the direction of the arrow, a backward force, f hand is exerted on the hand, In figure b, when the racquet is struck much farther down by a force F ball, a forward force, f hand is exerted on the hand as shown by the arrows. In figure (c), when the racquet is struck by the ball with a force f ball at the percussion point, no force is delivered to the hand. This implies that f hand is equal to zero.](../resources/Figure_11_06_03.jpg "A disk hitting a stick is compared to a tennis ball being hit by a racquet. (a) When the ball strikes the racquet near the end, a backward force is exerted on the hand.
 (b) When the racquet is struck much farther down, a forward force is exerted on the hand. (c) When the racquet is struck at the percussion point, no force is delivered to the hand.")
@@ -228,14 +227,13 @@ No, energy is always scalar whether motion is involved or not. No form of energy
 
 ### Section Summary
 
-* Angular momentum $$ L $$ is analogous to linear
-  momentum and is given by $$ L=I \omega $$.
+* Angular momentum $$ L $$ is analogous to linear momentum and is given by $$
+  L=I \omega $$.
 * Angular momentum is changed by torque, following the relationship $$
- \text{net}\tau =\frac{ \Delta L}{\Delta t}. $$
-* Angular momentum is conserved if the net torque is
-  zero $$ L=\text{constant}\left( \text{net}\tau =0 \right) $$ or
- $$ L=L^{\prime} \left( \text{net}\tau = 0 \right) $$. This equation is known as
-  the law of
+  \text{net}\tau =\frac{ \Delta L}{\Delta t}. $$
+* Angular momentum is conserved if the net torque is zero $$
+  L=\text{constant}\left( \text{net}\tau =0 \right) $$ or $$ L=L^{\prime} \left(
+  \text{net}\tau = 0 \right) $$. This equation is known as the law of
   conservation of angular momentum, which may be conserved in collisions.
 
 ### Conceptual Questions
@@ -306,7 +304,8 @@ Twin skaters approach one another as shown in [Figure 4](#fig4) and lock hands.
 <div class="problem" markdown="1">
 Suppose a 0.250-kg ball is thrown at 15.0 m/s to a motionless person standing on ice who catches it with an outstretched arm as shown in [Figure 5](#fig5).
 
-(a) Calculate the final linear velocity of the person, given his mass is 70.0 kg.
+(a) Calculate the final linear velocity of the person, given his mass is 70.0
+kg.
 
 (b) What is his angular velocity if each arm is 5.00 kg? You may treat the ball
 as a point mass and treat the person's arms as uniform rods (each has a length

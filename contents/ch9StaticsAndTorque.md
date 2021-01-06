@@ -12,9 +12,10 @@ motionless relative to the Earth. Furthermore, their acceleration is zero
 because they remain motionless. That means they also have something in common
 with a car moving at a constant velocity, because anything with a constant
 velocity also has an acceleration of zero. Now, the important part—Newton’s
-second law states that net $$ \vb{F}=m \vb{a} $$, and so the net external force is zero for
-all stationary objects and for all objects moving at constant velocity. There
-are forces acting, but they are balanced. That is, they are in *equilibrium*.
+second law states that net $$ \vb{F}=m \vb{a} $$, and so the net external force
+is zero for all stationary objects and for all objects moving at constant
+velocity. There are forces acting, but they are balanced. That is, they are in *
+equilibrium*.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">

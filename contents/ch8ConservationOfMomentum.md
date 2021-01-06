@@ -13,9 +13,9 @@ layout: page
 
 Momentum is an important quantity because it is conserved. Yet it was not
 conserved in the examples in [Impulse](../contents/ch8Impulse.md)
-and [Linear Momentum and Force](../contents/ch8LinearMomentumAndForce.md), where large changes in
-momentum were produced by forces acting on the system of interest. Under what
-circumstances is momentum conserved?
+and [Linear Momentum and Force](../contents/ch8LinearMomentumAndForce.md), where
+large changes in momentum were produced by forces acting on the system of
+interest. Under what circumstances is momentum conserved?
 
 The answer to this question entails considering a sufficiently large system. It
 is always possible to find a larger system in which total momentum is constant,
@@ -28,19 +28,15 @@ be neglected in any practical sense, but it is real nevertheless.
 
 Consider what happens if the masses of two colliding objects are more similar
 than the masses of a football player and Earth—for example, one car bumping into
-another, as shown in [Figure 1](#fig1). Both cars are coasting
-in the same direction when the lead car (labeled $$ m_{2}  $$)  is
-bumped by
-the trailing car (labeled $$ m_{1} $$ ). The only unbalanced force
-on each car is the force of the collision. (Assume that the effects due to
-friction are negligible.) Car 1 slows down as a result of the collision, losing
-some momentum, while car 2 speeds up and gains some momentum. We shall now show
-that the total momentum of the two-car system remains constant.
+another, as shown in [Figure 1](#fig1). Both cars are coasting in the same
+direction when the lead car (labeled $$ m_{2} $$)  is bumped by the trailing
+car (labeled $$ m_{1} $$ ). The only unbalanced force on each car is the force
+of the collision. (Assume that the effects due to friction are negligible.) Car
+1 slows down as a result of the collision, losing some momentum, while car 2
+speeds up and gains some momentum. We shall now show that the total momentum of
+the two-car system remains constant.
 
-![A brown car with velocity V 1 and mass m 1 moves toward the right behind a tan car of velocity V 2 and mass m 2. The system of interest has a total momentum equal to the sum of individual momentums p 1 and p 2. The net force between them is zero before they collide with one another. The brown car after colliding with the tan car has velocity V 1prime and momentum p 1 prime and the light brown car moves with velocity V 2 prime and momentum p 2 prime. Both move in the same direction as before collision. This system of interest has a total momentum equal to the sum p 1 prime and p 2 prime.](../resources/Figure_09_03_01a.jpg "A car of mass  \( m_1 \)  moving with a velocity of  \( v_1 \)  bumps into another car of mass  \( m_2 \)  and velocity  \( v_2 \)  that it is following.
-As a result, the first car slows down to a velocity of \( v^\prime_1 \) and the second speeds up to a velocity of
-\( v^\prime_2 \). The momentum of each car is changed, but the total momentum  \( p_{\text{tot}} \)  of the two cars
-is the same before and after the collision (if you assume friction is negligible).")
+![A brown car with velocity V 1 and mass m 1 moves toward the right behind a tan car of velocity V 2 and mass m 2. The system of interest has a total momentum equal to the sum of individual momentums p 1 and p 2. The net force between them is zero before they collide with one another. The brown car after colliding with the tan car has velocity V 1prime and momentum p 1 prime and the light brown car moves with velocity V 2 prime and momentum p 2 prime. Both move in the same direction as before collision. This system of interest has a total momentum equal to the sum p 1 prime and p 2 prime.](../resources/Figure_09_03_01a.jpg "A car of mass \( m_1 \) moving with a velocity of \( v_1 \) bumps into another car of mass \( m_2 \) and velocity \( v_2 \) that it is following. As a result, the first car slows down to a velocity of \( v^\prime_1 \) and the second speeds up to a velocity of \( v^\prime_2 \). The momentum of each car is changed, but the total momentum \( p_{\text{tot}} \) of the two cars is the same before and after the collision (if you assume friction is negligible).")
 {: #fig1}
 
 Using the definition of impulse, the change in momentum of car 1 is given by
@@ -87,9 +83,8 @@ system is constant. That is,
  $$ p_{1}+ p_{2}={p^{\prime} }_{1}+{p^{\prime} }_{2}, $$
 </div>
 
-where $$ p^{\prime}_{1} $$ and $$ p^{\prime}_{2} $$ are the momenta of
-cars 1 and 2 after the collision. (We often use primes to denote the final
-state.)
+where $$ p^{\prime}_{1} $$ and $$ p^{\prime}_{2} $$ are the momenta of cars 1
+and 2 after the collision. (We often use primes to denote the final state.)
 
 This result—that momentum is conserved—has validity far beyond the preceding
 one-dimensional case. It can be similarly shown that total momentum is conserved
@@ -106,12 +101,11 @@ or
  $$ \vb{p}_{\text{tot}}={\vb{p}^{\prime} }_{\text{tot}}, $$
 </div>
 
-where $$ \vb{p}_{\text{tot}} $$ is the total momentum (the sum of the
-momenta of the individual objects in the system) and $$
-{\vb{p}^{\prime} }_{\text{tot}} $$ is the total momentum some time
-later. (The total momentum can be shown to be the momentum of the center of mass
-of the system.) An **isolated system** is defined to be one
-for which the net external force is zero $$ \left(\vb{F}_
+where $$ \vb{p}_{\text{tot}} $$ is the total momentum (the sum of the momenta of
+the individual objects in the system) and $$ {\vb{p}^{\prime} }_{\text{tot}} $$
+is the total momentum some time later. (The total momentum can be shown to be
+the momentum of the center of mass of the system.) An **isolated system** is
+defined to be one for which the net external force is zero $$ \left(\vb{F}_
 {\text{net}}=0\right). $$
 <div class="note" data-label="">
 <div class="title">
@@ -135,18 +129,18 @@ is zero $$ \left(\vb{F}_{\text{net}}=0\right). $$
 
 Perhaps an easier way to see that momentum is conserved for an isolated system
 is to consider Newton’s second law in terms of momentum, $$ \vb{F}_
-{\text{net}}=\frac{ \Delta \vb{p}_{\text{tot}}}{\Delta t} $$. For an
-isolated system, $$ \left(\vb{F}_{\text{net}}=0\right)
+{\text{net}}=\frac{ \Delta \vb{p}_{\text{tot}}}{\Delta t} $$. For an isolated
+system, $$ \left(\vb{F}_{\text{net}}=0\right)
 $$; thus, $$ \Delta \vb{p}_{\text{tot}}=0 $$, and $$ \vb{p}_
 {\text{tot}} $$ is constant.
 
 We have noted that the three length dimensions in nature— $$ x $$, $$ y $$, and
-$$ z $$—are independent, and it is interesting to note that momentum can be conserved
-in different ways along each dimension. For example, during projectile motion
-and where air resistance is negligible, momentum is conserved in the horizontal
-direction because horizontal forces are zero and momentum is unchanged. But
-along the vertical direction, the net vertical force is not zero and the
-momentum of the projectile is not conserved. (
+$$ z $$—are independent, and it is interesting to note that momentum can be
+conserved in different ways along each dimension. For example, during projectile
+motion and where air resistance is negligible, momentum is conserved in the
+horizontal direction because horizontal forces are zero and momentum is
+unchanged. But along the vertical direction, the net vertical force is not zero
+and the momentum of the projectile is not conserved. (
 See [Figure 2](#fig2)
 .) However, if the momentum of the projectile-Earth system is considered in the
 vertical direction, we find that the total momentum is conserved.
@@ -226,10 +220,10 @@ these measurements. Furthermore, we find that the conservation of momentum
 principle is valid when considering systems of particles. We use this principle
 to analyze the masses and other properties of previously undetected particles,
 such as the nucleus of an atom and the existence of quarks that make up
-particles of nuclei. [Figure 3](#fig3) below illustrates how a
-particle scattering backward from another implies that its target is massive and
-dense. Experiments seeking evidence that **quarks** make up protons (one type of particle that makes up
-nuclei) scattered high-energy electrons off
+particles of nuclei. [Figure 3](#fig3) below illustrates how a particle
+scattering backward from another implies that its target is massive and dense.
+Experiments seeking evidence that **quarks** make up protons (one type of
+particle that makes up nuclei) scattered high-energy electrons off
 
 of protons (nuclei of hydrogen atoms). Electrons occasionally scattered straight
 backward in a manner that implied a very small and very dense particle makes up
@@ -244,26 +238,25 @@ works so well on the large scale.
 
 * The conservation of momentum principle is written
   <div class="equation">
- $$ \vb{p}_{\text{tot}}=\text{constant} $$
+
+$$ \vb{p}_{\text{tot}}=\text{constant} $$
   </div>
 
-  or
+or
   <div class="equation">
  $$ \vb{p}_{\text{tot}}={\vb{p}^{\prime} }_{\text{tot}}\left(\text{isolated system}\right), $$
   </div>
 
- $$ \vb{p}_{\text{tot}} $$ is the initial total momentum and $$
-  {\vb{p}^{\prime} }_{\text{tot}} $$ is the total momentum some time
-  later.
-* An isolated system is defined to be one for which
-  the net external force is zero $$ \left( \vb{F}_{\text{net}}=0\right). $$
-* During projectile motion and where air resistance
-  is negligible, momentum is conserved in the horizontal direction because
-  horizontal forces are zero.
-* Conservation of momentum applies only when the net
-  external force is zero.
-* The conservation of momentum principle is valid
-  when considering systems of particles.
+$$ \vb{p}_{\text{tot}} $$ is the initial total momentum and $$ {\vb{p}^{\prime}
+}_{\text{tot}} $$ is the total momentum some time later.
+
+* An isolated system is defined to be one for which the net external force is
+  zero $$ \left( \vb{F}_{\text{net}}=0\right). $$
+* During projectile motion and where air resistance is negligible, momentum is
+  conserved in the horizontal direction because horizontal forces are zero.
+* Conservation of momentum applies only when the net external force is zero.
+* The conservation of momentum principle is valid when considering systems of
+  particles.
 
 ### Conceptual Questions
 
@@ -335,8 +328,8 @@ Must the total energy of a system be conserved whenever its momentum is conserve
 Train cars are coupled together by being bumped into one another. Suppose two
 loaded train cars are moving toward one another, the first having a mass of 150
 000 kg and a velocity of 0.300 m/s, and the second having a mass of 110 000 kg
-and a velocity of $$ -0.120  \ms $$. (The minus indicates direction of
-motion.) What is their final velocity?
+and a velocity of $$ -0.120 \ms $$. (The minus indicates direction of motion.)
+What is their final velocity?
 
 </div>
 <div class="solution" markdown="1">
@@ -396,6 +389,7 @@ A 1.80-kg falcon catches a 0.650-kg dove from behind in midair. What is their ve
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 conservation of momentum principle

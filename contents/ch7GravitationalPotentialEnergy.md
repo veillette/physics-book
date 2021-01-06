@@ -22,28 +22,27 @@ goes into an important form of stored energy that we will explore in this
 section.
 
 Let us calculate the work done in lifting an object of mass $$ m $$ through a
-height $$ h $$, such as in [Figure 1](#fig1). If the object is
-lifted straight up at constant speed, then the force needed to lift it is equal
-to its weight $$ mg $$. The work done on the mass is then $$ W = Fd = mgh
-$$. We define this to be the **gravitational potential energy** $$ \left(\PE_{\text{g}}\right) $$ 
-put into (or gained by) the
-object-Earth system. This energy is associated with the state of separation
-between two objects that attract each other by the gravitational force. For
-convenience, we refer to this as the $$ \PE_{\text{g}} $$ gained by the
-object, recognizing that this is energy stored in the gravitational field of
-Earth. Why do we use the word “system”? Potential energy is a property of a
-system rather than of a single object—due to its physical position. An object’s
-gravitational potential is due to its position relative to the surroundings
-within the Earth-object system. The force applied to the object is an external
-force, from outside the system. When it does positive work it increases the
-gravitational potential energy of the system. Because gravitational potential
-energy depends on relative position, we need a reference level at which to set
-the potential energy equal to 0. We usually choose this point to be Earth’s
-surface, but this point is arbitrary; what is important is the *difference* in
-gravitational potential energy, because this difference is what relates to the
-work done. The difference in gravitational potential energy of an object (in the
-Earth-object system) between two rungs of a ladder will be the same for the
-first two rungs as for the last two rungs.
+height $$ h $$, such as in [Figure 1](#fig1). If the object is lifted straight
+up at constant speed, then the force needed to lift it is equal to its weight $$
+mg $$. The work done on the mass is then $$ W = Fd = mgh $$. We define this to
+be the **gravitational potential energy** $$ \left(\PE_{\text{g}}\right) $$ put
+into (or gained by) the object-Earth system. This energy is associated with the
+state of separation between two objects that attract each other by the
+gravitational force. For convenience, we refer to this as the $$ \PE_{\text{g}}
+$$ gained by the object, recognizing that this is energy stored in the
+gravitational field of Earth. Why do we use the word “system”? Potential energy
+is a property of a system rather than of a single object—due to its physical
+position. An object’s gravitational potential is due to its position relative to
+the surroundings within the Earth-object system. The force applied to the object
+is an external force, from outside the system. When it does positive work it
+increases the gravitational potential energy of the system. Because
+gravitational potential energy depends on relative position, we need a reference
+level at which to set the potential energy equal to 0. We usually choose this
+point to be Earth’s surface, but this point is arbitrary; what is important is
+the *difference* in gravitational potential energy, because this difference is
+what relates to the work done. The difference in gravitational potential energy
+of an object (in the Earth-object system) between two rungs of a ladder will be
+the same for the first two rungs as for the last two rungs.
 
 ### Converting Between Potential Energy and Kinetic Energy
 
@@ -51,10 +50,10 @@ Gravitational potential energy may be converted to other forms of energy, such
 as kinetic energy. If we release the mass, gravitational force will do an amount
 of work equal to $$ mgh $$ on it, thereby increasing its kinetic energy by that
 same amount (by the work-energy theorem). We will find it more useful to
-consider just the conversion of $$ \PE_{\text{g}} $$ to $$ \KE $$
-without explicitly considering the intermediate step of work. (
-See [Example 2](#example2).) This shortcut makes it is easier to solve
-problems using energy (if possible) rather than explicitly using forces.
+consider just the conversion of $$ \PE_{\text{g}} $$ to $$ \KE $$ without
+explicitly considering the intermediate step of work. (
+See [Example 2](#example2).) This shortcut makes it is easier to solve problems
+using energy (if possible) rather than explicitly using forces.
 
 ![(a) The weight attached to the cuckoo clock is raised by a height h shown by a displacement vector d pointing upward. The weight is attached to a winding chain labeled with a force F vector pointing downward. Vector d is also shown in the same direction as force F. E in is equal to W and W is equal to m g h. (b) The weight attached to the cuckoo clock moves downward. E out is equal to m g h.](../resources/Figure_08_03_01a.jpg "(a) The work done to lift the weight is stored in the mass-Earth system as gravitational potential energy. (b) As the weight moves downward, this gravitational potential energy is transferred to the cuckoo clock.")
 {: #fig1}
@@ -87,11 +86,9 @@ gravity that does the work*.
 
 ### Using Potential Energy to Simplify Calculations
 
-The equation $$ \Delta \PE_{\text{g}}=mgh $$ applies for any path that
-has a change in height of $$ h $$, not just when the mass is lifted straight
-up. (
-See [Figure 2](#fig2).) It is much easier to calculate $$ mgh
-$$
+The equation $$ \Delta \PE_{\text{g}}=mgh $$ applies for any path that has a
+change in height of $$ h $$, not just when the mass is lifted straight up. (
+See [Figure 2](#fig2).) It is much easier to calculate $$ mgh $$
 (a simple multiplication) than it is to calculate the work done along a
 complicated path. The idea of gravitational potential energy has the double
 advantage that it is very broadly applicable and it makes calculations easier.
@@ -100,7 +97,7 @@ mass $$ m $$ is accompanied by a change in gravitational potential energy $$ mgh
 $$, and we will avoid the equivalent but more difficult task of calculating work
 done by or against the gravitational force.
 
-![There is a four-story building. A person is carrying a television up the stairs of the building. The height of third story is h from the ground. A girl is standing outside the building and is lifting a similar television with the help of a pulley.](../resources/Figure_08_03_02a.jpg "The change in gravitational potential energy \( (\Delta \PE_\text{g} ) \)   between points A and B is independent of the path. \( \Delta \PE_\text{g} =mgh \) for any path between the two points. Gravity is one of a small class of forces where the work done by or against the force depends only on the starting and ending points, not on the path between them.")
+![There is a four-story building. A person is carrying a television up the stairs of the building. The height of third story is h from the ground. A girl is standing outside the building and is lifting a similar television with the help of a pulley.](../resources/Figure_08_03_02a.jpg "The change in gravitational potential energy \( (\Delta \PE_\text{g} ) \) between points A and B is independent of the path. \( \Delta \PE_\text{g} =mgh \) for any path between the two points. Gravity is one of a small class of forces where the work done by or against the force depends only on the starting and ending points, not on the path between them.")
 {: #fig2}
 
 <div class="example" id="example1" markdown="1">
@@ -113,9 +110,9 @@ compressing by 0.500 cm), calculate the force on the knee joints.
 **Strategy**
 
 This person’s energy is brought to zero in this situation by the work done on
-him by the floor as he stops. The initial $$ \PE_{\text{g}} $$ is
-transformed into $$ \KE $$ as he falls. The work done by the floor reduces
-this kinetic energy to zero.
+him by the floor as he stops. The initial $$ \PE_{\text{g}} $$ is transformed
+into $$ \KE $$ as he falls. The work done by the floor reduces this kinetic
+energy to zero.
 
 **Solution**
 
@@ -177,7 +174,7 @@ Finding the Speed of a Roller Coaster from its Height
 (a) What is the final speed of the roller coaster shown in [Figure 3](#fig3) if it starts from rest at the top of the 20.0 m hill and work done by frictional forces is negligible?
 (b) What is its final speed (again assuming negligible friction) if its initial speed is 5.00 m/s?
 
-![A roller coaster track is shown with a car about to go downhill. The initial height of the roller coaster car on the track is twenty-five meters from the lowest part of the track and its speed v sub zero is equal to zero. The roller coaster&#x2019;s height from the level part of the track is twenty meters. The finish point of the car is on the level part of the track and the speed at that point is unknown.](../resources/Figure_08_03_04a.jpg "The speed of a roller coaster increases as gravity pulls it downhill and is greatest at its lowest point. Viewed in terms of energy, the roller-coaster-Earth system&#x2019;s gravitational potential energy is converted to kinetic energy. If work done by friction is negligible, all \( \Delta \PE_\text{g} \)  is converted to \( \Delta \KE \) .")
+![A roller coaster track is shown with a car about to go downhill. The initial height of the roller coaster car on the track is twenty-five meters from the lowest part of the track and its speed v sub zero is equal to zero. The roller coaster&#x2019;s height from the level part of the track is twenty meters. The finish point of the car is on the level part of the track and the speed at that point is unknown.](../resources/Figure_08_03_04a.jpg "The speed of a roller coaster increases as gravity pulls it downhill and is greatest at its lowest point. Viewed in terms of energy, the roller-coaster-Earth system&#x2019;s gravitational potential energy is converted to kinetic energy. If work done by friction is negligible, all \( \Delta \PE_\text{g} \) is converted to \( \Delta \KE \) .")
 {: #fig4 height="200"}
 
 **Strategy**
@@ -188,17 +185,17 @@ which is perpendicular to the direction of motion and does no work. The net work
 on the roller coaster is then done by gravity alone. The *loss* of gravitational
 potential energy from moving *downward*
 through a distance $$ h $$ equals the *gain* in kinetic energy. This can be
-written in equation form as $$ -\Delta \PE_{\text{g}}=\Delta \KE
-$$. Using the equations for $$ \PE_{\text{g}} $$ and $$ \KE $$, we
-can solve for the final speed $$ v $$, which is the desired quantity.
+written in equation form as $$ -\Delta \PE_{\text{g}}=\Delta \KE $$. Using the
+equations for $$ \PE_{\text{g}} $$ and $$ \KE $$, we can solve for the final
+speed $$ v $$, which is the desired quantity.
 
 **Solution for (a)**
 
 Here the initial kinetic energy is zero, so that $$ \Delta \KE=\frac{1}{2}m
-v^{2} $$. The equation for change in potential energy states that $$
-\Delta \PE_{\text{g}}=mgh $$. Since $$ h $$ is negative in this case, we will
-rewrite this as $$ \Delta \PE_{\text{g}}=-mg \mid h\mid $$ to show the minus
-sign clearly. Thus,
+v^{2} $$. The equation for change in potential energy states that $$ \Delta \PE_
+{\text{g}}=mgh $$. Since $$ h $$ is negative in this case, we will rewrite this
+as $$ \Delta \PE_{\text{g}}=-mg \mid h\mid $$ to show the minus sign clearly.
+Thus,
 
 <div class="equation">
  $$ -\Delta \PE_{\text{g}}=\Delta \KE $$
@@ -225,8 +222,8 @@ v&=&19.6 \ms .
 **Solution for (b)**
 
 Again $$ -\Delta \PE_{\text{g}}=\Delta \KE $$. In this case there is initial
-kinetic energy, so $$ \Delta \KE=\frac{1}{2}m v^{2}-\frac{1}{2}m v_{0}^{2}
-$$. Thus,
+kinetic energy, so $$ \Delta \KE=\frac{1}{2}m v^{2}-\frac{1}{2}m v_{0}^{2} $$.
+Thus,
 
 <div class="equation">
  $$ mg \mid h\mid =\frac{1}{2}m v^{2}-\frac{1}{2}m v_{0}^{2}. $$
@@ -291,18 +288,17 @@ One can study the conversion of gravitational potential energy into kinetic ener
 
 ### Section Summary
 
-* Work done against gravity in lifting an object
-  becomes potential energy of the object-Earth system.
-* The change in gravitational potential energy, $$
- \Delta \PE_{\text{g}} $$, is $$ \Delta \PE_{g}=mgh $$, with $$ h
- $$ being the increase in height and $$ g $$ the acceleration due to gravity.
-* The gravitational potential energy of an object
-  near Earth’s surface is due to its position in the mass-Earth system. Only
-  differences in gravitational potential energy, $$ \Delta \PE_{g} $$, have
-  physical significance.
-* As an object descends without friction, its
-  gravitational potential energy changes into kinetic energy corresponding to
-  increasing speed, so that $$ \Delta \KE=-\Delta \PE_{\text{g}} $$.
+* Work done against gravity in lifting an object becomes potential energy of the
+  object-Earth system.
+* The change in gravitational potential energy, $$ \Delta \PE_{\text{g}} $$, is
+  $$ \Delta \PE_{g}=mgh $$, with $$ h $$ being the increase in height and $$ g
+  $$ the acceleration due to gravity.
+* The gravitational potential energy of an object near Earth’s surface is due to
+  its position in the mass-Earth system. Only differences in gravitational
+  potential energy, $$ \Delta \PE_{g} $$, have physical significance.
+* As an object descends without friction, its gravitational potential energy
+  changes into kinetic energy corresponding to increasing speed, so that $$
+  \Delta \KE=-\Delta \PE_{\text{g}} $$.
 
 ### Conceptual Questions
 
@@ -408,6 +404,7 @@ slope neglecting friction:
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 gravitational potential energy

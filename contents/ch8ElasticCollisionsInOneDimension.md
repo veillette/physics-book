@@ -17,11 +17,11 @@ in collisions. The conservation of momentum principle is very useful here, and
 it can be used whenever the net external force on a system is zero.
 
 We start with the elastic collision of two objects moving along the same line—a
-one-dimensional problem. An **elastic collision** is one that also conserves internal kinetic energy.
-**Internal kinetic energy** is the sum
-of the kinetic energies of the objects in the
-system. [Figure 1](#fig1) illustrates an elastic collision in
-which internal kinetic energy and momentum are conserved.
+one-dimensional problem. An **elastic collision** is one that also conserves
+internal kinetic energy.
+**Internal kinetic energy** is the sum of the kinetic energies of the objects in
+the system. [Figure 1](#fig1) illustrates an elastic collision in which internal
+kinetic energy and momentum are conserved.
 
 Truly elastic collisions can only be achieved with subatomic particles, such as
 electrons striking nuclei. Macroscopic collisions can be very nearly, but not
@@ -45,7 +45,8 @@ An **elastic collision** is one that conserves internal kinetic energy.
 Internal Kinetic Energy
 </div>
 
-**Internal kinetic energy** is the sum of the kinetic energies of the objects in the system.
+**Internal kinetic energy** is the sum of the kinetic energies of the objects in
+the system.
 
 </div>
 
@@ -92,14 +93,13 @@ Calculate the velocities of two objects following an elastic collision, given th
 
 First, visualize what the initial conditions mean—a small object strikes a
 larger object that is initially at rest. This situation is slightly simpler than
-the situation shown in [Figure 1](#fig1) where both objects are
-initially moving. We are asked to find two unknowns (the final velocities $$
-v^{\prime}_{1} $$ and $$ v^{\prime}_{2} $$).
-To find two unknowns, we must use two independent equations. Because this
-collision is elastic, we can use the above two equations. Both can be simplified
-by the fact that object 2 is initially at rest, and thus $$ v_{2}=0 $$. Once we
-simplify these equations, we combine them algebraically to solve for the
-unknowns.
+the situation shown in [Figure 1](#fig1) where both objects are initially
+moving. We are asked to find two unknowns (the final velocities $$ v^{\prime}_
+{1} $$ and $$ v^{\prime}_{2} $$). To find two unknowns, we must use two
+independent equations. Because this collision is elastic, we can use the above
+two equations. Both can be simplified by the fact that object 2 is initially at
+rest, and thus $$ v_{2}=0 $$. Once we simplify these equations, we combine them
+algebraically to solve for the unknowns.
 
 **Solution**
 
@@ -196,11 +196,10 @@ Masses and Springs
 
 ### Section Summary
 
-* An elastic collision is one that conserves internal
-  kinetic energy.
-* Conservation of kinetic energy and momentum
-  together allow the final velocities to be calculated in terms of initial
-  velocities and masses in one dimensional two-body collisions.
+* An elastic collision is one that conserves internal kinetic energy.
+* Conservation of kinetic energy and momentum together allow the final
+  velocities to be calculated in terms of initial velocities and masses in one
+  dimensional two-body collisions.
 
 ### Conceptual Questions
 
@@ -225,10 +224,9 @@ Two identical objects (such as billiard balls) have a one-dimensional collision 
 **Professional Application**
 
 Two manned satellites approach one another at a relative speed of 0.250 m/s,
-intending to dock. The first has a mass of $$ 4.00 \times 10^{3}\kg $$,
-and the second a mass of $$ 7.50 \times 10^{3}\kg $$. If the two
-satellites collide elastically rather than dock, what is their final relative
-velocity?
+intending to dock. The first has a mass of $$ 4.00 \times 10^{3}\kg $$, and the
+second a mass of $$ 7.50 \times 10^{3}\kg $$. If the two satellites collide
+elastically rather than dock, what is their final relative velocity?
 
 </div>
 <div class="solution" markdown="1">
@@ -247,6 +245,7 @@ A 70.0-kg ice hockey goalie, originally at rest, catches a 0.150-kg hockey puck 
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 elastic collision

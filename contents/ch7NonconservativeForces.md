@@ -12,20 +12,20 @@ layout: page
 ### Nonconservative Forces and Friction
 
 Forces are either conservative or nonconservative. Conservative forces were
-discussed in [Conservative Forces and Potential Energy](../contents/ch7ConservaticeForcesAndPotentialEnergy.md). A
-**nonconservative force** is one for
-which work depends on the path taken. Friction is a good example of a
-nonconservative force. As illustrated in [Figure 1](#fig1),
-work done against
-friction depends on the length of the path between the starting and ending
-points. Because of this dependence on path, there is no potential energy
-associated with nonconservative forces. An important characteristic is that the
-work done by a nonconservative force *adds or removes mechanical energy from a
-system*. **Friction**, for example,
-creates **thermal energy** that
-dissipates, removing energy from the system. Furthermore, even if the thermal
-energy is retained or captured, it cannot be fully converted back to work, so it
-is lost or not recoverable in that sense as well.
+discussed
+in [Conservative Forces and Potential Energy](../contents/ch7ConservaticeForcesAndPotentialEnergy.md)
+. A
+**nonconservative force** is one for which work depends on the path taken.
+Friction is a good example of a nonconservative force. As illustrated
+in [Figure 1](#fig1), work done against friction depends on the length of the
+path between the starting and ending points. Because of this dependence on path,
+there is no potential energy associated with nonconservative forces. An
+important characteristic is that the work done by a nonconservative force *adds
+or removes mechanical energy from a system*. **Friction**, for example,
+creates **thermal energy** that dissipates, removing energy from the system.
+Furthermore, even if the thermal energy is retained or captured, it cannot be
+fully converted back to work, so it is lost or not recoverable in that sense as
+well.
 
 ![(a) A drawing of a happy face is erased diagonally from a point A to a point B. (b) A drawing of a happy face is erased in the shape of the letter u, but starting from the same point A and ending at the same point B.](../resources/Figure_08_05_01ab1.jpg "The amount of the happy face erased depends on the path taken by the eraser between points A and B, as does the work done against friction. Less work is done and less of the face is erased for the path in (a) than for the path in (b). The force here is friction, and most of the work goes into thermal energy that subsequently leaves the system (the happy face plus the eraser). The energy expended cannot be fully recovered. ")
 {: #fig1}
@@ -35,10 +35,10 @@ is lost or not recoverable in that sense as well.
 *Mechanical* energy *may* not be conserved when nonconservative forces act. For
 example, when a car is brought to a stop by friction on level ground, it loses
 kinetic energy, which is dissipated as thermal energy, reducing its mechanical
-energy. [Figure 2](#fig2) compares the effects of conservative
-and nonconservative forces. We often choose to understand simpler systems such
-as that described in [Figure 2](#fig2)(a) first before studying
-more complicated systems as in [Figure 2](#fig2)(b).
+energy. [Figure 2](#fig2) compares the effects of conservative and
+nonconservative forces. We often choose to understand simpler systems such as
+that described in [Figure 2](#fig2)(a) first before studying more complicated
+systems as in [Figure 2](#fig2)(b).
 
 ![(a) A system is shown in three situations. First, a rock is dropped onto a spring attached to the ground. The rock has potential energy P E sub 0 at the highest point before it is dropped on the spring. In the second situation, the rock has fallen onto the spring and the spring is compressed and has potential energy P E sub s. And in the third situation, the spring pushes the rock into the air; then the rock has some kinetic and some potential energy, labeled as K E plus P E sub g prime. (b) A rock is at some height above the ground, having potential energy P E sub g, and as it hits the ground all of the rock&#x2019;s energy is used to produce heat, sound, and deformation of the ground.](../resources/Figure_08_05_02a.jpg "Comparison of the effects of conservative and nonconservative forces on the mechanical energy of a system. (a) A system with only conservative forces. When a rock is dropped onto a spring, its mechanical energy remains constant (neglecting air resistance) because the force in the spring is conservative. The spring can propel the rock back to its original height, where it once again has only potential energy due to gravity.
 (b) A system with nonconservative forces. When the same rock is dropped onto the ground, it is stopped by nonconservative forces that dissipate its mechanical energy as thermal energy, sound, and surface distortion. The rock has lost mechanical energy. ")
@@ -49,11 +49,12 @@ more complicated systems as in [Figure 2](#fig2)(b).
 Now let us consider what form the work-energy theorem takes when both
 conservative and nonconservative forces act. We will see that the work done by
 nonconservative forces equals the change in the mechanical energy of a system.
-As noted in [Kinetic Energy and the Work-Energy Theorem](../contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md), the
-work-energy theorem states that the net work on a system equals the change in
-its kinetic energy, or $$ W_{\text{net}}=\Delta \KE $$. The net work is the sum
-of the work by nonconservative forces plus the work by conservative forces. That
-is,
+As noted
+in [Kinetic Energy and the Work-Energy Theorem](../contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md)
+, the work-energy theorem states that the net work on a system equals the change
+in its kinetic energy, or $$ W_{\text{net}}=\Delta \KE $$. The net work is the
+sum of the work by nonconservative forces plus the work by conservative forces.
+That is,
 
 <div class="equation">
  $$ W_{\text{net}}= W_{\text{nc}}+ W_{\text{c}}, $$
@@ -71,22 +72,22 @@ and $$ W_{\text{c}} $$ is the total work done by all conservative forces.
 ![A person pushing a heavy box up an incline. A force F p applied by the person is shown by a vector pointing up the incline. And frictional force f is shown by a vector pointing down the incline, acting on the box.](../resources/Figure_08_05_03a.jpg "A person pushes a crate up a ramp, doing work on the crate. Friction and gravitational force (not shown) also do work on the crate; both forces oppose the person&#x2019;s push. As the crate is pushed up the ramp, it gains mechanical energy, implying that the work done by the person is greater than the work done by friction.")
 {: #fig3}
 
-Consider [Figure 3](#fig3), in which a person pushes a crate up
-a ramp and is opposed by friction. As in the previous section, we note that work
-done by a conservative force comes from a loss of gravitational potential
-energy, so that $$ W_{\text{c}}=-\Delta \PE $$. Substituting this equation
-into the previous one and solving for $$ W_{\text{nc}} $$ gives
+Consider [Figure 3](#fig3), in which a person pushes a crate up a ramp and is
+opposed by friction. As in the previous section, we note that work done by a
+conservative force comes from a loss of gravitational potential energy, so that
+$$ W_{\text{c}}=-\Delta \PE $$. Substituting this equation into the previous one
+and solving for $$ W_{\text{nc}} $$ gives
 
 <div class="equation">
  $$ W_{\text{nc}}=\Delta \KE+\Delta \PE . $$
 </div>
 
-This equation means that the total mechanical energy $$ \left(\KE + \PE \right) $$
-changes by exactly the amount of work done by nonconservative
-forces. In [Figure 3](#fig3), this is the work done by the
-person minus the work done by friction. So even if energy is not conserved for
-the system of interest ( such as the crate), we know that an equal amount of
-work was done to cause the change in total mechanical energy.
+This equation means that the total mechanical energy $$ \left(\KE + \PE \right)
+$$ changes by exactly the amount of work done by nonconservative forces.
+In [Figure 3](#fig3), this is the work done by the person minus the work done by
+friction. So even if energy is not conserved for the system of interest ( such
+as the crate), we know that an equal amount of work was done to cause the change
+in total mechanical energy.
 
 We rearrange $$ W_{\text{nc}}=\Delta \KE+\Delta \PE $$ to obtain
 
@@ -97,28 +98,27 @@ We rearrange $$ W_{\text{nc}}=\Delta \KE+\Delta \PE $$ to obtain
 This means that the amount of work done by nonconservative forces adds to the
 mechanical energy of a system. If $$ W_{\text{nc}} $$ is positive, then
 mechanical energy is increased, such as when the person pushes the crate up the
-ramp in [Figure 3](#fig3). If $$ W_{\text{nc}} $$ is negative,
-then mechanical energy is decreased, such as when the rock hits the ground
-in [Figure 2](#fig2)(b). If $$ W_{\text{nc}} $$ is zero, then
-mechanical energy is conserved, and nonconservative forces are balanced. For
-example, when you push a lawn mower at constant speed on level ground, your work
-done is removed by the work of friction, and the mower has a constant energy.
+ramp in [Figure 3](#fig3). If $$ W_{\text{nc}} $$ is negative, then mechanical
+energy is decreased, such as when the rock hits the ground in [Figure 2](#fig2)(
+b). If $$ W_{\text{nc}} $$ is zero, then mechanical energy is conserved, and
+nonconservative forces are balanced. For example, when you push a lawn mower at
+constant speed on level ground, your work done is removed by the work of
+friction, and the mower has a constant energy.
 
 ### Applying Energy Conservation with Nonconservative Forces
 
 When no change in potential energy occurs, applying $$ \KE_
 {\text{i}}+\PE_{\text{i}}+ W_{\text{nc}}=\KE_
-{\text{f}}+\PE_{\text{f}} $$ amounts to applying the work-energy theorem
-by setting the change in kinetic energy to be equal to the net work done on the
+{\text{f}}+\PE_{\text{f}} $$ amounts to applying the work-energy theorem by
+setting the change in kinetic energy to be equal to the net work done on the
 system, which in the most general case includes both conservative and
 nonconservative forces. But when seeking instead to find a change in total
 mechanical energy in situations that involve changes in both potential and
 kinetic energy, the previous equation $$ \KE_{\text{i}}+\PE_
-{\text{i}}+ W_{\text{nc}}=\KE_{\text{f}}+\PE_{\text{f}} $$ says
-that you can start by finding the change in mechanical energy that would have
-resulted from just the conservative forces, including the potential energy
-changes, and add to it the work done, with the proper sign, by any
-nonconservative forces involved.
+{\text{i}}+ W_{\text{nc}}=\KE_{\text{f}}+\PE_{\text{f}} $$ says that you can
+start by finding the change in mechanical energy that would have resulted from
+just the conservative forces, including the potential energy changes, and add to
+it the work done, with the proper sign, by any nonconservative forces involved.
 
 <div class="example" markdown="1">
 <div class="title">
@@ -134,10 +134,9 @@ Consider the situation shown in [Figure 4](#fig4), where a baseball player slide
 Friction stops the player by converting his kinetic energy into other forms,
 including thermal energy. In terms of the work-energy theorem, the work done by
 friction, which is negative, is added to the initial kinetic energy to reduce it
-to zero. The work done by friction is negative, because $$ \vb{f} $$
-is in the opposite direction of the motion (that is, $$ \theta =180^\circ $$,
-and so $$ \cos{\theta} =-1 $$).
-Thus $$ W_{\text{nc}}=-F d $$. The equation simplifies to
+to zero. The work done by friction is negative, because $$ \vb{f} $$ is in the
+opposite direction of the motion (that is, $$ \theta =180^\circ $$, and so $$
+\cos{\theta} =-1 $$). Thus $$ W_{\text{nc}}=-F d $$. The equation simplifies to
 
 <div class="equation">
  $$ \frac{1}{2} m v_{i}^{2}-f d =0 $$
@@ -198,10 +197,10 @@ by the equation
 **Solution**
 
 The work done by friction is again $$ W_{\text{nc}}=-f d $$; initially the
-potential energy is $$ \PE_{i}=mg \cdot 0=0 $$ and the kinetic energy is
-$$ \KE_{i}=\frac{1}{2} m v_{i}^{2} $$; the final energy contributions
-are $$ \KE_{f}=0 $$ for the kinetic energy and $$ \PE_{f}=mgh
-= m g d \sin{\theta} $$ for the potential energy.
+potential energy is $$ \PE_{i}=mg \cdot 0=0 $$ and the kinetic energy is $$ \KE_
+{i}=\frac{1}{2} m v_{i}^{2} $$; the final energy contributions are $$ \KE_{f}=0
+$$ for the kinetic energy and $$ \PE_{f}=mgh = m g d \sin{\theta} $$ for the
+potential energy.
 
 Substituting these values gives
 
@@ -256,12 +255,13 @@ cup moves after the marble enters it. Plot the distance the cup moves versus the
 initial marble position on the ruler. Is this relationship linear?
 
 With some simple assumptions, you can use these data to find the coefficient of
-kinetic friction $$ \mu_{\text{k} } $$ of the cup on the table. The force of friction $$ f $$
-on the cup is $$ \mu_{\text{k} } N $$, where the normal force $$ N $$ is just the weight
-of the cup plus the marble. The normal force and force of gravity do no work
-because they are perpendicular to the displacement of the cup, which moves
-horizontally. The work done by friction is $$ f d $$. You will need the mass of
-the marble as well to calculate its initial kinetic energy.
+kinetic friction $$ \mu_{\text{k} } $$ of the cup on the table. The force of
+friction $$ f $$ on the cup is $$ \mu_{\text{k} } N $$, where the normal force
+$$ N $$ is just the weight of the cup plus the marble. The normal force and
+force of gravity do no work because they are perpendicular to the displacement
+of the cup, which moves horizontally. The work done by friction is $$ f d $$.
+You will need the mass of the marble as well to calculate its initial kinetic
+energy.
 
 It is interesting to do the above experiment also with a steel marble (or ball
 bearing). Releasing it from the same positions on the ruler as you did with the
@@ -293,20 +293,19 @@ The Ramp
 
 ### Section Summary
 
-* A nonconservative force is one for which work
-  depends on the path.
-* Friction is an example of a nonconservative force
-  that changes mechanical energy into thermal energy.
-* Work $$ W_{\text{nc}} $$ done by a nonconservative
-  force changes the mechanical energy of a system. In equation form, $$ W_
-  {\text{nc}}=\Delta \KE+\Delta \PE $$ or, equivalently, $$
- \KE_\text{i}+\PE_\text{i}+ W_{\text{nc}}=\KE_
+* A nonconservative force is one for which work depends on the path.
+* Friction is an example of a nonconservative force that changes mechanical
+  energy into thermal energy.
+* Work $$ W_{\text{nc}} $$ done by a nonconservative force changes the
+  mechanical energy of a system. In equation form, $$ W_
+  {\text{nc}}=\Delta \KE+\Delta \PE $$ or, equivalently, $$ \KE_\text{i}+\PE_
+  \text{i}+ W_{\text{nc}}=\KE_
   {\text{f}}+\PE_{\text{f}} $$.
-* When both conservative and nonconservative forces
-  act, energy conservation can be applied and used to calculate motion in terms
-  of the known potential energies of the conservative forces and the work done
-  by nonconservative forces, instead of finding the net work from the net force,
-  or having to directly apply Newton’s laws.
+* When both conservative and nonconservative forces act, energy conservation can
+  be applied and used to calculate motion in terms of the known potential
+  energies of the conservative forces and the work done by nonconservative
+  forces, instead of finding the net work from the net force, or having to
+  directly apply Newton’s laws.
 
 ### Problems &amp; Exercises
 
@@ -340,6 +339,7 @@ above the horizontal?
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 nonconservative force

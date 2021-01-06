@@ -33,11 +33,11 @@ define distance and time by specifying methods for measuring them, whereas we
 define **average speed** by stating that it is calculated as distance traveled
 divided by time of travel.
 
-Measurements of physical quantities are expressed in terms of **units**, which are standardized values. For
-example, the length of a race, which is a physical quantity, can be expressed in
-units of meters (for sprinters) or kilometers (for distance runners). Without
-standardized units, it would be extremely difficult for scientists to express
-and compare measured values in a meaningful way. (
+Measurements of physical quantities are expressed in terms of **units**, which
+are standardized values. For example, the length of a race, which is a physical
+quantity, can be expressed in units of meters (for sprinters) or kilometers (for
+distance runners). Without standardized units, it would be extremely difficult
+for scientists to express and compare measured values in a meaningful way. (
 See [Figure 2](#fig2).)
 
 ![A boy looking at a map and trying to guess distances with unit of length mentioned as cables between two points.](../resources/Figure_01_02_01a.jpg "Distances given in unknown units are maddeningly useless.")
@@ -55,28 +55,30 @@ the French *Système International*.
 
 ### SI Units: Fundamental and Derived Units
 
-[Table 1](#table1) gives the fundamental SI units that are used
-throughout this textbook. This text uses non-SI units in a few applications
-where they are in very common use, such as the measurement of blood pressure in
-millimeters of mercury (mm Hg). Whenever non-SI units are discussed, they will
-be tied to SI units through conversions.
+[Table 1](#table1) gives the fundamental SI units that are used throughout this
+textbook. This text uses non-SI units in a few applications where they are in
+very common use, such as the measurement of blood pressure in millimeters of
+mercury (mm Hg). Whenever non-SI units are discussed, they will be tied to SI
+units through conversions.
 
 ##### Table 1: Fundamental SI Units
 
 |Length|Mass|Time|Electric Current|
 |--- |--- |--- |--- |
 |meter (m)|kilogram (kg)|second (s)|ampere (A)|
+
 {: #table1}
 
 It is an intriguing fact that some physical quantities are more fundamental than
 others and that the most fundamental physical quantities can be defined **only**
 in terms of the procedure used to measure them. The units in which they are
-measured are thus called **fundamental units**. In this textbook, the fundamental physical quantities
-are taken to be length, mass, time, and electric current. (Note that electric
-current will not be introduced until much later in this text.) All other
-physical quantities, such as force and electric charge, can be expressed as
-algebraic combinations of length, mass, time, and current (for example, speed is
-length divided by time); these units are called **derived units**.
+measured are thus called **fundamental units**. In this textbook, the
+fundamental physical quantities are taken to be length, mass, time, and electric
+current. (Note that electric current will not be introduced until much later in
+this text.) All other physical quantities, such as force and electric charge,
+can be expressed as algebraic combinations of length, mass, time, and current (
+for example, speed is length divided by time); these units are called **derived
+units**.
 
 ### Units of Time, Length, and Mass: The Second, Meter, and Kilogram
 
@@ -90,63 +92,62 @@ physical phenomenon (because the solar day is getting longer due to very gradual
 slowing of the Earth’s rotation). Cesium atoms can be made to vibrate in a very
 steady way, and these vibrations can be readily observed and counted. In 1967
 the second was redefined as the time required for 9 192 631 770 of these
-vibrations. (See [Figure 3](#fig3).) Accuracy in the
-fundamental units is essential, because all measurements are ultimately
-expressed in terms of fundamental units and can be no more accurate than are the
-fundamental units themselves.
+vibrations. (See [Figure 3](#fig3).) Accuracy in the fundamental units is
+essential, because all measurements are ultimately expressed in terms of
+fundamental units and can be no more accurate than are the fundamental units
+themselves.
 
 ![A top view of an atomic fountain is shown. It measures time using the vibration of the cesium atom.](../resources/Figure_01_02_02a.jpg "An atomic clock such as this one uses the vibrations of cesium atoms to keep time to a precision of better than a microsecond per year. The fundamental unit of time, the second, is based on such clocks. This image is looking down from the top of an atomic fountain nearly 30 feet tall! (credit: Steve Jurvetson/Flickr)")
 {: #fig3 height="225"}
 
 #### The Meter
 
-The SI unit for length is the **meter** (abbreviated m); its definition has also changed over
-time to become more accurate and precise. The meter was first defined in 1791 as
-1/10 000 000 of the distance from the equator to the North Pole. This
-measurement was improved in 1889 by redefining the meter to be the distance
-between two engraved lines on a platinum-iridium bar now kept near Paris. By
-1960, it had become possible to define the meter even more accurately in terms
-of the wavelength of light, so it was again redefined as 1 650 763.73
+The SI unit for length is the **meter** (abbreviated m); its definition has also
+changed over time to become more accurate and precise. The meter was first
+defined in 1791 as 1/10 000 000 of the distance from the equator to the North
+Pole. This measurement was improved in 1889 by redefining the meter to be the
+distance between two engraved lines on a platinum-iridium bar now kept near
+Paris. By 1960, it had become possible to define the meter even more accurately
+in terms of the wavelength of light, so it was again redefined as 1 650 763.73
 wavelengths of orange light emitted by krypton atoms. In 1983, the meter was
 given its present definition (partly for greater accuracy) as the distance light
 travels in a vacuum in 1/299 792 458 of a second. (
-See [Figure 4](#fig4).) This change defines the speed of light
-to be exactly 299 792 458 meters per second. The length of the meter will change
-if the speed of light is someday measured with greater accuracy.
+See [Figure 4](#fig4).) This change defines the speed of light to be exactly 299
+792 458 meters per second. The length of the meter will change if the speed of
+light is someday measured with greater accuracy.
 
 #### The Kilogram
 
 The SI unit for mass is the **kilogram** (abbreviated kg); it was previously
 defined to be the mass of a platinum-iridium cylinder kept with the old meter
-standard at the International Bureau of Weights and Measures near Paris.
-Exact replicas of the previously defined kilogram are also kept at the
-United States’ National Institute of Standards and Technology, or NIST,
-located in Gaithersburg, Maryland outside of Washington D.C., and at other
-locations around the world. The determination of all other masses could be
-ultimately traced to a comparison with the standard mass.
-Even though the platinum-iridium cylinder was resistant to corrosion,
-airborne contaminants were able to adhere to its surface, slightly changing
-its mass over time. In May 2019, the scientific community adopted a more
-stable definition of the kilogram. The kilogram is now defined in terms
-of the second, the meter, and Planck's constant, $$h$$ (a quantum mechanical
-value that relates a photon's energy to its frequency).
+standard at the International Bureau of Weights and Measures near Paris. Exact
+replicas of the previously defined kilogram are also kept at the United States’
+National Institute of Standards and Technology, or NIST, located in
+Gaithersburg, Maryland outside of Washington D.C., and at other locations around
+the world. The determination of all other masses could be ultimately traced to a
+comparison with the standard mass. Even though the platinum-iridium cylinder was
+resistant to corrosion, airborne contaminants were able to adhere to its
+surface, slightly changing its mass over time. In May 2019, the scientific
+community adopted a more stable definition of the kilogram. The kilogram is now
+defined in terms of the second, the meter, and Planck's constant, $$h$$ (a
+quantum mechanical value that relates a photon's energy to its frequency).
 
 ![Beam of light from a flashlight is represented by an arrow pointing right, traveling the length of a meter stick.](../resources/Figure_01_02_03a.jpg "The meter is defined to be the distance light travels in 1/299 792 458 of a second in a vacuum. Distance traveled is speed multiplied by time.")
 {: #fig4}
 
-Electric current and its accompanying unit, the ampere, will be introduced
-in later units when electricity and magnetism are covered.
-The initial modules in this textbook are concerned with mechanics. In this
-subject all
-pertinent physical quantities can be expressed in terms of the fundamental units
-of length, mass, and time.
+Electric current and its accompanying unit, the ampere, will be introduced in
+later units when electricity and magnetism are covered. The initial modules in
+this textbook are concerned with mechanics. In this subject all pertinent
+physical quantities can be expressed in terms of the fundamental units of
+length, mass, and time.
 
 ### Metric Prefixes
 
-SI units are part of the **metric system**. The metric system is convenient for scientific and
-engineering calculations because the units are categorized by factors of 10.
-[Table 2](#table2) gives metric prefixes and symbols used to
-denote various factors of 10.
+SI units are part of the **metric system**. The metric system is convenient for
+scientific and engineering calculations because the units are categorized by
+factors of 10.
+[Table 2](#table2) gives metric prefixes and symbols used to denote various
+factors of 10.
 
 Metric systems have the advantage that conversions of units involve only powers
 of 10. There are 100 centimeters in a meter, 1000 meters in a kilometer, and so
@@ -169,8 +170,8 @@ number $$ 800 $$ can be written as $$ 8\times 10^{2} $$, and the number $$ 450
 $$ can be written as $$ 4.5\times 10^{2}$$. Thus, the numbers $$ 800 $$ and $$
 450 $$ are of the same order of magnitude: $$ 10^{2}$$. Order of magnitude can
 be thought of as a ballpark estimate for the scale of a value. The diameter of
-an atom is on the order of $$ 10^{-9}\m $$, while the diameter of the Sun
-is on the order of $$ 10^{9}\m $$.
+an atom is on the order of $$ 10^{-9}\m $$, while the diameter of the Sun is on
+the order of $$ 10^{9}\m $$.
 <div class="note" data-label="" markdown="1">
 <div class="title">
 The Quest for Microscopic Standards for Basic Units
@@ -195,33 +196,34 @@ are related to large-scale currents and forces between wires.
 
 ##### Table 2: Metric Prefixes for Powers of 10 and their Symbols
 
-| Prefix| Symbol	| Value	| Example | | | Example (some are approximate) |
+| Prefix| Symbol    | Value    | Example | | | Example (some are approximate) |
 | ---   | ---  | ---         | ---         | --- | ---           | --- |
-|  exa	|   E  | $$10^{18}$$ |  exameter   | Em  | $$10^{18}$$ m | distance light travels in a century |
-| peta  | 	P  | $$10^{15}$$ |  petasecond | Ps  | $$10^{15}$$ s | 30 million years |
-| tera  |	T  | $$10^{12}$$ |  terawatt   | TW  | $$10^{12}$$ W | powerful laser output |
-| giga	|   G  | $$10^{9}$$  |  gigahertz  | GHz | $$10^{9}$$ Hz | a microwave frequency |
-| mega	|   M  | $$10^{6}$$  |  megacurie  | MCi | $$10^{6}$$ Ci | high radioactivity |
-| kilo  | 	k  | $$10^{3}$$  |  kilometer  | km  | $$10^{3}$$ m  | about 6/10 mile |
-| hecto | 	h  | $$10^{2}$$  |  hectoliter | hL  | $$10^{2}$$ L  | 26 gallons |
-| deka  |	da | $$10^{1}$$  |  dekagram   | dag | $$10^{1}$$ g  | teaspoon of butter |
-| —	    |  -   | $$10^{0}$$  | (=1)			|    |                  |   |	
-| deci	|   d  | $$10^{-1}$$  |  deciliter  | dL  | $$10^{-1}$$ L  |  less than half a soda |
-| centi	|   c  | $$10^{-2}$$  |  centimeter | cm  | $$10^{-2}$$ m  |  fingertip thickness |
-| milli | 	m  | $$10^{-3}$$  |  millimeter | mm  | $$10^{-3}$$ m  |  flea at its shoulders
-| micro	|   µ  | $$10^{-6}$$  |  micrometer | µm  | $$10^{-6}$$ m  |  detail in microscope |
-| nano	|   n  | $$10^{-9}$$  |  nanogram   | ng  | $$10^{-9}$$ g  |  small speck of dust |
+|  exa    |   E  | $$10^{18}$$ |  exameter   | Em  | $$10^{18}$$ m | distance light travels in a century |
+| peta  |    P  | $$10^{15}$$ |  petasecond | Ps  | $$10^{15}$$ s | 30 million years |
+| tera  |    T  | $$10^{12}$$ |  terawatt   | TW  | $$10^{12}$$ W | powerful laser output |
+| giga    |   G  | $$10^{9}$$  |  gigahertz  | GHz | $$10^{9}$$ Hz | a microwave frequency |
+| mega    |   M  | $$10^{6}$$  |  megacurie  | MCi | $$10^{6}$$ Ci | high radioactivity |
+| kilo  |    k  | $$10^{3}$$  |  kilometer  | km  | $$10^{3}$$ m  | about 6/10 mile |
+| hecto |    h  | $$10^{2}$$  |  hectoliter | hL  | $$10^{2}$$ L  | 26 gallons |
+| deka  |    da | $$10^{1}$$  |  dekagram   | dag | $$10^{1}$$ g  | teaspoon of butter |
+| —        |  -   | $$10^{0}$$  | (=1)            |    |                  |   |	
+| deci    |   d  | $$10^{-1}$$  |  deciliter  | dL  | $$10^{-1}$$ L  |  less than half a soda |
+| centi    |   c  | $$10^{-2}$$  |  centimeter | cm  | $$10^{-2}$$ m  |  fingertip thickness |
+| milli |    m  | $$10^{-3}$$  |  millimeter | mm  | $$10^{-3}$$ m  |  flea at its shoulders
+| micro    |   µ  | $$10^{-6}$$  |  micrometer | µm  | $$10^{-6}$$ m  |  detail in microscope |
+| nano    |   n  | $$10^{-9}$$  |  nanogram   | ng  | $$10^{-9}$$ g  |  small speck of dust |
 | pico  |   p  | $$10^{-12}$$ |  picofarad  | pF  | $$10^{-12}$$ F |  small capacitor in radio |
-| femto	|   f  | $$10^{-15}$$ |  femtometer | fm  | $$10^{-15}$$ m |  size of a proton |
-| atto  |	a  | $$10^{-18}$$ |  attosecond | as  | $$10^{-18}$$ s  |  time light crosses an atom |
+| femto    |   f  | $$10^{-15}$$ |  femtometer | fm  | $$10^{-15}$$ m |  size of a proton |
+| atto  |    a  | $$10^{-18}$$ |  attosecond | as  | $$10^{-18}$$ s  |  time light crosses an atom |
+
 {: #table2}
 
 ### Known Ranges of Length, Mass, and Time
 
 The vastness of the universe and the breadth over which physics applies are
 illustrated by the wide range of examples of known lengths, masses, and times
-in [Table 3](#table3). Examination of this table will give you
-some feeling for the range of possible topics and numerical values. (
+in [Table 3](#table3). Examination of this table will give you some feeling for
+the range of possible topics and numerical values. (
 See [Figure 5](#fig5) and [Figure 6](#fig6).)
 
 ![A magnified image of tiny phytoplankton swimming among the crystal of ice.\[](../resources/Figure_01_02_04a.jpg "Tiny phytoplankton swims among crystals of ice in the Antarctic Sea. They range from a few micrometers to as much as 2 millimeters in length. (credit: Prof. Gordon T. Taylor, Stony Brook University; NOAA Corps Collections)")
@@ -246,11 +248,11 @@ The first thing to do is to list the units that you have and the units that you
 want to convert to. In this case, we have units in **meters** and we want to
 convert to **kilometers**.
 
-Next, we need to determine a **conversion factor** relating meters to kilometers. A conversion factor is a
-ratio expressing how many of one unit are equal to another unit. For example,
-there are 12 inches in 1 foot, 100 centimeters in 1 meter, 60 seconds in 1
-minute, and so on. In this case, we know that there are 1 000 meters in 1
-kilometer.
+Next, we need to determine a **conversion factor** relating meters to
+kilometers. A conversion factor is a ratio expressing how many of one unit are
+equal to another unit. For example, there are 12 inches in 1 foot, 100
+centimeters in 1 meter, 60 seconds in 1 minute, and so on. In this case, we know
+that there are 1 000 meters in 1 kilometer.
 
 Now we can set up our unit conversion. We will write the units that we have and
 then multiply them by the conversion factor so that the units cancel out, as
@@ -264,14 +266,14 @@ $$
 Note that the unwanted m unit cancels, leaving only the desired km unit. You can
 use this method to convert between any types of unit.
 
-The [Appendix](../contents/appAUsefulInformation.md) has a more complete list of conversion
-factors.
+The [Appendix](../contents/appAUsefulInformation.md) has a more complete list of
+conversion factors.
 
 ##### Table 3: Approximate Values of Length, Mass, and Time
 
-| | Lengths in meters	| | Masses in kilograms (more precise values in parentheses) | |	Times in seconds (more precise values in parentheses)|
+| | Lengths in meters    | | Masses in kilograms (more precise values in parentheses) | |    Times in seconds (more precise values in parentheses)|
 | --- | --- | ---- | --- | ---| ---|
-| $$ 10^{-18} $$	| Present experimental limit to smallest observable detail | $$ 10^{-30} $$ | Mass of an electron ($$ 9.11\times 10^{-31} $$ kg) | $$ 10^{-23} $$ | Time for light to cross a proton |
+| $$ 10^{-18} $$    | Present experimental limit to smallest observable detail | $$ 10^{-30} $$ | Mass of an electron ($$ 9.11\times 10^{-31} $$ kg) | $$ 10^{-23} $$ | Time for light to cross a proton |
 | $$ 10^{-15} $$ |  Diameter of a proton | $$ 10^{-27} $$ | Mass of a hydrogen atom ($$1.67\times 10^{-27} $$ kg) | $$ 10^{-22} $$ | Mean life of an extremely unstable nucleus |
 | $$ 10^{-14} $$ | Diameter of a uranium nucleus | $$ 10^{-15} $$ | Mass of a bacterium | $$ 10^{-15} $$ | Time for one oscillation of visible light |
 | $$ 10^{-10} $$ | Diameter of a hydrogen atom | $$ 10^{-5} $$ | Mass of a mosquito | $$ 10^{-13} $$ | Time for one vibration of an atom in a solid |
@@ -286,7 +288,8 @@ factors.
 | $$ 10^{16} $$ | Distance traveled by light in 1 year (a light year) | $$ 10^{25} $$ | Mass of the Earth ($$5.97 \times 10^{24} $$ kg) | $$ 10^{18} $$ | Age of the universe |
 | $$ 10^{21} $$ | Diameter of the Milky Way galaxy | $$ 10^{30} $$ | Mass of the Sun ($$ 1.99 \times 10^{30} $$ kg)  |
 | $$ 10^{22} $$ | Distance from the Earth to the nearest large galaxy (Andromeda) | $$ 10^{42} $$ | Mass of the Milky Way galaxy (current upper limit)|
-| $$ 10^{26} $$ | Distance from the Earth to the edges of the known universe | $$ 10^{53} $$ | Mass of the known universe (current upper limit)		|
+| $$ 10^{26} $$ | Distance from the Earth to the edges of the known universe | $$ 10^{53} $$ | Mass of the known universe (current upper limit)        |
+
 {: #table3}
 
 <div class="example" markdown="1">
@@ -352,7 +355,8 @@ problem has three significant figures, the answer should also have three
 significant figures. The answer 30.0 km/hr does indeed have three significant
 figures, so this is appropriate. Note that the significant figures in the
 conversion factor are not relevant because an hour is
-*defined* to be 60 minutes, so the precision of the conversion factor is perfect.
+*defined* to be 60 minutes, so the precision of the conversion factor is
+perfect.
 
 (4) Next, check whether the answer is reasonable. Let us consider some
 information from the problem—if you travel 10 km in a third of an hour (20 min),
@@ -385,8 +389,8 @@ You may have noted that the answers in the worked example just covered were
 given to three digits. Why? When do you need to be concerned about the number of
 digits in something you calculate? Why not write down all the digits your
 calculator produces? The
-module [Accuracy, Precision, and Significant Figures](../contents/ch1AccuracyPrecisionAndSignificantFigures.md) will
-help you answer these questions.
+module [Accuracy, Precision, and Significant Figures](../contents/ch1AccuracyPrecisionAndSignificantFigures.md)
+will help you answer these questions.
 
 </div>
 
@@ -439,24 +443,22 @@ milliliter is dependent on the measure of a centimeter.
 
 ### Summary
 
-* Physical quantities are a characteristic or
-  property of an object that can be measured or calculated from other
-  measurements.
-* Units are standards for expressing and comparing
-  the measurement of physical quantities. All units can be expressed as
-  combinations of four fundamental units.
-* The four fundamental units we will use in this text
-  are the meter (for length), the kilogram (for mass), the second (for time),
-  and the ampere (for electric current). These units are part of the metric
-  system, which uses powers of 10 to relate quantities over the vast ranges
-  encountered in nature.
-* The four fundamental units are abbreviated as
-  follows: meter, m; kilogram, kg; second, s; and ampere, A. The metric system
-  also uses a standard set of prefixes to denote each order of magnitude greater
-  than or lesser than the fundamental unit itself.
-* Unit conversions involve changing a value expressed
-  in one type of unit to another type of unit. This is done by using conversion
-  factors, which are ratios relating equal quantities of different units.
+* Physical quantities are a characteristic or property of an object that can be
+  measured or calculated from other measurements.
+* Units are standards for expressing and comparing the measurement of physical
+  quantities. All units can be expressed as combinations of four fundamental
+  units.
+* The four fundamental units we will use in this text are the meter (for length)
+  , the kilogram (for mass), the second (for time), and the ampere (for electric
+  current). These units are part of the metric system, which uses powers of 10
+  to relate quantities over the vast ranges encountered in nature.
+* The four fundamental units are abbreviated as follows: meter, m; kilogram, kg;
+  second, s; and ampere, A. The metric system also uses a standard set of
+  prefixes to denote each order of magnitude greater than or lesser than the
+  fundamental unit itself.
+* Unit conversions involve changing a value expressed in one type of unit to
+  another type of unit. This is done by using conversion factors, which are
+  ratios relating equal quantities of different units.
 
 ### Conceptual Questions
 
@@ -585,6 +587,7 @@ Then calculate the average speed of the Earth in its orbit in kilometers per sec
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 physical quantity

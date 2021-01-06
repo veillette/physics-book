@@ -13,14 +13,13 @@ layout: page
 
 If a person rows a boat across a rapidly flowing river and tries to head
 directly for the other shore, the boat instead moves **diagonally** relative to
-the shore, as in [Figure 1](#fig1). The boat does not move in
-the direction in which it is pointed. The reason, of course, is that the river
-carries the boat downstream. Similarly, if a small airplane flies overhead in a
-strong crosswind, you can sometimes see that the plane is not moving in the
-direction in which it is pointed, as illustrated
-in [Figure 2](#fig2). The plane is moving straight ahead
-relative to the air, but the movement of the air mass relative to the ground
-carries it sideways.
+the shore, as in [Figure 1](#fig1). The boat does not move in the direction in
+which it is pointed. The reason, of course, is that the river carries the boat
+downstream. Similarly, if a small airplane flies overhead in a strong crosswind,
+you can sometimes see that the plane is not moving in the direction in which it
+is pointed, as illustrated in [Figure 2](#fig2). The plane is moving straight
+ahead relative to the air, but the movement of the air mass relative to the
+ground carries it sideways.
 
 ![A boat is trying to cross a river. Due to the velocity of river the path traveled by boat is diagonal. The velocity of boat v boat is in positive y direction. The velocity of river v river is in positive x direction. The resultant diagonal velocity v total which makes an angle of theta with the horizontal x axis is towards north east direction.](../resources/Figure_03_05_01a.jpg "A boat trying to head straight across a river will actually move diagonally relative to the shore as shown. Its total velocity (solid arrow) relative to the shore is the sum of its velocity relative to the river plus the velocity of the river relative to the shore.")
 {: #fig1}
@@ -29,14 +28,13 @@ carries it sideways.
 {: #fig2}
 
 In each of these situations, an object has a **velocity**
-relative to a medium (such as a river) and that medium
-has a velocity relative to an observer on solid ground. The velocity of the
-object **relative to the observer** is the sum of these velocity vectors, as
-indicated in [Figure 1](#fig1)
-and [Figure 2](#fig2). These situations are only two of many in
-which it is useful to add velocities. In this module, we first re-examine how to
-add velocities and then consider certain aspects of what relative velocity
-means.
+relative to a medium (such as a river) and that medium has a velocity relative
+to an observer on solid ground. The velocity of the object **relative to the
+observer** is the sum of these velocity vectors, as indicated
+in [Figure 1](#fig1)
+and [Figure 2](#fig2). These situations are only two of many in which it is
+useful to add velocities. In this module, we first re-examine how to add
+velocities and then consider certain aspects of what relative velocity means.
 
 How do we add velocities? Velocity is a vector (it has both magnitude and
 direction); the rules of **vector addition** discussed
@@ -44,11 +42,11 @@ in [Vector Addition and Subtraction: Graphical Methods](../contents/ch3VectorAdd
 and [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md)
 apply to the addition of velocities, just as they do for any other vectors. In
 one-dimensional motion, the addition of velocities is simple—they add like
-ordinary numbers. For example, if a field hockey player is moving at $$
-5 \ms $$ straight toward the goal and drives the ball in the same
-direction with a velocity of $$ 30 \ms $$ relative to her body, then the
-velocity of the ball is $$ 35 \ms $$ relative to the stationary,
-profusely sweating goalkeeper standing in front of the goal.
+ordinary numbers. For example, if a field hockey player is moving at $$ 5 \ms $$
+straight toward the goal and drives the ball in the same direction with a
+velocity of $$ 30 \ms $$ relative to her body, then the velocity of the ball is
+$$ 35 \ms $$ relative to the stationary, profusely sweating goalkeeper standing
+in front of the goal.
 
 In two-dimensional motion, either graphical or analytical techniques can be used
 to add velocities. We will concentrate on analytical techniques. The following
@@ -73,11 +71,7 @@ system:
  $$ \theta ={\tan}^{-1}\left(v_{y}/v_{x}\right). $$
 </div>
 
-![The figure shows components of velocity v in horizontal x axis v x and in
-vertical y axis v y. The angle between the velocity vector v and the
-horizontal axis is theta.](../resources/Figure_03_05_03a.jpg "The velocity, \( \vb{v} \)
-of an object traveling at an angle \( \theta \) to the horizontal
-axis is the sum of component vectors .")
+![The figure shows components of velocity v in horizontal x axis v x and in vertical y axis v y. The angle between the velocity vector v and the horizontal axis is theta.](../resources/Figure_03_05_03a.jpg "The velocity, \( \vb{v} \) of an object traveling at an angle \( \theta \) to the horizontal axis is the sum of component vectors .")
 {: #fig3}
 
 These equations are valid for any vectors and are adapted specifically for
@@ -99,21 +93,20 @@ Adding Velocities: A Boat on a River
 </div>
 ![A boat is trying to cross a river. Due to the velocity of the river the path traveled by the boat is diagonal. The velocity of the boat, v boat, is equal to zero point seven five meters per second and is in positive y direction. The velocity of the river, v-river, is equal to one point two meters per second and is in positive x direction. The resultant diagonal velocity v total, which makes an angle of theta with the horizontal x axis, is towards north east direction.](../resources/Figure_03_05_09a.jpg "A boat attempts to travel straight across a river at a speed 0.75 m/s. The current in the river, however, flows at a speed of 1.20 m/s to the right. What is the total displacement of the boat relative to the shore?"){: #fig4}
 
-Refer to [Figure 4](#fig4), which shows a boat trying to go
-straight across the river. Let us calculate the magnitude and direction of the
-boat’s velocity relative to an observer on the shore, $$ \vb{v}_
-{\text{tot}} $$. The velocity of the boat, $$ \vb{v}_{\text{boat}}
-$$, is 0.75 m/s in the $$ y $$ -direction relative to the river and the velocity
-of the river, $$ \vb{v}_{\text{river}} $$, is 1.20 m/s to the
-right.
+Refer to [Figure 4](#fig4), which shows a boat trying to go straight across the
+river. Let us calculate the magnitude and direction of the boat’s velocity
+relative to an observer on the shore, $$ \vb{v}_
+{\text{tot}} $$. The velocity of the boat, $$ \vb{v}_{\text{boat}} $$, is 0.75
+m/s in the $$ y $$ -direction relative to the river and the velocity of the
+river, $$ \vb{v}_{\text{river}} $$, is 1.20 m/s to the right.
 
 **Strategy**
 
 We start by choosing a coordinate system with its $$ x $$ -axis parallel to the
-velocity of the river, as shown in [Figure 4](#fig4). Because
-the boat is directed straight toward the other shore, its velocity relative to
-the water is parallel to the $$ y $$ -axis and perpendicular to the velocity of
-the river. Thus, we can add the two velocities by using the equations $$ v_
+velocity of the river, as shown in [Figure 4](#fig4). Because the boat is
+directed straight toward the other shore, its velocity relative to the water is
+parallel to the $$ y $$ -axis and perpendicular to the velocity of the river.
+Thus, we can add the two velocities by using the equations $$ v_
 {\text{tot}}=\sqrt{ v_{x}^{2}+v_{y}^{2}} $$ and $$ \theta ={\tan}^{-1}\left(v_
 {y}/v_{x}\right) $$ directly.
 
@@ -161,9 +154,9 @@ This equation gives
 **Discussion**
 
 Both the magnitude $$ v $$ and the direction $$ \theta $$ of the total velocity
-are consistent with [Figure 4](#fig4). Note that because the
-velocity of the river is large compared with the velocity of the boat, it is
-swept rapidly downstream. This result is evidenced by the small angle (only $$ 32.0^\circ $$)
+are consistent with [Figure 4](#fig4). Note that because the velocity of the
+river is large compared with the velocity of the boat, it is swept rapidly
+downstream. This result is evidenced by the small angle (only $$ 32.0^\circ $$)
 the total velocity has relative to the riverbank.
 
 </div>
@@ -181,29 +174,30 @@ ground (its total velocity) is 38.0 m/s in a direction $$20.0^\circ $$ west of n
 **Strategy**
 
 In this problem, somewhat different from the previous example, we know the total
-velocity $$ \vb{v}_{\text{tot}} $$ and that it is the sum of two
-other velocities, $$ \vb{v}_{\text{w}} $$
+velocity $$ \vb{v}_{\text{tot}} $$ and that it is the sum of two other
+velocities, $$ \vb{v}_{\text{w}} $$
 (the wind) and $$ \vb{v}_{\text{p}} $$
 (the plane relative to the air mass). The quantity $$ \vb{v}_
 {\text{p}} $$ is known, and we are asked to find $$ \vb{v}_
 {\text{w}} $$. None of the velocities are perpendicular, but it is possible to
 find their components along a common set of perpendicular axes. If we can find
-the components of $$ \vb{v}_{\text{w}} $$, then we can combine them
-to solve for its magnitude and direction. As shown
-in [Figure 5](#fig5), we choose a coordinate system with its
+the components of $$ \vb{v}_{\text{w}} $$, then we can combine them to solve for
+its magnitude and direction. As shown in [Figure 5](#fig5), we choose a
+coordinate system with its
 *x*-axis due east and its *y*-axis due north (parallel to $$ \vb{v}_
 {\text{p}} $$).
- (You may wish to look back at the discussion of the addition of vectors using
+(You may wish to look back at the discussion of the addition of vectors using
 perpendicular components
-in [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md).)
+in [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md)
+.)
 
 **Solution**
 
-Because $$ \vb{v}_{\text{tot}} $$ is the vector sum of the $$
-\vb{v}_{\text{w}} $$ and $$ \vb{v}_{\text{p}} $$,
-its *x*- and *y*-components are the sums of the *x*- and *y*-components of the
-wind and plane velocities. Note that the plane only has vertical component of
-velocity so $$ v_{px}=0 $$ and $$ v_{py}=v_{\text{p}} $$. That is,
+Because $$ \vb{v}_{\text{tot}} $$ is the vector sum of the $$ \vb{v}_{\text{w}}
+$$ and $$ \vb{v}_{\text{p}} $$, its *x*- and *y*-components are the sums of
+the *x*- and *y*-components of the wind and plane velocities. Note that the
+plane only has vertical component of velocity so $$ v_{px}=0 $$ and $$ v_{py}=v_
+{\text{p}} $$. That is,
 
 <div class="equation">
  $$ v_{\text{tot}x}=v_{\text{w}x} $$
@@ -268,11 +262,10 @@ giving
 **Discussion**
 
 The wind’s speed and direction are consistent with the significant effect the
-wind has on the total velocity of the plane, as seen
-in [Figure 5](#fig5). Because the plane is fighting a strong
-combination of crosswind and head-wind, it ends up with a total velocity
-significantly less than its velocity relative to the air mass as well as heading
-in a different direction.
+wind has on the total velocity of the plane, as seen in [Figure 5](#fig5).
+Because the plane is fighting a strong combination of crosswind and head-wind,
+it ends up with a total velocity significantly less than its velocity relative
+to the air mass as well as heading in a different direction.
 
 </div>
 
@@ -286,23 +279,22 @@ use a coordinate system with one axis parallel to gravity.
 
 When adding velocities, we have been careful to specify that the **velocity is
 relative to some reference frame**. These velocities are called **relative
-velocities**. For example, the
-velocity of an airplane relative to an air mass is different from its velocity
-relative to the ground. Both are quite different from the velocity of an
-airplane relative to its passengers (which should be close to zero). Relative
-velocities are one aspect of **relativity**, which is defined to be the study of how different
-observers moving relative to each other measure the same phenomenon.
+velocities**. For example, the velocity of an airplane relative to an air mass
+is different from its velocity relative to the ground. Both are quite different
+from the velocity of an airplane relative to its passengers (which should be
+close to zero). Relative velocities are one aspect of **relativity**, which is
+defined to be the study of how different observers moving relative to each other
+measure the same phenomenon.
 
 Nearly everyone has heard of relativity and immediately associates it with
 Albert Einstein (1879–1955), the greatest physicist of the 20th century.
 Einstein revolutionized our view of nature with his **modern** theory of
 relativity, which we shall study in later chapters. The relative velocities in
 this section are actually aspects of classical relativity, first discussed
-correctly by Galileo and Isaac Newton. **Classical relativity** is 
-limited to situations where speeds are less
-than about 1% of the speed of light—that is, less
-than $$ 3 000 \text{km/s} $$. Most things we encounter in daily life move slower
-than this speed.
+correctly by Galileo and Isaac Newton. **Classical relativity** is limited to
+situations where speeds are less than about 1% of the speed of light—that is,
+less than $$ 3 000 \text{km/s} $$. Most things we encounter in daily life move
+slower than this speed.
 
 Let us consider an example of what two different observers see in a situation
 analyzed long ago by Galileo. Suppose a sailor at the top of a mast on a moving
@@ -313,14 +305,13 @@ the base of the mast at a point directly below its point of release. Now let us
 consider what two different observers see when the binoculars drop. One observer
 is on the ship and the other on shore. The binoculars have no horizontal
 velocity relative to the observer on the ship, and so he sees them fall straight
-down the mast. (See [Figure 6](#fig6).) To the observer on
-shore, the binoculars and the ship have the **same** horizontal velocity, so
-both move the same distance forward while the binoculars are falling. This
-observer sees the curved path shown in [Figure 6](#fig6).
-Although the paths look different to the different observers, each sees the same
-result—the binoculars hit at the base of the mast and not behind it. To get the
-correct description, it is crucial to correctly specify the velocities relative
-to the observer.
+down the mast. (See [Figure 6](#fig6).) To the observer on shore, the binoculars
+and the ship have the **same** horizontal velocity, so both move the same
+distance forward while the binoculars are falling. This observer sees the curved
+path shown in [Figure 6](#fig6). Although the paths look different to the
+different observers, each sees the same result—the binoculars hit at the base of
+the mast and not behind it. To get the correct description, it is crucial to
+correctly specify the velocities relative to the observer.
 
 ![A person is observing a moving ship from the shore. Another person is on top of ship&#x2019;s mast. The person in the ship drops binoculars and sees it dropping straight. The person on the shore sees the binoculars taking a curved trajectory.](../resources/Figure_03_05_05a.jpg "Classical relativity. The same motion as viewed by two different observers. An observer on the moving ship sees the binoculars dropped from the top of its mast fall straight down. An observer on shore sees the binoculars take the curved path, moving forward with the ship. Both observers see the binoculars strike the deck at the base of the mast. The initial horizontal velocity is different relative to the two observers. (The ship is shown moving rather fast to emphasize the effect.)")
 {: #fig6}
@@ -375,12 +366,12 @@ is straight down relative to the plane.
 
 Because the initial vertical velocity is zero relative to the ground and
 vertical motion is independent of horizontal motion, the final vertical velocity
-for the coin relative to the ground is $$ v_{y}=-5.42 \ms $$, the same as
-found in part (a). In contrast to part (a), there now is a horizontal component
-of the velocity. However, since there is no horizontal acceleration, the initial
-and final horizontal velocities are the same and $$ v_{x}=260 \ms $$.
-The *x*- and *y*-components of velocity can be combined to find the magnitude of
-the final velocity:
+for the coin relative to the ground is $$ v_{y}=-5.42 \ms $$, the same as found
+in part (a). In contrast to part (a), there now is a horizontal component of the
+velocity. However, since there is no horizontal acceleration, the initial and
+final horizontal velocities are the same and $$ v_{x}=260 \ms $$. The *x*- and *
+y*-components of velocity can be combined to find the magnitude of the final
+velocity:
 
 <div class="equation">
  $$ v=\sqrt{ v_{x}^{2}+ v_{y}^{2} }. $$
@@ -417,16 +408,16 @@ different motion for the coin. The plane is moving so fast horizontally to begin
 with that its final velocity is barely greater than the initial velocity. Once
 again, we see that in two dimensions, vectors do not add like ordinary
 numbers—the final velocity v in part (b) is **not** $$ \left(260 - 5.42\right)
- \ms $$; rather, it is $$ 260.06 \ms $$. The velocity’s magnitude
-had to be calculated to five digits to see any difference from that of the
-airplane. The motions as seen by different observers (one in the plane and one
-on the ground) in this example are analogous to those discussed for the
-binoculars dropped from the mast of a moving ship, except that the velocity of
-the plane is much larger, so that the two observers see **very** different
-paths. (See [Figure 7](#fig7).) In addition, both observers see
-the coin fall 1.50 m vertically, but the one on the ground also sees it move
-forward 144 m (this calculation is left for the reader).
-Thus, one observer sees a vertical path, the other a nearly horizontal path.
+\ms $$; rather, it is $$ 260.06 \ms $$. The velocity’s magnitude had to be
+calculated to five digits to see any difference from that of the airplane. The
+motions as seen by different observers (one in the plane and one on the ground)
+in this example are analogous to those discussed for the binoculars dropped from
+the mast of a moving ship, except that the velocity of the plane is much larger,
+so that the two observers see **very** different paths. (See [Figure 7](#fig7).)
+In addition, both observers see the coin fall 1.50 m vertically, but the one on
+the ground also sees it move forward 144 m (this calculation is left for the
+reader). Thus, one observer sees a vertical path, the other a nearly horizontal
+path.
 </div>
 
 <div class="note" data-label="" markdown="1">
@@ -452,10 +443,11 @@ Motion in 2D
 
 ### Summary
 
-* Velocities in two dimensions are added using the
-  same analytical vector techniques, which are rewritten as
+* Velocities in two dimensions are added using the same analytical vector
+  techniques, which are rewritten as
   <div class="equation">
- $$ v_{x}=v\cos{\theta} $$
+
+$$ v_{x}=v\cos{\theta} $$
   </div>
 
   <div class="equation">
@@ -470,13 +462,12 @@ Motion in 2D
  $$ \theta ={\tan}^{-1}\left(v_{y}/v_{x}\right). $$
   </div>
 
-* Relative velocity is the velocity of an object as
-  observed from a particular reference frame, and it varies dramatically with
-  reference frame.
-* **Relativity** is the study of how different
-  observers measure the same phenomenon, particularly when the observers move
-  relative to one another. **Classical relativity** is limited to situations
-  where speed is less than about 1% of the speed of light (3000 km/s).
+* Relative velocity is the velocity of an object as observed from a particular
+  reference frame, and it varies dramatically with reference frame.
+* **Relativity** is the study of how different observers measure the same
+  phenomenon, particularly when the observers move relative to one another. **
+  Classical relativity** is limited to situations where speed is less than about
+  1% of the speed of light (3000 km/s).
 
 ### Conceptual Questions
 
@@ -624,8 +615,8 @@ effect of the wind on the plane’s path.
 <div class="solution"  markdown="1">
 (a) $$ 230 \ms $$, $$ 8.0^\circ $$ south of west
 
-(b) The wind should make the plane travel slower and more to the south,
-which is what was calculated.
+(b) The wind should make the plane travel slower and more to the south, which is
+what was calculated.
 
 </div>
 </div>
@@ -753,11 +744,14 @@ reference) to hit the center of the goal?
 <div class="problem" markdown="1">
 
 **Unreasonable Results**
-Suppose you wish to shoot supplies straight up to astronauts in an orbit 36 000 km above the surface of the Earth.
+Suppose you wish to shoot supplies straight up to astronauts in an orbit 36 000
+km above the surface of the Earth.
 (a) At what velocity must the supplies be launched?
 (b) What is unreasonable about this velocity?
-(c) Is there a problem with the relative velocity between the supplies and the astronauts when the supplies reach their maximum height?
-(d) Is the premise unreasonable or is the available equation inapplicable? Explain your answer.
+(c) Is there a problem with the relative velocity between the supplies and the
+astronauts when the supplies reach their maximum height?
+(d) Is the premise unreasonable or is the available equation inapplicable?
+Explain your answer.
 
 </div>
 </div>
@@ -767,13 +761,11 @@ Suppose you wish to shoot supplies straight up to astronauts in an orbit 36 000 
 
 **Unreasonable Results**
 
-A commercial airplane has an air speed of $$ 280 \ms $$
-due east and flies with a strong tailwind. It travels 3000 km in a direction
-$$ 5^\circ $$ south of east in 1.50 h.
-(a) What was the velocity of the plane
-relative to the ground?
-(b) Calculate the magnitude and direction of the
-tailwind’s velocity.
+A commercial airplane has an air speed of $$ 280 \ms $$ due east and flies with
+a strong tailwind. It travels 3000 km in a direction $$ 5^\circ $$ south of east
+in 1.50 h.
+(a) What was the velocity of the plane relative to the ground?
+(b) Calculate the magnitude and direction of the tailwind’s velocity.
 (c) What is unreasonable about both of these velocities?
 (d) Which premise is unreasonable?
 
@@ -785,7 +777,14 @@ tailwind’s velocity.
 
 **Construct Your Own Problem**
 
-Consider an airplane headed for a runway in a cross wind. Construct a problem in which you calculate the angle the airplane must fly relative to the air mass in order to have a velocity parallel to the runway. Among the things to consider are the direction of the runway, the wind speed and direction (its velocity) and the speed of the plane relative to the air mass. Also calculate the speed of the airplane relative to the ground. Discuss any last minute maneuvers the pilot might have to perform in order for the plane to land with its wheels pointing straight down the runway.
+Consider an airplane headed for a runway in a cross wind. Construct a problem in
+which you calculate the angle the airplane must fly relative to the air mass in
+order to have a velocity parallel to the runway. Among the things to consider
+are the direction of the runway, the wind speed and direction (its velocity) and
+the speed of the plane relative to the air mass. Also calculate the speed of the
+airplane relative to the ground. Discuss any last minute maneuvers the pilot
+might have to perform in order for the plane to land with its wheels pointing
+straight down the runway.
 
 </div>
 </div>
@@ -793,6 +792,7 @@ Consider an airplane headed for a runway in a cross wind. Construct a problem in
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 classical relativity

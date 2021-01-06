@@ -27,26 +27,27 @@ the immense.
 
 Sir Isaac Newton was the first scientist to precisely define the gravitational
 force, and to show that it could explain both falling bodies and astronomical
-motions. See [Figure 1](#fig1). But Newton was not the first to
-suspect that the same force caused both our weight and the motion of planets.
-His forerunner Galileo Galilei had contended that falling bodies and planetary
-motions had the same cause. Some of Newton’s contemporaries, such as Robert
-Hooke, Christopher Wren, and Edmund Halley, had also made some progress toward
-understanding gravitation. But Newton was the first to propose an exact
-mathematical form and to use that form to show that the motion of heavenly
-bodies should be conic sections—circles, ellipses, parabolas, and hyperbolas.
-This theoretical prediction was a major triumph—it had been known for some time
-that moons, planets, and comets follow such paths, but no one had been able to
-propose a mechanism that caused them to follow these paths and not others.
+motions. See [Figure 1](#fig1). But Newton was not the first to suspect that the
+same force caused both our weight and the motion of planets. His forerunner
+Galileo Galilei had contended that falling bodies and planetary motions had the
+same cause. Some of Newton’s contemporaries, such as Robert Hooke, Christopher
+Wren, and Edmund Halley, had also made some progress toward understanding
+gravitation. But Newton was the first to propose an exact mathematical form and
+to use that form to show that the motion of heavenly bodies should be conic
+sections—circles, ellipses, parabolas, and hyperbolas. This theoretical
+prediction was a major triumph—it had been known for some time that moons,
+planets, and comets follow such paths, but no one had been able to propose a
+mechanism that caused them to follow these paths and not others.
 
 ![The figure shows a graphic image of a person sitting under a tree carefully looking toward an apple falling from the tree above him. There is a view of a river behind him and an image of the Sun in the sky.](../resources/Figure_07_05_01a.jpg "According to early accounts, Newton was inspired to make the connection between falling bodies and astronomical motions when he saw an apple fall from a tree and realized that if the gravitational force could extend above the ground to a tree, it might also reach the Sun. The inspiration of Newton&#x2019;s apple is a part of worldwide folklore and may even be based in fact. Great importance is attached to it because Newton&#x2019;s universal law of gravitation and his laws of motion answered very old questions about nature and gave tremendous support to the notion of underlying simplicity and unity in nature. Scientists still expect underlying simplicity to emerge from their ongoing inquiries into nature.")
 {: #fig1}
 
 The gravitational force is relatively simple. It is always attractive, and it
 depends only on the masses involved and the distance between them. Stated in
-modern language, **Newton’s universal law of gravitation** states that every particle in the universe attracts
-every other particle with a force along a line joining them. The force is directly proportional to the product of their
-masses and inversely proportional to the square of the distance between them.
+modern language, **Newton’s universal law of gravitation** states that every
+particle in the universe attracts every other particle with a force along a line
+joining them. The force is directly proportional to the product of their masses
+and inversely proportional to the square of the distance between them.
 
 ![The given figure shows two circular objects, one with a larger mass M on the right side, and another with a smaller mass m on the left side. A point in the center of each object is shown, with both depicting the center of mass of the objects at these points. A line is drawn joining the center of the objects and is labeled as r. Two red arrows, one each from both the center of the objects, are drawn toward each other and are labeled as F, the magnitude of the gravitational force on both the objects.](../resources/Figure_07_05_02a.jpg "Gravitational attraction is along a line joining the centers of mass of these two bodies. The magnitude of the force is the same on each, consistent with Newton&#x2019;s third law.")
 {: #fig2}
@@ -64,18 +65,19 @@ The bodies we are dealing with tend to be large. To simplify the situation we
 assume that the body acts as if its entire mass is concentrated at one specific
 point called the **center of mass** (
 CM) , which will be further explored
-in [Linear Momentum and Collisions](../contents/ch8LinearMomentumAndCollisions.md). For two bodies having
-masses $$ m $$ and $$ M $$ with a distance $$ r $$ between their centers of
-mass, the equation for Newton’s universal law of gravitation is
+in [Linear Momentum and Collisions](../contents/ch8LinearMomentumAndCollisions.md)
+. For two bodies having masses $$ m $$ and $$ M $$ with a distance $$ r $$
+between their centers of mass, the equation for Newton’s universal law of
+gravitation is
 
 <div class="equation">
  $$ F=G\frac{mM}{ r^{2}}, $$
 </div>
 
 where $$ F $$ is the magnitude of the gravitational force and $$ G $$ is a
-proportionality factor called the **gravitational constant**. $$ G $$ is a universal gravitational
-constant—that is, it is thought to be the same everywhere in the universe. It
-has been measured experimentally to be
+proportionality factor called the **gravitational constant**. $$ G $$ is a
+universal gravitational constant—that is, it is thought to be the same
+everywhere in the universe. It has been measured experimentally to be
 
 <div class="equation">
  $$ G=6.674 \times 10^{-11}\frac{ \N \cdot \mm}{ {\kg }^{2}} $$
@@ -84,16 +86,16 @@ has been measured experimentally to be
 in SI units. Note that the units of $$ G $$ are such that a force in newtons is
 obtained from $$ F=G\frac{mM}{ r^2 } $$, when considering masses in kilograms
 and distance in meters. For example, two 1.000 kg masses separated by 1.000 m
-will experience a gravitational attraction of $$ 6.674 \times 10^{-11}\N
-$$. This is an extraordinarily small force. The small magnitude of the
-gravitational force is consistent with everyday experience. We are unaware that
-even large objects like mountains exert gravitational forces on us. In fact, our
-body weight is the force of attraction of the *entire Earth* on us with a mass
-of $$ 6\times 10^{24}\kg $$.
+will experience a gravitational attraction of $$ 6.674 \times 10^{-11}\N $$.
+This is an extraordinarily small force. The small magnitude of the gravitational
+force is consistent with everyday experience. We are unaware that even large
+objects like mountains exert gravitational forces on us. In fact, our body
+weight is the force of attraction of the *entire Earth* on us with a mass of $$
+6\times 10^{24}\kg $$.
 
-Recall that the acceleration due to gravity $$ g $$ is about $$ 9.80
-\mss $$ on Earth. We can now determine why this is so. The weight of
-an object *mg* is the gravitational force between it and Earth. Substituting
+Recall that the acceleration due to gravity $$ g $$ is about $$ 9.80 \mss $$ on
+Earth. We can now determine why this is so. The weight of an object *mg* is the
+gravitational force between it and Earth. Substituting
 *mg* for $$ F $$ in Newton’s universal law of gravitation gives
 
 <div class="equation">
@@ -102,8 +104,8 @@ an object *mg* is the gravitational force between it and Earth. Substituting
 
 where $$ m $$ is the mass of the object, $$ M $$ is the mass of Earth, and $$ r
 $$ is the distance to the center of Earth (the distance between the centers of
-mass of the object and Earth). See [Figure 3](#fig3). The mass
-$$ m $$ of the object cancels, leaving an equation for $$ g $$:
+mass of the object and Earth). See [Figure 3](#fig3). The mass $$ m $$ of the
+object cancels, leaving an equation for $$ g $$:
 
 <div class="equation">
  $$ g=G\frac{M}{ r^{2}}. $$
@@ -243,11 +245,12 @@ Earth’s gravitational force causes the Moon to orbit Earth.
 Why does Earth not remain stationary as the Moon orbits it? This is because, as
 expected from Newton’s third law, if Earth exerts a force on the Moon, then the
 Moon should exert an equal and opposite force on Earth (
-see [Figure 4](#fig4)). We do not sense the Moon’s effect on
-Earth’s motion, because the Moon’s gravity moves our bodies right along with
-Earth but there are other signs on Earth that clearly show the effect of the
-Moon’s gravitational force as discussed
-in [Satellites and Kepler\'s Laws: An Argument for Simplicity](../contents/ch6SatellitesAndKeplersLaws.md).
+see [Figure 4](#fig4)). We do not sense the Moon’s effect on Earth’s motion,
+because the Moon’s gravity moves our bodies right along with Earth but there are
+other signs on Earth that clearly show the effect of the Moon’s gravitational
+force as discussed
+in [Satellites and Kepler\'s Laws: An Argument for Simplicity](../contents/ch6SatellitesAndKeplersLaws.md)
+.
 
 ![Figure a shows the Earth and the Moon around it orbiting in a circular path shown here as a circle around the Earth with an arrow over it showing the counterclockwise direction of the Moon. The center of mass of the circle is shown here with a point on the Earth that is not the Earth&#x2019;s center but just right to its center. Figure b shows the Sun and the counterclockwise rotation of the Earth around it, in an elliptical path, which has wiggles. Along this path the center of mass of the Earth-Moon is also shown; it follows non-wiggled elliptical path.](../resources/Figure_07_05_04a.jpg "(a) Earth and the Moon rotate approximately once a month around their common center of mass. (b) Their center of mass orbits the Sun in an elliptical orbit, but Earth&#x2019;s path around the Sun has &#x201C;wiggles&#x201D; in it. Similar wiggles in the paths of stars have been observed and are considered direct evidence of planets orbiting those stars. This is important because the planets&#x2019; reflected light is often too dim to be observed.")
 {: #fig4 height="185"}
@@ -255,18 +258,18 @@ in [Satellites and Kepler\'s Laws: An Argument for Simplicity](../contents/ch6Sa
 ### Tides
 
 Ocean tides are one very observable result of the Moon’s gravity acting on
-Earth. [Figure 5](#fig5) is a simplified drawing of the Moon’s
-position relative to the tides. Because water easily flows on Earth’s surface, a
-high tide is created on the side of Earth nearest to the Moon, where the Moon’s
-gravitational pull is strongest. Why is there also a high tide on the opposite
-side of Earth? The answer is that Earth is pulled toward the Moon more than the
-water on the far side, because Earth is closer to the Moon. So the water on the
-side of Earth closest to the Moon is pulled away from Earth, and Earth is pulled
-away from water on the far side. As Earth rotates, the tidal bulge (an effect of
-the tidal forces between an orbiting natural satellite and the primary planet
-that it orbits) keeps its orientation with the Moon. Thus there are two tides
-per day (the actual tidal period is about 12 hours and 25.2 minutes), because
-the Moon moves in its orbit each day as well).
+Earth. [Figure 5](#fig5) is a simplified drawing of the Moon’s position relative
+to the tides. Because water easily flows on Earth’s surface, a high tide is
+created on the side of Earth nearest to the Moon, where the Moon’s gravitational
+pull is strongest. Why is there also a high tide on the opposite side of Earth?
+The answer is that Earth is pulled toward the Moon more than the water on the
+far side, because Earth is closer to the Moon. So the water on the side of Earth
+closest to the Moon is pulled away from Earth, and Earth is pulled away from
+water on the far side. As Earth rotates, the tidal bulge (an effect of the tidal
+forces between an orbiting natural satellite and the primary planet that it
+orbits) keeps its orientation with the Moon. Thus there are two tides per day (
+the actual tidal period is about 12 hours and 25.2 minutes), because the Moon
+moves in its orbit each day as well).
 
 ![The given figure shows an ellipse, inside which there is a circular image of the Earth. There is a curved arrow in the lower part of the Earth&#x2019;s image pointing in the counterclockwise direction. The right and left side of the ellipse are labeled as High tide and the top and bottom side are labeled as Low tide. Alongside this image a circular image of the Moon is also given with dots showing the crates over it. A vertically upwards vector from its top is also shown, which indicates the direction of the Moon&#x2019;s velocity.](../resources/Figure_07_05_05a.jpg "The Moon causes ocean tides by attracting the water on the near side more than Earth, and by attracting Earth more than the water on the far side. The distances and sizes are not to scale. For this simplified representation of the Earth-Moon system, there are two high and two low tides per day at any location, because Earth rotates under the tidal bulge.")
 {: #fig5}
@@ -282,10 +285,10 @@ is at a $$ 90^\circ $$ angle to the Earth-Moon alignment.
 Tides are not unique to Earth but occur in many astronomical systems. The most
 extreme tides occur where the gravitational force is the strongest and varies
 most rapidly, such as near black holes (
-see [Figure 7](#fig7)). A few likely candidates for black holes
-have been observed in our galaxy. These have masses greater than the Sun but
-have diameters only a few kilometers across. The tidal forces near them are so
-great that they can actually tear matter from a companion star.
+see [Figure 7](#fig7)). A few likely candidates for black holes have been
+observed in our galaxy. These have masses greater than the Sun but have
+diameters only a few kilometers across. The tidal forces near them are so great
+that they can actually tear matter from a companion star.
 
 ![The figure shows a star in sky near a black hole. The tidal force of the black hole is tearing the matter from the star&#x2019;s surface. ](../resources/Figure_07_05_07aa.jpg "A black hole is an object with such strong gravity that not even light can escape it. This black hole was created by the supernova of one star in a two-star system. The tidal forces created by the black hole are so great that it tears matter from the companion star. This matter is compressed and heated as it is sucked into the black hole, creating light and X-rays observable from Earth.")
 {: #fig7}
@@ -306,19 +309,19 @@ weightlessness in some rides in amusement parks.
 ![The figure shows some astronauts floating inside the International Space Station](../resources/Figure_07_05_07ab.jpg "Astronauts experiencing weightlessness on board the International Space Station. (credit: NASA)")
 {: #fig8}
 
-**Microgravity** refers to an
-environment in which the apparent net acceleration of a body is small compared
-with that produced by Earth at its surface. Many interesting biology and physics
-topics have been studied over the past three decades in the presence of
-microgravity. Of immediate concern is the effect on astronauts of extended times
-in outer space, such as at the International Space Station. Researchers have
-observed that muscles will atrophy (waste away) in this environment. There is
-also a corresponding loss of bone mass. Study continues on cardiovascular
-adaptation to space flight. On Earth, blood pressure is usually higher in the
-feet than in the head, because the higher column of blood exerts a downward
-force on it, due to gravity. When standing, 70% of your blood is below the level
-of the heart, while in a horizontal position, just the opposite occurs. What
-difference does the absence of this pressure differential have upon the heart?
+**Microgravity** refers to an environment in which the apparent net acceleration
+of a body is small compared with that produced by Earth at its surface. Many
+interesting biology and physics topics have been studied over the past three
+decades in the presence of microgravity. Of immediate concern is the effect on
+astronauts of extended times in outer space, such as at the International Space
+Station. Researchers have observed that muscles will atrophy (waste away) in
+this environment. There is also a corresponding loss of bone mass. Study
+continues on cardiovascular adaptation to space flight. On Earth, blood pressure
+is usually higher in the feet than in the head, because the higher column of
+blood exerts a downward force on it, due to gravity. When standing, 70% of your
+blood is below the level of the heart, while in a horizontal position, just the
+opposite occurs. What difference does the absence of this pressure differential
+have upon the heart?
 
 Some findings in human physiology in space can be clinically important to the
 management of diseases back on Earth. On a somewhat negative note, spaceflight
@@ -350,9 +353,9 @@ published his universal law of gravitation. The measurement of $$ G $$ is very
 basic and important because it determines the strength of one of the four forces
 in nature. Cavendish’s experiment was very difficult because he measured the
 tiny gravitational attraction between two ordinary-sized masses (
-tens of kilograms at most), using apparatus like that
-in [Figure 9](#fig9). Remarkably, his value for $$ G $$ differs
-by less than 1% from the best modern value.
+tens of kilograms at most), using apparatus like that in [Figure 9](#fig9).
+Remarkably, his value for $$ G $$ differs by less than 1% from the best modern
+value.
 
 One important consequence of knowing $$ G $$ was that an accurate value for
 Earth’s mass could finally be obtained. This was done by measuring the
@@ -366,8 +369,8 @@ gravitation gives
 
 where $$ m $$ is the mass of the object, $$ M $$ is the mass of Earth, and $$ r
 $$ is the distance to the center of Earth (the distance between the centers of
-mass of the object and Earth). See [Figure 2](#fig2). The mass
-$$ m $$ of the object cancels, leaving an equation for $$ g $$:
+mass of the object and Earth). See [Figure 2](#fig2). The mass $$ m $$ of the
+object cancels, leaving an equation for $$ g $$:
 
 <div class="equation">
  $$ g=G\frac{M}{ r^{2}} . $$
@@ -423,18 +426,19 @@ Gravity Force Lab
 
 ### Section Summary
 
-* Newton’s universal law of gravitation: Every
-  particle in the universe attracts every other particle with a force along a
-  line joining them. The force is directly proportional to the product of their
-  masses and inversely proportional to the square of the distance between them.
-  In equation form, this is
+* Newton’s universal law of gravitation: Every particle in the universe attracts
+  every other particle with a force along a line joining them. The force is
+  directly proportional to the product of their masses and inversely
+  proportional to the square of the distance between them. In equation form,
+  this is
   <div class="equation">
- $$ F=G\frac{mM}{ r^{2}}, $$
+
+$$ F=G\frac{mM}{ r^{2}}, $$
   </div>
 
-  where F is the magnitude of the gravitational force. $$ G $$ is the
-  gravitational constant, given by $$ G=6.674 \times 10^{-11}\N \cdot
- \mm/kg^{2} $$.
+where F is the magnitude of the gravitational force. $$ G $$ is the
+gravitational constant, given by $$ G=6.674 \times 10^{-11}\N \cdot \mm/kg^{2}
+$$.
 
 * Newton’s law of gravitation applies universally.
 
@@ -504,8 +508,8 @@ the tides are predominantly due to the Moon in spite of this number.
 <div class="problem" markdown="1">
 (a) What is the acceleration due to gravity on the surface of the Moon?
 
-(b) On the surface of Mars? The mass of Mars is $$ 6.418\times 10^{23}\kg
-$$ and its radius is $$ 3.38 \times 10^{6}\m $$.
+(b) On the surface of Mars? The mass of Mars is $$ 6.418\times 10^{23}\kg $$ and
+its radius is $$ 3.38 \times 10^{6}\m $$.
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
@@ -541,9 +545,9 @@ they are equal and why they should or should not be.
 <div class="solution" data-element-type="problems-exercises" markdown="1">
 a) $$ 3.42\times 10^{-5} \mss $$
 
-b) $$ 3.34\times 10^{-5} \mss $$ The values are nearly identical. One
-would expect the gravitational force to be the same as the centripetal force at
-the core of the system.
+b) $$ 3.34\times 10^{-5} \mss $$ The values are nearly identical. One would
+expect the gravitational force to be the same as the centripetal force at the
+core of the system.
 
 </div>
 </div>
@@ -564,9 +568,9 @@ by a 100 kg father 0.200 m away at birth (he is assisting, so he is close to the
 child).
 
 (b) Calculate the magnitude of the force on the baby due to Jupiter if it is at
-its closest distance to Earth, some $$ 6.29 \times 10^{11}\m $$ away. How
-does the force of Jupiter on the baby compare to the force of the father on the
-baby? Other objects in the room and the hospital building also exert similar
+its closest distance to Earth, some $$ 6.29 \times 10^{11}\m $$ away. How does
+the force of Jupiter on the baby compare to the force of the father on the baby?
+Other objects in the room and the hospital building also exert similar
 gravitational forces. (Of course, there could be an unknown force acting, but
 scientists first need to be convinced that there is even an effect, much less
 that an unknown force causes it.)
@@ -584,12 +588,12 @@ b) $$ 1.35\times 10^{-6}\N $$, $$ 0.521 $$
 The existence of the dwarf planet Pluto was proposed based on irregularities in Neptune’s orbit. Pluto was subsequently discovered near its predicted position. But it now appears that the discovery was fortuitous, because Pluto is small and the irregularities in Neptune’s orbit were not well known. To illustrate that Pluto has a minor effect on the orbit of Neptune compared with the closest planet to Neptune:
 
 (a) Calculate the acceleration due to gravity at Neptune due to Pluto when they
-are $$ 4.50 \times 10^{12}\m $$ apart, as they are at present. The mass of
-Pluto is $$ 1.4\times 10^{22}\kg $$.
+are $$ 4.50 \times 10^{12}\m $$ apart, as they are at present. The mass of Pluto
+is $$ 1.4\times 10^{22}\kg $$.
 
 (b) Calculate the acceleration due to gravity at Neptune due to Uranus,
-presently about $$ 2.50 \times 10^{12}\m $$ apart, and compare it with
-that due to Pluto. The mass of Uranus is $$ 8.62 \times 10^{25}\kg $$.
+presently about $$ 2.50 \times 10^{12}\m $$ apart, and compare it with that due
+to Pluto. The mass of Uranus is $$ 8.62 \times 10^{25}\kg $$.
 
 </div>
 </div>
@@ -647,6 +651,7 @@ d) The gravitational force assumed to be exerted by the mountain is too great.
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 gravitational constant, *G*

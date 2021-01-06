@@ -11,7 +11,8 @@ layout: page
 
 Experience suggests that an object at rest will remain at rest if left alone,
 and that an object in motion tends to slow down and stop unless some effort is
-made to keep it moving. What **Newton’s first law of motion** states, however, is the following:
+made to keep it moving. What **Newton’s first law of motion** states, however,
+is the following:
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -24,11 +25,12 @@ A body at rest remains at rest, or, if in motion, remains in motion at a constan
 Note the repeated use of the verb “remains.” We can think of this law as
 preserving the status quo of motion.
 
-Rather than contradicting our experience, **Newton’s first law of motion** states that there must be a *cause* (which is a net external
-force) *for there to be any change in velocity (either a change in magnitude or
-direction)*. We will define *net external force* in the next section. An object
-sliding across a table or floor slows down due to the net force of friction
-acting on the object. If friction disappeared, would the object still slow down?
+Rather than contradicting our experience, **Newton’s first law of motion**
+states that there must be a *cause* (which is a net external force) *for there
+to be any change in velocity (either a change in magnitude or direction)*. We
+will define *net external force* in the next section. An object sliding across a
+table or floor slows down due to the net force of friction acting on the object.
+If friction disappeared, would the object still slow down?
 
 The idea of cause and effect is crucial in accurately describing what happens in
 various situations. For example, consider what happens to an object sliding
@@ -63,19 +65,20 @@ perhaps, but not a useful insight.
 ### Mass
 
 The property of a body to remain at rest or to remain in motion with constant
-velocity is called **inertia** .
-Newton’s first law is often called the **law of inertia**. As we know from experience, some objects have more
-inertia than others. It is obviously more
+velocity is called **inertia** . Newton’s first law is often called the **law of
+inertia**. As we know from experience, some objects have more inertia than
+others. It is obviously more
 
 difficult to change the motion of a large boulder than that of a basketball, for
-example. The inertia of an object is measured by its **mass**. Roughly speaking, mass is a measure of the amount of
-“stuff” (or matter) in something. The quantity or amount of matter in an object
-is determined by the numbers of atoms and molecules of various types it
-contains. Unlike weight, mass does not vary with location. The mass of an object
-is the same on Earth, in orbit, or on the surface of the Moon. In practice, it
-is very difficult to count and identify all of the atoms and molecules in an
-object, so masses are not often determined in this manner. Operationally, the
-masses of objects are determined by comparison with the standard kilogram.
+example. The inertia of an object is measured by its **mass**. Roughly speaking,
+mass is a measure of the amount of “stuff” (or matter) in something. The
+quantity or amount of matter in an object is determined by the numbers of atoms
+and molecules of various types it contains. Unlike weight, mass does not vary
+with location. The mass of an object is the same on Earth, in orbit, or on the
+surface of the Moon. In practice, it is very difficult to count and identify all
+of the atoms and molecules in an object, so masses are not often determined in
+this manner. Operationally, the masses of objects are determined by comparison
+with the standard kilogram.
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
@@ -96,12 +99,12 @@ They are equal. A kilogram of one substance is equal in mass to a kilogram of an
 
 ### Section Summary
 
-* **Newton’s first law of motion** states that a body at
-  rest remains at rest, or, if in motion, remains in motion at a constant
-  velocity unless acted on by a net external force. This is also known as the
+* **Newton’s first law of motion** states that a body at rest remains at rest,
+  or, if in motion, remains in motion at a constant velocity unless acted on by
+  a net external force. This is also known as the
   **law of inertia**.
-* **Inertia** is the tendency of an object to remain at
-  rest or remain in motion. Inertia is related to an object’s mass.
+* **Inertia** is the tendency of an object to remain at rest or remain in
+  motion. Inertia is related to an object’s mass.
 * **Mass** is the quantity of matter in a substance.
 
 ### Conceptual Questions
@@ -123,6 +126,7 @@ What is the relationship between weight and mass? Which is an intrinsic, unchang
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 inertia

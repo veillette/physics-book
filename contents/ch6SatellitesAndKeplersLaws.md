@@ -23,11 +23,10 @@ systems must be made with large computers. However, we can describe an important
 class of orbits without the use of computers, and we shall find it instructive
 to study them. These orbits have the following characteristics:
 
-1. A small mass $$ m $$ orbits a much larger mass
- $$ M $$. This allows us to view the motion as if $$ M $$ were stationary—in fact,
-   as if from an inertial frame of reference placed on $$ M $$ —without
-   significant error. Mass $$ m $$ is the satellite of $$ M $$, if the orbit is
-   gravitationally bound.
+1. A small mass $$ m $$ orbits a much larger mass $$ M $$. This allows us to
+   view the motion as if $$ M $$ were stationary—in fact, as if from an inertial
+   frame of reference placed on $$ M $$ —without significant error. Mass $$ m $$
+   is the satellite of $$ M $$, if the orbit is gravitationally bound.
 2. *The system is isolated from other masses*. This allows us to neglect any
    small effects due to outside masses.
 
@@ -49,7 +48,7 @@ evidence from which new interpretations and meanings can be constructed.
 
 The orbit of each planet about the Sun is an ellipse with the Sun at one focus.
 
-![In figure a, an ellipse is shown on the coordinate axes. Two foci of the ellipse are joined to a point m on the ellipse. A pencil is shown at the point m. In figure b the elliptical path of a planet is shown. At the left focus f-one of the path the Sun is shown. The planet is shown just above the Sun on the elliptical path.](../resources/Figure_07_06_01a.jpg "(a) An ellipse is a closed curve such that the sum of the distances from a point on the curve to the two foci ( \( f_1 \)  and  \( f_2 \) ) is a constant. You can draw an ellipse as shown by putting a pin at each focus, and then placing a string around a pencil and the pins and tracing a line on paper. A circle is a special case of an ellipse in which the two foci coincide (thus any point on the circle is the same distance from the center). (b) For any closed gravitational orbit,  \( m \)  follows an elliptical path with  \( M \)  at one focus. Kepler&#x2019;s first law states this fact for planets orbiting the Sun.")
+![In figure a, an ellipse is shown on the coordinate axes. Two foci of the ellipse are joined to a point m on the ellipse. A pencil is shown at the point m. In figure b the elliptical path of a planet is shown. At the left focus f-one of the path the Sun is shown. The planet is shown just above the Sun on the elliptical path.](../resources/Figure_07_06_01a.jpg "(a) An ellipse is a closed curve such that the sum of the distances from a point on the curve to the two foci ( \( f_1 \) and \( f_2 \) ) is a constant. You can draw an ellipse as shown by putting a pin at each focus, and then placing a string around a pencil and the pins and tracing a line on paper. A circle is a special case of an ellipse in which the two foci coincide (thus any point on the circle is the same distance from the center). (b) For any closed gravitational orbit, \( m \) follows an elliptical path with \( M \) at one focus. Kepler&#x2019;s first law states this fact for planets orbiting the Sun.")
 {: #fig1}
 
 **Kepler’s Second Law**
@@ -73,9 +72,7 @@ radius. This equation is valid only for comparing two small masses orbiting the
 same large one. Most importantly, this is a descriptive equation only, giving no
 information as to the cause of the equality.
 
-![In the figure, the elliptical path of a planet is shown. The Sun is at the 
-left focus. Three shaded regions M A B, M C D and M E F are marked on the 
-figure by joining the Sun to the three pairs of points A B, C D, and E F on the elliptical path. The velocity of the planet is shown on the planet in a direction tangential to the path.](../resources/Figure_07_06_02a.jpg "The shaded regions have equal areas. It takes equal times for  \( m \)  to go from A to B, from C to D, and from E to F. The mass  \( m \)  moves fastest when it is closest to  \( M \) . Kepler&#x2019;s second law was originally devised for planets orbiting the Sun, but it has broader validity. ")
+![In the figure, the elliptical path of a planet is shown. The Sun is at the left focus. Three shaded regions M A B, M C D and M E F are marked on the figure by joining the Sun to the three pairs of points A B, C D, and E F on the elliptical path. The velocity of the planet is shown on the planet in a direction tangential to the path.](../resources/Figure_07_06_02a.jpg "The shaded regions have equal areas. It takes equal times for \( m \) to go from A to B, from C to D, and from E to F. The mass \( m \) moves fastest when it is closest to \( M \) . Kepler&#x2019;s second law was originally devised for planets orbiting the Sun, but it has broader validity. ")
 {: #fig2}
 
 Note again that while, for historical reasons, Kepler’s laws are stated for
@@ -93,12 +90,11 @@ orbiting at an average altitude of 1500 km above Earth’s surface.
 **Strategy**
 
 The period, or time for one orbit, is related to the radius of the orbit by
-Kepler’s third law, given in mathematical form in
-$$ \frac{ T_{1}^{2}}{ T_{2}^{2}}=\frac{ r_{1}^{3}}{ r_{2}^{3}} $$.
-Let us use the subscript 1 for the Moon
-and the subscript 2 for the satellite. We are asked to find $$ T_{2} $$. The
-given information tells us that the orbital radius of the Moon is $$ r_{1}=3.84
-\times 10^{8}\m $$, and that the period of the Moon is $$ T_{1}=27.3
+Kepler’s third law, given in mathematical form in $$ \frac{ T_{1}^{2}}{ T_
+{2}^{2}}=\frac{ r_{1}^{3}}{ r_{2}^{3}} $$. Let us use the subscript 1 for the
+Moon and the subscript 2 for the satellite. We are asked to find $$ T_{2} $$.
+The given information tells us that the orbital radius of the Moon is $$ r_
+{1}=3.84 \times 10^{8}\m $$, and that the period of the Moon is $$ T_{1}=27.3
 \text{d} $$. The height of the artificial satellite above Earth’s surface is
 given, and so we must add the radius of Earth (6380 km) to get $$ r_{2}=\left(
 1500 +6380 \right)
@@ -131,7 +127,10 @@ T_{2}&=& 1.93 \text{h} .
 \end{array} $$
 </div>
 
-**Discussion** This is a reasonable period for a satellite in a fairly low orbit. It is interesting that any satellite at this altitude will orbit in the same amount of time. This fact is related to the condition that the satellite’s mass is small compared with that of Earth.
+**Discussion** This is a reasonable period for a satellite in a fairly low
+orbit. It is interesting that any satellite at this altitude will orbit in the
+same amount of time. This fact is related to the condition that the satellite’s
+mass is small compared with that of Earth.
 
 </div>
 
@@ -214,17 +213,17 @@ determine the mass $$ M $$ of a parent body from the orbits of its satellites:
 
 If $$ r $$ and $$ T $$ are known for a satellite, then the mass $$ M $$ of the
 parent can be calculated. This principle has been used extensively to find the
-masses of heavenly bodies that have satellites. Furthermore, the ratio $$
-r^{3}/ T^{2} $$ should be a constant for all satellites of the same parent
-body (because $$ \frac{r^{3}}{T^{2}}=\frac{GM}{4\pi^{2}} $$).
- (See [Table 1](#table1)).
+masses of heavenly bodies that have satellites. Furthermore, the ratio $$ r^{3}/
+T^{2} $$ should be a constant for all satellites of the same parent body (
+because $$ \frac{r^{3}}{T^{2}}=\frac{GM}{4\pi^{2}} $$).
+(See [Table 1](#table1)).
 
-It is clear from [Table 1](#table1) that the ratio of $$
-{r}^{3}/ T^{2} $$ is constant, at least to the third digit, for all listed
-satellites of the Sun, and for those of Jupiter. Small variations in that ratio
-have two causes—uncertainties in the $$ r $$ and $$ T $$ data, and perturbations
-of the orbits due to other bodies. Interestingly, those perturbations can be—and
-have been—used to predict the location of new planets and moons. This is another
+It is clear from [Table 1](#table1) that the ratio of $$ {r}^{3}/ T^{2} $$ is
+constant, at least to the third digit, for all listed satellites of the Sun, and
+for those of Jupiter. Small variations in that ratio have two
+causes—uncertainties in the $$ r $$ and $$ T $$ data, and perturbations of the
+orbits due to other bodies. Interestingly, those perturbations can be—and have
+been—used to predict the location of new planets and moons. This is another
 verification of Newton’s universal law of gravitation.
 
 <div class="note" data-label="" markdown="1">
@@ -250,8 +249,7 @@ planet set in 2006 by the International Astronomical Union (IAU) states that in
 the solar system, a planet is a celestial body that:
 
 1. is in orbit around the Sun,
-2. has sufficient mass to assume hydrostatic
-   equilibrium and
+2. has sufficient mass to assume hydrostatic equilibrium and
 3. has cleared the neighborhood around its orbit.
 
 A non-satellite body fulfilling only the first two of the above criteria is
@@ -262,10 +260,10 @@ definition of what constitutes a “true” planet.
 
 ##### Table 1: Orbital Data and Kepler’s Third Law
 
-| Parent |	Satellite|	Average orbital radius r(km) |	Period T(y) |	$$ r^3/ T^2 $$,  $$\left( \text{km}^3/ \text{y}^2 \right) $$ |
+| Parent |    Satellite|    Average orbital radius r(km) |    Period T(y) |    $$ r^3/ T^2 $$, $$\left( \text{km}^3/ \text{y}^2 \right) $$ |
 | ------ |  -------- | ---- | ---- | ---- |
-|Earth	 | Moon      | $$ 3.84 \times 10^{5} $$ | 0.07481| $$1.01 \times 10^{19} $$|
-|Sun	 | Mercury   | $$ 5.79 \times 10^{7} $$ | 0.2409 | $$ 3.34 \times 10^{24} $$|
+|Earth     | Moon      | $$ 3.84 \times 10^{5} $$ | 0.07481| $$1.01 \times 10^{19} $$|
+|Sun     | Mercury   | $$ 5.79 \times 10^{7} $$ | 0.2409 | $$ 3.34 \times 10^{24} $$|
 | Sun    | Venus     | $$ 1.082 \times 10^{8} $$ | 0.6150| $$ 3.35 \times 10^{24} $$ |
 | Sun    | Earth     | $$ 1.496 \times 10^{8} $$ | 1.000 | $$ 3.35 \times 10^{24} $$ |
 | Sun    | Mars      | $$ 2.279 \times 10^{8} $$ | 1.881 | $$ 3.35 \times 10^{24} $$ |
@@ -277,6 +275,7 @@ definition of what constitutes a “true” planet.
 | Jupiter| Europa    | $$ 6.71 \times 10^{5} $$ | 0.00972 (3.55 d) | $$ 3.20 \times 10^{21} $$ |
 | Jupiter| Ganymede  | $$ 1.07 \times 10^{6} $$ |0.0196 (7.16 d) | $$ 3.19 \times 10^{21} $$ |
 | Jupiter| Callisto  | $$ 1.88 \times 10^{6} $$ |0.0457 (16.19 d)| $$ 3.20 \times 10^{21} $$ |
+
 {: #table1}
 
 The universal law of gravitation is a good example of a physical principle that
@@ -286,19 +285,17 @@ number of effects, such as the orbits of the planets and moons in the solar
 system. It epitomizes the underlying unity and simplicity of physics.
 
 Before the discoveries of Kepler, Copernicus, Galileo, Newton, and others, the
-solar system was thought to revolve around Earth as shown
-in [Figure 3](#fig3)(a). This is called the Ptolemaic view, for
-the Greek philosopher who lived in the second century AD. This model is
-characterized by a list of facts for the motions of planets with no cause and
-effect explanation. There tended to be a different rule for each heavenly body
-and a general lack of simplicity.
+solar system was thought to revolve around Earth as shown in [Figure 3](#fig3)(
+a). This is called the Ptolemaic view, for the Greek philosopher who lived in
+the second century AD. This model is characterized by a list of facts for the
+motions of planets with no cause and effect explanation. There tended to be a
+different rule for each heavenly body and a general lack of simplicity.
 
-[Figure 3](#fig3)(b) represents the modern or Copernican model.
-In this model, a small set of rules and a single underlying force explain not
-only all motions in the solar system, but all other situations involving
-gravity. The breadth and simplicity of the laws of physics are compelling. As
-our knowledge of nature has grown, the basic simplicity of its laws has become
-ever more evident.
+[Figure 3](#fig3)(b) represents the modern or Copernican model. In this model, a
+small set of rules and a single underlying force explain not only all motions in
+the solar system, but all other situations involving gravity. The breadth and
+simplicity of the laws of physics are compelling. As our knowledge of nature has
+grown, the basic simplicity of its laws has become ever more evident.
 
 ![In figure a the paths of the different planets are shown in the forms of dotted concentric circles with the Earth at the center with its Moon. The Sun is also shown revolving around the Earth. Each planet is labeled with its name. On the planets Mercury, Venus, Mars, Jupiter and Saturn green colored epicycles are shown. In the figure b Copernican view of planet is shown. The Sun is shown at the center of the solar system. The planets are shown moving around the Sun.](../resources/Figure_07_06_03a.jpg "(a) The Ptolemaic model of the universe has Earth at the center with the Moon, the planets, the Sun, and the stars revolving about it in complex superpositions of circular paths. This geocentric model, which can be made progressively more accurate by adding more circles, is purely descriptive, containing no hints as to what are the causes of these motions. (b) The Copernican model has the Sun at the center of the solar system. It is fully explained by a small number of laws of physics, including Newton&#x2019;s universal law of gravitation.")
 {: #fig3}
@@ -320,9 +317,8 @@ Gravity and Orbits
 
 ### Section Summary
 
-* Kepler’s laws are stated for a small mass $$ m $$
-  orbiting a larger mass $$ M $$ in near-isolation. Kepler’s laws of planetary
-  motion are then as follows:
+* Kepler’s laws are stated for a small mass $$ m $$ orbiting a larger mass $$ M
+  $$ in near-isolation. Kepler’s laws of planetary motion are then as follows:
 
   **Kepler’s first law**
 
@@ -340,19 +336,21 @@ Gravity and Orbits
   equal to the ratio of the cubes of their average distances from the Sun:
 
   <div class="equation">
- $$ \frac{T_{1}^{2}}{ T_{2}^{2}}=\frac{ r_{1}^{3}}{r_{2}^{3}}, $$
+
+$$ \frac{T_{1}^{2}}{ T_{2}^{2}}=\frac{ r_{1}^{3}}{r_{2}^{3}}, $$
   </div>
 
-  where $$ T $$ is the period (time for one orbit) and $$ r $$ is the average
-  radius of the orbit.
+where $$ T $$ is the period (time for one orbit) and $$ r $$ is the average
+radius of the orbit.
 
-* The period and radius of a satellite’s orbit about
-  a larger body $$ M $$ are related by
+* The period and radius of a satellite’s orbit about a larger body $$ M $$ are
+  related by
   <div class="equation">
- $$ T^{2}=\frac{4\pi^{2}}{GM} r^{3} $$
+
+$$ T^{2}=\frac{4\pi^{2}}{GM} r^{3} $$
   </div>
 
-  or
+or
 
   <div class="equation">
  $$ \frac{ r^{3}}{ T^{2}}=\frac{G}{ 4\pi^{2}}M. $$
@@ -434,17 +432,16 @@ very massive black holes at the centers of some galaxies.
 Space debris left from old satellites and their launchers is becoming a hazard
 to other satellites.
 (a) Calculate the speed of a satellite in an orbit 900 km above Earth’s surface.
-(b) Suppose a loose rivet is in an orbit of the same
-radius that intersects the satellite’s orbit at an angle of $$ 90^\circ $$
-relative to Earth. What is the velocity of the rivet relative to the satellite
-just before striking it?
-(c) Given the rivet is 3.00 mm in size, how long will
-its collision with the satellite last?
-(d) If its mass is 0.500 g, what is the
-average force it exerts on the satellite?
-(e) How much energy in joules is
-generated by the collision? (The satellite’s velocity does not change
-appreciably, because its mass is much greater than the rivet’s.)
+(b) Suppose a loose rivet is in an orbit of the same radius that intersects the
+satellite’s orbit at an angle of $$ 90^\circ $$ relative to Earth. What is the
+velocity of the rivet relative to the satellite just before striking it?
+(c) Given the rivet is 3.00 mm in size, how long will its collision with the
+satellite last?
+(d) If its mass is 0.500 g, what is the average force it exerts on the
+satellite?
+(e) How much energy in joules is generated by the collision? (The satellite’s
+velocity does not change appreciably, because its mass is much greater than the
+rivet’s.)
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
@@ -456,7 +453,7 @@ c) $$ 2.86 \times 10^{-7}\s $$
 
 d) $$ 1.84 \times 10^{7}\N $$
 
-e) $$ 2.76 \times 10^{4} \J  $$
+e) $$ 2.76 \times 10^{4} \J $$
 </div>
 </div>
 

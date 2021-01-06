@@ -22,18 +22,17 @@ have already begun to develop.
 Step 1. As usual, it is first necessary to identify the physical principles
 involved. *Once it is determined that Newton’s laws of motion are involved (if
 the problem involves forces), it is particularly important to draw a careful
-sketch of the situation*. Such a sketch is shown
-in [Figure 1](#fig1)(a). Then, as
-in [Figure 1](#fig1)(b), use arrows to represent all forces,
-label them carefully, and make their lengths and directions correspond to the
-forces they represent (whenever sufficient information exists).
+sketch of the situation*. Such a sketch is shown in [Figure 1](#fig1)(a). Then,
+as in [Figure 1](#fig1)(b), use arrows to represent all forces, label them
+carefully, and make their lengths and directions correspond to the forces they
+represent (whenever sufficient information exists).
 
 ![(a) A sketch is shown of a man hanging from a vine.
 (b) The forces acting on the person, shown by vector arrows, are tension T, pointing upward at the hand of the man, F sub T, from the same point but in a downward direction, and weight W, acting downward from his stomach.
 (c) In figure (c) we define only the man as the system of interest. Tension T is acting upward from his hand. The weight W acts in a downward direction. In a free-body diagram W is shown by an arrow acting downward and T is shown by an arrow acting vertically upward. (d) Tension T is shown by an arrow vertically upward and another vector, weight W, is shown by an arrow vertically downward, both having the same lengths. It is indicated that T is equal to minus W.](../resources/Figure 04_06_01.jpg "
 (a) A sketch of Tarzan hanging from a vine.
-(b) Arrows are used to represent all forces. \( \vb{T} \)  is the tension in the vine above Tarzan, \( \vb{F}_T \)  is the force he exerts on the vine, and \( \vb{w} \)  is his weight. All other forces, such as the nudge of a breeze, are assumed negligible.
-(c) Suppose we are given the ape man&#x2019;s mass and asked to find the tension in the vine. We then define the system of interest as shown and draw a free-body diagram. \( \vb{F}_T \)  is no longer shown, because it is not a force acting on the system of interest; rather, \( \vb{F}_T \)  acts on the outside world. (d) Showing only the arrows, the head-to-tail method of addition is used. It is apparent that \( \vb{T}=- \vb{w} \), if Tarzan is stationary.")
+(b) Arrows are used to represent all forces. \( \vb{T} \) is the tension in the vine above Tarzan, \( \vb{F}_T \) is the force he exerts on the vine, and \( \vb{w} \) is his weight. All other forces, such as the nudge of a breeze, are assumed negligible.
+(c) Suppose we are given the ape man&#x2019;s mass and asked to find the tension in the vine. We then define the system of interest as shown and draw a free-body diagram. \( \vb{F}_T \) is no longer shown, because it is not a force acting on the system of interest; rather, \( \vb{F}_T \) acts on the outside world. (d) Showing only the arrows, the head-to-tail method of addition is used. It is apparent that \( \vb{T}=- \vb{w} \), if Tarzan is stationary.")
 {: #fig1}
 
 Step 2. Identify what needs to be determined and what is known or can be
@@ -42,8 +41,8 @@ unknowns. *Then carefully determine the system of interest*. This decision is a
 crucial step, since Newton’s second law involves only external forces. Once the
 system of interest has been identified, it becomes possible to determine which
 forces are external and which are internal, a necessary step to employ Newton’s
-second law. (See [Figure 1](#fig1)(c).) Newton’s third law may
-be used to identify whether forces are exerted between components of a system (
+second law. (See [Figure 1](#fig1)(c).) Newton’s third law may be used to
+identify whether forces are exerted between components of a system (
 internal) or between the system and something outside (external). As illustrated
 earlier in this chapter, the system of interest depends on what question we need
 to answer. This choice becomes easier with practice, eventually developing into
@@ -53,23 +52,22 @@ beneficial in later chapters as well.
 A diagram showing the system of interest and all of the external forces is
 called a **free-body diagram**. Only forces are shown on free-body diagrams, not
 acceleration or velocity. We have drawn several of these in worked
-examples. [Figure 1](#fig1)(c) shows a free-body diagram for
-the system of interest. Note that no internal forces are shown in a free-body
-diagram.
+examples. [Figure 1](#fig1)(c) shows a free-body diagram for the system of
+interest. Note that no internal forces are shown in a free-body diagram.
 
 Step 3. Once a free-body diagram is drawn, *Newton’s second law can be applied
-to solve the problem*. This is done in [Figure 1](#fig1)(d) for
-a particular situation. In general, once external forces are clearly identified
-in free-body diagrams, it should be a straightforward task to put them into
-equation form and solve for the unknown, as done in all previous examples. If
-the problem is one-dimensional—that is, if all forces are parallel—then they add
-like scalars. If the problem is two-dimensional, then it must be broken down
-into a pair of one-dimensional problems. This is done by projecting the force
-vectors onto a set of axes chosen for convenience. As seen in previous examples,
-the choice of axes can simplify the problem. For example, when an incline is
-involved, a set of axes with one axis parallel to the incline and one
-perpendicular to it is most convenient. It is almost always convenient to make
-one axis parallel to the direction of motion, if this is known.
+to solve the problem*. This is done in [Figure 1](#fig1)(d) for a particular
+situation. In general, once external forces are clearly identified in free-body
+diagrams, it should be a straightforward task to put them into equation form and
+solve for the unknown, as done in all previous examples. If the problem is
+one-dimensional—that is, if all forces are parallel—then they add like scalars.
+If the problem is two-dimensional, then it must be broken down into a pair of
+one-dimensional problems. This is done by projecting the force vectors onto a
+set of axes chosen for convenience. As seen in previous examples, the choice of
+axes can simplify the problem. For example, when an incline is involved, a set
+of axes with one axis parallel to the incline and one perpendicular to it is
+most convenient. It is almost always convenient to make one axis parallel to the
+direction of motion, if this is known.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -104,23 +102,22 @@ solving for force and end up with units of m/s, then you have made a mistake.
 
 ### Section Summary
 
-* To solve problems involving Newton’s laws of
-  motion, follow the procedure described:
+* To solve problems involving Newton’s laws of motion, follow the procedure
+  described:
     1. Draw a sketch of the problem.
-    2. Identify known and unknown quantities, and
-       identify the system of interest. Draw a free-body diagram, which is a
-       sketch showing all of the forces acting on an object. The object is
-       represented by a dot, and the forces are represented by vectors extending
-       in different directions from the dot. If vectors act in directions that
-       are not horizontal or vertical, resolve the vectors into horizontal and
-       vertical components and draw them on the free-body diagram.
-    3. Write Newton’s second law in the horizontal
-       and vertical directions and add the forces acting on the object. If the
-       object does not accelerate in a particular direction (for example, the $$
-       x $$ -direction) then $$ F_{\text{net}x}=0 $$. If the object does
-       accelerate in that direction, $$ F_{\text{net}x}=ma $$.
-    4. Check your answer. Is the answer reasonable?
-       Are the units correct? 
+    2. Identify known and unknown quantities, and identify the system of
+       interest. Draw a free-body diagram, which is a sketch showing all of the
+       forces acting on an object. The object is represented by a dot, and the
+       forces are represented by vectors extending in different directions from
+       the dot. If vectors act in directions that are not horizontal or
+       vertical, resolve the vectors into horizontal and vertical components and
+       draw them on the free-body diagram.
+    3. Write Newton’s second law in the horizontal and vertical directions and
+       add the forces acting on the object. If the object does not accelerate in
+       a particular direction (for example, the $$ x $$ -direction) then $$ F_
+       {\text{net}x}=0 $$. If the object does accelerate in that direction, $$
+       F_{\text{net}x}=ma $$.
+    4. Check your answer. Is the answer reasonable? Are the units correct?
 
 ### Problem Exercises
 
@@ -142,8 +139,8 @@ $$ F_{\text{net}}=T-f-mg=ma $$,
 
 so that
 
-$$ a=\frac{T-f-mg }{m}=\frac{1.250 \times 10^{7}\N -4.50\times
-10^{6}N-\left(5.00\times 10^{5}\kg \right)
+$$ a=\frac{T-f-mg }{m}=\frac{1.250 \times 10^{7}\N -4.50\times 10^{6}N-\left(
+5.00\times 10^{5}\kg \right)
 \left( 9.80 \mss \right)
 }{5.00\times 10^{5}\kg }=6.20\mss $$.
 
@@ -168,22 +165,22 @@ Calculate the force a 70.0-kg high jumper must exert on the ground to produce an
 </div>
 <div class="solution" markdown="1">
 
-1. Use Newton’s laws of motion. ![Two forces are acting on an object of mass m: F, shown by an arrow pointing upward, and its weight w, shown by an arrow pointing downward. Acceleration a is represented by a vector arrow pointing upward. The figure depicts the forces acting on a high jumper.](../resources/Figure_04_06_03.jpg)
+1. Use Newton’s laws of
+   motion. ![Two forces are acting on an object of mass m: F, shown by an arrow pointing upward, and its weight w, shown by an arrow pointing downward. Acceleration a is represented by a vector arrow pointing upward. The figure depicts the forces acting on a high jumper.](../resources/Figure_04_06_03.jpg)
    {: #fig3 height="150"}
 
 2. Given :
- $$ a=4.00g=\left(4.00\right)\left(9.80 \mss \right)
+   $$ a=4.00g=\left(4.00\right)\left(9.80 \mss \right)
    =39.2\mss $$; $$ m=70.0 \kg $$, Find: $$ F $$.
 
-3. $$ \sum F = +F - w = m a $$,  so that 
-   $$ F=ma +w=ma +mg =m\left(a+g\right) $$. 
-   $$ F=\left(70.0 \kg \right) \left[ \left(39.2 \mss \right) +\left(9.80 \mss \right) \right] =3.43\times 10^{3}
-   \N $$.
-   The force exerted by the high-jumper is actually down on the ground, but
- $$ F $$ is up from the ground and makes him jump.
+3. $$ \sum F = +F - w = m a $$, so that $$ F=ma +w=ma +mg =m\left(a+g\right) $$.
+   $$ F=\left(70.0 \kg \right)
+   \left[ \left(39.2 \mss \right) +\left(9.80 \mss \right) \right] =3.43\times
+   10^{3} \N $$. The force exerted by the high-jumper is actually down on the
+   ground, but $$ F $$ is up from the ground and makes him jump.
 
 4. This result is reasonable, since it is quite possible for a person to exert a
-   force of the magnitude of $$ 10^{3}\N $$. 
+   force of the magnitude of $$ 10^{3}\N $$.
 
 </div>
 </div>
@@ -313,21 +310,22 @@ Explicitly show how you follow steps in the Problem-Solving Strategy for Newton�
 </div>
 <div class="solution" markdown="1">
 
-1.  Use Newton’s laws since we are looking for forces.
+1. Use Newton’s laws since we are looking for forces.
 
-2.  Draw a free-body diagram: ![A horizontal dotted line with two vectors extending downward from the mid-point of the dotted line, both at angles of fifteen degrees. A third vector points straight downward from the intersection of the first two angles, bisecting them; it is perpendicular to the dotted line.](../resources/Figure_04_06_06.jpg)
-    {: #fig7}
+2. Draw a free-body
+   diagram: ![A horizontal dotted line with two vectors extending downward from the mid-point of the dotted line, both at angles of fifteen degrees. A third vector points straight downward from the intersection of the first two angles, bisecting them; it is perpendicular to the dotted line.](../resources/Figure_04_06_06.jpg)
+   {: #fig7}
 
-3. The tension is given as $$ T=25.0 \N $$.  Find $$ F_
+3. The tension is given as $$ T=25.0 \N $$. Find $$ F_
    {\text{app}}$$. Using Newton’s laws gives:
- $$ \sum F_{y}=0, $$ so that applied force is due to the *y*-components of the
+   $$ \sum F_{y}=0, $$ so that applied force is due to the *y*-components of the
    two tensions:
- $$ F_{\text{app}}=2T\sin{\theta}=2\left(25.0 \N \right)
- \sin\left(15^\circ\right)=12.9 \N $$ The *x*-components of the tension
+   $$ F_{\text{app}}=2T\sin{\theta}=2\left(25.0 \N \right)
+   \sin\left(15^\circ\right)=12.9 \N $$ The *x*-components of the tension
    cancel. $$ \sum F_{x}=0 $$.
 
 4. This seems reasonable, since the applied tensions should be greater than the
-   force applied to the tooth. 
+   force applied to the tooth.
 
 </div>
 </div>
@@ -366,11 +364,12 @@ friction is 60.0 N.
 
 **Construct Your Own Problem**
 
-Consider the tension in an elevator cable during the time the elevator starts from rest and
-accelerates its load upward to some cruising velocity. Taking the elevator and its load to be the
-system of interest, draw a free-body diagram. Then calculate the tension in the cable. Among the
-things to consider are the mass of the elevator and its load, the final velocity, and the time
-taken to reach that velocity.
+Consider the tension in an elevator cable during the time the elevator starts
+from rest and accelerates its load upward to some cruising velocity. Taking the
+elevator and its load to be the system of interest, draw a free-body diagram.
+Then calculate the tension in the cable. Among the things to consider are the
+mass of the elevator and its load, the final velocity, and the time taken to
+reach that velocity.
 
 </div>
 </div>
@@ -380,10 +379,11 @@ taken to reach that velocity.
 
 **Construct Your Own Problem**
 
-Consider two people pushing a toboggan with four children on it up a snow-covered slope.
-Construct a problem in which you calculate the acceleration of the toboggan and its load.
-Things to be considered are the forces exerted by those pushing, the angle of the slope, and
-the masses of the toboggan and children.
+Consider two people pushing a toboggan with four children on it up a
+snow-covered slope. Construct a problem in which you calculate the acceleration
+of the toboggan and its load. Things to be considered are the forces exerted by
+those pushing, the angle of the slope, and the masses of the toboggan and
+children.
 
 </div>
 </div>
@@ -393,9 +393,10 @@ the masses of the toboggan and children.
 
 **Unreasonable Results**
 
- (a) Repeat [Exercise 7](#exercise), but assume an acceleration of $$ 1.20 \mss $$ is produced.
- (b) What is unreasonable about the result?
- (c) Which premise is unreasonable, and why is it unreasonable?
+(a) Repeat [Exercise 7](#exercise), but assume an acceleration of $$ 1.20 \mss
+$$ is produced.
+(b) What is unreasonable about the result?
+(c) Which premise is unreasonable, and why is it unreasonable?
 
 </div>
 </div>
@@ -405,13 +406,14 @@ the masses of the toboggan and children.
 
 **Unreasonable Results**
 
-(a) What is the initial acceleration of a rocket that has a mass of $$ 1.50 \times 10^{6}\kg $$ at takeoff, 
-the engines of which produce a thrust of $$ 2.00 \times 10^{6}\N $$ ? Do not neglect gravity.
-(b) What is unreasonable about the result? (This result has been unintentionally achieved by several real
-rockets.)
-(c) Which premise is unreasonable, or which premises are
-inconsistent? (You may find it useful to compare this problem to the rocket
-problem earlier in this section.)
+(a) What is the initial acceleration of a rocket that has a mass of $$ 1.50
+\times 10^{6}\kg $$ at takeoff, the engines of which produce a thrust of $$ 2.00
+\times 10^{6}\N $$ ? Do not neglect gravity.
+(b) What is unreasonable about the result? (This result has been unintentionally
+achieved by several real rockets.)
+(c) Which premise is unreasonable, or which premises are inconsistent? (You may
+find it useful to compare this problem to the rocket problem earlier in this
+section.)
 
 </div>
 </div>

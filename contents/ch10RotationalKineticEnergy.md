@@ -11,25 +11,25 @@ layout: page
 </div>
 
 In this module, we will learn about work and energy associated with rotational
-motion. [Figure 1](#fig1) shows a worker using an electric
-grindstone propelled by a motor. Sparks are flying, and noise and vibration are
-created as layers of steel are pared from the pole. The stone continues to turn
-even after the motor is turned off, but it is eventually brought to a stop by
-friction. Clearly, the motor had to work to get the stone spinning. This work
-went into heat, light, sound, vibration, and considerable **rotational kinetic
-energy** .
+motion. [Figure 1](#fig1) shows a worker using an electric grindstone propelled
+by a motor. Sparks are flying, and noise and vibration are created as layers of
+steel are pared from the pole. The stone continues to turn even after the motor
+is turned off, but it is eventually brought to a stop by friction. Clearly, the
+motor had to work to get the stone spinning. This work went into heat, light,
+sound, vibration, and considerable **rotational kinetic energy** .
 
 ![The figure shows a mechanic cutting metal with a metal grinder. The sparks are emerging from the point of contact and jumping off tangentially from the cutter.](../resources/Figure_11_04_01a.jpg "The motor works in spinning the grindstone, giving it rotational kinetic energy. That energy is then converted to heat, light, sound, and vibration. (credit: U.S. Navy photo by Mass Communication Specialist Seaman Zachary David Bell)")
 {: #fig1}
 
 Work must be done to rotate objects such as grindstones or merry-go-rounds. Work
-was defined in [Uniform Circular Motion and Gravitation](../contents/ch6UniformCircularMotionAndGravitation.md) for
-translational motion, and we can build on that knowledge when considering work
-done in rotational motion. The simplest rotational situation is one in which the
-net force is exerted perpendicular to the radius of a disk (as shown
-in [Figure 2](#fig2)) and remains perpendicular as the disk
-starts to rotate. The force is parallel to the displacement, and so the net work
-done is the product of the force times the arc length traveled:
+was defined
+in [Uniform Circular Motion and Gravitation](../contents/ch6UniformCircularMotionAndGravitation.md)
+for translational motion, and we can build on that knowledge when considering
+work done in rotational motion. The simplest rotational situation is one in
+which the net force is exerted perpendicular to the radius of a disk (as shown
+in [Figure 2](#fig2)) and remains perpendicular as the disk starts to rotate.
+The force is parallel to the displacement, and so the net work done is the
+product of the force times the arc length traveled:
 
 <div class="equation">
  $$ \text{net}W=\left(\text{net}F\right)\Delta s. $$
@@ -93,12 +93,12 @@ Substituting this into the equation for net $$ W $$ and gathering terms yields
  $$ \text{net}W=\frac{1}{2}I\omega^{2}-\frac{1}{2}I \omega_{0}^{2}. $$
 </div>
 
-This equation is the **work-energy theorem** for rotational motion only. As you may recall, net work
-changes the kinetic energy of a system. Through an analogy with translational
-motion, we define the term $$ \left(\frac{1}{2}\right)I\omega^{2} $$ to be
-**rotational kinetic energy** $$
-\KE_{\text{rot}} $$ for an object with a moment of inertia $$ I $$ and
-an angular velocity $$ \omega $$ :
+This equation is the **work-energy theorem** for rotational motion only. As you
+may recall, net work changes the kinetic energy of a system. Through an analogy
+with translational motion, we define the term $$ \left(\frac{1}{2}\right)
+I\omega^{2} $$ to be
+**rotational kinetic energy** $$ \KE_{\text{rot}} $$ for an object with a moment
+of inertia $$ I $$ and an angular velocity $$ \omega $$ :
 
 <div class="equation">
  $$ \KE_{\text{rot}}=\frac{1}{2} I\omega^{2}. $$
@@ -110,9 +110,7 @@ translational kinetic energy, with $$ I $$ being analogous to $$ m $$ and $$
 Flywheels, for example, can be used to store large amounts of rotational kinetic
 energy in a vehicle, as seen in [Figure 3](#fig3).
 
-![The figure shows a bus carrying a large flywheel on its board in which rotational kinetic energy is stored.](../resources/Figure_11_04_03a.jpg "Experimental vehicles, such as this bus, have been constructed in which rotational kinetic energy is stored in a large flywheel. When the bus goes down a hill, its transmission converts its gravitational
-potential energy into \(  \KE_{\text{rot}} /). It can also convert translational kinetic energy, when the bus stops, into
-\( \KE_{\text{rot}} /). The flywheel&#x2019;s energy can then be used to accelerate, to go up another hill, or to keep the bus from going against friction.")
+![The figure shows a bus carrying a large flywheel on its board in which rotational kinetic energy is stored.](../resources/Figure_11_04_03a.jpg "Experimental vehicles, such as this bus, have been constructed in which rotational kinetic energy is stored in a large flywheel. When the bus goes down a hill, its transmission converts its gravitational potential energy into \( \KE_{\text{rot}} /). It can also convert translational kinetic energy, when the bus stops, into \( \KE_{\text{rot}} /). The flywheel&#x2019;s energy can then be used to accelerate, to go up another hill, or to keep the bus from going against friction.")
 {: #fig3}
 
 <div class="example" markdown="1">
@@ -257,12 +255,11 @@ Problem-Solving Strategy for Rotational Energy
  $$ \KE_{\text{i}}+\PE_{\text{i}}=\KE_{\text{f}}+\PE_{\text{f}}. $$
     Note that $$ \KE_{\text{i}} $$ and $$ \KE_{\text{f}} $$ may each include translational and rotational contributions.
 
-5. *For open systems*, mechanical energy may not be
-   conserved, and other forms of energy (  referred to previously as $$ \text{OE} $$),
-   such as heat transfer, may enter or leave the system. Determine what they
-   are, and calculate them as necessary.
-6. *Eliminate terms wherever possible to simplify the
-   algebra*.
+5. *For open systems*, mechanical energy may not be conserved, and other forms
+   of energy (  referred to previously as $$ \text{OE} $$), such as heat
+   transfer, may enter or leave the system. Determine what they are, and
+   calculate them as necessary.
+6. *Eliminate terms wherever possible to simplify the algebra*.
 7. *Check the answer to see if it is reasonable*.
 
 </div>
@@ -316,8 +313,8 @@ Entering $$ \omega $$ and $$ I $$ into the expression for rotational kinetic ene
 **Solution for (b)**
 
 Translational kinetic energy was defined
-in [Uniform Circular Motion and Gravitation](../contents/ch6UniformCircularMotionAndGravitation.md). Entering the
-given values of mass and velocity, we obtain
+in [Uniform Circular Motion and Gravitation](../contents/ch6UniformCircularMotionAndGravitation.md)
+. Entering the given values of mass and velocity, we obtain
 
 <div class="equation">
  $$ \KE_{\text{trans}}=\frac{1}{2}m v^{2}=\left(0.5\right)\left(1000 \kg \right){\left(20.0 \ms \right)}^{2}=2.00\times 10^{5} \J . $$
@@ -380,17 +377,16 @@ should the thickest soup roll the slowest?
 
 The easiest way to answer these questions is to consider energy. Suppose each
 can starts down the ramp from rest. Each can starting from rest means each
-starts with the same gravitational potential energy $$ \PE_{\text{grav}}
-$$, which is converted entirely to $$ \KE $$, provided each rolls without
-slipping. $$ \KE $$, however, can take the form of $$ \KE_
-{\text{trans}} $$ or $$ \KE_{\text{rot}} $$, and total $$ \KE $$
-is the sum of the two. If a can rolls down a ramp, it puts part of its energy
-into rotation, leaving less for translation. Thus, the can goes slower than it
-would if it slid down. Furthermore, the thin soup does not rotate, whereas the
-thick soup does, because it sticks to the can. The thick soup thus puts more of
-the can’s original gravitational potential energy into rotation than the thin
-soup, and the can rolls more slowly, as seen
-in [Figure 6](#fig6).
+starts with the same gravitational potential energy $$ \PE_{\text{grav}} $$,
+which is converted entirely to $$ \KE $$, provided each rolls without slipping.
+$$ \KE $$, however, can take the form of $$ \KE_
+{\text{trans}} $$ or $$ \KE_{\text{rot}} $$, and total $$ \KE $$ is the sum of
+the two. If a can rolls down a ramp, it puts part of its energy into rotation,
+leaving less for translation. Thus, the can goes slower than it would if it slid
+down. Furthermore, the thin soup does not rotate, whereas the thick soup does,
+because it sticks to the can. The thick soup thus puts more of the can’s
+original gravitational potential energy into rotation than the thin soup, and
+the can rolls more slowly, as seen in [Figure 6](#fig6).
 
 ![The figure shows a flat surface inclined at a height of h from the surface level, with three cans of soup of different densities numbered as one, two, and three rolling along it.](../resources/Figure_11_04_06a.jpg "Three cans of soup with identical masses race down an incline. The first can has a low friction coating and does not roll but just slides down the incline. It wins because it converts its entire PE into translational KE. The second and third cans both roll down the incline without slipping. The second can contains thin soup and comes in second because part of its initial PE goes into rotating the can (but not the thin soup). The third can contains thick soup. It comes in third because the soup rotates along with the can, taking even more of the initial PE for rotational KE, leaving less for translational KE.")
 {: #fig6}
@@ -475,15 +471,15 @@ Substituting known values into the resulting expression yields
 
 **Discussion**
 
-Because $$ m $$ and $$ R $$ cancel, the result $$ v=\sqrt{\frac{4}{3}g h} $$ is valid for any solid cylinder, implying that all solid
-cylinders will roll down an incline at the same rate independent of their masses
-and sizes. (Rolling cylinders down inclines is what Galileo actually did to show
-that objects fall at the same rate independent of mass.) Note that if the
-cylinder slid without friction down the incline without rolling, then the entire
-gravitational potential energy would go into translational kinetic energy. Thus,
-$$ \frac{1}{2}m v^{2}=mgh $$ and $$ v=\sqrt{2g h } $$, which is 22%
-greater than $$ \sqrt{4g h /3} $$. That is, the cylinder would go
-faster at the bottom.
+Because $$ m $$ and $$ R $$ cancel, the result $$ v=\sqrt{\frac{4}{3}g h} $$ is
+valid for any solid cylinder, implying that all solid cylinders will roll down
+an incline at the same rate independent of their masses and sizes. (Rolling
+cylinders down inclines is what Galileo actually did to show that objects fall
+at the same rate independent of mass.) Note that if the cylinder slid without
+friction down the incline without rolling, then the entire gravitational
+potential energy would go into translational kinetic energy. Thus, $$
+\frac{1}{2}m v^{2}=mgh $$ and $$ v=\sqrt{2g h } $$, which is 22% greater than $$
+\sqrt{4g h /3} $$. That is, the cylinder would go faster at the bottom.
 
 </div>
 
@@ -535,19 +531,20 @@ My solar system
   {\text{rot}} $$ for an object with a moment of inertia $$ I $$ and an angular
   velocity $$ \omega $$ is given by
   <div class="equation">
- $$ \KE_{\text{rot}}=\frac{1}{2}I\omega^{2} . $$
+
+$$ \KE_{\text{rot}}=\frac{1}{2}I\omega^{2} . $$
   </div>
 
-* Helicopters store large amounts of rotational
-  kinetic energy in their blades. This energy must be put into the blades before
-  takeoff and maintained until the end of the flight. The engines do not have
-  enough power to simultaneously provide lift and put significant rotational
-  energy into the blades.
-* Work and energy in rotational motion are completely
-  analogous to work and energy in translational motion.
+* Helicopters store large amounts of rotational kinetic energy in their blades.
+  This energy must be put into the blades before takeoff and maintained until
+  the end of the flight. The engines do not have enough power to simultaneously
+  provide lift and put significant rotational energy into the blades.
+* Work and energy in rotational motion are completely analogous to work and
+  energy in translational motion.
 * The equation for the **work-energy theorem** for rotational motion is,
   <div class="equation">
- $$ \text{net}W=\frac{1}{2}I\omega^{2}-\frac{1}{2}I \omega_{0}^{2} . $$
+
+$$ \text{net}W=\frac{1}{2}I\omega^{2}-\frac{1}{2}I \omega_{0}^{2} . $$
   </div>
 
 ### Conceptual Questions
@@ -770,12 +767,13 @@ increase in kinetic energy.
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 work-energy theorem
 : if one or more external forces act upon a rigid object, causing its kinetic
-energy to change from $$ \KE_{1} $$ to $$ \KE_{2} $$, then the
-work $$ W $$ done by the net force is equal to the change in kinetic energy
+energy to change from $$ \KE_{1} $$ to $$ \KE_{2} $$, then the work $$ W $$ done
+by the net force is equal to the change in kinetic energy
 
 rotational kinetic energy
 : the kinetic energy due to the rotation of an object. This is part of its total

@@ -21,14 +21,14 @@ definitions of time, velocity, and speed to expand our description of motion.
 
 ### Time
 
-As discussed in [Physical Quantities and Units](../contents/ch1PhysicalQuantitiesAndUnits.md), the most
-fundamental physical quantities are defined by how they are measured. This is
-the case with time. Every measurement of time involves measuring a change in
-some physical quantity. It may be a number on a digital clock, a heartbeat, or
-the position of the Sun in the sky. In physics, the definition of time is
-simple—**time** is *change*, or the
-interval over which change occurs. It is impossible to know that time has passed
-unless something changes.
+As discussed
+in [Physical Quantities and Units](../contents/ch1PhysicalQuantitiesAndUnits.md)
+, the most fundamental physical quantities are defined by how they are measured.
+This is the case with time. Every measurement of time involves measuring a
+change in some physical quantity. It may be a number on a digital clock, a
+heartbeat, or the position of the Sun in the sky. In physics, the definition of
+time is simple—**time** is *change*, or the interval over which change occurs.
+It is impossible to know that time has passed unless something changes.
 
 The amount of time or change is calibrated by comparison with a standard. The SI
 unit for time is the second, abbreviated s. We might, for example, observe that
@@ -41,9 +41,9 @@ How does time relate to motion? We are usually interested in elapsed time for a
 particular motion, such as how long it takes an airplane passenger to get from
 his seat to the back of the plane. To find elapsed time, we note the time at the
 beginning and end of the motion and subtract the two. For example, a lecture may
-start at 11:00 A.M. and end at 11:50 A.M., so that the elapsed time would 
-be 50 min. **Elapsed time** $$ \Delta t $$ 
-is the difference between the ending time and beginning time,
+start at 11:00 A.M. and end at 11:50 A.M., so that the elapsed time would be 50
+min. **Elapsed time** $$ \Delta t $$ is the difference between the ending time
+and beginning time,
 
 <div class="equation">
  $$ \Delta t=t_{f}-t_{0}, $$
@@ -63,8 +63,8 @@ In this text, for simplicity’s sake,
 
 * motion starts at time equal to zero $$ \left(t_
   {0}=0\right) $$
-* the symbol $$ t $$ is used for elapsed time unless
-  otherwise specified $$ \left(\Delta t=t_{f}\equiv t\right) $$
+* the symbol $$ t $$ is used for elapsed time unless otherwise specified $$
+  \left(\Delta t=t_{f}\equiv t\right) $$
 
 ### Velocity
 
@@ -78,7 +78,8 @@ miles per hour or kilometers per hour.
 Average Velocity
 </div>
 
-**Average velocity** is *displacement (change in position) divided by the time of travel*,
+**Average velocity** is *displacement (change in position) divided by the time
+of travel*,
 
 <div class="equation">
  $$ \overline{v}=\frac{ \Delta x}{\Delta t}=\frac{ x_{f}-x_{0}}{ t_{f}-t_{0}}, $$
@@ -126,9 +127,8 @@ instant*. A car’s speedometer, for example, shows the magnitude (but not the
 direction) of the instantaneous velocity of the car. (Police give tickets based
 on instantaneous velocity, but when calculating how long it will take to get
 from one place to another on a road trip, you need to use average velocity.)
-**Instantaneous velocity** $$ v $$ is
-the average velocity at a specific instant in time (or over an infinitesimally
-small time interval).
+**Instantaneous velocity** $$ v $$ is the average velocity at a specific instant
+in time (or over an infinitesimally small time interval).
 
 Mathematically, finding instantaneous velocity, $$ v $$, at a precise instant $$
 t $$ can involve taking a limit, a calculus operation beyond the scope of this
@@ -144,14 +144,14 @@ Thus *speed is a scalar*. Just as we need to distinguish between instantaneous
 velocity and average velocity, we also need to distinguish between instantaneous
 speed and average speed.
 
-**Instantaneous speed** is the
-magnitude of instantaneous velocity. For example, suppose the airplane passenger
-at one instant had an instantaneous velocity of −3.0 m/s (the minus meaning
-toward the rear of the plane). At that same time his instantaneous speed was 3.0
-m/s. Or suppose that at one time during a shopping trip your instantaneous
-velocity is 40 km/h due north. Your instantaneous speed at that instant would be
-40 km/h—the same magnitude but without a direction. Average speed, however, is
-very different from average velocity. **Average speed** is the distance traveled divided by elapsed time.
+**Instantaneous speed** is the magnitude of instantaneous velocity. For example,
+suppose the airplane passenger at one instant had an instantaneous velocity of
+−3.0 m/s (the minus meaning toward the rear of the plane). At that same time his
+instantaneous speed was 3.0 m/s. Or suppose that at one time during a shopping
+trip your instantaneous velocity is 40 km/h due north. Your instantaneous speed
+at that instant would be 40 km/h—the same magnitude but without a direction.
+Average speed, however, is very different from average velocity. **Average
+speed** is the distance traveled divided by elapsed time.
 
 We have noted that distance traveled can be greater than displacement. So
 average speed can be greater than average velocity, which is displacement
@@ -168,12 +168,12 @@ simply the magnitude of average velocity.
 Another way of visualizing the motion of an object is to use a graph. A plot of
 position or of velocity as a function of time can be very useful. For example,
 for this trip to the store, the position, velocity, and speed-vs.-time graphs
-are displayed in [Figure 4](#fig4). (Note that these graphs
-depict a very simplified **model** of
-the trip. We are assuming that speed is constant during the trip, which is
-unrealistic given that we’ll probably stop at the store. But for simplicity’s
-sake, we will model it with no stops or changes in speed. We are also assuming
-that the route between the store and the house is a perfectly straight line.)
+are displayed in [Figure 4](#fig4). (Note that these graphs depict a very
+simplified **model** of the trip. We are assuming that speed is constant during
+the trip, which is unrealistic given that we’ll probably stop at the store. But
+for simplicity’s sake, we will model it with no stops or changes in speed. We
+are also assuming that the route between the store and the house is a perfectly
+straight line.)
 
 ![Three line graphs. First line graph is of position in kilometers versus time in hours. The line increases linearly from 0 kilometers to 6 kilometers in the first 0 point 25 hours. It then decreases linearly from 6 kilometers to 0 kilometers between 0 point 25 and 0 point 5 hours. Second line graph shows velocity in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time 0 to time 0 point 25. It is vertical at time 0 point 25, dropping from 12 kilometers per hour to negative 12 kilometers per hour. It is flat again at negative 12 kilometers per hour from 0 point 25 hours to 0 point 5 hours. Third line graph shows speed in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time equals 0 to time equals 0 point 5 hours.](../resources/Figure_02_02_03.jpg "Position vs. time, velocity vs. time, and speed vs. time on a trip. Note that the velocity for the return trip is negative. ")
 {: #fig4}
@@ -185,10 +185,9 @@ Making Connections: Take-Home Investigation—Getting a Sense of Speed
 If you have spent much time driving, you probably have a good sense of speeds between about 10 and 70 miles per hour. But what are these in meters per second? What do we mean when we say that something is moving at 10 m/s? To get a better sense of what these values really mean, do some observations and calculations on your own:
 
 * calculate typical car speeds in meters per second
-* estimate jogging and walking speed by timing
-  yourself; convert the measurements into both m/s and mi/h
-* determine the speed of an ant, snail, or falling
-  leaf
+* estimate jogging and walking speed by timing yourself; convert the
+  measurements into both m/s and mi/h
+* determine the speed of an ant, snail, or falling leaf
 
 </div>
 
@@ -217,33 +216,34 @@ travels 40 miles one way and 40 miles back, for a total distance of 80 miles.
 
 ### Section Summary
 
-* Time is measured in terms of change, and its SI
-  unit is the second (s). Elapsed time for an event is
+* Time is measured in terms of change, and its SI unit is the second (s).
+  Elapsed time for an event is
   <div class="equation">
- $$ \Delta t=t_{f}-t_{0}, $$
+
+$$ \Delta t=t_{f}-t_{0}, $$
   </div>
 
-  where $$ t_{f} $$ is the final time and $$ t_{0} $$ is the initial time. The
-  initial time is often taken to be zero, as if measured with a stopwatch; the
-  elapsed time is then just $$ t $$.
-* Average velocity $$ \overline{v} $$ is defined as
-  displacement divided by the travel time. In symbols, average velocity is
+where $$ t_{f} $$ is the final time and $$ t_{0} $$ is the initial time. The
+initial time is often taken to be zero, as if measured with a stopwatch; the
+elapsed time is then just $$ t $$.
+
+* Average velocity $$ \overline{v} $$ is defined as displacement divided by the
+  travel time. In symbols, average velocity is
   <div class="equation">
- $$ \overline{v}=\frac{ \Delta x}{\Delta t}=\frac{ x_{\text{f}}-x_{0}}{ t_{\text{f}}-t_{0}}. $$
+
+$$ \overline{v}=\frac{ \Delta x}{\Delta t}=\frac{ x_{\text{f}}-x_{0}}{ t_
+{\text{f}}-t_{0}}. $$
   </div>
 
 * The SI unit for velocity is m/s.
 * Velocity is a vector and thus has a direction.
-* Instantaneous velocity $$ v $$ is the velocity at a
-  specific instant or the average velocity for an infinitesimal interval.
-* Instantaneous speed is the magnitude of the
-  instantaneous velocity.
-* Instantaneous speed is a scalar quantity, as it has
-  no direction specified.
-* Average speed is the total distance traveled
-  divided by the elapsed time. (Average speed is *not* the magnitude of the
-  average velocity.) Speed is a scalar quantity; it has no direction associated
-  with it.
+* Instantaneous velocity $$ v $$ is the velocity at a specific instant or the
+  average velocity for an infinitesimal interval.
+* Instantaneous speed is the magnitude of the instantaneous velocity.
+* Instantaneous speed is a scalar quantity, as it has no direction specified.
+* Average speed is the total distance traveled divided by the elapsed time. (
+  Average speed is *not* the magnitude of the average velocity.) Speed is a
+  scalar quantity; it has no direction associated with it.
 
 ### Conceptual Questions
 
@@ -425,6 +425,7 @@ second it makes about the nucleus.
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 average speed

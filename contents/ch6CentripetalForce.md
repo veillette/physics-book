@@ -16,34 +16,29 @@ rink floor, a banked roadway’s force on a car, and forces on the tube of a
 spinning centrifuge.
 
 Any net force causing uniform circular motion is called a **centripetal force**
-**. The direction of a centripetal
-force is toward the center of curvature, the same as the
-direction of centripetal acceleration. According to Newton’s second law of
-motion, net force is mass times acceleration:
- $$ \vb{F}_\text{net} =m \vb{a} $$. For uniform circular motion, the
-acceleration is the
-centripetal acceleration— $$\vb{a}=\vb{a}_\text{c}$$. Thus,
-the magnitude of centripetal force $$\mag{F_\text{c} } $$ is
+**. The direction of a centripetal force is toward the center of curvature, the
+same as the direction of centripetal acceleration. According to Newton’s second
+law of motion, net force is mass times acceleration:
+$$ \vb{F}_\text{net} =m \vb{a} $$. For uniform circular motion, the acceleration
+is the centripetal acceleration— $$\vb{a}=\vb{a}_\text{c}$$. Thus, the magnitude
+of centripetal force $$\mag{F_\text{c} } $$ is
 
 <div class="equation">
 $$ \mag{F_\text{c}} = m \mag{ \ac }. $$
 </div>
 
 By using the expressions for the magnitude of the centripetal acceleration $$
-\mag{ \ac } $$ from $$
-\ac=\frac{v^{2}}{r}; \ac =r \omega^{2}$$, we get two expressions for the
-magnitude of the centripetal force $$ \mag{F_\text{c} } $$ in terms of mass,
-velocity, angular
-velocity, and radius of curvature:
+\mag{ \ac } $$ from $$ \ac=\frac{v^{2}}{r}; \ac =r \omega^{2}$$, we get two
+expressions for the magnitude of the centripetal force $$ \mag{F_\text{c} } $$
+in terms of mass, velocity, angular velocity, and radius of curvature:
 
 <div class="equation">
  $$ F_\text{c}=m\frac{ v^{2}}{r}; F_\text{c}=m r \omega^{2}. $$
 </div>
 
 You may use whichever expression for centripetal force is more convenient.
-Centripetal force $$ \vb{F}_{\text{c}} $$ is always perpendicular to the
-path and
-pointing to the center of curvature, because $$ \vb{a}_{\text{c}} $$ is
+Centripetal force $$ \vb{F}_{\text{c}} $$ is always perpendicular to the path
+and pointing to the center of curvature, because $$ \vb{a}_{\text{c}} $$ is
 perpendicular to the velocity and pointing to the center of curvature.
 
 Note that if you solve the first expression for $$ r $$, you get
@@ -54,12 +49,7 @@ $$ r=\frac{ mv^{2}}{ F_\text{c}}. $$
 This implies that for a given mass and velocity, a large centripetal force
 causes a small radius of curvature—that is, a tight curve.
 
-![The given figure consists of two semicircles, one over the other. The top semicircle is bigger and the one below is smaller.
-In both the figures, the direction of the path is given along the semicircle in the counter-clockwise direction. A point is shown on the path, where the radius from the circle, r, is shown with an arrow from the center of the circle. At the same point, the centripetal force is shown in the opposite direction to that of radius arrow. The velocity, v, is shown along this point in the left upward direction and is perpendicular to the force. In both the figures, the velocity is same, but the radius is smaller and centripetal force is larger in the lower figure.](../resources/Figure_07_03_01a.jpg "The frictional force
-supplies the centripetal force and is numerically equal to it.
-Centripetal force is perpendicular to velocity and causes uniform circular motion.
-The larger the \( F_c \) , the smaller the radius of curvature \( r \)  and the sharper the curve.
-The second curve has the same \( v \) , but a larger \( F_c \)  produces a smaller \( r^\prime \) .")
+![The given figure consists of two semicircles, one over the other. The top semicircle is bigger and the one below is smaller. In both the figures, the direction of the path is given along the semicircle in the counter-clockwise direction. A point is shown on the path, where the radius from the circle, r, is shown with an arrow from the center of the circle. At the same point, the centripetal force is shown in the opposite direction to that of radius arrow. The velocity, v, is shown along this point in the left upward direction and is perpendicular to the force. In both the figures, the velocity is same, but the radius is smaller and centripetal force is larger in the lower figure.](../resources/Figure_07_03_01a.jpg "The frictional force supplies the centripetal force and is numerically equal to it. Centripetal force is perpendicular to velocity and causes uniform circular motion. The larger the \( F_c \) , the smaller the radius of curvature \( r \) and the sharper the curve. The second curve has the same \( v \) , but a larger \( F_c \) produces a smaller \( r^\prime \) .")
 {: #fig1}
 
 <div class="example" markdown="1">
@@ -74,8 +64,7 @@ car from slipping (see [Figure 2](#fig2)).
 
 **Strategy and Solution for (a)**
 
-We know that $$ F_{\text{c}}=\frac{ m v^{2} }{r} $$.
-Thus,
+We know that $$ F_{\text{c}}=\frac{ m v^{2} }{r} $$. Thus,
 <div class="equation">
 $$ F_{\text{c}}=\frac{m v^{2}}{r}
 =\frac{ \left( 900 \kg \right)
@@ -85,14 +74,14 @@ $$ F_{\text{c}}=\frac{m v^{2}}{r}
 
 **Strategy for (b)**
 
-[Figure 2](#fig2) shows the forces acting on the car on an
-unbanked (level ground) curve. Friction is to the left, keeping the car from
-slipping, and because it is the only horizontal force acting on the car, the
-friction is the centripetal force in this case. We know that the maximum static
-friction (at which the tires roll but do not slip) is $$ \mu_{\s}N $$,
-where $$ \mu_{\s} $$ is the static coefficient of friction and N is the
-normal force. The normal force equals the car’s weight on level ground, so that
-$$ N=mg $$. Thus the centripetal force in this situation is
+[Figure 2](#fig2) shows the forces acting on the car on an unbanked (level
+ground) curve. Friction is to the left, keeping the car from slipping, and
+because it is the only horizontal force acting on the car, the friction is the
+centripetal force in this case. We know that the maximum static friction (at
+which the tires roll but do not slip) is $$ \mu_{\s}N $$, where $$ \mu_{\s} $$
+is the static coefficient of friction and N is the normal force. The normal
+force equals the car’s weight on level ground, so that $$ N=mg $$. Thus the
+centripetal force in this situation is
 <div class="equation">
 $$ F_{\text{c}}=f=\mu_{\s} N=\mu_{\s} mg . $$
 </div>
@@ -110,8 +99,7 @@ $$ \begin{array}{lll}
  $$ m\frac{ v^{2}}{r}=\mu_{\s}mg . $$
 </div>
 
-We solve this for $$ \mu_{\s}$$, noting that mass cancels, and
-obtain
+We solve this for $$ \mu_{\s}$$, noting that mass cancels, and obtain
 
 <div class="equation">
 $$ \mu_{\s}=\frac{ v^{2}}{rg}. $$
@@ -131,60 +119,52 @@ digits.)
 
 **Discussion**
 
-We could also solve part (a) using the first expression in
-$$
-\left.
-\begin{array}{lll}
-F_{\text{c}}&=&m\frac{ v^{2}}{r}\\
-F_{\text{c}}&=&mr\omega^{2}
-\end{array}
-\right\} ,
-$$
-because $$m$$, $$v$$, and $$r$$  are given. The coefficient of friction found
-in part (b) is much smaller than is
-typically found between tires and roads. The car will still negotiate the curve
-if the coefficient is greater than 0.13, because static friction is a responsive
-force, being able to assume a value less than but no more than $$ \mu_{\s} N $$.
-A higher coefficient would also allow the car to negotiate the curve at a
-higher speed, but if the coefficient of friction is less, the safe speed would
-be less than 25 m/s. Note that mass cancels, implying that in this example, it
-does not matter how heavily loaded the car is to negotiate the turn. Mass
-cancels because friction is assumed proportional to the normal force, which in
-turn is proportional to mass. If the surface of the road were banked, the normal
-force would be less as will be discussed below.
+We could also solve part (a) using the first expression in $$ \left.
+\begin{array}{lll} F_{\text{c}}&=&m\frac{ v^{2}}{r}\\ F_
+{\text{c}}&=&mr\omega^{2} \end{array} \right\} , $$ because $$m$$, $$v$$, and
+$$r$$ are given. The coefficient of friction found in part (b) is much smaller
+than is typically found between tires and roads. The car will still negotiate
+the curve if the coefficient is greater than 0.13, because static friction is a
+responsive force, being able to assume a value less than but no more than $$
+\mu_{\s} N $$. A higher coefficient would also allow the car to negotiate the
+curve at a higher speed, but if the coefficient of friction is less, the safe
+speed would be less than 25 m/s. Note that mass cancels, implying that in this
+example, it does not matter how heavily loaded the car is to negotiate the turn.
+Mass cancels because friction is assumed proportional to the normal force, which
+in turn is proportional to mass. If the surface of the road were banked, the
+normal force would be less as will be discussed below.
 </div>
 
 ![In the given figure, a car is shown from the back, which is turning to the left. The weight, w, of the car is shown with a down arrow and N with an up arrow at the back of the car. At the right rear wheel, centripetal force is shown along with its equation formula in a leftward horizontal arrow. The free-body diagram shows three vectors, one upward, depicting N, one downward, depicting w, and one leftward, depicting centripetal force.](../resources/Figure_07_03_02a.jpg "This car on level ground is moving away and turning to the left. The centripetal force causing the car to turn in a circular path is due to friction between the tires and the road. A minimum coefficient of friction is needed, or the car will move in a larger-radius curve and leave the roadway.")
 {: #fig2}
 
-Let us now consider **banked curves**, where the slope of the road helps you negotiate the
-curve. See [Figure 3](#fig3). The greater the angle $$ \theta
-$$, the faster you can take the curve. Race tracks for bikes as well as cars,
-for example, often have steeply banked curves. In an “ideally banked curve,” the
+Let us now consider **banked curves**, where the slope of the road helps you
+negotiate the curve. See [Figure 3](#fig3). The greater the angle $$ \theta $$,
+the faster you can take the curve. Race tracks for bikes as well as cars, for
+example, often have steeply banked curves. In an “ideally banked curve,” the
 angle $$ \theta $$ is such that you can negotiate the curve at a certain speed
 without the aid of friction between the tires and the road. We will derive an
 expression for $$ \theta $$ for an ideally banked curve and consider an example
 related to it.
 
-For **ideal banking**, the net
-external force equals the horizontal centripetal force in the absence of
-friction. The components of the normal force N in the horizontal and vertical
-directions must equal the centripetal force and the weight of the car,
-respectively. In cases in which forces are not parallel, it is most convenient
-to consider components along perpendicular axes—in this case, the vertical and
-horizontal directions.
+For **ideal banking**, the net external force equals the horizontal centripetal
+force in the absence of friction. The components of the normal force N in the
+horizontal and vertical directions must equal the centripetal force and the
+weight of the car, respectively. In cases in which forces are not parallel, it
+is most convenient to consider components along perpendicular axes—in this case,
+the vertical and horizontal directions.
 
-[Figure 3](#fig3) shows a free body diagram for a car on a
-frictionless banked curve. If the angle $$ \theta $$ is ideal for the speed and
-radius, then the net external force will equal the necessary centripetal force.
-The only two external forces acting on the car are its weight $$ \vb{w} $$
-and the normal force of the road $$ \vb{N} $$. (A frictionless surface can
-only exert a force perpendicular to the surface—that is, a normal force.) These
-two forces must add to give a net external force that is horizontal toward the
-center of curvature and has magnitude $$ m \frac{v^{2}}{r} $$. Because this is
-the crucial force and it is horizontal, we use a coordinate system with vertical
-and horizontal axes. Only the normal force has a horizontal component, and so
-this must equal the centripetal force—that is,
+[Figure 3](#fig3) shows a free body diagram for a car on a frictionless banked
+curve. If the angle $$ \theta $$ is ideal for the speed and radius, then the net
+external force will equal the necessary centripetal force. The only two external
+forces acting on the car are its weight $$ \vb{w} $$ and the normal force of the
+road $$ \vb{N} $$. (A frictionless surface can only exert a force perpendicular
+to the surface—that is, a normal force.) These two forces must add to give a net
+external force that is horizontal toward the center of curvature and has
+magnitude $$ m \frac{v^{2}}{r} $$. Because this is the crucial force and it is
+horizontal, we use a coordinate system with vertical and horizontal axes. Only
+the normal force has a horizontal component, and so this must equal the
+centripetal force—that is,
 
 <div class="equation">
  $$ N\sin{\theta} =\frac{ mv^{2}}{r}. $$
@@ -202,9 +182,8 @@ thus,
 </div>
 
 Now we can combine the last two equations to eliminate $$ N $$ and get an
-expression for $$ \theta $$, as desired. Solving the second equation for
-$$ N=mg/\left( \cos{\theta} \right) $$,
-and substituting this into the first yields
+expression for $$ \theta $$, as desired. Solving the second equation for $$
+N=mg/\left( \cos{\theta} \right) $$, and substituting this into the first yields
 
 <div class="equation">
  $$ mg \frac{ \sin{\theta} }{\cos{\theta} }=\frac{ m v^{2}}{r} $$
@@ -224,11 +203,11 @@ Taking the inverse tangent gives
 </div>
 
 This expression can be understood by considering how $$ \theta $$ depends on
-$$v$$ and $$r$$. A large $$\theta $$ will be obtained for a large $$v$$ and a small
-$$r$$. That is, roads must be steeply banked for high speeds and sharp curves. Friction
-helps, because it allows you to take the curve at greater or lower speed than if
-the curve is frictionless. Note that $$\theta $$ does not depend on the mass of
-the vehicle.
+$$v$$ and $$r$$. A large $$\theta $$ will be obtained for a large $$v$$ and a
+small $$r$$. That is, roads must be steeply banked for high speeds and sharp
+curves. Friction helps, because it allows you to take the curve at greater or
+lower speed than if the curve is frictionless. Note that $$\theta $$ does not
+depend on the mass of the vehicle.
 
 ![In this figure, a car from the backside is shown, turning to the left, on a slope angling downward to the left. A point in the middle of the back of the car is shown which shows one downward vector depicting weight, w, and an upward arrow depicting force N, which is a linear line along the car and is at an angle theta with the straight up arrow. The slope is at an angle theta with the horizontal surface below the slope. The force values, N multiply sine theta equals to centripetal force, the net force on the car and N cosine theta equal to w are given below the car. ](../resources/Figure_07_03_03a.jpg "The car on this banked curve is moving away and turning to the left.")
 {: #fig3}
@@ -288,15 +267,15 @@ Ask a friend or relative to swing a golf club or a tennis racquet. Take appropri
 
 ### Section Summary
 
-*  Centripetal force $$ \vb{F}_\text{c} $$ is
-  any force causing uniform circular motion. It is a “center-seeking” force that
-  always points toward the center of rotation. It is perpendicular to linear
-  velocity $$ v $$ and has magnitude
+* Centripetal force $$ \vb{F}_\text{c} $$ is any force causing uniform circular
+  motion. It is a “center-seeking” force that always points toward the center of
+  rotation. It is perpendicular to linear velocity $$ v $$ and has magnitude
+
   <div class="equation">
  $$ F_{\text{c}}= m \ac , $$
   </div>
 
-  which can also be expressed as
+which can also be expressed as
 
   <div class="equation">
  $$
@@ -463,9 +442,9 @@ What is the ideal speed to take a 100 m radius curve banked at a 20.0° angle?
 <div class="solution" markdown="1">
 a) 24.6 m
 
-b) $$ 36.6 \mss $$ c) $$ \ac=3.73 g$$. This does not seem
-too large, but it is clear that bobsledders feel a lot of force on them going
-through sharply banked turns.
+b) $$ 36.6 \mss $$ c) $$ \ac=3.73 g$$. This does not seem too large, but it is
+clear that bobsledders feel a lot of force on them going through sharply banked
+turns.
 
 </div>
 </div>
@@ -494,11 +473,11 @@ A large centrifuge, like the one shown in [Figure 9](#fig9)(a), is used to expos
 rider is 15.0 m from the center of rotation?
 
 (b) The rider’s cage hangs on a pivot at the end of the arm, allowing it to
-swing outward during rotation as shown in [Figure 9](#fig9)(b).
-At what angle $$ \theta $$ below the horizontal will the cage hang when the
-centripetal acceleration is $$ 10 g $$ ? (Hint: The arm supplies centripetal
-force and supports the weight of the cage. Draw a free body diagram of the
-forces to see what the angle $$ \theta $$ should be.)
+swing outward during rotation as shown in [Figure 9](#fig9)(b). At what angle $$
+\theta $$ below the horizontal will the cage hang when the centripetal
+acceleration is $$ 10 g $$ ? (Hint: The arm supplies centripetal force and
+supports the weight of the cage. Draw a free body diagram of the forces to see
+what the angle $$ \theta $$ should be.)
 
 ![Figure a shows a NASA centrifuge n a big hall. In figure b, there is a girl sitting in the cage of the centrifuge. The centripetal force on the cage is directed toward left. The direction of the weight of the cage is downward and the force on the arm is directed in north-west direction.](../resources/Figure_07_03_09a.jpg "(a) NASA centrifuge used to subject trainees to accelerations similar to those experienced in rocket launches and reentries. (credit: NASA) (b) Rider in cage showing how the cage pivots outward during rotation. This allows the total force exerted on the rider by the cage to be along its axis at all times.")
 {: #fig9}
@@ -519,10 +498,10 @@ b) $$ 5.71^\circ $$
 If a car takes a banked curve at less than the ideal speed, friction is needed
 to keep it from sliding toward the inside of the curve (a real problem on icy
 mountain roads).
-(a) Calculate the ideal speed to take a 100 m radius curve
-banked at $$15.0^\circ $$.
-(b) What is the minimum coefficient of friction
-needed for a frightened driver to take the same curve at 20.0 km/h?
+(a) Calculate the ideal speed to take a 100 m radius curve banked at
+$$15.0^\circ $$.
+(b) What is the minimum coefficient of friction needed for a frightened driver
+to take the same curve at 20.0 km/h?
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
@@ -569,6 +548,7 @@ c) The assumed speed is too great for the tight curve.
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 centripetal force

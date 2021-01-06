@@ -16,35 +16,36 @@ We now move from consideration of forces that affect the motion of an object (
 such as friction and drag) to those that affect an object’s shape. If a
 bulldozer pushes a car into a wall, the car will not move but it will noticeably
 change shape. A change in shape due to the application of a force is a
-**deformation**. Even very small forces are known to cause
-some deformation. For small deformations, two important characteristics are
-observed. First, the object returns to its original shape when the force is
-removed—that is, the deformation is elastic for small deformations. Second, the
-size of the deformation is proportional to the force—that is, for small
-deformations, Hooke’s law is obeyed. In equation form, **Hooke’s law** is given by
+**deformation**. Even very small forces are known to cause some deformation. For
+small deformations, two important characteristics are observed. First, the
+object returns to its original shape when the force is removed—that is, the
+deformation is elastic for small deformations. Second, the size of the
+deformation is proportional to the force—that is, for small deformations,
+Hooke’s law is obeyed. In equation form, **Hooke’s law** is given by
 
 <div class="equation">
  $$ F=k\Delta L, $$
 </div>
 
 where $$ \Delta L $$ is the amount of deformation (the change in length, for
-example) produced by the force $$ F $$, and $$ k $$ is a proportionality constant that depends on the shape and
-composition of the object and the direction of the force. Note that this force
-is a function of the deformation $$ \Delta L $$ —it is not constant as a kinetic
-friction force is. Rearranging this to
+example) produced by the force $$ F $$, and $$ k $$ is a proportionality
+constant that depends on the shape and composition of the object and the
+direction of the force. Note that this force is a function of the deformation $$
+\Delta L $$ —it is not constant as a kinetic friction force is. Rearranging this
+to
 
 <div class="equation">
  $$ \Delta L=\frac{F}{k} $$
 </div>
 
 makes it clear that the deformation is proportional to the applied
-force. [Figure 1](#fig1) shows the Hooke’s law
-relationship between the extension $$ \Delta L $$ of a spring or of a human
-bone. For metals or springs, the straight line region in which Hooke’s law
-pertains is much larger. Bones are brittle and the elastic region is small and
-the fracture abrupt. Eventually a large enough stress to the material will cause
-it to break or fracture. **Tensile strength** is the breaking stress that will
-cause permanent deformation or fracture of a material.
+force. [Figure 1](#fig1) shows the Hooke’s law relationship between the
+extension $$ \Delta L $$ of a spring or of a human bone. For metals or springs,
+the straight line region in which Hooke’s law pertains is much larger. Bones are
+brittle and the elastic region is small and the fracture abrupt. Eventually a
+large enough stress to the material will cause it to break or fracture. **
+Tensile strength** is the breaking stress that will cause permanent deformation
+or fracture of a material.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -63,9 +64,7 @@ object and the direction of the force.
 </div>
 </div>
 
-![Line graph of change in length versus applied force. The line has a
-constant positive slope from the origin in the region where Hooke&#x2019;s law is obeyed. The slope then decreases, with a lower, still positive slope until the end of the elastic region. The slope then increases dramatically in the region of permanent deformation until fracturing occurs.](../resources/Figure_06_03_01a.jpg "A graph of deformation \( \Delta L \) versus applied force \( F \) . The straight segment is the linear region where Hooke&#x2019;s law is obeyed.
-The slope of the straight region is \( k \). For larger forces, the graph is curved but the deformation is still elastic&#x2014; \( \Delta L \) will return to zero if the force is removed. Still greater forces permanently deform the object until it finally fractures. The shape of the curve near fracture depends on several factors, including how the force \( F \)  is applied. Note that in this graph the slope increases just before fracture, indicating that a small increase in \( F \)  is producing a large increase in \( L \)  near the fracture.")
+![Line graph of change in length versus applied force. The line has a constant positive slope from the origin in the region where Hooke&#x2019;s law is obeyed. The slope then decreases, with a lower, still positive slope until the end of the elastic region. The slope then increases dramatically in the region of permanent deformation until fracturing occurs.](../resources/Figure_06_03_01a.jpg "A graph of deformation \( \Delta L \) versus applied force \( F \) . The straight segment is the linear region where Hooke&#x2019;s law is obeyed. The slope of the straight region is \( k \). For larger forces, the graph is curved but the deformation is still elastic&#x2014; \( \Delta L \) will return to zero if the force is removed. Still greater forces permanently deform the object until it finally fractures. The shape of the curve near fracture depends on several factors, including how the force \( F \) is applied. Note that in this graph the slope increases just before fracture, indicating that a small increase in \( F \) is producing a large increase in \( L \) near the fracture.")
 {: #fig1}
 
 The proportionality constant $$ k $$ depends upon a number of factors for the
@@ -74,10 +73,10 @@ tightened, and the elongation $$ \Delta L $$ is proportional to the force
 applied (at least for small deformations). Thicker nylon strings and ones made
 of steel stretch less for the same applied force, implying they have a larger $$
 k $$
-(see [Figure 2](#fig2)). Finally, all three strings
-return to their normal lengths when the force is removed, provided the
-deformation is small. Most materials will behave in this manner if the
-deformation is less than about 0.1% or about 1 part in $$ 10^{3} $$.
+(see [Figure 2](#fig2)). Finally, all three strings return to their normal
+lengths when the force is removed, provided the deformation is small. Most
+materials will behave in this manner if the deformation is less than about 0.1%
+or about 1 part in $$ 10^{3} $$.
 
 ![Diagram of weight w attached to each of three guitar strings of initial length L zero hanging vertically from a ceiling. The weight pulls down on the strings with force w. The ceiling pulls up on the strings with force w. The first string of thin nylon has a deformation of delta L due to the force of the weight pulling down. The middle string of thicker nylon has a smaller deformation. The third string of thin steel has the smallest deformation.](../resources/Figure_06_03_02a.jpg "The same force, in this case a weight ( \( w \) ), applied to three different guitar strings of identical length produces the three different deformations shown as shaded segments. The string on the left is thin nylon, the one in the middle is thicker nylon, and the one on the right is steel.")
 {: #fig2}
@@ -105,7 +104,7 @@ or rod parallel to its length $$ L_{0} $$, either stretching it (a tension) or
 compressing it. (
 See [Figure 3](#fig3).)
 
-![Figure a is a cylindrical rod standing on its end with a height of L sub zero. Two vectors labeled F extend away from each end. A dotted outline indicates that the rod is stretched by a length of delta L. Figure b is a similar rod of identical height L sub zero, but two vectors labeled F exert a force toward the ends of the rod. A dotted line indicates that the rod is compressed by a length of delta L.](../resources/Figure_06_03_03a.jpg "(a) Tension. The rod is stretched a length \( \Delta L \)  when a force is applied parallel to its length. (b) Compression. The same rod is compressed by forces with the same magnitude in the opposite direction. For very small deformations and uniform materials, \( \Delta L \) is approximately the same for the same magnitude of tension or compression. For larger deformations, the cross-sectional area changes as the rod is compressed or stretched.")
+![Figure a is a cylindrical rod standing on its end with a height of L sub zero. Two vectors labeled F extend away from each end. A dotted outline indicates that the rod is stretched by a length of delta L. Figure b is a similar rod of identical height L sub zero, but two vectors labeled F exert a force toward the ends of the rod. A dotted line indicates that the rod is compressed by a length of delta L.](../resources/Figure_06_03_03a.jpg "(a) Tension. The rod is stretched a length \( \Delta L \) when a force is applied parallel to its length. (b) Compression. The same rod is compressed by forces with the same magnitude in the opposite direction. For very small deformations and uniform materials, \( \Delta L \) is approximately the same for the same magnitude of tension or compression. For larger deformations, the cross-sectional area changes as the rod is compressed or stretched.")
 {: #fig3}
 
 Experiments have shown that the change in length ( $$ \Delta L $$)
@@ -121,13 +120,12 @@ combine all these factors into one equation for $$ \Delta L $$:
  $$ \Delta L=\frac{1}{Y}\frac{F}{A} L_{0}, $$
 </div>
 
-where $$ \Delta L $$ is the change in length, $$ F $$ the applied force, $$ Y
-$$ is a factor, called the elastic modulus or Young’s modulus, that depends on
-the substance, $$ A $$ is the cross-sectional area, and $$ L_{0} $$ is the
-original length. [Table 1](#table1) lists values of $$ Y$$
-for several materials—those with a large $$ Y $$ are said to have a
-large tensile stiffness because they deform less for a given tension or
-compression. 
+where $$ \Delta L $$ is the change in length, $$ F $$ the applied force, $$ Y $$
+is a factor, called the elastic modulus or Young’s modulus, that depends on the
+substance, $$ A $$ is the cross-sectional area, and $$ L_{0} $$ is the original
+length. [Table 1](#table1) lists values of $$ Y$$ for several materials—those
+with a large $$ Y $$ are said to have a large tensile stiffness because they
+deform less for a given tension or compression.
 
 ##### Table 1: Elastic Moduli [^1]
 
@@ -157,17 +155,19 @@ compression.
 |Glycerin|||4.5|
 |Mercury|||25|
 |Water|||2.2|
+
 {: #table1}
 
-[^1]: Footnote: Approximate and average values. Young’s moduli $$ Y $$ for tension and compression sometimes differ but are averaged here. Bone has significantly different Young’s moduli for tension and compression.
+[^1]: Footnote: Approximate and average values. Young’s moduli $$ Y $$ for
+tension and compression sometimes differ but are averaged here. Bone has
+significantly different Young’s moduli for tension and compression.
 
-Young’s moduli are not listed for liquids and gases
-in [Table 1](#table1) because they cannot be stretched or
-compressed in only one direction. Note that there is an assumption that the
-object does not accelerate, so that there are actually two applied forces of
-magnitude $$ F $$ acting in opposite directions. For example, the strings
-in [Figure 3](#fig3) are being pulled down by a force of
-magnitude $$ w $$ and held up by the ceiling, which also exerts a force of
+Young’s moduli are not listed for liquids and gases in [Table 1](#table1)
+because they cannot be stretched or compressed in only one direction. Note that
+there is an assumption that the object does not accelerate, so that there are
+actually two applied forces of magnitude $$ F $$ acting in opposite directions.
+For example, the strings in [Figure 3](#fig3) are being pulled down by a force
+of magnitude $$ w $$ and held up by the ceiling, which also exerts a force of
 magnitude $$ w $$.
 
 <div class="example" markdown="1">
@@ -181,10 +181,10 @@ Suspension cables are used to carry gondolas at ski resorts. (See [Figure 4](#fi
 
 **Strategy**
 
-The force is equal to the maximum tension, or $$ F=3.0\times 10^{6}\N $$.
-The cross-sectional area is $$ \pi r^{2}=2.46 \times 10^{-3} \mm $$. The
-equation $$ \Delta L=\frac{1}{Y}\frac{F}{A} L_{0} $$ can be used to find the
-change in length.
+The force is equal to the maximum tension, or $$ F=3.0\times 10^{6}\N $$. The
+cross-sectional area is $$ \pi r^{2}=2.46 \times 10^{-3} \mm $$. The equation $$
+\Delta L=\frac{1}{Y}\frac{F}{A} L_{0} $$ can be used to find the change in
+length.
 
 **Solution**
 
@@ -220,18 +220,18 @@ bone damage due to sustained compressions in bone joints and tendons.
 Another biological example of Hooke’s law occurs in tendons. Functionally, the
 tendon (the tissue connecting muscle to bone) must stretch easily at first when
 a force is applied, but offer a much greater restoring force for a greater
-strain. [Figure 5](#fig5) shows a stress-strain
-relationship for a human tendon. Some tendons have a high collagen content so
-there is relatively little strain, or length change; others, like support
-tendons (as in the leg) can change length up to 10%. Note that this
-stress-strain curve is nonlinear, since the slope of the line changes in
-different regions. In the first part of the stretch called the toe region, the
-fibers in the tendon begin to align in the direction of the stress—this is
-called *uncrimping*. In the linear region, the fibrils will be stretched, and in
-the failure region individual fibers begin to break. A simple model of this
-relationship can be illustrated by springs in parallel: different springs are
-activated at different lengths of stretch. Examples of this are given in the
-problems at end of this chapter. Ligaments (tissue connecting bone to bone)
+strain. [Figure 5](#fig5) shows a stress-strain relationship for a human tendon.
+Some tendons have a high collagen content so there is relatively little strain,
+or length change; others, like support tendons (as in the leg) can change length
+up to 10%. Note that this stress-strain curve is nonlinear, since the slope of
+the line changes in different regions. In the first part of the stretch called
+the toe region, the fibers in the tendon begin to align in the direction of the
+stress—this is called *uncrimping*. In the linear region, the fibrils will be
+stretched, and in the failure region individual fibers begin to break. A simple
+model of this relationship can be illustrated by springs in parallel: different
+springs are activated at different lengths of stretch. Examples of this are
+given in the problems at end of this chapter. Ligaments (tissue connecting bone
+to bone)
 behave in a similar way.
 
 ![The strain on mammalian tendon is shown by a graph, with strain along the x axis and tensile stress along the y axis. The stress strain curve obtained has three regions, namely, toe region at the bottom, linear region between, and failure region at the top.](../resources/Figure_06_03_05_xa.jpg "Typical stress-strain curve for mammalian tendon. Three regions are shown: (1) toe region (2) linear region, and (3) failure region.")
@@ -288,8 +288,8 @@ This small change in length seems reasonable, consistent with our experience
 that bones are rigid. In fact, even the rather large forces encountered during
 strenuous physical activity do not compress or bend bones by large amounts.
 Although bone is rigid compared with fat or muscle, several of the substances
-listed in [Table 1](#table1) have larger values of Young’s
-modulus $$ Y $$. In other words, they are more rigid.
+listed in [Table 1](#table1) have larger values of Young’s modulus $$ Y $$. In
+other words, they are more rigid.
 
 </div>
 
@@ -301,8 +301,8 @@ following form:
 </div>
 
 The ratio of force to area, $$ \frac{F}{A} $$, is defined as **stress** (
-measured in $$ \text{N/m}^{2} $$ ), and the ratio of the change in length
-to length, $$ \frac{ \Delta L}{ L_{0}} $$, is defined as
+measured in $$ \text{N/m}^{2} $$ ), and the ratio of the change in length to
+length, $$ \frac{ \Delta L}{ L_{0}} $$, is defined as
 **strain**
 (a unitless quantity). In other words,
 
@@ -351,11 +351,11 @@ is defined as strain (a unitless quantity). In other words,
 
 ### Sideways Stress: Shear Modulus
 
-[Figure 6](#fig6) illustrates what is meant by a sideways
-stress or a *shearing force*. Here the deformation is called $$ \Delta x $$ and
-it is perpendicular to $$ L_{0} $$, rather than parallel as with tension and
-compression. Shear deformation behaves similarly to tension and compression and
-can be described with similar equations. The expression for
+[Figure 6](#fig6) illustrates what is meant by a sideways stress or a *shearing
+force*. Here the deformation is called $$ \Delta x $$ and it is perpendicular to
+$$ L_{0} $$, rather than parallel as with tension and compression. Shear
+deformation behaves similarly to tension and compression and can be described
+with similar equations. The expression for
 **shear deformation** is
 
 <div class="equation">
@@ -363,14 +363,14 @@ can be described with similar equations. The expression for
 </div>
 
 where $$ S $$ is the shear modulus (
-see [Table 1](#table1)) and $$ F $$ is the force applied
-perpendicular to $$ L_{0} $$ and parallel to the cross-sectional area $$ A $$.
-Again, to keep the object from accelerating, there are actually two equal and
-opposite forces $$ F $$ applied across opposite faces, as illustrated
-in [Figure 6](#fig6). The equation is logical—for
-example, it is easier to bend a long thin pencil (small $$ A $$ )
-than a short thick one, and both are more easily bent than similar steel
-rods (large $$ S $$ ).
+see [Table 1](#table1)) and $$ F $$ is the force applied perpendicular to $$ L_
+{0} $$ and parallel to the cross-sectional area $$ A $$. Again, to keep the
+object from accelerating, there are actually two equal and opposite forces $$ F
+$$ applied across opposite faces, as illustrated in [Figure 6](#fig6). The
+equation is logical—for example, it is easier to bend a long thin pencil (small
+$$ A $$ )
+than a short thick one, and both are more easily bent than similar steel rods (
+large $$ S $$ ).
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -385,7 +385,7 @@ and parallel to the cross-sectional area $$ A $$.
 
 </div>
 
-![Bookcase sheared by a force applied at the bottom right toward the bottom left, and at the top left toward the top right.](../resources/Figure_06_03_06a.jpg "Shearing forces are applied perpendicular to the length \( L_0 \) and parallel to the area \( A \), producing a deformation  \( \Delta x \). Vertical forces are not shown, but it should be kept in mind that in addition to the two shearing forces, \( F \) , there must be supporting forces to keep the object from rotating. The distorting effects of these supporting forces are ignored in this treatment. The weight of the object also is not shown, since it is usually negligible compared with forces large enough to cause significant deformations.")
+![Bookcase sheared by a force applied at the bottom right toward the bottom left, and at the top left toward the top right.](../resources/Figure_06_03_06a.jpg "Shearing forces are applied perpendicular to the length \( L_0 \) and parallel to the area \( A \), producing a deformation \( \Delta x \). Vertical forces are not shown, but it should be kept in mind that in addition to the two shearing forces, \( F \) , there must be supporting forces to keep the object from rotating. The distorting effects of these supporting forces are ignored in this treatment. The weight of the object also is not shown, since it is usually negligible compared with forces large enough to cause significant deformations.")
 {: #fig6}
 
 Examination of the shear moduli in [Table 1](#table1)
@@ -470,16 +470,16 @@ $$ 1.80\times 10^{-6} \m $$ —an amount undetectable to the unaided eye.
 ### Changes in Volume: Bulk Modulus
 
 An object will be compressed in all directions if inward forces are applied
-evenly on all its surfaces as in [Figure 8](#fig8). It is
-relatively easy to compress gases and extremely difficult to compress liquids
-and solids. For example, air in a wine bottle is compressed when it is corked.
-But if you try corking a brim-full bottle, you cannot compress the wine—some
-must be removed if the cork is to be inserted. The reason for these different
-compressibilities is that atoms and molecules are separated by large empty
-spaces in gases but packed close together in liquids and solids. To compress a
-gas, you must force its atoms and molecules closer together. To compress liquids
-and solids, you must actually compress their atoms and molecules, and very
-strong electromagnetic forces in them oppose this compression.
+evenly on all its surfaces as in [Figure 8](#fig8). It is relatively easy to
+compress gases and extremely difficult to compress liquids and solids. For
+example, air in a wine bottle is compressed when it is corked. But if you try
+corking a brim-full bottle, you cannot compress the wine—some must be removed if
+the cork is to be inserted. The reason for these different compressibilities is
+that atoms and molecules are separated by large empty spaces in gases but packed
+close together in liquids and solids. To compress a gas, you must force its
+atoms and molecules closer together. To compress liquids and solids, you must
+actually compress their atoms and molecules, and very strong electromagnetic
+forces in them oppose this compression.
 
 ![A cube with area of cross section A and volume V zero is compressed by an inward force F acting on all surfaces. The compression causes a change in volume delta V, which is proportional to the force per unit area and its original volume. This change in volume is related to the compressibility of the substance.](../resources/Figure_06_03_09a.jpg "An inward force on all surfaces compresses this cube. Its change in volume is proportional to the force per unit area and its original volume, and is related to the compressibility of the substance.")
 {: #fig8}
@@ -497,10 +497,9 @@ change in volume to other physical quantities is given by
  $$ \Delta V=\frac{1}{B}\frac{F}{A} V_{0}, $$
 </div>
 
-where $$ B $$ is the bulk modulus (see [Table 1](#table1)),
-$$ V_{0} $$ is the original volume, and $$ \frac{F}{A} $$ is the force per
-unit area applied uniformly inward on all surfaces. Note that
-  no bulk moduli are given for gases.
+where $$ B $$ is the bulk modulus (see [Table 1](#table1)), $$ V_{0} $$ is the
+original volume, and $$ \frac{F}{A} $$ is the force per unit area applied
+uniformly inward on all surfaces. Note that no bulk moduli are given for gases.
 
 What are some examples of bulk compression of solids and liquids? One practical
 example is the manufacture of industrial-grade diamonds by compressing carbon
@@ -586,49 +585,51 @@ Hooke's Law
 
 * Hooke’s law is given by
   <div class="equation">
- $$ F=k\Delta L, $$
+
+$$ F=k\Delta L, $$
   </div>
 
-  where $$ \Delta L $$ is the amount of deformation (the change in length), $$ F
- $$ is the applied force, and $$ k $$ is a proportionality constant that
-  depends on the shape and composition of the object and the direction of the
-  force. The relationship between the deformation and the applied force can also
-  be written as
+where $$ \Delta L $$ is the amount of deformation (the change in length), $$ F
+$$ is the applied force, and $$ k $$ is a proportionality constant that depends
+on the shape and composition of the object and the direction of the force. The
+relationship between the deformation and the applied force can also be written
+as
 
   <div class="equation">
  $$ \Delta L=\frac{1}{Y}\frac{F}{A} L_{0}, $$
   </div>
 
-  where $$ Y $$ is *Young’s modulus*, which depends on the substance,
- $$ A $$ is the cross-sectional area, and $$ L_{0} $$ is the original length.
+where $$ Y $$ is *Young’s modulus*, which depends on the substance, $$ A $$ is
+the cross-sectional area, and $$ L_{0} $$ is the original length.
 
-* The ratio of force to area, $$ \frac{F}{A}
- $$, is defined as *stress*, measured in $$\text{N/m}^2$$.
-* The ratio of the change in length to length,
- $$ \frac{ \Delta L}{ L_{0}} $$, is defined as *strain* (a unitless quantity).
-  In other words,
+* The ratio of force to area, $$ \frac{F}{A} $$, is defined as *stress*,
+  measured in $$\text{N/m}^2$$.
+* The ratio of the change in length to length, $$ \frac{ \Delta L}{ L_{0}} $$,
+  is defined as *strain* (a unitless quantity). In other words,
   <div class="equation">
- $$ \text{stress}=Y \times \text{strain}. $$
+
+$$ \text{stress}=Y \times \text{strain}. $$
   </div>
 
 * The expression for shear deformation is
   <div class="equation">
- $$ \Delta x=\frac{1}{S}\frac{F}{A} L_{0}, $$
+
+$$ \Delta x=\frac{1}{S}\frac{F}{A} L_{0}, $$
   </div>
 
-  where $$ S $$ is the shear modulus and $$ F $$ is the force applied
-  perpendicular to $$ L_{0} $$ and parallel to the cross-sectional
-  area $$ A $$.
+where $$ S $$ is the shear modulus and $$ F $$ is the force applied
+perpendicular to $$ L_{0} $$ and parallel to the cross-sectional area $$ A $$.
 
-* The relationship of the change in volume to
-  other physical quantities is given by
+* The relationship of the change in volume to other physical quantities is given
+  by
   <div class="equation">
- $$ \Delta V=\frac{1}{B}\frac{F}{A} V_{0}, $$
+
+$$ \Delta V=\frac{1}{B}\frac{F}{A} V_{0}, $$
   </div>
 
-  where $$ B $$ is the bulk modulus, $$ V_{0} $$ is the original volume, and $$
- \frac{ F}{A} $$ is the force per unit area applied uniformly inward on all
-  surfaces.
+where $$ B $$ is the bulk modulus, $$ V_{0} $$ is the original volume, and $$
+\frac{ F}{A} $$ is the force per unit area applied uniformly inward on all
+surfaces.
 
 ### Conceptual Questions
 
@@ -924,6 +925,7 @@ Clearly, the guy wire must be in the opposite direction of the bend.)
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 deformation

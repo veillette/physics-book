@@ -17,17 +17,17 @@ layout: page
 ### Position
 
 In order to describe the motion of an object, you must first be able to describe
-its **position** —where it is at any particular time. More
-precisely, you need to specify its position relative to a convenient reference
-frame. Earth is often used as a reference frame, and we often describe the
-position of an object as it relates to stationary objects in that reference
-frame. For example, a rocket launch would be described in terms of the position
-of the rocket with respect to the Earth as a whole, while a professor’s position
-could be described in terms of where she is in relation to the nearby white
-board. ( See [Figure 2](#fig2).) In other cases, we use reference frames
-that are not stationary but are in motion relative to the Earth. To describe the
-position of a person in an airplane, for example, we use the airplane, not the
-Earth, as the reference frame. (
+its **position** —where it is at any particular time. More precisely, you need
+to specify its position relative to a convenient reference frame. Earth is often
+used as a reference frame, and we often describe the position of an object as it
+relates to stationary objects in that reference frame. For example, a rocket
+launch would be described in terms of the position of the rocket with respect to
+the Earth as a whole, while a professor’s position could be described in terms
+of where she is in relation to the nearby white board. ( See [Figure 2](#fig2).)
+In other cases, we use reference frames that are not stationary but are in
+motion relative to the Earth. To describe the position of a person in an
+airplane, for example, we use the airplane, not the Earth, as the reference
+frame. (
 See [Figure 3](#fig3).)
 
 ### Displacement
@@ -35,8 +35,8 @@ See [Figure 3](#fig3).)
 If an object moves relative to a reference frame (for example, if a professor
 moves to the right relative to a white board or a passenger moves toward the
 rear of an airplane), then the object’s position changes. This change in
-position is known as **displacement**. The word
-“displacement” implies that an object has moved, or has been displaced.
+position is known as **displacement**. The word “displacement” implies that an
+object has moved, or has been displaced.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -57,25 +57,16 @@ position $$ x_{0} $$
 from final position $$ x_{\text{f}} $$.
 
 Note that the SI unit for displacement is the meter (m) (
-see [Physical Quantities and Units](../contents/ch1PhysicalQuantitiesAndUnits.md)), but sometimes
-kilometers, miles, feet, and other units of length are used. Keep in mind that
-when units other than the meter are used in a problem, you may need to convert
-them into meters to complete the calculation.
+see [Physical Quantities and Units](../contents/ch1PhysicalQuantitiesAndUnits.md))
+, but sometimes kilometers, miles, feet, and other units of length are used.
+Keep in mind that when units other than the meter are used in a problem, you may
+need to convert them into meters to complete the calculation.
 
 ![The initial and final position of a professor as she moves to the right while writing on a whiteboard. Her initial position is 1 point 5 meters. Her final position is 3 point 5 meters. Her displacement is given by the equation delta x equals x sub f minus x sub 0 equals 2 point 0 meters.](../resources/Figure_02_01_01.jpg "A professor paces left and right while lecturing. Her position relative to Earth is given by \( \Delta x \) . The +2.0m displacement of the professor relative to Earth is represented by an arrow pointing to the right.")
 {: #fig2}
 
-![View of an airplane with an inset of the passengers sitting inside.
-A passenger has just moved from his seat and is now standing in the back.
-His initial position was 6 point 0 meters. His final position is 2 point
-0 meters. His displacement is given by the equation delta x equals x sub f minus x sub 0 equals
-4 point zero meters.](../resources/Figure_02_01_02.jpg
-"A passenger moves from his seat to the back of the plane.
-His location relative to the airplane is given by \( x_f -x_0 \). The
-displacement of the
-passenger relative to the plane is represented by an arrow toward the rear of
-the plane. Notice that the arrow representing his displacement is twice as long
-as the arrow representing the displacement of the professor (he moves twice as far) in [link].")
+![View of an airplane with an inset of the passengers sitting inside. A passenger has just moved from his seat and is now standing in the back. His initial position was 6 point 0 meters. His final position is 2 point 0 meters. His displacement is given by the equation delta x equals x sub f minus x sub 0 equals 4 point zero meters.](../resources/Figure_02_01_02.jpg
+"A passenger moves from his seat to the back of the plane. His location relative to the airplane is given by \( x_f -x_0 \). The displacement of the passenger relative to the plane is represented by an arrow toward the rear of the plane. Notice that the arrow representing his displacement is twice as long as the arrow representing the displacement of the professor (he moves twice as far) in [link].")
 {: #fig3}
 
 Note that displacement has a direction as well as a magnitude. The professor’s
@@ -84,17 +75,17 @@ displacement is 2.0 m to the right, and the airline passenger’s displacement i
 with a plus or minus sign. When you begin a problem, you should select which
 direction is positive (usually that will be to the right or up, but you are free
 to select positive as being any direction). The professor’s initial position is
-$$ x_{0}=1.5\m $$ and her final position is $$ x_{\text{f}}=3.5\m
-$$. Thus her displacement is
+$$ x_{0}=1.5\m $$ and her final position is $$ x_{\text{f}}=3.5\m $$. Thus her
+displacement is
 
 <div class="equation">
  $$ \Delta x=x_{f}-x_{0}=3.5 \m -1.5 \m=+2.0 \m . $$
 </div>
 
 In this coordinate system, motion to the right is positive, whereas motion to
-the left is negative. Similarly, the airplane passenger’s initial position is
-$$ x_{0}=6.0 \m $$ and his final position is $$ x_{f}=2.0 \m $$, so his displacement
-is
+the left is negative. Similarly, the airplane passenger’s initial position is $$
+x_{0}=6.0 \m $$ and his final position is $$ x_{f}=2.0 \m $$, so his
+displacement is
 
 <div class="equation">
  $$ \Delta x=x_{f}-x_{0}=2.0 \m -6.0 \m =-4.0 \m . $$
@@ -106,11 +97,11 @@ or in the negative $$ x $$ direction in our coordinate system.
 ### Distance
 
 Although displacement is described in terms of direction, distance is not.
-**Distance** is defined to be *the magnitude or size of
-displacement between two positions*. Note that the distance between two
-positions is not the same as the distance traveled between them.
-**Distance traveled** is *the total length of the path traveled between
-two positions*. Distance has no direction and, thus, no sign. For example, the
+**Distance** is defined to be *the magnitude or size of displacement between two
+positions*. Note that the distance between two positions is not the same as the
+distance traveled between them.
+**Distance traveled** is *the total length of the path traveled between two
+positions*. Distance has no direction and, thus, no sign. For example, the
 distance the professor walks is 2.0 m. The distance the airplane passenger walks
 is 4.0 m.
 
@@ -176,14 +167,16 @@ negative.)
 * Displacement is the change in position of an object.
 * In symbols, displacement $$ \Delta x $$ is defined to be
   <div class="equation">
- $$ \Delta x=x_{f}-x_{0}, $$
+
+$$ \Delta x=x_{f}-x_{0}, $$
   </div>
 
-  where $$ x_{0} $$ is the initial position and $$ x_{f} $$ is the final
-  position. In this text, the Greek letter $$ \Delta $$
-  (delta) always means “change in” whatever quantity follows it. The SI unit for
-  displacement is the meter (m). Displacement has a direction as well as a
-  magnitude.
+where $$ x_{0} $$ is the initial position and $$ x_{f} $$ is the final position.
+In this text, the Greek letter $$ \Delta $$
+(delta) always means “change in” whatever quantity follows it. The SI unit for
+displacement is the meter (m). Displacement has a direction as well as a
+magnitude.
+
 * When you start a problem, assign which direction will be positive.
 * Distance is the magnitude of displacement between two positions.
 * Distance traveled is the total length of the path traveled between two
@@ -218,12 +211,8 @@ size, while its displacement is small. Why is this?
 
 ### Problems &amp; Exercises
 
-![An x axis starts at 0 meters and ends at 12 meters. There are four points 
-on the graph with displacement paths. Path A starts at 0 and stops at 7. 
-Path B starts at 12 and ends at 7. Path C starts at 2, goes to 10, turns 
-around and goes back to 8, then turns around again and stops at 11. Path D 
-starts at 9, goes to 3, then turns around and stops at 5.](..
-/resources/Figure_02_01Sol_01.jpg "Displacement Paths")
+![An x axis starts at 0 meters and ends at 12 meters. There are four points on the graph with displacement paths. Path A starts at 0 and stops at 7. Path B starts at 12 and ends at 7. Path C starts at 2, goes to 10, turns around and goes back to 8, then turns around again and stops at 11. Path D starts at 9, goes to 3, then turns around and stops at 5.](
+.. /resources/Figure_02_01Sol_01.jpg "Displacement Paths")
 {: #fig5}
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -237,9 +226,9 @@ Find the following for path A in the [Figure](#fig5) above:
 <div class="solution" markdown="1">
 (a) $$ 7 \m  $$
 
-(b) $$ 7 \m  $$
+(b) $$ 7 \m $$
 
-(c) $$ +7 \m  $$
+(c) $$ +7 \m $$
 </div>
 </div>
 
@@ -283,6 +272,7 @@ Find the following for path D in the [Figure](#fig5) above:
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 kinematics

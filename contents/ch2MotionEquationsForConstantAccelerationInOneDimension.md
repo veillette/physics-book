@@ -27,14 +27,14 @@ be zero, as if time is measured with a stopwatch, is a great simplification.
 Since elapsed time is $$ \Delta t=t_{f}-t_{0} $$, taking $$ t_{0}=0 $$ means
 that $$ \Delta t=t_{f} $$, the final time on the stopwatch. When initial time is
 taken to be zero, we use the subscript 0 to denote initial values of position
-and velocity. That is, $$ x_{0} $$ is the *initial position* and $$ v_{0} $$
-is the *initial velocity*. We put no subscripts on the final values. That is,
-$$ t $$ is the *final time*, $$ x $$ is the *final position*, and
-$$ v $$ is the *final velocity*. This gives a simpler expression for elapsed
-time—now, $$ \Delta t=t $$. It also simplifies the expression for displacement, which is
-now $$ \Delta x=x-x_{0} $$. Also, it simplifies the expression for change in
-velocity, which is now $$ \Delta v=v-v_{0} $$. To summarize, using the
-simplified notation, with the initial time taken to be zero,
+and velocity. That is, $$ x_{0} $$ is the *initial position* and $$ v_{0} $$ is
+the *initial velocity*. We put no subscripts on the final values. That is, $$ t
+$$ is the *final time*, $$ x $$ is the *final position*, and $$ v $$ is the *
+final velocity*. This gives a simpler expression for elapsed time—now, $$ \Delta
+t=t $$. It also simplifies the expression for displacement, which is now $$
+\Delta x=x-x_{0} $$. Also, it simplifies the expression for change in velocity,
+which is now $$ \Delta v=v-v_{0} $$. To summarize, using the simplified
+notation, with the initial time taken to be zero,
 
 <div class="equation">
  $$ \begin{array}{lll}
@@ -149,18 +149,13 @@ same direction.
 The equation $$ x=x_{0}+\overline{v}t $$ gives insight into the relationship
 between displacement, average velocity, and time. It shows, for example, that
 displacement is a linear function of average velocity. (By linear function, we
-mean that displacement depends on $$ \overline{v} $$
- rather than on $$ \overline{v} $$
- raised to some other power, such as $$ {\overline{v}}^{2} $$.
-When graphed, linear functions look like straight lines with a constant
-  slope.) On a car trip, for example, we will get twice as far in a given time
-  if we average 90 km/h than if we average 45 km/h.
+mean that displacement depends on $$ \overline{v} $$ rather than on $$
+\overline{v} $$ raised to some other power, such as $$ {\overline{v}}^{2} $$.
+When graphed, linear functions look like straight lines with a constant slope.)
+On a car trip, for example, we will get twice as far in a given time if we
+average 90 km/h than if we average 45 km/h.
 
-![Line graph showing displacement in meters versus average velocity in
-meters per second. The line is straight with a positive slope. Displacement
-x increases linearly with increase in average velocity v.](../resources/Figure02_05_00b.jpg "There is a linear relationship between
-displacement and average velocity. For a given time \( t\) , an object
-moving twice as fast as another object will move twice as far as the other object.")
+![Line graph showing displacement in meters versus average velocity in meters per second. The line is straight with a positive slope. Displacement x increases linearly with increase in average velocity v.](../resources/Figure02_05_00b.jpg "There is a linear relationship between displacement and average velocity. For a given time \( t\) , an object moving twice as fast as another object will move twice as far as the other object.")
 {: #fig3}
 
 <div class="note" data-label="" markdown="1">
@@ -201,8 +196,8 @@ velocity vector because the plane is decelerating.
 
 **Solution**
 
-1\. Identify the knowns. $$ v_{0}=70.0 \ms $$, $$ a=-1.50 \mss
-$$, $$ t=40.0\s $$.
+1\. Identify the knowns. $$ v_{0}=70.0 \ms $$, $$ a=-1.50 \mss $$, $$ t=40.0\s
+$$.
 
 2\. Identify the unknown. In this case, it is final velocity, $$ v_{f} $$.
 
@@ -231,13 +226,12 @@ In addition to being useful in problem solving, the equation $$ v=v_{0}+a t $$
 gives us insight into the relationships among velocity, acceleration, and time.
 From it we can see, for example, that
 
-* final velocity depends on how large the
-  acceleration is and how long it lasts
-* if the acceleration is zero, then the final
-  velocity equals the initial velocity $$ \left(   v=v_{0}\right) $$,
-  as expected (i.e., velocity is constant)
-* if $$ a $$ is negative, then the final velocity is less than
-  the initial velocity
+* final velocity depends on how large the acceleration is and how long it lasts
+* if the acceleration is zero, then the final velocity equals the initial
+  velocity $$ \left(   v=v_{0}\right) $$, as expected (i.e., velocity is
+  constant)
+* if $$ a $$ is negative, then the final velocity is less than the initial
+  velocity
 
 (All of these observations fit our intuition, and it is always useful to examine
 basic equations in light of our intuition and experiences to check that they do
@@ -307,14 +301,13 @@ Draw a sketch.
 We are asked to find displacement, which is $$ x $$ if we take $$ x_{0} $$ to be
 zero. (Think about it like the starting line of a race. It can be anywhere, but
 we call it 0 and measure all other positions relative to it.) We can use the
-equation $$ x=x_{0}+v_{0}t+\frac{1}{2}a t^{2} $$
-once we identify $$ v_{0} $$, $$ a $$, and $$ t $$ from the statement of the
-problem.
+equation $$ x=x_{0}+v_{0}t+\frac{1}{2}a t^{2} $$ once we identify $$ v_{0} $$,
+$$ a $$, and $$ t $$ from the statement of the problem.
 
 **Solution**
 
-1\. Identify the knowns. Starting from rest means that $$ v_{0}=0 $$, $$a $$
-is given as $$ 26.0\mss $$ and $$ t $$ is given as 5.56 s.
+1\. Identify the knowns. Starting from rest means that $$ v_{0}=0 $$, $$a $$ is
+given as $$ 26.0\mss $$ and $$ t $$ is given as 5.56 s.
 
 2\. Plug the known values into the equation to solve for the unknown $$ x $$:
 
@@ -350,12 +343,12 @@ dragsters can do a quarter mile in even less time than this.
 What else can we learn by examining the equation $$ x=x_{0}+v_{0}t+\frac{1}{2}a
 t^{2} ? $$ We see that:
 
-* displacement depends on the square of the elapsed
-  time when acceleration is not zero. In [Example 3](#exampleDragster1), the
-  dragster covers only one fourth of the total distance in the first half of the
-  elapsed time
-* if acceleration is zero, then the initial velocity
-  equals average velocity ( $$ v_{0}=\overline{v} $$ ) and $$ x=x_{0}+v_{0}t+\frac{1}{2}a t^{2} $$ becomes $$ x=x_{0}+v_{0}t $$
+* displacement depends on the square of the elapsed time when acceleration is
+  not zero. In [Example 3](#exampleDragster1), the dragster covers only one
+  fourth of the total distance in the first half of the elapsed time
+* if acceleration is zero, then the initial velocity equals average velocity (
+  $$ v_{0}=\overline{v} $$ ) and $$ x=x_{0}+v_{0}t+\frac{1}{2}a t^{2} $$ becomes
+  $$ x=x_{0}+v_{0}t $$
 
 <div class="note" id="exampleDragster2" data-label="" markdown="1">
 <div class="title">
@@ -430,11 +423,11 @@ An examination of the equation $$ v^{2}=v_{0}^{2}+2a\left(x-x_{0}\right)
 $$ can produce further insights into the general relationships among physical
 quantities:
 
-* The final velocity depends on how large the
-  acceleration is and the distance over which it acts
-* For a fixed deceleration, a car that is going twice
-  as fast doesn’t simply stop in twice the distance—it takes much further to
-  stop. (This is why we have reduced speed zones near schools.)
+* The final velocity depends on how large the acceleration is and the distance
+  over which it acts
+* For a fixed deceleration, a car that is going twice as fast doesn’t simply
+  stop in twice the distance—it takes much further to stop. (This is why we have
+  reduced speed zones near schools.)
 
 ### Putting Equations Together
 
@@ -491,10 +484,11 @@ this explicitly in the next several examples, using tables to set them off.
 
 **Solution for (a)**
 
-1\. Identify the knowns and what we want to solve for. We know that $$ v_{0}=30.0 \ms $$;
-$$ v=0 $$; $$ a=-7.00\mss $$
+1\. Identify the knowns and what we want to solve for. We know that $$ v_
+{0}=30.0 \ms $$; $$ v=0 $$; $$ a=-7.00\mss $$
 ( $$ a $$ is negative because it is in a direction opposite to velocity). We
-take $$ x_{0} $$ to be 0. We are looking for displacement $$ \Delta x $$, or $$ x-x_{0} $$.
+take $$ x_{0} $$ to be 0. We are looking for displacement $$ \Delta x $$, or $$
+x-x_{0} $$.
 
 2\. Identify the equation that will help up solve the problem. The best equation
 to use is
@@ -541,12 +535,12 @@ stopping time. It is reasonable to assume that the velocity remains constant
 during the driver’s reaction time.
 
 1\. Identify the knowns and what we want to solve for. We know that $$
-\overline{v}=30.0 \ms $$; $$ t_{\text{reaction}}=0.500\s $$; $$
-a_{\text{reaction}}=0 $$. We take $$ x_{0-\text{reaction}} $$ to be 0. We are
+\overline{v}=30.0 \ms $$; $$ t_{\text{reaction}}=0.500\s $$; $$ a_
+{\text{reaction}}=0 $$. We take $$ x_{0-\text{reaction}} $$ to be 0. We are
 looking for $$ x_{\text{reaction}} $$.
 
-2\. Identify the best equation to use. $$ x=x_{0}+\overline{v}t $$ works well because the only unknown value is $$ x
-$$, which is what we want to solve for.
+2\. Identify the best equation to use. $$ x=x_{0}+\overline{v}t $$ works well
+because the only unknown value is $$ x $$, which is what we want to solve for.
 
 3\. Plug in the knowns to solve the equation.
 
@@ -603,7 +597,7 @@ equation with one unknown, $$ t $$).
 **Solution**
 
 1\. Identify the knowns and what we want to solve for. We know that $$ v_{0}=10
- \ms $$; $$ a=2.00 \mss $$; and $$ x=200 \m $$.
+\ms $$; $$ a=2.00 \mss $$; and $$ x=200 \m $$.
 
 2\. We need to solve for $$ t $$. Choose the best equation. $$ x=x_{0}+v_
 {0}t+\frac{1}{2} a t^{2} $$ works best because the only unknown in the equation
@@ -670,9 +664,9 @@ With the basics of kinematics established, we can go on to many other
 interesting examples and applications. In the process of developing kinematics,
 we have also glimpsed a general approach to problem solving that produces both
 correct answers and insights into physical
-relationships. [Problem-Solving Basics](../contents/ch2ProblemSolvingBasicsForOneDimensionalKinematics.md) discusses
-problem-solving basics and outlines an approach that will help you succeed in
-this invaluable task.
+relationships. [Problem-Solving Basics](../contents/ch2ProblemSolvingBasicsForOneDimensionalKinematics.md)
+discusses problem-solving basics and outlines an approach that will help you
+succeed in this invaluable task.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -718,23 +712,21 @@ Rearrange to solve for $$ t $$.
 
 ### Section Summary
 
-* To simplify calculations we take acceleration to be
-  constant, so that $$ \overline{a}=a $$ at all times.
+* To simplify calculations we take acceleration to be constant, so that $$
+  \overline{a}=a $$ at all times.
 * We also take initial time to be zero.
-* Initial position and velocity are given a subscript
-  0; final values have no subscript. Thus,
+* Initial position and velocity are given a subscript 0; final values have no
+  subscript. Thus,
   <div class="equation">
- $$ \begin{array}{lll}
- \Delta t&=& t\\
- \Delta x&=& x-x_{0}\\
- \Delta v&=& v-v_{0}
- \end{array} $$
+
+$$ \begin{array}{lll} \Delta t&=& t\\ \Delta x&=& x-x_{0}\\ \Delta v&=& v-v_{0}
+\end{array} $$
   </div>
 
-* The following kinematic equations for motion with
-  constant $$ a $$ are useful:
+* The following kinematic equations for motion with constant $$ a $$ are useful:
   <div class="equation">
- $$ x=x_{0}+\overline{v}t $$
+
+$$ x=x_{0}+\overline{v}t $$
   </div>
 
   <div class="equation">
@@ -852,8 +844,8 @@ At the end of a race, a runner decelerates from a velocity of 9.00 m/s at a rate
 (b) $$ -1.00 \ms $$
 
 (c) This result does not really make sense. If the runner starts at 9.00 m/s and
-decelerates at $$ 2.00 \mss $$, then she will have stopped after 4.50 s.
-If she continues to decelerate, she will be running backwards.
+decelerates at $$ 2.00 \mss $$, then she will have stopped after 4.50 s. If she
+continues to decelerate, she will be running backwards.
 
 </div>
 </div>
@@ -867,10 +859,10 @@ Blood is accelerated from rest to 30.0 cm/s in a distance of 1.80 cm by the left
 ventricle of the heart.
 (a) Make a sketch of the situation.
 (b) List the knowns in this problem.
-(c) How long does the acceleration take? To solve this part,
-first identify the unknown, and then discuss how you chose the appropriate
-equation to solve for it. After choosing the equation, show your steps in
-solving for the unknown, checking your units.
+(c) How long does the acceleration take? To solve this part, first identify the
+unknown, and then discuss how you chose the appropriate equation to solve for
+it. After choosing the equation, show your steps in solving for the unknown,
+checking your units.
 (d) Is the answer reasonable when compared with the time for a heartbeat?
 
 </div>
@@ -952,12 +944,12 @@ A woodpecker’s brain is specially protected from large decelerations by
 tendon-like attachments inside the skull. While pecking on a tree, the
 woodpecker’s head comes to a stop from an initial velocity of 0.600 m/s in a
 distance of only 2.00 mm.
-(a) Find the acceleration in $$ \mss $$ and in multiples of $$ g\left(g=9.80\mss \right) $$.
+(a) Find the acceleration in $$ \mss $$ and in multiples of $$ g\left(g=9.80\mss
+\right) $$.
 (b) Calculate the stopping time.
-(c) The tendons cradling the brain stretch,
-making its stopping distance 4.50 mm ( greater than the head and, hence,
-less deceleration of the brain). What is the
-brain’s deceleration, expressed in multiples of $$ g $$ ?
+(c) The tendons cradling the brain stretch, making its stopping distance 4.50
+mm ( greater than the head and, hence, less deceleration of the brain). What is
+the brain’s deceleration, expressed in multiples of $$ g $$ ?
 
 </div>
 </div>
@@ -1002,8 +994,8 @@ compare its deceleration with that of the airman in the previous problem.
 <div class="solution" markdown="1">
 (a) $$ 7.7 \ms $$
 
-(b) $$ -15 \times 10^{2}\mss $$. This is about 3 times the
-deceleration of the pilots, who were falling from thousands of meters high!
+(b) $$ -15 \times 10^{2}\mss $$. This is about 3 times the deceleration of the
+pilots, who were falling from thousands of meters high!
 
 </div>
 </div>
@@ -1041,8 +1033,8 @@ less time than given in [Example 3](#exampleDragster1) and
 not valid for a dragster. A dragster changes gears, and would have a greater
 acceleration in first gear than second gear than third gear, etc. The
 acceleration would be greatest at the beginning, so it would not be accelerating
-at $$ 32.6 \mss $$ during the last few meters, but substantially less,
-and the final velocity would be less than 162 m/s.
+at $$ 32.6 \mss $$ during the last few meters, but substantially less, and the
+final velocity would be less than 162 m/s.
 </div>
 </div>
 

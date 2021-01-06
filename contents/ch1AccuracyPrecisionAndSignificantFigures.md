@@ -18,18 +18,17 @@ layout: page
 ### Accuracy and Precision of a Measurement
 
 Science is based on observation and experiment—that is, on measurements.
-**Accuracy** is how close a
-measurement is to the correct value for that measurement. For example, let us
-say that you are measuring the length of standard computer paper. The packaging in
-which you purchased the paper states that it is 11.0 inches long. You measure
-the length of the paper three times and obtain the following measurements: 11.1
-in., 11.2 in., and 10.9 in. These measurements are quite accurate because they
-are very close to the correct value of 11.0 inches. In contrast, if you had
-obtained a measurement of 12 inches, your measurement would not be very
-accurate.
+**Accuracy** is how close a measurement is to the correct value for that
+measurement. For example, let us say that you are measuring the length of
+standard computer paper. The packaging in which you purchased the paper states
+that it is 11.0 inches long. You measure the length of the paper three times and
+obtain the following measurements: 11.1 in., 11.2 in., and 10.9 in. These
+measurements are quite accurate because they are very close to the correct value
+of 11.0 inches. In contrast, if you had obtained a measurement of 12 inches,
+your measurement would not be very accurate.
 
-The **precision** of a measurement
-system is refers to how close the agreement is between repeated measurements (
+The **precision** of a measurement system is refers to how close the agreement
+is between repeated measurements (
 which are repeated under the same conditions). Consider the example of the paper
 measurements. The precision of the measurements refers to the spread of the
 measured values. One way to analyze the precision of the measurements would be
@@ -46,55 +45,46 @@ cases, measurements are accurate but not precise, or they are precise but not
 accurate. Let us consider an example of a GPS system that is attempting to
 locate the position of a restaurant in a city. Think of the restaurant location
 as existing at the center of a bull’s-eye target, and think of each GPS attempt
-to locate the restaurant as a black dot. In [Figure 3](#fig3),
-you can see that the GPS measurements are spread out far apart from each other,
-but they are all relatively close to the actual location of the restaurant at
-the center of the target. This indicates a low precision, high accuracy
-measuring system. However, in [Figure 4](#fig4), the GPS
-measurements are concentrated quite closely to one another, but they are far
-away from the target location. This indicates a high precision, low accuracy
-measuring system.
+to locate the restaurant as a black dot. In [Figure 3](#fig3), you can see that
+the GPS measurements are spread out far apart from each other, but they are all
+relatively close to the actual location of the restaurant at the center of the
+target. This indicates a low precision, high accuracy measuring system. However,
+in [Figure 4](#fig4), the GPS measurements are concentrated quite closely to one
+another, but they are far away from the target location. This indicates a high
+precision, low accuracy measuring system.
 
-![A pattern similar to a dart board with few concentric circles shown in 
-white color on a red background. In the innermost circle, there are four 
-black points on the circumference showing the positions of a restaurant. 
-They are far apart from each other.](../resources/Figure_01_High_accuracy_Low_precision.svg "A GPS system 
-attempts to locate a restaurant at the center of the bull&#x2019;s-eye. The black dots represent each attempt to pinpoint the location of the restaurant. The dots are spread out quite far apart from one another, indicating low precision, but they are each rather close to the actual location of the restaurant, indicating high accuracy. (credit: Dark Evil)")
+![A pattern similar to a dart board with few concentric circles shown in white color on a red background. In the innermost circle, there are four black points on the circumference showing the positions of a restaurant. They are far apart from each other.](../resources/Figure_01_High_accuracy_Low_precision.svg "A GPS system attempts to locate a restaurant at the center of the bull&#x2019;s-eye. The black dots represent each attempt to pinpoint the location of the restaurant. The dots are spread out quite far apart from one another, indicating low precision, but they are each rather close to the actual location of the restaurant, indicating high accuracy. (credit: Dark Evil)")
 {: #fig3 height="75"}
 
-![A pattern similar to a dart board with a few concentric circles shown in 
-white color on a red background. Near the outermost white circles there are 
-four black points showing the positions of a restaurant. The black points 
-are very close to each other.](../resources/Figure_01_High_precision_Low_accuracy.svg "In this figure, the 
-dots are concentrated rather closely to one another, indicating high precision, but they are rather far away from the actual location of the restaurant, indicating low accuracy. (credit: Dark Evil)")
+![A pattern similar to a dart board with a few concentric circles shown in white color on a red background. Near the outermost white circles there are four black points showing the positions of a restaurant. The black points are very close to each other.](../resources/Figure_01_High_precision_Low_accuracy.svg "In this figure, the dots are concentrated rather closely to one another, indicating high precision, but they are rather far away from the actual location of the restaurant, indicating low accuracy. (credit: Dark Evil)")
 {: #fig4 height="75"}
 
 ### Accuracy, Precision, and Uncertainty
 
 The degree of accuracy and precision of a measuring system are related to the
-**uncertainty** in the measurements.
-Uncertainty is a quantitative measure of how much your measured values
-deviate from a standard or expected value. If your measurements are not very
-accurate or precise, then the uncertainty of your values will be very high. In
-more general terms, uncertainty can be thought of as a disclaimer for your
-measured values. For example, if someone asked you to provide the mileage on
-your car, you might say that it is 45 000 miles, plus or minus 500 miles. The
-plus or minus amount is the uncertainty in your value. That is, you are
-indicating that the actual mileage of your car might be as low as 44 500 miles
-or as high as 45 500 miles, or anywhere in between. All measurements contain
-some amount of uncertainty. In our example of measuring the length of the paper,
-we might say that the length of the paper is 11 in., plus or minus 0.2 in. The
-uncertainty in a measurement, $$ A $$, is often denoted as $$ \delta A $$
-(“delta $$ A $$”), so the measurement result would
-be recorded as $$ A \pm \delta A $$. In our paper example, the length
-of the paper could be expressed
-as $$ 11\text{in.} \pm 0.2 $$. The factors contributing to uncertainty
-  in a measurement include:
+**uncertainty** in the measurements. Uncertainty is a quantitative measure of
+how much your measured values deviate from a standard or expected value. If your
+measurements are not very accurate or precise, then the uncertainty of your
+values will be very high. In more general terms, uncertainty can be thought of
+as a disclaimer for your measured values. For example, if someone asked you to
+provide the mileage on your car, you might say that it is 45 000 miles, plus or
+minus 500 miles. The plus or minus amount is the uncertainty in your value. That
+is, you are indicating that the actual mileage of your car might be as low as 44
+500 miles or as high as 45 500 miles, or anywhere in between. All measurements
+contain some amount of uncertainty. In our example of measuring the length of
+the paper, we might say that the length of the paper is 11 in., plus or minus
+0.2 in. The uncertainty in a measurement, $$ A $$, is often denoted as $$ \delta
+A $$
+(“delta $$ A $$”), so the measurement result would be recorded as $$ A \pm
+\delta A $$. In our paper example, the length of the paper could be expressed as
+$$ 11\text{in.} \pm 0.2 $$. The factors contributing to uncertainty in a
+measurement include:
 
 1. Limitations of the measuring device,
 2. The skill of the person making the measurement,
 3. Irregularities in the object being measured,
-4. Any other factors that affect the outcome (highly dependent on the situation).
+4. Any other factors that affect the outcome (highly dependent on the situation)
+   .
 
 In our example, such factors contributing to the uncertainty could be the
 following: the smallest division on the ruler is 0.1 in., the person using the
@@ -139,13 +129,13 @@ A grocery store sells $$ 5\text{-lb} $$ bags of apples. You purchase four bags o
 apples each time. You obtain the following measurements:
 
 * Week 1 weight:
- $$ 4.8 \text{lb} $$
+  $$ 4.8 \text{lb} $$
 * Week 2 weight:
- $$ 5.3 \text{lb} $$
+  $$ 5.3 \text{lb} $$
 * Week 3 weight:
- $$ 4.9 \text{lb} $$
+  $$ 4.9 \text{lb} $$
 * Week 4 weight:
- $$ 5.4 \text{lb} $$
+  $$ 5.4 \text{lb} $$
 
 You determine that the weight of the $$ 5\text{-lb} $$ bag has an uncertainty of
 $$ \pm 0.4\text{lb} $$. What is the percent uncertainty of the bag’s weight?
@@ -186,14 +176,15 @@ example, the area of a floor calculated from measurements of its length and
 width has an uncertainty because the length and width have uncertainties. How
 big is the uncertainty in something you calculate by multiplication or division?
 If the measurements going into the calculation have small uncertainties (a few
-percent or less), then the **method of adding percents** can be used for multiplication or division. This method
-says that **the percent uncertainty in a quantity calculated by multiplication or division is the sum of the percent
+percent or less), then the **method of adding percents** can be used for
+multiplication or division. This method says that **the percent uncertainty in a
+quantity calculated by multiplication or division is the sum of the percent
 uncertainties in the items used to make the calculation**. For example, if a
 floor has a length of $$ 4.00\m $$ and a width of $$ 3.00\m $$, with
 uncertainties of $$ 2 \% $$ and $$ 1 \% $$, respectively, then the area of the
-floor is $$ 12.0 \mm $$ and has an uncertainty of $$ 3 \% $$. (Expressed
-as an area this is $$ 0.36 \mm $$, which we round to $$ 0.4 \mm
-$$ since the area of the floor is given to a tenth of a square meter.)
+floor is $$ 12.0 \mm $$ and has an uncertainty of $$ 3 \% $$. (Expressed as an
+area this is $$ 0.36 \mm $$, which we round to $$ 0.4 \mm $$ since the area of
+the floor is given to a tenth of a square meter.)
 
 <div class="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
 <div class="title">
@@ -230,16 +221,15 @@ was not precise enough to measure a hundredth of a centimeter. It should be
 noted that the last digit in a measured value has been estimated in some way by
 the person performing the measurement. For example, the person measuring the
 length of a stick with a ruler notices that the stick length seems to be
-somewhere in between $$ 36.6\text{cm} $$ and $$ 36.7\text{cm} $$, and they
-must estimate the value of the last digit. Using the method of **significant
-figures**, the rule is that **the
-last digit written down in a measurement is the first digit with some
-uncertainty**. In order to determine the number of significant digits in a
-value, start with the first measured value at the left and count the number of
-digits through the last digit written on the right. For example, the measured
-value $$ 36.7\text{cm} $$ has three digits, or significant figures. Significant
-figures indicate the precision of a measuring tool that was used to measure a
-value.
+somewhere in between $$ 36.6\text{cm} $$ and $$ 36.7\text{cm} $$, and they must
+estimate the value of the last digit. Using the method of **significant
+figures**, the rule is that **the last digit written down in a measurement is
+the first digit with some uncertainty**. In order to determine the number of
+significant digits in a value, start with the first measured value at the left
+and count the number of digits through the last digit written on the right. For
+example, the measured value $$ 36.7\text{cm} $$ has three digits, or significant
+figures. Significant figures indicate the precision of a measuring tool that was
+used to measure a value.
 
 #### Zeros
 
@@ -251,7 +241,8 @@ significant figures. The zeros in 1300 may or may not be significant depending
 on the style of writing numbers. They could mean the number is known to the last
 digit, or they could be placekeepers. So 1300 could have two, three, or four
 significant figures. (To avoid this ambiguity, write 1300 in scientific
-notation.) **Zeros are significant except when they serve only as placekeepers** .
+notation.) **Zeros are significant except when they serve only as placekeepers**
+.
 
 <div class="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
 <div class="title">
@@ -287,17 +278,17 @@ significant
 #### Significant Figures in Calculations
 
 When combining measurements with different degrees of accuracy and precision,
-**the number of significant digits in the final answer can be no greater than the
-number of significant digits in the least precise measured value**. There are
-two different rules, one for multiplication and division and the other for
+**the number of significant digits in the final answer can be no greater than
+the number of significant digits in the least precise measured value**. There
+are two different rules, one for multiplication and division and the other for
 addition and subtraction, as discussed below.
 
-**1. For multiplication and division:** **The result should
-have the same number of significant figures as the quantity having the least
-significant figures entering into the calculation**. For example, the area of a
-circle can be calculated from its radius using $$ A=\pi r^{2} $$. Let us see how
-many significant figures the area has if the radius has only two—say, $$
-r=1.2\m $$. Then,
+**1. For multiplication and division:** **The result should have the same number
+of significant figures as the quantity having the least significant figures
+entering into the calculation**. For example, the area of a circle can be
+calculated from its radius using $$ A=\pi r^{2} $$. Let us see how many
+significant figures the area has if the radius has only two—say, $$ r=1.2\m $$.
+Then,
 
 <div class="equation">
  $$ A=\pi r^{2}=\left(3.1415927 \dots \right) \times  \left(1.2\m  \right)^{2}
@@ -315,13 +306,13 @@ quantity to two significant figures or
 even though $$ \pi $$ is good to at least eight digits.
 
 **2. For addition and subtraction:** **The answer can contain no more decimal
-places than the least precise measurement** . Suppose that you buy
-7.56-kg of potatoes in a grocery store as measured with a scale with precision
-0.01 kg. Then you drop off 6.052-kg of potatoes at your laboratory as measured
-by a scale with precision 0.001 kg. Finally, you go home and add 13.7 kg of
-potatoes as measured by a bathroom scale with precision 0.1 kg. How many
-kilograms of potatoes do you now have, and how many significant figures are
-appropriate in the answer? The mass is found by simple addition and subtraction:
+places than the least precise measurement** . Suppose that you buy 7.56-kg of
+potatoes in a grocery store as measured with a scale with precision 0.01 kg.
+Then you drop off 6.052-kg of potatoes at your laboratory as measured by a scale
+with precision 0.001 kg. Finally, you go home and add 13.7 kg of potatoes as
+measured by a bathroom scale with precision 0.1 kg. How many kilograms of
+potatoes do you now have, and how many significant figures are appropriate in
+the answer? The mass is found by simple addition and subtraction:
 
 <div class="equation">
 $$
@@ -365,8 +356,8 @@ pounds. What is the total weight of the bags?
 
 (b) The force $$ F $$ on an object is equal to its mass $$ m $$ multiplied by
 its acceleration $$ a $$. If a wagon with mass 55 kg accelerates at a rate of $$
-0.0255\mss $$, what is the force on the wagon? (The unit of force is
-called the newton, and it is expressed with the symbol N.)
+0.0255\mss $$, what is the force on the wagon? (The unit of force is called the
+newton, and it is expressed with the symbol N.)
 
 </div>
 <div class="solution" data-print-placement="here" markdown="1">
@@ -394,22 +385,19 @@ Estimation
 
 ### Summary
 
-* Accuracy of a measured value refers to how close a
-  measurement is to the correct value. The uncertainty in a measurement is an
-  estimate of the amount by which the measurement result may differ from this
-  value.
-* Precision of measured values refers to how close
-  the agreement is between repeated measurements.
-* The precision of a **measuring tool** is related to
-  the size of its measurement increments. The smaller the measurement increment,
-  the more precise the tool.
-* Significant figures express the precision of a
-  measuring tool.
-* When multiplying or dividing measured values, the
-  final answer can contain only as many significant figures as the least precise
-  value.
-* When adding or subtracting measured values, the
-  final answer cannot contain more decimal places than the least precise value.
+* Accuracy of a measured value refers to how close a measurement is to the
+  correct value. The uncertainty in a measurement is an estimate of the amount
+  by which the measurement result may differ from this value.
+* Precision of measured values refers to how close the agreement is between
+  repeated measurements.
+* The precision of a **measuring tool** is related to the size of its
+  measurement increments. The smaller the measurement increment, the more
+  precise the tool.
+* Significant figures express the precision of a measuring tool.
+* When multiplying or dividing measured values, the final answer can contain
+  only as many significant figures as the least precise value.
+* When adding or subtracting measured values, the final answer cannot contain
+  more decimal places than the least precise value.
 
 ### Conceptual Questions
 
@@ -459,7 +447,7 @@ possible speeds when it reads $$ 90\text{km/h} $$ ?
 <div class="solution" markdown="1">
 (a) $$ 85.5\text{to } 94.5 \text{km/h} $$
 
-(b) $$ 53.1\text{to } 58.7 \text{mi/h} $$ 
+(b) $$ 53.1\text{to } 58.7 \text{mi/h} $$
 
 </div>
 </div>
@@ -639,6 +627,7 @@ volume in cubic centimeters?
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 accuracy
