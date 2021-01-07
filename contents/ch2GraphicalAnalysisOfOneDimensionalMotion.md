@@ -345,8 +345,7 @@ negative acceleration.
 * Graphs of motion can be used to analyze motion.
 * Graphical solutions yield identical solutions to mathematical methods for
   deriving motion equations.
-* The slope of a graph of displacement $$ x $$ vs. time $$ t $$ is velocity $$ v
-  $$.
+* The slope of a graph of displacement $$ x $$ vs. time $$ t $$ is velocity $$ v $$.
 * The slope of a graph of velocity $$ v $$ vs. time $$ t $$ graph is acceleration $$ a $$.
 * Average velocity, instantaneous velocity, and acceleration can all be obtained
   by analyzing graphs.

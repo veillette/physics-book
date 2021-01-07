@@ -293,8 +293,7 @@ the atomic nucleus from such experiments.
 * The internal kinetic before and after the collision of two objects that have
   equal masses is
   <div class="equation">
-
-$$ \frac{1}{2} m v_{1}^{2}= \frac{1}{2} m{v^{\prime}}_{1}^{2}+ \frac{1}{2}
+    $$ \frac{1}{2} m v_{1}^{2}= \frac{1}{2} m{v^{\prime}}_{1}^{2}+ \frac{1}{2}
 m{v^{\prime}_{2}}^{2}+ mv^{\prime}_{1} v^{\prime}_{2} \cos{\left( \theta_
 {1}-\theta_{2} \right) }. $$
   </div>

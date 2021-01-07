@@ -212,8 +212,7 @@ In both cases, nature is adequately described without the use of calculus.
 * Impulse, or change in momentum, equals the average net external force
   multiplied by the time this force acts:
   <div class="equation">
-
-$$ \Delta \vb{p}=\vb{F}_{\text{net}}\Delta t. $$
+    $$ \Delta \vb{p}=\vb{F}_{\text{net}}\Delta t. $$
   </div>
 
 * Forces are usually not constant over a period of time.

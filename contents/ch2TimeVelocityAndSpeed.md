@@ -219,8 +219,7 @@ travels 40 miles one way and 40 miles back, for a total distance of 80 miles.
 * Time is measured in terms of change, and its SI unit is the second (s).
   Elapsed time for an event is
   <div class="equation">
-
-$$ \Delta t=t_{f}-t_{0}, $$
+  $$ \Delta t=t_{f}-t_{0}, $$
   </div>
 
 where $$ t_{f} $$ is the final time and $$ t_{0} $$ is the initial time. The
@@ -230,8 +229,7 @@ elapsed time is then just $$ t $$.
 * Average velocity $$ \overline{v} $$ is defined as displacement divided by the
   travel time. In symbols, average velocity is
   <div class="equation">
-
-$$ \overline{v}=\frac{ \Delta x}{\Delta t}=\frac{ x_{\text{f}}-x_{0}}{ t_
+    $$ \overline{v}=\frac{ \Delta x}{\Delta t}=\frac{ x_{\text{f}}-x_{0}}{ t_
 {\text{f}}-t_{0}}. $$
   </div>
 

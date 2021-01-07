@@ -519,8 +519,7 @@ width="800" height="600"  allowfullscreen></iframe>
 * When objects rest on a non-accelerating horizontal surface, the magnitude of
   the normal force is equal to the weight of the object:
   <div class="equation">
-
-$$ N=mg . $$
+  $$ N=mg . $$
   </div>
 
 * When objects rest on an inclined plane that makes an angle $$ \theta $$ with
@@ -529,8 +528,7 @@ $$ N=mg . $$
   and parallel ( $$ \vb{w}_{\parallel } $$)
   to the surface of the plane. These components can be calculated using:
   <div class="equation">
-
-$$ w_{\parallel }=w\sin\left(\theta \right)=mg \sin\left(\theta \right) $$
+    $$ w_{\parallel }=w\sin\left(\theta \right)=mg \sin\left(\theta \right) $$
   </div>
 
   <div class="equation">
@@ -542,8 +540,7 @@ $$ w_{\parallel }=w\sin\left(\theta \right)=mg \sin\left(\theta \right) $$
   weight of an object that is at rest, the tension in the rope is equal to the
   weight of the object:
   <div class="equation">
-
-$$ T=mg . $$
+    $$ T=mg . $$
   </div>
 
 * In any inertial frame of reference (one that is not accelerated or rotated),

@@ -272,15 +272,13 @@ Ask a friend or relative to swing a golf club or a tennis racquet. Take appropri
   rotation. It is perpendicular to linear velocity $$ v $$ and has magnitude
 
   <div class="equation">
-
-$$ F_{\text{c}}= m \ac , $$
+  $$ F_{\text{c}}= m \ac , $$
   </div>
 
 which can also be expressed as
 
   <div class="equation">
- $$
- \begin{array}{c}
+  $$  \begin{array}{c}
    F_{\text{c}}=m\frac{ v^{2}}{r}\\
  \begin{array}{}
    \text{or}\\

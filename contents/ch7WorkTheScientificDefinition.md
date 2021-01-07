@@ -160,8 +160,7 @@ chemical energy in fat.
   displacement, times the cosine of the angle $$ \theta $$ between them. In
   symbols,
   <div class="equation">
-
-$$ W=F d \cos{\theta} . $$
+  $$ W=F d \cos{\theta} . $$
   </div>
 
 * The SI unit for work and energy is the joule (J), where $$ 1 \J =1\N \cdot \m

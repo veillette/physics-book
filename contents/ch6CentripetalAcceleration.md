@@ -215,8 +215,7 @@ Ladybug Motion 2D
   uniform circular motion. It always points toward the center of rotation. It is
   perpendicular to the linear velocity $$ v $$ and has the magnitude
   <div class="equation">
-
-$$ \ac=\frac{ v^{2}}{r};\ac=r \omega^{2}. $$
+  $$ \ac=\frac{ v^{2}}{r};\ac=r \omega^{2}. $$
   </div>
 
 * The unit of centripetal acceleration is $$ \mss $$.

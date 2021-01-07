@@ -451,8 +451,7 @@ build your skills in the broad application of physical principles.
   directions on an object. Be sure to draw diagrams, resolve all force vectors
   into horizontal and vertical components, and draw a free-body diagram. Always
   analyze the direction in which an object accelerates so that you can determine
-  whether $$ F_{\text{net}}=ma $$ or $$ F_
-  {\text{net}}=0 $$.
+  whether $$ \vb{F}_{\text{net}}=m \vb{a} $$ or $$ \vb{F}_{\text{net}}=0 $$.
 * The normal force on an object is not always equal in magnitude to the weight
   of the object. If an object is accelerating, the normal force will be less
   than or greater than the weight of the object. Also, if the object is on an

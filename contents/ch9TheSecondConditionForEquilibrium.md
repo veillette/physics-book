@@ -289,8 +289,7 @@ Take a piece of modeling clay and put it on a table, then mash a cylinder down i
 * The second condition assures those torques are also balanced. Torque is the
   rotational equivalent of a force in producing a rotation and is defined to be
   <div class="equation">
-
-$$ \tau =rF\sin{\theta} $$
+    $$ \tau =rF\sin{\theta} $$
   </div>
 
 where $$ \tau $$ is torque, $$ r $$ is the distance from the pivot point to the
@@ -314,8 +313,7 @@ so that
   newton-meter $$ \text{(N·m)} $$. The second condition necessary to achieve
   equilibrium is that the net external torque on a system must be zero:
   <div class="equation">
-
-$$ \text{net}\tau =0 $$
+    $$ \text{net}\tau =0 $$
   </div>
 
 By convention, counterclockwise torques are positive, and clockwise torques are

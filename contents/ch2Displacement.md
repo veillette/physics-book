@@ -167,8 +167,7 @@ negative.)
 * Displacement is the change in position of an object.
 * In symbols, displacement $$ \Delta x $$ is defined to be
   <div class="equation">
-
-$$ \Delta x=x_{f}-x_{0}, $$
+  $$ \Delta x=x_{f}-x_{0}, $$
   </div>
 
 where $$ x_{0} $$ is the initial position and $$ x_{f} $$ is the final position.

@@ -420,8 +420,7 @@ third and final law of motion.
   on an object of mass $$ m $$. The object experiences an acceleration due to
   gravity $$ \vb{g} $$:
   <div class="equation">
-
-$$ \vb{w}=m\vb{g}. $$
+  $$ \vb{w}=m\vb{g}. $$
   </div>
 
 * If the only force acting on an object is due to gravity, the object is in free

@@ -413,8 +413,7 @@ Graphing Quadratics
 * On Earth, all free-falling objects have an acceleration due to gravity $$ g
   $$, which averages
   <div class="equation">
-
-$$ g=9.80 \mss . $$
+  $$ g=9.80 \mss . $$
   </div>
 
 * Whether the acceleration $$a$$ should be taken as $$ +g $$ or $$ -g $$ is

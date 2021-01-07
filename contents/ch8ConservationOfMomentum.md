@@ -238,8 +238,7 @@ works so well on the large scale.
 
 * The conservation of momentum principle is written
   <div class="equation">
-
-$$ \vb{p}_{\text{tot}}=\text{constant} $$
+    $$ \vb{p}_{\text{tot}}=\text{constant} $$
   </div>
 
 or

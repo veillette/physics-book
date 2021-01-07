@@ -334,8 +334,7 @@ Masses and Springs
   larger objects (such as a baseball) moving at a velocity $$ v $$ in air, the
   drag force is given by
   <div class="equation">
-
-$$ F_{\text{D}}=\frac{1}{2}C\rho Av^{2}, $$
+  $$ F_{\text{D}}=\frac{1}{2}C\rho Av^{2}, $$
   </div>
 
 where $$ C $$ is the drag coefficient (typical values are given
@@ -346,8 +345,7 @@ $$ \rho $$ is the fluid density.
   moving in a denser medium (such as water), the drag force is given by Stokes’
   law,
   <div class="equation">
-
-$$ F_{\s}=6 \pi r \eta v , $$
+    $$ F_{\s}=6 \pi r \eta v , $$
   </div>
 
 where $$ r $$ is the radius of the object, $$ \eta $$ is the fluid viscosity,
