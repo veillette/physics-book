@@ -247,7 +247,7 @@ Suppose the train in [Figure 7](#fig7)(a) accelerates from rest to 30.0 km/h in 
 It is worth it at this point to make a simple sketch:
 
 ![A point represents the initial velocity of 0 kilometers per second. Below the point is a velocity vector arrow pointing to the right, representing the final velocity of thirty point zero kilometers per hour. Below the velocity vector is an acceleration vector arrow labeled a equals question mark.](
-.. /resources/Figure_02_03_03c.jpg "Velocity Vectors")
+../resources/Figure_02_03_03c.jpg "Velocity Vectors")
 {: #fig8}
 
 This problem involves three steps. First we must determine the change in

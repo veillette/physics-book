@@ -224,7 +224,7 @@ each 1.80 m long stroke.
 (c) Discuss whether water resistance seems to increase linearly with velocity.
 
 ![A person swimming and his arm motion in each stroke is represented. The arm action is shown by an arc starting from where his hand enters the surface of the water and ending at the point where his hand emerges from the water. The diameter of this arc made by the person&#x2019;s hand tip in one stroke is one point eight meters.](
-.. /resources/Figure_08_08_06a.jpg "A person swimming with a stroke of 1.80m")
+../resources/Figure_08_08_06a.jpg "A person swimming with a stroke of 1.80m")
 {: #fig6}
 
 
