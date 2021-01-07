@@ -13,7 +13,8 @@ layout: page
 
 The effect of a force on an object depends on how long it acts, as well as how
 great the force is.
-In [Figure](../contents/ch8LinearMomentumAndForce.md#fs-id44), a very large
+In [Example 2](../contents/ch8LinearMomentumAndForce.md#exampleTennis), a very 
+large
 force acting for a short time had a great effect on the momentum of the tennis
 ball. A small force could cause the same **change in momentum**, but it would
 have to act for a much longer time. For example, if the ball were thrown upward,
@@ -261,7 +262,7 @@ bullet to accelerate it to a speed of 600 m/s in a time of 2.00 ms (milliseconds
 
 </div>
 <div class="solution" markdown="1">
- $$ 9.00\times 10^{3}N $$
+ $$ 9.00\times 10^{3}\N $$
 
 </div>
 </div>

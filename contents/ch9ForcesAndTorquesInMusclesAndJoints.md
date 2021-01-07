@@ -29,7 +29,18 @@ to joints, causing these systems to have mechanical advantages much less than
 one. Viewing them as simple machines, the input force is much greater than the
 output force, as seen in [Figure 1](#fig1).
 
-![A forearm of a person holding a physics book is shown. The biceps and triceps muscles of the arm are visible. The elbow joint is the pivot point. The upper part of the arm is vertical and the lower part is horizontal. Biceps muscles are applying a force F B upward. The vertical bone of hand exerts a force F E on the pivot. At the midpoint of the lower part of the hand, the center of gravity of the hand is shown where the weight of the hand acts. The midpoint of the front face of the book is its center of gravity, where its weight acts downward. A free body diagram is also shown and the distances of the three forces F-B, C-G of arm, and C-G of book from the pivot are shown as r one, r two and r three.](../resources/Figure_10_06_01a.jpg "(a) The figure shows the forearm of a person holding a book. The biceps exert a force &#10; &#10; &#10; F&#10; B&#10; &#10; &#10;&#10;&#10;to support the weight of the forearm and the book. The triceps are assumed to be relaxed. (b) Here, you can view an approximately equivalent mechanical system with the pivot at the elbow joint as seen in [link].")
+![A forearm of a person holding a physics book is shown. The biceps and 
+triceps muscles of the arm are visible. The elbow joint is the pivot point. 
+The upper part of the arm is vertical and the lower part is horizontal. 
+Biceps muscles are applying a force F B upward. The vertical bone of hand 
+exerts a force F E on the pivot. At the midpoint of the lower part of the 
+hand, the center of gravity of the hand is shown where the weight of the 
+hand acts. The midpoint of the front face of the book is its center of 
+gravity, where its weight acts downward. A free body diagram is also shown 
+and the distances of the three forces F-B, C-G of arm, and C-G of book from 
+the pivot are shown as r one, r two and r three.](../resources/Figure_10_06_01a.jpg "(a) The figure shows the forearm of a 
+person holding a book. The biceps exert a force \( F_B \) to support the 
+weight of the forearm and the book. The triceps are assumed to be relaxed. (b) Here, you can view an approximately equivalent mechanical system with the pivot at the elbow joint as seen in [link].")
 {: #fig1}
 
 <div class="example" markdown="1">
@@ -137,15 +148,14 @@ athletes, such as weightlifters, can tear muscles and connecting tissue through
 effort alone.
 
 The back is considerably more complicated than the arm or leg, with various
-muscles and joints between vertebrae, all having mechanical advantages less than
-
-1. Back muscles must, therefore, exert very large forces, which are borne by the
-   spinal column. Discs crushed by mere exertion are very common. The jaw is
-   somewhat exceptional—the masseter muscles that close the jaw have a
-   mechanical advantage greater than 1 for the back teeth, allowing us to exert
-   very large forces with them. A cause of stress headaches is persistent
-   clenching of teeth where the sustained large force translates into fatigue in
-   muscles around the skull.
+muscles and joints between vertebrae, all having mechanical advantages 
+one. Back muscles must, therefore, exert very large forces, which are borne 
+by the spinal column. Discs crushed by mere exertion are very common. The jaw is
+somewhat exceptional—the masseter muscles that close the jaw have a
+mechanical advantage greater than 1 for the back teeth, allowing us to exert
+very large forces with them. A cause of stress headaches is persistent
+clenching of teeth where the sustained large force translates into fatigue in
+muscles around the skull.
 
 [Figure 2](#fig2) shows how bad posture causes back strain. In part (a), we see
 a person with good posture. Note that her upper body’s cg is directly above the
@@ -381,7 +391,8 @@ Explain one of the reasons why pregnant women often suffer from back strain late
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Verify that the force in the elbow joint in [Exercise](#fs-id47) is 407 N, as stated in the text.
+Verify that the force in the elbow joint in [Figure 1](#fig1) is 407 N, as 
+stated in the text.
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
@@ -447,7 +458,13 @@ in [Applications of Statics, Including Problem-Solving Strategies]
 A person working at a drafting board may hold her head as shown in [Figure 8](#fig8), requiring muscle action to support the head. The three major acting forces are shown. Calculate the direction and magnitude of the force supplied by the upper vertebrae $$ \vb{F}_{\text{V}} $$ to hold the head stationary, assuming that this force acts along a line through
 the center of mass as do the weight and muscle force.
 
-![The head of a person working at a drafting board in relaxed position is shown. The inclination of the head is theta to the horizontal and the center of gravity is near the top of the head. The weight of the head is fifty newtons and is acting downward at the center of gravity. Three major forces are shown. The force exerted along the neck is sixty newtons.](../resources/Figure_10_06_08a.jpg)
+![The head of a person working at a drafting board in relaxed position is 
+shown. The inclination of the head is theta to the horizontal and the center 
+of gravity is near the top of the head. The weight of the head is fifty 
+newtons and is acting downward at the center of gravity. Three major forces 
+are shown. The force exerted along the neck is sixty newtons.](..
+/resources/Figure_10_06_08a.jpg "Muscles are providing tension to hold her 
+head in place.")
 {: #fig8 height="275"}
 
 </div>
@@ -459,7 +476,9 @@ the center of mass as do the weight and muscle force.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-We analyzed the biceps muscle example with the angle between forearm and upper arm set at $$ 90^\circ $$. Using the same numbers as in [Exercise](#fs-id47), find the force
+We analyzed the biceps muscle example with the angle between forearm and 
+upper arm set at $$ 90^\circ $$. Using the same numbers as in [Figure 1]
+(#fig1), find the force
 exerted by the biceps muscle when the angle is $$ 120^\circ $$
 and the forearm is in a downward position.
 
@@ -536,7 +555,7 @@ is attached relatively far from the joint, enabling large forces to be exerted b
 
 **Integrated Concepts**
 
-Suppose we replace the 4.0-kg book in [Exercise](#fs-id68) of the biceps muscle
+Suppose we replace the 4.0-kg book in [Figure 1](#fig1) of the biceps muscle
 with an elastic exercise rope that obeys Hooke’s Law. Assume its force constant
 $$ k=600 \text{N/m} $$.
 (a) How much is the rope stretched (past equilibrium) to provide the same force

@@ -126,7 +126,7 @@ a heavier child can keep a lighter one off the ground indefinitely.
 ![Two children are sitting on a seesaw. On the left side, a lighter child is sitting and on the right, a heavier one. The distance of the lighter child from the fulcrum is more than that of heavier child. At the fulcrum, an upward force vector labeled as F-p is shown. The weights of the two children, w-one and w-two, are shown as vectors in the downward direction, and the force at the fulcrum, F-p, is shown as a vector in the upward direction.](../resources/Figure_10_02_03a.jpg "Two children balancing a seesaw satisfy both conditions for equilibrium. The lighter child sits farther from the pivot to create a torque equal in magnitude to that of the heavier child.")
 {: #fig3}
 
-<div class="example" markdown="1">
+<div class="example" id="example1" markdown="1">
 <div class="title">
 She Saw Torques On A Seesaw
 </div>
@@ -393,7 +393,7 @@ to keep the door from moving? Assume friction is negligible.
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
 Use the second condition for equilibrium $$ \text{(net τ = 0)} $$ to calculate $$ F_{\text{p}} $$
-in [Exercise](#fs-id51), employing any data given or solved for in part (a)
+in [Example 1](#example1), employing any data given or solved for in part (a)
 of the example.
 
 </div>
@@ -401,7 +401,7 @@ of the example.
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Repeat the seesaw problem in [Exercise](#fs-id51) with the center of mass of the seesaw 0.160 m to the left of the pivot (on the side of the lighter child) and assuming a mass of 12.0 kg for the seesaw. The other data given in the example remain unchanged. Explicitly show how you follow the steps in the Problem-Solving Strategy for static equilibrium.
+Repeat the seesaw problem in [Example 1](#example1) with the center of mass of the seesaw 0.160 m to the left of the pivot (on the side of the lighter child) and assuming a mass of 12.0 kg for the seesaw. The other data given in the example remain unchanged. Explicitly show how you follow the steps in the Problem-Solving Strategy for static equilibrium.
 
 </div>
 <div class="solution" data-element-type="problem-exercises" markdown="1">
