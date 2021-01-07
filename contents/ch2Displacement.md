@@ -66,7 +66,7 @@ need to convert them into meters to complete the calculation.
 {: #fig2}
 
 ![View of an airplane with an inset of the passengers sitting inside. A passenger has just moved from his seat and is now standing in the back. His initial position was 6 point 0 meters. His final position is 2 point 0 meters. His displacement is given by the equation delta x equals x sub f minus x sub 0 equals 4 point zero meters.](../resources/Figure_02_01_02.jpg
-"A passenger moves from his seat to the back of the plane. His location relative to the airplane is given by \( x_f -x_0 \). The displacement of the passenger relative to the plane is represented by an arrow toward the rear of the plane. Notice that the arrow representing his displacement is twice as long as the arrow representing the displacement of the professor (he moves twice as far) in [link].")
+"A passenger moves from his seat to the back of the plane. His location relative to the airplane is given by \( x_f -x_0 \). The displacement of the passenger relative to the plane is represented by an arrow toward the rear of the plane. Notice that the arrow representing his displacement is twice as long as the arrow representing the displacement of the professor (he moves twice as far) in <a href="#fig2">Figure 2</a>.")
 {: #fig3}
 
 Note that displacement has a direction as well as a magnitude. The professor’s
