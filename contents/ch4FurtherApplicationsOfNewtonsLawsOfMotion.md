@@ -512,7 +512,7 @@ Two muscles in the back of the leg pull upward on the Achilles tendon, as shown 
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A 76.0-kg person is being pulled away from a burning building as shown in the [Figure](#fig6) below. Calculate the 
+A 76.0-kg person is being pulled away from a burning building as shown in the [Figure below](#fig6). Calculate the 
 tension in the two ropes if the person is momentarily motionless. Include a free-body diagram in your solution.
 
 </div>

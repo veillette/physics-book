@@ -170,7 +170,7 @@
             let href;
             href = a.getAttribute('href');
             if (href) {
-                href = href.replace(/\.md$/, '.html');
+                href = href.replace(/\.md/, '.html');
                 return a.setAttribute('href', href);
             }
         };

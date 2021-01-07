@@ -54,8 +54,8 @@ c). For completeness, the vertical forces are also shown; they are assumed to
 cancel since there is no acceleration in the vertical direction. The vertical
 forces are the weight $$ \vb{w} $$ and the support of the ground $$ \vb{N} $$,
 and the horizontal force $$ \vb{f} $$ represents the force of friction. These
-will be discussed in more detail in later sections. For now, we will define **
-friction**as a force that opposes the motion past each other of objects that are
+will be discussed in more detail in later sections. For now, we will define 
+**friction** as a force that opposes the motion past each other of objects that are
 touching. [Figure 1](#fig1)(b)
 shows how vectors representing the external forces add together to produce a net
 force, $$ \vb{F}_{\text{net}} $$.
@@ -664,7 +664,7 @@ its acceleration if the mass of the motorcycle with rider is 245 kg?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-The rocket sled shown in the [Figure](#fig8) below accelerates at a rate of $$ 49.0\mss $$. Its passenger has a mass 
+The rocket sled shown in the [Figure below](#fig8) accelerates at a rate of $$ 49.0\mss $$. Its passenger has a mass 
 of 75.
 0 kg.
 (a) Calculate the horizontal component of

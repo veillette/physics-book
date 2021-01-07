@@ -13,17 +13,18 @@ layout: page
 
 What happens to the work done on a system? Energy is transferred into the
 system, but in what form? Does it remain in the system or move on? The answers
-depend on the situation. For example, if the lawn mower
-in [Figure](../contents/ch7WorkTheScientificDefinition.md#import-auto-id2495459)(
-a) is pushed just hard enough to keep it going at a constant speed, then energy
+depend on the situation. For example, in the module [Work the scientific 
+Definition](../contents/ch7WorkTheScientificDefinition.md),
+if the lawn mower
+in [Figure 1 of Work the Scientific Definition](../contents/ch7WorkTheScientificDefinition.md#fig1)(a) is pushed just hard enough to keep it going at a constant speed, then energy
 put into the mower by the person is removed continuously by friction, and
 eventually leaves the system in the form of heat transfer. In contrast, work
 done on the briefcase by the person carrying it up stairs
-in [Figure](../contents/ch7WorkTheScientificDefinition.md#import-auto-id2495459)(
-d) is stored in the briefcase-Earth system and can be recovered at any time, as
+in [Figure 1 of Work the Scientific Definition](../contents/ch7WorkTheScientificDefinition.md#fig1)(d) 
+is stored in the briefcase-Earth system and can be recovered at any time, as
 shown
-in [Figure](../contents/ch7WorkTheScientificDefinition.md#import-auto-id2495459)(
-e). In fact, the building of the pyramids in ancient Egypt is an example of
+in [Figure 1 of Work the Scientific Definition](../contents/ch7WorkTheScientificDefinition.md#fig1)(e).
+In fact, the building of the pyramids in ancient Egypt is an example of
 storing energy in a system by doing work on the system. Some of the energy
 imparted to the stone blocks in lifting them during construction of the pyramids
 remains in the stone-Earth system and has the potential to do work.
@@ -443,7 +444,7 @@ needed for the movement of larger animals would relate to metabolic rates.
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Confirm the value given for the kinetic energy of an aircraft
-carrier in [Figure](../contents/ch7ConservationOfEnergy.md#import-auto-id2866785).
+carrier in [Table 1 of Conservation of Energy](../contents/ch7ConservationOfEnergy.md#table1).
 You will need to look up the definition of a nautical mile (1 knot = 1 nautical mile/h).
 
 </div>

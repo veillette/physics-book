@@ -16,8 +16,8 @@ you know what they say, ‘Whether the stone hits the pitcher or the pitcher hit
 the stone, it’s going to be bad for the pitcher.’” This is exactly what happens
 whenever one body exerts a force on another—the first also experiences a force (
 equal in magnitude and opposite in direction). Numerous common experiences, such
-as stubbing a toe or throwing a ball, confirm this. It is precisely stated in **
-Newton’s third law of motion**.
+as stubbing a toe or throwing a ball, confirm this. It is precisely stated in 
+**Newton’s third law of motion**.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">

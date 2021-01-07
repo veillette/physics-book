@@ -253,7 +253,7 @@ experienced by the boat and trailer?
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) Find the magnitudes of the forces $$ \vb{F}_{1} $$ and $$ \vb{F}_{2} $$ that add to give the total force $$ \vb{F}_{\text{tot}} $$
-shown in [Figure](#fig4) below. This may be done either graphically
+shown in [Figure below](#fig4). This may be done either graphically
 or by using trigonometry.
 (b) Show graphically that the same total force is
 obtained independent of the order of addition of $$ \vb{F}_{1} $$
@@ -271,7 +271,7 @@ $$ \vb{F}_{\text{tot}} $$. Draw these to scale on the same drawing used in part 
 <div class="problem" markdown="1">
 Two children pull a third child on a snow saucer sled exerting forces $$ \vb{F}_{1} $$
 and $$ \vb{F}_{2} $$ as shown from above
-in [Figure](#fig5) below. Find the acceleration of the 49.00-kg sled
+in [Figure below](#fig5). Find the acceleration of the 49.00-kg sled
 and child system. Note that the direction of the frictional force is
 unspecified; it will be in the opposite direction of the sum of $$
 \vb{F}_{1} $$ and $$ \vb{F}_{2} $$.
@@ -288,8 +288,7 @@ unspecified; it will be in the opposite direction of the sum of $$
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Suppose your car was mired deeply in the mud and you wanted to use the method illustrated in the [Figure](#fig6) 
-below to pull it out.
+Suppose your car was mired deeply in the mud and you wanted to use the method illustrated in the [Figure below](#fig6) to pull it out.
 (a) What force would you have to exert perpendicular to the center of the rope to produce a force of 12 000 N on the
 car if the angle is 2.00°? In this part, explicitly show how you follow the steps in the Problem-Solving Strategy for Newton’s laws of motion.
 (b) Real ropes stretch under such forces. What force would be exerted on the car if the angle increases to 7.00° and
@@ -302,7 +301,7 @@ you still apply the force found in part (a) to its center?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What force is exerted on the tooth in the [Figure](#fig8) below if the tension 
+What force is exerted on the tooth in the [Figure below](#fig8) if the tension 
 in the wire is 25.0 N? Note that the force applied to the tooth is smaller than the tension in the wire, 
 but this is necessitated by practical considerations of how force can be applied in the mouth. 
 Explicitly show how you follow steps in the Problem-Solving Strategy for Newton’s laws of motion.
@@ -335,7 +334,7 @@ Explicitly show how you follow steps in the Problem-Solving Strategy for Newton�
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-The [Figure](#fig9) below shows Superhero and Trusty Sidekick hanging motionless from a rope. Superhero’s mass is 90.0 
+The [Figure below](#fig9) shows Superhero and Trusty Sidekick hanging motionless from a rope. Superhero’s mass is 90.0 
 kg, 
 while Trusty Sidekick’s is 55.0 kg, and the mass of the rope is negligible.
 (a) Draw a free-body diagram of the situation showing all forces acting on Superhero, Trusty Sidekick, and the rope.

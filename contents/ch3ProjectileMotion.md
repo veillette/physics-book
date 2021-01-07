@@ -613,8 +613,8 @@ Projectile Motion
     $$ h=\frac{ v_{0y}^{2}}{2g}. $$
   </div>
 
-* The maximum horizontal distance traveled by a projectile is called the **
-  range**. The range $$ R $$ of a projectile on level ground launched at an
+* The maximum horizontal distance traveled by a projectile is called the 
+  **range**. The range $$ R $$ of a projectile on level ground launched at an
   angle $$\theta_{0} $$ above the horizontal with initial speed $$ v_{0} $$ is
   given by
   <div class="equation">

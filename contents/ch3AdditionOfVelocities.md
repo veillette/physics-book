@@ -465,8 +465,8 @@ $$ v_{x}=v\cos{\theta} $$
 * Relative velocity is the velocity of an object as observed from a particular
   reference frame, and it varies dramatically with reference frame.
 * **Relativity** is the study of how different observers measure the same
-  phenomenon, particularly when the observers move relative to one another. **
-  Classical relativity** is limited to situations where speed is less than about
+  phenomenon, particularly when the observers move relative to one another. 
+  **Classical relativity** is limited to situations where speed is less than about
   1% of the speed of light (3000 km/s).
 
 ### Conceptual Questions
