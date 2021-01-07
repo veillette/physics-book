@@ -211,7 +211,7 @@ size, while its displacement is small. Why is this?
 ### Problems &amp; Exercises
 
 ![An x axis starts at 0 meters and ends at 12 meters. There are four points on the graph with displacement paths. Path A starts at 0 and stops at 7. Path B starts at 12 and ends at 7. Path C starts at 2, goes to 10, turns around and goes back to 8, then turns around again and stops at 11. Path D starts at 9, goes to 3, then turns around and stops at 5.](
-.. /resources/Figure_02_01Sol_01.jpg "Displacement Paths")
+../resources/Figure_02_01Sol_01.jpg "Displacement Paths")
 {: #fig5}
 
 <div class="exercise" data-element-type="problems-exercises">
