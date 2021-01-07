@@ -225,8 +225,7 @@ Join the ladybug in an exploration of rotational motion. Rotate the merry-go-rou
   angle $$ \Delta\theta $$ is defined as the ratio of the arc length to the
   radius of curvature:
   <div class="equation">
-
-$$ \Delta\theta =\frac{ \Delta s }{r}, $$
+  $$ \Delta\theta =\frac{ \Delta s }{r}, $$
   </div>
 
 where arc length $$ \Delta s $$ is distance traveled along a circular path and
@@ -240,8 +239,7 @@ $$ r $$ is the radius of curvature of the circular path. The quantity $$
 * The conversion between radians and degrees is $$ 1\text{ rad}=57.3^\circ $$.
 * Angular velocity $$ \omega $$ is the rate of change of an angle,
   <div class="equation">
-
-$$ \omega =\frac{ \Delta\theta }{\Delta t }, $$
+    $$ \omega =\frac{ \Delta\theta }{\Delta t }, $$
   </div>
 
 where a rotation $$ \Delta\theta $$ takes place in a time $$ \Delta t $$. The

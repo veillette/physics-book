@@ -366,9 +366,8 @@ Vector Addition
   horizontal and vertical components of each vector using the equations
 
   <div class="equation">
-
-$$ \begin{array}{lll} A_{x}&=& A\cos{\theta} \\ B_{x}&=& B\cos{\theta}
-\end{array} $$
+    $$ \begin{array}{lll} A_{x}&=& A\cos{\theta} \\ B_{x}&=& B\cos{\theta}
+    \end{array} $$
   </div>
 
 and

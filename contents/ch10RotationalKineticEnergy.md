@@ -531,8 +531,7 @@ My solar system
   {\text{rot}} $$ for an object with a moment of inertia $$ I $$ and an angular
   velocity $$ \omega $$ is given by
   <div class="equation">
-
-$$ \KE_{\text{rot}}=\frac{1}{2}I\omega^{2} . $$
+    $$ \KE_{\text{rot}}=\frac{1}{2}I\omega^{2} . $$
   </div>
 
 * Helicopters store large amounts of rotational kinetic energy in their blades.
@@ -543,8 +542,7 @@ $$ \KE_{\text{rot}}=\frac{1}{2}I\omega^{2} . $$
   energy in translational motion.
 * The equation for the **work-energy theorem** for rotational motion is,
   <div class="equation">
-
-$$ \text{net}W=\frac{1}{2}I\omega^{2}-\frac{1}{2}I \omega_{0}^{2} . $$
+    $$ \text{net}W=\frac{1}{2}I\omega^{2}-\frac{1}{2}I \omega_{0}^{2} . $$
   </div>
 
 ### Conceptual Questions

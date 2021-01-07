@@ -280,14 +280,13 @@ No. Torque depends on three factors: force magnitude, force direction, and point
   acceleration $$ a = F/m $$ is obtained in the direction of $$ F $$. We can
   rearrange this equation such that
   <div class="equation">
-
-$$ F = ma, $$
+  $$ F = ma, $$
   </div>
   and then look for ways to relate this expression to expressions for rotational
   quantities. We note that $$ a = r\alpha $$, and we substitute this expression
   into $$ F=ma $$, yielding
   <div class="equation">
- $$ F=mr\alpha $$
+  $$ F=mr\alpha $$
   </div>
 
 * Torque is the turning effectiveness of a force. In this case, because $$ F $$
@@ -295,8 +294,7 @@ $$ F = ma, $$
   both sides of the equation above by $$ r $$, we get torque on the left-hand
   side. That is,
   <div class="equation">
-
-$$ rF=m r^{2} \alpha $$
+    $$ rF=m r^{2} \alpha $$
   </div>
 
 or
@@ -308,15 +306,13 @@ or
 * The moment of inertia $$ I $$ of an object is the sum of $$ MR^{2} $$ for all
   the point masses of which it is composed. That is,
   <div class="equation">
-
-$$ I=\sum m r^{2} . $$
+    $$ I=\sum m r^{2} . $$
   </div>
 
 * The general relationship among torque, moment of inertia, and angular
   acceleration is
   <div class="equation">
-
-$$ \tau = I\alpha $$
+    $$ \tau = I\alpha $$
   </div>
 
 or

@@ -374,8 +374,7 @@ Forces and Motion
   friction $$ f_{\s} $$ between systems stationary relative to one another is
   given by
   <div class="equation">
-
-$$ f_{\s}\le \mu_{\s} \mag{N}, $$
+  $$ f_{\s}\le \mu_{\s} \mag{N}, $$
   </div>
 
 where $$ \mu_{\s} $$ is the coefficient of static friction, which depends on
@@ -384,8 +383,7 @@ both of the materials.
 * The kinetic friction force $$ f_{\text{k}} $$ between systems moving relative
   to one another is given by
   <div class="equation">
-
-$$ f_{\text{k}}=\mu_{\text{k}} \mag{N}, $$
+   $$ f_{\text{k}}=\mu_{\text{k}} \mag{N}, $$
   </div>
 
 where $$ \mu_{\text{k}} $$ is the coefficient of kinetic friction, which also

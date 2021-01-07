@@ -718,15 +718,16 @@ Rearrange to solve for $$ t $$.
 * Initial position and velocity are given a subscript 0; final values have no
   subscript. Thus,
   <div class="equation">
-
-$$ \begin{array}{lll} \Delta t&=& t\\ \Delta x&=& x-x_{0}\\ \Delta v&=& v-v_{0}
-\end{array} $$
+  $$ \begin{array}{lll} 
+  \Delta t&=& t\\ 
+  \Delta x&=& x-x_{0}\\
+  \Delta v&=& v-v_{0}
+  \end{array} $$
   </div>
 
 * The following kinematic equations for motion with constant $$ a $$ are useful:
   <div class="equation">
-
-$$ x=x_{0}+\overline{v}t $$
+    $$ x=x_{0}+\overline{v}t $$
   </div>
 
   <div class="equation">

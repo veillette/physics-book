@@ -336,8 +336,7 @@ Gravity and Orbits
   equal to the ratio of the cubes of their average distances from the Sun:
 
   <div class="equation">
-
-$$ \frac{T_{1}^{2}}{ T_{2}^{2}}=\frac{ r_{1}^{3}}{r_{2}^{3}}, $$
+    $$ \frac{T_{1}^{2}}{ T_{2}^{2}}=\frac{ r_{1}^{3}}{r_{2}^{3}}, $$
   </div>
 
 where $$ T $$ is the period (time for one orbit) and $$ r $$ is the average
@@ -346,14 +345,13 @@ radius of the orbit.
 * The period and radius of a satellite’s orbit about a larger body $$ M $$ are
   related by
   <div class="equation">
-
-$$ T^{2}=\frac{4\pi^{2}}{GM} r^{3} $$
+    $$ T^{2}=\frac{4\pi^{2}}{GM} r^{3} $$
   </div>
 
 or
 
   <div class="equation">
- $$ \frac{ r^{3}}{ T^{2}}=\frac{G}{ 4\pi^{2}}M. $$
+     $$ \frac{ r^{3}}{ T^{2}}=\frac{G}{ 4\pi^{2}}M. $$
   </div>
 
 ### Conceptual Questions

@@ -406,9 +406,8 @@ Rotational kinematics (just like linear kinematics) is descriptive and does not 
   \overline{\omega } $$ and average velocity $$ \overline{v} $$ are defined as
   follows:
   <div class="equation">
-
-$$ \overline{\omega }=\frac{ \omega_{0} +\omega }{2}\text{ and
-}\overline{v}=\frac{ v_{0}+v}{2}. $$
+  $$ \overline{\omega }=\frac{ \omega_{0} +\omega }{2}\text{ and
+  }\overline{v}=\frac{ v_{0}+v}{2}. $$
   </div>
 
 ### Problems &amp; Exercises

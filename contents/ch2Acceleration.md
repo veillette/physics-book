@@ -489,8 +489,7 @@ Moving Man
 * Acceleration is the rate at which velocity changes. In symbols, **average
   acceleration** $$ \overline{a} $$ is
   <div class="equation">
-
-$$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{ v_{f}-v_{0}}{ t_{f}-t_{0}}. $$
+  $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{ v_{f}-v_{0}}{ t_{f}-t_{0}}. $$
   </div>
 
 * The SI unit for acceleration is $$ \mss $$.

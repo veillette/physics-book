@@ -432,8 +432,7 @@ Gravity Force Lab
   proportional to the square of the distance between them. In equation form,
   this is
   <div class="equation">
-
-$$ F=G\frac{mM}{ r^{2}}, $$
+  $$ F=G\frac{mM}{ r^{2}}, $$
   </div>
 
 where F is the magnitude of the gravitational force. $$ G $$ is the

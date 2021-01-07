@@ -549,9 +549,8 @@ Projectile Motion
        of the object in the horizontal and vertical components. The components
        of position $$ \vb{s} $$ are given by the quantities $$ x $$ and $$ y $$,
        and the components of the velocity $$ \vb{v} $$ are given by $$ v_
-       {x}=v\cos{\theta} $$ and $$ v_
-       {y}=v\sin{\theta} $$, where $$ v $$ is the magnitude of the velocity and
-       $$ \theta $$ is its direction.
+       {x}=v\cos{\theta} $$ and $$ v_{y}=v\sin{\theta} $$, where $$ v $$ is the
+       magnitude of the velocity and $$ \theta $$ is its direction.
     2. Analyze the motion of the projectile in the horizontal direction using
        the following equations:
        <div class="equation">
@@ -569,9 +568,9 @@ Projectile Motion
     3. Analyze the motion of the projectile in the vertical direction using the
        following equations:
        <div class="equation">
-  $$ \text{Vertical motion}\left(\text{Assuming positive direction is up;}a_
-  {y}=-g=-9.80 \mss \right) $$
-  </div>
+        $$ \text{Vertical motion}\left(\text{Assuming positive direction is up;}a_
+        {y}=-g=-9.80 \mss \right) $$
+       </div>
 
        <div class="equation">
        $$ y=y_{0}+\frac{1}{2}\left(v_{0y}+v_{y}\right)t $$
@@ -600,12 +599,12 @@ Projectile Motion
        </div>
 
        <div class="equation">
-  $$ v=\sqrt{ v_{x}^{2}+v_{y}^{2}} $$
-  </div>
+        $$ v=\sqrt{ v_{x}^{2}+v_{y}^{2}} $$
+        </div>
 
        <div class="equation">
-  $$ \theta_{\text{v}}={\tan}^{-1} \left( \frac{v_{y}}{v_{x}} \right) .$$
-  </div>
+        $$ \theta_{\text{v}}={\tan}^{-1} \left( \frac{v_{y}}{v_{x}} \right) .$$
+        </div>
 
 * The maximum height $$ h $$ of a projectile launched with initial vertical
   velocity $$ v_{0y} $$ is given by
@@ -618,8 +617,7 @@ Projectile Motion
   angle $$\theta_{0} $$ above the horizontal with initial speed $$ v_{0} $$ is
   given by
   <div class="equation">
-
-$$ R=\frac{ v_0^2 \sin{2\theta_0} }{g}. $$
+    $$ R=\frac{ v_0^2 \sin{2\theta_0} }{g}. $$
   </div>
 
 ### Conceptual Questions

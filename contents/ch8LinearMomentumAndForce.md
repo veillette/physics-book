@@ -234,8 +234,7 @@ the strategy used in this example.
   system’s mass multiplied by its velocity.
 * In symbols, linear momentum $$ \vb{p} $$ is defined to be
   <div class="equation">
-
-$$ \vb{p}=m\vb{v}, $$
+    $$ \vb{p}=m\vb{v}, $$
   </div>
   where $$ m $$ is the mass of the system and $$ \vb{v} $$ is its velocity.
 * The SI unit for momentum is $$ \kg · \ms $$.

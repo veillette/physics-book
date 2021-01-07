@@ -446,20 +446,19 @@ Motion in 2D
 * Velocities in two dimensions are added using the same analytical vector
   techniques, which are rewritten as
   <div class="equation">
-
-$$ v_{x}=v\cos{\theta} $$
+  $$ v_{x}=v\cos{\theta} $$
   </div>
 
   <div class="equation">
- $$ v_{y}=v\sin{\theta} $$
+  $$ v_{y}=v\sin{\theta} $$
   </div>
 
   <div class="equation">
- $$ v=\sqrt{ v_{x}^{2}+v_{y}^{2}} $$
+  $$ v=\sqrt{ v_{x}^{2}+v_{y}^{2}} $$
   </div>
 
   <div class="equation">
- $$ \theta ={\tan}^{-1}\left(v_{y}/v_{x}\right). $$
+  $$ \theta ={\tan}^{-1}\left(v_{y}/v_{x}\right). $$
   </div>
 
 * Relative velocity is the velocity of an object as observed from a particular
