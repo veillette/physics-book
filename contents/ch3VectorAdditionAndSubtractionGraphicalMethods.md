@@ -202,7 +202,7 @@ This is analogous to the subtraction of scalars (where, for example, $$ 5 - 2 =
 which the subtraction is made. When vectors are subtracted graphically, the
 techniques outlined above are used, as the following example illustrates.
 
-<div class="example" markdown="1">
+<div class="example" id="example2" markdown="1">
 <div class="title">
 Subtracting Vectors Graphically: A Woman Sailing a Boat
 </div>
@@ -575,7 +575,8 @@ added; choose only one.)
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Show that the sum of the vectors discussed in [Exercise](#fs-id97) gives the result shown in [Figure 17](#fig17).
+Show that the sum of the vectors discussed in [Example 2](#example2) gives the 
+result shown in [Figure 17](#fig17).
 
 </div>
 <div class="solution" markdown="1">

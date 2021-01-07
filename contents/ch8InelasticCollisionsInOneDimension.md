@@ -150,7 +150,7 @@ internal kinetic energy is removed—such as happens in most automobile accident
 Alternatively, stored energy may be converted into internal kinetic energy
 during a collision. [Figure 3](#fig3) shows a one-dimensional example in which
 two carts on an air track collide, releasing potential energy from a compressed
-spring. [Exercise](#fs-id04) deals with data from such a collision.
+spring. [Example 2](#example2) deals with data from such a collision.
 
 ![An uncoiled spring is connected to a glider with triangular cross sectional area of mass m 1 which moves with velocity v 1 toward the right. Another solid glider of mass m 2 and triangular cross sectional area moves toward the left with velocity V 2 on a frictionless surface. The total momentum is the sum of their individual momentum p 1 and p 2. After collision m 1 moves to the left with velocity V 1 prime and momentum p 1prime. M 2 moves to the right with velocity V 2 prime. Their individual momentum becomes p 1prime and p 2 prime but the total momentum remains the same. The internal kinetic energy after collision is greater than the kinetic energy before collision.](../resources/Figure_09_05_03a.jpg "An air track is nearly frictionless, so that momentum is conserved. Motion is one-dimensional. In this collision, examined in [link], the potential energy of a compressed spring is released during the collision and is converted to internal kinetic energy.")
 {: #fig3}
@@ -187,7 +187,7 @@ a concrete or wooden floor ( $$ c=0.85 $$ for new tennis balls used on a tennis 
 
 </div>
 
-<div class="example" markdown="1">
+<div class="example" id="example2" markdown="1">
 <div class="title">
 Calculating Final Velocity and Energy Release: Two Carts Collide
 </div>
@@ -335,7 +335,8 @@ During an ice show, a 60.0-kg skater leaps into the air and is caught by an init
 **Professional Application**
 
 Using mass and speed data
-from [Figure](../contents/ch8LinearMomentumAndForce.md#fs-id44) and assuming
+from [Example 1](../contents/ch8LinearMomentumAndForce.md#exampleFootball) and 
+assuming
 that the football player catches the ball with his feet off the ground with both
 of them moving horizontally, calculate:
 (a) the final velocity if the ball and player are going in the same direction

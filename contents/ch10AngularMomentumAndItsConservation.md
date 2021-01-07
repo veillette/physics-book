@@ -80,7 +80,7 @@ Substituting $$ 2\pi $$ rad for $$ 1 $$ rev and $$ 8.64 \times 10^{4}\s $$ for 1
 <div class="equation">
  $$ \begin{array}{lll}
 L&=& \left(9.72 \times 10^{37}\kg \cdot \mm\right)\left(\frac{2\pi \text{rad/rev}}{8.64 \times 10^{4}\text{s/d}}\right)\left(1\text{rev/d}\right)\\
- &=& 7.07 \times 10^{33}\kg \cdot \mms .
+L&=& 7.07 \times 10^{33}\kg \cdot \mms .
 \end{array} $$
 </div>
 
@@ -210,8 +210,8 @@ so that its weight does not create a torque, the net torque is thus
 <div class="equation">
  $$ \begin{array}{lll}
 \text{net}\tau &=& r_{\perp }F\\
- &=& \left(0.0220 \m \right)\left(2000\N \right)\\
- &=& 44.0 \N \cdot \m .
+\text{net}\tau &=& \left(0.0220 \m \right)\left(2000\N \right)\\
+\text{net}\tau &=& 44.0 \N \cdot \m .
 \end{array} $$
 </div>
 Substituting this value for the torque and the given value for the moment of inertia into the expression for $$ \alpha $$

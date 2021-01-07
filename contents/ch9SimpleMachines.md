@@ -251,7 +251,8 @@ in [Figure 3](#fig3)(b)?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What force does the nail puller in [Exercise](#fs-id77) exert on the supporting surface? The nail puller has a mass of 2.10 kg.
+What force does the nail puller in [Figure 1](#fig1) exert on the supporting 
+surface? The nail puller has a mass of 2.10 kg.
 
 </div>
 <div class="solution" markdown="1">
@@ -273,7 +274,8 @@ Neglect the pulley system’s mass.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Repeat [Exercise](#fs-id16) for the pulley shown in [Figure 4](#fig4)(c), assuming you pull straight up on the rope. The pulley system’s mass is $$ 7.00 \kg $$.
+Repeat the previous exercise for the pulley shown in [Figure 4](#fig4)(c), 
+assuming you pull straight up on the rope. The pulley system’s mass is $$ 7.00 \kg $$.
 
 </div>
 <div class="solution" markdown="1">

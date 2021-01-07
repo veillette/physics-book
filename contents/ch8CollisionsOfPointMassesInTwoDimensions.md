@@ -134,7 +134,7 @@ equations can only be used to find two unknowns, and so other data may be
 necessary when collision experiments are used to explore nature at the subatomic
 level.
 
-<div class="example" markdown="1">
+<div class="example" id="example1" markdown="1">
 <div class="title">
 Determining the Final Velocity of an Unseen Object from the Scattering of Another Object
 </div>
@@ -332,23 +332,24 @@ for elastic collisions of objects that have identical masses.)
 
 </div>
 <div class="solution" markdown="1">
-(a) 3.00 m/s, $$ 60^\circ $$
-
-below $$ x $$ -axis
+(a) 3.00 m/s, $$ 60^\circ $$ below $$ x $$ -axis
 
 (b) Find speed of first puck after collision:
 $$ 0=m v^{\prime}_{1} \sin{30^\circ}-m v^{\prime}_{2}\sin{ 60^\circ }⇒
 v^{\prime}_{1}=v^{\prime}_{2}\frac{ \sin{ 60^\circ}}{\sin{ 30^\circ }}= 5.196
-\ms $$ Verify that ratio of initial to final KE equals one:
-$$ \left. \begin{array}{l} \KE=\frac{1}{2} m v_{1}^{2}=18 \text{mJ}\\
-\KE=\frac{1}{2} m {v^{\prime}_{1}}^{2}+\frac{1}{2} m{v^{\prime}_
-{2}}^{2}=18\text{mJ} \end{array} \right} \frac{\KE}{\KE^\prime}=1.00 $$
+\ms $$ 
+
+Verify that ratio of initial to final KE equals one:
+$$  \left. \begin{array}{l} \KE=\frac{1}{2} m v_{1}^{2}=18 \text{mJ}\\
+\KE=\frac{1}{2} m {v^{\prime}_{1}}^{2}+\frac{1}{2} m {v^{\prime}_{2}}^{2}
+=18\text{mJ} \end{array} \right\} $$ 
+$$\frac{\KE}{\KE^\prime}=1.00 $$
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Confirm that the results of the example [Exercise](#fs-id72) do conserve momentum in
+Confirm that the results of the [Example 1](#example1) do conserve momentum in
 both the $$ x $$- and $$ y $$-directions.
 
 </div>
@@ -449,7 +450,7 @@ and assuming that one object is originally stationary, prove that
 for an elastic collision of two objects of equal masses,
 
 <div class="equation">
- $$ \frac{1}{2} m v_{1}^{2}=\frac{1}{2}{ m{v^{\prime} }_{1}}^{2}+\frac{1}{2}{ m {v^{\prime} }_{2}}^{2}+{mv^{\prime} }_{1}v^{\prime}_{2}\cos\left({\theta_{1}}-{\theta_{2}}\right) $$
+ $$ \frac{1}{2} m v_{1}^{2}=\frac{1}{2}{ m{v^{\prime}}_{1}}^{2}+\frac{1}{2}{ m {v^{\prime}}_{2}}^{2}+mv^{\prime}_{1}v^{\prime}_{2}\cos\left({\theta_{1}}-{\theta_{2}}\right) $$
 </div>
 as discussed in the text.
 

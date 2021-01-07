@@ -27,7 +27,7 @@ and *y*-axes are zero. This is written as
 </div>
 
 [Figure 1](#fig1)
-and [Figure 2](#fig2) illustrate situations where $$ \text{net}F=0 $$ for
+and [Figure 2](#fig2) illustrate situations where $$ \text{net}\vb{F}=0 $$ for
 both **static equilibrium** (motionless), and **dynamic equilibrium**
 (constant velocity).
 
