@@ -884,7 +884,7 @@ the like?
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
 This problem returns to the tightrope walker studied 
-in Example 2 of [Normal Tension and Other Examples Of Forces](../contents/ch4NormalTensionandOtherExamplesOfForces.md), 
+in Example 2 of [Normal Tension and Other Examples Of Forces](../contents/ch4NormalTensionAndOtherExamplesOfForces.md), 
 who created a tension of $$ 3.94 
 \times 10^
 {3}N $$

@@ -19,8 +19,8 @@ The second condition necessary to achieve equilibrium involves avoiding accelera
 </div>
 
 Several familiar factors determine how effective you are in opening the door.
-See [Figure 1](#fig1). First of all, the larger the force, the more effective it
-is in opening the door—obviously, the harder you push, the more rapidly the door
+See [Figure 1](#fig1). First, the larger the force, the more effective it is in
+opening the door—obviously, the harder you push, the more rapidly the door
 opens. Also, the point at which you push is crucial. If you apply your force too
 close to the hinges, the door will open slowly, if at all. Most people have been
 embarrassed by making this mistake and bumping up against a door when it did not

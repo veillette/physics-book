@@ -102,9 +102,9 @@ from the left hand.
 
 [Figure 2](#fig2) includes a free body diagram for the pole, the system of
 interest. There is not enough information to use the first condition for
-equilibrium, $$ \text{(net}F=0 $$, since two of the three forces are unknown and
+equilibrium, $$ \text{net}F=0 $$, since two of the three forces are unknown and
 the hand forces cannot be assumed to be equal in this case. There is enough
-information to use the second condition for equilibrium, $$ \text{(net}\tau =0
+information to use the second condition for equilibrium, $$ \text{net}\tau =0
 $$, if the pivot point is chosen to be at either hand, thereby making the torque
 from that hand zero. We choose to locate the pivot at the left hand in this part
 of the problem, to eliminate the torque from the left hand.
