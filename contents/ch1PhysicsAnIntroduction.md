@@ -261,8 +261,8 @@ Over the last few centuries, the growth of knowledge has resulted in
 ever-increasing specialization and branching of natural philosophy into separate
 fields, with physics retaining the most basic facets. (
 See [Figure 10](#fig10), [Figure 11](#fig11), and [Figure 12](#fig12).) Physics
-as it developed from the Renaissance to the end of the 19th century is called **
-classical physics**. It was transformed into modern physics by revolutionary
+as it developed from the Renaissance to the end of the 19th century is called 
+**classical physics**. It was transformed into modern physics by revolutionary
 discoveries made starting at the beginning of the 20th century.
 
 ![A marble statue of Aristotle.](../resources/Figure_01_01_10_aa.jpg "Over the centuries, natural philosophy has evolved into more specialized disciplines, as illustrated by the contributions of some of the greatest minds in history. The Greek philosopher Aristotle (384&#x2013;322 B.C.) wrote on a broad range of topics including physics, animals, the soul, politics, and poetry. (credit: Jastrow (2006)/Ludovisi Collection)&#10;                ")

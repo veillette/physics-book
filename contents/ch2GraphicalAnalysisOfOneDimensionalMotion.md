@@ -31,8 +31,8 @@ call the horizontal axis the $$ x $$ -axis and the vertical axis the $$ y $$
 </div>
 
 Here $$ m $$ is the **slope**, defined to be the rise divided by the run (as
-seen in the figure) of the straight line. The letter $$ b $$ is used for the **
-y-intercept**, which is the point at which the line crosses the vertical axis.
+seen in the figure) of the straight line. The letter $$ b $$ is used for the 
+**y-intercept**, which is the point at which the line crosses the vertical axis.
 
 ![Graph of a straight-line sloping up at about 40 degrees.](../resources/Figure_02_07_01.jpg "A straight-line graph. The equation for a straight line is \( y= mx + b \)")
 {: #fig1}
@@ -347,8 +347,7 @@ negative acceleration.
   deriving motion equations.
 * The slope of a graph of displacement $$ x $$ vs. time $$ t $$ is velocity $$ v
   $$.
-* The slope of a graph of velocity $$ v $$
-  ** vs. time $$ t $$ graph is acceleration $$ a $$.
+* The slope of a graph of velocity $$ v $$ vs. time $$ t $$ graph is acceleration $$ a $$.
 * Average velocity, instantaneous velocity, and acceleration can all be obtained
   by analyzing graphs.
 

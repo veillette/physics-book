@@ -217,7 +217,7 @@ size, while its displacement is small. Why is this?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the following for path A in the [Figure](#fig5) above:
+Find the following for path A in the [Figure above](#fig5):
 (a) The distance traveled.
 (b) The magnitude of the displacement from start to finish.
 (c) The displacement from start to finish.
@@ -234,7 +234,7 @@ Find the following for path A in the [Figure](#fig5) above:
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the following for path B in the [Figure](#fig5) above:
+Find the following for path B in the [Figure above](#fig5):
 (a) The distance traveled.
 (b) The magnitude of the displacement from start to finish.
 (c) The displacement from start to finish.
@@ -244,7 +244,7 @@ Find the following for path B in the [Figure](#fig5) above:
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the following for path C in the [Figure](#fig5) above:
+Find the following for path C in the [Figure above](#fig5):
 (a) The distance traveled.
 (b) The magnitude of the displacement from start to finish.
 (c) The displacement from start to finish.
@@ -261,7 +261,7 @@ Find the following for path C in the [Figure](#fig5) above:
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the following for path D in the [Figure](#fig5) above:
+Find the following for path D in the [Figure above](#fig5):
 (a) The distance traveled.
 (b) The magnitude of the displacement from start to finish.
 (c) The displacement from start to finish.
