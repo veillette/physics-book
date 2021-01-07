@@ -13,7 +13,7 @@ layout: page
 
 Forces are either conservative or nonconservative. Conservative forces were
 discussed
-in [Conservative Forces and Potential Energy](../contents/ch7ConservaticeForcesAndPotentialEnergy.md)
+in [Conservative Forces and Potential Energy](../contents/ch7ConservativeForcesAndPotentialEnergy.md)
 . A
 **nonconservative force** is one for which work depends on the path taken.
 Friction is a good example of a nonconservative force. As illustrated

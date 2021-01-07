@@ -49,7 +49,7 @@ There are many ways in which an understanding of impulse can save lives, or at
 least limbs. The dashboard padding in a car, and certainly the airbags, allow
 the net force on the occupants in the car to act over a much longer time when
 there is a sudden stop. The momentum change is the same for an occupant, whether
-an air bag is deployed or not, but the force (to bring the occupant to a stop)
+an airbag is deployed or not, but the force (to bring the occupant to a stop)
 will be much less if it acts over a larger time. Cars today have many plastic
 components. One advantage of plastics is their lighter weight, which results in
 better gas mileage. Another advantage is that a car will crumple in a collision,
@@ -94,7 +94,7 @@ and the velocity direction are the same.
 **Solution for (a)**
 
 The first ball bounces directly into the wall and exerts a force on it in the $$
-+x $$ direction. Therefore the wall exerts a force on the ball in the $$ -x $$
++x $$ direction. Therefore, the wall exerts a force on the ball in the $$ -x $$
 direction. The second ball continues with the same momentum component in the $$
 y $$ direction, but reverses its $$ x $$-component of momentum, as seen by
 sketching a diagram of the angles involved and keeping in mind the
@@ -174,7 +174,7 @@ a graph of what an actual force looks like as a function of time for a ball
 bouncing off the floor. The area under the curve has units of momentum and is
 equal to the impulse or change in momentum between times $$ t_{1} $$ and $$ t_
 {2} $$. That area is equal to the area inside the rectangle bounded by $$ F_
-{\text{eff}} $$, $$ t_{1} $$, and $$ t_{2} $$. Thus the impulses and their
+{\text{eff}} $$, $$ t_{1} $$, and $$ t_{2} $$. Thus, the impulses and their
 effects are the same for both the actual and effective forces.
 
 ![Figure is a graph of force, F, versus time, t. Two curves, F actual and F effective, are drawn. F actual is drawn between t sub1 and t sub 2 and it resembles a bell-shaped curve that peaks mid-way between t sub 1 and t sub 2. F effective is a line parallel to the x axis drawn at about fifty five percent of the maximum value of F actual and it extends up to t sub 2.](../resources/Figure_09_02_01a.jpg "A graph of force versus time with time along the \( x \) -axis and force along the \( y \) -axis for an actual force and an equivalent effective force. The areas under the two curves are equal.")

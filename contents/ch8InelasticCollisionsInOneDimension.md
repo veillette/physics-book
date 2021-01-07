@@ -141,7 +141,7 @@ where the minus sign indicates that the energy was lost.
 
 **Discussion for (b)**
 
-Nearly all of the initial internal kinetic energy is lost in this perfectly
+Nearly all the initial internal kinetic energy is lost in this perfectly
 inelastic collision. $$ \KE_{\text{int}} $$ is mostly converted to thermal
 energy and sound.
 

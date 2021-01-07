@@ -6,7 +6,7 @@ layout: page
 ![](../resources/Figure_11_00_01a_D.jpg "The mention of a tornado conjures up images of raw destructive power. Tornadoes blow houses away as if they were made of paper and have been known to pierce tree trunks with pieces of straw. They descend from clouds in funnel-like shapes that spin violently, particularly at the bottom where they are most narrow, producing winds as high as 500 km/h. (credit: Daphne Zaras, U.S. National Oceanic and Atmospheric Administration)")
 {: #fig1}
 
-Why do tornadoes spin at all? And why do tornados spin so rapidly? The answer is
+Why do tornadoes spin at all? And why do tornadoes spin so rapidly? The answer is
 that air masses that produce tornadoes are themselves rotating, and when the
 radii of the air masses decrease, their rate of rotation increases. An ice
 skater increases her spin in an exactly analogous manner as seen
