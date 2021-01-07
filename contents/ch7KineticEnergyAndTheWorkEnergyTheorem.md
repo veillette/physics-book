@@ -115,8 +115,8 @@ The $$ d $$ cancels, and we rearrange this to obtain
  $$ W_{\text{net}}=\frac{1}{2}m v^{2}-\frac{1}{2} mv_{0}^{2}. $$
 </div>
 
-This expression is called the **work-energy theorem**, and it actually applies *
-in general* (even for forces that vary in direction and magnitude), although we
+This expression is called the **work-energy theorem**, and it actually applies 
+*in general* (even for forces that vary in direction and magnitude), although we
 have derived it for the special case of a constant force parallel to the
 displacement. The theorem implies that the net work on a system equals the
 change in the quantity $$ \frac{1}{2}m v^{2} $$. This quantity is our first

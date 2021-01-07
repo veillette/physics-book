@@ -29,8 +29,8 @@ that $$ \Delta t=t_{f} $$, the final time on the stopwatch. When initial time is
 taken to be zero, we use the subscript 0 to denote initial values of position
 and velocity. That is, $$ x_{0} $$ is the *initial position* and $$ v_{0} $$ is
 the *initial velocity*. We put no subscripts on the final values. That is, $$ t
-$$ is the *final time*, $$ x $$ is the *final position*, and $$ v $$ is the *
-final velocity*. This gives a simpler expression for elapsed time—now, $$ \Delta
+$$ is the *final time*, $$ x $$ is the *final position*, and $$ v $$ is the 
+*final velocity*. This gives a simpler expression for elapsed time—now, $$ \Delta
 t=t $$. It also simplifies the expression for displacement, which is now $$
 \Delta x=x-x_{0} $$. Also, it simplifies the expression for change in velocity,
 which is now $$ \Delta v=v-v_{0} $$. To summarize, using the simplified

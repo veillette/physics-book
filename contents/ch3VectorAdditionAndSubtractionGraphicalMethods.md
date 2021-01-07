@@ -178,8 +178,8 @@ whether you add $$ 2 + 3 $$ or $$ 3 + 2 $$, for example).
 
 Vector subtraction is a straightforward extension of vector addition. To define
 subtraction (say we want to subtract $$ \vb{B} $$ from $$ \vb{A} $$, written $$
-\vb{A}-\vb{B} $$, we must first define what we mean by subtraction. The *
-negative* of a vector $$ \vb{B} $$ is defined to be $$ -\vb{B} $$; that is,
+\vb{A}-\vb{B} $$, we must first define what we mean by subtraction. The 
+*negative* of a vector $$ \vb{B} $$ is defined to be $$ -\vb{B} $$; that is,
 graphically *the negative of any vector has the same magnitude but the opposite
 direction*, as shown in [Figure 13](#fig13). In other words, $$ \vb{B} $$ has
 the same length as $$ -\vb{B} $$, but points in the opposite direction.

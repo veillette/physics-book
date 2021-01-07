@@ -117,8 +117,8 @@ and the Moon, for example, interact without coming into contact. It is also true
 for all other forces. Friction, for example, is an electromagnetic force between
 atoms that may not actually touch. What is it that carries forces between
 objects? One way to answer this question is to imagine that a **force field**
-surrounds whatever object creates the force. A second object (often called a *
-test object*) placed in this field will experience a force that is a function of
+surrounds whatever object creates the force. A second object (often called a 
+*test object*) placed in this field will experience a force that is a function of
 location and other variables. The field itself is the “thing” that carries the
 force from one object to another. The field is defined so as to be a
 characteristic of the object creating it; the field does not depend on the test
