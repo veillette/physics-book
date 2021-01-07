@@ -372,7 +372,7 @@
                 return $('.body-inner').scrollTop(0);
             });
         };
-        $('body').on('keydown', function (evt) {
+        $('body').on('keydown', evt => {
             let $link;
             switch (evt.which) {
                 case 37:
