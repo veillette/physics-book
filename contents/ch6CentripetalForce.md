@@ -15,8 +15,8 @@ the force of Earth’s gravity on the Moon, friction between roller skates and a
 rink floor, a banked roadway’s force on a car, and forces on the tube of a
 spinning centrifuge.
 
-Any net force causing uniform circular motion is called a **centripetal force**
-**. The direction of a centripetal force is toward the center of curvature, the
+Any net force causing uniform circular motion is called a **centripetal force**.
+The direction of a centripetal force is toward the center of curvature, the
 same as the direction of centripetal acceleration. According to Newton’s second
 law of motion, net force is mass times acceleration:
 $$ \vb{F}_\text{net} =m \vb{a} $$. For uniform circular motion, the acceleration

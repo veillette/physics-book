@@ -45,8 +45,8 @@ as positive direction and clockwise direction as negative
 
 Angular velocity is not constant when a skater pulls in her arms, when a child
 starts up a merry-go-round from rest, or when a computer’s hard disk slows to a
-halt when switched off. In all these cases, there is an **angular acceleration**
-**, in which $$ \omega $$ changes. The faster the change occurs, the greater the
+halt when switched off. In all these cases, there is an **angular acceleration**,
+in which $$ \omega $$ changes. The faster the change occurs, the greater the
 angular acceleration. Angular acceleration $$ \alpha $$ is defined as the rate
 of change of angular velocity. In equation form, angular acceleration is
 expressed as follows:

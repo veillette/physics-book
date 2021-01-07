@@ -369,8 +369,8 @@ vertical motion is independent of horizontal motion, the final vertical velocity
 for the coin relative to the ground is $$ v_{y}=-5.42 \ms $$, the same as found
 in part (a). In contrast to part (a), there now is a horizontal component of the
 velocity. However, since there is no horizontal acceleration, the initial and
-final horizontal velocities are the same and $$ v_{x}=260 \ms $$. The *x*- and *
-y*-components of velocity can be combined to find the magnitude of the final
+final horizontal velocities are the same and $$ v_{x}=260 \ms $$. The *x*- and 
+*y*-components of velocity can be combined to find the magnitude of the final
 velocity:
 
 <div class="equation">
