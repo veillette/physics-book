@@ -216,7 +216,7 @@ A simple experiment can be done to determine your reaction time. Have a friend h
 
 </div>
 
-<div class="example" markdown="1">
+<div class="example" id="example2" markdown="1">
 <div class="title">
 Calculating Velocity of a Falling Object: A Rock Thrown Down
 </div>
@@ -226,8 +226,7 @@ What happens if the person on the cliff throws the rock straight down, instead o
 
 Draw a sketch.
 
-![Velocity vector arrow pointing down in the negative y direction and labeled v sub zero equals negative thirteen point 0 meters per second. Acceleration vector arrow also pointing down in the negative y direction, labeled a equals negative 9 point 80 meters per second squared.](
-.. /resources/Figure_02_06_01a.jpg "Velocity and Accelerator Sketch")
+![Velocity vector arrow pointing down in the negative y direction and labeled v sub zero equals negative thirteen point 0 meters per second. Acceleration vector arrow also pointing down in the negative y direction, labeled a equals negative 9 point 80 meters per second squared.](../resources/Figure_02_06_01a.jpg "Velocity and Accelerator Sketch")
 {: #fig4}
 
 Since up is positive, the final position of the rock will be negative because it
@@ -281,7 +280,7 @@ signs are meaningful; the positive value occurs when the rock is at 8.10 m and
 heading up, and the negative value occurs when the rock is at 8.10 m and heading
 back down. It has the same *speed* but the opposite direction.
 
-![Two figures are shown. At left, a man standing on the edge of a cliff throws a rock straight up with an initial speed of thirteen meters per second. At right, the man throws the rock straight down with a speed of thirteen meters per second. In both figures, a line indicates the rock&#x2019;s trajectory. When the rock is thrown straight up, it has a speed of minus sixteen point four meters per second at minus five point one zero meters below the point where the man released the rock. When the rock is thrown straight down, the velocity is the same at this position.](../resources/Figure_02_06_00b.jpg "(a) A person throws a rock straight up, as explored in [link]. The arrows are velocity vectors at 0, 1.00, 2.00, and 3.00 s. (b) A person throws a rock straight down from a cliff with the same initial speed as before, as in [link]. Note that at the same distance below the point of release, the rock has the same velocity in both cases. ")
+![Two figures are shown. At left, a man standing on the edge of a cliff throws a rock straight up with an initial speed of thirteen meters per second. At right, the man throws the rock straight down with a speed of thirteen meters per second. In both figures, a line indicates the rock&#x2019;s trajectory. When the rock is thrown straight up, it has a speed of minus sixteen point four meters per second at minus five point one zero meters below the point where the man released the rock. When the rock is thrown straight down, the velocity is the same at this position.](../resources/Figure_02_06_00b.jpg "(a) A person throws a rock straight up, as explored in <a href="#example1">Example 1</a>. The arrows are velocity vectors at 0, 1.00, 2.00, and 3.00 s. (b) A person throws a rock straight down from a cliff with the same initial speed as before, as in <a href="#example2">Example 2</a>. Note that at the same distance below the point of release, the rock has the same velocity in both cases. ")
 {: #fig5}
 
 Another way to look at it is this: In [Example 1](#example1), the rock is thrown

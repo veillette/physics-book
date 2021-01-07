@@ -100,7 +100,7 @@ $$ g $$ is possible in a vacuum. Human centrifuges, extremely large centrifuges,
 have been used to test the tolerance of astronauts to the effects of
 accelerations larger than that of Earth’s gravity.
 
-<div class="example" markdown="1">
+<div class="example" id="example1" markdown="1">
 <div class="title">
 How Does the Centripetal Acceleration of a Car Around a Curve Compare with That Due to Gravity?
 </div>
@@ -130,10 +130,10 @@ wearing a seat belt.
 
 </div>
 
-![In figure a, a car shown from top is running on a circular road around a circular path. The center of the park is termed as the center of this circle and the distance from this point to the car is taken as radius r. The linear velocity is shown in perpendicular direction toward the front of the car, shown as v the centripetal acceleration is shown with an arrow pointed towards the center of rotation. In figure b, a centrifuge is shown an object of mass m is rotating in it at a constant speed. The object is at the distance equal to the radius, r, of the centrifuge. The centripetal acceleration is shown towards the center of rotation, and the velocity, v is shown perpendicular to the object in the clockwise direction.](../resources/Figure_07_02_02a.jpg "(a) The car following a circular path at constant speed is accelerated perpendicular to its velocity, as shown. The magnitude of this centripetal acceleration is found in [link]. (b) A particle of mass in a centrifuge is rotating at constant angular velocity . It must be accelerated perpendicular to its velocity or it would continue in a straight line. The magnitude of the necessary acceleration is found in [link].")
+![In figure a, a car shown from top is running on a circular road around a circular path. The center of the park is termed as the center of this circle and the distance from this point to the car is taken as radius r. The linear velocity is shown in perpendicular direction toward the front of the car, shown as v the centripetal acceleration is shown with an arrow pointed towards the center of rotation. In figure b, a centrifuge is shown an object of mass m is rotating in it at a constant speed. The object is at the distance equal to the radius, r, of the centrifuge. The centripetal acceleration is shown towards the center of rotation, and the velocity, v is shown perpendicular to the object in the clockwise direction.](../resources/Figure_07_02_02a.jpg "(a) The car following a circular path at constant speed is accelerated perpendicular to its velocity, as shown. The magnitude of this centripetal acceleration is found in <a href="#example1">Example 1</a>. (b) A particle of mass in a centrifuge is rotating at constant angular velocity . It must be accelerated perpendicular to its velocity or it would continue in a straight line. The magnitude of the necessary acceleration is found in <a href="#example2">Example 2</a>.")
 {: #fig2}
 
-<div class="example" markdown="1">
+<div class="example" id="example2" markdown="1">
 <div class="title">
 How Big Is the Centripetal Acceleration in an Ultracentrifuge?
 </div>

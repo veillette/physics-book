@@ -40,10 +40,10 @@ gravity, where its weight acts downward. A free body diagram is also shown
 and the distances of the three forces F-B, C-G of arm, and C-G of book from 
 the pivot are shown as r one, r two and r three.](../resources/Figure_10_06_01a.jpg "(a) The figure shows the forearm of a 
 person holding a book. The biceps exert a force \( F_B \) to support the 
-weight of the forearm and the book. The triceps are assumed to be relaxed. (b) Here, you can view an approximately equivalent mechanical system with the pivot at the elbow joint as seen in [link].")
+weight of the forearm and the book. The triceps are assumed to be relaxed. (b) Here, you can view an approximately equivalent mechanical system with the pivot at the elbow joint as seen in <a href="#example1">Example 1</a>.")
 {: #fig1}
 
-<div class="example" markdown="1">
+<div class="example" id="example1" markdown="1">
 <div class="title">
 Muscles Exert Bigger Forces Than You Might Think
 </div>
@@ -193,7 +193,7 @@ spine.
 (c) Another student carrying a load of books in her arms leans backward for the same reason.")
 {: #fig3}
 
-<div class="example" markdown="1">
+<div class="example" id="example2" markdown="1">
 <div class="title">
 Do Not Lift with Your Back
 </div>
@@ -304,7 +304,7 @@ the back—in this case, about 5.6 times smaller.
 
 </div>
 
-![A man is bending forward to lift a box. The back muscles and vertebrae of the person are shown. The weight of the box is acting downward at its center of gravity. The vertebrae of the man are inclined vertical at sixty one degrees. A point on the joint of legs to the upper body is the pivot point. The distance between the center of gravity of the box and the pivot is fifty centimeters and perpendicular distance between the pivot and the weight of the man is thirty five centimeters.](../resources/Figure_10_06_04a.jpg "This figure shows that large forces are exerted by the back muscles and experienced in the vertebrae when a person lifts with their back, since these muscles have small effective perpendicular lever arms. The data shown here are analyzed in the preceding example, [link].")
+![A man is bending forward to lift a box. The back muscles and vertebrae of the person are shown. The weight of the box is acting downward at its center of gravity. The vertebrae of the man are inclined vertical at sixty one degrees. A point on the joint of legs to the upper body is the pivot point. The distance between the center of gravity of the box and the pivot is fifty centimeters and perpendicular distance between the pivot and the weight of the man is thirty five centimeters.](../resources/Figure_10_06_04a.jpg "This figure shows that large forces are exerted by the back muscles and experienced in the vertebrae when a person lifts with their back, since these muscles have small effective perpendicular lever arms. The data shown here are analyzed in the preceding example, <a href="#example2">Example 2</a>.")
 {: #fig4}
 
 What are the benefits of having most skeletal muscles attached so close to

@@ -164,7 +164,7 @@ the reasoning that goes into solving problems.
 ![In part (a), a subway train moves from left to right from an initial position of x equals 4 point 7 kilometers to a final position of x equals 6 point 7 kilometers, with a displacement of 2 point 0 kilometers. In part (b), the train moves toward the left, from an initial position of 5 point 25 kilometers to a final position of 3 point 75 kilometers.](../resources/Figure_02_03_03.jpg "One-dimensional motion of a subway train. Here we have chosen the x-axis so that + means to the right and - means to the left for displacements, velocities, and accelerations. (a) The subway train moves to the right from \(x_0\) to \( x_f\). Its displacement \( \Delta x \) is +2.0 km. (b) The train moves to the left from \( x'_0 \) to \( x'_f \). Its displacement \( \Delta x'=1.5 \text{km} \). (Note that the prime symbol (') is used simply to distinguish between displacement in the two different situations. The distances of travel and the size of the cars are on different scales to fit everything into the diagram.)")
 {: #fig7}
 
-<div class="example" id="exampleDisplacement" markdown="1">
+<div class="example" id="example2" markdown="1">
 <div class="title">
 Calculating Displacement: A Subway Train
 </div>
@@ -214,7 +214,7 @@ What are the distances traveled for the motions shown in parts (a) and (b) of th
 To answer this question, think about the definitions of distance and distance
 traveled, and how they are related to displacement. Distance between two
 positions is defined to be the magnitude of displacement, which was found
-in [Example 2](#exampleDisplacement). Distance traveled is the total length of
+in [Example 2](#example2). Distance traveled is the total length of
 the path traveled between the two positions. (
 See [Displacement](../contents/ch2Displacement.md).) In the case of the subway
 train shown in [Figure 7](#fig7), the distance traveled is the same as the
@@ -236,7 +236,7 @@ Distance is a scalar. It has magnitude but no sign to indicate direction.
 
 </div>
 
-<div class="example" id="exampleSpeedingUp" markdown="1">
+<div class="example" id="example4" markdown="1">
 <div class="title">
 Calculating Acceleration: A Subway Train Speeding Up
 </div>
@@ -285,7 +285,7 @@ velocity, as is always the case.
 
 </div>
 
-<div class="example" id="exampleSlowingDown" markdown="1">
+<div class="example" id="example5" markdown="1">
 <div class="title">
 Calculate Acceleration: A Subway Train Slowing Down
 </div>
@@ -334,7 +334,7 @@ the velocity.
 </div>
 
 The graphs of position, velocity, and acceleration vs. time for the trains
-in [Example 4](#exampleSpeedingUp) and [Example 5](#exampleSlowingDown) are
+in [Example 4](#example4) and [Example 5](#example5) are
 displayed in [Figure 10](#fig10). (We have taken the velocity to remain constant
 from 20 to 40 s, after which the train decelerates.)
 
@@ -347,7 +347,7 @@ from 20 to 40 s, after which the train decelerates.)
 <div class="title">
 Calculating Average Velocity: The Subway Train
 </div>
-What is the average velocity of the train in part b of [Example 2](#exampleDisplacement), and shown again below, if it takes 5.00 min to make its 
+What is the average velocity of the train in part b of [Example 2](#example2), and shown again below, if it takes 5.00 min to make its 
 trip?
 
 ![The train moves toward the left, from an initial position of 5 point 25 kilometers to a final position of 3 point 75 kilometers.](../resources/Figure_02_03_04a.jpg "Train Diagram")
@@ -364,7 +364,7 @@ since the train moves to the left and has a negative displacement.
 {0}=5.25 \text{km} $$, $$ \Delta t=5.00 \text{min} $$.
 
 2\. Determine displacement, $$ \Delta x^{\prime} $$. We found $$ \Delta
-x^{\prime} $$ to be $$ -1.5 \text{km} $$ in [Example 2](#exampleDisplacement).
+x^{\prime} $$ to be $$ -1.5 \text{km} $$ in [Example 2](#example2).
 
 3\. Solve for average velocity.
 
@@ -431,7 +431,7 @@ The plus sign means that acceleration is to the right. This is reasonable
 because the train initially has a negative velocity (to the left) in this
 problem and a positive acceleration opposes the motion (and so it is to the
 right). Again, acceleration is in the same direction as the *change* in
-velocity, which is positive here. As in [Example 5](#exampleSlowingDown), this
+velocity, which is positive here. As in [Example 5](#example5), this
 acceleration can be called a deceleration since it is in the direction opposite
 to the velocity.
 
