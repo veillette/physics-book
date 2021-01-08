@@ -391,20 +391,19 @@ Thus, it takes about 2.5 seconds for the piece of ice to hit the water.
 
 <div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
- Graphing Quadratics
+Kinematics of an Elevator
 </div>
-Learn about graphing polynomials. The shape of the curve changes as the constants are adjusted. View the curves for the
-individual terms (e.g. $$ y= b x $$) to see how they add to generate the polynomial curve.
-
+The three kinematic variables, position, velocity, and acceleration are all related. See how they evolve graphically.
 <figure markdown="1">
-<iframe loading="lazy" src="https://phet.colorado.
-edu/sims/html/graphing-quadratics/latest/graphing-quadratics_en.html"
-width="600" height="450"  allowfullscreen></iframe>
+<iframe loading="lazy" src="https://ccny-physics-sims.github.io/sims/plot-elevator/" 
+width ="600" height="1000" allowfullscreen ></iframe >
 <figcaption>
-Graphing Quadratics
+Kinematics of an Elevator
 </figcaption>
 </figure>
 </div>
+
+
 
 ### Section Summary
 
