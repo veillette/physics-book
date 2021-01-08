@@ -519,7 +519,7 @@ in [Figure 20](#fig20).
 ![Line graph of position over time. Line begins sloping upward, then kinks back down, then kinks back upward again.](../resources/Figure_02_08Sol_16.jpg)
 {: #fig19}
 
-![Line graph of velocity over time. Line begins with a positive slope, then kinks downward with a negative slope, then kinks back upward again. It kinks back down again slightly, then back up again, and ends with a slightly less positive slope.](../resources/Figure02_08Sol_17.jpg)
+![Line graph of velocity over time. Line begins with a positive slope, then kinks downward with a negative slope, then kinks back upward again. It kinks back down again slightly, then back up again, and ends with a slightly less positive slope.](../resources/Figure_02_08Sol_17.jpg)
 {: #fig20}
 
 ![Line graph of velocity over time.](../resources/Figure_02_08Sol_18.jpg){:
