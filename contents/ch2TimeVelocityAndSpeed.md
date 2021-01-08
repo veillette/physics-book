@@ -11,7 +11,7 @@ layout: page
 
 </div>
 
-![Snails leaving slime trails as they race each other along a flat surface.](../resources/Picture 6.png "The motion of these racing snails can be described by their speeds and their velocities. (credit: tobitasflickr, Flickr)")
+![Snails leaving slime trails as they race each other along a flat surface.](../resources/Figure_02_03_01.png "The motion of these racing snails can be described by their speeds and their velocities. (credit: tobitasflickr, Flickr)")
 {: #fig1}
 
 There is more to motion than distance and displacement. Questions such as, “How
