@@ -1,11 +1,5 @@
 window.MathJax = {
-    loader: {
-        load: ['[tex]/ams']
-    },
     tex: {
-        packages: {
-            '[+]': ['ams']
-        },
         macros: {
             KE: '{\\mathrm{KE}}',                  // kinetic energy
             PE: '{\\mathrm{PE}}',                  // potential energy
@@ -27,7 +21,6 @@ window.MathJax = {
             mile: '\\mathrm{mi.}',     // mi.
             mph: '\\mathrm{mph}',     // mph
             ac: 'a_\\mathrm{c}',     // a_c
-        },
-        tags: 'ams'
+        }
     }
 };
