@@ -30,7 +30,11 @@ line. The two legs of the trip and the straight-line path form a right triangle,
 and so the Pythagorean theorem, $$ a^{2} + b^{2} = c^{2} $$, can be used to find
 the straight-line distance.
 
-![A right-angled triangle with base labeled a height labeled b and hypotenuse labeled c is shown. Using Pythagorean theorem c is calculated as square root of a squared plus b squared.](../resources/Figure_03_01_02.jpg "The Pythagore an theorem relates the length of the legs of a right triangle, labeled \( a\) and \( b \), with the hypotenuse, labeled \( c \). The relationship is given by: \( a^2+b^2=c^2 \). This can be rewritten, solving for \( c \).")
+![A right-angled triangle with base labeled a height labeled b and hypotenuse labeled c is shown. Using Pythagorean 
+theorem c is calculated as square root of a squared plus b squared.](../resources/Figure_03_01_03.svg "The Pythagorean 
+theorem relates the length of the legs of a right triangle, labeled \( a\) and \( b \), with the hypotenuse, labeled \( c \). 
+The relationship is given by: \( a^2+b^2=c^2 \). This can be rewritten, solving for \( c \). In this way one finds 
+\( c=\sqrt{a^2+b^2} \).")
 {: #fig3}
 
 The hypotenuse of the triangle is the straight-line path, and so in this case
