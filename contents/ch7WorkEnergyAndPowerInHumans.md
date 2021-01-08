@@ -388,7 +388,7 @@ day, assuming that the average worker required 3600 kcal per day and that their
 diet was 5% protein, 60% carbohydrate, and 35% fat. (These proportions neglect
 the mass of bulk and nondigestible materials consumed.)
 
-![A model of a step pyramid is shown with ramps along the sides of each step.](../resources/graphics7.png "Ancient pyramids were probably constructed using ramps as simple machines. (credit: Franck Monnier, Wikimedia Commons)")
+![A model of a step pyramid is shown with ramps along the sides of each step.](../resources/Figure_07_08_07.png "Ancient pyramids were probably constructed using ramps as simple machines. (credit: Franck Monnier, Wikimedia Commons)")
 {: #fig7}
 
 </div>

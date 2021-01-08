@@ -31,7 +31,7 @@ warming and fossil fuel use, with its production of carbon dioxide through
 combustion, has made, in the eyes of many scientists, a shift to non-fossil
 fuels of utmost importance—but it will not be easy.
 
-![A pie chart of the world&#x2019;s energy consumption by source is shown. Thirty-five point four three percent is petroleum, twenty-eight point one five percent is coal, twenty-three point four six percent is dry natural gas, six point two seven percent is hydro-electricity, five point seven nine percent is nuclear electricity, point eight six percent is geothermal, wind, solar, biomass, and point zero five percent is geothermal, biomass, or solar energy not used for electricity.](../resources/cover/ch8_energy_resources.svg "World energy consumption (2018) based on data from BP Statistical Review of World Energy (credit:Veillette)")
+![A pie chart of the world&#x2019;s energy consumption by source is shown. Thirty-five point four three percent is petroleum, twenty-eight point one five percent is coal, twenty-three point four six percent is dry natural gas, six point two seven percent is hydro-electricity, five point seven nine percent is nuclear electricity, point eight six percent is geothermal, wind, solar, biomass, and point zero five percent is geothermal, biomass, or solar energy not used for electricity.](../resources/svg/Figure_07_09_01.svg "World energy consumption (2018) based on data from BP Statistical Review of World Energy (credit:Veillette)")
 {: #fig1}
 
 ### The World’s Growing Energy Needs
@@ -61,7 +61,7 @@ world.
 ![A bar graph depicting world energy consumption is shown. The year is listed on the horizontal axis and energy consumed is listed on the vertical axis. Energy consumption by the world is shown for different years. Energy consumption rises over time. In the year nineteen hundred and ninety it was three hundred seventy three multiplied by ten to the power eighteen joules, and the projection is that it will become eight hundred twelve multiplied by ten to the power eighteen joules by the year twenty thirty five.](../resources/Figure_08_09_02a.jpg "Past and projected world energy use (source: Based on data from U.S. Energy Information Administration, 2011)")
 {: #fig2}
 
-![Solar cell arrays lined up in a field.](../resources/cover/Solar_Panel_Array.jpg "Solar cell arrays in Manchester, Vermont, USA (credit: MarkBuckawicki, Wikimedia)")
+![Solar cell arrays lined up in a field.](../resources/Figure_07_09_03.jpg "Solar cell arrays in Manchester, Vermont, USA (credit: MarkBuckawicki, Wikimedia)")
 {: #fig3}
 
 [Table 1](#table1) displays the 2006 commercial energy mix by country for some
@@ -102,7 +102,7 @@ borne out in [Figure 4](#fig4). Increased efficiency of energy use will change
 this dependency. A global problem is balancing energy resource development
 against the harmful effects upon the environment in its extraction and use.
 
-![A scatter plot of power consumption per capita versus G D P per capita for various countries. Power consumption in kilowatt per capita is shown along the horizontal axis and G D P per capita is show alon g the vertical axis.](../resources/cover/ch8energy-use-per-capita-vs-gdp-per-capita.svg "Power consumption per capita versus GDP per capita for various countries. Note the increase in energy usage with increasing GDP. (2015, credit: International Energy Agency (IEA) via The World Bank)")
+![A scatter plot of power consumption per capita versus G D P per capita for various countries. Power consumption in kilowatt per capita is shown along the horizontal axis and G D P per capita is show alon g the vertical axis.](../resources/svg/Figure_07_09_04.svg "Power consumption per capita versus GDP per capita for various countries. Note the increase in energy usage with increasing GDP. (2015, credit: International Energy Agency (IEA) via The World Bank)")
 {: #fig4}
 
 ### Conserving Energy

@@ -3,7 +3,7 @@ title: "Introduction: Further Applications of Newton’s Laws"
 layout: page
 ---
 
-![An x-ray image of a person&#x2019;s hips. The right hip joint (on the left in the photograph) has been replaced. A metal prosthesis is cemented in the top of the right femur and the head of the femur has been replaced by the rounded head of the prosthesis. A white plastic cup is cemented into the acetabulum to complete the two surfaces of the artificial ball and socket joint.](../resources/Figure_06_00_01.jpg "Total hip replacement surgery has become a common procedure. The head (or ball) of the patient&#x2019;s femur fits into a cup that has a hard plastic-like inner lining. (credit: National Institutes of Health, via Wikimedia Commons)")
+![An x-ray image of a person&#x2019;s hips. The right hip joint (on the left in the photograph) has been replaced. A metal prosthesis is cemented in the top of the right femur and the head of the femur has been replaced by the rounded head of the prosthesis. A white plastic cup is cemented into the acetabulum to complete the two surfaces of the artificial ball and socket joint.](../resources/Figure_05_00_01.jpg "Total hip replacement surgery has become a common procedure. The head (or ball) of the patient&#x2019;s femur fits into a cup that has a hard plastic-like inner lining. (credit: National Institutes of Health, via Wikimedia Commons)")
 {: #fig1}
 
 Describe the forces on the hip joint. What means are taken to ensure that this

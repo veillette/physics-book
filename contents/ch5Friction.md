@@ -70,7 +70,7 @@ moving, there are fewer points of contact (fewer molecules adhering), so less
 force is required to keep the object moving. At small but nonzero speeds,
 friction is nearly independent of speed.
 
-![The figure shows a crate on a flat surface, and a magnified view of a bottom corner of the crate and the supporting surface. The magnified view shows that there is roughness in the two surfaces in contact with each other. A black arrow points toward the right, away from the crate, and it is labeled as the direction of motion or attempted motion. A red arrow pointing toward the left is located near the bottom left corner of the crate, at the interface between that corner and the supporting surface. The red arrow is labeled as f, representing friction between the two surfaces in contact with each other.](../resources/Figure_06_01_01a.jpg "Frictional forces, such as \( \vb{f} \) , always oppose motion or attempted motion between objects in contact. Friction arises in part because of the roughness of the surfaces in contact, as seen in the expanded view. In order for the object to move, it must rise to where the peaks can skip along the bottom surface. Thus a force is required just to set the object in motion. Some of the peaks will be broken off, also requiring a force to maintain motion. Much of the friction is actually due to attractive forces between molecules making up the two objects, so that even perfectly smooth surfaces are not friction-free. Such adhesive forces also depend on the substances the surfaces are made of, explaining, for example, why rubber-soled shoes slip less than those with leather soles.")
+![The figure shows a crate on a flat surface, and a magnified view of a bottom corner of the crate and the supporting surface. The magnified view shows that there is roughness in the two surfaces in contact with each other. A black arrow points toward the right, away from the crate, and it is labeled as the direction of motion or attempted motion. A red arrow pointing toward the left is located near the bottom left corner of the crate, at the interface between that corner and the supporting surface. The red arrow is labeled as f, representing friction between the two surfaces in contact with each other.](../resources/Figure_05_01_01.jpg "Frictional forces, such as \( \vb{f} \) , always oppose motion or attempted motion between objects in contact. Friction arises in part because of the roughness of the surfaces in contact, as seen in the expanded view. In order for the object to move, it must rise to where the peaks can skip along the bottom surface. Thus a force is required just to set the object in motion. Some of the peaks will be broken off, also requiring a force to maintain motion. Much of the friction is actually due to attractive forces between molecules making up the two objects, so that even perfectly smooth surfaces are not friction-free. Such adhesive forces also depend on the substances the surfaces are made of, explaining, for example, why rubber-soled shoes slip less than those with leather soles.")
 {: #fig1}
 
 The magnitude of the frictional force has two forms: one for static situations (
@@ -199,7 +199,7 @@ artificial joint ([Figure 2](#fig2)). These replacements can be made of metals (
 stainless steel or titanium)
 or plastic (polyethylene), also with very small coefficients of friction.
 
-![Two X-x rays of an artificial knee replacement are shown.](../resources/Figure_06_01_02a.jpg "Artificial knee replacement is a procedure that has been performed for more than 20 years. In this figure, we see the post-op x rays of the right knee joint replacement. (credit: Mike Baird, Flickr)")
+![Two X-x rays of an artificial knee replacement are shown.](../resources/Figure_05_01_02.jpg "Artificial knee replacement is a procedure that has been performed for more than 20 years. In this figure, we see the post-op x rays of the right knee joint replacement. (credit: Mike Baird, Flickr)")
 {: #fig2}
 
 Other natural lubricants include saliva produced in our mouths to aid in the
@@ -229,7 +229,7 @@ surface, the normal force should equal the component of the skier’s weight
 perpendicular to the slope. (See the skier and free-body diagram
 in [Figure 3](#fig3).)
 
-![The figure shows a skier going down a slope that forms an angle of 25 degrees with the horizontal. The weight of the skier, labeled w, is represented by a red arrow pointing vertically downward. This weight is divided into two components, w perpendicular is perpendicular to the slope, and w parallel is parallel to the slope. The normal force, labeled N, is also perpendicular to the slope, equal in magnitude but opposite in direction to w perpendicular. The friction, f, is represented by a red arrow pointing upslope. In addition, the figure shows a free body diagram that shows the relative magnitudes and directions of w, f, and N.](../resources/Figure_06_01_03a.jpg "The motion of the skier and friction are parallel to the slope and so it is most convenient to project all forces onto a coordinate system where one axis is parallel to the slope and the other is perpendicular (axes shown to left of skier). \( \vb{N} \) (the normal force) is perpendicular to the slope, and \( \vb{f} \) (the friction) is parallel to the slope, but \( \vb{w} \) (the skier&#x2019;s weight) has components along both axes, namely \( w_\perp \) and \( w_\parallel \) . \( \vb{N} \) is equal in magnitude to \( w_\perp \), so there is no motion perpendicular to the slope. However, \( \mag{f} \) is less than \( \mag{W} \) in magnitude, so there is acceleration down the slope
+![The figure shows a skier going down a slope that forms an angle of 25 degrees with the horizontal. The weight of the skier, labeled w, is represented by a red arrow pointing vertically downward. This weight is divided into two components, w perpendicular is perpendicular to the slope, and w parallel is parallel to the slope. The normal force, labeled N, is also perpendicular to the slope, equal in magnitude but opposite in direction to w perpendicular. The friction, f, is represented by a red arrow pointing upslope. In addition, the figure shows a free body diagram that shows the relative magnitudes and directions of w, f, and N.](../resources/Figure_05_01_03.jpg "The motion of the skier and friction are parallel to the slope and so it is most convenient to project all forces onto a coordinate system where one axis is parallel to the slope and the other is perpendicular (axes shown to left of skier). \( \vb{N} \) (the normal force) is perpendicular to the slope, and \( \vb{f} \) (the friction) is parallel to the slope, but \( \vb{w} \) (the skier&#x2019;s weight) has components along both axes, namely \( w_\perp \) and \( w_\parallel \) . \( \vb{N} \) is equal in magnitude to \( w_\perp \), so there is no motion perpendicular to the slope. However, \( \mag{f} \) is less than \( \mag{W} \) in magnitude, so there is acceleration down the slope
 (along the x-axis).")
 {: #fig3}
 
@@ -326,7 +326,7 @@ area since only high spots touch. When a greater normal force is exerted, the
 actual contact area increases, and it is found that the friction is proportional
 to this area.
 
-![This figure has two parts, each of which shows two rough surfaces in close proximity to each other. In the first part, the normal force is small, so that the area of contact between the two surfaces is much smaller than their total area. In the second part, the normal force is large, so that the area of contact between the two surfaces has increased. As a result, the friction between the two surfaces in the second part is also greater than the friction in the first part.](../resources/Figure_06_01_04a.jpg "Two rough surfaces in contact have a much smaller area of actual contact than their total area. When there is a greater normal force as a result of a greater applied force, the area of actual contact increases as does friction.")
+![This figure has two parts, each of which shows two rough surfaces in close proximity to each other. In the first part, the normal force is small, so that the area of contact between the two surfaces is much smaller than their total area. In the second part, the normal force is large, so that the area of contact between the two surfaces has increased. As a result, the friction between the two surfaces in the second part is also greater than the friction in the first part.](../resources/Figure_05_01_04.jpg "Two rough surfaces in contact have a much smaller area of actual contact than their total area. When there is a greater normal force as a result of a greater applied force, the area of actual contact increases as does friction.")
 {: #fig4}
 
 But the atomic-scale view promises to explain far more than the simpler features
@@ -346,7 +346,7 @@ and difficult to predict theoretically, but shear stress is yielding a
 fundamental understanding of a large-scale phenomenon known since ancient
 times—friction.
 
-![This figure shows a molecular model of a probe that is dragged over the surface of a substrate. The substrate is represented by a rectangular prism, made up of a grid of small spheres, each sphere representing an atom. The probe, made up of a different grid of small spheres, is in the form of an inverted pyramid with a flattened peak. The pyramid is somewhat distorted because of friction.](../resources/Figure_06_01_05a.jpg "The tip of a probe is deformed sideways by frictional force as the probe is dragged across a surface. Measurements of how the force varies for different materials are yielding fundamental insights into the atomic nature of friction.")
+![This figure shows a molecular model of a probe that is dragged over the surface of a substrate. The substrate is represented by a rectangular prism, made up of a grid of small spheres, each sphere representing an atom. The probe, made up of a different grid of small spheres, is in the form of an inverted pyramid with a flattened peak. The pyramid is somewhat distorted because of friction.](../resources/Figure_05_01_05.jpg "The tip of a probe is deformed sideways by frictional force as the probe is dragged across a surface. Measurements of how the force varies for different materials are yielding fundamental insights into the atomic nature of friction.")
 {: #fig5}
 
 <div class="note" data-label="PhET Exploration" markdown="1">
@@ -648,7 +648,7 @@ by her arms.
 (b) What is the minimum coefficient of friction between her shoes
 and the cliff?
 
-![A mountain climber with a mass of fifty two kilograms exerts force with her feet parallel to her legs on a vertical rock face to remain stationary. The angle between her legs and the rock face is fifteen degrees, whereas the angle between the rope and the cliff is thirty one degrees.](../resources/Figure_06_01_06a.jpg "Part of the climber&#x2019;s weight is supported by her rope and part by friction between her feet and the rock face.")
+![A mountain climber with a mass of fifty two kilograms exerts force with her feet parallel to her legs on a vertical rock face to remain stationary. The angle between her legs and the rock face is fifteen degrees, whereas the angle between the rope and the cliff is thirty one degrees.](../resources/Figure_05_01_08.jpg "Part of the climber&#x2019;s weight is supported by her rope and part by friction between her feet and the rock face.")
 {: #fig8}
 
 </div>
@@ -668,7 +668,7 @@ A contestant in a winter sporting event pushes a 45.0-kg block of ice across a f
 </div>
 </div>
 
-![(a) A block of ice is being pushed by a contestant in a winter sporting event across a frozen lake at an angle of twenty five degrees. (b) A block of ice is being pulled by a contestant in a winter sporting event across a frozen lake at an angle of twenty five degrees.](../resources/Figure_06_01_07a.jpg "Which method of sliding a block of ice requires less force&#x2014;(a) pushing or (b) pulling at the same angle above the horizontal?")
+![(a) A block of ice is being pushed by a contestant in a winter sporting event across a frozen lake at an angle of twenty five degrees. (b) A block of ice is being pulled by a contestant in a winter sporting event across a frozen lake at an angle of twenty five degrees.](../resources/Figure_05_01_09.jpg "Which method of sliding a block of ice requires less force&#x2014;(a) pushing or (b) pulling at the same angle above the horizontal?")
 {: #fig9 height="304"}
 
 
