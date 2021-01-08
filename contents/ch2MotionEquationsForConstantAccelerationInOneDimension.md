@@ -763,7 +763,7 @@ time for this period.
 
 (b)
 
-![Line graph of position in meters versus time in seconds. The line begins at the origin and is concave up, with its slope increasing over time.](../resources/unnumbered_art_p44.jpg)
+![Line graph of position in meters versus time in seconds. The line begins at the origin and is concave up, with its slope increasing over time.](../resources/Figure_02_05_08.jpg)
 {: #fig13}
 
 </div>

@@ -87,7 +87,7 @@ Calculating Acceleration: A Racehorse Leaves the Gate
 </div>
 A racehorse coming out of the gate accelerates from rest to a velocity of 15.0 m/s due west in 1.80 s. What is its average acceleration?
 
-![Two racehorses running toward the left.](../resources/racehorse.jpg "(credit: Jon Sullivan, PD Photo.org)")
+![Two racehorses running toward the left.](../resources/Figure_02_04_04.jpg "(credit: Jon Sullivan, PD Photo.org)")
 {: #fig4}
 
 **Strategy**
