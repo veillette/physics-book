@@ -45,7 +45,7 @@ vertical axis and $$ t $$ on the horizontal axis. [Figure 2](#fig2) is just such
 a straight-line graph. It shows a graph of position versus time for a
 jet-powered car on a very flat dry lake bed in Nevada.
 
-![Line graph of jet car displacement in meters versus time in seconds. The line is straight with a positive slope. The y intercept is four hundred meters. The total change in time is eight point zero seconds. The initial position is four hundred meters. The final position is two thousand meters.](../resources/Figure02_07_02.jpg
+![Line graph of jet car displacement in meters versus time in seconds. The line is straight with a positive slope. The y intercept is four hundred meters. The total change in time is eight point zero seconds. The initial position is four hundred meters. The final position is two thousand meters.](../resources/Figure_02_07_02.jpg
 "Graph of position versus time for a jet-powered car on the Bonneville Salt Flats.
 ")
 {: #fig2}
@@ -142,7 +142,7 @@ starts at zero for this motion (
 as if measured with a stopwatch), and the position and velocity are initially
 200 m and 15 m/s, respectively.
 
-![Three line graphs. First is a line graph of displacement over time. Line has a positive slope that increases with time. Second line graph is of velocity over time. Line is straight with a positive slope. Third line graph is of acceleration over time. Line is straight and horizontal, indicating constant acceleration.](../resources/Figure02_07_03.jpg
+![Three line graphs. First is a line graph of displacement over time. Line has a positive slope that increases with time. Second line graph is of velocity over time. Line is straight with a positive slope. Third line graph is of acceleration over time. Line is straight and horizontal, indicating constant acceleration.](../resources/Figure_02_07_03.jpg
 "Graphs of motion of a jet-powered car during the time span when its acceleration is constant.
 (a) The slope of an \(x\) vs. \(t\) graph is velocity. This is shown at two points, and the instantaneous velocities obtained are plotted in the next graph. Instantaneous velocity at any point is the slope of the tangent at that point.
 (b) The slope of the \(v\) vs. \(t\) graph is constant for this part of the motion, indicating constant acceleration.
@@ -170,7 +170,7 @@ Determining Instantaneous Velocity from the Slope at a Point: Jet Car
 Calculate the velocity of the jet car at a time of 25 s by finding the slope of the $$ x $$ vs. $$ t $$
 graph in the graph below.
 
-![A graph of displacement versus time for a jet car. The x axis for time runs from zero to thirty five seconds. The y axis for displacement runs from zero to three thousand meters. The curve depicting displacement is concave up. The slope of the curve increases over time. Slope equals velocity v. There are two points on the curve, labeled, P and Q. P is located at time equals ten seconds. Q is located and time equals twenty-five seconds. A line tangent to P at ten seconds is drawn and has a slope delta x sub P over delta t sub p. A line tangent to Q at twenty five seconds is drawn and has a slope equal to delta x sub q over delta t sub q. Select coordinates are given in a table and consist of the following: time zero seconds displacement two hundred meters; time five seconds displacement three hundred thirty eight meters; time ten seconds displacement six hundred meters; time fifteen seconds displacement nine hundred eighty eight meters. Time twenty seconds displacement one thousand five hundred meters; time twenty five seconds displacement two thousand one hundred thirty eight meters; time thirty seconds displacement two thousand nine hundred meters.](../resources/Figure02_07_03b.jpg
+![A graph of displacement versus time for a jet car. The x axis for time runs from zero to thirty five seconds. The y axis for displacement runs from zero to three thousand meters. The curve depicting displacement is concave up. The slope of the curve increases over time. Slope equals velocity v. There are two points on the curve, labeled, P and Q. P is located at time equals ten seconds. Q is located and time equals twenty-five seconds. A line tangent to P at ten seconds is drawn and has a slope delta x sub P over delta t sub p. A line tangent to Q at twenty five seconds is drawn and has a slope equal to delta x sub q over delta t sub q. Select coordinates are given in a table and consist of the following: time zero seconds displacement two hundred meters; time five seconds displacement three hundred thirty eight meters; time ten seconds displacement six hundred meters; time fifteen seconds displacement nine hundred eighty eight meters. Time twenty seconds displacement one thousand five hundred meters; time twenty five seconds displacement two thousand one hundred thirty eight meters; time thirty seconds displacement two thousand nine hundred meters.](../resources/Figure_02_07_03b.jpg
 "The slope of an \( x \) vs. \( t \) graph is velocity. This is shown at two points. Instantaneous velocity at any point is the slope of the tangent at that point.")
 {: #fig5}
 
@@ -265,7 +265,7 @@ increases until $$ t=55 \s $$, after which time the slope is constant.
 Similarly, velocity increases until 55 s and then becomes constant, since
 acceleration decreases to zero at 55 s and remains zero afterward.
 
-![Three line graphs of jet car displacement, velocity, and acceleration, respectively. First line graph is of position over time. Line is straight with a positive slope. Second line graph is of velocity over time. Line graph has a positive slope that decreases over time and flattens out at the end. Third line graph is of acceleration over time. Line has a negative slope that increases over time until it flattens out at the end. The line is not smooth, but has several kinks.](../resources/Figure02_07_04.jpg "Graphs of motion of a jet-powered car as it reaches its top velocity. This motion begins where the motion in <a href="#fig3">Figure 3</a> ends.
+![Three line graphs of jet car displacement, velocity, and acceleration, respectively. First line graph is of position over time. Line is straight with a positive slope. Second line graph is of velocity over time. Line graph has a positive slope that decreases over time and flattens out at the end. Third line graph is of acceleration over time. Line has a negative slope that increases over time until it flattens out at the end. The line is not smooth, but has several kinks.](../resources/Figure_02_07_04.jpg "Graphs of motion of a jet-powered car as it reaches its top velocity. This motion begins where the motion in <a href="#fig3">Figure 3</a> ends.
 (a) The slope of this graph is velocity; it is plotted in the next graph.
 (b) The velocity gradually approaches its top value. The slope of this graph is acceleration; it is plotted in the final graph.
 (c) Acceleration gradually declines to zero when velocity becomes constant.")
