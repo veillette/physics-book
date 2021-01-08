@@ -23,9 +23,7 @@ also be large.
 
 Kinematics is the description of motion. The **kinematics of rotational motion**
 describes the relationships among rotation angle, angular velocity, angular
-acceleration, and
-
-time. Let us start by finding an equation relating $$ \omega $$, $$ \alpha $$,
+acceleration, and time. Let us start by finding an equation relating $$ \omega $$, $$ \alpha $$,
 and $$ t $$. To determine this equation, we recall a familiar kinematic equation
 for translational, or straight-line, motion:
 
