@@ -155,7 +155,7 @@ When graphed, linear functions look like straight lines with a constant slope.)
 On a car trip, for example, we will get twice as far in a given time if we
 average 90 km/h than if we average 45 km/h.
 
-![Line graph showing displacement in meters versus average velocity in meters per second. The line is straight with a positive slope. Displacement x increases linearly with increase in average velocity v.](../resources/Figure02_05_00b.jpg "There is a linear relationship between displacement and average velocity. For a given time \( t\) , an object moving twice as fast as another object will move twice as far as the other object.")
+![Line graph showing displacement in meters versus average velocity in meters per second. The line is straight with a positive slope. Displacement x increases linearly with increase in average velocity v.](../resources/Figure_02_05_00b.jpg "There is a linear relationship between displacement and average velocity. For a given time \( t\) , an object moving twice as fast as another object will move twice as far as the other object.")
 {: #fig3}
 
 <div class="note" data-label="" markdown="1">
