@@ -13,7 +13,7 @@ This appendix is broken into several tables.
 * [SI units](#SI-units)
 * [Selected British Units](#Selected-British-Units)
 * [Other Units](#Other-Units)
-* [Useful Formulae](#Useful-Formulae)
+
 
 P.S: The values below are stated according to
 the [National Institute of Standards and Technology Reference on Constants, Units, and Uncertainty](https://physics.nist.gov/cuu/Constants/index.html)
@@ -37,7 +37,6 @@ Numbers without uncertainties are exact as defined.
 | $$h$$    | Planck’s constant    | $$ 6.626 070 15 \times 10^{-34} \text{J s}$$  | $$ 6.63 \times 10^{-34} \text{J s}$$  |
 
 ### Submicroscopic Masses
-
 {: #Submicroscopic-Masses}
 
 | Symbol   | Meaning        | Best Value                                          | Approximate Value                          |
@@ -48,7 +47,6 @@ Numbers without uncertainties are exact as defined.
 | $$u $$   | Atomic mass unit | $$ 1.66053906660(50) \times 10^{-27} \text{kg} $$ | $$ 1.6605 \times 10^{-27} \text{kg} $$ |
 
 ### The Greek Alphabet
-
 {: #The-Greek-Alphabet}
 
 | ------- | ---- | ------ | ------ | ----- | ----- | ------- | ----- | ----- |
@@ -62,7 +60,6 @@ $$ρ$$ | Psi | $$Ψ$$ | $$ψ$$ | | Zeta | $$Ζ$$ | $$ζ$$ | Mu | $$Μ$$ | $$μ$$
 Sigma | $$Σ$$ | $$σ$$ | Omega | $$ \Omega $$ | $$ω$$ |
 
 ### Metric Prefixes for Powers of Ten and Their Symbols
-
 {: #Metric-Prefixes-for-Powers-of-Ten-and-Their-Symbols}
 
 | Prefix | Symbol | Value                     | Prefix | Symbol        | Value          |
@@ -76,21 +73,21 @@ Sigma | $$Σ$$ | $$σ$$ | Omega | $$ \Omega $$ | $$ω$$ |
 | —      | —      | $$ 10^{0}=1 $$            | femto  | f             | $$ 10^{-15} $$ |
 
 ### Solar System Data
-
 {: #Solar-System-Data}
 
-| ----- | ----------------------------- | -------------------------------------
-| | Sun | mass | $$ 1.99 \times 10^{30} \text{kg} $$ | | | average radius | $$
-6.96 \times 10^{8} \text{m} $$ | | | Earth-sun distance (average)  | $$ 1.496
-\times 10^{11} \text{m} $$ | | Earth | mass | $$ 5.9736 \times 10^{24} \text{kg}
-$$ | | | average radius | $$ 6.376 \times 10^{6} \text{m} $$ | | | orbital
-period | $$ 3.16 \times 10^{7} \text{s} $$ | | Moon | mass | $$ 7.35 \times
-10^{22} \text{kg} $$ | | | average radius | $$ 1.74 \times 10^{6} \text{m} $$ |
-| | orbital period (average)      | $$ 2.36 \times 10^{6} \text{s} $$ | | |
-Earth-moon distance (average) | $$ 3.84 \times 10^{8} \text{m} $$ |
+| ----- | ----------------------------- | ------------------------------------- |
+| Sun | mass | $$ 1.99 \times 10^{30} \text{kg} $$ | 
+| | average radius | $$ 6.96 \times 10^{8} \text{m} $$ | 
+| | Earth-sun distance (average)  | $$ 1.496 \times 10^{11} \text{m} $$ | 
+| Earth | mass | $$ 5.9736 \times 10^{24} \text{kg} $$ |
+| | average radius | $$ 6.376 \times 10^{6} \text{m} $$ |
+| | orbital period | $$ 3.16 \times 10^{7} \text{s} $$ |
+| Moon | mass | $$ 7.35 \times 10^{22} \text{kg} $$ | 
+| | average radius | $$ 1.74 \times 10^{6} \text{m} $$ |
+| | orbital period (average)      | $$ 2.36 \times 10^{6} \text{s} $$ |
+| | Earth-moon distance (average) | $$ 3.84 \times 10^{8} \text{m} $$ |
 
 ### SI units
-
 {: #SI-units}
 
 |                    | Entity               | Abbreviation                                    | Name      |
@@ -113,7 +110,6 @@ Earth-moon distance (average) | $$ 3.84 \times 10^{8} \text{m} $$ |
 |                    | Nuclear decay rate   | $$\text{Bq}= 1 / \text{s} $$                     | becquerel |
 
 ### Selected British Units
-
 {: #Selected-British-Units}
 
 | -------- | ------------------------------------------------------------------
@@ -124,7 +120,6 @@ pound (lb) $$ = 4.448 \text{N} $$ | | Energy | 1 British thermal unit (Btu) $$=
 $$ | | Pressure | 1 lb/in<sup>2</sup> $$= 6.895 \times 10^{3} \text{Pa} $$ |
 
 ### Other Units
-
 {: #Other-Units}
 
 | ---------- | ---------------------------------------- | | Length | 1 light
