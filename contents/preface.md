@@ -44,7 +44,6 @@ applications that are easy for most students to visualize.
 * [Chapter 7: Work, Energy, and Energy Resources](../contents/ch7WorkEnergyAndEnergyResources.md)
 * [Chapter 8: Linear Momentum and Collisions](../contents/ch8LinearMomentumAndCollisions.md)
 * [Chapter 9: Statics and Torque](../contents/ch9StaticsAndTorque.md)
-* [Chapter 10: Rotational Motion and Angular Momentum](../contents/ch10RotationalMotionAndAngularMomentum.md)
 
 * [Appendix A: Useful Information](../contents/appAUsefulInformation.md)
 * [Appendix B: Glossary of Key Symbols and Notation](../contents/appBGlossaryOfKeySymbolsAndNotation.md)
@@ -100,26 +99,10 @@ most from them. Problem-solving strategies have a logical structure that is
 reinforced in the worked examples and supported in certain places by line
 drawings that illustrate various steps.
 
-##### Misconception Alerts
-
-Students come to physics with preconceptions from everyday experiences and from
-previous courses. Some of these preconceptions are misconceptions, and many are
-very common among students and the general public. Some are inadvertently picked
-up through misunderstandings of lectures and texts. The Misconception Alerts
-feature is designed to point these out and correct them explicitly.
-
 ##### Take-Home Investigations
 
 Take Home Investigations provide the opportunity for students to apply or
 explore what they have learned with a hands-on activity.
-
-##### Things Great and Small
-
-In these special topic essays, macroscopic phenomena (such as air pressure) are
-explained with submicroscopic phenomena (such as atoms bouncing off walls).
-These essays support the modern perspective by describing aspects of modern
-physics before they are formally treated in later chapters. Connections are also
-made between apparently disparate phenomena.
 
 ##### Simulations
 
@@ -138,7 +121,7 @@ serves as a useful study guide.
 ##### Glossary
 
 At the end of every module or chapter is a Glossary containing definitions of
-all of the key terms in the module or chapter.
+the key terms in the module or chapter.
 
 ##### End-of-Module Problems
 
