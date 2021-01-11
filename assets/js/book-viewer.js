@@ -57,6 +57,10 @@
   <div class="book-header">
     <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary">
     <i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left teams-summary" aria-label="Toggle summary">
+    <i class="fa fa-users">Teams</i></a>
+    <a href="#" class="btn pull-left moodle-summary" aria-label="Toggle summary">
+    <i class="fa fa-team">Moodle</i></a>
      <h1>
      <i class="fa fa-spinner fa-spin book-spinner"></i>
      <span class="book-title"></span>
@@ -95,6 +99,8 @@
         $body.append(BOOK_TEMPLATE);
         $book = $body.find('.book');
         $toggleSummary = $book.find('.toggle-summary');
+        $teamsSummary = $book.find('.teams-summary');
+        $moodleSummary = $book.find('.moodle-summary');
         $bookSummary = $book.find('.book-summary');
         $bookBody = $book.find('.book-body');
         $bookPage = $book.find('.page-inner > .normal');
@@ -102,6 +108,14 @@
         $bookProgressBar = $book.find('.book-progress .bar .inner');
         $toggleSummary.on('click', function (evt) {
             $book.toggleClass('with-summary');
+            return evt.preventDefault();
+        });
+        $moodleSummary.on('click', function (evt) {
+            window.location = window.Book.moodle;
+            return evt.preventDefault();
+        });
+        $teamsSummary.on('click', function (evt) {
+            window.location = window.Book.teams;
             return evt.preventDefault();
         });
         updateContributeUrl = function (href) {
