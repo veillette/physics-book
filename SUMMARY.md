@@ -82,5 +82,5 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     5. [Simple Machines](contents/ch9SimpleMachines.md)
     6. [Forces and Torques in Muscles and Joints](contents/ch9ForcesAndTorquesInMusclesAndJoints.md)
 
-12. {: .appendix} [Useful Information](contents/appAUsefulInformation.md)
-13. {: .appendix} [Glossary of Key Symbols and Notation](contents/appBGlossaryOfKeySymbolsAndNotation.md)
+11. {: .appendix} [Useful Information](contents/appAUsefulInformation.md)
+12. {: .appendix} [Glossary of Key Symbols and Notation](contents/appBGlossaryOfKeySymbolsAndNotation.md)
