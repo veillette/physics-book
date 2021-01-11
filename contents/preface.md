@@ -44,7 +44,7 @@ applications that are easy for most students to visualize.
 * [Chapter 7: Work, Energy, and Energy Resources](../contents/ch7WorkEnergyAndEnergyResources.md)
 * [Chapter 8: Linear Momentum and Collisions](../contents/ch8LinearMomentumAndCollisions.md)
 * [Chapter 9: Statics and Torque](../contents/ch9StaticsAndTorque.md)
-
+* [Chapter 10: Rotational Motion and Angular Momentum](contents/ch10RotationalMotionAndAngularMomentum.md)
 * [Appendix A: Useful Information](../contents/appAUsefulInformation.md)
 * [Appendix B: Glossary of Key Symbols and Notation](../contents/appBGlossaryOfKeySymbolsAndNotation.md)
 
