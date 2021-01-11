@@ -385,7 +385,7 @@
                     $link = null;
             }
         });
-        $('body').on('click', 'a[href]:not([href^="#"]):not([href^="http"])', function (evt) {
+        $('body').on('click', 'a[href]:not([href^="#"]):not([href^="https"])', function (evt) {
             let href;
             href = addTrailingSlash($(this).attr('href'));
             href = URI(href).absoluteTo(URI(window.location.href)).toString();
