@@ -22,7 +22,7 @@ should seem very similar to the familiar relationships among force, mass, and
 acceleration embodied in Newton’s second law of motion. There are, in fact,
 precise rotational analogs to both force and mass.
 
-![The given figure shows a bike tire being pulled by a hand with a force F backward indicated by a red horizontal arrow that produces an angular acceleration alpha indicated by a curved yellow arrow in counter-clockwise direction.](../resources/Figure_11_03_01a.jpg "Force is required to spin the bike wheel. The greater the force, the greater the angular acceleration produced. The more massive the wheel, the smaller the angular acceleration. If you push on a spoke closer to the axle, the angular acceleration will be smaller.")
+![The given figure shows a bike tire being pulled by a hand with a force F backward indicated by a red horizontal arrow that produces an angular acceleration alpha indicated by a curved yellow arrow in counter-clockwise direction.](../resources/Figure_10_03_01a.jpg "Force is required to spin the bike wheel. The greater the force, the greater the angular acceleration produced. The more massive the wheel, the smaller the angular acceleration. If you push on a spoke closer to the axle, the angular acceleration will be smaller.")
 {: #fig1}
 
 To develop the precise relationship among force, mass, radius, and angular
@@ -59,7 +59,7 @@ analogous to mass (or inertia). The quantity $$ m r^{2} $$ is called the
 **rotational inertia** or **moment of inertia** of a point mass $$ m $$ a distance
 $$ r $$ from the center of rotation.
 
-![The given figure shows an object of mass m, kept on a horizontal frictionless table, attached to a pivot point, which is in the center of the table, by a cord that supplies centripetal force. A force F is applied to the object perpendicular to the radius r, which is indicated by a red arrow tangential to the circle, causing the object to move in counterclockwise direction.](../resources/Figure_11_03_02a.jpg "An object is supported by a horizontal frictionless table and is attached to a pivot point by a cord that supplies centripetal force. A force \( F \) is applied to the object perpendicular to the radius \( r \) , causing it to accelerate about the pivot point. The force is kept perpendicular to \( r \) .")
+![The given figure shows an object of mass m, kept on a horizontal frictionless table, attached to a pivot point, which is in the center of the table, by a cord that supplies centripetal force. A force F is applied to the object perpendicular to the radius r, which is indicated by a red arrow tangential to the circle, causing the object to move in counterclockwise direction.](../resources/Figure_10_03_02a.jpg "An object is supported by a horizontal frictionless table and is attached to a pivot point by a cord that supplies centripetal force. A force \( F \) is applied to the object perpendicular to the radius \( r \) , causing it to accelerate about the pivot point. The force is kept perpendicular to \( r \) .")
 {: #fig2}
 
 <div class="note" data-label="" markdown="1">
@@ -155,7 +155,7 @@ Making Connections
 </div>
 In statics, the net torque is zero, and there is no angular acceleration. In rotational motion, net torque is the cause of angular acceleration, exactly as in Newton’s second law of motion for rotation.
 
-![Illustrations of ten different objects accompanied by their rotational inertias.](../resources/Figure_11_03_06.jpg "Some rotational inertias.")
+![Illustrations of ten different objects accompanied by their rotational inertias.](../resources/Figure_10_03_06.jpg "Some rotational inertias.")
 {: #fig3 height="525"}
 
 </div>
@@ -172,7 +172,7 @@ Calculate the angular acceleration produced
 (b) when an 18.0-kg child sits 1.25 m away from the center.
 Consider the merry-go-round itself to be a uniform disk with negligible retarding friction.
 
-![The given figure shows a man pushing a merry-go-round by a force F, indicated by a red arrow which is perpendicular to the radius r, of the merry-go-round, such that it moves in counter-clockwise direction.](../resources/Figure_11_03_03a.jpg "A father pushes a playground merry-go-round at its edge and perpendicular to its radius to achieve maximum torque.")
+![The given figure shows a man pushing a merry-go-round by a force F, indicated by a red arrow which is perpendicular to the radius r, of the merry-go-round, such that it moves in counter-clockwise direction.](../resources/Figure_10_03_03a.jpg "A father pushes a playground merry-go-round at its edge and perpendicular to its radius to achieve maximum torque.")
 {: #fig4}
 
 **Strategy**
@@ -358,7 +358,7 @@ the mass of the tires and wheel rims. Why does this allow a racer
 to achieve greater accelerations than would an identical
 reduction in the mass of the bicycle’s frame?
 
-![The given figure shows a racing bicycle leaning on a door.](../resources/Figure_11_03_04a.jpg "The image shows a side view of a racing bicycle. Can you see evidence in the design of the wheels on this racing bicycle that their moment of inertia has been purposely reduced? (credit: Jes&#xFA;s Rodriguez)")
+![The given figure shows a racing bicycle leaning on a door.](../resources/Figure_10_03_04a.jpg "The image shows a side view of a racing bicycle. Can you see evidence in the design of the wheels on this racing bicycle that their moment of inertia has been purposely reduced? (credit: Jes&#xFA;s Rodriguez)")
 {: #fig5}
 
 </div>
@@ -456,7 +456,7 @@ to be approximately an annular ring with an inner radius of 0.280 m and an outer
 (b) What is the tangential acceleration of a point on the outer edge of the tire?
 (c) How long, starting from rest, does it take to reach an angular velocity of 80.0 rad/s?
 
-![The given figure shows the rear wheel of a motorcycle. A force F is indicated by a red arrow pointing leftward at a distance r from its center. Two arrows representing radii R-one and R-two are also indicated. A curved yellow arrow indicates an acceleration alpha and a curved blue arrow indicates an angular velocity omega, both in counter-clockwise direction.](../resources/Figure_11_03_05a.jpg "A motorcycle wheel has a moment of inertia approximately that of an annular ring.")
+![The given figure shows the rear wheel of a motorcycle. A force F is indicated by a red arrow pointing leftward at a distance r from its center. Two arrows representing radii R-one and R-two are also indicated. A curved yellow arrow indicates an acceleration alpha and a curved blue arrow indicates an angular velocity omega, both in counter-clockwise direction.](../resources/Figure_10_03_05a.jpg "A motorcycle wheel has a moment of inertia approximately that of an annular ring.")
 {: #fig6}
 
 </div>
