@@ -177,7 +177,7 @@ equal to the impulse or change in momentum between times $$ t_{1} $$ and $$ t_
 {\text{eff}} $$, $$ t_{1} $$, and $$ t_{2} $$. Thus, the impulses and their
 effects are the same for both the actual and effective forces.
 
-![Figure is a graph of force, F, versus time, t. Two curves, F actual and F effective, are drawn. F actual is drawn between t sub1 and t sub 2 and it resembles a bell-shaped curve that peaks mid-way between t sub 1 and t sub 2. F effective is a line parallel to the x axis drawn at about fifty five percent of the maximum value of F actual and it extends up to t sub 2.](../resources/Figure_09_02_01a.jpg "A graph of force versus time with time along the \( x \) -axis and force along the \( y \) -axis for an actual force and an equivalent effective force. The areas under the two curves are equal.")
+![Figure is a graph of force, F, versus time, t. Two curves, F actual and F effective, are drawn. F actual is drawn between t sub1 and t sub 2 and it resembles a bell-shaped curve that peaks mid-way between t sub 1 and t sub 2. F effective is a line parallel to the x axis drawn at about fifty five percent of the maximum value of F actual and it extends up to t sub 2.](../resources/Figure_08_02_01a.jpg "A graph of force versus time with time along the \( x \) -axis and force along the \( y \) -axis for an actual force and an equivalent effective force. The areas under the two curves are equal.")
 {: #fig1}
 
 <div class="note" data-label="" markdown="1">

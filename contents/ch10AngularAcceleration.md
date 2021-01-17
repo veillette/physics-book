@@ -40,7 +40,7 @@ where $$ r $$ is the radius of curvature, also seen in [Figure 1](#fig1).
 According to the sign convention, the counter clockwise direction is considered
 as positive direction and clockwise direction as negative
 
-![The given figure shows counterclockwise circular motion with a horizontal line, depicting radius r, drawn from the center of the circle to the right side on its circumference and another line is drawn in such a manner that it makes an acute angle delta theta with the horizontal line. Tangential velocity vectors are indicated at the end of the two lines. At the bottom right side of the figure, the formula for angular velocity is given as v upon r.](../resources/Figure_11_01_01a.jpg "This figure shows uniform circular motion and some of its defined quantities.")
+![The given figure shows counterclockwise circular motion with a horizontal line, depicting radius r, drawn from the center of the circle to the right side on its circumference and another line is drawn in such a manner that it makes an acute angle delta theta with the horizontal line. Tangential velocity vectors are indicated at the end of the two lines. At the bottom right side of the figure, the formula for angular velocity is given as v upon r.](../resources/Figure_10_01_01a.jpg "This figure shows uniform circular motion and some of its defined quantities.")
 {: #fig1}
 
 Angular velocity is not constant when a skater pulls in her arms, when a child
@@ -151,7 +151,7 @@ linear acceleration is called
 **tangential acceleration** $$ a_
 {\text{t}} $$.
 
-![In the figure, a semicircle is drawn, with its radius r, shown here as a line segment. The anti-clockwise motion of the circle is shown with an arrow on the path of the circle. Tangential velocity vector, v, of the point, which is on the meeting point of radius with the circle, is shown as a green arrow and the linear acceleration, a-t is shown as a yellow arrow in the same direction along v.](../resources/Figure_11_01_02a.jpg "In circular motion, linear acceleration \( a \) , occurs as the magnitude of the velocity changes: \( a \) is tangent to the motion. In the context of circular motion, linear acceleration is also called tangential acceleration \( a_t \) .")
+![In the figure, a semicircle is drawn, with its radius r, shown here as a line segment. The anti-clockwise motion of the circle is shown with an arrow on the path of the circle. Tangential velocity vector, v, of the point, which is on the meeting point of radius with the circle, is shown as a green arrow and the linear acceleration, a-t is shown as a yellow arrow in the same direction along v.](../resources/Figure_10_01_02a.jpg "In circular motion, linear acceleration \( a \) , occurs as the magnitude of the velocity changes: \( a \) is tangent to the motion. In the context of circular motion, linear acceleration is also called tangential acceleration \( a_t \) .")
 {: #fig2 height="200"}
 
 Linear or tangential acceleration refers to changes in the magnitude of velocity
@@ -165,7 +165,7 @@ perpendicular and independent of one another. Tangential acceleration $$ a_
 {\text{t}} $$ is directly related to the angular acceleration $$ \alpha $$ and
 is linked to an increase or decrease in the velocity, but not its direction.
 
-![In the figure, a semicircle is drawn, with its radius r, shown here as a line segment. The anti-clockwise motion of the circle is shown with an arrow on the path of the circle. Tangential velocity vector, v, of the point, which is on the meeting point of radius with the circle, is shown as a green arrow and the linear acceleration, a sub t is shown as a yellow arrow in the same direction along v. The centripetal acceleration, a sub c, is also shown as a yellow arrow drawn perpendicular to a sub t, toward the direction of the center of the circle. A label in the figures states a sub t affects magnitude and a sub c affects direction.](../resources/Figure_11_01_03a.jpg "Centripetal acceleration \( a_c \) occurs as the direction of velocity changes; it is perpendicular to the circular motion. Centripetal and tangential acceleration are thus perpendicular to each other.")
+![In the figure, a semicircle is drawn, with its radius r, shown here as a line segment. The anti-clockwise motion of the circle is shown with an arrow on the path of the circle. Tangential velocity vector, v, of the point, which is on the meeting point of radius with the circle, is shown as a green arrow and the linear acceleration, a sub t is shown as a yellow arrow in the same direction along v. The centripetal acceleration, a sub c, is also shown as a yellow arrow drawn perpendicular to a sub t, toward the direction of the center of the circle. A label in the figures states a sub t affects magnitude and a sub c affects direction.](../resources/Figure_10_01_03a.jpg "Centripetal acceleration \( a_c \) occurs as the direction of velocity changes; it is perpendicular to the circular motion. Centripetal and tangential acceleration are thus perpendicular to each other.")
 {: #fig3 height="200"}
 
 Now we can find the exact relationship between linear acceleration $$ a_
@@ -216,7 +216,7 @@ Calculating the Angular Acceleration of a Motorcycle Wheel
 A powerful motorcycle can accelerate from 0 to 30.0 m/s (about 108 km/h) in 4.20 s.
 What is the angular acceleration of its 0.320-m-radius wheels? (See [Figure 4](#fig4).)
 
-![The figure shows the right side view of a man riding a motorcycle hence, depicting linear acceleration a of the motorcycle pointing toward the front of the bike as a horizontal arrow and the angular acceleration alpha of its wheels, shown here as curved arrows along the front of both the wheels pointing downward.](../resources/Figure_11_01_04a.jpg "The linear acceleration of a motorcycle is accompanied by an angular acceleration of its wheels.")
+![The figure shows the right side view of a man riding a motorcycle hence, depicting linear acceleration a of the motorcycle pointing toward the front of the bike as a horizontal arrow and the angular acceleration alpha of its wheels, shown here as curved arrows along the front of both the wheels pointing downward.](../resources/Figure_10_01_04a.jpg "The linear acceleration of a motorcycle is accompanied by an angular acceleration of its wheels.")
 {: #fig4}
 
 **Strategy**

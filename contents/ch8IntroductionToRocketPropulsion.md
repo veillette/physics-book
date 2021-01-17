@@ -72,7 +72,7 @@ is the mass of the ejected gas, and $$ \Delta t $$ is the time in which the gas 
 
 </div>
 
-![Picture a shows a rocket launched into space. It moves upward with velocity v in time t and the burning of fuel is also shown. After time t plus delta t the mass of fuel decreases by delta m and hence the velocity of the rocket increases to v plus delta v. The free body diagram shows the weight W of the rocket downward, reaction force upward and the resultant velocity upward too.](../resources/Figure_09_07_01a.jpg "(a) This rocket has a mass \( m \) and an upward velocity \( v \) . The net external force on the system is \( mg \) pointing down, if air resistance is neglected. (b) A time \( \Delta t) later the system has two main parts, the ejected gas and the remainder of the rocket. The reaction force on the rocket is what overcomes the gravitational force and accelerates it upward.")
+![Picture a shows a rocket launched into space. It moves upward with velocity v in time t and the burning of fuel is also shown. After time t plus delta t the mass of fuel decreases by delta m and hence the velocity of the rocket increases to v plus delta v. The free body diagram shows the weight W of the rocket downward, reaction force upward and the resultant velocity upward too.](../resources/Figure_08_07_01a.jpg "(a) This rocket has a mass \( m \) and an upward velocity \( v \) . The net external force on the system is \( mg \) pointing down, if air resistance is neglected. (b) A time \( \Delta t) later the system has two main parts, the ejected gas and the remainder of the rocket. The reaction force on the rocket is what overcomes the gravitational force and accelerates it upward.")
 {: #fig1}
 
 A rocket’s acceleration depends on three major factors, consistent with the
@@ -197,7 +197,7 @@ Using airplanes has the double advantage that the initial velocity is
 significantly above zero and a rocket can avoid most of the atmosphere’s
 resistance.
 
-![The space shuttle is launched. It consists of the shuttle orbiter, two solid rocket boosters, and an expendable external tank. It takes off leaving much smoke and fire.](../resources/Figure_09_07_02a.jpg "The space shuttle had a number of reusable parts. Solid fuel boosters on either side were recovered and refueled after each flight, and the entire orbiter returned to Earth for use in subsequent flights. The large liquid fuel tank was expended. The space shuttle was a complex assemblage of technologies, employing both solid and liquid fuel and pioneering ceramic tiles as reentry heat shields. As a result, it permitted multiple launches as opposed to single-use rockets. (credit: NASA)")
+![The space shuttle is launched. It consists of the shuttle orbiter, two solid rocket boosters, and an expendable external tank. It takes off leaving much smoke and fire.](../resources/Figure_08_07_02a.jpg "The space shuttle had a number of reusable parts. Solid fuel boosters on either side were recovered and refueled after each flight, and the entire orbiter returned to Earth for use in subsequent flights. The large liquid fuel tank was expended. The space shuttle was a complex assemblage of technologies, employing both solid and liquid fuel and pioneering ceramic tiles as reentry heat shields. As a result, it permitted multiple launches as opposed to single-use rockets. (credit: NASA)")
 {: #fig2}
 
 <div class="note" data-label="PhET Exploration" markdown="1">
