@@ -84,13 +84,13 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     6. [Forces and Torques in Muscles and Joints](contents/ch9ForcesAndTorquesInMusclesAndJoints.md)
 
 11. {: .chapter} [Rotational Motion and Angular Momentum](contents/ch10RotationalMotionAndAngularMomentum.md)
-   1. [Angular Acceleration](contents/ch10AngularAcceleration.md)
-   2. [Kinematics of Rotational Motion](contents/ch10KinematicsOfRotationalMotion.md)
-   3. [Dynamics of Rotational Motion: Rotational Inertia](contents/ch10DynamicsOfRotationalMotion.md)
-   4. [Rotational Kinetic Energy: Work and Energy Revisited](contents/ch10RotationalKineticEnergy.md)
-   5. [Angular Momentum and Its Conservation](contents/ch10AngularMomentumAndItsConservation.md)
-   6. [Collisions of Extended Bodies in Two Dimensions](contents/ch10CollisionsOfExtendedBodiesInTwoDimensions.md)
-   7. [Gyroscopic Effects: Vector Aspects of Angular Momentum](contents/ch10GyroscopicEffects.md)
+    1. [Angular Acceleration](contents/ch10AngularAcceleration.md)
+    2. [Kinematics of Rotational Motion](contents/ch10KinematicsOfRotationalMotion.md)
+    3. [Dynamics of Rotational Motion: Rotational Inertia](contents/ch10DynamicsOfRotationalMotion.md)
+    4. [Rotational Kinetic Energy: Work and Energy Revisited](contents/ch10RotationalKineticEnergy.md)
+    5. [Angular Momentum and Its Conservation](contents/ch10AngularMomentumAndItsConservation.md)
+    6. [Collisions of Extended Bodies in Two Dimensions](contents/ch10CollisionsOfExtendedBodiesInTwoDimensions.md)
+    7. [Gyroscopic Effects: Vector Aspects of Angular Momentum](contents/ch10GyroscopicEffects.md)
 
 
 12. {: .appendix} [Useful Information](contents/appAUsefulInformation.md)
