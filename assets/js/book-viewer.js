@@ -23,11 +23,11 @@
     }
 
     if ((_base1 = BookConfig.toc).url == null) {
-        _base1.url = '../toc';
+        _base1.url = '../toc'; // # or '../SUMMARY' for GitBook
     }
 
     if ((_base2 = BookConfig.toc).selector == null) {
-        _base2.selector = 'nav, ol, ul';
+        _base2.selector = 'nav, ol, ul'; // # picks the first one that matches
     }
 
     if (BookConfig.baseHref == null) {
@@ -35,7 +35,7 @@
     }
 
     if (BookConfig.serverAddsTrailingSlash == null) {
-        BookConfig.serverAddsTrailingSlash = false;
+        BookConfig.serverAddsTrailingSlash = false; //# Used because jekyll adds trailing slashes
     }
 
 
@@ -45,6 +45,7 @@
 
     BookConfig.rootUrl = BookConfig.rootUrl || '';
 
+    //# Inject the <link> tags for FontAwesome
     if (BookConfig.includes.fontawesome) {
         fa = document.createElement('link');
         fa.rel = 'stylesheet';
@@ -84,15 +85,17 @@
   </div>
 
 </div>`;
-
     $(function () {
         let $body, $book, $bookBody, $bookPage, $bookProgressBar, $bookSummary, $bookTitle,
             $originalPage, $toggleSummary, TocHelper, addTrailingSlash, changePage, mdToHtmlFix,
             pageBeforeRender, removeTrailingSlash, renderNextPrev, renderToc, tocHelper, updateContributeUrl;
+      //# Squirrel the body and replace it with the template:
         $body = $('body');
         $originalPage = $body.contents();
         $body.contents().remove();
         $body.append(BOOK_TEMPLATE);
+
+        // Pull out all the interesting DOM nodes from the template
         $book = $body.find('.book');
         $toggleSummary = $book.find('.toggle-summary');
         $bookSummary = $book.find('.book-summary');
@@ -120,6 +123,9 @@
             }
             $summary.append('<li class="divider"/>');
             $summary.append(tocHelper.$toc.children('li'));
+
+            // Update the ToC to show which links have been visited
+            // Add a "hidden" checkmark next to each item
             $summary.find('a[href]').parent().prepend('<i class="fa fa-check"></i>');
             for (key in JSON.parse(window.localStorage.visited)) {
                 $summary.find("li:has(> a[href='" + key + "'])").addClass('visited');
@@ -134,11 +140,14 @@
             return updateContributeUrl(currentPagePath);
         };
         renderNextPrev = function () {
+            // Update the progress bar
             let $nextPage, $prevPage, current, currentPageIndex, next, prev, totalPageCount;
             currentPageIndex = tocHelper._tocList.indexOf(window.location.href);
             totalPageCount = tocHelper._tocList.length;
             $bookProgressBar.width("" + (currentPageIndex * 100 / totalPageCount) + "%");
             $bookProgressBar.attr('title', "Reading Page " + currentPageIndex + " of " + totalPageCount);
+
+            // Add next/prev buttons to the page
             $bookBody.children('.navigation').remove();
             current = removeTrailingSlash(window.location.href);
             prev = tocHelper.prevPageHref(current);
@@ -166,6 +175,7 @@
             }
             return href;
         };
+        //  # Fix up the ToC links if the links to pages end in `.md`
         mdToHtmlFix = function (a) {
             let href;
             href = a.getAttribute('href');
@@ -183,6 +193,7 @@
                 el = _ref[_i];
                 mdToHtmlFix(el);
             }
+            // Convert `img[title]` tags into figures so they get numbered and titles are visible
             _ref1 = $els.find('img[title]');
             for (_j = 0, _len1 = _ref1.length; _j < _len1; _j++) {
                 img = _ref1[_j];
@@ -196,6 +207,9 @@
                 }
                 $figure.attr('id', id);
             }
+
+            // From `webview/body.coffee`
+            // Wrap title and content elements in header and section elements, respectively
             $els.find('.example, .exercise, .note').each(function (index, el) {
                 let $contents, $el, $title;
                 $el = $(el);
@@ -206,9 +220,15 @@
                 $title = $el.children('.title');
                 $el.prepend($title);
                 $title.wrap('<header>');
+                // Add an attribute for the parents' `data-label`
+                // since CSS does not support `parent(attr(data-label))`.
+                // When the title exists, this attribute is added before it
+
                 $title.attr('data-label-parent', $el.attr('data-label'));
+                // Add a class for styling since CSS does not support `:has(> .title)`
                 return $el.toggleClass('ui-has-child-title', $title.length > 0);
             });
+            //# Wrap solutions in a div so "Show/Hide Solutions" work
             $els.find('.solution').wrapInner('<section class="ui-body">').prepend('<div class="ui-toggle-wrapper">\n  <button class="btn-link ui-toggle" title="Show/Hide Solution"></button>\n</div>');
             $els.on('click', '.ui-toggle', function (e) {
                 let $solution;
@@ -216,9 +236,12 @@
                 return $solution.toggleClass('ui-solution-visible');
             });
             $els.find('figure:has(> figcaption)').addClass('ui-has-child-figcaption');
+
+            //    Move all figure captions below the figure
             $els.find('figcaption').each(function (i, el) {
                 return $(el).parent().append(el);
             });
+            // Remember that this page has been visited
             currentPagePath = URI(href).pathname();
             visited = window.localStorage.visited && JSON.parse(window.localStorage.visited) || {};
             visited[currentPagePath] = new Date();
@@ -298,20 +321,22 @@
                 return renderToc();
             };
 
+            //# HACK. Should use URIJS to convert path relative to toc file
             TocHelper.prototype._currentPageIndex = function (currentHref) {
+                //#currentHref = currentHref.substring(0, currentHref.length - 1)  if "/" is currentHref[currentHref.length - 1]
                 return this._tocList.indexOf(currentHref);
             };
 
             TocHelper.prototype.prevPageHref = function (currentHref) {
                 let currentIndex;
                 currentIndex = this._currentPageIndex(currentHref);
-                return this._tocList[currentIndex - 1];
+                return this._tocList[currentIndex - 1]; //# returns undefined if no previous page
             };
 
             TocHelper.prototype.nextPageHref = function (currentHref) {
                 let currentIndex;
                 currentIndex = this._currentPageIndex(currentHref);
-                return this._tocList[currentIndex + 1];
+                return this._tocList[currentIndex + 1]; // # returns undefined if no next page
             };
 
             return TocHelper;
@@ -328,6 +353,7 @@
             $root = $('<div>' + html + '</div>');
             $toc = $root.find(BookConfig.toc.selector).first();
             if ($toc[0].tagName.toLowerCase() === 'ul') {
+                //# HACK for collection HTML
                 $title = $toc.children().first().contents();
                 $toc = $toc.find('ul').first();
             } else {
@@ -336,6 +362,7 @@
             tocHelper.loadToc(BookConfig.toc.url, $toc, $title);
             return $bookTitle.html(tocHelper.$title);
         });
+        //  # Fetch resources without fixing up their paths
         if (BookConfig.baseHref) {
             $book.find('base').remove();
             $book.prepend("<base href='" + BookConfig.baseHref + "'/>");
@@ -352,12 +379,16 @@
                 },
                 dataType: 'html'
             }).then(function (html) {
+                //# Use `window.location.origin` to get around a <base href=""> pointing to another hostname
                 let $html, $page;
                 if (!/https?:\/\//.test(href)) {
                     href = "" + window.location.origin + href;
                 }
                 window.history.pushState(null, null, href);
                 renderNextPrev();
+
+                // Need to set the URL *before* <img> tags area created
+                // Fetch resources without fixing up their paths
                 if (BookConfig.baseHref) {
                     $book.find('base').remove();
                     $book.prepend("<base href='" + (BookConfig.urlFixer(href)) + "'/>");
@@ -367,11 +398,13 @@
                 $bookPage.contents().remove();
                 $page = $('<div class="contents"></div>').append($html.children());
                 pageBeforeRender($page, href);
-                $bookPage.append($page);
+                $bookPage.append($page); // TODO: Strip out title and meta tags
                 $book.removeClass('loading');
+                //    # Scroll to top of page after loading
                 return $('.body-inner').scrollTop(0);
             });
         };
+        // control left and right
         $('body').on('keydown', evt => {
             let $link;
             switch (evt.which) {
@@ -385,6 +418,7 @@
                     $link = null;
             }
         });
+        //  # Listen to clicks and handle them without causing a page reload
         $('body').on('click', 'a[href]:not([href^="#"]):not([href^="https"])', function (evt) {
             let href;
             href = addTrailingSlash($(this).attr('href'));
