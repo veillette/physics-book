@@ -135,7 +135,6 @@ apples each time. You obtain the following measurements:
   $$ 4.9 \text{lb} $$
 * Week 4 weight:
   $$ 5.4 \text{lb} $$
-
 You determine that the weight of the $$ 5\text{-lb} $$ bag has an uncertainty of
 $$ \pm 0.4\text{lb} $$. What is the percent uncertainty of the bag’s weight?
 
@@ -445,9 +444,7 @@ possible speeds when it reads $$ 90\text{km/h} $$ ?
 </div>
 <div class="solution" markdown="1">
 (a) $$ 85.5\text{to } 94.5 \text{km/h} $$
-
 (b) $$ 53.1\text{to } 58.7 \text{mi/h} $$
-
 </div>
 </div>
 
@@ -467,9 +464,7 @@ How many beats do they have in 2.0 y?
 </div>
 <div class="solution" markdown="1">
 (a) $$ 7.6\times 10^{7}\text{beats} $$
-
 (b) $$ 7.57 \times 10^{7}\text{beats} $$
-
 (c) $$ 7.57 \times 10^{7}\text{beats} $$
 </div>
 </div>
@@ -514,7 +509,6 @@ when it reads $$ 60\text{km/h} $$, what is the range of speeds you could be goin
 </div>
 <div class="solution" markdown="1">
 (a) $$ 2.2 \% $$
-
 (b) $$ 59 \text{to 61 km/h} $$
 </div>
 </div>
@@ -539,7 +533,6 @@ what is the heart rate and its uncertainty in beats per minute?
 </div>
 <div class="solution" markdown="1">
  $$ 80 \pm 3\text{beats/min} $$
-
 </div>
 </div>
 
@@ -557,7 +550,6 @@ If a marathon runner averages 9.5 mi/h, how long does it take him or her to run 
 </div>
 <div class="solution" markdown="1">
  $$ 2.8\text{h} $$
-
 </div>
 </div>
 
@@ -583,7 +575,6 @@ long. Calculate its volume and uncertainty in cubic centimeters.
 </div>
 <div class="solution" markdown="1">
  $$ 11 \pm 1 \text{cm}^{3} $$
-
 </div>
 </div>
 
@@ -607,7 +598,6 @@ Calculate the area of the room and its uncertainty in square meters.
 </div>
 <div class="solution" markdown="1">
  $$ 12.06 \pm 0.04 \mm $$
-
 </div>
 </div>
 
