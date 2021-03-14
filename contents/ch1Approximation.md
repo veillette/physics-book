@@ -57,11 +57,11 @@ width of your desk? What other measurements can you approximate besides length?
 <div class="title">
 Approximating Vast Numbers: a Trillion Dollars
 </div>
-![A bank stack containing one hundred hundred-dollar bills.](../resources/Figure_01_04_01.jpg "A bank stack contains one-hundred $100 bills, and is worth $10 000. How many bank stacks make up a trillion dollars? (credit: Andrew Magill)"){: #fig1}
+![A bank stack containing one hundred hundred-dollar bills.](../resources/Figure_01_04_01.jpg "A bank stack contains one-hundred $$100 bills, and is worth $$10 000. How many bank stacks make up a trillion dollars? (credit: Andrew Magill)"){: #fig1}
 
-The U.S. federal deficit in the 2019 fiscal year was a little greater than $ 1
+The U.S. federal deficit in the 2019 fiscal year was a little greater than $$ 1
 trillion. Most of us do not have any concept of how much even one trillion
-actually is. Suppose that you were given a trillion dollars in $100 bills. If
+actually is. Suppose that you were given a trillion dollars in $$100 bills. If
 you made 100-bill stacks and used them to evenly cover a football field (between
 the end zones), make an approximation of how high the money pile would become. (
 We will use feet/inches rather than meters here because football fields are
@@ -71,7 +71,7 @@ What do you think?
 **Strategy**
 
 When you imagine the situation, you probably envision thousands of small stacks
-of 100 wrapped $100 bills, such as you might see in movies or at a bank. Since
+of 100 wrapped $$100 bills, such as you might see in movies or at a bank. Since
 this is an easy-to-approximate quantity, let us start there. We can find the
 volume of a stack of 100 bills, find out how many stacks make up one trillion
 dollars, and then set this volume equal to the area of the football field
@@ -90,14 +90,14 @@ thick. So the total volume of a stack of 100 bills is:
 \text{volume of stack}=9 \text{in.}^{3} .
 \end{array} $$
 </div>
-(2) Calculate the number of stacks. Note that a trillion dollars is equal to $$ $1\times 10^{12}, $$
-and a stack of one-hundred $$ $100 $$ bills is equal to $$ $10 000, $$
-or $$ $1\times 10^{4} $$. The number of stacks you will have is:
+(2) Calculate the number of stacks. Note that a trillion dollars is equal to $$ $$1\times 10^{12}, $$
+and a stack of one-hundred $$ $$100 $$ bills is equal to $$ $$10 000, $$
+or $$ $$1\times 10^{4} $$. The number of stacks you will have is:
 
 <div class="equation">
- $$ \$1 \times 10^{12}
+ $$ \$$1 \times 10^{12}
 \left( \text{a trillion dollars} \right)
- 1 \times 10^{4} \$ \text{per stack}=1\times 10^{8}\text{stacks.} $$
+ 1 \times 10^{4} \$$ \text{per stack}=1\times 10^{8}\text{stacks.} $$
 </div>
 (3) Calculate the area of a football field in square inches. The area of a football field is
 $$ 100 \text{yd} \times 50 \text{yd,} $$
@@ -117,7 +117,7 @@ This conversion gives us $$ 6\times 10^{6}\text{in.}^{2} $$
 for the area of the field. (Note that we are using only one significant figure
 in these calculations.)
 
-(4) Calculate the total volume of the bills. The volume of all the $$ $100 $$
+(4) Calculate the total volume of the bills. The volume of all the $$ $$100 $$
 -bill stacks is $$ 9\text{in.}^{3}/\text{stack}\times 10^{8}\text{
 stacks}=9\times 10^{8}\text{in.}^{3}. $$
 
