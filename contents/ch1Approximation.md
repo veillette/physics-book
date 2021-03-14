@@ -120,7 +120,6 @@ in these calculations.)
 (4) Calculate the total volume of the bills. The volume of all the $$ $$100 $$
 -bill stacks is $$ 9\text{in.}^{3}/\text{stack}\times 10^{8}\text{
 stacks}=9\times 10^{8}\text{in.}^{3}. $$
-
 (5) Calculate the height. To determine the height of the bills, use the
 equation:
 

@@ -480,9 +480,7 @@ The speed limit on some interstate highways is roughly 100 km/h.
 </div>
 <div class="solution" markdown="1">
 (a) $$ 27.8  \ms $$
-
 (b) $$ 62.1 \text{mph} $$
-
 </div>
 </div>
 
@@ -547,7 +545,6 @@ Mount Everest, at 29 028 feet, is the tallest mountain on the Earth. What is its
 </div>
 <div class="solution" markdown="1">
  $$ 8.847 \text{km} $$
-
 </div>
 </div>
 
@@ -569,7 +566,6 @@ speed of 4.0 cm/year.
 </div>
 <div class="solution" markdown="1">
 (a) $$ 1.3\times 10^{-9}\m $$
-
 (b) $$ 40 \text{km/My} $$
 </div>
 </div>
