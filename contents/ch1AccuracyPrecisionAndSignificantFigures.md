@@ -73,11 +73,11 @@ is, you are indicating that the actual mileage of your car might be as low as 44
 500 miles or as high as 45 500 miles, or anywhere in between. All measurements
 contain some amount of uncertainty. In our example of measuring the length of
 the paper, we might say that the length of the paper is 11 in., plus or minus
-0.2 in. The uncertainty in a measurement, $$ A $$, is often denoted as $$ \delta
-A $$
-(“delta $$ A $$”), so the measurement result would be recorded as $$ A \pm
-\delta A $$. In our paper example, the length of the paper could be expressed as
-$$ 11\text{in.} \pm 0.2 $$. The factors contributing to uncertainty in a
+0.2 in. The uncertainty in a measurement,  $$ A  $$, is often denoted as  $$ \delta
+A  $$
+(“delta  $$ A  $$”), so the measurement result would be recorded as  $$ A \pm
+\delta A  $$. In our paper example, the length of the paper could be expressed as
+ $$ 11\text{in.} \pm 0.2  $$. The factors contributing to uncertainty in a
 measurement include:
 
 1. Limitations of the measuring device,
@@ -100,11 +100,11 @@ Uncertainty is a critical piece of information, both in physics and
 in many other real-world applications. Imagine you are caring for a sick child.
 You suspect the child has a fever, so you check their temperature with a thermometer.
 What if the uncertainty of the thermometer
-were $$ 3.0^\circ \text{C} $$?
-If the child’s temperature reading was $$ 37.0^\circ \text{C} $$
+were  $$ 3.0^\circ \text{C}  $$?
+If the child’s temperature reading was  $$ 37.0^\circ \text{C}  $$
 (which is normal body temperature), the “true” temperature could be anywhere
-from a hypothermic $$ 34.0^\circ \text{C} $$ to a dangerously high $$ 40.0^\circ
-\text{C} $$. A thermometer with an uncertainty of $$ 3.0^\circ \text{C} $$ would
+from a hypothermic  $$ 34.0^\circ \text{C}  $$ to a dangerously high  $$ 40.0^\circ
+\text{C}  $$. A thermometer with an uncertainty of  $$ 3.0^\circ \text{C}  $$ would
 be useless.
 
 </div>
@@ -112,40 +112,40 @@ be useless.
 #### Percent Uncertainty
 
 One method of expressing uncertainty is as a percent of the measured value. If a
-measurement $$ A $$ is expressed with uncertainty, $$ \delta A $$, the **percent
+measurement  $$ A  $$ is expressed with uncertainty,  $$ \delta A  $$, the **percent
 uncertainty** (%unc)
 is defined to be
 
 <div class="equation">
- $$ \% \text{unc} = \frac{ \delta A}{A} \times 100 \% . $$
+  $$ \% \text{unc} = \frac{ \delta A}{A} \times 100 \% .  $$
 </div>
 
 <div class="example" markdown="1">
 <div class="title">
 Calculating Percent Uncertainty: A Bag of Apples
 </div>
-A grocery store sells $$ 5\text{-lb} $$ bags of apples. You purchase four bags over the course of a month and weigh the
+A grocery store sells  $$ 5\text{-lb}  $$ bags of apples. You purchase four bags over the course of a month and weigh the
 apples each time. You obtain the following measurements:
 
 * Week 1 weight:
-  $$ 4.8 \text{lb} $$
+   $$ 4.8 \text{lb}  $$
 * Week 2 weight:
-  $$ 5.3 \text{lb} $$
+   $$ 5.3 \text{lb}  $$
 * Week 3 weight:
-  $$ 4.9 \text{lb} $$
+   $$ 4.9 \text{lb}  $$
 * Week 4 weight:
-  $$ 5.4 \text{lb} $$
-You determine that the weight of the $$ 5\text{-lb} $$ bag has an uncertainty of
-$$ \pm 0.4\text{lb} $$. What is the percent uncertainty of the bag’s weight?
+   $$ 5.4 \text{lb}  $$
+You determine that the weight of the  $$ 5\text{-lb}  $$ bag has an uncertainty of
+ $$ \pm 0.4\text{lb}  $$. What is the percent uncertainty of the bag’s weight?
 
 **Strategy**
 
-First, observe that the expected value of the bag’s weight, $$ A $$, is 5 lb.
-The uncertainty in this value, $$ \delta A $$, is 0.4 lb. We can use the
+First, observe that the expected value of the bag’s weight,  $$ A  $$, is 5 lb.
+The uncertainty in this value,  $$ \delta A  $$, is 0.4 lb. We can use the
 following equation to determine the percent uncertainty of the weight:
 
 <div class="equation">
- $$ \% \text{unc} =\frac{ \delta A}{A} \times 100 \% . $$
+  $$ \% \text{unc} =\frac{ \delta A}{A} \times 100 \% .  $$
 </div>
 
 **Solution**
@@ -153,12 +153,12 @@ following equation to determine the percent uncertainty of the weight:
 Plug the known values into the equation:
 
 <div class="equation">
- $$ \% \text{unc} =\frac{0.4\text{lb}}{5\text{lb}} \times 100  \% = 8 \% . $$
+  $$ \% \text{unc} =\frac{0.4\text{lb}}{5\text{lb}} \times 100  \% = 8 \% .  $$
 </div>
 
 **Discussion**
 
-We can conclude that the weight of the apple bag is $$ 5\text{lb} \pm 8 \% $$.
+We can conclude that the weight of the apple bag is  $$ 5\text{lb} \pm 8 \%  $$.
 Consider how this percent uncertainty would change if the bag of apples were
 half as heavy, but the uncertainty in the weight remained the same. Hint for
 future calculations: when calculating percent uncertainty, always remember that
@@ -178,10 +178,10 @@ percent or less), then the **method of adding percents** can be used for
 multiplication or division. This method says that **the percent uncertainty in a
 quantity calculated by multiplication or division is the sum of the percent
 uncertainties in the items used to make the calculation**. For example, if a
-floor has a length of $$ 4.00\m $$ and a width of $$ 3.00\m $$, with
-uncertainties of $$ 2 \% $$ and $$ 1 \% $$, respectively, then the area of the
-floor is $$ 12.0 \mm $$ and has an uncertainty of $$ 3 \% $$. (Expressed as an
-area this is $$ 0.36 \mm $$, which we round to $$ 0.4 \mm $$ since the area of
+floor has a length of  $$ 4.00\m  $$ and a width of  $$ 3.00\m  $$, with
+uncertainties of  $$ 2 \%  $$ and  $$ 1 \%  $$, respectively, then the area of the
+floor is  $$ 12.0 \mm  $$ and has an uncertainty of  $$ 3 \%  $$. (Expressed as an
+area this is  $$ 0.36 \mm  $$, which we round to  $$ 0.4 \mm  $$ since the area of
 the floor is given to a tenth of a square meter.)
 
 <div class="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
@@ -189,9 +189,9 @@ the floor is given to a tenth of a square meter.)
 Check Your Understanding
 </div>
 <div class="problem" markdown="1">
-A high school track coach has just purchased a new stopwatch. The stopwatch manual states that the stopwatch has an uncertainty of $$ \pm  0.05 \s $$. Runners on the track coach’s team regularly clock 100-m sprints of $$ 11.49 \s   $$
-to $$ 15.01 \s $$. At the school’s last track meet, the first-place sprinter came in at $$ 12.04 \s   $$
-and the second-place sprinter came in at $$ 12.07 \s $$. Will the coach’s new stopwatch be helpful in timing the sprint team? Why or
+A high school track coach has just purchased a new stopwatch. The stopwatch manual states that the stopwatch has an uncertainty of  $$ \pm  0.05 \s  $$. Runners on the track coach’s team regularly clock 100-m sprints of  $$ 11.49 \s    $$
+to  $$ 15.01 \s  $$. At the school’s last track meet, the first-place sprinter came in at  $$ 12.04 \s    $$
+and the second-place sprinter came in at  $$ 12.07 \s  $$. Will the coach’s new stopwatch be helpful in timing the sprint team? Why or
 why not?
 
 </div>
@@ -213,19 +213,19 @@ the measuring tool, the more precise and accurate the measurements can be.
 
 When we express measured values, we can only list as many digits as we initially
 measured with our measuring tool. For example, if you use a standard ruler to
-measure the length of a stick, you may measure it to be $$ 36.7\text{cm} $$. You
-could not express this value as $$ 36.71\text{cm} $$ because your measuring tool
+measure the length of a stick, you may measure it to be  $$ 36.7\text{cm}  $$. You
+could not express this value as  $$ 36.71\text{cm}  $$ because your measuring tool
 was not precise enough to measure a hundredth of a centimeter. It should be
 noted that the last digit in a measured value has been estimated in some way by
 the person performing the measurement. For example, the person measuring the
 length of a stick with a ruler notices that the stick length seems to be
-somewhere in between $$ 36.6\text{cm} $$ and $$ 36.7\text{cm} $$, and they must
+somewhere in between  $$ 36.6\text{cm}  $$ and  $$ 36.7\text{cm}  $$, and they must
 estimate the value of the last digit. Using the method of **significant
 figures**, the rule is that **the last digit written down in a measurement is
 the first digit with some uncertainty**. In order to determine the number of
 significant digits in a value, start with the first measured value at the left
 and count the number of digits through the last digit written on the right. For
-example, the measured value $$ 36.7\text{cm} $$ has three digits, or significant
+example, the measured value  $$ 36.7\text{cm}  $$ has three digits, or significant
 figures. Significant figures indicate the precision of a measuring tool that was
 used to measure a value.
 
@@ -251,7 +251,7 @@ Determine the number of significant figures in the following measurements:
 
 (a) 0.0009
 (b) 15 450.0
-(c) $$ 6 \times 10^{3} $$
+(c)  $$ 6 \times 10^{3}  $$
 (d) 87.990
 (d) 30.42
 </div>
@@ -261,7 +261,7 @@ Determine the number of significant figures in the following measurements:
 (b) 6; here, the zeros indicate that a measurement was made to the 0.1 decimal
 point, so the zeros are significant
 
-(c) 1; the value $$ 10^{3} $$ signifies the decimal place, not the number of
+(c) 1; the value  $$ 10^{3}  $$ signifies the decimal place, not the number of
 measured values
 
 (d) 5; the final zero indicates that a measurement was made to the 0.001 decimal
@@ -284,13 +284,13 @@ addition and subtraction, as discussed below.
 **1. For multiplication and division:** **The result should have the same number
 of significant figures as the quantity having the least significant figures
 entering into the calculation**. For example, the area of a circle can be
-calculated from its radius using $$ A=\pi r^{2} $$. Let us see how many
-significant figures the area has if the radius has only two—say, $$ r=1.2\m $$.
+calculated from its radius using  $$ A=\pi r^{2}  $$. Let us see how many
+significant figures the area has if the radius has only two—say,  $$ r=1.2\m  $$.
 Then,
 
 <div class="equation">
- $$ A=\pi r^{2}=\left(3.1415927 \dots \right) \times  \left(1.2\m  \right)^{2}
-=4.5238934 \mm $$
+  $$ A=\pi r^{2}=\left(3.1415927 \dots \right) \times  \left(1.2\m  \right)^{2}
+=4.5238934 \mm  $$
 </div>
 
 is what you would get using a calculator that has an eight-digit output. But
@@ -298,10 +298,10 @@ because the radius has only two significant figures, it limits the calculated
 quantity to two significant figures or
 
 <div class="equation">
- $$ A=4.5 \mm, $$
+  $$ A=4.5 \mm,  $$
 </div>
 
-even though $$ \pi $$ is good to at least eight digits.
+even though  $$ \pi  $$ is good to at least eight digits.
 
 **2. For addition and subtraction:** **The answer can contain no more decimal
 places than the least precise measurement** . Suppose that you buy 7.56-kg of
@@ -313,7 +313,7 @@ potatoes do you now have, and how many significant figures are appropriate in
 the answer? The mass is found by simple addition and subtraction:
 
 <div class="equation">
-$$
+ $$
 \eqalign{
 7 & . & 56 \kg \\
 -6 & . & 052 \kg \\
@@ -321,7 +321,7 @@ $$
  \hline
 15 & . & 208 \kg  \rightarrow  15.2 \kg
 }
-$$
+ $$
 </div>
 
 Next, we identify the least precise measurement: 13.7 kg. This measurement is
@@ -339,8 +339,8 @@ figures, the answer will also have fewer significant figures. Care is also taken
 that the number of significant figures is reasonable for the situation posed. In
 some topics, particularly in optics, more accurate numbers are needed and more
 than three significant figures will be used. Finally, if a number is **exact**,
-such as the two in the formula for the circumference of a circle, $$ c=2\pi r
-$$, it does not affect the number of significant figures in a calculation.
+such as the two in the formula for the circumference of a circle,  $$ c=2\pi r
+ $$, it does not affect the number of significant figures in a calculation.
 
 <div class="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
 <div class="title">
@@ -352,9 +352,9 @@ Perform the following calculations and express your answer using the correct num
 (a) A woman has two bags weighing 13.5 pounds and one bag with a weight of 10.2
 pounds. What is the total weight of the bags?
 
-(b) The force $$ F $$ on an object is equal to its mass $$ m $$ multiplied by
-its acceleration $$ a $$. If a wagon with mass 55 kg accelerates at a rate of $$
-0.0255\mss $$, what is the force on the wagon? (The unit of force is called the
+(b) The force  $$ F  $$ on an object is equal to its mass  $$ m  $$ multiplied by
+its acceleration  $$ a  $$. If a wagon with mass 55 kg accelerates at a rate of  $$
+0.0255\mss  $$, what is the force on the wagon? (The unit of force is called the
 newton, and it is expressed with the symbol N.)
 
 </div>
@@ -438,19 +438,19 @@ A good-quality measuring tape can be off by 0.50 cm over a distance of 20 m. Wha
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) A car speedometer has a $$ 5.0 \% $$ uncertainty. What is the range of
-possible speeds when it reads $$ 90\text{km/h} $$ ?
-(b) Convert this range to miles per hour. $$ \left(1 \text{km}= 0.6214 \text{mi}\right) $$
+(a) A car speedometer has a  $$ 5.0 \%  $$ uncertainty. What is the range of
+possible speeds when it reads  $$ 90\text{km/h}  $$ ?
+(b) Convert this range to miles per hour.  $$ \left(1 \text{km}= 0.6214 \text{mi}\right)  $$
 </div>
 <div class="solution" markdown="1">
-(a) $$ 85.5\text{to } 94.5 \text{km/h} $$
-(b) $$ 53.1\text{to } 58.7 \text{mi/h} $$
+(a)  $$ 85.5\text{to } 94.5 \text{km/h}  $$
+(b)  $$ 53.1\text{to } 58.7 \text{mi/h}  $$
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-An infant’s pulse rate is measured to be $$ 130  \pm  5 $$ beats/min.
+An infant’s pulse rate is measured to be  $$ 130  \pm  5  $$ beats/min.
 What is the percent uncertainty in this measurement?
 </div>
 </div>
@@ -463,9 +463,9 @@ How many beats do they have in 2.0 y?
 (c) In 2.000 y?
 </div>
 <div class="solution" markdown="1">
-(a) $$ 7.6\times 10^{7}\text{beats} $$
-(b) $$ 7.57 \times 10^{7}\text{beats} $$
-(c) $$ 7.57 \times 10^{7}\text{beats} $$
+(a)  $$ 7.6\times 10^{7}\text{beats}  $$
+(b)  $$ 7.57 \times 10^{7}\text{beats}  $$
+(c)  $$ 7.57 \times 10^{7}\text{beats}  $$
 </div>
 </div>
 
@@ -478,9 +478,9 @@ A can contains 375 mL of soda. How much is left after 308 mL is removed?
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 State how many significant figures are proper in the results of the following calculations:
-a. $$ \left(106.7\right)\left(98.2\right)/\left(46.210\right)\left(1.01\right) $$
-b. $$ \left(18.7\right)^{2} $$
-c. $$ \left(1.60 \times 10^{-19}\right) \left( 3712\right) $$.
+a.  $$ \left(106.7\right)\left(98.2\right)/\left(46.210\right)\left(1.01\right)  $$
+b.  $$ \left(18.7\right)^{2}  $$
+c.  $$ \left(1.60 \times 10^{-19}\right) \left( 3712\right)  $$.
 </div>
 <div class="solution" markdown="1">
 (a)  3
@@ -501,24 +501,24 @@ significant figures or percent uncertainties?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) If your speedometer has an uncertainty of $$ 2.0\text{km/h} $$
-at a speed of $$ 90\text{km/h} $$, what is the percent uncertainty?
+(a) If your speedometer has an uncertainty of  $$ 2.0\text{km/h}  $$
+at a speed of  $$ 90\text{km/h}  $$, what is the percent uncertainty?
 (b) If it has the same percent uncertainty
-when it reads $$ 60\text{km/h} $$, what is the range of speeds you could be going?
+when it reads  $$ 60\text{km/h}  $$, what is the range of speeds you could be going?
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 2.2 \% $$
-(b) $$ 59 \text{to 61 km/h} $$
+(a)  $$ 2.2 \%  $$
+(b)  $$ 59 \text{to 61 km/h}  $$
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) A person’s blood pressure is measured to be $$ 120  \pm  2\text{mm Hg} $$.
+(a) A person’s blood pressure is measured to be  $$ 120  \pm  2\text{mm Hg}  $$.
 What is its percent uncertainty?
 (b) Assuming the same percent uncertainty, what is the uncertainty in a
-blood pressure measurement of $$80 \text{mm Hg} $$ ?
+blood pressure measurement of  $$80 \text{mm Hg}  $$ ?
 
 </div>
 </div>
@@ -526,19 +526,19 @@ blood pressure measurement of $$80 \text{mm Hg} $$ ?
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A person measures their heart rate by counting the number of beats in
-$$30 \s $$. If $$ 40 \pm 1 $$ beats are counted in
-$$ 30.0 \pm 0.5\s  $$,
+ $$30 \s  $$. If  $$ 40 \pm 1  $$ beats are counted in
+ $$ 30.0 \pm 0.5\s   $$,
 what is the heart rate and its uncertainty in beats per minute?
 
 </div>
 <div class="solution" markdown="1">
- $$ 80 \pm 3\text{beats/min} $$
+  $$ 80 \pm 3\text{beats/min}  $$
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What is the area of a circle $$ 3.102\text{cm} $$ in diameter?
+What is the area of a circle  $$ 3.102\text{cm}  $$ in diameter?
 
 </div>
 </div>
@@ -549,14 +549,14 @@ If a marathon runner averages 9.5 mi/h, how long does it take him or her to run 
 
 </div>
 <div class="solution" markdown="1">
- $$ 2.8\text{h} $$
+  $$ 2.8\text{h}  $$
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A marathon runner completes a $$ 42.188\text{-km} $$ course in $$ 2\text{h} $$,
-30 min, and $$12 \s $$. There is an uncertainty of $$25 \m $$
+A marathon runner completes a  $$ 42.188\text{-km}  $$ course in  $$ 2\text{h}  $$,
+30 min, and  $$12 \s  $$. There is an uncertainty of  $$25 \m  $$
 in the distance traveled and an uncertainty of 1 s in the elapsed time.
 (a) Calculate the percent uncertainty in the distance.
 (b) Calculate the uncertainty in the elapsed time.
@@ -568,21 +568,21 @@ in the distance traveled and an uncertainty of 1 s in the elapsed time.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-The sides of a small rectangular box are measured to be $$ 1.80 \pm 0.01\text{cm} $$,
-$$ 2.05 \pm 0.02\text{cm}$$,and $$3.0 \pm 0.1 \text{cm} $$
+The sides of a small rectangular box are measured to be  $$ 1.80 \pm 0.01\text{cm}  $$,
+ $$ 2.05 \pm 0.02\text{cm} $$,and  $$3.0 \pm 0.1 \text{cm}  $$
 long. Calculate its volume and uncertainty in cubic centimeters.
 
 </div>
 <div class="solution" markdown="1">
- $$ 11 \pm 1 \text{cm}^{3} $$
+  $$ 11 \pm 1 \text{cm}^{3}  $$
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 When non-metric units were used in the United Kingdom, a unit of mass called
-the **pound-mass** (lbm) was employed, where $$ 1\text{lbm}=0.4539\kg $$.
-(a) If there is an uncertainty of $$ 0.0001\kg  $$
+the **pound-mass** (lbm) was employed, where  $$ 1\text{lbm}=0.4539\kg  $$.
+(a) If there is an uncertainty of  $$ 0.0001\kg   $$
 in the pound-mass unit, what is its percent uncertainty?
 (b) Based on that percent uncertainty, what mass in pound-mass has an uncertainty of 1 kg when
 converted to kilograms?
@@ -593,18 +593,18 @@ converted to kilograms?
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 The length and width of a rectangular room are measured to be
-$$ 3.955 \pm 0.005\m $$ and $$ 3.050 \pm 0.005\m $$.
+ $$ 3.955 \pm 0.005\m  $$ and  $$ 3.050 \pm 0.005\m  $$.
 Calculate the area of the room and its uncertainty in square meters.
 </div>
 <div class="solution" markdown="1">
- $$ 12.06 \pm 0.04 \mm $$
+  $$ 12.06 \pm 0.04 \mm  $$
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A car engine moves a piston with a circular cross section of
-$$ 7.500 \pm 0.002\text{cm} $$ diameter a distance of $$ 3.250 \pm 0.001\text{cm} $$
+ $$ 7.500 \pm 0.002\text{cm}  $$ diameter a distance of  $$ 3.250 \pm 0.001\text{cm}  $$
 to compress the gas in the cylinder.
 (a) By what amount is the gas decreased in
 volume in cubic centimeters?

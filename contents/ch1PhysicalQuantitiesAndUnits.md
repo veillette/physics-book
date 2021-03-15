@@ -129,7 +129,7 @@ comparison with the standard mass. Even though the platinum-iridium cylinder was
 resistant to corrosion, airborne contaminants were able to adhere to its
 surface, slightly changing its mass over time. In May 2019, the scientific
 community adopted a more stable definition of the kilogram. The kilogram is now
-defined in terms of the second, the meter, and Planck's constant, $$h$$ (a
+defined in terms of the second, the meter, and Planck's constant,  $$h $$ (a
 quantum mechanical value that relates a photon's energy to its frequency).
 
 ![Beam of light from a flashlight is represented by an arrow pointing right, traveling the length of a meter stick.](../resources/Figure_01_02_03a.jpg "The meter is defined to be the distance light travels in 1/299 792 458 of a second in a vacuum. Distance traveled is speed multiplied by time.")
@@ -161,17 +161,17 @@ measure of nanometers are convenient in optical design. With the metric system
 there is no need to invent new units for particular applications.
 
 The term **order of magnitude**
-refers to the scale of a value expressed in the metric system. Each power of $$
-10 $$ in the metric system represents a different order of magnitude. For
-example, $$ 10^{1},10^{2},10^{3} $$, and so forth are all different orders of
+refers to the scale of a value expressed in the metric system. Each power of  $$
+10  $$ in the metric system represents a different order of magnitude. For
+example,  $$ 10^{1},10^{2},10^{3}  $$, and so forth are all different orders of
 magnitude. All quantities that can be expressed as a product of a specific power
-of $$ 10 $$ are said to be of the **same** order of magnitude. For example, the
-number $$ 800 $$ can be written as $$ 8\times 10^{2} $$, and the number $$ 450
-$$ can be written as $$ 4.5\times 10^{2}$$. Thus, the numbers $$ 800 $$ and $$
-450 $$ are of the same order of magnitude: $$ 10^{2}$$. Order of magnitude can
+of  $$ 10  $$ are said to be of the **same** order of magnitude. For example, the
+number  $$ 800  $$ can be written as  $$ 8\times 10^{2}  $$, and the number  $$ 450
+ $$ can be written as  $$ 4.5\times 10^{2} $$. Thus, the numbers  $$ 800  $$ and  $$
+450  $$ are of the same order of magnitude:  $$ 10^{2} $$. Order of magnitude can
 be thought of as a ballpark estimate for the scale of a value. The diameter of
-an atom is on the order of $$ 10^{-9}\m $$, while the diameter of the Sun is on
-the order of $$ 10^{9}\m $$.
+an atom is on the order of  $$ 10^{-9}\m  $$, while the diameter of the Sun is on
+the order of  $$ 10^{9}\m  $$.
 <div class="note" data-label="" markdown="1">
 <div class="title">
 The Quest for Microscopic Standards for Basic Units
@@ -198,23 +198,23 @@ are related to large-scale currents and forces between wires.
 
 | Prefix| Symbol    | Value    | Example | | | Example (some are approximate) |
 | ---   | ---  | ---         | ---         | --- | ---           | --- |
-|  exa    |   E  | $$10^{18}$$ |  exameter   | Em  | $$10^{18}$$ m | distance light travels in a century |
-| peta  |    P  | $$10^{15}$$ |  petasecond | Ps  | $$10^{15}$$ s | 30 million years |
-| tera  |    T  | $$10^{12}$$ |  terawatt   | TW  | $$10^{12}$$ W | powerful laser output |
-| giga    |   G  | $$10^{9}$$  |  gigahertz  | GHz | $$10^{9}$$ Hz | a microwave frequency |
-| mega    |   M  | $$10^{6}$$  |  megacurie  | MCi | $$10^{6}$$ Ci | high radioactivity |
-| kilo  |    k  | $$10^{3}$$  |  kilometer  | km  | $$10^{3}$$ m  | about 6/10 mile |
-| hecto |    h  | $$10^{2}$$  |  hectoliter | hL  | $$10^{2}$$ L  | 26 gallons |
-| deka  |    da | $$10^{1}$$  |  dekagram   | dag | $$10^{1}$$ g  | teaspoon of butter |
-| —        |  -   | $$10^{0}$$  | (=1)            |    |                  |   |	
-| deci    |   d  | $$10^{-1}$$  |  deciliter  | dL  | $$10^{-1}$$ L  |  less than half a soda |
-| centi    |   c  | $$10^{-2}$$  |  centimeter | cm  | $$10^{-2}$$ m  |  fingertip thickness |
-| milli |    m  | $$10^{-3}$$  |  millimeter | mm  | $$10^{-3}$$ m  |  flea at its shoulders
-| micro    |   µ  | $$10^{-6}$$  |  micrometer | µm  | $$10^{-6}$$ m  |  detail in microscope |
-| nano    |   n  | $$10^{-9}$$  |  nanogram   | ng  | $$10^{-9}$$ g  |  small speck of dust |
-| pico  |   p  | $$10^{-12}$$ |  picofarad  | pF  | $$10^{-12}$$ F |  small capacitor in radio |
-| femto    |   f  | $$10^{-15}$$ |  femtometer | fm  | $$10^{-15}$$ m |  size of a proton |
-| atto  |    a  | $$10^{-18}$$ |  attosecond | as  | $$10^{-18}$$ s  |  time light crosses an atom |
+|  exa    |   E  |  $$10^{18} $$ |  exameter   | Em  |  $$10^{18} $$ m | distance light travels in a century |
+| peta  |    P  |  $$10^{15} $$ |  petasecond | Ps  |  $$10^{15} $$ s | 30 million years |
+| tera  |    T  |  $$10^{12} $$ |  terawatt   | TW  |  $$10^{12} $$ W | powerful laser output |
+| giga    |   G  |  $$10^{9} $$  |  gigahertz  | GHz |  $$10^{9} $$ Hz | a microwave frequency |
+| mega    |   M  |  $$10^{6} $$  |  megacurie  | MCi |  $$10^{6} $$ Ci | high radioactivity |
+| kilo  |    k  |  $$10^{3} $$  |  kilometer  | km  |  $$10^{3} $$ m  | about 6/10 mile |
+| hecto |    h  |  $$10^{2} $$  |  hectoliter | hL  |  $$10^{2} $$ L  | 26 gallons |
+| deka  |    da |  $$10^{1} $$  |  dekagram   | dag |  $$10^{1} $$ g  | teaspoon of butter |
+| —        |  -   |  $$10^{0} $$  | (=1)            |    |                  |   |	
+| deci    |   d  |  $$10^{-1} $$  |  deciliter  | dL  |  $$10^{-1} $$ L  |  less than half a soda |
+| centi    |   c  |  $$10^{-2} $$  |  centimeter | cm  |  $$10^{-2} $$ m  |  fingertip thickness |
+| milli |    m  |  $$10^{-3} $$  |  millimeter | mm  |  $$10^{-3} $$ m  |  flea at its shoulders
+| micro    |   µ  |  $$10^{-6} $$  |  micrometer | µm  |  $$10^{-6} $$ m  |  detail in microscope |
+| nano    |   n  |  $$10^{-9} $$  |  nanogram   | ng  |  $$10^{-9} $$ g  |  small speck of dust |
+| pico  |   p  |  $$10^{-12} $$ |  picofarad  | pF  |  $$10^{-12} $$ F |  small capacitor in radio |
+| femto    |   f  |  $$10^{-15} $$ |  femtometer | fm  |  $$10^{-15} $$ m |  size of a proton |
+| atto  |    a  |  $$10^{-18} $$ |  attosecond | as  |  $$10^{-18} $$ s  |  time light crosses an atom |
 
 {: #table2}
 
@@ -259,8 +259,8 @@ then multiply them by the conversion factor so that the units cancel out, as
 shown:
 
 <div class="equation">
- $$ 80 \m ×\frac{1 \text{km}}{1000\m }=0.080\text{km}.
-$$
+  $$ 80 \m ×\frac{1 \text{km}}{1000\m }=0.080\text{km}.
+ $$
 </div>
 
 Note that the unwanted m unit cancels, leaving only the desired km unit. You can
@@ -273,22 +273,22 @@ conversion factors.
 
 | | Lengths in meters    | | Masses in kilograms (more precise values in parentheses) | |    Times in seconds (more precise values in parentheses)|
 | --- | --- | ---- | --- | ---| ---|
-| $$ 10^{-18} $$    | Present experimental limit to smallest observable detail | $$ 10^{-30} $$ | Mass of an electron ($$ 9.11\times 10^{-31} $$ kg) | $$ 10^{-23} $$ | Time for light to cross a proton |
-| $$ 10^{-15} $$ |  Diameter of a proton | $$ 10^{-27} $$ | Mass of a hydrogen atom ($$1.67\times 10^{-27} $$ kg) | $$ 10^{-22} $$ | Mean life of an extremely unstable nucleus |
-| $$ 10^{-14} $$ | Diameter of a uranium nucleus | $$ 10^{-15} $$ | Mass of a bacterium | $$ 10^{-15} $$ | Time for one oscillation of visible light |
-| $$ 10^{-10} $$ | Diameter of a hydrogen atom | $$ 10^{-5} $$ | Mass of a mosquito | $$ 10^{-13} $$ | Time for one vibration of an atom in a solid |
-| $$ 10^{-8} $$ | Thickness of membranes in cells of living organisms | $$ 10^{-2} $$ | Mass of a hummingbird | $$ 10^{-8} $$ | Time for one oscillation of an FM radio wave |
-| $$ 10^{-6} $$ | Wavelength of visible light | 1 | Mass of a liter of water (about a quart) | $$ 10^{-3} $$ | Duration of a nerve impulse |
-| $$ 10^{-3} $$ | Size of a grain of sand | $$ 10^{2} $$ | Mass of a person | 1 | Time for one heartbeat |
-| 1 | Height of a 4-year-old child | $$ 10^{3} $$ | Mass of a car | $$ 10^{5} $$ | One day ( $$8.64 \times 10^{4} $$s) |
-| $$ 10^{2} $$ | Length of a football field | $$ 10^{8} $$ | Mass of a large ship | $$ 10^{7} $$ | One year (y) ($$3.16 \times 10^{7} $$s) |
-| $$ 10^{4} $$ | Greatest ocean depth | $$ 10^{12} $$ | Mass of a large iceberg | $$ 10^{9} $$ | About half the life expectancy of a human |
-| $$ 10^{7} $$ | Diameter of the Earth | $$ 10^{15} $$ | Mass of the nucleus of a comet | $$ 10^{11} $$ | Recorded history |
-| $$ 10^{11} $$ | Distance from the Earth to the Sun | $$ 10^{23} $$ | Mass of the Moon ($$7.35 \times 10^{22} $$ kg)| $$ 10^{17} $$ | Age of the Earth |
-| $$ 10^{16} $$ | Distance traveled by light in 1 year (a light year) | $$ 10^{25} $$ | Mass of the Earth ($$5.97 \times 10^{24} $$ kg) | $$ 10^{18} $$ | Age of the universe |
-| $$ 10^{21} $$ | Diameter of the Milky Way galaxy | $$ 10^{30} $$ | Mass of the Sun ($$ 1.99 \times 10^{30} $$ kg)  |
-| $$ 10^{22} $$ | Distance from the Earth to the nearest large galaxy (Andromeda) | $$ 10^{42} $$ | Mass of the Milky Way galaxy (current upper limit)|
-| $$ 10^{26} $$ | Distance from the Earth to the edges of the known universe | $$ 10^{53} $$ | Mass of the known universe (current upper limit)        |
+|  $$ 10^{-18}  $$    | Present experimental limit to smallest observable detail |  $$ 10^{-30}  $$ | Mass of an electron ( $$ 9.11\times 10^{-31}  $$ kg) |  $$ 10^{-23}  $$ | Time for light to cross a proton |
+|  $$ 10^{-15}  $$ |  Diameter of a proton |  $$ 10^{-27}  $$ | Mass of a hydrogen atom ( $$1.67\times 10^{-27}  $$ kg) |  $$ 10^{-22}  $$ | Mean life of an extremely unstable nucleus |
+|  $$ 10^{-14}  $$ | Diameter of a uranium nucleus |  $$ 10^{-15}  $$ | Mass of a bacterium |  $$ 10^{-15}  $$ | Time for one oscillation of visible light |
+|  $$ 10^{-10}  $$ | Diameter of a hydrogen atom |  $$ 10^{-5}  $$ | Mass of a mosquito |  $$ 10^{-13}  $$ | Time for one vibration of an atom in a solid |
+|  $$ 10^{-8}  $$ | Thickness of membranes in cells of living organisms |  $$ 10^{-2}  $$ | Mass of a hummingbird |  $$ 10^{-8}  $$ | Time for one oscillation of an FM radio wave |
+|  $$ 10^{-6}  $$ | Wavelength of visible light | 1 | Mass of a liter of water (about a quart) |  $$ 10^{-3}  $$ | Duration of a nerve impulse |
+|  $$ 10^{-3}  $$ | Size of a grain of sand |  $$ 10^{2}  $$ | Mass of a person | 1 | Time for one heartbeat |
+| 1 | Height of a 4-year-old child |  $$ 10^{3}  $$ | Mass of a car |  $$ 10^{5}  $$ | One day (  $$8.64 \times 10^{4}  $$s) |
+|  $$ 10^{2}  $$ | Length of a football field |  $$ 10^{8}  $$ | Mass of a large ship |  $$ 10^{7}  $$ | One year (y) ( $$3.16 \times 10^{7}  $$s) |
+|  $$ 10^{4}  $$ | Greatest ocean depth |  $$ 10^{12}  $$ | Mass of a large iceberg |  $$ 10^{9}  $$ | About half the life expectancy of a human |
+|  $$ 10^{7}  $$ | Diameter of the Earth |  $$ 10^{15}  $$ | Mass of the nucleus of a comet |  $$ 10^{11}  $$ | Recorded history |
+|  $$ 10^{11}  $$ | Distance from the Earth to the Sun |  $$ 10^{23}  $$ | Mass of the Moon ( $$7.35 \times 10^{22}  $$ kg)|  $$ 10^{17}  $$ | Age of the Earth |
+|  $$ 10^{16}  $$ | Distance traveled by light in 1 year (a light year) |  $$ 10^{25}  $$ | Mass of the Earth ( $$5.97 \times 10^{24}  $$ kg) |  $$ 10^{18}  $$ | Age of the universe |
+|  $$ 10^{21}  $$ | Diameter of the Milky Way galaxy |  $$ 10^{30}  $$ | Mass of the Sun ( $$ 1.99 \times 10^{30}  $$ kg)  |
+|  $$ 10^{22}  $$ | Distance from the Earth to the nearest large galaxy (Andromeda) |  $$ 10^{42}  $$ | Mass of the Milky Way galaxy (current upper limit)|
+|  $$ 10^{26}  $$ | Distance from the Earth to the edges of the known universe |  $$ 10^{53}  $$ | Mass of the known universe (current upper limit)        |
 
 {: #table3}
 
@@ -315,19 +315,19 @@ of travel. (Take this definition as a given for now—average speed and other
 motion concepts will be covered in a later module.) In equation form,
 
 <div class="equation">
- $$ \text{average speed =}\frac{ \text{distance}}{\text{time}}. $$
+  $$ \text{average speed =}\frac{ \text{distance}}{\text{time}}.  $$
 </div>
 (2) Substitute the given values for distance and time.
 
 <div class="equation">
- $$ \text{average speed} =\frac{10.0\text{km}}{20.0\text{min}}=0.500\frac{ \text{km}}{\text{min}}. $$
+  $$ \text{average speed} =\frac{10.0\text{km}}{20.0\text{min}}=0.500\frac{ \text{km}}{\text{min}}.  $$
 </div>
 (3) Convert km/min to km/h: multiply by the conversion factor that will cancel minutes and leave hours.
-That conversion factor is $$ 60 \text{min/hr} $$. Thus,
+That conversion factor is  $$ 60 \text{min/hr}  $$. Thus,
 
 <div class="equation">
- $$ \text{average speed} = 0.500\frac{ \text{km}}{\text{min}}×\frac{60 \text
-{ min}}{1\text{h}}=30.0\frac{ \text{km}}{\text{h}}. $$
+  $$ \text{average speed} = 0.500\frac{ \text{km}}{\text{min}}×\frac{60 \text
+{ min}}{1\text{h}}=30.0\frac{ \text{km}}{\text{h}}.  $$
 </div>
 
 **Discussion for (a)**
@@ -341,8 +341,8 @@ then the units will not cancel; rather, they will give you the wrong units as
 follows:
 
 <div class="equation">
- $$ \frac{ \text{km}}{\text{min}}×\frac{1\text{hr}}{60 \text{min}}
-=\frac{1}{60}\frac{ \text{km}\cdot \text{hr}}{ {\text{min}}^{2}}, $$
+  $$ \frac{ \text{km}}{\text{min}}×\frac{1\text{hr}}{60 \text{min}}
+=\frac{1}{60}\frac{ \text{km}\cdot \text{hr}}{ {\text{min}}^{2}},  $$
 </div>
 which are obviously not the desired units of km/h.
 
@@ -374,10 +374,10 @@ meters.
 (2) Multiplying by these yields
 
 <div class="equation">
- $$ \text{Average speed}=30.0\frac{ \text{km}}{\text{h}}×\frac{1\text{h}}{3 600 \s  }×\frac{1 000 \m }{1 \text{km}}, $$
+  $$ \text{Average speed}=30.0\frac{ \text{km}}{\text{h}}×\frac{1\text{h}}{3 600 \s  }×\frac{1 000 \m }{1 \text{km}},  $$
 </div>
 <div class="equation">
- $$ \text{Average speed}=8.33\frac{ \m }{\s}. $$
+  $$ \text{Average speed}=8.33\frac{ \m }{\s}.  $$
 </div>
 
 **Discussion for (b)**
@@ -420,7 +420,7 @@ that corresponds to this factor of 10.
 </div>
 <div class="solution" data-print-placement="here" markdown="1">
 The scientist will measure the time between each movement using the fundamental unit of seconds. Because the wings
-beat so fast, the scientist will probably need to measure in milliseconds, or $$ 10^{-3} $$
+beat so fast, the scientist will probably need to measure in milliseconds, or  $$ 10^{-3}  $$
 seconds. (50 beats per second corresponds to 20 milliseconds per beat.)
 
 </div>
@@ -479,17 +479,17 @@ The speed limit on some interstate highways is roughly 100 km/h.
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 27.8  \ms $$
-(b) $$ 62.1 \text{mph} $$
+(a)  $$ 27.8  \ms  $$
+(b)  $$ 62.1 \text{mph}  $$
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A car is traveling at a speed of $$ 33  \ms $$.
+A car is traveling at a speed of  $$ 33  \ms  $$.
 (a) What is its speed in kilometers per hour?
-(b) Is it exceeding the $$
-90 \text{km/h} $$
+(b) Is it exceeding the  $$
+90 \text{km/h}  $$
 speed limit?
 
 </div>
@@ -497,15 +497,15 @@ speed limit?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Show that $$ 1.0  \ms =3.6 \text{km/h} $$. Hint: Show the explicit
-steps involved in converting $$ 1.0 \ms =3.6 \text{km/h.} $$
+Show that  $$ 1.0  \ms =3.6 \text{km/h}  $$. Hint: Show the explicit
+steps involved in converting  $$ 1.0 \ms =3.6 \text{km/h.}  $$
 </div>
 <div class="solution" markdown="1">
- $$ \frac{1.0 \m }{\s}=
+  $$ \frac{1.0 \m }{\s}=
 \frac{1.0 \m }{\s}×
 \frac{3600 \s  }{1\text{hr}}×
-\frac{1 \text{km}}{1000 \m } $$
-$$ =3.6 \text{km/h} $$.
+\frac{1 \text{km}}{1000 \m }  $$
+ $$ =3.6 \text{km/h}  $$.
 
 </div>
 </div>
@@ -524,8 +524,8 @@ Soccer fields vary in size. A large soccer field is 115 m long and 85 m wide. Wh
 
 </div>
 <div class="solution" markdown="1">
-length: $$ 377 \text{ft} $$; $$ 4.53 \times 10^{3}\text{in.} $$ width: $$ 280 \text{ft} $$; $$ 3.3\times
-10^{3}\text{in.} $$.
+length:  $$ 377 \text{ft}  $$;  $$ 4.53 \times 10^{3}\text{in.}  $$ width:  $$ 280 \text{ft}  $$;  $$ 3.3\times
+10^{3}\text{in.}  $$.
 
 </div>
 </div>
@@ -544,13 +544,13 @@ Mount Everest, at 29 028 feet, is the tallest mountain on the Earth. What is its
 
 </div>
 <div class="solution" markdown="1">
- $$ 8.847 \text{km} $$
+  $$ 8.847 \text{km}  $$
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-The speed of sound is measured to be $$ 342  \ms $$
+The speed of sound is measured to be  $$ 342  \ms  $$
 on a certain day. What is this in km/h?
 
 </div>
@@ -565,8 +565,8 @@ speed of 4.0 cm/year.
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 1.3\times 10^{-9}\m $$
-(b) $$ 40 \text{km/My} $$
+(a)  $$ 1.3\times 10^{-9}\m  $$
+(b)  $$ 40 \text{km/My}  $$
 </div>
 </div>
 
