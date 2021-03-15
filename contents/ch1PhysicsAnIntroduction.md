@@ -179,7 +179,7 @@ tested hypothesis and are supported by scientific evidence. However, the
 designation **law** is reserved for a concise and very general statement that
 describes phenomena in nature, such as the law that energy is conserved during
 any process, or Newton’s second law of motion, which relates force, mass, and
-acceleration by the simple equation $$ \vb{F}=m\vb{a} $$. A theory, in contrast,
+acceleration by the simple equation  $$ \vb{F}=m\vb{a}  $$. A theory, in contrast,
 is a less concise statement of observed phenomena. For example, the Theory of
 Evolution and the Theory of Relativity cannot be expressed concisely enough to
 be considered a law. The biggest difference between a law and a theory is that a
@@ -348,7 +348,7 @@ Without knowing the details of the law, you can still infer that the information
  Graphing Quadratics
 </div>
 Learn about graphing polynomials. The shape of the curve changes as the
-constants are adjusted. View the curves for the individual terms (e.g. $$ y=b x $$) to see how they add to generate the polynomial curve.
+constants are adjusted. View the curves for the individual terms (e.g.  $$ y=b x  $$) to see how they add to generate the polynomial curve.
 
 <figure markdown="1">
 <iframe loading="lazy" src="https://phet.colorado.
