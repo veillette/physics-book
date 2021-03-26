@@ -545,7 +545,7 @@ What is the area of a circle  $$ 3.102\text{cm}  $$ in diameter?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-If a marathon runner averages 9.5 mi/h, how long does it take him or her to run a 26.22-mi marathon?
+If a marathon runner averages 9.5 mi/h, how long does it take them to run a 26.22-mi marathon?
 
 </div>
 <div class="solution" markdown="1">
