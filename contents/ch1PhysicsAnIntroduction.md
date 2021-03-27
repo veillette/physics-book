@@ -68,7 +68,7 @@ travels, and the time it takes to travel that distance. When you use a GPS
 device in a vehicle, it utilizes these physics equations to determine the travel
 time from one location to another.
 
-![A topographical map of a location is shown on an iPhone with some information about the location using the G P S system.](../resources/Figure_01_01_02_aa.jpg "The Apple &#x201C;iPhone&#x201D; is a common smart phone with a GPS function. Physics describes the way that electricity flows through the circuits of this device. Engineers use their knowledge of physics to construct an iPhone with features that consumers will enjoy. One specific feature of an iPhone is the GPS function. GPS uses physics equations to determine the driving time between two locations on a map. (credit: @gletham GIS, Social, Mobile Tech Images)&#10;                ")
+![A topographical map of a location is shown on an iPhone with some information about the location using the G P S system.](../resources/Figure_01_01_02_aa.jpg "The Apple &#x201C;iPhone&#x201D; is a common smart phone with a GPS function. Physics describes the way that electricity flows through the circuits of this device. Engineers use their knowledge of physics to construct an iPhone with features that consumers will enjoy. One specific feature of an iPhone is the GPS function. GPS uses physics equations to determine the driving time between two locations on a map. (credit: @gletham GIS, Social, Mobile Tech Images) ")
 {: #fig2 height="250"}
 
 ### Applications of Physics
@@ -139,7 +139,7 @@ describe the universe as it is, not as we may imagine it to be.
 ![A portrait of Isaac Newton. ](../resources/Figure_01_01_07_aa.jpg "Isaac Newton (1642&#x2013;1727) was very reluctant to publish his revolutionary work and had to be convinced to do so. In his later years, he stepped down from his academic post and became exchequer of the Royal Mint. He took this post seriously, inventing reeding (or creating ridges) on the edge of coins to prevent unscrupulous people from trimming the silver off of them before using them as currency. (credit: Arthur Shuster and Arthur E. Shipley: Britain&#x2019;s Heritage of Science. London, 1917.)")
 {: #fig7 height="275"}
 
-![A photograph of Marie Curie](../resources/Figure_01_01_08_aa.jpg "Marie Curie (1867&#x2013;1934) sacrificed monetary assets to help finance her early research and damaged her physical well-being with radiation exposure. She is the only person to win Nobel prizes in both physics and chemistry. One of her daughters also won a Nobel Prize. (credit: Wikimedia Commons)&#10;                ")
+![A photograph of Marie Curie](../resources/Figure_01_01_08_aa.jpg "Marie Curie (1867&#x2013;1934) sacrificed monetary assets to help finance her early research and damaged her physical well-being with radiation exposure. She is the only person to win Nobel prizes in both physics and chemistry. One of her daughters also won a Nobel Prize. (credit: Wikimedia Commons) ")
 {: #fig8 height="225"}
 
 We all are curious to some extent. We look around, make generalizations, and try
@@ -265,13 +265,13 @@ as it developed from the Renaissance to the end of the 19th century is called
 **classical physics**. It was transformed into modern physics by revolutionary
 discoveries made starting at the beginning of the 20th century.
 
-![A marble statue of Aristotle.](../resources/Figure_01_01_10_aa.jpg "Over the centuries, natural philosophy has evolved into more specialized disciplines, as illustrated by the contributions of some of the greatest minds in history. The Greek philosopher Aristotle (384&#x2013;322 B.C.) wrote on a broad range of topics including physics, animals, the soul, politics, and poetry. (credit: Jastrow (2006)/Ludovisi Collection)&#10;                ")
+![A marble statue of Aristotle.](../resources/Figure_01_01_10_aa.jpg "Over the centuries, natural philosophy has evolved into more specialized disciplines, as illustrated by the contributions of some of the greatest minds in history. The Greek philosopher Aristotle (384&#x2013;322 B.C.) wrote on a broad range of topics including physics, animals, the soul, politics, and poetry. (credit: Jastrow (2006)/Ludovisi Collection) ")
 {: #fig10 height="225"}
 
-![A painting of Galileo Galilei.](../resources/Figure_01_01_11_aa.jpg "Galileo Galilei (1564&#x2013;1642) laid the foundation of modern experimentation and made contributions in mathematics, physics, and astronomy. (credit: Domenico Tintoretto)&#10;                ")
+![A painting of Galileo Galilei.](../resources/Figure_01_01_11_aa.jpg "Galileo Galilei (1564&#x2013;1642) laid the foundation of modern experimentation and made contributions in mathematics, physics, and astronomy. (credit: Domenico Tintoretto) ")
 {: #fig11 height="225"}
 
-![A photograph of Niels Bohr](../resources/Figure_01_01_12_aa.jpg "Niels Bohr (1885&#x2013;1962) made fundamental contributions to the development of quantum mechanics, one part of modern physics. (credit: United States Library of Congress Prints and Photographs Division)&#10;                ")
+![A photograph of Niels Bohr](../resources/Figure_01_01_12_aa.jpg "Niels Bohr (1885&#x2013;1962) made fundamental contributions to the development of quantum mechanics, one part of modern physics. (credit: United States Library of Congress Prints and Photographs Division) ")
 {: #fig12 height="225"}
 
 Classical physics is not an exact description of the universe, but it is an
