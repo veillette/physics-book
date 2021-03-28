@@ -6,7 +6,6 @@ layout: page
 <div class="abstract" markdown="1">
 * Determine the appropriate number of significant figures in both addition and subtraction, as well as multiplication and division calculations.
 * Calculate the percent uncertainty of a measurement.
-
 </div>
 
 ![An old rusted double-pan balance is shown with a weighing stone on one pan.](../resources/Figure_01_03_01.jpg "A double-pan mechanical balance is used to compare different masses. Usually an object with unknown mass is placed in one pan and objects of known mass are placed in the other pan. When the bar that connects the two pans is horizontal, then the masses in both pans are equal. The &#x201C;known masses&#x201D; are typically metal cylinders of standard mass such as 1 gram, 10 grams, and 100 grams. (credit: Serge Melki)")

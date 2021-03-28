@@ -6,7 +6,6 @@ layout: page
 <div class="abstract" markdown="1">
 * Perform unit conversions both in the SI and English units.
 * Explain the most common prefixes in the SI units and be able to write them in scientific notation.
-
 </div>
 
 ![A view of Earth from the Moon.](../resources/Figure_01_02_01b.jpg "The distance from Earth to the Moon may seem immense, but it is just a tiny fraction of the distances from Earth to other celestial bodies. (credit: NASA)")

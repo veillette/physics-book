@@ -5,7 +5,6 @@ layout: page
 
 <div class="abstract" markdown="1">
 * Make reasonable approximations based on given data.
-
 </div>
 
 On many occasions, physicists, other scientists, and engineers need to make
