@@ -85,7 +85,7 @@ thick. So the total volume of a stack of 100 bills is:
 
 <div class="equation">
   $$ \begin{array}{}
-\text{volume of stack}=\text{length}×\text{width}×\text{height,}\\
+\text{volume of stack}=\text{length}×\text{width}×\text{height} \text{,} \\
 \text{volume of stack}=6 \text{in.}×3 \text{in.}\times 0.5 \text{in.},\\
 \text{volume of stack}=9 \text{in.}^{3} .
 \end{array}  $$
@@ -98,7 +98,7 @@ or  $$  \$1\times 10^{4}  $$. The number of stacks you will have is:
   $$ \frac{ \$1 \times 10^{12}  \left( \text{ a trillion dollars } \right)}{1 \times 10^{4} \$ \text{per stack} } =1\times 10^{8}\text{stacks.}  $$
 </div>
 (3) Calculate the area of a football field in square inches. The area of a football field is
- $$ 100 \text{yd} \times 50 \text{yd,}  $$
+ $$ 100 \text{yd} \times 50 \text{yd} \text{,}   $$
 which gives  $$ 5000 \text{yd}^{2}.  $$
 Because we are working in inches, we need to convert square yards to square
 inches:
