@@ -6,7 +6,6 @@ layout: page
 <div class="abstract" markdown="1">
 * Explain the difference between a principle and a law.
 * Explain the difference between a model and a theory.
-
 </div>
 
 ![Two Canada geese flying close to each other in the sky.](../resources/Figure_01_01_01_aa.jpg "The flight formations of migratory birds such as Canada geese are governed by the laws of physics. (credit: David Merrett)")
