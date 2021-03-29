@@ -238,8 +238,7 @@ significant figures. The zeros in 1300 may or may not be significant depending
 on the style of writing numbers. They could mean the number is known to the last
 digit, or they could be placekeepers. So 1300 could have two, three, or four
 significant figures. (To avoid this ambiguity, write 1300 in scientific
-notation.) **Zeros are significant except when they serve only as placekeepers**
-.
+notation.) **Zeros are significant except when they serve only as placekeepers**.
 
 <div class="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
 <div class="title">
