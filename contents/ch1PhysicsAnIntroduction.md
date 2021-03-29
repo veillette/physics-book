@@ -91,8 +91,7 @@ engineering are applied physics. In architecture, physics is at the heart of
 structural stability, and is involved in the acoustics, heating, lighting, and
 cooling of buildings. Parts of geology rely heavily on physics, such as
 radioactive dating of rocks, earthquake analysis, and heat transfer in the
-Earth. Some disciplines, such as biophysics and geophysics, are hybrids of
-physics and other disciplines.
+Earth. Some disciplines, such as biophysics and geophysics, are hybrids of physics and other disciplines.
 
 Physics has many applications in the biological sciences. On the microscopic
 level, it helps describe the properties of cell walls and cell
