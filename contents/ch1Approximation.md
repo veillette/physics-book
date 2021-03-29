@@ -160,8 +160,7 @@ laid out end to end to cover the length, and about 7 to cover the width. That gi
 
 ### Summary
 
-Scientists often approximate the values of quantities to perform calculations
-and analyze systems.
+Scientists often approximate the values of quantities to perform calculations and analyze systems.
 
 ### Problems &amp; Exercises
 
@@ -190,8 +189,7 @@ nucleus is the lifetime of a human? (Hint: The lifetime of an unstable atomic nu
 
 </div>
 <div class="solution" markdown="1">
-Sample answer:  $$ 2\times 10^{31}  $$ if an average human lifetime is taken
-to be about 70 years.
+Sample answer:  $$ 2\times 10^{31}  $$ if an average human lifetime is taken to be about 70 years.
 
 </div>
 </div>

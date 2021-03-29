@@ -265,8 +265,7 @@ shown:
 Note that the unwanted m unit cancels, leaving only the desired km unit. You can
 use this method to convert between any types of unit.
 
-The [Appendix](../contents/appAUsefulInformation.md) has a more complete list of
-conversion factors.
+The [Appendix](../contents/appAUsefulInformation.md) has a more complete list of conversion factors.
 
 ##### Table 3: Approximate Values of Length, Mass, and Time
 
