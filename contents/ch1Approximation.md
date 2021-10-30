@@ -58,9 +58,9 @@ Approximating Vast Numbers: a Trillion Dollars
 </div>
 ![A bank stack containing one hundred hundred-dollar bills.](../resources/Figure_01_04_01.jpg "A bank stack contains one-hundred  \$100 bills, and is worth  \$10 000. How many bank stacks make up a trillion dollars? (credit: Andrew Magill)"){: #fig1}
 
-The U.S. federal deficit in the 2019 fiscal year was a little greater than  $$ 1
+The U.S. federal deficit in the 2019 fiscal year was a little greater than $$ 1
 trillion. Most of us do not have any concept of how much even one trillion
-actually is. Suppose that you were given a trillion dollars in  \$100 bills. If
+actually is. Suppose that you were given a trillion dollars in \$100 bills. If
 you made 100-bill stacks and used them to evenly cover a football field (between
 the end zones), make an approximation of how high the money pile would become. (
 We will use feet/inches rather than meters here because football fields are
@@ -70,7 +70,7 @@ What do you think?
 **Strategy**
 
 When you imagine the situation, you probably envision thousands of small stacks
-of 100 wrapped  $$100 bills, such as you might see in movies or at a bank. Since
+of 100 wrapped $$100 bills, such as you might see in movies or at a bank. Since
 this is an easy-to-approximate quantity, let us start there. We can find the
 volume of a stack of 100 bills, find out how many stacks make up one trillion
 dollars, and then set this volume equal to the area of the football field
@@ -114,9 +114,9 @@ This conversion gives us  $$ 6\times 10^{6}\text{in.}^{2}  $$
 for the area of the field. (Note that we are using only one significant figure
 in these calculations.)
 
-(4) Calculate the total volume of the bills. The volume of all the   \$100 
--bill stacks is  $$ 9\text{in.}^{3}/\text{stack}\times 10^{8}\text{
-stacks}=9\times 10^{8}\text{in.}^{3}.  $$
+(4) Calculate the total volume of the bills. The volume of all the \$100 -bill
+stacks is $$ 9\text{in.}^{3}/\text{stack}\times 10^{8}\text{ stacks}=9\times
+10^{8}\text{in.}^{3}. $$
 (5) Calculate the height. To determine the height of the bills, use the
 equation:
 
@@ -160,7 +160,8 @@ laid out end to end to cover the length, and about 7 to cover the width. That gi
 
 ### Summary
 
-Scientists often approximate the values of quantities to perform calculations and analyze systems.
+Scientists often approximate the values of quantities to perform calculations
+and analyze systems.
 
 ### Problems &amp; Exercises
 
@@ -234,9 +235,9 @@ Sample answer: 50 atoms
 <div class="solution" markdown="1">
 Sample answers:
 
-(a)  $$ 10^{12}  $$ cells/hummingbird
+(a)  $$ 10^{12} $$ cells/hummingbird
 
-(b)  $$ 10^{16}  $$ cells/human
+(b)  $$ 10^{16} $$ cells/human
 
 </div>
 </div>
@@ -251,6 +252,7 @@ Assuming one nerve impulse must end before another can begin, what is the maximu
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 approximation

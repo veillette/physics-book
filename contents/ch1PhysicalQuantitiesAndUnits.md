@@ -128,7 +128,7 @@ comparison with the standard mass. Even though the platinum-iridium cylinder was
 resistant to corrosion, airborne contaminants were able to adhere to its
 surface, slightly changing its mass over time. In May 2019, the scientific
 community adopted a more stable definition of the kilogram. The kilogram is now
-defined in terms of the second, the meter, and Planck's constant,  $$h $$ (a
+defined in terms of the second, the meter, and Planck's constant, $$h $$ (a
 quantum mechanical value that relates a photon's energy to its frequency).
 
 ![Beam of light from a flashlight is represented by an arrow pointing right, traveling the length of a meter stick.](../resources/Figure_01_02_03a.jpg "The meter is defined to be the distance light travels in 1/299 792 458 of a second in a vacuum. Distance traveled is speed multiplied by time.")
@@ -160,17 +160,17 @@ measure of nanometers are convenient in optical design. With the metric system
 there is no need to invent new units for particular applications.
 
 The term **order of magnitude**
-refers to the scale of a value expressed in the metric system. Each power of  $$
-10  $$ in the metric system represents a different order of magnitude. For
-example,  $$ 10^{1},10^{2},10^{3}  $$, and so forth are all different orders of
+refers to the scale of a value expressed in the metric system. Each power of $$
+10 $$ in the metric system represents a different order of magnitude. For
+example, $$ 10^{1},10^{2},10^{3} $$, and so forth are all different orders of
 magnitude. All quantities that can be expressed as a product of a specific power
-of  $$ 10  $$ are said to be of the **same** order of magnitude. For example, the
-number  $$ 800  $$ can be written as  $$ 8\times 10^{2}  $$, and the number  $$ 450
- $$ can be written as  $$ 4.5\times 10^{2} $$. Thus, the numbers  $$ 800  $$ and  $$
-450  $$ are of the same order of magnitude:  $$ 10^{2} $$. Order of magnitude can
+of $$ 10 $$ are said to be of the **same** order of magnitude. For example, the
+number $$ 800 $$ can be written as $$ 8\times 10^{2} $$, and the number $$ 450
+$$ can be written as $$ 4.5\times 10^{2} $$. Thus, the numbers $$ 800 $$ and $$
+450 $$ are of the same order of magnitude:  $$ 10^{2} $$. Order of magnitude can
 be thought of as a ballpark estimate for the scale of a value. The diameter of
-an atom is on the order of  $$ 10^{-9}\m  $$, while the diameter of the Sun is on
-the order of  $$ 10^{9}\m  $$.
+an atom is on the order of $$ 10^{-9}\m $$, while the diameter of the Sun is on
+the order of $$ 10^{9}\m $$.
 <div class="note" data-label="" markdown="1">
 <div class="title">
 The Quest for Microscopic Standards for Basic Units
@@ -265,28 +265,29 @@ shown:
 Note that the unwanted m unit cancels, leaving only the desired km unit. You can
 use this method to convert between any types of unit.
 
-The [Appendix](../contents/appAUsefulInformation.md) has a more complete list of conversion factors.
+The [Appendix](../contents/appAUsefulInformation.md) has a more complete list of
+conversion factors.
 
 ##### Table 3: Approximate Values of Length, Mass, and Time
 
 | | Lengths in meters    | | Masses in kilograms (more precise values in parentheses) | |    Times in seconds (more precise values in parentheses)|
 | --- | --- | ---- | --- | ---| ---|
-|  $$ 10^{-18}  $$    | Present experimental limit to smallest observable detail |  $$ 10^{-30}  $$ | Mass of an electron ( $$ 9.11\times 10^{-31}  $$ kg) |  $$ 10^{-23}  $$ | Time for light to cross a proton |
-|  $$ 10^{-15}  $$ |  Diameter of a proton |  $$ 10^{-27}  $$ | Mass of a hydrogen atom ( $$1.67\times 10^{-27}  $$ kg) |  $$ 10^{-22}  $$ | Mean life of an extremely unstable nucleus |
-|  $$ 10^{-14}  $$ | Diameter of a uranium nucleus |  $$ 10^{-15}  $$ | Mass of a bacterium |  $$ 10^{-15}  $$ | Time for one oscillation of visible light |
-|  $$ 10^{-10}  $$ | Diameter of a hydrogen atom |  $$ 10^{-5}  $$ | Mass of a mosquito |  $$ 10^{-13}  $$ | Time for one vibration of an atom in a solid |
-|  $$ 10^{-8}  $$ | Thickness of membranes in cells of living organisms |  $$ 10^{-2}  $$ | Mass of a hummingbird |  $$ 10^{-8}  $$ | Time for one oscillation of an FM radio wave |
-|  $$ 10^{-6}  $$ | Wavelength of visible light | 1 | Mass of a liter of water (about a quart) |  $$ 10^{-3}  $$ | Duration of a nerve impulse |
-|  $$ 10^{-3}  $$ | Size of a grain of sand |  $$ 10^{2}  $$ | Mass of a person | 1 | Time for one heartbeat |
-| 1 | Height of a 4-year-old child |  $$ 10^{3}  $$ | Mass of a car |  $$ 10^{5}  $$ | One day (  $$8.64 \times 10^{4}  $$s) |
-|  $$ 10^{2}  $$ | Length of a football field |  $$ 10^{8}  $$ | Mass of a large ship |  $$ 10^{7}  $$ | One year (y) ( $$3.16 \times 10^{7}  $$s) |
-|  $$ 10^{4}  $$ | Greatest ocean depth |  $$ 10^{12}  $$ | Mass of a large iceberg |  $$ 10^{9}  $$ | About half the life expectancy of a human |
-|  $$ 10^{7}  $$ | Diameter of the Earth |  $$ 10^{15}  $$ | Mass of the nucleus of a comet |  $$ 10^{11}  $$ | Recorded history |
-|  $$ 10^{11}  $$ | Distance from the Earth to the Sun |  $$ 10^{23}  $$ | Mass of the Moon ( $$7.35 \times 10^{22}  $$ kg)|  $$ 10^{17}  $$ | Age of the Earth |
-|  $$ 10^{16}  $$ | Distance traveled by light in 1 year (a light year) |  $$ 10^{25}  $$ | Mass of the Earth ( $$5.97 \times 10^{24}  $$ kg) |  $$ 10^{18}  $$ | Age of the universe |
-|  $$ 10^{21}  $$ | Diameter of the Milky Way galaxy |  $$ 10^{30}  $$ | Mass of the Sun ( $$ 1.99 \times 10^{30}  $$ kg)  |
-|  $$ 10^{22}  $$ | Distance from the Earth to the nearest large galaxy (Andromeda) |  $$ 10^{42}  $$ | Mass of the Milky Way galaxy (current upper limit)|
-|  $$ 10^{26}  $$ | Distance from the Earth to the edges of the known universe |  $$ 10^{53}  $$ | Mass of the known universe (current upper limit)        |
+|  $$ 10^{-18} $$    | Present experimental limit to smallest observable detail |  $$ 10^{-30} $$ | Mass of an electron ( $$ 9.11\times 10^{-31} $$ kg) |  $$ 10^{-23} $$ | Time for light to cross a proton |
+|  $$ 10^{-15} $$ |  Diameter of a proton |  $$ 10^{-27} $$ | Mass of a hydrogen atom ( $$1.67\times 10^{-27} $$ kg) |  $$ 10^{-22} $$ | Mean life of an extremely unstable nucleus |
+|  $$ 10^{-14} $$ | Diameter of a uranium nucleus |  $$ 10^{-15} $$ | Mass of a bacterium |  $$ 10^{-15} $$ | Time for one oscillation of visible light |
+|  $$ 10^{-10} $$ | Diameter of a hydrogen atom |  $$ 10^{-5} $$ | Mass of a mosquito |  $$ 10^{-13} $$ | Time for one vibration of an atom in a solid |
+|  $$ 10^{-8} $$ | Thickness of membranes in cells of living organisms |  $$ 10^{-2} $$ | Mass of a hummingbird |  $$ 10^{-8} $$ | Time for one oscillation of an FM radio wave |
+|  $$ 10^{-6} $$ | Wavelength of visible light | 1 | Mass of a liter of water (about a quart) |  $$ 10^{-3} $$ | Duration of a nerve impulse |
+|  $$ 10^{-3} $$ | Size of a grain of sand |  $$ 10^{2} $$ | Mass of a person | 1 | Time for one heartbeat |
+| 1 | Height of a 4-year-old child |  $$ 10^{3} $$ | Mass of a car |  $$ 10^{5} $$ | One day (  $$8.64 \times 10^{4} $$s) |
+|  $$ 10^{2} $$ | Length of a football field |  $$ 10^{8} $$ | Mass of a large ship |  $$ 10^{7} $$ | One year (y) ( $$3.16 \times 10^{7} $$s) |
+|  $$ 10^{4} $$ | Greatest ocean depth |  $$ 10^{12} $$ | Mass of a large iceberg |  $$ 10^{9} $$ | About half the life expectancy of a human |
+|  $$ 10^{7} $$ | Diameter of the Earth |  $$ 10^{15} $$ | Mass of the nucleus of a comet |  $$ 10^{11} $$ | Recorded history |
+|  $$ 10^{11} $$ | Distance from the Earth to the Sun |  $$ 10^{23} $$ | Mass of the Moon ( $$7.35 \times 10^{22} $$ kg)|  $$ 10^{17} $$ | Age of the Earth |
+|  $$ 10^{16} $$ | Distance traveled by light in 1 year (a light year) |  $$ 10^{25} $$ | Mass of the Earth ( $$5.97 \times 10^{24} $$ kg) |  $$ 10^{18} $$ | Age of the universe |
+|  $$ 10^{21} $$ | Diameter of the Milky Way galaxy |  $$ 10^{30} $$ | Mass of the Sun ( $$ 1.99 \times 10^{30} $$ kg)  |
+|  $$ 10^{22} $$ | Distance from the Earth to the nearest large galaxy (Andromeda) |  $$ 10^{42} $$ | Mass of the Milky Way galaxy (current upper limit)|
+|  $$ 10^{26} $$ | Distance from the Earth to the edges of the known universe |  $$ 10^{53} $$ | Mass of the known universe (current upper limit)        |
 
 {: #table3}
 
@@ -581,6 +582,7 @@ Then calculate the average speed of the Earth in its orbit in kilometers per sec
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 physical quantity

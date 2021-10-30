@@ -72,17 +72,18 @@ is, you are indicating that the actual mileage of your car might be as low as 44
 500 miles or as high as 45 500 miles, or anywhere in between. All measurements
 contain some amount of uncertainty. In our example of measuring the length of
 the paper, we might say that the length of the paper is 11 in., plus or minus
-0.2 in. The uncertainty in a measurement,  $$ A  $$, is often denoted as  $$ \delta
-A  $$
-(“delta  $$ A  $$”), so the measurement result would be recorded as  $$ A \pm
-\delta A  $$. In our paper example, the length of the paper could be expressed as
- $$ 11\text{in.} \pm 0.2  $$. The factors contributing to uncertainty in a
+0.2 in. The uncertainty in a measurement, $$ A $$, is often denoted as $$ \delta
+A $$
+(“delta $$ A $$”), so the measurement result would be recorded as $$ A \pm
+\delta A $$. In our paper example, the length of the paper could be expressed as
+$$ 11\text{in.} \pm 0.2 $$. The factors contributing to uncertainty in a
 measurement include:
 
 1. Limitations of the measuring device,
 2. The skill of the person making the measurement,
 3. Irregularities in the object being measured,
-4. Any other factors that affect the outcome (highly dependent on the situation).
+4. Any other factors that affect the outcome (highly dependent on the situation)
+   .
 
 In our example, such factors contributing to the uncertainty could be the
 following: the smallest division on the ruler is 0.1 in., the person using the
@@ -111,7 +112,7 @@ be useless.
 #### Percent Uncertainty
 
 One method of expressing uncertainty is as a percent of the measured value. If a
-measurement  $$ A  $$ is expressed with uncertainty,  $$ \delta A  $$, the **percent
+measurement $$ A $$ is expressed with uncertainty, $$ \delta A $$, the **percent
 uncertainty** (%unc)
 is defined to be
 
@@ -127,20 +128,20 @@ A grocery store sells  $$ 5\text{-lb}  $$ bags of apples. You purchase four bags
 apples each time. You obtain the following measurements:
 
 * Week 1 weight:
-   $$ 4.8 \text{lb}  $$
+  $$ 4.8 \text{lb} $$
 * Week 2 weight:
-   $$ 5.3 \text{lb}  $$
+  $$ 5.3 \text{lb} $$
 * Week 3 weight:
-   $$ 4.9 \text{lb}  $$
+  $$ 4.9 \text{lb} $$
 * Week 4 weight:
-   $$ 5.4 \text{lb}  $$
-You determine that the weight of the  $$ 5\text{-lb}  $$ bag has an uncertainty of
- $$ \pm 0.4\text{lb}  $$. What is the percent uncertainty of the bag’s weight?
+  $$ 5.4 \text{lb} $$ You determine that the weight of the $$ 5\text{-lb} $$ bag
+  has an uncertainty of $$ \pm 0.4\text{lb} $$. What is the percent uncertainty
+  of the bag’s weight?
 
 **Strategy**
 
-First, observe that the expected value of the bag’s weight,  $$ A  $$, is 5 lb.
-The uncertainty in this value,  $$ \delta A  $$, is 0.4 lb. We can use the
+First, observe that the expected value of the bag’s weight, $$ A $$, is 5 lb.
+The uncertainty in this value, $$ \delta A $$, is 0.4 lb. We can use the
 following equation to determine the percent uncertainty of the weight:
 
 <div class="equation">
@@ -157,7 +158,7 @@ Plug the known values into the equation:
 
 **Discussion**
 
-We can conclude that the weight of the apple bag is  $$ 5\text{lb} \pm 8 \%  $$.
+We can conclude that the weight of the apple bag is $$ 5\text{lb} \pm 8 \% $$.
 Consider how this percent uncertainty would change if the bag of apples were
 half as heavy, but the uncertainty in the weight remained the same. Hint for
 future calculations: when calculating percent uncertainty, always remember that
@@ -177,10 +178,10 @@ percent or less), then the **method of adding percents** can be used for
 multiplication or division. This method says that **the percent uncertainty in a
 quantity calculated by multiplication or division is the sum of the percent
 uncertainties in the items used to make the calculation**. For example, if a
-floor has a length of  $$ 4.00\m  $$ and a width of  $$ 3.00\m  $$, with
-uncertainties of  $$ 2 \%  $$ and  $$ 1 \%  $$, respectively, then the area of the
-floor is  $$ 12.0 \mm  $$ and has an uncertainty of  $$ 3 \%  $$. (Expressed as an
-area this is  $$ 0.36 \mm  $$, which we round to  $$ 0.4 \mm  $$ since the area of
+floor has a length of $$ 4.00\m $$ and a width of $$ 3.00\m $$, with
+uncertainties of $$ 2 \% $$ and $$ 1 \% $$, respectively, then the area of the
+floor is $$ 12.0 \mm $$ and has an uncertainty of $$ 3 \% $$. (Expressed as an
+area this is $$ 0.36 \mm $$, which we round to $$ 0.4 \mm $$ since the area of
 the floor is given to a tenth of a square meter.)
 
 <div class="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
@@ -212,19 +213,19 @@ the measuring tool, the more precise and accurate the measurements can be.
 
 When we express measured values, we can only list as many digits as we initially
 measured with our measuring tool. For example, if you use a standard ruler to
-measure the length of a stick, you may measure it to be  $$ 36.7\text{cm}  $$. You
-could not express this value as  $$ 36.71\text{cm}  $$ because your measuring tool
+measure the length of a stick, you may measure it to be $$ 36.7\text{cm} $$. You
+could not express this value as $$ 36.71\text{cm} $$ because your measuring tool
 was not precise enough to measure a hundredth of a centimeter. It should be
 noted that the last digit in a measured value has been estimated in some way by
 the person performing the measurement. For example, the person measuring the
 length of a stick with a ruler notices that the stick length seems to be
-somewhere in between  $$ 36.6\text{cm}  $$ and  $$ 36.7\text{cm}  $$, and they must
+somewhere in between $$ 36.6\text{cm} $$ and $$ 36.7\text{cm} $$, and they must
 estimate the value of the last digit. Using the method of **significant
 figures**, the rule is that **the last digit written down in a measurement is
 the first digit with some uncertainty**. In order to determine the number of
 significant digits in a value, start with the first measured value at the left
 and count the number of digits through the last digit written on the right. For
-example, the measured value  $$ 36.7\text{cm}  $$ has three digits, or significant
+example, the measured value $$ 36.7\text{cm} $$ has three digits, or significant
 figures. Significant figures indicate the precision of a measuring tool that was
 used to measure a value.
 
@@ -238,7 +239,8 @@ significant figures. The zeros in 1300 may or may not be significant depending
 on the style of writing numbers. They could mean the number is known to the last
 digit, or they could be placekeepers. So 1300 could have two, three, or four
 significant figures. (To avoid this ambiguity, write 1300 in scientific
-notation.) **Zeros are significant except when they serve only as placekeepers**.
+notation.) **Zeros are significant except when they serve only as placekeepers**
+.
 
 <div class="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
 <div class="title">
@@ -249,7 +251,7 @@ Determine the number of significant figures in the following measurements:
 
 (a) 0.0009
 (b) 15 450.0
-(c)  $$ 6 \times 10^{3}  $$
+(c)  $$ 6 \times 10^{3} $$
 (d) 87.990
 (d) 30.42
 </div>
@@ -259,7 +261,7 @@ Determine the number of significant figures in the following measurements:
 (b) 6; here, the zeros indicate that a measurement was made to the 0.1 decimal
 point, so the zeros are significant
 
-(c) 1; the value  $$ 10^{3}  $$ signifies the decimal place, not the number of
+(c) 1; the value $$ 10^{3} $$ signifies the decimal place, not the number of
 measured values
 
 (d) 5; the final zero indicates that a measurement was made to the 0.001 decimal
@@ -282,8 +284,8 @@ addition and subtraction, as discussed below.
 **1. For multiplication and division:** **The result should have the same number
 of significant figures as the quantity having the least significant figures
 entering into the calculation**. For example, the area of a circle can be
-calculated from its radius using  $$ A=\pi r^{2}  $$. Let us see how many
-significant figures the area has if the radius has only two—say,  $$ r=1.2\m  $$.
+calculated from its radius using $$ A=\pi r^{2} $$. Let us see how many
+significant figures the area has if the radius has only two—say, $$ r=1.2\m $$.
 Then,
 
 <div class="equation">
@@ -299,7 +301,7 @@ quantity to two significant figures or
   $$ A=4.5 \mm,  $$
 </div>
 
-even though  $$ \pi  $$ is good to at least eight digits.
+even though $$ \pi $$ is good to at least eight digits.
 
 **2. For addition and subtraction:** **The answer can contain no more decimal
 places than the least precise measurement** . Suppose that you buy 7.56-kg of
@@ -337,8 +339,8 @@ figures, the answer will also have fewer significant figures. Care is also taken
 that the number of significant figures is reasonable for the situation posed. In
 some topics, particularly in optics, more accurate numbers are needed and more
 than three significant figures will be used. Finally, if a number is **exact**,
-such as the two in the formula for the circumference of a circle,  $$ c=2\pi r
- $$, it does not affect the number of significant figures in a calculation.
+such as the two in the formula for the circumference of a circle, $$ c=2\pi r
+$$, it does not affect the number of significant figures in a calculation.
 
 <div class="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
 <div class="title">
@@ -350,9 +352,9 @@ Perform the following calculations and express your answer using the correct num
 (a) A woman has two bags weighing 13.5 pounds and one bag with a weight of 10.2
 pounds. What is the total weight of the bags?
 
-(b) The force  $$ F  $$ on an object is equal to its mass  $$ m  $$ multiplied by
-its acceleration  $$ a  $$. If a wagon with mass 55 kg accelerates at a rate of  $$
-0.0255\mss  $$, what is the force on the wagon? (The unit of force is called the
+(b) The force $$ F $$ on an object is equal to its mass $$ m $$ multiplied by
+its acceleration $$ a $$. If a wagon with mass 55 kg accelerates at a rate of $$
+0.0255\mss $$, what is the force on the wagon? (The unit of force is called the
 newton, and it is expressed with the symbol N.)
 
 </div>
@@ -614,6 +616,7 @@ volume in cubic centimeters?
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 accuracy
