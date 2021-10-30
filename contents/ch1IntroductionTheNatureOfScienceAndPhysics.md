@@ -32,8 +32,8 @@ the stars. The forces out there are the same as the ones here on Earth. Through
 a study of physics, you may gain a greater understanding of the
 interconnectedness of everything we can see and know in this universe.
 
-Think now about all of the technological devices that you use on a regular
-basis. Computers, smart phones, GPS systems, MP3 players, and satellite radio
+Think now about all the technological devices that you use on a regular
+basis. Computers, smartphones, GPS systems, MP3 players, and satellite radio
 might come to mind. Next, think about the most exciting modern technologies that
 you have heard about in the news, such as trains that levitate above tracks,
 “invisibility cloaks” that bend light around them, and microscopic robots that
