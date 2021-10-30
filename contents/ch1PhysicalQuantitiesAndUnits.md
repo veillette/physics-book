@@ -235,7 +235,7 @@ See [Figure 5](#fig5) and [Figure 6](#fig6).)
 
 It is often necessary to convert from one type of unit to another. For example,
 if you are reading a European cookbook, some quantities may be expressed in
-units of liters and you need to convert them to cups. Or, perhaps you are
+units of liters, and you need to convert them to cups. Or, perhaps you are
 reading walking directions from one location to another and you are interested
 in how many miles you will be walking. In this case, you will need to convert
 units of feet to miles.
