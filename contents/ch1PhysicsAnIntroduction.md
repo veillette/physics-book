@@ -91,7 +91,8 @@ engineering are applied physics. In architecture, physics is at the heart of
 structural stability, and is involved in the acoustics, heating, lighting, and
 cooling of buildings. Parts of geology rely heavily on physics, such as
 radioactive dating of rocks, earthquake analysis, and heat transfer in the
-Earth. Some disciplines, such as biophysics and geophysics, are hybrids of physics and other disciplines.
+Earth. Some disciplines, such as biophysics and geophysics, are hybrids of
+physics and other disciplines.
 
 Physics has many applications in the biological sciences. On the microscopic
 level, it helps describe the properties of cell walls and cell
@@ -177,7 +178,7 @@ tested hypothesis and are supported by scientific evidence. However, the
 designation **law** is reserved for a concise and very general statement that
 describes phenomena in nature, such as the law that energy is conserved during
 any process, or Newton’s second law of motion, which relates force, mass, and
-acceleration by the simple equation  $$ \vb{F}=m\vb{a}  $$. A theory, in contrast,
+acceleration by the simple equation $$ \vb{F}=m\vb{a} $$. A theory, in contrast,
 is a less concise statement of observed phenomena. For example, the Theory of
 Evolution and the Theory of Relativity cannot be expressed concisely enough to
 be considered a law. The biggest difference between a law and a theory is that a
@@ -259,7 +260,7 @@ Over the last few centuries, the growth of knowledge has resulted in
 ever-increasing specialization and branching of natural philosophy into separate
 fields, with physics retaining the most basic facets. (
 See [Figure 10](#fig10), [Figure 11](#fig11), and [Figure 12](#fig12).) Physics
-as it developed from the Renaissance to the end of the 19th century is called 
+as it developed from the Renaissance to the end of the 19th century is called
 **classical physics**. It was transformed into modern physics by revolutionary
 discoveries made starting at the beginning of the 20th century.
 
@@ -436,6 +437,7 @@ Can classical physics be used to accurately describe a satellite moving at a spe
 <div class="glossary" markdown="1">
 
 ### Glossary
+
 {: class="glossary-title"}
 
 classical physics
