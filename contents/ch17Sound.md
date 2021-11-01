@@ -9,7 +9,8 @@ layout: page
 * Describe sound as a longitudinal wave.
 </div>
 
-![Photograph of a glass, half of which is shattered into small pieces by a high-intensity sound wave. The tiny glass bits are shattered all over the place.](../resources/Figure_18_01_01a.jpg "This glass has been shattered by a high-intensity sound wave of the same frequency as the resonant frequency of the glass. While the sound is not visible, the effects of the sound prove its existence. (credit: ||read||, Flickr)")
+![Photograph of a glass, half of which is shattered into small pieces by a high-intensity sound wave. The tiny glass bits are shattered all over the place.](../resources/Figure_18_01_01a.jpg 
+"This glass has been shattered by a high-intensity sound wave of the same frequency as the resonant frequency of the glass. While the sound is not visible, the effects of the sound prove its existence. (credit: read, Flickr)")
 
 Sound can be used as a familiar illustration of waves. Because hearing is one of
 our most important senses, it is interesting to see how the physical properties
