@@ -281,7 +281,7 @@ When a sinusoidal voltage is applied to a resistor, the voltage is exactly in ph
    $$I=\frac{V}{ {X}_{L}}\text{,} $$
   </div>
      where    $$V $$ is the rms voltage across the inductor.
-*   $${X}_{L} $$ is defined to be the inductive reactance, given by
+* $${X}_{L} $$ is defined to be the inductive reactance, given by
   <div class="equation" >
    $${X}_{L}=2\pi fL\text{,} $$
   </div>
@@ -496,6 +496,6 @@ inductive reactance
 
 capacitive reactance
 : the opposition of a capacitor to a change in current; calculated by $${X}_
-{C}=\frac{1}{2\pi \text{fC}} $$ 
+{C}=\frac{1}{2\pi \text{fC}} $$
 
 </div>

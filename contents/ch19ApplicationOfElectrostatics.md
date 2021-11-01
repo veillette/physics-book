@@ -173,9 +173,10 @@ principles involved and identify the chapters in which they are found. Part (a)
 of this example asks for weight. This is a topic of dynamics and is defined
 in [Dynamics: Force and Newton’s Laws of Motion](/m42129). Part (b) deals with
 electric force on a charge, a topic
-of [Electric Charge and Electric Field](/ch18ElectricChargeAndElectricField). Part (c) asks for
-acceleration, knowing forces and mass. These are part of Newton’s laws, also
-found in [Dynamics: Force and Newton’s Laws of Motion](/m42129).
+of [Electric Charge and Electric Field](/ch18ElectricChargeAndElectricField).
+Part (c) asks for acceleration, knowing forces and mass. These are part of
+Newton’s laws, also found
+in [Dynamics: Force and Newton’s Laws of Motion](/m42129).
 
 The following solutions to each part of the example illustrate how the specific
 problem-solving strategies are applied. These involve identifying knowns and
@@ -564,6 +565,6 @@ electrostatic plates to create images on paper
 
 electrostatic precipitators
 : filters that apply charges to particles in the air, then attract those charges
-to a filter, removing them from the airstream 
+to a filter, removing them from the airstream
 
 </div>

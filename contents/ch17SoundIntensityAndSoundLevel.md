@@ -599,6 +599,6 @@ sound intensity level
 standard
 
 sound pressure level
-: the ratio of the pressure amplitude to a reference pressure 
+: the ratio of the pressure amplitude to a reference pressure
 
 </div>

@@ -46,6 +46,6 @@ the effect of magnetic fields on currents.
 
 induction
 : (magnetic induction) the creation of emfs and hence currents by magnetic
-fields 
+fields
 
 </div>

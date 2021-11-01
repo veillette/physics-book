@@ -386,6 +386,6 @@ given by $$\text{emf}=-N\frac{\Delta \Phi }{\Delta t} $$
 
 Lenz’s law
 : the minus sign in Faraday’s law, signifying that the emf induced in a coil
-opposes the change in magnetic flux 
+opposes the change in magnetic flux
 
 </div>

@@ -97,10 +97,11 @@ Rearranging $$I=V/R $$ and substituting known values gives
 **Discussion**
 
 This is a relatively small resistance, but it is larger than the cold resistance
-of the headlight. As we shall see in [Resistance and Resistivity](/ch20ResistanceAndResistivity),
-resistance usually increases with temperature, and so the bulb has a lower
-resistance when it is first switched on and will draw considerably more current
-during its brief warm-up period.
+of the headlight. As we shall see
+in [Resistance and Resistivity](/ch20ResistanceAndResistivity), resistance
+usually increases with temperature, and so the bulb has a lower resistance when
+it is first switched on and will draw considerably more current during its brief
+warm-up period.
 
 </div>
 
@@ -111,7 +112,8 @@ whereas the resistance of the human heart is about $$10^{3} \Omega $$ . A
 meter-long piece of large-diameter copper wire may have a resistance of
 $$10^{-5} \Omega $$ , and superconductors have no resistance at all (they are
 non-ohmic). Resistance is related to the shape of an object and the material of
-which it is composed, as will be seen in [Resistance and Resistivity](/ch20ResistanceAndResistivity).
+which it is composed, as will be seen
+in [Resistance and Resistivity](/ch20ResistanceAndResistivity).
 
 Additional insight is gained by solving $$I=V/R $$ for $$V, $$ yielding
 
@@ -279,6 +281,6 @@ ohmic
 : a type of a material for which Ohm\'s law is valid
 
 simple circuit
-: a circuit with a single voltage source and a single resistor 
+: a circuit with a single voltage source and a single resistor
 
 </div>

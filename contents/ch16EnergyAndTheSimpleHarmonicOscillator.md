@@ -9,9 +9,9 @@ layout: page
 
 To study the energy of a simple harmonic oscillator, we first consider all the
 forms of energy it can have We know
-from [Hooke’s Law: Stress and Strain Revisited](/ch16HookesLaw) that the energy stored
-in the deformation of a simple harmonic oscillator is a form of potential energy
-given by:
+from [Hooke’s Law: Stress and Strain Revisited](/ch16HookesLaw) that the energy
+stored in the deformation of a simple harmonic oscillator is a form of potential
+energy given by:
 
 <div class="equation" >
  $${\text{PE}}_{\text{el}}=\frac{1}{2}kx^{2}. $$
@@ -136,7 +136,7 @@ maximum displacement $$X $$ is 0.100 m.
 1. Identify known.
 2. Substitute known values into $${v}_{\text{max}}=\sqrt{\frac{k}{m}}X $$
 
-    \:
+   \:
     <div class="equation" >
      $${v}_{\text{max}}=\sqrt{\frac{ 6.53 \times 10^{4}  \text{N/m}}{900 \text{kg}}}\left(0.100 \text{m} \right). $$
     </div>

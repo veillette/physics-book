@@ -277,6 +277,6 @@ polarization
 or molecule
 
 electrostatic repulsion
-: the phenomenon of two objects with like charges repelling each other 
+: the phenomenon of two objects with like charges repelling each other
 
 </div>

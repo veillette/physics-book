@@ -245,10 +245,8 @@ $$4 \times 10^{9} $$ capillaries.
 
 ### Section Summary
 
-* Flow rate * $$Q $$
-    * is defined to be the volume * $$V $$
-    * flowing past a point in time * $$t $$
-      *, or $$Q=\frac{V}{t} $$ where $$V $$ is volume and $$t $$ is time.
+* Flow rate $$Q $$ is defined to be the volume $$V $$ flowing past a point in
+  time $$t $$, or $$Q=\frac{V}{t} $$ where $$V $$ is volume and $$t $$ is time.
 * The SI unit of volume is $${\text{m}}^{3} $$ .
 * Another common unit is the liter (L), which is $$10^{-3} {\text{m}}^{3} $$ .
 * Flow rate and velocity are related by $$Q=A\overline{v} $$ where $$A $$ is the
@@ -466,6 +464,6 @@ flow rate
 during a time *t*, or *Q = V/t*
 
 liter
-: a unit of volume, equal to 10<sup>−3</sup> m<sup>3</sup> 
+: a unit of volume, equal to 10<sup>−3</sup> m<sup>3</sup>
 
 </div>

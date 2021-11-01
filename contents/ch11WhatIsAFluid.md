@@ -19,9 +19,9 @@ gases are considered to be fluids because they yield to shearing forces, whereas
 solids resist them. Note that the extent to which fluids yield to shearing
 forces (and hence flow easily and quickly) depends on a quantity called the
 viscosity which is discussed in detail
-in [Viscosity and Laminar Flow; Poiseuille’s Law](/ch12ViscosityAndLaminarFlow). We can understand
-the phases of matter and what constitutes a fluid by considering the forces
-between atoms that make up matter in the three phases.
+in [Viscosity and Laminar Flow; Poiseuille’s Law](/ch12ViscosityAndLaminarFlow).
+We can understand the phases of matter and what constitutes a fluid by
+considering the forces between atoms that make up matter in the three phases.
 
 ![This figure has three parts. Part a shows a solid, and the atoms in the solid are shown as small red spheres held together in a grid. Part b shows a liquid in a short cylindrical container, and the atoms in the liquid are represented by small red spheres that can move past one another. The movement of the atoms is represented by arrows. Part c shows a cylinder that is labeled to indicate that it contains oxygen gas. The atoms in the gas are represented by small red spheres that move around. Their motion is indicated by arrows./](../resources/Figure_12_01_01a.jpg "(a) Atoms in a solid always have the same neighbors, held near home by forces represented here by springs. These atoms are essentially in contact with one another. A rock is an example of a solid. This rock retains its shape because of the forces holding its atoms together. (b) Atoms in a liquid are also in close contact but can slide over one another. Forces between them strongly resist attempts to push them closer together and also hold them in close contact. Water is an example of a liquid. Water can flow, but it also remains in an open container because of the forces between its atoms. (c) Atoms in a gas are separated by distances that are considerably larger than the size of the atoms themselves, and they move about freely. A gas must be held in a closed container to prevent it from moving out freely.")
 {: #Figure1}
@@ -116,6 +116,6 @@ How do gases differ from liquids?
 {: class="glossary-title"}
 
 fluids
-: liquids and gases; a fluid is a state of matter that yields to shearing forces 
+: liquids and gases; a fluid is a state of matter that yields to shearing forces
 
 </div>

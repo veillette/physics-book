@@ -355,6 +355,6 @@ length must increase by 0.0116%.
 {: class="glossary-title"}
 
 simple pendulum
-: an object with a small mass suspended from a light wire or string 
+: an object with a small mass suspended from a light wire or string
 
 </div>

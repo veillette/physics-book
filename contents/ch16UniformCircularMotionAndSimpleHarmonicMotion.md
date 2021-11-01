@@ -64,9 +64,10 @@ position $$x $$ is given by:
 </div>
 
 This expression is the same one we had for the position of a simple harmonic
-oscillator in [Simple Harmonic Motion: A Special Periodic Motion](/ch16SimpleHarmonicMotion). If
-we make a graph of position versus time as in [[Figure 3]](#Figure3), we see
-again the wavelike character (typical of simple harmonic motion) of the
+oscillator
+in [Simple Harmonic Motion: A Special Periodic Motion](/ch16SimpleHarmonicMotion)
+. If we make a graph of position versus time as in [[Figure 3]](#Figure3), we
+see again the wavelike character (typical of simple harmonic motion) of the
 projection of uniform circular motion onto the $$x $$ -axis.
 
 ![The given figure shows a vertical turntable with four floor projecting light bulbs at the top. A smaller sized rectangular bar is attached to this turntable at the bottom half, with a circular knob attached to it. A red colored small ball is rolling along the boundary of this knob in angular direction. The turnaround table is put upon a roller paper sheet, on which the simple harmonic motion is measured, which is shown here in oscillating waves on the paper sheet in front of the table. A graph of amplitude versus time is also given alongside the figure.](../resources/Figure_17_06_04a.jpg "The position of the projection of uniform circular motion performs simple harmonic motion, as this wavelike graph of \( x \) versus \( t \) indicates.")
@@ -90,9 +91,10 @@ We can solve this equation for the speed $$v $$ or
 
 This expression for the speed of a simple harmonic oscillator is exactly the
 same as the equation obtained from conservation of energy considerations
-in [Energy and the Simple Harmonic Oscillator](/ch16EnergyAndTheSimpleHarmonicOscillator).You can begin to see
-that it is possible to get all of the characteristics of simple harmonic motion
-from an analysis of the projection of uniform circular motion.
+in [Energy and the Simple Harmonic Oscillator](/ch16EnergyAndTheSimpleHarmonicOscillator)
+.You can begin to see that it is possible to get all of the characteristics of
+simple harmonic motion from an analysis of the projection of uniform circular
+motion.
 
 Finally, let us consider the period $$T $$ of the motion of the projection. This
 period is the time it takes the point P to complete one revolution. That time is

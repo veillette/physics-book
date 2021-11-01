@@ -26,9 +26,9 @@ magnitude and direction. (Note that the magnitude of the electric field
 strength, a scalar quantity, is represented by $$E $$ below.) The relationship
 between $$\Delta V $$ and $$\mathbf{\text{E}} $$ is revealed by calculating the
 work done by the force in moving a charge from point A to point B. But, as noted
-in [Electric Potential Energy: Potential Difference](/ch19ElectricPotentialEnergy), this is complex
-for arbitrary charge distributions, requiring calculus. We therefore look at a
-uniform electric field as an interesting special case.
+in [Electric Potential Energy: Potential Difference](/ch19ElectricPotentialEnergy)
+, this is complex for arbitrary charge distributions, requiring calculus. We
+therefore look at a uniform electric field as an interesting special case.
 
 ![The figure shows two vertically oriented parallel plates A and B separated by a distance d. The plate A is positively charged and B is negatively charged. Electric field lines are parallel between the plates and curved at the ends of the plates. A charge q is moved from A to B. The work done W equals q times V sub A B, and the electric field intensity E equals V sub A B over d and potential difference delta V equals q times V sub A B.](../resources/Figure_20_02_01a.jpg "The relationship between \( V \) and \( E \) for parallel conducting plates is \( E=V/d \) . (Note that \( \Delta V = V_{\text{AB}} \) in magnitude. For a charge that is moved from plate A at higher potential to plate B at lower potential, a minus sign needs to be included as follows:  \( -\Delta V = V_\text{A} -V_\text{B} = V_{\text{AB}} \). See the text for details.)")
 {: #Figure1}

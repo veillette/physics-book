@@ -450,6 +450,6 @@ cycle
 Otto cycle
 : a thermodynamic cycle, consisting of a pair of adiabatic processes and a pair
 of isochoric processes, that converts heat into work, e.g., the four-stroke
-engine cycle of intake, compression, ignition, and exhaust 
+engine cycle of intake, compression, ignition, and exhaust
 
 </div>

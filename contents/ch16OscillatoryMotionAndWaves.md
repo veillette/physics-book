@@ -39,6 +39,6 @@ oscillate
 : moving back and forth regularly between two points
 
 wave
-: a disturbance that moves from its source and carries energy 
+: a disturbance that moves from its source and carries energy
 
 </div>

@@ -210,6 +210,6 @@ periodic motion
 : motion that repeats itself at regular time intervals
 
 frequency
-: number of events per unit of time 
+: number of events per unit of time
 
 </div>

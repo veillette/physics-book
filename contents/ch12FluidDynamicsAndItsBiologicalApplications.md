@@ -19,6 +19,6 @@ questions.
 {: class="glossary-title"}
 
 fluid dynamics
-: the physics of fluids in motion 
+: the physics of fluids in motion
 
 </div>

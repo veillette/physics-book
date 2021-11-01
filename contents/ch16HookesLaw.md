@@ -336,6 +336,6 @@ force constant
 the more rigid the system; the force constant is represented by *k*
 
 restoring force
-: force acting in opposition to the force caused by a deformation 
+: force acting in opposition to the force caused by a deformation
 
 </div>

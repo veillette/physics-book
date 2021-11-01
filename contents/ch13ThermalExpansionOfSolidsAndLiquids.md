@@ -413,7 +413,8 @@ Alternatively, we can combine these three equations into a single equation. (Not
 
 This amount is significant, particularly for a 60.0-L tank. The effect is so
 striking because the gasoline and steel expand quickly. The rate of change in
-thermal properties is discussed in [Heat and Heat Transfer Methods](/ch14HeatAndHeatTransfers).
+thermal properties is discussed
+in [Heat and Heat Transfer Methods](/ch14HeatAndHeatTransfers).
 
 If you try to cap the tank tightly to prevent overflow, you will find that it
 leaks anyway, either around the cap or by bursting the tank. Tightly
@@ -800,6 +801,6 @@ coefficient of volume expansion
 change in temperature
 
 thermal stress
-: stress caused by thermal expansion or contraction 
+: stress caused by thermal expansion or contraction
 
 </div>

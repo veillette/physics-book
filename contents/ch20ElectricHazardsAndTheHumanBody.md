@@ -14,8 +14,8 @@ such as starting a fire in the wall of a house. A **shock hazard** occurs when
 electric current passes through a person. Shocks range in severity from painful,
 but otherwise harmless, to heart-stopping lethality. This section considers
 these hazards and the various factors affecting them in a quantitative
-manner. [Electrical Safety: Systems and Devices](/ch23ElectricalSafetySystemsAndDevices) will consider systems
-and devices for preventing electrical hazards.
+manner. [Electrical Safety: Systems and Devices](/ch23ElectricalSafetySystemsAndDevices)
+will consider systems and devices for preventing electrical hazards.
 
 ### Thermal Hazards
 
@@ -227,7 +227,8 @@ home with 60-Hz AC!) Some of the spectacular demonstrations of electricity, in
 which high-voltage arcs are passed through the air and over people’s bodies,
 employ high frequencies and low currents. (See [[Figure 6]](#Figure6).)
 Electrical safety devices and techniques are discussed in detail
-in [Electrical Safety: Systems and Devices](/ch23ElectricalSafetySystemsAndDevices).
+in [Electrical Safety: Systems and Devices](/ch23ElectricalSafetySystemsAndDevices)
+.
 
 ![Photograph of an electric arc produced between two multi stranded wires close to each other but not in contact.](../resources/Figure_21_06_06a.jpg "Is this electric arc dangerous? The answer depends on the AC frequency and the power involved. (credit: Khimich Alex, Wikimedia Commons)")
 {: #Figure6}
@@ -470,6 +471,6 @@ source
 microshock sensitive
 : a condition in which a person’s skin resistance is bypassed, possibly by a
 medical procedure, rendering the person vulnerable to electrical shock at
-currents about 1/1000 the normally required level 
+currents about 1/1000 the normally required level
 
 </div>

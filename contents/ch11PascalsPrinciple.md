@@ -232,6 +232,6 @@ calculated for the nonfriction case.
 
 Pascal’s Principle
 : a change in pressure applied to an enclosed fluid is transmitted undiminished
-to all portions of the fluid and to the walls of its container 
+to all portions of the fluid and to the walls of its container
 
 </div>

@@ -278,6 +278,7 @@ where $$\sigma = 5.67 \times 10^{-8} \text{J/s}\cdot {\text{m}}^{2}\cdot
 {\text{K}}^{4} $$ is the Stefan-Boltzmann constant and $$e $$ is the emissivity
 of the body. For a black body, $$e=1 $$ whereas a shiny white or perfect
 reflector has $$e=0 $$ , with real objects having values of $$e $$ between 1 and
+
 0. The net rate of heat transfer by radiation is
 
   <div class="equation" >
@@ -773,6 +774,6 @@ temperature difference
 Stefan-Boltzmann law of radiation
 :  $$\frac{Q}{t}=\sigma eA{T}^{4}, $$ where $$\sigma $$ is the Stefan-Boltzmann
 constant, $$A $$ is the surface area of the object, $$T $$ is the absolute
-temperature, and $$e $$ is the emissivity 
+temperature, and $$e $$ is the emissivity
 
 </div>

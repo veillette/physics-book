@@ -367,10 +367,10 @@ as **Dalton’s law of partial pressures**, after the English scientist John
 Dalton (1766–1844), who proposed it. Dalton’s law is based on kinetic theory,
 where each gas creates its pressure by molecular collisions, independent of
 other gases present. It is consistent with the fact that pressures add according
-to [Pascal’s Principle](/ch11PascalsPrinciple). Thus water evaporates and ice sublimates when
-their vapor pressures exceed the partial pressure of water vapor in the
-surrounding mixture of gases. If their vapor pressures are less than the partial
-pressure of water vapor in the surrounding gas, liquid droplets or ice
+to [Pascal’s Principle](/ch11PascalsPrinciple). Thus water evaporates and ice
+sublimates when their vapor pressures exceed the partial pressure of water vapor
+in the surrounding mixture of gases. If their vapor pressures are less than the
+partial pressure of water vapor in the surrounding gas, liquid droplets or ice
 crystals (frost) form.
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
@@ -503,6 +503,6 @@ available
 
 Dalton’s law of partial pressures
 : the physical law that states that the total pressure of a gas is the sum of
-partial pressures of the component gases 
+partial pressures of the component gases
 
 </div>

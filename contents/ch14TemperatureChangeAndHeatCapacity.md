@@ -171,7 +171,7 @@ the brake material alone.
    where $$m $$     
    is the mass of the brake material. Insert the values $$m=100 \text{kg} $$
 
-   and $$c=800 \text{J/kg}\cdot \text{ºC} $$ to find     
+   and $$c=800 \text{J/kg}\cdot \text{ºC} $$ to find
    <div class="equation" >
    $$\Delta T=\frac{\left( 7.35 \times 10^{5} \text{J}\right)}{\left(100
    \text{kg}\right)\left(800 \text{J/kgºC}\right)}=9.2 \text{ºC.} $$
@@ -359,15 +359,15 @@ $$\mid {Q}_{\text{hot}}\mid ={Q}_{\text{cold}} $$.
 4. This an equation for the unknown final temperature, $${T}_{\text{f}} $$
 5. Bring all terms involving $${T}_{\text{f}} $$     
    on the left-hand side and all other terms on the right-hand side. Solve for
-   $${T}_{\text{f}} $$ ,  
+   $${T}_{\text{f}} $$ ,
    <div class="equation" >
    $${T}_{\text{f}}=\frac{ {m}_{\text{Al}}{c}_{\text{Al}}\left(150
    \text{ºC}\right)+{m}_{W}{c}_{W}\left(20.0\text{ºC}\right)}{ {m}_
    {\text{Al}}{c}_{\text{Al}}+{m}_{W}{c}_{W}}\text{,} $$
    </div>
 
-    and insert the numerical values:
-    
+   and insert the numerical values:
+
     <div class="equation" >
      $$\begin{array}{lll}{T}_{\text{f}}& =& \frac{\left(0.500 \text{kg}\right)\left(900 \text{J/kgºC}\right)\left(150 \text{ºC}\right)+\left(0.250 \text{kg}\right)\left(4186 \text{J/kgºC}\right)\left(20.0 \text{ºC}\right)}{\left(0.500 \text{kg}\right)\left(900 \text{J/kgºC}\right)+\left(0.250 \text{kg}\right)\left(4186 \text{J/kgºC}\right)}\\ & =& \frac{88430 \text{J}}{1496.5 \text{J/ºC}}\\ & =& 59.1\text{ºC.}\end{array} $$
     </div>
@@ -592,6 +592,6 @@ Even when shut down after a period of normal use, a large commercial nuclear rea
 
 specific heat
 : the amount of heat necessary to change the temperature of 1.00 kg of a
-substance by 1.00 ºC 
+substance by 1.00 ºC
 
 </div>

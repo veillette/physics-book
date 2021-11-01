@@ -548,6 +548,6 @@ rate of conductive heat transfer
 : rate of heat transfer from one material to another
 
 thermal conductivity
-: the property of a material’s ability to conduct heat 
+: the property of a material’s ability to conduct heat
 
 </div>

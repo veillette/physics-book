@@ -141,7 +141,9 @@ rise in the pressure in the vena cavae and a drop in pressure in the arteries to
 the lungs. Left-heart failure results in a rise in the pressure entering the
 left side of the heart and a drop in aortal pressure. Implications of these and
 other pressures on flow in the circulatory system will be discussed in more
-detail in [Fluid Dynamics and Its Biological and Medical Applications](/ch12FluidDynamicsAndItsBiologicalApplications).
+detail
+in [Fluid Dynamics and Its Biological and Medical Applications](/ch12FluidDynamicsAndItsBiologicalApplications)
+.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -334,7 +336,8 @@ avoid an imbalance of force on the eardrum.
 
 Many pressures in the human body are associated with the flow of fluids. Fluid
 flow will be discussed in detail in
-the [Fluid Dynamics and Its Biological and Medical Applications](/ch12FluidDynamicsAndItsBiologicalApplications).
+the [Fluid Dynamics and Its Biological and Medical Applications](/ch12FluidDynamicsAndItsBiologicalApplications)
+.
 
 ### Section Summary
 
@@ -589,6 +592,6 @@ micturition reflex
 : stimulates the feeling of needing to urinate, triggered by bladder pressure
 
 systolic pressure
-: maximum arterial blood pressure; indicator for the blood flow 
+: maximum arterial blood pressure; indicator for the blood flow
 
 </div>

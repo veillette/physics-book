@@ -504,6 +504,6 @@ incompressible frictionless fluid: $$P+\frac{1}{2}\rho v^{2} +\rho g h
 Bernoulli’s principle
 : Bernoulli’s equation applied at constant depth:
 
-$${P}_{1}+\frac{1}{2}\rho v_{1}^{2}={P}_{2}+\frac{1}{2}\rho v_{2}^{2}\text{.} $$ 
+$${P}_{1}+\frac{1}{2}\rho v_{1}^{2}={P}_{2}+\frac{1}{2}\rho v_{2}^{2}\text{.} $$
 
 </div>
