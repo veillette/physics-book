@@ -1,8 +1,7 @@
 ---
 title: "Heat Transfer Methods"
 layout: page
----
-
+--- 
 
 <div class="abstract" markdown="1">
 * Discuss the different methods of heat transfer.
@@ -98,7 +97,6 @@ convection
 
 radiation
 : heat transfer which occurs when microwaves, infrared radiation, visible light,
-or other electromagnetic radiation is emitted or absorbed
-
+or other electromagnetic radiation is emitted or absorbed 
 
 </div>

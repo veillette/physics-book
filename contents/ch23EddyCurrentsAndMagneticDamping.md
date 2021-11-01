@@ -1,8 +1,7 @@
 ---
 title: "Eddy Currents and Magnetic Damping"
 layout: page
----
-
+--- 
 
 <div class="abstract" markdown="1">
 * Explain the magnitude and direction of an induced eddy current, and the effect this will have on the object it is induced in.
@@ -143,8 +142,7 @@ Make a drawing similar to [[Figure 2]](#Figure2), but with the pendulum moving i
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-![Figure shows the five stages of a single loop coil moved into and then out of a uniform magnetic field from left to right. It shows five stages a to d. The magnetic field B out is in a rectangular region and directed out of the paper. In stage a, the single loop coil is outside the magnetic field on the left side. In stage b, the single loop coil is partially inside the fields. In stage c, the single loop coil is fully inside the magnetic field. In stage d, the single loop coil is partially outside the magnetic field. In stage e, the single loop coil is fully outside the magnetic field now on the right.](../resources/Figure_24_04_08.jpg "A coil is moved into and out of a region of uniform magnetic field."){: #Figure8}
-
+![Figure shows the five stages of a single loop coil moved into and then out of a uniform magnetic field from left to right. It shows five stages a to d. The magnetic field B out is in a rectangular region and directed out of the paper. In stage a, the single loop coil is outside the magnetic field on the left side. In stage b, the single loop coil is partially inside the fields. In stage c, the single loop coil is fully inside the magnetic field. In stage d, the single loop coil is partially outside the magnetic field. In stage e, the single loop coil is fully outside the magnetic field now on the right.](../resources/Figure_24_04_08.jpg "A coil is moved into and out of a region of uniform magnetic field."){: #Figure8} 
 
 A coil is moved through a magnetic field as shown in [[Figure 8]](#Figure8). The
 field is uniform inside the rectangle and zero outside. What is the direction of
@@ -162,7 +160,6 @@ eddy current
 : a current loop in a conductor caused by motional emf
 
 magnetic damping
-: the drag produced by eddy currents
-
+: the drag produced by eddy currents 
 
 </div>

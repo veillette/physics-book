@@ -589,7 +589,6 @@ micturition reflex
 : stimulates the feeling of needing to urinate, triggered by bladder pressure
 
 systolic pressure
-: maximum arterial blood pressure; indicator for the blood flow
-
+: maximum arterial blood pressure; indicator for the blood flow 
 
 </div>

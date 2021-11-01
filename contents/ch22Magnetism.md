@@ -1,12 +1,7 @@
 ---
 title: "Introduction to Magnetism"
 layout: page
----
-
-
-
-
-
+---    
 
 ![A shimmering curtain of green lights in the sky above a snow covered landscape. Stars are visible in the dusky sky beyond the lights.](../resources/Figure_23_00_01a_D.jpg "The magnificent spectacle of the Aurora Borealis, or northern lights, glows in the northern sky above Bear Lake near Eielson Air Force Base, Alaska. Shaped by the Earth&#x2019;s magnetic field, this light is produced by radiation spewed from solar storms. (credit: Senior Airman Joshua Strang, via Flickr)")
 

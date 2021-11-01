@@ -496,7 +496,6 @@ inductive reactance
 
 capacitive reactance
 : the opposition of a capacitor to a change in current; calculated by $${X}_
-{C}=\frac{1}{2\pi \text{fC}} $$
-
+{C}=\frac{1}{2\pi \text{fC}} $$ 
 
 </div>

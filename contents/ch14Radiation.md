@@ -259,8 +259,7 @@ Problem-Solving Strategies for the Methods of Heat Transfer
      $$\frac{ {Q}_{\text{net}}}{t}=\sigma eA\left({T}_{2}^{4}-{T}_{1}^{4}\right) $$
         gives the net heat transfer rate.
 7.   *Insert the knowns along with their units into the appropriate equation and obtain numerical solutions complete with units.*
-8.   *Check the answer to see if it is reasonable. Does it make sense?*
-
+8.   *Check the answer to see if it is reasonable. Does it make sense?* 
 
 </div>
 
@@ -774,7 +773,6 @@ temperature difference
 Stefan-Boltzmann law of radiation
 :  $$\frac{Q}{t}=\sigma eA{T}^{4}, $$ where $$\sigma $$ is the Stefan-Boltzmann
 constant, $$A $$ is the surface area of the object, $$T $$ is the absolute
-temperature, and $$e $$ is the emissivity
-
+temperature, and $$e $$ is the emissivity 
 
 </div>

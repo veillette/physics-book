@@ -317,7 +317,6 @@ Carnot engine
 : a heat engine that uses a Carnot cycle
 
 Carnot efficiency
-: the maximum theoretical efficiency for a heat engine
-
+: the maximum theoretical efficiency for a heat engine 
 
 </div>

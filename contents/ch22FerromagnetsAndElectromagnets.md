@@ -193,7 +193,6 @@ through it
 
 magnetic monopoles
 : an isolated magnetic pole; a south pole without a north pole, or vice versa (
-no magnetic monopole has ever been observed)
-
+no magnetic monopole has ever been observed) 
 
 </div>

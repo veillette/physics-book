@@ -667,7 +667,6 @@ in a circuit
 power factor
 : the amount by which the power delivered in the circuit is less than the
 theoretical maximum of the circuit due to voltage and current being out of
-phase; calculated by $$\cos \varphi $$
-
+phase; calculated by $$\cos \varphi $$ 
 
 </div>

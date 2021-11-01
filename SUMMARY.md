@@ -23,7 +23,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     10. [Superposition and Interference](contents/ch16SuperpositionAndResonance.md)
     11. [Energy in Waves: Intensity](contents/ch16EnergyInWaves.md)
 
-3. {: .chapter} [Physics of Hearing](contents/ch17PhysicsOfHearing)
+3. {: .chapter} [Physics of Hearing](contents/ch17PhysicsOfHearing.md)
    1. [Sound](contents/ch17Sound.md)
    2. [Speed of Sound, Frequency, and Wavelength](contents/ch17SpeedOfSoundFrequencyAndWavelength.md)
    3. [Sound Intensity and Sound Level](contents/ch17SoundIntensityAndSoundLevel.md)
@@ -93,7 +93,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
    11. [More Applications of Magnetism](contents/ch22MoreApplicationsOfMagnetism.md)
 
 10. {: .chapter} [Electromagnetic Induction, AC Circuits, and Electrical Technologies](contents/ch23ElectromagneticInductionACCircuitsAndElectricalTechnologies.md)
-    1.  [Induced Emf and Magnetic Flux](contents/ch23InducedEmfAndMagneticFlux)
+    1.  [Induced Emf and Magnetic Flux](contents/ch23InducedEmfAndMagneticFlux.md)
     2.  [Faraday’s Law of Induction: Lenz’s Law](contents/ch23FaradaysLawOfInduction.md)
     3.  [Motional Emf](contents/ch23MotionalEmf.md)
     4.  [Eddy Currents and Magnetic Damping](contents/ch23EddyCurrentsAndMagneticDamping.md)

@@ -169,7 +169,6 @@ velocity
 terminal speed
 : the speed at which the viscous drag of an object falling in a viscous fluid is
 equal to the other forces acting on the object (such as gravity), so that the
-acceleration of the object is zero
-
+acceleration of the object is zero 
 
 </div>

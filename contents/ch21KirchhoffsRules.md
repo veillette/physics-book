@@ -238,8 +238,7 @@ Problem-Solving Strategies for Kirchhoff’s Rules
 2.   Apply the junction rule to any junction in the circuit. Each time the junction rule is applied, you should get an equation with a current that does not appear in a previous application—if not, then the equation is redundant.
 3.   Apply the loop rule to as many loops as needed to solve for the unknowns in the problem. (There must be as many independent equations as unknowns.) To apply the loop rule, you must choose a direction to go around the loop. Then carefully and consistently determine the signs of the potential changes for each element using the four bulleted points discussed above in conjunction with [[Figure 4]](#Figure4).
 4.   Solve the simultaneous equations for the unknowns. This may involve many algebraic steps, requiring careful checking and rechecking.
-5.   Check to see whether the answers are reasonable and consistent. The numbers should be of the correct order of magnitude, neither exceedingly large nor vanishingly small. The signs should be reasonable—for example, no resistance should be negative. Check to see that the values obtained satisfy the various equations obtained from applying the rules. The currents should satisfy the junction rule, for example.
-
+5.   Check to see whether the answers are reasonable and consistent. The numbers should be of the correct order of magnitude, neither exceedingly large nor vanishingly small. The signs should be reasonable—for example, no resistance should be negative. Check to see that the values obtained satisfy the various equations obtained from applying the rules. The currents should satisfy the junction rule, for example. 
 
 </div>
 
@@ -462,7 +461,6 @@ the circuit. Thus, the emf equals the sum of the $$IR $$
 $$\text{emf}=Ir+IR_{1}+IR_{2} $$
 
 conservation laws
-: require that energy and charge be conserved in a system
-
+: require that energy and charge be conserved in a system 
 
 </div>

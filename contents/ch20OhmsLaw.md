@@ -279,7 +279,6 @@ ohmic
 : a type of a material for which Ohm\'s law is valid
 
 simple circuit
-: a circuit with a single voltage source and a single resistor
-
+: a circuit with a single voltage source and a single resistor 
 
 </div>

@@ -636,7 +636,6 @@ difference of one volt
 
 mechanical energy
 : sum of the kinetic energy and potential energy of a system; this sum is a
-constant
-
+constant 
 
 </div>

@@ -513,7 +513,6 @@ ultrasound
 : sounds above 20 000 Hz
 
 infrasound
-: sounds below 20 Hz
-
+: sounds below 20 Hz 
 
 </div>

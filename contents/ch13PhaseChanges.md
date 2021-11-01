@@ -503,7 +503,6 @@ available
 
 Dalton’s law of partial pressures
 : the physical law that states that the total pressure of a gas is the sum of
-partial pressures of the component gases
-
+partial pressures of the component gases 
 
 </div>

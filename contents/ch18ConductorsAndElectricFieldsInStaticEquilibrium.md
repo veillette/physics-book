@@ -55,8 +55,7 @@ Properties of a Conductor in Electrostatic Equilibrium
 </div>
 1.   The electric field is zero inside a conductor.
 2.   Just outside a conductor, the electric field lines are perpendicular to its surface, ending or beginning on charges on the surface.
-3.   Any excess charge resides entirely on the surface or surfaces of a conductor.
-
+3.   Any excess charge resides entirely on the surface or surfaces of a conductor. 
 
 </div>
 
@@ -509,7 +508,6 @@ which is responsible for a range of phenomena including the electric field
 surrounding Earth
 
 Faraday cage
-: a metal shield which prevents electric charge from penetrating its surface
-
+: a metal shield which prevents electric charge from penetrating its surface 
 
 </div>

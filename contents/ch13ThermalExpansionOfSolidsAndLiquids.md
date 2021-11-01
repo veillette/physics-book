@@ -800,7 +800,6 @@ coefficient of volume expansion
 change in temperature
 
 thermal stress
-: stress caused by thermal expansion or contraction
-
+: stress caused by thermal expansion or contraction 
 
 </div>

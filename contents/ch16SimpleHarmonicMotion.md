@@ -405,7 +405,6 @@ Hooke’s law
 simple harmonic oscillator
 : a device that implements Hooke’s law, such as a mass that is attached to a
 spring, with the other end of the spring being connected to a rigid support such
-as a wall
-
+as a wall 
 
 </div>

@@ -505,7 +505,6 @@ adiabatic process
 
 reversible process
 : a process in which both the heat engine system and the external environment
-theoretically can be returned to their original states
-
+theoretically can be returned to their original states 
 
 </div>

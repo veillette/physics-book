@@ -140,7 +140,6 @@ kilocalorie
 :  $$ 1 \text{kilocalorie} = 1000 \text{calories} $$
 
 mechanical equivalent of heat
-: the work needed to produce the same effects as heat transfer
-
+: the work needed to produce the same effects as heat transfer 
 
 </div>

@@ -403,7 +403,6 @@ gauge pressure
 : the pressure relative to atmospheric pressure
 
 systolic pressure
-: the maximum blood pressure in the artery
-
+: the maximum blood pressure in the artery 
 
 </div>

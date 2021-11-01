@@ -319,7 +319,6 @@ magnetic force
 Lorentz force
 
 gauss
-: G, the unit of the magnetic field strength; $$1 \text{G}=10^{-4} \text{T} $$
-
+: G, the unit of the magnetic field strength; $$1 \text{G}=10^{-4} \text{T} $$ 
 
 </div>

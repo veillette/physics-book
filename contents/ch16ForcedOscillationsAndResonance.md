@@ -197,7 +197,6 @@ resonance
 natural frequency
 
 resonate
-: a system being driven at its natural frequency
-
+: a system being driven at its natural frequency 
 
 </div>

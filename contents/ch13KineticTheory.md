@@ -533,8 +533,7 @@ There are two important isotopes of uranium—  $${}^{235}\text{U} $$
 
 thermal energy
 :  $$\overline{\text{KE}} $$ , the average translational kinetic energy of a
-molecule
-
+molecule 
 
 </div>
 

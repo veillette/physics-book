@@ -391,7 +391,6 @@ step-up transformer
 : a transformer that increases voltage
 
 step-down transformer
-: a transformer that decreases voltage
-
+: a transformer that decreases voltage 
 
 </div>

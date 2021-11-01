@@ -1,8 +1,7 @@
 ---
 title: "Sound"
 layout: page
----
-
+--- 
 
 <div class="abstract" markdown="1">
 * Define sound and hearing.
@@ -91,7 +90,6 @@ sound
 : a disturbance of matter that is transmitted from its source outward
 
 hearing
-: the perception of sound
-
+: the perception of sound 
 
 </div>

@@ -254,7 +254,6 @@ equipotential line
 : a line along which the electric potential is constant
 
 grounding
-: fixing a conductor at zero volts by connecting it to the earth or ground
-
+: fixing a conductor at zero volts by connecting it to the earth or ground 
 
 </div>

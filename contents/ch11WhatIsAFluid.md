@@ -1,8 +1,7 @@
 ---
 title: "What Is a Fluid?"
 layout: page
----
-
+--- 
 
 <div class="abstract" markdown="1">
 * State the common phases of matter.
@@ -86,32 +85,28 @@ Heat, cool, and compress atoms and molecules and watch as they change between so
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-What physical characteristic distinguishes a fluid from a solid?
-
+What physical characteristic distinguishes a fluid from a solid? 
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Which of the following substances are fluids at room temperature: air, mercury, water, glass?
-
+Which of the following substances are fluids at room temperature: air, mercury, water, glass? 
 
 </div>
 </div>
 
 <div class="exercise">
 <div class="problem" markdown="1">
-Why are gases easier to compress than liquids and solids?
-
+Why are gases easier to compress than liquids and solids? 
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-How do gases differ from liquids?
-
+How do gases differ from liquids? 
 
 </div>
 </div>
@@ -121,7 +116,6 @@ How do gases differ from liquids?
 {: class="glossary-title"}
 
 fluids
-: liquids and gases; a fluid is a state of matter that yields to shearing forces
-
+: liquids and gases; a fluid is a state of matter that yields to shearing forces 
 
 </div>
