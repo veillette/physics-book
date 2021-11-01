@@ -508,7 +508,6 @@ contact; the two objects have the same temperature
 zeroth law of thermodynamics
 : law that states that if two objects are in thermal equilibrium, and a third
 object is in thermal equilibrium with one of those objects, it is also in
-thermal equilibrium with the other object
-
+thermal equilibrium with the other object 
 
 </div>

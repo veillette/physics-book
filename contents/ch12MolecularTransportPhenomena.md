@@ -359,7 +359,6 @@ direction of dialysis through membranes
 
 active transport
 : the process in which a living membrane expends energy to move substances
-across
-
+across 
 
 </div>

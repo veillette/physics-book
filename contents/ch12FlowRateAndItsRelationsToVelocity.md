@@ -466,7 +466,6 @@ flow rate
 during a time *t*, or *Q = V/t*
 
 liter
-: a unit of volume, equal to 10<sup>−3</sup> m<sup>3</sup>
-
+: a unit of volume, equal to 10<sup>−3</sup> m<sup>3</sup> 
 
 </div>

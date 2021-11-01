@@ -292,7 +292,6 @@ under damping
 : the condition in which damping of an oscillator causes it to return to
 equilibrium with the amplitude gradually decreasing to zero; system returns to
 equilibrium faster but overshoots and crosses the equilibrium position one or
-more times
-
+more times 
 
 </div>

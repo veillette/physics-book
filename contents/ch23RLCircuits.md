@@ -284,7 +284,6 @@ parameters.
 characteristic time constant
 : denoted by $$\tau $$ , of a particular series *RL* circuit is calculated by
 $$\tau =\frac{L}{R} $$ , where $$L $$ is the inductance and $$R $$ is the
-resistance
-
+resistance 
 
 </div>

@@ -366,7 +366,6 @@ how your answer depends on the time duration of the exposure.
 {: class="glossary-title"}
 
 intensity
-: power per unit area
-
+: power per unit area 
 
 </div>

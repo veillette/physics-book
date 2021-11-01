@@ -133,8 +133,7 @@ Problem-Solving Strategies for Electrostatics
 4.   Make a list of what is given or can be inferred from the problem as stated (identify the knowns). It is important to distinguish the Coulomb force  $$F $$  from the electric field
      $$E $$, for example.
 5.   Solve the appropriate equation for the quantity to be determined (the unknown) or draw the field lines as requested.
-6.   Examine the answer to see if it is reasonable: Does it make sense? Are units correct and the numbers involved reasonable?
-
+6.   Examine the answer to see if it is reasonable: Does it make sense? Are units correct and the numbers involved reasonable? 
 
 </div>
 
@@ -565,7 +564,6 @@ electrostatic plates to create images on paper
 
 electrostatic precipitators
 : filters that apply charges to particles in the air, then attract those charges
-to a filter, removing them from the airstream
-
+to a filter, removing them from the airstream 
 
 </div>

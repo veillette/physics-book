@@ -627,7 +627,6 @@ buoyant force
 : the net upward force on any object in any fluid
 
 specific gravity
-: the ratio of the density of an object to a fluid (usually water)
-
+: the ratio of the density of an object to a fluid (usually water) 
 
 </div>

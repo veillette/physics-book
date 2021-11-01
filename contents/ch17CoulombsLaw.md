@@ -350,7 +350,6 @@ Coulomb force
 : another term for the electrostatic force
 
 electrostatic force
-: the amount and direction of attraction or repulsion between two charged bodies
-
+: the amount and direction of attraction or repulsion between two charged bodies 
 
 </div>

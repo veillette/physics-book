@@ -2,8 +2,7 @@
 title: "*Extended Topic* Microscopy Enhanced by the Wave Characteristics of
 Light"
 layout: page
----
-
+--- 
 
 <div class="abstract" markdown="1">
 * Discuss the different types of microscopes.
@@ -194,7 +193,6 @@ useful for objects that are optically active
 
 ultraviolet (UV) microscopes
 : microscopes constructed with special lenses that transmit UV rays and utilize
-photographic or electronic techniques to record images
-
+photographic or electronic techniques to record images 
 
 </div>

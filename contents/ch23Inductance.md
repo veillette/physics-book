@@ -511,7 +511,6 @@ inductor
 
 energy stored in an inductor
 : self-explanatory; calculated by $${E}_{\text{ind}}=\frac{1}{2}{\text{LI}}^{2}
-$$
-
+$$ 
 
 </div>

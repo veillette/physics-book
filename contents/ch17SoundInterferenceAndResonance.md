@@ -565,7 +565,6 @@ overtones
 : all resonant frequencies higher than the fundamental
 
 harmonics
-: the term used to refer collectively to the fundamental and its overtones
-
+: the term used to refer collectively to the fundamental and its overtones 
 
 </div>

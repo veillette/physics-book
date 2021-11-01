@@ -592,7 +592,6 @@ Even when shut down after a period of normal use, a large commercial nuclear rea
 
 specific heat
 : the amount of heat necessary to change the temperature of 1.00 kg of a
-substance by 1.00 ºC
-
+substance by 1.00 ºC 
 
 </div>

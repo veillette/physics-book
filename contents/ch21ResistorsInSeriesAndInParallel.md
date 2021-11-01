@@ -216,8 +216,7 @@ Major Features of Resistors in Series
 1.   Series resistances add:
      $${R}_{\text{s}}={R}_{1}+{R}_{2}+{R}_{3}+\text{....} $$
 2.   The same current flows through each resistor in series.
-3.   Individual resistors in series do not get the total source voltage, but divide it.
-
+3.   Individual resistors in series do not get the total source voltage, but divide it. 
 
 </div>
 
@@ -411,8 +410,7 @@ Major Features of Resistors in Parallel
 1.   Parallel resistance is found from
      $$\frac{1}{ {R}_{\text{p}}}=\frac{1}{ {R}_{1}}+\frac{1}{ {R}_{2}}+\frac{1}{ {R}_{3}}+\text{...} $$ ,   and it is smaller than any individual resistance in the combination.
 2.   Each resistor in parallel has the same full voltage of the source applied to it. (Power distribution systems most often use parallel connections to supply the myriad devices served with the same voltage and to allow them to operate independently.)
-3.   Parallel resistors do not each get the total current; they divide it.
-
+3.   Parallel resistors do not each get the total current; they divide it. 
 
 </div>
 
@@ -600,8 +598,7 @@ Problem-Solving Strategies for Series and Parallel Resistors
 3.   Determine whether resistors are in series, parallel, or a combination of both series and parallel. Examine the circuit diagram to make this assessment. Resistors are in series if the same current must pass sequentially through them.
 4.   Use the appropriate list of major features for series or parallel connections to solve for the unknowns. There is one list for series and another for parallel. If your problem has a combination of series and parallel, reduce it in steps by considering individual groups of series or parallel connections, as done in this module and the examples. Special note: When finding
      $$R{}_{\text{p}}  $$ ,   the reciprocal must be taken with care.
-5.   Check to see whether the answers are reasonable and consistent. Units and numerical results must be reasonable. Total series resistance should be greater, whereas total parallel resistance should be smaller, for example. Power should be greater for the same devices in parallel compared with series, and so on.
-
+5.   Check to see whether the answers are reasonable and consistent. Units and numerical results must be reasonable. Total series resistance should be greater, whereas total parallel resistance should be smaller, for example. Power should be greater for the same devices in parallel compared with series, and so on. 
 
 </div>
 
@@ -933,7 +930,6 @@ $${P}_{e}=IV $$
 parallel
 : the wiring of resistors or other components in an electrical circuit such that
 each component receives an equal voltage from the power source; often pictured
-in a ladder-shaped diagram, with each component on a rung of the ladder
-
+in a ladder-shaped diagram, with each component on a rung of the ladder 
 
 </div>

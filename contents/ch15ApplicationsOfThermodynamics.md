@@ -234,8 +234,7 @@ Problem-Solving Strategies for Thermodynamics
 4.   **Make a list of what is given or can be inferred from the problem as stated (identify the knowns)*.* Be sure to distinguish heat transfer into a system from heat transfer out of the system, as well as work input from work output. In many situations, it is useful to determine the type of process, such as isothermal or adiabatic.
 5.   **Solve the appropriate equation for the quantity to be determined (the unknown).**
 6.   **Substitute the known quantities along with their units into the appropriate equation and obtain numerical solutions complete with units.**
-7.   **Check the answer to see if it is reasonable: Does it make sense?** For example, efficiency is always less than 1, whereas coefficients of performance are greater than 1.
-
+7.   **Check the answer to see if it is reasonable: Does it make sense?** For example, efficiency is always less than 1, whereas coefficients of performance are greater than 1. 
 
 </div>
 
@@ -424,7 +423,6 @@ heat pump
 coefficient of performance
 : for a heat pump, it is the ratio of heat transfer at the output (the hot
 reservoir) to the work supplied; for a refrigerator or air conditioner, it is
-the ratio of heat transfer from the cold reservoir to the work supplied
-
+the ratio of heat transfer from the cold reservoir to the work supplied 
 
 </div>

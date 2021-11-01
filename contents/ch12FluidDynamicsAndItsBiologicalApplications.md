@@ -2,12 +2,7 @@
 title: "Introduction to Fluid Dynamics and Its Biological and Medical
 Applications"
 layout: page
----
-
-
-
-
-
+---    
 
 ![Photograph shows a group of firefighters in uniform using a hose to put out a fire that is consuming two cars.](../resources/Figure_13_00_01a_D.jpg "Many fluids are flowing in this scene. Water from the hose and smoke from the fire are visible flows. Less visible are the flow of air and the flow of fluids on the ground and within the people fighting the fire. Explore all types of flow, such as visible, implied, turbulent, laminar, and so on, present in this scene. Make a list and discuss the relative energies involved in the various flows, including the level of confidence in your estimates. (credit: Andrew Magill, Flickr)")
 
@@ -24,7 +19,6 @@ questions.
 {: class="glossary-title"}
 
 fluid dynamics
-: the physics of fluids in motion
-
+: the physics of fluids in motion 
 
 </div>

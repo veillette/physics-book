@@ -1,8 +1,7 @@
 ---
 title: "Magnetic Fields and Magnetic Field Lines"
 layout: page
----
-
+--- 
 
 <div class="abstract" markdown="1">
 * Define magnetic field and describe the magnetic field lines of various magnetic fields.

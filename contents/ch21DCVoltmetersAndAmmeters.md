@@ -485,7 +485,6 @@ shunt resistance
 : a small resistance $$R $$ placed in parallel with a galvanometer G to produce
 an ammeter; the larger the current to be measured, the smaller $$R $$ must be;
 most of the current flowing through the meter is shunted through $$R $$ to
-protect the galvanometer
-
+protect the galvanometer 
 
 </div>

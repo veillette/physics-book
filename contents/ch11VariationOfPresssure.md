@@ -415,7 +415,6 @@ Show that the total force on a rectangular dam due to the water behind it increa
 {: class="glossary-title"}
 
 pressure
-: the weight of the fluid divided by the area supporting it
-
+: the weight of the fluid divided by the area supporting it 
 
 </div>

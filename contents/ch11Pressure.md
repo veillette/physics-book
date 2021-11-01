@@ -224,7 +224,6 @@ Nail tips exert tremendous pressures when they are hit by hammers because they e
 {: class="glossary-title"}
 
 pressure
-: the force per unit area perpendicular to the force, over which the force acts
-
+: the force per unit area perpendicular to the force, over which the force acts 
 
 </div>

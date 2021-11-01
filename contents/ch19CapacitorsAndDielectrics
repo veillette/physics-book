@@ -291,67 +291,67 @@ How large a capacitor can you make using a chewing gum wrapper? The plates will 
             <td>Air</td>
             <td>1.00059</td>
             <td>
-               $$3 \times 10^{6}  $$ 
+               $$3 \times 10^{6}  $$
             </td>
           </tr><tr>
             <td>Bakelite</td>
             <td>4.9</td>
             <td>
-               $$24 \times 10^{6}  $$ 
+               $$24 \times 10^{6}  $$
             </td>
           </tr><tr>
             <td>Fused quartz</td>
             <td>3.78</td>
             <td>
-               $$8 \times 10^{6}  $$ 
+               $$8 \times 10^{6}  $$
             </td>
           </tr><tr>
             <td>Neoprene rubber</td>
             <td>6.7</td>
             <td>
-               $$12 \times 10^{6}  $$ 
+               $$12 \times 10^{6}  $$
             </td>
           </tr><tr>
             <td>Nylon</td>
             <td>3.4</td>
             <td>
-               $$14 \times 10^{6}  $$ 
+               $$14 \times 10^{6}  $$
             </td>
           </tr><tr>
             <td>Paper</td>
             <td>3.7</td>
             <td>
-               $$16 \times 10^{6}  $$ 
+               $$16 \times 10^{6}  $$
             </td>
           </tr><tr>
             <td>Polystyrene</td>
             <td>2.56</td>
             <td>
-               $$24 \times 10^{6}  $$ 
+               $$24 \times 10^{6}  $$
             </td>
           </tr><tr>
             <td>Pyrex glass</td>
             <td>5.6</td>
             <td>
-               $$14 \times 10^{6}  $$ 
+               $$14 \times 10^{6}  $$
             </td>
           </tr><tr>
             <td>Silicon oil</td>
             <td>2.5</td>
             <td>
-               $$15 \times 10^{6}  $$ 
+               $$15 \times 10^{6}  $$
             </td>
           </tr><tr>
             <td>Strontium titanate</td>
             <td>233</td>
             <td>
-               $$8 \times 10^{6}  $$ 
+               $$8 \times 10^{6}  $$
             </td>
           </tr><tr>
             <td>Teflon</td>
             <td>2.1</td>
             <td>
-               $$60 \times 10^{6}  $$ 
+               $$60 \times 10^{6}  $$
             </td>
           </tr><tr>
             <td>Water</td>
@@ -707,6 +707,5 @@ parallel plate capacitor
 
 polar molecule
 : a molecule with inherent separation of charge
-
 
 </div>

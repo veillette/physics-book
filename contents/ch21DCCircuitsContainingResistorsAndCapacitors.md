@@ -664,7 +664,6 @@ two opposing plates
 
 capacitance
 : the maximum amount of electric potential energy that can be stored (or
-separated) for a given electric potential
-
+separated) for a given electric potential 
 
 </div>

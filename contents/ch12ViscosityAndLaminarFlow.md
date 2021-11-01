@@ -808,7 +808,6 @@ Poiseuille’s law for resistance
 
 Poiseuille’s law
 : the rate of laminar flow of an incompressible fluid in a tube: *Q* = (*P*<sub>
-2</sub> − *P*<sub>1</sub>)*πr*<sup>4</sup>/8*ηl*
-
+2</sub> − *P*<sub>1</sub>)*πr*<sup>4</sup>/8*ηl* 
 
 </div>

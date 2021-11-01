@@ -362,8 +362,7 @@ Problem-Solving Strategies for Entropy
 4.   *Make a list of what is given or can be inferred from the problem as stated (identify the knowns).* You must carefully identify the heat transfer, if any, and the temperature at which the process takes place. It is also important to identify the initial and final states.
 5.   *Solve the appropriate equation for the quantity to be determined (the unknown).* Note that the change in entropy can be determined between any states by calculating it for a reversible process.
 6.   *Substitute the known value along with their units into the appropriate equation, and obtain numerical solutions complete with units.*
-7.   *To see if it is reasonable: Does it make sense?* For example, total entropy should increase for any real process or be constant for a reversible process. Disordered states should be more probable and have greater entropy than ordered states.
-
+7.   *To see if it is reasonable: Does it make sense?* For example, total entropy should increase for any real process or be constant for a reversible process. Disordered states should be more probable and have greater entropy than ordered states. 
 
 </div>
 
@@ -545,7 +544,6 @@ microstate
 : each sequence within a larger macrostate
 
 statistical analysis
-: using statistics to examine data, such as counting microstates and macrostates
-
+: using statistics to examine data, such as counting microstates and macrostates 
 
 </div>

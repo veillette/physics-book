@@ -470,7 +470,6 @@ source
 microshock sensitive
 : a condition in which a person’s skin resistance is bypassed, possibly by a
 medical procedure, rendering the person vulnerable to electrical shock at
-currents about 1/1000 the normally required level
-
+currents about 1/1000 the normally required level 
 
 </div>

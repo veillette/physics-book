@@ -760,7 +760,6 @@ percent relative humidity
 : the ratio of vapor density to saturation vapor density
 
 relative humidity
-: the amount of water in the air relative to the maximum amount the air can hold
-
+: the amount of water in the air relative to the maximum amount the air can hold 
 
 </div>

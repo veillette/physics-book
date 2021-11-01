@@ -501,7 +501,6 @@ where $$I_0$$ is the peak current, in an AC system
 
 rms voltage
 : the root mean square of the voltage, $${V}_{\text{rms}}={V}_{0}/\sqrt{2} $$ ,
-where $$V_0$$ is the peak voltage, in an AC system
-
+where $$V_0$$ is the peak voltage, in an AC system 
 
 </div>
