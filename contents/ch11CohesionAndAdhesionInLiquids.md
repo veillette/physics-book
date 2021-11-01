@@ -415,18 +415,18 @@ responsible for sap getting to the tops of trees.
 
 How *does* sap get to the tops of tall trees? (Recall that a column of water can
 only rise to a height of 10 m when there is a vacuum at the
-top—see [[link]](/ch11VariationOfPresssure#fs-id2937185).) The question has not been completely
-resolved, but it appears that it is pulled up like a chain held together by
-cohesive forces. As each molecule of sap enters a leaf and evaporates (a process
-called transpiration), the entire chain is pulled up a notch. So a negative
-pressure created by water evaporation must be present to pull the sap up through
-the xylem vessels. In most situations, *fluids can push but can exert only
-negligible pull*, because the cohesive forces seem to be too small to hold the
-molecules tightly together. But in this case, the cohesive force of water
-molecules provides a very strong pull. [[Figure 9]](#Figure9) shows one device
-for studying negative pressure. Some experiments have demonstrated that negative
-pressures sufficient to pull sap to the tops of the tallest trees *can* be
-achieved.
+top—see [[link]](/ch11VariationOfPresssure#fs-id2937185).) The question has not
+been completely resolved, but it appears that it is pulled up like a chain held
+together by cohesive forces. As each molecule of sap enters a leaf and
+evaporates (a process called transpiration), the entire chain is pulled up a
+notch. So a negative pressure created by water evaporation must be present to
+pull the sap up through the xylem vessels. In most situations, *fluids can push
+but can exert only negligible pull*, because the cohesive forces seem to be too
+small to hold the molecules tightly together. But in this case, the cohesive
+force of water molecules provides a very strong pull. [[Figure 9]](#Figure9)
+shows one device for studying negative pressure. Some experiments have
+demonstrated that negative pressures sufficient to pull sap to the tops of the
+tallest trees *can* be achieved.
 
 ![When the piston is raised the liquid stretches somewhat, which results in negative pressure.](../resources/Figure_12_08_11a.jpg "(a) When the piston is raised, it stretches the liquid slightly, putting it under tension and creating a negative absolute pressure \( P= -F/A \) . (b) The liquid eventually separates, giving an experimental limit to negative pressure in this liquid.")
 {: #Figure9}
@@ -674,6 +674,6 @@ surface
 
 surface tension
 : the cohesive forces between molecules which cause the surface of a liquid to
-contract to the smallest possible surface area 
+contract to the smallest possible surface area
 
 </div>

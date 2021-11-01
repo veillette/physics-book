@@ -100,9 +100,9 @@ waves that are absorbed and reemitted depends sensitively on the type of
 nucleus, the chemical environment, and the external magnetic field strength.
 Therefore, this is a *resonance* phenomenon in which *nuclei* in a *magnetic*
 field act like resonators (analogous to those discussed in the treatment of
-sound in [Oscillatory Motion and Waves](/ch16OscillatoryMotionAndWaves)) that absorb and reemit only
-certain frequencies. Hence, the phenomenon is named *nuclear magnetic
-resonance (NMR).*
+sound in [Oscillatory Motion and Waves](/ch16OscillatoryMotionAndWaves)) that
+absorb and reemit only certain frequencies. Hence, the phenomenon is named *
+nuclear magnetic resonance (NMR).*
 
 NMR has been used for more than 50 years as an analytical tool. It was
 formulated in 1946 by F. Bloch and E. Purcell, with the 1952 Nobel Prize in

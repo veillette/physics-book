@@ -37,9 +37,9 @@ decreases from its initial value of $${I}_{0}=\frac{\text{emf}}{R} $$ to zero as
 the voltage on the capacitor reaches the same value as the emf. When there is no
 current, there is no $$IR $$ drop, and so the voltage on the capacitor must then
 equal the emf of the voltage source. This can also be explained with Kirchhoff’s
-second rule (the loop rule), discussed in [Kirchhoff’s Rules](/ch21KirchhoffsRules), which
-says that the algebraic sum of changes in potential around any closed loop must
-be zero.
+second rule (the loop rule), discussed
+in [Kirchhoff’s Rules](/ch21KirchhoffsRules), which says that the algebraic sum
+of changes in potential around any closed loop must be zero.
 
 The initial current is $${I}_{0}=\frac{\text{emf}}{R} $$ , because all of the
 $$IR $$ drop is in the resistance. Therefore, the smaller the resistance, the
@@ -664,6 +664,6 @@ two opposing plates
 
 capacitance
 : the maximum amount of electric potential energy that can be stored (or
-separated) for a given electric potential 
+separated) for a given electric potential
 
 </div>

@@ -9,7 +9,8 @@ layout: page
 </div>
 
 **Electric generators** induce an emf by rotating a coil in a magnetic field, as
-briefly discussed in [Induced Emf and Magnetic Flux](/ch23InducedEmfAndMagneticFlux). We will now
+briefly discussed
+in [Induced Emf and Magnetic Flux](/ch23InducedEmfAndMagneticFlux). We will now
 explore generators in more detail. Consider the following example.
 
 <div class="example" markdown="1">
@@ -387,6 +388,6 @@ $$ -turn coil rotated at a constant angular velocity $$\omega $$ in a uniform
 magnetic field $$B $$ , over a period of time $$t $$
 
 peak emf
-:  $${\text{emf}}_{0}=NAB\omega $$ 
+:  $${\text{emf}}_{0}=NAB\omega $$
 
 </div>

@@ -88,6 +88,6 @@ north pole
 
 south magnetic pole
 : the end or the side of a magnet that is attracted toward Earth’s geographic
-south pole 
+south pole
 
 </div>

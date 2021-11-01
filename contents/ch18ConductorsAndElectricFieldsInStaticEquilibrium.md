@@ -508,6 +508,6 @@ which is responsible for a range of phenomena including the electric field
 surrounding Earth
 
 Faraday cage
-: a metal shield which prevents electric charge from penetrating its surface 
+: a metal shield which prevents electric charge from penetrating its surface
 
 </div>

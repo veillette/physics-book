@@ -70,8 +70,10 @@ relationship is
 
 where $${V}_{0R} $$ , $${V}_{0L} $$ , and $${V}_{0C} $$ are the peak voltages
 across $$R $$ , $$L $$ , and $$C $$ , respectively. Now, using Ohm’s law and
-definitions from [Reactance, Inductive and Capacitive](/ch23ReactanceInductiveAndCapactive), we substitute
-$${V}_{0}={I}_{0}Z $$ into the above, as well as $${V}_{0R}={I}_{0}R $$ , $${V}_
+definitions
+from [Reactance, Inductive and Capacitive](/ch23ReactanceInductiveAndCapactive),
+we substitute $${V}_{0}={I}_{0}Z $$ into the above, as well as $${V}_{0R}={I}_
+{0}R $$ , $${V}_
 {0L}={I}_{0}{X}_{L} $$ , and $${V}_{0C}={I}_{0}{X}_{C} $$, yielding
 
 <div class="equation" >
@@ -113,10 +115,12 @@ reactances again.
 **Solution for (a)**
 
 At 60.0 Hz, the values of the reactances were found
-in [[link]](/ch23ReactanceInductiveAndCapactive#fs-id1169736972664) to be $${X}_{L}= 1.13 \Omega $$ and
-in [[link]](/ch23ReactanceInductiveAndCapactive#fs-id1169736597928) to be $${X}_{C}=531 \Omega $$ . Entering
-these and the given $$40.0 \text{Ω} $$ for resistance into $$Z=\sqrt{
-{R}^{2}+{\left( {X}_{L}-{X}_{C} \right)}^{2}} $$ yields
+in [[link]](/ch23ReactanceInductiveAndCapactive#fs-id1169736972664) to be $${X}_
+{L}= 1.13 \Omega $$ and
+in [[link]](/ch23ReactanceInductiveAndCapactive#fs-id1169736597928) to be $${X}_
+{C}=531 \Omega $$ . Entering these and the given $$40.0 \text{Ω} $$ for
+resistance into $$Z=\sqrt{ {R}^{2}+{\left( {X}_{L}-{X}_{C} \right)}^{2}} $$
+yields
 
 <div class="equation" >
  $$\begin{array}{lll}Z& =& \sqrt{ {R}^{2}+{\left( {X}_{L}-{X}_{C} \right)}^{2}}\\ & =& \sqrt{ {\left(  40.0 \Omega  \right)}^{2}+{\left(  1.13 \Omega -531 \Omega  \right)}^{2}}\\ & =& 531 \Omega \text{ at} 60. \text{Hz}\text{.}\end{array} $$
@@ -151,10 +155,11 @@ $${I}_{\text{rms}}=\frac{ {V}_{\text{rms}}}{Z}=\frac{120 \text{V}}{190 \Omega }=
 **Discussion for (a)**
 
 The current at 60.0 Hz is the same (to three digits) as found for the capacitor
-alone in [[link]](/ch23ReactanceInductiveAndCapactive#fs-id1169736597928). The capacitor dominates at low
-frequency. The current at 10.0 kHz is only slightly different from that found
-for the inductor alone in [[link]](/ch23ReactanceInductiveAndCapactive#fs-id1169736972664). The inductor
-dominates at high frequency.
+alone in [[link]](/ch23ReactanceInductiveAndCapactive#fs-id1169736597928). The
+capacitor dominates at low frequency. The current at 10.0 kHz is only slightly
+different from that found for the inductor alone
+in [[link]](/ch23ReactanceInductiveAndCapactive#fs-id1169736972664). The
+inductor dominates at high frequency.
 
 </div>
 
@@ -284,8 +289,9 @@ delivered to the circuit. It can be shown that the **average power** is
 </div>
 
 Thus $$\cos \varphi $$ is called the **power factor**, which can range from 0 to
+
 1. Power factors near 1 are desirable when designing an efficient motor, for
-example. At the resonant frequency, $$\cos \varphi =1 $$.
+   example. At the resonant frequency, $$\cos \varphi =1 $$.
 
 <div class="example" markdown="1">
 <div class="title">
@@ -404,8 +410,8 @@ Build circuits with capacitors, inductors, resistors and AC or DC voltage source
      where
    $${I}_{0} $$ is the peak current and
    $${V}_{0} $$ is the peak source voltage.
-*  Impedance has units of ohms and is given by
-   $$Z=\sqrt{ {R}^{2}+{\left( {X}_{L}-{X}_{C} \right)}^{2}} $$ . 
+* Impedance has units of ohms and is given by $$Z=\sqrt{ {R}^{2}+{\left( {X}_
+  {L}-{X}_{C} \right)}^{2}} $$ .
 
 * The resonant frequency $${f}_{0} $$ , at which $${X}_{L}={X}_{C} $$ , is
 
@@ -667,6 +673,6 @@ in a circuit
 power factor
 : the amount by which the power delivered in the circuit is less than the
 theoretical maximum of the circuit due to voltage and current being out of
-phase; calculated by $$\cos \varphi $$ 
+phase; calculated by $$\cos \varphi $$
 
 </div>

@@ -84,12 +84,13 @@ principle is the same as the interference microscope, the phase-contrast
 microscope is simpler to use and construct. Its impact (and the principle upon
 which it is based) was so important that its developer, the Dutch physicist
 Frits Zernike (1888–1966), was awarded the Nobel Prize in
+
 1953. [[Figure 3]](#Figure3) shows the basic construction of a phase-contrast
-microscope. Phase differences between light passing through the object and
-background are produced by passing the rays through different parts of a phase
-plate (so called because it shifts the phase of the light passing through it).
-These two light rays are superimposed in the image plane, producing contrast due
-to their interference.
+      microscope. Phase differences between light passing through the object and
+      background are produced by passing the rays through different parts of a
+      phase plate (so called because it shifts the phase of the light passing
+      through it). These two light rays are superimposed in the image plane,
+      producing contrast due to their interference.
 
 ![The schematic shows two beams of light going up from the bottom of the image and crossing at a point labeled object. After passing through the object, the beams diverge and then are focused by a convex lens. The light passes through a plate called the phase plate, and the beams then focus on the image plane. The background light diverges after passing through the phase plate so that it spreads away from the primary light beam on the image plane.](../resources/Figure_28_09_03a.jpg "Simplified construction of a phase-contrast microscope. Phase differences between light passing through the object and background are produced by passing the rays through different parts of a phase plate. The light rays are superimposed in the image plane, producing contrast due to their interference.")
 {: #Figure3}
@@ -193,6 +194,6 @@ useful for objects that are optically active
 
 ultraviolet (UV) microscopes
 : microscopes constructed with special lenses that transmit UV rays and utilize
-photographic or electronic techniques to record images 
+photographic or electronic techniques to record images
 
 </div>

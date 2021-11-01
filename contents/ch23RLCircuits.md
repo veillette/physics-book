@@ -134,8 +134,9 @@ certainly does not go to zero instantaneously.
 
 In summary, when the voltage applied to an inductor is changed, the current also
 changes, **but the change in current lags the change in voltage in an RL
-circuit**. In [Reactance, Inductive and Capacitive](/ch23ReactanceInductiveAndCapactive), we explore how
-an *RL* circuit behaves when a sinusoidal AC voltage is applied.
+circuit**.
+In [Reactance, Inductive and Capacitive](/ch23ReactanceInductiveAndCapactive),
+we explore how an *RL* circuit behaves when a sinusoidal AC voltage is applied.
 
 ### Section Summary
 
@@ -147,14 +148,11 @@ an *RL* circuit behaves when a sinusoidal AC voltage is applied.
   </div>
      where
    $${I}_{0}=V/R $$ is the final current.
-*  The characteristic time constant
-   $$\tau  $$ is
-   $$\tau =\frac{L}{R} $$ ,  where
-   $$L $$ is the inductance and    $$R $$ is the resistance.
-*  In the first time constant
-   $$\tau  $$ ,  the current rises from zero to
-   $$ 0.632{I}_{0} $$ ,  and 0.632 of the remainder in every subsequent time interval
-   $$\tau  $$ . 
+* The characteristic time constant $$\tau $$ is $$\tau =\frac{L}{R} $$ , where
+  $$L $$ is the inductance and $$R $$ is the resistance.
+* In the first time constant $$\tau $$ , the current rises from zero to $$
+  0.632{I}_{0} $$ , and 0.632 of the remainder in every subsequent time interval
+  $$\tau $$ .
 
 * When the inductor is shorted through a resistor, current decreases as
 
@@ -163,10 +161,8 @@ an *RL* circuit behaves when a sinusoidal AC voltage is applied.
   </div>
      Here
    $${I}_{0} $$ is the initial current.
-*  Current falls to
-   $$ 0.368{I}_{0} $$ in the first time interval
-   $$\tau  $$ ,  and 0.368 of the remainder toward zero in each subsequent time
-   $$\tau  $$ . 
+* Current falls to $$ 0.368{I}_{0} $$ in the first time interval $$\tau $$ , and
+  0.368 of the remainder toward zero in each subsequent time $$\tau $$ .
 
 ### Problem Exercises
 
@@ -284,6 +280,6 @@ parameters.
 characteristic time constant
 : denoted by $$\tau $$ , of a particular series *RL* circuit is calculated by
 $$\tau =\frac{L}{R} $$ , where $$L $$ is the inductance and $$R $$ is the
-resistance 
+resistance
 
 </div>

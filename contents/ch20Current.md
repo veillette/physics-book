@@ -594,6 +594,6 @@ ampere
 
 drift velocity
 : the average velocity at which free charges flow in response to an electric
-field 
+field
 
 </div>

@@ -213,6 +213,6 @@ shock hazard
 
 three-wire system
 : the wiring system used at present for safety reasons, with live, neutral, and
-ground wires 
+ground wires
 
 </div>

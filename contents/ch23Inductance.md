@@ -40,10 +40,10 @@ where $$M $$ is defined to be the mutual inductance between the two devices. The
 minus sign is an expression of Lenz’s law. The larger the mutual inductance $$M
 $$ , the more effective the coupling. For example, the coils
 in [[Figure 1]](#Figure1) have a small $$M $$ compared with the transformer
-coils in [[link]](/ch23Transformers#import-auto-id1169738052317). Units for $$M $$ are
-$$\left(\text{V}\cdot \text{s}\right)\text{/A}=\Omega \cdot \text{s} $$ , which
-is named a **henry** (H), after Joseph Henry. That is, $$1 H=1 \Omega \cdot
-\text{s} $$.
+coils in [[link]](/ch23Transformers#import-auto-id1169738052317). Units for $$M
+$$ are $$\left(\text{V}\cdot \text{s}\right)\text{/A}=\Omega \cdot \text{s} $$ ,
+which is named a **henry** (H), after Joseph Henry. That is, $$1 H=1 \Omega
+\cdot \text{s} $$.
 
 Nature is symmetric here. If we change the current $${I}_{2} $$ in coil 2, we
 induce an $${\text{emf}}_{1} $$ in coil 1, which is given by
@@ -277,9 +277,8 @@ input is infinite.
   </div>
      where
    $$M $$ is defined to be the mutual inductance between the two devices, and the minus sign is due to Lenz’s law.
-*  Symmetrically, a change in current
-   $$\Delta {I}_{2}/\Delta t $$ through the second device induces an emf
-   $${\text{emf}}_{1} $$ in the first:
+* Symmetrically, a change in current $$\Delta {I}_{2}/\Delta t $$ through the
+  second device induces an emf $${\text{emf}}_{1} $$ in the first:
   <div class="equation" >
    $${\text{emf}}_{1}=-M\frac{\Delta {I}_{2}}{\Delta t}\text{,} $$
   </div>
@@ -313,8 +312,7 @@ input is infinite.
    $$A $$ is its cross-sectional area,
    $$\ell  $$ is its length, and
    $${\text{μ}}_{0}=4\pi  \times 10^{\text{−7}} \text{T}\cdot \text{m/A}  $$ is the permeability of free space.
-*  The energy stored in an inductor
-   $${E}_{\text{ind}} $$ is
+* The energy stored in an inductor $${E}_{\text{ind}} $$ is
   <div class="equation" >
    $${E}_{\text{ind}}=\frac{1}{2}{\text{LI}}^{2}\text{.} $$
   </div>
@@ -511,6 +509,6 @@ inductor
 
 energy stored in an inductor
 : self-explanatory; calculated by $${E}_{\text{ind}}=\frac{1}{2}{\text{LI}}^{2}
-$$ 
+$$
 
 </div>

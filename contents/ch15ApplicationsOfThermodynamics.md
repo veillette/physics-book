@@ -423,6 +423,6 @@ heat pump
 coefficient of performance
 : for a heat pump, it is the ratio of heat transfer at the output (the hot
 reservoir) to the work supplied; for a refrigerator or air conditioner, it is
-the ratio of heat transfer from the cold reservoir to the work supplied 
+the ratio of heat transfer from the cold reservoir to the work supplied
 
 </div>

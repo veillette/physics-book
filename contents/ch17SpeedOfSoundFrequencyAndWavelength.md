@@ -435,6 +435,6 @@ which means that it could miss grabbing its prey.
 {: class="glossary-title"}
 
 pitch
-: the perception of the frequency of a sound 
+: the perception of the frequency of a sound
 
 </div>

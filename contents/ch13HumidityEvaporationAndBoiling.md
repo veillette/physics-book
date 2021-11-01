@@ -354,7 +354,8 @@ to be $$23.0 {\text{g/m}}^{3} $$ . Thus, the relative humidity at $$
 The importance of dew point is that air temperature cannot drop below $$
 10.0\text{ºC} $$ in part (b), or $$ - 10.0\text{ºC} $$ in part (c), without
 water vapor condensing out of the air. If condensation occurs, considerable
-transfer of heat occurs (discussed in [Heat and Heat Transfer Methods](/ch14HeatAndHeatTransfers))
+transfer of heat occurs (discussed
+in [Heat and Heat Transfer Methods](/ch14HeatAndHeatTransfers))
 , which prevents the temperature from further dropping. When dew points are
 below $$0\text{ºC} $$ , freezing temperatures are a greater possibility, which
 explains why farmers keep track of the dew point. Low humidity in deserts means
@@ -760,6 +761,6 @@ percent relative humidity
 : the ratio of vapor density to saturation vapor density
 
 relative humidity
-: the amount of water in the air relative to the maximum amount the air can hold 
+: the amount of water in the air relative to the maximum amount the air can hold
 
 </div>

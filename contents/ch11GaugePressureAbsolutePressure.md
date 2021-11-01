@@ -16,13 +16,13 @@ no mystery here. Tire gauges are simply designed to read zero at atmospheric
 pressure and positive when pressure is greater than atmospheric.
 
 Similarly, atmospheric pressure adds to blood pressure in every part of the
-circulatory system. (As noted in [Pascal’s Principle](/ch11PascalsPrinciple), the total
-pressure in a fluid is the sum of the pressures from different sources—here, the
-heart and the atmosphere.) But atmospheric pressure has no net effect on blood
-flow since it adds to the pressure coming out of the heart and going back into
-it, too. What is important is how much *greater* blood pressure is than
-atmospheric pressure. Blood pressure measurements, like tire pressures, are thus
-made relative to atmospheric pressure.
+circulatory system. (As noted in [Pascal’s Principle](/ch11PascalsPrinciple),
+the total pressure in a fluid is the sum of the pressures from different
+sources—here, the heart and the atmosphere.) But atmospheric pressure has no net
+effect on blood flow since it adds to the pressure coming out of the heart and
+going back into it, too. What is important is how much *greater* blood pressure
+is than atmospheric pressure. Blood pressure measurements, like tire pressures,
+are thus made relative to atmospheric pressure.
 
 In brief, it is very common for pressure gauges to ignore atmospheric
 pressure—that is, to read zero at atmospheric pressure. We therefore define **
@@ -403,6 +403,6 @@ gauge pressure
 : the pressure relative to atmospheric pressure
 
 systolic pressure
-: the maximum blood pressure in the artery 
+: the maximum blood pressure in the artery
 
 </div>

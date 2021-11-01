@@ -691,6 +691,6 @@ potential difference
 circuit, measured in volts
 
 terminal voltage
-: the voltage measured across the terminals of a source of potential difference 
+: the voltage measured across the terminals of a source of potential difference
 
 </div>

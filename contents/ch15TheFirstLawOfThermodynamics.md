@@ -478,6 +478,6 @@ internal energy
 molecules
 
 human metabolism
-: conversion of food into heat transfer, work, and stored fat 
+: conversion of food into heat transfer, work, and stored fat
 
 </div>

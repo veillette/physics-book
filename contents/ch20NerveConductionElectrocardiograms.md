@@ -174,14 +174,15 @@ as an indicator of heart-muscle function and see that it is coordinated with
 arterial blood pressure as well.
 
 Heart function and its four-chamber action are explored
-in [Viscosity and Laminar Flow; Poiseuille’s Law](/ch12ViscosityAndLaminarFlow). Basically, the right
-and left atria receive blood from the body and lungs, respectively, and pump the
-blood into the ventricles. The right and left ventricles, in turn, pump blood
-through the lungs and the rest of the body, respectively. Depolarization of the
-heart muscle causes it to contract. After contraction it is repolarized to ready
-it for the next beat. The ECG measures components of depolarization and
-repolarization of the heart muscle and can yield significant information on the
-functioning and malfunctioning of the heart.
+in [Viscosity and Laminar Flow; Poiseuille’s Law](/ch12ViscosityAndLaminarFlow).
+Basically, the right and left atria receive blood from the body and lungs,
+respectively, and pump the blood into the ventricles. The right and left
+ventricles, in turn, pump blood through the lungs and the rest of the body,
+respectively. Depolarization of the heart muscle causes it to contract. After
+contraction it is repolarized to ready it for the next beat. The ECG measures
+components of depolarization and repolarization of the heart muscle and can
+yield significant information on the functioning and malfunctioning of the
+heart.
 
 [[Figure 8]](#Figure8) shows an ECG of the lead II potential and a graph of the
 corresponding arterial blood pressure. The major features are labeled P, Q, R,
@@ -300,6 +301,6 @@ semipermeable
 
 electrocardiogram (ECG)
 : usually abbreviated ECG, a record of voltages created by depolarization and
-repolarization, especially in the heart 
+repolarization, especially in the heart
 
 </div>

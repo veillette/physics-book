@@ -172,9 +172,9 @@ Making a measurement alters the system being measured in a manner that produces 
 
 There is another measurement technique based on drawing no current at all and,
 hence, not altering the circuit at all. These are called null measurements and
-are the topic of [Null Measurements](/ch21NullMeasurements). Digital meters that employ
-solid-state electronics and null measurements can attain accuracies of one part
-in $$10^{6} $$.
+are the topic of [Null Measurements](/ch21NullMeasurements). Digital meters that
+employ solid-state electronics and null measurements can attain accuracies of
+one part in $$10^{6} $$.
 
 </div>
 
@@ -485,6 +485,6 @@ shunt resistance
 : a small resistance $$R $$ placed in parallel with a galvanometer G to produce
 an ammeter; the larger the current to be measured, the smaller $$R $$ must be;
 most of the current flowing through the meter is shunted through $$R $$ to
-protect the galvanometer 
+protect the galvanometer
 
 </div>

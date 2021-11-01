@@ -97,6 +97,6 @@ convection
 
 radiation
 : heat transfer which occurs when microwaves, infrared radiation, visible light,
-or other electromagnetic radiation is emitted or absorbed 
+or other electromagnetic radiation is emitted or absorbed
 
 </div>

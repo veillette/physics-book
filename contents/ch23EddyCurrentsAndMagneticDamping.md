@@ -160,6 +160,6 @@ eddy current
 : a current loop in a conductor caused by motional emf
 
 magnetic damping
-: the drag produced by eddy currents 
+: the drag produced by eddy currents
 
 </div>

@@ -930,6 +930,6 @@ $${P}_{e}=IV $$
 parallel
 : the wiring of resistors or other components in an electrical circuit such that
 each component receives an equal voltage from the power source; often pictured
-in a ladder-shaped diagram, with each component on a rung of the ladder 
+in a ladder-shaped diagram, with each component on a rung of the ladder
 
 </div>

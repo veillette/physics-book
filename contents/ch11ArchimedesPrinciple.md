@@ -113,9 +113,9 @@ Calculating buoyant force: dependency on shape
 
 To find the buoyant force, we must find the weight of water displaced. We can do
 this by using the densities of water and steel given
-in [[link]](/ch11Density#fs-id1769034). We note that, since the steel is completely
-submerged, its volume and the water’s volume are the same. Once we know the
-volume of water, we can find its mass and weight.
+in [[link]](/ch11Density#fs-id1769034). We note that, since the steel is
+completely submerged, its volume and the water’s volume are the same. Once we
+know the volume of water, we can find its mass and weight.
 
 **Solution for (a)**
 
@@ -355,9 +355,9 @@ coin using the definition of density:
 </div>
 **Discussion**
 
-You can see from [[link]](/ch11Density#fs-id1769034) that this density is very close
-to that of pure silver, appropriate for this type of ancient coin. Most modern
-counterfeits are not pure silver.
+You can see from [[link]](/ch11Density#fs-id1769034) that this density is very
+close to that of pure silver, appropriate for this type of ancient coin. Most
+modern counterfeits are not pure silver.
 
 </div>
 
@@ -627,6 +627,6 @@ buoyant force
 : the net upward force on any object in any fluid
 
 specific gravity
-: the ratio of the density of an object to a fluid (usually water) 
+: the ratio of the density of an object to a fluid (usually water)
 
 </div>

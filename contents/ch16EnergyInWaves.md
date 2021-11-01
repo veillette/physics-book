@@ -159,11 +159,11 @@ If two identical waves, each having an intensity of  $$ 1.00 {\text{W/m}}^{2} $$
 
 **Strategy**
 
-We know from [Superposition and Interference](/ch16SuperpositionAndResonance) that when two identical
-waves, which have equal amplitudes $$X $$ , interfere perfectly constructively,
-the resulting wave has an amplitude of $$2X $$ . Because a wave’s intensity is
-proportional to amplitude squared, the intensity of the resulting wave is four
-times as great as in the individual waves.
+We know from [Superposition and Interference](/ch16SuperpositionAndResonance)
+that when two identical waves, which have equal amplitudes $$X $$ , interfere
+perfectly constructively, the resulting wave has an amplitude of $$2X $$ .
+Because a wave’s intensity is proportional to amplitude squared, the intensity
+of the resulting wave is four times as great as in the individual waves.
 
 **Solution**
 
@@ -200,13 +200,14 @@ violation, of course, cannot happen. What does happen is intriguing. The area
 over which the intensity is $$ 4.00 {\text{W/m}}^{2} $$ is much less than the
 area covered by the two waves before they interfered. There are other areas
 where the intensity is zero. The addition of waves is not as simple as our first
-look in [Superposition and Interference](/ch16SuperpositionAndResonance) suggested. We actually get a
-pattern of both constructive interference and destructive interference whenever
-two waves are added. For example, if we have two stereo speakers putting out $$
-1.00 {\text{W/m}}^{2} $$ each, there will be places in the room where the
-intensity is $$ 4.00 {\text{W/m}}^{2} $$ , other places where the intensity is
-zero, and others in between. [[Figure 1]](#Figure1) shows what this interference
-might look like. We will pursue interference patterns elsewhere in this text.
+look in [Superposition and Interference](/ch16SuperpositionAndResonance)
+suggested. We actually get a pattern of both constructive interference and
+destructive interference whenever two waves are added. For example, if we have
+two stereo speakers putting out $$ 1.00 {\text{W/m}}^{2} $$ each, there will be
+places in the room where the intensity is $$ 4.00 {\text{W/m}}^{2} $$ , other
+places where the intensity is zero, and others in
+between. [[Figure 1]](#Figure1) shows what this interference might look like. We
+will pursue interference patterns elsewhere in this text.
 
 ![Two speakers are shown at the top of the figure at left and right side. Rarefactions are shown as dotted curves and compression as dark curves. The interference of the sound waves from these two speakers is shown. There are some red spots, showing constructive interference, are shown on the interfering waves. ](../resources/Figure_17_11_02a.jpg "These stereo speakers produce both constructive interference and destructive interference in the room, a property common to the superposition of all types of waves. The shading is proportional to intensity.")
 {: #Figure1}
@@ -366,6 +367,6 @@ how your answer depends on the time duration of the exposure.
 {: class="glossary-title"}
 
 intensity
-: power per unit area 
+: power per unit area
 
 </div>

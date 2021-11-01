@@ -395,9 +395,10 @@ Pump gas molecules into a box and see what happens as you change the volume, add
    $$N $$ is the number of molecules in the container,
    $$m $$ is the mass of a molecule, and
    $$\overline{ {v}^{2}} $$ is the average of the molecular speed squared.
-*  Thermal energy is defined to be the average translational kinetic energy
-   $$\overline{\text{KE}} $$ of an atom or molecule.
-*  The temperature of gases is proportional to the average translational kinetic energy of atoms and molecules.
+* Thermal energy is defined to be the average translational kinetic energy
+  $$\overline{\text{KE}} $$ of an atom or molecule.
+* The temperature of gases is proportional to the average translational kinetic
+  energy of atoms and molecules.
   <div class="equation" id="import-auto-id1168465434968">
    $$\overline{\text{KE}}=\frac{1}{2}m\overline{ {v}^{2}}=\frac{3}{2}k_{B}T $$
   </div>
@@ -533,7 +534,7 @@ There are two important isotopes of uranium—  $${}^{235}\text{U} $$
 
 thermal energy
 :  $$\overline{\text{KE}} $$ , the average translational kinetic energy of a
-molecule 
+molecule
 
 </div>
 

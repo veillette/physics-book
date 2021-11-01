@@ -380,15 +380,15 @@ Entering values for  $$q, V\text{, and} m $$  gives
 
 Note that both the charge and the initial voltage are negative, as
 in [[link]](#fs-id1493012). From the discussions
-in [Electric Charge and Electric Field](/ch18ElectricChargeAndElectricField), we know that electrostatic
-forces on small particles are generally very large compared with the
-gravitational force. The large final speed confirms that the gravitational force
-is indeed negligible here. The large speed also indicates how easy it is to
-accelerate electrons with small voltages because of their very small mass.
-Voltages much higher than the 100 V in this problem are typically used in
-electron guns. Those higher voltages produce electron speeds so great that
-relativistic effects must be taken into account. That is why a low voltage is
-considered (accurately) in this example.
+in [Electric Charge and Electric Field](/ch18ElectricChargeAndElectricField), we
+know that electrostatic forces on small particles are generally very large
+compared with the gravitational force. The large final speed confirms that the
+gravitational force is indeed negligible here. The large speed also indicates
+how easy it is to accelerate electrons with small voltages because of their very
+small mass. Voltages much higher than the 100 V in this problem are typically
+used in electron guns. Those higher voltages produce electron speeds so great
+that relativistic effects must be taken into account. That is why a low voltage
+is considered (accurately) in this example.
 
 </div>
 
@@ -636,6 +636,6 @@ difference of one volt
 
 mechanical energy
 : sum of the kinetic energy and potential energy of a system; this sum is a
-constant 
+constant
 
 </div>

@@ -302,6 +302,6 @@ devices are used to make null measurements in circuits
 
 Wheatstone bridge
 : a null measurement device for calculating resistance by balancing potential
-drops in a circuit 
+drops in a circuit
 
 </div>

@@ -273,6 +273,6 @@ assumption of laminar flow when using this equation.
 
 Reynolds number
 : a dimensionless parameter that can reveal whether a particular flow is laminar
-or turbulent 
+or turbulent
 
 </div>

@@ -311,12 +311,12 @@ If two systems, A and B, are in thermal equilibrium with each other, and B is in
 This law was postulated in the 1930s, after the first and second laws of
 thermodynamics had been developed and named. It is called the *zeroth law*
 because it comes logically before the first and second laws (discussed
-in [Thermodynamics](/ch15Thermodynamics)). An example of this law in action is seen in
-babies in incubators: babies in incubators normally have very few clothes on, so
-to an observer they look as if they may not be warm enough. However, the
-temperature of the air, the cot, and the baby is the same, because they are in
-thermal equilibrium, which is accomplished by maintaining air temperature to
-keep the baby comfortable.
+in [Thermodynamics](/ch15Thermodynamics)). An example of this law in action is
+seen in babies in incubators: babies in incubators normally have very few
+clothes on, so to an observer they look as if they may not be warm enough.
+However, the temperature of the air, the cot, and the baby is the same, because
+they are in thermal equilibrium, which is accomplished by maintaining air
+temperature to keep the baby comfortable.
 
 <div class="exercise"  data-element-type="check-understanding" data-label="">
 <div class="title">
@@ -508,6 +508,6 @@ contact; the two objects have the same temperature
 zeroth law of thermodynamics
 : law that states that if two objects are in thermal equilibrium, and a third
 object is in thermal equilibrium with one of those objects, it is also in
-thermal equilibrium with the other object 
+thermal equilibrium with the other object
 
 </div>

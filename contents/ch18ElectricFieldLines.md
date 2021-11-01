@@ -262,6 +262,6 @@ vector
 
 vector addition
 : mathematical combination of two or more vectors, including their magnitudes,
-directions, and positions 
+directions, and positions
 
 </div>

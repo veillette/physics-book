@@ -689,6 +689,6 @@ directly proportional to the resistance, denoted by *ρ*
 
 temperature coefficient of resistivity
 : an empirical quantity, denoted by *α*, which describes the change in
-resistance or resistivity of a material with temperature 
+resistance or resistivity of a material with temperature
 
 </div>

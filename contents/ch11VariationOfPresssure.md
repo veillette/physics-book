@@ -224,8 +224,8 @@ pool? Does the atmospheric pressure on the water’s surface affect the pressure
 below? The answer is yes. This seems only logical, since both the water’s weight
 and the atmosphere’s weight must be supported. So the *total* pressure at a
 depth of 10.3 m is 2 atm—half from the water above and half from the air above.
-We shall see in [Pascal’s Principle](/ch11PascalsPrinciple) that fluid pressures always add in
-this way.
+We shall see in [Pascal’s Principle](/ch11PascalsPrinciple) that fluid pressures
+always add in this way.
 
 ### Section Summary
 
@@ -235,12 +235,12 @@ this way.
   <div class="equation" >
    $$P=\frac{mg}{A}. $$
   </div>
-*  Pressure due to the weight of a liquid is given by
-   <div class="equation" >
-   $$P=h \rho g, $$
-   </div>
-     where  $$P $$ is the pressure,  $$h $$ is the height of the liquid,  $$\rho  $$
-     is the density of the liquid, and  $$g $$ is the acceleration due to gravity.
+* Pressure due to the weight of a liquid is given by
+  <div class="equation" >
+  $$P=h \rho g, $$
+  </div>
+    where  $$P $$ is the pressure,  $$h $$ is the height of the liquid,  $$\rho  $$
+    is the density of the liquid, and  $$g $$ is the acceleration due to gravity.
 
 ### Conceptual Questions
 
@@ -415,6 +415,6 @@ Show that the total force on a rectangular dam due to the water behind it increa
 {: class="glossary-title"}
 
 pressure
-: the weight of the fluid divided by the area supporting it 
+: the weight of the fluid divided by the area supporting it
 
 </div>

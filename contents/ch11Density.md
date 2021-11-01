@@ -453,6 +453,6 @@ There is relatively little empty space between atoms in solids and liquids, so t
 {: class="glossary-title"}
 
 density
-: the mass per unit volume of a substance or object 
+: the mass per unit volume of a substance or object
 
 </div>

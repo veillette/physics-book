@@ -379,6 +379,6 @@ overtones
 : multiples of the fundamental frequency of a sound
 
 superposition
-: the phenomenon that occurs when two or more waves arrive at the same point 
+: the phenomenon that occurs when two or more waves arrive at the same point
 
 </div>

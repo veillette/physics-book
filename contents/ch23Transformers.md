@@ -205,7 +205,9 @@ allow only a one-way flow of current.
 </div>
 
 Transformers have many applications in electrical safety systems, which are
-discussed in [Electrical Safety: Systems and Devices](/ch23ElectricalSafetySystemsAndDevices).
+discussed
+in [Electrical Safety: Systems and Devices](/ch23ElectricalSafetySystemsAndDevices)
+.
 
 <div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
 <div class="title">
@@ -232,10 +234,9 @@ Generate electricity with a bar magnet! Discover the physics behind the phenomen
    $${V}_{\text{s}} $$ are the voltages across primary and secondary coils having
    $${N}_{\text{p}} $$ and
    $${N}_{\text{s}} $$ turns.
-*  The currents
-   $${I}_{\text{p}} $$ and
-   $${I}_{\text{s}} $$ in the primary and secondary coils are related by
-   $$\frac{ {I}_{\text{s}}}{ {I}_{\text{p}}}=\frac{ {N}_{\text{p}}}{ {N}_{\text{s}}} $$ . 
+* The currents $${I}_{\text{p}} $$ and $${I}_{\text{s}} $$ in the primary and
+  secondary coils are related by $$\frac{ {I}_{\text{s}}}{ {I}_
+  {\text{p}}}=\frac{ {N}_{\text{p}}}{ {N}_{\text{s}}} $$ .
 
 * A step-up transformer increases voltage and decreases current, whereas a
   step-down transformer decreases voltage and increases current.
@@ -391,6 +392,6 @@ step-up transformer
 : a transformer that increases voltage
 
 step-down transformer
-: a transformer that decreases voltage 
+: a transformer that decreases voltage
 
 </div>

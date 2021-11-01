@@ -680,6 +680,6 @@ change in entropy
 
 second law of thermodynamics stated in terms of entropy
 : the total entropy of a system either increases or remains constant; it never
-decreases 
+decreases
 
 </div>

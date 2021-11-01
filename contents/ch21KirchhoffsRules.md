@@ -10,11 +10,11 @@ layout: page
 Many complex circuits, such as the one in [[Figure 1]](#Figure1), cannot be
 analyzed with the series-parallel techniques developed
 in [Resistors in Series and Parallel](/ch21ResistorsInSeriesAndInParallel)
-and [Electromotive Force: Terminal Voltage](/ch21ElectromotiveForce). There are, however, two
-circuit analysis rules that can be used to analyze any circuit, simple or
-complex. These rules are special cases of the laws of conservation of charge and
-conservation of energy. The rules are known as **Kirchhoff’s rules**, after
-their inventor Gustav Kirchhoff (1824–1887).
+and [Electromotive Force: Terminal Voltage](/ch21ElectromotiveForce). There are,
+however, two circuit analysis rules that can be used to analyze any circuit,
+simple or complex. These rules are special cases of the laws of conservation of
+charge and conservation of energy. The rules are known as **Kirchhoff’s rules**,
+after their inventor Gustav Kirchhoff (1824–1887).
 
 ![A complicated circuit diagram shows multiple resistances and voltage sources wired in series and in parallel. The circuit has three arms. The first has a cell of e m f script E sub one and internal resistance r sub one in series with a resistor R sub two. The second has a cell of e m f script E sub two and internal resistance r sub two in series with resistor R sub three. The third arm has a resistor R sub one. The three arms are connected in parallel.](../resources/Figure_22_03_01.jpg "This circuit cannot be reduced to a combination of series and parallel connections. Kirchhoff&#x2019;s rules, special applications of the laws of conservation of charge and energy, can be used to analyze it. (Note: The script E in the figure represents electromotive force, emf.)")
 {: #Figure1}
@@ -461,6 +461,6 @@ the circuit. Thus, the emf equals the sum of the $$IR $$
 $$\text{emf}=Ir+IR_{1}+IR_{2} $$
 
 conservation laws
-: require that energy and charge be conserved in a system 
+: require that energy and charge be conserved in a system
 
 </div>
