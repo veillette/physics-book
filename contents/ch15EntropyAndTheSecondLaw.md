@@ -165,8 +165,7 @@ process.*
 
 With respect to entropy, there are only two possibilities: entropy is constant
 for a reversible process, and it increases for an irreversible process. There is
-a fourth version of **the second law of thermodynamics stated in terms of
-entropy**\:
+a fourth version of **the second law of thermodynamics stated in terms of entropy**\:
 
 <em>The total entropy of a system either increases or remains constant in any
 process; it never decreases. </em>

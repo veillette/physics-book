@@ -33,8 +33,7 @@ motion.) Here, the magnetic force supplies the centripetal force $${F}_
 ![Diagram showing an electrical charge moving clockwise in the plane of the page. Velocity vectors are tangent to the circular path. The magnetic field B is oriented into the page. Force vectors show that the force on the charge is toward the center of the charge&#x2019;s circular path as the charge moves.](../resources/Figure_23_05_02a.jpg "A negatively charged particle moves in the plane of the page in a region where the magnetic field is perpendicular into the page (represented by the small circles with x&#x2019;s&#x2014;like the tails of arrows). The magnetic force is perpendicular to the velocity, and so velocity changes in direction but not magnitude. Uniform circular motion results.")
 {: #Figure2}
 
-Because the magnetic force $$F $$
-** supplies the centripetal force $${F}_{c} $$ , we have
+Because the magnetic force $$F $$ supplies the centripetal force $${F}_{c} $$ , we have
 
 <div class="equation" >
  $$qvB=\frac{ mv^{2}}{r}\text{.} $$

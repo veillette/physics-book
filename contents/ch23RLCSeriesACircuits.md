@@ -15,7 +15,7 @@ When alone in an AC circuit, inductors, capacitors, and resistors all impede
 current. How do they behave when all three occur together? Interestingly, their
 individual resistances in ohms do not simply add. Because inductors and
 capacitors behave in opposite ways, they partially to totally cancel each
-other’s effect. [[Figure 1]](#Figure1) shows an <em>RLC </em>series circuit with
+other’s effect. [[Figure 1]](#Figure1) shows an *RLC*series circuit with
 an AC voltage source, the behavior of which is the subject of this section. The
 crux of the analysis of an *RLC* circuit is the frequency dependence of $${X}_
 {L} $$ and $${X}_{C} $$ , and the effect they have on the phase of voltage
@@ -97,7 +97,7 @@ and for those without a capacitor, take $${X}_{C}=0 $$.
 <div class="title">
 Calculating Impedance and Current
 </div>
-An <em>RLC </em>series circuit has a  $$40.0 \text{Ω} $$
+An *RLC* series circuit has a  $$40.0 \text{Ω} $$
  resistor, a 3.00 mH inductor, and a  $$5.00 \text{μF} $$
  capacitor. (a) Find the circuit’s impedance at 60.0 Hz and 10.0 kHz, noting that these frequencies and the values for  $$L $$
  and  $$C $$

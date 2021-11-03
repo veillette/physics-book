@@ -92,7 +92,7 @@ problems, we need to identify the knowns and unknowns for each part of the
 question, as well as the quantity that is constant in Part (a) and Part (b) of
 the question.
 
-<strong>Solution a </strong>
+**Solution a**
 
 1. Choose the proper equation: Friction is $$f={\mu }_{k}mg $$ .
 

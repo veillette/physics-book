@@ -253,7 +253,7 @@ AC circuits that inductors have**.
 
 Just as a reminder, consider [[Figure 3]](#Figure3), which shows an AC voltage
 applied to a resistor and a graph of voltage and current versus time. The
-voltage and current are exactly <em>in </em>**phase** in a resistor. There is no
+voltage and current are exactly **in phase** in a resistor. There is no
 frequency dependence to the behavior of plain resistance in a circuit:
 
 ![Part a of the diagram shows a resistor R connected across an A C voltage source V. The voltage drop across the resistor R is given by V R.Part b of the diagram shows a graph showing the variation of voltage V R and current I R with time t. the V R and current I R are plotted along Y axis and time t is along the X axis. Both I and V are progressive cosine waves. The amplitude of I wave is more than V wave.](../resources/Figure_24_11_03a.jpg "(a) An AC voltage source in series with a resistor. (b) Graph of current and voltage across the resistor as functions of time, showing them to be exactly in phase.  ")

@@ -95,7 +95,7 @@ reservoir before it gets into the heat pump.
 
 <div class="example" markdown="1">
 <div class="title">
-The Best <em>COP </em><sub>hp</sub> of a Heat Pump for Home Use
+The Best COP<sub>hp</sub> of a Heat Pump for Home Use
 </div>
 A heat pump used to warm a home must employ a cycle that produces a working fluid at temperatures greater than typical indoor temperature so that heat transfer to the inside can take place. Similarly, it must produce a working fluid at temperatures that are colder than the outdoor temperature so that heat transfer occurs from outside. Its hot and cold reservoir temperatures therefore cannot be too close, placing a limit on its  $${\text{COP}}_{\text{hp}} $$ .
  (See [[Figure 2]](#Figure2).) What is the best coefficient of performance possible for such a heat pump, if it has a hot reservoir temperature of  $$ 45.0\text{ºC} $$
@@ -163,7 +163,7 @@ relatively expensive. Also, since they can cool as well as heat a space, they
 have advantages where cooling in summer months is also desired. Thus some of the
 best locations for heat pumps are in warm summer climates with cool
 winters. [[Figure 3]](#Figure3) shows a heat pump, called a “*reverse cycle”* or
-“<em>split-system cooler” </em> in some countries.
+“split-system cooler” in some countries.
 
 ![A residential heat pump.](../resources/Figure_16_05_05.jpg "In hot weather, heat transfer occurs from air inside the room to air outside, cooling the room. In cool weather, heat transfer occurs from air outside to air inside, warming the room. This switching is achieved by reversing the direction of flow of the working fluid.")
 {: #Figure3}

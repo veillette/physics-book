@@ -91,10 +91,7 @@ proportional to $$C $$ . The charge stored in a capacitor is given by
 </div>
 
 This equation expresses the two major factors affecting the amount of charge
-stored. Those factors are the physical characteristics of the capacitor, $$C $$
-, and the voltage, $$V $$ . Rearranging the equation, we see that *capacitance
-$$C $$
-<em> is the amount of charge stored per volt,</em>* or
+stored. Those factors are the physical characteristics of the capacitor, $$C $$, and the voltage, $$V $$ . Rearranging the equation, we see that *capacitance* $$C $$ is the amount of charge stored per volt, or
 
 <div class="equation" >
  $$C=\frac{Q}{V}. $$

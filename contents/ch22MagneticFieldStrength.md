@@ -97,7 +97,7 @@ force.
 The magnetic force is
 
 <div class="equation" id="import-auto-id1535424">
- $$F=\text{qvb} \sin \theta . $$
+ $$F=q v B \sin \theta . $$
 </div>
 We see that  $$\sin \theta =1 $$ ,
  since the angle between the velocity and the direction of the field is  $$90 \text{º} $$ .
