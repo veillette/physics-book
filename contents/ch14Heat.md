@@ -34,8 +34,7 @@ Owing to the fact that heat is a form of energy, it has the SI unit of *joule* (
 J). The *calorie* (cal) is a common unit of energy, defined as the energy needed
 to change the temperature of 1.00 g of water by $$1.00\text{ºC} $$
 —specifically, between $$ 14.5ºC $$ and $$ 15.5ºC $$ , since there is a slight
-temperature dependence. Perhaps the most common unit of heat is the **
-kilocalorie** (kcal), which is the energy needed to change the temperature of
+temperature dependence. Perhaps the most common unit of heat is the **kilocalorie** (kcal), which is the energy needed to change the temperature of
 1.00 kg of water by $$1.00\text{ºC} $$ . Since mass is most often specified in
 kilograms, kilocalorie is commonly used. Food calories (given the notation Cal,
 and sometimes called “big calorie”) are actually kilocalories ( $$1

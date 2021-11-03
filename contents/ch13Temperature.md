@@ -74,8 +74,7 @@ has the freezing point of water at $$0\text{ºC} $$ and the boiling point at
 $$100\text{ºC} $$ . Its unit is the **degree Celsius** $$\left(\text{ºC}\right)
 $$ . On the **Fahrenheit** scale (still the most frequently used in the United
 States), the freezing point of water is at $$32\text{ºF} $$ and the boiling
-point is at $$212\text{ºF} $$ . The unit of temperature on this scale is the **
-degree Fahrenheit** $$\left(\text{ºF}\right) $$ . Note that a temperature
+point is at $$212\text{ºF} $$ . The unit of temperature on this scale is the **degree Fahrenheit** $$\left(\text{ºF}\right) $$ . Note that a temperature
 difference of one degree Celsius is greater than a temperature difference of one
 degree Fahrenheit. Only 100 Celsius degrees span the same range as 180
 Fahrenheit degrees, thus one degree on the Celsius scale is 1.8 times larger

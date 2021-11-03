@@ -46,8 +46,7 @@ similar in construction to a motor (another symmetry).
 {: #Figure3}
 
 So we see that changing the magnitude or direction of a magnetic field produces
-an emf. Experiments revealed that there is a crucial quantity called the **
-magnetic flux**, $$\Phi $$, given by
+an emf. Experiments revealed that there is a crucial quantity called the **magnetic flux**, $$\Phi $$, given by
 
 <div class="equation" >
  $$\Phi = BA \cos \theta \text{,} $$

@@ -83,8 +83,7 @@ This is true in general: The greater the voltage applied to any capacitor, the
 greater the charge stored in it.
 
 Different capacitors will store different amounts of charge for the same applied
-voltage, depending on their physical characteristics. We define their **
-capacitance**  $$C $$ to be such that the charge $$Q $$ stored in a capacitor is
+voltage, depending on their physical characteristics. We define their **capacitance**  $$C $$ to be such that the charge $$Q $$ stored in a capacitor is
 proportional to $$C $$ . The charge stored in a capacitor is given by
 
 <div class="equation" >
@@ -360,8 +359,7 @@ How large a capacitor can you make using a chewing gum wrapper? The plates will 
           </tr></tbody></table>
 
 Note also that the dielectric constant for air is very close to 1, so that
-air-filled capacitors act much like those with vacuum between their plates **
-except** that the air can become conductive if the electric field strength
+air-filled capacitors act much like those with vacuum between their plates **except** that the air can become conductive if the electric field strength
 becomes too great. (Recall that $$E=V/d $$ for a parallel plate capacitor.) Also
 shown in [[Table 1]](#Table1) are maximum electric field strengths in V/m,
 called **dielectric strengths**, for several materials. These are the fields

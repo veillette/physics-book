@@ -20,13 +20,11 @@ central nervous system to muscles and other organs. Third, nerves transmit and
 process signals within the central nervous system. The sheer number of nerve
 cells and the incredibly greater number of connections between them makes this
 system the subtle wonder that it is. **Nerve conduction** is a general term for
-electrical signals carried by nerve cells. It is one aspect of **
-bioelectricity**, or electrical effects in and created by biological systems.
+electrical signals carried by nerve cells. It is one aspect of **bioelectricity**, or electrical effects in and created by biological systems.
 
 Nerve cells, properly called *neurons*, look different from other cells—they
 have tendrils, some of them many centimeters long, connecting them with other
-cells. (See [[Figure 1]](#Figure1).) Signals arrive at the cell body across **
-synapses** or through **dendrites**, stimulating the neuron to generate its own
+cells. (See [[Figure 1]](#Figure1).) Signals arrive at the cell body across **synapses** or through **dendrites**, stimulating the neuron to generate its own
 signal, sent along its long **axon** to other nerve or muscle cells. Signals may
 arrive from many other locations and be transmitted to yet others, conditioning
 the synapses by use, giving the system its complexity and its ability to learn.

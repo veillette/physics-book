@@ -36,8 +36,7 @@ phenomenon. Such a linear relationship doesn’t always occur.
 ### Resistance and Simple Circuits
 
 If voltage drives current, what impedes it? The electric property that impedes
-current (crudely similar to friction and air resistance) is called **
-resistance**  $$R $$ . Collisions of moving charges with atoms and molecules in
+current (crudely similar to friction and air resistance) is called **resistance**  $$R $$ . Collisions of moving charges with atoms and molecules in
 a substance transfer energy to the substance and limit current. Resistance is
 defined as inversely proportional to current, or
 
@@ -54,8 +53,7 @@ relationships of current to voltage and current to resistance gives
 
 This relationship is also called Ohm’s law. Ohm’s law in this form really
 defines resistance for certain materials. Ohm’s law (like Hooke’s law) is not
-universally valid. The many substances for which Ohm’s law holds are called **
-ohmic**{: class="term"}. These include good conductors like copper and aluminum,
+universally valid. The many substances for which Ohm’s law holds are called **ohmic**{: class="term"}. These include good conductors like copper and aluminum,
 and some poor conductors under certain circumstances. Ohmic materials have a
 resistance $$R $$ that is independent of voltage $$V $$ and current $$I $$ . An
 object that has simple resistance is called a **resistor**, even if its

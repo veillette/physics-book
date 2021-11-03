@@ -22,8 +22,7 @@ where $$V $$ is the volume and $$t $$ is the elapsed time.
 
 The SI unit for flow rate is $${\text{m}}^{3}\text{/s} $$ , but a number of
 other units for $$Q $$ are in common use. For example, the heart of a resting
-adult pumps blood at a rate of 5.00 liters per minute (L/min). Note that a **
-liter** (L) is 1/1000 of a cubic meter or 1000 cubic centimeters ( $$10^{-3}
+adult pumps blood at a rate of 5.00 liters per minute (L/min). Note that a **liter** (L) is 1/1000 of a cubic meter or 1000 cubic centimeters ( $$10^{-3}
 {\text{m}}^{3} $$ or $$10^{3} {\text{cm}}^{3} $$ ). In this text we shall use
 whatever metric units are most convenient for a given situation.
 

@@ -11,8 +11,7 @@ layout: page
 
 We know that the current through an inductor $$L $$ cannot be turned on or off
 instantaneously. The change in current changes flux, inducing an emf opposing
-the change (Lenz’s law). How long does the opposition last? Current **will**
-flow and **can** be turned off, but how long does it
+the change (Lenz’s law). How long does the opposition last? Current **will** flow and **can** be turned off, but how long does it
 take? [[Figure 1]](#Figure1) shows a switching circuit that can be used to
 examine current through an inductor as a function of time.
 

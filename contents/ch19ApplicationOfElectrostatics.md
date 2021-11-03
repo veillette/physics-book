@@ -48,8 +48,7 @@ device called a corotron. Selenium is a substance with an interesting
 property—it is a **photoconductor**. That is, selenium is an insulator when in
 the dark and a conductor when exposed to light.
 
-In the first stage of the xerography process, the conducting aluminum drum is **
-grounded** so that a negative charge is induced under the thin layer of
+In the first stage of the xerography process, the conducting aluminum drum is **grounded** so that a negative charge is induced under the thin layer of
 uniformly positively charged selenium. In the second stage, the surface of the
 drum is exposed to the image of whatever is to be copied. Where the image is
 light, the selenium becomes conducting, and the positive charge is neutralized.

@@ -163,8 +163,13 @@ Starting with the definition of current, we have
 We divide this by the charge per electron, so that
 
 <div class="equation" >
- $$\begin{array}{lll}\frac{ {e}^{-}}{\text{s}}& =& \frac{ - 0.300 \times 10^{-3} \text{C}}{\text{s}}×\frac{1 {e}^{-}{-1.60 \times 10^{-19} \text{C}}\\ & =&  1.88 \times 10^{15}  \frac{ {e}^{-}}{\text{s}}\text{.}\end{array} $$
+$$\begin{array}{lll}
+\frac{ {e}^{-}}{\text{s}}
+& =& \frac{ - 0.300 \times 10^{-3} \text{C}}{\text{s}}\times \frac{1 {e}^{-}}{-1.60 \times 10^{-19} \text{C}}\\ 
+& =&  1.88 \times 10^{15}  \frac{ {e}^{-}}{\text{s}} \text{.}
+\end{array} $$
 </div>
+
 **Discussion**
 
 There are so many charged particles moving, even in small currents, that

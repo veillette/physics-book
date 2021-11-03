@@ -15,8 +15,7 @@ Consider [[Figure 1]](#Figure1), which shows an isolated positive point charge
 and its electric field lines. Electric field lines radiate out from a positive
 charge and terminate on negative charges. While we use blue arrows to represent
 the magnitude and direction of the electric field, we use green lines to
-represent places where the electric potential is constant. These are called **
-equipotential lines** in two dimensions, or *equipotential surfaces* in three
+represent places where the electric potential is constant. These are called **equipotential lines** in two dimensions, or *equipotential surfaces* in three
 dimensions. The term *equipotential* is also used as a noun, referring to an
 equipotential line or surface. The potential for a point charge is the same
 anywhere on an imaginary sphere of radius $$r $$ surrounding the charge. This is

@@ -19,8 +19,7 @@ field strength; it will also reveal a more fundamental relationship between
 electric potential and electric field. From a physicist’s point of view, either
 $$\Delta V $$ or $$\mathbf{\text{E}} $$ can be used to describe any charge
 distribution. $$\Delta V $$ is most closely tied to energy, whereas
-$$\mathbf{\text{E}} $$ is most closely related to force. $$\Delta V $$ is a **
-scalar**{: class="term"} quantity and has no direction, while
+$$\mathbf{\text{E}} $$ is most closely related to force. $$\Delta V $$ is a **scalar**{: class="term"} quantity and has no direction, while
 $$\mathbf{\text{E}} $$ is a **vector**{: class="term"} quantity, having both
 magnitude and direction. (Note that the magnitude of the electric field
 strength, a scalar quantity, is represented by $$E $$ below.) The relationship

@@ -245,8 +245,7 @@ Disorder is highly likely.
 The fantastic growth in the odds favoring disorder that we see in going from 5
 to 100 coins continues as the number of entities in the system increases. Let us
 now imagine applying this approach to perhaps a small sample of gas. Because
-counting microstates and macrostates involves statistics, this is called **
-statistical analysis**. The macrostates of a gas correspond to its macroscopic
+counting microstates and macrostates involves statistics, this is called **statistical analysis**. The macrostates of a gas correspond to its macroscopic
 properties, such as volume, temperature, and pressure; and its microstates
 correspond to the detailed description of the positions and velocities of its
 atoms. Even a small amount of gas has a huge number of atoms:  $$
