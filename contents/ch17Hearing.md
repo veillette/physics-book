@@ -21,8 +21,7 @@ work?
 **Hearing** is the perception of sound. (Perception is commonly defined to be
 awareness through the senses, a typically circular definition of higher-level
 processes in living organisms.) Normal human hearing encompasses frequencies
-from 20 to 20 000 Hz, an impressive range. Sounds below 20 Hz are called **
-infrasound**, whereas those above 20 000 Hz are **ultrasound**. Neither is
+from 20 to 20 000 Hz, an impressive range. Sounds below 20 Hz are called **infrasound**, whereas those above 20 000 Hz are **ultrasound**. Neither is
 perceived by the ear, although infrasound can sometimes be felt as vibrations.
 When we do hear low-frequency vibrations, such as the sounds of a diving board,
 we hear the individual vibrations only because there are higher-frequency sounds
@@ -37,8 +36,7 @@ relative pitch, which means that we can tell whether one sound has a different
 frequency from another. Typically, we can discriminate between two sounds if
 their frequencies differ by 0.3% or more. For example, 500.0 and 501.5 Hz are
 noticeably different. Pitch perception is directly related to frequency and is
-not greatly affected by other physical quantities such as intensity. Musical **
-notes**{: class="term"} are particular sounds that can be produced by most
+not greatly affected by other physical quantities such as intensity. Musical **notes**{: class="term"} are particular sounds that can be produced by most
 instruments and in Western music have particular names. Combinations of notes
 constitute music. Some people can identify musical notes, such as A-sharp, C, or
 E-flat, just by listening to them. This uncommon ability is called perfect

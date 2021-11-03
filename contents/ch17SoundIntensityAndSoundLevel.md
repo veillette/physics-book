@@ -238,7 +238,7 @@ p\right)}^{2}/\left({2\text{ρv}}_{w}\right) $$ \:
  Calculate to find the sound intensity level in decibels:
 
 <div class="equation" >
- $${10 log}_{10}\left(5.04 \times 10^{8} \right)=10 \left(8.70\right) dB=87 dB. $$
+ $$10 \log_{10}\left(5.04 \times 10^{8} \right)=10 \left(8.70\right) dB=87 dB. $$
 </div>
 **Discussion**
 

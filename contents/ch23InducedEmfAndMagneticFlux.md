@@ -17,8 +17,7 @@ time the switch is closed, the galvanometer detects a current in one direction
 in the coil on the bottom. (You can also observe this in a physics lab.) Each
 time the switch is opened, the galvanometer detects a current in the opposite
 direction. Interestingly, if the switch remains closed or open for any length of
-time, there is no current through the galvanometer. **Closing and opening the
-switch** induces the current. It is the **change** in magnetic field that
+time, there is no current through the galvanometer. **Closing and opening the switch** induces the current. It is the **change** in magnetic field that
 creates the current. More basic than the current that flows is the emf**that
 causes it. The current is a result of an *emf induced by a changing magnetic
 field*, whether or not there is a path for current to flow.

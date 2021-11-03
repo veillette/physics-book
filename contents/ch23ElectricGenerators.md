@@ -203,8 +203,7 @@ action of a motor as a generator.
 
 ### Section Summary
 
-* An electric generator rotates a coil in a magnetic field, inducing an emf**
-  given as a function of time by
+* An electric generator rotates a coil in a magnetic field, inducing an emf given as a function of time by
 
   <div class="equation" >
    $$\text{emf}=NAB\omega  \sin \omega t\text{,} $$

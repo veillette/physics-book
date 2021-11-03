@@ -33,8 +33,7 @@ the wave crests and troughs (peaks and valleys) pass under the bird. The time
 for one complete up and down motion is the wave’s period $$T $$ . The wave’s
 frequency is $$f=1/T $$ , as usual. The wave itself moves to the right in the
 figure. This movement of the wave is actually the disturbance moving to the
-right, not the water itself (or the bird would move to the right). We define **
-wave velocity**  $${v}_{\text{w}} $$ to be the speed at which the disturbance
+right, not the water itself (or the bird would move to the right). We define **wave velocity**  $${v}_{\text{w}} $$ to be the speed at which the disturbance
 moves. Wave velocity is sometimes also called the *propagation velocity or
 propagation speed*<em>, </em> because the disturbance propagates from one
 location to another.
