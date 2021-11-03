@@ -304,7 +304,7 @@ Only when the current being drawn from or put into the capacitor is zero. Capaci
 <div class="title">
 PhET Explorations: Circuit Construction Kit (DC only)
 </div>
-An electronics kit in your computer! Build circuits with resistors, light bulbs, batteries, and switches. Take measurements with the realistic ammeter and voltmeter. View the circuit as a schematic diagram, or switch to a life-like view.* * *
+An electronics kit in your computer! Build circuits with resistors, light bulbs, batteries, and switches. Take measurements with the realistic ammeter and voltmeter. View the circuit as a schematic diagram, or switch to a life-like view.
 {: class="newline"}
 
 <div class="media"  data-alt="circuit construction kit">

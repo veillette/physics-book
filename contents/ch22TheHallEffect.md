@@ -135,8 +135,7 @@ frequencies.
    $$\epsilon =Blv \left(B, v, \text{and} l, \text{mutually perpendicular}\right) $$
   </div>
 
-  for a conductor of width * $$l $$
-    * through which charges move at a speed $$v $$ .
+  for a conductor of width $$l $$ through which charges move at a speed $$v $$ .
 
 ### Conceptual Questions
 

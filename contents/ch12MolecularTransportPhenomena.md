@@ -277,7 +277,7 @@ You can smell perfume very shortly after opening the bottle. To show that it is 
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What is the ratio of the average distances that oxygen will diffuse in a given time in air and water? Why is this distance less in water (equivalently, why is ** $$D $$
+What is the ratio of the average distances that oxygen will diffuse in a given time in air and water? Why is this distance less in water (equivalently, why is $$D $$
  less in water)?
 
 </div>

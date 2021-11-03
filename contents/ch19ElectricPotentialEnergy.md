@@ -266,7 +266,7 @@ a positive charge.) Since energy is related to voltage by $$\Delta
 \text{PE}=q\Delta V, $$ we can think of the joule as a coulomb-volt.
 
 ![In an electron gun the electrons move from the negatively charged plate to the positively charged plate. Their kinetic energy will be equal to the potential energy.](../resources/Figure_20_01_03a.jpg "A typical electron gun accelerates electrons using a potential difference between two metal plates. The energy of the electron in electron volts is numerically the same as the voltage between the plates. For example, a 5000 V potential difference produces 5000 eV electrons.")
-{:}
+
 
 On the submicroscopic scale, it is more convenient to define an energy unit
 called the **electron volt** (eV), which is the energy given to a fundamental
@@ -396,8 +396,7 @@ is considered (accurately) in this example.
 
 * Electric potential is potential energy per unit charge.
 * The potential difference between points A and B, $${V}_{B}-{V}_{A} $$ ,
-  defined to be the change in potential energy of a charge * $$q $$
-    * moved from A to B, is equal to the change in potential energy divided by
+  defined to be the change in potential energy of a charge  $$q $$ moved from A to B, is equal to the change in potential energy divided by
       the charge, Potential difference is commonly called voltage, represented
       by the symbol $$\Delta V $$ .
 

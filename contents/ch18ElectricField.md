@@ -143,7 +143,7 @@ situations.
 <div class="title">
 PhET Explorations: Electric Field of Dreams
 </div>
-Play ball! Add charges to the Field of Dreams and see how they react to the electric field. Turn on a background electric field and adjust the direction and magnitude.* * *
+Play ball! Add charges to the Field of Dreams and see how they react to the electric field. Turn on a background electric field and adjust the direction and magnitude.
 {: class="newline"}
 
 <div class="media"  data-alt="electric field">
@@ -167,16 +167,12 @@ Play ball! Add charges to the Field of Dreams and see how they react to the elec
 where $$\mathbf{\text{F}} $$ is the Coulomb or electrostatic force exerted on a
 small positive test charge $$q $$ . $$\mathbf{\text{E}} $$ has units of N/C.
 
-* The magnitude of the electric field $$\mathbf{\text{E}} $$ created by a point
-  charge * $$Q $$
-    * is
+* The magnitude of the electric field $$\mathbf{\text{E}} $$ created by a point charge $$Q $$ is
 
   <div class="equation" >
    $$\mathbf{\text{E}}=k\frac{\|Q\|}{ {r}^{2}}. $$
   </div>
-     where  $$r $$
-     is the distance from * $$Q $$
-    *. The electric field  $$\mathbf{\text{E}} $$
+     where  $$r $$ is the distance from $$Q $$. The electric field  $$\mathbf{\text{E}} $$
      is a vector and fields due to multiple charges add like vectors.
 
 ### Conceptual Questions
@@ -266,7 +262,7 @@ field
 extending out into space
 
 point charge
-: A charged particle, designated * $$Q $$ , * generating an electric field
+: A charged particle, designated $$Q $$, generating an electric field
 
 test charge
 : A particle (designated $$q $$     ) with either a positive or negative charge

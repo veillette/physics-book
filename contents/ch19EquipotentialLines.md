@@ -112,7 +112,7 @@ discussed in [Energy Stored in Capacitors](/ch19EnergyStoredInCapacitors).
 <div class="title">
 PhET Explorations: Charges and Fields
 </div>
-Move point charges around on the playing field and then view the electric field, voltages, equipotential lines, and more. It\'s colorful, it\'s dynamic, it\'s free.* * *
+Move point charges around on the playing field and then view the electric field, voltages, equipotential lines, and more. It\'s colorful, it\'s dynamic, it\'s free.
 {: class="newline"}
 
 <div class="media"  data-alt="charges and fields">

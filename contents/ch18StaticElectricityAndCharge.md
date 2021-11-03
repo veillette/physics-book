@@ -207,7 +207,7 @@ quantities include energy, momentum, and angular momentum.
 <div class="title">
 PhET Explorations: Balloons and Static Electricity
 </div>
-Why does a balloon stick to your sweater? Rub a balloon on a sweater, then let go of the balloon and it flies over and sticks to the sweater. View the charges in the sweater, balloons, and the wall.* * *
+Why does a balloon stick to your sweater? Rub a balloon on a sweater, then let go of the balloon and it flies over and sticks to the sweater. View the charges in the sweater, balloons, and the wall.
 {: class="newline"}
 
 <div class="media"  data-alt="balloons and static electricity">

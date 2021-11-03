@@ -219,7 +219,7 @@ See [[Figure 9]](#Figure9).
 <div class="title">
 PhET Explorations: Neuron
 </div>
-Stimulate a neuron and monitor what happens. Pause, rewind, and move forward in time in order to observe the ions as they move across the neuron membrane.* * *
+Stimulate a neuron and monitor what happens. Pause, rewind, and move forward in time in order to observe the ions as they move across the neuron membrane.
 {: class="newline"}
 
 <div class="media"  data-alt="neuron">

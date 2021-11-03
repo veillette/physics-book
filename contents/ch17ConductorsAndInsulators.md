@@ -129,7 +129,7 @@ Water molecules are polarized, giving them slightly positive and slightly negati
 <div class="title">
 PhET Explorations: John Travoltage
 </div>
-Make sparks fly with John Travoltage. Wiggle Johnnie\'s foot and he picks up charges from the carpet. Bring his hand close to the door knob and get rid of the excess charge.* * *
+Make sparks fly with John Travoltage. Wiggle Johnnie\'s foot and he picks up charges from the carpet. Bring his hand close to the door knob and get rid of the excess charge.
 {: class="newline"}
 
 <div class="media"  data-alt="john travoltage">

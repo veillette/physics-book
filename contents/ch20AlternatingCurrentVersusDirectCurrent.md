@@ -470,7 +470,7 @@ Find the time after  $$t=0 $$
 <div class="problem" markdown="1">
 (a) At what two times in the first period following  $$t=0 $$
  does the instantaneous voltage in 60-Hz AC equal  $${V}_{\text{rms}} $$ ?
- (b) ** $$-{V}_{\text{rms}} $$ ?
+ (b) $$-{V}_{\text{rms}} $$ ?
 
 </div>
 </div>

@@ -167,10 +167,7 @@ biological molecules.
   <div class="equation" >
    $$r=\frac{mv}{qB}, $$
   </div>
-     where    $$v $$ is the component of the velocity perpendicular to
-   $$B $$ for a charged particle with mass * $$m $$
-    * and charge * $$q $$
-    *.
+     where $$v $$ is the component of the velocity perpendicular to $$B $$ for a charged particle with mass $$m $$ and charge  $$q $$.
 
 ### Conceptual Questions
 

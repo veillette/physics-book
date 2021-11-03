@@ -46,7 +46,7 @@ great enough. We shall concentrate on laminar flow for the remainder of this
 section, leaving certain aspects of turbulence for later sections.
 
 ![Part a of the figure shows a laminar flow on a fixed smooth surface. The different layers of the liquid are shown as different colored bands along the horizontal surface. The friction is shown to act all along the line separating two layers. The direction of flow of the fluid is toward right and the velocity is shown as v b for layers at the bottom and v t for layers on top. Part b of the figure shows turbulent flow on a surface with some obstruction. The fluid directions are horizontal on smooth path and irregular near the area of the obstruction. The velocity is v on top as well as at the bottom of the fluid.](../resources/Figure_13_04_02a.jpg "(a) Laminar flow occurs in layers without mixing. Notice that viscosity causes drag between layers as well as with the fixed surface. (b) An obstruction in the vessel produces turbulence. Turbulent flow mixes the fluid. There is more interaction, greater heating, and more resistance than in laminar flow.")
-{:}
+
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -453,7 +453,7 @@ capillaries within them. The sensitivity of flow to tube radius makes this
 flexibility possible over a large range of flow rates.
 
 ![Figure is a schematic diagram of the circulatory system. The lungs, heart, arteries and vein systems are shown. The blood is shown to flow from the left atrium through the arteries, then through the veins and back to the right atrium. The flow is also shown from right atrium to the lungs and from lungs back to left atrium. All parts of the system are labeled. Pressure various points of the system all along the movement of blood across various parts are also marked.](../resources/Figure_13_04_07a.jpg "Schematic of the circulatory system. Pressure difference is created by the two pumps in the heart and is reduced by resistance in the vessels. Branching of vessels into capillaries allows blood to reach individual cells and exchange substances, such as oxygen and waste products, with them. The system has an impressive ability to regulate flow to individual organs, accomplished largely by varying vessel diameters.")
-{:}
+
 
 Each branching of larger vessels into smaller vessels increases the total
 cross-sectional area of the tubes through which the blood flows. For example, an
@@ -474,8 +474,7 @@ substances with the cells in the capillaries and alveoli in particular.
   not mix.
 * Turbulence is characterized by eddies and swirls that mix layers of fluid
   together.
-* Fluid viscosity * $$\eta $$
-    * is due to friction within a fluid. Representative values are given
+* Fluid viscosity $$\eta $$ is due to friction within a fluid. Representative values are given
       in [[Table 1]](#Table1). Viscosity has units of $$\left(
       {\text{N/m}}^{2}\right)\text{s} $$ or $$\text{Pa}\cdot \text{s} $$ .
 * Flow is proportional to pressure difference and inversely proportional to

@@ -78,15 +78,11 @@ is made, as examined in the next section.
 
 ### Section Summary
 
-* The crucial quantity in induction is magnetic flux * $$\Phi $$
-  *, defined to be $$\Phi = BA \cos \theta $$ , where * $$B $$
-    * is the magnetic field strength over an area * $$A $$
-    * at an angle $$\theta $$ with the perpendicular to the area.
-* Units of magnetic flux * $$\Phi $$
-    * are $$\text{T}\cdot {\text{m}}^{2} $$ .
+* The crucial quantity in induction is magnetic flux $$\Phi $$, defined to be $$\Phi = BA \cos \theta $$, where  $$B $$
+  is the magnetic field strength over an area $$A $$ at an angle $$\theta $$ with the perpendicular to the area.
+* Units of magnetic flux $$\Phi $$ are $$\text{T}\cdot {\text{m}}^{2} $$ .
 
-* Any change in magnetic flux * $$\Phi $$
-    * induces an emf—the process is defined to be electromagnetic induction.
+* Any change in magnetic flux $$\Phi $$ induces an emf—the process is defined to be electromagnetic induction.
 
 ### Conceptual Questions
 
@@ -150,8 +146,8 @@ What is the value of the magnetic flux through the coil in [[Figure 6]](#Figure6
 
 magnetic flux
 : the amount of magnetic field going through a particular area, calculated with
-$$\Phi = BA \cos \theta $$ where * $$B $$ * is the magnetic field strength over
-an area * $$A $$ * at an angle $$\theta $$ with the perpendicular to the area
+$$\Phi = BA \cos \theta $$ where $$B $$ is the magnetic field strength over
+an area $$A $$ at an angle $$\theta $$ with the perpendicular to the area
 
 electromagnetic induction
 : the process of inducing an emf (voltage) with a change in magnetic flux

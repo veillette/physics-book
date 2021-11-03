@@ -67,7 +67,7 @@ them only when they behave differently.
 <div class="title">
 PhET Explorations: States of Matter—Basics
 </div>
-Heat, cool, and compress atoms and molecules and watch as they change between solid, liquid, and gas phases.* * *
+Heat, cool, and compress atoms and molecules and watch as they change between solid, liquid, and gas phases.
 {: class="newline"}
 
 <div class="media" id="Phet_module_12.1" data-alt="states of matter">

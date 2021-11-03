@@ -47,10 +47,8 @@ quickly as possible to its equilibrium position The critically damped system may
 overshoot the equilibrium position, but if it does, it will do so only once.
 Critical damping is represented by Curve A in [[Figure 2]](#Figure2). With
 less-than critical damping, the system will return to equilibrium faster but
-will overshoot and cross over one or more times. Such a system is **
-underdamped**; its displacement is represented by the curve
-in [[Figure 1]](#Figure1). Curve B in [[Figure 2]](#Figure2) represents an **
-overdamped** system. As with critical damping, it too may overshoot the
+will overshoot and cross over one or more times. Such a system is **underdamped**; its displacement is represented by the curve
+in [[Figure 1]](#Figure1). Curve B in [[Figure 2]](#Figure2) represents an **overdamped** system. As with critical damping, it too may overshoot the
 equilibrium position, but will reach equilibrium over a longer period of time.
 
 ![The given graph is of displacement, along y-axis, versus time along x axis. Symbol for displacement is given as X subscript zero and for time is given as t. Two curves start at a point along the y axis, where X subscript zero is greater than zero. Curve A is curved downward and meets x axis at a point. Curve B is curved upward and is over curve A and meets x axis at a point which is toward the far right of the meeting point of the curve A and x axis.](../resources/Figure_17_07_03a.jpg "Displacement versus time for a critically damped harmonic oscillator (A) and an overdamped harmonic oscillator (B). The critically damped oscillator returns to equilibrium at \( X=0 \) in the smallest time possible without overshooting.")

@@ -153,7 +153,7 @@ In a simple electrical circuit, the sole resistor converts energy supplied by th
 <div class="title">
 PhET Explorations: Ohm's Law
 </div>
-See how the equation form of Ohm\'s law relates to a simple circuit. Adjust the voltage and resistance, and see the current change according to Ohm\'s law. The sizes of the symbols in the equation change to match the circuit diagram.* * *
+See how the equation form of Ohm\'s law relates to a simple circuit. Adjust the voltage and resistance, and see the current change according to Ohm\'s law. The sizes of the symbols in the equation change to match the circuit diagram.
 {: class="newline"}
 
 <div class="media"  data-alt="ohm's law">
