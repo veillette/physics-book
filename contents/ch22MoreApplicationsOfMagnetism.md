@@ -208,7 +208,7 @@ benefits might occur.
 <div class="title">
 PhET Explorations: Magnet and Compass
 </div>
-Ever wonder how a compass worked to point you to the Arctic? Explore the interactions between a compass and bar magnet, and then add the Earth and find the surprising answer! Vary the magnet\'s strength, and see how things change both inside and outside. Use the field meter to measure how the magnetic field changes.* * *
+Ever wonder how a compass worked to point you to the Arctic? Explore the interactions between a compass and bar magnet, and then add the Earth and find the surprising answer! Vary the magnet\'s strength, and see how things change both inside and outside. Use the field meter to measure how the magnetic field changes.
 {: class="newline"}
 
 <div class="media"  data-alt="Other medical uses for magnetic field">

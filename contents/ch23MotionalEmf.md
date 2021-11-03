@@ -47,7 +47,7 @@ $$ and the flux $$\Phi =BA \cos \theta $$ . We have $$\theta =0º $$ and $$\cos
 \theta =1 $$ , since $$B $$ is perpendicular to $$A $$ . Now $$\Delta \Phi
 =\Delta \left(BA\right)=B\Delta A $$ , since $$B $$ is uniform. Note that the
 area swept out by the rod is $$\Delta A=\ell \Delta x $$ . Entering these
-quantities into the expression for ** emf** yields
+quantities into the expression for **emf** yields
 
 <div class="equation" >
  $$\text{emf}=\frac{B\Delta A}{\Delta t}=B\frac{\ell \Delta x}{\Delta t}\text{.} $$
@@ -246,7 +246,7 @@ The 12.0 cm long rod in [[Figure 1]](#Figure1) moves at 4.00 m/s. What is the st
 <div class="problem" markdown="1">
 Prove that when  $$B $$ ,
   $$\ell  $$ ,  and  $$v $$
- are not mutually perpendicular, motional emf is given by ** $$\text{emf}=B\ell v \sin \theta  $$ .
+ are not mutually perpendicular, motional emf is given by  $$\text{emf}=B\ell v \sin \theta  $$ .
  If  $$v $$  is perpendicular to  $$B $$ ,
  then  $$\theta  $$
  is the angle between  $$\ell  $$  and  $$B $$ .

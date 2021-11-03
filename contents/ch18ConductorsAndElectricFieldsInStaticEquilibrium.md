@@ -184,7 +184,7 @@ accident) and fell on your car.
 Is the object in [[link]](#fs-id1586840) a conductor or an insulator? Justify your answer.
 
 ![External field lines entering the object from one end and emerging from another are shown by lines.](../resources/Figure_19_07_11a.jpg)
-{:}
+
 
 </div>
 </div>
@@ -310,7 +310,7 @@ Suppose a woman carries an excess charge. To maintain her charged status can she
 <div class="problem" markdown="1">
 Sketch the electric field lines in the vicinity of the conductor in [[link]](#fs-id2000560) given the field was originally uniform and parallel to the object’s long axis. Is the resulting field small near the long side of the object?
 
-![A oblong-shaped conductor.](../resources/Figure_19_07_13a.jpg){:}
+![A oblong-shaped conductor.](../resources/Figure_19_07_13a.jpg)
 
 </div>
 </div>
@@ -319,7 +319,7 @@ Sketch the electric field lines in the vicinity of the conductor in [[link]](#fs
 <div class="problem"  markdown="1">
 Sketch the electric field lines in the vicinity of the conductor in [[link]](#fs-id2000561) given the field was originally uniform and parallel to the object’s long axis. Is the resulting field small near the long side of the object?
 
-![A oblong-shaped conductor.](../resources/Figure_19_07_14a.jpg){:}
+![A oblong-shaped conductor.](../resources/Figure_19_07_14a.jpg)
 
 </div>
 </div>
@@ -329,7 +329,7 @@ Sketch the electric field lines in the vicinity of the conductor in [[link]](#fs
 Sketch the electric field between the two conducting plates shown in [[link]](#fs-id765824), given the top plate is positive and an equal amount of negative charge is on the bottom plate. Be certain to indicate the distribution of charge on the plates.
 
 ![Two plates are shown; one is in horizontal direction and other is above the first plate with some inclination.](../resources/Figure_19_07_15a.jpg)
-{:}
+
 
 </div>
 </div>
@@ -350,7 +350,7 @@ What is the force on the charge located at  $$x=8.00 \text{cm} $$
  in [[link]](#fs-id1996672)(a) given that  $$q=1.00 \text{μC} $$ ?
 
 ![Three point charges are shown on the scaling line. First charge plus q is at three point zero, second charge minus two q is at eight point zero, and third charge plus q is eleven point zero centimeters along the x axis. Four charges are placed on a scaling line. First is minus two q at one point zero, second is plus q at five point zero, third is plus three q is at eight point zero, and fourth is minus q placed at fourteen point zero centimeter along the x axis.](../resources/Figure_19_07_17a.jpg "(a) Point charges located at 3.00, 8.00, and 11.0 cm along the x-axis. (b) Point charges located at 1.00, 5.00, 8.00, and 14.0 cm along the x-axis.")
-{:}
+
 
 </div>
 </div>

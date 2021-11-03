@@ -474,7 +474,7 @@ The Kilauea volcano in Hawaii is the world’s most active, disgorging about  $$
  Assume that the specific heat of lava is the same as that of granite.
 
 ![A view of a lava flow on the Kilauea volcano of Hawaii.](../resources/Figure_15_06_07a.jpg "Lava flow on Kilauea volcano in Hawaii. (credit: J. P. Eaton, U.S. Geological Survey)")
-{:}
+
 
 </div>
 <div class="solution" markdown="1">

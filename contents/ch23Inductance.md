@@ -100,7 +100,7 @@ A 1 H inductor is a large inductor. To illustrate this, consider a device with
 $$L= 1.0 \text{H} $$ that has a 10 A current flowing through it. What happens if
 we try to shut off the current rapidly, perhaps in only 1.0 ms? An emf, given by
 $$\text{emf}=-L\left(\Delta I/\Delta t\right) $$ , will oppose the change. Thus
-an emf will be induced given by ** $$\text{emf}=-L\left(\Delta I/\Delta t\right)
+an emf will be induced given by $$\text{emf}=-L\left(\Delta I/\Delta t\right)
 =\left( 1.0 H\right)\left[ \left(10 \text{A}\right)/\left( 1.0 ms\right)\right]
 =10 000 \text{V} $$ . The positive sign means this large voltage is in the same
 direction as the current, opposing its decrease. Such large emfs can cause arcs,
@@ -126,8 +126,8 @@ inductance $$L $$ is usually a given quantity. One exception is the solenoid,
 because it has a very uniform field inside, a nearly zero field outside, and a
 simple shape. It is instructive to derive an equation for its inductance. We
 start by noting that the induced emf is given by Faraday’s law of induction
-as ** $$\text{emf}=-N\left(\Delta \Phi /\Delta t\right) $$ and, by the
-definition of self-inductance, as ** $$\text{emf}=-L\left(\Delta I/\Delta
+as $$\text{emf}=-N\left(\Delta \Phi /\Delta t\right) $$ and, by the
+definition of self-inductance, as $$\text{emf}=-L\left(\Delta I/\Delta
 t\right) $$ . Equating these yields
 
 <div class="equation" >

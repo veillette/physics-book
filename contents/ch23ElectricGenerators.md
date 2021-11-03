@@ -77,12 +77,8 @@ Charges in the wires of the loop experience the magnetic force, because they are
 moving in a magnetic field. Charges in the vertical wires experience forces
 parallel to the wire, causing currents. But those in the top and bottom segments
 feel a force perpendicular to the wire, which does not cause a current. We can
-thus find the induced emf by considering only the side wires. Motional emf is
-given to be ** $$\text{emf}=B\ell v $$ , where the velocity *v* is perpendicular
-to the magnetic field $$B $$ . Here the velocity is at an angle $$\theta $$ with
-$$B $$ , so that its component perpendicular to $$B $$ is $$v \sin \theta $$
-(see [[Figure 2]](#Figure2)). Thus in this case the emf induced on each side
-is ** $$\text{emf}=B\ell v \sin \theta $$ , and they are in the same direction.
+thus find the induced emf by considering only the side wires. Motional emf is given to be $$\text{emf}=B\ell v $$ , where the velocity *v* is perpendicular to the magnetic field $$B $$ . Here the velocity is at an angle $$\theta $$ with $$B $$ , so that its component perpendicular to $$B $$ is $$v \sin \theta $$
+(see [[Figure 2]](#Figure2)). Thus in this case the emf induced on each side is $$\text{emf}=B\ell v \sin \theta $$ , and they are in the same direction.
 The total emf around the loop is then
 
 <div class="equation" >

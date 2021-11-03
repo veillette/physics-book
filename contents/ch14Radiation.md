@@ -338,7 +338,7 @@ At what net rate does heat radiate from a  $$275{\text{-m}}^{2} $$
 </div>
 <div class="solution" data-element-type="problem-exercises" markdown="1">
  $$- 21.7\text{kW} $$
-* * *
+
 {: class="newline"}
 
 Note that the negative answer implies heat loss to the surroundings.

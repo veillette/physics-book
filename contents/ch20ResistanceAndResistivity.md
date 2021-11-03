@@ -435,7 +435,7 @@ in [Ohm’s Law: Resistance and Simple Circuits](/ch20OhmsLaw).
 <div class="title">
 PhET Explorations: Resistance in a Wire
 </div>
-Learn about the physics of resistance in a wire. Change its resistivity, length, and area to see how they affect the wire\'s resistance. The sizes of the symbols in the equation change along with the diagram of a wire.* * *
+Learn about the physics of resistance in a wire. Change its resistivity, length, and area to see how they affect the wire\'s resistance. The sizes of the symbols in the equation change along with the diagram of a wire.
 {: class="newline"}
 
 <div class="media"  data-alt="resistance in a wire">

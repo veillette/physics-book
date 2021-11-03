@@ -427,7 +427,7 @@ unknown and the currents are given to be $${I}_{1}=5.00 \text{A} $$ , $${I}_
 (a) Could you find the emfs? (b) What is wrong with the assumptions?
 
 ![The diagram shows a complex circuit with two voltage sources E sub one and E sub two, and three resistive loads, wired in two loops and two junctions. Several points on the diagram are marked with letters a through h. The current in each branch is labeled separately.](../resources/Figure_22_03_09.jpg)
-{:}
+
 
 </div>
 <div class="solution" markdown="1">

@@ -40,7 +40,7 @@ deforming the system. The minus sign indicates the restoring force is in the
 direction opposite to the displacement.
 
 ![A series of illustrations of vibrating plastic rulers is shown demonstrating Hooke&#x2019;s law.](../resources/Figure_17_01_02a.jpg "(a) The plastic ruler has been released, and the restoring force is returning the ruler to its equilibrium position. (b) The net force is zero at the equilibrium position, but the ruler has momentum and continues to move to the right. (c) The restoring force is in the opposite direction. It stops the ruler and moves it back toward equilibrium again. (d) Now the ruler has momentum to the left. (e) In the absence of damping (caused by frictional forces), the ruler reaches its original position. From there, the motion will repeat itself.")
-{:}
+
 
 The **force constant**  $$k $$ is related to the rigidity (or stiffness) of a
 system—the larger the force constant, the greater the restoring force, and the
@@ -164,7 +164,7 @@ projectile’s speed.
 
 1. Identify known quantities:
    <div class="equation">
-    $${\text{KE}}_{\text{f}}={\text{PE}}_{\text{el}} or 1/2mv^{2}=\left(1/2\right)kx^{2}={\text{PE}}_{\text{el}}= 0.563 \text{J} $$
+    $${\text{KE}}_{\text{f}}={\text{PE}}_{\text{el}} \text{ or } 1/2mv^{2}=\left(1/2\right)kx^{2}={\text{PE}}_{\text{el}}= 0.563 \text{J} $$
    </div>
 
 2. Solve for $$v $$ \:

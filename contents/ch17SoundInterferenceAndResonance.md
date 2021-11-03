@@ -325,7 +325,7 @@ When the tube resonates at its natural frequency, the wave's node is located at 
 <div class="title">
 PhET Explorations: Sound
 </div>
-This simulation lets you see sound waves. Adjust the frequency or volume and you can see and hear how the wave changes. Move the listener around and hear what she hears.* * *
+This simulation lets you see sound waves. Adjust the frequency or volume and you can see and hear how the wave changes. Move the listener around and hear what she hears.
 {: class="newline"}
 
 <div class="media"  data-alt="sound">

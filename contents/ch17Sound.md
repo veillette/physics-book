@@ -68,7 +68,7 @@ are for all waves.
 <div class="title">
 PhET Explorations: Wave Interference
 </div>
-WMake waves with a dripping faucet, audio speaker, or laser! Add a second source or a pair of slits to create an interference pattern.* * *
+WMake waves with a dripping faucet, audio speaker, or laser! Add a second source or a pair of slits to create an interference pattern.
 {: class="newline"}
 
 <div class="media"  data-alt="wave interference">

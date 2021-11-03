@@ -13,17 +13,17 @@ law are of special importance, because they are very common. They are also the
 simplest oscillatory systems. **Simple Harmonic Motion** (SHM) is the name given
 to oscillatory motion for a system where the net force can be described by
 Hooke’s law, and such a system is called a **simple harmonic oscillator**. If
-the net force can be described by Hooke’s law and there is no **<em>
-damping</em> (by friction or other non-conservative forces), then a simple
-harmonic oscillator will oscillate with equal displacement on either side of the
-equilibrium position, as shown for an object on a spring
-in [[Figure 1]](#Figure1). The maximum displacement from equilibrium is called
-the **amplitude**  $$X $$ . The units for amplitude and displacement are the
-same, but depend on the type of oscillation. For the object on the spring, the
-units of amplitude and displacement are meters; whereas for sound oscillations,
-they have units of pressure (and other types of oscillations have yet other
-units). Because amplitude is the maximum displacement, it is related to the
-energy in the oscillation.
+the net force can be described by Hooke’s law and there is no **damping**  (by
+friction or other non-conservative forces), then a simple harmonic oscillator
+will oscillate with equal displacement on either side of the equilibrium
+position, as shown for an object on a spring in [[Figure 1]](#Figure1). The
+maximum displacement from equilibrium is called the **amplitude**  $$X $$ . The
+units for amplitude and displacement are the same, but depend on the type of
+oscillation. For the object on the spring, the units of amplitude and
+displacement are meters; whereas for sound oscillations, they have units of
+pressure (and other types of oscillations have yet other units). Because
+amplitude is the maximum displacement, it is related to the energy in the
+oscillation.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -85,7 +85,7 @@ Find two identical wooden or plastic rulers. Tape one end of each ruler firmly t
 <div class="title">
 Calculate the Frequency and Period of Oscillations: Bad Shock Absorbers in a Car
 </div>
-If the shock absorbers in a car go bad, then the car will oscillate at the least provocation, such as when going over bumps in the road and after stopping (See [[Figure 2]](#Figure2)). Calculate the frequency and period of these oscillations for such a car **if the car’s mass (including its load) is 900 kg and the force constant ( $$k $$ ) of the suspension system is  $$ 6.53 \times 10^{4}  \text{N/m} $$.
+If the shock absorbers in a car go bad, then the car will oscillate at the least provocation, such as when going over bumps in the road and after stopping (See [[Figure 2]](#Figure2)). Calculate the frequency and period of these oscillations for such a car if the car’s mass (including its load) is 900 kg and the force constant ( $$k $$ ) of the suspension system is  $$ 6.53 \times 10^{4}  \text{N/m} $$.
 
 **Strategy**
 
@@ -106,12 +106,11 @@ The mass and the force constant are both given.
    1.3656/{\text{s}}^{-1}\approx 1.36/\text{s}^{-1}=1.36 \text{Hz}. $$
    </div>
 
-3. You could use $$T=2\pi \sqrt{\frac{m}{k}} $$     
-   to calculate the period, but it is simpler to use the relationship $$T=1/f $$
-   and substitute the value just found for $$f $$ \:
+3. You could use $$T=2\pi \sqrt{\frac{m}{k}} $$ to calculate the period, but it
+   is simpler to use the relationship $$T=1/f $$ and substitute the value just
+   found for $$f $$ \:
    <div class="equation" >
-
-$$T=\frac{1}{f}=\frac{1}{ 1.356 \text{Hz}}= 0.738 \text{s}. $$
+   $$T=\frac{1}{f}=\frac{1}{ 1.356 \text{Hz}}= 0.738 \text{s}. $$
    </div>
 
 **Discussion**
@@ -220,7 +219,7 @@ A babysitter is pushing a child on a swing. At the point where the swing reaches
 <div class="title">
 PhET Explorations: Masses and Springs
 </div>
-A realistic mass and spring laboratory. Hang masses from springs and adjust the spring stiffness and damping. You can even slow time. Transport the lab to different planets. A chart shows the kinetic, potential, and thermal energy for each spring.* * *
+A realistic mass and spring laboratory. Hang masses from springs and adjust the spring stiffness and damping. You can even slow time. Transport the lab to different planets. A chart shows the kinetic, potential, and thermal energy for each spring.
 {: class="newline"}
 
 <div class="media"  data-alt="masses and spring">
@@ -233,11 +232,10 @@ A realistic mass and spring laboratory. Hang masses from springs and adjust the 
 * Simple harmonic motion is oscillatory motion for a system that can be
   described only by Hooke’s law. Such a system is also called a simple harmonic
   oscillator.
-* Maximum displacement is the amplitude * $$X $$
-  *. The period * $$T $$
-    * and frequency $$f $$ of a simple harmonic oscillator are given by $$T=2\pi
-      \sqrt{\frac{m}{k}} $$ and $$f=\frac{1}{2\pi }\sqrt{\frac{k}{m}} $$ , where
-      $$m $$ is the mass of the system.
+* Maximum displacement is the amplitude $$X $$. The period $$T $$ and frequency
+  $$f $$ of a simple harmonic oscillator are given by $$T=2\pi
+  \sqrt{\frac{m}{k}} $$ and $$f=\frac{1}{2\pi }\sqrt{\frac{k}{m}} $$ , where $$m
+  $$ is the mass of the system.
 
 * Displacement in simple harmonic motion as a function of time is given by
   $$x\left(t\right)=X \cos \frac{2\pi t}{T}. $$

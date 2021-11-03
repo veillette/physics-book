@@ -99,8 +99,7 @@ can be solved for E with the given information.
     $$E=\left(700 {\text{W/m}}^{2}\right)\left( 0.500 {\text{m}}^{2}\right)\left[ \left( 4.00 \text{h}\right)\left(3600 \text{s/h}\right)\right]  . $$
    </div>
 
-5. Calculate to find * $$E $$
-    * and convert units:
+5. Calculate to find $$E $$ and convert units:
    <div class="equation" id="import-auto-id1319463">
     $$ 5.04 \times 10^{6}  \text{J}, $$
    </div>

@@ -23,7 +23,7 @@ reservoir is $${Q}_{\text{h}}={Q}_{\text{c}}+W $$ .
 with their directions indicated on schematics rather than by sign.) A heat
 pump’s mission is for heat transfer $${Q}_{\text{h}} $$ to occur into a warm
 environment, such as a home in the winter. The mission of air conditioners and
-refrigerators is for heat transfer ** $${Q}_{\text{c}} $$ to occur from a cool
+refrigerators is for heat transfer $${Q}_{\text{c}} $$ to occur from a cool
 environment, such as chilling a room or keeping food at lower temperatures than
 the environment. (Actually, a heat pump can be used both to heat and cool a
 space. It is essentially an air conditioner and a heating unit all in one. In

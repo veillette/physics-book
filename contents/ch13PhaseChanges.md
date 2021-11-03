@@ -391,7 +391,7 @@ Yes, energy transfer is involved in a phase change. We know that atoms and molec
 <div class="title">
 PhET Explorations: States of Matter—Basics
 </div>
-Heat, cool, and compress atoms and molecules and watch as they change between solid, liquid, and gas phases.* * *
+Heat, cool, and compress atoms and molecules and watch as they change between solid, liquid, and gas phases.
 {: class="newline"}
 
 <div class="media"  data-alt="states of matter">

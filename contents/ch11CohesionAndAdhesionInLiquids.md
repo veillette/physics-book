@@ -318,7 +318,7 @@ liquid surface in a capillary tube. This results in a downward force in mercury
 and an upward force in water, as seen in [[link]](#fs-id1333088).
 
 ![Mercury kept in a container into which a narrow tube is inserted lowers its level inside the tube relative to the level in the rest of the container. In a similar situation, water rises in the tube so that the water level in the tube is above the water level in the rest of the container. This phenomenon is due to the large contact angle of mercury with glass and the smaller contact angle of water with glass.](../resources/Figure_12_08_09a.jpg "(a) Mercury is suppressed in a glass tube because its contact angle is greater than 90&#xBA;. Surface tension exerts a downward force as it flattens the mercury, suppressing it in the tube. The dashed line shows the shape the mercury surface would have without the flattening effect of surface tension. (b) Water is raised in a glass tube because its contact angle is nearly 0&#xBA;. Surface tension therefore exerts an upward force when it flattens the surface to reduce its area.")
-{:}
+
 
 <table id="Table2" summary="The table gives the contact angles of some substances."><caption><span class="title">Contact Angles of Some Substances</span></caption><thead><tr>
             <th>

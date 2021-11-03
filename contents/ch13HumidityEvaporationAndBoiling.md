@@ -407,7 +407,7 @@ Decreased the atmospheric pressure results in decreased partial pressure of wate
 <div class="title">
 PhET Explorations: States of Matter
 </div>
-Watch different types of molecules form a solid, liquid, or gas. Add or remove heat and watch the phase change. Change the temperature or volume of a container and see a pressure-temperature diagram respond in real time. Relate the interaction potential to the forces between molecules.* * *
+Watch different types of molecules form a solid, liquid, or gas. Add or remove heat and watch the phase change. Change the temperature or volume of a container and see a pressure-temperature diagram respond in real time. Relate the interaction potential to the forces between molecules.
 {: class="newline"}
 
 <div class="media"  data-alt="states of matter">

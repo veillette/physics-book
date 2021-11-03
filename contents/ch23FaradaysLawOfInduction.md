@@ -188,10 +188,10 @@ faster movement make induction the practical source of voltages that it is.
 <div class="title">
 PhET Explorations: Faraday's Electromagnetic Lab
 </div>
-Play with a bar magnet and coils to learn about Faraday\'s law. Move a bar magnet near one or two coils to make a light bulb glow. View the magnetic field lines. A meter shows the direction and magnitude of the current. View the magnetic field lines or use a meter to show the direction and magnitude of the current. You can also play with electromagnets, generators and transformers! * * *
+Play with a bar magnet and coils to learn about Faraday\'s law. Move a bar magnet near one or two coils to make a light bulb glow. View the magnetic field lines. A meter shows the direction and magnitude of the current. View the magnetic field lines or use a meter to show the direction and magnitude of the current. You can also play with electromagnets, generators and transformers! 
 {: class="newline"}
 
-* * *
+
 {: class="newline"}
 
 <div class="media" data-alt="">
@@ -306,7 +306,7 @@ Suppose a 50-turn coil lies in the plane of the page in a uniform magnetic field
 
 </div>
 <div class="solution" markdown="1">
-(a) 3.04 mV* * *
+(a) 3.04 mV
 {: class="newline"}
 
 (b) As a lower limit on the ring, estimate R = 1.00 mΩ. The heat transferred

@@ -115,14 +115,7 @@ inefficient—much development work is needed.
    $$F=IlB \sin \theta , $$
   </div>
 
-  where * $$I $$
-    * is the current, $$l $$ is the length of a straight conductor in a uniform
-      magnetic field * $$B $$
-      *, and * $$\theta $$
-    * is the angle between * $$I $$
-    * and * $$B $$
-      *. The force follows RHR-1 with the thumb in the direction of * $$I $$
-      *.
+  where $$I $$ is the current, $$l $$ is the length of a straight conductor in a uniform magnetic field $$B $$, and  $$\theta $$ is the angle between $$I $$ and $$B $$. The force follows RHR-1 with the thumb in the direction of $$I $$.
 
 ### Conceptual Questions
 

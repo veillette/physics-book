@@ -24,7 +24,7 @@ arrow representing the force on a test charge $$q $$ . Field lines are
 essentially a map of infinitesimal force vectors.
 
 ![In part a, electric field lines emanating from the charge Q are shown by the vector arrows pointing outward in every direction of two dimensional space. In part b, electric field lines emanating from the charge Q are shown by the vector arrows pointing outward in every direction of two dimensional space.](../resources/Figure_19_05_02a.jpg "Two equivalent representations of the electric field due to a positive charge \( Q \) . (a) Arrows representing the electric field&#x2019;s magnitude and direction. (b) In the standard representation, the arrows are replaced by continuous field lines having the same direction at any point as the electric field. The closeness of the lines is directly related to the strength of the electric field. A test charge placed anywhere will feel a force in the direction of the field line; this force will have a strength proportional to the density of the lines (being greater near the charge, for example).")
-{:}
+
 
 Note that the electric field is defined for a positive test charge $$q $$ , so
 that the field lines point away from a positive charge and toward a negative
@@ -204,7 +204,7 @@ Compare and contrast the Coulomb force field and the electric field. To do this,
 [[link]](#fs-id2000875) shows an electric field extending over three regions, labeled I, II, and III. Answer the following questions. (a) Are there any isolated charges? If so, in what region and what are their signs? (b) Where is the field strongest? (c) Where is it weakest? (d) Where is the field the most uniform?
 
 ![Five field lines represented by long arrows horizontally from left to right are shown. Two arrows diverge from other three, one arrow runs straight toward right and two arrows end abruptly.](../resources/Figure_19_05_07a.jpg)
-{:}
+
 
 </div>
 </div>

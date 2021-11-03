@@ -142,7 +142,7 @@ Electric current is the source of all magnetism.
 <div class="title">
 PhET Explorations: Magnets and Electromagnets
 </div>
-Explore the interactions between a compass and bar magnet. Discover how you can use a battery and wire to make a magnet! Can you make it a stronger magnet? Can you make the magnetic field reverse?* * *
+Explore the interactions between a compass and bar magnet. Discover how you can use a battery and wire to make a magnet! Can you make it a stronger magnet? Can you make the magnetic field reverse?
 {: class="newline"}
 
 <div class="media"  data-alt="magnets and electromagnets">

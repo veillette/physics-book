@@ -123,8 +123,7 @@ that the angle of deflection is less than $$15 \text{º} $$.
    $$
    </div>
 
-3. Calculate to find $$g $$     
-   \:
+3. Calculate to find $$g $$ \:
    <div class="equation" >
    $$g=9.8281 \text{m}/{\text{s}}^{2}. $$
    </div>
@@ -180,7 +179,7 @@ The movement of the pendula will not differ at all because the mass of the bob h
 PhET Explorations: Pendulum Lab
 </div>
 Play with one or two pendulums and discover how the period of a simple pendulum depends on the length of the string, the mass of the pendulum bob, and the amplitude of the swing. It’s easy to measure the period using the photogate timer. You can vary friction and the strength of gravity. Use the pendulum to find the value of  $$g $$
- on planet X. Notice the anharmonic behavior at large amplitude.* * *
+ on planet X. Notice the anharmonic behavior at large amplitude.
 {: class="newline"}
 
 <div class="media"  data-alt="pendulums">
@@ -190,8 +189,7 @@ Play with one or two pendulums and discover how the period of a simple pendulum 
 
 ### Section Summary
 
-* A mass * $$m $$
-    * suspended by a wire of length $$L $$ is a simple pendulum and undergoes
+* A mass $$m $$ suspended by a wire of length $$L $$ is a simple pendulum and undergoes
       simple harmonic motion for amplitudes less than about $$15 \text{º}. $$
       The period of a simple pendulum is
 

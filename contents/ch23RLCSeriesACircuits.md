@@ -419,8 +419,7 @@ Build circuits with capacitors, inductors, resistors and AC or DC voltage source
    $${f}_{0}=\frac{1}{2\pi \sqrt{\text{LC}}}\text{.} $$
   </div>
 
-* In an AC circuit, there is a phase angle * $$\varphi $$
-    * between source voltage $$V $$ and the current $$I $$ , which can be found
+* In an AC circuit, there is a phase angle $$\varphi $$ between source voltage $$V $$ and the current $$I $$ , which can be found
       from
 
   <div class="equation" >
@@ -666,8 +665,7 @@ the frequency at which the circuit would oscillate if not driven by a voltage
 source; calculated by $${f}_{0}=\frac{1}{2\pi \sqrt{\text{LC}}} $$
 
 phase angle
-: denoted by * $$\varphi $$
-*, the amount by which the voltage and current are out of phase with each other
+: denoted by $$\varphi $$, the amount by which the voltage and current are out of phase with each other
 in a circuit
 
 power factor

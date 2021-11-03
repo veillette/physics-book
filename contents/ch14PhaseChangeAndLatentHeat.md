@@ -611,11 +611,11 @@ On a certain dry sunny day, a swimming pool’s temperature would rise by  $$1.5
 <div class="problem"  markdown="1">
 (a) How much heat transfer is necessary to raise the temperature of a 0.200-kg piece of ice from  $$-20.0\text{ºC} $$
  to  $$130\text{ºC} $$ ,
- including the energy needed for phase changes?* * *
+ including the energy needed for phase changes?
 {: class="newline"}
 
 (b) How much time is required for each stage, assuming a constant 20.0 kJ/s rate
-of heat transfer? * * *
+of heat transfer? 
 {: class="newline"}
 
 (c) Make a graph of temperature versus time for this process.
