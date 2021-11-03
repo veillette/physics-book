@@ -61,7 +61,7 @@ Charges in static electricity are typically in the nanocoulomb  $$\left(\text{nC
  range. What is the voltage 5.00 cm away from the center of a 1-cm diameter metal sphere that has a  $$-3.00 \text{nC} $$
  static charge?
 
-**Strategy** **
+**Strategy** 
 
 As we have discussed
 in [Electric Charge and Electric Field](/ch18ElectricChargeAndElectricField),
@@ -69,7 +69,7 @@ charge on a metal sphere spreads out uniformly and produces a field like that of
 a point charge located at its center. Thus we can find the voltage using the
 equation $$V=kQ/r $$.
 
-**Solution** **
+**Solution** 
 
 Entering known values into the expression for the potential of a point charge,
 we obtain
@@ -77,7 +77,7 @@ we obtain
 <div class="equation" >
  $$\begin{array}{lll}V& =& k\frac{Q}{r}\\ & =& \left( 8.99 \times 10^{9}  \text{N}·{\text{m}}^{2}/{\text{C}}^{2}\right)\left(\frac{-3.00 \times 10^{-9} \text{C}}{5.00 \times 10^{-2} \text{m}}\right)\\ & =& -539 \text{V} \text{.} \end{array} $$
 </div>
-**Discussion** **
+**Discussion** 
 
 The negative value for voltage means a positive charge would be attracted from a
 larger distance, since the potential is lower (more negative) than at larger
@@ -94,7 +94,7 @@ A demonstration Van de Graaff generator has a 25.0 cm diameter metal sphere that
 ![The figure shows a Van de Graaff generator. The generator consists of a flat belt running over two metal pulleys. One pulley is positioned at the top and another at the bottom. The upper pulley is surrounded by an aluminum sphere. The aluminum sphere has a diameter of twenty five centimeters. Inside the sphere, the upper pulley is connected to a conductor which in turn is connected to a voltmeter for measuring the potential on the sphere. The lower pulley is connected to a motor. When the motor is switched on, the lower pulley begins turning the flat belt. The Van de Graaff generator with the above described setup produces a voltage of one hundred kilovolts. The potential on the surface of the sphere will be the same as that of a point charge at the center which is twelve point five centimeters away from the center. Thus the excess charge is calculated using the formula Q equals r times V divided by k.](../resources/Figure_20_03_01a.jpg "The voltage of this demonstration Van de Graaff generator is measured between the charged sphere and ground. Earth&#x2019;s potential is taken to be zero as a reference. The potential of the charged conducting sphere is the same as that of an equal point charge at its center.")
 {: #Figure1}
 
-**Strategy** **
+**Strategy** 
 
 The potential on the surface will be the same as that of a point charge at the
 center of the sphere, 12.5 cm away. (The radius of the sphere is 12.5 cm.) We
@@ -103,7 +103,7 @@ can thus determine the excess charge using the equation
 <div class="equation" >
  $$V=\frac{kQ}{r}. $$
 </div>
-**Solution** **
+**Solution** 
 
 Solving for $$Q $$ and entering known values gives
 

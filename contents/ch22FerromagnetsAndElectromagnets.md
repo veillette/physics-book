@@ -29,8 +29,7 @@ When a magnet is brought near a previously unmagnetized ferromagnetic material,
 it causes local magnetization of the material with unlike poles closest, as
 in [[Figure 1]](#Figure1). (This results in the attraction of the previously
 unmagnetized material to the magnet.) What happens on a microscopic scale is
-illustrated in [[Figure 2]](#Figure2). The regions within the material called **
-domains** act like small bar magnets. Within domains, the poles of individual
+illustrated in [[Figure 2]](#Figure2). The regions within the material called **domains** act like small bar magnets. Within domains, the poles of individual
 atoms are aligned. Each atom acts like a tiny bar magnet. Domains are small and
 randomly oriented in an unmagnetized ferromagnetic object. In response to an
 external magnetic field, the domains may grow to millimeter size, aligning
@@ -57,8 +56,7 @@ Early in the 19th century, it was discovered that electrical currents cause
 magnetic effects. The first significant observation was by the Danish scientist
 Hans Christian Oersted (1777–1851), who found that a compass needle was
 deflected by a current-carrying wire. This was the first significant evidence
-that the movement of charges had any connection with magnets. **
-Electromagnetism** is the use of electric current to make magnets. These
+that the movement of charges had any connection with magnets. **Electromagnetism** is the use of electric current to make magnets. These
 temporarily induced magnets are called **electromagnets**. Electromagnets are
 employed for everything from a wrecking yard crane that lifts scrapped cars to
 controlling the beam of a 90-km-circumference particle accelerator to the

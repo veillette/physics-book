@@ -54,8 +54,7 @@ blubber.
 
 Lastly, the heat transfer rate depends on the material properties described by
 the coefficient of thermal conductivity. All four factors are included in a
-simple equation that was deduced from and is confirmed by experiments. The **
-rate of conductive heat transfer** through a slab of material, such as the one
+simple equation that was deduced from and is confirmed by experiments. The **rate of conductive heat transfer** through a slab of material, such as the one
 in [[Figure 3]](#Figure3), is given by
 
 <div class="equation">

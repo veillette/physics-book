@@ -155,7 +155,7 @@ Field and Force inside an Electron Gun
 (a) An electron gun has parallel plates separated by 4.00 cm and gives electrons 25.0 keV of energy. What is the electric field strength between the plates? (b) What force would this field exert on a piece of plastic with a  $$0.500 \text{μC} $$
  charge that gets between the plates?
 
-**Strategy** **
+**Strategy** 
 
 Since the voltage and plate separation are given, the electric field strength
 can be calculated directly from the expression $$E=\frac{ {V}_{\text{AB}}}{d} $$
@@ -191,7 +191,7 @@ Substituting known values gives
 <div class="equation" >
  $$F=\left(0.500 \times 10^{-6} \text{C}\right)\left( 6.25 \times 10^{5}  \text{V/m}\right)=0.313 \text{N}. $$
 </div>
-**Discussion** **
+**Discussion** 
 
 Note that the units are newtons, since $$1 \text{V/m}=1 \text{N/C} $$ . The
 force on the charge is the same no matter where the charge is located between
