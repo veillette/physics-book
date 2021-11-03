@@ -39,8 +39,7 @@ earth/ground connections supply an alternative path through the earth, a good
 conductor, to complete the circuit. The earth/ground connection closest to the
 power source could be at the generating plant, while the other is at the user’s
 location. The third earth/ground is to the case of the appliance, through the
-green *earth/ground wire*, forcing the case, too, to be at zero volts. The **
-live** or **hot wire** (hereafter referred to as “live/hot”) supplies voltage
+green *earth/ground wire*, forcing the case, too, to be at zero volts. The **live** or **hot wire** (hereafter referred to as “live/hot”) supplies voltage
 and current to operate the appliance. [[Figure 3]](#Figure3) shows a more
 pictorial version of how the three-wire system is connected through a
 three-prong plug to an appliance.

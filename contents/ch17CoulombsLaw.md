@@ -15,8 +15,7 @@ Through the work of scientists in the late 18th century, the main features of
 the **electrostatic force**—the existence of two types of charge, the
 observation that like charges repel, unlike charges attract, and the decrease of
 force with distance—were eventually refined, and expressed as a mathematical
-formula. The mathematical formula for the electrostatic force is called **
-Coulomb’s law** after the French physicist Charles Coulomb (1736–1806), who
+formula. The mathematical formula for the electrostatic force is called **Coulomb’s law** after the French physicist Charles Coulomb (1736–1806), who
 performed experiments and first proposed a formula to calculate it.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -112,8 +111,7 @@ particles in nature.
 As the example implies, gravitational force is completely negligible on a small
 scale, where the interactions of individual charged particles are important. On
 a large scale, such as between the Earth and a person, the reverse is true. Most
-objects are nearly electrically neutral, and so attractive and repulsive **
-Coulomb forces** nearly cancel. Gravitational force on a large scale dominates
+objects are nearly electrically neutral, and so attractive and repulsive **Coulomb forces** nearly cancel. Gravitational force on a large scale dominates
 interactions between large objects because it is always attractive, while
 Coulomb forces tend to cancel.
 

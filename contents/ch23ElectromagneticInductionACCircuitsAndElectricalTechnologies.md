@@ -27,8 +27,7 @@ answer was soon found by experiment to be yes. In 1831, some 12 years after
 Oersted’s discovery, the English scientist Michael Faraday (1791–1862) and the
 American scientist Joseph Henry (1797–1878) independently demonstrated that
 magnetic fields can produce currents. The basic process of generating emfs (
-electromotive force) and, hence, currents with magnetic fields is known as **
-induction**{: class="term"}; this process is also called magnetic induction to
+electromotive force) and, hence, currents with magnetic fields is known as **induction**{: class="term"}; this process is also called magnetic induction to
 distinguish it from charging by induction, which utilizes the Coulomb force.
 
 Today, currents induced by magnetic fields are essential to our technological
