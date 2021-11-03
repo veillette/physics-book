@@ -49,8 +49,7 @@ Many people think that water waves push water from one direction to another. In 
 ![The figure shows an idealized ocean wave with two crests and two troughs that passes under a sea gull that bobs up and down in simple harmonic motion. The wave has a wavelength lambda which is the distance between adjacent identical parts of the wave. The height of a crest is equal to the depth of the trough that is X, therefore the total vertical distance between the top of a crest and the bottom of the trough is two-X.](../resources/Figure_17_09_02a.jpg "An idealized ocean wave passes under a sea gull that bobs up and down in simple harmonic motion. The wave has a wavelength \( \lambda \), which is the distance between adjacent identical parts of the wave. The up and down disturbance of the surface propagates parallel to the surface at a speed \( v_\text{W} \).")
 {: #Figure1}
 
-The water wave in the figure also has a length associated with it, called its **
-wavelength**  $$\lambda $$ , the distance between adjacent identical parts of a
+The water wave in the figure also has a length associated with it, called its **wavelength**  $$\lambda $$ , the distance between adjacent identical parts of a
 wave. ( $$\lambda $$ is the distance parallel to the direction of propagation.)
 The speed of propagation $${v}_{\text{w}} $$ is the distance the wave travels in
 a given time, which is one wavelength in the time of one period. In equation

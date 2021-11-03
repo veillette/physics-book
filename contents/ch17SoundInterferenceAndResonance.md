@@ -75,8 +75,7 @@ sounds form a standing wave in the tube as shown.
 ![The right side shows a vibrating tuning fork with its right arm moving rightward and left arm moving leftward. The left side shows a cone of resonance waves reflected at the closed end of the tube. The curve side of the cone has reached the tuning fork. The length of the tube is given to be equal to lambda divided by four.](../resources/Figure_18_05_03ac.jpg "Resonance of air in a tube closed at one end, caused by a tuning fork. A graph of air displacement along the length of the tube shows none at the closed end, where the motion is constrained, and a maximum at the open end. This standing wave has one-fourth of its wavelength in the tube, so that \( \lambda =4L \).")
 {: #Figure5}
 
-The standing wave formed in the tube has its maximum air displacement (an **
-antinode**) at the open end, where motion is unconstrained, and no
+The standing wave formed in the tube has its maximum air displacement (an **antinode**) at the open end, where motion is unconstrained, and no
 displacement (a **node**) at the closed end, where air movement is halted. The
 distance from a node to an antinode is one-fourth of a wavelength, and this
 equals the length of the tube; thus, $$\lambda =4L $$ . This same resonance can
@@ -96,8 +95,7 @@ process reveals a whole series of shorter-wavelength and higher-frequency sounds
 that resonate in the tube. We use specific terms for the resonances in any
 system. The lowest resonant frequency is called the **fundamental**, while all
 higher resonant frequencies are called **overtones**. All resonant frequencies
-are integral multiples of the fundamental, and they are collectively called **
-harmonics**. The fundamental is the first harmonic, the first overtone is the
+are integral multiples of the fundamental, and they are collectively called **harmonics**. The fundamental is the first harmonic, the first overtone is the
 second harmonic, and so on. [[Figure 8]](#Figure8) shows the fundamental and the
 first three overtones (the first four harmonics) in a tube closed at one end.
 

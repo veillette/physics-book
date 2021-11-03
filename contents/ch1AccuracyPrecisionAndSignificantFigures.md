@@ -112,8 +112,7 @@ be useless.
 #### Percent Uncertainty
 
 One method of expressing uncertainty is as a percent of the measured value. If a
-measurement $$ A $$ is expressed with uncertainty, $$ \delta A $$, the **percent
-uncertainty** (%unc)
+measurement $$ A $$ is expressed with uncertainty, $$ \delta A $$, the **percent uncertainty** (%unc)
 is defined to be
 
 <div class="equation">

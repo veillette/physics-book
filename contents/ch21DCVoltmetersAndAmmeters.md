@@ -41,14 +41,12 @@ represented by the symbol A.)
 
 **Analog meters** have a needle that swivels to point at numbers on a scale, as
 opposed to **digital meters**, which have numerical readouts similar to a
-hand-held calculator. The heart of most analog meters is a device called a **
-galvanometer**, denoted by G. Current flow through a galvanometer, $${I}_
+hand-held calculator. The heart of most analog meters is a device called a **galvanometer**, denoted by G. Current flow through a galvanometer, $${I}_
 {\text{G}} $$ , produces a proportional needle deflection. (This deflection is
 due to the force of a magnetic field upon a current-carrying wire.)
 
 The two crucial characteristics of a given galvanometer are its resistance and
-current sensitivity. **Current sensitivity** is the current that gives a **
-full-scale deflection** of the galvanometer’s needle, the maximum current that
+current sensitivity. **Current sensitivity** is the current that gives a **full-scale deflection** of the galvanometer’s needle, the maximum current that
 the instrument can measure. For example, a galvanometer with a current
 sensitivity of $$50 \text{μA} $$ has a maximum deflection of its needle when
 $$50 \text{μA} $$ flows through it, reads half-scale when $$25 \mu A $$ flows

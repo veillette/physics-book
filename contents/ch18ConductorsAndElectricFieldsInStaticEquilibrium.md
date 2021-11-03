@@ -15,8 +15,7 @@ layout: page
 
 **Conductors** contain **free charges** that move easily. When excess charge is
 placed on a conductor or the conductor is put into a static electric field,
-charges in the conductor quickly respond to reach a steady state called **
-electrostatic equilibrium**.
+charges in the conductor quickly respond to reach a steady state called **electrostatic equilibrium**.
 
 [[Figure 1]](#Figure1) shows the effect of an electric field on free charges in
 a conductor. The free charges move until the field is perpendicular to the

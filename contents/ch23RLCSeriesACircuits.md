@@ -268,8 +268,7 @@ considered for the same circuit in the preceding example.
 If current varies with frequency in an *RLC* circuit, then the power delivered
 to it also varies with frequency. But the average power is not simply current
 times voltage, as it is in purely resistive circuits. As was seen
-in [[Figure 2]](#Figure2), voltage and current are out of phase in an *RLC*
-circuit. There is a **phase angle**  $$\varphi $$ between the source voltage $$V
+in [[Figure 2]](#Figure2), voltage and current are out of phase in an *RLC* circuit. There is a **phase angle**  $$\varphi $$ between the source voltage $$V
 $$ and the current $$I $$ , which can be found from
 
 <div class="equation" >

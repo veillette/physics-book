@@ -34,8 +34,7 @@ devices create voltage from temperature differences.
 A few voltage sources are shown in [[Figure 1]](#Figure1). All such devices
 create a **potential difference** and can supply current if connected to a
 resistance. On the small scale, the potential difference creates an electric
-field that exerts force on charges, causing current. We thus use the name **
-electromotive force**, abbreviated emf.
+field that exerts force on charges, causing current. We thus use the name **electromotive force**, abbreviated emf.
 
 Emf is not a force at all; it is a special type of potential difference. To be
 precise, the electromotive force (emf) is the potential difference of a source

@@ -70,8 +70,7 @@ electric charge but did not understand what caused the phenomenon. Today we have
 the advantage of knowing that normal matter is made of atoms, and that atoms
 contain positive and negative charges, usually in equal amounts.
 
-[[Figure 3]](#Figure3) shows a simple model of an atom with negative **
-electrons** orbiting its positive nucleus. The nucleus is positive due to the
+[[Figure 3]](#Figure3) shows a simple model of an atom with negative **electrons** orbiting its positive nucleus. The nucleus is positive due to the
 presence of positively charged **protons**. Nearly all charge in nature is due
 to electrons and protons, which are two of the three building blocks of most
 matter. (The third is the neutron, which is neutral, carrying no charge.) Other

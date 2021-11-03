@@ -25,8 +25,7 @@ is than atmospheric pressure. Blood pressure measurements, like tire pressures,
 are thus made relative to atmospheric pressure.
 
 In brief, it is very common for pressure gauges to ignore atmospheric
-pressure—that is, to read zero at atmospheric pressure. We therefore define **
-gauge pressure** to be the pressure relative to atmospheric pressure. Gauge
+pressure—that is, to read zero at atmospheric pressure. We therefore define **gauge pressure** to be the pressure relative to atmospheric pressure. Gauge
 pressure is positive for pressures above atmospheric pressure, and negative for
 pressures below it.
 
@@ -114,8 +113,7 @@ is transmitted undiminished to both the main artery in the arm and the
 manometer. When this applied pressure exceeds blood pressure, blood flow below
 the cuff is cut off. The person making the measurement then slowly lowers the
 applied pressure and listens for blood flow to resume. Blood pressure pulsates
-because of the pumping action of the heart, reaching a maximum, called **
-systolic pressure**, and a minimum, called **diastolic pressure**, with each
+because of the pumping action of the heart, reaching a maximum, called **systolic pressure**, and a minimum, called **diastolic pressure**, with each
 heartbeat. Systolic pressure is measured by noting the value of $$h $$ when
 blood flow first begins as cuff pressure is lowered. Diastolic pressure is
 measured by noting $$h $$ when blood flows without interruption. The typical

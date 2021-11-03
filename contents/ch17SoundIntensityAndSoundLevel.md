@@ -25,8 +25,7 @@ perform. The relevant physical quantity is sound intensity, a concept that is
 valid for all sounds whether or not they are in the audible range.
 
 Intensity is defined to be the power per unit area carried by a wave. Power is
-the rate at which energy is transferred by the wave. In equation form, **
-intensity**  $$I $$ is
+the rate at which energy is transferred by the wave. In equation form, **intensity**  $$I $$ is
 
 <div class="equation" >
  $$I=\frac{P}{A}, $$
