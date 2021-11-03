@@ -30,7 +30,7 @@ The discovery that weak changes in a magnetic field in a thin film of iron and
 chromium could bring about much larger changes in electrical resistance was one
 of the first large successes of nanotechnology. The 2007 Nobel Prize in Physics
 went to Albert Fert from France and Peter Grunberg from Germany for this
-discovery of <em>giant magnetoresistance </em> and its applications to computer
+discovery of *giant magnetoresistance* and its applications to computer
 memory.
 
 All electric motors, with uses as diverse as powering refrigerators, starting

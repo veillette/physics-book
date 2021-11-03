@@ -27,7 +27,7 @@ is inversely proportional to the cylinder’s cross-sectional area $$A $$.
 For a given shape, the resistance depends on the material of which the object is
 composed. Different materials offer different resistance to the flow of charge.
 We define the **resistivity**  $$\rho $$ of a substance so that the **resistance**  $$R $$ of an object is directly proportional to $$\rho $$ .
-Resistivity $$\rho $$ is an <em><em>intrinsic </em></em> property of a material,
+Resistivity $$\rho $$ is an *intrinsic* property of a material,
 independent of its shape or size. The resistance $$R $$ of a uniform cylinder of
 length $$L $$ , of cross-sectional area $$A $$ , and made of a material with
 resistivity $$\rho $$, is
