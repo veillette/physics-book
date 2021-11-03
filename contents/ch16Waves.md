@@ -117,8 +117,7 @@ A simple wave consists of a periodic disturbance that propagates from one place
 to another. The wave in [[Figure 2]](#Figure2) propagates in the horizontal
 direction while the surface is disturbed in the vertical direction. Such a wave
 is called a **transverse wave** or shear wave; in such a wave, the disturbance
-is perpendicular to the direction of propagation. In contrast, in a **
-longitudinal wave** or compressional wave, the disturbance is parallel to the
+is perpendicular to the direction of propagation. In contrast, in a **longitudinal wave** or compressional wave, the disturbance is parallel to the
 direction of propagation. [[Figure 3]](#Figure3) shows an example of a
 longitudinal wave. The size of the disturbance is its amplitude *X* and is
 completely independent of the speed of propagation $${v}_{\text{w}} $$.

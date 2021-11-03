@@ -26,8 +26,7 @@ is inversely proportional to the cylinder’s cross-sectional area $$A $$.
 
 For a given shape, the resistance depends on the material of which the object is
 composed. Different materials offer different resistance to the flow of charge.
-We define the **resistivity**  $$\rho $$ of a substance so that the **
-resistance**  $$R $$ of an object is directly proportional to $$\rho $$ .
+We define the **resistivity**  $$\rho $$ of a substance so that the **resistance**  $$R $$ of an object is directly proportional to $$\rho $$ .
 Resistivity $$\rho $$ is an <em><em>intrinsic </em></em> property of a material,
 independent of its shape or size. The resistance $$R $$ of a uniform cylinder of
 length $$L $$ , of cross-sectional area $$A $$ , and made of a material with
@@ -262,8 +261,7 @@ equation
  $$\rho ={\rho }_{0}\left(1+\alpha \Delta T\right)\text{,} $$
 </div>
 
-where $${\rho }_{0} $$ is the original resistivity and $$\alpha $$ is the **
-temperature coefficient of resistivity**. (See the values of $$\alpha $$
+where $${\rho }_{0} $$ is the original resistivity and $$\alpha $$ is the **temperature coefficient of resistivity**. (See the values of $$\alpha $$
 in [[Table 2]](#Table2) below.) For larger temperature changes, $$\alpha $$ may
 vary or a nonlinear equation may be needed to find $$\rho $$ . Note that
 $$\alpha $$ is positive for metals, meaning their resistivity increases with
