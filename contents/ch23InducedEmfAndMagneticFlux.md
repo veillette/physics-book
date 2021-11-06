@@ -18,8 +18,7 @@ in the coil on the bottom. (You can also observe this in a physics lab.) Each
 time the switch is opened, the galvanometer detects a current in the opposite
 direction. Interestingly, if the switch remains closed or open for any length of
 time, there is no current through the galvanometer. **Closing and opening the switch** induces the current. It is the **change** in magnetic field that
-creates the current. More basic than the current that flows is the emf**that
-causes it. The current is a result of an *emf induced by a changing magnetic
+creates the current. More basic than the current that flows is the *emf* that causes it. The current is a result of an *emf induced by a changing magnetic
 field*, whether or not there is a path for current to flow.
 
 ![The picture shows Faraday&#x2019;s apparatus for demonstrating that a magnetic field can produce a current. It consists of a cylinder shaped battery. The positive end of the battery is connected to an open switch. There is a ring shaped iron core consisting of a set of coils one on the top and another at the bottom. The other end of the switch is connected to one end of the top coil. The other end of the top coil is connected back to the battery. Both the ends of the bottom coil are shown connected across a galvanometer box which shows a null deflection.](../resources/Figure_24_01_01.jpg "Faraday&#x2019;s apparatus for demonstrating that a magnetic field can produce a current. A change in the field produced by the top coil induces an emf and, hence, a current in the bottom coil. When the switch is opened and closed, the galvanometer registers currents in opposite directions. No current flows through the galvanometer when the switch remains closed or open. ")

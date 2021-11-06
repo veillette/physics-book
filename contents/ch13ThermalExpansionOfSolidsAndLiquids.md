@@ -767,7 +767,7 @@ So writing the length terms in terms of volumes gives  $$V={V}_{0}+\Delta V\appr
  and so
 
 <div class="equation" id="import-auto-id1965368" data-element-type="problems-exercises">
- $$\Delta V=\beta V_{0}\Delta T\approx {3\alpha V}_{0}\Delta T, \text{or} \beta \approx 3\alpha . $$
+ $$\Delta V=\beta V_{0}\Delta T\approx {3\alpha V}_{0}\Delta T, \text{ or } \beta \approx 3\alpha . $$
 </div>
 </div>
 </div>

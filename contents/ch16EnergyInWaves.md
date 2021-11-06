@@ -24,13 +24,13 @@ Large ocean breakers churn up the shore more than small ones. More
 quantitatively, a wave is a displacement that is resisted by a restoring force.
 The larger the displacement $$x $$ , the larger the force $$F=kx $$ needed to
 create it. Because work $$W $$ is related to force multiplied by distance (
-$$\text{Fx} $$ )
+$$ F x $$ )
 and energy is put into the wave by the work done to create it, the energy in a
 wave is related to amplitude. In fact, a wave’s energy is directly proportional
 to its amplitude squared because
 
 <div class="equation" >
- $$W\propto \text{Fx}=kx^{2}\text{.} $$
+ $$Wc\propto F x=kx^{2}\text{.} $$
 </div>
 
 The energy effects of a wave depend on time as well as amplitude. For example,

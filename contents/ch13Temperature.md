@@ -16,7 +16,7 @@ you place one hand in hot water and the other in cold water, and then place both
 hands in tepid water, the tepid water will feel cool to the hand that was in hot
 water, and warm to the one that was in cold water. The scientific definition of
 temperature is less ambiguous than your senses of hot and cold. **Temperature**
-is operationally defined to be what we measure with a thermometer. **(Many
+is operationally defined to be what we measure with a thermometer. (Many
 physical quantities are defined solely in terms of how they are measured. We
 shall see later how temperature is related to the kinetic energies of atoms and
 molecules, a more physical explanation.) Two accurate thermometers, one placed

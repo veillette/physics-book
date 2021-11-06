@@ -18,7 +18,7 @@ explore generators in more detail. Consider the following example.
 Calculating the Emf Induced in a Generator Coil
 </div>
 The generator coil shown in [[Figure 1]](#Figure1) is rotated through one-fourth of a revolution (from  $$\theta =0º $$
- to  $$\theta =90 \text{º} $$ )   in 15.0 ms. The 200-turn circular coil has a 5.00 cm radius and is in a uniform 1.25 T magnetic field. What is the average emf induced?
+ to  $$\theta =90 \degree $$ )   in 15.0 ms. The 200-turn circular coil has a 5.00 cm radius and is in a uniform 1.25 T magnetic field. What is the average emf induced?
 
 ![The figure shows a schematic diagram of an electric generator. It consists of a rotating rectangular coil placed between the two poles of a permanent magnet shown as two rectangular blocks curved on side facing the coil. The magnetic field B is shown pointing from the North to the South Pole. The two ends of this coil are connected to the two small rings. The two conducting carbon brushes are kept pressed separately on both the rings. The coil is attached to an axle with a handle at the other end. Outer ends of the two brushes are connected to the galvanometer. The axle is mechanically rotated from outside by an angle of ninety degree that is a one fourth revolution, to rotate the coil inside the magnetic field. A current is shown to flow in the coil in clockwise direction and the galvanometer shows a deflection to left.](../resources/Figure_24_05_01.jpg "When this generator coil is rotated through one-fourth of a revolution, the magnetic flux \( \Phi \) changes from its maximum to zero, inducing an emf.")
 {: #Figure1}
@@ -46,8 +46,8 @@ that
 </div>
 Now,  $$\Delta \left(\cos \theta \right)= -1.0 $$ ,
  since it was given that  $$\theta  $$
- goes from  $$0 \text{º} $$
- to  $$90 \text{º} $$ . Thus  $$\Delta \Phi =-AB $$, and 
+ goes from  $$0 \degree $$
+ to  $$90 \degree $$ . Thus  $$\Delta \Phi =-AB $$, and 
 <div class="equation" >
  $$\text{emf}=N\frac{AB}{\Delta t}. $$
 </div>

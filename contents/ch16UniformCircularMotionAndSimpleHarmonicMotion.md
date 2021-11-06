@@ -47,8 +47,7 @@ position $$x $$ is given by
 </div>
 
 where $$\theta =\omega t $$, $$\omega $$ is the constant angular velocity, and
-$$X $$
-** is the radius of the circular path. Thus,
+$$X $$ is the radius of the circular path. Thus,
 
 <div class="equation" >
  $$x=X \cos \omega t. $$

@@ -48,7 +48,7 @@ electric field by
 Note that in the above equation, $$E $$ and $$F $$ symbolize the magnitudes of
 the electric field strength and force, respectively. Neither $$q $$ nor
 $$\vb{E} $$ nor $$d $$ is zero, and so $$\cos \theta $$ must be 0,
-meaning $$\theta $$ must be $$90 \text{º} $$ . In other words, motion along an
+meaning $$\theta $$ must be $$90 \degree $$ . In other words, motion along an
 equipotential is perpendicular to $$\vb{E} $$.
 
 One of the rules for static electric fields and conductors is that the electric

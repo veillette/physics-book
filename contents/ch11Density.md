@@ -55,15 +55,15 @@ cm<sup>3</sup>.
           <tr>
             <th>Substance</th>
             <th>
-               $$\rho \left(10^{3} {\text{kg/m}}^{3} \text{or} \text{g/mL}\right) $$
+               $$\rho \left(10^{3} {\text{kg/m}}^{3} \text{ or } \text{g/mL}\right) $$
             </th>
             <th>Substance</th>
             <th>
-               $$\rho \left(10^{3} {\text{kg/m}}^{3} \text{or} \text{g/mL}\right) $$
+               $$\rho \left(10^{3} {\text{kg/m}}^{3} \text{ or } \text{g/mL}\right) $$
             </th>
             <th>Substance</th>
             <th>
-               $$\rho \left(10^{3} {\text{kg/m}}^{3} \text{or} \text{g/mL}\right) $$
+               $$\rho \left(10^{3} {\text{kg/m}}^{3} \text{ or } \text{g/mL}\right) $$
             </th>
           </tr>
 </thead><tbody>

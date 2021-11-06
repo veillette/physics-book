@@ -20,24 +20,22 @@ The magnetic force on a moving charge is one of the most fundamental known.
 Magnetic force is as important as the electrostatic or Coulomb force. Yet the
 magnetic force is more complex, in both the number of factors that affects it
 and in its direction, than the relatively simple Coulomb force. The magnitude of
-the **magnetic force**  $$F $$ on a charge $$q $$ moving at a speed $$v $$ in a
-magnetic field of strength $$B $$ is given by
+the **magnetic force**  $$\mag{F} $$ on a charge $$q $$ moving at a velocity $$\vb{v} $$ in a
+magnetic field of strength $$\vb{B} $$ is given by
 
 <div class="equation" id="import-auto-id1848216">
- $$F=qvB \sin \theta \text{,} $$
+ $$\mag{F}=q \mag{v} \mag{B} \sin \theta \text{,} $$
 </div>
 
 where $$\theta $$ is the angle between the directions of $$\vb{v} $$
-and $$\vb{B}. $$ This force is often called the **Lorentz force**{:
-class="term"}. In fact, this is how we define the magnetic field strength $$B $$
+and $$\vb{B}. $$ This force is often called the **Lorentz force**. In fact, this is how we define the magnetic field strength $$\mag{B} $$
 —in terms of the force on a charged particle moving in a magnetic field. The SI
-unit for magnetic field strength $$B $$ is called the **tesla**{: class="term"
-} (T) after the eccentric but brilliant inventor Nikola Tesla (1856–1943). To
-determine how the tesla relates to other SI units, we solve $$F=qvB \sin \theta
-$$ for $$B $$.
+unit for magnetic field strength $$B $$ is called the **tesla** (T) after the eccentric but brilliant inventor Nikola Tesla (1856–1943). To
+determine how the tesla relates to other SI units, we solve $$\mag{F}=q\mag{v}\mag{B} \sin \theta
+$$ for $$\mag{B} $$.
 
 <div class="equation" id="import-auto-id1536271">
- $$B=\frac{F}{qv \sin \theta } $$
+ $$\mag{B}=\frac{\mag{F}}{q\mag{v} \sin \theta } $$
 </div>
 
 Because $$\sin \theta $$ is unitless, the tesla is
@@ -55,7 +53,7 @@ field on its surface is only about $$5 \times 10^{-5} \text{T} $$ , or 0.5 G.
 
 The *direction* of the magnetic force $$\vb{F} $$ is perpendicular to
 the plane formed by $$\vb{v} $$ and $$\vb{B} $$ , as
-determined by the **right hand rule 1**{: class="term"} (or RHR-1), which is
+determined by the **right hand rule 1** (or RHR-1), which is
 illustrated in [[Figure 1]](#Figure1). RHR-1 states that, to determine the
 direction of the magnetic force on a positive moving charge, you point the thumb
 of the right hand in the direction of $$\vb{v} $$ , the fingers in
@@ -100,7 +98,7 @@ The magnetic force is
  $$F=q v B \sin \theta . $$
 </div>
 We see that  $$\sin \theta =1 $$ ,
- since the angle between the velocity and the direction of the field is  $$90 \text{º} $$ .
+ since the angle between the velocity and the direction of the field is  $$90 \degree $$ .
  Entering the other given quantities yields
 
 <div class="equation" id="import-auto-id2093723">
@@ -113,8 +111,7 @@ experience. (It is calculated to only one digit, since the Earth’s field varie
 with location and is given to only one digit.) The Earth’s magnetic field,
 however, does produce very important effects, particularly on submicroscopic
 particles. Some of these are explored
-in [Force on a Moving Charge in a Magnetic Field: Examples and Applications](/ch22ForceOnAMovingChargeInAMagneticField)
-.
+in [Force on a Moving Charge in a Magnetic Field: Examples and Applications](/ch22ForceOnAMovingChargeInAMagneticField) .
 
 </div>
 
@@ -135,9 +132,9 @@ in [Force on a Moving Charge in a Magnetic Field: Examples and Applications](/ch
   </div>
 
 * The *direction* of the force on a moving charge is given by right hand rule
-  1 (RHR-1): Point the thumb of the right hand in the direction of $$v $$ , the
-  fingers in the direction of $$B $$ , and a perpendicular to the palm points in
-  the direction of $$F $$ .
+  1 (RHR-1): Point the thumb of the right hand in the direction of $$\vb{v} $$ , the
+  fingers in the direction of $$\vb{B} $$ , and a perpendicular to the palm points in
+  the direction of $$\vb{F} $$ .
 * The force is perpendicular to the plane formed by $$\vb{v} $$ and
   $$\vb{B} $$ . Since the force is zero if $$\vb{v} $$ is
   parallel to $$\vb{B} $$ , charged particles often follow magnetic
@@ -259,7 +256,7 @@ What is the maximum force on an aluminum rod with a  $$ 0.100\text{-μC} $$
 <div class="problem" markdown="1">
 (a) A cosmic ray proton moving toward the Earth at  $$ 5.00 \times 10^{7}  \text{m/s} $$
  experiences a magnetic force of  $$ 1.70 \times 10^{-16}  \text{N} $$ .
- What is the strength of the magnetic field if there is a  $$45 \text{º} $$
+ What is the strength of the magnetic field if there is a  $$45 \degree $$
  angle between it and the proton’s velocity? (b) Is the value obtained in part (a) consistent with the known strength of the Earth’s magnetic field on its surface? Discuss.
 
 </div>

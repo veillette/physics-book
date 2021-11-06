@@ -378,12 +378,9 @@ Using a fan increases the flow of air: warm air near your body is replaced by co
 
 ### Summary
 
-* Convection is heat transfer by the macroscopic movement of mass. Convection
-  can be natural or forced and generally transfers thermal energy faster than
-  conduction. [[Table 1]](#Table1) gives wind-chill factors, indicating that
-  moving air has the same chilling effect of much colder stationary air. *
-  Convection that occurs along with a phase change* can transfer energy from
-  cold regions to warm ones.
+* Convection is heat transfer by the macroscopic movement of mass. Convection can be natural or forced and generally transfers thermal energy faster than conduction. [[Table 1]](#Table1) gives wind-chill factors, indicating that
+  moving air has the same chilling effect of much colder stationary air. 
+* Convection that occurs along with a phase change can transfer energy from cold regions to warm ones.
 
 ### Conceptual Questions
 

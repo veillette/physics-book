@@ -10,12 +10,12 @@ layout: page
 
 ### Faraday’s and Lenz’s Law
 
-Faraday’s experiments showed that the emf **induced by a change in magnetic flux
-depends on only a few factors. First, **emf is directly proportional to the
-change in flux $$\Delta \Phi $$ . Second, emf ** is greatest when the change in
-time $$\Delta t $$ is smallest—that is, emf ** is inversely proportional to
+Faraday’s experiments showed that the emf **induced** by a change in magnetic flux 
+depends on only a few factors. First, *emf* is directly proportional to the
+change in flux $$\Delta \Phi $$ . Second, *emf* is greatest when the change in
+time $$\Delta t $$ is smallest—that is, *emf* is inversely proportional to
 $$\Delta t $$ . Finally, if a coil has $$N $$ turns, an emf will be produced
-that is $$N $$ times greater than for a single coil, so that **emf is directly
+that is $$N $$ times greater than for a single coil, so that *emf* is directly
 proportional to $$N $$ . The equation for the emf induced by a change in
 magnetic flux is
 
@@ -29,7 +29,7 @@ are volts, as is usual.
 The minus sign in Faraday’s law of induction is very important. The minus means
 that *the emf creates a current I and magnetic field B that oppose the change in
 flux $$\Delta \Phi $$ —this is known as Lenz’s law*. The direction (given by the
-minus sign) of the emf**is so important that it is called **Lenz’s law** after
+minus sign) of the *emf* is so important that it is called **Lenz’s law** after
 the Russian Heinrich Lenz (1804–1865), who, like Faraday and Henry,independently
 investigated aspects of induction. Faraday was aware of the direction, but Lenz
 stated it so clearly that he is credited for its discovery. (

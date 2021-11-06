@@ -33,7 +33,7 @@ The SI unit for frequency is the *cycle per second*, which is defined to be a *
 hertz* (Hz):
 
 <div class="equation" >
- $$1 \text{Hz}=1\frac{\text{cycle}}{\text{sec}}\text{or}  1 \text{Hz}=\frac{1}{\text{s}} $$
+ $$1 \text{Hz}=1\frac{\text{cycle}}{\text{sec}}\text{ or }  1 \text{Hz}=\frac{1}{\text{s}} $$
 </div>
 
 A cycle is one complete oscillation. Note that a vibration can be a single or

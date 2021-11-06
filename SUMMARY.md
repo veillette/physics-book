@@ -58,7 +58,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
    2.  [Electric Potential in a Uniform Electric Field](contents/ch19ElectricPotentialInAUniformElectricField.md)
    3.  [Electrical Potential Due to a Point Charge](contents/ch19ElectricPotentialDueToAPointCharge.md)
    4.  [Equipotential Lines](contents/ch19EquipotentialLines.md)
-   5.  [Capacitors and Dielectrics](contents/ch19CapacitorsAndDielectrics)
+   5.  [Capacitors and Dielectrics](contents/ch19CapacitorsAndDielectrics.md)
    6.  [Capacitors in Series and Parallel](contents/ch19CapacitorsInSeriesAndInParallel.md)
    7.  [Energy Stored in Capacitors](contents/ch19EnergyStoredInCapacitors.md)
 
