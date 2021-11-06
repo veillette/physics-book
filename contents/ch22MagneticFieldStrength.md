@@ -27,8 +27,8 @@ magnetic field of strength $$B $$ is given by
  $$F=qvB \sin \theta \text{,} $$
 </div>
 
-where $$\theta $$ is the angle between the directions of $$\mathbf{\text{v}} $$
-and $$\mathbf{\text{B}}. $$ This force is often called the **Lorentz force**{:
+where $$\theta $$ is the angle between the directions of $$\vb{v} $$
+and $$\vb{B}. $$ This force is often called the **Lorentz force**{:
 class="term"}. In fact, this is how we define the magnetic field strength $$B $$
 —in terms of the force on a charged particle moving in a magnetic field. The SI
 unit for magnetic field strength $$B $$ is called the **tesla**{: class="term"
@@ -53,14 +53,14 @@ Another smaller unit, called the **gauss** (G), where $$1 G=10^{-4} \text{T} $$
 superconducting electromagnets may attain 10 T or more. The Earth’s magnetic
 field on its surface is only about $$5 \times 10^{-5} \text{T} $$ , or 0.5 G.
 
-The *direction* of the magnetic force $$\mathbf{\text{F}} $$ is perpendicular to
-the plane formed by $$\mathbf{\text{v}} $$ and $$\mathbf{\text{B}} $$ , as
+The *direction* of the magnetic force $$\vb{F} $$ is perpendicular to
+the plane formed by $$\vb{v} $$ and $$\vb{B} $$ , as
 determined by the **right hand rule 1**{: class="term"} (or RHR-1), which is
 illustrated in [[Figure 1]](#Figure1). RHR-1 states that, to determine the
 direction of the magnetic force on a positive moving charge, you point the thumb
-of the right hand in the direction of $$\mathbf{\text{v}} $$ , the fingers in
-the direction of $$\mathbf{\text{B}} $$ , and a perpendicular to the palm points
-in the direction of $$\mathbf{\text{F}} $$ . One way to remember this is that
+of the right hand in the direction of $$\vb{v} $$ , the fingers in
+the direction of $$\vb{B} $$ , and a perpendicular to the palm points
+in the direction of $$\vb{F} $$ . One way to remember this is that
 there is one velocity, and so the thumb represents it. There are many field
 lines, and so the fingers represent them. The force is in the direction you
 would push with your palm. The force on a negative charge is in exactly the
@@ -138,9 +138,9 @@ in [Force on a Moving Charge in a Magnetic Field: Examples and Applications](/ch
   1 (RHR-1): Point the thumb of the right hand in the direction of $$v $$ , the
   fingers in the direction of $$B $$ , and a perpendicular to the palm points in
   the direction of $$F $$ .
-* The force is perpendicular to the plane formed by $$\mathbf{\text{v}} $$ and
-  $$\mathbf{\text{B}} $$ . Since the force is zero if $$\mathbf{\text{v}} $$ is
-  parallel to $$\mathbf{\text{B}} $$ , charged particles often follow magnetic
+* The force is perpendicular to the plane formed by $$\vb{v} $$ and
+  $$\vb{B} $$ . Since the force is zero if $$\vb{v} $$ is
+  parallel to $$\vb{B} $$ , charged particles often follow magnetic
   field lines rather than cross them.
 
 ### Conceptual Questions
@@ -187,7 +187,7 @@ Repeat [[link]](#fs-id1399302) for a negative charge.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What is the direction of the velocity of a negative charge that experiences the magnetic force shown in each of the three cases in [[Figure 3]](#Figure3), assuming it moves perpendicular to  $$\mathbf{\text{B}}$$ ?
+What is the direction of the velocity of a negative charge that experiences the magnetic force shown in each of the three cases in [[Figure 3]](#Figure3), assuming it moves perpendicular to  $$\vb{B}$$ ?
 ![Figure a shows the force vector pointing up and B out of the page. Figure b shows the F vector pointing up and the B vector pointing to the right. Figure c shows the F vector pointing to the left and the B vector pointing into the page.](../resources/Figure_23_04_04a.jpg){: #Figure3}
 
 </div>
@@ -210,8 +210,8 @@ Repeat [[link]](#fs-id1327231) for a positive charge.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What is the direction of the magnetic field that produces the magnetic force on a positive charge as shown in each of the three cases in the figure below, assuming  $$\mathbf{\text{B}} $$
- is perpendicular to  $$\mathbf{\text{v}} $$ ?
+What is the direction of the magnetic field that produces the magnetic force on a positive charge as shown in each of the three cases in the figure below, assuming  $$\vb{B} $$
+ is perpendicular to  $$\vb{v} $$ ?
 
 ![Figure a shows a force vector pointing toward the left and a velocity vector pointing up. Figure b shows the force vector pointing into the page and the velocity vector pointing down. Figure c shows the force vector pointing up and the velocity vector pointing to the left.](../resources/Figure_23_04_05a.jpg)
 
@@ -302,8 +302,8 @@ An electron moving at  $$ 4.00 \times 10^{3}  \text{m/s} $$
 right hand rule 1 (RHR-1)
 : the rule to determine the direction of the magnetic force on a positive moving
 charge: when the thumb of the right hand points in the direction of the charge’s
-velocity $$\mathbf{\text{v}} $$ and the fingers point in the direction of the
-magnetic field $$\mathbf{\text{B}} $$ , then the force on the charge is
+velocity $$\vb{v} $$ and the fingers point in the direction of the
+magnetic field $$\vb{B} $$ , then the force on the charge is
 perpendicular and away from the palm; the force on a negative charge is
 perpendicular and into the palm
 

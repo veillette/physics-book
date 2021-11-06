@@ -37,8 +37,8 @@ equipotential, since $$\Delta V=0 $$ . Thus the work is
 </div>
 
 Work is zero if force is perpendicular to motion. Force is in the same direction
-as $$\mathbf{\text{E}} $$ , so that motion along an equipotential must be
-perpendicular to $$\mathbf{\text{E}} $$ . More precisely, work is related to the
+as $$\vb{E} $$ , so that motion along an equipotential must be
+perpendicular to $$\vb{E} $$ . More precisely, work is related to the
 electric field by
 
 <div class="equation" >
@@ -47,9 +47,9 @@ electric field by
 
 Note that in the above equation, $$E $$ and $$F $$ symbolize the magnitudes of
 the electric field strength and force, respectively. Neither $$q $$ nor
-$$\mathbf{\text{E}} $$ nor $$d $$ is zero, and so $$\cos \theta $$ must be 0,
+$$\vb{E} $$ nor $$d $$ is zero, and so $$\cos \theta $$ must be 0,
 meaning $$\theta $$ must be $$90 \text{º} $$ . In other words, motion along an
-equipotential is perpendicular to $$\mathbf{\text{E}} $$.
+equipotential is perpendicular to $$\vb{E} $$.
 
 One of the rules for static electric fields and conductors is that the electric
 field must be perpendicular to the surface of any conductor. This implies that

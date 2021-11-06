@@ -25,10 +25,7 @@ Coulomb’s Law
 <div class="equation" >
  $$F=k\frac{\|{q}_{1}{q}_{2}\|}{ {r}^{2}}. $$
 </div>
-Coulomb’s law calculates the magnitude of the force  $$F $$
- between two point charges,  $${q}_{1} $$
- and  $${q}_{2} $$ ,
- separated by a distance  $$r $$ .
+Coulomb’s law calculates the *magnitude* of the force  $$F $$ between two point charges,  $${q}_{1} $$ and  $${q}_{2} $$, separated by a distance  $$r $$ .
  In SI units, the constant  $$k $$  is equal to
 
 <div class="equation" >
@@ -80,7 +77,7 @@ Thus the Coulomb force is
  $$F=8.19 \times 10^{-8} \text{N}. $$
 </div>
 The charges are opposite in sign, so this is an attractive force. This is a very large force for an electron—it would cause an acceleration of  $$ 8.99 \times 10^{22}  \text{m}/{\text{s}}^{2} $$
-(verification is left as an end-of-section problem).The gravitational force is given by Newton’s law of gravitation as:
+(verification is left as an end-of-section problem).The magnitude of the gravitational force is given by Newton’s law of gravitation as:
 
 <div class="equation" >
  $${F}_{G}=G\frac{mM}{ {r}^{2}}, $$
@@ -90,7 +87,7 @@ where  $$G= 6.67 \times 10^{-11}  \text{N}\cdot {\text{m}}^{2}/{\text{kg}}^{2} $
  represent the electron and proton masses, which can be found in the appendices. Entering values for the knowns yields
 
 <div class="equation" >
- $${F}_{G}=\left(6.67 \times 10^{-11} \text{N}\cdot {\text{m}}^{2}/{\text{kg}}^{2}\right)×\frac{\left(9.11 \times 10^{-31} \text{kg}\right)\left(1.67 \times 10^{-27} \text{kg}\right)}{ {`\left(0.530 \times 10^{-10} \text{m}\right)}^{2}}=3.61 \times 10^{-47} \text{N} $$
+ $${F}_{G}=\left(6.67 \times 10^{-11} \text{N}\cdot {\text{m}}^{2}/{\text{kg}}^{2}\right)×\frac{\left(9.11 \times 10^{-31} \text{kg}\right)\left(1.67 \times 10^{-27} \text{kg}\right)}{ {\left(0.530 \times 10^{-10} \text{m}\right)}^{2}}=3.61 \times 10^{-47} \text{N} $$
 </div>
 This is also an attractive force, although it is traditionally shown as positive since gravitational force is always attractive. The ratio of the magnitude of the electrostatic force to gravitational force in this case is, thus,
 

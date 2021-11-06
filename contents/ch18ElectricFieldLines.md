@@ -61,8 +61,8 @@ electric fields with the same vector techniques used for other types of vectors.
 We first must find the electric field due to each charge at the point of
 interest, which is the origin of the coordinate system (O) in this instance. We
 pretend that there is a positive test charge, $$q $$ , at point O, which allows
-us to determine the direction of the fields $${\mathbf{\text{E}}}_{1} $$ and
-$${\mathbf{\text{E}}}_{2} $$ . Once those fields are found, the total field can
+us to determine the direction of the fields $${\vb{E}}_{1} $$ and
+$${\vb{E}}_{2} $$ . Once those fields are found, the total field can
 be determined using **vector addition**.
 
 **Solution**
@@ -82,10 +82,10 @@ Similarly,  $${E}_{2} $$  is
 </div>
 Four digits have been retained in this solution to illustrate that  $${E}_{1} $$
  is exactly twice the magnitude of  $${E}_{2} $$ .
- Now arrows are drawn to represent the magnitudes and directions of  $${\mathbf{\text{E}}}_{1} $$
- and  $${\mathbf{\text{E}}}_{2} $$ .
- (See [[Figure 2]](#Figure2).) The direction of the electric field is that of the force on a positive charge so both arrows point directly away from the positive charges that create them. The arrow for  $${\mathbf{\text{E}}}_{1} $$
- is exactly twice the length of that for  $${\mathbf{\text{E}}}_{2} $$ .
+ Now arrows are drawn to represent the magnitudes and directions of  $${\vb{E}}_{1} $$
+ and  $${\vb{E}}_{2} $$ .
+ (See [[Figure 2]](#Figure2).) The direction of the electric field is that of the force on a positive charge so both arrows point directly away from the positive charges that create them. The arrow for  $${\vb{E}}_{1} $$
+ is exactly twice the length of that for  $${\vb{E}}_{2} $$ .
  The arrows form a right triangle in this case and can be added using the Pythagorean theorem. The magnitude of the total field  $${E}_{\text{tot}} $$
  is
 

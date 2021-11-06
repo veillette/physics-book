@@ -11,19 +11,19 @@ layout: page
 
 In the previous section, we explored the relationship between voltage and
 energy. In this section, we will explore the relationship between voltage and
-electric field. For example, a uniform electric field $$\mathbf{\text{E}} $$ is
+electric field. For example, a uniform electric field $$\vb{E} $$ is
 produced by placing a potential difference (or voltage)  $$\Delta V $$ across
 two parallel metal plates, labeled A and B. (See [[Figure 1]](#Figure1).)
 Examining this will tell us what voltage is needed to produce a certain electric
 field strength; it will also reveal a more fundamental relationship between
 electric potential and electric field. From a physicist’s point of view, either
-$$\Delta V $$ or $$\mathbf{\text{E}} $$ can be used to describe any charge
+$$\Delta V $$ or $$\vb{E} $$ can be used to describe any charge
 distribution. $$\Delta V $$ is most closely tied to energy, whereas
-$$\mathbf{\text{E}} $$ is most closely related to force. $$\Delta V $$ is a **scalar**{: class="term"} quantity and has no direction, while
-$$\mathbf{\text{E}} $$ is a **vector**{: class="term"} quantity, having both
+$$\vb{E} $$ is most closely related to force. $$\Delta V $$ is a **scalar**{: class="term"} quantity and has no direction, while
+$$\vb{E} $$ is a **vector**{: class="term"} quantity, having both
 magnitude and direction. (Note that the magnitude of the electric field
 strength, a scalar quantity, is represented by $$E $$ below.) The relationship
-between $$\Delta V $$ and $$\mathbf{\text{E}} $$ is revealed by calculating the
+between $$\Delta V $$ and $$\vb{E} $$ is revealed by calculating the
 work done by the force in moving a charge from point A to point B. But, as noted
 in [Electric Potential Energy: Potential Difference](/ch19ElectricPotentialEnergy)
 , this is complex for arbitrary charge distributions, requiring calculus. We
@@ -159,7 +159,7 @@ Field and Force inside an Electron Gun
 Since the voltage and plate separation are given, the electric field strength
 can be calculated directly from the expression $$E=\frac{ {V}_{\text{AB}}}{d} $$
 . Once the electric field strength is known, the force on a charge is found
-using $$\mathbf{\text{F}}=q \mathbf{\text{E}} $$ . Since the electric field is
+using $$\vb{F}=q \vb{E} $$ . Since the electric field is
 in only one direction, we can write this equation in terms of the magnitudes,
 $$F=q E $$.
 
@@ -200,9 +200,9 @@ the plates. This is because the electric field is uniform between the plates.
 
 In more general situations, regardless of whether the electric field is uniform,
 it points in the direction of decreasing potential, because the force on a
-positive charge is in the direction of $$\mathbf{\text{E}} $$ and also in the
+positive charge is in the direction of $$\vb{E} $$ and also in the
 direction of lower potential $$V $$ . Furthermore, the magnitude of
-$$\mathbf{\text{E}} $$ equals the rate of decrease of $$V $$ with distance. The
+$$\vb{E} $$ equals the rate of decrease of $$V $$ with distance. The
 faster $$V $$ decreases over distance, the greater the electric field. In
 equation form, the general relationship between voltage and electric field is
 
@@ -211,7 +211,7 @@ equation form, the general relationship between voltage and electric field is
 </div>
 
 where $$\Delta s $$ is the distance over which the change in potential, $$\Delta
-V $$ , takes place. The minus sign tells us that $$\mathbf{\text{E}} $$ points
+V $$ , takes place. The minus sign tells us that $$\vb{E} $$ points
 in the direction of decreasing potential. The electric field is said to be
 the **gradient** (as in grade or slope) of the electric potential.
 
@@ -226,7 +226,7 @@ In equation form, the general relationship between voltage and electric field is
 </div>
 where  $$\Delta s $$
  is the distance over which the change in potential,  $$\Delta V $$ ,
- takes place. The minus sign tells us that  $$\mathbf{\text{E}} $$
+ takes place. The minus sign tells us that  $$\vb{E} $$
  points in the direction of decreasing potential. The electric field is said to be the **gradient** (as in grade or slope) of the electric potential.
 
 </div>
@@ -258,7 +258,7 @@ E=\frac{ V_\text{AB} }{d}
      where
    $$\Delta s $$ is the distance over which the change in potential,
    $$\Delta V $$ ,  takes place. The minus sign tells us that
-   $$\mathbf{\text{E}} $$ points in the direction of decreasing potential.) The electric field is said to be the **gradient** (as in grade or slope) of the electric potential.
+   $$\vb{E} $$ points in the direction of decreasing potential.) The electric field is said to be the **gradient** (as in grade or slope) of the electric potential.
 
 ### Conceptual Questions
 

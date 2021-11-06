@@ -33,7 +33,7 @@ In the same way, the Coulomb force field surrounding any charge extends
 throughout space. Using Coulomb’s law, $$F=k\|{q}_{1}{q}_{2}\|/{r}^{2} $$ , its
 magnitude is given by the equation $$F=k\|qQ\|/{r}^{2} $$ , for a **point
 charge** (a particle having a charge $$Q $$ ) acting on
-a <strong class="term" id="import-auto-id2383341">test charge </strong> $$q $$
+a **test charge** $$q $$
 at a distance $$r $$
 (see [[Figure 1]](#Figure1)). Both the magnitude and direction of the Coulomb
 force field depend on $$Q $$ and the test charge $$q $$.
@@ -48,17 +48,17 @@ point in space. Specifically, the electric field $$E $$ is defined to be the
 ratio of the Coulomb force to the test charge:
 
 <div class="equation" >
- $$\mathbf{\text{E}}=\frac{\mathbf{\text{F}}}{q}, $$
+ $$\vb{E}=\frac{\vb{F}}{q}, $$
 </div>
 
-where $$\mathbf{\text{F}} $$ is the electrostatic force (or Coulomb force)
+where $$\vb{F} $$ is the electrostatic force (or Coulomb force)
 exerted on a positive test charge $$q $$ . It is understood that
-$$\mathbf{\text{E}} $$ is in the same direction as $$\mathbf{\text{F}} $$ . It
+$$\vb{E} $$ is in the same direction as $$\vb{F} $$ . It
 is also assumed that $$q $$ is so small that it does not alter the charge
 distribution creating the electric field. The units of electric field are
 newtons per coulomb (N/C). If the electric field is known, then the
 electrostatic force on any charge $$q $$ is simply obtained by multiplying
-charge times electric field, or $$\mathbf{\text{F}}=q\mathbf{\text{E}} $$ .
+charge times electric field, or $$\vb{F}=q\vb{E} $$ .
 Consider the electric field due to a point charge $$Q $$ . According to
 Coulomb’s law, the force it exerts on a test charge $$q $$ is
 $$F=k\|qQ\|/{r}^{2} $$ . Thus the magnitude of the electric field, $$E $$ , for
@@ -115,8 +115,8 @@ What force does the electric field found in the previous example exert on a poin
 
 Since we know the electric field strength and the charge in the field, the force
 on that charge can be calculated using the definition of electric field
-$$\mathbf{\text{E}}=\mathbf{\text{F}}/q $$ rearranged to
-$$\mathbf{\text{F}}=q\mathbf{\text{E}} $$.
+$$\vb{E}=\vb{F}/q $$ rearranged to
+$$\vb{F}=q\vb{E} $$.
 
 **Solution**
 
@@ -158,21 +158,21 @@ Play ball! Add charges to the Field of Dreams and see how they react to the elec
 * The electrostatic force exerted by a point charge on a test charge at a
   distance $$r $$ depends on the charge of both charges, as well as the distance
   between the two.
-* The electric field $$\mathbf{\text{E}} $$ is defined to be
+* The electric field $$\vb{E} $$ is defined to be
 
   <div class="equation" >
-   $$\mathbf{\text{E}}=\frac{\mathbf{\text{F}}}{q,} $$
+   $$\vb{E}=\frac{\vb{F}}{q,} $$
   </div>
 
-where $$\mathbf{\text{F}} $$ is the Coulomb or electrostatic force exerted on a
-small positive test charge $$q $$ . $$\mathbf{\text{E}} $$ has units of N/C.
+where $$\vb{F} $$ is the Coulomb or electrostatic force exerted on a
+small positive test charge $$q $$ . $$\vb{E} $$ has units of N/C.
 
-* The magnitude of the electric field $$\mathbf{\text{E}} $$ created by a point charge $$Q $$ is
+* The magnitude of the electric field $$\vb{E} $$ created by a point charge $$Q $$ is
 
   <div class="equation" >
-   $$\mathbf{\text{E}}=k\frac{\|Q\|}{ {r}^{2}}. $$
+   $$\vb{E}=k\frac{\|Q\|}{ {r}^{2}}. $$
   </div>
-     where  $$r $$ is the distance from $$Q $$. The electric field  $$\mathbf{\text{E}} $$
+     where  $$r $$ is the distance from $$Q $$. The electric field  $$\vb{E} $$
      is a vector and fields due to multiple charges add like vectors.
 
 ### Conceptual Questions
