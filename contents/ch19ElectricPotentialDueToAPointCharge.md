@@ -41,7 +41,7 @@ decreases with distance, whereas $$\vb{E} $$ for a point charge
 decreases with distance squared:
 
 <div class="equation" >
- $$\text{E}=\frac{\text{F}}{q}=\frac{kQ}{ {r}^{2}}. $$
+ $$\mag{E}=\frac{\mag{F}}{q}=\frac{kQ}{ {r}^{2}}. $$
 </div>
 
 Recall that the electric potential $$V $$ is a scalar and has no direction,

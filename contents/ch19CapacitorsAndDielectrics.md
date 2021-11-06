@@ -26,7 +26,6 @@ as storing a charge $$Q $$ in this circumstance.
 Capacitor
 </div>
 A capacitor is a device used to store electric charge.
-
 </div>
 
 ![Part a of the figure shows a charged parallel plate capacitor and part b of the figure shows a charged rolled capacitor. In the parallel plate capacitor, two rectangular plates are kept vertically facing each other separated by a distance d. These two plates are the conducting parts of the capacitor. One plate is connected to the positive terminal of the battery, and the other is connected to the negative terminal of the battery. One plate has a positive charge, plus Q, and the other plate has a negative charge, negative Q. The rolled capacitor has conducting parts in the form of a spiral coil. Between the two conducting parts is insulating material, also in the form of a coil. The conducting and insulating materials of the capacitor are rolled together to form a spiral. The outer conducting coil is connected to the positive terminal of the battery, and the inner coil is connected to the negative terminal of the battery.](../resources/Figure_20_05_01a.jpg "Both capacitors shown here were initially uncharged before being connected to a battery. They now have separated charges of +\( Q \) and &#x2013;\( Q \) on their two halves. (a) A parallel plate capacitor. (b) A rolled capacitor with an insulating material between its two conducting sheets.")
@@ -38,10 +37,9 @@ as its size.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
-The Amount of Charge  $$Q $$
-** a Capacitor Can Store
+The Amount of Charge  $$Q $$ a Capacitor Can Store
 </div>
-The amount of charge  $$Q $$  a **capacitor** can store depends on two major factors—the voltage applied and the capacitor’s physical characteristics, such as its size.
+The amount of charge  $$Q $$ a **capacitor** can store depends on two major factors—the voltage applied and the capacitor’s physical characteristics, such as its size.
 
 </div>
 

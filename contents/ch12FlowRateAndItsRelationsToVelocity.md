@@ -77,7 +77,7 @@ area. [[link]](#Figure1) illustrates how this relationship is obtained. The
 shaded cylinder has a volume
 
 <div class="equation">
- $$V=\text{Ad}\text{,} $$
+ $$V=Ad \text{,} $$
 </div>
 
 which flows past the point $$\text{P} $$ in a time $$t $$ . Dividing both sides

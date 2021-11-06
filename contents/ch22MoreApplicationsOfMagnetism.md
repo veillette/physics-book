@@ -410,7 +410,7 @@ Find the magnitude and direction of the magnetic field at the point equidistant 
 </div>
 <div class="solution" markdown="1">
  $$ 7.55 \times 10^{-5} \text{T} $$ ,
-  $$23.4 \text{º} $$
+  $$23.4 \degree $$
 </div>
 </div>
 
@@ -528,7 +528,7 @@ created in $${\text{N/m}}^{2}\text{.} $$
 loop carrying $$50 \text{μA} $$ in a 0.500-T field. (b) If this coil is to be
 used in a galvanometer that reads $$50 \text{μA} $$ full scale, what force
 constant spring must be used, if it is attached 1.00 cm from the axis of
-rotation and is stretched by the $$60 \text{º} $$ arc moved?
+rotation and is stretched by the $$60 \degree $$ arc moved?
 
 </div>
 </div>

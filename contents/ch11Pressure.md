@@ -48,7 +48,7 @@ millibar (mb), where
  $$100 \text{mb}=1 \times 10^{4}  \text{Pa} . $$
 </div>
 
-Pounds per square inch $$\left({\text{lb/in}}^{2} \text{or} \text{psi}\right) $$
+Pounds per square inch $$\left({\text{lb/in}}^{2} \text{ or } \text{psi}\right) $$
 is still sometimes used as a measure of tire pressure, and millimeters of
 mercury (mm Hg) is still often used in the measurement of blood pressure.
 Pressure is defined for all states of matter but is particularly important when

@@ -19,8 +19,7 @@ right in both parts of the figure. In part (a), electrons carry the current and
 move to the left. In part (b), positive charges carry the current and move to
 the right. Moving electrons feel a magnetic force toward one side of the
 conductor, leaving a net positive charge on the other side. This separation of
-charge *creates a voltage $$\epsilon $$
-*, known as the **Hall emf**, *across* the conductor. The creation of a
+charge *creates a voltage* $$\epsilon $$, known as the **Hall emf**, *across* the conductor. The creation of a
 voltage *across* a current-carrying conductor by a magnetic field is known as
 the **Hall effect**, after Edwin Hall, the American physicist who discovered it
 in 1879.
