@@ -185,8 +185,8 @@ What is the direction of a current that experiences the magnetic force shown in 
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What is the direction of the magnetic field that produces the magnetic force shown on the currents in each of the three cases in [[Figure 7]](#Figure7), assuming  $$\mathbf{\text{B}} $$
- is perpendicular to  $$\mathbf{\text{I}} $$ ?
+What is the direction of the magnetic field that produces the magnetic force shown on the currents in each of the three cases in [[Figure 7]](#Figure7), assuming  $$\vb{B} $$
+ is perpendicular to  $$\vb{I} $$ ?
 
 ![Figure a show the current I vector pointing upward and the force F vector pointing left. Figure b shows the current vector pointing down and F directed into the page. Figure c shows the current pointing left and force pointing up.](../resources/Figure_23_07_07a.jpg)
 {: #Figure7}

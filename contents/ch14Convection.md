@@ -108,7 +108,7 @@ dramatic reminder of convection’s ability to transfer heat faster than
 conduction. For example, a 15.0 m/s wind at $$0\text{ºC} $$ has the chilling
 equivalent of still air at about $$-18 \text{ºC} $$.
 
-<table id="Table1" summary="For a given air temperature and wind speed, the table gives apparent air temperature in degrees celcius."><caption><span class="title">Wind-Chill Factors</span></caption><thead><tr>
+<table id="Table1" summary="For a given air temperature and wind speed, the table gives apparent air temperature in degrees Celsius."><caption><span class="title">Wind-Chill Factors</span></caption><thead><tr>
             <th>
               <strong>Moving air temperature</strong>
             </th>

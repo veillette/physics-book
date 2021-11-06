@@ -217,6 +217,7 @@ Generate electricity with a bar magnet! Discover the physics behind the phenomen
 <div class="media"  data-alt="generator">
 <iframe width="660" height="371.4" src="https://archive.cnx.org/specials/1e9b7292-ae74-11e5-a9dc-c7c8521ba8e6/generator/#sim-generator"></iframe>
 </div>
+</div>
 
 ### Section Summary
 
@@ -226,11 +227,11 @@ Generate electricity with a bar magnet! Discover the physics behind the phenomen
   <div class="equation" >
    $$B=\frac{ \mu_0 I}{2 \pi r}\left(\text{long straight wire}\right), $$
   </div>
-     where    $$I $$ is the current,
+   where $$I $$ is the current,
    $$r $$ is the shortest distance to the wire, and the constant
    $$\mu_0 =4\pi  \times 10^{-7} \text{T}\cdot \text{m/A} $$ is the permeability of free space.
 * The direction of the magnetic field created by a long straight wire is given
-  by right hand rule 2 (RHR-2): *Point the thumb of the right hand in the
+  by right-hand rule 2 (RHR-2): *Point the thumb of the right hand in the
   direction of current, and the fingers curl in the direction of the magnetic
   field loops* created by it.
 * The magnetic field created by current following any path is the sum (or
@@ -241,15 +242,14 @@ Generate electricity with a bar magnet! Discover the physics behind the phenomen
   <div class="equation" >
    $$B=\frac{ \mu_0 I}{2R} \left(\text{at center of loop}\right), $$
   </div>
-     where    $$R $$ is the radius of the loop. This equation becomes
+   where $$R $$ is the radius of the loop. This equation becomes
    $$B=\mu_0 \text{nI}/\left(2R\right) $$ for a flat coil of
    $$N $$ loops. RHR-2 gives the direction of the field about the loop. A long coil is called a solenoid.
-*  The magnetic field strength inside a solenoid is
+* The magnetic field strength inside a solenoid is
   <div class="equation" >
    $$B=\mu_0 \text{nI}  \left(\text{inside a solenoid}\right), $$
   </div>
-     where
-   $$n $$ is the number of loops per unit length of the solenoid. The field inside is very uniform in magnitude and direction.
+  where $$n $$ is the number of loops per unit length of the solenoid. The field inside is very uniform in magnitude and direction.
 
 ### Conceptual Questions
 
@@ -269,15 +269,11 @@ right hand rule 2 (RHR-2)
 current-carrying wire: Point the thumb of the right hand in the direction of
 current, and the fingers curl in the direction of the magnetic field loops
 
-magnetic field strength (magnitude) produced by a long straight current-carrying
-wire
-: defined as $$B=\frac{ \mu_0 I}{2 \pi r} $$ , where $$I $$ is the current, $$r
-$$ is the shortest distance to the wire, and $$\mu_0 $$ is the permeability of
-free space
+magnetic field strength (magnitude) produced by a long straight current-carrying wire
+: defined as $$B=\frac{ \mu_0 I}{2 \pi r} $$ , where $$I $$ is the current, $$r $$ is the shortest distance to the wire, and $$\mu_0 $$ is the permeability of free space
 
 permeability of free space
-: the measure of the ability of a material, in this case free space, to support
-a magnetic field; the constant $$\mu_0 =4\pi \times 10^{-7} \text{T}\cdot
+: the measure of the ability of a material, in this case free space, to support a magnetic field; the constant $$\mu_0 =4\pi \times 10^{-7} \text{T}\cdot
 \text{m/A} $$
 
 magnetic field strength at the center of a circular loop

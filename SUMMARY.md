@@ -45,8 +45,8 @@ This introductory, algebra-based, college physics book is grounded with real-wor
    
 5. {: .chapter} [Electric Charge and Electric Field](contents/ch18ElectricChargeAndElectricField.md)
     1.  [Static Electricity and Charge: Conservation of Charge](contents/ch18StaticElectricityAndCharge.md)
-    2.  [Conductors and Insulators](contents/ch17ConductorsAndInsulators.md)
-    3.  [Coulomb’s Law](contents/ch17CoulombsLaw.md)
+    2.  [Conductors and Insulators](contents/ch18ConductorsAndInsulators.md)
+    3.  [Coulomb’s Law](contents/ch18CoulombsLaw.md)
     4.  [Electric Field: Concept of a Field Revisited](contents/ch18ElectricField.md)
     5.  [Electric Field Lines: Multiple Charges](contents/ch18ElectricFieldLines.md)
     6.  [Electric Forces in Biology](contents/ch18ElectricForcesInBiology.md)

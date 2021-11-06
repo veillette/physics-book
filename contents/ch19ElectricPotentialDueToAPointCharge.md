@@ -37,7 +37,7 @@ The electric potential  $$V $$  of a point charge is given by
 </div>
 
 The potential at infinity is chosen to be zero. Thus $$V $$ for a point charge
-decreases with distance, whereas $$\mathbf{\text{E}} $$ for a point charge
+decreases with distance, whereas $$\vb{E} $$ for a point charge
 decreases with distance squared:
 
 <div class="equation" >
@@ -45,12 +45,12 @@ decreases with distance squared:
 </div>
 
 Recall that the electric potential $$V $$ is a scalar and has no direction,
-whereas the electric field $$\mathbf{\text{E}} $$ is a vector. To find the
+whereas the electric field $$\vb{E} $$ is a vector. To find the
 voltage due to a combination of point charges, you add the individual voltages
 as numbers. To find the total electric field, you must add the individual fields
 as **vectors**, taking magnitude and direction into account. This is consistent
 with the fact that $$V $$ is closely associated with energy, a scalar, whereas
-$$\mathbf{\text{E}} $$ is closely associated with force, a vector.
+$$\vb{E} $$ is closely associated with force, a vector.
 
 <div class="example" markdown="1">
 <div class="title">
