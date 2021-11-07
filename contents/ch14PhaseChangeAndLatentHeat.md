@@ -748,7 +748,7 @@ Indigenous people sometimes cook in watertight baskets by placing hot rocks into
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What would be the final temperature of the pan and water in [Calculating the Final Temperature When Heat Is Transferred Between Two Bodies: Pouring Cold Water in a Hot Pan](/m42224#fs-id2604602) if 0.260 kg of water was placed in the pan and 0.0100 kg of the water evaporated immediately, leaving the remainder to come to a common temperature with the pan?
+What would be the final temperature of the pan and water in [Calculating the Final Temperature When Heat Is Transferred Between Two Bodies: Pouring Cold Water in a Hot Pan](/ch14PhaseChangeAndLatentHeat#fs-id2604602) if 0.260 kg of water was placed in the pan and 0.0100 kg of the water evaporated immediately, leaving the remainder to come to a common temperature with the pan?
 
 </div>
 </div>

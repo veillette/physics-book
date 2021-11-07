@@ -254,8 +254,8 @@ Problem-Solving Strategies for the Methods of Heat Transfer
 5.   *Solve the appropriate equation for the quantity to be determined (the unknown).*
 6.   For conduction, equation
      $$\frac{Q}{t}=\frac{k_{B}A\left({T}_{2}-{T}_{1}\right)}{d} $$
-    is appropriate. [[link]](/m42228#import-auto-id1245788) lists thermal conductivities. For convection, determine the amount of matter moved and use equation $$Q=mc\Delta T $, to calculate the heat transfer involved in the temperature change of the fluid. If a phase change accompanies convection, equation $$Q=m L_{\text{f}} $$ or  $$Q=m L_{\text{v}} $$
-        is appropriate to find the heat transfer involved in the phase change. [[link]](/m42225#import-auto-id3260303) lists information relevant to phase change. For radiation, equation
+    is appropriate. [[link]](/ch14Conduction#import-auto-id1245788) lists thermal conductivities. For convection, determine the amount of matter moved and use equation $$Q=mc\Delta T $, to calculate the heat transfer involved in the temperature change of the fluid. If a phase change accompanies convection, equation $$Q=m L_{\text{f}} $$ or  $$Q=m L_{\text{v}} $$
+        is appropriate to find the heat transfer involved in the phase change. [[link]](/ch14HeatTransferMethods#import-auto-id3260303) lists information relevant to phase change. For radiation, equation
      $$\frac{ {Q}_{\text{net}}}{t}=\sigma eA\left({T}_{2}^{4}-{T}_{1}^{4}\right) $$
         gives the net heat transfer rate.
 7.   *Insert the knowns along with their units into the appropriate equation and obtain numerical solutions complete with units.*

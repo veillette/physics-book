@@ -428,7 +428,7 @@ expand and contract without stressing them.
 ### Thermal Stress
 
 **Thermal stress** is created by thermal expansion or contraction (
-see [Elasticity: Stress and Strain](/m42081) for a discussion of stress and
+see [Elasticity: Stress and Strain](/ch5Elasticity) for a discussion of stress and
 strain). Thermal stress can be destructive, such as when expanding gasoline
 ruptures a tank. It can also be useful, for example, when two parts are joined
 together by heating one in manufacturing, then slipping it over the other and

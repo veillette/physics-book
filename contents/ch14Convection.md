@@ -444,7 +444,7 @@ perspiration, assuming the relative humidity of the surrounding air is low?
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 On a hot dry day, evaporation from a lake has just enough heat transfer to balance the  $$ 1.00{\text{kW/m}}^{2} $$
- of incoming heat from the Sun. What mass of water evaporates in 1.00 h from each square meter? Explicitly show how you follow the steps in the [Problem-Solving Strategies for the Effects of Heat Transfer](/m42225#fs-id1844931).
+ of incoming heat from the Sun. What mass of water evaporates in 1.00 h from each square meter? Explicitly show how you follow the steps in the [Problem-Solving Strategies for the Effects of Heat Transfer](/ch14HeatTransferMethods#fs-id1844931).
 
 </div>
 <div class="solution" markdown="1">
