@@ -93,8 +93,8 @@ magnetoresistance*. (The discovery that weak changes in a magnetic field in a
 thin film of iron and chromium could bring about much larger changes in
 electrical resistance was one of the first large successes of nanotechnology.)
 Another application of induction is found on the magnetic stripe on the back of
-your personal credit card as used at the grocery store or the ATM machine. This
-works on the same principle as the audio or video tape mentioned in the last
+your personal credit card as used at the grocery store or the ATM. This
+works on the same principle as the audio or videotape mentioned in the last
 paragraph in which a head reads personal information from your card.
 
 Another application of electromagnetic induction is when electrical signals need

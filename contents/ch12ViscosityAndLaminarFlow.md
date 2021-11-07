@@ -457,8 +457,8 @@ flexibility possible over a large range of flow rates.
 
 Each branching of larger vessels into smaller vessels increases the total
 cross-sectional area of the tubes through which the blood flows. For example, an
-artery with a cross section of $$1 {\text{cm}}^{2} $$ may branch into 20 smaller
-arteries, each with cross sections of $$0.5 {\text{cm}}^{2} $$ , with a total of
+artery with a cross-section of $$1 {\text{cm}}^{2} $$ may branch into 20 smaller
+arteries, each with cross-sections of $$0.5 {\text{cm}}^{2} $$ , with a total of
 $$10 {\text{cm}}^{2} $$ . In that manner, the resistance of the branchings is
 reduced so that pressure is not entirely lost. Moreover, because
 $$Q=A\overline{v} $$ and $$A $$ increases through branching, the average

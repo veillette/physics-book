@@ -252,7 +252,7 @@ Describe a system in which elastic potential energy is stored.
 <div class="problem" markdown="1">
 Fish are hung on a spring scale to determine their mass (most fishermen feel no obligation to truthfully report the mass).
 
-(a) What is the force constant of the spring in such a scale if it the spring
+(a) What is the force constant of the spring in such a scale if the spring
 stretches 8.00 cm for a 10.0 kg load?
 
 (b) What is the mass of a fish that stretches the spring 5.50 cm?

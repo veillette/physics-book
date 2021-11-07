@@ -263,7 +263,7 @@ processes are **irreversible**. An irreversible process can go in one direction
 but not the reverse, under a given set of conditions. For example, although body
 fat can be converted to do work and produce heat transfer, work done on the body
 and heat transfer into it cannot be converted to body fat. Otherwise, we could
-skip lunch by sunning ourselves or by walking down stairs. Another example of an
+skip lunch by sunning ourselves or by walking downstairs. Another example of an
 irreversible thermodynamic process is photosynthesis. This process is the intake
 of one form of energy—light—by plants and its conversion to chemical potential
 energy. Both applications of the first law of thermodynamics are illustrated

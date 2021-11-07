@@ -98,8 +98,8 @@ and
  $${V}_{\text{rms}}=\frac{ {V}_{0}}{\sqrt{2}}. $$
 </div>
 
-where rms stands for root mean square, a particular kind of average. In general,
-to obtain a root mean square, the particular quantity is squared, its mean (or
+where rms stands for root-mean-square, a particular kind of average. In general,
+to obtain a root-mean-square, the particular quantity is squared, its mean (or
 average) is found, and the square root is taken. This is useful for AC, since
 the average value is zero. Now,
 
@@ -496,11 +496,11 @@ AC current
 current, and $$f$$ is the frequency in hertz
 
 rms current
-: the root mean square of the current, $${I}_{\text{rms}}={I}_{0}/\sqrt{2} $$ ,
+: the root-mean-square of the current, $${I}_{\text{rms}}={I}_{0}/\sqrt{2} $$ ,
 where $$I_0$$ is the peak current, in an AC system
 
 rms voltage
-: the root mean square of the voltage, $${V}_{\text{rms}}={V}_{0}/\sqrt{2} $$ ,
+: the root-mean-square of the voltage, $${V}_{\text{rms}}={V}_{0}/\sqrt{2} $$ ,
 where $$V_0$$ is the peak voltage, in an AC system
 
 </div>

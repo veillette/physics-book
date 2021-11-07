@@ -34,7 +34,7 @@ The characteristics of ultrasound, such as frequency and intensity, are wave pro
 
 Ultrasound, like any wave, carries energy that can be absorbed by the medium
 carrying it, producing effects that vary with intensity. When focused to
-intensities of $$ 10^{3} $$ to $$ 10^{5} $$ $${\text{W/m}}^{2} $$ , ultrasound
+intensities of $$ 10^{3} $$ to $$ 10^{5} {\text{W/m}}^{2} $$ , ultrasound
 can be used to shatter gallstones or pulverize cancerous tissue in surgical
 procedures. (See [[Figure 1]](#Figure1).) Intensities this great can damage
 individual cells, variously causing their protoplasm to stream inside them,

@@ -126,7 +126,7 @@ go.
 If a time-exposure photograph of the bouncing car were taken as it drove by, the
 headlight would make a wavelike streak, as shown in [[Figure 2]](#Figure2).
 Similarly, [[Figure 3]](#Figure3) shows an object bouncing on a spring as it
-leaves a wavelike \"trace of its position on a moving strip of paper. Both waves
+leaves a wavelike trace of its position on a moving strip of paper. Both waves
 are sine functions. All simple harmonic motion is intimately related to sine and
 cosine waves.
 

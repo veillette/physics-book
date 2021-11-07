@@ -58,7 +58,7 @@ basic phenomena in nature essentially defines the **realm of physics**.
 Physics aims to describe the function of everything around us, from the movement
 of tiny charged particles to the motion of people, cars, and spaceships. In
 fact, almost everything around you can be described quite accurately by the laws
-of physics. Consider a smart phone ([Figure 2](#fig2)). Physics describes how
+of physics. Consider a smartphone ([Figure 2](#fig2)). Physics describes how
 electricity interacts with the various circuits inside the device. This
 knowledge helps engineers select the appropriate materials and circuit layout
 when building the smart phone. Next, consider a GPS system. Physics describes
