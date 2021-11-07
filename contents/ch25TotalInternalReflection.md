@@ -242,7 +242,7 @@ not as highly prized. Cubic zirconia is manufactured and has an even higher
 index of refraction ( $$\approx 2.17 $$ ), but still less than that of diamond.)
 The colors you see emerging from a sparkling diamond are not due to the
 diamond’s color, which is usually nearly colorless. Those colors result from
-dispersion, the topic of [Dispersion: The Rainbow and Prisms](/m42466). Colored
+dispersion, the topic of [Dispersion: The Rainbow and Prisms](/ch26Dispersion). Colored
 diamonds get their color from structural defects of the crystal lattice and the
 inclusion of minute quantities of graphite and other materials. The Argyle Mine
 in Western Australia produces around 90% of the world’s pink, red, champagne,

@@ -15,7 +15,7 @@ remarkable in how it forms images and in the richness of detail and color it can
 detect. However, our eyes commonly need some correction, to reach what is called
 “normal” vision, but should be called ideal rather than normal. Image formation
 by our eyes and common vision correction are easy to analyze with the optics
-discussed in [Geometric Optics](/m42449).
+discussed in [Geometric Optics](/ch25GeometricOptics).
 
 [[Figure 1]](#Figure1) shows the basic anatomy of the eye. The cornea and lens
 form a system that, to a good approximation, acts as a single thin lens. For

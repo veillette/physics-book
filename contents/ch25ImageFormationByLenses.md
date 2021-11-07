@@ -157,7 +157,7 @@ A lens that causes the light rays to bend away from its axis is called a divergi
 </div>
 
 As noted in the initial discussion of the law of refraction
-in [The Law of Refraction](/m42459), the paths of light rays are exactly
+in [The Law of Refraction](/ch25TheLawOfRefraction), the paths of light rays are exactly
 reversible. This means that the direction of the arrows could be reversed for
 all of the rays in [[Figure 1]](#Figure1) and [[Figure 3]](#Figure3). For
 example, if a point light source is placed at the focal point of a convex lens,
@@ -660,7 +660,7 @@ to form a real image.
             <td>positive  $$m<1 $$ </td>
           </tr></tbody></table>
 
-In [Image Formation by Mirrors](/m42474), we shall see that mirrors can form
+In [Image Formation by Mirrors](/ch25ImageFormationByMirrors), we shall see that mirrors can form
 exactly the same types of images as lenses.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">

@@ -290,7 +290,7 @@ waves, as we shall see.
 The wavelengths found in the preceding example are representative of AM, FM, and
 cell phones, and account for some of the differences in how they are broadcast
 and how well they travel. The most efficient length for a linear antenna, such
-as discussed in [Production of Electromagnetic Waves](/m42440), is $$\lambda /2
+as discussed in [Production of Electromagnetic Waves](/ch24ProductionOfElectromagneticWaves), is $$\lambda /2
 $$ , half the wavelength of the electromagnetic wave. Thus a very large antenna
 is needed to efficiently broadcast typical AM radio with its carrier wavelengths
 on the order of hundreds of meters.

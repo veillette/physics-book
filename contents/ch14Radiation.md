@@ -32,7 +32,7 @@ than that of the electrical element and the steel. The radiated energy depends
 on its intensity, which is represented in the figure below by the height of the
 distribution.
 
-[Electromagnetic Waves](/m42434) explains more about the electromagnetic
+[Electromagnetic Waves](/ch24ElectromagneticWaves) explains more about the electromagnetic
 spectrum and [Introduction to Quantum Physics](/m42550) discusses how the
 decrease in wavelength corresponds to an increase in energy.
 

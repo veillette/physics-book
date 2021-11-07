@@ -18,7 +18,7 @@ photographically mass produced rather cheaply. Diffraction gratings work both
 for transmission of light, as in [[Figure 1]](#Figure1), and for reflection of
 light, as on butterfly wings and the Australian opal in [[Figure 2]](#Figure2)
 or the CD pictured in the opening photograph of this
-chapter, [[link]](/m42496#import-auto-id1169736938034). In addition to their use
+chapter, [[link]](/ch27WaveOptics#import-auto-id1169736938034). In addition to their use
 as novelty items, diffraction gratings are commonly used for spectroscopic
 dispersion and analysis of light. What makes them particularly useful is the
 fact that they form a sharper pattern than double slits do. That is, their
@@ -40,7 +40,7 @@ due to their pigmentation. This is called iridescence.
 
 The analysis of a diffraction grating is very similar to that for a double
 slit (see [[Figure 4]](#Figure4)). As we know from our discussion of double
-slits in [Young\'s Double Slit Experiment](/m42508), light is diffracted by each
+slits in [Young\'s Double Slit Experiment](/ch27YoungsDoubleSlitExperiment), light is diffracted by each
 slit and spreads out after passing through. Rays traveling in the same
 direction (at an angle $$\theta $$ relative to the incident direction) are shown
 in the figure. Each of these rays travels a different distance to a common point

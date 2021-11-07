@@ -197,7 +197,7 @@ Therefore, the resolving power is
 
 Another way to look at this is by re-examining the concept of Numerical
 Aperture ( $$\text{NA} $$ )
-discussed in [Microscopes](/m42491). There, $$\text{NA} $$ is a measure of the
+discussed in [Microscopes](/ch26Microscopes). There, $$\text{NA} $$ is a measure of the
 maximum acceptance angle at which the fiber will take light and still contain it
 within the fiber. [[Figure 6]](#Figure6)(b) shows a lens and an object at point
 P. The $$\text{NA} $$ here is a measure of the ability of the lens to gather
@@ -315,7 +315,7 @@ illuminated spot be?
 (c) How big a spot would be illuminated on the Moon, neglecting atmospheric
 effects? (This might be done to hit a corner reflector to measure the round-trip
 time and, hence, distance.) Explicitly show how you follow the steps
-in [Problem-Solving Strategies for Wave Optics](/m42519#fs-id1169737988256).
+in [Problem-Solving Strategies for Wave Optics](/ch27ThinFilmInterference#fs-id1169737988256).
 
 </div>
 </div>

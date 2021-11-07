@@ -107,7 +107,6 @@ and also between soft tissue and bone.
             <th>Speed of Ultrasound (m/s)</th>
             <th>
               Acoustic Impedance  $$\left(\text{kg/}\left({\text{m}}^{2}\cdot \text{s}\right)\right) $$
-
             </th>
           </tr></thead><tbody><tr>
             <td>Air</td>
