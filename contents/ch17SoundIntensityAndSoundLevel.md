@@ -80,7 +80,7 @@ of decibels (dB) are used to indicate this ratio is multiplied by 10 in its
 definition. The bel, upon which the decibel is based, is named for Alexander
 Graham Bell, the inventor of the telephone.
 
-<table id="Table1" summary="A table of Sound Intensity Levels and Intensities. There are three columns. The first column gives a range of sound intensity levels in decibels, the second column gives the intensities in watts per meter squared, and the third column gives examples or effects. Rows containing notes about hearing damage are inserted before one hundred, one hundred ten, and one hundred twenty decibels."><caption><span class="title">Sound Intensity Levels and Intensities</span></caption><thead><tr>
+<table id="Table1" aria-describedby="A table of Sound Intensity Levels and Intensities. There are three columns. The first column gives a range of sound intensity levels in decibels, the second column gives the intensities in watts per meter squared, and the third column gives examples or effects. Rows containing notes about hearing damage are inserted before one hundred, one hundred ten, and one hundred twenty decibels."><caption><span class="title">Sound Intensity Levels and Intensities</span></caption><thead><tr>
             <th>Sound intensity level <em>β</em> (dB)</th>
               <th>Intensity <em>I</em>(W/m<sup>2</sup>)
 </th>
@@ -182,7 +182,7 @@ compared with a 60 dB sound is 30 dB greater, or three factors of 10 (that is,
 $$10^{3} $$ times) as intense. Another example is that if one sound is $$10^{7}
 $$ as intense as another, it is 70 dB higher. See [[Table 2]](#Table2).
 
-<table id="Table2" summary="This table gives ratios of intensities and corresponding differences in sound intensity levels in two columns."><caption><span class="title">Ratios of Intensities and Corresponding Differences in Sound Intensity Levels</span></caption><thead><tr>
+<table id="Table2" aria-describedby="This table gives ratios of intensities and corresponding differences in sound intensity levels in two columns."><caption><span class="title">Ratios of Intensities and Corresponding Differences in Sound Intensity Levels</span></caption><thead><tr>
             <th> $${I}_{2}/{I}_{1} $$</th>
             <th> $${\beta }_{2}-{\beta }_{1} $$</th>
           </tr></thead><tbody><tr>

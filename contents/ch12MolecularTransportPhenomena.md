@@ -40,7 +40,7 @@ $${\text{m}}^{2}\text{/s} $$.
 ![The figure shows the path of a random walk. The random thermal motion of a molecule is shown to begin at a start point and then the particles move about zigzag in all directions and end up at the finish point. The distance between the start and finish point is shown as x. Continuous arrows show various directions of motion.](../resources/Figure_13_07_01a.jpg "The random thermal motion of a molecule in a fluid in time \( t \) . This type of motion is called a random walk.")
 {: #Figure1}
 
-<table id="Table1" summary="Diffusing molecules for various substances are listed in column 1. The medium (air or water) is listed in column 2. D, in meters squared per second, is listed in column 3."><caption><span class="title">Diffusion Constants for Various Molecules<sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup></span></caption><thead><tr>
+<table id="Table1" aria-describedby="Diffusing molecules for various substances are listed in column 1. The medium (air or water) is listed in column 2. D, in meters squared per second, is listed in column 3."><caption><span class="title">Diffusion Constants for Various Molecules<sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup></span></caption><thead><tr>
             <th>
               Diffusing molecule
             </th>

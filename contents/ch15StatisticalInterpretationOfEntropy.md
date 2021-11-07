@@ -48,7 +48,7 @@ lists of all the ways in which 5 coins can be tossed, taking into account the
 order in which heads and tails occur. Each sequence is called a **microstate**—a
 detailed description of every element of a system.
 
-<table id="Table1" summary="A table with combinations of five coins tossed together five times is shown. The first column shows different toss results. The second column represents individual microstates, and the third column represents the number of microstates."><caption><span class="title">5-Coin Toss</span></caption><thead><tr>
+<table id="Table1" aria-describedby="A table with combinations of five coins tossed together five times is shown. The first column shows different toss results. The second column represents individual microstates, and the third column represents the number of microstates."><caption><span class="title">5-Coin Toss</span></caption><thead><tr>
             <th></th>
             <th>Individual microstates</th>
             <th>Number of microstates</th>
@@ -103,7 +103,7 @@ since 30 out of the 32 possibilities are less orderly. So even if you start with
 an orderly state, there is a strong tendency to go from order to disorder, from
 low entropy to high entropy. The reverse can happen, but it is unlikely.
 
-<table id="Table2" summary="A table is shown for hundred coin toss with three columns. The first two columns are for the microstate heads and tails and the third column is for number of microstates W."><caption><span class="title">100-Coin Toss</span></caption><thead><tr>
+<table id="Table2" aria-describedby="A table is shown for hundred coin toss with three columns. The first two columns are for the microstate heads and tails and the third column is for number of microstates W."><caption><span class="title">100-Coin Toss</span></caption><thead><tr>
             <th colspan="2">Macrostate</th>
             <th>Number of microstates</th>
           </tr></thead><tbody><tr>
@@ -444,7 +444,7 @@ of 252 to 45.
 </div>
 </div>
 
-<table id="Table3" summary="10-COIN TOSS"><caption><span class="title">10-Coin Toss</span></caption><thead><tr>
+<table id="Table3" aria-describedby="10-COIN TOSS"><caption><span class="title">10-Coin Toss</span></caption><thead><tr>
             <th colspan="2">Macrostate</th>
             <th>Number of Microstates (<em>W</em>)</th>
           </tr></thead><tbody><tr>

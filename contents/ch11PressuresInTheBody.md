@@ -23,7 +23,7 @@ accompanies them.
 [[Table 1]](#Table1) lists some of the measured pressures in mm Hg, the units
 most commonly quoted.
 
-<table id="Table1" summary="The table shows the value of typical pressures in various parts of the body in humans."><caption><span class="title">Typical Pressures in Humans</span></caption><thead><tr>
+<table id="Table1" aria-describedby="The table shows the value of typical pressures in various parts of the body in humans."><caption><span class="title">Typical Pressures in Humans</span></caption><thead><tr>
             <th>
              Body system
             </th>

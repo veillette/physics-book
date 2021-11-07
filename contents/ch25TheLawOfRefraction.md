@@ -118,7 +118,7 @@ unless great precision is needed. Although the speed of light $$v $$ in a medium
 varies considerably from its value $$c $$ in a vacuum, it is still a large
 speed.
 
-<table id="Table1" summary="The table gives the values for index of refraction for various media. Media are listed in column one, and corresponding indices of refraction n are listed in column two. Media are organized in three groups, beginning at the top of the table: first gases, next liquids, and finally solids."><caption><span class="title">Index of Refraction in Various Media</span></caption><thead>
+<table id="Table1" aria-describedby="The table gives the values for index of refraction for various media. Media are listed in column one, and corresponding indices of refraction n are listed in column two. Media are organized in three groups, beginning at the top of the table: first gases, next liquids, and finally solids."><caption><span class="title">Index of Refraction in Various Media</span></caption><thead>
 <tr>
                                 <th>Medium</th>
                                 <th><em>n</em></th>

@@ -51,7 +51,7 @@ formed is much like the one produced by a single convex lens. This is a case 1
 image. Images formed in the eye are inverted but the brain inverts them once
 more to make them seem upright.
 
-<table summary="Various materials relevant to the eye are listed in the first column. Their indices of refraction are listed in the second column."><caption><span class="title">Refractive Indices Relevant to the Eye</span></caption><thead><tr><th>Material</th>
+<table aria-describedby="Various materials relevant to the eye are listed in the first column. Their indices of refraction are listed in the second column."><caption><span class="title">Refractive Indices Relevant to the Eye</span></caption><thead><tr><th>Material</th>
                 <th>Index of Refraction</th>
             </tr></thead><tbody><tr><td>
     Water</td><td>1.33</td></tr><tr><td>Air </td><td>1.0</td></tr><tr><td>Cornea</td> <td>1.38</td></tr><tr><td>Aqueous humor</td> <td>1.34</td></tr><tr><td>Lens</td> <td>1.41 average (varies throughout the lens, greatest in center)</td></tr><tr><td>Vitreous humor</td>  <td>1.34</td></tr></tbody></table>

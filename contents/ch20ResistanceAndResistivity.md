@@ -48,7 +48,7 @@ depend strongly on the type and amount of impurities in the semiconductor. These
 unique properties of semiconductors are put to use in modern electronics, as
 will be explored in later chapters.
 
-<table id="Table1" summary="Table 21_03_01"><caption><span class="title">Resistivities         $$\rho  $$     of Various materials at        $$20 \text{ºC} $$     </span></caption><thead><tr>
+<table id="Table1" aria-describedby="Table 21_03_01"><caption><span class="title">Resistivities         $$\rho  $$     of Various materials at        $$20 \text{ºC} $$     </span></caption><thead><tr>
             <th><span class="space" data-count="2">  </span>Material</th>
             <th>
             Resistivity  \(\rho \)  \( ( \Omega \cdot \text{m} ) \)
@@ -275,7 +275,7 @@ a temperature-independent resistance standard, for example.
 ![A graph for variation of resistance R with temperature T for a mercury sample is shown. The temperature T is plotted along the x axis and is measured in Kelvin, and the resistance R is plotted along the y axis and is measured in ohms. The curve starts at x equals zero and y equals zero, and coincides with the X axis until the value of temperature is four point two Kelvin, known as the critical temperature T sub c. At temperature T sub c, the curve shows a vertical rise, represented by a dotted line, until the resistance is about zero point one one ohms. After this temperature the resistance shows a nearly linear increase with temperature T.](../resources/Figure_21_03_02a.jpg "The resistance of a sample of mercury is zero at very low temperatures&#x2014;it is a superconductor up to about 4.2 K. Above that critical temperature, its resistance makes a sudden jump and then increases nearly linearly with temperature.")
 {: #Figure2}
 
-<table id="Table2" summary="Table 21_03_02"><caption><span class="title">Tempature Coefficients of Resistivity    $$\alpha  $$     </span></caption><thead><tr>
+<table id="Table2" aria-describedby="Table 21_03_02"><caption><span class="title">Tempature Coefficients of Resistivity    $$\alpha  $$     </span></caption><thead><tr>
             <th><span class="space" data-count="2">  </span>Material</th>
             <th>Coefficient  $$\alpha  $$<em></em>(1/ºC)<sup class="footnote-number" id="footnote-ref2"><a class="footnote-link" href="#footnote2">2</a></sup></th>
           </tr></thead><tbody><tr>

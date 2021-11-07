@@ -59,7 +59,7 @@ place. In everyday language, people sometimes refer to the capacity of air to
 not held by the air. The amount of water in air is determined by the vapor
 pressure of water and has nothing to do with the properties of air.
 
-<table id="Table1" summary="Table of saturation vapor density of water between negative fifty and positive two hundred twenty degrees Celsius."><caption><span class="title">Saturation Vapor Density of Water</span></caption><thead>
+<table id="Table1" aria-describedby="Table of saturation vapor density of water between negative fifty and positive two hundred twenty degrees Celsius."><caption><span class="title">Saturation Vapor Density of Water</span></caption><thead>
           <tr>
             <th data-align="center">Temperature  $$\left(\text{ºC}\right) $$</th>
             <th data-align="center">Vapor pressure (Pa)</th>

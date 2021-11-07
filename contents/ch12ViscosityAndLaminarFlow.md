@@ -209,7 +209,7 @@ strain on the heart.
 
 </div>
 
-<table id="Table1" summary="Coefficients of Viscosity of Various Fluids"><caption><span class="title">Coefficients of Viscosity of Various Fluids</span></caption><thead><tr>
+<table id="Table1" aria-describedby="Coefficients of Viscosity of Various Fluids"><caption><span class="title">Coefficients of Viscosity of Various Fluids</span></caption><thead><tr>
             <th>Fluid</th>
             <th>Temperature (ºC)</th>
             <th>Viscosity 

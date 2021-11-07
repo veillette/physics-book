@@ -51,7 +51,7 @@ $$10^{3} {\text{kg/m}}^{3} $$ . Thus the basic mass unit, the kilogram, was
 first devised to be the mass of 1000 mL of water, which has a volume of 1000
 cm<sup>3</sup>.
 
-<table summary="The table shows the value of density in units of kilogram per meter cubed for certain solids, liquids, and gases."><caption><span class="title">Densities of Various Substances</span></caption><thead>
+<table aria-describedby="The table shows the value of density in units of kilogram per meter cubed for certain solids, liquids, and gases."><caption><span class="title">Densities of Various Substances</span></caption><thead>
           <tr>
             <th>Substance</th>
             <th>

@@ -62,7 +62,7 @@ Any type of wave can exhibit dispersion. Sound waves, all types of electromagnet
 
 </div>
 
-<table id="Table1" summary="Table shows index of refraction for media listed in the far left column at wavelengths associated with colors listed across the top row."><caption><span class="title">Index of Refraction <em>n</em> in Selected Media at Various Wavelengths</span></caption><thead><tr>
+<table id="Table1" aria-describedby="Table shows index of refraction for media listed in the far left column at wavelengths associated with colors listed across the top row."><caption><span class="title">Index of Refraction <em>n</em> in Selected Media at Various Wavelengths</span></caption><thead><tr>
             <th>Medium</th>
             <th>Red (660 nm)</th>
             <th>Orange (610 nm)</th>

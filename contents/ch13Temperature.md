@@ -98,7 +98,7 @@ The relationships between the three common temperature scales is shown
 in [[Figure 4]](#Figure4). Temperatures on these scales can be converted using
 the equations in [[Table 1]](#Table1).
 
-<table id="Table1" summary="This table, with three columns, shows the equations to use when converting temperature values between the Celsius, Fahrenheit, and Kelvin scales. Each cell in the left column gives a pair of temperature scales, and the other two columns give the equation to be used for a temperature conversion between those scales. On any given row in the second and third columns, the same equation is written, but using different symbols for the temperature."><caption><span class="title">Temperature Conversions</span></caption><thead>
+<table id="Table1" aria-describedby="This table, with three columns, shows the equations to use when converting temperature values between the Celsius, Fahrenheit, and Kelvin scales. Each cell in the left column gives a pair of temperature scales, and the other two columns give the equation to be used for a temperature conversion between those scales. On any given row in the second and third columns, the same equation is written, but using different symbols for the temperature."><caption><span class="title">Temperature Conversions</span></caption><thead>
           <tr>
             <th>To convert from . . .</th>
             <th>Use this equation . . .</th>

@@ -633,7 +633,7 @@ image produced by a concave lens is always smaller than the object—a case 3
 image. We can see and photograph virtual images only by using an additional lens
 to form a real image.
 
-<table id="Table1" summary="THREE TYPES OF IMAGES FORMED BY THIN LENSES"><caption><span class="title">Three Types of Images Formed By Thin Lenses</span></caption><thead><tr>
+<table id="Table1" aria-describedby="THREE TYPES OF IMAGES FORMED BY THIN LENSES"><caption><span class="title">Three Types of Images Formed By Thin Lenses</span></caption><thead><tr>
             <th>Type</th>
             <th>Formed when</th>
             <th>Image type</th>

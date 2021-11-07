@@ -257,7 +257,7 @@ and even they cannot convert all heat transfer into doing
 work. [[Table 1]](#Table1) summarizes the simpler thermodynamic processes and
 their definitions.
 
-<table id="Table1" summary="The table shows a summary of simple thermodynamic processes. There are two columns. The first column represents various thermodynamic process and the second column has an explanation for each."><caption><span class="title">Summary of Simple Thermodynamic Processes</span></caption><tbody>
+<table id="Table1" aria-describedby="The table shows a summary of simple thermodynamic processes. There are two columns. The first column represents various thermodynamic process and the second column has an explanation for each."><caption><span class="title">Summary of Simple Thermodynamic Processes</span></caption><tbody>
            <tr><td>Isobaric</td>
             <td>Constant pressure  $$W=P\Delta V $$</td>
           </tr>

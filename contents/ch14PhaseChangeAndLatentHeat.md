@@ -72,7 +72,7 @@ normal boiling point ( $$100\text{ºC} $$ at atmospheric pressure) to steam (
 water vapor). This example shows that the energy for a phase change is enormous
 compared to energy associated with temperature changes without a phase change.
 
-<table id="Table1" summary="Latent heats of fusion and vaporization and the melting and boiling temperatures at standard atmospheric pressure (1 atm)."><caption><span class="title">Heats of Fusion and Vaporization <sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup></span></caption><thead><tr>
+<table id="Table1" aria-describedby="Latent heats of fusion and vaporization and the melting and boiling temperatures at standard atmospheric pressure (1 atm)."><caption><span class="title">Heats of Fusion and Vaporization <sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup></span></caption><thead><tr>
             <th></th>
             <th></th>
             <th colspan="2" data-align="center">

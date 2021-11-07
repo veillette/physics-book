@@ -55,7 +55,7 @@ in air is low, because air is compressible. Because liquids and solids are
 relatively rigid and very difficult to compress, the speed of sound in such
 media is generally greater than in gases.
 
-<table id="Table1" summary="Two-column table listing various media for sound in the first column and their speeds of sound in the second column. The list of media is divided into three groups: gases, liquids, and solids."><caption><span class="title">Speed of Sound in Various Media</span></caption><thead><tr>
+<table id="Table1" aria-describedby="Two-column table listing various media for sound in the first column and their speeds of sound in the second column. The list of media is divided into three groups: gases, liquids, and solids."><caption><span class="title">Speed of Sound in Various Media</span></caption><thead><tr>
             <th>Medium</th>
             <th><em>v</em><sub>w</sub>(m/s)</th>
           </tr></thead><tbody><tr>
