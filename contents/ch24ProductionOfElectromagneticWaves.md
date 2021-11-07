@@ -168,7 +168,7 @@ progressively weaker.
 </div>
 
 The result of this example is consistent with the statement made in the
-module [Maxwell’s Equations: Electromagnetic Waves Predicted and Observed](/m42437)
+module [Maxwell’s Equations: Electromagnetic Waves Predicted and Observed](/ch24MaxwellsEquations)
 that changing electric fields create relatively weak magnetic fields. They can
 be detected in electromagnetic waves, however, by taking advantage of the
 phenomenon of resonance, as Hertz did. A system with the same natural frequency
