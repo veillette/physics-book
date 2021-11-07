@@ -53,7 +53,7 @@ ground-state angular momentum for hydrogen is actually zero, not $$h/2\pi $$ as
 Bohr proposed. The picture of circular orbits is not valid, because there would
 be angular momentum for any circular orbit. A more valid picture is the cloud of
 probability shown for the ground state of hydrogen
-in [[link]](/m42606#import-auto-id2396594). The electron actually spends time in
+in [[link]](/ch30TheWaveNatureOfMatterCausesQuantization#import-auto-id2396594). The electron actually spends time in
 and near the nucleus. The reason the electron does not remain in the nucleus is
 related to Heisenberg’s uncertainty principle—the electron’s energy would have
 to be much too large to be confined to the small space of the nucleus. Now the
@@ -216,7 +216,7 @@ momentum** and $${m}_{s} $$ is the **spin projection quantum number**. For
 electrons, $$s $$ can only be 1/2, and $${m}_{s} $$ can be either +1/2 or -1/2.
 Spin projection $${m}_{s}=+1/2 $$ is referred to as *spin up*, whereas $${m}_
 {s}=-1/2 $$ is called *spin down*. These are illustrated
-in [[link]](/m42609#import-auto-id1870582).
+in [[link]](/ch30PatternsInSpectraRevealMoreQuantization#import-auto-id1870582).
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">

@@ -27,7 +27,7 @@ start every month.
 {: #Figure1}
 
 Fission is the opposite of fusion and releases energy only when heavy nuclei are
-split. As noted in [Fusion](/m42659), energy is released if the products of a
+split. As noted in [Fusion](/ch32Fusion), energy is released if the products of a
 nuclear reaction have a greater binding energy per nucleon ( $$\text{BE}/A $$ )
 than the parent nuclei. [[Figure 2]](#Figure2) shows that $$\text{BE}/A $$ is
 greater for medium-mass nuclei than heavy nuclei, implying that when a heavy
@@ -234,7 +234,7 @@ So the total energy released is
 This is another impressively large amount of energy, equivalent to about 14 000
 barrels of crude oil or 600 000 gallons of gasoline. But, it is only one-fourth
 the energy produced by the fusion of a kilogram mixture of deuterium and tritium
-as seen in [[link]](/m42659#fs-id1395304). Even though each fission reaction
+as seen in [[link]](/ch32Fusion#fs-id1395304). Even though each fission reaction
 yields about ten times the energy of a fusion reaction, the energy per kilogram
 of fission fuel is less, because there are far fewer moles per kilogram of the
 heavy nuclides. Fission fuel is also much more scarce than fusion fuel, and less

@@ -45,7 +45,7 @@ least unstable, or about 46 orders of magnitude. Nuclides with the shortest
 half-lives are those for which the nuclear forces are least attractive, an
 indication of the extent to which the nuclear force can depend on the particular
 combination of neutrons and protons. The concept of half-life is applicable to
-other subatomic particles, as will be discussed in [Particle Physics](/m42667).
+other subatomic particles, as will be discussed in [Particle Physics](/ch33ParticlePhysics).
 It is also applicable to the decay of excited states in atoms and nuclei. The
 following equation gives the quantitative relationship between the original
 number of nuclei present at time zero ( $${N}_{0} $$ )
@@ -332,7 +332,7 @@ Human-made (or artificial) radioactivity has been produced for decades and has
 many uses. Some of these include medical therapy for cancer, medical imaging and
 diagnostics, and food preservation by irradiation. Many applications as well as
 the biological effects of radiation are explored
-in [Medical Applications of Nuclear Physics](/m42646), but it is clear that
+in [Medical Applications of Nuclear Physics](/ch32MedicalApplicationsOfNuclearPhysics), but it is clear that
 radiation is hazardous. A number of tragic examples of this exist, one of the
 most disastrous being the meltdown and fire at the Chernobyl reactor complex in
 the Ukraine (see [[Figure 3]](#Figure3)). Several radioactive isotopes were

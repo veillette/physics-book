@@ -98,7 +98,7 @@ electromagnetic and weak nuclear forces, all leptons, and some hadrons. Several
 hints related to an underlying substructure emerge from an examination of these
 particle characteristics. Note that the carrier particles are called **gauge
 bosons**. First mentioned
-in [Patterns in Spectra Reveal More Quantization](/m42609), a **boson** is a
+in [Patterns in Spectra Reveal More Quantization](/ch30PatternsInSpectraRevealMoreQuantization), a **boson** is a
 particle with zero or an integer value of intrinsic spin (such as $$s=0, 1, 2,
 ... $$ ), whereas a **fermion** is a particle with a half-integer value of
 intrinsic spin ( $$s=1/2, 3/2, \text{...} $$ ). Fermions obey the Pauli
@@ -753,7 +753,7 @@ Additionally, some of these short-lived particles resemble the excited states of
 other particles, implying an internal structure. All of this jigsaw puzzle can
 be tied together and explained relatively simply by the existence of fundamental
 substructures. Leptons seem to be fundamental structures. Hadrons seem to have a
-substructure called quarks. [Quarks: Is That All There Is?](/m42678) explores
+substructure called quarks. [Quarks: Is That All There Is?](/ch33Quarks) explores
 the basics of the underlying quark building blocks.
 
 ![The image shows a picture of physicist Murray Gell Mann, who looks like a pleasant white-haired gentleman.](../resources/Figure_34_04_03.jpg "Murray Gell-Mann (b. 1929) proposed quarks as a substructure of hadrons in 1963 and was already known for his work on the concept of strangeness. Although quarks have never been directly observed, several predictions of the quark model were quickly confirmed, and their properties explain all known hadron characteristics. Gell-Mann was awarded the Nobel Prize in 1969. (credit: Lubo&#x161; Motl)")

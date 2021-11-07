@@ -403,7 +403,7 @@ value. In fact, $${\text{KE}}_{\text{rel}}{\text{/KE}}_{\text{class}}= 12.4 $$
 here. This is some indication of how difficult it is to get a mass moving close
 to the speed of light. Much more energy is required than predicted classically.
 Some people interpret this extra energy as going into increasing the mass of the
-system, but, as discussed in [Relativistic Momentum](/m42542), this cannot be
+system, but, as discussed in [Relativistic Momentum](/ch28RelativisticMomentum), this cannot be
 verified unambiguously. What is certain is that ever-increasing amounts of
 energy are needed to get the velocity of a mass a little closer to that of
 light. An energy of 3 MeV is a very small amount for an electron, and it can be
@@ -420,7 +420,7 @@ relativistic energies and made to collide with other particles, producing
 totally new species of particles. Patterns in the characteristics of these
 previously unknown particles hint at a basic substructure for all matter. These
 particles and some of their characteristics will be covered
-in [Particle Physics](/m42667).
+in [Particle Physics](/ch33ParticlePhysics).
 
 ![An aerial view of the Fermi National Accelerator Laboratory. The accelerator has two large, ring shaped structures. There are circular ponds near the rings.](../resources/Figure_29_06_04a.jpg "The Fermi National Accelerator Laboratory, near Batavia, Illinois, was a subatomic particle collider that accelerated protons and antiprotons to attain energies up to 1 Tev (a trillion electronvolts). The circular ponds near the rings were built to dissipate waste heat. This accelerator was shut down in September 2011. (credit: Fermilab, Reidar Hahn)")
 {: #Figure3}
