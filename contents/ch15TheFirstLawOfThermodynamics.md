@@ -276,7 +276,7 @@ summary of terms relevant to the first law of thermodynamics.
 ![Part a of the figure is a pictorial representation of metabolism in a human body. The food is shown to enter the body as shown by a bold arrow toward the body. Work W and heat Q leave the body as shown by bold arrows pointing outward from the body. Delta U is shown as the stored food energy. Part b of the figure shows the metabolism in plants .The heat from the sunlight is shown to fall on a plant represented as Q in. The heat given out by the plant is shown as Q out by an arrow pointing away from the plant.](../resources/Figure_16_01_04a.jpg "(a) The first law of thermodynamics applied to metabolism. Heat transferred out of the body (\( Q \) ) and work done by the body (\( W \) ) remove internal energy, while food intake replaces it. (Food intake may be considered as work done on the body.) (b) Plants convert part of the radiant heat transfer in sunlight to stored chemical energy, a process called photosynthesis.")
 {: #Figure3}
 
-<table id="Table1" summary="The table shows summary of terms for the first law of thermodynamics. The first column shows the terms and the second column shows their definitions."><caption><span class="title">Summary of Terms for the First Law of Thermodynamics, $$\Delta U=Q−W $$ </span></caption><thead>
+<table id="Table1" aria-describedby="The table shows summary of terms for the first law of thermodynamics. The first column shows the terms and the second column shows their definitions."><caption><span class="title">Summary of Terms for the First Law of Thermodynamics, $$\Delta U=Q−W $$ </span></caption><thead>
              <tr>
             <th>Term</th>
             <th>Definition</th>

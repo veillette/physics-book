@@ -101,7 +101,7 @@ Note that the acoustic impedances for soft tissue do not vary much but that
 there is a big difference between the acoustic impedance of soft tissue and air
 and also between soft tissue and bone.
 
-<table id="Table1" summary="A table containing four columns is shown, giving the ultrasound properties of various media related to the human body. The first column gives the name of each medium, the second column gives the value of density of the medium, the third column gives the speed of ultrasound in that medium, and the fourth column gives the acoustic impedance of the medium."><caption><span class="title">The Ultrasound Properties of Various Media, Including Soft Tissue Found in the Body</span></caption><thead><tr>
+<table id="Table1" aria-describedby="A table containing four columns is shown, giving the ultrasound properties of various media related to the human body. The first column gives the name of each medium, the second column gives the value of density of the medium, the third column gives the speed of ultrasound in that medium, and the fourth column gives the acoustic impedance of the medium."><caption><span class="title">The Ultrasound Properties of Various Media, Including Soft Tissue Found in the Body</span></caption><thead><tr>
             <th>Medium</th>
             <th>Density (kg/m<sup>3</sup>)</th>
             <th>Speed of Ultrasound (m/s)</th>

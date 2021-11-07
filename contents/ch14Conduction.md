@@ -131,7 +131,7 @@ many small pockets of air, taking advantage of air’s poor thermal conductivity
 
 </div>
 
-<table id="Table1" summary="Thermal Conductivities of Common Substances"><caption><span class="title">Thermal Conductivities of Common Substances<sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup></span></caption><thead><tr>
+<table id="Table1" aria-describedby="Thermal Conductivities of Common Substances"><caption><span class="title">Thermal Conductivities of Common Substances<sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup></span></caption><thead><tr>
             <th data-align="center">
               <strong>Substance</strong>
             </th>

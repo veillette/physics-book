@@ -17,7 +17,7 @@ will also find that there are many connections with previously discussed topics,
 such as wavelength and resonance. A brief overview of the production and
 utilization of electromagnetic waves is found in [[Table 1]](#Table1).
 
-<table id="Table1" summary="A table is shown for overview of the production and utilization of electromagnetic waves. The table has five columns. The first column represents type of EM wave, the second column the way of producing it, the third column shows the application of that type of wave, the fourth column shows the life science aspect of the wave, and the fifth column shows the issues or hazards involved with the type of wave."><caption><span class="title">Electromagnetic Waves</span></caption><thead>
+<table id="Table1" aria-describedby="A table is shown for overview of the production and utilization of electromagnetic waves. The table has five columns. The first column represents type of EM wave, the second column the way of producing it, the third column shows the application of that type of wave, the fourth column shows the life science aspect of the wave, and the fifth column shows the issues or hazards involved with the type of wave."><caption><span class="title">Electromagnetic Waves</span></caption><thead>
           <tr>
             <th data-align="center">Type of EM wave</th>
             <th data-align="center">Production</th>

@@ -57,7 +57,7 @@ the hearing range seem even less loud, because the ear is even less sensitive at
 those frequencies. [[Table 1]](#Table1) gives the dependence of certain human
 hearing perceptions on physical quantities.
 
-<table id="Table1" summary="This table of sound perceptions consists of two columns. The left column gives a list of different types of perception, and the right column gives the physical quantity corresponding to each type of perception."><caption><span class="title">Sound Perceptions</span></caption><thead><tr>
+<table id="Table1" aria-describedby="This table of sound perceptions consists of two columns. The left column gives a list of different types of perception, and the right column gives the physical quantity corresponding to each type of perception."><caption><span class="title">Sound Perceptions</span></caption><thead><tr>
             <th>Perception</th>
             <th>Physical quantity</th>
           </tr></thead><tbody><tr>

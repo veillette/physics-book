@@ -197,7 +197,7 @@ conversion factors for some of the more commonly used units of pressure.
 ![Mercury barometer has an evacuated glass tube inverted and placed in the mercury container. The height of the mercury column in the inverted tube is determined by the atmospheric pressure.](../resources/Figure_12_06_04a.jpg "A mercury barometer measures atmospheric pressure. The pressure due to the mercury&#x2019;s weight, \( h\rho g \), equals atmospheric pressure. The atmosphere is able to force mercury in the tube to a height \( h \) because the pressure above the mercury is zero.")
 {: #Figure4}
 
-<table id="Table1" summary="Conversion Factors for Various Pressure Units"><caption><span class="title">Conversion Factors for Various Pressure Units</span></caption><thead>
+<table id="Table1" aria-describedby="Conversion Factors for Various Pressure Units"><caption><span class="title">Conversion Factors for Various Pressure Units</span></caption><thead>
           <tr>
             <th>Conversion to N/m<sup>2</sup> (Pa)</th>
             <th>Conversion from atm</th>

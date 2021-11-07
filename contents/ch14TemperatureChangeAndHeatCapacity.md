@@ -185,7 +185,7 @@ electrical energy (battery).
 
 </div>
 
-<table id="Table1" summary="Specific Heats of Various Substances"><caption><span class="title">Specific Heats<sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup> of Various Substances</span></caption><thead><tr>
+<table id="Table1" aria-describedby="Specific Heats of Various Substances"><caption><span class="title">Specific Heats<sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup> of Various Substances</span></caption><thead><tr>
             <th data-align="center">
               <strong>Substances</strong>
             </th>

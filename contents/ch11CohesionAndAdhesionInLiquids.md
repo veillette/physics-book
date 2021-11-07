@@ -123,7 +123,7 @@ larger balloon.
 ![When two balloons are attached to the ends of a glass tube air flows from one to the other if their sizes are different.](../resources/Figure_12_08_05a.jpg "With the valve closed, two balloons of different sizes are attached to each end of a tube. Upon opening the valve, the smaller balloon decreases in size with the air moving to fill the larger balloon. The pressure in a spherical balloon is inversely proportional to its radius, so that the smaller balloon has a greater internal pressure than the larger balloon, resulting in this flow.")
 {: #Figure4}
 
-<table id="Table1" summary="The table gives the surface tension of water at zero, twenty, and one hundred degrees Celsius. The surface tension of some other liquids at twenty degrees Celsius is also given."><caption><span class="title">Surface Tension of Some Liquids<sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup></span></caption><thead><tr>
+<table id="Table1" aria-describedby="The table gives the surface tension of water at zero, twenty, and one hundred degrees Celsius. The surface tension of some other liquids at twenty degrees Celsius is also given."><caption><span class="title">Surface Tension of Some Liquids<sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup></span></caption><thead><tr>
             <th>
               Liquid
             </th>
@@ -320,7 +320,7 @@ and an upward force in water, as seen in [[link]](#fs-id1333088).
 ![Mercury kept in a container into which a narrow tube is inserted lowers its level inside the tube relative to the level in the rest of the container. In a similar situation, water rises in the tube so that the water level in the tube is above the water level in the rest of the container. This phenomenon is due to the large contact angle of mercury with glass and the smaller contact angle of water with glass.](../resources/Figure_12_08_09a.jpg "(a) Mercury is suppressed in a glass tube because its contact angle is greater than 90&#xBA;. Surface tension exerts a downward force as it flattens the mercury, suppressing it in the tube. The dashed line shows the shape the mercury surface would have without the flattening effect of surface tension. (b) Water is raised in a glass tube because its contact angle is nearly 0&#xBA;. Surface tension therefore exerts an upward force when it flattens the surface to reduce its area.")
 
 
-<table id="Table2" summary="The table gives the contact angles of some substances."><caption><span class="title">Contact Angles of Some Substances</span></caption><thead><tr>
+<table id="Table2" aria-describedby="The table gives the contact angles of some substances."><caption><span class="title">Contact Angles of Some Substances</span></caption><thead><tr>
             <th>
               Interface
             </th>

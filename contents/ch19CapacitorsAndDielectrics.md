@@ -273,7 +273,7 @@ How large a capacitor can you make using a chewing gum wrapper? The plates will 
 
 </div>
 
-<table id="Table1" summary="The table gives the value of dielectric constants and dielectric strengths for various materials at a temperature of twenty degrees Celsius"><caption><span class="title">Dielectric Constants and Dielectric Strengths for Various Materials at 20ºC</span></caption><thead><tr>
+<table id="Table1" aria-describedby="The table gives the value of dielectric constants and dielectric strengths for various materials at a temperature of twenty degrees Celsius"><caption><span class="title">Dielectric Constants and Dielectric Strengths for Various Materials at 20ºC</span></caption><thead><tr>
             <th>Material</th>
             <th>Dielectric constant  $$\kappa  $$</th>
             <th>Dielectric strength (V/m)</th>
