@@ -308,7 +308,7 @@ can force urine back into the kidneys, causing potentially severe damage.
 
 These pressures are the largest in the body, due both to the high values of
 initial force, and the small areas to which this force is applied, such as in
-the joints.. For example, when a person lifts an object improperly, a force of
+the joints. For example, when a person lifts an object improperly, a force of
 5000 N may be created between vertebrae in the spine, and this may be applied to
 an area as small as $$10 {\text{cm}}^{2} $$ . The pressure created is
 $$P=F/A=\left(5000 \text{N}\right)/\left(10^{-3} {\text{m}}^{2}\right)= 5.0

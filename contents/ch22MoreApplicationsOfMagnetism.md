@@ -135,7 +135,7 @@ nuclei absorb and reemit them only if the nuclei are in a magnetic field with
 the correct strength. The imaging receiver gathers information through the body
 almost point by point, building up a tissue map. The reception of reemitted
 radio waves as a function of frequency thus gives position information. These
-“slices” or cross sections through the body are only several mm thick. The
+“slices” or cross-sections through the body are only several mm thick. The
 intensity of the reemitted radio waves is proportional to the concentration of
 the nuclear type being flipped, as well as information on the chemical
 environment in that area of the body. Various techniques are available for

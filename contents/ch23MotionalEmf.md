@@ -271,7 +271,7 @@ In the August 1992 space shuttle flight, only 250 m of the conducting tether con
 Derive an expression for the current in a system like that
 in [[Figure 1]](#Figure1), under the following conditions. The resistance
 between the rails is $$R $$ , the rails and the moving rod are identical in
-cross section $$A $$ and have the same resistivity $$\rho $$ . The distance
+cross-section $$A $$ and have the same resistivity $$\rho $$ . The distance
 between the rails is l, and the rod moves at constant speed $$v $$ perpendicular
 to the uniform field $$B $$ . At time zero, the moving rod is next to the
 resistance $$R $$.

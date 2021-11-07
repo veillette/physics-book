@@ -99,7 +99,7 @@ This is a fairly large, but manageable, capacitance at $$ 1.00 \times 10^{4}
 ### Section Summary
 
 * Capacitors are used in a variety of devices, including defibrillators,
-  microelectronics such as calculators, and flash lamps, to supply energy.
+  microelectronics such as calculators, and flashlamps, to supply energy.
 * The energy stored in a capacitor can be expressed in three ways:
 
   <div class="equation" >

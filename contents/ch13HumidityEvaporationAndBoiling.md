@@ -242,7 +242,7 @@ Calculating Density Using Vapor Pressure
 
 **Strategy**
 
-To solve this problem, we need to break it down into a two steps. The partial
+To solve this problem, we need to break it down into two steps. The partial
 pressure follows the ideal gas law,
 
 <div class="equation" >

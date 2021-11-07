@@ -336,8 +336,7 @@ or
 </div>
 
 where i and f stand for initial and final conditions. As we have found many
-times before, considering energy can give us insights and facilitate problem
-solving.
+times before, considering energy can give us insights and facilitate problem-solving.
 
 <div class="example" markdown="1">
 <div class="title">

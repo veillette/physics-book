@@ -127,7 +127,7 @@ completely independent of the width and length of the lake—it depends only on
 its average depth at the dam. Thus the force depends only on the water’s average
 depth and the dimensions of the dam, *not* on the horizontal extent of the
 reservoir. In the diagram, the thickness of the dam increases with depth to
-balance the increasing force due to the increasing pressure.epth to balance the
+balance the increasing force due to the increasing pressure depth to balance the
 increasing force due to the increasing pressure.
 
 </div>
