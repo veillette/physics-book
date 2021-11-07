@@ -241,7 +241,7 @@ $$ decay has then taken place.
 There is more to be learned from nuclear binding energies. The general trend in
 $$\text{BE}/A $$ is fundamental to energy production in stars, and to fusion and
 fission energy sources on Earth, for example. This is one of the applications of
-nuclear physics covered in [Medical Applications of Nuclear Physics](/m42646).
+nuclear physics covered in [Medical Applications of Nuclear Physics](/ch32MedicalApplicationsOfNuclearPhysics).
 The abundance of elements on Earth, in stars, and in the universe as a whole is
 related to the binding energy of nuclei and has implications for the continued
 expansion of the universe.

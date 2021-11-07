@@ -27,7 +27,7 @@ mechanics.
 
 ### Mysteries of Atomic Spectra
 
-As noted in [Quantization of Energy](/m42554) , the energies of some small
+As noted in [Quantization of Energy](/ch29QuantizationOfEnergy) , the energies of some small
 systems are quantized. Atomic and molecular emission and absorption spectra have
 been known for over a century to be discrete (or quantized). (
 See [[Figure 2]](#Figure2).) Maxwell and others had realized that there must be
@@ -148,7 +148,7 @@ where  $$d $$
 **Discussion for (b)**
 
 This number is similar to those used in the interference examples
-of [Introduction to Quantum Physics](/m42550) (and is close to the spacing
+of [Introduction to Quantum Physics](/ch29QuantumPhysics) (and is close to the spacing
 between slits in commonly used diffraction glasses).
 
 </div>

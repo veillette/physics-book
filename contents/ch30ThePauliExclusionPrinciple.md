@@ -42,7 +42,7 @@ No two electrons can have the same set of quantum numbers. That is, no two elect
 
 
 Let us examine how the exclusion principle applies to electrons in atoms. The
-quantum numbers involved were defined in [Quantum Numbers and Rules](/m42614) as
+quantum numbers involved were defined in [Quantum Numbers and Rules](/ch30QuantumNumbersAndRules) as
 $$\mathrm{n, l,} {m}_{l}\mathrm{, s} $$ , and $${m}_{s} $$ . Since $$s $$ is
 always $$1/2 $$ for electrons, it is redundant to list $$s $$ , and so we omit
 it and specify the state of an electron by a set of four numbers $$\left(n, l,
@@ -54,7 +54,7 @@ limits to how many of them can be in the same energy state. Note that $$n $$
 determines the energy state in the absence of a magnetic field. So we first
 choose $$n $$ , and then we see how many electrons can be in this energy state
 or energy level. Consider the $$n=1 $$ level, for example. The only value $$l $$
-can have is 0 (see [[link]](/m42614#import-auto-id3013526) for a list of
+can have is 0 (see [[link]](/ch30QuantumNumbersAndRules#import-auto-id3013526) for a list of
 possible values once $$n $$ is known), and thus $${m}_{l} $$ can only be 0. The
 spin projection $${m}_{s} $$ can be either $$+1/2 $$ or $$-1/2 $$ , and so there
 can be two electrons in the $$n=1 $$ state. One has quantum numbers $$\left(1,
@@ -773,7 +773,7 @@ estimated in this chapter.
 **Integrated Concepts**
 
 The electric and magnetic forces on an electron in the CRT
-in [[link]](../contents/m42592#fs-id961353) are supposed to be in opposite
+in [[link]](../contents/ch30DiscoveryOfThePartsOfTheAtom#fs-id961353) are supposed to be in opposite
 directions. Verify this by determining the direction of each force for the
 situation shown. Explain how you obtain the directions (that is, identify the
 rules used).
@@ -829,7 +829,7 @@ $$ , or a Lyman series transition).
 **Integrated Concepts**
 
 In a Millikan oil-drop experiment using a setup like that
-in [[link]](../contents/m42592#fs-id2010482), a 500-V potential difference is
+in [[link]](../contents/ch30DiscoveryOfThePartsOfTheAtom#fs-id2010482), a 500-V potential difference is
 applied to plates separated by 2.50 cm. (a) What is the mass of an oil drop
 having two extra electrons that is suspended motionless by the field between the
 plates? (b) What is the diameter of the drop, assuming it is a sphere with the

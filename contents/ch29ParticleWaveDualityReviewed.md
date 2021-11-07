@@ -69,7 +69,7 @@ following topics are involved in some or all of the problems in this section:
 * [Electric Potential and Electric Field](/ch19ElectricPotentialAndElectricEnergy)
 * [Electric Current, Resistance, and Ohm’s Law](/ch20ElectricCurrentResistanceAndOhmsLaw)
 * [Wave Optics](/ch27WaveOptics)
-* [Special Relativity](/m42525)
+* [Special Relativity](/ch28SpecialRelativity)
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -189,7 +189,7 @@ In what ways are matter and energy related that were not known before the develo
 <div class="problem" markdown="1">
 **Integrated Concepts**
 
-The 54.0-eV electron in [[link]](../contents/m42576#fs-id2621262) has a 0.167-nm
+The 54.0-eV electron in [[link]](../contents/ch29TheWaveNatureOfMatter#fs-id2621262) has a 0.167-nm
 wavelength. If such electrons are passed through a double slit and have their
 first maximum at an angle of $$ 25.0º $$ , what is the slit separation $$d $$ ?
 

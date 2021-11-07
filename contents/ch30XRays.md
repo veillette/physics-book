@@ -16,7 +16,7 @@ spectrum and are characteristic of the atom as well. In this section, we explore
 characteristic x rays and some of their important applications.
 
 We have previously discussed x rays as a part of the electromagnetic spectrum
-in [Photon Energies and the Electromagnetic Spectrum](/m42563). That module
+in [Photon Energies and the Electromagnetic Spectrum](/ch29PhotonEnergiesAndTheElectomagneticSpectrum). That module
 illustrated how an x-ray tube (a specialized CRT) produces x rays. Electrons
 emitted from a hot filament are accelerated with a high voltage, gaining
 significant kinetic energy and striking the anode.
@@ -52,7 +52,7 @@ atoms de-excite, they emit characteristic electromagnetic radiation. The most
 energetic of these are produced when an inner-shell vacancy is filled—that is,
 when an $$n=1 $$ or $$n=2 $$ shell electron has been excited to a higher level,
 and another electron falls into the vacant spot. A *characteristic x ray* (
-see [Photon Energies and the Electromagnetic Spectrum](/m42563)) is
+see [Photon Energies and the Electromagnetic Spectrum](/ch29PhotonEnergiesAndTheElectomagneticSpectrum)) is
 electromagnetic (EM) radiation emitted by an atom when an inner-shell vacancy is
 filled. [[Figure 2]](#Figure2) shows a representative energy-level diagram that
 illustrates the labeling of characteristic x rays. X rays created when an
@@ -175,7 +175,7 @@ Biological effects of x rays will be explored in the next chapter along with
 other types of ionizing radiation such as those produced by nuclei.
 
 As the x-ray energy increases, the Compton effect (
-see [Photon Momentum](/m42568)) becomes more important in the attenuation of the
+see [Photon Momentum](/ch29PhotonMomentum)) becomes more important in the attenuation of the
 x rays. Here, the x ray scatters from an outer electron shell of the atom,
 giving the ejected electron some kinetic energy while losing energy itself. The
 probability for attenuation of the x rays depends upon the number of electrons

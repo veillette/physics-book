@@ -29,7 +29,7 @@ distance, too, depends on the observer’s relative motion. If two observers see
 different times, then they must also see different distances for relative speed
 to be the same to each of them.
 
-The muon discussed in [[link]](/m42531#fs-id3081310) illustrates this concept.
+The muon discussed in [[link]](/ch28SimultaneityAndTimeDilation#fs-id3081310) illustrates this concept.
 To an observer on the Earth, the muon travels at $$0.950c $$ for $$7.05 \mu s $$
 from the time it is produced until it decays. Thus it travels a distance
 
@@ -208,7 +208,7 @@ they know forever. Even if they returned, thousands to millions of years would
 have passed on the Earth, obliterating most of what now exists. There is also a
 more serious practical obstacle to traveling at such velocities; immensely
 greater energies than classical physics predicts would be needed to achieve such
-high velocities. This will be discussed in [Relatavistic Energy](/m42546).
+high velocities. This will be discussed in [Relatavistic Energy](/ch28RelativisticEnergy).
 
 Why don’t we notice length contraction in everyday life? The distance to the
 grocery shop does not seem to depend on whether we are moving or not. Examining

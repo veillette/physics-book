@@ -29,7 +29,7 @@ proton. [[Table 1]](#Table1) compares the masses of protons, neutrons, and
 electrons. Note how close the proton and neutron masses are, but the neutron is
 slightly more massive once you look past the third digit. Both nucleons are much
 more massive than an electron. In fact, $${m}_{p}=1836{m}_{e} $$
-(as noted in [Medical Applications of Nuclear Physics](/m42646) and $${m}_
+(as noted in [Medical Applications of Nuclear Physics](/ch32MedicalApplicationsOfNuclearPhysics) and $${m}_
 {n}=1839{m}_{e} $$.
 
 [[Table 1]](#Table1) also gives masses in terms of mass units that are more
@@ -69,7 +69,7 @@ particular nuclide:
 
 where the symbols $$A $$ , $$\text{X} $$ , $$Z $$ , and $$N $$ are defined as
 follows: The *number of protons in a nucleus* is the **atomic number**  $$Z $$ ,
-as defined in [Medical Applications of Nuclear Physics](/m42646). X is the *
+as defined in [Medical Applications of Nuclear Physics](/ch32MedicalApplicationsOfNuclearPhysics). X is the *
 symbol for the element*, such as Ca for calcium. However, once $$Z $$ is known,
 the element is known; hence, $$Z $$ and $$\text{X} $$ are redundant. For
 example, $$Z=20 $$ is always calcium, and calcium always has $$Z=20 $$ . $$N $$

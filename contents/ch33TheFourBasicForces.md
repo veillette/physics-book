@@ -86,7 +86,7 @@ conjectured<sup class="footnote-number" id="footnote-ref3"><a class="footnote-li
 
 Although these four forces are distinct and differ greatly from one another
 under all but the most extreme circumstances, we can see similarities among
-them. (In [GUTs: the Unification of Forces](/m42680), we will discuss how the
+them. (In [GUTs: the Unification of Forces](/ch33GUTS), we will discuss how the
 four forces may be different manifestations of a single unified force.) Perhaps
 the most important characteristic among the forces is that they are all
 transmitted by the exchange of a carrier particle, exactly like what Yukawa had
@@ -103,7 +103,7 @@ Feynman diagram**, after the brilliant American physicist Richard Feynman (
 
 [[Figure 3]](#Figure3) is a Feynman diagram for the exchange of a virtual pion
 between a proton and a neutron representing the same interaction as
-in [[link]](/m42669#import-auto-id1169737824808). Feynman diagrams are not only
+in [[link]](/ch33TheYukawaParticleAndTheHeisenbergUncertaintyPrincipleRevisited#import-auto-id1169737824808). Feynman diagrams are not only
 a useful tool for visualizing interactions at the quantum mechanical level, they
 are also used to calculate details of interactions, such as their strengths and
 probability of occurring. Feynman was one of the theorists who developed the
@@ -117,14 +117,14 @@ physics.
 
 Why is it that particles called gluons are listed as the carrier particles for
 the strong nuclear force when,
-in [The Yukawa Particle and the Heisenberg Uncertainty Principle Revisited](/m42669)
+in [The Yukawa Particle and the Heisenberg Uncertainty Principle Revisited](/ch33TheYukawaParticleAndTheHeisenbergUncertaintyPrincipleRevisited)
 , we saw that pions apparently carry that force? The answer is that pions are
 exchanged but they have a substructure and, as we explore it, we find that the
 strong force is actually related to the indirectly observed but more
 fundamental **gluons**. In fact, all the carrier particles are thought to be
 fundamental in the sense that they have no substructure. Another similarity
 among carrier particles is that they are all bosons (first mentioned
-in [Patterns in Spectra Reveal More Quantization](/m42609)), having integral
+in [Patterns in Spectra Reveal More Quantization](/ch30PatternsInSpectraRevealMoreQuantization)), having integral
 intrinsic spins.
 
 ![A diagram is shown in which time progresses along the vertical y axis and distance along the horizontal x axis. Protons and neutrons are shown approaching each other, exchanging a virtual pion, then moving apart.](../resources/Figure_34_02_04.jpg "The image shows a Feynman diagram for the exchange of a \( \pi^{+} \) between a proton and a neutron, carrying the strong nuclear force between them. This diagram represents the situation shown more pictorially in [link].")
@@ -140,7 +140,7 @@ Gravity is the most difficult of the four forces to understand on a quantum
 scale because it affects the space and time in which the others act. But gravity
 is so weak that its effects are extremely difficult to observe quantum
 mechanically. We shall explore it further
-in [General Relativity and Quantum Gravity](/m42689)). The $${W}^{+}, {W}^{-} $$
+in [General Relativity and Quantum Gravity](/ch34GeneralRelativityAndQuantumTheory)). The $${W}^{+}, {W}^{-} $$
 , and $${Z}^{0} $$ particles that carry the weak nuclear force have mass,
 accounting for the very short range of this force. In fact, the $${W}^{+},
 {W}^{-} $$ , and $${Z}^{0} $$ are about 1000 times more massive than pions,
@@ -152,7 +152,7 @@ is also short ranged.
 The relative strengths of the forces given in the [[Table 1]](#Table1) are those
 for the most common situations. When particles are brought very close together,
 the relative strengths change, and they may become identical at extremely close
-range. As we shall see in [GUTs: the Unification of Forces](/m42680), carrier
+range. As we shall see in [GUTs: the Unification of Forces](/ch33GUTS), carrier
 particles may be altered by the energy required to bring particles very close
 together—in such a manner that they become identical.
 
