@@ -72,7 +72,7 @@ Find the maximum torque on a 100-turn square loop of a wire of 10.0 cm on a side
 **Strategy**
 
 Torque on the loop can be found using $$\tau =NIAB \sin \theta $$ . Maximum
-torque occurs when $$\theta =90 \degree $$ and $$\sin \theta =1 $$.
+torque occurs when $$\theta =90 ^\circ $$ and $$\sin \theta =1 $$.
 
 **Solution**
 

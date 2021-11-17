@@ -787,7 +787,7 @@ The electric force on the electron is up (toward the positively charged plate). 
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) What is the distance between the slits of a diffraction grating that produces a first-order maximum for the first Balmer line at an angle of  $$20.0 \degree $$ ?
+(a) What is the distance between the slits of a diffraction grating that produces a first-order maximum for the first Balmer line at an angle of  $$20.0 ^\circ $$ ?
 
 (b) At what angle will the fourth line of the Balmer series appear in first
 order?

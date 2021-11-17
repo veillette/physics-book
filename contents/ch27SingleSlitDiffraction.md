@@ -74,7 +74,7 @@ with the illustration in [[Figure 1]](#Figure1)(b).
 <div class="title">
 Calculating Single Slit Diffraction
 </div>
-Visible light of wavelength 550 nm falls on a single slit and produces its second diffraction minimum at an angle of  $$45.0 \degree $$
+Visible light of wavelength 550 nm falls on a single slit and produces its second diffraction minimum at an angle of  $$45.0 ^\circ $$
  relative to the incident direction of the light. (a) What is the width of the slit? (b) At what angle is the first minimum produced?
 
 ![The schematic shows a single slit to the left and the resulting intensity pattern on a screen is graphed on the right. The single slit is represented by a gap of size d in a vertical line. A ray of wavelength lambda enters the gap from the left, then five rays leave from the gap center and head to the right. One ray continues on the horizontal centerline of the schematic. Two rays angle upward: the first at an unknown angle theta one above the horizontal and the second at an angle theta two equals forty five degrees above the horizontal. The final two rays angle downward at the same angles, so that they are symmetric about the horizontal with respect to the two rays that angle upward. The intensity on the screen is a maximum where the central ray hits the screen, whereas it is a minimum where the angled rays hit the screen.](../resources/Figure_28_05_04a.jpg "A graph of the single slit diffraction pattern is analyzed in this example.")
@@ -88,7 +88,7 @@ again to find the angle for the first minimum $${\theta }_{1} $$.
 **Solution for (a)**
 
 We are given that $$\lambda =550 \text{nm} $$ , $$m=2 $$ , and $${\theta }_
-{2}=45.0 \degree $$ . Solving the equation $$D \sin \theta =\text{mλ} $$ for
+{2}=45.0 ^\circ $$ . Solving the equation $$D \sin \theta =\text{mλ} $$ for
 $$D $$ and substituting known values gives
 
 <div class="equation" >
@@ -113,9 +113,9 @@ We see that the slit is narrow (it is only a few times greater than the
 wavelength of light). This is consistent with the fact that light must interact
 with an object comparable in size to its wavelength in order to exhibit
 significant wave effects such as this single slit diffraction pattern. We also
-see that the central maximum extends $$20.7 \degree $$ on either side of the
-original beam, for a width of about $$41 \degree $$ . The angle between the
-first and second minima is only about $$24 \degree \left(45.0
+see that the central maximum extends $$20.7 ^\circ $$ on either side of the
+original beam, for a width of about $$41 ^\circ $$ . The angle between the
+first and second minima is only about $$24 ^\circ \left(45.0
 \text{º}-20.7º\right) $$ . Thus the second maximum is only about half as wide as
 the central maximum.
 
@@ -262,7 +262,7 @@ that will produce a first minimum for a wavelength  $$\lambda  $$ ?
 (b)  $$ 48.7º $$
 (c) No
 
-(d)  $${2\theta }_{1}=\left(2\right)\left(14.5 \degree\right)=29 \degree,
+(d)  $${2\theta }_{1}=\left(2\right)\left(14.5 ^\circ\right)=29 ^\circ,
 {\theta }_{2}-{\theta }_{1}=30.05\text{º}- 14.5º=15.56\text{º} $$ . Thus, $$29
 \text{º}\approx \left(2\right)\left(15.56\text{º}\right)= 31.1º $$.
 

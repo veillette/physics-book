@@ -141,7 +141,7 @@ Entering the given values into $$\text{emf}=B\ell v $$ gives
 The value obtained is greater than the 5 kV measured voltage for the shuttle
 experiment, since the actual orbital motion of the tether is not perpendicular
 to the Earth’s field. The 7.80 kV value is the maximum emf obtained when
-$$\theta =90 \degree $$ and $$\sin \theta =1 $$.
+$$\theta =90 ^\circ $$ and $$\sin \theta =1 $$.
 
 </div>
 

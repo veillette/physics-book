@@ -155,7 +155,7 @@ wavelength $$\lambda $$ gives
 Substituting known values yields
 
 <div class="equation" >
- $$\begin{array}{lll}\lambda & =& \frac{\left(0.0100 \text{mm}\right)\left( \sin 10.95 \degree\right)}{3}\\ & =&  6.33 \times 10^{-4}  \text{mm}=633 \text{nm} \text{.} \end{array} $$
+ $$\begin{array}{lll}\lambda & =& \frac{\left(0.0100 \text{mm}\right)\left( \sin 10.95 ^\circ\right)}{3}\\ & =&  6.33 \times 10^{-4}  \text{mm}=633 \text{nm} \text{.} \end{array} $$
 </div>
 **Discussion**
 
@@ -183,7 +183,7 @@ The equation $$d \sin \theta =\mathrm{m\lambda } \text{(for} m=0, 1, -1, 2, -2,
 \dots \right) $$ describes constructive interference. For fixed values of $$d $$
 and $$\lambda $$ , the larger $$m $$ is, the larger $$\sin \theta $$ is.
 However, the maximum value that $$\sin \theta $$ can have is 1, for an angle of
-$$90 \degree $$ .
+$$90 ^\circ $$ .
 (Larger angles imply that light goes backward and does not reach the screen at
 all.) Let us find which $$m $$ corresponds to this maximum diffraction angle.
 

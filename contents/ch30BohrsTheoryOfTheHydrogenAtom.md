@@ -91,7 +91,7 @@ was missing.
 <div class="title">
 Calculating Wave Interference of a Hydrogen Line
 </div>
-What is the distance between the slits of a grating that produces a first-order maximum for the second Balmer line at an angle of  $$15 \degree $$ ?
+What is the distance between the slits of a grating that produces a first-order maximum for the second Balmer line at an angle of  $$15 ^\circ $$ ?
 
 **Strategy and Concept**
 

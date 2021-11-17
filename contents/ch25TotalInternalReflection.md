@@ -20,18 +20,18 @@ first, the ray bends away from the perpendicular. (Since $${n}_{1}>{n}_{2} $$ ,
 the angle of refraction is greater than the angle of incidence—that is,
 $${\theta }_{2}>{\theta }_{1} $$ .) Now imagine what happens as the incident
 angle is increased. This causes $${\theta }_{2} $$ to increase also. The largest
-the angle of refraction $${\theta }_{2} $$ can be is $$90 \degree $$ , as shown
+the angle of refraction $${\theta }_{2} $$ can be is $$90 ^\circ $$ , as shown
 in [[Figure 1]](#Figure1)(b).The **critical angle** $${\theta }_{c} $$ for a
 combination of materials is defined to be the incident angle $${\theta }_{1} $$
-that produces an angle of refraction of $$90 \degree $$ . That is, $${\theta
-}_{c} $$ is the incident angle for which $${\theta }_{2}=90 \degree $$ . If the
+that produces an angle of refraction of $$90 ^\circ $$ . That is, $${\theta
+}_{c} $$ is the incident angle for which $${\theta }_{2}=90 ^\circ $$ . If the
 incident angle $${\theta }_{1} $$ is greater than the critical angle, as shown
 in [[Figure 1]](#Figure1)(c), then all of the light is reflected back into
 medium 1, a condition called **total internal reflection**.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <span class="title">Critical Angle</span>The incident angle  $${\theta }_{1} $$
-** that produces an angle of refraction of  $$90 \degree $$  is called the critical angle,  $${\theta }_{c} $$.
+** that produces an angle of refraction of  $$90 ^\circ $$  is called the critical angle,  $${\theta }_{c} $$.
 
 </div>
 
@@ -46,7 +46,7 @@ is given by
 </div>
 
 When the incident angle equals the critical angle ( $${\theta }_{1}={\theta }_
-{c} $$ ), the angle of refraction is $$90 \degree $$  ( $${\theta }_{2}=90
+{c} $$ ), the angle of refraction is $$90 ^\circ $$  ( $${\theta }_{2}=90
 \text{º} $$ ). Noting that $$\sin 90\text{º}=1 $$ , Snell’s law in this case
 becomes
 
@@ -98,7 +98,7 @@ Substituting the identified values gives
 **Discussion**
 
 This means that any ray of light inside the plastic that strikes the surface at
-an angle greater than $$42.2 \degree $$ will be totally reflected. This will
+an angle greater than $$42.2 ^\circ $$ will be totally reflected. This will
 make the inside surface of the clear plastic a perfect mirror for such rays
 without any need for the silvering used on common mirrors. Different
 combinations of materials have different critical angles, but any combination
@@ -219,7 +219,7 @@ great precision.
 
 Corner reflectors are perfectly efficient when the conditions for total internal
 reflection are satisfied. With common materials, it is easy to obtain a critical
-angle that is less than $$45 \degree $$ . One use of these perfect mirrors is
+angle that is less than $$45 ^\circ $$ . One use of these perfect mirrors is
 in binoculars, as shown in [[Figure 6]](#Figure6). Another use is in periscopes
 found in submarines.
 
@@ -269,7 +269,7 @@ Explore bending of light between two media with different indices of refraction.
 
 ### Section Summary
 
-* The incident angle that produces an angle of refraction of $$90 \degree $$ is
+* The incident angle that produces an angle of refraction of $$90 ^\circ $$ is
   called critical angle.
 * Total internal reflection is a phenomenon that occurs at the boundary between
   two mediums, such that if the incident angle in the first medium is greater
@@ -320,7 +320,7 @@ The most common type of mirage is an illusion that light from faraway objects is
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Verify that the critical angle for light going from water to air is  $$48.6 \degree $$ ,
+Verify that the critical angle for light going from water to air is  $$48.6 ^\circ $$ ,
  as discussed at the end of [[link]](#fs-id2994315), regarding the critical angle for light traveling in a polystyrene (a type of plastic) pipe surrounded by air.
 
 </div>
@@ -399,7 +399,7 @@ A light ray entering an optical fiber surrounded by air is first refracted and t
 {: class="glossary-title"}
 
 critical angle
-: incident angle that produces an angle of refraction of $$90 \degree $$
+: incident angle that produces an angle of refraction of $$90 ^\circ $$
 
 fiber optics
 : transmission of light down fibers of plastic or glass, applying the principle

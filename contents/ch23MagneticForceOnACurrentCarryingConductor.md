@@ -212,7 +212,7 @@ What is the direction of the magnetic field that produces the magnetic force sho
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) A DC power line for a light-rail system carries 1000 A at an angle of  $$30.0 \degree $$
+(a) A DC power line for a light-rail system carries 1000 A at an angle of  $$30.0 ^\circ $$
  to the Earth’s  $$ 5.00 \times 10^{-5}  \text{-T} $$
  field. What is the force on a 100-m section of this line? (b) Discuss practical concerns this presents, if any.
 
@@ -247,7 +247,7 @@ A wire carrying a 30.0-A current passes between the poles of a strong magnet tha
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) A 0.750-m-long section of cable carrying current to a car starter motor makes an angle of  $$60 \degree $$
+(a) A 0.750-m-long section of cable carrying current to a car starter motor makes an angle of  $$60 ^\circ $$
  with the Earth’s  $$ 5.50 \times 10^{-5}  \text{T} $$
  field. What is the current when the wire experiences a force of  $$ 7.00 \times 10^{-3}  \text{N} $$ ?
  (b) If you run the wire between the poles of a strong horseshoe magnet, subjecting 5.00 cm of it to a 1.75-T field, what force is exerted on this segment of wire?
@@ -257,12 +257,12 @@ A wire carrying a 30.0-A current passes between the poles of a strong magnet tha
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) What is the angle between a wire carrying an 8.00-A current and the 1.20-T field it is in if 50.0 cm of the wire experiences a magnetic force of 2.40 N? (b) What is the force on the wire if it is rotated to make an angle of  $$90 \degree $$
+(a) What is the angle between a wire carrying an 8.00-A current and the 1.20-T field it is in if 50.0 cm of the wire experiences a magnetic force of 2.40 N? (b) What is the force on the wire if it is rotated to make an angle of  $$90 ^\circ $$
  with the field?
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$30 \degree $$
+(a)  $$30 ^\circ $$
 (b) 4.80 N
 
 </div>
