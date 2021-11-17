@@ -56,8 +56,8 @@ instantaneous values. According to Kirchhoff’s loop rule, the total voltage
 around the circuit $$V $$ is also the voltage of the source.
 
 You can see from [[Figure 2]](#Figure2) that while $${V}_{R} $$ is in phase with
-the current, $${V}_{L} $$ leads by $$90 \degree $$ , and $${V}_{C} $$ follows
-by $$90 \degree $$ . Thus $${V}_{L} $$ and $${V}_{C} $$ are $$180 \degree $$
+the current, $${V}_{L} $$ leads by $$90 ^\circ $$ , and $${V}_{C} $$ follows
+by $$90 ^\circ $$ . Thus $${V}_{L} $$ and $${V}_{C} $$ are $$180 ^\circ $$
 out of phase (crest to trough) and tend to cancel, although not completely
 unless they have the same magnitude. Since the peak voltages are not aligned (
 not in phase), the peak voltage $${V}_{0} $$ of the source does *not* equal the
@@ -322,9 +322,9 @@ This small value indicates the voltage and current are significantly out of phas
 </div>
 **Discussion for (a)**
 
-The phase angle is close to $$90 \degree $$ , consistent with the fact that the
+The phase angle is close to $$90 ^\circ $$ , consistent with the fact that the
 capacitor dominates the circuit at this low frequency (a pure *RC* circuit has
-its voltage and current $$90 \degree $$ out of phase).
+its voltage and current $$90 ^\circ $$ out of phase).
 
 **Strategy and Solution for (b)**
 

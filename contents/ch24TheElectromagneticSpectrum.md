@@ -685,7 +685,7 @@ range of cancers (prostate, breast, colon), so a certain amount of UV exposure
 is helpful. Lack of vitamin D is also linked to osteoporosis. Exposures (with no
 sunscreen) of 10 minutes a day to arms, face, and legs might be sufficient to
 provide the accepted dietary level. However, in the winter time north of about
-$$37 \degree $$ latitude, most UVB gets blocked by the atmosphere.
+$$37 ^\circ $$ latitude, most UVB gets blocked by the atmosphere.
 
 UV radiation is used in the treatment of infantile jaundice and in some skin
 conditions. It is also used in sterilizing workspaces and tools, and killing

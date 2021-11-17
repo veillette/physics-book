@@ -31,9 +31,9 @@ back toward the equilibrium position at $$\theta =0 $$.
 Now, if we can show that the restoring force is directly proportional to the
 displacement, then we have a simple harmonic oscillator. In trying to determine
 if we have a simple harmonic oscillator, we should note that for small angles (
-less than about $$15 \degree $$ ), $$\sin \theta \approx \theta $$
+less than about $$15 ^\circ $$ ), $$\sin \theta \approx \theta $$
 ( $$\sin \theta $$ and $$\theta $$ differ by about 1% or less at smaller angles)
-. Thus, for angles less than about $$15 \degree $$ , the restoring force $$F $$
+. Thus, for angles less than about $$15 ^\circ $$ , the restoring force $$F $$
 is
 
 <div class="equation" >
@@ -67,12 +67,12 @@ This expression is of the form:
 </div>
 
 where the force constant is given by $$k=mg/L $$ and the displacement is given
-by $$x=s $$ . For angles less than about $$15 \degree $$ , the restoring force
+by $$x=s $$ . For angles less than about $$15 ^\circ $$ , the restoring force
 is directly proportional to the displacement, and the simple pendulum is a
 simple harmonic oscillator.
 
 Using this equation, we can find the period of a pendulum for amplitudes less
-than about $$15 \degree $$ . For the simple pendulum:
+than about $$15 ^\circ $$ . For the simple pendulum:
 
 <div class="equation" >
  $$T=2\pi \sqrt{\frac{m}{k}}=2\pi \sqrt{\frac{m}{mg/L}}. $$
@@ -89,7 +89,7 @@ simplicity. The only things that affect the period of a simple pendulum are its
 length and the acceleration due to gravity. The period is completely independent
 of other factors, such as mass. As with simple harmonic oscillators, the period
 $$T $$ for a pendulum is nearly independent of amplitude, especially if $$\theta
-$$ is less than about $$15 \degree $$ . Even simple pendulum clocks can be
+$$ is less than about $$15 ^\circ $$ . Even simple pendulum clocks can be
 finely adjusted and accurate.
 
 Note the dependence of $$T $$ on $$g $$ . If the length of a pendulum is
@@ -106,7 +106,7 @@ What is the acceleration due to gravity in a region where a simple pendulum havi
 
 We are asked to find $$g $$ given the period $$T $$ and the length $$L $$ of a
 pendulum. We can solve $$T=2\pi \sqrt{\frac{L}{g}} $$ for $$g $$ , assuming only
-that the angle of deflection is less than $$15 \degree $$.
+that the angle of deflection is less than $$15 ^\circ $$.
 
 **Solution**
 
@@ -133,7 +133,7 @@ This method for determining $$g $$ can be very accurate. This is why length and
 period are given to five digits in this example. For the precision of the
 approximation $$\sin \theta \approx \theta $$ to be better than the precision of
 the pendulum length and period, the maximum displacement angle should be kept
-below about $$0.5 \degree $$.
+below about $$0.5 ^\circ $$.
 
 </div>
 
@@ -151,7 +151,7 @@ Knowing  $$g $$
 Take Home Experiment: Determining  $$g $$
 </div>
 Use a simple pendulum to determine the acceleration due to gravity  $$g $$
- in your own locale. Cut a piece of a string or dental floss so that it is about 1 m long. Attach a small object of high density to the end of the string (for example, a metal nut or a car key). Starting at an angle of less than  $$10 \degree $$ ,
+ in your own locale. Cut a piece of a string or dental floss so that it is about 1 m long. Attach a small object of high density to the end of the string (for example, a metal nut or a car key). Starting at an angle of less than  $$10 ^\circ $$ ,
  allow the pendulum to swing and measure the pendulum’s period for 10 oscillations using a stopwatch. Calculate  $$g $$ .
  How accurate is this measurement? How might it be improved?
 
@@ -164,7 +164,7 @@ Check Your Understanding
 <div class="problem" markdown="1">
 An engineer builds two simple pendula. Both are suspended from small wires secured to the ceiling of a room. Each pendulum hovers 2 cm above the floor. Pendulum 1 has a bob with a mass of  $$10 \text{kg} $$ .
  Pendulum 2 has a bob with a mass of  $$100 \text{kg} $$ .
- Describe how the motion of the pendula will differ if the bobs are both displaced by  $$12 \degree $$.
+ Describe how the motion of the pendula will differ if the bobs are both displaced by  $$12 ^\circ $$.
 
 </div>
 <div class="solution" data-print-placement="here" markdown="1">
@@ -189,7 +189,7 @@ Play with one or two pendulums and discover how the period of a simple pendulum 
 ### Section Summary
 
 * A mass $$m $$ suspended by a wire of length $$L $$ is a simple pendulum and undergoes
-      simple harmonic motion for amplitudes less than about $$15 \degree. $$
+      simple harmonic motion for amplitudes less than about $$15 ^\circ. $$
       The period of a simple pendulum is
 
   <div class="equation" >

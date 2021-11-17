@@ -122,7 +122,7 @@ Solving for  $$\theta  $$  yields
 A fairly large angle between the direction of polarization and the filter axis
 is needed to reduce the intensity to $$ 10.0% $$ of its original value. This
 seems reasonable based on experimenting with polarizing films. It is interesting
-that, at an angle of $$45 \degree $$ , the intensity is reduced to $$50 \% $$
+that, at an angle of $$45 ^\circ $$ , the intensity is reduced to $$50 \% $$
 of its original value (as you will show in this section’s Problems &amp;
 Exercises). Note that $$ 71.6º $$ is $$ 18.4º $$ from reducing the intensity to
 zero, and that at an angle of $$ 18.4º $$ the intensity is reduced to $$ 90.0%
@@ -309,7 +309,7 @@ watches, calculators, computer screens, cellphones, flat screen televisions, and
 other myriad places, you may not be aware that they are based on polarization.
 Liquid crystals are so named because their molecules can be aligned even though
 they are in a liquid. Liquid crystals have the property that they can rotate the
-polarization of light passing through them by $$90 \degree $$ . Furthermore,
+polarization of light passing through them by $$90 ^\circ $$ . Furthermore,
 this property can be turned off by the application of a voltage, as illustrated
 in [[Figure 11]](#Figure11). It is possible to manipulate this characteristic
 quickly and in small well-defined regions to create the contrast patterns we see
@@ -503,7 +503,7 @@ At the end of [[link]](#fs-id1169737862136), it was stated that the intensity of
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Show that if you have three polarizing filters, with the second at an angle of  $$45 \degree $$
+Show that if you have three polarizing filters, with the second at an angle of  $$45 ^\circ $$
  to the first and the third at an angle of  $$ 90.0º $$
  to the first, the intensity of light passed by the first will be reduced to  $$ 25.0%  $$
  of its value. (This is in contrast to having only the first and third, which reduces the intensity to zero, so that placing the second between them increases the intensity of the transmitted light.)
@@ -516,7 +516,7 @@ Show that if you have three polarizing filters, with the second at an angle of  
 Prove that, if  $$I $$
  is the intensity of light transmitted by two polarizing filters with axes at an angle  $$\theta  $$
  and  $$I^{\prime} $$
- is the intensity when the axes are at an angle  $$90.0 \degree-\mathrm{\theta ,} $$
+ is the intensity when the axes are at an angle  $$90.0 ^\circ-\mathrm{\theta ,} $$
  then  $$I+I^{\prime}={I}_{0,} $$
  the original intensity. (Hint: Use the trigonometric identities  $$\cos \left(90.0º-\theta \right)=\sin \theta  $$
  and  $${\cos}^{2} \theta +{\sin}^{2} \theta =1. $$ )  

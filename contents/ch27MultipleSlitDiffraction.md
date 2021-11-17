@@ -314,8 +314,8 @@ What is the maximum number of lines per centimeter a diffraction grating can hav
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-The yellow light from a sodium vapor lamp *seems* to be of pure wavelength, but it produces two first-order maxima at  $$ 36.093 \degree $$
- and  $$ 36.129 \degree $$
+The yellow light from a sodium vapor lamp *seems* to be of pure wavelength, but it produces two first-order maxima at  $$ 36.093 ^\circ $$
+ and  $$ 36.129 ^\circ $$
  when projected on a 10 000 line per centimeter diffraction grating. What are the two wavelengths to an accuracy of 0.1 nm?
 
 </div>
@@ -339,7 +339,7 @@ Structures on a bird feather act like a reflection grating having 8000 lines per
 
 </div>
 <div class="solution" markdown="1">
- $$28.7 \degree $$
+ $$28.7 ^\circ $$
 </div>
 </div>
 

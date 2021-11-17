@@ -244,7 +244,7 @@ A ray of 610 nm light goes from air into fused quartz at an incident angle of  $
 
 </div>
 <div class="solution" markdown="1">
- $$71.3 \degree $$
+ $$71.3 ^\circ $$
 </div>
 </div>
 
@@ -268,8 +268,8 @@ A narrow beam of white light enters a prism made of crown glass at a  $$ 45.0º 
 
 </div>
 <div class="solution" markdown="1">
- $$53.5 \degree\text{, red;} $$
-  $$55.2 \degree\text{, violet} $$
+ $$53.5 ^\circ\text{, red;} $$
+  $$55.2 ^\circ\text{, violet} $$
 </div>
 </div>
 

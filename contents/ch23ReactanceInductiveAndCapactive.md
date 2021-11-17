@@ -39,7 +39,7 @@ start another cycle. This behavior is summarized as follows:
 <div class="title">
 AC Voltage in an Inductor
 </div>
-When a sinusoidal voltage is applied to an inductor, the voltage leads the current by one-fourth of a cycle, or by a  $$90 \degree $$
+When a sinusoidal voltage is applied to an inductor, the voltage leads the current by one-fourth of a cycle, or by a  $$90 ^\circ $$
  phase angle.
 
 </div>
@@ -158,7 +158,7 @@ one-fourth of a cycle:
 <div class="title">
 AC Voltage in a Capacitor
 </div>
-When a sinusoidal voltage is applied to a capacitor, the voltage follows the current by one-fourth of a cycle, or by a  $$90 \degree $$
+When a sinusoidal voltage is applied to a capacitor, the voltage follows the current by one-fourth of a cycle, or by a  $$90 ^\circ $$
  phase angle.
 
 </div>
@@ -263,7 +263,7 @@ frequency dependence to the behavior of plain resistance in a circuit:
 <div class="title">
 AC Voltage in a Resistor
 </div>
-When a sinusoidal voltage is applied to a resistor, the voltage is exactly in phase with the current—they have a  $$0 \degree $$
+When a sinusoidal voltage is applied to a resistor, the voltage is exactly in phase with the current—they have a  $$0 ^\circ $$
  phase angle.
 
 </div>
@@ -272,7 +272,7 @@ When a sinusoidal voltage is applied to a resistor, the voltage is exactly in ph
 
 * For inductors in AC circuits, we find that when a sinusoidal voltage is
   applied to an inductor, the voltage leads the current by one-fourth of a
-  cycle, or by a $$90 \degree $$ phase angle.
+  cycle, or by a $$90 ^\circ $$ phase angle.
 * The opposition of an inductor to a change in current is expressed as a type of
   AC resistance.
 * Ohm’s law for an inductor is
@@ -289,7 +289,7 @@ When a sinusoidal voltage is applied to a resistor, the voltage is exactly in ph
 *  Inductive reactance
    $${X}_{L} $$ has units of ohms and is greatest at high frequencies.
 *  For capacitors, we find that when a sinusoidal voltage is applied to a capacitor, the voltage follows the current by one-fourth of a cycle, or by a
-   $$90 \degree $$ phase angle.
+   $$90 ^\circ $$ phase angle.
 *  Since a capacitor can stop current when fully charged, it limits current and offers another form of AC resistance; Ohm’s law for a capacitor is
   <div class="equation" >
    $$I=\frac{V}{ {X}_{C}}\text{,} $$
