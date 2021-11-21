@@ -258,12 +258,13 @@
                     el.setAttribute('href', href);
                 }
                 this._tocTitles = {};
+                const self = this;
                 this._tocList = (function () {
                     const _ref1 = toc.find('a[href]');
                     const _results = [];
                     for (const el of _ref1) {
                         const href = URI(el.getAttribute('href')).absoluteTo(tocUrl).toString();
-                        this._tocTitles[href] = $(el).text();
+                        self._tocTitles[href] = $(el).text();
                         _results.push(href);
                     }
                     return _results;
