@@ -115,7 +115,6 @@
         };
         const renderNextPrev = () => {
             // Update the progress bar
-            let nextPage, prevPage;
             const currentPageIndex = tocHelper._tocList.indexOf(window.location.href);
             const totalPageCount = tocHelper._tocList.length;
             bookProgressBar.width("" + (currentPageIndex * 100 / totalPageCount) + "%");
@@ -128,12 +127,12 @@
             let next = tocHelper.nextPageHref(current);
             if (prev) {
                 prev = URI(addTrailingSlash(prev)).relativeTo(URI(window.location.href)).toString();
-                prevPage = $("<a class='navigation navigation-prev' href='" + prev + "'><i class='fa fa-chevron-left'></i></a>");
+                const prevPage = $("<a class='navigation navigation-prev' href='" + prev + "'><i class='fa fa-chevron-left'></i></a>");
                 bookBody.append(prevPage);
             }
             if (next) {
                 next = URI(addTrailingSlash(next)).relativeTo(URI(window.location.href)).toString();
-                nextPage = $("<a class='navigation navigation-next' href='" + next + "'><i class='fa fa-chevron-right'></i></a>");
+                const nextPage = $("<a class='navigation navigation-next' href='" + next + "'><i class='fa fa-chevron-right'></i></a>");
                 return bookBody.append(nextPage);
             }
         };
@@ -158,17 +157,17 @@
             }
         };
         const pageBeforeRender = (els, href) => {
-            let _i, _j, _len, _len1, _ref2;
+            let _ref2;
             updateContributeUrl(href);
+
             const _ref = els.find('a[href]');
-            for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-                let el = _ref[_i];
+            for (const el of _ref) {
                 mdToHtmlFix(el);
             }
+
             // Convert `img[title]` tags into figures so they get numbered and titles are visible
             const _ref1 = els.find('img[title]');
-            for (_j = 0, _len1 = _ref1.length; _j < _len1; _j++) {
-                const img = _ref1[_j];
+            for (const img of _ref1) {
                 const $img = $(img);
                 const id = $img.attr('id');
                 $img.removeAttr('id');
@@ -248,24 +247,22 @@
             this._tocTitles = {};
 
             this.loadToc = function (toc, title) {
-                let el, href;
                 this.toc = toc;
                 this.title = title;
                 const tocUrl = URI(BookConfig.toc.url).absoluteTo(removeTrailingSlash(window.location.href));
-                let _ref = this.toc.find('a[href]');
-                for (let _i = 0, _len = _ref.length; _i < _len; _i++) {
-                    el = _ref[_i];
+                const _ref = this.toc.find('a[href]');
+
+                for (const el of _ref) {
                     mdToHtmlFix(el);
-                    href = URI(el.getAttribute('href')).absoluteTo(tocUrl).pathname().toString();
+                    const href = URI(el.getAttribute('href')).absoluteTo(tocUrl).pathname().toString();
                     el.setAttribute('href', href);
                 }
                 this._tocTitles = {};
                 this._tocList = (function () {
                     const _ref1 = toc.find('a[href]');
                     const _results = [];
-                    for (let _j = 0, _len1 = _ref1.length; _j < _len1; _j++) {
-                        el = _ref1[_j];
-                        href = URI(el.getAttribute('href')).absoluteTo(tocUrl).toString();
+                    for (const el of _ref1) {
+                        const href = URI(el.getAttribute('href')).absoluteTo(tocUrl).toString();
                         this._tocTitles[href] = $(el).text();
                         _results.push(href);
                     }
@@ -273,10 +270,9 @@
                 }).call(this);
                 if (BookConfig.serverAddsTrailingSlash) {
                     const _ref1 = this.toc.find('a');
-                    for (let _j = 0, _len1 = _ref1.length; _j < _len1; _j++) {
-                        const a = _ref1[_j];
+                    for (const a of _ref1) {
                         const $a = $(a);
-                        href = $a.attr('href');
+                        let href = $a.attr('href');
                         href = '../' + href;
                         $a.attr('href', href);
                     }
