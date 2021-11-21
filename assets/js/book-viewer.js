@@ -1,50 +1,16 @@
 (function () {
 
     const BookConfig = window.Book || {};
-
-    if (BookConfig.includes == null) {
-        BookConfig.includes = {};
-    }
-
-    const _base = BookConfig.includes
-    if (_base.fontawesome == null) {
-        _base.fontawesome = '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css';
-    }
-
-    if (BookConfig.urlFixer == null) {
-        BookConfig.urlFixer = val => {
-            return val;
-        };
-    }
-
-    if (BookConfig.toc == null) {
-        BookConfig.toc = {};
-    }
-
-    const _base1 = BookConfig.toc
-    if (_base1.url == null) {
-        _base1.url = '../toc'; // # or '../SUMMARY' for GitBook
-    }
-
-    const _base2 = BookConfig.toc
-    if (_base2.selector == null) {
-        _base2.selector = 'nav, ol, ul'; // # picks the first one that matches
-    }
-
-    if (BookConfig.baseHref == null) {
-        BookConfig.baseHref = null;
-    }
-
-    if (BookConfig.serverAddsTrailingSlash == null) {
-        BookConfig.serverAddsTrailingSlash = false; //# Used because jekyll adds trailing slashes
-    }
-
-
-    if (BookConfig.contributeUrl == null) {
-        BookConfig.contributeUrl = null;
-    }
-
-    BookConfig.rootUrl = BookConfig.rootUrl || '';
+    BookConfig.includes ??= {};
+    BookConfig.urlFixer ??= val => val;
+    BookConfig.toc ??= {};
+    BookConfig.toc.url ??= '../toc'; // # or '../SUMMARY' for GitBook
+    BookConfig.toc.selector ??= 'nav, ol, ul'; // # picks the first one that matches
+    BookConfig.baseHref ??= null; //  # or '//archive.cnx.org/contents'
+    BookConfig.serverAddsTrailingSlash ??= false; //# Used because jekyll adds trailing slashes
+    BookConfig.contributeUrl ??= null;
+    BookConfig.rootUrl ??= '';
+    BookConfig.includes.fontawesome ??= '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
 
     //# Inject the <link> tags for FontAwesome
     if (BookConfig.includes.fontawesome) {
@@ -54,38 +20,36 @@
         document.head.appendChild(fa);
     }
 
-    const BOOK_TEMPLATE = `<div class="book with-summary font-size-2 font-family-1">
+    const BOOK_TEMPLATE =
+        `<div class="book with-summary font-size-2 font-family-1">
+            <div class="book-header">
+                <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary">
+                <i class="fa fa-align-justify"></i></a>
+                <h1>
+                <i class="fa fa-spinner fa-spin book-spinner"></i>
+                <span class="book-title"></span>
+                </h1>
+            </div>
+        <div class="book-summary">
+        </div>
 
-  <div class="book-header">
-    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary">
-    <i class="fa fa-align-justify"></i></a>
-     <h1>
-     <i class="fa fa-spinner fa-spin book-spinner"></i>
-     <span class="book-title"></span>
-     </h1>
- </div>
-
-  <div class="book-summary">
-  </div>
-
-  <div class="book-body">
-    <div class="body-inner">
-      <div class="page-wrapper" tabindex="-1">
-        <div class="book-progress">
-          <div class="bar">
-            <div class="inner" style="min-width: 0;"></div>
+          <div class="book-body">
+            <div class="body-inner">
+              <div class="page-wrapper" tabindex="-1">
+                <div class="book-progress">
+                  <div class="bar">
+                    <div class="inner" style="min-width: 0;"></div>
+                  </div>
+                </div>
+                <div class="page-inner">
+                  <section class="normal">
+                    <!-- content -->
+                  </section>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="page-inner">
-          <section class="normal">
-            <!-- content -->
-          </section>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</div>`;
+        </div>`;
 
     function docReady(fn) {
         // see if DOM is already available
