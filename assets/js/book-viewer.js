@@ -246,6 +246,12 @@
 
             this._tocTitles = {};
 
+            /**
+             *
+             * @param toc
+             * @param title
+             * @returns {function}
+             */
             this.loadToc = function (toc, title) {
                 this.toc = toc;
                 this.title = title;
@@ -281,19 +287,32 @@
                 return renderToc();
             };
 
-            //# HACK. Should use URIJS to convert path relative to toc file
-            this._currentPageIndex = function (currentHref) {
-                //#currentHref = currentHref.substring(0, currentHref.length - 1)  if "/" is currentHref[currentHref.length - 1]
+            /**
+             * @private
+             * @param currentHref
+             * @returns {number}
+             */
+            this.currentPageIndex = function (currentHref) {
                 return this._tocList.indexOf(currentHref);
             };
 
+            /**
+             * @private
+             * @param currentHref
+             * @returns {number}
+             */
             this.prevPageHref = function (currentHref) {
-                const currentIndex = this._currentPageIndex(currentHref);
+                const currentIndex = this.currentPageIndex(currentHref);
                 return this._tocList[currentIndex - 1]; //# returns undefined if no previous page
             };
 
+            /**
+             * @private
+             * @param currentHref
+             * @returns {number}
+             */
             this.nextPageHref = function (currentHref) {
-                const currentIndex = this._currentPageIndex(currentHref);
+                const currentIndex = this.currentPageIndex(currentHref);
                 return this._tocList[currentIndex + 1]; // # returns undefined if no next page
             };
         }
