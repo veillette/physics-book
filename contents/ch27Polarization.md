@@ -99,7 +99,7 @@ What angle is needed between the direction of polarized light and the axis of a 
 
 **Strategy**
 
-When the intensity is reduced by $$ 90.0% $$ , it is $$ 10.0% $$ or 0.100 times
+When the intensity is reduced by $$ 90.0\% $$ , it is $$ 10.0\% $$ or 0.100 times
 its original value. That is, $$I= 0.100{I}_{0} $$ . Using this information, the
 equation $$I={I}_{0} {\cos}^{2} \theta $$ can be used to solve for the needed
 angle.
@@ -120,7 +120,7 @@ Solving for  $$\theta  $$  yields
 **Discussion**
 
 A fairly large angle between the direction of polarization and the filter axis
-is needed to reduce the intensity to $$ 10.0% $$ of its original value. This
+is needed to reduce the intensity to $$ 10.0\% $$ of its original value. This
 seems reasonable based on experimenting with polarizing films. It is interesting
 that, at an angle of $$45 ^\circ $$ , the intensity is reduced to $$50 \% $$
 of its original value (as you will show in this section’s Problems &amp;
@@ -594,7 +594,7 @@ If  $${\theta }_{\text{b}} $$
 <div class="problem" markdown="1">
 **Integrated Concepts**
 
-If a polarizing filter reduces the intensity of polarized light to $$ 50.0% $$
+If a polarizing filter reduces the intensity of polarized light to $$ 50.0\% $$
 of its original value, by how much are the electric and magnetic fields reduced?
 
 </div>
@@ -624,7 +624,7 @@ $$ , a circular lens 0.200 m in diameter focuses light onto water in a black
 beaker. Two polarizing sheets of plastic are placed in front of the lens with
 their axes at an angle of $$ 20.0º. $$ Assuming the sunlight is unpolarized and
 the polarizers are $$100 \% $$ efficient, what is the initial rate of heating of
-the water in $$\text{ºC}/\text{s} $$ , assuming it is $$ 80.0% $$ absorbed? The
+the water in $$\text{ºC}/\text{s} $$ , assuming it is $$ 80.0\% $$ absorbed? The
 aluminum beaker has a mass of 30.0 grams and contains 250 grams of water. (b) Do
 the polarizing filters get hot? Explain.
 

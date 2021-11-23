@@ -297,7 +297,7 @@ Use the calculated value of  $$\gamma  $$
 </div>
 **Discussion**
 
-One implication of this example is that since $$\gamma = 3.20 $$ at $$ 95.0% $$
+One implication of this example is that since $$\gamma = 3.20 $$ at $$ 95.0\% $$
 of the speed of light ( $$v= 0.950c $$ ), the relativistic effects are
 significant. The two time intervals differ by this factor of 3.20, where
 classically they would be the same. Something moving at $$ 0.950c $$ is said to
@@ -306,7 +306,7 @@ be highly relativistic.
 </div>
 
 Another implication of the preceding example is that everything an astronaut
-does when moving at $$ 95.0% $$ of the speed of light relative to the Earth
+does when moving at $$ 95.0\% $$ of the speed of light relative to the Earth
 takes 3.20 times longer when observed from the Earth. Does the astronaut sense
 this? Only if she looks outside her spaceship. All methods of measuring time in
 her frame will be affected by the same factor of 3.20. This includes her

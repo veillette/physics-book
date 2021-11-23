@@ -198,7 +198,9 @@ $$W $$ was just found to be $$1.02 \times 10^{14} \text{J} $$ , and $${Q}_
 {\text{h}} $$ is given, so the efficiency is
 
 <div class="equation" >
- $$\begin{array}{lll}\text{Eff}& =& \frac{ 1.02 \times 10^{14} \text{J}}{ 2.50 \times 10^{14} \text{J}}\\ & =&  0.408\text{, or } 40.8% \end{array} $$
+ $$\begin{array}{lll}
+ \text{Eff}& =& \frac{ 1.02 \times 10^{14} \text{J}}{ 2.50 \times 10^{14} \text{J}}\\ 
+   & =&  0.408\text{, or } 40.8\% \end{array} $$
 </div>
 **Strategy for (c)**
 
