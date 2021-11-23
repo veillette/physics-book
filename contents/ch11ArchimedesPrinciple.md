@@ -250,7 +250,7 @@ Specific gravity is the ratio of the density of an object to a fluid (usually wa
 <div class="title">
 Calculating Average Density: Floating Woman
 </div>
-Suppose a 60.0-kg woman floats in freshwater with  $$97.0% $$
+Suppose a 60.0-kg woman floats in freshwater with  $$97.0\% $$
  of her volume submerged when her lungs are full of air. What is her average density?
 
 **Strategy**
@@ -442,7 +442,7 @@ What fraction of ice is submerged when it floats in freshwater, given the densit
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Logs sometimes float vertically in a lake because one end has become water-logged and denser than the other. What is the average density of a uniform-diameter log that floats with  $$20.0% $$
+Logs sometimes float vertically in a lake because one end has become water-logged and denser than the other. What is the average density of a uniform-diameter log that floats with  $$20.0\% $$
  of its length above water?
 
 </div>
@@ -531,13 +531,13 @@ Some fish have a density slightly less than that of water and must exert a force
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) What is the density of a woman who floats in freshwater with  $$4.00% $$
+(a) What is the density of a woman who floats in freshwater with  $$4.00\% $$
  of her volume above the surface? This could be measured by placing her in a tank with marks on the side to measure how much water she displaces when floating and when held under water (briefly). (b) What percent of her volume is above the surface when she floats in seawater?
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
 (a)  $$960 {\text{kg/m}}^{3} $$
-(b)  $$6.34% $$ She indeed floats more in seawater.
+(b)  $$6.34\% $$ She indeed floats more in seawater.
 
 </div>
 </div>
@@ -575,7 +575,7 @@ Scurrilous con artists have been known to represent gold-plated tungsten ingots 
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-The difference is  $$0.006%. $$
+The difference is  $$0.006\%. $$
 </div>
 </div>
 
@@ -609,8 +609,8 @@ $${w}_{\text{fl}} $$ the weight of the fluid displaced.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) A 75.0-kg man floats in freshwater with  $$3.00% $$
- of his volume above water when his lungs are empty, and  $$5.00% $$
+(a) A 75.0-kg man floats in freshwater with  $$3.00\% $$
+ of his volume above water when his lungs are empty, and  $$5.00\% $$
  of his volume above water when his lungs are full. Calculate the volume of air he inhales—called his lung capacity—in liters. (b) Does this lung volume seem reasonable?
 
 </div>

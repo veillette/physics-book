@@ -81,7 +81,7 @@ However, this estimate of $${\rho }_{\text{c}} $$ is only good to about a factor
 of two, due to uncertainties in the expansion rate of the universe. The critical
 density is equivalent to an average of only a few nucleons per cubic meter,
 remarkably small and indicative of how truly empty intergalactic space is.
-Luminous matter seems to account for roughly $$ 0.5% $$ to $$2% $$ of the
+Luminous matter seems to account for roughly $$ 0.5\% $$ to $$2\% $$ of the
 critical density, far less than that needed for closure. Taking into account the
 amount of dark matter we detect indirectly and all other types of indirectly
 observed normal matter, there is only $$10 \% $$ to $$40 \% $$ of what is needed
@@ -318,7 +318,7 @@ necessary to halt the expansion of the universe.
 (b) Find the radius of a sphere of this volume in light years.
 
 (c) What would this radius be if the density were that of luminous matter, which
-is approximately $$5% $$ that of the critical density?
+is approximately $$5\% $$ that of the critical density?
 
 (d) Compare the radius found in part (c) with the 4-ly average separation of
 stars in the arms of the Milky Way.

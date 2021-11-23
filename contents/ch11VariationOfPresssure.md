@@ -122,7 +122,7 @@ $$A=80.0 \text{m}×500 \text{m}= 4.00 \times 10^{4} {\text{m}}^{2} $$ , so that
 
 Although this force seems large, it is small compared with the $$ 1.96 \times
 10^{13} \text{N} $$ weight of the water in the reservoir—in fact, it is only
-$$0.0800% $$ of the weight. Note that the pressure found in part (a) is
+$$0.0800\% $$ of the weight. Note that the pressure found in part (a) is
 completely independent of the width and length of the lake—it depends only on
 its average depth at the dam. Thus the force depends only on the water’s average
 depth and the dimensions of the dam, *not* on the horizontal extent of the

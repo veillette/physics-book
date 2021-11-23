@@ -386,7 +386,7 @@ rest? (d) What is the electron’s velocity when it returns to its starting poin
 The practical limit to an electric field in air is about $$3.00 \times 10^{6}
 \text{N/C} $$ . Above this strength, sparking takes place because air begins to
 ionize and charges flow, reducing the field. (a) Calculate the distance a free
-proton must travel in this field to reach $$3.00% $$ of the speed of light,
+proton must travel in this field to reach $$3.00\% $$ of the speed of light,
 starting from rest. (b) Is this practical in air, or must it occur in a vacuum?
 
 </div>
