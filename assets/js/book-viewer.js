@@ -1,5 +1,6 @@
 (function () {
 
+    // some initial parameters
     const BookConfig = window.Book || {};
     BookConfig.includes ??= {};
     BookConfig.urlFixer ??= val => val;
@@ -76,15 +77,28 @@
         const bookPage = book.find('.page-inner > .normal');
         const bookTitle = book.find('.book-title');
         const bookProgressBar = book.find('.book-progress .bar .inner');
+
+
         toggleSummary.on('click', function (evt) {
             book.toggleClass('with-summary');
             return evt.preventDefault();
         });
+
+        /**
+         * update the url for contribute url
+         * @param href
+         * @returns {*}
+         */
         const updateContributeUrl = href => {
             href = URI(href).relativeTo(URI(BookConfig.rootUrl + '/')).pathname();
             href = href.replace(/\.html$/, '.md');
             return bookSummary.find('.edit-contribute > a').attr('href', "" + BookConfig.contributeUrl + "/" + href);
         };
+
+        /**
+         * render the summary on the left hand side of the page
+         * @returns {*}
+         */
         const renderToc = () => {
             const summary = $('<ul class="summary"></ul>');
             if (BookConfig.issuesUrl) {
@@ -113,6 +127,8 @@
             renderNextPrev();
             return updateContributeUrl(currentPagePath);
         };
+
+
         const renderNextPrev = () => {
             // Update the progress bar
             const currentPageIndex = tocHelper._tocList.indexOf(window.location.href);
@@ -136,18 +152,32 @@
                 return bookBody.append(nextPage);
             }
         };
+        /**
+         * convenience function
+         * @param {string} href
+         * @returns {string}
+         */
         const addTrailingSlash = (href) => {
             if (BookConfig.serverAddsTrailingSlash && href[href.length - 1] !== '/') {
                 href += '/';
             }
             return href;
         };
+        /**
+         * Convenience function
+         * @param {string} href
+         * @returns {string}
+         */
         const removeTrailingSlash = (href) => {
             if (BookConfig.serverAddsTrailingSlash && href[href.length - 1] === '/') {
                 href = href.substring(0, href.length - 1);
             }
             return href;
         };
+        /**
+         *
+         * @param a
+         */
         //  # Fix up the ToC links if the links to pages end in `.md`
         const mdToHtmlFix = (a) => {
             let href = a.getAttribute('href');
@@ -156,6 +186,13 @@
                 return a.setAttribute('href', href);
             }
         };
+
+        /**
+         *
+         * @param els
+         * @param href
+         * @returns {*}
+         */
         const pageBeforeRender = (els, href) => {
             let _ref2;
             updateContributeUrl(href);
@@ -240,6 +277,10 @@
         };
 
 
+        /**
+         *
+         * @constructor
+         */
         function TocHelper() {
 
             this._tocList = [];
@@ -297,7 +338,7 @@
             };
 
             /**
-             * @private
+             * @protected
              * @param currentHref
              * @returns {number}
              */
@@ -307,7 +348,7 @@
             };
 
             /**
-             * @private
+             * @protected
              * @param currentHref
              * @returns {number}
              */
@@ -317,6 +358,9 @@
             };
         }
 
+        /**
+         * @type {TocHelper}
+         */
         const tocHelper = new TocHelper();
 
         $.ajax({
