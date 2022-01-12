@@ -29,11 +29,27 @@ and ample practice opportunities for traditional physics application problems.
 
 General Physics is organized such that topics are introduced conceptually with a
 steady progression to precise definitions and analytical applications. The
-analytical aspect (problem solving) is tied back to the conceptual before moving
+analytical aspect (problem-solving) is tied back to the conceptual before moving
 on to another topic. Each introductory chapter, for example, opens with an
 engaging photograph relevant to the subject of the chapter and interesting
 applications that are easy for most students to visualize.
 
+* [Chapter 1: Oscillatory Motion and Waves](../contents/ch16OscillatoryMotionAndWaves.md)
+* [Chapter 2: Physics of Hearing](../contents/ch17PhysicsOfHearing.md)
+* [Chapter 3: Fluid Statics](../contents/ch11FluidStatics.md)
+* [Chapter 4: Fluid Dynamics and Its Biological and Medical Applications](../contents/ch12FluidDynamicsAndItsBiologicalApplications.md)
+* [Chapter 5: Electric Charge and Electric Field](../contents/ch18ElectricChargeAndElectricField.md)
+* [Chapter 6: Electric Potential and Electric Energy](../contents/ch19ElectricPotentialAndElectricEnergy.md)
+* [Chapter 7: Electric Current, Resistance, and Ohm\'s Law](../contents/ch20ElectricCurrentResistanceAndOhmsLaw.md)
+* [Chapter 8: Circuits and DC Instruments](../contents/ch21IntroductionToCircuitsAndDCInstruments.md)
+* [Chapter 9: Magnetism](../contents/ch22Magnetism.md)
+* [Chapter 10: Electromagnetic Induction, AC Circuits, and Electrical Technologies](../contents/ch23ElectromagneticInductionACCircuitsAndElectricalTechnologies.md)
+* [Chapter 11: Geometric Optics](../contents/ch25GeometricOptics.md)
+* [Chapter 12: Vision and Optical Instruments](../contents/ch26VisionAndOpticalInstruments.md)
+* [Chapter 13: Wave Optics](../contents/ch27WaveOptics.md)
+
+
+<!--
 * [Chapter 1: Introduction: The Nature of Science and Physics](../contents/ch1PhysicsAnIntroduction.md)
 * [Chapter 2: Kinematics](../contents/ch2Kinematics.md)
 * [Chapter 3: Two-Dimensional Kinematics](../contents/ch2Kinematics.md)
@@ -45,6 +61,8 @@ applications that are easy for most students to visualize.
 * [Chapter 8: Linear Momentum and Collisions](../contents/ch8LinearMomentumAndCollisions.md)
 * [Chapter 9: Statics and Torque](../contents/ch9StaticsAndTorque.md)
 * [Chapter 10: Rotational Motion and Angular Momentum](contents/ch10RotationalMotionAndAngularMomentum.md)
+-->
+
 * [Appendix A: Useful Information](../contents/appAUsefulInformation.md)
 * [Appendix B: Glossary of Key Symbols and Notation](../contents/appBGlossaryOfKeySymbolsAndNotation.md)
 
