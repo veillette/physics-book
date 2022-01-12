@@ -15,7 +15,7 @@ of matter have wave properties as well. The dual properties of particles and
 waves are found for all particles, whether massless like photons, or having a
 mass like electrons. (See [[Figure 1]](#Figure1).)
 
-![Part a shows a moving electron represented as a small spherical ball enclosing a wave. An arrow shows the direction of the moving electron. The speed of electron is v. Part b shows a moving photon as a small ellipse enclosing a wave. An arrow shows the direction of the moving photon. The speed of photon is c.](../resources/Figure 30_08_01a.jpg "On a quantum-mechanical scale (i.e., very small), particles with and without mass have wave properties. For example, both electrons and photons have wavelengths but also behave as particles.")
+![Part a shows a moving electron represented as a small spherical ball enclosing a wave. An arrow shows the direction of the moving electron. The speed of electron is v. Part b shows a moving photon as a small ellipse enclosing a wave. An arrow shows the direction of the moving photon. The speed of photon is c.](../resources/Figure_30_08_01a.jpg "On a quantum-mechanical scale (i.e., very small), particles with and without mass have wave properties. For example, both electrons and photons have wavelengths but also behave as particles.")
 {: #Figure1}
 
 There are many submicroscopic particles in nature. Most have mass and are
@@ -35,7 +35,7 @@ EM waves), there is mostly wave behavior upon detection, and the particle nature
 becomes difficult to observe. This is also consistent with experience. (
 See [[Figure 2]](#Figure2).)
 
-![A massive rock is shown on the left. A massless wave is shown on the right. The propagation of the wave is shown in three dimensional planes, with the variation of two components, E and B. E is a sine wave in one plane with small arrows showing the direction of vibrations. B is a sine wave in a plane perpendicular to the E wave. The B wave has arrows to show the vibrations of particles in the B plane. The waves are shown intersecting each other at the junction of the planes because E and B are perpendicular to each other. The direction of propagation of the wave is shown perpendicular to both E and B waves.](../resources/Figure 30_08_02a.jpg "On a classical scale (macroscopic), particles with mass behave as particles and not as waves. Particles without mass act as waves and not as particles.")
+![A massive rock is shown on the left. A massless wave is shown on the right. The propagation of the wave is shown in three dimensional planes, with the variation of two components, E and B. E is a sine wave in one plane with small arrows showing the direction of vibrations. B is a sine wave in a plane perpendicular to the E wave. The B wave has arrows to show the vibrations of particles in the B plane. The waves are shown intersecting each other at the junction of the planes because E and B are perpendicular to each other. The direction of propagation of the wave is shown perpendicular to both E and B waves.](../resources/Figure_30_08_02a.jpg "On a classical scale (macroscopic), particles with mass behave as particles and not as waves. Particles without mass act as waves and not as particles.")
 {: #Figure2}
 
 The particle-wave duality is a universal attribute. It is another connection
