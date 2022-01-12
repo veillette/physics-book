@@ -21,7 +21,7 @@ effects. Examples of particles include electrons, atoms, and photons of EM
 radiation. How do we talk about a phenomenon that acts like both a particle and
 a wave?
 
-![Part a shows interaction of light rays emerging from two slits as semicircles overlapping one another. The direction of light waves is shown using arrows. The interacting waves spread out and end on a screen where points of maximum and minimum are marked. In part b, a photon is depicted as an ellipse enclosing a wave and a sand particle is shown enlarged. An arrow is drawn between the two from the photon to the sand particle.](../resources/Figure 30_05_01a.jpg "(a) The interference pattern for light through a double slit is a wave property understood by analogy to water waves. (b) The properties of photons having quantized energy and momentum and acting as a concentrated unit are understood by analogy to macroscopic particles.")
+![Part a shows interaction of light rays emerging from two slits as semicircles overlapping one another. The direction of light waves is shown using arrows. The interacting waves spread out and end on a screen where points of maximum and minimum are marked. In part b, a photon is depicted as an ellipse enclosing a wave and a sand particle is shown enlarged. An arrow is drawn between the two from the photon to the sand particle.](../resources/Figure_30_05_01a.jpg "(a) The interference pattern for light through a double slit is a wave property understood by analogy to water waves. (b) The properties of photons having quantized energy and momentum and acting as a concentrated unit are understood by analogy to macroscopic particles.")
 {: #Figure1}
 
 There is no doubt that EM radiation interferes and has the properties of
