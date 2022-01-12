@@ -44,9 +44,10 @@ applications that are easy for most students to visualize.
 * [Chapter 8: Circuits and DC Instruments](../contents/ch21IntroductionToCircuitsAndDCInstruments.md)
 * [Chapter 9: Magnetism](../contents/ch22Magnetism.md)
 * [Chapter 10: Electromagnetic Induction, AC Circuits, and Electrical Technologies](../contents/ch23ElectromagneticInductionACCircuitsAndElectricalTechnologies.md)
-* [Chapter 11: Geometric Optics](../contents/ch25GeometricOptics.md)
-* [Chapter 12: Vision and Optical Instruments](../contents/ch26VisionAndOpticalInstruments.md)
-* [Chapter 13: Wave Optics](../contents/ch27WaveOptics.md)
+* [Chapter 11: Electromagnetic Waves](../contents/ch24ElectromagneticWaves.md)
+* [Chapter 12: Geometric Optics](../contents/ch25GeometricOptics.md)
+* [Chapter 13: Vision and Optical Instruments](../contents/ch26VisionAndOpticalInstruments.md)
+* [Chapter 14: Wave Optics](../contents/ch27WaveOptics.md)
 
 
 <!--
