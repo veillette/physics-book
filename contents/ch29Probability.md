@@ -39,7 +39,7 @@ equations that predicted the probability distribution in various circumstances.
 It is somewhat disquieting to think that you cannot predict exactly where an
 individual particle will go, or even follow it to its destination. Let us
 explore what happens if we try to follow a particle. Consider the double-slit
-patterns obtained for electrons and photons in [[link]](#Figure2). First, we
+patterns obtained for electrons and photons in [[Figure2]](#Figure2). First, we
 note that these patterns are identical, following $$d \sin \theta
 =\mathrm{m\lambda } $$ , the equation for double-slit constructive interference
 developed in [Photon Energies and the Electromagnetic Spectrum](/ch29PhotonEnergiesAndTheElectomagneticSpectrum), where
@@ -82,7 +82,7 @@ There is a limit to absolute knowledge, even in principle.
 
 It was Werner Heisenberg who first stated this limit to knowledge in 1929 as a
 result of his work on quantum mechanics and the wave characteristics of all
-particles. (See [[link]](#Figure3)). Specifically, consider simultaneously
+particles. (See [[Figure 3]](#Figure3)). Specifically, consider simultaneously
 measuring the position and momentum of an electron (it could be any particle).
 There is an **uncertainty in position**{: class="term"} $$\Delta x $$ that is
 approximately equal to the wavelength of the particle. That is,

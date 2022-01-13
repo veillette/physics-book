@@ -153,7 +153,7 @@ If a charged particle moves in a straight line through some region of space, can
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What is the direction of the magnetic force on a positive charge that moves as shown in each of the six cases shown in [[link]](#Figure3)?
+What is the direction of the magnetic force on a positive charge that moves as shown in each of the six cases shown in [[Figure 3]](#Figure3)?
 
 ![figure a shows magnetic field line direction symbols with solid circles labeled B out; a velocity vector points down; figure b shows B vectors pointing right and v vector pointing up; figure c shows B in and v to the right; figure d shows B vector pointing right and v vector pointing left; figure e shows B vectors up and v vector into the page; figure f shows B vectors pointing left and v vectors out of the page](../resources/FIgure_23_04_03a.jpg)
 {: #Figure3 height="425"}
