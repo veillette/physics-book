@@ -37,7 +37,7 @@ transfer takes place by only three methods:
 We examine these methods in some detail in the three following modules. Each
 method has unique and interesting characteristics, but all three do have one
 thing in common: they transfer heat solely because of a temperature
-difference [[link]](#Figure1).
+difference [[Figure 1]](#Figure1).
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
@@ -76,7 +76,7 @@ When our bodies get too warm, they respond by sweating and increasing blood
 circulation to the surface to transfer thermal energy away from the core. What
 effect will this have on a person in a $$40.0\text{ºC} $$ hot tub?
 
-[[link]](#Figure2) shows a cut-away drawing of a thermos bottle (also known as a
+[[Figure 2]](#Figure2) shows a cut-away drawing of a thermos bottle (also known as a
 Dewar flask), which is a device designed specifically to slow down all forms of
 heat transfer. Explain the functions of the various parts, such as the vacuum,
 the silvering of the walls, the thin-walled long glass neck, the rubber support,

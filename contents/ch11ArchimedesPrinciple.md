@@ -329,7 +329,7 @@ The next example illustrates the use of this technique.
 <div class="title">
 Calculating Density: Is the Coin Authentic?
 </div>
-The mass of an ancient Greek coin is determined in air to be 8.630 g. When the coin is submerged in water as shown in [[link]](#Figure7), its apparent mass is 7.800 g. Calculate its density, given that water has a density of  $$ 1.000 {\text{g/cm}}^{3} $$
+The mass of an ancient Greek coin is determined in air to be 8.630 g. When the coin is submerged in water as shown in [[Figure 7]](#Figure7), its apparent mass is 7.800 g. Calculate its density, given that water has a density of  $$ 1.000 {\text{g/cm}}^{3} $$
  and that effects caused by the wire suspending the coin are negligible.
 
 **Strategy**

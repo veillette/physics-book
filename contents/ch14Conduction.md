@@ -22,7 +22,7 @@ tiles than with the carpet, so the temperature drop is greater on the tiles.
 Some materials conduct thermal energy faster than others. In general, good
 conductors of electricity (metals like copper, aluminum, gold, and silver) are
 also good heat conductors, whereas insulators of electricity (wood, plastic, and
-rubber) are poor heat conductors. [[link]](#Figure2) shows molecules in two
+rubber) are poor heat conductors. [[Figure 2]](#Figure2) shows molecules in two
 bodies at different temperatures. The (average) kinetic energy of a molecule in
 the hot body is higher than in the colder body. If two molecules collide, an
 energy transfer from the molecule with greater kinetic energy to the molecule
