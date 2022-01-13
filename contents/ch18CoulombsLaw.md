@@ -139,7 +139,7 @@ distance $$r $$ , and $$k\approx 8.99 \times 10^{9}
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-[[link]](#Figure2) shows the charge distribution in a water molecule, which is called a polar molecule because it has an inherent separation of charge. Given water’s polar character, explain what effect humidity has on removing excess charge from objects.
+[[Figure 2](#Figure2) shows the charge distribution in a water molecule, which is called a polar molecule because it has an inherent separation of charge. Given water’s polar character, explain what effect humidity has on removing excess charge from objects.
 
 ![A schematic representation of the outer electron cloud of a neutral water molecule is shown. Three atoms are placed on the vertices of a triangle. The hydrogen atom has positive q charge and the oxygen atom has minus two q charge, and the angle between the line joining each hydrogen atom with the oxygen atom is one hundred and four degrees. The cloud density is shown more at the oxygen atom.](../resources/Figure_19_03_03a.jpg "Schematic representation of the outer electron cloud of a neutral water molecule. The electrons spend more time near the oxygen than the hydrogens, giving a permanent charge separation as shown. Water is thus a polar molecule. It is more easily affected by electrostatic forces than molecules with uniform charge distributions.")
 {: #Figure2 height="221"}
@@ -149,7 +149,7 @@ distance $$r $$ , and $$k\approx 8.99 \times 10^{9}
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Using [[link]](#Figure2), explain, in terms of Coulomb’s law, why a polar molecule (such as in [[link]](#Figure2)) is attracted by both positive and negative charges.
+Using [[Figure 2]](#Figure2), explain, in terms of Coulomb’s law, why a polar molecule (such as in [[Figure 2]](#Figure2)) is attracted by both positive and negative charges.
 
 </div>
 </div>

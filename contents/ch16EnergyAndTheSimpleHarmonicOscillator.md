@@ -45,7 +45,7 @@ spring constant with $$k=mg/L $$ , and the displacement term with $$x=L\theta $$
 In the case of undamped simple harmonic motion, the energy oscillates back and
 forth between kinetic and potential, going completely from one to the other as
 the system oscillates. So for the simple example of an object on a frictionless
-surface attached to a spring, as shown again in [[link]](#Figure1), the motion
+surface attached to a spring, as shown again in [[Figure 1]](#Figure1), the motion
 starts with all of the energy stored in the spring. As the object starts to
 move, the elastic potential energy is converted to kinetic energy, becoming
 entirely kinetic energy at the equilibrium position. It is then converted back

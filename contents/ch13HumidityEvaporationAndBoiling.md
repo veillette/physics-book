@@ -37,8 +37,8 @@ increases.
 The amount of water vapor in the air depends on the vapor pressure of water. The
 liquid and solid phases are continuously giving off vapor because some of the
 molecules have high enough speeds to enter the gas phase;
-see [[link]](#Figure2)(a). If a lid is placed over the container, as
-in [[link]](#Figure2)(b), evaporation continues, increasing the pressure, until
+see [[Figure 2]](#Figure2)(a). If a lid is placed over the container, as
+in [[Figure 2]](#Figure2)(b), evaporation continues, increasing the pressure, until
 sufficient vapor has built up for condensation to balance evaporation. Then
 equilibrium has been achieved, and the vapor pressure is equal to the partial
 pressure of water in the container. Vapor pressure increases with temperature
@@ -384,7 +384,7 @@ continuously since the partial pressure of water is equal to 1.00 atm in
 equilibrium. It cannot reach this pressure, however, since the bubble also
 contains air and total pressure is 1.00 atm. The bubble grows in size and
 thereby increases the buoyant force. The bubble breaks away and rises rapidly to
-the surface—we call this boiling! (See [[link]](#Figure3).)
+the surface—we call this boiling! (See [[Figure 3]](#Figure3).)
 
 ![A beaker of water being heated over a flame. The beaker is shown at three different times. In the first, at twenty degrees C, a small bubble sits on the bottom of the beaker. In the second step, the water temperature is fifty degrees C and the bubble is larger, though still sitting on the bottom of the beaker. In the third step, the water temperature is one hundred degrees C. The bubble is larger and is rising toward the surface.](../resources/Figure_14_06_02.jpg "(a) An air bubble in water starts out saturated with water vapor at \( 20 \text{ºC} \). (b) As the temperature rises, water vapor enters the bubble because its vapor pressure increases. The bubble expands to keep its pressure at 1.00 atm. (c) At \( 100 \text{ºC} \), water vapor enters the bubble continuously because water&#x2019;s vapor pressure exceeds its partial pressure in the bubble, which must be less than 1.00 atm. The bubble grows and rises to the surface. ")
 {: #Figure3 height="212"}

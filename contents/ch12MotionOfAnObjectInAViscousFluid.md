@@ -98,7 +98,7 @@ the **terminal speed**, is reached and the acceleration of the object becomes
 zero. Once this happens, the object continues to fall at constant speed (the
 terminal speed). This is the case for particles of sand falling in the ocean,
 cells falling in a centrifuge, and sky divers falling through the
-air. [[link]](#Figure2) shows some of the factors that affect terminal speed.
+air. [[Figure 2]](#Figure2) shows some of the factors that affect terminal speed.
 There is a viscous drag on the object that depends on the viscosity of the fluid
 and the size of the object. But there is also a buoyant force that depends on
 the density of the object relative to the fluid. Terminal speed will be greatest

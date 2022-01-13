@@ -173,7 +173,7 @@ function:
 Hence, $$a\left(t\right) $$ is directly proportional to and in the opposite
 direction to $$x\left(t\right) $$.
 
-[[link]](#Figure4) shows the simple harmonic motion of an object on a spring and
+[[Figure 4]](#Figure4) shows the simple harmonic motion of an object on a spring and
 presents graphs of $$x\left(t\right),v\left(t\right), $$ and $$a\left(t\right)
 $$ versus time.
 

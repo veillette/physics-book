@@ -11,7 +11,7 @@ layout: page
 </div>
 
 **Flow rate** $$Q $$ is defined to be the volume of fluid passing by some
-location through an area during a period of time, as seen in [[link]](#Figure1).
+location through an area during a period of time, as seen in [[Figure 1]](#Figure1).
 In symbols, this can be written as
 
 <div class="equation">
@@ -73,7 +73,7 @@ velocity. This equation seems logical enough. The relationship tells us that
 flow rate is directly proportional to both the magnitude of the average
 velocity (hereafter referred to as the speed) and the size of a river, pipe, or
 other conduit. The larger the conduit, the greater its cross-sectional
-area. [[link]](#Figure1) illustrates how this relationship is obtained. The
+area. [[Figure 1]](#Figure1) illustrates how this relationship is obtained. The
 shaded cylinder has a volume
 
 <div class="equation">
