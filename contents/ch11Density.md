@@ -67,7 +67,6 @@ cm<sup>3</sup>.
             </th>
           </tr>
 </thead><tbody>
-
           <tr>
             <td><strong>Solids</strong></td>
             <td />
@@ -232,7 +231,6 @@ cm<sup>3</sup>.
             <td />
             <td />
           </tr>
-
 </tbody></table>
 
 ![A pile of feathers measuring a ton and a ton of bricks are placed on either side of a plank that is balanced on a small support.](../resources/Figure_12_02_01a.jpg "A ton of feathers and a ton of bricks have the same mass, but the feathers make a much bigger pile because they have a much lower density.")
