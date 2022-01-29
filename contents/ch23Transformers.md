@@ -206,7 +206,7 @@ allow only a one-way flow of current.
 
 Transformers have many applications in electrical safety systems, which are
 discussed
-in [Electrical Safety: Systems and Devices](/ch23ElectricalSafetySystemsAndDevices)
+in [Electrical Safety: Systems and Devices](../contents//ch23ElectricalSafetySystemsAndDevices)
 .
 
 <div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">

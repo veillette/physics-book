@@ -415,7 +415,7 @@ responsible for sap getting to the tops of trees.
 
 How *does* sap get to the tops of tall trees? (Recall that a column of water can
 only rise to a height of 10 m when there is a vacuum at the
-top—see [[link]](/ch11VariationOfPresssure#fs-id2937185).) The question has not
+top—see [[link]](../contents//ch11VariationOfPresssure#fs-id2937185).) The question has not
 been completely resolved, but it appears that it is pulled up like a chain held
 together by cohesive forces. As each molecule of sap enters a leaf and
 evaporates (a process called transpiration), the entire chain is pulled up a

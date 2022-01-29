@@ -31,7 +31,7 @@ thermometer.
 <div class="title">
 Misconception Alert: Human Perception vs. Reality
 </div>
-On a cold winter morning, the wood on a porch feels warmer than the metal of your bike. The wood and bicycle are in thermal equilibrium with the outside air, and are thus the same temperature. They **feel** different because of the difference in the way that they conduct heat away from your skin. The metal conducts heat away from your body faster than the wood does (see more about conductivity in [Conduction](/ch14Conduction)). This is just one example demonstrating that the human sense of hot and cold is not determined by temperature alone.
+On a cold winter morning, the wood on a porch feels warmer than the metal of your bike. The wood and bicycle are in thermal equilibrium with the outside air, and are thus the same temperature. They **feel** different because of the difference in the way that they conduct heat away from your skin. The metal conducts heat away from your body faster than the wood does (see more about conductivity in [Conduction](../contents//ch14Conduction)). This is just one example demonstrating that the human sense of hot and cold is not determined by temperature alone.
 
 Another factor that affects our perception of temperature is humidity. Most
 people feel much hotter on hot, humid days than on hot, dry days. This is
@@ -310,7 +310,7 @@ If two systems, A and B, are in thermal equilibrium with each other, and B is in
 This law was postulated in the 1930s, after the first and second laws of
 thermodynamics had been developed and named. It is called the *zeroth law*
 because it comes logically before the first and second laws (discussed
-in [Thermodynamics](/ch15Thermodynamics)). An example of this law in action is
+in [Thermodynamics](../contents//ch15Thermodynamics)). An example of this law in action is
 seen in babies in incubators: babies in incubators normally have very few
 clothes on, so to an observer they look as if they may not be warm enough.
 However, the temperature of the air, the cot, and the baby is the same, because

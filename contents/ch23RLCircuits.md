@@ -134,7 +134,7 @@ certainly does not go to zero instantaneously.
 In summary, when the voltage applied to an inductor is changed, the current also
 changes, **but the change in current lags the change in voltage in an RL
 circuit**.
-In [Reactance, Inductive and Capacitive](/ch23ReactanceInductiveAndCapactive),
+In [Reactance, Inductive and Capacitive](../contents//ch23ReactanceInductiveAndCapactive),
 we explore how an *RL* circuit behaves when a sinusoidal AC voltage is applied.
 
 ### Section Summary

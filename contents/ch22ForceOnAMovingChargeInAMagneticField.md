@@ -107,7 +107,7 @@ above. Some cosmic rays, for example, follow the Earth’s magnetic field lines,
 entering the atmosphere near the magnetic poles and causing the southern or
 northern lights through their ionization of molecules in the atmosphere. This
 glow of energized atoms and molecules is seen
-in [[link]](/ch22Magnetism#import-auto-id1909198). Those particles that approach
+in [[link]](../contents//ch22Magnetism#import-auto-id1909198). Those particles that approach
 middle latitudes must cross magnetic field lines, and many are prevented from
 penetrating the atmosphere. Cosmic rays are a component of background radiation;
 consequently, they give a higher radiation dose at the poles than at the
@@ -153,7 +153,7 @@ into the oven.
 Mass spectrometers have a variety of designs, and many use magnetic fields to
 measure mass. The curvature of a charged particle’s path in the field is related
 to its mass and is measured to obtain mass information. (
-See [More Applications of Magnetism](/ch22MoreApplicationsOfMagnetism).)
+See [More Applications of Magnetism](../contents//ch22MoreApplicationsOfMagnetism).)
 Historically, such techniques were employed in the first direct observations of
 electron charge and mass. Today, mass spectrometers (sometimes coupled with gas
 chromatographs) are used to determine the make-up and sequencing of large
@@ -228,7 +228,7 @@ While operating, a high-precision TV monitor is placed on its side during mainte
 ### Problems &amp; Exercises
 
 If you need additional support for these problems,
-see [More Applications of Magnetism](/ch22MoreApplicationsOfMagnetism).
+see [More Applications of Magnetism](../contents//ch22MoreApplicationsOfMagnetism).
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">

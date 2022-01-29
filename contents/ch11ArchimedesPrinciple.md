@@ -113,7 +113,7 @@ Calculating buoyant force: dependency on shape
 
 To find the buoyant force, we must find the weight of water displaced. We can do
 this by using the densities of water and steel given
-in [[link]](/ch11Density#fs-id1769034). We note that, since the steel is
+in [[Table 1]](../contents//ch11Density#Table1). We note that, since the steel is
 completely submerged, its volume and the water’s volume are the same. Once we
 know the volume of water, we can find its mass and weight.
 
@@ -355,7 +355,7 @@ coin using the definition of density:
 </div>
 **Discussion**
 
-You can see from [[link]](/ch11Density#fs-id1769034) that this density is very
+You can see from [[Table 1]](../contents//ch11Density#Table1) that this density is very
 close to that of pure silver, appropriate for this type of ancient coin. Most
 modern counterfeits are not pure silver.
 
@@ -492,7 +492,7 @@ A rock with a mass of 540 g in air is found to have an apparent mass of 342 g wh
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Archimedes’ principle can be used to calculate the density of a fluid as well as that of a solid. Suppose a chunk of iron with a mass of 390.0 g in air is found to have an apparent mass of 350.5 g when completely submerged in an unknown liquid. (a) What mass of fluid does the iron displace? (b) What is the volume of iron, using its density as given in [[link]](../contents/m42187#fs-id1769034) (c) Calculate the fluid’s density and identify it.
+Archimedes’ principle can be used to calculate the density of a fluid as well as that of a solid. Suppose a chunk of iron with a mass of 390.0 g in air is found to have an apparent mass of 350.5 g when completely submerged in an unknown liquid. (a) What mass of fluid does the iron displace? (b) What is the volume of iron, using its density as given in [[Table 1]](../contents/ch11Density#Table1) (c) Calculate the fluid’s density and identify it.
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">

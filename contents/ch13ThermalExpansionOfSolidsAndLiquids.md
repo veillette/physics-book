@@ -414,7 +414,7 @@ Alternatively, we can combine these three equations into a single equation. (Not
 This amount is significant, particularly for a 60.0-L tank. The effect is so
 striking because the gasoline and steel expand quickly. The rate of change in
 thermal properties is discussed
-in [Heat and Heat Transfer Methods](/ch14HeatAndHeatTransfers).
+in [Heat and Heat Transfer Methods](../contents//ch14HeatAndHeatTransfers).
 
 If you try to cap the tank tightly to prevent overflow, you will find that it
 leaks anyway, either around the cap or by bursting the tank. Tightly
@@ -428,7 +428,7 @@ expand and contract without stressing them.
 ### Thermal Stress
 
 **Thermal stress** is created by thermal expansion or contraction (
-see [Elasticity: Stress and Strain](/ch5Elasticity) for a discussion of stress and
+see [Elasticity: Stress and Strain](../contents//ch5Elasticity) for a discussion of stress and
 strain). Thermal stress can be destructive, such as when expanding gasoline
 ruptures a tank. It can also be useful, for example, when two parts are joined
 together by heating one in manufacturing, then slipping it over the other and

@@ -10,7 +10,7 @@ layout: page
 In [Work, Energy, and Energy Resources](/m42145), we defined work as force times
 distance and learned that work done on an object changes its kinetic energy. We
 also saw
-in [Temperature, Kinetic Theory, and the Gas Laws](/ch13TemperatureKineticTheoryAndTheGasLaws)
+in [Temperature, Kinetic Theory, and the Gas Laws](../contents//ch13TemperatureKineticTheoryAndTheGasLaws)
 that temperature is proportional to the (average) kinetic energy of atoms and
 molecules. We say that a thermal system has a certain internal energy: its
 internal energy is higher if the temperature is higher. If two objects at
@@ -24,7 +24,7 @@ definition of **heat**\: Heat is the spontaneous transfer of energy due to a
 temperature difference.
 
 As noted
-in [Temperature, Kinetic Theory, and the Gas Laws](/ch13TemperatureKineticTheoryAndTheGasLaws)
+in [Temperature, Kinetic Theory, and the Gas Laws](../contents//ch13TemperatureKineticTheoryAndTheGasLaws)
 , heat is often confused with temperature. For example, we may say the heat was
 unbearable, when we actually mean that the temperature was high. Heat is a form
 of energy, whereas temperature is not. The misconception arises because we are

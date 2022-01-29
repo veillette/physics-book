@@ -413,7 +413,7 @@ transfer and work can cause both temperature and phase changes.
 5. *Solve the appropriate equation for the quantity to be determined (the
    unknown).* If there is a temperature change, the transferred heat depends on
    the specific heat (
-   see [[link]](/ch14TemperatureChangeAndHeatCapacity#import-auto-id1921148))
+   see [[link]](../contents//ch14TemperatureChangeAndHeatCapacity#import-auto-id1921148))
    whereas, for a phase change, the transferred heat depends on the latent heat.
    See [[Table 1]](#Table1).
 6. *Substitute the knowns along with their units into the appropriate equation
@@ -748,7 +748,7 @@ Indigenous people sometimes cook in watertight baskets by placing hot rocks into
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What would be the final temperature of the pan and water in [Calculating the Final Temperature When Heat Is Transferred Between Two Bodies: Pouring Cold Water in a Hot Pan](/ch14PhaseChangeAndLatentHeat#fs-id2604602) if 0.260 kg of water was placed in the pan and 0.0100 kg of the water evaporated immediately, leaving the remainder to come to a common temperature with the pan?
+What would be the final temperature of the pan and water in [Calculating the Final Temperature When Heat Is Transferred Between Two Bodies: Pouring Cold Water in a Hot Pan](../contents//ch14PhaseChangeAndLatentHeat#fs-id2604602) if 0.260 kg of water was placed in the pan and 0.0100 kg of the water evaporated immediately, leaving the remainder to come to a common temperature with the pan?
 
 </div>
 </div>

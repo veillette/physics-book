@@ -11,5 +11,5 @@ blood in our veins. What exactly is a fluid? Can we understand fluids with the
 laws already presented, or will new laws emerge from their study? The physical
 characteristics of static or stationary fluids and some laws that govern their
 behavior are the topics of this
-chapter. [Fluid Dynamics and Its Biological and Medical Applications](/ch12FluidDynamicsAndItsBiologicalApplications)
+chapter. [Fluid Dynamics and Its Biological and Medical Applications](../contents//ch12FluidDynamicsAndItsBiologicalApplications)
 explores aspects of fluid flow.

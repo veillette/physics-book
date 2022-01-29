@@ -379,7 +379,7 @@ Entering values for  $$q, V\text{, and} m $$  gives
 
 Note that both the charge and the initial voltage are negative, as
 in [[link]](#fs-id1493012). From the discussions
-in [Electric Charge and Electric Field](/ch18ElectricChargeAndElectricField), we
+in [Electric Charge and Electric Field](../contents//ch18ElectricChargeAndElectricField), we
 know that electrostatic forces on small particles are generally very large
 compared with the gravitational force. The large final speed confirms that the
 gravitational force is indeed negligible here. The large speed also indicates

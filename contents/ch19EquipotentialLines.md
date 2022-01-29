@@ -105,7 +105,7 @@ around the heart, the thoracic region, and the axis of the heart are useful ways
 of monitoring the structure and functions of the heart. An electrocardiogram (
 ECG) measures the small electric signals being generated during the activity of
 the heart. More about the relationship between electric fields and the heart is
-discussed in [Energy Stored in Capacitors](/ch19EnergyStoredInCapacitors).
+discussed in [Energy Stored in Capacitors](../contents//ch19EnergyStoredInCapacitors).
 
 <div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
 <div class="title">

@@ -33,7 +33,7 @@ pion would carry a force between a proton and a neutron. The pion has mass and
 can only be created by violating the conservation of mass-energy. This is
 allowed by the Heisenberg uncertainty principle if it occurs for a sufficiently
 short period of time. As discussed
-in [Probability: The Heisenberg Uncertainty Principle](/ch29Probability) the Heisenberg
+in [Probability: The Heisenberg Uncertainty Principle](../contents//ch29Probability) the Heisenberg
 uncertainty principle relates the uncertainties $$\Delta E $$ in energy and
 $$\Delta t $$ in time by
 
@@ -72,7 +72,7 @@ of the force and the speed of the pion, but also because a more accurate
 calculation would require the sophisticated mathematics of quantum mechanics.
 Here, we use the Heisenberg uncertainty principle in the simple form stated
 above, as developed
-in [Probability: The Heisenberg Uncertainty Principle](/ch29Probability). First, we must
+in [Probability: The Heisenberg Uncertainty Principle](../contents//ch29Probability). First, we must
 calculate the time $$\Delta t $$ that the pion exists, given that the distance
 it travels at nearly the speed of light is about 1 fermi. Then, the Heisenberg
 uncertainty principle can be solved for the energy $$\Delta E $$ , and from that
@@ -130,7 +130,7 @@ of $$ 135.0 \text{MeV/}{c}^{2} $$ . These masses are close to the predicted
 value of $$100 \text{MeV/}{c}^{2} $$ and, since they are intermediate between
 electron and nucleon masses, the particles are given the name **meson** (now an
 entire class of particles, as we shall see
-in [Particles, Patterns, and Conservation Laws](/ch33ParticlesPatternsAndConservationLaws)).
+in [Particles, Patterns, and Conservation Laws](../contents//ch33ParticlesPatternsAndConservationLaws)).
 
 The pions, or $$\pi $$ -mesons as they are also called, have masses close to
 those predicted and feel the strong nuclear force. Another previously unknown

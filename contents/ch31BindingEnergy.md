@@ -75,7 +75,7 @@ number determined by uranium-238 dating. These rocks could only have solidified
 once the surface of the Earth had cooled sufficiently. The temperature of the
 Earth at formation can be estimated based on gravitational potential energy of
 the assemblage of pieces being converted to thermal energy. Using heat transfer
-concepts discussed in [Thermodynamics](/ch15Thermodynamics) it is then possible
+concepts discussed in [Thermodynamics](../contents//ch15Thermodynamics) it is then possible
 to calculate how long it would take for the surface to cool to rock-formation
 temperatures. The result is about $$10^{9} $$ years. The first rocks formed have
 been solid for $$ 3.5 \times 10^{9} $$ years, so that the age of the Earth is
@@ -241,7 +241,7 @@ $$ decay has then taken place.
 There is more to be learned from nuclear binding energies. The general trend in
 $$\text{BE}/A $$ is fundamental to energy production in stars, and to fusion and
 fission energy sources on Earth, for example. This is one of the applications of
-nuclear physics covered in [Medical Applications of Nuclear Physics](/ch32MedicalApplicationsOfNuclearPhysics).
+nuclear physics covered in [Medical Applications of Nuclear Physics](../contents//ch32MedicalApplicationsOfNuclearPhysics).
 The abundance of elements on Earth, in stars, and in the universe as a whole is
 related to the binding energy of nuclei and has implications for the continued
 expansion of the universe.

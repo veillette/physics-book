@@ -170,7 +170,7 @@ Making a measurement alters the system being measured in a manner that produces 
 
 There is another measurement technique based on drawing no current at all and,
 hence, not altering the circuit at all. These are called null measurements and
-are the topic of [Null Measurements](/ch21NullMeasurements). Digital meters that
+are the topic of [Null Measurements](../contents//ch21NullMeasurements). Digital meters that
 employ solid-state electronics and null measurements can attain accuracies of
 one part in $$10^{6} $$.
 

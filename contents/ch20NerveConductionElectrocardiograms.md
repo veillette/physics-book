@@ -44,7 +44,7 @@ of ions, the most important varieties being $${\text{Na}}^{+} $$ ,
 $${\text{K}}^{+} $$ , and $${\text{Cl}}^{-} $$
 (these are sodium, potassium, and chlorine ions with single plus or minus
 charges as indicated). As discussed
-in [Molecular Transport Phenomena: Diffusion, Osmosis, and Related Processes](/ch12MolecularTransportPhenomena)
+in [Molecular Transport Phenomena: Diffusion, Osmosis, and Related Processes](../contents//ch12MolecularTransportPhenomena)
 , free ions will diffuse from a region of high concentration to one of low
 concentration. But the cell membrane is **semipermeable**, meaning that some
 ions may cross it while others cannot. In its resting state, the cell membrane
@@ -172,7 +172,7 @@ as an indicator of heart-muscle function and see that it is coordinated with
 arterial blood pressure as well.
 
 Heart function and its four-chamber action are explored
-in [Viscosity and Laminar Flow; Poiseuille’s Law](/ch12ViscosityAndLaminarFlow).
+in [Viscosity and Laminar Flow; Poiseuille’s Law](../contents//ch12ViscosityAndLaminarFlow).
 Basically, the right and left atria receive blood from the body and lungs,
 respectively, and pump the blood into the ventricles. The right and left
 ventricles, in turn, pump blood through the lungs and the rest of the body,

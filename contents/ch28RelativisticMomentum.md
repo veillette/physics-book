@@ -88,7 +88,7 @@ will hold in all inertial frames. Whenever the net external force on a system is
 zero, relativistic momentum is conserved, just as is the case for classical
 momentum. This has been verified in numerous experiments.
 
-In [Relativistic Energy](/ch28RelativisticEnergy), the relationship of relativistic momentum to
+In [Relativistic Energy](../contents//ch28RelativisticEnergy), the relationship of relativistic momentum to
 energy is explored. That subject will produce our first inkling that objects
 without mass may also have momentum.
 

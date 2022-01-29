@@ -151,7 +151,7 @@ are involved in some or all of the problems labeled “Integrated Concepts”:
 * [Dynamics: Force and Newton’s Laws of Motion](/m42129)
 * [Uniform Circular Motion and Gravitation](/m42140)
 * [Statics and Torque](/m42167)
-* [Fluid Statics](/ch11FluidStatics)
+* [Fluid Statics](../contents//ch11FluidStatics)
 
 The following worked example illustrates how this strategy is applied to an
 Integrated Concept problem:
@@ -172,7 +172,7 @@ principles involved and identify the chapters in which they are found. Part (a)
 of this example asks for weight. This is a topic of dynamics and is defined
 in [Dynamics: Force and Newton’s Laws of Motion](/m42129). Part (b) deals with
 electric force on a charge, a topic
-of [Electric Charge and Electric Field](/ch18ElectricChargeAndElectricField).
+of [Electric Charge and Electric Field](../contents//ch18ElectricChargeAndElectricField).
 Part (c) asks for acceleration, knowing forces and mass. These are part of
 Newton’s laws, also found
 in [Dynamics: Force and Newton’s Laws of Motion](/m42129).

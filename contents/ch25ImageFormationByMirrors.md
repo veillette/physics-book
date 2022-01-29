@@ -336,7 +336,7 @@ curvature, the smaller the magnification.
 
 The three types of images formed by mirrors (cases 1, 2, and 3) are exactly
 analogous to those formed by lenses, as summarized in the table at the end
-of [Image Formation by Lenses](/ch25ImageFormationByLenses). It is easiest to concentrate on only
+of [Image Formation by Lenses](../contents//ch25ImageFormationByLenses). It is easiest to concentrate on only
 three types of images—then remember that concave mirrors act like convex lenses,
 whereas convex mirrors act like concave lenses.
 
@@ -356,7 +356,7 @@ Step 1. Examine the situation to determine that image formation by a mirror is
 involved.
 
 Step 2. Refer to
-the [Problem-Solving Strategies for Lenses](/ch25ImageFormationByLenses#fs-id2212849). The same
+the [Problem-Solving Strategies for Lenses](../contents//ch25ImageFormationByLenses#fs-id2212849). The same
 strategies are valid for mirrors as for lenses with one qualification—use the
 ray tracing rules for mirrors listed earlier in this section.
 

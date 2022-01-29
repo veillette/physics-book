@@ -142,7 +142,7 @@ particular, at supernovas in moderately distant galaxies (less than 1 Gly) to
 get improved distance measurements. Those distances are larger than expected for
 the observed galactic red shifts, implying the expansion was slower when that
 light was emitted. This has cosmological consequences that are discussed
-in [Dark Matter and Closure](/ch34DarkMatterAndClosure). The first results, published in 1999, are
+in [Dark Matter and Closure](../contents//ch34DarkMatterAndClosure). The first results, published in 1999, are
 only the beginning of emerging data, with astronomy now entering a data-rich
 era.
 
@@ -338,14 +338,14 @@ cosmological theories.
 
 Characteristics of the present universe may help us determine the validity of
 this intriguing idea. Additionally, the recent indications that the universe’s
-expansion rate may be *increasing* (see [Dark Matter and Closure](/ch34DarkMatterAndClosure))
+expansion rate may be *increasing* (see [Dark Matter and Closure](../contents//ch34DarkMatterAndClosure))
 could even imply that we are *in* another inflationary epoch.
 
 It is important to note that, if conditions such as those found in the early
 universe could be created in the laboratory, we would see the unification of
 forces directly today. The forces have not changed in time, but the average
 energy and separation of particles in the universe have. As discussed
-in [The Four Basic Forces](/ch33TheFourBasicForces), the four basic forces in nature are
+in [The Four Basic Forces](../contents//ch33TheFourBasicForces), the four basic forces in nature are
 distinct under most circumstances found today. The early universe and its
 remnants provide evidence from times when they were unified under most
 circumstances.

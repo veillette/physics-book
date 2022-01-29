@@ -102,7 +102,7 @@ zero. This results in the $$\alpha $$
 carries away most of the energy of the powder burned to shoot it. Total
 mass–energy is also conserved: the energy produced in the decay comes from
 conversion of a fraction of the original mass. As discussed
-in [Atomic Physics](/ch30AtomicPhysics), the general relationship is
+in [Atomic Physics](../contents//ch30AtomicPhysics), the general relationship is
 
 <div class="equation" >
  $$E =\left(\Delta m\right){c}^{2}. $$
@@ -173,7 +173,7 @@ $${}^{235}\text{U} $$ nucleus is much smaller in order to conserve momentum. The
 $${}^{235}\text{U} $$ nucleus can be left in an excited state to later emit
 photons ( $$\gamma $$ rays). This decay is spontaneous and releases energy,
 because the products have less mass than the parent nucleus. The question of why
-the products have less mass will be discussed in [Binding Energy](/ch31BindingEnergy). Note
+the products have less mass will be discussed in [Binding Energy](../contents//ch31BindingEnergy). Note
 that the masses given in [Appendix A](/m42699) are atomic masses of neutral
 atoms, including their electrons. The mass of the electrons is the same before
 and after $$\alpha $$ decay, and so their masses subtract out when finding

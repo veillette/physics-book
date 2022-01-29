@@ -25,7 +25,7 @@ magnitude and direction. (Note that the magnitude of the electric field
 strength, a scalar quantity, is represented by $$E $$ below.) The relationship
 between $$\Delta V $$ and $$\vb{E} $$ is revealed by calculating the
 work done by the force in moving a charge from point A to point B. But, as noted
-in [Electric Potential Energy: Potential Difference](/ch19ElectricPotentialEnergy)
+in [Electric Potential Energy: Potential Difference](../contents//ch19ElectricPotentialEnergy)
 , this is complex for arbitrary charge distributions, requiring calculus. We
 therefore look at a uniform electric field as an interesting special case.
 

@@ -9,8 +9,8 @@ layout: page
 
 Many complex circuits, such as the one in [[Figure 1]](#Figure1), cannot be
 analyzed with the series-parallel techniques developed
-in [Resistors in Series and Parallel](/ch21ResistorsInSeriesAndInParallel)
-and [Electromotive Force: Terminal Voltage](/ch21ElectromotiveForce). There are,
+in [Resistors in Series and Parallel](../contents//ch21ResistorsInSeriesAndInParallel)
+and [Electromotive Force: Terminal Voltage](../contents//ch21ElectromotiveForce). There are,
 however, two circuit analysis rules that can be used to analyze any circuit,
 simple or complex. These rules are special cases of the laws of conservation of
 charge and conservation of energy. The rules are known as **Kirchhoff’s rules**,

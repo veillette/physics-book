@@ -71,7 +71,7 @@ relationship is
 where $${V}_{0R} $$ , $${V}_{0L} $$ , and $${V}_{0C} $$ are the peak voltages
 across $$R $$ , $$L $$ , and $$C $$ , respectively. Now, using Ohm’s law and
 definitions
-from [Reactance, Inductive and Capacitive](/ch23ReactanceInductiveAndCapactive),
+from [Reactance, Inductive and Capacitive](../contents//ch23ReactanceInductiveAndCapactive),
 we substitute $${V}_{0}={I}_{0}Z $$ into the above, as well as $${V}_{0R}={I}_
 {0}R $$ , $${V}_
 {0L}={I}_{0}{X}_{L} $$ , and $${V}_{0C}={I}_{0}{X}_{C} $$, yielding
@@ -115,9 +115,9 @@ reactances again.
 **Solution for (a)**
 
 At 60.0 Hz, the values of the reactances were found
-in [[link]](/ch23ReactanceInductiveAndCapactive#fs-id1169736972664) to be $${X}_
+in [[link]](../contents//ch23ReactanceInductiveAndCapactive#fs-id1169736972664) to be $${X}_
 {L}= 1.13 \Omega $$ and
-in [[link]](/ch23ReactanceInductiveAndCapactive#fs-id1169736597928) to be $${X}_
+in [[link]](../contents//ch23ReactanceInductiveAndCapactive#fs-id1169736597928) to be $${X}_
 {C}=531 \Omega $$ . Entering these and the given $$40.0 \text{Ω} $$ for
 resistance into $$Z=\sqrt{ {R}^{2}+{\left( {X}_{L}-{X}_{C} \right)}^{2}} $$
 yields
@@ -155,10 +155,10 @@ $${I}_{\text{rms}}=\frac{ {V}_{\text{rms}}}{Z}=\frac{120 \text{V}}{190 \Omega }=
 **Discussion for (a)**
 
 The current at 60.0 Hz is the same (to three digits) as found for the capacitor
-alone in [[link]](/ch23ReactanceInductiveAndCapactive#fs-id1169736597928). The
+alone in [[link]](../contents//ch23ReactanceInductiveAndCapactive#fs-id1169736597928). The
 capacitor dominates at low frequency. The current at 10.0 kHz is only slightly
 different from that found for the inductor alone
-in [[link]](/ch23ReactanceInductiveAndCapactive#fs-id1169736972664). The
+in [[link]](../contents//ch23ReactanceInductiveAndCapactive#fs-id1169736972664). The
 inductor dominates at high frequency.
 
 </div>
