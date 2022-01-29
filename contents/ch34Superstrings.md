@@ -8,7 +8,7 @@ layout: page
 * Explain the relationship between Superstring theory and the Big Bang.
 </div>
 
-Introduced earlier in [GUTS: The Unification of Forces](../contents//ch33GUTS) **Superstring
+Introduced earlier in [GUTS: The Unification of Forces](../contents/ch33GUTS) **Superstring
 theory** is an attempt to unify gravity with the other three forces and, thus,
 must contain quantum gravity. The main tenet of Superstring theory is that
 fundamental particles, including the graviton that carries the gravitational

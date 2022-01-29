@@ -110,7 +110,7 @@ position—head first with hands at their side and legs together.
 <div class="title">
 Take-Home Experiment: Don’t Lose Your Marbles
 </div>
-By measuring the terminal speed of a slowly moving sphere in a viscous fluid, one can find the viscosity of that fluid (at that temperature). It can be difficult to find small ball bearings around the house, but a small marble will do. Gather two or three fluids (syrup, motor oil, honey, olive oil, etc.) and a thick, tall clear glass or vase. Drop the marble into the center of the fluid and time its fall (after letting it drop a little to reach its terminal speed). Compare your values for the terminal speed and see if they are inversely proportional to the viscosities as listed in [[link]](/m42209#import-auto-id3073392). Does it make a difference if the marble is dropped near the side of the glass?
+By measuring the terminal speed of a slowly moving sphere in a viscous fluid, one can find the viscosity of that fluid (at that temperature). It can be difficult to find small ball bearings around the house, but a small marble will do. Gather two or three fluids (syrup, motor oil, honey, olive oil, etc.) and a thick, tall clear glass or vase. Drop the marble into the center of the fluid and time its fall (after letting it drop a little to reach its terminal speed). Compare your values for the terminal speed and see if they are inversely proportional to the viscosities as listed in [[link]](../contents/m42209#import-auto-id3073392). Does it make a difference if the marble is dropped near the side of the glass?
 
 </div>
 

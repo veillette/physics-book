@@ -27,7 +27,7 @@ reducing the motion until the ruler comes to rest.
 
 The simplest oscillations occur when the restoring force is directly
 proportional to displacement. When stress and strain were covered
-in [Newton’s Third Law of Motion](/m42074), the name was given to this
+in [Newton’s Third Law of Motion](../contents/m42074), the name was given to this
 relationship between force and displacement was Hooke’s law:
 
 <div class="equation" id="import-auto-id3246114">

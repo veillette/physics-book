@@ -38,7 +38,7 @@ the voltage on the capacitor reaches the same value as the emf. When there is no
 current, there is no $$IR $$ drop, and so the voltage on the capacitor must then
 equal the emf of the voltage source. This can also be explained with Kirchhoff’s
 second rule (the loop rule), discussed
-in [Kirchhoff’s Rules](../contents//ch21KirchhoffsRules), which says that the algebraic sum
+in [Kirchhoff’s Rules](../contents/ch21KirchhoffsRules), which says that the algebraic sum
 of changes in potential around any closed loop must be zero.
 
 The initial current is $${I}_{0}=\frac{\text{emf}}{R} $$ , because all of the
@@ -282,7 +282,7 @@ value. Such brief times are useful in heart defibrillation, because the brief
 but intense current causes a brief but effective contraction of the heart. The
 actual circuit in a heart defibrillator is slightly more complex than the one
 in [[Figure 2]](#Figure2), to compensate for magnetic and AC effects that will
-be covered in [Magnetism](../contents//ch22Magnetism).
+be covered in [Magnetism](../contents/ch22Magnetism).
 
 </div>
 

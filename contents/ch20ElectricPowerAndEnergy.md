@@ -89,7 +89,7 @@ exactly 100 W, but at the higher temperature its resistance is higher, too.
 <div class="title">
 Calculating Power Dissipation and Current: Hot and Cold Power
 </div>
-(a) Consider the examples given in [Ohm’s Law: Resistance and Simple Circuits](/m42344) and [Resistance and Resistivity](/m42346). Then find the power dissipated by the car headlight in these examples, both when it is hot and when it is cold. (b) What current does it draw when cold?
+(a) Consider the examples given in [Ohm’s Law: Resistance and Simple Circuits](../contents/ch20OhmsLaw) and [Resistance and Resistivity](../contents/ch20ResistanceAndResistivity). Then find the power dissipated by the car headlight in these examples, both when it is hot and when it is cold. (b) What current does it draw when cold?
 
 **Strategy for (a)**
 

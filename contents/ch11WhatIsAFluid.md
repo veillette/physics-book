@@ -19,7 +19,7 @@ gases are considered to be fluids because they yield to shearing forces, whereas
 solids resist them. Note that the extent to which fluids yield to shearing
 forces (and hence flow easily and quickly) depends on a quantity called the
 viscosity which is discussed in detail
-in [Viscosity and Laminar Flow; Poiseuille’s Law](../contents//ch12ViscosityAndLaminarFlow).
+in [Viscosity and Laminar Flow; Poiseuille’s Law](../contents/ch12ViscosityAndLaminarFlow).
 We can understand the phases of matter and what constitutes a fluid by
 considering the forces between atoms that make up matter in the three phases.
 

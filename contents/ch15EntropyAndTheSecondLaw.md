@@ -604,7 +604,7 @@ The Sun radiates energy at the rate of  $$ 3.80 \times 10^{26}  \text{W} $$
 (a) In reaching equilibrium, how much heat transfer occurs from 1.00 kg of water at  $$40.0 \text{ºC} $$
  when it is placed in contact with 1.00 kg of  $$20.0 \text{ºC} $$
  water in reaching equilibrium? (b) What is the change in entropy due to this heat transfer? (c) How much work is made unavailable, taking the lowest temperature to be  $$20.0 \text{ºC} $$ ?
- Explicitly show how you follow the steps in the [Problem-Solving Strategies for Entropy](/m42238#fs-id1169738068841).
+ Explicitly show how you follow the steps in the [Problem-Solving Strategies for Entropy](../contents/m42238#fs-id1169738068841).
 
 </div>
 </div>
@@ -659,7 +659,7 @@ A large electrical power station generates 1000 MW of electricity with an effici
  (c) What increase in entropy is produced by mixing 20.0 kg of  $$90.0 \text{ºC} $$
  water with 20.0 kg of  $$10.0 \text{ºC} $$
  water? (d) Calculate the amount of work made unavailable by this mixing using a low temperature of  $$10.0 \text{ºC} $$ ,
- and compare it with the work done by the Carnot engine. Explicitly show how you follow the steps in the [Problem-Solving Strategies for Entropy](/m42238#fs-id1169738068841). (e) Discuss how everyday processes make increasingly more energy unavailable to do work, as implied by this problem.
+ and compare it with the work done by the Carnot engine. Explicitly show how you follow the steps in the [Problem-Solving Strategies for Entropy](../contents/m42238#fs-id1169738068841). (e) Discuss how everyday processes make increasingly more energy unavailable to do work, as implied by this problem.
 
 </div>
 </div>

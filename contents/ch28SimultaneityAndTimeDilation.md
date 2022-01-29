@@ -360,7 +360,7 @@ accelerated frames and with gravity, a prime source of acceleration. You can
 also use general relativity to address the twin paradox and, according to
 general relativity, the astronaut will age less. Some important conceptual
 aspects of general relativity are discussed
-in [General Relativity and Quantum Gravity](../contents//ch34GeneralRelativityAndQuantumTheory) of this course.
+in [General Relativity and Quantum Gravity](../contents/ch34GeneralRelativityAndQuantumTheory) of this course.
 
 In 1971, American physicists Joseph Hafele and Richard Keating verified time
 dilation at low relative velocities by flying extremely accurate atomic clocks

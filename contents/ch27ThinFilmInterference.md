@@ -17,7 +17,7 @@ one having a thickness $$t $$ smaller than a few times the wavelength of light,
 $$\lambda $$ . Since color is associated indirectly with $$\lambda $$ and since
 all interference depends in some way on the ratio of $$\lambda $$ to the size of
 the object involved, we should expect to see different colors for different
-thicknesses of a film, as in [[link]](../contents//ch27ThinFilmInterference#fs-id2871611).
+thicknesses of a film, as in [[link]](../contents/ch27ThinFilmInterference#fs-id2871611).
 
 ![Soap bubbles reflecting mostly purple and blue light with some regions of orange.](../resources/Figure_28_00_02a.jpg "These soap bubbles exhibit brilliant colors when exposed to sunlight. (credit: Scott Robinson, Flickr)")
 
@@ -30,7 +30,7 @@ surface. Part of the light reflected from the bottom surface can emerge from the
 top of the film (ray 2) and interfere with light reflected from the top (ray 1).
 Since the ray that enters the film travels a greater distance, it may be in or
 out of phase with the ray reflected from the top. However, consider for a
-moment, again, the bubbles in [[link]](../contents//ch27ThinFilmInterference#fs-id2871611). The bubbles are
+moment, again, the bubbles in [[link]](../contents/ch27ThinFilmInterference#fs-id2871611). The bubbles are
 darkest where they are thinnest. Furthermore, if you observe a soap bubble
 carefully, you will note it gets dark at the point where it breaks. For very
 thin films, the difference in path lengths of ray 1 and ray 2

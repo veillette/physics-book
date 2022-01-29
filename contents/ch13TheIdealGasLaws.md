@@ -19,7 +19,7 @@ the term “molecule” in discussing a gas because the term can also be applied
 monatomic gases, such as helium.)
 
 Gases are easily compressed. We can see evidence of this
-in [[link]](../contents//ch13ThermalExpansionOfSolidsAndLiquids#import-auto-id1814176),
+in [[link]](../contents/ch13ThermalExpansionOfSolidsAndLiquids#import-auto-id1814176),
 where you will note that gases have the *largest* coefficients of volume
 expansion. The large coefficients mean that gases expand and contract very
 rapidly with temperature changes. In addition, you will note that most gases
@@ -411,7 +411,7 @@ final values.
 </div>
 
 The ideal gas law can be considered to be another manifestation of the law of
-conservation of energy (see [Conservation of Energy](/m42151)). Work done on a
+conservation of energy (see [Conservation of Energy](../contents/m42151)). Work done on a
 gas results in an increase in its energy, increasing pressure and/or
 temperature, or decreasing volume. This increased energy can also be viewed as
 increased internal kinetic energy, given the gas’s atoms and molecules.
@@ -427,14 +427,14 @@ The ideal gas law is closely related to energy: the units on both sides are
 joules. The right-hand side of the ideal gas law in $$PV=Nk_{B}T $$ is $$Nk_{B}T
 $$ . This term is roughly the amount of translational kinetic energy of $$N $$
 atoms or molecules at an absolute temperature $$T $$ , as we shall see formally
-in [Kinetic Theory: Atomic and Molecular Explanation of Pressure and Temperature](/m42147)
+in [Kinetic Theory: Atomic and Molecular Explanation of Pressure and Temperature](../contents/m42147)
 . The left-hand side of the ideal gas law is $$PV $$ , which also has the units
 of joules. We know from our study of fluids that pressure is one type of
 potential energy per unit volume, so pressure multiplied by volume is energy.
 The important point is that there is energy in a gas related to both its
 pressure and its volume. The energy can be changed when the gas is doing work as
 it expands—something we explore
-in [Heat and Heat Transfer Methods](../contents//ch14HeatAndHeatTransfers)
+in [Heat and Heat Transfer Methods](../contents/ch14HeatAndHeatTransfers)
 —similar to what occurs in gasoline or steam engines and turbines.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">

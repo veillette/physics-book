@@ -20,20 +20,20 @@ nuclear force has been shown to be connected to the electromagnetic force in a
 manner suggesting that a theory may be constructed in which all four forces are
 unified. Certainly, there are similarities in how forces are transmitted by the
 exchange of carrier particles, and the carrier particles themselves (the gauge
-bosons in [[link]](../contents//ch33ParticlesPatternsAndConservationLaws#Table1)) are also similar in important ways. The
+bosons in [[link]](../contents/ch33ParticlesPatternsAndConservationLaws#Table1)) are also similar in important ways. The
 analogy to the unification of electric and magnetic forces is quite good—the
 four forces are distinct under normal circumstances, but there are hints of
 connections even on the atomic scale, and there may be conditions under which
 the forces are intimately related and even indistinguishable. The search for a
 correct theory linking the forces, called the **Grand Unified Theory (GUT)**, is
 explored in this section in the realm of particle
-physics. [Frontiers of Physics](../contents//ch33FrontiersOfPhysics) expands the story in making a
+physics. [Frontiers of Physics](../contents/ch33FrontiersOfPhysics) expands the story in making a
 connection with cosmology, on the opposite end of the distance scale.
 
 [[Figure 1]](#Figure1) is a Feynman diagram showing how the weak nuclear force
 is transmitted by the carrier particle $${Z}^{0} $$ , similar to the diagrams
-in [[link]](../contents//ch33TheFourBasicForces#import-auto-id1169738052383)
-and [[link]](../contents//ch33TheFourBasicForces#import-auto-id1169737991710) for the electromagnetic and
+in [[link]](../contents/ch33TheFourBasicForces#import-auto-id1169738052383)
+and [[link]](../contents/ch33TheFourBasicForces#import-auto-id1169737991710) for the electromagnetic and
 strong nuclear forces. In the 1960s, a gauge theory, called **electroweak
 theory**, was developed by Steven Weinberg, Sheldon Glashow, and Abdus Salam and
 proposed that the electromagnetic and weak forces are identical at sufficiently
@@ -47,7 +47,7 @@ was predicted to be $$90 \text{GeV/}{c}^{2} $$ .
 \text{GeV/}{c}^{2} $$ , since the range of the weak force is about 1000 times
 less than the strong force carried by virtual pions.) In 1983, these carrier
 particles were observed at CERN with the predicted characteristics, including
-masses having the predicted values as seen in [[link]](../contents//ch33ParticlesPatternsAndConservationLaws#Table1). This was
+masses having the predicted values as seen in [[link]](../contents/ch33ParticlesPatternsAndConservationLaws#Table1). This was
 another triumph of particle theory and experimental effort, resulting in the
 1984 Nobel Prize to the experiment’s group leaders Carlo Rubbia and Simon van
 der Meer. Theorists Weinberg, Glashow, and Salam had already been honored with
@@ -57,7 +57,7 @@ the 1979 Nobel Prize for other aspects of electroweak theory.
 {: #Figure1}
 
 Although the weak nuclear force is very short ranged (  $$< 10^{-18}\text{m} $$
-, as indicated in [[link]](../contents//ch33TheFourBasicForces#import-auto-id1169738010507)), its effects on
+, as indicated in [[link]](../contents/ch33TheFourBasicForces#import-auto-id1169738010507)), its effects on
 atomic levels can be measured given the extreme precision of modern techniques.
 Since electrons spend some time in the nucleus, their energies are affected, and
 spectra can even indicate new aspects of the weak force, such as the possibility
@@ -92,14 +92,14 @@ quark red.
 The strong force is complicated, since observable particles that feel the strong
 force (hadrons) contain multiple quarks. [[Figure 3]](#Figure3) shows the quark
 and gluon details of pion exchange between a proton and a neutron as illustrated
-earlier in [[link]](../contents//ch33TheYukawaParticleAndTheHeisenbergUncertaintyPrincipleRevisited#import-auto-id1169737824808)
-and [[link]](../contents//ch33TheFourBasicForces#import-auto-id1169737991710). The quarks within the proton
+earlier in [[link]](../contents/ch33TheYukawaParticleAndTheHeisenbergUncertaintyPrincipleRevisited#import-auto-id1169737824808)
+and [[link]](../contents/ch33TheFourBasicForces#import-auto-id1169737991710). The quarks within the proton
 and neutron move along together exchanging gluons, until the proton and neutron
 get close together. As the $$u $$ quark leaves the proton, a gluon creates a
 pair of virtual particles, a $$d $$ quark and a $$\stackrel{-}{d} $$ antiquark.
 The $$d $$ quark stays behind and the proton turns into a neutron, while the $$u
 $$ and $$\stackrel{-}{d} $$ move together as a $${\pi }^{+} $$
-([[link]](../contents//ch33Quarks#import-auto-id1169737909561) confirms the $$u\stackrel{-}{d}
+([[link]](../contents/ch33Quarks#import-auto-id1169737909561) confirms the $$u\stackrel{-}{d}
 $$ composition for the $${\pi }^{+} $$ .)
 The $$\stackrel{-}{d} $$ annihilates a $$d $$ quark in the neutron, the $$u $$
 joins the neutron, and the neutron becomes a proton. A pion is exchanged and a
@@ -205,7 +205,7 @@ universe was discovered. Thinking backward in time, the universe must once have
 been very small, dense, and extremely hot. At a tiny fraction of a second after
 the fabled Big Bang, forces would have been unified and may have left their
 fingerprint on the existing universe. This, one of the most exciting forefronts
-of physics, is the subject of [Frontiers of Physics](../contents//ch33FrontiersOfPhysics).
+of physics, is the subject of [Frontiers of Physics](../contents/ch33FrontiersOfPhysics).
 
 ![The image shows the picture of a huge cylindrical shaped proton decay detector with its main door open. It is as high as a double decker bus and as long as a small house. An untold number of cables, wires, and detector modules are arranged in a cylinder around a rectangular crate-like object containing another smaller cylindrical object.](../resources/Figure_34_06_05.jpg "In the Tevatron accelerator at Fermilab, protons and antiprotons collide at high energies, and some of those collisions could result in the production of a Higgs boson in association with a W boson. When the W boson decays to a high-energy lepton and a neutrino, the detector triggers on the lepton, whether it is an electron or a muon. (credit: D. J. Miller) ")
 {: #Figure5}

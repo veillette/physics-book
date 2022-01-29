@@ -29,7 +29,7 @@ proton. [[Table 1]](#Table1) compares the masses of protons, neutrons, and
 electrons. Note how close the proton and neutron masses are, but the neutron is
 slightly more massive once you look past the third digit. Both nucleons are much
 more massive than an electron. In fact, $${m}_{p}=1836{m}_{e} $$
-(as noted in [Medical Applications of Nuclear Physics](../contents//ch32MedicalApplicationsOfNuclearPhysics) and $${m}_
+(as noted in [Medical Applications of Nuclear Physics](../contents/ch32MedicalApplicationsOfNuclearPhysics) and $${m}_
 {n}=1839{m}_{e} $$.
 
 [[Table 1]](#Table1) also gives masses in terms of mass units that are more
@@ -69,7 +69,7 @@ particular nuclide:
 
 where the symbols $$A $$ , $$\text{X} $$ , $$Z $$ , and $$N $$ are defined as
 follows: The *number of protons in a nucleus* is the **atomic number**  $$Z $$ ,
-as defined in [Medical Applications of Nuclear Physics](../contents//ch32MedicalApplicationsOfNuclearPhysics). X is the *
+as defined in [Medical Applications of Nuclear Physics](../contents/ch32MedicalApplicationsOfNuclearPhysics). X is the *
 symbol for the element*, such as Ca for calcium. However, once $$Z $$ is known,
 the element is known; hence, $$Z $$ and $$\text{X} $$ are redundant. For
 example, $$Z=20 $$ is always calcium, and calcium always has $$Z=20 $$ . $$N $$
@@ -92,7 +92,7 @@ nucleus with eight protons and eight neutrons, $$A=16 $$ , and its mass is 16 u.
 As noticed, the unified atomic mass unit is defined so that a neutral carbon
 atom (actually a $${}^{12}\text{C} $$ atom) has a mass of *exactly* 12
 $$\text{u} $$ . Carbon was chosen as the standard, partly because of its
-importance in organic chemistry (see [Appendix A](/m42699)).
+importance in organic chemistry (see [Appendix A](../contents/m42699)).
 
 <table id="Table1" aria-describedby="The three particles proton, neutron, and electron, are listed in column 1 in that order. Columns from left to right contain the symbol for each particle, its mass in kilograms, its mass in unified atomic mass units (u), and its mass in M e V over c squared."><caption><span class="title">Masses of the Proton, Neutron, and Electron</span></caption><thead>
          <tr>

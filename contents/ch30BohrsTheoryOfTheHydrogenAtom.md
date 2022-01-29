@@ -27,7 +27,7 @@ mechanics.
 
 ### Mysteries of Atomic Spectra
 
-As noted in [Quantization of Energy](../contents//ch29QuantizationOfEnergy) , the energies of some small
+As noted in [Quantization of Energy](../contents/ch29QuantizationOfEnergy) , the energies of some small
 systems are quantized. Atomic and molecular emission and absorption spectra have
 been known for over a century to be discrete (or quantized). (
 See [[Figure 2]](#Figure2).) Maxwell and others had realized that there must be
@@ -99,7 +99,7 @@ For an Integrated Concept problem, we must first identify the physical
 principles involved. In this example, we need to know (a) the wavelength of
 light as well as (b) conditions for an interference maximum for the pattern from
 a double slit. Part (a) deals with a topic of the present chapter, while part (
-b) considers the wave interference material of [Wave Optics](../contents//ch27WaveOptics).
+b) considers the wave interference material of [Wave Optics](../contents/ch27WaveOptics).
 
 **Solution for (a)**
 
@@ -128,7 +128,7 @@ new ones observed in subsequent experiments. What is nature telling us?
 
 **Solution for (b)**
 
-**Double-slit interference** ([Wave Optics](../contents//ch27WaveOptics)). To obtain constructive
+**Double-slit interference** ([Wave Optics](../contents/ch27WaveOptics)). To obtain constructive
 interference for a double slit, the path length difference from two slits must
 be an integral multiple of the wavelength. This condition was expressed by the
 equation
@@ -148,7 +148,7 @@ where  $$d $$
 **Discussion for (b)**
 
 This number is similar to those used in the interference examples
-of [Introduction to Quantum Physics](../contents//ch29QuantumPhysics) (and is close to the spacing
+of [Introduction to Quantum Physics](../contents/ch29QuantumPhysics) (and is close to the spacing
 between slits in commonly used diffraction glasses).
 
 </div>

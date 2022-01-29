@@ -45,7 +45,7 @@ least unstable, or about 46 orders of magnitude. Nuclides with the shortest
 half-lives are those for which the nuclear forces are least attractive, an
 indication of the extent to which the nuclear force can depend on the particular
 combination of neutrons and protons. The concept of half-life is applicable to
-other subatomic particles, as will be discussed in [Particle Physics](../contents//ch33ParticlePhysics).
+other subatomic particles, as will be discussed in [Particle Physics](../contents/ch33ParticlePhysics).
 It is also applicable to the decay of excited states in atoms and nuclei. The
 following equation gives the quantitative relationship between the original
 number of nuclei present at time zero ( $${N}_{0} $$ )
@@ -264,7 +264,7 @@ Calculate the activity due to  $${}^{14}\text{C} $$
 
 To find the activity $$R $$ using the equation $$R=\frac{ 0.693N}{ {t}_{1/2}} $$
 , we must know $$N $$ and $${t}_{1/2} $$ . The half-life of $${}^{14}\text{C} $$
-can be found in [Appendix B](/m42702), and was stated above as 5730 y. To find
+can be found in [Appendix B](../contents/m42702), and was stated above as 5730 y. To find
 $$N $$ , we first find the number of $${}^{12}\text{C} $$ nuclei in 1.00 kg of
 carbon using the concept of a mole. As indicated, we then multiply by $$ 1.3
 \times 10^{-12} $$
@@ -332,7 +332,7 @@ Human-made (or artificial) radioactivity has been produced for decades and has
 many uses. Some of these include medical therapy for cancer, medical imaging and
 diagnostics, and food preservation by irradiation. Many applications as well as
 the biological effects of radiation are explored
-in [Medical Applications of Nuclear Physics](../contents//ch32MedicalApplicationsOfNuclearPhysics), but it is clear that
+in [Medical Applications of Nuclear Physics](../contents/ch32MedicalApplicationsOfNuclearPhysics), but it is clear that
 radiation is hazardous. A number of tragic examples of this exist, one of the
 most disastrous being the meltdown and fire at the Chernobyl reactor complex in
 the Ukraine (see [[Figure 3]](#Figure3)). Several radioactive isotopes were
@@ -362,7 +362,7 @@ It is estimated that the Chernobyl disaster released 6.0 MCi of  $${}^{137}\text
 We can calculate the mass released using Avogadro’s number and the concept of a
 mole if we can first find the number of nuclei $$N $$ released. Since the
 activity $$R $$ is given, and the half-life of $${}^{137}\text{Cs} $$ is found
-in [Appendix B](/m42702) to be 30.2 y, we can use the equation $$R=\frac{
+in [Appendix B](../contents/m42702) to be 30.2 y, we can use the equation $$R=\frac{
 0.693N}{ {t}_{1/2}} $$ to find $$N $$.
 
 **Solution**

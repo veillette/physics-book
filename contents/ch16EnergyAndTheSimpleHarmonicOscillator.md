@@ -9,7 +9,7 @@ layout: page
 
 To study the energy of a simple harmonic oscillator, we first consider all the
 forms of energy it can have We know
-from [Hooke’s Law: Stress and Strain Revisited](../contents//ch16HookesLaw) that the energy
+from [Hooke’s Law: Stress and Strain Revisited](../contents/ch16HookesLaw) that the energy
 stored in the deformation of a simple harmonic oscillator is a form of potential
 energy given by:
 
@@ -148,7 +148,7 @@ maximum displacement $$X $$ is 0.100 m.
 This answer seems reasonable for a bouncing car. There are other ways to use
 conservation of energy to find $${v}_{\text{max}} $$ . We could use it directly,
 as was done in the example featured
-in [Hooke’s Law: Stress and Strain Revisited](../contents//ch16HookesLaw).
+in [Hooke’s Law: Stress and Strain Revisited](../contents/ch16HookesLaw).
 
 The small vertical displacement $$y $$ of an oscillating simple pendulum,
 starting from its equilibrium position, is given as

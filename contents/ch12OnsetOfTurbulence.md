@@ -56,7 +56,7 @@ and becomes turbulent.
 <div class="title">
 Is This Flow Laminar or Turbulent?
 </div>
-Calculate the Reynolds number for flow in the needle considered in [Example 12.8](/m42209#fs-id1969731) to verify the assumption that the flow is laminar. Assume that the density of the saline solution is  $$1025 kg/{\text{m}}^{3} $$.
+Calculate the Reynolds number for flow in the needle considered in [Example 12.8](../contents/m42209#fs-id1969731) to verify the assumption that the flow is laminar. Assume that the density of the saline solution is  $$1025 kg/{\text{m}}^{3} $$.
 
 **Strategy**
 

@@ -42,7 +42,7 @@ explore what happens if we try to follow a particle. Consider the double-slit
 patterns obtained for electrons and photons in [[Figure2]](#Figure2). First, we
 note that these patterns are identical, following $$d \sin \theta
 =\mathrm{m\lambda } $$ , the equation for double-slit constructive interference
-developed in [Photon Energies and the Electromagnetic Spectrum](../contents//ch29PhotonEnergiesAndTheElectomagneticSpectrum), where
+developed in [Photon Energies and the Electromagnetic Spectrum](../contents/ch29PhotonEnergiesAndTheElectomagneticSpectrum), where
 $$d $$ is the slit separation and $$\lambda $$ is the electron or photon
 wavelength.
 
@@ -145,7 +145,7 @@ produce interesting probability distributions for electrons around the atom, but
 they will not produce motion information. The probability distributions are
 referred to as electron clouds or orbitals. The shapes of these orbitals are
 often shown in general chemistry texts and are discussed
-in [The Wave Nature of Matter Causes Quantization](../contents//ch30TheWaveNatureOfMatterCausesQuantization).
+in [The Wave Nature of Matter Causes Quantization](../contents/ch30TheWaveNatureOfMatterCausesQuantization).
 
 <div class="example" markdown="1">
 <div class="title">
@@ -202,7 +202,7 @@ its velocity is so uncertain. To get a further idea of how large the uncertainty
 in velocity is, we assumed the velocity of the electron was equal to its
 uncertainty and found this gave a kinetic energy of 95.5 eV. This is
 significantly greater than the typical energy difference between levels in
-atoms (see [[link]](../contents//ch29PhotonEnergiesAndTheElectomagneticSpectrum#import-auto-id1597328)), so that it is impossible to
+atoms (see [[link]](../contents/ch29PhotonEnergiesAndTheElectomagneticSpectrum#import-auto-id1597328)), so that it is impossible to
 get a meaningful energy for the electron if we know its position even moderately
 well.
 

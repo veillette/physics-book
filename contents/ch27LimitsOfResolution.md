@@ -45,7 +45,7 @@ because of the finite diameter $$D $$ of their primary mirror.
 <div class="title">
 Take-Home Experiment: Resolution of the Eye
 </div>
-Draw two lines on a white sheet of paper (several mm apart). How far away can you be and still distinguish the two lines? What does this tell you about the size of the eye’s pupil? Can you be quantitative? (The size of an adult’s pupil is discussed in [Physics of the Eye](/m42482).)
+Draw two lines on a white sheet of paper (several mm apart). How far away can you be and still distinguish the two lines? What does this tell you about the size of the eye’s pupil? Can you be quantitative? (The size of an adult’s pupil is discussed in [Physics of the Eye](../contents/m42482).)
 
 </div>
 
@@ -197,7 +197,7 @@ Therefore, the resolving power is
 
 Another way to look at this is by re-examining the concept of Numerical
 Aperture ( $$\text{NA} $$ )
-discussed in [Microscopes](../contents//ch26Microscopes). There, $$\text{NA} $$ is a measure of the
+discussed in [Microscopes](../contents/ch26Microscopes). There, $$\text{NA} $$ is a measure of the
 maximum acceptance angle at which the fiber will take light and still contain it
 within the fiber. [[Figure 6]](#Figure6)(b) shows a lens and an object at point
 P. The $$\text{NA} $$ here is a measure of the ability of the lens to gather
@@ -315,7 +315,7 @@ illuminated spot be?
 (c) How big a spot would be illuminated on the Moon, neglecting atmospheric
 effects? (This might be done to hit a corner reflector to measure the round-trip
 time and, hence, distance.) Explicitly show how you follow the steps
-in [Problem-Solving Strategies for Wave Optics](../contents//ch27ThinFilmInterference#fs-id1169737988256).
+in [Problem-Solving Strategies for Wave Optics](../contents/ch27ThinFilmInterference#fs-id1169737988256).
 
 </div>
 </div>

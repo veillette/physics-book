@@ -192,7 +192,7 @@ material, the smaller the range of radiation.
 <div class="title">
 Collisions
 </div>
-Conservation of energy and momentum often results in energy transfer to a less massive object in a collision. This was discussed in detail in [Work, Energy, and Energy Resources](/m42145), for example.
+Conservation of energy and momentum often results in energy transfer to a less massive object in a collision. This was discussed in detail in [Work, Energy, and Energy Resources](../contents/m42145), for example.
 
 </div>
 

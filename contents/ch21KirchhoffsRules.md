@@ -9,8 +9,8 @@ layout: page
 
 Many complex circuits, such as the one in [[Figure 1]](#Figure1), cannot be
 analyzed with the series-parallel techniques developed
-in [Resistors in Series and Parallel](../contents//ch21ResistorsInSeriesAndInParallel)
-and [Electromotive Force: Terminal Voltage](../contents//ch21ElectromotiveForce). There are,
+in [Resistors in Series and Parallel](../contents/ch21ResistorsInSeriesAndInParallel)
+and [Electromotive Force: Terminal Voltage](../contents/ch21ElectromotiveForce). There are,
 however, two circuit analysis rules that can be used to analyze any circuit,
 simple or complex. These rules are special cases of the laws of conservation of
 charge and conservation of energy. The rules are known as **Kirchhoff’s rules**,
@@ -393,14 +393,14 @@ Apply the loop rule to loop akledcba in [[Figure 8]](#Figure8).
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the currents flowing in the circuit in [[Figure 8]](#Figure8). Explicitly show how you follow the steps in the [Problem-Solving Strategies for Series and Parallel Resistors](/m42356#fs-id2401854).
+Find the currents flowing in the circuit in [[Figure 8]](#Figure8). Explicitly show how you follow the steps in the [Problem-Solving Strategies for Series and Parallel Resistors](../contents/m42356#fs-id2401854).
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Solve [[link]](#fs-id3008416), but use loop abcdefgha instead of loop akledcba. Explicitly show how you follow the steps in the [Problem-Solving Strategies for Series and Parallel Resistors](/m42356#fs-id2401854).
+Solve [[link]](#fs-id3008416), but use loop abcdefgha instead of loop akledcba. Explicitly show how you follow the steps in the [Problem-Solving Strategies for Series and Parallel Resistors](../contents/m42356#fs-id2401854).
 
 </div>
 <div class="solution" markdown="1">

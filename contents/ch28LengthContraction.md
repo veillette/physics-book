@@ -29,7 +29,7 @@ distance, too, depends on the observer’s relative motion. If two observers see
 different times, then they must also see different distances for relative speed
 to be the same to each of them.
 
-The muon discussed in [[link]](../contents//ch28SimultaneityAndTimeDilation#fs-id3081310) illustrates this concept.
+The muon discussed in [[link]](../contents/ch28SimultaneityAndTimeDilation#fs-id3081310) illustrates this concept.
 To an observer on the Earth, the muon travels at $$0.950c $$ for $$7.05 \mu s $$
 from the time it is produced until it decays. Thus it travels a distance
 
@@ -123,7 +123,7 @@ direction of motion in the muon’s reference frame.
 <div class="title">
 Calculating Length Contraction: The Distance between Stars Contracts when You Travel at High Velocity
 </div>
-Suppose an astronaut, such as the twin discussed in [Simultaneity and Time Dilation](/m42531), travels so fast that  $$\gamma = 30.00  $$ .
+Suppose an astronaut, such as the twin discussed in [Simultaneity and Time Dilation](../contents/m42531), travels so fast that  $$\gamma = 30.00  $$ .
  (a) She travels from the Earth to the nearest star system, Alpha Centauri, 4.300 light years (ly) away as measured by an Earth-bound observer. How far apart are the Earth and Alpha Centauri as measured by the astronaut? (b) In terms of  $$c $$ ,
  what is her velocity relative to the Earth? You may neglect the motion of the Earth relative to the Sun. (See [[Figure 1]](#Figure1).)
 
@@ -208,7 +208,7 @@ they know forever. Even if they returned, thousands to millions of years would
 have passed on the Earth, obliterating most of what now exists. There is also a
 more serious practical obstacle to traveling at such velocities; immensely
 greater energies than classical physics predicts would be needed to achieve such
-high velocities. This will be discussed in [Relatavistic Energy](../contents//ch28RelativisticEnergy).
+high velocities. This will be discussed in [Relatavistic Energy](../contents/ch28RelativisticEnergy).
 
 Why don’t we notice length contraction in everyday life? The distance to the
 grocery shop does not seem to depend on whether we are moving or not. Examining

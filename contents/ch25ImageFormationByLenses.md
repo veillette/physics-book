@@ -87,7 +87,7 @@ where  $$f $$
  is the focal length of the lens, which must be given in meters (and not cm or mm). The power of a lens  $$P $$
 ** has the unit diopters (D), provided that the focal length is given in meters. That is,  $$1 \text{D}=1/\text{m} $$ ,
  or  $${1 \text{m}}^{-1} $$ .
- (Note that this power (optical power, actually) is not the same as power in watts defined in [Work, Energy, and Energy Resources](/m42145). It is a concept related to the effect of optical devices on light.) Optometrists prescribe common spectacles and contact lenses in units of diopters.
+ (Note that this power (optical power, actually) is not the same as power in watts defined in [Work, Energy, and Energy Resources](../contents/m42145). It is a concept related to the effect of optical devices on light.) Optometrists prescribe common spectacles and contact lenses in units of diopters.
 
 </div>
 
@@ -157,7 +157,7 @@ A lens that causes the light rays to bend away from its axis is called a divergi
 </div>
 
 As noted in the initial discussion of the law of refraction
-in [The Law of Refraction](../contents//ch25TheLawOfRefraction), the paths of light rays are exactly
+in [The Law of Refraction](../contents/ch25TheLawOfRefraction), the paths of light rays are exactly
 reversible. This means that the direction of the arrows could be reversed for
 all of the rays in [[Figure 1]](#Figure1) and [[Figure 3]](#Figure3). For
 example, if a point light source is placed at the focal point of a convex lens,
@@ -660,7 +660,7 @@ to form a real image.
             <td>positive  $$m<1 $$ </td>
           </tr></tbody></table>
 
-In [Image Formation by Mirrors](../contents//ch25ImageFormationByMirrors), we shall see that mirrors can form
+In [Image Formation by Mirrors](../contents/ch25ImageFormationByMirrors), we shall see that mirrors can form
 exactly the same types of images as lenses.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">

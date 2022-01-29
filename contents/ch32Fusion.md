@@ -112,7 +112,7 @@ Conversely, if the interior becomes too cool, it contracts, increasing the
 temperature and reaction rate (see [[Figure 5]](#Figure5)). Stars like the Sun
 are stable for billions of years, until a significant fraction of their hydrogen
 has been depleted. What happens then is discussed
-in [Introduction to Frontiers of Physics ](../contents//ch33FrontiersOfPhysics).
+in [Introduction to Frontiers of Physics ](../contents/ch33FrontiersOfPhysics).
 
 ![In the given figure nuclear fusion in the Sun is shown. The sun is shown like a sunflower. In the center, helium H e is shown. The energy emitted from H E is shown by outward arrows.](../resources/Figure_33_05_05a.jpg "Nuclear fusion in the Sun converts hydrogen nuclei into helium; fusion occurs primarily at the boundary of the helium core, where temperature is highest and sufficient hydrogen remains. Energy released diffuses slowly to the surface, with the exception of neutrinos, which escape immediately. Energy production remains stable because of negative feedback effects.")
 {: #Figure5}

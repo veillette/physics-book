@@ -324,7 +324,7 @@ Describe the photo of the tea kettle at the beginning of this section in terms o
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-The first law of thermodynamics and the conservation of energy, as discussed in [Conservation of Energy](/m42151), are clearly related. How do they differ in the types of energy considered?
+The first law of thermodynamics and the conservation of energy, as discussed in [Conservation of Energy](../contents/m42151), are clearly related. How do they differ in the types of energy considered?
 
 </div>
 </div>
@@ -422,7 +422,7 @@ Suppose a woman does 500 J of work and 9500 J of heat transfer occurs into the e
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) How much food energy will a man metabolize in the process of doing 35.0 kJ of work with an efficiency of 5.00%? (b) How much heat transfer occurs to the environment to keep his temperature constant? Explicitly show how you follow the steps in the Problem-Solving Strategy for thermodynamics found in [Problem-Solving Strategies for Thermodynamics](/m42236#fs-id1169738116696).
+(a) How much food energy will a man metabolize in the process of doing 35.0 kJ of work with an efficiency of 5.00%? (b) How much heat transfer occurs to the environment to keep his temperature constant? Explicitly show how you follow the steps in the Problem-Solving Strategy for thermodynamics found in [Problem-Solving Strategies for Thermodynamics](../contents/m42236#fs-id1169738116696).
 
 </div>
 </div>
