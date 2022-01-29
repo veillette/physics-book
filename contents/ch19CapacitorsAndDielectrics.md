@@ -64,7 +64,7 @@ The field is proportional to the charge:
 </div>
 
 where the symbol $$\propto $$ means “proportional to.” From the discussion
-in [Electric Potential in a Uniform Electric Field](/ch19ElectricPotentialInAUniformElectricField), we know that the
+in [Electric Potential in a Uniform Electric Field](../contents//ch19ElectricPotentialInAUniformElectricField), we know that the
 voltage across parallel plates is $$V=Ed $$ . Thus,
 
 <div class="equation" >
@@ -430,7 +430,7 @@ noted, the planetary model of the atom pictures it as having a positive nucleus
 orbited by negative electrons, analogous to the planets orbiting the Sun.
 Although this model is not completely accurate, it is very helpful in explaining
 a vast range of phenomena and will be refined elsewhere, such as
-in [Atomic Physics](/ch30AtomicPhysics). The submicroscopic origin of polarization can be
+in [Atomic Physics](../contents//ch30AtomicPhysics). The submicroscopic origin of polarization can be
 modeled as shown in [[Figure 6]](#Figure6).
 
 </div>
@@ -438,7 +438,7 @@ modeled as shown in [[Figure 6]](#Figure6).
 ![The top part of the figure shows what an unpolarized atom would look like if the electrons moved along a circular path around the positively charged nucleus. Next, when there is an external negative and a positive charge, the electrons are attracted toward the positive external charge and the nucleus is attracted toward the negative external charge. The circular orbit of the electrons becomes an ellipse due to the pull of the external charges.](<../resources/Figure_20_05_06(a)a.jpg> "Artist&#x2019;s conception of a polarized atom. The orbits of electrons around the nucleus are shifted slightly by the external charges (shown exaggerated). The resulting separation of charge within the atom means that it is polarized. Note that the unlike charge is now closer to the external charges, causing the polarization.")
 {: #Figure6}
 
-We will find in [Atomic Physics](/ch30AtomicPhysics) that the orbits of electrons are more
+We will find in [Atomic Physics](../contents//ch30AtomicPhysics) that the orbits of electrons are more
 properly viewed as electron clouds with the density of the cloud related to the
 probability of finding an electron in that location (as opposed to the definite
 locations and paths of planets in their orbits around the Sun). This cloud is

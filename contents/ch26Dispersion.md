@@ -46,7 +46,7 @@ Dispersion is defined to be the spreading of white light into its full spectrum 
 
 Refraction is responsible for dispersion in rainbows and many other situations.
 The angle of refraction depends on the index of refraction, as we saw
-in [The Law of Refraction](/ch25TheLawOfRefraction). We know that the index of refraction $$n $$
+in [The Law of Refraction](../contents//ch25TheLawOfRefraction). We know that the index of refraction $$n $$
 depends on the medium. But for a given medium, $$n $$ also depends on
 wavelength. (See [[Table 1]](#Table1). Note that, for a given medium, $$n $$
 increases as wavelength decreases and is greatest for violet light. Thus violet

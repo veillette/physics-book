@@ -19,7 +19,7 @@ the term “molecule” in discussing a gas because the term can also be applied
 monatomic gases, such as helium.)
 
 Gases are easily compressed. We can see evidence of this
-in [[link]](/ch13ThermalExpansionOfSolidsAndLiquids#import-auto-id1814176),
+in [[link]](../contents//ch13ThermalExpansionOfSolidsAndLiquids#import-auto-id1814176),
 where you will note that gases have the *largest* coefficients of volume
 expansion. The large coefficients mean that gases expand and contract very
 rapidly with temperature changes. In addition, you will note that most gases
@@ -434,7 +434,7 @@ potential energy per unit volume, so pressure multiplied by volume is energy.
 The important point is that there is energy in a gas related to both its
 pressure and its volume. The energy can be changed when the gas is doing work as
 it expands—something we explore
-in [Heat and Heat Transfer Methods](/ch14HeatAndHeatTransfers)
+in [Heat and Heat Transfer Methods](../contents//ch14HeatAndHeatTransfers)
 —similar to what occurs in gasoline or steam engines and turbines.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">

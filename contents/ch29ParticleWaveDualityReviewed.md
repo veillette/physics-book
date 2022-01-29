@@ -65,11 +65,11 @@ following topics are involved in some or all of the problems in this section:
 * [Dynamics: Newton’s Laws of Motion](/m42129)
 * [Work, Energy, and Energy Resources](/m42145)
 * [Linear Momentum and Collisions](/m42155)
-* [Heat and Heat Transfer Methods](/ch14HeatAndHeatTransfers)
-* [Electric Potential and Electric Field](/ch19ElectricPotentialAndElectricEnergy)
-* [Electric Current, Resistance, and Ohm’s Law](/ch20ElectricCurrentResistanceAndOhmsLaw)
-* [Wave Optics](/ch27WaveOptics)
-* [Special Relativity](/ch28SpecialRelativity)
+* [Heat and Heat Transfer Methods](../contents//ch14HeatAndHeatTransfers)
+* [Electric Potential and Electric Field](../contents//ch19ElectricPotentialAndElectricEnergy)
+* [Electric Current, Resistance, and Ohm’s Law](../contents//ch20ElectricCurrentResistanceAndOhmsLaw)
+* [Wave Optics](../contents//ch27WaveOptics)
+* [Special Relativity](../contents//ch28SpecialRelativity)
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">

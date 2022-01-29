@@ -45,13 +45,13 @@ where  $$\rho  $$
 In the riddle regarding the feathers and bricks, the masses are the same, but
 the volume occupied by the feathers is much greater, since their density is much
 lower. The SI unit of density is $${\text{kg/m}}^{3} $$ , representative values
-are given in [[link]](#fs-id1769034). The metric system was originally devised
+are given in [[Table 1]](#Table1). The metric system was originally devised
 so that water would have a density of $$1 {\text{g/cm}}^{3} $$ , equivalent to
 $$10^{3} {\text{kg/m}}^{3} $$ . Thus the basic mass unit, the kilogram, was
 first devised to be the mass of 1000 mL of water, which has a volume of 1000
 cm<sup>3</sup>.
 
-<table aria-describedby="The table shows the value of density in units of kilogram per meter cubed for certain solids, liquids, and gases."><caption><span class="title">Densities of Various Substances</span></caption><thead>
+<table id="Table1" aria-describedby="The table shows the value of density in units of kilogram per meter cubed for certain solids, liquids, and gases."><caption><span class="title">Densities of Various Substances</span></caption><thead>
           <tr>
             <th>Substance</th>
             <th>
@@ -236,7 +236,7 @@ cm<sup>3</sup>.
 ![A pile of feathers measuring a ton and a ton of bricks are placed on either side of a plank that is balanced on a small support.](../resources/Figure_12_02_01a.jpg "A ton of feathers and a ton of bricks have the same mass, but the feathers make a much bigger pile because they have a much lower density.")
 {: #Figure1}
 
-As you can see by examining [[link]](#fs-id1769034), the density of an object
+As you can see by examining [[Table 1]](#Table1), the density of an object
 may help identify its composition. The density of gold, for example, is about
 2.5 times the density of iron, which is about 2.5 times the density of aluminum.
 Density also reveals something about the phase of the matter and its
@@ -263,7 +263,7 @@ A reservoir has a surface area of  $$ 50.0 {\text{km}}^{2} $$
 <strong>Strategy </strong>
 
 We can calculate the volume $$V $$ of the reservoir from its dimensions, and
-find the density of water $$\rho $$ in [[link]](#fs-id1769034). Then the mass
+find the density of water $$\rho $$ in [[Table 1]](#Table1). Then the mass
 $$m $$ can be found from the definition of density
 
 <div class="equation" >
@@ -280,7 +280,7 @@ depth $$h $$ \:
  $$\begin{array}{lll}V& =& Ah=\left(50.0 {\text{km}}^{2}\right)\left(40.0 \text{m}\right)\\ & =& \left[ \left(50.0 \text{k}{\text{m}}^{2}\right){\left(\frac{ 10^{3} \text{m}}{1 \text{km}}\right)}^{2}\right]  \left(40.0 \text{m}\right)= 2.00 \times 10^{9}  {\text{m}}^{3}\end{array} $$
 </div>
 The density of water  $$\rho  $$
- from [[link]](#fs-id1769034) is  $$ 1.000 \times 10^{3}  {\text{kg/m}}^{3} $$ .
+ from [[Table 1]](#Table1) is  $$ 1.000 \times 10^{3}  {\text{kg/m}}^{3} $$ .
  Substituting  $$V $$
  and  $$\rho  $$  into the expression for mass gives
 

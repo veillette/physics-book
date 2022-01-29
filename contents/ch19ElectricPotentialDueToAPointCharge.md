@@ -64,7 +64,7 @@ Charges in static electricity are typically in the nanocoulomb  $$\left(\text{nC
 **Strategy** 
 
 As we have discussed
-in [Electric Charge and Electric Field](/ch18ElectricChargeAndElectricField),
+in [Electric Charge and Electric Field](../contents//ch18ElectricChargeAndElectricField),
 charge on a metal sphere spreads out uniformly and produces a field like that of
 a point charge located at its center. Thus we can find the voltage using the
 equation $$V=kQ/r $$.
@@ -123,7 +123,7 @@ taken to be zero (instead of taking the potential at infinity to be zero). It is
 the potential difference between two points that is of importance, and very
 often there is a tacit assumption that some reference point, such as Earth or a
 very distant point, is at zero potential. As noted
-in [Electric Potential Energy: Potential Difference](/ch19ElectricPotentialEnergy)
+in [Electric Potential Energy: Potential Difference](../contents//ch19ElectricPotentialEnergy)
 , this is analogous to taking sea level as $$h=0 $$ when considering
 gravitational potential energy, $${\text{PE}}_{g}= mgh $$.
 

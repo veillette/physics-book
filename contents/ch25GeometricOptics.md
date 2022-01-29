@@ -42,4 +42,4 @@ like that of a ray; it does not prominently display its wave characteristics. We
 call this part of optics “geometric optics.” This chapter will concentrate on
 such situations. When light interacts with smaller objects, it has very
 prominent wave characteristics, such as constructive and destructive
-interference. [Wave Optics](/ch27WaveOptics) will concentrate on such situations.
+interference. [Wave Optics](../contents//ch27WaveOptics) will concentrate on such situations.

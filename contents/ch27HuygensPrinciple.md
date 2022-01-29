@@ -87,7 +87,7 @@ opening or an obstacle is called **diffraction**. Diffraction is a wave
 characteristic and occurs for all types of waves. If diffraction is observed for
 some phenomenon, it is evidence that the phenomenon is a wave. Thus the
 horizontal diffraction of the laser beam after it passes through slits
-in [[link]](/ch27WaveAspectOfLight#import-auto-id1169738163458) is evidence that light is a
+in [[link]](../contents//ch27WaveAspectOfLight#import-auto-id1169738163458) is evidence that light is a
 wave.
 
 ![Three related diagrams showing how waves spread out when passing through various-size openings. The first diagram shows wavefronts passing through an opening that is wide compared to the distance between successive wavefronts. The wavefronts that emerge on the other side of the opening have minor bending along the edges. The second diagram shows wavefronts passing through a smaller opening. The waves experience more bending. The third diagram shows wavefronts passing through an opening that has a size similar to the spacing between wavefronts. These waves show significant bending.](../resources/Figure_28_02_06a.jpg "Huygens&#x2019;s principle applied to a straight wavefront striking an opening. The edges of the wavefront bend after passing through the opening, a process called diffraction. The amount of bending is more extreme for a small opening, consistent with the fact that wave characteristics are most noticeable for interactions with objects about the same size as the wavelength.")

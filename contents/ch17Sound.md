@@ -55,7 +55,7 @@ compression a little heat transfers to the air and during each rarefaction even
 less heat transfers from the air, so that the heat transfer reduces the
 organized disturbance into random thermal motions. (These processes can be
 viewed as a manifestation of the second law of thermodynamics presented
-in [Introduction to the Second Law of Thermodynamics: Heat Engines and Their Efficiency](/ch15IntroductionToTheSecondLawOfThermodynamics)
+in [Introduction to the Second Law of Thermodynamics: Heat Engines and Their Efficiency](../contents//ch15IntroductionToTheSecondLawOfThermodynamics)
 .) Whether the heat transfer from compression to rarefaction is significant
 depends on how far apart they are—that is, it depends on wavelength. Wavelength,
 frequency, amplitude, and speed of propagation are important for sound, as they

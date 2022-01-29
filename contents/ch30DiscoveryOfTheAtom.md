@@ -73,8 +73,8 @@ Also during the 19th century, the kinetic theory of gases was developed. Kinetic
 theory is based on the existence of atoms and molecules in random thermal motion
 and provides a microscopic explanation of the gas laws, heat transfer, and
 thermodynamics (
-see [Introduction to Temperature, Kinetic Theory, and the Gas Laws](/ch13TemperatureKineticTheoryAndTheGasLaws)
-and [Introduction to Laws of Thermodynamics](/ch15Thermodynamics)). Kinetic
+see [Introduction to Temperature, Kinetic Theory, and the Gas Laws](../contents//ch13TemperatureKineticTheoryAndTheGasLaws)
+and [Introduction to Laws of Thermodynamics](../contents//ch15Thermodynamics)). Kinetic
 theory works so well that it is another strong indication of the existence of
 atoms. But it is still indirect evidence—individual atoms and molecules had not
 been observed. There were heated debates about the validity of kinetic theory
@@ -125,7 +125,7 @@ A huge array of direct and indirect evidence for the existence of atoms now
 exists. For example, it has become possible to accelerate ions (much as
 electrons are accelerated in cathode-ray tubes) and to detect them individually
 as well as measure their masses (
-see [More Applications of Magnetism](/ch22MoreApplicationsOfMagnetism)
+see [More Applications of Magnetism](../contents//ch22MoreApplicationsOfMagnetism)
 for a discussion of mass spectrometers). Other devices that observe individual
 atoms, such as the scanning tunneling electron microscope, will be discussed
 elsewhere. (See [[Figure 2]](#Figure2).) All of our understanding of the

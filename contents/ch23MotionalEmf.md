@@ -73,7 +73,7 @@ There are many connections between the electric force and the magnetic force. Th
 
 To find the direction of the induced field, the direction of the current, and
 the polarity of the induced emf, we apply Lenz’s law as explained
-in [Faraday\'s Law of Induction: Lenz\'s Law](/ch23FaradaysLawOfInduction). (
+in [Faraday\'s Law of Induction: Lenz\'s Law](../contents//ch23FaradaysLawOfInduction). (
 See [[Figure 1]](#Figure1)(b).) Flux is increasing, since the area enclosed is
 increasing. Thus the induced field must oppose the existing one and be out of
 the page. And so the RHR-2 requires that *I* be counterclockwise, which in turn

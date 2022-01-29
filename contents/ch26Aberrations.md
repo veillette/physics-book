@@ -34,8 +34,8 @@ Another common aberration is spherical aberration where rays converging from the
 outer edges of a lens converge to a focus closer to the lens and rays closer to
 the axis focus further (see [[Figure 3]](#Figure3)). Aberrations due to
 astigmatism in the lenses of the eyes are discussed
-in [Vision Correction](/ch26VisionCorrection), and a chart used to detect astigmatism is shown
-in [[link]](/ch26VisionCorrection#import-auto-id2929041). Such aberrations and can also be an
+in [Vision Correction](../contents//ch26VisionCorrection), and a chart used to detect astigmatism is shown
+in [[link]](../contents//ch26VisionCorrection#import-auto-id2929041). Such aberrations and can also be an
 issue with manufactured lenses.
 
 ![Part a shows a single convex lens. White light source rays are striking the edges and the optical axis of the lens. Visible spectrum of light is refracted from the lens and is falling on the axis. Violet rays have bent more than red rays and are focused closer to the lens shown as V and R dots at different location. Part b shows an achromatic doublet lens. White light source rays are striking the edges and the optical axis of the lens. Rays are getting refracted within the lens and a visible spectrum of light is falling at one point of the axis shown as a dot.](../resources/Figure_27_06_01.jpg "(a) Chromatic aberration is caused by the dependence of a lens&#x2019;s index of refraction on color (wavelength). The lens is more powerful for violet (V) than for red (R), producing images with different locations and magnifications. (b) Multiple-lens systems can partially correct chromatic aberrations, but they may require lenses of different materials and add to the expense of optical systems such as cameras.")

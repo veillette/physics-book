@@ -32,7 +32,7 @@ $$F=\left(qv_{d}B \sin \theta \right)\left( nAl\right) $$ . Gathering terms,
 </div>
 
 Because $$nqAv_{d}=I $$
-(see [Current](/ch20Current)),
+(see [Current](../contents//ch20Current)),
 
 <div class="equation" >
  $$F=IlB \sin \theta  $$

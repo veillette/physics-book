@@ -11,7 +11,7 @@ layout: page
 
 When we talk of black holes or the unification of forces, we are actually
 discussing aspects of general relativity and quantum gravity. We know
-from [Special Relativity](/ch28SpecialRelativity) that relativity is the study of how different
+from [Special Relativity](../contents//ch28SpecialRelativity) that relativity is the study of how different
 observers measure the same event, particularly if they move relative to one
 another. Einstein’s theory of **general relativity** describes all types of
 relative motion including accelerated motion and the effects of gravity. General
@@ -274,7 +274,7 @@ that only indirect evidence can provide clues. For some time, the common lament
 of theoretical physicists was one so familiar to struggling students—how do you
 even get started? But Hawking and others have made a start, and the approach
 many theorists have taken is called Superstring theory, the topic of
-the [Superstrings](/ch34Superstrings).
+the [Superstrings](../contents//ch34Superstrings).
 
 ### Section Summary
 

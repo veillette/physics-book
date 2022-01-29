@@ -108,7 +108,7 @@ action of the polarizing filter in passing only components parallel to its axis.
 Apart from the UV microscope, the variations of microscopy discussed so far in
 this section are available as attachments to fairly standard microscopes or as
 slight variations. The next level of sophistication is provided by commercial **confocal microscopes**, which use the extended focal region shown
-in [[link]](/ch27LimitsOfResolution#import-auto-id1169737966965)(b) to obtain three-dimensional
+in [[link]](../contents//ch27LimitsOfResolution#import-auto-id1169737966965)(b) to obtain three-dimensional
 images rather than two-dimensional images. Here, only a single plane or region
 of focus is identified; out-of-focus regions above and below this plane are
 subtracted out by a computer so the image quality is much better. This type of

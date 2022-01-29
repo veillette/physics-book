@@ -25,4 +25,4 @@ biosciences. This chapter illustrates the enabling nature of physics through an
 understanding of how a human eye is able to see and how we are able to use
 optical instruments to see beyond what is possible with the naked eye. It is
 convenient to categorize these instruments on the basis of geometric optics (
-see [Geometric Optics](/ch25GeometricOptics)) and wave optics (see [Wave Optics](/ch27WaveOptics)).
+see [Geometric Optics](../contents//ch25GeometricOptics)) and wave optics (see [Wave Optics](../contents//ch27WaveOptics)).

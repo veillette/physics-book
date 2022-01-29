@@ -142,7 +142,7 @@ the lungs. Left-heart failure results in a rise in the pressure entering the
 left side of the heart and a drop in aortal pressure. Implications of these and
 other pressures on flow in the circulatory system will be discussed in more
 detail
-in [Fluid Dynamics and Its Biological and Medical Applications](/ch12FluidDynamicsAndItsBiologicalApplications)
+in [Fluid Dynamics and Its Biological and Medical Applications](../contents//ch12FluidDynamicsAndItsBiologicalApplications)
 .
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -255,7 +255,7 @@ diaphragm and rib cage is necessary for inhalation; this muscle action increases
 the volume of the lungs thereby reducing the pressure within
 them [[Figure 3]](#Figure3). Surface tension in the alveoli creates a positive
 pressure opposing inhalation. (
-See [Cohesion and Adhesion in Liquids: Surface Tension and Capillary Action](/ch11CohesionAndAdhesionInLiquids)
+See [Cohesion and Adhesion in Liquids: Surface Tension and Capillary Action](../contents//ch11CohesionAndAdhesionInLiquids)
 .) You can exhale without muscle action by letting surface tension in the
 alveoli create its own positive pressure. Muscle action can add to this positive
 pressure to produce forced exhalation, such as when you blow up a balloon, blow
@@ -336,7 +336,7 @@ avoid an imbalance of force on the eardrum.
 
 Many pressures in the human body are associated with the flow of fluids. Fluid
 flow will be discussed in detail in
-the [Fluid Dynamics and Its Biological and Medical Applications](/ch12FluidDynamicsAndItsBiologicalApplications)
+the [Fluid Dynamics and Its Biological and Medical Applications](../contents//ch12FluidDynamicsAndItsBiologicalApplications)
 .
 
 ### Section Summary

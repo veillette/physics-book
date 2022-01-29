@@ -64,7 +64,7 @@ position $$x $$ is given by:
 
 This expression is the same one we had for the position of a simple harmonic
 oscillator
-in [Simple Harmonic Motion: A Special Periodic Motion](/ch16SimpleHarmonicMotion)
+in [Simple Harmonic Motion: A Special Periodic Motion](../contents//ch16SimpleHarmonicMotion)
 . If we make a graph of position versus time as in [[Figure 3]](#Figure3), we
 see again the wavelike character (typical of simple harmonic motion) of the
 projection of uniform circular motion onto the $$x $$ -axis.
@@ -90,7 +90,7 @@ We can solve this equation for the speed $$v $$ or
 
 This expression for the speed of a simple harmonic oscillator is exactly the
 same as the equation obtained from conservation of energy considerations
-in [Energy and the Simple Harmonic Oscillator](/ch16EnergyAndTheSimpleHarmonicOscillator)
+in [Energy and the Simple Harmonic Oscillator](../contents//ch16EnergyAndTheSimpleHarmonicOscillator)
 .You can begin to see that it is possible to get all of the characteristics of
 simple harmonic motion from an analysis of the projection of uniform circular
 motion.

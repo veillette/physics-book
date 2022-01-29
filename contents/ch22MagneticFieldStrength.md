@@ -111,7 +111,7 @@ experience. (It is calculated to only one digit, since the Earth’s field varie
 with location and is given to only one digit.) The Earth’s magnetic field,
 however, does produce very important effects, particularly on submicroscopic
 particles. Some of these are explored
-in [Force on a Moving Charge in a Magnetic Field: Examples and Applications](/ch22ForceOnAMovingChargeInAMagneticField) .
+in [Force on a Moving Charge in a Magnetic Field: Examples and Applications](../contents//ch22ForceOnAMovingChargeInAMagneticField) .
 
 </div>
 
