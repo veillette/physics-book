@@ -163,7 +163,7 @@ hold.
 <div class="title">
 Calculating Pressure: Pressure Drops as a Fluid Speeds Up
 </div>
-In [[link]](/m42205#fs-id3230619), we found that the speed of water in a hose increased from 1.96 m/s to 25.5 m/s going from the hose to the nozzle. Calculate the pressure in the hose, given that the absolute pressure in the nozzle is  $$ 1.01 \times 10^{5}  {\text{N/m}}^{2} $$
+In [[link]](../contents/m42205#fs-id3230619), we found that the speed of water in a hose increased from 1.96 m/s to 25.5 m/s going from the hose to the nozzle. Calculate the pressure in the hose, given that the absolute pressure in the nozzle is  $$ 1.01 \times 10^{5}  {\text{N/m}}^{2} $$
  (atmospheric, as it must be) and assuming level, frictionless flow.
 
 **Strategy**

@@ -81,7 +81,7 @@ situation.
 <div class="title">
 Calculating the Average Pressure and Force Exerted: What Force Must a Dam Withstand?
 </div>
-In [[link]](/m42187#fs-id2449267), we calculated the mass of water in a large reservoir. We will now consider the pressure and force acting on the dam retaining water. (See [[Figure 2]](#Figure2).) The dam is 500 m wide, and the water is 80.0 m deep at the dam. (a) What is the average pressure on the dam due to the water? (b) Calculate the force exerted against the dam and compare it with the weight of water in the dam (previously found to be  $$1.96 \times 10^{13}  \text{N} $$ ). 
+In [[link]](../contents/m42187#fs-id2449267), we calculated the mass of water in a large reservoir. We will now consider the pressure and force acting on the dam retaining water. (See [[Figure 2]](#Figure2).) The dam is 500 m wide, and the water is 80.0 m deep at the dam. (a) What is the average pressure on the dam due to the water? (b) Calculate the force exerted against the dam and compare it with the weight of water in the dam (previously found to be  $$1.96 \times 10^{13}  \text{N} $$ ). 
 
 **Strategy for (a)**
 
@@ -96,7 +96,7 @@ The average pressure due to the weight of a fluid is
 <div class="equation" >
  $$\overline{P}=\overline{h}\rho g. $$
 </div>
-Entering the density of water from [[Table 1]](../contents//ch11Density#Table1) and taking  $$\overline{h} $$
+Entering the density of water from [[Table 1]](../contents/ch11Density#Table1) and taking  $$\overline{h} $$
  to be the average depth of 40.0 m, we obtain
 
 <div class="equation" >
@@ -158,7 +158,7 @@ $$1.00 {\text{m}}^{2} $$ of the Earth’s surface has a weight of $$ 1.01 \times
 <div class="title">
 Calculating Average Density: How Dense Is the Air?
 </div>
-Calculate the average density of the atmosphere, given that it extends to an altitude of 120 km. Compare this density with that of air listed in [[link]](../contents//ch11Density#Table1).
+Calculate the average density of the atmosphere, given that it extends to an altitude of 120 km. Compare this density with that of air listed in [[link]](../contents/ch11Density#Table1).
 
 **Strategy**
 
@@ -181,7 +181,7 @@ Entering known values into the expression for $$\overline{\rho } $$ yields
 
 This result is the average density of air between the Earth’s surface and the
 top of the Earth’s atmosphere, which essentially ends at 120 km. The density of
-air at sea level is given in [[Table 1]](../contents//ch11Density#Table1) as $$ 1.29
+air at sea level is given in [[Table 1]](../contents/ch11Density#Table1) as $$ 1.29
 {\text{kg/m}}^{3} $$ —about 15 times its average value. Because air is so
 compressible, its density has its highest value near the Earth’s surface and
 declines rapidly with altitude.
@@ -224,7 +224,7 @@ pool? Does the atmospheric pressure on the water’s surface affect the pressure
 below? The answer is yes. This seems only logical, since both the water’s weight
 and the atmosphere’s weight must be supported. So the *total* pressure at a
 depth of 10.3 m is 2 atm—half from the water above and half from the air above.
-We shall see in [Pascal’s Principle](../contents//ch11PascalsPrinciple) that fluid pressures
+We shall see in [Pascal’s Principle](../contents/ch11PascalsPrinciple) that fluid pressures
 always add in this way.
 
 ### Section Summary

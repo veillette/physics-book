@@ -29,7 +29,7 @@ thermometer, for example, the expansion of alcohol is much greater than the
 expansion of the glass containing it.
 
 What is the underlying cause of thermal expansion? As is discussed
-in [Kinetic Theory: Atomic and Molecular Explanation of Pressure and Temperature](/m42147)
+in [Kinetic Theory: Atomic and Molecular Explanation of Pressure and Temperature](../contents/m42147)
 , an increase in temperature implies an increase in the kinetic energy of the
 individual atoms. In a solid, unlike in a gas, the atoms or molecules are
 closely packed together, but their kinetic energy (in the form of small, rapid
@@ -414,7 +414,7 @@ Alternatively, we can combine these three equations into a single equation. (Not
 This amount is significant, particularly for a 60.0-L tank. The effect is so
 striking because the gasoline and steel expand quickly. The rate of change in
 thermal properties is discussed
-in [Heat and Heat Transfer Methods](../contents//ch14HeatAndHeatTransfers).
+in [Heat and Heat Transfer Methods](../contents/ch14HeatAndHeatTransfers).
 
 If you try to cap the tank tightly to prevent overflow, you will find that it
 leaks anyway, either around the cap or by bursting the tank. Tightly
@@ -428,7 +428,7 @@ expand and contract without stressing them.
 ### Thermal Stress
 
 **Thermal stress** is created by thermal expansion or contraction (
-see [Elasticity: Stress and Strain](../contents//ch5Elasticity) for a discussion of stress and
+see [Elasticity: Stress and Strain](../contents/ch5Elasticity) for a discussion of stress and
 strain). Thermal stress can be destructive, such as when expanding gasoline
 ruptures a tank. It can also be useful, for example, when two parts are joined
 together by heating one in manufacturing, then slipping it over the other and
@@ -444,7 +444,7 @@ What pressure would be created in the gasoline tank considered in [[link]](#fs-i
  to  $$ 35.0\text{ºC} $$
  without being allowed to expand? ** Assume that the bulk modulus  $$B $$
  for gasoline is  $$ 1.00 \times 10^{9}  {\text{N/m}}^{2} $$ .
- (For more on bulk modulus, see [Elasticity: Stress and Strain](/m42081).)
+ (For more on bulk modulus, see [Elasticity: Stress and Strain](../contents/m42081).)
 
 **Strategy**
 

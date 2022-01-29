@@ -425,7 +425,7 @@ equation:
 **Discussion**
 
 This value is consistent with the headlight resistance example
-in [Ohm’s Law: Resistance and Simple Circuits](../contents//ch20OhmsLaw).
+in [Ohm’s Law: Resistance and Simple Circuits](../contents/ch20OhmsLaw).
 
 </div>
 

@@ -191,7 +191,7 @@ is the existence of sharp peaks in the spectrum; these are called **characterist
 Characteristic x rays come from atomic excitations unique to a given type of
 anode material. They are akin to lines in atomic spectra, implying the energy
 levels of atoms are quantized. Phenomena such as discrete atomic spectra and
-characteristic x rays are explored further in [Atomic Physics](../contents//ch30AtomicPhysics).
+characteristic x rays are explored further in [Atomic Physics](../contents/ch30AtomicPhysics).
 
 **Ultraviolet radiation** (approximately 4 eV to 300 eV) overlaps with the low
 end of the energy range of x rays, but UV is typically lower in energy. UV comes

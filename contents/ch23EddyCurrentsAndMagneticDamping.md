@@ -10,7 +10,7 @@ layout: page
 
 ### Eddy Currents and Magnetic Damping
 
-As discussed in [Motional Emf](../contents//ch23MotionalEmf), motional emf is induced when a
+As discussed in [Motional Emf](../contents/ch23MotionalEmf), motional emf is induced when a
 conductor moves in a magnetic field or when a magnetic field moves relative to a
 conductor. If motional emf can cause a current loop in the conductor, we refer
 to that current as an **eddy current**. Eddy currents can produce significant

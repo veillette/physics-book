@@ -18,7 +18,7 @@ photographically mass produced rather cheaply. Diffraction gratings work both
 for transmission of light, as in [[Figure 1]](#Figure1), and for reflection of
 light, as on butterfly wings and the Australian opal in [[Figure 2]](#Figure2)
 or the CD pictured in the opening photograph of this
-chapter, [[link]](../contents//ch27WaveOptics#import-auto-id1169736938034). In addition to their use
+chapter, [[link]](../contents/ch27WaveOptics#import-auto-id1169736938034). In addition to their use
 as novelty items, diffraction gratings are commonly used for spectroscopic
 dispersion and analysis of light. What makes them particularly useful is the
 fact that they form a sharper pattern than double slits do. That is, their
@@ -40,7 +40,7 @@ due to their pigmentation. This is called iridescence.
 
 The analysis of a diffraction grating is very similar to that for a double
 slit (see [[Figure 4]](#Figure4)). As we know from our discussion of double
-slits in [Young\'s Double Slit Experiment](../contents//ch27YoungsDoubleSlitExperiment), light is diffracted by each
+slits in [Young\'s Double Slit Experiment](../contents/ch27YoungsDoubleSlitExperiment), light is diffracted by each
 slit and spreads out after passing through. Rays traveling in the same
 direction (at an angle $$\theta $$ relative to the incident direction) are shown
 in the figure. Each of these rays travels a different distance to a common point
@@ -287,7 +287,7 @@ An electric current through hydrogen gas produces several distinct wavelengths o
   $$ 25.7º $$ ,
   $$ 29.1º $$ ,
  and  $$ 41.0º $$
- when projected on a diffraction grating having 10 000 lines per centimeter? Explicitly show how you follow the steps in [Problem-Solving Strategies for Wave Optics](/m42519#fs-id1169737988256)
+ when projected on a diffraction grating having 10 000 lines per centimeter? Explicitly show how you follow the steps in [Problem-Solving Strategies for Wave Optics](../contents/m42519#fs-id1169737988256)
 
 </div>
 </div>

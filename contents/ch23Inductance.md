@@ -40,7 +40,7 @@ where $$M $$ is defined to be the mutual inductance between the two devices. The
 minus sign is an expression of Lenz’s law. The larger the mutual inductance $$M
 $$ , the more effective the coupling. For example, the coils
 in [[Figure 1]](#Figure1) have a small $$M $$ compared with the transformer
-coils in [[link]](../contents//ch23Transformers#import-auto-id1169738052317). Units for $$M
+coils in [[link]](../contents/ch23Transformers#import-auto-id1169738052317). Units for $$M
 $$ are $$\left(\text{V}\cdot \text{s}\right)\text{/A}=\Omega \cdot \text{s} $$ ,
 which is named a **henry** (H), after Joseph Henry. That is, $$1 H=1 \Omega
 \cdot \text{s} $$.

@@ -239,7 +239,7 @@ Practical steam engines utilize  $$450\text{ºC} $$
  steam is still quite hot, a second steam engine is sometimes operated using the exhaust of the first. What is the maximum efficiency of the second engine if its exhaust has a temperature of  $$150\text{ºC} $$ ?
  (c) What is the overall efficiency of the two engines? (d) Show that this is the same efficiency as a single Carnot engine operating between  $$450\text{ºC} $$
  and  $$150\text{ºC} $$ .
- Explicitly show how you follow the steps in the [Problem-Solving Strategies for Thermodynamics](/m42236#fs-id1169738116696).
+ Explicitly show how you follow the steps in the [Problem-Solving Strategies for Thermodynamics](../contents/m42236#fs-id1169738116696).
 
 </div>
 <div class="solution"  markdown="1">

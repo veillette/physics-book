@@ -583,7 +583,7 @@ Can any arbitrary combination of resistors be broken down into series and parall
 
 </div>
 <div class="solution" data-print-placement="here" markdown="1">
-No, there are many ways to connect resistors that are not combinations of series and parallel, including loops and junctions. In such cases Kirchhoff’s rules, to be introduced in [Kirchhoff’s Rules](/m42359), will allow you to analyze the circuit.
+No, there are many ways to connect resistors that are not combinations of series and parallel, including loops and junctions. In such cases Kirchhoff’s rules, to be introduced in [Kirchhoff’s Rules](../contents/ch21KirchhoffsRules), will allow you to analyze the circuit.
 
 </div>
 </div>

@@ -25,7 +25,7 @@ magnitude and direction. (Note that the magnitude of the electric field
 strength, a scalar quantity, is represented by $$E $$ below.) The relationship
 between $$\Delta V $$ and $$\vb{E} $$ is revealed by calculating the
 work done by the force in moving a charge from point A to point B. But, as noted
-in [Electric Potential Energy: Potential Difference](../contents//ch19ElectricPotentialEnergy)
+in [Electric Potential Energy: Potential Difference](../contents/ch19ElectricPotentialEnergy)
 , this is complex for arbitrary charge distributions, requiring calculus. We
 therefore look at a uniform electric field as an interesting special case.
 
@@ -337,14 +337,14 @@ if the plates are separated by 2.00 mm and a potential difference of  $$ 5.0 \ti
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-The voltage across a membrane forming a cell wall is 80.0 mV and the membrane is 9.00 nm thick. What is the electric field strength? (The value is surprisingly large, but correct. Membranes are discussed in [Capacitors and Dielectrics](/m42333) and [Nerve Conduction—Electrocardiograms](/m42352).) You may assume a uniform electric field.
+The voltage across a membrane forming a cell wall is 80.0 mV and the membrane is 9.00 nm thick. What is the electric field strength? (The value is surprisingly large, but correct. Membranes are discussed in [Capacitors and Dielectrics](../contents/ch19CapacitorsAndDielectrics) and [Nerve Conduction—Electrocardiograms](../contents/ch19NerveConductionElectrocardiograms).) You may assume a uniform electric field.
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Membrane walls of living cells have surprisingly large electric fields across them due to separation of ions. (Membranes are discussed in some detail in [Nerve Conduction—Electrocardiograms](/m42352).) What is the voltage across an 8.00 nm–thick membrane if the electric field strength across it is 5.50 MV/m? You may assume a uniform electric field.
+Membrane walls of living cells have surprisingly large electric fields across them due to separation of ions. (Membranes are discussed in some detail in [Nerve Conduction—Electrocardiograms](../contents/ch21NerveConductionElectrocardiograms).) What is the voltage across an 8.00 nm–thick membrane if the electric field strength across it is 5.50 MV/m? You may assume a uniform electric field.
 
 </div>
 <div class="solution" markdown="1">

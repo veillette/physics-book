@@ -127,7 +127,7 @@ star, we would not be able to see it directly. The question is open as to how
 many planets or other bodies smaller than about 1/1000 the mass of the Sun are
 there. If such bodies pass between us and a star, they will not block the star’s
 light, being too small, but they will form a gravitational lens, as discussed
-in [General Relativity and Quantum Gravity](../contents//ch34GeneralRelativityAndQuantumTheory).
+in [General Relativity and Quantum Gravity](../contents/ch34GeneralRelativityAndQuantumTheory).
 
 In a process called **microlensing**, light from the star is focused and the
 star appears to brighten in a characteristic manner. Searches for dark matter in
@@ -155,7 +155,7 @@ come from difficult measurements of total energy emitted in the decays and
 reactions in which neutrinos are involved. There is an amusing possibility of
 proving that neutrinos have mass in a completely different way.
 
-We have noted in [Particles, Patterns, and Conservation Laws](../contents//ch33ParticlesPatternsAndConservationLaws) that
+We have noted in [Particles, Patterns, and Conservation Laws](../contents/ch33ParticlesPatternsAndConservationLaws) that
 there are three flavors of neutrinos ( $${\nu }_{e} $$ , $${\nu}_{\mu} $$ , and
 $${v}_{\tau } $$ )
 and that the weak interaction could change quark flavor. It should also change

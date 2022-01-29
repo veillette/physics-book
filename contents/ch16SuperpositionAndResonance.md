@@ -13,7 +13,7 @@ layout: page
 
 Most waves do not look very simple. They look more like the waves
 in [[Figure 1]](#Figure1) than like the simple water wave considered
-in [Waves](../contents//ch16Waves). (Simple waves may be created by a simple harmonic
+in [Waves](../contents/ch16Waves). (Simple waves may be created by a simple harmonic
 oscillation, and thus have a sinusoidal shape). Complex waves are more
 interesting, even beautiful, but they look formidable. Most waves appear complex
 because they result from several simple waves adding together. Luckily, the

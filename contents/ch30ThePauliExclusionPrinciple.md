@@ -42,7 +42,7 @@ No two electrons can have the same set of quantum numbers. That is, no two elect
 
 
 Let us examine how the exclusion principle applies to electrons in atoms. The
-quantum numbers involved were defined in [Quantum Numbers and Rules](../contents//ch30QuantumNumbersAndRules) as
+quantum numbers involved were defined in [Quantum Numbers and Rules](../contents/ch30QuantumNumbersAndRules) as
 $$\mathrm{n, l,} {m}_{l}\mathrm{, s} $$ , and $${m}_{s} $$ . Since $$s $$ is
 always $$1/2 $$ for electrons, it is redundant to list $$s $$ , and so we omit
 it and specify the state of an electron by a set of four numbers $$\left(n, l,
@@ -54,7 +54,7 @@ limits to how many of them can be in the same energy state. Note that $$n $$
 determines the energy state in the absence of a magnetic field. So we first
 choose $$n $$ , and then we see how many electrons can be in this energy state
 or energy level. Consider the $$n=1 $$ level, for example. The only value $$l $$
-can have is 0 (see [[link]](../contents//ch30QuantumNumbersAndRules#import-auto-id3013526) for a list of
+can have is 0 (see [[link]](../contents/ch30QuantumNumbersAndRules#import-auto-id3013526) for a list of
 possible values once $$n $$ is known), and thus $${m}_{l} $$ can only be 0. The
 spin projection $${m}_{s} $$ can be either $$+1/2 $$ or $$-1/2 $$ , and so there
 can be two electrons in the $$n=1 $$ state. One has quantum numbers $$\left(1,

@@ -52,7 +52,7 @@ hydrogen atom. Thus the binding energy of a nuclide $${}^{A}\text{X} $$ is
  $$\text{BE}=\left\{\left[Z m\left({}^{1}\text{H}\right)+N m_{n}\right]  -m\left({}^{A}X\right)\right\}{c}^{2}. $$
 </div>
 
-The atomic masses can be found in [Appendix A](/m42699), most conveniently
+The atomic masses can be found in [Appendix A](../contents/m42699), most conveniently
 expressed in unified atomic mass units u ( $$1 \text{u}= 931.5
 \text{MeV}/{c}^{2} $$ ). BE is thus calculated from known atomic masses.
 
@@ -75,7 +75,7 @@ number determined by uranium-238 dating. These rocks could only have solidified
 once the surface of the Earth had cooled sufficiently. The temperature of the
 Earth at formation can be estimated based on gravitational potential energy of
 the assemblage of pieces being converted to thermal energy. Using heat transfer
-concepts discussed in [Thermodynamics](../contents//ch15Thermodynamics) it is then possible
+concepts discussed in [Thermodynamics](../contents/ch15Thermodynamics) it is then possible
 to calculate how long it would take for the surface to cool to rock-formation
 temperatures. The result is about $$10^{9} $$ years. The first rocks formed have
 been solid for $$ 3.5 \times 10^{9} $$ years, so that the age of the Earth is
@@ -184,7 +184,7 @@ To find $$\text{BE}/A $$ , we first find BE using the Equation
 $$\text{BE}=\left\{\left[Z m\left({}^{1}\text{H}\right)+N m_{n}\right]  -m\left(
 {}^{A}\text{X}\right)\right\}{c}^{2} $$ and then divide by $$A $$ . This is
 straightforward once we have looked up the appropriate atomic masses
-in [Appendix A](/m42699).
+in [Appendix A](../contents/m42699).
 
 **Solution**
 
@@ -199,7 +199,7 @@ For  $${}^{4}\text{He} $$ ,
 <div class="equation">
  $$\text{BE}=\left\{\left[ 2m\left({}^{1}\text{H}\right)+{2m}_{n}\right]  -m\left({}^{4}\text{He}\right)\right\}{c}^{2}\text{.} $$
 </div>
-[Appendix A](/m42699) gives these masses as  $$m\left({}^{4}\text{He}\right)=4.002602 \text{u} $$ ,
+[Appendix A](../contents/m42699) gives these masses as  $$m\left({}^{4}\text{He}\right)=4.002602 \text{u} $$ ,
   $$m\left({}^{1}\text{H}\right)=1.007825 \text{u} $$ ,
  and  $${m}_{n}=1.008665 \text{u} $$ .
  Thus,
@@ -241,7 +241,7 @@ $$ decay has then taken place.
 There is more to be learned from nuclear binding energies. The general trend in
 $$\text{BE}/A $$ is fundamental to energy production in stars, and to fusion and
 fission energy sources on Earth, for example. This is one of the applications of
-nuclear physics covered in [Medical Applications of Nuclear Physics](../contents//ch32MedicalApplicationsOfNuclearPhysics).
+nuclear physics covered in [Medical Applications of Nuclear Physics](../contents/ch32MedicalApplicationsOfNuclearPhysics).
 The abundance of elements on Earth, in stars, and in the universe as a whole is
 related to the binding energy of nuclei and has implications for the continued
 expansion of the universe.
@@ -406,7 +406,7 @@ The fact that  $$\text{BE}/A $$  is greatest for  $$A $$
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-The purpose of this problem is to show in three ways that the binding energy of the electron in a hydrogen atom is negligible compared with the masses of the proton and electron. (a) Calculate the mass equivalent in u of the 13.6-eV binding energy of an electron in a hydrogen atom, and compare this with the mass of the hydrogen atom obtained from [Appendix A](/m42699). (b) Subtract the mass of the proton given in [[link]](../contents/m42631#import-auto-id1575277) from the mass of the hydrogen atom given in [Appendix A](/m42699). You will find the difference is equal to the electron’s mass to three digits, implying the binding energy is small in comparison. (c) Take the ratio of the binding energy of the electron (13.6 eV) to the energy equivalent of the electron’s mass (0.511 MeV). (d) Discuss how your answers confirm the stated purpose of this problem.
+The purpose of this problem is to show in three ways that the binding energy of the electron in a hydrogen atom is negligible compared with the masses of the proton and electron. (a) Calculate the mass equivalent in u of the 13.6-eV binding energy of an electron in a hydrogen atom, and compare this with the mass of the hydrogen atom obtained from [Appendix A](../contents/m42699). (b) Subtract the mass of the proton given in [[link]](../contents/m42631#import-auto-id1575277) from the mass of the hydrogen atom given in [Appendix A](../contents/m42699). You will find the difference is equal to the electron’s mass to three digits, implying the binding energy is small in comparison. (c) Take the ratio of the binding energy of the electron (13.6 eV) to the energy equivalent of the electron’s mass (0.511 MeV). (d) Discuss how your answers confirm the stated purpose of this problem.
 
 </div>
 <div class="solution" markdown="1">

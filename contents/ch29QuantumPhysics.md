@@ -32,7 +32,7 @@ so numerous in the macroscopic situations we sense directly.
 <div class="title">
 Making Connections: Realms of Physics
 </div>
-Classical physics is a good approximation of modern physics under conditions first discussed in the [The Nature of Science and Physics](/m42119). Quantum mechanics is valid in general, and it must be used rather than classical physics to describe small objects, such as atoms.
+Classical physics is a good approximation of modern physics under conditions first discussed in the [The Nature of Science and Physics](../contents/m42119). Quantum mechanics is valid in general, and it must be used rather than classical physics to describe small objects, such as atoms.
 
 </div>
 

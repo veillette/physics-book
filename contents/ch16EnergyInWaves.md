@@ -157,7 +157,7 @@ If two identical waves, each having an intensity of  $$ 1.00 {\text{W/m}}^{2} $$
 
 **Strategy**
 
-We know from [Superposition and Interference](../contents//ch16SuperpositionAndResonance)
+We know from [Superposition and Interference](../contents/ch16SuperpositionAndResonance)
 that when two identical waves, which have equal amplitudes $$X $$ , interfere
 perfectly constructively, the resulting wave has an amplitude of $$2X $$ .
 Because a wave’s intensity is proportional to amplitude squared, the intensity
@@ -198,7 +198,7 @@ violation, of course, cannot happen. What does happen is intriguing. The area
 over which the intensity is $$ 4.00 {\text{W/m}}^{2} $$ is much less than the
 area covered by the two waves before they interfered. There are other areas
 where the intensity is zero. The addition of waves is not as simple as our first
-look in [Superposition and Interference](../contents//ch16SuperpositionAndResonance)
+look in [Superposition and Interference](../contents/ch16SuperpositionAndResonance)
 suggested. We actually get a pattern of both constructive interference and
 destructive interference whenever two waves are added. For example, if we have
 two stereo speakers putting out $$ 1.00 {\text{W/m}}^{2} $$ each, there will be

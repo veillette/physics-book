@@ -477,7 +477,7 @@ in the periodic table of the elements and the chart of nuclides. The $${\Omega
 }^{-} $$ particle, in particular, had not been discovered but was predicted by
 quark theory. Its combination of three strange quarks, $$\text{sss} $$ , gives
 it a strangeness of $$-3 $$
-(see [[link]](../contents//ch33ParticlesPatternsAndConservationLaws#import-auto-id1169736657305)) and other predictable
+(see [[link]](../contents/ch33ParticlesPatternsAndConservationLaws#import-auto-id1169736657305)) and other predictable
 characteristics, such as spin, charge, approximate mass, and lifetime. If the
 quark picture is complete, the $${\Omega }^{-} $$ should exist. It was first
 observed in 1964 at Brookhaven National Laboratory and had the predicted
@@ -502,7 +502,7 @@ Patterns in the properties of atoms allowed the periodic table to be developed. 
 Quantum Numbers From Quark Composition
 </div>
 Verify the quantum numbers given for the  $${\text{Ξ}}^{0} $$
- particle in [[link]](/m42674#import-auto-id1169736657305) by adding the quantum numbers for its quark composition as given in [[Table 2]](#Table2).
+ particle in [[link]](../contents/m42674#import-auto-id1169736657305) by adding the quantum numbers for its quark composition as given in [[Table 2]](#Table2).
 
 **Strategy**
 
@@ -519,9 +519,9 @@ The total charge of *uss* is $$+\left(\frac{2}{3}\right){q}_{e}-\left(
 correct for the $${\text{Ξ}}^{0} $$ . The baryon number is $$+\left(
 \frac{1}{3}\right)+\left(\frac{1}{3}\right)+\left(\frac{1}{3}\right)=1 $$ , also
 correct since the $${\text{Ξ}}^{0} $$ is a matter baryon and has $$B=1 $$ , as
-listed in [[link]](../contents//ch33ParticlesPatternsAndConservationLaws#import-auto-id1169736657305). Its strangeness is
+listed in [[link]](../contents/ch33ParticlesPatternsAndConservationLaws#import-auto-id1169736657305). Its strangeness is
 $$S=0-1-1=-2 $$ , also as expected
-from [[link]](../contents//ch33ParticlesPatternsAndConservationLaws#import-auto-id1169736657305). Its charm, bottomness, and
+from [[link]](../contents/ch33ParticlesPatternsAndConservationLaws#import-auto-id1169736657305). Its charm, bottomness, and
 topness are 0, as are its lepton family numbers (it is not a lepton).
 
 **Discussion**
@@ -589,7 +589,7 @@ Revolution. Ting and Richter shared the 1976 Nobel Prize.
 
 History quickly repeated itself. In 1975, the tau ( $$\tau $$ )
 was discovered, and a third family of leptons emerged as seen
-in [[link]](../contents//ch33ParticlesPatternsAndConservationLaws#import-auto-id1169736657305)). Theorists quickly proposed
+in [[link]](../contents/ch33ParticlesPatternsAndConservationLaws#import-auto-id1169736657305)). Theorists quickly proposed
 two more quark flavors called **top** (*t*) or truth and **bottom** (*b*) or
 beauty to keep the number of quarks the same as the number of leptons. And in
 1976, the upsilon ( $$\Upsilon $$ )
@@ -675,7 +675,7 @@ eventually decay into the lowest, leaving only *u* and *d* quarks. We have long
 sought connections between the forces in nature. Since these are carried by
 particles, we will explore connections between gluons, $${W}^{±} $$ and
 $${Z}^{0} $$ , and photons as part of the search for unification of forces
-discussed in [GUTs: The Unification of Forces](../contents//ch33GUTS)..
+discussed in [GUTs: The Unification of Forces](../contents/ch33GUTS)..
 
 ![This figure shows three types of particles arranged in three rows. In the top row are leptons, in the middle row are quarks, and in the bottom row are carrier particles. The rows are divided into three columns, with the columns labeled family one, family two, and family three, from left to right. In family one are the electron and electron neutrino, the up and down quarks, and the photon and upsilon. In family two are the muon and muon neutrino, the strange and charmed quarks, and the W plus, W minus, and Z zero. In family three are the tau and tau neutrino, the top and bottom quarks, and gluons.](../resources/Figure_34_05_06.jpg "The three types of particles are leptons, quarks, and carrier particles. Each of those types is divided into three analogous families, with the graviton left out.")
 {: #Figure5}

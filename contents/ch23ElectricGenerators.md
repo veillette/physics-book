@@ -10,7 +10,7 @@ layout: page
 
 **Electric generators** induce an emf by rotating a coil in a magnetic field, as
 briefly discussed
-in [Induced Emf and Magnetic Flux](../contents//ch23InducedEmfAndMagneticFlux). We will now
+in [Induced Emf and Magnetic Flux](../contents/ch23InducedEmfAndMagneticFlux). We will now
 explore generators in more detail. Consider the following example.
 
 <div class="example" markdown="1">
@@ -198,7 +198,7 @@ shaft, which rotates the coil within the generator.
 Generators illustrated in this section look very much like the motors
 illustrated previously. This is not coincidental. In fact, a motor becomes a
 generator when its shaft rotates. Certain early automobiles used their starter
-motor as a generator. In [Back Emf](../contents//ch23BackEmf), we shall further explore the
+motor as a generator. In [Back Emf](../contents/ch23BackEmf), we shall further explore the
 action of a motor as a generator.
 
 ### Section Summary

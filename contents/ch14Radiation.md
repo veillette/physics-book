@@ -32,8 +32,8 @@ than that of the electrical element and the steel. The radiated energy depends
 on its intensity, which is represented in the figure below by the height of the
 distribution.
 
-[Electromagnetic Waves](../contents//ch24ElectromagneticWaves) explains more about the electromagnetic
-spectrum and [Introduction to Quantum Physics](../contents//ch29QuantumPhysics) discusses how the
+[Electromagnetic Waves](../contents/ch24ElectromagneticWaves) explains more about the electromagnetic
+spectrum and [Introduction to Quantum Physics](../contents/ch29QuantumPhysics) discusses how the
 decrease in wavelength corresponds to an increase in energy.
 
 ![Figure a shows a graph of the intensity of electromagnetic radiation versus wavelength in nano meters. There are three curves on the graph labeled, from top to bottom, six thousand K, four thousand K, and three thousand K. The top curve peaks sharply at the beginning near about five hundred nano meters in what is labeled the visible range (violet to red). After the peak, this curve decays strongly by three thousand nano meters. The middle curve peaks more softly near nine hundred nano meters at a height about one third that of the first curve, and decays by three thousand nano meters. The lowest curve peaks very softly near one thousand nano meters curve and decreases slowly for higher wavelengths. The region between one thousand to two thousand nano meters is labeled the infrared range. Figure b shows two burners of a gas stove. One burner is closer and the other is in the background. The flame of the near burner is blue at the bottom and gradually changes to orange as you approach the top of the flame. The flame of the background burner is smaller and is essentially completely blue.](../resources/Figure_15_07_02a.jpg "(a) A graph of the spectra of electromagnetic waves emitted from an ideal radiator at three different temperatures. The intensity or rate of radiation emission increases dramatically with temperature, and the spectrum shifts toward the visible and ultraviolet parts of the spectrum. The shaded portion denotes the visible part of the spectrum. It is apparent that the shift toward the ultraviolet with temperature makes the visible appearance shift from red to white to blue as temperature increases. (b) Note the variations in color corresponding to variations in flame temperature. (credit: Tuohirulla)")
@@ -254,8 +254,8 @@ Problem-Solving Strategies for the Methods of Heat Transfer
 5.   *Solve the appropriate equation for the quantity to be determined (the unknown).*
 6.   For conduction, equation
      $$\frac{Q}{t}=\frac{k_{B}A\left({T}_{2}-{T}_{1}\right)}{d} $$
-    is appropriate. [[link]](../contents//ch14Conduction#import-auto-id1245788) lists thermal conductivities. For convection, determine the amount of matter moved and use equation $$Q=mc\Delta T $$, to calculate the heat transfer involved in the temperature change of the fluid. If a phase change accompanies convection, equation $$Q=m L_{\text{f}} $$ or  $$Q=m L_{\text{v}} $$
-        is appropriate to find the heat transfer involved in the phase change. [[link]](../contents//ch14HeatTransferMethods#import-auto-id3260303) lists information relevant to phase change. For radiation, equation
+    is appropriate. [[link]](../contents/ch14Conduction#import-auto-id1245788) lists thermal conductivities. For convection, determine the amount of matter moved and use equation $$Q=mc\Delta T $$, to calculate the heat transfer involved in the temperature change of the fluid. If a phase change accompanies convection, equation $$Q=m L_{\text{f}} $$ or  $$Q=m L_{\text{v}} $$
+        is appropriate to find the heat transfer involved in the phase change. [[link]](../contents/ch14HeatTransferMethods#import-auto-id3260303) lists information relevant to phase change. For radiation, equation
      $$\frac{ {Q}_{\text{net}}}{t}=\sigma eA\left({T}_{2}^{4}-{T}_{1}^{4}\right) $$
         gives the net heat transfer rate.
 7.   *Insert the knowns along with their units into the appropriate equation and obtain numerical solutions complete with units.*
