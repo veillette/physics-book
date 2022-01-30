@@ -67,7 +67,7 @@ has an index of refraction less than the first. Note the above equation is
 written for a light ray that travels in medium 1 and reflects from medium 2, as
 shown in the figure.
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 How Big is the Critical Angle Here?
 </div>
@@ -321,14 +321,14 @@ The most common type of mirage is an illusion that light from faraway objects is
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
 Verify that the critical angle for light going from water to air is  $$48.6 ^\circ $$ ,
- as discussed at the end of [[link]](#fs-id2994315), regarding the critical angle for light traveling in a polystyrene (a type of plastic) pipe surrounded by air.
+ as discussed at the end of [[Example 1]](#Example1), regarding the critical angle for light traveling in a polystyrene (a type of plastic) pipe surrounded by air.
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-(a) At the end of [[link]](#fs-id2994315), it was stated that the critical angle for light going from diamond to air is  $$ 24.4º $$ .
+(a) At the end of [[Example 1]](#Example1), it was stated that the critical angle for light going from diamond to air is  $$ 24.4º $$ .
  Verify this. (b) What is the critical angle for light going from zircon to air?
 
 </div>
@@ -365,7 +365,7 @@ Suppose you are using total internal reflection to make an efficient corner refl
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
 You can determine the index of refraction of a substance by determining its critical angle. (a) What is the index of refraction of a substance that has a critical angle of  $$ 68.4º $$
- when submerged in water? What is the substance, based on [[link]](../contents/m42459#Table1)? (b) What would the critical angle be for this substance in air?
+ when submerged in water? What is the substance, based on [[Table 1]](../contents/ch25TheLawOfRefraction#Table1)? (b) What would the critical angle be for this substance in air?
 
 </div>
 </div>

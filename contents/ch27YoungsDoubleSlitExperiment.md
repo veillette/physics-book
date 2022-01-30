@@ -265,7 +265,7 @@ Is it possible to create a situation in which there is only destructive interfer
 
 ### Problems &amp; Exercises
 
-<div class="exercise" data-element-type="problems-exercises">
+<div id="Exercise1" class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 At what angle is the first-order maximum for 450-nm wavelength blue light falling on double slits separated by 0.0500 mm?
 
@@ -322,7 +322,7 @@ What is the wavelength of light falling on double slits separated by  $$ 2.00 \t
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-At what angle is the fourth-order maximum for the situation in [[link]](#fs-id1169737757694)?
+At what angle is the fourth-order maximum for the situation in [[Exercise 1]](#Exercise1)?
 
 </div>
 <div class="solution" markdown="1">

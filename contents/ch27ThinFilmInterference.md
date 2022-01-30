@@ -17,12 +17,12 @@ one having a thickness $$t $$ smaller than a few times the wavelength of light,
 $$\lambda $$ . Since color is associated indirectly with $$\lambda $$ and since
 all interference depends in some way on the ratio of $$\lambda $$ to the size of
 the object involved, we should expect to see different colors for different
-thicknesses of a film, as in [[link]](../contents/ch27ThinFilmInterference#fs-id2871611).
+thicknesses of a film, as in [[Figure 1]](#Figure1).
 
 ![Soap bubbles reflecting mostly purple and blue light with some regions of orange.](../resources/Figure_28_00_02a.jpg "These soap bubbles exhibit brilliant colors when exposed to sunlight. (credit: Scott Robinson, Flickr)")
+{: #Figure1}
 
-
-What causes thin film interference? [[Figure 1]](#Figure1) shows how light
+What causes thin film interference? [[Figure 2]](#Figure2) shows how light
 reflected from the top and bottom surfaces of a film can interfere. Incident
 light is only partially reflected from the top surface of the film (ray 1). The
 remainder enters the film and is itself partially reflected from the bottom
@@ -30,11 +30,11 @@ surface. Part of the light reflected from the bottom surface can emerge from the
 top of the film (ray 2) and interfere with light reflected from the top (ray 1).
 Since the ray that enters the film travels a greater distance, it may be in or
 out of phase with the ray reflected from the top. However, consider for a
-moment, again, the bubbles in [[link]](../contents/ch27ThinFilmInterference#fs-id2871611). The bubbles are
+moment, again, the bubbles in [[Figure 1]](#Figure1). The bubbles are
 darkest where they are thinnest. Furthermore, if you observe a soap bubble
 carefully, you will note it gets dark at the point where it breaks. For very
 thin films, the difference in path lengths of ray 1 and ray 2
-in [[Figure 1]](#Figure1) is negligible; so why should they interfere
+in [[Figure 2]](#Figure2) is negligible; so why should they interfere
 destructively and not constructively? The answer is that a phase change can
 occur upon reflection. The rule is as follows:
 
@@ -43,9 +43,9 @@ that of the medium in which it is traveling, a $$180 ^\circ $$ phase change (
 or a $$\lambda /2 $$ shift) occurs.**
 
 ![The figure shows three materials, or media, stacked one upon the other. The topmost medium is labeled n one, the next is labeled n two and its thickness is t, and the lowest is labeled n three. A light ray labeled incident light starts in the n one medium and propagates down and to the right to strike the n one n two interface. The ray gets partially reflected and partially refracted. The partially reflected ray is labeled ray one. The refracted ray continues downward in the n two medium and is reflected back up from the n two n three interface. This reflected ray, labeled ray two, refracts again upon passing up through the n two n one interface and continues upward parallel to ray one. Ray one and ray two then enter an observer&#x2019;s eye.](../resources/Figure_28_07_01a.jpg "Light striking a thin film is partially reflected (ray 1) and partially refracted at the top surface. The refracted ray is partially reflected at the bottom surface and emerges as ray 2. These rays will interfere in a way that depends on the thickness of the film and the indices of refraction of the various media.")
-{: #Figure1}
+{: #Figure2}
 
-If the film in [[Figure 1]](#Figure1) is a soap bubble (essentially water with
+If the film in [[Figure 2]](#Figure2) is a soap bubble (essentially water with
 air on both sides), then there is a $$\lambda /2 $$ shift for ray 1 and none for
 ray 2. Thus, when the film is very thin, the path length difference between the
 two rays is negligible, they are exactly out of phase, and destructive
@@ -53,7 +53,7 @@ interference will occur at all wavelengths and so the soap bubble will be dark
 here.
 
 The thickness of the film relative to the wavelength of light is the other
-crucial factor in thin film interference. Ray 2 in [[Figure 1]](#Figure1)
+crucial factor in thin film interference. Ray 2 in [[Figure 2]](#Figure2)
 travels a greater distance than ray 1. For light incident perpendicular to the
 surface, ray 2 travels a distance approximately $$2t $$ farther than ray 1. When
 this distance is an integral or half-integral multiple of the wavelength in the
@@ -62,7 +62,7 @@ in vacuum and $$n $$ is the index of refraction), constructive or destructive
 interference occurs, depending also on whether there is a phase change in either
 ray.
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Calculating Non-reflective Lens Coating Using Thin Film Interference
 </div>
@@ -70,7 +70,7 @@ Sophisticated cameras use a series of several lenses. Light can reflect from the
 
 **Strategy**
 
-Refer to [[Figure 1]](#Figure1) and use $${n}_{1}=100 $$ for air, $${n}_{2}=1.38
+Refer to [[Figure 2]](#Figure2) and use $${n}_{1}=100 $$ for air, $${n}_{2}=1.38
 $$ , and $${n}_{3}=1.52 $$ . Both ray 1 and ray 2 will have a $$\lambda /2 $$
 shift upon reflection. Thus, to obtain destructive interference, ray 2 will need
 to travel a half wavelength farther than ray 1. For rays incident
@@ -118,7 +118,7 @@ wavelength of light, and the refractive indices. For white light incident on a
 film that varies in thickness, you will observe rainbow colors of constructive
 interference for various wavelengths as the thickness varies.
 
-<div class="example" markdown="1">
+<div id="Example2" class="example" markdown="1">
 <div class="title">
 Soap Bubbles: More Than One Thickness can be Constructive
 </div>
@@ -126,7 +126,7 @@ Soap Bubbles: More Than One Thickness can be Constructive
 
 **Strategy and Concept**
 
-Use [[Figure 1]](#Figure1) to visualize the bubble. Note that $${n}_{1}={n}_
+Use [[Figure 2]](#Figure2) to visualize the bubble. Note that $${n}_{1}={n}_
 {3}=1.00 $$ for air, and $${n}_{2}=1.333 $$ for soap (equivalent to water).
 There is a $$\lambda /2 $$ shift for ray 1 reflected from the top surface of the
 bubble, and no shift for ray 2 reflected from the bottom surface. To get
@@ -198,7 +198,7 @@ thickness, like a smooth wedge, then the bands would be evenly spaced.
 </div>
 
 Another example of thin film interference can be seen when microscope slides are
-separated (see [[Figure 2]](#Figure2)). The slides are very flat, so that the
+separated (see [[Figure 3]](#Figure3)). The slides are very flat, so that the
 wedge of air between them increases in thickness very uniformly. A phase change
 occurs at the second surface but not the first, and so there is a dark band
 where the slides touch. The rainbow colors of constructive interference repeat,
@@ -209,12 +209,12 @@ length differences. If pure-wavelength light instead of white light is used,
 then bright and dark bands are obtained rather than repeating rainbow colors.
 
 ![Figure A shows two microscope slides that have been pressed together. Multicolor swirling rainbow bands are visible coming from the slides. Figure B shows a cross section of two glass slides stacked one on top of the other. The lower slide is horizontal and the upper slide is tilted up at an angle that is larger than the actual angle between slides would be. Two rays come from above and impinge upon the slides. Their refraction and partial reflection is shown at each glass air interface.](../resources/Figure_28_07_02a.jpg "(a) The rainbow color bands are produced by thin film interference in the air between the two glass slides. (b) Schematic of the paths taken by rays in the wedge of air between the slides.")
-{: #Figure2}
+{: #Figure3}
 
 An important application of thin film interference is found in the manufacturing
 of optical instruments. A lens or mirror can be compared with a master as it is
 being ground, allowing it to be shaped to an accuracy of less than a wavelength
-over its entire surface. [[link]](#fs-id1169736610625) illustrates the
+over its entire surface. [[Figure 4]](#Figure4) illustrates the
 phenomenon called Newton’s rings, which occurs when the plane surfaces of two
 lenses are placed together. (The circular bands are called Newton’s rings
 because Isaac Newton described them and their use in detail. Newton did not
@@ -225,7 +225,7 @@ so that great precision can be obtained. Once the lens is perfect, there will be
 no rings.
 
 ![This figure shows rainbow-colored concentric rings obtained when two plano-convex lenses are placed together with their flat surfaces in contact.](../resources/Figure_28_07_03a.jpg "&#x201C;Newton's rings&#x201D; interference fringes are produced when two plano-convex lenses are placed together with their plane surfaces in contact. The rings are created by interference between the light reflected off the two surfaces as a result of a slight gap between them, indicating that these surfaces are not precisely plane but are slightly convex. (credit: Ulf Seifert, Wikimedia Commons)")
-
+{: #Figure4}
 
 The wings of certain moths and butterflies have nearly iridescent colors due to
 thin film interference. In addition to pigmentation, the wing’s color is
@@ -347,7 +347,7 @@ An inventor notices that a soap bubble is dark at its thinnest and realizes that
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-A non-reflective coating like the one described in [[link]](#fs-id1169738090922) works ideally for a single wavelength and for perpendicular incidence. What happens for other wavelengths and other incident directions? Be specific.
+A non-reflective coating like the one described in [[Example 1]](#Example1) works ideally for a single wavelength and for perpendicular incidence. What happens for other wavelengths and other incident directions? Be specific.
 
 </div>
 </div>
@@ -361,7 +361,7 @@ Why is it much more difficult to see interference fringes for light reflected fr
 
 ### Problems &amp; Exercises
 
-<div class="exercise" data-element-type="problems-exercises">
+<div id="Exercise1" class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A soap bubble is 100 nm thick and illuminated by white light incident perpendicular to its surface. What wavelength and color of visible light is most constructively reflected, assuming the same index of refraction as water?
 
@@ -372,7 +372,7 @@ A soap bubble is 100 nm thick and illuminated by white light incident perpendicu
 </div>
 </div>
 
-<div class="exercise" data-element-type="problems-exercises">
+<div id="Exercise2" class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 An oil slick on water is 120 nm thick and illuminated by white light incident perpendicular to its surface. What color does the oil appear (what is the most constructively reflected wavelength), given its index of refraction is 1.40?
 
@@ -465,15 +465,14 @@ A film of oil on water will appear dark when it is very thin, because the path l
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Repeat [[link]](#fs-id1169738246614), but take the light to be incident at a  $$45 ^\circ $$
- angle.
+Repeat [[Exercise 1]](#Exercise1), but take the light to be incident at a  $$45 ^\circ $$ angle.
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Repeat [[link]](#fs-id1169738028271), but take the light to be incident at a  $$45 ^\circ $$
+Repeat [[Exercise 2]](#Exercise2), but take the light to be incident at a  $$45 ^\circ $$
  angle.
 
 </div>
