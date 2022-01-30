@@ -39,7 +39,7 @@ electrical appliances.
 ![Charges are shown as small spheres moving through a section of a conducting wire. The direction of movement of charge is indicated by arrows along the length of the conductor toward the right. The cross-sectional area of the wire is labeled as A. The current is equal to the flow of charge.](../resources/Figure_21_01_01a.jpg "The rate of flow of charge is current. An ampere is the flow of one coulomb through an area in one second.")
 {: #Figure1}
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Calculating Currents: Current in a Truck Battery and a Handheld Calculator
 </div>
@@ -138,11 +138,11 @@ other; electrons flow due to mutually repulsive electrostatic forces.
 ![In part a, positive charges move toward the right through a conducting wire. The direction of movement of charge is indicated by arrows along the length of the wire. The area of a cross section of the wire is labeled as A. The direction of the electric field E is toward the right, in the same direction as movement of positive charge. The current direction is also toward the right, shown by an arrow. In part b, negative charges move toward the left through a conducting wire. The direction of movement of charge is indicated by arrows along the length of the wire. The area of a cross section of the wire is labeled as A. The direction of the electric field E is toward the right, opposite the direction of movement of negative charge. The current direction is also toward the right, shown by an arrow.](../resources/Figure_21_01_03a.jpg "Current \( I \) is the rate at which charge moves through an area \( A \) , such as the cross-section of a wire. Conventional current is defined to move in the direction of the electric field. (a) Positive charges move in the direction of the electric field and the same direction as conventional current. (b) Negative charges move in the direction opposite to the electric field. Conventional current is in the direction opposite to the movement of negative charge. The flow of electrons is sometimes referred to as electronic flow. ")
 {: #Figure3}
 
-<div class="example" markdown="1">
+<div id="Example2" class="example" markdown="1">
 <div class="title">
 Calculating the Number of Electrons that Move through a Calculator
 </div>
-If the 0.300-mA current through the calculator mentioned in the [[link]](#fs-id1957989) example is carried by electrons, how many electrons per second pass through it?
+If the 0.300-mA current through the calculator mentioned in the [[Example 1]](#Example1) example is carried by electrons, how many electrons per second pass through it?
 
 **Strategy**
 
@@ -294,7 +294,7 @@ collide with the atoms in the lattice and other electrons, generating thermal
 energy, and the conductor gets warmer. In an insulator, the organization of the
 atoms and the structure do not allow for such free electrons.
 
-<div class="example" markdown="1">
+<div id="Example3" class="example" markdown="1">
 <div class="title">
 Calculating Drift Velocity in a Common Wire
 </div>
@@ -552,14 +552,14 @@ A large cyclotron directs a beam of  $${\text{He}}^{++} $$
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Repeat the above example on [[link]](#fs-id2616778), but for a wire made of silver and given there is one free electron per silver atom.
+Repeat the above example on [[Example 3]](#Example3), but for a wire made of silver and given there is one free electron per silver atom.
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Using the results of the above example on [[link]](#fs-id2616778), find the drift velocity in a copper wire of twice the diameter and carrying 20.0 A.
+Using the results of the above example on [[Example 3]](#Example3), find the drift velocity in a copper wire of twice the diameter and carrying 20.0 A.
 
 </div>
 <div class="solution" markdown="1">
@@ -569,7 +569,7 @@ Using the results of the above example on [[link]](#fs-id2616778), find the drif
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A 14-gauge copper wire has a diameter of 1.628 mm. What magnitude current flows when the drift velocity is 1.00 mm/s? (See above example on [[link]](#fs-id2616778) for useful information.)
+A 14-gauge copper wire has a diameter of 1.628 mm. What magnitude current flows when the drift velocity is 1.00 mm/s? (See above example on [[Example 3]](#Example3) for useful information.)
 
 </div>
 </div>

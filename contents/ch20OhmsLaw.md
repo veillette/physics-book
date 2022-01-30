@@ -74,7 +74,7 @@ resistance, or their resistance can be included in $$R $$.
 ![The figure describes a simple electric circuit with a battery connected to a resistance R. The direction of current is shown to emerge from the positive terminal of a battery of voltage V, pass through the resistor, and enter the negative terminal of the battery. The current I in the circuit is V divided by R, moving in a clockwise direction.](../resources/Figure_21_02_01a.jpg "A simple electric circuit in which a closed path for current to flow is supplied by conductors (usually metal wires) connecting a load to the terminals of a battery, represented by the red parallel lines. The zigzag symbol represents the single resistor and includes any resistance in the connections to the voltage source.")
 {: #Figure1}
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Calculating Resistance: An Automobile Headlight
 </div>
@@ -122,7 +122,7 @@ Additional insight is gained by solving $$I=V/R $$ for $$V, $$ yielding
 This expression for $$V $$ can be interpreted as the <em>voltage drop across a
 resistor produced by the flow of current </em> $$I $$ . The phrase $$IR $$
 **drop** is often used for this voltage. For instance, the headlight
-in [[link]](#fs-id3120142) has an $$IR $$ drop of 12.0 V. If voltage is measured
+in [[Example 1]](#Example1) has an $$IR $$ drop of 12.0 V. If voltage is measured
 at various points in a circuit, it will be seen to increase at the voltage
 source and decrease at the resistor. Voltage is similar to fluid pressure. The
 voltage source is like a pump, creating a pressure difference, causing

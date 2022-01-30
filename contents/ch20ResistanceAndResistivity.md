@@ -507,7 +507,7 @@ What is the resistance of a 20.0-m-long piece of 12-gauge copper wire having a 2
 </div>
 </div>
 
-<div class="exercise" data-element-type="problems-exercises">
+<div id="Exercise2" class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 The diameter of 0-gauge copper wire is 8.252 mm. Find the resistance of a 1.00-km length of such wire used for power transmission.
 
@@ -637,7 +637,7 @@ when it is at the same temperature as the patient. What is a patient’s tempera
 <div class="problem" markdown="1">
 **Integrated Concepts**
 
-(a) Redo [[link]](#fs-id1871839) taking into account the thermal expansion of
+(a) Redo [[Exercise 2]](#Exercise2) taking into account the thermal expansion of
 the tungsten filament. You may assume a thermal expansion coefficient of $$12
 \times 10^{-6} /\text{ºC} $$ .
 (b) By what percentage does your answer differ from that in the example?
