@@ -37,8 +37,7 @@ We can find the mass of the fluid from its volume and density:
  $$m=\rho V. $$
 </div>
 
-The volume of the fluid $$V $$ is related to the dimensions of the container. It
-is
+The volume of the fluid $$V $$ is related to the dimensions of the container. It is
 
 <div class="equation" >
  $$V=Ah, $$
@@ -71,17 +70,17 @@ represents the pressure due to the weight of any fluid of *average density*
 $$\rho $$ at any depth $$h $$ below its surface. For liquids, which are nearly
 incompressible, this equation holds to great depths. For gases, which are quite
 compressible, one can apply this equation as long as the density changes are
-small over the depth considered. [[link]](#fs-id1859777) illustrates this
+small over the depth considered. [[Example 2]](#Example2) illustrates this
 situation.
 
 ![A container with fluid filled to a depth h. The fluid&#x2019;s weight w equal to m times g is shown by an arrow pointing downward. A denotes the area of the fluid at the bottom of the container and as well as on the surface.](../resources/Figure_12_04_01a.jpg "The bottom of this container supports the entire weight of the fluid in it. The vertical sides cannot exert an upward force on the fluid (since it cannot withstand a shearing force), and so the bottom must support it all.")
 {: #Figure1}
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Calculating the Average Pressure and Force Exerted: What Force Must a Dam Withstand?
 </div>
-In [[link]](../contents/m42187#fs-id2449267), we calculated the mass of water in a large reservoir. We will now consider the pressure and force acting on the dam retaining water. (See [[Figure 2]](#Figure2).) The dam is 500 m wide, and the water is 80.0 m deep at the dam. (a) What is the average pressure on the dam due to the water? (b) Calculate the force exerted against the dam and compare it with the weight of water in the dam (previously found to be  $$1.96 \times 10^{13}  \text{N} $$ ). 
+In [[Example 1]](../contents/ch11Density#Example1), we calculated the mass of water in a large reservoir. We will now consider the pressure and force acting on the dam retaining water. (See [[Figure 2]](#Figure2).) The dam is 500 m wide, and the water is 80.0 m deep at the dam. (a) What is the average pressure on the dam due to the water? (b) Calculate the force exerted against the dam and compare it with the weight of water in the dam (previously found to be  $$1.96 \times 10^{13}  \text{N} $$ ). 
 
 **Strategy for (a)**
 
@@ -154,11 +153,11 @@ $$1.00 {\text{m}}^{2} $$ of the Earth’s surface has a weight of $$ 1.01 \times
 ![Figure shows a column of air exerting a weight of one point zero one times ten to the power five newtons on a rectangular patch of ground of one square meter cross section.](../resources/Figure_12_04_03a.jpg "Atmospheric pressure at sea level averages \( 1.01 \times 10^5 \text{Pa} \) (equivalent to 1 atm), since the column of air over this \( 1 \text{m}^2 \), extending to the top of the atmosphere, weighs \( 1.01 \times 10^5 \text{N} \) .")
 {: #Figure3}
 
-<div class="example" markdown="1">
+<div id="Example2" class="example" markdown="1">
 <div class="title">
 Calculating Average Density: How Dense Is the Air?
 </div>
-Calculate the average density of the atmosphere, given that it extends to an altitude of 120 km. Compare this density with that of air listed in [[link]](../contents/ch11Density#Table1).
+Calculate the average density of the atmosphere, given that it extends to an altitude of 120 km. Compare this density with that of air listed in [[Table 1]](../contents/ch11Density#Table1).
 
 **Strategy**
 
@@ -188,7 +187,7 @@ declines rapidly with altitude.
 
 </div>
 
-<div class="example" markdown="1">
+<div id="Example3" class="example" markdown="1">
 <div class="title">
 Calculating Depth Below the Surface of Water: What Depth of Water Creates the Same Pressure as the Entire Atmosphere?
 </div>

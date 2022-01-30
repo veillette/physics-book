@@ -513,7 +513,7 @@ Calculate the index of refraction for a medium in which the speed of light is  $
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-In what substance in [[link]](#Table1) is the speed of light <span> $$ 2.290 \times 10^{8}  \text{m/s} $$ ?
+In what substance in [[Table 1]](#Table1) is the speed of light <span> $$ 2.290 \times 10^{8}  \text{m/s} $$ ?
  </span>
 
 </div>

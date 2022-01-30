@@ -31,7 +31,7 @@ mix layers of fluid together.
 ![Photograph of smoke rising smoothly for a while and then beginning to form swirls and eddies.](../resources/Figure_13_04_01a.jpg "Smoke rises smoothly for a while and then begins to form swirls and eddies. The smooth flow is called laminar flow, whereas the swirls and eddies typify turbulent flow. If you watch the smoke (being careful not to breathe on it), you will notice that it rises more rapidly when flowing smoothly than after it becomes turbulent, implying that turbulence poses more resistance to flow. (credit: Creativity103)")
 {: #Figure1}
 
-[[link]](#fs-id3007528) shows schematically how laminar and turbulent flow
+[[Figure 2]](#Figure2) shows schematically how laminar and turbulent flow
 differ. Layers flow without mixing when flow is laminar. When there is
 turbulence, the layers mix, and there are significant velocities in directions
 other than the overall direction of flow. The lines that are shown in many
@@ -46,7 +46,7 @@ great enough. We shall concentrate on laminar flow for the remainder of this
 section, leaving certain aspects of turbulence for later sections.
 
 ![Part a of the figure shows a laminar flow on a fixed smooth surface. The different layers of the liquid are shown as different colored bands along the horizontal surface. The friction is shown to act all along the line separating two layers. The direction of flow of the fluid is toward right and the velocity is shown as v b for layers at the bottom and v t for layers on top. Part b of the figure shows turbulent flow on a surface with some obstruction. The fluid directions are horizontal on smooth path and irregular near the area of the obstruction. The velocity is v on top as well as at the bottom of the fluid.](../resources/Figure_13_04_02a.jpg "(a) Laminar flow occurs in layers without mixing. Notice that viscosity causes drag between layers as well as with the fixed surface. (b) An obstruction in the vessel produces turbulence. Turbulent flow mixes the fluid. There is more interaction, greater heating, and more resistance than in laminar flow.")
-
+{: #Figure2}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -56,7 +56,7 @@ Try dropping simultaneously two sticks into a flowing river, one near the edge o
 
 </div>
 
-[[Figure 2]](#Figure2) shows how viscosity is measured for a fluid. Two parallel
+[[Figure 3]](#Figure3) shows how viscosity is measured for a fluid. Two parallel
 plates have the specific fluid between them. The bottom plate is held fixed,
 while the top plate is moved to the right, dragging fluid with it. The layer (or
 lamina) of fluid in contact with either plate does not move relative to the
@@ -64,15 +64,15 @@ plate, and so the top layer moves at $$v $$ while the bottom layer remains at
 rest. Each successive layer from the top down exerts a force on the one below
 it, trying to drag it along, producing a continuous variation in speed from $$v
 $$ to 0 as shown. Care is taken to ensure that the flow is laminar; that is, the
-layers do not mix. The motion in [[Figure 2]](#Figure2) is like a continuous
+layers do not mix. The motion in [[Figure 3]](#Figure3) is like a continuous
 shearing motion. Fluids have zero shear strength, but the *rate* at which they
 are sheared is related to the same geometrical factors $$A $$ and $$L $$ as is
 shear deformation for solids.
 
 ![The figure shows the laminar flow of fluid between two rectangular plates each of area A. The bottom plate is shown as fixed. The distance between the plates is L. The top plate is shown to be pushed to right with a force F. The direction of movement of the layer of fluid in contact with the top plate is also toward right with velocity v. The fluid in contact with the plate in the bottom is shown to be in rest with v equals zero. As we see through the layers above the one on the bottom plate, each show a small displacement toward right in increasing order of value with the topmost layer showing the maximum.](../resources/Figure_13_04_03a.jpg "The graphic shows laminar flow of fluid between two plates of area \( A \) . The bottom plate is fixed. When the top plate is pushed to the right, it drags the fluid along with it.")
-{: #Figure2}
+{: #Figure3}
 
-A force $$F $$ is required to keep the top plate in [[Figure 2]](#Figure2)
+A force $$F $$ is required to keep the top plate in [[Figure 3]](#Figure3)
 moving at a constant velocity $$v $$ , and experiments have shown that this
 force depends on four factors. First, $$F $$ is directly proportional to $$v
 $$  (until the speed is so high that turbulence occurs—then a much larger force
@@ -82,7 +82,7 @@ reasonable, since $$A $$ is directly proportional to the amount of fluid being
 moved. Third, $$F $$ is inversely proportional to the distance between the
 plates $$L $$ . This relationship is also reasonable; $$L $$ is like a lever
 arm, and the greater the lever arm, the less force that is needed. Fourth, $$F
-$$ is directly proportional to *the **coefficient of viscosity*, $$\eta $$ . The
+$$ is directly proportional to the **coefficient of viscosity*, $$\eta $$ . The
 greater the viscosity, the greater the force required. These dependencies are
 combined into the equation
 
@@ -90,7 +90,7 @@ combined into the equation
  $$F=\eta \frac{vA}{L}\text{,} $$
 </div>
 
-which gives us a working definition of fluid **viscosity** **  $$\eta $$. **
+which gives us a working definition of fluid **viscosity** $$\eta $$. 
 Solving for $$\eta $$ gives
 
 <div class="equation" id="import-auto-id2598252">
@@ -130,13 +130,13 @@ increases $$R $$ , whereas increasing the diameter of a tube decreases $$R $$ .
 
 If viscosity is zero, the fluid is frictionless and the resistance to flow is
 also zero. Comparing frictionless flow in a tube to viscous flow, as
-in [[Figure 3]](#Figure3), we see that for a viscous fluid, speed is greatest at
+in [[Figure 4]](#Figure4), we see that for a viscous fluid, speed is greatest at
 midstream because of drag at the boundaries. We can see the effect of viscosity
 in a Bunsen burner flame, even though the viscosity of natural gas is small.
 
 The resistance $$R $$ to laminar flow of an incompressible fluid having
 viscosity $$\eta $$ through a horizontal tube of uniform radius $$r $$ and
-length $$l $$ , such as the one in [[Figure 4]](#Figure4), is given by
+length $$l $$ , such as the one in [[Figure 5]](#Figure5), is given by
 
 <div class="equation" id="import-auto-id3068689">
  $$R=\frac{8\eta l}{\pi {r}^{4}}\text{.} $$
@@ -147,7 +147,7 @@ scientist J. L. Poiseuille (1799–1869), who derived it in an attempt to
 understand the flow of blood, an often turbulent fluid.
 
 ![Part a of the diagram shows a fluid flow across a rectangular non viscous medium. The speed of the fluid is shown to be same across the tube represented as same length of vertical rising arrows. Part b of the diagram shows a fluid flow across a rectangular viscous medium. The speed of the fluid speed at the walls is zero, increasing steadily to its maximum at the center of the tube represented as wave like variation for length of vertical rising arrows. Part c of the figure shows a burning Bunsen burner.](../resources/Figure_13_04_04a.jpg "(a) If fluid flow in a tube has negligible resistance, the speed is the same all across the tube. (b) When a viscous fluid flows through a tube, its speed at the walls is zero, increasing steadily to its maximum at the center of the tube. (c) The shape of the Bunsen burner flame is due to the velocity profile across the tube. (credit: Jason Woodhead)")
-{: #Figure3}
+{: #Figure4}
 
 Let us examine Poiseuille’s expression for $$R $$ to see if it makes good
 intuitive sense. We see that resistance is directly proportional to both fluid
@@ -355,9 +355,9 @@ oil has greater viscosity when cold than when warm, and so pressure must be
 greater to pump the same amount of cold oil.
 
 ![The figure shows a section of a cylindrical tube of length l. The two end cross section are shown to have pressure P two and P one respectively. The radius of the cylindrical tube is given by r. The direction of flow is shown by horizontal arrows toward right end of the tube. The flow rate is marked as Q.](../resources/Figure_13_04_05a.jpg "Poiseuille&#x2019;s law applies to laminar flow of an incompressible fluid of viscosity \( \eta \) through a tube of length \( l \) and radius \( r \). The direction of flow is from greater to lower pressure. Flow rate \( Q \) is directly proportional to the pressure difference \( P_2-P_1 \) , and inversely proportional to the length \( l \) of the tube and viscosity \( \eta \) of the fluid. Flow rate increases with \( r^4 \), the fourth power of the radius.")
-{: #Figure4}
+{: #Figure5}
 
-<div class="example" markdown="1">
+<div id="Example2" class="example" markdown="1">
 <div class="title">
 What Pressure Produces This Flow Rate?
 </div>
@@ -403,7 +403,7 @@ pressure drop in the tubing leading to the needle.
 You may have noticed that water pressure in your home might be lower than normal
 on hot summer days when there is more use. This pressure drop occurs in the
 water main before it reaches your home. Let us consider flow through the water
-main as illustrated in [[Figure 5]](#Figure5). We can understand why the
+main as illustrated in [[Figure 6]](#Figure6). We can understand why the
 pressure $${P}_{1} $$ to the home drops during times of heavy use by rearranging
 
 <div class="equation" id="import-auto-id3230032">
@@ -424,7 +424,7 @@ causing the pressure to drop from $${P}_{2} $$ to $${P}_{1} $$ . $${P}_{2}-{P}_
 {1}=RQ $$ is valid for both laminar and turbulent flows.
 
 ![Figure shows the water distribution system from a water works to homes around that area. The pressure at the pipeline near the water works is shown to have a pressure P two and the pressure at the dividing point were the pipe line splits to corresponding houses the pressure is shown as P one.](../resources/Figure_13_04_06a.jpg "During times of heavy use, there is a significant pressure drop in a water main, and \( P_1 \) supplied to users is significantly less than \( P_2 \) created at the water works. If the flow is very small, then the pressure drop is negligible, and \( P_2 \approx P_1 \).")
-{: #Figure5}
+{: #Figure6}
 
 We can use $${P}_{2}-{P}_{1}=RQ $$ to analyze pressure drops occurring in more
 complex systems in which the tube radius is not the same everywhere. Resistance
@@ -435,7 +435,7 @@ greatly increased by turbulence, and a constriction that creates turbulence
 greatly reduces the pressure downstream. Plaque in an artery reduces pressure
 and hence flow, both by its resistance and by the turbulence it creates.
 
-[[link]](#fs-id2660781) is a schematic of the human circulatory system, showing
+[[Figure 7]](#Figure7) is a schematic of the human circulatory system, showing
 average blood pressures in its major parts for an adult at rest. Pressure
 created by the heart’s two pumps, the right and left ventricles, is reduced by
 the resistance of the blood vessels as the blood flows through them. The left
@@ -453,7 +453,7 @@ capillaries within them. The sensitivity of flow to tube radius makes this
 flexibility possible over a large range of flow rates.
 
 ![Figure is a schematic diagram of the circulatory system. The lungs, heart, arteries and vein systems are shown. The blood is shown to flow from the left atrium through the arteries, then through the veins and back to the right atrium. The flow is also shown from right atrium to the lungs and from lungs back to left atrium. All parts of the system are labeled. Pressure various points of the system all along the movement of blood across various parts are also marked.](../resources/Figure_13_04_07a.jpg "Schematic of the circulatory system. Pressure difference is created by the two pumps in the heart and is reduced by resistance in the vessels. Branching of vessels into capillaries allows blood to reach individual cells and exchange substances, such as oxygen and waste products, with them. The system has an impressive ability to regulate flow to individual organs, accomplished largely by varying vessel diameters.")
-
+{: #Figure7}
 
 Each branching of larger vessels into smaller vessels increases the total
 cross-sectional area of the tubes through which the blood flows. For example, an
@@ -527,10 +527,10 @@ Why does flow decrease in your shower when someone flushes the toilet?
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Plumbing usually includes air-filled tubes near water faucets, as shown in [[Figure 6]](#Figure6). Explain why they are needed and how they work.
+Plumbing usually includes air-filled tubes near water faucets, as shown in [[Figure 8]](#Figure8). Explain why they are needed and how they work.
 
 ![The picture shows water gushing out of a water tap. The faucet in the tap is marked. A pipe connected vertically filled with air is shown at an opening on the water pipe before the tap.](../resources/Figure_13_04_08a.jpg "The vertical tube near the water tap remains full of air and serves a useful purpose.")
-{: #Figure6}
+{: #Figure8}
 
 </div>
 </div>
@@ -694,7 +694,7 @@ Olive oil.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-[[link]](#fs-id1969731) dealt with the flow of saline solution in an IV system. (a) Verify that a pressure of  $$ 1.62 \times 10^{4}  {\text{N/m}}^{2} $$
+[[Example 2]](#Example2) dealt with the flow of saline solution in an IV system. (a) Verify that a pressure of  $$ 1.62 \times 10^{4}  {\text{N/m}}^{2} $$
  is created at a depth of 1.61 m in a saline solution, assuming its density to be that of sea water. (b) Calculate the new flow rate if the height of the saline solution is decreased to 1.50 m. (c) At what height would the direction of flow be reversed? (This reversal can be a problem when patients stand up.)
 
 </div>

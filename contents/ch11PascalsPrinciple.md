@@ -85,7 +85,7 @@ the force out is 500 N. Hydraulic systems are analogous to simple levers, but
 they have the advantage that pressure can be sent through tortuously curved
 lines to several places at once.
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Calculating Force of Slave Cylinders: Pascal Puts on the Brakes
 </div>
@@ -164,7 +164,7 @@ Suppose the master cylinder in a hydraulic system is at a greater height than th
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-How much pressure is transmitted in the hydraulic system considered in [[link]](#fs-id2973674)? Express your answer in pascals and in atmospheres.
+How much pressure is transmitted in the hydraulic system considered in [[Example 1]](#Example1)? Express your answer in pascals and in atmospheres.
 
 </div>
 <div class="solution" markdown="1">

@@ -304,7 +304,7 @@ The tendency of a fluid to be raised or suppressed in a narrow tube, or capillar
 </div>
 
 If a capillary tube is placed vertically into a liquid, as shown
-in [[link]](#fs-id1333088), capillary action will raise or suppress the liquid
+in [[Figure 8]](#Figure8), capillary action will raise or suppress the liquid
 inside the tube depending on the combination of substances. The actual effect
 depends on the relative strength of the cohesive and adhesive forces and, thus,
 the contact angle $$\theta $$ given in the table. If $$\theta $$ is less than
@@ -315,10 +315,10 @@ of a column of mercury curves downward, somewhat like a drop. The curved surface
 of a fluid in a tube is called a **meniscus**. The tendency of surface tension
 is always to reduce the surface area. Surface tension thus flattens the curved
 liquid surface in a capillary tube. This results in a downward force in mercury
-and an upward force in water, as seen in [[link]](#fs-id1333088).
+and an upward force in water, as seen in [[Figure 8]](#Figure8).
 
 ![Mercury kept in a container into which a narrow tube is inserted lowers its level inside the tube relative to the level in the rest of the container. In a similar situation, water rises in the tube so that the water level in the tube is above the water level in the rest of the container. This phenomenon is due to the large contact angle of mercury with glass and the smaller contact angle of water with glass.](../resources/Figure_12_08_09a.jpg "(a) Mercury is suppressed in a glass tube because its contact angle is greater than 90&#xBA;. Surface tension exerts a downward force as it flattens the mercury, suppressing it in the tube. The dashed line shows the shape the mercury surface would have without the flattening effect of surface tension. (b) Water is raised in a glass tube because its contact angle is nearly 0&#xBA;. Surface tension therefore exerts an upward force when it flattens the surface to reduce its area.")
-
+{: #Figure8}
 
 <table id="Table2" aria-describedby="The table gives the contact angles of some substances."><caption><span class="title">Contact Angles of Some Substances</span></caption><thead><tr>
             <th>
@@ -378,12 +378,12 @@ $$\gamma $$ , which is its direct cause. Furthermore, the height is inversely
 proportional to tube radius—the smaller the radius $$r $$ , the higher the fluid
 can be raised, since a smaller tube holds less mass. The height is also
 inversely proportional to fluid density $$\rho $$ , since a larger density means
-a greater mass in the same volume. (See [[Figure 8]](#Figure8).)
+a greater mass in the same volume. (See [[Figure 9]](#Figure9).)
 
 ![The left image shows liquid in a container with four tubes of progressively smaller diameter inserted into the liquid. The liquid rises higher in the smaller-diameter tubes. The right image shows two containers, one holding a dense liquid and the other holding a less-dense liquid. Identical tubes are inserted into each liquid. The less-dense liquid rises higher in its tube than the more-dense liquid does in its tube.](../resources/Figure_12_08_10a.jpg "(a) Capillary action depends on the radius of a tube. The smaller the tube, the greater the height reached. The height is negligible for large-radius tubes. (b) A denser fluid in the same tube rises to a smaller height, all other factors being the same.")
-{: #Figure8}
+{: #Figure9}
 
-<div class="example" markdown="1">
+<div id="Example2" class="example" markdown="1">
 <div class="title">
 Calculating Radius of a Capillary Tube: Capillary Action: Tree Sap
 </div>
@@ -415,7 +415,7 @@ responsible for sap getting to the tops of trees.
 
 How *does* sap get to the tops of tall trees? (Recall that a column of water can
 only rise to a height of 10 m when there is a vacuum at the
-top—see [[link]](../contents/ch11VariationOfPresssure#fs-id2937185).) The question has not
+top—see [[Example 3]](../contents/ch11VariationOfPresssure#Example3).) The question has not
 been completely resolved, but it appears that it is pulled up like a chain held
 together by cohesive forces. As each molecule of sap enters a leaf and
 evaporates (a process called transpiration), the entire chain is pulled up a
@@ -423,13 +423,13 @@ notch. So a negative pressure created by water evaporation must be present to
 pull the sap up through the xylem vessels. In most situations, *fluids can push
 but can exert only negligible pull*, because the cohesive forces seem to be too
 small to hold the molecules tightly together. But in this case, the cohesive
-force of water molecules provides a very strong pull. [[Figure 9]](#Figure9)
+force of water molecules provides a very strong pull. [[Figure 10]](#Figure10)
 shows one device for studying negative pressure. Some experiments have
 demonstrated that negative pressures sufficient to pull sap to the tops of the
 tallest trees *can* be achieved.
 
 ![When the piston is raised the liquid stretches somewhat, which results in negative pressure.](../resources/Figure_12_08_11a.jpg "(a) When the piston is raised, it stretches the liquid slightly, putting it under tension and creating a negative absolute pressure \( P= -F/A \) . (b) The liquid eventually separates, giving an experimental limit to negative pressure in this liquid.")
-{: #Figure9}
+{: #Figure10}
 
 ### Section Summary
 
@@ -556,7 +556,7 @@ Calculate the force on the slide wire in [[Figure 3]](#Figure3) if it is 3.50 cm
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-We stated in [[link]](#fs-id2066941) that a xylem tube is of radius  $$ 2.50 \times 10^{-5}  \text{m} $$ .
+We stated in [[Example 2]](#Example2) that a xylem tube is of radius  $$ 2.50 \times 10^{-5}  \text{m} $$ .
  Verify that such a tube raises sap less than a meter by finding  $$h $$
  for it, making the same assumptions that sap’s density is  $$1050 {\text{kg/m}}^{3} $$ ,
  its contact angle is zero, and its surface tension is the same as that of water at  $$20.0º C $$.
