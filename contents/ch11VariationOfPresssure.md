@@ -403,7 +403,7 @@ Show that the total force on a rectangular dam due to the water behind it increa
  is the density of water,  $$h $$  is its depth at the dam, and  $$L $$
  is the length of the dam. You may assume the face of the dam is vertical. (Hint: Calculate the average pressure exerted and multiply this by the area in contact with the water. (See [[Figure 5]](#Figure5).)
 
-![A two-dimensional view of a dam with dimensions L and h is shown. Force F at h is shown by a horizontal arrow. The force F exerted by water on the dam is F equals average pressure p bar into area A and pressure in turn is average height h bar into density rho into acceleration due to gravity g.](../resources/Figure_12_04_02a.jpg)
+![A two-dimensional view of a dam with dimensions L and h is shown. Force F at h is shown by a horizontal arrow. The force F exerted by water on the dam is F equals average pressure p bar into area A and pressure in turn is average height h bar into density rho into acceleration due to gravity g.](../resources/Figure_12_04_02a.jpg " ")
 {: #Figure5}
 
 </div>

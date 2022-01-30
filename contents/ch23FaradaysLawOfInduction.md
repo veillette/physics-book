@@ -262,7 +262,7 @@ Referring to [[Figure 3]](#Figure3)(b), what is the direction of the current ind
 <div class="problem" markdown="1">
 Referring to [[Figure 4]](#Figure4), what are the directions of the currents in coils 1, 2, and 3 (assume that the coils are lying in the plane of the circuit): (a) When the switch is first closed? (b) When the switch has been closed for a long time? (c) Just after the switch is opened?
 
-![The figure shows a closed circuit consisting of a main coil with many loops connected to a cell through a switch. Three single loop coils named one, two and three are also shown. Coil one is on left of the main coil, coil two on the right and coil three on top of the main coil.](../resources/Figure_24_02_05.jpg)
+![The figure shows a closed circuit consisting of a main coil with many loops connected to a cell through a switch. Three single loop coils named one, two and three are also shown. Coil one is on left of the main coil, coil two on the right and coil three on top of the main coil.](../resources/Figure_24_02_05.jpg " ")
 {: #Figure4}
 
 </div>

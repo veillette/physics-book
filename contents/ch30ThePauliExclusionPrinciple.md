@@ -157,7 +157,7 @@ electrons with these quantum numbers is written $$2{p}^{3} $$ . This notation,
 called spectroscopic notation, is generalized as shown in [[Figure 1]](#Figure1)
 .
 
-![Diagram illustrating the components of the expression 2 times p to the third power, where 2 is the principal quantum number n, p is the angular momentum quantum number, represented by a script letter l, and the exponent 3 is the number of electrons.](../resources/Figure_31_09_05a.jpg)
+![Diagram illustrating the components of the expression 2 times p to the third power, where 2 is the principal quantum number n, p is the angular momentum quantum number, represented by a script letter l, and the exponent 3 is the number of electrons.](../resources/Figure_31_09_05a.jpg " ")
 {: #Figure1}
 
 Counting the number of possible combinations of quantum numbers allowed by the
@@ -183,7 +183,7 @@ possibilities and then proceed with the $$2p $$ subshell.
 It is convenient to list the possible quantum numbers in a table, as shown
 below.
 
-![Image contains a table listing all possible quantum numbers for the n equals 2 shell. The table shows that there are a total of two electrons in the 2 s subshell and six electrons in the 2 p subshell, for a total of eight electrons in the shell.](../resources/Figure_31_09_06a.jpg)
+![Image contains a table listing all possible quantum numbers for the n equals 2 shell. The table shows that there are a total of two electrons in the 2 s subshell and six electrons in the 2 p subshell, for a total of eight electrons in the shell.](../resources/Figure_31_09_06a.jpg " ")
 
 
 **Discussion**

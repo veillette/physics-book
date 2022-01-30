@@ -888,7 +888,7 @@ involved.
 a)  $${\Delta }^{++}\left(\text{uuu}\right); B=\frac{1}{3}+\frac{1}{3}+\frac{1}{3}=1 $$
 b)
 
-![](../resources/graphics1.jpg){: height="250"}
+![](../resources/graphics1.jpg " "){: height="250"}
 
 </div>
 </div>

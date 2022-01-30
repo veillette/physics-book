@@ -219,7 +219,7 @@ An AC appliance cord has its hot and neutral wires separated by 3.00 mm and carr
 <div class="problem" markdown="1">
 [[Figure 4]](#Figure4) shows a long straight wire near a rectangular current loop. What is the direction and magnitude of the total force on the loop?
 
-![Diagram showing two current-carrying wires. Wire 1 is at the top and runs left to right with the current I 1 of fifteen amps also running left to right. Wire 2 makes a square circuit ten point zero centimeters in the vertical dimension and thirty point zero centimeters in the horizontal dimension. The top side of Wire 2 is seven point five zero centimeters below wire 1. The current in wire 2 is thirty point zero amps and runs counterclockwise: left to right along the bottom, up the right side, right to left along the top, and down the left side.](../resources/Figure_23_10_03a.jpg)
+![Diagram showing two current-carrying wires. Wire 1 is at the top and runs left to right with the current I 1 of fifteen amps also running left to right. Wire 2 makes a square circuit ten point zero centimeters in the vertical dimension and thirty point zero centimeters in the horizontal dimension. The top side of Wire 2 is seven point five zero centimeters below wire 1. The current in wire 2 is thirty point zero amps and runs counterclockwise: left to right along the bottom, up the right side, right to left along the top, and down the left side.](../resources/Figure_23_10_03a.jpg " ")
 {: #Figure4}
 
 </div>
@@ -229,7 +229,7 @@ An AC appliance cord has its hot and neutral wires separated by 3.00 mm and carr
 <div class="problem" markdown="1">
 Find the direction and magnitude of the force that each wire experiences in [[Figure 5]](#Figure5)(a) by, using vector addition.
 
-![Figure a shows the cross sections of three wires that are parallel to each other and arranged in an equilateral triangle. The bottom left wire has current of ten point zero amps into the page. The bottom right wire has a current of twenty point zero amps also into the page. The wire at the top of the triangle has current five point zero amps out of the page. The triangle that the wires make with each other is ten point zero centimeters on each side. Figure b shows four parallel wires arranged in a square that is twenty point zero centimeters on a side. The top two wires have current of ten point zero amps out of the page. The bottom two wires have current of five point zero amps into the page.](../resources/Figure_23_11_10a.jpg)
+![Figure a shows the cross sections of three wires that are parallel to each other and arranged in an equilateral triangle. The bottom left wire has current of ten point zero amps into the page. The bottom right wire has a current of twenty point zero amps also into the page. The wire at the top of the triangle has current five point zero amps out of the page. The triangle that the wires make with each other is ten point zero centimeters on each side. Figure b shows four parallel wires arranged in a square that is twenty point zero centimeters on a side. The top two wires have current of ten point zero amps out of the page. The bottom two wires have current of five point zero amps into the page.](../resources/Figure_23_11_10a.jpg " ")
 {: #Figure5}
 
 </div>

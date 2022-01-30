@@ -286,7 +286,7 @@ Can all of the currents going into the junction in [[Figure 6]](#Figure6) be pos
 </div>
 </div>
 
-![The diagram shows a T junction with currents I sub one, I sub two, and I sub three entering the T junction.](../resources/Figure_22_03_06.jpg)
+![The diagram shows a T junction with currents I sub one, I sub two, and I sub three entering the T junction.](../resources/Figure_22_03_06.jpg " ")
 {: #Figure6}
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -296,7 +296,7 @@ Apply the junction rule to junction b in [[Figure 7]](#Figure7). Is any new info
 </div>
 </div>
 
-![The diagram shows a complex circuit with four voltage sources: E sub one, E sub two, E sub three, E sub four and several resistive loads, wired in two loops and two junctions. Several points on the diagram are marked with letters a through g. The current in each branch is labeled separately.](../resources/Figure_22_03_07.jpg)
+![The diagram shows a complex circuit with four voltage sources: E sub one, E sub two, E sub three, E sub four and several resistive loads, wired in two loops and two junctions. Several points on the diagram are marked with letters a through g. The current in each branch is labeled separately.](../resources/Figure_22_03_07.jpg " ")
 {: #Figure7}
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -361,7 +361,7 @@ Verify the third equation in [[link]](#fs-id3008416) by substituting the values 
 <div class="problem" markdown="1">
 Apply the junction rule at point a in [[Figure 8]](#Figure8).
 
-![The diagram shows a complex circuit with four voltage sources E sub one, E sub two, E sub three, E sub four and several resistive loads, wired in two loops and many junctions. Several points on the diagram are marked with letters a through j. The current in each branch is labeled separately.](../resources/Figure_22_03_08.jpg)
+![The diagram shows a complex circuit with four voltage sources E sub one, E sub two, E sub three, E sub four and several resistive loads, wired in two loops and many junctions. Several points on the diagram are marked with letters a through j. The current in each branch is labeled separately.](../resources/Figure_22_03_08.jpg " ")
 {: #Figure8}
 
 </div>
@@ -426,7 +426,7 @@ unknown and the currents are given to be $${I}_{1}=5.00 \text{A} $$ , $${I}_
 {2}=3.0\text{ A} $$ , and $${I}_{3}= -2.00 \text{A} $$ .
 (a) Could you find the emfs? (b) What is wrong with the assumptions?
 
-![The diagram shows a complex circuit with two voltage sources E sub one and E sub two, and three resistive loads, wired in two loops and two junctions. Several points on the diagram are marked with letters a through h. The current in each branch is labeled separately.](../resources/Figure_22_03_09.jpg)
+![The diagram shows a complex circuit with two voltage sources E sub one and E sub two, and three resistive loads, wired in two loops and two junctions. Several points on the diagram are marked with letters a through h. The current in each branch is labeled separately.](../resources/Figure_22_03_09.jpg " ")
 
 
 </div>

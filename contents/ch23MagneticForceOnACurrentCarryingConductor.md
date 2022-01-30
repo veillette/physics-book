@@ -153,7 +153,7 @@ Which is more likely to interfere with compass readings, AC current in your refr
 <div class="problem" markdown="1">
 What is the direction of the magnetic force on the current in each of the six cases in [[Figure 5]](#Figure5)?
 
-![Figure a shows the magnetic field B out of the page and the current I downward. Figure b shows B toward the right and I upward. Figure c shows B into the page and I toward the right. Figure d shows B toward the right and I toward the left. Figure e shows B upward and I into the page. Figure f shows B toward the left and I out of the page.](../resources/Figure_23_07_05a.jpg)
+![Figure a shows the magnetic field B out of the page and the current I downward. Figure b shows B toward the right and I upward. Figure c shows B into the page and I toward the right. Figure d shows B toward the right and I toward the left. Figure e shows B upward and I into the page. Figure f shows B toward the left and I out of the page.](../resources/Figure_23_07_05a.jpg " ")
 {: #Figure5}
 
 </div>
@@ -177,7 +177,7 @@ What is the direction of the magnetic force on the current in each of the six ca
 <div class="problem" markdown="1">
 What is the direction of a current that experiences the magnetic force shown in each of the three cases in [[Figure 6]](#Figure6), assuming the current runs perpendicular to  $$B $$ ?
 
-![Figure a shows magnetic field B out of the page and force F upward. Figure b shows B toward the right and F upward. Figure c shows B into the page and F toward the left.](../resources/Figure_23_07_06a.jpg)
+![Figure a shows magnetic field B out of the page and force F upward. Figure b shows B toward the right and F upward. Figure c shows B into the page and F toward the left.](../resources/Figure_23_07_06a.jpg " ")
 {: #Figure6}
 
 </div>
@@ -188,7 +188,7 @@ What is the direction of a current that experiences the magnetic force shown in 
 What is the direction of the magnetic field that produces the magnetic force shown on the currents in each of the three cases in [[Figure 7]](#Figure7), assuming  $$\vb{B} $$
  is perpendicular to  $$\vb{I} $$ ?
 
-![Figure a show the current I vector pointing upward and the force F vector pointing left. Figure b shows the current vector pointing down and F directed into the page. Figure c shows the current pointing left and force pointing up.](../resources/Figure_23_07_07a.jpg)
+![Figure a show the current I vector pointing upward and the force F vector pointing left. Figure b shows the current vector pointing down and F directed into the page. Figure c shows the current pointing left and force pointing up.](../resources/Figure_23_07_07a.jpg " ")
 {: #Figure7}
 
 </div>
