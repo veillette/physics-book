@@ -123,7 +123,7 @@ direction of motion in the muon’s reference frame.
 <div class="title">
 Calculating Length Contraction: The Distance between Stars Contracts when You Travel at High Velocity
 </div>
-Suppose an astronaut, such as the twin discussed in [Simultaneity and Time Dilation](../contents/m42531), travels so fast that  $$\gamma = 30.00  $$ .
+Suppose an astronaut, such as the twin discussed in [Simultaneity and Time Dilation](../contents/ch28SimultaneityAndTimeDilation), travels so fast that  $$\gamma = 30.00  $$ .
  (a) She travels from the Earth to the nearest star system, Alpha Centauri, 4.300 light years (ly) away as measured by an Earth-bound observer. How far apart are the Earth and Alpha Centauri as measured by the astronaut? (b) In terms of  $$c $$ ,
  what is her velocity relative to the Earth? You may neglect the motion of the Earth relative to the Sun. (See [[Figure 1]](#Figure1).)
 
@@ -311,7 +311,7 @@ How fast would a 6.0 m-long sports car have to be going past you in order for it
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-(a) How far does the muon in [[link]](../contents/m42531#fs-id3081310) travel according to the Earth-bound observer? (b) How far does it travel as viewed by an observer moving with it? Base your calculation on its velocity relative to the Earth and the time it lives (proper time). (c) Verify that these two distances are related through length contraction  $$\text{γ=} 3.20 $$.
+(a) How far does the muon in [[link]](../contents/ch28SimultaneityAndTimeDilation#fs-id3081310) travel according to the Earth-bound observer? (b) How far does it travel as viewed by an observer moving with it? Base your calculation on its velocity relative to the Earth and the time it lives (proper time). (c) Verify that these two distances are related through length contraction  $$\text{γ=} 3.20 $$.
 
 </div>
 <div class="solution" markdown="1">
@@ -328,7 +328,7 @@ in parts (a) and (b) are related when $$\gamma =3.20 $$.
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-(a) How long would the muon in [[link]](../contents/m42531#fs-id3081310) have lived as observed on the Earth if its velocity was  $$ 0.0500c $$ ?
+(a) How long would the muon in [[link]](../contents/ch28SimultaneityAndTimeDilation#fs-id3081310) have lived as observed on the Earth if its velocity was  $$ 0.0500c $$ ?
  (b) How far would it have traveled as observed on the Earth? (c) What distance is this in the muon’s frame?
 
 </div>
