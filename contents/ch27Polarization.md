@@ -91,7 +91,7 @@ the filter. (The above equation is known as Malus’s law.)
 ![This schematic is another variation of the schematic first introduced two figures prior. To the left of the vertically oriented polarizing filter is a double headed blue arrow oriented in the plane perpendicular to the propagation direction and at an angle theta with the vertical. After the polarizing filter a smaller vertical double headed arrow appears, which is labeled E cosine theta.](../resources/Figure_28_08_07a.jpg "A polarizing filter transmits only the component of the wave parallel to its axis, \( E \cos \theta \), reducing the intensity of any light not polarized parallel to its axis. ")
 {: #Figure7}
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Calculating Intensity Reduction by a Polarizing Filter
 </div>
@@ -491,7 +491,7 @@ What angle would the axis of a polarizing filter need to make with the direction
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-At the end of [[link]](#fs-id1169737862136), it was stated that the intensity of polarized light is reduced to  $$ 90.0%  $$
+At the end of [[Example 1]](#Example1), it was stated that the intensity of polarized light is reduced to  $$ 90.0%  $$
  of its original value by passing through a polarizing filter with its axis at an angle of  $$ 18.4º $$
  to the direction of polarization. Verify this statement.
 

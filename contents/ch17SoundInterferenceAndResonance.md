@@ -495,8 +495,8 @@ By what fraction will the frequencies produced by a wind instrument change when 
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-The ear canal resonates like a tube closed at one end. (See [[link]](../contents/m42297#import-auto-id2978675).) If ear canals range in length from 1.80 to 2.60 cm in an average population, what is the range of fundamental resonant frequencies? Take air temperature to be  $$37.0ºC $$ ,
- which is the same as body temperature. How does this result correlate with the intensity versus frequency graph ([[link]](../contents/m42297#import-auto-id1576436) of the human ear?
+The ear canal resonates like a tube closed at one end. (See [[Figure 5]](../contents/ch17Hearing#Figure5).) If ear canals range in length from 1.80 to 2.60 cm in an average population, what is the range of fundamental resonant frequencies? Take air temperature to be  $$37.0ºC $$ ,
+ which is the same as body temperature. How does this result correlate with the intensity versus frequency graph ([[Figure 3]](../contents/ch17Hearing#Figure3) of the human ear?
 
 </div>
 <div class="solution" markdown="1">

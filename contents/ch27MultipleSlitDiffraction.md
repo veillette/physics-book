@@ -18,7 +18,7 @@ photographically mass produced rather cheaply. Diffraction gratings work both
 for transmission of light, as in [[Figure 1]](#Figure1), and for reflection of
 light, as on butterfly wings and the Australian opal in [[Figure 2]](#Figure2)
 or the CD pictured in the opening photograph of this
-chapter, [[link]](../contents/ch27WaveOptics#import-auto-id1169736938034). In addition to their use
+chapter, [[Figure 1]](../contents/ch27WaveOptics#Figure1). In addition to their use
 as novelty items, diffraction gratings are commonly used for spectroscopic
 dispersion and analysis of light. What makes them particularly useful is the
 fact that they form a sharper pattern than double slits do. That is, their

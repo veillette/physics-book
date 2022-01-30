@@ -85,7 +85,7 @@ All attempts to observe the size and shape of objects are limited by the wavelen
 
 </div>
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Calculating Diffraction Limits of the Hubble Space Telescope
 </div>
@@ -290,7 +290,7 @@ distance of the Andromeda galaxy?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Assuming the angular resolution found for the Hubble Telescope in [[link]](#fs-id1169736614590), what is the smallest detail that could be observed on the Moon?
+Assuming the angular resolution found for the Hubble Telescope in [[Example 1]](#Example1), what is the smallest detail that could be observed on the Moon?
 
 </div>
 </div>
