@@ -126,7 +126,7 @@ the central maximum.
 * A single slit produces an interference pattern characterized by a broad
   central maximum with narrower and dimmer maxima to the sides.
 * There is destructive interference for a single slit when $$D \sin \theta
-  =\text{mλ}, \text{(for} m=1 \text{,} -1 \text{,} 2 \text{,} -2 \text{,} 3
+  =\text{mλ}, \left( \text{ for } m=1 \text{,} -1 \text{,} 2 \text{,} -2 \text{,} 3
   \text{,} \dots \right) $$ , where $$D $$ is the slit width, $$\lambda $$ is
   the light’s wavelength, $$\theta $$ is the angle relative to the original
   direction of the light, and $$m $$ is the order of the minimum. Note that
@@ -311,7 +311,7 @@ m/s?
 {: class="glossary-title"}
 
 destructive interference for a single slit
-: occurs when $$D \sin \theta =\text{mλ}, \text{(for} m=1 \text{,} -1 \text{,} 2
+: occurs when $$D \sin \theta =\text{mλ}, \left( \text{ for } m=1 \text{,} -1 \text{,} 2
 \text{,} -2 \text{,} 3 \text{,} \dots \right) $$ , where $$D $$ is the slit
 width, $$\lambda $$ is the light’s wavelength, $$\theta $$ is the angle relative
 to the original direction of the light, and $$m $$ is the order of the minimum
