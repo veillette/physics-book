@@ -303,7 +303,7 @@ Find the distance between two slits that produces the first minimum for 410-nm v
 <div class="problem" markdown="1">
 Calculate the wavelength of light that has its third minimum at an angle of  $$ 30.0º $$
  when falling on double slits separated by  $$ 3.00 \text{μm} $$ .
- Explicitly, show how you follow the steps in [Problem-Solving Strategies for Wave Optics](../contents/m42519#fs-id1169737988256).
+ Explicitly, show how you follow the steps in [Problem-Solving Strategies for Wave Optics](../contents/ch27ThinFilmInterference#fs-id1169737988256).
 
 </div>
 <div class="solution" markdown="1">

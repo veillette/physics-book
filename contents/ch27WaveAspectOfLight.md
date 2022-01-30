@@ -35,7 +35,7 @@ through slits.
 <div class="title">
 Making Connections: Waves
 </div>
-The most certain indication of a wave is interference. This wave characteristic is most prominent when the wave interacts with an object that is not large compared with the wavelength. Interference is observed for water waves, sound waves, light waves, and (as we will see in [Special Relativity](../contents/m42525)) for matter waves, such as electrons scattered from a crystal.
+The most certain indication of a wave is interference. This wave characteristic is most prominent when the wave interacts with an object that is not large compared with the wavelength. Interference is observed for water waves, sound waves, light waves, and (as we will see in [Special Relativity](../contents/ch28SpecialRelativity)) for matter waves, such as electrons scattered from a crystal.
 
 </div>
 

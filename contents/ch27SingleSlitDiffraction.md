@@ -221,7 +221,7 @@ Calculate the wavelength of light that produces its first minimum at an angle of
 <div class="problem" markdown="1">
 (a) Find the angle of the third diffraction minimum for 633-nm light falling on a slit of width  $$ 20.0 \text{μm} $$ .
  (b) What slit width would place this minimum at  $$ 85.0º $$ ?
- Explicitly show how you follow the steps in [Problem-Solving Strategies for Wave Optics](../contents/m42519#fs-id1169737988256)
+ Explicitly show how you follow the steps in [Problem-Solving Strategies for Wave Optics](../contents/ch27ThinFilmInterference#fs-id1169737988256)
 
 </div>
 </div>

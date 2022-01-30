@@ -287,7 +287,7 @@ An electric current through hydrogen gas produces several distinct wavelengths o
   $$ 25.7º $$ ,
   $$ 29.1º $$ ,
  and  $$ 41.0º $$
- when projected on a diffraction grating having 10 000 lines per centimeter? Explicitly show how you follow the steps in [Problem-Solving Strategies for Wave Optics](../contents/m42519#fs-id1169737988256)
+ when projected on a diffraction grating having 10 000 lines per centimeter? Explicitly show how you follow the steps in [Problem-Solving Strategies for Wave Optics](../contents/ch27ThinFilmInterference#fs-id1169737988256)
 
 </div>
 </div>
