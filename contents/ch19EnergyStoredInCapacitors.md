@@ -63,7 +63,7 @@ In a defibrillator, the delivery of a large charge in a short burst to a set of 
 ![Photograph of an automated external defibrillator.](../resources/Figure_20_07_02a.jpg "Automated external defibrillators are found in many public places. These portable units provide verbal instructions for use in the important first few minutes for a person suffering a cardiac attack. (credit: Owain Davies, Wikimedia Commons)")
 {: #Figure2}
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Capacitance in a Heart Defibrillator
 </div>
@@ -204,7 +204,7 @@ Note that the applied voltage is limited by the dielectric strength.
 **Construct Your Own Problem**
 
 Consider a heart defibrillator similar to that discussed
-in [[link]](#fs-id2725068). Construct a problem in which you examine the charge
+in [[Example 1]](#Example1). Construct a problem in which you examine the charge
 stored in the capacitor of a defibrillator as a function of stored energy. Among
 the things to be considered are the applied voltage and whether it should vary
 with energy to be delivered, the range of energies involved, and the capacitance

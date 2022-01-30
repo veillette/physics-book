@@ -147,7 +147,7 @@ and
  $${P}_{\text{ave}}={I}_{\text{rms}}^{2}R. $$
 </div>
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Peak Voltage and Power for AC
 </div>
@@ -210,7 +210,7 @@ distribution systems.
 ![Photograph of transformers installed in transmission lines.](../resources/Figure_21_05_05.jpg "Power is distributed over large distances at high voltage to reduce power loss in the transmission lines. The voltages generated at the power plant are stepped up by passive devices called transformers (see Transformers) to 330 000 volts (or more in some places worldwide). At the point of use, the transformers reduce the voltage transmitted for safe residential and commercial use. (Credit: GeorgHH, Wikimedia Commons)")
 {: #Figure4}
 
-<div class="example" markdown="1">
+<div id="Example2" class="example" markdown="1">
 <div class="title">
 Power Losses Are Less for High-Voltage Transmission
 </div>
@@ -385,7 +385,7 @@ A North American tourist takes his 25.0-W, 120-V AC razor to Europe, finds a spe
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-In this problem, you will verify statements made at the end of the power losses for [[link]](#fs-id3200045). (a) What current is needed to transmit 100 MW of power at a voltage of 25.0 kV? (b) Find the power loss in a  $$1.00 \text{-} \Omega  $$
+In this problem, you will verify statements made at the end of the power losses for [[Example 2]](#Example2). (a) What current is needed to transmit 100 MW of power at a voltage of 25.0 kV? (b) Find the power loss in a  $$1.00 \text{-} \Omega  $$
  transmission line. (c) What percent loss does this represent?
 
 </div>

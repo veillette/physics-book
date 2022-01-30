@@ -146,7 +146,7 @@ into one another. You will read about these concepts in the following sections.
 Misconception Alert: Constancy of the Speed of Light
 </div>
 The speed of light is a constant  $$c= 3.00 \times 10^{8}  \text{m/s} $$
- **in a vacuum**. If you remember the effect of the index of refraction from [The Law of Refraction](../contents/m42459), the speed of light is lower in matter.
+ **in a vacuum**. If you remember the effect of the index of refraction from [The Law of Refraction](../contents/ch25TheLawOfRefraction), the speed of light is lower in matter.
 
 </div>
 

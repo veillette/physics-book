@@ -101,7 +101,7 @@ applying the rules.
 minus signs right when applying the loop rule. Note that the resistors and emfs
 are traversed by going from a to b. In many circuits, it will be necessary to
 construct more than one loop. In traversing each loop, one needs to be
-consistent for the sign of the change in potential. (See [[link]](#fs-id3008416)
+consistent for the sign of the change in potential. (See [[Example 1]](#Example1)
 .)
 
 ![This figure shows four situations where current flows through either a resistor or a source, and the calculation of the potential change across each. The first two diagrams show the potential drop across a resistor, with the current flowing from left to right or right to left. The other two diagrams show a potential drop across a voltage source, when the terminals are in one orientation and then another.](../resources/Figure_22_03_04.jpg "Each of these resistors and voltage sources is traversed from a to b. The potential changes are shown beneath each element and are explained in the text. (Note that the script E stands for emf.)")
@@ -120,7 +120,7 @@ consistent for the sign of the change in potential. (See [[link]](#fs-id3008416)
   positive charge), the change in potential is $$- $$ emf. (
   See [[Figure 4]](#Figure4).)
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Calculating Current: Using Kirchhoff’s Rules
 </div>
@@ -343,7 +343,7 @@ Apply the loop rule to loop aedcba in [[Figure 5]](#Figure5).
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Verify the second equation in [[link]](#fs-id3008416) by substituting the values found for the currents  $${I}_{1} $$
+Verify the second equation in [[Example 1]](#Example1) by substituting the values found for the currents  $${I}_{1} $$
  and  $${I}_{2} $$.
 
 </div>
@@ -351,7 +351,7 @@ Verify the second equation in [[link]](#fs-id3008416) by substituting the values
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Verify the third equation in [[link]](#fs-id3008416) by substituting the values found for the currents  $${I}_{1} $$
+Verify the third equation in [[Example 1]](#Example1) by substituting the values found for the currents  $${I}_{1} $$
  and  $${I}_{3} $$.
 
 </div>
@@ -400,7 +400,7 @@ Find the currents flowing in the circuit in [[Figure 8]](#Figure8). Explicitly s
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Solve [[link]](#fs-id3008416), but use loop abcdefgha instead of loop akledcba. Explicitly show how you follow the steps in the [Problem-Solving Strategies for Series and Parallel Resistors](../contents/m42356#fs-id2401854).
+Solve [[Example 1]](#Example1), but use loop abcdefgha instead of loop akledcba. Explicitly show how you follow the steps in the [Problem-Solving Strategies for Series and Parallel Resistors](../contents/m42356#fs-id2401854).
 
 </div>
 <div class="solution" markdown="1">
@@ -421,13 +421,13 @@ Find the currents flowing in the circuit in [[Figure 7]](#Figure7).
 <div class="problem" markdown="1">
 **Unreasonable Results**
 
-Consider the circuit in [[link]](#fs-id1947335), and suppose that the emfs are
+Consider the circuit in [[Figure 9]](#Figure9), and suppose that the emfs are
 unknown and the currents are given to be $${I}_{1}=5.00 \text{A} $$ , $${I}_
 {2}=3.0\text{ A} $$ , and $${I}_{3}= -2.00 \text{A} $$ .
 (a) Could you find the emfs? (b) What is wrong with the assumptions?
 
 ![The diagram shows a complex circuit with two voltage sources E sub one and E sub two, and three resistive loads, wired in two loops and two junctions. Several points on the diagram are marked with letters a through h. The current in each branch is labeled separately.](../resources/Figure_22_03_09.jpg " ")
-
+{: #Figure9}
 
 </div>
 <div class="solution" markdown="1">

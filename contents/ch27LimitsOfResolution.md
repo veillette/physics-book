@@ -45,7 +45,7 @@ because of the finite diameter $$D $$ of their primary mirror.
 <div class="title">
 Take-Home Experiment: Resolution of the Eye
 </div>
-Draw two lines on a white sheet of paper (several mm apart). How far away can you be and still distinguish the two lines? What does this tell you about the size of the eye’s pupil? Can you be quantitative? (The size of an adult’s pupil is discussed in [Physics of the Eye](../contents/m42482).)
+Draw two lines on a white sheet of paper (several mm apart). How far away can you be and still distinguish the two lines? What does this tell you about the size of the eye’s pupil? Can you be quantitative? (The size of an adult’s pupil is discussed in [Physics of the Eye](../contents/ch25PhysicsOfTheEye).)
 
 </div>
 
