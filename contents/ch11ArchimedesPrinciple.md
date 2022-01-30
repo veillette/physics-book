@@ -588,7 +588,7 @@ A twin-sized air mattress used for camping has dimensions of 100 cm by 200 cm by
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Referring to [[link]](#fs-id1860048), prove that the buoyant force on the cylinder is equal to the weight of the fluid displaced (Archimedes’ principle). You may assume that the buoyant force is  $${F}_{2}-{F}_{1} $$
+Referring to [[Figure 3]](#Figure3), prove that the buoyant force on the cylinder is equal to the weight of the fluid displaced (Archimedes’ principle). You may assume that the buoyant force is  $${F}_{2}-{F}_{1} $$
  and that the ends of the cylinder have equal areas  $$A $$ .
  Note that the volume of the cylinder (and that of the fluid it displaces) equals  $$\left({h}_{2}-{h}_{1}\right)A $$.
 

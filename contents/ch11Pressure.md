@@ -57,7 +57,7 @@ discussing fluids.
 ![In figure a, the person is poked with a finger exerting a small pressure due to the large area of contact and, in b, he is poked with a syringe exerting a large pressure due to the small area of contact.](../resources/Figure_12_03_01a.jpg "(a) While the person being poked with the finger might be irritated, the force has little lasting effect. (b) In contrast, the same force applied to an area the size of the sharp end of a needle is great enough to break the skin.")
 {: #Figure1}
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Calculating Force Exerted by the Air: What Force Does a Pressure Exert?
 </div>
@@ -148,7 +148,7 @@ Why does a dull hypodermic needle hurt more than a sharp one?
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-The outward force on one end of an air tank was calculated in [[link]](#fs-id2601795). How is this force balanced? (The tank does not accelerate, so the force must be balanced.)
+The outward force on one end of an air tank was calculated in [[Example 1]](#Example1). How is this force balanced? (The tank does not accelerate, so the force must be balanced.)
 
 </div>
 </div>

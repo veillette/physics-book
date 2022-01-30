@@ -163,7 +163,7 @@ hold.
 <div class="title">
 Calculating Pressure: Pressure Drops as a Fluid Speeds Up
 </div>
-In [[link]](../contents/m42205#fs-id3230619), we found that the speed of water in a hose increased from 1.96 m/s to 25.5 m/s going from the hose to the nozzle. Calculate the pressure in the hose, given that the absolute pressure in the nozzle is  $$ 1.01 \times 10^{5}  {\text{N/m}}^{2} $$
+In [[Example 2]](../contents/ch12FlowRateAndItsRelationsToVelocity#Example2), we found that the speed of water in a hose increased from 1.96 m/s to 25.5 m/s going from the hose to the nozzle. Calculate the pressure in the hose, given that the absolute pressure in the nozzle is  $$ 1.01 \times 10^{5}  {\text{N/m}}^{2} $$
  (atmospheric, as it must be) and assuming level, frictionless flow.
 
 **Strategy**
@@ -210,22 +210,22 @@ outside, the high-velocity fluid forces other fluids into the stream. This
 process is called *entrainment*. Entrainment devices have been in use since
 ancient times, particularly as pumps to raise water small heights, as in
 draining swamps, fields, or other low-lying areas. Some other devices that use
-the concept of entrainment are shown in [[link]](#fs-id1572246).
+the concept of entrainment are shown in [[Figure 2]](#Figure2).
 
 ![Part a of the figure shows a rectangular section of a cylindrical Bunsen burner as a vertical column. The natural gas is shown to enter the rectangular column from the bottom upward. The air is shown to enter though a nozzle at the left side near the bottom part of the rectangular column and rise upward. Both air and natural gas are shown to rise up together along the length of the column, shown as vertical arrows along the length pointing upward. Part b of the figure shows an atomizer that uses a squeeze bulb in the shape of a small sphere to create a jet of air that entrains drops of perfume contained in a spherical bottomed container. The air is shown to come out of the squeeze bulb and the perfume is shown to rise up from the spherical bottomed container. Part c of the figure shows a common aspirator which contains a cylindrical tube held vertically. The tube is broader on the top and narrow at the bottom. Water is shown to enter the tube from the broader region and flow toward the narrow region. Air is shown to enter the cylindrical tube from the bottom part of the broader side and also flow toward the narrow tube. Part d of the figure shows the chimney of a water heater. Water heater is shown as a rectangular box at the bottom having a cylindrical section in the middle. The cylindrical section is broader at the bottom and narrow toward the top. Hot air is shown to rise up along the vertical section of the cylindrical tube. The chimney is conical at the bottom and rectangular upward and is shown above the rectangular water heater. The hot air enters the chimney at the conical end and rises upward. Cool air is shown to enter the chimney through the area between the rectangular section of heater and chimney from the two sides and rise up along the chimney with the hot air as shown by vertical arrows.](../resources/Figure_13_02_02a.jpg "Examples of entrainment devices that use increased fluid speed to create low pressures, which then entrain one fluid into another. (a) A Bunsen burner uses an adjustable gas nozzle, entraining air for proper combustion. (b) An atomizer uses a squeeze bulb to create a jet of air that entrains drops of perfume. Paint sprayers and carburetors use very similar techniques to move their respective liquids. (c) A common aspirator uses a high-speed stream of water to create a region of lower pressure. Aspirators may be used as suction pumps in dental and surgical situations or for draining a flooded basement or producing a reduced pressure in a vessel. (d) The chimney of a water heater is designed to entrain air into the pipe leading through the ceiling.")
-
+{: #Figure2}
 
 #### Wings and Sails
 
 The airplane wing is a beautiful example of Bernoulli’s principle in
-action. [[Figure 2]](#Figure2)(a) shows the characteristic shape of a wing. The
+action. [[Figure 3]](#Figure3)(a) shows the characteristic shape of a wing. The
 wing is tilted upward at a small angle and the upper surface is longer, causing
 air to flow faster over it. The pressure on top of the wing is therefore
 reduced, creating a net upward force or lift. (Wings can also gain lift by
 pushing air downward, utilizing the conservation of momentum principle. The
 deflected air molecules result in an upward force on the wing — Newton’s third
 law.) Sails also have the characteristic shape of a wing. (
-See [[Figure 2]](#Figure2)(b).) The pressure on the front side of the sail,
+See [[Figure 3]](#Figure3)(b).) The pressure on the front side of the sail,
 $${P}_{\text{front}} $$ , is lower than the pressure on the back of the sail,
 $${P}_{\text{back}} $$ . This results in a forward force and even allows you to
 sail into the wind.
@@ -240,11 +240,10 @@ For a good illustration of Bernoulli’s principle, make two strips of paper, ea
 
 #### Velocity measurement
 
-[[Figure 3]](#Figure3) shows two devices that measure fluid velocity based on
-Bernoulli’s principle. The manometer in [[Figure 3]](#Figure3)(a) is connected
+[[Figure 4]](#Figure4) shows two devices that measure fluid velocity based on
+Bernoulli’s principle. The manometer in [[Figure 4]](#Figure4)(a) is connected
 to two tubes that are small enough not to appreciably disturb the flow. The tube
-facing the oncoming fluid creates a dead spot having zero velocity ( $${v}_{1}=0
-$$ )
+facing the oncoming fluid creates a dead spot having zero velocity ( $${v}_{1}=0 $$ )
 in front of it, while fluid passing the other tube has velocity $${v}_{2} $$ .
 This means that Bernoulli’s principle as stated in $${P}_{1}+\frac{1}{2}\rho v_
 {1}^{2}={P}_{2}+\frac{1}{2}\rho v_{2}^{2} $$ becomes
@@ -254,7 +253,7 @@ This means that Bernoulli’s principle as stated in $${P}_{1}+\frac{1}{2}\rho v
 </div>
 
 ![Part a of the figure shows a picture of a wing. It is in the form of an aerofoil. One side of the wing is broader and the other end tapers. The direction of the air is shown as lines along the length of the wing. The direction of the air below the wing is shown as flowing along the length of the wing. The pressure exerted by the air given by P b is upward. The direction of the air on the top or front part of the wing is shown as flowing along the length of the wing. The pressure exerted by the air is given by P f, and it acts downward. Part b of the figure shows a boat with a sail. The direction of the sail is almost across the boat. The direction of the air in the sail is shown by lines on the front and back sides of the sail. The air currents on the front exert a pressure P front toward the sail, and air currents on the back sides of sail exert a pressure P back again toward the sail.](../resources/Figure_13_02_03.jpg "(a) The Bernoulli principle helps explain lift generated by a wing. (b) Sails use the same technique to generate part of their thrust.")
-{: #Figure2}
+{: #Figure3}
 
 Thus pressure $${P}_{2} $$ over the second opening is reduced by
 $$\frac{1}{2}\rho v_{2}^{2} $$ , and so the fluid in the manometer rises by $$h
@@ -271,12 +270,12 @@ $${v}_{2} $$ , we see that
  $${v}_{2}\propto \sqrt{h}\text{.} $$
 </div>
 
-[[Figure 3]](#Figure3)(b) shows a version of this device that is in common use
+[[Figure 4]](#Figure4)(b) shows a version of this device that is in common use
 for measuring various fluid velocities; such devices are frequently used as air
 speed indicators in aircraft.
 
 ![Part a shows a U-shaped manometer tube connected to ends of two tubes which are placed close together. Tube one is open on the end and shows a velocity v one equals zero at the end. Tube two has an opening on the side and shows a velocity v two across the opening. The level of fluid in the U-shaped tube is more on the right side than on the left. The difference in height is shown by h. Part b of the figure shows a velocity measuring device a pitot tube. Two coaxial tubes, one broader outside and other narrow inside are connected to a U-shaped tube. The U-shaped tube is also narrow at one end and broader at the other. The narrow end of the U-shaped tube is connected to the narrow inner tube and the broader end of the U-shaped tube is connected to the broader outer tube. The tube one has an opening at one of its edges and the velocity of the fluid at the end is v one equals zero. Tube two has an opening on the side and shows a velocity v two across the opening. The level of fluid in the U-shaped tube is more on the right side than on the left. The difference in height is shown by h.](../resources/Figure_13_02_04a.jpg "Measurement of fluid speed based on Bernoulli&#x2019;s principle. (a) A manometer is connected to two tubes that are close together and small enough not to disturb the flow. Tube 1 is open at the end facing the flow. A dead spot having zero speed is created there. Tube 2 has an opening on the side, and so the fluid has a speed \( v \); across the opening; thus, pressure there drops. The difference in pressure at the manometer is \( 1/2 \rho v^2_2 \) , and so \( h \) is proportional to \( 1/2 \rho v^2_2 \). (b) This type of velocity measuring device is a Prandtl tube, also known as a pitot tube.")
-{: #Figure3}
+{: #Figure4}
 
 ### Summary
 
@@ -333,13 +332,13 @@ Give an example of entrainment not mentioned in the text.
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Many entrainment devices have a constriction, called a Venturi, such as shown in [[Figure 4]](#Figure4). How does this bolster entrainment?
+Many entrainment devices have a constriction, called a Venturi, such as shown in [[Figure 5]](#Figure5). How does this bolster entrainment?
 
 </div>
 </div>
 
 ![Figure shows a venturi tube, a cylindrical tube broader at both the ends and narrow in the middle. The narrow part is labeled as venturi constriction. The flow of fluid is shown as horizontal arrows along the length of the tube toward the right. The flow lines are closer in the center and spread apart at both the ends. There is an opening on the top portion of the narrow section for the entrained fluid to enter.](../resources/Figure_13_02_05a.jpg "A tube with a narrow segment designed to enhance entrainment is called a Venturi. These are very commonly used in carburetors and aspirators.")
-{: #Figure4}
+{: #Figure5}
 
 <div class="exercise"  data-element-type="conceptual-questions">
 <div class="problem"  markdown="1">
@@ -392,10 +391,10 @@ Water pressure inside a hose nozzle can be less than atmospheric pressure due to
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-A perfume bottle or atomizer sprays a fluid that is in the bottle. ([[Figure 5]](#Figure5).) How does the fluid rise up in the vertical tube in the bottle?
+A perfume bottle or atomizer sprays a fluid that is in the bottle. ([[Figure 6]](#Figure6).) How does the fluid rise up in the vertical tube in the bottle?
 
 ![A perfume bottle with a spray cap.](../resources/Figure_13_02_06a.jpg "Atomizer: perfume bottle with tube to carry perfume up through the bottle. (credit: Antonia Foy, Flickr)")
-{: #Figure5}
+{: #Figure6}
 
 </div>
 </div>
@@ -421,7 +420,7 @@ Verify that pressure has units of energy per unit volume.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Suppose you have a wind speed gauge like the pitot tube shown in [[link]](../contents/m42205#fs-id3230619)(b). By what factor must wind speed increase to double the value of   $$h $$ in the manometer? Is this independent of the moving fluid and the fluid in the manometer?
+Suppose you have a wind speed gauge like the pitot tube shown in [[link]](../contents/m42205#fs-id3230619)(b). By what factor must wind speed increase to double the value of $$h $$ in the manometer? Is this independent of the moving fluid and the fluid in the manometer?
 
 </div>
 </div>
