@@ -419,7 +419,7 @@ travels in the uniform field is 4.00 cm. (a) What is its vertical deflection? (
 b) What is the vertical component of its final velocity? (c) At what angle does
 it exit? Neglect any edge effects.
 
-![Two oppositely charged plates are parallel to each other. The path of an electron is shown passing from left to right between the plates. It deflects toward positive plate as it emerges from the plate with velocity vector making an angle theta with the horizontal.](../resources/Figure_19_08_10a.jpg)
+![Two oppositely charged plates are parallel to each other. The path of an electron is shown passing from left to right between the plates. It deflects toward positive plate as it emerges from the plate with velocity vector making an angle theta with the horizontal.](../resources/Figure_19_08_10a.jpg " ")
 {: #Figure8}
 
 </div>

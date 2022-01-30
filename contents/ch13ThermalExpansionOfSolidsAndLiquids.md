@@ -522,7 +522,7 @@ Two blocks, A and B, are made of the same material. Block A has dimensions  $$l√
  If the temperature changes, what is (a) the change in the volume of the two blocks, (b) the change in the cross-sectional area  $$l√ów $$ ,
  and (c) the change in the height  $$h $$  of the two blocks?
 
-![There are two rectangular blocks. Block A has its dimensions labeled length equals L, width equals two times L, height equals L. Block B has its dimensions labeled length, width, and height all equal to two times L.](../resources/Figure_14_02_04a.jpg)
+![There are two rectangular blocks. Block A has its dimensions labeled length equals L, width equals two times L, height equals L. Block B has its dimensions labeled length, width, and height all equal to two times L.](../resources/Figure_14_02_04a.jpg " ")
 
 </div>
 <div class="solution"  data-print-placement="here" markdown="1">

@@ -527,7 +527,7 @@ An ECG monitor must have an  $$\text{RC} $$
  resistance, calculate the time it takes to rise to  $$ 0.865{V}_{0} $$
  (This is about two time constants.)
 
-![A parallel circuit with a switch, an embedded electronic circuit, a capacitor, and a resistor is shown. The embedded circuit, capacitor, and resistor are connected in parallel with each other: the electronic circuit on the left, the capacitor in the middle, and the resistor on the right. The capacitor has a capacitance of eighty micro farads. The resistor has a resistance of two hundred fifty kilohms. The switch is on the top, between the electronic circuit and the capacitor leg.](../resources/Figure_22_06_07.jpg)
+![A parallel circuit with a switch, an embedded electronic circuit, a capacitor, and a resistor is shown. The embedded circuit, capacitor, and resistor are connected in parallel with each other: the electronic circuit on the left, the capacitor in the middle, and the resistor on the right. The capacitor has a capacitance of eighty micro farads. The resistor has a resistance of two hundred fifty kilohms. The switch is on the top, between the electronic circuit and the capacitor leg.](../resources/Figure_22_06_07.jpg " ")
 {: #Figure6}
 
 </div>

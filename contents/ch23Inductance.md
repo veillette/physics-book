@@ -85,7 +85,7 @@ where $$L $$
 self-inductance is called an **inductor**, and given the symbol
 in [[Figure 3]](#Figure3).
 
-![Two straight lines connected by three half-circles adjacent to each other.](../resources/Figure_24_09_05.jpg)
+![Two straight lines connected by three half-circles adjacent to each other.](../resources/Figure_24_09_05.jpg " ")
 {: #Figure3}
 
 The minus sign is an expression of Lenz’s law, indicating that emf opposes the

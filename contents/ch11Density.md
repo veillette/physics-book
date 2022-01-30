@@ -333,7 +333,7 @@ Give an example in which density is used to identify the substance composing an 
 <div class="problem" markdown="1">
 [[Figure 3]](#Figure3) shows a glass of ice water filled to the brim. Will the water overflow when the ice melts? Explain your answer.
 
-![A glass filled to the brim with water and ice cubes.](../resources/Figure_12_02_03a.jpg)
+![A glass filled to the brim with water and ice cubes.](../resources/Figure_12_02_03a.jpg " ")
 {: #Figure3}
 
 </div>

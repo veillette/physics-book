@@ -211,7 +211,7 @@ Sketch the equipotential lines in the vicinity of the negatively charged conduct
 <div class="problem" markdown="1">
 Sketch the equipotential lines surrounding the two conducting plates shown in [[Figure 8]](#Figure8), given the top plate is positive and the bottom plate has an equal amount of negative charge. Be certain to indicate the distribution of charge on the plates. Is the field strongest where the plates are closest? Why should it be?
 
-![Two conducting plates with the top one positively charged and the bottom one with an equal amount of negative charge.](../resources/Figure_20_04_08a.jpg)
+![Two conducting plates with the top one positively charged and the bottom one with an equal amount of negative charge.](../resources/Figure_20_04_08a.jpg " ")
 {: #Figure8}
 
 </div>

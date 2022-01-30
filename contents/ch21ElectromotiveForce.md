@@ -443,7 +443,7 @@ Explain which battery is doing the charging and which is being charged in [[Figu
 </div>
 </div>
 
-![The diagram shows two cells of e m f script E sub one equals twelve volts and internal resistance r sub one equals one ohm, and e m f script E sub two equals eighteen volts and internal resistance r sub two equals zero point five ohms, connected. The cells are connected with their positive terminals facing each other in a closed circuit.](../resources/Figure_22_02_14.jpg)
+![The diagram shows two cells of e m f script E sub one equals twelve volts and internal resistance r sub one equals one ohm, and e m f script E sub two equals eighteen volts and internal resistance r sub two equals zero point five ohms, connected. The cells are connected with their positive terminals facing each other in a closed circuit.](../resources/Figure_22_02_14.jpg " ")
 {: #Figure14}
 
 <div class="exercise" data-element-type="conceptual-questions">

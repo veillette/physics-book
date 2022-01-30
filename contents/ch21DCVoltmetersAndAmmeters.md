@@ -219,7 +219,7 @@ Stimulate a neuron and monitor what happens. Pause, rewind, and move forward in 
 <div class="problem" markdown="1">
 Why should you not connect an ammeter directly across a voltage source as shown in [[Figure 8]](#Figure8)? (Note that script E in the figure stands for emf.)
 
-![A circuit shows a connection of a cell of e m f script E and internal resistance r. Each terminal of the cell is connected to opposite ends of the ammeter. The circuit is closed.](../resources/Figure_22_04_08.jpg)
+![A circuit shows a connection of a cell of e m f script E and internal resistance r. Each terminal of the cell is connected to opposite ends of the ammeter. The circuit is closed.](../resources/Figure_22_04_08.jpg " ")
 {: #Figure8}
 
 </div>
@@ -238,7 +238,7 @@ Specify the points to which you could connect a voltmeter to measure the followi
  and  $${R}_{3} $$ .
  Note that there may be more than one answer to each part.
 
-![This figure shows a circuit having a cell of e m f script E and internal resistance r connected in parallel to two arms, one arm containing resistor R sub one and a second arm containing a series of resistors R sub two and R sub three.](../resources/Figure_22_04_09.jpg)
+![This figure shows a circuit having a cell of e m f script E and internal resistance r connected in parallel to two arms, one arm containing resistor R sub one and a second arm containing a series of resistors R sub two and R sub three.](../resources/Figure_22_04_09.jpg " ")
 {: #Figure9}
 
 </div>
@@ -345,7 +345,7 @@ Suppose you measure the terminal voltage of a 1.585-V alkaline cell having an in
  by placing a  $$ 1.00\text{-k}\Omega  $$
  voltmeter across its terminals. (See [[Figure 10]](#Figure10).) (a) What current flows? (b) Find the terminal voltage. (c) To see how close the measured terminal voltage is to the emf, calculate their ratio.
 
-![The figure shows a circuit diagram that includes a battery with an internal resistance r and a voltmeter connected across its terminals. The current I is shown by an arrow pointing in a clockwise direction.](../resources/Figure_22_04_10.jpg)
+![The figure shows a circuit diagram that includes a battery with an internal resistance r and a voltmeter connected across its terminals. The current I is shown by an arrow pointing in a clockwise direction.](../resources/Figure_22_04_10.jpg " ")
 {: #Figure10}
 
 </div>
@@ -403,7 +403,7 @@ A  $$0.0200\text{-Ω} $$
 <div class="solution" markdown="1">
 (a)
 
-![The figure shows part of a circuit that includes an ammeter with internal resistance r connected in series with a load resistance R.](../resources/Figure_22_04_11.jpg)
+![The figure shows part of a circuit that includes an ammeter with internal resistance r connected in series with a load resistance R.](../resources/Figure_22_04_11.jpg " ")
 
 (b)  $$ 10.02 \Omega $$
 (c) 0.9980, or a $$2.0 \times 10^{-1} $$ percent decrease

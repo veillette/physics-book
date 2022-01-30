@@ -93,7 +93,7 @@ Showing that the Speed of Light towards an Observer is Constant (in a Vacuum): T
 Suppose a spaceship heading directly towards the Earth at half the speed of light sends a signal to us on a laser-produced beam of light. Given that the light leaves the ship at speed  $$c $$
  as observed from the ship, calculate the speed at which it approaches the Earth.
 
-![A spacecraft is heading towards earth v equals zero point five zero zero times c. A laser beam from the ship travels towards the Earth with velocity c as shown by a vector. A second spaceship traveling away from the Earth. The velocity of the second ship and second laser are the same as the first, but in the opposite direction.](../resources/Figure_29_04_04a.jpg)
+![A spacecraft is heading towards earth v equals zero point five zero zero times c. A laser beam from the ship travels towards the Earth with velocity c as shown by a vector. A second spaceship traveling away from the Earth. The velocity of the second ship and second laser are the same as the first, but in the opposite direction.](../resources/Figure_29_04_04a.jpg " ")
 
 
 **Strategy**
@@ -138,7 +138,7 @@ Comparing the Speed of Light towards and away from an Observer: Relativistic Pac
 Suppose the spaceship in the previous example is approaching the Earth at half the speed of light and shoots a canister at a speed of  $$0.750c $$ .
  (a) At what velocity will an Earth-bound observer see the canister if it is shot directly towards the Earth? (b) If it is shot directly away from the Earth? (See [[link]](#fs-id893371).)
 
-![In part a, a spaceship is moving towards the earth from left to right with a velocity v equals to zero point five zero times c. The spaceships shoots a canister towards earth with velocity u prime equals zero point seven five times c. A man stands stationary on earth observing. In part b, the spaceship shoots the canister away from earth with same velocity. In both the cases, the velocity of the ship is v equals 0 point five zero times c toward left.](../resources/Figure_29_04_05a.jpg)
+![In part a, a spaceship is moving towards the earth from left to right with a velocity v equals to zero point five zero times c. The spaceships shoots a canister towards earth with velocity u prime equals zero point seven five times c. A man stands stationary on earth observing. In part b, the spaceship shoots the canister away from earth with same velocity. In both the cases, the velocity of the ship is v equals 0 point five zero times c toward left.](../resources/Figure_29_04_05a.jpg " ")
 
 
 **Strategy**

@@ -113,7 +113,7 @@ Check Your Understanding
 <div class="problem" markdown="1">
 Can you explain the attraction of water to the charged rod in the figure below?
 
-![Water flowing out of a glass pipette changes its course when a charged rod is brought close to it.](../resources/Figure_19_02_06a.jpg)
+![Water flowing out of a glass pipette changes its course when a charged rod is brought close to it.](../resources/Figure_19_02_06a.jpg " ")
 
 </div>
 <div class="solution" markdown="1">

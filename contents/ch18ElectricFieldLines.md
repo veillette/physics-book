@@ -203,7 +203,7 @@ Compare and contrast the Coulomb force field and the electric field. To do this,
 <div class="problem" markdown="1">
 [[Figure 6]](#Figure6) shows an electric field extending over three regions, labeled I, II, and III. Answer the following questions. (a) Are there any isolated charges? If so, in what region and what are their signs? (b) Where is the field strongest? (c) Where is it weakest? (d) Where is the field the most uniform?
 
-![Five field lines represented by long arrows horizontally from left to right are shown. Two arrows diverge from other three, one arrow runs straight toward right and two arrows end abruptly.](../resources/Figure_19_05_07a.jpg)
+![Five field lines represented by long arrows horizontally from left to right are shown. Two arrows diverge from other three, one arrow runs straight toward right and two arrows end abruptly.](../resources/Figure_19_05_07a.jpg " ")
 {: #Figure6}
 </div>
 </div>

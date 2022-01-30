@@ -275,7 +275,7 @@ Draw gravitational field lines between 2 masses, electric field lines between a 
 <div class="problem" markdown="1">
 Indicate whether the magnetic field created in each of the three situations shown in [[Figure 3]](#Figure3) is into or out of the page on the left and right of the current.
 
-![Figure a shows current I running from bottom to top. Figure b shows an electron moving with velocity v from bottom to top. Figure c shows current I running from top to bottom.](../resources/Figure_23_11_06a.jpg)
+![Figure a shows current I running from bottom to top. Figure b shows an electron moving with velocity v from bottom to top. Figure c shows current I running from top to bottom.](../resources/Figure_23_11_06a.jpg " ")
 {: #Figure3}
 
 </div>
@@ -293,7 +293,7 @@ Indicate whether the magnetic field created in each of the three situations show
 <div class="problem" markdown="1">
 What are the directions of the fields in the center of the loop and coils shown in [[Figure 4]](#Figure4)?
 
-![Figure a shows current in a loop, running counterclockwise. Figure b shows current in a coil running from left to right. Figure c shows current in a coil running from right to left.](../resources/Figure_23_11_07a.jpg)
+![Figure a shows current in a loop, running counterclockwise. Figure b shows current in a coil running from left to right. Figure c shows current in a coil running from right to left.](../resources/Figure_23_11_07a.jpg " ")
 {: #Figure4}
 
 </div>
@@ -303,7 +303,7 @@ What are the directions of the fields in the center of the loop and coils shown 
 <div class="problem"  markdown="1">
 What are the directions of the currents in the loop and coils shown in [[Figure 5]](#Figure5)?
 
-![Figure a shows the magnetic field into the page in the middle of a loop. Figure b shows the magnetic field within a coil running from left to right. Figure c shows B running from right to left within a coil.](../resources/Figure_23_11_08a.jpg)
+![Figure a shows the magnetic field into the page in the middle of a loop. Figure b shows the magnetic field within a coil running from left to right. Figure c shows B running from right to left within a coil.](../resources/Figure_23_11_08a.jpg " ")
 {: #Figure5}
 
 </div>
@@ -397,7 +397,7 @@ Measurements affect the system being measured, such as the current loop in [[lin
  in the straight wire have to create a field at the center of the loop in the direction opposite to that created by the loop? (b) What is the ratio of  $${I}_{1}/{I}_{2} $$
  that gives zero field strength at the center of the loop? (c) What is the direction of the field directly above the loop under this circumstance?
 
-![Two wires are shown. Wire one is in a loop of radios R and has a current I one. Wire two is straight and runs diagonally from the lower left to the upper right with current I two](../resources/Figure_23_11_09a.jpg)
+![Two wires are shown. Wire one is in a loop of radios R and has a current I one. Wire two is straight and runs diagonally from the lower left to the upper right with current I two](../resources/Figure_23_11_09a.jpg " ")
 {: #Figure6}
 
 </div>
@@ -452,7 +452,7 @@ T. (b) What is the acceleration of the bob at the bottom of its swing if its
 mass is 30.0 grams and it is hung from a flexible string? Be certain to include
 a free-body diagram as part of your analysis.
 
-![Diagram showing a pendulum swinging between the poles of a magnet. The magnetic field B runs from the north to the south pole.](../resources/Figure_23_11_11a.jpg)
+![Diagram showing a pendulum swinging between the poles of a magnet. The magnetic field B runs from the north to the south pole.](../resources/Figure_23_11_11a.jpg " ")
 {: #Figure7}
 
 </div>
