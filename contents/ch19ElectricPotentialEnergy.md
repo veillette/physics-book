@@ -148,7 +148,7 @@ stores much more energy than the other since $$\Delta \text{PE} = q\Delta V $$ .
 The car battery can move more charge than the motorcycle battery, although both
 are 12 V batteries.
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Calculating Energy
 </div>
@@ -202,7 +202,7 @@ from A to B.
 ![A headlight is connected to a 12 V battery. Negative charges move from the negative terminal of the battery to the positive terminal, resulting in a current flow and making the headlight glow. However, the positive terminal is at a greater potential than the negative terminal.](../resources/Figure_20_01_02a.jpg "A battery moves negative charge from its negative terminal through a headlight to its positive terminal. Appropriate combinations of chemicals in the battery separate charges so that the negative terminal has an excess of negative charge, which is repelled by it and attracted to the excess positive charge on the other terminal. In terms of potential, the positive terminal is at a higher voltage than the negative. Inside the battery, both positive and negative charges move.")
 {: #Figure2}
 
-<div class="example" markdown="1">
+<div id="Example2" class="example" markdown="1">
 <div class="title">
 How Many Electrons Move through a Headlight Each Second?
 </div>
@@ -257,7 +257,7 @@ example, even a tiny fraction of a joule can be great enough for these particles
 to destroy organic molecules and harm living tissue. The particle may do its
 damage by direct collision, or it may create harmful x rays, which can also
 inflict damage. It is useful to have an energy unit related to submicroscopic
-effects. [[link]](#fs-id1493012) shows a situation related to the definition of
+effects. [[Figure 3]](#Figure3) shows a situation related to the definition of
 such an energy unit. An electron is accelerated between two charged metal plates
 as it might be in an old-model television tube or oscilloscope. The electron is
 given kinetic energy that is later converted to another form—light in the
@@ -266,7 +266,7 @@ a positive charge.) Since energy is related to voltage by $$\Delta
 \text{PE}=q\Delta V, $$ we can think of the joule as a coulomb-volt.
 
 ![In an electron gun the electrons move from the negatively charged plate to the positively charged plate. Their kinetic energy will be equal to the potential energy.](../resources/Figure_20_01_03a.jpg "A typical electron gun accelerates electrons using a potential difference between two metal plates. The energy of the electron in electron volts is numerically the same as the voltage between the plates. For example, a 5000 V potential difference produces 5000 eV electrons.")
-
+{: #Figure3}
 
 On the submicroscopic scale, it is more convenient to define an energy unit
 called the **electron volt** (eV), which is the energy given to a fundamental
@@ -280,7 +280,7 @@ charge accelerated through a potential difference of 1 V. In equation form,
 <div class="title">
 Electron Volt
 </div>
-On the submicroscopic scale, it is more convenient to define an energy unit called the electron volt (eV), which is the energy given to a fundamental charge accelerated through a potential difference of 1 V*.* In equation form,
+On the submicroscopic scale, it is more convenient to define an energy unit called the electron volt (eV), which is the energy given to a fundamental charge accelerated through a potential difference of 1 V. In equation form,
 
 <div class="equation" >
  $$\begin{array}{lll}1 \text{eV}& =& \left(1.60 \times 10^{-19} \text{C}\right)\left(1 V\right)=\left(1.60 \times 10^{-19} \text{C}\right)\left(1 \text{J/C}\right)\\ & =& 1.60 \times 10^{-19} \text{J} \text{.} \end{array} $$
@@ -338,7 +338,7 @@ or
 where i and f stand for initial and final conditions. As we have found many
 times before, considering energy can give us insights and facilitate problem-solving.
 
-<div class="example" markdown="1">
+<div id="Example3" class="example" markdown="1">
 <div class="title">
 Electrical Potential Energy Converted to Kinetic Energy
 </div>
@@ -378,7 +378,7 @@ Entering values for  $$q, V\text{, and} m $$  gives
 **Discussion**
 
 Note that both the charge and the initial voltage are negative, as
-in [[link]](#fs-id1493012). From the discussions
+in [[Figure 3]](#Figure3). From the discussions
 in [Electric Charge and Electric Field](../contents/ch18ElectricChargeAndElectricField), we
 know that electrostatic forces on small particles are generally very large
 compared with the gravitational force. The large final speed confirms that the

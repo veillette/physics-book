@@ -176,7 +176,7 @@ Note that the above equation is valid when the parallel plates are separated by
 air or free space. When another material is placed between the plates, the
 equation is modified, as discussed below.)
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Capacitance and Charge Stored in a Parallel Plate Capacitor
 </div>
@@ -261,7 +261,7 @@ plates has a capacitance given by
 Values of the dielectric constant $$\kappa $$ for various materials are given
 in [[Table 1]](#Table1). Note that $$\kappa $$ for vacuum is exactly 1, and so
 the above equation is valid in that case, too. If a dielectric is used, perhaps
-by placing Teflon between the plates of the capacitor in [[link]](#fs-id920232),
+by placing Teflon between the plates of the capacitor in [[Example 1]](#Example1),
 then the capacitance is greater by the factor $$\kappa $$ , which for Teflon is
 2.1.
 
@@ -360,7 +360,7 @@ shown in [[Table 1]](#Table1) are maximum electric field strengths in V/m,
 called **dielectric strengths**, for several materials. These are the fields
 above which the material begins to break down and conduct. The dielectric
 strength imposes a limit on the voltage that can be applied for a given plate
-separation. For instance, in [[link]](#fs-id920232), the separation is 1.00 mm,
+separation. For instance, in [[Example 1]](#Example1), the separation is 1.00 mm,
 and so the voltage limit for air is
 
 <div class="equation" >
@@ -579,7 +579,7 @@ Find the charge stored when 5.50 V is applied to an 8.00 pF capacitor.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What charge is stored in the capacitor in [[link]](#fs-id920232)?
+What charge is stored in the capacitor in [[Example 1]](#Example1)?
 
 </div>
 <div class="solution" markdown="1">

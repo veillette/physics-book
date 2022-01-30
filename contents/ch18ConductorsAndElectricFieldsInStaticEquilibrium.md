@@ -180,10 +180,10 @@ accident) and fell on your car.
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Is the object in [[link]](#fs-id1586840) a conductor or an insulator? Justify your answer.
+Is the object in [[Figure 9]](#Figure9) a conductor or an insulator? Justify your answer.
 
-![External field lines entering the object from one end and emerging from another are shown by lines.](../resources/Figure_19_07_11a.jpg)
-
+![External field lines entering the object from one end and emerging from another are shown by lines.](../resources/Figure_19_07_11a.jpg " ")
+{: #Figure9}
 
 </div>
 </div>
@@ -239,17 +239,17 @@ Discuss pros and cons of a lightning rod being grounded versus simply being atta
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Using the symmetry of the arrangement, show that the net Coulomb force on the charge  $$q $$  at the center of the square below ([[Figure 9]](#Figure9)) is zero if the charges on the four corners are exactly equal.
+Using the symmetry of the arrangement, show that the net Coulomb force on the charge  $$q $$  at the center of the square below ([[Figure 10]](#Figure10)) is zero if the charges on the four corners are exactly equal.
 
 </div>
 </div>
 
 ![Four point charges, one is q a, second is q b, third is q c, and fourth is q d, lie on the corners of a square. q is located at its center.](../resources/Figure_19_07_12a.jpg "Four point charges \( q_{a} \), \( q_{b} \), \( q_{c} \), and \( q_{d} \) lie on the corners of a square and \( q \) is located at its center.")
-{: #Figure9}
+{: #Figure10}
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-(a) Using the symmetry of the arrangement, show that the electric field at the center of the square in [[Figure 9]](#Figure9) is zero if the charges on the four corners are exactly equal. (b) Show that this is also true for any combination of charges in which  $${q}_{a}={q}_{d} $$
+(a) Using the symmetry of the arrangement, show that the electric field at the center of the square in [[Figure 10]](#Figure10) is zero if the charges on the four corners are exactly equal. (b) Show that this is also true for any combination of charges in which  $${q}_{a}={q}_{d} $$
  and  $${q}_{b}={q}_{c} $$
 </div>
 </div>
@@ -257,7 +257,7 @@ Using the symmetry of the arrangement, show that the net Coulomb force on the ch
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 (a) What is the direction of the total Coulomb force on  $$q $$
- in [[Figure 9]](#Figure9) if  $$q $$
+ in [[Figure 10]](#Figure10) if  $$q $$
  is negative,  $${q}_{a}={q}_{c} $$
  and both are negative, and  $${q}_{b}={q}_{c} $$
  and both are positive? (b) What is the direction of the electric field at the center of the square in this situation?
@@ -267,7 +267,7 @@ Using the symmetry of the arrangement, show that the net Coulomb force on the ch
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Considering [[Figure 9]](#Figure9), suppose that  $${q}_{a}={q}_{d} $$
+Considering [[Figure 10]](#Figure10), suppose that  $${q}_{a}={q}_{d} $$
  and  $${q}_{b}={q}_{c} $$ .
  First show that  $$q $$  is in static equilibrium. (You may neglect the gravitational force.) Then discuss whether the equilibrium is stable or unstable, noting that this may depend on the signs of the charges and the direction of displacement of  $$q $$  from the center of the square.
 
@@ -277,7 +277,7 @@ Considering [[Figure 9]](#Figure9), suppose that  $${q}_{a}={q}_{d} $$
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 If  $${q}_{a}=0 $$
- in [[Figure 9]](#Figure9), under what conditions will there be no net Coulomb force on  $$q $$ ?
+ in [[Figure 10]](#Figure10), under what conditions will there be no net Coulomb force on  $$q $$ ?
 
 </div>
 </div>
@@ -307,38 +307,38 @@ Suppose a woman carries an excess charge. To maintain her charged status can she
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Sketch the electric field lines in the vicinity of the conductor in [[link]](#fs-id2000560) given the field was originally uniform and parallel to the object’s long axis. Is the resulting field small near the long side of the object?
+Sketch the electric field lines in the vicinity of the conductor in [[Figure 11]](#Figure11) given the field was originally uniform and parallel to the object’s long axis. Is the resulting field small near the long side of the object?
 
-![A oblong-shaped conductor.](../resources/Figure_19_07_13a.jpg)
-
+![A oblong-shaped conductor.](../resources/Figure_19_07_13a.jpg " ")
+{: #Figure11}
 </div>
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
 <div class="problem"  markdown="1">
-Sketch the electric field lines in the vicinity of the conductor in [[link]](#fs-id2000561) given the field was originally uniform and parallel to the object’s long axis. Is the resulting field small near the long side of the object?
+Sketch the electric field lines in the vicinity of the conductor in [[Figure 12]](#Figure12) given the field was originally uniform and parallel to the object’s long axis. Is the resulting field small near the long side of the object?
 
-![A oblong-shaped conductor.](../resources/Figure_19_07_14a.jpg)
+![A oblong-shaped conductor.](../resources/Figure_19_07_14a.jpg " ")
+{: #Figure12}
+</div>
+</div>
+
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
+Sketch the electric field between the two conducting plates shown in [[Figure 13]](#Figure13), given the top plate is positive and an equal amount of negative charge is on the bottom plate. Be certain to indicate the distribution of charge on the plates.
+
+![Two plates are shown; one is in horizontal direction and other is above the first plate with some inclination.](../resources/Figure_19_07_15a.jpg " ")
+{: #Figure13}
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Sketch the electric field between the two conducting plates shown in [[link]](#fs-id765824), given the top plate is positive and an equal amount of negative charge is on the bottom plate. Be certain to indicate the distribution of charge on the plates.
-
-![Two plates are shown; one is in horizontal direction and other is above the first plate with some inclination.](../resources/Figure_19_07_15a.jpg)
-
-
-</div>
-</div>
-
-<div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
-Sketch the electric field lines in the vicinity of the charged insulator in [[Figure 10]](#Figure10) noting its nonuniform charge distribution.
+Sketch the electric field lines in the vicinity of the charged insulator in [[Figure 14]](#Figure14) noting its nonuniform charge distribution.
 
 ![A positively charged rod with a concentration of positive charges near the top and a few in the middle.](../resources/Figure_19_07_16a.jpg "A charged insulating rod such as might be used in a classroom demonstration.")
-{: #Figure10}
+{: #Figure14}
 
 </div>
 </div>
@@ -346,10 +346,10 @@ Sketch the electric field lines in the vicinity of the charged insulator in [[Fi
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 What is the force on the charge located at  $$x=8.00 \text{cm} $$
- in [[link]](#fs-id1996672)(a) given that  $$q=1.00 \text{μC} $$ ?
+ in [[Figure 15]](#Figure15)(a) given that  $$q=1.00 \text{μC} $$ ?
 
 ![Three point charges are shown on the scaling line. First charge plus q is at three point zero, second charge minus two q is at eight point zero, and third charge plus q is eleven point zero centimeters along the x axis. Four charges are placed on a scaling line. First is minus two q at one point zero, second is plus q at five point zero, third is plus three q is at eight point zero, and fourth is minus q placed at fourteen point zero centimeter along the x axis.](../resources/Figure_19_07_17a.jpg "(a) Point charges located at 3.00, 8.00, and 11.0 cm along the x-axis. (b) Point charges located at 1.00, 5.00, 8.00, and 14.0 cm along the x-axis.")
-
+{: #Figure15}
 
 </div>
 </div>
@@ -357,9 +357,9 @@ What is the force on the charge located at  $$x=8.00 \text{cm} $$
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) Find the total electric field at  $$x=1.00 \text{cm} $$
- in [[link]](#fs-id1996672)(b) given that  $$q=5.00 \text{nC} $$ .
+ in [[Figure 15]](#Figure15)(b) given that  $$q=5.00 \text{nC} $$ .
  (b) Find the total electric field at  $$x=11.00 \text{cm} $$
- in [[link]](#fs-id1996672)(b). (c) If the charges are allowed to move and eventually be brought to rest by friction, what will the final charge configuration be? (That is, will there be a single charge, double charge, etc., and what will its value(s) be?)
+ in [[Figure 15]](#Figure15)(b). (c) If the charges are allowed to move and eventually be brought to rest by friction, what will the final charge configuration be? (That is, will there be a single charge, double charge, etc., and what will its value(s) be?)
 
 </div>
 <div class="solution" markdown="1">
@@ -372,7 +372,7 @@ What is the force on the charge located at  $$x=8.00 \text{cm} $$
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) Find the electric field at  $$x=5.00 \text{cm} $$
- in [[link]](#fs-id1996672)(a), given that  $$q=1.00 \text{μC} $$ .
+ in [[Figure 15]](#Figure15)(a), given that  $$q=1.00 \text{μC} $$ .
  (b) At what position between 3.00 and 8.00 cm is the total electric field the same as that for  $$-2q $$
  alone? (c) Can the electric field be zero anywhere between 0.00 and 8.00 cm? (d) At very large positive or negative values of *x* , the electric field approaches zero in both (a) and (b). In which does it most rapidly approach zero and why? (e) At what position to the right of 11.0 cm is the total electric field zero, other than at infinity? (Hint: A graphing calculator can yield considerable insight in this problem.)
 
@@ -382,8 +382,8 @@ What is the force on the charge located at  $$x=8.00 \text{cm} $$
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) Find the total Coulomb force on a charge of 2.00 nC located at  $$x=4.00 \text{cm} $$
- in [[link]](#fs-id1996672) (b), given that  $$q=1.00 \text{μC} $$ .
- (b) Find the *x*-position at which the electric field is zero in [[link]](#fs-id1996672) (b).
+ in [[Figure 15]](#Figure15) (b), given that  $$q=1.00 \text{μC} $$ .
+ (b) Find the *x*-position at which the electric field is zero in [[Figure 15]](#Figure15) (b).
 
 </div>
 <div class="solution" markdown="1">
@@ -400,15 +400,15 @@ Using the symmetry of the arrangement, determine the direction of the force on  
  and  $${q}_{c}={q}_{d}=-7.50 \text{μC} $$ .
  (b) Calculate the magnitude of the force on the charge  $$q $$ , given that the square is 10.0 cm on a side and  $$q=2.00 \text{μC} $$.
 
-![Four point charges, one is q a, second is q b, third is q c, and fourth is q d, lie on the corners of a square. q is located at its center.](../resources/Figure_19_07_12a.jpg)
-{: #Figure11}
+![Four point charges, one is q a, second is q b, third is q c, and fourth is q d, lie on the corners of a square. q is located at its center.](../resources/Figure_19_07_12a.jpg  " ")
+{: #Figure16}
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) Using the symmetry of the arrangement, determine the direction of the electric field at the center of the square in [[Figure 11]](#Figure11), given that  $${q}_{a}={q}_{b}=-1.00 \text{μC} $$
+(a) Using the symmetry of the arrangement, determine the direction of the electric field at the center of the square in [[Figure 16]](#Figure16), given that  $${q}_{a}={q}_{b}=-1.00 \text{μC} $$
  and  $${q}_{c}={q}_{d}=+1.00 \text{μC} $$ .
  (b) Calculate the magnitude of the electric field at the location of  $$q $$ ,
  given that the square is 5.00 cm on a side.
@@ -428,7 +428,7 @@ Using the symmetry of the arrangement, determine the direction of the force on  
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Find the electric field at the location of  $${q}_{a} $$
- in [[Figure 11]](#Figure11) given that  $${q}_{b}={q}_{c}={q}_{d}=+2.00 \text{nC} $$ ,
+ in [[Figure 16]](#Figure16) given that  $${q}_{b}={q}_{c}={q}_{d}=+2.00 \text{nC} $$ ,
   $$q=-1.00 \text{nC} $$ ,  and the square is 20.0 cm on a side.
 </div>
 </div>
@@ -436,7 +436,7 @@ Find the electric field at the location of  $${q}_{a} $$
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Find the total Coulomb force on the charge  $$q $$
- in [[Figure 11]](#Figure11), given that  $$q=1.00 \text{μC} $$ ,
+ in [[Figure 16]](#Figure16), given that  $$q=1.00 \text{μC} $$ ,
   $${q}_{a}=2.00 \text{μC} $$ ,
   $${q}_{b}=-3.00 \text{μC} $$ ,
   $${q}_{c}=-4.00 \text{μC} $$ ,
@@ -453,20 +453,20 @@ Find the total Coulomb force on the charge  $$q $$
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) Find the electric field at the location of  $${q}_{a} $$
- in [[Figure 12]](#Figure12), given that  $${q}_{\text{b}}=+10.00 \mu \text{C} $$
+ in [[Figure 17]](#Figure17), given that  $${q}_{\text{b}}=+10.00 \mu \text{C} $$
  and  $${q}_{\text{c}}= -5.00 \mu \text{C} $$ .
  (b) What is the force on  $${q}_{a} $$ ,
  given that  $${q}_{\text{a}}=+1.50 \text{nC} $$ ?
 
 ![Three point charges located at the corners of an equilateral triangle.](../resources/Figure_19_07_18a.jpg "Point charges located at the corners of an equilateral triangle 25.0 cm on a side.")
-{: #Figure12}
+{: #Figure17}
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) Find the electric field at the center of the triangular configuration of charges in [[Figure 12]](#Figure12), given that  $${q}_{a}=+2.50 \text{nC} $$ ,
+(a) Find the electric field at the center of the triangular configuration of charges in [[Figure 17]](#Figure17), given that  $${q}_{a}=+2.50 \text{nC} $$ ,
   $${q}_{b}=-8.00 \text{nC} $$ ,
  and  $${q}_{c}=+1.50 \text{nC} $$ .
  (b) Is there any combination of charges, other than  $${q}_{a}={q}_{b}={q}_{c} $$ ,
