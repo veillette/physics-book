@@ -56,7 +56,7 @@ and becomes turbulent.
 <div class="title">
 Is This Flow Laminar or Turbulent?
 </div>
-Calculate the Reynolds number for flow in the needle considered in [Example 12.8](../contents/m42209#fs-id1969731) to verify the assumption that the flow is laminar. Assume that the density of the saline solution is  $$1025 kg/{\text{m}}^{3} $$.
+Calculate the Reynolds number for flow in the needle considered in [Example 2](../contents/ch12ViscosityAndLaminarFlow#Example2) to verify the assumption that the flow is laminar. Assume that the density of the saline solution is  $$1025 kg/{\text{m}}^{3} $$.
 
 **Strategy**
 
@@ -77,7 +77,7 @@ Since $${N}_{\text{R}} $$ is well below 2000, the flow should indeed be laminar.
 
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div id="Take-Home1" class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
 Take-Home Experiment: Inhalation
 </div>
@@ -216,7 +216,7 @@ $$1.28 \times 10^{-2} \text{L/s} $$
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-In [Take-Home Experiment: Inhalation](#fs-id1861353), we measured the average flow rate  $$Q $$  of air traveling through the trachea during each inhalation. Now calculate the average air speed in meters per second through your trachea during each inhalation. The radius of the trachea in adult humans is approximately  $$10^{-2} \text{m} $$ .
+In [Take-Home Experiment: Inhalation](#Take-Home1), we measured the average flow rate  $$Q $$  of air traveling through the trachea during each inhalation. Now calculate the average air speed in meters per second through your trachea during each inhalation. The radius of the trachea in adult humans is approximately  $$10^{-2} \text{m} $$ .
  From the data above, calculate the Reynolds number for the air flow in the trachea during inhalation. Do you expect the air flow to be laminar or turbulent?
 
 </div>

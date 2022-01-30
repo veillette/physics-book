@@ -179,7 +179,7 @@ Interference patterns do not have an infinite number of lines, since there is a 
 
 **Strategy and Concept**
 
-The equation $$d \sin \theta =\mathrm{m\lambda } \text{(for} m=0, 1, -1, 2, -2,
+The equation $$d \sin \theta =\mathrm{m\lambda }  \left( \text{ for } m=0, 1, -1, 2, -2,
 \dots \right) $$ describes constructive interference. For fixed values of $$d $$
 and $$\lambda $$ , the larger $$m $$ is, the larger $$\sin \theta $$ is.
 However, the maximum value that $$\sin \theta $$ can have is 1, for an angle of
@@ -224,11 +224,11 @@ be observable.
 * An interference pattern is obtained by the superposition of light from two
   slits.
 * There is constructive interference when $$d\sin \theta =\mathrm{m\lambda }
-  \text{(for} m=0, 1, -1, 2, -2, \dots \right) $$ , where $$d $$ is the distance
+  \left( \text{ for } m=0, 1, -1, 2, -2, \dots \right) $$ , where $$d $$ is the distance
   between the slits, $$\theta $$ is the angle relative to the incident
   direction, and $$m $$ is the order of the interference.
 * There is destructive interference when $$d \sin \theta =\left(
-  m+\frac{1}{2}\right)\lambda \text{(for} m=0, 1, -1, 2, -2, \dots \right) $$ .
+  m+\frac{1}{2}\right)\lambda \left( \text{ for } m=0, 1, -1, 2, -2, \dots \right) $$ .
 
 ### Conceptual Questions
 
