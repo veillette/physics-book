@@ -115,7 +115,7 @@ same side of the mirror as the object. It is otherwise identical.
 ![Three incident rays, 1, 2, and 3, falling on a concave mirror. Ray 1 falls parallel, ray 2 falls making an angle with the axis and ray 3 passes through focal point F. These rays after reflection converge at a point below the axis. The image is inverted and enlarged and falls below the axis on the same side as the object. Here, the distance from the center of the mirror to F is the focal distance small f, distances of the object and the image from the mirror are d sub o and d sub I, respectively. The heights of the object and the image are h sub o and h sub I, respectively.](../resources/Figure_26_07_04.jpg "A case 1 image for a mirror. An object is farther from the converging mirror than its focal length. Rays from a common point on the object are traced using the rules in the text. Ray 1 approaches parallel to the axis, ray 2 strikes the center of the mirror, and ray 3 goes through the focal point on the way toward the mirror. All three rays cross at the same point after being reflected, locating the inverted real image. Although three rays are shown, only two of the three are needed to locate the image and determine its height.")
 {: #Figure4}
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 A Concave Reflector
 </div>
@@ -177,7 +177,7 @@ distance approaches infinity and the rays are sent out parallel to one another.
 
 </div>
 
-<div class="example" markdown="1">
+<div id="Example2" class="example" markdown="1">
 <div class="title">
 Solar Electric Generating System
 </div>
@@ -277,7 +277,7 @@ smaller than the object.
 
 </div>
 
-<div class="example" markdown="1">
+<div id="Example3" class="example" markdown="1">
 <div class="title">
 Image in a Convex Mirror
 </div>
@@ -499,7 +499,7 @@ Some telephoto cameras use a mirror rather than a lens. What radius of curvature
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the magnification of the heater element in [[link]](#fs-id1656496). Note that its large magnitude helps spread out the reflected energy.
+Find the magnification of the heater element in [[Example 1]](#Example1). Note that its large magnitude helps spread out the reflected energy.
 
 </div>
 </div>

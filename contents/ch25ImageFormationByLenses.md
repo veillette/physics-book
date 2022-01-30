@@ -91,7 +91,7 @@ where  $$f $$
 
 </div>
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 What is the Power of a Common Magnifying Glass?
 </div>
@@ -341,7 +341,7 @@ Thin Lens Equations and Magnification
 </div>
 </div>
 
-<div class="example" markdown="1">
+<div id="Example2" class="example" markdown="1">
 <div class="title">
 Finding the Image of a Light Bulb Filament by Ray Tracing and by the Thin Lens Equations
 </div>
@@ -471,7 +471,7 @@ An image that is on the same side of the lens as the object and cannot be projec
 
 </div>
 
-<div class="example" markdown="1">
+<div id="Example3" class="example" markdown="1">
 <div class="title">
 Image Produced by a Magnifying Glass
 </div>
@@ -552,7 +552,7 @@ lens.
 ![Figure (a) shows an upright object placed at d sub o equals seven point five cm and in front of a concave lens of on its left side. Parallel ray 1 falls on the lens and gets refracted and dotted backwards to pass through point F on the left side. Figure (b) shows ray 2 going straight through the center of the lens. Figure (c) combines both figures (a) and (b) and the dotted line and the solid line meet at a point on the left side of the lens forming a virtual image which is erect and diminished. Here h sub o is the height of the object above the axis and h sub i is the height of the image above the axis. The distance from the center to the image is d sub i equals 4.29 cm.](../resources/Figure_26_06_13.jpg "Ray tracing predicts the image location and size for a concave or diverging lens. Ray 1 enters parallel to the axis and is bent so that it appears to originate from the focal point. Ray 2 passes through the center of the lens without changing path. The two rays appear to come from a common point, locating the upright image. This is a case 3 image, which is closer to the lens than the object and smaller in height. ")
 {: #Figure13}
 
-<div class="example" markdown="1">
+<div id="Example4" class="example" markdown="1">
 <div class="title">
 Image Produced by a Concave Lens
 </div>
@@ -910,7 +910,7 @@ What magnification will be produced by a lens of power –4.00 D (such as might 
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-In [[link]](#fs-id3204645), the magnification of a book held 7.50 cm from a 10.0 cm focal length lens was found to be 3.00. (a) Find the magnification for the book when it is held 8.50 cm from the magnifier. (b) Do the same for when it is held 9.50 cm from the magnifier. (c) Comment on the trend in m as the object distance increases as in these two calculations.
+In [[Example 4]](#Example4), the magnification of a book held 7.50 cm from a 10.0 cm focal length lens was found to be 3.00. (a) Find the magnification for the book when it is held 8.50 cm from the magnifier. (b) Do the same for when it is held 9.50 cm from the magnifier. (c) Comment on the trend in m as the object distance increases as in these two calculations.
 
 </div>
 <div class="solution" markdown="1">

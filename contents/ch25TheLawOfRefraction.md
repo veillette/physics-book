@@ -218,7 +218,7 @@ speed.
                             </tr>
                         </tbody></table>
 
-<div class="example"  markdown="1">
+<div id="Example1" class="example"  markdown="1">
 <div class="title">
 Speed of Light in Matter
 </div>
@@ -319,7 +319,7 @@ A classic observation of refraction occurs when a pencil is placed in a glass ha
 
 </div>
 
-<div class="example" markdown="1">
+<div id="Example2" class="example" markdown="1">
 <div class="title">
 Determine the Index of Refraction from Refraction Data
 </div>
@@ -366,7 +366,7 @@ measuring that speed directly.
 <div class="title">
 A Larger Change in Direction
 </div>
-Suppose that in a situation like that in [[link]](#fs-id1542363), light goes from air to diamond and that the incident angle is  $$ 30.0º $$ .
+Suppose that in a situation like that in [[Example 2]](#Example2), light goes from air to diamond and that the incident angle is  $$ 30.0º $$ .
  Calculate the angle of refraction  $${\theta }_{2} $$
  in the diamond.
 
