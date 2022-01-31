@@ -97,7 +97,7 @@ engineering, or similar pursuits, delving into these matters further will reveal
 descriptions of nature that are elegant as well as profound. In this text, we
 shall keep the general features in mind, such as RHR-2 and the rules for
 magnetic field lines listed
-in [Magnetic Fields and Magnetic Field Lines](../contents/ch22MagneticFIeldsAndMagneticFIeldLines)
+in [Magnetic Fields and Magnetic Field Lines](../contents/ch22MagneticFieldsAndMagneticFieldLines)
 , while concentrating on the fields created in certain important situations.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -115,7 +115,7 @@ in [[Figure 2]](#Figure2). Both the direction and the magnitude of the magnetic
 field produced by a current-carrying loop are complex. RHR-2 can be used to give
 the direction of the field near the loop, but mapping with compasses and the
 rules about field lines given
-in [Magnetic Fields and Magnetic Field Lines](../contents/ch22MagneticFIeldsAndMagneticFIeldLines)
+in [Magnetic Fields and Magnetic Field Lines](../contents/ch22MagneticFieldsAndMagneticFieldLines)
 are needed for more detail. There is a simple formula for the **magnetic field
 strength at the center of a circular loop**. It is
 

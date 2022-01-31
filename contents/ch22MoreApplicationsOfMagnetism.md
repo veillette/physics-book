@@ -405,7 +405,7 @@ Measurements affect the system being measured, such as the current loop in [[lin
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the magnitude and direction of the magnetic field at the point equidistant from the wires in [[link]](../contents/m42386#import-auto-id2069440)(a), using the rules of vector addition to sum the contributions from each wire.
+Find the magnitude and direction of the magnetic field at the point equidistant from the wires in [[link]](../contents/ch22MagneticForceBetweenTwoParallelConductors#import-auto-id2069440)(a), using the rules of vector addition to sum the contributions from each wire.
 
 </div>
 <div class="solution" markdown="1">
@@ -416,14 +416,14 @@ Find the magnitude and direction of the magnetic field at the point equidistant 
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the magnitude and direction of the magnetic field at the point equidistant from the wires in [[link]](../contents/m42386#import-auto-id2069440)(b), using the rules of vector addition to sum the contributions from each wire.
+Find the magnitude and direction of the magnetic field at the point equidistant from the wires in [[link]](../contents/ch22MagneticForceBetweenTwoParallelConductors#import-auto-id2069440)(b), using the rules of vector addition to sum the contributions from each wire.
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What current is needed in the top wire in [[link]](../contents/m42386#import-auto-id2069440)(a) to produce a field of zero at the point equidistant from the wires, if the currents in the bottom two wires are both 10.0 A into the page?
+What current is needed in the top wire in [[link]](../contents/ch22MagneticForceBetweenTwoParallelConductors#import-auto-id2069440)(a) to produce a field of zero at the point equidistant from the wires, if the currents in the bottom two wires are both 10.0 A into the page?
 
 </div>
 <div class="solution" markdown="1">
