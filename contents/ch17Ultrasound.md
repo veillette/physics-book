@@ -11,6 +11,7 @@ layout: page
 </div>
 
 ![An ultrasound image of a 21 week old fetus.](../resources/Figure_18_07_01a.jpg "Ultrasound is used in medicine to painlessly and noninvasively monitor patient health and diagnose a wide range of disorders. (credit: abbybatchelder, Flickr)")
+{: #Figure1}
 
 Any sound with a frequency above 20 000 Hz (or 20 kHz)—that is, above the
 highest audible frequency—is defined to be ultrasound. In practice, it is
@@ -36,7 +37,7 @@ Ultrasound, like any wave, carries energy that can be absorbed by the medium
 carrying it, producing effects that vary with intensity. When focused to
 intensities of $$ 10^{3} $$ to $$ 10^{5} {\text{W/m}}^{2} $$ , ultrasound
 can be used to shatter gallstones or pulverize cancerous tissue in surgical
-procedures. (See [[Figure 1]](#Figure1).) Intensities this great can damage
+procedures. (See [[Figure 2]](#Figure2).) Intensities this great can damage
 individual cells, variously causing their protoplasm to stream inside them,
 altering their permeability, or rupturing their walls through *cavitation*.
 Cavitation is the creation of vapor cavities in a fluid—the longitudinal
@@ -45,7 +46,7 @@ sufficient amplitudes the expansion separates molecules. Most cavitation damage
 is done when the cavities collapse, producing even greater shock pressures.
 
 ![A picture of a brain tumor being removed from the skull using a clinical probe.](../resources/Figure_18_07_02a.jpg "The tip of this small probe oscillates at 23 kHz with such a large amplitude that it pulverizes tissue on contact. The debris is then aspirated. The speed of the tip may exceed the speed of sound in tissue, thus creating shock waves and cavitation, rather than a smooth simple harmonic oscillator&#x2013;type wave.")
-{: #Figure1}
+{: #Figure2}
 
 Most of the energy carried by high-intensity ultrasound in tissue is converted
 to thermal energy. In fact, intensities of $$10^{3} $$ to $$10^{4}
@@ -163,7 +164,7 @@ making up the boundary. A reflection coefficient of zero (corresponding to total
 transmission and no reflection) occurs when the acoustic impedances of the two
 media are the same. An impedance “match” (no reflection) provides an efficient
 coupling of sound energy from one medium to another. The image formed in an
-ultrasound is made by tracking reflections (as shown in [[Figure 2]](#Figure2))
+ultrasound is made by tracking reflections (as shown in [[Figure 3]](#Figure3))
 and mapping the intensity of the reflected sound waves in a two-dimensional
 plane.
 
@@ -226,10 +227,10 @@ several decades and detailed follow-up studies do not show evidence of ill
 effects, quite unlike the case for x-rays.
 
 ![The first part of the diagram shows a rectangular shaped transducer with speaker and microphone sending spherical waves to produce echos from a fetus. The second part shows a graph of echo intensity versus time, with four sharp peaks.](../resources/Figure_18_07_03a.jpg "(a) An ultrasound speaker doubles as a microphone. Brief bleeps are broadcast, and echoes are recorded from various depths. (b) Graph of echo intensity versus time. The time for echoes to return is directly proportional to the distance of the reflector, yielding this information noninvasively.")
-{: #Figure2}
+{: #Figure3}
 
 The most common ultrasound applications produce an image like that shown
-in [[Figure 3]](#Figure3). The speaker-microphone broadcasts a directional beam,
+in [[Figure 4]](#Figure4). The speaker-microphone broadcasts a directional beam,
 sweeping the beam across the area of interest. This is accomplished by having
 multiple ultrasound sources in the probe’s head, which are phased to interfere
 constructively in a given, adjustable direction. Echoes are measured as a
@@ -237,10 +238,10 @@ function of position as well as depth. A computer constructs an image that
 reveals the shape and density of internal structures.
 
 ![The first part of the diagram shows an ultrasound device scanning a woman&#x2019;s abdomen. The second part of the diagram is an ultrasound scan report of the abdomen.](../resources/Figure_18_07_04a.jpg "(a) An ultrasonic image is produced by sweeping the ultrasonic beam across the area of interest, in this case the woman&#x2019;s abdomen. Data are recorded and analyzed in a computer, providing a two-dimensional image. (b) Ultrasound image of 12-week-old fetus. (credit: Margaret W. Carruthers, Flickr)")
-{: #Figure3}
+{: #Figure4}
 
-How much detail can ultrasound reveal? The image in [[Figure 3]](#Figure3) is
-typical of low-cost systems, but that in [[Figure 4]](#Figure4) shows the
+How much detail can ultrasound reveal? The image in [[Figure 4]](#Figure4) is
+typical of low-cost systems, but that in [[Figure 5]](#Figure5) shows the
 remarkable detail possible with more advanced systems, including 3D imaging.
 Ultrasound today is commonly used in prenatal care. Such imaging can be used to
 see if the fetus is developing at a normal rate, and help in the determination
@@ -262,7 +263,7 @@ which is 0.11 m. Higher frequencies may be employed in smaller organs, such as
 the eye, but are not practical for looking deep into the body.
 
 ![This is an image of a 3D ultrasound scan of the fetus showing an unborn baby sucking its thumb.](../resources/Figure_18_07_05a.jpg "A 3D ultrasound image of a fetus. As well as for the detection of any abnormalities, such scans have also been shown to be useful for strengthening the emotional bonding between parents and their unborn child. (credit: Jennie Cu, Wikimedia Commons)")
-{: #Figure4}
+{: #Figure5}
 
 In addition to shape information, ultrasonic scans can produce density
 information superior to that found in X-rays, because the intensity of a
@@ -273,7 +274,7 @@ Another major use of ultrasound in medical diagnostics is to detect motion and
 determine velocity through the Doppler shift of an echo, known as **
 Doppler-shifted ultrasound**. This technique is used to monitor fetal heartbeat,
 measure blood velocity, and detect occlusions in blood vessels, for example. (
-See [[Figure 5]](#Figure5).) The magnitude of the Doppler shift in an echo is
+See [[Figure 6]](#Figure6).) The magnitude of the Doppler shift in an echo is
 directly proportional to the velocity of whatever reflects the sound. Because an
 echo is involved, there is actually a double shift. The first occurs because the
 reflector (say a fetal heart) is a moving observer and receives a
@@ -281,7 +282,7 @@ Doppler-shifted frequency. The reflector then acts as a moving source, producing
 a second Doppler shift.
 
 ![Doppler-shifted ultrasonic image of a partially occluded artery.](../resources/Figure_18_07_06a.jpg "This Doppler-shifted ultrasonic image of a partially occluded artery uses color to indicate velocity. The highest velocities are in red, while the lowest are blue. The blood must move faster through the constriction to carry the same flow. (credit: Arning C, Grzyska U, Wikimedia Commons)")
-{: #Figure5}
+{: #Figure6}
 
 A clever technique is used to measure the Doppler shift in an echo. The
 frequency of the echoed sound is superimposed on the broadcast frequency,
@@ -306,7 +307,7 @@ Doppler-shifted radar echoes are used to measure wind velocities in storms as we
 <div class="title">
 Calculate Velocity of Blood: Doppler-Shifted Ultrasound
 </div>
-Ultrasound that has a frequency of 2.50 MHz is sent toward blood in an artery that is moving toward the source at 20.0 cm/s, as illustrated in [[Figure 6]](#Figure6). Use the speed of sound in human tissue as 1540 m/s. (Assume that the frequency of 2.50 MHz is accurate to seven significant figures.)
+Ultrasound that has a frequency of 2.50 MHz is sent toward blood in an artery that is moving toward the source at 20.0 cm/s, as illustrated in [[Figure 7](#Figure7). Use the speed of sound in human tissue as 1540 m/s. (Assume that the frequency of 2.50 MHz is accurate to seven significant figures.)
 
 1. What frequency does the blood receive?
 2. What frequency returns to the source?
@@ -314,7 +315,7 @@ Ultrasound that has a frequency of 2.50 MHz is sent toward blood in an artery th
    mixed? {: type="a"}
 
 ![The picture represents an ultrasound device scanning the arteries and veins of a human hand.](../resources/Figure_18_07_07a.jpg "Ultrasound is partly reflected by blood cells and plasma back toward the speaker-microphone. Because the cells are moving, two Doppler shifts are produced&#x2014;one for blood as a moving observer, and the other for the reflected sound coming from a moving source. The magnitude of the shift is directly proportional to blood velocity.")
-{: #Figure6}
+{: #Figure7}
 
 **Strategy**
 
