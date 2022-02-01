@@ -9,6 +9,7 @@ layout: page
 </div>
 
 ![The figure shows the panel of the piano containing the strings, which are visibly in horizontal lines. Just below the strings is the wooden block of the piano containing the different type string handle bars and blocks.](../resources/Figure_17_08_01a.jpg "You can cause the strings in a piano to vibrate simply by producing sound waves from your voice. (credit: Matt Billings, Flickr)")
+{: #Figure1}
 
 Sit in front of a piano sometime and sing a loud brief note at it with the
 dampers off its strings. It will sing the same note back at you—the strings,
@@ -24,7 +25,7 @@ which a system would oscillate if there were no driving and no damping force.
 
 Most of us have played with toys involving an object supported on an elastic
 band, something like the paddle ball suspended from a finger
-in [[Figure 1]](#Figure1). Imagine the finger in the figure is your finger. At
+in [[Figure 2]](#Figure2). Imagine the finger in the figure is your finger. At
 first you hold your finger steady, and the ball bounces up and down with a small
 amount of damping. If you move your finger up and down slowly, the ball will
 follow along without bouncing much on its own. As you increase the frequency at
@@ -39,9 +40,9 @@ becomes smaller, until the oscillations nearly disappear and your finger simply
 moves up and down with little effect on the ball.
 
 ![The given figure shows three pictures of a horizontal viewed single finger containing a string, suspended downward vertically, being tied to a paddle ball at its downward end. In the first figure the ball is stretching up and down very slowly having less displacement, the displacement shown in the figures as faded shades of the ball and is depicted as 2X. Whereas in the second figure the movement of the ball is highest, while in the third the movement is least. In all the three figures the ball is at its equilibrium with respect to its movement. The frequency, f, for the first figure is very low, for the second figure as f not, while for the third figure it is highest.](../resources/Figure_17_08_02a.jpg "The paddle ball on its rubber band moves in response to the finger supporting it. If the finger moves with the natural frequency \( f_{0} \) of the ball on the rubber band, then a resonance is achieved, and the amplitude of the ball&#x2019;s oscillations increases dramatically. At higher and lower driving frequencies, energy is transferred to the ball less efficiently, and it responds with lower-amplitude oscillations. ")
-{: #Figure1}
+{: #Figure2}
 
-[[Figure 2]](#Figure2) shows a graph of the amplitude of a damped harmonic
+[[Figure 3]](#Figure3) shows a graph of the amplitude of a damped harmonic
 oscillator as a function of the frequency of the periodic force driving it.
 There are three curves on the graph, each representing a different amount of
 damping. All three curves peak at the point where the frequency of the driving
@@ -50,10 +51,10 @@ or greatest response, is for the least amount of damping, because less energy is
 removed by the damping force.
 
 ![The given graph is of amplitude, X, along y axis versus driving frequency f, along x axis. There are three points on the x axis as f not divided by two, f not, three multiply f not divided by two. There are three curves along the x axis, in a one crest oscillation way, which are one over each other in correspondence. The curves start at a point just over the origin point and ends up at a same level along the x axis on the far right. The crests of the three curves are exactly over the f not point. The uppermost crest shows the small damping, whereas the middle one shows the medium damping, and the last one below shows the heavy damping.](../resources/Figure_17_08_03a.jpg "Amplitude of a harmonic oscillator as a function of the frequency of the driving force. The curves represent the same oscillator with the same natural frequency but with different amounts of damping. Resonance occurs when the driving frequency equals the natural frequency, and the greatest response is for the least amount of damping. The narrowest response is also for the least damping. ")
-{: #Figure2}
+{: #Figure3}
 
 It is interesting that the widths of the resonance curves shown
-in [[Figure 2]](#Figure2) depend on damping: the less the damping, the narrower
+in [[Figure 3]](#Figure3) depend on damping: the less the damping, the narrower
 the resonance. The message is that if you want a driven oscillator to resonate
 at a very specific frequency, you need as little damping as possible. Little
 damping is the case for piano strings and many other musical instruments.
@@ -77,7 +78,7 @@ energy to thermal energy almost as fast as it comes in, speed bumps still cause
 a large-amplitude oscillation. On gravel roads that are corrugated, you may have
 noticed that if you travel at the “wrong” speed, the bumps are very noticeable
 whereas at other speeds you may hardly feel the bumps at
-all. [[Figure 3]](#Figure3) shows a photograph of a famous example (the Tacoma
+all. [[Figure 4]](#Figure4) shows a photograph of a famous example (the Tacoma
 Narrows Bridge) of the destructive effects of a driven harmonic oscillation. The
 Millennium Bridge in London was closed for a short period of time for the same
 reason while inspections were carried out.
@@ -89,7 +90,7 @@ muscular diaphragm oscillates at the resonant value for the system, making it
 highly efficient.
 
 ![The figure shows a black and white photo of the Tacoma Narrows Bridge, from the left side view. The middle of the bridge is shown here in an oscillating state due to heavy cross winds.](../resources/Figure_17_08_04a.jpg "In 1940, the Tacoma Narrows Bridge in Washington state collapsed. Heavy cross winds drove the bridge into oscillations at its resonant frequency. Damping decreased when support cables broke loose and started to slip over the towers, allowing increasingly greater amplitudes until the structure failed (credit: PRI's Studio 360, via Flickr)")
-{: #Figure3}
+{: #Figure4}
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">

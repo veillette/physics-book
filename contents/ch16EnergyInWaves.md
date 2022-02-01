@@ -8,6 +8,7 @@ layout: page
 </div>
 
 ![The destruction caused by an earthquake in Port-au-Prince, Haiti. Some buildings are shown on two sides of a street. Two buildings are completely destroyed. Rescue people are seen around.](../resources/Figure_17_11_01a.jpg "The destructive effect of an earthquake is palpable evidence of the energy carried in these waves. The Richter scale rating of earthquakes is related to both their amplitude and the energy they carry. (credit: Petty Officer 2nd Class Candice Villarreal, U.S. Navy)")
+{: #Figure1}
 
 All waves carry energy. The energy of some waves can be directly observed.
 Earthquakes can shake whole cities to the ground, performing the work of
@@ -204,11 +205,11 @@ destructive interference whenever two waves are added. For example, if we have
 two stereo speakers putting out $$ 1.00 {\text{W/m}}^{2} $$ each, there will be
 places in the room where the intensity is $$ 4.00 {\text{W/m}}^{2} $$ , other
 places where the intensity is zero, and others in
-between. [[Figure 1]](#Figure1) shows what this interference might look like. We
+between. [[Figure 2]](#Figure2) shows what this interference might look like. We
 will pursue interference patterns elsewhere in this text.
 
 ![Two speakers are shown at the top of the figure at left and right side. Rarefactions are shown as dotted curves and compression as dark curves. The interference of the sound waves from these two speakers is shown. There are some red spots, showing constructive interference, are shown on the interfering waves. ](../resources/Figure_17_11_02a.jpg "These stereo speakers produce both constructive interference and destructive interference in the room, a property common to the superposition of all types of waves. The shading is proportional to intensity.")
-{: #Figure1}
+{: #Figure2}
 
 </div>
 
