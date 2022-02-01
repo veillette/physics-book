@@ -8,14 +8,15 @@ layout: page
 </div>
 
 ![The figure shows a clock-wise rotating empty merry go round with iron bars holding the decorated wooden horse statues, four in each column.](../resources/Figure_17_06_01a.jpg "The horses on this merry-go-round exhibit uniform circular motion. (credit: Wonderlane, Flickr)")
+{: #Figure1}
 
 There is an easy way to produce simple harmonic motion by using uniform circular
-motion. [[Figure 1]](#Figure1) shows one way of using this method. A ball is
+motion. [[Figure 2]](#Figure2) shows one way of using this method. A ball is
 attached to a uniformly rotating vertical turntable, and its shadow is projected
 on the floor as shown. The shadow undergoes simple harmonic motion. Hooke’s law
 usually describes uniform circular motions ( $$\omega $$ constant) rather than
 systems that have large visible displacements. So observing the projection of
-uniform circular motion, as in [[Figure 1]](#Figure1), is often easier than
+uniform circular motion, as in [[Figure 2](#Figure2), is often easier than
 observing a precise large-scale simple harmonic oscillator. If studied in
 sufficient depth, simple harmonic motion produced in this manner can give
 considerable insight into many aspects of oscillations and waves and is very
@@ -23,9 +24,9 @@ useful mathematically. In our brief treatment, we shall indicate some of the
 major features of this relationship and how they might be useful.
 
 ![The given figure shows a vertical turntable with four floor projecting light bulbs at the top. A smaller sized rectangular bar is attached to this turntable at the bottom half, with a circular knob attached to it. A red colored small ball is rolling along the boundary of this knob in angular direction, and the lights falling through this ball are ball making shadows just under the knob on the floor. The middle shadow is the brightest and starts fading as we look through to the cornered shadow.](../resources/Figure_17_06_02a.jpg "The shadow of a ball rotating at constant angular velocity \( \omega \) on a turntable goes back and forth in precise simple harmonic motion.")
-{: #Figure1}
+{: #Figure2}
 
-[[Figure 2]](#Figure2) shows the basic relationship between uniform circular
+[[Figure 3]](#Figure3) shows the basic relationship between uniform circular
 motion and simple harmonic motion. The point P travels around the circle at
 constant angular velocity $$\omega $$ . The point P is analogous to an object on
 the merry-go-round. The projection of the position of P onto a fixed axis
@@ -37,7 +38,7 @@ equals $${\overline{v}}_{\text{max}} $$ . The projection of $${\overline{v}}_
 harmonic motion along the $$x $$ -axis.
 
 ![The figure shows a point P moving through the circumference of a circle in an angular way with angular velocity omega. The diameter is projected along the x axis, with point P making an angle theta at the centre of the circle. A point along the diameter shows the projection of the point P with a dotted perpendicular line from P to this point, the projection of the point is given as v along the circle and its velocity v subscript max, over the top of the projection arrow in an upward left direction.](../resources/Figure_17_06_03a.jpg "A point P moving on a circular path with a constant angular velocity \( \omega \) is undergoing uniform circular motion. Its projection on the x-axis undergoes simple harmonic motion. Also shown is the velocity of this point around the circle, \( {\overline{v} }_\text{max} \), and its projection, which is \( v \) . Note that these velocities form a similar triangle to the displacement triangle.")
-{: #Figure2}
+{: #Figure3}
 
 To see that the projection undergoes simple harmonic motion, note that its
 position $$x $$ is given by
@@ -65,14 +66,14 @@ position $$x $$ is given by:
 This expression is the same one we had for the position of a simple harmonic
 oscillator
 in [Simple Harmonic Motion: A Special Periodic Motion](../contents/ch16SimpleHarmonicMotion)
-. If we make a graph of position versus time as in [[Figure 3]](#Figure3), we
+. If we make a graph of position versus time as in [[Figure 4]](#Figure4), we
 see again the wavelike character (typical of simple harmonic motion) of the
 projection of uniform circular motion onto the $$x $$ -axis.
 
 ![The given figure shows a vertical turntable with four floor projecting light bulbs at the top. A smaller sized rectangular bar is attached to this turntable at the bottom half, with a circular knob attached to it. A red colored small ball is rolling along the boundary of this knob in angular direction. The turnaround table is put upon a roller paper sheet, on which the simple harmonic motion is measured, which is shown here in oscillating waves on the paper sheet in front of the table. A graph of amplitude versus time is also given alongside the figure.](../resources/Figure_17_06_04a.jpg "The position of the projection of uniform circular motion performs simple harmonic motion, as this wavelike graph of \( x \) versus \( t \) indicates.")
-{: #Figure3}
+{: #Figure4}
 
-Now let us use [[Figure 2]](#Figure2) to do some further analysis of uniform
+Now let us use [[Figure 3]](#Figure3) to do some further analysis of uniform
 circular motion as it relates to simple harmonic motion. The triangle formed by
 the velocities in the figure and the triangle formed by the displacements ( $$X,
 x, $$ and $$\sqrt{ {X}^{2}-{x}^{2}} $$ )
