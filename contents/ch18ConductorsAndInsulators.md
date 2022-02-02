@@ -11,6 +11,7 @@ layout: page
 </div>
 
 ![This black power charging unit connects a laptop to an electrical outlet, allowing the laptop to be charged up.](../resources/Figure_19_02_01a.jpg "This power adapter uses metal wires and connectors to conduct electricity from the wall socket to a laptop computer. The conducting wires allow electrons to move freely through the cables, which are shielded by rubber and plastic. These materials act as insulators that don&#x2019;t allow electric charge to escape outward. (credit: Evan-Amos, Wikimedia Commons)")
+{: #Figure1}
 
 Some substances, such as metals and salty water, allow charges to move through
 them with relative ease. Some of the electrons in metals and similar conductors
@@ -32,11 +33,11 @@ than in conductors. Pure water and dry table salt are insulators, for example,
 whereas molten salt and salty water are conductors.
 
 ![In part a, an electroscope is shown. A glass rod with positive signs is close to the tip of the electroscope which has negative signs on it and the leaves have has plus signs on it. In part b, the glass rod with positive sign is in contact with the tip of electroscope having negative signs. The negative signs are shown moving to the rod by arrows pointing toward the rod. The surfaces of the leaves now have both positive and negative charge. In part c, the glass rod is absent. The tip and the leaves of the electroscope have both positive and negative signs on them.](../resources/Figure_19_02_02a.jpg "An electroscope is a favorite instrument in physics demonstrations and student laboratories. It is typically made with gold foil leaves hung from a (conducting) metal stem and is insulated from the room air in a glass-walled container. (a) A positively charged glass rod is brought near the tip of the electroscope, attracting electrons to the top and leaving a net positive charge on the leaves. Like charges in the light flexible gold leaves repel, separating them. (b) When the rod is touched against the ball, electrons are attracted and transferred, reducing the net charge on the glass rod but leaving the electroscope positively charged. (c) The excess charges are evenly distributed in the stem and leaves of the electroscope once the glass rod is removed.")
-{: #Figure1}
+{: #Figure2}
 
 ### Charging by Contact
 
-[[Figure 1]](#Figure1) shows an electroscope being charged by touching it with a
+[[Figure 2]](#Figure2) shows an electroscope being charged by touching it with a
 positively charged glass rod. Because the glass rod is an insulator, it must
 actually touch the electroscope to transfer charge to or from it. (Note that the
 extra positive charges reside on the surface of the glass rod as a result of
@@ -54,7 +55,7 @@ contact with a negatively charged object.
 ### Charging by Induction
 
 It is not necessary to transfer excess charge directly to an object in order to
-charge it. [[Figure 2]](#Figure2) shows a method of **induction** wherein a
+charge it. [[Figure 3]](#Figure3) shows a method of **induction** wherein a
 charge is created in a nearby object, without direct contact. Here we see two
 neutral metal spheres in contact with one another but insulated from the rest of
 the world. A positively charged rod is brought near one of them, attracting
@@ -68,7 +69,7 @@ charge when charged by induction. Note also that no charge is removed from the
 charged rod, so that this process can be repeated without depleting the supply
 of excess charge.
 
-Another method of charging by induction is shown in [[Figure 3]](#Figure3). The
+Another method of charging by induction is shown in [[Figure 4]](#Figure4). The
 neutral metal sphere is polarized when a charged rod is brought near it. The
 sphere is then grounded, meaning that a conducting wire is run from the sphere
 to the ground. Since the earth is large and most ground is a good conductor, it
@@ -80,18 +81,18 @@ that of the rod. Again, an opposite charge is achieved when charging by
 induction and the charged rod loses none of its excess charge.
 
 ![In part a, a pair of neutral metal spheres are in contact. In part b, a rod with positive signs is close to one surface of the sphere and the negative signs are shown on this surface toward the rod and positive signs are shown on the outermost face of the other sphere. In part c, the rod and the spheres are not in contact. The outermost surface of one sphere has negative signs and the outermost surface of another sphere has positive signs. In part d, the glass rod is not shown. The inner surfaces of the metallic spheres have opposite charges. One sphere has negative signs and the other has positive signs facing each other.](../resources/Figure_19_02_03a.jpg "Charging by induction. (a) Two uncharged or neutral metal spheres are in contact with each other but insulated from the rest of the world. (b) A positively charged glass rod is brought near the sphere on the left, attracting negative charge and leaving the other sphere positively charged. (c) The spheres are separated before the rod is removed, thus separating negative and positive charge. (d) The spheres retain net charges after the inducing rod is removed&#x2014;without ever having been touched by a charged object.")
-{: #Figure2}
-
-![ In part a, a rod with positive sign is brought near a neutral metal sphere. One surface toward the rod has negative signs and the other surface has positive signs. In part b, a rod with positive sign is close to one surface of the sphere having negative signs and the other surface has low number of positive signs and a wire is attached to that face which is connected to the ground. In part c, a rod with positive sign is close to one surface of the sphere having negative signs and the other surface has low number of positive signs. In part d, the positive rod is absent, and the sphere has negative signs on it.](../resources/Figure_19_02_04a.jpg "Charging by induction, using a ground connection. (a) A positively charged rod is brought near a neutral metal sphere, polarizing it. (b) The sphere is grounded, allowing electrons to be attracted from the earth&#x2019;s ample supply. (c) The ground connection is broken. (d) The positive rod is removed, leaving the sphere with an induced negative charge.")
 {: #Figure3}
 
-![Microscopic views of objects are shown. A positive rod with positive signs is close to an insulator. The negative ends of all the molecules of the insulator are aligned toward the rod and positive ends of all molecules shown as spheres are away from the rod. In part b, a negative rod with negative signs is close to an insulator. The positive ends of all the molecules of the insulator are aligned toward the rod and negative ends of all molecules shown as spheres are away from the rod. In part c, a rod with negative signs and insulator with the surface closer to the rod has positive signs. The other surface has negative signs.](../resources/Figure_19_02_05a.jpg "Both positive and negative objects attract a neutral object by polarizing its molecules. (a) A positive object brought near a neutral insulator polarizes its molecules. There is a slight shift in the distribution of the electrons orbiting the molecule, with unlike charges being brought nearer and like charges moved away. Since the electrostatic force decreases with distance, there is a net attraction. (b) A negative object produces the opposite polarization, but again attracts the neutral object. (c) The same effect occurs for a conductor; since the unlike charges are closer, there is a net attraction.")
+![ In part a, a rod with positive sign is brought near a neutral metal sphere. One surface toward the rod has negative signs and the other surface has positive signs. In part b, a rod with positive sign is close to one surface of the sphere having negative signs and the other surface has low number of positive signs and a wire is attached to that face which is connected to the ground. In part c, a rod with positive sign is close to one surface of the sphere having negative signs and the other surface has low number of positive signs. In part d, the positive rod is absent, and the sphere has negative signs on it.](../resources/Figure_19_02_04a.jpg "Charging by induction, using a ground connection. (a) A positively charged rod is brought near a neutral metal sphere, polarizing it. (b) The sphere is grounded, allowing electrons to be attracted from the earth&#x2019;s ample supply. (c) The ground connection is broken. (d) The positive rod is removed, leaving the sphere with an induced negative charge.")
 {: #Figure4}
+
+![Microscopic views of objects are shown. A positive rod with positive signs is close to an insulator. The negative ends of all the molecules of the insulator are aligned toward the rod and positive ends of all molecules shown as spheres are away from the rod. In part b, a negative rod with negative signs is close to an insulator. The positive ends of all the molecules of the insulator are aligned toward the rod and negative ends of all molecules shown as spheres are away from the rod. In part c, a rod with negative signs and insulator with the surface closer to the rod has positive signs. The other surface has negative signs.](../resources/Figure_19_02_05a.jpg "Both positive and negative objects attract a neutral object by polarizing its molecules. (a) A positive object brought near a neutral insulator polarizes its molecules. There is a slight shift in the distribution of the electrons orbiting the molecule, with unlike charges being brought nearer and like charges moved away. Since the electrostatic force decreases with distance, there is a net attraction. (b) A negative object produces the opposite polarization, but again attracts the neutral object. (c) The same effect occurs for a conductor; since the unlike charges are closer, there is a net attraction.")
+{: #Figure5}
 
 Neutral objects can be attracted to any charged object. The pieces of straw
 attracted to polished amber are neutral, for example. If you run a plastic comb
 through your hair, the charged comb can pick up neutral pieces of
-paper. [[Figure 4]](#Figure4) shows how the polarization of atoms and molecules
+paper. [[Figure 5]](#Figure5) shows how the polarization of atoms and molecules
 in neutral objects results in their attraction to a charged object.
 
 When a charged rod is brought near a neutral substance, an insulator in this
@@ -111,9 +112,10 @@ polarization effects than molecules with naturally uniform charge distributions.
 Check Your Understanding
 </div>
 <div class="problem" markdown="1">
-Can you explain the attraction of water to the charged rod in the figure below?
+Can you explain the attraction of water to the charged rod in [[Figure 6]](#Figure6) ?
 
 ![Water flowing out of a glass pipette changes its course when a charged rod is brought close to it.](../resources/Figure_19_02_06a.jpg " ")
+{: #Figure6}
 
 </div>
 <div class="solution" markdown="1">

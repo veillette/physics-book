@@ -106,10 +106,10 @@ coulomb. Just as there is a smallest bit of an element (an atom), there is a
 smallest bit of charge. There is no directly observed charge smaller than $$\mid
 {q}_{e}\mid $$
 (
-see [Things Great and Small: The Submicroscopic Origin of Charge](#import-auto-id2044673))
+see [Things Great and Small: The Submicroscopic Origin of Charge](#Note1))
 , and all observed charges are integral multiples of $$\mid {q}_{e}\mid $$.
 
-<div class="note" data-has-label="true" id="import-auto-id2044673" data-label="" markdown="1">
+<div id="Note1" class="note" data-has-label="true" id="import-auto-id2044673" data-label="" markdown="1">
 <div class="title">
 Things Great and Small: The Submicroscopic Origin of Charge
 </div>
