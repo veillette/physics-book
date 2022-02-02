@@ -271,7 +271,7 @@ Draw gravitational field lines between 2 masses, electric field lines between a 
 
 ### Problems &amp; Exercises
 
-<div class="exercise" data-element-type="problems-exercises">
+<div id="Exercise1" class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Indicate whether the magnetic field created in each of the three situations shown in [[Figure 3]](#Figure3) is into or out of the page on the left and right of the current.
 
@@ -289,7 +289,7 @@ Indicate whether the magnetic field created in each of the three situations show
 </div>
 </div>
 
-<div class="exercise" data-element-type="problems-exercises">
+<div id="Exercise2" class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 What are the directions of the fields in the center of the loop and coils shown in [[Figure 4]](#Figure4)?
 
@@ -360,7 +360,7 @@ How strong is the magnetic field inside a solenoid with 10 000 turns per meter t
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What current is needed in the solenoid described in [[link]](#fs-id2626487) to produce a magnetic field  $$10^{4} $$
+What current is needed in the solenoid described in [[Exercise 1]](#Exercise1) to produce a magnetic field  $$10^{4} $$
  times the Earth’s magnetic field of  $$ 5.00 \times 10^{-5} \text{T} $$ ?
 
 </div>
@@ -507,7 +507,7 @@ rate through a 10.0-cm-diameter pipe with the same field applied?
 <div class="problem" markdown="1">
 **Integrated Concepts**
 
-(a) Using the values given for an MHD drive in [[link]](#fs-id1993346), and
+(a) Using the values given for an MHD drive in [[Exercise 2]](#Exercise2), and
 assuming the force is uniformly applied to the fluid, calculate the pressure
 created in $${\text{N/m}}^{2}\text{.} $$
 (b) Is this a significant fraction of an atmosphere?

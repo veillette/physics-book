@@ -80,7 +80,7 @@ the current falls to 0.368 of the preceding value, and in a few multiples of
 $$\tau $$ , the current becomes very close to zero, as seen in the graph
 in [[Figure 1]](#Figure1)(c).
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Calculating Characteristic Time and Current in an *RL* Circuit
 </div>
@@ -126,7 +126,7 @@ After another 2.50 ms, or a total of 5.00 ms, the current declines to 0.368 of t
 **Discussion for (b)**
 
 After another 5.00 ms has passed, the current will be 0.183 A (
-see [[link]](#fs-id1169738227350)); so, although it does die out, the current
+see [[Exercise 4]](#Exercise4)); so, although it does die out, the current
 certainly does not go to zero instantaneously.
 
 </div>
@@ -195,9 +195,9 @@ A large superconducting magnet, used for magnetic resonance imaging, has a 50.0 
 </div>
 </div>
 
-<div class="exercise" data-element-type="problems-exercises">
+<div id="Exercise4" class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Verify that after a time of 10.0 ms, the current for the situation considered in [[link]](#fs-id1169738136126) will be 0.183 A as stated.
+Verify that after a time of 10.0 ms, the current for the situation considered in [[Example 1]](#Example1) will be 0.183 A as stated.
 
 </div>
 </div>

@@ -340,7 +340,7 @@ to get a position resolution of 1.00 mm?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-[[link]](#Table1) indicates that 7.50 mCi of  $${}^{99 \text{m}}\text{Tc} $$
+[[Table 1]](#Table1) indicates that 7.50 mCi of  $${}^{99 \text{m}}\text{Tc} $$
  is used in a brain scan. What is the mass of technetium?
 
 </div>
@@ -353,7 +353,7 @@ to get a position resolution of 1.00 mm?
 <div class="problem" markdown="1">
 The activities of  $${}^{131}\text{I} $$
  and  $${}^{123}\text{I} $$
- used in thyroid scans are given in [[link]](#Table1) to be 50 and  $$70 \text{μ}Ci $$ ,
+ used in thyroid scans are given in [[Table 1]](#Table1) to be 50 and  $$70 \text{μ}Ci $$ ,
  respectively. Find and compare the masses of  $${}^{131}\text{I} $$
  and  $${}^{123}\text{I} $$
  in such scans, given their respective half-lives are 8.04 d and 13.2 h. The masses are so small that the radioiodine is usually mixed with stable iodine as a carrier to ensure normal chemistry and distribution in the body.
@@ -365,7 +365,7 @@ The activities of  $${}^{131}\text{I} $$
 <div class="problem" markdown="1">
 (a) Neutron activation of sodium, which is 100% $${}^{23}\text{Na} $$ ,
  produces  $${}^{24}\text{Na} $$ ,
- which is used in some heart scans, as seen in [[link]](#Table1). The equation for the reaction is  $${}^{23}\text{Na}+n\to {}^{24}\text{Na}+\gamma  $$ .
+ which is used in some heart scans, as seen in [[Table 1]](#Table1). The equation for the reaction is  $${}^{23}\text{Na}+n\to {}^{24}\text{Na}+\gamma  $$ .
  Find its energy output, given the mass of  $${}^{24}\text{Na} $$
  is 23.990962 u.
 

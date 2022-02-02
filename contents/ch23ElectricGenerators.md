@@ -13,7 +13,7 @@ briefly discussed
 in [Induced Emf and Magnetic Flux](../contents/ch23InducedEmfAndMagneticFlux). We will now
 explore generators in more detail. Consider the following example.
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Calculating the Emf Induced in a Generator Coil
 </div>
@@ -63,7 +63,7 @@ This is a practical average value, similar to the 120 V used in household power.
 
 </div>
 
-The emf calculated in [[link]](#fs-id1169737058290) is the average over
+The emf calculated in [Example 1](#Example1) is the average over
 one-fourth of a revolution. What is the emf at any given instant? It varies with
 the angle between the magnetic field and a perpendicular to the coil. We can get
 an expression for emf **as a function of time by considering the motional emf on
@@ -151,7 +151,7 @@ usually used to make ripple-free DC.
 Calculating the Maximum Emf of a Generator
 </div>
 Calculate the maximum emf,  $${\text{emf}}_{0} $$ ,
- of the generator that was the subject of [[link]](#fs-id1169737058290).
+ of the generator that was the subject of [[Example 1]](#Example1).
 
 **Strategy**
 

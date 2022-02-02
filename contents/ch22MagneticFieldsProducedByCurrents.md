@@ -47,7 +47,7 @@ nature. We will see later that $$\mu_0 $$ is related to the speed of light.)
 Since the wire is very long, the magnitude of the field depends only on distance
 from the wire $$r $$ , not on position along the wire.
 
-<div class="example" markdown="1">
+<div id ="Example1" class="example" markdown="1">
 <div class="title">
 Calculating Current that Produces a Magnetic Field
 </div>
@@ -159,9 +159,9 @@ where $$n $$ is the number of loops per unit length of the solenoid $$\left(
 n=N/l \right) $$ , with $$N $$ being the number of loops and $$l $$ the length).
 Note that $$B $$ is the field strength anywhere in the uniform region of the
 interior and not just at the center. Large uniform fields spread over a large
-volume are possible with solenoids, as [[link]](#fs-id2566108) implies.
+volume are possible with solenoids, as [[Example2]](#Example2) implies.
 
-<div class="example" markdown="1">
+<div id ="Example2" class="example" markdown="1">
 <div class="title">
 Calculating Field Strength inside a Solenoid
 </div>
@@ -255,7 +255,7 @@ Generate electricity with a bar magnet! Discover the physics behind the phenomen
 
 <div class="exercise" >
 <div class="problem"  data-element-type="conceptual-questions" markdown="1">
-Make a drawing and use RHR-2 to find the direction of the magnetic field of a current loop in a motor (such as in [[link]](../contents/m42380#import-auto-id1615457)). Then show that the direction of the torque on the loop is the same as produced by like poles repelling and unlike poles attracting.
+Make a drawing and use RHR-2 to find the direction of the magnetic field of a current loop in a motor (such as in [[Figure1]](../contents/ch22TorqueOnACurrentLoop#Figure1)). Then show that the direction of the torque on the loop is the same as produced by like poles repelling and unlike poles attracting.
 
 </div>
 </div>

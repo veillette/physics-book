@@ -111,10 +111,10 @@ force $$F=I\ell B \sin \theta $$ does the work that reduces the shuttle’s
 kinetic and potential energy and allows it to be converted to electrical energy.
 The tests were both unsuccessful. In the first, the cable hung up and could only
 be extended a couple of hundred meters; in the second, the cable broke when
-almost fully extended. [[link]](#fs-id1169737860174) indicates feasibility in
+almost fully extended. [[Example 1]](#Example1) indicates feasibility in
 principle.
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Calculating the Large Motional Emf of an Object in Orbit
 </div>
@@ -257,7 +257,7 @@ Prove that when  $$B $$ ,
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-In the August 1992 space shuttle flight, only 250 m of the conducting tether considered in [[link]](#fs-id1169737860174) could be let out. A 40.0 V motional emf was generated in the Earth’s  $$ 5.00 \times 10^{-5}  \text{T} $$
+In the August 1992 space shuttle flight, only 250 m of the conducting tether considered in [[Example 1]](#Example1) could be let out. A 40.0 V motional emf was generated in the Earth’s  $$ 5.00 \times 10^{-5}  \text{T} $$
  field, while moving at  $$ 7.80 \times 10^{3}  \text{m/s} $$ .
  What was the angle between the shuttle’s velocity and the Earth’s field, assuming the conductor was perpendicular to the field?
 
