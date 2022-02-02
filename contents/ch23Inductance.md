@@ -53,15 +53,13 @@ induce an $${\text{emf}}_{1} $$ in coil 1, which is given by
 </div>
 
 where $$M $$ is the same as for the reverse process. Transformers run backward
-with the same effectiveness, or mutual inductance $$M $$
-*.*
+with the same effectiveness, or mutual inductance $$M $$ .
 
 A large mutual inductance $$M $$ may or may not be desirable. We want a
 transformer to have a large mutual inductance. But an appliance, such as an
 electric clothes dryer, can induce a dangerous emf on its case if the mutual
 inductance between its coils and the case is large. One way to reduce mutual
-inductance $$M $$
-** is to counterwind coils to cancel the magnetic field produced. (
+inductance $$M $$ is to counterwind coils to cancel the magnetic field produced. (
 See [[Figure 2]](#Figure2).)
 
 ![The figure describes the heating coils of electric clothes dryer that are counter wound on a cylindrical core. There magnetic fields cancel each other.](../resources/Figure_24_09_02.jpg "The heating coils of an electric clothes dryer can be counter-wound so that their magnetic fields cancel one another, greatly reducing the mutual inductance with the case of the dryer.")
@@ -80,8 +78,7 @@ of change of current. It is given by
  $$\text{emf}=-L\frac{\Delta I}{\Delta t}\text{,} $$
 </div>
 
-where $$L $$
-** is the self-inductance of the device. A device that exhibits significant
+where $$L $$ is the self-inductance of the device. A device that exhibits significant
 self-inductance is called an **inductor**, and given the symbol
 in [[Figure 3]](#Figure3).
 
@@ -194,7 +191,14 @@ The cross-sectional area in this example is  $$A=\pi r^2=\left( 3.14\text{...}\r
  Substituting these into the expression for  $$L $$  gives
 
 <div class="equation" >
- $$\begin{array}{lll}L& =& \frac{\left(4\pi  \times 10^{-7}  \text{T}\cdot \text{m/A}\right)\left(200{\right)}^{2}\left( 1.26 \times 10^{-3}  {\text{m}}^{2}\right)}{0.100 \text{m}}\\ & =& 0.632 \text{mH}\text{.}\end{array} $$
+ $$\begin{array}{lll}
+ L& =& \frac{
+        \left(4\pi  \times 10^{-7}  \text{T}\cdot \text{m/A}\right) 
+        \left( 200 \right)^{2}
+        \left( 1.26 \times 10^{-3}  {\text{m}}^{2} \right) 
+        }
+        {0.100 \text{m}}\\ 
+  L& =& 0.632 \text{mH}\text{.}\end{array} $$
 </div>
 **Discussion**
 
