@@ -9,6 +9,7 @@ layout: page
 </div>
 
 ![Photograph of a road jammed with traffic of all types of vehicles.](../resources/Figure_18_03_01aa.jpg "Noise on crowded roadways like this one in Delhi makes it hard to hear others unless they shout. (credit: Lingaraj G J, Flickr)")
+{: #Figure1}
 
 In a quiet forest, you can sometimes hear a single leaf fall to the ground.
 After settling into bed, you may hear your blood pulsing through your ears. But
@@ -18,7 +19,7 @@ loudness of sounds and aware that they are related to how energetically the
 source is vibrating. In cartoons depicting a screaming person (or an animal
 making a loud noise), the cartoonist often shows an open mouth with a vibrating
 uvula, the hanging tissue at the back of the mouth, to suggest a loud sound
-coming from the throat [[Figure 1]](#Figure1). High noise exposure is hazardous
+coming from the throat [[Figure 2]](#Figure2). High noise exposure is hazardous
 to hearing, and it is common for musicians to have hearing losses that are
 sufficiently severe that they interfere with the musicians’ abilities to
 perform. The relevant physical quantity is sound intensity, a concept that is
@@ -50,12 +51,12 @@ material in which the sound wave travels, in units of $${kg/m}^{3} $$ , and
 $${v}_{w} $$ is the speed of sound in the medium, in units of m/s. The pressure
 variation is proportional to the amplitude of the oscillation, and so $$I $$
 varies as $${\left( \Delta p \right)}^{2} $$
-([[Figure 1]](#Figure1)). This relationship is consistent with the fact that the
+([[Figure 2]](#Figure2)). This relationship is consistent with the fact that the
 sound wave is produced by some vibration; the greater its pressure amplitude,
 the more the air is compressed in the sound it creates.
 
 ![The image shows two graphs, with a bird positioned to the left of each one. The first graph represents a low frequency sound of a bird. The pressure variation shows small amplitude maxima and minima, represented by a sine curve of gauge pressure versus position with a small amplitude. The second graph represents a high frequency sound of a screaming bird. The pressure variation shows large amplitude maxima and minima, represented by a sine curve of gauge pressure versus position with a large amplitude.](../resources/Figure_18_03_01ab.jpg "Graphs of the gauge pressures in two sound waves of different intensities. The more intense sound is produced by a source that has larger-amplitude oscillations and has greater pressure maxima and minima. Because pressures are higher in the greater-intensity sound, it can exert larger forces on the objects it encounters.")
-{: #Figure1}
+{: #Figure2}
 
 Sound intensity levels are quoted in decibels (dB) much more often than sound
 intensities in watts per meter squared. Decibels are the unit of choice in the

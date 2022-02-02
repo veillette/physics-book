@@ -11,6 +11,7 @@ layout: page
 </div>
 
 ![A photograph of a fireworks display in the sky.](../resources/Figure_18_02_01a.jpg "When a firework explodes, the light energy is perceived before the sound energy. Sound travels more slowly than light does. (credit: Dominic Alves, Flickr)")
+{: #Figure1}
 
 Sound, like all waves, travels at a certain speed and has the properties of
 frequency and wavelength. You can observe direct evidence of the speed of sound
@@ -36,11 +37,11 @@ same as for all waves:
 where $${v}_{w} $$ is the speed of sound, $$f $$ is its frequency, and $$\lambda
 $$ is its wavelength. The wavelength of a sound is the distance between adjacent
 identical parts of a wave—for example, between adjacent compressions as
-illustrated in [[Figure 1]](#Figure1). The frequency is the same as that of the
+illustrated in [[Figure 2]](#Figure2). The frequency is the same as that of the
 source and is the number of waves that pass a point per unit time.
 
 ![A picture of a vibrating tuning fork is shown. The sound wave compressions and rarefactions are shown to emanate from the fork on both the sides as semicircular arcs of alternate bold and dotted lines. The wavelength is marked as the distance between two successive bold arcs. The frequency of the vibrations is shown as f and velocity of the wave represented by v sub w.](../resources/Figure_18_02_02a.jpg "A sound wave emanates from a source vibrating at a frequency \( f \), propagates at \( v_w \) , and has a wavelength \( \lambda \).")
-{: #Figure1}
+{: #Figure2}
 
 [[Table 1]](#Table1) makes it apparent that the speed of sound varies greatly in
 different media. The speed of sound in a medium is determined by a combination
@@ -153,11 +154,11 @@ reasonable that the speed of sound in air and other gases should depend on the
 square root of temperature. While not negligible, this is not a strong
 dependence. At $$0 \text{ºC} $$ , the speed of sound is 331 m/s, whereas at
 $$20.0 \text{ºC} $$ it is 343 m/s, less than a 4%
-increase. [[Figure 2]](#Figure2) shows a use of the speed of sound by a bat to
+increase. [[Figure 3]](#Figure3) shows a use of the speed of sound by a bat to
 sense distances. Echoes are also used in medical imaging.
 
 ![The picture is of a bat trying to catch its prey an insect using sound echoes. The incident sound and sound reflected from the bat are shown as semicircular arcs.](../resources/Figure_18_02_03a.jpg "A bat uses sound echoes to find its way about and to catch prey. The time for the echo to return is directly proportional to the distance.")
-{: #Figure2}
+{: #Figure3}
 
 One of the more important properties of sound is that its speed is nearly
 independent of frequency. This independence is certainly true in open air for
@@ -175,11 +176,11 @@ frequencies must travel at nearly the same speed. Recall that
 
 In a given medium under fixed conditions, $${v}_{\text{w}} $$ is constant, so
 that there is a relationship between $$f $$ and $$\lambda $$ ; the higher the
-frequency, the smaller the wavelength. See [[Figure 3]](#Figure3) and consider
+frequency, the smaller the wavelength. See [[Figure 4]](#Figure4) and consider
 the following example.
 
 ![Picture of a speaker having a woofer and a tweeter. High frequency sound coming out of the woofer shown as small circles closely spaced. Low frequency sound coming out of tweeter are shown as larger circles distantly spaced.](../resources/Figure_18_02_04a.jpg "Because they travel at the same speed in a given medium, low-frequency sounds must have a greater wavelength than high-frequency sounds. Here, the lower-frequency sounds are emitted by the large speaker, called a woofer, while the higher-frequency sounds are emitted by the small speaker, called a tweeter.")
-{: #Figure3}
+{: #Figure4}
 
 <div class="example" markdown="1">
 <div class="title">
@@ -412,7 +413,7 @@ A physicist at a fireworks display times the lag between seeing an explosion and
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Suppose a bat uses sound echoes to locate its insect prey, 3.00 m away. (See [[Figure 2]](#Figure2).) (a) Calculate the echo times for temperatures of  $$5.00 \text{ºC} $$
+Suppose a bat uses sound echoes to locate its insect prey, 3.00 m away. (See [[Figure 3]](#Figure3).) (a) Calculate the echo times for temperatures of  $$5.00 \text{ºC} $$
  and  $$35.0 \text{ºC} $$ .
  (b) What percent uncertainty does this cause for the bat in locating the insect? (c) Discuss the significance of this uncertainty and whether it could cause difficulties for the bat. (In practice, the bat continues to use sound as it closes in, eliminating most of any difficulties imposed by this and other effects, such as motion of the prey.)
 
