@@ -271,8 +271,8 @@ reflected sound is related to changes in density. Sound is most strongly
 reflected at places where density changes are greatest.
 
 Another major use of ultrasound in medical diagnostics is to detect motion and
-determine velocity through the Doppler shift of an echo, known as **
-Doppler-shifted ultrasound**. This technique is used to monitor fetal heartbeat,
+determine velocity through the Doppler shift of an echo, known as 
+**Doppler-shifted ultrasound**. This technique is used to monitor fetal heartbeat,
 measure blood velocity, and detect occlusions in blood vessels, for example. (
 See [[Figure 6]](#Figure6).) The magnitude of the Doppler shift in an echo is
 directly proportional to the velocity of whatever reflects the sound. Because an
@@ -552,7 +552,7 @@ The time delay between transmission and the arrival of the reflected wave of a s
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-In the clinical use of ultrasound, transducers are always coupled to the skin by a thin layer of gel or oil, replacing the air that would otherwise exist between the transducer and the skin. (a) Using the values of acoustic impedance given in [[Table 1]](#Table1) ** calculate the intensity reflection coefficient between transducer material and air. (b) Calculate the intensity reflection coefficient between transducer material and gel (assuming for this problem that its acoustic impedance is identical to that of water). (c) Based on the results of your calculations, explain why the gel is used.
+In the clinical use of ultrasound, transducers are always coupled to the skin by a thin layer of gel or oil, replacing the air that would otherwise exist between the transducer and the skin. (a) Using the values of acoustic impedance given in [[Table 1]](#Table1) calculate the intensity reflection coefficient between transducer material and air. (b) Calculate the intensity reflection coefficient between transducer material and gel (assuming for this problem that its acoustic impedance is identical to that of water). (c) Based on the results of your calculations, explain why the gel is used.
 
 </div>
 <div class="solution"  markdown="1">

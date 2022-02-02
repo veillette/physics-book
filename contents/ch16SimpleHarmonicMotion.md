@@ -359,9 +359,9 @@ Suppose a diving board with no one on it bounces up and down in a simple harmoni
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-![The figure shows a little kid, about ten to twelve months old, standing in a toy jolly jumper, which is tied to the ceiling hook by its four spring belts.](../resources/Figure_17_02_02a.jpg "This child&#x2019;s toy relies on springs to keep infants entertained. (credit: By Humboldthead, Flickr)"){: #Figure4}
+![The figure shows a little kid, about ten to twelve months old, standing in a toy jolly jumper, which is tied to the ceiling hook by its four spring belts.](../resources/Figure_17_02_02a.jpg "This child&#x2019;s toy relies on springs to keep infants entertained. (credit: By Humboldthead, Flickr)"){: #Figure5}
 
-The device pictured in [[Figure 4]](#Figure4) entertains infants while keeping
+The device pictured in [[Figure 5]](#Figure5) entertains infants while keeping
 them from wandering. The child bounces in a harness suspended from a door frame
 by a spring constant.
 
@@ -376,10 +376,10 @@ child’s maximum velocity if the amplitude of her bounce is 0.200 m?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A 90.0-kg skydiver hanging from a parachute bounces up and down with a period of 1.50 s. What is the new period of oscillation when a second skydiver, whose mass is 60.0 kg, hangs from the legs of the first, as seen in [[Figure 5]](#Figure5).
+A 90.0-kg skydiver hanging from a parachute bounces up and down with a period of 1.50 s. What is the new period of oscillation when a second skydiver, whose mass is 60.0 kg, hangs from the legs of the first, as seen in [[Figure 6]](#Figure6).
 
 ![The figure shows two skydivers midway through the air, with both with open having their parachutes open.](../resources/Figure_17_02_03a.jpg "The oscillations of one skydiver are about to be affected by a second skydiver. (credit: U.S. Army, www.army.mil)")
-{: #Figure5}
+{: #Figure6}
 
 </div>
 <div class="solution" markdown="1">
