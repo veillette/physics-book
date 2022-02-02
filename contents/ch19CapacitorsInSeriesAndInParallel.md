@@ -186,7 +186,7 @@ series and parallel. (See [[Figure 3]](#Figure3).) To find the total capacitance
 of such combinations, we identify series and parallel parts, compute their
 capacitances, and then find the total.
 
-![The first figure has two capacitors, C sub1 and C sub2 in series and the third capacitor C sub 3 is parallel to C sub 1 and C sub 2. The second figure shows C sub S, the equivalent capacitance of C sub 1 and C sub 2, in parallel to C sub 3. The third figure represents the total capacitance of C sub S and C sub 3.](../resources/Figure_20_06_03a.jpg "(a) This circuit contains both series and parallel connections of capacitors. See [link] for the calculation of the overall capacitance of the circuit. (b) \( C_1 \) and \( C_2 \) are in series; their equivalent capacitance \( C_S \) is less than either of them. (c) Note that \( C_S \) is in parallel with \( C_3 \) . The total capacitance is, thus, the sum of \( C_S \) and \( C_3 \) .")
+![The first figure has two capacitors, C sub1 and C sub2 in series and the third capacitor C sub 3 is parallel to C sub 1 and C sub 2. The second figure shows C sub S, the equivalent capacitance of C sub 1 and C sub 2, in parallel to C sub 3. The third figure represents the total capacitance of C sub S and C sub 3.](../resources/Figure_20_06_03a.jpg "(a) This circuit contains both series and parallel connections of capacitors. See Worked out Example for the calculation of the overall capacitance of the circuit. (b) \( C_1 \) and \( C_2 \) are in series; their equivalent capacitance \( C_S \) is less than either of them. (c) Note that \( C_S \) is in parallel with \( C_3 \) . The total capacitance is, thus, the sum of \( C_S \) and \( C_3 \) .")
 {: #Figure3}
 
 <div class="example" markdown="1">
