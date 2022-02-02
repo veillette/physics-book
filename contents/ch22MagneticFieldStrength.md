@@ -151,7 +151,7 @@ If a charged particle moves in a straight line through some region of space, can
 
 ### Problems &amp; Exercises
 
-<div class="exercise" data-element-type="problems-exercises">
+<div id="Exercise1" class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 What is the direction of the magnetic force on a positive charge that moves as shown in each of the six cases shown in [[Figure 3]](#Figure3)?
 
@@ -177,12 +177,12 @@ What is the direction of the magnetic force on a positive charge that moves as s
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Repeat [[link]](#fs-id1399302) for a negative charge.
+Repeat the above [[Exercise]](#Exercise1) for a negative charge.
 
 </div>
 </div>
 
-<div class="exercise" data-element-type="problems-exercises">
+<div id="Exercise3" class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 What is the direction of the velocity of a negative charge that experiences the magnetic force shown in each of the three cases in [[Figure 3]](#Figure3), assuming it moves perpendicular to  $$\vb{B}$$ ?
 ![Figure a shows the force vector pointing up and B out of the page. Figure b shows the F vector pointing up and the B vector pointing to the right. Figure c shows the F vector pointing to the left and the B vector pointing into the page.](../resources/Figure_23_04_04a.jpg " "){: #Figure3}
@@ -200,12 +200,12 @@ What is the direction of the velocity of a negative charge that experiences the 
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Repeat [[link]](#fs-id1327231) for a positive charge.
+Repeat the above [[Exercise]](#Exercise3) for a positive charge.
 
 </div>
 </div>
 
-<div class="exercise" data-element-type="problems-exercises">
+<div id="Exercise5" class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 What is the direction of the magnetic field that produces the magnetic force on a positive charge as shown in each of the three cases in the figure below, assuming  $$\vb{B} $$
  is perpendicular to  $$\vb{v} $$ ?
@@ -225,7 +225,7 @@ What is the direction of the magnetic field that produces the magnetic force on 
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Repeat [[link]](#fs-id2031113) for a negative charge.
+Repeat the above [[Exercise]](#Exercise5) for a negative charge.
 
 </div>
 </div>

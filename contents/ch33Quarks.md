@@ -502,7 +502,7 @@ Patterns in the properties of atoms allowed the periodic table to be developed. 
 Quantum Numbers From Quark Composition
 </div>
 Verify the quantum numbers given for the  $${\text{Ξ}}^{0} $$
- particle in [[link]](../contents/m42674#import-auto-id1169736657305) by adding the quantum numbers for its quark composition as given in [[Table 2]](#Table2).
+ particle in [[link]](../contents/ch33ParticlesPatternsAndConservationLaws#import-auto-id1169736657305) by adding the quantum numbers for its quark composition as given in [[Table 2]](#Table2).
 
 **Strategy**
 
@@ -1041,7 +1041,7 @@ mixtures of quarks (as for the π-meson) as well.
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Verify the quantum numbers given for the  $${\Omega }^{+} $$
- in [[link]](../contents/m42674#import-auto-id1169736657305) by adding the quantum numbers for its quark constituents as inferred from [[Table 2]](#Table2).
+ in [[link]](../contents/ch33ParticlesPatternsAndConservationLaws#import-auto-id1169736657305) by adding the quantum numbers for its quark constituents as inferred from [[Table 2]](#Table2).
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
@@ -1051,7 +1051,7 @@ Verify the quantum numbers given for the  $${\Omega }^{+} $$
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Verify the quantum numbers given for the proton and neutron in [[link]](../contents/m42674#import-auto-id1169736657305) by adding the quantum numbers for their quark constituents as given in [[Table 2]](#Table2).
+Verify the quantum numbers given for the proton and neutron in [[link]](../contents/ch33ParticlesPatternsAndConservationLaws#import-auto-id1169736657305) by adding the quantum numbers for their quark constituents as given in [[Table 2]](#Table2).
 
 </div>
 </div>

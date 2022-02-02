@@ -143,7 +143,7 @@ Draw a diagram and use RHR-1 to show that the forces on the top and bottom segme
 
 ### Problems &amp; Exercises
 
-<div class="exercise" data-element-type="problems-exercises">
+<div id="Exercise1" class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) By how many percent is the torque of a motor decreased if its permanent magnets lose 5.0% of their strength? (b) How many percent would the current need to be increased to return the torque to original values?
 
@@ -221,7 +221,7 @@ A proton has a magnetic field due to its spin on its axis. The field is similar 
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Repeat [[link]](#fs-id1615066), but with the loop lying flat on the ground with its current circulating counterclockwise (when viewed from above) in a location where the Earth’s field is north, but at an angle  $$ 45.0º $$
+Repeat [[Exercise 1]](#Exercise1), but with the loop lying flat on the ground with its current circulating counterclockwise (when viewed from above) in a location where the Earth’s field is north, but at an angle  $$ 45.0º $$
  below the horizontal and with a strength of  $$6.00\times 10^{-5} \text{T} $$.
 
 </div>

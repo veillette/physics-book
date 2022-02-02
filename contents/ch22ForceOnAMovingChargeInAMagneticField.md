@@ -102,8 +102,8 @@ slow the charges, forming a kind of magnetic mirror, as shown below.
 The properties of charged particles in magnetic fields are related to such
 different things as the Aurora Australis or Aurora Borealis and particle
 accelerators. *Charged particles approaching magnetic field lines may get
-trapped in spiral orbits about the lines rather than crossing them*, as seen
-above. Some cosmic rays, for example, follow the Earth’s magnetic field lines,
+trapped in spiral orbits about the lines rather than crossing them*, as seen in
+[[Figure 5]](#Figure5). Some cosmic rays, for example, follow the Earth’s magnetic field lines,
 entering the atmosphere near the magnetic poles and causing the southern or
 northern lights through their ionization of molecules in the atmosphere. This
 glow of energized atoms and molecules is seen
@@ -114,11 +114,12 @@ consequently, they give a higher radiation dose at the poles than at the
 equator.
 
 ![Diagram of the Earth showing its magnetic field lines running from the south pole, out around the Earth and to the north pole, and then through Earth back to the south pole. Charged particles travel on straight line.](../resources/Figure_23_05_05a.jpg "Energetic electrons and protons, components of cosmic rays, from the Sun and deep outer space often follow the Earth&#x2019;s magnetic field lines rather than cross them. (Recall that the Earth&#x2019;s north magnetic pole is really a south pole in terms of a bar magnet.)")
+{: #Figure5}
 
 Some incoming charged particles become trapped in the Earth’s magnetic field,
 forming two belts above the atmosphere known as the Van Allen radiation belts
 after the discoverer James A. Van Allen, an American astrophysicist. (
-See [[Figure 5]](#Figure5).) Particles trapped in these belts form radiation
+See [[Figure 6]](#Figure6).) Particles trapped in these belts form radiation
 fields (similar to nuclear radiation) so intense that manned space flights avoid
 them and satellites with sensitive electronics are kept out of them. In the few
 minutes it took lunar missions to cross the Van Allen radiation belts,
@@ -127,28 +128,28 @@ for radiation workers. Other planets have similar belts, especially those having
 strong magnetic fields like Jupiter.
 
 ![Diagram showing the Earth with magnetic field lines running from the south pole around to the north pole. A region near the Earth circling the equatorial to mid-latitudes and oriented along a magnetic field line is highlighted and labeled Inner Van Allen radiation belt. A region farther out circles the Earth, except in the polar regions, also following the magnetic field lines, and is labeled Outer Van Allen radiation belt.](../resources/Figure_23_05_06a.jpg "The Van Allen radiation belts are two regions in which energetic charged particles are trapped in the Earth&#x2019;s magnetic field. One belt lies about 300 km above the Earth&#x2019;s surface, the other about 16 000 km. Charged particles in these belts migrate along magnetic field lines and are partially reflected away from the poles by the stronger fields there. The charged particles that enter the atmosphere are replenished by the Sun and sources in deep outer space.")
-{: #Figure5}
+{: #Figure6}
 
 Back on Earth, we have devices that employ magnetic fields to contain charged
 particles. Among them are the giant particle accelerators that have been used to
-explore the substructure of matter. (See [[Figure 6]](#Figure6).) Magnetic
+explore the substructure of matter. (See [[Figure 7]](#Figure7).) Magnetic
 fields not only control the direction of the charged particles, they also are
 used to focus particles into beams and overcome the repulsion of like charges in
 these beams.
 
 ![A view of a section of the accelerator at Fermilab. Down each side of a long corridor are tubes surrounded by orange magnets. Lots of tubes and wires and other electronics are visible.](../resources/Figure_23_05_07a.jpg "The Fermilab facility in Illinois has a large particle accelerator (the most powerful in the world until 2008) that employs magnetic fields (magnets seen here in orange) to contain and direct its beam. This and other accelerators have been in use for several decades and have allowed us to discover some of the laws underlying all matter. (credit: ammcrim, Flickr)")
-{: #Figure6}
+{: #Figure7}
 
 Thermonuclear fusion (like that occurring in the Sun) is a hope for a future
 clean energy source. One of the most promising devices is the *tokamak*, which
 uses magnetic fields to contain (or trap) and direct the reactive charged
-particles. (See [[Figure 7]](#Figure7).) Less exotic, but more immediately
+particles. (See [[Figure 8]](#Figure8).) Less exotic, but more immediately
 practical, amplifiers in microwave ovens use a magnetic field to contain
 oscillating electrons. These oscillating electrons generate the microwaves sent
 into the oven.
 
 ![Figure a shows a tokamak in a lab. Figure b is a diagram of a tokamak. A current-carrying wire wraps around a donut-shaped vacuum chamber. Inside the chamber is plasma. The magnetic field has a toroidal and poloidal shape inside the chamber.](../resources/Figure_23_05_08a.jpg "Tokamaks such as the one shown in the figure are being studied with the goal of economical production of energy by nuclear fusion. Magnetic fields in the doughnut-shaped device contain and direct the reactive charged particles. (credit: David Mellis, Flickr)")
-{: #Figure7}
+{: #Figure8}
 
 Mass spectrometers have a variety of designs, and many use magnetic fields to
 measure mass. The curvature of a charged particle’s path in the field is related
@@ -193,20 +194,20 @@ If a cosmic ray proton approaches the Earth from outer space along a line toward
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-What are the signs of the charges on the particles in [[Figure 8]](#Figure8)?
+What are the signs of the charges on the particles in [[Figure 9]](#Figure9)?
 
 ![Diagram showing magnetic field lines into the page. Charges are moving from the bottom to the top of the diagram and thus perpendicular to the field lines. Charge a curves to the left. Charge b moves in a straight line from bottom to top. Charge c curves to the right.](../resources/Figure_23_99_01a.jpg " ")
-{: #Figure8}
+{: #Figure9}
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Which of the particles in [[Figure 9]](#Figure9) has the greatest velocity, assuming they have identical charges and masses?
+Which of the particles in [[Figure 10]](#Figure10) has the greatest velocity, assuming they have identical charges and masses?
 
 ![Diagram showing magnetic field lines out of the page. Charge a curves clockwise with a large radius as it moves from the bottom to the top of the diagram. Charge b curves clockwise with a much smaller radius as it moves from lower middle to upper middle of the diagram.](../resources/Figure_23_99_02a.jpg " ")
-{: #Figure9}
+{: #Figure10}
 
 </div>
 </div>
@@ -230,7 +231,7 @@ While operating, a high-precision TV monitor is placed on its side during mainte
 If you need additional support for these problems,
 see [More Applications of Magnetism](../contents/ch22MoreApplicationsOfMagnetism).
 
-<div class="exercise" data-element-type="problems-exercises">
+<div id="Exercise1" class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A cosmic ray electron moves at  $$ 7.50 \times 10^{6}  \text{m/s} $$
  perpendicular to the Earth’s magnetic field at an altitude where field strength is  $$ 1.00 \times 10^{-5}   T $$ .
@@ -243,7 +244,7 @@ A cosmic ray electron moves at  $$ 7.50 \times 10^{6}  \text{m/s} $$
 </div>
 </div>
 
-<div class="exercise" data-element-type="problems-exercises">
+<div id="Exercise2" class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A proton moves at  $$ 7.50 \times 10^{7}  \text{m/s} $$
  perpendicular to a magnetic field. The field causes the proton to travel in a circular path of radius 0.800 m. What is the field strength?
@@ -277,7 +278,7 @@ field strengths of 0.500 T are obtainable with permanent magnets.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What radius circular path does an electron travel if it moves at the same speed and in the same magnetic field as the proton in [[link]](#fs-id1347796)?
+What radius circular path does an electron travel if it moves at the same speed and in the same magnetic field as the proton in [[Exercise2]](#Exercise2)?
 
 </div>
 <div class="solution" markdown="1">
@@ -310,7 +311,7 @@ An electron in a TV CRT moves with a speed of  $$ 6.00 \times 10^{7}  \text{m/s}
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) At what speed will a proton move in a circular path of the same radius as the electron in [[link]](#fs-id1702844)? (b) What would the radius of the path be if the proton had the same speed as the electron? (c) What would the radius be if the proton had the same kinetic energy as the electron? (d) The same momentum?
+(a) At what speed will a proton move in a circular path of the same radius as the electron in [[Exercise1]](#Exercise1)? (b) What would the radius of the path be if the proton had the same speed as the electron? (c) What would the radius be if the proton had the same kinetic energy as the electron? (d) The same momentum?
 
 </div>
 </div>

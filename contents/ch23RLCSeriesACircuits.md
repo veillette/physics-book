@@ -93,7 +93,7 @@ and for those without a capacitor, take $${X}_{C}=0 $$.
 ![The figure shows graphs showing the relationships of the voltages in an RLC circuit to the current. It has five graphs on the left and two graphs on the right. The first graph on the right is for current I versus time t. Current is plotted along Y axis and time is along X axis. The curve is a smooth progressive sine wave. The second graph is on the right is for voltage V R versus time t. Voltage V R is plotted along Y axis and time is along X axis. The curve is a smooth progressive sine wave. The third graph is on the right is for voltage V L versus time t. Voltage V L is plotted along Y axis and time is along X axis. The curve is a smooth progressive cosine wave. The fourth graph is on the right is for voltage V C versus time t. Voltage V C is plotted along Y axis and time t is along X axis. The curve is a smooth progressive cosine wave starting from negative Y axis. The fifth graph shows the voltage V verses time t for the R L C circuit. Voltage V is plotted along Y axis and time t is along X axis. The curve is a smooth progressive sine wave starting from a point near to origin on negative X axis. The first and the fifth graphs are again shown on the right and their amplitudes and phases compared. The current graph is shown to have a lesser amplitude.](../resources/Figure_24_12_02a.jpg "This graph shows the relationships of the voltages in an RLC circuit to the current. The voltages across the circuit elements add to equal the voltage of the source, which is seen to be out of phase with the current.")
 {: #Figure2}
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Calculating Impedance and Current
 </div>
@@ -101,7 +101,7 @@ An *RLC* series circuit has a  $$40.0 \text{Ω} $$
  resistor, a 3.00 mH inductor, and a  $$5.00 \text{μF} $$
  capacitor. (a) Find the circuit’s impedance at 60.0 Hz and 10.0 kHz, noting that these frequencies and the values for  $$L $$
  and  $$C $$
- are the same as in [[link]](../contents/m42427#fs-id1169736972664) and [[link]](../contents/m42427#fs-id1169736597928). (b) If the voltage source has  $${V}_{\text{rms}}=120 \text{V} $$ ,
+ are the same as in [[link]](../contents/ch23ReactanceInductiveAndCapactive#fs-id1169736972664) and [[link]](../contents/ch23ReactanceInductiveAndCapactive#fs-id1169736597928). (b) If the voltage source has  $${V}_{\text{rms}}=120 \text{V} $$ ,
  what is  $${I}_{\text{rms}} $$
  at each frequency?
 
@@ -217,7 +217,7 @@ would not be as selective in a radio receiver, for example.
 ![The figure describes a graph of current I versus frequency f. Current I r m s is plotted along Y axis and frequency f is plotted along X axis. Two curves are shown. The upper curve is for small resistance and lower curve is for large resistance. Both the curves have a smooth rise and a fall. The peaks are marked for frequency f zero. The curve for smaller resistance has a higher value of peak than the curve for large resistance.](../resources/Figure_24_12_03a.jpg "A graph of current versus frequency for two RLC series circuits differing only in the amount of resistance. Both have a resonance at \( f_{0} \) , but that for the higher resistance is lower and broader. The driving AC voltage source has a fixed amplitude \( V_{0} \) .")
 {: #Figure3}
 
-<div class="example" markdown="1">
+<div id="Example2" class="example" markdown="1">
 <div class="title">
 Calculating Resonant Frequency and Current
 </div>
@@ -292,7 +292,7 @@ Thus $$\cos \varphi $$ is called the **power factor**, which can range from 0 to
 1. Power factors near 1 are desirable when designing an efficient motor, for
    example. At the resonant frequency, $$\cos \varphi =1 $$.
 
-<div class="example" markdown="1">
+<div id="Example3" class="example" markdown="1">
 <div class="title">
 Calculating the Power Factor and Power
 </div>
@@ -459,7 +459,7 @@ Suppose you have a motor with a power factor significantly less than 1. Explain 
 An *RL* circuit consists of a  $$40.0 \Omega  $$
  resistor and a 3.00 mH inductor. (a) Find its impedance  $$Z $$
  at 60.0 Hz and 10.0 kHz. (b) Compare these values of  $$Z $$
- with those found in [[link]](#fs-id1169737723572) in which there was also a capacitor.
+ with those found in [[Example 1]](#Example1) in which there was also a capacitor.
 
 </div>
 <div class="solution" markdown="1">
@@ -479,7 +479,7 @@ without the capacitor. The capacitor has a smaller effect at high frequencies.
 An *RC* circuit consists of a  $$40.0 \Omega  $$
  resistor and a  $$5.00 \text{μF} $$
  capacitor. (a) Find its impedance at 60.0 Hz and 10.0 kHz. (b) Compare these values of  $$Z $$
- with those found in [[link]](#fs-id1169737723572), in which there was also an inductor.
+ with those found in [[Example 1]](#Example1), in which there was also an inductor.
 
 </div>
 </div>
@@ -489,14 +489,14 @@ An *RC* circuit consists of a  $$40.0 \Omega  $$
 An *LC* circuit consists of a  $$ 3.00 \text{mH} $$
  inductor and a  $$ 5.00\mu\text{F} $$
  capacitor. (a) Find its impedance at 60.0 Hz and 10.0 kHz. (b) Compare these values of  $$Z $$
- with those found in [[link]](#fs-id1169737723572) in which there was also a resistor.
+ with those found in [[Example 1]](#Example1) in which there was also a resistor.
 
 </div>
 <div class="solution" markdown="1">
 (a)  $$529 \Omega  $$
  at 60.0 Hz,  $$185 \Omega  $$  at 10.0 kHz
 
-(b) These values are close to those obtained in [[link]](#fs-id1169737723572)
+(b) These values are close to those obtained in [[Example 1]](#Example1)
 because at low frequency the capacitor dominates and at high frequency the
 inductor dominates. So in both cases the resistor makes little contribution to
 the total impedance.
@@ -640,7 +640,7 @@ An *RLC* series circuit has a  $$200 \Omega  $$
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Referring to [[link]](#fs-id1169737987472), find the average power at 10.0 kHz.
+Referring to [[Example 3]](#Example3), find the average power at 10.0 kHz.
 
 </div>
 <div class="solution" markdown="1">
