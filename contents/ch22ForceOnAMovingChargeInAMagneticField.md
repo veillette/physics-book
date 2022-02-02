@@ -107,7 +107,7 @@ above. Some cosmic rays, for example, follow the Earth’s magnetic field lines,
 entering the atmosphere near the magnetic poles and causing the southern or
 northern lights through their ionization of molecules in the atmosphere. This
 glow of energized atoms and molecules is seen
-in [[link]](../contents/ch22Magnetism#import-auto-id1909198). Those particles that approach
+in [[Figure 1]](../contents/ch22Magnetism#Figure1). Those particles that approach
 middle latitudes must cross magnetic field lines, and many are prevented from
 penetrating the atmosphere. Cosmic rays are a component of background radiation;
 consequently, they give a higher radiation dose at the poles than at the

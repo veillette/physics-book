@@ -164,7 +164,7 @@ example, if a point light source is placed at the focal point of a convex lens,
 as shown in [[Figure 4]](#Figure4), parallel light rays emerge from the other
 side.
 
-![Three light rays coming from a light bulb filament are incident on a convex lens and the rays after refraction are rendered parallel.](../resources/Figure_26_06_04.jpg "A small light source, like a light bulb filament, placed at the focal point of a convex lens, results in parallel rays of light emerging from the other side. The paths are exactly the reverse of those shown in [link]. This technique is used in lighthouses and sometimes in traffic lights to produce a directional beam of light from a source that emits light in all directions. ")
+![Three light rays coming from a light bulb filament are incident on a convex lens and the rays after refraction are rendered parallel.](../resources/Figure_26_06_04.jpg "A small light source, like a light bulb filament, placed at the focal point of a convex lens, results in parallel rays of light emerging from the other side. The paths are exactly the reverse of those shown in Figure 1. This technique is used in lighthouses and sometimes in traffic lights to produce a directional beam of light from a source that emits light in all directions. ")
 {: #Figure4}
 
 ### Ray Tracing and Thin Lenses

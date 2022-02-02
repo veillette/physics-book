@@ -126,7 +126,7 @@ Calculating Current: Using Kirchhoff’s Rules
 </div>
 Find the currents flowing in the circuit in [[Figure 5]](#Figure5).
 
-![The diagram shows a complex circuit with two voltage sources E sub one and E sub two and several resistive loads, wired in two loops and two junctions. Several points on the diagram are marked with letters a through h. The current in each branch is labeled separately.](../resources/Figure_22_03_05.jpg "This circuit is similar to that in [link], but the resistances and emfs are specified. (Each emf is denoted by script E.) The currents in each branch are labeled and assumed to move in the directions shown. This example uses Kirchhoff&#x2019;s rules to find the currents.")
+![The diagram shows a complex circuit with two voltage sources E sub one and E sub two and several resistive loads, wired in two loops and two junctions. Several points on the diagram are marked with letters a through h. The current in each branch is labeled separately.](../resources/Figure_22_03_05.jpg "This circuit is similar to that in Figure 1, but the resistances and emfs are specified. (Each emf is denoted by script E.) The currents in each branch are labeled and assumed to move in the directions shown. This example uses Kirchhoff&#x2019;s rules to find the currents.")
 {: #Figure5}
 
 **Strategy**
