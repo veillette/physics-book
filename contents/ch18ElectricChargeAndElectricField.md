@@ -4,10 +4,11 @@ layout: page
 ---    
 
 ![A child swoops down a plastic playground slide, his hair standing on end.](../resources/Figure_19_00_01a_D.jpg "Static electricity from this plastic slide causes the child&#x2019;s hair to stand on end. The sliding motion stripped electrons away from the child&#x2019;s body, leaving an excess of positive charges, which repel each other along each strand of hair. (credit: Ken Bosma/Wikimedia Commons)")
+{: #Figure1}
 
 The image of American politician and scientist Benjamin Franklin (1706–1790)
 flying a kite in a thunderstorm is familiar to every schoolchild. (
-See [[Figure 1]](#Figure1).) In this experiment, Franklin demonstrated a
+See [[Figure 2]](#Figure2).) In this experiment, Franklin demonstrated a
 connection between lightning and **static electricity**. Sparks were drawn from
 a key hung on a kite string during an electrical storm. These sparks were like
 those produced by static electricity, such as the spark that jumps from your
@@ -19,7 +20,7 @@ underlying unity of the laws of nature, an aspect we humans find particularly
 appealing.
 
 ![Benjamin Franklin is shown flying a kite and lightning is observed. A metal key is attached to the string.](../resources/Figure_19_00_02a.jpg "When Benjamin Franklin demonstrated that lightning was related to static electricity, he made a connection that is now part of the evidence that all directly experienced forces except the gravitational force are manifestations of the electromagnetic force.")
-{: #Figure1}
+{: #Figure2}
 
 Much has been written about Franklin. His experiments were only part of the life
 of a man who was a scientist, inventor, revolutionary, statesman, and writer.

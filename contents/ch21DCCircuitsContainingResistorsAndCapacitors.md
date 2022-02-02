@@ -19,7 +19,7 @@ discussed in this module.
 
 ### *RC* Circuits
 
-An ** $$\mathbf{\text{RC}} $$ circuit** is one containing a **resistor** $$ R $$
+An $$\mathbf{\text{RC}} $$ **circuit** is one containing a **resistor** $$ R $$
 and a **capacitor**  $$C $$ . The capacitor is an electrical component that
 stores electric charge.
 

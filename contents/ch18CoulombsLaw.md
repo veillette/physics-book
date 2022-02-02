@@ -10,6 +10,7 @@ layout: page
 </div>
 
 ![Two spiral galaxies show the strong gravitational attraction between them as their arms appear to reach out toward one another.](../resources/Figure_19_03_01a.jpg "This NASA image of Arp 87 shows the result of a strong gravitational attraction between two galaxies. In contrast, at the subatomic level, the electrostatic attraction between two objects, such as an electron and a proton, is far greater than their mutual attraction due to gravity. (credit: NASA/HST)")
+{: #Figure1}
 
 Through the work of scientists in the late 18th century, the main features of
 the **electrostatic force**—the existence of two types of charge, the
@@ -31,7 +32,7 @@ Coulomb’s law calculates the *magnitude* of the force  $$F $$ between two poin
 <div class="equation" >
  $$k= 8.988 \times 10^{9} \frac{\text{N}\cdot {\text{m}}^{2}}{ {\text{C}}^{2}}\approx  8.99 \times 10^{9} \frac{\text{N}\cdot {\text{m}}^{2}}{ {\text{C}}^{2}}. $$
 </div>
-The electrostatic force is a vector quantity and is expressed in units of newtons. The force is understood to be along the line joining the two charges. (See [[Figure 1]](#Figure1).)
+The electrostatic force is a vector quantity and is expressed in units of newtons. The force is understood to be along the line joining the two charges. (See [[Figure 2]](#Figure2).)
 
 </div>
 
@@ -44,7 +45,7 @@ proportional to distance between two objects squared $$\left(F\propto
 have ever been found, even at the small distances within the atom.
 
 ![In part a, two charges q one and q two are shown at a distance r. Force vector arrow F one two points toward left and acts on q one. Force vector arrow F two one points toward right and acts on q two. Both forces act in opposite directions and are represented by arrows of same length. In part b, two charges q one and q two are shown at a distance r. Force vector arrow F one two points toward right and acts on q one. Force vector arrow F two one points toward left and acts on q two. Both forces act toward each other and are represented by arrows of same length. ](../resources/Figure_19_03_02a.jpg "The magnitude of the electrostatic force \( F \) between point charges \( q_{1} \) and \( q_{2} \) separated by a distance \( r \) is given by Coulomb&#x2019;s law. Note that Newton&#x2019;s third law (every force exerted creates an equal and opposite force) applies as usual&#x2014;the force on \( q_{1} \) is equal in magnitude and opposite in direction to the force it exerts on \( q_{2} \) . (a) Like charges. (b) Unlike charges.")
-{: #Figure1}
+{: #Figure2}
 
 <div class="example" markdown="1">
 <div class="title">
@@ -139,17 +140,17 @@ distance $$r $$ , and $$k\approx 8.99 \times 10^{9}
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-[[Figure 2](#Figure2) shows the charge distribution in a water molecule, which is called a polar molecule because it has an inherent separation of charge. Given water’s polar character, explain what effect humidity has on removing excess charge from objects.
+[[Figure 3](#Figure3) shows the charge distribution in a water molecule, which is called a polar molecule because it has an inherent separation of charge. Given water’s polar character, explain what effect humidity has on removing excess charge from objects.
 
 ![A schematic representation of the outer electron cloud of a neutral water molecule is shown. Three atoms are placed on the vertices of a triangle. The hydrogen atom has positive q charge and the oxygen atom has minus two q charge, and the angle between the line joining each hydrogen atom with the oxygen atom is one hundred and four degrees. The cloud density is shown more at the oxygen atom.](../resources/Figure_19_03_03a.jpg "Schematic representation of the outer electron cloud of a neutral water molecule. The electrons spend more time near the oxygen than the hydrogens, giving a permanent charge separation as shown. Water is thus a polar molecule. It is more easily affected by electrostatic forces than molecules with uniform charge distributions.")
-{: #Figure2 height="221"}
+{: #Figure3 height="221"}
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Using [[Figure 2]](#Figure2), explain, in terms of Coulomb’s law, why a polar molecule (such as in [[Figure 2]](#Figure2)) is attracted by both positive and negative charges.
+Using [[Figure 3]](#Figure3), explain, in terms of Coulomb’s law, why a polar molecule (such as in [[Figure 3]](#Figure3)) is attracted by both positive and negative charges.
 
 </div>
 </div>
