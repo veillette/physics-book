@@ -75,7 +75,7 @@ large $$f $$
 *,* small $$\Delta t $$ ). The greater the change, the greater the opposition of
 an inductor.
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Calculating Inductive Reactance and then Current
 </div>
@@ -106,12 +106,12 @@ $$I=V/{X}_{L} $$ , given the applied rms voltage is 120 V. For the first
 frequency, this yields
 
 <div class="equation" >
- $$I=\frac{V}{ {X}_{L}}=\frac{120 \text{V}}{1.13 \Omega }=106 \text{A at} 60 \text{Hz}. $$
-</div>
+ $$I=\frac{V}{ {X}_{L}}=\frac{120 \text{V}}{1.13 \Omega }=106 \text{A} \text{ at } 60 \text{Hz}. $$
+</div> 
 Similarly, at 10 kHz,
 
 <div class="equation" >
- $$I=\frac{V}{ {X}_{L}}=\frac{120 \text{V}}{188 \text{Ω}}=0.637 A at 10 kHz. $$
+ $$I=\frac{V}{ {X}_{L}}=\frac{120 \text{V}}{188 \text{Ω}}=0.637 \text{A} \text{ at } 10 kHz. $$
 </div>
 **Discussion**
 
@@ -189,7 +189,7 @@ store and the greater the current that can flow. It is also inversely
 proportional to the frequency $$f $$ ; the greater the frequency, the less time
 there is to fully charge the capacitor, and so it impedes current less.
 
-<div class="example" markdown="1">
+<div id="Example2" class="example" markdown="1">
 <div class="title">
 Calculating Capacitive Reactance and then Current
 </div>
@@ -221,12 +221,12 @@ The rms current is now found using the version of Ohm’s law in $$I=V/{X}_{C} $
 , given the applied rms voltage is 120 V. For the first frequency, this yields
 
 <div class="equation" >
- $$I=\frac{V}{ {X}_{C}}=\frac{120 \text{V}}{531 \text{Ω}}=0.226 \text{A} \text{at} 60 \text{Hz}. $$
+ $$I=\frac{V}{ {X}_{C}}=\frac{120 \text{V}}{531 \text{Ω}}=0.226 \text{A} \text{ at } 60 \text{Hz}. $$
 </div>
 Similarly, at 10 kHz,
 
 <div class="equation" >
- $$I=\frac{V}{ {X}_{C}}=\frac{120 \text{V}}{3.18 \text{Ω}}=37.7 \text{A} \text{at} 10 \text{kHz}. $$
+ $$I=\frac{V}{ {X}_{C}}=\frac{120 \text{V}}{3.18 \text{Ω}}=37.7 \text{A} \text{ at } 10 \text{kHz}. $$
 </div>
 **Discussion**
 
@@ -294,7 +294,7 @@ When a sinusoidal voltage is applied to a resistor, the voltage is exactly in ph
   <div class="equation" >
    $$I=\frac{V}{ {X}_{C}}\text{,} $$
   </div>
-     where    $$V $$ is the rms voltage across the capacitor.
+ where $$V $$ is the rms voltage across the capacitor.
 *   $${X}_{C} $$ is defined to be the capacitive reactance, given by
   <div class="equation" >
    $${X}_{C}=\frac{1}{2\pi \text{fC}}\text{.} $$
