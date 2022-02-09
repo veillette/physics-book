@@ -186,7 +186,7 @@ Substituting known values,
 {P}_{1}& =&  1.01 \times 10^{5}  {\text{N/m}}^{2}\\ 
 & &  +\frac{1}{2} \left(10^{3} {\text{kg/m}}^{3}\right)
 \left[ {\left(25.5 \text{m/s}\right)}^{2}-{\left(1.96 \text{m/s}\right)}^{2}\right] \\ 
-& =&  4.24 \times 10^{5}  {\text{N/m}}^{2}\text{.}\end{array} $$
+{P}_{1}& =&  4.24 \times 10^{5}  {\text{N/m}}^{2}\text{.}\end{array} $$
 </div>
 **Discussion**
 

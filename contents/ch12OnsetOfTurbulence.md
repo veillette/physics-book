@@ -21,8 +21,8 @@ irregularity of the blockage, as well as the complexity of blood as a fluid.
 Turbulence in the circulatory system is noisy and can sometimes be detected with
 a stethoscope, such as when measuring diastolic pressure in the upper arm’s
 partially collapsed brachial artery. These turbulent sounds, at the onset of
-blood flow when the cuff pressure becomes sufficiently small, are called *
-Korotkoff sounds*. Aneurysms, or ballooning of arteries, create significant
+blood flow when the cuff pressure becomes sufficiently small, are called 
+*Korotkoff sounds*. Aneurysms, or ballooning of arteries, create significant
 turbulence and can sometimes be detected with a stethoscope. Heart murmurs,
 consistent with their name, are sounds produced by turbulent flow around damaged
 and insufficiently closed heart valves. Ultrasound can also be used to detect
@@ -69,7 +69,9 @@ be calculated from $$\overline{v}=Q/A=1.70 \text{m/s} $$
 Entering the known values into $${N}_{\text{R}}=\frac{2\rho vr}{\eta } $$ gives
 
 <div class="equation" id="import-auto-id2447591">
- $$\begin{array}{lll}{N}_{\text{R}}& =& \frac{2\rho vr}{\eta }\\ & =& \frac{2\left({1025 \text{kg/m}}^{3}\right)\left(1.70 \text{m/s}\right)\left( 0.150 \times 10^{-3}  \text{m}\right)}{ 1.00 \times 10^{-3}  \text{N}\cdot {\text{s/m}}^{2}}\\ & =& 523\text{.} \end{array} $$
+ $$\begin{array}{lll}{N}_{\text{R}}& =& \frac{2\rho vr}{\eta }\\
+{N}_{\text{R}}& =& \frac{2\left({1025 \text{kg/m}}^{3}\right)\left(1.70 \text{m/s}\right)\left( 0.150 \times 10^{-3}  \text{m}\right)}{ 1.00 \times 10^{-3}  \text{N}\cdot {\text{s/m}}^{2}}\\ 
+{N}_{\text{R}}& =& 523\text{.} \end{array} $$
 </div>
 **Discussion**
 

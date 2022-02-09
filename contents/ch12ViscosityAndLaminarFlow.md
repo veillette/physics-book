@@ -15,8 +15,8 @@ layout: page
 When you pour yourself a glass of juice, the liquid flows freely and quickly.
 But when you pour syrup on your pancakes, that liquid flows slowly and sticks to
 the pitcher. The difference is fluid friction, both within the fluid itself and
-between the fluid and its surroundings. We call this property of fluids *
-viscosity*. Juice has low viscosity, whereas syrup has high viscosity. In the
+between the fluid and its surroundings. We call this property of fluids 
+*viscosity*. Juice has low viscosity, whereas syrup has high viscosity. In the
 previous sections we have considered ideal fluids with little or no viscosity.
 In this section, we will investigate what factors, including viscosity, affect
 the rate of fluid flow.
@@ -82,7 +82,7 @@ reasonable, since $$A $$ is directly proportional to the amount of fluid being
 moved. Third, $$F $$ is inversely proportional to the distance between the
 plates $$L $$ . This relationship is also reasonable; $$L $$ is like a lever
 arm, and the greater the lever arm, the less force that is needed. Fourth, $$F
-$$ is directly proportional to the **coefficient of viscosity*, $$\eta $$ . The
+$$ is directly proportional to the **coefficient of viscosity**, $$\eta $$ . The
 greater the viscosity, the greater the force required. These dependencies are
 combined into the equation
 
@@ -387,7 +387,8 @@ Solving for $${P}_{2} $$ yields
  Substituting this and the other known values yields
 
 <div class="equation" id="import-auto-id1133273">
- $$\begin{array}{lll}{P}_{2}& =& \left[ \frac{8\left( 1.00 \times 10^{-3}  \text{N}\cdot {\text{s/m}}^{2}\right)\left( 2.50 \times 10^{-2}  \text{m}\right)}{\pi { \left( 0.150 \times 10^{-3}  \text{m} \right)}^{4}}\right]  \left( 1.20 \times 10^{-7}  {\text{m}}^{3}\text{/s}\right)+ 1.066 \times 10^{3}  {\text{N/m}}^{2}\\ & =&  1.62 \times 10^{4}  {\text{N/m}}^{2}\text{.}\end{array} $$
+ $$\begin{array}{lll}{P}_{2}& =& \left[ \frac{8\left( 1.00 \times 10^{-3}  \text{N}\cdot {\text{s/m}}^{2}\right)\left( 2.50 \times 10^{-2}  \text{m}\right)}{\pi { \left( 0.150 \times 10^{-3}  \text{m} \right)}^{4}}\right]  \left( 1.20 \times 10^{-7}  {\text{m}}^{3}\text{/s}\right)+ 1.066 \times 10^{3}  {\text{N/m}}^{2}\\ 
+{P}_{2}& =&  1.62 \times 10^{4}  {\text{N/m}}^{2}\text{.}\end{array} $$
 </div>
 **Discussion**
 
@@ -802,11 +803,11 @@ viscosity
 : the friction in a fluid, defined in terms of the friction between layers
 
 Poiseuille’s law for resistance
-: the resistance to laminar flow of an incompressible fluid in a tube: *R* = 8*
-ηl*/*πr*<sup>4</sup>
+: the resistance to laminar flow of an incompressible fluid in a tube: *R = 8
+ηl/πr<sup>4</sup>*
 
 Poiseuille’s law
-: the rate of laminar flow of an incompressible fluid in a tube: *Q* = (*P*<sub>
-2</sub> − *P*<sub>1</sub>)*πr*<sup>4</sup>/8*ηl*
+: the rate of laminar flow of an incompressible fluid in a tube: *Q = (P<sub>
+2</sub> − P<sub>1</sub>)πr<sup>4</sup>/8ηl*
 
 </div>
