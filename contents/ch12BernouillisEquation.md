@@ -486,7 +486,7 @@ Every few years, winds in Boulder, Colorado, attain sustained speeds of 45.0 m/s
 where  $$h $$
  is the height of the manometer fluid,  $$\rho^{\prime}  $$
  is the density of the manometer fluid,  $$\rho  $$
-** is the density of the moving fluid, and   $$g $$ is the acceleration due to gravity. (Note that   $$v $$ is indeed proportional to the square root of   $$h $$, as stated in the text.) (b) Calculate  $$v $$  for moving air if a mercury manometer’s  $$h $$  is 0.200 m.
+ is the density of the moving fluid, and   $$g $$ is the acceleration due to gravity. (Note that   $$v $$ is indeed proportional to the square root of   $$h $$, as stated in the text.) (b) Calculate  $$v $$  for moving air if a mercury manometer’s  $$h $$  is 0.200 m.
 
 </div>
 </div>
