@@ -54,7 +54,7 @@ found in tables of density and viscosity.
 Substituting values into the equation for $$N^{\prime}_{\text{R}} $$ yields
 
 <div class="equation" id="import-auto-id694467">
- $$\begin{array}{lll}N^{\prime}_{\text{R}}& =& \frac{\rho vL}{\eta }=\frac{\left(1.29 {\text{kg/m}}^{3}\right)\left(40.0 \text{m/s}\right)\left(0.0740 \text{m}\right)}{ 1.81 \times 10^{-5}  1.00 \text{Pa}\cdot \text{s}}\\ & =&  2.11 \times 10^{5} \text{.}\end{array} $$
+ $$\begin{array}{lll}N^{\prime}_{\text{R}}& =& \frac{\rho vL}{\eta }=\frac{\left(1.29 {\text{kg/m}}^{3}\right)\left(40.0 \text{m/s}\right)\left(0.0740 \text{m}\right)}{ 1.81 \times 10^{-5}  1.00 \text{Pa}\cdot \text{s}}\\ N^{\prime}_{\text{R}}& =&  2.11 \times 10^{5} \text{.}\end{array} $$
 </div>
 **Discussion**
 

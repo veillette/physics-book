@@ -133,10 +133,10 @@ equation by flow rate $$Q $$ , we get power. In equation form, this is
  $$\left(P+\frac{1}{2}\rho v^{2}+\rho gh\right)Q=\text{power}\text{.} $$
 </div>
 
-Each term has a clear physical meaning. For example, $$\text{PQ} $$ is the power
+Each term has a clear physical meaning. For example, $$P Q $$ is the power
 supplied to a fluid, perhaps by a pump, to give it its pressure $$P $$ .
 Similarly, $$\frac{1}{2}\rho v^{2}Q $$ is the power supplied to a fluid to give
-it its kinetic energy. And $$\rho \text{ghQ} $$ is the power going to
+it its kinetic energy. And $$\rho g h Q $$ is the power going to
 gravitational potential energy.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -170,7 +170,9 @@ That means the pump only supplies power to increase water pressure by $$ 0.92
 As discussed above, the power associated with pressure is
 
 <div class="equation">
- $$\begin{array}{lll}\text{power}& =& \text{PQ}\\ & =& \left( 0.920 \times 10^{6}  {\text{N/m}}^{2}\right)\left( 40.0 \times 10^{-3}  {\text{m}}^{3}\text{/s}\right)\text{.}\\  & =&  3.68 \times 10^{4}  \text{W}= 36.8 \text{kW}\end{array} $$
+ $$\begin{array}{lll}\text{power}& =& P Q\\
+\text{power} & =& \left( 0.920 \times 10^{6}  {\text{N/m}}^{2}\right)\left( 40.0 \times 10^{-3}  {\text{m}}^{3}\text{/s}\right)\text{.}\\  
+\text{power} & =&  3.68 \times 10^{4}  \text{W}= 36.8 \text{kW}\end{array} $$
 </div>
 **Discussion**
 
