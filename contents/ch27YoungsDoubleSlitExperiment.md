@@ -91,7 +91,7 @@ interference for a double slit**, the path length difference must be an integral
 multiple of the wavelength, or
 
 <div class="equation" >
- $$d \sin \theta =\mathrm{m\lambda }, \text{ for } m=0, 1, -1, 2, -2, \dots   \text{(constructive).} $$
+ $$d \sin \theta =m \lambda, \text{ for } m=0, 1, -1, 2, -2, \dots   \text{(constructive).} $$
 </div>
 
 Similarly, to obtain **destructive interference for a double slit**, the path
@@ -118,11 +118,11 @@ more is the spreading of the bright fringes. We can see this by examining the
 equation
 
 <div class="equation">
- $$d \sin \theta =\mathrm{m\lambda }\text{,} \text{ for } m=0, 1, -1, 2, -2, \dots . $$
+ $$d \sin \theta =m \lambda\text{,} \text{ for } m=0, 1, -1, 2, -2, \dots . $$
 </div>
 
 For fixed $$\lambda $$ and $$m $$ , the smaller $$d $$ is, the larger $$\theta
-$$ must be, since $$\sin \theta =\mathrm{m\lambda }/d $$ . This is consistent
+$$ must be, since $$\sin \theta =m \lambda/d $$ . This is consistent
 with our contention that wave effects are most noticeable when the object the
 wave encounters (here, slits a distance $$d $$ apart) is small. Small $$d $$
 gives large $$\theta $$ , hence a large effect.
@@ -142,11 +142,11 @@ Suppose you pass light from a He-Ne laser through two slits separated by 0.0100 
 The third bright line is due to third-order constructive interference, which
 means that $$m=3 $$ . We are given $$d= 0.0100 \text{mm} $$ and $$\theta
 =10.95\text{º} $$ . The wavelength can thus be found using the equation $$d \sin
-\theta =\mathrm{m\lambda } $$ for constructive interference.
+\theta =m \lambda $$ for constructive interference.
 
 **Solution**
 
-The equation is $$d \sin \theta =\mathrm{m\lambda } $$ . Solving for the
+The equation is $$d \sin \theta =m \lambda $$ . Solving for the
 wavelength $$\lambda $$ gives
 
 <div class="equation" >
@@ -179,7 +179,7 @@ Interference patterns do not have an infinite number of lines, since there is a 
 
 **Strategy and Concept**
 
-The equation $$d \sin \theta =\mathrm{m\lambda }  \left( \text{ for } m=0, 1, -1, 2, -2,
+The equation $$d \sin \theta =m \lambda  \left( \text{ for } m=0, 1, -1, 2, -2,
 \dots \right) $$ describes constructive interference. For fixed values of $$d $$
 and $$\lambda $$ , the larger $$m $$ is, the larger $$\sin \theta $$ is.
 However, the maximum value that $$\sin \theta $$ can have is 1, for an angle of
@@ -189,7 +189,7 @@ all.) Let us find which $$m $$ corresponds to this maximum diffraction angle.
 
 **Solution**
 
-Solving the equation $$d\sin \theta =\mathrm{m\lambda } $$ for $$m $$ gives
+Solving the equation $$d\sin \theta =m \lambda $$ for $$m $$ gives
 
 <div class="equation" >
  $$m=\frac{d \sin \theta }{\lambda }. $$
@@ -223,7 +223,7 @@ be observable.
   light.
 * An interference pattern is obtained by the superposition of light from two
   slits.
-* There is constructive interference when $$d\sin \theta =\mathrm{m\lambda }
+* There is constructive interference when $$d\sin \theta =m \lambda
   \left( \text{ for } m=0, 1, -1, 2, -2, \dots \right) $$ , where $$d $$ is the distance
   between the slits, $$\theta $$ is the angle relative to the incident
   direction, and $$m $$ is the order of the interference.
@@ -396,7 +396,7 @@ For small angles  $$\sin \theta -\tan \theta \approx \theta  \left(\text{in radi
 For two adjacent fringes we have,
 
 <div class="equation">
- $$d \sin {\theta }_{\text{m}}=\mathrm{m\lambda } $$
+ $$d \sin {\theta }_{\text{m}}=m \lambda $$
 </div>
 and
 

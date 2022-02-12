@@ -134,7 +134,7 @@ be an integral multiple of the wavelength. This condition was expressed by the
 equation
 
 <div class="equation" >
- $$d \sin \theta =\mathrm{m\lambda }\text{,} $$
+ $$d \sin \theta =m \lambda\text{,} $$
 </div>
 where  $$d $$
  is the distance between slits and  $$\theta  $$

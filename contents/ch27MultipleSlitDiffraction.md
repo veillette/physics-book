@@ -54,7 +54,7 @@ condition necessary to obtain **constructive interference for a diffraction
 grating** is
 
 <div class="equation" >
- $$d \sin \theta =\mathrm{m\lambda }, \text{ for } m=0 \text{,} 1 \text{,} -1 \text{,} 2 \text{,} -2 \text{,}\dots \text{(constructive),} $$
+ $$d \sin \theta =m \lambda, \text{ for } m=0 \text{,} 1 \text{,} -1 \text{,} 2 \text{,} -2 \text{,}\dots \text{(constructive),} $$
 </div>
 
 where $$d $$ is the distance between slits in the grating, $$\lambda $$ is the
@@ -81,7 +81,7 @@ specific wavelengths for such use.
 Take-Home Experiment: Rainbows on a CD
 </div>
 The spacing  $$d $$
- of the grooves in a CD or DVD can be well determined by using a laser and the equation  $$d \sin \theta =\mathrm{m\lambda }, \text{ for } m=0 \text{,} 1 \text{,} -1 \text{,} 2 \text{,} -2 \text{,}\dots  $$ .
+ of the grooves in a CD or DVD can be well determined by using a laser and the equation  $$d \sin \theta =m \lambda, \text{ for } m=0 \text{,} 1 \text{,} -1 \text{,} 2 \text{,} -2 \text{,}\dots  $$ .
  However, we can still make a good estimate of this spacing by using white light and the rainbow of colors that comes from the interference. Reflect sunlight from a CD onto a wall and use your best judgment of the location of a strongly diffracted color to find the separation  $$d $$.
 
 </div>
@@ -100,7 +100,7 @@ Diffraction gratings with 10 000 lines per centimeter are readily available. Sup
 The angles can be found using the equation
 
 <div class="equation" >
- $$d \sin \theta =\mathrm{m\lambda } \left( \text{ for } m=0 \text{,} 1 \text{,} -1 \text{,} 2 \text{,} -2 \text{,} \dots \right) $$
+ $$d \sin \theta =m \lambda \left( \text{ for } m=0 \text{,} 1 \text{,} -1 \text{,} 2 \text{,} -2 \text{,} \dots \right) $$
 </div>
 once a value for the slit spacing  $$d $$
  has been determined. Since there are 10 000 lines per centimeter, each line is separated by  $$1/10 000 $$
@@ -177,7 +177,7 @@ having closely spaced lines.
   that produces an interference pattern similar to but sharper than that of a
   double slit.
 * There is constructive interference for a diffraction grating when $$d \sin
-  \theta =\mathrm{m\lambda } \left( \text{ for } m=0 \text{,} 1 \text{,} -1 \text{,} 2
+  \theta =m \lambda \left( \text{ for } m=0 \text{,} 1 \text{,} -1 \text{,} 2
   \text{,} -2 \text{,} \dots \right) $$ , where $$d $$ is the distance between
   slits in the grating, $$\lambda $$ is the wavelength of light, and $$m $$ is
   the order of the maximum.
@@ -475,7 +475,7 @@ discern between wavelengths of interest.
 {: class="glossary-title"}
 
 constructive interference for a diffraction grating
-: occurs when the condition $$d \sin \theta =\mathrm{m\lambda } \left( \text{ for } m=0
+: occurs when the condition $$d \sin \theta =m \lambda \left( \text{ for } m=0
 \text{,} 1 \text{,} -1 \text{,} 2 \text{,} -2 \text{,} \dots \right) $$ is
 satisfied, where $$d $$ is the distance between slits in the grating, $$\lambda
 $$ is the wavelength of light, and $$m $$ is the order of the maximum
