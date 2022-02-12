@@ -60,7 +60,7 @@ the wavelength.
 Thus, to obtain **destructive interference for a single slit**{: class="term"},
 
 <div class="equation" >
- $$D\sin \theta =\mathrm{m\lambda }, \text{ for } m=1 \text{,} -1 \text{,} 2 \text{,} -2 \text{,} 3 \text{,} \dots  \text{(destructive),} $$
+ $$D\sin \theta =m \lambda, \text{ for } m=1 \text{,} -1 \text{,} 2 \text{,} -2 \text{,} 3 \text{,} \dots  \text{(destructive),} $$
 </div>
 
 where $$D $$ is the slit width, $$\lambda $$ is the light’s wavelength, $$\theta
@@ -82,25 +82,27 @@ Visible light of wavelength 550 nm falls on a single slit and produces its secon
 **Strategy**
 
 From the given information, and assuming the screen is far away from the slit,
-we can use the equation $$D\sin \theta =\text{mλ} $$ first to find $$D $$ , and
+we can use the equation $$D\sin \theta = m \lambda $$ first to find $$D $$ , and
 again to find the angle for the first minimum $${\theta }_{1} $$.
 
 **Solution for (a)**
 
 We are given that $$\lambda =550 \text{nm} $$ , $$m=2 $$ , and $${\theta }_
-{2}=45.0 ^\circ $$ . Solving the equation $$D \sin \theta =\text{mλ} $$ for
+{2}=45.0 ^\circ $$ . Solving the equation $$D \sin \theta =m \lambda $$ for
 $$D $$ and substituting known values gives
 
 <div class="equation" >
- $$\begin{array}{lll}D& =& \frac{\mathrm{m\lambda }}{ \sin {\theta }_{2}}=\frac{2\left(550 \text{nm}\right)}{\sin 45.0\text{º}}\\ & =& \frac{1100 \times 10^{-9} }{0.707}\\ & =&  1.56 \times 10^{-6} .\end{array} $$
+ $$\begin{array}{lll}D& =& \frac{\m \lambda}{ \sin {\theta }_{2}}=\frac{2\left(550 \text{nm}\right)}{\sin 45.0\text{º}}\\ 
+ D & =& \frac{1100 \times 10^{-9} \text{m}}{0.707}\\ 
+ D & =&  1.56 \times 10^{-6} \text{m} .\end{array} $$
 </div>
 **Solution for (b)**
 
-Solving the equation $$D \sin \theta =\text{mλ} $$ for $$\sin {\theta }_{1} $$
+Solving the equation $$D \sin \theta = m \lambda $$ for $$\sin {\theta }_{1} $$
 and substituting the known values gives
 
 <div class="equation" >
- $$\sin {\theta }_{1}=\frac{\mathrm{m\lambda }}{D}=\frac{1\left(550 \times 10^{-9}  \text{m}\right)}{ 1.56 \times 10^{-6}  \text{m}}\text{.} $$
+ $$\sin {\theta }_{1}=\frac{m \lambda}{D}=\frac{1\left(550 \times 10^{-9}  \text{m}\right)}{ 1.56 \times 10^{-6}  \text{m}}\text{.} $$
 </div>
 Thus the angle  $${\theta }_{1} $$  is
 
@@ -126,7 +128,7 @@ the central maximum.
 * A single slit produces an interference pattern characterized by a broad
   central maximum with narrower and dimmer maxima to the sides.
 * There is destructive interference for a single slit when $$D \sin \theta
-  =\text{mλ}, \left( \text{ for } m=1 \text{,} -1 \text{,} 2 \text{,} -2 \text{,} 3
+  =m \lambda, \left( \text{ for } m=1 \text{,} -1 \text{,} 2 \text{,} -2 \text{,} 3
   \text{,} \dots \right) $$ , where $$D $$ is the slit width, $$\lambda $$ is
   the light’s wavelength, $$\theta $$ is the angle relative to the original
   direction of the light, and $$m $$ is the order of the minimum. Note that
@@ -311,7 +313,7 @@ m/s?
 {: class="glossary-title"}
 
 destructive interference for a single slit
-: occurs when $$D \sin \theta =\text{mλ}, \left( \text{ for } m=1 \text{,} -1 \text{,} 2
+: occurs when $$D \sin \theta = m \lambda, \left( \text{ for } m=1 \text{,} -1 \text{,} 2
 \text{,} -2 \text{,} 3 \text{,} \dots \right) $$ , where $$D $$ is the slit
 width, $$\lambda $$ is the light’s wavelength, $$\theta $$ is the angle relative
 to the original direction of the light, and $$m $$ is the order of the minimum
