@@ -41,7 +41,7 @@ individual particle will go, or even follow it to its destination. Let us
 explore what happens if we try to follow a particle. Consider the double-slit
 patterns obtained for electrons and photons in [[Figure2]](#Figure2). First, we
 note that these patterns are identical, following $$d \sin \theta
-=\mathrm{m\lambda } $$ , the equation for double-slit constructive interference
+=m \lambda $$ , the equation for double-slit constructive interference
 developed in [Photon Energies and the Electromagnetic Spectrum](../contents/ch29PhotonEnergiesAndTheElectomagneticSpectrum), where
 $$d $$ is the slit separation and $$\lambda $$ is the electron or photon
 wavelength.
