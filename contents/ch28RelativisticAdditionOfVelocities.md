@@ -24,7 +24,7 @@ to the water and the water’s velocity relative to the riverbank.
 
 For simplicity, we restrict our consideration of velocity addition to
 one-dimensional motion. Classically, velocities add like regular numbers in
-one-dimensional motion. (See [[link]](#fs-id1664936).) Suppose, for example, a
+one-dimensional motion. (See [[Figure 2]](#Figure2).) Suppose, for example, a
 girl is riding in a sled at a speed 1.0 m/s relative to an observer. She throws
 a snowball first forward, then backward at a speed of 1.5 m/s relative to the
 sled. We denote direction with plus and minus signs in one dimension; in this
@@ -136,7 +136,7 @@ classical velocity addition.
 Comparing the Speed of Light towards and away from an Observer: Relativistic Package Delivery
 </div>
 Suppose the spaceship in the previous example is approaching the Earth at half the speed of light and shoots a canister at a speed of  $$0.750c $$ .
- (a) At what velocity will an Earth-bound observer see the canister if it is shot directly towards the Earth? (b) If it is shot directly away from the Earth? (See [[link]](#fs-id893371).)
+ (a) At what velocity will an Earth-bound observer see the canister if it is shot directly towards the Earth? (b) If it is shot directly away from the Earth? (See [[Figure 5]](#Figure5).)
 
 ![In part a, a spaceship is moving towards the earth from left to right with a velocity v equals to zero point five zero times c. The spaceships shoots a canister towards earth with velocity u prime equals zero point seven five times c. A man stands stationary on earth observing. In part b, the spaceship shoots the canister away from earth with same velocity. In both the cases, the velocity of the ship is v equals 0 point five zero times c toward left.](../resources/Figure_29_04_05a.jpg " ")
 {: #Figure5}
