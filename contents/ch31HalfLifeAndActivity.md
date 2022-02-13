@@ -695,7 +695,7 @@ A 5000-Ci  $${}^{60}\text{Co} $$
 </div>
 </div>
 
-<div class="exercise" data-element-type="problems-exercises">
+<div id="Exercise14" class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Natural uranium is 0.7200%  $${}^{235}\text{U} $$
  and 99.27%  $${}^{238}\text{U} $$ .
@@ -808,7 +808,7 @@ The *Galileo* space probe was launched on its long journey past several planets 
 **Construct Your Own Problem**
 
 Consider the generation of electricity by a radioactive isotope in a space
-probe, such as described in [[link]](#exercise). Construct a problem in which
+probe, such as described in [[Example 1]](#Example1). Construct a problem in which
 you calculate the mass of a radioactive isotope you need in order to supply
 power for a long space flight. Among the things to consider are the isotope
 chosen, its half-life and decay energy, the power needs of the probe and the
@@ -836,7 +836,7 @@ assumption is responsible?
 <div class="problem"  markdown="1">
 **Unreasonable Results**
 
-(a) Repeat [[link]](#fs-id3046854) but include the 0.0055% natural abundance of
+(a) Repeat [[Exercise 14]](#Exercise14) 
 $${}^{234}\text{U} $$ with its $$2.45 \times 10^{5} \text{y} $$ half-life. (b)
 What is unreasonable about this result? (c) What assumption is responsible? (d)
 Where does the $${}^{234}\text{U} $$ come from if it is not primordial?

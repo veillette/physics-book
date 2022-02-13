@@ -166,7 +166,7 @@ This is the self-inductance of a solenoid of cross-sectional area $$A $$ and
 length $$\ell $$ . Note that the inductance depends only on the physical
 characteristics of the solenoid, consistent with its definition.
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Calculating the Self-inductance of a Moderate Size Solenoid
 </div>
@@ -240,7 +240,7 @@ inductor </strong> $${E}_{\text{ind}} $$ is given by
 
 This expression is similar to that for the energy stored in a capacitor.
 
-<div class="example" markdown="1">
+<div id="Example2" class="example" markdown="1">
 <div class="title">
 Calculating the Energy Stored in the Field of a Solenoid
 </div>
@@ -339,7 +339,7 @@ How would you shape a given length of wire to give it the greatest self-inductan
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Verify, as was concluded without proof in [[link]](#fs-id1169738144436), that units of  $$\text{T}\cdot {\text{m}}^{2}/A=\Omega \cdot \text{s}=\text{H} $$.
+Verify, as was concluded without proof in [[Example 1]](#Example1), that units of  $$\text{T}\cdot {\text{m}}^{2}/A=\Omega \cdot \text{s}=\text{H} $$.
 
 </div>
 </div>

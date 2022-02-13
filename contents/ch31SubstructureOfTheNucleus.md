@@ -192,7 +192,7 @@ and pushed inside one another. The volume of the nucleus is the sum of the
 volumes of the nucleons in it, here shown in different colors to represent
 protons and neutrons.
 
-<div class="example" id="example" markdown="1">
+<div class="Example1" id="example1" markdown="1">
 <div class="title">
 How Small and Dense Is a Nucleus?
 </div>
@@ -384,7 +384,7 @@ What are isotopes? Why do different isotopes of the same element have similar ch
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Verify that a  $$ 2.3 \times 10^{17}  \text{kg} $$
- mass of water at normal density would make a cube 60 km on a side, as claimed in [[link]](#example). (This mass at nuclear density would make a cube 1.0 m on a side.)
+ mass of water at normal density would make a cube 60 km on a side, as claimed in [[Example 1]](#Example1). (This mass at nuclear density would make a cube 1.0 m on a side.)
 
 </div>
 <div class="solution">
@@ -446,7 +446,7 @@ The unified atomic mass unit is defined to be  $$1 \text{u}= 1.6605 \times 10^{-
 </div>
 </div>
 
-<div class="exercise" data-element-type="problems-exercises">
+<div id="Exercise11" class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 What is the ratio of the velocity of a  $$\beta  $$
  particle to that of an  $$\alpha  $$
@@ -485,7 +485,7 @@ The detail observable using a probe is limited by its wavelength. Calculate the 
  and with a mass of  $$A $$  u, then its density is independent of  $$A $$.
 
 (b) Calculate that density in $${\text{u/fm}}^{3} $$ and $${\text{kg/m}}^{3} $$
-, and compare your results with those found in [[link]](#example) for
+, and compare your results with those found in [[Example 1]](#Example1) for
 $${}^{56}\text{Fe} $$.
 
 </div>
@@ -497,7 +497,7 @@ What is the ratio of the velocity of a 5.00-MeV  $$\beta  $$
  ray to that of an  $$\alpha  $$
  particle with the same kinetic energy? This should confirm that  $$\beta  $$
 s travel much faster than  $$\alpha  $$
-s even when relativity is taken into consideration. (See also [[link]](#fs-id3046141).)
+s even when relativity is taken into consideration. (See also [[Exercise 11]](#Exercise11).)
 
 </div>
 <div class="solution"  markdown="1">

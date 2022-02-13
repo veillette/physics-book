@@ -93,7 +93,7 @@ environment into which heat transfer occurs. Consider the following example.
 ![Part a of the figure shows a graph of pressure P versus volume V for a Carnot cycle. The pressure P is along the Y axis and the volume V is along the X axis. The graph shows a complete cycle A B C D. The path begins at point A, then it moves smoothly down till point B along the direction of the X axis. This is marked as an isotherm at temperature T sub h. Then the curve drops down further, along a different curve, from point B to point C. This is marked as adiabatic expansion. The curve rises from point C to point D along the direction opposite to that of A B. This is also an isotherm but at temperature T sub c. The last part of the curve rises up from point D back to A along a direction opposite to that of B C. This is marked as adiabatic compression. The path C D is lower than path A B. Heat Q sub h enters the system, as shown by a bold arrow to the curve A B. Heat Q sub c leaves the system as shown by a bold arrow near C D. Part b of the diagram shows an internal combustion engine represented as a circle. The hot reservoir is a rectangular section at the top of the circle shown at temperature T sub h. A cold reservoir is shown as a rectangular section in the bottom part of the circle at temperature T sub c. Heat Q sub h enters the heat engine as shown by a bold arrow; work W is produced as output, shown to leave the system, and the remaining heat Q sub c is returned back to the cold reservoir, as shown by a bold arrow toward it.](../resources/Figure_16_04_02.jpg "\( PV \) diagram for a Carnot cycle, employing only reversible isothermal and adiabatic processes. Heat transfer \( Q_{h} \) occurs into the working substance during the isothermal path AB, which takes place at constant temperature \( T_{h} \). Heat transfer \( Q_{c} \) occurs out of the working substance during the isothermal path CD, which takes place at constant temperature \( T_{c} \). The net work output \( W \) equals the area inside the path ABCDA. Also shown is a schematic of a Carnot engine operating between hot and cold reservoirs at temperatures \( T_{h} \) and \( T_{c} \). Any heat engine using reversible processes and operating between these two temperatures will have the same maximum efficiency as the Carnot engine.")
 {: #Figure2}
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Maximum Theoretical Efficiency for a Nuclear Reactor
 </div>
@@ -204,7 +204,7 @@ A certain gasoline engine has an efficiency of 30.0%. What would the hot reservo
 <div class="problem" markdown="1">
 A gas-cooled nuclear reactor operates between hot and cold reservoir temperatures of  $$700\text{ºC} $$
  and  $$ 27.0\text{ºC} $$ .
- (a) What is the maximum efficiency of a heat engine operating between these temperatures? (b) Find the ratio of this efficiency to the Carnot efficiency of a standard nuclear reactor (found in [[link]](#fs-id1169737826418)).
+ (a) What is the maximum efficiency of a heat engine operating between these temperatures? (b) Find the ratio of this efficiency to the Carnot efficiency of a standard nuclear reactor (found in [[Example 1]](#Example1)).
 
 </div>
 </div>

@@ -130,7 +130,7 @@ is the ratio of $$E $$ -field strength to $$B $$ -field strength in any
 electromagnetic wave. This is true at all times and at all locations in space. A
 simple and elegant result.
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Calculating  $$B $$
 -Field Strength in an Electromagnetic Wave
@@ -323,7 +323,7 @@ The maximum magnetic field strength of an electromagnetic field is  $$5 \times 1
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" data-element-type="problem-exercises" markdown="1">
 Verify the units obtained for magnetic field strength  $$B $$
- in [[link]](#fs-id1169738236038) (using the equation  $$B=\frac{E}{c} $$ ) 
+ in [[Example 1]](#Example1) (using the equation  $$B=\frac{E}{c} $$ ) 
 are in fact teslas (T).
 
 </div>

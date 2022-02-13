@@ -310,7 +310,7 @@ The power factor at 60.0 Hz is found from
  $$\cos \varphi =\frac{R}{Z}\text{.} $$
 </div>
 We know  $$Z= 531 \text{ Ω} $$
- from [[link]](#fs-id1169737723572), so that
+ from [[Example 1]](#Example1), so that
 
 <div class="equation" >
  $$\cos \varphi =\frac{ 40.0 \Omega }{531 \Omega }=0.0753 \text{at}  60.0 \text{Hz} \text{.}  $$
@@ -334,7 +334,7 @@ The average power at 60.0 Hz is
  $${P}_{\text{ave}}={I}_{\text{rms}}{V}_{\text{rms}}\cos \varphi . $$
 </div>
  $${I}_{\text{rms}} $$
- was found to be 0.226 A in [[link]](#fs-id1169737723572). Entering the known values gives
+ was found to be 0.226 A in [[Example 1]](#Example1). Entering the known values gives
 
 <div class="equation" >
  $${P}_{\text{ave}}=\left( 0.226 \text{A}\right)\left(120 \text{V}\right)\left( 0.0753\right)= 2.04 \text{W at 60.0 Hz.} $$
@@ -342,7 +342,7 @@ The average power at 60.0 Hz is
 **Strategy and Solution for (c)**
 
 At the resonant frequency, we know $$\cos \varphi =1 $$ , and $${I}_{\text{rms}}
-$$ was found to be 6.00 A in [[link]](#fs-id1169738045330). Thus,
+$$ was found to be 6.00 A in [[Example 2]](#Example2). Thus,
 
 $${P}_{\text{ave}}=\left( 3.00 \text{A}\right)\left(120 \text{V}\right)\left(
 1\right)=360 \text{W} $$ at resonance (1.30 kHz)

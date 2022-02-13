@@ -137,16 +137,16 @@ The energy of 30.0  $$\text{eV} $$
 </div>
 </div>
 
-<div class="exercise" id="exercise" data-element-type="problems-exercises">
+<div id="exercise2" class="exercise" data-element-type="problems-exercises">
 <div class="problem"  markdown="1">
 A particle of ionizing radiation creates 4000 ion pairs in the gas inside a Geiger tube as it passes through. What minimum energy was deposited, if 30.0  $$\text{eV} $$ is required to create each ion pair?
 
 </div>
 </div>
 
-<div class="exercise"  data-element-type="problems-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 <div class="problem"  markdown="1">
-(a) Repeat [[link]](#exercise), and convert the energy to joules or calories. (b) If all of this energy is converted to thermal energy in the gas, what is its temperature increase, assuming  $$50.0 \text{c}{\text{m}}^{3} $$
+(a) Repeat [[the previous exercise]](#exercise2), and convert the energy to joules or calories. (b) If all of this energy is converted to thermal energy in the gas, what is its temperature increase, assuming  $$50.0 \text{c}{\text{m}}^{3} $$
  of ideal gas at 0.250-atm pressure? (The small answer is consistent with the fact that the energy is large on a quantum mechanical scale but small on a macroscopic scale.)
 
 </div>

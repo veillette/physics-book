@@ -56,7 +56,7 @@ means the snowball moves away from the Earth-bound observer.
 The second postulate of relativity (verified by extensive experimental
 observation) says that classical velocity addition does not apply to light.
 Imagine a car traveling at night along a straight road, as
-in [[link]](#fs-id2834724). If classical velocity addition applied to light,
+in [[Figure 3]](#Figure3). If classical velocity addition applied to light,
 then the light from the car’s headlights would approach the observer on the
 sidewalk at a speed $$u=v+c $$ . But we know that light will move away from the
 car at speed $$c $$ relative to the driver of the car, and light will move

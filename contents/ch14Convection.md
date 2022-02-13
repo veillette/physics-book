@@ -323,7 +323,7 @@ We divide both sides of the equation by  $${L}_{\text{v}} $$
 **Solution**
 
 (1) Insert the value of the latent heat
-from [[link]](../contents/ch14PhaseChangeAndLatentHeat#import-auto-id3260303), $${L}_
+from [[Table 1]](../contents/ch14PhaseChangeAndLatentHeat#Table1), $${L}_
 {\text{v}}=2430\text{kJ/kg}=2430\text{J/g} $$ . This yields
 
 <div class="equation" >
