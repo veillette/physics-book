@@ -453,7 +453,7 @@ Distances to very remote galaxies are estimated based on their apparent type, wh
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-If the smallest meaningful time interval is greater than zero, will the lines in [[link]](#fs-id1735972) ever meet?
+If the smallest meaningful time interval is greater than zero, will the lines in [[Figure 9]](#Figure9) ever meet?
 
 </div>
 </div>

@@ -112,7 +112,7 @@ small amount of material needed to be destroyed. Samples were tested at three
 independent laboratories, each being given four pieces of cloth, with only one
 unidentified piece from the shroud, to avoid prejudice. All three laboratories
 found samples of the shroud contain 92% of the $${}^{14}\text{C} $$ found in
-living tissues, allowing the shroud to be dated (see [[link]](#fs-id2653660)).
+living tissues, allowing the shroud to be dated (see [[Figure 2]](#Figure2)).
 
 ![The figure shows two images of Jesus. Left image is very faint and hardly visible but the right image shows a much clearer picture.](../resources/Figure_32_05_02a.jpg "Part of the Shroud of Turin, which shows a remarkable negative imprint likeness of Jesus complete with evidence of crucifixion wounds. The shroud first surfaced in the 14th century and was only recently carbon-14 dated. It has not been determined how the image was placed on the material. (credit: Butko, Wikimedia Commons)")
 {: #Figure2}

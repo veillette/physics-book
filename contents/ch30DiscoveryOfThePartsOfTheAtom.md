@@ -51,13 +51,13 @@ indications of electrons and their charge.
 
 The English physicist J. J. Thomson (1856–1940) improved and expanded the scope
 of experiments with gas discharge tubes. (See [[Figure 2]](#Figure2)
-and [[link]](#fs-id2509061).) He verified the negative charge of the cathode
+and [[Figure 3]](#Figure3).) He verified the negative charge of the cathode
 rays with both magnetic and electric fields. Additionally, he collected the rays
 in a metal cup and found an excess of negative charge. Thomson was also able to
 measure the ratio of the charge of the electron to its mass, $${q}_{e} $$ $$
 $$/{m}_{e} $$ —an important step to finding the actual values of both $${q}_{e}
-$$ $$ and $${m}_{e} $$ .
-[[link]](#fs-id961353) shows a cathode-ray tube, which produces a narrow beam of
+$$ and $${m}_{e} $$ .
+[[Figure 4]](#Figure4) shows a cathode-ray tube, which produces a narrow beam of
 electrons that passes through charging plates connected to a high-voltage power
 supply. An electric field $$\vb{E} $$ is produced between the charging
 plates, and the cathode-ray tube is placed between the poles of a magnet so that
