@@ -5,16 +5,17 @@ layout: page
 ---    
 
 ![Wind turbine with three blades moored in shallow water.](../resources/Figure_23_00_01.jpg "These wind turbines in the Thames Estuary in the UK are an example of induction at work. Wind pushes the blades of the turbine, spinning a shaft attached to magnets. The magnets spin around a conductive coil, inducing an electric current in the coil, and eventually feeding the electrical grid. (credit: modification of work by Petr Kratochvil)")
+{: #Figure1}
 
 Nature’s displays of symmetry are beautiful and alluring. A butterfly’s wings
-exhibit an appealing symmetry in a complex system. (See [[Figure 1]](#Figure1).)
+exhibit an appealing symmetry in a complex system. (See [[Figure 2]](#Figure2).)
 The laws of physics display symmetries at the most basic level—these symmetries
 are a source of wonder and imply deeper meaning. Since we place a high value on
 symmetry, we look for it when we explore nature. The remarkable thing is that we
 find it.
 
 ![Photograph of a butterfly with its wings spread out symmetrically is shown to rest on a bunch of flowers.](../resources/Figure_24_00_02.jpg "Physics, like this butterfly, has inherent symmetries. (credit: Thomas Bresson)")
-{: #Figure1}
+{: #Figure2}
 
 The hint of symmetry between electricity and magnetism found in the preceding
 chapter will be elaborated upon in this chapter. Specifically, we know that a

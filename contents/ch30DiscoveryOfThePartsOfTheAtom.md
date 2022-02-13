@@ -73,9 +73,11 @@ and then moved the beam up and down by adjusting the electric field.
 {: #Figure2}
 
 ![A diagram of the glass apparatus that was used to discover the electron in J. J. Thompson&#x2019;s experiment.](../resources/Figure_31_02_02a1.jpg "Diagram of Thomson&#x2019;s CRT. (credit: Kurzon, Wikimedia Commons)")
+{: #Figure3}
 
 
 ![Image of a cathode ray tube on x axis between two inverted L shaped north and south pole magnets on y axis, with z axis as a wire carrying high voltage supply to the charging plates inside the C R T. Zoomed image of the charging plate area inside the C R T showing the intersection of magnetic field between the poles in red lines towards south pole on the y axis along with an electron beam in green color line with velocity v toward right on the x axis.](../resources/Figure_31_02_02b1.jpg "This schematic shows the electron beam in a CRT passing through crossed electric and magnetic fields and causing phosphor to glow when striking the end of the tube.")
+{: #Figure4}
 
 
 To see how the amount of deflection is used to calculate $${q}_{e}/{m}_{e} $$ ,
@@ -158,17 +160,17 @@ this by the number of ions per mole (that is, by Avogadro’s number), which was
 approximately known, the charge per ion was calculated to be about $$ 1.6 \times
 10^{-19} \text{C} $$ , close to the actual value.
 
-An American physicist, Robert Millikan (1868–1953) (see [[Figure 3]](#Figure3)),
+An American physicist, Robert Millikan (1868–1953) (see [[Figure 5]](#Figure5)),
 decided to improve upon Thomson’s experiment for measuring $${q}_{e} $$ and was
 eventually forced to try another approach, which is now a classic experiment
 performed by students. The Millikan oil drop experiment is shown
-in [[link]](#fs-id2010482).
+in [[Figure 6]](#Figure6).
 
 ![Black and white image of physicist Robert Millikan wearing a jacket and a bow tie.](../resources/Figure_31_02_03a1.jpg "Robert Millikan (credit: Unknown Author, via Wikimedia Commons)")
-{: #Figure3}
+{: #Figure5}
 
 ![Image of the apparatus used in the Millikan oil drop experiment, consisting of a parallel pair of horizontal metal plates with a pin hole opening in the top plate. The top plate has positive charge and the bottom plate has negative charge. Picture of a flashlight as a bright source of light and a beam of light passing in between the plates from left is shown. A telescope is shown at the front and an oil atomizer above the positive plate is also depicted. A zoomed image of metal plates describing the force acting on the oil droplet is also shown. Arrows pointing upwards are forces of electric field while arrows pointing downwards depict the force of gravity.](../resources/Figure_31_02_03b1.jpg "The Millikan oil drop experiment produced the first accurate direct measurement of the charge on electrons, one of the most fundamental constants in nature. Fine drops of oil become charged when sprayed. Their movement is observed between metal plates with a potential applied to oppose the gravitational force. The balance of gravitational and electric forces allows the calculation of the charge on a drop. The charge is found to be quantized in units of \( 1.6\times 10^{-19} \text{C} \) , thus determining directly the charge of the excess and missing electrons on the oil drops.")
-
+{: #Figure6}
 
 In the Millikan oil drop experiment, fine drops of oil are sprayed from an
 atomizer. Some of these are charged by the process and can then be suspended
@@ -266,7 +268,7 @@ physics, there is much overlap between chemistry and physics, with physics
 providing the fundamental enabling theories. He returned to England in later
 years and had six future Nobel Prize winners as students. Rutherford used
 nuclear radiation to directly examine the size and mass of the atomic nucleus.
-The experiment he devised is shown in [[Figure 4]](#Figure4). A radioactive
+The experiment he devised is shown in [[Figure 7]](#Figure7). A radioactive
 source that emits alpha radiation was placed in a lead container with a hole in
 one side to produce a beam of alpha particles, which are a type of ionizing
 radiation ejected by the nuclei of a radioactive source. A thin gold foil was
@@ -274,7 +276,7 @@ placed in the beam, and the scattering of the alpha particles was observed by
 the glow they caused when they struck a phosphor screen.
 
 ![Image of Rutherford&#x2019;s experiment depicting a cuboid shaped lead block having a radioactive sample in red colored circle, emitting a beam of alpha rays. The beam strikes a rectangular gold foil which lies inside a circular strip acting as a detecting screen. Two rays are reflected from the foil while the rest pass through the foil and hit the strip. The other part of the image shows magnified structure of gold foil with gold atoms with their nuclei. Diameter of gold atom is given as 10^\{-10}m and the diameter of the nucleus of the atom is 10^\{-15}m. Alpha rays in the form of arrows are shown passing horizontally through the atoms; some are shown deflected as they collide with the nuclei while the rest simply pass through.](../resources/Figure_31_02_04a.jpg "Rutherford&#x2019;s experiment gave direct evidence for the size and mass of the nucleus by scattering alpha particles from a thin gold foil. Alpha particles with energies of about 5 MeV are emitted from a radioactive source (which is a small metal container in which a specific amount of a radioactive material is sealed), are collimated into a beam, and fall upon the foil. The number of particles that penetrate the foil or scatter to various angles indicates that gold nuclei are very small and contain nearly all of the gold atom&#x2019;s mass. This is particularly indicated by the alpha particles that scatter to very large angles, much like a soccer ball bouncing off a goalie&#x2019;s head.")
-{: #Figure4}
+{: #Figure7}
 
 Alpha particles were known to be the doubly charged positive nuclei of helium
 atoms that had kinetic energies on the order of $$5 \text{MeV} $$ when emitted
@@ -323,7 +325,7 @@ foil with very little scattering, since electrons have such small masses and
 since the atom was mostly empty with nothing for the alpha to hit. There were
 already hints of this at the time Rutherford performed his experiments, since
 energetic electrons had been observed to penetrate thin foils more easily than
-expected. [[Figure 5]](#Figure5) shows a schematic of the atoms in a thin foil
+expected. [[Figure 8]](#Figure8) shows a schematic of the atoms in a thin foil
 with circles representing the size of the atoms (about $$ 10^{-10} \text{m} $$ )
 and dots representing the nuclei. (The dots are not to scale—if they were, you
 would need a microscope to see them.) Most alpha particles miss the small nuclei
@@ -332,7 +334,7 @@ times in Rutherford’s experiment), an alpha hits a nucleus head-on and is
 scattered straight backward.
 
 ![The image shows an enlarged view of atoms in gold foil having a diameter of ten to the power minus ten meter and a dot within it representing the nucleus. A few alpha rays are shown passing through the atoms. Some are scattered as they hit the nuclei while some are just passing through.](../resources/Figure_31_02_05a.jpg "An expanded view of the atoms in the gold foil in Rutherford&#x2019;s experiment. Circles represent the atoms (about \( 10^{-10}\text{m} \) in diameter), while the dots represent the nuclei (about \( 10^{-15}\text{m} \) in diameter). To be visible, the dots are much larger than scale. Most alpha particles crash through but are relatively unaffected because of their high energy and the electron&#x2019;s small mass. Some, however, head straight toward a nucleus and are scattered straight back. A detailed analysis gives the size and mass of the nucleus.")
-{: #Figure5}
+{: #Figure8}
 
 Based on the size and mass of the nucleus revealed by his experiment, as well as
 the mass of electrons, Rutherford proposed the **planetary model of the atom**.
@@ -342,12 +344,12 @@ size of the nucleus, with mostly vacuum inside the atom. This picture is
 analogous to how low-mass planets in our solar system orbit the large-mass Sun
 at distances large compared with the size of the sun. In the atom, the
 attractive Coulomb force is analogous to gravitation in the planetary system. (
-See [[Figure 6]](#Figure6).) Note that a model or mental picture is needed to
+See [[Figure 9]](#Figure9).) Note that a model or mental picture is needed to
 explain experimental results, since the atom is too small to be directly
 observed with visible light.
 
 ![The image shows three elliptical orbits showing electrons&#x2019; movement around a positive nucleus. The movement of the electrons in the orbit shown with arrows are opposite to each other.](../resources/Figure_31_02_06a.jpg "Rutherford&#x2019;s planetary model of the atom incorporates the characteristics of the nucleus, electrons, and the size of the atom. This model was the first to recognize the structure of atoms, in which low-mass electrons orbit a very small, massive nucleus in orbits much larger than the nucleus. The atom is mostly empty and is analogous to our planetary system.")
-{: #Figure6}
+{: #Figure9}
 
 Rutherford’s planetary model of the atom was crucial to understanding the
 characteristics of atoms, and their interactions and energies, as we shall see

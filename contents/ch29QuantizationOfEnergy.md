@@ -92,6 +92,7 @@ Planck was the first to suggest the correct formula for relativistic momentum,
 $$p=\gamma mu $$.
 
 ![A photo of German physicist Max Plank is shown.](../resources/Figure_30_01_02a.jpg "The German physicist Max Planck had a major influence on the early development of quantum mechanics, being the first to recognize that energy is sometimes quantized. Planck also made important contributions to special relativity and classical physics. (credit: Library of Congress, Prints and Photographs Division via Wikimedia Commons)")
+{: #Figure2}
 
 Note that Planck’s constant $$h $$ is a very small number. So for an infrared
 frequency of $$ 10^{14} \text{Hz} $$ being emitted by a blackbody, for example,
@@ -117,7 +118,7 @@ huge amounts of information. The type of gas and its temperature, for example,
 could be determined. We now know that these EM emissions come from electrons
 transitioning between energy levels in individual atoms and molecules; thus,
 they are called **atomic spectra**. Atomic spectra remain an important
-analytical tool today. [[Figure 2]](#Figure2) shows an example of an emission
+analytical tool today. [[Figure 3]](#Figure3) shows an example of an emission
 spectrum obtained by passing an electric discharge through a material. One of
 the most important characteristics of these spectra is that they are discrete.
 By this we mean that only certain wavelengths, and hence frequencies, are
@@ -127,7 +128,7 @@ and molecules are quantized. This is discussed in more detail later in this
 chapter.
 
 ![Emission spectrum of oxygen is shown as a band containing all colors with some distinct colors as discrete bold lines.](../resources/Figure_30_01_03a.jpg "Emission spectrum of oxygen. When an electrical discharge is passed through a substance, its atoms and molecules absorb energy, which is reemitted as EM radiation. The discrete nature of these emissions implies that the energy states of the atoms and molecules are quantized. Such atomic spectra were used as analytical tools for many decades before it was understood why they are quantized. (credit: Teravolt, Wikimedia Commons)")
-{: #Figure2}
+{: #Figure3}
 
 It was a major puzzle that atomic spectra are quantized. Some of the best minds
 of 19th-century science failed to explain why this might be. Not until the

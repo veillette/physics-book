@@ -4,6 +4,7 @@ layout: page
 ---    
 
 ![Photograph of the reflective side of a C D. Regions of the disc reflect a rainbow of colors.](../resources/Figure_28_00_01a_D.jpg "The colors reflected by this compact disc vary with angle and are not caused by pigments. Colors such as these are direct evidence of the wave character of light. (credit: Infopro, Wikimedia Commons)")
+{: #Figure1}
 
 Examine a compact disc under white light, noting the colors observed and
 locations of the colors. Determine if the spectra are formed by diffraction from
@@ -17,7 +18,7 @@ of megabytes of information to be stored.
 If you have ever looked at the reds, blues, and greens in a sunlit soap bubble
 and wondered how straw-colored soapy water could produce them, you have hit upon
 one of the many phenomena that can only be explained by the wave character of
-light (see [[Figure 1]](#Figure1)). The same is true for the colors seen in an
+light (see [[Figure 2]](#Figure2)). The same is true for the colors seen in an
 oil slick or in the light reflected from a compact disc. These and other
 interesting phenomena, such as the dispersion of white light into a rainbow of
 colors when passed through a narrow slit, cannot be explained fully by geometric
@@ -28,4 +29,4 @@ objects) is called wave optics (sometimes called physical optics). It is the
 topic of this chapter.
 
 ![Soap bubbles reflecting mostly purple and blue light with some regions of orange.](../resources/Figure_28_00_02a.jpg "These soap bubbles exhibit brilliant colors when exposed to sunlight. How are the colors produced if they are not pigments in the soap? (credit: Scott Robinson, Flickr)")
-{: #Figure1}
+{: #Figure2}

@@ -559,6 +559,7 @@ characteristics of the particles are consistent with the three-quark
 substructure.
 
 ![In the figure the track of particles in electron-positron collider is shown/](../resources/Figure_34_05_04.jpg "Simulation of a proton-proton collision at 14-TeV center-of-mass energy in the ALICE detector at CERN LHC. The lines follow particle trajectories and the cyan dots represent the energy depositions in the sensitive detector elements. (credit: Matev&#x17E; Tadel) ")
+{: #Figure4}
 
 
 ### Quarks Have Their Ups and Downs
@@ -619,12 +620,12 @@ combined, the eye sees white. The analogy of the colors combining to white is
 used to explain why baryons are made of three quarks, why mesons are a quark and
 an antiquark, and why we cannot isolate a single quark. The force between the
 quarks is such that their combined colors produce white. This is illustrated
-in [[Figure 4]](#Figure4). A baryon must have one of each primary color or RGB,
+in [[Figure 5]](#Figure5). A baryon must have one of each primary color or RGB,
 which produces white. A meson must have a primary color and its anticolor, also
 producing white.
 
 ![The first image shows a big circle labeled baryon that contains three quarks represented as smaller red, green, and blue circles. The combination of red, green, and blue makes the bigger baryon circle white. The second image shows a big circle labeled meson that contains a quark represented by a small red circle and an anti quark represented by a small cyan circle. The combination of red and cyan makes the bigger meson circle white.](../resources/Figure_34_05_05.jpg "The three quarks composing a baryon must be RGB, which add to white. The quark and antiquark composing a meson must be a color and anticolor, here \( R \overline{R} \) also adding to white. The force between systems that have color is so great that they can neither be separated nor exist as colored. ")
-{: #Figure4}
+{: #Figure5}
 
 Why must hadrons be white? The color scheme is intentionally devised to explain
 why baryons have three quarks and mesons have a quark and an antiquark. Quark
@@ -662,7 +663,7 @@ among the four forces in that it affects the space and time in which the other
 forces exist and is proving most difficult to include in a Theory of Everything
 or TOE (to stub the pretension of such a theory). Gravity is thus often set
 apart. It is not certain that there is meaning in the groupings shown
-in [[Figure 5]](#Figure5), but the analogies are tempting. In the past, we have
+in [[Figure 6]](#Figure6), but the analogies are tempting. In the past, we have
 been able to make significant advances by looking for analogies and patterns,
 and this is an example of one under current scrutiny. There are connections
 between the families of leptons, in that the $$\tau $$ decays into the $$\mu $$
@@ -671,10 +672,10 @@ eventually decay into the lowest, leaving only *u* and *d* quarks. We have long
 sought connections between the forces in nature. Since these are carried by
 particles, we will explore connections between gluons, $${W}^{±} $$ and
 $${Z}^{0} $$ , and photons as part of the search for unification of forces
-discussed in [GUTs: The Unification of Forces](../contents/ch33GUTS)..
+discussed in [GUTs: The Unification of Forces](../contents/ch33GUTS).
 
 ![This figure shows three types of particles arranged in three rows. In the top row are leptons, in the middle row are quarks, and in the bottom row are carrier particles. The rows are divided into three columns, with the columns labeled family one, family two, and family three, from left to right. In family one are the electron and electron neutrino, the up and down quarks, and the photon and upsilon. In family two are the muon and muon neutrino, the strange and charmed quarks, and the W plus, W minus, and Z zero. In family three are the tau and tau neutrino, the top and bottom quarks, and gluons.](../resources/Figure_34_05_06.jpg "The three types of particles are leptons, quarks, and carrier particles. Each of those types is divided into three analogous families, with the graviton left out.")
-{: #Figure5}
+{: #Figure6}
 
 ### Summary
 
@@ -691,7 +692,7 @@ discussed in [GUTs: The Unification of Forces](../contents/ch33GUTS)..
   their de Broglie wavelength.
 * There are three types of fundamental particles—leptons, quarks, and carrier
   particles. Each type is divided into three analogous families as indicated
-  in [[Figure 5]](#Figure5).
+  in [[Figure 6]](#Figure6).
 
 ### Conceptual Questions
 
@@ -865,7 +866,7 @@ by writing the reaction and decay in terms of quarks.
 $$ showing the individual quarks involved.
 
 ![The figure shows a graph of number of interactions on the y axis versus kinetic energy of pion on the x axis. The number of interactions reaches a peak at two hundred mega electron volts where the short lived particle delta plus plus is generated. The width of this peak is approximately hundred mega electron volts.](../resources/Figure_34_05_07.jpg "This graph shows the probability of an interaction between a \( \pi^{+} \) and a proton as a function of energy. The bump is interpreted as a very short lived particle called a \( \Delta^{++} \). The approximately 100-MeV width of the bump is due to the short lifetime of the \( \Delta^{++} \).;     ")
-{: #Figure6}
+{: #Figure7}
 
 </div>
 </div>

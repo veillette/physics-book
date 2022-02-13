@@ -479,6 +479,7 @@ The 200-A current through a spark plug moves 0.300 mC of charge. How long does t
 (a) A defibrillator sends a 6.00-A current through the chest of a patient by applying a 10 000-V potential as in the figure below. What is the resistance of the path? (b) The defibrillator paddles make contact with the patient through a conducting gel that greatly reduces the path resistance. Discuss the difficulties that would ensue if a larger voltage were used to produce the same current through the patient, but with the path having perhaps 50 times the resistance. (Hint: The current must be about the same, so a higher voltage would imply greater power. Use this equation for power:  $$P={I}^{2}R $$ .)
 
 ![Figure represents a defibrillation unit used on a patient. The circuit is also represented. It shows a capacitor driving a current through the chest of a patient. The opposite plates of the capacitor are marked as positive Q and negative Q. The direction of current in the connecting wires from the capacitor to the defibrillation unit is shown in a clockwise direction with an arrow on the wire, and the direction of electrons is shown opposite to this direction with an arrow.](../resources/Figure_21_01_07a.jpg "The capacitor in a defibrillation unit drives a current through the heart of a patient.")
+{: #Figure7}
 
 </div>
 <div class="solution" markdown="1">
@@ -576,10 +577,10 @@ A 14-gauge copper wire has a diameter of 1.628 mm. What magnitude current flows 
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-SPEAR, a storage ring about 72.0 m in diameter at the Stanford Linear Accelerator (closed in 2009), has a 20.0-A circulating beam of electrons that are moving at nearly the speed of light. (See [[Figure 7]](#Figure7).) How many electrons are in the beam?
+SPEAR, a storage ring about 72.0 m in diameter at the Stanford Linear Accelerator (closed in 2009), has a 20.0-A circulating beam of electrons that are moving at nearly the speed of light. (See [[Figure 8]](#Figure8).) How many electrons are in the beam?
 
 ![The circuit shows a doughnut shaped storage ring called SPEAR. The cross sections of ring are marked as A and are represented as dotted circular sections. The diameter of storage ring as measured between diametrically opposite cross sections on both ends is seventy two meters. The current in the ring is given as twenty amps. The direction of current I is shown opposite to the direction of movement of electrons e using arrows.](../resources/Figure_21_01_08a.jpg "Electrons circulating in the storage ring called SPEAR constitute a 20.0-A current. Because they travel close to the speed of light, each electron completes many orbits in each second.")
-{: #Figure7}
+{: #Figure8}
 
 </div>
 <div class="solution" markdown="1">

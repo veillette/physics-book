@@ -757,6 +757,7 @@ substructure called quarks. [Quarks: Is That All There Is?](../contents/ch33Quar
 the basics of the underlying quark building blocks.
 
 ![The image shows a picture of physicist Murray Gell Mann, who looks like a pleasant white-haired gentleman.](../resources/Figure_34_04_03.jpg "Murray Gell-Mann (b. 1929) proposed quarks as a substructure of hadrons in 1963 and was already known for his work on the concept of strangeness. Although quarks have never been directly observed, several predictions of the quark model were quickly confirmed, and their properties explain all known hadron characteristics. Gell-Mann was awarded the Nobel Prize in 1969. (credit: Lubo&#x161; Motl)")
+{: #Figure3}
 
 ### Summary
 

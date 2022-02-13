@@ -144,7 +144,7 @@ about one wavelength. Since a potential of only 54 V can produce electrons with
 sub-nanometer wavelengths, it is easy to get electrons with much smaller
 wavelengths than those of visible light (hundreds of nanometers). Electron
 microscopes can, thus, be constructed to detect much smaller details than
-optical microscopes. (See [[link]](#fs-id1510268).)
+optical microscopes. (See [[Figure 2]](#Figure2).)
 
 There are basically two types of electron microscopes. The transmission electron
 microscope (TEM) accelerates electrons that are emitted from a hot filament (the
@@ -159,7 +159,7 @@ structure of cell nuclei.
 
 The scanning electron microscope (SEM) provides images by using secondary
 electrons produced by the primary beam interacting with the surface of the
-sample (see [[link]](#fs-id1510268)). The SEM also uses magnetic lenses to focus
+sample (see [[Figure 2]](#Figure2)). The SEM also uses magnetic lenses to focus
 the beam onto the sample. However, it moves the beam around electrically to
 “scan” the sample in the *x* and *y* directions. A CCD detector is used to
 process the data for each electron position, producing images like the one at
@@ -168,7 +168,7 @@ sample and of providing a 3-D view. However, its resolution is about ten times
 less than a TEM.
 
 ![Figure a shows a schematic of an electron microscope. Figure b shows an image of a shark tooth.](../resources/Figure_30_06_02a.jpg "Schematic of a scanning electron microscope (SEM) (a) used to observe small details, such as those seen in this image of a tooth of a Himipristis, a type of shark (b). (credit: Dallas Krentzel, Flickr)")
-
+{: #Figure2}
 
 Electrons were the first particles with mass to be directly confirmed to have
 the wavelength proposed by de Broglie. Subsequently, protons, helium nuclei,
@@ -192,7 +192,7 @@ Making Connections: A Submicroscopic Diffraction Grating
 The wave nature of matter allows it to exhibit all the characteristics of other, more familiar, waves. Diffraction gratings, for example, produce diffraction patterns for light that depend on grating spacing and the wavelength of the light. This effect, as with most wave phenomena, is most pronounced when the wave interacts with objects having a size similar to its wavelength. For gratings, this is the spacing between multiple slits.) When electrons interact with a system having a spacing similar to the electron wavelength, they show the same types of interference patterns as light does for diffraction gratings, as shown at top left in [[link]](#fs-id1309356).
 
 Atoms are spaced at regular intervals in a crystal as parallel planes, as shown
-in the bottom part of [[link]](#fs-id1309356). The spacings between these planes
+in the bottom part of [[Figure 3]](#Figure3). The spacings between these planes
 act like the openings in a diffraction grating. At certain incident angles, the
 paths of electrons scattering from successive planes differ by one wavelength
 and, thus, interfere constructively. At other angles, the path length
@@ -205,7 +205,7 @@ differences and indicates how these depend on incident angle $$\theta $$ in a
 manner similar to the diffraction patterns for x rays reflecting from a crystal.
 
 ![An electron beam is striking at an angle theta on a crystal and the reflected rays are detected by a detector. A magnified view of the crystal is also shown with two rays of electrons striking the various layers of crystal at an angle theta and reflected back. A graph is shown of intensity variation versus theta. Intensity is along the y axis and theta is along the x axis.The shape of the curve is like a wave and each subsequent peak diminishes as we move out the x axis.](../resources/Figure_30_06_03a.jpg "The diffraction pattern at top left is produced by scattering electrons from a crystal and is graphed as a function of incident angle relative to the regular array of atoms in a crystal, as shown at bottom. Electrons scattering from the second layer of atoms travel farther than those scattered from the top layer. If the path length difference (PLD) is an integral wavelength, there is constructive interference.")
-
+{: #Figure3}
 
 Let us take the spacing between parallel planes of atoms in the crystal to be
 $$d $$ . As mentioned, if the path length difference (PLD) for the electrons is

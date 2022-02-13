@@ -4,6 +4,7 @@ layout: page
 ---    
 
 ![A magnified image of a black fly obtained from an electron microscope showing its antennae and tentacles.](../resources/Figure_30_00_01a.jpg "A black fly imaged by an electron microscope is as monstrous as any science-fiction creature. (credit: U.S. Department of Agriculture via Wikimedia Commons)")
+{: #Figure1}
 
 Quantum mechanics is the branch of physics needed to deal with submicroscopic
 objects. Because these objects are smaller than we can observe directly with our
@@ -15,7 +16,7 @@ than fiction.
 Certain aspects of quantum mechanics are familiar to us. We accept as fact that
 matter is composed of atoms, the smallest unit of an element, and that these
 atoms combine to form molecules, the smallest unit of a compound. (
-See [[Figure 1]](#Figure1).) While we cannot see the individual water molecules
+See [[Figure 2]](#Figure2).) While we cannot see the individual water molecules
 in a stream, for example, we are aware that this is because molecules are so
 small and so numerous in that stream. When introducing atoms, we commonly say
 that electrons orbit atoms in discrete shells around a tiny nucleus, itself
@@ -26,7 +27,7 @@ charges in the current through a lightbulb, because the charges are so small and
 so numerous in the macroscopic situations we sense directly.
 
 ![A model of an atom is shown. Atom is shown as a clump of small spherical balls at the center, representing the nucleus, surrounded by spherical and dumbbell-shaped electron clouds. A magnified view of the nucleus is shown as a bunch of small spherical balls.](../resources/Figure_30_00_02a.jpg "Atoms and their substructure are familiar examples of objects that require quantum mechanics to be fully explained. Certain of their characteristics, such as the discrete electron shells, are classical physics explanations. In quantum mechanics we conceptualize discrete &#x201C;electron clouds&#x201D; around the nucleus. ")
-{: #Figure1}
+{: #Figure2}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">

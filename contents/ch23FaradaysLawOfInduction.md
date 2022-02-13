@@ -106,6 +106,7 @@ Electromagnetic induction can be used in other instances where electric signals
 need to be conveyed across various media.
 
 ![Photograph of a baby with a device attached on its lower part of the head, just above the right ear.](../resources/Figure_24_02_03.jpg "Electromagnetic induction used in transmitting electric currents across mediums. The device on the baby&#x2019;s head induces an electrical current in a receiver secured in the bone beneath the skin. (credit: Bjorn Knetsch)")
+{: #Figure3}
 
 Another contemporary area of research in which electromagnetic induction is
 being successfully implemented (and with substantial potential) is transcranial
@@ -235,10 +236,10 @@ A particle accelerator sends high-velocity charged particles down an evacuated p
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Referring to [[Figure 3]](#Figure3)(a), what is the direction of the current induced in coil 2: (a) If the current in coil 1 increases? (b) If the current in coil 1 decreases? (c) If the current in coil 1 is constant? Explicitly show how you follow the steps in the [Problem-Solving Strategy for Lenz's Law](#fs-id1169738211904).
+Referring to [[Figure 4]](#Figure4)(a), what is the direction of the current induced in coil 2: (a) If the current in coil 1 increases? (b) If the current in coil 1 decreases? (c) If the current in coil 1 is constant? Explicitly show how you follow the steps in the [Problem-Solving Strategy for Lenz's Law](#fs-id1169738211904).
 
 ![Part a of the diagram shows two single loop coils. Coil one and coil two are held vertically. Coil one has a current I in anti clockwise direction. Part b of the diagram shows a wire held vertical with a current flowing in upward direction. There is a single loop coil next to it held vertically.](../resources/Figure_24_02_04.jpg "(a) The coils lie in the same plane. (b) The wire is in the plane of the coil ")
-{: #Figure3}
+{: #Figure4}
 
 </div>
 <div class="solution"  markdown="1">
@@ -260,10 +261,10 @@ Referring to [[Figure 3]](#Figure3)(b), what is the direction of the current ind
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Referring to [[Figure 4]](#Figure4), what are the directions of the currents in coils 1, 2, and 3 (assume that the coils are lying in the plane of the circuit): (a) When the switch is first closed? (b) When the switch has been closed for a long time? (c) Just after the switch is opened?
+Referring to [[Figure 5]](#Figure5), what are the directions of the currents in coils 1, 2, and 3 (assume that the coils are lying in the plane of the circuit): (a) When the switch is first closed? (b) When the switch has been closed for a long time? (c) Just after the switch is opened?
 
 ![The figure shows a closed circuit consisting of a main coil with many loops connected to a cell through a switch. Three single loop coils named one, two and three are also shown. Coil one is on left of the main coil, coil two on the right and coil three on top of the main coil.](../resources/Figure_24_02_05.jpg " ")
-{: #Figure4}
+{: #Figure5}
 
 </div>
 <div class="solution" markdown="1">

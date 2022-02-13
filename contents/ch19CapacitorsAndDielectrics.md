@@ -557,6 +557,7 @@ Membranes in living cells, including those in humans, are characterized by a sep
 </div>
 
 ![The semipermeable membrane of a cell is shown, with different concentrations of potassium cations, sodium cations, and chloride anions inside and outside the cell. The ions are represented by small, colored circles. In its resting state, the cell membrane is permeable to potassium and chloride ions, but it is impermeable to sodium ions. By diffusion, potassium cations travel out of the cell, going through the cell membrane and forming a layer of positive charge on the outer surface of the membrane. By diffusion, chloride anions go into the cell, going through the cell membrane and forming a layer of negative charge on the inner surface of the membrane. As a result, a voltage is set up across the cell membrane. The Coulomb force prevents all the ions from crossing the membrane.](../resources/Figure_20_05_07a.jpg "The semipermeable membrane of a cell has different concentrations of ions inside and out. Diffusion moves the \( \text{K}^{+} \)    (potassium) and \( \text{Cl}^{-} \)   (chloride) ions in the directions shown, until the Coulomb force halts further transfer. This results in a layer of positive charge on the outside, a layer of negative charge on the inside, and thus a voltage across the cell membrane. The membrane is normally impermeable to \( \text{Na}^{+} \) (sodium ions).")
+{: #Figure8}
 
 ### Problems &amp; Exercises
 

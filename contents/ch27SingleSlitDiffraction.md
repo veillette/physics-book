@@ -78,6 +78,7 @@ Visible light of wavelength 550 nm falls on a single slit and produces its secon
  relative to the incident direction of the light. (a) What is the width of the slit? (b) At what angle is the first minimum produced?
 
 ![The schematic shows a single slit to the left and the resulting intensity pattern on a screen is graphed on the right. The single slit is represented by a gap of size d in a vertical line. A ray of wavelength lambda enters the gap from the left, then five rays leave from the gap center and head to the right. One ray continues on the horizontal centerline of the schematic. Two rays angle upward: the first at an unknown angle theta one above the horizontal and the second at an angle theta two equals forty five degrees above the horizontal. The final two rays angle downward at the same angles, so that they are symmetric about the horizontal with respect to the two rays that angle upward. The intensity on the screen is a maximum where the central ray hits the screen, whereas it is a minimum where the angled rays hit the screen.](../resources/Figure_28_05_04a.jpg "A graph of the single slit diffraction pattern is analyzed in this example.")
+{: #Figure4}
 
 **Strategy**
 

@@ -221,6 +221,7 @@ are usually insulated with 6.5-in batts. In cold climates, thicker batts may be
 used in ceilings and walls.
 
 ![The figure shows two thick rectangular pieces of fiberglass batt lying one upon the other.](../resources/Figure_15_05_04a.jpg "The fiberglass batt is used for insulation of walls and ceilings to prevent heat transfer between the inside of the building and the outside environment.")
+{: #Figure4}
 
 Note that in [[Table 1]](#Table1), the best thermal conductors—silver, copper,
 gold, and aluminum—are also the best electrical conductors, again related to the
@@ -336,6 +337,7 @@ Some electric stoves have a flat ceramic surface with heating elements hidden be
 Loose-fitting white clothing covering most of the body is ideal for desert dwellers, both in the hot Sun and during cold evenings. Explain how such clothing is advantageous during both day and night.
 
 ![The figure shows a group of musicians wearing long, loose-fitting lightly colored robes that go down to their feet.](../resources/Figure_15_05_05a.jpg "A jellabiya is worn by many men in Egypt. (credit: Zerida)")
+{: #Figure5}
 
 </div>
 </div>
@@ -443,7 +445,7 @@ A walrus transfers energy by conduction through its blubber at the rate of 150 W
  What is the average thickness of its blubber, which has the conductivity of fatty tissues without blood?
 
 ![The figure shows a walrus on an ice bank near the water. The tusks the walrus are visible.](../resources/Figure_15_05_07a.jpg "Walrus on ice. (credit: Captain Budd Christman, NOAA Corps)")
-
+{: #Figure6}
 </div>
 </div>
 

@@ -117,6 +117,7 @@ A flat mirror is neither converging nor diverging. To prove this, consider two r
  Show that after striking a plane mirror, the angle between their directions remains  $$\theta  $$.
 
 ![Light rays diverging from a point at an angle theta fall on a mirror at two different places and their reflected rays diverge. When the reflected rays are extended backwards from their points of reflection, they meet at a point behind the mirror, where they diverge from each other at the same angle theta.](../resources/Figure_26_02_09.jpg "A flat mirror neither converges nor diverges light rays. Two rays continue to diverge at the same angle after reflection.")
+{: #Figure8}
 
 </div>
 </div>

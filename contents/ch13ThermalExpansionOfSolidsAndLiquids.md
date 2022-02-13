@@ -11,6 +11,7 @@ layout: page
 </div>
 
 ![](../resources/Figure_14_02_01.jpg "Thermal expansion joints like these in the Auckland Harbour Bridge in New Zealand allow bridges to change length without buckling. (credit: Ingolfson, Wikimedia Commons)")
+{: #Figure1}
 
 The expansion of alcohol in a thermometer is one of many commonly encountered
 examples of **thermal expansion**, the change in size or volume of a given mass
@@ -285,7 +286,7 @@ expansion at each joint is small.
 
 ### Thermal Expansion in Two and Three Dimensions
 
-Objects expand in all dimensions, as illustrated in [[Figure 1]](#Figure1). That
+Objects expand in all dimensions, as illustrated in [[Figure 2]](#Figure2). That
 is, their areas and volumes, as well as their lengths, increase with
 temperature. Holes also get larger with temperature. If you cut a hole in a
 metal plate, the remaining material will expand exactly as it would if the plug
@@ -313,7 +314,7 @@ where  $$\Delta A $$  is the change in area  $$A $$ ,
 </div>
 
 ![Part a shows the outline of a flat metal plate before and after expansion. After expansion, it has the same shape and ratio of dimensions as before, but it takes up a greater area. Part b shows the outline of a flat metal plate with a hole in it, before and after expansion. The hole expands. Part c shows the outline of a rectangular box before and after expansion. After expansion, the box has the same proportions as before expansion, but it has a greater volume.](../resources/Figure_14_02_02.jpg "In general, objects expand in all directions as temperature increases. In these drawings, the original boundaries of the objects are shown with solid lines, and the expanded boundaries with dashed lines. (a) Area increases because both length and width increase. The area of a circular plug also increases. (b) If the plug is removed, the hole it leaves becomes larger with increasing temperature, just as if the expanding plug were still in place. (c) Volume also increases, because all three dimensions increase.")
-{: #Figure1}
+{: #Figure2}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -337,7 +338,7 @@ density *decreases*) when it is at temperatures greater than $$4\text{ºC}\left(
 40\text{ºF}\right) $$ . However, it expands with *decreasing* temperature when
 it is between $$+4\text{ºC} $$ and $$0\text{ºC} $$ $$\left(40\text{ºF} $$ to
 $$32\text{ºF}\right) $$ . Water is densest at $$+4\text{ºC} $$ .
-(See [[Figure 2]](#Figure2).) Perhaps the most striking effect of this
+(See [[Figure 3]](#Figure3).) Perhaps the most striking effect of this
 phenomenon is the freezing of water in a pond. When water near the surface cools
 down to $$4\text{ºC} $$ it is denser than the remaining water and thus will sink
 to the bottom. This “turnover” results in a layer of warmer water near the
@@ -352,7 +353,7 @@ circulation of water in the pond that is necessary for a healthy ecosystem of
 the body of water.
 
 ![A graph of density of freshwater in grams per cubic centimeter versus temperature in degrees Celsius. The line is convex up. At zero degrees C, the density is just under zero point nine nine nine five grams per cubic centimeter. The density then increases at a decreasing rate until it hits a peak of about zero point nine nine nine nine seven grams per cubic centimeter at about four degrees C. Above four degrees C, the density decreases with increasing temperature.](../resources/Figure_14_02_03.jpg "The density of water as a function of temperature. Note that the thermal expansion is actually very small. The maximum density at \( +4 \text{ºC} \) is only 0.0075% greater than the density at \( 2 \text{ºC} \), and 0.012% greater than that at \( 0 \text{ºC} \).")
-{: #Figure2}
+{: #Figure3}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -369,6 +370,7 @@ getting another 40 miles on “empty” in the winter, beware—you will probabl
 out much more quickly in the summer.
 
 ![Fuel gauge pointing to empty.](../resources/Figure_14_02_03a.jpg "Because the gas expands more than the gas tank with increasing temperature, you can&#x2019;t drive as many miles on &#x201C;empty&#x201D; in the summer as you can in the winter. (credit: Hector Alejandro, Flickr)")
+{: #Figure4}
 
 </div>
 
@@ -489,14 +491,14 @@ cools. Glass cooking pans will crack if cooled rapidly or unevenly, because of
 differential contraction and the stresses it creates. (Pyrex® is less
 susceptible because of its small coefficient of thermal expansion.) Nuclear
 reactor pressure vessels are threatened by overly rapid cooling, and although
-none have failed, several have been cooled faster than considered desirable. **
+none have failed, several have been cooled faster than considered desirable.
 Biological cells are ruptured when foods are frozen, detracting from their
 taste. Repeated thawing and freezing accentuate the damage. Even the oceans can
 be affected. A significant portion of the rise in sea level that is resulting
 from global warming is due to the thermal expansion of sea water.
 
 ![A cracked asphalt road with a pothole.](../resources/Figure_14_02_04.jpg "Thermal stress contributes to the formation of potholes. (credit: Editor5807, Wikimedia Commons)")
-{: #Figure3}
+{: #Figure5}
 
 Metal is regularly used in the human body for hip and knee implants. Most
 implants need to be replaced over time because, among other things, metal does
@@ -523,6 +525,7 @@ Two blocks, A and B, are made of the same material. Block A has dimensions  $$l�
  and (c) the change in the height  $$h $$  of the two blocks?
 
 ![There are two rectangular blocks. Block A has its dimensions labeled length equals L, width equals two times L, height equals L. Block B has its dimensions labeled length, width, and height all equal to two times L.](../resources/Figure_14_02_04a.jpg " ")
+{: #Figure6}
 
 </div>
 <div class="solution"  data-print-placement="here" markdown="1">

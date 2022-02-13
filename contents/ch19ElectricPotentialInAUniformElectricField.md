@@ -146,6 +146,7 @@ electricity, on dry days.
 </div>
 
 ![The picture shows a spark chamber placed on a wooden base.](../resources/Figure_20_02_02a.jpg "A spark chamber is used to trace the paths of high-energy particles. Ionization created by the particles as they pass through the gas between the plates allows a spark to jump. The sparks are perpendicular to the plates, following electric field lines between them. The potential difference between adjacent plates is not high enough to cause sparks without the ionization produced by particles from accelerator experiments (or cosmic rays). (credit: Daderot, Wikimedia Commons)")
+{: #Figure2}
 
 <div class="example" markdown="1">
 <div class="title">

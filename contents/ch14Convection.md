@@ -291,6 +291,7 @@ in spaces too small to support convection, as shown in the figure. Fur and
 feathers are lightweight and thus ideal for the protection of animals.
 
 ![The figure shows a cross-sectional view of a body covered by a fur layer. A number of convection loops are shown in the fur. The air outside the fur is cold and the body beneath the fur is warm.](../resources/Figure_15_06_03a.jpg "Fur is filled with air, breaking it up into many small pockets. Convection is very slow here, because the loops are so small. The low conductivity of air makes fur a very good lightweight insulator.")
+{: #Figure3}
 
 Some interesting phenomena happen *when convection is accompanied by a phase
 change*. It allows us to cool off by sweating, even if the temperature of the
@@ -352,10 +353,13 @@ produce violent storms, with lightning and hail, and constitute the mechanism
 driving hurricanes.
 
 ![The figure shows a cumulus cloud in a blue sky.](../resources/Figure_15_06_04a.jpg "Cumulus clouds are caused by water vapor that rises because of convection. The rise of clouds is driven by a positive feedback mechanism. (credit: Mike Love)")
+{: #Figure4}
 
 ![The figure shows lightning strikes from thunderclouds above an urban area.](../resources/Figure_15_06_05a.jpg "Convection accompanied by a phase change releases the energy needed to drive this thunderhead into the stratosphere. (credit: Gerardo Garc&#xED;a Moretti )")
+{: #Figure5}
 
 ![The figure shows some blue-colored icebergs floating in the water beneath snow-capped mountains and a cloudy sky. Some of the icebergs at front are melting.](../resources/Figure_15_06_06a.jpg "The phase change that occurs when this iceberg melts involves tremendous heat transfer. (credit: Dominic Alves)")
+{: #Figure6}
 
 The movement of icebergs is another example of convection accompanied by a phase
 change. Suppose an iceberg drifts from Greenland into warmer Atlantic waters.
@@ -471,7 +475,7 @@ The Kilauea volcano in Hawaii is the world’s most active, disgorging about  $$
  Assume that the specific heat of lava is the same as that of granite.
 
 ![A view of a lava flow on the Kilauea volcano of Hawaii.](../resources/Figure_15_06_07a.jpg "Lava flow on Kilauea volcano in Hawaii. (credit: J. P. Eaton, U.S. Geological Survey)")
-
+{: #Figure7}
 
 </div>
 <div class="solution" markdown="1">
