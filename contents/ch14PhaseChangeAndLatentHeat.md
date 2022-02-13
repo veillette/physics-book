@@ -416,7 +416,7 @@ transfer and work can cause both temperature and phase changes.
 5. *Solve the appropriate equation for the quantity to be determined (the
    unknown).* If there is a temperature change, the transferred heat depends on
    the specific heat (
-   see [[link]](../contents/ch14TemperatureChangeAndHeatCapacity#import-auto-id1921148))
+   see [[Table 1](../contents/ch14TemperatureChangeAndHeatCapacity#Table1))
    whereas, for a phase change, the transferred heat depends on the latent heat.
    See [[Table 1]](#Table1).
 6. *Substitute the knowns along with their units into the appropriate equation

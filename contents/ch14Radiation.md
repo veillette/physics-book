@@ -44,7 +44,7 @@ All objects absorb and emit electromagnetic radiation. The rate of heat transfer
 by radiation is largely determined by the color of the object. Black is the most
 effective, and white is the least effective. People living in hot climates
 generally avoid wearing black clothing, for instance (
-see [[link]](#fs-id1921098)). Similarly, black asphalt in a parking lot will be
+see [[Equation 2]](#Equation2)). Similarly, black asphalt in a parking lot will be
 hotter than adjacent gray sidewalk on a summer day, because black absorbs better
 than gray. The reverse is also true—black radiates better than gray. Thus, on a
 clear summer night, the asphalt will be colder than the gray sidewalk, because
@@ -111,7 +111,7 @@ object and the temperature of its surroundings. Assuming that an object with a
 temperature $${T}_{1} $$ is surrounded by an environment with uniform
 temperature $${T}_{2} $$ , the **net rate of heat transfer by radiation** is
 
-<div class="equation" >
+<div id="Equation2" class="equation" >
  $$\frac{ {Q}_{\text{net}}}{t}=\sigma eA\left({T}_{2}^{4}-{T}_{1}^{4}\right)\text{,} $$
 </div>
 
@@ -260,8 +260,8 @@ Problem-Solving Strategies for the Methods of Heat Transfer
 5.   *Solve the appropriate equation for the quantity to be determined (the unknown).*
 6.   For conduction, equation
      $$\frac{Q}{t}=\frac{k_{B}A\left({T}_{2}-{T}_{1}\right)}{d} $$
-    is appropriate. [[link]](../contents/ch14Conduction#import-auto-id1245788) lists thermal conductivities. For convection, determine the amount of matter moved and use equation $$Q=mc\Delta T $$, to calculate the heat transfer involved in the temperature change of the fluid. If a phase change accompanies convection, equation $$Q=m L_{\text{f}} $$ or  $$Q=m L_{\text{v}} $$
-        is appropriate to find the heat transfer involved in the phase change. [[link]](../contents/ch14HeatTransferMethods#import-auto-id3260303) lists information relevant to phase change. For radiation, equation
+    is appropriate. [[Table 1]](../contents/ch14Conduction#Table1) lists thermal conductivities. For convection, determine the amount of matter moved and use equation $$Q=mc\Delta T $$, to calculate the heat transfer involved in the temperature change of the fluid. If a phase change accompanies convection, equation $$Q=m L_{\text{f}} $$ or  $$Q=m L_{\text{v}} $$
+        is appropriate to find the heat transfer involved in the phase change. [[Table1]](../contents/ch14HeatTransferMethods#Table1) lists information relevant to phase change. For radiation, equation
      $$\frac{ {Q}_{\text{net}}}{t}=\sigma eA\left({T}_{2}^{4}-{T}_{1}^{4}\right) $$
         gives the net heat transfer rate.
 7.   *Insert the knowns along with their units into the appropriate equation and obtain numerical solutions complete with units.*

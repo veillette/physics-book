@@ -157,7 +157,7 @@ $$ s are positive. The direction of heat transfer is indicated by a plus or
 minus sign. For example, $${Q}_{\text{c}} $$ is out of the system and so is
 preceded by a minus sign.
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Daily Work Done by a Coal-Fired Power Station, Its Efficiency and Carbon Dioxide Emissions
 </div>
@@ -244,7 +244,7 @@ compared to natural gas or oil), making coal the least efficient fossil fuel.
 
 </div>
 
-With the information given in [[link]](#fs-id1169737966074), we can find
+With the information given in [[Example 1]](#Example1), we can find
 characteristics such as the efficiency of a heat engine without any knowledge of
 how the heat engine operates, but looking further into the mechanism of the
 engine will give us greater insight. [[Figure 4]](#Figure4) illustrates the

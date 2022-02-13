@@ -67,7 +67,7 @@ its surface area and thickness, as shown in [[Figure 3]](#Figure3), and $$\left(
 {T}_{2}-{T}_{1}\right) $$ is the temperature difference across the
 slab. [[Table 1]](#Table1) gives representative values of thermal conductivity.
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Calculating Heat Transfer Through Conduction: Conduction Rate Through an Ice Box
 </div>
@@ -228,7 +228,7 @@ gold, and aluminum—are also the best electrical conductors, again related to t
 density of free electrons in them. Cooking utensils are typically made from good
 conductors.
 
-<div class="example" markdown="1">
+<div id="Example2" class="example" markdown="1">
 <div class="title">
 Calculating the Temperature Difference Maintained by a Heat Transfer: Conduction Through an Aluminum Pan
 </div>
@@ -471,7 +471,7 @@ Suppose a person is covered head to foot by wool clothing with average thickness
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Some stove tops are smooth ceramic for easy cleaning. If the ceramic is 0.600 cm thick and heat conduction occurs through the same area and at the same rate as computed in [[link]](#fs-id2520944), what is the temperature difference across it? Ceramic has the same thermal conductivity as glass and brick.
+Some stove tops are smooth ceramic for easy cleaning. If the ceramic is 0.600 cm thick and heat conduction occurs through the same area and at the same rate as computed in [[Example 2]](#Example2), what is the temperature difference across it? Ceramic has the same thermal conductivity as glass and brick.
 
 </div>
 <div class="solution" markdown="1">
@@ -479,7 +479,7 @@ Some stove tops are smooth ceramic for easy cleaning. If the ceramic is 0.600 cm
 </div>
 </div>
 
-<div class="exercise" data-element-type="problems-exercises">
+<div id="Exercise12" class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 One easy way to reduce heating (and cooling) costs is to add extra insulation in the attic of a house. Suppose the house already had 15 cm of fiberglass insulation in the attic and in all the exterior surfaces. If you added an extra 8.0 cm of fiberglass to the attic, then by what percentage would the heating cost of the house drop? Take the single story house to be of dimensions 10 m by 15 m by 3.0 m. Ignore air infiltration and heat loss through windows and doors.
 
@@ -508,7 +508,7 @@ part (a).
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Many decisions are made on the basis of the payback period: the time it will take through savings to equal the capital cost of an investment. Acceptable payback times depend upon the business or philosophy one has. (For some industries, a payback period is as small as two years.) Suppose you wish to install the extra insulation in [[link]](#fs-id1935172). If energy cost  \$1.00 per million joules and the insulation was  \$4.00 per square meter, then calculate the simple payback time. Take the average  $$\Delta T $$
+Many decisions are made on the basis of the payback period: the time it will take through savings to equal the capital cost of an investment. Acceptable payback times depend upon the business or philosophy one has. (For some industries, a payback period is as small as two years.) Suppose you wish to install the extra insulation in [[Exercise 12]](#Exercise12). If energy cost  \$1.00 per million joules and the insulation was  \$4.00 per square meter, then calculate the simple payback time. Take the average  $$\Delta T $$
  for the 120 day heating season to be  $$15.0\text{ºC} $$.
 
 </div>

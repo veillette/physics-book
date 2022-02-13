@@ -459,17 +459,19 @@ What, if any, constraints does a value of  $${m}_{l}=1 $$
 </div>
 </div>
 
-<div class="exercise" data-element-type="problems-exercises">
+<div id="Exercise7" class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) What is the magnitude of the angular momentum for an  $$l=1 $$
- electron? (b) Calculate the magnitude of the electron’s spin angular momentum. (c) What is the ratio of these angular momenta?
+ electron? 
+(b) Calculate the magnitude of the electron’s spin angular momentum. 
+(c) What is the ratio of these angular momenta?
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Repeat [[link]](#fs-id2442300) for  $$l=3 $$.
+Repeat [[the previous exercise]](#Exercise7) for  $$l=3 $$.
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">

@@ -20,7 +20,7 @@ the term “molecule” in discussing a gas because the term can also be applied
 monatomic gases, such as helium.)
 
 Gases are easily compressed. We can see evidence of this
-in [[link]](../contents/ch13ThermalExpansionOfSolidsAndLiquids#import-auto-id1814176),
+in [[Table 1]](../contents/ch13ThermalExpansionOfSolidsAndLiquids#Table1),
 where you will note that gases have the *largest* coefficients of volume
 expansion. The large coefficients mean that gases expand and contract very
 rapidly with temperature changes. In addition, you will note that most gases
@@ -94,7 +94,7 @@ put into the tire. Once the volume of the tire is constant, the equation
 $$PV=Nk_{B}T $$ predicts that the pressure should increase in proportion to *the
 number N of atoms and molecules*.
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Calculating Pressure Changes Due to Temperature Changes: Tire Pressure
 </div>
@@ -170,7 +170,7 @@ Inflate a balloon at room temperature. Leave the inflated balloon in the refrige
 
 </div>
 
-<div class="example" markdown="1">
+<div id="Example2" class="example" markdown="1">
 <div class="title">
 Calculating the Number of Molecules in a Cubic Meter of Gas
 </div>
@@ -274,7 +274,7 @@ Then use Avogadro’s number to calculate the number of molecules.
 </div>
 </div>
 
-<div class="example" markdown="1">
+<div id="Example3" class="example" markdown="1">
 <div class="title">
 Calculating Moles per Cubic Meter and Liters per Mole
 </div>
@@ -284,7 +284,7 @@ Calculate: (a) the number of moles in  $$ 1.00 {\text{m}}^{3} $$
 **Strategy and Solution**
 
 (a) We are asked to find the number of moles per cubic meter, and we know
-from [[link]](#fs-id1843505) that the number of molecules per cubic meter at STP
+from [[Example 2]](#Example2) that the number of molecules per cubic meter at STP
 is $$ 2.68 \times 10^{25} $$ . The number of moles can be found by dividing the
 number of molecules by Avogadro’s number. We let $$n $$ stand for the number of
 moles,
@@ -375,7 +375,7 @@ You can use whichever value of  $$R $$
 
 </div>
 
-<div class="example" markdown="1">
+<div id="Example4" class="example" markdown="1">
 <div class="title">
 Calculating Number of Moles: Gas in a Bike Tire
 </div>
@@ -400,14 +400,15 @@ of moles $$n $$.
 2. Rearrange the equation to solve for  $$n $$  and substitute known values.
 
 <div class="equation" >
- $$\begin{array}{lll}n& =& \frac{PV}{RT}=\frac{\left( 7.00 \times 10^{5}  \text{Pa}\right)\left( 2.00 \times 10^{-3}  {\text{m}}^{3}\right)}{\left( 8.31 \text{J/mol}\cdot \text{K}\right)\left(291 \text{K}\right)}\\  & =&  0.579  \text{mol}\end{array} $$
+ $$\begin{array}{lll}n& =& \frac{PV}{RT}=\frac{\left( 7.00 \times 10^{5}  \text{Pa}\right)\left( 2.00 \times 10^{-3}  {\text{m}}^{3}\right)}{\left( 8.31 \text{J/mol}\cdot \text{K}\right)\left(291 \text{K}\right)}\\  
+ n & =&  0.579  \text{mol}\end{array} $$
 </div>
 **Discussion**
 
 The most convenient choice for $$R $$ in this case is $$ 8.31 \text{J/mol}\cdot
 \text{K} \text{,} $$ because our known quantities are in SI units. The pressure
 and temperature are obtained from the initial conditions
-in [[link]](#fs-id1667893), but we would get the same answer if we used the
+in [[Example 1]](#Example1), but we would get the same answer if we used the
 final values.
 
 </div>
@@ -569,7 +570,7 @@ The gauge pressure in your car tires is  $$ 2.50 \times 10^{5}  {\text{N/m}}^{2}
 Convert an absolute pressure of  $$ 7.00 \times 10^{5}  {\text{N/m}}^{2} $$
  to gauge pressure in  $${\text{lb/in}}^{2}\text{.} $$
  (This value was stated to be just less than  $$90.0 {\text{lb/in}}^{2} $$
- in [[link]](#fs-id1444855). Is it?)
+ in [[Example 4]](#Example4). Is it?)
 
 </div>
 </div>

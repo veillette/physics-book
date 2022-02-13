@@ -73,7 +73,7 @@ element in an environmental or biological sample.
 ![Different energy levels are shown in the form of horizontal lines. The line at the bottom shows the energy level for n is equal to one for the K shell. At a distance above this line, another horizontal line shows the energy level for n is equal to two for the shell L. Similarly, other lines are shown for the shells M and N. As we move from bottom to the top, the distance between the lines decreases, and near the end a few lines are shown very close to each other. Each level is labeled according to the characteristic x ray of the shell.](../resources/Figure_31_04_02aa.jpg "A characteristic x ray is emitted when an electron fills an inner-shell vacancy, as shown for several transitions in this approximate energy level diagram for a multiple-electron atom. Characteristic x rays are labeled according to the shell that had the vacancy and the shell from which the electron came. A \( K_\alpha \) x ray, for example, is produced when an electron coming from the \( n=2 \) shell fills the \( n=1 \) shell vacancy.")
 {: #Figure2}
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Characteristic X-Ray Energy
 </div>
@@ -229,7 +229,7 @@ computed tomography.
 ### X-Ray Diffraction and Crystallography
 
 Since x-ray photons are very energetic, they have relatively short wavelengths.
-For example, the 54.4-keV $${K}_{\alpha } $$ x ray of [[link]](#fs-id3053411)
+For example, the 54.4-keV $${K}_{\alpha } $$ x ray of [[Example 1]](#Example1)
 has a wavelength $$\lambda =hc/E=0.0228 \text{nm} $$ . Thus, typical x-ray
 photons act like rays when they encounter macroscopic objects, like teeth, and
 produce sharp shadows; however, since atoms are on the order of 0.1 nm in size,

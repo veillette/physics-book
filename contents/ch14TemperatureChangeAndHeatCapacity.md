@@ -60,7 +60,7 @@ raise the temperature of water as for iron. In fact, water has one of the
 largest specific heats of any material, which is important for sustaining life
 on Earth.
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Calculating the Required Heat: Heating Water in an Aluminum Pan
 </div>
@@ -135,7 +135,7 @@ given temperature change for the water as compared to the aluminum pan.
 ![The figure shows a truck coming from the left and moving on a road which is sloping downhill to the right. Smoke is coming from the area of the wheels of the truck.](../resources/Figure_15_02_02.jpg "The smoking brakes on this truck are a visible evidence of the mechanical equivalent of heat.")
 {: #Figure2}
 
-<div class="example" markdown="1">
+<div id="Example2" class="example" markdown="1">
 <div class="title">
 Calculating the Temperature Increase from the Work Done on a Substance: Truck Brakes Overheat on Downhill Runs
 </div>
@@ -304,11 +304,11 @@ electrical energy (battery).
             <td>0.363 (0.482)</td>
           </tr></tbody></table>
 
-Note that [[link]](#fs-id3101672) is an illustration of the mechanical
+Note that [[Example 2]](#Example2) is an illustration of the mechanical
 equivalent of heat. Alternatively, the temperature increase could be produced by
 a blow torch instead of mechanically.
 
-<div class="example" markdown="1">
+<div id="Example3" class="example" markdown="1">
 <div class="title">
 Calculating the Final Temperature When Heat Is Transferred Between Two Bodies: Pouring Cold Water in a Hot Pan
 </div>

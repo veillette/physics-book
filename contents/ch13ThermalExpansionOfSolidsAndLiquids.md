@@ -254,7 +254,7 @@ used.
           </tr>
         </tbody></table>
 
-<div class="example"  markdown="1">
+<div id="Example1" class="example"  markdown="1">
 <div class="title">
 Calculating Linear Thermal Expansion: The Golden Gate Bridge
 </div>
@@ -374,7 +374,7 @@ out much more quickly in the summer.
 
 </div>
 
-<div class="example" markdown="1">
+<div id="Example2" class="example" markdown="1">
 <div class="title">
 Calculating Thermal Expansion: Gas vs. Gas Tank
 </div>
@@ -438,11 +438,11 @@ allowing the combination to cool. Thermal stress can explain many phenomena,
 such as the weathering of rocks and pavement by the expansion of ice when it
 freezes.
 
-<div class="example" markdown="1">
+<div id="Example3" class="example" markdown="1">
 <div class="title">
 Calculating Thermal Stress: Gas Pressure
 </div>
-What pressure would be created in the gasoline tank considered in [[link]](#fs-id2168201), if the gasoline increases in temperature from  $$ 15.0\text{ºC} $$
+What pressure would be created in the gasoline tank considered in [[Example 2]](#Example2), if the gasoline increases in temperature from  $$ 15.0\text{ºC} $$
  to  $$ 35.0\text{ºC} $$
  without being allowed to expand? ** Assume that the bulk modulus  $$B $$
  for gasoline is  $$ 1.00 \times 10^{9}  {\text{N/m}}^{2} $$ .
@@ -458,7 +458,7 @@ change in volume $$\Delta V $$ to pressure:
 </div>
 where  $$F/A $$  is pressure,  $${V}_{0} $$
  is the original volume, and  $$B $$
- is the bulk modulus of the material involved. We will use the amount spilled in [[link]](#fs-id2168201) as the change in volume,  $$\Delta V $$.
+ is the bulk modulus of the material involved. We will use the amount spilled in [[Example 2]](#Example2) as the change in volume,  $$\Delta V $$.
 
 **Solution**
 
@@ -676,7 +676,7 @@ Global warming will produce rising sea levels partly due to melting ice caps but
 <div class="problem" markdown="1">
 Show that 60.0 L of gasoline originally at  $$ 15.0\text{ºC} $$
  will expand to 61.1 L when it warms to  $$ 35.0\text{ºC} \text{,}  $$
- as claimed in [[link]](#fs-id2168201).
+ as claimed in [[Example 2]](#Example2).
 
 </div>
 <div class="solution">

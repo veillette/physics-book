@@ -74,7 +74,7 @@ perhaps in cartoons). Compton saw the effects of photon momentum because he was
 observing x rays, which have a small wavelength and a relatively large momentum,
 interacting with the lightest of particles, the electron.
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Electron and Photon Momentum Compared
 </div>
@@ -181,7 +181,7 @@ photon. Substituting this into $$p=E/c $$ yields
 
 as determined experimentally and discussed above. Thus, $$p=E/c $$ is equivalent
 to Compton’s result $$p=h/\lambda $$ . For a further verification of the
-relationship between photon energy and momentum, see [[link]](#fs-id1263181).
+relationship between photon energy and momentum, see [[Example 2]](#Example2).
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -191,16 +191,16 @@ Almost all detection systems talked about thus far—eyes, photographic plates, 
 
 </div>
 
-<div class="example" markdown="1">
+<div id="Example2" class="example" markdown="1">
 <div class="title">
 Photon Energy and Momentum
 </div>
 Show that  $$p=E/c $$
- for the photon considered in the [[link]](#fs-id2284392).
+ for the photon considered in the [[Example 1]](#Example1).
 
 **Strategy**
 
-We will take the energy $$E $$ found in [[link]](#fs-id2284392), divide it by
+We will take the energy $$E $$ found in [[Example 1]](#Example1), divide it by
 the speed of light, and see if the same momentum is obtained as before.
 
 **Solution**
@@ -378,7 +378,7 @@ which is consistent with the equation for photon energy.
 <div class="problem" markdown="1">
 **Construct Your Own Problem**
 
-Consider a space sail such as mentioned in [[link]](#fs-id2284392). Construct a
+Consider a space sail such as mentioned in [[Example 1]](#Example1). Construct a
 problem in which you calculate the light pressure on the sail in
 $${\text{N/m}}^{2} $$ produced by reflecting sunlight. Also calculate the force
 that could be produced and how much effect that would have on a spacecraft.

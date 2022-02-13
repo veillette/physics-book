@@ -119,7 +119,7 @@ decayed is shorter. Those points are fixed relative to the Earth but moving
 relative to the muon. Clouds and other objects are also contracted along the
 direction of motion in the muon’s reference frame.
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Calculating Length Contraction: The Distance between Stars Contracts when You Travel at High Velocity
 </div>
@@ -208,7 +208,7 @@ they know forever. Even if they returned, thousands to millions of years would
 have passed on the Earth, obliterating most of what now exists. There is also a
 more serious practical obstacle to traveling at such velocities; immensely
 greater energies than classical physics predicts would be needed to achieve such
-high velocities. This will be discussed in [Relatavistic Energy](../contents/ch28RelativisticEnergy).
+high velocities. This will be discussed in [Relativistic Energy](../contents/ch28RelativisticEnergy).
 
 Why don’t we notice length contraction in everyday life? The distance to the
 grocery shop does not seem to depend on whether we are moving or not. Examining
@@ -311,7 +311,7 @@ How fast would a 6.0 m-long sports car have to be going past you in order for it
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-(a) How far does the muon in [[link]](../contents/ch28SimultaneityAndTimeDilation#fs-id3081310) travel according to the Earth-bound observer? (b) How far does it travel as viewed by an observer moving with it? Base your calculation on its velocity relative to the Earth and the time it lives (proper time). (c) Verify that these two distances are related through length contraction  $$\text{γ=} 3.20 $$.
+(a) How far does the muon in [[Example 1]](../contents/ch28SimultaneityAndTimeDilation#Example1) travel according to the Earth-bound observer? (b) How far does it travel as viewed by an observer moving with it? Base your calculation on its velocity relative to the Earth and the time it lives (proper time). (c) Verify that these two distances are related through length contraction  $$\text{γ=} 3.20 $$.
 
 </div>
 <div class="solution" markdown="1">
@@ -328,15 +328,14 @@ in parts (a) and (b) are related when $$\gamma =3.20 $$.
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-(a) How long would the muon in [[link]](../contents/ch28SimultaneityAndTimeDilation#fs-id3081310) have lived as observed on the Earth if its velocity was  $$ 0.0500c $$ ?
+(a) How long would the muon in [[Example 1]](../contents/ch28SimultaneityAndTimeDilation#Example1) have lived as observed on the Earth if its velocity was  $$ 0.0500c $$ ?
  (b) How far would it have traveled as observed on the Earth? (c) What distance is this in the muon’s frame?
 
 </div>
 </div>
-
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-(a) How long does it take the astronaut in [[link]](#fs-id2555827) to travel 4.30 ly at  $$0.99944c $$
+(a) How long does it take the astronaut in [[Example 1]](#Example1) to travel 4.30 ly at  $$0.99944c $$
  (as measured by the Earth-bound observer)? (b) How long does it take according to the astronaut? (c) Verify that these two times are related through time dilation with  $$\text{γ}= 30.00  $$
  as given.
 

@@ -147,7 +147,7 @@ referred to as electron clouds or orbitals. The shapes of these orbitals are
 often shown in general chemistry texts and are discussed
 in [The Wave Nature of Matter Causes Quantization](../contents/ch30TheWaveNatureOfMatterCausesQuantization).
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Heisenberg Uncertainty Principle in Position and Momentum for an Atom
 </div>
@@ -232,10 +232,10 @@ is not possible to measure energy precisely—there will be an uncertainty
 $$\Delta E $$ in the measurement. In order to measure energy more precisely (to
 make $$\Delta E $$ smaller), we must increase $$\Delta t $$ . This time interval
 may be the amount of time we take to make the measurement, or it could be the
-amount of time a particular state exists, as in the next [[link]](#fs-id1442581)
+amount of time a particular state exists, as in the next [[Example 2]](#Example2)
 .
 
-<div class="example" markdown="1">
+<div id="Example2" class="example" markdown="1">
 <div class="title">
 Heisenberg Uncertainty Principle for Energy and Time for an Atom
 </div>
