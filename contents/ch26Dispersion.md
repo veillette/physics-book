@@ -175,7 +175,7 @@ How does a lens form an image? See how light rays are refracted by a lens. Watch
 
 {: class="newline"}
 
-<div class="media" id="Phet_module_26.5" data-alt="">
+<div class="media" id="PhET_module" data-alt="">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/geometric-optics/latest/geometric-optics_en.html"></iframe>
 </div>
 </div>

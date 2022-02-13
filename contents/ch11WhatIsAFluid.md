@@ -70,7 +70,7 @@ PhET Explorations: States of Matter—Basics
 Heat, cool, and compress atoms and molecules and watch as they change between solid, liquid, and gas phases.
 {: class="newline"}
 
-<div class="media" id="Phet_module_12.1" data-alt="states of matter">
+<div class="media" id="PhET_module" data-alt="states of matter">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/states-of-matter-basics/latest/states-of-matter-basics_en.html"></iframe>
 </div>
 </div>

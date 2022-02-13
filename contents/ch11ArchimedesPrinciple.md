@@ -381,7 +381,7 @@ PhET Explorations: Density
 When will objects float and when will they sink? Learn how buoyancy works with blocks. 
 You can modify the properties of the blocks d the fluid.
 
-<div class="media" id="Phet_module_12.7" data-alt="buoyancy">
+<div class="media" id="PhET_module" data-alt="buoyancy">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/density/latest/density_en.html"></iframe>
 </div>
 </div>

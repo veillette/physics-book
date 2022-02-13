@@ -454,7 +454,7 @@ PhET Explorations: Reversible Reactions
 </div>
 Watch a reaction proceed over time. How does total energy affect a reaction rate? Vary temperature, barrier height, and potential energies. Record concentrations and time in order to extract rate coefficients. Do temperature dependent studies to extract Arrhenius parameters. This simulation is best used with teacher guidance because it presents an analogy of chemical reactions.
 
-<div class="media" id="Phet_module_16.6" data-alt="Reversible Reactions">
+<div class="media" id="PhET_module" data-alt="Reversible Reactions">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/cheerpj/ideal-gas/latest/ideal-gas.html?simulation=reversible-reactions"></iframe>
 </div>
 </div>

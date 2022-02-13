@@ -102,10 +102,8 @@ quark:
                $$B $$                
 <sup class="footnote-number" id="footnote-ref2"><a class="footnote-link" href="#footnote2">2</a></sup> 
             </th>
-
             <th>
-               $$S $$ 
-
+               $$S $$
             </th>
             <th>
                $$c $$ 
@@ -117,11 +115,9 @@ quark:
                $$t $$ 
             </th>
             <th>
-              Mass  $$\left(\text{GeV}/{c}^{2}\right) $$<sup class="footnote-number" id="footnote-ref3"><a class="footnote-link" href="#footnote3">3</a></sup> 
-            
+              Mass  $$\left(\text{GeV}/{c}^{2}\right) $$<sup class="footnote-number" id="footnote-ref3"><a class="footnote-link" href="#footnote3">3</a></sup>
             </th>
           </tr>
-
 </thead><tbody>
 <tr>
             <td>Up</td>

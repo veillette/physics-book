@@ -393,7 +393,7 @@ PhET Explorations: Circuit Construction Kit (AC+DC), Virtual Lab
 </div>
 Build circuits with capacitors, inductors, resistors and AC or DC voltage sources, and inspect them using lab instruments such as voltmeters and ammeters.
 
-<div class="media" id="Phet_module_24.12" data-alt="">
+<div class="media" id="PhET_module" data-alt="">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/circuit-construction-kit-ac/latest/circuit-construction-kit-ac_en.html"></iframe>
 </div>
 </div>

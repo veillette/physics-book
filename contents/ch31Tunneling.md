@@ -87,7 +87,7 @@ PhET Explorations: Quantum Tunneling and Wave Packets
 </div>
 Watch quantum \"particles\" tunnel through barriers. Explore the properties of the wave functions that describe these particles.
 
-<div class="media" id="Phet_module_32.7" data-alt="Quantum Tunneling">
+<div class="media" id="PhET_module" data-alt="Quantum Tunneling">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/cheerpj/quantum-tunneling/latest/quantum-tunneling.html?simulation=quantum-tunneling"></iframe>
 </div>
 </div>
