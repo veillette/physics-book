@@ -285,7 +285,7 @@ angle, a large change in speed causes a large change in direction, and thus a
 large change in angle. The exact mathematical relationship is the **law of
 refraction**, or “Snell’s Law,” which is stated in equation form as
 
-<div class="equation" id="import-auto-id1163675081185">
+<div class="equation" >
  $${n}_{1} \sin {\theta }_{1}={n}_{2} \sin {\theta }_{2}. $$
 </div>
 
@@ -306,7 +306,7 @@ direction.
 <div class="title">
 The Law of Refraction
 </div>
-<div class="equation" id="import-auto-id1163675081287">
+<div class="equation" >
  $${n}_{1} \sin {\theta }_{1}={n}_{2} \sin {\theta }_{2} $$
 </div>
 </div>
@@ -391,7 +391,7 @@ Entering known values,
 </div>
 The angle is thus
 
-<div class="equation" id="import-auto-id1163675081869">
+<div class="equation" >
  $${\theta }_{2}={\sin}^{-1} 0.207= 11.9º. $$
 </div>
 **Discussion**

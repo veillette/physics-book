@@ -480,7 +480,7 @@ Every few years, winds in Boulder, Colorado, attain sustained speeds of 45.0 m/s
 <div class="problem" markdown="1">
 (a) Using Bernoulli’s equation, show that the measured fluid speed $$v $$ for a pitot tube, like the one in [[Figure 3]](#Figure3)(b), is given by
 
-<div class="equation" id="import-auto-id1082406">
+<div class="equation" >
  $$v={\left(\frac{2\rho^{\prime} gh}{\rho }\right)}^{1/2}, $$
 </div>
 where  $$h $$

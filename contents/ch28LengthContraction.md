@@ -51,7 +51,7 @@ depends on who measures it and how they are moving relative to it.
 <div class="title">
 Proper Length
 </div>
-<strong class="term" id="import-auto-id2712476">Proper length </strong> $${L}_{0} $$
+<strong class="term" >Proper length </strong> $${L}_{0} $$
  is the distance between two points measured by an observer who is at rest relative to both of the points.
 
 </div>
@@ -103,7 +103,7 @@ by different observers.
 <div class="title">
 **Length Contraction**
 </div>
-<strong class="term" id="import-auto-id2546857">Length contraction </strong> $$L $$
+<strong class="term" >Length contraction </strong> $$L $$
  is the shortening of the measured length of an object moving relative to the observer’s frame.
 
 <div class="equation" >

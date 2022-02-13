@@ -276,7 +276,7 @@ If the dark matter in the Milky Way were composed entirely of MACHOs (evidence s
 
 </div>
 <div class="solution" data-element-type="problems-exercises">
-<div class="equation" id="import-auto-id1169737961439">
+<div class="equation" >
  $$ 1.5 \times 10^{15} $$
 </div>
 </div>
@@ -301,7 +301,7 @@ Assume the average density of the universe is 0.1 of the critical density needed
 
 </div>
 <div class="solution" data-element-type="problems-exercises">
-<div class="equation" id="import-auto-id1169738029304">
+<div class="equation" >
  $$ 0.6{m}^{-3} $$
 </div>
 </div>

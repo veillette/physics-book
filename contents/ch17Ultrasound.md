@@ -85,7 +85,7 @@ tissues and organs may be deduced.
 
 Reflections at boundaries between two different media occur because of
 differences in a characteristic known as
-the <strong class="term" id="import-auto-id3007118">acoustic impedance </strong>
+the <strong class="term" >acoustic impedance </strong>
 $$Z $$ of each substance. Impedance is defined as
 
 <div class="equation" >

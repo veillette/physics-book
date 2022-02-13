@@ -31,7 +31,7 @@ if the average velocity of molecules is higher. The actual relationship is
 derived in the [Things Great and Small](#fs-id1855032) feature below. The
 following relationship is found:
 
-<div class="equation" id="import-auto-id2724876">
+<div class="equation" >
  $$PV=\frac{1}{3}N m\overline{ {v}^{2}}, $$
 </div>
 
@@ -45,14 +45,14 @@ We can derive a relationship between temperature and the average translational
 kinetic energy of molecules in a gas. Recall the previous expression of the
 ideal gas law:
 
-<div class="equation" id="import-auto-id1668609">
+<div class="equation" >
  $$PV=Nk_{B}T. $$
 </div>
 
 Equating the right-hand side of this equation with the right-hand side of
 $$PV=\frac{1}{3}N m\overline{ {v}^{2}} $$ gives
 
-<div class="equation" id="import-auto-id1856370">
+<div class="equation" >
  $$\frac{1}{3}N m\overline{ {v}^{2}}=Nk_{B}T. $$
 </div>
 
@@ -82,7 +82,7 @@ changes from $$-mv_{x} $$ to $$+mv_{x} $$ . Thus, its change in momentum is
 $$\Delta mv = + mv_{x}-\left(-mv_{x}\right)=2mv_{x} $$ . The force exerted on
 the molecule is given by
 
-<div class="equation" id="import-auto-id1168465433118">
+<div class="equation" >
  $$F=\frac{\Delta p}{\Delta t}=\frac{2mv_{x}}{\Delta t}\text{.} $$
 </div>
 There is no force between the wall and the molecule until the molecule hits the wall. During the short time of the collision, the force between the molecule and wall is relatively large. We are looking for an average force; we take  $$\Delta t $$
@@ -91,51 +91,51 @@ There is no force between the wall and the molecule until the molecule hits the 
  Thus  $$\Delta t=2l/{v}_{x} $$ ,
  and the expression for the force becomes
 
-<div class="equation" id="import-auto-id1168465439413">
+<div class="equation" >
  $$F=\frac{2mv_{x}}{2l/{v}_{x}}=\frac{ mv_{x}^{2}}{l}\text{.} $$
 </div>
 This force is due to *one* molecule. We multiply by the number of molecules  $$N $$
  and use their average squared velocity to find the force
 
-<div class="equation" id="import-auto-id1168465426507">
+<div class="equation" >
  $$F=N\frac{m\overline{ {v}_{x}^{2}}}{l}, $$
 </div>
 where the bar over a quantity means its average value. We would like to have the force in terms of the speed  $$v $$ ,
  rather than the  $$x $$
 -component of the velocity. We note that the total velocity squared is the sum of the squares of its components, so that
 
-<div class="equation" id="import-auto-id2678150">
+<div class="equation" >
  $$\overline{ {v}^{2}}=\overline{ {v}_{x}^{2}}+\overline{ {v}_{y}^{2}}+\overline{ {v}_{z}^{2}}\text{.} $$
 </div>
 Because the velocities are random, their average components in all directions are the same:
 
-<div class="equation" id="import-auto-id2722120">
+<div class="equation" >
  $$\overline{ {v}_{x}^{2}}=\overline{ {v}_{y}^{2}}=\overline{ {v}_{z}^{2}}\text{.} $$
 </div>
 Thus,
 
-<div class="equation" id="import-auto-id2710051">
+<div class="equation" >
  $$\overline{ {v}^{2}}=3\overline{ {v}_{x}^{2}}, $$
 </div>
 or
 
-<div class="equation" id="import-auto-id1168465438621">
+<div class="equation" >
  $$\overline{ {v}_{x}^{2}}=\frac{1}{3}\overline{ {v}^{2}}. $$
 </div>
 Substituting  $$\frac{1}{3}\overline{ {v}^{2}} $$
  into the expression for  $$F $$  gives
 
-<div class="equation" id="import-auto-id1168465431989">
+<div class="equation" >
  $$F=N\frac{m\overline{ {v}^{2}}}{3l}\text{.} $$
 </div>
 The pressure is  $$F/A, $$  so that we obtain
 
-<div class="equation" id="import-auto-id1168465432010">
+<div class="equation" >
  $$P=\frac{F}{A}=N\frac{m\overline{ {v}^{2}}}{3 A l}=\frac{1}{3}\frac{\text{Nm}\overline{ {v}^{2}}}{V}, $$
 </div>
 where we used  $$V= A l  $$  for the volume. This gives the important result.
 
-<div class="equation" id="import-auto-id1168465435715">
+<div class="equation" >
  $$PV=\frac{1}{3}\text{Nm}\overline{ {v}^{2}} $$
 </div>
 This equation is another expression of the ideal gas law.
@@ -147,7 +147,7 @@ from the right-hand side of the equation by canceling $$N $$ and multiplying by
 3/2. This calculation produces the result that the average kinetic energy of a
 molecule is directly related to absolute temperature.
 
-<div class="equation" id="import-auto-id1437306">
+<div class="equation" >
  $$\overline{\text{KE}}=\frac{1}{2}m\overline{ {v}^{2}}=\frac{3}{2}k_{B}T $$
 </div>
 
@@ -163,7 +163,7 @@ $$\overline{\text{KE}}=\frac{1}{2}m\overline{ {v}^{2}}=\frac{3}{2}k_{B}T $$
 **,** and solve for the average speed of molecules in a gas in terms of
 temperature,
 
-<div class="equation" id="import-auto-id1168465432540">
+<div class="equation" >
  $$\sqrt{\overline{ {v}^{2}}}={v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}, $$
 </div>
 
@@ -181,7 +181,7 @@ Calculating Kinetic Energy and Speed of a Gas Molecule
 
 The known in the equation for the average kinetic energy is the temperature.
 
-<div class="equation" id="import-auto-id1168465432340">
+<div class="equation" >
  $$\overline{\text{KE}}=\frac{1}{2}m\overline{ {v}^{2}}=\frac{3}{2}k_{B}T $$
 </div>
 Before substituting values into this equation, we must convert the given temperature to kelvins. This conversion gives  $$T=\left( 20.0+273\right) \text{K = 293} \text{K}. $$
@@ -191,7 +191,7 @@ The temperature alone is sufficient to find the average translational kinetic
 energy. Substituting the temperature into the translational kinetic energy
 equation gives
 
-<div class="equation" id="import-auto-id1168465431659">
+<div class="equation" >
  $$\overline{\text{KE}}=\frac{3}{2}k_{B}T=\frac{3}{2}\left( 1.38 \times 10^{-23}  \text{J/K}\right)\left(293 \text{K}\right)= 6.07 \times 10^{-21}  \text{J}\text{.} $$
 </div>
 **Strategy for (b)**
@@ -199,13 +199,13 @@ equation gives
 Finding the rms speed of a nitrogen molecule involves a straightforward
 calculation using the equation
 
-<div class="equation" id="import-auto-id1168465431854">
+<div class="equation" >
  $$\sqrt{\overline{ {v}^{2}}}={v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}, $$
 </div>
 but we must first find the mass of a nitrogen molecule. Using the molecular mass of nitrogen  $${\text{N}}_{2} $$
  from the periodic table,
 
-<div class="equation" id="import-auto-id1168465431776">
+<div class="equation" >
  $$m=\frac{2\left( 14.0067 \right) \times 10^{-3}  \text{kg/mol}}{ 6.02 \times 10^{23}  {\text{mol}}^{-1}}= 4.65 \times 10^{-26}  \text{kg}\text{.} $$
 </div>
 **Solution for (b)**
@@ -213,7 +213,7 @@ but we must first find the mass of a nitrogen molecule. Using the molecular mass
 Substituting this mass and the value for $$k $$ into the equation for $${v}_
 {\text{rms}} $$ yields
 
-<div class="equation" id="import-auto-id3108905">
+<div class="equation" >
  $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}=\sqrt{\frac{3\left( 1.38 \times 10^{-23} \text{J/K}\right)\left(293 \text{K}\right)}{ 4.65 \times 10^{-26} \text{kg}}}=511 \text{m/s}\text{.} $$
 </div>
 **Discussion**
@@ -298,21 +298,21 @@ the problem.
 * To solve for mass $$m $$ of the helium atom, we can use information from the
   periodic table:
 
-  <div class="equation" id="import-auto-id1168465438861">
+  <div class="equation" >
    $$m=\frac{\text{molar mass}}{\text{number of atoms per mole}}. $$
   </div>
 
 * To solve for temperature $$T $$ , we can rearrange either
 
-  <div class="equation" id="import-auto-id1168465438916">
+  <div class="equation" >
    $$\overline{\text{KE}}=\frac{1}{2}m\overline{ {v}^{2}}=\frac{3}{2}k_{B}T $$
   </div>
      or   
-  <div class="equation" id="import-auto-id1168465438957">
+  <div class="equation" >
    $$\sqrt{\overline{ {v}^{2}}}={v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}} $$
   </div>
      to yield   
-  <div class="equation" id="import-auto-id1168465438978">
+  <div class="equation" >
    $$T=\frac{m\overline{ {v}^{2}}}{3k}, $$
   </div>
      where
@@ -321,10 +321,10 @@ the problem.
 
 4. Plug the known values into the equations and solve for the unknowns.
 
-<div class="equation" id="import-auto-id1168465439144">
+<div class="equation" >
  $$m=\frac{\text{molar mass}}{\text{number of atoms per mole}}=\frac{ 4.0026 \times 10^{-3}  \text{kg/mol}}{ 6.02 \times 10^{23}  \text{mol}}= 6.65 \times 10^{-27}  \text{kg} $$
 </div>
-<div class="equation" id="import-auto-id3423579">
+<div class="equation" >
  $$T=\frac{\left( 6.65 \times 10^{-27}  \text{kg}\right){\left( 11.1 \times 10^{3}  \text{m/s}\right)}^{2}}{3\left( 1.38 \times 10^{-23}  \text{J/K}\right)}= 1.98 \times 10^{4}\text{K} $$
 </div>
 **Discussion**
@@ -386,7 +386,7 @@ Pump gas molecules into a box and see what happens as you change the volume, add
   motion of atoms and molecules.
 * The ideal gas law can also be expressed as
 
-  <div class="equation" id="import-auto-id1168465434779">
+  <div class="equation" >
    $$PV=\frac{1}{3} N m \overline{ {v}^{2}}, $$
   </div>
      where
@@ -399,11 +399,11 @@ Pump gas molecules into a box and see what happens as you change the volume, add
   $$\overline{\text{KE}} $$ of an atom or molecule.
 * The temperature of gases is proportional to the average translational kinetic
   energy of atoms and molecules.
-  <div class="equation" id="import-auto-id1168465434968">
+  <div class="equation" >
    $$\overline{\text{KE}}=\frac{1}{2}m\overline{ {v}^{2}}=\frac{3}{2}k_{B}T $$
   </div>
      or   
-  <div class="equation" id="import-auto-id1168465434976">
+  <div class="equation" >
    $$\sqrt{\overline{ {v}^{2}}}={v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}\text{.} $$
   </div>
 

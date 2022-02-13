@@ -387,7 +387,7 @@ Verify that a  $$ 2.3 \times 10^{17}  \text{kg} $$
 
 </div>
 <div class="solution">
-<div class="equation" id="import-auto-id1365916">
+<div class="equation" >
  $$\begin{array}{lll}m=\mathrm{\rho V}=\rho d^{3}& ⇒& a={\left(\frac{m}{\rho }\right)}^{1/3}={\left(\frac{ 2.3 \times 10^{17}  \text{kg}}{1000 {\text{kg/m}}^{3}}\right)}^{\frac{1}{3}}\\ & =& 61 \times 10^{3}  \text{m}=61 \text{km}\end{array} $$
 </div>
 </div>

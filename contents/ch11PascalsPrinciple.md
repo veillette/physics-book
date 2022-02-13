@@ -207,12 +207,12 @@ A certain hydraulic system is designed to exert a force 100 times as large as th
 (a)  $$V={d}_{\text{i}}{A}_{\text{i}}={d}_{\text{o}}{A}_{\text{o}}⇒{d}_{\text{o}}={d}_{\text{i}}\left(\frac{ {A}_{\text{i}}}{ {A}_{\text{o}}}\right)\text{.} $$
 Now, using equation:
 
-<div class="equation" id="import-auto-id2025820">
+<div class="equation" >
  $$\frac{ {F}_{1}}{ {A}_{1}}=\frac{ {F}_{2}}{ {A}_{2}}⇒{F}_{\text{o}}={F}_{\text{i}}\left(\frac{ {A}_{\text{o}}}{ {A}_{\text{i}}}\right)\text{.} $$
 </div>
 Finally,
 
-<div class="equation" id="import-auto-id2968697">
+<div class="equation" >
  $${W}_{\text{o}}={F}_{\text{o}}{d}_{\text{o}}=\left(\frac{ {F}_{\text{i}}{A}_{\text{o}}}{ {A}_{\text{i}}}\right)\left(\frac{ {d}_{\text{i}}{A}_{\text{i}}}{ {A}_{\text{o}}}\right)={F}_{\text{i}}{d}_{\text{i}}={W}_{\text{i}}. $$
 </div>
 In other words, the work output equals the work input.

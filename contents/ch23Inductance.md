@@ -231,7 +231,7 @@ stored in a magnetic field. It takes time to build up energy, and it also takes
 time to deplete energy; hence, there is an opposition to rapid change. In an
 inductor, the magnetic field is directly proportional to current and to the
 inductance of the device. It can be shown that
-the <strong class="term" id="import-auto-id1169738257075">energy stored in an
+the <strong class="term" >energy stored in an
 inductor </strong> $${E}_{\text{ind}} $$ is given by
 
 <div class="equation" >

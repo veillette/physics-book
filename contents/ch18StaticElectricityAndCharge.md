@@ -109,7 +109,7 @@ smallest bit of charge. There is no directly observed charge smaller than $$\mid
 see [Things Great and Small: The Submicroscopic Origin of Charge](#Note1))
 , and all observed charges are integral multiples of $$\mid {q}_{e}\mid $$.
 
-<div id="Note1" class="note" data-has-label="true" id="import-auto-id2044673" data-label="" markdown="1">
+<div id="Note1" class="note" data-has-label="true"  data-label="" markdown="1">
 <div class="title">
 Things Great and Small: The Submicroscopic Origin of Charge
 </div>

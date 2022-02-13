@@ -125,7 +125,7 @@ Earth-bound observer.
 <div class="title">
 **Proper Time**
 </div>
-<strong class="term" id="import-auto-id2705807">Proper time </strong> $$\Delta {t}_{0} $$
+<strong class="term" >Proper time </strong> $$\Delta {t}_{0} $$
  is the time measured by an observer at rest relative to the event being observed.
 
 </div>
@@ -252,8 +252,8 @@ Suppose a cosmic ray colliding with a nucleus in the Earth’s upper atmosphere 
 ![A muon is moving far above the earth. A teenage boy is looking towards the muon. A velocity vector arrow V starting from Muon is pointing toward the boy. A clock depicting time delta-t-zero is shown near the muon, and another time clock depicting the time delta-t is shown near the boy.](../resources/Figure_29_02_04a.jpg "A muon in the Earth&#x2019;s atmosphere lives longer as measured by an Earth-bound observer than measured by the muon&#x2019;s internal clock.")
 {: #Figure3}
 
-<!--  <figure markdown="1" id="import-auto-id3158056">
-        <media id="import-auto-id2550251" alt="A muon is place far above the earth. A teenage boy is looking towards the muon. A velocity vector arrow V starting from Muon is pointing toward the boy. A clock depicting time delta-t-zero is shown near the muon, and another time clock depicting the time delta-t is shown near the boy.">
+<!--  <figure markdown="1" >
+        <media  alt="A muon is place far above the earth. A teenage boy is looking towards the muon. A velocity vector arrow V starting from Muon is pointing toward the boy. A clock depicting time delta-t-zero is shown near the muon, and another time clock depicting the time delta-t is shown near the boy.">
           <image mime-type="image/jpg" src="Picture 19.jpg" height="217" width="141"/>
         </media>
       </figure>-->

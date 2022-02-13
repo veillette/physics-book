@@ -94,7 +94,7 @@ $${v}_{\text{w}}=\frac{\lambda }{T} $$ to find the wave velocity.
 
 1. Enter the known values into $${v}_{\text{w}}=\frac{\lambda }{T} $$     
    \:
-   <div class="equation" id="import-auto-id3026908">
+   <div class="equation" >
     $${v}_{\text{w}}=\frac{10.0 \text{m}}{5.00\text{ s}}. $$
    </div>
 
@@ -210,7 +210,7 @@ Storms in the South Pacific can create waves that travel all the way to the Cali
 
 </div>
 <div class="solution">
-<div class="equation" id="import-auto-id3072490">
+<div class="equation" >
  $$t=9.26 \text{d} $$
 </div>
 </div>

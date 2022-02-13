@@ -371,7 +371,7 @@ What frequency is received by a mouse just before being dispatched by a hawk fly
 
 </div>
 <div class="solution" data-element-type="problems-exercises">
-<div class="equation" id="import-auto-id1429595">
+<div class="equation" >
  $$3.79 \times 10^{3}  \text{Hz} $$
 </div>
 </div>

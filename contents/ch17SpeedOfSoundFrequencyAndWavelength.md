@@ -351,7 +351,7 @@ Show that the speed of sound in  $$20.0 \text{ºC} $$
 
 </div>
 <div class="solution" data-element-type="problems-exercises">
-<div class="equation" id="import-auto-id3089366">
+<div class="equation" >
  $$\begin{array}{lll}{v}_{\text{w}}& =& \left(331 \text{m/s}\right)\sqrt{\frac{T}{273 \text{K}}}=\left(331 \text{m/s}\right)\sqrt{\frac{293 \text{K}}{273 \text{K}}}\\ & =& 343 \text{m/s}\end{array} $$
 </div>
 </div>

@@ -365,15 +365,15 @@ Give reasons justifying the contention made in the text that energy from the fus
 Verify that the total number of nucleons, total charge, and electron family number are conserved for each of the fusion reactions in the proton-proton cycle in 
 {: class="newline"}
 
-<div class="equation" id="import-auto-id2615447">
+<div class="equation" >
  $${}^{1}\text{H}+{}^{1}\text{H}\to {}^{2}\text{H}+{e}^{+}+{v}_{\text{e}}, $$
 </div>
-<div class="equation" id="import-auto-id2622168">
+<div class="equation" >
  $${}^{1}\text{H}+{}^{2}\text{H}\to {}^{3}\text{He}+\gamma , $$
 </div>
 and
 
-<div class="equation" id="import-auto-id1361870">
+<div class="equation" >
  $${}^{3}\text{He}+{}^{3}\text{He}\to {}^{4}\text{He}+{}^{1}\text{H}+{}^{1}\text{H}. $$
 </div>
 (List the value of each of the conserved quantities before and after each of the reactions.)
@@ -504,7 +504,7 @@ interacts, since large detectors observe very few per day.
 Another set of reactions that result in the fusing of hydrogen into helium in the Sun and especially in hotter stars is called the carbon cycle. It is 
 {: class="newline"}
 
-<div class="equation" id="import-auto-id1429049">
+<div class="equation" >
  $$\begin{array}{lll}{}^{12}\text{C}+{}^{1}\text{H}& \to & {}^{13}\text{N}+\gamma ,\\ {}^{13}\text{N}& \to & {}^{13}\text{C}+{e}^{+}+{\nu}_{e},\\ {}^{13}\text{C}+{}^{1}\text{H}& \to & {}^{14}\text{N}+\gamma ,\\ {}^{14}\text{N}+{}^{1}\text{H}& \to & {}^{15}\text{O}+\gamma ,\\  {}^{15}\text{O}& \to & {}^{15}\text{N}+{e}^{+}+{\nu}_{e},\\ {}^{15}\text{N}+{}^{1}\text{H}& \to & {}^{12}\text{C}+{}^{4}\text{He} \text{.} \end{array} $$
 </div>
 Write down the overall effect of the carbon cycle (as was done for the proton-proton cycle in  $$2{e}^{-}+4{}^{1}\text{H}\to {}^{4}\text{He}+{2v}_{e}+6\gamma  $$ ).

@@ -463,7 +463,7 @@ On a hot day, the temperature of an 80 000-L swimming pool increases by  $$1.50\
 
 </div>
 <div class="solution" data-element-type="problems-exercises">
-<div class="equation" id="import-auto-id1418923">
+<div class="equation" >
  $$ 5.02 \times 10^{8}  \text{J} $$
 </div>
 </div>
@@ -484,7 +484,7 @@ To sterilize a 50.0-g glass baby bottle, we must raise its temperature from  $$ 
 
 </div>
 <div class="solution" data-element-type="problems-exercises">
-<div class="equation" id="import-auto-id3119571">
+<div class="equation" >
  $$3.07 \times 10^{3}  \text{J} $$
 </div>
 </div>
@@ -504,7 +504,7 @@ Rubbing your hands together warms them by converting work into thermal energy. I
 
 </div>
 <div class="solution" data-element-type="problems-exercises">
-<div class="equation" id="import-auto-id1357751">
+<div class="equation" >
  $$0.171\text{ºC} $$
 </div>
 </div>

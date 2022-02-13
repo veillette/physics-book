@@ -242,7 +242,7 @@ a total is obtained can be applied to larger combinations of capacitors.
   identify series and parallel parts, compute their capacitances, and then find
   the total.
 
-### Conceptual Questions {#import-auto-id2559751}
+### Conceptual Questions 
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">

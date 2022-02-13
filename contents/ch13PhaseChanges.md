@@ -44,13 +44,13 @@ pressure versus volume, called a ** PV diagram**. When the substance behaves
 like an ideal gas, the ideal gas law describes the relationship between its
 pressure and volume. That is,
 
-<div class="equation" id="import-auto-id2669968">
+<div class="equation" >
  $$ PV= Nk_{B}T \left(\text{ideal gas}\right)\text{.} $$
 </div>
 
 Now, assuming the number of molecules and the temperature are fixed,
 
-<div class="equation" id="import-auto-id1013186">
+<div class="equation" >
  $$PV=\text{constant} \left(\text{ideal gas, constant temperature}\right)\text{.} $$
 </div>
 

@@ -36,7 +36,7 @@ An indicator called the **Reynolds number**  $${N}_{\text{R}} $$ can reveal
 whether flow is laminar or turbulent. For flow in a tube of uniform diameter,
 the Reynolds number is defined as
 
-<div class="equation" id="import-auto-id1607540">
+<div class="equation" >
  $${N}_{\text{R}}=\frac{2\rho vr}{\eta }\text{(flow in tube),} $$
 </div>
 
@@ -68,7 +68,7 @@ be calculated from $$\overline{v}=Q/A=1.70 \text{m/s} $$
 
 Entering the known values into $${N}_{\text{R}}=\frac{2\rho vr}{\eta } $$ gives
 
-<div class="equation" id="import-auto-id2447591">
+<div class="equation" >
  $$\begin{array}{lll}{N}_{\text{R}}& =& \frac{2\rho vr}{\eta }\\
 {N}_{\text{R}}& =& \frac{2\left({1025 \text{kg/m}}^{3}\right)\left(1.70 \text{m/s}\right)\left( 0.150 \times 10^{-3}  \text{m}\right)}{ 1.00 \times 10^{-3}  \text{N}\cdot {\text{s/m}}^{2}}\\ 
 {N}_{\text{R}}& =& 523\text{.} \end{array} $$

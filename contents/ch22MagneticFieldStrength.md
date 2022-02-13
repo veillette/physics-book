@@ -14,7 +14,7 @@ is related to the fact that all magnetism is caused by current, the flow of
 charge. *Magnetic fields exert forces on moving charges*, and so they exert
 forces on other magnets, all of which have moving charges.
 
-### Right Hand Rule 1 {#import-auto-id2052696}
+### Right Hand Rule 1 
 
 The magnetic force on a moving charge is one of the most fundamental known.
 Magnetic force is as important as the electrostatic or Coulomb force. Yet the
@@ -23,7 +23,7 @@ and in its direction, than the relatively simple Coulomb force. The magnitude of
 the **magnetic force**  $$\mag{F} $$ on a charge $$q $$ moving at a velocity $$\vb{v} $$ in a
 magnetic field of strength $$\vb{B} $$ is given by
 
-<div class="equation" id="import-auto-id1848216">
+<div class="equation" >
  $$\mag{F}=q \mag{v} \mag{B} \sin \theta \text{,} $$
 </div>
 
@@ -34,13 +34,13 @@ unit for magnetic field strength $$B $$ is called the **tesla** (T) after the ec
 determine how the tesla relates to other SI units, we solve $$\mag{F}=q\mag{v}\mag{B} \sin \theta
 $$ for $$\mag{B} $$.
 
-<div class="equation" id="import-auto-id1536271">
+<div class="equation" >
  $$\mag{B}=\frac{\mag{F}}{q\mag{v} \sin \theta } $$
 </div>
 
 Because $$\sin \theta $$ is unitless, the tesla is
 
-<div class="equation" id="import-auto-id1593576">
+<div class="equation" >
  $$1 \text{T}=\frac{1 \text{N}}{\text{C}\cdot \text{m/s}}=\frac{1 \text{N}}{\text{A}\cdot \text{m}} $$
 </div>
 
@@ -94,14 +94,14 @@ force.
 
 The magnetic force is
 
-<div class="equation" id="import-auto-id1535424">
+<div class="equation" >
  $$F=q v B \sin \theta . $$
 </div>
 We see that  $$\sin \theta =1 $$ ,
  since the angle between the velocity and the direction of the field is  $$90 ^\circ $$ .
  Entering the other given quantities yields
 
-<div class="equation" id="import-auto-id2093723">
+<div class="equation" >
  $$\begin{array}{lll}F& =& \left(20 \times 10^{-9} \text{C}\right)\left(10 \text{m/s}\right)\left(5 \times 10^{-5} \text{T} \right)\\ & =& 1 \times 10^{-11} \left( \text{C}\cdot \text{m/s}\right)\left(\frac{N}{ \text{C}\cdot \text{m/s}}\right)=1 \times 10^{-11} \text{N}.\end{array} $$
 </div>
 **Discussion**
@@ -119,7 +119,7 @@ in [Force on a Moving Charge in a Magnetic Field: Examples and Applications](../
 
 * Magnetic fields exert a force on a moving charge *q*, the magnitude of which
   is
-  <div class="equation" id="import-auto-id1758727">
+  <div class="equation" >
    $$F=qvB \sin \theta , $$
   </div>
      where
@@ -127,7 +127,7 @@ in [Force on a Moving Charge in a Magnetic Field: Examples and Applications](../
 
 * The SI unit for magnetic field strength $$B $$ is the tesla (T), which is
   related to other units by
-  <div class="equation" id="import-auto-id2091790">
+  <div class="equation" >
    $$1 \text{T}=\frac{1 \text{N}}{\text{C} \cdot \text{m/s}}=\frac{1 \text{N}}{\text{A}\cdot \text{m}}. $$
   </div>
 

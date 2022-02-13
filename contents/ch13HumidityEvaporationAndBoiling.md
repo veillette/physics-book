@@ -263,17 +263,17 @@ where  $$n $$
 
 2. Solve the ideal gas law for $$n/V $$.
 
-<div class="equation" id="import-auto-id1390729">
+<div class="equation" >
  $$\frac{n}{V}=\frac{P}{RT} $$
 </div>
 3. Substitute known values into the equation and solve for  $$n/V $$.
 
-<div class="equation" id="import-auto-id954088">
+<div class="equation" >
  $$\frac{n}{V}=\frac{P}{RT}=\frac{ 2.33 \times 10^{3}  \text{Pa}}{\left( 8.31 \text{J/mol}\cdot \text{K}\right)\left(293 \text{K}\right)}= 0.957 {\text{mol/m}}^{3} $$
 </div>
 4. Convert the density in moles per cubic meter to grams per cubic meter.
 
-<div class="equation" id="import-auto-id2069640">
+<div class="equation" >
  $$\rho =\left( 0.957\frac{\text{mol}}{ {\text{m}}^{3}}\right)\left(\frac{18.0 \text{g}}{\text{mol}}\right)= 17.2 {\text{g/m}}^{3} $$
 </div>
 **Discussion**
@@ -301,7 +301,7 @@ Percent Relative Humidity
 </div>
 We define **percent relative humidity** as the ratio of vapor density to saturation vapor density, or
 
-<div class="equation" id="import-auto-id2898104">
+<div class="equation" >
  $$\text{percent relative humidity}=\frac{\text{vapor density}}{\text{saturation vapor density}}×100 $$
 </div>
 </div>
@@ -324,14 +324,14 @@ Calculating Humidity and Dew Point
 (a) Percent relative humidity is defined as the ratio of vapor density to
 saturation vapor density.
 
-<div class="equation" id="import-auto-id1168465550625">
+<div class="equation" >
  $$\text{percent relative humidity}=\frac{\text{vapor density}}{\text{saturation vapor density}}×100 $$
 </div>
 The first is given to be  $$9.40 {\text{g/m}}^{3} $$ ,
  and the second is found in [[Table 1]](#Table1) to be  $$23.0 {\text{g/m}}^{3} $$ .
  Thus,
 
-<div class="equation" id="import-auto-id1168465433320">
+<div class="equation" >
  $$\text{percent relative humidity}=\frac{9.40 {\text{g/m}}^{3}}{23.0 {\text{g/m}}^{3}}×100= 40.9 \text{.%} $$
 </div>
 (b) The air contains  $$9.40 {\text{g/m}}^{3} $$
@@ -346,7 +346,7 @@ Using [[Table 1]](#Table1), we see that the vapor density is $$2.36
 to be $$23.0 {\text{g/m}}^{3} $$ . Thus, the relative humidity at $$
 25.0\text{ºC} $$ is
 
-<div class="equation" id="import-auto-id1168465550600">
+<div class="equation" >
  $$\text{percent relative humidity}=\frac{2.36 {\text{g/m}}^{3}}{23.0 {\text{g/m}}^{3}}×100= 10.3\% \text{.} $$
 </div>
 **Discussion**
@@ -423,7 +423,7 @@ Watch different types of molecules form a solid, liquid, or gas. Add or remove h
   given temperature.
 * Percent relative humidity is defined to be
 
-  <div class="equation" id="import-auto-id1168465538195">
+  <div class="equation" >
    $$\text{percent relative humidity}=\frac{\text{vapor density}}{\text{saturation vapor density}}×100 \text{.} $$
   </div>
 

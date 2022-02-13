@@ -451,7 +451,7 @@ What pressure would be created in the gasoline tank considered in [[link]](#fs-i
 To solve this problem, we must use the following equation, which relates a
 change in volume $$\Delta V $$ to pressure:
 
-<div class="equation" id="import-auto-id1432756">
+<div class="equation" >
  $$\Delta V=\frac{1}{B}\frac{F}{A}{V}_{0}, $$
 </div>
 where  $$F/A $$  is pressure,  $${V}_{0} $$
@@ -677,7 +677,7 @@ Show that 60.0 L of gasoline originally at  $$ 15.0\text{ºC} $$
 
 </div>
 <div class="solution">
-<div class="equation" id="import-auto-id1319680">
+<div class="equation" >
  $$\begin{array}{lll}V& =& {V}_{0}+\Delta V={V}_{0}\left(1+\beta \Delta T\right)\\ & =& \left(60.00 \text{L}\right)\left[ 1+\left(950 \times 10^{-6} /\text{ºC}\right)\left( 35.0\text{ºC}- 15.0\text{ºC}\right)\right]  \\ & =&  61.1 \text{L}\end{array} $$
 </div>
 </div>
@@ -754,19 +754,19 @@ We know how the length changes with temperature:  $$\Delta L=\alpha L_{0}\Delta 
  so the final volume is then  $$V={V}_{0}+\Delta V={\left({L}_{0}+\Delta L\right)}^{3} $$ .
  Substituting for  $$\Delta L $$  gives
 
-<div class="equation" id="import-auto-id1452336">
+<div class="equation" >
  $$V={\left({L}_{0}+\alpha L_{0}\Delta T\right)}^{3}={L}_{0}^{3}{\left(1+\alpha \Delta T\right)}^{3}\text{.} $$
 </div>
 Now, because  $$\alpha \Delta T $$
  is small, we can use the binomial expansion:
 
-<div class="equation" id="import-auto-id3785216" data-element-type="problems-exercises">
+<div class="equation"  data-element-type="problems-exercises">
  $$V\approx {L}_{0}^{3}\left(1+3\alpha \Delta T\right)={L}_{0}^{3}+3\alpha {L}_{0}^{3}\Delta T. $$
 </div>
 So writing the length terms in terms of volumes gives  $$V={V}_{0}+\Delta V\approx {V}_{0}+{3\alpha V}_{0}\Delta T, $$
  and so
 
-<div class="equation" id="import-auto-id1965368" data-element-type="problems-exercises">
+<div class="equation"  data-element-type="problems-exercises">
  $$\Delta V=\beta V_{0}\Delta T\approx {3\alpha V}_{0}\Delta T, \text{ or } \beta \approx 3\alpha . $$
 </div>
 </div>
