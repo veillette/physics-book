@@ -371,7 +371,7 @@ How did Rutherford figure out the structure of the atom without being able to se
 
 {: class="newline"}
 
-<div class="media" id="Phet_module_31.2" data-alt="">
+<div class="media" id="PhET_module" data-alt="">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/rutherford-scattering/latest/rutherford-scattering_en.html"></iframe>
 </div>
 </div>

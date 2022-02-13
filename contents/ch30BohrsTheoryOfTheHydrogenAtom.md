@@ -400,7 +400,7 @@ How did scientists figure out the structure of atoms without looking at them? Tr
 
 {: class="newline"}
 
-<div class="media" id="Phet_module_31.3" data-alt="">
+<div class="media" id="PhET_module" data-alt="">
 <iframe width="860" height="671.4" src="https://archive.cnx.org/specials/d77cc1d0-33e4-11e6-b016-6726afecd2be/hydrogen-atom/#sim-hydrogen-atom"></iframe>
 </div>
 </div>

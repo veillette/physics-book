@@ -46,7 +46,7 @@ PhET Explorations: Quantum Wave Interference
 </div>
 When do photons, electrons, and atoms behave like particles and when do they behave like waves? Watch waves spread out and interfere as they pass through a double slit, then get detected on a screen as tiny dots. Use quantum detectors to explore how measurements change the waves and the patterns they produce on the screen.
 
-<div class="media" id="Phet_module_30.5" data-alt="quantum Wave Interference">
+<div class="media" id="PhET_module" data-alt="quantum Wave Interference">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/cheerpj/quantum-wave-interference/latest/quantum-wave-interference.html?simulation=quantum-wave-interference"></iframe>
 </div>
 </div>

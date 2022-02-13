@@ -262,7 +262,7 @@ Explore bending of light between two media with different indices of refraction.
 
 {: class="newline"}
 
-<div class="media" id="Phet_module_26.4" data-alt="">
+<div class="media" id="PhET_module" data-alt="">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/bending-light/latest/bending-light_en.html"></iframe>
 </div>
 </div>

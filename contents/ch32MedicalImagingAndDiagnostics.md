@@ -249,7 +249,7 @@ PhET Explorations: Simplified MRI
 Is it a tumor? Magnetic Resonance Imaging (MRI) can tell. Your head is full of tiny radio transmitters (the nuclear spins of the hydrogen nuclei of your water molecules). In an MRI unit, these little radios can be made to broadcast their positions, giving a detailed picture of the inside of your head.
 
 
-<div class="media" id="Phet_module_33.1" data-alt="mri">
+<div class="media" id="PhET_module" data-alt="mri">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/cheerpj/mri/latest/mri.html?simulation=mri"></iframe>
 </div>
 </div>

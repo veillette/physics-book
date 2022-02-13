@@ -225,7 +225,7 @@ See how light knocks electrons off a metal target, and recreate the experiment t
 
 {: class="newline"}
 
-<div class="media" id="Phet_module_30.2" data-alt="">
+<div class="media" id="PhET_module" data-alt="">
 <iframe width="760" height="671.4" src="https://archive.cnx.org/specials/cf1152da-eae8-11e5-b874-f779884a9994/photoelectric-effect/#sim-photoelectric-effect"></iframe>
 </div>
 </div>
