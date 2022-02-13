@@ -21,7 +21,7 @@ of electrons in a neutral atom, called the **atomic number**, $$Z $$ . We shall
 see in this section that the exclusion principle is key to the underlying
 explanations, and that it applies far beyond the realm of atomic physics.
 
-In 1925, the Austrian physicist Wolfgang Pauli (see [[link]](#fs-id2688367))
+In 1925, the Austrian physicist Wolfgang Pauli (see [[Figure 1]](#Figure1))
 proposed the following rule: No two electrons can have the same set of quantum
 numbers. That is, no two electrons can be in the same state. This statement is
 known as the **Pauli exclusion principle**, because it excludes electrons from
@@ -39,6 +39,7 @@ No two electrons can have the same set of quantum numbers. That is, no two elect
 </div>
 
 ![A black and white portrait of Austrian physicist Wolfgang Pauli.](../resources/Figure_31_09_01a.jpg "The Austrian physicist Wolfgang Pauli (1900&#x2013;1958) played a major role in the development of quantum mechanics. He proposed the exclusion principle; hypothesized the existence of an important particle, called the neutrino, before it was directly observed; made fundamental contributions to several areas of theoretical physics; and influenced many students who went on to do important work of their own. (credit: Nobel Foundation, via Wikimedia Commons)")
+{: #Figure1}
 
 
 Let us examine how the exclusion principle applies to electrons in atoms. The
@@ -59,11 +60,11 @@ possible values once $$n $$ is known), and thus $${m}_{l} $$ can only be 0. The
 spin projection $${m}_{s} $$ can be either $$+1/2 $$ or $$-1/2 $$ , and so there
 can be two electrons in the $$n=1 $$ state. One has quantum numbers $$\left(1,
 0, 0, +1/2\right) $$ , and the other has $$\left(1, 0, 0, -1/2\right) $$ .
-[[link]](#fs-id2930681) illustrates that there can be one or two electrons
+[[Figure 2]](#Figure2) illustrates that there can be one or two electrons
 having $$n=1 $$ , but not three.
 
 ![The figure here shows configuration of electrons. At the top, the key shows two purple balls, which depict electrons. The upward directed arrow on the first ball or electron shows its spin is plus one half, and the downward arrow on the second electron shows the opposite spin that is minus one half. Two other sections show the electronic configurations of electrons for two levels, n equal to one and n equal to two. One section shows the allowed configurations of the electron in the n is equal to one and two levels, and the second section for the configurations which are not allowed. In the allowed section, n is equal to two has three vacant shells and one electron in each of the outer two shells, one with spin up and one with spin down; and n is equal to one configuration has two shells containing one each spin up and spin down electron and the three other shells containing combinations of both spins each. For the not allowed section, n is equal to two have all vacant shells and n is equal to one have unevenly balanced electrons in its shells.](../resources/Figure_31_09_02a.jpg "The Pauli exclusion principle explains why some configurations of electrons are allowed while others are not. Since electrons cannot have the same set of quantum numbers, a maximum of two can be in the \( n=1 \) level, and a third electron must reside in the higher-energy \( n=2 \) level. If there are two electrons in the \( n=1 \) level, their spins must be in opposite directions. (More precisely, their spin projections must differ.)")
-
+{: #Figure2}
 
 ### Shells and Subshells
 
@@ -154,11 +155,11 @@ have $$l=0 $$ , and it is denoted as a $$1s $$ electron. Two electrons in the
 $$n=1 $$ state is denoted as $$1{s}^{2} $$ . Another example is an electron in
 the $$n=2 $$ state with $$l=1 $$ , written as $$2p $$ . The case of three
 electrons with these quantum numbers is written $$2{p}^{3} $$ . This notation,
-called spectroscopic notation, is generalized as shown in [[Figure 1]](#Figure1)
+called spectroscopic notation, is generalized as shown in [[Figure 3]](#Figure3)
 .
 
 ![Diagram illustrating the components of the expression 2 times p to the third power, where 2 is the principal quantum number n, p is the angular momentum quantum number, represented by a script letter l, and the exponent 3 is the number of electrons.](../resources/Figure_31_09_05a.jpg " ")
-{: #Figure1}
+{: #Figure3}
 
 Counting the number of possible combinations of quantum numbers allowed by the
 exclusion principle, we can determine how many electrons it takes to fill each
@@ -184,7 +185,7 @@ It is convenient to list the possible quantum numbers in a table, as shown
 below.
 
 ![Image contains a table listing all possible quantum numbers for the n equals 2 shell. The table shows that there are a total of two electrons in the 2 s subshell and six electrons in the 2 p subshell, for a total of eight electrons in the shell.](../resources/Figure_31_09_06a.jpg " ")
-
+{: #Figure4}
 
 **Discussion**
 
@@ -202,7 +203,7 @@ possibilities. This number is multiplied by 2, since each electron can be spin
 up or spin down. Thus the *maximum number of electrons that can be in a
 subshell* is $$2\left(2l+1\right) $$.
 
-For example, the $$2s $$ subshell in [[link]](#fs-id3151425) has a maximum of 2
+For example, the $$2s $$ subshell in [[Figure 4]](#Figure4) has a maximum of 2
 electrons in it, since $$2\left(2l+1\right)=2\left(0+1\right)=2 $$ for this
 subshell. Similarly, the $$2p $$ subshell has a maximum of 6 electrons, since
 $$2\left(2l+1\right)=2\left(2+1\right)=6 $$ . For a shell, the maximum number is
@@ -212,7 +213,7 @@ number of electrons that can be in a shell* is $$2{n}^{2} $$.
 For example, for the first shell $$n=1 $$ , and so $$2{n}^{2}=2 $$ . We have
 already seen that only two electrons can be in the $$n=1 $$ shell. Similarly,
 for the second shell, $$n=2 $$ , and so $$2{n}^{2}=8 $$ . As found
-in [[link]](#fs-id3151425), the total number of electrons in the $$n=2 $$ shell
+in [[Figure 4]](#Figure4), the total number of electrons in the $$n=2 $$ shell
 is 8.
 
 <div class="example" markdown="1">
@@ -540,12 +541,12 @@ starts to fill before the $$4d $$ subshell. The reason for these exceptions is
 that $$l=0 $$ electrons have probability clouds that penetrate closer to the
 nucleus and, thus, are more tightly bound (lower in energy).
 
-[[link]](#fs-id3068680) shows the periodic table of the elements, through
+[[Figure 5]](#Figure5) shows the periodic table of the elements, through
 element 118. Of special interest are elements in the main groups, namely, those
 in the columns numbered 1, 2, 13, 14, 15, 16, 17, and 18.
 
 ![This picture shows the periodic table of the elements.](../resources/Figure_31_09_03a.jpg "Periodic table of the elements (credit: National Institute of Standards and Technology, U.S. Department of Commerce)")
-
+{: #Figure5}
 
 The number of electrons in the outermost subshell determines the atom’s chemical
 properties, since it is these electrons that are farthest from the nucleus and
@@ -592,9 +593,6 @@ substructure of atoms.
 PhET Explorations: Stern-Gerlach Experiment
 </div>
 Build an atom out of protons, neutrons, and electrons, and see how the element, charge, and mass change. Then play a game to test your ideas!
-{: class="newline"}
-
-
 {: class="newline"}
 
 <div class="media" id="PhET_module" data-alt="">

@@ -4,6 +4,7 @@ layout: page
 ---    
 
 ![Image shows the front view of a desktop computer along with a keyboard and printer with an image being displayed on the computer screen. It also depicts the back of a woman holding the mouse.](../resources/Figure_27_00_01.jpg "A scientist examines minute details on the surface of a disk drive at a magnification of 100 000 times. The image was produced using an electron microscope. (credit: Robert Scoble)")
+{: #Figure1}
 
 Explore how the image on the computer screen is formed. How is the image
 formation on the computer screen different from the image formation in your eye

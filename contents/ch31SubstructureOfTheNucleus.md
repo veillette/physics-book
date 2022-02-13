@@ -316,6 +316,7 @@ $$Z=118 $$ . There are theoretical predictions of an island of relative
 stability for nuclei with such high $$Z $$ s.
 
 ![Portrait of Maria Goeppert Mayer](../resources/Figure_32_03_04a.jpg "The German-born American physicist Maria Goeppert Mayer (1906&#x2013;1972) shared the 1963 Nobel Prize in physics with J. Jensen for the creation of the nuclear shell model. This successful nuclear model has nucleons filling shells analogous to electron shells in atoms. It was inspired by patterns observed in nuclear properties. (credit: Nobel Foundation via Wikimedia Commons)")
+{: #Figure4}
 
 ### Section Summary
 

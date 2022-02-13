@@ -10,7 +10,7 @@ layout: page
 </div>
 
 ![A long isolated double-lane road banked by barren land on both sides.](../resources/Figure_29_03_01a.jpg "People might describe distances differently, but at relativistic speeds, the distances really are different. (credit: Corey Leopold, Flickr)")
-
+{: #Figure1}
 
 Have you ever driven on a road that seems like it goes on forever? If you look
 ahead, you might say you have about 10 km left to go. Another traveler might say
@@ -62,7 +62,7 @@ Earth. To the muon, the Earth, air, and clouds are moving, and so the distance
 $$L $$ it sees is not the proper length.
 
 ![In part a observer observes from ground frame of reference a muon above earth with speed v in the rightward direction. The distance between the muon and the place where it disintegrates is two point zero one. In part b the system is shown in motion having velocity v in the leftward direction. So, the cloud and ground are displaced zero point six two seven kilo meter in the opposite direction.](../resources/Figure_29_03_02a.jpg "(a) The Earth-bound observer sees the muon travel 2.01 km between clouds. (b) The muon sees itself travel the same path, but only a distance of 0.627 km. The Earth, air, and clouds are moving relative to the muon in its frame, and all appear to have smaller lengths along the direction of travel.")
-
+{: #Figure2}
 
 ### Length Contraction
 
@@ -125,10 +125,10 @@ Calculating Length Contraction: The Distance between Stars Contracts when You Tr
 </div>
 Suppose an astronaut, such as the twin discussed in [Simultaneity and Time Dilation](../contents/ch28SimultaneityAndTimeDilation), travels so fast that  $$\gamma = 30.00  $$ .
  (a) She travels from the Earth to the nearest star system, Alpha Centauri, 4.300 light years (ly) away as measured by an Earth-bound observer. How far apart are the Earth and Alpha Centauri as measured by the astronaut? (b) In terms of  $$c $$ ,
- what is her velocity relative to the Earth? You may neglect the motion of the Earth relative to the Sun. (See [[Figure 1]](#Figure1).)
+ what is her velocity relative to the Earth? You may neglect the motion of the Earth relative to the Sun. (See [[Figure 3]](#Figure3).)
 
 ![In part a the distance between the earth and the alpha centauri is measured as L-zero. A clock given in this figure is showing a time delta-t. A spaceship flying with velocity of v equals L-zero over delta-t from the earth to the star is shown. Part b shows the spaceship frame of reference from which the distance L between the earth and star is contracted as they seem to move with same velocity in opposite direction. In part b the clock shows less time elapsed than the clock in part a.](../resources/Figure_29_03_03a.jpg "(a) The Earth-bound observer measures the proper distance between the Earth and the Alpha Centauri. (b) The astronaut observes a length contraction, since the Earth and the Alpha Centauri move relative to her ship. She can travel this shorter distance in a smaller time (her proper time) without exceeding the speed of light.")
-{: #Figure1}
+{: #Figure3}
 
 **Strategy**
 
@@ -218,7 +218,7 @@ the lengths are nearly equal, the classical expectation. But length contraction
 is real, if not commonly experienced. For example, a charged particle, like an
 electron, traveling at relativistic velocity has electric field lines that are
 compressed along the direction of motion as seen by a stationary observer. (
-See [[Figure 2]](#Figure2).) As the electron passes a detector, such as a coil
+See [[Figure 4]](#Figure4).) As the electron passes a detector, such as a coil
 of wire, its field interacts much more briefly, an effect observed at particle
 accelerators such as the 3 km long Stanford Linear Accelerator (SLAC). In fact,
 to an electron traveling down the beam pipe at SLAC, the accelerator and the
@@ -230,7 +230,7 @@ This, again, is an experimental verification of the Special Theory of
 Relativity.
 
 ![An electron traveling with velocity v to the right through a horizontal pipe. The electric field lines enter it radially.](../resources/Figure_29_03_04a.jpg "The electric field lines of a high-velocity charged particle are compressed along the direction of motion by length contraction. This produces a different signal when the particle goes through a coil, an experimentally verified effect of length contraction.")
-{: #Figure2}
+{: #Figure4}
 
 <div class="exercise"  data-label="">
 <div class="title">

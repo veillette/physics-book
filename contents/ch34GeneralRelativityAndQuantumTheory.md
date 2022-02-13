@@ -203,7 +203,7 @@ time of the 1987A supernova, unfortunately.) There are now several ambitious
 systems of gravitational wave detectors in use around the world. These include
 the LIGO (Laser Interferometer Gravitational Wave Observatory) system with two
 laser interferometer detectors, one in the state of Washington and another in
-Louisiana (See [[Figure 5]](#Figure5)) and the VIRGO (Variability of Irradiance
+Louisiana (See [[Figure 6]](#Figure6)) and the VIRGO (Variability of Irradiance
 and Gravitational Oscillations) facility in Italy with a single detector.
 
 ### Quantum Gravity
@@ -214,14 +214,14 @@ the quantum scale, where the other forces are ordinarily much stronger. The
 early universe was such a place, but black holes are another. The first
 significant connection between gravity and quantum effects was made by the
 Russian physicist Yakov Zel’dovich in 1971, and other significant advances
-followed from the British physicist Stephen Hawking. (See [[Figure 6]](#Figure6)
+followed from the British physicist Stephen Hawking. (See [[Figure 7]](#Figure7)
 .) These two showed that black holes could radiate away energy by quantum
 effects just outside the event horizon (nothing can escape from inside the event
 horizon). Black holes are, thus, expected to radiate energy and shrink to
 nothing, although extremely slowly for most black holes. The mechanism is the
 creation of a particle-antiparticle pair from energy in the extremely strong
 gravitational field near the event horizon. One member of the pair falls into
-the hole and the other escapes, conserving momentum. (See [[Figure 7]](#Figure7)
+the hole and the other escapes, conserving momentum. (See [[Figure 8]](#Figure8)
 .) When a black hole loses energy and, hence, rest mass, its event horizon
 shrinks, creating an even greater gravitational field. This increases the rate
 of pair production so that the process grows exponentially until the black hole
@@ -234,15 +234,16 @@ Bang. Searches for characteristic $$\gamma $$ -ray bursts have produced events
 attributable to more mundane objects like neutron stars accreting matter.
 
 ![The image on the left shows what appears to be a spherical white burst of dust from which two yellow-orange jets emanate, one going up and the other going down. From the top of the upper jet to the bottom of the lower jet is about one hundred and eighty thousand light years. The background is black. The center of the white burst is expanded in the image on the right and appears as a bright yellow doughnut-shaped disk spread over four hundred light years. At the center of the disk is a bright spot that may be the source of the jets.](../resources/Figure_35_02_05.jpg "This Hubble Space Telescope photograph shows the extremely energetic core of the NGC 4261 galaxy. With the superior resolution of the orbiting telescope, it has been possible to observe the rotation of an accretion disk around the energy-producing object as well as to map jets of material being ejected from the object. A supermassive black hole is consistent with these observations, but other possibilities are not quite eliminated. (credit: NASA and ESA)")
-
-![This figure shows a windowless room full of desks and computer screens and with three large screens on the wall upon which are projected a lot of technical graphs.](../resources/Figure_35_02_06.jpg "The control room of the LIGO gravitational wave detector. Gravitational waves will cause extremely small vibrations in a mass in this detector, which will be detected by laser interferometer techniques. Such detection in coincidence with other detectors and with astronomical events, such as supernovas, would provide direct evidence of gravitational waves. (credit: Tobin Fricke)")
 {: #Figure5}
 
-![A photo of Stephen Hawking sitting on his special chair fitted with modern gadgets.](../resources/Figure_35_02_07.jpg "Stephen Hawking (b. 1942) has made many contributions to the theory of quantum gravity. Hawking is a long-time survivor of ALS and has produced popular books on general relativity, cosmology, and quantum gravity. (credit: Lwp Kommunik&#xE1;ci&#xF3;)")
+![This figure shows a windowless room full of desks and computer screens and with three large screens on the wall upon which are projected a lot of technical graphs.](../resources/Figure_35_02_06.jpg "The control room of the LIGO gravitational wave detector. Gravitational waves will cause extremely small vibrations in a mass in this detector, which will be detected by laser interferometer techniques. Such detection in coincidence with other detectors and with astronomical events, such as supernovas, would provide direct evidence of gravitational waves. (credit: Tobin Fricke)")
 {: #Figure6}
 
-![The figure shows a purple doughnut-shaped object with a black hole in the middle. Many different-colored spots are arranged like glazing around the edge of the doughnut. The deep purple of the doughnut fades to a light purple as you move away from the doughnut, and the space around the doughnut is filled with randomly placed white dots. Various particles are shown either falling in or escaping from the doughnut. There is a proton antiproton pair, with the proton escaping and the antiproton falling back into the doughnut. There is an electron-positron pair in which the positron escapes then annihilates with an electron outside the doughnut, with the subsequent gamma rays escaping the doughnut. There is a muon-antimuon pair that is created then both fall back into the doughnut. Finally, there is an electron-positron pair that is generated, with the electron escaping and the positron falling back into the doughnut.](../resources/Figure_35_02_08.jpg "Gravity and quantum mechanics come into play when a black hole creates a particle-antiparticle pair from the energy in its gravitational field. One member of the pair falls into the hole while the other escapes, removing energy and shrinking the black hole. The search is on for the characteristic energy.")
+![A photo of Stephen Hawking sitting on his special chair fitted with modern gadgets.](../resources/Figure_35_02_07.jpg "Stephen Hawking (b. 1942) has made many contributions to the theory of quantum gravity. Hawking is a long-time survivor of ALS and has produced popular books on general relativity, cosmology, and quantum gravity. (credit: Lwp Kommunik&#xE1;ci&#xF3;)")
 {: #Figure7}
+
+![The figure shows a purple doughnut-shaped object with a black hole in the middle. Many different-colored spots are arranged like glazing around the edge of the doughnut. The deep purple of the doughnut fades to a light purple as you move away from the doughnut, and the space around the doughnut is filled with randomly placed white dots. Various particles are shown either falling in or escaping from the doughnut. There is a proton antiproton pair, with the proton escaping and the antiproton falling back into the doughnut. There is an electron-positron pair in which the positron escapes then annihilates with an electron outside the doughnut, with the subsequent gamma rays escaping the doughnut. There is a muon-antimuon pair that is created then both fall back into the doughnut. Finally, there is an electron-positron pair that is generated, with the electron escaping and the positron falling back into the doughnut.](../resources/Figure_35_02_08.jpg "Gravity and quantum mechanics come into play when a black hole creates a particle-antiparticle pair from the energy in its gravitational field. One member of the pair falls into the hole while the other escapes, removing energy and shrinking the black hole. The search is on for the characteristic energy.")
+{: #Figure8}
 
 <span class="title">**Wormholes and time travel** </span>The subject of time
 travel captures the imagination. Theoretical physicists, such as the American

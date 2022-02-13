@@ -15,6 +15,7 @@ melting on a roof warmed by the Sun. Conversely, water freezes in an ice tray
 cooled by lower-temperature surroundings.
 
 ![The given figure shows a vertically downward, knife-shaped ice piece, with water droplets sparkling on its surface.](../resources/Figure_15_03_01a.jpg "Heat from the air transfers to the ice causing it to melt. (credit: Mike Brand)")
+{: #Figure1}
 
 Energy is required to melt a solid because the cohesive bonds between the
 molecules in the solid must be broken apart such that, in the liquid, the
@@ -26,7 +27,7 @@ of soda initially at $$0\text{ºC} $$ stays at $$0\text{ºC} $$ until all the ic
 has melted. Conversely, energy is released during freezing and condensation,
 usually in the form of thermal energy. Work is done by cohesive forces when
 molecules are brought together. The corresponding energy must be given off (
-dissipated) to allow them to stay together [[Figure 1]](#Figure1).
+dissipated) to allow them to stay together [[Figure 2]](#Figure2).
 
 The energy involved in a phase change depends on two major factors: the number
 and strength of bonds or force pairs. The number of bonds is proportional to the
@@ -47,7 +48,7 @@ vaporization, $${L}_{\text{v}} $$ , are material constants that are determined
 experimentally. See ([[Table 1]](#Table1)).
 
 ![Figure a shows a four by four square lattice object labeled solid. The lattice is made of four rows of red spheres, with each row containing four spheres. The spheres are attached together horizontally and vertically by springs, defining vacant square spaces between the springs. A short arrow points radially outward from each sphere. The arrows on the different spheres point in different directions but are the same length, and one of them terminates at a dashed circle that is labeled limits of motion. To the right of this object are shown two curved arrows. The upper curved arrow points rightward and is labeled &#x201C;energy input&#x201D; and &#x201C;melt.&#x201D; The lower arrow points leftward and is labeled &#x201C;energy output&#x201D; and &#x201C;freeze.&#x201D; To the right of the curved arrows is a drawing labeled liquid. This drawing contains nine red spheres arranged randomly, with a curved arrow emanating from each sphere. The arrows are of different lengths and point in different directions.Figure b shows a drawing labeled liquid that is essentially the same as that of figure a. To the right of this drawing are shown two curved arrows. The upper curved arrow points rightward and is labeled &#x201C;energy input&#x201D; and &#x201C;boil.&#x201D; The lower arrow points leftward and is labeled &#x201C;energy output&#x201D; and &#x201C;condense.&#x201D; To the right of the curved arrows is another drawing of randomly arranged red spheres that is labeled gas. This drawing contains eight red spheres and each sphere has a straight or a curved arrow emanating from it. Compared to the drawing to the left that is labeled liquid, these arrows are longer and the red spheres are more widely spaced.](../resources/Figure_15_03_02a.jpg "(a) Energy is required to partially overcome the attractive forces between molecules in a solid to form a liquid. That same energy must be removed for freezing to take place. (b) Molecules are separated by large distances when going from liquid to vapor, requiring significant energy to overcome molecular attraction. The same energy must be removed for condensation to take place. There is no temperature change until a phase change is complete.")
-{: #Figure1}
+{: #Figure2}
 
 Latent heat is measured in units of J/kg. Both $${L}_{\text{f}} $$ and $${L}_
 {\text{v}} $$ depend on the substance, particularly on the strength of its
@@ -239,7 +240,7 @@ heat is released when water vapor condenses.
 
 We examine the effects of phase change more precisely by considering adding heat
 into a sample of ice at $$-20\text{ºC} $$
-([[Figure 2]](#Figure2)). The temperature of the ice rises linearly, absorbing
+([[Figure 3]](#Figure3)). The temperature of the ice rises linearly, absorbing
 heat at a constant rate of $$0.50\text{cal/g}\cdot \text{ºC} $$ until it reaches
 $$0\text{ºC} $$ . Once at this temperature, the ice begins to melt until all the
 ice has melted, absorbing 79.8 cal/g of heat. The temperature remains constant
@@ -252,7 +253,7 @@ vapor, the temperature rises again, absorbing heat at a rate of
 $$0.482\text{cal/g}\cdot \text{ºC} $$.
 
 ![The figure shows a two-dimensional graph with temperature plotted on the vertical axis from minus twenty to one hundred and twenty degrees Celsius. The horizontal axis is labeled delta Q divided by m and, in parentheses, calories per gram. This horizontal axis goes from zero to eight hundred. A line segment labeled ice extends upward and rightward at about 60 degrees above the horizontal from the point minus twenty degrees Celsius, zero delta Q per m to the point zero degrees Celsius and about 40 delta Q per m. A horizontal line segment labeled ice and water extends rightward from this point to approximately 120 delta Q per m. A line segment labeled water then extends up and to the right at approximately 70 degrees above the horizontal to the point one hundred degrees Celsius and about 200 delta Q per m. From this latter point a horizontal line segment labeled water plus steam extends to the right to about 780 delta Q per m. From here, a final line segment labeled steam extends up and to the right at about 60 degrees above the horizontal to about one hundred and twenty degrees Celsius and 800 delta Q per m.](../resources/Figure_15_03_03a.jpg "A graph of temperature versus energy added. The system is constructed so that no vapor evaporates while ice warms to become liquid water, and so that, when vaporization occurs, the vapor remains in of the system. The long stretches of constant temperature values at \( 0 \text{ºC} \) and \( 100 \text{ºC} \) reflect the large latent heat of melting and vaporization, respectively.")
-{: #Figure2}
+{: #Figure3}
 
 Water can evaporate at temperatures below the boiling point. More energy is
 required than at the boiling point, because the kinetic energy of water
@@ -352,6 +353,7 @@ the same as that required to make the phase change in the other direction, from
 liquid to vapor, and so it can be calculated from $$Q=m L_{\text{v}} $$.
 
 ![The figure shows condensed water droplets on a glass of iced tea.](../resources/Figure_15_03_04a.jpg "Condensation forms on this glass of iced tea because the temperature of the nearby air is reduced to below the dew point. The rate at which water molecules join together exceeds the rate at which they separate, and so water condenses. Energy is released when the water condenses, speeding the melting of the ice in the glass. (credit: Jenny Downing)")
+{: #Figure4}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -361,7 +363,7 @@ Energy is also released when a liquid freezes. This phenomenon is used by fruit 
  Growers spray water on the plants in orchards so that the water freezes and heat is released to the growing oranges on the trees. This prevents the temperature inside the orange from dropping below freezing, which would damage the fruit.
 
 ![The figure shows bare tree branches covered with ice and icicles.](../resources/Figure_15_03_05a.jpg "The ice on these trees released large amounts of energy when it froze, helping to prevent the temperature of the trees from dropping below \( 0 \text{ºC} \). Water is intentionally sprayed on orchards to help prevent hard frosts. (credit: Hermann Hammer)")
-
+{: #Figure5}
 </div>
 
 **Sublimation** is the transition from solid to vapor phase. You may have
@@ -377,6 +379,7 @@ toxic that they must be kept in sealed containers to prevent human exposure to
 their sublimation-produced vapors.
 
 ![Figure a shows vapors flowing out from the middle of three glasses placed adjacently on a table. This glass contains a piece of dry ice in lemonade. Two squeezed lemon slices are also seen alongside the glasses. Figure b shows frost patterns formed on a window pane.](../resources/Figure_15_03_06aa.jpg "Direct transitions between solid and vapor are common, sometimes useful, and even beautiful. (a) Dry ice sublimates directly to carbon dioxide gas. The visible vapor is made of water droplets. (credit: Windell Oskay) (b) Frost forms patterns on a very cold window, an example of a solid formed directly from a vapor. (credit: Liz West)")
+{: #Figure6}
 
 All phase transitions involve heat. In the case of direct solid-vapor
 transitions, the energy required is given by the equation $$Q=mL_{\text{s}} $$ ,

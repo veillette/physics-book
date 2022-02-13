@@ -268,6 +268,7 @@ with masses averaging $$200 \text{MeV/}{c}^{2} $$ .
 {\text{-km}}^{2} $$ area, how many particles are there per square meter?
 
 ![The figure shows an extremely energetic cosmic ray penetrating into the Earth&#x2019;s atmosphere. High up in the atmosphere, the cosmic ray disintegrates into a shower of particles that start a chain reaction by themselves creating further particles. All these particles shower the surface of the Earth.](../resources/Figure_34_06_06.jpg "An extremely energetic cosmic ray creates a shower of particles on earth. The energy of these rare cosmic rays can approach a joule (about \( 10^{10} \text{GeV} \) ) and, after multiple collisions, huge numbers of particles are created from this energy. Cosmic ray showers have been observed to extend over many square kilometers. ")
+{: #Figure6}
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">

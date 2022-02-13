@@ -413,6 +413,7 @@ The analysis shown in the figure below also applies to diffraction gratings with
  What is the distance between fringes produced by a diffraction grating having 125 lines per centimeter for 600-nm light, if the screen is 1.50 m away?
 
 ![The figure shows a schematic of a double slit experiment. A double slit is at the left and a screen is at the right. The slits are separated by a distance d. From the midpoint between the slits a horizontal line labeled x extends to the screen. From the same point, a line angled upward at an angle theta above the horizontal also extends to the screen. The distance between where the horizontal line hits the screen and where the angled line hits the screen is marked y, and the distance between adjacent fringes is given by delta y, which equals x times lambda over d](../resources/Figure_28_04_06a.jpg "The distance between adjacent fringes is \( \Delta y=x \lambda/d \), assuming the slit separation \( d \) is large compared with \( \lambda \).")
+{: #Figure6}
 
 </div>
 <div class="solution" markdown="1">

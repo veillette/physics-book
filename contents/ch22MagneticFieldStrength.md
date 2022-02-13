@@ -211,6 +211,7 @@ What is the direction of the magnetic field that produces the magnetic force on 
  is perpendicular to  $$\vb{v} $$ ?
 
 ![Figure a shows a force vector pointing toward the left and a velocity vector pointing up. Figure b shows the force vector pointing into the page and the velocity vector pointing down. Figure c shows the force vector pointing up and the velocity vector pointing to the left.](../resources/Figure_23_04_05a.jpg " ")
+{: #Figure4}
 
 </div>
 <div class="solution" markdown="1">

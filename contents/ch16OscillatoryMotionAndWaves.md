@@ -4,6 +4,7 @@ layout: page
 ---    
 
 ![In the figure a couple and their son are sitting alongside a beach in the evening time, around a wood-lit fire. The man is playing a guitar.](../resources/Figure_17_00_01a.jpg "There are at least four types of waves in this picture&#x2014;only the water waves are evident. There are also sound waves, light waves, and waves on the guitar strings. (credit: John Norton)")
+{: #Figure1}
 
 What do an ocean buoy, a child in a swing, the cone inside a speaker, a guitar,
 atoms in a crystal, the motion of chest cavities, and the beating of hearts all
