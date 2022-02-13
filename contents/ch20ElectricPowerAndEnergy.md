@@ -256,7 +256,7 @@ Making Connections: Take-Home Experiment—Electrical Energy Use Inventory
    $$P=\frac{ {V}^{2}}{R}\text{,} $$
   </div>
      and   
-  <div class="equation" id="import-auto-id2010343">
+  <div class="equation" >
    $$P={I}^{2}R\text{.} $$
   </div>
 

@@ -86,14 +86,14 @@ $$ is directly proportional to the **coefficient of viscosity**, $$\eta $$ . The
 greater the viscosity, the greater the force required. These dependencies are
 combined into the equation
 
-<div class="equation" id="import-auto-id2408773">
+<div class="equation" >
  $$F=\eta \frac{vA}{L}\text{,} $$
 </div>
 
 which gives us a working definition of fluid **viscosity** $$\eta $$. 
 Solving for $$\eta $$ gives
 
-<div class="equation" id="import-auto-id2598252">
+<div class="equation" >
  $$\eta =\frac{FL}{vA}\text{,} $$
 </div>
 
@@ -117,7 +117,7 @@ rate $$Q $$ is in the direction from high to low pressure. The greater the
 pressure differential between two points, the greater the flow rate. This
 relationship can be stated as
 
-<div class="equation" id="import-auto-id1514558">
+<div class="equation" >
  $$Q=\frac{ {P}_{2}-{P}_{1}}{R}\text{,} $$
 </div>
 
@@ -138,7 +138,7 @@ The resistance $$R $$ to laminar flow of an incompressible fluid having
 viscosity $$\eta $$ through a horizontal tube of uniform radius $$r $$ and
 length $$l $$ , such as the one in [[Figure 5]](#Figure5), is given by
 
-<div class="equation" id="import-auto-id3068689">
+<div class="equation" >
  $$R=\frac{8\eta l}{\pi {r}^{4}}\text{.} $$
 </div>
 
@@ -164,7 +164,7 @@ by a factor of $${2}^{4}=16 $$.
 Taken together, $$Q=\frac{ {P}_{2}-{P}_{1}}{R} $$ and $$R=\frac{8\eta l}{\pi
 {r}^{4}} $$ give the following expression for flow rate:
 
-<div class="equation" id="import-auto-id3012113">
+<div class="equation" >
  $$Q=\frac{\left({P}_{2}-{P}_{1}\right)\pi r^{4}}{8\eta l}\text{.} $$
 </div>
 
@@ -191,7 +191,7 @@ We need to compare the artery radius before and after the flow rate reduction.
 With a constant pressure difference assumed and the same length and viscosity,
 along the artery we have
 
-<div class="equation" id="import-auto-id3036414">
+<div class="equation" >
  $$\frac{ {Q}_{1}}{ {r}_{1}^{4}}=\frac{ {Q}_{2}}{ {r}_{2}^{4}}\text{.} $$
 </div>
 So, given that  $${Q}_{2}= 0.5{Q}_{1} $$ ,
@@ -368,7 +368,7 @@ An intravenous (IV) system is supplying saline solution to a patient at the rate
 
 Assuming laminar flow, Poiseuille’s law applies. This is given by
 
-<div class="equation" id="import-auto-id2953372">
+<div class="equation" >
  $$Q=\frac{\left({P}_{2}-{P}_{1}\right)\pi {r}^{4}}{8\eta l}\text{,} $$
 </div>
 where  $${P}_{2} $$
@@ -379,14 +379,14 @@ where  $${P}_{2} $$
 
 Solving for $${P}_{2} $$ yields
 
-<div class="equation" id="import-auto-id2401979">
+<div class="equation" >
  $${P}_{2}=\frac{8\eta l}{ \pi r^{4}}Q+{P}_{1} \text{.} $$
 </div>
  $${P}_{1} $$
  is given as 8.00 mm Hg, which converts to  $$ 1.066 \times 10^{3}  {\text{N/m}}^{2} $$ .
  Substituting this and the other known values yields
 
-<div class="equation" id="import-auto-id1133273">
+<div class="equation" >
  $$\begin{array}{lll}{P}_{2}& =& \left[ \frac{8\left( 1.00 \times 10^{-3}  \text{N}\cdot {\text{s/m}}^{2}\right)\left( 2.50 \times 10^{-2}  \text{m}\right)}{\pi { \left( 0.150 \times 10^{-3}  \text{m} \right)}^{4}}\right]  \left( 1.20 \times 10^{-7}  {\text{m}}^{3}\text{/s}\right)+ 1.066 \times 10^{3}  {\text{N/m}}^{2}\\ 
 {P}_{2}& =&  1.62 \times 10^{4}  {\text{N/m}}^{2}\text{.}\end{array} $$
 </div>
@@ -407,7 +407,7 @@ water main before it reaches your home. Let us consider flow through the water
 main as illustrated in [[Figure 6]](#Figure6). We can understand why the
 pressure $${P}_{1} $$ to the home drops during times of heavy use by rearranging
 
-<div class="equation" id="import-auto-id3230032">
+<div class="equation" >
  $$Q=\frac{ {P}_{2}-{P}_{1}}{R} $$
 </div>
 

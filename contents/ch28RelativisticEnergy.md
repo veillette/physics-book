@@ -40,7 +40,7 @@ is valid relativistically, if we define energy to include a relativistic factor.
 <div class="title">
 Total Energy
 </div>
-<strong class="term" id="import-auto-id2601670">Total energy </strong> $$E $$
+<strong class="term" >Total energy </strong> $$E $$
  is defined to be
 
 <div class="equation" >

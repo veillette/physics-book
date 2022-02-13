@@ -127,7 +127,7 @@ A section of superconducting wire carries a current of 100 A and requires 1.00 L
 
 </div>
 <div class="solution" data-element-type="problems-exercises">
-<div class="equation" id="import-auto-id1169737740716">
+<div class="equation" >
  $$0.30 \text{Ω} $$
 </div>
 </div>

@@ -30,7 +30,7 @@ proportional to displacement. When stress and strain were covered
 in [Newton’s Third Law of Motion](../contents/m42074), the name was given to this
 relationship between force and displacement was Hooke’s law:
 
-<div class="equation" id="import-auto-id3246114">
+<div class="equation" >
  $$F=- kx  \text{.}  $$
 </div>
 
@@ -78,13 +78,13 @@ solve the force constant $$k $$ .
 **Solution**
 
 1. Solve Hooke’s law,$$F=-kx $$ , for $$k $$ \:
-   <div class="equation" id="import-auto-id3033409">
+   <div class="equation" >
    $$k=-\frac{F}{x}. $$
    </div>
 
    Substitute known values and solve $$k $$ \:
 
-   <div class="equation" id="import-auto-id1860317">
+   <div class="equation" >
     $$\begin{array}{lll}k& =& -\frac{784 \text{N}}{ -1.20 \times 10^{-2}  \text{m}}\\ & =&  6.53 \times 10^{4}  \text{N/m}.\end{array} $$
    </div>
 
@@ -109,7 +109,7 @@ $${\text{PE}}_{\text{el}}=\frac{1}{2}kx^{2} $$ . Here, we generalize the idea to
 elastic potential energy for a deformation of any system that can be described
 by Hooke’s law. Hence,
 
-<div class="equation" id="import-auto-id2618382">
+<div class="equation" >
  $${\text{PE}}_{\text{el}}=\frac{1}{2}kx^{2}, $$
 </div>
 
@@ -151,7 +151,7 @@ potential energy equation, because $$k $$ and $$x $$ are given.
 
 Entering the given values for $$k $$ and $$x $$ yields
 
-<div class="equation" id="import-auto-id1562251">
+<div class="equation" >
  $$\begin{array}{lll}{\text{PE}}_{\text{el}}& =& \frac{1}{2}kx^{2}=\frac{1}{2}\left( 50.0 \text{N/m}\right){\left( 0.150 \text{m}\right)}^{2}= 0.563 \text{N}\cdot \text{m}\\ & =&  0.563 \text{J}\end{array} $$
 </div>
 **Strategy for b**
@@ -168,7 +168,7 @@ projectile’s speed.
    </div>
 
 2. Solve for $$v $$ \:
-   <div class="equation" id="import-auto-id3358674">
+   <div class="equation" >
     $$v={\left[ \frac{2{\text{PE}}_{\text{el}}}{m}\right]  }^{1/2}={\left[ \frac{2\left( 0.563 \text{J}\right)}{ 0.002 \text{kg}}\right]  }^{1/2}= 23.7{\left(\text{J/kg}\right)}^{1/2} $$
    </div>
 
@@ -226,14 +226,14 @@ It was stored in the object as potential energy.
   where it was created.
 * The simplest type of oscillations and waves are related to systems that can be
   described by Hooke’s law:
-  <div class="equation" id="import-auto-id3385046">
+  <div class="equation" >
    $$F=-kx, $$
   </div>
   where $$F $$ is the restoring force,  $$x $$ is the displacement from equilibrium or deformation, and  $$k $$ is the force constant of the system.
 
 * Elastic potential energy $${\text{PE}}_{\text{el}} $$ stored in the
   deformation of a system that can be described by Hooke’s law is given by
-  <div class="equation" id="import-auto-id2409100">
+  <div class="equation" >
    $${\text{PE}}_{\text{el}}=\left(1/2\right) kx^{2}. $$
   </div>
 

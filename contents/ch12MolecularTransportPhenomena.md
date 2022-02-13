@@ -27,7 +27,7 @@ collision that can scatter them in any direction, including straight backward.
 It can be shown that the average distance $${x}_{\text{rms}} $$ that a molecule
 travels is proportional to the square root of time:
 
-<div class="equation" id="import-auto-id1917214">
+<div class="equation" >
  $${x}_{\text{rms}}=\sqrt{2 Dt}\text{,} $$
 </div>
 
@@ -102,7 +102,7 @@ are known.
 Solving for $$t $$
 ** and substituting known values yields
 
-<div class="equation" id="import-auto-id2578506">
+<div class="equation" >
  $$\begin{array}{lll}t& =& \frac{ {x}_{\text{rms}}^{2}}{2D}=\frac{ {\left(0.010 \text{m} \right)}^{2}}{2\left( 6.7 \times 10^{-10} {\text{m}}^{2}\text{/s}\right)}\\ & =&  7.5 \times 10^{4}  \text{s}=21 \text{h}\text{.}\end{array} $$
 </div>
 **Discussion**

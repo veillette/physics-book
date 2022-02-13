@@ -99,7 +99,7 @@ the question.
 
 2. Identify the known values.
 3. Enter the known values into the equation:
-   <div class="equation" id="import-auto-id1393391">
+   <div class="equation" >
    $$f=(0.0800)\left(0.200\text{kg}\right) \left(
    9.80\text{m}/{\text{s}}^{2}\right). $$
    </div>
@@ -138,7 +138,7 @@ Identify the known:
 
 2. The work done by the non-conservative forces equals the initial, stored
    elastic potential energy. Identify the correct equation to use:
-   <div class="equation" id="import-auto-id1432098">
+   <div class="equation" >
     $${\text{W}}_{\text{nc}}=\Delta \left(\text{KE}+\text{PE}\right)={\text{PE}}_{\text{el,f}}-{\text{PE}}_{\text{el,i}}=\frac{1}{2}k\left({\left(\frac{ {\mu }_{k}mg}{k}\right)}^{2}-{X}^{2}\right). $$
    </div>
 
@@ -146,29 +146,29 @@ Identify the known:
 
 4. Enter the friction as $$f={\mu }_{\text{k}}mg $$     
    into $${W}_{\text{nc}}=-fd $$ , thus
-   <div class="equation" id="import-auto-id3080578">
+   <div class="equation" >
     $${W}_{\text{nc}}={-\mu }_{\text{k}} mgd. $$
    </div>
 
 5. Combine these two equations to find
-   <div class="equation" id="import-auto-id2591277">
+   <div class="equation" >
     $$\frac{1}{2}k\left({\left(\frac{ {\mu }_{k}mg}{k}\right)}^{2}-{X}^{2}\right)=-{\mu }_{\text{k}} mgd. $$
    </div>
 
 6. Solve the equation for $$d $$     
    \:
-   <div class="equation" id="import-auto-id3209867">
+   <div class="equation" >
     $$d=\frac{\text{k}}{ {2\mu }_{\text{k}}mg}\left({X}^{2}-{\left(\frac{ {\mu }_{\text{k}}mg}{k}\right)}^{2}\right). $$
    </div>
 
 7. Enter the known values into the resulting equation:
-   <div class="equation" id="import-auto-id2429079">
+   <div class="equation" >
     $$d=\frac{ 50.0 \text{N/m} }{2\left( 0.0800\right)\left( 0.200 \text{kg}\right)\left( 9.80 {\text{m/s}}^{2}\right)}\left({\left( 0.100 \text{m}\right)}^{2}-{\left(\frac{\left( 0.0800\right)\left( 0.200 \text{kg}\right)\left( 9.80 {\text{m/s}}^{2}\right)}{ 50.0 \text{N/m}}\right)}^{2}\right). $$
    </div>
 
 8. Calculate $$d $$     
    and convert units:
-   <div class="equation" id="import-auto-id3164118">
+   <div class="equation" >
     $$d= 1.59 \text{m}. $$
    </div>
 

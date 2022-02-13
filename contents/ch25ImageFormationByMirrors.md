@@ -552,7 +552,7 @@ Show that for a flat mirror  $${h}_{\text{i}}={h}_{\text{o}} $$ ,
 
 </div>
 <div class="solution">
-<div class="equation" id="import-auto-id671700" >
+<div class="equation"  >
  $$m=\frac{ {h}_{\text{i}}}{ {h}_{\text{o}}}=-\frac{ {d}_{\text{i}}}{ {d}_{\text{o}}}=-\frac{-{d}_{\text{o}}}{ {d}_{\text{o}}}=\frac{ {d}_{\text{o}}}{ {d}_{\text{o}}}=1⇒{h}_{\text{i}}={h}_{\text{o}} $$
 </div>
 </div>

@@ -18,7 +18,7 @@ opening. Let us check this out. Bernoulli’s equation must be used since the
 depth is not constant. We consider water flowing from the surface (point 1) to
 the tube’s outlet (point 2). Bernoulli’s equation as stated in previously is
 
-<div class="equation" id="import-auto-id2679980">
+<div class="equation" >
  $${P}_{1}+\frac{1}{2}\rho v_{1}^{2}+\rho gh_{1}={P}_{2}+\frac{1}{2}\rho v_{2}^{2}+\rho gh_{2}\text{.} $$
 </div>
 
@@ -28,20 +28,20 @@ $${P}_{2} $$ must be atmospheric pressure, since the emerging water is
 surrounded by the atmosphere and cannot have a pressure different from
 atmospheric pressure.) and subtract out of the equation, leaving
 
-<div class="equation" id="import-auto-id2653363">
+<div class="equation" >
  $$\frac{1}{2}\rho v_{1}^{2}+\rho gh_{1}=\frac{1}{2}\rho v_{2}^{2}+\rho gh_{2}\text{.} $$
 </div>
 
 Solving this equation for $${v}_{2}^{2} $$ , noting that the density $$\rho $$
 cancels (because the fluid is incompressible), yields
 
-<div class="equation" id="import-auto-id2654856">
+<div class="equation" >
  $${v}_{2}^{2}={v}_{1}^{2}+2g\left({h}_{1}-{h}_{2}\right)\text{.} $$
 </div>
 
 We let $$h={h}_{1}-{h}_{2} $$ ; the equation then becomes
 
-<div class="equation" id="import-auto-id3356178">
+<div class="equation" >
  $${v}_{2}^{2}={v}_{1}^{2}+2gh $$
 </div>
 

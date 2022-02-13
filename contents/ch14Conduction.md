@@ -108,7 +108,7 @@ heat transfer by conduction and multiplying by time.
 
 6. Multiply the rate of heat transfer by the time (
    $$1\text{day} =86 400\text{s} $$ )    :
-   <div class="equation" id="import-auto-id3387697">
+   <div class="equation" >
    $$Q=\left(Q/t\right)t=\left( 13.3\text{J/s}\right)\left(86 400\text{s}\right)= 1.15 \times 10^{6} \text{J} \text{.}  $$
    </div>
 

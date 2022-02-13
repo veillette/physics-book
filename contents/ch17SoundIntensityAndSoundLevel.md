@@ -402,7 +402,7 @@ What is the intensity in watts per meter squared of 85.0-dB sound?
 
 </div>
 <div class="solution">
-<div class="equation" id="import-auto-id3077432">
+<div class="equation" >
  $$3.16 \times 10^{-4}  {\text{W/m}}^{2} $$
 </div>
 </div>

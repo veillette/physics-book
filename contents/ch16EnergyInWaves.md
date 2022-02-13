@@ -78,29 +78,29 @@ can be solved for E with the given information.
 **Solution a**
 
 1. Begin with the equation that states the definition of intensity:
-   <div class="equation" id="import-auto-id2689097">
+   <div class="equation" >
     $$I=\frac{P}{A}. $$
    </div>
 
 2. Replace $$P $$ with its equivalent $$E/t $$     
    \:
-   <div class="equation" id="import-auto-id2437920">
+   <div class="equation" >
     $$I=\frac{E/t}{A}. $$
    </div>
 
 3. Solve for $$E $$     
    \:
-   <div class="equation" id="import-auto-id1997176">
+   <div class="equation" >
     $$E= IAt. $$
    </div>
 
 4. Substitute known values into the equation:
-   <div class="equation" id="import-auto-id3285558">
+   <div class="equation" >
     $$E=\left(700 {\text{W/m}}^{2}\right)\left( 0.500 {\text{m}}^{2}\right)\left[ \left( 4.00 \text{h}\right)\left(3600 \text{s/h}\right)\right]  . $$
    </div>
 
 5. Calculate to find $$E $$ and convert units:
-   <div class="equation" id="import-auto-id1319463">
+   <div class="equation" >
     $$ 5.04 \times 10^{6}  \text{J}, $$
    </div>
 
@@ -123,22 +123,22 @@ quantities will cancel.
    </div>
 
 2. Identify the knowns:
-   <div class="equation" id="import-auto-id2692789">
+   <div class="equation" >
     $$A=200A^{\prime}, $$
    </div>
 
-   <div class="equation" id="import-auto-id2684269">
+   <div class="equation" >
     $$\frac{I^{\prime}}{I}=200. $$
    </div>
 
 3. Substitute known quantities:
-   <div class="equation" id="import-auto-id1318204">
+   <div class="equation" >
     $$I^{\prime}=200I=200\left(700 {\text{W/m}}^{2}\right). $$
    </div>
 
 4. Calculate to find $$I^{\prime} $$     
    \:
-   <div class="equation" id="import-auto-id2680305">
+   <div class="equation" >
     $$I^{\prime}= 1.40 \times 10^{5}  {\text{W/m}}^{2}. $$
    </div>
 
@@ -168,24 +168,24 @@ of the resulting wave is four times as great as in the individual waves.
 
 1. Recall that intensity is proportional to amplitude squared.
 2. Calculate the new amplitude:
-   <div class="equation" id="import-auto-id969598">
+   <div class="equation" >
    $$I^{\prime}\propto {\left(X^{\prime}\right)}^{2}={\left(2X\right)
    }^{2}={4X}^{2}. $$
    </div>
 
 3. Recall that the intensity of the old amplitude was:
-   <div class="equation" id="import-auto-id1525319">
+   <div class="equation" >
     $${I}^{}\propto {X}^{2}. $$
    </div>
 
 4. Take the ratio of new intensity to the old intensity. This gives:
-   <div class="equation" id="import-auto-id3181149">
+   <div class="equation" >
     $$\frac{I^{\prime}}{I}=4. $$
    </div>
 
 5. Calculate to find $$I^{\prime} $$     
    \:
-   <div class="equation" id="import-auto-id1419064">
+   <div class="equation" >
     $$I^{\prime}=4I= 4.00 {\text{W/m}}^{2}. $$
    </div>
 

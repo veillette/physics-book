@@ -52,7 +52,7 @@ performed many experiments to establish the **mechanical equivalent of heat**—
 the work needed to produce the same effects as heat transfer*. In terms of the
 units used for these two terms, the best modern value for this equivalence is
 
-<div class="equation" id="import-auto-id1738243" >
+<div class="equation"  >
  $$ 1.000 \text{kcal}=4186 \text{J}\text{.} $$
 </div>
 

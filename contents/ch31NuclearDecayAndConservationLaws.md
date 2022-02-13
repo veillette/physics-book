@@ -559,7 +559,7 @@ table for values of $$Z $$.
 
 </div>
 <div class="solution">
-<div class="equation" id="import-auto-id2384056">
+<div class="equation" >
  $${}_{1}^{3}{\text{H}}_{2}\to {}_{2}^{3}{\text{He}}_{1}+{\beta }^{-}+{\overline{\nu }}_{e} $$
 </div>
 </div>
@@ -581,7 +581,7 @@ table for values of $$Z $$.
 
 </div>
 <div class="solution">
-<div class="equation" id="import-auto-id3253996">
+<div class="equation" >
  $${}_{25}^{50}{M}_{25}\to {}_{24}^{50}{\text{Cr}}_{26}+{\beta }^{+}+{\nu }_{e} $$
 </div>
 </div>
@@ -601,7 +601,7 @@ Electron capture by  $${}^{7}\text{Be} $$.
 
 </div>
 <div class="solution">
-<div class="equation" id="import-auto-id1488206">
+<div class="equation" >
  $${}_{4}^{7}{\text{Be}}_{3}+{e}^{-}\to {}_{3}^{7}{\text{Li}}_{4}+{\nu }_{e} $$
 </div>
 </div>
@@ -623,7 +623,7 @@ Electron capture by  $${}^{106}\text{In} $$.
 
 </div>
 <div class="solution">
-<div class="equation" id="import-auto-id3076865">
+<div class="equation" >
  $${}_{84}^{210}{\text{Po}}_{126}\to {}_{82}^{206}{\text{Pb}}_{124}+{}_{2}^{4}{\text{He}}_{2} $$
 </div>
 </div>
@@ -651,7 +651,7 @@ periodic table for values of $$Z $$.
 
 </div>
 <div class="solution">
-<div class="equation" id="import-auto-id3036694">
+<div class="equation" >
  $${}_{55}^{137}{\text{Cs}}_{82}\to {}_{56}^{137}{\text{Ba}}_{81}+{\beta }^{-}+{\overline{\nu }}_{e} $$
 </div>
 </div>
@@ -676,7 +676,7 @@ periodic table for values of $$Z $$.
 
 </div>
 <div class="solution">
-<div class="equation" id="import-auto-id1894648">
+<div class="equation" >
  $${}_{90}^{232}{\text{Th}}_{142}\to {}_{88}^{228}{\text{Ra}}_{140}+{}_{2}^{4}{\text{He}}_{2} $$
 </div>
 </div>
@@ -728,7 +728,7 @@ Confirm that charge, electron family number, and the total number of nucleons ar
 
 </div>
 <div class="solution">
-<div class="equation" id="import-auto-id1464681">
+<div class="equation" >
  $$Z=\left(Z+1\right)-1;   A=A\text{;}   \text{efn : 0}=\left(+1\right)+\left(-1\right) $$
 </div>
 </div>
@@ -750,7 +750,7 @@ Confirm that charge, electron family number, and the total number of nucleons ar
 
 </div>
 <div class="solution">
-<div class="equation" id="import-auto-id2648112">
+<div class="equation" >
  $$Z-1=Z-1;   A=A;   \text{efn :}\left(+1\right)=\left(+1\right) $$
 </div>
 </div>

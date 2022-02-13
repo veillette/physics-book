@@ -283,7 +283,7 @@ water at the melting temperature, then the temperature of this water rises.
 Melting yields water at $$0\text{ºC} $$ , so more heat is transferred from the
 soda to this water until the water plus soda system reaches thermal equilibrium,
 
-<div class="equation" id="import-auto-id1398723">
+<div class="equation" >
  $${Q}_{\text{ice}}=-{Q}_{\text{soda}}\text{.} $$
 </div>
 The heat transferred to the ice is  $${Q}_{\text{ice}}={m}_{\text{ice}}{L}_{\text{f}}+{m}_{\text{ice}}{c}_{\text{W}}\left({T}_{\text{f}}-0\text{ºC}\right) $$ .

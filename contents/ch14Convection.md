@@ -67,20 +67,20 @@ specific heat at constant pressure must be used for this process).
 
 1. Determine the mass of air from its density and the given volume of the house.
    The density is given from the density $$\rho $$ and the volume
-   <div class="equation" id="import-auto-id742536">
+   <div class="equation" >
     $$m=\text{ρV}=\left( 1.29 {\text{kg/m}}^{3}\right)\left( 12.0 \text{m}× 18.0 \text{m}×3.00 \text{m}\right)=836 \text{kg} \text{.}  $$
    </div>
 
 2. Calculate the heat transferred from the change in air temperature:
    $$Q=mc\Delta T $$ so that
-   <div class="equation" id="import-auto-id3423422">
+   <div class="equation" >
     $$Q=\left(836 \text{kg}\right)\left(1000 \text{J/kg}\cdot \text{ºC}\right)\left(10.0 \text{ºC}\right)=  8.36 \times 10^{6}  \text{J} \text{.}  $$
    </div>
 
 3. Calculate the heat transfer from the heat $$Q $$ and the turnover time $$t $$
    . Since air is turned over in $$t= 0.500 \text{h}=1800 \text{s} $$ , the heat
    transferred per unit time is
-   <div class="equation" id="import-auto-id3085478">
+   <div class="equation" >
     $$\frac{Q}{t}=\frac{ 8.36 \times 10^{6 }\text{J}}{1800 \text{s}}= 4.64 \text{kW} \text{.}  $$
    </div>
 
@@ -310,13 +310,13 @@ The average person produces heat at the rate of about 120 W when at rest. At wha
 Energy is needed for a phase change ( $$Q=m L_{\text{v}} $$ ). Thus, the energy
 loss per unit time is
 
-<div class="equation" id="import-auto-id2420524">
+<div class="equation" >
  $$\frac{Q}{t}=\frac{ m L_{\text{v}}}{t}=120 \text{W}=120 \text{J/s} \text{.}  $$
 </div>
 We divide both sides of the equation by  $${L}_{\text{v}} $$
  to find that the mass evaporated per unit time is
 
-<div class="equation" id="import-auto-id1438952">
+<div class="equation" >
  $$\frac{m}{t}=\frac{120\text{J/s}}{ {L}_{\text{v}}}\text{.} $$
 </div>
 **Solution**
@@ -325,7 +325,7 @@ We divide both sides of the equation by  $${L}_{\text{v}} $$
 from [[link]](../contents/ch14PhaseChangeAndLatentHeat#import-auto-id3260303), $${L}_
 {\text{v}}=2430\text{kJ/kg}=2430\text{J/g} $$ . This yields
 
-<div class="equation" id="import-auto-id3033754">
+<div class="equation" >
  $$\frac{m}{t}=\frac{120\text{J/s}}{2430\text{J/g}}= 0.0494\text{g/s}= 2.96\text{g/min} \text{.}  $$
 </div>
 **Discussion**

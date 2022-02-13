@@ -290,7 +290,7 @@ The image in which light rays from one point on the object actually cross at the
 
 Several important distances appear in [[Figure 7]](#Figure7). We define $${d}_
 {\text{o}} $$ to be the object distance, the distance of an object from the
-center of a lens. <strong class="term" id="import-auto-id952304">Image
+center of a lens. <strong class="term" >Image
 distance </strong> $${d}_{\text{i}} $$ is defined to be the distance of the
 image from the center of a lens. The height of the object and height of the
 image are given the symbols $${h}_{\text{o}} $$ and $${h}_{\text{i}} $$ ,

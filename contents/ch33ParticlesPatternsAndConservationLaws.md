@@ -588,7 +588,7 @@ than their wavelength, so that we know they are pointlike down to about $$
 conservation laws for three quantum numbers. One of these was known from $$\beta
 $$ decay, where the existence of the electron’s neutrino implied that a new
 quantum number, called
-the <strong class="term" id="import-auto-id1169736583958">electron family
+the <strong class="term" >electron family
 number </strong> $${L}_{e} $$ is conserved. Thus, in $$\beta $$ decay, an
 antielectron’s neutrino $${\stackrel{-}{\nu}}_{e} $$ must be created with $${L}_
 {e}=-1 $$ when an electron with $${L}_{e}=+1 $$ is created, so that the total

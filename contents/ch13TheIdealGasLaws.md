@@ -62,7 +62,7 @@ Ideal Gas Law
 </div>
 The **ideal gas law** states that
 
-<div class="equation" id="import-auto-id2374115">
+<div class="equation" >
  $$PV=Nk_{B}T, $$
 </div>
 where  $$P $$  is the absolute pressure of a gas,  $$V $$
@@ -71,7 +71,7 @@ where  $$P $$  is the absolute pressure of a gas,  $$V $$
  is its absolute temperature. The constant  $$k_{B} $$
  is called the **Boltzmann constant** in honor of Austrian physicist Ludwig Boltzmann (1844–1906) and has the value
 
-<div class="equation" id="import-auto-id1586104">
+<div class="equation" >
  $$k_{B}= 1.38 \times 10^{-23}  \text{J}/\text{K}. $$
 </div>
 </div>
@@ -119,7 +119,7 @@ $$ are not specified. What we can do is use the equation twice:  $${P}_{0}{V}_
 we divide $${P}_{\text{f}}{V}_{\text{f}} $$ by $${P}_{0}{V}_{0} $$ we can come
 up with an equation that allows us to solve for $${P}_{\text{f}} $$.
 
-<div class="equation" id="import-auto-id2084395">
+<div class="equation" >
  $$\frac{ {P}_{\text{f}}{V}_{\text{f}}}{ {P}_{0}{V}_{0}}=\frac{ {N}_{\text{f}}{k_{B}T}_{\text{f}}}{ {N}_{0}{k_{B}T}_{0}} $$
 </div>
 Since the volume is constant,  $${V}_{\text{f}} $$
@@ -128,13 +128,13 @@ Since the volume is constant,  $${V}_{\text{f}} $$
  and  $${N}_{0} $$ ,
  and  $$k $$ ,  which is a constant. Therefore,
 
-<div class="equation" id="import-auto-id1807145">
+<div class="equation" >
  $$\frac{ {P}_{\text{f}}}{ {P}_{0}}=\frac{ {T}_{\text{f}}}{ {T}_{0}}\text{.} $$
 </div>
 We can then rearrange this to solve for  $${P}_{\text{f}} $$
 \:
 
-<div class="equation" id="import-auto-id2084642">
+<div class="equation" >
  $${P}_{\text{f}}={P}_{0}\frac{ {T}_{\text{f}}}{ {T}_{0}}, $$
 </div>
 where the temperature must be in units of kelvins, because  $${T}_{0} $$
@@ -145,12 +145,12 @@ where the temperature must be in units of kelvins, because  $${T}_{0} $$
 
 1. Convert temperatures from Celsius to Kelvin.
 
-<div class="equation" id="import-auto-id2387502">
+<div class="equation" >
  $$\begin{array}{}{T}_{0}=\left( 18.0+273\right)\text{K}=291 \text{K}\\ {T}_{\text{f}}=\left( 35.0+273\right)\text{K}=308 \text{K}\end{array} $$
 </div>
 2. Substitute the known values into the equation.
 
-<div class="equation" id="import-auto-id2677638">
+<div class="equation" >
  $${P}_{\text{f}}={P}_{0}\frac{ {T}_{\text{f}}}{ {T}_{0}}= 7.00 \times 10^{5}  \text{Pa}\left(\frac{308 \text{K}}{291 \text{K}}\right)= 7.41 \times 10^{5}  \text{Pa} $$
 </div>
 **Discussion**
@@ -189,19 +189,19 @@ ideal gas law $$PV=Nk_{B}T $$ , to find $$N $$.
 
 1. Identify the knowns.
 
-<div class="equation" id="import-auto-id2409094">
+<div class="equation" >
  $$\begin{array}{lll}T& =& 0\text{ºC}=273 \text{K}\\ P& =&  1.01 \times 10^{5}  \text{Pa}\\ V& =&  1.00 {\text{m}}^{3}\\ k& =&  1.38 \times 10^{-23}  \text{J/K}\end{array} $$
 </div>
 2. Identify the unknown: number of molecules,  $$N $$.
 
 3. Rearrange the ideal gas law to solve for $$N $$.
 
-<div class="equation" id="import-auto-id3224643">
+<div class="equation" >
  $$\begin{array}{}PV=Nk_{B}T\\ N=\frac{PV}{k_{B}T}\end{array} $$
 </div>
 4. Substitute the known values into the equation and solve for  $$N $$.
 
-<div class="equation" id="import-auto-id2887530">
+<div class="equation" >
  $$N=\frac{PV}{k_{B}T}=\frac{\left( 1.01 \times 10^{5}  \text{Pa}\right)\left(1.00 {\text{m}}^{3}\right)}{\left( 1.38 \times 10^{-23}  \text{J/K}\right)\left(273 \text{K}\right)}= 2.68 \times 10^{25}  \text{molecules} $$
 </div>
 **Discussion**
@@ -226,7 +226,7 @@ equal volumes of gas, at the same pressure and temperature, contain equal
 numbers of molecules. That is, the number is independent of the type of gas.
 This hypothesis has been confirmed, and the value of Avogadro’s number is
 
-<div class="equation" id="import-auto-id2677659">
+<div class="equation" >
  $${N}_{\text{A}}= 6.02 \times 10^{23}  {\text{mol}}^{-1}\text{.} $$
 </div>
 
@@ -237,7 +237,7 @@ Avogadro’s Number
 One mole always contains  $$ 6.02 \times 10^{23}  $$
  particles (atoms or molecules), independent of the element or substance. A mole of any substance has a mass in grams equal to its molecular mass, which can be calculated from the atomic masses given in the periodic table of elements.
 
-<div class="equation" id="import-auto-id2919405">
+<div class="equation" >
  $${N}_{\text{A}}= 6.02 \times 10^{23}  {\text{mol}}^{-1} $$
 </div>
 </div>
@@ -256,17 +256,17 @@ The active ingredient in a Tylenol pill is 325 mg of acetaminophen  $$\left({\te
 <div class="solution" markdown="1">
 We first need to calculate the molar mass (the mass of one mole) of acetaminophen. To do this, we need to multiply the number of atoms of each element by the element’s atomic mass.
 
-<div class="equation" id="import-auto-id2919489">
+<div class="equation" >
  $$\begin{array}{}\left(8 \text{moles of carbon}\right)\left(12 \text{grams/mole}\right)+\left(9 \text{moles hydrogen}\right)\left(1 \text{gram/mole}\right)\\ +\left(1 \text{mole nitrogen}\right)\left(14 \text{grams/mole}\right)+\left(2 \text{moles oxygen}\right)\left(16 \text{grams/mole}\right)=151 \text{g}\end{array} $$
 </div>
 Then we need to calculate the number of moles in 325 mg.
 
-<div class="equation" id="import-auto-id2386722">
+<div class="equation" >
  $$\left(\frac{325 \text{mg}}{151 \text{grams/mole}}\right)\left(\frac{1 gram}{1000 \text{mg}}\right)= 2.15 \times 10^{-3}  \text{moles} $$
 </div>
 Then use Avogadro’s number to calculate the number of molecules.
 
-<div class="equation" id="import-auto-id2627386">
+<div class="equation" >
  $$N=\left( 2.15 \times 10^{-3}  \text{moles}\right)\left( 6.02 \times 10^{23}  \text{molecules/mole}\right)= 1.30 \times 10^{21}  \text{molecules} $$
 </div>
 </div>
@@ -287,12 +287,12 @@ is $$ 2.68 \times 10^{25} $$ . The number of moles can be found by dividing the
 number of molecules by Avogadro’s number. We let $$n $$ stand for the number of
 moles,
 
-<div class="equation" id="import-auto-id2564703">
+<div class="equation" >
  $$n {\text{mol/m}}^{3}=\frac{N {\text{molecules/m}}^{3}}{ 6.02 \times 10^{23}  \text{molecules/mol}}=\frac{ 2.68 \times 10^{25}  {\text{molecules/m}}^{3}}{ 6.02 \times 10^{23}  \text{molecules/mol}}= 44.5 {\text{mol/m}}^{3}\text{.} $$
 </div>
 (b) Using the value obtained for the number of moles in a cubic meter, and converting cubic meters to liters, we obtain
 
-<div class="equation" id="import-auto-id2919356">
+<div class="equation" >
  $$\frac{\left(10^{3} {\text{L/m}}^{3}\right)}{ 44.5 {\text{mol/m}}^{3}}= 22.5 \text{L/mol}\text{.} $$
 </div>
 **Discussion**
@@ -334,14 +334,14 @@ A very common expression of the ideal gas law uses the number of moles, $$n $$ ,
 rather than the number of atoms and molecules, $$N $$ . We start from the ideal
 gas law,
 
-<div class="equation" id="import-auto-id2689659">
+<div class="equation" >
  $$PV=\text{Nk_{B}T} \text{,}  $$
 </div>
 
 and multiply and divide the equation by Avogadro’s number $${N}_{\text{A}} $$ .
 This gives
 
-<div class="equation" id="import-auto-id2889307">
+<div class="equation" >
  $$PV=\frac{N}{ {N}_{\text{A}}}{N}_{\text{A}}k_{B}T\text{.} $$
 </div>
 
@@ -360,12 +360,12 @@ The ideal gas law (in terms of moles) is
 </div>
 The numerical value of  $$R $$  in SI units is
 
-<div class="equation" id="import-auto-id3226853">
+<div class="equation" >
  $$R={N}_{\text{A}}k=\left( 6.02 \times 10^{23}  {\text{mol}}^{-1}\right)\left( 1.38 \times 10^{-23}  \text{J/K}\right)= 8.31 \text{J}/\text{mol}\cdot \text{K}. $$
 </div>
 In other units,
 
-<div class="equation" id="import-auto-id2919790">
+<div class="equation" >
  $$\begin{array}{lll}R& =&  1.99 \text{cal/mol}\cdot \text{K}\\ R& =& 0.0821 \text{L}\cdot \text{atm/mol}\cdot \text{K}\text{.}\end{array} $$
 </div>
 You can use whichever value of  $$R $$
@@ -392,12 +392,12 @@ of moles $$n $$.
 
 1. Identify the knowns.
 
-<div class="equation" id="import-auto-id2124330">
+<div class="equation" >
  $$\begin{array}{lll}P& =&  7.00 \times 10^{5}  \text{Pa}\\ V& =&  2.00 \times 10^{-3}  {\text{m}}^{3}\\ T& =&  18.0\text{ºC}=291 \text{K}\\ R& =&  8.31 \text{J/mol}\cdot \text{K}\end{array} $$
 </div>
 2. Rearrange the equation to solve for  $$n $$  and substitute known values.
 
-<div class="equation" id="import-auto-id2402631">
+<div class="equation" >
  $$\begin{array}{lll}n& =& \frac{PV}{RT}=\frac{\left( 7.00 \times 10^{5}  \text{Pa}\right)\left( 2.00 \times 10^{-3}  {\text{m}}^{3}\right)}{\left( 8.31 \text{J/mol}\cdot \text{K}\right)\left(291 \text{K}\right)}\\  & =&  0.579  \text{mol}\end{array} $$
 </div>
 **Discussion**
@@ -488,14 +488,14 @@ Atoms and molecules are close together in solids and liquids. In gases they are 
   gas molecules and the temperature of the gas.
 * The ideal gas law can be written in terms of the number of molecules of gas:
 
-  <div class="equation" id="import-auto-id739597">
+  <div class="equation" >
    $$PV=Nk_{B}T, $$
   </div>
      where    $$P $$ is pressure,
    $$V $$ is volume,    $$T $$ is temperature,
    $$N $$ is number of molecules, and
    $$k_{B} $$ is the Boltzmann constant
-  <div class="equation" id="import-auto-id2564573">
+  <div class="equation" >
    $$k_{B}= 1.38 \times 10^{-23} \text{J/K}. $$
   </div>
 
@@ -503,7 +503,7 @@ Atoms and molecules are close together in solids and liquids. In gases they are 
 * The number of molecules in a mole is called Avogadro’s number $${N}_{\text{A}}
   $$ ,
 
-  <div class="equation" id="import-auto-id2402820">
+  <div class="equation" >
    $${N}_{\text{A}}= 6.02 \times 10^{23}  {\text{mol}}^{-1}. $$
   </div>
 
@@ -512,12 +512,12 @@ Atoms and molecules are close together in solids and liquids. In gases they are 
 * The ideal gas law can also be written and solved in terms of the number of
   moles of gas:
 
-  <div class="equation" id="import-auto-id2599038">
+  <div class="equation" >
    $$PV=nRT, $$
   </div>
      where    $$n $$ is number of moles and
    $$R $$ is the universal gas constant,
-  <div class="equation" id="import-auto-id2862692">
+  <div class="equation" >
    $$R= 8.31 \text{J/mol}\cdot \text{K}. $$
   </div>
 

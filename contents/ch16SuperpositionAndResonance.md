@@ -278,7 +278,7 @@ Make waves with a dripping faucet, audio speaker, or laser! Add a second source 
   are superimposed. The resulting amplitude oscillates with a beat frequency
   given by
 
-  <div class="equation" id="import-auto-id1525260">
+  <div class="equation" >
    $${f}_{\text{B}}=\mid {f}_{1}-{f}_{2} \mid . $$
   </div>
 

@@ -18,7 +18,7 @@ possible to predict when a moving object creates turbulence. We use another form
 of the Reynolds number $$N^{\prime}_{\text{R}} $$ , defined for an object moving
 in a fluid to be
 
-<div class="equation" id="import-auto-id3230050">
+<div class="equation" >
  $$N^{\prime}_{\text{R}}=\frac{\rho vL}{\eta }\text{(object in fluid),} $$
 </div>
 
@@ -53,7 +53,7 @@ found in tables of density and viscosity.
 
 Substituting values into the equation for $$N^{\prime}_{\text{R}} $$ yields
 
-<div class="equation" id="import-auto-id694467">
+<div class="equation" >
  $$\begin{array}{lll}N^{\prime}_{\text{R}}& =& \frac{\rho vL}{\eta }=\frac{\left(1.29 {\text{kg/m}}^{3}\right)\left(40.0 \text{m/s}\right)\left(0.0740 \text{m}\right)}{ 1.81 \times 10^{-5}  1.00 \text{Pa}\cdot \text{s}}\\ N^{\prime}_{\text{R}}& =&  2.11 \times 10^{5} \text{.}\end{array} $$
 </div>
 **Discussion**
@@ -83,7 +83,7 @@ expect. Recall Stoke’s law $${F}_{\text{S}}=6\pi r\eta v $$ . For the special
 case of a small sphere of radius $$R $$ moving slowly in a fluid of viscosity
 $$\eta $$ , the drag force $${F}_{\text{S}} $$ is given by
 
-<div class="equation" id="import-auto-id1506814">
+<div class="equation" >
  $${F}_{\text{S}}=6\pi R\eta v\text{.} $$
 </div>
 
