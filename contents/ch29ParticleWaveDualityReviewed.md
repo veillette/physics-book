@@ -80,10 +80,10 @@ Problem-Solving Strategy
 
 </div>
 
-[[link]](#fs-id2093530) illustrates how these strategies are applied to an
+[[Example 1]](#Example1) illustrates how these strategies are applied to an
 integrated-concept problem.
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Recoil of a Dust Particle after Absorbing a Photon
 </div>

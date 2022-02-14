@@ -29,7 +29,7 @@ distance, too, depends on the observer’s relative motion. If two observers see
 different times, then they must also see different distances for relative speed
 to be the same to each of them.
 
-The muon discussed in [[link]](../contents/ch28SimultaneityAndTimeDilation#fs-id3081310) illustrates this concept.
+The muon discussed in [[Example 1]](../contents/ch28SimultaneityAndTimeDilation#Example1) illustrates this concept.
 To an observer on the Earth, the muon travels at $$0.950c $$ for $$7.05 \mu s $$
 from the time it is produced until it decays. Thus it travels a distance
 

@@ -114,7 +114,7 @@ diagnostics. Roentgen received the 1901 Nobel Prize for the discovery of x rays.
 <div class="title">
 Connections: Conservation of Energy
 </div>
-Once again, we find that conservation of energy allows us to consider the initial and final forms that energy takes, without having to make detailed calculations of the intermediate steps. [[link]](#fs-id1558291) is solved by considering only the initial and final forms of energy.
+Once again, we find that conservation of energy allows us to consider the initial and final forms that energy takes, without having to make detailed calculations of the intermediate steps. [[Example 1]](#Example1) is solved by considering only the initial and final forms of energy.
 
 </div>
 
@@ -133,7 +133,7 @@ electrons originate at the cathode, so such a tube is called a cathode ray
 tube (CRT), and various versions of them are found in older TV and computer
 screens as well as in x-ray machines.
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 X-ray Photon Energy and X-ray Tube Voltage
 </div>

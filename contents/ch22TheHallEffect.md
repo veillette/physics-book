@@ -211,7 +211,7 @@ A Hall probe calibrated to read  $$1.00 \text{μV} $$
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Using information in [[link]](../contents/ch20ResistanceAndResistivity#fs-id1889050), what would the Hall voltage be if a 2.00-T field is applied across a 10-gauge copper wire (2.588 mm in diameter) carrying a 20.0-A current?
+Using information in [[Example 2]](../contents/ch20ResistanceAndResistivity#Example2), what would the Hall voltage be if a 2.00-T field is applied across a 10-gauge copper wire (2.588 mm in diameter) carrying a 20.0-A current?
 
 </div>
 <div class="solution" markdown="1">
