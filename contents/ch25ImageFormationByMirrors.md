@@ -155,7 +155,7 @@ This must be inverted to find  $${d}_{\text{o}} $$
 \:
 
 <div class="equation" >
- $${d}_{\text{o}}=\frac{1 \text{m}}{ 3.667}= 27.3 cm. $$
+ $${d}_{\text{o}}=\frac{1 \text{m}}{ 3.667}= 27.3 \text{cm}. $$
 </div>
 **Discussion**
 
@@ -216,12 +216,12 @@ quarter-section of a cylinder, so the area for a length $$L $$ of the mirror is
 $$A=\frac{1}{4}\left(2\pi R\right)L $$ . The area for a length of 1.00 m is then
 
 <div class="equation" >
- $$A=\frac{\pi }{2}R\left(1.00 m\right)=\frac{\left(3.14\right)}{2}\left(0.800 m\right)\left(1.00 m\right)=1.26 {m}^{2}. $$
+ $$A=\frac{\pi }{2}R\left(1.00 \text{m}\right)=\frac{\left(3.14\right)}{2}\left(0.800 \text{m}\right)\left(1.00 \text{m} \right)=1.26 \text{m}^{2}. $$
 </div>
 The insolation on the 1.00-m length of pipe is then
 
 <div class="equation" >
- $$\left(9.00 \times 10^{2} \frac{W}{ {m}^{2}}\right)\left(1.26 {m}^{2}\right)=1130 W. $$
+ $$\left(9.00 \times 10^{2} \frac{W}{ \text{m}^{2}}\right)\left(1.26 \text{m}^{2}\right)=1130 \text{W}. $$
 </div>
 **Solution to (c)**
 
@@ -229,12 +229,16 @@ The increase in temperature is given by $$Q=mc\Delta T $$ . The mass $$m $$ of
 the mineral oil in the one-meter section of pipe is
 
 <div class="equation" >
- $$\begin{array}{lll}m& =& \rho \text{V}=\rho \pi {\left(\frac{d}{2}\right)}^{2}\left(1.00 m\right)\\ & =& \left(8.00 \times 10^{2}  {\text{kg/m}}^{3}\right) (3.14) { \left( 0.0100 \text{m}\right)}^{2} \left(1.00 m\right)\\ & =& 0.251 kg.\end{array} $$
+ $$\begin{array}{lll}m& =& \rho V =\rho \pi {\left(\frac{d}{2}\right)}^{2}\left(1.00 \text{m}\right)\\ 
+m& =& \left(8.00 \times 10^{2}  {\text{kg/m}}^{3}\right) (3.14) { \left( 0.0100 \text{m}\right)}^{2} \left(1.00 \text{m}\right)\\ 
+m& =& 0.251 \text{kg}.\end{array} $$
 </div>
 Therefore, the increase in temperature in one minute is
 
 <div class="equation" >
- $$\begin{array}{lll}\Delta T& =& Q/mc\\ & =& \frac{\left(1130 \text{W}\right)\left(60.0 \text{s}\right)}{\left(0.251 \text{kg}\right)\left(1670 \text{J·kg/ºC}\right)}\\ & =& 162\text{ºC} .\end{array} $$
+ $$\begin{array}{lll}\Delta T& =& Q/mc\\
+\Delta T & =& \frac{\left(1130 \text{W}\right)\left(60.0 \text{s}\right)}{\left(0.251 \text{kg}\right)\left(1670 \text{J·kg/ºC}\right)}\\ 
+\Delta T& =& 162\text{ºC} .\end{array} $$
 </div>
 **Discussion for (c)**
 
@@ -264,8 +268,7 @@ locating the upright virtual image behind the mirror and showing it to be larger
 than the object. (b) Makeup mirrors are perhaps the most common use of a concave
 mirror to produce a larger, upright image.
 
-A convex mirror is a diverging mirror ( $$f $$
-** is negative) and forms only one type of image. It is a *case 3* image—one
+A convex mirror is a diverging mirror ( $$f $$ is negative) and forms only one type of image. It is a *case 3* image—one
 that is upright and smaller than the object, just as for diverging
 lenses. [[Figure 7]](#Figure7)(a) uses ray tracing to illustrate the location
 and size of the case 3 image for mirrors. Since the image is behind the mirror,
@@ -297,7 +300,7 @@ $$m=-d_{\text{i}}/{d}_{\text{o}} $$ . Solving this expression for $${d}_
 {\text{i}} $$ gives
 
 <div class="equation" >
- $${d}_{\text{i}}=-\text{m} d_{\text{o}}\text{.} $$
+ $${d}_{\text{i}}=- m  d_{\text{o}}\text{.} $$
 </div>
 Entering known values yields
 
