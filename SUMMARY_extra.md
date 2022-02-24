@@ -22,7 +22,7 @@
     2.  [Discovery of the Parts of the Atom: Electrons and Nuclei](contents/ch30DiscoveryOfThePartsOfTheAtom.md)
     3.  [Bohr’s Theory of the Hydrogen Atom](contents/ch30BohrsTheoryOfTheHydrogenAtom.md)
     4.  [X Rays: Atomic Origins and Applications](contents/ch30XRays.md)
-    5.  [Applications of Atomic Excitations and De-Excitations](contents/ch30AppicationOfAtomicExcitationsAndDeexcitations.md)
+    5.  [Applications of Atomic Excitations and De-Excitations](contents/ch30ApplicationOfAtomicExcitationsAndDeexcitations.md)
     6.  [The Wave Nature of Matter Causes Quantization](contents/ch30TheWaveNatureOfMatterCausesQuantization.md)
     7.  [Patterns in Spectra Reveal More Quantization](contents/ch30PatternsInSpectraRevealMoreQuantization.md)
     8.  [Quantum Numbers and Rules](contents/ch30QuantumNumbersAndRules.md)
