@@ -133,7 +133,7 @@ where  $${d}^\prime_{\text{i}}  $$
 \:
 
 <div class="equation" >
- $$\frac{1}{ {d}^\prime_{\text{i}} }=\frac{1}{ {f}_{\text{e}}}-\frac{1}{ {d}^\prime_{\text{o}} }=\frac{1}{50.0 \text{mm}}-\frac{1}{44.0 \text{mm}}=-\frac{0.00273}{mm}. $$
+ $$\frac{1}{ {d}^\prime_{\text{i}} }=\frac{1}{ {f}_{\text{e}}}-\frac{1}{ {d}^\prime_{\text{o}} }=\frac{1}{50.0 \text{mm}}-\frac{1}{44.0 \text{mm}}=-\frac{0.00273}{\text{mm}}. $$
 </div>
 Inverting gives
 
@@ -172,9 +172,8 @@ Normal optical microscopes can magnify up to $$1500× $$ with a theoretical
 resolution of $$-0.2 \text{μm} $$ . The lenses can be quite complicated and are
 composed of multiple elements to reduce aberrations. Microscope objective lenses
 are particularly important as they primarily gather light from the specimen.
-Three parameters describe microscope objectives: the **numerical aperture
-$$\text{(NA)} $$
-**, the magnification $$\left(m\right) $$ , and the working distance. The
+Three parameters describe microscope objectives: the **numerical aperture **
+$$\text{(NA)} $$ , the magnification $$\left(m\right) $$ , and the working distance. The
 $$\text{NA} $$ is related to the light gathering ability of a lens and is
 obtained using the angle of acceptance $$\theta $$ formed by the maximum cone of
 rays focusing on the specimen (see [[Figure 3]](#Figure3)(a)) and is given by
@@ -214,7 +213,7 @@ the aperture controlling the light into the lens (see [[Figure 3]](#Figure3)(b))
 used as given below.
 
 <div class="equation" >
- $$f\text{/\#}=\frac{f}{D}\approx \frac{1}{2\text{NA}}. $$
+ $$f/\#=\frac{f}{D}\approx \frac{1}{2\text{NA}}. $$
 </div>
 
 As the $$f $$ -number decreases, the camera is able to gather light from a
