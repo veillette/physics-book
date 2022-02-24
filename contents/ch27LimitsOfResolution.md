@@ -114,12 +114,12 @@ Entering known values gives
 **Solution for (b)**
 
 The distance $$s $$ between two objects a distance $$r $$ away and separated by
-an angle $$\theta $$ is $$s=\mathrm{r\theta } $$.
+an angle $$\theta $$ is $$s= r\theta $$.
 
 Substituting known values gives
 
 <div class="equation" >
- $$\begin{array}{lll}s& =& \left( 2.0 \times 10^{6}  \text{ly}\right)\left( 2.80 \times 10^{-7}  \text{rad}\right)\\ & =& 0.56\text{ ly.}\end{array} $$
+ $$\begin{array}{lll}s& =& \left( 2.0 \times 10^{6}  \text{ly}\right)\left( 2.80 \times 10^{-7}  \text{rad}\right)\\ s & =& 0.56\text{ ly.}\end{array} $$
 </div>
 **Discussion**
 
@@ -192,7 +192,7 @@ much smaller than $$d $$ ), so that $$\tan \theta \approx \sin \theta \approx
 Therefore, the resolving power is
 
 <div class="equation" >
- $$x=1.22\frac{\mathrm{\lambda d}}{D}\text{.} $$
+ $$x=1.22\frac{\lambda d}{D}\text{.} $$
 </div>
 
 Another way to look at this is by re-examining the concept of Numerical
@@ -216,7 +216,7 @@ at point P.
 From this definition for $$\text{NA} $$ , we can see that
 
 <div class="equation" >
- $$x=1.22\frac{\mathrm{\lambda d}}{D}=1.22\frac{\lambda }{2 \sin \alpha }=0.61\frac{\mathrm{\lambda n}}{\text{NA}}\text{.} $$
+ $$x=1.22\frac{\lambda d}{D}=1.22\frac{\lambda }{2 \sin \alpha }=0.61\frac{\lambda n}{\text{NA}}\text{.} $$
 </div>
 
 In a microscope, $$\text{NA} $$ is important because it relates to the resolving

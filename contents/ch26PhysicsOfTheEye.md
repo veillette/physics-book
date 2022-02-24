@@ -85,7 +85,7 @@ fully accommodated*.
 {: #Figure3}
 
 We will use the thin lens equations to examine image formation by the eye
-quantitatively. First, note the power of a lens is given as $$p=1/f $$ , so we
+quantitatively. First, note the power of a lens is given as $$P=1/f $$ , so we
 rewrite the thin lens equations as
 
 <div class="equation" >
@@ -95,7 +95,7 @@ rewrite the thin lens equations as
 and
 
 <div class="equation" >
- $$\frac{ {h}_{\text{i}}}{ {h}_{\text{o}}}=-\frac{ {d}_{\text{i}}}{ {d}_{\text{o}}}=\mathrm{m.} $$
+ $$\frac{ {h}_{\text{i}}}{ {h}_{\text{o}}}=-\frac{ {d}_{\text{i}}}{ {d}_{\text{o}}}=m . $$
 </div>
 
 We understand that $${d}_{\text{i}} $$ must equal the lens-to-retina distance to
@@ -190,7 +190,9 @@ Since  $$1/\infty =0 $$ ,  this gives
 Now, for close vision,
 
 <div class="equation" >
- $$\begin{array}{lll}P& =& \frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_{\text{i}}}=\frac{1}{0.250 \text{m}}+\frac{1}{0.0200 \text{m}}\\ & =& \frac{4.00}{\text{m}}+\frac{50.0}{\text{m}}=4.00 \text{D}+50.0 \text{D}\\ & =& 54.0 \text{D (close vision).}\end{array} $$
+ $$\begin{array}{lll}P& =& \frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_{\text{i}}}=\frac{1}{0.250 \text{m}}+\frac{1}{0.0200 \text{m}}\\ 
+P & =& \frac{4.00}{\text{m}}+\frac{50.0}{\text{m}}=4.00 \text{D}+50.0 \text{D}\\ 
+P & =& 54.0 \text{D (close vision).}\end{array} $$
 </div>
 **Discussion**
 
