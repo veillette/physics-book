@@ -165,20 +165,6 @@ be used to determine the amount of matter they pass through. As with many
 phenomena, dispersion can be useful or a nuisance, depending on the situation
 and our human goals.
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
-<div class="title">
-PhET Explorations: Geometric Optics
-</div>
-How does a lens form an image? See how light rays are refracted by a lens. Watch how the image changes when you adjust the focal length of the lens, move the object, move the lens, or move the screen. 
-{: class="newline"}
-
-
-{: class="newline"}
-
-<div class="media" id="PhET_module" data-alt="">
-<iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/geometric-optics/latest/geometric-optics_en.html"></iframe>
-</div>
-</div>
 
 ### Section Summary
 
