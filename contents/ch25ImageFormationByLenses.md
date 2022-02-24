@@ -683,7 +683,7 @@ required by the problem. Write symbols and values on the sketch.
 Step 3. Identify exactly what needs to be determined in the problem (identify
 the unknowns).
 
-Step 4. Make a**list of what is given or can be inferred from the problem as
+Step 4. Make a list of what is given or can be inferred from the problem as
 stated (identify the knowns). It is helpful to determine whether the situation
 involves a case 1, 2, or 3 image. While these are just names for types of
 images, they have certain characteristics (given in [[Table 1]](#Table1)) that
@@ -709,6 +709,21 @@ We do not realize that light rays are coming from every part of the object, pass
 We generally feel the entire lens, or mirror, is needed to form an image.
 Actually, half a lens will form the same, though a fainter, image.
 
+</div>
+
+<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+<div class="title">
+PhET Explorations: Geometric Optics
+</div>
+How does a lens form an image? See how light rays are refracted by a lens. Watch how the image changes when you adjust the focal length of the lens, move the object, move the lens, or move the screen. 
+{: class="newline"}
+
+
+{: class="newline"}
+
+<div class="media" id="PhET_module" data-alt="">
+<iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/geometric-optics/latest/geometric-optics_en.html"></iframe>
+</div>
 </div>
 
 ### Section Summary
