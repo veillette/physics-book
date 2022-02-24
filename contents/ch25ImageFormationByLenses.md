@@ -310,7 +310,7 @@ for thin lenses. The **thin lens equations** are
 and
 
 <div class="equation" >
- $$\frac{ {h}_{\text{i}}}{ {h}_{\text{o}}}=-\frac{ {d}_{\text{i}}}{ {d}_{\text{o}}}=\mathrm{m.} $$
+ $$\frac{ {h}_{\text{i}}}{ {h}_{\text{o}}}=-\frac{ {d}_{\text{i}}}{ {d}_{\text{o}}}= m. $$
 </div>
 
 We define the ratio of image height to object height ( $${h}_{\text{i}}/{h}_
