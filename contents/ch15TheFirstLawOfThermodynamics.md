@@ -56,7 +56,7 @@ are the two everyday means of bringing energy into or taking energy out of a
 system. The processes are quite different. Heat transfer, a less organized
 process, is driven by temperature differences. Work, a quite organized process,
 involves a macroscopic force exerted through a distance. Nevertheless, heat and
-work can produce identical results.**For example, both can cause a temperature
+work can produce identical results. For example, both can cause a temperature
 increase. Heat transfer into a system, such as when the Sun warms the air in a
 bicycle tire, can increase its temperature, and so can work done on the system,
 as when the bicyclist pumps air into the tire. Once the temperature increase has
@@ -256,7 +256,7 @@ to lose weight, because it produces both heat transfer from your body and work,
 and raises your metabolic rate even when you are at rest. Weight loss is also
 aided by the quite low efficiency of the body in converting internal energy to
 work, so that the loss of internal energy resulting from doing work is much
-greater than the work done.**It should be noted, however, that living systems
+greater than the work done. It should be noted, however, that living systems
 are not in thermal<sup />equilibrium.
 
 The body provides us with an excellent indication that many thermodynamic

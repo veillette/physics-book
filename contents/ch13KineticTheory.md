@@ -159,8 +159,8 @@ gases and reasonably accurate in liquids and solids. It is another definition of
 temperature based on an expression of the molecular energy.
 
 It is sometimes useful to rearrange
-$$\overline{\text{KE}}=\frac{1}{2}m\overline{ {v}^{2}}=\frac{3}{2}k_{B}T $$
-**,** and solve for the average speed of molecules in a gas in terms of
+$$\overline{\text{KE}}=\frac{1}{2}m\overline{ {v}^{2}}=\frac{3}{2}k_{B}T $$ ,
+and solve for the average speed of molecules in a gas in terms of
 temperature,
 
 <div class="equation" >

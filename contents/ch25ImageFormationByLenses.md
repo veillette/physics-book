@@ -85,7 +85,7 @@ The **power**  $$P $$
 </div>
 where  $$f $$
  is the focal length of the lens, which must be given in meters (and not cm or mm). The power of a lens  $$P $$
-** has the unit diopters (D), provided that the focal length is given in meters. That is,  $$1 \text{D}=1/\text{m} $$ ,
+ has the unit diopters (D), provided that the focal length is given in meters. That is,  $$1 \text{D}=1/\text{m} $$ ,
  or  $${1 \text{m}}^{-1} $$ .
  (Note that this power (optical power, actually) is not the same as power in watts defined in [Work, Energy, and Energy Resources](../contents/m42145). It is a concept related to the effect of optical devices on light.) Optometrists prescribe common spectacles and contact lenses in units of diopters.
 

@@ -127,8 +127,7 @@ where $$R $$ is the radius of the loop. This equation is very similar to that
 for a straight wire, but it is valid *only* at the center of a circular loop of
 wire. The similarity of the equations does indicate that similar field strength
 can be obtained at the center of a loop. One way to get a larger field is to
-have $$N $$
-** loops; then, the field is $$B=N\mu _{0}I/\left(2R\right) $$ . Note that the
+have $$N $$ loops; then, the field is $$B=N\mu _{0}I/\left(2R\right) $$ . Note that the
 larger the loop, the smaller the field at its center, because the current is
 farther away.
 

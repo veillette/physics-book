@@ -105,8 +105,7 @@ This is a fairly large, but manageable, capacitance at $$ 1.00 \times 10^{4}
   <div class="equation" >
    $${E}_{\text{cap}}=\frac{QV}{2}=\frac{ C V^{2}}{2}=\frac{ {Q}^{2}}{2C}, $$
   </div>
-     where    $$Q $$
-    ** is the charge,
+     where    $$Q $$ is the charge,
    $$V $$ is the voltage, and
    $$C $$ is the capacitance of the capacitor. The energy is in joules when the charge is in coulombs, voltage is in volts, and capacitance is in farads.
 

@@ -794,8 +794,8 @@ specific types of elements and amounts of materials present.
 
 Soon after nuclear radioactivity was first detected in 1896, it was found that
 at least three distinct types of radiation were being emitted. The most
-penetrating nuclear radiation was called a **gamma ray** **( $$\gamma $$
-ray)** (again a name given because its identity and character were unknown), and
+penetrating nuclear radiation was called a **gamma ray** ( $$\gamma $$
+ray) (again a name given because its identity and character were unknown), and
 it was later found to be an extremely high frequency electromagnetic wave.
 
 In fact, $$\gamma $$ rays are any electromagnetic radiation emitted by a
