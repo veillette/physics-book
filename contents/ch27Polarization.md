@@ -516,7 +516,7 @@ Show that if you have three polarizing filters, with the second at an angle of  
 Prove that, if  $$I $$
  is the intensity of light transmitted by two polarizing filters with axes at an angle  $$\theta  $$
  and  $$I^{\prime} $$
- is the intensity when the axes are at an angle  $$90.0 ^\circ-\mathrm{\theta ,} $$
+ is the intensity when the axes are at an angle  $$90.0 ^\circ-\theta , $$
  then  $$I+I^{\prime}={I}_{0,} $$
  the original intensity. (Hint: Use the trigonometric identities  $$\cos \left(90.0º-\theta \right)=\sin \theta  $$
  and  $${\cos}^{2} \theta +{\sin}^{2} \theta =1. $$ )  

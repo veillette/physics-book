@@ -141,7 +141,7 @@ is, one in which the net restoring force can be described by Hooke’s law, is
 given by
 
 <div class="equation" >
- $$x\left(t\right)=X \cos\frac{2\mathrm{\pi t}}{T}, $$
+ $$x\left(t\right)=X \cos\frac{2 \pi t}{T}, $$
 </div>
 
 where $$X $$ is amplitude. At $$t=0 $$ , the initial position is $${x}_{0}=X $$

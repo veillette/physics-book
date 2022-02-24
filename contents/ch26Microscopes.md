@@ -470,7 +470,7 @@ numerical aperture
 : a number or measure that expresses the ability of a lens to resolve fine
 detail in an object being observed. Derived by mathematical formula
   <div class="equation">
-   $$\text{NA}=n \sin \mathrm{\alpha ,} $$
+   $$\text{NA}=n \sin \alpha , $$
   </div>
 
 where $$n $$ is the refractive index of the medium between the lens and the

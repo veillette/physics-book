@@ -384,7 +384,7 @@ What is the smallest separation between two slits that will produce a second-ord
  When the distance  $$d $$
  between the slits is relatively large, there will be numerous bright spots, called fringes. Show that, for small angles (where  $$\sin \theta \approx \theta  $$ ,
  with  $$\theta  $$
- in radians), the distance between fringes is given by  $$\Delta y=\mathrm{x\lambda }/d $$.
+ in radians), the distance between fringes is given by  $$\Delta y= x\lambda /d $$.
 
 ![The figure shows a schematic of a double slit experiment. A double slit is at the left and a screen is at the right. The slits are separated by a distance d. From the midpoint between the slits, a horizontal line labeled x extends to the screen. From the same point, a line angled upward at an angle theta above the horizontal also extends to the screen. The distance between where the horizontal line hits the screen and where the angled line hits the screen is marked y, and the distance between adjacent fringes is given by delta y, which equals x times lambda over d.](../resources/Figure_28_03_08a.jpg "The distance between adjacent fringes is \( \Delta y = x \lambda /d \), assuming the slit separation \( d \) is large compared with \( \lambda \).")
 {: #Figure8}
@@ -406,7 +406,7 @@ and
 Subtracting these equations gives
 
 <div class="equation" >
- $$\begin{array}{}d\left(\sin {\theta }_{\text{m}+1}-\sin {\theta }_{\text{m}}\right)=\left[ \left(m+1\right)-m\right]  \lambda \\ d\left({\theta }_{\text{m}+1}-{\theta }_{\text{m}}\right)=\lambda \\ \tan {\theta }_{\text{m}}=\frac{ {y}_{\text{m}}}{x}\approx {\theta }_{\text{m}}⇒d\left(\frac{ {y}_{\text{m}+1}}{x}-\frac{ {y}_{\text{m}}}{x}\right)=\lambda \\ d\frac{\Delta y}{x}=\lambda ⇒\Delta y=\frac{\mathrm{x\lambda }}{d}\end{array} $$
+ $$\begin{array}{}d\left(\sin {\theta }_{\text{m}+1}-\sin {\theta }_{\text{m}}\right)=\left[ \left(m+1\right)-m\right]  \lambda \\ d\left({\theta }_{\text{m}+1}-{\theta }_{\text{m}}\right)=\lambda \\ \tan {\theta }_{\text{m}}=\frac{ {y}_{\text{m}}}{x}\approx {\theta }_{\text{m}}⇒d\left(\frac{ {y}_{\text{m}+1}}{x}-\frac{ {y}_{\text{m}}}{x}\right)=\lambda \\ d\frac{\Delta y}{x}=\lambda ⇒\Delta y=\frac{x\lambda }{d}\end{array} $$
 </div>
 </div>
 </div>

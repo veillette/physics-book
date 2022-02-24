@@ -344,7 +344,7 @@ $$\Delta S $$ once we find the energy $$Q $$ needed to melt the ice.
 The change in entropy is defined as:
 
 <div class="equation" >
- $$\mathrm{\Delta S}=\frac{Q}{T}\text{.} $$
+ $$ \Delta S =\frac{Q}{T}\text{.} $$
 </div>
 Here  $$Q $$
  is the heat transfer necessary to melt 1.00 kg of ice and is given by
