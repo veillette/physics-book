@@ -41,7 +41,7 @@ to record images. The shorter UV wavelengths allow somewhat greater detail to be
 observed, but drawbacks, such as the hazard of UV to living tissue and the need
 for special detection devices and lenses (which tend to be dispersive in the UV)
 , severely limit the use of UV microscopes. Elsewhere, we will explore practical
-uses of very short wavelength EM waves, such as x-rays, and other
+uses of very short wavelength EM waves, such as X-rays, and other
 short-wavelength probes, such as electrons in electron microscopes, to detect
 small details.
 

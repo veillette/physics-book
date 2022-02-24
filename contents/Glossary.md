@@ -113,8 +113,8 @@ transmitted wave | | $$I $$ | moment of inertia (also called rotational inertia)
 electromagnetic wave | | $${I}_{\text{rms}} $$ | average current | | $$\text{J}
 $$ | joule | | $$J/\text{Ψ} $$ | Joules/psi meson | | $$\text{K} $$ | kelvin | |
 $$k_{B} $$ | Boltzmann constant | | $$k $$ | force constant of a spring | |
-$${K}_{\alpha } $$ | x rays created when an electron falls into an $$n=1 $$
-shell vacancy from the $$n=3 $$ shell | | $${K}_{\beta } $$ | x rays created
+$${K}_{\alpha } $$ | X-rays created when an electron falls into an $$n=1 $$
+shell vacancy from the $$n=3 $$ shell | | $${K}_{\beta } $$ | X-rays created
 when an electron falls into an $$n=2 $$ shell vacancy from the $$n=3 $$ shell |
 | $$\text{kcal} $$ | kilocalorie | | $$\text{KE} $$ | translational kinetic
 energy | | $$\text{KE}+\text{PE} $$ | mechanical energy | | $${\text{KE}}_{e} $$
@@ -124,7 +124,7 @@ kinetic energy | | $$\overline{\text{KE}} $$ | thermal energy | | $$\text{kg} $$
 | kilogram (a fundamental SI unit of mass) | | $$L $$ | angular momentum | |
 $$\text{L} $$ | liter | | $$L $$ | magnitude of angular momentum | | $$L $$ |
 self-inductance | | $$\ell $$ | angular momentum quantum number | | $${L}_
-{\alpha } $$ | x rays created when an electron falls into an $$n=2 $$ shell from
+{\alpha } $$ | X-rays created when an electron falls into an $$n=2 $$ shell from
 the $$n=3 $$ shell | | $${L}_{e} $$ | electron total family number | | $${L}_
 {\mu } $$ | muon family total number | | $${L}_{\tau } $$ | tau family total
 number | | $${L}_{\text{f}} $$ | heat of fusion | | $${L}_{\text{f}} \text{and}

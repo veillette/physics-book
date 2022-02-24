@@ -7,7 +7,7 @@ layout: page
 * Explain the concept of radiotherapy and list typical doses for cancer therapy.
 </div>
 
-Therapeutic applications of ionizing radiation, called radiation therapy or **radiotherapy**, have existed since the discovery of x-rays and nuclear
+Therapeutic applications of ionizing radiation, called radiation therapy or **radiotherapy**, have existed since the discovery of X-rays and nuclear
 radioactivity. Today, radiotherapy is used almost exclusively for cancer
 therapy, where it saves thousands of lives and improves the quality of life and
 longevity of many it cannot save. Radiotherapy may be used alone or in
@@ -42,7 +42,7 @@ for well-defined tumors is a geometric technique shown in [[Figure 2]](#Figure2)
 . A narrow beam of radiation is passed through the patient from a variety of
 directions with a common crossing point in the tumor. This concentrates the dose
 in the tumor while spreading it out over a large volume of normal tissue. The
-external radiation can be x-rays, $${}^{60}\text{Co }\gamma $$ rays, or
+external radiation can be X-rays, $${}^{60}\text{Co }\gamma $$ rays, or
 ionizing-particle beams produced by accelerators. Accelerator-produced beams of
 neutrons, $$\text{π-mesons} $$ , and heavy ions such as nitrogen nuclei have
 been employed, and these can be quite effective. These particles have larger QFs
@@ -172,7 +172,7 @@ A beam of 168-MeV nitrogen nuclei is used for cancer therapy. If this beam is di
 <div class="problem" markdown="1">
 Calculate the dose in Sv to the chest of a patient given an x-ray under the following conditions. The x-ray beam intensity is  $$1.50 \text{W}{\text{/m}}^{2} $$ ,
  the area of the chest exposed is  $$0.0750 {\text{m}}^{2} $$ ,
- 35.0% of the x-rays are absorbed in 20.0 kg of tissue, and the exposure time is 0.250 s.
+ 35.0% of the X-rays are absorbed in 20.0 kg of tissue, and the exposure time is 0.250 s.
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">

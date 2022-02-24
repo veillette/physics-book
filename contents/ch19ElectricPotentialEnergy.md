@@ -255,7 +255,7 @@ previous example—a tiny fraction of a joule. But on a submicroscopic scale, su
 energy per particle (electron, proton, or ion) can be of great importance. For
 example, even a tiny fraction of a joule can be great enough for these particles
 to destroy organic molecules and harm living tissue. The particle may do its
-damage by direct collision, or it may create harmful x rays, which can also
+damage by direct collision, or it may create harmful X-rays, which can also
 inflict damage. It is useful to have an energy unit related to submicroscopic
 effects. [[Figure 3]](#Figure3) shows a situation related to the definition of
 such an energy unit. An electron is accelerated between two charged metal plates
@@ -464,7 +464,7 @@ Find the ratio of speeds of an electron and a negative hydrogen ion (one having 
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-An evacuated tube uses an accelerating voltage of 40 kV to accelerate electrons to hit a copper plate and produce x rays. Non-relativistically, what would be the maximum speed of these electrons?
+An evacuated tube uses an accelerating voltage of 40 kV to accelerate electrons to hit a copper plate and produce X-rays. Non-relativistically, what would be the maximum speed of these electrons?
 
 </div>
 </div>

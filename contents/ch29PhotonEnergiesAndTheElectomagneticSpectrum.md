@@ -37,7 +37,7 @@ These will make many calculations a little easier.
 All EM radiation is composed of photons. [[Figure 1]](#Figure1) shows various
 divisions of the EM spectrum plotted against wavelength, frequency, and photon
 energy. Previously in this book, photon characteristics were alluded to in the
-discussion of some of the characteristics of UV, x rays, and $$\gamma $$ rays,
+discussion of some of the characteristics of UV, X-rays, and $$\gamma $$ rays,
 the first of which start with frequencies just above violet in the visible
 spectrum. It was noted that these types of EM radiation have characteristics
 much different than visible light. We can now see that such properties arise
@@ -83,7 +83,7 @@ frequencies and, hence, the highest photon energies in the EM spectrum. For
 example, a $$\gamma $$ -ray photon with $$f{= 10}^{21} \text{Hz} $$ has an
 energy $$E= hf=6.63 \times 10^{-13} \text{J}=4.14 \text{MeV} \text{.} $$ This is
 sufficient energy to ionize thousands of atoms and molecules, since only 10 to
-1000 eV are needed per ionization. In fact, $$\gamma $$ rays are one type of **ionizing radiation**, as are x rays and UV, because they produce ionization in
+1000 eV are needed per ionization. In fact, $$\gamma $$ rays are one type of **ionizing radiation**, as are X-rays and UV, because they produce ionization in
 materials that absorb them. Because so much ionization can be produced, a single
 $$\gamma $$ -ray photon can cause significant damage to biological tissue,
 killing cells or damaging their ability to properly reproduce. When cell
@@ -99,16 +99,16 @@ as risks in producing cancer.
 High photon energy also enables $$\gamma $$ rays to penetrate materials, since a
 collision with a single atom or molecule is unlikely to absorb all the $$\gamma
 $$ ray’s energy. This can make $$\gamma $$ rays useful as a probe, and they are
-sometimes used in medical imaging. **x rays**, as you can see
+sometimes used in medical imaging. **X-rays**, as you can see
 in [[Figure 1]](#Figure1), overlap with the low-frequency end of the $$\gamma $$
-ray range. Since x rays have energies of keV and up, individual x-ray photons
-also can produce large amounts of ionization. At lower photon energies, x rays
+ray range. Since X-rays have energies of keV and up, individual x-ray photons
+also can produce large amounts of ionization. At lower photon energies, X-rays
 are not as penetrating as $$\gamma $$ rays and are slightly less hazardous. X
 rays are ideal for medical imaging, their most common use, and a fact that was
 recognized immediately upon their discovery in 1895 by the German physicist W.
 C. Roentgen (1845–1923). (See [[Figure 2]](#Figure2).) Within one year of their
-discovery, x rays (for a time called Roentgen rays) were used for medical
-diagnostics. Roentgen received the 1901 Nobel Prize for the discovery of x rays.
+discovery, X-rays (for a time called Roentgen rays) were used for medical
+diagnostics. Roentgen received the 1901 Nobel Prize for the discovery of X-rays.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -118,10 +118,10 @@ Once again, we find that conservation of energy allows us to consider the initia
 
 </div>
 
-![A cathode ray tube connected to a high-voltage source is shown in the figure. The image shows electrons coming out of the heated filament at one end of the vacuum tube as tiny balls, and hitting the metal plate at the opposite end of the vacuum tube. X rays are shown coming out from the metal plate in the form of waves.](../resources/Figure_30_03_03a.jpg "X rays are produced when energetic electrons strike the copper anode of this cathode ray tube (CRT). Electrons (shown here as separate particles) interact individually with the material they strike, sometimes producing photons of EM radiation.")
+![A cathode ray tube connected to a high-voltage source is shown in the figure. The image shows electrons coming out of the heated filament at one end of the vacuum tube as tiny balls, and hitting the metal plate at the opposite end of the vacuum tube. X-rays are shown coming out from the metal plate in the form of waves.](../resources/Figure_30_03_03a.jpg "X-rays are produced when energetic electrons strike the copper anode of this cathode ray tube (CRT). Electrons (shown here as separate particles) interact individually with the material they strike, sometimes producing photons of EM radiation.")
 {: #Figure3}
 
-While $$\gamma $$ rays originate in nuclear decay, x rays are produced by the
+While $$\gamma $$ rays originate in nuclear decay, X-rays are produced by the
 process shown in [[Figure 3]](#Figure3). Electrons ejected by thermal agitation
 from a hot filament in a vacuum tube are accelerated through a high voltage,
 gaining kinetic energy from the electrical potential energy. When they strike
@@ -173,7 +173,7 @@ a potential given in volts, then its energy in eV has the same numerical value.
 Thus a 50.0-kV potential generates 50.0 keV electrons, which in turn can produce
 photons with a maximum energy of 50 keV. Similarly, a 100-kV potential in an
 x-ray tube can generate up to 100-keV x-ray photons. Many x-ray tubes have
-adjustable voltages so that various energy x rays with differing energies, and
+adjustable voltages so that various energy X-rays with differing energies, and
 therefore differing abilities to penetrate, can be generated.
 
 </div>
@@ -181,26 +181,26 @@ therefore differing abilities to penetrate, can be generated.
 ![A graph for X-ray intensity versus frequency is shown. Frequency is plotted along x axis and intensity along y axis. The curve has a smooth rise up then at highest point it has two peaks and ends smoothly at f sub max. q V is equal to h f sub max is written in the graph.](../resources/Figure_30_03_04a.jpg "X-ray spectrum obtained when energetic electrons strike a material. The smooth part of the spectrum is bremsstrahlung, while the peaks are characteristic of the anode material. Both are atomic processes that produce energetic photons known as x-ray photons.")
 {: #Figure4}
 
-[[Figure 4]](#Figure4) shows the spectrum of x rays obtained from an x-ray tube.
+[[Figure 4]](#Figure4) shows the spectrum of X-rays obtained from an x-ray tube.
 There are two distinct features to the spectrum. First, the smooth distribution
 results from electrons being decelerated in the anode material. A curve like
 this is obtained by detecting many photons, and it is apparent that the maximum
 energy is unlikely. This decelerating process produces radiation that is
 called **bremsstrahlung** (German for *braking radiation*). The second feature
-is the existence of sharp peaks in the spectrum; these are called **characteristic x rays**, since they are characteristic of the anode material.
-Characteristic x rays come from atomic excitations unique to a given type of
+is the existence of sharp peaks in the spectrum; these are called **characteristic X-rays**, since they are characteristic of the anode material.
+Characteristic X-rays come from atomic excitations unique to a given type of
 anode material. They are akin to lines in atomic spectra, implying the energy
 levels of atoms are quantized. Phenomena such as discrete atomic spectra and
-characteristic x rays are explored further in [Atomic Physics](../contents/ch30AtomicPhysics).
+characteristic X-rays are explored further in [Atomic Physics](../contents/ch30AtomicPhysics).
 
 **Ultraviolet radiation** (approximately 4 eV to 300 eV) overlaps with the low
-end of the energy range of x rays, but UV is typically lower in energy. UV comes
+end of the energy range of X-rays, but UV is typically lower in energy. UV comes
 from the de-excitation of atoms that may be part of a hot solid or gas. These
 atoms can be given energy that they later release as UV by numerous processes,
 including electric discharge, nuclear explosion, thermal agitation, and exposure
-to x rays. A UV photon has sufficient energy to ionize atoms and molecules,
+to X-rays. A UV photon has sufficient energy to ionize atoms and molecules,
 which makes its effects different from those of visible light. UV thus has some
-of the same biological effects as $$\gamma $$ rays and x rays. For example, it
+of the same biological effects as $$\gamma $$ rays and X-rays. For example, it
 can cause skin cancer and is used as a sterilizer. The major difference is that
 several UV photons are required to disrupt cell reproduction or kill a
 bacterium, whereas single $$\gamma $$ -ray and X-ray photons can do the same
@@ -288,7 +288,7 @@ because there is no energy step in the atoms or molecules that could absorb the
 light. Since individual photons interact with individual atoms, it is nearly
 impossible to have two photons absorbed simultaneously to reach a large energy
 step. Because of its lower photon energy, visible light can sometimes pass
-through many kilometers of a substance, while higher frequencies like UV, x ray,
+through many kilometers of a substance, while higher frequencies like UV, X-ray,
 and $$\gamma $$ rays are absorbed, because they have sufficient photon energy to
 ionize the material.
 
@@ -409,7 +409,7 @@ Make a whole rainbow by mixing red, green, and blue light. Change the wavelength
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Why are UV, x rays, and  $$\gamma  $$
+Why are UV, X-rays, and  $$\gamma  $$
  rays called ionizing radiation?
 
 </div>
@@ -424,7 +424,7 @@ How can treating food with ionizing radiation help keep it from spoiling? UV is 
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Some television tubes are CRTs. They use an approximately 30-kV accelerating potential to send electrons to the screen, where the electrons stimulate phosphors to emit the light that forms the pictures we watch. Would you expect x rays also to be created?
+Some television tubes are CRTs. They use an approximately 30-kV accelerating potential to send electrons to the screen, where the electrons stimulate phosphors to emit the light that forms the pictures we watch. Would you expect X-rays also to be created?
 
 </div>
 </div>
@@ -445,7 +445,7 @@ Your pupils dilate when visible light intensity is reduced. Does wearing sunglas
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-One could feel heat transfer in the form of infrared radiation from a large nuclear bomb detonated in the atmosphere 75 km from you. However, none of the profusely emitted x rays or  $$\gamma  $$
+One could feel heat transfer in the form of infrared radiation from a large nuclear bomb detonated in the atmosphere 75 km from you. However, none of the profusely emitted X-rays or  $$\gamma  $$
  rays reaches you. Explain.
 
 </div>
@@ -565,7 +565,7 @@ Prove that, to three-digit accuracy,  $$h= 4.14 \times 10^{-15}  \text{eV}\cdot 
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What is the accelerating voltage of an x-ray tube that produces x rays with a shortest wavelength of 0.0103 nm?
+What is the accelerating voltage of an x-ray tube that produces X-rays with a shortest wavelength of 0.0103 nm?
 
 </div>
 </div>
@@ -614,7 +614,7 @@ Some satellites use nuclear power. (a) If such a satellite emits a 1.00-W flux o
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-How many x-ray photons per second are created by an x-ray tube that produces a flux of x rays having a power of 1.00 W? Assume the average energy per photon is 75.0 keV.
+How many x-ray photons per second are created by an x-ray tube that produces a flux of X-rays having a power of 1.00 W? Assume the average energy per photon is 75.0 keV.
 
 </div>
 <div class="solution" markdown="1">
@@ -666,14 +666,14 @@ gamma ray
 ionizing radiation
 : radiation that ionizes materials that absorb it
 
-x ray
+X-ray
 : EM photon between $$\gamma $$ -ray and UV in energy
 
 bremsstrahlung
 : German for *braking radiation*; produced when electrons are decelerated
 
-characteristic x rays
-: x rays whose energy depends on the material they were produced in
+characteristic X-rays
+: X-rays whose energy depends on the material they were produced in
 
 ultraviolet radiation
 : UV; ionizing photons slightly more energetic than violet light

@@ -224,7 +224,7 @@ benefits with no known risks. Diagnostic intensities are too low (about
 $$10^{-2} {\text{W/m}}^{2} $$ )
 to cause thermal damage. More significantly, ultrasound has been in use for
 several decades and detailed follow-up studies do not show evidence of ill
-effects, quite unlike the case for x-rays.
+effects, quite unlike the case for X-rays.
 
 ![The first part of the diagram shows a rectangular shaped transducer with speaker and microphone sending spherical waves to produce echos from a fetus. The second part shows a graph of echo intensity versus time, with four sharp peaks.](../resources/Figure_18_07_03a.jpg "(a) An ultrasound speaker doubles as a microphone. Brief bleeps are broadcast, and echoes are recorded from various depths. (b) Graph of echo intensity versus time. The time for echoes to return is directly proportional to the distance of the reflector, yielding this information noninvasively.")
 {: #Figure3}
@@ -429,7 +429,7 @@ conserve water.
 Ultrasound is used for nondestructive testing in industry and by the military.
 Because ultrasound reflects well from any large change in density, it can reveal
 cracks and voids in solids, such as aircraft wings, that are too small to be
-seen with x-rays. For similar reasons, ultrasound is also good for measuring the
+seen with X-rays. For similar reasons, ultrasound is also good for measuring the
 thickness of coatings, particularly where there are several layers involved.
 
 Basic research in solid state physics employs ultrasound. Its attenuation is

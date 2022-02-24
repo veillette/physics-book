@@ -19,7 +19,7 @@ brief overview of radiation detection and some of its applications.
 
 The first direct detection of radiation was Becquerel’s fogged photographic
 plate. Photographic film is still the most common detector of ionizing
-radiation, being used routinely in medical and dental x rays. Nuclear radiation
+radiation, being used routinely in medical and dental X-rays. Nuclear radiation
 is also captured on film, such as seen in [[Figure 1]](#Figure1). The mechanism
 for film exposure by ionizing radiation is similar to that by photons. A quantum
 of energy interacts with the emulsion and alters it chemically, thus exposing

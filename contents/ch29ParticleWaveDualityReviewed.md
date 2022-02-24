@@ -358,9 +358,9 @@ will current flow before the capacitor voltage stops it?
 <div class="problem" markdown="1">
 **Integrated Concepts**
 
-One problem with x rays is that they are not sensed. Calculate the temperature
+One problem with X-rays is that they are not sensed. Calculate the temperature
 increase of a researcher exposed in a few seconds to a nearly fatal accidental
-dose of x rays under the following conditions. The energy of the x-ray photons
+dose of X-rays under the following conditions. The energy of the x-ray photons
 is 200 keV, and $$ 4.00 \times 10^{13} $$ of them are absorbed per kilogram of
 tissue, the specific heat of which is $$0.830 \text{kcal/kg}\cdot \text{ºC} $$ .
 (Note that medical diagnostic x-ray machines **cannot** produce an intensity

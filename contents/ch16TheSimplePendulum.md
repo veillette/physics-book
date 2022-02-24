@@ -271,7 +271,7 @@ Two parakeets sit on a swing with their combined center of mass 10.0 cm below th
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) A pendulum that has a period of 3.00000 s and that is located where the acceleration due to gravity is  $$9.79 {\text{m/s}}^{2} $$
- is moved to a location where it the acceleration due to gravity is  $$9.82 {\text{m/s}}^{2} $$ .
+ is moved to a location where the acceleration due to gravity is  $$9.82 {\text{m/s}}^{2} $$ .
  What is its new period? (b) Explain why so many digits are needed in the value for the period, based on the relation between the period and the acceleration due to gravity.
 
 </div>

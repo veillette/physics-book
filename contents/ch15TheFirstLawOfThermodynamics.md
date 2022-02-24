@@ -35,7 +35,7 @@ done by the system. So positive $$Q $$ adds energy to the system and positive
 $$W $$ takes energy from the system. Thus, $$\Delta U=Q-W $$ . Note also that if
 more heat transfer into the system occurs than work done, the difference is
 stored as internal energy. Heat engines are a good example of this—heat transfer
-into them takes place so that they can do work. (See [[Figure 2](#Figure2).) We
+into them takes place so that they can do work. (See [[Figure 2]](#Figure2).) We
 will now examine $$Q $$ , $$W $$ , and $$\Delta U $$ further.
 ![The figure shows a schematic diagram of a system shown by an ellipse. Heat Q is shown to enter the system as shown by a bold arrow toward the ellipse. The work done is shown pointing away from the system. The internal energy of the system is marked as delta U equals Q minus W. The second part of the figure shows two arrow diagrams for the heat change Q and work W. Q is shown as Q in minus Q out. W is shown as W out minus W in.](../resources/Figure_16_01_02b.jpg "The first law of thermodynamics is the conservation-of-energy principle stated for a system where heat and work are the methods of transferring energy for a system in thermal equilibrium. \( Q \) represents the net heat transfer&#x2014;it is the sum of all heat transfers into and out of the system. \( Q \) is positive for net heat transfer into the system. \( W \) is the total work done on and by the system. \( W \) is positive when more work is done by the system than on it. The change in the internal energy of the system, \( \Delta U \) , is related to heat and work by the first law of thermodynamics, \( \Delta U=Q - W \) .")
 {: #Figure2}

@@ -16,7 +16,7 @@ attached to a uniformly rotating vertical turntable, and its shadow is projected
 on the floor as shown. The shadow undergoes simple harmonic motion. Hooke’s law
 usually describes uniform circular motions ( $$\omega $$ constant) rather than
 systems that have large visible displacements. So observing the projection of
-uniform circular motion, as in [[Figure 2](#Figure2), is often easier than
+uniform circular motion, as in [[Figure 2]](#Figure2), is often easier than
 observing a precise large-scale simple harmonic oscillator. If studied in
 sufficient depth, simple harmonic motion produced in this manner can give
 considerable insight into many aspects of oscillations and waves and is very

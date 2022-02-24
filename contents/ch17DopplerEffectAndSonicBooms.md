@@ -241,7 +241,7 @@ source moves faster than the wave propagation speed. Water waves spread out in
 circles from the point where created, and the bow wake is the familiar V-shaped
 wake trailing the source. A more exotic bow wake is created when a subatomic
 particle travels through a medium faster than the speed of light travels in that
-medium. (In a vacuum, the maximum speed of light will be $$c= 3.00 \times 10^{8}
+medium. In a vacuum, the maximum speed of light will be $$c= 3.00 \times 10^{8}
 \text{m/s} $$ ; in the medium of water, the speed of light is closer to $$0.75c
 $$ . If the particle creates light in its passage, that light spreads on a cone
 with an angle indicative of the speed of the particle, as illustrated
