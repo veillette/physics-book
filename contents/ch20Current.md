@@ -253,8 +253,8 @@ We can obtain an expression for the relationship between current and drift
 velocity by considering the number of free charges in a segment of wire, as
 illustrated in [[Figure 6]](#Figure6). **The number of free charges per unit
 volume** is given the symbol $$n $$ and depends on the material. The shaded
-segment has a volume $$A x $$ , so that the number of free charges in it is **
-$$\text{nAx} $$ . The charge $$\Delta Q $$ in this segment is thus $$qnAx $$ ,
+segment has a volume $$A x $$ , so that the number of free charges in it is 
+$$ nAx $$ . The charge $$\Delta Q $$ in this segment is thus $$qnAx $$ ,
 where $$q $$ is the amount of charge on each carrier. (Recall that for
 electrons, $$q $$ is $$ -1.60 \times 10^{-19} \text{C} $$ .)
 Current is charge moved per unit time; thus, if all the original charges move

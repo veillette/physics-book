@@ -151,7 +151,7 @@ energy is reflected and some is transmitted. The greater the **difference** in
 acoustic impedance between the two media, the greater the reflection and the
 smaller the transmission.
 
-The **intensity reflection coefficient**{: class="term"} $$a $$ is defined as
+The **intensity reflection coefficient** $$a $$ is defined as
 the ratio of the intensity of the reflected wave relative to the incident (
 transmitted) wave. This statement can be written mathematically as
 

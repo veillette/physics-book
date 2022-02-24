@@ -627,8 +627,7 @@ A copper wire has a resistance of  $$ 0.500 \Omega  $$
 <div class="problem" markdown="1">
 (a) Digital medical thermometers determine temperature by measuring the resistance of a semiconductor device called a thermistor (which has  $$\alpha = - 0.0600/\text{ºC} $$ ) 
 when it is at the same temperature as the patient. What is a patient’s temperature if the thermistor’s resistance at that temperature is 82.0% of its value at  $$ 37.0\text{ºC} $$
- (normal body temperature)? (b) The negative value for  $$\alpha  $$
-** may not be maintained for very low temperatures. Discuss why and whether this is the case here. (Hint: Resistance can’t become negative.)
+ (normal body temperature)? (b) The negative value for  $$\alpha  $$ may not be maintained for very low temperatures. Discuss why and whether this is the case here. (Hint: Resistance can’t become negative.)
 
 </div>
 </div>

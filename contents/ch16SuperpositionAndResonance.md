@@ -186,7 +186,7 @@ and $${f}_{2} $$ . These results mean that the resultant wave has twice the
 amplitude and the average frequency of the two superimposed waves, but it also
 fluctuates in overall amplitude at the beat frequency $${f}_{\text{B}} $$ . The
 first cosine term in the expression effectively causes the amplitude to go up
-and down. **The second cosine term is the wave with frequency $${f}_{\text{ave}}
+and down. The second cosine term is the wave with frequency $${f}_{\text{ave}}
 $$ . This result is valid for all types of waves. However, if it is a sound
 wave, providing the two frequencies are similar, then what we hear is an average
 frequency that gets louder and softer (or warbles) at the beat frequency.

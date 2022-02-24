@@ -28,8 +28,8 @@ from the charge, they are perpendicular to the equipotential lines.
 ![The figure shows a positive charge Q at the center of four concentric circles of increasing radii. The electric potential is the same along each of the circles, called equipotential lines. Straight lines representing electric field lines are drawn from the positive charge to intersect the circles at various points. The equipotential lines are perpendicular to the electric field lines.](../resources/Figure_20_04_01a.jpg "An isolated point charge \( Q \) with its electric field lines in blue and equipotential lines in green. The potential is the same along each equipotential line, meaning that no work is required to move a charge anywhere along one of those lines. Work is needed to move a charge from one equipotential line to another. Equipotential lines are perpendicular to electric field lines in every case. ")
 {: #Figure1}
 
-It is important to note that **equipotential lines are always perpendicular to
-electric field lines** . No work is required to move a charge along an
+It is important to note that **equipotential lines** are always perpendicular to
+electric field lines . No work is required to move a charge along an
 equipotential, since $$\Delta V=0 $$ . Thus the work is
 
 <div class="equation" >
@@ -237,7 +237,7 @@ The naturally occurring charge on the ground on a fine day out in the open count
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-The lesser electric ray (**Narcine bancroftii**)** maintains an incredible charge on its head and a charge equal in magnitude but opposite in sign on its tail ([[Figure 10]](#Figure10)). (a) Sketch the equipotential lines surrounding the ray. (b) Sketch the equipotentials when the ray is near a ship with a conducting surface. (c) How could this charge distribution be of use to the ray?
+The lesser electric ray (**Narcine bancroftii**) maintains an incredible charge on its head and a charge equal in magnitude but opposite in sign on its tail ([[Figure 10]](#Figure10)). (a) Sketch the equipotential lines surrounding the ray. (b) Sketch the equipotentials when the ray is near a ship with a conducting surface. (c) How could this charge distribution be of use to the ray?
 
 ![The figure shows a photo of a Narcine bancroftii, an electric ray that maintains a strong charge on its head and a charge equal in magnitude but opposite in sign on its tail.](../resources/Figure_20_04_10a.jpg "Lesser electric ray (Narcine bancroftii) (credit: National Oceanic and Atmospheric Administration, NOAA's Fisheries Collection).")
 {: #Figure10}

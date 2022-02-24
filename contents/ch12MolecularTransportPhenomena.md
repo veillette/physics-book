@@ -99,8 +99,7 @@ are known.
 
 **Solution**
 
-Solving for $$t $$
-** and substituting known values yields
+Solving for $$t $$ and substituting known values yields
 
 <div class="equation" >
  $$\begin{array}{lll}t& =& \frac{ {x}_{\text{rms}}^{2}}{2D}=\frac{ {\left(0.010 \text{m} \right)}^{2}}{2\left( 6.7 \times 10^{-10} {\text{m}}^{2}\text{/s}\right)}\\ & =&  7.5 \times 10^{4}  \text{s}=21 \text{h}\text{.}\end{array} $$
