@@ -99,10 +99,10 @@ that great angular magnification is possible.
 Telescopes, like microscopes, can utilize a range of frequencies from the
 electromagnetic spectrum. [[Figure 4]](#Figure4)(a) shows the Australia
 Telescope Compact Array, which uses six 22-m antennas for mapping the southern
-skies using radio waves. [[Figure 4]](#Figure4)(b) shows the focusing of x rays
+skies using radio waves. [[Figure 4]](#Figure4)(b) shows the focusing of X-rays
 on the Chandra X-ray Observatory—a satellite orbiting earth since 1999 and
 looking at high temperature events as exploding stars, quasars, and black holes.
-X rays, with much more energy and shorter wavelengths than RF and light, are
+X-rays, with much more energy and shorter wavelengths than RF and light, are
 mainly absorbed and not reflected when incident perpendicular to the medium. But
 they can be reflected when incident at small glancing angles, much like a rock
 will skip on a lake if thrown at a small angle. The mirrors for the Chandra
@@ -110,10 +110,10 @@ consist of a long barrelled pathway and 4 pairs of mirrors to focus the rays at
 a point 10 meters away from the entrance. The mirrors are extremely smooth and
 consist of a glass ceramic base with a thin coating of metal (iridium). Four
 pairs of precision manufactured mirrors are exquisitely shaped and aligned so
-that x rays ricochet off the mirrors like bullets off a wall, focusing on a
+that X-rays ricochet off the mirrors like bullets off a wall, focusing on a
 spot.
 
-![Image a is a photograph one of the antennas from the Australia Telescope Compact Array. Image b is a cutaway diagram showing 4 nested sets of hard x-ray mirrors of the Chandra X-ray observatory.](../resources/Figure_27_05_04.jpg "(a) The Australia Telescope Compact Array at Narrabri (500 km NW of Sydney). (credit: Ian Bailey) (b) The focusing of x rays on the Chandra Observatory, a satellite orbiting earth. X rays ricochet off 4 pairs of mirrors forming a barrelled pathway leading to the focus point. (credit: NASA)")
+![Image a is a photograph one of the antennas from the Australia Telescope Compact Array. Image b is a cutaway diagram showing 4 nested sets of hard x-ray mirrors of the Chandra X-ray observatory.](../resources/Figure_27_05_04.jpg "(a) The Australia Telescope Compact Array at Narrabri (500 km NW of Sydney). (credit: Ian Bailey) (b) The focusing of X-rays on the Chandra Observatory, a satellite orbiting earth. X-rays ricochet off 4 pairs of mirrors forming a barrelled pathway leading to the focus point. (credit: NASA)")
 {: #Figure4}
 
 A current exciting development is a collaborative effort involving 17 countries

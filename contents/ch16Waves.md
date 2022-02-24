@@ -82,7 +82,7 @@ Fill a large bowl or basin with water and wait for the water to settle so there 
 <div class="title">
 Calculate the Velocity of Wave Propagation: Gull in the Ocean
 </div>
-Calculate the wave velocity of the ocean wave in [[Figure 2]](#Figure2) if the distance between wave crests is 10.0 m and the time for a sea gull to bob up and down is 5.00 s.
+Calculate the wave velocity of the ocean wave in [[Figure 2]](#Figure2) if the distance between wave crests is 10.0 m and the time for a seagull to bob up and down is 5.00 s.
 
 **Strategy**
 

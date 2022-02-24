@@ -255,13 +255,13 @@ used for this purpose. The type of condenser that is suitable for an application
 depends on how the specimen is examined, whether by transmission, scattering or
 reflecting. See [[Figure 6]](#Figure6) for an example of each. White light
 sources are common and lasers are often used. Laser light illumination tends to
-be quite intense and it is important to ensure that the light does not result in
+be quite intense, and it is important to ensure that the light does not result in
 the degradation of the specimen.
 
 ![All four parts show ray diagrams of a specimen in different types of microscopes. Part a shows a ray diagram with rays through a condenser lens to the object and then up to the objective lens of the microscope. Part b shows an alternative arrangement where rays of light are reflected off a concave condenser mirror to the specimen and then up to the objective lens of the microscope. Part c shows dark field illumination where the illuminating light beam is fragmented by an annular stop so that its rays only go through the outer portion of the condenser lens which causes them to miss the objective lens. Part d shows high magnification illumination where light rays from a laser are reflected off a plan glass reflector, then go through the objective lens to the lens and then return as scatter light through the objective lens.](../resources/Figure_27_04_06.jpg "Illumination of a specimen in a microscope. (a) Transmitted light from a condenser lens. (b) Transmitted light from a mirror condenser. (c) Dark field illumination by scattering (the illuminating beam misses the objective lens). (d) High magnification illumination with reflected light &#x2013; normally laser light.")
 {: #Figure6}
 
-We normally associate microscopes with visible light but x ray and electron
+We normally associate microscopes with visible light but X-ray and electron
 microscopes provide greater resolution. The focusing and basic physics is the
 same as that just described, even though the lenses require different
 technology. The electron microscope requires vacuum chambers so that the

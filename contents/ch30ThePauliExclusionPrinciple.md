@@ -845,8 +845,8 @@ density of olive oil?
 **Integrated Concepts**
 
 What double-slit separation would produce a first-order maximum at
-$$3.00\text{º} $$ for 25.0-keV x rays? The small answer indicates that the wave
-character of x rays is best determined by having them interact with very small
+$$3.00\text{º} $$ for 25.0-keV X-rays? The small answer indicates that the wave
+character of X-rays is best determined by having them interact with very small
 objects such as atoms and molecules.
 
 </div>

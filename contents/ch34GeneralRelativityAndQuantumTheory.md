@@ -140,9 +140,9 @@ Physics near a black hole is fascinating. Gravity increases so rapidly that, as
 you approach a black hole, the tidal effects tear matter apart, with matter
 closer to the hole being pulled in with much more force than that only slightly
 farther away. This can pull a companion star apart and heat inflowing gases to
-the point of producing X rays. (See [[Figure 4]](#Figure4).) We have observed X
+the point of producing X-rays. (See [[Figure 4]](#Figure4).) We have observed X
 rays from certain binary star systems that are consistent with such a picture.
-This is not quite proof of black holes, because the X rays could also be caused
+This is not quite proof of black holes, because the X-rays could also be caused
 by matter falling onto a neutron star. These objects were first discovered in
 1967 by the British astrophysicists, Jocelyn Bell and Anthony Hewish. **Neutron
 stars** are literally a star composed of neutrons. They are formed by the
@@ -179,7 +179,7 @@ energy emission. (See [[Figure 4]](#Figure4).) A jet of material being ejected
 perpendicular to the plane of rotation gives further evidence of a supermassive
 black hole as the engine.
 
-![The figure shows a big blue sphere on the left labeled star and a small black region on the right labeled black hole. Material from the star appears to be pulled toward the black hole, and swirls around the black hole forming a horizontal disk that is labeled accretion disk. Along the axis of this disk is a white spike that extends above and below the black hole.](../resources/Figure_35_02_04.jpg "A black hole is shown pulling matter away from a companion star, forming a superheated accretion disk where X rays are emitted before the matter disappears forever into the hole. The in-fall energy also ejects some material, forming the two vertical spikes. (See also the photograph in Introduction to Frontiers of Physics.) There are several X-ray-emitting objects in space that are consistent with this picture and are likely to be black holes.")
+![The figure shows a big blue sphere on the left labeled star and a small black region on the right labeled black hole. Material from the star appears to be pulled toward the black hole, and swirls around the black hole forming a horizontal disk that is labeled accretion disk. Along the axis of this disk is a white spike that extends above and below the black hole.](../resources/Figure_35_02_04.jpg "A black hole is shown pulling matter away from a companion star, forming a superheated accretion disk where X-rays are emitted before the matter disappears forever into the hole. The in-fall energy also ejects some material, forming the two vertical spikes. (See also the photograph in Introduction to Frontiers of Physics.) There are several X-ray-emitting objects in space that are consistent with this picture and are likely to be black holes.")
 {: #Figure4}
 
 <span class="title">**Gravitational waves**</span>If a massive object distorts

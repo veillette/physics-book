@@ -57,7 +57,7 @@ by emission of a lower-energy photon.
 
 Fluorescence can be induced by many types of energy input. Fluorescent paint,
 dyes, and even soap residues in clothes make colors seem brighter in sunlight by
-converting some UV into visible light. X rays can induce fluorescence, as is
+converting some UV into visible light. X-rays can induce fluorescence, as is
 done in x-ray fluoroscopy to make brighter visible images. Electric discharges
 can induce fluorescence, as in so-called neon lights and in gas-discharge tubes
 that produce atomic and molecular spectra. Common fluorescent lights use an
@@ -74,7 +74,7 @@ This atom is excited to one of its higher levels by absorbing a UV photon. It
 can de-excite in a single step, re-emitting a photon of the same energy, or in
 several steps. The process is called fluorescence if the atom de-excites in
 smaller steps, emitting energy different from that which excited it.
-Fluorescence can be induced by a variety of energy inputs, such as UV, x-rays,
+Fluorescence can be induced by a variety of energy inputs, such as UV, X-rays,
 and electrical discharge.
 
 The spectacular Waitomo caves on North Island in New Zealand provide a natural

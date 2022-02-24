@@ -381,7 +381,7 @@ Can a wire carry a current and still be neutral—that is, have a total charge o
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 Car batteries are rated in ampere-hours ( $$\text{A}\cdot \text{h} $$ ).
-To what physical quantity do ampere-hours correspond (voltage, charge, . . .), and what relationship do ampere-hours have to energy content?
+To what physical quantity do ampere-hours correspond (voltage, charge, ...), and what relationship do ampere-hours have to energy content?
 
 </div>
 </div>

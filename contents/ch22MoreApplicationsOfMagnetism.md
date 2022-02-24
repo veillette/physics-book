@@ -82,7 +82,7 @@ horizontally, to their desired destination.
 **Magnetic resonance imaging (MRI)** is one of the most useful and rapidly
 growing medical imaging tools. It non-invasively produces two-dimensional and
 three-dimensional images of the body that provide important medical information
-with none of the hazards of x-rays. MRI is based on an effect called **nuclear
+with none of the hazards of X-rays. MRI is based on an effect called **nuclear
 magnetic resonance (NMR)** in which an externally applied magnetic field
 interacts with the nuclei of certain atoms, particularly those of hydrogen (
 protons). These nuclei possess their own small magnetic fields, similar to those
@@ -145,12 +145,12 @@ nuclei. Relaxation refers to the time it takes for the protons to return to
 equilibrium after the external field is turned off. This time depends upon
 tissue type and status (such as inflammation).
 
-While MRI images are superior to x rays for certain types of tissue and have
-none of the hazards of x rays, they do not completely supplant x-ray images. MRI
-is less effective than x rays for detecting breaks in bone, for example, and in
+While MRI images are superior to X-rays for certain types of tissue and have
+none of the hazards of X-rays, they do not completely supplant x-ray images. MRI
+is less effective than X-rays for detecting breaks in bone, for example, and in
 imaging breast tissue, so the two diagnostic tools complement each other. MRI
 images are also expensive compared to simple x-ray images and tend to be used
-most often where they supply information not readily obtained from x rays.
+most often where they supply information not readily obtained from X-rays.
 Another disadvantage of MRI is that the patient is totally enclosed with
 detectors close to the body for about 30 minutes or more, leading to
 claustrophobia. It is also difficult for the obese patient to be in the magnet

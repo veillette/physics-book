@@ -22,7 +22,7 @@ amount. It is used chiefly to treat spices and some fruits, and in some
 countries, red meat, poultry, and vegetables. Over 40 countries have approved
 food irradiation at some level.
 
-Food irradiation exposes food to large doses of $$\gamma $$ rays, x-rays, or
+Food irradiation exposes food to large doses of $$\gamma $$ rays, X-rays, or
 electrons. These photons and electrons induce no nuclear reactions and thus
 create *no residual radioactivity*. (Some forms of ionizing radiation, such as
 neutron irradiation, cause residual radioactivity. These are not used for food

@@ -48,7 +48,7 @@ Momentum is conserved in quantum mechanics just as it is in relativity and
 classical physics. Some of the earliest direct experimental evidence of this
 came from scattering of x-ray photons by electrons in substances, named Compton
 scattering after the American physicist Arthur H. Compton (1892–1962). Around
-1923, Compton observed that x rays scattered from materials had a decreased
+1923, Compton observed that X-rays scattered from materials had a decreased
 energy and correctly analyzed this as being due to the scattering of photons
 from electrons. This phenomenon could be handled as a collision between two
 particles—a photon and an electron at rest in the material. Energy and momentum
@@ -71,7 +71,7 @@ We can see that photon momentum is small, since $$p=h/\lambda $$ and $$h $$ is
 very small. It is for this reason that we do not ordinarily observe photon
 momentum. Our mirrors do not recoil when light reflects from them (except
 perhaps in cartoons). Compton saw the effects of photon momentum because he was
-observing x rays, which have a small wavelength and a relatively large momentum,
+observing X-rays, which have a small wavelength and a relatively large momentum,
 interacting with the lightest of particles, the electron.
 
 <div id="Example1" class="example" markdown="1">
@@ -418,6 +418,6 @@ photon momentum
 }=\frac{E}{c} $$
 
 Compton effect
-: the phenomenon whereby x rays scattered from materials have decreased energy
+: the phenomenon whereby X-rays scattered from materials have decreased energy
 
 </div>

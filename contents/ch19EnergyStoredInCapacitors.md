@@ -142,7 +142,7 @@ What happens to the energy stored in a capacitor connected to a battery when a d
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-In open heart surgery, a much smaller amount of energy will defibrillate the heart. (a) What voltage is applied to the  $$8.00 \text{μF} $$
+In open-heart surgery, a much smaller amount of energy will defibrillate the heart. (a) What voltage is applied to the  $$8.00 \text{μF} $$
  capacitor of a heart defibrillator that stores 40.0 J of energy? (b) Find the amount of stored charge.
 
 </div>

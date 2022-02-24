@@ -50,7 +50,7 @@ the second piece of evidence that the radiation cannot be atomic. Nuclear
 radiation has energies of the order of $$10^{6} \text{eV} $$ per event, which is
 much greater than the typical atomic energies (a few $$\text{eV} $$ ), such as
 that observed in spectra and chemical reactions, and more than ten times as high
-as the most energetic characteristic x rays. Becquerel did not vigorously pursue
+as the most energetic characteristic X-rays. Becquerel did not vigorously pursue
 his discovery for very long. In 1898, Marie Curie (1867–1934), then a graduate
 student married the already well-known French physicist Pierre Curie (1859–1906)
 , began her doctoral study of Becquerel’s rays. She and her husband soon
@@ -82,7 +82,7 @@ discovery of nuclear radiation indicated that different types of rays are
 emitted. Eventually, three types were distinguished and named **alpha** $$\left(
 \alpha \right) $$ ,
 **beta** $$\left(\beta \right) $$ , and **gamma** $$\left(\gamma \right) $$ ,
-because, like x-rays, their identities were initially
+because, like X-rays, their identities were initially
 unknown. [[Figure 2]](#Figure2) shows what happens if the rays are passed
 through a magnetic field. The $$\gamma $$ s are unaffected, while the $$\alpha
 $$ s and $$\beta $$ s are deflected in opposite directions, indicating the
@@ -117,8 +117,8 @@ demonstrated that $$\gamma $$
 *radiation is the emission of a high-energy photon by a nucleus*. In fact,
 $$\gamma $$ radiation comes from the de-excitation of a nucleus, just as an x
 ray comes from the de-excitation of an atom. The names \" $$\gamma $$ ray\" and
-\"x ray\" identify the source of the radiation. At the same energy, $$\gamma $$
-rays and x rays are otherwise identical.
+\"X-ray\" identify the source of the radiation. At the same energy, $$\gamma $$
+rays and X-rays are otherwise identical.
 
 <table id="" aria-describedby="Types of radiation are listed in column 1. The range for each type is in column 2."><caption><span class="title">Properties of Nuclear Radiation</span></caption><thead><tr>
             <th>
@@ -146,11 +146,11 @@ radiation produce **ionization** in materials, but they penetrate different
 distances in materials—that is, they have different **ranges**. Let us examine
 why they have these characteristics and what are some of the consequences.
 
-Like x rays, nuclear radiation in the form of $$\alpha $$ s, $$\beta $$ s, and
+Like X-rays, nuclear radiation in the form of $$\alpha $$ s, $$\beta $$ s, and
 $$\gamma $$ s has enough energy per event to ionize atoms and molecules in any
 material. The energy emitted in various nuclear decays ranges from a few
 $$\text{keV} $$ to more than $$10 \text{MeV} $$ , while only a few $$\text{eV}
-$$ are needed to produce ionization. The effects of x rays and nuclear radiation
+$$ are needed to produce ionization. The effects of X-rays and nuclear radiation
 on biological tissues and other materials, such as solid state electronics, are
 directly related to the ionization they produce. All of them, for example, can
 damage electronics or kill cancer cells. In addition, methods for detecting x
@@ -180,7 +180,7 @@ energy of the particle of radiation, as is its range.
 {: #Figure4}
 
 Radiation can be absorbed or shielded by materials, such as the lead aprons
-dentists drape on us when taking x rays. Lead is a particularly effective shield
+dentists drape on us when taking X-rays. Lead is a particularly effective shield
 compared with other materials, such as plastic or air. How does the range of
 radiation depend on **material**? Ionizing radiation interacts best with charged
 particles in a material. Since electrons have small masses, they most readily
@@ -273,7 +273,7 @@ Build an atom out of protons, neutrons, and electrons, and see how the element, 
 * Some nuclei are radioactive—they spontaneously decay destroying some part of
   their mass and emitting energetic rays, a process called nuclear
   radioactivity.
-* Nuclear radiation, like x rays, is ionizing radiation, because energy
+* Nuclear radiation, like X-rays, is ionizing radiation, because energy
   sufficient to ionize matter is emitted in each decay.
 * The range (or distance traveled in a material) of ionizing radiation is
   directly related to the charge of the emitted particle and its energy, with
@@ -295,7 +295,7 @@ Suppose the range for  $$5.0\text{MeV}\alpha  $$
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-What is the difference between  $$\gamma  $$  rays and characteristic x rays? Is either necessarily more energetic than the other? Which can be the most energetic?
+What is the difference between  $$\gamma  $$  rays and characteristic X-rays? Is either necessarily more energetic than the other? Which can be the most energetic?
 
 </div>
 </div>

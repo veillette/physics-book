@@ -98,7 +98,7 @@ Physics has many applications in the biological sciences. On the microscopic
 level, it helps describe the properties of cell walls and cell
 membranes ([Figure 5](#fig5) and [Figure 6](#fig6)). On the macroscopic level,
 it can explain the heat, work, and power associated with the human body. Physics
-is involved in medical diagnostics, such as x-rays, magnetic resonance imaging (
+is involved in medical diagnostics, such as X-rays, magnetic resonance imaging (
 MRI), and ultrasonic blood flow measurements. Medical therapy sometimes directly
 involves physics; for example, cancer radiotherapy uses ionizing radiation.
 Physics can also explain sensory phenomena, such as how musical instruments make

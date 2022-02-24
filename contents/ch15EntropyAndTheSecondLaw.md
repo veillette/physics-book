@@ -64,7 +64,7 @@ change in entropy $$\Delta S $$ of a system between state 1 and state 2 is the
 same no matter how the change occurs. We just need to find or imagine a
 reversible process that takes us from state 1 to state 2 and calculate $$\Delta
 S $$ for that process. That will be the change in entropy for any process going
-from state 1 to state 2. (See [[Figure 2](#Figure2).)
+from state 1 to state 2. (See [[Figure 2]](#Figure2).)
 
 ![The diagram shows a schematic representation of a system that goes from state one with entropy S sub one to state two with entropy S sub two. The two states are shown as two circles drawn a distance apart. Two arrows represent two different processes to take the system from state one to state two. A straight arrow pointing from state one to state two shows a reversible process. The change in entropy for this process is given by delta S equals Q divided by T. The second process is marked as a curving arrow from state one to state two, showing an irreversible process. The change in entropy for this process is given by delta S sub irreversible equals delta S sub reversible equals S sub two minus S sub one.](../resources/Figure_16_06_02.jpg "When a system goes from state 1 to state 2, its entropy changes by the same amount \( \Delta S \), whether a hypothetical reversible path is followed or a real irreversible path is taken. ")
 {: #Figure2}

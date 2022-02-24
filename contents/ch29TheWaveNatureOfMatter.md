@@ -202,7 +202,7 @@ well-defined lattice planes can produce dramatic interference patterns. It is
 called **Bragg reflection**, **for the father-and-son team who first explored
 and analyzed it in some detail. The expanded view also shows the path-length
 differences and indicates how these depend on incident angle $$\theta $$ in a
-manner similar to the diffraction patterns for x rays reflecting from a crystal.
+manner similar to the diffraction patterns for X-rays reflecting from a crystal.
 
 ![An electron beam is striking at an angle theta on a crystal and the reflected rays are detected by a detector. A magnified view of the crystal is also shown with two rays of electrons striking the various layers of crystal at an angle theta and reflected back. A graph is shown of intensity variation versus theta. Intensity is along the y axis and theta is along the x axis.The shape of the curve is like a wave and each subsequent peak diminishes as we move out the x axis.](../resources/Figure_30_06_03a.jpg "The diffraction pattern at top left is produced by scattering electrons from a crystal and is graphed as a function of incident angle relative to the regular array of atoms in a crystal, as shown at bottom. Electrons scattering from the second layer of atoms travel farther than those scattered from the top layer. If the path length difference (PLD) is an integral wavelength, there is constructive interference.")
 {: #Figure3}
@@ -214,7 +214,7 @@ $$\text{PLD}=\mathrm{n\lambda }\left(n=1, 2, 3,\dots \right) $$ . Because
 $$\text{AB}=\text{BC}=d \sin \theta \text{,} $$ we have constructive
 interference when $$\mathrm{n\lambda }=2d \sin \mathrm{\theta .} $$ This
 relationship is called the *Bragg equation* and applies not only to electrons
-but also to x rays.
+but also to X-rays.
 
 The wavelength of matter is a submicroscopic characteristic that explains a
 macroscopic phenomenon such as Bragg reflection. Similarly, the wavelength of

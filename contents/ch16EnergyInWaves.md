@@ -53,7 +53,7 @@ impinge on Earth at an intensity of $$1300 {\text{W/m}}^{2} $$ just above the
 atmosphere. There are other intensity-related units in use, too. The most common
 is the decibel. For example, a 90 decibel sound level corresponds to an
 intensity of $$10^{-3} {\text{W/m}}^{2} $$ .
-(This quantity is not much power per unit area considering that 90 decibels is a
+This quantity is not much power per unit area considering that 90 decibels is a
 relatively high sound level. Decibels will be discussed in some detail in a
 later chapter.
 
