@@ -350,8 +350,9 @@ We have a system with only conservative forces. Assuming the electron is
 accelerated in a vacuum, and neglecting the gravitational force (we will check
 on this assumption later), all of the electrical potential energy is converted
 into kinetic energy. We can identify the initial and final forms of energy to be
-$${\text{KE}}_{i}=0, {\text{KE}}_{f}=½mv^{2}, {\text{PE}}_{i}=qV{\text{, and
-PE}}_{f}=0. $$
+$${\text{KE}}_{i}=0, {\text{KE}}_{f}=½mv^{2}, {\text{PE}}_{i}=qV{\text{, and }}
+\text{PE}_{f}=0. $$
+
 **Solution**
 
 Conservation of energy states that
@@ -370,10 +371,11 @@ We solve this for  $$v $$
 <div class="equation" >
  $$v=\sqrt{\frac{2qV}{m}}\text{.} $$
 </div>
-Entering values for  $$q, V\text{, and} m $$  gives
+Entering values for  $$q, V\text{, and } m $$  gives
 
 <div class="equation" >
- $$\begin{array}{lll}v& =& \sqrt{\frac{2\left(-1.60 \times 10^{-19} \text{C}\right)\left(-100 \text{J/C}\right)}{9.11 \times 10^{-31} \text{kg}}}\\ & =&  5.93 \times 10^{6}  \text{m/s} \text{.} \end{array} $$
+ $$\begin{array}{lll}v& =& \sqrt{\frac{2\left(-1.60 \times 10^{-19} \text{C}\right)\left(-100 \text{J/C}\right)}{9.11 \times 10^{-31} \text{kg}}}\\ 
+  v& =&  5.93 \times 10^{6}  \text{m/s} \text{.} \end{array} $$
 </div>
 **Discussion**
 
@@ -400,14 +402,15 @@ is considered (accurately) in this example.
       by the symbol $$\Delta V $$ .
 
   <div class="equation" >
-   $$\Delta V=\frac{\Delta \text{PE}}{q} \text{and} \Delta\text{PE} = q\Delta V\text{.} $$
+   $$\Delta V=\frac{\Delta \text{PE}}{q} \text{ and } \Delta\text{PE} = q\Delta V\text{.} $$
   </div>
 
 * An electron volt is the energy given to a fundamental charge accelerated
   through a potential difference of 1 V. In equation form,
 
   <div class="equation" >
-   $$\begin{array}{lll}1 \text{eV}& =& \left(1.60 \times 10^{-19} \text{C}\right)\left(1 V\right)=\left(1.60 \times 10^{-19} \text{C}\right)\left(1 \text{J/C}\right)\\ & =& 1.60 \times 10^{-19} \text{J} \text{.} \end{array} $$
+   $$\begin{array}{lll}1 \text{eV}& =& \left(1.60 \times 10^{-19} \text{C}\right)\left(1 \text{V}\right)=\left(1.60 \times 10^{-19} \text{C}\right)\left(1 \text{J/C}\right)\\ 
+     1 \text{eV}& =& 1.60 \times 10^{-19} \text{J} \text{.} \end{array} $$
   </div>
 
 * Mechanical energy is the sum of the kinetic energy and potential energy of a

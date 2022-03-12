@@ -433,9 +433,9 @@ The classic Millikan oil drop experiment was the first to obtain an accurate
 measurement of the charge on an electron. In it, oil drops were suspended
 against the gravitational force by a vertical electric field. (
 See [[Figure 9]](#Figure9).) Given the oil drop to be $$1.00 \mu \text{m} $$ in
-radius and have a density of $$920 kg/{m}^{3} $$
-: (a) Find the weight of the drop. (b) If the drop has a single excess electron,
-find the electric field strength needed to balance its weight.
+radius and have a density of $$920 kg/{m}^{3} $$:
+(a) Find the weight of the drop. 
+(b) If the drop has a single excess electron, find the electric field strength needed to balance its weight.
 
 ![Two parallel conducting plates with opposite charges are shown and the electric field lines are emerging from the positive plate and entering the negative plate. These lines are parallel between the plates and a charged particle is in between the plates. An observer is watching it through a microscope.](../resources/Figure_19_08_11a.jpg "In the Millikan oil drop experiment, small drops can be suspended in an electric field by the force exerted on a single excess electron. Classically, this experiment was used to determine the electron charge qe by measuring the electric field and mass of the drop.")
 {: #Figure9}

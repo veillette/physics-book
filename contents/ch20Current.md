@@ -302,7 +302,7 @@ Calculate the drift velocity of electrons in a 12-gauge copper wire (which has a
 
 **Strategy**
 
-We can calculate the drift velocity using the equation $$I=mg{\text{d}} $$ . The
+We can calculate the drift velocity using the equation $$I=m g d $$ . The
 current $$I=20.0 \text{A} $$ is given, and $$q= -1.60 \times 10^{-19} \text{C}
 $$ is the charge of an electron. We can calculate the area of a cross-section of
 the wire using the formula $$A=\pi {r}^{2}, $$ where $$r $$ is one-half the
@@ -316,20 +316,26 @@ number of free electrons per cubic meter.
 
 First, calculate the density of free electrons in copper. There is one free
 electron per copper atom. Therefore, is the same as the number of copper atoms
-per $${m}^{3} $$ . We can now find $$n $$ as follows:
+per $$\text{m}^{3} $$ . We can now find $$n $$ as follows:
 
 <div class="equation" >
- $$\begin{array}{lll}n& =& \frac{1 {e}^{-}}{\text{atom}}×\frac{ 6.02 \times 10^{23}  \text{atoms}}{\text{mol}}×\frac{1 mol}{63.54 \text{g}}×\frac{1000 \text{g}}{\text{kg}}×\frac{ 8.80 \times 10^{3}  \text{kg}}{ {1 \text{m}}^{3}}\\ & =&  8.342  \times 10^{28} {e}^{-}{\text{/m}}^{3}\text{.}\end{array} $$
+ $$\begin{array}{lll}n& =& \frac{1 {e}^{-}}{\text{atom}}×\frac{ 6.02 \times 10^{23}  \text{atoms}}{\text{mol}}×\frac{1 mol}{63.54 \text{g}}×\frac{1000 \text{g}}{\text{kg}}×\frac{ 8.80 \times 10^{3}  \text{kg}}{ {1 \text{m}}^{3}}\\ 
+  n & =&  8.342  \times 10^{28} {e}^{-}{\text{/m}}^{3}\text{.}\end{array} $$
 </div>
 The cross-sectional area of the wire is
 
 <div class="equation" >
- $$\begin{array}{lll}A& =& \pi {r}^{2}\\ & =& \pi {\left(\frac{ 2.053 \times 10^{-3}  \text{m}}{2}\right)}^{2}\\ & =& 3.310 \times 10^{-6} {\text{m}}^{2}\text{.}\end{array} $$
+ $$\begin{array}{lll}A& =& \pi {r}^{2}\\ 
+ A& =& \pi {\left(\frac{ 2.053 \times 10^{-3}  \text{m}}{2}\right)}^{2}\\ 
+ A& =& 3.310 \times 10^{-6} {\text{m}}^{2}\text{.}\end{array} $$
 </div>
 Rearranging  $$I=nqA{v}_{\text{d}} $$  to isolate drift velocity gives
 
 <div class="equation" >
- $$\begin{array}{c}{v}_{\text{d}}=\frac{I}{\text{nqA}}\\ =\frac{20.0 \text{A}}{\left( 8.342 \times 10^{28} {\text{/m}}^{3}\right)\left(-1.60 \times 10^{-19} \text{C}\right)\left( 3.310 \times 10^{-6} {\text{m}}^{2}\right)}\\ =-4.53 \times 10^{-4} \text{m/s} \text{.} \end{array} $$
+ $$\begin{array}{lll}
+ {v}_{\text{d}}&=&\frac{I}{nqA}\\ 
+{v}_{\text{d}}&=&\frac{20.0 \text{A}}{\left( 8.342 \times 10^{28} {\text{/m}}^{3}\right)\left(-1.60 \times 10^{-19} \text{C}\right)\left( 3.310 \times 10^{-6} {\text{m}}^{2}\right)}\\ 
+{v}_{\text{d}} &=&-4.53 \times 10^{-4} \text{m/s} \text{.} \end{array} $$
 </div>
 **Discussion**
 
@@ -361,7 +367,7 @@ than the charges that carry it.
 * Drift velocity $${v}_{\text{d}} $$ is the average speed at which these charges
   move.
 * Current $$I $$ is proportional to drift velocity $${v}_{\text{d}} $$ , as
-  expressed in the relationship $$I={\text{nqAv}}_{\text{d}} $$ . Here, $$I $$
+  expressed in the relationship $$I=nqAv_{\text{d}} $$ . Here, $$I $$
   is the current through a wire of cross-sectional area $$A $$ . The wire’s
   material has a free-charge density $$n $$ , and each carrier has charge $$q $$
   and a drift velocity $${v}_{\text{d}} $$ .
@@ -388,7 +394,7 @@ To what physical quantity do ampere-hours correspond (voltage, charge, ...), and
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-If two different wires having identical cross-sectional areas carry the same current, will the drift velocity be higher or lower in the better conductor? Explain in terms of the equation  $${v}_{\text{d}}=\frac{I}{\text{nqA}} $$ ,
+If two different wires having identical cross-sectional areas carry the same current, will the drift velocity be higher or lower in the better conductor? Explain in terms of the equation  $${v}_{\text{d}}=\frac{I}{nqA} $$ ,
  by considering how the density of charge carriers  $$n $$
  relates to whether or not a material is a good conductor.
 
