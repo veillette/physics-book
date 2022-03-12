@@ -239,27 +239,23 @@ electric field.
 ### Section Summary
 
 * The voltage between points A and B is
-
-<div class="equation" >
- $$
-\begin{array}{c}
-\begin{array}{c}
-V_\text{AB}=Ed \\ 
-E=\frac{ V_\text{AB} }{d}
-\end{array}
-\left( \text{uniform} E \text{-field only,} \right)  
-\end{array} $$
-</div>
-     where
-   $$d $$ is the distance from A to B, or the distance between the plates.
+    <div class="equation" >
+     $$ \begin{array}{c}
+    \begin{array}{c}
+    V_\text{AB}=Ed \\ 
+    E=\frac{ V_\text{AB} }{d}
+    \end{array}
+    \left( \text{uniform} E \text{-field only,} \right)  
+    \end{array} $$
+    </div>
+     where $$d $$ is the distance from A to B, or the distance between the plates.
 *  In equation form, the general relationship between voltage and electric field is
   <div class="equation" >
    $$E= -\frac{\Delta V}{\Delta s}, $$
   </div>
-     where
-   $$\Delta s $$ is the distance over which the change in potential,
-   $$\Delta V $$ ,  takes place. The minus sign tells us that
-   $$\vb{E} $$ points in the direction of decreasing potential.) The electric field is said to be the **gradient** (as in grade or slope) of the electric potential.
+    where $$\Delta s $$ is the distance over which the change in potential,
+    $$\Delta V $$ ,  takes place. The minus sign tells us that
+    $$\vb{E} $$ points in the direction of decreasing potential.) The electric field is said to be the **gradient** (as in grade or slope) of the electric potential.
 
 ### Conceptual Questions
 

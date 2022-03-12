@@ -92,18 +92,17 @@ Four digits have been retained in this solution to illustrate that  $${E}_{1} $$
 <div class="equation" >
  $$\begin{array}{lll}
 {E}_{\text{tot}}& =& {\left( {E}_{1}^{2}+{E}_{2}^{2} \right) }^{1/2}\\ 
-& =& { \left\{ { \left(  1.124 \times 10^{5}  \text{N/C} \right) }^{2}+{\left( 0.5619 \times 10^{5}  \text{N/C} \right)}^{2} \right\} }^{1/2}\\ 
-& =&  1.26 \times 10^{5}  \text{N/C} \text{.} \end{array} $$
+{E}_{\text{tot}}& =& { \left\{ { \left(  1.124 \times 10^{5}  \text{N/C} \right) }^{2}+{\left( 0.5619 \times 10^{5}  \text{N/C} \right)}^{2} \right\} }^{1/2}\\ 
+{E}_{\text{tot}}& =&  1.26 \times 10^{5}  \text{N/C} \text{.} \end{array} $$
 </div>
 The direction is
 
 <div class="equation" >
  $$\begin{array}{lll}\theta & =& {\tan}^{-1}\left(\frac{ {E}_{1}}{ {E}_{2}}\right)\\ 
-& =& {\tan}^{-1}\left(\frac{ 1.124 \times 10^{5}  \text{N/C}}{ 0.5619 \times 10^{5}  \text{N/C}} \right)\\ 
-& =&  63.4º,\end{array} $$
+\theta & =& {\tan}^{-1}\left(\frac{ 1.124 \times 10^{5}  \text{N/C}}{ 0.5619 \times 10^{5}  \text{N/C}} \right)\\ 
+\theta & =&  63.4º,\end{array} $$
 </div>
-or  $$63.4º $$
- above the *x*-axis.
+or  $$63.4º $$ above the *x*-axis.
 
 **Discussion**
 

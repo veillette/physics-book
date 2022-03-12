@@ -70,7 +70,8 @@ electron and proton into the expression of Coulomb’s law yields
  $$F=k\frac{\|{q}_{1}{q}_{2}\|}{ {r}^{2}} $$
 </div>
 <div class="equation" >
- $$\begin{array}{}=\left( 8.99 \times 10^{9}  \text{N}\cdot {\text{m}}^{2}/{\text{C}}^{2}\right)×\frac{\left(1.60 \times 10^{-19} \text{C}\right)\left(1.60 \times 10^{-19} \text{C}\right)}{ { \left(0.530 \times 10^{-10} \text{m}\right)}^{2}}\\ \end{array} $$
+ $$\begin{array}{} 
+F=\left( 8.99 \times 10^{9}  \text{N}\cdot {\text{m}}^{2}/{\text{C}}^{2}\right)×\frac{\left(1.60 \times 10^{-19} \text{C}\right)\left(1.60 \times 10^{-19} \text{C}\right)}{ { \left(0.530 \times 10^{-10} \text{m}\right)}^{2}}\\ \end{array} $$
 </div>
 Thus the Coulomb force is
 
