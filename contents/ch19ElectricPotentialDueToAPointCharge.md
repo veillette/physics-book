@@ -41,7 +41,7 @@ decreases with distance, whereas $$\vb{E} $$ for a point charge
 decreases with distance squared:
 
 <div class="equation" >
- $$\mag{E}=\frac{\mag{F}}{q}=\frac{kQ}{ {r}^{2}}. $$
+ $$|\mag{E}|=\frac{|\mag{F}|}{q}=\frac{kQ}{ {r}^{2}}. $$
 </div>
 
 Recall that the electric potential $$V $$ is a scalar and has no direction,
@@ -75,7 +75,9 @@ Entering known values into the expression for the potential of a point charge,
 we obtain
 
 <div class="equation" >
- $$\begin{array}{lll}V& =& k\frac{Q}{r}\\ & =& \left( 8.99 \times 10^{9}  \text{N}·{\text{m}}^{2}/{\text{C}}^{2}\right)\left(\frac{-3.00 \times 10^{-9} \text{C}}{5.00 \times 10^{-2} \text{m}}\right)\\ & =& -539 \text{V} \text{.} \end{array} $$
+ $$\begin{array}{lll}V& =& k\frac{Q}{r}\\ 
+ V & =& \left( 8.99 \times 10^{9}  \text{N}·{\text{m}}^{2}/{\text{C}}^{2}\right)\left(\frac{-3.00 \times 10^{-9} \text{C}}{5.00 \times 10^{-2} \text{m}}\right)\\ 
+ V & =& -539 \text{V} \text{.} \end{array} $$
 </div>
 **Discussion** 
 
@@ -108,7 +110,9 @@ can thus determine the excess charge using the equation
 Solving for $$Q $$ and entering known values gives
 
 <div class="equation" >
- $$\begin{array}{lll}Q& =& \frac{r V}{k}\\ & =& \frac{\left( 0.125 \text{m}\right)\left(100 \times 10^{3}  \text{V}\right)}{ 8.99 \times 10^{9}  \text{N}·{\text{m}}^{2}/{\text{C}}^{2}}\\ & =& 1.39 \times 10^{-6} \text{C}=1.39 \text{µC.}\end{array} $$
+ $$\begin{array}{lll}Q& =& \frac{r V}{k}\\ 
+ Q& =& \frac{\left( 0.125 \text{m}\right)\left(100 \times 10^{3}  \text{V}\right)}{ 8.99 \times 10^{9}  \text{N}·{\text{m}}^{2}/{\text{C}}^{2}}\\ 
+ Q & =& 1.39 \times 10^{-6} \text{C}=1.39 \text{µC.}\end{array} $$
 </div>
 **Discussion** 
 

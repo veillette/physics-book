@@ -258,7 +258,7 @@ Substituting the expressions for the individual currents gives
 Note that Ohm’s law for the equivalent single resistance gives
 
 <div class="equation" >
- $$I=\frac{V}{ {R}_{p}}=V\left(\frac{1}{ {R}_{p}}\right). $$
+ $$I=\frac{V}{ {R}_{p}} = V \left( \frac{1}{ {R}_{p}}\right). $$
 </div>
 
 The terms inside the parentheses in the last two equations must be equal.
@@ -266,7 +266,7 @@ Generalizing to any number of resistors, the total resistance $${R}_{\text{p}}
 $$ of a parallel connection is related to the individual resistances by
 
 <div class="equation" >
- $$\frac{1}{ {R}_{p}}=\frac{1}{ {R}_{1}}+\frac{1}{ {R}_{2}}+\frac{1}{ {R_{3}}+\text{.}\text{...} $$
+ $$\frac{1}{ {R}_{p}}=\frac{1}{ {R}_{1}}+\frac{1}{ {R}_{2}}+\frac{1}{ {R_{3}}}+\text{. } \text{...} $$
 </div>
 
 This relationship results in a total resistance $${R}_{p} $$ that is less than

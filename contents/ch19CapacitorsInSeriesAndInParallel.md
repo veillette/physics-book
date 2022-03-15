@@ -103,7 +103,7 @@ Entering the given capacitances into the expression for $$\frac{1}{ {C}_
 <div class="equation" >
  $$\frac{1}{ {C}_{\text{S}}}=\frac{1}{1.000 \text{µF}}+\frac{1}{5.000 \text{µF}}+\frac{1}{8.000 \text{µF}}=\frac{ 1.325}{\text{µF}} $$
 </div>
-Inverting to find  $${C}_{\text{S}} $$  yields  $$
+Inverting to find  $${C}_{\text{S}} $$  yields 
  $${C}_{\text{S}}=\frac{\text{µF}}{ 1.325}=0.755 \text{µF} $$.
 
 **Discussion**
@@ -222,7 +222,9 @@ Inverting gives
 This equivalent series capacitance is in parallel with the third capacitor; thus, the total is the sum
 
 <div class="equation" >
- $$\begin{array}{lll}{C}_{\text{tot}}& =& {C}_{\text{S}}+{C}_{\text{S}}\\ & =&  0.833 \text{μF}+ 8.000 \text{μF}\\ & =&  8.833 \text{μF}.\end{array} $$
+ $$\begin{array}{lll}{C}_{\text{tot}}& =& {C}_{\text{S}}+{C}_{\text{S}}\\
+{C}_{\text{tot}}& =&  0.833 \text{μF}+ 8.000 \text{μF}\\ 
+{C}_{\text{tot}}& =&  8.833 \text{μF}.\end{array} $$
 </div>
 **Discussion**
 
