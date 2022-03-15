@@ -58,7 +58,8 @@ Entering the given values for charge and time into the definition of current
 gives
 
 <div class="equation" >
- $$\begin{array}{lll}I& =& \frac{\Delta Q}{\Delta t}=\frac{720 \text{C}}{4.00 \text{s}}=180 \text{C/s}\\ & =& 180 \text{A} \text{.} \end{array} $$
+ $$\begin{array}{lll}I& =& \frac{\Delta Q}{\Delta t}=\frac{720 \text{C}}{4.00 \text{s}}=180 \text{C/s}\\ 
+ I& =& 180 \text{A} \text{.} \end{array} $$
 </div>
 **Discussion for (a)**
 
@@ -73,7 +74,8 @@ Solving the relationship $$I=\Delta Q/\Delta t $$ for time $$\Delta t $$ , and
 entering the known values for charge and current gives
 
 <div class="equation" >
- $$\begin{array}{lll}\Delta t& =& \frac{\Delta Q}{I}=\frac{1.00 \text{C}}{ 0.300 \times 10^{-3}  \text{C/s}}\\ & =&  3.33 \times 10^{3}  \text{s} \text{.} \end{array} $$
+ $$\begin{array}{lll}\Delta t& =& \frac{\Delta Q}{I}=\frac{1.00 \text{C}}{ 0.300 \times 10^{-3}  \text{C/s}}\\
+\Delta t & =&  3.33 \times 10^{3}  \text{s} \text{.} \end{array} $$
 </div>
 **Discussion for (b)**
 

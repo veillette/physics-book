@@ -86,7 +86,7 @@ Solving this expression for $$C $$ and entering the given values yields
 
 <div class="equation" >
  $$\begin{array}{lll}C& =& \frac{2{E}_{\text{cap}}}{ {V}^{2}}=\frac{2\left( 4.00 \times 10^{2}  \text{J}\right)}{ {\left( 1.00 \times 10^{4}  \text{V}\right)}^{2}}= 8.00 \times 10^{-6} \text{F}\\ 
-& =& 8.00 \text{µF}\text{.}\end{array} $$
+ C & =& 8.00 \text{µF}\text{.}\end{array} $$
 </div>
 **Discussion**
 

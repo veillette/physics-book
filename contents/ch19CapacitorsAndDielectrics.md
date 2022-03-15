@@ -364,7 +364,9 @@ separation. For instance, in [[Example 1]](#Example1), the separation is 1.00 mm
 and so the voltage limit for air is
 
 <div class="equation" >
- $$\begin{array}{lll}V& =& E\cdot d\\ & =& \left(3 \times 10^{6}  \text{V/m}\right)\left( 1.00 \times 10^{-3}  \text{m}\right)\\ & =& 3000 \text{V} \text{.} \end{array} $$
+ $$\begin{array}{lll}V& =& E\cdot d\\ 
+V & =& \left(3 \times 10^{6}  \text{V/m}\right)\left( 1.00 \times 10^{-3}  \text{m}\right)\\ 
+ V& =& 3000 \text{V} \text{.} \end{array} $$
 </div>
 
 However, the limit for a 1.00 mm separation filled with Teflon is 60 000 V,
@@ -375,7 +377,9 @@ example for the air-filled parallel plate capacitor, we find that the
 Teflon-filled capacitor can store a maximum charge of
 
 <div class="equation" >
- $$\begin{array}{lll}Q& =& CV \\ & =& \kappa C_{\text{air}}V\\ & =& \left(2.1\right)\left(8.85 \text{nF}\right)\left( 6.0 \times 10^{4}  \text{V}\right)\\ & =& 1.1 \text{mC}.\end{array} $$
+ $$\begin{array}{lll}Q& =& CV \\ & =& \kappa C_{\text{air}}V\\ 
+Q& =& \left(2.1\right)\left(8.85 \text{nF}\right)\left( 6.0 \times 10^{4}  \text{V}\right)\\ 
+Q& =& 1.1 \text{mC}.\end{array} $$
 </div>
 
 This is 42 times the charge of the same air-filled capacitor.
@@ -482,7 +486,7 @@ Explore how a capacitor works! Change the size of the plates and add a dielectri
 
 ### Section Summary
 
-* A **capacitor  **is a device used to store charge.
+* A **capacitor** is a device used to store charge.
 * The amount of charge $$Q $$ a capacitor can store depends on two major
   factors—the voltage applied and the capacitor’s physical characteristics, such
   as its size.
