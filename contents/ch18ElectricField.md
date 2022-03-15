@@ -169,12 +169,11 @@ where $$\vb{F} $$ is the Coulomb or electrostatic force exerted on a
 small positive test charge $$q $$ . $$\vb{E} $$ has units of N/C.
 
 * The magnitude of the electric field $$|\vb{E}| $$ created by a point charge $$Q $$ is
-
   <div class="equation" >
    $$|\vb{E}|=k\frac{\|Q\|}{ {r}^{2}}. $$
   </div>
-     where  $$r $$ is the distance from $$Q $$. The electric field  $$\vb{E} $$
-     is a vector and fields due to multiple charges add like vectors.
+  where  $$r $$ is the distance from $$Q $$. The electric field  $$\vb{E} $$
+  is a vector and fields due to multiple charges add like vectors.
 
 ### Conceptual Questions
 
