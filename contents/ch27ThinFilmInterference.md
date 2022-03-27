@@ -70,7 +70,7 @@ Sophisticated cameras use a series of several lenses. Light can reflect from the
 
 **Strategy**
 
-Refer to [[Figure 2]](#Figure2) and use $${n}_{1}=100 $$ for air, $${n}_{2}=1.38
+Refer to [[Figure 2]](#Figure2) and use $${n}_{1}=1.00 $$ for air, $${n}_{2}=1.38
 $$ , and $${n}_{3}=1.52 $$ . Both ray 1 and ray 2 will have a $$\lambda /2 $$
 shift upon reflection. Thus, to obtain destructive interference, ray 2 will need
 to travel a half wavelength farther than ray 1. For rays incident
