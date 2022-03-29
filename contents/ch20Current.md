@@ -304,7 +304,7 @@ Calculate the drift velocity of electrons in a 12-gauge copper wire (which has a
 
 **Strategy**
 
-We can calculate the drift velocity using the equation $$I=m g d $$ . The
+We can calculate the drift velocity using the equation $$I= n q A v_d $$ . The
 current $$I=20.0 \text{A} $$ is given, and $$q= -1.60 \times 10^{-19} \text{C}
 $$ is the charge of an electron. We can calculate the area of a cross-section of
 the wire using the formula $$A=\pi {r}^{2}, $$ where $$r $$ is one-half the
