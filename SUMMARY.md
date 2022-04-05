@@ -138,7 +138,8 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     6.  [Back Emf](contents/ch23BackEmf.md)
     7.  [Transformers](contents/ch23Transformers.md)
     8.  [Electrical Safety: Systems and Devices](contents/ch23ElectricalSafetySystemsAndDevices.md)
-<!--    9.  [Inductance](contents/ch23Inductance.md)
+<!--
+    9.  [Inductance](contents/ch23Inductance.md)
     10. [RL Circuits](contents/ch23RLCircuits.md)
     11. [Reactance, Inductive and Capacitive](contents/ch23ReactanceInductiveAndCapacitive.md)
     12. [RLC Series AC Circuits](contents/ch23RLCSeriesACircuits.md)
