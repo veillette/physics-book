@@ -138,17 +138,19 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     6.  [Back Emf](contents/ch23BackEmf.md)
     7.  [Transformers](contents/ch23Transformers.md)
     8.  [Electrical Safety: Systems and Devices](contents/ch23ElectricalSafetySystemsAndDevices.md)
-    9.  [Inductance](contents/ch23Inductance.md)
+<!--    9.  [Inductance](contents/ch23Inductance.md)
     10. [RL Circuits](contents/ch23RLCircuits.md)
     11. [Reactance, Inductive and Capacitive](contents/ch23ReactanceInductiveAndCapacitive.md)
     12. [RLC Series AC Circuits](contents/ch23RLCSeriesACircuits.md)
+-->
 
+<!--
 15. {: .chapter} [Electromagnetic Waves](contents/ch24ElectromagneticWaves.md)
     1.  [Maxwell’s Equations: Electromagnetic Waves Predicted and Observed](contents/ch24MaxwellsEquations.md)
     2.  [Production of Electromagnetic Waves](contents/ch24ProductionOfElectromagneticWaves.md)
     3.  [The Electromagnetic Spectrum](contents/ch24TheElectromagneticSpectrum.md)
     4.  [Energy in Electromagnetic Waves](contents/ch24EnergyInElectromagneticWaves.md)
-
+-->
 
 
 
