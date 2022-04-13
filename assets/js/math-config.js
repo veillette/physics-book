@@ -4,7 +4,7 @@ window.MathJax = {
             KE: '{\\mathrm{KE}}',                  // kinetic energy
             PE: '{\\mathrm{PE}}',                  // potential energy
             vb: ['\\mathbf{\\vec{#1}}', 1],     // this macro has one parameter
-            mag: ['\lvert \\mathbf{\\vec{#1}} \rvert', 1],     // this macro has one parameter
+            mag: ['\\lvert \\mathbf{\\vec{#1}} \\rvert', 1],     // this macro has one parameter
             kg: '\\mathrm{kg}',     // kg
             ms: '\\mathrm{m/s}',     // m/s
             mm: '\\mathrm{m}^2',     // m^2
