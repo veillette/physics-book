@@ -312,7 +312,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     5.  [Quarks: Is That All There Is?](contents/ch33Quarks.md)
     6.  [GUTs: The Unification of Forces](contents/ch33GUTS.md)
 
-35. {: .chapter} [Frontiers of Physics](contents/ch33FrontiersOfPhysics.md)
+35. {: .chapter} [Frontiers of Physics](contents/ch34FrontiersOfPhysics.md)
     1.  [Cosmology and Particle Physics](contents/ch34CosmologyAndParticlePhysics.md)
     2.  [General Relativity and Quantum Gravity](contents/ch34GeneralRelativityAndQuantumTheory.md)
     3.  [Superstrings](contents/ch34Superstrings.md)
