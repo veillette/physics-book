@@ -69,11 +69,11 @@ cm<sup>3</sup>.
 </thead><tbody>
           <tr>
             <td><strong>Solids</strong></td>
-            <td />
+            <td></td>
             <td><strong>Liquids</strong></td>
-            <td />
+            <td></td>
             <td><strong>Gases</strong></td>
-            <td />
+            <td></td>
           </tr>
           <tr>
             <td>Aluminum</td>
@@ -158,8 +158,8 @@ cm<sup>3</sup>.
           <tr>
             <td>Uranium</td>
             <td>18.70</td>
-            <td />
-            <td />
+            <td></td>
+            <td></td>
             <td>Oxygen</td>
             <td>
                $$ 1.43 \times 10^{-3}  $$
@@ -168,8 +168,8 @@ cm<sup>3</sup>.
           <tr>
             <td>Concrete</td>
             <td>2.30–3.0</td>
-            <td />
-            <td />
+            <td></td>
+            <td></td>
             <td>Steam  $$\left(100 \text{ºC}\right) $$</td>
             <td>
                $$ 0.60 \times 10^{-3}  $$
@@ -178,58 +178,58 @@ cm<sup>3</sup>.
           <tr>
             <td>Cork</td>
             <td>0.24</td>
-            <td />
-            <td />
-            <td />
-            <td />
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
             <td>Glass, common (average)</td>
             <td>2.6</td>
-            <td />
-            <td />
-            <td />
-            <td />
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
             <td>Granite</td>
             <td>2.7</td>
-            <td />
-            <td />
-            <td />
-            <td />
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
             <td>Earth’s crust</td>
             <td>3.3</td>
-            <td />
-            <td />
-            <td />
-            <td />
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
             <td>Wood</td>
             <td>0.3–0.9</td>
-            <td />
-            <td />
-            <td />
-            <td />
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
             <td>Ice (0ºC)</td>
             <td>0.917</td>
-            <td />
-            <td />
-            <td />
-            <td />
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
             <td>Bone</td>
             <td>1.7–2.0</td>
-            <td />
-            <td />
-            <td />
-            <td />
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
 </tbody></table>
 
