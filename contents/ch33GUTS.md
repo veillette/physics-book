@@ -27,7 +27,7 @@ connections even on the atomic scale, and there may be conditions under which
 the forces are intimately related and even indistinguishable. The search for a
 correct theory linking the forces, called the **Grand Unified Theory (GUT)**, is
 explored in this section in the realm of particle
-physics. [Frontiers of Physics](../contents/ch33FrontiersOfPhysics) expands the story in making a
+physics. [Frontiers of Physics](../contents/ch34FrontiersOfPhysics) expands the story in making a
 connection with cosmology, on the opposite end of the distance scale.
 
 [[Figure 1]](#Figure1) is a Feynman diagram showing how the weak nuclear force
@@ -205,7 +205,7 @@ universe was discovered. Thinking backward in time, the universe must once have
 been very small, dense, and extremely hot. At a tiny fraction of a second after
 the fabled Big Bang, forces would have been unified and may have left their
 fingerprint on the existing universe. This, one of the most exciting forefronts
-of physics, is the subject of [Frontiers of Physics](../contents/ch33FrontiersOfPhysics).
+of physics, is the subject of [Frontiers of Physics](../contents/ch34FrontiersOfPhysics).
 
 ![The image shows the picture of a huge cylindrical shaped proton decay detector with its main door open. It is as high as a double decker bus and as long as a small house. An untold number of cables, wires, and detector modules are arranged in a cylinder around a rectangular crate-like object containing another smaller cylindrical object.](../resources/Figure_34_06_05.jpg "In the Tevatron accelerator at Fermilab, protons and antiprotons collide at high energies, and some of those collisions could result in the production of a Higgs boson in association with a W boson. When the W boson decays to a high-energy lepton and a neutrino, the detector triggers on the lepton, whether it is an electron or a muon. (credit: D. J. Miller) ")
 {: #Figure5}
