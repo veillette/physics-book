@@ -21,7 +21,7 @@ Momentum is one of the most important concepts in physics. The broadest form of
 Newton’s second law is stated in terms of momentum. Momentum is conserved
 whenever the net external force on a system is zero. This makes momentum
 conservation a fundamental tool for analyzing collisions. All
-of [Work, Energy, and Energy Resources](../contents/m42145) is devoted to momentum, and
+of [Work, Energy, and Energy Resources](../contents/ch7WorkEnergyAndEnergyResources.md) is devoted to momentum, and
 momentum has been important for many other topics as well, particularly where
 collisions were involved. We will see that momentum has the same importance in
 modern physics. Relativistic momentum is conserved, and much of what we know

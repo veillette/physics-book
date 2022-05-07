@@ -312,7 +312,7 @@ summary of terms relevant to the first law of thermodynamics.
 * The internal energy $$U $$ of a system depends only on the state of the system
   and not how it reached that state.
 * Metabolism of living organisms, and photosynthesis of plants, are specialized
-  types of heat transfer, doing work, and internal energy of systems.
+  types of heat transfer, doing work, and internal energy of system
 
 ### Conceptual Questions
 
@@ -325,7 +325,8 @@ Describe the photo of the tea kettle at the beginning of this section in terms o
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-The first law of thermodynamics and the conservation of energy, as discussed in [Conservation of Energy](../contents/m42151), are clearly related. How do they differ in the types of energy considered?
+The first law of thermodynamics and the conservation of energy, as
+discussed in [Conservation of Energy](../contents/ch7ConservationOfEnergy), are clearly related. How do they differ in the types of energy considered?
 
 </div>
 </div>

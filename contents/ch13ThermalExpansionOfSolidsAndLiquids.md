@@ -30,7 +30,7 @@ thermometer, for example, the expansion of alcohol is much greater than the
 expansion of the glass containing it.
 
 What is the underlying cause of thermal expansion? As is discussed
-in [Kinetic Theory: Atomic and Molecular Explanation of Pressure and Temperature](../contents/m42147)
+in [Kinetic Theory: Atomic and Molecular Explanation of Pressure and Temperature](../contents/ch13KineticTheory.md)
 , an increase in temperature implies an increase in the kinetic energy of the
 individual atoms. In a solid, unlike in a gas, the atoms or molecules are
 closely packed together, but their kinetic energy (in the form of small, rapid
@@ -446,7 +446,7 @@ What pressure would be created in the gasoline tank considered in [[Example 2]](
  to  $$ 35.0\text{ºC} $$
  without being allowed to expand? ** Assume that the bulk modulus  $$B $$
  for gasoline is  $$ 1.00 \times 10^{9}  {\text{N/m}}^{2} $$ .
- (For more on bulk modulus, see [Elasticity: Stress and Strain](../contents/m42081).)
+ (For more on bulk modulus, see [Elasticity: Stress and Strain](../contents/ch5Elasticity).)
 
 **Strategy**
 

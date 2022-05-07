@@ -192,13 +192,15 @@ material, the smaller the range of radiation.
 <div class="title">
 Collisions
 </div>
-Conservation of energy and momentum often results in energy transfer to a less massive object in a collision. This was discussed in detail in [Work, Energy, and Energy Resources](../contents/m42145), for example.
+Conservation of energy and momentum often results in energy transfer to a less 
+massive object in a collision.
+This was discussed in detail in [Work, Energy, and Energy Resources](../contents/ch7WorkEnergyAndEnergyResources), for example.
 
 </div>
 
 Different **types** of radiation have different ranges when compared at the same
 energy and in the same material. Alphas have the shortest range, betas penetrate
-farther, and gammas have the greatest range. This is directly related to charge
+farther, and gammas have the greatest range. This is directly related to charge 
 and speed of the particle or type of radiation. At a given energy, each $$\alpha
 $$ , $$\beta $$ , or $$\gamma $$ will produce the same number of ionizations in
 a material (each ionization requires a certain amount of energy on average). The
