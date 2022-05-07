@@ -16,6 +16,6 @@ Clone this repository. Install Ruby. within the folder physics-book, run
 
 `gem install bundler jekyll`
 
-`bundle exec jekyll serve`
+`bundle exec jekyll serve --incremental`
 
 Now browse to http://localhost:4000
