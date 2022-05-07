@@ -414,7 +414,7 @@ final values.
 </div>
 
 The ideal gas law can be considered to be another manifestation of the law of
-conservation of energy (see [Conservation of Energy](../contents/m42151)). Work done on a
+conservation of energy (see [Conservation of Energy](../contents/ch7ConservationOfEnergy.md)). Work done on a
 gas results in an increase in its energy, increasing pressure and/or
 temperature, or decreasing volume. This increased energy can also be viewed as
 increased internal kinetic energy, given the gas’s atoms and molecules.
@@ -430,7 +430,7 @@ The ideal gas law is closely related to energy: the units on both sides are
 joules. The right-hand side of the ideal gas law in $$PV=Nk_{B}T $$ is $$Nk_{B}T
 $$ . This term is roughly the amount of translational kinetic energy of $$N $$
 atoms or molecules at an absolute temperature $$T $$ , as we shall see formally
-in [Kinetic Theory: Atomic and Molecular Explanation of Pressure and Temperature](../contents/m42147)
+in [Kinetic Theory: Atomic and Molecular Explanation of Pressure and Temperature](../contents/ch13KineticTheory.md)
 . The left-hand side of the ideal gas law is $$PV $$ , which also has the units
 of joules. We know from our study of fluids that pressure is one type of
 potential energy per unit volume, so pressure multiplied by volume is energy.

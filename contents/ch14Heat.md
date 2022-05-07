@@ -7,7 +7,7 @@ layout: page
 * Define heat as transfer of energy.
 </div>
 
-In [Work, Energy, and Energy Resources](../contents/m42145), we defined work as force times
+In [Work, Energy, and Energy Resources](../contents/ch7WorkEnergyAndEnergyResources.md), we defined work as force times
 distance and learned that work done on an object changes its kinetic energy. We
 also saw
 in [Temperature, Kinetic Theory, and the Gas Laws](../contents/ch13TemperatureKineticTheoryAndTheGasLaws)
