@@ -96,7 +96,6 @@ Under what conditions can a rotating body be in equilibrium? Give an example.
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

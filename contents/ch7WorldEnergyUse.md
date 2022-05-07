@@ -388,7 +388,6 @@ support his weight as well as that to accelerate him.)
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

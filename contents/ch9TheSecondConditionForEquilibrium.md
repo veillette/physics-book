@@ -448,7 +448,6 @@ F_{\text{p}}&=& 686 \N
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

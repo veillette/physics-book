@@ -588,7 +588,6 @@ $$ \left(9.80 \mss \right)? $$
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

@@ -506,7 +506,6 @@ It takes 12 s to fall a distance of 0.60 m. Calculate the viscosity of the oil.
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

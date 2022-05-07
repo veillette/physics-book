@@ -289,7 +289,6 @@ A gymnast is attempting to perform splits. From the information given in [Figure
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

@@ -620,7 +620,6 @@ relative to those in [Figure 23](#fig23).
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

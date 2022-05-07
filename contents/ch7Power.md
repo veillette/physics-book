@@ -467,7 +467,6 @@ energy needs $$ \left(6.3\times 10^{19} \J  \right) $$ ?
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

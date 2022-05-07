@@ -375,7 +375,6 @@ friction between the riders’ clothing and the wall.
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

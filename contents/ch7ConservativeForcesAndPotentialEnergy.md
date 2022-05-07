@@ -360,7 +360,6 @@ the [Problem-Solving Strategies for Energy](../contents/ch7ConservationOfEnergy.
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

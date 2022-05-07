@@ -294,7 +294,6 @@ What is the ratio of the strength of the strong nuclear force to that of the ele
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

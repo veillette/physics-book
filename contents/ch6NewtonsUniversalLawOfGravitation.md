@@ -648,7 +648,6 @@ d) The gravitational force assumed to be exerted by the mountain is too great.
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

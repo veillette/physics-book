@@ -789,7 +789,6 @@ straight down the runway.
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

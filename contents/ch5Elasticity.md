@@ -919,7 +919,6 @@ Clearly, the guy wire must be in the opposite direction of the bend.)
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 
