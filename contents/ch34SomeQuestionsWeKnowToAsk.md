@@ -50,8 +50,7 @@ them. The fun continues.
    consistent with less consuming, supermassive black holes at the center of
    older galaxies. New instruments are allowing us to see deeper into our own
    galaxy for evidence of our own massive black hole.
-6. *Where do the $$\gamma $$     
-   bursts come from*? We see bursts of $$\gamma $$     
+6. *Where do the $$\gamma $$ bursts come from*? We see bursts of $$\gamma $$     
    rays coming from all directions in space, indicating the sources are very
    distant objects rather than something associated with our own galaxy. Some
    $$\gamma $$     
@@ -115,9 +114,7 @@ them. The fun continues.
    having mass. The implications are significant, as discussed in this chapter.
    There are effects on the closure of the universe and on the patterns in
    particle physics.
-9. *What are the systematic characteristics of high- $$Z $$
-
-   nuclei*? All elements with $$Z=118 $$     
+9. *What are the systematic characteristics of high- $$Z $$ nuclei*? All elements with $$Z=118 $$     
    or less (with the exception of 115 and 117) have now been discovered. It has
    long been conjectured that there may be an island of relative stability near
    $$Z=114 $$ , and the study of the most recently discovered nuclei will

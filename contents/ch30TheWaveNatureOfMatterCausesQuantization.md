@@ -126,7 +126,7 @@ When do photons, electrons, and atoms behave like particles and when do they beh
   requiring an integral number of wavelengths to fit in an orbit’s
   circumference; that is,
   <div class="equation" >
-   $$\mathrm{n}\lambda_{n}=2 \pi r_{n}\left(n=1, 2, 3 ...\right), $$
+   $$ n\lambda_{n}=2 \pi r_{n} \text{ where } \left(n=1, 2, 3 ...\right), $$
   </div>
      where
    $${\lambda }_{n} $$ is the electron’s de Broglie wavelength.
@@ -146,7 +146,7 @@ When do photons, electrons, and atoms behave like particles and when do they beh
 * The allowed orbits are circular, Bohr proposed, and must have quantized
   orbital angular momentum given by
   <div class="equation" >
-   $$L={m}_{e}vr_{n}=n\frac{h}{2\pi }\left(n=1, 2, 3 ...\right), $$
+   $$L={m}_{e}vr_{n}=n\frac{h}{2\pi } \text{ where } \left(n=1, 2, 3 ...\right), $$
   </div>
      where    $$L $$ is the angular momentum,
    $${r}_{n} $$ is the radius of the $$n^\text{th}$$ orbit , and

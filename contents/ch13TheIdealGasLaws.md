@@ -304,7 +304,7 @@ difference is due to rounding errors caused by using three-digit input. Again
 this number is the same for all gases. In other words, it is independent of the
 gas.
 
-The (average) molar weight of air (approximately 80% $${\text{N}}_{2} $$ and 20%
+The (average) molar weight of air is approximately 80% $${\text{N}}_{2} $$ and 20%
 $${\text{O}}_{2} $$ is $$M= 28.8 \text{g}\text{.} $$ Thus the mass of one cubic
 meter of air is 1.28 kg. If a living room has dimensions $$5 \text{m}×5
 \text{m}×3 \text{m} \text{,} $$ the mass of air inside the room is 96 kg, which
@@ -317,8 +317,8 @@ is the typical mass of a human.
 Check Your Understanding
 </div>
 <div class="problem" markdown="1">
-The density of air at standard conditions  $$\left(P=1 \text{atm} $$
- and  $$T=20\text{ºC}\right) $$
+The density of air at standard conditions (  $$P=1 \text{atm} $$
+ and  $$T=20\text{ºC} $$ )
  is  $$ 1.28 {\text{kg/m}}^{3} $$ .
  At what pressure is the density  $$0.64 {\text{kg/m}}^{3} $$
  if the temperature and number of molecules are kept constant?

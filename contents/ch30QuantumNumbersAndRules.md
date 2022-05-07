@@ -77,11 +77,10 @@ $$z $$ -axis, can have only certain values of $${L}_{z} $$ . The direction in
 space must be related to something physical, such as the direction of the
 magnetic field at that location. This is an aspect of relativity. Direction has
 no meaning if there is nothing that varies with direction, as does magnetic
-force. The allowed values of $${L}_{z} $$
-** are
+force. The allowed values of $${L}_{z} $$ are
 
 <div class="equation" >
- $${L}_{z}={m}_{l}\frac{h}{2\pi } \left({m}_{l}=-l,-l+1, ..., -1, 0, 1, ... l-1, l\right)\text{,} $$
+ $${L}_{z}={m}_{l}\frac{h}{2\pi } \left( {m}_{l}=-l,-l+1, ..., -1, 0, 1, ... l-1, l\right) \text{,} $$
 </div>
 
 where $${L}_{z} $$ is the ** $$z $$ -component of the angular momentum** and
@@ -127,13 +126,14 @@ has the value given by $$L=\sqrt{l\left(l+1\right)}\frac{h}{2\pi } $$.
 <div class="equation" >
  $$L=\frac{\sqrt{l\left(l+1\right)}h}{2\pi }=\frac{\sqrt{2}h}{2\pi } $$
 </div>
- $${L}_{z} $$
-** can have three values, given by  $${L}_{z}={m}_{l}\frac{h}{2\pi } $$.
+ $${L}_{z} $$ can have three values, given by  $${L}_{z}={m}_{l}\frac{h}{2\pi } $$.
 
 <div class="equation" >
- $${L}_{z}={m}_{l}\frac{h}{2\pi }=\left\{\begin{array}{cccc} \frac{h}{2\pi },&  {m}_{l}& =& +1 \\  0, & {m}_{l}& =& 0 \\ -\frac{h}{2\pi },&  {m}_{l}& =& -1\end{array} $$
+ $${L}_{z}={m}_{l}\frac{h}{2\pi }=\left\{
+\begin{array}{cccc} \frac{h}{2\pi },&  {m}_{l}& =& +1 \\  0, & {m}_{l}& =& 0 \\ -\frac{h}{2\pi },&  {m}_{l}& =& -1\end{array}
+\right\} $$
 </div>
-As can be seen in [[Figure 1]](#Figure1),  $$cos \theta ={\text{L}}_{z}\text{/L,} $$
+As can be seen in [[Figure 1]](#Figure1),  $$\cos \theta =\frac{{L}_{z}}{L} , $$
  and so for  $${m}_{l}=+1 $$ ,
  we have
 
