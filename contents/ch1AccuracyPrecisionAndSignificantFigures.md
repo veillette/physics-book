@@ -602,7 +602,7 @@ Calculate the area of the room and its uncertainty in square meters.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A car engine moves a piston with a circular cross section of
+A car engine moves a piston with a circular cross-section of
  $$ 7.500 \pm 0.002\text{cm}  $$ diameter a distance of  $$ 3.250 \pm 0.001\text{cm}  $$
 to compress the gas in the cylinder.
 (a) By what amount is the gas decreased in
