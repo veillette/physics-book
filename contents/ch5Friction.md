@@ -681,7 +681,6 @@ angle above the horizontal as shown in [Figure 9](#fig9)(b).
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

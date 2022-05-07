@@ -660,7 +660,6 @@ solve each part. The masses of the cords are negligible.
 {: #fig12}
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

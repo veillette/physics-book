@@ -1052,7 +1052,6 @@ of multiple solutions given the distances and heights you have chosen.
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

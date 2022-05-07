@@ -269,7 +269,6 @@ Find the following for path D in the [Figure above](#fig5):
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

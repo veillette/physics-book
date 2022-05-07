@@ -501,7 +501,6 @@ c) 21.0 m/s
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

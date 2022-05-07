@@ -386,7 +386,6 @@ A 1.80-kg falcon catches a 0.650-kg dove from behind in midair. What is their ve
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

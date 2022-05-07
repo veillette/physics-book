@@ -435,9 +435,7 @@ Can classical physics be used to accurately describe a satellite moving at a spe
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
-
 {: class="glossary-title"}
 
 classical physics

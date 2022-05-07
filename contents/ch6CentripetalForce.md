@@ -545,7 +545,6 @@ c) The assumed speed is too great for the tight curve.
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

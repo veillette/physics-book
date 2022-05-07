@@ -613,9 +613,7 @@ volume in cubic centimeters?
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
-
 {: class="glossary-title"}
 
 accuracy

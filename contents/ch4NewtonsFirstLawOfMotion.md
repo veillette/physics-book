@@ -124,7 +124,6 @@ What is the relationship between weight and mass? Which is an intrinsic, unchang
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

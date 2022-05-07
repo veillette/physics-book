@@ -710,7 +710,6 @@ assuming the floor is absolutely rigid?
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

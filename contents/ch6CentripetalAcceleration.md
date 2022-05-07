@@ -478,7 +478,6 @@ top, ignoring friction.
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

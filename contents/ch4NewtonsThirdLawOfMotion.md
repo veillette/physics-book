@@ -323,7 +323,6 @@ For this situation, draw a free-body diagram and write the net force equation.
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

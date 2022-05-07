@@ -153,7 +153,6 @@ Ladybug Motion 2D
   vertical direction, and vice versa.
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

@@ -675,7 +675,6 @@ Consider the Earth-Moon system. Construct a problem in which you calculate the t
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 
