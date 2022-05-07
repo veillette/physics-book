@@ -222,8 +222,8 @@ A 75.0-kg person climbs stairs, gaining 2.50 meters in height. Find the work don
 <div class="problem" markdown="1">
 (a) Calculate the work done on a 1500-kg elevator car by its cable to lift it
 40.0 m at constant speed, assuming friction averages 100 N?
-(b) What is the work done on the lift by the gravitational force in this process?
-(c) What is the total work done on the lift?
+(b) What is the work done on the elevator car by the gravitational force in this process?
+(c) What is the total work done on the elevator car?
 
 </div>
 <div class="solution" markdown="1">

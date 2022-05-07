@@ -981,7 +981,7 @@ Laser vision correction often uses an excimer laser that produces 193-nm electro
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) Two microwave frequencies are authorized for use in microwave ovens: 900 and 2560 MHz. Calculate the wavelength of each. (b) Which frequency would produce smaller hot spots in foods due to interference effects?
+(a) Two microwave frequencies are authorized for use in microwave ovens: 900 and 2560 MHz. Calculate the wavelength of each. (b) Which frequency would produce closer together hot spots in foods due to interference effects?
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">

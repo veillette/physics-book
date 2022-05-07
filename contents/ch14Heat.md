@@ -54,7 +54,7 @@ the work needed to produce the same effects as heat transfer*. In terms of the
 units used for these two terms, the best modern value for this equivalence is
 
 <div class="equation"  >
- $$ 1.000 \text{kcal}=4186 \text{J}\text{.} $$
+ $$ 1.000 \text{kcal}=4184 \text{J}\text{.} $$
 </div>
 
 We consider this equation as the conversion between two different units of

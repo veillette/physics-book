@@ -324,10 +324,10 @@ We divide both sides of the equation by  $${L}_{\text{v}} $$
 
 (1) Insert the value of the latent heat
 from [[Table 1]](../contents/ch14PhaseChangeAndLatentHeat#Table1), $${L}_
-{\text{v}}=2430\text{kJ/kg}=2430\text{J/g} $$ . This yields
+{\text{v}}=2256\text{kJ/kg}=2256\text{J/g} $$ . This yields
 
 <div class="equation" >
- $$\frac{m}{t}=\frac{120\text{J/s}}{2430\text{J/g}}= 0.0494\text{g/s}= 2.96\text{g/min} \text{.}  $$
+ $$\frac{m}{t}=\frac{120\text{J/s}}{2256\text{J/g}}= 0.0532\text{g/s}= 3.19\text{g/min} \text{.}  $$
 </div>
 **Discussion**
 

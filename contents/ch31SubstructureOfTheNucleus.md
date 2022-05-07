@@ -100,7 +100,7 @@ importance in organic chemistry (see [Appendix A](../contents/AppendixA)).
             <th>Symbol</th>
             <th>kg</th>
             <th>u</th>
-            <th>MeV<em>c</em><sup>2</sup></th>
+            <th>MeV/<em>c</em><sup>2</sup></th>
           </tr>
      </thead><tbody>
 <tr>

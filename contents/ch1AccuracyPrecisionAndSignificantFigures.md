@@ -348,7 +348,7 @@ Check Your Understanding
 <div class="problem" markdown="1">
 Perform the following calculations and express your answer using the correct number of significant digits.
 
-(a) A woman has two bags weighing 13.5 pounds and one bag with a weight of 10.2
+(a) A woman has two bags, each weighing 13.5 pounds and one bag with a weight of 10.2
 pounds. What is the total weight of the bags?
 
 (b) The force $$ F $$ on an object is equal to its mass $$ m $$ multiplied by

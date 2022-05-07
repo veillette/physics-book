@@ -244,7 +244,7 @@ How many times a minute does a boat bob up and down on ocean waves that have a w
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Scouts at a camp shake the rope bridge they have just crossed and observe the wave crests to be 8.00 m apart. If they shake it the bridge twice per second, what is the propagation speed of the waves?
+Scouts at a camp shake the rope bridge they have just crossed and observe the wave crests to be 8.00 m apart. If they shake the bridge twice per second, what is the propagation speed of the waves?
 
 </div>
 <div class="solution">
