@@ -9,13 +9,19 @@ layout: page
 
 </div>
 
-There is a passage in the musical *Man of la Mancha* that relates to Newton’s
-third law of motion. Sancho, in describing a fight with his wife to Don Quixote,
-says, “Of course I hit her back, Your Grace, but she’s a lot harder than me and
-you know what they say, ‘Whether the stone hits the pitcher or the pitcher hits
-the stone, it’s going to be bad for the pitcher.’” This is exactly what happens
-whenever one body exerts a force on another—the first also experiences a force (
-equal in magnitude and opposite in direction). Numerous common experiences, such
+Baseball relief pitcher Mariano Rivera was so highly regarded that during 
+his retirement year, opposing teams conducted farewell presentations 
+when he played at their stadiums. 
+The Minnesota Twins offered a unique gift: A chair made of broken bats. 
+Any pitch can break a bat, but with Rivera's signature pitch—known 
+as a cutter—the ball and the bat frequently came together at a point 
+that shattered the hardwood. Typically, we think of a baseball or 
+softball hitter exerting a force on the incoming ball, and baseball 
+analysts now focus on the resulting "exit velocity" as a key statistic. 
+But the force of the ball can do its own damage. This is exactly what
+happens whenever one body exerts a force on another—the first 
+also experiences a force (equal in magnitude and opposite in direction).
+Numerous common experiences, such
 as stubbing a toe or throwing a ball, confirm this. It is precisely stated in 
 **Newton’s third law of motion**.
 

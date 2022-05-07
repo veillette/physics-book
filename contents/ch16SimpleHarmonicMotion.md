@@ -102,8 +102,8 @@ The mass and the force constant are both given.
 
 2. Calculate the frequency:
    <div class="equation" >
-   $$\frac{1}{2\pi }\sqrt{72.6/{\text{s}}^{-2}}=
-   1.3656/{\text{s}}^{-1}\approx 1.36/\text{s}^{-1}=1.36 \text{Hz}. $$
+   $$\frac{1}{2\pi }\sqrt{72.6/{\text{s}}^{2}}=
+   1.3656/{\text{s}} \approx 1.36/\text{s}=1.36 \text{Hz}. $$
    </div>
 
 3. You could use $$T=2\pi \sqrt{\frac{m}{k}} $$ to calculate the period, but it

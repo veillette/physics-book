@@ -193,7 +193,7 @@ there is to fully charge the capacitor, and so it impedes current less.
 <div class="title">
 Calculating Capacitive Reactance and then Current
 </div>
-(a) Calculate the capacitive reactance of a 5.00 mF capacitor when 60.0 Hz and 10.0 kHz AC voltages are applied. (b) What is the rms current if the applied rms voltage is 120 V?
+(a) Calculate the capacitive reactance of a 5.00 $$\mu$$F capacitor when 60.0 Hz and 10.0 kHz AC voltages are applied. (b) What is the rms current if the applied rms voltage is 120 V?
 
 **Strategy**
 

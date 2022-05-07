@@ -136,7 +136,7 @@ First note that a light year (ly) is a convenient unit of distance on an
 astronomical scale—it is the distance light travels in a year. For part (a),
 note that the 4.300 ly distance between the Alpha Centauri and the Earth is the
 proper distance $${L}_{0} $$ , because it is measured by an Earth-bound observer
-to whom both stars are (approximately) stationary. To the astronaut, the Earth
+to whom both objects are (approximately) stationary. To the astronaut, the Earth
 and the Alpha Centauri are moving by at the same velocity, and so the distance
 between them is the contracted length $$L $$ . In part (b), we are given
 $$\gamma $$ , and so we can find $$v $$ by rearranging the definition of

@@ -582,7 +582,8 @@ The difference is  $$0.006\%. $$
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A twin-sized air mattress used for camping has dimensions of 100 cm by 200 cm by 15 cm when blown up. The weight of the mattress is 2 kg. How heavy a person could the air mattress hold if it is placed in freshwater?
+A twin-sized air mattress used for camping has dimensions of 100 cm by 200 cm by 15 cm when blown up. 
+The mass of the mattress when blown up is 2 kg. How heavy a person could the air mattress hold if it is placed in freshwater?
 
 </div>
 </div>

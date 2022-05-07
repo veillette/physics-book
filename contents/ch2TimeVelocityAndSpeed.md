@@ -261,7 +261,7 @@ There is a distinction between average speed and the magnitude of average veloci
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Does a car’s odometer measure position or displacement? Does its speedometer measure speed or velocity?
+Does a car’s odometer measure distance or displacement? Does its speedometer measure speed or velocity?
 
 </div>
 </div>
@@ -409,7 +409,7 @@ atom,as having a single electron in a circular orbit $$ 1.06 \times 10^{-10}
 (a) If the average speed of the electron in this orbit is known to
 be $$ 2.20 \times 10^{6} \ms $$, calculate the number of revolutions per
 second it makes about the nucleus.
-(b) What is the electron’s average velocity?
+(b) What is the electron’s average velocity during one revolution?
 
 </div>
 <div class="solution" markdown="1">

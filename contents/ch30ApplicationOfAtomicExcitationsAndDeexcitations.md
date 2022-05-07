@@ -354,7 +354,7 @@ diffraction patterns of various colors of light are at slightly different
 locations due to their different wavelengths. Further uses of holography include
 all types of 3-D information storage, such as of statues in museums and
 engineering studies of structures and 3-D images of human organs. Invented in
-the late 1940s by Dennis Gabor (1900–1970), who won the 1971 Nobel Prize in
+the late 1940s by Dennis Gabor (1900–1979), who won the 1971 Nobel Prize in
 Physics for his work, holography became far more practical with the development
 of the laser. Since lasers produce coherent single-wavelength light, their
 interference patterns are more pronounced. The precision is so great that it is

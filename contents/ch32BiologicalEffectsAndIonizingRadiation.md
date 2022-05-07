@@ -547,7 +547,7 @@ information.
 
 <strong><em>Step 5. </em></strong>*Divide the deposited energy by the mass of
 the affected tissue.* Use units of joules for energy and kilograms for mass. If
-a dose in Sv is involved, use the definition that $$1 \text{Sv = 1 J/kg} $$.
+a dose in Sv is involved, use the definition that $$1 \text{Sv} = 1 \text{J/kg} $$.
 
 <strong><em>Step 6. </em></strong>*If a dose in mSv is involved, determine the
 RBE (QF) of the radiation.* Recall that $$1 mSv=1 mGy×\text{RBE} \left(\text{ or }

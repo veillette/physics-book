@@ -522,7 +522,7 @@ If the 0.100-mm diameter tungsten filament in a light bulb is to have a resistan
 
 </div>
 <div class="solution" markdown="1">
- $$ 2.8 \times 10^{-2}  \text{m} $$
+ $$ 2.81  \text{m} $$
 </div>
 </div>
 

@@ -1006,7 +1006,7 @@ pilots, who were falling from thousands of meters high!
 An express train passes through a station. It enters with an initial velocity
 of 22.0 m/s and decelerates at a rate of $$ 0.150 \mss $$
 as it goes through. The station is 210 m long.
-(a) How long is the nose of the train in the station?
+(a) How long did the nose of the train stay in the station?
 (b) How fast is it going when the nose leaves the station?
 (c) If the train is 130 m long, when does the end of the train leave
 the station?

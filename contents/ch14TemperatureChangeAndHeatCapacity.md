@@ -543,7 +543,7 @@ Suppose identical amounts of heat transfer into different masses of copper and w
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Following vigorous exercise, the body temperature of an 80.0-kg person is  $$ 40.0\text{ºC} $$ .
- At what rate in watts must the person transfer thermal energy to reduce the the body temperature to  $$ 37.0\text{ºC} $$
+ At what rate in watts must the person transfer thermal energy to reduce the body temperature to  $$ 37.0\text{ºC} $$
  in 30.0 min, assuming the body continues to produce energy at the rate of 150 W?  $$\left(1 \text{watt = 1 joule/second or 1 W = 1 J/s} \right) $$.
 
 </div>

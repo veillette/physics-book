@@ -360,7 +360,7 @@ Take the ratio of relativistic rest energy,  $$E=\gamma mc^{2} $$ ,
  and  $$P=\gamma mu $$, so 
 
 <div class="equation" >
- $$\frac{E}{P}=\frac{ {\text{γmc}}^{2}}{\text{γmu}}=\frac{ {\text{c}}^{2}}{\text{u}}. $$
+ $$\frac{E}{P}=\frac{ \gamma mc }^{2}}{ \gamma mu}=\frac{ {\text{c}}^{2}}{u}. $$
 </div>
 As the mass of particle approaches zero, its velocity  $$u $$
  will approach  $$c $$ ,
