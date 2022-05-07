@@ -304,13 +304,13 @@ Answer
   </div>
 
 * An observer of electromagnetic radiation sees **relativistic Doppler effects**
-  {: class="term"} if the source of the radiation is moving relative to the
+if the source of the radiation is moving relative to the
   observer. The wavelength of the radiation is longer (called a red shift) than
   that emitted by the source when the source moves away from the observer and
   shorter (called a blue shift) when the source moves toward the observer. The
   shifted wavelength is described by the equation
   <div class="equation" >
-   $${\lambda }_{\text{obs}}=\lambda_{s}_{s}\sqrt{\frac{1+\frac{u}{c}}{1-\frac{u}{c}}} $$
+   $${\lambda }_{\text{obs}}= \lambda_{s} \sqrt{\frac{1+\frac{u}{c}}{1-\frac{u}{c}}} $$
   </div>
 
   $${\lambda }_{\text{obs}} $$ is the observed wavelength, $${\lambda }_{s} $$

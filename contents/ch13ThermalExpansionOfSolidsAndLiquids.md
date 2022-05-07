@@ -336,8 +336,8 @@ In general, objects will expand with increasing temperature. Water is the most
 important exception to this rule. Water expands with increasing temperature (its
 density *decreases*) when it is at temperatures greater than $$4\text{ºC}\left(
 40\text{ºF}\right) $$ . However, it expands with *decreasing* temperature when
-it is between $$+4\text{ºC} $$ and $$0\text{ºC} $$ $$\left(40\text{ºF} $$ to
-$$32\text{ºF}\right) $$ . Water is densest at $$+4\text{ºC} $$ .
+it is between $$+4\text{ºC} $$ and $$0\text{ºC} $$  ( $$40\text{ºF} $$ to
+$$32\text{ºF}$$) . Water is densest at $$+4\text{ºC} $$ .
 (See [[Figure 3]](#Figure3).) Perhaps the most striking effect of this
 phenomenon is the freezing of water in a pond. When water near the surface cools
 down to $$4\text{ºC} $$ it is denser than the remaining water and thus will sink

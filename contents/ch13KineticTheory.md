@@ -86,7 +86,7 @@ the molecule is given by
  $$F=\frac{\Delta p}{\Delta t}=\frac{2mv_{x}}{\Delta t}\text{.} $$
 </div>
 There is no force between the wall and the molecule until the molecule hits the wall. During the short time of the collision, the force between the molecule and wall is relatively large. We are looking for an average force; we take  $$\Delta t $$
- to be the average time between collisions of the molecule with this wall. It is the time it would take the molecule to go across the box and back (a distance  $$2l\right) $$
+ to be the average time between collisions of the molecule with this wall. It is the time it would take the molecule to go across the box and back (a distance  $$2l $$ )
  at a speed of  $${v}_{x} $$ .
  Thus  $$\Delta t=2l/{v}_{x} $$ ,
  and the expression for the force becomes
@@ -131,12 +131,12 @@ Substituting  $$\frac{1}{3}\overline{ {v}^{2}} $$
 The pressure is  $$F/A, $$  so that we obtain
 
 <div class="equation" >
- $$P=\frac{F}{A}=N\frac{m\overline{ {v}^{2}}}{3 A l}=\frac{1}{3}\frac{\text{Nm}\overline{ {v}^{2}}}{V}, $$
+ $$P=\frac{F}{A}=N\frac{m\overline{ {v}^{2}}}{3 A l}=\frac{1}{3}\frac{N m\overline{ {v}^{2}}}{V}, $$
 </div>
 where we used  $$V= A l  $$  for the volume. This gives the important result.
 
 <div class="equation" >
- $$PV=\frac{1}{3}\text{Nm}\overline{ {v}^{2}} $$
+ $$PV=\frac{1}{3}N m \overline{ {v}^{2}} $$
 </div>
 This equation is another expression of the ideal gas law.
 

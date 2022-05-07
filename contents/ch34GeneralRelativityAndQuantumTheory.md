@@ -295,9 +295,8 @@ the [Superstrings](../contents/ch34Superstrings).
   <div class="equation" >
    $${R}_{\text{S}}=\frac{2GM}{ {c}^{2}}\text{,} $$
   </div>
-     where  $$G $$
-    ** is the universal gravitational constant, and  $$M $$
-    ** is the mass of the body.
+     where  $$G $$ is the universal gravitational constant, and  $$M $$
+     is the mass of the body.
 
 * Physics is unknown inside the event horizon, and the possibility of wormholes
   and time travel are being studied.

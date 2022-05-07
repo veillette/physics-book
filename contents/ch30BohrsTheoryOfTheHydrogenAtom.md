@@ -432,13 +432,13 @@ How did scientists figure out the structure of atoms without looking at them? Tr
 * Bohr proposed that the allowed orbits are circular and must have quantized
   orbital angular momentum given by
   <div class="equation" >
-   $$L={m}_{e}vr_{n}=n\frac{h}{2\pi }\left(n=1, 2, 3 \dots \right), $$
+   $$L={m}_{e}vr_{n}=n\frac{h}{2\pi } \text{ where } \left( n=1, 2, 3 \dots \right), $$
   </div>
 
   where $$L $$ is the angular momentum, $${r}_{n} $$ is the radius of the $$n\text{th} $$ orbit, and $$h $$
  is Planck’s constant. For all one-electron (hydrogen-like) atoms, the radius of an orbit is given by
   <div class="equation" >
-   $${r}_{n}=\frac{ {n}^{2}}{Z}{a}_{\text{B}}\text{(allowed orbits} n=1, 2, 3, ...\right), $$
+   $${r}_{n}=\frac{ {n}^{2}}{Z}{a}_{\text{B}}  \text{ where } \left( \text{ allowed orbits } n=1, 2, 3, ...\right), $$
   </div>
 
   $$Z $$ is the atomic number of an element (the number of electrons is has when
@@ -449,7 +449,7 @@ How did scientists figure out the structure of atoms without looking at them? Tr
 
 * Furthermore, the energies of hydrogen-like atoms are given by
   <div class="equation" >
-   $${E}_{n}=-\frac{ {Z}^{2}}{ {n}^{2}}{E}_{0}\left(n=1, 2, 3 ...\right)\text{,} $$
+   $${E}_{n}=-\frac{ {Z}^{2}}{ {n}^{2}}{E}_{0} \text{ where } \left(n=1, 2, 3 ...\right)\text{,} $$
   </div>
 
   where $${E}_{0} $$ is the ground-state energy and is given by
@@ -459,7 +459,7 @@ How did scientists figure out the structure of atoms without looking at them? Tr
 
   Thus, for hydrogen,
   <div class="equation" >
-   $${E}_{n}=-\frac{13.6 \text{eV}}{ {n}^{2}}\left(n,=,1, 2, 3 ...\right)\text{.} $$
+   $${E}_{n}=-\frac{13.6 \text{eV}}{ {n}^{2}}\text{ where } \left(n= 1, 2, 3 ...\right)\text{.} $$
   </div>
 
 * The Bohr Theory gives accurate values for the energy levels in hydrogen-like

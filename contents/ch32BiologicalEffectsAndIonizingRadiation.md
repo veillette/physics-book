@@ -114,7 +114,7 @@ relative biological effectiveness.
 {: #Figure1}
 
 So, if a person had a whole-body dose of 2.00 rad of $$\gamma $$ radiation, the
-dose in rem would be $$(2.00 \text{rad})(1) = 2.00 \text{rem whole body}} $$ .
+dose in rem would be $$(2.00 \text{rad})(1) = 2.00 \text{ rem whole body}  $$ .
 If the person had a whole-body dose of 2.00 rad of $$\alpha $$ radiation, then
 the dose in rem would be $$(2.00 \text{rad})(20) = 40.0 \text{rem whole body} $$
 . The $$\alpha $$ s would have 20 times the effect on the person than the
