@@ -424,7 +424,8 @@ Suppose a woman does 500 J of work and 9500 J of heat transfer occurs into the e
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) How much food energy will a man metabolize in the process of doing 35.0 kJ of work with an efficiency of 5.00%? (b) How much heat transfer occurs to the environment to keep his temperature constant? Explicitly show how you follow the steps in the Problem-Solving Strategy for thermodynamics found in [Problem-Solving Strategies for Thermodynamics](../contents/m42236#fs-id1169738116696).
+(a) How much food energy will a man metabolize in the process of doing 35.0 kJ of work with an efficiency of 5.00%? (b) How much heat transfer occurs to the environment to keep his temperature constant? Explicitly show how you follow the steps in the Problem-Solving Strategy for thermodynamics found 
+in [Problem-Solving Strategies for Thermodynamics](../contents/ch15ApplicationsOfThermodynamics#PS1).
 
 </div>
 </div>

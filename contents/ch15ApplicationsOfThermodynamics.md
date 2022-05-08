@@ -227,7 +227,7 @@ where $${Q}_{\text{c}} $$ is the amount of heat transfer from a cold environment
 in British thermal units, $${t}_{1} $$ is time in hours, $$W $$ is the work
 input in joules, and $${t}_{2} $$ is time in seconds.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" id="PS1" data-has-label="true" data-label="" markdown="1">
 <div class="title">
 Problem-Solving Strategies for Thermodynamics
 </div>

@@ -98,7 +98,7 @@ A force of 100 N is applied to the brake pedal, which acts on the
 cylinder—called the master—through a lever. A force of 500 N is exerted on the
 master cylinder. (The reader can verify that the force is 500 N using techniques
 of statics
-from [Applications of Statics, Including Problem-Solving Strategies](../contents/m42173).)
+from [Applications of Statics, Including Problem-Solving Strategies](../contents/ch9ApplicationsOfStaticsIncludingProblemSolvingStrategies).)
 Pressure created in the master cylinder is transmitted to four so-called slave
 cylinders. The master cylinder has a diameter of 0.500 cm, and each slave
 cylinder has a diameter of 2.50 cm. Calculate the force $${F}_{2} $$ created at

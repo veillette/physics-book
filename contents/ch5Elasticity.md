@@ -155,7 +155,6 @@ deform less for a given tension or compression.
 |Glycerin|||4.5|
 |Mercury|||25|
 |Water|||2.2|
-
 {: #table1}
 
 [^1]: Footnote: Approximate and average values. Young’s moduli $$ Y $$ for
