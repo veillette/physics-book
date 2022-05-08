@@ -74,6 +74,7 @@ contributions of renewable energy in some countries with a large rural
 population, so these percentages in this table are left blank.
 
 ##### Table: Energy Consumption—Selected Countries (2006)
+{: #table1}
 
 |Country|Consumption, in EJ ($$10^{18}$$ J)|Oil|Natural Gas|Coal|Nuclear|Hydro|Other Renewables|Electricity Use per capita (kWh/yr)|Energy Use per capita (GJ/yr)|
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -90,7 +91,7 @@ population, so these percentages in this table are left blank.
 |U.S.|105|40%|23%|22%|8%|3%|1%|12500|340|
 |World|432|39%|23%|24%|6%|6%|2%|2600|71|
 
-{: #table1}
+
 
 ### Energy and Economic Well-being
 

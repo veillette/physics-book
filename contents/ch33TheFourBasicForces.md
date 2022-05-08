@@ -10,9 +10,7 @@ layout: page
 * Describe the Feynman diagram for the exchange of a between a proton and a neutron.
 </div>
 
-As first discussed in [Problem-Solving Strategies](../contents/m42076) and mentioned at
-various points in the text since then, there are only four distinct basic forces
-in all of nature. This is a remarkably small number considering the myriad
+There are only four distinct basic forces in all of nature. This is a remarkably small number considering the myriad
 phenomena they explain. Particle physics is intimately tied to these four
 forces. Certain fundamental particles, called carrier particles, carry these
 forces, and all particles can be classified according to which of the four
