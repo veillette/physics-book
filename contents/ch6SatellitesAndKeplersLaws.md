@@ -216,9 +216,9 @@ parent can be calculated. This principle has been used extensively to find the
 masses of heavenly bodies that have satellites. Furthermore, the ratio $$ r^{3}/
 T^{2} $$ should be a constant for all satellites of the same parent body (
 because $$ \frac{r^{3}}{T^{2}}=\frac{GM}{4\pi^{2}} $$).
-(See [Table 1](#table1)).
+(See [Table 1](#Table1)).
 
-It is clear from [Table 1](#table1) that the ratio of $$ {r}^{3}/ T^{2} $$ is
+It is clear from [Table 1](#Table1) that the ratio of $$ {r}^{3}/ T^{2} $$ is
 constant, at least to the third digit, for all listed satellites of the Sun, and
 for those of Jupiter. Small variations in that ratio have two
 causes—uncertainties in the $$ r $$ and $$ T $$ data, and perturbations of the
@@ -276,7 +276,7 @@ definition of what constitutes a “true” planet.
 | Jupiter| Ganymede  | $$ 1.07 \times 10^{6} $$ |0.0196 (7.16 d) | $$ 3.19 \times 10^{21} $$ |
 | Jupiter| Callisto  | $$ 1.88 \times 10^{6} $$ |0.0457 (16.19 d)| $$ 3.20 \times 10^{21} $$ |
 
-{: #table1}
+{: #Table1}
 
 The universal law of gravitation is a good example of a physical principle that
 is very broadly applicable. That single equation for the gravitational force
@@ -372,7 +372,7 @@ A geosynchronous Earth satellite is one that has an orbital period of precisely
 1 day. Such orbits are useful for communication and weather observation because
 the satellite remains above the same point on Earth (provided it orbits in the
 equatorial plane in the same direction as Earth’s rotation). Calculate the radius
-of such an orbit based on the data for the moon in [Table 1](#table1).
+of such an orbit based on the data for the moon in [Table 1](#Table1).
 
 </div>
 </div>
@@ -398,7 +398,7 @@ Find the mass of Jupiter based on data for the orbit of one of its moons, and co
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the ratio of the mass of Jupiter to that of Earth based on data in [Table 1](#table1).
+Find the ratio of the mass of Jupiter to that of Earth based on data in [Table 1](#Table1).
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">

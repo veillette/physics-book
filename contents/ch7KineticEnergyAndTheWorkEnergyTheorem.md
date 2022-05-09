@@ -444,7 +444,7 @@ needed for the movement of larger animals would relate to metabolic rates.
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Confirm the value given for the kinetic energy of an aircraft
-carrier in [Table 1 of Conservation of Energy](../contents/ch7ConservationOfEnergy.md#table1).
+carrier in [Table 1 of Conservation of Energy](../contents/ch7ConservationOfEnergy.md#Table1).
 You will need to look up the definition of a nautical mile (1 knot = 1 nautical mile/h).
 
 </div>

@@ -27,7 +27,7 @@ The *rate* at which the body uses food energy to sustain life and to do
 different activities is called the **metabolic rate**. The total energy
 conversion rate of a person *at rest*
 is called the **basal metabolic rate** (BMR) and is divided among various
-systems in the body, as shown in [Table 1](#table1). The largest fraction goes
+systems in the body, as shown in [Table 1](#Table1). The largest fraction goes
 to the liver and spleen, with the brain coming next. Of course, during vigorous
 exercise, the energy consumption of the skeletal muscles and heart increase
 markedly. About 75% of the calories burned in a day go into these basic
@@ -47,13 +47,13 @@ greater BMR due to this last factor.
 |Other|16|48|19|
 |Totals|85 W|250 mL/min|100%|
 
-{: #table1}
+{: #Table1}
 
 Energy consumption is directly proportional to oxygen consumption because the
 digestive process is basically one of oxidizing food. We can measure the energy
 people use during various activities by measuring their oxygen use. (
 See [Figure 2](#Figure2).) Approximately 20 kJ of energy are produced for each
-liter of oxygen consumed, independent of the type of food. [Table 1](#table1)
+liter of oxygen consumed, independent of the type of food. [Table 1](#Table1)
 shows energy and oxygen consumption rates (power expended) for a variety of
 activities.
 
@@ -85,7 +85,7 @@ If a person who normally requires an average of 12 000 kJ (3000 kcal) of food en
 
 **Solution**
 
-[Table 2](#table2) states that 400 W are used when cycling at a moderate speed.
+[Table 2](#Table2) states that 400 W are used when cycling at a moderate speed.
 The time required to work off 1000 kJ at this rate is then
 
 <div class="equation">
@@ -129,7 +129,7 @@ assuming the energy content of fat to be 39 kJ/g.
 |Cycling, professional racer|1855|5.30|
 |Sprinting|2415|6.90|
 
-{: #table2}
+{: #Table2}
 
 All bodily functions, from thinking to lifting weights, require energy. (
 See [Figure 3](#Figure3).) The many small muscle actions accompanying all quiet
@@ -248,7 +248,7 @@ an efficiency of 20%?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Energy that is not utilized for work or heat transfer is converted to the chemical energy of body fat containing about 39 kJ/g. How many grams of fat will you gain if you eat 10 000 kJ (about 2500 kcal) one day and do nothing but sit relaxed for 16.0 h and sleep for the other 8.00 h? Use data from [Table 2](#table2) for the energy consumption rates of these activities.
+Energy that is not utilized for work or heat transfer is converted to the chemical energy of body fat containing about 39 kJ/g. How many grams of fat will you gain if you eat 10 000 kJ (about 2500 kcal) one day and do nothing but sit relaxed for 16.0 h and sleep for the other 8.00 h? Use data from [Table 2](#Table2) for the energy consumption rates of these activities.
 
 </div>
 <div class="solution" markdown="1">
@@ -259,14 +259,14 @@ Energy that is not utilized for work or heat transfer is converted to the chemic
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Using data from [Table 2](#table2), calculate the daily energy needs of a person who sleeps for 7.00 h, walks for 2.00 h, attends classes for 4.00 h, cycles for 2.00 h, sits relaxed for 3.00 h, and studies for 6.00 h. (Studying consumes energy at the same rate as sitting in class.)
+Using data from [Table 2](#Table2), calculate the daily energy needs of a person who sleeps for 7.00 h, walks for 2.00 h, attends classes for 4.00 h, cycles for 2.00 h, sits relaxed for 3.00 h, and studies for 6.00 h. (Studying consumes energy at the same rate as sitting in class.)
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What is the efficiency of a subject on a treadmill who puts out work at the rate of 100 W while consuming oxygen at the rate of 2.00 L/min? (Hint: See [Table 2](#table2).)
+What is the efficiency of a subject on a treadmill who puts out work at the rate of 100 W while consuming oxygen at the rate of 2.00 L/min? (Hint: See [Table 2](#Table2).)
 
 </div>
 <div class="solution" markdown="1">

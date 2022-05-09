@@ -80,7 +80,7 @@ translational counterparts):
 | $$\theta=\omega_0 t + \frac{1}{2} \alpha t^2 $$ | $$ x = v_0 t + \frac{1}{2} a t^2 $$ | constant $$\alpha$$, constant $$a$$ |
 | $$\omega^2= \omega_0^2 + 2 \alpha \theta $$ | $$ v^2 =v_0^2 + 2 a x $$ | constant $$\alpha$$, constant $$a$$ |
 
-{: #table1}
+{: #Table1}
 
 In these equations, the subscript 0 denotes initial values
 ($$ \theta_{0} $$, $$ x_{0} $$, and $$ t_{0} $$ are initial values), and the
@@ -92,7 +92,7 @@ average angular velocity $$ \overline{\omega } $$ and average velocity $$
 {0}+v}{2} . $$
 </div>
 
-The equations given above in [Table 1](#table1) can be used to solve any
+The equations given above in [Table 1](#Table1) can be used to solve any
 rotational or translational kinematics problem in which $$ a $$ and $$ \alpha $$
 are constant.
 
@@ -398,7 +398,7 @@ Rotational kinematics (just like linear kinematics) is descriptive and does not 
 * Starting with the four kinematic equations we developed in
   the [One-Dimensional Kinematics](../contents/ch2Kinematics.md), we can derive
   the four rotational kinematic equations (presented together with their
-  translational counterparts) seen in [Table 1](#table1).
+  translational counterparts) seen in [Table 1](#Table1).
 * In these equations, the subscript 0 denotes initial values ($$ x_{0} $$ and $$
   t_{0} $$ are initial values), and the average angular velocity $$
   \overline{\omega } $$ and average velocity $$ \overline{v} $$ are defined as

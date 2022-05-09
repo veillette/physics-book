@@ -240,7 +240,7 @@ A 75.0-kg person climbs stairs, gaining 2.50 meters in height. Find the work don
 <div class="problem" markdown="1">
 Suppose a car travels 108 km at a speed of 30.0 m/s, and uses 2.0 gal of gasoline.
 Only 30% of the gasoline goes into useful work by the force that keeps the car
-moving at constant speed despite friction. (See  [Table 1 of Conservation Of Energy](../contents/ch7ConservationOfEnergy.md#table1) for the energy content of gasoline.)
+moving at constant speed despite friction. (See  [Table 1 of Conservation Of Energy](../contents/ch7ConservationOfEnergy.md#Table1) for the energy content of gasoline.)
 (a) What is the magnitude of the force exerted to keep the car moving at constant speed?
 (b) If the required force is directly proportional to speed, how many gallons will be used to drive 108 km at a speed of 28.0 m/s?
 
