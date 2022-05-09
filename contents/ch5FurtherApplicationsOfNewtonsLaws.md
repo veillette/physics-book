@@ -18,5 +18,5 @@ applications of Newton’s laws of motion. We have in mind the forces of frictio
 air or liquid drag, and deformation.
 
 <div class="note" data-label="Video" markdown="1">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kbZGcfF9UfA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kbZGcfF9UfA"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
