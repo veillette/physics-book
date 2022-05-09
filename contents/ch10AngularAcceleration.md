@@ -256,13 +256,13 @@ angular and linear quantities.
 
 So far, we have defined three rotational quantities— $$ \theta $$, $$\omega $$,
 and $$ \alpha $$. These quantities are analogous to the translational quantities
-$$ x $$, $$v $$ and $$ a $$. [Table 1](#table1)
+$$ x $$, $$v $$ and $$ a $$. [Table 1](#Table1)
 displays rotational quantities, the analogous translational quantities, and the
 relationships between them.
 
 ##### Table: Rotational and Translational Quantities
 
-{: #table1}
+{: #Table1}
 
 | Rotational| Translational | Relationship |
 | ---- | ---- | ---- |

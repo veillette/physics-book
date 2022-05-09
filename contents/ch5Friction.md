@@ -134,8 +134,8 @@ where $$ \mu_{\text{k}} $$ is the coefficient of kinetic friction.
 
 </div>
 
-As seen in [Table 1](#table1), the coefficients of kinetic friction are less
-than their static counterparts. That values of $$ \mu $$ in [Table 1](#table1)
+As seen in [Table 1](#Table1), the coefficients of kinetic friction are less
+than their static counterparts. That values of $$ \mu $$ in [Table 1](#Table1)
 are stated to only one or, at most, two digits is an indication of the
 approximate description of friction given by the above two equations.
 
@@ -157,7 +157,7 @@ approximate description of friction given by the above two equations.
 |Ice on ice|0.1|0.03|
 |Steel on ice|0.04|0.02|
 
-{: #table1}
+{: #Table1}
 
 The equations given earlier include the dependence of friction on materials and
 the normal force. The direction of friction is always opposite that of motion,
@@ -262,7 +262,7 @@ Substituting known values on the right-hand side of the equation,
 **Discussion**
 
 This result is a little smaller than the coefficient listed
-in [Table 1](#table1) for waxed wood on snow, but it is still reasonable since
+in [Table 1](#Table1) for waxed wood on snow, but it is still reasonable since
 values of the coefficients of friction can vary greatly. In situations like
 this, where an object of mass $$ m $$ slides down a slope that makes an angle $$
 \theta $$ with the horizontal, friction is given by $$ f_

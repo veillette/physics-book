@@ -61,7 +61,7 @@ $$ \Delta\theta $$ to be **radians** (rad), defined so that
 </div>
 
 A comparison of some useful angles expressed in both degrees and radians is
-shown in [Table 1](#table1).
+shown in [Table 1](#Table1).
 
 ##### Table 1: Comparison of Angular units
 
@@ -74,7 +74,7 @@ shown in [Table 1](#table1).
 |135º     |3𝜋/4 |
 |180º     |𝜋 |
 
-{: #table1}
+{: #Table1}
 
 ![A circle is shown. Two radii of the circle, inclined at an acute angle delta theta, are shown. On one of the radii, two points, one and two are marked. The point one is inside the circle through which an arc between the two radii is shown. The point two is on the circumference of the circle. The two arc lengths are delta s one and delta s two respectively for the two points.](../resources/Figure_06_01_02a.jpg
 "Points 1 and 2 rotate through the same angle \( \Delta \theta \), but point 2 moves through a greater arc length \( \Delta s \) because it is at a greater distance from the center of rotation \( r \) ")

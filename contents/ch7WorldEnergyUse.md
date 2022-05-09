@@ -64,7 +64,7 @@ world.
 ![Solar cell arrays lined up in a field.](../resources/Figure_06_09_03.jpg "Solar cell arrays in Manchester, Vermont, USA (credit: MarkBuckawicki, Wikimedia)")
 {: #Figure3}
 
-[Table 1](#table1) displays the 2006 commercial energy mix by country for some
+[Table 1](#Table1) displays the 2006 commercial energy mix by country for some
 of the prime energy users in the world. While non-renewable sources dominate,
 some countries get a sizeable percentage of their electricity from renewable
 resources. For example, about 67% of New Zealand’s electricity demand is met by
@@ -74,7 +74,7 @@ contributions of renewable energy in some countries with a large rural
 population, so these percentages in this table are left blank.
 
 ##### Table: Energy Consumption—Selected Countries (2006)
-{: #table1}
+{: #Table1}
 
 |Country|Consumption, in EJ ($$10^{18}$$ J)|Oil|Natural Gas|Coal|Nuclear|Hydro|Other Renewables|Electricity Use per capita (kWh/yr)|Energy Use per capita (GJ/yr)|
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |

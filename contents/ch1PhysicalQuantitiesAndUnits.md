@@ -54,7 +54,7 @@ the French *Système International*.
 
 ### SI Units: Fundamental and Derived Units
 
-[Table 1](#table1) gives the fundamental SI units that are used throughout this
+[Table 1](#Table1) gives the fundamental SI units that are used throughout this
 textbook. This text uses non-SI units in a few applications where they are in
 very common use, such as the measurement of blood pressure in millimeters of
 mercury (mm Hg). Whenever non-SI units are discussed, they will be tied to SI
@@ -66,7 +66,7 @@ units through conversions.
 |-----------|---------------|------------|------------------|
 | meter (m) | kilogram (kg) | second (s) | ampere (A)       |
 
-{: #table1}
+{: #Table1}
 
 It is an intriguing fact that some physical quantities are more fundamental than
 others and that the most fundamental physical quantities can be defined **only**
@@ -145,7 +145,7 @@ length, mass, and time.
 SI units are part of the **metric system**. The metric system is convenient for
 scientific and engineering calculations because the units are categorized by
 factors of 10.
-[Table 2](#table2) gives metric prefixes and symbols used to denote various
+[Table 2](#Table2) gives metric prefixes and symbols used to denote various
 factors of 10.
 
 Metric systems have the advantage that conversions of units involve only powers
@@ -215,13 +215,13 @@ are related to large-scale currents and forces between wires.
 | femto  | f      | $$10^{-15} $$ | femtometer | fm  | $$10^{-15} $$ m | size of a proton                    |
 | atto   | a      | $$10^{-18} $$ | attosecond | as  | $$10^{-18} $$ s | time light crosses an atom          |
 
-{: #table2}
+{: #Table2}
 
 ### Known Ranges of Length, Mass, and Time
 
 The vastness of the universe and the breadth over which physics applies are
 illustrated by the wide range of examples of known lengths, masses, and times
-in [Table 3](#table3). Examination of this table will give you some feeling for
+in [Table 3](#Table3). Examination of this table will give you some feeling for
 the range of possible topics and numerical values. (
 See [Figure 5](#Figure5) and [Figure 6](#Figure6).)
 
@@ -289,7 +289,7 @@ conversion factors.
 | $$ 10^{22} $$  | Distance from the Earth to the nearest large galaxy (Andromeda) | $$ 10^{42} $$  | Mass of the Milky Way galaxy (current upper limit)       |                |                                                       |
 | $$ 10^{26} $$  | Distance from the Earth to the edges of the known universe      | $$ 10^{53} $$  | Mass of the known universe (current upper limit)         |                |                                                       |
 
-{: #table3}
+{: #Table3}
 
 <div class="example" markdown="1">
 <div class="title">
@@ -571,7 +571,7 @@ speed of 4.0 cm/year.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) Refer to [Table 3](#table3) to determine the average distance between 
+(a) Refer to [Table 3](#Table3) to determine the average distance between 
 the Earth and the Sun.
 Then calculate the average speed of the Earth in its orbit in kilometers per second.
 (b) What is this in meters per second?
