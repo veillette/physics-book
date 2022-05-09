@@ -63,18 +63,18 @@ $$ \rho $$ is the density of the fluid.
 
 Athletes as well as car designers seek to reduce the drag force to lower their
 race times. (
-See [Figure 1](#fig1)). “Aerodynamic” shaping of an automobile can reduce the
+See [Figure 1](#Figure1)). “Aerodynamic” shaping of an automobile can reduce the
 drag force and so increase a car’s gas mileage.
 
 ![A two-person team in a bobsled race. The bobsled has an aerodynamic design and smooth runners so it can go as fast as possible.](../resources/Figure_05_02_02a.jpg "From racing cars to bobsled racers, aerodynamic shaping is crucial to achieving top speeds. Bobsleds are designed for speed. They are shaped like a bullet with tapered fins. (credit: U.S. Army, via Wikimedia Commons) ")
-{: #fig1}
+{: #Figure1}
 
 The value of the drag coefficient, $$ C $$, is determined empirically, usually
 with the use of a wind tunnel. (
-See [Figure 2](#fig2)).
+See [Figure 2](#Figure2)).
 
 ![A model plane is can be seen being tested in a wind tunnel.](../resources/Figure_05_02_03a.jpg "NASA researchers test a model plane in a wind tunnel. (credit: NASA/Ames)")
-{: #fig2}
+{: #Figure2}
 
 The drag coefficient can depend upon velocity, but we will assume that it is a
 constant here. [Table 1](#table1) lists some typical drag coefficients for a
@@ -109,7 +109,7 @@ wear. Bicycle racers and some swimmers and runners wear full bodysuits.
 Australian Cathy Freeman wore a full body suit in the 2000 Sydney Olympics, and
 won the gold medal for the 400 m race. Many swimmers in the 2008 Beijing
 Olympics wore full-length body suits; it might have made a difference in
-breaking many world records (See [Figure 3](#fig3)). Most elite swimmers (and
+breaking many world records (See [Figure 3](#Figure3)). Most elite swimmers (and
 cyclists) shave their body hair. Such innovations can have the effect of slicing
 away milliseconds in a race, sometimes making the difference between a gold and
 a silver medal. One consequence is that careful and precise guidelines must be
@@ -117,7 +117,7 @@ continuously developed to maintain the integrity of the sport.
 
 ![Three swimmers with are each wearing an L Z R Racer Suit, which is a swimsuit composed of elastane nylon and polyurethane. The seams of the suit are ultrasonically welded to reduce drag.](../resources/Figure_05_02_05a.jpg "Body suits, such as this LZR Racer Suit, have been credited with many world records after their release in 2008. Smoother &#x201C;skin&#x201D; and more compression forces on a swimmer&#x2019;s body provide at least 10% less drag. They were deemed to provide an unfair advantage to the wearer by FINA, which led to a ban on all swimsuits of a similar nature.
 (credit: NASA/Kathy Barnstorff)")
-{: #fig3}
+{: #Figure3}
 
 Some interesting situations connected to Newton’s second law occur when
 considering the effects of drag forces upon a moving object. For instance,
@@ -294,12 +294,12 @@ has influenced evolution. Fishes, dolphins, and even massive whales are
 streamlined in shape to reduce drag forces. Birds are streamlined and migratory
 species that fly large distances often have particular features such as long
 necks. Flocks of birds fly in the shape of a spear head as the flock forms a
-streamlined pattern (see [Figure 4](#fig4)). In humans, one important example of
+streamlined pattern (see [Figure 4](#Figure4)). In humans, one important example of
 streamlining is the shape of sperm, which need to be efficient in their use of
 energy.
 
 ![Geese flying across the sky in a V formation.](../resources/Figure_05_02_06a.jpg "Geese fly in a V formation during their long migratory travels. This shape reduces drag and energy consumption for individual birds, and also allows them a better way to communicate. (credit: Julo, Wikimedia Commons)")
-{: #fig4}
+{: #Figure4}
 
 <div class="note" data-label="" markdown="1">
 <div class="title">

@@ -17,17 +17,17 @@ exerts a strong force on a cannonball that is launched into the air. In
 contrast, Earth exerts only a tiny downward pull on a flea. Our everyday
 experiences also give us a good idea of how multiple forces add. If two people
 push in different directions on a third person, as illustrated
-in [Figure 1](#fig1), we might expect the total force to be in the direction
+in [Figure 1](#Figure1), we might expect the total force to be in the direction
 shown. Since force is a vector, it adds just like other vectors, as illustrated
-in [Figure 1](#fig1)(a) for two ice skaters. Forces, like other vectors, are
+in [Figure 1](#Figure1)(a) for two ice skaters. Forces, like other vectors, are
 represented by arrows and can be added using the familiar head-to-tail method or
 by trigonometric methods. These ideas were developed
 in [Two-Dimensional Kinematics](../contents/ch3TwoDimensionalKinematics.md).
 
 ![(a) Overhead view of two ice skaters pushing on a third. One skater pushes with a force F two, represented by an arrow pointing up, and a second skater pushes with a force F one, represented by an arrow pointing from left to right. Vector F one and vector F two are along the arms of the two skaters acting on the third skater. A vector diagram is shown in the form of a right triangle in which the base is vector F one pointing east and perpendicular is shown by vector F two pointing north. The resultant vector is shown by the hypotenuse pointing northeast. (b) Free-body diagram showing only the forces acting on the skater.](../resources/Figure_04_01_01.jpg "Part (a) shows an overhead view of two ice skaters pushing on a third. Forces are vectors and add like other vectors, so the total force on the third skater is in the direction shown. In part (b), we see a free-body diagram representing the forces acting on the third skater.")
-{: #fig1}
+{: #Figure1}
 
-[Figure 1](#fig1)(b) is our first example of a **free-body diagram**, which is a
+[Figure 1](#Figure1)(b) is our first example of a **free-body diagram**, which is a
 technique used to illustrate all the **external forces** acting on a body. The
 body is represented by a single isolated point (or free body), and only those
 forces acting *on* the body from the outside (external forces) are shown. (These
@@ -40,7 +40,7 @@ motion.
 A more quantitative definition of force can be based on some standard force,
 just as distance is measured in units relative to a standard distance. One
 possibility is to stretch a spring a certain fixed distance, as illustrated
-in [Figure 2](#fig2), and use the force it exerts to pull itself back to its
+in [Figure 2](#Figure2), and use the force it exerts to pull itself back to its
 relaxed shape—called a
 *restoring force*—as a standard. The magnitude of all other forces can be stated
 as multiples of this standard unit of force. Many other possibilities exist for
@@ -52,7 +52,7 @@ chapter.
 (b) The same spring is shown pulled by a person by a distance of delta x. The restoring force F restore is represented by an arrow pointing left toward the position where the spring is fixed. (c) A spring balance containing a spring stretched a distance delta x is shown. The restoring force is represented by an arrow F restore pointing toward the left in the direction opposite to the elongation of the spring.](../resources/Figure_04_01_02.jpg "The force exerted by a stretched spring can be used as a standard unit of force. (a) This spring has a length \( x \) when undistorted.
 (b) When stretched a distance \( \Delta x \) , the spring exerts a restoring force, \( F_{\text{restore}} \), which is reproducible.
 (c) A spring scale is one device that uses a spring to measure force. The force \( F_{\text{restore}} \) i s exerted on whatever is attached to the hook. Here \( F_{\text{restore}} \) has a magnitude of 6 units in the force standard being employed.")
-{: #fig2}
+{: #Figure2}
 
 <div class="note" data-label="" markdown="1">
 <div class="title">

@@ -33,9 +33,9 @@ rotation is possible. To avoid rotation, we consider only the scattering of
 We start by assuming that $$ \vb{F}_{\text{net}}=0 $$, so that momentum $$
 \vb{p} $$ is conserved. The simplest collision is one in which one of the
 particles is initially at rest. (
-See [Figure 1](#fig1).) The best choice for a coordinate system is one with an
+See [Figure 1](#Figure1).) The best choice for a coordinate system is one with an
 axis parallel to the velocity of the incoming particle, as shown
-in [Figure 1](#fig1). Because momentum is conserved, the components of momentum
+in [Figure 1](#Figure1). Because momentum is conserved, the components of momentum
 along the $$ x $$- and $$ y $$-axes $$ \left( p_{x}\text{ and } p_{y}\right) $$
 will also be conserved, but with the chosen coordinate system, $$ p_{y} $$ is
 initially zero and $$ p_{x} $$ is the momentum of the incoming particle. Both
@@ -45,7 +45,7 @@ still gain new insights into nature from the analysis of two-dimensional
 collisions.)
 
 ![A purple ball of mass m1 moves with velocity V 1 toward the right side along the X direction. The orange ball of mass m 2 is initially at rest. The total momentum is the momentum possessed by purple ball only. After collision purple ball moves with velocity v 1prime in the positive X Y plane making an angle theta 1 with the x axis and the orange ball moves in the X Y plane below the x axis making an angle theta 2 with the x axis. The total momentum would be the sum of the momentum of purple ball p1 prime and the orange ball p 2 prime. In two-dimensional collision too the momentum before and after collision remains the same.](../resources/Figure_08_06_02a.jpg "A two-dimensional collision with the coordinate system chosen so that \( m_2 \) is initially at rest and \( v_1 \) is parallel to the \( x \) -axis. This coordinate system is sometimes called the laboratory coordinate system, because many scattering experiments have a target that is stationary in the laboratory, while particles are scattered from it to determine the particles that make-up the target and how they are bound together. The particles may not be observed directly, but their initial and final velocities are.")
-{: #fig1}
+{: #Figure1}
 
 Along the $$ x $$ -axis, the equation for conservation of momentum is
 
@@ -77,7 +77,7 @@ Conservation of momentum along the $$ x $$ -axis gives the following equation:
  $$ m_{1} v_{1}= m_{1}v^{\prime}_{1}\cos{\theta_{1}}+ m_{2}v^{\prime}_{2}\cos{\theta_{2}}, $$
 </div>
 
-where $$\theta_{1} $$ and $$\theta_{2} $$ are as shown in [Figure 1](#fig1).
+where $$\theta_{1} $$ and $$\theta_{2} $$ are as shown in [Figure 1](#Figure1).
 
 <div class="note" data-label="">
 <div class="title">
@@ -151,7 +151,7 @@ collision.
 **Strategy**
 
 Momentum is conserved because the surface is frictionless. The coordinate system
-shown in [Figure 2](#fig2) is one in which $$ m_{2} $$ is originally at rest and
+shown in [Figure 2](#Figure2) is one in which $$ m_{2} $$ is originally at rest and
 the initial velocity is parallel to the $$ x $$ -axis, so that conservation of
 momentum along the $$ x $$ - and $$ y $$ -axes is applicable.
 
@@ -182,7 +182,7 @@ Thus,
 <div class="equation">
  $$\theta_{2}={\tan}^{-1}\left(-1.129\right)=311.5^\circ \approx 312^\circ. $$
 </div>
-Angles are defined as positive in the counter clockwise direction, so this angle indicates that $$ m_{2} $$ is scattered to the right in [Figure 2](#fig2), as expected (
+Angles are defined as positive in the counter clockwise direction, so this angle indicates that $$ m_{2} $$ is scattered to the right in [Figure 2](#Figure2), as expected (
 this angle is in the fourth quadrant). Either equation for the $$ x $$- or
 $$ y $$-axis can now be used to solve for $$ v^{\prime}_{2} $$, but the latter
 equation is easiest because it has fewer terms.
@@ -213,7 +213,7 @@ physicist want to explore the system further.
 </div>
 
 ![A purple ball of mass m1 and velocity v one moves in the right direction into a dark room. It collides with an object of mass m two of value zero point four zero milligrams which was initially at rest and then leaves the dark room from the top right hand side making an angle of forty-five degrees with the horizontal and at velocity v one prime. The net external force on the system is zero. The momentum before and after collision remains the same. The velocity v two prime of the mass m two and the angle theta two it would make with the horizontal after collision not given.](../resources/Figure_08_06_03a.jpg "A collision taking place in a dark room is explored in  <a href="#example1">Example 1</a>. The incoming object \( m_1 \) is scattered by an initially stationary object. Only the stationary object&#x2019;s mass \( m_2 \) is known. By measuring the angle and speed at which \( m_1 \) emerges from the room, it is possible to calculate the magnitude and direction of the initially stationary object&#x2019;s velocity after the collision.")
-{: #fig2}
+{: #Figure2}
 
 ### Elastic Collisions of Two Objects with Equal Mass
 
@@ -222,7 +222,7 @@ and the collision is elastic. This situation is nearly the case with colliding
 billiard balls, and precisely the case with some subatomic particle collisions.
 We can thus get a mental image of a collision of subatomic particles by thinking
 about billiards (or pool)
-. (Refer to [Figure 1](#fig1) for masses and angles.) First, an elastic
+. (Refer to [Figure 1](#Figure1) for masses and angles.) First, an elastic
 collision conserves internal kinetic energy. Again, let us assume object 2 $$
 \left( m_{2}\right) $$ is initially at rest. Then, the internal kinetic energy
 before and after the collision of two objects that have equal masses is
@@ -304,7 +304,7 @@ m{v^{\prime}_{2}}^{2}+ mv^{\prime}_{1} v^{\prime}_{2} \cos{\left( \theta_
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-[Figure 3](#fig3) shows a cube at rest and a small object heading toward it.
+[Figure 3](#Figure3) shows a cube at rest and a small object heading toward it.
 (a) Describe the directions (angle $$\theta_{1} $$)
 at which the small object can emerge after colliding elastically with the
 cube. How does $$\theta_{1} $$ depend on $$ b $$, the so-called impact
@@ -313,7 +313,7 @@ and assume that the cube is much more massive than the small object.
 (b) Answer the same questions if the small object instead collides with a massive sphere.
 
 ![A ball m one moves horizontally to the right with speed v one. It will collide with a stationary square labeled capital m two that is rotated at approximately forty-five degrees. The point of impact is on a face of the square a distance b above the center of the square. After the collision the ball is shown heading off at an angle theta one above the horizontal with a speed v one prime. The square remains essentially stationary (v 2 prime is approximately zero).](../resources/Figure_08_06_05a.jpg "A small object approaches a collision with a much more massive cube, after which its velocity has the direction \( \theta_1 \). The angles at which the small object can be scattered are determined by the shape of the object it strikes and the impact parameter \( b \). ")
-{: #fig3}
+{: #Figure3}
 
 </div>
 </div>

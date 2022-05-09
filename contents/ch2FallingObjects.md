@@ -26,7 +26,7 @@ because we are so accustomed to the effects of air resistance and friction that
 we expect light objects to fall slower than heavy ones.
 
 ![Positions of a feather and hammer over time as they fall on the Moon. The feather and hammer are at the exact same position at each moment in time.](../resources/Figure_02_07_00a.jpg "A hammer and a feather will fall with the same constant acceleration if air resistance is considered negligible. This is a general characteristic of gravity not unique to Earth, as astronaut David R. Scott demonstrated on the Moon in 1971, where the acceleration due to gravity is only \( 1.67 \mss \) ")
-{: #fig1}
+{: #Figure1}
 
 In the real world, air resistance can cause a lighter object to fall slower than
 a heavier object of the same size. A tennis ball will reach the ground after a
@@ -106,7 +106,7 @@ Draw a sketch.
 
 ![Velocity vector arrow pointing up in the positive y direction, labeled v sub 0 equals thirteen point 0 meters per second. Acceleration vector arrow pointing down in the negative y direction, labeled a equals negative 9 point 8 meters per second squared.](../resources/Figure_02_07_00b.jpg
 "Velocity and Acceleration Sketch")
-{: #fig2}
+{: #Figure2}
 
 We are asked to determine the position $$ y $$ at various times. It is
 reasonable to take the initial position $$ y_{0} $$ to be zero. This problem
@@ -171,7 +171,7 @@ expected.
 
 The procedures for calculating the position and velocity at $$ t=2.00\s $$ and
 $$ 3.00 \s $$ are the same as those above. The results are summarized
-in [Table 1](#table1) and illustrated in [Figure 3](#fig3).
+in [Table 1](#table1) and illustrated in [Figure 3](#Figure3).
 
 ##### Table: Results
 
@@ -186,7 +186,7 @@ in [Table 1](#table1) and illustrated in [Figure 3](#fig3).
 Graphing the data helps us understand it more clearly.
 
 ![Three panels showing three graphs. The top panel shows a graph of vertical position in meters versus time in seconds. The line begins at the origin and has a positive slope that decreases over time until it hits a turning point between seconds 1 and 2. After that it has a negative slope that increases over time. The middle panel shows a graph of velocity in meters per second versus time in seconds. The line is straight, with a negative slope, beginning at time zero velocity of thirteen meters per second and ending at time 3 seconds with a velocity just over negative sixteen meters per second. The bottom panel shows a graph of acceleration in meters per second squared versus time in seconds. The line is straight and flat at a y value of negative 9 point 80 meters per second squared from time 0 to time 3 seconds.](../resources/Figure_02_06_01.jpg "Vertical position, vertical velocity, and vertical acceleration vs. time for a rock thrown vertically up at the edge of a cliff. Notice that velocity changes linearly with time and that acceleration is constant. Misconception Alert! Notice that the position vs. time graph shows vertical position only. It is easy to get the impression that the graph shows some horizontal motion;the shape of the graph looks like the path of a projectile. But this is not the case; the horizontal axis is time, not space. The actual path of the rock in space is straight up, and straight down.")
-{: #fig3}
+{: #Figure3}
 
 **Discussion**
 
@@ -227,7 +227,7 @@ What happens if the person on the cliff throws the rock straight down, instead o
 Draw a sketch.
 
 ![Velocity vector arrow pointing down in the negative y direction and labeled v sub zero equals negative thirteen point 0 meters per second. Acceleration vector arrow also pointing down in the negative y direction, labeled a equals negative 9 point 80 meters per second squared.](../resources/Figure_02_06_01a.jpg "Velocity and Accelerator Sketch")
-{: #fig4}
+{: #Figure4}
 
 Since up is positive, the final position of the rock will be negative because it
 finishes below the starting point at $$ y_{0}=0 $$. Similarly, the initial
@@ -269,7 +269,7 @@ The negative root is chosen to indicate that the rock is still heading down. Thu
 
 Note that *this is exactly the same velocity the rock had at this position when
 it was thrown straight upward with the same initial speed*. (
-See [Example 1](#example1) and [Figure 5](#fig5)(a).) This is not a coincidental
+See [Example 1](#example1) and [Figure 5](#Figure5)(a).) This is not a coincidental
 result. Because we only consider the acceleration due to gravity in this
 problem, the *speed* of a falling object depends only on its initial speed and
 its vertical position relative to the starting point. For example, if the
@@ -281,7 +281,7 @@ heading up, and the negative value occurs when the rock is at 8.10 m and heading
 back down. It has the same *speed* but the opposite direction.
 
 ![Two figures are shown. At left, a man standing on the edge of a cliff throws a rock straight up with an initial speed of thirteen meters per second. At right, the man throws the rock straight down with a speed of thirteen meters per second. In both figures, a line indicates the rock&#x2019;s trajectory. When the rock is thrown straight up, it has a speed of minus sixteen point four meters per second at minus five point one zero meters below the point where the man released the rock. When the rock is thrown straight down, the velocity is the same at this position.](../resources/Figure_02_06_00b.jpg "(a) A person throws a rock straight up, as explored in <a href="#example1">Example 1</a>. The arrows are velocity vectors at 0, 1.00, 2.00, and 3.00 s. (b) A person throws a rock straight down from a cliff with the same initial speed as before, as in <a href="#example2">Example 2</a>. Note that at the same distance below the point of release, the rock has the same velocity in both cases. ")
-{: #fig5}
+{: #Figure5}
 
 Another way to look at it is this: In [Example 1](#example1), the rock is thrown
 up with an initial velocity of $$ 13.0 \ms $$. It rises and then falls back
@@ -299,10 +299,10 @@ speed with which it was initially thrown is the same.
 <div class="title">
 Find *g* from Data on a Falling Object
 </div>
-The acceleration due to gravity on Earth differs slightly from place to place, depending on topography (e.g., whether you are on a hill or in a valley) and subsurface geology (whether there is dense rock like iron ore as opposed to light rock like salt beneath you.) The precise acceleration due to gravity can be calculated from data taken in an introductory physics laboratory course. An object, usually a metal ball for which air resistance is negligible, is dropped and the time it takes to fall a known distance is measured. See, for example, [Figure 6](#fig6). Very precise results can be produced with this method if sufficient care is taken in measuring the distance fallen and the elapsed time.
+The acceleration due to gravity on Earth differs slightly from place to place, depending on topography (e.g., whether you are on a hill or in a valley) and subsurface geology (whether there is dense rock like iron ore as opposed to light rock like salt beneath you.) The precise acceleration due to gravity can be calculated from data taken in an introductory physics laboratory course. An object, usually a metal ball for which air resistance is negligible, is dropped and the time it takes to fall a known distance is measured. See, for example, [Figure 6](#Figure6). Very precise results can be produced with this method if sufficient care is taken in measuring the distance fallen and the elapsed time.
 
 ![Figure has four panels. The first panel (on the top) is an illustration of a ball falling toward the ground at intervals of one tenth of a second. The space between the vertical position of the ball at one time step and the next increases with each time step. At time equals 0, position and velocity are also 0. At time equals 0 point 1 seconds, y position equals negative 0 point 049 meters and velocity is negative 0 point 98 meters per second. At 0 point 5 seconds, y position is negative 1 point 225 meters and velocity is negative 4 point 90 meters per second. The second panel (in the middle) is a line graph of position in meters versus time in seconds. Line begins at the origin and slopes down with increasingly negative slope. The third panel (bottom left) is a line graph of velocity in meters per second versus time in seconds. Line is straight, beginning at the origin and with a constant negative slope. The fourth panel (bottom right) is a line graph of acceleration in meters per second squared versus time in seconds. Line is flat, at a constant y value of negative 9 point 80 meters per second squared.](../resources/Figure_02_06_02.jpg "Positions and velocities of a metal ball released from rest when air resistance is negligible. Velocity is seen to increase linearly with time while displacement increases with time squared. Acceleration is a constant and is equal to gravitational acceleration.")
-{: #fig6}
+{: #Figure6}
 
 Suppose the ball falls 1.0000 m in 0.45173 s. Assuming the ball is not affected
 by air resistance, what is the precise acceleration due to gravity at this
@@ -313,7 +313,7 @@ location?
 Draw a sketch.
 
 ![The figure shows a green dot labeled v sub zero equals zero meters per second, a purple downward pointing arrow labeled a equals question mark, and an x y coordinate system with the y axis pointing vertically up and the x axis pointing horizontally to the right.](../resources/Figure_02_06_02b.jpg)
-{: #fig7}
+{: #Figure7}
 
 We need to solve for acceleration $$ a $$. Note that in this case, displacement
 is downward and therefore negative, as is acceleration.
@@ -571,7 +571,7 @@ She starts with a velocity of 4.00 m/s, and her takeoff point is 1.80 m above th
 
 </div>
 <div class="solution" markdown="1">
-![Path of a rock being thrown off of cliff. The rock moves up from the cliff top, reaches a transition point, and then falls down to the ground.](../resources/Figure_02_07_05.jpg){: #fig8}
+![Path of a rock being thrown off of cliff. The rock moves up from the cliff top, reaches a transition point, and then falls down to the ground.](../resources/Figure_02_07_05.jpg){: #Figure8}
 
 (a) 8.26 m
 
