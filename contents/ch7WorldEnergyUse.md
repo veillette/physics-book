@@ -21,7 +21,7 @@ production per year; 66% of that oil is imported!
 
 ### Renewable and Nonrenewable Energy Sources
 
-The principal energy resources used in the world are shown in [Figure 1](#fig1).
+The principal energy resources used in the world are shown in [Figure 1](#Figure1).
 The fuel mix has changed over the years but now is dominated by oil, although
 natural gas and solar contributions are increasing. **Renewable forms of
 energy** are those sources that cannot be used up, such as water, wind, solar,
@@ -32,12 +32,12 @@ combustion, has made, in the eyes of many scientists, a shift to non-fossil
 fuels of utmost importance—but it will not be easy.
 
 ![A pie chart of the world&#x2019;s energy consumption by source is shown. Thirty-five point four three percent is petroleum, twenty-eight point one five percent is coal, twenty-three point four six percent is dry natural gas, six point two seven percent is hydro-electricity, five point seven nine percent is nuclear electricity, point eight six percent is geothermal, wind, solar, biomass, and point zero five percent is geothermal, biomass, or solar energy not used for electricity.](../resources/svg/Figure_07_09_01.svg "World energy consumption (2018) based on data from BP Statistical Review of World Energy (credit:Veillette)")
-{: #fig1}
+{: #Figure1}
 
 ### The World’s Growing Energy Needs
 
 World energy consumption continues to rise, especially in the developing
-countries. ( See [Figure 2](#fig2).)
+countries. ( See [Figure 2](#Figure2).)
 Global demand for energy has tripled in the past 50 years and might triple again
 in the next 30 years. While much of this growth will come from the rapidly
 booming economies of China and India, many of the developed countries,
@@ -46,7 +46,7 @@ the use of renewable sources. Although presently only a small percentage,
 renewable energy is growing very fast, especially wind energy. For example,
 Germany plans to meet 20% of its electricity and 10% of its overall energy needs
 with renewable resources by the year 2020. (
-See [Figure 3](#fig3).) Energy is a key constraint in the rapid economic growth
+See [Figure 3](#Figure3).) Energy is a key constraint in the rapid economic growth
 of China and India. In 2003, China surpassed Japan as the world’s second largest
 consumer of oil. However, over 1/3 of this is imported. Unlike most Western
 countries, coal dominates the commercial energy resources of China, accounting
@@ -59,10 +59,10 @@ growing wind energy base, and it has the largest solar cooking program in the
 world.
 
 ![A bar graph depicting world energy consumption is shown. The year is listed on the horizontal axis and energy consumed is listed on the vertical axis. Energy consumption by the world is shown for different years. Energy consumption rises over time. In the year nineteen hundred and ninety it was three hundred seventy three multiplied by ten to the power eighteen joules, and the projection is that it will become eight hundred twelve multiplied by ten to the power eighteen joules by the year twenty thirty five.](../resources/Figure_07_09_02a.jpg "Past and projected world energy use (source: Based on data from U.S. Energy Information Administration, 2011)")
-{: #fig2}
+{: #Figure2}
 
 ![Solar cell arrays lined up in a field.](../resources/Figure_06_09_03.jpg "Solar cell arrays in Manchester, Vermont, USA (credit: MarkBuckawicki, Wikimedia)")
-{: #fig3}
+{: #Figure3}
 
 [Table 1](#table1) displays the 2006 commercial energy mix by country for some
 of the prime energy users in the world. While non-renewable sources dominate,
@@ -99,12 +99,12 @@ The last two columns in this table examine the energy and electricity use per
 capita. Economic well-being is dependent upon energy use, and in most countries
 higher standards of living, as measured by GDP (gross domestic product) per
 capita, are matched by higher levels of energy consumption per capita. This is
-borne out in [Figure 4](#fig4). Increased efficiency of energy use will change
+borne out in [Figure 4](#Figure4). Increased efficiency of energy use will change
 this dependency. A global problem is balancing energy resource development
 against the harmful effects upon the environment in its extraction and use.
 
 ![A scatter plot of power consumption per capita versus G D P per capita for various countries. Power consumption in kilowatt per capita is shown along the horizontal axis and G D P per capita is show alon g the vertical axis.](../resources/svg/Figure_07_09_04.svg "Power consumption per capita versus GDP per capita for various countries. Note the increase in energy usage with increasing GDP. (2015, credit: International Energy Agency (IEA) via The World Bank)")
-{: #fig4}
+{: #Figure4}
 
 ### Conserving Energy
 
@@ -171,7 +171,7 @@ If the efficiency of a coal-fired electrical generating plant is 35%, then what 
 
 **Integrated Concepts**
 
-(a) Calculate the force the woman in [Figure 5](#fig5) exerts to do a push-up at
+(a) Calculate the force the woman in [Figure 5](#Figure5) exerts to do a push-up at
 constant speed, taking all data to be known to three digits.
 (b) How much work does she do if her center of mass rises 0.240 m?
 (c) What is her useful power output if she does 25 push-ups in 1 min?
@@ -181,7 +181,7 @@ in [Work, Energy, and Power in Humans](../contents/ch7WorkEnergyAndPowerInHumans
 .
 
 ![A woman is doing push-ups. Her weight w is acting on her center of gravity , shown by a vector pointing downwards. Her center of gravity  is zero point nine zero meters from her feet and reaction force F acting on her arms is shown by the vector pointing upward along her arms. The distance of reaction force from the feet is one point five zero meters.](../resources/Figure_07_09_06a.jpg "Forces involved in doing push-ups. The woman&#x2019;s weight acts as a force exerted downward on her center of gravity (CG).")
-{: #fig5}
+{: #Figure5}
 
 </div>
 <div class="solution" markdown="1">
@@ -216,7 +216,7 @@ velocity of 10.0 m/s?
 
 **Integrated Concepts**
 
-The 70.0-kg swimmer in [Figure 6](#fig6) starts a race with an initial velocity
+The 70.0-kg swimmer in [Figure 6](#Figure6) starts a race with an initial velocity
 of 1.25 m/s and exerts an average force of 80.0 N backward with his arms during
 each 1.80 m long stroke.
 (a) What is his initial acceleration if water resistance is 45.0 N?
@@ -226,7 +226,7 @@ each 1.80 m long stroke.
 
 ![A person swimming and his arm motion in each stroke is represented. The arm action is shown by an arc starting from where his hand enters the surface of the water and ending at the point where his hand emerges from the water. The diameter of this arc made by the person&#x2019;s hand tip in one stroke is one point eight meters.](
 ../resources/Figure_07_08_06a.jpg "A person swimming with a stroke of 1.80m")
-{: #fig6}
+{: #Figure6}
 
 
 </div>

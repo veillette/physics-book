@@ -56,7 +56,7 @@ width of your desk? What other measurements can you approximate besides length?
 <div class="title">
 Approximating Vast Numbers: a Trillion Dollars
 </div>
-![A bank stack containing one hundred hundred-dollar bills.](../resources/Figure_01_04_01.jpg "A bank stack contains one-hundred  \$100 bills, and is worth  \$10 000. How many bank stacks make up a trillion dollars? (credit: Andrew Magill)"){: #fig1}
+![A bank stack containing one hundred hundred-dollar bills.](../resources/Figure_01_04_01.jpg "A bank stack contains one-hundred  \$100 bills, and is worth  \$10 000. How many bank stacks make up a trillion dollars? (credit: Andrew Magill)"){: #Figure1}
 
 The U.S. federal deficit in the 2019 fiscal year was a little greater than $$ 1
 trillion. Most of us do not have any concept of how much even one trillion
@@ -205,7 +205,7 @@ and the mass of a bacterium is on the order of  $$ 10^{-15} \kg  $$) .
 </div>
 
 ![A magnified image of the bacterium Salmonella attacking a human cell. The bacterium is rod shaped and about zero point seven to one point five micrometers in diameter and two to five micrometers in length.](../resources/Figure_01_04_02.jpg "This color-enhanced photo shows Salmonella typhimurium (red) attacking human cells. These bacteria are commonly known for causing foodborne illness. Can you estimate the number of atoms in each bacterium? (credit: Rocky Mountain Laboratories, NIAID, NIH)")
-{: #fig2}
+{: #Figure2}
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">

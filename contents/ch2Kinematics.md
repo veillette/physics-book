@@ -4,7 +4,7 @@ layout: page
 ---
 
 ![A cheetah running at the Cincinnati zoo](../resources/Figure_02_00_01.jpg "The motion of a cheetah can be described by the animal&#x2019;s displacement, speed, velocity, and acceleration. When it runs in a straight line without any change in direction, its motion is said to be one dimensional. (credit: Mark Dumont, Wikimedia Commons)")
-{: #fig1}
+{: #Figure1}
 
 Objects are in motion everywhere we look. Everything from a tennis game to a
 space-probe flyby of the planet Neptune involves motion. When you are resting,

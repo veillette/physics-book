@@ -48,7 +48,7 @@ Calculating Angular Momentum of the Earth
 
 No information is given in the statement of the problem; so we must look up
 pertinent data before we can calculate $$ L=I \omega $$. First, according
-to [Figure 3 of Dynamics Of Rotational Motion](../contents/ch10DynamicsOfRotationalMotion.md#fig3), the formula for
+to [Figure 3 of Dynamics Of Rotational Motion](../contents/ch10DynamicsOfRotationalMotion.md#Figure3), the formula for
 the moment of inertia of a sphere is
 
 <div class="equation">
@@ -111,12 +111,12 @@ is, in fact, the rotational form of Newton’s second law.
 <div class="title">
 Calculating the Torque Putting Angular Momentum Into a Lazy Susan
 </div>
-[Figure 1](#fig1) shows a Lazy Susan food tray being rotated by a person in quest of sustenance. Suppose the person exerts a 2.50 N force perpendicular to the lazy Susan’s 0.260-m radius for 0.150 s.
+[Figure 1](#Figure1) shows a Lazy Susan food tray being rotated by a person in quest of sustenance. Suppose the person exerts a 2.50 N force perpendicular to the lazy Susan’s 0.260-m radius for 0.150 s.
 (a) What is the final angular momentum of the lazy Susan if it starts from rest, assuming friction is negligible?
 (b) What is the final angular velocity of the lazy Susan, given that its mass is 4.00 kg and assuming its moment of inertia is that of a disk?
 
 ![The given figure shows a lazy Susan on which various eatables like cake, salad grapes, and a drink are kept. A hand is shown that applies a force F, indicated by a leftward pointing horizontal arrow. This force is perpendicular to the radius r and thus tangential to the circular lazy Susan.](../resources/Figure_10_05_01a.jpg "A partygoer exerts a torque on a lazy Susan to make it rotate. The equation \( \text{net} \vb{\tau} =\frac{\Delta \vb{L}}{\Delta t} \) gives the relationship between torque and the angular momentum produced.")
-{: #fig1}
+{: #Figure1}
 
 **Strategy**
 
@@ -178,7 +178,7 @@ exercise for the reader), which is about right for a lazy Susan.
 <div class="title">
 Calculating the Torque in a Kick
 </div>
-The person whose leg is shown in [Figure 2](#fig2) kicks his leg by exerting a 2000-N force with his upper leg muscle. The effective perpendicular lever arm is 2.20 cm.
+The person whose leg is shown in [Figure 2](#Figure2) kicks his leg by exerting a 2000-N force with his upper leg muscle. The effective perpendicular lever arm is 2.20 cm.
 Given the moment of inertia of the lower leg is $$ 1.25 \kg\cdot \mm $$,
 (a) find the angular acceleration of the leg.
 (b) Neglecting the gravitational force, what is the rotational kinetic energy of the leg after it has rotated
@@ -186,7 +186,7 @@ through $$ 57.3^\circ $$
 (1.00 rad)?
 
 ![The figure shows a human leg, from the thighs to the feet which is bent at the knee joint. The radius of curvature of the knee is indicated as r equal to two point two zero centimeters and the moment of inertia of the lower half of the leg is indicated as I equal to one point two five kilogram meter square. The direction of torque is indicated by a red arrow in anti-clockwise direction, near the knee.](../resources/Figure_10_05_02a.jpg "The muscle in the upper leg gives the lower leg an angular acceleration and imparts rotational kinetic energy to it by exerting a torque about the knee. F is a vector that is perpendicular to r. This example examines the situation.")
-{: #fig2}
+{: #Figure2}
 
 **Strategy**
 
@@ -318,7 +318,7 @@ or
 These expressions are the **law of conservation of angular momentum**.
 Conservation laws are as scarce as they are important.
 
-An example of conservation of angular momentum is seen in [Figure 3](#fig3), in
+An example of conservation of angular momentum is seen in [Figure 3](#Figure3), in
 which an ice skater is executing a spin. The net torque on her is very close to
 zero, because there is relatively little friction between her skates and the ice
 and because the friction is exerted very close to the pivot point. (Both $$ F $$
@@ -344,13 +344,13 @@ angular velocity $$ \omega \prime $$ must increase to keep the angular momentum
 constant. The change can be dramatic, as the following example shows.
 
 ![The image a shows an ice skater spinning on the tip of her skate with both her arms and one leg extended. The image b shows the ice skater spinning on the tip of one skate, with her arms crossed and one leg supported on another.](../resources/Figure_10_05_03a.jpg "(a) An ice skater is spinning on the tip of her skate with her arms extended. Her angular momentum is conserved because the net torque on her is negligibly small. In the next image, her rate of spin increases greatly when she pulls in her arms, decreasing her moment of inertia. The work she does to pull in her arms results in an increase in rotational kinetic energy.")
-{: #fig3}
+{: #Figure3}
 
 <div class="example" markdown="1">
 <div class="title">
 Calculating the Angular Momentum of a Spinning Skater
 </div>
-Suppose an ice skater, such as the one in [Figure 3](#fig3), is spinning
+Suppose an ice skater, such as the one in [Figure 3](#Figure3), is spinning
 at 0.800 rev/ s with her arms extended. She has a moment of inertia of $$ 2.34\kg \cdot \mm $$
 with her arms extended and of $$ 0.363\kg \cdot \mm $$ with her
 arms close to her body. (These moments of inertia are based on reasonable
@@ -442,10 +442,10 @@ to the furious level of a tornado. Earth is another example. Our planet was born
 from a huge cloud of gas and dust, the rotation of which came from turbulence in
 an even larger cloud. Gravitational forces caused the cloud to contract, and the
 rotation rate increased as a result. (
-See [Figure 4](#fig4).)
+See [Figure 4](#Figure4).)
 
 ![The first figure shows a cloud of dust and gas,which is in the shape of a distorted circle, rotating in anti-clockwise direction with an angular velocity omega, indicated by a curved black arrow, and having an angular momentum L. The second figure shows an elliptical cloud of dust with the Sun in the middle of it, rotating in anti-clockwise direction with an angular velocity omega dash, indicated by a curved black arrow, and having an angular momentum L. The third figure depicts the Solar System, with the Sun in the middle of it and the various planets revolve around it in their respective elliptical orbits in anti-clockwise direction, which is indicated by arrows. The angular momentum remains L.](../resources/Figure_10_05_04a.jpg "The Solar System coalesced from a cloud of gas and dust that was originally rotating. The orbital motions and spins of the planets are in the same direction as the original spin and conserve the angular momentum of the parent cloud.")
-{: #fig4}
+{: #Figure4}
 
 In case of human motion, one would not expect angular momentum to be conserved
 when a body interacts with the environment as its foot pushes off the ground.
@@ -494,7 +494,7 @@ When you start the engine of your car with the transmission in neutral, you noti
 Suppose a child walks from the outer edge of a rotating merry-go round to the inside. Does the angular velocity of the merry-go-round increase, decrease, or remain the same? Explain your answer.
 
 ![In figure A, there is a merry go round. A child is jumping radially outward. In figure B, a child is jumping backward to the direction of motion of merry go round. In figure C, a child is jumping from it to hang from the branch of the tree. In figure D, a child is jumping from the merry go round tangentially to its circumference.](../resources/Figure_10_05_07a.jpg "A child may jump off a merry-go-round in a variety of directions.")
-{: #fig5}
+{: #Figure5}
 
 </div>
 </div>
@@ -506,7 +506,7 @@ or remain the same if:
 (a) He jumps off radially?
 (b) He jumps backward to land motionless?
 (c) He jumps straight up and hangs onto an overhead tree branch?
-(d) He jumps off forward, tangential to the edge? Explain your answers. (Refer to [Figure 5](#fig5)).
+(d) He jumps off forward, tangential to the edge? Explain your answers. (Refer to [Figure 5](#Figure5)).
 
 </div>
 </div>
@@ -567,7 +567,7 @@ can this counter-rotation be prevented? Explain your answer.
 Competitive divers pull their limbs in and curl up their bodies when they do flips. Just before entering the water, they fully extend their limbs to enter straight down. Explain the effect of both actions on their angular velocities. Also explain the effect on their angular momenta.
 
 ![The given figure shows a diver who curls her body while flipping and then fully extends her limbs to enter straight down into water.](../resources/Figure_10_05_05a.jpg "The diver spins rapidly when curled up and slows when she extends her limbs before entering the water.")
-{: #fig6 height="200"}
+{: #Figure6 height="200"}
 
 </div>
 </div>
@@ -584,7 +584,7 @@ Draw a free body diagram to show how a diver gains angular momentum when leaving
 In terms of angular momentum, what is the advantage of giving a football or a rifle bullet a spin when throwing or releasing it?
 
 ![](../resources/Figure_10_05_06a.jpg "The image shows a view down the barrel of a cannon, emphasizing its rifling. Rifling in the barrel of a canon causes the projectile to spin just as is the case for rifles (hence the name for the grooves in the barrel). (credit: Elsie esq., Flickr)&#10;  ")
-{: #fig7}
+{: #Figure7}
 
 </div>
 </div>

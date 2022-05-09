@@ -22,8 +22,8 @@ have already begun to develop.
 Step 1. As usual, it is first necessary to identify the physical principles
 involved. *Once it is determined that Newton’s laws of motion are involved (if
 the problem involves forces), it is particularly important to draw a careful
-sketch of the situation*. Such a sketch is shown in [Figure 1](#fig1)(a). Then,
-as in [Figure 1](#fig1)(b), use arrows to represent all forces, label them
+sketch of the situation*. Such a sketch is shown in [Figure 1](#Figure1)(a). Then,
+as in [Figure 1](#Figure1)(b), use arrows to represent all forces, label them
 carefully, and make their lengths and directions correspond to the forces they
 represent (whenever sufficient information exists).
 
@@ -33,7 +33,7 @@ represent (whenever sufficient information exists).
 (a) A sketch of Tarzan hanging from a vine.
 (b) Arrows are used to represent all forces. \( \vb{T} \) is the tension in the vine above Tarzan, \( \vb{F}_T \) is the force he exerts on the vine, and \( \vb{w} \) is his weight. All other forces, such as the nudge of a breeze, are assumed negligible.
 (c) Suppose we are given the ape man&#x2019;s mass and asked to find the tension in the vine. We then define the system of interest as shown and draw a free-body diagram. \( \vb{F}_T \) is no longer shown, because it is not a force acting on the system of interest; rather, \( \vb{F}_T \) acts on the outside world. (d) Showing only the arrows, the head-to-tail method of addition is used. It is apparent that \( \vb{T}=- \vb{w} \), if Tarzan is stationary.")
-{: #fig1}
+{: #Figure1}
 
 Step 2. Identify what needs to be determined and what is known or can be
 inferred from the problem as stated. That is, make a list of knowns and
@@ -41,7 +41,7 @@ unknowns. *Then carefully determine the system of interest*. This decision is a
 crucial step, since Newton’s second law involves only external forces. Once the
 system of interest has been identified, it becomes possible to determine which
 forces are external and which are internal, a necessary step to employ Newton’s
-second law. (See [Figure 1](#fig1)(c).) Newton’s third law may be used to
+second law. (See [Figure 1](#Figure1)(c).) Newton’s third law may be used to
 identify whether forces are exerted between components of a system (
 internal) or between the system and something outside (external). As illustrated
 earlier in this chapter, the system of interest depends on what question we need
@@ -52,11 +52,11 @@ beneficial in later chapters as well.
 A diagram showing the system of interest and all of the external forces is
 called a **free-body diagram**. Only forces are shown on free-body diagrams, not
 acceleration or velocity. We have drawn several of these in worked
-examples. [Figure 1](#fig1)(c) shows a free-body diagram for the system of
+examples. [Figure 1](#Figure1)(c) shows a free-body diagram for the system of
 interest. Note that no internal forces are shown in a free-body diagram.
 
 Step 3. Once a free-body diagram is drawn, *Newton’s second law can be applied
-to solve the problem*. This is done in [Figure 1](#fig1)(d) for a particular
+to solve the problem*. This is done in [Figure 1](#Figure1)(d) for a particular
 situation. In general, once external forces are clearly identified in free-body
 diagrams, it should be a straightforward task to put them into equation form and
 solve for the unknown, as done in all previous examples. If the problem is
@@ -131,7 +131,7 @@ in the Problem-Solving Strategy for Newton’s laws of motion.
 </div>
 <div class="solution" markdown="1">
 ![An object of mass m is shown. Three forces acting on it are tension T, shown by an arrow acting vertically upward, and friction f and gravity m g, shown by two arrows acting vertically downward.](../resources/Figure_04_06_02.jpg)
-{: #fig2 height="150"}
+{: #Figure2 height="150"}
 
 Using the free-body diagram:
 
@@ -167,7 +167,7 @@ Calculate the force a 70.0-kg high jumper must exert on the ground to produce an
 
 1. Use Newton’s laws of
    motion. ![Two forces are acting on an object of mass m: F, shown by an arrow pointing upward, and its weight w, shown by an arrow pointing downward. Acceleration a is represented by a vector arrow pointing upward. The figure depicts the forces acting on a high jumper.](../resources/Figure_04_06_03.jpg)
-   {: #fig3 height="150"}
+   {: #Figure3 height="150"}
 
 2. Given :
    $$ a=4.00g=\left(4.00\right)\left(9.80 \mss \right)
@@ -253,7 +253,7 @@ experienced by the boat and trailer?
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) Find the magnitudes of the forces $$ \vb{F}_{1} $$ and $$ \vb{F}_{2} $$ that add to give the total force $$ \vb{F}_{\text{tot}} $$
-shown in [Figure below](#fig4). This may be done either graphically
+shown in [Figure below](#Figure4). This may be done either graphically
 or by using trigonometry.
 (b) Show graphically that the same total force is
 obtained independent of the order of addition of $$ \vb{F}_{1} $$
@@ -265,13 +265,13 @@ $$ \vb{F}_{\text{tot}} $$. Draw these to scale on the same drawing used in part 
 </div>
 
 ![A right triangle is shown made up of three vectors. The first vector, F sub one, is along the triangle&#x2019;s base toward the right; the second vector, F sub two, is along the perpendicular side pointing upward; and the third vector, F sub tot, is along the hypotenuse pointing up the incline. The magnitude of F sub tot is twenty newtons. In a free-body diagram, F sub one is shown by an arrow pointing right and F sub two is shown by an arrow acting vertically upward.](../resources/Figure_04_06_04.jpg)
-{: #fig4}
+{: #Figure4}
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Two children pull a third child on a snow saucer sled exerting forces $$ \vb{F}_{1} $$
 and $$ \vb{F}_{2} $$ as shown from above
-in [Figure below](#fig5). Find the acceleration of the 49.00-kg sled
+in [Figure below](#Figure5). Find the acceleration of the 49.00-kg sled
 and child system. Note that the direction of the frictional force is
 unspecified; it will be in the opposite direction of the sum of $$
 \vb{F}_{1} $$ and $$ \vb{F}_{2} $$.
@@ -284,11 +284,11 @@ unspecified; it will be in the opposite direction of the sum of $$
 </div>
 
 ![An overhead view of a child sitting on a snow saucer sled. Two forces, F sub one equal to ten newtons and F sub two equal to eight newtons, are acting toward the right. F sub one makes an angle of forty-five degrees from the x axis and F sub two makes an angle of thirty degrees from the x axis in a clockwise direction. A friction force f is equal to seven point five newtons, shown by a vector pointing in negative x direction. In the free-body diagram, F sub one and F sub two are shown by arrows toward the right, making a forty-five degree angle above the horizontal and a thirty-degree angle below the horizontal respectively. The friction force f is shown by an arrow along the negative x axis.](../resources/Figure_04_06_05.jpg "An overhead view of the horizontal forces acting on a child&#x2019;s snow saucer sled.")
-{: #fig5}
+{: #Figure5}
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Suppose your car was mired deeply in the mud and you wanted to use the method illustrated in the [Figure below](#fig6) to pull it out.
+Suppose your car was mired deeply in the mud and you wanted to use the method illustrated in the [Figure below](#Figure6) to pull it out.
 (a) What force would you have to exert perpendicular to the center of the rope to produce a force of 12 000 N on the
 car if the angle is 2.00°? In this part, explicitly show how you follow the steps in the Problem-Solving Strategy for Newton’s laws of motion.
 (b) Real ropes stretch under such forces. What force would be exerted on the car if the angle increases to 7.00° and
@@ -297,11 +297,11 @@ you still apply the force found in part (a) to its center?
 </div>
 </div>
 
-![](../resources/Figure_04_06_09.jpg){: #fig6}
+![](../resources/Figure_04_06_09.jpg){: #Figure6}
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What force is exerted on the tooth in the [Figure below](#fig8) if the tension 
+What force is exerted on the tooth in the [Figure below](#Figure8) if the tension 
 in the wire is 25.0 N? Note that the force applied to the tooth is smaller than the tension in the wire, 
 but this is necessitated by practical considerations of how force can be applied in the mouth. 
 Explicitly show how you follow steps in the Problem-Solving Strategy for Newton’s laws of motion.
@@ -313,7 +313,7 @@ Explicitly show how you follow steps in the Problem-Solving Strategy for Newton�
 
 2. Draw a free-body
    diagram: ![A horizontal dotted line with two vectors extending downward from the mid-point of the dotted line, both at angles of fifteen degrees. A third vector points straight downward from the intersection of the first two angles, bisecting them; it is perpendicular to the dotted line.](../resources/Figure_04_06_06.jpg)
-   {: #fig7}
+   {: #Figure7}
 
 3. The tension is given as $$ T=25.0 \N $$. Find $$ F_
    {\text{app}}$$. Using Newton’s laws gives:
@@ -330,11 +330,11 @@ Explicitly show how you follow steps in the Problem-Solving Strategy for Newton�
 </div>
 
 ![Cross-section of jaw with sixteen teeth is shown. Braces are along the outside of the teeth. Three forces are acting on the protruding tooth. The applied force, F sub app, is shown by an arrow vertically downward; a second force, T, is shown by an arrow making an angle of fifteen degrees below the positive x axis; and a third force, T, is shown by an arrow making an angle of fifteen degrees below the negative x axis.](../resources/Figure_04_06_07.jpg "Braces are used to apply forces to teeth to realign them. Shown in this figure are the tensions applied by the wire to the protruding tooth. The total force applied to the tooth by the wire, \( F_{\text{app}} \) , points straight toward the back of the mouth.")
-{: #fig8}
+{: #Figure8}
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-The [Figure below](#fig9) shows Superhero and Trusty Sidekick hanging motionless from a rope. Superhero’s mass is 90.0 
+The [Figure below](#Figure9) shows Superhero and Trusty Sidekick hanging motionless from a rope. Superhero’s mass is 90.0 
 kg, 
 while Trusty Sidekick’s is 55.0 kg, and the mass of the rope is negligible.
 (a) Draw a free-body diagram of the situation showing all forces acting on Superhero, Trusty Sidekick, and the rope.
@@ -345,7 +345,7 @@ while Trusty Sidekick’s is 55.0 kg, and the mass of the rope is negligible.
 </div>
 
 ![Two caped superheroes hang on a rope suspended vertically from a bar.](../resources/Figure_04_06_08.jpg "Superhero and Trusty Sidekick hang motionless on a rope as they try to figure out what to do next. Will the tension be the same everywhere in the rope?")
-{: #fig9 height="300"}
+{: #Figure9 height="300"}
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">

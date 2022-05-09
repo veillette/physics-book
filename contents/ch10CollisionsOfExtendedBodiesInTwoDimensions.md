@@ -11,14 +11,14 @@ layout: page
 
 Bowling pins are sent flying and spinning when hit by a bowling ball—angular
 momentum as well as linear momentum and energy have been imparted to the pins. (
-See [Figure 1](#fig1)). Many collisions involve angular momentum. Cars, for
+See [Figure 1](#Figure1)). Many collisions involve angular momentum. Cars, for
 example, may spin and collide on ice or a wet surface. Baseball pitchers throw
 curves by putting spin on the baseball. A tennis player can put a lot of top
 spin on the tennis ball which causes it to dive down onto the court once it
 crosses the net. We now take a brief look at what happens when objects that can
 rotate collide.
 
-Consider the relatively simple collision shown in [Figure 2](#fig2), in which a
+Consider the relatively simple collision shown in [Figure 2](#Figure2), in which a
 disk strikes and adheres to an initially motionless stick nailed at one end to a
 frictionless surface. After the collision, the two rotate about the nail. There
 is an unbalanced external force on the system at the nail. This force exerts no
@@ -30,16 +30,16 @@ disk’s initial velocity. Let us examine a case of rotation in a collision
 in [Example 1](#example1).
 
 ![A bowling ball, just as it is striking the pins.](../resources/Figure_10_06_01a.jpg "The bowling ball causes the pins to fly, some of them spinning violently. (credit: Tinou Bao, Flickr)")
-{: #fig1}
+{: #Figure1}
 
 ![Figure a shows a disc m sliding toward a motionless stick M of length r pivoted about a nail, on a frictionless surface. In figure b, a disk hits the stick at one end and adheres to it, and the stick rotates, pivoting around the nail in a direction shown by the arrow in the clockwise direction and angular velocity omega.](../resources/Figure_10_06_02a.jpg "(a) A disk slides toward a motionless stick on a frictionless surface. &#10;        (b) The disk hits the stick at one end and adheres to it, and they rotate together, pivoting around the nail. Angular momentum is conserved for this inelastic collision because the surface is frictionless and the unbalanced external force at the nail exerts no torque.")
-{: #fig2}
+{: #Figure2}
 
 <div class="example" id="example1" markdown="1">
 <div class="title">
 Rotation in a Collision
 </div>
-Suppose the disk in [Figure 2](#fig2) has a mass of 50.0 g and an initial velocity of 30.0 m/s when it strikes the stick that is 1.20 m long and 2.00 kg.
+Suppose the disk in [Figure 2](#Figure2) has a mass of 50.0 g and an initial velocity of 30.0 m/s when it strikes the stick that is 1.20 m long and 2.00 kg.
 
 (a) What is the angular velocity of the two after the collision?
 
@@ -91,7 +91,7 @@ Rearranging the equation yields
 </div>
 where $$ I^{\prime} $$ is the moment of inertia of the stick and disk stuck together, which is the sum
 of their individual moments of inertia about the
-nail. [Figure 3 of Dynamics Of Rotational Motion](../contents/ch10DynamicsOfRotationalMotion.md#fig3) gives the formula for a rod
+nail. [Figure 3 of Dynamics Of Rotational Motion](../contents/ch10DynamicsOfRotationalMotion.md#Figure3) gives the formula for a rod
 rotating around one end to be $$
 I=Mr^{2}/3 $$. Thus,
 
@@ -199,7 +199,7 @@ nearest the nail, a forward force is exerted on the nail. Thus, striking it at a
 certain point in between produces no force on the nail. This intermediate point
 is known as the *percussion point*.
 
-An analogous situation occurs in tennis as seen in [Figure 3](#fig3). If you hit
+An analogous situation occurs in tennis as seen in [Figure 3](#Figure3). If you hit
 a ball with the end of your racquet, the handle is pulled away from your hand.
 If you hit a ball much farther down, for example, on the shaft of the racquet,
 the handle is pushed into your palm. And if you hit the ball at the racquet’s
@@ -209,7 +209,7 @@ a tennis elbow. The same effect occurs for a baseball bat.
 
 ![In figure a, a disk hitting a stick is compared to a tennis ball being hit by a racquet. When the ball strikes the racquet near the end with a force denoted by f ball as shown by the direction of the arrow, a backward force, f hand is exerted on the hand, In figure b, when the racquet is struck much farther down by a force F ball, a forward force, f hand is exerted on the hand as shown by the arrows. In figure (c), when the racquet is struck by the ball with a force f ball at the percussion point, no force is delivered to the hand. This implies that f hand is equal to zero.](../resources/Figure_10_06_03.jpg "A disk hitting a stick is compared to a tennis ball being hit by a racquet. (a) When the ball strikes the racquet near the end, a backward force is exerted on the hand.
 (b) When the racquet is struck much farther down, a forward force is exerted on the hand. (c) When the racquet is struck at the percussion point, no force is delivered to the hand.")
-{: #fig3}
+{: #Figure3}
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
@@ -284,12 +284,12 @@ Repeat [Example 1](#example1) in which the disk originally spins clockwise at 10
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Twin skaters approach one another as shown in [Figure 4](#fig4) and lock hands.
+Twin skaters approach one another as shown in [Figure 4](#Figure4) and lock hands.
 (a) Calculate their final angular velocity, given each had an initial speed of 2.50 m/s relative to the ice. Each has a mass of 70.0 kg, and each has a center of mass located 0.800 m from their locked hands. You may approximate their moments of inertia to be that of point masses at this radius.
 (b) Compare the initial kinetic energy and final kinetic energy.
 
 ![Figure a shows two skaters from the top view approaching each other from opposite directions with velocity v. In figure b two skaters then lock their right hands and start to spin in the clockwise direction with angular velocity omega.](../resources/Figure_10_06_04a.jpg "Twin skaters approach each other with identical speeds. Then, the skaters lock hands and spin.")
-{: #fig4}
+{: #Figure4}
 
 </div>
 <div class="solution" markdown="1">
@@ -302,7 +302,7 @@ Twin skaters approach one another as shown in [Figure 4](#fig4) and lock hands.
 
 <div class="exercise">
 <div class="problem" markdown="1">
-Suppose a 0.250-kg ball is thrown at 15.0 m/s to a motionless person standing on ice who catches it with an outstretched arm as shown in [Figure 5](#fig5).
+Suppose a 0.250-kg ball is thrown at 15.0 m/s to a motionless person standing on ice who catches it with an outstretched arm as shown in [Figure 5](#Figure5).
 
 (a) Calculate the final linear velocity of the person, given his mass is 70.0
 kg.
@@ -316,7 +316,7 @@ remains in his geometrical center.
 (c) Compare the initial and final total kinetic energies.
 
 ![Figure a shows a skater through an overhead view with both his hands outstretched. A ball is seen approaching toward him in air with velocity v. Figure b shows that skater catching two balls in his left hand, and then, recoiling toward the left, in clockwise direction, with angular velocity omega and finally, the balls have velocity v prime.](../resources/Figure_10_06_05a.jpg "The figure shows the overhead view of a person standing motionless on ice about to catch a ball. Both arms are outstretched. After catching the ball, the skater recoils and rotates.")
-{: #fig5}
+{: #Figure5}
 
 </div>
 </div>

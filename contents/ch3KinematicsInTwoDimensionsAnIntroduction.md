@@ -10,15 +10,15 @@ layout: page
 </div>
 
 ![A busy traffic intersection in New York showing vehicles moving on the road.](../resources/Figure_03_01_00.jpg "Walkers and drivers in a city like New York are rarely able to travel in straight lines to reach their destinations. Instead, they must follow roads and sidewalks, making two-dimensional, zigzagged paths. (credit: Margaret W. Carruthers)")
-{: #fig1}
+{: #Figure1}
 
 ### Two-Dimensional Motion: Walking in a City
 
 Suppose you want to walk from one point to another in a city with uniform square
-blocks, as pictured in [Figure 2](#fig2).
+blocks, as pictured in [Figure 2](#Figure2).
 
 ![An X Y graph with origin at zero zero with x axis labeled nine blocks east and y axis labeled five blocks north. Starting point at the origin and destination at point nine on the x axis and point five on the y axis.](../resources/Figure_03_01_01.jpg "A pedestrian walks a two-dimensional path between two points in a city. In this scene, all blocks are square and are the same size.")
-{: #fig2}
+{: #Figure2}
 
 The straight-line path that a helicopter might fly is blocked to you as a
 pedestrian, and so you are forced to take a two-dimensional path, such as the
@@ -35,7 +35,7 @@ theorem c is calculated as square root of a squared plus b squared.](../resource
 theorem relates the length of the legs of a right triangle, labeled \( a\) and \( b \), with the hypotenuse, labeled \( c \). 
 The relationship is given by: \( a^2+b^2=c^2 \). This can be rewritten, solving for \( c \). In this way one finds 
 \( c=\sqrt{a^2+b^2} \).")
-{: #fig3}
+{: #Figure3}
 
 The hypotenuse of the triangle is the straight-line path, and so in this case
 its length in units of city blocks is $$ \sqrt{\left(9 \text{ blocks} \right)
@@ -47,23 +47,23 @@ same as “9.0 or 9.00 blocks.” We have decided to use three significant figur
 in the answer in order to show the result more precisely.)
 
 ![An X Y graph with origin at zero zero with x-axis labeled nine blocks east and y axis labeled five blocks north. A diagonal vector arrow joining starting point at point zero on x axis and destination at point five on y axis with its direction northeast is shown. A helicopter is flying along the diagonal vector arrow with helicopter path of ten point three blocks. The angle formed by diagonal vector arrow and the x-axis is equal to twenty-nine point one degrees.](../resources/Figure_03_01_03.jpg "The straight-line path followed by a helicopter between the two points is shorter than the 14 blocks walked by the pedestrian. All blocks are square and the same size.")
-{: #fig4}
+{: #Figure4}
 
 The fact that the straight-line distance (10.3 blocks)
-in [Figure 4](#fig4) is less than the total distance walked (14 blocks) is one
+in [Figure 4](#Figure4) is less than the total distance walked (14 blocks) is one
 example of a general characteristic of vectors. (
 Recall that **vectors** are quantities that have both magnitude and direction.)
 
 As for one-dimensional kinematics, we use arrows to represent vectors. The
 length of the arrow is proportional to the vector’s magnitude. The arrow’s
-length is indicated by hash marks in [Figure 2](#fig2)
-and [Figure 4](#fig4). The arrow points in the same direction as the vector. For
+length is indicated by hash marks in [Figure 2](#Figure2)
+and [Figure 4](#Figure4). The arrow points in the same direction as the vector. For
 two-dimensional motion, the path of an object can be represented with three
 vectors: one vector shows the straight-line path between the initial and final
 points of the motion, one vector shows the horizontal component of the motion,
 and one vector shows the vertical component of the motion. The horizontal and
 vertical components of the motion add together to give the straight-line path.
-For example, observe the three vectors in [Figure 4](#fig4). The first
+For example, observe the three vectors in [Figure 4](#Figure4). The first
 represents a 9-block displacement east. The second represents a 5-block
 displacement north. These vectors are added to give the third vector, with a
 10.3-block total displacement. The third vector is the straight-line path
@@ -79,7 +79,7 @@ and [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorA
 
 ### The Independence of Perpendicular Motions
 
-The person taking the path shown in [Figure 4](#fig4)
+The person taking the path shown in [Figure 4](#Figure4)
 walks east and then north (two perpendicular directions). How far they walk east
 is only affected by their motion eastward. Similarly, how far they walk north is
 only affected by their motion northward.
@@ -101,7 +101,7 @@ stroboscope has captured the positions of the balls at fixed time intervals as
 they fall.
 
 ![Two identical balls one red and another blue are falling. Five positions of the balls during fall are shown. The horizontal velocity vectors for blue ball towards right are of same magnitude for all the positions. The vertical velocity vectors shown downwards for red ball are increasing with each position.](../resources/Figure_03_01_04a.jpg "This shows the motions of two identical balls&#x2014;one falls from rest, the other has an initial horizontal velocity. Each subsequent position is an equal time interval. Arrows represent horizontal and vertical velocities at each position. The ball on the right has an initial horizontal velocity, while the ball on the left has no horizontal velocity. Despite the difference in horizontal velocities, the vertical velocities and positions are identical for both balls. This shows that the vertical and horizontal motions are independent.")
-{: #fig5}
+{: #Figure5}
 
 It is remarkable that for each flash of the strobe, the vertical positions of
 the two balls are the same. This similarity implies that the vertical motion is

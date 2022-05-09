@@ -22,7 +22,7 @@ quantities needed to describe rotational motion.
 ### Rotation Angle
 
 When objects rotate about some axis—for example, when the CD (compact disc)
-in [Figure 1](#fig1)
+in [Figure 1](#Figure1)
 rotates about its center—each point in the object follows a circular arc.
 Consider a line from the center of the CD to its edge. Each **pit** used to
 record sound along this line moves through the same angle in the same amount of
@@ -36,13 +36,13 @@ radius of curvature:
 </div>
 
 ![The figure shows the back side of a compact disc. There is a scratched part on the upper right side of the C D, about one-fifth size of the whole area, with inner circular dots clearly visible. Two line segments are drawn enclosing the scratched area from the border of the C D to the middle plastic portion. A curved arrow is drawn between the two line segments near this middle portion and angle delta theta written alongside it.](../resources/Figure_06_01_01aa.jpg "All points on a CD travel in circular arcs. The pits along a line from the center to the edge all move through the same angle \( \Delta \theta \)")
-{: #fig1}
+{: #Figure1}
 
 ![A circle of radius r and center O is shown. A radius O-A of the circle is rotated through angle delta theta about the center O to terminate as radius O-B. The arc length A-B is marked as delta s.](../resources/Figure_06_01_01ab.jpg "The radius of a circle is rotated through an angle \( \Delta \theta \). The arc length \( \Delta s \) is described on the circumference. ")
-{: #fig2}
+{: #Figure2}
 
 The **arc length** $$ \Delta s $$ is the distance traveled along a circular path
-as shown in [Figure 2](#fig2) Note that $$ r $$ is the
+as shown in [Figure 2](#Figure2) Note that $$ r $$ is the
 **radius of curvature** of the circular path.
 
 We know that for one complete revolution, the arc length is the circumference of
@@ -78,7 +78,7 @@ shown in [Table 1](#table1).
 
 ![A circle is shown. Two radii of the circle, inclined at an acute angle delta theta, are shown. On one of the radii, two points, one and two are marked. The point one is inside the circle through which an arc between the two radii is shown. The point two is on the circumference of the circle. The two arc lengths are delta s one and delta s two respectively for the two points.](../resources/Figure_06_01_02a.jpg
 "Points 1 and 2 rotate through the same angle \( \Delta \theta \), but point 2 moves through a greater arc length \( \Delta s \) because it is at a greater distance from the center of rotation \( r \) ")
-{: #fig3}
+{: #Figure3}
 
 If $$ \Delta\theta =2\pi $$ rad, then the CD has made one complete revolution,
 and every point on the CD is back at its original position. Because there are $$
@@ -138,7 +138,7 @@ you might expect. We can also call this linear speed $$ v $$ of a point on the
 rim the *tangential speed*. The second relationship in $$ v=r \omega \text{ or
 }\omega =\frac{v}{r} $$ can be illustrated by considering the tire of a moving
 car. Note that the speed of a point on the rim of the tire is the same as the
-speed $$ v $$ of the car. See [Figure 4](#fig4). So the faster the car moves,
+speed $$ v $$ of the car. See [Figure 4](#Figure4). So the faster the car moves,
 the faster the tire spins—large $$ v $$ means a large $$ \omega $$, because $$
 v=r \omega $$. Similarly, a larger-radius tire rotating at the same angular
 velocity ( $$ \omega $$)
@@ -146,14 +146,14 @@ will produce a greater linear speed ( $$ v $$)
 for the car.
 
 ![The given figure shows the front wheel of a car. The radius of the car wheel, r, is shown as an arrow and the linear velocity, v, is shown with a green horizontal arrow pointing rightward. The angular velocity, omega, is shown with a clockwise-curved arrow over the wheel.](../resources/Figure_06_01_03a.jpg "A car moving at a velocity \( v \) to the right has a tire rotating with an angular velocity \( \omega \). The speed of the tread of the tire relative to the axle is \( v \) , the same as if the car were jacked up. Thus the car moves forward at linear velocity \( r \omega \) , where \( r \) is the tire radius. A larger angular velocity for the tire means a greater velocity for the car. ")
-{: #fig4}
+{: #Figure4}
 
 <div class="example" markdown="1">
 <div class="title">
 How Fast Does a Car Tire Spin?
 </div>
 Calculate the angular velocity of a 0.300 m radius car tire when the car travels at $$ 15.0 \ms $$
-(about $$54 \text{km/h} $$). See [Figure 4](#fig4).
+(about $$54 \text{km/h} $$). See [Figure 4](#Figure4).
 
 **Strategy**
 
@@ -192,7 +192,7 @@ its tires would rotate more slowly. They would have an angular velocity
 Both $$ \omega $$ and $$ v $$ have directions (hence they are angular and
 linear *velocities*, respectively). Angular velocity has only two directions
 with respect to the axis of rotation—it is either clockwise or counterclockwise.
-Linear velocity is tangent to the path, as illustrated in [Figure 5](#fig5).
+Linear velocity is tangent to the path, as illustrated in [Figure 5](#Figure5).
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -203,7 +203,7 @@ Tie an object to the end of a string and swing it around in a horizontal circle 
 </div>
 
 ![The given figure shows the top view of an old fashioned vinyl record. Two perpendicular line segments are drawn through the center of the circular record, one vertically upward and one horizontal to the right side. Two flies are shown at the end points of the vertical lines near the borders of the record. Two arrows are also drawn perpendicularly rightward through the end points of these vertical lines depicting linear velocities. A curved arrow is also drawn at the center circular part of the record which shows the angular velocity.](../resources/Figure_06_01_04a.jpg "As an object moves in a circle, here a fly on the edge of an old-fashioned vinyl record, its instantaneous velocity is always tangent to the circle. The direction of the angular velocity is clockwise in this case. ")
-{: #fig5}
+{: #Figure5}
 
 <div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
