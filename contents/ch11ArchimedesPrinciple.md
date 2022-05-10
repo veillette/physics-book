@@ -17,7 +17,7 @@ objects that sink get any support at all from the fluid? Is your body buoyed by
 the atmosphere, or are only helium balloons affected? (
 See [[Figure 1]](#Figure1).)
 
-![In figures a and b, an anchor and submarine experience buoyancy due to water. In figure c, helium-filled balloons float due to the buoyancy of air.](../resources/FIgure_12_07_01a.jpg "(a) Even objects that sink, like this anchor, are partly supported by water when submerged. (b) Submarines have adjustable density (ballast tanks) so that they may float or sink as desired. (credit: Allied Navy) (c) Helium-filled balloons tug upward on their strings, demonstrating air&#x2019;s buoyant effect. (credit: Crystl)")
+![In figures a and b, an anchor and submarine experience buoyancy due to water. In figure c, helium-filled balloons float due to the buoyancy of air.](../resources/Figure_12_07_01a.jpg "(a) Even objects that sink, like this anchor, are partly supported by water when submerged. (b) Submarines have adjustable density (ballast tanks) so that they may float or sink as desired. (credit: Allied Navy) (c) Helium-filled balloons tug upward on their strings, demonstrating air&#x2019;s buoyant effect. (credit: Crystl)")
 {: #Figure1}
 
 Answers to all these questions, and many others, are based on the fact that
