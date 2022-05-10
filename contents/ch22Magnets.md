@@ -8,7 +8,7 @@ layout: page
 * Describe how magnetic poles interact with each other.
 </div>
 
-![Bar magnets, horseshoe magnets, and disc-shaped magnets attract and repel each other. Metal paperclips stick to some of the magnets.](../resources/FIgure_23_01_01a.jpg "Magnets come in various shapes, sizes, and strengths. All have both a north pole and a south pole. There is never an isolated pole (a monopole).")
+![Bar magnets, horseshoe magnets, and disc-shaped magnets attract and repel each other. Metal paperclips stick to some of the magnets.](../resources/Figure_23_01_01a.jpg "Magnets come in various shapes, sizes, and strengths. All have both a north pole and a south pole. There is never an isolated pole (a monopole).")
 {: #Figure1}
 
 All magnets attract iron, such as that in a refrigerator door. However, magnets
