@@ -210,7 +210,7 @@ Calculate the wavelength of light that produces its first minimum at an angle of
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) Sodium vapor light averaging 589 nm in wavelength falls on a single slit of width  $$ 7.50 \text{μm} $$ .
- At what angle does it produces its second minimum? (b) What is the highest-order minimum produced?
+ At what angle does it produce its second minimum? (b) What is the highest-order minimum produced?
 
 </div>
 <div class="solution" markdown="1">
