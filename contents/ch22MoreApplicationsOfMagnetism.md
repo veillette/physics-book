@@ -31,7 +31,7 @@ to some velocity $$v $$ , and directs a beam of them into the next stage of the
 spectrometer. This next region is a *velocity selector* that only allows
 particles with a particular value of $$v $$ to get through.
 
-![Diagram of a mass spectrometer. Ions travel to the right with velocity v from the ion source. Magnetic field lines come out of the page between two charged plates on either side of the ion beam. The electric force F equals q E acts on the ions in an upward direction while the magnetic force F equals q v B acts in a downward direction. The forces have the same magnitude and thus the ions travel in a straight line between the two plates. The ions then enter another region where the magnetic field lines come out of the page. An ion of mass 1 curves around, traveling a net distance of 2 r 1. An ion of mass 2 curves around, traveling a net distance of 2 r 2.](../resources/Figure_23_11_01a.jpg "This mass spectrometer uses a velocity selector to fix \( v \) so that the radius of the path is proportional to mass.")
+![Diagram of a mass spectrometer. Ions travel to the right with velocity v from the ion source. Magnetic field lines come out of the page between two charged plates on either side of the ion beam. The electric force F equals q E acts on the ions in an upward direction while the magnetic force F equals q v B acts in a downward direction. The forces have the same magnitude and thus the ions travel in a straight line between the two plates. The ions then enter another region where the magnetic field lines come out of the page. An ion of mass 1 curves around, traveling a net distance of 2 r 1. An ion of mass 2 curves around, traveling a net distance of 2 r 2.](../resources/Figure_22_11_01a.jpg "This mass spectrometer uses a velocity selector to fix \( v \) so that the radius of the path is proportional to mass.")
 {: #Figure1}
 
 The velocity selector has both an electric field and a magnetic field,
@@ -74,7 +74,7 @@ ray tube (CRT) found in some TVs, oscilloscopes, and old computer monitors. Two
 pairs of coils are used to steer the electrons, one vertically and the other
 horizontally, to their desired destination.
 
-![Diagram of a cathode ray tube showing electrons moving in a straight line left to right with velocity v through a current-carrying coil. The force on the electrons is down, causing them to change direction as they move through the magnetic field. An illustration of the right hand rule-1 shows the thumb pointing to the right in the direction of v, the fingers pointing into the page and toward the right with B, and the force on a positive charge up and away from the palm.](../resources/Figure_23_11_02a.jpg "The cathode ray tube (CRT) is so named because rays of electrons originate at the cathode in the electron gun. Magnetic coils are used to steer the beam in many CRTs. In this case, the beam is moved down. Another pair of horizontal coils would steer the beam horizontally.")
+![Diagram of a cathode ray tube showing electrons moving in a straight line left to right with velocity v through a current-carrying coil. The force on the electrons is down, causing them to change direction as they move through the magnetic field. An illustration of the right hand rule-1 shows the thumb pointing to the right in the direction of v, the fingers pointing into the page and toward the right with B, and the force on a positive charge up and away from the palm.](../resources/Figure_22_11_02a.jpg "The cathode ray tube (CRT) is so named because rays of electrons originate at the cathode in the electron gun. Magnetic coils are used to steer the beam in many CRTs. In this case, the beam is moved down. Another pair of horizontal coils would steer the beam horizontally.")
 {: #Figure2}
 
 ### Magnetic Resonance Imaging
@@ -275,7 +275,7 @@ Draw gravitational field lines between 2 masses, electric field lines between a 
 <div class="problem" markdown="1">
 Indicate whether the magnetic field created in each of the three situations shown in [[Figure 3]](#Figure3) is into or out of the page on the left and right of the current.
 
-![Figure a shows current I running from bottom to top. Figure b shows an electron moving with velocity v from bottom to top. Figure c shows current I running from top to bottom.](../resources/Figure_23_11_06a.jpg " ")
+![Figure a shows current I running from bottom to top. Figure b shows an electron moving with velocity v from bottom to top. Figure c shows current I running from top to bottom.](../resources/Figure_22_11_06a.jpg " ")
 {: #Figure3}
 
 </div>
@@ -293,7 +293,7 @@ Indicate whether the magnetic field created in each of the three situations show
 <div class="problem" markdown="1">
 What are the directions of the fields in the center of the loop and coils shown in [[Figure 4]](#Figure4)?
 
-![Figure a shows current in a loop, running counterclockwise. Figure b shows current in a coil running from left to right. Figure c shows current in a coil running from right to left.](../resources/Figure_23_11_07a.jpg " ")
+![Figure a shows current in a loop, running counterclockwise. Figure b shows current in a coil running from left to right. Figure c shows current in a coil running from right to left.](../resources/Figure_22_11_07a.jpg " ")
 {: #Figure4}
 
 </div>
@@ -303,7 +303,7 @@ What are the directions of the fields in the center of the loop and coils shown 
 <div class="problem"  markdown="1">
 What are the directions of the currents in the loop and coils shown in [[Figure 5]](#Figure5)?
 
-![Figure a shows the magnetic field into the page in the middle of a loop. Figure b shows the magnetic field within a coil running from left to right. Figure c shows B running from right to left within a coil.](../resources/Figure_23_11_08a.jpg " ")
+![Figure a shows the magnetic field into the page in the middle of a loop. Figure b shows the magnetic field within a coil running from left to right. Figure c shows B running from right to left within a coil.](../resources/Figure_22_11_08a.jpg " ")
 {: #Figure5}
 
 </div>
@@ -397,7 +397,7 @@ Measurements affect the system being measured, such as the current loop in [[Fig
  in the straight wire have to create a field at the center of the loop in the direction opposite to that created by the loop? (b) What is the ratio of  $${I}_{1}/{I}_{2} $$
  that gives zero field strength at the center of the loop? (c) What is the direction of the field directly above the loop under this circumstance?
 
-![Two wires are shown. Wire one is in a loop of radios R and has a current I one. Wire two is straight and runs diagonally from the lower left to the upper right with current I two](../resources/Figure_23_11_09a.jpg " ")
+![Two wires are shown. Wire one is in a loop of radios R and has a current I one. Wire two is straight and runs diagonally from the lower left to the upper right with current I two](../resources/Figure_22_11_09a.jpg " ")
 {: #Figure6}
 
 </div>
@@ -452,7 +452,7 @@ T. (b) What is the acceleration of the bob at the bottom of its swing if its
 mass is 30.0 grams and it is hung from a flexible string? Be certain to include
 a free-body diagram as part of your analysis.
 
-![Diagram showing a pendulum swinging between the poles of a magnet. The magnetic field B runs from the north to the south pole.](../resources/Figure_23_11_11a.jpg " ")
+![Diagram showing a pendulum swinging between the poles of a magnet. The magnetic field B runs from the north to the south pole.](../resources/Figure_22_11_11a.jpg " ")
 {: #Figure7}
 
 </div>
@@ -558,7 +558,7 @@ perpendicularly to a uniform magnetic field is $$T=2\pi m/\left(qB\right) $$ .
 ? Note that these results are independent of the velocity and radius of the
 orbit and, hence, of the energy of the particle. ([[Figure 8]](#Figure8).)
 
-![Diagram of a cyclotron.](../resources/Figure_23_11_14a.jpg "Cyclotrons accelerate charged particles orbiting in a magnetic field by placing an AC voltage on the metal Dees, between which the particles move, so that energy is added twice each orbit. The frequency is constant, since it is independent of the particle energy&#x2014;the radius of the orbit simply increases with energy until the particles approach the edge and are extracted for various experiments and applications.")
+![Diagram of a cyclotron.](../resources/Figure_22_11_14a.jpg "Cyclotrons accelerate charged particles orbiting in a magnetic field by placing an AC voltage on the metal Dees, between which the particles move, so that energy is added twice each orbit. The frequency is constant, since it is independent of the particle energy&#x2014;the radius of the orbit simply increases with energy until the particles approach the edge and are extracted for various experiments and applications.")
 {: #Figure8}
 
 </div>

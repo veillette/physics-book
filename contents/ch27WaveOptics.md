@@ -3,7 +3,7 @@ title: "Introduction to Wave Optics"
 layout: page
 ---    
 
-![Photograph of the reflective side of a C D. Regions of the disc reflect a rainbow of colors.](../resources/Figure_28_00_01a_D.jpg "The colors reflected by this compact disc vary with angle and are not caused by pigments. Colors such as these are direct evidence of the wave character of light. (credit: Infopro, Wikimedia Commons)")
+![Photograph of the reflective side of a C D. Regions of the disc reflect a rainbow of colors.](../resources/Figure_27_00_01a_D.jpg "The colors reflected by this compact disc vary with angle and are not caused by pigments. Colors such as these are direct evidence of the wave character of light. (credit: Infopro, Wikimedia Commons)")
 {: #Figure1}
 
 Examine a compact disc under white light, noting the colors observed and
@@ -28,5 +28,5 @@ it exhibits wave characteristics (particularly when it interacts with small
 objects) is called wave optics (sometimes called physical optics). It is the
 topic of this chapter.
 
-![Soap bubbles reflecting mostly purple and blue light with some regions of orange.](../resources/Figure_28_00_02a.jpg "These soap bubbles exhibit brilliant colors when exposed to sunlight. How are the colors produced if they are not pigments in the soap? (credit: Scott Robinson, Flickr)")
+![Soap bubbles reflecting mostly purple and blue light with some regions of orange.](../resources/Figure_27_00_02a.jpg "These soap bubbles exhibit brilliant colors when exposed to sunlight. How are the colors produced if they are not pigments in the soap? (credit: Scott Robinson, Flickr)")
 {: #Figure2}

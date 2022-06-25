@@ -15,7 +15,7 @@ the electrostatic force that not only holds the molecule together but gives the
 molecule structure and strength. [[Figure 1]](#Figure1) is a schematic of the
 DNA double helix.
 
-![A double-helical D N A structure is shown in the figure.](../resources/Figure_19_06_02a.jpg "DNA is a highly charged molecule. The DNA double helix shows the two coiled strands each containing a row of nitrogenous bases, which &#x201C;code&#x201D; the genetic information needed by a living organism. The strands are connected by bonds between pairs of bases. While pairing combinations between certain bases are fixed (C-G and A-T), the sequence of nucleotides in the strand varies. (credit: Jerome Walker)")
+![A double-helical D N A structure is shown in the figure.](../resources/Figure_18_06_02a.jpg "DNA is a highly charged molecule. The DNA double helix shows the two coiled strands each containing a row of nitrogenous bases, which &#x201C;code&#x201D; the genetic information needed by a living organism. The strands are connected by bonds between pairs of bases. While pairing combinations between certain bases are fixed (C-G and A-T), the sequence of nucleotides in the strand varies. (credit: Jerome Walker)")
 {: #Figure1}
 
 The four nucleotide bases are given the symbols A (adenine), C (cytosine), G (
@@ -65,7 +65,7 @@ proteins that guide the movement of chromosomes when cells divide, the motion of
 other organisms within the cell, and provide mechanisms for motion of some
 cells (as motors).
 
-![Molecular structure of two water molecules is shown. Oxygen atom of one water molecule has minus delta on it and the Hydrogen atom of other water molecule has a positive delta charge on it. The force on attraction between these two atoms is shown as dotted line.](../resources/Figure_19_06_03a.jpg "This schematic shows water ( \( \text{H}_2 \text{O} \) ) as a polar molecule. Unequal sharing of electrons between the oxygen ( \( \text{O} \) ) and hydrogen ( \( \text{H} \) ) atoms leads to a net separation of positive and negative charge&#x2014;forming a dipole. The symbols \( \delta^{-} \) and \( \delta^{+} \) indicate that the oxygen side of the \( \text{H}_2 \text{O} \) molecule tends to be more negative, while the hydrogen ends tend to be more positive. This leads to an attraction of opposite charges between molecules.")
+![Molecular structure of two water molecules is shown. Oxygen atom of one water molecule has minus delta on it and the Hydrogen atom of other water molecule has a positive delta charge on it. The force on attraction between these two atoms is shown as dotted line.](../resources/Figure_18_06_03a.jpg "This schematic shows water ( \( \text{H}_2 \text{O} \) ) as a polar molecule. Unequal sharing of electrons between the oxygen ( \( \text{O} \) ) and hydrogen ( \( \text{H} \) ) atoms leads to a net separation of positive and negative charge&#x2014;forming a dipole. The symbols \( \delta^{-} \) and \( \delta^{+} \) indicate that the oxygen side of the \( \text{H}_2 \text{O} \) molecule tends to be more negative, while the hydrogen ends tend to be more positive. This leads to an attraction of opposite charges between molecules.")
 {: #Figure2}
 
 ### Section Summary

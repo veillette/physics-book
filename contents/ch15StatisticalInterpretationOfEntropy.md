@@ -9,7 +9,7 @@ layout: page
 * Analyze statistical probabilities in entropic systems.
 </div>
 
-![Photograph of many coins laid down on a surface, some with heads shown up and some with tails shown up.](../resources/Figure_16_07_01.jpg "When you toss a coin a large number of times, heads and tails tend to come up in roughly equal numbers. Why doesn&#x2019;t heads come up 100, 90, or even 80% of the time? (credit: Jon Sullivan, PDPhoto.org)")
+![Photograph of many coins laid down on a surface, some with heads shown up and some with tails shown up.](../resources/Figure_15_07_01.jpg "When you toss a coin a large number of times, heads and tails tend to come up in roughly equal numbers. Why doesn&#x2019;t heads come up 100, 90, or even 80% of the time? (credit: Jon Sullivan, PDPhoto.org)")
 {: #Figure1}
 
 The various ways of formulating the second law of thermodynamics tell what
@@ -267,7 +267,7 @@ exceedingly unlikely ever to occur. (See [[Figure 2]](#Figure2)(b).) Indeed, it
 is so unlikely that we have a law saying that it is impossible, which has never
 been observed to be violated—the second law of thermodynamics.
 
-![Two states of a container of gas are shown. In state a, the gas molecules, depicted as small green spheres, are randomly distributed in the container, with random velocities (an arrow is attached to each sphere, and the arrows vary in length and direction). This state is labeled likely. In state b, the molecules are clustered in the lower left-hand corner of the container and the arrows are much shorter. This state is labeled highly unlikely.](../resources/Figure_16_07_02.jpg "(a) The ordinary state of gas in a container is a disorderly, random distribution of atoms or molecules with a Maxwell-Boltzmann distribution of speeds. It is so unlikely that these atoms or molecules would ever end up in one corner of the container that it might as well be impossible. (b) With energy transfer, the gas can be forced into one corner and its entropy greatly reduced. But left alone, it will spontaneously increase its entropy and return to the normal conditions, because they are immensely more likely.")
+![Two states of a container of gas are shown. In state a, the gas molecules, depicted as small green spheres, are randomly distributed in the container, with random velocities (an arrow is attached to each sphere, and the arrows vary in length and direction). This state is labeled likely. In state b, the molecules are clustered in the lower left-hand corner of the container and the arrows are much shorter. This state is labeled highly unlikely.](../resources/Figure_15_07_02.jpg "(a) The ordinary state of gas in a container is a disorderly, random distribution of atoms or molecules with a Maxwell-Boltzmann distribution of speeds. It is so unlikely that these atoms or molecules would ever end up in one corner of the container that it might as well be impossible. (b) With energy transfer, the gas can be forced into one corner and its entropy greatly reduced. But left alone, it will spontaneously increase its entropy and return to the normal conditions, because they are immensely more likely.")
 {: #Figure2}
 
 The disordered condition is one of high entropy, and the ordered one has low

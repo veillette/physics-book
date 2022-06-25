@@ -71,7 +71,7 @@ circuit** has a single voltage source and a single resistor. The wires
 connecting the voltage source to the resistor can be assumed to have negligible
 resistance, or their resistance can be included in $$R $$.
 
-![The figure describes a simple electric circuit with a battery connected to a resistance R. The direction of current is shown to emerge from the positive terminal of a battery of voltage V, pass through the resistor, and enter the negative terminal of the battery. The current I in the circuit is V divided by R, moving in a clockwise direction.](../resources/Figure_21_02_01a.jpg "A simple electric circuit in which a closed path for current to flow is supplied by conductors (usually metal wires) connecting a load to the terminals of a battery, represented by the red parallel lines. The zigzag symbol represents the single resistor and includes any resistance in the connections to the voltage source.")
+![The figure describes a simple electric circuit with a battery connected to a resistance R. The direction of current is shown to emerge from the positive terminal of a battery of voltage V, pass through the resistor, and enter the negative terminal of the battery. The current I in the circuit is V divided by R, moving in a clockwise direction.](../resources/Figure_20_02_01a.jpg "A simple electric circuit in which a closed path for current to flow is supplied by conductors (usually metal wires) connecting a load to the terminals of a battery, represented by the red parallel lines. The zigzag symbol represents the single resistor and includes any resistance in the connections to the voltage source.")
 {: #Figure1}
 
 <div id="Example1" class="example" markdown="1">
@@ -136,7 +136,7 @@ $$\text{PE}=q\Delta V $$ , and the same $$q $$ flows through each. Thus the
 energy supplied by the voltage source and the energy converted by the resistor
 are equal. (See [[Figure 2]](#Figure2).)
 
-![The figure shows a simple electric circuit. A battery is connected to a resistor with resistance R, and a voltmeter is connected across the resistor. The direction of current is shown to emerge from the positive terminal of the battery of voltage V, pass through the resistor, and enter the negative terminal of the battery, in a clockwise direction. The voltage V in the circuit equals I R, which equals 18 volts.](../resources/Figure_21_02_02a.jpg "The voltage drop across a resistor in a simple circuit equals the voltage output of the battery.")
+![The figure shows a simple electric circuit. A battery is connected to a resistor with resistance R, and a voltmeter is connected across the resistor. The direction of current is shown to emerge from the positive terminal of the battery of voltage V, pass through the resistor, and enter the negative terminal of the battery, in a clockwise direction. The voltage V in the circuit equals I R, which equals 18 volts.](../resources/Figure_20_02_02a.jpg "The voltage drop across a resistor in a simple circuit equals the voltage output of the battery.")
 {: #Figure2}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">

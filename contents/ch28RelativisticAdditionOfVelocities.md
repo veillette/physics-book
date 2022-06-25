@@ -9,7 +9,7 @@ layout: page
 * Calculate relativistic Doppler shift.
 </div>
 
-![A man with oar in his hand is kayaking downstream in a shallow fast-flowing river.](../resources/Figure_29_04_01a.jpg "The total velocity of a kayak, like this one on the Deerfield River in Massachusetts, is its velocity relative to the water as well as the water&#x2019;s velocity relative to the riverbank. (credit: abkfenris, Flickr)")
+![A man with oar in his hand is kayaking downstream in a shallow fast-flowing river.](../resources/Figure_28_04_01a.jpg "The total velocity of a kayak, like this one on the Deerfield River in Massachusetts, is its velocity relative to the water as well as the water&#x2019;s velocity relative to the riverbank. (credit: abkfenris, Flickr)")
 {: #Figure1}
 
 If you’ve ever seen a kayak move down a fast-moving river, you know that
@@ -32,7 +32,7 @@ example, forward is positive. Let $$v $$ be the velocity of the sled relative to
 the Earth, $$u $$ the velocity of the snowball relative to the Earth-bound
 observer, and $$u^{\prime} $$ the velocity of the snowball relative to the sled.
 
-![In part a, a man is pulling a sled towards the right with a velocity v equals one point zero meters per second. A girl sitting on the sled facing forward throws a snowball toward a boy on the far right of the picture. The snowball is labeled u primed equals one point five meters per second in the direction the sled is being pulled. The boy is labelled two point five meters per second. In figure b, a similar figure is shown, but the man&#x2019;s velocity is one point zero meters per second, the girl is facing backward and throwing the snowball behind the sled. The snowball is labelled u primed equals negative one point five meters per second, and the boy is labelled u equals negative zero point five meters per second.](../resources/Figure_29_04_02a.jpg "Classically, velocities add like ordinary numbers in one-dimensional motion. Here the girl throws a snowball forward and then backward from a sled. The velocity of the sled relative to the Earth is \( v=1.0 \text{m/s} \) . The velocity of the snowball relative to the truck is \( u^\prime \) , while its velocity relative to the Earth is \( u \) . Classically, \( u=v+u\prime \) .")
+![In part a, a man is pulling a sled towards the right with a velocity v equals one point zero meters per second. A girl sitting on the sled facing forward throws a snowball toward a boy on the far right of the picture. The snowball is labeled u primed equals one point five meters per second in the direction the sled is being pulled. The boy is labelled two point five meters per second. In figure b, a similar figure is shown, but the man&#x2019;s velocity is one point zero meters per second, the girl is facing backward and throwing the snowball behind the sled. The snowball is labelled u primed equals negative one point five meters per second, and the boy is labelled u equals negative zero point five meters per second.](../resources/Figure_28_04_02a.jpg "Classically, velocities add like ordinary numbers in one-dimensional motion. Here the girl throws a snowball forward and then backward from a sled. The velocity of the sled relative to the Earth is \( v=1.0 \text{m/s} \) . The velocity of the snowball relative to the truck is \( u^\prime \) , while its velocity relative to the Earth is \( u \) . Classically, \( u=v+u\prime \) .")
 {: #Figure2}
 
 <div class="note" data-has-label="true" data-label="">
@@ -62,7 +62,7 @@ sidewalk at a speed $$u=v+c $$ . But we know that light will move away from the
 car at speed $$c $$ relative to the driver of the car, and light will move
 towards the observer on the sidewalk at speed $$c $$ , too.
 
-![A car is moving towards right with velocity v. A boy standing on the side-walk observes the car. The velocity of light u primed is shown to be c as observed by the girl in the car and the velocity of light u is also c as observed by the boy.](../resources/Figure_29_04_03a.jpg "According to experiment and the second postulate of relativity, light from the car&#x2019;s headlights moves away from the car at speed \( c \) and towards the observer on the sidewalk at speed \( c \) . Classical velocity addition is not valid.")
+![A car is moving towards right with velocity v. A boy standing on the side-walk observes the car. The velocity of light u primed is shown to be c as observed by the girl in the car and the velocity of light u is also c as observed by the boy.](../resources/Figure_28_04_03a.jpg "According to experiment and the second postulate of relativity, light from the car&#x2019;s headlights moves away from the car at speed \( c \) and towards the observer on the sidewalk at speed \( c \) . Classical velocity addition is not valid.")
 {: #Figure3}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -93,7 +93,7 @@ Showing that the Speed of Light towards an Observer is Constant (in a Vacuum): T
 Suppose a spaceship heading directly towards the Earth at half the speed of light sends a signal to us on a laser-produced beam of light. Given that the light leaves the ship at speed  $$c $$
  as observed from the ship, calculate the speed at which it approaches the Earth.
 
-![A spacecraft is heading towards earth v equals zero point five zero zero times c. A laser beam from the ship travels towards the Earth with velocity c as shown by a vector. A second spaceship traveling away from the Earth. The velocity of the second ship and second laser are the same as the first, but in the opposite direction.](../resources/Figure_29_04_04a.jpg " ")
+![A spacecraft is heading towards earth v equals zero point five zero zero times c. A laser beam from the ship travels towards the Earth with velocity c as shown by a vector. A second spaceship traveling away from the Earth. The velocity of the second ship and second laser are the same as the first, but in the opposite direction.](../resources/Figure_28_04_04a.jpg " ")
 {: #Figure4}
 
 **Strategy**
@@ -138,7 +138,7 @@ Comparing the Speed of Light towards and away from an Observer: Relativistic Pac
 Suppose the spaceship in the previous example is approaching the Earth at half the speed of light and shoots a canister at a speed of  $$0.750c $$ .
  (a) At what velocity will an Earth-bound observer see the canister if it is shot directly towards the Earth? (b) If it is shot directly away from the Earth? (See [[Figure 5]](#Figure5).)
 
-![In part a, a spaceship is moving towards the earth from left to right with a velocity v equals to zero point five zero times c. The spaceships shoots a canister towards earth with velocity u prime equals zero point seven five times c. A man stands stationary on earth observing. In part b, the spaceship shoots the canister away from earth with same velocity. In both the cases, the velocity of the ship is v equals 0 point five zero times c toward left.](../resources/Figure_29_04_05a.jpg " ")
+![In part a, a spaceship is moving towards the earth from left to right with a velocity v equals to zero point five zero times c. The spaceships shoots a canister towards earth with velocity u prime equals zero point seven five times c. A man stands stationary on earth observing. In part b, the spaceship shoots the canister away from earth with same velocity. In both the cases, the velocity of the ship is v equals 0 point five zero times c toward left.](../resources/Figure_28_04_05a.jpg " ")
 {: #Figure5}
 
 **Strategy**
