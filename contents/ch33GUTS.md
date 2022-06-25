@@ -265,7 +265,7 @@ atmosphere as seen in the figure given below. Suppose a cosmic ray particle
 having an energy of $$ 10^{10} \text{GeV} $$ converts its energy into particles
 with masses averaging $$200 \text{MeV/}{c}^{2} $$ .
 (a) How many particles are created? (b) If the particles rain down on a $$1.00
-{\text{-km}}^{2} $$ area, how many particles are there per square meter?
+{\text{-km} }^{2} $$ area, how many particles are there per square meter?
 
 ![The figure shows an extremely energetic cosmic ray penetrating into the Earth&#x2019;s atmosphere. High up in the atmosphere, the cosmic ray disintegrates into a shower of particles that start a chain reaction by themselves creating further particles. All these particles shower the surface of the Earth.](../resources/Figure_33_06_06.jpg "An extremely energetic cosmic ray creates a shower of particles on earth. The energy of these rare cosmic rays can approach a joule (about \( 10^{10} \text{GeV} \) ) and, after multiple collisions, huge numbers of particles are created from this energy. Cosmic ray showers have been observed to extend over many square kilometers. ")
 {: #Figure6}
@@ -273,7 +273,7 @@ with masses averaging $$200 \text{MeV/}{c}^{2} $$ .
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
 (a)  $$5 \times 10^{10} $$
-(b)  $$5 \times 10^{4}  {\text{particles/m}}^{2} $$
+(b)  $$5 \times 10^{4}  {\text{particles/m} }^{2} $$
 </div>
 </div>
 
@@ -306,7 +306,7 @@ provides an idea of the limit to the detail it can probe.
 **Integrated Concepts**
 
 (a) Calculate the relativistic quantity $$\gamma
-=\frac{1}{\sqrt{1-{v}^{2}/{c}^{2}}} $$ for 1.00-TeV protons produced at
+=\frac{1}{\sqrt{1-{v}^{2}/{c}^{2} }} $$ for 1.00-TeV protons produced at
 Fermilab. (b) If such a proton created a $${\pi }^{+} $$ having the same speed,
 how long would its life be in the laboratory? (c) How far could it travel in
 this time?
@@ -319,7 +319,7 @@ this time?
 **Integrated Concepts**
 
 The primary decay mode for the negative pion is $${\pi }^{-}\to {\mu
-}^{-}+{\stackrel{-}{\nu }}_{\mu } $$ .
+}^{-}+{\stackrel{-}{\nu } }_{\mu } $$ .
 (a) What is the energy release in MeV in this decay? (b) Using conservation of
 momentum, how much energy does each of the decay products receive, given the
 $${\pi }^{-} $$ is at rest when it decays? You may assume the muon antineutrino
@@ -341,7 +341,7 @@ is massless and has momentum $$p=E/c $$ , just like a photon.
 Plans for an accelerator that produces a secondary beam of *K*-mesons to scatter
 from nuclei, for the purpose of studying the strong force, call for them to have
 a kinetic energy of 500 MeV. (a) What would the relativistic quantity $$\gamma
-=\frac{1}{\sqrt{1-{v}^{2}/{c}^{2}}} $$ be for these particles? (b) How long
+=\frac{1}{\sqrt{1-{v}^{2}/{c}^{2} }} $$ be for these particles? (b) How long
 would their average lifetime be in the laboratory? (c) How far could they travel
 in this time?
 
@@ -363,7 +363,7 @@ single proton decay?
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
 (a)  $$ 7.2 \times 10^{5}  \text{kg} $$
-(b)  $$ 7.2 \times 10^{2}  {\text{m}}^{3} $$
+(b)  $$ 7.2 \times 10^{2}  {\text{m} }^{3} $$
 (c)  $$100 \text{months} $$
 </div>
 </div>
@@ -378,7 +378,7 @@ away from the Earth (relatively close to our Milky Way galaxy). If neutrinos
 have a mass, they cannot travel at the speed of light, but if their mass is
 small, they can get close. (a) Suppose a neutrino with a $$7\text{-eV/}{c}^{2}
 $$ mass has a kinetic energy of 700 keV. Find the relativistic quantity $$\gamma
-=\frac{1}{\sqrt{1-{v}^{2}/{c}^{2}}} $$ for it. (b) If the neutrino leaves the
+=\frac{1}{\sqrt{1-{v}^{2}/{c}^{2} }} $$ for it. (b) If the neutrino leaves the
 1987A supernova at the same time as a photon and both travel to Earth, how much
 sooner does the photon arrive? This is not a large time difference, given that
 it is impossible to know which neutrino left with which photon and the poor

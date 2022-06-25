@@ -71,14 +71,14 @@ internally, producing its well-known magnetic moment. When the neutron $${\beta
 neutron $${\beta }^{-} $$ decay in terms of quarks,
 
 <div class="equation" >
- $$n\to p+{\beta }^{-}+{\stackrel{-}{v}}_{e}\text{  becomes }\text{udd}\to \text{uud}+{\beta }^{-}+{\stackrel{-}{v}}_{e}\text{.} $$
+ $$n\to p+{\beta }^{-}+{\stackrel{-}{v} }_{e}\text{  becomes }\text{udd}\to \text{uud}+{\beta }^{-}+{\stackrel{-}{v} }_{e}\text{.} $$
 </div>
 
 We see that this is equivalent to a down quark changing flavor to become an up
 quark:
 
 <div class="equation" >
- $$d\to u+{\beta }^{-}+{\stackrel{-}{v}}_{e} $$
+ $$d\to u+{\beta }^{-}+{\stackrel{-}{v} }_{e} $$
 </div>
 
 <table id="Table1" aria-describedby="Quarks and Antiquarks"><caption><span class="title">Quarks and Antiquarks<sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup></span></caption><thead>        
@@ -300,7 +300,7 @@ quark:
             </td>
           </tr><tr>
             <td colspan="2">
-               $${\stackrel{-}{K}}^{0} $$ 
+               $${\stackrel{-}{K} }^{0} $$ 
             </td>
             <td>
                $$\stackrel{-}{d}s $$ 
@@ -379,42 +379,42 @@ quark:
             </td>
           </tr><tr>
             <td colspan="2">
-               $${\text{Λ}}^{0} $$ 
+               $${\text{Λ} }^{0} $$ 
             </td>
             <td>
                $$\text{uds} $$ 
             </td>
           </tr><tr>
             <td colspan="2">
-               $${\text{Σ}}^{0} $$ 
+               $${\text{Σ} }^{0} $$ 
             </td>
             <td>
                $$\text{uds} $$ 
             </td>
           </tr><tr>
             <td colspan="2">
-               $${\text{Σ}}^{+} $$ 
+               $${\text{Σ} }^{+} $$ 
             </td>
             <td>
                $$\text{uus} $$ 
             </td>
           </tr><tr>
             <td colspan="2">
-               $${\text{Σ}}^{-} $$ 
+               $${\text{Σ} }^{-} $$ 
             </td>
             <td>
                $$\text{dds} $$ 
             </td>
           </tr><tr>
             <td colspan="2">
-               $${\text{Ξ}}^{0} $$ 
+               $${\text{Ξ} }^{0} $$ 
             </td>
                        <td>
                $$\text{uss} $$ 
             </td>
           </tr><tr>
             <td colspan="2">
-               $${\text{Ξ}}^{-} $$ 
+               $${\text{Ξ} }^{-} $$ 
             </td>
             <td>
                $$\text{dss} $$ 
@@ -497,22 +497,22 @@ Patterns in the properties of atoms allowed the periodic table to be developed. 
 <div class="title">
 Quantum Numbers From Quark Composition
 </div>
-Verify the quantum numbers given for the  $${\text{Ξ}}^{0} $$
+Verify the quantum numbers given for the  $${\text{Ξ} }^{0} $$
  particle in [[link]](../contents/ch33ParticlesPatternsAndConservationLaws#import-auto-id1169736657305) by adding the quantum numbers for its quark composition as given in [[Table 2]](#Table2).
 
 **Strategy**
 
-The composition of the $${\text{Ξ}}^{0} $$ is given as $$\text{uss} $$
+The composition of the $${\text{Ξ} }^{0} $$ is given as $$\text{uss} $$
 in [[Table 2]](#Table2). The quantum numbers for the constituent quarks are
 given in [[Table 1]](#Table1). We will not consider spin, because that is not
-given for the $${\text{Ξ}}^{0} $$ . But we can check on charge and the other
+given for the $${\text{Ξ} }^{0} $$ . But we can check on charge and the other
 quantum numbers given for the quarks.
 
 **Solution**
 
 The total charge of *uss* is $$+\left(\frac{2}{3}\right){q}_{e}-\left(
 \frac{1}{3}\right){q}_{e}-\left(\frac{1}{3}\right){q}_{e}=0 $$ , which is
-correct for the $${\text{Ξ}}^{0} $$ . The baryon number is $$+\left(
+correct for the $${\text{Ξ} }^{0} $$ . The baryon number is $$+\left(
 \frac{1}{3}\right)+\left(\frac{1}{3}\right)+\left(\frac{1}{3}\right)=1 $$ , also
 correct since the $${\text{Ξ}}^{0} $$ is a matter baryon and has $$B=1 $$ , as
 listed in [[link]](../contents/ch33ParticlesPatternsAndConservationLaws#import-auto-id1169736657305). Its strangeness is

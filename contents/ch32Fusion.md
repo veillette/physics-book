@@ -75,7 +75,7 @@ The Sun produces energy by fusing protons or hydrogen nuclei $${}^{1}\text{H} $$
 . The principal sequence of fusion reactions forms what is called the **proton-proton cycle**\:
 
 <div class="equation" >
- $${}^{1}\text{H}+{}^{1}\text{H}\to {}^{2}\text{H}+{e}^{+}+{v}_{\text{e}}                \left(0.42 \text{MeV}\right) $$
+ $${}^{1}\text{H}+{}^{1}\text{H}\to {}^{2}\text{H}+{e}^{+}+{v}_{\text{e} }                \left(0.42 \text{MeV}\right) $$
 </div>
 
 <div class="equation" >
@@ -86,7 +86,7 @@ The Sun produces energy by fusing protons or hydrogen nuclei $${}^{1}\text{H} $$
  $${}^{3}\text{He}+{}^{3}\text{He}\to {}^{4}\text{He}+{}^{1}\text{H}+{}^{1}\text{H}       \left(12.86 \text{MeV}\right) $$
 </div>
 
-where $${e}^{+} $$ stands for a positron and $${v}_{\text{e}} $$ is an electron
+where $${e}^{+} $$ stands for a positron and $${v}_{\text{e} } $$ is an electron
 neutrino. (The energy in parentheses is *released* by the reaction.) Note that
 the first two reactions must occur twice for the third to be possible, so that
 the cycle consumes six protons ( $${}^{1}\text{H} $$ )
@@ -95,7 +95,7 @@ electrons and annihilate to form four more $$\gamma $$ rays, for a total of six.
 The overall effect of the cycle is thus
 
 <div class="equation" >
- $$2{e}^{-}+4{}^{1}\text{H}\to {}^{4}\text{He}+{2v}_{\text{e}}+6\gamma         \left(26.7 \text{MeV}\right) $$
+ $$2{e}^{-}+4{}^{1}\text{H}\to {}^{4}\text{He}+{2v}_{\text{e} }+6\gamma         \left(26.7 \text{MeV}\right) $$
 </div>
 
 where the 26.7 MeV includes the annihilation energy of the positrons and
@@ -140,7 +140,7 @@ associated with a different type of nuclear decay.
 
 The proton-proton cycle is not a practical source of energy on Earth, in spite
 of the great abundance of hydrogen ( $${}^{1}\text{H} $$ ). The reaction
-$${}^{1}\text{H}+{}^{1}\text{H}\to {}^{2}\text{H}+{e}^{+}+{v}_{\text{e}} $$ has
+$${}^{1}\text{H}+{}^{1}\text{H}\to {}^{2}\text{H}+{e}^{+}+{v}_{\text{e} } $$ has
 a very low probability of occurring. (This is why our Sun will last for about
 ten billion years.) However, a number of other fusion reactions are easier to
 induce. Among them are:

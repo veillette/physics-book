@@ -34,7 +34,7 @@ the wave crests and troughs (peaks and valleys) pass under the bird. The time
 for one complete up and down motion is the wave’s period $$T $$ . The wave’s
 frequency is $$f=1/T $$ , as usual. The wave itself moves to the right in the
 figure. This movement of the wave is actually the disturbance moving to the
-right, not the water itself (or the bird would move to the right). We define **wave velocity**  $${v}_{\text{w}} $$ to be the speed at which the disturbance
+right, not the water itself (or the bird would move to the right). We define **wave velocity**  $${v}_{\text{w} } $$ to be the speed at which the disturbance
 moves. Wave velocity is sometimes also called the *propagation velocity or propagation speed*, because the disturbance propagates from one
 location to another.
 
@@ -51,23 +51,23 @@ Many people think that water waves push water from one direction to another. In 
 
 The water wave in the figure also has a length associated with it, called its **wavelength**  $$\lambda $$ , the distance between adjacent identical parts of a
 wave. ( $$\lambda $$ is the distance parallel to the direction of propagation.)
-The speed of propagation $${v}_{\text{w}} $$ is the distance the wave travels in
+The speed of propagation $${v}_{\text{w} } $$ is the distance the wave travels in
 a given time, which is one wavelength in the time of one period. In equation
 form, that is
 
 <div class="equation" >
- $${v}_{\text{w}}=\frac{\lambda }{T} $$
+ $${v}_{\text{w} }=\frac{\lambda }{T} $$
 </div>
 
 or
 
 <div class="equation" >
- $${v}_{\text{w}}=f\lambda . $$
+ $${v}_{\text{w} }=f\lambda . $$
 </div>
 
 This fundamental relationship holds for all types of waves. For water waves,
-$${v}_{\text{w}} $$ is the speed of a surface wave; for sound, $${v}_{\text{w}}
-$$ is the speed of sound; and for visible light, $${v}_{\text{w}} $$ is the
+$${v}_{\text{w} } $$ is the speed of a surface wave; for sound, $${v}_{\text{w} }
+$$ is the speed of sound; and for visible light, $${v}_{\text{w} } $$ is the
 speed of light, for example.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -86,20 +86,20 @@ Calculate the wave velocity of the ocean wave in [[Figure 2]](#Figure2) if the d
 
 **Strategy**
 
-We are asked to find $${v}_{\text{w}} $$ . The given information tells us that
+We are asked to find $${v}_{\text{w} } $$ . The given information tells us that
 $$\lambda = 10.0 \text{m} $$ and $$T= 5.00 \text{s} $$ . Therefore, we can use
-$${v}_{\text{w}}=\frac{\lambda }{T} $$ to find the wave velocity.
+$${v}_{\text{w} }=\frac{\lambda }{T} $$ to find the wave velocity.
 
 **Solution**
 
-1. Enter the known values into $${v}_{\text{w}}=\frac{\lambda }{T} $$     
+1. Enter the known values into $${v}_{\text{w} }=\frac{\lambda }{T} $$     
    \:
    <div class="equation" >
-    $${v}_{\text{w}}=\frac{10.0 \text{m}}{5.00\text{ s}}. $$
+    $${v}_{\text{w} }=\frac{10.0 \text{m} }{5.00\text{ s} }. $$
    </div>
 
-2. Solve for $${v}_{\text{w}} $$     
-   to find $${v}_{\text{w}}= 2.00 \text{ m/s.} $$
+2. Solve for $${v}_{\text{w} } $$     
+   to find $${v}_{\text{w} }= 2.00 \text{ m/s.} $$
 
 **Discussion**
 
@@ -118,7 +118,7 @@ is called a **transverse wave** or shear wave; in such a wave, the disturbance
 is perpendicular to the direction of propagation. In contrast, in a **longitudinal wave** or compressional wave, the disturbance is parallel to the
 direction of propagation. [[Figure 4]](#Figure4) shows an example of a
 longitudinal wave. The size of the disturbance is its amplitude *X* and is
-completely independent of the speed of propagation $${v}_{\text{w}} $$.
+completely independent of the speed of propagation $${v}_{\text{w} } $$.
 
 ![The figure shows a woman holding a long spring in her hand and moving it up and down causing it to move in a zigzag manner away from her. It is an example of a transverse wave, the wave propagates horizontally. The direction of motion of the wave is shown with the help of right arrows at each crest and trough.](../resources/Figure_16_09_03a.jpg "In this example of a transverse wave, the wave propagates horizontally, and the disturbance in the cord is in the vertical direction.")
 {: #Figure3}

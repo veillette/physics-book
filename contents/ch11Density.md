@@ -44,10 +44,10 @@ where  $$\rho  $$
 
 In the riddle regarding the feathers and bricks, the masses are the same, but
 the volume occupied by the feathers is much greater, since their density is much
-lower. The SI unit of density is $${\text{kg/m}}^{3} $$ , representative values
+lower. The SI unit of density is $${\text{kg/m} }^{3} $$ , representative values
 are given in [[Table 1]](#Table1). The metric system was originally devised
-so that water would have a density of $$1 {\text{g/cm}}^{3} $$ , equivalent to
-$$10^{3} {\text{kg/m}}^{3} $$ . Thus the basic mass unit, the kilogram, was
+so that water would have a density of $$1 {\text{g/cm} }^{3} $$ , equivalent to
+$$10^{3} {\text{kg/m} }^{3} $$ . Thus the basic mass unit, the kilogram, was
 first devised to be the mass of 1000 mL of water, which has a volume of 1000
 cm<sup>3</sup>.
 
@@ -55,15 +55,15 @@ cm<sup>3</sup>.
           <tr>
             <th>Substance</th>
             <th>
-               $$\rho \left(10^{3} {\text{kg/m}}^{3} \text{ or } \text{g/mL}\right) $$
+               $$\rho \left(10^{3} {\text{kg/m} }^{3} \text{ or } \text{g/mL}\right) $$
             </th>
             <th>Substance</th>
             <th>
-               $$\rho \left(10^{3} {\text{kg/m}}^{3} \text{ or } \text{g/mL}\right) $$
+               $$\rho \left(10^{3} {\text{kg/m} }^{3} \text{ or } \text{g/mL}\right) $$
             </th>
             <th>Substance</th>
             <th>
-               $$\rho \left(10^{3} {\text{kg/m}}^{3} \text{ or } \text{g/mL}\right) $$
+               $$\rho \left(10^{3} {\text{kg/m} }^{3} \text{ or } \text{g/mL}\right) $$
             </th>
           </tr>
 </thead><tbody>
