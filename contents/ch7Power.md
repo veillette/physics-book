@@ -114,7 +114,7 @@ Examples of power are limited only by the imagination, because there are as many
 types as there are forms of work and energy. (
 See [Table 1](#Table1) for some examples.) Sunlight reaching Earth’s surface
 carries a maximum power of about 1.3 kilowatts per square meter $$ \left(
-{\text{kW/m}}^{2}\right)$$. A tiny fraction of this is retained by Earth over
+{\text{kW/m} }^{2}\right)$$. A tiny fraction of this is retained by Earth over
 the long term. Our consumption rate of fossil fuels is far greater than the rate
 at which they are stored, so it is inevitable that they will be depleted. Power
 implies that energy is transferred, perhaps changing form. It is never possible
@@ -453,7 +453,7 @@ from the Sun. (Take the power output of the Sun to be $$ 4.00\times 10^{26}
 \text{W}$$.)
 (b) Part of this is absorbed and reflected by the atmosphere, so that a maximum
 of $$ 1.30 \text{kW/m}^2 $$ reaches Earth’s surface. Calculate the area in $$
-{\text{km}}^{2} $$ of solar energy collectors needed to replace an electric
+{\text{km} }^{2} $$ of solar energy collectors needed to replace an electric
 power plant that generates 750 MW if the collectors convert an average of 2.00%
 of the maximum power into electricity. (This small conversion efficiency is due
 to the devices themselves, and the fact that the sun is directly overhead only

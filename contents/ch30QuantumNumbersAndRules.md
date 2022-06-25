@@ -83,7 +83,7 @@ force. The allowed values of $${L}_{z} $$ are
  $${L}_{z}={m}_{l}\frac{h}{2\pi } \left( {m}_{l}=-l,-l+1, ..., -1, 0, 1, ... l-1, l\right) \text{,} $$
 </div>
 
-where $${L}_{z} $$ is the ** $$z $$ -component of the angular momentum** and
+where $${L}_{z} $$ is the  $$z $$-**component of the angular momentum** and
 $${m}_{l} $$ is the angular momentum projection quantum number. The rule in
 parentheses for the values of $${m}_{l} $$ is that it can range from $$-l $$ to
 $$l $$ in steps of one. For example, if $$l=2 $$ , then $${m}_{l} $$ can have
@@ -94,7 +94,7 @@ preceding section. If the $$z $$ -component of angular momentum can have only
 certain values, then the angular momentum can have only certain directions, as
 illustrated in [[Figure 1]](#Figure1).
 
-![The image shows two possible values of component of a given angular momentum along z-axis. One circular orbit above the original circular orbit is shown for m sub l value of plus one. Another circular orbit below the original circular orbit is shown for m sub l value of minus one. The angular momentum vector for the top circular orbit makes an angle of theta sub one with the vertical axis. The horizontal angular momentum vector at original circular orbit makes an angle of theta sub two with the vertical axis. The angular momentum vector for the bottom circular orbit makes an angle of theta sub three with the vertical axis.](../resources/Figure_30_08_00a.jpg "The component of a given angular momentum along the z-axis (defined by the direction of a magnetic field) can have only certain values; these are shown here for l=1, for which \( m_\text{l}=-1, 0, \text\{ and\} +1 \) . The direction of L is quantized in the sense that it can have only certain angles relative to the z-axis.")
+![The image shows two possible values of component of a given angular momentum along z-axis. One circular orbit above the original circular orbit is shown for m sub l value of plus one. Another circular orbit below the original circular orbit is shown for m sub l value of minus one. The angular momentum vector for the top circular orbit makes an angle of theta sub one with the vertical axis. The horizontal angular momentum vector at original circular orbit makes an angle of theta sub two with the vertical axis. The angular momentum vector for the bottom circular orbit makes an angle of theta sub three with the vertical axis.](../resources/Figure_30_08_00a.jpg "The component of a given angular momentum along the z-axis (defined by the direction of a magnetic field) can have only certain values; these are shown here for l=1, for which \( m_\text{l}=-1, 0, \text\{ and \} +1 \) . The direction of L is quantized in the sense that it can have only certain angles relative to the z-axis.")
 {: #Figure1}
 
 <div class="example" markdown="1">
@@ -126,18 +126,18 @@ has the value given by $$L=\sqrt{l\left(l+1\right)}\frac{h}{2\pi } $$.
 <div class="equation" >
  $$L=\frac{\sqrt{l\left(l+1\right)}h}{2\pi }=\frac{\sqrt{2}h}{2\pi } $$
 </div>
- $${L}_{z} $$ can have three values, given by  $${L}_{z}={m}_{l}\frac{h}{2\pi } $$.
+ $$L_{z} $$ can have three values, given by  $$L_{z}= m_{l}\frac{h}{2\pi } $$.
 
 <div class="equation" >
- $$ L_{z}={m}_{l}\frac{h}{2\pi }=\left\{
+ $$ L_{z}=m_{l}\frac{h}{2\pi }=\left\{
 \begin{array}{cccc} \frac{h}{2\pi },&  {m}_{l}& =& +1 \\ 
 0, & {m}_{l}& =& 0 \\ 
 -\frac{h}{2\pi },&  {m}_{l}& =& -1
 \end{array}
 \right\} $$
 </div>
-As can be seen in [[Figure 1]](#Figure1),  $$\cos \theta =\frac{{L}_{z}}{L} , $$
- and so for  $${m}_{l}=+1 $$ ,
+As can be seen in [[Figure 1]](#Figure1),  $$\cos \theta =\frac{ L_{z} }{L} , $$
+ and so for  $$ m_{l}=+1 $$ ,
  we have
 
 <div class="equation" >
@@ -157,7 +157,7 @@ Similarly, for  $${m}_{l}=0 $$ ,
 And for  $${m}_{l}=-1 $$ ,
 
 <div class="equation" >
- $$\cos {\theta }_{3}=\frac{ {L}_{Z}}{L}=\frac{-\frac{h}{2\pi }}{\frac{\sqrt{2}h}{2\pi }}=-\frac{1}{\sqrt{2}}=-0.707\text{,} $$
+ $$\cos {\theta }_{3}=\frac{ L_{Z} }{L}=\frac{-\frac{h}{2\pi } }{\frac{\sqrt{2}h}{2\pi } }=-\frac{1}{\sqrt{2}}=-0.707\text{,} $$
 </div>
 so that
 
@@ -175,7 +175,7 @@ $${\theta }_{1} $$ in the example) is for the maximum value of $${m}_{l}=0 $$ ,
 namely $${m}_{l}=l $$ . For that smallest angle,
 
 <div class="equation" >
- $$\cos \theta =\frac{ {L}_{z}}{L}=\frac{l}{\sqrt{l\left(l+1\right)}}\text{,} $$
+ $$\cos \theta =\frac{ L_{z} }{L}=\frac{l}{\sqrt{l\left(l+1\right)}}\text{,} $$
 </div>
 which approaches 1 as  $$l $$
  becomes very large. If  $$\cos \theta =1 $$ ,
@@ -480,7 +480,7 @@ Repeat [[the previous exercise]](#Exercise7) for  $$l=3 $$.
 <div class="solution" data-element-type="problems-exercises" markdown="1">
 (a)  $$ 3.66 \times 10^{-34}  \text{J}\cdot \text{s} $$
 (b)  $$s= 9.13 \times 10^{-35}  \text{J}\cdot \text{s} $$
-(c)  $$\frac{L}{S}=\frac{\sqrt{12}}{\sqrt{3/4}}=4 $$
+(c)  $$\frac{L}{S}=\frac{\sqrt{12} }{\sqrt{3/4} }=4 $$
 </div>
 </div>
 

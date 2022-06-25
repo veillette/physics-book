@@ -41,7 +41,7 @@ into photon energy. The highest-energy X-ray produced is one for which all of
 the electron’s energy was converted to photon energy. Thus the accelerating
 voltage and the maximum x-ray energy are related by conservation of energy.
 Electric potential energy is converted to kinetic energy and then to photon
-energy, so that $${E}_{\text{max}}={ hf}_{\text{max}}={q}_{e}V\text{.} $$ Units
+energy, so that $${E}_{\text{max} }={ hf}_{\text{max} }={q}_{e}V\text{.} $$ Units
 of electron volts are convenient. For example, a 100-kV accelerating voltage
 produces x-ray photons with a maximum energy of 100 keV.
 
@@ -90,7 +90,7 @@ feel little net effect from the others. This is similar to what happens inside a
 charged conductor, where its excess charge is distributed over the surface so
 that it produces no electric field inside. It is reasonable to assume the
 inner-shell electrons have hydrogen-like energies, as given by $${E}_{n}=-\frac{
-{Z}^{2}}{ {n}^{2}}{E}_{0} $$ $$\left(n=1, 2, 3, ...\right) $$ . As noted, a
+{Z}^{2} }{ {n}^{2} }{E}_{0} $$ $$\left(n=1, 2, 3, ...\right) $$ . As noted, a
 $${K}_{\alpha } $$ X-ray is produced by an $$n=2 $$
 ** to $$n=1 $$
 ** transition. Since there are two electrons in a filled $$K $$
@@ -100,23 +100,23 @@ be $$Z-1 $$ rather than $$Z $$
 
 **Solution**
 
-$${E}_{n}=-\frac{ {Z}^{2}}{ {n}^{2}}{E}_{0} $$ $$\left(n=1, 2, 3, ...\right) $$
+$${E}_{n}=-\frac{ {Z}^{2} }{ {n}^{2} }{E}_{0} $$ $$\left(n=1, 2, 3, ...\right) $$
 gives the orbital energies for hydrogen-like atoms to be $${E}_{n}=-\left(
 {Z}^{2}/{n}^{2}\right){E}_{0} $$ , where $${E}_{0}=13.6 \text{eV} $$ . As noted,
 the effective $$Z $$ is 73. Now the $${K}_{\alpha } $$ x-ray energy is given by
 
 <div class="equation" >
- $${E}_{ {K}_{\alpha }}=\Delta E={E}_{\text{i}}-{E}_{\text{f}}={E}_{2}-{E}_{1}, $$
+ $${E}_{ {K}_{\alpha } }=\Delta E={E}_{\text{i} }-{E}_{\text{f} }={E}_{2}-{E}_{1}, $$
 </div>
 where
 
 <div class="equation" >
- $${E}_{1}=-\frac{ {Z}^{2}}{ {1}^{2}}{E}_{0}=-\frac{ {73}^{2}}{1}\left(13.6 \text{eV}\right)=-72.5 \text{keV} $$
+ $${E}_{1}=-\frac{ {Z}^{2} }{ {1}^{2} }{E}_{0}=-\frac{ {73}^{2} }{1}\left(13.6 \text{eV}\right)=-72.5 \text{keV} $$
 </div>
 and
 
 <div class="equation" >
- $${E}_{2}=-\frac{ {Z}^{2}}{ {2}^{2}}{E}_{0}=-\frac{ {73}^{2}}{4}\left(13.6 \text{eV}\right)=-18.1 \text{keV} \text{.}  $$
+ $${E}_{2}=-\frac{ {Z}^{2} }{ {2}^{2}}{E}_{0}=-\frac{ {73}^{2}}{4}\left(13.6 \text{eV}\right)=-18.1 \text{keV} \text{.}  $$
 </div>
 Thus,
 

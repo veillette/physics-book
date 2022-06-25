@@ -22,16 +22,16 @@ the gravitational force (which is much smaller than the tennis racquet’s force
 would eventually reverse the momentum of the ball. Quantitatively, the effect we
 are talking about is the change in momentum $$ \Delta \vb{p} $$.
 
-By rearranging the equation $$ \vb{F}_{\text{net}}=\frac{ \Delta \vb{p}}{\Delta
+By rearranging the equation $$ \vb{F}_{\text{net} }=\frac{ \Delta \vb{p} }{\Delta
 t} $$ to be
 
 <div class="equation">
- $$ \Delta \vb{p}=\vb{F}_{\text{net}}\Delta t, $$
+ $$ \Delta \vb{p}=\vb{F}_{\text{net} }\Delta t, $$
 </div>
 
 we can see how the change in momentum equals the average net external force
 multiplied by the time this force acts. The quantity $$ \vb{F}_
-{\text{net}}\Delta t $$ is given the name **impulse**. Impulse is the same as
+{\text{net} }\Delta t $$ is given the name **impulse**. Impulse is the same as
 the change in momentum.
 
 <div class="note" data-label="" markdown="1">
@@ -41,9 +41,9 @@ Impulse: Change in Momentum
 Change in momentum equals the average net external force multiplied by the time this force acts.
 
 <div class="equation">
- $$ \Delta \vb{p}=\vb{F}_{\text{net}}\Delta t $$
+ $$ \Delta \vb{p}=\vb{F}_{\text{net} }\Delta t $$
 </div>
-The quantity $$ \vb{F}_{\text{net}}\Delta t $$ is given the name impulse.
+The quantity $$ \vb{F}_{\text{net} }\Delta t $$ is given the name impulse.
 
 There are many ways in which an understanding of impulse can save lives, or at
 least limbs. The dashboard padding in a car, and certainly the airbags, allow
@@ -118,13 +118,13 @@ which strikes perpendicular to the wall.
 
 <div class="equation">
 \begin{array}{ c c c}
-  p_{\text{xi}}=m u  & \text{;} & p_{\text{yi}}=0
+  p_{\text{xi} }=m u  & \text{;} & p_{\text{yi} }=0
 \end{array}
 </div>
 <div class="equation">
 \begin{array}{ c c c}
-  p_{\text{xf}}=-m u & \text{;} &
-p_{\text{yf}}=0
+  p_{\text{xf} }=-m u & \text{;} &
+p_{\text{yf} }=0
 \end{array}
 </div>
 Impulse is the change in momentum vector. Therefore the $$ x $$-component
