@@ -76,7 +76,7 @@ Applying Newton’s Second Law
 Before you write net force equations, it is critical to determine whether the system
 is accelerating in a particular direction. If the acceleration is zero in a particular direction, then
 the net force is zero in that direction. Similarly, if the acceleration is nonzero in a particular direction,
-then the net force is described by the equation: $$ \vb{F}_{\text{net}}=ma $$.
+then the net force is described by the equation: $$ \vb{F}_{\text{net}}=m \vb{a} $$.
 
 For example, if the system is accelerating in the horizontal direction, but it
 is not accelerating in the vertical direction, then you will have the following
