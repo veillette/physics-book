@@ -61,7 +61,7 @@ fact, almost everything around you can be described quite accurately by the laws
 of physics. Consider a smartphone ([Figure 2](#Figure2)). Physics describes how
 electricity interacts with the various circuits inside the device. This
 knowledge helps engineers select the appropriate materials and circuit layout
-when building the smart phone. Next, consider a GPS system. Physics describes
+when building the smartphone. Next, consider a GPS system. Physics describes
 the relationship between the speed of an object, the distance over which it
 travels, and the time it takes to travel that distance. When you use a GPS
 device in a vehicle, it utilizes these physics equations to determine the travel
