@@ -3,7 +3,7 @@ title: "Introduction to Electric Current, Resistance, and Ohm's Law"
 layout: page
 ---    
 
-![A large volume of water gushes out of the gates of a dam at a hydroelectric facility.](../resources/Figure_20_00_01.jpg "Electric energy in massive quantities is transmitted from this hydroelectric facility, the Srisailam power station located along the Krishna River in India, by the movement of charge&#x2014;that is, by electric current. (credit: Chintohere, Wikimedia Commons)")
+![A large volume of water gushes out of the gates of a dam at a hydroelectric facility.](../resources/Figure_19_00_01.jpg "Electric energy in massive quantities is transmitted from this hydroelectric facility, the Srisailam power station located along the Krishna River in India, by the movement of charge&#x2014;that is, by electric current. (credit: Chintohere, Wikimedia Commons)")
 {: #Figure1}
 
 The flicker of numbers on a handheld calculator, nerve impulses carrying signals

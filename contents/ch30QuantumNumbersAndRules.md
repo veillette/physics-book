@@ -1,4 +1,4 @@
----
+**---
 title: "Quantum Numbers and Rules"
 layout: page
 ---
@@ -94,7 +94,7 @@ preceding section. If the $$z $$ -component of angular momentum can have only
 certain values, then the angular momentum can have only certain directions, as
 illustrated in [[Figure 1]](#Figure1).
 
-![The image shows two possible values of component of a given angular momentum along z-axis. One circular orbit above the original circular orbit is shown for m sub l value of plus one. Another circular orbit below the original circular orbit is shown for m sub l value of minus one. The angular momentum vector for the top circular orbit makes an angle of theta sub one with the vertical axis. The horizontal angular momentum vector at original circular orbit makes an angle of theta sub two with the vertical axis. The angular momentum vector for the bottom circular orbit makes an angle of theta sub three with the vertical axis.](../resources/Figure_31_08_00a.jpg "The component of a given angular momentum along the z-axis (defined by the direction of a magnetic field) can have only certain values; these are shown here for l=1, for which \( m_\text{l}=-1, 0, \text\{ and\} +1 \) . The direction of L is quantized in the sense that it can have only certain angles relative to the z-axis.")
+![The image shows two possible values of component of a given angular momentum along z-axis. One circular orbit above the original circular orbit is shown for m sub l value of plus one. Another circular orbit below the original circular orbit is shown for m sub l value of minus one. The angular momentum vector for the top circular orbit makes an angle of theta sub one with the vertical axis. The horizontal angular momentum vector at original circular orbit makes an angle of theta sub two with the vertical axis. The angular momentum vector for the bottom circular orbit makes an angle of theta sub three with the vertical axis.](../resources/Figure_30_08_00a.jpg "The component of a given angular momentum along the z-axis (defined by the direction of a magnetic field) can have only certain values; these are shown here for l=1, for which \( m_\text{l}=-1, 0, \text\{ and\} +1 \) . The direction of L is quantized in the sense that it can have only certain angles relative to the z-axis.")
 {: #Figure1}
 
 <div class="example" markdown="1">
@@ -129,8 +129,11 @@ has the value given by $$L=\sqrt{l\left(l+1\right)}\frac{h}{2\pi } $$.
  $${L}_{z} $$ can have three values, given by  $${L}_{z}={m}_{l}\frac{h}{2\pi } $$.
 
 <div class="equation" >
- $${L}_{z}={m}_{l}\frac{h}{2\pi }=\left\{
-\begin{array}{cccc} \frac{h}{2\pi },&  {m}_{l}& =& +1 \\  0, & {m}_{l}& =& 0 \\ -\frac{h}{2\pi },&  {m}_{l}& =& -1\end{array}
+ $$ L_{z}={m}_{l}\frac{h}{2\pi }=\left\{
+\begin{array}{cccc} \frac{h}{2\pi },&  {m}_{l}& =& +1 \\ 
+0, & {m}_{l}& =& 0 \\ 
+-\frac{h}{2\pi },&  {m}_{l}& =& -1
+\end{array}
 \right\} $$
 </div>
 As can be seen in [[Figure 1]](#Figure1),  $$\cos \theta =\frac{{L}_{z}}{L} , $$
@@ -138,7 +141,7 @@ As can be seen in [[Figure 1]](#Figure1),  $$\cos \theta =\frac{{L}_{z}}{L} , $$
  we have
 
 <div class="equation" >
- $$\cos {\theta }_{1}=\frac{ {L}_{Z}}{L}=\frac{\frac{h}{2\pi }}{\frac{\sqrt{2}h}{2\pi }}=\frac{1}{\sqrt{2}}=0.707 \text{.} $$
+ $$\cos {\theta }_{1}=\frac{ L_{Z}}{L}=\frac{\frac{h}{2\pi }}{\frac{\sqrt{2}h}{2\pi }}=\frac{1}{\sqrt{2}}=0.707 \text{.} $$
 </div>
 Thus,
 
@@ -295,7 +298,7 @@ principle actually prevents us and nature from knowing how the electron gets
 from one place to another, and so an orbit really does not exist as such. Nature
 on a small scale is again much different from that on the large scale.
 
-![The image shows probability clouds for the electron in the ground state and several excited states of hydrogen. Sets of quantum numbers given as n l m subscript l are shown for each state. The ground state is zero zero zero. The probability of finding the electron is indicated by the shade of color.](../resources/Figure_31_08_01a.jpg "Probability clouds for the electron in the ground state and several excited states of hydrogen. The nature of these states is determined by their sets of quantum numbers, here given as \( n,l,m_l \). The ground state is (0, 0, 0); one of the possibilities for the second excited state is (3, 2, 1). The probability of finding the electron is indicated by the shade of color; the darker the coloring the greater the chance of finding the electron.")
+![The image shows probability clouds for the electron in the ground state and several excited states of hydrogen. Sets of quantum numbers given as n l m subscript l are shown for each state. The ground state is zero zero zero. The probability of finding the electron is indicated by the shade of color.](../resources/Figure_30_08_01a.jpg "Probability clouds for the electron in the ground state and several excited states of hydrogen. The nature of these states is determined by their sets of quantum numbers, here given as \( n,l,m_l \). The ground state is (0, 0, 0); one of the possibilities for the second excited state is (3, 2, 1). The probability of finding the electron is indicated by the shade of color; the darker the coloring the greater the chance of finding the electron.")
 {: #Figure2}
 
 We will see that the quantum numbers discussed in this section are valid for a

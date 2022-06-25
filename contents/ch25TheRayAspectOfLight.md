@@ -28,7 +28,7 @@ The word “ray” comes from mathematics and here means a straight line that or
 
 </div>
 
-![](../resources/Figure_26_01_01.jpg "Three methods for light to travel from a source to another location. (a) Light reaches the upper atmosphere of Earth traveling through empty space directly from the source. (b) Light can reach a person in one of two ways. It can travel through media like air and glass. It can also reflect from an object like a mirror. In the situations shown here, light interacts with objects large enough that it travels in straight lines, like a ray.")
+![](../resources/Figure_25_01_01.jpg "Three methods for light to travel from a source to another location. (a) Light reaches the upper atmosphere of Earth traveling through empty space directly from the source. (b) Light can reach a person in one of two ways. It can travel through media like air and glass. It can also reflect from an object like a mirror. In the situations shown here, light interacts with objects large enough that it travels in straight lines, like a ray.")
 {: #Figure1}
 
 Experiments, as well as our own experiences, show that when light interacts with
@@ -72,7 +72,7 @@ The part of optics dealing with the ray aspect of light is called geometric opti
 <div class="problem" markdown="1">
 Suppose a man stands in front of a mirror as shown in [[Figure 2]](#Figure2). His eyes are 1.65 m above the floor, and the top of his head is 0.13 m higher. Find the height above the floor of the top and bottom of the smallest mirror in which he can see both the top of his head and his feet. How is this distance related to the man’s height?
 
-![A man standing in front of a mirror on a wall at a distance of several feet. The mirror&#x2019;s top is at eye level, but its bottom is only waist high. Arrows illustrate how the man can see his reflection from head to toe in the mirror.](../resources/Figure_26_02_07.jpg "A full-length mirror is one in which you can see all of yourself. It need not be as big as you, and its size is independent of your distance from it.")
+![A man standing in front of a mirror on a wall at a distance of several feet. The mirror&#x2019;s top is at eye level, but its bottom is only waist high. Arrows illustrate how the man can see his reflection from head to toe in the mirror.](../resources/Figure_25_02_07.jpg "A full-length mirror is one in which you can see all of yourself. It need not be as big as you, and its size is independent of your distance from it.")
 {: #Figure2}
 
 </div>

@@ -22,7 +22,7 @@ terms of the laws of physics. Bohr’s theory explained the atomic spectrum of
 hydrogen and established new and broadly applicable principles in quantum
 mechanics.
 
-![A photograph of Niels Bohr.](../resources/Figure_31_03_01a.jpg "Niels Bohr, Danish physicist, used the planetary model of the atom to explain the atomic spectrum and size of the hydrogen atom. His many contributions to the development of atomic physics and quantum mechanics, his personal influence on many students and colleagues, and his personal integrity, especially in the face of Nazi oppression, earned him a prominent place in history. (credit: Unknown Author, via Wikimedia Commons)")
+![A photograph of Niels Bohr.](../resources/Figure_30_03_01a.jpg "Niels Bohr, Danish physicist, used the planetary model of the atom to explain the atomic spectrum and size of the hydrogen atom. His many contributions to the development of atomic physics and quantum mechanics, his personal influence on many students and colleagues, and his personal integrity, especially in the face of Nazi oppression, earned him a prominent place in history. (credit: Unknown Author, via Wikimedia Commons)")
 {: #Figure1}
 
 ### Mysteries of Atomic Spectra
@@ -40,7 +40,7 @@ Einstein’s proposal of photons with quantized energies directly proportional t
 their wavelengths, it became even more evident that electrons in atoms can exist
 only in discrete orbits.
 
-![This figure has two parts. Part a shows a discharge tube at the extreme left. Light from the discharge tube passes through a rectangular slit and a grating, going from left to right. From the grating, light of different colors falls on a photographic film. Part b of the figure shows the emission line spectrum for iron.](../resources/Figure_31_03_02a.jpg "Part (a) shows, from left to right, a discharge tube, slit, and diffraction grating producing a line spectrum. Part (b) shows the emission line spectrum for iron. The discrete lines imply quantized energy states for the atoms that produce them. The line spectrum for each element is unique, providing a powerful and much used analytical tool, and many line spectra were well known for many years before they could be explained with physics. (credit for (b): Yttrium91, Wikimedia Commons)")
+![This figure has two parts. Part a shows a discharge tube at the extreme left. Light from the discharge tube passes through a rectangular slit and a grating, going from left to right. From the grating, light of different colors falls on a photographic film. Part b of the figure shows the emission line spectrum for iron.](../resources/Figure_30_03_02a.jpg "Part (a) shows, from left to right, a discharge tube, slit, and diffraction grating producing a line spectrum. Part (b) shows the emission line spectrum for iron. The discrete lines imply quantized energy states for the atoms that produce them. The line spectrum for each element is unique, providing a powerful and much used analytical tool, and many line spectra were well known for many years before they could be explained with physics. (credit for (b): Yttrium91, Wikimedia Commons)")
 {: #Figure2}
 
 In some cases, it had been possible to devise formulas that described the
@@ -84,7 +84,7 @@ and theory in physics. Experimentally, the spectra were well established, an
 equation was found to fit the experimental data, but the theoretical foundation
 was missing.
 
-![The figure shows three horizontal lines at small distances from each other. Between the two lower lines, the Lyman series, with four vertical red bands in compact form, is shown. The value of the constant n sub f is 1 and the wavelengths are ninety-one nanometers to one hundred nanometers. The Balmer series is shown to the right side of this series. The value of the constant n sub f is two, and the range of wavelengths is from three hundred sixty five to six hundred fifty six nanometers. At the right side of this, the Paschen series bands are shown. The value of the constant n sub f is three, and the range of the wavelengths is from eight hundred twenty nanometers to one thousand eight hundred and seventy five nanometers.](../resources/Figure_31_03_03a.jpg "A schematic of the hydrogen spectrum shows several series named for those who contributed most to their determination. Part of the Balmer series is in the visible spectrum, while the Lyman series is entirely in the UV, and the Paschen series and others are in the IR. Values of \( n_{f} \) and \( n_{f} \) are shown for some of the lines.")
+![The figure shows three horizontal lines at small distances from each other. Between the two lower lines, the Lyman series, with four vertical red bands in compact form, is shown. The value of the constant n sub f is 1 and the wavelengths are ninety-one nanometers to one hundred nanometers. The Balmer series is shown to the right side of this series. The value of the constant n sub f is two, and the range of wavelengths is from three hundred sixty five to six hundred fifty six nanometers. At the right side of this, the Paschen series bands are shown. The value of the constant n sub f is three, and the range of the wavelengths is from eight hundred twenty nanometers to one thousand eight hundred and seventy five nanometers.](../resources/Figure_30_03_03a.jpg "A schematic of the hydrogen spectrum shows several series named for those who contributed most to their determination. Part of the Balmer series is in the visible spectrum, while the Lyman series is entirely in the UV, and the Paschen series and others are in the IR. Values of \( n_{f} \) and \( n_{f} \) are shown for some of the lines.")
 {: #Figure3}
 
 <div class="example" markdown="1">
@@ -180,7 +180,7 @@ atomic orbits should be quantized. This is not observed for satellites or
 planets, which can have any orbit given the proper energy. (
 See [[Figure 4]](#Figure4).)
 
-![The orbits of Bohr&#x2019;s planetary model of an atom; five concentric circles are shown. The radii of the circles increase from innermost to outermost circles. On the circles, labels E sub one, E sub two, up to E sub i are marked.](../resources/Figure_31_03_04a.jpg "The planetary model of the atom, as modified by Bohr, has the orbits of the electrons quantized. Only certain orbits are allowed, explaining why atomic spectra are discrete (quantized). The energy carried away from an atom by a photon comes from the electron dropping from one allowed orbit to another and is thus quantized. This is likewise true for atomic absorption of photons.")
+![The orbits of Bohr&#x2019;s planetary model of an atom; five concentric circles are shown. The radii of the circles increase from innermost to outermost circles. On the circles, labels E sub one, E sub two, up to E sub i are marked.](../resources/Figure_30_03_04a.jpg "The planetary model of the atom, as modified by Bohr, has the orbits of the electrons quantized. Only certain orbits are allowed, explaining why atomic spectra are discrete (quantized). The energy carried away from an atom by a photon comes from the electron dropping from one allowed orbit to another and is thus quantized. This is likewise true for atomic absorption of photons.")
 {: #Figure4}
 
 [[Figure 5]](#Figure5) shows an **energy-level diagram**, a convenient way to
@@ -193,7 +193,7 @@ are used for many systems, including molecules and nuclei. A theory of the atom
 or any other system must predict its energies based on the physics of the
 system.
 
-![The energy level diagram is shown. A number of horizontal lines are shown. The lines are labeled from bottom to top as n is equal to one, n is equal to two and so on up to n equals infinity; the energy levels increase from bottom to top. The distance between the lines decreases from the bottom line to the top line. A vertical arrow shows an electron transitioning from n equals four to n equals two.](../resources/Figure_31_03_05a.jpg "An energy-level diagram plots energy vertically and is useful in visualizing the energy states of a system and the transitions between them. This diagram is for the hydrogen-atom electrons, showing a transition between two orbits having energies \( E_{4} \) and \( E_{2} \) .")
+![The energy level diagram is shown. A number of horizontal lines are shown. The lines are labeled from bottom to top as n is equal to one, n is equal to two and so on up to n equals infinity; the energy levels increase from bottom to top. The distance between the lines decreases from the bottom line to the top line. A vertical arrow shows an electron transitioning from n equals four to n equals two.](../resources/Figure_30_03_05a.jpg "An energy-level diagram plots energy vertically and is useful in visualizing the energy states of a system and the transitions between them. This diagram is for the hydrogen-atom electrons, showing a transition between two orbits having energies \( E_{4} \) and \( E_{2} \) .")
 {: #Figure5}
 
 Bohr was clever enough to find a way to calculate the electron orbital energies
@@ -259,7 +259,7 @@ to be very close to the Bohr radius. The earlier equation also tells us that the
 orbital radius is proportional to $${n}^{2} $$ , as illustrated
 in [[Figure 6]](#Figure6).
 
-![The electron orbits are shown in the form of four concentric circles. The radius of each circle is marked as r sub one, r sub two, up to r sub four.](../resources/Figure_31_03_06a.jpg "The allowed electron orbits in hydrogen have the radii shown. These radii were first calculated by Bohr and are given by the equation \( r_n=n^2/Z a_B \). The lowest orbit has the experimentally verified diameter of a hydrogen atom.")
+![The electron orbits are shown in the form of four concentric circles. The radius of each circle is marked as r sub one, r sub two, up to r sub four.](../resources/Figure_30_03_06a.jpg "The allowed electron orbits in hydrogen have the radii shown. These radii were first calculated by Bohr and are given by the equation \( r_n=n^2/Z a_B \). The lowest orbit has the experimentally verified diameter of a hydrogen atom.")
 {: #Figure6}
 
 To get the electron orbital energies, we start by noting that the electron
@@ -307,7 +307,7 @@ Thus, for hydrogen,
 illustrates how the various spectral series for hydrogen are related to
 transitions between energy levels.
 
-![An energy level diagram is shown. At the left, there is a vertical arrow showing the energy levels increasing from bottom to top. At the bottom, there is a horizontal line showing the energy levels of Lyman series, n is one. The energy is marked as negative thirteen point six electron volt. Then, in the upper half of the figure, another horizontal line showing Balmer series is shown when the value of n is two. The energy level is labeled as negative three point four zero electron volt. Above it there is another horizontal line showing Paschen series. The energy level is marked as negative one point five one electron volt. Above this line, some more lines are shown in a small area to show energy levels of other values of n.](../resources/Figure_31_03_07a.jpg "Energy-level diagram for hydrogen showing the Lyman, Balmer, and Paschen series of transitions. The orbital energies are calculated using the above equation, first derived by Bohr.")
+![An energy level diagram is shown. At the left, there is a vertical arrow showing the energy levels increasing from bottom to top. At the bottom, there is a horizontal line showing the energy levels of Lyman series, n is one. The energy is marked as negative thirteen point six electron volt. Then, in the upper half of the figure, another horizontal line showing Balmer series is shown when the value of n is two. The energy level is labeled as negative three point four zero electron volt. Above it there is another horizontal line showing Paschen series. The energy level is marked as negative one point five one electron volt. Above this line, some more lines are shown in a small area to show energy levels of other values of n.](../resources/Figure_30_03_07a.jpg "Energy-level diagram for hydrogen showing the Lyman, Balmer, and Paschen series of transitions. The orbital energies are calculated using the above equation, first derived by Bohr.")
 {: #Figure7}
 
 Electron total energies are negative, since the electron is bound to the
