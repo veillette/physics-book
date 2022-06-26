@@ -204,7 +204,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     4.  [Magnetic Field Strength: Force on a Moving Charge in a Magnetic Field](contents/ch22MagneticFieldStrength.md)
     5.  [Force on a Moving Charge in a Magnetic Field: Examples and Applications](contents/ch22ForceOnAMovingChargeInAMagneticField.md)
     6.  [The Hall Effect](contents/ch22TheHallEffect.md)
-    7.  [Magnetic Force on a Current-Carrying Conductor](contents/ch23MagneticForceOnACurrentCarryingConductor.md)
+    7.  [Magnetic Force on a Current-Carrying Conductor](contents/ch22MagneticForceOnACurrentCarryingConductor.md)
     8.  [Torque on a Current Loop: Motors and Meters](contents/ch22TorqueOnACurrentLoop.md)
     9.  [Magnetic Fields Produced by Currents: Ampere’s Law](contents/ch22MagneticFieldsProducedByCurrents.md)
     10. [Magnetic Force between Two Parallel Conductors](contents/ch22MagneticForceBetweenTwoParallelConductors.md)
