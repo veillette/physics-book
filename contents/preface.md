@@ -49,7 +49,7 @@ applications that are easy for most students to visualize.
 * [Chapter 12: Fluid Dynamics and Its Biological and Medical Applications](../contents/ch12FluidDynamicsAndItsBiologicalApplications.md)
 * [Chapter 13: Temperature, Kinetic Theory, and the Gas Laws](contents/ch13TemperatureKineticTheoryAndTheGasLaws.md)
 * [Chapter 14: Heat and Heat Transfer Methods](contents/ch14HeatAndHeatTransfers.md)
-* [Chapter 15: Thermodynamics](contents/ch15Thermodynamics.md)[Thermodynamics](contents/ch15IntroductionToTheSecondLawOfThermodynamics.md)
+* [Chapter 15: Thermodynamics](contents/ch15Thermodynamics.md)
 * [Chapter 16: Oscillatory Motion and Waves](../contents/ch16OscillatoryMotionAndWaves.md)
 * [Chapter 17: Physics of Hearing](../contents/ch17PhysicsOfHearing.md)
 * [Chapter 18: Electric Charge and Electric Field](../contents/ch18ElectricChargeAndElectricField.md)
