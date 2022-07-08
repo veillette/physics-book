@@ -698,7 +698,7 @@ black lights emit ultraviolet to cause posters and clothing to fluoresce in the
 visible. Ultraviolet is also used in special microscopes to detect details
 smaller than those observable with longer-wavelength visible-light microscopes.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" id="Note1" data-has-label="true" data-label="" markdown="1">
 <div class="title">
 Things Great and Small: A Submicroscopic View of X-Ray Production
 </div>
@@ -746,7 +746,7 @@ that these discharges created an invisible, penetrating form of very high
 frequency electromagnetic radiation. This radiation was called an **X-ray**,
 because its identity and nature were unknown.
 
-As described in [Things Great and Small](#fs-id1169737992225), there are two
+As described in [Things Great and Small](#Note1), there are two
 methods by which X-rays are created—both are submicroscopic processes and can be
 caused by high-voltage discharges. While the low-frequency end of the X-ray
 range overlaps with the ultraviolet, X-rays extend to much higher frequencies (

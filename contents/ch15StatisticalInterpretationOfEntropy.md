@@ -352,7 +352,7 @@ refreeze is impossible.
 
 </div>
 
-<div class="note" id="PS1" data-has-label="true" data-label="" markdown="1">
+<div class="note" id="Note1" data-has-label="true" data-label="" markdown="1">
 <div class="title">
 Problem-Solving Strategies for Entropy
 </div>

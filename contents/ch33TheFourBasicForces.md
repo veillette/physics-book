@@ -101,7 +101,7 @@ Feynman diagram**, after the brilliant American physicist Richard Feynman (
 
 [[Figure 3]](#Figure3) is a Feynman diagram for the exchange of a virtual pion
 between a proton and a neutron representing the same interaction as
-in [[link]](../contents/ch33TheYukawaParticleAndTheHeisenbergUncertaintyPrincipleRevisited#import-auto-id1169737824808). Feynman diagrams are not only
+in [[The Yukawa Particle and the Heisenberg Uncertainty Principle Revisited]](../contents/ch33TheYukawaParticleAndTheHeisenbergUncertaintyPrincipleRevisited). Feynman diagrams are not only
 a useful tool for visualizing interactions at the quantum mechanical level, they
 are also used to calculate details of interactions, such as their strengths and
 probability of occurring. Feynman was one of the theorists who developed the

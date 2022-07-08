@@ -589,7 +589,7 @@ No, there are many ways to connect resistors that are not combinations of series
 </div>
 </section>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" id="Note1" data-has-label="true" data-label="" markdown="1">
 <div class="title">
 Problem-Solving Strategies for Series and Parallel Resistors
 </div>
@@ -792,7 +792,8 @@ Your car’s 30.0-W headlight and 2.40-kW starter are ordinarily connected in pa
 Referring to the example combining series and parallel circuits and [[Figure 5]](#Figure5), calculate  $${I}_{3} $$
  in the following two different ways: (a) from the known values of  $$I $$
  and  $${I}_{2} $$ ;  (b) using Ohm’s law for  $${R}_{3} $$ .
- In both parts explicitly show how you follow the steps in the [Problem-Solving Strategies for Series and Parallel Resistors](#fs-id2401854).
+ In both parts explicitly show how you follow the steps in the
+[Problem-Solving Strategies for Series and Parallel Resistors](#Note1).
 
 </div>
 <div class="solution" markdown="1">
@@ -830,7 +831,7 @@ Refer to [[Figure 6]](#Figure6) and the discussion of lights dimming when a heav
 <div class="problem" markdown="1">
 A 240-kV power transmission line carrying  $$5.00 \times 10^{2}  \text{A} $$
  is hung from grounded metal towers by ceramic insulators, each having a  $$ 1.00 \times 10^{9} -\Omega  $$
- resistance. [[Figure 9]](#Figure9). (a) What is the resistance to ground of 100 of these insulators? (b) Calculate the power dissipated by 100 of them. (c) What fraction of the power carried by the line is this? Explicitly show how you follow the steps in the [Problem-Solving Strategies for Series and Parallel Resistors](#fs-id2401854).
+ resistance. [[Figure 9]](#Figure9). (a) What is the resistance to ground of 100 of these insulators? (b) Calculate the power dissipated by 100 of them. (c) What fraction of the power carried by the line is this? Explicitly show how you follow the steps in the [Problem-Solving Strategies for Series and Parallel Resistors](#Note1).
 
 ![The diagram shows a grounded metal transmission tower. Two ground conductors on top of the tower point out like antennas. Hanging from the tower are a set of three bundled conductors, one on either end and one in the middle.](../resources/Figure_21_01_10.jpg "High-voltage (240-kV) transmission line carrying \( 5.00 \times 10^2 \text{A} \) is hung from a grounded metal transmission tower. The row of ceramic insulators provide \( 1.00 \times 10^9 \Omega \) of resistance each.")
 {: #Figure9}

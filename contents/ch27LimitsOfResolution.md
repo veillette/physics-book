@@ -315,7 +315,7 @@ illuminated spot be?
 (c) How big a spot would be illuminated on the Moon, neglecting atmospheric
 effects? (This might be done to hit a corner reflector to measure the round-trip
 time and, hence, distance.) Explicitly show how you follow the steps
-in [Problem-Solving Strategies for Wave Optics](../contents/ch27ThinFilmInterference#fs-id1169737988256).
+in [Problem-Solving Strategies for Wave Optics](../contents/ch27ThinFilmInterference#Note1).
 
 </div>
 </div>

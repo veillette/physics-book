@@ -673,6 +673,7 @@ Find several lenses and determine whether they are converging or diverging. In g
 </div>
 
 ### Problem-Solving Strategies for Lenses
+{: #Note1}
 
 Step 1. Examine the situation to determine that image formation by a lens is
 involved.

@@ -430,7 +430,7 @@ Calculate the net work output of a heat engine following path ABCDA in the figur
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 What is the net work output of a heat engine that follows path ABDA in the figure above, with a straight line from B to D? Why is the work output less than for path ABCDA? Explicitly show how you follow the steps in 
-the [Problem-Solving Strategies for Thermodynamics](../contents/ch15ApplicationsOfThermodynamics#PS1).
+the [Problem-Solving Strategies for Thermodynamics](../contents/ch15ApplicationsOfThermodynamics#Note1).
 
 </div>
 </div>

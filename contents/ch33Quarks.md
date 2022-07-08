@@ -473,7 +473,7 @@ in the periodic table of the elements and the chart of nuclides. The $${\Omega
 }^{-} $$ particle, in particular, had not been discovered but was predicted by
 quark theory. Its combination of three strange quarks, $$\text{sss} $$ , gives
 it a strangeness of $$-3 $$
-(see [[link]](../contents/ch33ParticlesPatternsAndConservationLaws#import-auto-id1169736657305)) and other predictable
+(see [[Table 2]](../contents/ch33ParticlesPatternsAndConservationLaws#Table2)) and other predictable
 characteristics, such as spin, charge, approximate mass, and lifetime. If the
 quark picture is complete, the $${\Omega }^{-} $$ should exist. It was first
 observed in 1964 at Brookhaven National Laboratory and had the predicted
@@ -498,7 +498,7 @@ Patterns in the properties of atoms allowed the periodic table to be developed. 
 Quantum Numbers From Quark Composition
 </div>
 Verify the quantum numbers given for the  $${\text{Ξ} }^{0} $$
- particle in [[link]](../contents/ch33ParticlesPatternsAndConservationLaws#import-auto-id1169736657305) by adding the quantum numbers for its quark composition as given in [[Table 2]](#Table2).
+ particle in [[Table 2]](../contents/ch33ParticlesPatternsAndConservationLaws#Table2) by adding the quantum numbers for its quark composition as given in [[Table 2]](#Table2).
 
 **Strategy**
 
@@ -515,9 +515,9 @@ The total charge of *uss* is $$+\left(\frac{2}{3}\right){q}_{e}-\left(
 correct for the $${\text{Ξ} }^{0} $$ . The baryon number is $$+\left(
 \frac{1}{3}\right)+\left(\frac{1}{3}\right)+\left(\frac{1}{3}\right)=1 $$ , also
 correct since the $${\text{Ξ}}^{0} $$ is a matter baryon and has $$B=1 $$ , as
-listed in [[link]](../contents/ch33ParticlesPatternsAndConservationLaws#import-auto-id1169736657305). Its strangeness is
+listed in [[Table 2]](../contents/ch33ParticlesPatternsAndConservationLaws#Table2). Its strangeness is
 $$S=0-1-1=-2 $$ , also as expected
-from [[link]](../contents/ch33ParticlesPatternsAndConservationLaws#import-auto-id1169736657305). Its charm, bottomness, and
+from [[Table 2]](../contents/ch33ParticlesPatternsAndConservationLaws#Table2). Its charm, bottomness, and
 topness are 0, as are its lepton family numbers (it is not a lepton).
 
 **Discussion**
@@ -586,7 +586,7 @@ Revolution. Ting and Richter shared the 1976 Nobel Prize.
 
 History quickly repeated itself. In 1975, the tau ( $$\tau $$ )
 was discovered, and a third family of leptons emerged as seen
-in [[link]](../contents/ch33ParticlesPatternsAndConservationLaws#import-auto-id1169736657305)). Theorists quickly proposed
+in [[Table 2]](../contents/ch33ParticlesPatternsAndConservationLaws#Table2)). Theorists quickly proposed
 two more quark flavors called **top** (*t*) or truth and **bottom** (*b*) or
 beauty to keep the number of quarks the same as the number of leptons. And in
 1976, the upsilon ( $$\Upsilon $$ )
@@ -1038,7 +1038,7 @@ mixtures of quarks (as for the π-meson) as well.
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Verify the quantum numbers given for the  $${\Omega }^{+} $$
- in [[link]](../contents/ch33ParticlesPatternsAndConservationLaws#import-auto-id1169736657305) by adding the quantum numbers for its quark constituents as inferred from [[Table 2]](#Table2).
+ in [[Table 2]](../contents/ch33ParticlesPatternsAndConservationLaws#Table2) by adding the quantum numbers for its quark constituents as inferred from [[Table 2]](#Table2).
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
@@ -1048,7 +1048,7 @@ Verify the quantum numbers given for the  $${\Omega }^{+} $$
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Verify the quantum numbers given for the proton and neutron in [[link]](../contents/ch33ParticlesPatternsAndConservationLaws#import-auto-id1169736657305) by adding the quantum numbers for their quark constituents as given in [[Table 2]](#Table2).
+Verify the quantum numbers given for the proton and neutron in [[Table 2]](../contents/ch33ParticlesPatternsAndConservationLaws#Table2) by adding the quantum numbers for their quark constituents as given in [[Table 2]](#Table2).
 
 </div>
 </div>
