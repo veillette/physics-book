@@ -130,7 +130,7 @@ S-waves correspondingly range in speed from 2 to 5 km/s, both being faster in
 more rigid material. The P-wave gets progressively farther ahead of the S-wave
 as they travel through Earth’s crust. The time between the P- and S-waves is
 routinely used to determine the distance to their source, the epicenter of the
-earthquake.
+earthquake. The time and nature of these wave differences also provides the evidence for the nature of Earth's core. Through careful analysis of seismographic records of large earthquakes whose waves could be clearly detected around the world, Richard Dixon Oldham established that waves passing through the center of the Earth behaved as if they were moving through a different medium: a liquid. Later on, Inge Lehmann used more precise observations (partly based on a better coordinated network of seismographs she helped set up) to better define the nature of the core: that it was a solid inner core surrounded by a liquid outer core.
 
 The speed of sound is affected by temperature in a given medium. For air at sea
 level, the speed of sound is given by

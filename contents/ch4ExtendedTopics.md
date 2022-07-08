@@ -47,12 +47,12 @@ experienced on the macroscopic scale.
 
 ##### Table 1: Properties of the Four Basic Forces
 
-| Force           |    Approximate Relative Strengths    | Range|    Attraction/Repulsion    | Carrier Particle |
-|----|----|----|----|----|
-| Gravitational   | $$ 10^{−38}$$ | $$\infty$$      | attractive only            | Graviton |
-| Electromagnetic | $$10^{-2}$$   | $$\infty$$      | attractive and repulsive    | Photon |
-| Weak nuclear    | $$10^{-13}$$  | $$<10^{-18}$$m  | attractive and repulsive    | W+, W–, Z0 |
-| Strong nuclear  | $$1$$         | $$<10^{-15}$$m    | attractive and repulsive    | Gluons |
+| Force           | Approximate Relative Strengths | Range|    Attraction/Repulsion    | Carrier Particle |
+|----|--------------------------------|----|----|----|
+| Gravitational   | $$ 10^{−38}$$                  | $$\infty$$      | attractive only            | Graviton |
+| Electromagnetic | $$10^{-2}$$                    | $$\infty$$      | attractive and repulsive    | Photon |
+| Weak nuclear    | $$10^{-6}$$                    | $$<10^{-18}$$m  | attractive and repulsive    | W+, W–, Z0 |
+| Strong nuclear  | $$1$$                          | $$<10^{-15}$$m    | attractive and repulsive    | Gluons |
 
 {: #Table1}
 
@@ -170,14 +170,13 @@ explain not only forces, but also the structure of matter itself. Yet physics is
 an experimental science, so the test of these theories must lie in the domain of
 the real world. As of this writing, scientists at the CERN laboratory in
 Switzerland are starting to test these theories using the world’s largest
-particle accelerator: the Large Hadron Collider. This accelerator (27 km in
+particle accelerator: the Large Hadron Collider (LHC) . This accelerator (27 km in
 circumference) allows two high-energy proton beams, traveling in opposite
 directions, to collide. An energy of 14 trillion electron volts will be
-available. It is anticipated that some new particles, possibly force carrier
-particles, will be found. (
-See [Figure 3](#Figure3).) One of the force carriers of high interest that
-researchers hope to detect is the Higgs boson. The observation of its properties
-might tell us why different particles have different masses.
+available. Its first run discoveries included the force carrier
+particles, namely the Higgs boson. (
+See [Figure 3](#Figure3).) 
+The LHC's goal is to allow physicists to test the predictions of different theories of particle physics, including measuring the properties of the Higgs boson, searching for the large family of new particles predicted by supersymmetric theories, and other unresolved questions in particle physics such as why different particles have different masses.
 
 ![A close-up view of part of the world&#x2019;s largest particle accelerator.](../resources/Figure_04_08_03.jpg "The world&#x2019;s largest particle accelerator spans the border between Switzerland and France. Two beams, traveling in opposite directions close to the speed of light, collide in a tube similar to the central tube shown here. External magnets determine the beam&#x2019;s path. Special detectors will analyze particles created in these collisions. Questions as broad as what is the origin of mass and what was matter like the first few seconds of our universe will be explored. This accelerator began preliminary operation in 2008. (credit: Frank Hommes)")
 {: #Figure3}
@@ -197,10 +196,11 @@ is called the Laser Interferometer Gravitational-Wave Observatory (LIGO). Each
 installation is designed to use optical lasers to examine any slight shift in
 the relative positions of two masses due to the effect of gravity waves. The two
 sites allow simultaneous measurements of these small effects to be separated
-from other natural phenomena, such as earthquakes. Initial operation of the
-detectors began in 2002, and work is proceeding on increasing their sensitivity.
+from other natural phenomena, such as earthquakes.
 Similar installations have been built in Italy (VIRGO), Germany (GEO600), and
 Japan (TAMA300) to provide a worldwide network of gravitational wave detectors.
+
+In September, 2015, LIGO fulfilled its promise and helped prove Einstein's predictions. The system detected the first gravitational waves arising from the merger of two black holes—one 29 times the mass of our Sun and the other 36 times the mass of our Sun—that occurred 1.3 billion years ago. About 3 times the mass of the Sun was converted into gravitational waves in a fraction of a second—with a peak power output about 50 times that of the whole visible universe. Due to the 7 millisecond delay in detection, researchers established that the merger occurred on the southern hemisphere side of Earth. Since then, LIGO and VIRGO have combined to detect about a dozen similar events, with better and more precise measurements. Waves from neutron star mergers and different-sized black holes have deepened our understanding of these objects and their impact on the universe.
 
 International collaboration in this area is moving into space with the joint
 EU/US project LISA (Laser Interferometer Space Antenna). Earthquakes and other
@@ -211,17 +211,12 @@ Three satellites will be placed in space above Earth in an equilateral
 triangle (with 5 000 000-km sides) ([Figure 4](#Figure4)). The system will measure
 the relative positions of each satellite to detect passing gravitational waves.
 Accuracy to within 10% of the size of an atom will be needed to detect any
-waves.
-
-*“I’m sure LIGO will tell us something about the universe that we didn’t know
-before. The history of science tells us that any time you go where you haven’t
-been before, you usually find something that really shakes the scientific
-paradigms of the day. Whether gravitational wave astrophysics will do that, only
-time will tell.”* —David Reitze, LIGO Input Optics Manager, University of
-Florida
+waves. The launch of this project will likely be in the 2030s.
 
 ![NASA illustration of LISA, showing three spacecrafts positioned in orbits that form a triangular formation. The triangular formation is positioned to the left of the Sun, Earth, and Moon in the diagram. Figure not to scale.](../resources/Figure_04_08_04.jpg "Space-based future experiments for the measurement of gravitational waves. Shown here is a drawing of LISA&#x2019;s orbit. Each satellite of LISA will consist of a laser source and a mass. The lasers will transmit a signal to measure the distance between each satellite&#x2019;s test mass. The relative motion of these masses will provide information about passing gravitational waves. (credit: NASA)")
 {: #Figure4}
+
+As you can see above, some of the most groundbreaking developments in physics are made with a relatively long gap from theoretical prediction to experimental detection. This pattern continues the process of science from its earliest days, where early thinkers and researchers made discoveries that only led to more questions. Einstein was unique in many ways, but he was not unique in that later scientists, building on his and each other's work, would prove his theories. Evidence for black holes became more and more concrete as scientists developed new and better ways to look for them. Some of the most prominent have been Roger Penrose, who developed new mathematical models related to black holes, as well as Reinhard Genzel and Andrea Ghez, who independently used telescope observations to identify a region of our galaxy where a massive unseen gravity source (4 million times the size of our Sun) was pulling on stars. And soon after, collaborators on the Event Horizon Telescope project produced the first actual image of a black hole.
 
 The ideas presented in this section are but a glimpse into topics of modern
 physics that will be covered in much greater depth in later chapters.

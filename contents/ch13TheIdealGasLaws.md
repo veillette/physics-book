@@ -593,9 +593,9 @@ negligible.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Large helium-filled balloons are used to lift scientific equipment to high altitudes. (a) What is the pressure inside such a balloon if it starts out at sea level with a temperature of  $$ 10.0\text{ºC} $$
- and rises to an altitude where its volume is twenty times the original volume and its temperature is  $$ - 50.0\text{ºC} $$ ?
- (b) What is the gauge pressure? (Assume atmospheric pressure is constant.)
+To test a balloon, it is placed in a lab and filled with helium. The temperature of the helium is  $$ 10.0\text{ºC} $$  and the pressure is 1.00 atmosphere. The pressure in the lab is maintained. Assume the membrane of the balloon provides a negligible inward pressure, so it is not considered significant.(a) What is the pressure inside the balloon if the helium is replaced with helium that is at $$ - 50.0\text{ºC} $$ and the balloon is filled until its
+volume is twenty times the original volume?
+ (b) What is the gauge pressure? (Assume the pressure in the lab remains at 1.00 atmosphere during the experiment.)
 
 </div>
 </div>

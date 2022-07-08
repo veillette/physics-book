@@ -19,7 +19,10 @@ trace. Energy is thus one of a handful of physical quantities that we say is
 *conserved*.
 
 **Conservation of energy** (as physicists like to call the principle that energy
-can neither be created nor destroyed) is based on experiment. Even as scientists
+can neither be created nor destroyed) is based on experiment.
+For example, scientists Willem ’s Gravesande and Émilie du Châtelet undertook (separate) experiments where they dropped heavy lead balls into beds of clay. Du Châtelet showed that the balls that hit the clay with twice the velocity penetrated four times as deep into the clay; those with three times the velocity reached a depth nine times greater.
+This led her to develop a more accurate concept of energy conservation, 
+expressed as $$ E=\frac{1}{2} mv^2$$. Even as scientists
 discovered new forms of energy, conservation of energy has always been found to
 apply. Perhaps the most dramatic example of this was supplied by Einstein when
 he suggested that mass is equivalent to energy (his famous equation $$ E=mc^{2}

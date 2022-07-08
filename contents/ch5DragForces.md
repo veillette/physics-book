@@ -394,7 +394,7 @@ while a human could break a bone in such a fall?
 The terminal velocity of a person falling in air depends upon the weight and the
 area of the person facing the fluid. Find the terminal velocity (in meters per
 second and kilometers per hour) of an 80.0-kg skydiver falling in a pike
-(headfirst) position with a surface area of $$ 0.140 \mm $$.
+(headfirst) position with a cross section area of $$ 0.140 \mm $$.
 
 </div>
 <div class="solution"  markdown="1">
@@ -416,7 +416,7 @@ Assume all values are accurate to three significant digits.
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-A 560-g squirrel with a surface area of $$ 930 \text{cm}^{2} $$
+A 560-g squirrel with a cross section area  of $$ 930 \text{cm}^{2} $$
 falls from a 5.0-m tree to the ground. Estimate its terminal velocity. (Use a
 drag coefficient for a horizontal skydiver.) What will be the velocity of a
 56-kg person hitting the ground, assuming no drag contribution in such a short
@@ -459,7 +459,7 @@ By what factor does the drag force on a car increase as it goes from 65 to 110 k
 Calculate the speed a spherical rain drop would achieve falling from 5.00 km
 (a) in the absence of air drag
 (b) with air drag. Take the size across of the drop to be 4 mm, the density to be
-$$ 1.00\times 10^{3}{\text{kg/m}}^{3} $$, and the surface area to be $$ \pi r^{2} $$.
+$$ 1.00\times 10^{3}{\text{kg/m}}^{3} $$, and the cross section area to be $$ \pi r^{2} $$.
 
 </div>
 </div>

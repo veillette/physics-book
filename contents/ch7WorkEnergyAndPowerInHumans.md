@@ -239,7 +239,7 @@ the 7.27-kg shot from rest to 14.0 m/s, while raising it 0.800 m. (Do not includ
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) What is the efficiency of an out-of-condition professor who does $$ 2.10\times 10^{5} \J $$ of useful work while metabolizing 500 kcal of food energy?
+(a) What is the efficiency of an out-of-condition person who does $$ 2.10\times 10^{5} \J $$ of useful work while metabolizing 500 kcal of food energy?
 (b) How many food calories would a well-conditioned athlete metabolize in doing the same work with
 an efficiency of 20%?
 
