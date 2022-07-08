@@ -14,6 +14,8 @@ why this is not true. In 1905 Albert Einstein developed the theory of special
 relativity. This theory explains the limit on an object’s speed and describes
 the consequences.
 
+Relativity does not only apply to far-reaching and (as yet) unrealized activities like human interstellar travel. It affects everyday life in the form of communication, global trade, and even medicine. For example, Global Positioning Systems, which drive everything from airplane navigation to smartphone maps, rely on signals captured by multiple orbiting satellites and highly accurate measurements of time. Every signal passing between satellites, towers, and devices must be precisely measured and account for the relativistic effect of curved space and time dilation (discussed below). Variations in Earth’s landscape, its non-spherical shape, and the effects of gravity must also be considered in order to obtain accurate measurements. One of the most important contributors to these systems was Gladys West, a computer scientist and mathematician working at the Naval Proving Ground, where GPS and related technologies were advanced. West had previously developed altimeter models and managed the world’s first satellite-based ocean mapping project (Seastat). She then developed and programmed the algorithms capable of calculating positions and Earth’s shape to sufficient precisions to enable the existence of GPS. In these calculations, she accounted for the impacts of relativity and other complex principles related to it.
+
 **Relativity**. The word **relativity** might conjure an image of Einstein, but
 the idea did not begin with him. People have been exploring relativity for many
 centuries. Relativity is the study of how different observers measure the same

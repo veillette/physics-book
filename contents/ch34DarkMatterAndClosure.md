@@ -27,17 +27,16 @@ universe, but whether there is enough is still unknown.
 ### Evidence
 
 The first clues that there is more matter than meets the eye came from the
-Swiss-born American astronomer Fritz Zwicky in the 1930s; some initial work was
-also done by the American astronomer Vera Rubin. Zwicky measured the velocities
+Swiss-born American astronomer Fritz Zwicky in the 1930s;
+major work was also done by the American astronomer Vera Rubin. Zwicky measured the velocities
 of stars orbiting the galaxy, using the relativistic Doppler shift of their
 spectra (see [[Figure 1]](#Figure1)(a)). He found that velocity varied with
 distance from the center of the galaxy, as graphed in [[Figure 1]](#Figure1)(b).
 If the mass of the galaxy was concentrated in its center, as are its luminous
 stars, the velocities should decrease as the square root of the distance from
 the center. Instead, the velocity curve is almost flat, implying that there is a
-tremendous amount of matter in the galactic halo. Although not immediately
-recognized for its significance, such measurements have now been made for many
-galaxies, with similar results. Further, studies of galactic clusters have also
+tremendous amount of matter in the galactic halo.
+Using instruments and methods that offered a greater degree of precision, Rubin investigated the movement of spiral galaxies and observed that their outermost reaches were rotating as quickly as their centers. She also calculated that the rotational velocity of galaxies should have been enough to cause them to fly apart, unless there was a significant discrepancy between their observable matter and their actual matter. This became known as the galaxy rotation problem, which can be "solved" by the presence of unobserved or dark matter. Although not immediately recognized for its significance, such measurements have now been made for many galaxies, with similar results. Further, studies of galactic clusters have also
 indicated that galaxies have a mass distribution greater than that obtained from
 their brightness (proportional to the number of stars), which also extends into
 large halos surrounding the luminous parts of galaxies. Observations of other EM

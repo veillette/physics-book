@@ -62,6 +62,9 @@ in vacuum and $$n $$ is the index of refraction), constructive or destructive
 interference occurs, depending also on whether there is a phase change in either
 ray.
 
+Thin-film interference has created an entire field of research and industrial applications. Its foundations were laid by Irving Langmuir and Katharine Burr Blodgett, working at General Electric in the 1920s and 1930s. Langmuir had pioneered a method for producing ultra-thin layers on materials. Blodgett built on these practices by creating a method to precisely stack and compress these layers in order to produce a film of a desired thickness and quality. The device they developed became known as the Langmuir-Blodgett trough, built from principles developed by Agnes Pockels and still used in laboratories today. The earliest widely applied use of these principles was non-reflective glass, which Blodgett patented in 1938 and which was used almost immediately in the making of 
+the film *Gone With the Wind*. The film is viewed as a tremendous leap in cinematography; cameras, microscopes, telescopes, and many other instruments rely on Blodgett's invention as well.
+
 <div id="Example1" class="example" markdown="1">
 <div class="title">
 Calculating Non-reflective Lens Coating Using Thin Film Interference

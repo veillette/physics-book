@@ -298,7 +298,8 @@ Tollbooth stations on roadways and bridges usually have a piece of wire stuck in
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Suppose a woman carries an excess charge. To maintain her charged status can she be standing on ground wearing just any pair of shoes? How would you discharge her? What are the consequences if she simply walks away?
+Suppose a person carries an excess charge. To maintain their charged status can they be standing on ground wearing just any pair of shoes? How would you discharge them? What are 
+the consequences if they simply walks away?
 
 </div>
 </div>

@@ -61,11 +61,7 @@ fact, almost everything around you can be described quite accurately by the laws
 of physics. Consider a smartphone ([Figure 2](#Figure2)). Physics describes how
 electricity interacts with the various circuits inside the device. This
 knowledge helps engineers select the appropriate materials and circuit layout
-when building the smartphone. Next, consider a GPS system. Physics describes
-the relationship between the speed of an object, the distance over which it
-travels, and the time it takes to travel that distance. When you use a GPS
-device in a vehicle, it utilizes these physics equations to determine the travel
-time from one location to another.
+when building the smartphone. Next, consider a GPS system. Physics describes the relationship between the speed of an object, the distance over which it travels, and the time it takes to travel that distance. GPS relies on precise calculations that account for variations in the Earth's landscapes, the exact distance between orbiting satellites, and even the effect of a complex occurrence of time dilation. Most of these calculations are founded on algorithms developed by Gladys West, a mathematician and computer scientist who programmed the first computers capable of highly accurate remote sensing and positioning. When you use a GPS device, it utilizes these algorithms to recognize where you are and how your position relates to other objects on Earth.
 
 ![A topographical map of a location is shown on an iPhone with some information about the location using the G P S system.](../resources/Figure_01_01_02_aa.jpg "The Apple &#x201C;iPhone&#x201D; is a common smart phone with a GPS function. Physics describes the way that electricity flows through the circuits of this device. Engineers use their knowledge of physics to construct an iPhone with features that consumers will enjoy. One specific feature of an iPhone is the GPS function. GPS uses physics equations to determine the driving time between two locations on a map. (credit: @gletham GIS, Social, Mobile Tech Images) ")
 {: #Figure2 height="250"}
@@ -226,6 +222,8 @@ sublime for the insights gained.
 <div class="title">
 The Scientific Method
 </div>
+Ibn al-Haytham (sometimes referred to as Alhazen), a 10th-11th century scientist working in Cairo, significantly advanced the understanding of optics and vision. But his contributions go much further. In demonstrating that previous approaches were incorrect, he emphasized that scientists must be ready to reject existing knowledge and become "the enemy" of everything they read; he expressed that scientists must trust only objective evidence. Al-Haytham emphasized repeated experimentation and validation, and acknowledged that senses and predisposition could lead to poor conclusions. His work was a precursor to the scientific method that we use today.
+
 As scientists inquire and gather information about the world, they follow a 
 process called the **scientific method**.
 This process typically begins with an observation and question that the scientist

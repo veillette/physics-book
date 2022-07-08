@@ -52,6 +52,8 @@ coming from a free charge, as on a DNA molecule. This results in a reduction in
 the strength of the **Coulomb interaction**. One might say that screening makes
 the Coulomb force a short range force rather than long range.
 
+#### Cell Membranes
+
 Other ions of importance in biology that can reduce or screen Coulomb
 interactions are $${\text{Na}}^{+}\text{,} $$ and $${\text{K}}^{+}\text{,} $$
 and $${\text{Cl}}^{-} $$ . These ions are located both inside and outside of
@@ -67,6 +69,16 @@ cells (as motors).
 
 ![Molecular structure of two water molecules is shown. Oxygen atom of one water molecule has minus delta on it and the Hydrogen atom of other water molecule has a positive delta charge on it. The force on attraction between these two atoms is shown as dotted line.](../resources/Figure_18_06_03a.jpg "This schematic shows water ( \( \text{H}_2 \text{O} \) ) as a polar molecule. Unequal sharing of electrons between the oxygen ( \( \text{O} \) ) and hydrogen ( \( \text{H} \) ) atoms leads to a net separation of positive and negative charge&#x2014;forming a dipole. The symbols \( \delta^{-} \) and \( \delta^{+} \) indicate that the oxygen side of the \( \text{H}_2 \text{O} \) molecule tends to be more negative, while the hydrogen ends tend to be more positive. This leads to an attraction of opposite charges between molecules.")
 {: #Figure2}
+
+You are likely familiar with the role of electrical signals in nerve conduction and the importance of charges in cardiac and related activity. Changes in electrical properties are also essential in core biological processes. Ernest Everett Just, whose expertise in understanding and handling egg cells led to a number of critical experimental discoveries, investigated the role of the cell membrane in reproductive fertilization. In one key experiment, Just established that the egg membrane undergoes a depolarizing "wave of negativity" the moment it fuses with a sperm cell. This change in charge is now known as the "fast block" that ensures that only one sperm cell fuses with an egg cell and is critical for embryonic development.
+
+#### Bioelectricity and Wound Healing
+
+Just as electrical forces drive activities in healthy cells and systems, they are also critical in damaged ones. Scientists have long known that injuries or infections are managed by the body through various responses, including increased white blood cell concentrations, swelling, and tissue repair. For example, human cells damaged by wounds heal through a complex process. But what triggers it?
+
+Physicists and biologists working together at Vanderbilt University used an ultra-precise laser to uncover the processes organisms use to repair damage. Lead researchers Andrea Page-Degraw and Shane Hutson and study author Erica Shannon discovered that immediately upon damage, cells release calcium ions and eventually other molecules, driving an electrochemical response that initiates the healing process. Shannon notes that different types of damage lead to different chemical releases, demonstrating how organisms may initiate specific responses to best address the injury.
+
+While far more research is required to understand the triggering and response method, other research indicates that bioelectricity is highly involved in wound healing. Several studies have indicated that precise and low-level electrical stimulation of wounds (such as those from surgeries) leads to faster healing. While the mechanisms are not fully understood, electrical stimulation is a growing area of research and practice in medicine.
 
 ### Section Summary
 

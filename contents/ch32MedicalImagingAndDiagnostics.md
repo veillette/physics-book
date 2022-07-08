@@ -8,6 +8,8 @@ layout: page
 * Describe the SPECT and PET imaging techniques.
 </div>
 
+Most medical and related applications of nuclear physics are driven, at their core, by the difference between a radioactive substance and a non-radioactive substance. One of the first such methods is the precision measurement and detection method known as radioimmunoassay (RIA). Developed by Rosalyn Sussman Yalow and Solomon Berson in the late 1950s, RIA relies on the principle of competitive binding. For the particular substance being measured, a sample containing a radioactive isotope is prepared. A known quantity of antibodies is then introduced. By measuring the amount of "unbound" antibodies after the reaction, technicians can detect and measure the precise amount of the target substance. Radioimmunoassay is essential in cancer screening, hepatitis diagnosis, narcotics investigation, and other analyses.
+
 A host of medical imaging techniques employ nuclear radiation. What makes
 nuclear radiation so useful? First, $$\gamma $$ radiation can easily penetrate
 tissue; hence, it is a useful probe to monitor conditions inside the body.

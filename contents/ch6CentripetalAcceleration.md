@@ -406,37 +406,31 @@ cling to the rim?
 Riders in an amusement park ride shaped like a Viking ship hung from a large
 pivot are rotated back and forth like a rigid pendulum. Sometime near the middle
 of the ride, the ship is momentarily motionless at the top of its circular arc.
-The ship then swings down under the influence of gravity.
+The ship then swings down under the influence of gravity. The speed at the bottom of the arc is 16.6 m/s.
 
-(a) Assuming negligible friction, find the speed of the riders at the bottom of
-its arc, given the system's center of mass travels in an arc having a radius of
-14.0 m and the riders are near the center of mass.
+(a) What is the centripetal acceleration at the bottom of the arc?
 
-(b) What is the centripetal acceleration at the bottom of the arc?
-
-(c) Draw a free body diagram of the forces acting on a rider at the bottom of
+(b) Draw a free body diagram of the forces acting on a rider at the bottom of
 the arc.
 
-(d) Find the force exerted by the ride on a 60.0 kg rider and compare it to her
+(c) Find the force exerted by the ride on a 60.0 kg rider and compare it to their
 weight.
 
-(e) Discuss whether the answer seems reasonable.
+(d) Discuss whether the answer seems reasonable.
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 16.6 \ms $$
+(a) $$ 19.6 \mss $$
 
-(b) $$ 19.6 \mss $$
-
-(c)
+(b)
 
 ![A rectangle with a base longer than the height. A vertical line with arrowheads on both ends passes through the rectangle, bisecting the horizontal sides. The top of the arrow is labeled N, and the bottom is labeled w.](../resources/Figure_06_02_03a.jpg)
 {: #Figure3}
 
-(d) $$ 1.76\times 10^{3}\N $$ or $$ 3.00 \text{w} $$, that is, the normal
-force (upward) is three times her weight.
+(c) $$ 1.76\times 10^{3}\N $$ or $$ 3.00 \text{w} $$, that is, the normal
+force (upward) is three times their weight.
 
-(e) This answer seems reasonable, since she feels like she’s being forced into
+(d) This answer seems reasonable, since they feel like they are being forced into
 the chair MUCH stronger than just by gravity.
 
 </div>

@@ -282,7 +282,7 @@ medical diagnostics and athletic training. (See [[Figure 6]](#Figure6).)
 
 </div>
 
-![The weight of a person can be determined while submerged in a fat tank. Based on this, the percentage of body weight can be calculated.](../resources/Figure_11_07_06a.jpg "Subject in a &#x201C;fat tank,&#x201D; where he is weighed while completely submerged as part of a body density determination. The subject must completely empty his lungs and hold a metal weight in order to sink. Corrections are made for the residual air in his lungs (measured separately) and the metal weight. His corrected submerged weight, his weight in air, and pinch tests of strategic fatty areas are used to calculate his percent body fat.")
+![The weight of a person can be determined while submerged in a fat tank. Based on this, the percentage of body weight can be calculated.](../resources/Figure_11_07_06a.jpg "Subject in a hydrostatis weighing device, where they are weighed while completely submerged as part of a body density determination. The subject must completely empty their lungs and hold a metal weight in order to sink. Corrections are made for the residual air in their lungs (measured separately) and the metal weight. Their corrected submerged weight, their weight in air, and pinch tests of strategic fatty areas are used to calculate the percent body fat.")
 {: #Figure6}
 
 There are many obvious examples of lower-density objects or substances floating

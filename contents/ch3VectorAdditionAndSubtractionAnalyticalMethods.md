@@ -584,10 +584,10 @@ west of north
 
 <div class="exercise"  data-element-type="problems-exercises">
 <div class="problem"  markdown="1">
-A farmer wants to fence off his four-sided plot of flat land.
-He measures the first three sides, shown as $$ \vb{A}, $$
-$$ \vb{B}, $$ and $$ \vb{C} $$ in [Figure 15](#Figure15), and then correctly calculates the length and orientation of the fourth side $$
-\vb{D} $$. What is his result?
+A farmer wants to fence off their four-sided plot of flat land.
+They measure the first three sides, shown as $$ \vb{A}, $$
+$$ \vb{B}, $$ and $$ \vb{C} $$ in [Figure 15](#Figure15), and then correctly calculate the length and orientation of the fourth side $$
+\vb{D} $$. What is their result?
 
 ![A quadrilateral with sides A, B, C, and D. A begins at the end of D and is 4 point seven zero kilometers  at an angle of 7 point 5 degrees south of west. B begins at the end of A and is 2 point four eight kilometers in a direction sixteen degrees west of north. C begins at the end of B and is 3 point zero 2 kilometers in a direction nineteen degrees north of west. D begins at the end of C and runs distance and direction that must be calculated](../resources/Figure_03_03_12a.jpg)
 {: #Figure15}
