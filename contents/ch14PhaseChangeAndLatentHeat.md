@@ -399,6 +399,7 @@ place and then to apply the appropriate equation. Keep in mind that heat
 transfer and work can cause both temperature and phase changes.
 
 ### Problem-Solving Strategies for the Effects of Heat Transfer
+{: #Note1}
 
 1. *Examine the situation to determine that there is a change in the temperature
    or phase. Is there heat transfer into or out of the system?* When the
@@ -709,7 +710,8 @@ b)  $$2.00\text{ºC} $$
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A 0.250-kg aluminum bowl holding 0.800 kg of soup at  $$ 25.0\text{ºC} $$
- is placed in a freezer. What is the final temperature if 377 kJ of energy is transferred from the bowl and soup, assuming the soup’s thermal properties are the same as that of water? Explicitly show how you follow the steps in [ Problem-Solving Strategies for the Effects of Heat Transfer](#fs-id1844931).
+ is placed in a freezer. What is the final temperature if 377 kJ of energy is transferred from the bowl and soup, assuming the soup’s thermal properties are the same as that of water? 
+Explicitly show how you follow the steps in [ Problem-Solving Strategies for the Effects of Heat Transfer](#Note1).
 
 </div>
 </div>
@@ -751,7 +753,8 @@ Indigenous people sometimes cook in watertight baskets by placing hot rocks into
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What would be the final temperature of the pan and water in [Calculating the Final Temperature When Heat Is Transferred Between Two Bodies: Pouring Cold Water in a Hot Pan](../contents/ch14PhaseChangeAndLatentHeat#fs-id2604602) if 0.260 kg of water was placed in the pan and 0.0100 kg of the water evaporated immediately, leaving the remainder to come to a common temperature with the pan?
+What would be the final temperature of the pan and water in [Calculating the Final Temperature When Heat Is Transferred
+Between Two Bodies: Pouring Cold Water in a Hot Pan](../contents/ch14TemperatureChangeAndHeatCapacity#Example3) if 0.260 kg of water was placed in the pan and 0.0100 kg of the water evaporated immediately, leaving the remainder to come to a common temperature with the pan?
 
 </div>
 </div>

@@ -393,14 +393,16 @@ Apply the loop rule to loop akledcba in [[Figure 8]](#Figure8).
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the currents flowing in the circuit in [[Figure 8]](#Figure8). Explicitly show how you follow the steps in the [Problem-Solving Strategies for Series and Parallel Resistors](../contents/ch21ResistorsInSeriesAndInParallel#fs-id2401854).
+Find the currents flowing in the circuit in [[Figure 8]](#Figure8). Explicitly show how you follow the steps in 
+the [Problem-Solving Strategies for Series and Parallel Resistors](../contents/ch21ResistorsInSeriesAndInParallel#Note1).
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Solve [[Example 1]](#Example1), but use loop abcdefgha instead of loop akledcba. Explicitly show how you follow the steps in the [Problem-Solving Strategies for Series and Parallel Resistors](../contents/ch21ResistorsInSeriesAndInParallel#fs-id2401854).
+Solve [[Example 1]](#Example1), but use loop abcdefgha instead of loop akledcba. Explicitly show how you follow the 
+steps in the [Problem-Solving Strategies for Series and Parallel Resistors](../contents/ch21ResistorsInSeriesAndInParallel#Note1).
 
 </div>
 <div class="solution" markdown="1">

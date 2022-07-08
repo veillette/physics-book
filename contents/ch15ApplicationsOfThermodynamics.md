@@ -227,7 +227,7 @@ where $${Q}_{\text{c}} $$ is the amount of heat transfer from a cold environment
 in British thermal units, $${t}_{1} $$ is time in hours, $$W $$ is the work
 input in joules, and $${t}_{2} $$ is time in seconds.
 
-<div class="note" id="PS1" data-has-label="true" data-label="" markdown="1">
+<div class="note" id="Note1" data-has-label="true" data-label="" markdown="1">
 <div class="title">
 Problem-Solving Strategies for Thermodynamics
 </div>
@@ -331,7 +331,8 @@ What is the best coefficient of performance possible for a hypothetical refriger
 <div class="problem" markdown="1">
 In a very mild winter climate, a heat pump has heat transfer from an environment at  $$ 5.00\text{ºC} $$
  to one at  $$ 35.0\text{ºC} $$ .
- What is the best possible coefficient of performance for these temperatures? Explicitly show how you follow the steps in the [Problem-Solving Strategies for Thermodynamics](#fs-id1169738116696).
+ What is the best possible coefficient of performance for these temperatures? Explicitly show how you follow the steps
+in the [Problem-Solving Strategies for Thermodynamics](#Note1).
 
 </div>
 </div>

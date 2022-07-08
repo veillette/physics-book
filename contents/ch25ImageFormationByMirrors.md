@@ -353,13 +353,14 @@ Find a flashlight and identify the curved mirror used in it. Find another flashl
 
 </div>
 
-### Problem-Solving Strategy for Mirrors
+### Problem-Solving Strategy for Mirrors 
+{: #Note1}
 
 Step 1. Examine the situation to determine that image formation by a mirror is
 involved.
 
 Step 2. Refer to
-the [Problem-Solving Strategies for Lenses](../contents/ch25ImageFormationByLenses#fs-id2212849). The same
+the [Problem-Solving Strategies for Lenses](../contents/ch25ImageFormationByLenses#Note1). The same
 strategies are valid for mirrors as for lenses with one qualification—use the
 ray tracing rules for mirrors listed earlier in this section.
 
@@ -509,7 +510,8 @@ Find the magnification of the heater element in [[Example 1]](#Example1). Note t
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What is the focal length of a makeup mirror that produces a magnification of 1.50 when a person’s face is 12.0 cm away? Explicitly show how you follow the steps in the [Problem-Solving Strategy for Mirrors](#fs-id2757582).
+What is the focal length of a makeup mirror that produces a magnification of 1.50 when a person’s face is 12.0 cm away?
+Explicitly show how you follow the steps in the [Problem-Solving Strategy for Mirrors](#Note1).
 
 </div>
 <div class="solution" markdown="1">
@@ -520,7 +522,8 @@ What is the focal length of a makeup mirror that produces a magnification of 1.5
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A shopper standing 3.00 m from a convex security mirror sees his image with a magnification of 0.250. (a) Where is his image? (b) What is the focal length of the mirror? (c) What is its radius of curvature? Explicitly show how you follow the steps in the [Problem-Solving Strategy for Mirrors](#fs-id2757582).
+A shopper standing 3.00 m from a convex security mirror sees his image with a magnification of 0.250. (a) Where is his image? (b) What is the focal length of the mirror? (c) What is its radius of curvature? 
+Explicitly show how you follow the steps in the [Problem-Solving Strategy for Mirrors](#Note1).
 
 </div>
 </div>

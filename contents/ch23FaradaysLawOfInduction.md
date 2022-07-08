@@ -38,7 +38,7 @@ See [[Figure 1]](#Figure1).)
 ![Part a of the figure shows a bar magnet held horizontal and moved into a coil held in the same plane. The magnet is moved in such a way that the north pole of the magnet is shown to face the coil. The magnetic lines of force are shown to emerge out from the North Pole. The magnetic field associated with the bar magnet is given as B mag. The strength of the magnetic field increases in the coil. The current induced in the coil I creates another field B coil, in the opposite direction of the bar magnet to oppose the increase. So B mag and B coil are in opposite directions. In part b of the diagram, the magnet is moved away from the coil. The magnet is moved in such a way that the north pole of the magnet is shown to face the coil. The magnetic lines of force are shown to emerge out from the North Pole. The magnetic field associated with the bar magnet is given as B mag. The current induced in the coil I creates another field B coil, in the same direction as the field of the bar magnet. So B mag and B coil are in same directions. Part c of the figure shows a bar magnet held horizontal and moved into a coil held in the same plane. The magnet is moved in such a way that the south pole of the magnet is shown to face the coil. The magnetic lines of force are shown to merge into the South Pole. The magnetic field associated with the bar magnet is given as B mag. The current induced in the coil I, creates another field B coil, in the opposite direction of field of the bar magnet. So B mag and B coil are in opposite directions.](../resources/Figure_23_02_01.jpg "(a) When this bar magnet is thrust into the coil, the strength of the magnetic field increases in the coil. The current induced in the coil creates another field, in the opposite direction of the bar magnet&#x2019;s to oppose the increase. This is one aspect of Lenz&#x2019;s law&#x2014;induction opposes any change in flux. (b) and (c) are two other situations. Verify for yourself that the direction of the induced \( B_\text{coil} \) shown indeed opposes the change in flux and that the current direction shown is consistent with RHR-2. ")
 {: #Figure1}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" id="Note1" data-has-label="true" data-label="" markdown="1">
 <div class="title">
 Problem-Solving Strategy for Lenz’s Law
 </div>
@@ -236,7 +236,11 @@ A particle accelerator sends high-velocity charged particles down an evacuated p
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Referring to [[Figure 4]](#Figure4)(a), what is the direction of the current induced in coil 2: (a) If the current in coil 1 increases? (b) If the current in coil 1 decreases? (c) If the current in coil 1 is constant? Explicitly show how you follow the steps in the [Problem-Solving Strategy for Lenz's Law](#fs-id1169738211904).
+Referring to [[Figure 4]](#Figure4)(a), what is the direction of the current induced in coil 2: 
+(a) If the current in coil 1 increases? 
+(b) If the current in coil 1 decreases? 
+(c) If the current in coil 1 is constant? 
+Explicitly show how you follow the steps in the [Problem-Solving Strategy for Lenz's Law](#Note1).
 
 ![Part a of the diagram shows two single loop coils. Coil one and coil two are held vertically. Coil one has a current I in anti clockwise direction. Part b of the diagram shows a wire held vertical with a current flowing in upward direction. There is a single loop coil next to it held vertically.](../resources/Figure_23_02_04.jpg "(a) The coils lie in the same plane. (b) The wire is in the plane of the coil ")
 {: #Figure4}
@@ -254,7 +258,8 @@ Referring to [[Figure 4]](#Figure4)(a), what is the direction of the current ind
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Referring to [[Figure 3]](#Figure3)(b), what is the direction of the current induced in the coil: (a) If the current in the wire increases? (b) If the current in the wire decreases? (c) If the current in the wire suddenly changes direction? Explicitly show how you follow the steps in the [Problem-Solving Strategy for Lenz’s Law](#fs-id1169738211904).
+Referring to [[Figure 3]](#Figure3)(b), what is the direction of the current induced in the coil: (a) If the current in the wire increases? (b) If the current in the wire decreases? (c) If the current in the wire suddenly changes direction?
+Explicitly show how you follow the steps in the [Problem-Solving Strategy for Lenz’s Law](#Note1).
 
 </div>
 </div>

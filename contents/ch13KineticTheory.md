@@ -28,7 +28,7 @@ time, we observe an average force per unit area. These collisions are the source
 of pressure in a gas. As the number of molecules increases, the number of
 collisions and thus the pressure increase. Similarly, the gas pressure is higher
 if the average velocity of molecules is higher. The actual relationship is
-derived in the [Things Great and Small](#fs-id1855032) feature below. The
+derived in the [Things Great and Small](#Note1) feature below. The
 following relationship is found:
 
 <div class="equation" >
@@ -56,7 +56,7 @@ $$PV=\frac{1}{3}N m\overline{ {v}^{2}} $$ gives
  $$\frac{1}{3}N m\overline{ {v}^{2}}=Nk_{B}T. $$
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" id="Note1" data-has-label="true" data-label="" markdown="1">
 <div class="title">
 Making Connections: Things Great and Small—Atomic and Molecular Origin of Pressure in a Gas
 </div>

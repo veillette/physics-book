@@ -249,6 +249,7 @@ One feature of thin film interference and diffraction gratings is that the patte
 </div>
 
 ### Problem-Solving Strategies for Wave Optics
+{: #Note1}
 
 **Step 1.** *Examine the situation to determine that interference is involved*.
 Identify whether slits or thin film interference are considered in the problem.
@@ -412,7 +413,8 @@ on top of a plastic cutting board has a thickness of 233 nm. What color is most 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 What are the three smallest non-zero thicknesses of soapy water ( $$n=1.33 $$ ) 
-on Plexiglas if it appears green (constructively reflecting 520-nm light) when illuminated perpendicularly by white light? Explicitly show how you follow the steps in [Problem Solving Strategies for Wave Optics](#fs-id1169737988256).
+on Plexiglas if it appears green (constructively reflecting 520-nm light) when illuminated perpendicularly by white light? Explicitly show how you follow 
+the steps in [Problem-Solving Strategies for Wave Optics](#Note1).
 
 </div>
 </div>

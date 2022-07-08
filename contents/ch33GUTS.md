@@ -20,7 +20,7 @@ nuclear force has been shown to be connected to the electromagnetic force in a
 manner suggesting that a theory may be constructed in which all four forces are
 unified. Certainly, there are similarities in how forces are transmitted by the
 exchange of carrier particles, and the carrier particles themselves (the gauge
-bosons in [[link]](../contents/ch33ParticlesPatternsAndConservationLaws#Table1)) are also similar in important ways. The
+bosons in [[Table 1]](../contents/ch33ParticlesPatternsAndConservationLaws#Table1)) are also similar in important ways. The
 analogy to the unification of electric and magnetic forces is quite good—the
 four forces are distinct under normal circumstances, but there are hints of
 connections even on the atomic scale, and there may be conditions under which
@@ -47,7 +47,7 @@ was predicted to be $$90 \text{GeV/}{c}^{2} $$ .
 \text{GeV/}{c}^{2} $$ , since the range of the weak force is about 1000 times
 less than the strong force carried by virtual pions.) In 1983, these carrier
 particles were observed at CERN with the predicted characteristics, including
-masses having the predicted values as seen in [[link]](../contents/ch33ParticlesPatternsAndConservationLaws#Table1). This was
+masses having the predicted values as seen in [[Table 1]](../contents/ch33ParticlesPatternsAndConservationLaws#Table1). This was
 another triumph of particle theory and experimental effort, resulting in the
 1984 Nobel Prize to the experiment’s group leaders Carlo Rubbia and Simon van
 der Meer. Theorists Weinberg, Glashow, and Salam had already been honored with
