@@ -3,6 +3,7 @@ title: "Introduction to Wave Optics"
 layout: page
 ---    
 
+
 ![Katharine Burr Blodgett using equipment.](../resources/Figure_27_00_01.jpg "Katharine Burr Blodgett (1898–1979) was a physicist and chemist who made significant advancements in the study of surfaces and thin films. The trough she developed is still used in thousands of labs around the world, and her invention of non-reflective glass has had massive impact in cinema, medical, and scientific research arenas. (credit: Smithsonian Institution)")
 {: #Figure1}
 
