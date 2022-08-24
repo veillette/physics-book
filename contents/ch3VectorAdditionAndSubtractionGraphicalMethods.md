@@ -286,7 +286,7 @@ you multiply by -2, the magnitude doubles but the direction changes. We can
 summarize these rules in the following way: When vector $$ \vb{A} $$ is
 multiplied by a scalar $$ c $$,
 
-* the magnitude of the vector becomes the absolute value of $$| c A |$$,
+* the magnitude of the vector becomes the absolute value of $$ |c| |\vb{A}| $$,
 * if $$ c $$ is positive, the direction of the vector does not change,
 * if $$ c $$ is negative, the direction is reversed.
 
