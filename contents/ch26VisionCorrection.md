@@ -168,6 +168,8 @@ contact and cornea acts as a lens. If the tear layer is thinner in the center
 than at the edges, it has a negative power, for example. Skilled optometrists
 will adjust the power of the contact to compensate.
 
+Other advances in vision correction demonstrate the interconnectedness and value of scientific research. In the 1980s, Donna Strickland and Gérard Mourou worked on ways to make small but powerful lasers. Up until that time, powerful lasers had to be quite large in order to function properly. Essentially, the intensity of the beam itself would modify the instrument’s ability to function and create too much heat to be practical. Strickland and Mourou used ultrashort laser pulses passed over a grating that modified the beam but retained its power. Chirped pulse amplification, as it became known, has been used to develop most of the highest-powered lasers in the world, but also some of the smallest and most common. Decades after their initial discovery, Strickland and Mourou were awarded the Nobel Prize for Physics (with Strickland becoming the third woman to receive the award) partly due to CPA’s pivotal role in the increasingly common practice of laser vision correction—an application neither planned during their initial research.
+
 **Laser vision correction** has progressed rapidly in the last few years. It is
 the latest and by far the most successful in a series of procedures that correct
 vision by reshaping the cornea. As noted at the beginning of this section, the
@@ -332,7 +334,7 @@ A young woman with normal distant vision has a 10.0% ability to accommodate (tha
 
 <div class="exercise"  data-element-type="problems-exercises">
 <div class="problem"  markdown="1">
-The far point of a myopic administrator is 50.0 cm. (a) What is the relaxed power of his eyes? (b) If he has the normal 8.00% ability to accommodate, what is the closest object he can see clearly?
+The far point of a myopic administrator is 50.0 cm. (a) What is the relaxed power of their eyes? (b) If they have the normal 8.00% ability to accommodate, what is the closest object they can see clearly?
 
 </div>
 </div>

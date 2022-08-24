@@ -270,10 +270,8 @@ ability to determine positions of individual atoms within materials. An electron
 microscope is shown in [[Figure 7]](#Figure7). We do not use our eyes to form
 images; rather images are recorded electronically and displayed on computers. In
 fact observing and saving images formed by optical microscopes on computers is
-now done routinely. Video recordings of what occurs in a microscope can be made
-for viewing by many people at later dates. Physics provides the science and
-tools needed to generate the sequence of time-lapse images of meiosis similar to
-the sequence sketched in [[Figure 8]](#Figure8).
+now done routinely. Video recordings of what occurs in a microscope can be made for viewing by many people at later dates. Advances in this powerful technology continue. In the 1990s, Pratibha L. Gai invented the environmental transmission electron microscope (ETEM), which was the first device capable of observing individual atoms in chemical reactions.
+
 
 ![Image depicts a man using scanning electron microscope.](../resources/Figure_26_04_07.jpg "An electron microscope has the capability to image individual atoms on a material. The microscope uses vacuum technology, sophisticated detectors and state of the art image processing software. (credit: Dave Pape)")
 {: #Figure7}

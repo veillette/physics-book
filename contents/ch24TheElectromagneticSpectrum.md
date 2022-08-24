@@ -589,6 +589,9 @@ absorbed by ozone ( $${\text{O}}_{3} $$ )
 molecules in the upper atmosphere. Consequently, 99% of the solar UV radiation
 reaching the Earth’s surface is UV-A.
 
+One of the first illustrations of UV light’s impact on Earth occurred during the Apollo 16 mission in 1972. The mission included the first astronomical images taken from the moon, using a compact and resilient Far Ultraviolet Camera/Spectrograph designed for moon use by scientist and inventor George Robert Carruthers. Designed to capture UV images without the obscuring effects of the Earth’s atmosphere, its most famous image was of the planet itself. Carruthers, who also trained the astronauts on the device’s use, mentioned afterward that “the most immediately obvious and spectacular results were really for the Earth observations, because this was the first time that the Earth had been photographed from a distance in ultraviolet (UV) light, so that you could see the full extent of the hydrogen atmosphere, the polar auroris and what we call the tropical airglow belt.”
+
+
 ### Human Exposure to UV Radiation
 
 It is largely exposure to UV-B that causes skin cancer. It is estimated that as
@@ -665,11 +668,7 @@ being transported down to the surface. The CFCs are relatively stable and will
 contribute to ozone depletion for years to come. CFCs are found in refrigerants,
 air conditioning systems, foams, and aerosols.
 
-International concern over this problem led to the establishment of the
-“Montreal Protocol” agreement (1987) to phase out CFC production in most
-countries. However, developing-country participation is needed if worldwide
-production and elimination of CFCs is to be achieved. Probably the largest
-contributor to CFC emissions today is India. But the protocol seems to be
+International concern over this problem led to the establishment of the “Montreal Protocol” agreement (1987) to phase out CFC production in most countries. However, developing-country participation is needed if worldwide production and elimination of CFCs is to be achieved. Probably the largest contributor to CFC emissions today is China. And while there are indicators that the Protocol has been a success, there is still substantial risk and variability in the ozone layer. The 2019 Antarctic ozone hole was small and short-lived, continuing the general trend toward recovery. But the 2020 Antarctic ozone hole was the largest and longest-lasting on record, partially due to atmospheric conditions. Furthermore, emissions are not the only concern. Susan Solomon and her colleagues at MIT have uncovered the substantial impact of CFC “banks,” in certain regions, where outdated and deteriorating equipment (such as air conditioners) or materials can release enough CFCs to be detectable in the atmosphere and deplete the ozone layer.  But the protocol seems to be
 working, as there are signs of an ozone recovery. (See [[Figure 9]](#Figure9).)
 
 ![The map shows the variation in concentration of ozone over Antarctica. The scale for the total ozone level is depicted below the graph in Dobson units. The values are marked in colors of spectrum with the lowest value is marked in violet and the maximum value in red. The Antarctica region is marked in violet showing lesser ozone concentration and more ultraviolet rays. The region around Antarctica is in green, showing slightly higher concentration of ozone.](../resources/Figure_24_03_12a.jpg "This map of ozone concentration over Antarctica in October 2011 shows severe depletion suspected to be caused by CFCs. Less dramatic but more general depletion has been observed over northern latitudes, suggesting the effect is global. With less ozone, more ultraviolet radiation from the Sun reaches the surface, causing more damage. (credit: NASA Ozone Watch)")
@@ -823,12 +822,7 @@ at airports.
 
 ### Detecting Electromagnetic Waves from Space
 
-A final note on star gazing. The entire electromagnetic spectrum is used by
-researchers for investigating stars, space, and time. As noted earlier, Penzias
-and Wilson detected microwaves to identify the background radiation originating
-from the Big Bang. Radio telescopes such as the Arecibo Radio Telescope in
-Puerto Rico and Parkes Observatory in Australia were designed to detect radio
-waves.
+The entire electromagnetic spectrum is used by researchers for investigating stars, space, and time. Arthur B. C. Walker was a pioneer in X-ray and ultraviolet observations, and designed specialized telescopes and instruments to observe the Sun’s atmosphere and corona. His developments significantly advanced our understanding of stars, and some of his developments are currently in use in space telescopes as well as in microchip manufacturing. As noted earlier, Penzias and Wilson detected microwaves to identify the background radiation originating from the Big Bang. Radio telescopes such as the Arecibo Radio Telescope in Puerto Rico and Parkes Observatory in Australia were designed to detect radio waves.
 
 Infrared telescopes need to have their detectors cooled by liquid nitrogen to be
 able to gather useful signals. Since infrared radiation is predominantly from
@@ -845,7 +839,7 @@ The Hubble Space Telescope (launched in 1990) gathers ultraviolet radiation as
 well as visible light. In the X-ray region, there is the Chandra X-ray
 Observatory (launched in 1999), and in the $$\gamma $$ -ray region, there is the
 new Fermi Gamma-ray Space Telescope (launched in 2008—taking the place of the
-Compton Gamma Ray Observatory, 1991–2000.).
+Compton Gamma Ray Observatory, 1991–2000.). The James Webb Space Telescope (JWST), launched in late 2021, observes in a lower-frequency portion of the spectrum compared to Hubble. The JWST observes in long-wavelength visible light (red) through infrared, enabling it to detect objects that are further away, older, and fainter than previous telescopes could detect.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">

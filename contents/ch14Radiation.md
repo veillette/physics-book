@@ -194,6 +194,8 @@ Re-radiation back to the Earth maintains its surface temperature about
 $$40\text{ºC} $$ higher than it would be if there was no atmosphere, similar to
 the way glass increases temperatures in a greenhouse.
 
+The greenhouse effect and its causes were first predicted by Eunice Newton Foote after she designed and conducted experiments on heating of different gases. After filling flasks with carbon dioxide, hydrogen, and regular air, then also modifying moisture, she placed them in the sun and carefully measured their heating and, especially, their heat retention. She discovered that the $${\text{CO}}_{2} $$  flask gained the most temperature and held it the longest. After subsequent research, her paper "Circumstances affecting the Heat of the Sun’s Rays" included conclusions that an atmosphere consisting of more carbon dioxide would be hotter resulting from the gas trapping radiation.
+
 ![A drawing of a portion of the Earth&#x2019;s surface is shown, with both ocean and continents visible. Different rays such as ultraviolet, visible, and infrared are shown penetrating the atmosphere and impinging on the Earth&#x2019;s surface. Infrared rays re-emitted by the Earth&#x2019;s surface are trapped by the atmosphere of the Earth and are scattered back to the Earth.](../resources/Figure_14_07_06a.jpg "The greenhouse effect is a name given to the trapping of energy in the Earth&#x2019;s atmosphere by a process similar to that used in greenhouses. The atmosphere, like window glass, is transparent to incoming visible radiation and most of the Sun&#x2019;s infrared. These wavelengths are absorbed by the Earth and re-emitted as infrared. Since Earth&#x2019;s temperature is much lower than that of the Sun, the infrared radiated by the Earth has a much longer wavelength. The atmosphere, like glass, traps these longer infrared rays, keeping the Earth warmer than it would otherwise be. The amount of trapping depends on concentrations of trace gases like carbon dioxide, and a change in the concentration of these gases is believed to affect the Earth&#x2019;s surface temperature.")
 {: #Figure6}
 
@@ -205,7 +207,7 @@ affecting agriculture), reduction in rain forest biodiversity, and rising sea
 levels.
 
 Heating and cooling are often significant contributors to energy use in
-individual homes. Current research efforts into developing environmentally
+individual homes. Mária Telkes, a Hungarian-born American scientist, was among the foremost developers of solar energy applications in industrial and community use. After inventing a widely deployed solar seawater distiller used on World War II life rafts, she partnered with architect Eleanor Raymond to design the first modern home to be completely heated by solar power. Air warmed on rooftop collectors transferred heat to salts, which stored the heat for later use. Telkes later worked with the Department of Energy to develop the first solar-electrically powered home. Current research efforts into developing environmentally
 friendly homes quite often focus on reducing conventional heating and cooling
 through better building materials, strategically positioning windows to optimize
 radiation gain from the Sun, and opening spaces to allow convection. It is

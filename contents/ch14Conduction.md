@@ -389,7 +389,7 @@ Calculate the rate of heat conduction out of the human body, assuming that the c
 <div class="problem" markdown="1">
 Suppose you stand with one foot on ceramic flooring and one foot on a wool carpet, making contact over an area of  $$ 80.0 {\text{cm}}^{2} $$
  with each foot. Both the ceramic and the carpet are 2.00 cm thick and are  $$10.0\text{ºC} $$
- on their bottom sides. At what rate must heat transfer occur from each foot to keep the top of the ceramic and carpet at  $$ 33.0\text{ºC} $$ ?
+ on their bottom sides. At what rate must heat transfer occur from each foot to keep the top of the ceramic and carpet at  $$ 33.0\text{ºC} $$ ? For ceramic, use the thermal conductivity for glass.
 
 </div>
 </div>
