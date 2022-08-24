@@ -7,10 +7,7 @@ layout: page
 * Explain the phenomenon of dispersion and discuss its advantages and disadvantages.
 </div>
 
-Everyone enjoys the spectacle of a rainbow glimmering against a dark stormy sky.
-How does sunlight falling on clear drops of rain get broken into the rainbow of
-colors we see? The same process causes white light to be broken into colors by a
-clear glass prism or a diamond. (See [[Figure 1]](#Figure1).)
+Everyone enjoys the spectacle and surprise of rainbows. They’ve been hailed as symbols of hope and spirituality and are the subject of stories and myths across the world’s cultures. Just how does sunlight falling on water droplets cause the multicolored image we see, and what else does this phenomenon tell us about light, color, and radiation? Working in his native Persia (now Iran), Kamal al-Din Hasan ibn Ali ibn Hasan al-Farisi (1267–1319) designed a series of innovative experiments to answer this question and clarify the explanations of many earlier scientists. At that time, there were no microscopes to examine tiny drops of water similar to those in the atmosphere, so Farisi created an enormous drop of water. He filled a large glass vessel with water and placed it inside a camera obscura, in which he could carefully control the entry of light. Using a series of careful observations on the resulting multicolored spectra of light, he deduced and confirmed that the droplets split—or decompose—white light into the colors of the rainbow. Farisi’s contemporary, Theodoric of Freiberg (in Germany), performed similar experiments using other equipment. Both relied on the prior work of Ibn al-Haytham, often known as the founder of optics and among the first to formalize a scientific method.
 
 ![Part a of this figure shows the colors produced by a rainbow. Part b shows the colors produced by a prism.](../resources/Figure_25_05_01.jpg "The colors of the rainbow (a) and those produced by a prism (b) are identical. (credit: Alfredo55, Wikimedia Commons; NASA)")
 {: #Figure1}

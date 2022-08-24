@@ -10,6 +10,8 @@ layout: page
 * Analyze the accommodation of the eye for distant and near vision.
 </div>
 
+Early thinkers had a wide array of theories regarding vision. Euclid and Ptolemy believed that the eyes emitted rays of light; others promoted the idea that objects gave off some particle or substance that was discerned by the eye. Ibn al-Haytham (sometimes called Alhazen), who was mentioned earlier as an originator of the scientific method, conducted a number of experiments to illustrate how the anatomical construction of the eye led to its ability to form images. He recognized that light reflected from objects entered the eye through the lens and was passed to the optic nerve. Al-Haytham did not fully understand the mechanisms involved, but many subsequent discoveries in vision, reflection, and magnification built on his discoveries and methods.
+
 The eye is perhaps the most interesting of all optical instruments. The eye is
 remarkable in how it forms images and in the richness of detail and color it can
 detect. However, our eyes commonly need some correction, to reach what is called
