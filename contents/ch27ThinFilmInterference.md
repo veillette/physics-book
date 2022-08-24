@@ -19,7 +19,7 @@ all interference depends in some way on the ratio of $$\lambda $$ to the size of
 the object involved, we should expect to see different colors for different
 thicknesses of a film, as in [[Figure 1]](#Figure1).
 
-![Soap bubbles reflecting mostly purple and blue light with some regions of orange.](../resources/Figure_27_00_02a.jpg "These soap bubbles exhibit brilliant colors when exposed to sunlight. (credit: Scott Robinson, Flickr)")
+![Soap bubbles reflecting mostly purple and blue light with some regions of orange.](../resources/Figure_27_00_03.jpg "These soap bubbles exhibit brilliant colors when exposed to sunlight. (credit: Scott Robinson, Flickr)")
 {: #Figure1}
 
 What causes thin film interference? [[Figure 2]](#Figure2) shows how light

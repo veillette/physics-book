@@ -58,7 +58,7 @@ there are sizeable strides being made in renewable energy. India has a rapidly
 growing wind energy base, and it has the largest solar cooking program in the
 world. China has invested substantially in building solar collection farms as well as hydroelectric plants.
 
-![A bar graph depicting world energy consumption is shown. The year is listed on the horizontal axis and energy consumed is listed on the vertical axis. Energy consumption by the world is shown for different years. Energy consumption rises over time. In the year nineteen hundred and ninety it was three hundred seventy three multiplied by ten to the power eighteen joules, and the projection is that it will become eight hundred twelve multiplied by ten to the power eighteen joules by the year twenty thirty five.](../resources/Figure_07_09_02a.jpg "Past and projected world energy use (source: Based on data from U.S. Energy Information Administration, 2011)")
+![A bar graph depicting world energy consumption is shown. The year is listed on the horizontal axis and energy consumed is listed on the vertical axis. Energy consumption by the world is shown for different years. Energy consumption rises over time. In the year nineteen hundred and ninety it was three hundred seventy three multiplied by ten to the power eighteen joules, and the projection is that it will become eight hundred twelve multiplied by ten to the power eighteen joules by the year twenty thirty five.](../resources/Figure_07_09_02a.jpg "Past and projected world energy use (source: Based on data from U.S. Energy Information Administration, 2021)")
 {: #Figure2}
 
 ![Solar cell arrays lined up in a field.](../resources/Figure_06_09_03.jpg "Solar cell arrays in Manchester, Vermont, USA (credit: MarkBuckawicki, Wikimedia)")
@@ -176,7 +176,7 @@ work
 in [Work, Energy, and Power in Humans](../contents/ch7WorkEnergyAndPowerInHumans.md)
 .
 
-![A woman is doing push-ups. Her weight w is acting on her center of gravity , shown by a vector pointing downwards. Her center of gravity  is zero point nine zero meters from her feet and reaction force F acting on her arms is shown by the vector pointing upward along her arms. The distance of reaction force from the feet is one point five zero meters.](../resources/Figure_07_09_06a.jpg "Forces involved in doing push-ups. The woman&#x2019;s weight acts as a force exerted downward on her center of gravity (CG).")
+![A woman is doing push-ups. Her weight w is acting on her center of gravity , shown by a vector pointing downwards. Her center of gravity  is zero point nine zero meters from her feet and reaction force F acting on her arms is shown by the vector pointing upward along her arms. The distance of reaction force from the feet is one point five zero meters.](../resources/Figure_07_09_05.jpg "Forces involved in doing push-ups. The woman&#x2019;s weight acts as a force exerted downward on her center of gravity (CG).")
 {: #Figure5}
 
 </div>
@@ -221,7 +221,7 @@ each 1.80 m long stroke.
 (c) Discuss whether water resistance seems to increase linearly with velocity.
 
 ![A person swimming and his arm motion in each stroke is represented. The arm action is shown by an arc starting from where his hand enters the surface of the water and ending at the point where his hand emerges from the water. The diameter of this arc made by the person&#x2019;s hand tip in one stroke is one point eight meters.](
-../resources/Figure_07_08_06a.jpg "A person swimming with a stroke of 1.80m")
+../resources/Figure_07_09_06.jpg "A person swimming with a stroke of 1.80m")
 {: #Figure6}
 
 

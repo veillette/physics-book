@@ -346,7 +346,7 @@ The swimmer shown in [Figure 6](#Figure6) exerts an average horizontal backward 
 (b) Calculate the power output of his arms if he does 120 strokes per minute.
 
 ![A person swimming and his arm motion in each stroke is represented. The arm action is shown by an arc starting from where his hand enters the surface of the water and ending at the point where his hand emerges from the water. The diameter of this arc made by the person&#x2019;s hand tip in one stroke is one point eight meters.](
-../resources/Figure_07_08_06a.jpg "A person swimming with a stroke of 1.80m")
+../resources/Figure_07_09_06.jpg "A person swimming with a stroke of 1.80m")
 {: #Figure6}
 
 </div>
@@ -388,7 +388,7 @@ day, assuming that the average worker required 3600 kcal per day and that their
 diet was 5% protein, 60% carbohydrate, and 35% fat. (These proportions neglect
 the mass of bulk and nondigestible materials consumed.)
 
-![A model of a step pyramid is shown with ramps along the sides of each step.](../resources/Figure_06_08_07.png "Ancient pyramids were probably constructed using ramps as simple machines. (credit: Franck Monnier, Wikimedia Commons)")
+![A model of a step pyramid is shown with ramps along the sides of each step.](../resources/Figure_07_08_07.png "Ancient pyramids were probably constructed using ramps as simple machines. (credit: Franck Monnier, Wikimedia Commons)")
 {: #Figure7}
 
 </div>
