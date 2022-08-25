@@ -285,17 +285,28 @@ Problem-Solving Strategies for the Methods of Heat Transfer
 where $$\sigma = 5.67 \times 10^{-8} \text{J/s}\cdot {\text{m}}^{2}\cdot
 {\text{K}}^{4} $$ is the Stefan-Boltzmann constant and $$e $$ is the emissivity
 of the body. For a black body, $$e=1 $$ whereas a shiny white or perfect
-reflector has $$e=0 $$ , with real objects having values of $$e $$ between 1 and
-
-0. The net rate of heat transfer by radiation is
+reflector has $$e=0 $$ , with real objects having values of $$e $$ between 1 and 0. The net rate of heat transfer by radiation is
 
   <div class="equation" >
    $$\frac{ {Q}_{\text{net}}}{t}=\sigma eA\left({T}_{2}^{4}-{T}_{1}^{4}\right) $$
   </div>
 
 where $${T}_{1} $$ is the temperature of an object surrounded by an environment
-with uniform temperature $${T}_{2} $$ and $$e $$ is the emissivity of the *
-object*.
+with uniform temperature $${T}_{2} $$ and $$e $$ is the emissivity of the *object*.
+
+<div class="note" data-label="PhET Exploration" markdown="1">
+<div class="title">
+ Describe what happens to the blackbody spectrum as you increase or decrease the temperature.
+</div>
+Explore the .
+
+<figure markdown="1">
+<figcaption>
+Blackbody Radiation
+</figcaption>
+<iframe loading="lazy" src="https://phet.colorado.edu/sims/html/blackbody-spectrum/latest/blackbody-spectrum_en.html" width="600" height="450"  allowfullscreen></iframe>
+</figure>
+</div>
 
 ### Conceptual Questions
 
