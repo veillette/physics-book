@@ -296,9 +296,9 @@ with uniform temperature $${T}_{2} $$ and $$e $$ is the emissivity of the *objec
 
 <div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
- Describe what happens to the blackbody spectrum as you increase or decrease the temperature.
+ Blackbody Radiation
 </div>
-Explore the .
+Describe what happens to the blackbody spectrum as you increase or decrease the temperature
 
 <figure markdown="1">
 <figcaption>
