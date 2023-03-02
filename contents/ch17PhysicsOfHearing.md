@@ -18,3 +18,7 @@ hearing. Both the physical phenomenon and its perception are interesting and
 will be considered in this text. We shall explore both sound and hearing; they
 are related, but are not the same thing. We will also explore the many practical
 uses of sound waves, such as in medical imaging.
+
+<div class="note" data-label="Video" markdown="1">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9YgcdK0qY8w"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

@@ -2,7 +2,7 @@
 title: "Introduction to Electromagnetic Induction, AC Circuits and Electrical
 Technologies"
 layout: page
----    
+---
 
 ![Wind turbine with three blades moored in shallow water.](../resources/Figure_22_00_01.jpg "These wind turbines in the Thames Estuary in the UK are an example of induction at work. Wind pushes the blades of the turbine, spinning a shaft attached to magnets. The magnets spin around a conductive coil, inducing an electric current in the coil, and eventually feeding the electrical grid. (credit: modification of work by Petr Kratochvil)")
 {: #Figure1}
@@ -39,6 +39,10 @@ transformers of every size, certain microphones, airport security gates, and
 damping mechanisms on sensitive chemical balances. Not so familiar perhaps, but
 important nevertheless, is that the behavior of AC circuits depends strongly on
 the effect of magnetic fields on currents.
+
+<div class="note" data-label="Video" markdown="1">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LGh-liBHPcs"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 <div class="glossary" markdown="1">
 ### Glossary

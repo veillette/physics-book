@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Electric Charge and Electric Field"
 layout: page
----    
+---
 
 ![A child swoops down a plastic playground slide, his hair standing on end.](../resources/Figure_18_00_01a_D.jpg "Static electricity from this plastic slide causes the child&#x2019;s hair to stand on end. The sliding motion stripped electrons away from the child&#x2019;s body, leaving an excess of positive charges, which repel each other along each strand of hair. (credit: Ken Bosma/Wikimedia Commons)")
 {: #Figure1}
@@ -60,6 +60,10 @@ level. The next several chapters will cover static electricity, moving
 electricity, and magnetism—collectively known as electromagnetism. In this
 chapter, we begin with the study of electric phenomena due to charges that are
 at least temporarily stationary, called electrostatics, or static electricity.
+
+<div class="note" data-label="Video" markdown="1">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SglzRDD1oNI"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 <div class="glossary" markdown="1">
 ### Glossary
