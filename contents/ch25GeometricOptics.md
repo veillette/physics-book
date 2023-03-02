@@ -45,3 +45,7 @@ call this part of optics “geometric optics.” This chapter will concentrate o
 such situations. When light interacts with smaller objects, it has very
 prominent wave characteristics, such as constructive and destructive
 interference. [Wave Optics](../contents/ch27WaveOptics) will concentrate on such situations.
+
+<div class="note" data-label="Video" markdown="1">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SOqdetf1Izg"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
