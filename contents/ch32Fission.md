@@ -295,7 +295,7 @@ Start a chain reaction, or introduce non-radioactive isotopes to prevent one. Co
 {: class="newline"}
 
 <div class="media"  data-alt="">
-<iframe width="860" height="671.4" src="https://archive.cnx.org/specials/01caf0d0-116f-11e6-b891-abfdaa77b03b/nuclear-fission/#sim-one-nucleus"></iframe>
+<iframe width="860" height="671.4" src="https://veillette.github.io/simulations/nuclear-fission/#sim-one-nucleus"></iframe>
 </div>
 </div>
 
