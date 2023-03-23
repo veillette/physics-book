@@ -73,7 +73,7 @@ WMake waves with a dripping faucet, audio speaker, or laser! Add a second source
 {: class="newline"}
 
 <div class="media"  data-alt="wave interference">
-<iframe width="660" height="371.4" src="https://archive.cnx.org/specials/2fe7ad15-b00e-4402-b068-ff503985a18f/wave-interference/"></iframe>
+<iframe width="660" height="371.4" src="https://veillette.github.io/simulations/wave-interference/"></iframe>
 </div>
 </div>
 

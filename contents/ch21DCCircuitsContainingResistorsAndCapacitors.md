@@ -308,7 +308,7 @@ An electronics kit in your computer! Build circuits with resistors, light bulbs,
 {: class="newline"}
 
 <div class="media"  data-alt="circuit construction kit">
-<iframe width="660" height="371.4" src="https://archive.cnx.org/specials/f23ce496-c9d1-11e5-bdc8-bb04dc1eecb6/circuit-construction-kit-dc-only/#sim-cck"></iframe>
+<iframe width="660" height="371.4" src="https://veillette.github.io/simulations/circuit-construction-kit-dc-only/#sim-cck"></iframe>
 </div>
 </div>
 

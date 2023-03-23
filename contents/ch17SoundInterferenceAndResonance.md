@@ -328,7 +328,7 @@ This simulation lets you see sound waves. Adjust the frequency or volume and you
 {: class="newline"}
 
 <div class="media"  data-alt="sound">
-<iframe width="660" height="371.4" src="https://archive.cnx.org/specials/c4d3b96e-41f3-11e5-ab7b-47e22dffc18e/sound/#sim-single-source"></iframe>
+<iframe width="660" height="371.4" src="https://veillette.github.io/simulations/sound/#sim-single-source"></iframe>
 </div>
 </div>
 

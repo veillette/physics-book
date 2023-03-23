@@ -144,7 +144,7 @@ Explore the interactions between a compass and bar magnet. Discover how you can 
 {: class="newline"}
 
 <div class="media"  data-alt="magnets and electromagnets">
-<iframe width="660" height="371.4" src="https://archive.cnx.org/specials/92176000-ae74-11e5-baad-cfab91c15075/magnets-and-electromagnets/#sim-bar-magnet"></iframe>
+<iframe width="660" height="371.4" src="https://veillette.github.io/simulations/magnets-and-electromagnets/#sim-bar-magnet"></iframe>
 </div>
 </div>
 

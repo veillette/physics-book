@@ -266,7 +266,7 @@ Build an atom out of protons, neutrons, and electrons, and see how the element, 
 {: class="newline"}
 
 <div class="media" id="PhET_module" data-alt="">
-<iframe width="860" height="671.4" src="https://archive.cnx.org/specials/f0a27b96-f5c8-11e5-a22c-73f8c149bebf/beta-decay/#sim-multiple-atoms"></iframe>
+<iframe width="860" height="671.4" src="https://veillette.github.io/simulations/beta-decay/#sim-multiple-atoms"></iframe>
 </div>
 </div>
 

@@ -216,7 +216,7 @@ PhET Explorations: Generator
 Generate electricity with a bar magnet! Discover the physics behind the phenomena by exploring magnets and how you can use them to make a bulb light.
 
 <div class="media" id="PhET_module" data-alt="Generator">
-<iframe width="660" height="371.4" src="https://archive.cnx.org/specials/1e9b7292-ae74-11e5-a9dc-c7c8521ba8e6/generator/#sim-generator"></iframe>
+<iframe width="660" height="371.4" src="https://veillette.github.io/simulations/generator/#sim-generator"></iframe>
 </div>
 </div>
 
