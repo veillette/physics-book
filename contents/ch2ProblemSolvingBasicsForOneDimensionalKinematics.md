@@ -104,7 +104,7 @@ Physics must describe nature accurately. Some problems have results that are
 unreasonable because one premise is unreasonable or because certain premises are
 inconsistent with one another. The physical principle applied correctly then
 produces an unreasonable result. For example, if a person starting a foot race
-accelerates at $$ 0.40 \mss $$ for 100 s, his final speed will be 40 m/s (about
+accelerates at $$ 0.40 \mss $$ for 100 s, their final speed will be 40 m/s (about
 150 km/h)—clearly unreasonable because the time of 100 s is an unreasonable
 premise. The physics is correct in a sense, but there is more to describing
 nature than just manipulating equations correctly. Checking the result of a
