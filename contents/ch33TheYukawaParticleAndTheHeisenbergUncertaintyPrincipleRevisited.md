@@ -11,9 +11,7 @@ layout: page
 * Explain meson.
 </div>
 
-Particle physics as we know it today began with the ideas of Hideki Yukawa in
-
-1935. Physicists had long been concerned with how forces are transmitted,
+Particle physics as we know it today began with the ideas of Hideki Yukawa in 1935. Physicists had long been concerned with how forces are transmitted,
       finding the concept of fields, such as electric and magnetic fields to be
       very useful. A field surrounds an object and carries the force exerted by
       the object through space. Yukawa was interested in the strong nuclear
