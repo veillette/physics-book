@@ -293,7 +293,7 @@ risk of a radiation-induced cancer death per year per rem of exposure is about
 10 in a million, which can be written as $$10/10^{6} \text{rem} \text{·}
 \text{y} $$.
 
-If a person receives a dose of 1 rem, his risk each year of dying from
+If a person receives a dose of 1 rem, their risk each year of dying from
 radiation-induced cancer is 10 in a million and that risk continues for about 30
 years. The lifetime risk is thus 300 in a million, or 0.03 percent. Since about
 20 percent of all worldwide deaths are from cancer, the increase due to a 1 rem
@@ -369,9 +369,7 @@ reproductive organs and the fetuses of pregnant women. Inadvertent doses to the
 public are limited to $$1/10 $$ of occupational doses, except for those caused
 by nuclear power, which cannot legally expose the public to more than $$1/1000
 $$ of the occupational limit or 0.05 mSv/y (5 mrem/y). This has been exceeded in
-the United States only at the time of the Three Mile Island (TMI) accident in
-
-1979. Chernobyl is another story. Extensive monitoring with a variety of
+the United States only at the time of the Three Mile Island (TMI) accident in 1979. Chernobyl is another story. Extensive monitoring with a variety of
       radiation detectors is performed to assure radiation safety. Increased
       ventilation in uranium mines has lowered the dose there to about 1 mSv/y.
 
