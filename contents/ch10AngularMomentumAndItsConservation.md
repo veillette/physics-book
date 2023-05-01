@@ -470,7 +470,7 @@ Yes, angular and linear momentums are completely analogous. While they are exact
 
 ### Section Summary
 
-* Every rotational phenomenon has a direct translational analog , likewise
+* Every rotational phenomenon has a direct translational analog, likewise
   angular momentum $$ L $$ can be defined as $$ L=I \omega. $$
 * This equation is an analog to the definition of linear momentum as $$ p=mv $$.
   The relationship between torque and angular momentum is $$ \text{net}\tau
