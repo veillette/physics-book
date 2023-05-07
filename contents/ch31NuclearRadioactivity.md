@@ -13,7 +13,7 @@ layout: page
 The discovery and study of nuclear radioactivity quickly revealed evidence of
 revolutionary new physics. In addition, uses for nuclear radiation also emerged
 quickly—for example, people such as Ernest Rutherford used it to determine the
-size of the nucleus and devices were painted with radon-doped paint to make them
+size of the nucleus and devices were painted with radium-doped paint to make them
 glow in the dark (see [[Figure 1]](#Figure1)). We therefore begin our study of
 nuclear physics with the discovery and basic features of nuclear radioactivity.
 
