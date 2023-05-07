@@ -363,7 +363,7 @@ Suppose a diving board with no one on it bounces up and down in a simple harmoni
 
 The device pictured in [[Figure 5]](#Figure5) entertains infants while keeping
 them from wandering. The child bounces in a harness suspended from a door frame
-by a spring constant.
+by a spring.
 
 (a) If the spring stretches 0.250 m while supporting an 8.0-kg child, what is
 its spring constant?
