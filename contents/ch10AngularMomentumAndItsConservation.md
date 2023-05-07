@@ -59,7 +59,7 @@ so that
 <div class="equation">
  $$ L=I\omega=\frac{2 MR^{2}\omega }{5}. $$
 </div>
-Earth’s mass $$ M $$ is $$ 5.979 \times 10^{24}\kg $$ and its radius $$ R $$ is $$ 6.376 \times
+Earth’s mass $$ M $$ is $$ 5.972 \times 10^{24}\kg $$ and its radius $$ R $$ is $$ 6.376 \times
 10^{6}\m $$. The Earth’s angular velocity $$ \omega $$ is, of course,
 exactly one revolution per day, but we must covert $$ \omega $$ to radians per
 second to do the calculation in SI units.
@@ -71,7 +71,7 @@ Substituting known information into the expression for $$ L $$ and converting $$
 
 <div class="equation">
  $$ \begin{array}{lll}
-L&=& 0.4\left(5.979 \times 10^{24}\kg \right){\left(6.376 \times 10^{6}\m \right)}^{2}\left(\frac{1\text{rev}}{\text{d}}\right)\\
+L&=& 0.4\left(5.972 \times 10^{24}\kg \right){\left(6.376 \times 10^{6}\m \right)}^{2}\left(\frac{1\text{rev}}{\text{d}}\right)\\
 L&=& 9.72 \times 10^{37}\kg \cdot \mm\cdot \text{rev/d}.
 \end{array} $$
 </div>
