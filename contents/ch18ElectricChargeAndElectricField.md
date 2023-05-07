@@ -7,7 +7,7 @@ layout: page
 {: #Figure1}
 
 The image of American politician and scientist Benjamin Franklin (1706–1790)
-flying a kite in a thunderstorm is familiar to every schoolchild. (
+flying a kite in a thunderstorm is familiar to many schoolchildren. (
 See [[Figure 2]](#Figure2).) In this experiment, Franklin demonstrated a
 connection between lightning and **static electricity**. Sparks were drawn from
 a key hung on a kite string during an electrical storm. These sparks were like
