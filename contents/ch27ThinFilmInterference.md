@@ -424,7 +424,7 @@ the steps in [Problem-Solving Strategies for Wave Optics](#Note1).
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Suppose you have a lens system that is to be used primarily for 700-nm red light. What is the second thinnest coating of fluorite (magnesium fluoride) that would be non-reflective for this wavelength?
+Suppose you have a lens system that is to be used primarily for 700-nm red light. What is the second thinnest coating of fluorite (calcium fluoride) that would be non-reflective for this wavelength?
 
 </div>
 <div class="solution" markdown="1">
