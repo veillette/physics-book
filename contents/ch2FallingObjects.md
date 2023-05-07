@@ -196,7 +196,7 @@ both positive. At 2.00 s, the rock is still above its starting point, but the
 negative velocity means it is moving downward. At 3.00 s, both $$ y_{3} $$ and
 $$ v_{3} $$ are negative, meaning the rock is below its starting point and
 continuing to move downward. Notice that when the rock is at its highest point (
-at 1.5 s), its velocity is zero, but its acceleration is still $$ -9.80 \mss $$.
+at 1.3 s), its velocity is zero, but its acceleration is still $$ -9.80 \mss $$.
 Its acceleration is $$ -9.80 \mss $$ for the whole trip—while it is moving up
 and while it is moving down. Note that the values for $$ y $$ are the
 positions (or displacements) of the rock, not the total distances traveled.
