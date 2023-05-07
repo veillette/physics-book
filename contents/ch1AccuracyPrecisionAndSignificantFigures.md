@@ -442,8 +442,8 @@ possible speeds when it reads  $$ 90\text{km/h}  $$ ?
 (b) Convert this range to miles per hour.  $$ \left(1 \text{km}= 0.6214 \text{mi}\right)  $$
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 85.5\text{to } 94.5 \text{km/h}  $$
-(b)  $$ 53.1\text{to } 58.7 \text{mi/h}  $$
+(a)  $$ 85\text{to } 95 \text{km/h}  $$
+(b)  $$ 53\text{to } 59 \text{mi/h}  $$
 </div>
 </div>
 
