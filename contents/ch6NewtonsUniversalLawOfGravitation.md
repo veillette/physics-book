@@ -477,15 +477,15 @@ Newton’s laws of motion and gravity were among the first to convincingly demon
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) Calculate Earth’s mass given the acceleration due to gravity at the North Pole is $$ 9.830 \mss $$
+(a) Calculate Earth’s mass given the acceleration due to gravity at the North Pole is $$ 9.807 \mss $$
 
-and the radius of the Earth is 6371 km from center to pole.
+and the radius of the Earth is 6372 km from center to pole.
 
-(b) Compare this with the accepted value of $$ 5.979 \times 10^{24}\kg $$.
+(b) Compare this with the accepted value of $$ 5.972 \times 10^{24}\kg $$.
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-a) $$ 5.979\times 10^{24}\kg $$
+a) $$ 5.972\times 10^{24}\kg $$
 
 b) This is identical to the best value to three significant figures.
 
