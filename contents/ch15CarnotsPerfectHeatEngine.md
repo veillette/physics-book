@@ -67,8 +67,7 @@ Carnot efficiency**  $$\text{Eff}_{\text{C}} $$ is given by
 
 where $${T}_{\text{h}} $$ and $${T}_{\text{c}} $$ are in kelvins (or any other
 absolute temperature scale). No real heat engine can do as well as the Carnot
-efficiency—an actual efficiency of about 0.7 of this maximum is usually the best
-that can be accomplished. But the ideal Carnot engine, like the drinking bird
+efficiency. But the ideal Carnot engine, like the drinking bird
 above, while a fascinating novelty, has zero power. This makes it unrealistic
 for any applications.
 
