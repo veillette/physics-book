@@ -478,7 +478,7 @@ acceleration is $$ 10 g $$ ? (Hint: The arm supplies centripetal force and
 supports the weight of the cage. Draw a free body diagram of the forces to see
 what the angle $$ \theta $$ should be.)
 
-![Figure a shows a NASA centrifuge n a big hall. In figure b, there is a girl sitting in the cage of the centrifuge. The centripetal force on the cage is directed toward left. The direction of the weight of the cage is downward and the force on the arm is directed in north-west direction.](../resources/Figure_06_03_09a.jpg "(a) NASA centrifuge used to subject trainees to accelerations similar to those experienced in rocket launches and reentries. (credit: NASA) (b) Rider in cage showing how the cage pivots outward during rotation. This allows the total force exerted on the rider by the cage to be along its axis at all times.")
+![Figure a shows a NASA centrifuge in a big hall. In figure b, there is a girl sitting in the cage of the centrifuge. The centripetal force on the cage is directed toward left. The direction of the weight of the cage is downward and the force on the arm is directed in north-west direction.](../resources/Figure_06_03_09a.jpg "(a) NASA centrifuge used to subject trainees to accelerations similar to those experienced in rocket launches and reentries. (credit: NASA) (b) Rider in cage showing how the cage pivots outward during rotation. This allows the total force exerted on the rider by the cage to be along its axis at all times.")
 {: #Figure9}
 
 </div>
