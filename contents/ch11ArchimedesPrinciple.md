@@ -137,7 +137,7 @@ By Archimedes’ principle, the weight of water displaced is  $${m}_{\text{w}}g 
 <div class="equation" >
  $$\begin{array}{lll}{F}_{B}& =& {w}_{w}={m}_{w}g=\left( 1.28 \times 10^{6}  \text{kg}\right)\left(9.80 {\text{m/s}}^{2}\right)\\ & =&  1.3 \times 10^{7}  \text{N} \text{.} \end{array} $$
 </div>
-The steel’s weight is  $${m}_{\text{w}}g= 9.80 \times 10^{7}  \text{N} $$ ,
+The steel’s weight is  $${m}_{\text{s}}g= 9.80 \times 10^{7}  \text{N} $$ ,
  which is much greater than the buoyant force, so the steel will remain submerged. Note that the buoyant force is rounded to two digits because the density of steel is given to only two digits.
 
 **Strategy for (b)**
