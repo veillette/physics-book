@@ -189,7 +189,7 @@ speed.
                                 <td>1.66</td>
                             </tr>
                             <tr>
-                                <td>Ice at   $$20ºC $$</td>
+                                <td>Ice at   $$-7ºC $$</td>
                                 <td>1.309</td>
                             </tr>
                             <tr>
