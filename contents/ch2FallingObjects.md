@@ -506,7 +506,7 @@ Calculate the displacement and velocity at times of
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A basketball referee tosses the ball straight up for the starting tip-off.
-At what velocity must a basketball player leave the ground to rise 1.25 m
+At what minimum velocity must a basketball player leave the ground to rise 1.25 m
 above the floor in an attempt to get the ball?
 </div>
 <div class="solution" markdown="1">
