@@ -51,11 +51,11 @@ const BOOK_TEMPLATE =
           </div>
         </div>`;
 
-function docReady(fn) {
+function docReady(timeHandler) {
     // see if DOM is already available
     if (document.readyState === "complete" || document.readyState === "interactive") {
         // call on next available tick
-        setTimeout(fn, 1);
+        setTimeout(timeHandler, 1);
     } else {
         document.addEventListener("DOMContentLoaded", fn);
     }
