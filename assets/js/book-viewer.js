@@ -85,6 +85,19 @@ const addTrailingSlash = (href) => {
     return href;
 };
 
+
+/**
+ * Fix up the ToC links if the links to pages end in `.md`
+ * @param {Element} a
+ */
+const mdToHtmlFix = (a) => {
+    let href = a.getAttribute('href');
+    if (href) {
+        href = href.replace(/\.md/, '.html');
+        a.setAttribute('href', href);
+    }
+};
+
 docReady(function () {
     //# Squirrel the body and replace it with the template:
     const body = $('body');
@@ -176,19 +189,6 @@ docReady(function () {
         }
     };
 
-
-    /**
-     *
-     * @param a
-     */
-        //  # Fix up the ToC links if the links to pages end in `.md`
-    const mdToHtmlFix = (a) => {
-            let href = a.getAttribute('href');
-            if (href) {
-                href = href.replace(/\.md/, '.html');
-                return a.setAttribute('href', href);
-            }
-        };
 
     /**
      *
