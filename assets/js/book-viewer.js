@@ -51,15 +51,39 @@ const BOOK_TEMPLATE =
           </div>
         </div>`;
 
-function docReady(timeHandler) {
+function docReady(fn) {
     // see if DOM is already available
     if (document.readyState === "complete" || document.readyState === "interactive") {
         // call on next available tick
-        setTimeout(timeHandler, 1);
+        setTimeout(fn, 1);
     } else {
         document.addEventListener("DOMContentLoaded", fn);
     }
 }
+
+/**
+ * Convenience function
+ * @param {string} href
+ * @returns {string}
+ */
+const removeTrailingSlash = (href) => {
+    if (BookConfig.serverAddsTrailingSlash && href[href.length - 1] === '/') {
+        href = href.substring(0, href.length - 1);
+    }
+    return href;
+};
+
+/**
+ * convenience function
+ * @param {string} href
+ * @returns {string}
+ */
+const addTrailingSlash = (href) => {
+    if (BookConfig.serverAddsTrailingSlash && href[href.length - 1] !== '/') {
+        href += '/';
+    }
+    return href;
+};
 
 docReady(function () {
     //# Squirrel the body and replace it with the template:
@@ -151,28 +175,8 @@ docReady(function () {
             return bookBody.append(nextPage);
         }
     };
-    /**
-     * convenience function
-     * @param {string} href
-     * @returns {string}
-     */
-    const addTrailingSlash = (href) => {
-        if (BookConfig.serverAddsTrailingSlash && href[href.length - 1] !== '/') {
-            href += '/';
-        }
-        return href;
-    };
-    /**
-     * Convenience function
-     * @param {string} href
-     * @returns {string}
-     */
-    const removeTrailingSlash = (href) => {
-        if (BookConfig.serverAddsTrailingSlash && href[href.length - 1] === '/') {
-            href = href.substring(0, href.length - 1);
-        }
-        return href;
-    };
+
+
     /**
      *
      * @param a
