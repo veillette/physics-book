@@ -10,7 +10,7 @@ BookConfig.baseHref ??= null; //  # or '//archive.cnx.org/contents'
 BookConfig.serverAddsTrailingSlash ??= false; //# Used because jekyll adds trailing slashes
 BookConfig.contributeUrl ??= null;
 BookConfig.rootUrl ??= '';
-BookConfig.includes.fontawesome ??= '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+BookConfig.includes.fontawesome ??= 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
 
 //# Inject the <link> tags for FontAwesome
 if (BookConfig.includes.fontawesome) {
