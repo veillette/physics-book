@@ -55,7 +55,7 @@ function docReady(fn) {
     // see if DOM is already available
     if (document.readyState === "complete" || document.readyState === "interactive") {
         // call on next available tick
-        setTimeout(fn, 1);
+        setTimeout(fn, 16);
     } else {
         document.addEventListener("DOMContentLoaded", fn);
     }
@@ -126,7 +126,7 @@ function parser() {
      * @returns {*}
      */
     const updateContributeUrl = href => {
-        href = URI(href).relativeTo(URI(BookConfig.rootUrl + '/')).pathname();
+        href = new URL(href, new URL(BookConfig.rootUrl + '/', window.location.href)).pathname;
         href = href.replace(/\.html$/, '.md');
         return bookSummary.find('.edit-contribute > a').attr('href', "" + BookConfig.contributeUrl + "/" + href);
     };
@@ -154,7 +154,8 @@ function parser() {
         }
         bookSummary.children('.summary').remove();
         bookSummary.append(summary);
-        const currentPagePath = URI(window.location.href).pathname();
+
+        const currentPagePath = new URL(window.location.href).pathname;
 
         const _ref = bookSummary.find(".summary li:has(> a[href='" + currentPagePath + "'])").parent().parent()[0]
         if (_ref != null) {
@@ -178,12 +179,12 @@ function parser() {
         let prev = tocHelper.prevPageHref(current);
         let next = tocHelper.nextPageHref(current);
         if (prev) {
-            prev = URI(addTrailingSlash(prev)).relativeTo(URI(window.location.href)).toString();
+            prev = new URL(addTrailingSlash(prev), window.location.href).pathname;
             const prevPage = $("<a class='navigation navigation-prev' href='" + prev + "'><i class='fa fa-chevron-left'></i></a>");
             bookBody.append(prevPage);
         }
         if (next) {
-            next = URI(addTrailingSlash(next)).relativeTo(URI(window.location.href)).toString();
+            next = new URL(addTrailingSlash(next), window.location.href).pathname;
             const nextPage = $("<a class='navigation navigation-next' href='" + next + "'><i class='fa fa-chevron-right'></i></a>");
             return bookBody.append(nextPage);
         }
@@ -251,7 +252,7 @@ function parser() {
             return $(el).parent().append(el);
         });
         // Remember that this page has been visited
-        const currentPagePath = URI(href).pathname();
+        const currentPagePath = new URL(href, window.location.href).pathname;
         const visited = window.localStorage.visited && JSON.parse(window.localStorage.visited) || {};
         visited[currentPagePath] = new Date();
         window.localStorage.visited = JSON.stringify(visited);
@@ -299,12 +300,12 @@ function parser() {
         this.loadToc = function (toc, title) {
             this.toc = toc;
             this.title = title;
-            const tocUrl = URI(BookConfig.toc.url).absoluteTo(removeTrailingSlash(window.location.href));
+            const tocUrl = new URL(BookConfig.toc.url, removeTrailingSlash(window.location.href));
             const _ref = this.toc.find('a[href]');
 
             for (const el of _ref) {
                 mdToHtmlFix(el);
-                const href = URI(el.getAttribute('href')).absoluteTo(tocUrl).pathname().toString();
+                const href = new URL(el.getAttribute('href'), tocUrl).pathname;
                 el.setAttribute('href', href);
             }
             this._tocTitles = {};
@@ -313,7 +314,7 @@ function parser() {
                 const _ref1 = toc.find('a[href]');
                 const _results = [];
                 for (const el of _ref1) {
-                    const href = URI(el.getAttribute('href')).absoluteTo(tocUrl).toString();
+                    const href = new URL(el.getAttribute('href'), tocUrl).toString();
                     self._tocTitles[href] = $(el).text();
                     _results.push(href);
                 }
@@ -392,7 +393,7 @@ function parser() {
         book.prepend("<base href='" + BookConfig.baseHref + "'/>");
     }
     originalPage = $('<div class="contents"></div>').append(originalPage);
-    pageBeforeRender(originalPage, URI(window.location.href).pathname());
+    pageBeforeRender(originalPage, new URL(window.location.href).pathname);
     bookPage.append(originalPage);
     const changePage = (href) => {
         book.addClass('loading');
@@ -428,14 +429,6 @@ function parser() {
         }));
     };
 
-    // //  # Listen to clicks and handle them without causing a page reload
-    // $('body').on('click', 'a[href]:not([href^="#"]):not([href^="https"])', function (evt) {
-    //     const hrefRelative = addTrailingSlash($(this).attr('href'));
-    //     const href = URI(hrefRelative).absoluteTo(URI(window.location.href)).toString();
-    //     changePage(href);
-    //     return evt.preventDefault();
-    // });
-
     document.body.addEventListener('click', function (evt) {
         var target = evt.target;
         while (target && target.tagName !== 'A') {
@@ -447,11 +440,11 @@ function parser() {
             !target.getAttribute('href').startsWith('https')) {
             evt.preventDefault();
             var hrefRelative = addTrailingSlash(target.getAttribute('href'));
-            var href = URI(hrefRelative).absoluteTo(URI(window.location.href)).toString();
+            var href = new URL(hrefRelative, window.location.href).toString();
             changePage(href);
         }
     });
 
-};
+}
 
 docReady(parser);
