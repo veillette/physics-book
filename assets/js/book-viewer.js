@@ -132,7 +132,7 @@ function parser() {
     };
 
     /**
-     * render the summary on the left hand side of the page
+     * render the summary on the left-hand side of the page
      * @returns {*}
      */
     const renderToc = () => {
@@ -206,7 +206,7 @@ function parser() {
             mdToHtmlFix(el);
         }
 
-        // Convert `img[title]` tags into figures so they get numbered and titles are visible
+        // Convert `img[title]` tags into figures, so they get numbered and titles are visible
         const _ref1 = els.find('img[title]');
         for (const img of _ref1) {
             const $img = $(img);
@@ -424,13 +424,13 @@ function parser() {
             pageBeforeRender(page, href);
             bookPage.append(page); // TODO: Strip out title and meta tags
             book.removeClass('loading');
-            //    # Scroll to top of page after loading
+            //    # Scroll to top of the page after loading
             return $('.body-inner').scrollTop(0);
         }));
     };
 
     document.body.addEventListener('click', function (evt) {
-        lettarget = evt.target;
+        let target = evt.target;
         while (target && target.tagName !== 'A') {
             target = target.parentNode;
         }
