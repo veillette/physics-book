@@ -428,13 +428,30 @@ function parser() {
         }));
     };
 
-    //  # Listen to clicks and handle them without causing a page reload
-    $('body').on('click', 'a[href]:not([href^="#"]):not([href^="https"])', function (evt) {
-        const hrefRelative = addTrailingSlash($(this).attr('href'));
-        const href = URI(hrefRelative).absoluteTo(URI(window.location.href)).toString();
-        changePage(href);
-        return evt.preventDefault();
+    // //  # Listen to clicks and handle them without causing a page reload
+    // $('body').on('click', 'a[href]:not([href^="#"]):not([href^="https"])', function (evt) {
+    //     const hrefRelative = addTrailingSlash($(this).attr('href'));
+    //     const href = URI(hrefRelative).absoluteTo(URI(window.location.href)).toString();
+    //     changePage(href);
+    //     return evt.preventDefault();
+    // });
+
+    document.body.addEventListener('click', function (evt) {
+        var target = evt.target;
+        while (target && target.tagName !== 'A') {
+            target = target.parentNode;
+        }
+
+        if (target && target.getAttribute('href') &&
+            !target.getAttribute('href').startsWith('#') &&
+            !target.getAttribute('href').startsWith('https')) {
+            evt.preventDefault();
+            var hrefRelative = addTrailingSlash(target.getAttribute('href'));
+            var href = URI(hrefRelative).absoluteTo(URI(window.location.href)).toString();
+            changePage(href);
+        }
     });
+
 };
 
 docReady(parser);
