@@ -430,7 +430,7 @@ function parser() {
     };
 
     document.body.addEventListener('click', function (evt) {
-        var target = evt.target;
+        lettarget = evt.target;
         while (target && target.tagName !== 'A') {
             target = target.parentNode;
         }
@@ -439,8 +439,8 @@ function parser() {
             !target.getAttribute('href').startsWith('#') &&
             !target.getAttribute('href').startsWith('https')) {
             evt.preventDefault();
-            var hrefRelative = addTrailingSlash(target.getAttribute('href'));
-            var href = new URL(hrefRelative, window.location.href).toString();
+            const hrefRelative = addTrailingSlash(target.getAttribute('href'));
+            const href = new URL(hrefRelative, window.location.href).toString();
             changePage(href);
         }
     });
