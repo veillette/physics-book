@@ -98,7 +98,7 @@ const mdToHtmlFix = (a) => {
     }
 };
 
-docReady(function () {
+function parser() {
     //# Squirrel the body and replace it with the template:
     const body = $('body');
     let originalPage = body.contents();
@@ -435,4 +435,6 @@ docReady(function () {
         changePage(href);
         return evt.preventDefault();
     });
-});
+};
+
+docReady(parser);
