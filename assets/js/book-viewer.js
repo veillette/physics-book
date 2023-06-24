@@ -103,7 +103,6 @@ function parser() {
     const book = body.find('.book');
     const toggleSummary = book.find('.toggle-summary');
     const bookSummary = book.find('.book-summary');
-    const bookBody = book.find('.book-body');
     const bookPage = book.find('.page-inner > .normal');
     const bookTitle = book.find('.book-title');
 
@@ -115,7 +114,6 @@ function parser() {
 
     /**
      * render the summary on the left-hand side of the page
-     * @returns {*}
      */
     const renderToc = () => {
         const summary = $('<ul class="summary"></ul>');
@@ -140,26 +138,36 @@ function parser() {
         renderNextPrev();
     };
 
-
     const renderNextPrev = () => {
 
-        // Add next/prev buttons to the page
-        bookBody.children('.navigation').remove();
+        const bookBody = document.querySelector('.book-body');
+
+        // Remove existing navigation buttons
+        const existingNavigation = bookBody.querySelectorAll('.navigation');
+        existingNavigation.forEach(nav => nav.remove());
+
         const current = removeTrailingSlash(window.location.href);
         let prev = tocHelper.prevPageHref(current);
         let next = tocHelper.nextPageHref(current);
+
         if (prev) {
             prev = new URL(addTrailingSlash(prev), window.location.href).pathname;
-            const prevPage = $("<a class='navigation navigation-prev' href='" + prev + "'><i class='fa fa-chevron-left'></i></a>");
-            bookBody.append(prevPage);
+            const prevPage = document.createElement('a');
+            prevPage.className = 'navigation navigation-prev';
+            prevPage.href = prev;
+            prevPage.innerHTML = "<i class='fa fa-chevron-left'></i>";
+            bookBody.appendChild(prevPage);
         }
+
         if (next) {
             next = new URL(addTrailingSlash(next), window.location.href).pathname;
-            const nextPage = $("<a class='navigation navigation-next' href='" + next + "'><i class='fa fa-chevron-right'></i></a>");
-            return bookBody.append(nextPage);
+            const nextPage = document.createElement('a');
+            nextPage.className = 'navigation navigation-next';
+            nextPage.href = next;
+            nextPage.innerHTML = "<i class='fa fa-chevron-right'></i>";
+            bookBody.appendChild(nextPage);
         }
     };
-
 
     /**
      *
