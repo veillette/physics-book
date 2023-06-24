@@ -101,16 +101,15 @@ function parser() {
 
     // Pull out all the interesting DOM nodes from the template
     const book = body.find('.book');
-    const toggleSummary = book.find('.toggle-summary');
     const bookSummary = book.find('.book-summary');
     const bookPage = book.find('.page-inner > .normal');
     const bookTitle = document.querySelector('.book-title');
 
-    toggleSummary.on('click', function (evt) {
-        book.toggleClass('with-summary');
-        return evt.preventDefault();
+    const toggleSummary = document.querySelector('.toggle-summary');
+    toggleSummary.addEventListener('click', function (evt) {
+        document.querySelector('.book').classList.toggle('with-summary');
+        evt.preventDefault();
     });
-
 
     /**
      * render the summary on the left-hand side of the page
