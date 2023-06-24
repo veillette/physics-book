@@ -8,7 +8,6 @@ BookConfig.toc.url ??= '../toc'; // # or '../SUMMARY' for GitBook
 BookConfig.toc.selector ??= 'nav, ol, ul'; // # picks the first one that matches
 BookConfig.baseHref ??= null; //  # or '//archive.cnx.org/contents'
 BookConfig.serverAddsTrailingSlash ??= false; //# Used because jekyll adds trailing slashes
-BookConfig.contributeUrl ??= null;
 BookConfig.rootUrl ??= '';
 BookConfig.includes.fontawesome ??= 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
 
@@ -120,16 +119,6 @@ function parser() {
         return evt.preventDefault();
     });
 
-    /**
-     * update the url for contribute url
-     * @param href
-     * @returns {*}
-     */
-    const updateContributeUrl = href => {
-        href = new URL(href, new URL(BookConfig.rootUrl + '/', window.location.href)).pathname;
-        href = href.replace(/\.html$/, '.md');
-        return bookSummary.find('.edit-contribute > a').attr('href', "" + BookConfig.contributeUrl + "/" + href);
-    };
 
     /**
      * render the summary on the left-hand side of the page
@@ -137,13 +126,7 @@ function parser() {
      */
     const renderToc = () => {
         const summary = $('<ul class="summary"></ul>');
-        if (BookConfig.issuesUrl) {
-            summary.append("<li class='issues'><a target='_blank' href='" + BookConfig.issuesUrl + "'>Questions and Issues</a></li>");
-        }
-        if (BookConfig.contributeUrl) {
-            summary.append("<li class='edit-contribute'><a target='_blank' href='" + BookConfig.contributeUrl + "'>Edit and Contribute</a></li>");
-        }
-        summary.append('<li class="divider"/>');
+
         summary.append(tocHelper.toc.children('li'));
 
         // Update the ToC to show which links have been visited
@@ -162,7 +145,6 @@ function parser() {
             _ref.scrollIntoView();
         }
         renderNextPrev();
-        return updateContributeUrl(currentPagePath);
     };
 
 
@@ -199,8 +181,6 @@ function parser() {
      */
     const pageBeforeRender = (els, href) => {
         let _ref2;
-        updateContributeUrl(href);
-
         const _ref = els.find('a[href]');
         for (const el of _ref) {
             mdToHtmlFix(el);
