@@ -104,7 +104,7 @@ function parser() {
     const toggleSummary = book.find('.toggle-summary');
     const bookSummary = book.find('.book-summary');
     const bookPage = book.find('.page-inner > .normal');
-    const bookTitle = book.find('.book-title');
+    const bookTitle = document.querySelector('.book-title');
 
     toggleSummary.on('click', function (evt) {
         book.toggleClass('with-summary');
@@ -116,25 +116,48 @@ function parser() {
      * render the summary on the left-hand side of the page
      */
     const renderToc = () => {
-        const summary = $('<ul class="summary"></ul>');
+        const summary = document.createElement('ul');
+        summary.className = 'summary';
 
-        summary.append(tocHelper.toc.children('li'));
+        const tocChildren = Array.from(tocHelper.toc.children);
+        tocChildren.forEach(function (li) {
+            summary.appendChild(li);
+        });
 
         // Update the ToC to show which links have been visited
         // Add a "hidden" checkmark next to each item
-        summary.find('a[href]').parent().prepend('<i class="fa fa-check"></i>');
-        for (let key in JSON.parse(window.localStorage.visited)) {
-            summary.find("li:has(> a[href='" + key + "'])").addClass('visited');
-        }
-        bookSummary.children('.summary').remove();
-        bookSummary.append(summary);
+        const visitedLinks = JSON.parse(window.localStorage.visited) || {};
+        const linkElements = summary.querySelectorAll('a[href]');
+        linkElements.forEach(function (link) {
+            const href = link.getAttribute('href');
+            const parentLi = link.parentNode;
+            const checkmarkIcon = document.createElement('i');
+            checkmarkIcon.className = 'fa fa-check';
+            parentLi.insertBefore(checkmarkIcon, link);
+
+            if (visitedLinks[href]) {
+                parentLi.classList.add('visited');
+            }
+        });
 
         const currentPagePath = new URL(window.location.href).pathname;
 
-        const _ref = bookSummary.find(".summary li:has(> a[href='" + currentPagePath + "'])").parent().parent()[0]
-        if (_ref != null) {
-            _ref.scrollIntoView();
+
+        const bookSummary = document.querySelector('.book-summary');
+        const currentPageLi =
+            bookSummary.querySelector(".summary li:has(> a[href='" + currentPagePath + "'])");
+        if (currentPageLi) {
+            currentPageLi.parentNode.parentNode.scrollIntoView();
         }
+
+        const existingSummary =
+            bookSummary.querySelector('.summary');
+        if (existingSummary) {
+            existingSummary.remove();
+        }
+
+        bookSummary.appendChild(summary);
+
         renderNextPrev();
     };
 
@@ -261,14 +284,12 @@ function parser() {
      *
      * @constructor
      */
+
     function TocHelper() {
-
         this._tocList = [];
-
         this._tocTitles = {};
 
         /**
-         *
          * @param toc
          * @param title
          * @returns {function}
@@ -277,34 +298,31 @@ function parser() {
             this.toc = toc;
             this.title = title;
             const tocUrl = new URL(BookConfig.toc.url, removeTrailingSlash(window.location.href));
-            const _ref = this.toc.find('a[href]');
+            const refElements = toc.querySelectorAll('a[href]');
 
-            for (const el of _ref) {
+            refElements.forEach(function (el) {
                 mdToHtmlFix(el);
                 const href = new URL(el.getAttribute('href'), tocUrl).pathname;
                 el.setAttribute('href', href);
-            }
+            });
+
             this._tocTitles = {};
             const self = this;
-            this._tocList = (function () {
-                const _ref1 = toc.find('a[href]');
-                const _results = [];
-                for (const el of _ref1) {
-                    const href = new URL(el.getAttribute('href'), tocUrl).toString();
-                    self._tocTitles[href] = $(el).text();
-                    _results.push(href);
-                }
-                return _results;
-            }).call(this);
+            this._tocList = Array.from(toc.querySelectorAll('a[href]')).map(function (el) {
+                const href = new URL(el.getAttribute('href'), tocUrl).toString();
+                self._tocTitles[href] = el.textContent;
+                return href;
+            });
+
             if (BookConfig.serverAddsTrailingSlash) {
-                const _ref1 = this.toc.find('a');
-                for (const a of _ref1) {
-                    const $a = $(a);
-                    let href = $a.attr('href');
+                const aElements = toc.querySelectorAll('a');
+                aElements.forEach(function (a) {
+                    let href = a.getAttribute('href');
                     href = '../' + href;
-                    $a.attr('href', href);
-                }
+                    a.setAttribute('href', href);
+                });
             }
+
             return renderToc();
         };
 
@@ -338,31 +356,37 @@ function parser() {
         };
     }
 
-    /**
-     * @type {TocHelper}
-     */
     const tocHelper = new TocHelper();
 
-    $.ajax({
-        url: BookConfig.urlFixer(BookConfig.toc.url),
+    fetch(BookConfig.urlFixer(BookConfig.toc.url), {
         headers: {
             'Accept': 'application/xhtml+xml'
-        },
-        dataType: 'html'
-    }).then(function (html) {
-        let title;
-        const $root = $('<div>' + html + '</div>');
-        let toc = $root.find(BookConfig.toc.selector).first();
-        if (toc[0].tagName.toLowerCase() === 'ul') {
-            //# HACK for collection HTML
-            title = toc.children().first().contents();
-            toc = toc.find('ul').first();
-        } else {
-            title = $root.children('title').contents();
         }
-        tocHelper.loadToc(toc, title);
-        return bookTitle.html(tocHelper.title);
-    });
+    })
+        .then(function (response) {
+            return response.text();
+        })
+        .then(function (html) {
+            let title;
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, 'text/html');
+            const root = doc.createElement('div');
+            root.innerHTML = html;
+
+            let toc = root.querySelector(BookConfig.toc.selector);
+            if (toc.tagName.toLowerCase() === 'ul') {
+                // HACK for collection HTML
+                title = toc.firstElementChild.textContent;
+                toc = toc.querySelector('ul');
+            } else {
+                title = doc.querySelector('title').textContent;
+            }
+
+            tocHelper.loadToc(toc, title);
+            bookTitle.textContent = tocHelper.title;
+        });
+
+
     //  # Fetch resources without fixing up their paths
     if (BookConfig.baseHref) {
         book.find('base').remove();
