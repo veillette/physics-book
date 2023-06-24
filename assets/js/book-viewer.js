@@ -35,11 +35,6 @@ const BOOK_TEMPLATE =
           <div class="book-body">
             <div class="body-inner">
               <div class="page-wrapper" tabindex="-1">
-                <div class="book-progress">
-                  <div class="bar">
-                    <div class="inner" style="min-width: 0;"></div>
-                  </div>
-                </div>
                 <div class="page-inner">
                   <section class="normal">
                     <!-- content -->
@@ -111,8 +106,6 @@ function parser() {
     const bookBody = book.find('.book-body');
     const bookPage = book.find('.page-inner > .normal');
     const bookTitle = book.find('.book-title');
-    const bookProgressBar = book.find('.book-progress .bar .inner');
-
 
     toggleSummary.on('click', function (evt) {
         book.toggleClass('with-summary');
@@ -149,11 +142,6 @@ function parser() {
 
 
     const renderNextPrev = () => {
-        // Update the progress bar
-        const currentPageIndex = tocHelper._tocList.indexOf(window.location.href);
-        const totalPageCount = tocHelper._tocList.length;
-        bookProgressBar.width("" + (currentPageIndex * 100 / totalPageCount) + "%");
-        bookProgressBar.attr('title', "Reading Page " + currentPageIndex + " of " + totalPageCount);
 
         // Add next/prev buttons to the page
         bookBody.children('.navigation').remove();
