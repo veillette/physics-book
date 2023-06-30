@@ -100,9 +100,9 @@ function parser() {
     body.append(BOOK_TEMPLATE);
 
     // Pull out all the interesting DOM nodes from the template
-    const book = body.find('.book');
-    const bookSummary = book.find('.book-summary');
-    const bookPage = book.find('.page-inner > .normal');
+    const $book = body.find('.book');
+    const $bookSummary = $book.find('.book-summary');
+    const $bookPage = $book.find('.page-inner > .normal');
     const bookTitle = document.querySelector('.book-title');
     const bookBody = document.querySelector('.book-body');
 
@@ -143,20 +143,20 @@ function parser() {
         const currentPagePath = new URL(window.location.href).pathname;
 
 
-        const bookSummary = document.querySelector('.book-summary');
+        const $bookSummary = document.querySelector('.book-summary');
         const currentPageLi =
-            bookSummary.querySelector(".summary li:has(> a[href='" + currentPagePath + "'])");
+            $bookSummary.querySelector(".summary li:has(> a[href='" + currentPagePath + "'])");
         if (currentPageLi) {
             currentPageLi.parentNode.parentNode.scrollIntoView();
         }
 
         const existingSummary =
-            bookSummary.querySelector('.summary');
+            $bookSummary.querySelector('.summary');
         if (existingSummary) {
             existingSummary.remove();
         }
 
-        bookSummary.appendChild(summary);
+        $bookSummary.appendChild(summary);
 
         renderNextPrev();
     };
@@ -253,7 +253,7 @@ function parser() {
         const visited = window.localStorage.visited && JSON.parse(window.localStorage.visited) || {};
         visited[currentPagePath] = new Date();
         window.localStorage.visited = JSON.stringify(visited);
-        if ((_ref2 = bookSummary.find(".summary li:has(> a[href='" + currentPagePath + "'])").addClass('visited').parent().parent()[0]) != null) {
+        if ((_ref2 = $bookSummary.find(".summary li:has(> a[href='" + currentPagePath + "'])").addClass('visited').parent().parent()[0]) != null) {
             _ref2.scrollIntoView();
         }
         const selector = 'h1, h2, h3, h4, h5, h6';
@@ -389,12 +389,12 @@ function parser() {
 
     //  # Fetch resources without fixing up their paths
     if (BookConfig.baseHref) {
-        book.find('base').remove();
-        book.prepend("<base href='" + BookConfig.baseHref + "'/>");
+        $book.find('base').remove();
+        $book.prepend("<base href='" + BookConfig.baseHref + "'/>");
     }
     originalPage = $('<div class="contents"></div>').append(originalPage);
     pageBeforeRender(originalPage, new URL(window.location.href).pathname);
-    bookPage.append(originalPage);
+    $bookPage.append(originalPage);
 
     /**
      *
@@ -402,7 +402,7 @@ function parser() {
      * @returns {Promise<string>}
      */
     const changePage = (href) => {
-        book.addClass('loading');
+        $book.addClass('loading');
 
         const requestPromise = fetch(BookConfig.urlFixer(href), {
             headers: {
@@ -421,16 +421,16 @@ function parser() {
             // Need to set the URL *before* <img> tags area created
             // Fetch resources without fixing up their paths
             if (BookConfig.baseHref) {
-                book.find('base').remove();
-                book.prepend("<base href='" + (BookConfig.urlFixer(href)) + "'/>");
+                $book.find('base').remove();
+                $book.prepend("<base href='" + (BookConfig.urlFixer(href)) + "'/>");
             }
             const $html = $("<div>" + html + "</div>");
             $html.children('meta, link, script, title').remove();
-            bookPage.contents().remove();
+            $bookPage.contents().remove();
             const page = $('<div class="contents"></div>').append($html.children());
             pageBeforeRender(page, href);
-            bookPage.append(page); // TODO: Strip out title and meta tags
-            book.removeClass('loading');
+            $bookPage.append(page); // TODO: Strip out title and meta tags
+            $book.removeClass('loading');
             //    # Scroll to top of the page after loading
             return $('.body-inner').scrollTop(0);
         });
