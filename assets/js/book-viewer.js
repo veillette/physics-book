@@ -105,8 +105,8 @@ function parser() {
     const $bookPage = $book.find('.page-inner > .normal');
     const bookTitle = document.querySelector('.book-title');
     const bookBody = document.querySelector('.book-body');
-
     const toggleSummary = document.querySelector('.toggle-summary');
+
     toggleSummary.addEventListener('click', function (evt) {
         document.querySelector('.book').classList.toggle('with-summary');
         evt.preventDefault();
