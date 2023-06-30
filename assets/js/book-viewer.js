@@ -104,6 +104,7 @@ function parser() {
     const bookSummary = book.find('.book-summary');
     const bookPage = book.find('.page-inner > .normal');
     const bookTitle = document.querySelector('.book-title');
+    const bookBody = document.querySelector('.book-body');
 
     const toggleSummary = document.querySelector('.toggle-summary');
     toggleSummary.addEventListener('click', function (evt) {
@@ -161,8 +162,6 @@ function parser() {
     };
 
     const renderNextPrev = () => {
-
-        const bookBody = document.querySelector('.book-body');
 
         // Remove existing navigation buttons
         const existingNavigation = bookBody.querySelectorAll('.navigation');
