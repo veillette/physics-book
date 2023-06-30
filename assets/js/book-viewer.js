@@ -291,8 +291,8 @@ function parser() {
         this._tocTitles = {};
 
         /**
-         * @param toc
-         * @param title
+         * @param {Element} toc
+         * @param {string} title
          * @returns {function}
          */
         this.loadToc = function (toc, title) {
