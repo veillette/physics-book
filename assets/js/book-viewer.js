@@ -396,15 +396,22 @@ function parser() {
     originalPage = $('<div class="contents"></div>').append(originalPage);
     pageBeforeRender(originalPage, new URL(window.location.href).pathname);
     bookPage.append(originalPage);
+
+    /**
+     *
+     * @param {string} href
+     * @returns {Promise<string>}
+     */
     const changePage = (href) => {
         book.addClass('loading');
-        return Promise.resolve($.ajax({
-            url: BookConfig.urlFixer(href),
+
+        const requestPromise = fetch(BookConfig.urlFixer(href), {
             headers: {
                 'Accept': 'application/xhtml+xml'
-            },
-            dataType: 'html'
-        }).then(function (html) {
+            }
+        }).then(response => response.text());
+
+        const promise = Promise.resolve(requestPromise).then(function (html) {
             //# Use `window.location.origin` to get around a <base href=""> pointing to another hostname
             if (!/https?:\/\//.test(href)) {
                 href = "" + window.location.origin + href;
@@ -427,7 +434,9 @@ function parser() {
             book.removeClass('loading');
             //    # Scroll to top of the page after loading
             return $('.body-inner').scrollTop(0);
-        }));
+        });
+
+        return promise;
     };
 
     document.body.addEventListener('click', function (evt) {
