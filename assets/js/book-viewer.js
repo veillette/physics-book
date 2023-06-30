@@ -285,6 +285,8 @@ function parser() {
      */
 
     function TocHelper() {
+
+        // {string[]}
         this._tocList = [];
         this._tocTitles = {};
 
@@ -327,7 +329,7 @@ function parser() {
 
         /**
          * @private
-         * @param currentHref
+         * @param {string} currentHref
          * @returns {number}
          */
         this.currentPageIndex = function (currentHref) {
@@ -336,8 +338,8 @@ function parser() {
 
         /**
          * @protected
-         * @param currentHref
-         * @returns {number}
+         * @param {string} currentHref
+         * @returns {string|undefined}
          */
         this.prevPageHref = function (currentHref) {
             const currentIndex = this.currentPageIndex(currentHref);
@@ -346,8 +348,8 @@ function parser() {
 
         /**
          * @protected
-         * @param currentHref
-         * @returns {number}
+         * @param {string} currentHref
+         * @returns {string|undefined}
          */
         this.nextPageHref = function (currentHref) {
             const currentIndex = this.currentPageIndex(currentHref);
