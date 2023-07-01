@@ -94,19 +94,15 @@ const mdToHtmlFix = (a) => {
 
 function parser() {
     //# Squirrel the body and replace it with the template:
-    const $body = $('body');
 
     // Pull out all the interesting DOM nodes from the template
     const body = document.body;
 
-    let $originalPage = $body.contents();
     let originalPage = Array.from(body.childNodes);
 
     body.innerHTML = '';
     body.insertAdjacentHTML('beforeend', BOOK_TEMPLATE);
 
-    const $book = $body.find('.book');
-    const $bookPage = $book.find('.page-inner > .normal');
     const book = body.querySelector('.book');
     const bookPage = book.querySelector('.page-inner > .normal');
     const bookSummary = book.querySelector('.book-summary');
@@ -233,20 +229,20 @@ function parser() {
             contents.forEach(function (node) {
                 section.appendChild(node);
             });
+            el.append(section);
 
             const title = el.querySelector('.title');
-            // el.insertBefore(title, el.firstChild);
-
-            const header = document.createElement('header');
-            header.append(title);
-            el.insertBefore(header, el.firstChild);
-
-
-            // Add an attribute for the parents' `data-label`
-            // since CSS does not support `parent(attr(data-label))`.
-            // When the title exists, this attribute is added before it
-            const dataLabelParent = el.getAttribute('data-label');
             if (title) {
+                el.insertBefore(title, el.firstChild);
+
+                const header = document.createElement('header');
+                header.append(title);
+                el.insertBefore(header, el.firstChild);
+
+                // Add an attribute for the parents' `data-label`
+                // since CSS does not support `parent(attr(data-label))`.
+                // When the title exists, this attribute is added before it
+                const dataLabelParent = el.getAttribute('data-label');
                 title.setAttribute('data-label-parent', dataLabelParent);
             }
 
@@ -318,101 +314,6 @@ function parser() {
             return void 0;
         }
     };
-
-
-    /**
-     *
-     * @param $els
-     * @param href
-     * @returns {*}
-     */
-    const pageBeforeRender = ($els, href) => {
-        const _ref = $els.find('a[href]');
-        for (const el of _ref) {
-            mdToHtmlFix(el);
-        }
-
-        // Convert `img[title]` tags into figures, so they get numbered and titles are visible
-        const _ref1 = $els.find('img[title]');
-        for (const img of _ref1) {
-            const $img = $(img);
-            const id = $img.attr('id');
-            $img.removeAttr('id');
-            const $figure = $img.wrap('<figure>').parent();
-            $figure.append("<figcaption>" + ($img.attr('title')) + "</figcaption>");
-            if ($img.attr('data-title')) {
-                $figure.prepend("<div class='title'>" + ($img.attr('data-title')) + "</div>");
-            }
-            $figure.attr('id', id);
-        }
-
-        // From `webview/body.coffee`
-        // Wrap title and content elements in header and section elements, respectively
-        $els.find('.example, .exercise, .note').each(function (index, el) {
-            const $el = $(el);
-            const contents = $el.contents().filter(function (i, node) {
-                return !$(node).is('.title');
-            });
-            contents.wrapAll('<section>');
-            const title = $el.children('.title');
-            $el.prepend(title);
-            title.wrap('<header>');
-            // Add an attribute for the parents' `data-label`
-            // since CSS does not support `parent(attr(data-label))`.
-            // When the title exists, this attribute is added before it
-
-            title.attr('data-label-parent', $el.attr('data-label'));
-            // Add a class for styling since CSS does not support `:has(> .title)`
-            return $el.toggleClass('ui-has-child-title', title.length > 0);
-        });
-        //# Wrap solutions in a div so "Show/Hide Solutions" work
-        $els.find('.solution').wrapInner('<section class="ui-body">').prepend('<div class="ui-toggle-wrapper">\n  <button class="btn-link ui-toggle" title="Show/Hide Solution"></button>\n</div>');
-        $els.on('click', '.ui-toggle', function (e) {
-            const solution = $(e.currentTarget).closest('.solution');
-            return solution.toggleClass('ui-solution-visible');
-        });
-        $els.find('figure:has(> figcaption)').addClass('ui-has-child-figcaption');
-
-        //    Move all figure captions below the figure
-        $els.find('figcaption').each(function (i, el) {
-            return $(el).parent().append(el);
-        });
-        // Remember that this page has been visited
-        const currentPagePath = new URL(href, window.location.href).pathname;
-        const visited = window.localStorage.visited && JSON.parse(window.localStorage.visited) || {};
-        visited[currentPagePath] = new Date();
-        window.localStorage.visited = JSON.stringify(visited);
-
-        const listItem = bookSummary.querySelector(".summary li:has(> a[href='" + currentPagePath + "'])");
-
-        if (listItem !== null) {
-            listItem.classList.add('visited');
-            const parentElement = listItem.parentElement.parentElement;
-            parentElement.scrollIntoView();
-        }
-
-
-        const selector = 'h1, h2, h3, h4, h5, h6';
-        const all = $els.filter(selector).add($els.find(selector));
-        all.each(function (i, el) {
-            const $el = $(el);
-            const id = $el.attr('id');
-            if (id) {
-                const icon = '<i class="fa fa-link"></i>';
-                const a = $('<a />').addClass('header-link').attr('href', '#' + id).html(icon);
-                return $el.prepend(a);
-            }
-        });
-        if (typeof MathJax.startup !== "undefined" && MathJax.startup !== null) {
-            MathJax.startup.promise = MathJax.startup.promise
-                .then(() => MathJax.typesetPromise($els))
-                .catch((err) => console.log('Typeset failed: ' + err.message));
-            return MathJax.startup.promise;
-        } else {
-            return void 0;
-        }
-    };
-
 
     /**
      *
@@ -541,10 +442,6 @@ function parser() {
     bookPage.append(altPage);
 
 
-    // $originalPage = $('<div class="contents"></div>').append($originalPage);
-    // pageBeforeRender($originalPage, new URL(window.location.href).pathname);
-    // $bookPage.append($originalPage);
-
     /**
      *
      * @param {string} href
@@ -579,15 +476,6 @@ function parser() {
                 book.prepend(baseTag);
             }
 
-            // const $html = $("<div>" + html + "</div>");
-            // $html.children('meta, link, script, title').remove();
-            // $bookPage.contents().remove();
-            // const $page = $('<div class="contents"></div>').append($html.children());
-            // pageBeforeRender($page, href);
-            // $bookPage.append($page); // TODO: Strip out title and meta tags
-
-
-            ////////////// ALTERNATE
             const htmlDivElement = document.createElement('div');
             htmlDivElement.innerHTML = html;
             htmlDivElement.querySelectorAll('meta, link, script, title').forEach(function (el) {
@@ -600,8 +488,6 @@ function parser() {
             altPage.append(...htmlDivElement.childNodes);
             newPageBeforeRender(altPage, href);
             bookPage.append(altPage);
-
-            /////////////////////////////////////////////
 
             book.classList.remove('loading');
 
