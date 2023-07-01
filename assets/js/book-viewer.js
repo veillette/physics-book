@@ -110,9 +110,9 @@ function parser() {
     const bookBody = book.querySelector('.book-body');
     const toggleSummary = book.querySelector('.toggle-summary');
 
-    toggleSummary.addEventListener('click', function (evt) {
+    toggleSummary.addEventListener('click', function (event) {
         book.classList.toggle('with-summary');
-        evt.preventDefault();
+        event.preventDefault();
     });
 
     /**
@@ -531,8 +531,8 @@ function parser() {
         }
     });
 
-    document.body.addEventListener('click', function (evt) {
-        let target = evt.target;
+    document.body.addEventListener('click', function (event) {
+        let target = event.target;
         while (target && target.tagName !== 'A') {
             target = target.parentNode;
         }
@@ -540,7 +540,7 @@ function parser() {
         if (target && target.getAttribute('href') &&
             !target.getAttribute('href').startsWith('#') &&
             !target.getAttribute('href').startsWith('https')) {
-            evt.preventDefault();
+            event.preventDefault();
             const hrefRelative = addTrailingSlash(target.getAttribute('href'));
             const href = new URL(hrefRelative, window.location.href).toString();
             changePage(href);
