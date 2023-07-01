@@ -98,11 +98,12 @@ function parser() {
     let $originalPage = $body.contents();
     $body.contents().remove();
     $body.append(BOOK_TEMPLATE);
+    const $book = $body.find('.book');
+    const $bookPage = $book.find('.page-inner > .normal');
+
 
     // Pull out all the interesting DOM nodes from the template
     const book = document.querySelector('.book');
-    const $book = $body.find('.book');
-    const $bookPage = $book.find('.page-inner > .normal');
     const bookPage = document.querySelector('.page-inner > .normal');
     const bookSummary = document.querySelector('.book-summary');
     const bookTitle = document.querySelector('.book-title');
@@ -228,7 +229,7 @@ function parser() {
             contents.forEach(function (node) {
                 section.appendChild(node);
             });
-            const title = $el.querySelector('.title');
+            const title = el.querySelector('.title');
             el.insertBefore(title, el.firstChild);
             const header = document.createElement('header');
             header.appendChild(title);
@@ -238,11 +239,11 @@ function parser() {
         });
 
         els.querySelectorAll('.solution').forEach(function (solution) {
-            const body = document.createElement('section');
+            const section = document.createElement('section');
             while (solution.firstChild) {
-                body.appendChild(solution.firstChild);
+                section.appendChild(solution.firstChild);
             }
-            solution.appendChild(body);
+            solution.appendChild(section);
             const toggleWrapper = document.createElement('div');
             toggleWrapper.className = 'ui-toggle-wrapper';
             solution.insertBefore(toggleWrapper, solution.firstChild);
@@ -294,7 +295,7 @@ function parser() {
 
         if (typeof MathJax.startup !== "undefined" && MathJax.startup !== null) {
             MathJax.startup.promise = MathJax.startup.promise
-                .then(() => MathJax.typesetPromise(els))
+                .then(() => MathJax.typesetPromise([els]))
                 .catch((err) => console.log('Typeset failed: ' + err.message));
             return MathJax.startup.promise;
         } else {
@@ -305,19 +306,18 @@ function parser() {
 
     /**
      *
-     * @param els
+     * @param $els
      * @param href
      * @returns {*}
      */
-    const pageBeforeRender = (els, href) => {
-        let _ref2;
-        const _ref = els.find('a[href]');
+    const pageBeforeRender = ($els, href) => {
+        const _ref = $els.find('a[href]');
         for (const el of _ref) {
             mdToHtmlFix(el);
         }
 
         // Convert `img[title]` tags into figures, so they get numbered and titles are visible
-        const _ref1 = els.find('img[title]');
+        const _ref1 = $els.find('img[title]');
         for (const img of _ref1) {
             const $img = $(img);
             const id = $img.attr('id');
@@ -332,7 +332,7 @@ function parser() {
 
         // From `webview/body.coffee`
         // Wrap title and content elements in header and section elements, respectively
-        els.find('.example, .exercise, .note').each(function (index, el) {
+        $els.find('.example, .exercise, .note').each(function (index, el) {
             const $el = $(el);
             const contents = $el.contents().filter(function (i, node) {
                 return !$(node).is('.title');
@@ -350,15 +350,15 @@ function parser() {
             return $el.toggleClass('ui-has-child-title', title.length > 0);
         });
         //# Wrap solutions in a div so "Show/Hide Solutions" work
-        els.find('.solution').wrapInner('<section class="ui-body">').prepend('<div class="ui-toggle-wrapper">\n  <button class="btn-link ui-toggle" title="Show/Hide Solution"></button>\n</div>');
-        els.on('click', '.ui-toggle', function (e) {
+        $els.find('.solution').wrapInner('<section class="ui-body">').prepend('<div class="ui-toggle-wrapper">\n  <button class="btn-link ui-toggle" title="Show/Hide Solution"></button>\n</div>');
+        $els.on('click', '.ui-toggle', function (e) {
             const solution = $(e.currentTarget).closest('.solution');
             return solution.toggleClass('ui-solution-visible');
         });
-        els.find('figure:has(> figcaption)').addClass('ui-has-child-figcaption');
+        $els.find('figure:has(> figcaption)').addClass('ui-has-child-figcaption');
 
         //    Move all figure captions below the figure
-        els.find('figcaption').each(function (i, el) {
+        $els.find('figcaption').each(function (i, el) {
             return $(el).parent().append(el);
         });
         // Remember that this page has been visited
@@ -377,7 +377,7 @@ function parser() {
 
 
         const selector = 'h1, h2, h3, h4, h5, h6';
-        const all = els.filter(selector).add(els.find(selector));
+        const all = $els.filter(selector).add($els.find(selector));
         all.each(function (i, el) {
             const $el = $(el);
             const id = $el.attr('id');
@@ -389,7 +389,7 @@ function parser() {
         });
         if (typeof MathJax.startup !== "undefined" && MathJax.startup !== null) {
             MathJax.startup.promise = MathJax.startup.promise
-                .then(() => MathJax.typesetPromise(els))
+                .then(() => MathJax.typesetPromise($els))
                 .catch((err) => console.log('Typeset failed: ' + err.message));
             return MathJax.startup.promise;
         } else {
