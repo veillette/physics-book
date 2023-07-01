@@ -534,10 +534,16 @@ function parser() {
         book.prepend(baseTag);
     }
 
+    const altPage = document.createElement('div');
+    altPage.className = 'contents';
+    altPage.append(...originalPage);
+    newPageBeforeRender(altPage, new URL(window.location.href).pathname);
+    bookPage.append(altPage);
 
-    $originalPage = $('<div class="contents"></div>').append($originalPage);
-    pageBeforeRender($originalPage, new URL(window.location.href).pathname);
-    $bookPage.append($originalPage);
+
+    // $originalPage = $('<div class="contents"></div>').append($originalPage);
+    // pageBeforeRender($originalPage, new URL(window.location.href).pathname);
+    // $bookPage.append($originalPage);
 
     /**
      *
