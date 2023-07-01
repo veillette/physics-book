@@ -111,7 +111,7 @@ function parser() {
     const toggleSummary = book.querySelector('.toggle-summary');
 
     toggleSummary.addEventListener('click', function (evt) {
-       book.classList.toggle('with-summary');
+        book.classList.toggle('with-summary');
         evt.preventDefault();
     });
 
@@ -513,11 +513,11 @@ function parser() {
                 break;
             case "ArrowUp":
                 // Up pressed
-                link = document.querySelector('.book .navigation-prev');
+                link = null;
                 break;
             case "ArrowDown":
                 // Down pressed
-                link = document.querySelector('.book .navigation-next');
+                link = null;
                 break;
             default:
                 link = null;
