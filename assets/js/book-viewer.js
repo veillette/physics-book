@@ -103,6 +103,7 @@ function parser() {
     const book = document.querySelector('.book');
     const $book = $body.find('.book');
     const $bookPage = $book.find('.page-inner > .normal');
+    const bookPage = document.querySelector('.page-inner > .normal');
     const bookSummary = document.querySelector('.book-summary');
     const bookTitle = document.querySelector('.book-title');
     const bookBody = document.querySelector('.book-body');
@@ -188,6 +189,119 @@ function parser() {
             bookBody.appendChild(nextPage);
         }
     };
+
+    /**
+     *
+     * @param els
+     * @param {string} href
+     * @returns {undefined|*}
+     */
+    const newPageBeforeRender = (els, href) => {
+
+        els.querySelectorAll('a[href]').forEach(el => {
+            mdToHtmlFix(el);
+        })
+
+        els.querySelectorAll('img[title]').forEach(img => {
+            const id = img.getAttribute('id');
+            img.removeAttribute('id');
+            const figure = document.createElement('figure');
+            img.parentNode.insertBefore(figure, img);
+            figure.appendChild(img);
+            const caption = document.createElement('figcaption');
+            caption.textContent = img.getAttribute('title');
+            figure.appendChild(caption);
+            if (img.getAttribute('data-title')) {
+                const title = document.createElement('div');
+                title.className = 'title';
+                title.textContent = img.getAttribute('data-title');
+                figure.insertBefore(title, img);
+            }
+            figure.setAttribute('id', id);
+        });
+
+        els.querySelectorAll('.example, .exercise, .note').forEach(function (el) {
+            const contents = Array.from(el.childNodes).filter(function (node) {
+                return !node.classList || !node.classList.contains('title');
+            });
+            const section = document.createElement('section');
+            contents.forEach(function (node) {
+                section.appendChild(node);
+            });
+            const title = $el.querySelector('.title');
+            el.insertBefore(title, el.firstChild);
+            const header = document.createElement('header');
+            header.appendChild(title);
+            el.insertBefore(header, el.firstChild);
+            title.setAttribute('data-label-parent', el.getAttribute('data-label'));
+            el.classList.toggle('ui-has-child-title', title !== null);
+        });
+
+        els.querySelectorAll('.solution').forEach(function (solution) {
+            const body = document.createElement('section');
+            while (solution.firstChild) {
+                body.appendChild(solution.firstChild);
+            }
+            solution.appendChild(body);
+            const toggleWrapper = document.createElement('div');
+            toggleWrapper.className = 'ui-toggle-wrapper';
+            solution.insertBefore(toggleWrapper, solution.firstChild);
+            const toggleButton = document.createElement('button');
+            toggleButton.className = 'btn-link ui-toggle';
+            toggleButton.setAttribute('title', 'Show/Hide Solution');
+            toggleWrapper.appendChild(toggleButton);
+            toggleButton.addEventListener('click', function (e) {
+                const solution = e.currentTarget.closest('.solution');
+                solution.classList.toggle('ui-solution-visible');
+            });
+        });
+
+        els.querySelectorAll('figure:has(> figcaption)').forEach(function (figure) {
+            figure.classList.add('ui-has-child-figcaption');
+        });
+
+        els.querySelectorAll('figcaption').forEach(function (figcaption) {
+            figcaption.parentNode.appendChild(figcaption);
+        });
+
+        const currentPagePath = new URL(href, window.location.href).pathname;
+        const visited = (window.localStorage.visited && JSON.parse(window.localStorage.visited)) || {};
+        visited[currentPagePath] = new Date();
+        window.localStorage.visited = JSON.stringify(visited);
+
+        const listItem = bookSummary.querySelector(".summary li:has(> a[href='" + currentPagePath + "'])");
+
+        if (listItem !== null) {
+            listItem.classList.add('visited');
+            const parentElement = listItem.parentElement.parentElement;
+            parentElement.scrollIntoView();
+        }
+
+        const selector = 'h1, h2, h3, h4, h5, h6';
+        const all = Array.from(els.querySelectorAll(selector)).concat(Array.from(els.querySelectorAll(selector)));
+        all.forEach(function (el) {
+            const id = el.getAttribute('id');
+            if (id) {
+                const icon = document.createElement('i');
+                icon.className = 'fa fa-link';
+                const a = document.createElement('a');
+                a.className = 'header-link';
+                a.setAttribute('href', '#' + id);
+                a.appendChild(icon);
+                el.insertBefore(a, el.firstChild);
+            }
+        });
+
+        if (typeof MathJax.startup !== "undefined" && MathJax.startup !== null) {
+            MathJax.startup.promise = MathJax.startup.promise
+                .then(() => MathJax.typesetPromise(els))
+                .catch((err) => console.log('Typeset failed: ' + err.message));
+            return MathJax.startup.promise;
+        } else {
+            return void 0;
+        }
+    };
+
 
     /**
      *
@@ -450,8 +564,9 @@ function parser() {
             pageBeforeRender(page, href);
             $bookPage.append(page); // TODO: Strip out title and meta tags
             book.classList.remove('loading');
+
             //    # Scroll to top of the page after loading
-            return $('.body-inner').scrollTop(0);
+            document.querySelector('.body-inner').scrollTop = 0;
         });
 
         return promise;
