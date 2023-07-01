@@ -102,6 +102,7 @@ function parser() {
     // Pull out all the interesting DOM nodes from the template
     const $book = body.find('.book');
     const $bookSummary = $book.find('.book-summary');
+    const bookSummary = document.querySelector('.book-summary');
     const $bookPage = $book.find('.page-inner > .normal');
     const bookTitle = document.querySelector('.book-title');
     const bookBody = document.querySelector('.book-body');
@@ -142,21 +143,19 @@ function parser() {
 
         const currentPagePath = new URL(window.location.href).pathname;
 
-
-        const $bookSummary = document.querySelector('.book-summary');
         const currentPageLi =
-            $bookSummary.querySelector(".summary li:has(> a[href='" + currentPagePath + "'])");
+            bookSummary.querySelector(".summary li:has(> a[href='" + currentPagePath + "'])");
         if (currentPageLi) {
             currentPageLi.parentNode.parentNode.scrollIntoView();
         }
 
         const existingSummary =
-            $bookSummary.querySelector('.summary');
+            bookSummary.querySelector('.summary');
         if (existingSummary) {
             existingSummary.remove();
         }
 
-        $bookSummary.appendChild(summary);
+        bookSummary.appendChild(summary);
 
         renderNextPrev();
     };
