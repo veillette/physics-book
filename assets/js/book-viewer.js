@@ -111,7 +111,7 @@ function parser() {
     const toggleSummary = book.querySelector('.toggle-summary');
 
     toggleSummary.addEventListener('click', function (evt) {
-        book.querySelector('.book').classList.toggle('with-summary');
+        body.querySelector('.book').classList.toggle('with-summary');
         evt.preventDefault();
     });
 
