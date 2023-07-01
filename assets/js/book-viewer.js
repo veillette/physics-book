@@ -101,9 +101,8 @@ function parser() {
 
     // Pull out all the interesting DOM nodes from the template
     const $book = body.find('.book');
-    const $bookSummary = $book.find('.book-summary');
-    const bookSummary = document.querySelector('.book-summary');
     const $bookPage = $book.find('.page-inner > .normal');
+    const bookSummary = document.querySelector('.book-summary');
     const bookTitle = document.querySelector('.book-title');
     const bookBody = document.querySelector('.book-body');
     const toggleSummary = document.querySelector('.toggle-summary');
@@ -252,9 +251,16 @@ function parser() {
         const visited = window.localStorage.visited && JSON.parse(window.localStorage.visited) || {};
         visited[currentPagePath] = new Date();
         window.localStorage.visited = JSON.stringify(visited);
-        if ((_ref2 = $bookSummary.find(".summary li:has(> a[href='" + currentPagePath + "'])").addClass('visited').parent().parent()[0]) != null) {
-            _ref2.scrollIntoView();
+
+        const listItem = bookSummary.querySelector(".summary li:has(> a[href='" + currentPagePath + "'])");
+
+        if (listItem !== null) {
+            listItem.classList.add('visited');
+            const parentElement = listItem.parentElement.parentElement;
+            parentElement.scrollIntoView();
         }
+
+
         const selector = 'h1, h2, h3, h4, h5, h6';
         const all = els.filter(selector).add(els.find(selector));
         all.each(function (i, el) {
