@@ -456,7 +456,7 @@ function parser() {
             }
         }).then(response => response.text());
 
-        const promise = Promise.resolve(requestPromise).then(function (html) {
+        return Promise.resolve(requestPromise).then(function (html) {
             //# Use `window.location.origin` to get around a <base href=""> pointing to another hostname
             if (!/https?:\/\//.test(href)) {
                 href = "" + window.location.origin + href;
@@ -494,8 +494,6 @@ function parser() {
             //    # Scroll to top of the page after loading
             document.querySelector('.body-inner').scrollTop = 0;
         });
-
-        return promise;
     };
 
     document.body.addEventListener('keydown', function (event) {
