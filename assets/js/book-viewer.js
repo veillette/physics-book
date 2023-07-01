@@ -95,23 +95,27 @@ const mdToHtmlFix = (a) => {
 function parser() {
     //# Squirrel the body and replace it with the template:
     const $body = $('body');
-    let $originalPage = $body.contents();
-    $body.contents().remove();
-    $body.append(BOOK_TEMPLATE);
-    const $book = $body.find('.book');
-    const $bookPage = $book.find('.page-inner > .normal');
-
 
     // Pull out all the interesting DOM nodes from the template
-    const book = document.querySelector('.book');
-    const bookPage = document.querySelector('.page-inner > .normal');
-    const bookSummary = document.querySelector('.book-summary');
-    const bookTitle = document.querySelector('.book-title');
-    const bookBody = document.querySelector('.book-body');
-    const toggleSummary = document.querySelector('.toggle-summary');
+    const body = document.body;
+
+    let $originalPage = $body.contents();
+    let originalPage = Array.from(body.childNodes);
+
+    body.innerHTML = '';
+    body.insertAdjacentHTML('beforeend', BOOK_TEMPLATE);
+
+    const $book = $body.find('.book');
+    const $bookPage = $book.find('.page-inner > .normal');
+    const book = body.querySelector('.book');
+    const bookPage = book.querySelector('.page-inner > .normal');
+    const bookSummary = book.querySelector('.book-summary');
+    const bookTitle = book.querySelector('.book-title');
+    const bookBody = book.querySelector('.book-body');
+    const toggleSummary = book.querySelector('.toggle-summary');
 
     toggleSummary.addEventListener('click', function (evt) {
-        document.querySelector('.book').classList.toggle('with-summary');
+        book.querySelector('.book').classList.toggle('with-summary');
         evt.preventDefault();
     });
 
@@ -193,7 +197,7 @@ function parser() {
 
     /**
      *
-     * @param els
+     * @param {Element} els
      * @param {string} href
      * @returns {undefined|*}
      */
@@ -229,12 +233,23 @@ function parser() {
             contents.forEach(function (node) {
                 section.appendChild(node);
             });
+
             const title = el.querySelector('.title');
-            el.insertBefore(title, el.firstChild);
+            // el.insertBefore(title, el.firstChild);
+
             const header = document.createElement('header');
-            header.appendChild(title);
+            header.append(title);
             el.insertBefore(header, el.firstChild);
-            title.setAttribute('data-label-parent', el.getAttribute('data-label'));
+
+
+            // Add an attribute for the parents' `data-label`
+            // since CSS does not support `parent(attr(data-label))`.
+            // When the title exists, this attribute is added before it
+            const dataLabelParent = el.getAttribute('data-label');
+            if (title) {
+                title.setAttribute('data-label-parent', dataLabelParent);
+            }
+
             el.classList.toggle('ui-has-child-title', title !== null);
         });
 
@@ -292,6 +307,7 @@ function parser() {
                 el.insertBefore(a, el.firstChild);
             }
         });
+
 
         if (typeof MathJax.startup !== "undefined" && MathJax.startup !== null) {
             MathJax.startup.promise = MathJax.startup.promise
@@ -518,7 +534,7 @@ function parser() {
         book.prepend(baseTag);
     }
 
-    
+
     $originalPage = $('<div class="contents"></div>').append($originalPage);
     pageBeforeRender($originalPage, new URL(window.location.href).pathname);
     $bookPage.append($originalPage);
@@ -557,30 +573,27 @@ function parser() {
                 book.prepend(baseTag);
             }
 
-            const $html = $("<div>" + html + "</div>");
-            $html.children('meta, link, script, title').remove();
-            $bookPage.contents().remove();
-            const $page = $('<div class="contents"></div>').append($html.children());
-            pageBeforeRender($page, href);
-            $bookPage.append($page); // TODO: Strip out title and meta tags
+            // const $html = $("<div>" + html + "</div>");
+            // $html.children('meta, link, script, title').remove();
+            // $bookPage.contents().remove();
+            // const $page = $('<div class="contents"></div>').append($html.children());
+            // pageBeforeRender($page, href);
+            // $bookPage.append($page); // TODO: Strip out title and meta tags
 
 
             ////////////// ALTERNATE
-            // const htmlDivElement = document.createElement('div');
-            // htmlDivElement.innerHTML = html;
-            // htmlDivElement.querySelectorAll('meta, link, script, title').forEach(function (el) {
-            //     el.remove();
-            // });
-            //
-            // // bookPage.innerHTML = '';
-            // const altPage = document.createElement('div');
-            // altPage.className = 'contents';
-            // htmlDivElement.childNodes.forEach(function (childNode) {
-            //     altPage.appendChild(childNode);
-            // });
+            const htmlDivElement = document.createElement('div');
+            htmlDivElement.innerHTML = html;
+            htmlDivElement.querySelectorAll('meta, link, script, title').forEach(function (el) {
+                el.remove();
+            });
 
-            // newPageBeforeRender(altPage, href);
-            // bookPage.appendChild(altPage);
+            bookPage.innerHTML = '';
+            const altPage = document.createElement('div');
+            altPage.className = 'contents';
+            altPage.append(...htmlDivElement.childNodes);
+            newPageBeforeRender(altPage, href);
+            bookPage.append(altPage);
 
             /////////////////////////////////////////////
 
