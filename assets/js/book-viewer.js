@@ -518,6 +518,7 @@ function parser() {
         book.prepend(baseTag);
     }
 
+    
     $originalPage = $('<div class="contents"></div>').append($originalPage);
     pageBeforeRender($originalPage, new URL(window.location.href).pathname);
     $bookPage.append($originalPage);
@@ -556,13 +557,33 @@ function parser() {
                 book.prepend(baseTag);
             }
 
-
             const $html = $("<div>" + html + "</div>");
             $html.children('meta, link, script, title').remove();
             $bookPage.contents().remove();
-            const page = $('<div class="contents"></div>').append($html.children());
-            pageBeforeRender(page, href);
-            $bookPage.append(page); // TODO: Strip out title and meta tags
+            const $page = $('<div class="contents"></div>').append($html.children());
+            pageBeforeRender($page, href);
+            $bookPage.append($page); // TODO: Strip out title and meta tags
+
+
+            ////////////// ALTERNATE
+            // const htmlDivElement = document.createElement('div');
+            // htmlDivElement.innerHTML = html;
+            // htmlDivElement.querySelectorAll('meta, link, script, title').forEach(function (el) {
+            //     el.remove();
+            // });
+            //
+            // // bookPage.innerHTML = '';
+            // const altPage = document.createElement('div');
+            // altPage.className = 'contents';
+            // htmlDivElement.childNodes.forEach(function (childNode) {
+            //     altPage.appendChild(childNode);
+            // });
+
+            // newPageBeforeRender(altPage, href);
+            // bookPage.appendChild(altPage);
+
+            /////////////////////////////////////////////
+
             book.classList.remove('loading');
 
             //    # Scroll to top of the page after loading
