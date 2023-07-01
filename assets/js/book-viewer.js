@@ -498,6 +498,39 @@ function parser() {
         return promise;
     };
 
+    document.body.addEventListener('keydown', function (event) {
+        const key = event.key; // "ArrowRight", "ArrowLeft", "ArrowUp", or "ArrowDown"
+
+        let link;
+        switch (key) {
+            case "ArrowLeft":
+                // Left pressed
+                link = document.querySelector('.book .navigation-prev');
+                break;
+            case "ArrowRight":
+                // Right pressed
+                link = document.querySelector('.book .navigation-next');
+                break;
+            case "ArrowUp":
+                // Up pressed
+                link = document.querySelector('.book .navigation-prev');
+                break;
+            case "ArrowDown":
+                // Down pressed
+                link = document.querySelector('.book .navigation-next');
+                break;
+            default:
+                link = null;
+                break;
+        }
+
+        if (!document.activeElement.matches('.book-search-input')) {
+            if (link !== null) {
+                link.click();
+            }
+        }
+    });
+
     document.body.addEventListener('click', function (evt) {
         let target = evt.target;
         while (target && target.tagName !== 'A') {
@@ -513,7 +546,6 @@ function parser() {
             changePage(href);
         }
     });
-
 }
 
 docReady(parser);
