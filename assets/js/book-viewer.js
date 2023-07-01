@@ -94,13 +94,14 @@ const mdToHtmlFix = (a) => {
 
 function parser() {
     //# Squirrel the body and replace it with the template:
-    const body = $('body');
-    let originalPage = body.contents();
-    body.contents().remove();
-    body.append(BOOK_TEMPLATE);
+    const $body = $('body');
+    let $originalPage = $body.contents();
+    $body.contents().remove();
+    $body.append(BOOK_TEMPLATE);
 
     // Pull out all the interesting DOM nodes from the template
-    const $book = body.find('.book');
+    const book = document.querySelector('.book');
+    const $book = $body.find('.book');
     const $bookPage = $book.find('.page-inner > .normal');
     const bookSummary = document.querySelector('.book-summary');
     const bookTitle = document.querySelector('.book-title');
@@ -394,12 +395,18 @@ function parser() {
 
     //  # Fetch resources without fixing up their paths
     if (BookConfig.baseHref) {
-        $book.find('base').remove();
-        $book.prepend("<base href='" + BookConfig.baseHref + "'/>");
+        const baseElement = book.querySelector('base');
+        if (baseElement) {
+            baseElement.remove();
+        }
+        const baseTag = document.createElement('base');
+        baseTag.setAttribute('href', BookConfig.baseHref);
+        book.prepend(baseTag);
     }
-    originalPage = $('<div class="contents"></div>').append(originalPage);
-    pageBeforeRender(originalPage, new URL(window.location.href).pathname);
-    $bookPage.append(originalPage);
+
+    $originalPage = $('<div class="contents"></div>').append($originalPage);
+    pageBeforeRender($originalPage, new URL(window.location.href).pathname);
+    $bookPage.append($originalPage);
 
     /**
      *
@@ -407,7 +414,7 @@ function parser() {
      * @returns {Promise<string>}
      */
     const changePage = (href) => {
-        $book.addClass('loading');
+        book.classList.add('loading');
 
         const requestPromise = fetch(BookConfig.urlFixer(href), {
             headers: {
@@ -426,16 +433,23 @@ function parser() {
             // Need to set the URL *before* <img> tags area created
             // Fetch resources without fixing up their paths
             if (BookConfig.baseHref) {
-                $book.find('base').remove();
-                $book.prepend("<base href='" + (BookConfig.urlFixer(href)) + "'/>");
+                const baseElement = book.querySelector('base');
+                if (baseElement) {
+                    baseElement.remove();
+                }
+                const baseTag = document.createElement('base');
+                baseTag.setAttribute('href', BookConfig.urlFixer(href));
+                book.prepend(baseTag);
             }
+
+
             const $html = $("<div>" + html + "</div>");
             $html.children('meta, link, script, title').remove();
             $bookPage.contents().remove();
             const page = $('<div class="contents"></div>').append($html.children());
             pageBeforeRender(page, href);
             $bookPage.append(page); // TODO: Strip out title and meta tags
-            $book.removeClass('loading');
+            book.classList.remove('loading');
             //    # Scroll to top of the page after loading
             return $('.body-inner').scrollTop(0);
         });
