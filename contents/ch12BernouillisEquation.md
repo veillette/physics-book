@@ -41,7 +41,7 @@ the mid-1800s, when it was found that trains passing in opposite directions
 tipped precariously toward one another.
 
 ![An overhead view of a car passing by a truck on a highway toward left is shown. The air passing through the vehicles is shown using lines along the length of both the vehicles. The lines representing the air movement has a velocity v one outside the area between the vehicles and velocity v two between the vehicles. v two is shown to be greater than v one with the help of a longer arrow toward right. The pressure between the car and the truck is represented by P i and the pressure at the other ends of both the vehicles is represented as P zero. The pressure P i is shown to be less than P zero by shorter length of the arrow. The direction of P i is shown as pushing the car and truck apart, and the direction of P zero is shown as pushing the car and truck toward each other.](../resources/Figure_12_02_01a.jpg "An overhead view of a car passing a truck on a highway. Air passing between the vehicles flows in a narrower channel and must increase its speed (\( v_{2} \) is greater than \( v_{1} \) ), causing the pressure between them to drop (\( P_{i} \) is less than \( P_{o} \)). Greater pressure on the outside pushes the car and truck together.")
-{: #Figure1}
+{ #Figure1}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -213,7 +213,7 @@ draining swamps, fields, or other low-lying areas. Some other devices that use
 the concept of entrainment are shown in [[Figure 2]](#Figure2).
 
 ![Part a of the figure shows a rectangular section of a cylindrical Bunsen burner as a vertical column. The natural gas is shown to enter the rectangular column from the bottom upward. The air is shown to enter though a nozzle at the left side near the bottom part of the rectangular column and rise upward. Both air and natural gas are shown to rise up together along the length of the column, shown as vertical arrows along the length pointing upward. Part b of the figure shows an atomizer that uses a squeeze bulb in the shape of a small sphere to create a jet of air that entrains drops of perfume contained in a spherical bottomed container. The air is shown to come out of the squeeze bulb and the perfume is shown to rise up from the spherical bottomed container. Part c of the figure shows a common aspirator which contains a cylindrical tube held vertically. The tube is broader on the top and narrow at the bottom. Water is shown to enter the tube from the broader region and flow toward the narrow region. Air is shown to enter the cylindrical tube from the bottom part of the broader side and also flow toward the narrow tube. Part d of the figure shows the chimney of a water heater. Water heater is shown as a rectangular box at the bottom having a cylindrical section in the middle. The cylindrical section is broader at the bottom and narrow toward the top. Hot air is shown to rise up along the vertical section of the cylindrical tube. The chimney is conical at the bottom and rectangular upward and is shown above the rectangular water heater. The hot air enters the chimney at the conical end and rises upward. Cool air is shown to enter the chimney through the area between the rectangular section of heater and chimney from the two sides and rise up along the chimney with the hot air as shown by vertical arrows.](../resources/Figure_12_02_02a.jpg "Examples of entrainment devices that use increased fluid speed to create low pressures, which then entrain one fluid into another. (a) A Bunsen burner uses an adjustable gas nozzle, entraining air for proper combustion. (b) An atomizer uses a squeeze bulb to create a jet of air that entrains drops of perfume. Paint sprayers and carburetors use very similar techniques to move their respective liquids. (c) A common aspirator uses a high-speed stream of water to create a region of lower pressure. Aspirators may be used as suction pumps in dental and surgical situations or for draining a flooded basement or producing a reduced pressure in a vessel. (d) The chimney of a water heater is designed to entrain air into the pipe leading through the ceiling.")
-{: #Figure2}
+{ #Figure2}
 
 #### Wings and Sails
 
@@ -253,7 +253,7 @@ This means that Bernoulli’s principle as stated in $${P}_{1}+\frac{1}{2}\rho v
 </div>
 
 ![Part a of the figure shows a picture of a wing. It is in the form of an aerofoil. One side of the wing is broader and the other end tapers. The direction of the air is shown as lines along the length of the wing. The direction of the air below the wing is shown as flowing along the length of the wing. The pressure exerted by the air given by P b is upward. The direction of the air on the top or front part of the wing is shown as flowing along the length of the wing. The pressure exerted by the air is given by P f, and it acts downward. Part b of the figure shows a boat with a sail. The direction of the sail is almost across the boat. The direction of the air in the sail is shown by lines on the front and back sides of the sail. The air currents on the front exert a pressure P front toward the sail, and air currents on the back sides of sail exert a pressure P back again toward the sail.](../resources/Figure_12_02_03.jpg "(a) The Bernoulli principle helps explain lift generated by a wing. (b) Sails use the same technique to generate part of their thrust.")
-{: #Figure3}
+{ #Figure3}
 
 Thus pressure $${P}_{2} $$ over the second opening is reduced by
 $$\frac{1}{2}\rho v_{2}^{2} $$ , and so the fluid in the manometer rises by $$h
@@ -275,7 +275,7 @@ for measuring various fluid velocities; such devices are frequently used as air
 speed indicators in aircraft.
 
 ![Part a shows a U-shaped manometer tube connected to ends of two tubes which are placed close together. Tube one is open on the end and shows a velocity v one equals zero at the end. Tube two has an opening on the side and shows a velocity v two across the opening. The level of fluid in the U-shaped tube is more on the right side than on the left. The difference in height is shown by h. Part b of the figure shows a velocity measuring device a pitot tube. Two coaxial tubes, one broader outside and other narrow inside are connected to a U-shaped tube. The U-shaped tube is also narrow at one end and broader at the other. The narrow end of the U-shaped tube is connected to the narrow inner tube and the broader end of the U-shaped tube is connected to the broader outer tube. The tube one has an opening at one of its edges and the velocity of the fluid at the end is v one equals zero. Tube two has an opening on the side and shows a velocity v two across the opening. The level of fluid in the U-shaped tube is more on the right side than on the left. The difference in height is shown by h.](../resources/Figure_12_02_04a.jpg "Measurement of fluid speed based on Bernoulli&#x2019;s principle. (a) A manometer is connected to two tubes that are close together and small enough not to disturb the flow. Tube 1 is open at the end facing the flow. A dead spot having zero speed is created there. Tube 2 has an opening on the side, and so the fluid has a speed \( v \); across the opening; thus, pressure there drops. The difference in pressure at the manometer is \( 1/2 \rho v^2_2 \) , and so \( h \) is proportional to \( 1/2 \rho v^2_2 \). (b) This type of velocity measuring device is a Prandtl tube, also known as a pitot tube.")
-{: #Figure4}
+{ #Figure4}
 
 ### Summary
 
@@ -338,7 +338,7 @@ Many entrainment devices have a constriction, called a Venturi, such as shown in
 </div>
 
 ![Figure shows a venturi tube, a cylindrical tube broader at both the ends and narrow in the middle. The narrow part is labeled as venturi constriction. The flow of fluid is shown as horizontal arrows along the length of the tube toward the right. The flow lines are closer in the center and spread apart at both the ends. There is an opening on the top portion of the narrow section for the entrained fluid to enter.](../resources/Figure_12_02_05a.jpg "A tube with a narrow segment designed to enhance entrainment is called a Venturi. These are very commonly used in carburetors and aspirators.")
-{: #Figure5}
+{ #Figure5}
 
 <div class="exercise"  data-element-type="conceptual-questions">
 <div class="problem"  markdown="1">
@@ -394,7 +394,7 @@ Water pressure inside a hose nozzle can be less than atmospheric pressure due to
 A perfume bottle or atomizer sprays a fluid that is in the bottle. ([[Figure 6]](#Figure6).) How does the fluid rise up in the vertical tube in the bottle?
 
 ![A perfume bottle with a spray cap.](../resources/Figure_12_02_06a.jpg "Atomizer: perfume bottle with tube to carry perfume up through the bottle. (credit: Antonia Foy, Flickr)")
-{: #Figure6}
+{ #Figure6}
 
 </div>
 </div>
@@ -493,7 +493,7 @@ where  $$h $$
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 Bernoulli’s equation
 : the equation resulting from applying conservation of energy to an

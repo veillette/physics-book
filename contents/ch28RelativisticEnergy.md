@@ -11,7 +11,7 @@ layout: page
 </div>
 
 ![This photo shows the outside of the fusion reactor of the National Spherical Torus Experiment at the Princeton Plasma Physics Laboratory. The reactor, which sits in a large room, is connected to numerous tubes and instruments.](../resources/Figure_28_06_01a.jpg "The National Spherical Torus Experiment (NSTX) has a fusion reactor in which hydrogen isotopes undergo fusion to produce helium. In this process, a relatively small mass of fuel is converted into a large amount of energy. (credit: Princeton Plasma Physics Laboratory)")
-{: #Figure1}
+{ #Figure1}
 
 A tokamak is a form of experimental fusion reactor, which can change mass to
 energy. Accomplishing this requires an understanding of relativistic energy.
@@ -140,7 +140,7 @@ there was broad recognition that mass could be and, in fact, commonly is
 converted to energy. (See [[Figure 2]](#Figure2).)
 
 ![Part a of the figure shows a solar storm on the Sun. Part b of the figure shows the Susquehanna Steam Electric Station, which produces electricity by nuclear fission.](../resources/Figure_28_06_02a.jpg "The Sun (a) and the Susquehanna Steam Electric Station (b) both convert mass into energy&#x2014;the Sun via nuclear fusion, the electric station via nuclear fission. (credits: (a) NASA/Goddard Space Flight Center, Scientific Visualization Studio; (b) U.S. government) ")
-{: #Figure2}
+{ #Figure2}
 
 Because of the relationship of rest energy to mass, we now consider mass to be a
 form of energy rather than something separate. There had not even been a hint of
@@ -330,7 +330,7 @@ experiments. No matter how much energy is put into accelerating a mass, its
 velocity can only approach—not reach—the speed of light.
 
 ![In this figure a graph is shown on a coordinate system of axes. The x-axis is labeled as speed v (m/s). On the x-axis, velocity of the object is shown in terms of the speed of light starting from zero at origin to c, where c is the speed of light. The y-axis is labeled as Kinetic Energy K E (J). On the y-axis, relativistic kinetic energy is shown starting from 0 at origin to 1.0. The graph K sub r e l of relativistic kinetic energy is concave up and moving upward along the vertical line at x equals c. This graph shows that relativistic kinetic energy approaches infinity as the velocity of an object approaches the speed of light. Also shown is that when the speed of the object is equal to the speed of light c the kinetic energy is known as classical kinetic energy, which is denoted as K E sub class.](../resources/Figure_28_06_03a.jpg "This graph of \( \text{KE}_\text{rel} \) versus velocity shows how kinetic energy approaches infinity as velocity approaches the speed of light. It is thus not possible for an object having mass to reach the speed of light. Also shown is \( \text{KE}_\text{class} \), the classical kinetic energy, which is similar to relativistic kinetic energy at low velocities. Note that much more energy is required to reach high velocities than predicted classically. ")
-{: #Figure3}
+{ #Figure3}
 
 <div class="example" markdown="1">
 <div class="title">
@@ -424,7 +424,7 @@ particles and some of their characteristics will be covered
 in [Particle Physics](../contents/ch33ParticlePhysics).
 
 ![An aerial view of the Fermi National Accelerator Laboratory. The accelerator has two large, ring shaped structures. There are circular ponds near the rings.](../resources/Figure_28_06_04a.jpg "The Fermi National Accelerator Laboratory, near Batavia, Illinois, was a subatomic particle collider that accelerated protons and antiprotons to attain energies up to 1 Tev (a trillion electronvolts). The circular ponds near the rings were built to dissipate waste heat. This accelerator was shut down in September 2011. (credit: Fermilab, Reidar Hahn)")
-{: #Figure4}
+{ #Figure4}
 
 </div>
 
@@ -482,7 +482,7 @@ Problem-Solving Strategies for Relativity
 5.   <em> Determine the primary type of calculation to be done to find the unknowns identified above.</em> You will find the section summary helpful in determining whether a length contraction, relativistic kinetic energy, or some other concept is involved.
 6.   <em> Do not round off during the calculation.</em> As noted in the text, you must often perform your calculations to many digits to see the desired effect. You may round off at the very end of the problem, but do not use a rounded number in a subsequent calculation.
 7.   <em> Check the answer to see if it is reasonable: Does it make sense?</em> This may be more difficult for relativity, since we do not encounter it directly. But you can look for velocities greater than $$c $$ or relativistic effects that are in the wrong direction (such as a time contraction where a dilation was expected).
-{: type="1" .stepwise}
+{ type="1" .stepwise}
 
 </div>
 
@@ -918,7 +918,7 @@ propellants.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 total energy
 : defined as $$E=\gamma mc^{2} $$ , where $$\gamma =\frac{1}{\sqrt{1-\frac{

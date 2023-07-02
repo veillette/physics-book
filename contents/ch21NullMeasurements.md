@@ -36,7 +36,7 @@ $$ , and so emf could be directly measured. However, standard voltmeters need a
 current to operate; thus, another technique is needed.
 
 ![The diagram shows equivalence between two circuits. The first circuit has a cell of e m f script E and an internal resistance r connected across a voltmeter. The equivalent circuit on the right shows the same cell of e m f script E and an internal resistance r connected across a series combination of a galvanometer with an internal resistance r sub G and high resistance R. The currents in the two circuits are shown to be equal.](../resources/Figure_21_05_01.jpg "An analog voltmeter attached to a battery draws a small but nonzero current and measures a terminal voltage that differs from the emf of the battery. (Note that the script capital E symbolizes electromotive force, or emf.) Since the internal resistance of the battery is not known precisely, it is not possible to calculate the emf precisely.")
-{: #Figure1}
+{ #Figure1}
 
 A **potentiometer** is a null measurement device for measuring potentials (
 voltages). (See [[Figure 2]](#Figure2).) A voltage source is connected to a
@@ -73,7 +73,7 @@ Solving for $${\text{emf}}_{x} $$ gives
 </div>
 
 ![Two circuits are shown. The first circuit has a cell of e m f script E and internal resistance r connected in series to a resistor R. The second diagram shows the same circuit with the addition of a galvanometer and unknown voltage source connected with a variable contact that can be adjusted up and down the length of the resistor R.](../resources/Figure_21_05_02.jpg "The potentiometer, a null measurement device. (a) A voltage source connected to a long wire resistor passes a constant current \( I \) through it. (b) An unknown emf (labeled script \( E_x \) in the figure) is connected as shown, and the point of contact along \( R \) is adjusted until the galvanometer reads zero. The segment of wire has a resistance \( R_{x} \) and \( E_{x}=I R_{x}\) , where \( I \) is unaffected by the connection since no current flows through the galvanometer. The unknown emf is thus proportional to the resistance of the wire segment.")
-{: #Figure2}
+{ #Figure2}
 
 Because a long uniform wire is used for $$R $$ , the ratio of resistances $${R}_
 {\text{x}}/{R}_{\text{s}} $$ is the same as the ratio of the lengths of wire
@@ -98,7 +98,7 @@ configurations are limited in accuracy, because the meters alter both the
 voltage applied to the resistor and the current that flows through it.
 
 ![The diagram shows two circuits. The first one has a cell of e m f script E and internal resistance r connected in series to an ammeter A and a resistor R. The second circuit is the same as the first, but in addition there is a voltmeter connected across the voltage source E.](../resources/Figure_21_05_03.jpg "Two methods for measuring resistance with standard meters. (a) Assuming a known voltage for the source, an ammeter measures current, and resistance is calculated as \( R=V/I \) . (b) Since the terminal voltage \( V \) varies with current, it is better to measure it. \( V \) is most accurately known when \( I \) is small, but \( I \) itself is most accurately known when it is large.")
-{: #Figure3}
+{ #Figure3}
 
 The **Wheatstone bridge** is a null measurement device for calculating
 resistance by balancing potential drops in a circuit. (
@@ -141,7 +141,7 @@ Canceling the currents and solving for R<sub>x</sub> yields
 </div>
 
 ![This complex circuit diagram shows a galvanometer connected in the center arm of a Wheatstone bridge arrangement. All the other four arms have a resistor. The bridge is connected to a cell of e m f script E and internal resistance r.](../resources/Figure_21_05_04.jpg "The Wheatstone bridge is used to calculate unknown resistances. The variable resistance \( R_{3} \) is adjusted until the galvanometer reads zero with the switch closed. This simplifies the circuit, allowing \( R_{x} \) to be calculated based on the \( IR \) drops as discussed in the text.")
-{: #Figure4}
+{ #Figure4}
 
 This equation is used to calculate the unknown resistance when current through
 the galvanometer is zero. This method can be very accurate (often to four
@@ -282,7 +282,7 @@ Suppose you want to measure resistances in the range from  $$ 10.0 \Omega  $$
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 null measurements
 : methods of measuring current and voltage more accurately by balancing the

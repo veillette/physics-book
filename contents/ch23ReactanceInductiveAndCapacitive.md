@@ -23,7 +23,7 @@ a negligible effect on the circuit. Also shown is a graph of voltage and current
 as functions of time.
 
 ![Part a of the figure describes an A C voltage source V connected across an inductor L. The voltage across the inductance is shown as V L. Part b of the figure describes a graph showing the variation of current and voltage across the inductance as a function of time. The voltage V L and current I L is plotted along the Y axis and the time t is along the X axis. The graph for current is a progressive sine wave from the origin. The graph for voltage V is a cosine wave and an amplitude slightly less than the current wave.](../resources/Figure_23_11_01a.jpg "(a) An AC voltage source in series with an inductor having negligible resistance. (b) Graph of current and voltage across the inductor as functions of time.")
-{: #Figure1}
+{ #Figure1}
 
 The graph in [[Figure 1]](#Figure1)(b) starts with voltage at a maximum. Note
 that the current starts at zero and rises to its peak *after* the voltage that
@@ -138,7 +138,7 @@ assume negligible resistance. Voltage across the capacitor and current are
 graphed as functions of time in the figure.
 
 ![Part a of the figure shows a capacitor C connected across an A C voltage source V. The voltage across the capacitor is given by V C. Part b of the diagram shows a graph for the variation of current and voltage across the capacitor as functions of time. The voltage V C and current I C is plotted along the Y axis and the time t is along the X axis. The graph for current is a progressive sine wave from the origin starting with a wave along the negative Y axis. The graph for voltage is a cosine wave and amplitude slightly less than the current wave.](../resources/Figure_23_11_02a.jpg "(a) An AC voltage source in series with a capacitor C having negligible resistance. (b) Graph of current and voltage across the capacitor as functions of time.")
-{: #Figure2}
+{ #Figure2}
 
 The graph in [[Figure 2]](#Figure2) starts with voltage across the capacitor at
 a maximum. The current is zero at this point, because the capacitor is fully
@@ -257,7 +257,7 @@ voltage and current are exactly **in phase** in a resistor. There is no
 frequency dependence to the behavior of plain resistance in a circuit:
 
 ![Part a of the diagram shows a resistor R connected across an A C voltage source V. The voltage drop across the resistor R is given by V R.Part b of the diagram shows a graph showing the variation of voltage V R and current I R with time t. the V R and current I R are plotted along Y axis and time t is along the X axis. Both I and V are progressive cosine waves. The amplitude of I wave is more than V wave.](../resources/Figure_23_11_03a.jpg "(a) An AC voltage source in series with a resistor. (b) Graph of current and voltage across the resistor as functions of time, showing them to be exactly in phase.  ")
-{: #Figure3}
+{ #Figure3}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -340,7 +340,7 @@ Explain why the capacitor in [[Figure 4]](#Figure4)(a) acts as a low-frequency f
 </div>
 
 ![The figure describes two circuits with two different connections. The first part of the diagram shows circuit one and circuit two connected in series and a capacitor C is connected between them. Both the circuits are shown as grounded. The second part of the diagram shows two circuits circuit one and circuit two connected to each other. At the point of connection one end of the capacitor is connected and the other end of the capacitor is grounded. Both the circuits are shown as grounded.](../resources/Figure_23_11_04a.jpg "Capacitors and inductors. Capacitor with high frequency and low frequency.")
-{: #Figure4}
+{ #Figure4}
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
@@ -488,7 +488,7 @@ power and the likely frequencies of noise coming through the power lines.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 inductive reactance
 : the opposition of an inductor to a change in current; calculated by $${X}_

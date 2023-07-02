@@ -21,7 +21,7 @@ small scale. Particle physics and the questions being asked about the very small
 scales may also have their answers in the very large scales.
 
 ![The photo shows a lot of small bright spots of different shapes and sizes on a black background. Some spots show evidence of an interior spiral structure whereas others are more uniform.](../resources/Figure_34_01_01a.jpg "Take a moment to contemplate these clusters of galaxies, photographed by the Hubble Space Telescope. Trillions of stars linked by gravity in fantastic forms, glowing with light and showing evidence of undiscovered matter. What are they like, these myriad stars? How did they evolve? What can they tell us of matter, energy, space, and time? (credit: NASA, ESA, K. Sharon (Tel Aviv University) and E. Ofek (Caltech))")
-{: #Figure1}
+{ #Figure1}
 
 As has been noted in numerous Things Great and Small vignettes, this is not the
 first time the large has been explained by the small and vice versa. Newton
@@ -49,7 +49,7 @@ large amount of additional matter in galaxies that does not produce light—the
 mysterious dark matter we shall later discuss.
 
 ![The figure contains three images of the Milky Way galaxy. The first is a side view from outer space and shows a long thin grouping of bright stars against a black background. In the middle of this thin line of stars is a bright yellow ball that looks a bit like an egg yolk in the middle of the egg white. The length of the thin line is given as one hundred thousand light years and it thickness is given as two thousand light years. The diameter of the egg-yolk-like cluster in the middle is given as ten thousand light years. Thirty thousand light years to the left of the center of the egg yolk is the Sun. The second image is a view from above of the Milky Way galaxy and shows several spiral arms twisting outward from the center egg-yolk form. The last image is a photograph from Earth of the Milky Way galaxy in the nighttime sky. It shows a dusting of stars in the sky, with a slight concentration of star dust forming a horizontal stripe across the image.](../resources/Figure_34_01_02a.jpg "The Milky Way galaxy is typical of large spiral galaxies in its size, its shape, and the presence of gas and dust. We are fortunate to be in a location where we can see out of the galaxy and observe the vastly larger and fascinating universe around us. (a) Side view. (b) View from above. (c) The Milky Way as seen from Earth. (credits: (a) NASA, (b) Nick Risinger, (c) Andy)")
-{: #Figure2}
+{ #Figure2}
 
 Distances are great even within our galaxy and are measured in light years (the
 distance traveled by light in one year). The average distance between galaxies
@@ -64,7 +64,7 @@ telescopes. The most distant known galaxy is 14 billion light years from Earth�
 truly incredible distance. (See [[Figure 3]](#Figure3).)
 
 ![The first image shows a shining spiral cloud of light and dust. The second image contains three sub images. The first is a large scale view of numerous points of lights and light clouds against a black background. A small square appears in the upper left of the image, and the second image is the zoom-in of this square. In the center of this second image appears a small red dot, which is again boxed in by a square. The third image shows a zoomed-in view of the square from the second image and shows a hazy picture of a circular bright spot surrounded by darker regions.](../resources/Figure_34_01_03a.jpg "(a) Andromeda is the closest large galaxy, at 2 million light years distance, and is very similar to our Milky Way. The blue regions harbor young and emerging stars, while dark streaks are vast clouds of gas and dust. A smaller satellite galaxy is clearly visible. (b) The box indicates what may be the most distant known galaxy, estimated to be 13 billion light years from us. It exists in a much older part of the universe. (credit: NASA, ESA, G. Illingworth (University of California, Santa Cruz), R. Bouwens (University of California, Santa Cruz and Leiden University), and the HUDF09 Team) ")
-{: #Figure3}
+{ #Figure3}
 
 Consider the fact that the light we receive from these vast distances has been
 on its way to us for a long time. In fact, the time in years is the same as the
@@ -133,7 +133,7 @@ was the same 5 billion years ago as now. A similar calculation in Hubble’s
 measurement changed the notion that the universe is in a steady state.
 
 ![A graph of red shift versus distance that contains a lot of points through which fits a straight line passing through the origin.](../resources/Figure_34_01_04a.jpg "This graph of red shift versus distance for galaxies shows a linear relationship, with larger red shifts at greater distances, implying an expanding universe. The slope gives an approximate value for the expansion rate. (credit: John Cub).")
-{: #Figure4}
+{ #Figure4}
 
 One of the most intriguing developments recently has been the discovery that the
 expansion of the universe may be *faster now* than in the past, rather than
@@ -156,7 +156,7 @@ into a Big Crunch? And is there other evidence of the Big Bang besides the
 well-documented red shifts?
 
 ![The figure shows an artist&#x2019;s rendition of galaxies of different shapes moving away from the center, where a spiral galaxy labeled M W is located.](../resources/Figure_34_01_05a.jpg "Galaxies are flying apart from one another, with the more distant moving faster as if a primordial explosion expelled the matter from which they formed. The most distant known galaxies move nearly at the speed of light relative to us. ")
-{: #Figure5}
+{ #Figure5}
 
 The Russian-born American physicist George Gamow (1904–1968) was among the first
 to note that, if there was a Big Bang, the remnants of the primordial fireball
@@ -182,7 +182,7 @@ universe as fact. Penzias and Wilson shared the 1978 Nobel Prize in Physics for
 their discovery.
 
 ![Figure a shows an artist&#x2019;s rendition of the Big Bang explosion. Here, the explosion is depicted as a flash of light then a nonuniform purple-colored sphere containing galaxies. With each galaxy is associated an arrow pointing radially outward. The length of the arrows varies from one galaxy to the next. Figure b shows a graph of intensity versus wavelength. The intensity is on an arbitrary scale and the wavelength ranges from zero point five to 10 millimeters. The intensity begins at zero point two then rises sharply to one point two at a wavelength of one millimeter. It then descends to near zero by ten millimeters.](../resources/Figure_34_01_06a.jpg "(a) The Big Bang is used to explain the present observed expansion of the universe. It was an incredibly energetic explosion some 10 to 20 billion years ago. After expanding and cooling, galaxies form inside the now-cold remnants of the primordial fireball. (b) The spectrum of cosmic microwave radiation is the most perfect blackbody spectrum ever detected. It is characteristic of a temperature of 2.725 K, the expansion-cooled temperature of the Big Bang&#x2019;s remnant. This radiation can be measured coming from any direction in space not obscured by some other source. It is compelling evidence of the creation of the universe in a gigantic explosion, already indicated by galactic red shifts. ")
-{: #Figure6}
+{ #Figure6}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -251,7 +251,7 @@ better than one part in 1000.
 Planck Surveyor, which launched in 2009.
 
 ![An oval shape with patches of fluorescent blue, green, yellow, and red, varying in intensity.](../resources/Figure_34_01_07a.jpg "This map of the sky uses color to show fluctuations, or wrinkles, in the cosmic microwave background observed with the WMAP spacecraft. The Milky Way has been removed for clarity. Red represents higher temperature and higher density, while blue is lower temperature and density. The fluctuations are small, less than one part in 1000, but these are still thought to be the cause of the eventual formation of galaxies. (credit: NASA/WMAP Science Team) ")
-{: #Figure7}
+{ #Figure7}
 
 Let us now examine the various stages of the overall evolution of the universe
 from the Big Bang to the present, illustrated in [[Figure 8]](#Figure8). Note
@@ -262,7 +262,7 @@ Rather, they extend indefinitely in ever-smaller time intervals to some
 infinitesimal point.
 
 ![The figure shows a horizontal bar whose left end is white and right end is black. Between these ends the bar is rainbow colored with blue at the left and red at the right. On the top of the bar is a time scale that starts at the left at ten to the minus forty three seconds and goes to one point five times ten  to the eleven years, which is the present time. On the bottom of the bar is an energy scale that starts at the left at ten to the nineteenth G E V and goes to below one G E V. The left end of the bar is labeled T O E and complete symmetry, identical particles. Progressing to the right, the next section of the bar, from ten to the minus forty three seconds to ten to the minus thirty five seconds, is labeled G U T and leptons, gluons, quarks, weak bosons, photons. The next section of the bar, out to ten to the minus thirty two seconds (or ten to the fourteenth G E V) is labeled spontaneous symmetry breaking, inflation. During this stage, the bar widens significantly. The next section goes to ten to the minus eleven seconds (or one hundred G E V) and is labeled electroweak and leptons, quarks, w plus minus, z zero, photons. The point ten to the minus eleven seconds is labeled leptons, hadrons, photons. The next section goes to three times ten to the fifth years. The point about midway through this stage is labeled one G E V. In this stage are labeled the following eras: at about ten to the minus six seconds is the quark era, at about ten to the minus four seconds is the lepton era, at about ten seconds is the photon era, then at about ten seconds is the nucleosynthesis era. The point three times ten to the fifth years is labeled light nuclei. The next section goes to ten to the eighth years and is labeled atoms. The  point ten to the eighth years is labeled stars and protogalaxies. Next comes galaxies at ten to the ninth years, then Earth comes at ten to the eleventh years, life at one point zero five times ten to the eleventh years, then finally the present time at one point five times ten to the eleventh years.](../resources/Figure_34_01_08a.jpg "The evolution of the universe from the Big Bang onward is intimately tied to the laws of physics, especially those of particle physics at the earliest stages. The universe is relativistic throughout its history. Theories of the unification of forces at high energies may be verified by their shaping of the universe and its evolution. ")
-{: #Figure8}
+{ #Figure8}
 
 Going back in time is equivalent to what would happen if expansion stopped and
 gravity pulled all the galaxies together, compressing and heating all matter. At
@@ -674,14 +674,14 @@ the solar mass based on the velocity of the star and its distance from the
 center of the galaxy.
 
 ![The figure shows a conical shape with a star at the vertex, the Sun at the center of the circular base, and the Earth revolving around the Sun along the perimeter of the base. The star is 4 light years above the Earth-Sun plane. When the Earth is to the far left of the Sun, the angle between the line segment from the Earth to the Sun and the line segment from the Earth to the star is called theta one. When the Earth is in the diametrically opposite position (that is, the far right position) the angle between the same two lines is labeled theta two. ](../resources/Figure_34_01_09a.jpg "Distances to nearby stars are measured using triangulation, also called the parallax method. The angle of line of sight to the star is measured at intervals six months apart, and the distance is calculated by using the known diameter of the Earth&#x2019;s orbit. This can be done for stars up to about 500 ly away. ")
-{: #Figure9}
+{ #Figure9}
 
 </div>
 </div>
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 Big Bang
 : a gigantic explosion that threw out matter a few billion years ago

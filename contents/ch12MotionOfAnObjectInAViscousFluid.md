@@ -88,7 +88,7 @@ $$\eta $$ , the drag force $${F}_{\text{S}} $$ is given by
 </div>
 
 ![Part a of the figure shows a sphere moving in a fluid. The fluid lines are shown to move toward the left. The viscous force on the sphere is also toward the left given by F v as shown by the arrow. The flow is shown as laminar as shown by linear bending lines. Part b of the figure shows a sphere moving with higher speed in a fluid. The fluid lines are shown to move toward the left. The viscous force on the sphere is also toward the left given by F v prime as shown by the arrow. The flow is shown as laminar above and below the sphere shown by linear lines of flow and turbulent on left of the sphere shown by curly lines of flow. Part c of the figure shows a sphere still moving with higher speed in a fluid. The fluid lines are shown to move toward the left at the edges of flow away from the sphere. The viscous force on the sphere is also toward the left given by F v double prime as shown by the arrow. The flow is turbulent all around the sphere as shown by curly lines of flow. The viscous drag F v double prime is shown to be still greater by longer length of arrows.](../resources/Figure_12_06_01.jpg "(a) Motion of this sphere to the right is equivalent to fluid flow to the left. Here the flow is laminar with \( N^{\prime}_\text{R} \) less than 1. There is a force, called viscous drag \( F_{V} \), to the left on the ball due to the fluid&#x2019;s viscosity. (b) At a higher speed, the flow becomes partially turbulent, creating a wake starting where the flow lines separate from the surface. Pressure in the wake is less than in front of the sphere, because fluid speed is less, creating a net force to the left \( F^\prime_V \) that is significantly greater than for laminar flow. Here \( N^{\prime}_\text{R} \) is greater than 10. (c) At much higher speeds, where \( N^{\prime}_\text{R} \) is greater than \( 10^6 \), flow becomes turbulent everywhere on the surface and behind the sphere. Drag increases dramatically.")
-{: #Figure1}
+{ #Figure1}
 
 An interesting consequence of the increase in $${F}_{\text{V}} $$ with speed is
 that an object falling through a fluid will not continue to accelerate
@@ -122,7 +122,7 @@ is replaced by centripetal acceleration, which can be much greater, increasing
 the terminal speed.
 
 ![The figure shows the forces acting on an oval shaped object falling through a viscous fluid. An enlarged view of the object is shown toward the left to analyze the forces in detail. The weight of the object w acts vertically downward. The viscous drag F v and buoyant force F b acts vertically upward. The length of the object is given by L. The density of the object is given by rho obj and density of the fluid by rho fl.](../resources/Figure_12_06_02.jpg "There are three forces acting on an object falling through a viscous fluid: its weight \( w \) , the viscous drag \( F_{V} \), and the buoyant force \( F_{B} \).")
-{: #Figure2 height="273"}
+{ #Figure2 height="273"}
 
 ### Section Summary
 
@@ -160,7 +160,7 @@ If you took two marbles of different sizes, what would you expect to observe abo
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 viscous drag
 : a resistance force exerted on a moving object, with a nontrivial dependence on

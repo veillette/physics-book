@@ -74,7 +74,7 @@ and the unaffected tissue would have a zero rad dose. While calculating
 radiation doses, you divide the energy absorbed by the mass of affected tissue.
 You must specify the affected region, such as the whole body or forearm in
 addition to giving the numerical dose in rads. The SI unit for radiation dose is
-the **gray (Gy)**{: class="term"}, which is defined to be
+the **gray (Gy)**{ class="term"}, which is defined to be
 
 <div class="equation" >
  $$1 Gy=1 \text{J/kg}=100 \text{rad} \text{.}  $$
@@ -111,7 +111,7 @@ relative biological effectiveness.
 </div>
 
 ![The image shows ionization created in cells by gamma and alpha radiation. Series of cells are shown through which a gamma ray passes causing ionization whose density is low. Another series of cells are shown through which an alpha ray passes causing ionization whose density is high.](../resources/Figure_32_02_01a.jpg "The image shows ionization created in cells by \( \alpha \); and \( \gamma \) radiation. Because of its shorter range, the ionization and damage created by \( \alpha \) is more concentrated and harder for the organism to repair. Thus, the RBE for \( \alpha \)s is greater than the RBE for \( \gamma \)s, even though they create the same amount of ionization at the same energy.")
-{: #Figure1}
+{ #Figure1}
 
 So, if a person had a whole-body dose of 2.00 rad of $$\gamma $$ radiation, the
 dose in rem would be $$(2.00 \text{rad})(1) = 2.00 \text{ rem whole body}  $$ .
@@ -449,7 +449,7 @@ received by the person. Doses from most medical diagnostics have decreased in
 recent years due to faster films that require less exposure time.
 
 ![The image shows a dental patient wearing a lead apron sitting in a chair. X-rays emitting from an x-ray tube that is placed on the side of the patient&#x2019;s jaw are passing through only the affected area of his teeth.](../resources/Figure_32_02_02a.jpg "A lead apron is placed over the dental patient and shielding surrounds the x-ray tube to limit exposure to tissue other than the tissue that is being imaged. Fast films limit the time needed to obtain images, reducing exposure to the imaged tissue. The technician stands a few meters away behind a lead-lined door with a lead glass window, reducing her occupational exposure.")
-{: #Figure2}
+{ #Figure2}
 
 <table id="Table5" aria-describedby="This is a two column table. The left column gives a variety of medical procedures involving radiation. The right column lists the corresponding effective doses for each procedure."><caption><span class="title">Typical Doses Received During Diagnostic X-ray Exams</span></caption><thead><tr>
             <th data-align="center">
@@ -727,7 +727,7 @@ Which methods of radiation protection were used in the device shown in the first
 (a)
 
 ![Figure A shows a &#x201C;shoe fitting x-ray device.&#x201D; Figure B shows a group of people wearing white protective suits standing near a yellow radiation hazard sign.](../resources/Figure_32_02_03a.jpg "(a) This x-ray fluorescence machine is one of the thousands used in shoe stores to produce images of feet as a check on the fit of shoes. They are unshielded and remain on as long as the feet are in them, producing doses much greater than medical images. Children were fascinated with them. These machines were used in shoe stores until laws preventing such unwarranted radiation exposure were enacted in the 1950s. (credit: Andrew Kuchling ) (b) Now that we know the effects of exposure to radioactive material, safety is a priority. (credit: U.S. Navy)")
-{: #Figure3}
+{ #Figure3}
 
 </div>
 </div>
@@ -845,24 +845,24 @@ Find the mass of  $${}^{239}\text{Pu} $$
 
 <div class="footnote-refs" markdown="1">
 ### Footnotes
-{: class="footnote-refs-title"}
+{ class="footnote-refs-title"}
 
-* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
+* { class="footnote-ref" #footnote1} [1](#footnote-ref1){ class="
   footnote-ref-link"} <span class="footnote-ref-content">Values approximate,
   difficult to determine.</span>
-* {: class="footnote-ref" #footnote2} [2](#footnote-ref2){: class="
+* { class="footnote-ref" #footnote2} [2](#footnote-ref2){ class="
   footnote-ref-link"} <span class="footnote-ref-content">Multiply by 100 to
   obtain dose in rem.</span>
-* {: class="footnote-ref" #footnote3} [3](#footnote-ref3){: class="
+* { class="footnote-ref" #footnote3} [3](#footnote-ref3){ class="
   footnote-ref-link"} <span class="footnote-ref-content">Multiply by 100 to
   obtain dose in mrem/y.</span>
-  {: data-list-type="bulleted" data-bullet-style="none"}
+  { data-list-type="bulleted" data-bullet-style="none"}
 
 </div>
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 gray (Gy)
 : the SI unit for radiation dose which is defined to be $$1 Gy=1 J/kg=100

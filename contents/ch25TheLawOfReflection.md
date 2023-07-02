@@ -27,19 +27,19 @@ When the moon reflects from a lake, as shown in [[Figure 5]](#Figure5), a
 combination of these effects takes place.
 
 ![A light ray is incident on a smooth surface and is falling obliquely, making an angle theta i relative to a perpendicular line drawn to the surface at the point where the incident ray strikes. The light ray gets reflected making an angle theta r with the same perpendicular drawn to the surface.](../resources/Figure_25_02_01.jpg "The law of reflection states that the angle of reflection equals the angle of incidence&#x2014; \( \theta_r = \theta_i \). The angles are measured relative to the perpendicular to the surface at the point where the ray strikes the surface.")
-{: #Figure1}
+{ #Figure1}
 
 ![Parallel light rays falling on a rough surface get scattered at different angles.](../resources/Figure_25_02_02.jpg "Light is diffused when it reflects from a rough surface. Here many parallel rays are incident, but they are reflected at many different angles since the surface is rough.")
-{: #Figure2}
+{ #Figure2}
 
 ![Light from a flashlight falls on a sheet of paper and the light gets reflected at different angles as the surface is rough.](../resources/Figure_25_02_03.jpg "When a sheet of paper is illuminated with many parallel incident rays, it can be seen at many different angles, because its surface is rough and diffuses the light.")
-{: #Figure3}
+{ #Figure3}
 
 ![A flashlight casting light on a mirror, which is smooth; the mirror reflects light only in one direction at a particular angle.](../resources/Figure_25_02_04.jpg "A mirror illuminated by many parallel rays reflects them in only one direction, since its surface is very smooth. Only the observer at a particular angle will see the reflected light.")
-{: #Figure4}
+{ #Figure4}
 
 ![A dark night is lit by moonlight. The moonlight is falling on the lake and as it hits, the lake&#x2019;s shiny surface reflects it. A bright strip of moonlight is seen reflecting from the lake on a dark background reflecting the night sky.](../resources/Figure_25_02_05.jpg "Moonlight is spread out when it is reflected by the lake, since the surface is shiny but uneven. (credit: Diego Torres Silvestre, Flickr)")
-{: #Figure5}
+{ #Figure5}
 
 The law of reflection is very simple: The angle of reflection equals the angle
 of incidence.
@@ -65,7 +65,7 @@ eyes (optical instruments themselves). The precise manner in which images are
 formed by mirrors and lenses will be treated in later sections of this chapter.
 
 ![A girl stands in front of a mirror and looks into the mirror for her image. The light rays from her feet and head fall on the mirror and get reflected following the law of reflection: the angle of incidence theta is equal to the angle of reflection theta.](../resources/Figure_25_02_06.jpg "Our image in a mirror is behind the mirror. The two rays shown are those that strike the mirror at just the correct angles to be reflected into the eyes of the person. The image appears to be in the direction the rays are coming from when they enter the eyes.")
-{: #Figure6}
+{ #Figure6}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -98,7 +98,7 @@ Using the law of reflection, explain how powder takes the shine off of a personâ
 Show that when light reflects from two mirrors that meet each other at a right angle, the outgoing ray is parallel to the incoming ray, as illustrated in the following figure.
 
 ![Two mirrors meet each other at a right angle. An incoming ray of light is reflected by one mirror and then the other, such that the outgoing ray is parallel to the incoming ray.](../resources/Figure_25_02_08.jpg "A corner reflector sends the reflected ray back in a direction parallel to the incident ray, independent of incoming direction.")
-{: #Figure7}
+{ #Figure7}
 
 </div>
 </div>
@@ -117,14 +117,14 @@ A flat mirror is neither converging nor diverging. To prove this, consider two r
  Show that after striking a plane mirror, the angle between their directions remains  $$\theta  $$.
 
 ![Light rays diverging from a point at an angle theta fall on a mirror at two different places and their reflected rays diverge. When the reflected rays are extended backwards from their points of reflection, they meet at a point behind the mirror, where they diverge from each other at the same angle theta.](../resources/Figure_25_02_09.jpg "A flat mirror neither converges nor diverges light rays. Two rays continue to diverge at the same angle after reflection.")
-{: #Figure8}
+{ #Figure8}
 
 </div>
 </div>
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 mirror
 : smooth surface that reflects light at specific angles, forming an image of the

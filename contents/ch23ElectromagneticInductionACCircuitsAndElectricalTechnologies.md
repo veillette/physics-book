@@ -5,7 +5,7 @@ layout: page
 ---
 
 ![Wind turbine with three blades moored in shallow water.](../resources/Figure_22_00_01.jpg "These wind turbines in the Thames Estuary in the UK are an example of induction at work. Wind pushes the blades of the turbine, spinning a shaft attached to magnets. The magnets spin around a conductive coil, inducing an electric current in the coil, and eventually feeding the electrical grid. (credit: modification of work by Petr Kratochvil)")
-{: #Figure1}
+{ #Figure1}
 
 Nature’s displays of symmetry are beautiful and alluring. A butterfly’s wings
 exhibit an appealing symmetry in a complex system. (See [[Figure 2]](#Figure2).)
@@ -15,7 +15,7 @@ symmetry, we look for it when we explore nature. The remarkable thing is that we
 find it.
 
 ![Photograph of a butterfly with its wings spread out symmetrically is shown to rest on a bunch of flowers.](../resources/Figure_23_00_02.jpg "Physics, like this butterfly, has inherent symmetries. (credit: Thomas Bresson)")
-{: #Figure2}
+{ #Figure2}
 
 The hint of symmetry between electricity and magnetism found in the preceding
 chapter will be elaborated upon in this chapter. Specifically, we know that a
@@ -28,7 +28,7 @@ answer was soon found by experiment to be yes. In 1831, some 12 years after
 Oersted’s discovery, the English scientist Michael Faraday (1791–1862) and the
 American scientist Joseph Henry (1797–1878) independently demonstrated that
 magnetic fields can produce currents. The basic process of generating emfs (
-electromotive force) and, hence, currents with magnetic fields is known as **induction**{: class="term"}; this process is also called magnetic induction to
+electromotive force) and, hence, currents with magnetic fields is known as **induction**{ class="term"}; this process is also called magnetic induction to
 distinguish it from charging by induction, which utilizes the Coulomb force.
 
 Today, currents induced by magnetic fields are essential to our technological
@@ -46,7 +46,7 @@ the effect of magnetic fields on currents.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 induction
 : (magnetic induction) the creation of emfs and hence currents by magnetic

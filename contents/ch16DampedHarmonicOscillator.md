@@ -9,7 +9,7 @@ layout: page
 </div>
 
 ![In the figure shown, a small child is seated in a spring swing, tied with a belt at his waist. In the back is his father, who is pushing the swing in the to and fro motion.](../resources/Figure_16_07_01a.jpg "In order to counteract dampening forces, this dad needs to keep pushing the swing. (credit: Erik A. Johnson, Flickr)")
-{: #Figure1}
+{ #Figure1}
 
 A guitar string stops oscillating a few seconds after being plucked. To keep a
 child happy on a swing, you must keep pushing. Although we can often make
@@ -33,7 +33,7 @@ damping force). For a damped harmonic oscillator, $${W}_{\text{nc}} $$ is
 negative because it removes mechanical energy (KE + PE) from the system.
 
 ![The figure shows a graph of displacement, along y axis, versus time for a harmonic oscillator, running along the x axis, equally in positive as well as negative quadrants. The amplitude, X, of the oscillations is shown by a green wave which is decreasing gradually as we move far from the y axis, but the time, T, shown here as the distance between adjacent crests remains the same throughout.](../resources/Figure_16_07_02a.jpg "In this graph of displacement versus time for a harmonic oscillator with a small amount of damping, the amplitude slowly decreases, but the period and frequency are nearly the same as if the system were completely undamped.")
-{: #Figure2}
+{ #Figure2}
 
 If you gradually *increase* the amount of damping in a system, the period and
 frequency begin to be affected, because damping opposes and hence slows the back
@@ -53,7 +53,7 @@ in [[Figure 2]](#Figure2). Curve B in [[Figure 3]](#Figure3) represents an **ove
 equilibrium position, but will reach equilibrium over a longer period of time.
 
 ![The given graph is of displacement, along y-axis, versus time along x axis. Symbol for displacement is given as X subscript zero and for time is given as t. Two curves start at a point along the y axis, where X subscript zero is greater than zero. Curve A is curved downward and meets x axis at a point. Curve B is curved upward and is over curve A and meets x axis at a point which is toward the far right of the meeting point of the curve A and x axis.](../resources/Figure_16_07_03a.jpg "Displacement versus time for a critically damped harmonic oscillator (A) and an overdamped harmonic oscillator (B). The critically damped oscillator returns to equilibrium at \( X=0 \) in the smallest time possible without overshooting.")
-{: #Figure3}
+{ #Figure3}
 
 Critical damping is often desired, because such a system returns to equilibrium
 rapidly and remains at equilibrium as well. In addition, a constant force
@@ -77,7 +77,7 @@ Damping oscillatory motion is important in many systems, and the ability to cont
  The force constant of the spring is  $$k= 50.0 \text{N/m}  $$.
 
 ![ The given figure (a) shows a spring on a frictionless surface attached to a bar or wall from the left side and on the right side of the spring, there is an object attached with mass m. Its amplitude is given by X, and X is equal to zero at the equilibrium level. Force F is applied to it from the right side, represented by a red arrow pointing toward the left and velocity v is equal to zero. An arrow showing the direction of force is also given alongside this figure as well as with the other four figures. The energy of the object is half k x squared. In the given figure (b), after force is applied, the object moves to the left, compressing the spring slightly. The displacement of the object from its initial position is indicated by dots. The force F, here is equal to zero and velocity v, is maximum in the negative direction or the left. The energy of the object in this case is half m times negative v-max whole squared. In the given figure (c), the spring has been compressed the maximum limit, and the amplitude is minus X. Now the force is toward the right, indicated here with a red arrow pointing to the right and the velocity, v, is zero. The energy of the object now is half k times negative x whole squared. In the given figure (d), the spring is shown released from its compressed position and the object has moved toward the right side to reach the equilibrium level. Here, F is equal to zero, and the velocity, v, is the maximum. The energy of the object becomes half k times v max squared. In the given figure (e), the spring has been stretched loose to the maximum possible limit and the object has moved to the far right. Now the velocity v, here is equal to zero and the direction of force is toward the left. As shown here, F is equal to zero. The energy of the object in this case is half k times x squared.](../resources/Figure_16_07_04a.jpg "The transformation of energy in simple harmonic motion is illustrated for an object attached to a spring on a frictionless surface.")
-{: #Figure4}
+{ #Figure4}
 
 **Strategy**
 
@@ -275,7 +275,7 @@ The amplitude of a lightly damped oscillator decreases by  $$ 3.0%  $$
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 critical damping
 : the condition in which the damping of an oscillator causes it to return as

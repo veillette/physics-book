@@ -81,7 +81,7 @@ the final configuration.
 
 ![An undeformed spring fixed at one end with no potential energy. (b) A spring fixed at one end and stretched by a distance x by a force F equal to k x. Work done W is equal to one half k x squared. P E s is equal to one half k x squared. (c) A graph of force F versus elongation x in the spring. A straight line inclined to x axis starts from origin. The area under this line forms a right triangle with base of x and height of k x. Area of this triangle is equal to one half k x squared.](../resources/Figure_07_04_01a.jpg "(a) An undeformed spring has no \( \PE_{\text{s}} \) stored in it. (b) The force needed to stretch (or compress) the spring a distance \( x \) has a magnitude \( F = k x \) , and the work done to stretch (or compress) it is \( \frac{1}{2} k x^2 \) . Because the force is conservative, this work is stored as potential energy, \( \PE_{\text{s}} \), in the spring, and it can be fully recovered.
 (c) A graph of \( F \) vs. \( x \) has a slope of \( k \) , and the area under the graph is \( \frac{1}{2} k x^2 \). Thus the work done or potential energy stored is \( \frac{1}{2} k x^2 \). ")
-{: #Figure1}
+{ #Figure1}
 
 The equation $$ \PE_{s}=\frac{1}{2} k x^{2} $$ has general validity beyond the
 special case for which it was derived. Potential energy can be stored in any
@@ -93,7 +93,7 @@ its deformation. Another example is seen in [Figure 1](#Figure1) for a guitar
 string.
 
 ![A six-string guitar is placed vertically. The left-most string is plucked in the left direction with a force F shown by an arrow pointing left. The displacement of the string from the mean position is d. The plucked string is labeled P E sub string, to represent the potential energy of the string.](../resources/Figure_07_04_02a.jpg "Work is done to deform the guitar string, giving it potential energy. When released, the potential energy is converted to kinetic energy and back to potential as the string oscillates back and forth. A very small fraction is dissipated as sound energy, slowly removing energy from the string.")
-{: #Figure2 width="10%"}
+{ #Figure2 width="10%"}
 
 ### Conservation of Mechanical Energy
 
@@ -169,7 +169,7 @@ A 0.100-kg toy car is propelled by a compressed spring, as shown in [Figure 3](#
 rises 0.180 m above the starting point. The spring is compressed 4.00 cm and has a force constant of 250.0 N/m. Assuming work done by friction to be negligible, find (a) how fast the car is going before it starts up the slope and (b) how fast it is going at the top of the slope.
 
 ![The figure shows a toy race car that has just been released from a spring. Two possible paths for the car are shown. One path has a gradual upward incline, leveling off at a height of eighteen centimeters above its starting level. An alternative path shows the car descending from its starting point, making a loop, and then ascending back up and leveling off at a height of eighteen centimeters above its starting level. ](../resources/Figure_07_04_03a.jpg "A toy car is pushed by a compressed spring and coasts up a slope. Assuming negligible friction, the potential energy in the spring is first completely converted to kinetic energy, and then to a combination of kinetic and gravitational potential energy as the car rises. The details of the path are unimportant because all forces are conservative&#x2014;the car would have the same final speed if it took the alternate path shown.")
-{: #Figure3 height="125"}
+{ #Figure3 height="125"}
 
 **Strategy**
 
@@ -361,7 +361,7 @@ the [Problem-Solving Strategies for Energy](../contents/ch7ConservationOfEnergy.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 conservative force
 : a force that does the same work for any given initial and final configuration,

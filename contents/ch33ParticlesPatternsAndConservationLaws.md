@@ -43,7 +43,7 @@ lament at the lack of simplicity. But patterns were observed in the particle zoo
 that led to simplifying ideas such as quarks, as we shall soon see.
 
 ![A photo of a young Paul Dirac.](../resources/Figure_33_04_01.jpg "P.A.M. Dirac&#x2019;s theory of relativistic quantum mechanics not only explained a great deal of what was known, it also predicted antimatter. (credit: Cambridge University, Cavendish Laboratory) ")
-{: #Figure1}
+{ #Figure1}
 
 ### Matter and Antimatter
 
@@ -106,7 +106,7 @@ exclusion principle whereas bosons do not. All the known and conjectured carrier
 particles are bosons.
 
 ![The upper image shows an electron and positron colliding head-on. The lower image shows a starburst image from which two photons are emerging in opposite directions.](../resources/Figure_33_04_02.jpg "When a particle encounters its antiparticle, they annihilate, often producing pure energy in the form of photons. In this case, an electron and a positron convert all their mass into two identical energy rays, which move away in opposite directions to keep total momentum zero as it was before. Similar annihilations occur for other combinations of a particle with its antiparticle, sometimes producing more particles while obeying all conservation laws.")
-{: #Figure2}
+{ #Figure2}
 
 <table id="Table1" aria-describedby="Selected Particle Characteristics"><caption><span class="title">Selected Particle Characteristics<sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup></span></caption><thead><tr>
             <th data-align="center">
@@ -757,7 +757,7 @@ substructure called quarks. [Quarks: Is That All There Is?](../contents/ch33Quar
 the basics of the underlying quark building blocks.
 
 ![The image shows a picture of physicist Murray Gell Mann, who looks like a pleasant white-haired gentleman.](../resources/Figure_33_04_03.jpg "Murray Gell-Mann (b. 1929) proposed quarks as a substructure of hadrons in 1963 and was already known for his work on the concept of strangeness. Although quarks have never been directly observed, several predictions of the quark model were quickly confirmed, and their properties explain all known hadron characteristics. Gell-Mann was awarded the Nobel Prize in 1969. (credit: Lubo&#x161; Motl)")
-{: #Figure3}
+{ #Figure3}
 
 ### Summary
 
@@ -966,28 +966,28 @@ in the mass of the tau neutrino? Discuss the source of the uncertainty.
 
 <div class="footnote-refs" markdown="1">
 ### Footnotes
-{: class="footnote-refs-title"}
+{ class="footnote-refs-title"}
 
-* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
+* { class="footnote-ref" #footnote1} [1](#footnote-ref1){ class="
   footnote-ref-link"} <span class="footnote-ref-content">The lower of the $$\mp
   $$ or $$± $$ symbols are the values for antiparticles.</span>
-* {: class="footnote-ref" #footnote2} [2](#footnote-ref2){: class="
+* { class="footnote-ref" #footnote2} [2](#footnote-ref2){ class="
   footnote-ref-link"} <span class="footnote-ref-content">Lifetimes are
   traditionally given as $${t}_{1/2}/ 0.693 $$
   (which is $$1/\lambda $$ , the inverse of the decay constant).</span>
-* {: class="footnote-ref" #footnote3} [3](#footnote-ref3){: class="
+* { class="footnote-ref" #footnote3} [3](#footnote-ref3){ class="
   footnote-ref-link"} <span class="footnote-ref-content">Neutrino masses may be
   zero. Experimental upper limits are given in parentheses.</span>
-* {: class="footnote-ref" #footnote4} [4](#footnote-ref4){: class="
+* { class="footnote-ref" #footnote4} [4](#footnote-ref4){ class="
   footnote-ref-link"} <span class="footnote-ref-content">Experimental lower
   limit is $$>5 \times 10^{32} $$ for proposed mode of decay.</span>
-  {: data-list-type="bulleted" data-bullet-style="none"}
+  { data-list-type="bulleted" data-bullet-style="none"}
 
 </div>
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 boson
 : particle with zero or an integer value of intrinsic spin

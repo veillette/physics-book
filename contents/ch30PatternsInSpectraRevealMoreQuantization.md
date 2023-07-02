@@ -34,7 +34,7 @@ field, very precise measurements showed that spectral lines are doublets (split
 into two), apparently by magnetic fields within the atom itself.
 
 ![The figure shows the effect of magnetic field on spectral lines. In the first case, two spectral lines are shown when there is no external magnetic field. In the second case, when magnetic field is applied, the spectral lines split into several lines; the line on the left splits into three lines. The line on the right splits into five. In the third case, the magnetic field is large. The left line is again split into three lines and the right into five, but the split lines are farther apart than they are when the external magnetic field is not as strong.](../resources/Figure_30_07_00a.jpg "The Zeeman effect is the splitting of spectral lines when a magnetic field is applied. The number of lines formed varies, but the spread is proportional to the strength of the applied field. (a) Two spectral lines with no external magnetic field. (b) The lines split when the field is applied. (c) The splitting is greater when a stronger field is applied.")
-{: #Figure1}
+{ #Figure1}
 
 Bohr’s theory of circular orbits is useful for visualizing how an electron’s
 orbit is affected by a magnetic field. The circular orbit forms a current loop,
@@ -52,10 +52,10 @@ are allowed between the orbital angular momentum and the external field, as seen
 in [[Figure 3]](#Figure3).
 
 ![The figure shows an electron traveling in a circular orbit with radius r. A magnetic field B sub orb is oriented downwards and the orbital angular momentum L sub orb is oriented along the same line but upward, in a direction opposite B sub orb.](../resources/Figure_30_07_01a.jpg "The approximate picture of an electron in a circular orbit illustrates how the current loop produces its own magnetic field, called \( B_\text{orb} \). It also shows how \( B_\text{orb} \) is along the same line as the orbital angular momentum \( L_\text{orb} \).")
-{: #Figure2}
+{ #Figure2}
 
 ![An external magnetic field along vertical z-axis is shown. Several spectral lines are shown originating from the same point on the z-axis which represents orbital angular momentum.](../resources/Figure_30_07_02a.jpg "Only certain angles are allowed between the orbital angular momentum and an external magnetic field. This is implied by the fact that the Zeeman effect splits spectral lines into several discrete lines. Each line is associated with an angle between the external magnetic field and magnetic fields due to electrons and their orbits.")
-{: #Figure3}
+{ #Figure3}
 
 We already know that the magnitude of angular momentum is quantized for electron
 orbits in atoms. The new insight is that the *direction of the orbital angular
@@ -88,10 +88,10 @@ has a different energy; hence, spectroscopic lines are split into two. Spectral
 doublets are now understood as being due to electron spin.
 
 ![Image a shows a magnified view of two spectral lines. The magnified view shows that these spectral lines are doublets, which means two parallel lines being placed together. In image b a structure in which concentric waves are expanding out is shown.](../resources/Figure_30_07_03a1.jpg "Fine structure. Upon close examination, spectral lines are doublets, even in the absence of an external magnetic field. The electron has an intrinsic magnetic field that interacts with its orbital magnetic field.")
-{: #Figure4}
+{ #Figure4}
 
 ![The image shows two cases of intrinsic magnetic field of an electron due to its spin. In the first case, circular orbit is shown with external magnetic field in the vertical direction and the direction of the intrinsic magnetic field of electron due to its spin is upwards at an angle of fifty four point seven degrees with the vertical axis. In the second case, circular orbit is shown with external magnetic field in the vertical direction and the direction of the intrinsic magnetic field of electron due to its spin is downwards at an angle of fifty four point seven degrees with the vertical axis.](../resources/Figure_30_07_04a.jpg "The intrinsic magnetic field \( B_\text{int} \) of an electron is attributed to its spin, \( S \) , roughly pictured to be due to its charge spinning on its axis. This is only a crude model, since electrons seem to have no size. The spin and intrinsic magnetic field of the electron can make only one of two angles with another magnetic field, such as that created by the electron&#x2019;s orbital motion. Space is quantized for spin as well as for orbital angular momentum.")
-{: #Figure5}
+{ #Figure5}
 
 These two new insights—that the direction of angular momentum, whether orbital
 or spin, is quantized, and that electrons have intrinsic spin—help to explain
@@ -119,7 +119,7 @@ What is the Zeeman effect, and what type of quantization was discovered because 
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 Zeeman effect
 : the effect of external magnetic fields on spectral lines
