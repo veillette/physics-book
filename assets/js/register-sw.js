@@ -2,7 +2,7 @@ if (navigator.serviceWorker.controller) {
     console.log("Active service worker found");
 } else if ("serviceWorker" in navigator) {
     // declaring scope manually
-    navigator.serviceWorker.register("serviceWorker.js", {scope: "/"}).then(
+    navigator.serviceWorker.register("serviceWorker.js", {scope: "/physics-book/"}).then(
         (registration) => {
             console.log("Service worker registration succeeded:", registration);
         },
