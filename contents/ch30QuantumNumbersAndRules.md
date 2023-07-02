@@ -95,7 +95,7 @@ certain values, then the angular momentum can have only certain directions, as
 illustrated in [[Figure 1]](#Figure1).
 
 ![The image shows two possible values of component of a given angular momentum along z-axis. One circular orbit above the original circular orbit is shown for m sub l value of plus one. Another circular orbit below the original circular orbit is shown for m sub l value of minus one. The angular momentum vector for the top circular orbit makes an angle of theta sub one with the vertical axis. The horizontal angular momentum vector at original circular orbit makes an angle of theta sub two with the vertical axis. The angular momentum vector for the bottom circular orbit makes an angle of theta sub three with the vertical axis.](../resources/Figure_30_08_00a.jpg "The component of a given angular momentum along the z-axis (defined by the direction of a magnetic field) can have only certain values; these are shown here for l=1, for which \( m_\text{l}=-1, 0, \text\{ and \} +1 \) . The direction of L is quantized in the sense that it can have only certain angles relative to the z-axis.")
-{: #Figure1}
+{ #Figure1}
 
 <div class="example" markdown="1">
 <div class="title">
@@ -299,7 +299,7 @@ from one place to another, and so an orbit really does not exist as such. Nature
 on a small scale is again much different from that on the large scale.
 
 ![The image shows probability clouds for the electron in the ground state and several excited states of hydrogen. Sets of quantum numbers given as n l m subscript l are shown for each state. The ground state is zero zero zero. The probability of finding the electron is indicated by the shade of color.](../resources/Figure_30_08_01a.jpg "Probability clouds for the electron in the ground state and several excited states of hydrogen. The nature of these states is determined by their sets of quantum numbers, here given as \( n,l,m_l \). The ground state is (0, 0, 0); one of the possibilities for the second excited state is (3, 2, 1). The probability of finding the electron is indicated by the shade of color; the darker the coloring the greater the chance of finding the electron.")
-{: #Figure2}
+{ #Figure2}
 
 We will see that the quantum numbers discussed in this section are valid for a
 broad range of particles and other systems, such as nuclei. Some quantum
@@ -312,10 +312,10 @@ the substructure of matter and its interactions.
 PhET Explorations: Stern-Gerlach Experiment
 </div>
 The classic Stern-Gerlach Experiment shows that atoms have a property called spin. Spin is a kind of intrinsic angular momentum, which has no classical counterpart. When the z-component of the spin is measured, one always gets one of two values: spin up or spin down.
-{: class="newline"}
+{ class="newline"}
 
 
-{: class="newline"}
+{ class="newline"}
 
 <div class="media" id="PhET_module" data-alt="">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/stern-gerlach/stern-gerlach_en.html"></iframe>
@@ -506,18 +506,18 @@ What angles can the spin  $$S $$ of an electron make with the  $$z $$
 
 <div class="footnote-refs" markdown="1">
 ### Footnotes
-{: class="footnote-refs-title"}
+{ class="footnote-refs-title"}
 
-* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
+* { class="footnote-ref" #footnote1} [1](#footnote-ref1){ class="
   footnote-ref-link"} <span class="footnote-ref-content">The spin quantum
   number *s* is usually not stated, since it is always 1/2 for electrons</span>
-  {: data-list-type="bulleted" data-bullet-style="none"}
+  { data-list-type="bulleted" data-bullet-style="none"}
 
 </div>
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 quantum numbers
 : the values of quantized entities, such as energy and angular momentum

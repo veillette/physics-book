@@ -26,7 +26,7 @@ of [[Figure 1]](#Figure1). Since the electric field lines point radially away
 from the charge, they are perpendicular to the equipotential lines.
 
 ![The figure shows a positive charge Q at the center of four concentric circles of increasing radii. The electric potential is the same along each of the circles, called equipotential lines. Straight lines representing electric field lines are drawn from the positive charge to intersect the circles at various points. The equipotential lines are perpendicular to the electric field lines.](../resources/Figure_19_04_01a.jpg "An isolated point charge \( Q \) with its electric field lines in blue and equipotential lines in green. The potential is the same along each equipotential line, meaning that no work is required to move a charge anywhere along one of those lines. Work is needed to move a charge from one equipotential line to another. Equipotential lines are perpendicular to electric field lines in every case. ")
-{: #Figure1}
+{ #Figure1}
 
 It is important to note that **equipotential lines** are always perpendicular to
 electric field lines . No work is required to move a charge along an
@@ -82,10 +82,10 @@ a), the electric field lines can be drawn by making them perpendicular to the
 equipotentials, as in [[Figure 3]](#Figure3)(b).
 
 ![The figure shows two sets of concentric circles, called equipotential lines, drawn with positive and negative charges at their centers. Curved electric field lines emanate from the positive charge and curve to meet the negative charge. The lines form closed curves between the charges. The equipotential lines are always perpendicular to the field lines.](../resources/Figure_19_04_02a.jpg "The electric field lines and equipotential lines for two equal but opposite charges. The equipotential lines can be drawn by making them perpendicular to the electric field lines, if those are known. Note that the potential is greatest (most positive) near the positive charge and least (most negative) near the negative charge. ")
-{: #Figure2}
+{ #Figure2}
 
 ![Figure (a) shows two circles, called equipotential lines, along which the potential is negative ten volts. A dumbbell-shaped surface encloses the two circles and is labeled negative five volts. This surface is surrounded by another surface labeled negative two volts. Figure (b) shows the same equipotential lines, each set with a negative charge at its center. Blue electric field lines curve toward the negative charges from all directions.](../resources/Figure_19_04_03a.jpg "(a) These equipotential lines might be measured with a voltmeter in a laboratory experiment. (b) The corresponding electric field lines are found by drawing them perpendicular to the equipotentials. Note that these fields are consistent with two equal negative charges. ")
-{: #Figure3}
+{ #Figure3}
 
 One of the most important cases is that of the familiar parallel conducting
 plates shown in [[Figure 4]](#Figure4). Between the plates, the equipotentials
@@ -93,7 +93,7 @@ are evenly spaced and parallel. The same field could be maintained by placing
 conducting plates at the equipotential lines at the potentials shown.
 
 ![The figure shows two parallel plates A and B separated by a distance d. Plate A is positively charged, and B is negatively charged. Electric field lines are parallel to one another between the plates and curved near the ends of the plates. The voltages range from a hundred volts at Plate A to zero volts at plate B.](../resources/Figure_19_04_04a.jpg "The electric field and equipotential lines between two metal plates.")
-{: #Figure4}
+{ #Figure4}
 
 An important application of electric fields and equipotential lines involves the
 heart. The heart relies on electrical signals to maintain its rhythm. The
@@ -112,7 +112,7 @@ discussed in [Energy Stored in Capacitors](../contents/ch19EnergyStoredInCapacit
 PhET Explorations: Charges and Fields
 </div>
 Move point charges around on the playing field and then view the electric field, voltages, equipotential lines, and more. It\'s colorful, it\'s dynamic, it\'s free.
-{: class="newline"}
+{ class="newline"}
 
 <div class="media"  data-alt="charges and fields">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/charges-and-fields/latest/charges-and-fields_en.html"></iframe>
@@ -166,7 +166,7 @@ Can different equipotential lines cross? Explain.
 Sketch the equipotential lines for the two equal positive charges shown in [[Figure 5]](#Figure5). Indicate the direction of increasing potential.
 
 ![The figure shows two positive charges with electric field lines curving away from each of the charges.](../resources/Figure_19_04_05a.jpg "The electric field near two equal positive charges is directed away from each of the charges.")
-{: #Figure5}
+{ #Figure5}
 
 </div>
 </div>
@@ -185,7 +185,7 @@ Sketch the equipotential lines for the two equal positive charges shown in [[Fig
 Sketch the equipotential lines a long distance from the charges shown in [[Figure 6]](#Figure6). Indicate the direction of increasing potential.
 
 ![The figure shows two nearby charges, q one and q two. Electric field lines move away from q two and toward q one.](../resources/Figure_19_04_06a.jpg "The electric field near two charges.")
-{: #Figure6}
+{ #Figure6}
 
 </div>
 </div>
@@ -202,7 +202,7 @@ Sketch the equipotential lines in the vicinity of two opposite charges, where th
 Sketch the equipotential lines in the vicinity of the negatively charged conductor in [[Figure 7]](#Figure7). How will these equipotentials look a long distance from the object?
 
 ![The figure shows a negatively charged conductor that is shaped like an oblong.](../resources/Figure_19_04_07a.jpg "A negatively charged conductor.")
-{: #Figure7}
+{ #Figure7}
 
 </div>
 </div>
@@ -212,7 +212,7 @@ Sketch the equipotential lines in the vicinity of the negatively charged conduct
 Sketch the equipotential lines surrounding the two conducting plates shown in [[Figure 8]](#Figure8), given the top plate is positive and the bottom plate has an equal amount of negative charge. Be certain to indicate the distribution of charge on the plates. Is the field strongest where the plates are closest? Why should it be?
 
 ![Two conducting plates with the top one positively charged and the bottom one with an equal amount of negative charge.](../resources/Figure_19_04_08a.jpg " ")
-{: #Figure8}
+{ #Figure8}
 
 </div>
 </div>
@@ -222,7 +222,7 @@ Sketch the equipotential lines surrounding the two conducting plates shown in [[
 (a) Sketch the electric field lines in the vicinity of the charged insulator in [[Figure 9]](#Figure9). Note its non-uniform charge distribution. (b) Sketch equipotential lines surrounding the insulator. Indicate the direction of increasing potential.
 
 ![A rod marked with many plus symbols to indicate electric charge. Most of the pluses are concentrated near one end of the rod. A few are in the middle and one is at the other end.](../resources/Figure_19_04_09a.jpg "A charged insulating rod such as might be used in a classroom demonstration.")
-{: #Figure9}
+{ #Figure9}
 
 </div>
 </div>
@@ -240,14 +240,14 @@ The naturally occurring charge on the ground on a fine day out in the open count
 The lesser electric ray (**Narcine bancroftii**) maintains an incredible charge on its head and a charge equal in magnitude but opposite in sign on its tail ([[Figure 10]](#Figure10)). (a) Sketch the equipotential lines surrounding the ray. (b) Sketch the equipotentials when the ray is near a ship with a conducting surface. (c) How could this charge distribution be of use to the ray?
 
 ![The figure shows a photo of a Narcine bancroftii, an electric ray that maintains a strong charge on its head and a charge equal in magnitude but opposite in sign on its tail.](../resources/Figure_19_04_10a.jpg "Lesser electric ray (Narcine bancroftii) (credit: National Oceanic and Atmospheric Administration, NOAA's Fisheries Collection).")
-{: #Figure10}
+{ #Figure10}
 
 </div>
 </div>
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 equipotential line
 : a line along which the electric potential is constant

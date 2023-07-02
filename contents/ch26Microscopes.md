@@ -22,7 +22,7 @@ composed of thin lenses and mirrors that obey the thin lens equations, then it
 is not difficult to describe their behavior numerically.
 
 ![Image of a man viewing through the ocular lens and with his hand on the fine adjustment of the microscope.](../resources/Figure_26_04_01.jpg "Multiple lenses and mirrors are used in this microscope. (credit:  U.S. Navy photo by Tom Watanabe)")
-{: #Figure1}
+{ #Figure1}
 
 Microscopes were first developed in the early 1600s by eyeglass makers in The
 Netherlands and Denmark. The simplest **compound microscope** is constructed
@@ -40,7 +40,7 @@ the observer to be easily viewed, since the eye cannot focus on objects or
 images that are too close.
 
 ![A ray diagram from left to right shows a virtual inverted enlarged final image of the object, a small object in upright position, a convex objective lens, inverted smaller image of the object, a large convex eye-piece and an eye on an optical axis. The object h&#x2019; is placed just outside F subscript O two, the principal focus of the objective lens. Rays from the object are passing through the objective lens, converging and forming an inverted magnified image h subscript I, which acts as an object for the eyepiece and passing at the eye. Dotted lines are joined backward from the rays entering the eyepiece at the tip of the virtual, magnified, inverted and final image of the object given as h subscript i. Distance of the object for the objective lens and distance of the image from it is given as d subscript o and d subscript I respectively. ](../resources/Figure_26_04_02.jpg "A compound microscope composed of two lenses, an objective and an eyepiece. The objective forms a case 1 image that is larger than the object. This first image is the object for the eyepiece. The eyepiece forms a case 2 final image that is further magnified.")
-{: #Figure2}
+{ #Figure2}
 
 To see how the microscope in [[Figure 2]](#Figure2) forms an image, we consider
 its two lenses in succession. The object is slightly farther away from the
@@ -189,7 +189,7 @@ from a smaller focal region giving higher resolution. A $$0.75\text{NA} $$
 objective gives more detail than a $$0.10\text{NA} $$ objective.
 
 ![Part a of the figure shows a horizontal dotted line, a point P on the line and an objective lens at a distance from the point such that a triangle is formed from point P to the edges of the lens. An angle theta is shown at point P, representing the maximum cone of rays entering the lens from point P. Part b of the figure shows light rays from a specimen entering a camera lens held above it. The rays form an inverted cone.](../resources/Figure_26_04_03.jpg "(a) The numerical aperture (NA)  of a microscope objective lens refers to the light-gathering ability of the lens and is calculated using half the angle of acceptance \( \theta \). (b) Here, \( \alpha \); is half the acceptance angle for light rays from a specimen entering a camera lens, and \( D \) is the diameter of the aperture that controls the light entering the lens.")
-{: #Figure3}
+{ #Figure3}
 
 While the numerical aperture can be used to compare resolutions of various
 objectives, it does not indicate how far the lens could be from the specimen.
@@ -225,7 +225,7 @@ fiber. [[Figure 4]](#Figure4) shows the angle used in calculating the
 $$\text{NA} $$ of an optical fiber.
 
 ![Image of a multimode optical fiber in the form of a rectangle is shown. From the edges two diverging lines are coming out, forming the full acceptance angle. A ray of light below the optical axis is entering the fiber. Half of the acceptance angle is shown as alpha max. Inside the fiber, the ray of light strikes the cladding around the fiber and is reflected back into the fiber.](../resources/Figure_26_04_04.jpg "Light rays enter an optical fiber. The numerical aperture of the optical fiber can be determined by using the angle \( \alpha \);max.")
-{: #Figure4}
+{ #Figure4}
 
 Can the $$\text{NA} $$ be larger than 1.00? The answer is ‘yes’ if we use
 immersion lenses in which a medium such as oil, glycerine or water is placed
@@ -236,7 +236,7 @@ resolution. [[Figure 5]](#Figure5) shows light rays when using air and immersion
 lenses.
 
 ![Diagram of paths of light from a specimen and refracting through air, water, and oil.](../resources/Figure_26_04_05.jpg "Light rays from a specimen entering the objective. Paths for immersion medium of air (a), water (b) \( (n=1.33) \)), and  oil (c)  \( (n=1.51) \) are shown. The water and oil immersions allow more rays to enter the objective, increasing the resolution.")
-{: #Figure5}
+{ #Figure5}
 
 When using a microscope we do not see the entire extent of the sample. Depending
 on the eyepiece and objective lens we see a restricted region which we say is
@@ -259,7 +259,7 @@ be quite intense, and it is important to ensure that the light does not result i
 the degradation of the specimen.
 
 ![All four parts show ray diagrams of a specimen in different types of microscopes. Part a shows a ray diagram with rays through a condenser lens to the object and then up to the objective lens of the microscope. Part b shows an alternative arrangement where rays of light are reflected off a concave condenser mirror to the specimen and then up to the objective lens of the microscope. Part c shows dark field illumination where the illuminating light beam is fragmented by an annular stop so that its rays only go through the outer portion of the condenser lens which causes them to miss the objective lens. Part d shows high magnification illumination where light rays from a laser are reflected off a plan glass reflector, then go through the objective lens to the lens and then return as scatter light through the objective lens.](../resources/Figure_26_04_06.jpg "Illumination of a specimen in a microscope. (a) Transmitted light from a condenser lens. (b) Transmitted light from a mirror condenser. (c) Dark field illumination by scattering (the illuminating beam misses the objective lens). (d) High magnification illumination with reflected light &#x2013; normally laser light.")
-{: #Figure6}
+{ #Figure6}
 
 We normally associate microscopes with visible light but X-ray and electron
 microscopes provide greater resolution. The focusing and basic physics is the
@@ -274,10 +274,10 @@ now done routinely. Video recordings of what occurs in a microscope can be made 
 
 
 ![Image depicts a man using scanning electron microscope.](../resources/Figure_26_04_07.jpg "An electron microscope has the capability to image individual atoms on a material. The microscope uses vacuum technology, sophisticated detectors and state of the art image processing software. (credit: Dave Pape)")
-{: #Figure7}
+{ #Figure7}
 
 ![The figure gives an artist\'s view of different stages of meiosis.](../resources/Figure_26_04_08.jpg "The image shows a sequence of events that takes place during meiosis. (credit: Patr&#xED;ciaR, Wikimedia Commons; National Center for Biotechnology Information)")
-{: #Figure8}
+{ #Figure8}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -450,7 +450,7 @@ viable values for a microscope?
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 compound microscope
 : a microscope constructed from two convex lenses, the first serving as the

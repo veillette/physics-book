@@ -4,7 +4,7 @@ layout: page
 ---
 
 ![Two dolphins are shown in a pool at Lisbon Zoo. One is in the water, and the other is in the air diving back into water](../resources/Figure_04_00_01.jpg "Newton&#x2019;s laws of motion describe the motion of the dolphin&#x2019;s path. (credit: Jin Jang)")
-{: #Figure1}
+{ #Figure1}
 
 Motion draws our attention. Motion itself can be beautiful, causing us to marvel
 at the forces needed to achieve spectacular motion, such as that of a dolphin
@@ -28,7 +28,7 @@ given to the thoughts of earlier classical philosophers such as Aristotle (
 Newton and Galileo.
 
 ![Cover page of the first edition of a book, Philosophiae Naturalis Principia Mathematica, written by Isaac Newton.](../resources/Figure_04_00_02.jpg "Isaac Newton&#x2019;s monumental work, Philosophiae Naturalis Principia Mathematica, was published in 1687. It proposed scientific laws that are still used today to describe the motion of objects. (credit: Service commun de la documentation de l'Universit&#xE9; de Strasbourg)")
-{: #Figure2 height="250"}
+{ #Figure2 height="250"}
 
 Galileo was instrumental in establishing *observation* as the absolute
 determinant of truth, rather than “logical” argument. Galileo’s use of the

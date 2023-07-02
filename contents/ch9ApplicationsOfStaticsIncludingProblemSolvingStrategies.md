@@ -66,13 +66,13 @@ Similar observations can be made using a meter stick held at different locations
 along its length.
 
 ![A pole vaulter is standing on the ground holding a pole with his two hands. The center of gravity of the pole is between the hands of the pole vaulter and is near the right hand of the man. The weight W is shown as an arrow downward toward center of gravity. The reactions F sub R and F sub L of the hands of the man are shown with vectors in upward direction. A free body diagram of the situation is shown on the top right side of the figure.](../resources/Figure_09_04_01a.jpg "A pole vaulter holds a pole horizontally with both hands.")
-{: #Figure1}
+{ #Figure1}
 
 ![A pole vaulter is standing on the ground holding a pole with his two hands. The center of gravity of the pole is between the hands of the pole vaulter and is near the right hand of the man. The weight W is shown as an arrow downward toward center of gravity. The reactions F sub R and F sub L of the hands of the man are shown with vectors in upward direction. A free body diagram of the situation is shown on the top right side of the figure.](../resources/Figure_09_04_01b.jpg "A pole vaulter is holding a pole horizontally with both hands. The center of gravity is near his right hand.")
-{: #Figure2}
+{ #Figure2}
 
 ![A pole vaulter is standing on the ground holding a pole from one side with his two hands. The centre of gravity of the pole is to the left of the pole vaulter. The weight W is shown as an arrow downward at center of gravity. The reaction F sub R is shown with a vector pointing downward from the man&#x2019;s right hand and F sub L is shown with a vector in upward direction at the location of the man&#x2019;s left hand. A free body diagram of the situation is shown on the top right side of the figure.](../resources/Figure_09_04_01c.jpg "A pole vaulter is holding a pole horizontally with both hands. The center of gravity is to the left side of the vaulter.")
-{: #Figure3}
+{ #Figure3}
 
 If the pole vaulter holds the pole as shown in [Figure 2](#Figure2), the situation
 is not as simple. The total force he exerts is still equal to the weight of the
@@ -247,7 +247,7 @@ Strategy for static equilibrium described above.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 static equilibrium
 : equilibrium in which the acceleration of the system is zero and accelerated

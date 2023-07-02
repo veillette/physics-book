@@ -3,19 +3,24 @@ const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItFootnote = require("markdown-it-footnote");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const markdownItAttrs = require('markdown-it-attrs');
 
 module.exports = function (eleventyConfig) {
 
     eleventyConfig.addLayoutAlias('page', 'page.html');
     eleventyConfig.addLayoutAlias('default', 'default.html');
 
-    eleventyConfig.addLayoutAlias('foot', '_layouts/foot.html');
-    eleventyConfig.addLayoutAlias('head', '_layouts/head.html');
-    // eleventyConfig.addLayoutAlias('default', '_layouts/default.html');
+    // eleventyConfig.addLayoutAlias('foot', '_layouts/foot.html');
+    // eleventyConfig.addLayoutAlias('head', '_layouts/head.html');
 
-    // Add header anchor and footnotes plugin to Markdown renderer
-    const markdownLib = markdownIt({html: true, typographer: true});
-    markdownLib.use(markdownItFootnote).use(markdownItAnchor);
+    let markdownItOptions = {
+        html: true, // you can include HTML tags,
+        typographer: true
+    }
+
+    // Add footnote plugin to Markdown renderer
+    const markdownLib = markdownIt(markdownItOptions);
+    markdownLib.use(markdownItFootnote).use(markdownItAnchor).use(markdownItAttrs);
     eleventyConfig.setLibrary("md", markdownLib);
 
     // Enable syntax highlighting

@@ -39,13 +39,13 @@ in [[Figure 4]](../contents/ch26VisionCorrection#Figure4). Such aberrations and 
 issue with manufactured lenses.
 
 ![Part a shows a single convex lens. White light source rays are striking the edges and the optical axis of the lens. Visible spectrum of light is refracted from the lens and is falling on the axis. Violet rays have bent more than red rays and are focused closer to the lens shown as V and R dots at different location. Part b shows an achromatic doublet lens. White light source rays are striking the edges and the optical axis of the lens. Rays are getting refracted within the lens and a visible spectrum of light is falling at one point of the axis shown as a dot.](../resources/Figure_26_06_01.jpg "(a) Chromatic aberration is caused by the dependence of a lens&#x2019;s index of refraction on color (wavelength). The lens is more powerful for violet (V) than for red (R), producing images with different locations and magnifications. (b) Multiple-lens systems can partially correct chromatic aberrations, but they may require lenses of different materials and add to the expense of optical systems such as cameras.")
-{: #Figure1}
+{ #Figure1}
 
 ![The image shows a biconvex lens. Rays originating from points not on the optical axis are striking the lens. Pairs of the rays converge at different focus points, but there is no one point where all rays converge.](../resources/Figure_26_06_02.jpg "A coma is an aberration caused by an object that is off-center, often resulting in a pear-shaped image. The rays originate from points that are not on the optical axis and they do not converge at one common focal point.")
-{: #Figure2}
+{ #Figure2}
 
 ![The image shows a spherical converging lens. Light rays are hitting the lens and converging at different points. These focus positions are dependent on which zone of the lens the light hits.](../resources/Figure_26_06_03.jpg "Spherical aberration is caused by rays focusing at different distances from the lens.")
-{: #Figure3}
+{ #Figure3}
 
 The image produced by an optical system needs to be bright enough to be
 discerned. It is often a challenge to obtain a sufficiently bright image. The
@@ -117,7 +117,7 @@ controlled?
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 aberration
 : failure of rays to converge at one focus because of limitations or defects in

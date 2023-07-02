@@ -52,10 +52,10 @@ superconductors are used in experimental apparatus, and they are actively being
 researched, particularly in thin film applications.
 
 ![The graph shows resistivity on the vertical axis and temperature on the horizontal axis. The resistivity goes from zero to zero point one five ohms and the temperature goes from four point one to four point four kelvin. The curve starts at less than ten to the minus five ohms just below four point two kelvin, then jumps up at four point two kelvin to about zero point one two ohms. As the temperature increases further, the resistivity climbs more or less linearly until it reaches about zero point one four ohms at a temperature just above four point four kelvin.](../resources/Figure_34_06_01.jpg "A graph of resistivity versus temperature for a superconductor shows a sharp transition to zero at the critical temperature Tc. High temperature superconductors have verifiable Tc s greater than 125 K, well above the easily achieved 77-K temperature of liquid nitrogen.")
-{: #Figure1}
+{ #Figure1}
 
 ![The figure shows a button-shaped magnet floating above a superconducting puck. Some wispy fog is flowing from the puck.](../resources/Figure_34_06_02.jpg "One characteristic of a superconductor is that it excludes magnetic flux and, thus, repels other magnets. The small magnet levitated above a high-temperature superconductor, which is cooled by liquid nitrogen, gives evidence that the material is superconducting. When the material warms and becomes conducting, magnetic flux can penetrate it, and the magnet will rest upon it. (credit: Saperaud)")
-{: #Figure2}
+{ #Figure2}
 
 The search is on for even higher $${T}_{c} $$ superconductors, many of complex
 and exotic copper oxide ceramics, sometimes including strontium, mercury, or
@@ -84,7 +84,7 @@ $${T}_{c} $$ may feel something analogous to what a politician once said upon an
 unexpected election victory—“I wonder what we did right?”
 
 ![Figure a is a graph of resistivity versus temperature. The resistivity goes from zero to zero point six milli ohm centimeters and the temperature goes from one hundred to three hundred kelvin. There are three curves on the graph. The first curve starts near zero point one milli ohm centimeters, one hundred kelvin, and increases linearly to zero point six milli ohm centimeters, two hundred and eighty kelvin. The second curve is at zero resistivity from 100 kelvin to about two hundred and thirty five kelvin, then jumps straight up to zero point four milli ohm centimeters, after which it increases linearly with temperature with the same slope as the first curve. The third curve has one point at minus zero point zero five milli ohm centimeters at about one hundred and thirty kelvin, then becomes positive and increases essentially linearly with the same slope as the first curve. Figure b shows a scaffolding structure made up of rods. At each vertex in the scaffold there is a ball that is either white, red, purple, or blue. Each color represents a different kind of atom. The white balls are the largest, then the red, then the purple, and the blue balls are the smallest. The balls are arranged in a systematic pattern. From bottom to top the scaffold layers are formed from white and red balls, then red and blue balls, then purple balls, then again red and blue balls, then finally white and red balls again. In each individual layer the balls form various grid patterns. This scaffold structure forms a brick-like shape and an identical such brick is positioned above it with a gap between the two bricks. The two bricks are connected together by a single layer of blue balls. ](../resources/Figure_34_06_03.jpg "(a) This graph, adapted from an article in Physics Today, shows the behavior of a single sample of a high-temperature superconductor in three different trials. In one case the sample exhibited a \( T_{c} \) of about 230 K, whereas in the others it did not become superconducting at all. The lack of reproducibility is typical of forefront experiments and prohibits definitive conclusions. (b) This colorful diagram shows the complex but systematic nature of the lattice structure of a high-temperature superconducting ceramic. (credit: en:Cadmium, Wikimedia Commons) ")
-{: #Figure3}
+{ #Figure3}
 
 ### Section Summary
 
@@ -135,7 +135,7 @@ A section of superconducting wire carries a current of 100 A and requires 1.00 L
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 Superconductors
 : materials with resistivity of zero

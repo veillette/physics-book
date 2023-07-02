@@ -44,7 +44,7 @@ Attractive forces between molecules of different types are called adhesive force
 </div>
 
 ![The soap bubbles that the child blows into the air maintain their shape because of the attractive force between the molecules of the soap bubble.](../resources/Figure_11_08_01a.jpg "The soap bubbles in this photograph are caused by cohesive forces among molecules in liquids. (credit: Steve Ford Elliott)")
-{: #Figure1}
+{ #Figure1}
 
 ### Surface Tension
 
@@ -82,7 +82,7 @@ on the surface, its weight acting on a smaller area would break the surface, and
 it would sink.
 
 ![A leg of an insect resting on the water surface is shown in the first figure. In the second figure an iron needle rests on the surface of water without sinking. Both are possible due to the tension on the surface of the liquid.](../resources/Figure_11_08_03a.jpg "Surface tension supporting the weight of an insect and an iron needle, both of which rest on the surface without penetrating it. They are not floating; rather, they are supported by the surface of the liquid. (a) An insect leg dents the water surface. \( F_\text{ST}\) is a restoring force (surface tension) parallel to the surface. (b) An iron needle similarly dents a water surface until the restoring force (surface tension) grows to equal its weight.")
-{: #Figure2}
+{ #Figure2}
 
 Surface tension is proportional to the strength of the cohesive force, which
 varies with the type of liquid. Surface tension $$\gamma $$ is defined to be the
@@ -118,10 +118,10 @@ balloons of unequal size, the smaller balloon tends to collapse, filling the
 larger balloon.
 
 ![Sliding wire device which is used to measure surface tension shows the force exerted on the two surfaces of the liquid. This force remains a constant until the film&#x2019;s breaking point.](../resources/Figure_11_08_04a.jpg "Sliding wire device used for measuring surface tension; the device exerts a force to reduce the film&#x2019;s surface area. The force needed to hold the wire in place is \( F=\gamma L=\gamma (2l) \), since there are two liquid surfaces attached to the wire. This force remains nearly constant as the film is stretched, until the film approaches its breaking point.")
-{: #Figure3}
+{ #Figure3}
 
 ![When two balloons are attached to the ends of a glass tube air flows from one to the other if their sizes are different.](../resources/Figure_11_08_05a.jpg "With the valve closed, two balloons of different sizes are attached to each end of a tube. Upon opening the valve, the smaller balloon decreases in size with the air moving to fill the larger balloon. The pressure in a spherical balloon is inversely proportional to its radius, so that the smaller balloon has a greater internal pressure than the larger balloon, resulting in this flow.")
-{: #Figure4}
+{ #Figure4}
 
 <table id="Table1" aria-describedby="The table gives the surface tension of water at zero, twenty, and one hundred degrees Celsius. The surface tension of some other liquids at twenty degrees Celsius is also given."><caption><span class="title">Surface Tension of Some Liquids<sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup></span></caption><thead><tr>
             <th>
@@ -221,7 +221,7 @@ we find it natural, as do our companion dogs and cats, to take a cleansing
 breath before settling into a nap.
 
 ![The alveoli at the end of the lung tubes enable exhalation and do not allow inhalation due to the surface tension of the mucous lining.](../resources/Figure_11_08_06a.jpg "Bronchial tubes in the lungs branch into ever-smaller structures, finally ending in alveoli. The alveoli act like tiny bubbles. The surface tension of their mucous lining aids in exhalation and can prevent inhalation if too great.")
-{: #Figure5}
+{ #Figure5}
 
 The tension in the walls of the alveoli results from the membrane tissue and a
 liquid on the walls of the alveoli containing a long lipoprotein that acts as a
@@ -238,7 +238,7 @@ tension change is a unique property of these surfactants, and is not shared by
 detergents (which simply lower surface tension). (See [[Figure 6]](#Figure6).)
 
 ![Graph of surface tension as a function of surface area for detergents and interstitial fluids.](../resources/Figure_11_08_07a.jpg "Surface tension as a function of surface area. The surface tension for lung surfactant decreases with decreasing area. This ensures that small alveoli don&#x2019;t collapse and large alveoli are not able to over expand. ")
-{: #Figure6}
+{ #Figure6}
 
 If water gets into the lungs, the surface tension is too great and you cannot
 inhale. This is a severe problem in resuscitating drowning victims. A similar
@@ -288,7 +288,7 @@ The angle  $$\theta  $$
 </div>
 
 ![Water is seen to make beads on the waxed surface of car paint and it remains flat on the surface without wax. The beads are due to the greater force of attraction between the water molecules than between the water molecules and the surface. On the surface without wax the force of attraction between the water molecules and paint is greater.](../resources/Figure_11_08_08a.jpg "In the photograph, water beads on the waxed car paint and flattens on the unwaxed paint. (a) Water forms beads on the waxed surface because the cohesive forces responsible for surface tension are larger than the adhesive forces, which tend to flatten the drop. (b) Water beads on bare paint are flattened considerably because the adhesive forces between water and paint are strong, overcoming surface tension. The contact angle \( \theta \) is directly related to the relative strengths of the cohesive and adhesive forces. The larger \( \theta \) is, the larger the ratio of cohesive to adhesive forces. (credit: P. P. Urone)")
-{: #Figure7}
+{ #Figure7}
 
 One important phenomenon related to the relative strength of cohesive and
 adhesive forces is **capillary action**—the tendency of a fluid to be raised or
@@ -318,7 +318,7 @@ liquid surface in a capillary tube. This results in a downward force in mercury
 and an upward force in water, as seen in [[Figure 8]](#Figure8).
 
 ![Mercury kept in a container into which a narrow tube is inserted lowers its level inside the tube relative to the level in the rest of the container. In a similar situation, water rises in the tube so that the water level in the tube is above the water level in the rest of the container. This phenomenon is due to the large contact angle of mercury with glass and the smaller contact angle of water with glass.](../resources/Figure_11_08_09a.jpg "(a) Mercury is suppressed in a glass tube because its contact angle is greater than 90&#xBA;. Surface tension exerts a downward force as it flattens the mercury, suppressing it in the tube. The dashed line shows the shape the mercury surface would have without the flattening effect of surface tension. (b) Water is raised in a glass tube because its contact angle is nearly 0&#xBA;. Surface tension therefore exerts an upward force when it flattens the surface to reduce its area.")
-{: #Figure8}
+{ #Figure8}
 
 <table id="Table2" aria-describedby="The table gives the contact angles of some substances."><caption><span class="title">Contact Angles of Some Substances</span></caption><thead><tr>
             <th>
@@ -381,7 +381,7 @@ inversely proportional to fluid density $$\rho $$ , since a larger density means
 a greater mass in the same volume. (See [[Figure 9]](#Figure9).)
 
 ![The left image shows liquid in a container with four tubes of progressively smaller diameter inserted into the liquid. The liquid rises higher in the smaller-diameter tubes. The right image shows two containers, one holding a dense liquid and the other holding a less-dense liquid. Identical tubes are inserted into each liquid. The less-dense liquid rises higher in its tube than the more-dense liquid does in its tube.](../resources/Figure_11_08_10a.jpg "(a) Capillary action depends on the radius of a tube. The smaller the tube, the greater the height reached. The height is negligible for large-radius tubes. (b) A denser fluid in the same tube rises to a smaller height, all other factors being the same.")
-{: #Figure9}
+{ #Figure9}
 
 <div id="Example2" class="example" markdown="1">
 <div class="title">
@@ -429,7 +429,7 @@ demonstrated that negative pressures sufficient to pull sap to the tops of the
 tallest trees *can* be achieved.
 
 ![When the piston is raised the liquid stretches somewhat, which results in negative pressure.](../resources/Figure_11_08_11a.jpg "(a) When the piston is raised, it stretches the liquid slightly, putting it under tension and creating a negative absolute pressure \( P= -F/A \) . (b) The liquid eventually separates, giving an experimental limit to negative pressure in this liquid.")
-{: #Figure10}
+{ #Figure10}
 
 ### Section Summary
 
@@ -646,18 +646,18 @@ What is the ratio of heights to which ethyl alcohol and water are raised by capi
 
 <div class="footnote-refs" markdown="1">
 ### Footnotes
-{: class="footnote-refs-title"}
+{ class="footnote-refs-title"}
 
-* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
+* { class="footnote-ref" #footnote1} [1](#footnote-ref1){ class="
   footnote-ref-link"} <span class="footnote-ref-content">At 20ºC unless
   otherwise stated.</span>
-  {: data-list-type="bulleted" data-bullet-style="none"}
+  { data-list-type="bulleted" data-bullet-style="none"}
 
 </div>
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 adhesive forces
 : the attractive forces between molecules of different types

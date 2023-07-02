@@ -51,7 +51,7 @@ rises, reducing the current and lengthening the time it takes to get ready for
 the next flash.
 
 ![Part a shows a circuit with a cell of e m f script E connected in series with a resistor R, a capacitor C, and a switch to close the circuit. The current is shown flowing in a clockwise direction. The capacitor plates are shown to have a charge positive q and negative q respectively. Part b shows a graph of the variation of voltage of the capacitor with time. The voltage is plotted along the vertical axis and the time is along the horizontal axis. The graph shows a smooth upward rising curve which approaches a maximum and flattens out at maximum voltage equal to e m f script E over time.](../resources/Figure_21_06_01.jpg "(a) An \( RC \) circuit with an initially uncharged capacitor. Current flows in the direction shown (opposite of electron flow) as soon as the switch is closed. Mutual repulsion of like charges in the capacitor progressively slows the flow as the capacitor is charged, stopping the current when the capacitor is fully charged and \( Q=C&#x22C5;emf \) . (b) A graph of voltage across the capacitor versus time, with the switch closing at time \( t=0 \) . (Note that in the two parts of the figure, the capital script E stands for emf, q  stands for the charge stored on the capacitor, and \( \tau \) is the RC  time constant.)")
-{: #Figure1}
+{ #Figure1}
 
 Voltage on the capacitor is initially zero and rises rapidly at first, since the
 initial current is a maximum. [[Figure 1]](#Figure1)(b) shows a graph of
@@ -111,7 +111,7 @@ is found to be
 </div>
 
 ![Part a shows a circuit with a capacitor C connected in series with a resistor R and a switch to close the circuit. The current is shown flowing in a counterclockwise direction. The capacitor plates are shown to have a charge positive q and negative q respectively. Part b shows a graph of the variation of voltage across the capacitor with time. The voltage is plotted along the vertical axis and the time is along the horizontal axis. The graph shows a smooth downward falling curve which approaches a minimum and flattens out close to zero over time.](../resources/Figure_21_06_02.jpg "(a) Closing the switch discharges the capacitor \( C \) through the resistor \( R \) . Mutual repulsion of like charges on each plate drives the current. (b) A graph of voltage across the capacitor versus time, with \( V = V_0 \) at \( t=0 \). The voltage decreases exponentially, falling a fixed fraction of the way to zero in each subsequent time constant \( \tau \) .")
-{: #Figure2}
+{ #Figure2}
 
 The graph in [[Figure 2]](#Figure2)(b) is an example of this exponential decay.
 Again, the time constant is $$\tau =\text{RC} $$ . A small resistance $$R $$
@@ -144,7 +144,7 @@ energy into a laser. The short intense flash can rapidly energize a laser and
 allow it to reemit the energy in another form.
 
 ![In the photograph, details of the fast beating wings of the hummingbird taking nectar from a flower have been caught in focus, instead of the blur that our eyes would see in real time.](../resources/Figure_21_06_03.jpg "This stop-motion photograph of a rufous hummingbird (Selasphorus rufus) feeding on a flower was obtained with an extremely brief and intense flash of light powered by the discharge of a capacitor through a gas. (credit: Dean E. Biggins, U.S. Fish and Wildlife Service)")
-{: #Figure3}
+{ #Figure3}
 
 <div class="example" markdown="1">
 <div class="title">
@@ -228,7 +228,7 @@ have sensors that detect body motion and breathing to increase the heart rate
 during exercise to meet the body’s increased needs for blood and oxygen.
 
 ![Part a shows a charging circuit containing cell of e m f script E connected to a resistor R and capacitor C and a closed switch to complete the circuit. The current is shown to flow clockwise through this arm of the circuit alone. A bulb of high resistance R is connected across the capacitor. Part b shows a discharging circuit containing a cell of e m f script E connected to a resistor R and capacitor C and a closed switch to complete the circuit. A bulb of low resistance R is connected across the capacitor. Current flows clockwise through the arm containing the capacitor and the low resistance bulb. Part c is a graph showing variation of voltage verses time for the bulb in above circuit. The voltage is plotted along the vertical axis and the time is plotted along the horizontal axis. The curve has a smooth rise from the origin, reaches a plateau at threshold value of voltage where it begins to drop and rise as a small sawtooth wave with maxima lying along the threshold line.](../resources/Figure_21_06_04.jpg "(a) The lamp in this \( RC \) circuit ordinarily has a very high resistance, so that the battery charges the capacitor as if the lamp were not there. When the voltage reaches a threshold value, a current flows through the lamp that dramatically reduces its resistance, and the capacitor discharges through the lamp as if the battery and charging resistor were not there. Once discharged, the process starts again, with the flash period determined by the \( RC \) constant \( \tau \). (b) A graph of voltage versus time for this circuit.")
-{: #Figure4}
+{ #Figure4}
 
 <div class="example" markdown="1">
 <div class="title">
@@ -305,7 +305,7 @@ Only when the current being drawn from or put into the capacitor is zero. Capaci
 PhET Explorations: Circuit Construction Kit (DC only)
 </div>
 An electronics kit in your computer! Build circuits with resistors, light bulbs, batteries, and switches. Take measurements with the realistic ammeter and voltmeter. View the circuit as a schematic diagram, or switch to a life-like view.
-{: class="newline"}
+{ class="newline"}
 
 <div class="media"  data-alt="circuit construction kit">
 <iframe width="660" height="371.4" src="https://veillette.github.io/simulations/circuit-construction-kit-dc-only/#sim-cck"></iframe>
@@ -422,7 +422,7 @@ In [[Figure 4]](#Figure4), does the graph indicate the time constant is shorter 
 An electronic apparatus may have large capacitors at high voltage in the power supply section, presenting a shock hazard even when the apparatus is switched off. A “bleeder resistor” is therefore placed across such a capacitor, as shown schematically in [[Figure 5]](#Figure5), to bleed the charge from it after the apparatus is off. Why must the bleeder resistance be much greater than the effective resistance of the rest of the circuit? How does this affect the time constant for discharging the capacitor?
 
 ![An electrical circuit with a capacitor has an extra resistor R sub b l, called a bleeder, installed in parallel with the capacitor.](../resources/Figure_21_06_05.jpg "A bleeder resistor \( R_\text{bl} \) discharges the capacitor in this electronic device once it is switched off.")
-{: #Figure5}
+{ #Figure5}
 
 </div>
 </div>
@@ -528,7 +528,7 @@ An ECG monitor must have an  $$\text{RC} $$
  (This is about two time constants.)
 
 ![A parallel circuit with a switch, an embedded electronic circuit, a capacitor, and a resistor is shown. The embedded circuit, capacitor, and resistor are connected in parallel with each other: the electronic circuit on the left, the capacitor in the middle, and the resistor on the right. The capacitor has a capacitance of eighty micro farads. The resistor has a resistance of two hundred fifty kilohms. The switch is on the top, between the electronic circuit and the capacitor leg.](../resources/Figure_21_06_07.jpg " ")
-{: #Figure6}
+{ #Figure6}
 
 </div>
 <div class="solution" markdown="1">
@@ -653,7 +653,7 @@ current it should be able to supply to a camcorder.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 RC circuit
 : a circuit that contains both a resistor and a capacitor

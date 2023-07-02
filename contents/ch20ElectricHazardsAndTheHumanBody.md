@@ -33,7 +33,7 @@ appliance. Thermal energy delivered at this rate will very quickly raise the
 temperature of surrounding materials, melting or perhaps igniting them.
 
 ![Part a shows an electric toaster of resistance capital R connected to an A C voltage source. The wires used to connect the toaster to the supply are worn out in one place, allowing them to come into contact with an undesired, lower resistance path, symbolized by lowercase r. Part b of the figure represents the circuit diagram for the electric connection described in part a. The voltage source is connected to two paths in parallel: the toaster with resistance capital R, and the undesired lower resistance path, symbolized by lowercase r.](../resources/Figure_20_06_01a.jpg "A short circuit is an undesired low-resistance path across a voltage source. (a) Worn insulation on the wires of a toaster allow them to come into contact with a low resistance \( r \) . Since \( P=V^2/r \), thermal power is created so rapidly that the cord melts or burns. (b) A schematic of the short circuit.")
-{: #Figure1}
+{ #Figure1}
 
 One particularly insidious aspect of a short circuit is that its resistance may
 actually be decreased due to the increase in temperature. This can happen if the
@@ -61,10 +61,10 @@ currents. (See [[Figure 2]](#Figure2) and [[Figure 3]](#Figure3).) Each device
 opens the circuit automatically when a sustained current exceeds safe limits.
 
 ![Part a of the figure shows an electric fuse with metal having low melting point enclosed in a case with wires leading to the circuit and voltage source. There is a viewing window in the fuse casing. Part b shows a circuit breaker. There is a movable metal strip at one end from which a connector to the circuit is attached at a fixed contact point. There is a compressed spring and switch gear attached adjacent to each other at the other end of the movable metal strip. The movable metallic strip has a bimetallic strip attached perpendicular to it at its center. At the opposite end of the bimetallic strip, there is a connector to the voltage source.](../resources/Figure_20_06_02a.jpg "(a) A fuse has a metal strip with a low melting point that, when overheated by an excessive current, permanently breaks the connection of a circuit to a voltage source. (b) A circuit breaker is an automatic but restorable electric switch. The one shown here has a bimetallic strip that bends to the right and into the notch if overheated. The spring then forces the metal strip downward, breaking the electrical connection at the points.")
-{: #Figure2}
+{ #Figure2}
 
 ![The diagram shows an electric circuit with an A C voltage source, a fuse or circuit breaker, and a resistance R all connected in series to form a closed circuit.](../resources/Figure_20_06_03a.jpg "Schematic of a circuit with a fuse or circuit breaker in it. Fuses and circuit breakers act like automatic switches that open when sustained current exceeds desired limits.")
-{: #Figure3}
+{ #Figure3}
 
 Fuses and circuit breakers for typical household voltages and currents are
 relatively simple to produce, but those for large voltages and currents
@@ -103,7 +103,7 @@ through the trunk of the body, has a duration of 1 s, and is caused by 60-Hz
 power.
 
 ![Part a of the diagram shows a person working on an electrically hot wire with a metal tool. The next step shows that he is a victim of electric shock and is thrown backward with his arms and legs stretched. The metal tool also falls off his hand. Part b of the diagram shows a person holding the electrically hot wire with his hands. The person is not thrown away. He cannot let go of the wire because the muscles that close the fingers are stronger than those that open them.](../resources/Figure_20_06_04a.jpg "An electric current can cause muscular contractions with varying effects. (a) The victim is &#x201C;thrown&#x201D; backward by involuntary muscle contractions that extend the legs and torso. (b) The victim can&#x2019;t let go of the wire that is stimulating all the muscles in the hand. Those that close the fingers are stronger than those that open them.")
-{: #Figure4}
+{ #Figure4}
 
 <table id="Table1" aria-describedby="The table shows how different amounts of current produce different effects on the human body. The left column shows various magnitudes of current in milliamperes, and the right column shows its effects on body."><caption><span class="title">Effects of Electrical Shock as a Function of Current<sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup></span></caption><thead><tr>
             <th>Current (mA)</th>
@@ -205,7 +205,7 @@ voltage causes a greater current, and a much smaller current has a greater
 effect.
 
 ![The graph of average values for the threshold of sensation and the Can&#x2019;t let go current as a function of frequency, with current in milliamperes verses frequency in hertz. The current is plotted along the vertical axis and frequency along the horizontal axis. The plot has two curves. The curve for Can&#x2019;t let go current starts off at a value nearly eighteen milliamps on the vertical axis. The curve is smooth and dips until frequency equals about one hundred hertz and then rises for values of frequency above one hundred hertz. The curve for Threshold of sensation current starts off at a value nearly four milliamps on the vertical axis. The curve is smooth and dips until frequency equals about one hundred hertz and then rises for values of frequency above one hundred hertz. The maximum value of current reached for this curve is nearly equal to the initial value for the Can&#x2019;t let go current curve. The Threshold of sensation curve lies below the curve for Can&#x2019;t let go current.](../resources/Figure_20_06_05a.jpg "Graph of average values for the threshold of sensation and the &#x201C;can&#x2019;t let go&#x201D; current as a function of frequency. The lower the value, the more sensitive the body is at that frequency.")
-{: #Figure5}
+{ #Figure5}
 
 Factors other than current that affect the severity of a shock are its path,
 duration, and AC frequency. Path has obvious consequences. For example, the
@@ -231,7 +231,7 @@ in [Electrical Safety: Systems and Devices](../contents/ch23ElectricalSafetySyst
 .
 
 ![Photograph of an electric arc produced between two multi stranded wires close to each other but not in contact.](../resources/Figure_20_06_06a.jpg "Is this electric arc dangerous? The answer depends on the AC frequency and the power involved. (credit: Khimich Alex, Wikimedia Commons)")
-{: #Figure6}
+{ #Figure6}
 
 ### Section Summary
 
@@ -444,19 +444,19 @@ unfelt, …).
 
 <div class="footnote-refs" markdown="1">
 ### Footnotes
-{: class="footnote-refs-title"}
+{ class="footnote-refs-title"}
 
-* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
+* { class="footnote-ref" #footnote1} [1](#footnote-ref1){ class="
   footnote-ref-link"} <span class="footnote-ref-content">For an average male
   shocked through trunk of body for 1 s by 60-Hz AC. Values for females are
   60–80% of those listed.</span>
-  {: data-list-type="bulleted" data-bullet-style="none"}
+  { data-list-type="bulleted" data-bullet-style="none"}
 
 </div>
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 thermal hazard
 : a hazard in which electric current causes undesired thermal effects

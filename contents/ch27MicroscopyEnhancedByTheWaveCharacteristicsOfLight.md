@@ -59,7 +59,7 @@ enhanced contrast, especially if the light is coherent and monochromatic—as in
 laser light.
 
 ![The schematic shows a rectangular object on a background material. Two oscillatory waves go from left to right across the image. At the left of the image, the waves have the same wavelength and are in phase. The lower wave goes through the object, where its wavelength becomes significantly shorter. To the right of the object the waves again have the same wavelength but they are now almost completely out of phase.](../resources/Figure_27_09_01a.jpg "Light rays passing through a sample under a microscope will emerge with different phases depending on their paths. The object shown has a greater index of refraction than the background, and so the wavelength decreases as the ray passes through it. Superimposing these rays produces interference that varies with path, enhancing contrast between the object and background.")
-{: #Figure1}
+{ #Figure1}
 
 **Interference microscopes** enhance contrast between objects and background by
 superimposing a reference beam of light upon the light emerging from the sample.
@@ -76,7 +76,7 @@ phases, interference will be significantly different and, hence, have greater
 contrast between them.
 
 ![The schematic shows an optical setup for an interference microscope. A light source produces a beam of light that is split into two beams by a beam splitter, which is a half silvered mirror. The beams are steered around the opposite side of a square and recombine at the corner diagonally opposite the beam splitter. The object being analyzed is placed in one arm so that the beam in that arm goes through the object.](../resources/Figure_27_09_02a.jpg "An interference microscope utilizes interference between the reference and object beam to enhance contrast. The two beams are split by a half-silvered mirror; the object beam is sent through the object, and the reference beam is sent through otherwise identical optical elements. The beams are recombined by another half-silvered mirror, and the interference depends on the various phases emerging from different parts of the object, enhancing contrast.")
-{: #Figure2}
+{ #Figure2}
 
 Another type of microscope utilizing wave interference and differences in phases
 to enhance contrast is called the **phase-contrast microscope**. While its
@@ -93,7 +93,7 @@ Frits Zernike (1888–1966), was awarded the Nobel Prize in
       producing contrast due to their interference.
 
 ![The schematic shows two beams of light going up from the bottom of the image and crossing at a point labeled object. After passing through the object, the beams diverge and then are focused by a convex lens. The light passes through a plate called the phase plate, and the beams then focus on the image plane. The background light diverges after passing through the phase plate so that it spreads away from the primary light beam on the image plane.](../resources/Figure_27_09_03a.jpg "Simplified construction of a phase-contrast microscope. Phase differences between light passing through the object and background are produced by passing the rays through different parts of a phase plate. The light rays are superimposed in the image plane, producing contrast due to their interference.")
-{: #Figure3}
+{ #Figure3}
 
 A **polarization microscope** also enhances contrast by utilizing a wave
 characteristic of light. Polarization microscopes are useful for objects that
@@ -143,7 +143,7 @@ microscopes that can become commercially available, providing better diagnostic
 and research capacities.
 
 ![Schematic of a confocal microscope. There is a sample at the bottom, a pinhole at the top, and a pinhole at the right side. The sample is a horizontal rectangle that is rather thick in the vertical direction. A green laser beam coming from the right is focused through the right pinhole, then reflects downward off of a dichroic mirror. It is then collected by a horizontal objective lens and focused onto the sample. The focus is not a point, but an extended zone where the beam diameter is minimal. Two solid red rays leave the focal plane of the objective lens and diverge upward. This plane is inside the sample and is labeled object in focal plane. These rays pass through the objective lens and begin to converge. After passing through the dichroic mirror, they continue upward and are focused through the top pinhole. After passing through this pinhole, these rays enter a detector. Two dashed red rays leave the sample at a point slightly above the focal plane, which is labeled object not in focal plane. These rays follow similar paths as the solid red rays, but they do not focus on the pinhole and so are blocked and do not reach the detector.](../resources/Figure_27_09_04a.jpg "A confocal microscope provides three-dimensional images using pinholes and the extended depth of focus as described by wave optics. The right pinhole illuminates a tiny region of the sample in the focal plane. In-focus light rays from this tiny region pass through the dichroic mirror and the second pinhole to a detector and a computer. Out-of-focus light rays are blocked. The pinhole is scanned sideways to form an image of the entire focal plane. The pinhole can then be scanned up and down to gather images from different focal planes. The result is a three-dimensional image of the specimen.")
-{: #Figure4}
+{ #Figure4}
 
 ### Section Summary
 
@@ -169,7 +169,7 @@ A bright white light under water is collimated and directed upon a prism. What r
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 confocal microscopes
 : microscopes that use the extended focal region to obtain three-dimensional

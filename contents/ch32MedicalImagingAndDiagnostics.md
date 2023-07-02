@@ -16,7 +16,7 @@ tissue; hence, it is a useful probe to monitor conditions inside the body.
 Second, nuclear radiation depends on the nuclide and not on the chemical
 compound it is in, so that a radioactive nuclide can be put into a compound
 designed for specific purposes. The compound is said to be **tagged**. A tagged
-compound used for medical purposes is called a **radiopharmaceutical**{: class="
+compound used for medical purposes is called a **radiopharmaceutical**{ class="
 term"}. Radiation detectors external to the body can determine the location and
 concentration of a radiopharmaceutical to yield medically useful information.
 For example, certain drugs are concentrated in inflamed regions of the body, and
@@ -29,7 +29,7 @@ organs, such as blood flow, heart muscle activity, and iodine uptake in the
 thyroid gland.
 
 ![A brain scan. Different regions of the brain are shown in different colors.](../resources/Figure_32_01_01.jpg "A radiopharmaceutical is used to produce this brain image of a patient with Alzheimer&#x2019;s disease. Certain features are computer enhanced. (credit: National Institutes of Health)")
-{: #Figure1}
+{ #Figure1}
 
 ### Medical Application
 
@@ -203,7 +203,7 @@ two-dimensional view of the tumor as opposed to a three-dimensional view),
 because radiation from any location under that detector produces a signal.
 
 ![The image shows the head of a man scanned by an Anger camera. The camera consists of a lead collimator and array of detectors. Gamma rays emerging from the man&#x2019;s head pass through the lead collimator and produce light flashes in the scintillators. The photomultiplier tubes convert the light output to electrical signals for computer image generation.](../resources/Figure_32_01_02.jpg "An Anger or gamma camera consists of a lead collimator and an array of detectors. Gamma rays produce light flashes in the scintillators. The light output is converted to an electrical signal by the photomultipliers. A computer constructs an image from the detector output.")
-{: #Figure2}
+{ #Figure2}
 
 Imaging techniques much like those in x-ray computed tomography (CT) scans use
 nuclear activity in patients to form three-dimensional
@@ -216,7 +216,7 @@ visual properties that makes an object distinguishable from other objects and
 the background) is good.
 
 ![A man lying down, going through a cylindrical scanning machine.](../resources/Figure_32_01_04.jpg "SPECT uses a geometry similar to a CT scanner to form an image of the concentration of a radiopharmaceutical compound. (credit: Woldo, Wikimedia Commons)")
-{: #Figure3}
+{ #Figure3}
 
 Images produced by $${\beta }^{+} $$ emitters have become important in recent
 years. When the emitted positron (  $${\beta }^{+} $$ )
@@ -242,7 +242,7 @@ become active when a person carries out specific activities, such as speaking,
 closing their eyes, and so on.
 
 ![The figure shows a patient undergoing a scan in a cylindrical device. The P E T system uses two gamma ray photons produced by positron electron annihilation. These gamma rays are emitted in opposite directions.](../resources/Figure_32_01_05.jpg "A PET system takes advantage of the two identical \( \gamma \)-ray photons produced by positron-electron annihilation. These \( \gamma \) rays are emitted in opposite directions, so that the line along which each pair is emitted is determined. Various events detected by several pairs of detectors are then analyzed by the computer to form an accurate image.")
-{: #Figure4}
+{ #Figure4}
 
 <div class="note" data-has-label="true"  data-label="" markdown="1">
 <div class="title">
@@ -384,7 +384,7 @@ given its half-life is 15.0 h?
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 Anger camera
 : a common medical imaging device that uses a scintillator connected to a series

@@ -155,7 +155,7 @@ be used to run an electric motor. Energy is converted from the primary source of
 solar energy into electrical energy and then into mechanical energy.
 
 ![A solar-powered aircraft flying over the sea. Solar cells are on the upper surface of the wings, where they are exposed to sunlight.](../resources/Figure_07_06_01a.jpg "Solar energy is converted into electrical energy by solar cells, which is used to run a motor in this solar-power aircraft. (credit: NASA)")
-{: #Figure1}
+{ #Figure1}
 
 ##### Table 1:Energy of Various Objects and Phenomena
 
@@ -185,7 +185,7 @@ solar energy into electrical energy and then into mechanical energy.
 |Single electron in a TV tube beam  | $$ 4.0×10^{-15} $$ |
 |Energy to break one DNA strand  | $$ 10^{-19} $$ |
 
-{: #Table1}
+{ #Table1}
 
 ### Efficiency
 
@@ -222,7 +222,7 @@ then released to the environment through combustion gases and cooling towers.
 |Gas heater (residential)|90|
 |Solar cell|10|
 
-{: #Table2}
+{ #Table2}
 
 <div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
@@ -236,7 +236,7 @@ A realistic mass and spring laboratory. Hang masses from springs and adjust the 
 Masses and Springs
 </figcaption>
 </figure>
-{: #Figure2}
+{ #Figure2}
 </div>
 
 ### Section Summary
@@ -268,7 +268,7 @@ station, where he brakes to a stop and fills the tank with gasoline. Identify th
 car has, and how they are changed and transferred in this series of events. (See [Figure 3](#Figure3).)
 
 ![A car coasting downhill, moving over a crest then again moving downhill and finally stopping at a gas station. Each of these positions is labeled with an arrow pointing downward.](../resources/Figure_07_06_02a.jpg "A car experiencing non-negligible friction coasts down a hill, over a small crest, then downhill again, and comes to a stop at a gas station.")
-{: #Figure3}
+{ #Figure3}
 
 </div>
 </div>
@@ -348,7 +348,7 @@ If the energy in fusion bombs were used to supply the energy needs of the world,
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 law of conservation of energy
 : the general law that total energy is constant in any process; energy may

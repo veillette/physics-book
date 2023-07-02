@@ -16,7 +16,7 @@ situation to visualize is a varying current in a long straight wire, produced by
 an AC generator at its center, as illustrated in [[Figure 1]](#Figure1).
 
 ![A long straight gray wire with an A C generator at its center, functioning as a broadcast antenna for electromagnetic waves, is shown. The wave distributions at four different times are shown in four different parts. Part a of the diagram shows a long straight gray wire with an A C generator at its center. The time is marked t equals zero. The bottom part of the antenna is positive and the upper end of the antenna is negative. An electric field E acting upward is shown by an upward arrow. Part b of the diagram shows a long straight gray wire with an A C generator at its center. The time is marked t equals capital T divided by four. The antenna has no polarity marked and a wave is shown to emerge from the A C source. An electric field E acting upward as shown by an upward arrow. The electric field E propagates away from the antenna at the speed of light, forming part of the electromagnetic wave from the A C source. A quarter portion of the wave is shown above the horizontal axis. Part c of the diagram shows a long straight gray wire with an A C generator at its center. The time is marked t equals capital T divided by two. The bottom part of the antenna is negative and the upper end of the antenna is positive and a wave is shown to emerge from the A C source. The electric field E propagates away from the antenna at the speed of light, forming part of the electromagnetic wave from the A C source. A quarter portion of the wave is shown below the horizontal axis and a quarter portion of the wave is above the horizontal axis. Part d of the diagram shows a long straight gray wire with an AC generator at its center. The time is marked t equals capital T. The bottom part of the antenna is positive and the upper end of the antenna is negative. A wave is shown to emerge from the A C source. The electric field E propagates away from the antenna at the speed of light, forming part of the electromagnetic wave from the A C source. A quarter portion of the wave is shown above the horizontal axis followed by a half wave below the horizontal axis and then again a quarter of a wave above the horizontal axis.](../resources/Figure_24_02_01a.jpg "This long straight gray wire with an AC generator at its center becomes a broadcast antenna for electromagnetic waves. Shown here are the charge distributions at four different times. The electric field (\( E \) ) propagates away from the antenna at the speed of light, forming part of an electromagnetic wave. ")
-{: #Figure1}
+{ #Figure1}
 
 The **electric field** ( $$\vb{E} $$ )
 shown surrounding the wire is produced by the charge distribution on the wire.
@@ -52,7 +52,7 @@ $$\vb{B} $$ is shown at one instant in [[Figure 2]](#Figure2) (a). As the
 current varies, the magnetic field varies in magnitude and direction.
 
 ![Part a of the diagram shows a long straight gray wire with an A C generator at its center, functioning as a broadcast antenna. The antenna has a current I flowing vertically upward. The bottom end of the antenna is negative and the upper end of the antenna is positive. An electric field is shown to act vertically downward. The magnetic field lines B produced in the antenna are circular in direction around the wire. Part b of the diagram shows a long straight gray wire with an A C generator at its center, functioning as a broadcast antenna. The electric field E and magnetic field B near the wire are shown perpendicular to each other. Part c of the diagram shows a long straight gray wire with an A C generator at its center, functioning as a broadcast antenna. The current is shown to flow in the antenna. The magnetic field varies with the current and propagates away from the antenna as a sine wave in the horizontal plane. The vibrations in the wave are marked as small arrows along the wave.](../resources/Figure_24_02_02a.jpg "(a) The current in the antenna produces the circular magnetic field lines. The current (\( I \) ) produces the separation of charge along the wire, which in turn creates the electric field as shown. (b) The electric and magnetic fields (\( E \) and \( B \) ) near the wire are perpendicular; they are shown here for one point in space. (c) The magnetic field varies with current and propagates away from the antenna at the speed of light. ")
-{: #Figure2}
+{ #Figure2}
 
 The magnetic field lines also propagate away from the antenna at the speed of
 light, forming the other part of the electromagnetic wave, as seen
@@ -67,7 +67,7 @@ one another and to the direction of propagation, making this a **transverse
 wave**.
 
 ![A part of the electromagnetic wave sent out from the antenna at one instant in time is shown. The wave is shown with the variation of two components, E and B, moving with velocity c. E is a sine wave in one plane with small arrows showing the vibrations of particles in the plane. B is a sine wave in a plane perpendicular to the E wave. The B wave has arrows to show the vibrations of particles in the plane. The waves are shown intersecting each other at the junction of the planes because E and B are perpendicular to each other. E and B are in phase, and they are perpendicular to one another and to the direction of propagation.](../resources/Figure_24_02_03a.jpg "A part of the electromagnetic wave sent out from the antenna at one instant in time. The electric and magnetic fields (\( E \) and \( B \) ) are in phase, and they are perpendicular to one another and the direction of propagation. For clarity, the waves are shown only along one direction, but they propagate out in other directions too.")
-{: #Figure3}
+{ #Figure3}
 
 Electromagnetic waves generally propagate out from a source in all directions,
 sometimes forming a complex radiation pattern. A linear antenna like this one
@@ -245,7 +245,7 @@ Why is the direction of the current shown in each part of [[Figure 2]](#Figure2)
 In which situation shown in [[Figure 4]](#Figure4) will the electromagnetic wave be more successful in inducing a current in the wire? Explain.
 
 ![Part a of the diagram shows an electromagnetic wave approaching a long straight vertical wire. The wave is shown with the variation of two components E and B. E is a sine wave in vertical plane with small arrows showing the vibrations of particles in the plane. B is a sine wave in a horizontal plane perpendicular to the E wave. The B wave has arrows to show the vibrations of particles in the plane. The waves are shown intersecting each other at the junction of the planes because E and B are perpendicular to each other. The direction of propagation of wave is shown perpendicular to E and B waves. Part b of the diagram shows an electromagnetic wave approaching a long straight vertical wire. The wave is shown with the variation of two components E and B. E is a sine wave in horizontal plane with small arrows showing the vibrations of particles in the plane. B is a sine wave in a vertical plane perpendicular to the E wave. The B wave has arrows to show the vibrations of particles in the plane. The waves are shown intersecting each other at the junction of the planes because E and B are perpendicular to each other. The direction of propagation of wave is shown perpendicular to E and B waves. ](../resources/Figure_24_02_04a.jpg "Electromagnetic waves approaching long straight wires.")
-{: #Figure4}
+{ #Figure4}
 
 </div>
 </div>
@@ -255,7 +255,7 @@ In which situation shown in [[Figure 4]](#Figure4) will the electromagnetic wave
 In which situation shown in [[Figure 5]](#Figure5) will the electromagnetic wave be more successful in inducing a current in the loop? Explain.
 
 ![Part a of the diagram shows an electromagnetic wave approaching a receiver loop connected to a tuner. The wave is shown with the variation of two components E and B. E is a sine wave in vertical plane with small arrows showing the vibrations of particles in the plane. B is a sine wave in a horizontal plane perpendicular to the E wave. The B wave has arrows to show the vibrations of particles in the plane. The waves are shown intersecting each other at the junction of the planes because E and B are perpendicular to each other. The direction of propagation of wave is shown perpendicular to E and B waves. Part b of the diagram shows an electromagnetic wave approaching a receiver loop connected to a tuner. The wave is shown with the variation of two components E and B. E is a sine wave in horizontal plane with small arrows showing the vibrations of particles in the plane. B is a sine wave in a vertical plane perpendicular to the E wave. The B wave has arrows to show the vibrations of particles in the plane. The waves are shown intersecting each other at the junction of the planes because E and B are perpendicular to each other. The direction of propagation of wave is shown perpendicular to E and B waves. ](../resources/Figure_24_02_05a.jpg "Electromagnetic waves approaching a wire loop.")
-{: #Figure5}
+{ #Figure5}
 
 </div>
 </div>
@@ -286,7 +286,7 @@ Give an example of interference of electromagnetic waves.
 [[Figure 6]](#Figure6) shows the interference pattern of two radio antennas broadcasting the same signal. Explain how this is analogous to the interference pattern for sound produced by two speakers. Could this be used to make a directional antenna system that broadcasts preferentially in certain directions? Explain.
 
 ![The picture shows an overhead view of a radio broadcast antenna sending signals in the form of waves. Two waves are shown in the diagram with concentric circular wave fonts. The crest and trough are marked as bold and dashed circles respectively. The points where the bold circles of the two different waves meet are marked as points of constructive interference. Arrows point outward from the antenna, joining these points. These arrows show the directions of constructive interference.](../resources/Figure_24_02_06a.jpg "An overhead view of two radio broadcast antennas sending the same signal, and the interference pattern they produce.")
-{: #Figure6}
+{ #Figure6}
 
 </div>
 </div>
@@ -331,7 +331,7 @@ are in fact teslas (T).
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 electric field
 : a vector quantity (**E**); the lines of electric force per unit charge, moving

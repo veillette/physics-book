@@ -35,7 +35,7 @@ seen in the figure) of the straight line. The letter $$ b $$ is used for the
 **y-intercept**, which is the point at which the line crosses the vertical axis.
 
 ![Graph of a straight-line sloping up at about 40 degrees.](../resources/Figure_02_07_01.jpg "A straight-line graph. The equation for a straight line is \( y= mx + b \)")
-{: #Figure1}
+{ #Figure1}
 
 ### Graph of Position vs. Time (*a* = 0, so *v* is constant)
 
@@ -48,7 +48,7 @@ jet-powered car on a very flat dry lake bed in Nevada.
 ![Line graph of jet car displacement in meters versus time in seconds. The line is straight with a positive slope. The y intercept is four hundred meters. The total change in time is eight point zero seconds. The initial position is four hundred meters. The final position is two thousand meters.](../resources/Figure_02_07_02.jpg
 "Graph of position versus time for a jet-powered car on the Bonneville Salt Flats.
 ")
-{: #Figure2}
+{ #Figure2}
 
 Using the relationship between dependent and independent variables, we see that
 the slope in the graph above is average velocity $$ \overline{v} $$ and the
@@ -147,10 +147,10 @@ as if measured with a stopwatch), and the position and velocity are initially
 (a) The slope of an \(x\) vs. \(t\) graph is velocity. This is shown at two points, and the instantaneous velocities obtained are plotted in the next graph. Instantaneous velocity at any point is the slope of the tangent at that point.
 (b) The slope of the \(v\) vs. \(t\) graph is constant for this part of the motion, indicating constant acceleration.
 (c) Acceleration has the constant value of \(5.0 \mss \) over the time interval plotted.")
-{: #Figure3}
+{ #Figure3}
 
 ![](../resources/Figure_02_07_03a.jpg "A U.S. Air Force jet car speeds down a track. (credit: Matt Trostle, Flickr)")
-{: #Figure4}
+{ #Figure4}
 
 The graph of position versus time in [Figure 3](#Figure3)(a) is a curve rather than
 a straight line. The slope of the curve becomes steeper as time progresses,
@@ -172,7 +172,7 @@ graph in the graph below.
 
 ![A graph of displacement versus time for a jet car. The x axis for time runs from zero to thirty five seconds. The y axis for displacement runs from zero to three thousand meters. The curve depicting displacement is concave up. The slope of the curve increases over time. Slope equals velocity v. There are two points on the curve, labeled, P and Q. P is located at time equals ten seconds. Q is located and time equals twenty-five seconds. A line tangent to P at ten seconds is drawn and has a slope delta x sub P over delta t sub p. A line tangent to Q at twenty five seconds is drawn and has a slope equal to delta x sub q over delta t sub q. Select coordinates are given in a table and consist of the following: time zero seconds displacement two hundred meters; time five seconds displacement three hundred thirty eight meters; time ten seconds displacement six hundred meters; time fifteen seconds displacement nine hundred eighty eight meters. Time twenty seconds displacement one thousand five hundred meters; time twenty five seconds displacement two thousand one hundred thirty eight meters; time thirty seconds displacement two thousand nine hundred meters.](../resources/Figure_02_07_03b.jpg
 "The slope of an \( x \) vs. \( t \) graph is velocity. This is shown at two points. Instantaneous velocity at any point is the slope of the tangent at that point.")
-{: #Figure5}
+{ #Figure5}
 
 **Strategy**
 
@@ -269,7 +269,7 @@ acceleration decreases to zero at 55 s and remains zero afterward.
 (a) The slope of this graph is velocity; it is plotted in the next graph.
 (b) The velocity gradually approaches its top value. The slope of this graph is acceleration; it is plotted in the final graph.
 (c) Acceleration gradually declines to zero when velocity becomes constant.")
-{: #Figure6}
+{ #Figure6}
 
 <div class="example" markdown="1">
 <div class="title">
@@ -322,7 +322,7 @@ A graph of velocity vs. time of a ship coming into a harbor is shown below.
 (b) What would a graph of the ship’s acceleration look like?
 
 ![Line graph of velocity versus time. The line has three legs. The first leg is flat. The second leg has a negative slope. The third leg also has a negative slope, but the slope is not as negative as the second leg.](../resources/Figure_02_07_04a.jpg)
-{: #Figure7}
+{ #Figure7}
 
 </div>
 <div class="solution" markdown="1">
@@ -335,7 +335,7 @@ leg, large and constant negative acceleration in the second leg, and constant
 negative acceleration.
 
 ![A line graph of acceleration versus time. There are three legs of the graph. All three legs are flat and straight. The first leg shows constant acceleration of 0. The second leg shows a constant negative acceleration. The third leg shows a constant negative acceleration that is not as negative as the second leg.](../resources/Figure_02_07_04b.jpg)
-{: #Figure8}
+{ #Figure8}
 
 </div>
 </div>
@@ -361,7 +361,7 @@ zero, and
 (d) the time at which it is negative.
 
 ![Line graph of position versus time with 5 points labeled: a, b, c, d, and e. The slope of the line changes. It begins with a positive slope that decreases over time until around point d, where it is flat. It then has a slightly negative slope.](../resources/Figure_03_08Sol_01.jpg)
-{: #Figure9}
+{ #Figure9}
 
 </div>
 </div>
@@ -375,7 +375,7 @@ greatest.
 (d) At which times is it negative?
 
 ![Line graph of position over time with 12 points labeled a through l. Line has a negative slope from a to c, where it turns and has a positive slope till point e. It turns again and has a negative slope till point g. The slope then increases again till l, where it flattens out.](../resources/Figure_03_08Sol_02.jpg)
-{: #Figure10}
+{ #Figure10}
 
 </div>
 </div>
@@ -386,7 +386,7 @@ greatest.
 (b) Based on the graph, how does acceleration change over time?
 
 ![Line graph of velocity over time with two points labeled. Point P is at v 1 t 1. Point Q is at v 2 t 2. The line has a positive slope that increases over time.](../resources/Figure_03_08Sol_04.jpg)
-{: #Figure11}
+{ #Figure11}
 
 </div>
 </div>
@@ -399,7 +399,7 @@ greatest.
 (d) At which times is it negative?
 
 ![Line graph of velocity over time with 12 points labeled a through l. The line has a positive slope from a at the origin to d where it slopes downward to e, and then back upward to h. It then slopes back down to point l at v equals 0.](../resources/Figure_03_08Sol_05.jpg)
-{: #Figure12}
+{ #Figure12}
 
 </div>
 </div>
@@ -416,7 +416,7 @@ not constant so we cannot use the equations of motion from
 Sketch graphs of (a) position vs. time and (b) acceleration vs. time for this trip.
 
 ![Line graph of velocity versus time. Line begins at the origin and has a positive slope until it reaches 3 meters per second at 3 seconds. The slope is then zero until 18 seconds, where it becomes negative until the line reaches a velocity of 0 at 23 seconds.](../resources/Figure_03_08Sol_07.jpg)
-{: #Figure13}
+{ #Figure13}
 
 </div>
 </div>
@@ -444,11 +444,11 @@ in [Figure 15](#Figure15), verify that the jet car’s acceleration is
 $$ 5.0 \mss $$.
 
 ![Line graph of position over time. Line has positive slope that increases over time.](../resources/Figure_02_08Sol_11.jpg)
-{: #Figure14}
+{ #Figure14}
 
 ![Line graph of velocity versus time. Line is straight with a positive slope.](../resources/Figure_02_08Sol_12.jpg)
 
-{: #Figure15}
+{ #Figure15}
 
 </div>
 <div class="solution" markdown="1">
@@ -465,7 +465,7 @@ in [Figure 16](#Figure16) to verify that the velocity at $$ t=10.0 \s $$
 is 0.208 m/s. Assume all values are known to 3 significant figures.
 
 ![Line graph of position versus time. Line is straight with a positive slope.](../resources/Figure_02_08Sol_13.jpg)
-{: #Figure16}
+{ #Figure16}
 
 </div>
 </div>
@@ -489,7 +489,7 @@ By taking the slope of the curve in [Figure 17](#Figure17), verify
 that the acceleration is $$ 3.2 \mss $$ at $$ t=10 \s $$.
 
 ![Line graph of velocity versus time. Line has a positive slope that decreases over time until the line flattens out.](../resources/Figure_02_08Sol_14.jpg)
-{: #Figure17}
+{ #Figure17}
 
 </div>
 </div>
@@ -506,7 +506,7 @@ the examples for this figure.
 <div class="solution" markdown="1">
 
 ![Line graph of position versus time. Line begins with a slight positive slope. It then kinks to a much greater positive slope.](../resources/Figure_02_08Sol_15.jpg)
-{: #Figure18}
+{ #Figure18}
 </div>
 </div>
 
@@ -517,12 +517,12 @@ the examples for this figure.
 in [Figure 20](#Figure20).
 
 ![Line graph of position over time. Line begins sloping upward, then kinks back down, then kinks back upward again.](../resources/Figure_02_08Sol_16.jpg)
-{: #Figure19}
+{ #Figure19}
 
 ![Line graph of velocity over time. Line begins with a positive slope, then kinks downward with a negative slope, then kinks back upward again. It kinks back down again slightly, then back up again, and ends with a slightly less positive slope.](../resources/Figure_02_08Sol_17.jpg)
-{: #Figure20}
+{ #Figure20}
 
-![Line graph of velocity over time.](../resources/Figure_02_08Sol_18.jpg){:
+![Line graph of velocity over time.](../resources/Figure_02_08Sol_18.jpg){
 
 # Figure21}
 
@@ -540,7 +540,7 @@ first 4 s?
 (d) What is his time for the race?
 
 ![Line graph of velocity versus time. The line has two legs. The first has a constant positive slope. The second is flat, with a slope of 0.](../resources/Figure_02_08Sol_20.jpg)
-{: #Figure22}
+{ #Figure22}
 
 </div>
 <div class="solution" markdown="1">
@@ -560,14 +560,14 @@ first 4 s?
 [Figure 23](#Figure23) shows the position graph for a particle for 5 s. Draw the corresponding velocity and acceleration graphs.
 
 ![Line graph of position versus time. The line has 4 legs. The first leg has a positive slope. The second leg has a negative slope. The third has a slope of 0. The fourth has a positive slope.](../resources/Figure_02_08Sol_21.jpg)
-{: #Figure23}
+{ #Figure23}
 
 </div>
 </div>
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 independent variable
 : the variable that the dependent variable is measured with respect to; usually
