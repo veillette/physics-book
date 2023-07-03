@@ -1,8 +1,9 @@
 const {Liquid} = require("liquidjs");
-const markdownIt = require("markdown-it");
-const markdownItAnchor = require("markdown-it-anchor");
-const markdownItFootnote = require("markdown-it-footnote");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const markdownIt = require("markdown-it");
+const mathjax3 = require('markdown-it-mathjax3');
+const markdownItFootnote = require("markdown-it-footnote");
+const markdownItAnchor = require("markdown-it-anchor");
 const markdownItAttrs = require('markdown-it-attrs');
 
 module.exports = function (eleventyConfig) {
@@ -20,8 +21,12 @@ module.exports = function (eleventyConfig) {
 
     // Add footnote plugin to Markdown renderer
     const markdownLib = markdownIt(markdownItOptions);
-    markdownLib.use(markdownItFootnote).use(markdownItAnchor).use(markdownItAttrs);
     eleventyConfig.setLibrary("md", markdownLib);
+    markdownLib
+     //   .use(mathjax3)
+        .use(markdownItFootnote)
+        .use(markdownItAnchor)
+        .use(markdownItAttrs);
 
     // Enable syntax highlighting
     eleventyConfig.addPlugin(syntaxHighlight);
