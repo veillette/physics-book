@@ -32,8 +32,8 @@ connection with cosmology, on the opposite end of the distance scale.
 
 [[Figure 1]](#Figure1) is a Feynman diagram showing how the weak nuclear force
 is transmitted by the carrier particle $${Z}^{0} $$ , similar to the diagrams
-in [[link]](../contents/ch33TheFourBasicForces#import-auto-id1169738052383)
-and [[link]](../contents/ch33TheFourBasicForces#import-auto-id1169737991710) for the electromagnetic and
+in [[Figure 2]](../contents/ch33TheFourBasicForces#Figure2)
+and [[Figure 3]](../contents/ch33TheFourBasicForces#Figure3) for the electromagnetic and
 strong nuclear forces. In the 1960s, a gauge theory, called **electroweak
 theory**, was developed by Steven Weinberg, Sheldon Glashow, and Abdus Salam and
 proposed that the electromagnetic and weak forces are identical at sufficiently
@@ -57,7 +57,7 @@ the 1979 Nobel Prize for other aspects of electroweak theory.
 {: #Figure1}
 
 Although the weak nuclear force is very short ranged (  $$< 10^{-18}\text{m} $$
-, as indicated in [[link]](../contents/ch33TheFourBasicForces#import-auto-id1169738010507)), its effects on
+, as indicated in [[Table 1]](../contents/ch33TheFourBasicForces#Table1)), its effects on
 atomic levels can be measured given the extreme precision of modern techniques.
 Since electrons spend some time in the nucleus, their energies are affected, and
 spectra can even indicate new aspects of the weak force, such as the possibility
@@ -92,14 +92,14 @@ quark red.
 The strong force is complicated, since observable particles that feel the strong
 force (hadrons) contain multiple quarks. [[Figure 3]](#Figure3) shows the quark
 and gluon details of pion exchange between a proton and a neutron as illustrated
-earlier in [[link]](../contents/ch33TheYukawaParticleAndTheHeisenbergUncertaintyPrincipleRevisited#import-auto-id1169737824808)
-and [[link]](../contents/ch33TheFourBasicForces#import-auto-id1169737991710). The quarks within the proton
+earlier in [[Figure 1]](../contents/ch33TheYukawaParticleAndTheHeisenbergUncertaintyPrincipleRevisited#Figure1)
+and [[Figure 3]](../contents/ch33TheFourBasicForces#Figure3). The quarks within the proton
 and neutron move along together exchanging gluons, until the proton and neutron
 get close together. As the $$u $$ quark leaves the proton, a gluon creates a
 pair of virtual particles, a $$d $$ quark and a $$\stackrel{-}{d} $$ antiquark.
 The $$d $$ quark stays behind and the proton turns into a neutron, while the $$u
 $$ and $$\stackrel{-}{d} $$ move together as a $${\pi }^{+} $$
-([[link]](../contents/ch33Quarks#import-auto-id1169737909561) confirms the $$u\stackrel{-}{d}
+([[Table 2]](../contents/ch33Quarks#Table2) confirms the $$u\stackrel{-}{d}
 $$ composition for the $${\pi }^{+} $$ .)
 The $$\stackrel{-}{d} $$ annihilates a $$d $$ quark in the neutron, the $$u $$
 joins the neutron, and the neutron becomes a proton. A pion is exchanged and a
