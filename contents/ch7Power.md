@@ -200,8 +200,8 @@ E&=& 36.0 \text{kW}\cdot \text{h,}
 and the cost is simply given by
 
 <div class="equation">
- $$ \text{cost}=\left(36.0 \text{kW}\cdot h\right)\left($0.120 \text{ per
-kW} \cdot h\right)=$4.32 \text{per month}. $$
+ $$ \text{cost}=\left(36.0 \text{kW}\cdot h\right)\left(\$0.120 \text{ per
+kW} \cdot h\right)=\$4.32 \text{per month}. $$
 </div>
 
 **Discussion**
@@ -327,7 +327,7 @@ if the cost of electricity is $$ 0.110 \$ \text{per kW}
 
 </div>
 <div class="solution" markdown="1">
-$149
+$$ \$149 $$
 
 </div>
 </div>

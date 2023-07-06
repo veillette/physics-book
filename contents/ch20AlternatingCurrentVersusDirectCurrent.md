@@ -491,7 +491,7 @@ AC voltage
 voltage, and $$f$$ is the frequency in hertz
 
 AC current
-: current that fluctuates sinusoidally with time, expressed as $ I = I_0 \sin
+: current that fluctuates sinusoidally with time, expressed as $$ I = I_0 \sin
 2\pi f t $$, where $$I$$ is the current at time $$t$$, $$I_0$$ is the peak
 current, and $$f$$ is the frequency in hertz
 
