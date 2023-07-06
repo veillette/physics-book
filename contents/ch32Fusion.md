@@ -227,7 +227,7 @@ focused upon a D-T pellet (see [[Figure 9]](#Figure9)).
 ![A room filled with lots of cylindrical tubes connected to each other.](../resources/Figure_32_05_09a.jpg "National Ignition Facility (CA). This image shows a laser bay where 192 laser beams will focus onto a small D-T target, producing fusion. (credit: Lawrence Livermore National Laboratory, Lawrence Livermore National Security, LLC, and the Department of Energy)")
 {: #Figure9}
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Calculating Energy and Power from Fusion
 </div>
@@ -421,7 +421,7 @@ Verify by listing the number of nucleons, total charge, and electron family numb
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-The energy produced by the fusion of a 1.00-kg mixture of deuterium and tritium was found in Example [Calculating Energy and Power from Fusion](#fs-id1395304). Approximately how many kilograms would be required to supply the annual energy use in the United States?
+The energy produced by the fusion of a 1.00-kg mixture of deuterium and tritium was found in Example [Calculating Energy and Power from Fusion](#Example1). Approximately how many kilograms would be required to supply the annual energy use in the United States?
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
