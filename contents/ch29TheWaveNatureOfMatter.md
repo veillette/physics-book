@@ -83,7 +83,7 @@ hypothesis.
 ![Diffraction pattern obtained for electrons diffracted by crystalline silicon is shown. The diffraction pattern has a bright spot at the center of a circle with brighter and darker regions occurring in a symmetric manner.](../resources/Figure_29_06_01a.jpg "This diffraction pattern was obtained for electrons diffracted by crystalline silicon. Bright regions are those of constructive interference, while dark regions are those of destructive interference. (credit: Ndthe, Wikimedia Commons)")
 {: #Figure1}
 
-<div class="example" markdown="1">
+<div id="Example1" class="example" markdown="1">
 <div class="title">
 Electron Wavelength versus Velocity and Energy
 </div>
