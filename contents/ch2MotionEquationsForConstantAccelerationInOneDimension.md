@@ -11,7 +11,7 @@ layout: page
 </div>
 
 ![Four men racing up a river in their kayaks.](../resources/Figure_02_05_00.jpg "Kinematic equations can help us describe and predict the motion of moving objects such as these kayaks racing in Newbury, England. (credit: Barry Skeates, Flickr)")
-{: #Figure1}
+{ #Figure1}
 
 We might know that the greater the acceleration of, say, a car moving away from
 a stop sign, the greater the displacement in a given time. But we have not
@@ -118,7 +118,7 @@ taking his initial position to be zero?
 Draw a sketch.
 
 ![Velocity vector arrow labeled v equals 4 point zero zero meters per second over an x axis displaying initial and final positions. Final position is labeled x equals question mark.](../resources/Figure_02_05_00a.jpg)
-{: #Figure2}
+{ #Figure2}
 
 The final position $$ x $$ is given by the equation
 
@@ -156,7 +156,7 @@ On a car trip, for example, we will get twice as far in a given time if we
 average 90 km/h than if we average 45 km/h.
 
 ![Line graph showing displacement in meters versus average velocity in meters per second. The line is straight with a positive slope. Displacement x increases linearly with increase in average velocity v.](../resources/Figure_02_05_00b.jpg "There is a linear relationship between displacement and average velocity. For a given time \( t\) , an object moving twice as fast as another object will move twice as far as the other object.")
-{: #Figure3}
+{ #Figure3}
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -192,7 +192,7 @@ Draw a sketch. We draw the acceleration vector in the direction opposite the
 velocity vector because the plane is decelerating.
 
 ![Velocity vector arrow pointing toward the right in the positive x direction. Initial velocity equals seventy meters per second. Final velocity equals question mark. An acceleration vector arrow pointing toward the left labeled a equals negative 1 point 50 meters per second squared.](../resources/Figure_02_05_00c.jpg)
-{: #Figure4}
+{ #Figure4}
 
 **Solution**
 
@@ -218,7 +218,7 @@ maintained long enough to stop the plane and start moving it backward. That
 would be indicated by a negative final velocity, which is not the case here.
 
 ![An airplane moving toward the right at two points in time. At time equals 0 the velocity vector arrow points toward the right and is labeled seventy meters per second. The acceleration vector arrow points toward the left and is labeled negative 1 point 5 meters per second squared. At time equals forty seconds, the velocity arrow is shorter, points toward the right, and is labeled ten meters per second. The acceleration vector arrow is still pointing toward the left and is labeled a equals negative 1 point 5 meters per second squared.](../resources/Figure_02_04_01.jpg "The airplane lands with an initial velocity of 70.0 m/s and slows to a final velocity of 10.0 m/s before heading for the terminal. Note that the acceleration is negative because its direction is opposite to its velocity, which is positive.")
-{: #Figure5}
+{ #Figure5}
 
 </div>
 
@@ -243,7 +243,7 @@ Making Connections: Real-World Connection
 </div>
 
 ![Space shuttle blasting off at night.](../resources/Figure_02_04_01a.jpg "The Space Shuttle Endeavor blasts off from the Kennedy Space Center in February 2010. (credit: Matthew Simantov, Flickr)")
-{: #Figure6}
+{ #Figure6}
 
 An intercontinental ballistic missile (ICBM) has a larger average acceleration
 than the Space Shuttle and achieves a greater velocity in the first minute or
@@ -289,14 +289,14 @@ Dragsters can achieve average accelerations of $$ 26.0 \mss $$. Suppose such a d
 does it travel in this time?
 
 ![Dragster accelerating down a race track.](../resources/Figure_02_04_02.jpg "U.S. Army Top Fuel pilot Tony &#x201C;The Sarge&#x201D; Schumacher begins a race with a controlled burnout. (credit: Lt. Col. William Thurmond. Photo Courtesy of U.S. Army.)  ")
-{: #Figure7}
+{ #Figure7}
 
 **Strategy**
 
 Draw a sketch.
 
 ![Acceleration vector arrow pointing toward the right in the positive x direction, labeled a equals twenty-six point 0 meters per second squared. x position graph with initial position at the left end of the graph. The right end of the graph is labeled x equals question mark.](../resources/Figure_02_04_02a.jpg)
-{: #Figure8}
+{ #Figure8}
 
 We are asked to find displacement, which is $$ x $$ if we take $$ x_{0} $$ to be
 zero. (Think about it like the starting line of a race. It can be anywhere, but
@@ -381,7 +381,7 @@ using information about time.
 Draw a sketch.
 
 ![Acceleration vector arrow pointing toward the right, labeled twenty-six point zero meters per second squared. Initial velocity equals 0. Final velocity equals question mark.](../resources/Figure_02_04_02b.jpg)
-{: #Figure9}
+{ #Figure9}
 
 The equation $$ v^{2}=v_{0}^{2}+2a\left(x-x_{0}\right) $$ is ideally suited to
 this task because it relates velocities, acceleration, and displacement, and no
@@ -476,7 +476,7 @@ the brake.
 Draw a sketch.
 
 ![Initial velocity equals thirty meters per second. Final velocity equals 0. Acceleration dry equals negative 7 point zero zero meters per second squared. Acceleration wet equals negative 5 point zero zero meters per second squared.](../resources/Figure_02_04_02c.jpg)
-{: #Figure10}
+{ #Figure10}
 
 In order to determine which equations are best to use, we need to list all of
 the known values and identify exactly what we need to solve for. We shall do
@@ -559,7 +559,7 @@ braking.
 (b)  90.0 m + 15.0 m = 105 m when wet
 
 ![Diagram showing the various braking distances necessary for stopping a car. With no reaction time considered, braking distance is 64 point 3 meters on a dry surface and 90 meters on a wet surface. With reaction time of 0 point 500 seconds, braking distance is 79 point 3 meters on a dry surface and 105 meters on a wet surface.](../resources/Figure_02_04_03.jpg "The distance necessary to stop a car varies greatly, depending on road conditions and driver reaction time. Shown here are the braking distances for dry and wet pavement, as calculated in this example, for a car initially traveling at 30.0 m/s. Also shown are the total distances traveled from the point where the driver first sees a light turn red, assuming a 0.500 s reaction time. ")
-{: #Figure11}
+{ #Figure11}
 
 **Discussion**
 
@@ -588,7 +588,7 @@ how long does it take to travel the 200 m up the ramp?
 Draw a sketch.
 
 ![A line segment with ends labeled x subs zero equals zero and x = two hundred. Above the line segment, the equation t equals question mark indicates that time is unknown. Three vectors, all pointing in the direction of x equals 200, represent the other knowns and unknowns. They are labeled v sub zero equals ten point zero meters per second, v equals question mark, and a equals two point zero zero meters per second squared.](../resources/Figure_02_04_03a.jpg)
-{: #Figure12}
+{ #Figure12}
 
 We are asked to solve for the time $$ t $$. As before, we identify the known
 quantities in order to choose a convenient physical relationship (that is, an
@@ -764,7 +764,7 @@ time for this period.
 (b)
 
 ![Line graph of position in meters versus time in seconds. The line begins at the origin and is concave up, with its slope increasing over time.](../resources/Figure_02_05_08.jpg)
-{: #Figure13}
+{ #Figure13}
 
 </div>
 </div>

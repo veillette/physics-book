@@ -11,7 +11,7 @@ layout: page
 </div>
 
 ![A photograph of a fireworks display in the sky.](../resources/Figure_17_02_01a.jpg "When a firework explodes, the light energy is perceived before the sound energy. Sound travels more slowly than light does. (credit: Dominic Alves, Flickr)")
-{: #Figure1}
+{ #Figure1}
 
 Sound, like all waves, travels at a certain speed and has the properties of
 frequency and wavelength. You can observe direct evidence of the speed of sound
@@ -41,7 +41,7 @@ illustrated in [[Figure 2]](#Figure2). The frequency is the same as that of the
 source and is the number of waves that pass a point per unit time.
 
 ![A picture of a vibrating tuning fork is shown. The sound wave compressions and rarefactions are shown to emanate from the fork on both the sides as semicircular arcs of alternate bold and dotted lines. The wavelength is marked as the distance between two successive bold arcs. The frequency of the vibrations is shown as f and velocity of the wave represented by v sub w.](../resources/Figure_17_02_02a.jpg "A sound wave emanates from a source vibrating at a frequency \( f \), propagates at \( v_w \) , and has a wavelength \( \lambda \).")
-{: #Figure2}
+{ #Figure2}
 
 [[Table 1]](#Table1) makes it apparent that the speed of sound varies greatly in
 different media. The speed of sound in a medium is determined by a combination
@@ -158,7 +158,7 @@ increase. [[Figure 3]](#Figure3) shows a use of the speed of sound by a bat to
 sense distances. Echoes are also used in medical imaging.
 
 ![The picture is of a bat trying to catch its prey an insect using sound echoes. The incident sound and sound reflected from the bat are shown as semicircular arcs.](../resources/Figure_17_02_03a.jpg "A bat uses sound echoes to find its way about and to catch prey. The time for the echo to return is directly proportional to the distance.")
-{: #Figure3}
+{ #Figure3}
 
 One of the more important properties of sound is that its speed is nearly
 independent of frequency. This independence is certainly true in open air for
@@ -180,7 +180,7 @@ frequency, the smaller the wavelength. See [[Figure 4]](#Figure4) and consider
 the following example.
 
 ![Picture of a speaker having a woofer and a tweeter. High frequency sound coming out of the woofer shown as small circles closely spaced. Low frequency sound coming out of tweeter are shown as larger circles distantly spaced.](../resources/Figure_17_02_04a.jpg "Because they travel at the same speed in a given medium, low-frequency sounds must have a greater wavelength than high-frequency sounds. Here, the lower-frequency sounds are emitted by the large speaker, called a woofer, while the higher-frequency sounds are emitted by the small speaker, called a tweeter.")
-{: #Figure4}
+{ #Figure4}
 
 <div class="example" markdown="1">
 <div class="title">
@@ -433,7 +433,7 @@ which means that it could miss grabbing its prey.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 pitch
 : the perception of the frequency of a sound

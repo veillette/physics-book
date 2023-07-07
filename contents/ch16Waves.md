@@ -9,7 +9,7 @@ layout: page
 </div>
 
 ![There is a high tidal wave of about 10 feet high in a sea. Three boats carrying three four persons each are ahead of the wave, which is coming toward them.](../resources/Figure_16_09_01a.jpg "Waves in the ocean behave similarly to all other types of waves. (credit: Steve Jurveston, Flickr) ")
-{: #Figure1}
+{ #Figure1}
 
 What do we mean when we say something is a wave? The most intuitive and easiest
 wave to imagine is the familiar water wave. More precisely, a **wave** is a
@@ -47,7 +47,7 @@ Many people think that water waves push water from one direction to another. In 
 </div>
 
 ![The figure shows an idealized ocean wave with two crests and two troughs that passes under a sea gull that bobs up and down in simple harmonic motion. The wave has a wavelength lambda which is the distance between adjacent identical parts of the wave. The height of a crest is equal to the depth of the trough that is X, therefore the total vertical distance between the top of a crest and the bottom of the trough is two-X.](../resources/Figure_16_09_02a.jpg "An idealized ocean wave passes under a sea gull that bobs up and down in simple harmonic motion. The wave has a wavelength \( \lambda \), which is the distance between adjacent identical parts of the wave. The up and down disturbance of the surface propagates parallel to the surface at a speed \( v_\text{W} \).")
-{: #Figure2}
+{ #Figure2}
 
 The water wave in the figure also has a length associated with it, called its **wavelength**  $$\lambda $$ , the distance between adjacent identical parts of a
 wave. ( $$\lambda $$ is the distance parallel to the direction of propagation.)
@@ -121,10 +121,10 @@ longitudinal wave. The size of the disturbance is its amplitude *X* and is
 completely independent of the speed of propagation $${v}_{\text{w} } $$.
 
 ![The figure shows a woman holding a long spring in her hand and moving it up and down causing it to move in a zigzag manner away from her. It is an example of a transverse wave, the wave propagates horizontally. The direction of motion of the wave is shown with the help of right arrows at each crest and trough.](../resources/Figure_16_09_03a.jpg "In this example of a transverse wave, the wave propagates horizontally, and the disturbance in the cord is in the vertical direction.")
-{: #Figure3}
+{ #Figure3}
 
 ![The figure shows a woman standing at left pushing a long spring in to and fro motion in horizontal direction away from her without moving her hand up and down. The cord stretches and contracts back and forth. This is an example of a longitudinal wave, the wave propagates horizontally. At some points the spring is compressed and at some other points the spring is expanded. One contracted part is equal to the amplitude X.](../resources/Figure_16_09_04a.jpg "In this example of a longitudinal wave, the wave propagates horizontally, and the disturbance in the cord is also in the horizontal direction.")
-{: #Figure4}
+{ #Figure4}
 
 Waves may be transverse, longitudinal, or *a combination of the two*. (Water
 waves are actually a combination of transverse and longitudinal. The simplified
@@ -139,7 +139,7 @@ longitudinal or compressional. Sound in solids can be both longitudinal and
 transverse.
 
 ![The figure shows a guitar connected to an amplifier and a man holding a sheet of paper facing the speaker attached to the amplifier. The strings of the guitar when played cause transverse waves. On the other hand, the sound of the guitar creates ripples on the sheet of paper causing it to rattle in a direction that shows that the sound waves are longitudinal.](../resources/Figure_16_09_05a.jpg "The wave on a guitar string is transverse. The sound wave rattles a sheet of paper in a direction that shows the sound wave is longitudinal.")
-{: #Figure5}
+{ #Figure5}
 
 Earthquake waves under Earth’s surface also have both longitudinal and
 transverse components (called compressional or P-waves and shear or S-waves,
@@ -166,7 +166,7 @@ In the different types of waves, energy can propagate in a different direction r
 PhET Explorations: Wave on a String
 </div>
 Watch a string vibrate in slow motion. Wiggle the end of the string and make waves, or adjust the frequency and amplitude of an oscillator. Adjust the damping and tension. The end can be fixed, loose, or open.
-{: class="newline"}
+{ class="newline"}
 
 <div class="media"  data-alt="wave on a string">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_en.html"></iframe>
@@ -298,14 +298,14 @@ Your ear is capable of differentiating sounds that arrive at the ear just 1.00 m
 (a) Seismographs measure the arrival times of earthquakes with a precision of 0.100 s. To get the distance to the epicenter of the quake, they compare the arrival times of S- and P-waves, which travel at different speeds. [[Figure 6]](#Figure6)) If S- and P-waves travel at 4.00 and 7.20 km/s, respectively, in the region considered, how precisely can the distance to the source of the earthquake be determined? (b) Seismic waves from underground detonations of nuclear bombs can be used to locate the test site and detect violations of test bans. Discuss whether your answer to (a) implies a serious limit to such detection. (Note also that the uncertainty is greater if there is an uncertainty in the propagation speeds of the S- and P-waves.)
 
 ![The figure shows a seismograph put on a wooden table. Its top is labeled as &#x201C;Hands off glass, please&#x201D;. Below it there are some buttons are shown and a paper roller is fitted in the seismograph to print the observation by the machine. On the right and left of the roller, two vertical cable slots are given.](../resources/Figure_16_09_06a.jpg "A seismograph as described in above problem.(credit: Oleg Alexandrov)")
-{: #Figure6}
+{ #Figure6}
 
 </div>
 </div>
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 longitudinal wave
 : a wave in which the disturbance is parallel to the direction of propagation

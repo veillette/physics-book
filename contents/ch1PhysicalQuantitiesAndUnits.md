@@ -9,7 +9,7 @@ layout: page
 </div>
 
 ![A view of Earth from the Moon.](../resources/Figure_01_02_01b.jpg "The distance from Earth to the Moon may seem immense, but it is just a tiny fraction of the distances from Earth to other celestial bodies. (credit: NASA)")
-{: #Figure1}
+{ #Figure1}
 
 The range of objects and phenomena studied in physics is immense. From the
 incredibly short lifetime of a nucleus to the age of the Earth, from the tiny
@@ -40,7 +40,7 @@ for scientists to express and compare measured values in a meaningful way. (
 See [Figure 2](#Figure2).)
 
 ![A boy looking at a map and trying to guess distances with unit of length mentioned as cables between two points.](../resources/Figure_01_02_01a.jpg "Distances given in unknown units are maddeningly useless.")
-{: #Figure2 height="225"}
+{ #Figure2 height="225"}
 
 There are two major systems of units used in the world: **SI units**
 (also known as the metric system) and **English units**
@@ -66,7 +66,7 @@ units through conversions.
 |-----------|---------------|------------|------------------|
 | meter (m) | kilogram (kg) | second (s) | ampere (A)       |
 
-{: #Table1}
+{ #Table1}
 
 It is an intriguing fact that some physical quantities are more fundamental than
 others and that the most fundamental physical quantities can be defined **only**
@@ -97,7 +97,7 @@ fundamental units and can be no more accurate than are the fundamental units
 themselves.
 
 ![A top view of an atomic fountain is shown. It measures time using the vibration of the cesium atom.](../resources/Figure_01_02_02a.jpg "An atomic clock such as this one uses the vibrations of cesium atoms to keep time to a precision of better than a microsecond per year. The fundamental unit of time, the second, is based on such clocks. This image is looking down from the top of an atomic fountain nearly 30 feet tall! (credit: Steve Jurvetson/Flickr)")
-{: #Figure3 height="225"}
+{ #Figure3 height="225"}
 
 #### The Meter
 
@@ -132,7 +132,7 @@ defined in terms of the second, the meter, and Planck's constant, $$h $$ (a
 quantum mechanical value that relates a photon's energy to its frequency).
 
 ![Beam of light from a flashlight is represented by an arrow pointing right, traveling the length of a meter stick.](../resources/Figure_01_02_03a.jpg "The meter is defined to be the distance light travels in 1/299 792 458 of a second in a vacuum. Distance traveled is speed multiplied by time.")
-{: #Figure4}
+{ #Figure4}
 
 Electric current and its accompanying unit, the ampere, will be introduced in
 later units when electricity and magnetism are covered. The initial modules in
@@ -215,7 +215,7 @@ are related to large-scale currents and forces between wires.
 | femto  | f      | $$10^{-15} $$ | femtometer | fm  | $$10^{-15} $$ m | size of a proton                    |
 | atto   | a      | $$10^{-18} $$ | attosecond | as  | $$10^{-18} $$ s | time light crosses an atom          |
 
-{: #Table2}
+{ #Table2}
 
 ### Known Ranges of Length, Mass, and Time
 
@@ -226,10 +226,10 @@ the range of possible topics and numerical values. (
 See [Figure 5](#Figure5) and [Figure 6](#Figure6).)
 
 ![A magnified image of tiny phytoplankton swimming among the crystal of ice.\[](../resources/Figure_01_02_04a.jpg "Tiny phytoplankton swims among crystals of ice in the Antarctic Sea. They range from a few micrometers to as much as 2 millimeters in length. (credit: Prof. Gordon T. Taylor, Stony Brook University; NOAA Corps Collections)")
-{: #Figure5}
+{ #Figure5}
 
 ![A view of Abell Galaxy with some bright stars and some hot gases.](../resources/Figure_01_02_05a.jpg "Galaxies collide 2.4 billion light years away from Earth. The tremendous range of observable phenomena in nature challenges the imagination. (credit: NASA/CXC/UVic./A. Mahdavi et al. Optical/lensing: CFHT/UVic./H. Hoekstra et al.)")
-{: #Figure6 height="250"}
+{ #Figure6 height="250"}
 
 ### Unit Conversion and Dimensional Analysis
 
@@ -289,7 +289,7 @@ conversion factors.
 | $$ 10^{22} $$  | Distance from the Earth to the nearest large galaxy (Andromeda) | $$ 10^{42} $$  | Mass of the Milky Way galaxy (current upper limit)       |                |                                                       |
 | $$ 10^{26} $$  | Distance from the Earth to the edges of the known universe      | $$ 10^{53} $$  | Mass of the known universe (current upper limit)         |                |                                                       |
 
-{: #Table3}
+{ #Table3}
 
 <div class="example" markdown="1">
 <div class="title">
@@ -581,7 +581,7 @@ Then calculate the average speed of the Earth in its orbit in kilometers per sec
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 physical quantity
 : a characteristic or property of an object that can be measured or calculated

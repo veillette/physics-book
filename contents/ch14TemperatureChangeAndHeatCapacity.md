@@ -15,7 +15,7 @@ the transferred heat depends on three factors—the change in temperature, the
 mass of the system, and the substance and phase of the substance.
 
 ![Figure a shows a copper-colored cylinder of mass m and temperature change delta T. The heat Q, shown as a wavy rightward horizontal arrow, is transferred to the cylinder from the left. To the right of this image is a similar image, except that the heat transferred Q prime is twice the heat Q. The temperature change of this second cylinder, which is also labeled m, is two delta T. This cylinder is surrounded by small black wavy lines radiating outward. Figure b shows the same two cylinders as in Figure a. The left cylinder is labeled m and delta T and has a wavy heat arrow pointing at it from the left that is labeled Q. The right cylinder is labeled two m and delta T and has a wavy heat arrow pointing to it from the left labeled Q prime equals two Q. Figure c shows the same copper cylinder of mass m and with temperature change delta T, with heat Q being transferred to it. To the right of this cylinder, Q prime equals ten point eight times Q is being transferred to another cylinder filled with water whose mass and change in temperature are the same as that of the copper cylinder.](../resources/Figure_14_02_01.jpg "The heat \( Q \) transferred to cause a temperature change depends on the magnitude of the temperature change, the mass of the system, and the substance and phase involved. (a) The amount of heat transferred is directly proportional to the temperature change. To double the temperature change of a mass \( m \) , you need to add twice the heat. (b) The amount of heat transferred is also directly proportional to the mass. To cause an equivalent temperature change in a doubled mass, you need to add twice the heat. (c) The amount of heat transferred depends on the substance and its phase. If it takes an amount \( Q \) of heat to cause a temperature change \(\Delta T \) in a given mass of copper, it will take 10.8 times that amount of heat to cause the equivalent temperature change in the same mass of water assuming no phase change in either substance.")
-{: #Figure1}
+{ #Figure1}
 
 The dependence on temperature change and mass are easily understood. Owing to
 the fact that the (average) kinetic energy of an atom or molecule is
@@ -133,7 +133,7 @@ given temperature change for the water as compared to the aluminum pan.
 </div>
 
 ![The figure shows a truck coming from the left and moving on a road which is sloping downhill to the right. Smoke is coming from the area of the wheels of the truck.](../resources/Figure_14_02_02.jpg "The smoking brakes on this truck are a visible evidence of the mechanical equivalent of heat.")
-{: #Figure2}
+{ #Figure2}
 
 <div id="Example2" class="example" markdown="1">
 <div class="title">
@@ -567,31 +567,31 @@ Even when shut down after a period of normal use, a large commercial nuclear rea
 </div>
 
 ![The figure shows a view from above of a radioactive spent fuel pool inside a nuclear power plant.](../resources/Figure_14_02_03.jpg "Radioactive spent-fuel pool at a nuclear power plant. Spent fuel stays hot for a long time. (credit: U.S. Department of Energy)")
-{: #Figure3}
+{ #Figure3}
 
 <div class="footnote-refs" markdown="1">
 ### Footnotes
-{: class="footnote-refs-title"}
+{ class="footnote-refs-title"}
 
-* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
+* { class="footnote-ref" #footnote1} [1](#footnote-ref1){ class="
   footnote-ref-link"} <span class="footnote-ref-content">The values for solids
   and liquids are at constant volume and at $$25 \text{ºC} $$ , except as
   noted.</span>
-* {: class="footnote-ref" #footnote2} [2](#footnote-ref2){: class="
+* { class="footnote-ref" #footnote2} [2](#footnote-ref2){ class="
   footnote-ref-link"} <span class="footnote-ref-content">These values are
   identical in units of $$\text{cal/g}\cdot ºC $$ .</span>
-* {: class="footnote-ref" #footnote3} [3](#footnote-ref3){: class="
+* { class="footnote-ref" #footnote3} [3](#footnote-ref3){ class="
   footnote-ref-link"} <span class="footnote-ref-content"> $${c}_{\text{v}} $$ at
   constant volume and at $$ 20.0ºC $$ , except as noted, and at 1.00 atm average
   pressure. Values in parentheses are $${c}_{\text{p}} $$ at a constant pressure
   of 1.00 atm.</span>
-  {: data-list-type="bulleted" data-bullet-style="none"}
+  { data-list-type="bulleted" data-bullet-style="none"}
 
 </div>
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 specific heat
 : the amount of heat necessary to change the temperature of 1.00 kg of a

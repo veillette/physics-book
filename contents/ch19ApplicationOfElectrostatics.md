@@ -27,7 +27,7 @@ charges that neutralize excess charge or allow it to escape. Nevertheless,
 voltages of 15 million volts are well within practical limits.
 
 ![Schematic of Van de Graaff generator is shown. The parts of the generators shown include a conductor, insulator, nonconductive belt, ion source, and experimental area.](../resources/Figure_18_08_02.jpg "Schematic of Van de Graaff generator. A battery (A) supplies excess positive charge to a pointed conductor, the points of which spray the charge onto a moving insulating belt near the bottom. The pointed conductor (B) on top in the large sphere picks up the charge. (The induced electric field at the points is so large that it removes the charge from the belt.) This can be done because the charge does not remain inside the conducting sphere but moves to its outside surface. An ion source inside the sphere produces positive ions, which are accelerated away from the positive sphere to high velocities.")
-{: #Figure1}
+{ #Figure1}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -63,7 +63,7 @@ electrostatically held toner are passed through heated pressure rollers, which
 melt and permanently adhere the toner within the fibers of the paper.
 
 ![Four stages of xerography are shown. A positively charged aluminum drum is shown which is grounded. In second stage image is being transferred to it, creating positive image. In third stage, negatively charged toner is attached with the drum and in fourth stage, toner is pulled by the paper which is highly charged.](../resources/Figure_18_08_03a.jpg "Xerography is a dry copying process based on electrostatics. The major steps in the process are the charging of the photoconducting drum, transfer of an image creating a positive charge duplicate, attraction of toner to the charged parts of the drum, and transfer of toner to the paper. Not shown are heat treatment of the paper and cleansing of the drum for the next copy.")
-{: #Figure2}
+{ #Figure2}
 
 ### Laser Printers
 
@@ -77,7 +77,7 @@ letters or fonts, and may contain a computer more powerful than the one giving
 them the raw data to be printed.
 
 ![A laser printer mechanism is shown. Laser beam produced from a computer, laser, or optics is incident on the drum containing some image.](../resources/Figure_18_08_04a.jpg "In a laser printer, a laser beam is scanned across a photoconducting drum, leaving a positive charge image. The other steps for charging the drum and transferring the image to paper are the same as in xerography. Laser light can be very precisely controlled, enabling laser printers to produce high-quality images.")
-{: #Figure3}
+{ #Figure3}
 
 ### Ink Jet Printers and Electrostatic Painting
 
@@ -94,7 +94,7 @@ color. (This is more difficult with xerography, requiring multiple drums and
 toners.)
 
 ![An ink-jet printer mechanism is shown. Ink is projected from ink nozzle and passes through the charging electrodes moving through deflection plate and finally imprinting on paper.](../resources/Figure_18_08_05a.jpg "The nozzle of an ink-jet printer produces small ink droplets, which are sprayed with electrostatic charge. Various computer-driven devices are then used to direct the droplets to the correct positions on a page.")
-{: #Figure4}
+{ #Figure4}
 
 Electrostatic painting employs electrostatic charge to spray paint onto
 odd-shaped surfaces. Mutual repulsion of like charges causes the paint to fly
@@ -120,7 +120,7 @@ conditioning system, are very effective in removing polluting particles,
 irritants, and allergens.
 
 ![(a) Schematic of an electrostatic precipitator. Air is passed through grids of opposite charge. The first grid charges airborne particles, while the second attracts and collects them. (b) The dramatic effect of electrostatic precipitators is seen by the absence of smoke from this power plant.\[alt\]Schematic of an electrostatic precipitator is shown. Four filters are shown one after another. Air passes through initial filter, then through positively charged grid, then through the third grid which is negatively charged and finally through the final grid. The number of particles is shown decreasing as air passes through various filters.](../resources/Figure_18_08_06a.jpg "(a) Schematic of an electrostatic precipitator. Air is passed through grids of opposite charge. The first grid charges airborne particles, while the second attracts and collects them. (b) The dramatic effect of electrostatic precipitators is seen by the absence of smoke from this power plant. (credit: Cmdalgleish, Wikimedia Commons)")
-{: #Figure5}
+{ #Figure5}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -311,7 +311,7 @@ A simple and common technique for accelerating electrons is shown in [[Figure 6]
  (b) Explain why the electron will not be pulled back to the positive plate once it moves through the hole.
 
 ![Parallel conducting plates with opposite charges are shown and electric field lines are emerging from the positive plate and entering the negative plate. These lines are parallel between the plates but curved at the corner.](../resources/Figure_18_08_07a.jpg "Parallel conducting plates with opposite charges on them create a relatively uniform electric field used to accelerate electrons to the right. Those that go through the hole can be used to make a TV or computer screen glow or to produce X-rays.")
-{: #Figure6}
+{ #Figure6}
 
 </div>
 </div>
@@ -401,7 +401,7 @@ horizontal electric field as shown in [[Figure 7]](#Figure7). Given the charge
 on the ball is $$1.00 \mu \text{C} $$ , find the strength of the field.
 
 ![A charged ball is hung from a string making an angle of eight degree toward right with the vertical. The external electric field lines represented by arrows, are from left to right.](../resources/Figure_18_08_08a.jpg "A horizontal electric field causes the charged ball to hang at an angle of 8.00&#xBA;.")
-{: #Figure7}
+{ #Figure7}
 
 </div>
 </div>
@@ -420,7 +420,7 @@ b) What is the vertical component of its final velocity? (c) At what angle does
 it exit? Neglect any edge effects.
 
 ![Two oppositely charged plates are parallel to each other. The path of an electron is shown passing from left to right between the plates. It deflects toward positive plate as it emerges from the plate with velocity vector making an angle theta with the horizontal.](../resources/Figure_18_08_10a.jpg " ")
-{: #Figure8}
+{ #Figure8}
 
 </div>
 </div>
@@ -438,7 +438,7 @@ radius and have a density of $$920 kg/{m}^{3} $$:
 (b) If the drop has a single excess electron, find the electric field strength needed to balance its weight.
 
 ![Two parallel conducting plates with opposite charges are shown and the electric field lines are emerging from the positive plate and entering the negative plate. These lines are parallel between the plates and a charged particle is in between the plates. An observer is watching it through a microscope.](../resources/Figure_18_08_11a.jpg "In the Millikan oil drop experiment, small drops can be suspended in an electric field by the force exerted on a single excess electron. Classically, this experiment was used to determine the electron charge qe by measuring the electric field and mass of the drop.")
-{: #Figure9}
+{ #Figure9}
 
 </div>
 </div>
@@ -455,7 +455,7 @@ the Coulomb force is to equal the weight of $$m $$ .
 (b) Is this equilibrium stable or unstable? Discuss.
 
 ![Four charged particles each having same magnitude q are placed at the corner of a parallelogram. The sides have length d and fifth charge Q is at a distance d above the plane of intersection of the diagonal of this parallelogram.](../resources/Figure_18_08_12a.jpg "Four equal charges on the corners of a horizontal square support the weight of a fifth charge located directly above the center of the square.")
-{: #Figure10}
+{ #Figure10}
 
 </div>
 </div>
@@ -533,7 +533,7 @@ easy, difficult, or even impossible thing to do in practice.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 Van de Graaff generator
 : a machine that produces a large amount of excess charge, used for experiments

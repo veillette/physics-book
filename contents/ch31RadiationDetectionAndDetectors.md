@@ -33,7 +33,7 @@ absorbers and other devices must be used to obtain energy, charge, and
 particle-identification information.
 
 ![Image shows fingers holding a black strip of film on a radioactive rock.](../resources/Figure_31_02_01a.jpg "Film badges contain film similar to that used in  this dental x-ray film and is sandwiched between various absorbers to determine the penetrating ability of the radiation as well as the amount. (credit: Werneuchen, Wikimedia Commons)")
-{: #Figure1}
+{ #Figure1}
 
 Another very common **radiation detector** is the **Geiger tube**. The clicking
 and buzzing sound we hear in dramatizations and documentaries, as well as in our
@@ -52,12 +52,12 @@ a prompt output that reveals the existence and relative intensity of ionizing
 radiation.
 
 ![Image of Geiger counter and its working principle is shown. A small detector with handle is attached to a voltage dial indicator. Voltage applied between the cylinder and wire in a Geiger tube causes ions and electrons produced by incoming radiation passing through the gas-filled cylinder to move towards them.](../resources/Figure_31_02_02a.jpg "(a) Geiger counters such as this one are used for prompt monitoring of radiation levels, generally giving only relative intensity and not identifying the type or energy of the radiation. (credit: TimVickers, Wikimedia Commons) (b) Voltage applied between the cylinder and wire in a Geiger tube causes ions and electrons produced by radiation passing through the gas-filled cylinder to move towards them. The resulting current is detected and registered as a count.")
-{: #Figure2}
+{ #Figure2}
 
 Another radiation detection method records light produced when radiation
 interacts with materials. The energy of the radiation is sufficient to excite
 atoms in a material that may fluoresce, such as the phosphor used by
-Rutherford’s group. Materials called **scintillators**{: class="term"} use a
+Rutherford’s group. Materials called **scintillators**{ class="term"} use a
 more complex collaborative process to convert radiation energy into light.
 Scintillators may be liquid or solid, and they can be very efficient. Their
 light output can provide information about the energy, charge, and type of
@@ -81,7 +81,7 @@ information can be obtained with scintillators, including energy, charge,
 particle identification, direction of motion, and so on.
 
 ![A cylindrical tube contains several curved plates labeled dynodes. Incoming radiation passes through a scintillating material at the top of the cylindrical tube. The photon thus produced generates a photoelectron at the photocathode and the photoelectron is then multiplied by collisions at the several successive dynodes, creating a sizable output electric pulse.](../resources/Figure_31_02_04a.jpg "Photomultipliers use the photoelectric effect on the photocathode to convert the light output of a scintillator into an electrical signal. Each successive dynode has a more-positive potential than the last and attracts the ejected electrons, giving them more energy. The number of electrons is thus multiplied at each dynode, resulting in an easily detected output current.")
-{: #Figure3}
+{ #Figure3}
 
 **Solid-state radiation detectors** convert ionization produced in a
 semiconductor (like those found in computer chips) directly into an electrical
@@ -99,10 +99,10 @@ sophisticated information can be obtained from solid-state detectors.
 PhET Explorations: Radioactive Dating Game
 </div>
 Learn about different types of radiometric dating, such as carbon dating. Understand how decay and half life work to enable radiometric dating to work. Play a game that tests your ability to match the percentage of the dating element that remains to the age of the object. 
-{: class="newline"}
+{ class="newline"}
 
 
-{: class="newline"}
+{ class="newline"}
 
 <div class="media" data-alt="">
 <iframe width="860" height="671.4" src="https://veillette.github.io/simulations/radioactive-dating-game/#sim-half-life"></iframe>
@@ -162,7 +162,7 @@ Suppose a particle of ionizing radiation deposits 1.0 MeV in the gas of a Geiger
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 Geiger tube
 : a very common radiation detector that usually gives an audio output

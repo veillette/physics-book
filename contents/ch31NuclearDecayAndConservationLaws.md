@@ -10,7 +10,7 @@ layout: page
 * Calculate the energy emitted during nuclear decay.
 </div>
 
-Nuclear **decay**{: class="term"} has provided an amazing window into the realm
+Nuclear **decay**{ class="term"} has provided an amazing window into the realm
 of the very small. Nuclear decay gave the first indication of the connection
 between mass and energy, and it revealed the existence of two of the four basic
 forces in nature. In this section, we explore the major modes of nuclear decay;
@@ -36,7 +36,7 @@ and its daughters produces internal damage. The $${}^{238}\text{U} $$ decay
 series ends with $${}^{206}\text{Pb} $$ , a stable isotope of lead.
 
 ![A graph is shown in which decay of alpha and beta is shown. Also half lives of each isotope are shown. Uranium decays in one mode but some isotopes decay by more than one mode. Finally a stable isotope of lead results.](../resources/Figure_31_04_01a.jpg "The decay series produced by \( {}^{238}\text{U} \), the most common uranium isotope. Nuclides are graphed in the same manner as in the chart of nuclides. The type of decay for each member of the series is shown, as well as the half-lives. Note that some nuclides decay by more than one mode. You can see why radium and polonium are found in uranium ore. A stable isotope of lead is the end product of the series.")
-{: #Figure1}
+{ #Figure1}
 
 Note that the daughters of $$\alpha $$ decay shown in [[Figure 1]](#Figure1)
 always have two fewer protons and two fewer neutrons than the parent. This seems
@@ -49,7 +49,7 @@ differs from the parent.
 
 ### Alpha Decay
 
-In **alpha decay**{: class="term"}, a $${}^{4}\text{He} $$ nucleus simply breaks
+In **alpha decay**{ class="term"}, a $${}^{4}\text{He} $$ nucleus simply breaks
 away from the parent nucleus, leaving a daughter with two fewer protons and two
 fewer neutrons than the parent (see [[Figure 2]](#Figure2)). One example of
 $$\alpha $$ decay is shown in [[Figure 1]](#Figure1) for $${}^{238}\text{U} $$ .
@@ -68,10 +68,10 @@ and
 </div>
 
 ![The image shows conditions before and after alpha decay. Before alpha decay the nucleus is labeled parent and after decay the nucleus is labeled daughter.](../resources/Figure_31_04_02a.jpg "Alpha decay is the separation of a \( {}^4\text{He} \) nucleus from the parent. The daughter nucleus has two fewer protons and two fewer neutrons than the parent. Alpha decay occurs spontaneously only if the daughter and \( {}^4\text{He}\) nucleus have less total mass than the parent.")
-{: #Figure2}
+{ #Figure2}
 
 If you examine the periodic table of the elements, you will find that Th has
-$$Z=90 $$ , two fewer than U, which has $$Z=92 $$ . Similarly, in the second **decay equation**{: class="term"}, we see that U has two fewer protons than Pu,
+$$Z=90 $$ , two fewer than U, which has $$Z=92 $$ . Similarly, in the second **decay equation**{ class="term"}, we see that U has two fewer protons than Pu,
 which has $$Z=94 $$ . The general rule for $$\alpha $$ decay is best written in
 the format $${}_{Z}^{A}{\text{X}}_{N} $$ . If a certain nuclide is known to
 $$\alpha $$ decay (generally this information must be looked up in a table of
@@ -183,7 +183,7 @@ $$\Delta m $$ . In this case, there are 94 electrons before and after the decay.
 
 ### Beta Decay
 
-There are actually *three* types of **beta decay**{: class="term"}. The first
+There are actually *three* types of **beta decay**{ class="term"}. The first
 discovered was “ordinary” beta decay and is called $${\beta }^{-} $$ decay or
 electron emission. The symbol $${\beta }^{-} $$ represents *an electron emitted
 in nuclear beta decay*. Cobalt-60 is a nuclide that $${\beta }^{-} $$ decays in
@@ -218,7 +218,7 @@ the weak nuclear force as being distinct from the strong nuclear force and in
 fact responsible for beta decay. Chinese-born physicist Chien-Shiung Wu, who had developed a number of processes critical to the Manhattan Project and related research, set out to investigate Fermi’s theory and some experiments whose failures had cast the theory in doubt. She first identified a number of flaws in her contemporaries’ methods and materials, and then designed an experimental method that would avoid the same errors. Wu verified Fermi’s theory and went on to establish the core principles of beta decay, which would become critical to further work in nuclear physics.
 
 ![Photo of physicist Enrico Fermi and Chien-Shiung Wu.](../resources/Figure_31_04_03a.jpg "(a) Enrico Fermi was nearly unique among 20th-century physicists&#x2014;he made significant contributions both as an experimentalist and a theorist. His many contributions to theoretical physics included the identification of the weak nuclear force. The fermi (fm) is named after him, as are an entire class of subatomic particles (fermions), an element (Fermium), and a major research laboratory (Fermilab). His experimental work included studies of radioactivity, for which he won the 1938 Nobel Prize in physics, and creation of the first nuclear chain reaction. (credit: United States Department of Energy, Office of Public Affairs). (b) Chien-Shiung Wu undertook the experimentation to verify Fermi’s theory of beta decay. She became the world’s expert on the subject, and contributed to work that led to a Nobel Prize, even though she was denied the award. (credit: Smithsonian Institute)")
-{: #Figure3}
+{ #Figure3}
 
 The neutrino also reveals a new conservation law. There are various families of
 particles, one of which is the electron family. We propose that the number of
@@ -264,7 +264,7 @@ few minutes and $${\beta }^{-} $$ decay in the following manner:
 </div>
 
 ![Image shows parent nucleus before beta decay and daughter nucleus after beta decay.](../resources/Figure_31_04_04a.jpg "In \( \beta^{-} \) decay, the parent nucleus emits an electron and an antineutrino. The daughter nucleus has one more proton and one less neutron than its parent. Neutrinos interact so weakly that they are almost never directly observed, but they play a fundamental role in particle physics.")
-{: #Figure4}
+{ #Figure4}
 
 We see that charge is conserved in $${\beta }^{-} $$ decay, since the total
 charge is $$Z $$ before and after the decay. For example, in $${}^{60}\text{Co}
@@ -354,13 +354,13 @@ The second type of beta decay is less common than the first. It is $${\beta
 This is **antielectron** or **positron decay** (see [[Figure 5]](#Figure5)).
 
 ![Image shows parent nucleus before beta plus decay and daughter nucleus after beta plus decay, which results in a positively charged electron called a positron.](../resources/Figure_31_04_05a.jpg " \( \beta^{+} \) decay is the emission of a positron that eventually finds an electron to annihilate, characteristically producing gammas in opposite directions.")
-{: #Figure5}
+{ #Figure5}
 
 The antielectron is often represented by the symbol $${e}^{+} $$ , but in beta
 decay it is written as $${\beta }^{+} $$ to indicate the antielectron was
 emitted in a nuclear decay. Antielectrons are the antimatter counterpart to
 electrons, being nearly identical, having the same mass, spin, and so on, but
-having a positive charge and an electron family number of $$-1 $$ . When a **positron**{: class="term"} encounters an electron, there is a mutual
+having a positive charge and an electron family number of $$-1 $$ . When a **positron**{ class="term"} encounters an electron, there is a mutual
 annihilation in which all the mass of the antielectron-electron pair is
 converted into pure photon energy. (The reaction, $${e}^{+}+{e}^{-}\to \gamma
 +\gamma $$ , conserves electron family number as well as all other conserved
@@ -403,7 +403,7 @@ electron mass is created in the decay. Thus, in $${\beta }^{+} $$ decay,
 
 since we use the masses of neutral atoms.
 
-**Electron capture**{: class="term"} is the third type of beta decay. Here, a
+**Electron capture**{ class="term"} is the third type of beta decay. Here, a
 nucleus captures an inner-shell electron and undergoes a nuclear reaction that
 has the same effect as $${\beta }^{+} $$ decay. Electron capture is sometimes
 denoted by the letters EC. We know that electrons cannot reside in the nucleus,
@@ -431,7 +431,7 @@ protons, nearer the region of stability.
 
 ### Gamma Decay
 
-**Gamma decay**{: class="term"} is the simplest form of nuclear decay—it is the
+**Gamma decay**{ class="term"} is the simplest form of nuclear decay—it is the
 emission of energetic photons by nuclei left in an excited state by some earlier
 process. Protons and neutrons in an excited nucleus are in higher orbitals, and
 they fall to lower levels by photon emission (analogous to electrons in excited
@@ -888,7 +888,7 @@ sample is not detectable for a macroscopic sample.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 parent
 : the original state of nucleus before decay

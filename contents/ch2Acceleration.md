@@ -10,7 +10,7 @@ layout: page
 </div>
 
 ![An airplane flying very low to the ground, just above a beach full of onlookers, as it comes in for a landing.](../resources/Figure_02_04_00.jpg "A plane decelerates, or slows down, as it comes in for landing in St. Maarten. Its acceleration is opposite in direction to its velocity. (credit: Steve Conry, Flickr)")
-{: #Figure1 width="20px"}
+{ #Figure1 width="20px"}
 
 In everyday conversation, to accelerate means to speed up. The accelerator in a
 car can in fact cause it to speed up. The greater the **acceleration**, the
@@ -61,7 +61,7 @@ down, its acceleration is opposite to the direction of its motion. This is known
 as **deceleration**.
 
 ![A subway train arriving at a station. A velocity vector arrow points along the track away from the train. An acceleration vector arrow points along the track toward the train.](../resources/Figure_02_04_00a.jpg "A subway train in Sao Paulo, Brazil, decelerates as it comes into a station. It is accelerating in a direction opposite to its direction of motion. (credit: Yusuke Kawasaki, Flickr)")
-{: #Figure2}
+{ #Figure2}
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -77,7 +77,7 @@ consider [Figure 3](#Figure3).
 ![Four separate diagrams of cars moving. Diagram a:
 A car moving toward the right. A velocity vector arrow points toward the right. An acceleration vector arrow also points toward the right. Diagram b: A car moving toward the right in the positive x direction. A velocity vector arrow points toward the right. An acceleration vector arrow points toward the left. Diagram c: A car moving toward the left. A velocity vector arrow points toward the left. An acceleration vector arrow points toward the right. Diagram d: A car moving toward the left. A velocity vector arrow points toward the left. An acceleration vector arrow also points toward the left.](../resources/Figure_02_04_00b.jpg "(a) This car is speeding up as it moves toward the right. It therefore has positive acceleration in our coordinate system. (b) This car is slowing down as it moves toward the right. Therefore, it has negative acceleration in our coordinate system, because its acceleration is toward the left. The car is also decelerating: the direction of its acceleration is opposite to its direction of motion. (c) This car is moving toward the left, but slowing down over time. Therefore, its acceleration is positive in our coordinate system because it is toward the right. However, the car is decelerating because its acceleration is opposite to its motion. (d)
 This car is speeding up as it moves toward the left. It has negative acceleration because it is accelerating toward the left. However, because its acceleration is in the same direction as its motion, it is speeding up (not decelerating).")
-{: #Figure3}
+{ #Figure3}
 
 </div>
 
@@ -88,7 +88,7 @@ Calculating Acceleration: A Racehorse Leaves the Gate
 A racehorse coming out of the gate accelerates from rest to a velocity of 15.0 m/s due west in 1.80 s. What is its average acceleration?
 
 ![Two racehorses running toward the left.](../resources/Figure_02_04_04.jpg "(credit: Jon Sullivan, PD Photo.org)")
-{: #Figure4}
+{ #Figure4}
 
 **Strategy**
 
@@ -97,7 +97,7 @@ simple problem, but it always helps to visualize it. Notice that we assign east
 as positive and west as negative. Thus, in this case, we have negative velocity.
 
 ![An acceleration vector arrow pointing west, in the negative x direction, labeled with a equals question mark. A velocity vector arrow also pointing toward the left, with initial velocity labeled as 0 and final velocity labeled as negative fifteen point 0 meters per second.](../resources/Figure_02_03_01a.jpg " ")
-{: #Figure5}
+{ #Figure5}
 
 We can solve this problem by identifying $$ \Delta v $$ and $$ \Delta t $$ from
 the given information and then calculating the average acceleration directly
@@ -153,7 +153,7 @@ time intervals from 0 to 1.0 s and from 1.0 to 3.0 s as separate motions with
 accelerations of $$ +3.0 \mss $$ and $$ -2.0 \mss $$, respectively.
 
 ![Line graphs of instantaneous acceleration in meters per second per second versus time in seconds. The line on graph (a) shows slight variation above and below an average acceleration of about 1 point 8 meters per second per second. The line on graph (b) shows great variation over time, with instantaneous acceleration constant at 3 point 0 meters per second per second for 1 second, then dropping to negative 2 point 0 meters per second per second for the next 2 seconds, and then rising again, and so forth.](../resources/Figure_02_03_02.jpg "Graphs of instantaneous acceleration versus time for two different one-dimensional motions. (a) Here acceleration varies only slightly and is always in the same direction, since it is positive. The average over the interval is nearly the same as the acceleration at any given time. (b) Here the acceleration varies greatly, perhaps representing a package on a post office conveyor belt that is accelerated forward and backward as it bumps along. It is necessary to consider small time intervals (such as from 0 to 1.0 s) with constant or nearly constant acceleration in such a situation.")
-{: #Figure6}
+{ #Figure6}
 
 The next several examples consider the motion of the subway train shown
 in [Figure 7](#Figure7). In (a)
@@ -162,7 +162,7 @@ are designed to further illustrate aspects of motion and to illustrate some of
 the reasoning that goes into solving problems.
 
 ![In part (a), a subway train moves from left to right from an initial position of x equals 4 point 7 kilometers to a final position of x equals 6 point 7 kilometers, with a displacement of 2 point 0 kilometers. In part (b), the train moves toward the left, from an initial position of 5 point 25 kilometers to a final position of 3 point 75 kilometers.](../resources/Figure_02_03_03.jpg "One-dimensional motion of a subway train. Here we have chosen the x-axis so that + means to the right and - means to the left for displacements, velocities, and accelerations. (a) The subway train moves to the right from \(x_0\) to \( x_f\). Its displacement \( \Delta x \) is +2.0 km. (b) The train moves to the left from \( x'_0 \) to \( x'_f \). Its displacement \( \Delta x'=1.5 \text{km} \). (Note that the prime symbol (') is used simply to distinguish between displacement in the two different situations. The distances of travel and the size of the cars are on different scales to fit everything into the diagram.)")
-{: #Figure7}
+{ #Figure7}
 
 <div class="example" id="example2" markdown="1">
 <div class="title">
@@ -248,7 +248,7 @@ It is worth it at this point to make a simple sketch:
 
 ![A point represents the initial velocity of 0 kilometers per second. Below the point is a velocity vector arrow pointing to the right, representing the final velocity of thirty point zero kilometers per hour. Below the velocity vector is an acceleration vector arrow labeled a equals question mark.](
 ../resources/Figure_02_03_03c.jpg "Velocity Vectors")
-{: #Figure8}
+{ #Figure8}
 
 This problem involves three steps. First we must determine the change in
 velocity, then we must determine the change in time, and finally we use these
@@ -294,7 +294,7 @@ Now suppose that at the end of its trip, the train in [Figure 7](#Figure7)(a) sl
 **Strategy**
 
 ![A velocity vector arrow pointing toward the right with initial velocity of thirty point zero kilometers per hour and final velocity of 0. An acceleration vector arrow pointing toward the left, labeled a equals question mark.](../resources/Figure_02_03_03d.jpg "Velocity and Acceleration Vectors")
-{: #Figure9}
+{ #Figure9}
 
 In this case, the train is decelerating and its acceleration is negative because
 it is toward the left. As in the previous example, we must find the change in
@@ -341,7 +341,7 @@ from 20 to 40 s, after which the train decelerates.)
 ![Three graphs. The first is a line graph of position in meters versus time in seconds. The line begins at the origin and has a concave up shape from time equals zero to time equals twenty seconds. It is straight with a positive slope from twenty seconds to forty seconds. It is then convex up from forty to fifty seconds. The second graph is a line graph of velocity in meters per second versus time in seconds. The line is straight with a positive slope beginning at the origin from 0 to twenty seconds. It is flat from twenty to forty seconds. From forty to fifty seconds the line is straight with a negative slope back down to a velocity of 0. The third graph is a line graph of acceleration in meters per second per second versus time in seconds. The line is flat with a positive constant acceleration from zero to twenty seconds. The line then drops to an acceleration of 0 from twenty to forty seconds. The line drops again to a negative acceleration from forty to fifty seconds.](../resources/Figure_02_03_04.jpg "(a) Position of the train over time. Notice that the train&#x2019;s position changes slowly at the beginning of the journey, then more and more quickly as it picks up speed. Its position then changes more slowly as it slows down at the end of the journey. In the middle of the journey, while the velocity remains constant, the position changes at a constant rate.
 (b) Velocity of the train over time. The train&#x2019;s velocity increases as it accelerates at the beginning of the journey. It remains the same in the middle of the journey (where there is no acceleration). It decreases as the train decelerates at the end of the journey.
 (c) The acceleration of the train over time. The train has positive acceleration as it speeds up at the beginning of the journey. It has no acceleration as it travels at constant velocity in the middle of the journey. Its acceleration is negative as it slows down at the end of the journey.")
-{: #Figure10 height="200"}
+{ #Figure10 height="200"}
 
 <div class="example" id="exampleAverage" markdown="1">
 <div class="title">
@@ -351,7 +351,7 @@ What is the average velocity of the train in part b of [Example 2](#example2), a
 trip?
 
 ![The train moves toward the left, from an initial position of 5 point 25 kilometers to a final position of 3 point 75 kilometers.](../resources/Figure_02_03_04a.jpg "Train Diagram")
-{: #Figure11}
+{ #Figure11}
 
 **Strategy**
 
@@ -394,7 +394,7 @@ Finally, suppose the train in [Figure 11](#Figure11) slows to a stop from a velo
 Once again, let’s draw a sketch:
 
 ![A velocity vector arrow pointing to the left with initial velocity of negative twenty point 0 kilometers per hour and a final velocity of 0. An acceleration vector arrow pointing toward the right, labeled a equals question mark.](../resources/Figure_02_03_04b.jpg "Vector and Acceleration Diagram")
-{: #Figure12}
+{ #Figure12}
 
 As before, we must find the change in velocity and the change in time to
 calculate average acceleration.
@@ -589,7 +589,7 @@ $$ \left(9.80 \mss \right)? $$
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 acceleration
 : the rate of change in velocity; the change in velocity over time

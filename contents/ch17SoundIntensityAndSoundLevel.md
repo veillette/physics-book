@@ -9,7 +9,7 @@ layout: page
 </div>
 
 ![Photograph of a road jammed with traffic of all types of vehicles.](../resources/Figure_17_03_01aa.jpg "Noise on crowded roadways like this one in Delhi makes it hard to hear others unless they shout. (credit: Lingaraj G J, Flickr)")
-{: #Figure1}
+{ #Figure1}
 
 In a quiet forest, you can sometimes hear a single leaf fall to the ground.
 After settling into bed, you may hear your blood pulsing through your ears. But
@@ -56,7 +56,7 @@ sound wave is produced by some vibration; the greater its pressure amplitude,
 the more the air is compressed in the sound it creates.
 
 ![The image shows two graphs, with a bird positioned to the left of each one. The first graph represents a low frequency sound of a bird. The pressure variation shows small amplitude maxima and minima, represented by a sine curve of gauge pressure versus position with a small amplitude. The second graph represents a high frequency sound of a screaming bird. The pressure variation shows large amplitude maxima and minima, represented by a sine curve of gauge pressure versus position with a large amplitude.](../resources/Figure_17_03_01ab.jpg "Graphs of the gauge pressures in two sound waves of different intensities. The more intense sound is produced by a source that has larger-amplitude oscillations and has greater pressure maxima and minima. Because pressures are higher in the greater-intensity sound, it can exert larger forces on the objects it encounters.")
-{: #Figure2}
+{ #Figure2}
 
 Sound intensity levels are quoted in decibels (dB) much more often than sound
 intensities in watts per meter squared. Decibels are the unit of choice in the
@@ -576,20 +576,20 @@ Loudspeakers can produce intense sounds with surprisingly small energy input in 
 
 <div class="footnote-refs" markdown="1">
 ### Footnotes
-{: class="footnote-refs-title"}
+{ class="footnote-refs-title"}
 
-* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
+* { class="footnote-ref" #footnote1} [1](#footnote-ref1){ class="
   footnote-ref-link"} <span class="footnote-ref-content"> Several government
   agencies and health-related professional associations recommend that 85 dB not
   be exceeded for 8-hour daily exposures in the absence of hearing
   protection.</span>
-  {: data-list-type="bulleted" data-bullet-style="none"}
+  { data-list-type="bulleted" data-bullet-style="none"}
 
 </div>
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 intensity
 : the power per unit area carried by a wave

@@ -53,7 +53,7 @@ relationships of current to voltage and current to resistance gives
 
 This relationship is also called Ohm’s law. Ohm’s law in this form really
 defines resistance for certain materials. Ohm’s law (like Hooke’s law) is not
-universally valid. The many substances for which Ohm’s law holds are called **ohmic**{: class="term"}. These include good conductors like copper and aluminum,
+universally valid. The many substances for which Ohm’s law holds are called **ohmic**{ class="term"}. These include good conductors like copper and aluminum,
 and some poor conductors under certain circumstances. Ohmic materials have a
 resistance $$R $$ that is independent of voltage $$V $$ and current $$I $$ . An
 object that has simple resistance is called a **resistor**, even if its
@@ -72,7 +72,7 @@ connecting the voltage source to the resistor can be assumed to have negligible
 resistance, or their resistance can be included in $$R $$.
 
 ![The figure describes a simple electric circuit with a battery connected to a resistance R. The direction of current is shown to emerge from the positive terminal of a battery of voltage V, pass through the resistor, and enter the negative terminal of the battery. The current I in the circuit is V divided by R, moving in a clockwise direction.](../resources/Figure_20_02_01a.jpg "A simple electric circuit in which a closed path for current to flow is supplied by conductors (usually metal wires) connecting a load to the terminals of a battery, represented by the red parallel lines. The zigzag symbol represents the single resistor and includes any resistance in the connections to the voltage source.")
-{: #Figure1}
+{ #Figure1}
 
 <div id="Example1" class="example" markdown="1">
 <div class="title">
@@ -137,7 +137,7 @@ energy supplied by the voltage source and the energy converted by the resistor
 are equal. (See [[Figure 2]](#Figure2).)
 
 ![The figure shows a simple electric circuit. A battery is connected to a resistor with resistance R, and a voltmeter is connected across the resistor. The direction of current is shown to emerge from the positive terminal of the battery of voltage V, pass through the resistor, and enter the negative terminal of the battery, in a clockwise direction. The voltage V in the circuit equals I R, which equals 18 volts.](../resources/Figure_20_02_02a.jpg "The voltage drop across a resistor in a simple circuit equals the voltage output of the battery.")
-{: #Figure2}
+{ #Figure2}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -152,7 +152,7 @@ In a simple electrical circuit, the sole resistor converts energy supplied by th
 PhET Explorations: Ohm's Law
 </div>
 See how the equation form of Ohm\'s law relates to a simple circuit. Adjust the voltage and resistance, and see the current change according to Ohm\'s law. The sizes of the symbols in the equation change to match the circuit diagram.
-{: class="newline"}
+{ class="newline"}
 
 <div class="media"  data-alt="ohm's law">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/ohms-law/latest/ohms-law_en.html"></iframe>
@@ -261,7 +261,7 @@ A power transmission line is hung from metal towers with glass insulators having
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 Ohm’s law
 : an empirical relation stating that the current *I* is proportional to the

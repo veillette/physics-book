@@ -15,7 +15,7 @@ a shaft. Electrical energy is converted to mechanical work in the process. (
 See [[Figure 1]](#Figure1).)
 
 ![Diagram showing a current-carrying loop of width w and length l between the north and south poles of a magnet. The north pole is to the left and the south pole is to the right of the loop. The magnetic field B runs from the north pole across the loop to the south pole. The loop is shown at an instant, while rotating clockwise. The current runs up the left side of the loop, across the top, and down the right side. There is a force F oriented into the page on the left side of the loop and a force F oriented out of the page on the right side of the loop. The torque on the loop is clockwise as viewed from above.](../resources/Figure_22_08_01a.jpg "Torque on a current loop. A current-carrying loop of wire attached to a vertically rotating shaft feels magnetic forces that produce a clockwise torque as viewed from above.")
-{: #Figure1}
+{ #Figure1}
 
 Let us examine the force on each segment of the loop in [[Figure 1]](#Figure1)
 to find the torques produced about the axis of the vertical shaft. (This will
@@ -39,7 +39,7 @@ two add to give a total torque.
 </div>
 
 ![Diagram showing a current-carrying loop from the top, and four different times as it rotates in a magnetic field. The magnetic field oriented toward the right, perpendicular to the vertical dimension of the loop. In figure a, the top view of the loop is oriented at an angle to the magnetic field lines, which run left to right. The force on the loop is up on the lower left side where the current comes out of the page. The force is down on the upper right side where the loop goes into the page. The angle between the force and the loop is theta. Torque is clockwise and equals w over 2 times I l B sine theta. Figure b shows the top view of the loop parallel to the magnetic field lines. The force on the loop is up on the left side where I comes out of the page. The force on the loop is down on the right side where I goes into the page. The angle theta between the F and B is ninety degrees. Torque is clockwise and equals w over 2 I l B equals maximum torque. Figure c shows the top view of the loop oriented perpendicular to B. The force on the loop is up at the top, where I comes out of the page, and down at the bottom where I goes into the page. Theta equals 0 degrees. Torque equals zero since sine theta equals 0. In figure d the force is down on the lower left side of the loop where I goes in, and up on the upper right side of the loop where I comes out. The torque is counterclockwise. Torque is negative.](../resources/Figure_22_08_02a.jpg "Top views of a current-carrying loop in a magnetic field. (a) The equation for torque is derived using this view. Note that the perpendicular to the loop makes an angle \( \theta \) with the field that is the same as the angle between \( w/2 \) and \( F \) . (b) The maximum torque occurs when \( \theta \) is a right angle and \( \sin \theta =1 \) . (c) Zero (minimum) torque occurs when \( \theta \) is zero and \( \sin \theta =0 \) . (d) The torque reverses once the loop rotates past \( \theta=0 \).")
-{: #Figure2}
+{ #Figure2}
 
 Now, each vertical segment has a length $$l $$ that is perpendicular to $$B $$ ,
 so that the force on each is $$F=IlB $$ . Entering $$F $$ into the expression
@@ -102,7 +102,7 @@ as it passes through $$\theta =0 $$ with automatic switches called *brushes*. (
 See [\[Figure 3\]](#Figure3).)
 
 ![The diagram shows a current-carrying loop between the north and south poles of a magnet at two different times. The north pole is to the left and the south pole is to the right. The magnetic field runs from the north pole to the right to the south pole. Figure a shows the current running through the loop. It runs up on the left side, and down on the right side. The force on the left side is into the page. The force on the right side is out of the page. The torque is clockwise when viewed from above. Figure b shows the loop when it is oriented perpendicular to the magnet. In both diagrams, the bottom of each side of the loop is connected to a half-cylinder that is next to a rectangular brush that is then connected to the rest of the circuit.](../resources/Figure_22_08_03a.jpg "(a) As the angular momentum of the coil carries it through \( \theta =0 \), the brushes reverse the current to keep the torque clockwise. (b) The coil will rotate continuously in the clockwise direction, with the current reversing each half revolution to maintain the clockwise torque.")
-{: #Figure3}
+{ #Figure3}
 
 **Meters**, such as those in analog fuel gauges on a car, are another common
 application of magnetic torque on a current-carrying
@@ -118,7 +118,7 @@ resistance and respond to small currents, we use a large loop area $$A $$ , high
 magnetic field $$B $$ , and low-resistance coils.
 
 ![Diagram of a meter showing a current-carrying loop between two poles of a magnet. The torque on the magnet is clockwise. The top of the loop is connected to a spring and to a pointer that points to a scale as the loop rotates.](../resources/Figure_22_08_04a.jpg "Meters are very similar to motors but only rotate through a part of a revolution. The magnetic poles of this meter are shaped to keep the component of \( B \) perpendicular to the loop constant, so that the torque does not depend on \( \theta \) and the deflection against the return spring is proportional only to the current \( I \) .")
-{: #Figure4}
+{ #Figure4}
 
 ### Section Summary
 
@@ -237,7 +237,7 @@ it would oscillate).
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 motor
 : loop of wire in a magnetic field; when current is passed through the loops,
