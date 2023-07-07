@@ -202,7 +202,7 @@ its velocity is so uncertain. To get a further idea of how large the uncertainty
 in velocity is, we assumed the velocity of the electron was equal to its
 uncertainty and found this gave a kinetic energy of 95.5 eV. This is
 significantly greater than the typical energy difference between levels in
-atoms (see [[link]](../contents/ch29PhotonEnergiesAndTheElectomagneticSpectrum#import-auto-id1597328)), so that it is impossible to
+atoms (see [[Table 1]](../contents/ch29PhotonEnergiesAndTheElectomagneticSpectrum#Table1)), so that it is impossible to
 get a meaningful energy for the electron if we know its position even moderately
 well.
 
@@ -350,7 +350,7 @@ What is the Heisenberg uncertainty principle? Does it place limits on what can b
 (a) 57.9 m/s
 
 (b)  $$ 9.55 \times 10^{-9} \text{eV} $$
-(c) From [[link]](../contents/ch29PhotonEnergiesAndTheElectomagneticSpectrum#import-auto-id1597328), we see that typical
+(c) From [[Table 1]](../contents/ch29PhotonEnergiesAndTheElectomagneticSpectrum#Table1), we see that typical
 molecular binding energies range from about 1eV to 10 eV, therefore the result
 in part (b) is approximately 9 orders of magnitude smaller than typical
 molecular binding energies.

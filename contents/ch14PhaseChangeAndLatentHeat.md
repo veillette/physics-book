@@ -561,7 +561,7 @@ A bag containing  $$0\text{ºC} $$
  water.
 
 1. How much heat transfer is necessary to raise the temperature of 0.800 kg of
-   water from $$0\text{ºC} $ to $$ 30.0º\text{C} $$ ?
+   water from $$0\text{ºC} $$ to $$ 30.0º\text{C} $$ ?
 2. How much heat transfer is required to first melt 0.800 kg of $$0\text{ºC} $$
    ice and then raise its temperature?
 3. Explain how your answer supports the contention that the ice is more

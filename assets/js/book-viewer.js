@@ -304,7 +304,6 @@ function parser() {
             }
         });
 
-
         if (typeof MathJax.startup !== "undefined" && MathJax.startup !== null) {
             MathJax.startup.promise = MathJax.startup.promise
                 .then(() => MathJax.typesetPromise([els]))
@@ -477,12 +476,14 @@ function parser() {
             }
 
             const htmlDivElement = document.createElement('div');
+
             htmlDivElement.innerHTML = html;
-            htmlDivElement.querySelectorAll('meta, link, script, title').forEach(function (el) {
+            htmlDivElement.querySelectorAll('meta, link, script').forEach(function (el) {
                 el.remove();
             });
 
             bookPage.innerHTML = '';
+            bookTitle.textContent = htmlDivElement.querySelector('title').textContent;
             const altPage = document.createElement('div');
             altPage.className = 'contents';
             altPage.append(...htmlDivElement.childNodes);

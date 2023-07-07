@@ -189,7 +189,7 @@ In what ways are matter and energy related that were not known before the develo
 <div class="problem" markdown="1">
 **Integrated Concepts**
 
-The 54.0-eV electron in [[link]](../contents/ch29TheWaveNatureOfMatter#fs-id2621262) has a 0.167-nm
+The 54.0-eV electron in [[Example 1]](../contents/ch29TheWaveNatureOfMatter#Example1) has a 0.167-nm
 wavelength. If such electrons are passed through a double slit and have their
 first maximum at an angle of $$ 25.0º $$ , what is the slit separation $$d $$ ?
 

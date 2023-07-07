@@ -8,7 +8,8 @@
     "serve": "npx @11ty/eleventy serve"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0"
+    "@11ty/eleventy": "^2.0.0",
+    "playwright": "^1.35.1"
   },
   "dependencies": {
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",

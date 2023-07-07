@@ -55,7 +55,7 @@ limits to how many of them can be in the same energy state. Note that $$n $$
 determines the energy state in the absence of a magnetic field. So we first
 choose $$n $$ , and then we see how many electrons can be in this energy state
 or energy level. Consider the $$n=1 $$ level, for example. The only value $$l $$
-can have is 0 (see [[link]](../contents/ch30QuantumNumbersAndRules#import-auto-id3013526) for a list of
+can have is 0 (see [[Table 1]](../contents/ch30QuantumNumbersAndRules#Table1) for a list of
 possible values once $$n $$ is known), and thus $${m}_{l} $$ can only be 0. The
 spin projection $${m}_{s} $$ can be either $$+1/2 $$ or $$-1/2 $$ , and so there
 can be two electrons in the $$n=1 $$ state. One has quantum numbers $$\left(1,
@@ -771,7 +771,7 @@ estimated in this chapter.
 **Integrated Concepts**
 
 The electric and magnetic forces on an electron in the CRT
-in [[link]](../contents/ch30DiscoveryOfThePartsOfTheAtom#fs-id961353) are supposed to be in opposite
+in [[Figure 4]](../contents/ch30DiscoveryOfThePartsOfTheAtom#Figure4) are supposed to be in opposite
 directions. Verify this by determining the direction of each force for the
 situation shown. Explain how you obtain the directions (that is, identify the
 rules used).
@@ -827,7 +827,7 @@ $$ , or a Lyman series transition).
 **Integrated Concepts**
 
 In a Millikan oil-drop experiment using a setup like that
-in [[link]](../contents/ch30DiscoveryOfThePartsOfTheAtom#fs-id2010482), a 500-V potential difference is
+in [[Figure 6]](../contents/ch30DiscoveryOfThePartsOfTheAtom#Figure6), a 500-V potential difference is
 applied to plates separated by 2.50 cm. (a) What is the mass of an oil drop
 having two extra electrons that is suspended motionless by the field between the
 plates? (b) What is the diameter of the drop, assuming it is a sphere with the

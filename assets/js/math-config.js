@@ -27,7 +27,7 @@ window.MathJax = {
             ['\\(', '\\)']
         ],
         displayMath: [             // start/end delimiter pairs for display math
-            ['$$$$', '$$$$'],
+            ['$$', '$$'],
             ['\\[', '\\]']
         ],
     },

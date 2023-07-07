@@ -32,8 +32,8 @@ connection with cosmology, on the opposite end of the distance scale.
 
 [[Figure 1]](#Figure1) is a Feynman diagram showing how the weak nuclear force
 is transmitted by the carrier particle $${Z}^{0} $$ , similar to the diagrams
-in [[link]](../contents/ch33TheFourBasicForces#import-auto-id1169738052383)
-and [[link]](../contents/ch33TheFourBasicForces#import-auto-id1169737991710) for the electromagnetic and
+in [[Figure 2]](../contents/ch33TheFourBasicForces#Figure2)
+and [[Figure 3]](../contents/ch33TheFourBasicForces#Figure3) for the electromagnetic and
 strong nuclear forces. In the 1960s, a gauge theory, called **electroweak
 theory**, was developed by Steven Weinberg, Sheldon Glashow, and Abdus Salam and
 proposed that the electromagnetic and weak forces are identical at sufficiently
@@ -57,7 +57,7 @@ the 1979 Nobel Prize for other aspects of electroweak theory.
 { #Figure1}
 
 Although the weak nuclear force is very short ranged (  $$< 10^{-18}\text{m} $$
-, as indicated in [[link]](../contents/ch33TheFourBasicForces#import-auto-id1169738010507)), its effects on
+, as indicated in [[Table 1]](../contents/ch33TheFourBasicForces#Table1)), its effects on
 atomic levels can be measured given the extreme precision of modern techniques.
 Since electrons spend some time in the nucleus, their energies are affected, and
 spectra can even indicate new aspects of the weak force, such as the possibility
@@ -92,20 +92,21 @@ quark red.
 The strong force is complicated, since observable particles that feel the strong
 force (hadrons) contain multiple quarks. [[Figure 3]](#Figure3) shows the quark
 and gluon details of pion exchange between a proton and a neutron as illustrated
-earlier in [[link]](../contents/ch33TheYukawaParticleAndTheHeisenbergUncertaintyPrincipleRevisited#import-auto-id1169737824808)
-and [[link]](../contents/ch33TheFourBasicForces#import-auto-id1169737991710). The quarks within the proton
+earlier in [[Figure 1]](../contents/ch33TheYukawaParticleAndTheHeisenbergUncertaintyPrincipleRevisited#Figure1)
+and [[Figure 3]](../contents/ch33TheFourBasicForces#Figure3). The quarks within the proton
 and neutron move along together exchanging gluons, until the proton and neutron
 get close together. As the $$u $$ quark leaves the proton, a gluon creates a
 pair of virtual particles, a $$d $$ quark and a $$\stackrel{-}{d} $$ antiquark.
 The $$d $$ quark stays behind and the proton turns into a neutron, while the $$u
 $$ and $$\stackrel{-}{d} $$ move together as a $${\pi }^{+} $$
-([[link]](../contents/ch33Quarks#import-auto-id1169737909561) confirms the $$u\stackrel{-}{d}
+([[Table 2]](../contents/ch33Quarks#Table2) confirms the $$u\stackrel{-}{d}
 $$ composition for the $${\pi }^{+} $$ .)
 The $$\stackrel{-}{d} $$ annihilates a $$d $$ quark in the neutron, the $$u $$
 joins the neutron, and the neutron becomes a proton. A pion is exchanged and a
 force is transmitted.
 
-![The Feynman diagram shows a proton scattering from a neutron. In the process , the proton becomes a neutron and the neutron becomes a proton. The details of the interaction are explained in the text.](../resources/Figure_33_06_03.jpg "This Feynman diagram is the same interaction as shown in [link], but it shows the quark and gluon details of the strong force interaction.")
+
+![The Feynman diagram shows a proton scattering from a neutron. In the process , the proton becomes a neutron and the neutron becomes a proton. The details of the interaction are explained in the text.](../resources/Figure_33_06_03.jpg "This Feynman diagram is the same interaction as shown in [[Figure 3]](../contents/ch33TheFourBasicForces#Figure3) of the four basic forces, but it shows the quark and gluon details of the strong force interaction.")
 { #Figure3}
 
 It is beyond the scope of this text to go into more detail on the types of quark
@@ -119,7 +120,7 @@ but not overthrow, the Standard Model of particle physics and forces.
 <div class="title">
 Making Connections: Unification of Forces
 </div>
-Grand Unified Theory (GUT) is successful in describing the four forces as distinct under normal circumstances, but connected in fundamental ways. Experiments have verified that the weak and electromagnetic force become identical at very small distances and provide the GUT description of the carrier particles for the forces. GUT predicts that the other forces become identical under conditions so extreme that they cannot be tested in the laboratory, although there may be lingering evidence of them in the evolution of the universe. GUT is also successful in describing a system of carrier particles for all four forces, but there is much to be done, particularly in the realm of gravity.
+Grand Unified Theory (GUT) is successful in describing the four forces as distinct under normal circumstances, but connected in fundamental ways. Experiments have verified that the weak and electromagnetic forces become identical at very small distances and provide the GUT description of the carrier particles for the forces. GUT predicts that the other forces become identical under conditions so extreme that they cannot be tested in the laboratory, although there may be lingering evidence of them in the evolution of the universe. GUT is also successful in describing a system of carrier particles for all four forces, but there is much to be done, particularly in the realm of gravity.
 
 </div>
 
@@ -155,7 +156,8 @@ is a possibility of a direct discovery during 2012. The existence of this more
 massive particle would give validity to the theory that the carrier particles
 are identical under certain circumstances.
 
-![The figure shows a graph with the strength of four basics forces plotted along the y axis and energy plotted along the x axis in giga electron volts. Near zero giga electron volts, the difference in forces is large. Gravity is the weakest force, followed by the weak force, then the electromagnetic force, and finally the strong force is the strongest. At about one hundred giga electron volts, the curves for the electromagnetic and weak force combine to become the electroweak force, but gravity remains weaker and the strong force remains stronger. Near ten to the fifteen giga electron volts, the electroweak force combines with the strong force at a point labeled G U T. Finally, at about ten to the nineteenth giga electron volts, gravity is combined with the electroweak plus strong force at a point labeled T O E.](../resources/Figure_33_06_04.jpg "The relative strengths of the four basic forces vary with distance and, hence, energy is needed to probe small distances. At ordinary energies (a few eV or less), the forces differ greatly as indicated in [link]. However, at energies available at accelerators, the weak and EM forces become identical, or unified. Unfortunately, the energies at which the strong and electroweak forces become the same are unreachable even in principle at any conceivable accelerator. The universe may provide a laboratory, and nature may show effects at ordinary energies that give us clues about the validity of this graph.")
+
+![The figure shows a graph with the strength of four basics forces plotted along the y axis and energy plotted along the x axis in giga electron volts. Near zero giga electron volts, the difference in forces is large. Gravity is the weakest force, followed by the weak force, then the electromagnetic force, and finally the strong force is the strongest. At about one hundred giga electron volts, the curves for the electromagnetic and weak force combine to become the electroweak force, but gravity remains weaker and the strong force remains stronger. Near ten to the fifteen giga electron volts, the electroweak force combines with the strong force at a point labeled G U T. Finally, at about ten to the nineteenth giga electron volts, gravity is combined with the electroweak plus strong force at a point labeled T O E.](../resources/Figure_33_06_04.jpg "The relative strengths of the four basic forces vary with distance and, hence, energy is needed to probe small distances. At ordinary energies (a few eV or less), the forces differ greatly as indicated in [[Table 1]](../contents/ch33TheFourBasicForces#Table1) from The Four Basic Forces. However, at energies available at accelerators, the weak and EM forces become identical, or unified. Unfortunately, the energies at which the strong and electroweak forces become the same are unreachable even in principle at any conceivable accelerator. The universe may provide a laboratory, and nature may show effects at ordinary energies that give us clues about the validity of this graph.")
 { #Figure4}
 
 The small distances and high energies at which the electroweak force becomes
