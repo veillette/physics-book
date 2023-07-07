@@ -4,8 +4,9 @@
   "description": "Textbook for General Physics I",
   "repository": "https://github.com/veillette/physics-book",
   "scripts": {
-    "build": "npx @11ty/eleventy",
-    "serve": "npx @11ty/eleventy serve"
+    "start": "npx @11ty/eleventy --serve",
+    "watch": "npx @11ty/eleventy --watch",
+    "build": "npx eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0",
