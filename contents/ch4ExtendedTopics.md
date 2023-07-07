@@ -47,12 +47,12 @@ experienced on the macroscopic scale.
 
 ##### Table 1: Properties of the Four Basic Forces
 
-| Force           | Approximate Relative Strengths | Range|    Attraction/Repulsion    | Carrier Particle |
-|----|--------------------------------|----|----|----|
-| Gravitational   | $$ 10^{−38}$$                  | $$\infty$$      | attractive only            | Graviton |
-| Electromagnetic | $$10^{-2}$$                    | $$\infty$$      | attractive and repulsive    | Photon |
-| Weak nuclear    | $$10^{-6}$$                    | $$<10^{-18}$$m  | attractive and repulsive    | W+, W–, Z0 |
-| Strong nuclear  | $$1$$                          | $$<10^{-15}$$m    | attractive and repulsive    | Gluons |
+| Force           | Approximate Relative Strengths | Range          | Attraction/Repulsion     | Carrier Particle |
+|-----------------|--------------------------------|----------------|--------------------------|------------------|
+| Gravitational   | $$ 10^{−38}$$                  | $$\infty$$     | attractive only          | Graviton         |
+| Electromagnetic | $$10^{-2}$$                    | $$\infty$$     | attractive and repulsive | Photon           |
+| Weak nuclear    | $$10^{-6}$$                    | $$<10^{-18}$$m | attractive and repulsive | W+, W–, Z0       |
+| Strong nuclear  | $$1$$                          | $$<10^{-15}$$m | attractive and repulsive | Gluons           |
 
 { #Table1}
 
