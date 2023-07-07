@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Textbook for General Physics I",
   "repository": "https://github.com/veillette/physics-book",
-  "dependencies": {
+  "devDependencies": {
     "playwright": "^1.35.1"
   }
 }
