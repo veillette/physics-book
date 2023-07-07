@@ -2,8 +2,8 @@ const fs = require('fs');
 const path = require('path');
 
 function replaceEquationDelimiters(text) {
-    const pattern = /<div class="equation">(.*?)<\/div>/g;
-    const replacement = (match) => match.replace(/\$(.*?)\$/g, '$$$1$$');
+    const pattern = /<div class="equation">(.*?)<\/div>/gs;
+    const replacement = (match) => match.replace(/\$\$(.*?)\$\$/gs, ' \\\\\[ $1 \\\\\]');
     return text.replace(pattern, replacement);
 }
 
@@ -32,8 +32,8 @@ fs.readdir(folderPath, (err, files) => {
                 }
 
                 let content = data;
-                content = replaceAllDelimiters(content);
                 content = replaceEquationDelimiters(content);
+                content = replaceAllDelimiters(content);
 
                 fs.writeFile(filePath, content, 'utf-8', (err) => {
                     if (err) {
