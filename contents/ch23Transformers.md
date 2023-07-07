@@ -21,10 +21,10 @@ discussed previously. But high voltages pose greater hazards, so that
 transformers are employed to produce lower voltage at the user’s location.
 
 ![A photo graph of two plug in transformers operated on voltages other than common one hundred twenty volt AC.](../resources/Figure_23_07_01.jpg "The plug-in transformer has become increasingly familiar with the proliferation of electronic devices that operate on voltages other than common 120 V AC. Most are in the 3 to 12 V range. (credit: Shop Xtreme)")
-{ #Figure1}
+{: #Figure1}
 
 ![The figure shows a transmission power system. It shows the various stages in a power transmission system from the power plant to the house hold with the help of images. The first image is of a power plant. The voltage generated is at twelve volts. This voltage is shown to pass on to a step up transformer through cables. From the step up transformer the current passes through a high voltage transmission line at four hundred kilo volt. The high voltage transmission line is shown passing on three towers. The current is then passed to a step down transformer substation. The current is step down to twelve volts. This is now passed through power transmission lines on poles. This current reaches a step down transformer which is fixed on a pole. Here the voltage is further stepped down to two hundred forty volts. Current is then supplied to an individual household at two hundred forty volts.](../resources/Figure_23_07_02.jpg "Transformers change voltages at several points in a power distribution system. Electric power is usually generated at greater than 10 kV, and transmitted long distances at voltages over 200 kV&#x2014;sometimes as great as 700 kV&#x2014;to limit energy losses. Local power distribution to neighborhoods or industries goes through a substation and is sent short distances at voltages ranging from 5 to 13 kV. This is reduced to 120, 240, or 480 V for safety at the individual user site.")
-{ #Figure2}
+{: #Figure2}
 
 The type of transformer considered in this text—see [[Figure 3]](#Figure3)—is
 based on Faraday’s law of induction and is very similar in construction to the
@@ -37,7 +37,7 @@ Since the input voltage is AC, a time-varying magnetic flux is sent to the
 secondary, inducing its AC output voltage.
 
 ![The figure shows a simple transformer with two coils wound on either sides of a laminated ferromagnetic core. The set of coil on left side of the core is marked as the primary and there number is given as N p. The voltage across the primary is given by V p. The set of coil on right side of the core is marked as the secondary and there number is represented as N s. The voltage across the secondary is given by V s. A symbol of the transformer is also shown below the diagram. It consists of two inductor coils separated by two equal parallel lines representing the core.](../resources/Figure_23_07_03.jpg "A typical construction of a simple transformer has two coils wound on a ferromagnetic core that is laminated to minimize eddy currents. The magnetic field created by the primary is mostly confined to and increased by the core, which transmits it to the secondary coil. Any change in current in the primary induces a current in the secondary.")
-{ #Figure3}
+{: #Figure3}
 
 For the simple transformer shown in [[Figure 3]](#Figure3), the output voltage
 $${V}_{\text{s}} $$ depends almost entirely on the input voltage $${V}_
@@ -160,7 +160,7 @@ in [[Figure 4]](#Figure4). This is not really a practical alternative, and AC is
 common use wherever it is necessary to increase or decrease voltages.
 
 ![The first part of the figure shows a graph of DC voltage input. The graph shows a variation of voltage V p along the Y axis and time t along the X axis. The wave is a pulsed wave nearly square in nature with the vibrations only in positive half cycle. The negative half cycles are not present in the wave. The second part of the figure shows a spike wave graph. The graph shows a variation of voltage V s along the Y axis and time t along the X axis. The wave has both positive and negative half cycles shown as sharp spikes of uniform amplitude.](../resources/Figure_23_07_04.jpg "Transformers do not work for pure DC voltage input, but if it is switched on and off as on the top graph, the output will look something like that on the bottom graph. This is not the sinusoidal AC most AC appliances need.")
-{ #Figure4 height="300"}
+{: #Figure4 height="300"}
 
 <div class="example" markdown="1">
 <div class="title">
@@ -378,7 +378,7 @@ current and power.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 transformer
 : a device that transforms voltages from one value to another using induction

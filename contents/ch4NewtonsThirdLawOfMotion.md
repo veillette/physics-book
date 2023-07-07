@@ -59,7 +59,7 @@ to that in which she wishes to move. The reaction to her push is thus in the
 desired direction.
 
 ![A swimmer is exerting a force with her feet on a wall inside a swimming pool represented by an arrow labeled as vector F sub Feet on wall, pointing toward the right, and the wall is also exerting an equal force on her feet, represented by an arrow labeled as vector F sub Wall on feet, having the same length but pointing toward the left. The direction of acceleration of the swimmer is toward the left, shown by an arrow toward the left.](../resources/Figure_04_04_01.jpg "When the swimmer exerts a force \( \vb{F}_\text{feet on wall} \) on the wall, she accelerates in the direction opposite to that of her push. This means the net external force on her is in the direction opposite to \( \vb{F}_\text{feet on wall} \) . This opposition occurs because, in accordance with Newton’s third law of motion, the wall exerts a force \( \vb{F}_\text{wall on feet} \) on her, equal in magnitude but in the direction opposite to the one she exerts on it. The line around the swimmer indicates the system of interest. Note that \( \vb{F}_\text{feet on wall} \) does not act on this system (the swimmer) and, thus, does not cancel \( \vb{F}_\text{wall on feet} \). Thus the free-body diagram shows only \( \vb{F}_\text{feet on wall} \), \( \vb{w} \), the gravitational force, and \( \vb{BF} \), the buoyant force of the water supporting the swimmer’s weight. The vertical forces \( \vb{w} \) and \( \vb{BF} \) cancel since there is no vertical motion.")
-{ #Figure1}
+{: #Figure1}
 
 Other examples of Newton’s third law are easy to find. As a professor paces in
 front of a whiteboard, she exerts a force backward on the floor. The floor
@@ -90,7 +90,7 @@ Getting Up To Speed: Choosing the Correct System
 A physics professor pushes a cart of demonstration equipment to a lecture hall, as seen in [Figure 2](#Figure2). Her mass is 65.0 kg, the cart’s is 12.0 kg, and the equipment’s is 7.0 kg. Calculate the acceleration produced when the professor exerts a backward force of 150 N on the floor. All forces opposing the motion, such as friction on the cart’s wheels and air resistance, total 24.0 N.
 
 ![A professor is pushing a cart of demonstration equipment. Two systems are labeled in the figure. System one includes both the professor and cart, and system two only has the cart. She is exerting some force F sub prof toward the right, shown by a vector arrow, and the cart is also pushing her with the same magnitude of force directed toward the left, shown by a vector F sub cart, having same length as F sub prof. The friction force small f is shown by a vector arrow pointing left acting between the wheels of the cart and the floor. The professor is pushing the floor with her feet with a force F sub foot toward the left, shown by a vector arrow. The floor is pushing her feet with a force that has the same magnitude, F sub floor, shown by a vector arrow pointing right that has the same length as the vector F sub foot. A free-body diagram is also shown. For system one, friction force acting toward the left is shown by a vector arrow having a small length, and the force F sub floor is acting toward the right, shown by a vector arrow larger than the length of vector f. In system two, friction force represented by a short vector small f acts toward the left and another vector F sub prof is represented by a vector arrow toward the right. F sub prof is longer than small f.](../resources/Figure_04_04_02.jpg "A professor pushes a cart of demonstration equipment. The lengths of the arrows are proportional to the magnitudes of the forces (except for \( \vb{f} \) , since it is too small to draw to scale). Different questions are asked in each example; thus, the system of interest must be defined differently for each. System 1 is appropriate for this example, since it asks for the acceleration of the entire group of objects. Only \( \vb{F}_{\text{floor}} \) and \( \vb{f} \) are external forces acting on System 1 along the line of motion. All other forces either cancel or act on the outside world. System 2 is chosen for <a href="#example2">Example 2</a> so that \( \vb{F}_{\text{prof}} \) will be an external force and enter into Newton&#x2019;s second law. Note that the free-body diagrams, which allow us to apply Newton&#x2019;s second law, vary with the system chosen. ")
-{ #Figure2}
+{: #Figure2}
 
 **Strategy**
 
@@ -324,7 +324,7 @@ For this situation, draw a free-body diagram and write the net force equation.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 Newton’s third law of motion
 : whenever one body exerts a force on a second body, the first body experiences

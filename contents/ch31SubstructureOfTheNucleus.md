@@ -18,7 +18,7 @@ Pursuing natural questions like these has led to far more fundamental
 discoveries than you might imagine.
 
 ![The first image shows a lump of coal. The second image shows a pair of hands holding a metal uranium disk. Third image shows a cylindrical glass tube containing slivery-brown cesium.](../resources/Figure_31_03_01a.jpg "Why is most of the carbon in this coal stable (a), while the uranium in the disk (b) slowly decays over billions of years? Why is cesium in this ampule (c) even less stable than the uranium, decaying in far less than 1/1 000 000 the time? What is the reason uranium and cesium undergo different types of decay (\( \alpha \) and \( \beta \), respectively)? (credits: (a) Bresson Thomas, Wikimedia Commons; (b) U.S. Department of Energy; (c) Tomihahndorf, Wikimedia Commons)")
-{ #Figure1}
+{: #Figure1}
 
 We have already identified **protons** as the particles that carry positive
 charge in the nuclei. However, there are actually *two* types of particles in
@@ -34,7 +34,7 @@ more massive than an electron. In fact, $${m}_{p}=1836{m}_{e} $$
 
 [[Table 1]](#Table1) also gives masses in terms of mass units that are more
 convenient than kilograms on the atomic and nuclear scale. The first of these is
-the *unified **atomic mass**{ class="term"} unit* (u), defined as
+the *unified **atomic mass**{: class="term"} unit* (u), defined as
 
 <div class="equation" >
  $$1 \text{u}= 1.6605 \times 10^{-27}  \text{kg} \text{.}  $$
@@ -185,7 +185,7 @@ in it. This is what would happen if you pack nucleons so closely that there is
 no empty space between them.
 
 ![This figure shows group of small green and blue spherical objects placed very close to each other forming a bigger sphere representing the nucleus. Blue spheres are labeled as protons and green spheres are labeled as neutrons.](../resources/Figure_31_03_02a.jpg "A model of the nucleus.")
-{ #Figure2}
+{: #Figure2}
 
 Nucleons are held together by nuclear forces and resist both being pulled apart
 and pushed inside one another. The volume of the nucleus is the sum of the
@@ -292,7 +292,7 @@ stability, abundance, and types of decay, analogous to but more complex than the
 systematics in the periodic table of the elements.
 
 ![A chart of nuclides is shown with x axis labeled as number of protons or atomic number with range zero to one hundred ten and y axis labeled as number of neutrons with range zero to one hundred sixty. A straight dashed line is shown for equal atomic number and number of nuclides. A number of points are plotted above the dashed line. The region up to atomic number eighty and neutron number one hundred thirty is shown as stable nuclei and above this region is unstable nuclei.](../resources/Figure_31_03_03a.jpg "Simplified chart of the nuclides, a graph of \( N \) versus \( Z \) for known nuclides. The patterns of stable and unstable nuclides reveal characteristics of the nuclear forces. The dashed line is for \( N=Z \) . Numbers along diagonals are mass numbers \( A \) .")
-{ #Figure3}
+{: #Figure3}
 
 In principle, a nucleus can have any combination of protons and neutrons,
 but [[Figure 3]](#Figure3) shows a definite pattern for those that are stable.
@@ -316,7 +316,7 @@ $$Z=118 $$ . There are theoretical predictions of an island of relative
 stability for nuclei with such high $$Z $$ s.
 
 ![Portrait of Maria Goeppert Mayer](../resources/Figure_31_03_04a.jpg "The German-born American physicist Maria Goeppert Mayer (1906&#x2013;1972) shared the 1963 Nobel Prize in physics with J. Jensen for the creation of the nuclear shell model. This successful nuclear model has nucleons filling shells analogous to electron shells in atoms. It was inspired by patterns observed in nuclear properties. (credit: Nobel Foundation via Wikimedia Commons)")
-{ #Figure4}
+{: #Figure4}
 
 ### Section Summary
 
@@ -521,7 +521,7 @@ s even when relativity is taken into consideration. (See also [[Exercise 11]](#E
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 atomic mass
 : the total mass of the protons, neutrons, and electrons in a single atom

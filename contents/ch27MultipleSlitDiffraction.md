@@ -30,13 +30,13 @@ producing constructive interference that gives the feathers colors not solely
 due to their pigmentation. This is called iridescence.
 
 ![On the left side of the figure is a diffraction grating represented by a vertical bar with five horizontal slits cut through it. A single horizontal arrow, representing white light, points at the center slit from the left side. On the right side, five arrows spread symmetrically above and below the horizontal centerline. The arrow that is on the horizontal centerline points at a white block labeled central white. The first arrows above and below the centerline point to rainbow-colored blocks labeled first-order rainbow. The second arrows above and below the centerline point to slightly faded rainbow-colored blocks that are labeled second-order rainbow.](../resources/Figure_27_04_01a.jpg "A diffraction grating is a large number of evenly spaced parallel slits. (a) Light passing through is diffracted in a pattern similar to a double slit, with bright regions at various angles. (b) The pattern obtained for white light incident on a grating. The central maximum is white, and the higher-order maxima disperse white light into a rainbow of colors.")
-{ #Figure1}
+{: #Figure1}
 
 ![Colorful photos of an Australian opal and a butterfly. The opal is full of fiery reds and yellows and deep blues and purples. The butterfly has its yellow wings spread and you can see its characteristic red, blue, and black spots and fringing.](../resources/Figure_27_04_02a.jpg "(a) This Australian opal and (b) the butterfly wings have rows of reflectors that act like reflection gratings, reflecting different colors at different angles. (credits: (a) Opals-On-Black.com, via Flickr (b) whologwhy, Flickr)")
-{ #Figure2}
+{: #Figure2}
 
 ![The upper graph, which is labeled double slit, shows a smooth curve similar to a sine curve that is shifted up so that its minimum value is zero. Three peaks are shown: the middle peak is labeled m equals zero and the left and right peaks are labeled m equals one. The lower graph, which is labeled grating, is aligned under the upper graph and also shows three peaks, with each peak aligned directly underneath the peaks in the upper graph. These three peaks are also labeled m equals zero or one, as in the upper graph. However, the peaks in the lower graph are much narrower and there are lots of small peaks appearing between large peaks.](../resources/Figure_27_04_03a.jpg "Idealized graphs of the intensity of light passing through a double slit (a) and a diffraction grating (b) for monochromatic light. Maxima can be produced at the same angles, but those for the diffraction grating are narrower and hence sharper. The maxima become narrower and the regions between darker as the number of slits is increased.")
-{ #Figure3}
+{: #Figure3}
 
 The analysis of a diffraction grating is very similar to that for a double
 slit (see [[Figure 4]](#Figure4)). As we know from our discussion of double
@@ -64,7 +64,7 @@ slits are usually closer in diffraction gratings than in double slits, producing
 fewer maxima at larger angles.
 
 ![The figure shows a schematic of a diffraction grating, which is represented by a vertical black line into which are cut five small gaps. The gaps are evenly spaced a distance d apart. From the left five rays arrive, with one ray arriving at each gap. To the right of the line with the gaps the rays all point down and to the right at an angle theta below the horizontal. At each gap a triangle is formed where the hypotenuse is length d, one angle is theta, and the side opposite theta is labeled delta l. At the top is written delta l equals d sine theta.](../resources/Figure_27_04_04a.jpg "Diffraction grating showing light rays from each slit traveling in the same direction. Each ray travels a different distance to reach a common point on a screen (not shown). Each ray travels a distance d\( d\sin \theta \) different from that of its neighbor.")
-{ #Figure4}
+{: #Figure4}
 
 Where are diffraction gratings used? Diffraction gratings are key components of
 monochromators used, for example, in optical imaging of particular wavelengths
@@ -93,7 +93,7 @@ Calculating Typical Diffraction Grating Effects
 Diffraction gratings with 10 000 lines per centimeter are readily available. Suppose you have one, and you send a beam of white light through it to a screen 2.00 m away. (a) Find the angles for the first-order diffraction of the shortest and longest wavelengths of visible light (380 and 760 nm). (b) What is the distance between the ends of the rainbow of visible light produced on the screen for first-order interference? (See [[Figure 5]](#Figure5).)
 
 ![The image shows a vertical black bar at the left labeled grating. From the midpoint of this bar four lines fan out to the right, with two lines angled above the horizontal centerline and two lines angled symmetrically below the horizontal centerline. These four lines hit a vertical black line to the right that is labeled screen. On the screen between the two upper lines is a rainbow region, with violet nearer the centerline and red farther from the centerline. The same is true for the two lower lines, except that they are below the centerline instead of above. The distance from the centerline to the upper violet zone is labeled y sub v equals question mark and the distance from the centerline to the upper red zone is labeled y sub r equals question mark. The angle between the centerline and the line leading to the upper violet zone is labeled theta V equals question mark and the angle between the line leading to the upper red zone is labeled theta R equals question mark. The distance between the grating and the screen is labeled x equals two point zero zero meters.](../resources/Figure_27_04_05a.jpg "The diffraction grating considered in this example produces a rainbow of colors on a screen a distance \( x=2.00m \) from the grating. The distances along the screen are measured perpendicular to the \( x \) -direction. In other words, the rainbow pattern extends out of the page.")
-{ #Figure5}
+{: #Figure5}
 
 **Strategy**
 
@@ -414,7 +414,7 @@ The analysis shown in the figure below also applies to diffraction gratings with
  What is the distance between fringes produced by a diffraction grating having 125 lines per centimeter for 600-nm light, if the screen is 1.50 m away?
 
 ![The figure shows a schematic of a double slit experiment. A double slit is at the left and a screen is at the right. The slits are separated by a distance d. From the midpoint between the slits a horizontal line labeled x extends to the screen. From the same point, a line angled upward at an angle theta above the horizontal also extends to the screen. The distance between where the horizontal line hits the screen and where the angled line hits the screen is marked y, and the distance between adjacent fringes is given by delta y, which equals x times lambda over d](../resources/Figure_27_04_06a.jpg "The distance between adjacent fringes is \( \Delta y=x \lambda/d \), assuming the slit separation \( d \) is large compared with \( \lambda \).")
-{ #Figure6}
+{: #Figure6}
 
 </div>
 <div class="solution" markdown="1">
@@ -474,7 +474,7 @@ discern between wavelengths of interest.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 constructive interference for a diffraction grating
 : occurs when the condition $$d \sin \theta =m \lambda \left( \text{ for } m=0

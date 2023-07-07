@@ -4,7 +4,7 @@ layout: page
 ---
 
 ![A field with four wind turbines and the Sun setting in the background.](../resources/Figure_07_00_01a_D.jpg "How many forms of energy can you identify in this photograph of a wind farm in Iowa? (credit: J&#xFC;rgen from Sandesneben, Germany, Wikimedia Commons)")
-{ #Figure1}
+{: #Figure1}
 
 *Energy* plays an essential role both in everyday events and in scientific
 phenomena. You can no doubt name many forms of energy, from that provided by our

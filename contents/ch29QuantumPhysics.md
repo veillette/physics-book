@@ -4,7 +4,7 @@ layout: page
 ---    
 
 ![A magnified image of a black fly obtained from an electron microscope showing its antennae and tentacles.](../resources/Figure_29_00_01a.jpg "A black fly imaged by an electron microscope is as monstrous as any science-fiction creature. (credit: U.S. Department of Agriculture via Wikimedia Commons)")
-{ #Figure1}
+{: #Figure1}
 
 Quantum mechanics is the branch of physics needed to deal with submicroscopic
 objects. Because these objects are smaller than we can observe directly with our
@@ -27,7 +27,7 @@ charges in the current through a lightbulb, because the charges are so small and
 so numerous in the macroscopic situations we sense directly.
 
 ![A model of an atom is shown. Atom is shown as a clump of small spherical balls at the center, representing the nucleus, surrounded by spherical and dumbbell-shaped electron clouds. A magnified view of the nucleus is shown as a bunch of small spherical balls.](../resources/Figure_29_00_02a.jpg "Atoms and their substructure are familiar examples of objects that require quantum mechanics to be fully explained. Certain of their characteristics, such as the discrete electron shells, are classical physics explanations. In quantum mechanics we conceptualize discrete &#x201C;electron clouds&#x201D; around the nucleus. ")
-{ #Figure2}
+{: #Figure2}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -56,7 +56,7 @@ which quantum mechanics is crucial.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 quantized
 : the fact that certain physical entities exist only with particular discrete

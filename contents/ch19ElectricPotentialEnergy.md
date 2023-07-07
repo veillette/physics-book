@@ -19,7 +19,7 @@ by the electric field in this process, so that we may develop a definition of
 electric potential energy.
 
 ![A charge plus q moves from a positive to a negative sheet of charge. The change in the electric potential energy equals the change in kinetic energy. This is similar to the change from gravitational potential energy to kinetic energy when an object of mass m rolls downhill.](../resources/Figure_19_01_01a.jpg "A charge accelerated by an electric field is analogous to a mass going down a hill. In both cases potential energy is converted to another form. Work is done by a force, but since this force is conservative, we can write \( W = - \Delta PE \).")
-{ #Figure1}
+{: #Figure1}
 
 The electrostatic or Coulomb force is conservative, which means that the work
 done on $$q $$ is independent of the path taken. This is exactly analogous to
@@ -113,7 +113,7 @@ The potential difference between points A and B,  $${V}_{B}-{V}_{A} $$ ,
 </div>
 </div>
 
-The familiar term **voltage**{ class="term"} is the common name for potential
+The familiar term **voltage**{: class="term"} is the common name for potential
 difference. Keep in mind that whenever a voltage is quoted, it is understood to
 be the potential difference between two points. For example, every battery has
 two terminals, and its voltage is the potential difference between them. More
@@ -200,7 +200,7 @@ meaning the potential energy of the battery has decreased when $$q $$ has moved
 from A to B.
 
 ![A headlight is connected to a 12 V battery. Negative charges move from the negative terminal of the battery to the positive terminal, resulting in a current flow and making the headlight glow. However, the positive terminal is at a greater potential than the negative terminal.](../resources/Figure_19_01_02a.jpg "A battery moves negative charge from its negative terminal through a headlight to its positive terminal. Appropriate combinations of chemicals in the battery separate charges so that the negative terminal has an excess of negative charge, which is repelled by it and attracted to the excess positive charge on the other terminal. In terms of potential, the positive terminal is at a higher voltage than the negative. Inside the battery, both positive and negative charges move.")
-{ #Figure2}
+{: #Figure2}
 
 <div id="Example2" class="example" markdown="1">
 <div class="title">
@@ -266,7 +266,7 @@ a positive charge.) Since energy is related to voltage by $$\Delta
 \text{PE}=q\Delta V, $$ we can think of the joule as a coulomb-volt.
 
 ![In an electron gun the electrons move from the negatively charged plate to the positively charged plate. Their kinetic energy will be equal to the potential energy.](../resources/Figure_19_01_03a.jpg "A typical electron gun accelerates electrons using a potential difference between two metal plates. The energy of the electron in electron volts is numerically the same as the voltage between the plates. For example, a 5000 V potential difference produces 5000 eV electrons.")
-{ #Figure3}
+{: #Figure3}
 
 On the submicroscopic scale, it is more convenient to define an energy unit
 called the **electron volt** (eV), which is the energy given to a fundamental
@@ -621,7 +621,7 @@ ratings in ampere-hours as energy in joules.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 electric potential
 : potential energy per unit charge

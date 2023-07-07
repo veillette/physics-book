@@ -12,7 +12,7 @@ layout: page
 
 Power is associated by many people with electricity. Knowing that power is the
 rate of energy use or energy conversion, what is the expression for **electric
-power**{ class="term"}? Power transmission lines might come to mind. We also
+power**{: class="term"}? Power transmission lines might come to mind. We also
 think of lightbulbs in terms of their power ratings in watts. Let us compare a
 25-W bulb with a 60-W bulb. (See [[Figure 1]](#Figure1)(a).) Since both operate
 on the same voltage, the 60-W bulb must draw more current to have a greater
@@ -23,7 +23,7 @@ glows very brightly and then burns out. Precisely how are voltage, current, and
 resistance related to electric power?
 
 ![Part a has two images. The image on the left is a photograph of a twenty five watt incandescent bulb emitting a dim, yellowish white color. The image on the right is a photograph of a sixty watt incandescent bulb emitting a brighter white light. Part b is a single photograph of a compact fluorescent lightbulb glowing in bright pure white color.](../resources/Figure_20_04_01a.jpg "(a) Which of these lightbulbs, the 25-W bulb (upper left) or the 60-W bulb (upper right), has the higher resistance? Which draws more current? Which uses the most energy? Can you tell from the color that the 25-W filament is cooler? Is the brighter bulb a different color and if so why? (credits: Dickbauch, Wikimedia Commons; Greg Westfall, Flickr) (b) This compact fluorescent light (CFL) puts out the same intensity of light as the 60-W bulb, but at 1/4 to 1/10 the input power. (credit: dbgg1979, Flickr)")
-{ #Figure1}
+{: #Figure1}
 
 Electric energy depends on both the voltage involved and the charge moved. This
 is expressed most simply as $$\text{PE}=qV $$ , where $$q $$ is the charge moved
@@ -309,7 +309,7 @@ A charge of 4.00 C of charge passes through a pocket calculator’s solar cells 
 </div>
 
 ![Photograph of a small calculator having a strip of solar cells just above the keys.](../resources/Figure_20_04_02a.jpg "The strip of solar cells just above the keys of this calculator convert light to electricity to supply its energy needs. (credit: Evan-Amos, Wikimedia Commons)")
-{ #Figure2}
+{: #Figure2}
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
@@ -382,7 +382,7 @@ An electric water heater consumes 5.00 kW for 2.00 h per day. What is the cost o
  See [[Figure 3]](#Figure3).
 
 ![Photograph of an electric hot water heater connected to the electric and water supply](../resources/Figure_20_04_03a.jpg "On-demand electric hot water heater. Heat is supplied to water only when needed. (credit: aviddavid, Flickr)")
-{ #Figure3}
+{: #Figure3}
 
 </div>
 <div class="solution" markdown="1">
@@ -477,7 +477,7 @@ minute? (b) How much water must you put into the vaporizer for 8.00 h of
 overnight operation? (See [[Figure 4]](#Figure4).)
 
 ![The picture shows a cold vaporizer filled with water. Vapor is shown to emerge from the vaporizer. An enlarged view of the circuit inside the vaporizer is also shown. The circuit shows an A C power source connected to the leads, which are immersed in the water of the vaporizer. The resistance of the leads is shown as R.](../resources/Figure_20_04_04a.jpg "This cold vaporizer passes current directly through water, vaporizing it directly with relatively little temperature increase.")
-{ #Figure4}
+{: #Figure4}
 
 </div>
 </div>
@@ -540,7 +540,7 @@ altitude. How many cubic meters per second are needed, assuming 85.0%
 efficiency?
 
 ![](../resources/Figure_20_04_05a.jpg "Hydroelectric generators at the Hoover dam. (credit: Jon Sullivan)")
-{ #Figure5}
+{: #Figure5}
 
 </div>
 </div>
@@ -559,7 +559,7 @@ $$ 5.00 \times 10^{2} \text{N} $$ force to overcome air resistance and friction?
 See [[Figure 6]](#Figure6).
 
 ![](../resources/Figure_20_04_06a.jpg "This REVAi, an electric car, gets recharged on a street in London. (credit: Frank Hebbert)")
-{ #Figure6}
+{: #Figure6}
 
 </div>
 <div class="solution" markdown="1">
@@ -683,7 +683,7 @@ reached in the immersion unit.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 electric power
 : the rate at which electrical energy is supplied by a source or dissipated by a

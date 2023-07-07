@@ -17,7 +17,7 @@ seen on a roof top or a roadside sign. These make use of the photoelectric
 effect to convert light into electricity for running different devices.
 
 ![An image of a vacuum tube is shown.](../resources/Figure_29_02_01a.jpg "The photoelectric effect can be observed by allowing light to fall on the metal plate in this evacuated tube. Electrons ejected by the light are collected on the collector wire and measured as a current. A retarding voltage between the collector wire and plate can then be adjusted so as to determine the energy of the ejected electrons. For example, if it is sufficiently negative, no electrons will reach the wire. (credit: P.P. Urone)")
-{ #Figure1}
+{: #Figure1}
 
 This effect has been known for more than a century and can be studied using a
 device such as that shown in [[Figure 1]](#Figure1). This figure shows an
@@ -67,7 +67,7 @@ now, we will use the photon concept to explain the photoelectric effect, much as
 Einstein did.
 
 ![Light rays coming out of a flashlight. The photons are depicted as small ellipses enclosing a wave each and moving in the direction of the rays. Energies of photons are labeled as E and E prime, where E is equal to h f and E prime is equal to h f prime.](../resources/Figure_29_02_02a.jpg "An EM wave of frequency \( f \) is composed of photons, or individual quanta of EM radiation. The energy of each photon is \( E=hf \), where \( h \) is Planck&#x2019;s constant and \( f \) is the frequency of the EM radiation. Higher intensity means more photons per unit area. The flashlight emits large numbers of photons of many different frequencies, hence others have energy \( E{^\prime}=hf{^\prime} \), and so on. ")
-{ #Figure2}
+{: #Figure2}
 
 The photoelectric effect has the properties discussed below. All these
 properties are consistent with the idea that individual photons of EM radiation
@@ -127,7 +127,7 @@ $$.
    material.
 
 ![A graph of frequency verses kinetic energy of an electron is shown, where frequency is along x axis and kinetic energy is along the y axis. The plot is a straight line having an inclination with x axis and meets the x axis at f sub zero, known as threshold frequency, given by B E divided by h. The threshold kinetic energy is written as equal to h f minus B E.](../resources/Figure_29_02_03a.jpg "Photoelectric effect. A graph of the kinetic energy of an ejected electron, \( \text{KE}_\text{e} \), versus the frequency of EM radiation impinging on a certain material. There is a threshold frequency below which no electrons are ejected, because the individual photon interacting with an individual electron has insufficient energy to break it away. Above the threshold energy, \( \text{KE}_\text{e} \) increases linearly with \( f \) , consistent with \( \text{KE}_\text{e}=hf -\text{BE} \). The slope of this line is \( h \) &#x2014;the data can be used to determine Planck&#x2019;s constant experimentally. Einstein gave the first successful explanation of such data by proposing the idea of photons&#x2014;quanta of EM radiation.  ")
-{ #Figure3}
+{: #Figure3}
 
 Einstein’s idea that EM radiation is quantized was crucial to the beginnings of
 quantum mechanics. It is a far more general concept than its explanation of the
@@ -220,10 +220,10 @@ completely insensitive to red light, for example.
 PhET Explorations: Photoelectric Effect
 </div>
 See how light knocks electrons off a metal target, and recreate the experiment that spawned the field of quantum mechanics.
-{ class="newline"}
+{: class="newline"}
 
 
-{ class="newline"}
+{: class="newline"}
 
 <div class="media" id="PhET_module" data-alt="">
 <iframe width="760" height="671.4" src="https://veillette.github.io/simulations/photoelectric-effect/#sim-photoelectric-effect"></iframe>
@@ -445,7 +445,7 @@ this result? (c) Which assumptions are unreasonable or inconsistent?
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 photoelectric effect
 : the phenomenon whereby some materials eject electrons when light is shined on

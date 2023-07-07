@@ -19,7 +19,7 @@ glow-in-the-dark pajamas and lasers have much in common, they are in fact
 different applications of similar atomic de-excitations.
 
 ![The image shows several red and blue colored laser beams rays that look similar to searchlights.](../resources/Figure_30_05_00.jpg "Light from a laser is based on a particular type of atomic de-excitation. (credit: Jeff Keyzer)")
-{ #Figure1}
+{: #Figure1}
 
 The color of a material is due to the ability of its atoms to absorb certain
 wavelengths while reflecting or reemitting others. A simple red material, for
@@ -42,13 +42,13 @@ in black light, the particular colors being a function of the rock’s mineral
 composition. Black lights are also used to make certain posters glow.
 
 ![The image shows a scorpion hiding in the cracks of rocks. The skin of the scorpion glows blue when illuminated by an ultraviolet light in contrast to the rocks, which glow in violet color.](../resources/Figure_30_05_01.jpg "Objects glow in the visible spectrum when illuminated by an ultraviolet (black) light. Emissions are characteristic of the mineral involved, since they are related to its energy levels. In the case of scorpions, proteins near the surface of their skin give off the characteristic blue glow. This is a colorful example of fluorescence in which excitation is induced by UV radiation while de-excitation occurs in the form of visible light. (credit: Ken Bosma, Flickr)")
-{ #Figure2}
+{: #Figure2}
 
 In the fluorescence process, an atom is excited to a level several steps above
 its ground state by the absorption of a relatively high-energy UV photon. This
-is called **atomic excitation**{ class="term"}. Once it is excited, the atom
+is called **atomic excitation**{: class="term"}. Once it is excited, the atom
 can de-excite in several ways, one of which is to re-emit a photon of the same
-energy as excited it, a single step back to the ground state. This is called **atomic de-excitation**{ class="term"}. All other paths of de-excitation involve
+energy as excited it, a single step back to the ground state. This is called **atomic de-excitation**{: class="term"}. All other paths of de-excitation involve
 smaller steps, in which lower-energy (longer wavelength) photons are emitted.
 Some of these may be in the visible range, such as for the scorpion
 in [[Figure 2]](#Figure2). **Fluorescence** is defined to be any process in
@@ -95,10 +95,10 @@ Below that, [[Figure 4]](#Figure4) reveals the diffusion of a fluorescent dye in
 water by observing it under UV light.
 
 ![The image shows fluorescent dye sample in red powder form.](../resources/Figure_30_05_02.jpg "Fluorescein, shown here in powder form, is used to dye laboratory samples. (credit: Benjah-bmm27, Wikimedia Commons)")
-{ #Figure3}
+{: #Figure3}
 
 ![A beaker of water in which fluorescent powder is added. Near the beaker an ultraviolet light source is placed. In this ultraviolet light, the fluorescent powder in the water glows like green smoke.](../resources/Figure_30_05_03.jpg "Here, fluorescent powder is added to a beaker of water. The mixture gives off a bright glow under ultraviolet light. (credit: Bricksnite, Wikimedia Commons)")
-{ #Figure4}
+{: #Figure4}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -109,7 +109,7 @@ Recently, a new class of fluorescent materials has appeared—“nano-crystals.�
 </div>
 
 ![A colorful microscope image of chicken cells is shown. The nuclei of cells glow blue while the neurofilaments that connect these cells glow green under ultraviolet light.](../resources/Figure_30_05_04.jpg "Microscopic image of chicken cells using nano-crystals of a fluorescent dye. Cell nuclei exhibit blue fluorescence while neurofilaments exhibit green. (credit: Weerapong Prasongchean, Wikimedia Commons)")
-{ #Figure5}
+{: #Figure5}
 
 Once excited, an atom or molecule will usually spontaneously de-excite
 quickly. (The electrons raised to higher levels are attracted to lower ones by
@@ -132,7 +132,7 @@ thermoluminescence can be used to date antiquities. The less light emitted, the
 older the ceramic. (See [[Figure 6]](#Figure6).)
 
 ![The image shows a statue of a Chinese ceramic lion figure.](../resources/Figure_30_05_05.jpg "Atoms frozen in an excited state when this Chinese ceramic figure was fired can be stimulated to de-excite and emit EM radiation by heating a sample of the ceramic&#x2014;a process called thermoluminescence. Since the states slowly de-excite over centuries, the amount of thermoluminescence decreases with age, making it possible to use this effect to date and authenticate antiquities. This figure dates from the 11th century. (credit: Vassil, Wikimedia Commons)")
-{ #Figure6}
+{: #Figure6}
 
 ### Lasers
 
@@ -158,7 +158,7 @@ above. It is possible to get a majority of the atoms into the metastable state,
 a condition called a **population inversion**.
 
 ![Several layers of parallel lines showing different levels of energy of an atom. The lowest level is ground state, one level up is first metastable state, next level is second metastable state, and so on. In part a, an atom is in the ground state. In part b, atoms move to different states depending on the energy input in the form of photons. An atom with minimum energy input moves to the first metastable level. One with a greater energy input moves to the second level. One with even greater input moves to the fourth level. In part c, atoms originally at levels above the first metastable state give off energy in the form of photons as they drop back down to the first metastable state. The greater the drop, the more energy is given off.](../resources/Figure_30_05_06.jpg "(a) Energy-level diagram for an atom showing the first few states, one of which is metastable. (b) Massive energy input excites atoms to a variety of states. (c) Most states decay quickly, leaving electrons only in the metastable and ground state. If a majority of electrons are in the metastable state, a population inversion has been achieved.")
-{ #Figure7}
+{: #Figure7}
 
 Once a population inversion is achieved, a very interesting thing can happen, as
 shown in [[Figure 8]](#Figure8). An electron spontaneously falls from the
@@ -182,7 +182,7 @@ probable. The laser acts as a temporary energy storage device that subsequently
 produces a massive energy output of single-wavelength, in-phase photons.
 
 ![Several layers of parallel lines showing different levels of energy of an atom. The lowest level is ground state, one level up is first metastable state, next level is second metastable state, and so on. There are five steps shown. In the first step, an atom drops from the first metastable to the ground state, emitting a photon. This drop is spontaneous. In the second step, the emitted photo stimulates another atom to drop from the first metastable to the ground state, emitting another photons. In the third step, an atom is stimulated to drop, emitting a third photon. The process continues with a fourth and fifth step.](../resources/Figure_30_05_07.jpg "One atom in the metastable state spontaneously decays to a lower level, producing a photon that goes on to stimulate another atom to de-excite. The second photon has exactly the same energy and wavelength as the first and is in phase with it. Both go on to stimulate the emission of other photons. A population inversion is necessary for there to be a net production rather than a net absorption of the photons.")
-{ #Figure8}
+{: #Figure8}
 
 The name **laser** is an acronym for light amplification by stimulated emission
 of radiation, the process just described. The process was proposed and developed
@@ -208,7 +208,7 @@ from a laser is a mere 1% of the light passing back and forth in a laser.
 As described earlier in the section on laser vision correction, Donna Strickland and Gérard Mourou, working at University of Rochester, developed a method to greatly increase the power of lasers, while also enabling them to be miniaturized. By passing the light over a specific type of grating, their method segments (or chirps) the delivery of the beam components in a matter that generates little heat at the source. Chirped pulse amplification is now used in some of the world’s most powerful lasers as well as those commonly used to make precise microcuts or burns in medical applications. Strickland and Mourou were awarded the Nobel Prize in 1918.
 
 ![There are three schematic figures showing the construction of a laser. The first figure shows two mirrors. One is a totally silvered mirror on left side and one partially silvered mirror on right side. Thus spontaneous emission begins with some photons escaping and others stimulating further emissions. The next figure shows an increase in stimulated emission by reflection of photons by mirrors. The final figure shows an increased number of stimulated photons escaping the partially silvered mirror on the right side.](../resources/Figure_30_05_08.jpg "Typical laser construction has a method of pumping energy into the lasing material to produce a population inversion. (a) Spontaneous emission begins with some photons escaping and others stimulating further emissions. (b) and (c) Mirrors are used to enhance the probability of stimulated emission by passing photons through the material several times.")
-{ #Figure9}
+{: #Figure9}
 
 Lasers are constructed from many types of lasing materials, including gases,
 liquids, solids, and semiconductors. But all lasers are based on the existence
@@ -238,7 +238,7 @@ to emerge as laser light. Diode lasers can usually run continually and produce
 outputs in the milliwatt range.
 
 ![On the left side of the figure, the ground state and first metastable state of helium atom are shown, and on the right side, the ground state and first metastable state of neon atom are shown. The difference between the two states of helium and neon atoms are estimated to be twenty point six one electron volts and twenty point six six electron volts, respectively. The collision transfer energy from helium to neon atoms is given as one point nine six electron volts.](../resources/Figure_30_05_09.jpg "Energy levels in helium and neon. In the common helium-neon laser, an electrical discharge pumps energy into the metastable states of both atoms. The gas mixture has about ten times more helium atoms than neon atoms. Excited helium atoms easily de-excite by transferring energy to neon in a collision. A population inversion in neon is achieved, allowing lasing by the neon to occur.")
-{ #Figure10}
+{: #Figure10}
 
 There are many medical applications of lasers. Lasers have the advantage that
 they can be focused to a small spot. They also have a well-defined wavelength.
@@ -269,7 +269,7 @@ retina, a green argon laser is generally used. This light is absorbed well by
 tissues containing blood, so coagulation or “welding” of the tear can be done.
 
 ![The image shows the retina of a human eye. Only a small spot on the retina is burned by a laser without affecting other areas of the retina.](../resources/Figure_30_05_10.jpg "A detached retina is burned by a laser designed to focus on a small spot on the retina, the resulting scar tissue holding it in place. The lens of the eye is used to focus the light, as is the device bringing the laser output to the eye.")
-{ #Figure11}
+{: #Figure11}
 
 In dentistry, the use of lasers is rising. Lasers are most commonly used for
 surgery on the soft tissue of the mouth. They can be used to remove ulcers, stop
@@ -287,7 +287,7 @@ density, enhancing the probability of fusion. The compression or implosion is
 caused by the momentum of the impinging laser photons.
 
 ![The image shows the inner part of a large shell-like structure where two persons are standing on a boom. The image also shows a sharp pencil shaped structure that serves to hold the fuel pellet at the focus point of all the lasers.](../resources/Figure_30_05_11.jpg "This system of lasers at Lawrence Livermore Laboratory is used to ignite nuclear fusion. A tremendous burst of energy is focused on a small fuel pellet, which is imploded to the high density and temperature needed to make the fusion reaction proceed. (credit: Lawrence Livermore National Laboratory, Lawrence Livermore National Security, LLC, and the Department of Energy)")
-{ #Figure12}
+{: #Figure12}
 
 Music CDs are now so common that vinyl records are quaint antiquities. CDs (and
 DVDs) store information digitally and have a much larger information-storage
@@ -299,7 +299,7 @@ solid-state infrared laser beam scatter from pits as the CD spins, revealing
 their digital pattern and the information encoded upon them.
 
 ![Several spiral tracks of a CD are shown on which a laser beam is incident. An enlarged view of part of the tracks on the CD surface are shown. The track consists of a sequence of short or long pits, with the space between pits being labeled as land. Finally, an enlarged view of a single pit is shown with depth labeled as t.](../resources/Figure_30_05_12.jpg "A CD has digital information stored in the form of laser-created pits on its surface. These in turn can be read by detecting the laser light scattered from the pit. Large information capacity is possible because of the precision of the laser. Shorter-wavelength lasers enable greater storage capacity.")
-{ #Figure13}
+{: #Figure13}
 
 Holograms, such as those in [[Figure 14]](#Figure14), are true three-dimensional
 images recorded on film by lasers. Holograms are used for amusement, decoration
@@ -310,7 +310,7 @@ true three-dimensional image, because objects change relative position in the
 image when viewed from different angles.
 
 ![The image shows a rainbow-colored hologram of a bird on a credit card.](../resources/Figure_30_05_13.jpg "Credit cards commonly have holograms for logos, making them difficult to reproduce (credit: Dominic Alves, Flickr)")
-{ #Figure14}
+{: #Figure14}
 
 The name **hologram** means “entire picture” (from the Greek *holo*, as in
 holistic), because the image is three-dimensional. **Holography** is the process
@@ -330,7 +330,7 @@ of light as contrasted to normal photography, which uses geometric optics and so
 requires lenses.
 
 ![The schematic representation shows that coherent light from a laser is incident on an object which is a dinosaur and also on a tilted mirror, which reflects the light at an angle. Then, the reflected light from the mirror and the reflected object wave fall on a photo plate simultaneously.](../resources/Figure_30_05_14.jpg "Production of a hologram. Single-wavelength coherent light from a laser produces a well-defined interference pattern on a piece of film. The laser beam is split by a partially silvered mirror, with part of the light illuminating the object and the remainder shining directly on the film.")
-{ #Figure15}
+{: #Figure15}
 
 Light falling on a hologram can form a three-dimensional image. The process is
 complicated in detail, but the basics can be understood as shown
@@ -346,7 +346,7 @@ different perspectives, just as looking directly at the object would. The image
 thus looks like the object and is three-dimensional like the object.
 
 ![The figure shows a reference light wave passing through a hologram. An external eye sees the virtual image of a dinosaur created from the reflection of the real image of the dinosaur by the hologram.](../resources/Figure_30_05_15.jpg "A transmission hologram is one that produces real and virtual images when a laser of the same type as that which exposed the hologram is passed through it. Diffraction from various parts of the film produces the same interference pattern as the object that was used to expose it.")
-{ #Figure16}
+{: #Figure16}
 
 The hologram illustrated in [[Figure 16]](#Figure16) is a transmission hologram.
 Holograms that are viewed with reflected light, such as the white light
@@ -461,7 +461,7 @@ A helium-neon laser is pumped by electric discharge. What wavelength electromagn
 Ruby lasers have chromium atoms doped in an aluminum oxide crystal. The energy level diagram for chromium in a ruby is shown in [[Figure 17]](#Figure17). What wavelength is emitted by a ruby laser?
 
 ![The figure shows energy levels of chromium atoms in an aluminum oxide crystal. Ground state is at zero point zero electron volts, first metastable state is at one point seventy nine electron volts, second state is at two point three electron volts, and the third state is at three point zero electron volts.](../resources/Figure_30_05_16.jpg "Chromium atoms in an aluminum oxide crystal have these energy levels, one of which is metastable. This is the basis of a ruby laser. Visible light can pump the atom into an excited state above the metastable state to achieve a population inversion.")
-{ #Figure17}
+{: #Figure17}
 
 </div>
 <div class="solution" markdown="1">
@@ -483,7 +483,7 @@ Some of the most powerful lasers are based on the energy levels of neodymium in 
  radiation.
 
 ![The figure shows different energy levels of neodymium atoms in glass. The ground state is at zero electron volts, first state is at zero point five zero electron volts, the metastable second state is at one point sixty seven electron volts, and the group state levels above metastable second are at two point one electron volts. The photons release one point seventeen electron volts at wavelength of one point zero six micro meters while coming from the metastable second state to first state.](../resources/Figure_30_05_18.jpg "Neodymium atoms in glass have these energy levels, one of which is metastable. The group of levels above the metastable state is convenient for achieving a population inversion, since photons of many different energies can be absorbed by atoms in the ground state.")
-{ #Figure18}
+{: #Figure18}
 
 </div>
 <div class="solution" markdown="1">
@@ -496,7 +496,7 @@ $$
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 metastable
 : a state whose lifetime is an order of magnitude longer than the most

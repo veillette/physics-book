@@ -9,7 +9,7 @@ layout: page
 </div>
 
 ![Action photo from a college football game.](../resources/Figure_28_05_01a.jpg "Momentum is an important concept for these football players from the University of California at Berkeley and the University of California at Davis. Players with more mass often have a larger impact because their momentum is larger. For objects moving at relativistic speeds, the effect is even greater. (credit: John Martinez Pavliga)")
-{ #Figure1}
+{: #Figure1}
 
 
 In classical physics, momentum is a simple product of mass and velocity.
@@ -44,7 +44,7 @@ Relativistic Momentum
  $$p=\text{γmu}, $$
 </div>
 where  $$m $$
- is the **rest mass**{ class="term"} of the object,  $$u $$
+ is the **rest mass**{: class="term"} of the object,  $$u $$
  is its velocity relative to an observer, and the relativistic factor
 
 <div class="equation" >
@@ -70,7 +70,7 @@ mass cannot reach the speed of light. If it did, its momentum would become
 infinite, an unreasonable value.
 
 ![ In this figure a graph is shown on a coordinate system of axes. The x-axis is labelled as speed u meter per second. On x-axis velocity of the object is shown in terms of the speed of light starting from zero at origin to one point zero c where c is the speed of light. The y-axis is labelled as momentum p rel kilogram meter per second. On y-axis relativistic momentum is shown in terms of kilogram meter per starting from zero at origin to four point zero. The graph in the given figure is concave up and moving upward along the vertical line at x is equal to one point zero c. This graph shows that relativistic momentum approaches infinity as the velocity of an object approaches the speed of light.](../resources/Figure_28_05_02a.jpg "Relativistic momentum approaches infinity as the velocity of an object approaches the speed of light.")
-{ #Figure2}
+{: #Figure2}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -230,7 +230,7 @@ Find the velocity of a proton that has a momentum of  $$ 4.48\times 10^{-19} \te
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 relativistic momentum
 :  $$p $$ , the momentum of an object moving at relativistic velocity;

@@ -51,7 +51,7 @@ the system.
 </div>
 
 ![The system of interest contains a smaller mass m sub1 and a larger mass m sub2 moving on a frictionless surface. M sub 2 moves with velocity V sub 2 and momentum p sub 2 and m sub 1 moves behind m sub 2, with velocity V sub 1 and momentum p sub 1 toward the right direction. P 1 plus P 2 equals p total. The net force is zero. After collision m sub 1 moves toward the left with velocity V sub 1 while m sub 2 moves toward the right with velocity V sub 2 on the same frictionless surface. The momentum of m sub 1 becomes p 1 prime and m 2 becomes p 2 prime now. P 1 prime plus p 2 prime equals p total.](../resources/Figure_08_04_01a.jpg "An elastic one-dimensional two-object collision. Momentum and internal kinetic energy are conserved.")
-{ #Figure1}
+{: #Figure1}
 
 Now, to solve problems involving one-dimensional elastic collisions between two
 objects we can use the equations for conservation of momentum and conservation
@@ -244,7 +244,7 @@ A 70.0-kg ice hockey goalie, originally at rest, catches a 0.150-kg hockey puck 
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 elastic collision
 : a collision that also conserves internal kinetic energy

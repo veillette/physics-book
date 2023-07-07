@@ -125,7 +125,7 @@ What is the relationship between weight and mass? Which is an intrinsic, unchang
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 inertia
 : the tendency of an object to remain at rest or remain in motion

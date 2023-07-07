@@ -74,7 +74,7 @@ needed for unification of forces.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 Superstring theory
 : a theory to unify gravity with the other three forces in which the fundamental

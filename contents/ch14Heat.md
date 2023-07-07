@@ -42,7 +42,7 @@ and sometimes called “big calorie”) are actually kilocalories ( $$1
 from package labeling.
 
 ![In figure a there is a soft drink can and an ice cube placed on a surface at a distance from each other. The temperatures of the can and the ice cube are T one and T two, respectively, where T one is not equal to T two. In figure b, the soft drink can and the ice cube are placed in contact on the surface. The temperature of both is T prime. ](../resources/Figure_14_01_01a.jpg "In figure (a) the soft drink and the ice have different temperatures, \(T_1\) and \(T_2\), and are not in thermal equilibrium. In figure (b), when the soft drink and ice are allowed to interact, energy is transferred until they reach the same temperature \(T^\prime\);, achieving equilibrium. Heat transfer occurs due to the difference in temperatures. In fact, since the soft drink and ice are both in contact with the surrounding air and bench, the equilibrium temperature will be the same for both.")
-{ #Figure1}
+{: #Figure1}
 
 ### Mechanical Equivalent of Heat
 
@@ -61,7 +61,7 @@ We consider this equation as the conversion between two different units of
 energy.
 
 ![In the figure, there is a can of known volume full of water and fitted with a thermometer at the top. On both sides of the can two blocks of weight W each hang from cords. The cords pass over two pulleys and wind around a cylindrical roller. There is a handle attached with the roller to rotate it manually. Submerged in the water are some paddles attached to a vertical rod attached at the bottom of the roller. When the lever is rotated, the paddles move inside the water.](../resources/Figure_14_01_02a.jpg "Schematic depiction of Joule&#x2019;s experiment that established the equivalence of heat and work.")
-{ #Figure2}
+{: #Figure2}
 
 The figure above shows one of Joule’s most famous experimental setups for
 demonstrating the mechanical equivalent of heat. It demonstrated that work and
@@ -134,7 +134,7 @@ When heat transfers into a system, is the energy stored as heat? Explain briefly
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 heat
 : the spontaneous transfer of energy due to a temperature difference

@@ -80,7 +80,7 @@ translational counterparts):
 | $$\theta=\omega_0 t + \frac{1}{2} \alpha t^2 $$ | $$ x = v_0 t + \frac{1}{2} a t^2 $$ | constant $$\alpha$$, constant $$a$$ |
 | $$\omega^2= \omega_0^2 + 2 \alpha \theta $$ | $$ v^2 =v_0^2 + 2 a x $$ | constant $$\alpha$$, constant $$a$$ |
 
-{ #Table1}
+{: #Table1}
 
 In these equations, the subscript 0 denotes initial values
 ($$ \theta_{0} $$, $$ x_{0} $$, and $$ t_{0} $$ are initial values), and the
@@ -208,7 +208,7 @@ fish bites.
 </div>
 
 ![The figure shows a fishing reel, with radius equal to 4.5 centimeters. The direction of rotation of the reel is counterclockwise. The rotational quantities are theta, omega and alpha, and x, v, a are linear or translational quantities. The reel, fishing line, and the direction of motion have been separately indicated by curved arrows pointing toward those parts.](../resources/Figure_10_02_01a.jpg "Fishing line coming off a rotating reel moves linearly. <a href="#example1">Example 1</a> and <a href="#example2">Example 2</a> consider relationships between rotational and linear quantities associated with a fishing reel.")
-{ #Figure1}
+{: #Figure1}
 
 <div class="example" id="example2" markdown="1">
 <div class="title">
@@ -330,7 +330,7 @@ rotating microwave oven plate. The example below calculates the total distance
 it travels.
 
 ![The figure shows a fly that has landed on the rotating plate of the microwave. The direction of rotation of the plate, omega, is counterclockwise and is shown with an arrow.](../resources/Figure_10_02_02a.jpg "The image shows a microwave plate. The fly makes revolutions while the food is heated (along with the fly).")
-{ #Figure2}
+{: #Figure2}
 
 <div class="example" markdown="1">
 <div class="title">
@@ -472,7 +472,7 @@ initial angular velocity is $$ 95.0 \rads $$ ?
 very quickly?
 
 ![The figure shows the left arm of a man with tattoo imprints and wearing a glove. He is circulating a yo-yo toy, which is in mid air and connected by the string to his hand. Some people are standing in the background watching the yo-yo trick.](../resources/Figure_10_02_03a.jpg "Yo-yos are amusing toys that display significant physics and are engineered to enhance performance based on physical laws. (credit: Beyond Neon, Flickr)")
-{ #Figure3}
+{: #Figure3}
 
 </div>
 </div>
@@ -502,7 +502,7 @@ c) 21.0 m/s
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 kinematics of rotational motion
 : describes the relationships among rotation angle, angular velocity, angular

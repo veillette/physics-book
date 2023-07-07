@@ -25,7 +25,7 @@ the **Hall effect**, after Edwin Hall, the American physicist who discovered it
 in 1879.
 
 ![Figure a shows an electron with velocity v moving toward the left. The magnetic field B is oriented out of the page. The current I is running toward the right. The force vector on the electron points downward. An illustration of the right hand rule shows the right thumb pointing left with the v vector, the fingers pointing toward 7 o&#x2019;clock with the B vector, the force vector on a positive charge pointing up and the force vector on a negative charge pointing down. Figure b shows a positive charge moving toward the right. The magnetic field lines are coming out of the page. The current I is running toward the right. The force on the positive charge is down. An illustration of the right hand rule shows the thumb pointing in the direction of the charge&#x2019;s velocity, the fingers pointing in the direction of B, and F pointing down away from the palm.](../resources/Figure_22_06_01a.jpg "The Hall effect. (a) Electrons move to the left in this flat conductor (conventional current to the right). The magnetic field is directly out of the page, represented by circled dots; it exerts a force on the moving charges, causing a voltage \( \epsilon \) , the Hall emf, across the conductor. (b) Positive charges moving to the right (conventional current also to the right) are moved to the side, producing a Hall emf of the opposite sign, \( -\epsilon \) . Thus, if the direction of the field and current are known, the sign of the charge carriers can be determined from the Hall effect.")
-{ #Figure1}
+{: #Figure1}
 
 One very important use of the Hall effect is to determine whether positive or
 negative charges carries the current. Note that in [[Figure 1]](#Figure1)(b),
@@ -77,7 +77,7 @@ where $$\epsilon $$ is the Hall effect voltage across a conductor of width $$l
 $$ through which charges move at a speed $$v $$.
 
 ![Diagram showing an electron moving to the left in a three-dimensional rectangular space with velocity v. The magnetic field is oriented out of the page. The electric field is down. The electric force on the charge is up while the magnetic force on the charge is down. An illustration of the right hand rule shows the thumb pointing to the left with v, the fingers out of the page with B, and the force on a positive charge up and away from the palm.](../resources/Figure_22_06_02a.jpg "The Hall emf \( \epsilon \) produces an electric force that balances the magnetic force on the moving charges. The magnetic force produces charge separation, which builds up until it is balanced by the electric force, an equilibrium that is quickly reached.")
-{ #Figure2}
+{: #Figure2}
 
 One of the most common uses of the Hall effect is in the measurement of magnetic
 field strength $$B $$ . Such devices, called *Hall probes*, can be made very
@@ -92,7 +92,7 @@ directions of $$B $$ and $$v $$ . The magnitude of the Hall emf is $$\epsilon
 can be determined from $$\epsilon $$ providing the other factors are known.
 
 ![Diagram showing a tube with diameter l with one end between the north and south poles of a magnet. The charges are moving with velocity v within the tube and out of the page. The magnetic field B is oriented across the tube, from the north to the south pole of the magnet. The force on the charges is up for positive charges and down for negative charges. e m f = B l v.](../resources/Figure_22_06_03a.jpg "The Hall effect can be used to measure fluid flow in any fluid having free charges, such as blood. The Hall emf \( \epsilon \) is measured across the tube perpendicular to the applied magnetic field and is proportional to the average velocity \( v \) .")
-{ #Figure3}
+{: #Figure3}
 
 <div class="example" markdown="1">
 <div class="title">
@@ -239,7 +239,7 @@ A patient with a pacemaker is mistakenly being scanned for an MRI image. A 10.0-
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 Hall effect
 : the creation of voltage across a current-carrying conductor by a magnetic

@@ -30,10 +30,10 @@ disk’s initial velocity. Let us examine a case of rotation in a collision
 in [Example 1](#example1).
 
 ![A bowling ball, just as it is striking the pins.](../resources/Figure_10_06_01a.jpg "The bowling ball causes the pins to fly, some of them spinning violently. (credit: Tinou Bao, Flickr)")
-{ #Figure1}
+{: #Figure1}
 
 ![Figure a shows a disc m sliding toward a motionless stick M of length r pivoted about a nail, on a frictionless surface. In figure b, a disk hits the stick at one end and adheres to it, and the stick rotates, pivoting around the nail in a direction shown by the arrow in the clockwise direction and angular velocity omega.](../resources/Figure_10_06_02a.jpg "(a) A disk slides toward a motionless stick on a frictionless surface. &#10;        (b) The disk hits the stick at one end and adheres to it, and they rotate together, pivoting around the nail. Angular momentum is conserved for this inelastic collision because the surface is frictionless and the unbalanced external force at the nail exerts no torque.")
-{ #Figure2}
+{: #Figure2}
 
 <div class="example" id="example1" markdown="1">
 <div class="title">
@@ -209,7 +209,7 @@ a tennis elbow. The same effect occurs for a baseball bat.
 
 ![In figure a, a disk hitting a stick is compared to a tennis ball being hit by a racquet. When the ball strikes the racquet near the end with a force denoted by f ball as shown by the direction of the arrow, a backward force, f hand is exerted on the hand, In figure b, when the racquet is struck much farther down by a force F ball, a forward force, f hand is exerted on the hand as shown by the arrows. In figure (c), when the racquet is struck by the ball with a force f ball at the percussion point, no force is delivered to the hand. This implies that f hand is equal to zero.](../resources/Figure_10_06_03.jpg "A disk hitting a stick is compared to a tennis ball being hit by a racquet. (a) When the ball strikes the racquet near the end, a backward force is exerted on the hand.
 (b) When the racquet is struck much farther down, a forward force is exerted on the hand. (c) When the racquet is struck at the percussion point, no force is delivered to the hand.")
-{ #Figure3}
+{: #Figure3}
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
@@ -289,7 +289,7 @@ Twin skaters approach one another as shown in [Figure 4](#Figure4) and lock hand
 (b) Compare the initial kinetic energy and final kinetic energy.
 
 ![Figure a shows two skaters from the top view approaching each other from opposite directions with velocity v. In figure b two skaters then lock their right hands and start to spin in the clockwise direction with angular velocity omega.](../resources/Figure_10_06_04a.jpg "Twin skaters approach each other with identical speeds. Then, the skaters lock hands and spin.")
-{ #Figure4}
+{: #Figure4}
 
 </div>
 <div class="solution" markdown="1">
@@ -316,7 +316,7 @@ remains in his geometrical center.
 (c) Compare the initial and final total kinetic energies.
 
 ![Figure a shows a skater through an overhead view with both his hands outstretched. A ball is seen approaching toward him in air with velocity v. Figure b shows that skater catching two balls in his left hand, and then, recoiling toward the left, in clockwise direction, with angular velocity omega and finally, the balls have velocity v prime.](../resources/Figure_10_06_05a.jpg "The figure shows the overhead view of a person standing motionless on ice about to catch a ball. Both arms are outstretched. After catching the ball, the skater recoils and rotates.")
-{ #Figure5}
+{: #Figure5}
 
 </div>
 </div>

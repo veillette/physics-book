@@ -27,7 +27,7 @@ relationship to forces as well as indicate some remaining questions and
 problems.
 
 ![The figure shows four spheres that are labeled proton, neutron, positive pion, and negative pion. The proton sphere contains a blue up quark with spin up, a green down quark with spin down, and a red up quark with spin up. Below the figure are two equations. The upper equation is labeled spin and reads one half plus one half minus one half equals one half, and the lower equation is labeled charge and reads plus two thirds plus two thirds minus one third equals one. The neutron sphere contains a green up quark with spin down, a blue down quark with spin up, and a red down quark with spin up. The corresponding spin equation reads minus one half plus one half plus one half equals one half, and the charge equation reads plus two thirds minus one third minus one third equals zero. The positive pion sphere contains a red up quark with spin up and an anti red anti down quark with spin down. The corresponding spin equation reads plus one half minus one half equals zero, and the charge equation reads plus two thirds plus one third equals plus one. The negative pion sphere contains a green anti up quark with spin up and an anti green down quark with spin down. The corresponding spin equation reads plus one half minus one half equals zero, and the charge equation reads minus two thirds minus one third equals minus one.](../resources/Figure_33_05_01.jpg "All baryons, such as the proton and neutron shown here, are composed of three quarks. All mesons, such as the pions shown here, are composed of a quark-antiquark pair. Arrows represent the spins of the quarks, which, as we shall see, are also colored. The colors are such that they need to add to white for any possible combination of quarks.")
-{ #Figure1}
+{: #Figure1}
 
 ### Conception of Quarks
 
@@ -491,7 +491,7 @@ Patterns in the properties of atoms allowed the periodic table to be developed. 
 </div>
 
 ![The figure shows a trace of a bubble chamber picture that shows the first observation of an omega minus particle. The trace looks like the branch of a small bush. There is a stem at the bottom labeled K minus, then a vertex from which comes a short arched segment labeled omega minus. This segment branches into a dashed line labeled xi zero and an arched line labeled pie minus. Various other solid and dashed lines continue upwards with various labels, such as lambda zero, gamma, K plus, and so on. From the scale bar in the figure, the sigma minus segment is about five centimeters long, which is much shorter than most of the other segments.](../resources/Figure_33_05_02.jpg "The image relates to the discovery of the \( \Omega^{-} \) . It is a secondary reaction in which an accelerator-produced \( K^{-} \) collides with a proton via the strong force and conserves strangeness to produce the \( \Omega^{-} \) with characteristics predicted by the quark model. As with other predictions of previously unobserved particles, this gave a tremendous boost to quark theory. (credit: Brookhaven National Laboratory) ")
-{ #Figure2}
+{: #Figure2}
 
 <div class="example" markdown="1">
 <div class="title">
@@ -546,7 +546,7 @@ This evidence made all but the most skeptical admit that there was validity to
 the quark substructure of hadrons.
 
 ![The image shows a big sphere labeled proton. Five electrons are shown impinging on the proton from the left. Two pass directly through the proton, one electron scatters back and down from a green up quark, another electron scatters back and up from a blue up quark, and the last electron scatters up and forward from a red down quark.](../resources/Figure_33_05_03.jpg "Scattering of high-energy electrons from protons at facilities like SLAC produces evidence of three point-like charges consistent with proposed quark properties. This experiment is analogous to Rutherford&#x2019;s discovery of the small size of the nucleus by scattering \( \alpha \); particles. High-energy electrons are used so that the probe wavelength is small enough to see details smaller than the proton.")
-{ #Figure3}
+{: #Figure3}
 
 More recent and higher-energy experiments have produced jets of particles in
 collisions, highly suggestive of three quarks in a nucleon. Since the quarks are
@@ -559,7 +559,7 @@ characteristics of the particles are consistent with the three-quark
 substructure.
 
 ![In the figure the track of particles in electron-positron collider is shown/](../resources/Figure_33_05_04.jpg "Simulation of a proton-proton collision at 14-TeV center-of-mass energy in the ALICE detector at CERN LHC. The lines follow particle trajectories and the cyan dots represent the energy depositions in the sensitive detector elements. (credit: Matev&#x17E; Tadel) ")
-{ #Figure4}
+{: #Figure4}
 
 
 ### Quarks Have Their Ups and Downs
@@ -625,7 +625,7 @@ which produces white. A meson must have a primary color and its anticolor, also
 producing white.
 
 ![The first image shows a big circle labeled baryon that contains three quarks represented as smaller red, green, and blue circles. The combination of red, green, and blue makes the bigger baryon circle white. The second image shows a big circle labeled meson that contains a quark represented by a small red circle and an anti quark represented by a small cyan circle. The combination of red and cyan makes the bigger meson circle white.](../resources/Figure_33_05_05.jpg "The three quarks composing a baryon must be RGB, which add to white. The quark and antiquark composing a meson must be a color and anticolor, here \( R \overline{R} \) also adding to white. The force between systems that have color is so great that they can neither be separated nor exist as colored. ")
-{ #Figure5}
+{: #Figure5}
 
 Why must hadrons be white? The color scheme is intentionally devised to explain
 why baryons have three quarks and mesons have a quark and an antiquark. Quark
@@ -675,7 +675,7 @@ $${Z}^{0} $$ , and photons as part of the search for unification of forces
 discussed in [GUTs: The Unification of Forces](../contents/ch33GUTS).
 
 ![This figure shows three types of particles arranged in three rows. In the top row are leptons, in the middle row are quarks, and in the bottom row are carrier particles. The rows are divided into three columns, with the columns labeled family one, family two, and family three, from left to right. In family one are the electron and electron neutrino, the up and down quarks, and the photon and upsilon. In family two are the muon and muon neutrino, the strange and charmed quarks, and the W plus, W minus, and Z zero. In family three are the tau and tau neutrino, the top and bottom quarks, and gluons.](../resources/Figure_33_05_06.jpg "The three types of particles are leptons, quarks, and carrier particles. Each of those types is divided into three analogous families, with the graviton left out.")
-{ #Figure6}
+{: #Figure6}
 
 ### Summary
 
@@ -866,7 +866,7 @@ by writing the reaction and decay in terms of quarks.
 $$ showing the individual quarks involved.
 
 ![The figure shows a graph of number of interactions on the y axis versus kinetic energy of pion on the x axis. The number of interactions reaches a peak at two hundred mega electron volts where the short lived particle delta plus plus is generated. The width of this peak is approximately hundred mega electron volts.](../resources/Figure_33_05_07.jpg "This graph shows the probability of an interaction between a \( \pi^{+} \) and a proton as a function of energy. The bump is interpreted as a very short lived particle called a \( \Delta^{++} \). The approximately 100-MeV width of the bump is due to the short lifetime of the \( \Delta^{++} \).;     ")
-{ #Figure7}
+{: #Figure7}
 
 </div>
 </div>
@@ -885,7 +885,7 @@ involved.
 a)  $${\Delta }^{++}\left(\text{uuu}\right); B=\frac{1}{3}+\frac{1}{3}+\frac{1}{3}=1 $$
 b)
 
-![](../resources/Figure_33_05_08.jpg " "){ #Figure8 height="250"}
+![](../resources/Figure_33_05_08.jpg " "){: #Figure8 height="250"}
 
 </div>
 </div>
@@ -1133,35 +1133,35 @@ charges. Thus mesons must have integral charge.
 
 <div class="footnote-refs" markdown="1">
 ### Footnotes
-{ class="footnote-refs-title"}
+{: class="footnote-refs-title"}
 
-* { class="footnote-ref" #footnote1} [1](#footnote-ref1){ class="
+* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
   footnote-ref-link"} <span class="footnote-ref-content">The lower of the $$± $$
   symbols are the values for antiquarks.</span>
-* { class="footnote-ref" #footnote2} [2](#footnote-ref2){ class="
+* {: class="footnote-ref" #footnote2} [2](#footnote-ref2){: class="
   footnote-ref-link"} <span class="footnote-ref-content"> $$B $$ is baryon
   number, *S* is strangeness, $$c $$ is charm, $$b $$ is bottomness, $$t $$ is
   topness.</span>
-* { class="footnote-ref" #footnote3} [3](#footnote-ref3){ class="
+* {: class="footnote-ref" #footnote3} [3](#footnote-ref3){: class="
   footnote-ref-link"} <span class="footnote-ref-content">Values are approximate,
   are not directly observable, and vary with model.</span>
-* { class="footnote-ref" #footnote4} [4](#footnote-ref4){ class="
+* {: class="footnote-ref" #footnote4} [4](#footnote-ref4){: class="
   footnote-ref-link"} <span class="footnote-ref-content">These two mesons are
   different mixtures, but each is its own antiparticle, as indicated by its
   quark composition.</span>
-* { class="footnote-ref" #footnote5} [5](#footnote-ref5){ class="
+* {: class="footnote-ref" #footnote5} [5](#footnote-ref5){: class="
   footnote-ref-link"} <span class="footnote-ref-content">These two mesons are
   different mixtures, but each is its own antiparticle, as indicated by its
   quark composition.</span>
-* { class="footnote-ref" #footnote6} [6](#footnote-ref6){ class="
+* {: class="footnote-ref" #footnote6} [6](#footnote-ref6){: class="
   footnote-ref-link"} <span class="footnote-ref-content">These two mesons are
   different mixtures, but each is its own antiparticle, as indicated by its
   quark composition.</span>
-* { class="footnote-ref" #footnote7} [7](#footnote-ref7){ class="
+* {: class="footnote-ref" #footnote7} [7](#footnote-ref7){: class="
   footnote-ref-link"} <span class="footnote-ref-content">Antibaryons have the
   antiquarks of their counterparts. The antiproton $$\stackrel{-}{p} $$ is
   $$\stackrel{-}{u}\stackrel{-}{u}\stackrel{-}{d} $$ , for example.</span>
-* { class="footnote-ref" #footnote8} [8](#footnote-ref8){ class="
+* {: class="footnote-ref" #footnote8} [8](#footnote-ref8){: class="
   footnote-ref-link"} <span class="footnote-ref-content">Baryons composed of the
   same quarks are different states of the same particle. For example, the
   $${\Delta }^{+} $$ is an excited state of the proton.</span>
@@ -1171,7 +1171,7 @@ charges. Thus mesons must have integral charge.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 bottom
 : a quark flavor

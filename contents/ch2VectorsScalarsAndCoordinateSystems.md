@@ -10,7 +10,7 @@ layout: page
 </div>
 
 ![A small jet airplane flying toward the left.](../resources/Figure_02_02_00.jpg "The motion of this Eclipse Concept jet can be described in terms of the distance it has traveled (a scalar quantity) or its displacement in a specific direction (a vector quantity). In order to specify the direction of motion, its displacement must be described based on a coordinate system. In this case, it may be convenient to choose motion toward the left as positive motion (it is the forward direction for the plane), although in many cases, the \(x\)-coordinate runs from left to right, with motion to the right as positive and motion to the left as negative. (credit: Armchair Aviator, Flickr)")
-{ #Figure1}
+{: #Figure1}
 
 What is the difference between distance and displacement? Whereas displacement
 is defined by both direction and magnitude, distance is defined only by
@@ -53,7 +53,7 @@ direction and start solving a problem, you cannot change it.
 
 ![An x y coordinate system. An arrow pointing toward the right shows the positive x direction. Negative x is toward the left. An arrow pointing up shows the positive y direction. Negative y points downward.](../resources/Figure_02_02_00b.jpg "
 It is usually convenient to consider motion upward or to the right as positive ( + )and motion downward or to the left as negative (-).")
-{ #Figure2}
+{: #Figure2}
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
@@ -111,7 +111,7 @@ vector or a scalar quantity? Explain.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 scalar
 : a quantity that is described by magnitude, but not direction

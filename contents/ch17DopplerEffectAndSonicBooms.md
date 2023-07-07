@@ -49,13 +49,13 @@ frequency, and the person moving away from the source receives them at a lower
 frequency.
 
 ![Sound waves coming out of a car stopped on a road are shown as spherical areas of compression. The waves are shown to reach two observers, X and Y, standing on opposite sides of the car.](../resources/Figure_17_04_02a.jpg "Sounds emitted by a source spread out in spherical waves. Because the source, observers, and air are stationary, the wavelength and frequency are the same in all directions and to all observers.")
-{ #Figure1}
+{: #Figure1}
 
 ![Two observers X and Y are standing at two ends of a road. A car is shown to move from observer X on the left toward observer Y on the right. The sound waves are shown as spherical air compressions spreading out from points from which they are emitted marked from one through five. The air compressions are shown to arrive more frequently for the observer Y toward whom the car moves, compared to the compressions reaching X.](../resources/Figure_17_04_03a.jpg "Sounds emitted by a source moving to the right spread out from the points at which they were emitted. The wavelength is reduced and, consequently, the frequency is increased in the direction of motion, so that the observer on the right hears a higher-pitch sound. The opposite is true for the observer on the left, where the wavelength is increased and the frequency is reduced.")
-{ #Figure2}
+{: #Figure2}
 
 ![A car is shown stopped on a road. Two observers are shown crossing the road from behind the car. The observer X on the left is moving away from the car, and observer Y on the right is approaching the car. The sound waves coming from a point in the car are shown as spherical air compressions that reach the observers at different frequencies.](../resources/Figure_17_04_04a.jpg "The same effect is produced when the observers move relative to the source. Motion toward the source increases frequency as the observer on the right passes through more wave crests than she would if stationary. Motion away from the source decreases frequency as the observer on the left passes through fewer wave crests than he would if stationary.")
-{ #Figure3}
+{: #Figure3}
 
 We know that wavelength and frequency are related by $${v}_{w}=f\lambda $$ ,
 where $${v}_{w} $$ is the fixed speed of sound. The sound moves in a medium and
@@ -214,7 +214,7 @@ but something interesting happens—a sonic boom is created. (
 See [[Figure 4]](#Figure4).)
 
 ![The diagram shows a sound wave with spherical air compressions emerging from a source moving toward the right. The source is shown to move with a velocity v sub s. The spherical air compressions are shown to move with velocity v sub w. The interference of sound waves is shown along two lines, one on each side of the waves. The angle between these two lines is labeled theta.](../resources/Figure_17_04_05a.jpg "Sound waves from a source that moves faster than the speed of sound spread spherically from the point where they are emitted, but the source moves ahead of each. Constructive interference along the lines shown (actually a cone in three dimensions) creates a shock wave called a sonic boom. The faster the speed of the source, the smaller the angle \( \theta \).")
-{ #Figure4}
+{: #Figure4}
 
 There is constructive interference along the lines shown (a cone in three
 dimensions) from similar sound waves arriving there simultaneously. This
@@ -233,7 +233,7 @@ rattle nerves. Because of how destructive sonic booms can be, supersonic flights
 are banned over populated areas of the United States.
 
 ![An airplane is shown to fly above three observers on the ground. There are two conical shock waves or sonic booms created by the nose and tail of the aircraft. The observer on the left is shown to receive the conical shock wave from the tail of the aircraft, the observer in the middle receives the conical shock wave from the nose of the aircraft, and the observer on the right has not heard any sound, she is just wondering what is happening.](../resources/Figure_17_04_06a.jpg "Two sonic booms, created by the nose and tail of an aircraft, are observed on the ground after the plane has passed by.")
-{ #Figure5}
+{: #Figure5}
 
 Sonic booms are one example of a broader phenomenon called bow wakes. A **bow
 wake**, such as the one in [[Figure 6]](#Figure6), is created when the wave
@@ -249,10 +249,10 @@ in [[Figure 7]](#Figure7). Such a bow wake is called Cerenkov radiation and is
 commonly observed in particle physics.
 
 ![Photograph of a black duck swimming in water. The path left behind by the duck in water shows a near cone shape.](../resources/Figure_17_04_07a.jpg "Bow wake created by a duck. Constructive interference produces the rather structured wake, while there is relatively little wave action inside the wake, where interference is mostly destructive. (credit: Horia Varlan, Flickr)")
-{ #Figure6}
+{: #Figure6}
 
 ![Photograph of the blue glow, in a research reactor pool.](../resources/Figure_17_04_08a.jpg "The blue glow in this research reactor pool is Cerenkov radiation caused by subatomic particles traveling faster than the speed of light in water. (credit: U.S. Nuclear Regulatory Commission)")
-{ #Figure7}
+{: #Figure7}
 
 Doppler shifts and sonic booms are interesting sound phenomena that occur in all
 types of waves. They can be of considerable use. For example, the Doppler shift
@@ -424,7 +424,7 @@ What is the minimum speed at which a source must travel toward you for you to be
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 Doppler effect
 : an alteration in the observed frequency of a sound due to motion of either the

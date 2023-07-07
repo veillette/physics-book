@@ -380,7 +380,7 @@ Calculate its linear momentum.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 linear momentum
 : the product of mass and velocity

@@ -29,7 +29,7 @@ unsuspecting to the dangers of radium salt elixirs. Most abuses finally ended
 after the legislation in the 1950s.
 
 ![The image shows an old advertisement of radium material branded as UNDARK with the tagline &#x201C;Shines in the Dark.&#x201D;](../resources/Figure_32_03_01a.jpg "The properties of radiation were once touted for far more than its modern use in cancer therapy. Until 1932, radium was advertised for a variety of uses, often with tragic results. (credit: Struthious Bandersnatch.)")
-{ #Figure1}
+{: #Figure1}
 
 Radiotherapy is effective against cancer because cancer cells reproduce rapidly
 and, consequently, are more sensitive to radiation. The central problem in
@@ -51,7 +51,7 @@ ratio. But accelerator radiotherapy is much more expensive and less frequently
 employed than other forms.
 
 ![The image shows a man lying on a flat surface. A gamma ray machine is rotated around the man.](../resources/Figure_32_03_02a.jpg "The 60Co source of \( \gamma \);-radiation is rotated around the patient so that the common crossing point is in the tumor, concentrating the dose there. This geometric technique works for well-defined tumors.")
-{ #Figure2}
+{: #Figure2}
 
 Another form of radiotherapy uses chemically inert radioactive implants. One use
 is for prostate cancer. Radioactive seeds (about 40 to 100 and the size of a
@@ -269,7 +269,7 @@ If everyone in Australia received an extra 0.05 mSv per year of radiation, what 
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 radiotherapy
 : the use of ionizing radiation to treat ailments

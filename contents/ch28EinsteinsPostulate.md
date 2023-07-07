@@ -10,7 +10,7 @@ layout: page
 </div>
 
 ![A calculator is placed on open math books and few papers. Problems on trigonometry are solved on one of the papers.](../resources/Figure_28_01_01a.jpg "Special relativity resembles trigonometry in that both are reliable because they are based on postulates that flow one from another in a logical way. (credit: Jon Oakley, Flickr)")
-{ #Figure1}
+{: #Figure1}
 
 
 Have you ever used the Pythagorean Theorem and gotten a wrong answer? Probably
@@ -23,8 +23,8 @@ the same way with the exception that **all** parts must describe nature. If we
 are careful to choose the correct postulates, then our theory will follow and
 will be verified by experiment.
 
-Einstein essentially did the theoretical aspect of this method for **relativity**{ class="term"}. With two deceptively simple postulates and a
-careful consideration of how measurements are made, he produced the theory of **special relativity.**{ class="term"}
+Einstein essentially did the theoretical aspect of this method for **relativity**{: class="term"}. With two deceptively simple postulates and a
+careful consideration of how measurements are made, he produced the theory of **special relativity.**{: class="term"}
 
 ### Einstein’s First Postulate
 
@@ -55,7 +55,7 @@ $$\text{ma} $$ plus a fictitious force. This situation is not as simple as in an
 inertial frame. Not only are laws of physics simplest in inertial frames, but
 they should be the same in all inertial frames, since there is no preferred
 frame and no absolute motion. Einstein incorporated these ideas into his **first
-postulate of special relativity**{ class="term"}.
+postulate of special relativity**{: class="term"}.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -124,7 +124,7 @@ It was not until 1905, when Einstein published his first paper on special
 relativity, that the currently accepted conclusion was reached. Based mostly on
 his analysis that the laws of electricity and magnetism would not allow another
 speed for light, and only slightly aware of the Michelson-Morley experiment,
-Einstein detailed his **second postulate of special relativity**{ class="term"
+Einstein detailed his **second postulate of special relativity**{: class="term"
 }.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -212,7 +212,7 @@ When you are flying in a commercial jet, it may appear to you that the airplane 
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 relativity
 : the study of how different observers measure the same event

@@ -107,7 +107,7 @@ electromagnetic waves are related to their frequencies and wavelengths, as we
 shall see.
 
 ![An electromagnetic spectrum is shown. Different wave category regions are indicated using double sided arrows based on the values of their wavelength, energy, and frequency; the visual strip is also shown. The radio wave region is further segmented into AM radio, FM radio, and microwaves bands.](../resources/Figure_24_03_01a.jpg "The electromagnetic spectrum, showing the major categories of electromagnetic waves. The range of frequencies and wavelengths is remarkable. The dividing line between some categories is distinct, whereas other categories overlap.")
-{ #Figure1}
+{: #Figure1}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -164,7 +164,7 @@ waves (about 6000 km!) are one means of energy loss in long-distance power
 transmission.
 
 ![A high-voltage traction power line is shown to the side of a roadway. The power line in the photo has two transmission poles supporting the cables.](../resources/Figure_24_03_03a.jpg "This high-voltage traction power line running to Eutingen Railway Substation in Germany radiates electromagnetic waves with very long wavelengths. (credit: Zonk43, Wikimedia Commons)")
-{ #Figure2}
+{: #Figure2}
 
 There is an ongoing controversy regarding potential health hazards associated
 with exposure to these electromagnetic fields ( $$E $$ -fields). Some people
@@ -183,7 +183,7 @@ wavelengths are needed to reach a submarine under the surface. (
 See [[Figure 3]](#Figure3).)
 
 ![The picture of a submarine under water is shown. The submarine is shown to receive extremely low frequency signals shown as a curvy line from the ocean surface to the submarine in the ocean depth.](../resources/Figure_24_03_04a.jpg "Very long wavelength radio waves are needed to reach this submarine, requiring extremely low frequency signals (ELF). Shorter wavelengths do not penetrate to any significant depth.")
-{ #Figure3}
+{: #Figure3}
 
 AM radio waves are used to carry commercial radio signals in the frequency range
 from 540 to 1600 kHz. The abbreviation AM stands for **amplitude modulation**,
@@ -199,7 +199,7 @@ amplitude of the carrier wave to replicate the original audio signal. That audio
 signal is amplified to drive a speaker or perhaps to be recorded.
 
 ![Part a of the diagram shows a carrier wave along the horizontal axis. The wave is shown to have a high frequency as the vibrations are closely spaced. The wave has constant amplitude represented by uniform height of crest and trough. Part b of the diagram shows an audio wave with a lower frequency. The wave is on the upper side of horizontal axis. The amplitude of the wave is not uniform. It has an initial small rise and fall followed by a steep rise and a gradual fall in the wave. Part c of the diagram shows the amplitude modulated wave. It is the resultant wave obtained by mixing of the waves in part a and part b. The amplitude of the resultant wave is non uniform, similar to the audio wave. The frequency of the amplitude modulated wave is equal to the frequency of the carrier wave. The wave spreads on both sides of the horizontal axis.](../resources/Figure_24_03_05a.jpg "Amplitude modulation for AM radio. (a) A carrier wave at the station&#x2019;s basic frequency. (b) An audio signal at much lower audible frequencies. (c) The amplitude of the carrier is modulated by the audio signal without changing its basic frequency.")
-{ #Figure4}
+{: #Figure4}
 
 ### FM Radio Waves
 
@@ -211,7 +211,7 @@ is modulated in frequency by the audio signal, producing a wave of constant
 amplitude but varying frequency.
 
 ![Part a of the diagram shows a carrier wave along the horizontal axis. The wave is shown to have a high frequency as the vibrations are closely spaced. The wave has constant amplitude represented by uniform height of crest and trough. Part b of the diagram shows an audio wave with a lower frequency as shown by widely spaced vibrations. The wave has constant amplitude, represented by uniform length of crest and trough. Part c shows the frequency modulated wave obtained from waves in part a and part b. The amplitude of the resultant wave is similar to the source waves but the frequency varies. Frequency maxima are shown as closely spaced vibrations and frequency minima are shown as widely spaced vibrations. These maxima and minima are shown to alternate.](../resources/Figure_24_03_06a.jpg "Frequency modulation for FM radio. (a) A carrier wave at the station&#x2019;s basic frequency. (b) An audio signal at much lower audible frequencies. (c) The frequency of the carrier is modulated by the audio signal without changing its amplitude.")
-{ #Figure5}
+{: #Figure5}
 
 Since audible frequencies range up to 20 kHz (or 0.020 MHz) at most, the
 frequency of the FM radio wave can vary from the carrier by as much as 0.020
@@ -304,7 +304,7 @@ than those used for AM, but they are elevated to achieve an unobstructed line of
 sight. (See [[Figure 6]](#Figure6).)
 
 ![The first photograph shows a large tower used to broadcast TV signals. The tower is alternately painted red and white along the length. The antennas are shown as small structures on top of the tower. The second photograph shows a photo of a mobile phone tower. The tower has two ring shaped structures at its top most point.](../resources/Figure_24_03_07a.jpg "(a) A large tower is used to broadcast TV signals. The actual antennas are small structures on top of the tower&#x2014;they are placed at great heights to have a clear line of sight over a large broadcast area. (credit: Ozizo, Wikimedia Commons) (b) The NTT Dokomo mobile phone tower at Tokorozawa City, Japan. (credit: tokoroten, Wikimedia Commons)")
-{ #Figure6}
+{: #Figure6}
 
 ### Radio Wave Interference
 
@@ -368,7 +368,7 @@ See [[Figure 7]](#Figure7).) The shorter the wavelength of any probe, the
 smaller the detail it is possible to observe.
 
 ![A photograph of the surface of planet Venus is shown. The lava flows on Venus are shown as orange red color of the surface.](../resources/Figure_24_03_08a.jpg "An image of Sif Mons with lava flows on Venus, based on Magellan synthetic aperture radar data combined with radar altimetry to produce a three-dimensional map of the surface. The Venusian atmosphere is opaque to visible light, but not to the microwaves that were used to create this image. (credit: NSSDC, NASA/JPL)")
-{ #Figure7}
+{: #Figure7}
 
 ### Heating with Microwaves
 
@@ -476,7 +476,7 @@ Sun peaks in the visible part of the spectrum but is more intense in the red
 than in the violet, making the Sun yellowish in appearance.
 
 ![The visible strip of the electromagnetic spectrum is highlighted and shown in the picture. The wave length range is from eight hundred nanometers on the left to three hundred nanometers on the right. The divisions between infrared, visible, and ultraviolet are not perfectly distinct. The colors in the visible strip are also not perfectly distinct; they are marked as bands labeled from red on the left to violet on the right.](../resources/Figure_24_03_10a.jpg "A small part of the electromagnetic spectrum that includes its visible components. The divisions between infrared, visible, and ultraviolet are not perfectly distinct, nor are those between the seven rainbow colors.")
-{ #Figure8}
+{: #Figure8}
 
 Living things—plants and animals—have evolved to utilize and respond to parts of
 the electromagnetic spectrum they are embedded in. Visible light is the most
@@ -671,7 +671,7 @@ air conditioning systems, foams, and aerosols.
 International concern over this problem led to the establishment of the “Montreal Protocol” agreement (1987) to phase out CFC production in most countries. However, developing-country participation is needed if worldwide production and elimination of CFCs is to be achieved. Probably the largest contributor to CFC emissions today is China. And while there are indicators that the Protocol has been a success, there is still substantial risk and variability in the ozone layer. (See [[Figure 9]](#Figure9).)
 
 ![The map shows the variation in concentration of ozone over Antarctica. The scale for the total ozone level is depicted below the graph in Dobson units. The values are marked in colors of spectrum with the lowest value is marked in violet and the maximum value in red. The Antarctica region is marked in violet showing lesser ozone concentration and more ultraviolet rays. The region around Antarctica is in green, showing slightly higher concentration of ozone.](../resources/Figure_24_03_12a.jpg "This map of ozone concentration over Antarctica in October 2011 shows severe depletion suspected to be caused by CFCs. Less dramatic but more general depletion has been observed over northern latitudes, suggesting the effect is global. With less ozone, more ultraviolet radiation from the Sun reaches the surface, causing more damage. (credit: NASA Ozone Watch)")
-{ #Figure9}
+{: #Figure9}
 
 ### Benefits of UV Light
 
@@ -708,7 +708,7 @@ strikes a metal plate (e.g., copper) and produces X-rays. Since this is a
 high-voltage discharge, the electron gains sufficient energy to ionize the atom.
 
 ![An atom is shown. The nucleus is in the center as a cluster of small spheres packed together. Four electron orbits are shown around the nucleus. The one close to the nucleus is circular. All the other orbits are elliptical in nature and inclined at various angles. An electron, represented as a tiny sphere, is shown to strike the atom. An electron is shown knocked out from the closest orbit. A second image of the same atom illustrates another electron striking innermost orbit; a wavy red arrow representing an X-ray is shooting away from the innermost orbit.](../resources/Figure_24_03_13a.jpg "Artist&#x2019;s conception of an electron ionizing an atom followed by the recapture of an electron and emission of an X-ray. An energetic electron strikes an atom and knocks an electron out of one of the orbits closest to the nucleus. Later, the atom captures another electron, and the energy released by its fall into a low orbit generates a high-energy EM wave called an X-ray.")
-{ #Figure10}
+{: #Figure10}
 
 In the case shown, an inner-shell electron (one in an orbit relatively close to
 and tightly bound to the nucleus) is ejected. A short time later, another
@@ -724,7 +724,7 @@ transfer kinetic energy from the electron to the electrons and atoms in the
 material.
 
 ![A picture showing an electron represented as a tiny sphere shown to strike the atoms in the material represented as spheres slightly larger in size than the electron. A ray of X ray is shown to come out from the material shown by a wavy arrow.](../resources/Figure_24_03_14a.jpg "Artist&#x2019;s conception of an electron being slowed by collisions in a material and emitting X-ray radiation. This energetic electron makes numerous collisions with electrons and atoms in a material it penetrates. An accelerated charge radiates EM waves, a second method by which X-rays are created.")
-{ #Figure11}
+{: #Figure11}
 
 A loss of kinetic energy implies an acceleration, in this case decreasing the
 electron’s velocity. Whenever a charge is accelerated, it radiates EM waves.
@@ -771,7 +771,7 @@ sophisticated techniques, such as CT scans, can reveal three-dimensional
 information with details smaller than a millimeter.
 
 ![An X ray image of the chest is shown. It shows the section of the heart with artificial heart valves, a pacemaker, and the wires used to close the sternum.](../resources/Figure_24_03_15a.jpg "This shadow X-ray image shows many interesting features, such as artificial heart valves, a pacemaker, and the wires used to close the sternum. (credit: P. P. Urone)")
-{ #Figure12}
+{: #Figure12}
 
 The use of X-ray technology in medicine is called radiology—an established and
 relatively cheap tool in comparison to more sophisticated technologies.
@@ -817,7 +817,7 @@ X-ray and $$\gamma \text{-ray} $$ technologies are also used in scanning luggage
 at airports.
 
 ![A skeletal image of a human body is shown. The image represents gamma rays emitted by nuclei in a compound that is concentrated in the bones and eliminated through the kidneys. Some parts of the image are darker than the others. The ribs are shown darker than the leg and hand bones.](../resources/Figure_24_03_16a.jpg "This is an image of the \( \gamma \) rays emitted by nuclei in a compound that is concentrated in the bones and eliminated through the kidneys. Bone cancer is evidenced by nonuniform concentration in similar structures. For example, some ribs are darker than others. (credit: P. P. Urone)")
-{ #Figure13}
+{: #Figure13}
 
 ### Detecting Electromagnetic Waves from Space
 
@@ -1125,7 +1125,7 @@ of the electromagnetic radiation being sent out. If a new radio station has such
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
 (a) 1.50 × 10 <sup>6</sup> Hz, AM band 
-{ class="newline"}
+{: class="newline"}
 
 (b) The resonance of currents on an antenna that is 1/4 their wavelength is
 analogous to the fundamental resonant mode of an air column closed at one end,
@@ -1165,7 +1165,7 @@ In other words, the UV radiation is 97% more accurate than the shortest waveleng
 TV-reception antennas for VHF are constructed with cross wires supported at their centers, as shown in [[Figure 14]](#Figure14). The ideal length for the cross wires is one-half the wavelength to be received, with the more expensive antennas having one for each channel. Suppose you measure the lengths of the wires for particular channels and find them to be 1.94 and 0.753 m long, respectively. What are the frequencies for these channels?
 
 ![The picture of a television reception antenna mounted on the roof of a house. An enlarged image of the antenna is also shown. The antenna has a long horizontal rod having smaller cross wires of decreasing length from left to right. The cross wires are numbered from two to thirteen.](../resources/Figure_24_03_17a.jpg "A television reception antenna has cross wires of various lengths to most efficiently receive different wavelengths.")
-{ #Figure14}
+{: #Figure14}
 
 </div>
 </div>
@@ -1236,7 +1236,7 @@ radiation, assuming it is a continuous wave?
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 electromagnetic spectrum
 : the full range of wavelengths or frequencies of electromagnetic radiation

@@ -33,7 +33,7 @@ great symmetries in nature.
 </div>
 
 ![The propagation of two electromagnetic waves is shown in three dimensional planes. The first wave shows with the variation of two components E and B. E is a sine wave in one plane with small arrows showing the vibrations of particles in the plane. B is a sine wave in a plane perpendicular to the E wave. The B wave has arrows to show the vibrations of particles in the plane. The waves are shown intersecting each other at the junction of the planes because E and B are perpendicular to each other. The direction of propagation of wave is shown perpendicular to E and B waves. The energy carried is given as E sub u. The second wave shows with the variation of the components two E and two B, that is, E and B waves with double the amplitude of the first case. Two E is a sine wave in one plane with small arrows showing the vibrations of particles in the plane. Two B is a sine wave in a plane perpendicular to the two E wave. The two B wave has arrows to show the vibrations of particles in the plane. The waves are shown intersecting each other at the junction of the planes because two E and two B waves are perpendicular to each other. The direction of propagation of wave is shown perpendicular to two E and two B waves. The energy carried is given as four E sub u.](../resources/Figure_24_04_01a.jpg "Energy carried by a wave is proportional to its amplitude squared. With electromagnetic waves, larger \( E \) -fields and \( B \) -fields exert larger forces and can do more work.")
-{ #Figure1}
+{: #Figure1}
 
 But there is energy in an electromagnetic wave, whether it is absorbed or not.
 Once created, the fields carry energy away from a source. If absorbed, the field
@@ -242,7 +242,7 @@ A 2.50-m-diameter university communications satellite dish receives TV signals t
  (a large fraction of North America), how much power does it radiate?
 
 ![A large, round dish antenna looking like a giant white saucer is shown. It rests on a pillar like structure based on the ground. It is shown to receive TV signals in the form of electromagnetic waves shown as wavy arrows.](../resources/Figure_24_04_02a.jpg "Satellite dishes receive TV signals sent from orbit. Although the signals are quite weak, the receiver can detect them by being tuned to resonate at their frequency.")
-{ #Figure2}
+{: #Figure2}
 
 </div>
 </div>
@@ -512,7 +512,7 @@ over which the power is spread, as well as the area of the receiving dish.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 maximum field strength
 : the maximum amplitude an electromagnetic wave can reach, representing the
