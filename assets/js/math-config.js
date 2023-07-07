@@ -23,7 +23,7 @@ window.MathJax = {
             ac: 'a_\\mathrm{c}',     // a_c
         },
         inlineMath: [              // start/end delimiter pairs for in-line math
-            ['$$', '$$'],
+            ['$', '$'],
             ['\\(', '\\)']
         ],
         displayMath: [             // start/end delimiter pairs for display math
