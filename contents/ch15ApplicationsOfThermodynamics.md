@@ -11,7 +11,7 @@ layout: page
 </div>
 
 ![Photograph of various expensive refrigerators displayed in a home appliance store.](../resources/Figure_15_05_00.jpg "Almost every home contains a refrigerator. Most people don&#x2019;t realize they are also sharing their homes with a heat pump. (credit: Id1337x, Wikimedia Commons)")
-{ #Figure1}
+{: #Figure1}
 
 Heat pumps, air conditioners, and refrigerators utilize heat transfer from cold
 to hot. They are heat engines run backward. We say backward, rather than
@@ -31,7 +31,7 @@ space. It is essentially an air conditioner and a heating unit all in one. In
 this section we will concentrate on its heating mode.)
 
 ![Part a of the figure shows a heat pump, drawn as a circle. Work W, indicated by a bold orange arrow, is put in to the pump to transfer heat Q sub c, indicated by a bold orange arrow, out of a cold temperature reservoir T sub c, drawn as a blue rectangle, and pumps heat Q sub h, indicated by a larger bold orange arrow, into high temperature reservoir T sub h. Part b of the figure shows a P V diagram for a Carnot cycle. The pressure P is along the Y axis and the volume V is along the X axis. The graph shows a complete cycle A D C B A. The path begins at point A, then it drops sharply down and slightly to the right until point D. This is marked as an adiabatic expansion. Then the curve drops down more gradually, still to the right, from point D to point C. This is marked as an isotherm at temperature T sub c, during which heat Q sub c enters the system. The curve then rises from point C to point B along the direction opposite to that of A D. This is an adiabatic compression. The last part of the curve rises up from point B back to A. This is marked as an isotherm at temperature T sub h, during which heat Q sub h leaves the system. The path D C is lower than path B A. Heat entering and leaving the system is indicated by bold orange arrows, with Q sub h larger than Q sub c.](../resources/Figure_15_05_01.jpg "Heat pumps, air conditioners, and refrigerators are heat engines operated backward. The one shown here is based on a Carnot (reversible) engine. (a) Schematic diagram showing heat transfer from a cold reservoir to a warm reservoir with a heat pump. The directions of \( W \) , \( Q_{h} \), and \( Q_{c} \) are opposite what they would be in a heat engine. (b) \( PV \) diagram for a Carnot cycle similar to that in [Figure 3](#Figure3) but reversed, following path ADCBA. The area inside the loop is negative, meaning there is a net work input. There is heat transfer \( Q_{c} \) into the system from a cold reservoir along path DC, and heat transfer \( Q_{h} \) out of the system into a hot reservoir along path BA.")
-{ #Figure2}
+{: #Figure2}
 
 ### Heat Pumps
 
@@ -52,7 +52,7 @@ used. In the outdoor coils (the evaporator), heat transfer $${Q}_{\text{c}} $$
 occurs to the working fluid from the cold outdoor air, turning it into a gas.
 
 ![The diagram shows a diagram of a heat pump. There are four components connected by pipes. They are a condenser (1), an expansion valve (2), an evaporator (3), and a compressor (4), connected in that order. The evaporator coils are outside; all of the other components are inside. Heat Q sub c is absorbed from the outside air at the evaporator, and heat Q sub h is emitted inside from the condenser.](../resources/Figure_15_05_02.jpg "A simple heat pump has four basic components: (1)&#xA0;condenser, (2)&#xA0;expansion valve, (3)&#xA0;evaporator, and (4)&#xA0;compressor. In the heating mode, heat transfer \( Q_{c} \) occurs to the working fluid in the evaporator (3) from the colder outdoor air, turning it into a gas. The electrically driven compressor (4) increases the temperature and pressure of the gas and forces it into the condenser coils (1) inside the heated space. Because the temperature of the gas is higher than the temperature in the room, heat transfer from the gas to the room occurs as the gas condenses to a liquid. The working fluid is then cooled as it flows back through an expansion valve (2) to the outdoor evaporator coils.")
-{ #Figure3}
+{: #Figure3}
 
 The electrically driven compressor (work input $$W $$ )
 raises the temperature and pressure of the gas and forces it into the condenser
@@ -94,7 +94,7 @@ work input by converting part of it to heat transfer back into the cold
 reservoir before it gets into the heat pump.
 
 ![A diagram of a heat pump (shown as a circle). Work W, indicated by a large, wavy orange arrow, is the total work put into the pump. Part of this work is done against friction and is lost in the form of frictional heat, Q sub f, to the cold reservoir. The portion of work that is used by the heat pump is represented by W prime. The pump transfers heat Q sub h, indicated by a large orange arrow, into the hot reservoir, a tan-colored rectangle, at temperature T sub h. Frictional heat Q sub f, indicated by a wavy orange arrow, is transferred to the cold reservoir, a blue rectangle at temperature T sub c. Heat Q sub c, indicated by a smaller wavy orange arrow, is transferred into the pump from the cold reservoir. Heat Q sub h is formed from a combination of W prime and Q sub c.](../resources/Figure_15_05_03.jpg "When a real heat engine is run backward, some of the intended work input \( W \) goes into heat transfer before it gets into the heat engine, thereby reducing its coefficient of performance \( \text{COP}_\text{hp} \). In this figure, \(W^\prime \) represents the portion of \(W\) that goes into the heat pump, while the remainder of \(W \) is lost in the form of frictional heat \( Q_f \) to the cold reservoir. If all of \( W \) had gone into the heat pump, then \( Q_{h} \) would have been greater. The best heat pump uses adiabatic and isothermal processes, since, in theory, there would be no dissipative processes to reduce the heat transfer to the hot reservoir.")
-{ #Figure4}
+{: #Figure4}
 
 <div class="example" markdown="1">
 <div class="title">
@@ -148,7 +148,7 @@ pump. This is not a violation of conservation of energy. Cold ambient air
 provides 4.3 J per 1 J of work from the electrical outlet.
 
 ![The figure shows a schematic diagram of a heat pump. The hot and cold reservoirs are shown as two rectangular boxes attached to a vertical rectangular wall. The hot reservoir is at temperature T sub c equals negative fifteen degrees Celsius and the hot reservoir is at a temperature T sub h equals forty five degrees Celsius. Work W is shown to enter from an electrical outlet. Heat Q sub c is shown to enter the cold reservoir at an outside air temperature of negative five degrees Celsius and Q sub h is shown to leave the hot reservoir at an inside air temperature of twenty degrees Celsius.](../resources/Figure_15_05_04.jpg "Heat transfer from the outside to the inside, along with work done to run the pump, takes place in the heat pump of the example above. Note that the cold temperature produced by the heat pump is lower than the outside temperature, so that heat transfer into the working fluid occurs. The pump&#x2019;s compressor produces a temperature greater than the indoor temperature in order for heat transfer into the house to occur. ")
-{ #Figure5}
+{: #Figure5}
 
 </div>
 
@@ -169,7 +169,7 @@ winters. [[Figure 6]](#Figure6) shows a heat pump, called a “*reverse cycle”
 “split-system cooler” in some countries.
 
 ![A residential heat pump.](../resources/Figure_15_05_05.jpg "In hot weather, heat transfer occurs from air inside the room to air outside, cooling the room. In cool weather, heat transfer occurs from air outside to air inside, warming the room. This switching is achieved by reversing the direction of flow of the working fluid.")
-{ #Figure6}
+{: #Figure6}
 
 ### Air Conditioners and Refrigerators
 
@@ -419,7 +419,7 @@ $$
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 heat pump
 : a machine that generates heat transfer from cold to hot

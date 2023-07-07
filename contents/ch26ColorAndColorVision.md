@@ -37,7 +37,7 @@ ability to discern grey scales.
 
 ![The top panel shows the cellular structure of the different cells in the eye. The bottom panel shows a micrograph of the cellular structure.](../resources/Figure_26_03_01.jpg "
 (a) All photoreceptors have inner segments containing the nucleus and other important organelles and outer segments with membrane arrays containing the photosensitive opsin molecules. Rod outer segments are long columnar shapes with stacks of membrane-bound discs that contain the rhodopsin pigment. Cone outer segments are short, tapered shapes with folds of membrane in place of the discs in the rods. (b) Tissue of the retina shows a dense layer of nuclei of the rods and cones. LM × 800. (Micrograph provided by the Regents of University of Michigan Medical School-  2012)")
-{ #Figure1}
+{: #Figure1}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -74,7 +74,7 @@ of color vision is well established; more sophisticated theories expand on it
 rather than deny it.
 
 ![A line graph of sensitivity on y axis and wavelength on x axis is shown. The graph depicts three skewed curves, representing three types of cones and each type is sensitive to different ranges of wavelengths. The range of wavelength is between three hundred and fifty to seven hundred nanometers. For blue range, the curve peaks at four hundred and twenty nanometers and sensitivity is zero point two. For green range, the curve peaks at five hundred and twenty nanometers and the sensitivity is shown to be one point zero. For yellow range, the curve peaks at five hundred and ninety nanometers and sensitivity is at one point zero.](../resources/Figure_26_03_02.jpg "The image shows the relative sensitivity of the three types of cones, which are named according to wavelengths of greatest sensitivity. Rods are about 1000 times more sensitive, and their curve peaks at about 500 nm. Evidence for the three types of cones comes from direct measurements in animal and human eyes and testing of color blind people.")
-{ #Figure2}
+{: #Figure2}
 
 Consider why various objects display color—that is, why are feathers blue and
 red in a crimson rosella? The *true color of an object* is defined by its
@@ -89,7 +89,7 @@ all the red light falling on it. But, the true color of the object is blue,
 which is independent of illumination.
 
 ![Four flat rectangular structures, named as Blue object, Red object, Black object, and White object are shown. The red, blue, and black objects are illuminated by white light shown by siX-rays of red, orange, yellow, green, blue, and violet. The blue rectangle is emitting blue ray and it appears blue. The red rectangle is emitting red ray and it appears red while the black rectangle has absorbed all colors and appears black. The white rectangle is illuminated only by red light and emits red ray but appears white.](../resources/Figure_26_03_03.jpg "Absorption characteristics determine the true color of an object. Here, three objects are illuminated by white light, and one by pure red light. White is the equal mixture of all visible wavelengths; black is the absence of light.")
-{ #Figure3}
+{: #Figure3}
 
 Similarly, *light sources have colors* that are defined by the wavelengths they
 produce. A helium-neon laser emits pure red light. In fact, the phrase “pure red
@@ -110,7 +110,7 @@ This activity is best done with plastic sheets of different colors as they allow
 </div>
 
 ![Four curves showing emission spectra for light sources like the Sun shown as curve A, fluorescent light source shown as curve B, incandescent light source as curve C, and helium-neon laser light source as curve D are depicted in a relative intensity versus wavelength graph. Curve A is a simple curve. Curve B has four spikes at different intensity. Curve C is a linear curve. Curve D is represented as a spike with relative intensity around two hundred and twenty on the scale of zero to two hundred and twenty and wavelength around six hundred and twenty nanometers.](../resources/Figure_26_03_04.jpg "Emission spectra for various light sources are shown. Curve A is average sunlight at Earth&#x2019;s surface, curve B is light from a fluorescent lamp, and curve C is the output of an incandescent light. The spike for a helium-neon laser (curve D) is due to its pure wavelength emission. The spikes in the fluorescent output are due to atomic spectra&#x2014;a topic that will be explored later.")
-{ #Figure4}
+{: #Figure4}
 
 ### Color Constancy and a Modified Theory of Color Vision
 
@@ -135,7 +135,7 @@ in this figure, the eye responds to the edges and senses false darkness
 variations.
 
 ![An image of black and gray gradient in stripes pattern is shown in first figure. A step graph in increasing order below the image shows actual light intensities of the above pattern. The graph appears uniform as the grey strips are also uniform, but they are not. Instead, they are perceived darker on the dark side and lighter on the light side of the edge as depicted in the graph below it, which shows a step graph with spikes at the beginning of the next step.](../resources/Figure_26_03_05.jpg "The importance of edges is shown. Although the grey strips are uniformly shaded, as indicated by the graph immediately below them, they do not appear uniform at all. Instead, they are perceived darker on the dark side and lighter on the light side of the edge, as shown in the bottom graph. This is due to nerve impulse processing in the eye.")
-{ #Figure5}
+{: #Figure5}
 
 One theory that takes various factors into account was advanced by Edwin Land (
 1909 – 1991), the creative founder of the Polaroid Corporation. Land proposed,
@@ -163,10 +163,10 @@ color vision is much subtler than what a first look might imply.
 PhET Explorations: Color Vision
 </div>
 Make a whole rainbow by mixing red, green, and blue light. Change the wavelength of a monochromatic beam or filter white light. View the light as a solid beam, or see the individual photons. 
-{ class="newline"}
+{: class="newline"}
 
 
-{ class="newline"}
+{: class="newline"}
 
 <div class="media" id="PhET_module" data-alt="">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/color-vision/latest/color-vision_en.html"></iframe>
@@ -224,7 +224,7 @@ Propose a way to study the function of the rods alone, given they can sense ligh
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 hues
 : identity of a color as it relates specifically to the spectrum

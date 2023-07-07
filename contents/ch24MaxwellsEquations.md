@@ -15,7 +15,7 @@ theory of gases and made significant contributions to the understanding of color
 vision and the nature of Saturn’s rings.
 
 ![This black and white engraving shows physicist James Clerk Maxwell as a Victorian era gentleman dressed in bowtie, vest, and jacket, and sporting a full, graying beard and moustache.](../resources/Figure_24_01_01a.jpg "James Clerk Maxwell, a 19th-century physicist, developed a theory that explained the relationship between electricity and magnetism and correctly predicted that visible light is caused by electromagnetic waves. (credit: G. J. Stodart)")
-{ #Figure1}
+{: #Figure1}
 
 Maxwell brought together all the work that had been done by brilliant physicists
 such as Oersted, Coulomb, Gauss, and Faraday, and added his own insights to
@@ -111,7 +111,7 @@ waves. This loop also had a gap across which sparks were generated, giving solid
 evidence that electromagnetic waves had been received.
 
 ![The circuit diagram shows a simple circuit containing an alternating voltage source, a resistor R, capacitor C and a transformer, which provides the impedance. The transformer is shown to consist of two coils separated by a core. In parallel with the transformer is connected a wire loop labeled as Loop one Transmitter with a small gap that creates sparks across the gap. The sparks create electromagnetic waves, which are transmitted through the air to a similar loop next to it labeled as Loop two Receiver. These waves induce sparks in Loop two, and are detected by the tuner shown as a rectangular box connected to it.](../resources/Figure_24_01_02a.jpg "The apparatus used by Hertz in 1887 to generate and detect electromagnetic waves. An \( RLC \) circuit connected to the first loop caused sparks across a gap in the wire loop and generated electromagnetic waves. Sparks across a gap in the second loop located across the laboratory gave evidence that the waves had been received. ")
-{ #Figure2}
+{: #Figure2}
 
 Hertz also studied the reflection, refraction, and interference patterns of the
 electromagnetic waves he generated, verifying their wave character. He was able
@@ -168,7 +168,7 @@ Show that, when SI units for  $${\mu }_{0} $$
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 electromagnetic waves
 : radiation in the form of waves of electric and magnetic energy

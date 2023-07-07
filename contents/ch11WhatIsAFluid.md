@@ -24,7 +24,7 @@ We can understand the phases of matter and what constitutes a fluid by
 considering the forces between atoms that make up matter in the three phases.
 
 ![This figure has three parts. Part a shows a solid, and the atoms in the solid are shown as small red spheres held together in a grid. Part b shows a liquid in a short cylindrical container, and the atoms in the liquid are represented by small red spheres that can move past one another. The movement of the atoms is represented by arrows. Part c shows a cylinder that is labeled to indicate that it contains oxygen gas. The atoms in the gas are represented by small red spheres that move around. Their motion is indicated by arrows./](../resources/Figure_11_01_01a.jpg "(a) Atoms in a solid always have the same neighbors, held near home by forces represented here by springs. These atoms are essentially in contact with one another. A rock is an example of a solid. This rock retains its shape because of the forces holding its atoms together. (b) Atoms in a liquid are also in close contact but can slide over one another. Forces between them strongly resist attempts to push them closer together and also hold them in close contact. Water is an example of a liquid. Water can flow, but it also remains in an open container because of the forces between its atoms. (c) Atoms in a gas are separated by distances that are considerably larger than the size of the atoms themselves, and they move about freely. A gas must be held in a closed container to prevent it from moving out freely.")
-{ #Figure1}
+{: #Figure1}
 
 Atoms in *solids* are in close contact, with forces between them that allow the
 atoms to vibrate but not to change positions with neighboring atoms. (These
@@ -68,7 +68,7 @@ them only when they behave differently.
 PhET Explorations: States of Matter—Basics
 </div>
 Heat, cool, and compress atoms and molecules and watch as they change between solid, liquid, and gas phases.
-{ class="newline"}
+{: class="newline"}
 
 <div class="media" id="PhET_module" data-alt="states of matter">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/states-of-matter-basics/latest/states-of-matter-basics_en.html"></iframe>
@@ -113,7 +113,7 @@ How do gases differ from liquids?
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 fluids
 : liquids and gases; a fluid is a state of matter that yields to shearing forces

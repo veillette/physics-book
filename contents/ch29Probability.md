@@ -21,10 +21,10 @@ a statistical distribution of locations that appears wavelike. (
 See [[Figure 1]](#Figure1).)
 
 ![A graph is shown for intensity which is varying like a wave. Corresponding to the maximum point of the wave electrons are shown as small dots in three strips. These strips show different number of electrons with varying density of dots along the length of the strip. A larger number of electrons are in the first strip, a smaller number of electrons in the second strip, and very few electrons in third strip.](../resources/Figure_29_07_01a.jpg "The building up of the diffraction pattern of electrons scattered from a crystal surface. Each electron arrives at a definite location, which cannot be precisely predicted. The overall distribution shown at the bottom can be predicted as the diffraction of waves having the de Broglie wavelength of the electrons.")
-{ #Figure1}
+{: #Figure1}
 
 ![A double-slit interference wavelength pattern for electrons is shown in figure a and for photons in figure b.](../resources/Figure_29_07_02a.jpg "Double-slit interference for electrons (a) and protons (b) is identical for equal wavelengths and equal slit separations. Both patterns are probability distributions in the sense that they are built up by individual particles traversing the apparatus, the paths of which are not individually predictable.")
-{ #Figure2}
+{: #Figure2}
 
 After de Broglie proposed the wave nature of matter, many physicists, including
 Schrödinger and Heisenberg, explored the consequences. The idea quickly emerged
@@ -78,13 +78,13 @@ the electron, they change its momentum **in a manner that loses information**.
 There is a limit to absolute knowledge, even in principle.
 
 ![A photograph of a young, smiling Werner Heisenberg.](../resources/Figure_29_07_04a.jpg "Werner Heisenberg was one of the best of those physicists who developed early quantum mechanics. Not only did his work enable a description of nature on the very small scale, it also changed our view of the availability of knowledge. Although he is universally recognized for his brilliance and the importance of his work (he received the Nobel Prize in 1932, for example), Heisenberg remained in Germany during World War II and headed the German effort to build a nuclear bomb, permanently alienating himself from most of the scientific community. (credit: Author Unknown, via Wikimedia Commons)")
-{ #Figure3 height="300"}
+{: #Figure3 height="300"}
 
 It was Werner Heisenberg who first stated this limit to knowledge in 1929 as a
 result of his work on quantum mechanics and the wave characteristics of all
 particles. (See [[Figure 3]](#Figure3)). Specifically, consider simultaneously
 measuring the position and momentum of an electron (it could be any particle).
-There is an **uncertainty in position**{ class="term"} $$\Delta x $$ that is
+There is an **uncertainty in position**{: class="term"} $$\Delta x $$ that is
 approximately equal to the wavelength of the particle. That is,
 
 <div class="equation" >
@@ -448,7 +448,7 @@ Derive the approximate form of Heisenberg’s uncertainty principle for energy a
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 Heisenberg’s uncertainty principle
 : a fundamental limit to the precision with which pairs of quantities (momentum

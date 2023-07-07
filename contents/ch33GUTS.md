@@ -54,7 +54,7 @@ der Meer. Theorists Weinberg, Glashow, and Salam had already been honored with
 the 1979 Nobel Prize for other aspects of electroweak theory.
 
 ![A Feynman diagram is shown in which time proceeds in along the vertical y axis and distance along the horizontal x axis. An electron and an electron neutrino are shown approaching each other, exchanging a virtual zee zero particle, then moving apart.](../resources/Figure_33_06_01.jpg "The exchange of a virtual \( Z^0 \) carries the weak nuclear force between an electron and a neutrino in this Feynman diagram. The \( Z^0 \) is one of the carrier particles for the weak nuclear force that has now been created in the laboratory with characteristics predicted by electroweak theory. ")
-{ #Figure1}
+{: #Figure1}
 
 Although the weak nuclear force is very short ranged (  $$< 10^{-18}\text{m} $$
 , as indicated in [[Table 1]](../contents/ch33TheFourBasicForces#Table1)), its effects on
@@ -87,7 +87,7 @@ antigreenness kills the green in the strange quark, and its redness turns the
 quark red.
 
 ![The first image shows eight circles representing gluons. The first gluon is colored red and anti green, the second gluon is colored green and anti red, the third gluon is colored blue and anti red, the fourth gluon is colored red and anti blue, the fifth gluon is colored green and anti blue, and the sixth gluon is colored blue and anti green. The last two gluons are white. The second image shows a Feynman diagram in which time proceeds in along the vertical y axis and distance along the horizontal x axis. A red down quark and a green strange quark are approaching each other. They exchange a red and anti green gluon, then move apart, with the red down quark having changed to a green down quark and the green strange quark having changed to a red strange quark. ](../resources/Figure_33_06_02.jpg "In figure (a), the eight types of gluons that carry the strong nuclear force are divided into a group of six that carry color and a group of two that do not. Figure (b) shows that the exchange of gluons between quarks carries the strong force and may change the color of a quark.")
-{ #Figure2}
+{: #Figure2}
 
 The strong force is complicated, since observable particles that feel the strong
 force (hadrons) contain multiple quarks. [[Figure 3]](#Figure3) shows the quark
@@ -107,7 +107,7 @@ force is transmitted.
 
 
 ![The Feynman diagram shows a proton scattering from a neutron. In the process , the proton becomes a neutron and the neutron becomes a proton. The details of the interaction are explained in the text.](../resources/Figure_33_06_03.jpg "This Feynman diagram is the same interaction as shown in [[Figure 3]](../contents/ch33TheFourBasicForces#Figure3) of the four basic forces, but it shows the quark and gluon details of the strong force interaction.")
-{ #Figure3}
+{: #Figure3}
 
 It is beyond the scope of this text to go into more detail on the types of quark
 and gluon interactions that underlie the observable particles, but the
@@ -146,7 +146,7 @@ resembles the massless, chargeless, spin 1 photon. In fact, there is enough
 energy when things are pushed to even smaller distances to transform the, and
 $${Z}^{0} $$ into massless carrier particles more similar to photons and gluons.
 These have not been observed experimentally, but there is a prediction of an
-associated particle called the **Higgs boson**{ class="term"}. The mass of this
+associated particle called the **Higgs boson**{: class="term"}. The mass of this
 particle is not predicted with nearly the certainty with which the mass of the
 $${W}^{+}, {W}^{-}, $$ and $${Z}^{0} $$ particles were predicted, but it was
 hoped that the Higgs boson could be observed at the now-canceled Superconducting
@@ -158,7 +158,7 @@ are identical under certain circumstances.
 
 
 ![The figure shows a graph with the strength of four basics forces plotted along the y axis and energy plotted along the x axis in giga electron volts. Near zero giga electron volts, the difference in forces is large. Gravity is the weakest force, followed by the weak force, then the electromagnetic force, and finally the strong force is the strongest. At about one hundred giga electron volts, the curves for the electromagnetic and weak force combine to become the electroweak force, but gravity remains weaker and the strong force remains stronger. Near ten to the fifteen giga electron volts, the electroweak force combines with the strong force at a point labeled G U T. Finally, at about ten to the nineteenth giga electron volts, gravity is combined with the electroweak plus strong force at a point labeled T O E.](../resources/Figure_33_06_04.jpg "The relative strengths of the four basic forces vary with distance and, hence, energy is needed to probe small distances. At ordinary energies (a few eV or less), the forces differ greatly as indicated in [[Table 1]](../contents/ch33TheFourBasicForces#Table1) from The Four Basic Forces. However, at energies available at accelerators, the weak and EM forces become identical, or unified. Unfortunately, the energies at which the strong and electroweak forces become the same are unreachable even in principle at any conceivable accelerator. The universe may provide a laboratory, and nature may show effects at ordinary energies that give us clues about the validity of this graph.")
-{ #Figure4}
+{: #Figure4}
 
 The small distances and high energies at which the electroweak force becomes
 identical with the strong nuclear force are not reachable with any conceivable
@@ -210,7 +210,7 @@ fingerprint on the existing universe. This, one of the most exciting forefronts
 of physics, is the subject of [Frontiers of Physics](../contents/ch34FrontiersOfPhysics).
 
 ![The image shows the picture of a huge cylindrical shaped proton decay detector with its main door open. It is as high as a double decker bus and as long as a small house. An untold number of cables, wires, and detector modules are arranged in a cylinder around a rectangular crate-like object containing another smaller cylindrical object.](../resources/Figure_33_06_05.jpg "In the Tevatron accelerator at Fermilab, protons and antiprotons collide at high energies, and some of those collisions could result in the production of a Higgs boson in association with a W boson. When the W boson decays to a high-energy lepton and a neutrino, the detector triggers on the lepton, whether it is an electron or a muon. (credit: D. J. Miller) ")
-{ #Figure5}
+{: #Figure5}
 
 ### Summary
 
@@ -270,7 +270,7 @@ with masses averaging $$200 \text{MeV/}{c}^{2} $$ .
 {\text{-km} }^{2} $$ area, how many particles are there per square meter?
 
 ![The figure shows an extremely energetic cosmic ray penetrating into the Earth&#x2019;s atmosphere. High up in the atmosphere, the cosmic ray disintegrates into a shower of particles that start a chain reaction by themselves creating further particles. All these particles shower the surface of the Earth.](../resources/Figure_33_06_06.jpg "An extremely energetic cosmic ray creates a shower of particles on earth. The energy of these rare cosmic rays can approach a joule (about \( 10^{10} \text{GeV} \) ) and, after multiple collisions, huge numbers of particles are created from this energy. Cosmic ray showers have been observed to extend over many square kilometers. ")
-{ #Figure6}
+{: #Figure6}
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
@@ -423,7 +423,7 @@ detector substance.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 electroweak theory
 : theory showing connections between EM and weak forces

@@ -63,7 +63,7 @@ total work done is the sum of the $$ W_{i} $$. Thus the total work done is the
 total area under the curve, a useful property to which we shall refer later.
 
 ![Two drawings labeled a and b. (a) A graph of force component F cosine theta versus distance d. d is along the x axis and F cosine theta is along the y axis. A line of length d is drawn parallel to the horizontal axis for some value of F cosine theta. Area under this line in the graph is shaded and is equal to F cosine theta multiplied by d. F d cosine theta is equal to work W. (b) A graph of force component F cosine theta versus distance d. d is along the x axis and F cosine theta is along the y axis. There is an inclined line and the area under it is divided into many thin vertical strips of width d sub i. The area of one vertical stripe is equal to average value of F cosine theta times d sub i which equals to work W sub i.](../resources/Figure_07_02_02a.jpg "(a) A graph of \( F\cos{ \theta} \) vs. \( d \) , when \( F \cos{ \theta} \) is constant. The area under the curve represents the work done by the force. (b) A graph of \( F \cos{ \theta} \) vs. \( d \) in which the force varies. The work done for each interval is the area of each strip; thus, the total area under the curve equals the total work done.")
-{ #Figure1}
+{: #Figure1}
 
 Net work will be simpler to examine if we consider a one-dimensional situation
 where a force is used to accelerate an object in a direction parallel to its
@@ -71,7 +71,7 @@ initial velocity. Such a situation occurs for the package on the roller belt
 conveyor system shown in [Figure 2](#Figure2).
 
 ![A package shown on a roller belt pushed with a force F towards the right shown by a vector F sub app equal to one hundred and twenty newtons. A vector w is in the downward direction starting from the bottom of the package and the reaction force N on the package is shown by the vector N pointing upwards at the bottom of the package. A frictional force vector of five point zero zero newtons acts on the package leftwards. The displacement d is shown by the vector pointing to the right with a value of zero point eight zero zero meters.](../resources/Figure_07_02_03a.jpg "A package on a roller belt is pushed horizontally through a distance \( d ). ")
-{ #Figure2}
+{: #Figure2}
 
 The force of gravity and the normal force acting on the package are
 perpendicular to the displacement and do no work. Moreover, they are also equal
@@ -398,7 +398,7 @@ generally shorter and easier than those using kinematics and dynamics alone.
 The person in [Figure 3](#Figure3) does work on the lawn mower. Under what conditions would the mower gain energy? Under what conditions would it lose energy?
 
 ![A person pushing a lawn mower with a force F. Force is represented by a vector making an angle theta below the horizontal and distance moved by the mover is represented by vector d. The component of vector F along vector d is F cosine theta. Work done by the person, W, is equal to F d cosine theta.](../resources/Figure_07_02_04a.jpg "Person ushing a lawn mower.")
-{ #Figure3}
+{: #Figure3}
 
 </div>
 </div>
@@ -506,7 +506,7 @@ force of 30.0 N against him.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 net work
 : work done by the net force, or vector sum of all the forces, acting on an

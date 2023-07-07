@@ -11,7 +11,7 @@ layout: page
 </div>
 
 ![Photograph of a pair of headphones and the jack used to connect it to the sound system.](../resources/Figure_17_05_01a.jpg "Some types of headphones use the phenomena of constructive and destructive interference to cancel out outside noises. (credit: JVC America, Flickr)")
-{ #Figure1}
+{: #Figure1}
 
 Interference is the hallmark of waves, all of which exhibit constructive and
 destructive interference exactly analogous to that seen for water waves. In
@@ -33,7 +33,7 @@ destructive interference is possible only under the simplest conditions, it is
 possible to reduce noise levels by 30 dB or more using this technique.
 
 ![A detailed picture of headphones with all its parts labeled. It shows the noise cancellation system in both the ear plugs consisting of the noise sensor, driver, pressure servo and cushions. There is a boom mic with low frequency housing, a boom adjustment, boom and cable all attached to one side of the power input cable. The power input cable is shown to have an on/off switch.](../resources/Figure_17_05_02a.jpg "Headphones designed to cancel noise with destructive interference create a sound wave exactly opposite to the incoming sound. These headphones can be more effective than the simple passive attenuation used in most ear protection. Such headphones were used on the record-setting, around the world nonstop flight of the Voyager aircraft to protect the pilots&#x2019; hearing from engine noise.")
-{ #Figure2}
+{: #Figure2}
 
 Where else can we observe sound interference? All sound resonances, such as in
 musical instruments, are due to constructive and destructive interference. Only
@@ -65,16 +65,16 @@ the continuing sound produced by the tuning fork. The incoming and reflected
 sounds form a standing wave in the tube as shown.
 
 ![The right side shows a vibrating tuning fork with right arm of fork moving right and left arm moving left. The left side shows a cone of resonance waves moving across a tube from the open end to the closed end. The tip of the cone is at the open end of the tube.](../resources/Figure_17_05_03aa.jpg "Resonance of air in a tube closed at one end, caused by a tuning fork. A disturbance moves down the tube.")
-{ #Figure3}
+{: #Figure3}
 
 ![The right side shows a vibrating tuning fork. The left side shows a cone of resonance waves reflected at the closed end of the tube. The tip of the cone is at the closed end of the tube, and the mouth of the cone is moving toward the open end of the tube.](../resources/Figure_17_05_03ab.jpg "Resonance of air in a tube closed at one end, caused by a tuning fork. The disturbance reflects from the closed end of the tube.")
-{ #Figure4}
+{: #Figure4}
 
 ![The left side shows a cone of resonance waves reflected at the closed end of the tube. The mouth of the cone has reached the open end of the tube  The right side shows a vibrating tuning fork with its left arm of fork moving rightward and its right arm moving leftward.](../resources/Figure_17_05_03ac.jpg "Resonance of air in a tube closed at one end, caused by a tuning fork. If the length of the tube \( L \) is just right, the disturbance gets back to the tuning fork half a cycle later and interferes constructively with the continuing sound from the tuning fork. This interference forms a standing wave, and the air column resonates.")
-{ #Figure5}
+{: #Figure5}
 
 ![The right side shows a vibrating tuning fork with its right arm moving rightward and left arm moving leftward. The left side shows a cone of resonance waves reflected at the closed end of the tube. The curve side of the cone has reached the tuning fork. The length of the tube is given to be equal to lambda divided by four.](../resources/Figure_17_05_03ac.jpg "Resonance of air in a tube closed at one end, caused by a tuning fork. A graph of air displacement along the length of the tube shows none at the closed end, where the motion is constrained, and a maximum at the open end. This standing wave has one-fourth of its wavelength in the tube, so that \( \lambda =4L \).")
-{ #Figure6}
+{: #Figure6}
 
 The standing wave formed in the tube has its maximum air displacement (an **antinode**) at the open end, where motion is unconstrained, and no
 displacement (a **node**) at the closed end, where air movement is halted. The
@@ -85,7 +85,7 @@ shown in [[Figure 7]](#Figure7). It is best to consider this a natural vibration
 of the air column independently of how it is induced.
 
 ![A cone of resonance waves reflected at the closed end of the tube is shown. A tuning fork is shown to vibrate at a small opening above the closed end of the tube. The length of the tube L is given to be equal to lambda divided by four.](../resources/Figure_17_05_04ab.jpg "The same standing wave is created in the tube by a vibration introduced near its closed end. ")
-{ #Figure7}
+{: #Figure7}
 
 Given that maximum air displacements are possible at the open end and none at
 the closed end, there are other, shorter wavelengths that can resonate in the
@@ -101,10 +101,10 @@ second harmonic, and so on. [[Figure 9]](#Figure9) shows the fundamental and the
 first three overtones (the first four harmonics) in a tube closed at one end.
 
 ![A cone of resonance waves reflected at the closed end of the tube is shown as a wave. There is three-fourth of the wave inside the tube and one-fourth outside shown as dotted curve. The length of the tube is given as three-fourth times lambda prime.](../resources/Figure_17_05_05aa.jpg "Another resonance for a tube closed at one end. This has maximum air displacements at the open end, and none at the closed end. The wavelength is shorter, with three-fourths \( \lambda^\prime\) equaling the length of the tube, so that \( \lambda^\prime =4L/3 \) . This higher-frequency vibration is the first overtone.")
-{ #Figure8}
+{: #Figure8}
 
 ![There are four tubes, each of which is closed at one end. Each tube has resonance waves reflected at the closed end. In the first tube, marked Fundamental, the wavelength is long and only one-fourth of the wave is inside the tube, with the maximum air displacement at the open end. In the second tube, marked First overtone, the wavelength is slightly shorter and three-fourths of the wave is inside the tube, with the maximum air displacement at the open end. In the third tube, marked Second overtone, the wavelength is still shorter and one and one-fourth of the wave is inside the tube, with the maximum air displacement at the open end. In the fourth tube, marked Third overtone, the wavelength is shorter than the others, and one and three-fourths of the wave is inside the tube, with the maximum air displacement at the open end.](../resources/Figure_17_05_06a.jpg "The fundamental and three lowest overtones for a tube closed at one end. All have maximum air displacements at the open end and none at the closed end.")
-{ #Figure9}
+{: #Figure9}
 
 The fundamental and overtones can be present simultaneously in a variety of
 combinations. For example, middle C on a trumpet has a sound distinctively
@@ -122,7 +122,7 @@ and the shape of the resonant cavity changes giving rise to the difference in
 predominant frequencies in speech between men and women.
 
 ![Two pictures of the throat and mouth in cross-section are shown. The first picture has parts of the mouth and throat labeled. The first picture shows the position of the mouth and tongue when producing an a a a sound, and the second picture shows the position of the mouth and tongue when producing an e e e sound.](../resources/Figure_17_05_07a.jpg "The throat and mouth form an air column closed at one end that resonates in response to vibrations in the voice box. The spectrum of overtones and their intensities vary with mouth shaping and tongue position to form different sounds. The voice box can be replaced with a mechanical vibrator, and understandable speech is still possible. Variations in basic shapes make different voices recognizable.")
-{ #Figure10}
+{: #Figure10}
 
 Now let us look for a pattern in the resonant frequencies for a simple tube that
 is closed at one end. The fundamental has $$\lambda =4L $$ , and frequency is
@@ -237,7 +237,7 @@ columns in tubes open at both ends have maximum air displacements at both ends,
 as illustrated in [[Figure 11]](#Figure11). Standing waves form as shown.
 
 ![The resonant frequency waves in a tube open at both ends are shown. There are a set of four images. The first image shows a tube of length L marked fundamental having half a wave. The maxima of the vibrations are on both the open ends of the tube. The second image shows a tube of length L marked first over tone having a full wave. The maxima of the vibrations are on both the open ends of the tube. The third image shows a tube of length L marked second over tone having a full wave and a half. The maxima of the vibrations are on both the open ends of the tube. The fourth image shows a tube of length L marked third over tone having two full waves. The maxima of the vibrations are on both the open ends of the tube.](../resources/Figure_17_05_08a.jpg "The resonant frequencies of a tube open at both ends are shown, including the fundamental and the first three overtones. In all cases the maximum air displacements occur at both ends of the tube, giving it different natural frequencies than a tube closed at one end.")
-{ #Figure11}
+{: #Figure11}
 
 Based on the fact that a tube open at both ends has maximum air displacements at
 both ends, and using [[Figure 11]](#Figure11) as a guide, we can see that the
@@ -278,10 +278,10 @@ below the wooden slats to amplify their tones. The resonance of the pot can be
 adjusted by adding water.
 
 ![First photograph is of a person playing the guitar and the second photograph is of a violin.](../resources/Figure_17_05_09a.jpg "String instruments such as violins and guitars use resonance in their sounding boxes to amplify and enrich the sound created by their vibrating strings. The bridge and supports couple the string vibrations to the sounding boxes and air within. (credits: guitar, Feliciano Guimares, Fotopedia; violin, Steve Snodgrass, Flickr)")
-{ #Figure12}
+{: #Figure12}
 
 ![Photograph of two people playing a marimba with gourds as resonance chambers.](../resources/Figure_17_05_10a.jpg "Resonance has been used in musical instruments since prehistoric times. This marimba uses gourds as resonance chambers to amplify its sound. (credit: APC Events, Flickr)")
-{ #Figure13}
+{: #Figure13}
 
 We have emphasized sound applications in our discussions of resonance and
 standing waves, but these ideas apply to any system that has wave
@@ -325,7 +325,7 @@ When the tube resonates at its natural frequency, the wave's node is located at 
 PhET Explorations: Sound
 </div>
 This simulation lets you see sound waves. Adjust the frequency or volume and you can see and hear how the wave changes. Move the listener around and hear what she hears.
-{ class="newline"}
+{: class="newline"}
 
 <div class="media"  data-alt="sound">
 <iframe width="660" height="371.4" src="https://veillette.github.io/simulations/sound/#sim-single-source"></iframe>
@@ -549,7 +549,7 @@ What frequencies will a 1.80-m-long tube produce in the audible range at  $$20.0
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 antinode
 : point of maximum displacement

@@ -36,7 +36,7 @@ stated it so clearly that he is credited for its discovery. (
 See [[Figure 1]](#Figure1).)
 
 ![Part a of the figure shows a bar magnet held horizontal and moved into a coil held in the same plane. The magnet is moved in such a way that the north pole of the magnet is shown to face the coil. The magnetic lines of force are shown to emerge out from the North Pole. The magnetic field associated with the bar magnet is given as B mag. The strength of the magnetic field increases in the coil. The current induced in the coil I creates another field B coil, in the opposite direction of the bar magnet to oppose the increase. So B mag and B coil are in opposite directions. In part b of the diagram, the magnet is moved away from the coil. The magnet is moved in such a way that the north pole of the magnet is shown to face the coil. The magnetic lines of force are shown to emerge out from the North Pole. The magnetic field associated with the bar magnet is given as B mag. The current induced in the coil I creates another field B coil, in the same direction as the field of the bar magnet. So B mag and B coil are in same directions. Part c of the figure shows a bar magnet held horizontal and moved into a coil held in the same plane. The magnet is moved in such a way that the south pole of the magnet is shown to face the coil. The magnetic lines of force are shown to merge into the South Pole. The magnetic field associated with the bar magnet is given as B mag. The current induced in the coil I, creates another field B coil, in the opposite direction of field of the bar magnet. So B mag and B coil are in opposite directions.](../resources/Figure_23_02_01.jpg "(a) When this bar magnet is thrust into the coil, the strength of the magnetic field increases in the coil. The current induced in the coil creates another field, in the opposite direction of the bar magnet&#x2019;s to oppose the increase. This is one aspect of Lenz&#x2019;s law&#x2014;induction opposes any change in flux. (b) and (c) are two other situations. Verify for yourself that the direction of the induced \( B_\text{coil} \) shown indeed opposes the change in flux and that the current direction shown is consistent with RHR-2. ")
-{ #Figure1}
+{: #Figure1}
 
 <div class="note" id="Note1" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -81,7 +81,7 @@ the iron oxide molecules on the tape induces an emf in the coil of wire in the
 playback head. This signal then is sent to a loudspeaker or video player.
 
 ![Photograph of the electronic components of playback heads used with audio and video magnetic tapes.](../resources/Figure_23_02_02.jpg "Recording and playback heads used with audio and video magnetic tapes. (credit: Steve Jurvetson)")
-{ #Figure2}
+{: #Figure2}
 
 Similar principles apply to computer hard drives, except at a much faster rate.
 Here recordings are on a coated, spinning disk. Read heads historically were
@@ -106,7 +106,7 @@ Electromagnetic induction can be used in other instances where electric signals
 need to be conveyed across various media.
 
 ![Photograph of a baby with a device attached on its lower part of the head, just above the right ear.](../resources/Figure_23_02_03.jpg "Electromagnetic induction used in transmitting electric currents across mediums. The device on the baby&#x2019;s head induces an electrical current in a receiver secured in the bone beneath the skin. (credit: Bjorn Knetsch)")
-{ #Figure3}
+{: #Figure3}
 
 Another contemporary area of research in which electromagnetic induction is
 being successfully implemented (and with substantial potential) is transcranial
@@ -190,10 +190,10 @@ faster movement make induction the practical source of voltages that it is.
 PhET Explorations: Faraday's Electromagnetic Lab
 </div>
 Play with a bar magnet and coils to learn about Faraday\'s law. Move a bar magnet near one or two coils to make a light bulb glow. View the magnetic field lines. A meter shows the direction and magnitude of the current. View the magnetic field lines or use a meter to show the direction and magnitude of the current. You can also play with electromagnets, generators and transformers! 
-{ class="newline"}
+{: class="newline"}
 
 
-{ class="newline"}
+{: class="newline"}
 
 <div class="media" data-alt="">
 <iframe width="660" height="371.4" src="https://veillette.github.io/simulations/faraday/#sim-bar-magnet"></iframe>
@@ -243,7 +243,7 @@ Referring to [[Figure 4]](#Figure4)(a), what is the direction of the current ind
 Explicitly show how you follow the steps in the [Problem-Solving Strategy for Lenz's Law](#Note1).
 
 ![Part a of the diagram shows two single loop coils. Coil one and coil two are held vertically. Coil one has a current I in anti clockwise direction. Part b of the diagram shows a wire held vertical with a current flowing in upward direction. There is a single loop coil next to it held vertically.](../resources/Figure_23_02_04.jpg "(a) The coils lie in the same plane. (b) The wire is in the plane of the coil ")
-{ #Figure4}
+{: #Figure4}
 
 </div>
 <div class="solution"  markdown="1">
@@ -269,7 +269,7 @@ Explicitly show how you follow the steps in the [Problem-Solving Strategy for Le
 Referring to [[Figure 5]](#Figure5), what are the directions of the currents in coils 1, 2, and 3 (assume that the coils are lying in the plane of the circuit): (a) When the switch is first closed? (b) When the switch has been closed for a long time? (c) Just after the switch is opened?
 
 ![The figure shows a closed circuit consisting of a main coil with many loops connected to a cell through a switch. Three single loop coils named one, two and three are also shown. Coil one is on left of the main coil, coil two on the right and coil three on top of the main coil.](../resources/Figure_23_02_05.jpg " ")
-{ #Figure5}
+{: #Figure5}
 
 </div>
 <div class="solution" markdown="1">
@@ -313,7 +313,7 @@ Suppose a 50-turn coil lies in the plane of the page in a uniform magnetic field
 </div>
 <div class="solution" markdown="1">
 (a) 3.04 mV
-{ class="newline"}
+{: class="newline"}
 
 (b) As a lower limit on the ring, estimate R = 1.00 mΩ. The heat transferred
 will be 2.31 mJ. This is not a significant amount of heat.
@@ -384,7 +384,7 @@ consequences.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 Faraday’s law of induction
 : the means of calculating the emf in a coil due to changing magnetic flux,

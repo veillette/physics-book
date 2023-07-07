@@ -22,10 +22,10 @@ ahead relative to the air, but the movement of the air mass relative to the
 ground carries it sideways.
 
 ![A boat is trying to cross a river. Due to the velocity of river the path traveled by boat is diagonal. The velocity of boat v boat is in positive y direction. The velocity of river v river is in positive x direction. The resultant diagonal velocity v total which makes an angle of theta with the horizontal x axis is towards north east direction.](../resources/Figure_03_05_01a.jpg "A boat trying to head straight across a river will actually move diagonally relative to the shore as shown. Its total velocity (solid arrow) relative to the shore is the sum of its velocity relative to the river plus the velocity of the river relative to the shore.")
-{ #Figure1}
+{: #Figure1}
 
 ![An airplane is trying to fly straight north with velocity v sub p. Due to wind velocity v sub w in south west direction making an angle theta with the horizontal axis, the plane&#x2019;s total velocity is thirty eight point 0 meters per seconds oriented twenty degrees west of north.](../resources/Figure_03_05_02a.jpg "An airplane heading straight north is instead carried to the west and slowed down by wind. The plane does not move relative to the ground in the direction it points; rather, it moves in the direction of its total velocity (solid arrow).")
-{ #Figure2}
+{: #Figure2}
 
 In each of these situations, an object has a **velocity**
 relative to a medium (such as a river) and that medium has a velocity relative
@@ -72,7 +72,7 @@ system:
 </div>
 
 ![The figure shows components of velocity v in horizontal x axis v x and in vertical y axis v y. The angle between the velocity vector v and the horizontal axis is theta.](../resources/Figure_03_05_03a.jpg "The velocity, \( \vb{v} \) of an object traveling at an angle \( \theta \) to the horizontal axis is the sum of component vectors .")
-{ #Figure3}
+{: #Figure3}
 
 These equations are valid for any vectors and are adapted specifically for
 velocity. The first two equations are used to find the components of a velocity
@@ -91,7 +91,7 @@ Fill a bathtub half-full of water. Take a toy boat or some other object that flo
 <div class="title">
 Adding Velocities: A Boat on a River
 </div>
-![A boat is trying to cross a river. Due to the velocity of the river the path traveled by the boat is diagonal. The velocity of the boat, v boat, is equal to zero point seven five meters per second and is in positive y direction. The velocity of the river, v-river, is equal to one point two meters per second and is in positive x direction. The resultant diagonal velocity v total, which makes an angle of theta with the horizontal x axis, is towards north east direction.](../resources/Figure_03_05_09a.jpg "A boat attempts to travel straight across a river at a speed 0.75 m/s. The current in the river, however, flows at a speed of 1.20 m/s to the right. What is the total displacement of the boat relative to the shore?"){ #Figure4}
+![A boat is trying to cross a river. Due to the velocity of the river the path traveled by the boat is diagonal. The velocity of the boat, v boat, is equal to zero point seven five meters per second and is in positive y direction. The velocity of the river, v-river, is equal to one point two meters per second and is in positive x direction. The resultant diagonal velocity v total, which makes an angle of theta with the horizontal x axis, is towards north east direction.](../resources/Figure_03_05_09a.jpg "A boat attempts to travel straight across a river at a speed 0.75 m/s. The current in the river, however, flows at a speed of 1.20 m/s to the right. What is the total displacement of the boat relative to the shore?"){: #Figure4}
 
 Refer to [Figure 4](#Figure4), which shows a boat trying to go straight across the
 river. Let us calculate the magnitude and direction of the boat’s velocity
@@ -169,7 +169,7 @@ Calculate the wind velocity for the situation shown in [Figure 5](#Figure5). The
 ground (its total velocity) is 38.0 m/s in a direction $$20.0^\circ $$ west of north.
 
 ![An airplane is trying to fly north with velocity v p equal to forty five meters per second at angle of one hundred and ten degrees but due to wind velocity v w in south west direction making an angle theta with the horizontal axis it reaches a position in north west direction with resultant velocity v total equal to thirty eight meters per second and the direction is twenty degrees west of north.](../resources/Figure_03_05_04a.jpg "An airplane is known to be heading north at 45.0 m/s, though its velocity relative to the ground is 38.0 m/s at an angle  west of north. What is the speed and direction of the wind?")
-{ #Figure5}
+{: #Figure5}
 
 **Strategy**
 
@@ -314,7 +314,7 @@ the mast and not behind it. To get the correct description, it is crucial to
 correctly specify the velocities relative to the observer.
 
 ![A person is observing a moving ship from the shore. Another person is on top of ship&#x2019;s mast. The person in the ship drops binoculars and sees it dropping straight. The person on the shore sees the binoculars taking a curved trajectory.](../resources/Figure_03_05_05a.jpg "Classical relativity. The same motion as viewed by two different observers. An observer on the moving ship sees the binoculars dropped from the top of its mast fall straight down. An observer on shore sees the binoculars take the curved path, moving forward with the ship. Both observers see the binoculars strike the deck at the base of the mast. The initial horizontal velocity is different relative to the two observers. (The ship is shown moving rather fast to emphasize the effect.)")
-{ #Figure6}
+{: #Figure6}
 
 <div class="example" id="example3" markdown="1">
 <div class="title">
@@ -325,7 +325,7 @@ An airline passenger drops a coin while the plane is moving at 260 m/s. What is 
 
 ![A person standing on ground is observing an airplane. Inside the airplane a woman is sitting on seat. The airplane is moving in the right direction. The woman drops the coin which is vertically downwards for her but the person on ground sees the coin moving horizontally towards right.](../resources/Figure_03_05_06a.jpg "The motion of a coin dropped inside an airplane as viewed by two different observers. (a) An observer in the plane sees the coin fall straight down.
 (b) An observer on the ground sees the coin move almost horizontally.")
-{ #Figure7 height="350"}
+{: #Figure7 height="350"}
 
 **Strategy**
 
@@ -681,7 +681,7 @@ distances. It appears to an observer on the Earth that we are at the center of a
 (b) relative to galaxy 5. The results mean that observers on all galaxies will see themselves at the center of the expanding universe, and they would likely be aware of relative velocities, concluding that it is not possible to locate the center of expansion with the given information.
 
 ![Five galaxies on a horizontal straight line are shown. The left most galaxy one has distance of three hundred millions of light years and it is moving towards left. The second and third galaxies in the figure have shown no velocities. The velocities of fourth and fifth galaxies are towards right.](../resources/Figure_03_05_07.jpg "Five galaxies on a straight line, showing their distances and velocities relative to the Milky Way (MW) Galaxy. The distances are in millions of light years (Mly), where a light year is the distance light travels in one year. The velocities are nearly proportional to the distances. The sizes of the galaxies are greatly exaggerated; an average galaxy is about 0.1 Mly across.")
-{ #Figure9}
+{: #Figure9}
 
 </div>
 </div>
@@ -734,7 +734,7 @@ angle must the puck’s velocity make relative to the player (in his frame of
 reference) to hit the center of the goal?
 
 ![An ice hockey player is moving across the rink with velocity v player towards north direction. The goal post is in east direction. To hit the goal the hockey player must hit with velocity of puck v puck making an angle theta with the horizontal axis so that its direction is towards south east.](../resources/Figure_03_05_08a.jpg "An ice hockey player moving across the rink must shoot backward to give the puck a velocity toward the goal.")
-{ #Figure10}
+{: #Figure10}
 
 </div>
 </div>
@@ -790,7 +790,7 @@ straight down the runway.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 classical relativity
 : the study of relative velocities in situations where speeds are less than

@@ -65,7 +65,7 @@ would push with your palm. The force on a negative charge is in exactly the
 opposite direction to that on a positive charge.
 
 ![The right hand rule 1. An outstretched right hand rests palm up on a piece of paper on which a vector arrow v points to the right and a vector arrow B points toward the top of the paper. The thumb points to the right, in the direction of the v vector arrow. The fingers point in the direction of the B vector. B and v are in the same plane. The F vector points straight up, perpendicular to the plane of the paper, which is the plane made by B and v. The angle between B and v is theta. The magnitude of the magnetic force F equals q v B sine theta.](../resources/Figure_22_04_01a.jpg "Magnetic fields exert forces on moving charges. This force is one of the most basic known. The direction of the magnetic force on a moving charge is perpendicular to the plane formed by v and \( B \) and follows right hand rule&#x2013;1 (RHR-1) as shown. The magnitude of the force is proportional to \( q \) , \( v \) , \( B \) , and the sine of the angle between \( v \) and \( B \) .")
-{ #Figure1}
+{: #Figure1}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -82,7 +82,7 @@ Calculating Magnetic Force: Earth’s Magnetic Field on a Charged Glass Rod
 With the exception of compasses, you seldom see or personally experience forces due to the Earth’s small magnetic field. To illustrate this, suppose that in a physics lab you rub a glass rod with silk, placing a 20-nC positive charge on it. Calculate the force on the rod due to the Earth’s magnetic field, if you throw it with a horizontal velocity of 10 m/s due west in a place where the Earth’s field is due north parallel to the ground. (The direction of the force is determined with right hand rule 1 as shown in [[Figure 2]](#Figure2).)
 
 ![The effects of the Earth&#x2019;s magnetic field on moving charges. Figure a shows a positive charge with a velocity vector due west, a magnetic field line B oriented due north, and a magnetic force vector F straight down. Figure b shows the right hand facing down, with the fingers pointing north with B, the thumb pointing west with v, and force down away from the hand.](../resources/Figure_22_04_02a.jpg "A positively charged object moving due west in a region where the Earth&#x2019;s magnetic field is due north experiences a force that is straight down as shown. A negative charge moving in the same direction would feel a force straight up.")
-{ #Figure2}
+{: #Figure2}
 
 **Strategy**
 
@@ -156,7 +156,7 @@ If a charged particle moves in a straight line through some region of space, can
 What is the direction of the magnetic force on a positive charge that moves as shown in each of the six cases shown in [[Figure 3]](#Figure3)?
 
 ![figure a shows magnetic field line direction symbols with solid circles labeled B out; a velocity vector points down; figure b shows B vectors pointing right and v vector pointing up; figure c shows B in and v to the right; figure d shows B vector pointing right and v vector pointing left; figure e shows B vectors up and v vector into the page; figure f shows B vectors pointing left and v vectors out of the page](../resources/Figure_22_04_03a.jpg " ")
-{ #Figure3 height="425"}
+{: #Figure3 height="425"}
 
 </div>
 <div class="solution" markdown="1">
@@ -185,7 +185,7 @@ Repeat the above [[Exercise]](#Exercise1) for a negative charge.
 <div id="Exercise3" class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 What is the direction of the velocity of a negative charge that experiences the magnetic force shown in each of the three cases in [[Figure 3]](#Figure3), assuming it moves perpendicular to  $$\vb{B}$$ ?
-![Figure a shows the force vector pointing up and B out of the page. Figure b shows the F vector pointing up and the B vector pointing to the right. Figure c shows the F vector pointing to the left and the B vector pointing into the page.](../resources/Figure_22_04_04a.jpg " "){ #Figure3}
+![Figure a shows the force vector pointing up and B out of the page. Figure b shows the F vector pointing up and the B vector pointing to the right. Figure c shows the F vector pointing to the left and the B vector pointing into the page.](../resources/Figure_22_04_04a.jpg " "){: #Figure3}
 
 </div>
 <div class="solution" markdown="1">
@@ -211,7 +211,7 @@ What is the direction of the magnetic field that produces the magnetic force on 
  is perpendicular to  $$\vb{v} $$ ?
 
 ![Figure a shows a force vector pointing toward the left and a velocity vector pointing up. Figure b shows the force vector pointing into the page and the velocity vector pointing down. Figure c shows the force vector pointing up and the velocity vector pointing to the left.](../resources/Figure_22_04_05a.jpg " ")
-{ #Figure4}
+{: #Figure4}
 
 </div>
 <div class="solution" markdown="1">
@@ -295,7 +295,7 @@ An electron moving at  $$ 4.00 \times 10^{3}  \text{m/s} $$
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 right hand rule 1 (RHR-1)
 : the rule to determine the direction of the magnetic force on a positive moving

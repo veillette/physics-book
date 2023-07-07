@@ -8,12 +8,12 @@ layout: page
 </div>
 
 ![In the figure, a horizontal bar is drawn. A perpendicular dotted line from the middle of the bar, depicting the equilibrium of pendulum, is drawn downward. A string of length L is tied to the bar at the equilibrium point. A circular bob of mass m is tied to the end of the string which is at a distance s from the equilibrium. The string is at an angle of theta with the equilibrium at the bar. A red arrow showing the time T of the oscillation of the mob is shown along the string line toward the bar. An arrow from the bob toward the equilibrium shows its restoring force asm g sine theta. A perpendicular arrow from the bob toward the ground depicts its mass as W equals to mg, and this arrow is at an angle theta with downward direction of string.](../resources/Figure_16_04_01a.jpg "A simple pendulum has a small-diameter bob and a string that has a very small mass but is strong enough not to stretch appreciably. The linear displacement from equilibrium is \( s \) , the length of the arc. Also shown are the forces on the bob, which result in a net force of \( -mg \sin \theta \) toward the equilibrium position&#x2014;that is, a restoring force.")
-{ #Figure1}
+{: #Figure1}
 
 Pendulums are in common usage. Some have crucial uses, such as in clocks; some
 are for fun, such as a child’s swing; and some are just there, such as the
 sinker on a fishing line. For small displacements, a pendulum is a simple
-harmonic oscillator. A **simple pendulum**{ class="term"} is defined to have an
+harmonic oscillator. A **simple pendulum**{: class="term"} is defined to have an
 object that has a small mass, also known as the pendulum bob, which is suspended
 from a light wire or string, such as shown in [[Figure 1]](#Figure1). Exploring
 the simple pendulum a bit further, we can discover the conditions under which it
@@ -179,7 +179,7 @@ PhET Explorations: Pendulum Lab
 </div>
 Play with one or two pendulums and discover how the period of a simple pendulum depends on the length of the string, the mass of the pendulum bob, and the amplitude of the swing. It’s easy to measure the period using the photogate timer. You can vary friction and the strength of gravity. Use the pendulum to find the value of  $$g $$
  on planet X. Notice the anharmonic behavior at large amplitude.
-{ class="newline"}
+{: class="newline"}
 
 <div class="media"  data-alt="pendulums">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/pendulum-lab/latest/pendulum-lab_en.html"></iframe>
@@ -349,7 +349,7 @@ length must increase by 0.0116%.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 simple pendulum
 : an object with a small mass suspended from a light wire or string

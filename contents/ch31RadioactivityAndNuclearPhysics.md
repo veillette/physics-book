@@ -8,7 +8,7 @@ layout: page
 </div>  
 
 ![The image shows a ray of blue light being emitted from a small slit in a cylindrical source.](../resources/Figure_31_00_01a.jpg "The synchrotron source produces electromagnetic radiation, as evident from the visible glow. (credit: United States Department of Energy, via Wikimedia Commons) ")
-{ #Figure1}
+{: #Figure1}
 
 There is an ongoing quest to find substructures of matter. At one time, it was
 thought that atoms would be the ultimate substructure, but just when the first

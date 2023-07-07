@@ -38,7 +38,7 @@ a **test charge** $$q $$ at a distance $$r $$
 force field depend on $$Q $$ and the test charge $$q $$.
 
 ![In part a, two charges Q and q one are placed at a distance r. The force vector F one on charge q one is shown by an arrow pointing toward right away from Q. In part b, two charges Q and q two are placed at a distance r. The force vector F two on charge q two is shown by an arrow pointing toward left toward Q.](../resources/Figure_18_04_02a.jpg "The Coulomb force field due to a positive charge \( Q \) is shown acting on two different charges. Both charges are the same distance from \( Q \) . (a) Since \( q_{1} \) is positive, the force \( F_{1} \) acting on it is repulsive. (b) The charge \( q_{2} \) is negative and greater in magnitude than \( q_{1} \) , and so the force \( F_{2} \) acting on it is attractive and stronger than \( F_{1} \) . The Coulomb force field is thus not unique at any point in space, because it depends on the test charges \( q_{1} \) and \( q_{2} \) as well as the charge \( Q \) .")
-{ #Figure1}
+{: #Figure1}
 
 To simplify things, we would prefer to have a field that depends only on $$Q $$
 and not on the test charge $$q $$ . The electric field is defined in such a
@@ -145,7 +145,7 @@ situations.
 PhET Explorations: Electric Field of Dreams
 </div>
 Play ball! Add charges to the Field of Dreams and see how they react to the electric field. Turn on a background electric field and adjust the direction and magnitude.
-{ class="newline"}
+{: class="newline"}
 
 <div class="media"  data-alt="electric field">
 <iframe width="660" height="371.4" src="https://veillette.github.io/simulations/electric-field-of-dreams/#sim-electric-field-of-dreams"></iframe>
@@ -255,7 +255,7 @@ Calculate the initial (from rest) acceleration of a proton in a  $$ 5.00 \times 
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 field
 : a map of the amount and direction of a force acting on other objects,

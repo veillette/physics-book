@@ -25,7 +25,7 @@ by trigonometric methods. These ideas were developed
 in [Two-Dimensional Kinematics](../contents/ch3TwoDimensionalKinematics.md).
 
 ![(a) Overhead view of two ice skaters pushing on a third. One skater pushes with a force F two, represented by an arrow pointing up, and a second skater pushes with a force F one, represented by an arrow pointing from left to right. Vector F one and vector F two are along the arms of the two skaters acting on the third skater. A vector diagram is shown in the form of a right triangle in which the base is vector F one pointing east and perpendicular is shown by vector F two pointing north. The resultant vector is shown by the hypotenuse pointing northeast. (b) Free-body diagram showing only the forces acting on the skater.](../resources/Figure_04_01_01.jpg "Part (a) shows an overhead view of two ice skaters pushing on a third. Forces are vectors and add like other vectors, so the total force on the third skater is in the direction shown. In part (b), we see a free-body diagram representing the forces acting on the third skater.")
-{ #Figure1}
+{: #Figure1}
 
 [Figure 1](#Figure1)(b) is our first example of a **free-body diagram**, which is a
 technique used to illustrate all the **external forces** acting on a body. The
@@ -52,7 +52,7 @@ chapter.
 (b) The same spring is shown pulled by a person by a distance of delta x. The restoring force F restore is represented by an arrow pointing left toward the position where the spring is fixed. (c) A spring balance containing a spring stretched a distance delta x is shown. The restoring force is represented by an arrow F restore pointing toward the left in the direction opposite to the elongation of the spring.](../resources/Figure_04_01_02.jpg "The force exerted by a stretched spring can be used as a standard unit of force. (a) This spring has a length \( x \) when undistorted.
 (b) When stretched a distance \( \Delta x \) , the spring exerts a restoring force, \( F_{\text{restore}} \), which is reproducible.
 (c) A spring scale is one device that uses a spring to measure force. The force \( F_{\text{restore}} \) i s exerted on whatever is attached to the hook. Here \( F_{\text{restore}} \) has a magnitude of 6 units in the force standard being employed.")
-{ #Figure2}
+{: #Figure2}
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -88,7 +88,7 @@ What properties do forces have that allow us to classify them as vectors?
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 dynamics
 : the study of how forces affect the motion of objects and systems

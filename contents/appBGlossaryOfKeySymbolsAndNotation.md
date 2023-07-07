@@ -222,4 +222,4 @@ In this glossary, key symbols and notation are briefly defined.
 | $$ Y $$                                   | elastic modulus or Young\'s modulus                                                     |
 | $$ Z $$                                   | atomic number (number of protons in a nucleus)                                          |
 
-{ #Table1}
+{: #Table1}

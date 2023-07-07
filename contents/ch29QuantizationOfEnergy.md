@@ -21,7 +21,7 @@ earliest clues about the necessity of quantum mechanics over classical physics
 came from the quantization of energy.
 
 ![The blackbody radiation graph of E M radiation intensity versus wavelengths is shown, with the visible band represented as vertical colored strip marked on x axis. Wavelength is along x axis and E M radiation intensity is along y axis. The variation of E M radiation intensity is shown by three curves that start at origin, rise up to their highest point and then drop toward the x axis smoothly, and finally extend parallel to the x axis. There are three curves for three different temperatures, and each has a different peak for radiation intensity. As the temperature decreases, the peak of the black body radiation curves moves to a lower radiation intensity and longer wavelength.](../resources/Figure_29_01_01a.jpg "Graphs of blackbody radiation (from an ideal radiator) at three different radiator temperatures. The intensity or rate of radiation emission increases dramatically with temperature, and the peak of the spectrum shifts toward the visible and ultraviolet parts of the spectrum. The shape of the spectrum cannot be described with classical physics.")
-{ #Figure1}
+{: #Figure1}
 
 Where is the quantization of energy observed? Let us begin by considering the
 emission and absorption of electromagnetic (EM) radiation. The EM spectrum
@@ -92,7 +92,7 @@ Planck was the first to suggest the correct formula for relativistic momentum,
 $$p=\gamma mu $$.
 
 ![A photo of German physicist Max Plank is shown.](../resources/Figure_29_01_02a.jpg "The German physicist Max Planck had a major influence on the early development of quantum mechanics, being the first to recognize that energy is sometimes quantized. Planck also made important contributions to special relativity and classical physics. (credit: Library of Congress, Prints and Photographs Division via Wikimedia Commons)")
-{ #Figure2}
+{: #Figure2}
 
 Note that Planck’s constant $$h $$ is a very small number. So for an infrared
 frequency of $$ 10^{14} \text{Hz} $$ being emitted by a blackbody, for example,
@@ -128,7 +128,7 @@ and molecules are quantized. This is discussed in more detail later in this
 chapter.
 
 ![Emission spectrum of oxygen is shown as a band containing all colors with some distinct colors as discrete bold lines.](../resources/Figure_29_01_03a.jpg "Emission spectrum of oxygen. When an electrical discharge is passed through a substance, its atoms and molecules absorb energy, which is reemitted as EM radiation. The discrete nature of these emissions implies that the energy states of the atoms and molecules are quantized. Such atomic spectra were used as analytical tools for many decades before it was understood why they are quantized. (credit: Teravolt, Wikimedia Commons)")
-{ #Figure3}
+{: #Figure3}
 
 It was a major puzzle that atomic spectra are quantized. Some of the best minds
 of 19th-century science failed to explain why this might be. Not until the
@@ -142,10 +142,10 @@ molecules.
 PhET Explorations: Models of the Hydrogen Atom
 </div>
 How did scientists figure out the structure of atoms without looking at them? Try out different models by shooting light at the atom. Check how the prediction of the model matches the experimental results.
-{ class="newline"}
+{: class="newline"}
 
 
-{ class="newline"}
+{: class="newline"}
 
 <div class="media" id="PhET_module" data-alt="">
 <iframe width="860" height="500.4" src="https://veillette.github.io/simulations/hydrogen-atom/#sim-hydrogen-atom"></iframe>
@@ -248,7 +248,7 @@ A physicist is watching a 15-kg orangutan at a zoo swing lazily in a tire at the
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 blackbody
 : an ideal radiator, which can radiate equally well at all wavelengths

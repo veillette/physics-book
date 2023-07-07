@@ -54,7 +54,7 @@ experienced on the macroscopic scale.
 | Weak nuclear    | $$10^{-6}$$                    | $$<10^{-18}$$m  | attractive and repulsive    | W+, W–, Z0 |
 | Strong nuclear  | $$1$$                          | $$<10^{-15}$$m    | attractive and repulsive    | Gluons |
 
-{ #Table1}
+{: #Table1}
 
 The gravitational force is surprisingly weak—it is only because gravity is
 always attractive that we notice it at all. Our weight is the gravitational
@@ -131,7 +131,7 @@ calculated from these equations. (
 See [Figure 1](#Figure1).)
 
 ![The electric force field between a positively charged particle and a negatively charged particle. Electric field lines start from the positive charge and end at the negative charge, and each line is represented as a curved arrow.](../resources/Figure_04_08_01.jpg "The electric force field between a positively charged particle and a negatively charged particle. When a positive test charge is placed in the field, the charge will experience a force in the direction of the force field lines.")
-{ #Figure1}
+{: #Figure1}
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -155,7 +155,7 @@ one another. (See [Figure 2](#Figure2).)
 ![(a) Two persons throwing a basketball to each other. The person on the left is throwing the ball with some force F sub p one, represented by a vector pointing right, in the direction of the motion of the ball. A reaction force F sub B is shown on the person by a vector pointing left. (b) The person catches the ball, exerting a force F sub p two on the ball toward the left, shown by a vector F sub p two toward the left. A reaction force F prime sub B acts on the person, shown by a vector pointing toward right.
 (c) The exchange of a meson is shown between a proton and a neutron. Both are moving in different directions, and the proton feels a force F sub exch toward the left and the neutron feels a force F prime sub exch toward the right. The meson is also moving toward the right between the proton and the neutron.](../resources/Figure_04_08_02.jpg "The exchange of masses resulting in repulsive forces. (a) The person throwing the basketball exerts a force \( \vb{F}_{p1} \) on it toward the other person and feels a reaction force &#10; \( \vb{F}_B \) away from the second person. (b) The person catching the basketball exerts a force &#10;\( \vb{F}_{p2} \) on it to stop the ball and feels a reaction force &#10; \( \vb{F}^\prime_B \) away from the first person.
 (c) The analogous exchange of a meson between a proton and a neutron carries the strong nuclear forces \( \vb{F}_\text{exch} \) and \( \vb{F}^\prime_\text{exch} \) between them. An attractive force can also be exerted by the exchange of a mass&#x2014;if person 2 pulled the basketball away from the first person as he tried to retain it, then the force between them would be attractive.")
-{ #Figure2 height="450"}
+{: #Figure2 height="450"}
 
 This idea of particle exchange deepens rather than contradicts field concepts.
 It is more satisfying philosophically to think of something physical actually
@@ -179,7 +179,7 @@ See [Figure 3](#Figure3).)
 The LHC's goal is to allow physicists to test the predictions of different theories of particle physics, including measuring the properties of the Higgs boson, searching for the large family of new particles predicted by supersymmetric theories, and other unresolved questions in particle physics such as why different particles have different masses.
 
 ![A close-up view of part of the world&#x2019;s largest particle accelerator.](../resources/Figure_04_08_03.jpg "The world&#x2019;s largest particle accelerator spans the border between Switzerland and France. Two beams, traveling in opposite directions close to the speed of light, collide in a tube similar to the central tube shown here. External magnets determine the beam&#x2019;s path. Special detectors will analyze particles created in these collisions. Questions as broad as what is the origin of mass and what was matter like the first few seconds of our universe will be explored. This accelerator began preliminary operation in 2008. (credit: Frank Hommes)")
-{ #Figure3}
+{: #Figure3}
 
 Tiny particles also have wave-like behavior, something we will explore more in a
 later chapter. To better understand force-carrier particles from another
@@ -214,7 +214,7 @@ Accuracy to within 10% of the size of an atom will be needed to detect any
 waves. The launch of this project will likely be in the 2030s.
 
 ![NASA illustration of LISA, showing three spacecrafts positioned in orbits that form a triangular formation. The triangular formation is positioned to the left of the Sun, Earth, and Moon in the diagram. Figure not to scale.](../resources/Figure_04_08_04.jpg "Space-based future experiments for the measurement of gravitational waves. Shown here is a drawing of LISA&#x2019;s orbit. Each satellite of LISA will consist of a laser source and a mass. The lasers will transmit a signal to measure the distance between each satellite&#x2019;s test mass. The relative motion of these masses will provide information about passing gravitational waves. (credit: NASA)")
-{ #Figure4}
+{: #Figure4}
 
 As you can see above, some of the most groundbreaking developments in physics are made with a relatively long gap from theoretical prediction to experimental detection. This pattern continues the process of science from its earliest days, where early thinkers and researchers made discoveries that only led to more questions. Einstein was unique in many ways, but he was not unique in that later scientists, building on his and each other's work, would prove his theories. Evidence for black holes became more and more concrete as scientists developed new and better ways to look for them. Some of the most prominent have been Roger Penrose, who developed new mathematical models related to black holes, as well as Reinhard Genzel and Andrea Ghez, who independently used telescope observations to identify a region of our galaxy where a massive unseen gravity source (4 million times the size of our Sun) was pulling on stars. And soon after, collaborators on the Event Horizon Telescope project produced the first actual image of a black hole.
 
@@ -290,7 +290,7 @@ What is the ratio of the strength of the strong nuclear force to that of the ele
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 carrier particle
 : a fundamental particle of nature that is surrounded by a characteristic force

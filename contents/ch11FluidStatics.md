@@ -4,7 +4,7 @@ layout: page
 ---
 
 ![A swimmer in a pool doing the backstroke.](../resources/Figure_11_00_01a_D.jpg "The fluid essential to all life has a beauty of its own. It also helps support the weight of this swimmer. (credit: Terren, Wikimedia Commons)")
-{ #Figure1}
+{: #Figure1}
 
 Much of what we value in life is fluid: a breath of fresh winter air; the hot
 blue flame in our gas cooker; the water we drink, swim in, and bathe in; the

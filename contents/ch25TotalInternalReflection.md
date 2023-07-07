@@ -36,7 +36,7 @@ medium 1, a condition called **total internal reflection**.
 </div>
 
 ![In the first figure, an incident ray at an angle theta 1 with a perpendicular line drawn at the point of incidence travels from n1 to n2. The incident ray suffers both refraction and reflection. The angle of refraction is theta 2. In the second figure, as theta 1 is increased, the angle of refraction theta 2 becomes 90 degrees and the angle of reflection corresponding to 90 degrees is theta c. In the third figure, theta c greater than theta i, total internal reflection takes place and instead of refraction, reflection takes place and the light ray travels back into medium n1.](../resources/Figure_25_04_01.jpg "(a) A ray of light crosses a boundary where the speed of light increases and the index of refraction decreases. That is, \( n_2 <  n_1 \) . The ray bends away from the perpendicular. (b) The critical angle \( \theta _c \) is the one for which the angle of refraction is . (c) Total internal reflection occurs when the incident angle is greater than the critical angle.")
-{ #Figure1}
+{: #Figure1}
 
 Snell’s law states the relationship between angles and indices of refraction. It
 is given by
@@ -129,10 +129,10 @@ refraction. Rays are reflected around corners as shown, making the fibers into
 tiny light pipes.
 
 ![Light ray enters an S-shaped tube and undergoes multiple reflections, finally emerging through the other end.](../resources/Figure_25_04_02.jpg "Light entering a thin fiber may strike the inside surface at large or grazing angles and is completely reflected if these angles exceed the critical angle. Such rays continue down the fiber, even following it around corners, since the angles of reflection and incidence remain large.")
-{ #Figure2}
+{: #Figure2}
 
 Bundles of fibers can be used to transmit an image without a lens, as
-illustrated in [[Figure 3]](#Figure3). The output of a device called an **endoscope**{ class="term"} is shown in [[Figure 3]](#Figure3)(b). Endoscopes
+illustrated in [[Figure 3]](#Figure3). The output of a device called an **endoscope**{: class="term"} is shown in [[Figure 3]](#Figure3)(b). Endoscopes
 are used to explore the body through various orifices or minor incisions. Light
 is transmitted down one fiber bundle to illuminate internal parts, and the
 reflected light is transmitted back out through another to be observed. Surgery
@@ -151,7 +151,7 @@ remote surgery where the incisions are small and the surgeon’s fingers do not
 need to touch the diseased tissue.
 
 ![Picture (a) shows how an image A is transmitted through a bundle of parallel fibers. Picture (b) shows an endoscope image.](../resources/Figure_25_04_03.jpg "(a) An image is transmitted by a bundle of fibers that have fixed neighbors. (b) An endoscope is used to probe the body, both transmitting light to the interior and returning an image such as the one shown. (credit: Med_Chaos, Wikimedia Commons)")
-{ #Figure3}
+{: #Figure3}
 
 Fibers in bundles are surrounded by a cladding material that has a lower index
 of refraction than the core. (See [[Figure 4]](#Figure4).) The cladding prevents
@@ -166,7 +166,7 @@ at the other end. The cladding and an additional protective layer make optical
 fibers flexible and durable.
 
 ![The image shows a bundle fiber with a medium of refractive index n sub 1 inside surrounded by a medium n sub 2. Medium n sub 2 is made up of cladding material and n sub 1 is the core.](../resources/Figure_25_04_04.jpg "Fibers in bundles are clad by a material that has a lower index of refraction than the core to ensure total internal reflection, even when fibers are in contact with one another. This shows a single fiber with its cladding.")
-{ #Figure4}
+{: #Figure4}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -206,7 +206,7 @@ A light ray that strikes an object consisting of two mutually perpendicular
 reflecting surfaces is reflected back exactly parallel to the direction from
 which it came. This is true whenever the reflecting surfaces are perpendicular,
 and it is independent of the angle of incidence. Such an object, shown
-in [[Figure 5]](#Figure5), is called a **corner reflector**{ class="term"},
+in [[Figure 5]](#Figure5), is called a **corner reflector**{: class="term"},
 since the light bounces from its inside corner. Many inexpensive reflector
 buttons on bicycles, cars, and warning signs have corner reflectors designed to
 return light in the direction from which it originated. It was more expensive
@@ -215,7 +215,7 @@ corner reflector to measure the gradually increasing distance to the moon with
 great precision.
 
 ![Picture (a) shows the lunar expedition with the astronauts and their space shuttle. Picture (b) shows rectangular and round shaped bicycle reflectors.](../resources/Figure_25_04_05.jpg "(a) Astronauts placed a corner reflector on the moon to measure its gradually increasing orbital distance. (credit: NASA) (b) The bright spots on these bicycle safety reflectors are reflections of the flash of the camera that took this picture on a dark night. (credit: Julo, Wikimedia Commons)")
-{ #Figure5}
+{: #Figure5}
 
 Corner reflectors are perfectly efficient when the conditions for total internal
 reflection are satisfied. With common materials, it is easy to obtain a critical
@@ -224,7 +224,7 @@ in binoculars, as shown in [[Figure 6]](#Figure6). Another use is in periscopes
 found in submarines.
 
 ![The picture shows binoculars with prisms inside. The light through one of the object lenses enters through the first prism and suffers total internal reflection and then falls on the second prism and gets total internally reflected and emerges out through one of the eyepiece lenses.](../resources/Figure_25_04_06.jpg "These binoculars employ corner reflectors with total internal reflection to get light to the observer&#x2019;s eyes.")
-{ #Figure6}
+{: #Figure6}
 
 ### The Sparkle of Diamonds
 
@@ -250,17 +250,17 @@ and cognac diamonds, while around 50% of the world’s clear diamonds come from
 central and southern Africa.
 
 ![A light ray falls onto one of the faces of a diamond, gets refracted, falls on another face and gets totally internally reflected, and this reflected ray further undergoes multiple reflections when it falls on other faces.](../resources/Figure_25_04_07.jpg "Light cannot easily escape a diamond, because its critical angle with air is so small. Most reflections are total, and the facets are placed so that light can exit only in particular ways&#x2014;thus concentrating the light and making the diamond sparkle.")
-{ #Figure7}
+{: #Figure7}
 
 <div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Bending Light
 </div>
 Explore bending of light between two media with different indices of refraction. See how changing from air to water to glass changes the bending angle. Play with prisms of different shapes and make rainbows. 
-{ class="newline"}
+{: class="newline"}
 
 
-{ class="newline"}
+{: class="newline"}
 
 <div class="media" id="PhET_module" data-alt="">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/bending-light/latest/bending-light_en.html"></iframe>
@@ -304,7 +304,7 @@ A high-quality diamond may be quite clear and colorless, transmitting all visibl
 Is it possible that total internal reflection plays a role in rainbows? Explain in terms of indices of refraction and angles, perhaps referring to [[Figure 8]](#Figure8). Some of us have seen the formation of a double rainbow. Is it physically possible to observe a triple rainbow?
 
 ![A double rainbow with spectacular bands of seven colors.](../resources/Figure_25_04_08.jpg "Double rainbows are not a very common observance. (credit: InvictusOU812, Flickr)")
-{ #Figure8}
+{: #Figure8}
 
 </div>
 </div>
@@ -375,7 +375,7 @@ You can determine the index of refraction of a substance by determining its crit
 A ray of light, emitted beneath the surface of an unknown liquid with air above it, undergoes total internal reflection as shown in [[Figure 9]](#Figure9). What is the index of refraction for the liquid and its likely identification?
 
 ![A light ray travels from an object placed in a denser medium n1 at 15.0 centimeter from the boundary and on hitting the boundary gets totally internally reflected with theta c as critical angle. The horizontal distance between the object and the point of incidence is 13.4 centimeters.](../resources/Figure_25_04_09.jpg "A light ray inside a liquid strikes the surface at the critical angle and undergoes total internal reflection.")
-{ #Figure9}
+{: #Figure9}
 
 </div>
 <div class="solution" markdown="1">
@@ -389,14 +389,14 @@ A ray of light, emitted beneath the surface of an unknown liquid with air above 
 A light ray entering an optical fiber surrounded by air is first refracted and then reflected as shown in [[Figure 10]](#Figure10). Show that if the fiber is made from crown glass, any incident ray will be totally internally reflected.
 
 ![The figure shows light traveling from n1 to n2 is incident on a rectangular transparent object at an angle of incidence theta 1. The angle of refraction is theta 2. On refraction, the ray falls onto the long side and gets totally internally reflected with theta 3 as the angle of incidence.](../resources/Figure_25_04_10.jpg "A light ray enters the end of a fiber, the surface of which is perpendicular to its sides. Examine the conditions under which it may be totally internally reflected.")
-{ #Figure10}
+{: #Figure10}
 
 </div>
 </div>
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 critical angle
 : incident angle that produces an angle of refraction of $$90 ^\circ $$

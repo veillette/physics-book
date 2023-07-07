@@ -9,7 +9,7 @@ layout: page
 </div>
 
 ![Water surface of a river is shown, with mountains in the background. There are small ripples over the water surface.](../resources/Figure_16_10_01a.jpg "These waves result from the superposition of several waves from different sources, producing a complex pattern. (credit: waterborough, Wikimedia Commons)")
-{ #Figure1}
+{: #Figure1}
 
 Most waves do not look very simple. They look more like the waves
 in [[Figure 1]](#Figure1) than like the simple water wave considered
@@ -41,10 +41,10 @@ superposition, the resulting amplitude is zero for pure destructive
 interference—the waves completely cancel.
 
 ![The graph shows two identical waves that arrive at the same point exactly in phase. The crests of the two waves are precisely aligned, as are the troughs. The amplitude of each wave being X . It produces pure constructive wave. The disturbances add resulting in a new wave with twice the amplitude of the individual waves that is two X but of same wavelength.](../resources/Figure_16_10_02a.jpg "Pure constructive interference of two identical waves produces one with twice the amplitude, but the same wavelength.")
-{ #Figure2}
+{: #Figure2}
 
 ![The graph shows two identical waves that arrive exactly out of phase. The crests of one wave are aligned with the trough of another wave. Each wave has amplitude equal to X. As the disturbances are in the opposite directions, they cancel out each other, resulting in zero amplitude which is shown as the third figure showing a green straight line, that is, the waves cancel each other producing pure destructive interference.](../resources/Figure_16_10_03a.jpg "Pure destructive interference of two identical waves produces zero amplitude, or complete cancellation.")
-{ #Figure3}
+{: #Figure3}
 
 While pure constructive and pure destructive interference do occur, they require
 precisely aligned identical waves. The superposition of most waves produces a
@@ -64,7 +64,7 @@ in [[Figure 4]](#Figure4). Here again, the disturbances add and subtract,
 producing a more complicated looking wave.
 
 ![The graph shows two non-identical waves with different frequencies and wavelengths. In the first graph only one crest and one trough of the wave are seen. In the second figure five crests are seen in the same length. When they superimpose, the disturbance add and subtract, producing a more complicated looking wave with highly irregular amplitude and wavelength due to combined effect of constructive and destructive interference.](../resources/Figure_16_10_04a.jpg "Superposition of non-identical waves exhibits both constructive and destructive interference.")
-{ #Figure4}
+{: #Figure4}
 
 ### Standing Waves
 
@@ -96,7 +96,7 @@ points. Often areas closer to the epicenter are not damaged while areas farther
 away are damaged.
 
 ![Standing wave combinations of two waves is shown. At the time t is equal to zero. The waves are in the same phase so the amplitude of the superimposed wave is double that of wave one and two. In the second figure at time t is equal to one fourth of time period T , the waves are in opposite phase so their super imposed figure is a straight line. Again at the time t is equal to half the time period the waves are in the same phase and the process is repeated at t is equal to three fourth of time period and at the end of the time period T.](../resources/Figure_16_10_05a.jpg "Standing wave created by the superposition of two identical waves moving in opposite directions. The oscillations are at fixed locations in space and result from alternately constructive and destructive interference.")
-{ #Figure5}
+{: #Figure5}
 
 Standing waves are also found on the strings of musical instruments and are due
 to reflections of waves from the ends of the string. [[Figure 6]](#Figure6)
@@ -125,10 +125,10 @@ later chapters that standing waves are crucial to many resonance phenomena, such
 as in sounding boxes on string instruments.
 
 ![The graph shows a wave with wavelength lambda one equal to L, which has two loops. There three nodes and two antinodes in the figure. The length of one loop is L.](../resources/Figure_16_10_06a.jpg "The figure shows a string oscillating at its fundamental frequency.")
-{ #Figure6}
+{: #Figure6}
 
 ![first overtone is shown as the wave length if lambda two is L and there are three nodes and two antinodes in the figure. For first overtone the frequency f two is equal to two times f one.](../resources/Figure_16_10_07a.jpg "First and second harmonic frequencies are shown.")
-{ #Figure7}
+{: #Figure7}
 
 ### Beats
 
@@ -144,7 +144,7 @@ the two waves go in and out of phase. [[Figure 8]](#Figure8) illustrates this
 graphically.
 
 ![The graph shows the superimposition of two similar but non-identical waves. Beats are produced by alternating destructive and constructive waves with equal amplitude but different frequencies. The resultant wave is the one with rising and falling amplitude over different intervals of time.](../resources/Figure_16_10_08a.jpg "Beats are produced by the superposition of two waves of slightly different frequencies but identical amplitudes. The waves alternate in time between constructive interference and destructive interference, giving the resulting wave a time-varying amplitude.")
-{ #Figure8}
+{: #Figure8}
 
 The wave resulting from the superposition of two similar-frequency waves has a
 frequency that is the average of the two. This wave fluctuates in amplitude,
@@ -352,7 +352,7 @@ Three adjacent keys on a piano (F, F-sharp, and G) are struck simultaneously, pr
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 antinode
 : the location of maximum amplitude in standing waves

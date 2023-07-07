@@ -4,7 +4,7 @@ layout: page
 ---    
 
 ![View of tubular arrangement of atoms, as observed with a scanning electron microscope.](../resources/Figure_30_00_01a.jpg "Individual carbon atoms are visible in this image of a carbon nanotube made by a scanning tunneling electron microscope. (credit: Taner Yildirim, National Institute of Standards and Technology, via Wikimedia Commons)")
-{ #Figure1}
+{: #Figure1}
 
 From childhood on, we learn that atoms are a substructure of all things around
 us, from the air we breathe to the autumn leaves that blanket a forest trail.

@@ -4,7 +4,7 @@ layout: page
 ---
 
 ![A large volume of water gushes out of the gates of a dam at a hydroelectric facility.](../resources/Figure_19_00_01.jpg "Electric energy in massive quantities is transmitted from this hydroelectric facility, the Srisailam power station located along the Krishna River in India, by the movement of charge&#x2014;that is, by electric current. (credit: Chintohere, Wikimedia Commons)")
-{ #Figure1}
+{: #Figure1}
 
 The flicker of numbers on a handheld calculator, nerve impulses carrying signals
 of vision to the brain, an ultrasound device sending a signal to a computer

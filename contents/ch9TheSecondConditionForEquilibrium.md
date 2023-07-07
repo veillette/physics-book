@@ -31,7 +31,7 @@ this direction almost instinctively.
 ![In the figure, six top views of a door are shown. In the first figure, a force vector is shown in the North West direction. The perpendicular distance of the force from the point of rotation is r. In the second figure, a force is applied in the opposite direction at the same distance from the hinges. In the third figure, a smaller force in applied at the same point. In the next figure, a horizontal force is applied at the same point. In this case, the perpendicular distance from the hinges is shown as r sin theta. In the next figure, force is applied at a distance near the hinges. In the final figure, the force is shown along the direction of hinges toward the handle of the door.](../resources/Figure_09_02_01a.jpg "Torque is the turning or twisting effectiveness of a force, illustrated here for door rotation on its hinges (as viewed from overhead). Torque has both magnitude and direction. (a) Counterclockwise torque is produced by this force, which means that the door will rotate in a counterclockwise due to \( F \) . Note that \( r_\perp \) is the perpendicular distance of the pivot from the line of action of the force.
 (b) A smaller counterclockwise torque is produced by a smaller force \( F^\prime \) acting at the same distance from the hinges (the pivot point).
 (c) The same force as in (a) produces a smaller counterclockwise torque when applied at a smaller distance from the hinges. (d) The same force as in (a), but acting in the opposite direction, produces a clockwise torque. (e) A smaller counterclockwise torque is produced by the same magnitude force acting at the same point but in a different direction. Here, \( \theta \) is less than 90&#xBA;. (f) Torque is zero here since the force just pulls on the hinges, producing no rotation. In this case, \( \theta= 0^\circ \) .")
-{ #Figure1}
+{: #Figure1}
 
 The magnitude, direction, and point of application of the force are incorporated
 into the definition of the physical quantity called torque. **Torque** is the
@@ -65,7 +65,7 @@ so that
 
 ![In the first part of the figure, a hockey stick is shown. At a point A near the bottom, a nail is fixed. A force is applied at a point near the holding grip of the hockey stick. A quarter circular arrow shows that the stick rotates in the counterclockwise direction. The perpendicular distance between the pivot point and the force vector direction is labeled as r-perpendicular, and the angle between the direction of force and the line joining the pivot A to the point of application of force is given as theta. In the second part of the figure, the pivot point is near the top of the stick and the point of application of the force is about the same as that in the first part of the figure. An upward quarter circle arrow shows that the stick rotates in the clockwise direction.](../resources/Figure_09_02_02abc.jpg "A force applied to an object can produce a torque, which depends on the location of the pivot point. (a) The three factors r, F, and \( \theta \) for pivot point A on a body are shown here&#x2014;r is the distance from the chosen pivot point to the point where the force F is applied, and &#x3B8; is the angle between F and the vector directed from the point of application to the pivot point. If the object can rotate around point A, it will rotate counterclockwise. This means that torque is counterclockwise relative to pivot A.
 (b) In this case, point B is the pivot point. The torque from the applied force will cause a clockwise rotation around point B, and so it is a clockwise torque relative to B.&#10;      ")
-{ #Figure2}
+{: #Figure2}
 
 The perpendicular lever arm $$ r_{\perp } $$ is the shortest distance from the
 pivot point to the line along which $$ \vb{F} $$ acts; it is shown as a dashed
@@ -124,7 +124,7 @@ seesaws, knowing that the lighter child must sit farther from the pivot and that
 a heavier child can keep a lighter one off the ground indefinitely.
 
 ![Two children are sitting on a seesaw. On the left side, a lighter child is sitting and on the right, a heavier one. The distance of the lighter child from the fulcrum is more than that of heavier child. At the fulcrum, an upward force vector labeled as F-p is shown. The weights of the two children, w-one and w-two, are shown as vectors in the downward direction, and the force at the fulcrum, F-p, is shown as a vector in the upward direction.](../resources/Figure_09_02_03a.jpg "Two children balancing a seesaw satisfy both conditions for equilibrium. The lighter child sits farther from the pivot to create a torque equal in magnitude to that of the heavier child.")
-{ #Figure3}
+{: #Figure3}
 
 <div class="example" id="example1" markdown="1">
 <div class="title">
@@ -449,7 +449,7 @@ F_{\text{p}}&=& 686 \N
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 torque
 : turning or twisting effectiveness of a force

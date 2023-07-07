@@ -74,7 +74,7 @@ small over the depth considered. [[Example 2]](#Example2) illustrates this
 situation.
 
 ![A container with fluid filled to a depth h. The fluid&#x2019;s weight w equal to m times g is shown by an arrow pointing downward. A denotes the area of the fluid at the bottom of the container and as well as on the surface.](../resources/Figure_11_04_01a.jpg "The bottom of this container supports the entire weight of the fluid in it. The vertical sides cannot exert an upward force on the fluid (since it cannot withstand a shearing force), and so the bottom must support it all.")
-{ #Figure1}
+{: #Figure1}
 
 <div id="Example1" class="example" markdown="1">
 <div class="title">
@@ -132,7 +132,7 @@ increasing force due to the increasing pressure.
 </div>
 
 ![A two-dimensional view of a dam with dimensions L and h is shown. Force F at h is shown by a horizontal arrow. The force F exerted by water on the dam is F equals average pressure p bar into area A and pressure in turn is average height h bar into density rho into acceleration due to gravity g.](../resources/Figure_11_04_02a.jpg "The dam must withstand the force exerted against it by the water it retains. This force is small compared with the weight of the water behind the dam.")
-{ #Figure2}
+{: #Figure2}
 
 *Atmospheric pressure* is another example of pressure due to the weight of a
 fluid, in this case due to the weight of *air* above a given height. The
@@ -151,7 +151,7 @@ $$1.00 {\text{m}}^{2} $$ of the Earth’s surface has a weight of $$ 1.01 \times
 (See [[Figure 3]](#Figure3).)
 
 ![Figure shows a column of air exerting a weight of one point zero one times ten to the power five newtons on a rectangular patch of ground of one square meter cross section.](../resources/Figure_11_04_03a.jpg "Atmospheric pressure at sea level averages \( 1.01 \times 10^5 \text{Pa} \) (equivalent to 1 atm), since the column of air over this \( 1 \text{m}^2 \), extending to the top of the atmosphere, weighs \( 1.01 \times 10^5 \text{N} \) .")
-{ #Figure3}
+{: #Figure3}
 
 <div id="Example2" class="example" markdown="1">
 <div class="title">
@@ -269,7 +269,7 @@ What are two reasons why mercury rather than water is used in barometers?
 [[Figure 4]](#Figure4) shows how sandbags placed around a leak outside a river levee can effectively stop the flow of water under the levee. Explain how the small amount of water inside the column formed by the sandbags is able to balance the much larger body of water behind the levee.
 
 ![The figure shows a flooding river on the extreme right, with a levee set up on its left, and sandbags are stacked on the left of the levee. The height of the levee and that of the stacked sandbags is greater than the water level of the flooding river, so the water does not flow over their tops, but a leak under the levee allows some water to flow under it and reach the sandbags.](../resources/Figure_11_04_04a.jpg "Because the river level is very high, it has started to leak under the levee. Sandbags are placed around the leak, and the water held by them rises until it is the same level as the river, at which point the water there stops rising.")
-{ #Figure4}
+{: #Figure4}
 
 </div>
 </div>
@@ -404,14 +404,14 @@ Show that the total force on a rectangular dam due to the water behind it increa
  is the length of the dam. You may assume the face of the dam is vertical. (Hint: Calculate the average pressure exerted and multiply this by the area in contact with the water. (See [[Figure 5]](#Figure5).)
 
 ![A two-dimensional view of a dam with dimensions L and h is shown. Force F at h is shown by a horizontal arrow. The force F exerted by water on the dam is F equals average pressure p bar into area A and pressure in turn is average height h bar into density rho into acceleration due to gravity g.](../resources/Figure_11_04_02a.jpg " ")
-{ #Figure5}
+{: #Figure5}
 
 </div>
 </div>
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 pressure
 : the weight of the fluid divided by the area supporting it

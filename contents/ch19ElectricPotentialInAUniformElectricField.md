@@ -19,8 +19,8 @@ field strength; it will also reveal a more fundamental relationship between
 electric potential and electric field. From a physicist’s point of view, either
 $$\Delta V $$ or $$\vb{E} $$ can be used to describe any charge
 distribution. $$\Delta V $$ is most closely tied to energy, whereas
-$$\vb{E} $$ is most closely related to force. $$\Delta V $$ is a **scalar**{ class="term"} quantity and has no direction, while
-$$\vb{E} $$ is a **vector**{ class="term"} quantity, having both
+$$\vb{E} $$ is most closely related to force. $$\Delta V $$ is a **scalar**{: class="term"} quantity and has no direction, while
+$$\vb{E} $$ is a **vector**{: class="term"} quantity, having both
 magnitude and direction. (Note that the magnitude of the electric field
 strength, a scalar quantity, is represented by $$E $$ below.) The relationship
 between $$\Delta V $$ and $$\vb{E} $$ is revealed by calculating the
@@ -30,7 +30,7 @@ in [Electric Potential Energy: Potential Difference](../contents/ch19ElectricPot
 therefore look at a uniform electric field as an interesting special case.
 
 ![The figure shows two vertically oriented parallel plates A and B separated by a distance d. The plate A is positively charged and B is negatively charged. Electric field lines are parallel between the plates and curved at the ends of the plates. A charge q is moved from A to B. The work done W equals q times V sub A B, and the electric field intensity E equals V sub A B over d and potential difference delta V equals q times V sub A B.](../resources/Figure_19_02_01a.jpg "The relationship between \( V \) and \( E \) for parallel conducting plates is \( E=V/d \) . (Note that \( \Delta V = V_{\text{AB}} \) in magnitude. For a charge that is moved from plate A at higher potential to plate B at lower potential, a minus sign needs to be included as follows:  \( -\Delta V = V_\text{A} -V_\text{B} = V_{\text{AB}} \). See the text for details.)")
-{ #Figure1}
+{: #Figure1}
 
 The work done by the electric field in [[Figure 1]](#Figure1) to move a positive
 charge $$q $$ from A, the positive plate, higher potential, to B, the negative plate, lower
@@ -145,7 +145,7 @@ electricity, on dry days.
 </div>
 
 ![The picture shows a spark chamber placed on a wooden base.](../resources/Figure_19_02_02a.jpg "A spark chamber is used to trace the paths of high-energy particles. Ionization created by the particles as they pass through the gas between the plates allows a spark to jump. The sparks are perpendicular to the plates, following electric field lines between them. The potential difference between adjacent plates is not high enough to cause sparks without the ionization produced by particles from accelerator experiments (or cosmic rays). (credit: Daderot, Wikimedia Commons)")
-{ #Figure2}
+{: #Figure2}
 
 <div class="example" markdown="1">
 <div class="title">
@@ -386,7 +386,7 @@ An electron is to be accelerated in a uniform electric field having a strength o
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 scalar
 : physical quantity with magnitude but no direction

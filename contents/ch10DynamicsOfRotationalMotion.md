@@ -23,7 +23,7 @@ acceleration embodied in Newton’s second law of motion. There are, in fact,
 precise rotational analogs to both force and mass.
 
 ![The given figure shows a bike tire being pulled by a hand with a force F backward indicated by a red horizontal arrow that produces an angular acceleration alpha indicated by a curved yellow arrow in counter-clockwise direction.](../resources/Figure_10_03_01a.jpg "Force is required to spin the bike wheel. The greater the force, the greater the angular acceleration produced. The more massive the wheel, the smaller the angular acceleration. If you push on a spoke closer to the axle, the angular acceleration will be smaller.")
-{ #Figure1}
+{: #Figure1}
 
 To develop the precise relationship among force, mass, radius, and angular
 acceleration, consider what happens if we exert a force $$ F $$ on a point mass
@@ -60,7 +60,7 @@ analogous to mass (or inertia). The quantity $$ m r^{2} $$ is called the
 $$ r $$ from the center of rotation.
 
 ![The given figure shows an object of mass m, kept on a horizontal frictionless table, attached to a pivot point, which is in the center of the table, by a cord that supplies centripetal force. A force F is applied to the object perpendicular to the radius r, which is indicated by a red arrow tangential to the circle, causing the object to move in counterclockwise direction.](../resources/Figure_10_03_02a.jpg "An object is supported by a horizontal frictionless table and is attached to a pivot point by a cord that supplies centripetal force. A force \( F \) is applied to the object perpendicular to the radius \( r \) , causing it to accelerate about the pivot point. The force is kept perpendicular to \( r \) .")
-{ #Figure2}
+{: #Figure2}
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -147,7 +147,7 @@ Problem-Solving Strategy for Rotational Dynamics
 5. *As always, check the solution to see if it is reasonable*.
 
 </div>
-{ #problemSolving}
+{: #problemSolving}
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -156,11 +156,11 @@ Making Connections
 In statics, the net torque is zero, and there is no angular acceleration. In rotational motion, net torque is the cause of angular acceleration, exactly as in Newton’s second law of motion for rotation.
 
 ![Illustrations of ten different objects accompanied by their rotational inertias.](../resources/Figure_10_03_06.jpg "Some rotational inertias.")
-{ #Figure3 height="525"}
+{: #Figure3 height="525"}
 
 </div>
 
-<div class="example" markdown="1">{ #calculatingTheEffectOfMass}
+<div class="example" markdown="1">{: #calculatingTheEffectOfMass}
 <div class="title">
 Calculating the Effect of Mass Distribution on a Merry-Go-Round
 </div>
@@ -173,7 +173,7 @@ Calculate the angular acceleration produced
 Consider the merry-go-round itself to be a uniform disk with negligible retarding friction.
 
 ![The given figure shows a man pushing a merry-go-round by a force F, indicated by a red arrow which is perpendicular to the radius r, of the merry-go-round, such that it moves in counter-clockwise direction.](../resources/Figure_10_03_03a.jpg "A father pushes a playground merry-go-round at its edge and perpendicular to its radius to achieve maximum torque.")
-{ #Figure4}
+{: #Figure4}
 
 **Strategy**
 
@@ -359,7 +359,7 @@ to achieve greater accelerations than would an identical
 reduction in the mass of the bicycle’s frame?
 
 ![The given figure shows a racing bicycle leaning on a door.](../resources/Figure_10_03_04a.jpg "The image shows a side view of a racing bicycle. Can you see evidence in the design of the wheels on this racing bicycle that their moment of inertia has been purposely reduced? (credit: Jes&#xFA;s Rodriguez)")
-{ #Figure5}
+{: #Figure5}
 
 </div>
 </div>
@@ -457,7 +457,7 @@ to be approximately an annular ring with an inner radius of 0.280 m and an outer
 (c) How long, starting from rest, does it take to reach an angular velocity of 80.0 rad/s?
 
 ![The given figure shows the rear wheel of a motorcycle. A force F is indicated by a red arrow pointing leftward at a distance r from its center. Two arrows representing radii R-one and R-two are also indicated. A curved yellow arrow indicates an acceleration alpha and a curved blue arrow indicates an angular velocity omega, both in counter-clockwise direction.](../resources/Figure_10_03_05a.jpg "A motorcycle wheel has a moment of inertia approximately that of an annular ring.")
-{ #Figure6}
+{: #Figure6}
 
 </div>
 </div>
@@ -560,7 +560,7 @@ spin rate (angular velocity).
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 torque
 : the turning effectiveness of a force

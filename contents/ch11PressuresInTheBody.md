@@ -154,7 +154,7 @@ The heart consists of two pumps—the right side forcing blood through the lungs
 </div>
 
 ![The figure shows the circulatory system in the human body. The figure shows the right atrium and the left atrium, right ventricle and the left ventricle of the heart. The heart consists of two pumps&#x2014;the right side forcing blood through the lungs and the left causing blood to flow through the rest of the body.](../resources/Figure_11_09_01a.jpg "Schematic of the circulatory system showing typical pressures. The two pumps in the heart increase pressure and that pressure is reduced as the blood flows through the body. Long-term deviations from these pressures have medical implications discussed in some detail in the Fluid Dynamics and Its Biological and Medical Applications. Only aortal or arterial blood pressure can be measured noninvasively.")
-{ #Figure1}
+{: #Figure1}
 
 ### Pressure in the Eye
 
@@ -199,7 +199,7 @@ deform less and rebound more vigorously than normal. Excessive intraocular
 pressures can be detected reliably and sometimes controlled effectively.
 
 ![The tonometer being used by an eye care professional to determine the fluid pressure inside the eye.](../resources/Figure_11_09_02a.jpg "The intraocular eye pressure can be read with a tonometer. (credit: DevelopAll at the Wikipedia Project.)")
-{ #Figure2}
+{: #Figure2}
 
 <div class="example" markdown="1">
 <div class="title">
@@ -271,7 +271,7 @@ the chest cavity of surgery patients and trauma victims to reestablish negative
 pressure and inflate the lungs.
 
 ![The figures represent the inhalation and expiration process in the human body. It shows the working of the various muscles and the movement of the diaphragm that causes the variation in the pressure inside the lungs.](../resources/Figure_11_09_03a.jpg "(a) During inhalation, muscles expand the chest, and the diaphragm moves downward, reducing pressure inside the lungs to less than atmospheric (negative gauge pressure). Pressure between the lungs and chest wall is even lower to overcome the positive pressure created by surface tension in the lungs. (b) During gentle exhalation, the muscles simply relax and surface tension in the alveoli creates a positive pressure inside the lungs, forcing air out. Pressure between the chest wall and lungs remains negative to keep them attached to the chest wall, but it is less negative than during inhalation.")
-{ #Figure3}
+{: #Figure3}
 
 ### Other Pressures in the Body
 
@@ -432,7 +432,7 @@ If the pressure in the esophagus is  $$-2.00 \text{mm Hg} $$
 Pressure in the spinal fluid is measured as shown in [[Figure 4]](#Figure4). If the pressure in the spinal fluid is 10.0 mm Hg: (a) What is the reading of the water manometer in cm water? (b) What is the reading if the person sits up, placing the top of the fluid 60 cm above the tap? The fluid density is 1.05 g/mL.
 
 ![Diagram of a person lying face-down on a table hooked up to a medical apparatus. A needle attached to a tube is inserted between the patient&#x2019;s vertebrae in the lower back area. The tube, which appears to be filled with fluid, is connected to an upright tube containing an unknown amount of water. The height of the water in the tube is labeled question-mark centimeters H 2 O. A label pointing to the patient&#x2019;s head reads P equals ten millimeters H g.](../resources/Figure_11_09_04a.jpg "A water manometer used to measure pressure in the spinal fluid. The height of the fluid in the manometer is measured relative to the spinal column, and the manometer is open to the atmosphere. The measured pressure will be considerably greater if the person sits up.")
-{ #Figure4}
+{: #Figure4}
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
@@ -489,7 +489,7 @@ $$h/2 $$ to raise the column of water.
 A negative pressure of 25.0 atm can sometimes be achieved with the device in [[Figure 5]](#Figure5) before the water separates. (a) To what height could such a negative gauge pressure raise water? (b) How much would a steel wire of the same diameter and length as this capillary stretch if suspended from above?
 
 ![When the piston is raised the liquid separates and results in negative pressure.](../resources/Figure_11_08_11a.jpg "(a) When the piston is raised, it stretches the liquid slightly, putting it under tension and creating a negative absolute pressure \( P= -F/A \).  (b) The liquid eventually separates, giving an experimental limit to negative pressure in this liquid.")
-{ #Figure5}
+{: #Figure5}
 
 </div>
 </div>
@@ -521,7 +521,7 @@ The hydraulic system of a backhoe is used to lift a load as shown in [[Figure 6]
  the slave cylinder must exert to support the 400-kg load and the 150-kg brace and shovel. (b) What is the pressure in the hydraulic fluid if the slave cylinder is 2.50 cm in diameter? (c) What force would you have to exert on a lever with a mechanical advantage of 5.00 acting on a master cylinder 0.800 cm in diameter to create this pressure?
 
 ![Diagram of the arm and shovel of a backhoe lifting a load of dirt. The weight of the arm, w sub arm, is depicted as a vector extending vertically downward from the arm one point one zero meters from the top of the arm; w sub arm forms a thirty degree angle with the arm of the shovel. The weight of the load, w sub load, is depicted as a vector extending downward from the middle of the shovel one point seven zero meters from the top of the arm. Force F is a vector pushing the arm of the shovel zero point three zero meters from the top of the arm and perpendicular to the arm.](../resources/Figure_11_09_05a.jpg "Hydraulic and mechanical lever systems are used in heavy machinery such as this back hoe. ")
-{ #Figure6}
+{: #Figure6}
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
@@ -577,7 +577,7 @@ The alveoli in emphysema victims are damaged and effectively form larger sacs. C
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 diastolic pressure
 : minimum arterial blood pressure; indicator for the fluid balance

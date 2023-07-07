@@ -25,10 +25,10 @@ for typical DC and AC power. The AC voltages and frequencies commonly used in
 homes and businesses vary around the world.
 
 ![Part a shows a graph of voltage V and current I versus time for a D C source. The time is along the x axis and V and I are along the y axis. The graph shows that the voltage V sub D C and the current I sub D C do not vary with time. Part b shows the variation of voltage V and current I with time for an A C source. The time is along the horizontal axis and V and I are along the vertical axis. The graph for I is a progressing sine wave with a peak value I sub zero on the positive y axis and negative I sub zero on the negative y axis. The graph for V is a progressing sine wave with a higher amplitude than the current curve with a peak value V sub zero on the positive y axis and negative V sub zero on the negative y axis. The peak values of the voltage and current sine waves occur at the same time because they are in phase.](../resources/Figure_20_05_01.jpg "(a) DC voltage and current are constant in time, once the current is established. (b) A graph of voltage and current versus time for 60-Hz AC power. The voltage and current are sinusoidal and are in phase for a simple resistance circuit. The frequencies and peak voltages of AC sources differ greatly.")
-{ #Figure1}
+{: #Figure1}
 
 ![The potential difference variation of an alternating current voltage source with time is shown as a progressing sine wave. The voltage is shown along the vertical axis and the time is along the horizontal axis. Circuit diagrams show that current flowing in one direction corresponds to positive values of the voltage sine wave. Current flowing in the opposite direction in the circuit corresponds to negative values of the voltage sine wave. The maximum value of the voltage sine wave is plus V sub zero. The minimum value of the voltage sine wave is minus V sub zero.](../resources/Figure_20_05_03.jpg "The potential difference V between the terminals of an AC voltage source fluctuates as shown. The mathematical expression for V is given by \( V=V_0 \sin{ 2 \pi f t } \)   ")
-{ #Figure2}
+{: #Figure2}
 
 [[Figure 2]](#Figure2) shows a schematic of a simple circuit with an AC voltage
 source. The voltage between the terminals fluctuates as shown, with the **AC
@@ -71,7 +71,7 @@ Wave your hand back and forth between your face and a fluorescent light bulb. Do
 </div>
 
 ![A graph showing the variation of power P with time t. The power is along the vertical axis and time is along the horizontal axis. The curve is a sine wave starting at the origin on the horizontal axis and having the crests and troughs both above the positive horizontal axis. The maximum value of power is given by the peak value, which is the product of I sub zero and V sub zero. The average power is indicated by a dotted line through the center of the wave parallel to the horizontal axis with a value half of the product of I sub zero and V sub zero.](../resources/Figure_20_05_04.jpg "AC power as a function of time. Since the voltage and current are in phase here, their product is non-negative and fluctuates between zero and \( I_0 V_0 \) . Average power is \( 1/2 I_0 V_0 \).")
-{ #Figure3}
+{: #Figure3}
 
 We are most often concerned with average power rather than its fluctuations—that
 60-W light bulb in your desk lamp has an average power consumption of 60 W, for
@@ -208,7 +208,7 @@ increase and decrease AC voltages than DC, so AC is used in most large power
 distribution systems.
 
 ![Photograph of transformers installed in transmission lines.](../resources/Figure_20_05_05.jpg "Power is distributed over large distances at high voltage to reduce power loss in the transmission lines. The voltages generated at the power plant are stepped up by passive devices called transformers (see Transformers) to 330 000 volts (or more in some places worldwide). At the point of use, the transformers reduce the voltage transmitted for safe residential and commercial use. (Credit: GeorgHH, Wikimedia Commons)")
-{ #Figure4}
+{: #Figure4}
 
 <div id="Example2" class="example" markdown="1">
 <div class="title">
@@ -477,7 +477,7 @@ Find the time after  $$t=0 $$
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 direct current
 : (DC) the flow of electric charge in only one direction

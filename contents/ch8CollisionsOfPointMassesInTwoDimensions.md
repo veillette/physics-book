@@ -45,7 +45,7 @@ still gain new insights into nature from the analysis of two-dimensional
 collisions.)
 
 ![A purple ball of mass m1 moves with velocity V 1 toward the right side along the X direction. The orange ball of mass m 2 is initially at rest. The total momentum is the momentum possessed by purple ball only. After collision purple ball moves with velocity v 1prime in the positive X Y plane making an angle theta 1 with the x axis and the orange ball moves in the X Y plane below the x axis making an angle theta 2 with the x axis. The total momentum would be the sum of the momentum of purple ball p1 prime and the orange ball p 2 prime. In two-dimensional collision too the momentum before and after collision remains the same.](../resources/Figure_08_06_02a.jpg "A two-dimensional collision with the coordinate system chosen so that \( m_2 \) is initially at rest and \( v_1 \) is parallel to the \( x \) -axis. This coordinate system is sometimes called the laboratory coordinate system, because many scattering experiments have a target that is stationary in the laboratory, while particles are scattered from it to determine the particles that make-up the target and how they are bound together. The particles may not be observed directly, but their initial and final velocities are.")
-{ #Figure1}
+{: #Figure1}
 
 Along the $$ x $$ -axis, the equation for conservation of momentum is
 
@@ -213,7 +213,7 @@ physicist want to explore the system further.
 </div>
 
 ![A purple ball of mass m1 and velocity v one moves in the right direction into a dark room. It collides with an object of mass m two of value zero point four zero milligrams which was initially at rest and then leaves the dark room from the top right hand side making an angle of forty-five degrees with the horizontal and at velocity v one prime. The net external force on the system is zero. The momentum before and after collision remains the same. The velocity v two prime of the mass m two and the angle theta two it would make with the horizontal after collision not given.](../resources/Figure_08_06_03a.jpg "A collision taking place in a dark room is explored in  <a href="#example1">Example 1</a>. The incoming object \( m_1 \) is scattered by an initially stationary object. Only the stationary object&#x2019;s mass \( m_2 \) is known. By measuring the angle and speed at which \( m_1 \) emerges from the room, it is possible to calculate the magnitude and direction of the initially stationary object&#x2019;s velocity after the collision.")
-{ #Figure2}
+{: #Figure2}
 
 ### Elastic Collisions of Two Objects with Equal Mass
 
@@ -313,7 +313,7 @@ and assume that the cube is much more massive than the small object.
 (b) Answer the same questions if the small object instead collides with a massive sphere.
 
 ![A ball m one moves horizontally to the right with speed v one. It will collide with a stationary square labeled capital m two that is rotated at approximately forty-five degrees. The point of impact is on a face of the square a distance b above the center of the square. After the collision the ball is shown heading off at an angle theta one above the horizontal with a speed v one prime. The square remains essentially stationary (v 2 prime is approximately zero).](../resources/Figure_08_06_05a.jpg "A small object approaches a collision with a much more massive cube, after which its velocity has the direction \( \theta_1 \). The angles at which the small object can be scattered are determined by the shape of the object it strikes and the impact parameter \( b \). ")
-{ #Figure3}
+{: #Figure3}
 
 </div>
 </div>
@@ -505,7 +505,7 @@ away?
 
 <div class="glossary" markdown="1">
 ### Glossary
-{ class="glossary-title"}
+{: class="glossary-title"}
 
 point masses
 : structureless particles with no rotation or spin

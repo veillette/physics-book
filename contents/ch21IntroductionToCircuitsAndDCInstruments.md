@@ -4,7 +4,7 @@ layout: page
 ---    
 
 ![Photograph of a space systems operator using several computer monitors showing various data.](../resources/Figure_21_00_01_D.jpg "Electric circuits in a computer allow large amounts of data to be quickly and accurately analyzed.. (credit: Airman 1st Class Mike Meares, United States Air Force)")
-{ #Figure1}
+{: #Figure1}
 
 Electric circuits are commonplace. Some are simple, such as those in
 flashlights. Others, such as those used in supercomputers, are extremely
