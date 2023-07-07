@@ -15,7 +15,7 @@ of matter have wave properties as well. The dual properties of particles and
 waves are found for all particles, whether massless like photons, or having a
 mass like electrons. (See [[Figure 1]](#Figure1).)
 
-![Part a shows a moving electron represented as a small spherical ball enclosing a wave. An arrow shows the direction of the moving electron. The speed of electron is v. Part b shows a moving photon as a small ellipse enclosing a wave. An arrow shows the direction of the moving photon. The speed of photon is c.](../resources/Figure_30_08_01a.jpg "On a quantum-mechanical scale (i.e., very small), particles with and without mass have wave properties. For example, both electrons and photons have wavelengths but also behave as particles.")
+![Part a shows a moving electron represented as a small spherical ball enclosing a wave. An arrow shows the direction of the moving electron. The speed of electron is v. Part b shows a moving photon as a small ellipse enclosing a wave. An arrow shows the direction of the moving photon. The speed of photon is c.](../resources/Figure_29_08_01a.jpg "On a quantum-mechanical scale (i.e., very small), particles with and without mass have wave properties. For example, both electrons and photons have wavelengths but also behave as particles.")
 {: #Figure1}
 
 There are many submicroscopic particles in nature. Most have mass and are
@@ -35,7 +35,7 @@ EM waves), there is mostly wave behavior upon detection, and the particle nature
 becomes difficult to observe. This is also consistent with experience. (
 See [[Figure 2]](#Figure2).)
 
-![A massive rock is shown on the left. A massless wave is shown on the right. The propagation of the wave is shown in three dimensional planes, with the variation of two components, E and B. E is a sine wave in one plane with small arrows showing the direction of vibrations. B is a sine wave in a plane perpendicular to the E wave. The B wave has arrows to show the vibrations of particles in the B plane. The waves are shown intersecting each other at the junction of the planes because E and B are perpendicular to each other. The direction of propagation of the wave is shown perpendicular to both E and B waves.](../resources/Figure_30_08_02a.jpg "On a classical scale (macroscopic), particles with mass behave as particles and not as waves. Particles without mass act as waves and not as particles.")
+![A massive rock is shown on the left. A massless wave is shown on the right. The propagation of the wave is shown in three dimensional planes, with the variation of two components, E and B. E is a sine wave in one plane with small arrows showing the direction of vibrations. B is a sine wave in a plane perpendicular to the E wave. The B wave has arrows to show the vibrations of particles in the B plane. The waves are shown intersecting each other at the junction of the planes because E and B are perpendicular to each other. The direction of propagation of the wave is shown perpendicular to both E and B waves.](../resources/Figure_29_08_02a.jpg "On a classical scale (macroscopic), particles with mass behave as particles and not as waves. Particles without mass act as waves and not as particles.")
 {: #Figure2}
 
 The particle-wave duality is a universal attribute. It is another connection
@@ -59,12 +59,12 @@ And Eternity in an hour
 The problem set for this section involves concepts from this chapter and several
 others. Physics is most interesting when applied to general situations involving
 more than a narrow set of physical principles. For example, photons have
-momentum, hence the relevance of [Linear Momentum and Collisions](../contents/m42155). The
+momentum, hence the relevance of [Linear Momentum and Collisions](../contents/ch8LinearMomentumAndCollisions.md). The
 following topics are involved in some or all of the problems in this section:
 
-* [Dynamics: Newton’s Laws of Motion](../contents/m42129)
-* [Work, Energy, and Energy Resources](../contents/m42145)
-* [Linear Momentum and Collisions](../contents/m42155)
+* [Dynamics: Newton’s Laws of Motion](../contents/ch4Dynamics.md)
+* [Work, Energy, and Energy Resources](../contents/ch7WorkEnergyAndEnergyResources.md)
+* [Linear Momentum and Collisions](../contents/ch8LinearMomentumAndCollisions.md)
 * [Heat and Heat Transfer Methods](../contents/ch14HeatAndHeatTransfers)
 * [Electric Potential and Electric Field](../contents/ch19ElectricPotentialAndElectricEnergy)
 * [Electric Current, Resistance, and Ohm’s Law](../contents/ch20ElectricCurrentResistanceAndOhmsLaw)
@@ -102,7 +102,7 @@ A 550-nm photon (visible light) is absorbed by a  $$1.00\text{-μg} $$
 To solve an **integrated-concept problem**, such as those following this
 example, we must first identify the physical principles involved and identify
 the chapters in which they are found. Part (a) of this example asks for the **momentum of a photon**, a topic of the present chapter. Part (b) considers **recoil following a collision**, a topic
-of [Linear Momentum and Collisions](../contents/m42155).
+of [Linear Momentum and Collisions](../contents/ch8LinearMomentumAndCollisions.md).
 
 **Strategy Step 2**
 
@@ -189,7 +189,7 @@ In what ways are matter and energy related that were not known before the develo
 <div class="problem" markdown="1">
 **Integrated Concepts**
 
-The 54.0-eV electron in [[link]](../contents/ch29TheWaveNatureOfMatter#fs-id2621262) has a 0.167-nm
+The 54.0-eV electron in [[Example 1]](../contents/ch29TheWaveNatureOfMatter#Example1) has a 0.167-nm
 wavelength. If such electrons are passed through a double slit and have their
 first maximum at an angle of $$ 25.0º $$ , what is the slit separation $$d $$ ?
 

@@ -18,7 +18,7 @@ is measured with a thermometer. We gain a better understanding of pressure and
 temperature from the kinetic theory of gases, which assumes that atoms and
 molecules are in continuous random motion.
 
-![A green vector v, representing a molecule colliding with a wall, is pointing at the surface of a wall at an angle. A second vector v primed starts at the point of impact and travels away from the wall at an angle. A dotted line perpendicular to the wall through the point of impact represents the component of the molecule&#x2019;s momentum that is perpendicular to the wall. A red vector F is pointing into the wall from the point of impact, representing the force of the molecule hitting the wall.](../resources/Figure_14_04_01.jpg "When a molecule collides with a rigid wall, the component of its momentum perpendicular to the wall is reversed. A force is thus exerted on the wall, creating pressure.")
+![A green vector v, representing a molecule colliding with a wall, is pointing at the surface of a wall at an angle. A second vector v primed starts at the point of impact and travels away from the wall at an angle. A dotted line perpendicular to the wall through the point of impact represents the component of the molecule&#x2019;s momentum that is perpendicular to the wall. A red vector F is pointing into the wall from the point of impact, representing the force of the molecule hitting the wall.](../resources/Figure_13_04_01.jpg "When a molecule collides with a rigid wall, the component of its momentum perpendicular to the wall is reversed. A force is thus exerted on the wall, creating pressure.")
 {: #Figure1}
 
 [[Figure 1]](#Figure1) shows an elastic collision of a gas molecule with the
@@ -28,7 +28,7 @@ time, we observe an average force per unit area. These collisions are the source
 of pressure in a gas. As the number of molecules increases, the number of
 collisions and thus the pressure increase. Similarly, the gas pressure is higher
 if the average velocity of molecules is higher. The actual relationship is
-derived in the [Things Great and Small](#fs-id1855032) feature below. The
+derived in the [Things Great and Small](#Note1) feature below. The
 following relationship is found:
 
 <div class="equation" >
@@ -56,7 +56,7 @@ $$PV=\frac{1}{3}N m\overline{ {v}^{2}} $$ gives
  $$\frac{1}{3}N m\overline{ {v}^{2}}=Nk_{B}T. $$
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+<div class="note" id="Note1" data-has-label="true" data-label="" markdown="1">
 <div class="title">
 Making Connections: Things Great and Small—Atomic and Molecular Origin of Pressure in a Gas
 </div>
@@ -74,7 +74,7 @@ assumption is not always valid, but the same result is obtained with a more
 detailed description of the molecule’s exchange of energy and momentum with the
 wall.
 
-![Diagram representing the pressures that a gas exerts on the walls of a box in a three-dimensional coordinate system with x, y, and z components.](../resources/Figure_14_04_02.jpg "Gas in a box exerts an outward pressure on its walls. A molecule colliding with a rigid wall has the direction of its velocity and momentum in the \( x \) -direction reversed. This direction is perpendicular to the wall. The components of its velocity momentum in the \( y \) - and \( z \) -directions are not changed, which means there is no force parallel to the wall.")
+![Diagram representing the pressures that a gas exerts on the walls of a box in a three-dimensional coordinate system with x, y, and z components.](../resources/Figure_13_04_02.jpg "Gas in a box exerts an outward pressure on its walls. A molecule colliding with a rigid wall has the direction of its velocity and momentum in the \( x \) -direction reversed. This direction is perpendicular to the wall. The components of its velocity momentum in the \( y \) - and \( z \) -directions are not changed, which means there is no force parallel to the wall.")
 {: #Figure2}
 
 If the molecule’s velocity changes in the $$x $$ -direction, its momentum
@@ -86,7 +86,7 @@ the molecule is given by
  $$F=\frac{\Delta p}{\Delta t}=\frac{2mv_{x}}{\Delta t}\text{.} $$
 </div>
 There is no force between the wall and the molecule until the molecule hits the wall. During the short time of the collision, the force between the molecule and wall is relatively large. We are looking for an average force; we take  $$\Delta t $$
- to be the average time between collisions of the molecule with this wall. It is the time it would take the molecule to go across the box and back (a distance  $$2l\right) $$
+ to be the average time between collisions of the molecule with this wall. It is the time it would take the molecule to go across the box and back (a distance  $$2l $$ )
  at a speed of  $${v}_{x} $$ .
  Thus  $$\Delta t=2l/{v}_{x} $$ ,
  and the expression for the force becomes
@@ -131,12 +131,12 @@ Substituting  $$\frac{1}{3}\overline{ {v}^{2}} $$
 The pressure is  $$F/A, $$  so that we obtain
 
 <div class="equation" >
- $$P=\frac{F}{A}=N\frac{m\overline{ {v}^{2}}}{3 A l}=\frac{1}{3}\frac{\text{Nm}\overline{ {v}^{2}}}{V}, $$
+ $$P=\frac{F}{A}=N\frac{m\overline{ {v}^{2}}}{3 A l}=\frac{1}{3}\frac{N m\overline{ {v}^{2}}}{V}, $$
 </div>
 where we used  $$V= A l  $$  for the volume. This gives the important result.
 
 <div class="equation" >
- $$PV=\frac{1}{3}\text{Nm}\overline{ {v}^{2}} $$
+ $$PV=\frac{1}{3}N m \overline{ {v}^{2}} $$
 </div>
 This equation is another expression of the ideal gas law.
 
@@ -235,7 +235,7 @@ masses, such as helium. (See [[Figure 3]](#Figure3).)
 
 </div>
 
-![In part a of the figure, circles represent molecules distributed in a gas. Attached to each circle is a vector representing velocity. The circles have a random arrangement, while the vector arrows have random orientations and lengths. In part b of the figure, an arc represents a sound wave as it passes through a gas. The velocity of each molecule along the peak of the wave is roughly oriented parallel to the transmission direction of the wave.](../resources/Figure_14_04_03.jpg "(a) There are many molecules moving so fast in an ordinary gas that they collide a billion times every second. (b) Individual molecules do not move very far in a small amount of time, but disturbances like sound waves are transmitted at speeds related to the molecular speeds.")
+![In part a of the figure, circles represent molecules distributed in a gas. Attached to each circle is a vector representing velocity. The circles have a random arrangement, while the vector arrows have random orientations and lengths. In part b of the figure, an arc represents a sound wave as it passes through a gas. The velocity of each molecule along the peak of the wave is roughly oriented parallel to the transmission direction of the wave.](../resources/Figure_13_04_03.jpg "(a) There are many molecules moving so fast in an ordinary gas that they collide a billion times every second. (b) Individual molecules do not move very far in a small amount of time, but disturbances like sound waves are transmitted at speeds related to the molecular speeds.")
 {: #Figure3}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -259,14 +259,14 @@ speed $${v}_{\text{rms}} $$ .
 [[Figure 5]](#Figure5) shows that the curve is shifted to higher speeds at
 higher temperatures, with a broader range of speeds.
 
-![A line graph of probability versus velocity in meters per second of oxygen gas at 300 kelvin. The graph is skewed to the right, with a peak probability just under 400 meters per second and a root-mean-square probability of about 500 meters per second.](../resources/Figure_14_04_04.jpg "The Maxwell-Boltzmann distribution of molecular speeds in an ideal gas. The most likely speed \( v_{p} \) is less than the rms speed \( v_\text{rms} \). Although very high speeds are possible, only a tiny fraction of the molecules have speeds that are an order of magnitude greater than \( v_\text{rms} \).")
+![A line graph of probability versus velocity in meters per second of oxygen gas at 300 kelvin. The graph is skewed to the right, with a peak probability just under 400 meters per second and a root-mean-square probability of about 500 meters per second.](../resources/Figure_13_04_04.jpg "The Maxwell-Boltzmann distribution of molecular speeds in an ideal gas. The most likely speed \( v_{p} \) is less than the rms speed \( v_\text{rms} \). Although very high speeds are possible, only a tiny fraction of the molecules have speeds that are an order of magnitude greater than \( v_\text{rms} \).")
 {: #Figure4}
 
 The distribution of thermal speeds depends strongly on temperature. As
 temperature increases, the speeds are shifted to higher values and the
 distribution is broadened.
 
-![Two distributions of probability versus velocity at two different temperatures plotted on the same graph. Temperature two is greater than Temperature one. The distribution for Temperature two has a peak with a lower probability, but a higher velocity than the distribution for Temperature one. The T sub two graph has a more normal distribution and is broader while the T sub one graph is more narrow and has a tail extending to the right.](../resources/Figure_14_04_05.jpg "The Maxwell-Boltzmann distribution is shifted to higher speeds and is broadened at higher temperatures.")
+![Two distributions of probability versus velocity at two different temperatures plotted on the same graph. Temperature two is greater than Temperature one. The distribution for Temperature two has a peak with a lower probability, but a higher velocity than the distribution for Temperature one. The T sub two graph has a more normal distribution and is broader while the T sub one graph is more narrow and has a tail extending to the right.](../resources/Figure_13_04_05.jpg "The Maxwell-Boltzmann distribution is shifted to higher speeds and is broadened at higher temperatures.")
 {: #Figure5}
 
 What is the implication of the change in distribution with temperature shown
@@ -349,7 +349,7 @@ and the Moon is discussed in this chapter’s Problems and Exercises.
 
 </div>
 
-![Photograph of the lunar rover on the Moon. The photo looks like it was taken at night with a powerful spotlight shining on the rover from the left: light reflects off the rover, the astronaut, and the Moon&#x2019;s surface, but the sky is black. The shadow of the rover is very sharp.](../resources/Figure_14_04_06.jpg "This photograph of Apollo 17 Commander Eugene Cernan driving the lunar rover on the Moon in 1972 looks as though it was taken at night with a large spotlight. In fact, the light is coming from the Sun. Because the acceleration due to gravity on the Moon is so low (about 1/6 that of Earth), the Moon&#x2019;s escape velocity is much smaller. As a result, gas molecules escape very easily from the Moon, leaving it with virtually no atmosphere. Even during the daytime, the sky is black because there is no gas to scatter sunlight. (credit: Harrison H. Schmitt/NASA)")
+![Photograph of the lunar rover on the Moon. The photo looks like it was taken at night with a powerful spotlight shining on the rover from the left: light reflects off the rover, the astronaut, and the Moon&#x2019;s surface, but the sky is black. The shadow of the rover is very sharp.](../resources/Figure_13_04_06.jpg "This photograph of Apollo 17 Commander Eugene Cernan driving the lunar rover on the Moon in 1972 looks as though it was taken at night with a large spotlight. In fact, the light is coming from the Sun. Because the acceleration due to gravity on the Moon is so low (about 1/6 that of Earth), the Moon&#x2019;s escape velocity is much smaller. As a result, gas molecules escape very easily from the Moon, leaving it with virtually no atmosphere. Even during the daytime, the sky is black because there is no gas to scatter sunlight. (credit: Harrison H. Schmitt/NASA)")
 {: #Figure6}
 
 <div class="exercise" data-element-type="check-understanding" data-label="">

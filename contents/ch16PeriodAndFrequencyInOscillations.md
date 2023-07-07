@@ -8,7 +8,7 @@ layout: page
 * Determine the frequency of oscillations.
 </div>
 
-![The given figure shows a closed zoom view of the strings of a guitar. There are two slanting white colored strings in the picture. In the nearer string, the gaps between the circular threads of the string are visible, whereas the second white string at the back looks like a white thin stick.](../resources/Figure_17_02_01a.jpg "The strings on this guitar vibrate at regular time intervals. (credit: JAR)")
+![The given figure shows a closed zoom view of the strings of a guitar. There are two slanting white colored strings in the picture. In the nearer string, the gaps between the circular threads of the string are visible, whereas the second white string at the back looks like a white thin stick.](../resources/Figure_16_02_01a.jpg "The strings on this guitar vibrate at regular time intervals. (credit: JAR)")
 {: #Figure1}
 
 When you pluck a guitar string, the resulting sound has a steady tone and lasts

@@ -10,7 +10,7 @@ layout: page
 
 </div>
 
-![Photograph of a musical band with a person singing.](../resources/Figure_18_06_01.jpg "Hearing allows this vocalist, his band, and his fans to enjoy music. (credit: West Point Public Affairs, Flickr)")
+![Photograph of a musical band with a person singing.](../resources/Figure_17_06_01.jpg "Hearing allows this vocalist, his band, and his fans to enjoy music. (credit: West Point Public Affairs, Flickr)")
 {: #Figure1}
 
 The human ear has a tremendous range and sensitivity. It can give us a wealth of
@@ -103,7 +103,7 @@ frequencies and sound intensity levels. At a frequency of 1000 Hz, phons are
 taken to be numerically equal to decibels. The following example helps
 illustrate how to use the graph:
 
-![A graph of variation of sound level versus frequency is shown. The sound level is along Y axis and frequency is along X axis. There are thirteen curves each for some count on phons from zero to one hundred and twenty with an interval of ten. The graphs are similar in shape but rising in value with increase in phons. The graph has an initial fall from maximum value on Y axis reaches a minimum and then there is a wavy rise.](../resources/Figure_18_06_02.jpg "The relationship of loudness in phons to intensity level (in decibels) and intensity (in watts per meter squared) for persons with normal hearing. The curved lines are equal-loudness curves&#x2014;all sounds on a given curve are perceived as equally loud. Phons and decibels are defined to be the same at 1000 Hz.")
+![A graph of variation of sound level versus frequency is shown. The sound level is along Y axis and frequency is along X axis. There are thirteen curves each for some count on phons from zero to one hundred and twenty with an interval of ten. The graphs are similar in shape but rising in value with increase in phons. The graph has an initial fall from maximum value on Y axis reaches a minimum and then there is a wavy rise.](../resources/Figure_17_06_02.jpg "The relationship of loudness in phons to intensity level (in decibels) and intensity (in watts per meter squared) for persons with normal hearing. The curved lines are equal-loudness curves&#x2014;all sounds on a given curve are perceived as equally loud. Phons and decibels are defined to be the same at 1000 Hz.")
 {: #Figure2}
 
 <div class="example" markdown="1">
@@ -204,7 +204,7 @@ are usually characterized by higher frequencies. So the person with a 60-phon
 hearing impediment might have difficulty understanding the normal conversation
 of a woman.
 
-![A graph of variation of intensity versus frequency is shown. The intensity in decibel is along Y axis and frequency is along X axis. There are three curves each for some count on phon zero, forty and sixty. The graphs are similar in shape but rising in value with increase in phon. The graph has an initial fall from maximum value on Y axis reaches a minimum and then there is a wavy rise. The conversational speech distribution is shown as a strip across the graph.](../resources/Figure_18_06_03.jpg "The shaded region represents frequencies and intensity levels found in normal conversational speech. The 0-phon line represents the normal hearing threshold, while those at 40 and 60 represent thresholds for people with 40- and 60-phon hearing losses, respectively.")
+![A graph of variation of intensity versus frequency is shown. The intensity in decibel is along Y axis and frequency is along X axis. There are three curves each for some count on phon zero, forty and sixty. The graphs are similar in shape but rising in value with increase in phon. The graph has an initial fall from maximum value on Y axis reaches a minimum and then there is a wavy rise. The conversational speech distribution is shown as a strip across the graph.](../resources/Figure_17_06_03.jpg "The shaded region represents frequencies and intensity levels found in normal conversational speech. The 0-phon line represents the normal hearing threshold, while those at 40 and 60 represent thresholds for people with 40- and 60-phon hearing losses, respectively.")
 {: #Figure3}
 
 Hearing tests are performed over a range of frequencies, usually from 250 to
@@ -217,7 +217,7 @@ both ears. The most common form of hearing loss comes with age and is called *
 presbycusis*—literally elder ear. Such loss is increasingly severe at higher
 frequencies, and interferes with music appreciation and speech recognition.
 
-![Three audiogram output graphs of three individuals&#x2019; left and right ear are shown. The graph is for hearing threshold level verses frequency in hertz. The hearing threshold level is on Y axis and frequency is along X axis. The first graph has two curve nearly parallel to X axis. The second graph is straight for some range then has a dip at four thousand hertz. The third graph has a falling curve toward X axis from a maximum value on Y axis.](../resources/Figure_18_06_04.jpg "Audiograms showing the threshold in intensity level versus frequency for three different individuals. Intensity level is measured relative to the normal threshold. The top left graph is that of a person with normal hearing. The graph to its right has a dip at 4000 Hz and is that of a child who suffered hearing loss due to a cap gun. The third graph is typical of presbycusis, the progressive loss of higher frequency hearing with age. Tests performed by bone conduction (brackets) can distinguish nerve damage from middle ear damage.")
+![Three audiogram output graphs of three individuals&#x2019; left and right ear are shown. The graph is for hearing threshold level verses frequency in hertz. The hearing threshold level is on Y axis and frequency is along X axis. The first graph has two curve nearly parallel to X axis. The second graph is straight for some range then has a dip at four thousand hertz. The third graph has a falling curve toward X axis from a maximum value on Y axis.](../resources/Figure_17_06_04.jpg "Audiograms showing the threshold in intensity level versus frequency for three different individuals. Intensity level is measured relative to the normal threshold. The top left graph is that of a person with normal hearing. The graph to its right has a dip at 4000 Hz and is that of a child who suffered hearing loss due to a cap gun. The third graph is typical of presbycusis, the progressive loss of higher frequency hearing with age. Tests performed by bone conduction (brackets) can distinguish nerve damage from middle ear damage.")
 {: #Figure4}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -226,7 +226,7 @@ The Hearing Mechanism
 </div>
 The hearing mechanism involves some interesting physics. The sound wave that impinges upon our ear is a pressure wave. The ear is a transducer that converts sound waves into electrical nerve impulses in a manner much more sophisticated than, but analogous to, a microphone. [[Figure 5]](#Figure5) shows the gross anatomy of the ear with its division into three parts: the outer ear or ear canal; the middle ear, which runs from the eardrum to the cochlea; and the inner ear, which is the cochlea itself. The body part normally referred to as the ear is technically called the pinna.
 
-![The picture shows the anatomy of a human ear. All organs in the ear are labeled. There is a pinna or the outer end of the ear, followed by a long ear canal in the outer ear. The middle ear has the eardrum little arc shaped. There are small round and oval windows next to it. There are semicircular canals. In the inner ear are snail shell shaped cochlea and cochlea duct. There is a Eustachian tube that leads downward. There are cochlear nerve and vestibular nerves in the inner ear.](../resources/Figure_18_06_05.jpg "The illustration shows the gross anatomy of the human ear.")
+![The picture shows the anatomy of a human ear. All organs in the ear are labeled. There is a pinna or the outer end of the ear, followed by a long ear canal in the outer ear. The middle ear has the eardrum little arc shaped. There are small round and oval windows next to it. There are semicircular canals. In the inner ear are snail shell shaped cochlea and cochlea duct. There is a Eustachian tube that leads downward. There are cochlear nerve and vestibular nerves in the inner ear.](../resources/Figure_17_06_05.jpg "The illustration shows the gross anatomy of the human ear.")
 {: #Figure5}
 
 </div>
@@ -245,7 +245,7 @@ force transmitted to the cochlea. This protective reaction can also be triggered
 by your own voice, so that humming while shooting a gun, for example, can reduce
 noise damage.
 
-![The schematic diagram of the middle ear&#x2019;s system for converting sound pressure is shown. There is a pressure P one applied on the ear drum shown as a vertical line. The pressure P one travels along a horizontal line marked hammer as force F one. Then up a vertical line marked anvil and reaches a point marked pivot. Then this travels as a force F two along a horizontal line marked stirrup and reaches the oval window shown by a vertical line then passes by it as pressure P two. The pivot point has another support held vertically.](../resources/Figure_18_06_06.jpg "This schematic shows the middle ear&#x2019;s system for converting sound pressure into force, increasing that force through a lever system, and applying the increased force to a small area of the cochlea, thereby creating a pressure about 40 times that in the original sound wave. A protective muscle reaction to intense sounds greatly reduces the mechanical advantage of the lever system.")
+![The schematic diagram of the middle ear&#x2019;s system for converting sound pressure is shown. There is a pressure P one applied on the ear drum shown as a vertical line. The pressure P one travels along a horizontal line marked hammer as force F one. Then up a vertical line marked anvil and reaches a point marked pivot. Then this travels as a force F two along a horizontal line marked stirrup and reaches the oval window shown by a vertical line then passes by it as pressure P two. The pivot point has another support held vertically.](../resources/Figure_17_06_06.jpg "This schematic shows the middle ear&#x2019;s system for converting sound pressure into force, increasing that force through a lever system, and applying the increased force to a small area of the cochlea, thereby creating a pressure about 40 times that in the original sound wave. A protective muscle reaction to intense sounds greatly reduces the mechanical advantage of the lever system.")
 {: #Figure6}
 
 [[Figure 7]](#Figure7) shows the middle and inner ear in greater detail.
@@ -266,7 +266,7 @@ such as source direction (based on time and intensity comparisons of sounds from
 both ears). Higher-level processing produces many nuances, such as music
 appreciation.
 
-![Schematic diagram of the middle and inner ear with various parts labeled.](../resources/Figure_18_06_07.jpg "The inner ear, or cochlea, is a coiled tube about 3 mm in diameter and 3 cm in length if uncoiled. When the oval window is forced inward, as shown, a pressure wave travels through the perilymph in the direction of the arrows, stimulating nerves at the base of cilia in the organ of Corti.")
+![Schematic diagram of the middle and inner ear with various parts labeled.](../resources/Figure_17_06_07.jpg "The inner ear, or cochlea, is a coiled tube about 3 mm in diameter and 3 cm in length if uncoiled. When the oval window is forced inward, as shown, a pressure wave travels through the perilymph in the direction of the arrows, stimulating nerves at the base of cilia in the organ of Corti.")
 {: #Figure7}
 
 Hearing losses can occur because of problems in the middle or inner ear.

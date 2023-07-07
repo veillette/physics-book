@@ -24,7 +24,7 @@ effect due to the magnet. There is no discernible effect on a bob made of an
 insulator. Why is there drag in both directions, and are there any uses for
 magnetic drag?
 
-![The figure describes an experiment on exploring the effect of eddy currents. Part a of the figure shows a metal pendulum plate swinging between the pole pieces of a magnet. The pendulum is attached at one end to a pivot. Eddy currents are shown as small swirls on the surface of the plate. The oscillation is shown as damped by smaller displacement of the plate marked as S. Part b of the figure shows a slotted metal pendulum plate swinging between the pole pieces of a magnet. The pendulum is attached at one end to a pivot. Eddy currents are less effective. The oscillation is shown with a larger displacement of the plate marked as S, than the displacement in part a. Part c of the figure shows a non conducting pendulum plate swinging between the pole pieces of a magnet. The pendulum is attached at one end to a pivot. Extremely small currents are induced. The oscillation is shown with a larger displacement of the plate marked as S, than the displacement in part a.](../resources/Figure_24_04_01.jpg "A common physics demonstration device for exploring eddy currents and magnetic damping. (a) The motion of a metal pendulum bob swinging between the poles of a magnet is quickly damped by the action of eddy currents. (b) There is little effect on the motion of a slotted metal bob, implying that eddy currents are made less effective. (c) There is also no magnetic damping on a nonconducting bob, since the eddy currents are extremely small.")
+![The figure describes an experiment on exploring the effect of eddy currents. Part a of the figure shows a metal pendulum plate swinging between the pole pieces of a magnet. The pendulum is attached at one end to a pivot. Eddy currents are shown as small swirls on the surface of the plate. The oscillation is shown as damped by smaller displacement of the plate marked as S. Part b of the figure shows a slotted metal pendulum plate swinging between the pole pieces of a magnet. The pendulum is attached at one end to a pivot. Eddy currents are less effective. The oscillation is shown with a larger displacement of the plate marked as S, than the displacement in part a. Part c of the figure shows a non conducting pendulum plate swinging between the pole pieces of a magnet. The pendulum is attached at one end to a pivot. Extremely small currents are induced. The oscillation is shown with a larger displacement of the plate marked as S, than the displacement in part a.](../resources/Figure_23_04_01.jpg "A common physics demonstration device for exploring eddy currents and magnetic damping. (a) The motion of a metal pendulum bob swinging between the poles of a magnet is quickly damped by the action of eddy currents. (b) There is little effect on the motion of a slotted metal bob, implying that eddy currents are made less effective. (c) There is also no magnetic damping on a nonconducting bob, since the eddy currents are extremely small.")
 {: #Figure1}
 
 [[Figure 2]](#Figure2) shows what happens to the metal plate as it enters and
@@ -40,7 +40,7 @@ again, experiences a force to the left, further slowing the motion. A similar
 analysis of what happens when the plate swings from the right toward the left
 shows that its motion is also damped when entering and leaving the field.
 
-![The figure shows a more detailed description of a conducting plate attached to a pivot oscillating between the pole pieces of a magnet. A cross section is shown in the figure. The direction of magnetic field of the magnet is toward the plane of the paper. The direction of force, current and magnetic field at two extreme positions of the pendulum are marked. The direction of B is always into the paper. Based on the direction of force, the current direction of the pendulum at the two ends is marked as per the right hand rule. The eddy current on the plate is in anti clock wise direction in the left end and clock wise direction in the right end.](../resources/Figure_24_04_02.jpg "A more detailed look at the conducting plate passing between the poles of a magnet. As it enters and leaves the field, the change in flux produces an eddy current. Magnetic force on the current loop opposes the motion. There is no current and no magnetic drag when the plate is completely inside the uniform field.")
+![The figure shows a more detailed description of a conducting plate attached to a pivot oscillating between the pole pieces of a magnet. A cross section is shown in the figure. The direction of magnetic field of the magnet is toward the plane of the paper. The direction of force, current and magnetic field at two extreme positions of the pendulum are marked. The direction of B is always into the paper. Based on the direction of force, the current direction of the pendulum at the two ends is marked as per the right hand rule. The eddy current on the plate is in anti clock wise direction in the left end and clock wise direction in the right end.](../resources/Figure_23_04_02.jpg "A more detailed look at the conducting plate passing between the poles of a magnet. As it enters and leaves the field, the change in flux produces an eddy current. Magnetic force on the current loop opposes the motion. There is no current and no magnetic drag when the plate is completely inside the uniform field.")
 {: #Figure2}
 
 When a slotted metal plate enters the field, as shown in [[Figure 3]](#Figure3),
@@ -52,7 +52,7 @@ on insulators is negligible. If eddy currents are to be avoided in conductors,
 then they can be slotted or constructed of thin layers of conducting material
 separated by insulating sheets.
 
-![The figure shows eddy currents induced in a slotted metal plate entering a magnetic field whose direction is shown as directed into the paper. The eddy currents are shown as small circular loops in line in each slot of the plate. The eddy currents are in such a way that neighboring loops in a single slot have currents in opposite direction. An enlarged view of two neighboring eddy currents in a slot is also shown.](../resources/Figure_24_04_03.jpg "Eddy currents induced in a slotted metal plate entering a magnetic field form small loops, and the forces on them tend to cancel, thereby making magnetic drag almost zero.")
+![The figure shows eddy currents induced in a slotted metal plate entering a magnetic field whose direction is shown as directed into the paper. The eddy currents are shown as small circular loops in line in each slot of the plate. The eddy currents are in such a way that neighboring loops in a single slot have currents in opposite direction. An enlarged view of two neighboring eddy currents in a slot is also shown.](../resources/Figure_23_04_03.jpg "Eddy currents induced in a slotted metal plate entering a magnetic field form small loops, and the forces on them tend to cancel, thereby making magnetic drag almost zero.")
 {: #Figure3}
 
 ### Applications of Magnetic Damping
@@ -67,7 +67,7 @@ allowing the balance to be very sensitive. (See [[Figure 4]](#Figure4).) In most
 balances, magnetic damping is accomplished with a conducting disc that rotates
 in a fixed field.
 
-![The figure shows a sensitive simple balance. The needle of this balance is held between the pole pieces of a magnet. The magnetic field direction is shown toward the plane of the paper. An enlarged view of the needle of balance and the magnets is also shown. The needle is shown as free to oscillate to and fro between the pole pieces of the magnet.](../resources/Figure_24_04_04.jpg "Magnetic damping of this sensitive balance slows its oscillations. Since Faraday&#x2019;s law of induction gives the greatest effect for the most rapid change, damping is greatest for large oscillations and goes to zero as the motion stops.")
+![The figure shows a sensitive simple balance. The needle of this balance is held between the pole pieces of a magnet. The magnetic field direction is shown toward the plane of the paper. An enlarged view of the needle of balance and the magnets is also shown. The needle is shown as free to oscillate to and fro between the pole pieces of the magnet.](../resources/Figure_23_04_04.jpg "Magnetic damping of this sensitive balance slows its oscillations. Since Faraday&#x2019;s law of induction gives the greatest effect for the most rapid change, damping is greatest for large oscillations and goes to zero as the motion stops.")
 {: #Figure4}
 
 Since eddy currents and magnetic damping occur only in conductors, recycling
@@ -78,7 +78,7 @@ separating from the metals. (See [[Figure 5]](#Figure5).) This works for all
 metals, not just ferromagnetic ones. A magnet can separate out the ferromagnetic
 materials alone by acting on stationary trash.
 
-![A picture of a tipper truck unloading the trash down a ramp is shown. There is a rectangular block of magnet half way across the ramp with the north pole facing the ramp for separating metals from other trash by magnetic drag.](../resources/Figure_24_04_05.jpg "Metals can be separated from other trash by magnetic drag. Eddy currents and magnetic drag are created in the metals sent down this ramp by the powerful magnet beneath it. Nonmetals move on. ")
+![A picture of a tipper truck unloading the trash down a ramp is shown. There is a rectangular block of magnet half way across the ramp with the north pole facing the ramp for separating metals from other trash by magnetic drag.](../resources/Figure_23_04_05.jpg "Metals can be separated from other trash by magnetic drag. Eddy currents and magnetic drag are created in the metals sent down this ramp by the powerful magnet beneath it. Nonmetals move on. ")
 {: #Figure5}
 
 Other major applications of eddy currents are in metal detectors and braking
@@ -98,10 +98,10 @@ application. The vehicle has metal fins (normally containing copper) which pass
 through the magnetic field slowing the vehicle down in much the same way as with
 the pendulum bob shown in [[Figure 1]](#Figure1).
 
-![\]Photograph of several soldiers in an open field. One soldier is searching for explosives by scanning the surface using a metal detector.](../resources/Figure_24_04_06.jpg "A soldier in Iraq uses a metal detector to search for explosives and weapons. (credit: U.S. Army)")
+![\]Photograph of several soldiers in an open field. One soldier is searching for explosives by scanning the surface using a metal detector.](../resources/Figure_23_04_06.jpg "A soldier in Iraq uses a metal detector to search for explosives and weapons. (credit: U.S. Army)")
 {: #Figure6}
 
-![Photograph of a roller coaster track with rows of magnets protruding horizontally that are used for magnetic braking in roller coasters.](../resources/Figure_24_04_07.jpg "The rows of rare earth magnets (protruding horizontally) are used for magnetic braking in roller coasters. (credit: Stefan Scheer, Wikimedia Commons)")
+![Photograph of a roller coaster track with rows of magnets protruding horizontally that are used for magnetic braking in roller coasters.](../resources/Figure_23_04_07.jpg "The rows of rare earth magnets (protruding horizontally) are used for magnetic braking in roller coasters. (credit: Stefan Scheer, Wikimedia Commons)")
 {: #Figure7}
 
 Induction cooktops have electromagnets under their surface. The magnetic field
@@ -142,7 +142,7 @@ Make a drawing similar to [[Figure 2]](#Figure2), but with the pendulum moving i
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-![Figure shows the five stages of a single loop coil moved into and then out of a uniform magnetic field from left to right. It shows five stages a to d. The magnetic field B out is in a rectangular region and directed out of the paper. In stage a, the single loop coil is outside the magnetic field on the left side. In stage b, the single loop coil is partially inside the fields. In stage c, the single loop coil is fully inside the magnetic field. In stage d, the single loop coil is partially outside the magnetic field. In stage e, the single loop coil is fully outside the magnetic field now on the right.](../resources/Figure_24_04_08.jpg "A coil is moved into and out of a region of uniform magnetic field."){: #Figure8} 
+![Figure shows the five stages of a single loop coil moved into and then out of a uniform magnetic field from left to right. It shows five stages a to d. The magnetic field B out is in a rectangular region and directed out of the paper. In stage a, the single loop coil is outside the magnetic field on the left side. In stage b, the single loop coil is partially inside the fields. In stage c, the single loop coil is fully inside the magnetic field. In stage d, the single loop coil is partially outside the magnetic field. In stage e, the single loop coil is fully outside the magnetic field now on the right.](../resources/Figure_23_04_08.jpg "A coil is moved into and out of a region of uniform magnetic field."){: #Figure8} 
 
 A coil is moved through a magnetic field as shown in [[Figure 8]](#Figure8). The
 field is uniform inside the rectangle and zero outside. What is the direction of

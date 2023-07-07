@@ -38,7 +38,7 @@ No two electrons can have the same set of quantum numbers. That is, no two elect
 
 </div>
 
-![A black and white portrait of Austrian physicist Wolfgang Pauli.](../resources/Figure_31_09_01a.jpg "The Austrian physicist Wolfgang Pauli (1900&#x2013;1958) played a major role in the development of quantum mechanics. He proposed the exclusion principle; hypothesized the existence of an important particle, called the neutrino, before it was directly observed; made fundamental contributions to several areas of theoretical physics; and influenced many students who went on to do important work of their own. (credit: Nobel Foundation, via Wikimedia Commons)")
+![A black and white portrait of Austrian physicist Wolfgang Pauli.](../resources/Figure_30_09_01a.jpg "The Austrian physicist Wolfgang Pauli (1900&#x2013;1958) played a major role in the development of quantum mechanics. He proposed the exclusion principle; hypothesized the existence of an important particle, called the neutrino, before it was directly observed; made fundamental contributions to several areas of theoretical physics; and influenced many students who went on to do important work of their own. (credit: Nobel Foundation, via Wikimedia Commons)")
 {: #Figure1}
 
 
@@ -55,7 +55,7 @@ limits to how many of them can be in the same energy state. Note that $$n $$
 determines the energy state in the absence of a magnetic field. So we first
 choose $$n $$ , and then we see how many electrons can be in this energy state
 or energy level. Consider the $$n=1 $$ level, for example. The only value $$l $$
-can have is 0 (see [[link]](../contents/ch30QuantumNumbersAndRules#import-auto-id3013526) for a list of
+can have is 0 (see [[Table 1]](../contents/ch30QuantumNumbersAndRules#Table1) for a list of
 possible values once $$n $$ is known), and thus $${m}_{l} $$ can only be 0. The
 spin projection $${m}_{s} $$ can be either $$+1/2 $$ or $$-1/2 $$ , and so there
 can be two electrons in the $$n=1 $$ state. One has quantum numbers $$\left(1,
@@ -63,7 +63,7 @@ can be two electrons in the $$n=1 $$ state. One has quantum numbers $$\left(1,
 [[Figure 2]](#Figure2) illustrates that there can be one or two electrons
 having $$n=1 $$ , but not three.
 
-![The figure here shows configuration of electrons. At the top, the key shows two purple balls, which depict electrons. The upward directed arrow on the first ball or electron shows its spin is plus one half, and the downward arrow on the second electron shows the opposite spin that is minus one half. Two other sections show the electronic configurations of electrons for two levels, n equal to one and n equal to two. One section shows the allowed configurations of the electron in the n is equal to one and two levels, and the second section for the configurations which are not allowed. In the allowed section, n is equal to two has three vacant shells and one electron in each of the outer two shells, one with spin up and one with spin down; and n is equal to one configuration has two shells containing one each spin up and spin down electron and the three other shells containing combinations of both spins each. For the not allowed section, n is equal to two have all vacant shells and n is equal to one have unevenly balanced electrons in its shells.](../resources/Figure_31_09_02a.jpg "The Pauli exclusion principle explains why some configurations of electrons are allowed while others are not. Since electrons cannot have the same set of quantum numbers, a maximum of two can be in the \( n=1 \) level, and a third electron must reside in the higher-energy \( n=2 \) level. If there are two electrons in the \( n=1 \) level, their spins must be in opposite directions. (More precisely, their spin projections must differ.)")
+![The figure here shows configuration of electrons. At the top, the key shows two purple balls, which depict electrons. The upward directed arrow on the first ball or electron shows its spin is plus one half, and the downward arrow on the second electron shows the opposite spin that is minus one half. Two other sections show the electronic configurations of electrons for two levels, n equal to one and n equal to two. One section shows the allowed configurations of the electron in the n is equal to one and two levels, and the second section for the configurations which are not allowed. In the allowed section, n is equal to two has three vacant shells and one electron in each of the outer two shells, one with spin up and one with spin down; and n is equal to one configuration has two shells containing one each spin up and spin down electron and the three other shells containing combinations of both spins each. For the not allowed section, n is equal to two have all vacant shells and n is equal to one have unevenly balanced electrons in its shells.](../resources/Figure_30_09_02a.jpg "The Pauli exclusion principle explains why some configurations of electrons are allowed while others are not. Since electrons cannot have the same set of quantum numbers, a maximum of two can be in the \( n=1 \) level, and a third electron must reside in the higher-energy \( n=2 \) level. If there are two electrons in the \( n=1 \) level, their spins must be in opposite directions. (More precisely, their spin projections must differ.)")
 {: #Figure2}
 
 ### Shells and Subshells
@@ -158,7 +158,7 @@ electrons with these quantum numbers is written $$2{p}^{3} $$ . This notation,
 called spectroscopic notation, is generalized as shown in [[Figure 3]](#Figure3)
 .
 
-![Diagram illustrating the components of the expression 2 times p to the third power, where 2 is the principal quantum number n, p is the angular momentum quantum number, represented by a script letter l, and the exponent 3 is the number of electrons.](../resources/Figure_31_09_05a.jpg " ")
+![Diagram illustrating the components of the expression 2 times p to the third power, where 2 is the principal quantum number n, p is the angular momentum quantum number, represented by a script letter l, and the exponent 3 is the number of electrons.](../resources/Figure_30_09_05a.jpg " ")
 {: #Figure3}
 
 Counting the number of possible combinations of quantum numbers allowed by the
@@ -184,7 +184,7 @@ possibilities and then proceed with the $$2p $$ subshell.
 It is convenient to list the possible quantum numbers in a table, as shown
 below.
 
-![Image contains a table listing all possible quantum numbers for the n equals 2 shell. The table shows that there are a total of two electrons in the 2 s subshell and six electrons in the 2 p subshell, for a total of eight electrons in the shell.](../resources/Figure_31_09_06a.jpg " ")
+![Image contains a table listing all possible quantum numbers for the n equals 2 shell. The table shows that there are a total of two electrons in the 2 s subshell and six electrons in the 2 p subshell, for a total of eight electrons in the shell.](../resources/Figure_30_09_06a.jpg " ")
 {: #Figure4}
 
 **Discussion**
@@ -545,7 +545,7 @@ nucleus and, thus, are more tightly bound (lower in energy).
 element 118. Of special interest are elements in the main groups, namely, those
 in the columns numbered 1, 2, 13, 14, 15, 16, 17, and 18.
 
-![This picture shows the periodic table of the elements.](../resources/Figure_31_09_03a.jpg "Periodic table of the elements (credit: National Institute of Standards and Technology, U.S. Department of Commerce)")
+![This picture shows the periodic table of the elements.](../resources/Figure_30_09_03a.jpg "Periodic table of the elements (credit: National Institute of Standards and Technology, U.S. Department of Commerce)")
 {: #Figure5}
 
 The number of electrons in the outermost subshell determines the atom’s chemical
@@ -771,7 +771,7 @@ estimated in this chapter.
 **Integrated Concepts**
 
 The electric and magnetic forces on an electron in the CRT
-in [[link]](../contents/ch30DiscoveryOfThePartsOfTheAtom#fs-id961353) are supposed to be in opposite
+in [[Figure 4]](../contents/ch30DiscoveryOfThePartsOfTheAtom#Figure4) are supposed to be in opposite
 directions. Verify this by determining the direction of each force for the
 situation shown. Explain how you obtain the directions (that is, identify the
 rules used).
@@ -827,7 +827,7 @@ $$ , or a Lyman series transition).
 **Integrated Concepts**
 
 In a Millikan oil-drop experiment using a setup like that
-in [[link]](../contents/ch30DiscoveryOfThePartsOfTheAtom#fs-id2010482), a 500-V potential difference is
+in [[Figure 6]](../contents/ch30DiscoveryOfThePartsOfTheAtom#Figure6), a 500-V potential difference is
 applied to plates separated by 2.50 cm. (a) What is the mass of an oil drop
 having two extra electrons that is suspended motionless by the field between the
 plates? (b) What is the diameter of the drop, assuming it is a sphere with the

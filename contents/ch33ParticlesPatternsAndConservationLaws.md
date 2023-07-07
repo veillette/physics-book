@@ -42,7 +42,7 @@ dozens and then hundreds, and the term “particle zoo” became the physicist�
 lament at the lack of simplicity. But patterns were observed in the particle zoo
 that led to simplifying ideas such as quarks, as we shall soon see.
 
-![A photo of a young Paul Dirac.](../resources/Figure_34_04_01.jpg "P.A.M. Dirac&#x2019;s theory of relativistic quantum mechanics not only explained a great deal of what was known, it also predicted antimatter. (credit: Cambridge University, Cavendish Laboratory) ")
+![A photo of a young Paul Dirac.](../resources/Figure_33_04_01.jpg "P.A.M. Dirac&#x2019;s theory of relativistic quantum mechanics not only explained a great deal of what was known, it also predicted antimatter. (credit: Cambridge University, Cavendish Laboratory) ")
 {: #Figure1}
 
 ### Matter and Antimatter
@@ -105,7 +105,7 @@ intrinsic spin ( $$s=1/2, 3/2, \text{...} $$ ). Fermions obey the Pauli
 exclusion principle whereas bosons do not. All the known and conjectured carrier
 particles are bosons.
 
-![The upper image shows an electron and positron colliding head-on. The lower image shows a starburst image from which two photons are emerging in opposite directions.](../resources/Figure_34_04_02.jpg "When a particle encounters its antiparticle, they annihilate, often producing pure energy in the form of photons. In this case, an electron and a positron convert all their mass into two identical energy rays, which move away in opposite directions to keep total momentum zero as it was before. Similar annihilations occur for other combinations of a particle with its antiparticle, sometimes producing more particles while obeying all conservation laws.")
+![The upper image shows an electron and positron colliding head-on. The lower image shows a starburst image from which two photons are emerging in opposite directions.](../resources/Figure_33_04_02.jpg "When a particle encounters its antiparticle, they annihilate, often producing pure energy in the form of photons. In this case, an electron and a positron convert all their mass into two identical energy rays, which move away in opposite directions to keep total momentum zero as it was before. Similar annihilations occur for other combinations of a particle with its antiparticle, sometimes producing more particles while obeying all conservation laws.")
 {: #Figure2}
 
 <table id="Table1" aria-describedby="Selected Particle Characteristics"><caption><span class="title">Selected Particle Characteristics<sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup></span></caption><thead><tr>
@@ -756,7 +756,7 @@ substructures. Leptons seem to be fundamental structures. Hadrons seem to have a
 substructure called quarks. [Quarks: Is That All There Is?](../contents/ch33Quarks) explores
 the basics of the underlying quark building blocks.
 
-![The image shows a picture of physicist Murray Gell Mann, who looks like a pleasant white-haired gentleman.](../resources/Figure_34_04_03.jpg "Murray Gell-Mann (b. 1929) proposed quarks as a substructure of hadrons in 1963 and was already known for his work on the concept of strangeness. Although quarks have never been directly observed, several predictions of the quark model were quickly confirmed, and their properties explain all known hadron characteristics. Gell-Mann was awarded the Nobel Prize in 1969. (credit: Lubo&#x161; Motl)")
+![The image shows a picture of physicist Murray Gell Mann, who looks like a pleasant white-haired gentleman.](../resources/Figure_33_04_03.jpg "Murray Gell-Mann (b. 1929) proposed quarks as a substructure of hadrons in 1963 and was already known for his work on the concept of strangeness. Although quarks have never been directly observed, several predictions of the quark model were quickly confirmed, and their properties explain all known hadron characteristics. Gell-Mann was awarded the Nobel Prize in 1969. (credit: Lubo&#x161; Motl)")
 {: #Figure3}
 
 ### Summary

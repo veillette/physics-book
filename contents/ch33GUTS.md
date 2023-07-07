@@ -20,20 +20,20 @@ nuclear force has been shown to be connected to the electromagnetic force in a
 manner suggesting that a theory may be constructed in which all four forces are
 unified. Certainly, there are similarities in how forces are transmitted by the
 exchange of carrier particles, and the carrier particles themselves (the gauge
-bosons in [[link]](../contents/ch33ParticlesPatternsAndConservationLaws#Table1)) are also similar in important ways. The
+bosons in [[Table 1]](../contents/ch33ParticlesPatternsAndConservationLaws#Table1)) are also similar in important ways. The
 analogy to the unification of electric and magnetic forces is quite good—the
 four forces are distinct under normal circumstances, but there are hints of
 connections even on the atomic scale, and there may be conditions under which
 the forces are intimately related and even indistinguishable. The search for a
 correct theory linking the forces, called the **Grand Unified Theory (GUT)**, is
 explored in this section in the realm of particle
-physics. [Frontiers of Physics](../contents/ch33FrontiersOfPhysics) expands the story in making a
+physics. [Frontiers of Physics](../contents/ch34FrontiersOfPhysics) expands the story in making a
 connection with cosmology, on the opposite end of the distance scale.
 
 [[Figure 1]](#Figure1) is a Feynman diagram showing how the weak nuclear force
 is transmitted by the carrier particle $${Z}^{0} $$ , similar to the diagrams
-in [[link]](../contents/ch33TheFourBasicForces#import-auto-id1169738052383)
-and [[link]](../contents/ch33TheFourBasicForces#import-auto-id1169737991710) for the electromagnetic and
+in [[Figure 2]](../contents/ch33TheFourBasicForces#Figure2)
+and [[Figure 3]](../contents/ch33TheFourBasicForces#Figure3) for the electromagnetic and
 strong nuclear forces. In the 1960s, a gauge theory, called **electroweak
 theory**, was developed by Steven Weinberg, Sheldon Glashow, and Abdus Salam and
 proposed that the electromagnetic and weak forces are identical at sufficiently
@@ -47,17 +47,17 @@ was predicted to be $$90 \text{GeV/}{c}^{2} $$ .
 \text{GeV/}{c}^{2} $$ , since the range of the weak force is about 1000 times
 less than the strong force carried by virtual pions.) In 1983, these carrier
 particles were observed at CERN with the predicted characteristics, including
-masses having the predicted values as seen in [[link]](../contents/ch33ParticlesPatternsAndConservationLaws#Table1). This was
+masses having the predicted values as seen in [[Table 1]](../contents/ch33ParticlesPatternsAndConservationLaws#Table1). This was
 another triumph of particle theory and experimental effort, resulting in the
 1984 Nobel Prize to the experiment’s group leaders Carlo Rubbia and Simon van
 der Meer. Theorists Weinberg, Glashow, and Salam had already been honored with
 the 1979 Nobel Prize for other aspects of electroweak theory.
 
-![A Feynman diagram is shown in which time proceeds in along the vertical y axis and distance along the horizontal x axis. An electron and an electron neutrino are shown approaching each other, exchanging a virtual zee zero particle, then moving apart.](../resources/Figure_34_06_01.jpg "The exchange of a virtual \( Z^0 \) carries the weak nuclear force between an electron and a neutrino in this Feynman diagram. The \( Z^0 \) is one of the carrier particles for the weak nuclear force that has now been created in the laboratory with characteristics predicted by electroweak theory. ")
+![A Feynman diagram is shown in which time proceeds in along the vertical y axis and distance along the horizontal x axis. An electron and an electron neutrino are shown approaching each other, exchanging a virtual zee zero particle, then moving apart.](../resources/Figure_33_06_01.jpg "The exchange of a virtual \( Z^0 \) carries the weak nuclear force between an electron and a neutrino in this Feynman diagram. The \( Z^0 \) is one of the carrier particles for the weak nuclear force that has now been created in the laboratory with characteristics predicted by electroweak theory. ")
 {: #Figure1}
 
 Although the weak nuclear force is very short ranged (  $$< 10^{-18}\text{m} $$
-, as indicated in [[link]](../contents/ch33TheFourBasicForces#import-auto-id1169738010507)), its effects on
+, as indicated in [[Table 1]](../contents/ch33TheFourBasicForces#Table1)), its effects on
 atomic levels can be measured given the extreme precision of modern techniques.
 Since electrons spend some time in the nucleus, their energies are affected, and
 spectra can even indicate new aspects of the weak force, such as the possibility
@@ -86,26 +86,26 @@ because it is an $$R\stackrel{-}{G} $$
 antigreenness kills the green in the strange quark, and its redness turns the
 quark red.
 
-![The first image shows eight circles representing gluons. The first gluon is colored red and anti green, the second gluon is colored green and anti red, the third gluon is colored blue and anti red, the fourth gluon is colored red and anti blue, the fifth gluon is colored green and anti blue, and the sixth gluon is colored blue and anti green. The last two gluons are white. The second image shows a Feynman diagram in which time proceeds in along the vertical y axis and distance along the horizontal x axis. A red down quark and a green strange quark are approaching each other. They exchange a red and anti green gluon, then move apart, with the red down quark having changed to a green down quark and the green strange quark having changed to a red strange quark. ](../resources/Figure_34_06_02.jpg "In figure (a), the eight types of gluons that carry the strong nuclear force are divided into a group of six that carry color and a group of two that do not. Figure (b) shows that the exchange of gluons between quarks carries the strong force and may change the color of a quark.")
+![The first image shows eight circles representing gluons. The first gluon is colored red and anti green, the second gluon is colored green and anti red, the third gluon is colored blue and anti red, the fourth gluon is colored red and anti blue, the fifth gluon is colored green and anti blue, and the sixth gluon is colored blue and anti green. The last two gluons are white. The second image shows a Feynman diagram in which time proceeds in along the vertical y axis and distance along the horizontal x axis. A red down quark and a green strange quark are approaching each other. They exchange a red and anti green gluon, then move apart, with the red down quark having changed to a green down quark and the green strange quark having changed to a red strange quark. ](../resources/Figure_33_06_02.jpg "In figure (a), the eight types of gluons that carry the strong nuclear force are divided into a group of six that carry color and a group of two that do not. Figure (b) shows that the exchange of gluons between quarks carries the strong force and may change the color of a quark.")
 {: #Figure2}
 
 The strong force is complicated, since observable particles that feel the strong
 force (hadrons) contain multiple quarks. [[Figure 3]](#Figure3) shows the quark
 and gluon details of pion exchange between a proton and a neutron as illustrated
-earlier in [[link]](../contents/ch33TheYukawaParticleAndTheHeisenbergUncertaintyPrincipleRevisited#import-auto-id1169737824808)
-and [[link]](../contents/ch33TheFourBasicForces#import-auto-id1169737991710). The quarks within the proton
+earlier in [[Figure 1]](../contents/ch33TheYukawaParticleAndTheHeisenbergUncertaintyPrincipleRevisited#Figure1)
+and [[Figure 3]](../contents/ch33TheFourBasicForces#Figure3). The quarks within the proton
 and neutron move along together exchanging gluons, until the proton and neutron
 get close together. As the $$u $$ quark leaves the proton, a gluon creates a
 pair of virtual particles, a $$d $$ quark and a $$\stackrel{-}{d} $$ antiquark.
 The $$d $$ quark stays behind and the proton turns into a neutron, while the $$u
 $$ and $$\stackrel{-}{d} $$ move together as a $${\pi }^{+} $$
-([[link]](../contents/ch33Quarks#import-auto-id1169737909561) confirms the $$u\stackrel{-}{d}
+([[Table 2]](../contents/ch33Quarks#Table2) confirms the $$u\stackrel{-}{d}
 $$ composition for the $${\pi }^{+} $$ .)
 The $$\stackrel{-}{d} $$ annihilates a $$d $$ quark in the neutron, the $$u $$
 joins the neutron, and the neutron becomes a proton. A pion is exchanged and a
 force is transmitted.
 
-![The Feynman diagram shows a proton scattering from a neutron. In the process , the proton becomes a neutron and the neutron becomes a proton. The details of the interaction are explained in the text.](../resources/Figure_34_06_03.jpg "This Feynman diagram is the same interaction as shown in [link], but it shows the quark and gluon details of the strong force interaction.")
+![The Feynman diagram shows a proton scattering from a neutron. In the process , the proton becomes a neutron and the neutron becomes a proton. The details of the interaction are explained in the text.](../resources/Figure_33_06_03.jpg "This Feynman diagram is the same interaction as shown in [[Figure 3]](../contents/ch33TheFourBasicForces#Figure3) of the four basic forces, but it shows the quark and gluon details of the strong force interaction.")
 {: #Figure3}
 
 It is beyond the scope of this text to go into more detail on the types of quark
@@ -119,7 +119,7 @@ but not overthrow, the Standard Model of particle physics and forces.
 <div class="title">
 Making Connections: Unification of Forces
 </div>
-Grand Unified Theory (GUT) is successful in describing the four forces as distinct under normal circumstances, but connected in fundamental ways. Experiments have verified that the weak and electromagnetic force become identical at very small distances and provide the GUT description of the carrier particles for the forces. GUT predicts that the other forces become identical under conditions so extreme that they cannot be tested in the laboratory, although there may be lingering evidence of them in the evolution of the universe. GUT is also successful in describing a system of carrier particles for all four forces, but there is much to be done, particularly in the realm of gravity.
+Grand Unified Theory (GUT) is successful in describing the four forces as distinct under normal circumstances, but connected in fundamental ways. Experiments have verified that the weak and electromagnetic forces become identical at very small distances and provide the GUT description of the carrier particles for the forces. GUT predicts that the other forces become identical under conditions so extreme that they cannot be tested in the laboratory, although there may be lingering evidence of them in the evolution of the universe. GUT is also successful in describing a system of carrier particles for all four forces, but there is much to be done, particularly in the realm of gravity.
 
 </div>
 
@@ -155,7 +155,7 @@ is a possibility of a direct discovery during 2012. The existence of this more
 massive particle would give validity to the theory that the carrier particles
 are identical under certain circumstances.
 
-![The figure shows a graph with the strength of four basics forces plotted along the y axis and energy plotted along the x axis in giga electron volts. Near zero giga electron volts, the difference in forces is large. Gravity is the weakest force, followed by the weak force, then the electromagnetic force, and finally the strong force is the strongest. At about one hundred giga electron volts, the curves for the electromagnetic and weak force combine to become the electroweak force, but gravity remains weaker and the strong force remains stronger. Near ten to the fifteen giga electron volts, the electroweak force combines with the strong force at a point labeled G U T. Finally, at about ten to the nineteenth giga electron volts, gravity is combined with the electroweak plus strong force at a point labeled T O E.](../resources/Figure_34_06_04.jpg "The relative strengths of the four basic forces vary with distance and, hence, energy is needed to probe small distances. At ordinary energies (a few eV or less), the forces differ greatly as indicated in [link]. However, at energies available at accelerators, the weak and EM forces become identical, or unified. Unfortunately, the energies at which the strong and electroweak forces become the same are unreachable even in principle at any conceivable accelerator. The universe may provide a laboratory, and nature may show effects at ordinary energies that give us clues about the validity of this graph.")
+![The figure shows a graph with the strength of four basics forces plotted along the y axis and energy plotted along the x axis in giga electron volts. Near zero giga electron volts, the difference in forces is large. Gravity is the weakest force, followed by the weak force, then the electromagnetic force, and finally the strong force is the strongest. At about one hundred giga electron volts, the curves for the electromagnetic and weak force combine to become the electroweak force, but gravity remains weaker and the strong force remains stronger. Near ten to the fifteen giga electron volts, the electroweak force combines with the strong force at a point labeled G U T. Finally, at about ten to the nineteenth giga electron volts, gravity is combined with the electroweak plus strong force at a point labeled T O E.](../resources/Figure_33_06_04.jpg "The relative strengths of the four basic forces vary with distance and, hence, energy is needed to probe small distances. At ordinary energies (a few eV or less), the forces differ greatly as indicated in [[Table 1]](../contents/ch33TheFourBasicForces#Table1) from The Four Basic Forces. However, at energies available at accelerators, the weak and EM forces become identical, or unified. Unfortunately, the energies at which the strong and electroweak forces become the same are unreachable even in principle at any conceivable accelerator. The universe may provide a laboratory, and nature may show effects at ordinary energies that give us clues about the validity of this graph.")
 {: #Figure4}
 
 The small distances and high energies at which the electroweak force becomes
@@ -205,9 +205,9 @@ universe was discovered. Thinking backward in time, the universe must once have
 been very small, dense, and extremely hot. At a tiny fraction of a second after
 the fabled Big Bang, forces would have been unified and may have left their
 fingerprint on the existing universe. This, one of the most exciting forefronts
-of physics, is the subject of [Frontiers of Physics](../contents/ch33FrontiersOfPhysics).
+of physics, is the subject of [Frontiers of Physics](../contents/ch34FrontiersOfPhysics).
 
-![The image shows the picture of a huge cylindrical shaped proton decay detector with its main door open. It is as high as a double decker bus and as long as a small house. An untold number of cables, wires, and detector modules are arranged in a cylinder around a rectangular crate-like object containing another smaller cylindrical object.](../resources/Figure_34_06_05.jpg "In the Tevatron accelerator at Fermilab, protons and antiprotons collide at high energies, and some of those collisions could result in the production of a Higgs boson in association with a W boson. When the W boson decays to a high-energy lepton and a neutrino, the detector triggers on the lepton, whether it is an electron or a muon. (credit: D. J. Miller) ")
+![The image shows the picture of a huge cylindrical shaped proton decay detector with its main door open. It is as high as a double decker bus and as long as a small house. An untold number of cables, wires, and detector modules are arranged in a cylinder around a rectangular crate-like object containing another smaller cylindrical object.](../resources/Figure_33_06_05.jpg "In the Tevatron accelerator at Fermilab, protons and antiprotons collide at high energies, and some of those collisions could result in the production of a Higgs boson in association with a W boson. When the W boson decays to a high-energy lepton and a neutrino, the detector triggers on the lepton, whether it is an electron or a muon. (credit: D. J. Miller) ")
 {: #Figure5}
 
 ### Summary
@@ -265,15 +265,15 @@ atmosphere as seen in the figure given below. Suppose a cosmic ray particle
 having an energy of $$ 10^{10} \text{GeV} $$ converts its energy into particles
 with masses averaging $$200 \text{MeV/}{c}^{2} $$ .
 (a) How many particles are created? (b) If the particles rain down on a $$1.00
-{\text{-km}}^{2} $$ area, how many particles are there per square meter?
+{\text{-km} }^{2} $$ area, how many particles are there per square meter?
 
-![The figure shows an extremely energetic cosmic ray penetrating into the Earth&#x2019;s atmosphere. High up in the atmosphere, the cosmic ray disintegrates into a shower of particles that start a chain reaction by themselves creating further particles. All these particles shower the surface of the Earth.](../resources/Figure_34_06_06.jpg "An extremely energetic cosmic ray creates a shower of particles on earth. The energy of these rare cosmic rays can approach a joule (about \( 10^{10} \text{GeV} \) ) and, after multiple collisions, huge numbers of particles are created from this energy. Cosmic ray showers have been observed to extend over many square kilometers. ")
+![The figure shows an extremely energetic cosmic ray penetrating into the Earth&#x2019;s atmosphere. High up in the atmosphere, the cosmic ray disintegrates into a shower of particles that start a chain reaction by themselves creating further particles. All these particles shower the surface of the Earth.](../resources/Figure_33_06_06.jpg "An extremely energetic cosmic ray creates a shower of particles on earth. The energy of these rare cosmic rays can approach a joule (about \( 10^{10} \text{GeV} \) ) and, after multiple collisions, huge numbers of particles are created from this energy. Cosmic ray showers have been observed to extend over many square kilometers. ")
 {: #Figure6}
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
 (a)  $$5 \times 10^{10} $$
-(b)  $$5 \times 10^{4}  {\text{particles/m}}^{2} $$
+(b)  $$5 \times 10^{4}  {\text{particles/m} }^{2} $$
 </div>
 </div>
 
@@ -306,7 +306,7 @@ provides an idea of the limit to the detail it can probe.
 **Integrated Concepts**
 
 (a) Calculate the relativistic quantity $$\gamma
-=\frac{1}{\sqrt{1-{v}^{2}/{c}^{2}}} $$ for 1.00-TeV protons produced at
+=\frac{1}{\sqrt{1-{v}^{2}/{c}^{2} }} $$ for 1.00-TeV protons produced at
 Fermilab. (b) If such a proton created a $${\pi }^{+} $$ having the same speed,
 how long would its life be in the laboratory? (c) How far could it travel in
 this time?
@@ -319,7 +319,7 @@ this time?
 **Integrated Concepts**
 
 The primary decay mode for the negative pion is $${\pi }^{-}\to {\mu
-}^{-}+{\stackrel{-}{\nu }}_{\mu } $$ .
+}^{-}+{\stackrel{-}{\nu } }_{\mu } $$ .
 (a) What is the energy release in MeV in this decay? (b) Using conservation of
 momentum, how much energy does each of the decay products receive, given the
 $${\pi }^{-} $$ is at rest when it decays? You may assume the muon antineutrino
@@ -341,7 +341,7 @@ is massless and has momentum $$p=E/c $$ , just like a photon.
 Plans for an accelerator that produces a secondary beam of *K*-mesons to scatter
 from nuclei, for the purpose of studying the strong force, call for them to have
 a kinetic energy of 500 MeV. (a) What would the relativistic quantity $$\gamma
-=\frac{1}{\sqrt{1-{v}^{2}/{c}^{2}}} $$ be for these particles? (b) How long
+=\frac{1}{\sqrt{1-{v}^{2}/{c}^{2} }} $$ be for these particles? (b) How long
 would their average lifetime be in the laboratory? (c) How far could they travel
 in this time?
 
@@ -363,7 +363,7 @@ single proton decay?
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
 (a)  $$ 7.2 \times 10^{5}  \text{kg} $$
-(b)  $$ 7.2 \times 10^{2}  {\text{m}}^{3} $$
+(b)  $$ 7.2 \times 10^{2}  {\text{m} }^{3} $$
 (c)  $$100 \text{months} $$
 </div>
 </div>
@@ -378,7 +378,7 @@ away from the Earth (relatively close to our Milky Way galaxy). If neutrinos
 have a mass, they cannot travel at the speed of light, but if their mass is
 small, they can get close. (a) Suppose a neutrino with a $$7\text{-eV/}{c}^{2}
 $$ mass has a kinetic energy of 700 keV. Find the relativistic quantity $$\gamma
-=\frac{1}{\sqrt{1-{v}^{2}/{c}^{2}}} $$ for it. (b) If the neutrino leaves the
+=\frac{1}{\sqrt{1-{v}^{2}/{c}^{2} }} $$ for it. (b) If the neutrino leaves the
 1987A supernova at the same time as a photon and both travel to Earth, how much
 sooner does the photon arrive? This is not a large time difference, given that
 it is impossible to know which neutrino left with which photon and the poor

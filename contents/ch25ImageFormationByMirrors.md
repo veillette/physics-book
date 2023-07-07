@@ -33,7 +33,7 @@ since the rays do not go there. But in front of the mirror, the rays behave
 exactly as if they had come from behind the mirror, so that is where the image
 is situated.
 
-![A bottle at a distance d sub o from a flat mirror. An observer&#x2019;s eye looks into the mirror and finds the image at d sub I behind the mirror. The incident rays fall onto the mirror and get reflected to the eye. The dotted lines represent reflected rays extrapolated backward and produce an image of the same size.](../resources/Figure_26_07_01.jpg "Two sets of rays from common points on an object are reflected by a flat mirror into the eye of an observer. The reflected rays seem to originate from behind the mirror, locating the virtual image.")
+![A bottle at a distance d sub o from a flat mirror. An observer&#x2019;s eye looks into the mirror and finds the image at d sub I behind the mirror. The incident rays fall onto the mirror and get reflected to the eye. The dotted lines represent reflected rays extrapolated backward and produce an image of the same size.](../resources/Figure_25_07_01.jpg "Two sets of rays from common points on an object are reflected by a flat mirror into the eye of an observer. The reflected rays seem to originate from behind the mirror, locating the virtual image.")
 {: #Figure1}
 
 Now let us consider the focal length of a mirror—for example, the concave
@@ -51,7 +51,7 @@ this mirror has a well-defined focal point at F that is the focal distance $$f
 $$ from the center of the mirror. The focal length $$f $$ of a concave mirror is
 positive, since it is a converging mirror.
 
-![Figure (a) shows a large concave spherical mirror. A beam of parallel rays is incident on the mirror; after reflection it converges at F. Figure (b) shows a concave mirror that is small when compared to its radius of curvature. A beam of parallel rays is incident on the mirror; after reflection it converges at F on the same side. The middle rays of the parallel beam are 1,2, and 3. The distance of F on ray 2 from the center of the mirror is its focal length small f.](../resources/Figure_26_07_02.jpg "(a) Parallel rays reflected from a large spherical mirror do not all cross at a common point. (b) If a spherical mirror is small compared with its radius of curvature, parallel rays are focused to a common point. The distance of the focal point from the center of the mirror is its focal length \( f \) . Since this mirror is converging, it has a positive focal length.   ")
+![Figure (a) shows a large concave spherical mirror. A beam of parallel rays is incident on the mirror; after reflection it converges at F. Figure (b) shows a concave mirror that is small when compared to its radius of curvature. A beam of parallel rays is incident on the mirror; after reflection it converges at F on the same side. The middle rays of the parallel beam are 1,2, and 3. The distance of F on ray 2 from the center of the mirror is its focal length small f.](../resources/Figure_25_07_02.jpg "(a) Parallel rays reflected from a large spherical mirror do not all cross at a common point. (b) If a spherical mirror is small compared with its radius of curvature, parallel rays are focused to a common point. The distance of the focal point from the center of the mirror is its focal length \( f \) . Since this mirror is converging, it has a positive focal length.   ")
 {: #Figure2}
 
 Just as for lenses, the shorter the focal length, the more powerful the mirror;
@@ -73,7 +73,7 @@ Parallel rays of light reflected from the mirror seem to originate from the
 point F at the focal distance $$f $$ behind the mirror. The focal length and
 power of a convex mirror are negative, since it is a diverging mirror.
 
-![A convex spherical mirror. A beam of parallel rays incident on the mirror, after reflection, appear to come from F on ray 2 behind the mirror. Here the distance of](../resources/Figure_26_07_03.jpg "Parallel rays of light reflected from a convex spherical mirror (small in size compared with its radius of curvature) seem to originate from a well-defined focal point at the focal distance \( f \) behind the mirror. Convex mirrors diverge light rays and, thus, have a negative focal length.   ")
+![A convex spherical mirror. A beam of parallel rays incident on the mirror, after reflection, appear to come from F on ray 2 behind the mirror. Here the distance of](../resources/Figure_25_07_03.jpg "Parallel rays of light reflected from a convex spherical mirror (small in size compared with its radius of curvature) seem to originate from a well-defined focal point at the focal distance \( f \) behind the mirror. Convex mirrors diverge light rays and, thus, have a negative focal length.   ")
 {: #Figure3}
 
 Ray tracing is as useful for mirrors as for lenses. The rules for ray tracing
@@ -112,7 +112,7 @@ inverted, so its magnification is negative. This is a *case 1 image for mirrors*
 . It differs from the case 1 image for lenses only in that the image is on the
 same side of the mirror as the object. It is otherwise identical.
 
-![Three incident rays, 1, 2, and 3, falling on a concave mirror. Ray 1 falls parallel, ray 2 falls making an angle with the axis and ray 3 passes through focal point F. These rays after reflection converge at a point below the axis. The image is inverted and enlarged and falls below the axis on the same side as the object. Here, the distance from the center of the mirror to F is the focal distance small f, distances of the object and the image from the mirror are d sub o and d sub I, respectively. The heights of the object and the image are h sub o and h sub I, respectively.](../resources/Figure_26_07_04.jpg "A case 1 image for a mirror. An object is farther from the converging mirror than its focal length. Rays from a common point on the object are traced using the rules in the text. Ray 1 approaches parallel to the axis, ray 2 strikes the center of the mirror, and ray 3 goes through the focal point on the way toward the mirror. All three rays cross at the same point after being reflected, locating the inverted real image. Although three rays are shown, only two of the three are needed to locate the image and determine its height.")
+![Three incident rays, 1, 2, and 3, falling on a concave mirror. Ray 1 falls parallel, ray 2 falls making an angle with the axis and ray 3 passes through focal point F. These rays after reflection converge at a point below the axis. The image is inverted and enlarged and falls below the axis on the same side as the object. Here, the distance from the center of the mirror to F is the focal distance small f, distances of the object and the image from the mirror are d sub o and d sub I, respectively. The heights of the object and the image are h sub o and h sub I, respectively.](../resources/Figure_25_07_04.jpg "A case 1 image for a mirror. An object is farther from the converging mirror than its focal length. Rays from a common point on the object are traced using the rules in the text. Ray 1 approaches parallel to the axis, ray 2 strikes the center of the mirror, and ray 3 goes through the focal point on the way toward the mirror. All three rays cross at the same point after being reflected, locating the inverted real image. Although three rays are shown, only two of the three are needed to locate the image and determine its height.")
 {: #Figure4}
 
 <div id="Example1" class="example" markdown="1">
@@ -247,7 +247,7 @@ An array of such pipes in the California desert can provide a thermal output of
 \text{ºC} $$ . We are considering only one meter of pipe here, and ignoring heat
 losses along the pipe.
 
-![A parabolic trough solar thermal electric power plant located at Kramer Junction, California](../resources/Figure_26_07_05.jpg "Parabolic trough collectors are used to generate electricity in southern California. (credit: kjkolb, Wikimedia Commons) ")
+![A parabolic trough solar thermal electric power plant located at Kramer Junction, California](../resources/Figure_25_07_05.jpg "Parabolic trough collectors are used to generate electricity in southern California. (credit: kjkolb, Wikimedia Commons) ")
 {: #Figure5}
 
 What happens if an object is closer to a concave mirror than its focal length?
@@ -260,7 +260,7 @@ mirror, meaning that the image is virtual and cannot be projected. As with a
 magnifying glass, the image is upright and larger than the object. This is a *
 case 2 image for mirrors* and is exactly analogous to that for lenses.
 
-![Figure (a) shows three incident rays, 1, 2, and 3, falling on a concave mirror. Ray 1 falls parallel, ray 2 falls making an angle with the axis, and ray 3 is from focal point F. These rays after reflection appear to come from a point above the axis. The image is erect and enlarged, and falls above the axis behind the mirror. Here, the distance from the center of the mirror to F is focal length small f, distances of the object and the image from the mirror are d sub o  and d sub I, respectively. The heights of the object and the image are h sub o and h sub i, respectively. Figure (b) shows a woman applying makeup looking into her magnified reflection in the concave mirror.](../resources/Figure_26_07_06.jpg "(a) Case 2 images for mirrors are formed when a converging mirror has an object closer to it than its focal length. Ray 1 approaches parallel to the axis, ray 2 strikes the center of the mirror, and ray 3 approaches the mirror as if it came from the focal point. (b) A magnifying mirror showing the reflection. (credit: Mike Melrose, Flickr)")
+![Figure (a) shows three incident rays, 1, 2, and 3, falling on a concave mirror. Ray 1 falls parallel, ray 2 falls making an angle with the axis, and ray 3 is from focal point F. These rays after reflection appear to come from a point above the axis. The image is erect and enlarged, and falls above the axis behind the mirror. Here, the distance from the center of the mirror to F is focal length small f, distances of the object and the image from the mirror are d sub o  and d sub I, respectively. The heights of the object and the image are h sub o and h sub i, respectively. Figure (b) shows a woman applying makeup looking into her magnified reflection in the concave mirror.](../resources/Figure_25_07_06.jpg "(a) Case 2 images for mirrors are formed when a converging mirror has an object closer to it than its focal length. Ray 1 approaches parallel to the axis, ray 2 strikes the center of the mirror, and ray 3 approaches the mirror as if it came from the focal point. (b) A magnifying mirror showing the reflection. (credit: Mike Melrose, Flickr)")
 {: #Figure6}
 
 All three rays appear to originate from the same point after being reflected,
@@ -275,7 +275,7 @@ and size of the case 3 image for mirrors. Since the image is behind the mirror,
 it cannot be projected and is thus a virtual image. It is also seen to be
 smaller than the object.
 
-![Figure (a) shows three incident rays, 1, 2, and 3, falling on a convex mirror. Ray 1 falls parallel, ray 2 falls making an angle with the axis, and ray 3 falls obliquely. These rays after reflection appear to come from a point above the axis. The image is erect and diminished and falls above the axis behind the mirror. Here, the distance from the center of the mirror to focal point F is the focal length small f behind the mirror; the distances of the object and the image from the mirror are d sub o and d sub I, respectively. The heights of the object and the image are h sub o and h sub I, respectively. Figure (b) shows an image of a apparel and clothing show room as viewed in a convex mirror; the image appears to be small in size.](../resources/Figure_26_07_07.jpg "Case 3 images for mirrors are formed by any convex mirror. Ray 1 approaches parallel to the axis, ray 2 strikes the center of the mirror, and ray 3 approaches toward the focal point. All three rays appear to originate from the same point after being reflected, locating the upright virtual image behind the mirror and showing it to be smaller than the object. (b) Security mirrors are convex, producing a smaller, upright image. Because the image is smaller, a larger area is imaged compared to what would be observed for a flat mirror (and hence security is improved). (credit: Laura D&#x2019;Alessandro, Flickr)")
+![Figure (a) shows three incident rays, 1, 2, and 3, falling on a convex mirror. Ray 1 falls parallel, ray 2 falls making an angle with the axis, and ray 3 falls obliquely. These rays after reflection appear to come from a point above the axis. The image is erect and diminished and falls above the axis behind the mirror. Here, the distance from the center of the mirror to focal point F is the focal length small f behind the mirror; the distances of the object and the image from the mirror are d sub o and d sub I, respectively. The heights of the object and the image are h sub o and h sub I, respectively. Figure (b) shows an image of a apparel and clothing show room as viewed in a convex mirror; the image appears to be small in size.](../resources/Figure_25_07_07.jpg "Case 3 images for mirrors are formed by any convex mirror. Ray 1 approaches parallel to the axis, ray 2 strikes the center of the mirror, and ray 3 approaches toward the focal point. All three rays appear to originate from the same point after being reflected, locating the upright virtual image behind the mirror and showing it to be smaller than the object. (b) Security mirrors are convex, producing a smaller, upright image. Because the image is smaller, a larger area is imaged compared to what would be observed for a flat mirror (and hence security is improved). (credit: Laura D&#x2019;Alessandro, Flickr)")
 {: #Figure7}
 
 </div>
@@ -353,13 +353,14 @@ Find a flashlight and identify the curved mirror used in it. Find another flashl
 
 </div>
 
-### Problem-Solving Strategy for Mirrors
+### Problem-Solving Strategy for Mirrors 
+{: #Note1}
 
 Step 1. Examine the situation to determine that image formation by a mirror is
 involved.
 
 Step 2. Refer to
-the [Problem-Solving Strategies for Lenses](../contents/ch25ImageFormationByLenses#fs-id2212849). The same
+the [Problem-Solving Strategies for Lenses](../contents/ch25ImageFormationByLenses#Note1). The same
 strategies are valid for mirrors as for lenses with one qualification—use the
 ray tracing rules for mirrors listed earlier in this section.
 
@@ -433,7 +434,7 @@ Can a case 1 image be larger than the object even though its magnification is al
 <div class="problem" markdown="1">
 [[Figure 8]](#Figure8) shows a light bulb between two mirrors. One mirror produces a beam of light with parallel rays; the other keeps light from escaping without being put into the beam. Where is the filament of the light in relation to the focal point or radius of curvature of each mirror?
 
-![Two concave mirrors of different sizes are placed facing one another. A filament bulb is placed at the focus of the larger mirror. The rays after reflection from the larger mirror travel parallel to one another. The rays falling on the smaller mirror retrace their paths.](../resources/Figure_26_07_08.jpg "The two mirrors trap most of the bulb&#x2019;s light and form a directional beam as in a headlight.")
+![Two concave mirrors of different sizes are placed facing one another. A filament bulb is placed at the focus of the larger mirror. The rays after reflection from the larger mirror travel parallel to one another. The rays falling on the smaller mirror retrace their paths.](../resources/Figure_25_07_08.jpg "The two mirrors trap most of the bulb&#x2019;s light and form a directional beam as in a headlight.")
 {: #Figure8}
 
 </div>
@@ -509,7 +510,8 @@ Find the magnification of the heater element in [[Example 1]](#Example1). Note t
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What is the focal length of a makeup mirror that produces a magnification of 1.50 when a person’s face is 12.0 cm away? Explicitly show how you follow the steps in the [Problem-Solving Strategy for Mirrors](#fs-id2757582).
+What is the focal length of a makeup mirror that produces a magnification of 1.50 when a person’s face is 12.0 cm away?
+Explicitly show how you follow the steps in the [Problem-Solving Strategy for Mirrors](#Note1).
 
 </div>
 <div class="solution" markdown="1">
@@ -520,7 +522,8 @@ What is the focal length of a makeup mirror that produces a magnification of 1.5
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A shopper standing 3.00 m from a convex security mirror sees his image with a magnification of 0.250. (a) Where is his image? (b) What is the focal length of the mirror? (c) What is its radius of curvature? Explicitly show how you follow the steps in the [Problem-Solving Strategy for Mirrors](#fs-id2757582).
+A shopper standing 3.00 m from a convex security mirror sees his image with a magnification of 0.250. (a) Where is his image? (b) What is the focal length of the mirror? (c) What is its radius of curvature? 
+Explicitly show how you follow the steps in the [Problem-Solving Strategy for Mirrors](#Note1).
 
 </div>
 </div>

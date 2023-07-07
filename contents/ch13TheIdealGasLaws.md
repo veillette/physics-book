@@ -9,7 +9,7 @@ layout: page
 * Use Avogadro’s number to convert between number of molecules and number of moles.
 </div>
 
-![](../resources/Figure_14_03_00.jpg "The air inside this hot air balloon flying over Putrajaya, Malaysia, is hotter than the ambient air. As a result, the balloon experiences a buoyant force pushing it upward. (credit: Kevin Poh, Flickr)")
+![](../resources/Figure_13_03_00.jpg "The air inside this hot air balloon flying over Putrajaya, Malaysia, is hotter than the ambient air. As a result, the balloon experiences a buoyant force pushing it upward. (credit: Kevin Poh, Flickr)")
 {: #Figure1}
 
 In this section, we continue to explore the thermal behavior of gases. In
@@ -37,7 +37,7 @@ that the gas occupies all of the accessible volume and the expansion of gases is
 rapid. In contrast, in liquids and solids, atoms and molecules are closer
 together and are quite sensitive to the forces between them.
 
-![Spheres representing atoms and molecules; the spheres are relatively far apart and are distributed randomly.](../resources/Figure_14_03_01.jpg "Atoms and molecules in a gas are typically widely separated, as shown. Because the forces between them are quite weak at these distances, the properties of a gas depend more on the number of atoms per unit volume and on temperature than on the type of atom.")
+![Spheres representing atoms and molecules; the spheres are relatively far apart and are distributed randomly.](../resources/Figure_13_03_01.jpg "Atoms and molecules in a gas are typically widely separated, as shown. Because the forces between them are quite weak at these distances, the properties of a gas depend more on the number of atoms per unit volume and on temperature than on the type of atom.")
 {: #Figure2}
 
 To get some idea of how pressure, temperature, and volume of a gas are related
@@ -49,7 +49,7 @@ we continue to pump air into it, the pressure increases. The pressure will
 further increase when the car is driven and the tires move. Most manufacturers
 specify optimal tire pressure for cold tires. (See [[Figure 3]](#Figure3).)
 
-![The figure has three parts, each part showing a pair of tires, and each tire connected to a pressure gauge. Each pair of tires represents the before and after images of a single tire, along with a change in pressure in that tire. In part a, the tire pressure is initially zero. After some air is added, represented by an arrow labeled Add air, the pressure rises to slightly above zero. In part b, the tire pressure is initially at the half-way mark. After some air is added, represented by an arrow labeled Add air, the pressure rises to the three-fourths mark. In part c, the tire pressure is initially at the three-fourths mark. After the temperature is raised, represented by an arrow labeled Increase temperature, the pressure rises to nearly the full mark.](../resources/Figure_14_03_02.jpg "(a) When air is pumped into a deflated tire, its volume first increases without much increase in pressure. (b) When the tire is filled to a certain point, the tire walls resist further expansion and the pressure increases with more air. (c) Once the tire is inflated, its pressure increases with temperature.")
+![The figure has three parts, each part showing a pair of tires, and each tire connected to a pressure gauge. Each pair of tires represents the before and after images of a single tire, along with a change in pressure in that tire. In part a, the tire pressure is initially zero. After some air is added, represented by an arrow labeled Add air, the pressure rises to slightly above zero. In part b, the tire pressure is initially at the half-way mark. After some air is added, represented by an arrow labeled Add air, the pressure rises to the three-fourths mark. In part c, the tire pressure is initially at the three-fourths mark. After the temperature is raised, represented by an arrow labeled Increase temperature, the pressure rises to nearly the full mark.](../resources/Figure_13_03_02.jpg "(a) When air is pumped into a deflated tire, its volume first increases without much increase in pressure. (b) When the tire is filled to a certain point, the tire walls resist further expansion and the pressure increases with more air. (c) Once the tire is inflated, its pressure increases with temperature.")
 {: #Figure3}
 
 At room temperatures, collisions between atoms and molecules can be ignored. In
@@ -243,7 +243,7 @@ One mole always contains  $$ 6.02 \times 10^{23}  $$
 </div>
 </div>
 
-![The illustration shows relatively flat land with a solitary mountain, labeled Mt. Everest, and blue sky above. A double-headed vertical arrow stretches between the land and a point in the sky that is well above the peak of the mountain. The arrow, labeled table tennis balls, serves to indicate that a column of one mole of table tennis balls would reach a point in the sky that is much higher than the peak of Mt. Everest.](../resources/Figure_14_03_03.jpg "How big is a mole? On a macroscopic level, one mole of table tennis balls would cover the Earth to a depth of about 40 km.")
+![The illustration shows relatively flat land with a solitary mountain, labeled Mt. Everest, and blue sky above. A double-headed vertical arrow stretches between the land and a point in the sky that is well above the peak of the mountain. The arrow, labeled table tennis balls, serves to indicate that a column of one mole of table tennis balls would reach a point in the sky that is much higher than the peak of Mt. Everest.](../resources/Figure_13_03_03.jpg "How big is a mole? On a macroscopic level, one mole of table tennis balls would cover the Earth to a depth of about 40 km.")
 {: #Figure4}
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
@@ -304,7 +304,7 @@ difference is due to rounding errors caused by using three-digit input. Again
 this number is the same for all gases. In other words, it is independent of the
 gas.
 
-The (average) molar weight of air (approximately 80% $${\text{N}}_{2} $$ and 20%
+The (average) molar weight of air is approximately 80% $${\text{N}}_{2} $$ and 20%
 $${\text{O}}_{2} $$ is $$M= 28.8 \text{g}\text{.} $$ Thus the mass of one cubic
 meter of air is 1.28 kg. If a living room has dimensions $$5 \text{m}×5
 \text{m}×3 \text{m} \text{,} $$ the mass of air inside the room is 96 kg, which
@@ -317,8 +317,8 @@ is the typical mass of a human.
 Check Your Understanding
 </div>
 <div class="problem" markdown="1">
-The density of air at standard conditions  $$\left(P=1 \text{atm} $$
- and  $$T=20\text{ºC}\right) $$
+The density of air at standard conditions (  $$P=1 \text{atm} $$
+ and  $$T=20\text{ºC} $$ )
  is  $$ 1.28 {\text{kg/m}}^{3} $$ .
  At what pressure is the density  $$0.64 {\text{kg/m}}^{3} $$
  if the temperature and number of molecules are kept constant?
@@ -414,7 +414,7 @@ final values.
 </div>
 
 The ideal gas law can be considered to be another manifestation of the law of
-conservation of energy (see [Conservation of Energy](../contents/m42151)). Work done on a
+conservation of energy (see [Conservation of Energy](../contents/ch7ConservationOfEnergy.md)). Work done on a
 gas results in an increase in its energy, increasing pressure and/or
 temperature, or decreasing volume. This increased energy can also be viewed as
 increased internal kinetic energy, given the gas’s atoms and molecules.
@@ -430,7 +430,7 @@ The ideal gas law is closely related to energy: the units on both sides are
 joules. The right-hand side of the ideal gas law in $$PV=Nk_{B}T $$ is $$Nk_{B}T
 $$ . This term is roughly the amount of translational kinetic energy of $$N $$
 atoms or molecules at an absolute temperature $$T $$ , as we shall see formally
-in [Kinetic Theory: Atomic and Molecular Explanation of Pressure and Temperature](../contents/m42147)
+in [Kinetic Theory: Atomic and Molecular Explanation of Pressure and Temperature](../contents/ch13KineticTheory.md)
 . The left-hand side of the ideal gas law is $$PV $$ , which also has the units
 of joules. We know from our study of fluids that pressure is one type of
 potential energy per unit volume, so pressure multiplied by volume is energy.
@@ -593,9 +593,9 @@ negligible.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Large helium-filled balloons are used to lift scientific equipment to high altitudes. (a) What is the pressure inside such a balloon if it starts out at sea level with a temperature of  $$ 10.0\text{ºC} $$
- and rises to an altitude where its volume is twenty times the original volume and its temperature is  $$ - 50.0\text{ºC} $$ ?
- (b) What is the gauge pressure? (Assume atmospheric pressure is constant.)
+To test a balloon, it is placed in a lab and filled with helium. The temperature of the helium is  $$ 10.0\text{ºC} $$  and the pressure is 1.00 atmosphere. The pressure in the lab is maintained. Assume the membrane of the balloon provides a negligible inward pressure, so it is not considered significant.(a) What is the pressure inside the balloon if the helium is replaced with helium that is at $$ - 50.0\text{ºC} $$ and the balloon is filled until its
+volume is twenty times the original volume?
+ (b) What is the gauge pressure? (Assume the pressure in the lab remains at 1.00 atmosphere during the experiment.)
 
 </div>
 </div>

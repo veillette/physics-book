@@ -3,7 +3,7 @@ title: "Introduction to the Physics of Hearing"
 layout: page
 ---
 
-![Photograph of an old tree in a forest that had fallen some time ago.](../resources/Figure_18_00_01a_D.jpg "This tree fell some time ago. When it fell, atoms in the air were disturbed. Physicists would call this disturbance sound whether someone was around to hear it or not. (credit: B.A. Bowen Photography)")
+![Photograph of an old tree in a forest that had fallen some time ago.](../resources/Figure_17_00_01a_D.jpg "This tree fell some time ago. When it fell, atoms in the air were disturbed. Physicists would call this disturbance sound whether someone was around to hear it or not. (credit: B.A. Bowen Photography)")
 {: #Figure1}
 
 If a tree falls in the forest and no one is there to hear it, does it make a
@@ -18,3 +18,7 @@ hearing. Both the physical phenomenon and its perception are interesting and
 will be considered in this text. We shall explore both sound and hearing; they
 are related, but are not the same thing. We will also explore the many practical
 uses of sound waves, such as in medical imaging.
+
+<div class="note" data-label="Video" markdown="1">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9YgcdK0qY8w"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

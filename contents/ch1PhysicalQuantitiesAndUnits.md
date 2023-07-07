@@ -9,7 +9,7 @@ layout: page
 </div>
 
 ![A view of Earth from the Moon.](../resources/Figure_01_02_01b.jpg "The distance from Earth to the Moon may seem immense, but it is just a tiny fraction of the distances from Earth to other celestial bodies. (credit: NASA)")
-{: #fig1}
+{: #Figure1}
 
 The range of objects and phenomena studied in physics is immense. From the
 incredibly short lifetime of a nucleus to the age of the Earth, from the tiny
@@ -37,10 +37,10 @@ are standardized values. For example, the length of a race, which is a physical
 quantity, can be expressed in units of meters (for sprinters) or kilometers (for
 distance runners). Without standardized units, it would be extremely difficult
 for scientists to express and compare measured values in a meaningful way. (
-See [Figure 2](#fig2).)
+See [Figure 2](#Figure2).)
 
 ![A boy looking at a map and trying to guess distances with unit of length mentioned as cables between two points.](../resources/Figure_01_02_01a.jpg "Distances given in unknown units are maddeningly useless.")
-{: #fig2 height="225"}
+{: #Figure2 height="225"}
 
 There are two major systems of units used in the world: **SI units**
 (also known as the metric system) and **English units**
@@ -54,7 +54,7 @@ the French *Système International*.
 
 ### SI Units: Fundamental and Derived Units
 
-[Table 1](#table1) gives the fundamental SI units that are used throughout this
+[Table 1](#Table1) gives the fundamental SI units that are used throughout this
 textbook. This text uses non-SI units in a few applications where they are in
 very common use, such as the measurement of blood pressure in millimeters of
 mercury (mm Hg). Whenever non-SI units are discussed, they will be tied to SI
@@ -62,11 +62,11 @@ units through conversions.
 
 ##### Table 1: Fundamental SI Units
 
-|Length|Mass|Time|Electric Current|
-|--- |--- |--- |--- |
-|meter (m)|kilogram (kg)|second (s)|ampere (A)|
+| Length    | Mass          | Time       | Electric Current |
+|-----------|---------------|------------|------------------|
+| meter (m) | kilogram (kg) | second (s) | ampere (A)       |
 
-{: #table1}
+{: #Table1}
 
 It is an intriguing fact that some physical quantities are more fundamental than
 others and that the most fundamental physical quantities can be defined **only**
@@ -91,13 +91,13 @@ physical phenomenon (because the solar day is getting longer due to very gradual
 slowing of the Earth’s rotation). Cesium atoms can be made to vibrate in a very
 steady way, and these vibrations can be readily observed and counted. In 1967
 the second was redefined as the time required for 9 192 631 770 of these
-vibrations. (See [Figure 3](#fig3).) Accuracy in the fundamental units is
+vibrations. (See [Figure 3](#Figure3).) Accuracy in the fundamental units is
 essential, because all measurements are ultimately expressed in terms of
 fundamental units and can be no more accurate than are the fundamental units
 themselves.
 
 ![A top view of an atomic fountain is shown. It measures time using the vibration of the cesium atom.](../resources/Figure_01_02_02a.jpg "An atomic clock such as this one uses the vibrations of cesium atoms to keep time to a precision of better than a microsecond per year. The fundamental unit of time, the second, is based on such clocks. This image is looking down from the top of an atomic fountain nearly 30 feet tall! (credit: Steve Jurvetson/Flickr)")
-{: #fig3 height="225"}
+{: #Figure3 height="225"}
 
 #### The Meter
 
@@ -111,7 +111,7 @@ in terms of the wavelength of light, so it was again redefined as 1 650 763.73
 wavelengths of orange light emitted by krypton atoms. In 1983, the meter was
 given its present definition (partly for greater accuracy) as the distance light
 travels in a vacuum in 1/299 792 458 of a second. (
-See [Figure 4](#fig4).) This change defines the speed of light to be exactly 299
+See [Figure 4](#Figure4).) This change defines the speed of light to be exactly 299
 792 458 meters per second. The length of the meter will change if the speed of
 light is someday measured with greater accuracy.
 
@@ -132,7 +132,7 @@ defined in terms of the second, the meter, and Planck's constant, $$h $$ (a
 quantum mechanical value that relates a photon's energy to its frequency).
 
 ![Beam of light from a flashlight is represented by an arrow pointing right, traveling the length of a meter stick.](../resources/Figure_01_02_03a.jpg "The meter is defined to be the distance light travels in 1/299 792 458 of a second in a vacuum. Distance traveled is speed multiplied by time.")
-{: #fig4}
+{: #Figure4}
 
 Electric current and its accompanying unit, the ampere, will be introduced in
 later units when electricity and magnetism are covered. The initial modules in
@@ -145,7 +145,7 @@ length, mass, and time.
 SI units are part of the **metric system**. The metric system is convenient for
 scientific and engineering calculations because the units are categorized by
 factors of 10.
-[Table 2](#table2) gives metric prefixes and symbols used to denote various
+[Table 2](#Table2) gives metric prefixes and symbols used to denote various
 factors of 10.
 
 Metric systems have the advantage that conversions of units involve only powers
@@ -195,41 +195,41 @@ are related to large-scale currents and forces between wires.
 
 ##### Table 2: Metric Prefixes for Powers of 10 and their Symbols
 
-| Prefix| Symbol    | Value    | Example | | | Example (some are approximate) |
-| ---   | ---  | ---         | ---         | --- | ---           | --- |
-|  exa    |   E  |  $$10^{18} $$ |  exameter   | Em  |  $$10^{18} $$ m | distance light travels in a century |
-| peta  |    P  |  $$10^{15} $$ |  petasecond | Ps  |  $$10^{15} $$ s | 30 million years |
-| tera  |    T  |  $$10^{12} $$ |  terawatt   | TW  |  $$10^{12} $$ W | powerful laser output |
-| giga    |   G  |  $$10^{9} $$  |  gigahertz  | GHz |  $$10^{9} $$ Hz | a microwave frequency |
-| mega    |   M  |  $$10^{6} $$  |  megacurie  | MCi |  $$10^{6} $$ Ci | high radioactivity |
-| kilo  |    k  |  $$10^{3} $$  |  kilometer  | km  |  $$10^{3} $$ m  | about 6/10 mile |
-| hecto |    h  |  $$10^{2} $$  |  hectoliter | hL  |  $$10^{2} $$ L  | 26 gallons |
-| deka  |    da |  $$10^{1} $$  |  dekagram   | dag |  $$10^{1} $$ g  | teaspoon of butter |
-| —        |  -   |  $$10^{0} $$  | (=1)            |    |                  |   |	
-| deci    |   d  |  $$10^{-1} $$  |  deciliter  | dL  |  $$10^{-1} $$ L  |  less than half a soda |
-| centi    |   c  |  $$10^{-2} $$  |  centimeter | cm  |  $$10^{-2} $$ m  |  fingertip thickness |
-| milli |    m  |  $$10^{-3} $$  |  millimeter | mm  |  $$10^{-3} $$ m  |  flea at its shoulders
-| micro    |   µ  |  $$10^{-6} $$  |  micrometer | µm  |  $$10^{-6} $$ m  |  detail in microscope |
-| nano    |   n  |  $$10^{-9} $$  |  nanogram   | ng  |  $$10^{-9} $$ g  |  small speck of dust |
-| pico  |   p  |  $$10^{-12} $$ |  picofarad  | pF  |  $$10^{-12} $$ F |  small capacitor in radio |
-| femto    |   f  |  $$10^{-15} $$ |  femtometer | fm  |  $$10^{-15} $$ m |  size of a proton |
-| atto  |    a  |  $$10^{-18} $$ |  attosecond | as  |  $$10^{-18} $$ s  |  time light crosses an atom |
+| Prefix | Symbol | Value         | Example    |     |                 | Example (some are approximate)      |
+|--------|--------|---------------|------------|-----|-----------------|-------------------------------------|
+| exa    | E      | $$10^{18} $$  | exameter   | Em  | $$10^{18} $$ m  | distance light travels in a century |
+| peta   | P      | $$10^{15} $$  | petasecond | Ps  | $$10^{15} $$ s  | 30 million years                    |
+| tera   | T      | $$10^{12} $$  | terawatt   | TW  | $$10^{12} $$ W  | powerful laser output               |
+| giga   | G      | $$10^{9} $$   | gigahertz  | GHz | $$10^{9} $$ Hz  | a microwave frequency               |
+| mega   | M      | $$10^{6} $$   | megacurie  | MCi | $$10^{6} $$ Ci  | high radioactivity                  |
+| kilo   | k      | $$10^{3} $$   | kilometer  | km  | $$10^{3} $$ m   | about 6/10 mile                     |
+| hecto  | h      | $$10^{2} $$   | hectoliter | hL  | $$10^{2} $$ L   | 26 gallons                          |
+| deka   | da     | $$10^{1} $$   | dekagram   | dag | $$10^{1} $$ g   | teaspoon of butter                  |
+| —      | -      | $$10^{0} $$   | (=1)       |     |                 |                                     |	
+| deci   | d      | $$10^{-1} $$  | deciliter  | dL  | $$10^{-1} $$ L  | less than half a soda               |
+| centi  | c      | $$10^{-2} $$  | centimeter | cm  | $$10^{-2} $$ m  | fingertip thickness                 |
+| milli  | m      | $$10^{-3} $$  | millimeter | mm  | $$10^{-3} $$ m  | flea at its shoulders               |
+| micro  | µ      | $$10^{-6} $$  | micrometer | µm  | $$10^{-6} $$ m  | detail in microscope                |
+| nano   | n      | $$10^{-9} $$  | nanogram   | ng  | $$10^{-9} $$ g  | small speck of dust                 |
+| pico   | p      | $$10^{-12} $$ | picofarad  | pF  | $$10^{-12} $$ F | small capacitor in radio            |
+| femto  | f      | $$10^{-15} $$ | femtometer | fm  | $$10^{-15} $$ m | size of a proton                    |
+| atto   | a      | $$10^{-18} $$ | attosecond | as  | $$10^{-18} $$ s | time light crosses an atom          |
 
-{: #table2}
+{: #Table2}
 
 ### Known Ranges of Length, Mass, and Time
 
 The vastness of the universe and the breadth over which physics applies are
 illustrated by the wide range of examples of known lengths, masses, and times
-in [Table 3](#table3). Examination of this table will give you some feeling for
+in [Table 3](#Table3). Examination of this table will give you some feeling for
 the range of possible topics and numerical values. (
-See [Figure 5](#fig5) and [Figure 6](#fig6).)
+See [Figure 5](#Figure5) and [Figure 6](#Figure6).)
 
 ![A magnified image of tiny phytoplankton swimming among the crystal of ice.\[](../resources/Figure_01_02_04a.jpg "Tiny phytoplankton swims among crystals of ice in the Antarctic Sea. They range from a few micrometers to as much as 2 millimeters in length. (credit: Prof. Gordon T. Taylor, Stony Brook University; NOAA Corps Collections)")
-{: #fig5}
+{: #Figure5}
 
 ![A view of Abell Galaxy with some bright stars and some hot gases.](../resources/Figure_01_02_05a.jpg "Galaxies collide 2.4 billion light years away from Earth. The tremendous range of observable phenomena in nature challenges the imagination. (credit: NASA/CXC/UVic./A. Mahdavi et al. Optical/lensing: CFHT/UVic./H. Hoekstra et al.)")
-{: #fig6 height="250"}
+{: #Figure6 height="250"}
 
 ### Unit Conversion and Dimensional Analysis
 
@@ -270,26 +270,26 @@ conversion factors.
 
 ##### Table 3: Approximate Values of Length, Mass, and Time
 
-| | Lengths in meters    | | Masses in kilograms (more precise values in parentheses) | |    Times in seconds (more precise values in parentheses)|
-| --- | --- | ---- | --- | ---| ---|
-|  $$ 10^{-18} $$    | Present experimental limit to smallest observable detail |  $$ 10^{-30} $$ | Mass of an electron ( $$ 9.11\times 10^{-31} $$ kg) |  $$ 10^{-23} $$ | Time for light to cross a proton |
-|  $$ 10^{-15} $$ |  Diameter of a proton |  $$ 10^{-27} $$ | Mass of a hydrogen atom ( $$1.67\times 10^{-27} $$ kg) |  $$ 10^{-22} $$ | Mean life of an extremely unstable nucleus |
-|  $$ 10^{-14} $$ | Diameter of a uranium nucleus |  $$ 10^{-15} $$ | Mass of a bacterium |  $$ 10^{-15} $$ | Time for one oscillation of visible light |
-|  $$ 10^{-10} $$ | Diameter of a hydrogen atom |  $$ 10^{-5} $$ | Mass of a mosquito |  $$ 10^{-13} $$ | Time for one vibration of an atom in a solid |
-|  $$ 10^{-8} $$ | Thickness of membranes in cells of living organisms |  $$ 10^{-2} $$ | Mass of a hummingbird |  $$ 10^{-8} $$ | Time for one oscillation of an FM radio wave |
-|  $$ 10^{-6} $$ | Wavelength of visible light | 1 | Mass of a liter of water (about a quart) |  $$ 10^{-3} $$ | Duration of a nerve impulse |
-|  $$ 10^{-3} $$ | Size of a grain of sand |  $$ 10^{2} $$ | Mass of a person | 1 | Time for one heartbeat |
-| 1 | Height of a 4-year-old child |  $$ 10^{3} $$ | Mass of a car |  $$ 10^{5} $$ | One day (  $$8.64 \times 10^{4} $$s) |
-|  $$ 10^{2} $$ | Length of a football field |  $$ 10^{8} $$ | Mass of a large ship |  $$ 10^{7} $$ | One year (y) ( $$3.16 \times 10^{7} $$s) |
-|  $$ 10^{4} $$ | Greatest ocean depth |  $$ 10^{12} $$ | Mass of a large iceberg |  $$ 10^{9} $$ | About half the life expectancy of a human |
-|  $$ 10^{7} $$ | Diameter of the Earth |  $$ 10^{15} $$ | Mass of the nucleus of a comet |  $$ 10^{11} $$ | Recorded history |
-|  $$ 10^{11} $$ | Distance from the Earth to the Sun |  $$ 10^{23} $$ | Mass of the Moon ( $$7.35 \times 10^{22} $$ kg)|  $$ 10^{17} $$ | Age of the Earth |
-|  $$ 10^{16} $$ | Distance traveled by light in 1 year (a light year) |  $$ 10^{25} $$ | Mass of the Earth ( $$5.97 \times 10^{24} $$ kg) |  $$ 10^{18} $$ | Age of the universe |
-|  $$ 10^{21} $$ | Diameter of the Milky Way galaxy |  $$ 10^{30} $$ | Mass of the Sun ( $$ 1.99 \times 10^{30} $$ kg)  |
-|  $$ 10^{22} $$ | Distance from the Earth to the nearest large galaxy (Andromeda) |  $$ 10^{42} $$ | Mass of the Milky Way galaxy (current upper limit)|
-|  $$ 10^{26} $$ | Distance from the Earth to the edges of the known universe |  $$ 10^{53} $$ | Mass of the known universe (current upper limit)        |
+|                | Lengths in meters                                               |                | Masses in kilograms (more precise values in parentheses) |                | Times in seconds (more precise values in parentheses) |
+|----------------|-----------------------------------------------------------------|----------------|----------------------------------------------------------|----------------|-------------------------------------------------------|
+| $$ 10^{-18} $$ | Present experimental limit to smallest observable detail        | $$ 10^{-30} $$ | Mass of an electron ( $$ 9.11\times 10^{-31} $$ kg)      | $$ 10^{-23} $$ | Time for light to cross a proton                      |
+| $$ 10^{-15} $$ | Diameter of a proton                                            | $$ 10^{-27} $$ | Mass of a hydrogen atom ( $$1.67\times 10^{-27} $$ kg)   | $$ 10^{-22} $$ | Mean life of an extremely unstable nucleus            |
+| $$ 10^{-14} $$ | Diameter of a uranium nucleus                                   | $$ 10^{-15} $$ | Mass of a bacterium                                      | $$ 10^{-15} $$ | Time for one oscillation of visible light             |
+| $$ 10^{-10} $$ | Diameter of a hydrogen atom                                     | $$ 10^{-5} $$  | Mass of a mosquito                                       | $$ 10^{-13} $$ | Time for one vibration of an atom in a solid          |
+| $$ 10^{-8} $$  | Thickness of membranes in cells of living organisms             | $$ 10^{-2} $$  | Mass of a hummingbird                                    | $$ 10^{-8} $$  | Time for one oscillation of an FM radio wave          |
+| $$ 10^{-6} $$  | Wavelength of visible light                                     | 1              | Mass of a liter of water (about a quart)                 | $$ 10^{-3} $$  | Duration of a nerve impulse                           |
+| $$ 10^{-3} $$  | Size of a grain of sand                                         | $$ 10^{2} $$   | Mass of a person                                         | 1              | Time for one heartbeat                                |
+| 1              | Height of a 4-year-old child                                    | $$ 10^{3} $$   | Mass of a car                                            | $$ 10^{5} $$   | One day (  $$8.64 \times 10^{4} $$s)                  |
+| $$ 10^{2} $$   | Length of a football field                                      | $$ 10^{8} $$   | Mass of a large ship                                     | $$ 10^{7} $$   | One year (y) ( $$3.16 \times 10^{7} $$s)              |
+| $$ 10^{4} $$   | Greatest ocean depth                                            | $$ 10^{12} $$  | Mass of a large iceberg                                  | $$ 10^{9} $$   | About half the life expectancy of a human             |
+| $$ 10^{7} $$   | Diameter of the Earth                                           | $$ 10^{15} $$  | Mass of the nucleus of a comet                           | $$ 10^{11} $$  | Recorded history                                      |
+| $$ 10^{11} $$  | Distance from the Earth to the Sun                              | $$ 10^{23} $$  | Mass of the Moon ( $$7.35 \times 10^{22} $$ kg)          | $$ 10^{17} $$  | Age of the Earth                                      |
+| $$ 10^{16} $$  | Distance traveled by light in 1 year (a light year)             | $$ 10^{25} $$  | Mass of the Earth ( $$5.97 \times 10^{24} $$ kg)         | $$ 10^{18} $$  | Age of the universe                                   |
+| $$ 10^{21} $$  | Diameter of the Milky Way galaxy                                | $$ 10^{30} $$  | Mass of the Sun ( $$ 1.99 \times 10^{30} $$ kg)          |                |                                                       |
+| $$ 10^{22} $$  | Distance from the Earth to the nearest large galaxy (Andromeda) | $$ 10^{42} $$  | Mass of the Milky Way galaxy (current upper limit)       |                |                                                       |
+| $$ 10^{26} $$  | Distance from the Earth to the edges of the known universe      | $$ 10^{53} $$  | Mass of the known universe (current upper limit)         |                |                                                       |
 
-{: #table3}
+{: #Table3}
 
 <div class="example" markdown="1">
 <div class="title">
@@ -571,7 +571,7 @@ speed of 4.0 cm/year.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) Refer to [Table 3](#table3) to determine the average distance between 
+(a) Refer to [Table 3](#Table3) to determine the average distance between 
 the Earth and the Sun.
 Then calculate the average speed of the Earth in its orbit in kilometers per second.
 (b) What is this in meters per second?
@@ -580,9 +580,7 @@ Then calculate the average speed of the Earth in its orbit in kilometers per sec
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
-
 {: class="glossary-title"}
 
 physical quantity

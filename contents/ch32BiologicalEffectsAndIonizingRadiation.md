@@ -110,11 +110,11 @@ relative biological effectiveness.
  $$rem=rad×RBE $$
 </div>
 
-![The image shows ionization created in cells by gamma and alpha radiation. Series of cells are shown through which a gamma ray passes causing ionization whose density is low. Another series of cells are shown through which an alpha ray passes causing ionization whose density is high.](../resources/Figure_33_02_01a.jpg "The image shows ionization created in cells by \( \alpha \); and \( \gamma \) radiation. Because of its shorter range, the ionization and damage created by \( \alpha \) is more concentrated and harder for the organism to repair. Thus, the RBE for \( \alpha \)s is greater than the RBE for \( \gamma \)s, even though they create the same amount of ionization at the same energy.")
+![The image shows ionization created in cells by gamma and alpha radiation. Series of cells are shown through which a gamma ray passes causing ionization whose density is low. Another series of cells are shown through which an alpha ray passes causing ionization whose density is high.](../resources/Figure_32_02_01a.jpg "The image shows ionization created in cells by \( \alpha \); and \( \gamma \) radiation. Because of its shorter range, the ionization and damage created by \( \alpha \) is more concentrated and harder for the organism to repair. Thus, the RBE for \( \alpha \)s is greater than the RBE for \( \gamma \)s, even though they create the same amount of ionization at the same energy.")
 {: #Figure1}
 
 So, if a person had a whole-body dose of 2.00 rad of $$\gamma $$ radiation, the
-dose in rem would be $$(2.00 \text{rad})(1) = 2.00 \text{rem whole body}} $$ .
+dose in rem would be $$(2.00 \text{rad})(1) = 2.00 \text{ rem whole body}  $$ .
 If the person had a whole-body dose of 2.00 rad of $$\alpha $$ radiation, then
 the dose in rem would be $$(2.00 \text{rad})(20) = 40.0 \text{rem whole body} $$
 . The $$\alpha $$ s would have 20 times the effect on the person than the
@@ -293,7 +293,7 @@ risk of a radiation-induced cancer death per year per rem of exposure is about
 10 in a million, which can be written as $$10/10^{6} \text{rem} \text{·}
 \text{y} $$.
 
-If a person receives a dose of 1 rem, his risk each year of dying from
+If a person receives a dose of 1 rem, their risk each year of dying from
 radiation-induced cancer is 10 in a million and that risk continues for about 30
 years. The lifetime risk is thus 300 in a million, or 0.03 percent. Since about
 20 percent of all worldwide deaths are from cancer, the increase due to a 1 rem
@@ -369,9 +369,7 @@ reproductive organs and the fetuses of pregnant women. Inadvertent doses to the
 public are limited to $$1/10 $$ of occupational doses, except for those caused
 by nuclear power, which cannot legally expose the public to more than $$1/1000
 $$ of the occupational limit or 0.05 mSv/y (5 mrem/y). This has been exceeded in
-the United States only at the time of the Three Mile Island (TMI) accident in
-
-1979. Chernobyl is another story. Extensive monitoring with a variety of
+the United States only at the time of the Three Mile Island (TMI) accident in 1979. Chernobyl is another story. Extensive monitoring with a variety of
       radiation detectors is performed to assure radiation safety. Increased
       ventilation in uranium mines has lowered the dose there to about 1 mSv/y.
 
@@ -450,7 +448,7 @@ less time a person is exposed to a given source, the smaller is the dose
 received by the person. Doses from most medical diagnostics have decreased in
 recent years due to faster films that require less exposure time.
 
-![The image shows a dental patient wearing a lead apron sitting in a chair. X-rays emitting from an x-ray tube that is placed on the side of the patient&#x2019;s jaw are passing through only the affected area of his teeth.](../resources/Figure_33_02_02a.jpg "A lead apron is placed over the dental patient and shielding surrounds the x-ray tube to limit exposure to tissue other than the tissue that is being imaged. Fast films limit the time needed to obtain images, reducing exposure to the imaged tissue. The technician stands a few meters away behind a lead-lined door with a lead glass window, reducing her occupational exposure.")
+![The image shows a dental patient wearing a lead apron sitting in a chair. X-rays emitting from an x-ray tube that is placed on the side of the patient&#x2019;s jaw are passing through only the affected area of his teeth.](../resources/Figure_32_02_02a.jpg "A lead apron is placed over the dental patient and shielding surrounds the x-ray tube to limit exposure to tissue other than the tissue that is being imaged. Fast films limit the time needed to obtain images, reducing exposure to the imaged tissue. The technician stands a few meters away behind a lead-lined door with a lead glass window, reducing her occupational exposure.")
 {: #Figure2}
 
 <table id="Table5" aria-describedby="This is a two column table. The left column gives a variety of medical procedures involving radiation. The right column lists the corresponding effective doses for each procedure."><caption><span class="title">Typical Doses Received During Diagnostic X-ray Exams</span></caption><thead><tr>
@@ -547,7 +545,7 @@ information.
 
 <strong><em>Step 5. </em></strong>*Divide the deposited energy by the mass of
 the affected tissue.* Use units of joules for energy and kilograms for mass. If
-a dose in Sv is involved, use the definition that $$1 \text{Sv = 1 J/kg} $$.
+a dose in Sv is involved, use the definition that $$1 \text{Sv} = 1 \text{J/kg} $$.
 
 <strong><em>Step 6. </em></strong>*If a dose in mSv is involved, determine the
 RBE (QF) of the radiation.* Recall that $$1 mSv=1 mGy×\text{RBE} \left(\text{ or }
@@ -728,7 +726,7 @@ Which methods of radiation protection were used in the device shown in the first
 
 (a)
 
-![Figure A shows a &#x201C;shoe fitting x-ray device.&#x201D; Figure B shows a group of people wearing white protective suits standing near a yellow radiation hazard sign.](../resources/Figure_33_02_03a.jpg "(a) This x-ray fluorescence machine is one of the thousands used in shoe stores to produce images of feet as a check on the fit of shoes. They are unshielded and remain on as long as the feet are in them, producing doses much greater than medical images. Children were fascinated with them. These machines were used in shoe stores until laws preventing such unwarranted radiation exposure were enacted in the 1950s. (credit: Andrew Kuchling ) (b) Now that we know the effects of exposure to radioactive material, safety is a priority. (credit: U.S. Navy)")
+![Figure A shows a &#x201C;shoe fitting x-ray device.&#x201D; Figure B shows a group of people wearing white protective suits standing near a yellow radiation hazard sign.](../resources/Figure_32_02_03a.jpg "(a) This x-ray fluorescence machine is one of the thousands used in shoe stores to produce images of feet as a check on the fit of shoes. They are unshielded and remain on as long as the feet are in them, producing doses much greater than medical images. Children were fascinated with them. These machines were used in shoe stores until laws preventing such unwarranted radiation exposure were enacted in the 1950s. (credit: Andrew Kuchling ) (b) Now that we know the effects of exposure to radioactive material, safety is a priority. (credit: U.S. Navy)")
 {: #Figure3}
 
 </div>

@@ -5,7 +5,7 @@ layout: page
 
 In this glossary, key symbols and notation are briefly defined.
 
-| Symbol | Definition | |---------- | $$\overline{\text{any symbol}} $$ |
+| Symbol | Definition | |---------- | $$\overline{\text{any symbol} } $$ |
 average (indicated by a bar over a symbol—e.g., $$\overline{v} $$ is average
 velocity) | | $$\text{ºC} $$ | Celsius degree | | $$°\text{F} $$ | Fahrenheit
 degree | | $$\text{//} $$ | parallel | | $$\perp $$ | perpendicular | |
@@ -16,17 +16,17 @@ of resistivity | | $$\beta $$ | beta rays | | $$\beta $$ | sound level | |
 $$\beta $$ | volume coefficient of expansion | | $${\beta }^{-} $$ | electron
 emitted in nuclear beta decay | | $${\beta }^{+} $$ | positron decay | |
 $$\gamma $$ | gamma rays | | $$\gamma $$ | surface tension | | $$\gamma
-=1/\sqrt{1-{v}^{2}/{c}^{2}} $$ | a constant used in relativity | | $$\Delta $$ |
+=1/\sqrt{1-{v}^{2}/{c}^{2} } $$ | a constant used in relativity | | $$\Delta $$ |
 change in whatever quantity follows | | $$\delta $$ | uncertainty in whatever
 quantity follows | | $$\mathrm{\Delta E} $$ | change in energy between the
 initial and final orbits of an electron in an atom | | $$\mathrm{\Delta E} $$ |
 uncertainty in energy | | $$\mathrm{\Delta m} $$ | difference in mass between
 initial and final products | | $$\mathrm{\Delta N} $$ | number of decays that
 occur | | $$\mathrm{\Delta p} $$ | change in momentum | | $$\mathrm{\Delta p} $$
-| uncertainty in momentum | | $$\Delta {\text{PE}}_{\text{g}} $$ | change in
+| uncertainty in momentum | | $$\Delta {\text{PE} }_{\text{g} } $$ | change in
 gravitational potential energy | | $$\mathrm{\Delta \theta } $$ | rotation angle
 | | $$\mathrm{\Delta s} $$ | distance traveled along a circular path | |
-$$\mathrm{\Delta t} $$ | uncertainty in time | | $${\mathrm{\Delta t}}_{0} $$ |
+$$\mathrm{\Delta t} $$ | uncertainty in time | | $${\mathrm{\Delta t} }_{0} $$ |
 proper time as measured by an observer at rest relative to the process | |
 $$\mathrm{\Delta V} $$ | potential difference | | $$\mathrm{\Delta x} $$ |
 uncertainty in position | | $${\epsilon }_{0} $$ | permittivity of free space |
@@ -36,14 +36,14 @@ contact angle | | $$\theta $$ | direction of the resultant | | $${\theta }_{b}
 $$ | Brewster\'s angle | | $${\theta }_{c} $$ | critical angle | | $$\kappa $$ |
 dielectric constant | | $$\lambda $$ | decay constant of a nuclide | | $$\lambda
 $$ | wavelength | | $${\lambda }_{n} $$ | wavelength in a medium | | $${\mu }_
-{0} $$ | permeability of free space | | $${\mu }_{\text{k}} $$ | coefficient of
-kinetic friction | | $${\mu }_{\text{s}} $$ | coefficient of static friction | |
+{0} $$ | permeability of free space | | $${\mu }_{\text{k} } $$ | coefficient of
+kinetic friction | | $${\mu }_{\text{s} } $$ | coefficient of static friction | |
 $${\nu}_{e} $$ | electron neutrino | | $${\pi }^{+} $$ | positive pion | |
 $${\pi }^{-} $$ | negative pion | | $${\pi }^{0} $$ | neutral pion | | $$\rho $$
-| density | | $${\rho }_{\text{c}} $$ | critical density, the density needed to
-just halt universal expansion | | $${\rho }_{\text{fl}} $$ | fluid density | |
-$${\overline{\rho }}_{\text{obj}} $$ | average density of an object | | $$\rho
-/{\rho }_{\text{w}} $$ | specific gravity | | $$\tau $$ | characteristic time
+| density | | $${\rho }_{\text{c} } $$ | critical density, the density needed to
+just halt universal expansion | | $${\rho }_{\text{fl} } $$ | fluid density | |
+$${\overline{\rho } }_{\text{obj} } $$ | average density of an object | | $$\rho
+/{\rho }_{\text{w} } $$ | specific gravity | | $$\tau $$ | characteristic time
 constant for a resistance and inductance $$\left(\text{RL}\right) $$ or
 resistance and capacitance $$\left(\text{RC}\right) $$ circuit | | $$\tau $$ |
 characteristic time for a resistor and capacitor $$\left(\text{RC}\right) $$
@@ -51,36 +51,36 @@ circuit | | $$\tau $$ | torque | | $$Υ $$ | upsilon meson | | $$\Phi $$ |
 magnetic flux | | $$\varphi $$ | phase angle | | $$\Omega $$ | ohm (unit) | |
 $$\omega $$ | angular velocity | | $$A $$ | ampere (current unit) | | $$A $$ |
 area | | $$A $$ | cross-sectional area | | $$A $$ | total number of nucleons | |
-$$a $$ | acceleration | | $${a}_{\text{B}} $$ | Bohr radius | | $${a}_{\text{c}}
-$$ | centripetal acceleration | | $${a}_{\text{t}} $$ | tangential acceleration
+$$a $$ | acceleration | | $${a}_{\text{B} } $$ | Bohr radius | | $${a}_{\text{c} }
+$$ | centripetal acceleration | | $${a}_{\text{t} } $$ | tangential acceleration
 | | $$\text{AC} $$ | alternating current | | $$\text{AM} $$ | amplitude
 modulation | | $$\text{atm} $$ | atmosphere | | $$B $$ | baryon number | | $$B
 $$ | blue quark color | | $$\overline{B} $$ | antiblue (yellow) antiquark color
 | | $$b $$ | quark flavor bottom or beauty | | $$B $$ | bulk modulus | | $$B $$
-| magnetic field strength | | $${\text{B}}_{\text{int}} $$ | electron’s
-intrinsic magnetic field | | $${\text{B}}_{\text{orb}} $$ | orbital magnetic
+| magnetic field strength | | $${\text{B} }_{\text{int} } $$ | electron’s
+intrinsic magnetic field | | $${\text{B} }_{\text{orb} } $$ | orbital magnetic
 field | | $$\text{BE} $$ | binding energy of a nucleus—it is the energy required
 to completely disassemble it into separate protons and neutrons | |
 $$\text{BE}/A $$ | binding energy per nucleon | | $$\text{Bq} $$ | becquerel—one
 decay per second | | $$C $$ | capacitance (amount of charge stored per volt) | |
-$$C $$ | coulomb (a fundamental SI unit of charge) | | $${C}_{\text{p}} $$ |
-total capacitance in parallel | | $${C}_{\text{s}} $$ | total capacitance in
+$$C $$ | coulomb (a fundamental SI unit of charge) | | $${C}_{\text{p} } $$ |
+total capacitance in parallel | | $${C}_{\text{s} } $$ | total capacitance in
 series | | $$\text{CG} $$ | center of gravity | | $$\text{CM} $$ | center of
 mass | | $$c $$ | quark flavor charm | | $$c $$ | specific heat | | $$c $$ |
 speed of light | | $$\text{Cal} $$ | kilocalorie | | $$\text{cal} $$ | calorie |
-| $${\text{COP}}_{\text{hp}} $$ | heat pump’s coefficient of performance | |
-$${\text{COP}}_{\text{ref}} $$ | coefficient of performance for refrigerators
+| $${\text{COP} }_{\text{hp} } $$ | heat pump’s coefficient of performance | |
+$${\text{COP} }_{\text{ref} } $$ | coefficient of performance for refrigerators
 and air conditioners | | $$\cos \theta $$ | cosine | | $$\cot \theta $$ |
 cotangent | | $$\csc \theta $$ | cosecant | | $$D $$ | diffusion constant | |
 $$d $$ | displacement | | $$d $$ | quark flavor down | | $$\text{dB} $$ |
-decibel | | $${d}_{\text{i}} $$ | distance of an image from the center of a lens
-| | $${d}_{\text{o}} $$ | distance of an object from the center of a lens | |
+decibel | | $${d}_{\text{i} } $$ | distance of an image from the center of a lens
+| | $${d}_{\text{o} } $$ | distance of an object from the center of a lens | |
 $$\text{DC} $$ | direct current | | $$E $$ | electric field strength | |
 $$\epsilon $$ | emf (voltage) or Hall electromotive force | | $$\text{emf} $$ |
 electromotive force | | $$E $$ | energy of a single photon | | $$E $$ | nuclear
 reaction energy | | $$E $$ | relativistic total energy | | $$E $$ | total energy
 | | $${E}_{0} $$ | ground state energy for hydrogen | | $${E}_{0} $$ | rest
-energy | | $$\text{EC} $$ | electron capture | | $${E}_{\text{cap}} $$ | energy
+energy | | $$\text{EC} $$ | electron capture | | $${E}_{\text{cap} } $$ | energy
 stored in a capacitor | | $$\text{Eff} $$ | efficiency—the useful work output
 divided by the energy input | | $${\text{Eff}}_{\text{C}} $$ | Carnot efficiency
 | | $${E}_{\text{in}} $$ | energy consumed (food digested in humans) | | $${E}_

@@ -11,9 +11,7 @@ layout: page
 * Explain meson.
 </div>
 
-Particle physics as we know it today began with the ideas of Hideki Yukawa in
-
-1935. Physicists had long been concerned with how forces are transmitted,
+Particle physics as we know it today began with the ideas of Hideki Yukawa in 1935. Physicists had long been concerned with how forces are transmitted,
       finding the concept of fields, such as electric and magnetic fields to be
       very useful. A field surrounds an object and carries the force exerted by
       the object through space. Yukawa was interested in the strong nuclear
@@ -23,7 +21,7 @@ Particle physics as we know it today began with the ideas of Hideki Yukawa in
       transmitted by the exchange of particles (
       called carrier particles). The field consists of these carrier particles.
 
-![The image shows the creation a pion from a proton and its exchange to a neutron. After the exchange, the proton has become a neutron and the neutron has become a proton.](../resources/Figure_34_01_01.jpg "The strong nuclear force is transmitted between a proton and neutron by the creation and exchange of a pion. The pion is created through a temporary violation of conservation of mass-energy and travels from the proton to the neutron and is recaptured. It is not directly observable and is called a virtual particle. Note that the proton and neutron change identity in the process. The range of the force is limited by the fact that the pion can only exist for the short time allowed by the Heisenberg uncertainty principle. Yukawa used the finite range of the strong nuclear force to estimate the mass of the pion; the shorter the range, the larger the mass of the carrier particle.")
+![The image shows the creation a pion from a proton and its exchange to a neutron. After the exchange, the proton has become a neutron and the neutron has become a proton.](../resources/Figure_33_01_01.jpg "The strong nuclear force is transmitted between a proton and neutron by the creation and exchange of a pion. The pion is created through a temporary violation of conservation of mass-energy and travels from the proton to the neutron and is recaptured. It is not directly observable and is called a virtual particle. Note that the proton and neutron change identity in the process. The range of the force is limited by the fact that the pion can only exist for the short time allowed by the Heisenberg uncertainty principle. Yukawa used the finite range of the strong nuclear force to estimate the mass of the pion; the shorter the range, the larger the mass of the carrier particle.")
 {: #Figure1}
 
 Specifically for the strong nuclear force, Yukawa proposed that a previously
