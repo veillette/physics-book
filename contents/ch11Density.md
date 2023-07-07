@@ -44,10 +44,10 @@ where  $$\rho  $$
 
 In the riddle regarding the feathers and bricks, the masses are the same, but
 the volume occupied by the feathers is much greater, since their density is much
-lower. The SI unit of density is $${\text{kg/m}}^{3} $$ , representative values
+lower. The SI unit of density is $${\text{kg/m} }^{3} $$ , representative values
 are given in [[Table 1]](#Table1). The metric system was originally devised
-so that water would have a density of $$1 {\text{g/cm}}^{3} $$ , equivalent to
-$$10^{3} {\text{kg/m}}^{3} $$ . Thus the basic mass unit, the kilogram, was
+so that water would have a density of $$1 {\text{g/cm} }^{3} $$ , equivalent to
+$$10^{3} {\text{kg/m} }^{3} $$ . Thus the basic mass unit, the kilogram, was
 first devised to be the mass of 1000 mL of water, which has a volume of 1000
 cm<sup>3</sup>.
 
@@ -55,25 +55,25 @@ cm<sup>3</sup>.
           <tr>
             <th>Substance</th>
             <th>
-               $$\rho \left(10^{3} {\text{kg/m}}^{3} \text{ or } \text{g/mL}\right) $$
+               $$\rho \left(10^{3} {\text{kg/m} }^{3} \text{ or } \text{g/mL}\right) $$
             </th>
             <th>Substance</th>
             <th>
-               $$\rho \left(10^{3} {\text{kg/m}}^{3} \text{ or } \text{g/mL}\right) $$
+               $$\rho \left(10^{3} {\text{kg/m} }^{3} \text{ or } \text{g/mL}\right) $$
             </th>
             <th>Substance</th>
             <th>
-               $$\rho \left(10^{3} {\text{kg/m}}^{3} \text{ or } \text{g/mL}\right) $$
+               $$\rho \left(10^{3} {\text{kg/m} }^{3} \text{ or } \text{g/mL}\right) $$
             </th>
           </tr>
 </thead><tbody>
           <tr>
             <td><strong>Solids</strong></td>
-            <td />
+            <td></td>
             <td><strong>Liquids</strong></td>
-            <td />
+            <td></td>
             <td><strong>Gases</strong></td>
-            <td />
+            <td></td>
           </tr>
           <tr>
             <td>Aluminum</td>
@@ -158,8 +158,8 @@ cm<sup>3</sup>.
           <tr>
             <td>Uranium</td>
             <td>18.70</td>
-            <td />
-            <td />
+            <td></td>
+            <td></td>
             <td>Oxygen</td>
             <td>
                $$ 1.43 \times 10^{-3}  $$
@@ -168,8 +168,8 @@ cm<sup>3</sup>.
           <tr>
             <td>Concrete</td>
             <td>2.30–3.0</td>
-            <td />
-            <td />
+            <td></td>
+            <td></td>
             <td>Steam  $$\left(100 \text{ºC}\right) $$</td>
             <td>
                $$ 0.60 \times 10^{-3}  $$
@@ -178,62 +178,62 @@ cm<sup>3</sup>.
           <tr>
             <td>Cork</td>
             <td>0.24</td>
-            <td />
-            <td />
-            <td />
-            <td />
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
             <td>Glass, common (average)</td>
             <td>2.6</td>
-            <td />
-            <td />
-            <td />
-            <td />
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
             <td>Granite</td>
             <td>2.7</td>
-            <td />
-            <td />
-            <td />
-            <td />
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
             <td>Earth’s crust</td>
             <td>3.3</td>
-            <td />
-            <td />
-            <td />
-            <td />
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
             <td>Wood</td>
             <td>0.3–0.9</td>
-            <td />
-            <td />
-            <td />
-            <td />
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
             <td>Ice (0ºC)</td>
             <td>0.917</td>
-            <td />
-            <td />
-            <td />
-            <td />
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
             <td>Bone</td>
             <td>1.7–2.0</td>
-            <td />
-            <td />
-            <td />
-            <td />
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
 </tbody></table>
 
-![A pile of feathers measuring a ton and a ton of bricks are placed on either side of a plank that is balanced on a small support.](../resources/Figure_12_02_01a.jpg "A ton of feathers and a ton of bricks have the same mass, but the feathers make a much bigger pile because they have a much lower density.")
+![A pile of feathers measuring a ton and a ton of bricks are placed on either side of a plank that is balanced on a small support.](../resources/Figure_11_02_01a.jpg "A ton of feathers and a ton of bricks have the same mass, but the feathers make a much bigger pile because they have a much lower density.")
 {: #Figure1}
 
 As you can see by examining [[Table 1]](#Table1), the density of an object
@@ -299,7 +299,7 @@ weight of the water it holds back.
 
 </div>
 
-![Photograph of the Three Gorges Dam in central China.](../resources/Figure_12_02_02a.jpg "Three Gorges Dam in central China. When completed in 2008, this became the world&#x2019;s largest hydroelectric plant, generating power equivalent to that generated by 22 average-sized nuclear power plants. The concrete dam is 181 m high and 2.3 km across. The reservoir made by this dam is 660 km long. Over 1 million people were displaced by the creation of the reservoir. (credit: Le Grand Portage)")
+![Photograph of the Three Gorges Dam in central China.](../resources/Figure_11_02_02a.jpg "Three Gorges Dam in central China. When completed in 2008, this became the world&#x2019;s largest hydroelectric plant, generating power equivalent to that generated by 22 average-sized nuclear power plants. The concrete dam is 181 m high and 2.3 km across. The reservoir made by this dam is 660 km long. Over 1 million people were displaced by the creation of the reservoir. (credit: Le Grand Portage)")
 {: #Figure2}
 
 ### Section Summary
@@ -333,7 +333,7 @@ Give an example in which density is used to identify the substance composing an 
 <div class="problem" markdown="1">
 [[Figure 3]](#Figure3) shows a glass of ice water filled to the brim. Will the water overflow when the ice melts? Explain your answer.
 
-![A glass filled to the brim with water and ice cubes.](../resources/Figure_12_02_03a.jpg " ")
+![A glass filled to the brim with water and ice cubes.](../resources/Figure_11_02_03a.jpg " ")
 {: #Figure3}
 
 </div>

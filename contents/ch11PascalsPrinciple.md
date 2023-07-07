@@ -57,7 +57,7 @@ found in a *hydraulic system*, which is an enclosed fluid system used to exert
 forces. The most common hydraulic systems are those that operate car brakes. Let
 us first consider the simple hydraulic system shown in [[Figure 1]](#Figure1).
 
-![A small force can be converted into a larger force when pressure is transmitted through liquids in different containers with pistons that are connected.](../resources/Figure_12_05_01a.jpg "A typical hydraulic system with two fluid-filled cylinders, capped with pistons and connected by a tube called a hydraulic line. A downward force \( F_{1} \) on the left piston creates a pressure that is transmitted undiminished to all parts of the enclosed fluid. This results in an upward force \( F_{2} \) on the right piston that is larger than \( F_{1} \) because the right piston has a larger area.")
+![A small force can be converted into a larger force when pressure is transmitted through liquids in different containers with pistons that are connected.](../resources/Figure_11_05_01a.jpg "A typical hydraulic system with two fluid-filled cylinders, capped with pistons and connected by a tube called a hydraulic line. A downward force \( F_{1} \) on the left piston creates a pressure that is transmitted undiminished to all parts of the enclosed fluid. This results in an upward force \( F_{2} \) on the right piston that is larger than \( F_{1} \) because the right piston has a larger area.")
 {: #Figure1}
 
 ### Relationship Between Forces in a Hydraulic System
@@ -91,14 +91,14 @@ Calculating Force of Slave Cylinders: Pascal Puts on the Brakes
 </div>
 Consider the automobile hydraulic system shown in [[Figure 2]](#Figure2).
 
-![When the driver applies force on the brake pedal the master cylinder transmits the same pressure to the slave cylinders but results in a larger force due to the larger area of the slave cylinders.](../resources/Figure_12_05_02a.jpg "Hydraulic brakes use Pascal&#x2019;s principle. The driver exerts a force of 100 N on the brake pedal. This force is increased by the simple lever and again by the hydraulic system. Each of the identical slave cylinders receives the same pressure and, therefore, creates the same force output \( F_{2} \) . The circular cross-sectional areas of the master and slave cylinders are represented by \( A_{1} \) and \( A_{2} \) , respectively ")
+![When the driver applies force on the brake pedal the master cylinder transmits the same pressure to the slave cylinders but results in a larger force due to the larger area of the slave cylinders.](../resources/Figure_11_05_02a.jpg "Hydraulic brakes use Pascal&#x2019;s principle. The driver exerts a force of 100 N on the brake pedal. This force is increased by the simple lever and again by the hydraulic system. Each of the identical slave cylinders receives the same pressure and, therefore, creates the same force output \( F_{2} \) . The circular cross-sectional areas of the master and slave cylinders are represented by \( A_{1} \) and \( A_{2} \) , respectively ")
 {: #Figure2}
 
 A force of 100 N is applied to the brake pedal, which acts on the
 cylinder—called the master—through a lever. A force of 500 N is exerted on the
 master cylinder. (The reader can verify that the force is 500 N using techniques
 of statics
-from [Applications of Statics, Including Problem-Solving Strategies](../contents/m42173).)
+from [Applications of Statics, Including Problem-Solving Strategies](../contents/ch9ApplicationsOfStaticsIncludingProblemSolvingStrategies).)
 Pressure created in the master cylinder is transmitted to four so-called slave
 cylinders. The master cylinder has a diameter of 0.500 cm, and each slave
 cylinder has a diameter of 2.50 cm. Calculate the force $${F}_{2} $$ created at

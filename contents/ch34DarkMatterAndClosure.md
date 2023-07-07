@@ -27,17 +27,16 @@ universe, but whether there is enough is still unknown.
 ### Evidence
 
 The first clues that there is more matter than meets the eye came from the
-Swiss-born American astronomer Fritz Zwicky in the 1930s; some initial work was
-also done by the American astronomer Vera Rubin. Zwicky measured the velocities
+Swiss-born American astronomer Fritz Zwicky in the 1930s;
+major work was also done by the American astronomer Vera Rubin. Zwicky measured the velocities
 of stars orbiting the galaxy, using the relativistic Doppler shift of their
 spectra (see [[Figure 1]](#Figure1)(a)). He found that velocity varied with
 distance from the center of the galaxy, as graphed in [[Figure 1]](#Figure1)(b).
 If the mass of the galaxy was concentrated in its center, as are its luminous
 stars, the velocities should decrease as the square root of the distance from
 the center. Instead, the velocity curve is almost flat, implying that there is a
-tremendous amount of matter in the galactic halo. Although not immediately
-recognized for its significance, such measurements have now been made for many
-galaxies, with similar results. Further, studies of galactic clusters have also
+tremendous amount of matter in the galactic halo.
+Using instruments and methods that offered a greater degree of precision, Rubin investigated the movement of spiral galaxies and observed that their outermost reaches were rotating as quickly as their centers. She also calculated that the rotational velocity of galaxies should have been enough to cause them to fly apart, unless there was a significant discrepancy between their observable matter and their actual matter. This became known as the galaxy rotation problem, which can be "solved" by the presence of unobserved or dark matter. Although not immediately recognized for its significance, such measurements have now been made for many galaxies, with similar results. Further, studies of galactic clusters have also
 indicated that galaxies have a mass distribution greater than that obtained from
 their brightness (proportional to the number of stars), which also extends into
 large halos surrounding the luminous parts of galaxies. Observations of other EM
@@ -106,7 +105,7 @@ scenario that helps explain the flatness of the microwave background. In fact,
 since general relativity implies that matter creates the space in which it
 exists, there is a special symmetry to a flat universe.
 
-![Figure a shows an eye looking toward a rotating spiral galaxy. Light coming from the galaxy arms that are rotating away from the observer is red shifted, and light coming from the galaxy arms that are rotating toward the observer is blue shifted. Figure b shows a graph of star rotation speed versus star radius. From zero radius, the curve increases steeply and peaks near two hundred and fifty kilometers per second at a radius of zero point five arbitrary units. The curve then decreases slightly and progresses to a radius of sixteen arbitrary units with ups and down between two hundred and two hundred and twenty five kilometers per second. Figure c shows an image of multiple galaxies and other objects against a black background. In the center of the image is a roughly circular purple haze, on the left and right of which are two slightly smaller and roughly circular blue haze regions.](../resources/Figure_35_04_01.jpg "Evidence for dark matter: (a) We can measure the velocities of stars relative to their galaxies by observing the Doppler shift in emitted light, usually using the hydrogen spectrum. These measurements indicate the rotation of a spiral galaxy. (b) A graph of velocity versus distance from the galactic center shows that the velocity does not decrease as it would if the matter were concentrated in luminous stars. The flatness of the curve implies a massive galactic halo of dark matter extending beyond the visible stars. (c) This is a computer-generated image of X-rays from a galactic cluster. The X-rays indicate the presence of otherwise unseen hot clouds of ionized gas in the regions of space previously considered more empty. (credit: NASA, ESA, CXC, M. Bradac (University of California, Santa Barbara), and S. Allen (Stanford University)) ")
+![Figure a shows an eye looking toward a rotating spiral galaxy. Light coming from the galaxy arms that are rotating away from the observer is red shifted, and light coming from the galaxy arms that are rotating toward the observer is blue shifted. Figure b shows a graph of star rotation speed versus star radius. From zero radius, the curve increases steeply and peaks near two hundred and fifty kilometers per second at a radius of zero point five arbitrary units. The curve then decreases slightly and progresses to a radius of sixteen arbitrary units with ups and down between two hundred and two hundred and twenty five kilometers per second. Figure c shows an image of multiple galaxies and other objects against a black background. In the center of the image is a roughly circular purple haze, on the left and right of which are two slightly smaller and roughly circular blue haze regions.](../resources/Figure_34_04_01.jpg "Evidence for dark matter: (a) We can measure the velocities of stars relative to their galaxies by observing the Doppler shift in emitted light, usually using the hydrogen spectrum. These measurements indicate the rotation of a spiral galaxy. (b) A graph of velocity versus distance from the galactic center shows that the velocity does not decrease as it would if the matter were concentrated in luminous stars. The flatness of the curve implies a massive galactic halo of dark matter extending beyond the visible stars. (c) This is a computer-generated image of X-rays from a galactic cluster. The X-rays indicate the presence of otherwise unseen hot clouds of ionized gas in the regions of space previously considered more empty. (credit: NASA, ESA, CXC, M. Bradac (University of California, Santa Barbara), and S. Allen (Stanford University)) ")
 {: #Figure1}
 
 ### What Is the Dark Matter We See Indirectly?
@@ -194,10 +193,10 @@ gravitationally attached to galaxies, but because they are chargeless and only
 feel the weak force, they would be in a halo rather than interact and coalesce
 into spirals, and so on, like normal matter (see [[Figure 3]](#Figure3)).
 
-![The figure shows a satellite in orbit above the glowing atmosphere of the Earth. The satellite is tube shaped and has a cover that is open at one end. It has two solar panels and is covered in what looks like aluminum foil.](../resources/Figure_35_04_03a.jpg "The Hubble Space Telescope is producing exciting data with its corrected optics and with the absence of atmospheric distortion. It has observed some MACHOs, disks of material around stars thought to precede planet formation, black hole candidates, and collisions of comets with Jupiter. (credit: NASA (crew of STS-125))")
+![The figure shows a satellite in orbit above the glowing atmosphere of the Earth. The satellite is tube shaped and has a cover that is open at one end. It has two solar panels and is covered in what looks like aluminum foil.](../resources/Figure_34_04_03a.jpg "The Hubble Space Telescope is producing exciting data with its corrected optics and with the absence of atmospheric distortion. It has observed some MACHOs, disks of material around stars thought to precede planet formation, black hole candidates, and collisions of comets with Jupiter. (credit: NASA (crew of STS-125))")
 {: #Figure2}
 
-![A close-up photograph of a slow-moving stream carrying leaves.](../resources/Figure_35_04_04a.jpg "Dark matter may shepherd normal matter gravitationally in space, as this stream moves the leaves. Dark matter may be invisible and even move through the normal matter, as neutrinos penetrate us without small-scale effect. (credit: Shinichi Sugiyama)")
+![A close-up photograph of a slow-moving stream carrying leaves.](../resources/Figure_34_04_04a.jpg "Dark matter may shepherd normal matter gravitationally in space, as this stream moves the leaves. Dark matter may be invisible and even move through the normal matter, as neutrinos penetrate us without small-scale effect. (credit: Shinichi Sugiyama)")
 {: #Figure3}
 
 Some particle theorists have built WIMPs into their unified force theories and

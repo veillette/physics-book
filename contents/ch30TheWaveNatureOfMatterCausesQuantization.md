@@ -29,7 +29,7 @@ Allowed orbits are those orbits in which an electron constructively interferes
 with itself. Not all orbits produce constructive interference. Thus only certain
 orbits are allowed—the orbits are quantized.
 
-![Figure a shows a string tied between two fixed supports. The string is being vibrated, which generates waves on the string. Figure b shows a circular orbit of radius r and a triangular shaped wave representing an electron. The condition for constructive interference and an allowed orbit given as two pi r is equal to n times lambda where n is an integer. Figure c shows a circular orbit of radius r prime and an irregular shaped wave representing an electron. The condition for destructive interference and a forbidden orbit is given as two pi r prime is not equal to n times lambda prime where n is an integer.](../resources/Figure_31_06_00a.jpg "(a) Waves on a string have a wavelength related to the length of the string, allowing them to interfere constructively. (b) If we imagine the string bent into a closed circle, we get a rough idea of how electrons in circular orbits can interfere constructively. (c) If the wavelength does not fit into the circumference, the electron interferes destructively; it cannot exist in such an orbit.")
+![Figure a shows a string tied between two fixed supports. The string is being vibrated, which generates waves on the string. Figure b shows a circular orbit of radius r and a triangular shaped wave representing an electron. The condition for constructive interference and an allowed orbit given as two pi r is equal to n times lambda where n is an integer. Figure c shows a circular orbit of radius r prime and an irregular shaped wave representing an electron. The condition for destructive interference and a forbidden orbit is given as two pi r prime is not equal to n times lambda prime where n is an integer.](../resources/Figure_30_06_00a.jpg "(a) Waves on a string have a wavelength related to the length of the string, allowing them to interfere constructively. (b) If we imagine the string bent into a closed circle, we get a rough idea of how electrons in circular orbits can interfere constructively. (c) If the wavelength does not fit into the circumference, the electron interferes destructively; it cannot exist in such an orbit.")
 {: #Figure1}
 
 For a circular orbit, constructive interference occurs when the electron’s
@@ -73,7 +73,7 @@ The wave nature of matter is responsible for the quantization of energy levels i
 
 </div>
 
-![The figure shows two concentric circular orbits with radius r three and r four. Two curved paths representing electron waves are shown around the two circular orbits.](../resources/Figure_31_06_01a.jpg "The third and fourth allowed circular orbits have three and four wavelengths, respectively, in their circumferences.")
+![The figure shows two concentric circular orbits with radius r three and r four. Two curved paths representing electron waves are shown around the two circular orbits.](../resources/Figure_30_06_01a.jpg "The third and fourth allowed circular orbits have three and four wavelengths, respectively, in their circumferences.")
 {: #Figure2}
 
 Because of the wave character of matter, the idea of well-defined orbits gives
@@ -89,7 +89,7 @@ measurement. There is not a well-defined, circular-orbit type of distribution.
 Nature again proves to be different on a small scale than on a macroscopic
 scale.
 
-![A hydrogen atom is shown with its nucleus and most probable distance for the electron. N equals one; l equals zero; m sub l equals zero. R sub one equals a sub B, most probable distance for an electron.](../resources/Figure_31_06_02a.jpg "The ground state of a hydrogen atom has a probability cloud describing the position of its electron. The probability of finding the electron is proportional to the darkness of the cloud. The electron can be closer or farther than the Bohr radius, but it is very unlikely to be a great distance from the nucleus.")
+![A hydrogen atom is shown with its nucleus and most probable distance for the electron. N equals one; l equals zero; m sub l equals zero. R sub one equals a sub B, most probable distance for an electron.](../resources/Figure_30_06_02a.jpg "The ground state of a hydrogen atom has a probability cloud describing the position of its electron. The probability of finding the electron is proportional to the darkness of the cloud. The electron can be closer or farther than the Bohr radius, but it is very unlikely to be a great distance from the nucleus.")
 {: #Figure3}
 
 There are many examples in which the wave nature of matter causes quantization
@@ -126,7 +126,7 @@ When do photons, electrons, and atoms behave like particles and when do they beh
   requiring an integral number of wavelengths to fit in an orbit’s
   circumference; that is,
   <div class="equation" >
-   $$\mathrm{n}\lambda_{n}=2 \pi r_{n}\left(n=1, 2, 3 ...\right), $$
+   $$ n\lambda_{n}=2 \pi r_{n} \text{ where } \left(n=1, 2, 3 ...\right), $$
   </div>
      where
    $${\lambda }_{n} $$ is the electron’s de Broglie wavelength.
@@ -146,7 +146,7 @@ When do photons, electrons, and atoms behave like particles and when do they beh
 * The allowed orbits are circular, Bohr proposed, and must have quantized
   orbital angular momentum given by
   <div class="equation" >
-   $$L={m}_{e}vr_{n}=n\frac{h}{2\pi }\left(n=1, 2, 3 ...\right), $$
+   $$L={m}_{e}vr_{n}=n\frac{h}{2\pi } \text{ where } \left(n=1, 2, 3 ...\right), $$
   </div>
      where    $$L $$ is the angular momentum,
    $${r}_{n} $$ is the radius of the $$n^\text{th}$$ orbit , and

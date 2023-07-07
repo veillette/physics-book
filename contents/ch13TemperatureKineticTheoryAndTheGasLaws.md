@@ -3,7 +3,7 @@ title: "Introduction to Temperature, Kinetic Theory, and the Gas Laws"
 layout: page
 ---    
 
-![Photograph of a welder wearing protective gloves and helmet, engaged in the task of welding.](../resources/Figure_13_00_01.jpg "The welder&#x2019;s gloves and helmet protect him from the electric arc that transfers enough thermal energy to melt the rod, spray sparks, and burn the retina of an unprotected eye. The thermal energy can be felt on exposed skin a few meters away, and its light can be seen for kilometers. (credit: Kevin S. O&#x2019;Brien/U.S. Navy) ")
+![Photograph of a welder wearing protective gloves and helmet, engaged in the task of welding.](../resources/Figure_12_00_01.jpg "The welder&#x2019;s gloves and helmet protect him from the electric arc that transfers enough thermal energy to melt the rod, spray sparks, and burn the retina of an unprotected eye. The thermal energy can be felt on exposed skin a few meters away, and its light can be seen for kilometers. (credit: Kevin S. O&#x2019;Brien/U.S. Navy) ")
 {: #Figure1}
 
 Heat is something familiar to each of us. We feel the warmth of the summer Sun,
@@ -23,5 +23,5 @@ find that, in spite of the richness of the phenomena, there is a small set of
 underlying physical principles that unite the subjects and tie them to other
 fields.
 
-![Image of the lower end of a glass thermometer containing alcohol and a red dye.](../resources/Figure_14_00_02.jpg "In a typical thermometer like this one, the alcohol, with a red dye, expands more rapidly than the glass containing it. When the thermometer&#x2019;s temperature increases, the liquid from the bulb is forced into the narrow tube, producing a large change in the length of the column for a small change in temperature. (credit: Chemical Engineer, Wikimedia Commons)")
+![Image of the lower end of a glass thermometer containing alcohol and a red dye.](../resources/Figure_13_00_02.jpg "In a typical thermometer like this one, the alcohol, with a red dye, expands more rapidly than the glass containing it. When the thermometer&#x2019;s temperature increases, the liquid from the bulb is forced into the narrow tube, producing a large change in the length of the column for a small change in temperature. (credit: Chemical Engineer, Wikimedia Commons)")
 {: #Figure2}

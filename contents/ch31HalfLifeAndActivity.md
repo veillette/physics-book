@@ -36,7 +36,7 @@ surviving through one more. The probability of decay is the same no matter when
 you start counting. This is like random coin flipping. The chance of heads is
 50%, no matter what has happened before.
 
-![The figure shows a radioactive decay graph of number of nuclides in thousands versus time in multiples of half-life. The number of radioactive nuclei decreases exponentially and finally approaches zero after about ten half-lives.](../resources/Figure_32_05_01a.jpg "Radioactive decay reduces the number of radioactive nuclei over time. In one half-life \( t_{1/2} \), the number decreases to half of its original value. Half of what remains decay in the next half-life, and half of those in the next, and so on. This is an exponential decay, as seen in the graph of the number of nuclei present as a function of time.")
+![The figure shows a radioactive decay graph of number of nuclides in thousands versus time in multiples of half-life. The number of radioactive nuclei decreases exponentially and finally approaches zero after about ten half-lives.](../resources/Figure_31_05_01a.jpg "Radioactive decay reduces the number of radioactive nuclei over time. In one half-life \( t_{1/2} \), the number decreases to half of its original value. Half of what remains decay in the next half-life, and half of those in the next, and so on. This is an exponential decay, as seen in the graph of the number of nuclei present as a function of time.")
 {: #Figure1}
 
 There is a tremendous range in the half-lives of various nuclides, from as short
@@ -114,7 +114,7 @@ unidentified piece from the shroud, to avoid prejudice. All three laboratories
 found samples of the shroud contain 92% of the $${}^{14}\text{C} $$ found in
 living tissues, allowing the shroud to be dated (see [[Figure 2]](#Figure2)).
 
-![The figure shows two images of Jesus. Left image is very faint and hardly visible but the right image shows a much clearer picture.](../resources/Figure_32_05_02a.jpg "Part of the Shroud of Turin, which shows a remarkable negative imprint likeness of Jesus complete with evidence of crucifixion wounds. The shroud first surfaced in the 14th century and was only recently carbon-14 dated. It has not been determined how the image was placed on the material. (credit: Butko, Wikimedia Commons)")
+![The figure shows two images of Jesus. Left image is very faint and hardly visible but the right image shows a much clearer picture.](../resources/Figure_31_05_02a.jpg "Part of the Shroud of Turin, which shows a remarkable negative imprint likeness of Jesus complete with evidence of crucifixion wounds. The shroud first surfaced in the 14th century and was only recently carbon-14 dated. It has not been determined how the image was placed on the material. (credit: Butko, Wikimedia Commons)")
 {: #Figure2}
 
 <div class="example" markdown="1">
@@ -264,7 +264,7 @@ Calculate the activity due to  $${}^{14}\text{C} $$
 
 To find the activity $$R $$ using the equation $$R=\frac{ 0.693N}{ {t}_{1/2}} $$
 , we must know $$N $$ and $${t}_{1/2} $$ . The half-life of $${}^{14}\text{C} $$
-can be found in [Appendix B](../contents/AppendixB), and was stated above as 5730 y. To find
+can be found in [Appendix B](../contents/appBGlossaryOfKeySymbolsAndNotation), and was stated above as 5730 y. To find
 $$N $$ , we first find the number of $${}^{12}\text{C} $$ nuclei in 1.00 kg of
 carbon using the concept of a mole. As indicated, we then multiply by $$ 1.3
 \times 10^{-12} $$
@@ -345,7 +345,7 @@ released was about 100 million curies.
 
 ### Human and Medical Applications
 
-![A person holding a hand held radiation detector near the Chernobyl reactor.](../resources/Figure_32_05_03a.jpg "The Chernobyl reactor. More than 100 people died soon after its meltdown, and there will be thousands of deaths from radiation-induced cancer in the future. While the accident was due to a series of human errors, the cleanup efforts were heroic. Most of the immediate fatalities were firefighters and reactor personnel. (credit: Elena Filatova)")
+![A person holding a hand held radiation detector near the Chernobyl reactor.](../resources/Figure_31_05_03a.jpg "The Chernobyl reactor. More than 100 people died soon after its meltdown, and there will be thousands of deaths from radiation-induced cancer in the future. While the accident was due to a series of human errors, the cleanup efforts were heroic. Most of the immediate fatalities were firefighters and reactor personnel. (credit: Elena Filatova)")
 {: #Figure3}
 
 <div class="example" markdown="1">
@@ -362,7 +362,7 @@ It is estimated that the Chernobyl disaster released 6.0 MCi of  $${}^{137}\text
 We can calculate the mass released using Avogadro’s number and the concept of a
 mole if we can first find the number of nuclei $$N $$ released. Since the
 activity $$R $$ is given, and the half-life of $${}^{137}\text{Cs} $$ is found
-in [Appendix B](../contents/AppendixB) to be 30.2 y, we can use the equation $$R=\frac{
+in [Appendix B](../contents/appBGlossaryOfKeySymbolsAndNotation) to be 30.2 y, we can use the equation $$R=\frac{
 0.693N}{ {t}_{1/2}} $$ to find $$N $$.
 
 **Solution**
@@ -725,7 +725,8 @@ The  $${\beta }^{-} $$
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-World War II aircraft had instruments with glowing radium-painted dials (see [[link]](../contents/m42623#import-auto-id3209830)). The activity of one such instrument was  $$ 1.0 \times 10^{5}  $$
+World War II aircraft had instruments with glowing radium-painted dials 
+(see [[Figure]](../contents/ch31NuclearRadioactivity#Figure2)). The activity of one such instrument was  $$ 1.0 \times 10^{5}  $$
  Bq when new. (a) What mass of  $${}^{226}\text{Ra} $$
  was present? (b) After some years, the phosphors on the dials deteriorated chemically, but the radium did not escape. What is the activity of this instrument 57.0 years after it was made?
 

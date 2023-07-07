@@ -34,6 +34,11 @@ million rods in the human retina. Rods do not yield color information. You may
 notice that you lose color vision when it is very dark, but you retain the
 ability to discern grey scales.
 
+
+![The top panel shows the cellular structure of the different cells in the eye. The bottom panel shows a micrograph of the cellular structure.](../resources/Figure_26_03_01.jpg "
+(a) All photoreceptors have inner segments containing the nucleus and other important organelles and outer segments with membrane arrays containing the photosensitive opsin molecules. Rod outer segments are long columnar shapes with stacks of membrane-bound discs that contain the rhodopsin pigment. Cone outer segments are short, tapered shapes with folds of membrane in place of the discs in the rods. (b) Tissue of the retina shows a dense layer of nuclei of the rods and cones. LM × 800. (Micrograph provided by the Regents of University of Michigan Medical School-  2012)")
+{: #Figure1}
+
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
 Take-Home Experiment: Rods and Cones
@@ -49,7 +54,7 @@ diameter region responsible for our central vision. The cones work best in
 bright light and are responsible for high resolution vision. There are about 6
 million cones in the human retina. There are three types of cones, and each type
 is sensitive to different ranges of wavelengths, as illustrated
-in [[Figure 1]](#Figure1). A **simplified theory of color vision** is that there
+in [[Figure 2]](#Figure2). A **simplified theory of color vision** is that there
 are three *primary colors* corresponding to the three types of cones. The
 thousands of other hues that we can distinguish among are created by various
 combinations of stimulations of the three types of cones. Color television uses
@@ -68,12 +73,12 @@ white light from which violet has been removed. The three-primary-colors aspect
 of color vision is well established; more sophisticated theories expand on it
 rather than deny it.
 
-![A line graph of sensitivity on y axis and wavelength on x axis is shown. The graph depicts three skewed curves, representing three types of cones and each type is sensitive to different ranges of wavelengths. The range of wavelength is between three hundred and fifty to seven hundred nanometers. For blue range, the curve peaks at four hundred and twenty nanometers and sensitivity is zero point two. For green range, the curve peaks at five hundred and twenty nanometers and the sensitivity is shown to be one point zero. For yellow range, the curve peaks at five hundred and ninety nanometers and sensitivity is at one point zero.](../resources/Figure_27_03_01.jpg "The image shows the relative sensitivity of the three types of cones, which are named according to wavelengths of greatest sensitivity. Rods are about 1000 times more sensitive, and their curve peaks at about 500 nm. Evidence for the three types of cones comes from direct measurements in animal and human eyes and testing of color blind people.")
-{: #Figure1}
+![A line graph of sensitivity on y axis and wavelength on x axis is shown. The graph depicts three skewed curves, representing three types of cones and each type is sensitive to different ranges of wavelengths. The range of wavelength is between three hundred and fifty to seven hundred nanometers. For blue range, the curve peaks at four hundred and twenty nanometers and sensitivity is zero point two. For green range, the curve peaks at five hundred and twenty nanometers and the sensitivity is shown to be one point zero. For yellow range, the curve peaks at five hundred and ninety nanometers and sensitivity is at one point zero.](../resources/Figure_26_03_02.jpg "The image shows the relative sensitivity of the three types of cones, which are named according to wavelengths of greatest sensitivity. Rods are about 1000 times more sensitive, and their curve peaks at about 500 nm. Evidence for the three types of cones comes from direct measurements in animal and human eyes and testing of color blind people.")
+{: #Figure2}
 
 Consider why various objects display color—that is, why are feathers blue and
 red in a crimson rosella? The *true color of an object* is defined by its
-absorptive or reflective characteristics. [[Figure 2]](#Figure2) shows white
+absorptive or reflective characteristics. [[Figure 3]](#Figure3) shows white
 light falling on three different objects, one pure blue, one pure red, and one
 black, as well as pure red light falling on a white object. Other hues are
 created by more complex absorption characteristics. Pink, for example on a galah
@@ -83,15 +88,15 @@ object illuminated with pure red light will *appear* black, because it absorbs
 all the red light falling on it. But, the true color of the object is blue,
 which is independent of illumination.
 
-![Four flat rectangular structures, named as Blue object, Red object, Black object, and White object are shown. The red, blue, and black objects are illuminated by white light shown by siX-rays of red, orange, yellow, green, blue, and violet. The blue rectangle is emitting blue ray and it appears blue. The red rectangle is emitting red ray and it appears red while the black rectangle has absorbed all colors and appears black. The white rectangle is illuminated only by red light and emits red ray but appears white.](../resources/Figure_27_03_02.jpg "Absorption characteristics determine the true color of an object. Here, three objects are illuminated by white light, and one by pure red light. White is the equal mixture of all visible wavelengths; black is the absence of light.")
-{: #Figure2}
+![Four flat rectangular structures, named as Blue object, Red object, Black object, and White object are shown. The red, blue, and black objects are illuminated by white light shown by siX-rays of red, orange, yellow, green, blue, and violet. The blue rectangle is emitting blue ray and it appears blue. The red rectangle is emitting red ray and it appears red while the black rectangle has absorbed all colors and appears black. The white rectangle is illuminated only by red light and emits red ray but appears white.](../resources/Figure_26_03_03.jpg "Absorption characteristics determine the true color of an object. Here, three objects are illuminated by white light, and one by pure red light. White is the equal mixture of all visible wavelengths; black is the absence of light.")
+{: #Figure3}
 
 Similarly, *light sources have colors* that are defined by the wavelengths they
 produce. A helium-neon laser emits pure red light. In fact, the phrase “pure red
 light” is defined by having a sharp constrained spectrum, a characteristic of
 laser light. The Sun produces a broad yellowish spectrum, fluorescent lights
 emit bluish-white light, and incandescent lights emit reddish-white hues as seen
-in [[Figure 3]](#Figure3). As you would expect, you sense these colors when
+in [[Figure 4]](#Figure4). As you would expect, you sense these colors when
 viewing the light source directly or when illuminating a white object with them.
 All of this fits neatly into the simplified theory that a combination of
 wavelengths produces various hues.
@@ -104,8 +109,8 @@ This activity is best done with plastic sheets of different colors as they allow
 
 </div>
 
-![Four curves showing emission spectra for light sources like the Sun shown as curve A, fluorescent light source shown as curve B, incandescent light source as curve C, and helium-neon laser light source as curve D are depicted in a relative intensity versus wavelength graph. Curve A is a simple curve. Curve B has four spikes at different intensity. Curve C is a linear curve. Curve D is represented as a spike with relative intensity around two hundred and twenty on the scale of zero to two hundred and twenty and wavelength around six hundred and twenty nanometers.](../resources/Figure_27_03_03.jpg "Emission spectra for various light sources are shown. Curve A is average sunlight at Earth&#x2019;s surface, curve B is light from a fluorescent lamp, and curve C is the output of an incandescent light. The spike for a helium-neon laser (curve D) is due to its pure wavelength emission. The spikes in the fluorescent output are due to atomic spectra&#x2014;a topic that will be explored later.")
-{: #Figure3}
+![Four curves showing emission spectra for light sources like the Sun shown as curve A, fluorescent light source shown as curve B, incandescent light source as curve C, and helium-neon laser light source as curve D are depicted in a relative intensity versus wavelength graph. Curve A is a simple curve. Curve B has four spikes at different intensity. Curve C is a linear curve. Curve D is represented as a spike with relative intensity around two hundred and twenty on the scale of zero to two hundred and twenty and wavelength around six hundred and twenty nanometers.](../resources/Figure_26_03_04.jpg "Emission spectra for various light sources are shown. Curve A is average sunlight at Earth&#x2019;s surface, curve B is light from a fluorescent lamp, and curve C is the output of an incandescent light. The spike for a helium-neon laser (curve D) is due to its pure wavelength emission. The spikes in the fluorescent output are due to atomic spectra&#x2014;a topic that will be explored later.")
+{: #Figure4}
 
 ### Color Constancy and a Modified Theory of Color Vision
 
@@ -114,7 +119,7 @@ view, perceive the true color of an object under varying lighting conditions—a
 ability that is called **color constancy**. We can sense that a white
 tablecloth, for example, is white whether it is illuminated by sunlight,
 fluorescent light, or candlelight. The wavelengths entering the eye are quite
-different in each case, as the graphs in [[Figure 3]](#Figure3) imply, but our
+different in each case, as the graphs in [[Figure 4]](#Figure4) imply, but our
 color vision can detect the true color by comparing the tablecloth with its
 surroundings.
 
@@ -124,13 +129,13 @@ among the light receptors on the retina, and there are far fewer nerve
 connections to the brain than there are rods and cones. This means that there is
 signal processing in the eye before information is sent to the brain. For
 example, the eye makes comparisons between adjacent light receptors and is very
-sensitive to edges as seen in [[Figure 4]](#Figure4). Rather than responding
+sensitive to edges as seen in [[Figure 5]](#Figure5). Rather than responding
 simply to the light entering the eye, which is uniform in the various rectangles
 in this figure, the eye responds to the edges and senses false darkness
 variations.
 
-![An image of black and gray gradient in stripes pattern is shown in first figure. A step graph in increasing order below the image shows actual light intensities of the above pattern. The graph appears uniform as the grey strips are also uniform, but they are not. Instead, they are perceived darker on the dark side and lighter on the light side of the edge as depicted in the graph below it, which shows a step graph with spikes at the beginning of the next step.](../resources/Figure_27_03_04.jpg "The importance of edges is shown. Although the grey strips are uniformly shaded, as indicated by the graph immediately below them, they do not appear uniform at all. Instead, they are perceived darker on the dark side and lighter on the light side of the edge, as shown in the bottom graph. This is due to nerve impulse processing in the eye.")
-{: #Figure4}
+![An image of black and gray gradient in stripes pattern is shown in first figure. A step graph in increasing order below the image shows actual light intensities of the above pattern. The graph appears uniform as the grey strips are also uniform, but they are not. Instead, they are perceived darker on the dark side and lighter on the light side of the edge as depicted in the graph below it, which shows a step graph with spikes at the beginning of the next step.](../resources/Figure_26_03_05.jpg "The importance of edges is shown. Although the grey strips are uniformly shaded, as indicated by the graph immediately below them, they do not appear uniform at all. Instead, they are perceived darker on the dark side and lighter on the light side of the edge, as shown in the bottom graph. This is due to nerve impulse processing in the eye.")
+{: #Figure5}
 
 One theory that takes various factors into account was advanced by Edwin Land (
 1909 – 1991), the creative founder of the Polaroid Corporation. Land proposed,

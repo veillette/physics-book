@@ -1,9 +1,9 @@
 ---
 title: "Introduction to Oscillatory Motion and Waves"
 layout: page
----    
+---
 
-![In the figure a couple and their son are sitting alongside a beach in the evening time, around a wood-lit fire. The man is playing a guitar.](../resources/Figure_17_00_01a.jpg "There are at least four types of waves in this picture&#x2014;only the water waves are evident. There are also sound waves, light waves, and waves on the guitar strings. (credit: John Norton)")
+![In the figure a couple and their son are sitting alongside a beach in the evening time, around a wood-lit fire. The man is playing a guitar.](../resources/Figure_16_00_01a.jpg "There are at least four types of waves in this picture&#x2014;only the water waves are evident. There are also sound waves, light waves, and waves on the guitar strings. (credit: John Norton)")
 {: #Figure1}
 
 What do an ocean buoy, a child in a swing, the cone inside a speaker, a guitar,
@@ -31,6 +31,10 @@ exploration of oscillatory motion and waves to include concepts such as simple
 harmonic motion, uniform circular motion, and damped harmonic motion. Finally,
 we will explore what happens when two or more waves share the same space, in the
 phenomena known as superposition and interference.
+
+<div class="note" data-label="Video" markdown="1">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9KMpE6BGz5Q"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 <div class="glossary" markdown="1">
 ### Glossary

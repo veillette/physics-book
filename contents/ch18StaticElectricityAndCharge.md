@@ -9,7 +9,7 @@ layout: page
 * State the law of conservation of charge.
 </div>
 
-![This piece of gold-colored amber from Malaysia has been rubbed and polished to a smooth, rounded shape.](../resources/Figure_19_01_01a.jpg "Borneo amber was mined in Sabah, Malaysia, from shale-sandstone-mudstone veins. When a piece of amber is rubbed with a piece of silk, the amber gains more electrons, giving it a net negative charge. At the same time, the silk, having lost electrons, becomes positively charged. (credit: Sebakoamber, Wikimedia Commons)")
+![This piece of gold-colored amber from Malaysia has been rubbed and polished to a smooth, rounded shape.](../resources/Figure_18_01_01a.jpg "Borneo amber was mined in Sabah, Malaysia, from shale-sandstone-mudstone veins. When a piece of amber is rubbed with a piece of silk, the amber gains more electrons, giving it a net negative charge. At the same time, the silk, having lost electrons, becomes positively charged. (credit: Sebakoamber, Wikimedia Commons)")
 {: #Figure1}
 
 What makes plastic wrap cling? Static electricity. Not only are applications of
@@ -54,7 +54,7 @@ cloths so rubbed will repel, since both cloths have negative
 charge. [[Figure 2]](#Figure2) shows how these simple materials can be used to
 explore the nature of the force between charges.
 
-![(a) Negatively charged cloth is attracted to the positively charged glass rod which is hanging by the thread. (b) A positively charged glass rod is hanging with a thread. When another positively charged glass rod brought close to the first rod it deflects due to the repulsive force. (c) Two negatively charged silk cloth brought close to each other repel each other.](../resources/Figure_19_01_02a.jpg "A glass rod becomes positively charged when rubbed with silk, while the silk becomes negatively charged. (a) The glass rod is attracted to the silk because their charges are opposite. (b) Two similarly charged glass rods repel. (c) Two similarly charged silk cloths repel.")
+![(a) Negatively charged cloth is attracted to the positively charged glass rod which is hanging by the thread. (b) A positively charged glass rod is hanging with a thread. When another positively charged glass rod brought close to the first rod it deflects due to the repulsive force. (c) Two negatively charged silk cloth brought close to each other repel each other.](../resources/Figure_18_01_02a.jpg "A glass rod becomes positively charged when rubbed with silk, while the silk becomes negatively charged. (a) The glass rod is attracted to the silk because their charges are opposite. (b) Two similarly charged glass rods repel. (c) Two similarly charged silk cloths repel.")
 {: #Figure2}
 
 More sophisticated questions arise. Where do these charges come from? Can you
@@ -78,7 +78,7 @@ charge-carrying particles are observed in cosmic rays and nuclear decay, and are
 created in particle accelerators. All but the electron and proton survive only a
 short time and are quite rare by comparison.
 
-![Three electrons are shown moving in different direction around the nucleus and their motion is similar to planetary motion.](../resources/Figure_19_01_03a.jpg "This simplified (and not to scale) view of an atom is called the planetary model of the atom. Negative electrons orbit a much heavier positive nucleus, as the planets orbit the much heavier sun. There the similarity ends, because forces in the atom are electromagnetic, whereas those in the planetary system are gravitational. Normal macroscopic amounts of matter contain immense numbers of atoms and molecules and, hence, even greater numbers of individual negative and positive charges.")
+![Three electrons are shown moving in different direction around the nucleus and their motion is similar to planetary motion.](../resources/Figure_18_01_03a.jpg "This simplified (and not to scale) view of an atom is called the planetary model of the atom. Negative electrons orbit a much heavier positive nucleus, as the planets orbit the much heavier sun. There the similarity ends, because forces in the atom are electromagnetic, whereas those in the planetary system are gravitational. Normal macroscopic amounts of matter contain immense numbers of atoms and molecules and, hence, even greater numbers of individual negative and positive charges.")
 {: #Figure3}
 
 The charges of electrons and protons are identical in magnitude but opposite in
@@ -124,7 +124,7 @@ these positive like charges causes the strands of hair to repel other strands of
 hair and to stand up. The further blowup shows an artist’s conception of an
 electron and a proton perhaps found in an atom in a strand of hair.
 
-![A girl is touching a Van de Graaff generator with her hair standing up. A magnified view of her single hair is shown which is filled with electrons and protons.](../resources/Figure_19_01_04a.jpg "When this person touches a Van de Graaff generator, she receives an excess of positive charge, causing her hair to stand on end. The charges in one hair are shown. An artist&#x2019;s conception of an electron and a proton illustrate the particles carrying the negative and positive charges. We cannot really see these particles with visible light because they are so small (the electron seems to be an infinitesimal point), but we know a great deal about their measurable properties, such as the charges they carry.")
+![A girl is touching a Van de Graaff generator with her hair standing up. A magnified view of her single hair is shown which is filled with electrons and protons.](../resources/Figure_18_01_04a.jpg "When this person touches a Van de Graaff generator, she receives an excess of positive charge, causing her hair to stand on end. The charges in one hair are shown. An artist&#x2019;s conception of an electron and a proton illustrate the particles carrying the negative and positive charges. We cannot really see these particles with visible light because they are so small (the electron seems to be an infinitesimal point), but we know a great deal about their measurable properties, such as the charges they carry.")
 {: #Figure4}
 
 The electron seems to have no substructure; in contrast, when the substructure
@@ -138,7 +138,7 @@ or $$+\frac{2}{3} $$ . There are continuing attempts to observe fractional
 charge directly and to learn of the properties of quarks, which are perhaps the
 ultimate substructure of matter.
 
-![A magnified view of a fraction of proton is shown in an art having three quarks of spherical shape separated from each other.](../resources/Figure_19_01_05a.jpg "Artist&#x2019;s conception of fractional quark charges inside a proton. A group of three quark charges add up to the single positive charge on the proton: \( -1/3q_e +2/3q_e +2/3q_e =+1q_e \).")
+![A magnified view of a fraction of proton is shown in an art having three quarks of spherical shape separated from each other.](../resources/Figure_18_01_05a.jpg "Artist&#x2019;s conception of fractional quark charges inside a proton. A group of three quark charges add up to the single positive charge on the proton: \( -1/3q_e +2/3q_e +2/3q_e =+1q_e \).")
 {: #Figure5}
 
 ### Separation of Charge in Atoms
@@ -154,7 +154,7 @@ separate charges. Chemical interactions may transfer negative charge from one
 substance to the other, making one battery terminal negative and leaving the
 first one positive.
 
-![](../resources/Figure_19_01_06a.jpg "When materials are rubbed together, charges can be separated, particularly if one material has a greater affinity for electrons than another. (a) Both the amber and cloth are originally neutral, with equal positive and negative charges. Only a tiny fraction of the charges are involved, and only a few of them are shown here. (b) When rubbed together, some negative charge is transferred to the amber, leaving the cloth with a net positive charge. (c) When separated, the amber and cloth now have net charges, but the absolute value of the net positive and negative charges will be equal.")
+![](../resources/Figure_18_01_06a.jpg "When materials are rubbed together, charges can be separated, particularly if one material has a greater affinity for electrons than another. (a) Both the amber and cloth are originally neutral, with equal positive and negative charges. Only a tiny fraction of the charges are involved, and only a few of them are shown here. (b) When rubbed together, some negative charge is transferred to the amber, leaving the cloth with a net positive charge. (c) When separated, the amber and cloth now have net charges, but the absolute value of the net positive and negative charges will be equal.")
 {: #Figure6}
 
 No charge is actually created or destroyed when charges are separated as we have
@@ -194,7 +194,7 @@ Only a limited number of physical quantities are universally conserved. Charge i
 
 </div>
 
-![Here energy is shown by a vector. Initially electrostatic charge q tot is equal to zero. Now energy gets converted into matter and creates one electron and antielectron pair but final electrostatic charge is equal to zero so change in mass delta m is equal to two m e, which is equal to E divided by c square. (b) In this figure, Electron and antielectron are colliding with each other. The electrostatic charge q tot before collision is zero and after collision it will remain zero.](../resources/Figure_19_01_07a.jpg "(a) When enough energy is present, it can be converted into matter. Here the matter created is an electron&#x2013;antielectron pair. (\( m_{e} \) is the electron&#x2019;s mass.) The total charge before and after this event is zero. (b) When matter and antimatter collide, they annihilate each other; the total charge is conserved at zero before and after the annihilation.")
+![Here energy is shown by a vector. Initially electrostatic charge q tot is equal to zero. Now energy gets converted into matter and creates one electron and antielectron pair but final electrostatic charge is equal to zero so change in mass delta m is equal to two m e, which is equal to E divided by c square. (b) In this figure, Electron and antielectron are colliding with each other. The electrostatic charge q tot before collision is zero and after collision it will remain zero.](../resources/Figure_18_01_07a.jpg "(a) When enough energy is present, it can be converted into matter. Here the matter created is an electron&#x2013;antielectron pair. (\( m_{e} \) is the electron&#x2019;s mass.) The total charge before and after this event is zero. (b) When matter and antimatter collide, they annihilate each other; the total charge is conserved at zero before and after the annihilation.")
 {: #Figure7}
 
 The law of conservation of charge is absolute—it has never been observed to be

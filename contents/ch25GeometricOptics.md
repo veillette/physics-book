@@ -9,7 +9,7 @@ Light from this page or screen is formed into an image by the lens of your eye,
 much as the lens of the camera that made this photograph. Mirrors, like lenses,
 can also form images that in turn are captured by your eye.
 
-![People in white clothing covered from head to toe and wearing blue colored gloves are working in a research laboratory setting, one person holding a flash light and analyzing and another reading a manuscript and so on. Their images are seen on a smooth colored glass top of a work table.](../resources/Figure_26_00_00.jpg "Image seen as a result of reflection of light on a plane smooth surface. (credit: NASA Goddard Photo and Video, via Flickr)")
+![People in white clothing covered from head to toe and wearing blue colored gloves are working in a research laboratory setting, one person holding a flash light and analyzing and another reading a manuscript and so on. Their images are seen on a smooth colored glass top of a work table.](../resources/Figure_25_00_00.jpg "Image seen as a result of reflection of light on a plane smooth surface. (credit: NASA Goddard Photo and Video, via Flickr)")
 {: #Figure1}
 
 Our lives are filled with light. Through vision, the most valued of our senses,
@@ -21,7 +21,7 @@ a solar oven. Life itself could not exist without light’s energy. From
 photosynthesis in plants to the sun warming a cold-blooded animal, its supply of
 energy is vital.
 
-![](../resources/Figure_26_00_01.jpg "Double Rainbow over the bay of Pocitos in Montevideo, Uruguay. (credit: Madrax, Wikimedia Commons)")
+![](../resources/Figure_25_00_01.jpg "Double Rainbow over the bay of Pocitos in Montevideo, Uruguay. (credit: Madrax, Wikimedia Commons)")
 {: #Figure2}
 
 We already know that visible light is the type of electromagnetic waves to which
@@ -45,3 +45,7 @@ call this part of optics “geometric optics.” This chapter will concentrate o
 such situations. When light interacts with smaller objects, it has very
 prominent wave characteristics, such as constructive and destructive
 interference. [Wave Optics](../contents/ch27WaveOptics) will concentrate on such situations.
+
+<div class="note" data-label="Video" markdown="1">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SOqdetf1Izg"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

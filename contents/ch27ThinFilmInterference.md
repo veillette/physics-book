@@ -19,7 +19,7 @@ all interference depends in some way on the ratio of $$\lambda $$ to the size of
 the object involved, we should expect to see different colors for different
 thicknesses of a film, as in [[Figure 1]](#Figure1).
 
-![Soap bubbles reflecting mostly purple and blue light with some regions of orange.](../resources/Figure_28_00_02a.jpg "These soap bubbles exhibit brilliant colors when exposed to sunlight. (credit: Scott Robinson, Flickr)")
+![Soap bubbles reflecting mostly purple and blue light with some regions of orange.](../resources/Figure_27_00_03.jpg "These soap bubbles exhibit brilliant colors when exposed to sunlight. (credit: Scott Robinson, Flickr)")
 {: #Figure1}
 
 What causes thin film interference? [[Figure 2]](#Figure2) shows how light
@@ -42,7 +42,7 @@ occur upon reflection. The rule is as follows:
 that of the medium in which it is traveling, a $$180 ^\circ $$ phase change (
 or a $$\lambda /2 $$ shift) occurs.**
 
-![The figure shows three materials, or media, stacked one upon the other. The topmost medium is labeled n one, the next is labeled n two and its thickness is t, and the lowest is labeled n three. A light ray labeled incident light starts in the n one medium and propagates down and to the right to strike the n one n two interface. The ray gets partially reflected and partially refracted. The partially reflected ray is labeled ray one. The refracted ray continues downward in the n two medium and is reflected back up from the n two n three interface. This reflected ray, labeled ray two, refracts again upon passing up through the n two n one interface and continues upward parallel to ray one. Ray one and ray two then enter an observer&#x2019;s eye.](../resources/Figure_28_07_01a.jpg "Light striking a thin film is partially reflected (ray 1) and partially refracted at the top surface. The refracted ray is partially reflected at the bottom surface and emerges as ray 2. These rays will interfere in a way that depends on the thickness of the film and the indices of refraction of the various media.")
+![The figure shows three materials, or media, stacked one upon the other. The topmost medium is labeled n one, the next is labeled n two and its thickness is t, and the lowest is labeled n three. A light ray labeled incident light starts in the n one medium and propagates down and to the right to strike the n one n two interface. The ray gets partially reflected and partially refracted. The partially reflected ray is labeled ray one. The refracted ray continues downward in the n two medium and is reflected back up from the n two n three interface. This reflected ray, labeled ray two, refracts again upon passing up through the n two n one interface and continues upward parallel to ray one. Ray one and ray two then enter an observer&#x2019;s eye.](../resources/Figure_27_07_01a.jpg "Light striking a thin film is partially reflected (ray 1) and partially refracted at the top surface. The refracted ray is partially reflected at the bottom surface and emerges as ray 2. These rays will interfere in a way that depends on the thickness of the film and the indices of refraction of the various media.")
 {: #Figure2}
 
 If the film in [[Figure 2]](#Figure2) is a soap bubble (essentially water with
@@ -61,6 +61,9 @@ medium ( $${\lambda }_{n}=\lambda /n $$ , where $$\lambda $$ is the wavelength
 in vacuum and $$n $$ is the index of refraction), constructive or destructive
 interference occurs, depending also on whether there is a phase change in either
 ray.
+
+Thin-film interference has created an entire field of research and industrial applications. Its foundations were laid by Irving Langmuir and Katharine Burr Blodgett, working at General Electric in the 1920s and 1930s. Langmuir had pioneered a method for producing ultra-thin layers on materials. Blodgett built on these practices by creating a method to precisely stack and compress these layers in order to produce a film of a desired thickness and quality. The device they developed became known as the Langmuir-Blodgett trough, built from principles developed by Agnes Pockels and still used in laboratories today. The earliest widely applied use of these principles was non-reflective glass, which Blodgett patented in 1938 and which was used almost immediately in the making of 
+the film *Gone With the Wind*. The film is viewed as a tremendous leap in cinematography; cameras, microscopes, telescopes, and many other instruments rely on Blodgett's invention as well.
 
 <div id="Example1" class="example" markdown="1">
 <div class="title">
@@ -208,7 +211,7 @@ see, because slight changes in incident angle have greater effects on path
 length differences. If pure-wavelength light instead of white light is used,
 then bright and dark bands are obtained rather than repeating rainbow colors.
 
-![Figure A shows two microscope slides that have been pressed together. Multicolor swirling rainbow bands are visible coming from the slides. Figure B shows a cross section of two glass slides stacked one on top of the other. The lower slide is horizontal and the upper slide is tilted up at an angle that is larger than the actual angle between slides would be. Two rays come from above and impinge upon the slides. Their refraction and partial reflection is shown at each glass air interface.](../resources/Figure_28_07_02a.jpg "(a) The rainbow color bands are produced by thin film interference in the air between the two glass slides. (b) Schematic of the paths taken by rays in the wedge of air between the slides.")
+![Figure A shows two microscope slides that have been pressed together. Multicolor swirling rainbow bands are visible coming from the slides. Figure B shows a cross section of two glass slides stacked one on top of the other. The lower slide is horizontal and the upper slide is tilted up at an angle that is larger than the actual angle between slides would be. Two rays come from above and impinge upon the slides. Their refraction and partial reflection is shown at each glass air interface.](../resources/Figure_27_07_02a.jpg "(a) The rainbow color bands are produced by thin film interference in the air between the two glass slides. (b) Schematic of the paths taken by rays in the wedge of air between the slides.")
 {: #Figure3}
 
 An important application of thin film interference is found in the manufacturing
@@ -224,7 +227,7 @@ increase of only one wavelength in the distance between the lens and the blank,
 so that great precision can be obtained. Once the lens is perfect, there will be
 no rings.
 
-![This figure shows rainbow-colored concentric rings obtained when two plano-convex lenses are placed together with their flat surfaces in contact.](../resources/Figure_28_07_03a.jpg "&#x201C;Newton's rings&#x201D; interference fringes are produced when two plano-convex lenses are placed together with their plane surfaces in contact. The rings are created by interference between the light reflected off the two surfaces as a result of a slight gap between them, indicating that these surfaces are not precisely plane but are slightly convex. (credit: Ulf Seifert, Wikimedia Commons)")
+![This figure shows rainbow-colored concentric rings obtained when two plano-convex lenses are placed together with their flat surfaces in contact.](../resources/Figure_27_07_03a.jpg "&#x201C;Newton's rings&#x201D; interference fringes are produced when two plano-convex lenses are placed together with their plane surfaces in contact. The rings are created by interference between the light reflected off the two surfaces as a result of a slight gap between them, indicating that these surfaces are not precisely plane but are slightly convex. (credit: Ulf Seifert, Wikimedia Commons)")
 {: #Figure4}
 
 The wings of certain moths and butterflies have nearly iridescent colors due to
@@ -249,6 +252,7 @@ One feature of thin film interference and diffraction gratings is that the patte
 </div>
 
 ### Problem-Solving Strategies for Wave Optics
+{: #Note1}
 
 **Step 1.** *Examine the situation to determine that interference is involved*.
 Identify whether slits or thin film interference are considered in the problem.
@@ -412,14 +416,15 @@ on top of a plastic cutting board has a thickness of 233 nm. What color is most 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 What are the three smallest non-zero thicknesses of soapy water ( $$n=1.33 $$ ) 
-on Plexiglas if it appears green (constructively reflecting 520-nm light) when illuminated perpendicularly by white light? Explicitly show how you follow the steps in [Problem Solving Strategies for Wave Optics](#fs-id1169737988256).
+on Plexiglas if it appears green (constructively reflecting 520-nm light) when illuminated perpendicularly by white light? Explicitly show how you follow 
+the steps in [Problem-Solving Strategies for Wave Optics](#Note1).
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Suppose you have a lens system that is to be used primarily for 700-nm red light. What is the second thinnest coating of fluorite (magnesium fluoride) that would be non-reflective for this wavelength?
+Suppose you have a lens system that is to be used primarily for 700-nm red light. What is the second thinnest coating of fluorite (calcium fluoride) that would be non-reflective for this wavelength?
 
 </div>
 <div class="solution" markdown="1">

@@ -2,9 +2,9 @@
 title: "Introduction to Electromagnetic Induction, AC Circuits and Electrical
 Technologies"
 layout: page
----    
+---
 
-![Wind turbine with three blades moored in shallow water.](../resources/Figure_23_00_01.jpg "These wind turbines in the Thames Estuary in the UK are an example of induction at work. Wind pushes the blades of the turbine, spinning a shaft attached to magnets. The magnets spin around a conductive coil, inducing an electric current in the coil, and eventually feeding the electrical grid. (credit: modification of work by Petr Kratochvil)")
+![Wind turbine with three blades moored in shallow water.](../resources/Figure_22_00_01.jpg "These wind turbines in the Thames Estuary in the UK are an example of induction at work. Wind pushes the blades of the turbine, spinning a shaft attached to magnets. The magnets spin around a conductive coil, inducing an electric current in the coil, and eventually feeding the electrical grid. (credit: modification of work by Petr Kratochvil)")
 {: #Figure1}
 
 Nature’s displays of symmetry are beautiful and alluring. A butterfly’s wings
@@ -14,7 +14,7 @@ are a source of wonder and imply deeper meaning. Since we place a high value on
 symmetry, we look for it when we explore nature. The remarkable thing is that we
 find it.
 
-![Photograph of a butterfly with its wings spread out symmetrically is shown to rest on a bunch of flowers.](../resources/Figure_24_00_02.jpg "Physics, like this butterfly, has inherent symmetries. (credit: Thomas Bresson)")
+![Photograph of a butterfly with its wings spread out symmetrically is shown to rest on a bunch of flowers.](../resources/Figure_23_00_02.jpg "Physics, like this butterfly, has inherent symmetries. (credit: Thomas Bresson)")
 {: #Figure2}
 
 The hint of symmetry between electricity and magnetism found in the preceding
@@ -39,6 +39,10 @@ transformers of every size, certain microphones, airport security gates, and
 damping mechanisms on sensitive chemical balances. Not so familiar perhaps, but
 important nevertheless, is that the behavior of AC circuits depends strongly on
 the effect of magnetic fields on currents.
+
+<div class="note" data-label="Video" markdown="1">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LGh-liBHPcs"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 <div class="glossary" markdown="1">
 ### Glossary

@@ -10,7 +10,7 @@ layout: page
 * Describe the effects of temperature on the speed of sound.
 </div>
 
-![A photograph of a fireworks display in the sky.](../resources/Figure_18_02_01a.jpg "When a firework explodes, the light energy is perceived before the sound energy. Sound travels more slowly than light does. (credit: Dominic Alves, Flickr)")
+![A photograph of a fireworks display in the sky.](../resources/Figure_17_02_01a.jpg "When a firework explodes, the light energy is perceived before the sound energy. Sound travels more slowly than light does. (credit: Dominic Alves, Flickr)")
 {: #Figure1}
 
 Sound, like all waves, travels at a certain speed and has the properties of
@@ -40,7 +40,7 @@ identical parts of a wave—for example, between adjacent compressions as
 illustrated in [[Figure 2]](#Figure2). The frequency is the same as that of the
 source and is the number of waves that pass a point per unit time.
 
-![A picture of a vibrating tuning fork is shown. The sound wave compressions and rarefactions are shown to emanate from the fork on both the sides as semicircular arcs of alternate bold and dotted lines. The wavelength is marked as the distance between two successive bold arcs. The frequency of the vibrations is shown as f and velocity of the wave represented by v sub w.](../resources/Figure_18_02_02a.jpg "A sound wave emanates from a source vibrating at a frequency \( f \), propagates at \( v_w \) , and has a wavelength \( \lambda \).")
+![A picture of a vibrating tuning fork is shown. The sound wave compressions and rarefactions are shown to emanate from the fork on both the sides as semicircular arcs of alternate bold and dotted lines. The wavelength is marked as the distance between two successive bold arcs. The frequency of the vibrations is shown as f and velocity of the wave represented by v sub w.](../resources/Figure_17_02_02a.jpg "A sound wave emanates from a source vibrating at a frequency \( f \), propagates at \( v_w \) , and has a wavelength \( \lambda \).")
 {: #Figure2}
 
 [[Table 1]](#Table1) makes it apparent that the speed of sound varies greatly in
@@ -130,7 +130,7 @@ S-waves correspondingly range in speed from 2 to 5 km/s, both being faster in
 more rigid material. The P-wave gets progressively farther ahead of the S-wave
 as they travel through Earth’s crust. The time between the P- and S-waves is
 routinely used to determine the distance to their source, the epicenter of the
-earthquake.
+earthquake. The time and nature of these wave differences also provides the evidence for the nature of Earth's core. Through careful analysis of seismographic records of large earthquakes whose waves could be clearly detected around the world, Richard Dixon Oldham established that waves passing through the center of the Earth behaved as if they were moving through a different medium: a liquid. Later on, Inge Lehmann used more precise observations (partly based on a better coordinated network of seismographs she helped set up) to better define the nature of the core: that it was a solid inner core surrounded by a liquid outer core.
 
 The speed of sound is affected by temperature in a given medium. For air at sea
 level, the speed of sound is given by
@@ -157,7 +157,7 @@ $$20.0 \text{ºC} $$ it is 343 m/s, less than a 4%
 increase. [[Figure 3]](#Figure3) shows a use of the speed of sound by a bat to
 sense distances. Echoes are also used in medical imaging.
 
-![The picture is of a bat trying to catch its prey an insect using sound echoes. The incident sound and sound reflected from the bat are shown as semicircular arcs.](../resources/Figure_18_02_03a.jpg "A bat uses sound echoes to find its way about and to catch prey. The time for the echo to return is directly proportional to the distance.")
+![The picture is of a bat trying to catch its prey an insect using sound echoes. The incident sound and sound reflected from the bat are shown as semicircular arcs.](../resources/Figure_17_02_03a.jpg "A bat uses sound echoes to find its way about and to catch prey. The time for the echo to return is directly proportional to the distance.")
 {: #Figure3}
 
 One of the more important properties of sound is that its speed is nearly
@@ -179,7 +179,7 @@ that there is a relationship between $$f $$ and $$\lambda $$ ; the higher the
 frequency, the smaller the wavelength. See [[Figure 4]](#Figure4) and consider
 the following example.
 
-![Picture of a speaker having a woofer and a tweeter. High frequency sound coming out of the woofer shown as small circles closely spaced. Low frequency sound coming out of tweeter are shown as larger circles distantly spaced.](../resources/Figure_18_02_04a.jpg "Because they travel at the same speed in a given medium, low-frequency sounds must have a greater wavelength than high-frequency sounds. Here, the lower-frequency sounds are emitted by the large speaker, called a woofer, while the higher-frequency sounds are emitted by the small speaker, called a tweeter.")
+![Picture of a speaker having a woofer and a tweeter. High frequency sound coming out of the woofer shown as small circles closely spaced. Low frequency sound coming out of tweeter are shown as larger circles distantly spaced.](../resources/Figure_17_02_04a.jpg "Because they travel at the same speed in a given medium, low-frequency sounds must have a greater wavelength than high-frequency sounds. Here, the lower-frequency sounds are emitted by the large speaker, called a woofer, while the higher-frequency sounds are emitted by the small speaker, called a tweeter.")
 {: #Figure4}
 
 <div class="example" markdown="1">

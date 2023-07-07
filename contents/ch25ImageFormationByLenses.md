@@ -33,7 +33,7 @@ lens. [[Figure 2]](#Figure2) shows how a converging lens, such as that in a
 magnifying glass, can converge the nearly parallel light rays from the sun to a
 small spot.
 
-![The figure on the right shows a convex lens. Three rays heading from left to right, 1, 2, and 3, are considered. Ray 2 falls on the axis and rays 1 and 3 are parallel to the axis. The distance from the center of the lens to the focal point F is small f on the right side of the lens. Rays 1 and 3 after refraction converge at F on the axis. Ray 2 on the axis goes undeviated. The figure on the left shows an expanded view of refraction for ray 1. The angle of incidence is theta 1 and angle of refraction theta 2 and a dotted line is the perpendicular drawn to the surface of the lens at the point of incidence. The ray after the refraction at the second surface emerges with an angle equal to theta 1 prime with the perpendicular drawn at that point. The perpendiculars are shown as dotted lines.](../resources/Figure_26_06_01.jpg "Rays of light entering a converging lens parallel to its axis converge at its focal point F. (Ray 2 lies on the axis of the lens.) The distance from the center of the lens to the focal point is the lens&#x2019;s focal length \( f \) . An expanded view of the path taken by ray 1 shows the perpendiculars and the angles of incidence and refraction at both surfaces.")
+![The figure on the right shows a convex lens. Three rays heading from left to right, 1, 2, and 3, are considered. Ray 2 falls on the axis and rays 1 and 3 are parallel to the axis. The distance from the center of the lens to the focal point F is small f on the right side of the lens. Rays 1 and 3 after refraction converge at F on the axis. Ray 2 on the axis goes undeviated. The figure on the left shows an expanded view of refraction for ray 1. The angle of incidence is theta 1 and angle of refraction theta 2 and a dotted line is the perpendicular drawn to the surface of the lens at the point of incidence. The ray after the refraction at the second surface emerges with an angle equal to theta 1 prime with the perpendicular drawn at that point. The perpendiculars are shown as dotted lines.](../resources/Figure_25_06_01.jpg "Rays of light entering a converging lens parallel to its axis converge at its focal point F. (Ray 2 lies on the axis of the lens.) The distance from the center of the lens to the focal point is the lens&#x2019;s focal length \( f \) . An expanded view of the path taken by ray 1 shows the perpendiculars and the angles of incidence and refraction at both surfaces.")
 {: #Figure1}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -60,7 +60,7 @@ The distance from the center of the lens to its focal point is called focal leng
 
 </div>
 
-![A person&#x2019;s hand is holding a magnifying glass to focus the sunlight to a point. The magnifying glass focuses the sunlight to burn paper.](../resources/Figure_26_06_02.jpg "Sunlight focused by a converging magnifying glass can burn paper. Light rays from the sun are nearly parallel and cross at the focal point of the lens. The more powerful the lens, the closer to the lens the rays will cross. ")
+![A person&#x2019;s hand is holding a magnifying glass to focus the sunlight to a point. The magnifying glass focuses the sunlight to burn paper.](../resources/Figure_25_06_02.jpg "Sunlight focused by a converging magnifying glass can burn paper. Light rays from the sun are nearly parallel and cross at the focal point of the lens. The more powerful the lens, the closer to the lens the rays will cross. ")
 {: #Figure2}
 
 The greater effect a lens has on light rays, the more powerful it is said to be.
@@ -87,7 +87,7 @@ where  $$f $$
  is the focal length of the lens, which must be given in meters (and not cm or mm). The power of a lens  $$P $$
  has the unit diopters (D), provided that the focal length is given in meters. That is,  $$1 \text{D}=1/\text{m} $$ ,
  or  $${1 \text{m}}^{-1} $$ .
- (Note that this power (optical power, actually) is not the same as power in watts defined in [Work, Energy, and Energy Resources](../contents/m42145). It is a concept related to the effect of optical devices on light.) Optometrists prescribe common spectacles and contact lenses in units of diopters.
+ (Note that this power (optical power, actually) is not the same as power in watts defined in [Work, Energy, and Energy Resources](../contents/ch7WorkEnergyAndEnergyResources). It is a concept related to the effect of optical devices on light.) Optometrists prescribe common spectacles and contact lenses in units of diopters.
 
 </div>
 
@@ -145,7 +145,8 @@ $$ . An expanded view of the path of one ray through the lens is shown in the
 figure to illustrate how the shape of the lens, together with the law of
 refraction, causes the ray to follow its particular path and be diverged.
 
-![The figure on the top shows an expanded view of refraction for ray 1 falling on a concave lens. The angle of incidence is theta 1 and angle of refraction theta 2. The ray after the refraction at the second surface emerges with an angle equal to theta 1 prime with the perpendicular drawn at that point. Perpendiculars are shown as dotted lines. The figure at the bottom shows a concave lens. Three rays, 1, 2, and 3, are considered. Ray 2 falls on the axis and rays 1 and 3 are parallel to the axis. Rays 1 and 3 after refraction appear to come from a point F on the axis. The distance from the center of the lens to F is small f and is measured from the same side as the incident rays. Ray 2 on the axis goes undeviated.](../resources/Figure_26_06_03.jpg "Rays of light entering a diverging lens parallel to its axis are diverged, and all appear to originate at its focal point \( F \) . The dashed lines are not rays&#x2014;they indicate the directions from which the rays appear to come. The focal length \( f \) of a diverging lens is negative. An expanded view of the path taken by ray 1 shows the perpendiculars and the angles of incidence and refraction at both surfaces.")
+
+![The figure on the top shows an expanded view of refraction for ray 1 falling on a concave lens. The angle of incidence is theta 1 and angle of refraction theta 2. The ray after the refraction at the second surface emerges with an angle equal to theta 1 prime with the perpendicular drawn at that point. Perpendiculars are shown as dotted lines. The figure at the bottom shows a concave lens. Three rays, 1, 2, and 3, are considered. Ray 2 falls on the axis and rays 1 and 3 are parallel to the axis. Rays 1 and 3 after refraction appear to come from a point F on the axis. The distance from the center of the lens to F is small f and is measured from the same side as the incident rays. Ray 2 on the axis goes undeviated.](../resources/Figure_25_06_03.jpg "Rays of light entering a diverging lens parallel to its axis are diverged, and all appear to originate at its focal point \( F \) . The dashed lines are not rays&#x2014;they indicate the directions from which the rays appear to come. The focal length \( f \) of a diverging lens is negative. An expanded view of the path taken by ray 1 shows the perpendiculars and the angles of incidence and refraction at both surfaces.")
 {: #Figure3}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -164,7 +165,7 @@ example, if a point light source is placed at the focal point of a convex lens,
 as shown in [[Figure 4]](#Figure4), parallel light rays emerge from the other
 side.
 
-![Three light rays coming from a light bulb filament are incident on a convex lens and the rays after refraction are rendered parallel.](../resources/Figure_26_06_04.jpg "A small light source, like a light bulb filament, placed at the focal point of a convex lens, results in parallel rays of light emerging from the other side. The paths are exactly the reverse of those shown in Figure 1. This technique is used in lighthouses and sometimes in traffic lights to produce a directional beam of light from a source that emits light in all directions. ")
+![Three light rays coming from a light bulb filament are incident on a convex lens and the rays after refraction are rendered parallel.](../resources/Figure_25_06_04.jpg "A small light source, like a light bulb filament, placed at the focal point of a convex lens, results in parallel rays of light emerging from the other side. The paths are exactly the reverse of those shown in Figure 1. This technique is used in lighthouses and sometimes in traffic lights to produce a directional beam of light from a source that emits light in all directions. ")
 {: #Figure4}
 
 ### Ray Tracing and Thin Lenses
@@ -201,10 +202,10 @@ Look through your eyeglasses (or those of a friend) backward and forward and com
 
 </div>
 
-![Figure (a) shows three parallel rays incident on the right side of a convex lens; after refraction they converge at F on the left side of the lens. The distance from the center of the lens to F is small f. Figure (b) shows three parallel rays incident on the right side of a concave lens; after refraction they appear to have come from F on the right side of the lens. The distance from the center of the lens to F is small f.](../resources/Figure_26_06_05.jpg "Thin lenses have the same focal length on either side. (a) Parallel light rays entering a converging lens from the right cross at its focal point on the left. (b) Parallel light rays entering a diverging lens from the right seem to come from the focal point on the right. ")
+![Figure (a) shows three parallel rays incident on the right side of a convex lens; after refraction they converge at F on the left side of the lens. The distance from the center of the lens to F is small f. Figure (b) shows three parallel rays incident on the right side of a concave lens; after refraction they appear to have come from F on the right side of the lens. The distance from the center of the lens to F is small f.](../resources/Figure_25_06_05.jpg "Thin lenses have the same focal length on either side. (a) Parallel light rays entering a converging lens from the right cross at its focal point on the left. (b) Parallel light rays entering a diverging lens from the right seem to come from the focal point on the right. ")
 {: #Figure5}
 
-![Figure (a) shows a light ray passing through the center of a convex lens without any deviation. Figure (b) shows a light ray passing through the center of a concave lens go without any deviation.](../resources/Figure_26_06_06.jpg "The light ray through the center of a thin lens is deflected by a negligible amount and is assumed to emerge parallel to its original path (shown as a shaded line). ")
+![Figure (a) shows a light ray passing through the center of a convex lens without any deviation. Figure (b) shows a light ray passing through the center of a concave lens go without any deviation.](../resources/Figure_25_06_06.jpg "The light ray through the center of a thin lens is deflected by a negligible amount and is assumed to emerge parallel to its original path (shown as a shaded line). ")
 {: #Figure6}
 
 Using paper, pencil, and a straight edge, ray tracing can accurately describe
@@ -266,7 +267,7 @@ to locate the image. It is best to trace rays for which there are simple ray
 tracing rules. Before applying ray tracing to other situations, let us consider
 the example shown in [[Figure 7]](#Figure7) in more detail.
 
-![First of four images shows an incident ray 1 coming from an object (a girl ) placed on the axis. After refraction, the ray passes through F on other side of the lens. Second of four images shows an incident ray 2 passing through the center without any deviation. Third of four images shows an incident ray passing through F, which after refraction goes parallel to the axis. Fourth image shows a combination of all three rays, 1, 2, and 3, incident on a convex lens; after refraction, they converge or cross at a point below the axis at some distance from F. Here the height of the object h sub o is the height of the girl above the axis and h sub i is the height of the image below the axis. The distance from the center to point F is small f. The distance from the center to the girl is d sub o and that to the image is d sub i.](../resources/Figure_26_06_07.jpg "Ray tracing is used to locate the image formed by a lens. Rays originating from the same point on the object are traced&#x2014;the three chosen rays each follow one of the rules for ray tracing, so that their paths are easy to determine. The image is located at the point where the rays cross. In this case, a real image&#x2014;one that can be projected on a screen&#x2014;is formed.  ")
+![First of four images shows an incident ray 1 coming from an object (a girl ) placed on the axis. After refraction, the ray passes through F on other side of the lens. Second of four images shows an incident ray 2 passing through the center without any deviation. Third of four images shows an incident ray passing through F, which after refraction goes parallel to the axis. Fourth image shows a combination of all three rays, 1, 2, and 3, incident on a convex lens; after refraction, they converge or cross at a point below the axis at some distance from F. Here the height of the object h sub o is the height of the girl above the axis and h sub i is the height of the image below the axis. The distance from the center to point F is small f. The distance from the center to the girl is d sub o and that to the image is d sub i.](../resources/Figure_25_06_07.jpg "Ray tracing is used to locate the image formed by a lens. Rays originating from the same point on the object are traced&#x2014;the three chosen rays each follow one of the rules for ray tracing, so that their paths are easy to determine. The image is located at the point where the rays cross. In this case, a real image&#x2014;one that can be projected on a screen&#x2014;is formed.  ")
 {: #Figure7}
 
 The image formed in [[Figure 7]](#Figure7) is a **real image**, meaning that it
@@ -285,7 +286,7 @@ The image in which light rays from one point on the object actually cross at the
 
 </div>
 
-![Figure (a) shows incident rays coming from an object (a girl) and falling on a convex lens in a camera. The rays after refraction produce an inverted, real, and diminished image on the film of the camera. Figure (b) shows the same object in front of a human eye. The rays from the object fall on the convex lens and on refraction produce a real, inverted, and diminished image on the retina of the eyeball.](../resources/Figure_26_06_08.jpg "Real images can be projected. (a) A real image of the person is projected onto film. (b) The converging nature of the multiple surfaces that make up the eye result in the projection of a real image on the retina.")
+![Figure (a) shows incident rays coming from an object (a girl) and falling on a convex lens in a camera. The rays after refraction produce an inverted, real, and diminished image on the film of the camera. Figure (b) shows the same object in front of a human eye. The rays from the object fall on the convex lens and on refraction produce a real, inverted, and diminished image on the retina of the eyeball.](../resources/Figure_25_06_08.jpg "Real images can be projected. (a) A real image of the person is projected onto film. (b) The converging nature of the multiple surfaces that make up the eye result in the projection of a real image on the retina.")
 {: #Figure8}
 
 Several important distances appear in [[Figure 7]](#Figure7). We define $${d}_
@@ -347,7 +348,7 @@ Finding the Image of a Light Bulb Filament by Ray Tracing and by the Thin Lens E
 </div>
 A clear glass light bulb is placed 0.750 m from a convex lens having a 0.500 m focal length, as shown in [[Figure 9]](#Figure9). Use ray tracing to get an approximate location for the image. Then use the thin lens equations to calculate (a) the location of the image and (b) its magnification. Verify that ray tracing and the thin lens equations produce consistent results.
 
-![A light bulb at d sub o equals 0.75 m is placed in front of a convex lens of f equals 0.50 meter. The convex lens produces a real, inverted, and enlarged image on a screen at d sub I equals 1.50 meters.](../resources/Figure_26_06_09.jpg "A light bulb placed 0.750 m from a lens having a 0.500 m focal length produces a real image on a poster board as discussed in the example above. Ray tracing predicts the image location and size. ")
+![A light bulb at d sub o equals 0.75 m is placed in front of a convex lens of f equals 0.50 meter. The convex lens produces a real, inverted, and enlarged image on a screen at d sub I equals 1.50 meters.](../resources/Figure_25_06_09.jpg "A light bulb placed 0.750 m from a lens having a 0.500 m focal length produces a real image on a poster board as discussed in the example above. Ray tracing predicts the image location and size. ")
 {: #Figure9}
 
 **Strategy and Concept**
@@ -441,7 +442,7 @@ as a magnifier, the object must be closer to the converging lens than its focal
 length. This is called a *case 2* image. A case 2 image is formed when $${d}_
 {\text{o}}<f $$ and $$f $$ is positive.
 
-![Figure a shows a lens forming an inverted image of a person&#x2019;s face when it is held far away from his face. Figure b shows a magnified image of the person&#x2019;s eye when viewed through a magnifying glass when the lens is placed close to the eye of the person.](../resources/Figure_26_06_10.jpg "(a) When a converging lens is held farther away from the face than the lens&#x2019;s focal length, an inverted image is formed. This is a case 1 image. Note that the image is in focus but the face is not, because the image is much closer to the camera taking this photograph than the face. (credit: DaMongMan, Flickr) (b) A magnified image of a face is produced by placing it closer to the converging lens than its focal length. This is a case 2 image. (credit: Casey Fleser, Flickr)")
+![Figure a shows a lens forming an inverted image of a person&#x2019;s face when it is held far away from his face. Figure b shows a magnified image of the person&#x2019;s eye when viewed through a magnifying glass when the lens is placed close to the eye of the person.](../resources/Figure_25_06_10.jpg "(a) When a converging lens is held farther away from the face than the lens&#x2019;s focal length, an inverted image is formed. This is a case 1 image. Note that the image is in focus but the face is not, because the image is much closer to the camera taking this photograph than the face. (credit: DaMongMan, Flickr) (b) A magnified image of a face is produced by placing it closer to the converging lens than its focal length. This is a case 2 image. (credit: Casey Fleser, Flickr)")
 {: #Figure10}
 
 [[Figure 11]](#Figure11) uses ray tracing to show how an image is formed when an
@@ -460,7 +461,7 @@ eyes, because the lens of the eye converges the rays into a real image projected
 on our retina. Finally, we note that a virtual image is upright and larger than
 the object, meaning that the magnification is positive and greater than 1.
 
-![](../resources/Figure_26_06_11.jpg "Ray tracing predicts the image location and size for an object held closer to a converging lens than its focal length. Ray 1 enters parallel to the axis and exits through the focal point on the opposite side, while ray 2 passes through the center of the lens without changing path. The two rays continue to diverge on the other side of the lens, but both appear to come from a common point, locating the upright, magnified, virtual image. This is a case 2 image. ")
+![](../resources/Figure_25_06_11.jpg "Ray tracing predicts the image location and size for an object held closer to a converging lens than its focal length. Ray 1 enters parallel to the axis and exits through the focal point on the opposite side, while ray 2 passes through the center of the lens without changing path. The two rays continue to diverge on the other side of the lens, but both appear to come from a common point, locating the upright, magnified, virtual image. This is a case 2 image. ")
 {: #Figure11}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -546,10 +547,10 @@ image. Note that the image is closer to the lens than the object. This is a *
 case 3* image, formed for any object by a negative focal length or diverging
 lens.
 
-![A car when viewed through a concave lens looks upright.](../resources/Figure_26_06_12.jpg "A car viewed through a concave or diverging lens looks upright. This is a case 3 image. (credit: Daniel Oines, Flickr)")
+![A car when viewed through a concave lens looks upright.](../resources/Figure_25_06_12.jpg "A car viewed through a concave or diverging lens looks upright. This is a case 3 image. (credit: Daniel Oines, Flickr)")
 {: #Figure12}
 
-![Figure (a) shows an upright object placed at d sub o equals seven point five cm and in front of a concave lens of on its left side. Parallel ray 1 falls on the lens and gets refracted and dotted backwards to pass through point F on the left side. Figure (b) shows ray 2 going straight through the center of the lens. Figure (c) combines both figures (a) and (b) and the dotted line and the solid line meet at a point on the left side of the lens forming a virtual image which is erect and diminished. Here h sub o is the height of the object above the axis and h sub i is the height of the image above the axis. The distance from the center to the image is d sub i equals 4.29 cm.](../resources/Figure_26_06_13.jpg "Ray tracing predicts the image location and size for a concave or diverging lens. Ray 1 enters parallel to the axis and is bent so that it appears to originate from the focal point. Ray 2 passes through the center of the lens without changing path. The two rays appear to come from a common point, locating the upright image. This is a case 3 image, which is closer to the lens than the object and smaller in height. ")
+![Figure (a) shows an upright object placed at d sub o equals seven point five cm and in front of a concave lens of on its left side. Parallel ray 1 falls on the lens and gets refracted and dotted backwards to pass through point F on the left side. Figure (b) shows ray 2 going straight through the center of the lens. Figure (c) combines both figures (a) and (b) and the dotted line and the solid line meet at a point on the left side of the lens forming a virtual image which is erect and diminished. Here h sub o is the height of the object above the axis and h sub i is the height of the image above the axis. The distance from the center to the image is d sub i equals 4.29 cm.](../resources/Figure_25_06_13.jpg "Ray tracing predicts the image location and size for a concave or diverging lens. Ray 1 enters parallel to the axis and is bent so that it appears to originate from the focal point. Ray 2 passes through the center of the lens without changing path. The two rays appear to come from a common point, locating the upright image. This is a case 3 image, which is closer to the lens than the object and smaller in height. ")
 {: #Figure13}
 
 <div id="Example4" class="example" markdown="1">
@@ -672,6 +673,7 @@ Find several lenses and determine whether they are converging or diverging. In g
 </div>
 
 ### Problem-Solving Strategies for Lenses
+{: #Note1}
 
 Step 1. Examine the situation to determine that image formation by a lens is
 involved.

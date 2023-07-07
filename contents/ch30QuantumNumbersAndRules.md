@@ -1,4 +1,4 @@
----
+**---
 title: "Quantum Numbers and Rules"
 layout: page
 ---
@@ -53,7 +53,7 @@ ground-state angular momentum for hydrogen is actually zero, not $$h/2\pi $$ as
 Bohr proposed. The picture of circular orbits is not valid, because there would
 be angular momentum for any circular orbit. A more valid picture is the cloud of
 probability shown for the ground state of hydrogen
-in [[link]](../contents/ch30TheWaveNatureOfMatterCausesQuantization#import-auto-id2396594). The electron actually spends time in
+in [[Figure 3]](../contents/ch30TheWaveNatureOfMatterCausesQuantization#Figure3). The electron actually spends time in
 and near the nucleus. The reason the electron does not remain in the nucleus is
 related to Heisenberg’s uncertainty principle—the electron’s energy would have
 to be much too large to be confined to the small space of the nucleus. Now the
@@ -77,14 +77,13 @@ $$z $$ -axis, can have only certain values of $${L}_{z} $$ . The direction in
 space must be related to something physical, such as the direction of the
 magnetic field at that location. This is an aspect of relativity. Direction has
 no meaning if there is nothing that varies with direction, as does magnetic
-force. The allowed values of $${L}_{z} $$
-** are
+force. The allowed values of $${L}_{z} $$ are
 
 <div class="equation" >
- $${L}_{z}={m}_{l}\frac{h}{2\pi } \left({m}_{l}=-l,-l+1, ..., -1, 0, 1, ... l-1, l\right)\text{,} $$
+ $${L}_{z}={m}_{l}\frac{h}{2\pi } \left( {m}_{l}=-l,-l+1, ..., -1, 0, 1, ... l-1, l\right) \text{,} $$
 </div>
 
-where $${L}_{z} $$ is the ** $$z $$ -component of the angular momentum** and
+where $${L}_{z} $$ is the  $$z $$-**component of the angular momentum** and
 $${m}_{l} $$ is the angular momentum projection quantum number. The rule in
 parentheses for the values of $${m}_{l} $$ is that it can range from $$-l $$ to
 $$l $$ in steps of one. For example, if $$l=2 $$ , then $${m}_{l} $$ can have
@@ -95,7 +94,7 @@ preceding section. If the $$z $$ -component of angular momentum can have only
 certain values, then the angular momentum can have only certain directions, as
 illustrated in [[Figure 1]](#Figure1).
 
-![The image shows two possible values of component of a given angular momentum along z-axis. One circular orbit above the original circular orbit is shown for m sub l value of plus one. Another circular orbit below the original circular orbit is shown for m sub l value of minus one. The angular momentum vector for the top circular orbit makes an angle of theta sub one with the vertical axis. The horizontal angular momentum vector at original circular orbit makes an angle of theta sub two with the vertical axis. The angular momentum vector for the bottom circular orbit makes an angle of theta sub three with the vertical axis.](../resources/Figure_31_08_00a.jpg "The component of a given angular momentum along the z-axis (defined by the direction of a magnetic field) can have only certain values; these are shown here for l=1, for which \( m_\text{l}=-1, 0, \text\{ and\} +1 \) . The direction of L is quantized in the sense that it can have only certain angles relative to the z-axis.")
+![The image shows two possible values of component of a given angular momentum along z-axis. One circular orbit above the original circular orbit is shown for m sub l value of plus one. Another circular orbit below the original circular orbit is shown for m sub l value of minus one. The angular momentum vector for the top circular orbit makes an angle of theta sub one with the vertical axis. The horizontal angular momentum vector at original circular orbit makes an angle of theta sub two with the vertical axis. The angular momentum vector for the bottom circular orbit makes an angle of theta sub three with the vertical axis.](../resources/Figure_30_08_00a.jpg "The component of a given angular momentum along the z-axis (defined by the direction of a magnetic field) can have only certain values; these are shown here for l=1, for which \( m_\text{l}=-1, 0, \text\{ and \} +1 \) . The direction of L is quantized in the sense that it can have only certain angles relative to the z-axis.")
 {: #Figure1}
 
 <div class="example" markdown="1">
@@ -127,18 +126,22 @@ has the value given by $$L=\sqrt{l\left(l+1\right)}\frac{h}{2\pi } $$.
 <div class="equation" >
  $$L=\frac{\sqrt{l\left(l+1\right)}h}{2\pi }=\frac{\sqrt{2}h}{2\pi } $$
 </div>
- $${L}_{z} $$
-** can have three values, given by  $${L}_{z}={m}_{l}\frac{h}{2\pi } $$.
+ $$L_{z} $$ can have three values, given by  $$L_{z}= m_{l}\frac{h}{2\pi } $$.
 
 <div class="equation" >
- $${L}_{z}={m}_{l}\frac{h}{2\pi }=\left\{\begin{array}{cccc} \frac{h}{2\pi },&  {m}_{l}& =& +1 \\  0, & {m}_{l}& =& 0 \\ -\frac{h}{2\pi },&  {m}_{l}& =& -1\end{array} $$
+ $$ L_{z}=m_{l}\frac{h}{2\pi }=\left\{
+\begin{array}{cccc} \frac{h}{2\pi },&  {m}_{l}& =& +1 \\ 
+0, & {m}_{l}& =& 0 \\ 
+-\frac{h}{2\pi },&  {m}_{l}& =& -1
+\end{array}
+\right\} $$
 </div>
-As can be seen in [[Figure 1]](#Figure1),  $$cos \theta ={\text{L}}_{z}\text{/L,} $$
- and so for  $${m}_{l}=+1 $$ ,
+As can be seen in [[Figure 1]](#Figure1),  $$\cos \theta =\frac{ L_{z} }{L} , $$
+ and so for  $$ m_{l}=+1 $$ ,
  we have
 
 <div class="equation" >
- $$\cos {\theta }_{1}=\frac{ {L}_{Z}}{L}=\frac{\frac{h}{2\pi }}{\frac{\sqrt{2}h}{2\pi }}=\frac{1}{\sqrt{2}}=0.707 \text{.} $$
+ $$\cos {\theta }_{1}=\frac{ L_{Z}}{L}=\frac{\frac{h}{2\pi }}{\frac{\sqrt{2}h}{2\pi }}=\frac{1}{\sqrt{2}}=0.707 \text{.} $$
 </div>
 Thus,
 
@@ -154,7 +157,7 @@ Similarly, for  $${m}_{l}=0 $$ ,
 And for  $${m}_{l}=-1 $$ ,
 
 <div class="equation" >
- $$\cos {\theta }_{3}=\frac{ {L}_{Z}}{L}=\frac{-\frac{h}{2\pi }}{\frac{\sqrt{2}h}{2\pi }}=-\frac{1}{\sqrt{2}}=-0.707\text{,} $$
+ $$\cos {\theta }_{3}=\frac{ L_{Z} }{L}=\frac{-\frac{h}{2\pi } }{\frac{\sqrt{2}h}{2\pi } }=-\frac{1}{\sqrt{2}}=-0.707\text{,} $$
 </div>
 so that
 
@@ -172,7 +175,7 @@ $${\theta }_{1} $$ in the example) is for the maximum value of $${m}_{l}=0 $$ ,
 namely $${m}_{l}=l $$ . For that smallest angle,
 
 <div class="equation" >
- $$\cos \theta =\frac{ {L}_{z}}{L}=\frac{l}{\sqrt{l\left(l+1\right)}}\text{,} $$
+ $$\cos \theta =\frac{ L_{z} }{L}=\frac{l}{\sqrt{l\left(l+1\right)}}\text{,} $$
 </div>
 which approaches 1 as  $$l $$
  becomes very large. If  $$\cos \theta =1 $$ ,
@@ -216,7 +219,7 @@ momentum** and $${m}_{s} $$ is the **spin projection quantum number**. For
 electrons, $$s $$ can only be 1/2, and $${m}_{s} $$ can be either +1/2 or -1/2.
 Spin projection $${m}_{s}=+1/2 $$ is referred to as *spin up*, whereas $${m}_
 {s}=-1/2 $$ is called *spin down*. These are illustrated
-in [[link]](../contents/ch30PatternsInSpectraRevealMoreQuantization#import-auto-id1870582).
+in [[Figure 5]](../contents/ch30PatternsInSpectraRevealMoreQuantization#Figure5).
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -295,7 +298,7 @@ principle actually prevents us and nature from knowing how the electron gets
 from one place to another, and so an orbit really does not exist as such. Nature
 on a small scale is again much different from that on the large scale.
 
-![The image shows probability clouds for the electron in the ground state and several excited states of hydrogen. Sets of quantum numbers given as n l m subscript l are shown for each state. The ground state is zero zero zero. The probability of finding the electron is indicated by the shade of color.](../resources/Figure_31_08_01a.jpg "Probability clouds for the electron in the ground state and several excited states of hydrogen. The nature of these states is determined by their sets of quantum numbers, here given as \( n,l,m_l \). The ground state is (0, 0, 0); one of the possibilities for the second excited state is (3, 2, 1). The probability of finding the electron is indicated by the shade of color; the darker the coloring the greater the chance of finding the electron.")
+![The image shows probability clouds for the electron in the ground state and several excited states of hydrogen. Sets of quantum numbers given as n l m subscript l are shown for each state. The ground state is zero zero zero. The probability of finding the electron is indicated by the shade of color.](../resources/Figure_30_08_01a.jpg "Probability clouds for the electron in the ground state and several excited states of hydrogen. The nature of these states is determined by their sets of quantum numbers, here given as \( n,l,m_l \). The ground state is (0, 0, 0); one of the possibilities for the second excited state is (3, 2, 1). The probability of finding the electron is indicated by the shade of color; the darker the coloring the greater the chance of finding the electron.")
 {: #Figure2}
 
 We will see that the quantum numbers discussed in this section are valid for a
@@ -477,7 +480,7 @@ Repeat [[the previous exercise]](#Exercise7) for  $$l=3 $$.
 <div class="solution" data-element-type="problems-exercises" markdown="1">
 (a)  $$ 3.66 \times 10^{-34}  \text{J}\cdot \text{s} $$
 (b)  $$s= 9.13 \times 10^{-35}  \text{J}\cdot \text{s} $$
-(c)  $$\frac{L}{S}=\frac{\sqrt{12}}{\sqrt{3/4}}=4 $$
+(c)  $$\frac{L}{S}=\frac{\sqrt{12} }{\sqrt{3/4} }=4 $$
 </div>
 </div>
 

@@ -43,7 +43,7 @@ spectrum. It was noted that these types of EM radiation have characteristics
 much different than visible light. We can now see that such properties arise
 because photon energy is larger at high frequencies.
 
-![An electromagnetic spectrum is shown. Different types of radiation are indicated using double-sided arrows based on the ranges of their wavelength, energy, and frequency; the visible spectrum is shown, which is a very narrow band. The radio wave region is further segmented into A M radio, F M radio, and Microwaves bands.](../resources/Figure_30_03_01a.jpg "The EM spectrum, showing major categories as a function of photon energy in eV, as well as wavelength and frequency. Certain characteristics of EM radiation are directly attributable to photon energy alone.")
+![An electromagnetic spectrum is shown. Different types of radiation are indicated using double-sided arrows based on the ranges of their wavelength, energy, and frequency; the visible spectrum is shown, which is a very narrow band. The radio wave region is further segmented into A M radio, F M radio, and Microwaves bands.](../resources/Figure_29_03_01a.jpg "The EM spectrum, showing major categories as a function of photon energy in eV, as well as wavelength and frequency. Certain characteristics of EM radiation are directly attributable to photon energy alone.")
 {: #Figure1}
 
 <table id="Table1" aria-describedby="A two-column table of the energies for submicroscopic effects. The first column lists submicroscopic effects, and the second column lists their order of magnitude in e V."><caption><span class="title">Representative Energies for Submicroscopic Effects (Order of Magnitude Only) </span></caption><tbody><tr>
@@ -93,7 +93,7 @@ are exceptionally sensitive to the disruption produced by ionizing radiation.
 This means that ionizing radiation has positive uses in cancer treatment as well
 as risks in producing cancer.
 
-![An x-ray image of Bertha R&#xF6;entgen&#x2019;s hand is shown with a dark circular spot superimposed on the fingers.](../resources/Figure_30_03_02a.jpg "One of the first x-ray images, taken by R&#xF6;entgen himself. The hand belongs to Bertha R&#xF6;entgen, his wife. (credit: Wilhelm Conrad R&#xF6;ntgen, via Wikimedia Commons)")
+![An x-ray image of Bertha R&#xF6;entgen&#x2019;s hand is shown with a dark circular spot superimposed on the fingers.](../resources/Figure_29_03_02a.jpg "One of the first x-ray images, taken by R&#xF6;entgen himself. The hand belongs to Bertha R&#xF6;entgen, his wife. (credit: Wilhelm Conrad R&#xF6;ntgen, via Wikimedia Commons)")
 {: #Figure2}
 
 High photon energy also enables $$\gamma $$ rays to penetrate materials, since a
@@ -118,7 +118,7 @@ Once again, we find that conservation of energy allows us to consider the initia
 
 </div>
 
-![A cathode ray tube connected to a high-voltage source is shown in the figure. The image shows electrons coming out of the heated filament at one end of the vacuum tube as tiny balls, and hitting the metal plate at the opposite end of the vacuum tube. X-rays are shown coming out from the metal plate in the form of waves.](../resources/Figure_30_03_03a.jpg "X-rays are produced when energetic electrons strike the copper anode of this cathode ray tube (CRT). Electrons (shown here as separate particles) interact individually with the material they strike, sometimes producing photons of EM radiation.")
+![A cathode ray tube connected to a high-voltage source is shown in the figure. The image shows electrons coming out of the heated filament at one end of the vacuum tube as tiny balls, and hitting the metal plate at the opposite end of the vacuum tube. X-rays are shown coming out from the metal plate in the form of waves.](../resources/Figure_29_03_03a.jpg "X-rays are produced when energetic electrons strike the copper anode of this cathode ray tube (CRT). Electrons (shown here as separate particles) interact individually with the material they strike, sometimes producing photons of EM radiation.")
 {: #Figure3}
 
 While $$\gamma $$ rays originate in nuclear decay, X-rays are produced by the
@@ -178,7 +178,7 @@ therefore differing abilities to penetrate, can be generated.
 
 </div>
 
-![A graph for X-ray intensity versus frequency is shown. Frequency is plotted along x axis and intensity along y axis. The curve has a smooth rise up then at highest point it has two peaks and ends smoothly at f sub max. q V is equal to h f sub max is written in the graph.](../resources/Figure_30_03_04a.jpg "X-ray spectrum obtained when energetic electrons strike a material. The smooth part of the spectrum is bremsstrahlung, while the peaks are characteristic of the anode material. Both are atomic processes that produce energetic photons known as x-ray photons.")
+![A graph for X-ray intensity versus frequency is shown. Frequency is plotted along x axis and intensity along y axis. The curve has a smooth rise up then at highest point it has two peaks and ends smoothly at f sub max. q V is equal to h f sub max is written in the graph.](../resources/Figure_29_03_04a.jpg "X-ray spectrum obtained when energetic electrons strike a material. The smooth part of the spectrum is bremsstrahlung, while the peaks are characteristic of the anode material. Both are atomic processes that produce energetic photons known as x-ray photons.")
 {: #Figure4}
 
 [[Figure 4]](#Figure4) shows the spectrum of X-rays obtained from an x-ray tube.
@@ -280,7 +280,7 @@ and DNA tend to be weakly bound.) Blue and violet dyes reflect those colors and,
 therefore, do not absorb these more energetic photons, thus suffering less
 molecular damage.
 
-![Photograph of a worn-out movie advertisement poster on a wall.](../resources/Figure_30_03_05a.jpg "Why do the reds, yellows, and greens fade before the blues and violets when exposed to the Sun, as with this poster? The answer is related to photon energy. (credit: Deb Collins, Flickr)")
+![Photograph of a worn-out movie advertisement poster on a wall.](../resources/Figure_29_03_05a.jpg "Why do the reds, yellows, and greens fade before the blues and violets when exposed to the Sun, as with this poster? The answer is related to photon energy. (credit: Deb Collins, Flickr)")
 {: #Figure5}
 
 Transparent materials, such as some glasses, do not absorb any visible light,

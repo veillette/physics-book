@@ -3,7 +3,7 @@ title: "Introduction to Vision and Optical Instruments"
 layout: page
 ---    
 
-![Image shows the front view of a desktop computer along with a keyboard and printer with an image being displayed on the computer screen. It also depicts the back of a woman holding the mouse.](../resources/Figure_27_00_01.jpg "A scientist examines minute details on the surface of a disk drive at a magnification of 100 000 times. The image was produced using an electron microscope. (credit: Robert Scoble)")
+![Circular and ovular structures with thin lines on the outside indicating the membrane. The inner portions contain different colors and textures ranging from dense patches of dark substances to lighter and brighter areas. About ten viruses are pictured, with one seeming to separate into two smaller entities.](../resources/Figure_26_00_01.jpg "This transmission electron microscope image shows SARS-CoV-2, the coronavirus that causes COVID-19, isolated from a patient in the U.S. Virus particles are shown emerging from the surface of cells cultured in the lab. The spikes on the outer edge of the virus particles give coronaviruses their name: crown-like. (credit: NIAID-RML, NIH Image Gallery/Flickr)")
 {: #Figure1}
 
 Explore how the image on the computer screen is formed. How is the image

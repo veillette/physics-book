@@ -24,7 +24,7 @@ object can be converged for a clear image. The distance to the closest object
 that can be seen clearly is called the **near point** of the eye (normally 25
 cm).
 
-![Part a shows two figures of cross-sectional area of eye depicting myopia. In both the figures, parallel rays coming from an object placed at infinity are converging in front of the retina. Figure on the left shows the lens of the eye too strong and figure on the right illustrates the shape of the eye too long. Part b shows two figures of cross-sectional area of eye depicting hyperopia. In both the figures, rays coming from a close object are shown which are converging at the back of the retina. Figure on the left shows the lens of the eye too weak and figure on the right illustrates the shape of the eye too short.](../resources/Figure_27_02_01.jpg "(a) The nearsighted (myopic) eye converges rays from a distant object in front of the retina; thus, they are diverging when they strike the retina, producing a blurry image. This can be caused by the lens of the eye being too powerful or the length of the eye being too great. (b) The farsighted (hyperopic) eye is unable to converge the rays from a close object by the time they strike the retina, producing blurry close vision. This can be caused by insufficient power in the lens or by the eye being too short.")
+![Part a shows two figures of cross-sectional area of eye depicting myopia. In both the figures, parallel rays coming from an object placed at infinity are converging in front of the retina. Figure on the left shows the lens of the eye too strong and figure on the right illustrates the shape of the eye too long. Part b shows two figures of cross-sectional area of eye depicting hyperopia. In both the figures, rays coming from a close object are shown which are converging at the back of the retina. Figure on the left shows the lens of the eye too weak and figure on the right illustrates the shape of the eye too short.](../resources/Figure_26_02_01.jpg "(a) The nearsighted (myopic) eye converges rays from a distant object in front of the retina; thus, they are diverging when they strike the retina, producing a blurry image. This can be caused by the lens of the eye being too powerful or the length of the eye being too great. (b) The farsighted (hyperopic) eye is unable to converge the rays from a close object by the time they strike the retina, producing blurry close vision. This can be caused by insufficient power in the lens or by the eye being too short.")
 {: #Figure1}
 
 Since the nearsighted eye over converges light rays, the correction for
@@ -42,7 +42,7 @@ can see it clearly. Whereas someone not wearing glasses can see clearly *
 objects* that fall between their near point and their far point, someone wearing
 glasses can see *images* that fall between their near point and their far point.
 
-![Two illustrations of cross-sectional view of an eye are shown. In the first figure, a diverging spectacle lens is placed in front of the eye structure. A ray diagram for the diverging lens is also shown. Parallel rays from a distant object, taken as tree, are striking the lens and then diverging. A smaller image of the tree is shown in front of the lens. In the second figure, a ray diagram with respect to the diverging lens within the eye structure is shown. Parallel rays from a distant object are striking the diverging lens, entering the lens of the eye, and converging at retina. This explains the correction of nearsightedness using a diverging lens.](../resources/Figure_27_02_02.jpg "Correction of nearsightedness requires a diverging lens that compensates for the overconvergence by the eye. The diverging lens produces an image closer to the eye than the object, so that the nearsighted person can see it clearly.")
+![Two illustrations of cross-sectional view of an eye are shown. In the first figure, a diverging spectacle lens is placed in front of the eye structure. A ray diagram for the diverging lens is also shown. Parallel rays from a distant object, taken as tree, are striking the lens and then diverging. A smaller image of the tree is shown in front of the lens. In the second figure, a ray diagram with respect to the diverging lens within the eye structure is shown. Parallel rays from a distant object are striking the diverging lens, entering the lens of the eye, and converging at retina. This explains the correction of nearsightedness using a diverging lens.](../resources/Figure_26_02_02.jpg "Correction of nearsightedness requires a diverging lens that compensates for the overconvergence by the eye. The diverging lens produces an image closer to the eye than the object, so that the nearsighted person can see it clearly.")
 {: #Figure2}
 
 <div class="example" markdown="1">
@@ -97,7 +97,7 @@ point—that is, you must know the smallest distance at which the person can see
 clearly. Then the image produced by a spectacle lens must be at this distance or
 farther for the farsighted person to be able to see it clearly.
 
-![Two illustrations of a cross-sectional view of an eye are shown. In the upper part of the figure, a converging lens is placed in front of the eye structure and a close object before it. A ray diagram showing the rays from the object are striking the lens; converging a bit and entering the eyes; converging again through the eye lens and forming an image at the retina, and another set of rays converge behind the retina. The lower part of the figure shows a virtual image, an object, a converging lens, and the internal structure of an eye. Parallel rays from the object are entering the eyes and converging at a point on the retina. An image larger than the object image is formed behind the object on the same side of the lens.](../resources/Figure_27_02_03.jpg "Correction of farsightedness uses a converging lens that compensates for the under convergence by the eye. The converging lens produces an image farther from the eye than the object, so that the farsighted person can see it clearly.")
+![Two illustrations of a cross-sectional view of an eye are shown. In the upper part of the figure, a converging lens is placed in front of the eye structure and a close object before it. A ray diagram showing the rays from the object are striking the lens; converging a bit and entering the eyes; converging again through the eye lens and forming an image at the retina, and another set of rays converge behind the retina. The lower part of the figure shows a virtual image, an object, a converging lens, and the internal structure of an eye. Parallel rays from the object are entering the eyes and converging at a point on the retina. An image larger than the object image is formed behind the object on the same side of the lens.](../resources/Figure_26_02_03.jpg "Correction of farsightedness uses a converging lens that compensates for the under convergence by the eye. The converging lens produces an image farther from the eye than the object, so that the farsighted person can see it clearly.")
 {: #Figure3}
 
 <div class="example" markdown="1">
@@ -150,7 +150,7 @@ eyeglass prescription has a cylindrical correction, it is there to correct
 astigmatism. The normal corrections for short- or farsightedness are spherical
 corrections, uniform along all axes.
 
-![A circle without border and a cross sign in between. A wheel type structure is shown with parallel lines coming from the border of the circle.](../resources/Figure_27_02_04.jpg "This chart can detect astigmatism, unevenness in the focus of the eye. Check each of your eyes separately by looking at the center cross (without spectacles if you wear them). If lines along some axes appear darker or clearer than others, you have an astigmatism.")
+![A circle without border and a cross sign in between. A wheel type structure is shown with parallel lines coming from the border of the circle.](../resources/Figure_26_02_04.jpg "This chart can detect astigmatism, unevenness in the focus of the eye. Check each of your eyes separately by looking at the center cross (without spectacles if you wear them). If lines along some axes appear darker or clearer than others, you have an astigmatism.")
 {: #Figure4}
 
 Contact lenses have advantages over glasses beyond their cosmetic aspects. One
@@ -167,6 +167,8 @@ with some individuals to obtain a comfortable fit), the tear layer between the
 contact and cornea acts as a lens. If the tear layer is thinner in the center
 than at the edges, it has a negative power, for example. Skilled optometrists
 will adjust the power of the contact to compensate.
+
+Other advances in vision correction demonstrate the interconnectedness and value of scientific research. In the 1980s, Donna Strickland and Gérard Mourou worked on ways to make small but powerful lasers. Up until that time, powerful lasers had to be quite large in order to function properly. Essentially, the intensity of the beam itself would modify the instrument’s ability to function and create too much heat to be practical. Strickland and Mourou used ultrashort laser pulses passed over a grating that modified the beam but retained its power. Chirped pulse amplification, as it became known, has been used to develop most of the highest-powered lasers in the world, but also some of the smallest and most common. Decades after their initial discovery, Strickland and Mourou were awarded the Nobel Prize for Physics (with Strickland becoming the third woman to receive the award) partly due to CPA’s pivotal role in the increasingly common practice of laser vision correction—an application neither planned during their initial research.
 
 **Laser vision correction** has progressed rapidly in the last few years. It is
 the latest and by far the most successful in a series of procedures that correct
@@ -201,7 +203,7 @@ patients, in many cases right away. The corneal flap is replaced; healing takes
 place rapidly and is nearly painless. More than 1 million Americans per year
 undergo LASIK (see [[Figure 5]](#Figure5)).
 
-![The image depicts a surgeon using state-of-the-art equipment for LASIK surgery on a patient who is lying down.](../resources/Figure_27_02_05.jpg "Laser vision correction is being performed using the LASIK procedure. Reshaping of the cornea by laser ablation is based on a careful assessment of the patient&#x2019;s vision and is computer controlled. The upper corneal layer is temporarily peeled back and minimally disturbed in LASIK, providing for more rapid and less painful healing of the less sensitive tissues below. (credit: U.S. Navy photo by Mass Communication Specialist 1st Class Brien Aho)")
+![The image depicts a surgeon using state-of-the-art equipment for LASIK surgery on a patient who is lying down.](../resources/Figure_26_02_05.jpg "Laser vision correction is being performed using the LASIK procedure. Reshaping of the cornea by laser ablation is based on a careful assessment of the patient&#x2019;s vision and is computer controlled. The upper corneal layer is temporarily peeled back and minimally disturbed in LASIK, providing for more rapid and less painful healing of the less sensitive tissues below. (credit: U.S. Navy photo by Mass Communication Specialist 1st Class Brien Aho)")
 {: #Figure5}
 
 ### Section Summary
@@ -332,7 +334,7 @@ A young woman with normal distant vision has a 10.0% ability to accommodate (tha
 
 <div class="exercise"  data-element-type="problems-exercises">
 <div class="problem"  markdown="1">
-The far point of a myopic administrator is 50.0 cm. (a) What is the relaxed power of his eyes? (b) If he has the normal 8.00% ability to accommodate, what is the closest object he can see clearly?
+The far point of a myopic administrator is 50.0 cm. (a) What is the relaxed power of their eyes? (b) If they have the normal 8.00% ability to accommodate, what is the closest object they can see clearly?
 
 </div>
 </div>
