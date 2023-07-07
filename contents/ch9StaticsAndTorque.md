@@ -4,7 +4,7 @@ layout: page
 ---
 
 ![Layered rock formation.](../resources/Figure_09_00_01_D.jpg "On a short time scale, rocks like these in Australia&#x2019;s Kings Canyon are static, or motionless relative to the Earth.  (credit: freeaussiestock.com)")
-{: #Figure1}
+{ #Figure1}
 
 What might desks, bridges, buildings, trees, and mountains have in common—at
 least in the eyes of a physicist? The answer is that they are ordinarily

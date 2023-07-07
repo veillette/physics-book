@@ -11,7 +11,7 @@ layout: page
 * Explain why measuring the voltage or current in a circuit can never be exact.
 </div>
 
-**Voltmeters** measure voltage, whereas **ammeters**{: class="term"} measure
+**Voltmeters** measure voltage, whereas **ammeters**{ class="term"} measure
 current. Some of the meters in automobile dashboards, digital cameras, cell
 phones, and tuner-amplifiers are voltmeters or ammeters. (
 See [[Figure 1]](#Figure1).) The internal construction of the simplest of these
@@ -19,7 +19,7 @@ meters and how they are connected to the system they monitor give further
 insight into applications of series and parallel connections.
 
 ![This photograph shows the instruments on a gray Volkswagen Vento dashboard, including the speedometer, odometer, and fuel and temperature gauges, showing some readings.](../resources/Figure_21_04_01.jpg "The fuel and temperature gauges (far right and far left, respectively) in this 1996 Volkswagen are voltmeters that register the voltage output of &#x201C;sender&#x201D; units, which are hopefully proportional to the amount of gasoline in the tank and the engine temperature. (credit: Christian Giersing)")
-{: #Figure1}
+{ #Figure1}
 
 Voltmeters are connected in parallel with whatever device’s voltage is to be
 measured. A parallel connection is used because objects in parallel experience
@@ -32,10 +32,10 @@ current passing through them. (See [[Figure 3]](#Figure3), where the ammeter is
 represented by the symbol A.)
 
 ![Part a shows a schematic drawing of a circuit with a voltage source and its internal resistance, in series with two load resistors R sub one and R sub two having two probes of a voltmeter connected in parallel with each component. There is another resistor in series to close the circuit. Part b shows a photograph of a black voltmeter connected to two inputs on an electrical device, with a digital readout of the voltage across the source as an L E D display.](../resources/Figure_21_04_02.jpg "(a) To measure potential differences in this series circuit, the voltmeter (V) is placed in parallel with the voltage source or either of the resistors. Note that terminal voltage is measured between points a and b. It is not possible to connect the voltmeter directly across the emf without including its internal resistance, r. (b) A digital voltmeter in use. (credit: Messtechniker, Wikimedia Commons)")
-{: #Figure2}
+{ #Figure2}
 
 ![The diagram of an electric circuit shows a voltage source of e m f script E and internal resistance r and two resistive loads R sub one and R sub two. All are connected in series with an ammeter A.](../resources/Figure_21_04_03.jpg "An ammeter (A) is placed in series to measure current. All of the current in this circuit flows through the meter. The ammeter would have the same reading if located between points d and e or between points f and a as it does in the position shown. (Note that the script capital E stands for emf, and r  stands for the internal resistance of the source of potential difference.)")
-{: #Figure3}
+{ #Figure3}
 
 ### Analog Meters: Galvanometers
 
@@ -88,7 +88,7 @@ galvanometer. Many meters have a choice of scales. That choice involves
 switching an appropriate resistance into series with the galvanometer.
 
 ![The drawing shows a voltmeter, which is a circuit with a large resistance in series with a galvanometer, along with its internal resistance.](../resources/Figure_21_04_04.jpg "A large resistance R placed in series with a galvanometer G produces a voltmeter, the full-scale deflection of which depends on the choice of \( R \) . The larger the voltage to be measured, the larger \( R \) must be. (Note that r  represents the internal resistance of the galvanometer.)")
-{: #Figure4}
+{ #Figure4}
 
 #### Galvanometer as Ammeter
 
@@ -112,7 +112,7 @@ These $$IR $$ drops are $$IR={I}_{\text{G}}r $$ so that $$IR=\frac{ {I}_
 </div>
 
 ![A resistance R is placed in parallel with a galvanometer G having an internal resistance r to produce an ammeter.](../resources/Figure_21_04_05.jpg "A small shunt resistance \( R \) placed in parallel with a galvanometer G produces an ammeter, the full-scale deflection of which depends on the choice of \( R \) . The larger the current to be measured, the smaller \( R \) must be. Most of the current (I) flowing through the meter is shunted through \( R \) to protect the galvanometer.  (Note that r  represents the internal resistance of the galvanometer.) Ammeters may also have multiple scales for greater flexibility in application. The various scales are achieved by switching various shunt resistances in parallel with the galvanometer&#x2014;the greater the maximum current to be measured, the smaller the shunt resistance must be.")
-{: #Figure5}
+{ #Figure5}
 
 ### Taking Measurements Alters the Circuit
 
@@ -133,7 +133,7 @@ The voltage across the device is not the same as when the voltmeter is out of
 the circuit.
 
 ![Part a shows a desired case in which the resistance of a voltmeter connected in parallel with a load resistor is essentially equivalent to the resistance of the load resistor along as long as the voltmeter&#x2019;s resistance is much greater than that of the load resistor. Part b shows the case when the voltmeter&#x2019;s resistance is approximately the same as that of the load resistor. This case should be avoided because the effective resistance is half that of the load resistor.](../resources/Figure_21_04_06.jpg "(a) A voltmeter having a resistance much larger than the device ( \(R_{\text{Voltmeter}} \gg R \) ) with which it is in parallel produces a parallel resistance essentially the same as the device and does not appreciably affect the circuit being measured. (b) Here the voltmeter has the same resistance as the device ( \(R_{\text{Voltmeter}} \approx R \) ), so that the parallel resistance is half of what it is when the voltmeter is not connected. This is an example of a significant alteration of the circuit and is to be avoided.")
-{: #Figure6}
+{ #Figure6}
 
 An ammeter is placed in series in the branch of the circuit being measured, so
 that its resistance adds to that branch. Normally, the ammeter’s resistance is
@@ -151,7 +151,7 @@ the current in the circuit to go through the galvanometer, and this current
 would be larger since the effective resistance is smaller.
 
 ![The figure shows two cases in which an ammeter is connected in series with a load resistor. Part a shows the desired case in which the resistance of the ammeter is much smaller than that of the load, and the total resistance is about the same as the load resistance. Part b shows the case to be avoided in which the ammeter has a resistance about the same as the load, and the total resistance is twice that of the load resistance.](../resources/Figure_21_04_07.jpg "(a) An ammeter normally has such a small resistance that the total series resistance in the branch being measured is not appreciably increased. The circuit is essentially unaltered compared with when the ammeter is absent. (b) Here the ammeter&#x2019;s resistance is the same as that of the branch, so that the total resistance is doubled and the current is half what it is without the ammeter. This significant alteration of the circuit is to be avoided.")
-{: #Figure7}
+{ #Figure7}
 
 One solution to the problem of voltmeters and ammeters interfering with the
 circuits being measured is to use galvanometers with greater sensitivity. This
@@ -220,7 +220,7 @@ Stimulate a neuron and monitor what happens. Pause, rewind, and move forward in 
 Why should you not connect an ammeter directly across a voltage source as shown in [[Figure 8]](#Figure8)? (Note that script E in the figure stands for emf.)
 
 ![A circuit shows a connection of a cell of e m f script E and internal resistance r. Each terminal of the cell is connected to opposite ends of the ammeter. The circuit is closed.](../resources/Figure_21_04_08.jpg " ")
-{: #Figure8}
+{ #Figure8}
 
 </div>
 </div>
@@ -239,7 +239,7 @@ Specify the points to which you could connect a voltmeter to measure the followi
  Note that there may be more than one answer to each part.
 
 ![This figure shows a circuit having a cell of e m f script E and internal resistance r connected in parallel to two arms, one arm containing resistor R sub one and a second arm containing a series of resistors R sub two and R sub three.](../resources/Figure_21_04_09.jpg " ")
-{: #Figure9}
+{ #Figure9}
 
 </div>
 </div>
@@ -346,7 +346,7 @@ Suppose you measure the terminal voltage of a 1.585-V alkaline cell having an in
  voltmeter across its terminals. (See [[Figure 10]](#Figure10).) (a) What current flows? (b) Find the terminal voltage. (c) To see how close the measured terminal voltage is to the emf, calculate their ratio.
 
 ![The figure shows a circuit diagram that includes a battery with an internal resistance r and a voltmeter connected across its terminals. The current I is shown by an arrow pointing in a clockwise direction.](../resources/Figure_21_04_10.jpg " ")
-{: #Figure10}
+{ #Figure10}
 
 </div>
 <div class="solution" markdown="1">
@@ -451,7 +451,7 @@ current less than the sensitivity of the galvanometer.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 voltmeter
 : an instrument that measures voltage

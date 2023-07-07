@@ -43,7 +43,7 @@ times on our journey through physics.
 ![(a) A boy in a wagon is pushed by two girls toward the right. The force on the boy is represented by vector F one toward the right, and the force on the wagon is represented by vector F two in the same direction. Acceleration a is shown by a vector a toward the right and a friction force f is acting in the opposite direction, represented by a vector pointing toward the left. The weight W of the wagon is shown by a vector acting downward, and the normal force acting upward on the wagon is represented by a vector N. A free-body diagram is also shown, with F one and F two represented by arrows in the same direction toward the right and f represented by an arrow toward the left, so the resultant force F net is represented by an arrow toward the right. W is represented by an arrow downward and N is represented by an arrow upward; both the arrows have same length.(b) A boy in a wagon is pushed by a woman with a force F adult, represented by an arrow pointing toward the right. A vector a-prime, represented by an arrow, depicts acceleration toward the right. Friction force, represented by a vector f, acts toward the left. The weight of the wagon W is shown by a vector pointing downward, and the Normal force, represented by a vector N having same length as W, acts upward. A free-body diagram for this situation shows force F represented by an arrow pointing to the right having a large length; a friction force vector represented by an arrow f pointing left has a small length. The weight W is represented by an arrow pointing downward, and the normal force N, is represented by an arrow pointing upward, having the same length as W.](../resources/Figure_04_03_01.jpg "Different forces exerted on the same mass produce different accelerations. (a) Two children push a wagon with a child in it. Arrows representing all external forces are shown. The system of interest is the wagon and its rider. The weight \( \vb{w} \) of the system and the support of the ground \( \vb{N} \) are also shown for completeness and are assumed to cancel. The vector \( \vb{f} \) represents the friction acting on the wagon, and it acts to the left, opposing the motion of the wagon.
 (b) All of the external forces acting on the system add together to produce a net force, \( \vb{F}_\text{net} \) . The free-body diagram shows all of the forces acting on the system of interest. The dot represents the center of mass of the system. Each force vector extends from this dot. Because there are two forces acting to the right, we draw the vectors collinearly.
 (c) A larger net external force produces a larger acceleration \( a'>a \) when an adult pushes the child.")
-{: #Figure1 height="350"}
+{ #Figure1 height="350"}
 
 Now, it seems reasonable that acceleration should be directly proportional to
 and in the same direction as the net (
@@ -100,7 +100,7 @@ linearly proportional to the net external force.
 ![(a) A basketball player pushes the ball with the force shown by a vector F toward the right and an acceleration a-one represented by an arrow toward the right. M sub one is the mass of the ball. (b) The same basketball player is pushing a car with the same force, represented by the vector F towards the right, resulting in an acceleration shown by a vector a toward the right. The mass of the car is m sub two. The acceleration in the second case, a sub two, is represented by a shorter arrow than in the first case, a sub one.](../resources/Figure_04_03_02.jpg "The same force exerted on systems of different masses produces different accelerations. (a) A basketball player pushes on a basketball to make a pass. (The effect of gravity on the ball is ignored.)
 (b) The same player exerts an identical force on a stalled SUV and produces a far smaller acceleration (even if friction is negligible).
 (c) The free-body diagrams are identical, permitting direct comparison of the two situations. A series of patterns for the free-body diagram will emerge as you do more problems.")
-{: #Figure2}
+{ #Figure2}
 
 It has been found that the acceleration of an object depends *only* on the net
 external force and the mass of the object. Combining the two proportionalities
@@ -277,7 +277,7 @@ Suppose that the net external force (push minus friction) exerted on a lawn mowe
 the ground. The mass of the mower is 24 kg. What is its acceleration?
 
 ![A man pushing a lawnmower to the right. A red vector above the lawnmower is pointing to the right and labeled F sub net.](../resources/Figure_04_03_03.jpg "The net force on a lawn mower is 51 N to the right. At what rate does the lawn mower accelerate to the right?")
-{: #Figure3}
+{ #Figure3}
 
 **Strategy**
 
@@ -327,7 +327,7 @@ the mass of the system is 2100 kg, and the force of friction opposing the motion
 is known to be 650 N.
 
 ![A sled is shown with four rockets, each producing the same thrust, represented by equal length arrows labeled as vector T pushing the sled toward the right. Friction force is represented by an arrow labeled as vector f pointing toward the left on the sled. The weight of the sled is represented by an arrow labeled as vector W, shown pointing downward, and the normal force is represented by an arrow labeled as vector N having the same length as W acting upward on the sled. A free-body diagram is also shown for the situation. Four arrows of equal length representing vector T point toward the right, a vector f represented by a smaller arrow points left, vector N is an arrow pointing upward, and the weight W is an arrow of equal length pointing downward.](../resources/Figure_04_03_04.jpg "A sled experiences a rocket thrust that accelerates it to the right. Each rocket creates an identical thrust \( \vb{T} \) . As in other situations where there is only horizontal acceleration, the vertical forces cancel. The ground exerts an upward for ce \( \vb{N} \) on the system that is equal in magnitude and opposite in direction to its weight, \( \vb{w} \) . The system here is the sled, its rockets, and rider, so none of the forces between these objects are considered. The arrow representing friction ( \( \vb{f} \) ) is drawn larger than scale.")
-{: #Figure4}
+{ #Figure4}
 
 **Strategy**
 
@@ -590,7 +590,7 @@ are off. The mass of the system is 2100 kg.
 </div>
 
 ![A sled is shown with four rockets. Friction force is represented by an arrow labeled as vector f pointing toward the left on the sled. Weight of the sled is represented by an arrow labeled as vector W, shown pointing downward, and normal force is represented by an arrow labeled as vector N having the same length as W acting upward on the sled.](../resources/Figure_04_03_07.jpg)
-{: #Figure5}
+{ #Figure5}
 
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -613,7 +613,7 @@ burning.
 </div>
 
 ![A sled is shown with thrust represented by a vector T pushing the sled toward the right. Friction force is represented by an arrow labeled as vector f pointing toward the left on the sled. The weight of the sled is represented by an arrow labeled as vector W, shown pointing downward, and the normal force is represented by an arrow labeled as vector N having the same length as W acting upward on the sled.](../resources/Figure_04_03_05.jpg)
-{: #Figure6}
+{ #Figure6}
 
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -641,7 +641,7 @@ The first child exerts a force of 75.0 N, the second a force of 90.0 N, friction
 (b)
 
 ![An object represented as a dot labeled m is shown at the center. One force represented by an arrow labeled as vector F sub 2 acts toward the right. Another force represented by an arrow labeled as vector F sub 1 having a slightly shorter length in comparison with F sub 2 acts on the object pointing left. A friction force represented by an arrow labeled as vector f having a small length acts on the object toward the left. Weight, represented by an arrow labeled as vector W, acts on the object downward, and normal force, represented by an arrow labeled as vector N, acts upward, having the same length as W.](../resources/Figure_04_03_06.jpg)
-{: #Figure7}
+{ #Figure7}
 
 (c) $$ a=0.130\mss $$ in the direction of the second child’s push.
 
@@ -681,7 +681,7 @@ seat exerts against his body.
 </div>
 
 ![A sled is shown with four rockets. Friction force is represented by an arrow labeled as vector f pointing toward the left on the sled. The weight of the sled is represented by an arrow labeled as vector W, shown pointing downward, and the normal force is represented by an arrow labeled as vector N having the same length as W acting upward on the sled. ](../resources/Figure_04_03_07.jpg)
-{: #Figure8}
+{ #Figure8}
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
@@ -716,7 +716,7 @@ from the Moon is 10 000 kg. The thrust of its engines is 30 000 N.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 acceleration
 : the rate at which an object’s velocity changes over a period of time

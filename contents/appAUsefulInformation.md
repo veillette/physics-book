@@ -24,7 +24,7 @@ Numbers without uncertainties are exact as defined.
 
 ### Important Constants
 
-{: #Important-Constants}
+{ #Important-Constants}
 
 | Symbol   | Meaning                  | Best Value                                                 | Approximate Value                                   |
 |----------|--------------------------|------------------------------------------------------------|-----------------------------------------------------|
@@ -36,7 +36,7 @@ Numbers without uncertainties are exact as defined.
 | $$h$$    | Planck’s constant        | $$ 6.626 070 15 \times 10^{-34} \text{J s}$$               | $$ 6.63 \times 10^{-34} \text{J s}$$                |
 
 ### Submicroscopic Masses
-{: #Submicroscopic-Masses}
+{ #Submicroscopic-Masses}
 
 | Symbol   | Meaning          | Best Value                                        | Approximate Value                      |
 |----------|------------------|---------------------------------------------------|----------------------------------------|
@@ -46,7 +46,7 @@ Numbers without uncertainties are exact as defined.
 | $$u $$   | Atomic mass unit | $$ 1.66053906660(50) \times 10^{-27} \text{kg} $$ | $$ 1.6605 \times 10^{-27} \text{kg} $$ |
 
 ### The Greek Alphabet
-{: #The-Greek-Alphabet}
+{ #The-Greek-Alphabet}
 
 | ------- | ---- | ------ | ------ | ----- | ----- | ------- | ----- | ----- |
 ------- | ------------ | ----- | 
@@ -58,7 +58,7 @@ Numbers without uncertainties are exact as defined.
 | Zeta | $$Ζ$$ | $$ζ$$ | Mu | $$Μ$$ | $$μ$$ | Sigma | $$Σ$$ | $$σ$$ | Omega | $$ \Omega $$ | $$ω$$ |
 
 ### Metric Prefixes for Powers of Ten and Their Symbols
-{: #Metric-Prefixes-for-Powers-of-Ten-and-Their-Symbols}
+{ #Metric-Prefixes-for-Powers-of-Ten-and-Their-Symbols}
 
 | Prefix | Symbol | Value          | Prefix | Symbol | Value          |
 |--------|--------|----------------|--------|--------|----------------|
@@ -71,7 +71,7 @@ Numbers without uncertainties are exact as defined.
 | —      | —      | $$ 10^{0}=1 $$ | femto  | f      | $$ 10^{-15} $$ |
 
 ### Solar System Data
-{: #Solar-System-Data}
+{ #Solar-System-Data}
 
 | ----- | ----------------------------- | ------------------------------------- |
 | Sun | mass | $$ 1.99 \times 10^{30} \text{kg} $$ | 
@@ -86,7 +86,7 @@ Numbers without uncertainties are exact as defined.
 | | Earth-moon distance (average) | $$ 3.84 \times 10^{8} \text{m} $$ |
 
 ### SI units
-{: #SI-units}
+{ #SI-units}
 
 |                    | Entity               | Abbreviation                                                     | Name      |
 |--------------------|----------------------|------------------------------------------------------------------|-----------|
@@ -108,7 +108,7 @@ Numbers without uncertainties are exact as defined.
 |                    | Nuclear decay rate   | $$\text{Bq}= 1 / \text{s} $$                                     | becquerel |
 
 ### Selected British Units
-{: #Selected-British-Units}
+{ #Selected-British-Units}
 
 | -------- | ------------------------------------------------------------------|
 | Length | 1 inch  ( in.) $$ = 2.54 \text{cm}$$  "exactly"     | 
@@ -120,7 +120,7 @@ Numbers without uncertainties are exact as defined.
 | Pressure | 1 lb/in<sup>2</sup> $$= 6.895 \times 10^{3} \text{Pa} $$ |
 
 ### Other Units
-{: #Other-Units}
+{ #Other-Units}
 
 | ---------- | ---------------------------------------- |
 | Length | 1 light year  ( ly )  $$ =9.46 \times 10^{15} \text{m} $$ | 

@@ -10,7 +10,7 @@ layout: page
 
 ![Photograph of a glass, half of which is shattered into small pieces by a high-intensity sound wave. The tiny glass bits are shattered all over the place.](../resources/Figure_17_01_01a.jpg
 "This glass has been shattered by a high-intensity sound wave of the same frequency as the resonant frequency of the glass. While the sound is not visible, the effects of the sound prove its existence. (credit: read, Flickr)")
-{: #Figure1}
+{ #Figure1}
 
 Sound can be used as a familiar illustration of waves. Because hearing is one of
 our most important senses, it is interesting to see how the physical properties
@@ -40,13 +40,13 @@ longitudinal.) [[Figure 4]](#Figure4) shows a graph of gauge pressure versus
 distance from the vibrating string.
 
 ![Diagram of a vibrating string held fixed at both ends. The string is shown to move toward the right. The compression and rarefaction of air is shown as bold and dotted line arcs around the string.](../resources/Figure_17_01_02aa.jpg "A vibrating string moving to the right compresses the air in front of it and expands the air behind it.")
-{: #Figure2}
+{ #Figure2}
 
 ![Diagram of a vibrating string held fixed at both the ends. The string is shown to move toward the left. The compression and rarefaction of air is shown as bold and dotted arcs around the string.](../resources/Figure_17_01_02ba.jpg "As the string moves to the left, it creates another compression and rarefaction as the ones on the right move away from the string.")
-{: #Figure3}
+{ #Figure3}
 
 ![Part a of the diagram shows a vibrating string held fixed at both the ends. The string is shown to vibrate to and fro toward left and right. The compression and rarefaction of air is shown as bold and dotted arcs around the string. Part b shows a graph of pressure versus distance from the source. The pressure is along the y axis and the distance is along the x axis. The graph is a sine wave along the x axis.](../resources/Figure_17_01_02c.jpg "After many vibrations, there are a series of compressions and rarefactions moving out from the string as a sound wave. The graph shows gauge pressure versus distance from the source. Pressures vary only slightly from atmospheric for ordinary sounds.")
-{: #Figure4}
+{ #Figure4}
 
 The amplitude of a sound wave decreases with distance from its source, because
 the energy of the wave is spread over a larger and larger area. But it is also
@@ -63,14 +63,14 @@ frequency, amplitude, and speed of propagation are important for sound, as they
 are for all waves.
 
 ![Diagram of an ear is shown with sound wave compressions and rare factions entering the ear as semicircular arcs of bold and dotted lines. The cross section of ear drum marked as A is shown to vibrate to and fro with a force F equals P times A.](../resources/Figure_17_01_03a.jpg "Sound wave compressions and rarefactions travel up the ear canal and force the eardrum to vibrate. There is a net force on the eardrum, since the sound wave pressures differ from the atmospheric pressure found behind the eardrum. A complicated mechanism converts the vibrations to nerve impulses, which are perceived by the person.")
-{: #Figure5}
+{ #Figure5}
 
 <div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
 <div class="title">
 PhET Explorations: Wave Interference
 </div>
 WMake waves with a dripping faucet, audio speaker, or laser! Add a second source or a pair of slits to create an interference pattern.
-{: class="newline"}
+{ class="newline"}
 
 <div class="media"  data-alt="wave interference">
 <iframe width="660" height="371.4" src="https://veillette.github.io/simulations/wave-interference/"></iframe>
@@ -85,7 +85,7 @@ WMake waves with a dripping faucet, audio speaker, or laser! Add a second source
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 sound
 : a disturbance of matter that is transmitted from its source outward

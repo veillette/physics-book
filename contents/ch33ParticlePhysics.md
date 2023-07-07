@@ -9,7 +9,7 @@ layout: page
 </div>
 
 ![Inside part of the Large Hadron Collider; complex system of machinery and electronics, with a person for scale](../resources/Figure_33_00_01_D.jpg "Part of the Large Hadron Collider at CERN, on the border of Switzerland and France. The LHC is a particle accelerator, designed to study fundamental particles. (credit: Image Editor, Flickr)")
-{: #Figure1}
+{ #Figure1}
 
 Following ideas remarkably similar to those of the ancient Greeks, we continue
 to look for smaller and smaller structures in nature, hoping ultimately to find
@@ -33,7 +33,7 @@ to an ultimate substructure. We may never really know, as indicated
 in [[Figure 2]](#Figure2).
 
 ![The figure shows various substructures of a solid in decreasing size from left to right. To the right is a block labeled solid, next comes an image of some spheres connected with rods that is labeled molecule and ten to the minus nine meters, next comes an image labeled atom and ten to the minus ten meters, next comes a an image labeled nucleus and ten to the minus fourteen to ten to the minus fifteen meters, next comes an image labeled nucleon and ten to the minus fifteen meters, and finally there is an image labeled quark and less then ten to the minus eighteen meters. Attached to the quark image is a smaller particle labeled gluon.](../resources/Figure_33_00_02.jpg "The properties of matter are based on substructures called molecules and atoms. Atoms have the substructure of a nucleus with orbiting electrons, the interactions of which explain atomic properties. Protons and neutrons, the interactions of which explain the stability and abundance of elements, form the substructure of nuclei. Protons and neutrons are not fundamental&#x2014;they are composed of quarks. Like electrons and a few other particles, quarks may be the fundamental building blocks of all there is, lacking any further substructure. But the story is not complete, because quarks and electrons may have substructure smaller than details that are presently observable.")
-{: #Figure2}
+{ #Figure2}
 
 This chapter covers the basics of particle physics as we know it today. An
 amazing convergence of topics is evolving in particle physics. We find that some
@@ -49,7 +49,7 @@ not only fantastic, it is real.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 particle physics
 : the study of and the quest for those truly fundamental particles having no

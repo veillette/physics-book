@@ -55,7 +55,7 @@ Pressure is defined for all states of matter but is particularly important when
 discussing fluids.
 
 ![In figure a, the person is poked with a finger exerting a small pressure due to the large area of contact and, in b, he is poked with a syringe exerting a large pressure due to the small area of contact.](../resources/Figure_11_03_01a.jpg "(a) While the person being poked with the finger might be irritated, the force has little lasting effect. (b) In contrast, the same force applied to an area the size of the sharp end of a needle is great enough to break the skin.")
-{: #Figure1}
+{ #Figure1}
 
 <div id="Example1" class="example" markdown="1">
 <div class="title">
@@ -102,10 +102,10 @@ on all surfaces. Swimmers, as well as the tire, feel pressure on all sides. (
 See [[Figure 3]](#Figure3).)
 
 ![The forces inside a tire are shown by arrow lines. An inset shows an enlarged view of the valve in the tire. Air pressure in the tire keeps the valve closed.](../resources/Figure_11_03_02a.jpg "Pressure inside this tire exerts forces perpendicular to all surfaces it contacts. The arrows give representative directions and magnitudes of the forces exerted at various points. Note that static fluids do not exert shearing forces.")
-{: #Figure2}
+{ #Figure2}
 
 ![A man swimming underwater has many arrows pointing toward him to represent the directions and magnitudes of the forces exerted on him at various points.](../resources/Figure_11_03_03a.jpg "Pressure is exerted on all sides of this swimmer, since the water would flow into the space he occupies if he were not there. The arrows represent the directions and magnitudes of the forces exerted at various points on the swimmer. Note that the forces are larger underneath, due to greater depth, giving a net upward or buoyant force that is balanced by the weight of the swimmer.")
-{: #Figure3}
+{ #Figure3}
 
 <div class="note" data-has-label="true"  data-label="" markdown="1">
 <div class="title">
@@ -221,7 +221,7 @@ Nail tips exert tremendous pressures when they are hit by hammers because they e
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 pressure
 : the force per unit area perpendicular to the force, over which the force acts

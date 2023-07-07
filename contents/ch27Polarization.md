@@ -16,7 +16,7 @@ it produced? What are some of its uses? The answers to these questions are
 related to the wave character of light.
 
 ![Two photographs side by side of the same calm stream bed. In photograph a, the reflections of the clouds and some blue sky prevent you from seeing the pebbles in the streambed. In photograph b, there is essentially no reflection of the sky from the water&#x2019;s surface, and the pebbles underneath the water are clearly visible.](../resources/Figure_27_08_01a.jpg "These two photographs of a river show the effect of a polarizing filter in reducing glare in light reflected from the surface of water. Part (b) of this figure was taken with a polarizing filter and part (a) was not. As a result, the reflection of clouds and sky observed in part (a) is not observed in part (b). Polarizing sunglasses are particularly useful on snow and water. (credit: Amithshs, Wikimedia Commons)")
-{: #Figure1}
+{ #Figure1}
 
 Light is one type of electromagnetic (EM) wave. As noted earlier, EM waves are *transverse waves* consisting of varying electric and magnetic fields that
 oscillate perpendicular to the direction of propagation (
@@ -31,7 +31,7 @@ electric field arrows as showing the direction of polarization, as
 in [[Figure 2]](#Figure2).
 
 ![The schematic shows an axis labeled c that points to the right. On this axis are two sinusoidal waves that are in phase. The wave labeled E oscillates up down in the vertical plane and the wave labeled B oscillates back and forth in the horizontal plane. At the tip of the axis c is a double headed arrow oriented vertically that is labeled direction of polarization.](../resources/Figure_27_08_02a.jpg "An EM wave, such as light, is a transverse wave. The electric and magnetic fields are perpendicular to the direction of propagation.")
-{: #Figure2}
+{ #Figure2}
 
 To examine this further, consider the transverse waves in the ropes shown
 in [[Figure 3]](#Figure3). The oscillations in one rope are in a vertical plane
@@ -42,7 +42,7 @@ blocks the horizontally polarized waves. For EM waves, the direction of the
 electric field is analogous to the disturbances on the ropes.
 
 ![The figure shows waves on a vertically oscillating rope that pass through a vertical slit. A separate drawing shows waves on a horizontally oscillating rope that do not pass through a similar slit.](../resources/Figure_27_08_03a.jpg "The transverse oscillations in one rope are in a vertical plane, and those in the other rope are in a horizontal plane. The first is said to be vertically polarized, and the other is said to be horizontally polarized. Vertical slits pass vertically polarized waves and block horizontally polarized waves.")
-{: #Figure3}
+{ #Figure3}
 
 The Sun and many other light sources produce waves that are randomly polarized (
 see [[Figure 4]](#Figure4)). Such light is said to be **unpolarized** because it
@@ -57,10 +57,10 @@ which the filter passes the electric field of an EM wave (
 see [[Figure 5]](#Figure5)).
 
 ![The figure shows a slender arrow pointing out of the page and to the right; it is labeled direction of ray (of propagation). At a point on this ray, eight bold arrows point in different directions, perpendicularly away from the ray. These arrows are labeled E.](../resources/Figure_27_08_04a.jpg "The slender arrow represents a ray of unpolarized light. The bold arrows represent the direction of polarization of the individual waves composing the ray. Since the light is unpolarized, the arrows point in all directions.")
-{: #Figure4}
+{ #Figure4}
 
 ![The figure shows a slender arrow pointing out of the page and to the right that is labeled direction of ray. At the left end of the ray are eight blue arrows emanating from a point on the ray. These arrows are all in a plane perpendicular to the ray and are symmetrically oriented in the perpendicular plane. They are labeled E. Farther to the right on the same ray is a thin rectangle labeled polarizing filter that is in the plane perpendicular to the ray. This filter has seven vertical lines that are equally spaced on its surface. It also has a vertical double headed arrow on its surface that is labeled axis. Still farther along the ray is a single blue double headed arrow oriented vertically that is labeled E and direction of polarization.](../resources/Figure_27_08_05a.jpg "A polarizing filter has a polarization axis that acts as a slit passing through electric fields parallel to its direction. The direction of polarization of an EM wave is defined to be the direction of its electric field.")
-{: #Figure5}
+{ #Figure5}
 
 [[Figure 6]](#Figure6) shows the effect of two polarizing filters on originally
 unpolarized light. The first filter polarizes the light along its axis. When the
@@ -86,10 +86,10 @@ where $${I}_{0} $$ is the intensity of the polarized wave before passing through
 the filter. (The above equation is known as Malus’s law.)
 
 ![This figure has four subfigures. The first three are schematics and the last is a photograph. The first schematic looks much as in the previous figure, except that there is a second polarizing filter on the axis after the first one. The second polarizing filter has its lines aligned parallel to those of the first polarizing filter (i e, vertical). The vertical double headed arrow labeled E that emerges from the first polarizing filter also passes through the second polarizing filter. The next schematic is similar to the first, except that the second polarizing filter is rotated at forty five degrees with respect to the first polarizing filter. The double headed arrow that emerges from this second filter is also oriented at this same angle. It is also noticeably shorter than the other double headed arrows. The third schematic shows the same situation again, except that the second polarizing filter is now rotated ninety degrees with respect to the first polarizing filter. This time, there is no double headed arrow at all after the second polarizing filter. Finally, the last subfigure shows a photo of three circular optical filters placed over a bright colorful pattern. Two of these filters are place next to each other and the third is placed on top of the other two so that the center of the third is at the point where the edges of the two filters underneath touch. Some light passes through where the upper filter overlaps the left-hand underneath filter. Where the upper filter overlaps the right-hand lower filter, no light passes through.](../resources/Figure_27_08_06a.jpg "The effect of rotating two polarizing filters, where the first polarizes the light. (a) All of the polarized light is passed by the second polarizing filter, because its axis is parallel to the first. (b) As the second is rotated, only part of the light is passed. (c) When the second is perpendicular to the first, no light is passed. (d) In this photograph, a polarizing filter is placed above two others. Its axis is perpendicular to the filter on the right (dark area) and parallel to the filter on the left (lighter area). (credit: P.P. Urone)")
-{: #Figure6}
+{ #Figure6}
 
 ![This schematic is another variation of the schematic first introduced two figures prior. To the left of the vertically oriented polarizing filter is a double headed blue arrow oriented in the plane perpendicular to the propagation direction and at an angle theta with the vertical. After the polarizing filter a smaller vertical double headed arrow appears, which is labeled E cosine theta.](../resources/Figure_27_08_07a.jpg "A polarizing filter transmits only the component of the wave parallel to its axis, \( E \cos \theta \), reducing the intensity of any light not polarized parallel to its axis. ")
-{: #Figure7}
+{ #Figure7}
 
 <div id="Example1" class="example" markdown="1">
 <div class="title">
@@ -153,7 +153,7 @@ would be more likely to be reflected. Sunglasses with vertical axes would then
 block more reflected light than unpolarized light from other sources.
 
 ![The schematic shows a block of glass in air. A ray labeled unpolarized light starts at the upper left and impinges on the center of the block. Centered on this ray is a symmetric star burst pattern of double headed arrows. From this point where this ray hits the glass block there emerges a reflected ray that goes up and to the right and a refracted ray that goes down and to the right. Both of these rays are labeled partially polarized light. The reflected ray has evenly spaced large black dots on it that are labeled perpendicular to plane of paper. Centered on each black dot is a double headed arrow that is rather short and is perpendicular to the ray. The refracted ray also has evenly spaced dots, but they are much smaller. Centered on each of these small black dots are quite large doubled headed arrows that are perpendicular to the refracted ray.](../resources/Figure_27_08_08a.jpg "Polarization by reflection. Unpolarized light has equal amounts of vertical and horizontal polarization. After interaction with a surface, the vertical components are preferentially absorbed or refracted, leaving the reflected light more horizontally polarized. This is akin to arrows striking on their sides bouncing off, whereas arrows striking on their tips go into the surface.")
-{: #Figure8}
+{ #Figure8}
 
 Since the part of the light that is not reflected is refracted, the amount of
 polarization depends on the indices of refraction of the media involved. It can
@@ -177,7 +177,7 @@ Things Great and Small: Atomic Explanation of Polarizing Filters
 Polarizing filters have a polarization axis that acts as a slit. This slit passes electromagnetic waves (often visible light) that have an electric field parallel to the axis. This is accomplished with long molecules aligned perpendicular to the axis as shown in [[Figure 8]](#Figure8).
 
 ![The schematic shows a stack of long identical horizontal molecules. A vertical axis is drawn over the molecules.](../resources/Figure_27_08_09a.jpg "Long molecules are aligned perpendicular to the axis of a polarizing filter. The component of the electric field in an EM wave perpendicular to these molecules passes through the filter, while the component parallel to the molecules is absorbed.")
-{: #Figure9}
+{ #Figure9}
 
 [[Figure 10]](#Figure10) illustrates how the component of the electric field
 parallel to the long molecules is absorbed. An electromagnetic wave is composed
@@ -196,7 +196,7 @@ molecule and will allow those fields to pass. Thus the axis of the polarizing
 filter is perpendicular to the length of the molecule.
 
 ![The figure contains two schematics. The first schematic shows a long molecule. An EM wave goes through the molecule. The ray of the EM wave is at ninety degrees to the molecular axis and the electric field of the EM wave oscillates along the molecular axis. After passing the long molecule, the magnitude of the oscillations of the EM wave are significantly reduced. The second schematic shows a similar drawing, except that the EM wave oscillates perpendicular to the axis of the long molecule. After passing the long molecule, the magnitude of the oscillation of the EM wave is unchanged.](../resources/Figure_27_08_10a.jpg "Artist&#x2019;s conception of an electron in a long molecule oscillating parallel to the molecule. The oscillation of the electron absorbs energy and reduces the intensity of the component of the EM wave that is parallel to the molecule.")
-{: #Figure10}
+{ #Figure10}
 
 </div>
 
@@ -278,7 +278,7 @@ scattering can bring light to your eyes from other directions and can contain
 different polarizations.
 
 ![The schematic shows a ray labeled unpolarized sunlight coming horizontally from the left along what we shall call the x axis. On this ray is a symmetric star burst pattern of double headed arrows, with all the arrows in the plane perpendicular to the ray, This ray strikes a dot labeled molecule. From the molecule three rays emerge. One ray goes straight down, in the negative y direction. It is labeled polarized light and has a single double headed arrow on it that is perpendicular to the plane of the page, that is, the double headed arrow is parallel to the z axis. A second ray continues from the molecule in the same direction as the incoming ray and is labeled unpolarized light. This ray also has a symmetric star burst pattern of double headed arrows on it. A final ray comes out of the plane of the paper in the x z plane, at about 45 degrees from the x axis. This ray is labeled partially polarized light and has a nonsymmetric star burst pattern of double headed arrows on it.](../resources/Figure_27_08_11a.jpg "Polarization by scattering. Unpolarized light scattering from air molecules shakes their electrons perpendicular to the direction of the original ray. The scattered light therefore has a polarization perpendicular to the original direction and none parallel to the original direction.")
-{: #Figure11}
+{ #Figure11}
 
 Photographs of the sky can be darkened by polarizing filters, a trick used by
 many photographers to make clouds brighter by contrast. Scattering from other
@@ -325,7 +325,7 @@ vary the picture contrast by varying the strength of the voltage applied to the
 liquid crystal.
 
 ![The figure contains two schematics and one photograph. The first schematic shows a ray of initially unpolarized light going through a vertical polarizer, then an element labeled L C D no voltage ninety degree rotation, then finally a horizontal polarizer. The initially unpolarized light becomes vertically polarized after the vertical polarizer, then is rotated ninety degrees by the L C D element so that it is horizontally polarized, then it passes through the horizontal polarizer. The second schematic is the same except that the L C D element is labeled voltage on, no rotation. The light coming out of the L C D element is thus vertically polarized and does not pass through the horizontal polarizer. Finally, a photograph is shown of a laptop computer that is open so that you can see its screen, which is on and has some icons and windows visible.](../resources/Figure_27_08_12a.jpg "(a) Polarized light is rotated  90 degrees by a liquid crystal and then passed by a polarizing filter that has its axis perpendicular to the original polarization direction. (b) When a voltage is applied to the liquid crystal, the polarized light is not rotated and is blocked by the filter, making the region dark in comparison with its surroundings. (c) LCDs can be made color specific, small, and fast enough to use in laptop computers and TVs. (credit: Jon Sullivan)")
-{: #Figure12}
+{ #Figure12}
 
 Many crystals and solutions rotate the plane of polarization of light passing
 through them. Such substances are said to be **optically active**. Examples
@@ -341,7 +341,7 @@ molecules, such as proteins, and factors that affect their shapes, such as
 temperature and pH.
 
 ![The schematic shows an initially unpolarized ray of light that passes through three optical elements. The first is a vertical polarizer, so the electric field is vertical after the ray passes through it. Next comes a block that is labeled optically active. Following this block the electric field has been rotated by an angle theta with respect to the vertical. In the schematic this angle is about forty five degrees. Finally, the ray passes through another vertical polarizer that is labeled analyzer. A shorter and vertically oriented electric field appears after this element.](../resources/Figure_27_08_13a.jpg "Optical activity is the ability of some substances to rotate the plane of polarization of light passing through them. The rotation is detected with a polarizing filter or analyzer.")
-{: #Figure13}
+{ #Figure13}
 
 Glass and plastic become optically active when stressed; the greater the stress,
 the greater the effect. Optical stress analysis on complicated shapes can be
@@ -351,7 +351,7 @@ depends on wavelength as well as stress. The wavelength dependence is sometimes
 also used for artistic purposes.
 
 ![The figure shows a photograph of a transparent circular plastic lens that is being pinched between clamp fingers. The lens is deformed and rainbows of colors are visible whose outlines roughly follow the deformation of the object.](../resources/Figure_27_08_14a.jpg "Optical stress analysis of a plastic lens placed between crossed polarizers. (credit: Infopro, Wikimedia Commons)")
-{: #Figure14}
+{ #Figure14}
 
 Another interesting phenomenon associated with polarized light is the ability of
 some crystals to split an unpolarized beam of light into two. Such crystals are
@@ -366,7 +366,7 @@ polarizing filters and other polarizers work. The interested reader is invited
 to further pursue the numerous properties of materials related to polarization.
 
 ![The schematic shows an unpolarized ray of light incident on a block of transparent material The ray is perpendicular to the face of the material. Upon entering the material, part of the ray continues straight on. This ray is horizontally polarized and is labeled o. Another part of the incident ray is deviated at an angle upon entering the material. This ray is vertically polarized and is labeled e.](../resources/Figure_27_08_15a.jpg "Birefringent materials, such as the common mineral calcite, split unpolarized beams of light into two. The ordinary ray behaves as expected, but the extraordinary ray does not obey Snell&#x2019;s law.")
-{: #Figure15}
+{ #Figure15}
 
 ### Section Summary
 
@@ -641,7 +641,7 @@ energy from the sunlight.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 axis of a polarizing filter
 : the direction along which the filter passes the electric field of an EM wave

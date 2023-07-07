@@ -11,7 +11,7 @@ layout: page
 </div>
 
 Each type of atom (or element) has its own characteristic electromagnetic
-spectrum. **X-rays**{: class="term"} lie at the high-frequency end of an atom’s
+spectrum. **X-rays**{ class="term"} lie at the high-frequency end of an atom’s
 spectrum and are characteristic of the atom as well. In this section, we explore
 characteristic X-rays and some of their important applications.
 
@@ -31,7 +31,7 @@ showing a broad curve of bremsstrahlung radiation with characteristic x-ray
 peaks on it.
 
 ![A graph of X-ray intensity versus frequency is shown. The curve starts from a point near the origin in the first quadrant and increases. Before the frequency attains its maximum value, two sharp peaks are formed, after which the X-ray intensity decreases sharply to zero at f max. Below the graph appears the equation q V equals h f max.](../resources/Figure_30_04_01aa.jpg "X-ray spectrum obtained when energetic electrons strike a material, such as in the anode of a CRT. The smooth part of the spectrum is bremsstrahlung radiation, while the peaks are characteristic of the anode material. A different anode material would have characteristic x-ray peaks at different frequencies. ")
-{: #Figure1}
+{ #Figure1}
 
 The spectrum in [[Figure 1]](#Figure1) is collected over a period of time in
 which many electrons strike the anode, with a variety of possible outcomes for
@@ -71,7 +71,7 @@ used to identify elements, for example, to find trace (small) amounts of an
 element in an environmental or biological sample.
 
 ![Different energy levels are shown in the form of horizontal lines. The line at the bottom shows the energy level for n is equal to one for the K shell. At a distance above this line, another horizontal line shows the energy level for n is equal to two for the shell L. Similarly, other lines are shown for the shells M and N. As we move from bottom to the top, the distance between the lines decreases, and near the end a few lines are shown very close to each other. Each level is labeled according to the characteristic X-ray of the shell.](../resources/Figure_30_04_02aa.jpg "A characteristic X-ray is emitted when an electron fills an inner-shell vacancy, as shown for several transitions in this approximate energy level diagram for a multiple-electron atom. Characteristic X-rays are labeled according to the shell that had the vacancy and the shell from which the electron came. A \( K_\alpha \) X-ray, for example, is produced when an electron coming from the \( n=2 \) shell fills the \( n=1 \) shell vacancy.")
-{: #Figure2}
+{ #Figure2}
 
 <div id="Example1" class="example" markdown="1">
 <div class="title">
@@ -151,13 +151,13 @@ an image produced by X-rays, and it has been made into a familiar verb—to be
 x-rayed.
 
 ![The X-ray image of front view of the jaw, especially the teeth.](../resources/Figure_30_04_04aa.jpg "An x-ray image reveals fillings in a person&#x2019;s teeth. (credit: Dmitry G, Wikimedia Commons)")
-{: #Figure3}
+{ #Figure3}
 
 ![An X-ray image of a person&#x2019;s chest is shown, clearly showing a pacemaker in the left side.](../resources/Figure_30_04_05aa.jpg "This x-ray image of a person&#x2019;s chest shows many details, including an artificial pacemaker. (credit: Sunzi99, Wikimedia Commons)")
-{: #Figure4}
+{ #Figure4}
 
 ![A colored X-ray image of a piece of luggage.](../resources/Figure_30_04_03aa.jpg "This x-ray image shows the contents of a piece of luggage. The denser the material, the darker the shadow. (credit: IDuke, Wikimedia Commons)")
-{: #Figure5}
+{ #Figure5}
 
 The most common x-ray images are simple shadows. Since x-ray photons have high
 energies, they penetrate materials that are opaque to visible light. The more
@@ -221,10 +221,10 @@ Cormack (US) won the Nobel Prize in Medicine in 1979 for their development of
 computed tomography.
 
 ![A photographic image taken through the port of a C T scanner, showing a patient on a stretcher surrounded by three nursing staff and a doctor who are taking the patient&#x2019;s C T scan.](../resources/Figure_30_04_06aa.jpg "A patient being positioned in a CT scanner aboard the hospital ship USNS Mercy. The CT scanner passes X-rays through slices of the patient&#x2019;s body (or body part) over a range of directions. The relative absorption of the X-rays along different directions is computer analyzed to produce highly detailed images. Three-dimensional information can be obtained from multiple slices. (credit: Rebecca Moat, U.S. Navy)")
-{: #Figure6}
+{ #Figure6}
 
 ![A 3-D image showing a human skull from the front.](../resources/Figure_30_04_07aa.jpg "This three-dimensional image of a skull was produced by computed tomography, involving analysis of several x-ray slices of the head. (credit: Emailshankar, Wikimedia Commons) ")
-{: #Figure7}
+{ #Figure7}
 
 ### X-Ray Diffraction and Crystallography
 
@@ -257,7 +257,7 @@ crucial to obtaining a superconducting material. These can be studied using
 x-ray crystallography.
 
 ![An X-ray diffraction image, which resembles a structured array of small black dots on a white background. A white arm extends from the top left to the center of the image, where there is a small white disk. This white disk is the shadow of the beam block, which blocks the part of the incident X-ray beam that was not diffracted by the crystal.](../resources/Figure_30_04_08aa.jpg "X-ray diffraction from the crystal of a protein, hen egg lysozyme, produced this interference pattern. Analysis of the pattern yields information about the structure of the protein. (credit: Del45, Wikimedia Commons)")
-{: #Figure8}
+{ #Figure8}
 
 Historically, the scattering of X-rays from crystals was used to prove that x
 rays are energetic EM waves. This was suspected from the time of the discovery
@@ -404,7 +404,7 @@ What are the approximate energies of the  $${K}_{\alpha } $$
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 X-rays
 : a form of electromagnetic radiation

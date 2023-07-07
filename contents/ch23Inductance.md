@@ -24,7 +24,7 @@ in a transformer. See [[Figure 1]](#Figure1), where simple coils induce emfs in
 one another.
 
 ![The figure shows two coils coil one, of five turns and coil two, of four turns are kept adjacent to each other. The magnetic field lines of strength B are shown to pass through the two coils. Coil one is shown to be connected to an A C source. The changing current in the coil one is given as I one in clock wise direction. Coil two is connected to a galvanometer. A change in current in coil one is shown to induce an e m f in coil two.The induced e m f in coil two is measured as a deflection in galvanometer.](../resources/Figure_23_09_01.jpg "These coils can induce emfs in one another like an inefficient transformer. Their mutual inductance M indicates the effectiveness of the coupling between them. Here a change in current in coil 1 is seen to induce an emf in coil 2. (Note that \( E_{2} \) induced represents the induced emf in coil 2.)")
-{: #Figure1}
+{ #Figure1}
 
 In the many cases where the geometry of the devices is fixed, flux is changed by
 varying current. We therefore concentrate on the rate of change of current,
@@ -63,7 +63,7 @@ inductance $$M $$ is to counterwind coils to cancel the magnetic field produced.
 See [[Figure 2]](#Figure2).)
 
 ![The figure describes the heating coils of electric clothes dryer that are counter wound on a cylindrical core. There magnetic fields cancel each other.](../resources/Figure_23_09_02.jpg "The heating coils of an electric clothes dryer can be counter-wound so that their magnetic fields cancel one another, greatly reducing the mutual inductance with the case of the dryer.")
-{: #Figure2}
+{ #Figure2}
 
 **Self-inductance**, the effect of Faraday’s law of induction of a device on
 itself, also exists. When, for example, current through a coil is increased, the
@@ -83,7 +83,7 @@ self-inductance is called an **inductor**, and given the symbol
 in [[Figure 3]](#Figure3).
 
 ![Two straight lines connected by three half-circles adjacent to each other.](../resources/Figure_23_09_05.jpg " ")
-{: #Figure3}
+{ #Figure3}
 
 The minus sign is an expression of Lenz’s law, indicating that emf opposes the
 change in current. Units of self-inductance are henries (H) just as for mutual
@@ -114,7 +114,7 @@ the transformer as the capacitor is being charged.) A capacitor stores the high
 voltage for later use in powering the flash. (See [[Figure 4]](#Figure4).)
 
 ![The figure describes an inductor L which is connected in parallel to a capacitor C through a variable switch. There is a cell of voltage V placed parallel to the capacitor. The ends of switch can be removed from the capacitor and connected to Cell V for charging. This variable connection is shown as dashed arrows.](../resources/Figure_23_09_03.jpg "Through rapid switching of an inductor, 1.5 V batteries can be used to induce emfs of several thousand volts. This voltage can be used to store charge in a capacitor for later use, such as in a camera flash attachment.")
-{: #Figure4}
+{ #Figure4}
 
 It is possible to calculate $$L $$ for an inductor given its geometry (size and
 shape) and knowing the magnetic field that it produces. This is difficult in
@@ -221,7 +221,7 @@ found on a person. (But they will not be able to detect any plastic explosive
 such as that found on the “underwear bomber.”) See [[Figure 5]](#Figure5).
 
 ![Photograph of people around a security gate at an airport departure terminal.](../resources/Figure_23_09_04.jpg "The familiar security gate at an airport can not only detect metals but also indicate their approximate height above the floor. (credit: Alexbuirds, Wikimedia Commons)")
-{: #Figure5}
+{ #Figure5}
 
 ### Energy Stored in an Inductor
 
@@ -493,7 +493,7 @@ assumption or premise is responsible?
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 inductance
 : a property of a device describing how efficient it is at inducing emf in

@@ -17,7 +17,7 @@ charge and conservation of energy. The rules are known as **Kirchhoff’s rules*
 after their inventor Gustav Kirchhoff (1824–1887).
 
 ![A complicated circuit diagram shows multiple resistances and voltage sources wired in series and in parallel. The circuit has three arms. The first has a cell of e m f script E sub one and internal resistance r sub one in series with a resistor R sub two. The second has a cell of e m f script E sub two and internal resistance r sub two in series with resistor R sub three. The third arm has a resistor R sub one. The three arms are connected in parallel.](../resources/Figure_21_03_01.jpg "This circuit cannot be reduced to a combination of series and parallel connections. Kirchhoff&#x2019;s rules, special applications of the laws of conservation of charge and energy, can be used to analyze it. (Note: The script E in the figure represents electromotive force, emf.)")
-{: #Figure1}
+{ #Figure1}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -50,14 +50,14 @@ Kirchhoff’s rules for circuit analysis are applications of **conservation laws
 </div>
 
 ![This schematic drawing shows a T-junction, with one current I sub one flowing into the T and two currents I sub two and I sub three flowing out of the T junction.](../resources/Figure_21_03_02.jpg "The junction rule. The diagram shows an example of Kirchhoff&#x2019;s first rule where the sum of the currents into a junction equals the sum of the currents out of a junction. In this case, the current going into the junction splits and comes out as two currents, so that \( I_1=I_2+I_3 \). Here \( I_{1} \) must be 11 A, since \( I_{2} \) is 7 A and \( I_{3} \) is 4 A.")
-{: #Figure2}
+{ #Figure2}
 
 ### Kirchhoff’s Second Rule
 
 Kirchhoff’s second rule (the **loop rule**) is an application of conservation of
 energy. The loop rule is stated in terms of potential, $$V $$ , rather than
 potential energy, but the two are related since $${\text{PE}}_{\text{elec}}=qV
-$$ . Recall that **emf**{: class="term"} is the potential difference of a source
+$$ . Recall that **emf**{ class="term"} is the potential difference of a source
 when no current is flowing. In a closed loop, whatever energy is supplied by emf
 must be transferred into other forms by devices in the loop, since there are no
 other ways in which energy can be transferred into or out of the
@@ -70,7 +70,7 @@ equals the sum of the $$IR $$
 (voltage) drops in the loop.
 
 ![Part a shows a schematic of a simple circuit that has a voltage source in series with two load resistors. The voltage source has an e m f, labeled script E, of eighteen volts. The voltage drops are one volt across the internal resistance and twelve volts and five volts across the two load resistances. Part b is a perspective drawing corresponding to the circuit in part a. The charge is raised in potential by the e m f and lowered by the resistances.](../resources/Figure_21_03_03.jpg "The loop rule. An example of Kirchhoff&#x2019;s second rule where the sum of the changes in potential around a closed loop must be zero. (a) In this standard schematic of a simple series circuit, the emf supplies 18 V, which is reduced to zero by the resistances, with 1 V across the internal resistance, and 12 V and 5 V across the two load resistances, for a total of 18 V. (b) This perspective view represents the potential as something like a roller coaster, where charge is raised in potential by the emf and lowered by the resistances. (Note that the script E stands for emf.)")
-{: #Figure3}
+{ #Figure3}
 
 ### Applying Kirchhoff’s Rules
 
@@ -105,7 +105,7 @@ consistent for the sign of the change in potential. (See [[Example 1]](#Example1
 .)
 
 ![This figure shows four situations where current flows through either a resistor or a source, and the calculation of the potential change across each. The first two diagrams show the potential drop across a resistor, with the current flowing from left to right or right to left. The other two diagrams show a potential drop across a voltage source, when the terminals are in one orientation and then another.](../resources/Figure_21_03_04.jpg "Each of these resistors and voltage sources is traversed from a to b. The potential changes are shown beneath each element and are explained in the text. (Note that the script E stands for emf.)")
-{: #Figure4}
+{ #Figure4}
 
 * When a resistor is traversed in the same direction as the current, the change
   in potential is $$-IR $$ .
@@ -127,7 +127,7 @@ Calculating Current: Using Kirchhoff’s Rules
 Find the currents flowing in the circuit in [[Figure 5]](#Figure5).
 
 ![The diagram shows a complex circuit with two voltage sources E sub one and E sub two and several resistive loads, wired in two loops and two junctions. Several points on the diagram are marked with letters a through h. The current in each branch is labeled separately.](../resources/Figure_21_03_05.jpg "This circuit is similar to that in Figure 1, but the resistances and emfs are specified. (Each emf is denoted by script E.) The currents in each branch are labeled and assumed to move in the directions shown. This example uses Kirchhoff&#x2019;s rules to find the currents.")
-{: #Figure5}
+{ #Figure5}
 
 **Strategy**
 
@@ -287,7 +287,7 @@ Can all of the currents going into the junction in [[Figure 6]](#Figure6) be pos
 </div>
 
 ![The diagram shows a T junction with currents I sub one, I sub two, and I sub three entering the T junction.](../resources/Figure_21_03_06.jpg " ")
-{: #Figure6}
+{ #Figure6}
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
@@ -297,7 +297,7 @@ Apply the junction rule to junction b in [[Figure 7]](#Figure7). Is any new info
 </div>
 
 ![The diagram shows a complex circuit with four voltage sources: E sub one, E sub two, E sub three, E sub four and several resistive loads, wired in two loops and two junctions. Several points on the diagram are marked with letters a through g. The current in each branch is labeled separately.](../resources/Figure_21_03_07.jpg " ")
-{: #Figure7}
+{ #Figure7}
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
@@ -362,7 +362,7 @@ Verify the third equation in [[Example 1]](#Example1) by substituting the values
 Apply the junction rule at point a in [[Figure 8]](#Figure8).
 
 ![The diagram shows a complex circuit with four voltage sources E sub one, E sub two, E sub three, E sub four and several resistive loads, wired in two loops and many junctions. Several points on the diagram are marked with letters a through j. The current in each branch is labeled separately.](../resources/Figure_21_03_08.jpg " ")
-{: #Figure8}
+{ #Figure8}
 
 </div>
 <div class="solution">
@@ -429,7 +429,7 @@ unknown and the currents are given to be $${I}_{1}=5.00 \text{A} $$ , $${I}_
 (a) Could you find the emfs? (b) What is wrong with the assumptions?
 
 ![The diagram shows a complex circuit with two voltage sources E sub one and E sub two, and three resistive loads, wired in two loops and two junctions. Several points on the diagram are marked with letters a through h. The current in each branch is labeled separately.](../resources/Figure_21_03_09.jpg " ")
-{: #Figure9}
+{ #Figure9}
 
 </div>
 <div class="solution" markdown="1">
@@ -443,7 +443,7 @@ rule.
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 Kirchhoff’s rules
 : a set of two rules, based on conservation of charge and energy, governing

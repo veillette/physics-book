@@ -38,7 +38,7 @@ lists representative values of $$D $$ for various substances, in units of
 $${\text{m}}^{2}\text{/s} $$.
 
 ![The figure shows the path of a random walk. The random thermal motion of a molecule is shown to begin at a start point and then the particles move about zigzag in all directions and end up at the finish point. The distance between the start and finish point is shown as x. Continuous arrows show various directions of motion.](../resources/Figure_12_07_01a.jpg "The random thermal motion of a molecule in a fluid in time \( t \) . This type of motion is called a random walk.")
-{: #Figure1}
+{ #Figure1}
 
 <table id="Table1" aria-describedby="Diffusing molecules for various substances are listed in column 1. The medium (air or water) is listed in column 2. D, in meters squared per second, is listed in column 3."><caption><span class="title">Diffusion Constants for Various Molecules<sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup></span></caption><thead><tr>
             <th>
@@ -127,7 +127,7 @@ rate of diffusion is higher initially than after the process is partially
 completed. (See [[Figure 2]](#Figure2).)
 
 ![The figure shows the diffusion along a cylindrical tube of area of cross section A. The cylindrical tube is divided into three regions. The cross section is marked as A. The first region is marked as region one. The concentration there is marked C one. The molecules are shown as small sphere with an arrow pointing out from them. The concentration is high in this region. The second region is marked of width delta x. The concentration is lesser in this region as compared to region one. The third region is marked as region two, the concentration in this region lesser than the other two regions shown by lesser number of spherical molecules.](../resources/Figure_12_07_02a.jpg "Diffusion proceeds from a region of higher concentration to a lower one. The net rate of movement is proportional to the difference in concentration.")
-{: #Figure2}
+{ #Figure2}
 
 The net rate of diffusion is proportional to the concentration difference. Many
 more molecules will leave a region of high concentration than will enter it from
@@ -167,7 +167,7 @@ much current research, involving not only physiology but also chemistry and
 physics.
 
 ![Part a of the figure shows a semi permeable membrane shown as small rectangular sections in a vertical line, separated by small gaps called as pores. Molecules are shown in all shapes on both the sides of the membranes. Some molecules are shown to diffuse through the pores. Part b of the diagram shows molecules in the form of small spheres packed on both sides of a single vertical rectangular membrane. Some molecules are shown to dissolve in this membrane and diffuse across it.](../resources/Figure_12_07_03a.jpg "(a) A semipermeable membrane with small pores that allow only small molecules to pass through. (b) Certain molecules dissolve in this membrane and diffuse across it.")
-{: #Figure3}
+{ #Figure3}
 
 **Osmosis** is the transport of water through a semipermeable membrane from a
 region of high concentration to a region of low concentration. Osmosis is driven
@@ -198,7 +198,7 @@ pressure gives the plant support. Dialysis can similarly cause substantial
 pressures.
 
 ![Part a of the figure shows a vessel having two different concentrations of sugar in water separated by a semipermeable membrane that passes water but not sugar molecules. The sugar molecules are shown as small red color spheres and water molecules as still smaller blue colored spheres. The right side of the solution shows more of sugar molecules represented as more number of red spheres. The osmosis of water molecules is shown toward right. Part b shows the second stage for figure on part a. The osmosis of water is shown toward right. The height of fluid on right is shown as h above the fluid on the left. The back pressure of water is shown toward left.](../resources/Figure_12_07_04a.jpg "(a) Two sugar-water solutions of different concentrations, separated by a semipermeable membrane that passes water but not sugar. Osmosis will be to the right, since water is less concentrated there. (b) The fluid level rises until the back pressure \( \rho gh \) equals the relative osmotic pressure; then, the net transfer of water is zero.")
-{: #Figure4}
+{ #Figure4}
 
 **Reverse osmosis** and **reverse dialysis** (also called filtration) are
 processes that occur when back pressure is sufficient to reverse the normal
@@ -313,18 +313,18 @@ Suppose hydrogen and oxygen are diffusing through air. A small amount of each is
 
 <div class="footnote-refs" markdown="1">
 ### Footnotes
-{: class="footnote-refs-title"}
+{ class="footnote-refs-title"}
 
-* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
+* { class="footnote-ref" #footnote1} [1](#footnote-ref1){ class="
   footnote-ref-link"} <span class="footnote-ref-content">At 20ºC and 1
   atm</span>
-  {: data-list-type="bulleted" data-bullet-style="none"}
+  { data-list-type="bulleted" data-bullet-style="none"}
 
 </div>
 
 <div class="glossary" markdown="1">
 ### Glossary
-{: class="glossary-title"}
+{ class="glossary-title"}
 
 diffusion
 : the movement of substances due to random thermal molecular motion
