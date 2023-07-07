@@ -5,17 +5,17 @@ the [Table of Contents](./SUMMARY.md)
 
 # About
 
-This textbook is mainly written in kramdown (a superset of Markdown) format. A
-small JavaScript and CSS class takes care of the rendering of the book. The book
+This textbook is mainly written in Markdown format. A small JavaScript and CSS 
+class takes care of the rendering of the book. The book
 is stored directly into GitHub and is instantly regenerated through the GitHub
-pages through the action of Jekyll.
+pages through the action of Eleventy.
 
 # Fork Me
 
-Clone this repository. Install Ruby. Within the folder physics-book, run
+Clone this repository. Install Nodejs. Within the folder physics-book, run
 
-`gem install bundler jekyll`
+`npm install`
 
-`bundle exec jekyll serve --incremental`
+`npx @11ty/eleventy --serve`
 
-Now browse to http://localhost:4000
+Now browse to http://localhost:8080/
