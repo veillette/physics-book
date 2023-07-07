@@ -3,7 +3,7 @@ const path = require('path');
 
 function replaceEquationDelimiters(text) {
     const pattern = /<div class="equation">(.*?)<\/div>/g;
-    const replacement = (match) => match.replace(/\$(.*?)\$/g, '$$1$$');
+    const replacement = (match) => match.replace(/\$(.*?)\$/g, '$$$1$$');
     return text.replace(pattern, replacement);
 }
 
