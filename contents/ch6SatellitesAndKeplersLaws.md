@@ -49,13 +49,13 @@ evidence from which new interpretations and meanings can be constructed.
 The orbit of each planet about the Sun is an ellipse with the Sun at one focus.
 
 ![In figure a, an ellipse is shown on the coordinate axes. Two foci of the ellipse are joined to a point m on the ellipse. A pencil is shown at the point m. In figure b the elliptical path of a planet is shown. At the left focus f-one of the path the Sun is shown. The planet is shown just above the Sun on the elliptical path.](../resources/Figure_06_06_01a.jpg "(a) An ellipse is a closed curve such that the sum of the distances from a point on the curve to the two foci ( \( f_1 \) and \( f_2 \) ) is a constant. You can draw an ellipse as shown by putting a pin at each focus, and then placing a string around a pencil and the pins and tracing a line on paper. A circle is a special case of an ellipse in which the two foci coincide (thus any point on the circle is the same distance from the center). (b) For any closed gravitational orbit, \( m \) follows an elliptical path with \( M \) at one focus. Kepler&#x2019;s first law states this fact for planets orbiting the Sun.")
-{: #fig1}
+{: #Figure1}
 
 **Kepler’s Second Law**
 
 Each planet moves so that an imaginary line drawn from the Sun to the planet
 sweeps out equal areas in equal times (
-see [Figure 2](#fig2)).
+see [Figure 2](#Figure2)).
 
 **Kepler’s Third Law**
 
@@ -73,7 +73,7 @@ same large one. Most importantly, this is a descriptive equation only, giving no
 information as to the cause of the equality.
 
 ![In the figure, the elliptical path of a planet is shown. The Sun is at the left focus. Three shaded regions M A B, M C D and M E F are marked on the figure by joining the Sun to the three pairs of points A B, C D, and E F on the elliptical path. The velocity of the planet is shown on the planet in a direction tangential to the path.](../resources/Figure_06_06_02a.jpg "The shaded regions have equal areas. It takes equal times for \( m \) to go from A to B, from C to D, and from E to F. The mass \( m \) moves fastest when it is closest to \( M \) . Kepler&#x2019;s second law was originally devised for planets orbiting the Sun, but it has broader validity. ")
-{: #fig2}
+{: #Figure2}
 
 Note again that while, for historical reasons, Kepler’s laws are stated for
 planets orbiting the Sun, they are actually valid for all bodies satisfying the
@@ -216,9 +216,9 @@ parent can be calculated. This principle has been used extensively to find the
 masses of heavenly bodies that have satellites. Furthermore, the ratio $$ r^{3}/
 T^{2} $$ should be a constant for all satellites of the same parent body (
 because $$ \frac{r^{3}}{T^{2}}=\frac{GM}{4\pi^{2}} $$).
-(See [Table 1](#table1)).
+(See [Table 1](#Table1)).
 
-It is clear from [Table 1](#table1) that the ratio of $$ {r}^{3}/ T^{2} $$ is
+It is clear from [Table 1](#Table1) that the ratio of $$ {r}^{3}/ T^{2} $$ is
 constant, at least to the third digit, for all listed satellites of the Sun, and
 for those of Jupiter. Small variations in that ratio have two
 causes—uncertainties in the $$ r $$ and $$ T $$ data, and perturbations of the
@@ -276,7 +276,7 @@ definition of what constitutes a “true” planet.
 | Jupiter| Ganymede  | $$ 1.07 \times 10^{6} $$ |0.0196 (7.16 d) | $$ 3.19 \times 10^{21} $$ |
 | Jupiter| Callisto  | $$ 1.88 \times 10^{6} $$ |0.0457 (16.19 d)| $$ 3.20 \times 10^{21} $$ |
 
-{: #table1}
+{: #Table1}
 
 The universal law of gravitation is a good example of a physical principle that
 is very broadly applicable. That single equation for the gravitational force
@@ -285,20 +285,20 @@ number of effects, such as the orbits of the planets and moons in the solar
 system. It epitomizes the underlying unity and simplicity of physics.
 
 Before the discoveries of Kepler, Copernicus, Galileo, Newton, and others, the
-solar system was thought to revolve around Earth as shown in [Figure 3](#fig3)(
+solar system was thought to revolve around Earth as shown in [Figure 3](#Figure3)(
 a). This is called the Ptolemaic view, for the Greek philosopher who lived in
 the second century AD. This model is characterized by a list of facts for the
 motions of planets with no cause and effect explanation. There tended to be a
 different rule for each heavenly body and a general lack of simplicity.
 
-[Figure 3](#fig3)(b) represents the modern or Copernican model. In this model, a
+[Figure 3](#Figure3)(b) represents the modern or Copernican model. In this model, a
 small set of rules and a single underlying force explain not only all motions in
 the solar system, but all other situations involving gravity. The breadth and
 simplicity of the laws of physics are compelling. As our knowledge of nature has
 grown, the basic simplicity of its laws has become ever more evident.
 
 ![In figure a the paths of the different planets are shown in the forms of dotted concentric circles with the Earth at the center with its Moon. The Sun is also shown revolving around the Earth. Each planet is labeled with its name. On the planets Mercury, Venus, Mars, Jupiter and Saturn green colored epicycles are shown. In the figure b Copernican view of planet is shown. The Sun is shown at the center of the solar system. The planets are shown moving around the Sun.](../resources/Figure_06_06_03a.jpg "(a) The Ptolemaic model of the universe has Earth at the center with the Moon, the planets, the Sun, and the stars revolving about it in complex superpositions of circular paths. This geocentric model, which can be made progressively more accurate by adding more circles, is purely descriptive, containing no hints as to what are the causes of these motions. (b) The Copernican model has the Sun at the center of the solar system. It is fully explained by a small number of laws of physics, including Newton&#x2019;s universal law of gravitation.")
-{: #fig3}
+{: #Figure3}
 
 <div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
@@ -372,7 +372,7 @@ A geosynchronous Earth satellite is one that has an orbital period of precisely
 1 day. Such orbits are useful for communication and weather observation because
 the satellite remains above the same point on Earth (provided it orbits in the
 equatorial plane in the same direction as Earth’s rotation). Calculate the radius
-of such an orbit based on the data for the moon in [Table 1](#table1).
+of such an orbit based on the data for the moon in [Table 1](#Table1).
 
 </div>
 </div>
@@ -398,7 +398,7 @@ Find the mass of Jupiter based on data for the orbit of one of its moons, and co
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the ratio of the mass of Jupiter to that of Earth based on data in [Table 1](#table1).
+Find the ratio of the mass of Jupiter to that of Earth based on data in [Table 1](#Table1).
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">

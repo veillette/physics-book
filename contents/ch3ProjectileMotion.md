@@ -32,7 +32,7 @@ along the horizontal axis and the other along the vertical. (This choice of axes
 is the most sensible, because acceleration due to gravity is vertical—thus,
 there will be no acceleration along the horizontal axis when air resistance is
 negligible.) As is customary, we call the horizontal axis the **x**-axis and the
-vertical axis the **y**-axis. [Figure 1](#fig1) illustrates the notation for
+vertical axis the **y**-axis. [Figure 1](#Figure1) illustrates the notation for
 displacement, where $$ \vb{s} $$ is defined to be the total displacement and $$
 \vb{x} $$ and $$ \vb{y} $$ are its components along the horizontal and vertical
 axes, respectively. The magnitudes of these vectors are $$\mag{s}$$,
@@ -76,7 +76,7 @@ Review of Kinematic Equations (constant \( a \) )
 </div>
 
 ![A soccer player is kicking a soccer ball. The ball travels in a projectile motion and reaches a point whose vertical distance is y and horizontal distance is x. The displacement between the kicking point and the final point is s. The angle made by this displacement vector with x axis is theta.](../resources/Figure_03_04_01.jpg "The total displacement \( \vb{s} \) of a soccer ball at a point along its path. The vector \( \vb{s} \) has components \( x \) and \( y \) along the horizontal and vertical axes. Its magnitude \( x \) and \( y \) along the horizontal and vertical axes. Its magnitude is \( \mag{s} \) , and it makes an angle \( \theta \) with the horizontal.")
-{: #fig1}
+{: #Figure1}
 
 Given these assumptions, the following steps are then used to analyze projectile
 motion:
@@ -88,7 +88,7 @@ the components of displacement $$ \vb{s} $$ along these axes are $$ x $$ and $$
 y $$. The magnitudes of the components of the velocity $$ \vb{v} $$ are $$ v_
 {x}=v\cos{\theta} $$ and $$ v_{y}=v\sin{\theta}$$, where $$ v $$ is the
 magnitude of the velocity and $$ \theta $$ is its direction, as shown
-in [Figure 2](#fig2). Initial values are denoted with a subscript 0, as usual.
+in [Figure 2](#Figure2). Initial values are denoted with a subscript 0, as usual.
 
 ***Step 2.*** *Treat the motion as two independent one-dimensional motions, one
 horizontal and the other vertical.* The kinematic equations for horizontal and
@@ -161,7 +161,7 @@ of the velocity $$ \vb{v} $$.
 ![In part a the figure shows projectile motion of a ball with initial velocity of v zero at an angle of theta zero with the horizontal x axis. The horizontal component v x and the vertical component v y at various positions of ball in the projectile path is shown. In part b only the horizontal velocity component v sub x is shown whose magnitude is constant at various positions in the path. In part c only vertical velocity component v sub y is shown. The vertical velocity component v sub y is upwards till it reaches the maximum point and then its direction changes to downwards. In part d resultant v of horizontal velocity component v sub x and downward vertical velocity component v sub y is found which makes an angle theta with the horizontal x axis. The direction of resultant velocity v is towards south east.](../resources/Figure_03_04_02.jpg "(a) We analyze two-dimensional projectile motion by breaking it into two independent one-dimensional motions along the vertical and horizontal axes.
 (b) The horizontal motion is simple, because \( a_x=0 \) and \( v_x \) is thus constant.
 (c) The velocity in the vertical direction begins to decrease as the object rises; at its highest point, the vertical velocity is zero. As the object falls towards the Earth again, the vertical velocity increases again in magnitude but points in the opposite direction to the initial vertical velocity. (d) The x - and y -motions are recombined to give the total velocity at any given point on the trajectory.")
-{: #fig2 height="600"}
+{: #Figure2 height="600"}
 
 <div class="example" markdown="1">
 <div class="title">
@@ -169,7 +169,7 @@ A Fireworks Projectile Explodes High and Away
 </div>
 During a fireworks display, a shell is shot into the air with an initial speed of
 70.0 m/s at an angle of $$ 75.0^\circ $$
-above the horizontal, as illustrated in [Figure 3](#fig3). The
+above the horizontal, as illustrated in [Figure 3](#Figure3). The
 fuse is timed to ignite the shell just as it reaches its highest point above the
 ground.
 (a) Calculate the height at which the shell explodes.
@@ -193,7 +193,7 @@ initial position, we use the following equation to find $$ y $$:
 <div class="equation">
  $$ v_{y}^{2}=v_{0y}^{2}-2g\left(y-y_{0}\right). $$
 </div>
-![The x y graph shows the trajectory of fireworks shell. The initial velocity of the shell v zero is at angle theta zero equal to seventy five degrees with the horizontal x axis. The fuse is set to explode the shell at the highest point of the trajectory which is at a height h equal to two hundred thirty three meters and at a horizontal distance x equal to one hundred twenty five meters from the origin.](../resources/Figure_03_04_03a.jpg "The trajectory of a fireworks shell. The fuse is set to explode the shell at the highest point in its trajectory, which is found to be at a height of 233 m and 125 m away horizontally."){: #fig3 height="250"}
+![The x y graph shows the trajectory of fireworks shell. The initial velocity of the shell v zero is at angle theta zero equal to seventy five degrees with the horizontal x axis. The fuse is set to explode the shell at the highest point of the trajectory which is at a height h equal to two hundred thirty three meters and at a horizontal distance x equal to one hundred twenty five meters from the origin.](../resources/Figure_03_04_03a.jpg "The trajectory of a fireworks shell. The fuse is set to explode the shell at the highest point in its trajectory, which is found to be at a height of 233 m and 125 m away horizontally."){: #Figure3 height="250"}
 
 Because $$ y_{0} $$ and $$ v_{y} $$ are both zero, the equation simplifies to
 
@@ -334,14 +334,14 @@ Kilauea in Hawaii is the world’s most continuously active volcano. Very active
 red-hot rocks and lava rather than smoke and ash.
 Suppose a large rock is ejected from the volcano with a speed of 25.0 m/s and
 at an angle $$ 35.0^\circ $$
-above the horizontal, as shown in [Figure 4](#fig4). The rock
+above the horizontal, as shown in [Figure 4](#Figure4). The rock
 strikes the side of the volcano at an altitude 20.0 m lower than its starting
 point.
 (a) Calculate the time it takes the rock to follow this path.
 (b) What are the magnitude and direction of the rock’s velocity at impact?
 
 ![The trajectory of a rock ejected from a volcano is shown. The initial velocity of rock v zero is equal to twenty five meters per second and it makes an angle of thirty five degrees with the horizontal x axis. The figure shows rock falling down a height of twenty meters below the volcano level. The velocity at this point is v which makes an angle of theta with horizontal x axis. The direction of v is south east.](../resources/Figure_03_04_04a.jpg "The trajectory of a rock ejected from the Kilauea volcano.")
-{: #fig4}
+{: #Figure4}
 
 **Strategy**
 
@@ -458,7 +458,7 @@ The negative angle means that the velocity is $$ 50.1^\circ $$ below the
 horizontal. This result is consistent with the fact that the final vertical
 velocity is negative and hence downward—as you would expect because the final
 altitude is 20.0 m lower than the initial altitude. (
-See [Figure 4](#fig4).)
+See [Figure 4](#Figure4).)
 
 </div>
 
@@ -475,12 +475,12 @@ Earth. Let us consider projectile range further.
 ![Part a of the figure shows three different trajectories of projectiles on level ground. In each case the projectiles makes an angle of forty five degrees with the horizontal axis. The first projectile of initial velocity thirty meters per second travels a horizontal distance of R equal to ninety one point eight meters. The second projectile of initial velocity forty meters per second travels a horizontal distance of R equal to one hundred sixty three meters. The third projectile of initial velocity fifty meters per second travels a horizontal distance of R equal to two hundred fifty five meters.](../resources/Figure_03_04_05a.jpg "Trajectories of projectiles on level ground.
 (a) The greater the initial speed \( v_0 \), the greater the range for a given initial angle.
 (b) The effect of initial angle \(\theta_0 \) on the range of a projectile with a given initial speed. Note that the range is the same for 15 degrees and 75 degrees, although the maximum heights of those paths are different.")
-{: #fig5 height="300"}
+{: #Figure5 height="300"}
 
 How does the initial velocity of a projectile affect its range? Obviously, the
 greater the initial speed $$ v_{0} $$, the greater the range, as shown
-in [Figure 5](#fig5)(a). The initial angle $$ \theta_{0} $$ also has a dramatic
-effect on the range, as illustrated in [Figure 5](#fig5)(b). For a fixed initial
+in [Figure 5](#Figure5)(a). The initial angle $$ \theta_{0} $$ also has a dramatic
+effect on the range, as illustrated in [Figure 5](#Figure5)(b). For a fixed initial
 speed, such as might be produced by a cannon, the maximum range is obtained with
 $$ \theta_
 {0}=45^\circ $$. This is true only for conditions neglecting air resistance. If
@@ -507,7 +507,7 @@ range is large, the Earth curves away below the projectile and acceleration of
 gravity changes direction along the path. The range is larger than predicted by
 the range equation given above because the projectile has farther to fall than
 it would on level ground. (
-See [Figure 6](#fig6).) If the initial speed is great enough, the projectile
+See [Figure 6](#Figure6).) If the initial speed is great enough, the projectile
 goes into orbit. This possibility was recognized centuries before it could be
 accomplished. When an object is in orbit, the Earth curves away from underneath
 the object at the same rate as it falls. The object thus falls continuously but
@@ -523,7 +523,7 @@ two-dimensional kinematics and will also yield insights beyond the immediate
 topic.
 
 ![A figure of the Earth is shown and on top of it a very high tower is placed. A projectile satellite is launched from this very high tower with initial velocity of v zero in the horizontal direction. Several trajectories are shown with increasing range. A circular trajectory is shown indicating the satellite achieved its orbit and it is revolving around the Earth.](../resources/Figure_03_04_06a.jpg "Projectile to satellite. In each case shown here, a projectile is launched from a very high tower to avoid air resistance. With increasing initial speed, the range increases and becomes longer than it would be on level ground because the Earth curves away underneath its path. With a large enough initial speed, orbit is achieved.")
-{: #fig6}
+{: #Figure6}
 
 <div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
@@ -756,7 +756,7 @@ A rugby player passes the ball 7.00 m across the field, where it is caught at th
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Verify the ranges for the projectiles in [Figure 5](#fig5)(a) for $$ \theta =45^\circ $$
+Verify the ranges for the projectiles in [Figure 5](#Figure5)(a) for $$ \theta =45^\circ $$
 and the given initial velocities.
 
 </div>
@@ -774,7 +774,7 @@ R=255\m $$ for $$ v_{0}=50 \ms $$.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Verify the ranges shown for the projectiles in [Figure 5](#fig5)(b) for an initial velocity of 50 m/s at the given initial angles.
+Verify the ranges shown for the projectiles in [Figure 5](#Figure5)(b) for an initial velocity of 50 m/s at the given initial angles.
 
 </div>
 </div>
@@ -1052,7 +1052,6 @@ of multiple solutions given the distances and heights you have chosen.
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

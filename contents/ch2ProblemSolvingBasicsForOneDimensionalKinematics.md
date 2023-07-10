@@ -10,7 +10,7 @@ layout: page
 </div>
 
 ![Close-up photo of a hand writing in a notebook. On top of the notebook is a graphing calculator.](../resources/Figure_02_06_00.jpg "Problem-solving skills are essential to your success in Physics. (credit: scui3asteveo, Flickr)")
-{: #fig1}
+{: #Figure1}
 
 Problem-solving skills are obviously essential to success in a quantitative
 course in physics. More importantly, the ability to apply broad physical
@@ -104,7 +104,7 @@ Physics must describe nature accurately. Some problems have results that are
 unreasonable because one premise is unreasonable or because certain premises are
 inconsistent with one another. The physical principle applied correctly then
 produces an unreasonable result. For example, if a person starting a foot race
-accelerates at $$ 0.40 \mss $$ for 100 s, his final speed will be 40 m/s (about
+accelerates at $$ 0.40 \mss $$ for 100 s, their final speed will be 40 m/s (about
 150 km/h)—clearly unreasonable because the time of 100 s is an unreasonable
 premise. The physics is correct in a sense, but there is more to describing
 nature than just manipulating equations correctly. Checking the result of a

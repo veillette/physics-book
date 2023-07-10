@@ -11,7 +11,7 @@ layout: page
 </div>
 
 If you have ever spun a bike wheel or pushed a merry-go-round, you know that
-force is needed to change angular velocity as seen in [Figure 1](#fig1). In
+force is needed to change angular velocity as seen in [Figure 1](#Figure1). In
 fact, your intuition is reliable in predicting many of the factors that are
 involved. For example, we know that a door opens slowly if we push too close to
 its hinges. Furthermore, we know that the more massive the door, the more slowly
@@ -23,12 +23,12 @@ acceleration embodied in Newton’s second law of motion. There are, in fact,
 precise rotational analogs to both force and mass.
 
 ![The given figure shows a bike tire being pulled by a hand with a force F backward indicated by a red horizontal arrow that produces an angular acceleration alpha indicated by a curved yellow arrow in counter-clockwise direction.](../resources/Figure_10_03_01a.jpg "Force is required to spin the bike wheel. The greater the force, the greater the angular acceleration produced. The more massive the wheel, the smaller the angular acceleration. If you push on a spoke closer to the axle, the angular acceleration will be smaller.")
-{: #fig1}
+{: #Figure1}
 
 To develop the precise relationship among force, mass, radius, and angular
 acceleration, consider what happens if we exert a force $$ F $$ on a point mass
 $$ m $$ that is at a distance $$ r $$ from a pivot point, as shown
-in [Figure 2](#fig2). Because the force is perpendicular to $$ r $$, an
+in [Figure 2](#Figure2). Because the force is perpendicular to $$ r $$, an
 acceleration $$ a=\frac{F}{m} $$ is obtained in the direction of $$ F $$. We can
 rearrange this equation such that $$ F=ma $$ and then look for ways to relate
 this expression to expressions for rotational quantities. We note that $$ a=r
@@ -60,7 +60,7 @@ analogous to mass (or inertia). The quantity $$ m r^{2} $$ is called the
 $$ r $$ from the center of rotation.
 
 ![The given figure shows an object of mass m, kept on a horizontal frictionless table, attached to a pivot point, which is in the center of the table, by a cord that supplies centripetal force. A force F is applied to the object perpendicular to the radius r, which is indicated by a red arrow tangential to the circle, causing the object to move in counterclockwise direction.](../resources/Figure_10_03_02a.jpg "An object is supported by a horizontal frictionless table and is attached to a pivot point by a cord that supplies centripetal force. A force \( F \) is applied to the object perpendicular to the radius \( r \) , causing it to accelerate about the pivot point. The force is kept perpendicular to \( r \) .")
-{: #fig2}
+{: #Figure2}
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -76,7 +76,7 @@ mass that behave just as we would expect from our earlier experiences.
 ### Rotational Inertia and Moment of Inertia
 
 Before we can consider the rotation of anything other than a point mass like the
-one in [Figure 2](#fig2), we must extend the idea of rotational inertia to all
+one in [Figure 2](#Figure2), we must extend the idea of rotational inertia to all
 types of objects. To expand our concept of rotational inertia, we define the 
 **moment of inertia** $$ I $$ of an object to be the sum of $$ m r^{2} $$ for all
 the point masses of which it is composed. That is, $$ I=\sum m r^{2} $$. Here $$
@@ -87,7 +87,7 @@ case—that of a hoop, which has all its mass at the same distance from its axis
 A hoop’s moment of inertia around its axis is therefore $$ MR^{2} $$, where $$ M
 $$ is its total mass and $$ R $$ its radius. (We use $$ M $$ and $$ R $$ for an
 entire object to distinguish them from $$ m $$ and $$ r $$ for point masses.) In
-all other cases, we must consult [Figure 3](#fig3) (note that the table is piece
+all other cases, we must consult [Figure 3](#Figure3) (note that the table is piece
 of artwork that has shapes as well as formulae) for formulas for $$ I $$ that
 have been derived from integration over the continuous body. Note that $$ I $$
 has units of mass multiplied by distance squared
@@ -156,7 +156,7 @@ Making Connections
 In statics, the net torque is zero, and there is no angular acceleration. In rotational motion, net torque is the cause of angular acceleration, exactly as in Newton’s second law of motion for rotation.
 
 ![Illustrations of ten different objects accompanied by their rotational inertias.](../resources/Figure_10_03_06.jpg "Some rotational inertias.")
-{: #fig3 height="525"}
+{: #Figure3 height="525"}
 
 </div>
 
@@ -164,7 +164,7 @@ In statics, the net torque is zero, and there is no angular acceleration. In rot
 <div class="title">
 Calculating the Effect of Mass Distribution on a Merry-Go-Round
 </div>
-Consider the father pushing a playground merry-go-round in [Figure 4](#fig4).
+Consider the father pushing a playground merry-go-round in [Figure 4](#Figure4).
 He exerts a force
 of 250 N at the edge of the 50.0-kg merry-go-round, which has a 1.50 m radius.
 Calculate the angular acceleration produced
@@ -173,7 +173,7 @@ Calculate the angular acceleration produced
 Consider the merry-go-round itself to be a uniform disk with negligible retarding friction.
 
 ![The given figure shows a man pushing a merry-go-round by a force F, indicated by a red arrow which is perpendicular to the radius r, of the merry-go-round, such that it moves in counter-clockwise direction.](../resources/Figure_10_03_03a.jpg "A father pushes a playground merry-go-round at its edge and perpendicular to its radius to achieve maximum torque.")
-{: #fig4}
+{: #Figure4}
 
 **Strategy**
 
@@ -195,7 +195,7 @@ applied force is perpendicular to the radius and friction is negligible, so that
 **Solution for (a)**
 
 The moment of inertia of a solid disk about this axis is given
-in [Figure 3](#fig3) to be
+in [Figure 3](#Figure3) to be
 
 <div class="equation">
  $$ \frac{1}{2} MR^{2}, $$
@@ -359,7 +359,7 @@ to achieve greater accelerations than would an identical
 reduction in the mass of the bicycle’s frame?
 
 ![The given figure shows a racing bicycle leaning on a door.](../resources/Figure_10_03_04a.jpg "The image shows a side view of a racing bicycle. Can you see evidence in the design of the wheels on this racing bicycle that their moment of inertia has been purposely reduced? (credit: Jes&#xFA;s Rodriguez)")
-{: #fig5}
+{: #Figure5}
 
 </div>
 </div>
@@ -450,14 +450,14 @@ an opposing frictional force of 20.0 N exerted 1.50 cm from the axis?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Consider the 12.0 kg motorcycle wheel shown in [Figure 6](#fig6). Assume it 
+Consider the 12.0 kg motorcycle wheel shown in [Figure 6](#Figure6). Assume it 
 to be approximately an annular ring with an inner radius of 0.280 m and an outer radius of 0.330 m. The motorcycle is on its center stand, so that the wheel can spin freely.
 (a) If the drive chain exerts a force of 2200 N at a radius of 5.00 cm, what is the angular acceleration of the wheel?
 (b) What is the tangential acceleration of a point on the outer edge of the tire?
 (c) How long, starting from rest, does it take to reach an angular velocity of 80.0 rad/s?
 
 ![The given figure shows the rear wheel of a motorcycle. A force F is indicated by a red arrow pointing leftward at a distance r from its center. Two arrows representing radii R-one and R-two are also indicated. A curved yellow arrow indicates an acceleration alpha and a curved blue arrow indicates an angular velocity omega, both in counter-clockwise direction.](../resources/Figure_10_03_05a.jpg "A motorcycle wheel has a moment of inertia approximately that of an annular ring.")
-{: #fig6}
+{: #Figure6}
 
 </div>
 </div>
@@ -494,7 +494,7 @@ An automobile engine can produce 200 N ∙ m of torque. Calculate the angular ac
 Starting with the formula for the moment of inertia of a rod rotated around an axis through one end perpendicular to its length
 $$ \left(I=M\ell^{2}/3\right) $$, prove that the moment of inertia of a rod rotated about an axis through its
 center perpendicular to its length is $$I= M\ell^{2}/12 $$.
-You will find the graphics in [Figure 3](#fig3) useful in visualizing
+You will find the graphics in [Figure 3](#Figure3) useful in visualizing
 these rotations.
 
 </div>
@@ -559,7 +559,6 @@ spin rate (angular velocity).
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

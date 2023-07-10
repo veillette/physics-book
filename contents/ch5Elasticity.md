@@ -39,7 +39,7 @@ to
 </div>
 
 makes it clear that the deformation is proportional to the applied
-force. [Figure 1](#fig1) shows the Hooke’s law relationship between the
+force. [Figure 1](#Figure1) shows the Hooke’s law relationship between the
 extension $$ \Delta L $$ of a spring or of a human bone. For metals or springs,
 the straight line region in which Hooke’s law pertains is much larger. Bones are
 brittle and the elastic region is small and the fracture abrupt. Eventually a
@@ -65,7 +65,7 @@ object and the direction of the force.
 </div>
 
 ![Line graph of change in length versus applied force. The line has a constant positive slope from the origin in the region where Hooke&#x2019;s law is obeyed. The slope then decreases, with a lower, still positive slope until the end of the elastic region. The slope then increases dramatically in the region of permanent deformation until fracturing occurs.](../resources/Figure_05_03_01a.jpg "A graph of deformation \( \Delta L \) versus applied force \( F \) . The straight segment is the linear region where Hooke&#x2019;s law is obeyed. The slope of the straight region is \( k \). For larger forces, the graph is curved but the deformation is still elastic&#x2014; \( \Delta L \) will return to zero if the force is removed. Still greater forces permanently deform the object until it finally fractures. The shape of the curve near fracture depends on several factors, including how the force \( F \) is applied. Note that in this graph the slope increases just before fracture, indicating that a small increase in \( F \) is producing a large increase in \( L \) near the fracture.")
-{: #fig1}
+{: #Figure1}
 
 The proportionality constant $$ k $$ depends upon a number of factors for the
 material. For example, a guitar string made of nylon stretches when it is
@@ -73,13 +73,13 @@ tightened, and the elongation $$ \Delta L $$ is proportional to the force
 applied (at least for small deformations). Thicker nylon strings and ones made
 of steel stretch less for the same applied force, implying they have a larger $$
 k $$
-(see [Figure 2](#fig2)). Finally, all three strings return to their normal
+(see [Figure 2](#Figure2)). Finally, all three strings return to their normal
 lengths when the force is removed, provided the deformation is small. Most
 materials will behave in this manner if the deformation is less than about 0.1%
 or about 1 part in $$ 10^{3} $$.
 
 ![Diagram of weight w attached to each of three guitar strings of initial length L zero hanging vertically from a ceiling. The weight pulls down on the strings with force w. The ceiling pulls up on the strings with force w. The first string of thin nylon has a deformation of delta L due to the force of the weight pulling down. The middle string of thicker nylon has a smaller deformation. The third string of thin steel has the smallest deformation.](../resources/Figure_05_03_02a.jpg "The same force, in this case a weight ( \( w \) ), applied to three different guitar strings of identical length produces the three different deformations shown as shaded segments. The string on the left is thin nylon, the one in the middle is thicker nylon, and the one on the right is steel.")
-{: #fig2}
+{: #Figure2}
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -102,10 +102,10 @@ otherwise stated.
 A change in length $$ \Delta L $$ is produced when a force is applied to a wire
 or rod parallel to its length $$ L_{0} $$, either stretching it (a tension) or
 compressing it. (
-See [Figure 3](#fig3).)
+See [Figure 3](#Figure3).)
 
 ![Figure a is a cylindrical rod standing on its end with a height of L sub zero. Two vectors labeled F extend away from each end. A dotted outline indicates that the rod is stretched by a length of delta L. Figure b is a similar rod of identical height L sub zero, but two vectors labeled F exert a force toward the ends of the rod. A dotted line indicates that the rod is compressed by a length of delta L.](../resources/Figure_05_03_03a.jpg "(a) Tension. The rod is stretched a length \( \Delta L \) when a force is applied parallel to its length. (b) Compression. The same rod is compressed by forces with the same magnitude in the opposite direction. For very small deformations and uniform materials, \( \Delta L \) is approximately the same for the same magnitude of tension or compression. For larger deformations, the cross-sectional area changes as the rod is compressed or stretched.")
-{: #fig3}
+{: #Figure3}
 
 Experiments have shown that the change in length ( $$ \Delta L $$)
 depends on only a few variables. As already noted, $$ \Delta L $$ is
@@ -123,7 +123,7 @@ combine all these factors into one equation for $$ \Delta L $$:
 where $$ \Delta L $$ is the change in length, $$ F $$ the applied force, $$ Y $$
 is a factor, called the elastic modulus or Young’s modulus, that depends on the
 substance, $$ A $$ is the cross-sectional area, and $$ L_{0} $$ is the original
-length. [Table 1](#table1) lists values of $$ Y$$ for several materials—those
+length. [Table 1](#Table1) lists values of $$ Y$$ for several materials—those
 with a large $$ Y $$ are said to have a large tensile stiffness because they
 deform less for a given tension or compression.
 
@@ -155,18 +155,17 @@ deform less for a given tension or compression.
 |Glycerin|||4.5|
 |Mercury|||25|
 |Water|||2.2|
-
-{: #table1}
+{: #Table1}
 
 [^1]: Footnote: Approximate and average values. Young’s moduli $$ Y $$ for
 tension and compression sometimes differ but are averaged here. Bone has
 significantly different Young’s moduli for tension and compression.
 
-Young’s moduli are not listed for liquids and gases in [Table 1](#table1)
+Young’s moduli are not listed for liquids and gases in [Table 1](#Table1)
 because they cannot be stretched or compressed in only one direction. Note that
 there is an assumption that the object does not accelerate, so that there are
 actually two applied forces of magnitude $$ F $$ acting in opposite directions.
-For example, the strings in [Figure 3](#fig3) are being pulled down by a force
+For example, the strings in [Figure 3](#Figure3) are being pulled down by a force
 of magnitude $$ w $$ and held up by the ceiling, which also exerts a force of
 magnitude $$ w $$.
 
@@ -174,10 +173,10 @@ magnitude $$ w $$.
 <div class="title">
 The Stretch of a Long Cable
 </div>
-Suspension cables are used to carry gondolas at ski resorts. (See [Figure 4](#fig4)) Consider a suspension cable that includes an unsupported span of 3020 m. Calculate the amount of stretch in the steel cable. Assume that the cable has a diameter of 5.6 cm and the maximum tension it can withstand is $$ 3.0\times 10^{6}\N $$.
+Suspension cables are used to carry gondolas at ski resorts. (See [Figure 4](#Figure4)) Consider a suspension cable that includes an unsupported span of 3020 m. Calculate the amount of stretch in the steel cable. Assume that the cable has a diameter of 5.6 cm and the maximum tension it can withstand is $$ 3.0\times 10^{6}\N $$.
 
 ![Ski gondolas travel along suspension cables. A vast forest and snowy mountain peaks can be seen in the background.](../resources/Figure_05_03_04a.jpg "Gondolas travel along suspension cables at the Gala Yuzawa ski resort in Japan. (credit: Rudy Herman, Flickr)")
-{: #fig4}
+{: #Figure4}
 
 **Strategy**
 
@@ -220,7 +219,7 @@ bone damage due to sustained compressions in bone joints and tendons.
 Another biological example of Hooke’s law occurs in tendons. Functionally, the
 tendon (the tissue connecting muscle to bone) must stretch easily at first when
 a force is applied, but offer a much greater restoring force for a greater
-strain. [Figure 5](#fig5) shows a stress-strain relationship for a human tendon.
+strain. [Figure 5](#Figure5) shows a stress-strain relationship for a human tendon.
 Some tendons have a high collagen content so there is relatively little strain,
 or length change; others, like support tendons (as in the leg) can change length
 up to 10%. Note that this stress-strain curve is nonlinear, since the slope of
@@ -235,7 +234,7 @@ to bone)
 behave in a similar way.
 
 ![The strain on mammalian tendon is shown by a graph, with strain along the x axis and tensile stress along the y axis. The stress strain curve obtained has three regions, namely, toe region at the bottom, linear region between, and failure region at the top.](../resources/Figure_05_03_05_xa.jpg "Typical stress-strain curve for mammalian tendon. Three regions are shown: (1) toe region (2) linear region, and (3) failure region.")
-{: #fig5}
+{: #Figure5}
 
 Unlike bones and tendons, which need to be strong as well as elastic, the
 arteries and lungs need to be very stretchable. The elastic properties of the
@@ -288,7 +287,7 @@ This small change in length seems reasonable, consistent with our experience
 that bones are rigid. In fact, even the rather large forces encountered during
 strenuous physical activity do not compress or bend bones by large amounts.
 Although bone is rigid compared with fat or muscle, several of the substances
-listed in [Table 1](#table1) have larger values of Young’s modulus $$ Y $$. In
+listed in [Table 1](#Table1) have larger values of Young’s modulus $$ Y $$. In
 other words, they are more rigid.
 
 </div>
@@ -351,7 +350,7 @@ is defined as strain (a unitless quantity). In other words,
 
 ### Sideways Stress: Shear Modulus
 
-[Figure 6](#fig6) illustrates what is meant by a sideways stress or a *shearing
+[Figure 6](#Figure6) illustrates what is meant by a sideways stress or a *shearing
 force*. Here the deformation is called $$ \Delta x $$ and it is perpendicular to
 $$ L_{0} $$, rather than parallel as with tension and compression. Shear
 deformation behaves similarly to tension and compression and can be described
@@ -363,10 +362,10 @@ with similar equations. The expression for
 </div>
 
 where $$ S $$ is the shear modulus (
-see [Table 1](#table1)) and $$ F $$ is the force applied perpendicular to $$ L_
+see [Table 1](#Table1)) and $$ F $$ is the force applied perpendicular to $$ L_
 {0} $$ and parallel to the cross-sectional area $$ A $$. Again, to keep the
 object from accelerating, there are actually two equal and opposite forces $$ F
-$$ applied across opposite faces, as illustrated in [Figure 6](#fig6). The
+$$ applied across opposite faces, as illustrated in [Figure 6](#Figure6). The
 equation is logical—for example, it is easier to bend a long thin pencil (small
 $$ A $$ )
 than a short thick one, and both are more easily bent than similar steel rods (
@@ -386,9 +385,9 @@ and parallel to the cross-sectional area $$ A $$.
 </div>
 
 ![Bookcase sheared by a force applied at the bottom right toward the bottom left, and at the top left toward the top right.](../resources/Figure_05_03_06a.jpg "Shearing forces are applied perpendicular to the length \( L_0 \) and parallel to the area \( A \), producing a deformation \( \Delta x \). Vertical forces are not shown, but it should be kept in mind that in addition to the two shearing forces, \( F \) , there must be supporting forces to keep the object from rotating. The distorting effects of these supporting forces are ignored in this treatment. The weight of the object also is not shown, since it is usually negligible compared with forces large enough to cause significant deformations.")
-{: #fig6}
+{: #Figure6}
 
-Examination of the shear moduli in [Table 1](#table1)
+Examination of the shear moduli in [Table 1](#Table1)
 reveals some telling patterns. For example, shear moduli are less than Young’s
 moduli for most materials. Bone is a remarkable exception. Its shear modulus is
 not only greater than its Young’s modulus, but it is as large as that of steel.
@@ -420,12 +419,12 @@ response to shearing forces.
 <div class="title">
 Calculating Force Required to Deform: That Nail Does Not Bend Much Under a Load
 </div>
-Find the mass of the picture hanging from a steel nail as shown in [Figure 7](#fig7),
+Find the mass of the picture hanging from a steel nail as shown in [Figure 7](#Figure7),
 given that the nail bends only $$ 1.80\times 10^{-6} \m $$. (Assume the shear
 modulus is known to two significant figures.)
 
 ![Diagram showing the side view a nail in a wall, deformed by the weight of a picture hanging from it. The weight w of the picture is downward. There is an equal force w upward on the nail from the wall. The nail is 1 point five zero millimeters thick. The length of the nail that is outside the wall is five point zero zero millimeters. The deformation delta x of the nail as a result of the picture is 1 point eight zero micrometers.](../resources/Figure_05_03_08a.jpg "Side view of a nail with a picture hung from it. The nail flexes very slightly (shown much larger than actual) because of the shearing effect of the supported weight. Also shown is the upward force of the wall on the nail, illustrating that there are equal and opposite forces applied across opposite cross sections of the nail.")
-{: #fig7}
+{: #Figure7}
 
 **Strategy**
 
@@ -442,7 +441,7 @@ see that all other quantities can be found:
 <div class="equation">
  $$ F= \frac{S A}{L_{0}} \Delta x. $$
 </div>
-*S* is found in [Table 1](#table1) and is
+*S* is found in [Table 1](#Table1) and is
 $$ S=80 \times 10^{9} \text{N/m}^{2} $$. The radius $$ r $$
 is 0.750 mm (as seen in the figure), so the cross-sectional area is
 
@@ -470,7 +469,7 @@ $$ 1.80\times 10^{-6} \m $$ —an amount undetectable to the unaided eye.
 ### Changes in Volume: Bulk Modulus
 
 An object will be compressed in all directions if inward forces are applied
-evenly on all its surfaces as in [Figure 8](#fig8). It is relatively easy to
+evenly on all its surfaces as in [Figure 8](#Figure8). It is relatively easy to
 compress gases and extremely difficult to compress liquids and solids. For
 example, air in a wine bottle is compressed when it is corked. But if you try
 corking a brim-full bottle, you cannot compress the wine—some must be removed if
@@ -482,7 +481,7 @@ actually compress their atoms and molecules, and very strong electromagnetic
 forces in them oppose this compression.
 
 ![A cube with area of cross section A and volume V zero is compressed by an inward force F acting on all surfaces. The compression causes a change in volume delta V, which is proportional to the force per unit area and its original volume. This change in volume is related to the compressibility of the substance.](../resources/Figure_05_03_09a.jpg "An inward force on all surfaces compresses this cube. Its change in volume is proportional to the force per unit area and its original volume, and is related to the compressibility of the substance.")
-{: #fig8}
+{: #Figure8}
 
 We can describe the compression or volume deformation of an object with an
 equation. First, we note that a force “applied evenly” is defined to have the
@@ -497,7 +496,7 @@ change in volume to other physical quantities is given by
  $$ \Delta V=\frac{1}{B}\frac{F}{A} V_{0}, $$
 </div>
 
-where $$ B $$ is the bulk modulus (see [Table 1](#table1)), $$ V_{0} $$ is the
+where $$ B $$ is the bulk modulus (see [Table 1](#Table1)), $$ V_{0} $$ is the
 original volume, and $$ \frac{F}{A} $$ is the force per unit area applied
 uniformly inward on all surfaces. Note that no bulk moduli are given for gases.
 
@@ -534,7 +533,7 @@ Solving for the unknown $$ \frac{ \Delta V}{ V_{0}} $$ gives
  $$ \frac{ \Delta V}{ V_{0}}=\frac{1}{B}\frac{F}{A}. $$
 </div>
 Substituting known values with the value for the bulk modulus
-$$ B $$ from [Table 1](#table1),
+$$ B $$ from [Table 1](#Table1),
 
 <div class="equation">
  $$ \begin{array}{lll}
@@ -578,7 +577,7 @@ height="450"  allowfullscreen></iframe>
 Hooke's Law
 </figcaption>
 </figure>
-{: fig9}
+{ Figure9}
 </div>
 
 ### Section Summary
@@ -901,7 +900,7 @@ was originally 15 m long and 0.50 cm in diameter.
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-The pole in [Figure 10](#fig10) is at a $$ 90.0^\circ $$
+The pole in [Figure 10](#Figure10) is at a $$ 90.0^\circ $$
 bend in a power line and is therefore subjected to more shear force than poles
 in straight parts of the line. The tension in each line is $$ 4.00 \times
 10^{4}N $$, at the angles shown. The pole is 15.0 m tall, has an 18.0 cm
@@ -913,13 +912,12 @@ to the top of the pole at an angle of $$ 30.0^\circ $$ with the vertical. (
 Clearly, the guy wire must be in the opposite direction of the bend.)
 
 ![A telephone pole is located at a ninety degree bend in a power line. Each part of the line is at an angle of eighty degrees with the pole and has a tension labeled T. A guy wire is attached to the top of the pole at an angle of thirty degrees with the vertical.](../resources/Figure_05_03_10a.jpg "This telephone pole is at a 90 degrees bend in a power line. A guy wire is attached to the top of the pole at an angle of 30 degrees with the vertical.")
-{: #fig10}
+{: #Figure10}
 
 </div>
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

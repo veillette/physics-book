@@ -4,7 +4,7 @@ layout: page
 ---
 
 ![The figure shows, from front, a red and silver coloured Formula One car turning through a curve in a race on the Melbourne Grand Prix track, with the driver in seat.](../resources/Figure_06_00_01a.jpg "This Australian Grand Prix Formula 1 race car moves in a circular path as it makes the turn. Its wheels also spin rapidly&#x2014;the latter completing many revolutions, the former only part of one (a circular arc). The same physical principles are involved in each. (credit: Richard Munckton)")
-{: #fig1}
+{: #Figure1}
 
 Many motions, such as the arc of a bird’s flight or Earth’s path around the Sun,
 are curved. Recall that Newton’s first law tells us that motion is along a
@@ -24,11 +24,10 @@ Some motion combines both types, such as a rotating hockey puck moving along
 ice.
 
 <div class="note" data-label="Video" markdown="1">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iP4RYkt_ur4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iP4RYkt_ur4"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

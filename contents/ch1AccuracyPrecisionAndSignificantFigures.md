@@ -6,14 +6,13 @@ layout: page
 <div class="abstract" markdown="1">
 * Determine the appropriate number of significant figures in both addition and subtraction, as well as multiplication and division calculations.
 * Calculate the percent uncertainty of a measurement.
-
 </div>
 
 ![An old rusted double-pan balance is shown with a weighing stone on one pan.](../resources/Figure_01_03_01.jpg "A double-pan mechanical balance is used to compare different masses. Usually an object with unknown mass is placed in one pan and objects of known mass are placed in the other pan. When the bar that connects the two pans is horizontal, then the masses in both pans are equal. The &#x201C;known masses&#x201D; are typically metal cylinders of standard mass such as 1 gram, 10 grams, and 100 grams. (credit: Serge Melki)")
-{: #fig1}
+{: #Figure1}
 
 ![A digital analytical balance.](../resources/Figure_01_03_02.jpg "Many mechanical balances, such as double-pan balances, have been replaced by digital scales, which can typically measure the mass of an object more precisely. Whereas a mechanical balance may only read the mass of an object to the nearest tenth of a gram, many digital scales can measure the mass of an object up to the nearest thousandth of a gram. (credit: Karel Jakubec)")
-{: #fig2 height="250"}
+{: #Figure2 height="250"}
 
 ### Accuracy and Precision of a Measurement
 
@@ -45,19 +44,19 @@ cases, measurements are accurate but not precise, or they are precise but not
 accurate. Let us consider an example of a GPS system that is attempting to
 locate the position of a restaurant in a city. Think of the restaurant location
 as existing at the center of a bull’s-eye target, and think of each GPS attempt
-to locate the restaurant as a black dot. In [Figure 3](#fig3), you can see that
+to locate the restaurant as a black dot. In [Figure 3](#Figure3), you can see that
 the GPS measurements are spread out far apart from each other, but they are all
 relatively close to the actual location of the restaurant at the center of the
 target. This indicates a low precision, high accuracy measuring system. However,
-in [Figure 4](#fig4), the GPS measurements are concentrated quite closely to one
+in [Figure 4](#Figure4), the GPS measurements are concentrated quite closely to one
 another, but they are far away from the target location. This indicates a high
 precision, low accuracy measuring system.
 
 ![A pattern similar to a dart board with few concentric circles shown in white color on a red background. In the innermost circle, there are four black points on the circumference showing the positions of a restaurant. They are far apart from each other.](../resources/Figure_01_High_accuracy_Low_precision.svg "A GPS system attempts to locate a restaurant at the center of the bull&#x2019;s-eye. The black dots represent each attempt to pinpoint the location of the restaurant. The dots are spread out quite far apart from one another, indicating low precision, but they are each rather close to the actual location of the restaurant, indicating high accuracy. (credit: Dark Evil)")
-{: #fig3 height="75"}
+{: #Figure3 height="75"}
 
 ![A pattern similar to a dart board with a few concentric circles shown in white color on a red background. Near the outermost white circles there are four black points showing the positions of a restaurant. The black points are very close to each other.](../resources/Figure_01_High_precision_Low_accuracy.svg "In this figure, the dots are concentrated rather closely to one another, indicating high precision, but they are rather far away from the actual location of the restaurant, indicating low accuracy. (credit: Dark Evil)")
-{: #fig4 height="75"}
+{: #Figure4 height="75"}
 
 ### Accuracy, Precision, and Uncertainty
 
@@ -83,7 +82,8 @@ measurement include:
 1. Limitations of the measuring device,
 2. The skill of the person making the measurement,
 3. Irregularities in the object being measured,
-4. Any other factors that affect the outcome (highly dependent on the situation).
+4. Any other factors that affect the outcome (highly dependent on the situation)
+   .
 
 In our example, such factors contributing to the uncertainty could be the
 following: the smallest division on the ruler is 0.1 in., the person using the
@@ -100,11 +100,11 @@ Uncertainty is a critical piece of information, both in physics and
 in many other real-world applications. Imagine you are caring for a sick child.
 You suspect the child has a fever, so you check their temperature with a thermometer.
 What if the uncertainty of the thermometer
-were $$ 3.0^\circ \text{C} $$?
-If the child’s temperature reading was $$ 37.0^\circ \text{C} $$
+were  $$ 3.0^\circ \text{C}  $$?
+If the child’s temperature reading was  $$ 37.0^\circ \text{C}  $$
 (which is normal body temperature), the “true” temperature could be anywhere
-from a hypothermic $$ 34.0^\circ \text{C} $$ to a dangerously high $$ 40.0^\circ
-\text{C} $$. A thermometer with an uncertainty of $$ 3.0^\circ \text{C} $$ would
+from a hypothermic  $$ 34.0^\circ \text{C}  $$ to a dangerously high  $$ 40.0^\circ
+\text{C}  $$. A thermometer with an uncertainty of  $$ 3.0^\circ \text{C}  $$ would
 be useless.
 
 </div>
@@ -112,19 +112,18 @@ be useless.
 #### Percent Uncertainty
 
 One method of expressing uncertainty is as a percent of the measured value. If a
-measurement $$ A $$ is expressed with uncertainty, $$ \delta A $$, the **percent
-uncertainty** (%unc)
+measurement $$ A $$ is expressed with uncertainty, $$ \delta A $$, the **percent uncertainty** (%unc)
 is defined to be
 
 <div class="equation">
- $$ \% \text{unc} = \frac{ \delta A}{A} \times 100 \% . $$
+  $$ \% \text{unc} = \frac{ \delta A}{A} \times 100 \% .  $$
 </div>
 
 <div class="example" markdown="1">
 <div class="title">
 Calculating Percent Uncertainty: A Bag of Apples
 </div>
-A grocery store sells $$ 5\text{-lb} $$ bags of apples. You purchase four bags over the course of a month and weigh the
+A grocery store sells  $$ 5\text{-lb}  $$ bags of apples. You purchase four bags over the course of a month and weigh the
 apples each time. You obtain the following measurements:
 
 * Week 1 weight:
@@ -134,10 +133,9 @@ apples each time. You obtain the following measurements:
 * Week 3 weight:
   $$ 4.9 \text{lb} $$
 * Week 4 weight:
-  $$ 5.4 \text{lb} $$
-
-You determine that the weight of the $$ 5\text{-lb} $$ bag has an uncertainty of
-$$ \pm 0.4\text{lb} $$. What is the percent uncertainty of the bag’s weight?
+  $$ 5.4 \text{lb} $$ You determine that the weight of the $$ 5\text{-lb} $$ bag
+  has an uncertainty of $$ \pm 0.4\text{lb} $$. What is the percent uncertainty
+  of the bag’s weight?
 
 **Strategy**
 
@@ -146,7 +144,7 @@ The uncertainty in this value, $$ \delta A $$, is 0.4 lb. We can use the
 following equation to determine the percent uncertainty of the weight:
 
 <div class="equation">
- $$ \% \text{unc} =\frac{ \delta A}{A} \times 100 \% . $$
+  $$ \% \text{unc} =\frac{ \delta A}{A} \times 100 \% .  $$
 </div>
 
 **Solution**
@@ -154,7 +152,7 @@ following equation to determine the percent uncertainty of the weight:
 Plug the known values into the equation:
 
 <div class="equation">
- $$ \% \text{unc} =\frac{0.4\text{lb}}{5\text{lb}} \times 100  \% = 8 \% . $$
+  $$ \% \text{unc} =\frac{0.4\text{lb}}{5\text{lb}} \times 100  \% = 8 \% .  $$
 </div>
 
 **Discussion**
@@ -190,9 +188,9 @@ the floor is given to a tenth of a square meter.)
 Check Your Understanding
 </div>
 <div class="problem" markdown="1">
-A high school track coach has just purchased a new stopwatch. The stopwatch manual states that the stopwatch has an uncertainty of $$ \pm  0.05 \s $$. Runners on the track coach’s team regularly clock 100-m sprints of $$ 11.49 \s   $$
-to $$ 15.01 \s $$. At the school’s last track meet, the first-place sprinter came in at $$ 12.04 \s   $$
-and the second-place sprinter came in at $$ 12.07 \s $$. Will the coach’s new stopwatch be helpful in timing the sprint team? Why or
+A high school track coach has just purchased a new stopwatch. The stopwatch manual states that the stopwatch has an uncertainty of  $$ \pm  0.05 \s  $$. Runners on the track coach’s team regularly clock 100-m sprints of  $$ 11.49 \s    $$
+to  $$ 15.01 \s  $$. At the school’s last track meet, the first-place sprinter came in at  $$ 12.04 \s    $$
+and the second-place sprinter came in at  $$ 12.07 \s  $$. Will the coach’s new stopwatch be helpful in timing the sprint team? Why or
 why not?
 
 </div>
@@ -252,7 +250,7 @@ Determine the number of significant figures in the following measurements:
 
 (a) 0.0009
 (b) 15 450.0
-(c) $$ 6 \times 10^{3} $$
+(c)  $$ 6 \times 10^{3} $$
 (d) 87.990
 (d) 30.42
 </div>
@@ -290,8 +288,8 @@ significant figures the area has if the radius has only two—say, $$ r=1.2\m $$
 Then,
 
 <div class="equation">
- $$ A=\pi r^{2}=\left(3.1415927 \dots \right) \times  \left(1.2\m  \right)^{2}
-=4.5238934 \mm $$
+  $$ A=\pi r^{2}=\left(3.1415927 \dots \right) \times  \left(1.2\m  \right)^{2}
+=4.5238934 \mm  $$
 </div>
 
 is what you would get using a calculator that has an eight-digit output. But
@@ -299,7 +297,7 @@ because the radius has only two significant figures, it limits the calculated
 quantity to two significant figures or
 
 <div class="equation">
- $$ A=4.5 \mm, $$
+  $$ A=4.5 \mm,  $$
 </div>
 
 even though $$ \pi $$ is good to at least eight digits.
@@ -314,7 +312,7 @@ potatoes do you now have, and how many significant figures are appropriate in
 the answer? The mass is found by simple addition and subtraction:
 
 <div class="equation">
-$$
+ $$
 \eqalign{
 7 & . & 56 \kg \\
 -6 & . & 052 \kg \\
@@ -322,7 +320,7 @@ $$
  \hline
 15 & . & 208 \kg  \rightarrow  15.2 \kg
 }
-$$
+ $$
 </div>
 
 Next, we identify the least precise measurement: 13.7 kg. This measurement is
@@ -350,7 +348,7 @@ Check Your Understanding
 <div class="problem" markdown="1">
 Perform the following calculations and express your answer using the correct number of significant digits.
 
-(a) A woman has two bags weighing 13.5 pounds and one bag with a weight of 10.2
+(a) A woman has two bags, each weighing 13.5 pounds and one bag with a weight of 10.2
 pounds. What is the total weight of the bags?
 
 (b) The force $$ F $$ on an object is equal to its mass $$ m $$ multiplied by
@@ -439,21 +437,19 @@ A good-quality measuring tape can be off by 0.50 cm over a distance of 20 m. Wha
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) A car speedometer has a $$ 5.0 \% $$ uncertainty. What is the range of
-possible speeds when it reads $$ 90\text{km/h} $$ ?
-(b) Convert this range to miles per hour. $$ \left(1 \text{km}= 0.6214 \text{mi}\right) $$
+(a) A car speedometer has a  $$ 5.0 \%  $$ uncertainty. What is the range of
+possible speeds when it reads  $$ 90\text{km/h}  $$ ?
+(b) Convert this range to miles per hour.  $$ \left(1 \text{km}= 0.6214 \text{mi}\right)  $$
 </div>
 <div class="solution" markdown="1">
-(a) $$ 85.5\text{to } 94.5 \text{km/h} $$
-
-(b) $$ 53.1\text{to } 58.7 \text{mi/h} $$
-
+(a)  $$ 85\text{to } 95 \text{km/h}  $$
+(b)  $$ 53\text{to } 59 \text{mi/h}  $$
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-An infant’s pulse rate is measured to be $$ 130  \pm  5 $$ beats/min.
+An infant’s pulse rate is measured to be  $$ 130  \pm  5  $$ beats/min.
 What is the percent uncertainty in this measurement?
 </div>
 </div>
@@ -466,11 +462,9 @@ How many beats do they have in 2.0 y?
 (c) In 2.000 y?
 </div>
 <div class="solution" markdown="1">
-(a) $$ 7.6\times 10^{7}\text{beats} $$
-
-(b) $$ 7.57 \times 10^{7}\text{beats} $$
-
-(c) $$ 7.57 \times 10^{7}\text{beats} $$
+(a)  $$ 7.6\times 10^{7}\text{beats}  $$
+(b)  $$ 7.57 \times 10^{7}\text{beats}  $$
+(c)  $$ 7.57 \times 10^{7}\text{beats}  $$
 </div>
 </div>
 
@@ -483,9 +477,9 @@ A can contains 375 mL of soda. How much is left after 308 mL is removed?
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 State how many significant figures are proper in the results of the following calculations:
-a. $$ \left(106.7\right)\left(98.2\right)/\left(46.210\right)\left(1.01\right) $$
-b. $$ \left(18.7\right)^{2} $$
-c. $$ \left(1.60 \times 10^{-19}\right) \left( 3712\right) $$.
+a.  $$ \left(106.7\right)\left(98.2\right)/\left(46.210\right)\left(1.01\right)  $$
+b.  $$ \left(18.7\right)^{2}  $$
+c.  $$ \left(1.60 \times 10^{-19}\right) \left( 3712\right)  $$.
 </div>
 <div class="solution" markdown="1">
 (a)  3
@@ -506,25 +500,24 @@ significant figures or percent uncertainties?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) If your speedometer has an uncertainty of $$ 2.0\text{km/h} $$
-at a speed of $$ 90\text{km/h} $$, what is the percent uncertainty?
+(a) If your speedometer has an uncertainty of  $$ 2.0\text{km/h}  $$
+at a speed of  $$ 90\text{km/h}  $$, what is the percent uncertainty?
 (b) If it has the same percent uncertainty
-when it reads $$ 60\text{km/h} $$, what is the range of speeds you could be going?
+when it reads  $$ 60\text{km/h}  $$, what is the range of speeds you could be going?
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 2.2 \% $$
-
-(b) $$ 59 \text{to 61 km/h} $$
+(a)  $$ 2.2 \%  $$
+(b)  $$ 59 \text{to 61 km/h}  $$
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) A person’s blood pressure is measured to be $$ 120  \pm  2\text{mm Hg} $$.
+(a) A person’s blood pressure is measured to be  $$ 120  \pm  2\text{mm Hg}  $$.
 What is its percent uncertainty?
 (b) Assuming the same percent uncertainty, what is the uncertainty in a
-blood pressure measurement of $$80 \text{mm Hg} $$ ?
+blood pressure measurement of  $$80 \text{mm Hg}  $$ ?
 
 </div>
 </div>
@@ -532,39 +525,37 @@ blood pressure measurement of $$80 \text{mm Hg} $$ ?
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A person measures their heart rate by counting the number of beats in
-$$30 \s $$. If $$ 40 \pm 1 $$ beats are counted in
-$$ 30.0 \pm 0.5\s  $$,
+ $$30 \s  $$. If  $$ 40 \pm 1  $$ beats are counted in
+ $$ 30.0 \pm 0.5\s   $$,
 what is the heart rate and its uncertainty in beats per minute?
 
 </div>
 <div class="solution" markdown="1">
- $$ 80 \pm 3\text{beats/min} $$
+  $$ 80 \pm 3\text{beats/min}  $$
+</div>
+</div>
+
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
+What is the area of a circle  $$ 3.102\text{cm}  $$ in diameter?
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What is the area of a circle $$ 3.102\text{cm} $$ in diameter?
-
-</div>
-</div>
-
-<div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
-If a marathon runner averages 9.5 mi/h, how long does it take him or her to run a 26.22-mi marathon?
+If a marathon runner averages 9.5 mi/h, how long does it take them to run a 26.22-mi marathon?
 
 </div>
 <div class="solution" markdown="1">
- $$ 2.8\text{h} $$
-
+  $$ 2.8\text{h}  $$
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A marathon runner completes a $$ 42.188\text{-km} $$ course in $$ 2\text{h} $$,
-30 min, and $$12 \s $$. There is an uncertainty of $$25 \m $$
+A marathon runner completes a  $$ 42.188\text{-km}  $$ course in  $$ 2\text{h}  $$,
+30 min, and  $$12 \s  $$. There is an uncertainty of  $$25 \m  $$
 in the distance traveled and an uncertainty of 1 s in the elapsed time.
 (a) Calculate the percent uncertainty in the distance.
 (b) Calculate the uncertainty in the elapsed time.
@@ -576,22 +567,21 @@ in the distance traveled and an uncertainty of 1 s in the elapsed time.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-The sides of a small rectangular box are measured to be $$ 1.80 \pm 0.01\text{cm} $$,
-$$ 2.05 \pm 0.02\text{cm}$$,and $$3.0 \pm 0.1 \text{cm} $$
+The sides of a small rectangular box are measured to be  $$ 1.80 \pm 0.01\text{cm}  $$,
+ $$ 2.05 \pm 0.02\text{cm} $$,and  $$3.0 \pm 0.1 \text{cm}  $$
 long. Calculate its volume and uncertainty in cubic centimeters.
 
 </div>
 <div class="solution" markdown="1">
- $$ 11 \pm 1 \text{cm}^{3} $$
-
+  $$ 11 \pm 1 \text{cm}^{3}  $$
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 When non-metric units were used in the United Kingdom, a unit of mass called
-the **pound-mass** (lbm) was employed, where $$ 1\text{lbm}=0.4539\kg $$.
-(a) If there is an uncertainty of $$ 0.0001\kg  $$
+the **pound-mass** (lbm) was employed, where  $$ 1\text{lbm}=0.4539\kg  $$.
+(a) If there is an uncertainty of  $$ 0.0001\kg   $$
 in the pound-mass unit, what is its percent uncertainty?
 (b) Based on that percent uncertainty, what mass in pound-mass has an uncertainty of 1 kg when
 converted to kilograms?
@@ -602,19 +592,18 @@ converted to kilograms?
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 The length and width of a rectangular room are measured to be
-$$ 3.955 \pm 0.005\m $$ and $$ 3.050 \pm 0.005\m $$.
+ $$ 3.955 \pm 0.005\m  $$ and  $$ 3.050 \pm 0.005\m  $$.
 Calculate the area of the room and its uncertainty in square meters.
 </div>
 <div class="solution" markdown="1">
- $$ 12.06 \pm 0.04 \mm $$
-
+  $$ 12.06 \pm 0.04 \mm  $$
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A car engine moves a piston with a circular cross section of
-$$ 7.500 \pm 0.002\text{cm} $$ diameter a distance of $$ 3.250 \pm 0.001\text{cm} $$
+A car engine moves a piston with a circular cross-section of
+ $$ 7.500 \pm 0.002\text{cm}  $$ diameter a distance of  $$ 3.250 \pm 0.001\text{cm}  $$
 to compress the gas in the cylinder.
 (a) By what amount is the gas decreased in
 volume in cubic centimeters?
@@ -624,7 +613,6 @@ volume in cubic centimeters?
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 
