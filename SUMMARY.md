@@ -83,7 +83,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     4. [Applications of Statics, Including Problem-Solving Strategies](contents/ch9ApplicationsOfStaticsIncludingProblemSolvingStrategies.md)
     5. [Simple Machines](contents/ch9SimpleMachines.md)
     6. [Forces and Torques in Muscles and Joints](contents/ch9ForcesAndTorquesInMusclesAndJoints.md)
-
+<!--
 11. {: .chapter} [Rotational Motion and Angular Momentum](contents/ch10RotationalMotionAndAngularMomentum.md)
     1. [Angular Acceleration](contents/ch10AngularAcceleration.md)
     2. [Kinematics of Rotational Motion](contents/ch10KinematicsOfRotationalMotion.md)
@@ -321,6 +321,6 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     5.  [Complexity and Chaos](contents/ch34ComplexityAndChaos.md)
     6.  [High-temperature Superconductors](contents/ch34HighTemperatureSuperconductors.md)
     7.  [Some Questions We Know to Ask](contents/ch34SomeQuestionsWeKnowToAsk.md)
-
+-->
 37. {: .appendix} [Useful Information](contents/appAUsefulInformation.md)
 38. {: .appendix} [Glossary of Key Symbols and Notation](contents/appBGlossaryOfKeySymbolsAndNotation.md)
