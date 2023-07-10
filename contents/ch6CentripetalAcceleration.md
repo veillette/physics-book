@@ -20,7 +20,7 @@ and the car are changing direction. The sharper the curve and the greater your
 speed, the more noticeable this acceleration will become. In this section we
 examine the direction and magnitude of that acceleration.
 
-[Figure 1](#fig1) shows an object moving in a circular path at constant speed.
+[Figure 1](#Figure1) shows an object moving in a circular path at constant speed.
 The direction of the instantaneous velocity is shown at two points along the
 path. Acceleration is in the direction of the change in velocity, which points
 directly toward the center of rotation (the center of the circular path). This
@@ -32,7 +32,7 @@ resulting from a net external force) the **centripetal acceleration**
 ![The given figure shows a circle, with a triangle having vertices A B C made from the center to the boundary. A is at the center and B and C points are at the circle path. Lines A B and A C act as radii and B C is a chord. Delta theta is shown inside the triangle, and the arc length delta s and the chord length delta r are also given. At point B, velocity of object is shown as v one and at point C, velocity of object is shown as v two. Along the circle an equation is shown as delta v equals v sub 2 minus v sub 1.](../resources/Figure_06_02_01a.jpg "The directions of the velocity of an object at two different points are shown, and the change in velocity \( \vb{\Delta v} \) is seen to point directly toward the center of curvature.
 (See small inset.) Because \( \vb{a}_c =\frac{ \vb{\Delta v} }{\Delta t} \), the acceleration is also toward the center; \( \vb{a}_c \) is called centripetal acceleration.
 (Because \( \Delta \theta \) is very small, the arc length \( \Delta s \) is equal to the chord length \( \Delta r \) for small time differences.)")
-{: #fig1}
+{: #Figure1}
 
 The direction of centripetal acceleration is toward the center of curvature, but
 what is its magnitude? Note that the triangle formed by the velocity vectors and
@@ -87,7 +87,7 @@ Recall that the direction of $$ \ac $$ is toward the center. You may use
 whichever expression is more convenient, as illustrated in examples below.
 
 A **centrifuge** (
-see [Figure 2](#fig2)b) is a rotating device used to separate specimens of
+see [Figure 2](#Figure2)b) is a rotating device used to separate specimens of
 different densities. High centripetal acceleration significantly decreases the
 time it takes for separation to occur, and makes separation possible with small
 samples. Centrifuges are used in a variety of applications in science and
@@ -104,7 +104,7 @@ accelerations larger than that of Earth’s gravity.
 <div class="title">
 How Does the Centripetal Acceleration of a Car Around a Curve Compare with That Due to Gravity?
 </div>
-What is the magnitude of the centripetal acceleration of a car following a curve of radius 500 m at a speed of 25.0 m/s (about 90 km/h)? Compare the acceleration with that due to gravity for this fairly gentle curve taken at highway speed. See [Figure 2](#fig2)(a).
+What is the magnitude of the centripetal acceleration of a car following a curve of radius 500 m at a speed of 25.0 m/s (about 90 km/h)? Compare the acceleration with that due to gravity for this fairly gentle curve taken at highway speed. See [Figure 2](#Figure2)(a).
 
 **Strategy**
 
@@ -131,7 +131,7 @@ wearing a seat belt.
 </div>
 
 ![In figure a, a car shown from top is running on a circular road around a circular path. The center of the park is termed as the center of this circle and the distance from this point to the car is taken as radius r. The linear velocity is shown in perpendicular direction toward the front of the car, shown as v the centripetal acceleration is shown with an arrow pointed towards the center of rotation. In figure b, a centrifuge is shown an object of mass m is rotating in it at a constant speed. The object is at the distance equal to the radius, r, of the centrifuge. The centripetal acceleration is shown towards the center of rotation, and the velocity, v is shown perpendicular to the object in the clockwise direction.](../resources/Figure_06_02_02a.jpg "(a) The car following a circular path at constant speed is accelerated perpendicular to its velocity, as shown. The magnitude of this centripetal acceleration is found in <a href="#example1">Example 1</a>. (b) A particle of mass in a centrifuge is rotating at constant angular velocity . It must be accelerated perpendicular to its velocity or it would continue in a straight line. The magnitude of the necessary acceleration is found in <a href="#example2">Example 2</a>.")
-{: #fig2}
+{: #Figure2}
 
 <div class="example" id="example2" markdown="1">
 <div class="title">
@@ -139,7 +139,7 @@ How Big Is the Centripetal Acceleration in an Ultracentrifuge?
 </div>
 Calculate the centripetal acceleration of a point 7.50 cm from the axis of an **ultracentrifuge**
 spinning at $$ 7.5 \times 10^{4} \text{rev/min.} $$ Determine the ratio of this acceleration to that due to gravity.
-See [Figure 2](#fig2)(b).
+See [Figure 2](#Figure2)(b).
 
 **Strategy**
 
@@ -406,37 +406,31 @@ cling to the rim?
 Riders in an amusement park ride shaped like a Viking ship hung from a large
 pivot are rotated back and forth like a rigid pendulum. Sometime near the middle
 of the ride, the ship is momentarily motionless at the top of its circular arc.
-The ship then swings down under the influence of gravity.
+The ship then swings down under the influence of gravity. The speed at the bottom of the arc is 16.6 m/s.
 
-(a) Assuming negligible friction, find the speed of the riders at the bottom of
-its arc, given the system's center of mass travels in an arc having a radius of
-14.0 m and the riders are near the center of mass.
+(a) What is the centripetal acceleration at the bottom of the arc?
 
-(b) What is the centripetal acceleration at the bottom of the arc?
-
-(c) Draw a free body diagram of the forces acting on a rider at the bottom of
+(b) Draw a free body diagram of the forces acting on a rider at the bottom of
 the arc.
 
-(d) Find the force exerted by the ride on a 60.0 kg rider and compare it to her
+(c) Find the force exerted by the ride on a 60.0 kg rider and compare it to their
 weight.
 
-(e) Discuss whether the answer seems reasonable.
+(d) Discuss whether the answer seems reasonable.
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 16.6 \ms $$
+(a) $$ 19.6 \mss $$
 
-(b) $$ 19.6 \mss $$
-
-(c)
+(b)
 
 ![A rectangle with a base longer than the height. A vertical line with arrowheads on both ends passes through the rectangle, bisecting the horizontal sides. The top of the arrow is labeled N, and the bottom is labeled w.](../resources/Figure_06_02_03a.jpg)
-{: #fig3}
+{: #Figure3}
 
-(d) $$ 1.76\times 10^{3}\N $$ or $$ 3.00 \text{w} $$, that is, the normal
-force (upward) is three times her weight.
+(c) $$ 1.76\times 10^{3}\N $$ or $$ 3.00 \text{w} $$, that is, the normal
+force (upward) is three times their weight.
 
-(e) This answer seems reasonable, since she feels like she’s being forced into
+(d) This answer seems reasonable, since they feel like they are being forced into
 the chair MUCH stronger than just by gravity.
 
 </div>
@@ -478,7 +472,6 @@ top, ignoring friction.
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

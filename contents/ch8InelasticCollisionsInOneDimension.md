@@ -29,7 +29,7 @@ An inelastic collision is one in which the internal kinetic energy changes (it i
 
 </div>
 
-[Figure 1](#fig1) shows an example of an inelastic collision. Two objects that
+[Figure 1](#Figure1) shows an example of an inelastic collision. Two objects that
 have equal masses head toward one another at equal speeds and then stick
 together. Their total internal kinetic energy is initially $$ \frac{1}{2}m
 v^{2}+\frac{1}{2}m v^{2}=m v^{2} $$. The two objects come to rest after sticking
@@ -50,17 +50,17 @@ A collision in which the objects stick together is sometimes called “perfectly
 
 ![The system of interest contains two equal masses with mass m. One moves to the right and the other moves to the left with the same magnitude of velocity represented by V. Due to this their total momentum and net force remains zero. The internal kinetic energy is mv power 2. After collision the system of interest has no net velocity, no total momentum and no internal kinetic energy. This is true for all inelastic collisions.](../resources/Figure_08_05_01a.jpg "An inelastic one-dimensional two-object collision. Momentum is conserved, but internal kinetic energy is not conserved. (a) Two objects of equal mass initially head directly toward one another at the same speed.
 (b) The objects stick together (a perfectly inelastic collision), and so their final velocity is zero. The internal kinetic energy of the system changes in any inelastic collision and is reduced to zero in this example.")
-{: #fig1}
+{: #Figure1}
 
 <div class="example" markdown="1">
 <div class="title">
 Calculating Velocity and Change in Kinetic Energy: Inelastic Collision of a Puck and a Goalie
 </div>
 (a) Find the recoil velocity of a 70.0-kg ice hockey goalie, originally at rest, who catches a 0.150-kg hockey puck slapped at him at a velocity of 35.0 m/s.
-(b) How much kinetic energy is lost during the collision? Assume friction between the ice and the puck-goalie system is negligible. (See [Figure 2](#fig2) )
+(b) How much kinetic energy is lost during the collision? Assume friction between the ice and the puck-goalie system is negligible. (See [Figure 2](#Figure2) )
 
 ![The first picture shows an ice hockey goal keeper of mass m 2 bent on his knees, turning to the left on a frictionless ice surface with zero velocity and a hockey puck of mass m 1 and velocity V 1 moving toward the right. The total momentum of the system is p 1 which is the momentum of the puck and the net force is zero. The second picture shows the goalie to catch the puck. The puck moves with velocity V 1prime and the goalie with velocity V 2 prime and their magnitudes are equal. The momentum of the puck is p 1 prime and the goalie is p 2 prime. The total momentum remains same as before collision. But the kinetic energy after collision is lesser than the kinetic energy before collision. This is true for inelastic collisions.](../resources/Figure_08_05_02a.jpg "An ice hockey goalie catches a hockey puck and recoils backward. The initial kinetic energy of the puck is almost entirely converted to thermal energy and sound in this inelastic collision.")
-{: #fig2}
+{: #Figure2}
 
 **Strategy**
 
@@ -148,12 +148,12 @@ energy and sound.
 During some collisions, the objects do not stick together and less of the
 internal kinetic energy is removed—such as happens in most automobile accidents.
 Alternatively, stored energy may be converted into internal kinetic energy
-during a collision. [Figure 3](#fig3) shows a one-dimensional example in which
+during a collision. [Figure 3](#Figure3) shows a one-dimensional example in which
 two carts on an air track collide, releasing potential energy from a compressed
 spring. [Example 2](#example2) deals with data from such a collision.
 
 ![An uncoiled spring is connected to a glider with triangular cross sectional area of mass m 1 which moves with velocity v 1 toward the right. Another solid glider of mass m 2 and triangular cross sectional area moves toward the left with velocity V 2 on a frictionless surface. The total momentum is the sum of their individual momentum p 1 and p 2. After collision m 1 moves to the left with velocity V 1 prime and momentum p 1prime. M 2 moves to the right with velocity V 2 prime. Their individual momentum becomes p 1prime and p 2 prime but the total momentum remains the same. The internal kinetic energy after collision is greater than the kinetic energy before collision.](../resources/Figure_08_05_03a.jpg "An air track is nearly frictionless, so that momentum is conserved. Motion is one-dimensional. In this collision, examined in <a href="#example2">Example 2</a>, the potential energy of a compressed spring is released during the collision and is converted to internal kinetic energy.")
-{: #fig3}
+{: #Figure3}
 
 Collisions are particularly important in sports and the sporting and leisure
 industry utilizes elastic and inelastic collisions. Let us look briefly at
@@ -191,11 +191,11 @@ a concrete or wooden floor ( $$ c=0.85 $$ for new tennis balls used on a tennis 
 <div class="title">
 Calculating Final Velocity and Energy Release: Two Carts Collide
 </div>
-In the collision pictured in [Figure 3](#fig3), two carts collide inelastically. Cart 1 (denoted $$ m_{1} $$ carries a spring which is initially compressed. During the collision, the spring
+In the collision pictured in [Figure 3](#Figure3), two carts collide inelastically. Cart 1 (denoted $$ m_{1} $$ carries a spring which is initially compressed. During the collision, the spring
 releases its potential energy and converts it to internal kinetic energy. The
 mass of cart 1 and the spring is 0.350 kg, and the cart and the spring together
 have an initial velocity of $$ 2.00 \ms $$. Cart 2 (denoted $$ m_{2} $$
-in [Figure 3](#fig3)) has a mass of 0.500 kg and an initial
+in [Figure 3](#Figure3)) has a mass of 0.500 kg and an initial
 velocity of $$ -0.500 \ms $$. After the collision, cart 1 is observed to recoil
 with a velocity of $$-4.00 \ms $$.
 (a) What is the final velocity of cart 2?
@@ -566,7 +566,6 @@ ATP into kinetic energy.
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

@@ -4,7 +4,7 @@ layout: page
 ---
 
 ![A field with four wind turbines and the Sun setting in the background.](../resources/Figure_07_00_01a_D.jpg "How many forms of energy can you identify in this photograph of a wind farm in Iowa? (credit: J&#xFC;rgen from Sandesneben, Germany, Wikimedia Commons)")
-{: #fig1}
+{: #Figure1}
 
 *Energy* plays an essential role both in everyday events and in scientific
 phenomena. You can no doubt name many forms of energy, from that provided by our
@@ -19,7 +19,10 @@ trace. Energy is thus one of a handful of physical quantities that we say is
 *conserved*.
 
 **Conservation of energy** (as physicists like to call the principle that energy
-can neither be created nor destroyed) is based on experiment. Even as scientists
+can neither be created nor destroyed) is based on experiment.
+For example, scientists Willem ’s Gravesande and Émilie du Châtelet undertook (separate) experiments where they dropped heavy lead balls into beds of clay. Du Châtelet showed that the balls that hit the clay with twice the velocity penetrated four times as deep into the clay; those with three times the velocity reached a depth nine times greater.
+This led her to develop a more accurate concept of energy conservation, 
+expressed as $$ E=\frac{1}{2} mv^2$$. Even as scientists
 discovered new forms of energy, conservation of energy has always been found to
 apply. Perhaps the most dramatic example of this was supplied by Einstein when
 he suggested that mass is equivalent to energy (his famous equation $$ E=mc^{2}
@@ -40,5 +43,5 @@ intimately related to energy and how energy moves from one system to another or
 changes form.
 
 <div class="note" data-label="Video" markdown="1">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8_TjOq5BNo8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8_TjOq5BNo8"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

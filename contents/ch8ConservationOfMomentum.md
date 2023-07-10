@@ -28,7 +28,7 @@ be neglected in any practical sense, but it is real nevertheless.
 
 Consider what happens if the masses of two colliding objects are more similar
 than the masses of a football player and Earth—for example, one car bumping into
-another, as shown in [Figure 1](#fig1). Both cars are coasting in the same
+another, as shown in [Figure 1](#Figure1). Both cars are coasting in the same
 direction when the lead car (labeled $$ m_{2} $$)  is bumped by the trailing
 car (labeled $$ m_{1} $$ ). The only unbalanced force on each car is the force
 of the collision. (Assume that the effects due to friction are negligible.) Car
@@ -37,7 +37,7 @@ speeds up and gains some momentum. We shall now show that the total momentum of
 the two-car system remains constant.
 
 ![A brown car with velocity V 1 and mass m 1 moves toward the right behind a tan car of velocity V 2 and mass m 2. The system of interest has a total momentum equal to the sum of individual momentums p 1 and p 2. The net force between them is zero before they collide with one another. The brown car after colliding with the tan car has velocity V 1prime and momentum p 1 prime and the light brown car moves with velocity V 2 prime and momentum p 2 prime. Both move in the same direction as before collision. This system of interest has a total momentum equal to the sum p 1 prime and p 2 prime.](../resources/Figure_08_03_01a.jpg "A car of mass \( m_1 \) moving with a velocity of \( v_1 \) bumps into another car of mass \( m_2 \) and velocity \( v_2 \) that it is following. As a result, the first car slows down to a velocity of \( v^\prime_1 \) and the second speeds up to a velocity of \( v^\prime_2 \). The momentum of each car is changed, but the total momentum \( p_{\text{tot}} \) of the two cars is the same before and after the collision (if you assume friction is negligible).")
-{: #fig1}
+{: #Figure1}
 
 Using the definition of impulse, the change in momentum of car 1 is given by
 
@@ -141,12 +141,12 @@ motion and where air resistance is negligible, momentum is conserved in the
 horizontal direction because horizontal forces are zero and momentum is
 unchanged. But along the vertical direction, the net vertical force is not zero
 and the momentum of the projectile is not conserved. (
-See [Figure 2](#fig2)
+See [Figure 2](#Figure2)
 .) However, if the momentum of the projectile-Earth system is considered in the
 vertical direction, we find that the total momentum is conserved.
 
 ![A space probe is projected upward. It takes a parabolic path. No horizontal net force acts on. The horizontal component of momentum remains conserved. The vertical net force is not zero and the vertical component of momentum is not a constant. When the space probe separates, the horizontal net force remains zero as the force causing separation is internal to the system. The vertical net force is not zero and the vertical component of momentum is also not a constant after separation. The centre of mass however continues in the same parabolic path.](../resources/Figure_08_03_02a.jpg "The horizontal component of a projectile&#x2019;s momentum is conserved if air resistance is negligible, even in this case where a space probe separates. The forces causing the separation are internal to the system, so that the net external horizontal force Fx&#x2013;net is still zero. The vertical component of the momentum is not conserved, because the net vertical force Fy&#x2013;net is not zero. In the vertical direction, the space probe-Earth system needs to be considered and we find that the total momentum is conserved. The center of mass of the space probe takes the same path it would if the separation did not occur.")
-{: #fig2}
+{: #Figure2}
 
 The conservation of momentum principle can be applied to systems as different as
 a comet striking Earth and a gas containing huge numbers of atoms and molecules.
@@ -220,7 +220,7 @@ these measurements. Furthermore, we find that the conservation of momentum
 principle is valid when considering systems of particles. We use this principle
 to analyze the masses and other properties of previously undetected particles,
 such as the nucleus of an atom and the existence of quarks that make up
-particles of nuclei. [Figure 3](#fig3) below illustrates how a particle
+particles of nuclei. [Figure 3](#Figure3) below illustrates how a particle
 scattering backward from another implies that its target is massive and dense.
 Experiments seeking evidence that **quarks** make up protons (one type of
 particle that makes up nuclei) scattered high-energy electrons off
@@ -232,7 +232,7 @@ analysis was based partly on the same conservation of momentum principle that
 works so well on the large scale.
 
 ![An electron strikes on a macroscopic target and recoils back. A closer look shows the electron to scatter backward after interacting with the proton.](../resources/Figure_08_03_04a.jpg "A subatomic particle scatters straight backward from a target particle. In experiments seeking evidence for quarks, electrons were observed to occasionally scatter straight backward from a proton.")
-{: #fig3}
+{: #Figure3}
 
 ### Section Summary
 
@@ -386,7 +386,6 @@ A 1.80-kg falcon catches a 0.650-kg dove from behind in midair. What is their ve
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

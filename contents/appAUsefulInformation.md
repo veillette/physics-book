@@ -26,20 +26,20 @@ Numbers without uncertainties are exact as defined.
 
 {: #Important-Constants}
 
-| Symbol    | Meaning          | Best Value                          | Approximate Value                                     |
-| ---------- | -----------------|----------------------------------------- | ------------------------------------------------- |
-| $$c$$    | Speed of light in vacuum | $$ 2.99792458 \times 10^{8} \ms $$    | $$ 3.00 \times 10^{8} \ms $$    |
+| Symbol   | Meaning                  | Best Value                                                 | Approximate Value                                   |
+|----------|--------------------------|------------------------------------------------------------|-----------------------------------------------------|
+| $$c$$    | Speed of light in vacuum | $$ 2.99792458 \times 10^{8} \ms $$                         | $$ 3.00 \times 10^{8} \ms $$                        |
 | $$G$$    | Gravitational constant   | $$ 6.674 30(15) \times 10^{-11} \text{N kg}^2/\text{m}^2$$ | $$ 6.67 \times 10^{-11} \text{N kg}^2/\text{m}^2 $$ |
-| $$N_A $$ | Avogadro’s number    | $$ 6.02214076 \times 10^{23} $$   | $$ 6.02 \times 10^{23} $$  |
-| $$k$$    | Boltzmann’s constant | $$ 1.380649 \times 10^{-23}\text{J}/\text{K} $$ | $$ 1.38\times 10^{-23} \text{J}/\text{K} $$ |
-| $$q_e $$ | Charge on electron   | $$ -1.602176634 \times 10^{-19} \text{C}$$  | $$ -1.60 \times 10^{-19} \text{C}$$    |
-| $$h$$    | Planck’s constant    | $$ 6.626 070 15 \times 10^{-34} \text{J s}$$  | $$ 6.63 \times 10^{-34} \text{J s}$$  |
+| $$N_A $$ | Avogadro’s number        | $$ 6.02214076 \times 10^{23} $$                            | $$ 6.02 \times 10^{23} $$                           |
+| $$k$$    | Boltzmann’s constant     | $$ 1.380649 \times 10^{-23}\text{J}/\text{K} $$            | $$ 1.38\times 10^{-23} \text{J}/\text{K} $$         |
+| $$q_e $$ | Charge on electron       | $$ -1.602176634 \times 10^{-19} \text{C}$$                 | $$ -1.60 \times 10^{-19} \text{C}$$                 |
+| $$h$$    | Planck’s constant        | $$ 6.626 070 15 \times 10^{-34} \text{J s}$$               | $$ 6.63 \times 10^{-34} \text{J s}$$                |
 
 ### Submicroscopic Masses
 {: #Submicroscopic-Masses}
 
-| Symbol   | Meaning        | Best Value                                          | Approximate Value                          |
-| -------- | -------------- | ----------------------------------------- | --------------------------------------------------- |
+| Symbol   | Meaning          | Best Value                                        | Approximate Value                      |
+|----------|------------------|---------------------------------------------------|----------------------------------------|
 | $$m_e $$ | Electron mass    | $$ 9.1093837015(28) \times 10^{-31} \text{kg} $$  | $$ 9.11 \times 10^{-31} \text{kg} $$   |
 | $$m_p $$ | Proton mass      | $$ 1.67262192369(51) \times 10^{-27} \text{kg} $$ | $$ 1.6726 \times 10^{-27} \text{kg} $$ |
 | $$m_n $$ | Neutron mass     | $$ 1.67492749804(95) \times 10^{-27} \text{kg} $$ | $$ 1.6749 \times 10^{-27} \text{kg} $$ |
@@ -60,15 +60,15 @@ Numbers without uncertainties are exact as defined.
 ### Metric Prefixes for Powers of Ten and Their Symbols
 {: #Metric-Prefixes-for-Powers-of-Ten-and-Their-Symbols}
 
-| Prefix | Symbol | Value                     | Prefix | Symbol        | Value          |
-| ------ | ------ | ------------------------- | ------ | ------------- | -------------- |
-| tera   | T      | $$ 10^{12} $$             | deci   | d             | $$ 10^{-1} $$  |
-| giga   | G      | $$ 10^{9} $$              | centi  | c             | $$ 10^{-2} $$  |
-| mega   | M      | $$ 10^{6} $$              | milli  | m             | $$ 10^{-3} $$  |
-| kilo   | k      | $$ 10^{3} $$              | micro  | $$μ$$         | $$ 10^{-6} $$  |
-| hecto  | h      | $$ 10^{2} $$              | nano   | n             | $$ 10^{-9} $$  |
-| deka   | da     | $$ 10^{1} $$              | pico   | p             | $$ 10^{-12} $$ |
-| —      | —      | $$ 10^{0}=1 $$            | femto  | f             | $$ 10^{-15} $$ |
+| Prefix | Symbol | Value          | Prefix | Symbol | Value          |
+|--------|--------|----------------|--------|--------|----------------|
+| tera   | T      | $$ 10^{12} $$  | deci   | d      | $$ 10^{-1} $$  |
+| giga   | G      | $$ 10^{9} $$   | centi  | c      | $$ 10^{-2} $$  |
+| mega   | M      | $$ 10^{6} $$   | milli  | m      | $$ 10^{-3} $$  |
+| kilo   | k      | $$ 10^{3} $$   | micro  | $$μ$$  | $$ 10^{-6} $$  |
+| hecto  | h      | $$ 10^{2} $$   | nano   | n      | $$ 10^{-9} $$  |
+| deka   | da     | $$ 10^{1} $$   | pico   | p      | $$ 10^{-12} $$ |
+| —      | —      | $$ 10^{0}=1 $$ | femto  | f      | $$ 10^{-15} $$ |
 
 ### Solar System Data
 {: #Solar-System-Data}
@@ -88,24 +88,24 @@ Numbers without uncertainties are exact as defined.
 ### SI units
 {: #SI-units}
 
-|                    | Entity               | Abbreviation                                    | Name      |
-| ------------------ | -------------------- | ----------------------------------------------- | --------- |
-| Fundamental units  | Length               | m                                               | meter     |
-|                    | Mass                 | kg                                              | kilogram  |
-|                    | Time                 | s                                               | second    |
-|                    | Current              | A                                               | ampere    |
-| Supplementary unit | Angle                | rad                                             | radian    |
-| Derived units      | Force                | $$\text{N}= \kg \cdot \text{m} / \text{s}^2 $$  | newton    |
-|                    | Energy               | $$\text{J}= \kg \cdot \text{m}^2 / \text{s}^2 $$| joule     |
-|                    | Power                | $$\text{W}= \text{J} / \text{s} $$              | watt      |
-|                    | Pressure             | $$\text{Pa}= \text{N} / \text{m}^2 $$           | pascal    |
-|                    | Frequency            | $$\text{Hz}= 1 / \text{s} $$                    | hertz     |
-|                    | Electronic potential | $$\text{V}= \text{J} /\text{C} $$               | volt      |
-|                    | Capacitance          | $$\text{F}= \text{C} / \text{V} $$              | farad     |
-|                    | Charge               | $$\text{C}= \text{s} \cdot \text{A}$$           | coulomb   |
-|                    | Resistance           | $$\Omega = \text{V} / \text{A} $$               | ohm       |
-|                    | Magnetic field       | $$\text{T}= \text{N} / \left( \text{A} \cdot \text{m} \right) $$  | tesla     |
-|                    | Nuclear decay rate   | $$\text{Bq}= 1 / \text{s} $$                     | becquerel |
+|                    | Entity               | Abbreviation                                                     | Name      |
+|--------------------|----------------------|------------------------------------------------------------------|-----------|
+| Fundamental units  | Length               | m                                                                | meter     |
+|                    | Mass                 | kg                                                               | kilogram  |
+|                    | Time                 | s                                                                | second    |
+|                    | Current              | A                                                                | ampere    |
+| Supplementary unit | Angle                | rad                                                              | radian    |
+| Derived units      | Force                | $$\text{N}= \kg \cdot \text{m} / \text{s}^2 $$                   | newton    |
+|                    | Energy               | $$\text{J}= \kg \cdot \text{m}^2 / \text{s}^2 $$                 | joule     |
+|                    | Power                | $$\text{W}= \text{J} / \text{s} $$                               | watt      |
+|                    | Pressure             | $$\text{Pa}= \text{N} / \text{m}^2 $$                            | pascal    |
+|                    | Frequency            | $$\text{Hz}= 1 / \text{s} $$                                     | hertz     |
+|                    | Electronic potential | $$\text{V}= \text{J} /\text{C} $$                                | volt      |
+|                    | Capacitance          | $$\text{F}= \text{C} / \text{V} $$                               | farad     |
+|                    | Charge               | $$\text{C}= \text{s} \cdot \text{A}$$                            | coulomb   |
+|                    | Resistance           | $$\Omega = \text{V} / \text{A} $$                                | ohm       |
+|                    | Magnetic field       | $$\text{T}= \text{N} / \left( \text{A} \cdot \text{m} \right) $$ | tesla     |
+|                    | Nuclear decay rate   | $$\text{Bq}= 1 / \text{s} $$                                     | becquerel |
 
 ### Selected British Units
 {: #Selected-British-Units}

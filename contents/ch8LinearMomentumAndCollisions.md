@@ -3,8 +3,8 @@ title: "Introduction to Linear Momentum and Collisions"
 layout: page
 ---
 
-![Rugby players colliding during a rugby match.](../resources/Figure_07_00_01.jpg "Each rugby player has great momentum, which will affect the outcome of their collisions with each other and the ground. (credit: ozzzie, Flickr)")
-{: #fig1}
+![Rugby players colliding during a rugby match.](../resources/Figure_08_00_01a_D.jpg "Each rugby player has great momentum, which will affect the outcome of their collisions with each other and the ground. (credit: ozzzie, Flickr)")
+{: #Figure1}
 
 We use the term momentum in various ways in everyday language, and most of these
 ways are consistent with its precise scientific definition. We speak of sports
@@ -20,5 +20,5 @@ quantities are conserved in nature, and studying them yields fundamental insight
 into how nature works, as we shall see in our study of momentum.
 
 <div class="note" data-label="Video" markdown="1">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hxMaoFcYSrw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hxMaoFcYSrw"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

@@ -82,7 +82,7 @@ This internal mechanical energy from the random motions is called **thermal
 energy**, because it is related to the temperature of the object. These and all
 other forms of energy can be converted into one another and can do work.
 
-[Table 1](#table1) gives the amount of energy stored, used, or released from
+[Table 1](#Table1) gives the amount of energy stored, used, or released from
 various objects and in various phenomena. The range of energies and the variety
 of types and situations is impressive.
 
@@ -150,12 +150,12 @@ into the forms mentioned. This important point is discussed later in this
 section.)
 
 Another example of energy conversion occurs in a solar cell. Sunlight impinging
-on a solar cell (see [Figure 1](#fig1)) produces electricity, which in turn can
+on a solar cell (see [Figure 1](#Figure1)) produces electricity, which in turn can
 be used to run an electric motor. Energy is converted from the primary source of
 solar energy into electrical energy and then into mechanical energy.
 
 ![A solar-powered aircraft flying over the sea. Solar cells are on the upper surface of the wings, where they are exposed to sunlight.](../resources/Figure_07_06_01a.jpg "Solar energy is converted into electrical energy by solar cells, which is used to run a motor in this solar-power aircraft. (credit: NASA)")
-{: #fig1}
+{: #Figure1}
 
 ##### Table 1:Energy of Various Objects and Phenomena
 
@@ -185,7 +185,7 @@ solar energy into electrical energy and then into mechanical energy.
 |Single electron in a TV tube beam  | $$ 4.0×10^{-15} $$ |
 |Energy to break one DNA strand  | $$ 10^{-19} $$ |
 
-{: #table1}
+{: #Table1}
 
 ### Efficiency
 
@@ -197,7 +197,7 @@ $$ \text{Eff} $$ of an energy conversion process is defined as
  $$ \text{Efficiency}\left(\text{Eff}\right)=\frac{ \text{useful energy or work output}}{\text{total energy input}}=\frac{ W_{\text{out}}}{ E_{\text{in}}}. $$
 </div>
 
-[Table 2](#table2) lists some efficiencies of mechanical devices and human
+[Table 2](#Table2) lists some efficiencies of mechanical devices and human
 activities. In a coal-fired power plant, for example, about 40% of the chemical
 energy in the coal becomes useful electrical energy. The other 60% transforms
 into other (perhaps less useful) energy forms, such as thermal energy, which is
@@ -222,7 +222,7 @@ then released to the environment through combustion gases and cooling towers.
 |Gas heater (residential)|90|
 |Solar cell|10|
 
-{: #table2}
+{: #Table2}
 
 <div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
@@ -236,7 +236,7 @@ A realistic mass and spring laboratory. Hang masses from springs and adjust the 
 Masses and Springs
 </figcaption>
 </figure>
-{: #fig2}
+{: #Figure2}
 </div>
 
 ### Section Summary
@@ -265,10 +265,10 @@ Consider the following scenario. A car for which friction is *not* negligible ac
 rest down a hill, running out of gasoline after a short distance. The driver lets the car coast 
 farther down the hill, then up and over a small crest. He then coasts down that hill into a gas 
 station, where he brakes to a stop and fills the tank with gasoline. Identify the forms of energy the 
-car has, and how they are changed and transferred in this series of events. (See [Figure 3](#fig3).)
+car has, and how they are changed and transferred in this series of events. (See [Figure 3](#Figure3).)
 
 ![A car coasting downhill, moving over a crest then again moving downhill and finally stopping at a gas station. Each of these positions is labeled with an arrow pointing downward.](../resources/Figure_07_06_02a.jpg "A car experiencing non-negligible friction coasts down a hill, over a small crest, then downhill again, and comes to a stop at a gas station.")
-{: #fig3}
+{: #Figure3}
 
 </div>
 </div>
@@ -305,7 +305,7 @@ List the energy conversions that occur when riding a bicycle.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Using values from [Table 1](#table1), how many DNA molecules could be broken by the energy carried by a single electron in the beam of an old-fashioned TV tube? (These electrons were not dangerous in themselves, but they did create dangerous x rays. Later model tube TVs had shielding that absorbed x rays before they escaped and exposed viewers.)
+Using values from [Table 1](#Table1), how many DNA molecules could be broken by the energy carried by a single electron in the beam of an old-fashioned TV tube? (These electrons were not dangerous in themselves, but they did create dangerous x rays. Later model tube TVs had shielding that absorbed x rays before they escaped and exposed viewers.)
 
 </div>
 <div class="solution" markdown="1">
@@ -327,14 +327,14 @@ $$ v=\sqrt{2g h + v_0^{2}}=\sqrt{ 2\left(9.80 \mss \right)\left(20.0 \m \right)+
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-If the energy in fusion bombs were used to supply the energy needs of the world, how many of the 9-megaton variety would be needed for a year’s supply of energy (using data from [Table 1](#table1))? This is not as far-fetched as it may sound—there are thousands of nuclear bombs, and their energy can be trapped in underground explosions and converted to electricity, as natural geothermal energy is.
+If the energy in fusion bombs were used to supply the energy needs of the world, how many of the 9-megaton variety would be needed for a year’s supply of energy (using data from [Table 1](#Table1))? This is not as far-fetched as it may sound—there are thousands of nuclear bombs, and their energy can be trapped in underground explosions and converted to electricity, as natural geothermal energy is.
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) Use of hydrogen fusion to supply energy is a dream that may be realized in the next century. Fusion would be a relatively clean and almost limitless supply of energy, as can be seen from [Table 1](#table1). To illustrate this, calculate how many years the present energy needs of the world could be supplied by one millionth of the oceans’ hydrogen fusion energy.
+(a) Use of hydrogen fusion to supply energy is a dream that may be realized in the next century. Fusion would be a relatively clean and almost limitless supply of energy, as can be seen from [Table 1](#Table1). To illustrate this, calculate how many years the present energy needs of the world could be supplied by one millionth of the oceans’ hydrogen fusion energy.
 (b) How does this time compare with historically significant events, such as the duration of stable economic systems?
 
 </div>
@@ -347,7 +347,6 @@ If the energy in fusion bombs were used to supply the energy needs of the world,
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 

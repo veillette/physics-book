@@ -22,16 +22,16 @@ the gravitational force (which is much smaller than the tennis racquet’s force
 would eventually reverse the momentum of the ball. Quantitatively, the effect we
 are talking about is the change in momentum $$ \Delta \vb{p} $$.
 
-By rearranging the equation $$ \vb{F}_{\text{net}}=\frac{ \Delta \vb{p}}{\Delta
+By rearranging the equation $$ \vb{F}_{\text{net} }=\frac{ \Delta \vb{p} }{\Delta
 t} $$ to be
 
 <div class="equation">
- $$ \Delta \vb{p}=\vb{F}_{\text{net}}\Delta t, $$
+ $$ \Delta \vb{p}=\vb{F}_{\text{net} }\Delta t, $$
 </div>
 
 we can see how the change in momentum equals the average net external force
 multiplied by the time this force acts. The quantity $$ \vb{F}_
-{\text{net}}\Delta t $$ is given the name **impulse**. Impulse is the same as
+{\text{net} }\Delta t $$ is given the name **impulse**. Impulse is the same as
 the change in momentum.
 
 <div class="note" data-label="" markdown="1">
@@ -41,9 +41,9 @@ Impulse: Change in Momentum
 Change in momentum equals the average net external force multiplied by the time this force acts.
 
 <div class="equation">
- $$ \Delta \vb{p}=\vb{F}_{\text{net}}\Delta t $$
+ $$ \Delta \vb{p}=\vb{F}_{\text{net} }\Delta t $$
 </div>
-The quantity $$ \vb{F}_{\text{net}}\Delta t $$ is given the name impulse.
+The quantity $$ \vb{F}_{\text{net} }\Delta t $$ is given the name impulse.
 
 There are many ways in which an understanding of impulse can save lives, or at
 least limbs. The dashboard padding in a car, and certainly the airbags, allow
@@ -118,13 +118,13 @@ which strikes perpendicular to the wall.
 
 <div class="equation">
 \begin{array}{ c c c}
-  p_{\text{xi}}=m u  & \text{;} & p_{\text{yi}}=0
+  p_{\text{xi} }=m u  & \text{;} & p_{\text{yi} }=0
 \end{array}
 </div>
 <div class="equation">
 \begin{array}{ c c c}
-  p_{\text{xf}}=-m u & \text{;} &
-p_{\text{yf}}=0
+  p_{\text{xf} }=-m u & \text{;} &
+p_{\text{yf} }=0
 \end{array}
 </div>
 Impulse is the change in momentum vector. Therefore the $$ x $$-component
@@ -169,7 +169,7 @@ Our definition of impulse includes an assumption that the force is constant over
 the time interval $$ \Delta t $$. *Forces are usually not constant*. Forces vary
 considerably even during the brief time intervals considered. It is, however,
 possible to find an average effective force $$ F_{\text{eff}} $$ that produces
-the same result as the corresponding time-varying force. [Figure 1](#fig1) shows
+the same result as the corresponding time-varying force. [Figure 1](#Figure1) shows
 a graph of what an actual force looks like as a function of time for a ball
 bouncing off the floor. The area under the curve has units of momentum and is
 equal to the impulse or change in momentum between times $$ t_{1} $$ and $$ t_
@@ -178,7 +178,7 @@ equal to the impulse or change in momentum between times $$ t_{1} $$ and $$ t_
 effects are the same for both the actual and effective forces.
 
 ![Figure is a graph of force, F, versus time, t. Two curves, F actual and F effective, are drawn. F actual is drawn between t sub1 and t sub 2 and it resembles a bell-shaped curve that peaks mid-way between t sub 1 and t sub 2. F effective is a line parallel to the x axis drawn at about fifty five percent of the maximum value of F actual and it extends up to t sub 2.](../resources/Figure_08_02_01a.jpg "A graph of force versus time with time along the \( x \) -axis and force along the \( y \) -axis for an actual force and an equivalent effective force. The areas under the two curves are equal.")
-{: #fig1}
+{: #Figure1}
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -499,7 +499,6 @@ direction)?
 </div>
 
 <div class="glossary" markdown="1">
-
 ### Glossary
 {: class="glossary-title"}
 
