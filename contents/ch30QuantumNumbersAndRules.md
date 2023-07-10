@@ -1,4 +1,4 @@
-**---
+---
 title: "Quantum Numbers and Rules"
 layout: page
 ---
