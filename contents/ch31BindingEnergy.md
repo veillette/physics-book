@@ -52,7 +52,7 @@ hydrogen atom. Thus the binding energy of a nuclide $${}^{A}\text{X} $$ is
  $$\text{BE}=\left\{\left[Z m\left({}^{1}\text{H}\right)+N m_{n}\right]  -m\left({}^{A}X\right)\right\}{c}^{2}. $$
 </div>
 
-The atomic masses can be found in [Appendix A](../contents/AppendixA), most conveniently
+The atomic masses can be found in [Appendix A](../contents/appendixA), most conveniently
 expressed in unified atomic mass units u ( $$1 \text{u}= 931.5
 \text{MeV}/{c}^{2} $$ ). BE is thus calculated from known atomic masses.
 
@@ -184,7 +184,7 @@ To find $$\text{BE}/A $$ , we first find BE using the Equation
 $$\text{BE}=\left\{\left[Z m\left({}^{1}\text{H}\right)+N m_{n}\right]  -m\left(
 {}^{A}\text{X}\right)\right\}{c}^{2} $$ and then divide by $$A $$ . This is
 straightforward once we have looked up the appropriate atomic masses
-in [Appendix A](../contents/AppendixA).
+in [Appendix A](../contents/appendixA).
 
 **Solution**
 
@@ -199,7 +199,7 @@ For  $${}^{4}\text{He} $$ ,
 <div class="equation">
  $$\text{BE}=\left\{\left[ 2m\left({}^{1}\text{H}\right)+{2m}_{n}\right]  -m\left({}^{4}\text{He}\right)\right\}{c}^{2}\text{.} $$
 </div>
-[Appendix A](../contents/AppendixA) gives these masses as  $$m\left({}^{4}\text{He}\right)=4.002602 \text{u} $$ ,
+[Appendix A](../contents/appendixA) gives these masses as  $$m\left({}^{4}\text{He}\right)=4.002602 \text{u} $$ ,
   $$m\left({}^{1}\text{H}\right)=1.007825 \text{u} $$ ,
  and  $${m}_{n}=1.008665 \text{u} $$ .
  Thus,
@@ -408,9 +408,9 @@ The fact that  $$\text{BE}/A $$  is greatest for  $$A $$
 <div class="problem" markdown="1">
 The purpose of this problem is to show in three ways that the binding energy of the electron in a hydrogen atom is 
 negligible compared with the masses of the proton and electron. (a) Calculate the mass equivalent in u of the 13.6-eV 
-binding energy of an electron in a hydrogen atom, and compare this with the mass of the hydrogen atom obtained from [Appendix A](../contents/AppendixA). (b) Subtract the mass of the proton given 
+binding energy of an electron in a hydrogen atom, and compare this with the mass of the hydrogen atom obtained from [Appendix A](../contents/appendixA). (b) Subtract the mass of the proton given 
 in [[Table 1]](../contents/ch31SubstructureOfTheNucleus#Table1) from
-the mass of the hydrogen atom given in [Appendix A](../contents/appAUsedulInformation). 
+the mass of the hydrogen atom given in [Appendix A](../contents/appendixA). 
 You will find the difference is equal to the electron’s mass to 
 three digits, implying the binding energy is small in comparison. 
 (c) Take the ratio of the binding energy of the electron (13.6 eV) 
