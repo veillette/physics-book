@@ -75,7 +75,7 @@ $$Z=90 $$ , two fewer than U, which has $$Z=92 $$ . Similarly, in the second **d
 which has $$Z=94 $$ . The general rule for $$\alpha $$ decay is best written in
 the format $${}_{Z}^{A}{\text{X}}_{N} $$ . If a certain nuclide is known to
 $$\alpha $$ decay (generally this information must be looked up in a table of
-isotopes, such as in [Appendix B](../contents/AppendixB)), its $$\alpha $$
+isotopes, such as in [Appendix B](../contents/appendixB)), its $$\alpha $$
 **decay equation** is
 
 <div class="equation" >
@@ -129,7 +129,7 @@ Find the energy emitted in the  $$\alpha  $$
 Nuclear reaction energy, such as released in *α* decay, can be found using the
 equation $$E=\left(\Delta m\right){c}^{2} $$ . We must first find $$\Delta m $$
 , the difference in mass between the parent nucleus and the products of the
-decay. This is easily done using masses given in [Appendix A](../contents/AppendixA).
+decay. This is easily done using masses given in [Appendix A](../contents/appendixA).
 
 **Solution**
 
@@ -142,7 +142,7 @@ Thus the pertinent masses are those of  $${}^{239}\text{Pu} $$ ,
   $${}^{235}\text{U} $$ ,
  and the  $$\alpha  $$
  particle or  $${}^{4}\text{He} $$ ,
- all of which are listed in [Appendix A](../contents/AppendixA). The initial mass was  $$m \left({}^{239}\text{Pu}\right)=239.052157 \text{u} $$ .
+ all of which are listed in [Appendix A](../contents/appendixA). The initial mass was  $$m \left({}^{239}\text{Pu}\right)=239.052157 \text{u} $$ .
  The final mass is the sum  $$m\left( {}^{235}\text{U}\right)+ m \left({}^{4}\text{He}\right)= 235.043924 \text{u} + 4.002602 \text{u} = 239.046526 \text{u} $$ .
  Thus,
 
@@ -174,7 +174,7 @@ $${}^{235}\text{U} $$ nucleus can be left in an excited state to later emit
 photons ( $$\gamma $$ rays). This decay is spontaneous and releases energy,
 because the products have less mass than the parent nucleus. The question of why
 the products have less mass will be discussed in [Binding Energy](../contents/ch31BindingEnergy). Note
-that the masses given in [Appendix A](../contents/AppendixA) are atomic masses of neutral
+that the masses given in [Appendix A](../contents/appendixA) are atomic masses of neutral
 atoms, including their electrons. The mass of the electrons is the same before
 and after $$\alpha $$ decay, and so their masses subtract out when finding
 $$\Delta m $$ . In this case, there are 94 electrons before and after the decay.
@@ -295,11 +295,11 @@ Find the energy emitted in the  $${\beta }^{-} $$
 
 As in the preceding example, we must first find $$\Delta m $$ , the difference
 in mass between the parent nucleus and the products of the decay, using masses
-given in [Appendix A](../contents/AppendixA). Then the emitted energy is calculated as before,
+given in [Appendix A](../contents/appendixA). Then the emitted energy is calculated as before,
 using $$E=\left(\Delta m\right){c}^{2} $$ . The initial mass is just that of the
 parent nucleus, and the final mass is that of the daughter nucleus and the
 electron created in the decay. The neutrino is massless, or nearly so. However,
-since the masses given in [Appendix A](../contents/AppendixA) are for neutral atoms, the
+since the masses given in [Appendix A](../contents/appendixA) are for neutral atoms, the
 daughter nucleus has one more electron than the parent, and so the extra
 electron mass that corresponds to the $${\beta }^{-} $$ is included in the
 atomic mass of Ni. Thus,
@@ -319,7 +319,7 @@ As noticed,
 <div class="equation" >
  $$\Delta m=m\left({}^{60}\text{Co}\right)-m\left({}^{60}\text{Ni}\right). $$
 </div>
-Entering the masses found in [Appendix A](../contents/AppendixA) gives
+Entering the masses found in [Appendix A](../contents/appendixA) gives
 
 <div class="equation" >
  $$\Delta m=59.933820 \text{u}-59.930789 \text{u}=0.003031 \text{u}. $$

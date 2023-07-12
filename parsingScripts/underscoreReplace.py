@@ -1,7 +1,7 @@
 import os
 import re
 
-directory = 'contents'
+directory = '../contents'
 
 def parse_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
