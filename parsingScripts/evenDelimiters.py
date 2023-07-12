@@ -1,6 +1,6 @@
 import os
 
-directory = 'contents'
+directory = '../contents'
 
 def count_delimiters(line):
     count = 0
