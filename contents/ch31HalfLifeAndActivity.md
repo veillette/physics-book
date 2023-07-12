@@ -264,7 +264,7 @@ Calculate the activity due to  $${}^{14}\text{C} $$
 
 To find the activity $$R $$ using the equation $$R=\frac{ 0.693N}{ {t}_{1/2}} $$
 , we must know $$N $$ and $${t}_{1/2} $$ . The half-life of $${}^{14}\text{C} $$
-can be found in [Appendix B](../contents/appBGlossaryOfKeySymbolsAndNotation), and was stated above as 5730 y. To find
+can be found in [Appendix B](../contents/appendixB), and was stated above as 5730 y. To find
 $$N $$ , we first find the number of $${}^{12}\text{C} $$ nuclei in 1.00 kg of
 carbon using the concept of a mole. As indicated, we then multiply by $$ 1.3
 \times 10^{-12} $$
@@ -362,7 +362,7 @@ It is estimated that the Chernobyl disaster released 6.0 MCi of  $${}^{137}\text
 We can calculate the mass released using Avogadro’s number and the concept of a
 mole if we can first find the number of nuclei $$N $$ released. Since the
 activity $$R $$ is given, and the half-life of $${}^{137}\text{Cs} $$ is found
-in [Appendix B](../contents/appBGlossaryOfKeySymbolsAndNotation) to be 30.2 y, we can use the equation $$R=\frac{
+in [Appendix B](../contents/appendixB) to be 30.2 y, we can use the equation $$R=\frac{
 0.693N}{ {t}_{1/2}} $$ to find $$N $$.
 
 **Solution**
