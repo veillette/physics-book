@@ -92,7 +92,7 @@ nucleus with eight protons and eight neutrons, $$A=16 $$ , and its mass is 16 u.
 As noticed, the unified atomic mass unit is defined so that a neutral carbon
 atom (actually a $${}^{12}\text{C} $$ atom) has a mass of *exactly* 12
 $$\text{u} $$ . Carbon was chosen as the standard, partly because of its
-importance in organic chemistry (see [Appendix A](../contents/AppendixA)).
+importance in organic chemistry (see [Appendix A](../contents/appendixA)).
 
 <table id="Table1" aria-describedby="The three particles proton, neutron, and electron, are listed in column 1 in that order. Columns from left to right contain the symbol for each particle, its mass in kilograms, its mass in unified atomic mass units (u), and its mass in M e V over c squared."><caption><span class="title">Masses of the Proton, Neutron, and Electron</span></caption><thead>
          <tr>

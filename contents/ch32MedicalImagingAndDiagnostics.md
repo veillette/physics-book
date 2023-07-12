@@ -307,7 +307,7 @@ A neutron generator uses an  $$\alpha  $$
 <div class="problem" markdown="1">
 Neutrons from a source (perhaps the one discussed in the preceding problem) bombard natural molybdenum, which is 24 percent  $${}^{98}\text{Mo} $$ .
  What is the energy output of the reaction  $${}^{98}\text{Mo}+n\to {}^{99}\text{Mo}+\gamma  $$ ? 
-The mass of  $${}^{98}\text{Mo} $$ is given in [Appendix A: Atomic Masses](../contents/AppendixA), and that of  $${}^{99}\text{Mo} $$
+The mass of  $${}^{98}\text{Mo} $$ is given in [Appendix A: Atomic Masses](../contents/appendixA), and that of  $${}^{99}\text{Mo} $$
  is 98.907711 u.
 
 </div>

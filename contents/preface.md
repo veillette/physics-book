@@ -70,8 +70,8 @@ applications that are easy for most students to visualize.
 * [Chapter 33: Particle Physics](../contents/ch33ParticlePhysics.md)
 * [Chapter 34: Cosmology and Particle Physics](../contents/ch34CosmologyAndParticlePhysics.md)
 
-* [Appendix A: Useful Information](../contents/appAUsefulInformation.md)
-* [Appendix B: Glossary of Key Symbols and Notation](../contents/appBGlossaryOfKeySymbolsAndNotation.md)
+* [Appendix A: Useful Information](../contents/appendixA.md)
+* [Appendix B: Glossary of Key Symbols and Notation](../contents/appendixB.md)
 
 #### Concepts and Calculations
 

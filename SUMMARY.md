@@ -322,5 +322,5 @@ This introductory, algebra-based, college physics book is grounded with real-wor
    6.  [High-temperature Superconductors](contents/ch34HighTemperatureSuperconductors.md)
    7.  [Some Questions We Know to Ask](contents/ch34SomeQuestionsWeKnowToAsk.md)
 
-37. {: .appendix} [Useful Information](contents/appAUsefulInformation.md)
-38. {: .appendix} [Glossary of Key Symbols and Notation](contents/appBGlossaryOfKeySymbolsAndNotation.md)
+37. {: .appendix} [Useful Information](contents/appendixA.md)
+38. {: .appendix} [Glossary of Key Symbols and Notation](contents/appendixB.md)
