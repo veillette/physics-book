@@ -4,6 +4,7 @@ const path = require('path');
 const resourcesDirectory = '../resources';
 const contentsDirectory = '../contents';
 
+
 function renameImageFilenames(directory, oldFilename, newFilename) {
     fs.readdir(directory, (err, files) => {
         if (err) {
@@ -30,13 +31,20 @@ function renameImageFilenames(directory, oldFilename, newFilename) {
                             return;
                         }
 
-                        const updatedData = data.replace(new RegExp(`${oldFilename}`, 'g'), `${newFilename}`);
-                        fs.writeFileSync(filePath, updatedData,
-                            {
-                                encoding: "utf8",
-                                flag: "w",
-                                mode: 0o666
-                            });
+                        const regex = new RegExp(`${oldFilename}`, 'g');
+
+                        // check that the old filename is in the file
+                        if (data.match(regex)) {
+                            const updatedData = data.replace(regex, `${newFilename}`);
+                            fs.writeFile(filePath, updatedData,
+                                (err) => {
+                                    if (err) {
+                                        console.error('Error writing file:', err);
+                                    } else {
+                                        console.log(`Updated ${filePath}`);
+                                    }
+                                });
+                        }
                     });
                     if (stats.isDirectory()) {
                         renameImageFilenames(filePath, oldFilename, newFilename);
@@ -55,8 +63,17 @@ function renameAndModifyFiles(directory) {
         }
 
         files.forEach((file, index) => {
-            if (index % 200 === 0) {
+            if (index % 50 === 0) {
                 const filePath = path.join(directory, file);
+
+
+                function sleep(ms) {
+                    return new Promise((resolve) => {
+                        setTimeout(resolve, ms);
+                    });
+                }
+
+                sleep(100);
 
                 fs.stat(filePath, (err, stats) => {
                     if (err) {
