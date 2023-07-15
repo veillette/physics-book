@@ -7,10 +7,18 @@ const repoPath = '..';
 // Create a new simple-git instance
 const git = simpleGit(repoPath);
 
-// Restore all files within the 'contents' directory
+// Restore all files within the 'contents' and 'resources' directories to their state in the Git repository
 restoreFiles('contents');
 restoreFiles('resources');
 
+/**
+ * Restores all files within the specified directory to their state in the Git repository.
+ *  - Deletes any non-tracked files
+ *  - Restores any tracked files
+ *  - Does not restore any files that are staged for commit
+ *  - Does not restore any files that are modified
+ * @param {string} directory
+ */
 function restoreFiles(directory) {
     git.checkout('HEAD', [`${directory}/*`], (error) => {
         if (error) {
