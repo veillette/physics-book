@@ -58,7 +58,7 @@ there are sizeable strides being made in renewable energy. India has a rapidly
 growing wind energy base, and it has the largest solar cooking program in the
 world. China has invested substantially in building solar collection farms as well as hydroelectric plants.
 
-![A bar graph depicting world energy consumption is shown. The year is listed on the horizontal axis and energy consumed is listed on the vertical axis. Energy consumption by the world is shown for different years. Energy consumption rises over time. In the year nineteen hundred and ninety it was three hundred seventy three multiplied by ten to the power eighteen joules, and the projection is that it will become eight hundred twelve multiplied by ten to the power eighteen joules by the year twenty thirty five.](../resources/Figure_07_09_02a.jpg "Past and projected world energy use (source: Based on data from U.S. Energy Information Administration, 2021)")
+![A bar graph depicting world energy consumption is shown. The year is listed on the horizontal axis and energy consumed is listed on the vertical axis. Energy consumption by the world is shown for different years. Energy consumption rises over time. In the year nineteen hundred and ninety it was three hundred seventy three multiplied by ten to the power eighteen joules, and the projection is that it will become eight hundred twelve multiplied by ten to the power eighteen joules by the year twenty thirty five.](../resources/Figure_07_09_02.jpg "Past and projected world energy use (source: Based on data from U.S. Energy Information Administration, 2021)")
 {: #Figure2}
 
 ![Solar cell arrays lined up in a field.](../resources/Figure_06_09_03.jpg "Solar cell arrays in Manchester, Vermont, USA (credit: MarkBuckawicki, Wikimedia)")
