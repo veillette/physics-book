@@ -121,7 +121,7 @@ Is the force attractive or repulsive between the hot and neutral lines hung from
 <div class="problem" markdown="1">
 If you have three parallel wires in the same plane, as in [[Figure 2]](#Figure2), with currents in the outer two running in opposite directions, is it possible for the middle wire to be repelled by both? Attracted by both? Explain.
 
-![Diagram showing three wires parallel to each other and in the same plane. The currents in wire 1 on the left side of the diagram and wire 3 on the right side of the diagram run opposite each other: I 1 runs form the top right to the lower left; I 3 runs from the lower left to the top right. Wire 2 is between the two, slightly closer to wire 3 than to wire 1.](../resources/Figure_22_99_03.jpg "Three parallel coplanar wires with currents in the outer two in opposite directions.")
+![Diagram showing three wires parallel to each other and in the same plane. The currents in wire 1 on the left side of the diagram and wire 3 on the right side of the diagram run opposite each other: I 1 runs form the top right to the lower left; I 3 runs from the lower left to the top right. Wire 2 is between the two, slightly closer to wire 3 than to wire 1.](../resources/Figure_22_10_02.jpg "Three parallel coplanar wires with currents in the outer two in opposite directions.")
 {: #Figure2}
 
 </div>
@@ -138,7 +138,7 @@ Suppose two long straight wires run perpendicular to one another without touchin
 <div class="problem" markdown="1">
 Use the right hand rules to show that the force between the two loops in [[Figure 3]](#Figure3) is attractive if the currents are in the same direction and repulsive if they are in opposite directions. Is this consistent with like poles of the loops repelling and unlike poles of the loops attracting? Draw sketches to justify your answers.
 
-![Diagram showing two current-carrying loops. The planes of the loops are parallel and horizontal, one above the other. In both loops, the current runs counterclockwise.](../resources/Figure_22_99_04.jpg "Two loops of wire carrying currents can exert forces and torques on one another.")
+![Diagram showing two current-carrying loops. The planes of the loops are parallel and horizontal, one above the other. In both loops, the current runs counterclockwise.](../resources/Figure_22_10_04.jpg "Two loops of wire carrying currents can exert forces and torques on one another.")
 {: #Figure3}
 
 </div>

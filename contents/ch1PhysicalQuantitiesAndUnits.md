@@ -8,7 +8,7 @@ layout: page
 * Explain the most common prefixes in the SI units and be able to write them in scientific notation.
 </div>
 
-![A view of Earth from the Moon.](../resources/Figure_01_02_01b.jpg "The distance from Earth to the Moon may seem immense, but it is just a tiny fraction of the distances from Earth to other celestial bodies. (credit: NASA)")
+![A view of Earth from the Moon.](../resources/Figure_01_02_02.jpg "The distance from Earth to the Moon may seem immense, but it is just a tiny fraction of the distances from Earth to other celestial bodies. (credit: NASA)")
 {: #Figure1}
 
 The range of objects and phenomena studied in physics is immense. From the
@@ -39,7 +39,7 @@ distance runners). Without standardized units, it would be extremely difficult
 for scientists to express and compare measured values in a meaningful way. (
 See [Figure 2](#Figure2).)
 
-![A boy looking at a map and trying to guess distances with unit of length mentioned as cables between two points.](../resources/Figure_01_02_01a.jpg "Distances given in unknown units are maddeningly useless.")
+![A boy looking at a map and trying to guess distances with unit of length mentioned as cables between two points.](../resources/Figure_01_02_01.jpg "Distances given in unknown units are maddeningly useless.")
 {: #Figure2 height="225"}
 
 There are two major systems of units used in the world: **SI units**
@@ -96,7 +96,7 @@ essential, because all measurements are ultimately expressed in terms of
 fundamental units and can be no more accurate than are the fundamental units
 themselves.
 
-![A top view of an atomic fountain is shown. It measures time using the vibration of the cesium atom.](../resources/Figure_01_02_02a.jpg "An atomic clock such as this one uses the vibrations of cesium atoms to keep time to a precision of better than a microsecond per year. The fundamental unit of time, the second, is based on such clocks. This image is looking down from the top of an atomic fountain nearly 30 feet tall! (credit: Steve Jurvetson/Flickr)")
+![A top view of an atomic fountain is shown. It measures time using the vibration of the cesium atom.](../resources/Figure_01_02_03.jpg "An atomic clock such as this one uses the vibrations of cesium atoms to keep time to a precision of better than a microsecond per year. The fundamental unit of time, the second, is based on such clocks. This image is looking down from the top of an atomic fountain nearly 30 feet tall! (credit: Steve Jurvetson/Flickr)")
 {: #Figure3 height="225"}
 
 #### The Meter
@@ -131,7 +131,7 @@ community adopted a more stable definition of the kilogram. The kilogram is now
 defined in terms of the second, the meter, and Planck's constant, $$h $$ (a
 quantum mechanical value that relates a photon's energy to its frequency).
 
-![Beam of light from a flashlight is represented by an arrow pointing right, traveling the length of a meter stick.](../resources/Figure_01_02_03a.jpg "The meter is defined to be the distance light travels in 1/299 792 458 of a second in a vacuum. Distance traveled is speed multiplied by time.")
+![Beam of light from a flashlight is represented by an arrow pointing right, traveling the length of a meter stick.](../resources/Figure_01_02_04.jpg "The meter is defined to be the distance light travels in 1/299 792 458 of a second in a vacuum. Distance traveled is speed multiplied by time.")
 {: #Figure4}
 
 Electric current and its accompanying unit, the ampere, will be introduced in
@@ -225,10 +225,10 @@ in [Table 3](#Table3). Examination of this table will give you some feeling for
 the range of possible topics and numerical values. (
 See [Figure 5](#Figure5) and [Figure 6](#Figure6).)
 
-![A magnified image of tiny phytoplankton swimming among the crystal of ice.\[](../resources/Figure_01_02_04a.jpg "Tiny phytoplankton swims among crystals of ice in the Antarctic Sea. They range from a few micrometers to as much as 2 millimeters in length. (credit: Prof. Gordon T. Taylor, Stony Brook University; NOAA Corps Collections)")
+![A magnified image of tiny phytoplankton swimming among the crystal of ice.\[](../resources/Figure_01_02_05.jpg "Tiny phytoplankton swims among crystals of ice in the Antarctic Sea. They range from a few micrometers to as much as 2 millimeters in length. (credit: Prof. Gordon T. Taylor, Stony Brook University; NOAA Corps Collections)")
 {: #Figure5}
 
-![A view of Abell Galaxy with some bright stars and some hot gases.](../resources/Figure_01_02_05a.jpg "Galaxies collide 2.4 billion light years away from Earth. The tremendous range of observable phenomena in nature challenges the imagination. (credit: NASA/CXC/UVic./A. Mahdavi et al. Optical/lensing: CFHT/UVic./H. Hoekstra et al.)")
+![A view of Abell Galaxy with some bright stars and some hot gases.](../resources/Figure_01_02_06.jpg "Galaxies collide 2.4 billion light years away from Earth. The tremendous range of observable phenomena in nature challenges the imagination. (credit: NASA/CXC/UVic./A. Mahdavi et al. Optical/lensing: CFHT/UVic./H. Hoekstra et al.)")
 {: #Figure6 height="250"}
 
 ### Unit Conversion and Dimensional Analysis

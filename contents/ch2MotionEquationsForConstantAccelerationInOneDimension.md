@@ -10,7 +10,7 @@ layout: page
 
 </div>
 
-![Four men racing up a river in their kayaks.](../resources/Figure_02_05_00.jpg "Kinematic equations can help us describe and predict the motion of moving objects such as these kayaks racing in Newbury, England. (credit: Barry Skeates, Flickr)")
+![Four men racing up a river in their kayaks.](../resources/Figure_02_05_01.jpg "Kinematic equations can help us describe and predict the motion of moving objects such as these kayaks racing in Newbury, England. (credit: Barry Skeates, Flickr)")
 {: #Figure1}
 
 We might know that the greater the acceleration of, say, a car moving away from
@@ -117,7 +117,7 @@ taking his initial position to be zero?
 
 Draw a sketch.
 
-![Velocity vector arrow labeled v equals 4 point zero zero meters per second over an x axis displaying initial and final positions. Final position is labeled x equals question mark.](../resources/Figure_02_05_00a.jpg)
+![Velocity vector arrow labeled v equals 4 point zero zero meters per second over an x axis displaying initial and final positions. Final position is labeled x equals question mark.](../resources/Figure_02_05_02.jpg)
 {: #Figure2}
 
 The final position $$ x $$ is given by the equation
@@ -155,7 +155,7 @@ When graphed, linear functions look like straight lines with a constant slope.)
 On a car trip, for example, we will get twice as far in a given time if we
 average 90 km/h than if we average 45 km/h.
 
-![Line graph showing displacement in meters versus average velocity in meters per second. The line is straight with a positive slope. Displacement x increases linearly with increase in average velocity v.](../resources/Figure_02_05_00b.jpg "There is a linear relationship between displacement and average velocity. For a given time \( t\) , an object moving twice as fast as another object will move twice as far as the other object.")
+![Line graph showing displacement in meters versus average velocity in meters per second. The line is straight with a positive slope. Displacement x increases linearly with increase in average velocity v.](../resources/Figure_02_05_03.jpg "There is a linear relationship between displacement and average velocity. For a given time \( t\) , an object moving twice as fast as another object will move twice as far as the other object.")
 {: #Figure3}
 
 <div class="note" data-label="" markdown="1">
@@ -191,7 +191,7 @@ An airplane lands with an initial velocity of 70.0 m/s and then decelerates at $
 Draw a sketch. We draw the acceleration vector in the direction opposite the
 velocity vector because the plane is decelerating.
 
-![Velocity vector arrow pointing toward the right in the positive x direction. Initial velocity equals seventy meters per second. Final velocity equals question mark. An acceleration vector arrow pointing toward the left labeled a equals negative 1 point 50 meters per second squared.](../resources/Figure_02_05_00c.jpg)
+![Velocity vector arrow pointing toward the right in the positive x direction. Initial velocity equals seventy meters per second. Final velocity equals question mark. An acceleration vector arrow pointing toward the left labeled a equals negative 1 point 50 meters per second squared.](../resources/Figure_02_05_04.jpg)
 {: #Figure4}
 
 **Solution**

@@ -234,7 +234,7 @@ utilize the full voltage of the source and can operate completely independently.
 The same is true in your house, or any building. (See [[Figure 3]](#Figure3)(b)
 .)
 
-![Part a shows two electrical circuits which are compared. The first electrical circuit is arranged with resistors in parallel. The circuit has three paths, with a voltage source V at one end. Just after the voltage source, the circuit has current I. The first path has resistor R sub one and current I sub one after the resistor. The second path has resistor R sub two and current I sub two after the resistor. The third path has resistor R sub three with current I sub three after the resistor. The first circuit is equivalent to the second circuit. The second circuit has a voltage source V and an equivalent parallel resistance R sub p. Part b shows a complicated electrical wiring diagram of a distribution board that supplies electricity to a house.](../resources/Figure_21_01_04.jpg "(a) Three resistors connected in parallel to a battery and the equivalent single or parallel resistance. (b) Electrical power setup in a house. (credit: Dmitry G, Wikimedia Commons)")
+![Part a shows two electrical circuits which are compared. The first electrical circuit is arranged with resistors in parallel. The circuit has three paths, with a voltage source V at one end. Just after the voltage source, the circuit has current I. The first path has resistor R sub one and current I sub one after the resistor. The second path has resistor R sub two and current I sub two after the resistor. The third path has resistor R sub three with current I sub three after the resistor. The first circuit is equivalent to the second circuit. The second circuit has a voltage source V and an equivalent parallel resistance R sub p. Part b shows a complicated electrical wiring diagram of a distribution board that supplies electricity to a house.](../resources/Figure_21_01_03.jpg "(a) Three resistors connected in parallel to a battery and the equivalent single or parallel resistance. (b) Electrical power setup in a house. (credit: Dmitry G, Wikimedia Commons)")
 {: #Figure3}
 
 To find an expression for the equivalent parallel resistance $${R}_{\text{p}} $$
@@ -427,7 +427,7 @@ parts are identified as either series or parallel, reduced to their equivalents,
 and further reduced until a single resistance is left. The process is more time
 consuming than difficult.
 
-![The diagram has a set of five circuits. The first circuit has a combination of seven resistors in series and parallel combinations. It has a resistor R sub one in series with a set of three resistors R sub two, R sub three, and R sub four in parallel and connected in series with a combination of resistors R sub five and R sub six, which are parallel. A resistor R sub seven is connected in parallel to R sub one and the voltage source. The second circuit calculates combinations of all parallel resistors in circuit one and replaces them with their equivalent resistance. It has a resistor R sub one in series with R sub p and R sub p prime. A resistor R sub seven is connected in parallel to R sub one and the voltage source. The third circuit takes the combination of the series resistors R sub p and R sub p prime and replaces it with R sub s. It has a resistor R sub one in series with R sub s. A resistor R sub seven is connected in parallel to R sub s and the voltage source. The fourth circuit shows a parallel combination of R sub seven and R sub s are calculated and replaced by R sub p double prime. The circuit now has a series combination voltage source, R sub one and R sub p double prime. The fifth circuit shows the final equivalent of the first circuit. It has a voltage source connecting across a final equivalent resistance R sub s prime.](../resources/Figure_21_01_05.jpg "This combination of seven resistors has both series and parallel parts. Each is identified and reduced to an equivalent resistance, and these are further reduced until a single equivalent resistance is reached.")
+![The diagram has a set of five circuits. The first circuit has a combination of seven resistors in series and parallel combinations. It has a resistor R sub one in series with a set of three resistors R sub two, R sub three, and R sub four in parallel and connected in series with a combination of resistors R sub five and R sub six, which are parallel. A resistor R sub seven is connected in parallel to R sub one and the voltage source. The second circuit calculates combinations of all parallel resistors in circuit one and replaces them with their equivalent resistance. It has a resistor R sub one in series with R sub p and R sub p prime. A resistor R sub seven is connected in parallel to R sub one and the voltage source. The third circuit takes the combination of the series resistors R sub p and R sub p prime and replaces it with R sub s. It has a resistor R sub one in series with R sub s. A resistor R sub seven is connected in parallel to R sub s and the voltage source. The fourth circuit shows a parallel combination of R sub seven and R sub s are calculated and replaced by R sub p double prime. The circuit now has a series combination voltage source, R sub one and R sub p double prime. The fifth circuit shows the final equivalent of the first circuit. It has a voltage source connecting across a final equivalent resistance R sub s prime.](../resources/Figure_21_01_04.jpg "This combination of seven resistors has both series and parallel parts. Each is identified and reduced to an equivalent resistance, and these are further reduced until a single equivalent resistance is reached.")
 {: #Figure4}
 
 The simplest combination of series and parallel resistance, shown
@@ -452,7 +452,7 @@ Drop, Current, and Power Dissipation: Combining Series and Parallel Circuits
  through  $${R}_{2} $$ .
  (d) What power is dissipated by  $${R}_{2} $$ ?
 
-![Circuit diagram in which a battery of twelve point zero volts is connected to a combination of three resistors. Resistors R sub two and R sub three are connected in parallel to each other, and their combination is connected in series to resistor R sub one. R sub one has a resistance of one point zero zero ohms, R sub two has a resistance of six point zero zero ohms, and R sub three has a resistance of thirteen point zero ohms.](../resources/Figure_21_01_06.jpg "These three resistors are connected to a voltage source so that \( R_{2} \) and \( R_{3} \) are in parallel with one another and that combination is in series with \( R_{1} \) .")
+![Circuit diagram in which a battery of twelve point zero volts is connected to a combination of three resistors. Resistors R sub two and R sub three are connected in parallel to each other, and their combination is connected in series to resistor R sub one. R sub one has a resistance of one point zero zero ohms, R sub two has a resistance of six point zero zero ohms, and R sub three has a resistance of thirteen point zero ohms.](../resources/Figure_21_01_05.jpg "These three resistors are connected to a voltage source so that \( R_{2} \) and \( R_{3} \) are in parallel with one another and that combination is in series with \( R_{1} \) .")
 {: #Figure5}
 
 **Strategy and Solution for (a)**
@@ -570,7 +570,7 @@ current causes a larger $$IR $$ drop in the wires represented by $${R}_{1} $$ ,
 reducing the voltage across the light bulb (which is $${R}_{2} $$ ), which then
 dims noticeably.
 
-![A conceptual drawing showing a refrigerator with its motor and light bulbs connected to a household A C circuit through a wire with resistance of R sub one. The bulb has a resistance R sub two, and the motor has a resistance R sub three.](../resources/Figure_21_01_07.jpg "Why do lights dim when a large appliance is switched on? The answer is that the large current the appliance motor draws causes a significant \( IR \) drop in the wires and reduces the voltage across the light.")
+![A conceptual drawing showing a refrigerator with its motor and light bulbs connected to a household A C circuit through a wire with resistance of R sub one. The bulb has a resistance R sub two, and the motor has a resistance R sub three.](../resources/Figure_21_01_06.jpg "Why do lights dim when a large appliance is switched on? The answer is that the large current the appliance motor draws causes a significant \( IR \) drop in the wires and reduces the voltage across the light.")
 {: #Figure6}
 
 <section data-depth="1">
@@ -634,7 +634,7 @@ Problem-Solving Strategies for Series and Parallel Resistors
 <div class="problem" markdown="1">
 A switch has a variable resistance that is nearly zero when closed and extremely large when open, and it is placed in series with the device it controls. Explain the effect the switch in [[Figure 7]](#Figure7) has on current when open and when closed.
 
-![The diagram shows a circuit with a voltage source and internal resistance small r connected in series with a resistance R and a switch.](../resources/Figure_21_01_08.jpg "A switch is ordinarily in series with a resistance and voltage source. Ideally, the switch has nearly zero resistance when closed but has an extremely large resistance when open. (Note that in this diagram, the script E represents the voltage (or electromotive force) of the battery.)")
+![The diagram shows a circuit with a voltage source and internal resistance small r connected in series with a resistance R and a switch.](../resources/Figure_21_01_07.jpg "A switch is ordinarily in series with a resistance and voltage source. Ideally, the switch has nearly zero resistance when closed but has an extremely large resistance when open. (Note that in this diagram, the script E represents the voltage (or electromotive force) of the battery.)")
 {: #Figure7}
 
 </div>
@@ -665,7 +665,7 @@ Why is the power dissipated by a closed switch, such as in [[Figure 7]](#Figure7
 <div class="problem" markdown="1">
 A student in a physics lab mistakenly wired a light bulb, battery, and switch as shown in [[Figure 8]](#Figure8). Explain why the bulb is on when the switch is open, and off when the switch is closed. (Do not try this—it is hard on the battery!)
 
-![This diagram shows a circuit with a voltage source and internal resistance small r. A resistance R and an open switch are connected in parallel to it.](../resources/Figure_21_01_09.jpg "A wiring mistake put this switch in parallel with the device represented by \( R \) . (Note that in this diagram, the script E represents the voltage (or electromotive force) of the battery.)")
+![This diagram shows a circuit with a voltage source and internal resistance small r. A resistance R and an open switch are connected in parallel to it.](../resources/Figure_21_01_08.jpg "A wiring mistake put this switch in parallel with the device represented by \( R \) . (Note that in this diagram, the script E represents the voltage (or electromotive force) of the battery.)")
 {: #Figure8}
 
 </div>
@@ -833,7 +833,7 @@ A 240-kV power transmission line carrying  $$5.00 \times 10^{2}  \text{A} $$
  is hung from grounded metal towers by ceramic insulators, each having a  $$ 1.00 \times 10^{9} -\Omega  $$
  resistance. [[Figure 9]](#Figure9). (a) What is the resistance to ground of 100 of these insulators? (b) Calculate the power dissipated by 100 of them. (c) What fraction of the power carried by the line is this? Explicitly show how you follow the steps in the [Problem-Solving Strategies for Series and Parallel Resistors](#Note1).
 
-![The diagram shows a grounded metal transmission tower. Two ground conductors on top of the tower point out like antennas. Hanging from the tower are a set of three bundled conductors, one on either end and one in the middle.](../resources/Figure_21_01_10.jpg "High-voltage (240-kV) transmission line carrying \( 5.00 \times 10^2 \text{A} \) is hung from a grounded metal transmission tower. The row of ceramic insulators provide \( 1.00 \times 10^9 \Omega \) of resistance each.")
+![The diagram shows a grounded metal transmission tower. Two ground conductors on top of the tower point out like antennas. Hanging from the tower are a set of three bundled conductors, one on either end and one in the middle.](../resources/Figure_21_01_09.jpg "High-voltage (240-kV) transmission line carrying \( 5.00 \times 10^2 \text{A} \) is hung from a grounded metal transmission tower. The row of ceramic insulators provide \( 1.00 \times 10^9 \Omega \) of resistance each.")
 {: #Figure9}
 
 </div>
