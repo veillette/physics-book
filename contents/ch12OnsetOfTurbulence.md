@@ -29,7 +29,7 @@ and insufficiently closed heart valves. Ultrasound can also be used to detect
 turbulence as a medical indicator in a process analogous to Doppler-shift radar
 used to detect storms.
 
-![Figure shows a rectangular section of a blood vessel. The blood flow is shown toward right. The blood vessel is shown to be broader at one end and narrow toward the opposite end. The flow is shown to be laminar as shown by horizontal parallel lines. The velocity is v one in the broader section of blood vessel. The junction where the tube narrows the velocity is v two. The lines of flow are shown to bend. The regions where the blood vessels are narrow, the flow is shown to be turbulent as shown to by curling arrows. The velocity is given by v three toward right. The length of the arrows depicting the velocities represent that v three is greater than v two greater than v one.](../resources/Figure_12_05_01a.jpg "Flow is laminar in the large part of this blood vessel and turbulent in the part narrowed by plaque, where velocity is high. In the transition region, the flow can oscillate chaotically between laminar and turbulent flow.")
+![Figure shows a rectangular section of a blood vessel. The blood flow is shown toward right. The blood vessel is shown to be broader at one end and narrow toward the opposite end. The flow is shown to be laminar as shown by horizontal parallel lines. The velocity is v one in the broader section of blood vessel. The junction where the tube narrows the velocity is v two. The lines of flow are shown to bend. The regions where the blood vessels are narrow, the flow is shown to be turbulent as shown to by curling arrows. The velocity is given by v three toward right. The length of the arrows depicting the velocities represent that v three is greater than v two greater than v one.](../resources/Figure_12_05_01.jpg "Flow is laminar in the large part of this blood vessel and turbulent in the part narrowed by plaque, where velocity is high. In the transition region, the flow can oscillate chaotically between laminar and turbulent flow.")
 {: #Figure1}
 
 An indicator called the **Reynolds number**  $${N}_{\text{R}} $$ can reveal
@@ -126,7 +126,7 @@ Doppler ultrasound can be used to measure the speed of blood in the body. If the
 <div class="problem"  markdown="1">
 Sink drains often have a device such as that shown in [[Figure 2]](#Figure2) to help speed the flow of water. How does this work?
 
-![Shows a picture of a small ring shaped section of a cylinder. It is shown to be partitioned in to four equal portions.](../resources/Figure_12_05_02a.jpg "You will find devices such as this in many drains. They significantly increase flow rate.")
+![Shows a picture of a small ring shaped section of a cylinder. It is shown to be partitioned in to four equal portions.](../resources/Figure_12_05_02.jpg "You will find devices such as this in many drains. They significantly increase flow rate.")
 {: #Figure2}
 
 </div>

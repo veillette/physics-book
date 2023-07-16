@@ -21,7 +21,7 @@ that all important aspects of rotational motion either have already been defined
 for linear motion or have exact analogs in linear motion. First, we look at
 angular acceleration—the rotational analog of linear acceleration.
 
-![The figure shows a figure skater with her right leg lifted up in the air reaching over her head. She has her both arms stretched over her head to hold the skates of the lifted leg. The skater is spinning about a vertical axis.](../resources/Figure_10_00_02a.jpg "This figure skater increases her rate of spin by pulling her arms and her extended leg closer to her axis of rotation. (credit: Luu, Wikimedia Commons)")
+![The figure shows a figure skater with her right leg lifted up in the air reaching over her head. She has her both arms stretched over her head to hold the skates of the lifted leg. The skater is spinning about a vertical axis.](../resources/Figure_10_00_02.jpg "This figure skater increases her rate of spin by pulling her arms and her extended leg closer to her axis of rotation. (credit: Luu, Wikimedia Commons)")
 {: #Figure2}
 
 <div class="note" data-label="Video" markdown="1">
