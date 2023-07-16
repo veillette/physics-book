@@ -76,7 +76,7 @@ shown in [Table 1](#Table1).
 
 {: #Table1}
 
-![A circle is shown. Two radii of the circle, inclined at an acute angle delta theta, are shown. On one of the radii, two points, one and two are marked. The point one is inside the circle through which an arc between the two radii is shown. The point two is on the circumference of the circle. The two arc lengths are delta s one and delta s two respectively for the two points.](../resources/Figure_06_01_02a.jpg
+![A circle is shown. Two radii of the circle, inclined at an acute angle delta theta, are shown. On one of the radii, two points, one and two are marked. The point one is inside the circle through which an arc between the two radii is shown. The point two is on the circumference of the circle. The two arc lengths are delta s one and delta s two respectively for the two points.](../resources/Figure_06_01_02.jpg
 "Points 1 and 2 rotate through the same angle \( \Delta \theta \), but point 2 moves through a greater arc length \( \Delta s \) because it is at a greater distance from the center of rotation \( r \) ")
 {: #Figure3}
 
@@ -145,7 +145,7 @@ velocity ( $$ \omega $$)
 will produce a greater linear speed ( $$ v $$)
 for the car.
 
-![The given figure shows the front wheel of a car. The radius of the car wheel, r, is shown as an arrow and the linear velocity, v, is shown with a green horizontal arrow pointing rightward. The angular velocity, omega, is shown with a clockwise-curved arrow over the wheel.](../resources/Figure_06_01_03a.jpg "A car moving at a velocity \( v \) to the right has a tire rotating with an angular velocity \( \omega \). The speed of the tread of the tire relative to the axle is \( v \) , the same as if the car were jacked up. Thus the car moves forward at linear velocity \( r \omega \) , where \( r \) is the tire radius. A larger angular velocity for the tire means a greater velocity for the car. ")
+![The given figure shows the front wheel of a car. The radius of the car wheel, r, is shown as an arrow and the linear velocity, v, is shown with a green horizontal arrow pointing rightward. The angular velocity, omega, is shown with a clockwise-curved arrow over the wheel.](../resources/Figure_06_01_03.jpg "A car moving at a velocity \( v \) to the right has a tire rotating with an angular velocity \( \omega \). The speed of the tread of the tire relative to the axle is \( v \) , the same as if the car were jacked up. Thus the car moves forward at linear velocity \( r \omega \) , where \( r \) is the tire radius. A larger angular velocity for the tire means a greater velocity for the car. ")
 {: #Figure4}
 
 <div class="example" markdown="1">
@@ -202,7 +202,7 @@ Tie an object to the end of a string and swing it around in a horizontal circle 
 
 </div>
 
-![The given figure shows the top view of an old fashioned vinyl record. Two perpendicular line segments are drawn through the center of the circular record, one vertically upward and one horizontal to the right side. Two flies are shown at the end points of the vertical lines near the borders of the record. Two arrows are also drawn perpendicularly rightward through the end points of these vertical lines depicting linear velocities. A curved arrow is also drawn at the center circular part of the record which shows the angular velocity.](../resources/Figure_06_01_04a.jpg "As an object moves in a circle, here a fly on the edge of an old-fashioned vinyl record, its instantaneous velocity is always tangent to the circle. The direction of the angular velocity is clockwise in this case. ")
+![The given figure shows the top view of an old fashioned vinyl record. Two perpendicular line segments are drawn through the center of the circular record, one vertically upward and one horizontal to the right side. Two flies are shown at the end points of the vertical lines near the borders of the record. Two arrows are also drawn perpendicularly rightward through the end points of these vertical lines depicting linear velocities. A curved arrow is also drawn at the center circular part of the record which shows the angular velocity.](../resources/Figure_06_01_04.jpg "As an object moves in a circle, here a fly on the edge of an old-fashioned vinyl record, its instantaneous velocity is always tangent to the circle. The direction of the angular velocity is clockwise in this case. ")
 {: #Figure5}
 
 <div class="note" data-label="PhET Exploration" markdown="1">
