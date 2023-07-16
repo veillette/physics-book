@@ -196,7 +196,7 @@ If a cosmic ray proton approaches the Earth from outer space along a line toward
 <div class="problem" markdown="1">
 What are the signs of the charges on the particles in [[Figure 9]](#Figure9)?
 
-![Diagram showing magnetic field lines into the page. Charges are moving from the bottom to the top of the diagram and thus perpendicular to the field lines. Charge a curves to the left. Charge b moves in a straight line from bottom to top. Charge c curves to the right.](../resources/Figure_22_99_01.jpg " ")
+![Diagram showing magnetic field lines into the page. Charges are moving from the bottom to the top of the diagram and thus perpendicular to the field lines. Charge a curves to the left. Charge b moves in a straight line from bottom to top. Charge c curves to the right.](../resources/Figure_22_05_09.jpg " ")
 {: #Figure9}
 
 </div>
@@ -206,7 +206,7 @@ What are the signs of the charges on the particles in [[Figure 9]](#Figure9)?
 <div class="problem" markdown="1">
 Which of the particles in [[Figure 10]](#Figure10) has the greatest velocity, assuming they have identical charges and masses?
 
-![Diagram showing magnetic field lines out of the page. Charge a curves clockwise with a large radius as it moves from the bottom to the top of the diagram. Charge b curves clockwise with a much smaller radius as it moves from lower middle to upper middle of the diagram.](../resources/Figure_22_99_02.jpg " ")
+![Diagram showing magnetic field lines out of the page. Charge a curves clockwise with a large radius as it moves from the bottom to the top of the diagram. Charge b curves clockwise with a much smaller radius as it moves from lower middle to upper middle of the diagram.](../resources/Figure_22_05_10.jpg " ")
 {: #Figure10}
 
 </div>
