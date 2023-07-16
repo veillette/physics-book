@@ -107,16 +107,16 @@ problem-solving skills. Furthermore, physics has retained the most basic aspects
 of science, so it is used by all of the sciences, and the study of physics makes
 other sciences easier to understand.
 
-![A microwave oven is shown with some food on the nonmetal plate inside it.](../resources/Figure_01_01_03_aa.jpg "The laws of physics help us understand how common appliances work. For example, the laws of physics can help explain how microwave ovens heat up food, and they also help us understand why it is dangerous to place metal objects in a microwave oven. (credit: MoneyBlogNewz)")
+![A microwave oven is shown with some food on the nonmetal plate inside it.](../resources/Figure_01_01_03.jpg "The laws of physics help us understand how common appliances work. For example, the laws of physics can help explain how microwave ovens heat up food, and they also help us understand why it is dangerous to place metal objects in a microwave oven. (credit: MoneyBlogNewz)")
 {: #Figure3}
 
-![M R I scan of a brain with specific tumors.](../resources/Figure_01_01_04_aa.jpg "These two applications of physics have more in common than meets the eye. Microwave ovens use electromagnetic waves to heat food. Magnetic resonance imaging (MRI) also uses electromagnetic waves to yield an image of the brain, from which the exact location of tumors can be determined. (credit: Rashmi Chawla, Daniel Smith, and Paul E. Marik)")
+![M R I scan of a brain with specific tumors.](../resources/Figure_01_01_04_.jpg "These two applications of physics have more in common than meets the eye. Microwave ovens use electromagnetic waves to heat food. Magnetic resonance imaging (MRI) also uses electromagnetic waves to yield an image of the brain, from which the exact location of tumors can be determined. (credit: Rashmi Chawla, Daniel Smith, and Paul E. Marik)")
 {: #Figure4 height="225"}
 
-![Cell membranes of onion cells, similar in appearance to a section of a brick wall.](../resources/Figure_01_01_05_aa.jpg "Physics, chemistry, and biology help describe the properties of cell walls in plant cells, such as the onion cells seen here. (credit: Umberto Salvagnin)")
+![Cell membranes of onion cells, similar in appearance to a section of a brick wall.](../resources/Figure_01_01_05.jpg "Physics, chemistry, and biology help describe the properties of cell walls in plant cells, such as the onion cells seen here. (credit: Umberto Salvagnin)")
 {: #Figure5}
 
-![A detailed diagram of a cell membrane is shown with parts labeled as Protein channel, Globular protein, Glycoprotein, Carbohydrate, Hydrophilic heads, Phospholipid bilayer , Phospholipid molecule, Hydrophobic tails, Alpha-Helix protein, Surface protein, Filaments of cytoskeleton, Integral protein, Peripheral protein, Glycolipid, and Cholesterol.](../resources/Figure_01_01_06_aa.jpg "An artist&#x2019;s rendition of the structure of a cell membrane. Membranes form the boundaries of animal cells and are complex in structure and function. Many of the most fundamental properties of life, such as the firing of nerve cells, are related to membranes. The disciplines of biology, chemistry, and physics all help us understand the membranes of animal cells. (credit: Mariana Ruiz)")
+![A detailed diagram of a cell membrane is shown with parts labeled as Protein channel, Globular protein, Glycoprotein, Carbohydrate, Hydrophilic heads, Phospholipid bilayer , Phospholipid molecule, Hydrophobic tails, Alpha-Helix protein, Surface protein, Filaments of cytoskeleton, Integral protein, Peripheral protein, Glycolipid, and Cholesterol.](../resources/Figure_01_01_06.jpg "An artist&#x2019;s rendition of the structure of a cell membrane. Membranes form the boundaries of animal cells and are complex in structure and function. Many of the most fundamental properties of life, such as the firing of nerve cells, are related to membranes. The disciplines of biology, chemistry, and physics all help us understand the membranes of animal cells. (credit: Mariana Ruiz)")
 {: #Figure6}
 
 ### Models, Theories, and Laws; The Role of Experimentation
@@ -131,10 +131,10 @@ See [Figure 7](#Figure7) and [Figure 8](#Figure8).)
 The cornerstone of discovering natural laws is observation; science must
 describe the universe as it is, not as we may imagine it to be.
 
-![A portrait of Isaac Newton. ](../resources/Figure_01_01_07_aa.jpg "Isaac Newton (1642&#x2013;1727) was very reluctant to publish his revolutionary work and had to be convinced to do so. In his later years, he stepped down from his academic post and became exchequer of the Royal Mint. He took this post seriously, inventing reeding (or creating ridges) on the edge of coins to prevent unscrupulous people from trimming the silver off of them before using them as currency. (credit: Arthur Shuster and Arthur E. Shipley: Britain&#x2019;s Heritage of Science. London, 1917.)")
+![A portrait of Isaac Newton. ](../resources/Figure_01_01_07.jpg "Isaac Newton (1642&#x2013;1727) was very reluctant to publish his revolutionary work and had to be convinced to do so. In his later years, he stepped down from his academic post and became exchequer of the Royal Mint. He took this post seriously, inventing reeding (or creating ridges) on the edge of coins to prevent unscrupulous people from trimming the silver off of them before using them as currency. (credit: Arthur Shuster and Arthur E. Shipley: Britain&#x2019;s Heritage of Science. London, 1917.)")
 {: #Figure7 height="275"}
 
-![A photograph of Marie Curie](../resources/Figure_01_01_08_aa.jpg "Marie Curie (1867&#x2013;1934) sacrificed monetary assets to help finance her early research and damaged her physical well-being with radiation exposure. She is the only person to win Nobel prizes in both physics and chemistry. One of her daughters also won a Nobel Prize. (credit: Wikimedia Commons) ")
+![A photograph of Marie Curie](../resources/Figure_01_01_08.jpg "Marie Curie (1867&#x2013;1934) sacrificed monetary assets to help finance her early research and damaged her physical well-being with radiation exposure. She is the only person to win Nobel prizes in both physics and chemistry. One of her daughters also won a Nobel Prize. (credit: Wikimedia Commons) ")
 {: #Figure8 height="225"}
 
 We all are curious to some extent. We look around, make generalizations, and try
@@ -262,13 +262,13 @@ as it developed from the Renaissance to the end of the 19th century is called
 **classical physics**. It was transformed into modern physics by revolutionary
 discoveries made starting at the beginning of the 20th century.
 
-![A marble statue of Aristotle.](../resources/Figure_01_01_10_aa.jpg "Over the centuries, natural philosophy has evolved into more specialized disciplines, as illustrated by the contributions of some of the greatest minds in history. The Greek philosopher Aristotle (384&#x2013;322 B.C.) wrote on a broad range of topics including physics, animals, the soul, politics, and poetry. (credit: Jastrow (2006)/Ludovisi Collection) ")
+![A marble statue of Aristotle.](../resources/Figure_01_01_10_.jpg "Over the centuries, natural philosophy has evolved into more specialized disciplines, as illustrated by the contributions of some of the greatest minds in history. The Greek philosopher Aristotle (384&#x2013;322 B.C.) wrote on a broad range of topics including physics, animals, the soul, politics, and poetry. (credit: Jastrow (2006)/Ludovisi Collection) ")
 {: #Figure10 height="225"}
 
-![A painting of Galileo Galilei.](../resources/Figure_01_01_11_aa.jpg "Galileo Galilei (1564&#x2013;1642) laid the foundation of modern experimentation and made contributions in mathematics, physics, and astronomy. (credit: Domenico Tintoretto) ")
+![A painting of Galileo Galilei.](../resources/Figure_01_01_11_.jpg "Galileo Galilei (1564&#x2013;1642) laid the foundation of modern experimentation and made contributions in mathematics, physics, and astronomy. (credit: Domenico Tintoretto) ")
 {: #Figure11 height="225"}
 
-![A photograph of Niels Bohr](../resources/Figure_01_01_12_aa.jpg "Niels Bohr (1885&#x2013;1962) made fundamental contributions to the development of quantum mechanics, one part of modern physics. (credit: United States Library of Congress Prints and Photographs Division) ")
+![A photograph of Niels Bohr](../resources/Figure_01_01_12_.jpg "Niels Bohr (1885&#x2013;1962) made fundamental contributions to the development of quantum mechanics, one part of modern physics. (credit: United States Library of Congress Prints and Photographs Division) ")
 {: #Figure12 height="225"}
 
 Classical physics is not an exact description of the universe, but it is an
@@ -295,7 +295,7 @@ For the laws of classical physics to apply, the following criteria must be met: 
 
 </div>
 
-![A high-resolution image of gold sheet obtained from S T M.](../resources/Figure_01_01_13_aa.jpg "Using a scanning tunneling microscope (STM), scientists can see the individual atoms that compose this sheet of gold. (credit: Erwinrossen)")
+![A high-resolution image of gold sheet obtained from S T M.](../resources/Figure_01_01_13.jpg "Using a scanning tunneling microscope (STM), scientists can see the individual atoms that compose this sheet of gold. (credit: Erwinrossen)")
 {: #Figure13 height="150"}
 
 Some of the most spectacular advances in science have been made in modern

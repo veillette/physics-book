@@ -514,7 +514,7 @@ of $$ \vb{F}_{\text{tot}} $$?
 or attempted motion between surfaces in contact.)
 
 ![(a) Overhead view of two ice skaters pushing on a third. One skater pushes with a force F two, represented by an arrow pointing up, and a second skater pushes with a force F one, represented by an arrow pointing from left to right. Vector F one and vector F two are along the arms of the two skaters acting on the third skater. A vector diagram is shown in the form of a right triangle in which the base is vector F one pointing east, and perpendicular to F one is vector F two pointing north. The resultant vector is shown by the hypotenuse pointing northeast. (b)
-Free-body diagram showing only the forces acting on the skater.](../resources/Figure_04_01_01a.jpg " (a) Overhead view of two ice skaters pushing on a third. (b) Free-body diagram")
+Free-body diagram showing only the forces acting on the skater.](../resources/Figure_05_01_06.jpg " (a) Overhead view of two ice skaters pushing on a third. (b) Free-body diagram")
 {: #Figure7}
 
 </div>
