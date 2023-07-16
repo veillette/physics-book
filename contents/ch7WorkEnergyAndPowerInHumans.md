@@ -18,7 +18,7 @@ tissue. (See [Figure 1](#Figure1).) The fraction going into each form depends bo
 on how much we eat and on our level of physical activity. If we eat more than is
 needed to do work and stay warm, the remainder goes into body fat.
 
-![A schematic diagram of energy consumed by humans and converted to various other forms is shown. Food energy is converted into work, thermal energy, and stored fat depicted by an arrow branching out of food energy and ending at these three forms. Stored fat plus thermal energy is equal to the final other energy, labeled  O E sub f, and nonconservative work is shown by W sub n c, which is negative, so the initial other energy, labeled O E sub i, plus W sub n c is equal to O E sub f .](../resources/Figure_07_08_01a.jpg "Energy consumed by humans is converted to work, thermal energy, and stored fat. By far the largest fraction goes to thermal energy, although the fraction varies depending on the type of physical activity.")
+![A schematic diagram of energy consumed by humans and converted to various other forms is shown. Food energy is converted into work, thermal energy, and stored fat depicted by an arrow branching out of food energy and ending at these three forms. Stored fat plus thermal energy is equal to the final other energy, labeled  O E sub f, and nonconservative work is shown by W sub n c, which is negative, so the initial other energy, labeled O E sub i, plus W sub n c is equal to O E sub f .](../resources/Figure_07_08_01.jpg "Energy consumed by humans is converted to work, thermal energy, and stored fat. By far the largest fraction goes to thermal energy, although the fraction varies depending on the type of physical activity.")
 {: #Figure1}
 
 ### Power Consumed at Rest
@@ -105,7 +105,7 @@ assuming the energy content of fat to be 39 kJ/g.
 
 </div>
 
-![A person is measuring the amount of oxygen in blood and metabolic rate using a pulse oxymeter. The pulse oxymeter is strapped to the person&#x2019;s wrist, and the index finger is inside the clip.](../resources/Figure_07_08_02a.jpg "A pulse oxymeter is an apparatus that measures the amount of oxygen in blood. Oxymeters can be used to determine a person&#x2019;s metabolic rate, which is the rate at which food energy is converted to another form. Such measurements can indicate the level of athletic conditioning as well as certain medical problems. (credit: UusiAjaja, Wikimedia Commons)")
+![A person is measuring the amount of oxygen in blood and metabolic rate using a pulse oxymeter. The pulse oxymeter is strapped to the person&#x2019;s wrist, and the index finger is inside the clip.](../resources/Figure_07_08_02.jpg "A pulse oxymeter is an apparatus that measures the amount of oxygen in blood. Oxymeters can be used to determine a person&#x2019;s metabolic rate, which is the rate at which food energy is converted to another form. Such measurements can indicate the level of athletic conditioning as well as certain medical problems. (credit: UusiAjaja, Wikimedia Commons)")
 {: #Figure2}
 
 ##### Table 2: Energy and Oxygen Consumption Rates
@@ -144,7 +144,7 @@ this electrical potential in nerve impulses.) This bioelectrical energy
 ultimately becomes mostly thermal energy, but some is utilized to power chemical
 processes such as in the kidneys and liver, and in fat production.
 
-![An f M R I scan of a human head with energy consumption in the vision center shown by a bright spot. This brightness indicates the energy consumption.](../resources/Figure_07_08_03a.jpg "This fMRI scan shows an increased level of energy consumption in the vision center of the brain. Here, the patient was being asked to recognize faces. (credit: NIH via Wikimedia Commons)")
+![An f M R I scan of a human head with energy consumption in the vision center shown by a bright spot. This brightness indicates the energy consumption.](../resources/Figure_07_08_03.jpg "This fMRI scan shows an increased level of energy consumption in the vision center of the brain. Here, the patient was being asked to recognize faces. (credit: NIH via Wikimedia Commons)")
 {: #Figure3}
 
 ### Section Summary
@@ -227,7 +227,7 @@ exercise alone will be sufficient to lose weight? You may wish to consider that 
 Calculate the power output in watts and horsepower of a shot-putter who takes 1.20 s to accelerate
 the 7.27-kg shot from rest to 14.0 m/s, while raising it 0.800 m. (Do not include the power produced to accelerate his body.)
 
-![A close view of a shot-putter throwing the shot.](../resources/Figure_07_08_04a.jpg "Shot putter at the Dornoch Highland Gathering in 2007. (credit: John Haslam, Flickr)")
+![A close view of a shot-putter throwing the shot.](../resources/Figure_07_08_04.jpg "Shot putter at the Dornoch Highland Gathering in 2007. (credit: John Haslam, Flickr)")
 {: #Figure4}
 
 </div>
@@ -333,7 +333,7 @@ the 234-min trip was about 350 W. Using the efficiency for
 cycling from the module on [Conservation of Energy](../contents/ch7ConservationOfEnergy.md),
 calculate the food energy in kilojoules he metabolized during the flight.
 
-![An aircraft flying in the air shown from outside, which is powered by a bicycle-type drive mechanism.](../resources/Figure_07_08_05a.jpg "The Daedalus 88 in flight. (credit: NASA photo by Beasley)")
+![An aircraft flying in the air shown from outside, which is powered by a bicycle-type drive mechanism.](../resources/Figure_07_08_05.jpg "The Daedalus 88 in flight. (credit: NASA photo by Beasley)")
 {: #Figure5}
 
 </div>

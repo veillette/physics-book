@@ -255,7 +255,7 @@ ramp that makes an angle of $$ 20.0^\circ $$ with the horizontal.
 on the crate parallel to the ramp and moves at a constant speed. Be certain to
 include the work he does on the crate *and* on his body to get up the ramp.
 
-![A person is pushing a heavy crate up a ramp. The force vector F applied by the person is acting parallel to the ramp.](../resources/Figure_07_01_02a.jpg "A man pushes a crate up a ramp.")
+![A person is pushing a heavy crate up a ramp. The force vector F applied by the person is acting parallel to the ramp.](../resources/Figure_07_01_02.jpg "A man pushes a crate up a ramp.")
 {: #Figure2}
 </div>
 <div class="solution">
@@ -270,7 +270,7 @@ include the work he does on the crate *and* on his body to get up the ramp.
 How much work is done by the boy pulling his sister 30.0 m in a wagon as shown
 in [Figure 3](#Figure3)? Assume no friction acts on the wagon.
 
-![A child is sitting inside a wagon and being pulled by a boy with a force F at an angle thirty degrees upward from the horizontal. F is equal to fifty newtons, the displacement vector d is horizontal in the direction of motion. The magnitude of d is thirty meters.](../resources/Figure_07_01_03a.jpg "The boy does work on the system of the wagon and the child when he pulls them as shown. ")
+![A child is sitting inside a wagon and being pulled by a boy with a force F at an angle thirty degrees upward from the horizontal. F is equal to fifty newtons, the displacement vector d is horizontal in the direction of motion. The magnitude of d is thirty meters.](../resources/Figure_07_01_03.jpg "The boy does work on the system of the wagon and the child when he pulls them as shown. ")
 {: #Figure3}
 
 </div>
@@ -312,7 +312,7 @@ coefficient of friction between the sled and the snow is 0.100.
 (c) What is the work done by the gravitational force on the sled?
 (d) What is the total work done?
 
-![A person on a rescue sled is shown being pulled up a slope. The slope makes an angle of sixty degrees from the horizontal. The weight of the person is shown by vector w acting vertically downward. The tension in the rope depicted by vector T is along the incline in the upward direction; vector f depicting frictional force is also acting in the same direction.](../resources/Figure_07_01_04a.jpg "A rescue sled and victim are lowered down a steep slope. ")
+![A person on a rescue sled is shown being pulled up a slope. The slope makes an angle of sixty degrees from the horizontal. The weight of the person is shown by vector w acting vertically downward. The tension in the rope depicted by vector T is along the incline in the upward direction; vector f depicting frictional force is also acting in the same direction.](../resources/Figure_07_01_04.jpg "A rescue sled and victim are lowered down a steep slope. ")
 {: #Figure4}
 
 </div>
