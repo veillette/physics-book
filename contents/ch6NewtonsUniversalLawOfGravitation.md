@@ -292,7 +292,7 @@ observed in our galaxy. These have masses greater than the Sun but have
 diameters only a few kilometers across. The tidal forces near them are so great
 that they can actually tear matter from a companion star.
 
-![The figure shows a star in sky near a black hole. The tidal force of the black hole is tearing the matter from the star&#x2019;s surface. ](../resources/Figure_06_05_07aa.jpg "A black hole is an object with such strong gravity that not even light can escape it. This black hole was created by the supernova of one star in a two-star system. The tidal forces created by the black hole are so great that it tears matter from the companion star. This matter is compressed and heated as it is sucked into the black hole, creating light and X-rays observable from Earth.")
+![The figure shows a star in sky near a black hole. The tidal force of the black hole is tearing the matter from the star&#x2019;s surface. ](../resources/Figure_06_05_07(a).jpg "A black hole is an object with such strong gravity that not even light can escape it. This black hole was created by the supernova of one star in a two-star system. The tidal forces created by the black hole are so great that it tears matter from the companion star. This matter is compressed and heated as it is sucked into the black hole, creating light and X-rays observable from Earth.")
 {: #Figure7}
 
 ### ”Weightlessness” and Microgravity
@@ -308,7 +308,7 @@ gravity. If an elevator cable breaks, the passengers inside will be in free fall
 and will experience weightlessness. You can experience short periods of
 weightlessness in some rides in amusement parks.
 
-![The figure shows some astronauts floating inside the International Space Station](../resources/Figure_06_05_07ab.jpg "Astronauts experiencing weightlessness on board the International Space Station. (credit: NASA)")
+![The figure shows some astronauts floating inside the International Space Station](../resources/Figure_06_05_07(b).jpg "Astronauts experiencing weightlessness on board the International Space Station. (credit: NASA)")
 {: #Figure8}
 
 **Microgravity** refers to an environment in which the apparent net acceleration

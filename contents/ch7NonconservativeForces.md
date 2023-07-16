@@ -27,7 +27,7 @@ Furthermore, even if the thermal energy is retained or captured, it cannot be
 fully converted back to work, so it is lost or not recoverable in that sense as
 well.
 
-![(a) A drawing of a happy face is erased diagonally from a point A to a point B. (b) A drawing of a happy face is erased in the shape of the letter u, but starting from the same point A and ending at the same point B.](../resources/Figure_07_05_01ab1.jpg "The amount of the happy face erased depends on the path taken by the eraser between points A and B, as does the work done against friction. Less work is done and less of the face is erased for the path in (a) than for the path in (b). The force here is friction, and most of the work goes into thermal energy that subsequently leaves the system (the happy face plus the eraser). The energy expended cannot be fully recovered. ")
+![(a) A drawing of a happy face is erased diagonally from a point A to a point B. (b) A drawing of a happy face is erased in the shape of the letter u, but starting from the same point A and ending at the same point B.](../resources/Figure_07_05_01.jpg "The amount of the happy face erased depends on the path taken by the eraser between points A and B, as does the work done against friction. Less work is done and less of the face is erased for the path in (a) than for the path in (b). The force here is friction, and most of the work goes into thermal energy that subsequently leaves the system (the happy face plus the eraser). The energy expended cannot be fully recovered. ")
 {: #Figure1}
 
 ### How Nonconservative Forces Affect Mechanical Energy

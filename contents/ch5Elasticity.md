@@ -233,7 +233,7 @@ given in the problems at end of this chapter. Ligaments (tissue connecting bone
 to bone)
 behave in a similar way.
 
-![The strain on mammalian tendon is shown by a graph, with strain along the x axis and tensile stress along the y axis. The stress strain curve obtained has three regions, namely, toe region at the bottom, linear region between, and failure region at the top.](../resources/Figure_05_03_05_xa.jpg "Typical stress-strain curve for mammalian tendon. Three regions are shown: (1) toe region (2) linear region, and (3) failure region.")
+![The strain on mammalian tendon is shown by a graph, with strain along the x axis and tensile stress along the y axis. The stress strain curve obtained has three regions, namely, toe region at the bottom, linear region between, and failure region at the top.](../resources/Figure_05_03_05.jpg "Typical stress-strain curve for mammalian tendon. Three regions are shown: (1) toe region (2) linear region, and (3) failure region.")
 {: #Figure5}
 
 Unlike bones and tendons, which need to be strong as well as elastic, the

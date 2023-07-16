@@ -35,7 +35,7 @@ especially for small displacements. For another example of stable equilibrium,
 see the pencil in [Figure 2](#Figure2)
 .
 
-![A pencil is balanced vertically on its flat end. The weight W of the pencil is acting at its center of gravity downward. The normal reaction N of the surface is shown as an arrow upward. A free body diagram is shown at right of the pencil. The midpoint of the flat base of the pencil is marked as pivot point.](../resources/Figure_09_03_02aa.jpg "This pencil is in the condition of equilibrium. The net force on the pencil is zero and the total torque about any pivot is zero. ")
+![A pencil is balanced vertically on its flat end. The weight W of the pencil is acting at its center of gravity downward. The normal reaction N of the surface is shown as an arrow upward. A free body diagram is shown at right of the pencil. The midpoint of the flat base of the pencil is marked as pivot point.](../resources/Figure_09_03_02(a).jpg "This pencil is in the condition of equilibrium. The net force on the pencil is zero and the total torque about any pivot is zero. ")
 {: #Figure2}
 
 A system is in **unstable equilibrium** if, when displaced, it experiences a net
@@ -45,16 +45,16 @@ displaced even slightly. An obvious example is a ball resting on top of a hill.
 Once displaced, it accelerates away from the crest. See the next several figures
 for examples of unstable equilibrium.
 
-![A pencil is tilted slightly toward left. The left end point of its flat surface is marked as the pivot point. The weight W of the pencil is acting at the center of gravity of the pencil. The normal reaction N of the pencil is acting upward at the pivot point. The line of action of the normal reaction is toward left of the line of action of the weight of the pencil.](../resources/Figure_09_03_02bb.jpg "If the pencil is displaced slightly to the side (counterclockwise), it is no longer in equilibrium. Its weight produces a clockwise torque that returns the pencil to its equilibrium position.")
+![A pencil is tilted slightly toward left. The left end point of its flat surface is marked as the pivot point. The weight W of the pencil is acting at the center of gravity of the pencil. The normal reaction N of the pencil is acting upward at the pivot point. The line of action of the normal reaction is toward left of the line of action of the weight of the pencil.](../resources/Figure_09_03_02(b).jpg "If the pencil is displaced slightly to the side (counterclockwise), it is no longer in equilibrium. Its weight produces a clockwise torque that returns the pencil to its equilibrium position.")
 {: #Figure3}
 
-![A pencil is tilted toward left so that the line of action of its weight is toward left of the pivot point which is the left end of the flat end of the pencil.](../resources/Figure_09_03_02cc.jpg "If the pencil is displaced too far, the torque caused by its weight changes direction to counterclockwise and causes the displacement to increase.")
+![A pencil is tilted toward left so that the line of action of its weight is toward left of the pivot point which is the left end of the flat end of the pencil.](../resources/Figure_09_03_02(c).jpg "If the pencil is displaced too far, the torque caused by its weight changes direction to counterclockwise and causes the displacement to increase.")
 {: #Figure4}
 
-![A vertical pencil balanced at its sharp end is shown. The weight of the pencil is acting at its center of gravity and is in the line with the normal reaction N at the pivot point of the pencil.](../resources/Figure_09_03_03aa.jpg "This figure shows unstable equilibrium, although both conditions for equilibrium are satisfied.")
+![A vertical pencil balanced at its sharp end is shown. The weight of the pencil is acting at its center of gravity and is in the line with the normal reaction N at the pivot point of the pencil.](../resources/Figure_09_03_03(a).jpg "This figure shows unstable equilibrium, although both conditions for equilibrium are satisfied.")
 {: #Figure5}
 
-![A vertical pencil tilted toward left is shown. The sharp end of the pencil is down and labeled as pivot point. The weight of the pencil is acting at its center of gravity and the line of action of the weight is toward left of the pivot point.](../resources/Figure_09_03_03bb.jpg "If the pencil is displaced even slightly, a torque is created by its weight that is in the same direction as the displacement, causing the displacement to increase.")
+![A vertical pencil tilted toward left is shown. The sharp end of the pencil is down and labeled as pivot point. The weight of the pencil is acting at its center of gravity and the line of action of the weight is toward left of the pivot point.](../resources/Figure_09_03_03(b).jpg "If the pencil is displaced even slightly, a torque is created by its weight that is in the same direction as the displacement, causing the displacement to increase.")
 {: #Figure6}
 
 A system is in **neutral equilibrium** if its equilibrium is independent of

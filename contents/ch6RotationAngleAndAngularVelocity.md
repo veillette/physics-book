@@ -35,10 +35,10 @@ radius of curvature:
  $$ \Delta\theta =\frac{ \Delta s }{r}. $$
 </div>
 
-![The figure shows the back side of a compact disc. There is a scratched part on the upper right side of the C D, about one-fifth size of the whole area, with inner circular dots clearly visible. Two line segments are drawn enclosing the scratched area from the border of the C D to the middle plastic portion. A curved arrow is drawn between the two line segments near this middle portion and angle delta theta written alongside it.](../resources/Figure_06_01_01aa.jpg "All points on a CD travel in circular arcs. The pits along a line from the center to the edge all move through the same angle \( \Delta \theta \)")
+![The figure shows the back side of a compact disc. There is a scratched part on the upper right side of the C D, about one-fifth size of the whole area, with inner circular dots clearly visible. Two line segments are drawn enclosing the scratched area from the border of the C D to the middle plastic portion. A curved arrow is drawn between the two line segments near this middle portion and angle delta theta written alongside it.](../resources/Figure_06_01_01(a).jpg "All points on a CD travel in circular arcs. The pits along a line from the center to the edge all move through the same angle \( \Delta \theta \)")
 {: #Figure1}
 
-![A circle of radius r and center O is shown. A radius O-A of the circle is rotated through angle delta theta about the center O to terminate as radius O-B. The arc length A-B is marked as delta s.](../resources/Figure_06_01_01ab.jpg "The radius of a circle is rotated through an angle \( \Delta \theta \). The arc length \( \Delta s \) is described on the circumference. ")
+![A circle of radius r and center O is shown. A radius O-A of the circle is rotated through angle delta theta about the center O to terminate as radius O-B. The arc length A-B is marked as delta s.](../resources/Figure_06_01_01(b).jpg "The radius of a circle is rotated through an angle \( \Delta \theta \). The arc length \( \Delta s \) is described on the circumference. ")
 {: #Figure2}
 
 The **arc length** $$ \Delta s $$ is the distance traveled along a circular path
