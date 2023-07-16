@@ -10,7 +10,7 @@ layout: page
 * Calculate the velocity of a moving object using Doppler-shifted ultrasound.
 </div>
 
-![An ultrasound image of a 21 week old fetus.](../resources/Figure_17_07_01a.jpg "Ultrasound is used in medicine to painlessly and noninvasively monitor patient health and diagnose a wide range of disorders. (credit: abbybatchelder, Flickr)")
+![An ultrasound image of a 21 week old fetus.](../resources/Figure_17_07_01.jpg "Ultrasound is used in medicine to painlessly and noninvasively monitor patient health and diagnose a wide range of disorders. (credit: abbybatchelder, Flickr)")
 {: #Figure1}
 
 Any sound with a frequency above 20 000 Hz (or 20 kHz)—that is, above the
@@ -45,7 +45,7 @@ vibrations in ultrasound alternatively compress and expand the medium, and at
 sufficient amplitudes the expansion separates molecules. Most cavitation damage
 is done when the cavities collapse, producing even greater shock pressures.
 
-![A picture of a brain tumor being removed from the skull using a clinical probe.](../resources/Figure_17_07_02a.jpg "The tip of this small probe oscillates at 23 kHz with such a large amplitude that it pulverizes tissue on contact. The debris is then aspirated. The speed of the tip may exceed the speed of sound in tissue, thus creating shock waves and cavitation, rather than a smooth simple harmonic oscillator&#x2013;type wave.")
+![A picture of a brain tumor being removed from the skull using a clinical probe.](../resources/Figure_17_07_02.jpg "The tip of this small probe oscillates at 23 kHz with such a large amplitude that it pulverizes tissue on contact. The debris is then aspirated. The speed of the tip may exceed the speed of sound in tissue, thus creating shock waves and cavitation, rather than a smooth simple harmonic oscillator&#x2013;type wave.")
 {: #Figure2}
 
 Most of the energy carried by high-intensity ultrasound in tissue is converted
@@ -226,7 +226,7 @@ to cause thermal damage. More significantly, ultrasound has been in use for
 several decades and detailed follow-up studies do not show evidence of ill
 effects, quite unlike the case for X-rays.
 
-![The first part of the diagram shows a rectangular shaped transducer with speaker and microphone sending spherical waves to produce echos from a fetus. The second part shows a graph of echo intensity versus time, with four sharp peaks.](../resources/Figure_17_07_03a.jpg "(a) An ultrasound speaker doubles as a microphone. Brief bleeps are broadcast, and echoes are recorded from various depths. (b) Graph of echo intensity versus time. The time for echoes to return is directly proportional to the distance of the reflector, yielding this information noninvasively.")
+![The first part of the diagram shows a rectangular shaped transducer with speaker and microphone sending spherical waves to produce echos from a fetus. The second part shows a graph of echo intensity versus time, with four sharp peaks.](../resources/Figure_17_07_03.jpg "(a) An ultrasound speaker doubles as a microphone. Brief bleeps are broadcast, and echoes are recorded from various depths. (b) Graph of echo intensity versus time. The time for echoes to return is directly proportional to the distance of the reflector, yielding this information noninvasively.")
 {: #Figure3}
 
 The most common ultrasound applications produce an image like that shown
@@ -237,7 +237,7 @@ constructively in a given, adjustable direction. Echoes are measured as a
 function of position as well as depth. A computer constructs an image that
 reveals the shape and density of internal structures.
 
-![The first part of the diagram shows an ultrasound device scanning a woman&#x2019;s abdomen. The second part of the diagram is an ultrasound scan report of the abdomen.](../resources/Figure_17_07_04a.jpg "(a) An ultrasonic image is produced by sweeping the ultrasonic beam across the area of interest, in this case the woman&#x2019;s abdomen. Data are recorded and analyzed in a computer, providing a two-dimensional image. (b) Ultrasound image of 12-week-old fetus. (credit: Margaret W. Carruthers, Flickr)")
+![The first part of the diagram shows an ultrasound device scanning a woman&#x2019;s abdomen. The second part of the diagram is an ultrasound scan report of the abdomen.](../resources/Figure_17_07_04.jpg "(a) An ultrasonic image is produced by sweeping the ultrasonic beam across the area of interest, in this case the woman&#x2019;s abdomen. Data are recorded and analyzed in a computer, providing a two-dimensional image. (b) Ultrasound image of 12-week-old fetus. (credit: Margaret W. Carruthers, Flickr)")
 {: #Figure4}
 
 How much detail can ultrasound reveal? The image in [[Figure 4]](#Figure4) is
@@ -262,7 +262,7 @@ $$ into tissue. For 7 MHz, this penetration limit is $$500×0.22 \text{mm} $$ ,
 which is 0.11 m. Higher frequencies may be employed in smaller organs, such as
 the eye, but are not practical for looking deep into the body.
 
-![This is an image of a 3D ultrasound scan of the fetus showing an unborn baby sucking its thumb.](../resources/Figure_17_07_05a.jpg "A 3D ultrasound image of a fetus. As well as for the detection of any abnormalities, such scans have also been shown to be useful for strengthening the emotional bonding between parents and their unborn child. (credit: Jennie Cu, Wikimedia Commons)")
+![This is an image of a 3D ultrasound scan of the fetus showing an unborn baby sucking its thumb.](../resources/Figure_17_07_05.jpg "A 3D ultrasound image of a fetus. As well as for the detection of any abnormalities, such scans have also been shown to be useful for strengthening the emotional bonding between parents and their unborn child. (credit: Jennie Cu, Wikimedia Commons)")
 {: #Figure5}
 
 In addition to shape information, ultrasonic scans can produce density
@@ -281,7 +281,7 @@ reflector (say a fetal heart) is a moving observer and receives a
 Doppler-shifted frequency. The reflector then acts as a moving source, producing
 a second Doppler shift.
 
-![Doppler-shifted ultrasonic image of a partially occluded artery.](../resources/Figure_17_07_06a.jpg "This Doppler-shifted ultrasonic image of a partially occluded artery uses color to indicate velocity. The highest velocities are in red, while the lowest are blue. The blood must move faster through the constriction to carry the same flow. (credit: Arning C, Grzyska U, Wikimedia Commons)")
+![Doppler-shifted ultrasonic image of a partially occluded artery.](../resources/Figure_17_07_06.jpg "This Doppler-shifted ultrasonic image of a partially occluded artery uses color to indicate velocity. The highest velocities are in red, while the lowest are blue. The blood must move faster through the constriction to carry the same flow. (credit: Arning C, Grzyska U, Wikimedia Commons)")
 {: #Figure6}
 
 A clever technique is used to measure the Doppler shift in an echo. The
@@ -314,7 +314,7 @@ Ultrasound that has a frequency of 2.50 MHz is sent toward blood in an artery th
 3. What beat frequency is produced if the source and returning frequencies are
    mixed? { type="a"}
 
-![The picture represents an ultrasound device scanning the arteries and veins of a human hand.](../resources/Figure_17_07_07a.jpg "Ultrasound is partly reflected by blood cells and plasma back toward the speaker-microphone. Because the cells are moving, two Doppler shifts are produced&#x2014;one for blood as a moving observer, and the other for the reflected sound coming from a moving source. The magnitude of the shift is directly proportional to blood velocity.")
+![The picture represents an ultrasound device scanning the arteries and veins of a human hand.](../resources/Figure_17_07_07.jpg "Ultrasound is partly reflected by blood cells and plasma back toward the speaker-microphone. Because the cells are moving, two Doppler shifts are produced&#x2014;one for blood as a moving observer, and the other for the reflected sound coming from a moving source. The magnitude of the shift is directly proportional to blood velocity.")
 {: #Figure7}
 
 **Strategy**

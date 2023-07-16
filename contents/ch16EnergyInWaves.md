@@ -7,7 +7,7 @@ layout: page
 * Calculate the intensity and the power of rays and waves.
 </div>
 
-![The destruction caused by an earthquake in Port-au-Prince, Haiti. Some buildings are shown on two sides of a street. Two buildings are completely destroyed. Rescue people are seen around.](../resources/Figure_16_11_01a.jpg "The destructive effect of an earthquake is palpable evidence of the energy carried in these waves. The Richter scale rating of earthquakes is related to both their amplitude and the energy they carry. (credit: Petty Officer 2nd Class Candice Villarreal, U.S. Navy)")
+![The destruction caused by an earthquake in Port-au-Prince, Haiti. Some buildings are shown on two sides of a street. Two buildings are completely destroyed. Rescue people are seen around.](../resources/Figure_16_11_01.jpg "The destructive effect of an earthquake is palpable evidence of the energy carried in these waves. The Richter scale rating of earthquakes is related to both their amplitude and the energy they carry. (credit: Petty Officer 2nd Class Candice Villarreal, U.S. Navy)")
 {: #Figure1}
 
 All waves carry energy. The energy of some waves can be directly observed.
@@ -208,7 +208,7 @@ places where the intensity is zero, and others in
 between. [[Figure 2]](#Figure2) shows what this interference might look like. We
 will pursue interference patterns elsewhere in this text.
 
-![Two speakers are shown at the top of the figure at left and right side. Rarefactions are shown as dotted curves and compression as dark curves. The interference of the sound waves from these two speakers is shown. There are some red spots, showing constructive interference, are shown on the interfering waves. ](../resources/Figure_16_11_02a.jpg "These stereo speakers produce both constructive interference and destructive interference in the room, a property common to the superposition of all types of waves. The shading is proportional to intensity.")
+![Two speakers are shown at the top of the figure at left and right side. Rarefactions are shown as dotted curves and compression as dark curves. The interference of the sound waves from these two speakers is shown. There are some red spots, showing constructive interference, are shown on the interfering waves. ](../resources/Figure_16_11_02.jpg "These stereo speakers produce both constructive interference and destructive interference in the room, a property common to the superposition of all types of waves. The shading is proportional to intensity.")
 {: #Figure2}
 
 </div>
