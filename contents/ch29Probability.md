@@ -42,7 +42,7 @@ explore what happens if we try to follow a particle. Consider the double-slit
 patterns obtained for electrons and photons in [[Figure2]](#Figure2). First, we
 note that these patterns are identical, following $$d \sin \theta
 =m \lambda $$ , the equation for double-slit constructive interference
-developed in [Photon Energies and the Electromagnetic Spectrum](../contents/ch29PhotonEnergiesAndTheElectomagneticSpectrum), where
+developed in [Photon Energies and the Electromagnetic Spectrum](../contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum), where
 $$d $$ is the slit separation and $$\lambda $$ is the electron or photon
 wavelength.
 
@@ -202,7 +202,7 @@ its velocity is so uncertain. To get a further idea of how large the uncertainty
 in velocity is, we assumed the velocity of the electron was equal to its
 uncertainty and found this gave a kinetic energy of 95.5 eV. This is
 significantly greater than the typical energy difference between levels in
-atoms (see [[Table 1]](../contents/ch29PhotonEnergiesAndTheElectomagneticSpectrum#Table1)), so that it is impossible to
+atoms (see [[Table 1]](../contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum#Table1)), so that it is impossible to
 get a meaningful energy for the electron if we know its position even moderately
 well.
 
@@ -350,7 +350,7 @@ What is the Heisenberg uncertainty principle? Does it place limits on what can b
 (a) 57.9 m/s
 
 (b)  $$ 9.55 \times 10^{-9} \text{eV} $$
-(c) From [[Table 1]](../contents/ch29PhotonEnergiesAndTheElectomagneticSpectrum#Table1), we see that typical
+(c) From [[Table 1]](../contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum#Table1), we see that typical
 molecular binding energies range from about 1eV to 10 eV, therefore the result
 in part (b) is approximately 9 orders of magnitude smaller than typical
 molecular binding energies.

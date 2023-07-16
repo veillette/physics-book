@@ -61,7 +61,7 @@ of $$ hf $$ by absorbing and emitting photons having $$E= hf $$ . We do not
 observe this with our eyes, because there are so many photons in common light
 sources that individual photons go unnoticed. (See [[Figure 2]](#Figure2).) The
 next section of the
-text ([Photon Energies and the Electromagnetic Spectrum](../contents/ch29PhotonEnergiesAndTheElectomagneticSpectrum)) is devoted to
+text ([Photon Energies and the Electromagnetic Spectrum](../contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum)) is devoted to
 a discussion of photons and some of their characteristics and implications. For
 now, we will use the photon concept to explain the photoelectric effect, much as
 Einstein did.
