@@ -36,7 +36,7 @@ accelerated to energies up to 10 MeV. The higher the energy per particle, the
 more penetrating the radiation is and the more ionization it can
 create. [[Figure 1]](#Figure1) shows a typical $$\gamma $$ -irradiation plant.
 
-![Figure shows a food irradiation plant with conveyor system that moves the food packages through the irradiation room. The radiation source rack is lowered into a deep storage pool of water.](../resources/Figure_32_04_01a.jpg "A food irradiation plant has a conveyor system to pass items through an intense radiation field behind thick shielding walls. The \( \gamma \) source is lowered into a deep pool of water for safe storage when not in use. Exposure times of up to an hour expose food to doses up to \( 10^{4} \text{Gy} \). ")
+![Figure shows a food irradiation plant with conveyor system that moves the food packages through the irradiation room. The radiation source rack is lowered into a deep storage pool of water.](../resources/Figure_32_04_01.jpg "A food irradiation plant has a conveyor system to pass items through an intense radiation field behind thick shielding walls. The \( \gamma \) source is lowered into a deep pool of water for safe storage when not in use. Exposure times of up to an hour expose food to doses up to \( 10^{4} \text{Gy} \). ")
 {: #Figure1}
 
 Owing to the fact that food irradiation seeks to destroy organisms such as

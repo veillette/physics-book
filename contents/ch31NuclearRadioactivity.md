@@ -17,7 +17,7 @@ size of the nucleus and devices were painted with radium-doped paint to make the
 glow in the dark (see [[Figure 1]](#Figure1)). We therefore begin our study of
 nuclear physics with the discovery and basic features of nuclear radioactivity.
 
-![The image shows an aircraft panel with lots of dial indicators, some levers and two wheels.](../resources/Figure_31_01_01a.jpg "The dials of this World War II aircraft glow in the dark, because they are painted with radium-doped phosphorescent paint. It is a poignant reminder of the dual nature of radiation. Although radium paint dials are conveniently visible day and night, they emit radon, a radioactive gas that is hazardous and is not directly sensed. (credit: U.S. Air Force Photo)")
+![The image shows an aircraft panel with lots of dial indicators, some levers and two wheels.](../resources/Figure_31_01_01.jpg "The dials of this World War II aircraft glow in the dark, because they are painted with radium-doped phosphorescent paint. It is a poignant reminder of the dual nature of radiation. Although radium paint dials are conveniently visible day and night, they emit radon, a radioactive gas that is hazardous and is not directly sensed. (credit: U.S. Air Force Photo)")
 {: #Figure1}
 
 ### Discovery of Nuclear Radioactivity
@@ -99,7 +99,7 @@ collaborators was the proof that $$\alpha $$
 in chemistry in 1908 for his early work. He continued to make important
 contributions until his death in 1934.
 
-![The figure shows north and south poles of a magnet through which three rays labeled as alpha beta and gamma are passed. After passing through a magnetic field the alpha ray is slightly deflected toward the right. The beta ray is deflected toward the left and the gamma ray is not deflected.](../resources/Figure_31_01_02a.jpg "Alpha, beta, and gamma rays are passed through a magnetic field on the way to a phosphorescent screen. The \(\alpha\)s and \( \beta \)s bend in opposite directions, while the \( \gamma \)s are unaffected, indicating a positive charge for \( \alpha \)s, negative for \( \beta \)s, and neutral for \( \gamma \)s. Consistent results are obtained with electric fields. Collection of the radiation offers further confirmation from the direct measurement of excess charge.")
+![The figure shows north and south poles of a magnet through which three rays labeled as alpha beta and gamma are passed. After passing through a magnetic field the alpha ray is slightly deflected toward the right. The beta ray is deflected toward the left and the gamma ray is not deflected.](../resources/Figure_31_01_02.jpg "Alpha, beta, and gamma rays are passed through a magnetic field on the way to a phosphorescent screen. The \(\alpha\)s and \( \beta \)s bend in opposite directions, while the \( \gamma \)s are unaffected, indicating a positive charge for \( \alpha \)s, negative for \( \beta \)s, and neutral for \( \gamma \)s. Consistent results are obtained with electric fields. Collection of the radiation offers further confirmation from the direct measurement of excess charge.")
 {: #Figure2}
 
 Other researchers had already proved that $$\beta $$ s are negative and have the
@@ -163,7 +163,7 @@ well, and these also produce ionization with similar effects. We define **ionizi
 nuclear in origin or not, since the effects and detection of the radiation are
 related to ionization.
 
-![Image shows a person&#x2019;s hand holding a cylindrical object placed near a small piece of radioactive material. A dial indicator is connected to the cylindrical radiation detector.](../resources/Figure_31_01_03a.jpg "These dosimeters (literally, dose meters) are personal radiation monitors that detect the amount of radiation by the discharge of a rechargeable internal capacitor. The amount of discharge is related to the amount of ionizing radiation encountered, a measurement of dose. One dosimeter is shown in the charger. Its scale is read through an eyepiece on the top. (credit: L. Chang, Wikimedia Commons)")
+![Image shows a person&#x2019;s hand holding a cylindrical object placed near a small piece of radioactive material. A dial indicator is connected to the cylindrical radiation detector.](../resources/Figure_31_01_03.jpg "These dosimeters (literally, dose meters) are personal radiation monitors that detect the amount of radiation by the discharge of a rechargeable internal capacitor. The amount of discharge is related to the amount of ionizing radiation encountered, a measurement of dose. One dosimeter is shown in the charger. Its scale is read through an eyepiece on the top. (credit: L. Chang, Wikimedia Commons)")
 {: #Figure3}
 
 The **range of radiation** is defined to be the distance it can travel through a
@@ -176,7 +176,7 @@ ionization of an atom or a molecule requires energy that is removed from the
 radiation. The amount of ionization is, thus, directly proportional to the
 energy of the particle of radiation, as is its range.
 
-![Three cases of range of radiation are shown. The first case shows that higher energy has greater range than lower energy. The second case shows that, for same energy material having high electron density will have lower range. The third case shows that among alpha beta and gamma rays for the same energy alphas have the smallest range betas have a greater range and gammas penetrate the farthest.](../resources/Figure_31_01_04a.jpg "The penetration or range of radiation depends on its energy, the material it encounters, and the type of radiation. (a) Greater energy means greater range. (b) Radiation has a smaller range in materials with high electron density. (c) Alphas have the smallest range, betas have a greater range, and gammas penetrate the farthest.")
+![Three cases of range of radiation are shown. The first case shows that higher energy has greater range than lower energy. The second case shows that, for same energy material having high electron density will have lower range. The third case shows that among alpha beta and gamma rays for the same energy alphas have the smallest range betas have a greater range and gammas penetrate the farthest.](../resources/Figure_31_01_04.jpg "The penetration or range of radiation depends on its energy, the material it encounters, and the type of radiation. (a) Greater energy means greater range. (b) Radiation has a smaller range in materials with high electron density. (c) Alphas have the smallest range, betas have a greater range, and gammas penetrate the farthest.")
 {: #Figure4}
 
 Radiation can be absorbed or shielded by materials, such as the lead aprons
@@ -252,7 +252,7 @@ bodies, and are effectively shielded (that is, reduced in intensity to
 acceptable levels) by many centimeters of lead. One benefit of $$\gamma $$ s is
 that they can be used as radioactive tracers (see [[Figure 5]](#Figure5)).
 
-![This figure shows four images of a skeleton of a human. Different parts of the body show bright spots wherever the bone cells are most active, indicating bone cancer.](../resources/Figure_31_01_05a.jpg "This image of the concentration of a radioactive tracer in a patient&#x2019;s body reveals where the most active bone cells are, an indication of bone cancer. A short-lived radioactive substance that locates itself selectively is given to the patient, and the radiation is measured with an external detector. The emitted \( \gamma \) radiation has a sufficient range to leave the body&#x2014;the range of \( \alpha \)s and \( \beta \)s is too small for them to be observed outside the patient. (credit: Kieran Maher, Wikimedia Commons)")
+![This figure shows four images of a skeleton of a human. Different parts of the body show bright spots wherever the bone cells are most active, indicating bone cancer.](../resources/Figure_31_01_05.jpg "This image of the concentration of a radioactive tracer in a patient&#x2019;s body reveals where the most active bone cells are, an indication of bone cancer. A short-lived radioactive substance that locates itself selectively is given to the patient, and the radiation is measured with an external detector. The emitted \( \gamma \) radiation has a sufficient range to leave the body&#x2014;the range of \( \alpha \)s and \( \beta \)s is too small for them to be observed outside the patient. (credit: Kieran Maher, Wikimedia Commons)")
 {: #Figure5}
 
 <div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
