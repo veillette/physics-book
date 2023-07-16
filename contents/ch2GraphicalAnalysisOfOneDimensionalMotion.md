@@ -360,7 +360,7 @@ Identify (b) the time ( $$ t_{a} $$, $$ t_{b} $$, $$ t_{c} $$, $$ t_{d} $$, or $
 zero, and
 (d) the time at which it is negative.
 
-![Line graph of position versus time with 5 points labeled: a, b, c, d, and e. The slope of the line changes. It begins with a positive slope that decreases over time until around point d, where it is flat. It then has a slightly negative slope.](../resources/Figure_03_08Sol_01.jpg)
+![Line graph of position versus time with 5 points labeled: a, b, c, d, and e. The slope of the line changes. It begins with a positive slope that decreases over time until around point d, where it is flat. It then has a slightly negative slope.](../resources/Figure_02_07Sol_01.jpg)
 {: #Figure9}
 
 </div>
@@ -374,7 +374,7 @@ greatest.
 (c) At which times is it zero?
 (d) At which times is it negative?
 
-![Line graph of position over time with 12 points labeled a through l. Line has a negative slope from a to c, where it turns and has a positive slope till point e. It turns again and has a negative slope till point g. The slope then increases again till l, where it flattens out.](../resources/Figure_03_08Sol_02.jpg)
+![Line graph of position over time with 12 points labeled a through l. Line has a negative slope from a to c, where it turns and has a positive slope till point e. It turns again and has a negative slope till point g. The slope then increases again till l, where it flattens out.](../resources/Figure_02_07Sol_02.jpg)
 {: #Figure10}
 
 </div>
@@ -385,7 +385,7 @@ greatest.
 (a) Explain how you can determine the acceleration over time from a velocity versus time graph such as the one in [Figure 11](#Figure11).
 (b) Based on the graph, how does acceleration change over time?
 
-![Line graph of velocity over time with two points labeled. Point P is at v 1 t 1. Point Q is at v 2 t 2. The line has a positive slope that increases over time.](../resources/Figure_03_08Sol_04.jpg)
+![Line graph of velocity over time with two points labeled. Point P is at v 1 t 1. Point Q is at v 2 t 2. The line has a positive slope that increases over time.](../resources/Figure_02_07Sol_04.jpg)
 {: #Figure11}
 
 </div>
@@ -398,7 +398,7 @@ greatest.
 (c) At which times is it zero?
 (d) At which times is it negative?
 
-![Line graph of velocity over time with 12 points labeled a through l. The line has a positive slope from a at the origin to d where it slopes downward to e, and then back upward to h. It then slopes back down to point l at v equals 0.](../resources/Figure_03_08Sol_05.jpg)
+![Line graph of velocity over time with 12 points labeled a through l. The line has a positive slope from a at the origin to d where it slopes downward to e, and then back upward to h. It then slopes back down to point l at v equals 0.](../resources/Figure_02_07Sol_05.jpg)
 {: #Figure12}
 
 </div>
@@ -415,7 +415,7 @@ not constant so we cannot use the equations of motion from
 (We could, however, use them in the three individual sections where acceleration is a constant.)
 Sketch graphs of (a) position vs. time and (b) acceleration vs. time for this trip.
 
-![Line graph of velocity versus time. Line begins at the origin and has a positive slope until it reaches 3 meters per second at 3 seconds. The slope is then zero until 18 seconds, where it becomes negative until the line reaches a velocity of 0 at 23 seconds.](../resources/Figure_03_08Sol_07.jpg)
+![Line graph of velocity versus time. Line begins at the origin and has a positive slope until it reaches 3 meters per second at 3 seconds. The slope is then zero until 18 seconds, where it becomes negative until the line reaches a velocity of 0 at 23 seconds.](../resources/Figure_02_07Sol_07.jpg)
 {: #Figure13}
 
 </div>
