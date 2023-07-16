@@ -35,7 +35,7 @@ trace amounts of $${}^{238}\text{U} $$ and can be inhaled. The decay of radon
 and its daughters produces internal damage. The $${}^{238}\text{U} $$ decay
 series ends with $${}^{206}\text{Pb} $$ , a stable isotope of lead.
 
-![A graph is shown in which decay of alpha and beta is shown. Also half lives of each isotope are shown. Uranium decays in one mode but some isotopes decay by more than one mode. Finally a stable isotope of lead results.](../resources/Figure_31_04_01a.jpg "The decay series produced by \( {}^{238}\text{U} \), the most common uranium isotope. Nuclides are graphed in the same manner as in the chart of nuclides. The type of decay for each member of the series is shown, as well as the half-lives. Note that some nuclides decay by more than one mode. You can see why radium and polonium are found in uranium ore. A stable isotope of lead is the end product of the series.")
+![A graph is shown in which decay of alpha and beta is shown. Also half lives of each isotope are shown. Uranium decays in one mode but some isotopes decay by more than one mode. Finally a stable isotope of lead results.](../resources/Figure_31_04_01.jpg "The decay series produced by \( {}^{238}\text{U} \), the most common uranium isotope. Nuclides are graphed in the same manner as in the chart of nuclides. The type of decay for each member of the series is shown, as well as the half-lives. Note that some nuclides decay by more than one mode. You can see why radium and polonium are found in uranium ore. A stable isotope of lead is the end product of the series.")
 {: #Figure1}
 
 Note that the daughters of $$\alpha $$ decay shown in [[Figure 1]](#Figure1)
@@ -67,7 +67,7 @@ and
  $${}^{239}\text{Pu} \to {}^{235}\text{U}+{}^{4}\text{He}. $$
 </div>
 
-![The image shows conditions before and after alpha decay. Before alpha decay the nucleus is labeled parent and after decay the nucleus is labeled daughter.](../resources/Figure_31_04_02a.jpg "Alpha decay is the separation of a \( {}^4\text{He} \) nucleus from the parent. The daughter nucleus has two fewer protons and two fewer neutrons than the parent. Alpha decay occurs spontaneously only if the daughter and \( {}^4\text{He}\) nucleus have less total mass than the parent.")
+![The image shows conditions before and after alpha decay. Before alpha decay the nucleus is labeled parent and after decay the nucleus is labeled daughter.](../resources/Figure_31_04_02.jpg "Alpha decay is the separation of a \( {}^4\text{He} \) nucleus from the parent. The daughter nucleus has two fewer protons and two fewer neutrons than the parent. Alpha decay occurs spontaneously only if the daughter and \( {}^4\text{He}\) nucleus have less total mass than the parent.")
 {: #Figure2}
 
 If you examine the periodic table of the elements, you will find that Th has
@@ -217,7 +217,7 @@ see [[Figure 3]](#Figure3)). Part of Fermi’s theory was the identification of
 the weak nuclear force as being distinct from the strong nuclear force and in
 fact responsible for beta decay. Chinese-born physicist Chien-Shiung Wu, who had developed a number of processes critical to the Manhattan Project and related research, set out to investigate Fermi’s theory and some experiments whose failures had cast the theory in doubt. She first identified a number of flaws in her contemporaries’ methods and materials, and then designed an experimental method that would avoid the same errors. Wu verified Fermi’s theory and went on to establish the core principles of beta decay, which would become critical to further work in nuclear physics.
 
-![Photo of physicist Enrico Fermi and Chien-Shiung Wu.](../resources/Figure_31_04_03a.jpg "(a) Enrico Fermi was nearly unique among 20th-century physicists&#x2014;he made significant contributions both as an experimentalist and a theorist. His many contributions to theoretical physics included the identification of the weak nuclear force. The fermi (fm) is named after him, as are an entire class of subatomic particles (fermions), an element (Fermium), and a major research laboratory (Fermilab). His experimental work included studies of radioactivity, for which he won the 1938 Nobel Prize in physics, and creation of the first nuclear chain reaction. (credit: United States Department of Energy, Office of Public Affairs). (b) Chien-Shiung Wu undertook the experimentation to verify Fermi’s theory of beta decay. She became the world’s expert on the subject, and contributed to work that led to a Nobel Prize, even though she was denied the award. (credit: Smithsonian Institute)")
+![Photo of physicist Enrico Fermi and Chien-Shiung Wu.](../resources/Figure_31_04_03.jpg "(a) Enrico Fermi was nearly unique among 20th-century physicists&#x2014;he made significant contributions both as an experimentalist and a theorist. His many contributions to theoretical physics included the identification of the weak nuclear force. The fermi (fm) is named after him, as are an entire class of subatomic particles (fermions), an element (Fermium), and a major research laboratory (Fermilab). His experimental work included studies of radioactivity, for which he won the 1938 Nobel Prize in physics, and creation of the first nuclear chain reaction. (credit: United States Department of Energy, Office of Public Affairs). (b) Chien-Shiung Wu undertook the experimentation to verify Fermi’s theory of beta decay. She became the world’s expert on the subject, and contributed to work that led to a Nobel Prize, even though she was denied the award. (credit: Smithsonian Institute)")
 {: #Figure3}
 
 The neutrino also reveals a new conservation law. There are various families of
@@ -263,7 +263,7 @@ few minutes and $${\beta }^{-} $$ decay in the following manner:
  $$\text{n}\to \text{p}+{\beta }^{-}+{\stackrel{-}{\nu }}_{e}. $$
 </div>
 
-![Image shows parent nucleus before beta decay and daughter nucleus after beta decay.](../resources/Figure_31_04_04a.jpg "In \( \beta^{-} \) decay, the parent nucleus emits an electron and an antineutrino. The daughter nucleus has one more proton and one less neutron than its parent. Neutrinos interact so weakly that they are almost never directly observed, but they play a fundamental role in particle physics.")
+![Image shows parent nucleus before beta decay and daughter nucleus after beta decay.](../resources/Figure_31_04_04.jpg "In \( \beta^{-} \) decay, the parent nucleus emits an electron and an antineutrino. The daughter nucleus has one more proton and one less neutron than its parent. Neutrinos interact so weakly that they are almost never directly observed, but they play a fundamental role in particle physics.")
 {: #Figure4}
 
 We see that charge is conserved in $${\beta }^{-} $$ decay, since the total
@@ -353,7 +353,7 @@ The second type of beta decay is less common than the first. It is $${\beta
 }^{+} $$ decay. Certain nuclides decay by the emission of a *positive* electron.
 This is **antielectron** or **positron decay** (see [[Figure 5]](#Figure5)).
 
-![Image shows parent nucleus before beta plus decay and daughter nucleus after beta plus decay, which results in a positively charged electron called a positron.](../resources/Figure_31_04_05a.jpg " \( \beta^{+} \) decay is the emission of a positron that eventually finds an electron to annihilate, characteristically producing gammas in opposite directions.")
+![Image shows parent nucleus before beta plus decay and daughter nucleus after beta plus decay, which results in a positively charged electron called a positron.](../resources/Figure_31_04_05.jpg " \( \beta^{+} \) decay is the emission of a positron that eventually finds an electron to annihilate, characteristically producing gammas in opposite directions.")
 {: #Figure5}
 
 The antielectron is often represented by the symbol $${e}^{+} $$ , but in beta
