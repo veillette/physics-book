@@ -169,7 +169,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     5.  [Electric Field Lines: Multiple Charges](contents/ch18ElectricFieldLines.md)
     6.  [Electric Forces in Biology](contents/ch18ElectricForcesInBiology.md)
     7.  [Conductors and Electric Fields in Static Equilibrium](contents/ch18ConductorsAndElectricFieldsInStaticEquilibrium.md)
-    8.  [Applications of Electrostatics](contents/ch19ApplicationOfElectrostatics.md)
+    8.  [Applications of Electrostatics](contents/ch18ApplicationOfElectrostatics.md)
 
 20. {: .chapter} [Electric Potential and Electric Field](contents/ch19ElectricPotentialAndElectricEnergy.md)
     1.  [Electric Potential Energy: Potential Difference](contents/ch19ElectricPotentialEnergy.md)
