@@ -89,7 +89,7 @@ function renameAndModifyFiles(directory) {
         }
 
         files.forEach((file, index) => {
-            const N= 4;
+            const N= 1;
             if (index % N !== Math.round(Math.random() * N)) {
                 const filePath = path.join(directory, file);
 
@@ -106,7 +106,7 @@ function renameAndModifyFiles(directory) {
                         if (/\d{2}/.test(file)) {
                             // Check if the filename contains a number 20 and above
                             const number = parseInt(file.match(/\d+/)[0], 10);
-                            if (number >= 5) {
+                            if (number >= 3) {
                                 const oldFilename = file;
                                 const newFilename = file.replace(/a\.jpg$/, '.jpg');
                                 const newFilePath = path.join(directory, newFilename);
