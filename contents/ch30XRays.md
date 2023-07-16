@@ -16,7 +16,7 @@ spectrum and are characteristic of the atom as well. In this section, we explore
 characteristic X-rays and some of their important applications.
 
 We have previously discussed X-rays as a part of the electromagnetic spectrum
-in [Photon Energies and the Electromagnetic Spectrum](../contents/ch29PhotonEnergiesAndTheElectomagneticSpectrum). That module
+in [Photon Energies and the Electromagnetic Spectrum](../contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum). That module
 illustrated how an x-ray tube (a specialized CRT) produces X-rays. Electrons
 emitted from a hot filament are accelerated with a high voltage, gaining
 significant kinetic energy and striking the anode.
@@ -52,7 +52,7 @@ atoms de-excite, they emit characteristic electromagnetic radiation. The most
 energetic of these are produced when an inner-shell vacancy is filled—that is,
 when an $$n=1 $$ or $$n=2 $$ shell electron has been excited to a higher level,
 and another electron falls into the vacant spot. A *characteristic X-ray* (
-see [Photon Energies and the Electromagnetic Spectrum](../contents/ch29PhotonEnergiesAndTheElectomagneticSpectrum)) is
+see [Photon Energies and the Electromagnetic Spectrum](../contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum)) is
 electromagnetic (EM) radiation emitted by an atom when an inner-shell vacancy is
 filled. [[Figure 2]](#Figure2) shows a representative energy-level diagram that
 illustrates the labeling of characteristic X-rays. X-rays created when an

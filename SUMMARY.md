@@ -269,7 +269,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
 30. {: .chapter} [Introduction to Quantum Physics](contents/ch29QuantumPhysics.md)
     1.  [Quantization of Energy](contents/ch29QuantizationOfEnergy.md)
     2.  [The Photoelectric Effect](contents/ch29ThePhotoelectricEffect.md)
-    3.  [Photon Energies and the Electromagnetic Spectrum](contents/ch29PhotonEnergiesAndTheElectomagneticSpectrum.md)
+    3.  [Photon Energies and the Electromagnetic Spectrum](contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md)
     4.  [Photon Momentum](contents/ch29PhotonMomentum.md)
     5.  [The Particle-Wave Duality](contents/ch29TheParticleWaveDuality.md)
     6.  [The Wave Nature of Matter](contents/ch29TheWaveNatureOfMatter.md)
