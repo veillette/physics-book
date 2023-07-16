@@ -80,7 +80,7 @@ Broglie was awarded the Nobel Prize in 1929 for his vision, as were Davisson and
 G. P. Thomson in 1937 for their experimental verification of de Broglie’s
 hypothesis.
 
-![Diffraction pattern obtained for electrons diffracted by crystalline silicon is shown. The diffraction pattern has a bright spot at the center of a circle with brighter and darker regions occurring in a symmetric manner.](../resources/Figure_29_06_01a.jpg "This diffraction pattern was obtained for electrons diffracted by crystalline silicon. Bright regions are those of constructive interference, while dark regions are those of destructive interference. (credit: Ndthe, Wikimedia Commons)")
+![Diffraction pattern obtained for electrons diffracted by crystalline silicon is shown. The diffraction pattern has a bright spot at the center of a circle with brighter and darker regions occurring in a symmetric manner.](../resources/Figure_29_06_01.jpg "This diffraction pattern was obtained for electrons diffracted by crystalline silicon. Bright regions are those of constructive interference, while dark regions are those of destructive interference. (credit: Ndthe, Wikimedia Commons)")
 {: #Figure1}
 
 <div id="Example1" class="example" markdown="1">
@@ -167,7 +167,7 @@ the beginning of this chapter. The SEM has the advantage of not requiring a thin
 sample and of providing a 3-D view. However, its resolution is about ten times
 less than a TEM.
 
-![Figure a shows a schematic of an electron microscope. Figure b shows an image of a shark tooth.](../resources/Figure_29_06_02a.jpg "Schematic of a scanning electron microscope (SEM) (a) used to observe small details, such as those seen in this image of a tooth of a Himipristis, a type of shark (b). (credit: Dallas Krentzel, Flickr)")
+![Figure a shows a schematic of an electron microscope. Figure b shows an image of a shark tooth.](../resources/Figure_29_06_02.jpg "Schematic of a scanning electron microscope (SEM) (a) used to observe small details, such as those seen in this image of a tooth of a Himipristis, a type of shark (b). (credit: Dallas Krentzel, Flickr)")
 {: #Figure2}
 
 Electrons were the first particles with mass to be directly confirmed to have
@@ -204,7 +204,7 @@ and analyzed it in some detail. The expanded view also shows the path-length
 differences and indicates how these depend on incident angle $$\theta $$ in a
 manner similar to the diffraction patterns for X-rays reflecting from a crystal.
 
-![An electron beam is striking at an angle theta on a crystal and the reflected rays are detected by a detector. A magnified view of the crystal is also shown with two rays of electrons striking the various layers of crystal at an angle theta and reflected back. A graph is shown of intensity variation versus theta. Intensity is along the y axis and theta is along the x axis.The shape of the curve is like a wave and each subsequent peak diminishes as we move out the x axis.](../resources/Figure_29_06_03a.jpg "The diffraction pattern at top left is produced by scattering electrons from a crystal and is graphed as a function of incident angle relative to the regular array of atoms in a crystal, as shown at bottom. Electrons scattering from the second layer of atoms travel farther than those scattered from the top layer. If the path length difference (PLD) is an integral wavelength, there is constructive interference.")
+![An electron beam is striking at an angle theta on a crystal and the reflected rays are detected by a detector. A magnified view of the crystal is also shown with two rays of electrons striking the various layers of crystal at an angle theta and reflected back. A graph is shown of intensity variation versus theta. Intensity is along the y axis and theta is along the x axis.The shape of the curve is like a wave and each subsequent peak diminishes as we move out the x axis.](../resources/Figure_29_06_03.jpg "The diffraction pattern at top left is produced by scattering electrons from a crystal and is graphed as a function of incident angle relative to the regular array of atoms in a crystal, as shown at bottom. Electrons scattering from the second layer of atoms travel farther than those scattered from the top layer. If the path length difference (PLD) is an integral wavelength, there is constructive interference.")
 {: #Figure3}
 
 Let us take the spacing between parallel planes of atoms in the crystal to be

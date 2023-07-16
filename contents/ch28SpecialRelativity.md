@@ -28,7 +28,7 @@ theories of relativity made revolutionary predictions. Most importantly, his
 theories have been verified to great precision in a vast range of experiments,
 altering forever our concept of space and time.
 
-![Black and white photograph of Albert Einstein.](../resources/Figure_28_00_02a.jpg "Many people think that Albert Einstein (1879&#x2013;1955) was the greatest physicist of the 20th century. Not only did he develop modern relativity, thus revolutionizing our concept of the universe, he also made fundamental contributions to the foundations of quantum mechanics. (credit: The Library of Congress)")
+![Black and white photograph of Albert Einstein.](../resources/Figure_28_00_02.jpg "Many people think that Albert Einstein (1879&#x2013;1955) was the greatest physicist of the 20th century. Not only did he develop modern relativity, thus revolutionizing our concept of the universe, he also made fundamental contributions to the foundations of quantum mechanics. (credit: The Library of Congress)")
 {: #Figure2}
 
 It is important to note that although classical mechanics, in general, and
