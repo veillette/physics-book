@@ -378,7 +378,7 @@ compound) that sublimates, while some solids, such as osmium tetroxide, are so
 toxic that they must be kept in sealed containers to prevent human exposure to
 their sublimation-produced vapors.
 
-![Figure a shows vapors flowing out from the middle of three glasses placed adjacently on a table. This glass contains a piece of dry ice in lemonade. Two squeezed lemon slices are also seen alongside the glasses. Figure b shows frost patterns formed on a window pane.](../resources/Figure_14_03_06aa.jpg "Direct transitions between solid and vapor are common, sometimes useful, and even beautiful. (a) Dry ice sublimates directly to carbon dioxide gas. The visible vapor is made of water droplets. (credit: Windell Oskay) (b) Frost forms patterns on a very cold window, an example of a solid formed directly from a vapor. (credit: Liz West)")
+![Figure a shows vapors flowing out from the middle of three glasses placed adjacently on a table. This glass contains a piece of dry ice in lemonade. Two squeezed lemon slices are also seen alongside the glasses. Figure b shows frost patterns formed on a window pane.](../resources/Figure_14_03_06.jpg "Direct transitions between solid and vapor are common, sometimes useful, and even beautiful. (a) Dry ice sublimates directly to carbon dioxide gas. The visible vapor is made of water droplets. (credit: Windell Oskay) (b) Frost forms patterns on a very cold window, an example of a solid formed directly from a vapor. (credit: Liz West)")
 {: #Figure6}
 
 All phase transitions involve heat. In the case of direct solid-vapor
