@@ -159,7 +159,7 @@ Noting that $$ 1 \N·\m =1 \J $$,
 <div class="equation">
  $$ \text{net}W=64.0 \J . $$
 </div>
-![The figure shows a large grindstone of radius r which is being given a spin by applying a force F in a counterclockwise direction, as indicated by the arrows.](../resources/Figure_11_04_04.jpg "A large grindstone is given a spin by a person grasping its outer edge."){: #Figure4 height="225"}
+![The figure shows a large grindstone of radius r which is being given a spin by applying a force F in a counterclockwise direction, as indicated by the arrows.](../resources/Figure_10_04_04.webp "A large grindstone is given a spin by a person grasping its outer edge."){: #Figure4 height="225"}
 
 **Solution for (b)**
 
