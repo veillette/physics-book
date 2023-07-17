@@ -3,7 +3,7 @@ title: "Introduction to Electric Charge and Electric Field"
 layout: page
 ---
 
-![A child swoops down a plastic playground slide, his hair standing on end.](../resources/Figure_18_00_01a_D.jpg "Static electricity from this plastic slide causes the child&#x2019;s hair to stand on end. The sliding motion stripped electrons away from the child&#x2019;s body, leaving an excess of positive charges, which repel each other along each strand of hair. (credit: Ken Bosma/Wikimedia Commons)")
+![A child swoops down a plastic playground slide, his hair standing on end.](../resources/Figure_18_00_01.jpg "Static electricity from this plastic slide causes the child&#x2019;s hair to stand on end. The sliding motion stripped electrons away from the child&#x2019;s body, leaving an excess of positive charges, which repel each other along each strand of hair. (credit: Ken Bosma/Wikimedia Commons)")
 {: #Figure1}
 
 The image of American politician and scientist Benjamin Franklin (1706–1790)
