@@ -9,7 +9,7 @@ const contentsDir = '../contents';
 
 // Function to extract figure references from a Markdown file
 function extractFigureReferences(content, file) {
-    const figureRegex = /Figure_(\d{2})_(\d{2})_(\d{2})(?:\S+)?\.(jpg|svg|webp)/g;
+    const figureRegex = /Figure_(\d{2})_(\d{2})_(\d{2})(?:\S+)?\.(jpg|svg|webp|png)/g;
     const figureReferences = [];
     let match;
 
