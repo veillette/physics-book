@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Radioactivity and Nuclear Physics"
 layout: page
----  
+---
 
 <div class="abstract" markdown="1">
 * Define radioactivity.

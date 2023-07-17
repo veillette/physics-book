@@ -1,7 +1,7 @@
 ---
 title: "The Particle-Wave Duality"
 layout: page
---- 
+---
 
 <div class="abstract" markdown="1">
 * Explain what the term particle-wave duality means, and why it is applied to EM radiation.

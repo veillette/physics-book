@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Wave Optics"
 layout: page
----    
+---
 
 
 ![Katherine Burr Blodgett using equipment](../resources/Figure_27_00_01.jpg "Katherine Burr Blodgett was a physicist

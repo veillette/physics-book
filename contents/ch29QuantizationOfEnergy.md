@@ -1,7 +1,7 @@
 ---
 title: "Quantization of Energy"
 layout: page
---- 
+---
 
 <div class="abstract" markdown="1">
 * Explain Max Planck’s contribution to the development of quantum mechanics.
