@@ -8,7 +8,7 @@ layout: page
 * Calculate sound intensity levels in decibels (dB).
 </div>
 
-![Photograph of a road jammed with traffic of all types of vehicles.](../resources/Figure_17_03_01(a).jpg "Noise on crowded roadways like this one in Delhi makes it hard to hear others unless they shout. (credit: Lingaraj G J, Flickr)")
+![Photograph of a road jammed with traffic of all types of vehicles.](../resources/Figure_17_03_01.jpg "Noise on crowded roadways like this one in Delhi makes it hard to hear others unless they shout. (credit: Lingaraj G J, Flickr)")
 {: #Figure1}
 
 In a quiet forest, you can sometimes hear a single leaf fall to the ground.
@@ -55,7 +55,7 @@ varies as $${\left( \Delta p \right)}^{2} $$
 sound wave is produced by some vibration; the greater its pressure amplitude,
 the more the air is compressed in the sound it creates.
 
-![The image shows two graphs, with a bird positioned to the left of each one. The first graph represents a low frequency sound of a bird. The pressure variation shows small amplitude maxima and minima, represented by a sine curve of gauge pressure versus position with a small amplitude. The second graph represents a high frequency sound of a screaming bird. The pressure variation shows large amplitude maxima and minima, represented by a sine curve of gauge pressure versus position with a large amplitude.](../resources/Figure_17_03_01(b).jpg "Graphs of the gauge pressures in two sound waves of different intensities. The more intense sound is produced by a source that has larger-amplitude oscillations and has greater pressure maxima and minima. Because pressures are higher in the greater-intensity sound, it can exert larger forces on the objects it encounters.")
+![The image shows two graphs, with a bird positioned to the left of each one. The first graph represents a low frequency sound of a bird. The pressure variation shows small amplitude maxima and minima, represented by a sine curve of gauge pressure versus position with a small amplitude. The second graph represents a high frequency sound of a screaming bird. The pressure variation shows large amplitude maxima and minima, represented by a sine curve of gauge pressure versus position with a large amplitude.](../resources/Figure_17_03_02.jpg "Graphs of the gauge pressures in two sound waves of different intensities. The more intense sound is produced by a source that has larger-amplitude oscillations and has greater pressure maxima and minima. Because pressures are higher in the greater-intensity sound, it can exert larger forces on the objects it encounters.")
 {: #Figure2}
 
 Sound intensity levels are quoted in decibels (dB) much more often than sound

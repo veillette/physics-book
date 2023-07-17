@@ -292,7 +292,7 @@ observed in our galaxy. These have masses greater than the Sun but have
 diameters only a few kilometers across. The tidal forces near them are so great
 that they can actually tear matter from a companion star.
 
-![The figure shows a star in sky near a black hole. The tidal force of the black hole is tearing the matter from the star&#x2019;s surface. ](../resources/Figure_06_05_07(a).jpg "A black hole is an object with such strong gravity that not even light can escape it. This black hole was created by the supernova of one star in a two-star system. The tidal forces created by the black hole are so great that it tears matter from the companion star. This matter is compressed and heated as it is sucked into the black hole, creating light and X-rays observable from Earth.")
+![The figure shows a star in sky near a black hole. The tidal force of the black hole is tearing the matter from the star&#x2019;s surface. ](../resources/Figure_06_05_07.jpg "A black hole is an object with such strong gravity that not even light can escape it. This black hole was created by the supernova of one star in a two-star system. The tidal forces created by the black hole are so great that it tears matter from the companion star. This matter is compressed and heated as it is sucked into the black hole, creating light and X-rays observable from Earth.")
 {: #Figure7}
 
 ### ”Weightlessness” and Microgravity
@@ -308,7 +308,7 @@ gravity. If an elevator cable breaks, the passengers inside will be in free fall
 and will experience weightlessness. You can experience short periods of
 weightlessness in some rides in amusement parks.
 
-![The figure shows some astronauts floating inside the International Space Station](../resources/Figure_06_05_07(b).jpg "Astronauts experiencing weightlessness on board the International Space Station. (credit: NASA)")
+![The figure shows some astronauts floating inside the International Space Station](../resources/Figure_06_05_08.jpg "Astronauts experiencing weightlessness on board the International Space Station. (credit: NASA)")
 {: #Figure8}
 
 **Microgravity** refers to an environment in which the apparent net acceleration
@@ -407,7 +407,7 @@ not spheres, as Cavendish used) to examine how Newton’s law of gravitation wor
 over sub-millimeter distances. On this small-scale, do gravitational effects
 depart from the inverse square law? So far, no deviation has been observed.
 
-![In the figure, there is a circular stand at the floor holding two weight bars over it attached through an inverted cup shape object fitted over the stand. The first bar over this is a horizontal flat panel and contains two spheres of mass M at its end. Just over this bar is a stick shaped bar holding two spherical objects of mass m at its end. Over to this bar is mirror at the center of the device facing east. The rotation of this device over the axis of the stand is anti-clockwise. A light source on the right side of the device emits a ray of light toward the mirror which is then reflected toward a scale bar which is on the right to the device below the light source.](../resources/Figure_06_05_08.jpg "Cavendish used an apparatus like this to measure the gravitational attraction between the two suspended spheres ( \( m \) ) and the two on the stand ( \( M \) ) by observing the amount of torsion (twisting) created in the fiber. Distance between the masses can be varied to check the dependence of the force on distance. Modern experiments of this type continue to explore gravity.")
+![In the figure, there is a circular stand at the floor holding two weight bars over it attached through an inverted cup shape object fitted over the stand. The first bar over this is a horizontal flat panel and contains two spheres of mass M at its end. Just over this bar is a stick shaped bar holding two spherical objects of mass m at its end. Over to this bar is mirror at the center of the device facing east. The rotation of this device over the axis of the stand is anti-clockwise. A light source on the right side of the device emits a ray of light toward the mirror which is then reflected toward a scale bar which is on the right to the device below the light source.](../resources/Figure_06_05_09.jpg "Cavendish used an apparatus like this to measure the gravitational attraction between the two suspended spheres ( \( m \) ) and the two on the stand ( \( M \) ) by observing the amount of torsion (twisting) created in the fiber. Distance between the masses can be varied to check the dependence of the force on distance. Modern experiments of this type continue to explore gravity.")
 {: #Figure9}
 
 <div class="note" data-label="PhET Exploration" markdown="1">

@@ -3,7 +3,7 @@ title: "Introduction to Special Relativity"
 layout: page
 ---    
 
-![Night sky with bright Orion Nebula cluster in the center amongst the group of stars.](../resources/Figure_28_00_01a_D.jpg "Special relativity explains why traveling to other star systems, such as these in the Orion Nebula, is unreasonable using our current level of technology. (credit: s58y, Flickr)")
+![Night sky with bright Orion Nebula cluster in the center amongst the group of stars.](../resources/Figure_28_00_01.jpg "Special relativity explains why traveling to other star systems, such as these in the Orion Nebula, is unreasonable using our current level of technology. (credit: s58y, Flickr)")
 {: #Figure1}
 
 Have you ever looked up at the night sky and dreamed of traveling to other

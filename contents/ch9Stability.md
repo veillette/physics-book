@@ -35,7 +35,7 @@ especially for small displacements. For another example of stable equilibrium,
 see the pencil in [Figure 2](#Figure2)
 .
 
-![A pencil is balanced vertically on its flat end. The weight W of the pencil is acting at its center of gravity downward. The normal reaction N of the surface is shown as an arrow upward. A free body diagram is shown at right of the pencil. The midpoint of the flat base of the pencil is marked as pivot point.](../resources/Figure_09_03_02(a).jpg "This pencil is in the condition of equilibrium. The net force on the pencil is zero and the total torque about any pivot is zero. ")
+![A pencil is balanced vertically on its flat end. The weight W of the pencil is acting at its center of gravity downward. The normal reaction N of the surface is shown as an arrow upward. A free body diagram is shown at right of the pencil. The midpoint of the flat base of the pencil is marked as pivot point.](../resources/Figure_09_03_02.jpg "This pencil is in the condition of equilibrium. The net force on the pencil is zero and the total torque about any pivot is zero. ")
 {: #Figure2}
 
 A system is in **unstable equilibrium** if, when displaced, it experiences a net
@@ -45,16 +45,16 @@ displaced even slightly. An obvious example is a ball resting on top of a hill.
 Once displaced, it accelerates away from the crest. See the next several figures
 for examples of unstable equilibrium.
 
-![A pencil is tilted slightly toward left. The left end point of its flat surface is marked as the pivot point. The weight W of the pencil is acting at the center of gravity of the pencil. The normal reaction N of the pencil is acting upward at the pivot point. The line of action of the normal reaction is toward left of the line of action of the weight of the pencil.](../resources/Figure_09_03_02(b).jpg "If the pencil is displaced slightly to the side (counterclockwise), it is no longer in equilibrium. Its weight produces a clockwise torque that returns the pencil to its equilibrium position.")
+![A pencil is tilted slightly toward left. The left end point of its flat surface is marked as the pivot point. The weight W of the pencil is acting at the center of gravity of the pencil. The normal reaction N of the pencil is acting upward at the pivot point. The line of action of the normal reaction is toward left of the line of action of the weight of the pencil.](../resources/Figure_09_03_03.jpg "If the pencil is displaced slightly to the side (counterclockwise), it is no longer in equilibrium. Its weight produces a clockwise torque that returns the pencil to its equilibrium position.")
 {: #Figure3}
 
-![A pencil is tilted toward left so that the line of action of its weight is toward left of the pivot point which is the left end of the flat end of the pencil.](../resources/Figure_09_03_02(c).jpg "If the pencil is displaced too far, the torque caused by its weight changes direction to counterclockwise and causes the displacement to increase.")
+![A pencil is tilted toward left so that the line of action of its weight is toward left of the pivot point which is the left end of the flat end of the pencil.](../resources/Figure_09_03_04.jpg "If the pencil is displaced too far, the torque caused by its weight changes direction to counterclockwise and causes the displacement to increase.")
 {: #Figure4}
 
-![A vertical pencil balanced at its sharp end is shown. The weight of the pencil is acting at its center of gravity and is in the line with the normal reaction N at the pivot point of the pencil.](../resources/Figure_09_03_03(a).jpg "This figure shows unstable equilibrium, although both conditions for equilibrium are satisfied.")
+![A vertical pencil balanced at its sharp end is shown. The weight of the pencil is acting at its center of gravity and is in the line with the normal reaction N at the pivot point of the pencil.](../resources/Figure_09_03_05.jpg "This figure shows unstable equilibrium, although both conditions for equilibrium are satisfied.")
 {: #Figure5}
 
-![A vertical pencil tilted toward left is shown. The sharp end of the pencil is down and labeled as pivot point. The weight of the pencil is acting at its center of gravity and the line of action of the weight is toward left of the pivot point.](../resources/Figure_09_03_03(b).jpg "If the pencil is displaced even slightly, a torque is created by its weight that is in the same direction as the displacement, causing the displacement to increase.")
+![A vertical pencil tilted toward left is shown. The sharp end of the pencil is down and labeled as pivot point. The weight of the pencil is acting at its center of gravity and the line of action of the weight is toward left of the pivot point.](../resources/Figure_09_03_06.jpg "If the pencil is displaced even slightly, a torque is created by its weight that is in the same direction as the displacement, causing the displacement to increase.")
 {: #Figure6}
 
 A system is in **neutral equilibrium** if its equilibrium is independent of
@@ -64,7 +64,7 @@ marble on a saddle is stable for displacements toward the front or back of the
 saddle and unstable for displacements to the side. [Figure 7](#Figure7) shows
 another example of neutral equilibrium.
 
-![In figure a, a ball is lying on a flat surface and the point of contact with the surface is labeled pivot point. The weight of the ball is acting at the center of gravity of the ball. The normal force N is in the same line as the weight of the ball. The torque on the ball is zero. In figure b, a side view of a pencil lying flat on a table is shown. The sharp end of the pencil is toward right. The weight of the pencil is acting at the center of gravity of the pencil. The normal reaction N of the table surface is in the same line of action as the weight but in the upward direction.](../resources/Figure_09_03_04.jpg "(a) Here we see neutral equilibrium. The cg of a sphere on a flat surface lies directly above the point of support, independent of the position on the surface. The sphere is therefore in equilibrium in any location, and if displaced, it will remain put. (b) Because it has a circular cross section, the pencil is in neutral equilibrium for displacements perpendicular to its length.")
+![In figure a, a ball is lying on a flat surface and the point of contact with the surface is labeled pivot point. The weight of the ball is acting at the center of gravity of the ball. The normal force N is in the same line as the weight of the ball. The torque on the ball is zero. In figure b, a side view of a pencil lying flat on a table is shown. The sharp end of the pencil is toward right. The weight of the pencil is acting at the center of gravity of the pencil. The normal reaction N of the table surface is in the same line of action as the weight but in the upward direction.](../resources/Figure_09_03_07.jpg "(a) Here we see neutral equilibrium. The cg of a sphere on a flat surface lies directly above the point of support, independent of the position on the surface. The sphere is therefore in equilibrium in any location, and if displaced, it will remain put. (b) Because it has a circular cross section, the pencil is in neutral equilibrium for displacements perpendicular to its length.")
 {: #Figure7}
 
 When we consider how far a system in stable equilibrium can be displaced before
@@ -84,7 +84,7 @@ even more as the base of support widens. Usually, the cg of a female is lower (
 closer to the ground) than a male. Young children have their center of gravity
 between their shoulders, which increases the challenge of learning to walk.
 
-![Part a of the figure shows a man standing on the ground. The feet are a shoulder-width apart from each other. The weight W of the man is acting at the center of gravity of the body of the man. Two normal reactions N each are shown acting on the feet of the man. The distance between the feet of the man is marked as the base of support. A free body diagram is also shown on the left side of the figure. Part b of the figure shows a man standing upright with his knees bent. The feet are a distance apart from each other. The weight W of the man is acting at the center of gravity of the body of the man. Two normal reactions N each are shown acting on the feet of the man. The distance between the feet of the man is marked as the base of support.](../resources/Figure_09_03_05.jpg "(a) The  center of gravity of an adult is above the hip joints (one of the main pivots in the body) and lies between two narrowly-separated feet. Like a pencil standing on its eraser, this person is in stable equilibrium in relation to sideways displacements, but relatively small displacements take his cg outside the base of support and make him unstable. Humans are less stable relative to forward and backward displacements because the feet are not very long. Muscles are used extensively to balance the body in the front-to-back direction. (b) While bending in the manner shown, stability is increased by lowering the center of gravity. Stability is also increased if the base is expanded by placing the feet farther apart.")
+![Part a of the figure shows a man standing on the ground. The feet are a shoulder-width apart from each other. The weight W of the man is acting at the center of gravity of the body of the man. Two normal reactions N each are shown acting on the feet of the man. The distance between the feet of the man is marked as the base of support. A free body diagram is also shown on the left side of the figure. Part b of the figure shows a man standing upright with his knees bent. The feet are a distance apart from each other. The weight W of the man is acting at the center of gravity of the body of the man. Two normal reactions N each are shown acting on the feet of the man. The distance between the feet of the man is marked as the base of support.](../resources/Figure_09_03_08.jpg "(a) The  center of gravity of an adult is above the hip joints (one of the main pivots in the body) and lies between two narrowly-separated feet. Like a pencil standing on its eraser, this person is in stable equilibrium in relation to sideways displacements, but relatively small displacements take his cg outside the base of support and make him unstable. Humans are less stable relative to forward and backward displacements because the feet are not very long. Muscles are used extensively to balance the body in the front-to-back direction. (b) While bending in the manner shown, stability is increased by lowering the center of gravity. Stability is also increased if the base is expanded by placing the feet farther apart.")
 {: #Figure8}
 
 Animals such as chickens have easier systems to control. [Figure 9](#Figure9) shows
@@ -103,7 +103,7 @@ supported from above by the hips and acts as a pendulum between the hips.
 Therefore, the chicken is stable for front-to-back displacements as well as for
 side-to-side displacements.
 
-![A chicken is shown standing on the ground. The weight of the chicken is acting at the center of gravity of the chicken&#x2019;s body. The distance between the feet of the chicken is labeled as base of support. The normal forces N each are acting at the feet of the chicken. A free body diagram is shown at the right side of the figure.](../resources/Figure_09_03_06.jpg "The center of gravity of a chicken is below the hip joints. The chicken is in stable equilibrium. The body of the chicken is supported from above by the hips and acts as a pendulum between them.")
+![A chicken is shown standing on the ground. The weight of the chicken is acting at the center of gravity of the chicken&#x2019;s body. The distance between the feet of the chicken is labeled as base of support. The normal forces N each are acting at the feet of the chicken. A free body diagram is shown at the right side of the figure.](../resources/Figure_09_03_09.jpg "The center of gravity of a chicken is below the hip joints. The chicken is in stable equilibrium. The body of the chicken is supported from above by the hips and acts as a pendulum between them.")
 {: #Figure9}
 
 Engineers and architects strive to achieve extremely stable equilibriums for
@@ -154,7 +154,7 @@ Explain the need for tall towers on a suspension bridge to ensure stable equilib
 <div class="problem" markdown="1">
 Suppose a horse leans against a wall as in [Figure 10](#Figure10). Calculate the force exerted on the wall assuming that force is horizontal while using the data in the schematic representation of the situation. Note that the force exerted on the wall is equal in magnitude and opposite in direction to the force exerted on the horse, keeping it in equilibrium. The total mass of the horse and rider is 500 kg. Take the data to be accurate to three digits.
 
-![In part a, a horse is standing next to a wall with its legs crossed. A sleepy-looking rider is leaning against the wall. Part b is a drawing of the same horse from a rear view, but this time with no rider. The horse is crossing its rear legs, and its rump is leaning against the wall. The reaction of the wall F is acting on the horse at a height one point two meters above the ground. The weight of the horse is acting at its center of gravity near the base of the tail. The center of gravity is one point four meters above the ground. The line of action of weight is zero point three five meters away from the feet of the horse.](../resources/Figure_09_03_07.jpg " ")
+![In part a, a horse is standing next to a wall with its legs crossed. A sleepy-looking rider is leaning against the wall. Part b is a drawing of the same horse from a rear view, but this time with no rider. The horse is crossing its rear legs, and its rump is leaning against the wall. The reaction of the wall F is acting on the horse at a height one point two meters above the ground. The weight of the horse is acting at its center of gravity near the base of the tail. The center of gravity is one point four meters above the ground. The line of action of weight is zero point three five meters away from the feet of the horse.](../resources/Figure_09_03_10.jpg " ")
 {: #Figure10}
 
 </div>
@@ -199,7 +199,7 @@ and $$ \vb{F}_{2} $$ ?
 <div class="problem" markdown="1">
 A 17.0-m-high and 11.0-m-long wall under construction and its bracing are shown in [Figure 11](#Figure11). The wall is in stable equilibrium without the bracing but can pivot at its base. Calculate the force exerted by each of the 10 braces if a strong wind exerts a horizontal force of 650 N on each square meter of the wall. Assume that the net force from the wind acts at a height halfway up the wall and that all braces exert equal forces parallel to their lengths. Neglect the thickness of the wall.
 
-![A seventeen meter high wall is standing on the ground with ten braces to support it. At the base of the figure a brown colored ground is visible. Only one brace is visible from a side. A brace makes an angle of thirty five degree with the wall. The point of contact of the brace is eight point five meters high. You have to find the force exerted by this brace on the wall to support.](../resources/Figure_09_03_08.jpg " ")
+![A seventeen meter high wall is standing on the ground with ten braces to support it. At the base of the figure a brown colored ground is visible. Only one brace is visible from a side. A brace makes an angle of thirty five degree with the wall. The point of contact of the brace is eight point five meters high. You have to find the force exerted by this brace on the wall to support.](../resources/Figure_09_03_11.jpg " ")
 {: #Figure11}
 
 </div>
@@ -215,7 +215,7 @@ $$ F_{\text{B}}=2.12\times 10^{4}\N $$
 (b) What is the ratio of this force to the chicken’s weight?
 (c) Does this support the contention that the chicken has a relatively stable construction?
 
-![A chicken is trying to balance on its left foot, which is 9 point zero centimeters to the right of the chicken. The force of the wind is blowing from the left toward the chicken&#x2019;s center of gravity c g, which is 20 cm above the ground. The weight of the chicken w is acting at the center of gravity.](../resources/Figure_09_03_09.jpg " ")
+![A chicken is trying to balance on its left foot, which is 9 point zero centimeters to the right of the chicken. The force of the wind is blowing from the left toward the chicken&#x2019;s center of gravity c g, which is 20 cm above the ground. The weight of the chicken w is acting at the center of gravity.](../resources/Figure_09_03_12.jpg " ")
 {: #Figure12}
 
 </div>
@@ -227,7 +227,7 @@ Suppose the weight of the drawbridge in [Figure 13](#Figure13) is supported enti
 (a) What fraction of the weight is supported by the opposite shore if the point of support is directly beneath the cable attachments?
 (b) What is the direction and magnitude of the force the hinges exert on the bridge under these circumstances? The mass of the bridge is 2500 kg.
 
-![A small drawbridge is shown. There is one vertical and one horizontal wooden plank. The left end of the horizontal plank is attached to the vertical plank near its middle. At the point of contact, a hinge is shown. A wire is tied to the right end of the horizontal end, is passed over the top of the vertical plank and is connected to a pulley. The angle made by the wire with the horizontal plank is forty degrees. The reaction F at the hinge is inclined at an angle theta.](../resources/Figure_09_03_10.jpg "A small drawbridge, showing the forces on the hinges ( \( F \) ), its weight ( \( w \) ), and the tension in its wires ( \( T \) ).")
+![A small drawbridge is shown. There is one vertical and one horizontal wooden plank. The left end of the horizontal plank is attached to the vertical plank near its middle. At the point of contact, a hinge is shown. A wire is tied to the right end of the horizontal end, is passed over the top of the vertical plank and is connected to a pulley. The angle made by the wire with the horizontal plank is forty degrees. The reaction F at the hinge is inclined at an angle theta.](../resources/Figure_09_03_13.jpg "A small drawbridge, showing the forces on the hinges ( \( F \) ), its weight ( \( w \) ), and the tension in its wires ( \( T \) ).")
 {: #Figure13}
 
 </div>
@@ -254,7 +254,7 @@ A sandwich board advertising sign is constructed as shown in [Figure 14](#Figure
 (a) Calculate the tension in the chain assuming no friction between the legs and the sidewalk.
 (b) What force is exerted by each side on the hinge?
 
-![A sandwich board advertising sign is in form of a triangle. The base of the triangle is one point one zero meters. The other two sides are connected with a hinge at the top. A horizontal chain is connected to the two legs at zero point five zero meters below the hinge. The height of the hinge above the base is one point three zero meters. The centers of the gravity of the two legs are shown at their midpoints. The figure is labeled at uniform board with c g at the center.](../resources/Figure_09_03_11.jpg "A sandwich board advertising sign demonstrates tension.")
+![A sandwich board advertising sign is in form of a triangle. The base of the triangle is one point one zero meters. The other two sides are connected with a hinge at the top. A horizontal chain is connected to the two legs at zero point five zero meters below the hinge. The height of the hinge above the base is one point three zero meters. The centers of the gravity of the two legs are shown at their midpoints. The figure is labeled at uniform board with c g at the center.](../resources/Figure_09_03_14.jpg "A sandwich board advertising sign demonstrates tension.")
 {: #Figure14}
 
 </div>
@@ -278,7 +278,7 @@ b) 21.6 N
 <div class="problem" markdown="1">
 A gymnast is attempting to perform splits. From the information given in [Figure 15](#Figure15), calculate the magnitude and direction of the force exerted on each foot by the floor.
 
-![A gymnast with two pompoms in her hands is shown. One of the hand is horizontal toward left and the other is vertical. The gymnast is attempting to perform a full split. The span of her legs is one point eight meters, and the distance of one foot from the center of gravity is zero point nine meters. The weight of the girl is labeled as seven hundred newtons. The vertical distance of one foot from the center of gravity is zero point three zero meter.](../resources/Figure_09_03_12.jpg "A gymnast performs full split. The center of gravity and the various distances from it are shown.")
+![A gymnast with two pompoms in her hands is shown. One of the hand is horizontal toward left and the other is vertical. The gymnast is attempting to perform a full split. The span of her legs is one point eight meters, and the distance of one foot from the center of gravity is zero point nine meters. The weight of the girl is labeled as seven hundred newtons. The vertical distance of one foot from the center of gravity is zero point three zero meter.](../resources/Figure_09_03_15.jpg "A gymnast performs full split. The center of gravity and the various distances from it are shown.")
 {: #Figure15}
 
 </div>
