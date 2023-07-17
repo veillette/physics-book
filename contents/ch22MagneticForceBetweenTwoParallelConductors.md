@@ -138,7 +138,7 @@ Suppose two long straight wires run perpendicular to one another without touchin
 <div class="problem" markdown="1">
 Use the right hand rules to show that the force between the two loops in [[Figure 3]](#Figure3) is attractive if the currents are in the same direction and repulsive if they are in opposite directions. Is this consistent with like poles of the loops repelling and unlike poles of the loops attracting? Draw sketches to justify your answers.
 
-![Diagram showing two current-carrying loops. The planes of the loops are parallel and horizontal, one above the other. In both loops, the current runs counterclockwise.](../resources/Figure_22_10_04.jpg "Two loops of wire carrying currents can exert forces and torques on one another.")
+![Diagram showing two current-carrying loops. The planes of the loops are parallel and horizontal, one above the other. In both loops, the current runs counterclockwise.](../resources/Figure_22_10_03.jpg "Two loops of wire carrying currents can exert forces and torques on one another.")
 {: #Figure3}
 
 </div>
@@ -219,7 +219,7 @@ An AC appliance cord has its hot and neutral wires separated by 3.00 mm and carr
 <div class="problem" markdown="1">
 [[Figure 4]](#Figure4) shows a long straight wire near a rectangular current loop. What is the direction and magnitude of the total force on the loop?
 
-![Diagram showing two current-carrying wires. Wire 1 is at the top and runs left to right with the current I 1 of fifteen amps also running left to right. Wire 2 makes a square circuit ten point zero centimeters in the vertical dimension and thirty point zero centimeters in the horizontal dimension. The top side of Wire 2 is seven point five zero centimeters below wire 1. The current in wire 2 is thirty point zero amps and runs counterclockwise: left to right along the bottom, up the right side, right to left along the top, and down the left side.](../resources/Figure_22_10_03.jpg " ")
+![Diagram showing two current-carrying wires. Wire 1 is at the top and runs left to right with the current I 1 of fifteen amps also running left to right. Wire 2 makes a square circuit ten point zero centimeters in the vertical dimension and thirty point zero centimeters in the horizontal dimension. The top side of Wire 2 is seven point five zero centimeters below wire 1. The current in wire 2 is thirty point zero amps and runs counterclockwise: left to right along the bottom, up the right side, right to left along the top, and down the left side.](../resources/Figure_22_10_04.jpg " ")
 {: #Figure4}
 
 </div>
@@ -229,7 +229,7 @@ An AC appliance cord has its hot and neutral wires separated by 3.00 mm and carr
 <div class="problem" markdown="1">
 Find the direction and magnitude of the force that each wire experiences in [[Figure 5]](#Figure5)(a) by, using vector addition.
 
-![Figure a shows the cross sections of three wires that are parallel to each other and arranged in an equilateral triangle. The bottom left wire has current of ten point zero amps into the page. The bottom right wire has a current of twenty point zero amps also into the page. The wire at the top of the triangle has current five point zero amps out of the page. The triangle that the wires make with each other is ten point zero centimeters on each side. Figure b shows four parallel wires arranged in a square that is twenty point zero centimeters on a side. The top two wires have current of ten point zero amps out of the page. The bottom two wires have current of five point zero amps into the page.](../resources/Figure_22_11_10.jpg " ")
+![Figure a shows the cross sections of three wires that are parallel to each other and arranged in an equilateral triangle. The bottom left wire has current of ten point zero amps into the page. The bottom right wire has a current of twenty point zero amps also into the page. The wire at the top of the triangle has current five point zero amps out of the page. The triangle that the wires make with each other is ten point zero centimeters on each side. Figure b shows four parallel wires arranged in a square that is twenty point zero centimeters on a side. The top two wires have current of ten point zero amps out of the page. The bottom two wires have current of five point zero amps into the page.](../resources/Figure_22_10_05.jpg " ")
 {: #Figure5}
 
 </div>

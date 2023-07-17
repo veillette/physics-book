@@ -259,7 +259,7 @@ If you wish to store a large amount of energy in a capacitor bank, would you con
 <div class="problem" markdown="1">
 Find the total capacitance of the combination of capacitors in [[Figure 4]](#Figure4).
 
-![A circuit is shown with three capacitors. Two capacitors, of ten microfarad and two point five microfarad capacitance, are in parallel to each other, and their combination is in series with a zero point three zero microfarad capacitor.](../resources/Figure_19_05_08.jpg "A combination of series and parallel connections of capacitors.")
+![A circuit is shown with three capacitors. Two capacitors, of ten microfarad and two point five microfarad capacitance, are in parallel to each other, and their combination is in series with a zero point three zero microfarad capacitor.](../resources/Figure_19_06_04.jpg "A combination of series and parallel connections of capacitors.")
 {: #Figure4}
 
 </div>
@@ -294,7 +294,7 @@ What total capacitances can you make by connecting a  $$5.00 \text{µF} $$
 <div class="problem" markdown="1">
 Find the total capacitance of the combination of capacitors shown in [[Figure 5]](#Figure5).
 
-![The circuit includes three capacitors. A zero point three zero microfarad capacitor and a ten microfarad capacitor are connected in series, and together they are connected in parallel with a two point five microfarad capacitor.](../resources/Figure_19_05_09.jpg "A combination of series and parallel connections of capacitors.")
+![The circuit includes three capacitors. A zero point three zero microfarad capacitor and a ten microfarad capacitor are connected in series, and together they are connected in parallel with a two point five microfarad capacitor.](../resources/Figure_19_06_05.jpg "A combination of series and parallel connections of capacitors.")
 {: #Figure5}
 
 </div>
@@ -307,7 +307,7 @@ Find the total capacitance of the combination of capacitors shown in [[Figure 5]
 <div class="problem" markdown="1">
 Find the total capacitance of the combination of capacitors shown in [[Figure 6]](#Figure6).
 
-![The figure shows a circuit that is a combination of series and parallel connections of capacitors. On the left of the circuit is a five point zero microfarad capacitor in series with a three point five microfarad capacitor. In the middle is an eight point zero microfarad capacitor. On the right, a zero point seven five microfarad capacitor is in parallel with a fifteen microfarad capacitor, and together they are in series with a one point five microfarad capacitor. Altogether, the system of capacitors on the left, the capacitor in the middle, and the system of capacitors on the right are connected in parallel.](../resources/Figure_19_05_10.jpg "A combination of series and parallel connections of capacitors.")
+![The figure shows a circuit that is a combination of series and parallel connections of capacitors. On the left of the circuit is a five point zero microfarad capacitor in series with a three point five microfarad capacitor. In the middle is an eight point zero microfarad capacitor. On the right, a zero point seven five microfarad capacitor is in parallel with a fifteen microfarad capacitor, and together they are in series with a one point five microfarad capacitor. Altogether, the system of capacitors on the left, the capacitor in the middle, and the system of capacitors on the right are connected in parallel.](../resources/Figure_19_06_06.jpg "A combination of series and parallel connections of capacitors.")
 {: #Figure6}
 
 </div>

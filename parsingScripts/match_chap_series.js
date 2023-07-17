@@ -53,7 +53,7 @@ readdir(contentsDir)
 
                 // Check if all figure filenames in the Markdown file are consistent
                 if (areFigureFilenamesConsistent(figureFilenames)) {
-                    console.log(`Figure filenames in ${file} are consistent.`);
+               //     console.log(`Figure filenames in ${file} are consistent.`);
                 } else {
                     console.log(`Figure filenames in ${file} are not consistent.`);
 

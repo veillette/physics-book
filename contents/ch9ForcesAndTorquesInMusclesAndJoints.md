@@ -463,7 +463,7 @@ shown. The inclination of the head is theta to the horizontal and the center
 of gravity is near the top of the head. The weight of the head is fifty 
 newtons and is acting downward at the center of gravity. Three major forces 
 are shown. The force exerted along the neck is sixty newtons.](..
-/resources/Figure_10_06_08.jpg "Muscles are providing tension to hold her 
+/resources/Figure_09_06_08.webp "Muscles are providing tension to hold her 
 head in place.")
 {: #Figure8 height="275"}
 
