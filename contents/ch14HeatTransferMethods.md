@@ -1,7 +1,7 @@
 ---
 title: "Heat Transfer Methods"
 layout: page
---- 
+---
 
 <div class="abstract" markdown="1">
 * Discuss the different methods of heat transfer.

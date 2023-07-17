@@ -1,7 +1,7 @@
 ---
 title: "What Is a Fluid?"
 layout: page
---- 
+---
 
 <div class="abstract" markdown="1">
 * State the common phases of matter.

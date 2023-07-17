@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Applications of Nuclear Physics"
 layout: page
----  
+---
 
 <div class="abstract" markdown="1">
 * Provide examples of various nuclear physics applications.

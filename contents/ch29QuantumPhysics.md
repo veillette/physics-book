@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Quantum Physics"
 layout: page
----    
+---
 
 ![A magnified image of a black fly obtained from an electron microscope showing its antennae and tentacles.](../resources/Figure_29_00_01.jpg "A black fly imaged by an electron microscope is as monstrous as any science-fiction creature. (credit: U.S. Department of Agriculture via Wikimedia Commons)")
 {: #Figure1}

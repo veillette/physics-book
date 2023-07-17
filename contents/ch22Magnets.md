@@ -1,7 +1,7 @@
 ---
 title: "Magnets"
 layout: page
---- 
+---
 
 <div class="abstract" markdown="1">
 * Describe the difference between the north and south poles of a magnet.

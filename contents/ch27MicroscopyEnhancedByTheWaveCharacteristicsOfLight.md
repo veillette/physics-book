@@ -2,7 +2,7 @@
 title: "*Extended Topic* Microscopy Enhanced by the Wave Characteristics of
 Light"
 layout: page
---- 
+---
 
 <div class="abstract" markdown="1">
 * Discuss the different types of microscopes.

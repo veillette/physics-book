@@ -1,7 +1,7 @@
 ---
 title: "Color and Color Vision"
 layout: page
---- 
+---
 
 <div class="abstract" markdown="1">
 * Explain the simple theory of color vision.
