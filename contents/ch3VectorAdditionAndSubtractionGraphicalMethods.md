@@ -10,7 +10,7 @@ displacement of moving objects.
 
 </div>
 
-![Some Hawaiian Islands like Kauai Oahu, Molokai, Lanai, Maui, Kahoolawe, and Hawaii are shown. On the scale map of Hawaiian Islands the path of a journey is shown moving from Hawaii to Molokai. The path of the journey is turning at different angles and finally reaching its destination. The displacement of the journey is shown with the help of a straight line connecting its starting point and the destination.](../resources/Figure_03_02_00.jpg "Displacement can be determined graphically using a scale map, such as this one of the Hawaiian Islands. A journey from Hawai&#x2019;i to Moloka&#x2019;i has a number of legs, or journey segments. These segments can be added graphically with a ruler to determine the total two-dimensional displacement of the journey. (credit: US Geological Survey)")
+![Some Hawaiian Islands like Kauai Oahu, Molokai, Lanai, Maui, Kahoolawe, and Hawaii are shown. On the scale map of Hawaiian Islands the path of a journey is shown moving from Hawaii to Molokai. The path of the journey is turning at different angles and finally reaching its destination. The displacement of the journey is shown with the help of a straight line connecting its starting point and the destination.](../resources/Figure_03_02_01.jpg "Displacement can be determined graphically using a scale map, such as this one of the Hawaiian Islands. A journey from Hawai&#x2019;i to Moloka&#x2019;i has a number of legs, or journey segments. These segments can be added graphically with a ruler to determine the total two-dimensional displacement of the journey. (credit: US Geological Survey)")
 {: #Figure1}
 
 ### Vectors in Two Dimensions
@@ -44,10 +44,10 @@ variable will be given by an angle $$ \theta $$.
 
 </div>
 
-![A graph is shown. On the axes the scale is set to one block is equal to one unit. A helicopter starts moving from the origin at an angle of twenty nine point one degrees above the x axis. The current position of the helicopter is ten point three blocks along its line of motion. The destination of the helicopter is the point which is nine blocks in the positive x direction and five blocks in the positive y direction. The positive direction of the x axis is east and the positive direction of the y axis is north.](../resources/Figure_03_02_01.jpg "A person walks 9 blocks east and 5 blocks north. The displacement is 10.3 blocks at an angle 29.1 degrees north of east.")
+![A graph is shown. On the axes the scale is set to one block is equal to one unit. A helicopter starts moving from the origin at an angle of twenty nine point one degrees above the x axis. The current position of the helicopter is ten point three blocks along its line of motion. The destination of the helicopter is the point which is nine blocks in the positive x direction and five blocks in the positive y direction. The positive direction of the x axis is east and the positive direction of the y axis is north.](../resources/Figure_03_02_02.jpg "A person walks 9 blocks east and 5 blocks north. The displacement is 10.3 blocks at an angle 29.1 degrees north of east.")
 {: #Figure2}
 
-![On a graph a vector is shown. It is inclined at an angle theta equal to twenty nine point one degrees above the positive x axis. A protractor is shown to the right of the x axis to measure the angle. A ruler is also shown parallel to the vector to measure its length. The ruler shows that the length of the vector is ten point three units.](../resources/Figure_03_02_02.jpg "To describe the resultant vector for the person walking in a city considered in <a href="#Figure2">Figure 2</a> graphically, draw an arrow to represent the total displacement vector \( \vb{D} \) . Using a protractor, draw a line at an angle \( \theta \) relative to the east-west axis. The length \( \mag{D} \) of the arrow is proportional to the vector&#x2019;s magnitude and is measured along the line with a ruler. In this example, the magnitude \( \mag{D} \) of the vector is 10.3 units, and the direction \( \theta \) is 29.1 degrees north of east. ")
+![On a graph a vector is shown. It is inclined at an angle theta equal to twenty nine point one degrees above the positive x axis. A protractor is shown to the right of the x axis to measure the angle. A ruler is also shown parallel to the vector to measure its length. The ruler shows that the length of the vector is ten point three units.](../resources/Figure_03_02_03.jpg "To describe the resultant vector for the person walking in a city considered in <a href="#Figure2">Figure 2</a> graphically, draw an arrow to represent the total displacement vector \( \vb{D} \) . Using a protractor, draw a line at an angle \( \theta \) relative to the east-west axis. The length \( \mag{D} \) of the arrow is proportional to the vector&#x2019;s magnitude and is measured along the line with a ruler. In this example, the magnitude \( \mag{D} \) of the vector is 10.3 units, and the direction \( \theta \) is 29.1 degrees north of east. ")
 {: #Figure3 height="250"}
 
 ### Vector Addition: Head-to-Tail Method
@@ -57,7 +57,7 @@ in [Figure 4](#Figure4) below and in the steps following. The **tail** of the
 vector is the starting point of the vector, and the **head** (or tip) of a
 vector is the final, pointed end of the arrow.
 
-![In part a, a vector of magnitude of nine units and making an angle of theta is equal to zero degrees is drawn from the origin and along the positive direction of x axis. In part b a vector of magnitude of nine units and making an angle of theta is equal to zero degree is drawn from the origin and along the positive direction of x axis. Then a vertical arrow from the head of the horizontal arrow is drawn. In part c a vector D of magnitude ten point three is drawn from the tail of the horizontal vector at an angle theta is equal to twenty nine point one degrees from the positive direction of x axis. The head of the vector D meets the head of the vertical vector. A scale is shown parallel to the vector D to measure its length. Also a protractor is shown to measure the inclination of the vectorD.](../resources/Figure_03_02_03.jpg "Head-to-Tail Method: The head-to-tail method of graphically adding vectors is illustrated for the two displacements of the person walking in a city considered in <a href="#Figure2">Figure 2</a>.
+![In part a, a vector of magnitude of nine units and making an angle of theta is equal to zero degrees is drawn from the origin and along the positive direction of x axis. In part b a vector of magnitude of nine units and making an angle of theta is equal to zero degree is drawn from the origin and along the positive direction of x axis. Then a vertical arrow from the head of the horizontal arrow is drawn. In part c a vector D of magnitude ten point three is drawn from the tail of the horizontal vector at an angle theta is equal to twenty nine point one degrees from the positive direction of x axis. The head of the vector D meets the head of the vertical vector. A scale is shown parallel to the vector D to measure its length. Also a protractor is shown to measure the inclination of the vectorD.](../resources/Figure_03_02_04.jpg "Head-to-Tail Method: The head-to-tail method of graphically adding vectors is illustrated for the two displacements of the person walking in a city considered in <a href="#Figure2">Figure 2</a>.
 (a) Draw a vector representing the displacement to the east.
 (b) Draw a vector representing the displacement to the north. The tail of this vector should originate from the head of the first, east-pointing vector.
 (c) Draw a line from the tail of the east-pointing vector to the head of the north-pointing vector to form the sum or resultant vector \( \vb{D} \) . The length of the arrow \( \mag{D} \) is proportional to the vector&#x2019;s magnitude and is measured to be 10.3 units . Its direction, described as the angle with respect to the east (or horizontal axis)  \( \theta \) is measured with a protractor to be 29.1 degrees .")
@@ -66,13 +66,13 @@ vector is the final, pointed end of the arrow.
 ***Step 1.*** **Draw an arrow to represent the first vector (9 blocks to the
 east) using a ruler and protractor**.
 
-![In part a, a vector of magnitude of nine units and making an angle theta is equal to zero degree is drawn from the origin and along the positive direction of x axis.](../resources/Figure_03_02_04.jpg)
+![In part a, a vector of magnitude of nine units and making an angle theta is equal to zero degree is drawn from the origin and along the positive direction of x axis.](../resources/Figure_03_02_05.jpg)
 {: #Figure5 height="200"}
 
 ***Step 2.*** Now draw an arrow to represent the second vector (5 blocks to the
 north). *Place the tail of the second vector at the head of the first vector*.
 
-![In part b, a vector of magnitude of nine units and making an angle theta is equal to zero degree is drawn from the origin and along the positive direction of x axis. Then a vertical vector from the head of the horizontal vector is drawn.](../resources/Figure_03_02_05.jpg)
+![In part b, a vector of magnitude of nine units and making an angle theta is equal to zero degree is drawn from the origin and along the positive direction of x axis. Then a vertical vector from the head of the horizontal vector is drawn.](../resources/Figure_03_02_06.jpg)
 {: #Figure6 height="200"}
 
 ***Step 3.*** *If there are more than two vectors, continue this process for
@@ -82,7 +82,7 @@ we have finished placing arrows tip to tail*.
 ***Step 4.*** *Draw an arrow from the tail of the first vector to the head of
 the last vector*. This is the **resultant**, or the sum, of the other vectors.
 
-![In part c, a vector D of magnitude ten point three is drawn from the tail of the horizontal vector at an angle theta is equal to twenty nine point one degrees from the positive direction of the x axis. The head of the vector D meets the head of the vertical vector. A scale is shown parallel to the vector D to measure its length. Also a protractor is shown to measure the inclination of the vector D.](../resources/Figure_03_02_06.jpg)
+![In part c, a vector D of magnitude ten point three is drawn from the tail of the horizontal vector at an angle theta is equal to twenty nine point one degrees from the positive direction of the x axis. The head of the vector D meets the head of the vertical vector. A scale is shown parallel to the vector D to measure its length. Also a protractor is shown to measure the inclination of the vector D.](../resources/Figure_03_02_07.jpg)
 {: #Figure7}
 
 ***Step 5.*** To get the **magnitude** of the resultant, *measure its length
