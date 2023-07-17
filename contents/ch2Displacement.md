@@ -140,12 +140,13 @@ A cyclist rides 3 km west and then turns around and rides 2 km east.
 
 </div>
 <div class="solution" markdown="1">
+
 ![Two diagrams side by side. To the left is a horizontal line, or x axis, 
 with points for final position and initial position. Displacement 1, shown 
 by an arrow pointing leftward, equals negative 3 kilometers. Displacement 2, 
 shown by an arrow pointing rightward, equals 2 kilometers. To the right is a 
 pair of x and y axes, showing that east is the positive x direction and west 
-is the negative x direction.](../resources/Figure_02_01_03.jpg "Displacements 
+is the negative x direction.](../resources/Figure_02_01_04.jpg "Displacements 
 "){: #Figure4}
 
 (a) The rider’s displacement is $$ \Delta x=x_{f}-x_{0}=\text{−1 km} $$. (The

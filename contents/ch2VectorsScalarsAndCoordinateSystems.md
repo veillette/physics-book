@@ -9,7 +9,7 @@ layout: page
 
 </div>
 
-![A small jet airplane flying toward the left.](../resources/Figure_02_02_00.jpg "The motion of this Eclipse Concept jet can be described in terms of the distance it has traveled (a scalar quantity) or its displacement in a specific direction (a vector quantity). In order to specify the direction of motion, its displacement must be described based on a coordinate system. In this case, it may be convenient to choose motion toward the left as positive motion (it is the forward direction for the plane), although in many cases, the \(x\)-coordinate runs from left to right, with motion to the right as positive and motion to the left as negative. (credit: Armchair Aviator, Flickr)")
+![A small jet airplane flying toward the left.](../resources/Figure_02_02_01.jpg "The motion of this Eclipse Concept jet can be described in terms of the distance it has traveled (a scalar quantity) or its displacement in a specific direction (a vector quantity). In order to specify the direction of motion, its displacement must be described based on a coordinate system. In this case, it may be convenient to choose motion toward the left as positive motion (it is the forward direction for the plane), although in many cases, the \(x\)-coordinate runs from left to right, with motion to the right as positive and motion to the left as negative. (credit: Armchair Aviator, Flickr)")
 {: #Figure1}
 
 What is the difference between distance and displacement? Whereas displacement
@@ -51,7 +51,7 @@ left, it is useful to define left as the positive direction. It does not matter
 as long as the system is clear and consistent. Once you assign a positive
 direction and start solving a problem, you cannot change it.
 
-![An x y coordinate system. An arrow pointing toward the right shows the positive x direction. Negative x is toward the left. An arrow pointing up shows the positive y direction. Negative y points downward.](../resources/Figure_02_02_00b.jpg "
+![An x y coordinate system. An arrow pointing toward the right shows the positive x direction. Negative x is toward the left. An arrow pointing up shows the positive y direction. Negative y points downward.](../resources/Figure_02_02_02.jpg "
 It is usually convenient to consider motion upward or to the right as positive ( + )and motion downward or to the left as negative (-).")
 {: #Figure2}
 
