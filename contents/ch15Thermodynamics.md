@@ -5,7 +5,7 @@ sectionNumber: 0
 chapterNumber: 15
 ---
 
-![A steam engine and several passenger cars are shown traveling down a train track. The train has some people on board.](../resources/Figure_14_00_02.jpg "A steam engine uses heat transfer to do work. Tourists regularly ride this narrow-gauge steam engine train near the San Juan Skyway in Durango, Colorado, part of the National Scenic Byways Program. (credit: Dennis Adams)")
+![A steam engine and several passenger cars are shown traveling down a train track. The train has some people on board.](../resources/Figure_15_00_01.webp "A steam engine uses heat transfer to do work. (credit: Gerald Friedrich, Pixabay)")
 {: #Figure1}
 
 Heat transfer is energy in transit, and it can be used to do work. It can also
