@@ -1,6 +1,8 @@
 ---
-title: "High-temperature Superconductors"
+title: High-temperature Superconductors
 layout: page
+sectionNumber: 6
+chapterNumber: 34
 ---
 
 <div class="abstract" markdown="1">

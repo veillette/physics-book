@@ -1,6 +1,8 @@
 ---
-title: "Tunneling"
+title: Tunneling
 layout: page
+sectionNumber: 7
+chapterNumber: 31
 ---
 
 <div class="abstract" markdown="1">

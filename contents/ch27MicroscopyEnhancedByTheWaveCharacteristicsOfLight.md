@@ -1,7 +1,8 @@
 ---
-title: "*Extended Topic* Microscopy Enhanced by the Wave Characteristics of
-Light"
+title: '*Extended Topic* Microscopy Enhanced by the Wave Characteristics of Light'
 layout: page
+sectionNumber: 9
+chapterNumber: 27
 ---
 
 <div class="abstract" markdown="1">

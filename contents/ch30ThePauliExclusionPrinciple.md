@@ -1,6 +1,8 @@
 ---
-title: "The Pauli Exclusion Principle"
+title: The Pauli Exclusion Principle
 layout: page
+sectionNumber: 9
+chapterNumber: 30
 ---
 
 <div class="abstract" markdown="1">

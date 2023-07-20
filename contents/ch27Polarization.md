@@ -1,6 +1,8 @@
 ---
-title: "Polarization"
+title: Polarization
 layout: page
+sectionNumber: 8
+chapterNumber: 27
 ---
 
 <div class="abstract" markdown="1">

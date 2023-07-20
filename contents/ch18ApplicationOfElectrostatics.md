@@ -1,6 +1,8 @@
 ---
-title: "Applications of Electrostatics"
+title: Applications of Electrostatics
 layout: page
+sectionNumber: 8
+chapterNumber: 18
 ---
 
 <div class="abstract" markdown="1">

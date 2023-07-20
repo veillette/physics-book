@@ -1,6 +1,8 @@
 ---
-title: "Forced Oscillations and Resonance"
+title: Forced Oscillations and Resonance
 layout: page
+sectionNumber: 8
+chapterNumber: 16
 ---
 
 <div class="abstract" markdown="1">

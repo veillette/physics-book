@@ -1,6 +1,8 @@
 ---
-title: "Nonconservative Forces"
+title: Nonconservative Forces
 layout: page
+sectionNumber: 5
+chapterNumber: 7
 ---
 
 <div class="abstract" markdown="1">

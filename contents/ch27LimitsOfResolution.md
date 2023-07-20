@@ -1,6 +1,8 @@
 ---
-title: "Limits of Resolution: The Rayleigh Criterion"
+title: 'Limits of Resolution: The Rayleigh Criterion'
 layout: page
+sectionNumber: 6
+chapterNumber: 27
 ---
 
 <div class="abstract" markdown="1">

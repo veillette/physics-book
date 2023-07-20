@@ -1,6 +1,8 @@
 ---
-title: "Waves"
+title: Waves
 layout: page
+sectionNumber: 9
+chapterNumber: 16
 ---
 
 <div class="abstract" markdown="1">

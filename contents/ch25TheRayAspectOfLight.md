@@ -1,6 +1,8 @@
 ---
-title: "The Ray Aspect of Light"
+title: The Ray Aspect of Light
 layout: page
+sectionNumber: 1
+chapterNumber: 25
 ---
 
 <div class="abstract" markdown="1">

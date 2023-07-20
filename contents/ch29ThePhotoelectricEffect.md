@@ -1,6 +1,8 @@
 ---
-title: "The Photoelectric Effect"
+title: The Photoelectric Effect
 layout: page
+sectionNumber: 2
+chapterNumber: 29
 ---
 
 <div class="abstract" markdown="1">

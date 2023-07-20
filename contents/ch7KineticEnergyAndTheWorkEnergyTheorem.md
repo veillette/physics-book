@@ -1,6 +1,8 @@
 ---
-title: "Kinetic Energy and the Work-Energy Theorem"
+title: Kinetic Energy and the Work-Energy Theorem
 layout: page
+sectionNumber: 2
+chapterNumber: 7
 ---
 
 <div class="abstract" markdown="1">

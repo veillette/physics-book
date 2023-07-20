@@ -1,6 +1,8 @@
 ---
-title: "Vectors, Scalars, and Coordinate Systems"
+title: Vectors, Scalars, and Coordinate Systems
 layout: page
+sectionNumber: 2
+chapterNumber: 2
 ---
 
 <div class="abstract" markdown="1">

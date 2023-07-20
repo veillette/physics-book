@@ -1,6 +1,8 @@
 ---
-title: "The Law of Refraction"
+title: The Law of Refraction
 layout: page
+sectionNumber: 3
+chapterNumber: 25
 ---
 
 <div class="abstract" markdown="1">

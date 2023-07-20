@@ -1,6 +1,8 @@
 ---
-title: "Thin Film Interference"
+title: Thin Film Interference
 layout: page
+sectionNumber: 7
+chapterNumber: 27
 ---
 
 <div class="abstract" markdown="1">

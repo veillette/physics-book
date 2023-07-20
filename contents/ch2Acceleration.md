@@ -1,6 +1,8 @@
 ---
-title: "Acceleration"
+title: Acceleration
 layout: page
+sectionNumber: 4
+chapterNumber: 2
 ---
 
 <div class="abstract" markdown="1">

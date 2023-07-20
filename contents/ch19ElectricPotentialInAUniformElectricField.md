@@ -1,6 +1,8 @@
 ---
-title: "Electric Potential in a Uniform Electric Field"
+title: Electric Potential in a Uniform Electric Field
 layout: page
+sectionNumber: 2
+chapterNumber: 19
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Radiation"
+title: Radiation
 layout: page
+sectionNumber: 7
+chapterNumber: 14
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Falling Objects"
+title: Falling Objects
 layout: page
+sectionNumber: 7
+chapterNumber: 2
 ---
 
 <div class="abstract" markdown="1">

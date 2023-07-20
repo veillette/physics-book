@@ -1,6 +1,8 @@
 ---
-title: "Quantization of Energy"
+title: Quantization of Energy
 layout: page
+sectionNumber: 1
+chapterNumber: 29
 ---
 
 <div class="abstract" markdown="1">

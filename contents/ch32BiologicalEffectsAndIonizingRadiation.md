@@ -1,6 +1,8 @@
 ---
-title: "Biological Effects of Ionizing Radiation"
+title: Biological Effects of Ionizing Radiation
 layout: page
+sectionNumber: 2
+chapterNumber: 32
 ---
 
 <div class="abstract" markdown="1">

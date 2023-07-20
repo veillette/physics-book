@@ -1,6 +1,8 @@
 ---
-title: "Uniform Circular Motion and Simple Harmonic Motion"
+title: Uniform Circular Motion and Simple Harmonic Motion
 layout: page
+sectionNumber: 6
+chapterNumber: 16
 ---
 
 <div class="abstract" markdown="1">

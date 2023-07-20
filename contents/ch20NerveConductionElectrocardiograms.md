@@ -1,6 +1,8 @@
 ---
-title: "Nerve Conduction–Electrocardiograms"
+title: Nerve Conduction–Electrocardiograms
 layout: page
+sectionNumber: 7
+chapterNumber: 20
 ---
 
 <div class="abstract" markdown="1">

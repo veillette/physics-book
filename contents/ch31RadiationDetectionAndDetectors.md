@@ -1,6 +1,8 @@
 ---
-title: "Radiation Detection and Detectors"
+title: Radiation Detection and Detectors
 layout: page
+sectionNumber: 2
+chapterNumber: 31
 ---
 
 <div class="abstract" markdown="1">

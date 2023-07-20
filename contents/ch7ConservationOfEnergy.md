@@ -1,6 +1,8 @@
 ---
-title: "Conservation of Energy"
+title: Conservation of Energy
 layout: page
+sectionNumber: 6
+chapterNumber: 7
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Simple Machines"
+title: Simple Machines
 layout: page
+sectionNumber: 5
+chapterNumber: 9
 ---
 
 <div class="abstract" markdown="1">

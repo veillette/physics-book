@@ -1,6 +1,8 @@
 ---
-title: "Elasticity: Stress and Strain"
+title: 'Elasticity: Stress and Strain'
 layout: page
+sectionNumber: 3
+chapterNumber: 5
 ---
 
 <div class="abstract" markdown="1">

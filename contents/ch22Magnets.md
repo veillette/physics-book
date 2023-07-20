@@ -1,6 +1,8 @@
 ---
-title: "Magnets"
+title: Magnets
 layout: page
+sectionNumber: 1
+chapterNumber: 22
 ---
 
 <div class="abstract" markdown="1">

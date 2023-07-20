@@ -1,6 +1,8 @@
 ---
-title: "Motional Emf"
+title: Motional Emf
 layout: page
+sectionNumber: 3
+chapterNumber: 23
 ---
 
 <div class="abstract" markdown="1">

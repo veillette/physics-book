@@ -1,6 +1,8 @@
 ---
-title: "Newton’s Universal Law of Gravitation"
+title: Newton’s Universal Law of Gravitation
 layout: page
+sectionNumber: 5
+chapterNumber: 6
 ---
 
 <div class="abstract" markdown="1">

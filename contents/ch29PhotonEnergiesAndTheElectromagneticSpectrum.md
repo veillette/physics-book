@@ -1,6 +1,8 @@
 ---
-title: "Photon Energies and the Electromagnetic Spectrum"
+title: Photon Energies and the Electromagnetic Spectrum
 layout: page
+sectionNumber: 3
+chapterNumber: 29
 ---
 
 <div class="abstract" markdown="1">

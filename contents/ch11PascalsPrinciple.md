@@ -1,6 +1,8 @@
 ---
-title: "Pascal’s Principle"
+title: Pascal’s Principle
 layout: page
+sectionNumber: 5
+chapterNumber: 11
 ---
 
 <div class="abstract" markdown="1">

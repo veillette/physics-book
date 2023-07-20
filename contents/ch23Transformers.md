@@ -1,6 +1,8 @@
 ---
-title: "Transformers"
+title: Transformers
 layout: page
+sectionNumber: 7
+chapterNumber: 23
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "The First Condition for Equilibrium"
+title: The First Condition for Equilibrium
 layout: page
+sectionNumber: 1
+chapterNumber: 9
 ---
 
 <div class="abstract" markdown="1">

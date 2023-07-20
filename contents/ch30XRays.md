@@ -1,6 +1,8 @@
 ---
-title: "X Rays: Atomic Origins and Applications"
+title: 'X Rays: Atomic Origins and Applications'
 layout: page
+sectionNumber: 4
+chapterNumber: 30
 ---
 
 <div class="abstract" markdown="1">

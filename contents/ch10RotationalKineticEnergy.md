@@ -1,6 +1,8 @@
 ---
-title: "Rotational Kinetic Energy: Work and Energy Revisited"
+title: 'Rotational Kinetic Energy: Work and Energy Revisited'
 layout: page
+sectionNumber: 4
+chapterNumber: 10
 ---
 
 <div class="abstract" markdown="1">

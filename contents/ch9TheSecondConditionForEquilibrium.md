@@ -1,6 +1,8 @@
 ---
-title: "The Second Condition for Equilibrium"
+title: The Second Condition for Equilibrium
 layout: page
+sectionNumber: 2
+chapterNumber: 9
 ---
 
 <div class="abstract" markdown="1">

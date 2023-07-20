@@ -1,6 +1,8 @@
 ---
-title: "Kirchhoff’s Rules"
+title: Kirchhoff’s Rules
 layout: page
+sectionNumber: 3
+chapterNumber: 21
 ---
 
 <div class="abstract" markdown="1">

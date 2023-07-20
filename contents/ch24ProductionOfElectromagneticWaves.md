@@ -1,6 +1,8 @@
 ---
-title: "Production of Electromagnetic Waves"
+title: Production of Electromagnetic Waves
 layout: page
+sectionNumber: 2
+chapterNumber: 24
 ---
 
 <div class="abstract" markdown="1">

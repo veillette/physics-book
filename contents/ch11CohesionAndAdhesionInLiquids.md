@@ -1,6 +1,8 @@
 ---
-title: "Cohesion and Adhesion in Liquids: Surface Tension and Capillary Action"
+title: 'Cohesion and Adhesion in Liquids: Surface Tension and Capillary Action'
 layout: page
+sectionNumber: 8
+chapterNumber: 11
 ---
 
 <div class="abstract" markdown="1">

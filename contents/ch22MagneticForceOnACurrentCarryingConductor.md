@@ -1,6 +1,8 @@
 ---
-title: "Magnetic Force on a Current-Carrying Conductor"
+title: Magnetic Force on a Current-Carrying Conductor
 layout: page
+sectionNumber: 7
+chapterNumber: 22
 ---
 
 <div class="abstract" markdown="1">

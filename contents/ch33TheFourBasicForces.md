@@ -1,6 +1,8 @@
 ---
-title: "The Four Basic Forces"
+title: The Four Basic Forces
 layout: page
+sectionNumber: 2
+chapterNumber: 33
 ---
 
 <div class="abstract" markdown="1">

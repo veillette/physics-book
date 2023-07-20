@@ -1,6 +1,8 @@
 ---
-title: "Static Electricity and Charge: Conservation of Charge"
+title: 'Static Electricity and Charge: Conservation of Charge'
 layout: page
+sectionNumber: 1
+chapterNumber: 18
 ---
 
 <div class="abstract" markdown="1">

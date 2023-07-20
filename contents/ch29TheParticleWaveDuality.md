@@ -1,6 +1,8 @@
 ---
-title: "The Particle-Wave Duality"
+title: The Particle-Wave Duality
 layout: page
+sectionNumber: 5
+chapterNumber: 29
 ---
 
 <div class="abstract" markdown="1">

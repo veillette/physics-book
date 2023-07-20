@@ -1,6 +1,8 @@
 ---
-title: "Electric Potential Energy: Potential Difference"
+title: 'Electric Potential Energy: Potential Difference'
 layout: page
+sectionNumber: 1
+chapterNumber: 19
 ---
 
 <div class="abstract" markdown="1">

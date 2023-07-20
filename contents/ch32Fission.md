@@ -1,6 +1,8 @@
 ---
-title: "Fission"
+title: Fission
 layout: page
+sectionNumber: 6
+chapterNumber: 32
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Sound Interference and Resonance: Standing Waves in Air Columns"
+title: 'Sound Interference and Resonance: Standing Waves in Air Columns'
 layout: page
+sectionNumber: 5
+chapterNumber: 17
 ---
 
 <div class="abstract" markdown="1">

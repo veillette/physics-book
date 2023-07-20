@@ -1,6 +1,8 @@
 ---
-title: "Introduction to Geometric Optics"
+title: Introduction to Geometric Optics
 layout: page
+sectionNumber: 0
+chapterNumber: 25
 ---
 
 ### Geometric Optics

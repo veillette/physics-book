@@ -1,6 +1,8 @@
 ---
-title: "Physics of the Eye"
+title: Physics of the Eye
 layout: page
+sectionNumber: 1
+chapterNumber: 26
 ---
 
 <div class="abstract" markdown="1">

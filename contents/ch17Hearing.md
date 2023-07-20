@@ -1,6 +1,8 @@
 ---
-title: "Hearing"
+title: Hearing
 layout: page
+sectionNumber: 6
+chapterNumber: 17
 ---
 
 <div class="abstract" markdown="1">

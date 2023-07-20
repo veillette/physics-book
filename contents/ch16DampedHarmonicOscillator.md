@@ -1,6 +1,8 @@
 ---
-title: "Damped Harmonic Motion"
+title: Damped Harmonic Motion
 layout: page
+sectionNumber: 7
+chapterNumber: 16
 ---
 
 <div class="abstract" markdown="1">

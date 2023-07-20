@@ -1,6 +1,8 @@
 ---
-title: "The Particle-Wave Duality Reviewed"
+title: The Particle-Wave Duality Reviewed
 layout: page
+sectionNumber: 8
+chapterNumber: 29
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Torque on a Current Loop: Motors and Meters"
+title: 'Torque on a Current Loop: Motors and Meters'
 layout: page
+sectionNumber: 8
+chapterNumber: 22
 ---
 
 <div class="abstract" markdown="1">

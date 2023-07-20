@@ -1,6 +1,8 @@
 ---
-title: "Therapeutic Uses of Ionizing Radiation"
+title: Therapeutic Uses of Ionizing Radiation
 layout: page
+sectionNumber: 3
+chapterNumber: 32
 ---
 
 <div class="abstract" markdown="1">

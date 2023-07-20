@@ -1,6 +1,8 @@
 ---
-title: "Density"
+title: Density
 layout: page
+sectionNumber: 2
+chapterNumber: 11
 ---
 
 <div class="abstract" markdown="1">

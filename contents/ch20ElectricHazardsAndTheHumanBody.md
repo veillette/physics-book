@@ -1,6 +1,8 @@
 ---
-title: "Electric Hazards and the Human Body"
+title: Electric Hazards and the Human Body
 layout: page
+sectionNumber: 6
+chapterNumber: 20
 ---
 
 <div class="abstract" markdown="1">

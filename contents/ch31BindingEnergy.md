@@ -1,6 +1,8 @@
 ---
-title: "Binding Energy"
+title: Binding Energy
 layout: page
+sectionNumber: 6
+chapterNumber: 31
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Pressures in the Body"
+title: Pressures in the Body
 layout: page
+sectionNumber: 9
+chapterNumber: 11
 ---
 
 <div class="abstract" markdown="1">

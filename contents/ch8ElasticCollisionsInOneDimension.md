@@ -1,6 +1,8 @@
 ---
-title: "Elastic Collisions in One Dimension"
+title: Elastic Collisions in One Dimension
 layout: page
+sectionNumber: 4
+chapterNumber: 8
 ---
 
 <div class="abstract" markdown="1">

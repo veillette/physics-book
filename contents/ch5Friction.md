@@ -1,6 +1,8 @@
 ---
-title: "Friction"
+title: Friction
 layout: page
+sectionNumber: 1
+chapterNumber: 5
 ---
 
 <div class="abstract" markdown="1">

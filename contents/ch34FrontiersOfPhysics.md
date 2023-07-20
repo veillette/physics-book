@@ -1,6 +1,8 @@
 ---
-title: "Introduction to Frontiers of Physics"
+title: Introduction to Frontiers of Physics
 layout: page
+sectionNumber: 0
+chapterNumber: 34
 ---
 
 ![A photo of deep space showing a lot of bright spots on a black background. In the center is a huge ring of brownish gas that encircles an interior that is glowing white. Along the axis of the ring more brownish bluish gas is spewing out into the surrounding space.](../resources/Figure_34_00_01.jpg "This galaxy is ejecting huge jets of matter, powered by an immensely massive black hole at its center. (credit: X-ray: NASA/CXC/CfA/R. Kraft et al.)")

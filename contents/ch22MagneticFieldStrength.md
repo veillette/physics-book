@@ -1,6 +1,8 @@
 ---
-title: "Magnetic Field Strength: Force on a Moving Charge in a Magnetic Field"
+title: 'Magnetic Field Strength: Force on a Moving Charge in a Magnetic Field'
 layout: page
+sectionNumber: 4
+chapterNumber: 22
 ---
 
 <div class="abstract" markdown="1">

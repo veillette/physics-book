@@ -1,6 +1,8 @@
 ---
-title: "Heat Transfer Methods"
+title: Heat Transfer Methods
 layout: page
+sectionNumber: 4
+chapterNumber: 14
 ---
 
 <div class="abstract" markdown="1">

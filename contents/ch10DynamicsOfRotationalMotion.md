@@ -1,6 +1,8 @@
 ---
-title: "Dynamics of Rotational Motion: Rotational Inertia"
+title: 'Dynamics of Rotational Motion: Rotational Inertia'
 layout: page
+sectionNumber: 3
+chapterNumber: 10
 ---
 
 <div class="abstract" markdown="1">

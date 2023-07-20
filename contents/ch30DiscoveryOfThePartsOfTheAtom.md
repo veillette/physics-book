@@ -1,6 +1,8 @@
 ---
-title: "Discovery of the Parts of the Atom: Electrons and Nuclei"
+title: 'Discovery of the Parts of the Atom: Electrons and Nuclei'
 layout: page
+sectionNumber: 2
+chapterNumber: 30
 ---
 
 <div class="abstract" markdown="1">

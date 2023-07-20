@@ -1,6 +1,8 @@
 ---
-title: "Work, Energy, and Power in Humans"
+title: Work, Energy, and Power in Humans
 layout: page
+sectionNumber: 8
+chapterNumber: 7
 ---
 
 <div class="abstract" markdown="1">

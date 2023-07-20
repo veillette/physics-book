@@ -1,6 +1,8 @@
 ---
-title: "Archimedes’ Principle"
+title: Archimedes’ Principle
 layout: page
+sectionNumber: 7
+chapterNumber: 11
 ---
 
 <div class="abstract" markdown="1">

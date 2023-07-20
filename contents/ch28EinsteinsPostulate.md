@@ -1,6 +1,8 @@
 ---
-title: "Einstein’s Postulates"
+title: Einstein’s Postulates
 layout: page
+sectionNumber: 1
+chapterNumber: 28
 ---
 
 <div class="abstract" markdown="1">

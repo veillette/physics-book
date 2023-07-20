@@ -1,6 +1,8 @@
 ---
-title: "Huygens's Principle: Diffraction"
+title: 'Huygens''s Principle: Diffraction'
 layout: page
+sectionNumber: 2
+chapterNumber: 27
 ---
 
 <div class="abstract" markdown="1">

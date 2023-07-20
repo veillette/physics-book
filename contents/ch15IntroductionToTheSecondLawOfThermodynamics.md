@@ -1,7 +1,8 @@
 ---
-title: "Introduction to the Second Law of Thermodynamics: Heat Engines and Their
-Efficiency"
+title: 'Introduction to the Second Law of Thermodynamics: Heat Engines and Their Efficiency'
 layout: page
+sectionNumber: 3
+chapterNumber: 15
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Alternating Current versus Direct Current"
+title: Alternating Current versus Direct Current
 layout: page
+sectionNumber: 5
+chapterNumber: 20
 ---
 
 <div class="abstract" markdown="1">

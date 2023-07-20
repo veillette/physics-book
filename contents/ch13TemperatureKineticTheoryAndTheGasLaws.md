@@ -1,6 +1,8 @@
 ---
-title: "Introduction to Temperature, Kinetic Theory, and the Gas Laws"
+title: Introduction to Temperature, Kinetic Theory, and the Gas Laws
 layout: page
+sectionNumber: 0
+chapterNumber: 13
 ---
 
 ![Photograph of a welder wearing protective gloves and helmet, engaged in the task of welding.](../resources/Figure_13_00_01.jpg "The welder&#x2019;s gloves and helmet protect him from the electric arc that transfers enough thermal energy to melt the rod, spray sparks, and burn the retina of an unprotected eye. The thermal energy can be felt on exposed skin a few meters away, and its light can be seen for kilometers. (credit: Kevin S. O&#x2019;Brien/U.S. Navy) ")

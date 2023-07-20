@@ -1,6 +1,8 @@
 ---
-title: "Introduction to Radioactivity and Nuclear Physics"
+title: Introduction to Radioactivity and Nuclear Physics
 layout: page
+sectionNumber: 0
+chapterNumber: 31
 ---
 
 <div class="abstract" markdown="1">

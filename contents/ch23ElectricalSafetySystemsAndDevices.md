@@ -1,6 +1,8 @@
 ---
-title: "Electrical Safety: Systems and Devices"
+title: 'Electrical Safety: Systems and Devices'
 layout: page
+sectionNumber: 8
+chapterNumber: 23
 ---
 
 <div class="abstract" markdown="1">

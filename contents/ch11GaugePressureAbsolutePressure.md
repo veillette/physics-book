@@ -1,6 +1,8 @@
 ---
-title: "Gauge Pressure, Absolute Pressure, and Pressure Measurement"
+title: Gauge Pressure, Absolute Pressure, and Pressure Measurement
 layout: page
+sectionNumber: 6
+chapterNumber: 11
 ---
 
 <div class="abstract" markdown="1">

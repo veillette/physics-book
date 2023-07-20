@@ -1,6 +1,8 @@
 ---
-title: "Gyroscopic Effects: Vector Aspects of Angular Momentum"
+title: 'Gyroscopic Effects: Vector Aspects of Angular Momentum'
 layout: page
+sectionNumber: 7
+chapterNumber: 10
 ---
 
 <div class="abstract" markdown="1">

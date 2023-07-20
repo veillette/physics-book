@@ -1,6 +1,8 @@
 ---
-title: "Conservation of Momentum"
+title: Conservation of Momentum
 layout: page
+sectionNumber: 3
+chapterNumber: 8
 ---
 
 <div class="abstract" markdown="1">

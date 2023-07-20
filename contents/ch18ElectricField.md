@@ -1,6 +1,8 @@
 ---
-title: "Electric Field: Concept of a Field Revisited"
+title: 'Electric Field: Concept of a Field Revisited'
 layout: page
+sectionNumber: 4
+chapterNumber: 18
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Back Emf"
+title: Back Emf
 layout: page
+sectionNumber: 6
+chapterNumber: 23
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Accelerators Create Matter from Energy"
+title: Accelerators Create Matter from Energy
 layout: page
+sectionNumber: 3
+chapterNumber: 33
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Reactance, Inductive and Capacitive"
+title: Reactance, Inductive and Capacitive
 layout: page
+sectionNumber: 11
+chapterNumber: 23
 ---
 
 <div class="abstract" markdown="1">

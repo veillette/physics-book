@@ -1,6 +1,8 @@
 ---
-title: "Introduction to Particle Physics"
+title: Introduction to Particle Physics
 layout: page
+sectionNumber: 0
+chapterNumber: 33
 ---
 
 <div class="abstract" markdown="1">

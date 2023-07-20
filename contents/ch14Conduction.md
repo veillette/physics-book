@@ -1,6 +1,8 @@
 ---
-title: "Conduction"
+title: Conduction
 layout: page
+sectionNumber: 5
+chapterNumber: 14
 ---
 
 <div class="abstract" markdown="1">

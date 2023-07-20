@@ -1,6 +1,8 @@
 ---
-title: "The Hall Effect"
+title: The Hall Effect
 layout: page
+sectionNumber: 6
+chapterNumber: 22
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Energy and the Simple Harmonic Oscillator"
+title: Energy and the Simple Harmonic Oscillator
 layout: page
+sectionNumber: 5
+chapterNumber: 16
 ---
 
 <div class="abstract" markdown="1">

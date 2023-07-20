@@ -1,6 +1,8 @@
 ---
-title: "Faraday’s Law of Induction: Lenz’s Law"
+title: 'Faraday’s Law of Induction: Lenz’s Law'
 layout: page
+sectionNumber: 2
+chapterNumber: 23
 ---
 
 <div class="abstract" markdown="1">

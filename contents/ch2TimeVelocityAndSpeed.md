@@ -1,6 +1,8 @@
 ---
-title: "Time, Velocity, and Speed"
+title: Time, Velocity, and Speed
 layout: page
+sectionNumber: 3
+chapterNumber: 2
 ---
 
 <div class="abstract" markdown="1">

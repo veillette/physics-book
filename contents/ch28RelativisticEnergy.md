@@ -1,6 +1,8 @@
 ---
-title: "Relativistic Energy"
+title: Relativistic Energy
 layout: page
+sectionNumber: 6
+chapterNumber: 28
 ---
 
 <div class="abstract" markdown="1">

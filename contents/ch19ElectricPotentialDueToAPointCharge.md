@@ -1,6 +1,8 @@
 ---
-title: "Electrical Potential Due to a Point Charge"
+title: Electrical Potential Due to a Point Charge
 layout: page
+sectionNumber: 3
+chapterNumber: 19
 ---
 
 <div class="abstract" markdown="1">

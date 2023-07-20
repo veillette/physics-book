@@ -1,6 +1,8 @@
 ---
-title: "Drag Forces"
+title: Drag Forces
 layout: page
+sectionNumber: 2
+chapterNumber: 5
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Physical Quantities and Units"
+title: Physical Quantities and Units
 layout: page
+sectionNumber: 2
+chapterNumber: 1
 ---
 
 <div class="abstract" markdown="1">

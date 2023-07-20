@@ -1,7 +1,8 @@
 ---
-title: "Kinetic Theory: Atomic and Molecular Explanation of Pressure and
-Temperature"
+title: 'Kinetic Theory: Atomic and Molecular Explanation of Pressure and Temperature'
 layout: page
+sectionNumber: 4
+chapterNumber: 13
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Inelastic Collisions in One Dimension"
+title: Inelastic Collisions in One Dimension
 layout: page
+sectionNumber: 5
+chapterNumber: 8
 ---
 
 <div class="abstract" markdown="1">

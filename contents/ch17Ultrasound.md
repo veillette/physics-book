@@ -1,6 +1,8 @@
 ---
-title: "Ultrasound"
+title: Ultrasound
 layout: page
+sectionNumber: 7
+chapterNumber: 17
 ---
 
 <div class="abstract" markdown="1">

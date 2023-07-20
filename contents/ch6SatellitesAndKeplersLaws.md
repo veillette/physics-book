@@ -1,6 +1,8 @@
 ---
-title: "Satellites and Kepler’s Laws: An Argument for Simplicity"
+title: 'Satellites and Kepler’s Laws: An Argument for Simplicity'
 layout: page
+sectionNumber: 6
+chapterNumber: 6
 ---
 
 <div class="abstract" markdown="1">

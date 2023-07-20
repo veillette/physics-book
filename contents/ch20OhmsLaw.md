@@ -1,6 +1,8 @@
 ---
-title: "Ohm’s Law: Resistance and Simple Circuits"
+title: 'Ohm’s Law: Resistance and Simple Circuits'
 layout: page
+sectionNumber: 2
+chapterNumber: 20
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Medical Imaging and Diagnostics"
+title: Medical Imaging and Diagnostics
 layout: page
+sectionNumber: 1
+chapterNumber: 32
 ---
 
 <div class="abstract" markdown="1">
