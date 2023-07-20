@@ -1,6 +1,8 @@
 ---
 title: "Superposition and Interference"
 layout: page
+sectionNumber: 10
+chapterNumber: 16
 ---
 
 <div class="abstract" markdown="1">
