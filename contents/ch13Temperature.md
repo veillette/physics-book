@@ -96,7 +96,7 @@ scientific work.
 ![Three temperature scales&#x2014;Fahrenheit, Celsius, and Kelvin&#x2014;are oriented horizontally, one below the other, and aligned to show how they relate to each other. Absolute zero is at negative four hundred fifty nine point six seven degrees F, negative two hundred seventy three point one five degrees C, and 0 K. Water freezes at thirty two degrees F, 0 degrees C, and two hundred seventy three point one five K. Water boils at two hundred twelve degrees F, one hundred degrees C, and three hundred seventy three point one five K. A temperature difference of 9 degrees F is the same as a temperature difference of 5 degrees C and 5 K.](../resources/Figure_13_01_07.jpg "Relationships between the Fahrenheit, Celsius, and Kelvin temperature scales, rounded to the nearest degree. The relative sizes of the scales are also shown.")
 {: #Figure4}
 
-The relationships between the three common temperature scales is shown
+The relationships between the three common temperature scales are shown
 in [[Figure 4]](#Figure4). Temperatures on these scales can be converted using
 the equations in [[Table 1]](#Table1).
 
