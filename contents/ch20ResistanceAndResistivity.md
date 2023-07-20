@@ -1,6 +1,8 @@
 ---
-title: "Resistance and Resistivity"
+title: Resistance and Resistivity
 layout: page
+sectionNumber: 3
+chapterNumber: 20
 ---
 
 <div class="abstract" markdown="1">

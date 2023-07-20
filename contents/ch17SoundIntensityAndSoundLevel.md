@@ -1,6 +1,8 @@
 ---
-title: "Sound Intensity and Sound Level"
+title: Sound Intensity and Sound Level
 layout: page
+sectionNumber: 3
+chapterNumber: 17
 ---
 
 <div class="abstract" markdown="1">

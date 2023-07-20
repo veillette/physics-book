@@ -1,6 +1,8 @@
 ---
-title: "Electric Forces in Biology"
+title: Electric Forces in Biology
 layout: page
+sectionNumber: 6
+chapterNumber: 18
 ---
 
 <div class="abstract" markdown="1">

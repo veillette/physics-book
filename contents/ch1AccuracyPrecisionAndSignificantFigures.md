@@ -1,6 +1,8 @@
 ---
-title: "Accuracy, Precision, and Significant Figures"
+title: Accuracy, Precision, and Significant Figures
 layout: page
+sectionNumber: 3
+chapterNumber: 1
 ---
 
 <div class="abstract" markdown="1">

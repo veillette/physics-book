@@ -1,6 +1,8 @@
 ---
-title: "Angular Acceleration"
+title: Angular Acceleration
 layout: page
+sectionNumber: 1
+chapterNumber: 10
 ---
 
 <div class="abstract" markdown="1">

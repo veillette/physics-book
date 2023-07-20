@@ -1,6 +1,8 @@
 ---
-title: "Normal, Tension, and Other Examples of Forces"
+title: Normal, Tension, and Other Examples of Forces
 layout: page
+sectionNumber: 5
+chapterNumber: 4
 ---
 
 <div class="abstract" markdown="1">

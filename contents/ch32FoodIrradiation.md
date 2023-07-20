@@ -1,6 +1,8 @@
 ---
-title: "Food Irradiation"
+title: Food Irradiation
 layout: page
+sectionNumber: 4
+chapterNumber: 32
 ---
 
 <div class="abstract" markdown="1">

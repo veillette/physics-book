@@ -1,6 +1,8 @@
 ---
-title: "Pressure"
+title: Pressure
 layout: page
+sectionNumber: 3
+chapterNumber: 11
 ---
 
 <div class="abstract" markdown="1">

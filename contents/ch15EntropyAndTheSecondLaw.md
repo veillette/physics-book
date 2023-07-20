@@ -1,7 +1,8 @@
 ---
-title: "Entropy and the Second Law of Thermodynamics: Disorder and the
-Unavailability of Energy"
+title: 'Entropy and the Second Law of Thermodynamics: Disorder and the Unavailability of Energy'
 layout: page
+sectionNumber: 6
+chapterNumber: 15
 ---
 
 <div class="abstract" markdown="1">

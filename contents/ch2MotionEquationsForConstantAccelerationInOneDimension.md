@@ -1,6 +1,8 @@
 ---
-title: "Motion Equations for Constant Acceleration in One Dimension"
+title: Motion Equations for Constant Acceleration in One Dimension
 layout: page
+sectionNumber: 5
+chapterNumber: 2
 ---
 
 <div class="abstract" markdown="1">

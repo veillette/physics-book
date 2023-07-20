@@ -1,6 +1,8 @@
 ---
-title: "Introduction to Heat and Heat Transfer Methods"
+title: Introduction to Heat and Heat Transfer Methods
 layout: page
+sectionNumber: 0
+chapterNumber: 14
 ---
 
 ![A drawing of a person standing while holding a paper on which appear to be data tables. In the background are various instruments including flasks and pumps.](../resources/Figure_14_00_01.jpg "Eunice Newton Foote was the first to determine the relationship between carbon dioxide, water vapor, and the potential for global heating. She designed and conducted a number of experiments to uncover the ability of different gases to trap heat, describing what would later be referred to as greenhouse gases. (credit: Carlyn Iverson, NOAA Climate.gov)

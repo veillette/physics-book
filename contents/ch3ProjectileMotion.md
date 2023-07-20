@@ -1,6 +1,8 @@
 ---
-title: "Projectile Motion"
+title: Projectile Motion
 layout: page
+sectionNumber: 4
+chapterNumber: 3
 ---
 
 <div class="abstract" markdown="1">

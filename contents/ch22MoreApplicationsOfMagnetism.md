@@ -1,6 +1,8 @@
 ---
-title: "More Applications of Magnetism"
+title: More Applications of Magnetism
 layout: page
+sectionNumber: 11
+chapterNumber: 22
 ---
 
 <div class="abstract" markdown="1">

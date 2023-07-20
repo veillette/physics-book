@@ -1,6 +1,8 @@
 ---
-title: "Forces and Torques in Muscles and Joints"
+title: Forces and Torques in Muscles and Joints
 layout: page
+sectionNumber: 6
+chapterNumber: 9
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Thermal Expansion of Solids and Liquids"
+title: Thermal Expansion of Solids and Liquids
 layout: page
+sectionNumber: 2
+chapterNumber: 13
 ---
 
 <div class="abstract" markdown="1">

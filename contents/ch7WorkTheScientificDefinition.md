@@ -1,6 +1,8 @@
 ---
-title: "Work: The Scientific Definition"
+title: 'Work: The Scientific Definition'
 layout: page
+sectionNumber: 1
+chapterNumber: 7
 ---
 
 <div class="abstract" markdown="1">

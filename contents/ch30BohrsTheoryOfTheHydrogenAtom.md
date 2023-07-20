@@ -1,6 +1,8 @@
 ---
-title: "Bohr’s Theory of the Hydrogen Atom"
+title: Bohr’s Theory of the Hydrogen Atom
 layout: page
+sectionNumber: 3
+chapterNumber: 30
 ---
 
 <div class="abstract" markdown="1">

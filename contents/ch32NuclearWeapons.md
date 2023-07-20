@@ -1,6 +1,8 @@
 ---
-title: "Nuclear Weapons"
+title: Nuclear Weapons
 layout: page
+sectionNumber: 7
+chapterNumber: 32
 ---
 
 <div class="abstract" markdown="1">

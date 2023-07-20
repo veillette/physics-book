@@ -1,6 +1,8 @@
 ---
-title: "Introduction to Atomic Physics"
+title: Introduction to Atomic Physics
 layout: page
+sectionNumber: 0
+chapterNumber: 30
 ---
 
 ![View of tubular arrangement of atoms, as observed with a scanning electron microscope.](../resources/Figure_30_00_01.jpg "Individual carbon atoms are visible in this image of a carbon nanotube made by a scanning tunneling electron microscope. (credit: Taner Yildirim, National Institute of Standards and Technology, via Wikimedia Commons)")

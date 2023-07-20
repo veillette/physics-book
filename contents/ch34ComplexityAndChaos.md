@@ -1,6 +1,8 @@
 ---
-title: "Complexity and Chaos"
+title: Complexity and Chaos
 layout: page
+sectionNumber: 5
+chapterNumber: 34
 ---
 
 <div class="abstract" markdown="1">

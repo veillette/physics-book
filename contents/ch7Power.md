@@ -1,6 +1,8 @@
 ---
-title: "Power"
+title: Power
 layout: page
+sectionNumber: 7
+chapterNumber: 7
 ---
 
 <div class="abstract" markdown="1">

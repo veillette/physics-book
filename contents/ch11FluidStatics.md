@@ -1,6 +1,8 @@
 ---
-title: "Introduction to Fluid Statics"
+title: Introduction to Fluid Statics
 layout: page
+sectionNumber: 0
+chapterNumber: 11
 ---
 
 ![A swimmer in a pool doing the backstroke.](../resources/Figure_11_00_01.jpg "The fluid essential to all life has a beauty of its own. It also helps support the weight of this swimmer. (credit: Terren, Wikimedia Commons)")

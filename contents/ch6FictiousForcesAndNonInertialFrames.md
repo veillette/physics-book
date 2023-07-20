@@ -1,6 +1,8 @@
 ---
-title: "Fictitious Forces and Non-inertial Frames: The Coriolis Force"
+title: 'Fictitious Forces and Non-inertial Frames: The Coriolis Force'
 layout: page
+sectionNumber: 4
+chapterNumber: 6
 ---
 
 <div class="abstract" markdown="1">

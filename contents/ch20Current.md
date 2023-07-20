@@ -1,6 +1,8 @@
 ---
-title: "Current"
+title: Current
 layout: page
+sectionNumber: 1
+chapterNumber: 20
 ---
 
 <div class="abstract" markdown="1">

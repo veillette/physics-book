@@ -1,6 +1,8 @@
 ---
-title: "Kinematics of Rotational Motion"
+title: Kinematics of Rotational Motion
 layout: page
+sectionNumber: 2
+chapterNumber: 10
 ---
 
 <div class="abstract" markdown="1">

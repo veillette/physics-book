@@ -1,6 +1,8 @@
 ---
-title: "Quarks: Is That All There Is?"
+title: 'Quarks: Is That All There Is?'
 layout: page
+sectionNumber: 5
+chapterNumber: 33
 ---
 
 <div class="abstract" markdown="1">

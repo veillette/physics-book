@@ -1,6 +1,8 @@
 ---
-title: "The Yukawa Particle and the Heisenberg Uncertainty Principle Revisited"
+title: The Yukawa Particle and the Heisenberg Uncertainty Principle Revisited
 layout: page
+sectionNumber: 1
+chapterNumber: 33
 ---
 
 <div class="abstract" markdown="1">

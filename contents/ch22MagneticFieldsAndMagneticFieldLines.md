@@ -1,6 +1,8 @@
 ---
-title: "Magnetic Fields and Magnetic Field Lines"
+title: Magnetic Fields and Magnetic Field Lines
 layout: page
+sectionNumber: 3
+chapterNumber: 22
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "World Energy Use"
+title: World Energy Use
 layout: page
+sectionNumber: 9
+chapterNumber: 7
 ---
 
 <div class="abstract" markdown="1">

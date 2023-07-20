@@ -1,6 +1,8 @@
 ---
-title: "The First Law of Thermodynamics"
+title: The First Law of Thermodynamics
 layout: page
+sectionNumber: 1
+chapterNumber: 15
 ---
 
 <div class="abstract" markdown="1">

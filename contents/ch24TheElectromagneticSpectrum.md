@@ -1,6 +1,8 @@
 ---
-title: "The Electromagnetic Spectrum"
+title: The Electromagnetic Spectrum
 layout: page
+sectionNumber: 3
+chapterNumber: 24
 ---
 
 <div class="abstract" markdown="1">

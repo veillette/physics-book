@@ -1,6 +1,8 @@
 ---
-title: "Simultaneity And Time Dilation"
+title: Simultaneity And Time Dilation
 layout: page
+sectionNumber: 2
+chapterNumber: 28
 ---
 
 <div class="abstract" markdown="1">

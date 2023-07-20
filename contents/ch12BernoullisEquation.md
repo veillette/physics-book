@@ -1,6 +1,8 @@
 ---
-title: "Bernoulli’s Equation"
+title: Bernoulli’s Equation
 layout: page
+sectionNumber: 2
+chapterNumber: 12
 ---
 
 <div class="abstract" markdown="1">

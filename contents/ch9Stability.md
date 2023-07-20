@@ -1,6 +1,8 @@
 ---
-title: "Stability"
+title: Stability
 layout: page
+sectionNumber: 3
+chapterNumber: 9
 ---
 
 <div class="abstract" markdown="1">

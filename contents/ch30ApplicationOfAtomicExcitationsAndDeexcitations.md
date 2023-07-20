@@ -1,6 +1,8 @@
 ---
-title: "Applications of Atomic Excitations and De-Excitations"
+title: Applications of Atomic Excitations and De-Excitations
 layout: page
+sectionNumber: 5
+chapterNumber: 30
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Capacitors in Series and Parallel"
+title: Capacitors in Series and Parallel
 layout: page
+sectionNumber: 6
+chapterNumber: 19
 ---
 
 <div class="abstract" markdown="1">

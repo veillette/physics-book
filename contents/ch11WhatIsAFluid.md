@@ -1,6 +1,8 @@
 ---
-title: "What Is a Fluid?"
+title: What Is a Fluid?
 layout: page
+sectionNumber: 1
+chapterNumber: 11
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Approximation"
+title: Approximation
 layout: page
+sectionNumber: 4
+chapterNumber: 1
 ---
 
 <div class="abstract" markdown="1">

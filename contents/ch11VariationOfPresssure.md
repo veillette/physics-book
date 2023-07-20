@@ -1,6 +1,8 @@
 ---
-title: "Variation of Pressure with Depth in a Fluid"
+title: Variation of Pressure with Depth in a Fluid
 layout: page
+sectionNumber: 4
+chapterNumber: 11
 ---
 
 <div class="abstract" markdown="1">

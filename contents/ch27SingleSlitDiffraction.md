@@ -1,6 +1,8 @@
 ---
-title: "Single Slit Diffraction"
+title: Single Slit Diffraction
 layout: page
+sectionNumber: 5
+chapterNumber: 27
 ---
 
 <div class="abstract" markdown="1">

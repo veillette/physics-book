@@ -1,6 +1,8 @@
 ---
-title: "Collisions of Point Masses in Two Dimensions"
+title: Collisions of Point Masses in Two Dimensions
 layout: page
+sectionNumber: 6
+chapterNumber: 8
 ---
 
 <div class="abstract" markdown="1">

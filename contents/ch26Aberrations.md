@@ -1,6 +1,8 @@
 ---
-title: "Aberrations"
+title: Aberrations
 layout: page
+sectionNumber: 6
+chapterNumber: 26
 ---
 
 <div class="abstract" markdown="1">

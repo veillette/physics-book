@@ -1,6 +1,8 @@
 ---
-title: "Graphical Analysis of One-Dimensional Motion"
+title: Graphical Analysis of One-Dimensional Motion
 layout: page
+sectionNumber: 8
+chapterNumber: 2
 ---
 
 <div class="abstract" markdown="1">

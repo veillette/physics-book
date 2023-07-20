@@ -1,6 +1,8 @@
 ---
-title: "Quantum Numbers and Rules"
+title: Quantum Numbers and Rules
 layout: page
+sectionNumber: 8
+chapterNumber: 30
 ---
 
 <div class="abstract" markdown="1">

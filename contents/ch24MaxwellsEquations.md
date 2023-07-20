@@ -1,6 +1,8 @@
 ---
-title: "Maxwell’s Equations: Electromagnetic Waves Predicted and Observed"
+title: 'Maxwell’s Equations: Electromagnetic Waves Predicted and Observed'
 layout: page
+sectionNumber: 1
+chapterNumber: 24
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Problem-Solving Basics for One-Dimensional Kinematics"
+title: Problem-Solving Basics for One-Dimensional Kinematics
 layout: page
+sectionNumber: 6
+chapterNumber: 2
 ---
 
 <div class="abstract" markdown="1">

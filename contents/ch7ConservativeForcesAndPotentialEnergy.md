@@ -1,6 +1,8 @@
 ---
-title: "Conservative Forces and Potential Energy"
+title: Conservative Forces and Potential Energy
 layout: page
+sectionNumber: 4
+chapterNumber: 7
 ---
 
 <div class="abstract" markdown="1">

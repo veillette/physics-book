@@ -1,6 +1,8 @@
 ---
-title: "Vector Addition and Subtraction: Analytical Methods"
+title: 'Vector Addition and Subtraction: Analytical Methods'
 layout: page
+sectionNumber: 3
+chapterNumber: 3
 ---
 
 <div class="abstract" markdown="1">

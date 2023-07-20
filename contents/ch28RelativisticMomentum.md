@@ -1,6 +1,8 @@
 ---
-title: "Relativistic Momentum"
+title: Relativistic Momentum
 layout: page
+sectionNumber: 5
+chapterNumber: 28
 ---
 
 <div class="abstract" markdown="1">

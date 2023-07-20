@@ -1,6 +1,8 @@
 ---
-title: "Half-Life and Activity"
+title: Half-Life and Activity
 layout: page
+sectionNumber: 5
+chapterNumber: 31
 ---
 
 <div class="abstract" markdown="1">

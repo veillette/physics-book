@@ -1,6 +1,8 @@
 ---
-title: "Hooke’s Law: Stress and Strain Revisited"
+title: 'Hooke’s Law: Stress and Strain Revisited'
 layout: page
+sectionNumber: 1
+chapterNumber: 16
 ---
 
 <div class="abstract" markdown="1">

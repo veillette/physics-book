@@ -1,7 +1,8 @@
 ---
-title: "Molecular Transport Phenomena: Diffusion, Osmosis, and Related
-Processes"
+title: 'Molecular Transport Phenomena: Diffusion, Osmosis, and Related Processes'
 layout: page
+sectionNumber: 7
+chapterNumber: 12
 ---
 
 <div class="abstract" markdown="1">

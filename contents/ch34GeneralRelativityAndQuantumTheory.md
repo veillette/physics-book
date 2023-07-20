@@ -1,6 +1,8 @@
 ---
-title: "General Relativity and Quantum Gravity"
+title: General Relativity and Quantum Gravity
 layout: page
+sectionNumber: 2
+chapterNumber: 34
 ---
 
 <div class="abstract" markdown="1">

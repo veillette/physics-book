@@ -1,6 +1,8 @@
 ---
-title: "The Simple Pendulum"
+title: The Simple Pendulum
 layout: page
+sectionNumber: 4
+chapterNumber: 16
 ---
 
 <div class="abstract" markdown="1">

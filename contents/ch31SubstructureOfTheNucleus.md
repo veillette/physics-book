@@ -1,6 +1,8 @@
 ---
-title: "Substructure of the Nucleus"
+title: Substructure of the Nucleus
 layout: page
+sectionNumber: 3
+chapterNumber: 31
 ---
 
 <div class="abstract" markdown="1">

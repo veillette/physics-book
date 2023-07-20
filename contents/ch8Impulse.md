@@ -1,6 +1,8 @@
 ---
-title: "Impulse"
+title: Impulse
 layout: page
+sectionNumber: 2
+chapterNumber: 8
 ---
 
 <div class="abstract" markdown="1">

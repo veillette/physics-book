@@ -1,6 +1,8 @@
 ---
-title: "The Most General Applications of Bernoulli’s Equation"
+title: The Most General Applications of Bernoulli’s Equation
 layout: page
+sectionNumber: 3
+chapterNumber: 12
 ---
 
 <div class="abstract" markdown="1">

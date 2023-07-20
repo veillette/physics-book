@@ -1,6 +1,8 @@
 ---
-title: "Angular Momentum and Its Conservation"
+title: Angular Momentum and Its Conservation
 layout: page
+sectionNumber: 5
+chapterNumber: 10
 ---
 
 <div class="abstract" markdown="1">

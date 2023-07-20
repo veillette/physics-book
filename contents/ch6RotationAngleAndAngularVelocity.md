@@ -1,6 +1,8 @@
 ---
-title: "Rotation Angle and Angular Velocity"
+title: Rotation Angle and Angular Velocity
 layout: page
+sectionNumber: 1
+chapterNumber: 6
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Problem-Solving Strategies"
+title: Problem-Solving Strategies
 layout: page
+sectionNumber: 6
+chapterNumber: 4
 ---
 
 <div class="abstract" markdown="1">

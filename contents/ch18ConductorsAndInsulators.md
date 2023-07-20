@@ -1,6 +1,8 @@
 ---
-title: "Conductors and Insulators"
+title: Conductors and Insulators
 layout: page
+sectionNumber: 2
+chapterNumber: 18
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Patterns in Spectra Reveal More Quantization"
+title: Patterns in Spectra Reveal More Quantization
 layout: page
+sectionNumber: 7
+chapterNumber: 30
 ---
 
 <div class="abstract" markdown="1">

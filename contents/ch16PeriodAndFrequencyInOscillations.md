@@ -1,6 +1,8 @@
 ---
-title: "Period and Frequency in Oscillations"
+title: Period and Frequency in Oscillations
 layout: page
+sectionNumber: 2
+chapterNumber: 16
 ---
 
 <div class="abstract" markdown="1">

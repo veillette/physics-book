@@ -1,6 +1,8 @@
 ---
-title: "Viscosity and Laminar Flow; Poiseuille’s Law"
+title: Viscosity and Laminar Flow; Poiseuille’s Law
 layout: page
+sectionNumber: 4
+chapterNumber: 12
 ---
 
 <div class="abstract" markdown="1">

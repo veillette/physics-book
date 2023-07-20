@@ -1,6 +1,8 @@
 ---
-title: "Addition of Velocities"
+title: Addition of Velocities
 layout: page
+sectionNumber: 5
+chapterNumber: 3
 ---
 
 <div class="abstract" markdown="1">

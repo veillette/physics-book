@@ -1,6 +1,8 @@
 ---
-title: "Electric Field Lines: Multiple Charges"
+title: 'Electric Field Lines: Multiple Charges'
 layout: page
+sectionNumber: 5
+chapterNumber: 18
 ---
 
 <div class="abstract" markdown="1">

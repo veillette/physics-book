@@ -1,6 +1,8 @@
 ---
-title: "Image Formation by Lenses"
+title: Image Formation by Lenses
 layout: page
+sectionNumber: 6
+chapterNumber: 25
 ---
 
 <div class="abstract" markdown="1">

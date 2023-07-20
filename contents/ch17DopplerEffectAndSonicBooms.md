@@ -1,6 +1,8 @@
 ---
-title: "Doppler Effect and Sonic Booms"
+title: Doppler Effect and Sonic Booms
 layout: page
+sectionNumber: 4
+chapterNumber: 17
 ---
 
 <div class="abstract" markdown="1">

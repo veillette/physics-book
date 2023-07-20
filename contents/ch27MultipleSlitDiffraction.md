@@ -1,6 +1,8 @@
 ---
-title: "Multiple Slit Diffraction"
+title: Multiple Slit Diffraction
 layout: page
+sectionNumber: 4
+chapterNumber: 27
 ---
 
 <div class="abstract" markdown="1">

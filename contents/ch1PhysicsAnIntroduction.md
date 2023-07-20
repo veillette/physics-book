@@ -1,6 +1,8 @@
 ---
-title: "Physics: An Introduction"
+title: 'Physics: An Introduction'
 layout: page
+sectionNumber: 1
+chapterNumber: 1
 ---
 
 <div class="abstract" markdown="1">

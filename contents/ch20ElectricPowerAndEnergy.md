@@ -1,6 +1,8 @@
 ---
-title: "Electric Power and Energy"
+title: Electric Power and Energy
 layout: page
+sectionNumber: 4
+chapterNumber: 20
 ---
 
 <div class="abstract" markdown="1">

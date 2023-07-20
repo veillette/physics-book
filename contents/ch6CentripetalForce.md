@@ -1,6 +1,8 @@
 ---
-title: "Centripetal Force"
+title: Centripetal Force
 layout: page
+sectionNumber: 3
+chapterNumber: 6
 ---
 
 <div class="abstract" markdown="1">

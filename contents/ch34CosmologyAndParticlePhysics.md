@@ -1,6 +1,8 @@
 ---
-title: "Cosmology and Particle Physics"
+title: Cosmology and Particle Physics
 layout: page
+sectionNumber: 1
+chapterNumber: 34
 ---
 
 <div class="abstract" markdown="1">

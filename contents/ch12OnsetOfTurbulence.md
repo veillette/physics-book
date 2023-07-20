@@ -1,6 +1,8 @@
 ---
-title: "The Onset of Turbulence"
+title: The Onset of Turbulence
 layout: page
+sectionNumber: 5
+chapterNumber: 12
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Ferromagnets and Electromagnets"
+title: Ferromagnets and Electromagnets
 layout: page
+sectionNumber: 2
+chapterNumber: 22
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Vision Correction"
+title: Vision Correction
 layout: page
+sectionNumber: 2
+chapterNumber: 26
 ---
 
 <div class="abstract" markdown="1">

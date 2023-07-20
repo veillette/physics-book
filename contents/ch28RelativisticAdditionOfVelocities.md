@@ -1,6 +1,8 @@
 ---
-title: "Relativistic Addition of Velocities"
+title: Relativistic Addition of Velocities
 layout: page
+sectionNumber: 4
+chapterNumber: 28
 ---
 
 <div class="abstract" markdown="1">

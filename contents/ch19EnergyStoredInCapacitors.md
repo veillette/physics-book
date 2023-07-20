@@ -1,6 +1,8 @@
 ---
-title: "Energy Stored in Capacitors"
+title: Energy Stored in Capacitors
 layout: page
+sectionNumber: 7
+chapterNumber: 19
 ---
 
 <div class="abstract" markdown="1">

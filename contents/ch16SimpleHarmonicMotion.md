@@ -1,6 +1,8 @@
 ---
-title: "Simple Harmonic Motion: A Special Periodic Motion"
+title: 'Simple Harmonic Motion: A Special Periodic Motion'
 layout: page
+sectionNumber: 3
+chapterNumber: 16
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Young’s Double Slit Experiment"
+title: Young’s Double Slit Experiment
 layout: page
+sectionNumber: 3
+chapterNumber: 27
 ---
 
 <div class="abstract" markdown="1">

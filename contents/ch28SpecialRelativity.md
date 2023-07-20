@@ -1,6 +1,8 @@
 ---
-title: "Introduction to Special Relativity"
+title: Introduction to Special Relativity
 layout: page
+sectionNumber: 0
+chapterNumber: 28
 ---
 
 ![Night sky with bright Orion Nebula cluster in the center amongst the group of stars.](../resources/Figure_28_00_01.jpg "Special relativity explains why traveling to other star systems, such as these in the Orion Nebula, is unreasonable using our current level of technology. (credit: s58y, Flickr)")

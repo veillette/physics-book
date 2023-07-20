@@ -1,6 +1,8 @@
 ---
-title: "Eddy Currents and Magnetic Damping"
+title: Eddy Currents and Magnetic Damping
 layout: page
+sectionNumber: 4
+chapterNumber: 23
 ---
 
 <div class="abstract" markdown="1">

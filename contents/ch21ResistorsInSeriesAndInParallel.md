@@ -1,6 +1,8 @@
 ---
-title: "Resistors in Series and Parallel"
+title: Resistors in Series and Parallel
 layout: page
+sectionNumber: 1
+chapterNumber: 21
 ---
 
 <div class="abstract" markdown="1">

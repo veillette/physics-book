@@ -1,6 +1,8 @@
 ---
-title: "The Wave Nature of Matter Causes Quantization"
+title: The Wave Nature of Matter Causes Quantization
 layout: page
+sectionNumber: 6
+chapterNumber: 30
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Applications of Statics, Including Problem-Solving Strategies"
+title: Applications of Statics, Including Problem-Solving Strategies
 layout: page
+sectionNumber: 4
+chapterNumber: 9
 ---
 
 <div class="abstract" markdown="1">

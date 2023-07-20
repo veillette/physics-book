@@ -1,6 +1,8 @@
 ---
-title: "Nuclear Decay and Conservation Laws"
+title: Nuclear Decay and Conservation Laws
 layout: page
+sectionNumber: 4
+chapterNumber: 31
 ---
 
 <div class="abstract" markdown="1">

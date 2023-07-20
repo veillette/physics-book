@@ -1,6 +1,8 @@
 ---
-title: "The Wave Aspect of Light: Interference"
+title: 'The Wave Aspect of Light: Interference'
 layout: page
+sectionNumber: 1
+chapterNumber: 27
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Introduction to Electric Charge and Electric Field"
+title: Introduction to Electric Charge and Electric Field
 layout: page
+sectionNumber: 0
+chapterNumber: 18
 ---
 
 ![A child swoops down a plastic playground slide, his hair standing on end.](../resources/Figure_18_00_01.jpg "Static electricity from this plastic slide causes the child&#x2019;s hair to stand on end. The sliding motion stripped electrons away from the child&#x2019;s body, leaving an excess of positive charges, which repel each other along each strand of hair. (credit: Ken Bosma/Wikimedia Commons)")

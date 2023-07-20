@@ -1,7 +1,8 @@
 ---
-title: "Introduction to Electromagnetic Induction, AC Circuits and Electrical
-Technologies"
+title: Introduction to Electromagnetic Induction, AC Circuits and Electrical Technologies
 layout: page
+sectionNumber: 0
+chapterNumber: 23
 ---
 
 ![Wind turbine with three blades moored in shallow water.](../resources/Figure_23_00_01.jpg "These wind turbines in the Thames Estuary in the UK are an example of induction at work. Wind pushes the blades of the turbine, spinning a shaft attached to magnets. The magnets spin around a conductive coil, inducing an electric current in the coil, and eventually feeding the electrical grid. (credit: modification of work by Petr Kratochvil)")

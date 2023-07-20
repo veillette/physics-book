@@ -1,6 +1,8 @@
 ---
-title: "Flow Rate and Its Relation to Velocity"
+title: Flow Rate and Its Relation to Velocity
 layout: page
+sectionNumber: 1
+chapterNumber: 12
 ---
 
 <div class="abstract" markdown="1">

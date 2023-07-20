@@ -1,6 +1,8 @@
 ---
-title: "Dispersion: The Rainbow and Prisms"
+title: 'Dispersion: The Rainbow and Prisms'
 layout: page
+sectionNumber: 5
+chapterNumber: 25
 ---
 
 <div class="abstract" markdown="1">

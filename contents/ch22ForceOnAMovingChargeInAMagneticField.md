@@ -1,6 +1,8 @@
 ---
-title: "Force on a Moving Charge in a Magnetic Field: Examples and Applications"
+title: 'Force on a Moving Charge in a Magnetic Field: Examples and Applications'
 layout: page
+sectionNumber: 5
+chapterNumber: 22
 ---
 
 <div class="abstract" markdown="1">

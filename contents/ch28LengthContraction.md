@@ -1,6 +1,8 @@
 ---
-title: "Length Contraction"
+title: Length Contraction
 layout: page
+sectionNumber: 3
+chapterNumber: 28
 ---
 
 <div class="abstract" markdown="1">

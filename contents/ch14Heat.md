@@ -1,6 +1,8 @@
 ---
-title: "Heat"
+title: Heat
 layout: page
+sectionNumber: 1
+chapterNumber: 14
 ---
 
 <div class="abstract" markdown="1">

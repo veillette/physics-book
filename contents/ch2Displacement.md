@@ -1,6 +1,8 @@
 ---
-title: "Displacement"
+title: Displacement
 layout: page
+sectionNumber: 1
+chapterNumber: 2
 ---
 
 <div class="abstract" markdown="1">

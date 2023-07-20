@@ -1,6 +1,8 @@
 ---
-title: "Collisions of Extended Bodies in Two Dimensions"
+title: Collisions of Extended Bodies in Two Dimensions
 layout: page
+sectionNumber: 6
+chapterNumber: 10
 ---
 
 <div class="abstract" markdown="1">

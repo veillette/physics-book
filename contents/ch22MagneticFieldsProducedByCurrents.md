@@ -1,6 +1,8 @@
 ---
-title: "Magnetic Fields Produced by Currents: Ampere’s Law"
+title: 'Magnetic Fields Produced by Currents: Ampere’s Law'
 layout: page
+sectionNumber: 9
+chapterNumber: 22
 ---
 
 <div class="abstract" markdown="1">

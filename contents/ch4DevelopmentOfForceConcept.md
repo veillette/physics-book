@@ -1,6 +1,8 @@
 ---
-title: "Development of Force Concept"
+title: Development of Force Concept
 layout: page
+sectionNumber: 1
+chapterNumber: 4
 ---
 
 <div class="abstract" markdown="1">

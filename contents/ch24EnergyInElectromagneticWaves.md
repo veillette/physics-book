@@ -1,6 +1,8 @@
 ---
-title: "Energy in Electromagnetic Waves"
+title: Energy in Electromagnetic Waves
 layout: page
+sectionNumber: 4
+chapterNumber: 24
 ---
 
 <div class="abstract" markdown="1">

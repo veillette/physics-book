@@ -1,6 +1,8 @@
 ---
-title: "Dark Matter and Closure"
+title: Dark Matter and Closure
 layout: page
+sectionNumber: 4
+chapterNumber: 34
 ---
 
 <div class="abstract" markdown="1">

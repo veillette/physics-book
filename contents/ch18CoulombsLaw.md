@@ -1,6 +1,8 @@
 ---
-title: "Coulomb’s Law"
+title: Coulomb’s Law
 layout: page
+sectionNumber: 3
+chapterNumber: 18
 ---
 
 <div class="abstract" markdown="1">

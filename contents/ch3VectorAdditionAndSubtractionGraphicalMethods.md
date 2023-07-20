@@ -1,6 +1,8 @@
 ---
-title: "Vector Addition and Subtraction: Graphical Methods"
+title: 'Vector Addition and Subtraction: Graphical Methods'
 layout: page
+sectionNumber: 2
+chapterNumber: 3
 ---
 
 <div class="abstract" markdown="1">

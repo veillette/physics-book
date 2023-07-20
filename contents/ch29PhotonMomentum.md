@@ -1,6 +1,8 @@
 ---
-title: "Photon Momentum"
+title: Photon Momentum
 layout: page
+sectionNumber: 4
+chapterNumber: 29
 ---
 
 <div class="abstract" markdown="1">

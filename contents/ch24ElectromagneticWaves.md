@@ -1,6 +1,8 @@
 ---
-title: "Introduction to Electromagnetic Waves"
+title: Introduction to Electromagnetic Waves
 layout: page
+sectionNumber: 0
+chapterNumber: 24
 ---
 
 ![A photo showing many orange and pale blue colored fish, swimming over a coral reef in the blue waters of the Gulf of Eilat.](../resources/Figure_24_00_01.jpg "Human eyes detect these orange &#x201C;sea goldie&#x201D; fish swimming over a coral reef in the blue waters of the Gulf of Eilat (Red Sea) using visible light. (credit: Daviddarom, Wikimedia Commons)")

@@ -1,6 +1,8 @@
 ---
-title: "RLC Series AC Circuits"
+title: RLC Series AC Circuits
 layout: page
+sectionNumber: 12
+chapterNumber: 23
 ---
 
 <div class="abstract" markdown="1">

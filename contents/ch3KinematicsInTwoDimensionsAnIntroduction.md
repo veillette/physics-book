@@ -1,6 +1,8 @@
 ---
-title: "Kinematics in Two Dimensions: An Introduction"
+title: 'Kinematics in Two Dimensions: An Introduction'
 layout: page
+sectionNumber: 1
+chapterNumber: 3
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Phase Change and Latent Heat"
+title: Phase Change and Latent Heat
 layout: page
+sectionNumber: 3
+chapterNumber: 14
 ---
 
 <div class="abstract" markdown="1">

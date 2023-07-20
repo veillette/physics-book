@@ -1,6 +1,8 @@
 ---
-title: "The First Law of Thermodynamics and Some Simple Processes"
+title: The First Law of Thermodynamics and Some Simple Processes
 layout: page
+sectionNumber: 2
+chapterNumber: 15
 ---
 
 <div class="abstract" markdown="1">

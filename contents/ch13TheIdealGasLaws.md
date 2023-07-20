@@ -1,6 +1,8 @@
 ---
-title: "The Ideal Gas Law"
+title: The Ideal Gas Law
 layout: page
+sectionNumber: 3
+chapterNumber: 13
 ---
 
 <div class="abstract" markdown="1">

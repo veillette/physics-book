@@ -1,6 +1,8 @@
 ---
-title: "Conductors and Electric Fields in Static Equilibrium"
+title: Conductors and Electric Fields in Static Equilibrium
 layout: page
+sectionNumber: 7
+chapterNumber: 18
 ---
 
 <div class="abstract" markdown="1">

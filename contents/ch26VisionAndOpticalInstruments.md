@@ -1,6 +1,8 @@
 ---
-title: "Introduction to Vision and Optical Instruments"
+title: Introduction to Vision and Optical Instruments
 layout: page
+sectionNumber: 0
+chapterNumber: 26
 ---
 
 ![Circular and ovular structures with thin lines on the outside indicating the membrane. The inner portions contain different colors and textures ranging from dense patches of dark substances to lighter and brighter areas. About ten viruses are pictured, with one seeming to separate into two smaller entities.](../resources/Figure_26_00_01.jpg "This transmission electron microscope image shows SARS-CoV-2, the coronavirus that causes COVID-19, isolated from a patient in the U.S. Virus particles are shown emerging from the surface of cells cultured in the lab. The spikes on the outer edge of the virus particles give coronaviruses their name: crown-like. (credit: NIAID-RML, NIH Image Gallery/Flickr)")

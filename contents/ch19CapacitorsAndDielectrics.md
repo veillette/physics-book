@@ -1,6 +1,8 @@
 ---
-title: "Capacitors and Dielectrics"
+title: Capacitors and Dielectrics
 layout: page
+sectionNumber: 5
+chapterNumber: 19
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Discovery of the Atom"
+title: Discovery of the Atom
 layout: page
+sectionNumber: 1
+chapterNumber: 30
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Nuclear Radioactivity"
+title: Nuclear Radioactivity
 layout: page
+sectionNumber: 1
+chapterNumber: 31
 ---
 
 <div class="abstract" markdown="1">

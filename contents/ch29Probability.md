@@ -1,6 +1,8 @@
 ---
-title: "Probability: The Heisenberg Uncertainty Principle"
+title: 'Probability: The Heisenberg Uncertainty Principle'
 layout: page
+sectionNumber: 7
+chapterNumber: 29
 ---
 
 <div class="abstract" markdown="1">

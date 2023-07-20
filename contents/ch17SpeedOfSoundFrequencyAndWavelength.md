@@ -1,6 +1,8 @@
 ---
-title: "Speed of Sound, Frequency, and Wavelength"
+title: Speed of Sound, Frequency, and Wavelength
 layout: page
+sectionNumber: 2
+chapterNumber: 17
 ---
 
 <div class="abstract" markdown="1">

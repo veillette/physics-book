@@ -1,6 +1,8 @@
 ---
-title: "Equipotential Lines"
+title: Equipotential Lines
 layout: page
+sectionNumber: 4
+chapterNumber: 19
 ---
 
 <div class="abstract" markdown="1">

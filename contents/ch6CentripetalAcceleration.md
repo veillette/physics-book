@@ -1,6 +1,8 @@
 ---
-title: "Centripetal Acceleration"
+title: Centripetal Acceleration
 layout: page
+sectionNumber: 2
+chapterNumber: 6
 ---
 
 <div class="abstract" markdown="1">

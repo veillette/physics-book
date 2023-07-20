@@ -1,6 +1,8 @@
 ---
-title: "Telescopes"
+title: Telescopes
 layout: page
+sectionNumber: 5
+chapterNumber: 26
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Introduction to Rocket Propulsion"
+title: Introduction to Rocket Propulsion
 layout: page
+sectionNumber: 7
+chapterNumber: 8
 ---
 
 <div class="abstract" markdown="1">

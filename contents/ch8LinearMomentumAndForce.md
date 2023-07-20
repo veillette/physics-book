@@ -1,6 +1,8 @@
 ---
-title: "Linear Momentum and Force"
+title: Linear Momentum and Force
 layout: page
+sectionNumber: 1
+chapterNumber: 8
 ---
 
 <div class="abstract" markdown="1">

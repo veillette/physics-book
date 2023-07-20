@@ -1,6 +1,8 @@
 ---
-title: "Gravitational Potential Energy"
+title: Gravitational Potential Energy
 layout: page
+sectionNumber: 3
+chapterNumber: 7
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Introduction to Circuits and DC Instruments"
+title: Introduction to Circuits and DC Instruments
 layout: page
+sectionNumber: 0
+chapterNumber: 21
 ---
 
 ![Photograph of a space systems operator using several computer monitors showing various data.](../resources/Figure_21_00_01.jpg "Electric circuits in a computer allow large amounts of data to be quickly and accurately analyzed. (credit: Airman 1st Class Mike Meares, United States Air Force)")

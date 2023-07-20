@@ -1,6 +1,8 @@
 ---
-title: "Energy in Waves: Intensity"
+title: 'Energy in Waves: Intensity'
 layout: page
+sectionNumber: 11
+chapterNumber: 16
 ---
 
 <div class="abstract" markdown="1">

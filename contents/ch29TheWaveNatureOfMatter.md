@@ -1,6 +1,8 @@
 ---
-title: "The Wave Nature of Matter"
+title: The Wave Nature of Matter
 layout: page
+sectionNumber: 6
+chapterNumber: 29
 ---
 
 <div class="abstract" markdown="1">
