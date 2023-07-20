@@ -12,7 +12,7 @@ function parseFigures() {
         const figureMap = new Map();
 
         files.forEach((file) => {
-            const figureRegex = /^Figure_(\d+)_(\d+)_(\d+)/;
+            const figureRegex = /^Figure_(\d+)_(\d+)_(\d+)\.(jpg|svg|webp|png)/g;
             const match = figureRegex.exec(file);
 
             if (match) {
@@ -30,20 +30,20 @@ function parseFigures() {
 
         figureMap.forEach((figureSet, chapterSectionKey) => {
             const maxFigureNumber = Math.max(...figureSet);
-            const expectedFigureNumbers = new Set(Array.from({ length: maxFigureNumber }, (_, i) => i + 1));
+            const expectedFigureNumbers = new Set(Array.from({length: maxFigureNumber}, (_, i) => i + 1));
 
             const missingFigureNumbers = new Set(
                 Array.from(expectedFigureNumbers).filter((num) => !figureSet.has(num))
             );
 
             if (figureSet.size !== maxFigureNumber || missingFigureNumbers.size > 0) {
-                console.error(`Figure numbers are not sequential for Chapter/Section ${chapterSectionKey}.`);
+                console.error(`Figure numbers are not sequential for Chapter/Section ${chapterSectionKey}: maxFigureNumber=${maxFigureNumber}, figureSet.size=${figureSet.size}`);
 
                 if (missingFigureNumbers.size > 0) {
                     console.error(`Missing figures: ${Array.from(missingFigureNumbers).join(', ')}`);
                 }
             } else {
-             //   console.log(`Figure numbers are sequential for Chapter/Section ${chapterSectionKey}.`);
+                //   console.log(`Figure numbers are sequential for Chapter/Section ${chapterSectionKey}.`);
             }
         });
     });
