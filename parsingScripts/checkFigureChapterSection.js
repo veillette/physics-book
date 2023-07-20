@@ -35,7 +35,6 @@ function validateFigures(content, chapterNumber, sectionNumber, file) {
     }
 
     // Check if the figures are continuous
-// Check if the figures are continuous
     const expectedFigureCount = Array.from(figures).pop();
     if (figures.size !== expectedFigureCount) {
         const missingFigures = [];
@@ -43,17 +42,17 @@ function validateFigures(content, chapterNumber, sectionNumber, file) {
             const currentFigureName = `Figure_${chapterNumber}_${sectionNumber}_${i}`;
             if (!figures.has(i)) {
                 const expectedFigureName = `Figure_${chapterNumber}_${sectionNumber}_${figures.size + 1}`;
-                missingFigures.push({ currentFigureName, expectedFigureName });
+                missingFigures.push({currentFigureName, expectedFigureName});
             }
         }
 
         const errorMessage = missingFigures
-            .map(({ currentFigureName, expectedFigureName }) =>
+            .map(({currentFigureName, expectedFigureName}) =>
                 `Figure '${currentFigureName}' should be renamed to '${expectedFigureName}'`
             )
             .join(', ');
 
-       console.log(`Figure numbers are not continuous for Chapter ${chapterNumber}, Section ${sectionNumber}. ${errorMessage}`);
+        console.log(`Figure numbers are not continuous for Chapter ${chapterNumber}, Section ${sectionNumber}. ${errorMessage}`);
     }
 }
 
