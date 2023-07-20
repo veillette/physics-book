@@ -1,6 +1,8 @@
 ---
 title: "RL Circuits"
 layout: page
+sectionNumber: 10
+chapterNumber: 23
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
 title: "Magnetic Force between Two Parallel Conductors"
-layout: page
+layout: page,
+sectionNumber: 10
+chapterNumber: 22
 ---
 
 <div class="abstract" markdown="1">
