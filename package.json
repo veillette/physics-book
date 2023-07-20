@@ -4,6 +4,8 @@
   "description": "Textbook for General Physics I",
   "repository": "https://github.com/veillette/physics-book",
   "dependencies": {
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.0",
     "sharp": "^0.32.3",
     "simple-git": "^3.19.1"
   }
