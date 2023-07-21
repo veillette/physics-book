@@ -1,6 +1,8 @@
 ---
-title: "Induced Emf and Magnetic Flux"
+title: Induced Emf and Magnetic Flux
 layout: page
+sectionNumber: 1
+chapterNumber: 23
 ---
 
 <div class="abstract" markdown="1">

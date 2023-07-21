@@ -1,6 +1,8 @@
 ---
-title: "The Ideal Gas Law"
+title: The Ideal Gas Law
 layout: page
+sectionNumber: 3
+chapterNumber: 13
 ---
 
 <div class="abstract" markdown="1">
@@ -9,7 +11,7 @@ layout: page
 * Use Avogadro’s number to convert between number of molecules and number of moles.
 </div>
 
-![](../resources/Figure_13_03_00.jpg "The air inside this hot air balloon flying over Putrajaya, Malaysia, is hotter than the ambient air. As a result, the balloon experiences a buoyant force pushing it upward. (credit: Kevin Poh, Flickr)")
+![](../resources/Figure_13_03_01.jpg "The air inside this hot air balloon flying over Putrajaya, Malaysia, is hotter than the ambient air. As a result, the balloon experiences a buoyant force pushing it upward. (credit: Kevin Poh, Flickr)")
 {: #Figure1}
 
 In this section, we continue to explore the thermal behavior of gases. In
@@ -37,7 +39,7 @@ that the gas occupies all of the accessible volume and the expansion of gases is
 rapid. In contrast, in liquids and solids, atoms and molecules are closer
 together and are quite sensitive to the forces between them.
 
-![Spheres representing atoms and molecules; the spheres are relatively far apart and are distributed randomly.](../resources/Figure_13_03_01.jpg "Atoms and molecules in a gas are typically widely separated, as shown. Because the forces between them are quite weak at these distances, the properties of a gas depend more on the number of atoms per unit volume and on temperature than on the type of atom.")
+![Spheres representing atoms and molecules; the spheres are relatively far apart and are distributed randomly.](../resources/Figure_13_03_02.jpg "Atoms and molecules in a gas are typically widely separated, as shown. Because the forces between them are quite weak at these distances, the properties of a gas depend more on the number of atoms per unit volume and on temperature than on the type of atom.")
 {: #Figure2}
 
 To get some idea of how pressure, temperature, and volume of a gas are related
@@ -49,7 +51,7 @@ we continue to pump air into it, the pressure increases. The pressure will
 further increase when the car is driven and the tires move. Most manufacturers
 specify optimal tire pressure for cold tires. (See [[Figure 3]](#Figure3).)
 
-![The figure has three parts, each part showing a pair of tires, and each tire connected to a pressure gauge. Each pair of tires represents the before and after images of a single tire, along with a change in pressure in that tire. In part a, the tire pressure is initially zero. After some air is added, represented by an arrow labeled Add air, the pressure rises to slightly above zero. In part b, the tire pressure is initially at the half-way mark. After some air is added, represented by an arrow labeled Add air, the pressure rises to the three-fourths mark. In part c, the tire pressure is initially at the three-fourths mark. After the temperature is raised, represented by an arrow labeled Increase temperature, the pressure rises to nearly the full mark.](../resources/Figure_13_03_02.jpg "(a) When air is pumped into a deflated tire, its volume first increases without much increase in pressure. (b) When the tire is filled to a certain point, the tire walls resist further expansion and the pressure increases with more air. (c) Once the tire is inflated, its pressure increases with temperature.")
+![The figure has three parts, each part showing a pair of tires, and each tire connected to a pressure gauge. Each pair of tires represents the before and after images of a single tire, along with a change in pressure in that tire. In part a, the tire pressure is initially zero. After some air is added, represented by an arrow labeled Add air, the pressure rises to slightly above zero. In part b, the tire pressure is initially at the half-way mark. After some air is added, represented by an arrow labeled Add air, the pressure rises to the three-fourths mark. In part c, the tire pressure is initially at the three-fourths mark. After the temperature is raised, represented by an arrow labeled Increase temperature, the pressure rises to nearly the full mark.](../resources/Figure_13_03_03.jpg "(a) When air is pumped into a deflated tire, its volume first increases without much increase in pressure. (b) When the tire is filled to a certain point, the tire walls resist further expansion and the pressure increases with more air. (c) Once the tire is inflated, its pressure increases with temperature.")
 {: #Figure3}
 
 At room temperatures, collisions between atoms and molecules can be ignored. In
@@ -243,7 +245,7 @@ One mole always contains  $$ 6.02 \times 10^{23}  $$
 </div>
 </div>
 
-![The illustration shows relatively flat land with a solitary mountain, labeled Mt. Everest, and blue sky above. A double-headed vertical arrow stretches between the land and a point in the sky that is well above the peak of the mountain. The arrow, labeled table tennis balls, serves to indicate that a column of one mole of table tennis balls would reach a point in the sky that is much higher than the peak of Mt. Everest.](../resources/Figure_13_03_03.jpg "How big is a mole? On a macroscopic level, one mole of table tennis balls would cover the Earth to a depth of about 40 km.")
+![The illustration shows relatively flat land with a solitary mountain, labeled Mt. Everest, and blue sky above. A double-headed vertical arrow stretches between the land and a point in the sky that is well above the peak of the mountain. The arrow, labeled table tennis balls, serves to indicate that a column of one mole of table tennis balls would reach a point in the sky that is much higher than the peak of Mt. Everest.](../resources/Figure_13_03_04.jpg "How big is a mole? On a macroscopic level, one mole of table tennis balls would cover the Earth to a depth of about 40 km.")
 {: #Figure4}
 
 <div class="exercise" data-element-type="check-understanding" data-label="">

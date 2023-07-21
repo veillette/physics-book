@@ -1,9 +1,11 @@
 ---
-title: "Introduction to Rotational Motion and Angular Momentum"
+title: Introduction to Rotational Motion and Angular Momentum
 layout: page
+sectionNumber: 0
+chapterNumber: 10
 ---
 
-![](../resources/Figure_10_00_01a_D.jpg "The mention of a tornado conjures up images of raw destructive power. Tornadoes blow houses away as if they were made of paper and have been known to pierce tree trunks with pieces of straw. They descend from clouds in funnel-like shapes that spin violently, particularly at the bottom where they are most narrow, producing winds as high as 500 km/h. (credit: Daphne Zaras, U.S. National Oceanic and Atmospheric Administration)")
+![](../resources/Figure_10_00_01.jpg "The mention of a tornado conjures up images of raw destructive power. Tornadoes blow houses away as if they were made of paper and have been known to pierce tree trunks with pieces of straw. They descend from clouds in funnel-like shapes that spin violently, particularly at the bottom where they are most narrow, producing winds as high as 500 km/h. (credit: Daphne Zaras, U.S. National Oceanic and Atmospheric Administration)")
 {: #Figure1}
 
 Why do tornadoes spin at all? And why do tornadoes spin so rapidly? The answer is
@@ -21,7 +23,7 @@ that all important aspects of rotational motion either have already been defined
 for linear motion or have exact analogs in linear motion. First, we look at
 angular acceleration—the rotational analog of linear acceleration.
 
-![The figure shows a figure skater with her right leg lifted up in the air reaching over her head. She has her both arms stretched over her head to hold the skates of the lifted leg. The skater is spinning about a vertical axis.](../resources/Figure_10_00_02a.jpg "This figure skater increases her rate of spin by pulling her arms and her extended leg closer to her axis of rotation. (credit: Luu, Wikimedia Commons)")
+![The figure shows a figure skater with her right leg lifted up in the air reaching over her head. She has her both arms stretched over her head to hold the skates of the lifted leg. The skater is spinning about a vertical axis.](../resources/Figure_10_00_02.jpg "This figure skater increases her rate of spin by pulling her arms and her extended leg closer to her axis of rotation. (credit: Luu, Wikimedia Commons)")
 {: #Figure2}
 
 <div class="note" data-label="Video" markdown="1">

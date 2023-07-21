@@ -1,6 +1,8 @@
 ---
-title: "Newton’s First Law of Motion: Inertia"
+title: 'Newton’s First Law of Motion: Inertia'
 layout: page
+sectionNumber: 2
+chapterNumber: 4
 ---
 
 <div class="abstract" markdown="1">

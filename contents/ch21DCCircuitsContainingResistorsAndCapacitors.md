@@ -1,6 +1,8 @@
 ---
-title: "DC Circuits Containing Resistors and Capacitors"
+title: DC Circuits Containing Resistors and Capacitors
 layout: page
+sectionNumber: 6
+chapterNumber: 21
 ---
 
 <div class="abstract" markdown="1">

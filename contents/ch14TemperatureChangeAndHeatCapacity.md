@@ -1,6 +1,8 @@
 ---
-title: "Temperature Change and Heat Capacity"
+title: Temperature Change and Heat Capacity
 layout: page
+sectionNumber: 2
+chapterNumber: 14
 ---
 
 <div class="abstract" markdown="1">

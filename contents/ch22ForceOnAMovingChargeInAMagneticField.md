@@ -1,6 +1,8 @@
 ---
-title: "Force on a Moving Charge in a Magnetic Field: Examples and Applications"
+title: 'Force on a Moving Charge in a Magnetic Field: Examples and Applications'
 layout: page
+sectionNumber: 5
+chapterNumber: 22
 ---
 
 <div class="abstract" markdown="1">
@@ -17,7 +19,7 @@ particles moving in such curved paths. The curved paths of charged particles in
 magnetic fields are the basis of a number of phenomena and can even be used
 analytically, such as in a mass spectrometer.
 
-![A drawing representing trails of bubbles in a bubble chamber.](../resources/Figure_22_05_01a.jpg "Trails of bubbles are produced by high-energy charged particles moving through the superheated liquid hydrogen in this artist&#x2019;s rendition of a bubble chamber. There is a strong magnetic field perpendicular to the page that causes the curved paths of the particles. The radius of the path can be used to find the mass, charge, and energy of the particle.")
+![A drawing representing trails of bubbles in a bubble chamber.](../resources/Figure_22_05_01.jpg "Trails of bubbles are produced by high-energy charged particles moving through the superheated liquid hydrogen in this artist&#x2019;s rendition of a bubble chamber. There is a strong magnetic field perpendicular to the page that causes the curved paths of the particles. The radius of the path can be used to find the mass, charge, and energy of the particle.")
 {: #Figure1}
 
 So does the magnetic force cause circular motion? Magnetic force is always
@@ -30,7 +32,7 @@ place in a vacuum, the magnetic field is the dominant factor determining the
 motion.) Here, the magnetic force supplies the centripetal force $${F}_
 {c}=mv^{2}/r $$ . Noting that $$\sin \theta =1 $$ , we see that $$F=qvB $$.
 
-![Diagram showing an electrical charge moving clockwise in the plane of the page. Velocity vectors are tangent to the circular path. The magnetic field B is oriented into the page. Force vectors show that the force on the charge is toward the center of the charge&#x2019;s circular path as the charge moves.](../resources/Figure_22_05_02a.jpg "A negatively charged particle moves in the plane of the page in a region where the magnetic field is perpendicular into the page (represented by the small circles with x&#x2019;s&#x2014;like the tails of arrows). The magnetic force is perpendicular to the velocity, and so velocity changes in direction but not magnitude. Uniform circular motion results.")
+![Diagram showing an electrical charge moving clockwise in the plane of the page. Velocity vectors are tangent to the circular path. The magnetic field B is oriented into the page. Force vectors show that the force on the charge is toward the center of the charge&#x2019;s circular path as the charge moves.](../resources/Figure_22_05_02.jpg "A negatively charged particle moves in the plane of the page in a region where the magnetic field is perpendicular into the page (represented by the small circles with x&#x2019;s&#x2014;like the tails of arrows). The magnetic force is perpendicular to the velocity, and so velocity changes in direction but not magnitude. Uniform circular motion results.")
 {: #Figure2}
 
 Because the magnetic force $$F $$ supplies the centripetal force $${F}_{c} $$ , we have
@@ -61,7 +63,7 @@ A magnet brought near an old-fashioned TV screen such as in [[Figure 3]](#Figure
  (corresponding to the accelerating voltage of about 10.0 kV used in some TVs) perpendicular to a magnetic field of strength  $$B=0.500\text{ T} $$
  (obtainable with permanent magnets).
 
-![A bar magnet with the north pole set against the glass of a computer monitor. The magnetic field lines are shown running from the south pole through the magnet to the north pole. Paths of electrons that are emanating from the computer monitor are shown moving in straight lines until they encounter the magnetic field of the magnet. At that point, they change course and spiral around the magnetic field lines and toward the magnet.](../resources/Figure_22_05_03a.jpg "Side view showing what happens when a magnet comes in contact with a computer monitor or TV screen. Electrons moving toward the screen spiral about magnetic field lines, maintaining the component of their velocity parallel to the field lines. This distorts the image on the screen.")
+![A bar magnet with the north pole set against the glass of a computer monitor. The magnetic field lines are shown running from the south pole through the magnet to the north pole. Paths of electrons that are emanating from the computer monitor are shown moving in straight lines until they encounter the magnetic field of the magnet. At that point, they change course and spiral around the magnetic field lines and toward the magnet.](../resources/Figure_22_05_03.jpg "Side view showing what happens when a magnet comes in contact with a computer monitor or TV screen. Electrons moving toward the screen spiral about magnetic field lines, maintaining the component of their velocity parallel to the field lines. This distorts the image on the screen.")
 {: #Figure3}
 
 **Strategy**
@@ -96,7 +98,7 @@ lines is unaffected, and so the charges spiral along the field lines. If field
 strength increases in the direction of motion, the field will exert a force to
 slow the charges, forming a kind of magnetic mirror, as shown below.
 
-![Diagram showing charged particles moving with velocity v along magnetic field lines. The velocity vector of a particle is parallel to the field line when it is in a region of weak magnetic field. When it moves into a stronger region, where field lines are denser, the vector is oriented at an angle to the field lines.](../resources/Figure_22_05_04a.jpg "When a charged particle moves along a magnetic field line into a region where the field becomes stronger, the particle experiences a force that reduces the component of velocity parallel to the field. This force slows the motion along the field line and here reverses it, forming a &#x201C;magnetic mirror.&#x201D;")
+![Diagram showing charged particles moving with velocity v along magnetic field lines. The velocity vector of a particle is parallel to the field line when it is in a region of weak magnetic field. When it moves into a stronger region, where field lines are denser, the vector is oriented at an angle to the field lines.](../resources/Figure_22_05_04.jpg "When a charged particle moves along a magnetic field line into a region where the field becomes stronger, the particle experiences a force that reduces the component of velocity parallel to the field. This force slows the motion along the field line and here reverses it, forming a &#x201C;magnetic mirror.&#x201D;")
 {: #Figure4}
 
 The properties of charged particles in magnetic fields are related to such
@@ -113,7 +115,7 @@ penetrating the atmosphere. Cosmic rays are a component of background radiation;
 consequently, they give a higher radiation dose at the poles than at the
 equator.
 
-![Diagram of the Earth showing its magnetic field lines running from the south pole, out around the Earth and to the north pole, and then through Earth back to the south pole. Charged particles travel on straight line.](../resources/Figure_22_05_05a.jpg "Energetic electrons and protons, components of cosmic rays, from the Sun and deep outer space often follow the Earth&#x2019;s magnetic field lines rather than cross them. (Recall that the Earth&#x2019;s north magnetic pole is really a south pole in terms of a bar magnet.)")
+![Diagram of the Earth showing its magnetic field lines running from the south pole, out around the Earth and to the north pole, and then through Earth back to the south pole. Charged particles travel on straight line.](../resources/Figure_22_05_05.jpg "Energetic electrons and protons, components of cosmic rays, from the Sun and deep outer space often follow the Earth&#x2019;s magnetic field lines rather than cross them. (Recall that the Earth&#x2019;s north magnetic pole is really a south pole in terms of a bar magnet.)")
 {: #Figure5}
 
 Some incoming charged particles become trapped in the Earth’s magnetic field,
@@ -127,7 +129,7 @@ astronauts received radiation doses more than twice the allowed annual exposure
 for radiation workers. Other planets have similar belts, especially those having
 strong magnetic fields like Jupiter.
 
-![Diagram showing the Earth with magnetic field lines running from the south pole around to the north pole. A region near the Earth circling the equatorial to mid-latitudes and oriented along a magnetic field line is highlighted and labeled Inner Van Allen radiation belt. A region farther out circles the Earth, except in the polar regions, also following the magnetic field lines, and is labeled Outer Van Allen radiation belt.](../resources/Figure_22_05_06a.jpg "The Van Allen radiation belts are two regions in which energetic charged particles are trapped in the Earth&#x2019;s magnetic field. One belt lies about 300 km above the Earth&#x2019;s surface, the other about 16 000 km. Charged particles in these belts migrate along magnetic field lines and are partially reflected away from the poles by the stronger fields there. The charged particles that enter the atmosphere are replenished by the Sun and sources in deep outer space.")
+![Diagram showing the Earth with magnetic field lines running from the south pole around to the north pole. A region near the Earth circling the equatorial to mid-latitudes and oriented along a magnetic field line is highlighted and labeled Inner Van Allen radiation belt. A region farther out circles the Earth, except in the polar regions, also following the magnetic field lines, and is labeled Outer Van Allen radiation belt.](../resources/Figure_22_05_06.jpg "The Van Allen radiation belts are two regions in which energetic charged particles are trapped in the Earth&#x2019;s magnetic field. One belt lies about 300 km above the Earth&#x2019;s surface, the other about 16 000 km. Charged particles in these belts migrate along magnetic field lines and are partially reflected away from the poles by the stronger fields there. The charged particles that enter the atmosphere are replenished by the Sun and sources in deep outer space.")
 {: #Figure6}
 
 Back on Earth, we have devices that employ magnetic fields to contain charged
@@ -137,7 +139,7 @@ fields not only control the direction of the charged particles, they also are
 used to focus particles into beams and overcome the repulsion of like charges in
 these beams.
 
-![A view of a section of the accelerator at Fermilab. Down each side of a long corridor are tubes surrounded by orange magnets. Lots of tubes and wires and other electronics are visible.](../resources/Figure_22_05_07a.jpg "The Fermilab facility in Illinois has a large particle accelerator (the most powerful in the world until 2008) that employs magnetic fields (magnets seen here in orange) to contain and direct its beam. This and other accelerators have been in use for several decades and have allowed us to discover some of the laws underlying all matter. (credit: ammcrim, Flickr)")
+![A view of a section of the accelerator at Fermilab. Down each side of a long corridor are tubes surrounded by orange magnets. Lots of tubes and wires and other electronics are visible.](../resources/Figure_22_05_07.jpg "The Fermilab facility in Illinois has a large particle accelerator (the most powerful in the world until 2008) that employs magnetic fields (magnets seen here in orange) to contain and direct its beam. This and other accelerators have been in use for several decades and have allowed us to discover some of the laws underlying all matter. (credit: ammcrim, Flickr)")
 {: #Figure7}
 
 Thermonuclear fusion (like that occurring in the Sun) is a hope for a future
@@ -148,7 +150,7 @@ practical, amplifiers in microwave ovens use a magnetic field to contain
 oscillating electrons. These oscillating electrons generate the microwaves sent
 into the oven.
 
-![Figure a shows a tokamak in a lab. Figure b is a diagram of a tokamak. A current-carrying wire wraps around a donut-shaped vacuum chamber. Inside the chamber is plasma. The magnetic field has a toroidal and poloidal shape inside the chamber.](../resources/Figure_22_05_08a.jpg "Tokamaks such as the one shown in the figure are being studied with the goal of economical production of energy by nuclear fusion. Magnetic fields in the doughnut-shaped device contain and direct the reactive charged particles. (credit: David Mellis, Flickr)")
+![Figure a shows a tokamak in a lab. Figure b is a diagram of a tokamak. A current-carrying wire wraps around a donut-shaped vacuum chamber. Inside the chamber is plasma. The magnetic field has a toroidal and poloidal shape inside the chamber.](../resources/Figure_22_05_08.jpg "Tokamaks such as the one shown in the figure are being studied with the goal of economical production of energy by nuclear fusion. Magnetic fields in the doughnut-shaped device contain and direct the reactive charged particles. (credit: David Mellis, Flickr)")
 {: #Figure8}
 
 Mass spectrometers have a variety of designs, and many use magnetic fields to
@@ -196,7 +198,7 @@ If a cosmic ray proton approaches the Earth from outer space along a line toward
 <div class="problem" markdown="1">
 What are the signs of the charges on the particles in [[Figure 9]](#Figure9)?
 
-![Diagram showing magnetic field lines into the page. Charges are moving from the bottom to the top of the diagram and thus perpendicular to the field lines. Charge a curves to the left. Charge b moves in a straight line from bottom to top. Charge c curves to the right.](../resources/Figure_22_99_01a.jpg " ")
+![Diagram showing magnetic field lines into the page. Charges are moving from the bottom to the top of the diagram and thus perpendicular to the field lines. Charge a curves to the left. Charge b moves in a straight line from bottom to top. Charge c curves to the right.](../resources/Figure_22_05_09.jpg " ")
 {: #Figure9}
 
 </div>
@@ -206,7 +208,7 @@ What are the signs of the charges on the particles in [[Figure 9]](#Figure9)?
 <div class="problem" markdown="1">
 Which of the particles in [[Figure 10]](#Figure10) has the greatest velocity, assuming they have identical charges and masses?
 
-![Diagram showing magnetic field lines out of the page. Charge a curves clockwise with a large radius as it moves from the bottom to the top of the diagram. Charge b curves clockwise with a much smaller radius as it moves from lower middle to upper middle of the diagram.](../resources/Figure_22_99_02a.jpg " ")
+![Diagram showing magnetic field lines out of the page. Charge a curves clockwise with a large radius as it moves from the bottom to the top of the diagram. Charge b curves clockwise with a much smaller radius as it moves from lower middle to upper middle of the diagram.](../resources/Figure_22_05_10.jpg " ")
 {: #Figure10}
 
 </div>

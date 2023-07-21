@@ -1,6 +1,8 @@
 ---
-title: "Total Internal Reflection"
+title: Total Internal Reflection
 layout: page
+sectionNumber: 4
+chapterNumber: 25
 ---
 
 <div class="abstract" markdown="1">

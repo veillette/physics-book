@@ -1,9 +1,11 @@
 ---
-title: "Introduction to Linear Momentum and Collisions"
+title: Introduction to Linear Momentum and Collisions
 layout: page
+sectionNumber: 0
+chapterNumber: 8
 ---
 
-![Rugby players colliding during a rugby match.](../resources/Figure_08_00_01a_D.jpg "Each rugby player has great momentum, which will affect the outcome of their collisions with each other and the ground. (credit: ozzzie, Flickr)")
+![Rugby players colliding during a rugby match.](../resources/Figure_08_00_01.jpg "Each rugby player has great momentum, which will affect the outcome of their collisions with each other and the ground. (credit: ozzzie, Flickr)")
 {: #Figure1}
 
 We use the term momentum in various ways in everyday language, and most of these

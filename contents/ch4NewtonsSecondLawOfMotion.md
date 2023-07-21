@@ -1,6 +1,8 @@
 ---
-title: "Newton’s Second Law of Motion: Concept of a System"
+title: 'Newton’s Second Law of Motion: Concept of a System'
 layout: page
+sectionNumber: 3
+chapterNumber: 4
 ---
 
 <div class="abstract" markdown="1">

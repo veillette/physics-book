@@ -1,6 +1,8 @@
 ---
-title: "Physics: An Introduction"
+title: 'Physics: An Introduction'
 layout: page
+sectionNumber: 1
+chapterNumber: 1
 ---
 
 <div class="abstract" markdown="1">
@@ -8,7 +10,7 @@ layout: page
 * Explain the difference between a model and a theory.
 </div>
 
-![Two Canada geese flying close to each other in the sky.](../resources/Figure_01_01_01_aa.jpg "The flight formations of migratory birds such as Canada geese are governed by the laws of physics. (credit: David Merrett)")
+![Two Canada geese flying close to each other in the sky.](../resources/Figure_01_01_01.jpg "The flight formations of migratory birds such as Canada geese are governed by the laws of physics. (credit: David Merrett)")
 {: #Figure1}
 
 The physical universe is enormously complex in its detail. Every day, each of us
@@ -63,7 +65,7 @@ electricity interacts with the various circuits inside the device. This
 knowledge helps engineers select the appropriate materials and circuit layout
 when building the smartphone. Next, consider a GPS system. Physics describes the relationship between the speed of an object, the distance over which it travels, and the time it takes to travel that distance. GPS relies on precise calculations that account for variations in the Earth's landscapes, the exact distance between orbiting satellites, and even the effect of a complex occurrence of time dilation. Most of these calculations are founded on algorithms developed by Gladys West, a mathematician and computer scientist who programmed the first computers capable of highly accurate remote sensing and positioning. When you use a GPS device, it utilizes these algorithms to recognize where you are and how your position relates to other objects on Earth.
 
-![A topographical map of a location is shown on an iPhone with some information about the location using the G P S system.](../resources/Figure_01_01_02_aa.jpg "The Apple &#x201C;iPhone&#x201D; is a common smartphone with a GPS function. Physics describes the way that electricity flows through the circuits of this device. Engineers use their knowledge of physics to construct an iPhone with features that consumers will enjoy. One specific feature of an iPhone is the GPS function. GPS uses physics equations to determine the driving time between two locations on a map. (credit: Tinh tế Photo/Flickr) ")
+![A topographical map of a location is shown on an iPhone with some information about the location using the G P S system.](../resources/Figure_01_01_02.jpg "The Apple &#x201C;iPhone&#x201D; is a common smartphone with a GPS function. Physics describes the way that electricity flows through the circuits of this device. Engineers use their knowledge of physics to construct an iPhone with features that consumers will enjoy. One specific feature of an iPhone is the GPS function. GPS uses physics equations to determine the driving time between two locations on a map. (credit: Tinh tế Photo/Flickr) ")
 {: #Figure2 height="250"}
 
 ### Applications of Physics
@@ -107,16 +109,16 @@ problem-solving skills. Furthermore, physics has retained the most basic aspects
 of science, so it is used by all of the sciences, and the study of physics makes
 other sciences easier to understand.
 
-![A microwave oven is shown with some food on the nonmetal plate inside it.](../resources/Figure_01_01_03_aa.jpg "The laws of physics help us understand how common appliances work. For example, the laws of physics can help explain how microwave ovens heat up food, and they also help us understand why it is dangerous to place metal objects in a microwave oven. (credit: MoneyBlogNewz)")
+![A microwave oven is shown with some food on the nonmetal plate inside it.](../resources/Figure_01_01_03.jpg "The laws of physics help us understand how common appliances work. For example, the laws of physics can help explain how microwave ovens heat up food, and they also help us understand why it is dangerous to place metal objects in a microwave oven. (credit: MoneyBlogNewz)")
 {: #Figure3}
 
-![M R I scan of a brain with specific tumors.](../resources/Figure_01_01_04_aa.jpg "These two applications of physics have more in common than meets the eye. Microwave ovens use electromagnetic waves to heat food. Magnetic resonance imaging (MRI) also uses electromagnetic waves to yield an image of the brain, from which the exact location of tumors can be determined. (credit: Rashmi Chawla, Daniel Smith, and Paul E. Marik)")
+![M R I scan of a brain with specific tumors.](../resources/Figure_01_01_04.jpg "These two applications of physics have more in common than meets the eye. Microwave ovens use electromagnetic waves to heat food. Magnetic resonance imaging (MRI) also uses electromagnetic waves to yield an image of the brain, from which the exact location of tumors can be determined. (credit: Rashmi Chawla, Daniel Smith, and Paul E. Marik)")
 {: #Figure4 height="225"}
 
-![Cell membranes of onion cells, similar in appearance to a section of a brick wall.](../resources/Figure_01_01_05_aa.jpg "Physics, chemistry, and biology help describe the properties of cell walls in plant cells, such as the onion cells seen here. (credit: Umberto Salvagnin)")
+![Cell membranes of onion cells, similar in appearance to a section of a brick wall.](../resources/Figure_01_01_05.jpg "Physics, chemistry, and biology help describe the properties of cell walls in plant cells, such as the onion cells seen here. (credit: Umberto Salvagnin)")
 {: #Figure5}
 
-![A detailed diagram of a cell membrane is shown with parts labeled as Protein channel, Globular protein, Glycoprotein, Carbohydrate, Hydrophilic heads, Phospholipid bilayer , Phospholipid molecule, Hydrophobic tails, Alpha-Helix protein, Surface protein, Filaments of cytoskeleton, Integral protein, Peripheral protein, Glycolipid, and Cholesterol.](../resources/Figure_01_01_06_aa.jpg "An artist&#x2019;s rendition of the structure of a cell membrane. Membranes form the boundaries of animal cells and are complex in structure and function. Many of the most fundamental properties of life, such as the firing of nerve cells, are related to membranes. The disciplines of biology, chemistry, and physics all help us understand the membranes of animal cells. (credit: Mariana Ruiz)")
+![A detailed diagram of a cell membrane is shown with parts labeled as Protein channel, Globular protein, Glycoprotein, Carbohydrate, Hydrophilic heads, Phospholipid bilayer , Phospholipid molecule, Hydrophobic tails, Alpha-Helix protein, Surface protein, Filaments of cytoskeleton, Integral protein, Peripheral protein, Glycolipid, and Cholesterol.](../resources/Figure_01_01_06.jpg "An artist&#x2019;s rendition of the structure of a cell membrane. Membranes form the boundaries of animal cells and are complex in structure and function. Many of the most fundamental properties of life, such as the firing of nerve cells, are related to membranes. The disciplines of biology, chemistry, and physics all help us understand the membranes of animal cells. (credit: Mariana Ruiz)")
 {: #Figure6}
 
 ### Models, Theories, and Laws; The Role of Experimentation
@@ -131,10 +133,10 @@ See [Figure 7](#Figure7) and [Figure 8](#Figure8).)
 The cornerstone of discovering natural laws is observation; science must
 describe the universe as it is, not as we may imagine it to be.
 
-![A portrait of Isaac Newton. ](../resources/Figure_01_01_07_aa.jpg "Isaac Newton (1642&#x2013;1727) was very reluctant to publish his revolutionary work and had to be convinced to do so. In his later years, he stepped down from his academic post and became exchequer of the Royal Mint. He took this post seriously, inventing reeding (or creating ridges) on the edge of coins to prevent unscrupulous people from trimming the silver off of them before using them as currency. (credit: Arthur Shuster and Arthur E. Shipley: Britain&#x2019;s Heritage of Science. London, 1917.)")
+![A portrait of Isaac Newton. ](../resources/Figure_01_01_07.jpg "Isaac Newton (1642&#x2013;1727) was very reluctant to publish his revolutionary work and had to be convinced to do so. In his later years, he stepped down from his academic post and became exchequer of the Royal Mint. He took this post seriously, inventing reeding (or creating ridges) on the edge of coins to prevent unscrupulous people from trimming the silver off of them before using them as currency. (credit: Arthur Shuster and Arthur E. Shipley: Britain&#x2019;s Heritage of Science. London, 1917.)")
 {: #Figure7 height="275"}
 
-![A photograph of Marie Curie](../resources/Figure_01_01_08_aa.jpg "Marie Curie (1867&#x2013;1934) sacrificed monetary assets to help finance her early research and damaged her physical well-being with radiation exposure. She is the only person to win Nobel prizes in both physics and chemistry. One of her daughters also won a Nobel Prize. (credit: Wikimedia Commons) ")
+![A photograph of Marie Curie](../resources/Figure_01_01_08.jpg "Marie Curie (1867&#x2013;1934) sacrificed monetary assets to help finance her early research and damaged her physical well-being with radiation exposure. She is the only person to win Nobel prizes in both physics and chemistry. One of her daughters also won a Nobel Prize. (credit: Wikimedia Commons) ")
 {: #Figure8 height="225"}
 
 We all are curious to some extent. We look around, make generalizations, and try
@@ -187,7 +189,7 @@ Less broadly applicable statements are usually called principles (such as
 Pascal’s principle, which is applicable only in fluids), but the distinction
 between laws and principles often is not carefully made.
 
-![A planetary model of an atom with a positively charged nucleus at the center and negatively charged particles moving in orbits around the nucleus.](../resources/Figure_01_atom.svg "What is a model? This planetary model of the atom shows electrons orbiting the nucleus. It is a drawing that we use to form a mental image of the atom that we cannot see directly with our eyes because it is too small.")
+![A planetary model of an atom with a positively charged nucleus at the center and negatively charged particles moving in orbits around the nucleus.](../resources/Figure_01_01_09.svg "What is a model? This planetary model of the atom shows electrons orbiting the nucleus. It is a drawing that we use to form a mental image of the atom that we cannot see directly with our eyes because it is too small.")
 {: #Figure9 height="150"}
 
 <div class="note" data-label="" markdown="1">
@@ -262,13 +264,13 @@ as it developed from the Renaissance to the end of the 19th century is called
 **classical physics**. It was transformed into modern physics by revolutionary
 discoveries made starting at the beginning of the 20th century.
 
-![A marble statue of Aristotle.](../resources/Figure_01_01_10_aa.jpg "Over the centuries, natural philosophy has evolved into more specialized disciplines, as illustrated by the contributions of some of the greatest minds in history. The Greek philosopher Aristotle (384&#x2013;322 B.C.) wrote on a broad range of topics including physics, animals, the soul, politics, and poetry. (credit: Jastrow (2006)/Ludovisi Collection) ")
+![A marble statue of Aristotle.](../resources/Figure_01_01_10.jpg "Over the centuries, natural philosophy has evolved into more specialized disciplines, as illustrated by the contributions of some of the greatest minds in history. The Greek philosopher Aristotle (384&#x2013;322 B.C.) wrote on a broad range of topics including physics, animals, the soul, politics, and poetry. (credit: Jastrow (2006)/Ludovisi Collection) ")
 {: #Figure10 height="225"}
 
-![A painting of Galileo Galilei.](../resources/Figure_01_01_11_aa.jpg "Galileo Galilei (1564&#x2013;1642) laid the foundation of modern experimentation and made contributions in mathematics, physics, and astronomy. (credit: Domenico Tintoretto) ")
+![A painting of Galileo Galilei.](../resources/Figure_01_01_11.jpg "Galileo Galilei (1564&#x2013;1642) laid the foundation of modern experimentation and made contributions in mathematics, physics, and astronomy. (credit: Domenico Tintoretto) ")
 {: #Figure11 height="225"}
 
-![A photograph of Niels Bohr](../resources/Figure_01_01_12_aa.jpg "Niels Bohr (1885&#x2013;1962) made fundamental contributions to the development of quantum mechanics, one part of modern physics. (credit: United States Library of Congress Prints and Photographs Division) ")
+![A photograph of Niels Bohr](../resources/Figure_01_01_12.jpg "Niels Bohr (1885&#x2013;1962) made fundamental contributions to the development of quantum mechanics, one part of modern physics. (credit: United States Library of Congress Prints and Photographs Division) ")
 {: #Figure12 height="225"}
 
 Classical physics is not an exact description of the universe, but it is an
@@ -295,7 +297,7 @@ For the laws of classical physics to apply, the following criteria must be met: 
 
 </div>
 
-![A high-resolution image of gold sheet obtained from S T M.](../resources/Figure_01_01_13_aa.jpg "Using a scanning tunneling microscope (STM), scientists can see the individual atoms that compose this sheet of gold. (credit: Erwinrossen)")
+![A high-resolution image of gold sheet obtained from S T M.](../resources/Figure_01_01_13.jpg "Using a scanning tunneling microscope (STM), scientists can see the individual atoms that compose this sheet of gold. (credit: Erwinrossen)")
 {: #Figure13 height="150"}
 
 Some of the most spectacular advances in science have been made in modern

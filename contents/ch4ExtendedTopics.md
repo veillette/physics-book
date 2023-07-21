@@ -1,6 +1,8 @@
 ---
-title: "Extended Topic: The Four Basic Forces—An Introduction"
+title: 'Extended Topic: The Four Basic Forces—An Introduction'
 layout: page
+sectionNumber: 8
+chapterNumber: 4
 ---
 
 <div class="abstract" markdown="1">

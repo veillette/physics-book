@@ -1,6 +1,8 @@
 ---
-title: "Accuracy, Precision, and Significant Figures"
+title: Accuracy, Precision, and Significant Figures
 layout: page
+sectionNumber: 3
+chapterNumber: 1
 ---
 
 <div class="abstract" markdown="1">
@@ -52,10 +54,10 @@ in [Figure 4](#Figure4), the GPS measurements are concentrated quite closely to 
 another, but they are far away from the target location. This indicates a high
 precision, low accuracy measuring system.
 
-![A pattern similar to a dart board with few concentric circles shown in white color on a red background. In the innermost circle, there are four black points on the circumference showing the positions of a restaurant. They are far apart from each other.](../resources/Figure_01_High_accuracy_Low_precision.svg "A GPS system attempts to locate a restaurant at the center of the bull&#x2019;s-eye. The black dots represent each attempt to pinpoint the location of the restaurant. The dots are spread out quite far apart from one another, indicating low precision, but they are each rather close to the actual location of the restaurant, indicating high accuracy. (credit: Dark Evil)")
+![A pattern similar to a dart board with few concentric circles shown in white color on a red background. In the innermost circle, there are four black points on the circumference showing the positions of a restaurant. They are far apart from each other.](../resources/Figure_01_03_03.svg "A GPS system attempts to locate a restaurant at the center of the bull&#x2019;s-eye. The black dots represent each attempt to pinpoint the location of the restaurant. The dots are spread out quite far apart from one another, indicating low precision, but they are each rather close to the actual location of the restaurant, indicating high accuracy. (credit: Dark Evil)")
 {: #Figure3 height="75"}
 
-![A pattern similar to a dart board with a few concentric circles shown in white color on a red background. Near the outermost white circles there are four black points showing the positions of a restaurant. The black points are very close to each other.](../resources/Figure_01_High_precision_Low_accuracy.svg "In this figure, the dots are concentrated rather closely to one another, indicating high precision, but they are rather far away from the actual location of the restaurant, indicating low accuracy. (credit: Dark Evil)")
+![A pattern similar to a dart board with a few concentric circles shown in white color on a red background. Near the outermost white circles there are four black points showing the positions of a restaurant. The black points are very close to each other.](../resources/Figure_01_03_04.svg "In this figure, the dots are concentrated rather closely to one another, indicating high precision, but they are rather far away from the actual location of the restaurant, indicating low accuracy. (credit: Dark Evil)")
 {: #Figure4 height="75"}
 
 ### Accuracy, Precision, and Uncertainty

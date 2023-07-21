@@ -1,6 +1,8 @@
 ---
-title: "Work: The Scientific Definition"
+title: 'Work: The Scientific Definition'
 layout: page
+sectionNumber: 1
+chapterNumber: 7
 ---
 
 <div class="abstract" markdown="1">
@@ -60,7 +62,7 @@ and the displacement vector $$ \vb{d} $$.
 </div>
 
 ![Five drawings labeled a through e. In (a), person pushing a lawn mower with a force F. Force is represented by a vector making an angle theta with the horizontal and displacement of the mower is represented by vector d. The component of vector F along vector d is F cosine theta. Work done by the person W is equal to F d cosine theta. (b) A person is standing with a briefcase in his hand. The force F shown by a vector arrow pointing upwards starting from the handle of briefcase and the displacement d is equal to zero.
-(c) A person is walking holding the briefcase in his hand. Force vector F is in the vertical direction starting from the handle of briefcase and displacement vector d is in horizontal direction starting from the same point as vector F. The angle between F and d theta is equal to 90 degrees. Cosine theta is equal to zero. (d) A briefcase is shown in front of a set of stairs. A vector d starting from the first stair points along the incline of the stair and a force vector F is in vertical direction starting from the same point as vector d. The angle between them is theta. A component of vector F along vector d is F d cosine theta. (e) A briefcase is shown lowered vertically down from an electric generator. The displacement vector d points downwards and force vector F points upwards acting on the briefcase.](../resources/Figure_07_02_01.jpg "Examples of work. (a) The work done by the force \( F \) on this lawn mower is \( F d \cos{ \theta} \) . Note that \( F \cos{ \theta} \) is the component of the force in the direction of motion. (b) A person holding a briefcase does no work on it, because there is no displacement. No energy is transferred to or from the briefcase.
+(c) A person is walking holding the briefcase in his hand. Force vector F is in the vertical direction starting from the handle of briefcase and displacement vector d is in horizontal direction starting from the same point as vector F. The angle between F and d theta is equal to 90 degrees. Cosine theta is equal to zero. (d) A briefcase is shown in front of a set of stairs. A vector d starting from the first stair points along the incline of the stair and a force vector F is in vertical direction starting from the same point as vector d. The angle between them is theta. A component of vector F along vector d is F d cosine theta. (e) A briefcase is shown lowered vertically down from an electric generator. The displacement vector d points downwards and force vector F points upwards acting on the briefcase.](../resources/Figure_07_01_01.jpg "Examples of work. (a) The work done by the force \( F \) on this lawn mower is \( F d \cos{ \theta} \) . Note that \( F \cos{ \theta} \) is the component of the force in the direction of motion. (b) A person holding a briefcase does no work on it, because there is no displacement. No energy is transferred to or from the briefcase.
 (c) The person moving the briefcase horizontally at a constant speed does no work on it, and transfers no energy to it. (d) Work is done on the briefcase by carrying it up stairs at constant speed, because there is necessarily a component of force \( F \) in the direction of the motion. Energy is transferred to the briefcase and could in turn be used to do work. (e) When the briefcase is lowered, energy is transferred out of the briefcase and into an electric generator. Here the work done on the briefcase by the generator is negative, removing energy from the briefcase, because \( F \) and \( d \) are in opposite directions.")
 {: #Figure1}
 
@@ -255,7 +257,7 @@ ramp that makes an angle of $$ 20.0^\circ $$ with the horizontal.
 on the crate parallel to the ramp and moves at a constant speed. Be certain to
 include the work he does on the crate *and* on his body to get up the ramp.
 
-![A person is pushing a heavy crate up a ramp. The force vector F applied by the person is acting parallel to the ramp.](../resources/Figure_07_01_02a.jpg "A man pushes a crate up a ramp.")
+![A person is pushing a heavy crate up a ramp. The force vector F applied by the person is acting parallel to the ramp.](../resources/Figure_07_01_02.jpg "A man pushes a crate up a ramp.")
 {: #Figure2}
 </div>
 <div class="solution">
@@ -270,7 +272,7 @@ include the work he does on the crate *and* on his body to get up the ramp.
 How much work is done by the boy pulling his sister 30.0 m in a wagon as shown
 in [Figure 3](#Figure3)? Assume no friction acts on the wagon.
 
-![A child is sitting inside a wagon and being pulled by a boy with a force F at an angle thirty degrees upward from the horizontal. F is equal to fifty newtons, the displacement vector d is horizontal in the direction of motion. The magnitude of d is thirty meters.](../resources/Figure_07_01_03a.jpg "The boy does work on the system of the wagon and the child when he pulls them as shown. ")
+![A child is sitting inside a wagon and being pulled by a boy with a force F at an angle thirty degrees upward from the horizontal. F is equal to fifty newtons, the displacement vector d is horizontal in the direction of motion. The magnitude of d is thirty meters.](../resources/Figure_07_01_03.jpg "The boy does work on the system of the wagon and the child when he pulls them as shown. ")
 {: #Figure3}
 
 </div>
@@ -312,7 +314,7 @@ coefficient of friction between the sled and the snow is 0.100.
 (c) What is the work done by the gravitational force on the sled?
 (d) What is the total work done?
 
-![A person on a rescue sled is shown being pulled up a slope. The slope makes an angle of sixty degrees from the horizontal. The weight of the person is shown by vector w acting vertically downward. The tension in the rope depicted by vector T is along the incline in the upward direction; vector f depicting frictional force is also acting in the same direction.](../resources/Figure_07_01_04a.jpg "A rescue sled and victim are lowered down a steep slope. ")
+![A person on a rescue sled is shown being pulled up a slope. The slope makes an angle of sixty degrees from the horizontal. The weight of the person is shown by vector w acting vertically downward. The tension in the rope depicted by vector T is along the incline in the upward direction; vector f depicting frictional force is also acting in the same direction.](../resources/Figure_07_01_04.jpg "A rescue sled and victim are lowered down a steep slope. ")
 {: #Figure4}
 
 </div>

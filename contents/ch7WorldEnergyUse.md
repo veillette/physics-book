@@ -1,6 +1,8 @@
 ---
-title: "World Energy Use"
+title: World Energy Use
 layout: page
+sectionNumber: 9
+chapterNumber: 7
 ---
 
 <div class="abstract" markdown="1">
@@ -31,7 +33,7 @@ warming and fossil fuel use, with its production of carbon dioxide through
 combustion, has made, in the eyes of many scientists, a shift to non-fossil
 fuels of utmost importance—but it will not be easy.
 
-![A pie chart of the world&#x2019;s energy consumption by source is shown. Thirty-five point four three percent is petroleum, twenty-eight point one five percent is coal, twenty-three point four six percent is dry natural gas, six point two seven percent is hydro-electricity, five point seven nine percent is nuclear electricity, point eight six percent is geothermal, wind, solar, biomass, and point zero five percent is geothermal, biomass, or solar energy not used for electricity.](../resources/svg/Figure_07_09_01.svg "World energy consumption (2018) based on data from BP Statistical Review of World Energy (credit:Veillette)")
+![A pie chart of the world&#x2019;s energy consumption by source is shown. Thirty-five point four three percent is petroleum, twenty-eight point one five percent is coal, twenty-three point four six percent is dry natural gas, six point two seven percent is hydro-electricity, five point seven nine percent is nuclear electricity, point eight six percent is geothermal, wind, solar, biomass, and point zero five percent is geothermal, biomass, or solar energy not used for electricity.](../resources/Figure_07_09_01.svg "World energy consumption (2018) based on data from BP Statistical Review of World Energy (credit:Veillette)")
 {: #Figure1}
 
 ### The World’s Growing Energy Needs
@@ -58,10 +60,10 @@ there are sizeable strides being made in renewable energy. India has a rapidly
 growing wind energy base, and it has the largest solar cooking program in the
 world. China has invested substantially in building solar collection farms as well as hydroelectric plants.
 
-![A bar graph depicting world energy consumption is shown. The year is listed on the horizontal axis and energy consumed is listed on the vertical axis. Energy consumption by the world is shown for different years. Energy consumption rises over time. In the year nineteen hundred and ninety it was three hundred seventy three multiplied by ten to the power eighteen joules, and the projection is that it will become eight hundred twelve multiplied by ten to the power eighteen joules by the year twenty thirty five.](../resources/Figure_07_09_02a.jpg "Past and projected world energy use (source: Based on data from U.S. Energy Information Administration, 2021)")
+![A bar graph depicting world energy consumption is shown. The year is listed on the horizontal axis and energy consumed is listed on the vertical axis. Energy consumption by the world is shown for different years. Energy consumption rises over time. In the year nineteen hundred and ninety it was three hundred seventy three multiplied by ten to the power eighteen joules, and the projection is that it will become eight hundred twelve multiplied by ten to the power eighteen joules by the year twenty thirty five.](../resources/Figure_07_09_02.jpg "Past and projected world energy use (source: Based on data from U.S. Energy Information Administration, 2021)")
 {: #Figure2}
 
-![Solar cell arrays lined up in a field.](../resources/Figure_06_09_03.jpg "Solar cell arrays in Manchester, Vermont, USA (credit: MarkBuckawicki, Wikimedia)")
+![Solar cell arrays lined up in a field.](../resources/Figure_07_09_03.jpg "Solar cell arrays in Manchester, Vermont, USA (credit: MarkBuckawicki, Wikimedia)")
 {: #Figure3}
 
 [Table 1](#Table1) displays the 2020 commercial energy mix by country for some
@@ -105,7 +107,7 @@ against the harmful effects upon the environment in its extraction and use.
 
 New and diversified energy sources do, however, greatly increase economic opportunity and stability. First, the extensive employment opportunities in renewable energy make it one of the most sustainable and secure fields to enter. Second, renewable energy provides countries and localities with increased levels of resiliency in the face of natural disasters, conflict, or other disruptions. The 21st century has already seen major economic impacts from energy disruptions: Hurricane Katrina, Superstorm Sandy, various wildfires, Hurricane Maria, and the 2021 Texas Winter Storm demonstrate the vulnerability of United States power systems. Diversifying energy sources through renewables and other fossil-fuel alternatives brings power grids and transportation systems back online much more quickly, saving lives and enabling a more swift return to economic operations. And as critical emerging information infrastructure, such as data centers, requires more of the world's energy, supplying those growing systems during normal operations and crises will be increasingly important.
 
-![A scatter plot of power consumption per capita versus G D P per capita for various countries. Power consumption in kilowatt per capita is shown along the horizontal axis and G D P per capita is show alon g the vertical axis.](../resources/svg/Figure_07_09_04.svg "Power consumption per capita versus GDP per capita for various countries. Note the increase in energy usage with increasing GDP. (2015, credit: International Energy Agency (IEA) via The World Bank)")
+![A scatter plot of power consumption per capita versus G D P per capita for various countries. Power consumption in kilowatt per capita is shown along the horizontal axis and G D P per capita is show alon g the vertical axis.](../resources/Figure_07_09_04.svg "Power consumption per capita versus GDP per capita for various countries. Note the increase in energy usage with increasing GDP. (2015, credit: International Energy Agency (IEA) via The World Bank)")
 {: #Figure4}
 
 ### Conserving Energy

@@ -3,21 +3,10 @@
   "version": "1.0.0",
   "description": "Textbook for General Physics I",
   "repository": "https://github.com/veillette/physics-book",
-  "scripts": {
-    "build": "npx @11ty/eleventy",
-    "serve": "npx @11ty/eleventy serve"
-  },
-  "devDependencies": {
-    "@11ty/eleventy": "^2.0.0",
-    "playwright": "^1.35.1"
-  },
   "dependencies": {
-    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "liquidjs": "^10.8.3",
-    "markdown-it": "^13.0.1",
-    "markdown-it-anchor": "^8.6.7",
-    "markdown-it-attrs": "^4.1.6",
-    "markdown-it-footnote": "^3.0.3",
-    "markdown-it-mathjax3": "^4.3.2"
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.0",
+    "sharp": "^0.32.3",
+    "simple-git": "^3.19.1"
   }
 }

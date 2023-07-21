@@ -1,6 +1,8 @@
 ---
-title: "Gauge Pressure, Absolute Pressure, and Pressure Measurement"
+title: Gauge Pressure, Absolute Pressure, and Pressure Measurement
 layout: page
+sectionNumber: 6
+chapterNumber: 11
 ---
 
 <div class="abstract" markdown="1">
@@ -72,7 +74,7 @@ than putting a measuring device into a system, such as a person’s artery.
 in use today. In all mechanical pressure gauges, pressure results in a force
 that is converted (or transduced) into some type of readout.
 
-![Aneroid gauge measures pressure using a bellows and spring arrangement connected to the pointer that points to a calibrated scale.](../resources/Figure_11_06_01a.jpg "This aneroid gauge utilizes flexible bellows connected to a mechanical indicator to measure pressure.")
+![Aneroid gauge measures pressure using a bellows and spring arrangement connected to the pointer that points to a calibrated scale.](../resources/Figure_11_06_01.jpg "This aneroid gauge utilizes flexible bellows connected to a mechanical indicator to measure pressure.")
 {: #Figure1}
 
 An entire class of gauges uses the property that pressure due to the weight of a
@@ -103,7 +105,7 @@ atmospheric pressure by an amount $$h \rho g $$
 open to the atmosphere is an ideal device for measuring gauge pressures. The
 gauge pressure is $${P}_{\text{g}}=h \rho g $$ and is found by measuring $$h $$.
 
-![Open-tube manometers have U-shaped tubes and one end is always open. When open to atmosphere, fluid at both ends will be the same, as in the first figure. When pressure at one end is greater, the fluid level will go down on that end, as in the second figure. If the pressure at one end is less, then the height of the fluid column on that side will increase, as in the third figure.](../resources/Figure_11_06_02a.jpg "An open-tube manometer has one side open to the atmosphere. (a) Fluid depth must be the same on both sides, or the pressure each side exerts at the bottom will be unequal and there will be flow from the deeper side. (b) A positive gauge pressure \( P_g=h\rho g \) transmitted to one side of the manometer can support a column of fluid of height \( h \) . (c) Similarly, atmospheric pressure is greater than a negative gauge pressure \( P_{g} \) by an amount \( h\rho g \). The jar&#x2019;s rigidity prevents atmospheric pressure from being transmitted to the peanuts.")
+![Open-tube manometers have U-shaped tubes and one end is always open. When open to atmosphere, fluid at both ends will be the same, as in the first figure. When pressure at one end is greater, the fluid level will go down on that end, as in the second figure. If the pressure at one end is less, then the height of the fluid column on that side will increase, as in the third figure.](../resources/Figure_11_06_02.jpg "An open-tube manometer has one side open to the atmosphere. (a) Fluid depth must be the same on both sides, or the pressure each side exerts at the bottom will be unequal and there will be flow from the deeper side. (b) A positive gauge pressure \( P_g=h\rho g \) transmitted to one side of the manometer can support a column of fluid of height \( h \) . (c) Similarly, atmospheric pressure is greater than a negative gauge pressure \( P_{g} \) by an amount \( h\rho g \). The jar&#x2019;s rigidity prevents atmospheric pressure from being transmitted to the peanuts.")
 {: #Figure2}
 
 Mercury manometers are often used to measure arterial blood pressure. An
@@ -143,7 +145,7 @@ Diastolic pressure is the minimum blood pressure.
 
 </div>
 
-![U.S. Army Spc. Monica Brown takes a soldier\'s blood pressure reading at the hospital on Forward Operating Base Salerno, Afghanistan, March 10, 2008.](../resources/Figure_11_06_03a.jpg "In routine blood pressure measurements, an inflatable cuff is placed on the upper arm at the same level as the heart. Blood flow is detected just below the cuff, and corresponding pressures are transmitted to a mercury-filled manometer. (credit: U.S. Army photo by Spc. Micah E. Clare\4TH BCT)")
+![U.S. Army Spc. Monica Brown takes a soldier\'s blood pressure reading at the hospital on Forward Operating Base Salerno, Afghanistan, March 10, 2008.](../resources/Figure_11_06_03.jpg "In routine blood pressure measurements, an inflatable cuff is placed on the upper arm at the same level as the heart. Blood flow is detected just below the cuff, and corresponding pressures are transmitted to a mercury-filled manometer. (credit: U.S. Army photo by Spc. Micah E. Clare\4TH BCT)")
 {: #Figure3}
 
 <div class="example"  markdown="1">
@@ -194,7 +196,7 @@ Mercury barometers and manometers are so common that units of mm Hg are often
 quoted for atmospheric pressure and blood pressures. [[Table 1]](#Table1) gives
 conversion factors for some of the more commonly used units of pressure.
 
-![Mercury barometer has an evacuated glass tube inverted and placed in the mercury container. The height of the mercury column in the inverted tube is determined by the atmospheric pressure.](../resources/Figure_11_06_04a.jpg "A mercury barometer measures atmospheric pressure. The pressure due to the mercury&#x2019;s weight, \( h\rho g \), equals atmospheric pressure. The atmosphere is able to force mercury in the tube to a height \( h \) because the pressure above the mercury is zero.")
+![Mercury barometer has an evacuated glass tube inverted and placed in the mercury container. The height of the mercury column in the inverted tube is determined by the atmospheric pressure.](../resources/Figure_11_06_04.jpg "A mercury barometer measures atmospheric pressure. The pressure due to the mercury&#x2019;s weight, \( h\rho g \), equals atmospheric pressure. The atmosphere is able to force mercury in the tube to a height \( h \) because the pressure above the mercury is zero.")
 {: #Figure4}
 
 <table id="Table1" aria-describedby="Conversion Factors for Various Pressure Units"><caption><span class="title">Conversion Factors for Various Pressure Units</span></caption><thead>

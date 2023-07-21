@@ -1,9 +1,11 @@
 ---
-title: "Introduction to Magnetism"
+title: Introduction to Magnetism
 layout: page
+sectionNumber: 0
+chapterNumber: 22
 ---
 
-![A shimmering curtain of green lights in the sky above a snow covered landscape. Stars are visible in the dusky sky beyond the lights.](../resources/Figure_22_00_01a_D.jpg "The magnificent spectacle of the Aurora Borealis, or northern lights, glows in the northern sky above Bear Lake near Eielson Air Force Base, Alaska. Shaped by the Earth&#x2019;s magnetic field, this light is produced by radiation spewed from solar storms. (credit: Senior Airman Joshua Strang, via Flickr)")
+![A shimmering curtain of green lights in the sky above a snow covered landscape. Stars are visible in the dusky sky beyond the lights.](../resources/Figure_22_00_01.jpg "The magnificent spectacle of the Aurora Borealis, or northern lights, glows in the northern sky above Bear Lake near Eielson Air Force Base, Alaska. Shaped by the Earth&#x2019;s magnetic field, this light is produced by radiation spewed from solar storms. (credit: Senior Airman Joshua Strang, via Flickr)")
 {: #Figure1}
 
 One evening, an Alaskan sticks a note to his refrigerator with a small magnet.
@@ -48,7 +50,7 @@ explain atomic energy levels, cosmic rays, and charged particles trapped in the
 Van Allen belts. Once again, we will find all these disparate phenomena are
 linked by a small number of underlying physical principles.
 
-![A group of five different iPods.](../resources/Figure_22_00_02a.jpg "Engineering of technology like iPods would not be possible without a deep understanding magnetism. (credit: Jesse! S?, Flickr)")
+![A group of five different iPods.](../resources/Figure_22_00_02.jpg "Engineering of technology like iPods would not be possible without a deep understanding magnetism. (credit: Jesse! S?, Flickr)")
 {: #Figure2}
 
 <div class="note" data-label="Video" markdown="1">

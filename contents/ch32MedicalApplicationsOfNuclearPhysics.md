@@ -1,7 +1,9 @@
 ---
-title: "Introduction to Applications of Nuclear Physics"
+title: Introduction to Applications of Nuclear Physics
 layout: page
----  
+sectionNumber: 0
+chapterNumber: 32
+---
 
 <div class="abstract" markdown="1">
 * Provide examples of various nuclear physics applications.

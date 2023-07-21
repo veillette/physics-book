@@ -1,6 +1,8 @@
 ---
-title: "Conduction"
+title: Conduction
 layout: page
+sectionNumber: 5
+chapterNumber: 14
 ---
 
 <div class="abstract" markdown="1">
@@ -9,7 +11,7 @@ layout: page
 * Study thermal conductivities of common substances.
 </div>
 
-![The figure shows an insulated wooden partition in a house. The partition is insulated because it encapsulates a cloth-type material.](../resources/Figure_14_05_01a.jpg "Insulation is used to limit the conduction of heat from the inside to the outside (in winters) and from the outside to the inside (in summers). (credit: Giles Douglas)")
+![The figure shows an insulated wooden partition in a house. The partition is insulated because it encapsulates a cloth-type material.](../resources/Figure_14_05_01.jpg "Insulation is used to limit the conduction of heat from the inside to the outside (in winters) and from the outside to the inside (in summers). (credit: Giles Douglas)")
 {: #Figure1}
 
 Your feet feel cold as you walk barefoot across the living room carpet in your
@@ -36,7 +38,7 @@ that the number of collisions increases with increasing area, heat conduction
 depends on the cross-sectional area. If you touch a cold wall with your palm,
 your hand cools faster than if you just touch it with your fingertip.
 
-![The figure shows a vertical line labeled &#x201C;surface&#x201D; that divides the figure in two. Just below the line is a horizontal rightward wavy arrow labeled Q, heat conduction. The area left of the surface line is labeled higher temperature and the area right of the surface line is labeled lower temperature. One spherical object, labeled &#x201C;high energy before collision&#x201D; is on the left bottom side, with an arrow from it pointing to the right and up toward the vertical midpoint of the surface line. There is another spherical object at the top left side close to the surface line with an arrow from it pointing to the left and up. A third spherical object labeled &#x201C;low energy before collision&#x201D; appears on the right top side with an arrow pointing from it to the left and down toward the vertical midpoint of the surface line. There is a final spherical object at the lower right side close to the surface line with an arrow pointing from it to the right and down. There are dotted lines coming from all the four particles, merging at the midpoint on the surface line.](../resources/Figure_14_05_02a.jpg "The molecules in two bodies at different temperatures have different average kinetic energies. Collisions occurring at the contact surface tend to transfer energy from high-temperature regions to low-temperature regions. In this illustration, a molecule in the lower temperature region (right side) has low energy before collision, but its energy increases after colliding with the contact surface. In contrast, a molecule in the higher temperature region (left side) has high energy before collision, but its energy decreases after colliding with the contact surface.")
+![The figure shows a vertical line labeled &#x201C;surface&#x201D; that divides the figure in two. Just below the line is a horizontal rightward wavy arrow labeled Q, heat conduction. The area left of the surface line is labeled higher temperature and the area right of the surface line is labeled lower temperature. One spherical object, labeled &#x201C;high energy before collision&#x201D; is on the left bottom side, with an arrow from it pointing to the right and up toward the vertical midpoint of the surface line. There is another spherical object at the top left side close to the surface line with an arrow from it pointing to the left and up. A third spherical object labeled &#x201C;low energy before collision&#x201D; appears on the right top side with an arrow pointing from it to the left and down toward the vertical midpoint of the surface line. There is a final spherical object at the lower right side close to the surface line with an arrow pointing from it to the right and down. There are dotted lines coming from all the four particles, merging at the midpoint on the surface line.](../resources/Figure_14_05_02.jpg "The molecules in two bodies at different temperatures have different average kinetic energies. Collisions occurring at the contact surface tend to transfer energy from high-temperature regions to low-temperature regions. In this illustration, a molecule in the lower temperature region (right side) has low energy before collision, but its energy increases after colliding with the contact surface. In contrast, a molecule in the higher temperature region (left side) has high energy before collision, but its energy decreases after colliding with the contact surface.")
 {: #Figure2 height="275"}
 
 A third factor in the mechanism of conduction is the thickness of the material
@@ -49,7 +51,7 @@ same amount of heat. This model explains why thick clothing is warmer than thin
 clothing in winters, and why Arctic mammals protect themselves with thick
 blubber.
 
-![Two rectangular blocks are shown with the right one labeled T one and the left one labeled T two. The blocks are placed on a surface at a distance d from each other, so that their largest face faces the opposite block. The block T one is cold and the block T two is hot. The blocks are connected to each other with a conducting rectangular block of thermal conductivity k and cross-sectional area A. A wavy line labeled Q is inside the conducting block and points from the hot block to the cold block.](../resources/Figure_14_05_03a.jpg "Heat conduction occurs through any material, represented here by a rectangular bar, whether window glass or walrus blubber. The temperature of the material is \( T_{2} \) on the left and \( T_{1} \) on the right, where \( T_{2} \) is greater than \( T_{1} \) . The rate of heat transfer by conduction is directly proportional to the surface area \( A \) , the temperature difference \( T_2-T_1 \), and the substance&#x2019;s conductivity \( k \) . The rate of heat transfer is inversely proportional to the thickness \( d \) . ")
+![Two rectangular blocks are shown with the right one labeled T one and the left one labeled T two. The blocks are placed on a surface at a distance d from each other, so that their largest face faces the opposite block. The block T one is cold and the block T two is hot. The blocks are connected to each other with a conducting rectangular block of thermal conductivity k and cross-sectional area A. A wavy line labeled Q is inside the conducting block and points from the hot block to the cold block.](../resources/Figure_14_05_03.jpg "Heat conduction occurs through any material, represented here by a rectangular bar, whether window glass or walrus blubber. The temperature of the material is \( T_{2} \) on the left and \( T_{1} \) on the right, where \( T_{2} \) is greater than \( T_{1} \) . The rate of heat transfer by conduction is directly proportional to the surface area \( A \) , the temperature difference \( T_2-T_1 \), and the substance&#x2019;s conductivity \( k \) . The rate of heat transfer is inversely proportional to the thickness \( d \) . ")
 {: #Figure3}
 
 Lastly, the heat transfer rate depends on the material properties described by
@@ -220,7 +222,7 @@ fiberglass batts. Walls are usually insulated with 3.5-in batts, while ceilings
 are usually insulated with 6.5-in batts. In cold climates, thicker batts may be
 used in ceilings and walls.
 
-![The figure shows two thick rectangular pieces of fiberglass batt lying one upon the other.](../resources/Figure_14_05_04a.jpg "The fiberglass batt is used for insulation of walls and ceilings to prevent heat transfer between the inside of the building and the outside environment.")
+![The figure shows two thick rectangular pieces of fiberglass batt lying one upon the other.](../resources/Figure_14_05_04.jpg "The fiberglass batt is used for insulation of walls and ceilings to prevent heat transfer between the inside of the building and the outside environment.")
 {: #Figure4}
 
 Note that in [[Table 1]](#Table1), the best thermal conductors—silver, copper,
@@ -336,7 +338,7 @@ Some electric stoves have a flat ceramic surface with heating elements hidden be
 <div class="problem" markdown="1">
 Loose-fitting white clothing covering most of the body is ideal for desert dwellers, both in the hot Sun and during cold evenings. Explain how such clothing is advantageous during both day and night.
 
-![The figure shows a group of musicians wearing long, loose-fitting lightly colored robes that go down to their feet.](../resources/Figure_14_05_05a.jpg "A jellabiya is worn by many men in Egypt. (credit: Zerida)")
+![The figure shows a group of musicians wearing long, loose-fitting lightly colored robes that go down to their feet.](../resources/Figure_14_05_05.jpg "A jellabiya is worn by many men in Egypt. (credit: Zerida)")
 {: #Figure5}
 
 </div>
@@ -444,7 +446,7 @@ A walrus transfers energy by conduction through its blubber at the rate of 150 W
  and it has a surface area of  $$2.00 {\text{m}}^{2} $$ .
  What is the average thickness of its blubber, which has the conductivity of fatty tissues without blood?
 
-![The figure shows a walrus on an ice bank near the water. The tusks the walrus are visible.](../resources/Figure_14_05_07a.jpg "Walrus on ice. (credit: Captain Budd Christman, NOAA Corps)")
+![The figure shows a walrus on an ice bank near the water. The tusks the walrus are visible.](../resources/Figure_14_05_07.jpg "Walrus on ice. (credit: Captain Budd Christman, NOAA Corps)")
 {: #Figure6}
 </div>
 </div>

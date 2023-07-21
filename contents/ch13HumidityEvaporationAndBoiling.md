@@ -1,6 +1,8 @@
 ---
-title: "Humidity, Evaporation, and Boiling"
+title: Humidity, Evaporation, and Boiling
 layout: page
+sectionNumber: 6
+chapterNumber: 13
 ---
 
 <div class="abstract" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "Electromotive Force: Terminal Voltage"
+title: 'Electromotive Force: Terminal Voltage'
 layout: page
+sectionNumber: 2
+chapterNumber: 21
 ---
 
 <div class="abstract" markdown="1">

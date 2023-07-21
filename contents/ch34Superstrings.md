@@ -1,6 +1,8 @@
 ---
-title: "Superstrings"
+title: Superstrings
 layout: page
+sectionNumber: 3
+chapterNumber: 34
 ---
 
 <div class="abstract" markdown="1">

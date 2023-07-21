@@ -1,6 +1,8 @@
 ---
-title: "Binding Energy"
+title: Binding Energy
 layout: page
+sectionNumber: 6
+chapterNumber: 31
 ---
 
 <div class="abstract" markdown="1">
@@ -56,7 +58,7 @@ The atomic masses can be found in [Appendix A](../contents/appendixA), most conv
 expressed in unified atomic mass units u ( $$1 \text{u}= 931.5
 \text{MeV}/{c}^{2} $$ ). BE is thus calculated from known atomic masses.
 
-![The image shows some spherical protons and neutrons pulled out from a nucleus. The work done to pull them apart is binding energy.](../resources/Figure_31_06_01a.jpg "Work done to pull a nucleus apart into its constituent protons and neutrons increases the mass of the system. The work to disassemble the nucleus equals its binding energy BE. A bound system has less mass than the sum of its parts, especially noticeable in the nuclei, where forces and energies are very large.")
+![The image shows some spherical protons and neutrons pulled out from a nucleus. The work done to pull them apart is binding energy.](../resources/Figure_31_06_01.jpg "Work done to pull a nucleus apart into its constituent protons and neutrons increases the mass of the system. The work to disassemble the nucleus equals its binding energy BE. A bound system has less mass than the sum of its parts, especially noticeable in the nuclei, where forces and energies are very large.")
 {: #Figure1}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -85,7 +87,7 @@ that supports this age. The puzzle is that, given its age and initial
 temperature, the center of the Earth should be much cooler than it is today (
 see [[Figure 2]](#Figure2)).
 
-![The figure shows that the center of the Earth cools by three heat transfer methods. Convection heat transfer in the center region, then conduction heat transfer moves thermal energy to the surface, and finally radiation heat transfer from the surface to space.](../resources/Figure_31_06_02a.jpg "The center of the Earth cools by well-known heat transfer methods. Convection in the liquid regions and conduction move thermal energy to the surface, where it radiates into cold, dark space. Given the age of the Earth and its initial temperature, it should have cooled to a lower temperature by now. The blowup shows that nuclear decay releases energy in the Earth&#x2019;s interior. This energy has slowed the cooling process and is responsible for the interior still being molten.")
+![The figure shows that the center of the Earth cools by three heat transfer methods. Convection heat transfer in the center region, then conduction heat transfer moves thermal energy to the surface, and finally radiation heat transfer from the surface to space.](../resources/Figure_31_06_02.jpg "The center of the Earth cools by well-known heat transfer methods. Convection in the liquid regions and conduction move thermal energy to the surface, where it radiates into cold, dark space. Given the age of the Earth and its initial temperature, it should have cooled to a lower temperature by now. The blowup shows that nuclear decay releases energy in the Earth&#x2019;s interior. This energy has slowed the cooling process and is responsible for the interior still being molten.")
 {: #Figure2}
 
 We know from seismic waves produced by earthquakes that parts of the interior of
@@ -148,10 +150,10 @@ becomes smaller. This is why stable nuclei heavier than $$A\approx 40 $$ have
 more neutrons than protons. Coulomb repulsion is reduced by having more neutrons
 to keep the protons farther apart (see [[Figure 4]](#Figure4)).
 
-![The figure shows a graph of binding energy per nucleon versus atomic mass for different elements. From the graph it can be observed that elements with atomic mass near sixty have greater binding energy per nucleon.](../resources/Figure_31_06_03a.jpg "A graph of average binding energy per nucleon, \( \text{BE}/A \), for stable nuclei. The most tightly bound nuclei are those with \( A \) near 60, where the attractive nuclear force has its greatest effect. At higher \( A \) s, the Coulomb repulsion progressively reduces the binding energy per nucleon, because the nuclear force is short ranged. The spikes on the curve are very tightly bound nuclides and indicate shell closures.")
+![The figure shows a graph of binding energy per nucleon versus atomic mass for different elements. From the graph it can be observed that elements with atomic mass near sixty have greater binding energy per nucleon.](../resources/Figure_31_06_03.jpg "A graph of average binding energy per nucleon, \( \text{BE}/A \), for stable nuclei. The most tightly bound nuclei are those with \( A \) near 60, where the attractive nuclear force has its greatest effect. At higher \( A \) s, the Coulomb repulsion progressively reduces the binding energy per nucleon, because the nuclear force is short ranged. The spikes on the curve are very tightly bound nuclides and indicate shell closures.")
 {: #Figure3}
 
-![The image shows a bunch of spherical nucleons inside a nucleus. A circular dashed path is shown which depicts the range of nuclear force and the nucleons inside that range feel nuclear force directly.](../resources/Figure_31_06_04a.jpg "The nuclear force is attractive and stronger than the Coulomb force, but it is short ranged. In low-mass nuclei, each nucleon feels the nuclear attraction of all others. In larger nuclei, the range of the nuclear force, shown for a single nucleon, is smaller than the size of the nucleus, but the Coulomb repulsion from all protons reaches all others. If the nucleus is large enough, the Coulomb repulsion can add to overcome the nuclear attraction.")
+![The image shows a bunch of spherical nucleons inside a nucleus. A circular dashed path is shown which depicts the range of nuclear force and the nucleons inside that range feel nuclear force directly.](../resources/Figure_31_06_04.jpg "The nuclear force is attractive and stronger than the Coulomb force, but it is short ranged. In low-mass nuclei, each nucleon feels the nuclear attraction of all others. In larger nuclei, the range of the nuclear force, shown for a single nucleon, is smaller than the size of the nucleus, but the Coulomb repulsion from all protons reaches all others. If the nucleus is large enough, the Coulomb repulsion can add to overcome the nuclear attraction.")
 {: #Figure4}
 
 There are some noticeable spikes on the $$\text{BE}/A $$ graph, which represent

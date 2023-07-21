@@ -1,6 +1,8 @@
 ---
-title: "Einstein’s Postulates"
+title: Einstein’s Postulates
 layout: page
+sectionNumber: 1
+chapterNumber: 28
 ---
 
 <div class="abstract" markdown="1">
@@ -9,7 +11,7 @@ layout: page
 * Describe one way the speed of light can be changed.
 </div>
 
-![A calculator is placed on open math books and few papers. Problems on trigonometry are solved on one of the papers.](../resources/Figure_28_01_01a.jpg "Special relativity resembles trigonometry in that both are reliable because they are based on postulates that flow one from another in a logical way. (credit: Jon Oakley, Flickr)")
+![A calculator is placed on open math books and few papers. Problems on trigonometry are solved on one of the papers.](../resources/Figure_28_01_01.jpg "Special relativity resembles trigonometry in that both are reliable because they are based on postulates that flow one from another in a logical way. (credit: Jon Oakley, Flickr)")
 {: #Figure1}
 
 

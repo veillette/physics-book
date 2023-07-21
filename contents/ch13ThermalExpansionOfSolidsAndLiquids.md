@@ -1,6 +1,8 @@
 ---
-title: "Thermal Expansion of Solids and Liquids"
+title: Thermal Expansion of Solids and Liquids
 layout: page
+sectionNumber: 2
+chapterNumber: 13
 ---
 
 <div class="abstract" markdown="1">
@@ -369,7 +371,7 @@ but because the gasoline has expanded, there is less mass. If you are used to
 getting another 40 miles on “empty” in the winter, beware—you will probably run
 out much more quickly in the summer.
 
-![Fuel gauge pointing to empty.](../resources/Figure_13_02_03a.jpg "Because the gas expands more than the gas tank with increasing temperature, you can&#x2019;t drive as many miles on &#x201C;empty&#x201D; in the summer as you can in the winter. (credit: Hector Alejandro, Flickr)")
+![Fuel gauge pointing to empty.](../resources/Figure_13_02_04.jpg "Because the gas expands more than the gas tank with increasing temperature, you can&#x2019;t drive as many miles on &#x201C;empty&#x201D; in the summer as you can in the winter. (credit: Hector Alejandro, Flickr)")
 {: #Figure4}
 
 </div>
@@ -497,7 +499,7 @@ taste. Repeated thawing and freezing accentuate the damage. Even the oceans can
 be affected. A significant portion of the rise in sea level that is resulting
 from global warming is due to the thermal expansion of sea water.
 
-![A cracked asphalt road with a pothole.](../resources/Figure_13_02_04.jpg "Thermal stress contributes to the formation of potholes. (credit: Editor5807, Wikimedia Commons)")
+![A cracked asphalt road with a pothole.](../resources/Figure_13_02_05.jpg "Thermal stress contributes to the formation of potholes. (credit: Editor5807, Wikimedia Commons)")
 {: #Figure5}
 
 Metal is regularly used in the human body for hip and knee implants. Most
@@ -524,7 +526,7 @@ Two blocks, A and B, are made of the same material. Block A has dimensions  $$l�
  If the temperature changes, what is (a) the change in the volume of the two blocks, (b) the change in the cross-sectional area  $$l×w $$ ,
  and (c) the change in the height  $$h $$  of the two blocks?
 
-![There are two rectangular blocks. Block A has its dimensions labeled length equals L, width equals two times L, height equals L. Block B has its dimensions labeled length, width, and height all equal to two times L.](../resources/Figure_13_02_04a.jpg " ")
+![There are two rectangular blocks. Block A has its dimensions labeled length equals L, width equals two times L, height equals L. Block B has its dimensions labeled length, width, and height all equal to two times L.](../resources/Figure_13_02_06.jpg " ")
 {: #Figure6}
 
 </div>

@@ -1,6 +1,8 @@
 ---
-title: "Biological Effects of Ionizing Radiation"
+title: Biological Effects of Ionizing Radiation
 layout: page
+sectionNumber: 2
+chapterNumber: 32
 ---
 
 <div class="abstract" markdown="1">
@@ -110,7 +112,7 @@ relative biological effectiveness.
  $$rem=rad×RBE $$
 </div>
 
-![The image shows ionization created in cells by gamma and alpha radiation. Series of cells are shown through which a gamma ray passes causing ionization whose density is low. Another series of cells are shown through which an alpha ray passes causing ionization whose density is high.](../resources/Figure_32_02_01a.jpg "The image shows ionization created in cells by \( \alpha \); and \( \gamma \) radiation. Because of its shorter range, the ionization and damage created by \( \alpha \) is more concentrated and harder for the organism to repair. Thus, the RBE for \( \alpha \)s is greater than the RBE for \( \gamma \)s, even though they create the same amount of ionization at the same energy.")
+![The image shows ionization created in cells by gamma and alpha radiation. Series of cells are shown through which a gamma ray passes causing ionization whose density is low. Another series of cells are shown through which an alpha ray passes causing ionization whose density is high.](../resources/Figure_32_02_01.jpg "The image shows ionization created in cells by \( \alpha \); and \( \gamma \) radiation. Because of its shorter range, the ionization and damage created by \( \alpha \) is more concentrated and harder for the organism to repair. Thus, the RBE for \( \alpha \)s is greater than the RBE for \( \gamma \)s, even though they create the same amount of ionization at the same energy.")
 {: #Figure1}
 
 So, if a person had a whole-body dose of 2.00 rad of $$\gamma $$ radiation, the
@@ -448,7 +450,7 @@ less time a person is exposed to a given source, the smaller is the dose
 received by the person. Doses from most medical diagnostics have decreased in
 recent years due to faster films that require less exposure time.
 
-![The image shows a dental patient wearing a lead apron sitting in a chair. X-rays emitting from an x-ray tube that is placed on the side of the patient&#x2019;s jaw are passing through only the affected area of his teeth.](../resources/Figure_32_02_02a.jpg "A lead apron is placed over the dental patient and shielding surrounds the x-ray tube to limit exposure to tissue other than the tissue that is being imaged. Fast films limit the time needed to obtain images, reducing exposure to the imaged tissue. The technician stands a few meters away behind a lead-lined door with a lead glass window, reducing her occupational exposure.")
+![The image shows a dental patient wearing a lead apron sitting in a chair. X-rays emitting from an x-ray tube that is placed on the side of the patient&#x2019;s jaw are passing through only the affected area of his teeth.](../resources/Figure_32_02_02.jpg "A lead apron is placed over the dental patient and shielding surrounds the x-ray tube to limit exposure to tissue other than the tissue that is being imaged. Fast films limit the time needed to obtain images, reducing exposure to the imaged tissue. The technician stands a few meters away behind a lead-lined door with a lead glass window, reducing her occupational exposure.")
 {: #Figure2}
 
 <table id="Table5" aria-describedby="This is a two column table. The left column gives a variety of medical procedures involving radiation. The right column lists the corresponding effective doses for each procedure."><caption><span class="title">Typical Doses Received During Diagnostic X-ray Exams</span></caption><thead><tr>
@@ -726,7 +728,7 @@ Which methods of radiation protection were used in the device shown in the first
 
 (a)
 
-![Figure A shows a &#x201C;shoe fitting x-ray device.&#x201D; Figure B shows a group of people wearing white protective suits standing near a yellow radiation hazard sign.](../resources/Figure_32_02_03a.jpg "(a) This x-ray fluorescence machine is one of the thousands used in shoe stores to produce images of feet as a check on the fit of shoes. They are unshielded and remain on as long as the feet are in them, producing doses much greater than medical images. Children were fascinated with them. These machines were used in shoe stores until laws preventing such unwarranted radiation exposure were enacted in the 1950s. (credit: Andrew Kuchling ) (b) Now that we know the effects of exposure to radioactive material, safety is a priority. (credit: U.S. Navy)")
+![Figure A shows a &#x201C;shoe fitting x-ray device.&#x201D; Figure B shows a group of people wearing white protective suits standing near a yellow radiation hazard sign.](../resources/Figure_32_02_03.jpg "(a) This x-ray fluorescence machine is one of the thousands used in shoe stores to produce images of feet as a check on the fit of shoes. They are unshielded and remain on as long as the feet are in them, producing doses much greater than medical images. Children were fascinated with them. These machines were used in shoe stores until laws preventing such unwarranted radiation exposure were enacted in the 1950s. (credit: Andrew Kuchling ) (b) Now that we know the effects of exposure to radioactive material, safety is a priority. (credit: U.S. Navy)")
 {: #Figure3}
 
 </div>

@@ -1,6 +1,8 @@
 ---
-title: "Motion of an Object in a Viscous Fluid"
+title: Motion of an Object in a Viscous Fluid
 layout: page
+sectionNumber: 6
+chapterNumber: 12
 ---
 
 <div class="abstract" markdown="1">

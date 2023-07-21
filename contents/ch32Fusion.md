@@ -1,6 +1,8 @@
 ---
-title: "Fusion"
+title: Fusion
 layout: page
+sectionNumber: 5
+chapterNumber: 32
 ---
 
 <div class="abstract" markdown="1">
@@ -18,7 +20,7 @@ temperatures and containment difficulties remain. The cold fusion controversy
 centered around unsubstantiated claims of practical fusion power at room
 temperatures.
 
-![This figure shows Sun rays piercing clouds to illuminate a natural scene.](../resources/Figure_32_05_01a.jpg "The Sun&#x2019;s energy is produced by nuclear fusion. (credit: Spiralz)")
+![This figure shows Sun rays piercing clouds to illuminate a natural scene.](../resources/Figure_32_05_01.jpg "The Sun&#x2019;s energy is produced by nuclear fusion. (credit: Spiralz)")
 {: #Figure1}
 
 **Nuclear fusion** is a reaction in which two nuclei are combined, or *fused*,
@@ -34,7 +36,7 @@ is destroyed in the fusion reaction, and energy is released (
 see [[Figure 2]](#Figure2)). On average, fusion of low-mass nuclei releases
 energy, but the details depend on the actual nuclides involved.
 
-![This figure is a graph of atomic mass as horizontal axis versus binding energy per nucleon as vertical axis showing that, as a function of atomic mass, the binding energy per nucleon steeply increases from zero to about 9 M e V per nucleon then, after attaining a peak, slowly decreases to about 8 M e V per nucleon.](../resources/Figure_32_05_02a.jpg "Fusion of light nuclei to form medium-mass nuclei destroys mass, because \( \text{BE}/A \) is greater for the product nuclei. The larger \( \text{BE}/A \) is, the less mass per nucleon, and so mass is converted to energy and released in these fusion reactions.")
+![This figure is a graph of atomic mass as horizontal axis versus binding energy per nucleon as vertical axis showing that, as a function of atomic mass, the binding energy per nucleon steeply increases from zero to about 9 M e V per nucleon then, after attaining a peak, slowly decreases to about 8 M e V per nucleon.](../resources/Figure_32_05_02.jpg "Fusion of light nuclei to form medium-mass nuclei destroys mass, because \( \text{BE}/A \) is greater for the product nuclei. The larger \( \text{BE}/A \) is, the less mass per nucleon, and so mass is converted to energy and released in these fusion reactions.")
 {: #Figure2}
 
 The major obstruction to fusion is the Coulomb repulsion between nuclei. Since
@@ -51,7 +53,7 @@ fall into a deep well. One way to accomplish this is to heat fusion fuel to high
 temperatures so that the kinetic energy of thermal motion is sufficient to get
 the nuclei together.
 
-![The graph shows potential energy as a function of distance r. The potential energy is negative for small r, then rises sharply to a positive peak at medium r, then falls back asymptotically to zero for large r. The curve at small r is labeled &#x201C;attractive nuclear,&#x201D; and the curve at large r is labeled &#x201C;repulsive Coulomb.&#x201D; A small ball is drawn to the left of the peak with an arrow indicating that the ball is moving down the potential energy curve toward the negative potential energy well. This ball is labeled &#x201C;pulled together.&#x201D; Another small ball is drawn to the right of the peak with an arrow indicating it is moving toward larger r. This ball is labeled &#x201C;repelled.&#x201D;](../resources/Figure_32_05_03a.jpg "Potential energy between two light nuclei graphed as a function of distance between them. If the nuclei have enough kinetic energy to get over the Coulomb repulsion hump, they combine, release energy, and drop into a deep attractive well. Tunneling through the barrier is important in practice. The greater the kinetic energy and the higher the particles get up the barrier (or the lower the barrier), the more likely the tunneling.")
+![The graph shows potential energy as a function of distance r. The potential energy is negative for small r, then rises sharply to a positive peak at medium r, then falls back asymptotically to zero for large r. The curve at small r is labeled &#x201C;attractive nuclear,&#x201D; and the curve at large r is labeled &#x201C;repulsive Coulomb.&#x201D; A small ball is drawn to the left of the peak with an arrow indicating that the ball is moving down the potential energy curve toward the negative potential energy well. This ball is labeled &#x201C;pulled together.&#x201D; Another small ball is drawn to the right of the peak with an arrow indicating it is moving toward larger r. This ball is labeled &#x201C;repelled.&#x201D;](../resources/Figure_32_05_03.jpg "Potential energy between two light nuclei graphed as a function of distance between them. If the nuclei have enough kinetic energy to get over the Coulomb repulsion hump, they combine, release energy, and drop into a deep attractive well. Tunneling through the barrier is important in practice. The greater the kinetic energy and the higher the particles get up the barrier (or the lower the barrier), the more likely the tunneling.")
 {: #Figure3}
 
 You might think that, in the core of our Sun, nuclei are coming into contact and
@@ -67,7 +69,7 @@ takes place at their centers, where temperatures are highest. Moreover, high
 temperature is needed for thermonuclear power to be a practical source of
 energy.
 
-![The first part of the figure shows two nuclei approaching each other, then slowing down, then moving away from each other. The second part shows two nuclei approaching and colliding to form a single nucleus that has emitted radiation and a particle.](../resources/Figure_32_05_04a.jpg "(a) Two nuclei heading toward each other slow down, then stop, and then fly away without touching or fusing. (b) At higher energies, the two nuclei approach close enough for fusion via tunneling. The probability of tunneling increases as they approach, but they do not have to touch for the reaction to occur.")
+![The first part of the figure shows two nuclei approaching each other, then slowing down, then moving away from each other. The second part shows two nuclei approaching and colliding to form a single nucleus that has emitted radiation and a particle.](../resources/Figure_32_05_04.jpg "(a) Two nuclei heading toward each other slow down, then stop, and then fly away without touching or fusing. (b) At higher energies, the two nuclei approach close enough for fusion via tunneling. The probability of tunneling increases as they approach, but they do not have to touch for the reaction to occur.")
 {: #Figure4}
 
 The Sun produces energy by fusing protons or hydrogen nuclei $${}^{1}\text{H} $$
@@ -114,7 +116,7 @@ are stable for billions of years, until a significant fraction of their hydrogen
 has been depleted. What happens then is discussed
 in [Introduction to Frontiers of Physics ](../contents/ch34FrontiersOfPhysics).
 
-![In the given figure nuclear fusion in the Sun is shown. The sun is shown like a sunflower. In the center, helium H e is shown. The energy emitted from H E is shown by outward arrows.](../resources/Figure_32_05_05a.jpg "Nuclear fusion in the Sun converts hydrogen nuclei into helium; fusion occurs primarily at the boundary of the helium core, where temperature is highest and sufficient hydrogen remains. Energy released diffuses slowly to the surface, with the exception of neutrinos, which escape immediately. Energy production remains stable because of negative feedback effects.")
+![In the given figure nuclear fusion in the Sun is shown. The sun is shown like a sunflower. In the center, helium H e is shown. The energy emitted from H E is shown by outward arrows.](../resources/Figure_32_05_05.jpg "Nuclear fusion in the Sun converts hydrogen nuclei into helium; fusion occurs primarily at the boundary of the helium core, where temperature is highest and sufficient hydrogen remains. Energy released diffuses slowly to the surface, with the exception of neutrinos, which escape immediately. Energy production remains stable because of negative feedback effects.")
 {: #Figure5}
 
 Theories of the proton-proton cycle (and other energy-producing cycles in stars)
@@ -132,10 +134,10 @@ with a blend of theory and experiment that showed that the neutrino does indeed
 have mass. It was also found that there are three types of neutrinos, each
 associated with a different type of nuclear decay.
 
-![This figure shows an arrangement of shining pegs arranged in concentric circles.](../resources/Figure_32_05_06a.jpg "This array of photomultiplier tubes is part of the large solar neutrino detector at the Fermi National Accelerator Laboratory in Illinois. In these experiments, the neutrinos interact with heavy water and produce flashes of light, which are detected by the photomultiplier tubes. In spite of its size and the huge flux of neutrinos that strike it, very few are detected each day since they interact so weakly. This, of course, is the same reason they escape the Sun so readily. (credit: Fred Ullrich)")
+![This figure shows an arrangement of shining pegs arranged in concentric circles.](../resources/Figure_32_05_06.jpg "This array of photomultiplier tubes is part of the large solar neutrino detector at the Fermi National Accelerator Laboratory in Illinois. In these experiments, the neutrinos interact with heavy water and produce flashes of light, which are detected by the photomultiplier tubes. In spite of its size and the huge flux of neutrinos that strike it, very few are detected each day since they interact so weakly. This, of course, is the same reason they escape the Sun so readily. (credit: Fred Ullrich)")
 {: #Figure6}
 
-![The image shows what appears to be a big flame at the center surrounded circularly by many small lit candles.](../resources/Figure_32_05_07a.jpg "Supernovas are the source of elements heavier than iron. Energy released powers nucleosynthesis. Spectroscopic analysis of the ring of material ejected by Supernova 1987A observable in the southern hemisphere, shows evidence of heavy elements. The study of this supernova also provided indications that neutrinos might have mass. (credit: NASA, ESA, and P. Challis)")
+![The image shows what appears to be a big flame at the center surrounded circularly by many small lit candles.](../resources/Figure_32_05_07.jpg "Supernovas are the source of elements heavier than iron. Energy released powers nucleosynthesis. Spectroscopic analysis of the ring of material ejected by Supernova 1987A observable in the southern hemisphere, shows evidence of heavy elements. The study of this supernova also provided indications that neutrinos might have mass. (credit: NASA, ESA, and P. Challis)")
 {: #Figure7}
 
 The proton-proton cycle is not a practical source of energy on Earth, in spite
@@ -211,7 +213,7 @@ will generate 500 MW of power for extended periods of time and will achieve
 break-even conditions. It will study plasmas in conditions similar to those
 expected in a fusion power plant. Completion is scheduled for 2018.
 
-![A three-dimensional cut-away model showing the interior of a complex technical device. The device has a central cavity and there are many tubes and connectors arranged around the central cavity.](../resources/Figure_32_05_08a.jpg "(a) Artist&#x2019;s rendition of ITER, a tokamak-type fusion reactor being built in southern France. It is hoped that this gigantic machine will reach the break-even point. Completion is scheduled for 2018. (credit: Stephan Mosel, Flickr)")
+![A three-dimensional cut-away model showing the interior of a complex technical device. The device has a central cavity and there are many tubes and connectors arranged around the central cavity.](../resources/Figure_32_05_08.jpg "(a) Artist&#x2019;s rendition of ITER, a tokamak-type fusion reactor being built in southern France. It is hoped that this gigantic machine will reach the break-even point. Completion is scheduled for 2018. (credit: Stephan Mosel, Flickr)")
 {: #Figure8}
 
 The second promising technique aims multiple lasers at tiny fuel pellets filled
@@ -224,7 +226,7 @@ smaller confinement times. In 2009, the Lawrence Livermore Laboratory (CA)
 completed a laser fusion device with 192 ultraviolet laser beams that are
 focused upon a D-T pellet (see [[Figure 9]](#Figure9)).
 
-![A room filled with lots of cylindrical tubes connected to each other.](../resources/Figure_32_05_09a.jpg "National Ignition Facility (CA). This image shows a laser bay where 192 laser beams will focus onto a small D-T target, producing fusion. (credit: Lawrence Livermore National Laboratory, Lawrence Livermore National Security, LLC, and the Department of Energy)")
+![A room filled with lots of cylindrical tubes connected to each other.](../resources/Figure_32_05_09.jpg "National Ignition Facility (CA). This image shows a laser bay where 192 laser beams will focus onto a small D-T target, producing fusion. (credit: Lawrence Livermore National Laboratory, Lawrence Livermore National Security, LLC, and the Department of Energy)")
 {: #Figure9}
 
 <div id="Example1" class="example" markdown="1">

@@ -1,6 +1,8 @@
 ---
-title: "GUTs: The Unification of Forces"
+title: 'GUTs: The Unification of Forces'
 layout: page
+sectionNumber: 6
+chapterNumber: 33
 ---
 
 <div class="abstract" markdown="1">

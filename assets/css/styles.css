@@ -140,13 +140,18 @@ h6:hover .header-link {
     letter-spacing: 1px;
 }
 
-.equation::after {
-    /*  content: 'Eq.( ' counter(equation) ')'; */
+.equation::before {
+    content: '';
 }
 
 .equation {
+    display: flex;
+    justify-content: space-evenly;
     counter-increment: equation;
-    /*  text-align: right; */
+}
+
+.equation::after {
+    content: 'Eq.(' counter(equation) ')';
 }
 
 .note {
