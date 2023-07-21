@@ -1,7 +1,8 @@
 ---
-title: "Statistical Interpretation of Entropy and the Second Law of
-Thermodynamics: The Underlying Explanation"
+title: 'Statistical Interpretation of Entropy and the Second Law of Thermodynamics: The Underlying Explanation'
 layout: page
+sectionNumber: 7
+chapterNumber: 15
 ---
 
 <div class="abstract" markdown="1">

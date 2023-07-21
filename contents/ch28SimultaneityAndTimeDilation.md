@@ -1,6 +1,8 @@
 ---
-title: "Simultaneity And Time Dilation"
+title: Simultaneity And Time Dilation
 layout: page
+sectionNumber: 2
+chapterNumber: 28
 ---
 
 <div class="abstract" markdown="1">
@@ -11,7 +13,7 @@ layout: page
 * Explain why the twin paradox is a false paradox.
 </div>
 
-![A runner crossing a finishing line on a road with a clock showing his finish time.](../resources/Figure_28_02_01a.jpg "Elapsed time for a foot race is the same for all observers, but at relativistic speeds, elapsed time depends on the relative motion of the observer and the event that is observed. (credit: Jason Edward Scott  Bain, Flickr)")
+![A runner crossing a finishing line on a road with a clock showing his finish time.](../resources/Figure_28_02_01.jpg "Elapsed time for a foot race is the same for all observers, but at relativistic speeds, elapsed time depends on the relative motion of the observer and the event that is observed. (credit: Jason Edward Scott  Bain, Flickr)")
 {: #Figure1}
 
 Do time intervals depend on who observes them? Intuitively, we expect the time
@@ -40,7 +42,7 @@ by the motion of the lamps relative to B. Therefore, light travels equal
 distances to him at equal speeds. Thus observer B measures the flashes to be
 simultaneous.
 
-![A girl as observer A is sitting down midway on a rail car with two flash lamps at opposite sides equidistant from her. Multiple light rays that are emitted from respective flash lamps towards observer A are shown with arrows. A velocity vector arrow for the rail car is shown towards the right. A male observer B standing on the platform is facing her. Now observer A moves with the lamps on a rail car that is as the rail car moves towards the right of observer B. Observer B receives the light flashes simultaneously, but he notes that observer A receives the flash from the right first. B observes the flashes to be simultaneous to him but not to A.](../resources/Figure_28_02_02a.jpg "Observer B measures the elapsed time between the arrival of light flashes as described in the text. Observer A moves with the lamps on a rail car. Observer B perceives that the light flashes occurred simultaneously. Observer A perceives that the light on the right flashes before the light on the left.")
+![A girl as observer A is sitting down midway on a rail car with two flash lamps at opposite sides equidistant from her. Multiple light rays that are emitted from respective flash lamps towards observer A are shown with arrows. A velocity vector arrow for the rail car is shown towards the right. A male observer B standing on the platform is facing her. Now observer A moves with the lamps on a rail car that is as the rail car moves towards the right of observer B. Observer B receives the light flashes simultaneously, but he notes that observer A receives the flash from the right first. B observes the flashes to be simultaneous to him but not to A.](../resources/Figure_28_02_02.jpg "Observer B measures the elapsed time between the arrival of light flashes as described in the text. Observer A moves with the lamps on a rail car. Observer B perceives that the light flashes occurred simultaneously. Observer A perceives that the light on the right flashes before the light on the left.")
 {: #Figure2}
 
 Now consider what observer B sees happen to observer A. Observer B perceives
@@ -102,7 +104,7 @@ distance the light travels in the astronaut’s frame is smaller than in the
 Earth-bound frame. Light travels at the same speed in each frame, and so it will
 take longer to travel the greater distance in the Earth-bound frame.
 
-![For part a, an astronaut is standing inside the spaceship with an electronic timer. The timer is showing the time delta-t-zero. The astronaut has to measure time for an activity which has a mirror, the Sun as a source of light, and a receiver. A ray from the light source is striking the mirror and getting reflected back to the receiver. The distance between the source of light and mirror is given by d. For part b, the same activity is observed by a man standing on Earth. He has an electronic timer showing the time as delta-t. For the observer on earth the activity is fragmented into three portions. In the first portion, the ray of light is travelling a distance of and strikes the mirror in the second portion. The third portion shows the reflected ray of light striking the receiver represented by s and having a vertical distance of d. The horizontal distance L observed by the man from the beginning of the event till the end portion is given as L equals to velocity v into delta t upon two.](../resources/Figure_28_02_03a.jpg "(a) An astronaut measures the time \( \Delta t_0 \) for light to cross her ship using an electronic timer. Light travels a distance 2D in the astronaut&#x2019;s frame. (b) A person on the Earth sees the light follow the longer path 2s and take a longer time \( \Delta t \) . (c) These triangles are used to find the relationship between the two distances 2D and 2s.")
+![For part a, an astronaut is standing inside the spaceship with an electronic timer. The timer is showing the time delta-t-zero. The astronaut has to measure time for an activity which has a mirror, the Sun as a source of light, and a receiver. A ray from the light source is striking the mirror and getting reflected back to the receiver. The distance between the source of light and mirror is given by d. For part b, the same activity is observed by a man standing on Earth. He has an electronic timer showing the time as delta-t. For the observer on earth the activity is fragmented into three portions. In the first portion, the ray of light is travelling a distance of and strikes the mirror in the second portion. The third portion shows the reflected ray of light striking the receiver represented by s and having a vertical distance of d. The horizontal distance L observed by the man from the beginning of the event till the end portion is given as L equals to velocity v into delta t upon two.](../resources/Figure_28_02_03.jpg "(a) An astronaut measures the time \( \Delta t_0 \) for light to cross her ship using an electronic timer. Light travels a distance 2D in the astronaut&#x2019;s frame. (b) A person on the Earth sees the light follow the longer path 2s and take a longer time \( \Delta t \) . (c) These triangles are used to find the relationship between the two distances 2D and 2s.")
 {: #Figure3}
 
 To quantitatively verify that time depends on the observer, consider the paths
@@ -249,7 +251,7 @@ Suppose a cosmic ray colliding with a nucleus in the Earth’s upper atmosphere 
  The muon then travels at constant velocity and lives  $$ 1.52 \mu \text{s} $$
  as measured in the muon’s frame of reference. (You can imagine this as the muon’s internal clock.) How long does the muon live as measured by an Earth-bound observer? (See [[Figure 4]](#Figure4).)
 
-![A muon is moving far above the earth. A teenage boy is looking towards the muon. A velocity vector arrow V starting from Muon is pointing toward the boy. A clock depicting time delta-t-zero is shown near the muon, and another time clock depicting the time delta-t is shown near the boy.](../resources/Figure_28_02_04a.jpg "A muon in the Earth&#x2019;s atmosphere lives longer as measured by an Earth-bound observer than measured by the muon&#x2019;s internal clock.")
+![A muon is moving far above the earth. A teenage boy is looking towards the muon. A velocity vector arrow V starting from Muon is pointing toward the boy. A clock depicting time delta-t-zero is shown near the muon, and another time clock depicting the time delta-t is shown near the boy.](../resources/Figure_28_02_04.jpg "A muon in the Earth&#x2019;s atmosphere lives longer as measured by an Earth-bound observer than measured by the muon&#x2019;s internal clock.")
 {: #Figure4}
 
 <!--  <figure markdown="1" >
@@ -343,7 +345,7 @@ factor of $$\gamma = 30.0 $$ . To her, the Earth-bound sister will have aged
 only 2/30 (1/15) of a year, while she aged 2.00 years. The two sisters cannot
 both be correct.
 
-![There are two sections in this figure. In the first section a young woman is shown standing on the Earth and her twin is standing in a traveling spaceship. There is a clock beside each of the women showing equal time. In the second section of the figure it is shown that the traveling twin ages less than the Earth-bound twin and the Earth-bound twin is looking older. In the clocks it is shown that on Earth time runs faster than on the traveling spaceship.](../resources/Figure_28_02_05a.jpg "The twin paradox asks why the traveling twin ages less than the Earth-bound twin. That is the prediction we obtain if we consider the Earth-bound twin&#x2019;s frame. In the astronaut&#x2019;s frame, however, the Earth is moving and time runs slower there. Who is correct?")
+![There are two sections in this figure. In the first section a young woman is shown standing on the Earth and her twin is standing in a traveling spaceship. There is a clock beside each of the women showing equal time. In the second section of the figure it is shown that the traveling twin ages less than the Earth-bound twin and the Earth-bound twin is looking older. In the clocks it is shown that on Earth time runs faster than on the traveling spaceship.](../resources/Figure_28_02_05.jpg "The twin paradox asks why the traveling twin ages less than the Earth-bound twin. That is the prediction we obtain if we consider the Earth-bound twin&#x2019;s frame. In the astronaut&#x2019;s frame, however, the Earth is moving and time runs slower there. Who is correct?")
 {: #Figure5}
 
 As with all paradoxes, the premise is faulty and leads to contradictory

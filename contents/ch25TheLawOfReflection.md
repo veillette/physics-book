@@ -1,6 +1,8 @@
 ---
-title: "The Law of Reflection"
+title: The Law of Reflection
 layout: page
+sectionNumber: 2
+chapterNumber: 25
 ---
 
 <div class="abstract" markdown="1">

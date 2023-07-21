@@ -1,6 +1,8 @@
 ---
-title: "Nuclear Weapons"
+title: Nuclear Weapons
 layout: page
+sectionNumber: 7
+chapterNumber: 32
 ---
 
 <div class="abstract" markdown="1">
@@ -61,7 +63,7 @@ be relatively simple. Owing to the fact that the rate of spontaneous fission is
 low, a neutron source is triggered at the same time the critical mass is
 assembled.
 
-![The figure shows a capsule-shaped fission device which contains explosive propellant on one end and two subcritical masses of fission material separated by space and neutron initiator at the other end before firing which become a supercritical mass after firing and explode.](../resources/Figure_32_07_01a.jpg "A gun-type fission bomb for \( {}^{235}\text{U} \) utilizes two subcritical masses forced together by explosive charges inside a cannon barrel. The energy yield depends on the amount of uranium and the time it can be held together before it disassembles itself.")
+![The figure shows a capsule-shaped fission device which contains explosive propellant on one end and two subcritical masses of fission material separated by space and neutron initiator at the other end before firing which become a supercritical mass after firing and explode.](../resources/Figure_32_07_01.jpg "A gun-type fission bomb for \( {}^{235}\text{U} \) utilizes two subcritical masses forced together by explosive charges inside a cannon barrel. The energy yield depends on the amount of uranium and the time it can be held together before it disassembles itself.")
 {: #Figure1}
 
 Plutonium’s special properties necessitated a more sophisticated critical mass
@@ -73,7 +75,7 @@ more effective, because it compresses three-dimensionally rather than
 one-dimensionally as in the gun-type bomb. Again, a neutron source must be
 triggered at just the correct time to initiate the chain reaction.
 
-![The figure shows a bomb of spherical shape. Near the rim there are detonators and after that there are high explosive lenses then plutonium and finally at the center a neutron initiator. After firing the entire inner material is compressed, leading to an explosion of the plutonium.](../resources/Figure_32_07_02a.jpg "An implosion created by high explosives compresses a sphere of \( {}^{239}\text{Pu} \) into a critical mass. The superior fissionability of plutonium has made it the universal bomb material.")
+![The figure shows a bomb of spherical shape. Near the rim there are detonators and after that there are high explosive lenses then plutonium and finally at the center a neutron initiator. After firing the entire inner material is compressed, leading to an explosion of the plutonium.](../resources/Figure_32_07_02.jpg "An implosion created by high explosives compresses a sphere of \( {}^{239}\text{Pu} \) into a critical mass. The superior fissionability of plutonium has made it the universal bomb material.")
 {: #Figure2}
 
 Owing to its complexity, the plutonium bomb needed to be tested before there
@@ -83,7 +85,7 @@ Alamos (see [[Figure 3]](#Figure3)). A new age had begun. The yield of this
 device was about 10 kilotons (kT), the equivalent of 5000 of the largest
 conventional bombs.
 
-![This figure has a mushroom-shaped cloud showing the explosion of a nuclear bomb.](../resources/Figure_32_07_03a.jpg "Trinity test (1945), the first nuclear bomb (credit: United States Department of Energy)")
+![This figure has a mushroom-shaped cloud showing the explosion of a nuclear bomb.](../resources/Figure_32_07_03.jpg "Trinity test (1945), the first nuclear bomb (credit: United States Department of Energy)")
 {: #Figure3}
 
 Although Germany surrendered on May 7, 1945, Japan had been steadfastly refusing
@@ -100,7 +102,7 @@ bomb a week would be dropped until they surrendered unconditionally, which they
 did on August 14. In actuality, the United States had only enough plutonium for
 one more and as yet unassembled bomb.
 
-![The figure shows a barren landscape with a few buildings here and there.](../resources/Figure_32_07_04a.jpg "Destruction in Hiroshima (credit: United States Federal Government)")
+![The figure shows a barren landscape with a few buildings here and there.](../resources/Figure_32_07_04.jpg "Destruction in Hiroshima (credit: United States Federal Government)")
 {: #Figure4}
 
 Knowing that fusion produces several times more energy per kilogram of fuel than
@@ -126,7 +128,7 @@ high internal temperatures fast neutrons are created that also cause the
 plentiful and inexpensive $${}^{238}\text{U} $$ to fission, part of what allows
 thermonuclear bombs to be so large.
 
-![The bomb is in the shape of a capsule whose outer cover is made of uranium and inside it there are two sections, one of plutonium and uranium together in cylindrical shape covered with lithium deuteride and the other of plutonium beryllium, and both sections are immersed in Styrofoam.](../resources/Figure_32_07_05a.jpg "This schematic of a fusion bomb (H-bomb) gives some idea of how the \( {}^{239}\text{Pu} \) fission trigger is used to ignite fusion fuel. Neutrons and \( \gamma \) rays transmit energy to the fusion fuel, create tritium from deuterium, and heat and compress the fusion fuel. The outer shell of \( {}^{238}\text{U} \) serves to reflect some neutrons back into the fuel, causing more fusion, and it boosts the energy output by fissioning itself when neutron energies become high enough.")
+![The bomb is in the shape of a capsule whose outer cover is made of uranium and inside it there are two sections, one of plutonium and uranium together in cylindrical shape covered with lithium deuteride and the other of plutonium beryllium, and both sections are immersed in Styrofoam.](../resources/Figure_32_07_05.jpg "This schematic of a fusion bomb (H-bomb) gives some idea of how the \( {}^{239}\text{Pu} \) fission trigger is used to ignite fusion fuel. Neutrons and \( \gamma \) rays transmit energy to the fusion fuel, create tritium from deuterium, and heat and compress the fusion fuel. The outer shell of \( {}^{238}\text{U} \) serves to reflect some neutrons back into the fuel, causing more fusion, and it boosts the energy output by fissioning itself when neutron energies become high enough.")
 {: #Figure5}
 
 The energy yield and the types of energy produced by nuclear bombs can be
@@ -142,7 +144,7 @@ energy into radiation (the so-called neutron bomb) so that the bomb can be used
 to irradiate advancing troops without killing friendly troops with blast and
 heat.
 
-![The figure shows three pie charts. The first shows the energy distribution of a conventional chemical bomb as ten percent thermal and ninety percent blast. The second shows fifty percent blast, thirty five percent thermal, ten percent delayed radiation, and five percent prompt radiation in the case of conventional nuclear bomb. The third shows forty percent blast, thirty percent prompt radiation, twenty five percent thermal, and five percent delayed radiation in the case of neutron bomb](../resources/Figure_32_07_06a.jpg "Approximate fractions of energy output by conventional and two types of nuclear weapons. In addition to yielding more energy than conventional weapons, nuclear bombs put a much larger fraction into thermal energy. This can be adjusted to enhance the radiation output to be more effective against troops. An enhanced radiation bomb is also called a neutron bomb.")
+![The figure shows three pie charts. The first shows the energy distribution of a conventional chemical bomb as ten percent thermal and ninety percent blast. The second shows fifty percent blast, thirty five percent thermal, ten percent delayed radiation, and five percent prompt radiation in the case of conventional nuclear bomb. The third shows forty percent blast, thirty percent prompt radiation, twenty five percent thermal, and five percent delayed radiation in the case of neutron bomb](../resources/Figure_32_07_06.jpg "Approximate fractions of energy output by conventional and two types of nuclear weapons. In addition to yielding more energy than conventional weapons, nuclear bombs put a much larger fraction into thermal energy. This can be adjusted to enhance the radiation output to be more effective against troops. An enhanced radiation bomb is also called a neutron bomb.")
 {: #Figure6}
 
 At its peak in 1986, the combined arsenals of the United States and the Soviet

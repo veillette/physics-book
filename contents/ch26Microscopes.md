@@ -1,6 +1,8 @@
 ---
-title: "Microscopes"
+title: Microscopes
 layout: page
+sectionNumber: 4
+chapterNumber: 26
 ---
 
 <div class="abstract" markdown="1">

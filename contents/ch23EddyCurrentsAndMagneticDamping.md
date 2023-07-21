@@ -1,7 +1,9 @@
 ---
-title: "Eddy Currents and Magnetic Damping"
+title: Eddy Currents and Magnetic Damping
 layout: page
---- 
+sectionNumber: 4
+chapterNumber: 23
+---
 
 <div class="abstract" markdown="1">
 * Explain the magnitude and direction of an induced eddy current, and the effect this will have on the object it is induced in.

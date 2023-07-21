@@ -1,6 +1,8 @@
 ---
-title: "Problem-Solving Basics for One-Dimensional Kinematics"
+title: Problem-Solving Basics for One-Dimensional Kinematics
 layout: page
+sectionNumber: 6
+chapterNumber: 2
 ---
 
 <div class="abstract" markdown="1">
@@ -9,7 +11,7 @@ layout: page
 
 </div>
 
-![Close-up photo of a hand writing in a notebook. On top of the notebook is a graphing calculator.](../resources/Figure_02_06_00.jpg "Problem-solving skills are essential to your success in Physics. (credit: scui3asteveo, Flickr)")
+![Close-up photo of a hand writing in a notebook. On top of the notebook is a graphing calculator.](../resources/Figure_02_06_01.jpg "Problem-solving skills are essential to your success in Physics. (credit: scui3asteveo, Flickr)")
 {: #Figure1}
 
 Problem-solving skills are obviously essential to success in a quantitative

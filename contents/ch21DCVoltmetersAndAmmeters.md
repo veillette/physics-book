@@ -1,6 +1,8 @@
 ---
-title: "DC Voltmeters and Ammeters"
+title: DC Voltmeters and Ammeters
 layout: page
+sectionNumber: 4
+chapterNumber: 21
 ---
 
 <div class="abstract" markdown="1">

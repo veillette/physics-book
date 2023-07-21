@@ -1,6 +1,8 @@
 ---
-title: "Electric Generators"
+title: Electric Generators
 layout: page
+sectionNumber: 5
+chapterNumber: 23
 ---
 
 <div class="abstract" markdown="1">

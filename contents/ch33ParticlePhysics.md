@@ -1,6 +1,8 @@
 ---
-title: "Introduction to Particle Physics"
+title: Introduction to Particle Physics
 layout: page
+sectionNumber: 0
+chapterNumber: 33
 ---
 
 <div class="abstract" markdown="1">
@@ -8,7 +10,7 @@ layout: page
 * Define particle physics.
 </div>
 
-![Inside part of the Large Hadron Collider; complex system of machinery and electronics, with a person for scale](../resources/Figure_33_00_01_D.jpg "Part of the Large Hadron Collider at CERN, on the border of Switzerland and France. The LHC is a particle accelerator, designed to study fundamental particles. (credit: Image Editor, Flickr)")
+![Inside part of the Large Hadron Collider; complex system of machinery and electronics, with a person for scale](../resources/Figure_33_00_01.jpg "Part of the Large Hadron Collider at CERN, on the border of Switzerland and France. The LHC is a particle accelerator, designed to study fundamental particles. (credit: Image Editor, Flickr)")
 {: #Figure1}
 
 Following ideas remarkably similar to those of the ancient Greeks, we continue

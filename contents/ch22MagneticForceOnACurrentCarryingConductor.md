@@ -1,6 +1,8 @@
 ---
-title: "Magnetic Force on a Current-Carrying Conductor"
+title: Magnetic Force on a Current-Carrying Conductor
 layout: page
+sectionNumber: 7
+chapterNumber: 22
 ---
 
 <div class="abstract" markdown="1">
@@ -11,7 +13,7 @@ layout: page
 Because charges ordinarily cannot escape a conductor, the magnetic force on
 charges moving in a conductor is transmitted to the conductor itself.
 
-![A diagram showing a circuit with current I running through it. One section of the wire passes between the north and south poles of a magnet with a diameter l. Magnetic field B is oriented toward the right, from the north to the south pole of the magnet, across the wire. The current runs out of the page. The force on the wire is directed up. An illustration of the right hand rule 1 shows the thumb pointing out of the page in the direction of the current, the fingers pointing right in the direction of B, and the F vector pointing up and away from the palm.](../resources/Figure_22_07_01a.jpg "The magnetic field exerts a force on a current-carrying wire in a direction given by the right hand rule 1 (the same direction as that on the individual moving charges). This force can easily be large enough to move the wire, since typical currents consist of very large numbers of moving charges.")
+![A diagram showing a circuit with current I running through it. One section of the wire passes between the north and south poles of a magnet with a diameter l. Magnetic field B is oriented toward the right, from the north to the south pole of the magnet, across the wire. The current runs out of the page. The force on the wire is directed up. An illustration of the right hand rule 1 shows the thumb pointing out of the page in the direction of the current, the fingers pointing right in the direction of B, and the F vector pointing up and away from the palm.](../resources/Figure_22_07_01.jpg "The magnetic field exerts a force on a current-carrying wire in a direction given by the right hand rule 1 (the same direction as that on the individual moving charges). This force can easily be large enough to move the wire, since typical currents consist of very large numbers of moving charges.")
 {: #Figure1}
 
 We can derive an expression for the magnetic force on a current by taking a sum
@@ -47,7 +49,7 @@ force is given by RHR-1, with the thumb in the direction of the current $$I $$ .
 Then, with the fingers in the direction of $$B $$ , a perpendicular to the palm
 points in the direction of $$F $$ , as in [[Figure 2]](#Figure2).
 
-![Illustration of the right hand rule 1 showing the thumb pointing right in the direction of current I, the fingers pointing into the page with magnetic field B, and the force directed up, away from the palm.](../resources/Figure_22_07_02a.jpg "The force on a current-carrying wire in a magnetic field is \( F=IlB \sin \theta \) . Its direction is given by RHR-1. ")
+![Illustration of the right hand rule 1 showing the thumb pointing right in the direction of current I, the fingers pointing into the page with magnetic field B, and the force directed up, away from the palm.](../resources/Figure_22_07_02.jpg "The force on a current-carrying wire in a magnetic field is \( F=IlB \sin \theta \) . Its direction is given by RHR-1. ")
 {: #Figure2}
 
 <div class="example" markdown="1">
@@ -86,7 +88,7 @@ considered in the next section.) Magnetohydrodynamics (MHD) is the technical
 name given to a clever application where magnetic force pumps fluids without
 moving mechanical parts. (See [[Figure 3]](#Figure3).)
 
-![Diagram showing a cylinder of fluid of diameter l placed between the north and south poles of a magnet. The north pole is to the left. The south pole is to the right. The cylinder is oriented out of the page. The magnetic field is oriented toward the right, from the north to the south pole, and across the cylinder of fluid. A current-carrying wire runs through the fluid cylinder with current I oriented downward, perpendicular to the cylinder. Negative charges within the fluid have a velocity vector pointing up. Positive charges within the fluid have a velocity vector pointing downward. The force on the fluid is out of the page. An illustration of the right hand rule 1 shows the thumb pointing downward with the current, the fingers pointing to the right with B, and force F oriented out of the page, away from the palm.](../resources/Figure_22_07_03a.jpg "Magnetohydrodynamics. The magnetic force on the current passed through this fluid can be used as a nonmechanical pump.")
+![Diagram showing a cylinder of fluid of diameter l placed between the north and south poles of a magnet. The north pole is to the left. The south pole is to the right. The cylinder is oriented out of the page. The magnetic field is oriented toward the right, from the north to the south pole, and across the cylinder of fluid. A current-carrying wire runs through the fluid cylinder with current I oriented downward, perpendicular to the cylinder. Negative charges within the fluid have a velocity vector pointing up. Positive charges within the fluid have a velocity vector pointing downward. The force on the fluid is out of the page. An illustration of the right hand rule 1 shows the thumb pointing downward with the current, the fingers pointing to the right with B, and force F oriented out of the page, away from the palm.](../resources/Figure_22_07_03.jpg "Magnetohydrodynamics. The magnetic force on the current passed through this fluid can be used as a nonmechanical pump.")
 {: #Figure3}
 
 A strong magnetic field is applied across a tube and a current is passed through
@@ -105,7 +107,7 @@ the submarine branch will be the last to be decommissioned because of this
 ability (See [[Figure 4]](#Figure4).) Existing MHD drives are heavy and
 inefficient—much development work is needed.
 
-![Diagram showing a zoom in to a magnetohydrodynamic propulsion system on a nuclear submarine. Liquid moves through the thruster duct, which is oriented out of the page. Magnetic fields emanate from the coils and pass through a duct. The magnetic flux is oriented up, perpendicular to the duct. Each duct is wrapped in saddle-shaped superconducting coils. An electric current runs to the right, through the liquid and perpendicular to the velocity of the liquid. The electric current flows between a pair of electrodes inside each thruster duct. A repulsive interaction between the magnetic field and electric current drives water through the duct. An illustration of the right hand rule shows the thumb pointing to the right with the electric current. The fingers point up with the magnetic field. The force on the liquid is oriented out of the page, away from the palm.](../resources/Figure_22_07_04a.jpg "An MHD propulsion system in a nuclear submarine could produce significantly less turbulence than propellers and allow it to run more silently. The development of a silent drive submarine was dramatized in the book and the film The Hunt for Red October.")
+![Diagram showing a zoom in to a magnetohydrodynamic propulsion system on a nuclear submarine. Liquid moves through the thruster duct, which is oriented out of the page. Magnetic fields emanate from the coils and pass through a duct. The magnetic flux is oriented up, perpendicular to the duct. Each duct is wrapped in saddle-shaped superconducting coils. An electric current runs to the right, through the liquid and perpendicular to the velocity of the liquid. The electric current flows between a pair of electrodes inside each thruster duct. A repulsive interaction between the magnetic field and electric current drives water through the duct. An illustration of the right hand rule shows the thumb pointing to the right with the electric current. The fingers point up with the magnetic field. The force on the liquid is oriented out of the page, away from the palm.](../resources/Figure_22_07_04.jpg "An MHD propulsion system in a nuclear submarine could produce significantly less turbulence than propellers and allow it to run more silently. The development of a silent drive submarine was dramatized in the book and the film The Hunt for Red October.")
 {: #Figure4}
 
 ### Section Summary
@@ -153,7 +155,7 @@ Which is more likely to interfere with compass readings, AC current in your refr
 <div class="problem" markdown="1">
 What is the direction of the magnetic force on the current in each of the six cases in [[Figure 5]](#Figure5)?
 
-![Figure a shows the magnetic field B out of the page and the current I downward. Figure b shows B toward the right and I upward. Figure c shows B into the page and I toward the right. Figure d shows B toward the right and I toward the left. Figure e shows B upward and I into the page. Figure f shows B toward the left and I out of the page.](../resources/Figure_22_07_05a.jpg " ")
+![Figure a shows the magnetic field B out of the page and the current I downward. Figure b shows B toward the right and I upward. Figure c shows B into the page and I toward the right. Figure d shows B toward the right and I toward the left. Figure e shows B upward and I into the page. Figure f shows B toward the left and I out of the page.](../resources/Figure_22_07_05.jpg " ")
 {: #Figure5}
 
 </div>
@@ -177,7 +179,7 @@ What is the direction of the magnetic force on the current in each of the six ca
 <div class="problem" markdown="1">
 What is the direction of a current that experiences the magnetic force shown in each of the three cases in [[Figure 6]](#Figure6), assuming the current runs perpendicular to  $$B $$ ?
 
-![Figure a shows magnetic field B out of the page and force F upward. Figure b shows B toward the right and F upward. Figure c shows B into the page and F toward the left.](../resources/Figure_22_07_06a.jpg " ")
+![Figure a shows magnetic field B out of the page and force F upward. Figure b shows B toward the right and F upward. Figure c shows B into the page and F toward the left.](../resources/Figure_22_07_06.jpg " ")
 {: #Figure6}
 
 </div>
@@ -188,7 +190,7 @@ What is the direction of a current that experiences the magnetic force shown in 
 What is the direction of the magnetic field that produces the magnetic force shown on the currents in each of the three cases in [[Figure 7]](#Figure7), assuming  $$\vb{B} $$
  is perpendicular to  $$\vb{I} $$ ?
 
-![Figure a show the current I vector pointing upward and the force F vector pointing left. Figure b shows the current vector pointing down and F directed into the page. Figure c shows the current pointing left and force pointing up.](../resources/Figure_22_07_07a.jpg " ")
+![Figure a show the current I vector pointing upward and the force F vector pointing left. Figure b shows the current vector pointing down and F directed into the page. Figure c shows the current pointing left and force pointing up.](../resources/Figure_22_07_07.jpg " ")
 {: #Figure7}
 
 </div>
@@ -272,7 +274,7 @@ A wire carrying a 30.0-A current passes between the poles of a strong magnet tha
 <div class="problem" markdown="1">
 The force on the rectangular loop of wire in the magnetic field in [[Figure 8]](#Figure8) can be used to measure field strength. The field is uniform, and the plane of the loop is perpendicular to the field. (a) What is the direction of the magnetic force on the loop? Justify the claim that the forces on the sides of the loop are equal and opposite, independent of how much of the loop is in the field and do not affect the net force on the loop. (b) If a current of 5.00 A is used, what is the force per tesla on the 20.0-cm-wide loop?
 
-![Diagram showing a rectangular loop of wire, one end of which is within a magnetic field that is present within a circular area. The field B is oriented out of the page. The current I runs in the plane of the page, down the left side of the circuit, toward the right at the bottom of the circuit, and upward on the right side of the circuit. The length of the segment of wire that runs left to right at the bottom of the circuit is twenty centimeters long.](../resources/Figure_22_07_08a.jpg "A rectangular loop of wire carrying a current is perpendicular to a magnetic field. The field is uniform in the region shown and is zero outside that region.")
+![Diagram showing a rectangular loop of wire, one end of which is within a magnetic field that is present within a circular area. The field B is oriented out of the page. The current I runs in the plane of the page, down the left side of the circuit, toward the right at the bottom of the circuit, and upward on the right side of the circuit. The length of the segment of wire that runs left to right at the bottom of the circuit is twenty centimeters long.](../resources/Figure_22_07_08.jpg "A rectangular loop of wire carrying a current is perpendicular to a magnetic field. The field is uniform in the region shown and is zero outside that region.")
 {: #Figure8}
 
 </div>

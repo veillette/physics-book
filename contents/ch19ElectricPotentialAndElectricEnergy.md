@@ -1,9 +1,11 @@
 ---
-title: "Introduction to Electric Potential and Electric Energy"
+title: Introduction to Electric Potential and Electric Energy
 layout: page
+sectionNumber: 0
+chapterNumber: 19
 ---
 
-![Air Force officials practice using an automated external defibrillator (AED). Electric potential energy is stored in the defibrillator unit and sent to resuscitate the patient.](../resources/Figure_19_00_00a_D.jpg "Automated external defibrillator unit (AED) (credit: U.S. Defense Department photo/Tech. Sgt. Suzanne M. Day)")
+![Air Force officials practice using an automated external defibrillator (AED). Electric potential energy is stored in the defibrillator unit and sent to resuscitate the patient.](../resources/Figure_19_00_01.jpg "Automated external defibrillator unit (AED) (credit: U.S. Defense Department photo/Tech. Sgt. Suzanne M. Day)")
 {: #Figure1}
 
 In [Electric Charge and Electric Field](../contents/ch18ElectricChargeAndElectricField), we

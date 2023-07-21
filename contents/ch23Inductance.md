@@ -1,6 +1,8 @@
 ---
-title: "Inductance"
+title: Inductance
 layout: page
+sectionNumber: 9
+chapterNumber: 23
 ---
 
 <div class="abstract" markdown="1">

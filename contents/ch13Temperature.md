@@ -1,6 +1,8 @@
 ---
-title: "Temperature"
+title: Temperature
 layout: page
+sectionNumber: 1
+chapterNumber: 13
 ---
 
 <div class="abstract" markdown="1">
@@ -91,10 +93,10 @@ because a number of physical quantities, such as the volume of an ideal gas, are
 directly related to absolute temperature. The kelvin is the SI unit used in
 scientific work.
 
-![Three temperature scales&#x2014;Fahrenheit, Celsius, and Kelvin&#x2014;are oriented horizontally, one below the other, and aligned to show how they relate to each other. Absolute zero is at negative four hundred fifty nine point six seven degrees F, negative two hundred seventy three point one five degrees C, and 0 K. Water freezes at thirty two degrees F, 0 degrees C, and two hundred seventy three point one five K. Water boils at two hundred twelve degrees F, one hundred degrees C, and three hundred seventy three point one five K. A temperature difference of 9 degrees F is the same as a temperature difference of 5 degrees C and 5 K.](../resources/Figure_13_01_07.jpg "Relationships between the Fahrenheit, Celsius, and Kelvin temperature scales, rounded to the nearest degree. The relative sizes of the scales are also shown.")
+![Three temperature scales&#x2014;Fahrenheit, Celsius, and Kelvin&#x2014;are oriented horizontally, one below the other, and aligned to show how they relate to each other. Absolute zero is at negative four hundred fifty nine point six seven degrees F, negative two hundred seventy three point one five degrees C, and 0 K. Water freezes at thirty two degrees F, 0 degrees C, and two hundred seventy three point one five K. Water boils at two hundred twelve degrees F, one hundred degrees C, and three hundred seventy three point one five K. A temperature difference of 9 degrees F is the same as a temperature difference of 5 degrees C and 5 K.](../resources/Figure_13_01_04.jpg "Relationships between the Fahrenheit, Celsius, and Kelvin temperature scales, rounded to the nearest degree. The relative sizes of the scales are also shown.")
 {: #Figure4}
 
-The relationships between the three common temperature scales is shown
+The relationships between the three common temperature scales are shown
 in [[Figure 4]](#Figure4). Temperatures on these scales can be converted using
 the equations in [[Table 1]](#Table1).
 
@@ -249,7 +251,7 @@ $$ 37.0\text{ºC} $$
 medical condition: a fever, an infection, a tumor, or circulatory problems (
 see [[Figure 5]](#Figure5)).
 
-![This figure consists of four different infrared thermographs of a person\'s head and neck, taken when the person\'s head was positioned at four different angles. The person\'s face and neck are mostly red and orange, with patches of white, green, and yellow. The red and white colors correspond to hot areas. The person\'s hair ranges in color from green to light blue to dark blue. The blue color corresponds to cold areas.](../resources/Figure_13_01_08.jpg "This image of radiation from a person&#x2019;s body (an infrared thermograph) shows the location of temperature abnormalities in the upper body. Dark blue corresponds to cold areas and red to white corresponds to hot areas. An elevated temperature might be an indication of malignant tissue (a cancerous tumor in the breast, for example), while a depressed temperature might be due to a decline in blood flow from a clot. In this case, the abnormalities are caused by a condition called hyperhidrosis. (credit: Porcelina81, Wikimedia Commons)")
+![This figure consists of four different infrared thermographs of a person\'s head and neck, taken when the person\'s head was positioned at four different angles. The person\'s face and neck are mostly red and orange, with patches of white, green, and yellow. The red and white colors correspond to hot areas. The person\'s hair ranges in color from green to light blue to dark blue. The blue color corresponds to cold areas.](../resources/Figure_13_01_05.jpg "This image of radiation from a person&#x2019;s body (an infrared thermograph) shows the location of temperature abnormalities in the upper body. Dark blue corresponds to cold areas and red to white corresponds to hot areas. An elevated temperature might be an indication of malignant tissue (a cancerous tumor in the breast, for example), while a depressed temperature might be due to a decline in blood flow from a clot. In this case, the abnormalities are caused by a condition called hyperhidrosis. (credit: Porcelina81, Wikimedia Commons)")
 {: #Figure5}
 
 The lowest temperatures ever recorded have been measured during laboratory
@@ -260,7 +262,7 @@ Earth’s surface is Vostok, Antarctica at 183 K $$\left(-89\text{ºC}\right) $$
 and the coldest place (outside the lab) known in the universe is the Boomerang
 Nebula, with a temperature of 1 K.
 
-![The figure is a single vertical axis showing a wide range of temperatures on a logarithmic scale, measured in kelvin. The temperature range goes from the lowest temperature achieved at ten to the power of negative ten kelvin up to the temperature in experiments at the Relativistic Heavy Ion Collider at ten to the power of positive twelve kelvin.](../resources/Figure_13_01_05.jpg "Each increment on this logarithmic scale indicates an increase by a factor of ten, and thus illustrates the tremendous range of temperatures in nature. Note that zero on a logarithmic scale would occur off the bottom of the page at infinity.")
+![The figure is a single vertical axis showing a wide range of temperatures on a logarithmic scale, measured in kelvin. The temperature range goes from the lowest temperature achieved at ten to the power of negative ten kelvin up to the temperature in experiments at the Relativistic Heavy Ion Collider at ten to the power of positive twelve kelvin.](../resources/Figure_13_01_06.jpg "Each increment on this logarithmic scale indicates an increase by a factor of ten, and thus illustrates the tremendous range of temperatures in nature. Note that zero on a logarithmic scale would occur off the bottom of the page at infinity.")
 {: #Figure6}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -273,7 +275,7 @@ What is absolute zero? Absolute zero is the temperature at which all molecular m
 
 </div>
 
-![Line graph of pressure versus temperature of five gases. Each graph is linear with a positive slope. Each line extrapolates to a pressure of zero at a temperature of negative two hundred seventy three point one five degrees Celsius.](../resources/Figure_13_01_04.jpg "Graph of pressure versus temperature for various gases kept at a constant volume. Note that all of the graphs extrapolate to zero pressure at the same temperature.")
+![Line graph of pressure versus temperature of five gases. Each graph is linear with a positive slope. Each line extrapolates to a pressure of zero at a temperature of negative two hundred seventy three point one five degrees Celsius.](../resources/Figure_13_01_07.jpg "Graph of pressure versus temperature for various gases kept at a constant volume. Note that all of the graphs extrapolate to zero pressure at the same temperature.")
 {: #Figure7}
 
 #### Thermal Equilibrium and the Zeroth Law of Thermodynamics

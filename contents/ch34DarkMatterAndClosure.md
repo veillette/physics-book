@@ -1,6 +1,8 @@
 ---
-title: "Dark Matter and Closure"
+title: Dark Matter and Closure
 layout: page
+sectionNumber: 4
+chapterNumber: 34
 ---
 
 <div class="abstract" markdown="1">
@@ -193,10 +195,10 @@ gravitationally attached to galaxies, but because they are chargeless and only
 feel the weak force, they would be in a halo rather than interact and coalesce
 into spirals, and so on, like normal matter (see [[Figure 3]](#Figure3)).
 
-![The figure shows a satellite in orbit above the glowing atmosphere of the Earth. The satellite is tube shaped and has a cover that is open at one end. It has two solar panels and is covered in what looks like aluminum foil.](../resources/Figure_34_04_03a.jpg "The Hubble Space Telescope is producing exciting data with its corrected optics and with the absence of atmospheric distortion. It has observed some MACHOs, disks of material around stars thought to precede planet formation, black hole candidates, and collisions of comets with Jupiter. (credit: NASA (crew of STS-125))")
+![The figure shows a satellite in orbit above the glowing atmosphere of the Earth. The satellite is tube shaped and has a cover that is open at one end. It has two solar panels and is covered in what looks like aluminum foil.](../resources/Figure_34_04_02.jpg "The Hubble Space Telescope is producing exciting data with its corrected optics and with the absence of atmospheric distortion. It has observed some MACHOs, disks of material around stars thought to precede planet formation, black hole candidates, and collisions of comets with Jupiter. (credit: NASA (crew of STS-125))")
 {: #Figure2}
 
-![A close-up photograph of a slow-moving stream carrying leaves.](../resources/Figure_34_04_04a.jpg "Dark matter may shepherd normal matter gravitationally in space, as this stream moves the leaves. Dark matter may be invisible and even move through the normal matter, as neutrinos penetrate us without small-scale effect. (credit: Shinichi Sugiyama)")
+![A close-up photograph of a slow-moving stream carrying leaves.](../resources/Figure_34_04_03.jpg "Dark matter may shepherd normal matter gravitationally in space, as this stream moves the leaves. Dark matter may be invisible and even move through the normal matter, as neutrinos penetrate us without small-scale effect. (credit: Shinichi Sugiyama)")
 {: #Figure3}
 
 Some particle theorists have built WIMPs into their unified force theories and

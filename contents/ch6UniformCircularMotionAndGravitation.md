@@ -1,9 +1,11 @@
 ---
-title: "Introduction to Uniform Circular Motion and Gravitation"
+title: Introduction to Uniform Circular Motion and Gravitation
 layout: page
+sectionNumber: 0
+chapterNumber: 6
 ---
 
-![The figure shows, from front, a red and silver coloured Formula One car turning through a curve in a race on the Melbourne Grand Prix track, with the driver in seat.](../resources/Figure_06_00_01a.jpg "This Australian Grand Prix Formula 1 race car moves in a circular path as it makes the turn. Its wheels also spin rapidly&#x2014;the latter completing many revolutions, the former only part of one (a circular arc). The same physical principles are involved in each. (credit: Richard Munckton)")
+![The figure shows, from front, a red and silver coloured Formula One car turning through a curve in a race on the Melbourne Grand Prix track, with the driver in seat.](../resources/Figure_06_00_01.jpg "This Australian Grand Prix Formula 1 race car moves in a circular path as it makes the turn. Its wheels also spin rapidly&#x2014;the latter completing many revolutions, the former only part of one (a circular arc). The same physical principles are involved in each. (credit: Richard Munckton)")
 {: #Figure1}
 
 Many motions, such as the arc of a bird’s flight or Earth’s path around the Sun,

@@ -1,9 +1,11 @@
 ---
-title: "Introduction to the Physics of Hearing"
+title: Introduction to the Physics of Hearing
 layout: page
+sectionNumber: 0
+chapterNumber: 17
 ---
 
-![Photograph of an old tree in a forest that had fallen some time ago.](../resources/Figure_17_00_01a_D.jpg "This tree fell some time ago. When it fell, atoms in the air were disturbed. Physicists would call this disturbance sound whether someone was around to hear it or not. (credit: B.A. Bowen Photography)")
+![Photograph of an old tree in a forest that had fallen some time ago.](../resources/Figure_17_00_01.jpg "This tree fell some time ago. When it fell, atoms in the air were disturbed. Physicists would call this disturbance sound whether someone was around to hear it or not. (credit: B.A. Bowen Photography)")
 {: #Figure1}
 
 If a tree falls in the forest and no one is there to hear it, does it make a

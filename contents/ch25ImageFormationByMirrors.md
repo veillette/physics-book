@@ -1,6 +1,8 @@
 ---
-title: "Image Formation by Mirrors"
+title: Image Formation by Mirrors
 layout: page
+sectionNumber: 7
+chapterNumber: 25
 ---
 
 <div class="abstract" markdown="1">

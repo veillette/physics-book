@@ -1,6 +1,8 @@
 ---
-title: "Kinematics in Two Dimensions: An Introduction"
+title: 'Kinematics in Two Dimensions: An Introduction'
 layout: page
+sectionNumber: 1
+chapterNumber: 3
 ---
 
 <div class="abstract" markdown="1">
@@ -9,7 +11,7 @@ layout: page
 
 </div>
 
-![A busy traffic intersection in New York showing vehicles moving on the road.](../resources/Figure_03_01_00.jpg "Walkers and drivers in a city like New York are rarely able to travel in straight lines to reach their destinations. Instead, they must follow roads and sidewalks, making two-dimensional, zigzagged paths. (credit: Margaret W. Carruthers)")
+![A busy traffic intersection in New York showing vehicles moving on the road.](../resources/Figure_03_01_01.jpg "Walkers and drivers in a city like New York are rarely able to travel in straight lines to reach their destinations. Instead, they must follow roads and sidewalks, making two-dimensional, zigzagged paths. (credit: Margaret W. Carruthers)")
 {: #Figure1}
 
 ### Two-Dimensional Motion: Walking in a City
@@ -17,7 +19,7 @@ layout: page
 Suppose you want to walk from one point to another in a city with uniform square
 blocks, as pictured in [Figure 2](#Figure2).
 
-![An X Y graph with origin at zero zero with x axis labeled nine blocks east and y axis labeled five blocks north. Starting point at the origin and destination at point nine on the x axis and point five on the y axis.](../resources/Figure_03_01_01.jpg "A pedestrian walks a two-dimensional path between two points in a city. In this scene, all blocks are square and are the same size.")
+![An X Y graph with origin at zero zero with x axis labeled nine blocks east and y axis labeled five blocks north. Starting point at the origin and destination at point nine on the x axis and point five on the y axis.](../resources/Figure_03_01_02.jpg "A pedestrian walks a two-dimensional path between two points in a city. In this scene, all blocks are square and are the same size.")
 {: #Figure2}
 
 The straight-line path that a helicopter might fly is blocked to you as a
@@ -46,7 +48,7 @@ significant digit, they are discrete numbers. In this case “9 blocks” is the
 same as “9.0 or 9.00 blocks.” We have decided to use three significant figures
 in the answer in order to show the result more precisely.)
 
-![An X Y graph with origin at zero zero with x-axis labeled nine blocks east and y axis labeled five blocks north. A diagonal vector arrow joining starting point at point zero on x axis and destination at point five on y axis with its direction northeast is shown. A helicopter is flying along the diagonal vector arrow with helicopter path of ten point three blocks. The angle formed by diagonal vector arrow and the x-axis is equal to twenty-nine point one degrees.](../resources/Figure_03_01_03.jpg "The straight-line path followed by a helicopter between the two points is shorter than the 14 blocks walked by the pedestrian. All blocks are square and the same size.")
+![An X Y graph with origin at zero zero with x-axis labeled nine blocks east and y axis labeled five blocks north. A diagonal vector arrow joining starting point at point zero on x axis and destination at point five on y axis with its direction northeast is shown. A helicopter is flying along the diagonal vector arrow with helicopter path of ten point three blocks. The angle formed by diagonal vector arrow and the x-axis is equal to twenty-nine point one degrees.](../resources/Figure_03_01_04.jpg "The straight-line path followed by a helicopter between the two points is shorter than the 14 blocks walked by the pedestrian. All blocks are square and the same size.")
 {: #Figure4}
 
 The fact that the straight-line distance (10.3 blocks)
@@ -100,7 +102,7 @@ is thrown horizontally from the same height and follows a curved path. A
 stroboscope has captured the positions of the balls at fixed time intervals as
 they fall.
 
-![Two identical balls one red and another blue are falling. Five positions of the balls during fall are shown. The horizontal velocity vectors for blue ball towards right are of same magnitude for all the positions. The vertical velocity vectors shown downwards for red ball are increasing with each position.](../resources/Figure_03_01_04a.jpg "This shows the motions of two identical balls&#x2014;one falls from rest, the other has an initial horizontal velocity. Each subsequent position is an equal time interval. Arrows represent horizontal and vertical velocities at each position. The ball on the right has an initial horizontal velocity, while the ball on the left has no horizontal velocity. Despite the difference in horizontal velocities, the vertical velocities and positions are identical for both balls. This shows that the vertical and horizontal motions are independent.")
+![Two identical balls one red and another blue are falling. Five positions of the balls during fall are shown. The horizontal velocity vectors for blue ball towards right are of same magnitude for all the positions. The vertical velocity vectors shown downwards for red ball are increasing with each position.](../resources/Figure_03_01_05.jpg "This shows the motions of two identical balls&#x2014;one falls from rest, the other has an initial horizontal velocity. Each subsequent position is an equal time interval. Arrows represent horizontal and vertical velocities at each position. The ball on the right has an initial horizontal velocity, while the ball on the left has no horizontal velocity. Despite the difference in horizontal velocities, the vertical velocities and positions are identical for both balls. This shows that the vertical and horizontal motions are independent.")
 {: #Figure5}
 
 It is remarkable that for each flash of the strobe, the vertical positions of

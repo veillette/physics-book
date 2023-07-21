@@ -1,6 +1,8 @@
 ---
-title: "Carnot’s Perfect Heat Engine: The Second Law of Thermodynamics Restated"
+title: 'Carnot’s Perfect Heat Engine: The Second Law of Thermodynamics Restated'
 layout: page
+sectionNumber: 4
+chapterNumber: 15
 ---
 
 <div class="abstract" markdown="1">

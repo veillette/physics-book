@@ -1,6 +1,8 @@
 ---
-title: "Newton’s Third Law of Motion: Symmetry in Forces"
+title: 'Newton’s Third Law of Motion: Symmetry in Forces'
 layout: page
+sectionNumber: 4
+chapterNumber: 4
 ---
 
 <div class="abstract" markdown="1">

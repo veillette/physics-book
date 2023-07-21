@@ -1,6 +1,8 @@
 ---
-title: "Vector Addition and Subtraction: Analytical Methods"
+title: 'Vector Addition and Subtraction: Analytical Methods'
 layout: page
+sectionNumber: 3
+chapterNumber: 3
 ---
 
 <div class="abstract" markdown="1">
@@ -27,7 +29,7 @@ given a vector like $$ \vb{A} $$ in [Figure 1](#Figure1), we may wish to find wh
 two perpendicular vectors, $$ \vb{A}_{x} $$ and $$ \vb{A}_{y} $$, add to produce
 it.
 
-![In the given figure a dotted vector A sub x is drawn from the origin along the x axis. From the head of the vector A sub x another vector A sub y is drawn in the upward direction. Their resultant vector A is drawn from the tail of the vector A sub x to the head of the vector A sub y at an angle theta from the x axis. On the graph a vector A, inclined at an angle theta with x axis is shown. Therefore vector A is the sum of the vectors A sub x and A sub y.](../resources/Figure_03_03_01a.jpg "The vector \( A \) , with its tail at the origin of an x, y-coordinate system, is shown together with its x- and y-components, \( A_x \) and \( A_y \) . These vectors form a right triangle. The analytical relationships among these vectors are summarized below.")
+![In the given figure a dotted vector A sub x is drawn from the origin along the x axis. From the head of the vector A sub x another vector A sub y is drawn in the upward direction. Their resultant vector A is drawn from the tail of the vector A sub x to the head of the vector A sub y at an angle theta from the x axis. On the graph a vector A, inclined at an angle theta with x axis is shown. Therefore vector A is the sum of the vectors A sub x and A sub y.](../resources/Figure_03_03_01.jpg "The vector \( A \) , with its tail at the origin of an x, y-coordinate system, is shown together with its x- and y-components, \( A_x \) and \( A_y \) . These vectors form a right triangle. The analytical relationships among these vectors are summarized below.")
 {: #Figure1 height="200"}
 
 $$ \vb{A}_{x} $$ and $$ \vb{A}_{y} $$ are defined to be the components of $$
@@ -72,7 +74,7 @@ and
  $$ A_{y}=A\sin{\theta} . $$
 </div>
 
-![\]A dotted vector A sub x whose magnitude is equal to A cosine theta is drawn from the origin along the x axis. From the head of the vector A sub x another vector A sub y whose magnitude is equal to A sine theta is drawn in the upward direction. Their resultant vector A is drawn from the tail of the vector A sub x to the head of the vector A-y at an angle theta from the x axis. Therefore vector A is the sum of the vectors A sub x and A sub y.](../resources/Figure_03_03_02a.jpg "The magnitudes of the vector components \( A_x \) and \( A_y \) can be related to the resultant vector \( A \) and the angle \( \theta \) with trigonometric identities. Here we see that \( A_x = A \cos{\theta } \) and \( A_y=A \sin{\theta} \) .")
+![\]A dotted vector A sub x whose magnitude is equal to A cosine theta is drawn from the origin along the x axis. From the head of the vector A sub x another vector A sub y whose magnitude is equal to A sine theta is drawn in the upward direction. Their resultant vector A is drawn from the tail of the vector A sub x to the head of the vector A-y at an angle theta from the x axis. Therefore vector A is the sum of the vectors A sub x and A sub y.](../resources/Figure_03_03_02.jpg "The magnitudes of the vector components \( A_x \) and \( A_y \) can be related to the resultant vector \( A \) and the angle \( \theta \) with trigonometric identities. Here we see that \( A_x = A \cos{\theta } \) and \( A_y=A \sin{\theta} \) .")
 {: #Figure2 height="225"}
 
 Suppose, for example, that $$ \vb{A} $$ is the vector representing the total
@@ -110,7 +112,7 @@ following relationships:
  $$ \theta ={\tan}^{-1} \left( \frac{ A_{y}}{ A_{x}} \right). $$
 </div>
 
-![Vector A is shown with its horizontal and vertical components A sub x and A sub y respectively. The magnitude of vector A is equal to the square root of A sub x squared plus A sub y squared. The angle theta of the vector A with the x axis is equal to inverse tangent of A sub y over A sub x](../resources/Figure_03_03_04a.jpg "The magnitude and direction of the resultant vector  can be determined once the horizontal and vertical components, \( \vb{A}_x \) and \( \vb{A}_y \) have been determined.")
+![Vector A is shown with its horizontal and vertical components A sub x and A sub y respectively. The magnitude of vector A is equal to the square root of A sub x squared plus A sub y squared. The angle theta of the vector A with the x axis is equal to inverse tangent of A sub y over A sub x](../resources/Figure_03_03_04.jpg "The magnitude and direction of the resultant vector  can be determined once the horizontal and vertical components, \( \vb{A}_x \) and \( \vb{A}_y \) have been determined.")
 {: #Figure4}
 
 Note that the equation $$ A=\sqrt{ A_{x}^{2}+ A_{y}^{2}} $$ is just the
@@ -142,7 +144,7 @@ To see how to add vectors using perpendicular components,
 consider [Figure 5](#Figure5), in which the vectors $$ \vb{A} $$ and $$ \vb{B} $$
 are added to produce the resultant $$ \vb{R} $$.
 
-![Two vectors A and B are shown. The tail of vector B is at the head of vector A and the tail of the vector A is at origin. Both the vectors are in the first quadrant. The resultant R of these two vectors extending from the tail of vector A to the head of vector B is also shown.](../resources/Figure_03_03_05a.jpg "Vectors \( A \) and \( B \) are two legs of a walk, and \( R \) is the resultant or total displacement. You can use analytical methods to determine the magnitude and direction of \( R \) .")
+![Two vectors A and B are shown. The tail of vector B is at the head of vector A and the tail of the vector A is at origin. Both the vectors are in the first quadrant. The resultant R of these two vectors extending from the tail of vector A to the head of vector B is also shown.](../resources/Figure_03_03_05.jpg "Vectors \( A \) and \( B \) are two legs of a walk, and \( R \) is the resultant or total displacement. You can use analytical methods to determine the magnitude and direction of \( R \) .")
 {: #Figure5}
 
 If $$ \vb{A} $$ and $$ \vb{B} $$ represent two legs of a walk (two
@@ -165,7 +167,7 @@ components are $$ A_{x} $$, $$ A_{y} $$, $$ B_{x} $$, and $$ B_{y} $$. The
 angles that vectors $$ \vb{A} $$ and $$ \vb{B} $$ make with the **x**-axis are
 $$ \theta_{\text{A}} $$ and $$ \theta_{\text{B}} $$, respectively.
 
-![Two vectors A and B are shown. The tail of the vector B is at the head of vector A and the tail of the vector A is at origin. Both the vectors are in the first quadrant. The resultant R of these two vectors extending from the tail of vector A to the head of vector B is also shown. The horizontal and vertical components of the vectors A and B are shown with the help of dotted lines. The vectors labeled as A sub x and A sub y are the components of vector A, and B sub x and B sub y as the components of vector B..](../resources/Figure_03_03_06a.jpg "To add vectors \( A \) and \( B \) , first determine the horizontal and vertical components of each vector. These are the dotted vectors \( A_x \) , \( A_y \) , \( B_x \) and \( B_y \) shown in the image.")
+![Two vectors A and B are shown. The tail of the vector B is at the head of vector A and the tail of the vector A is at origin. Both the vectors are in the first quadrant. The resultant R of these two vectors extending from the tail of vector A to the head of vector B is also shown. The horizontal and vertical components of the vectors A and B are shown with the help of dotted lines. The vectors labeled as A sub x and A sub y are the components of vector A, and B sub x and B sub y as the components of vector B..](../resources/Figure_03_03_06.jpg "To add vectors \( A \) and \( B \) , first determine the horizontal and vertical components of each vector. These are the dotted vectors \( A_x \) , \( A_y \) , \( B_x \) and \( B_y \) shown in the image.")
 {: #Figure6}
 
 ***Step 2.*** *Find the components of the resultant along each axis by adding
@@ -182,7 +184,7 @@ and
  $$ R_{y}= A_{y}+B_{y}. $$
 </div>
 
-![Two vectors A and B are shown. The tail of vector B is at the head of vector A and the tail of the vector A is at origin. Both the vectors are in the first quadrant. The resultant R of these two vectors extending from the tail of vector A to the head of vector B is also shown. The vectors A and B are resolved into the horizontal and vertical components shown as dotted lines parallel to x axis and y axis respectively. The horizontal components of vector A and vector B are labeled as A sub x and B sub x and the horizontal component of the resultant R is labeled at R sub x and is equal to A sub x plus B sub x. The vertical components of vector A and vector B are labeled as A sub y and B sub y and the vertical components of the resultant R is labeled as R sub y is equal to A sub y plus B sub y.](../resources/Figure_03_03_07a.jpg "The magnitude of the vectors \( A_x \) and \( B_x \) add to give the magnitude \( R_x \) of the resultant vector in the horizontal direction. Similarly, the magnitudes of the vectors \( A_y \) and \( B_y \) add to give the magnitude \( R_y \) of the resultant vector in the vertical direction.")
+![Two vectors A and B are shown. The tail of vector B is at the head of vector A and the tail of the vector A is at origin. Both the vectors are in the first quadrant. The resultant R of these two vectors extending from the tail of vector A to the head of vector B is also shown. The vectors A and B are resolved into the horizontal and vertical components shown as dotted lines parallel to x axis and y axis respectively. The horizontal components of vector A and vector B are labeled as A sub x and B sub x and the horizontal component of the resultant R is labeled at R sub x and is equal to A sub x plus B sub x. The vertical components of vector A and vector B are labeled as A sub y and B sub y and the vertical components of the resultant R is labeled as R sub y is equal to A sub y plus B sub y.](../resources/Figure_03_03_07.jpg "The magnitude of the vectors \( A_x \) and \( B_x \) add to give the magnitude \( R_x \) of the resultant vector in the horizontal direction. Similarly, the magnitudes of the vectors \( A_y \) and \( B_y \) add to give the magnitude \( R_y \) of the resultant vector in the vertical direction.")
 {: #Figure7}
 
 Components along the same axis, say the **x**-axis, are vectors along the same
@@ -226,7 +228,7 @@ represents the second leg, a displacement of $$ 34.0 \m  $$
 in a direction $$ 63.0^\circ $$
 north of east.
 
-![Two vectors A and B are shown. The tail of the vector A is at origin. Both the vectors are in the first quadrant. Vector A is of magnitude fifty three units and is inclined at an angle of twenty degrees to the horizontal. From the head of the vector A another vector B of magnitude 34 units is drawn and is inclined at angle sixty three degrees with the horizontal. The resultant of two vectors is drawn from the tail of the vector A to the head of the vector B.](../resources/Figure_03_03_08a.jpg "Vector \( A \) has magnitude 53.0 m and direction 20.0 degrees north of the x-axis. Vector \( B \) has magnitude 34.0 m and direction 63.0 degrees north of the x-axis. You can use analytical methods to determine the magnitude and direction of \( R \) .")
+![Two vectors A and B are shown. The tail of the vector A is at origin. Both the vectors are in the first quadrant. Vector A is of magnitude fifty three units and is inclined at an angle of twenty degrees to the horizontal. From the head of the vector A another vector B of magnitude 34 units is drawn and is inclined at angle sixty three degrees with the horizontal. The resultant of two vectors is drawn from the tail of the vector A to the head of the vector B.](../resources/Figure_03_03_08.jpg "Vector \( A \) has magnitude 53.0 m and direction 20.0 degrees north of the x-axis. Vector \( B \) has magnitude 34.0 m and direction 63.0 degrees north of the x-axis. You can use analytical methods to determine the magnitude and direction of \( R \) .")
 {: #Figure8}
 
 **Strategy**
@@ -304,7 +306,8 @@ Thus,
 <div class="equation">
  $$ \theta ={\tan}^{-1}\left(0.742\right)=36.6^\circ . $$
 </div>
-![The addition of two vectors A and B is shown. Vector A is of magnitude fifty three units and is inclined at an angle of twenty degrees to the horizontal. Vector B is of magnitude thirty four units and is inclined at angle sixty three degrees to the horizontal. The components of vector A are shown as dotted vectors A X is equal to forty nine point eight meter along x axis and A Y is equal to eighteen point one meter along Y axis. The components of vector B are also shown as dotted vectors B X is equal to fifteen point four meter and B Y is equal to thirty point three meter. The horizontal component of the resultant R X is equal to A X plus B X is equal to sixty five point two meter. The vertical component of the resultant R Y is equal to A Y plus B Y is equal to forty eight point four meter. The magnitude of the resultant of two vectors is eighty one point two meters. The direction of the resultant R is in thirty six point six degree from the vector A in anticlockwise direction.](../resources/Figure_03_03_09a.jpg "Using analytical methods, we see that the magnitude of  \( R \)  is 81.2 m and its direction is 36.6 degrees north of east."){: #Figure9}
+
+![The addition of two vectors A and B is shown. Vector A is of magnitude fifty three units and is inclined at an angle of twenty degrees to the horizontal. Vector B is of magnitude thirty four units and is inclined at angle sixty three degrees to the horizontal. The components of vector A are shown as dotted vectors A X is equal to forty nine point eight meter along x axis and A Y is equal to eighteen point one meter along Y axis. The components of vector B are also shown as dotted vectors B X is equal to fifteen point four meter and B Y is equal to thirty point three meter. The horizontal component of the resultant R X is equal to A X plus B X is equal to sixty five point two meter. The vertical component of the resultant R Y is equal to A Y plus B Y is equal to forty eight point four meter. The magnitude of the resultant of two vectors is eighty one point two meters. The direction of the resultant R is in thirty six point six degree from the vector A in anticlockwise direction.](../resources/Figure_03_03_09.jpg "Using analytical methods, we see that the magnitude of  \( R \)  is 81.2 m and its direction is 36.6 degrees north of east."){: #Figure9}
 
 **Discussion**
 
@@ -337,7 +340,7 @@ The next module, [Projectile Motion](../contents/ch3ProjectileMotion.md), is one
 of many in which using perpendicular components helps make the picture clear and
 simplifies the physics.
 
-![In this figure, the subtraction of two vectors A and B is shown. A red colored vector A is inclined at an angle theta A to the positive of x axis. From the head of vector A a blue vector negative B is drawn. Vector B is in west of south direction. The resultant of the vector A and vector negative B is shown as a black vector R from the tail of vector A to the head of vector negative B. The resultant R is inclined to x axis at an angle theta below the x axis. The components of the vectors are also shown along the coordinate axes as dotted lines of their respective colors.](../resources/Figure_03_03_10a.jpg "The subtraction of the two vectors shown in <a href="#Figure8">Figure 8</a>. The components of &#x2013; \( B \) are the negatives of the components of \( B \) . The method of subtraction is the same as that for addition.")
+![In this figure, the subtraction of two vectors A and B is shown. A red colored vector A is inclined at an angle theta A to the positive of x axis. From the head of vector A a blue vector negative B is drawn. Vector B is in west of south direction. The resultant of the vector A and vector negative B is shown as a black vector R from the tail of vector A to the head of vector negative B. The resultant R is inclined to x axis at an angle theta below the x axis. The components of the vectors are also shown along the coordinate axes as dotted lines of their respective colors.](../resources/Figure_03_03_10.jpg "The subtraction of the two vectors shown in <a href="#Figure8">Figure 8</a>. The components of &#x2013; \( B \) are the negatives of the components of \( B \) . The method of subtraction is the same as that for addition.")
 {: #Figure10}
 
 <div class="note" data-label="PhET Exploration" markdown="1">
@@ -451,7 +454,7 @@ along the direction of $$ \vb{A} $$
 <div class="problem" markdown="1">
 Find the following for path C in [Figure 11](#Figure11): (a) the total distance traveled and (b) the magnitude and direction of the displacement from start to finish. In this part of the problem, explicitly show how you follow the steps of the analytical method of vector addition.
 
-![A map of city is shown. The houses are in form of square blocks of side one hundred and twenty meter each. Four paths A B C and D are shown in different colors. The path c shown as blue extends to one block towards north, then five blocks towards east and then two blocks towards south then one block towards west and one block towards north and finally three blocks towards west. It is asked to find out the total distance traveled the magnitude and the direction of the displacement from start to finish for path C.](../resources/Figure_03_02_20a.jpg "The various lines represent paths taken by different people walking in a city. All blocks are 120 m on a side.")
+![A map of city is shown. The houses are in form of square blocks of side one hundred and twenty meter each. Four paths A B C and D are shown in different colors. The path c shown as blue extends to one block towards north, then five blocks towards east and then two blocks towards south then one block towards west and one block towards north and finally three blocks towards west. It is asked to find out the total distance traveled the magnitude and the direction of the displacement from start to finish for path C.](../resources/Figure_03_03_11.jpg "The various lines represent paths taken by different people walking in a city. All blocks are 120 m on a side.")
 {: #Figure11}
 
 </div>
@@ -474,7 +477,7 @@ Find the following for path D in [Figure 11](#Figure11): (a) the total distance 
 <div class="problem" markdown="1">
 Find the north and east components of the displacement from San Francisco to Sacramento shown in [Figure 12](#Figure12).
 
-![A map of northern California with a circle with a radius of one hundred twenty three kilometers centered on San Francisco. Sacramento lies on the circumference of this circle in a direction forty-five degrees north of east from San Francisco.](../resources/Figure_03_02_19a.jpg)
+![A map of northern California with a circle with a radius of one hundred twenty three kilometers centered on San Francisco. Sacramento lies on the circumference of this circle in a direction forty-five degrees north of east from San Francisco.](../resources/Figure_03_03_12.jpg)
 {: #Figure12}
 
 </div>
@@ -491,7 +494,7 @@ Solve the following problem using analytical techniques: Suppose you walk 18.0 m
 find their sum $$
 \vb{R}=\vb{A}+\vb{B} $$.)
 
-![In the given figure displacement of a person is shown. First movement of the person is shown as vector A from origin along negative x axis. He then turns to his right. His movement is now shown as a vertical vector in north direction. The displacement vector R is also shown. In the question you are asked to find the displacement of the person from the start to finish.](../resources/Figure_03_02_21a.jpg "The two displacements \( A \) and \( B \) add to give a total displacement \( R \) having magnitude \( R \) and direction \( \theta \) .")
+![In the given figure displacement of a person is shown. First movement of the person is shown as vector A from origin along negative x axis. They then turns to their right. Their movement is now shown as a vertical vector in north direction. The displacement vector R is also shown. In the question you are asked to find the displacement of the person from the start to finish.](../resources/Figure_03_03_13.jpg "The two displacements \( A \) and \( B \) add to give a total displacement \( R \) having magnitude \( R \) and direction \( \theta \) .")
 {: #Figure13}
 
 Note that you can also solve this graphically. Discuss why the analytical
@@ -555,7 +558,7 @@ A new landowner has a triangular piece of flat land she wishes to fence. Startin
 in [Figure 14](#Figure14). She then correctly calculates the length and
 orientation of the third side $$ \text{C} $$. What is her result?
 
-![In the given figure the sides of a triangular piece of land are shown in vector form. West corner is at origin. A vector starts from the origin towards south east direction and makes an angle twenty-one degrees with the horizontal. Then from the head of this vector another vector B making an angle eleven degrees with the vertical is drawn upwards. Then another vector C from the head of the vector B to the tail of the initial vector is drawn. The length and orientation of side C is indicated as unknown, represented by a question mark.](../resources/Figure_03_03_11a.jpg)
+![In the given figure the sides of a triangular piece of land are shown in vector form. West corner is at origin. A vector starts from the origin towards south east direction and makes an angle twenty-one degrees with the horizontal. Then from the head of this vector another vector B making an angle eleven degrees with the vertical is drawn upwards. Then another vector C from the head of the vector B to the tail of the initial vector is drawn. The length and orientation of side C is indicated as unknown, represented by a question mark.](../resources/Figure_03_03_14.jpg)
 {: #Figure14}
 
 </div>
@@ -589,7 +592,7 @@ They measure the first three sides, shown as $$ \vb{A}, $$
 $$ \vb{B}, $$ and $$ \vb{C} $$ in [Figure 15](#Figure15), and then correctly calculate the length and orientation of the fourth side $$
 \vb{D} $$. What is their result?
 
-![A quadrilateral with sides A, B, C, and D. A begins at the end of D and is 4 point seven zero kilometers  at an angle of 7 point 5 degrees south of west. B begins at the end of A and is 2 point four eight kilometers in a direction sixteen degrees west of north. C begins at the end of B and is 3 point zero 2 kilometers in a direction nineteen degrees north of west. D begins at the end of C and runs distance and direction that must be calculated](../resources/Figure_03_03_12a.jpg)
+![A quadrilateral with sides A, B, C, and D. A begins at the end of D and is 4 point seven zero kilometers  at an angle of 7 point 5 degrees south of west. B begins at the end of A and is 2 point four eight kilometers in a direction sixteen degrees west of north. C begins at the end of B and is 3 point zero 2 kilometers in a direction nineteen degrees north of west. D begins at the end of C and runs distance and direction that must be calculated](../resources/Figure_03_03_15.jpg)
 {: #Figure15}
 
 </div>
@@ -626,7 +629,7 @@ flight would be altered by a wind from the north and how the effect of the wind
 would depend on both wind speed and the speed of the plane relative to the air
 mass.
 
-![A triangle  defined by vectors A, B, and R. A begins at the origin and run forty kilometers in a direction sixty degrees north of east. B begins at the end of A and runs thirty kilometers in a direction fifteen degrees north of east. R is the resultant vector and runs from the origin (the beginning of A) to the end of B for a distance and in a direction theta that need to be calculated.](../resources/Figure_03_03_13a.jpg)
+![A triangle  defined by vectors A, B, and R. A begins at the origin and run forty kilometers in a direction sixty degrees north of east. B begins at the end of A and runs thirty kilometers in a direction fifteen degrees north of east. R is the resultant vector and runs from the origin (the beginning of A) to the end of B for a distance and in a direction theta that need to be calculated.](../resources/Figure_03_03_16.jpg)
 {: #Figure16}
 
 </div>

@@ -1,14 +1,16 @@
 ---
-title: "Magnets"
+title: Magnets
 layout: page
---- 
+sectionNumber: 1
+chapterNumber: 22
+---
 
 <div class="abstract" markdown="1">
 * Describe the difference between the north and south poles of a magnet.
 * Describe how magnetic poles interact with each other.
 </div>
 
-![Bar magnets, horseshoe magnets, and disc-shaped magnets attract and repel each other. Metal paperclips stick to some of the magnets.](../resources/Figure_22_01_01a.jpg "Magnets come in various shapes, sizes, and strengths. All have both a north pole and a south pole. There is never an isolated pole (a monopole).")
+![Bar magnets, horseshoe magnets, and disc-shaped magnets attract and repel each other. Metal paperclips stick to some of the magnets.](../resources/Figure_22_01_01.jpg "Magnets come in various shapes, sizes, and strengths. All have both a north pole and a south pole. There is never an isolated pole (a monopole).")
 {: #Figure1}
 
 All magnets attract iron, such as that in a refrigerator door. However, magnets
@@ -29,7 +31,7 @@ poles* in the manner that + and − charges can be separated.
 
 </div>
 
-![A globe of the Earth with a bar magnet inside it. The south pole of the bar magnet inside the globe is at the north magnetic pole and is near, but not exactly on, the north geographic pole. The north pole of the bar magnet inside the globe is near the south geographic pole. Another bar magnet hangs beside the globe. The north pole of this magnet is pointing toward the north pole of the globe (or the south pole of the magnet inside the globe).](../resources/Figure_22_01_02a.jpg "One end of a bar magnet is suspended from a thread that points toward north. The magnet&#x2019;s two poles are labeled N and S for north-seeking and south-seeking poles, respectively.")
+![A globe of the Earth with a bar magnet inside it. The south pole of the bar magnet inside the globe is at the north magnetic pole and is near, but not exactly on, the north geographic pole. The north pole of the bar magnet inside the globe is near the south geographic pole. Another bar magnet hangs beside the globe. The north pole of this magnet is pointing toward the north pole of the globe (or the south pole of the magnet inside the globe).](../resources/Figure_22_01_02.jpg "One end of a bar magnet is suspended from a thread that points toward north. The magnet&#x2019;s two poles are labeled N and S for north-seeking and south-seeking poles, respectively.")
 {: #Figure2}
 
 <div class="note" data-has-label="true"  data-label="" markdown="1">
@@ -40,10 +42,10 @@ The Earth acts like a very large bar magnet with its south-seeking pole near the
 
 </div>
 
-![Two sets of bar magnets. The first set of magnets are oriented with the unlike poles adjacent to each other. Force arrows show that these magnets are pulling on each other. The second set of magnets is oriented with the like poles adjacent to each other. Force arrows show that these magnets are pushing each other away.](../resources/Figure_22_01_03a.jpg "Unlike poles attract, whereas like poles repel.")
+![Two sets of bar magnets. The first set of magnets are oriented with the unlike poles adjacent to each other. Force arrows show that these magnets are pulling on each other. The second set of magnets is oriented with the like poles adjacent to each other. Force arrows show that these magnets are pushing each other away.](../resources/Figure_22_01_03.jpg "Unlike poles attract, whereas like poles repel.")
 {: #Figure3}
 
-![A bar magnet is split in half several times. The original magnet has a south pole and a north pole. Each time the magnet is split, each new half has both a south pole and a north pole.](../resources/Figure_22_01_04a.jpg "North and south poles always occur in pairs. Attempts to separate them result in more pairs of poles. If we continue to split the magnet, we will eventually get down to an iron atom with a north pole and a south pole&#x2014;these, too, cannot be separated.")
+![A bar magnet is split in half several times. The original magnet has a south pole and a north pole. Each time the magnet is split, each new half has both a south pole and a north pole.](../resources/Figure_22_01_04.jpg "North and south poles always occur in pairs. Attempts to separate them result in more pairs of poles. If we continue to split the magnet, we will eventually get down to an iron atom with a north pole and a south pole&#x2014;these, too, cannot be separated.")
 {: #Figure4}
 
 The fact that magnetic poles always occur in pairs of north and south is true

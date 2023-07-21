@@ -1,7 +1,9 @@
 ---
-title: "Color and Color Vision"
+title: Color and Color Vision
 layout: page
---- 
+sectionNumber: 3
+chapterNumber: 26
+---
 
 <div class="abstract" markdown="1">
 * Explain the simple theory of color vision.

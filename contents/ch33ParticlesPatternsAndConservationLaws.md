@@ -1,6 +1,8 @@
 ---
-title: "Particles, Patterns, and Conservation Laws"
+title: Particles, Patterns, and Conservation Laws
 layout: page
+sectionNumber: 4
+chapterNumber: 33
 ---
 
 <div class="abstract" markdown="1">

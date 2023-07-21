@@ -1,9 +1,11 @@
 ---
-title: "Introduction to Electromagnetic Waves"
+title: Introduction to Electromagnetic Waves
 layout: page
----    
+sectionNumber: 0
+chapterNumber: 24
+---
 
-![A photo showing many orange and pale blue colored fish, swimming over a coral reef in the blue waters of the Gulf of Eilat.](../resources/Figure_24_00_01a.jpg "Human eyes detect these orange &#x201C;sea goldie&#x201D; fish swimming over a coral reef in the blue waters of the Gulf of Eilat (Red Sea) using visible light. (credit: Daviddarom, Wikimedia Commons)")
+![A photo showing many orange and pale blue colored fish, swimming over a coral reef in the blue waters of the Gulf of Eilat.](../resources/Figure_24_00_01.jpg "Human eyes detect these orange &#x201C;sea goldie&#x201D; fish swimming over a coral reef in the blue waters of the Gulf of Eilat (Red Sea) using visible light. (credit: Daviddarom, Wikimedia Commons)")
 {: #Figure1}
 
 The beauty of a coral reef, the warm radiance of sunshine, the sting of sunburn,
@@ -49,5 +51,5 @@ puzzles without having all the pieces. The prediction of electromagnetic waves
 is one of the most spectacular examples of this power. Certain others, such as
 the prediction of antimatter, will be discussed in later modules.
 
-![The large, round dish antenna looking like a giant white saucer is shown. It rests on a pillar shaped structure with a moveable tracking system that allows it to point towards a target object, send out electromagnetic waves, and collect any signals that bounce back from the target object. ](../resources/Figure_24_00_02a.jpg "The electromagnetic waves sent and received by this 50-foot radar dish antenna at Kennedy Space Center in Florida are not visible, but help track expendable launch vehicles with high-definition imagery. The first use of this C-band radar dish was for the launch of the Atlas V rocket sending the New Horizons probe toward Pluto. (credit: NASA)")
+![The large, round dish antenna looking like a giant white saucer is shown. It rests on a pillar shaped structure with a moveable tracking system that allows it to point towards a target object, send out electromagnetic waves, and collect any signals that bounce back from the target object. ](../resources/Figure_24_00_02.jpg "The electromagnetic waves sent and received by this 50-foot radar dish antenna at Kennedy Space Center in Florida are not visible, but help track expendable launch vehicles with high-definition imagery. The first use of this C-band radar dish was for the launch of the Atlas V rocket sending the New Horizons probe toward Pluto. (credit: NASA)")
 {: #Figure2}

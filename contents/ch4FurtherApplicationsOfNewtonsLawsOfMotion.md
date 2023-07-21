@@ -1,6 +1,8 @@
 ---
-title: "Further Applications of Newton’s Laws of Motion"
+title: Further Applications of Newton’s Laws of Motion
 layout: page
+sectionNumber: 7
+chapterNumber: 4
 ---
 
 <div class="abstract" markdown="1">

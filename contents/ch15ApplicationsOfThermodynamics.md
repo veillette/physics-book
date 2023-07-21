@@ -1,6 +1,8 @@
 ---
-title: "Applications of Thermodynamics: Heat Pumps and Refrigerators"
+title: 'Applications of Thermodynamics: Heat Pumps and Refrigerators'
 layout: page
+sectionNumber: 5
+chapterNumber: 15
 ---
 
 <div class="abstract" markdown="1">

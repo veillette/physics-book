@@ -1,0 +1,1445 @@
+[
+  {
+    "chapterNumber": 1,
+    "chapterTitle": "Introduction: The Nature of Science and Physics",
+    "chapterFile": "contents/ch1IntroductionTheNatureOfScienceAndPhysics.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Physics: An Introduction",
+        "sectionFile": "contents/ch1PhysicsAnIntroduction.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Physical Quantities and Units",
+        "sectionFile": "contents/ch1PhysicalQuantitiesAndUnits.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Accuracy, Precision, and Significant Figures",
+        "sectionFile": "contents/ch1AccuracyPrecisionAndSignificantFigures.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Approximation",
+        "sectionFile": "contents/ch1Approximation.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 2,
+    "chapterTitle": "Kinematics",
+    "chapterFile": "contents/ch2Kinematics.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Displacement",
+        "sectionFile": "contents/ch2Displacement.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Vectors, Scalars, and Coordinate Systems",
+        "sectionFile": "contents/ch2VectorsScalarsAndCoordinateSystems.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Time, Velocity, and Speed",
+        "sectionFile": "contents/ch2TimeVelocityAndSpeed.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Acceleration",
+        "sectionFile": "contents/ch2Acceleration.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Motion Equations for Constant Acceleration in One Dimension",
+        "sectionFile": "contents/ch2MotionEquationsForConstantAccelerationInOneDimension.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "Problem-Solving Basics for One-Dimensional Kinematics",
+        "sectionFile": "contents/ch2ProblemSolvingBasicsForOneDimensionalKinematics.md"
+      },
+      {
+        "sectionNumber": 7,
+        "sectionTitle": "Falling Objects",
+        "sectionFile": "contents/ch2FallingObjects.md"
+      },
+      {
+        "sectionNumber": 8,
+        "sectionTitle": "Graphical Analysis of One-Dimensional Motion",
+        "sectionFile": "contents/ch2GraphicalAnalysisOfOneDimensionalMotion.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 3,
+    "chapterTitle": "Two-Dimensional Kinematics",
+    "chapterFile": "contents/ch3TwoDimensionalKinematics.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Kinematics in Two Dimensions: An Introduction",
+        "sectionFile": "contents/ch3KinematicsInTwoDimensionsAnIntroduction.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Vector Addition and Subtraction: Graphical Methods",
+        "sectionFile": "contents/ch3VectorAdditionAndSubtractionGraphicalMethods.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Vector Addition and Subtraction: Analytical Methods",
+        "sectionFile": "contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Projectile Motion",
+        "sectionFile": "contents/ch3ProjectileMotion.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Addition of Velocities",
+        "sectionFile": "contents/ch3AdditionOfVelocities.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 4,
+    "chapterTitle": "Dynamics: Force and Newton\\'s Laws of Motion",
+    "chapterFile": "contents/ch4Dynamics.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Development of Force Concept",
+        "sectionFile": "contents/ch4DevelopmentOfForceConcept.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Newton’s First Law of Motion: Inertia",
+        "sectionFile": "contents/ch4NewtonsFirstLawOfMotion.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Newton’s Second Law of Motion: Concept of a System",
+        "sectionFile": "contents/ch4NewtonsSecondLawOfMotion.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Newton’s Third Law of Motion: Symmetry in Forces",
+        "sectionFile": "contents/ch4NewtonsThirdLawOfMotion.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Normal, Tension, and Other Examples of Forces",
+        "sectionFile": "contents/ch4NormalTensionAndOtherExamplesOfForces.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "Problem-Solving Strategies",
+        "sectionFile": "contents/ch4ProblemSolvingStrategies.md"
+      },
+      {
+        "sectionNumber": 7,
+        "sectionTitle": "Further Applications of Newton’s Laws of Motion",
+        "sectionFile": "contents/ch4FurtherApplicationsOfNewtonsLawsOfMotion.md"
+      },
+      {
+        "sectionNumber": 8,
+        "sectionTitle": "Extended Topic: The Four Basic Forces—An Introduction",
+        "sectionFile": "contents/ch4ExtendedTopics.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 5,
+    "chapterTitle": "Further Applications of Newton\\'s Laws: Friction, Drag, and Elasticity",
+    "chapterFile": "contents/ch5FurtherApplicationsOfNewtonsLaws.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Friction",
+        "sectionFile": "contents/ch5Friction.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Drag Forces",
+        "sectionFile": "contents/ch5DragForces.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Elasticity: Stress and Strain",
+        "sectionFile": "contents/ch5Elasticity.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 6,
+    "chapterTitle": "Uniform Circular Motion and Gravitation",
+    "chapterFile": "contents/ch6UniformCircularMotionAndGravitation.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Rotation Angle and Angular Velocity",
+        "sectionFile": "contents/ch6RotationAngleAndAngularVelocity.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Centripetal Acceleration",
+        "sectionFile": "contents/ch6CentripetalAcceleration.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Centripetal Force",
+        "sectionFile": "contents/ch6CentripetalForce.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Fictitious Forces and Non-inertial Frames: The Coriolis Force",
+        "sectionFile": "contents/ch6FictiousForcesAndNonInertialFrames.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Newton’s Universal Law of Gravitation",
+        "sectionFile": "contents/ch6NewtonsUniversalLawOfGravitation.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "Satellites and Kepler’s Laws: An Argument for Simplicity",
+        "sectionFile": "contents/ch6SatellitesAndKeplersLaws.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 7,
+    "chapterTitle": "Work, Energy, and Energy Resources",
+    "chapterFile": "contents/ch7WorkEnergyAndEnergyResources.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Work: The Scientific Definition",
+        "sectionFile": "contents/ch7WorkTheScientificDefinition.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Kinetic Energy and the Work-Energy Theorem",
+        "sectionFile": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Gravitational Potential Energy",
+        "sectionFile": "contents/ch7GravitationalPotentialEnergy.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Conservative Forces and Potential Energy",
+        "sectionFile": "contents/ch7ConservativeForcesAndPotentialEnergy.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Nonconservative Forces",
+        "sectionFile": "contents/ch7NonconservativeForces.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "Conservation of Energy",
+        "sectionFile": "contents/ch7ConservationOfEnergy.md"
+      },
+      {
+        "sectionNumber": 7,
+        "sectionTitle": "Power",
+        "sectionFile": "contents/ch7Power.md"
+      },
+      {
+        "sectionNumber": 8,
+        "sectionTitle": "Work, Energy, and Power in Humans",
+        "sectionFile": "contents/ch7WorkEnergyAndPowerInHumans.md"
+      },
+      {
+        "sectionNumber": 9,
+        "sectionTitle": "World Energy Use",
+        "sectionFile": "contents/ch7WorldEnergyUse.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 8,
+    "chapterTitle": "Linear Momentum and Collisions",
+    "chapterFile": "contents/ch8LinearMomentumAndCollisions.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Linear Momentum and Force",
+        "sectionFile": "contents/ch8LinearMomentumAndForce.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Impulse",
+        "sectionFile": "contents/ch8Impulse.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Conservation of Momentum",
+        "sectionFile": "contents/ch8ConservationOfMomentum.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Elastic Collisions in One Dimension",
+        "sectionFile": "contents/ch8ElasticCollisionsInOneDimension.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Inelastic Collisions in One Dimension",
+        "sectionFile": "contents/ch8InelasticCollisionsInOneDimension.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "Collisions of Point Masses in Two Dimensions",
+        "sectionFile": "contents/ch8CollisionsOfPointMassesInTwoDimensions.md"
+      },
+      {
+        "sectionNumber": 7,
+        "sectionTitle": "Introduction to Rocket Propulsion",
+        "sectionFile": "contents/ch8IntroductionToRocketPropulsion.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 9,
+    "chapterTitle": "Statics and Torque",
+    "chapterFile": "contents/ch9StaticsAndTorque.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "The First Condition for Equilibrium",
+        "sectionFile": "contents/ch9TheFirstConditionForEquilibrium.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "The Second Condition for Equilibrium",
+        "sectionFile": "contents/ch9TheSecondConditionForEquilibrium.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Stability",
+        "sectionFile": "contents/ch9Stability.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Applications of Statics, Including Problem-Solving Strategies",
+        "sectionFile": "contents/ch9ApplicationsOfStaticsIncludingProblemSolvingStrategies.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Simple Machines",
+        "sectionFile": "contents/ch9SimpleMachines.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "Forces and Torques in Muscles and Joints",
+        "sectionFile": "contents/ch9ForcesAndTorquesInMusclesAndJoints.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 10,
+    "chapterTitle": "Rotational Motion and Angular Momentum",
+    "chapterFile": "contents/ch10RotationalMotionAndAngularMomentum.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Angular Acceleration",
+        "sectionFile": "contents/ch10AngularAcceleration.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Kinematics of Rotational Motion",
+        "sectionFile": "contents/ch10KinematicsOfRotationalMotion.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Dynamics of Rotational Motion: Rotational Inertia",
+        "sectionFile": "contents/ch10DynamicsOfRotationalMotion.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Rotational Kinetic Energy: Work and Energy Revisited",
+        "sectionFile": "contents/ch10RotationalKineticEnergy.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Angular Momentum and Its Conservation",
+        "sectionFile": "contents/ch10AngularMomentumAndItsConservation.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "Collisions of Extended Bodies in Two Dimensions",
+        "sectionFile": "contents/ch10CollisionsOfExtendedBodiesInTwoDimensions.md"
+      },
+      {
+        "sectionNumber": 7,
+        "sectionTitle": "Gyroscopic Effects: Vector Aspects of Angular Momentum",
+        "sectionFile": "contents/ch10GyroscopicEffects.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 11,
+    "chapterTitle": "Fluid Statics",
+    "chapterFile": "contents/ch11FluidStatics.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "What Is a Fluid?",
+        "sectionFile": "contents/ch11WhatIsAFluid.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Density",
+        "sectionFile": "contents/ch11Density.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Pressure",
+        "sectionFile": "contents/ch11Pressure.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Variation of Pressure with Depth in a Fluid",
+        "sectionFile": "contents/ch11VariationOfPresssure.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Pascal’s Principle",
+        "sectionFile": "contents/ch11PascalsPrinciple.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "Gauge Pressure, Absolute Pressure, and Pressure Measurement",
+        "sectionFile": "contents/ch11GaugePressureAbsolutePressure.md"
+      },
+      {
+        "sectionNumber": 7,
+        "sectionTitle": "Archimedes’ Principle",
+        "sectionFile": "contents/ch11ArchimedesPrinciple.md"
+      },
+      {
+        "sectionNumber": 8,
+        "sectionTitle": "Cohesion and Adhesion in Liquids: Surface Tension and Capillary Action",
+        "sectionFile": "contents/ch11CohesionAndAdhesionInLiquids.md"
+      },
+      {
+        "sectionNumber": 9,
+        "sectionTitle": "Pressures in the Body",
+        "sectionFile": "contents/ch11PressuresInTheBody.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 12,
+    "chapterTitle": "Fluid Dynamics",
+    "chapterFile": "contents/ch12FluidDynamicsAndItsBiologicalApplications.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Flow Rate and Its Relation to Velocity",
+        "sectionFile": "contents/ch12FlowRateAndItsRelationsToVelocity.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Bernoulli's Equation",
+        "sectionFile": "contents/ch12BernoullisEquation.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "The Most General Applications of Bernoulli's Equation",
+        "sectionFile": "contents/ch12TheMostGeneralApplicationsOfBernouillisEquation.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Viscosity and Laminar Flow",
+        "sectionFile": "contents/ch12ViscosityAndLaminarFlow.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "The Onset of Turbulence",
+        "sectionFile": "contents/ch12OnsetOfTurbulence.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "Motion of an Object is a Viscous Fluid",
+        "sectionFile": "contents/ch12MotionOfAnObjectInAViscousFluid.md"
+      },
+      {
+        "sectionNumber": 7,
+        "sectionTitle": "Molecular Transport Phenomena",
+        "sectionFile": "contents/ch12MolecularTransportPhenomena.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 13,
+    "chapterTitle": "Temperature, Kinetic Theory, and the Gas Laws",
+    "chapterFile": "contents/ch13TemperatureKineticTheoryAndTheGasLaws.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Temperature",
+        "sectionFile": "contents/ch13Temperature.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Thermal Expansion of Solids and Liquids",
+        "sectionFile": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "The Ideal Gas Law",
+        "sectionFile": "contents/ch13TheIdealGasLaws.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Kinetic Theory: Atomic and Molecular Explanation of Pressure and Temperature",
+        "sectionFile": "contents/ch13KineticTheory.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Phase Changes",
+        "sectionFile": "contents/ch13PhaseChanges.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "Humidity, Evaporation, and Boiling",
+        "sectionFile": "contents/ch13HumidityEvaporationAndBoiling.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 14,
+    "chapterTitle": "Heat and Heat Transfer Methods",
+    "chapterFile": "contents/ch14HeatAndHeatTransfers.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Heat",
+        "sectionFile": "contents/ch14Heat.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Temperature Change and Heat Capacity",
+        "sectionFile": "contents/ch14TemperatureChangeAndHeatCapacity.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Phase Change and Latent Heat",
+        "sectionFile": "contents/ch14PhaseChangeAndLatentHeat.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Heat Transfer Methods",
+        "sectionFile": "contents/ch14HeatTransferMethods.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Conduction",
+        "sectionFile": "contents/ch14Conduction.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "Convection",
+        "sectionFile": "contents/ch14Convection.md"
+      },
+      {
+        "sectionNumber": 7,
+        "sectionTitle": "Radiation",
+        "sectionFile": "contents/ch14Radiation.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 15,
+    "chapterTitle": "Thermodynamics",
+    "chapterFile": "contents/ch15Thermodynamics.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "The First Law of Thermodynamics",
+        "sectionFile": "contents/ch15TheFirstLawOfThermodynamics.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "The First Law of Thermodynamics and Some Simple Processes",
+        "sectionFile": "contents/ch15TheFirstLawOfThermodynamicsAndSomeSimpleProcesses.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Introduction to the Second Law of Thermodynamics",
+        "sectionFile": "contents/ch15IntroductionToTheSecondLawOfThermodynamics.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Carnot’s Perfect Heat Engine: The Second Law of Thermodynamics Restated",
+        "sectionFile": "contents/ch15CarnotsPerfectHeatEngine.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Applications of Thermodynamics: Heat Pumps and Refrigerators",
+        "sectionFile": "contents/ch15ApplicationsOfThermodynamics.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "Entropy and the Second Law of Thermodynamics: Disorder and the Unavailability of Energy",
+        "sectionFile": "contents/ch15EntropyAndTheSecondLaw.md"
+      },
+      {
+        "sectionNumber": 7,
+        "sectionTitle": "Statistical Interpretation of Entropy and the Second Law of Thermodynamics: The Underlying Explanation",
+        "sectionFile": "contents/ch15StatisticalInterpretationOfEntropy.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 16,
+    "chapterTitle": "Oscillatory Motion and Waves",
+    "chapterFile": "contents/ch16OscillatoryMotionAndWaves.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Hooke’s Law: Stress and Strain Revisited",
+        "sectionFile": "contents/ch16HookesLaw.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Period and Frequency in Oscillations",
+        "sectionFile": "contents/ch16PeriodAndFrequencyInOscillations.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Simple Harmonic Motion: A Special Periodic Motion",
+        "sectionFile": "contents/ch16SimpleHarmonicMotion.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "The Simple Pendulum",
+        "sectionFile": "contents/ch16TheSimplePendulum.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Energy and the Simple Harmonic Oscillator",
+        "sectionFile": "contents/ch16EnergyAndTheSimpleHarmonicOscillator.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "Uniform Circular Motion and Simple Harmonic Motion",
+        "sectionFile": "contents/ch16UniformCircularMotionAndSimpleHarmonicMotion.md"
+      },
+      {
+        "sectionNumber": 7,
+        "sectionTitle": "Damped Harmonic Motion",
+        "sectionFile": "contents/ch16DampedHarmonicOscillator.md"
+      },
+      {
+        "sectionNumber": 8,
+        "sectionTitle": "Forced Oscillations and Resonance",
+        "sectionFile": "contents/ch16ForcedOscillationsAndResonance.md"
+      },
+      {
+        "sectionNumber": 9,
+        "sectionTitle": "Waves",
+        "sectionFile": "contents/ch16Waves.md"
+      },
+      {
+        "sectionNumber": 11,
+        "sectionTitle": "Energy in Waves: Intensity",
+        "sectionFile": "contents/ch16EnergyInWaves.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 17,
+    "chapterTitle": "Physics of Hearing",
+    "chapterFile": "contents/ch17PhysicsOfHearing.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Sound",
+        "sectionFile": "contents/ch17Sound.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Speed of Sound, Frequency, and Wavelength",
+        "sectionFile": "contents/ch17SpeedOfSoundFrequencyAndWavelength.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Sound Intensity and Sound Level",
+        "sectionFile": "contents/ch17SoundIntensityAndSoundLevel.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Doppler Effect and Sonic Booms",
+        "sectionFile": "contents/ch17DopplerEffectAndSonicBooms.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Sound Interference and Resonance: Standing Waves in Air Columns",
+        "sectionFile": "contents/ch17SoundInterferenceAndResonance.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "Hearing",
+        "sectionFile": "contents/ch17Hearing.md"
+      },
+      {
+        "sectionNumber": 7,
+        "sectionTitle": "Ultrasound",
+        "sectionFile": "contents/ch17Ultrasound.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 18,
+    "chapterTitle": "Electric Charge and Electric Field",
+    "chapterFile": "contents/ch18ElectricChargeAndElectricField.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Static Electricity and Charge: Conservation of Charge",
+        "sectionFile": "contents/ch18StaticElectricityAndCharge.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Conductors and Insulators",
+        "sectionFile": "contents/ch18ConductorsAndInsulators.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Coulomb’s Law",
+        "sectionFile": "contents/ch18CoulombsLaw.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Electric Field: Concept of a Field Revisited",
+        "sectionFile": "contents/ch18ElectricField.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Electric Field Lines: Multiple Charges",
+        "sectionFile": "contents/ch18ElectricFieldLines.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "Electric Forces in Biology",
+        "sectionFile": "contents/ch18ElectricForcesInBiology.md"
+      },
+      {
+        "sectionNumber": 7,
+        "sectionTitle": "Conductors and Electric Fields in Static Equilibrium",
+        "sectionFile": "contents/ch18ConductorsAndElectricFieldsInStaticEquilibrium.md"
+      },
+      {
+        "sectionNumber": 8,
+        "sectionTitle": "Applications of Electrostatics",
+        "sectionFile": "contents/ch18ApplicationOfElectrostatics.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 19,
+    "chapterTitle": "Electric Potential and Electric Field",
+    "chapterFile": "contents/ch19ElectricPotentialAndElectricEnergy.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Electric Potential Energy: Potential Difference",
+        "sectionFile": "contents/ch19ElectricPotentialEnergy.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Electric Potential in a Uniform Electric Field",
+        "sectionFile": "contents/ch19ElectricPotentialInAUniformElectricField.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Electrical Potential Due to a Point Charge",
+        "sectionFile": "contents/ch19ElectricPotentialDueToAPointCharge.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Equipotential Lines",
+        "sectionFile": "contents/ch19EquipotentialLines.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Capacitors and Dielectrics",
+        "sectionFile": "contents/ch19CapacitorsAndDielectrics.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "Capacitors in Series and Parallel",
+        "sectionFile": "contents/ch19CapacitorsInSeriesAndInParallel.md"
+      },
+      {
+        "sectionNumber": 7,
+        "sectionTitle": "Energy Stored in Capacitors",
+        "sectionFile": "contents/ch19EnergyStoredInCapacitors.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 20,
+    "chapterTitle": "Electric Current, Resistance, and Ohm\\'s Law",
+    "chapterFile": "contents/ch20ElectricCurrentResistanceAndOhmsLaw.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Current",
+        "sectionFile": "contents/ch20Current.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Ohm’s Law: Resistance and Simple Circuits",
+        "sectionFile": "contents/ch20OhmsLaw.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Resistance and Resistivity",
+        "sectionFile": "contents/ch20ResistanceAndResistivity.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Electric Power and Energy",
+        "sectionFile": "contents/ch20ElectricPowerAndEnergy.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Alternating Current versus Direct Current",
+        "sectionFile": "contents/ch20AlternatingCurrentVersusDirectCurrent.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "Electric Hazards and the Human Body",
+        "sectionFile": "contents/ch20ElectricHazardsAndTheHumanBody.md"
+      },
+      {
+        "sectionNumber": 7,
+        "sectionTitle": "Nerve Conduction–Electrocardiograms",
+        "sectionFile": "contents/ch20NerveConductionElectrocardiograms.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 21,
+    "chapterTitle": "Circuits and DC Instruments",
+    "chapterFile": "contents/ch21IntroductionToCircuitsAndDCInstruments.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Resistors in Series and Parallel",
+        "sectionFile": "contents/ch21ResistorsInSeriesAndInParallel.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Electromotive Force: Terminal Voltage",
+        "sectionFile": "contents/ch21ElectromotiveForce.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Kirchhoff’s Rules",
+        "sectionFile": "contents/ch21KirchhoffsRules.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "DC Voltmeters and Ammeters",
+        "sectionFile": "contents/ch21DCVoltmetersAndAmmeters.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Null Measurements",
+        "sectionFile": "contents/ch21NullMeasurements.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "DC Circuits Containing Resistors and Capacitors",
+        "sectionFile": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 22,
+    "chapterTitle": "Magnetism",
+    "chapterFile": "contents/ch22Magnetism.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Magnets",
+        "sectionFile": "contents/ch22Magnets.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Ferromagnets and Electromagnets",
+        "sectionFile": "contents/ch22FerromagnetsAndElectromagnets.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Magnetic Fields and Magnetic Field Lines",
+        "sectionFile": "contents/ch22MagneticFieldsAndMagneticFieldLines.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Magnetic Field Strength: Force on a Moving Charge in a Magnetic Field",
+        "sectionFile": "contents/ch22MagneticFieldStrength.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Force on a Moving Charge in a Magnetic Field: Examples and Applications",
+        "sectionFile": "contents/ch22ForceOnAMovingChargeInAMagneticField.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "The Hall Effect",
+        "sectionFile": "contents/ch22TheHallEffect.md"
+      },
+      {
+        "sectionNumber": 7,
+        "sectionTitle": "Magnetic Force on a Current-Carrying Conductor",
+        "sectionFile": "contents/ch22MagneticForceOnACurrentCarryingConductor.md"
+      },
+      {
+        "sectionNumber": 8,
+        "sectionTitle": "Torque on a Current Loop: Motors and Meters",
+        "sectionFile": "contents/ch22TorqueOnACurrentLoop.md"
+      },
+      {
+        "sectionNumber": 9,
+        "sectionTitle": "Magnetic Fields Produced by Currents: Ampere’s Law",
+        "sectionFile": "contents/ch22MagneticFieldsProducedByCurrents.md"
+      },
+      {
+        "sectionNumber": 11,
+        "sectionTitle": "More Applications of Magnetism",
+        "sectionFile": "contents/ch22MoreApplicationsOfMagnetism.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 23,
+    "chapterTitle": "Electromagnetic Induction, AC Circuits, and Electrical Technologies",
+    "chapterFile": "contents/ch23ElectromagneticInductionACCircuitsAndElectricalTechnologies.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Induced Emf and Magnetic Flux",
+        "sectionFile": "contents/ch23InducedEmfAndMagneticFlux.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Faraday’s Law of Induction: Lenz’s Law",
+        "sectionFile": "contents/ch23FaradaysLawOfInduction.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Motional Emf",
+        "sectionFile": "contents/ch23MotionalEmf.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Eddy Currents and Magnetic Damping",
+        "sectionFile": "contents/ch23EddyCurrentsAndMagneticDamping.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Electric Generators",
+        "sectionFile": "contents/ch23ElectricGenerators.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "Back Emf",
+        "sectionFile": "contents/ch23BackEmf.md"
+      },
+      {
+        "sectionNumber": 7,
+        "sectionTitle": "Transformers",
+        "sectionFile": "contents/ch23Transformers.md"
+      },
+      {
+        "sectionNumber": 8,
+        "sectionTitle": "Electrical Safety: Systems and Devices",
+        "sectionFile": "contents/ch23ElectricalSafetySystemsAndDevices.md"
+      },
+      {
+        "sectionNumber": 9,
+        "sectionTitle": "Inductance",
+        "sectionFile": "contents/ch23Inductance.md"
+      },
+      {
+        "sectionNumber": 11,
+        "sectionTitle": "Reactance, Inductive and Capacitive",
+        "sectionFile": "contents/ch23ReactanceInductiveAndCapacitive.md"
+      },
+      {
+        "sectionNumber": 12,
+        "sectionTitle": "RLC Series AC Circuits",
+        "sectionFile": "contents/ch23RLCSeriesACircuits.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 24,
+    "chapterTitle": "Electromagnetic Waves",
+    "chapterFile": "contents/ch24ElectromagneticWaves.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Maxwell’s Equations: Electromagnetic Waves Predicted and Observed",
+        "sectionFile": "contents/ch24MaxwellsEquations.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Production of Electromagnetic Waves",
+        "sectionFile": "contents/ch24ProductionOfElectromagneticWaves.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "The Electromagnetic Spectrum",
+        "sectionFile": "contents/ch24TheElectromagneticSpectrum.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Energy in Electromagnetic Waves",
+        "sectionFile": "contents/ch24EnergyInElectromagneticWaves.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 25,
+    "chapterTitle": "Geometric Optics",
+    "chapterFile": "contents/ch25GeometricOptics.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "The Ray Aspect of Light",
+        "sectionFile": "contents/ch25TheRayAspectOfLight.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "The Law of Reflection",
+        "sectionFile": "contents/ch25TheLawOfReflection.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "The Law of Refraction",
+        "sectionFile": "contents/ch25TheLawOfRefraction.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Total Internal Reflection",
+        "sectionFile": "contents/ch25TotalInternalReflection.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Dispersion: The Rainbow and Prisms",
+        "sectionFile": "contents/ch25Dispersion.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "Image Formation by Lenses",
+        "sectionFile": "contents/ch25ImageFormationByLenses.md"
+      },
+      {
+        "sectionNumber": 7,
+        "sectionTitle": "Image Formation by Mirrors",
+        "sectionFile": "contents/ch25ImageFormationByMirrors.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 26,
+    "chapterTitle": "Vision and Optical Instruments",
+    "chapterFile": "contents/ch26VisionAndOpticalInstruments.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Physics of the Eye",
+        "sectionFile": "contents/ch26PhysicsOfTheEye.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Vision Correction",
+        "sectionFile": "contents/ch26VisionCorrection.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Color and Color Vision",
+        "sectionFile": "contents/ch26ColorAndColorVision.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Microscopes",
+        "sectionFile": "contents/ch26Microscopes.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Telescopes",
+        "sectionFile": "contents/ch26Telescopes.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "Aberrations",
+        "sectionFile": "contents/ch26Aberrations.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 27,
+    "chapterTitle": "Wave Optics",
+    "chapterFile": "contents/ch27WaveOptics.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "The Wave Aspect of Light: Interference",
+        "sectionFile": "contents/ch27WaveAspectOfLight.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Huygens\\'s Principle: Diffraction",
+        "sectionFile": "contents/ch27HuygensPrinciple.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Young’s Double Slit Experiment",
+        "sectionFile": "contents/ch27YoungsDoubleSlitExperiment.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Multiple Slit Diffraction",
+        "sectionFile": "contents/ch27MultipleSlitDiffraction.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Single Slit Diffraction",
+        "sectionFile": "contents/ch27SingleSlitDiffraction.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "Limits of Resolution: The Rayleigh Criterion",
+        "sectionFile": "contents/ch27LimitsOfResolution.md"
+      },
+      {
+        "sectionNumber": 7,
+        "sectionTitle": "Thin Film Interference",
+        "sectionFile": "contents/ch27ThinFilmInterference.md"
+      },
+      {
+        "sectionNumber": 8,
+        "sectionTitle": "Polarization",
+        "sectionFile": "contents/ch27Polarization.md"
+      },
+      {
+        "sectionNumber": 9,
+        "sectionTitle": "\\*Extended Topic\\* Microscopy Enhanced by the Wave Characteristics of Light",
+        "sectionFile": "contents/ch27MicroscopyEnhancedByTheWaveCharacteristicsOfLight.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 28,
+    "chapterTitle": "Special Relativity",
+    "chapterFile": "contents/ch28SpecialRelativity.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Einstein’s Postulates",
+        "sectionFile": "contents/ch28EinsteinsPostulate.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Simultaneity And Time Dilation",
+        "sectionFile": "contents/ch28SimultaneityAndTimeDilation.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Length Contraction",
+        "sectionFile": "contents/ch28LengthContraction.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Relativistic Addition of Velocities",
+        "sectionFile": "contents/ch28RelativisticAdditionOfVelocities.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Relativistic Momentum",
+        "sectionFile": "contents/ch28RelativisticMomentum.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "Relativistic Energy",
+        "sectionFile": "contents/ch28RelativisticEnergy.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 29,
+    "chapterTitle": "Introduction to Quantum Physics",
+    "chapterFile": "contents/ch29QuantumPhysics.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Quantization of Energy",
+        "sectionFile": "contents/ch29QuantizationOfEnergy.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "The Photoelectric Effect",
+        "sectionFile": "contents/ch29ThePhotoelectricEffect.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Photon Energies and the Electromagnetic Spectrum",
+        "sectionFile": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Photon Momentum",
+        "sectionFile": "contents/ch29PhotonMomentum.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "The Particle-Wave Duality",
+        "sectionFile": "contents/ch29TheParticleWaveDuality.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "The Wave Nature of Matter",
+        "sectionFile": "contents/ch29TheWaveNatureOfMatter.md"
+      },
+      {
+        "sectionNumber": 7,
+        "sectionTitle": "Probability: The Heisenberg Uncertainty Principle",
+        "sectionFile": "contents/ch29Probability.md"
+      },
+      {
+        "sectionNumber": 8,
+        "sectionTitle": "The Particle-Wave Duality Reviewed",
+        "sectionFile": "contents/ch29ParticleWaveDualityReviewed.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 30,
+    "chapterTitle": "Atomic Physics",
+    "chapterFile": "contents/ch30AtomicPhysics.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Discovery of the Atom",
+        "sectionFile": "contents/ch30DiscoveryOfTheAtom.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Discovery of the Parts of the Atom: Electrons and Nuclei",
+        "sectionFile": "contents/ch30DiscoveryOfThePartsOfTheAtom.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Bohr’s Theory of the Hydrogen Atom",
+        "sectionFile": "contents/ch30BohrsTheoryOfTheHydrogenAtom.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "X-Rays: Atomic Origins and Applications",
+        "sectionFile": "contents/ch30XRays.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Applications of Atomic Excitations and De-Excitations",
+        "sectionFile": "contents/ch30ApplicationOfAtomicExcitationsAndDeexcitations.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "The Wave Nature of Matter Causes Quantization",
+        "sectionFile": "contents/ch30TheWaveNatureOfMatterCausesQuantization.md"
+      },
+      {
+        "sectionNumber": 7,
+        "sectionTitle": "Patterns in Spectra Reveal More Quantization",
+        "sectionFile": "contents/ch30PatternsInSpectraRevealMoreQuantization.md"
+      },
+      {
+        "sectionNumber": 8,
+        "sectionTitle": "Quantum Numbers and Rules",
+        "sectionFile": "contents/ch30QuantumNumbersAndRules.md"
+      },
+      {
+        "sectionNumber": 9,
+        "sectionTitle": "The Pauli Exclusion Principle",
+        "sectionFile": "contents/ch30ThePauliExclusionPrinciple.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 31,
+    "chapterTitle": "Radioactivity and Nuclear Physics",
+    "chapterFile": "contents/ch31RadioactivityAndNuclearPhysics.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Nuclear Radioactivity",
+        "sectionFile": "contents/ch31NuclearRadioactivity.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Radiation Detection and Detectors",
+        "sectionFile": "contents/ch31RadiationDetectionAndDetectors.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Substructure of the Nucleus",
+        "sectionFile": "contents/ch31SubstructureOfTheNucleus.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Nuclear Decay and Conservation Laws",
+        "sectionFile": "contents/ch31NuclearDecayAndConservationLaws.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Half-Life and Activity",
+        "sectionFile": "contents/ch31HalfLifeAndActivity.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "Binding Energy",
+        "sectionFile": "contents/ch31BindingEnergy.md"
+      },
+      {
+        "sectionNumber": 7,
+        "sectionTitle": "Tunneling",
+        "sectionFile": "contents/ch31Tunneling.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 32,
+    "chapterTitle": "Medical Applications of Nuclear Physics",
+    "chapterFile": "contents/ch32MedicalApplicationsOfNuclearPhysics.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Medical Imaging and Diagnostics",
+        "sectionFile": "contents/ch32MedicalImagingAndDiagnostics.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "Biological Effects of Ionizing Radiation",
+        "sectionFile": "contents/ch32BiologicalEffectsAndIonizingRadiation.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Therapeutic Uses of Ionizing Radiation",
+        "sectionFile": "contents/ch32TherapeuticUsesOfIonizingRadiation.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Food Irradiation",
+        "sectionFile": "contents/ch32FoodIrradiation.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Fusion",
+        "sectionFile": "contents/ch32Fusion.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "Fission",
+        "sectionFile": "contents/ch32Fission.md"
+      },
+      {
+        "sectionNumber": 7,
+        "sectionTitle": "Nuclear Weapons",
+        "sectionFile": "contents/ch32NuclearWeapons.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 33,
+    "chapterTitle": "Particle Physics",
+    "chapterFile": "contents/ch33ParticlePhysics.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "The Yukawa Particle and the Heisenberg Uncertainty Principle Revisited",
+        "sectionFile": "contents/ch33TheYukawaParticleAndTheHeisenbergUncertaintyPrincipleRevisited.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "The Four Basic Forces",
+        "sectionFile": "contents/ch33TheFourBasicForces.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Accelerators Create Matter from Energy",
+        "sectionFile": "contents/ch33AcceleratorsCreateMatterFromEnergy.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Particles, Patterns, and Conservation Laws",
+        "sectionFile": "contents/ch33ParticlesPatternsAndConservationLaws.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Quarks: Is That All There Is?",
+        "sectionFile": "contents/ch33Quarks.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "GUTs: The Unification of Forces",
+        "sectionFile": "contents/ch33GUTS.md"
+      }
+    ]
+  },
+  {
+    "chapterNumber": 34,
+    "chapterTitle": "Frontiers of Physics",
+    "chapterFile": "contents/ch34FrontiersOfPhysics.md",
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "sectionTitle": "Cosmology and Particle Physics",
+        "sectionFile": "contents/ch34CosmologyAndParticlePhysics.md"
+      },
+      {
+        "sectionNumber": 2,
+        "sectionTitle": "General Relativity and Quantum Gravity",
+        "sectionFile": "contents/ch34GeneralRelativityAndQuantumTheory.md"
+      },
+      {
+        "sectionNumber": 3,
+        "sectionTitle": "Superstrings",
+        "sectionFile": "contents/ch34Superstrings.md"
+      },
+      {
+        "sectionNumber": 4,
+        "sectionTitle": "Dark Matter and Closure",
+        "sectionFile": "contents/ch34DarkMatterAndClosure.md"
+      },
+      {
+        "sectionNumber": 5,
+        "sectionTitle": "Complexity and Chaos",
+        "sectionFile": "contents/ch34ComplexityAndChaos.md"
+      },
+      {
+        "sectionNumber": 6,
+        "sectionTitle": "High-temperature Superconductors",
+        "sectionFile": "contents/ch34HighTemperatureSuperconductors.md"
+      },
+      {
+        "sectionNumber": 7,
+        "sectionTitle": "Some Questions We Know to Ask",
+        "sectionFile": "contents/ch34SomeQuestionsWeKnowToAsk.md"
+      }
+    ]
+  }
+]

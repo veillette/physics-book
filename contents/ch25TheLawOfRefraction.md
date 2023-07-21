@@ -1,6 +1,8 @@
 ---
-title: "The Law of Refraction"
+title: The Law of Refraction
 layout: page
+sectionNumber: 3
+chapterNumber: 25
 ---
 
 <div class="abstract" markdown="1">
@@ -465,7 +467,7 @@ Explain why a person’s legs appear very short when wading in a pool. Justify y
 <div class="problem" markdown="1">
 Why is the front surface of a thermometer curved as shown?
 
-![A triangular shaped transparent thermometer is shown.](../resources/Figure_25_06_14.jpg "The curved surface of the thermometer serves a purpose. ")
+![A triangular shaped transparent thermometer is shown.](../resources/Figure_25_03_04.jpg "The curved surface of the thermometer serves a purpose. ")
 {: #Figure4}
 
 </div>
@@ -535,7 +537,7 @@ There was a major collision of an asteroid with the Moon in medieval times. It w
 <div class="problem" markdown="1">
 A scuba diver training in a pool looks at his instructor as shown in [[Figure 5]](#Figure5). What angle does the ray from the instructor’s face make with the perpendicular to the water at the point where the ray enters? The angle between the ray in the water and the perpendicular to the water is  $$ 25.0º $$.
 
-![A scuba diver and his trainer look at each other. For the trainer, the scuba diver appears less deep than he actually is, and to the diver, the trainer appears much higher than she actually is. To the trainer, the scuba diver\'s feet appear to be at a depth of two point zero meters. The incident ray from the trainer strikes the water surface at a point, the point of incidence, and the trainer is at a horizontal distance of two point zero meters from a perpendicular drawn at the point of incidence.](../resources/Figure_25_03_04.jpg "A scuba diver in a pool and his trainer look at each other. ")
+![A scuba diver and his trainer look at each other. For the trainer, the scuba diver appears less deep than he actually is, and to the diver, the trainer appears much higher than she actually is. To the trainer, the scuba diver\'s feet appear to be at a depth of two point zero meters. The incident ray from the trainer strikes the water surface at a point, the point of incidence, and the trainer is at a horizontal distance of two point zero meters from a perpendicular drawn at the point of incidence.](../resources/Figure_25_03_05.jpg "A scuba diver in a pool and his trainer look at each other. ")
 {: #Figure5}
 
 </div>
@@ -596,7 +598,7 @@ given that the incident angle is  $$ 40.0º $$
 [[Figure 6]](#Figure6) shows a ray of light passing from one medium into a second and then a third. Show that  $${\theta }_{3} $$
  is the same as it would be if the second medium were not present (provided total internal reflection does not occur).
 
-![The figure illustrates refraction occurring when light travels from medium n1 to n3 through an intermediate medium n2. The incident ray makes an angle theta 1 with a perpendicular drawn at the point of incidence. The light ray bends towards the perpendicular line making an angle theta 2 as it moves from n1 to n2. The refracted ray 1 becomes the incident ray for the second refraction at n3 and on falling on to the third medium makes an angle theta 2, and the refracted ray 2 moves away from a perpendicular drawn at the point of incidence on n3. The shift in the path of the incident ray is delta x.](../resources/Figure_25_03_05.jpg "A ray of light passes from one medium to a third by traveling through a second. The final direction is the same as if the second medium were not present, but the ray is displaced by \( \Delta x \)  (shown exaggerated).")
+![The figure illustrates refraction occurring when light travels from medium n1 to n3 through an intermediate medium n2. The incident ray makes an angle theta 1 with a perpendicular drawn at the point of incidence. The light ray bends towards the perpendicular line making an angle theta 2 as it moves from n1 to n2. The refracted ray 1 becomes the incident ray for the second refraction at n3 and on falling on to the third medium makes an angle theta 2, and the refracted ray 2 moves away from a perpendicular drawn at the point of incidence on n3. The shift in the path of the incident ray is delta x.](../resources/Figure_25_03_06.jpg "A ray of light passes from one medium to a third by traveling through a second. The final direction is the same as if the second medium were not present, but the ray is displaced by \( \Delta x \)  (shown exaggerated).")
 {: #Figure6}
 
 </div>

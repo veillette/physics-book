@@ -1,6 +1,8 @@
 ---
-title: "Phase Changes"
+title: Phase Changes
 layout: page
+sectionNumber: 5
+chapterNumber: 13
 ---
 
 <div class="abstract" markdown="1">

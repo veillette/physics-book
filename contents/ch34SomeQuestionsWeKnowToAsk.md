@@ -1,7 +1,9 @@
 ---
-title: "Some Questions We Know to Ask"
+title: Some Questions We Know to Ask
 layout: page
---- 
+sectionNumber: 7
+chapterNumber: 34
+---
 
 <div class="abstract" markdown="1">
 * Identify sample questions to be asked on the largest scales.
