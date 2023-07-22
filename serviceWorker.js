@@ -4,6 +4,7 @@ const cacheName = 'textbookCache';
 // List the files to precache
 let precacheResources = [
     '/',
+    'index.html',
     'assets/css/styles.css',
     'assets/css/gitbook.css',
     'assets/manifest/icons/icon-144x144.png',
