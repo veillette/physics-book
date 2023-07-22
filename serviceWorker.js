@@ -12,12 +12,15 @@ let precacheResources = [
 ];
 
 self.addEventListener('install', function (event) {
-    // Perform install steps
     event.waitUntil(
         caches.open(cacheName)
             .then(function (cache) {
                 console.log('Opened cache');
-                return cache.addAll(precacheResources);
+                return Promise.all(
+                    precacheResources.map(url => {
+                        return fetch(url).then(response => cache.put(url, response));
+                    })
+                );
             })
     );
 });
