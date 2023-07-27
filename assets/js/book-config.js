@@ -16,14 +16,6 @@ export const BookConfig = {
 // merge the initial parameters with the ones from the window
 mergeObjectsRecursive(BookConfig, window.Book);
 
-//# Inject the <link> tags for FontAwesome
-if (BookConfig.includes.fontawesome) {
-    const fa = document.createElement('link');
-    fa.rel = 'stylesheet';
-    fa.href = BookConfig.includes.fontawesome;
-    document.head.appendChild(fa);
-}
-
 function mergeObjectsRecursive(target, source) {
     for (const key in source) {
         if (source.hasOwnProperty(key)) {

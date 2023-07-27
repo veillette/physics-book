@@ -1,6 +1,14 @@
 import {BookConfig} from '../js/book-config.js';
 import {removeTrailingSlash, addTrailingSlash, mdToHtmlFix} from '../js/util.js';
 
+//# Inject the <link> tags for FontAwesome
+if (BookConfig.includes.fontawesome) {
+    const fa = document.createElement('link');
+    fa.rel = 'stylesheet';
+    fa.href = BookConfig.includes.fontawesome;
+    document.head.appendChild(fa);
+}
+
 const BOOK_TEMPLATE =
     `<div class="book with-summary font-size-2 font-family-1">
             <div class="book-header">
