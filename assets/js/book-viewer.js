@@ -1,24 +1,7 @@
-// some initial parameters
-const BookConfig = window.Book || {};
+import {BookConfig} from '../js/book-config.js';
+import {removeTrailingSlash, addTrailingSlash, mdToHtmlFix} from '../js/util.js';
 
-BookConfig.urlFixer ??= val => val;
-BookConfig.toc ??= {};
-BookConfig.toc.url ??= '../toc'; // # or '../SUMMARY' for GitBook
-BookConfig.toc.selector ??= 'nav, ol, ul'; // # picks the first one that matches
-BookConfig.baseHref ??= null; //  # or '//archive.cnx.org/contents'
-BookConfig.serverAddsTrailingSlash ??= false; //# Used because jekyll adds trailing slashes
-BookConfig.rootUrl ??= '';
-BookConfig.includes ??= {};
-BookConfig.includes.fontawesome ??= 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
-
-//# Inject the <link> tags for FontAwesome
-if (BookConfig.includes.fontawesome) {
-    const fa = document.createElement('link');
-    fa.rel = 'stylesheet';
-    fa.href = BookConfig.includes.fontawesome;
-    document.head.appendChild(fa);
-}
-
+console.log(BookConfig);
 const BOOK_TEMPLATE =
     `<div class="book with-summary font-size-2 font-family-1">
             <div class="book-header">
@@ -55,42 +38,6 @@ function docReady(fn) {
     }
 }
 
-/**
- * Convenience function
- * @param {string} href
- * @returns {string}
- */
-const removeTrailingSlash = (href) => {
-    if (BookConfig.serverAddsTrailingSlash && href[href.length - 1] === '/') {
-        href = href.substring(0, href.length - 1);
-    }
-    return href;
-};
-
-/**
- * convenience function
- * @param {string} href
- * @returns {string}
- */
-const addTrailingSlash = (href) => {
-    if (BookConfig.serverAddsTrailingSlash && href[href.length - 1] !== '/') {
-        href += '/';
-    }
-    return href;
-};
-
-
-/**
- * Fix up the ToC links if the links to pages end in `.md`
- * @param {Element} a
- */
-const mdToHtmlFix = (a) => {
-    let href = a.getAttribute('href');
-    if (href) {
-        href = href.replace(/\.md/, '.html');
-        a.setAttribute('href', href);
-    }
-};
 
 function parser() {
     //# Squirrel the body and replace it with the template:

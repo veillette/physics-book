@@ -43,8 +43,12 @@
         };
     </script>
 
+    <!-- Import the JavaScript module -->
+    <script type="module" src="{{'/assets/js/book-config.js'| relative_url }}"></script>
+    <script type="module" src="{{'/assets/js/util.js'| relative_url }}"></script>
+
     <script src="{{'/assets/js/book-viewer.js'| relative_url }}"
-            type="text/javascript"></script>
+            type="module"></script>
 
     <script src="{{'/assets/js/register-sw.js'| relative_url }}"
             type="text/javascript"></script>
