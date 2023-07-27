@@ -1,16 +1,20 @@
-
 // some initial parameters
-export const BookConfig = window.Book || {};
+export const BookConfig = {
+    urlFixer: val => val,
+    toc: {
+        url: '../toc', // # or '../SUMMARY' for GitBook
+        selector: 'nav, ol, ul', // # picks the first one that matches
+    },
+    baseHref: null, //  # or '//archive.cnx.org/contents'
+    serverAddsTrailingSlash: false, //# Used because jekyll adds trailing slashes
+    rootUrl: '',
+    includes: {
+        fontawesome: 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
+    }
+}
 
-BookConfig.urlFixer ??= val => val;
-BookConfig.toc ??= {};
-BookConfig.toc.url ??= '../toc'; // # or '../SUMMARY' for GitBook
-BookConfig.toc.selector ??= 'nav, ol, ul'; // # picks the first one that matches
-BookConfig.baseHref ??= null; //  # or '//archive.cnx.org/contents'
-BookConfig.serverAddsTrailingSlash ??= false; //# Used because jekyll adds trailing slashes
-BookConfig.rootUrl ??= '';
-BookConfig.includes ??= {};
-BookConfig.includes.fontawesome ??= 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+// merge the initial parameters with the ones from the window
+mergeObjectsRecursive(BookConfig, window.Book);
 
 //# Inject the <link> tags for FontAwesome
 if (BookConfig.includes.fontawesome) {
@@ -18,4 +22,22 @@ if (BookConfig.includes.fontawesome) {
     fa.rel = 'stylesheet';
     fa.href = BookConfig.includes.fontawesome;
     document.head.appendChild(fa);
+}
+
+function mergeObjectsRecursive(target, source) {
+    for (const key in source) {
+        if (source.hasOwnProperty(key)) {
+            if (source[key] instanceof Object) {
+                if (!target[key]) {
+                    // If the key doesn't exist in the target, create a new object
+                    target[key] = {};
+                }
+                // Recursively merge the nested objects
+                mergeObjectsRecursive(target[key], source[key]);
+            } else {
+                // Assign the property from the source object to the target object
+                target[key] = source[key];
+            }
+        }
+    }
 }
