@@ -1,15 +1,5 @@
-// some initial parameters
-const BookConfig = window.Book || {};
-
-BookConfig.urlFixer ??= val => val;
-BookConfig.toc ??= {};
-BookConfig.toc.url ??= '../toc'; // # or '../SUMMARY' for GitBook
-BookConfig.toc.selector ??= 'nav, ol, ul'; // # picks the first one that matches
-BookConfig.baseHref ??= null; //  # or '//archive.cnx.org/contents'
-BookConfig.serverAddsTrailingSlash ??= false; //# Used because jekyll adds trailing slashes
-BookConfig.rootUrl ??= '';
-BookConfig.includes ??= {};
-BookConfig.includes.fontawesome ??= 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+import {BookConfig} from '../js/book-config.js';
+import {removeTrailingSlash, addTrailingSlash, mdToHtmlFix} from '../js/util.js';
 
 //# Inject the <link> tags for FontAwesome
 if (BookConfig.includes.fontawesome) {
@@ -55,42 +45,6 @@ function docReady(fn) {
     }
 }
 
-/**
- * Convenience function
- * @param {string} href
- * @returns {string}
- */
-const removeTrailingSlash = (href) => {
-    if (BookConfig.serverAddsTrailingSlash && href[href.length - 1] === '/') {
-        href = href.substring(0, href.length - 1);
-    }
-    return href;
-};
-
-/**
- * convenience function
- * @param {string} href
- * @returns {string}
- */
-const addTrailingSlash = (href) => {
-    if (BookConfig.serverAddsTrailingSlash && href[href.length - 1] !== '/') {
-        href += '/';
-    }
-    return href;
-};
-
-
-/**
- * Fix up the ToC links if the links to pages end in `.md`
- * @param {Element} a
- */
-const mdToHtmlFix = (a) => {
-    let href = a.getAttribute('href');
-    if (href) {
-        href = href.replace(/\.md/, '.html');
-        a.setAttribute('href', href);
-    }
-};
 
 function parser() {
     //# Squirrel the body and replace it with the template:
@@ -195,7 +149,6 @@ function parser() {
      *
      * @param {Element} els
      * @param {string} href
-     * @returns {undefined|*}
      */
     const newPageBeforeRender = (els, href) => {
 
@@ -290,7 +243,7 @@ function parser() {
         }
 
         const selector = 'h1, h2, h3, h4, h5, h6';
-        const all = Array.from(els.querySelectorAll(selector)).concat(Array.from(els.querySelectorAll(selector)));
+        const all = Array.from(els.querySelectorAll(selector));
         all.forEach(function (el) {
             const id = el.getAttribute('id');
             if (id) {
@@ -308,9 +261,6 @@ function parser() {
             MathJax.startup.promise = MathJax.startup.promise
                 .then(() => MathJax.typesetPromise([els]))
                 .catch((err) => console.log('Typeset failed: ' + err.message));
-            return MathJax.startup.promise;
-        } else {
-            return void 0;
         }
     };
 

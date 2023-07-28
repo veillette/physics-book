@@ -518,13 +518,14 @@ tension in the two ropes if the person is momentarily motionless. Include a free
 
 </div>
 <div class="solution" markdown="1">
-![An object of mass m is shown being pulled by two ropes. Tension T sub two acts toward the right at an angle of ten degrees above the horizontal. Another rope makes an angle fifteen degrees to the left of the vertical direction, and tension in the rope is T sub one, shown by a vector arrow. Weight w is acting vertically downward.](../resources/Figure_04_07_07.jpg){: #Figure5 height="200"}
+
+![An object of mass m is shown being pulled by two ropes. Tension T sub two acts toward the right at an angle of ten degrees above the horizontal. Another rope makes an angle fifteen degrees to the left of the vertical direction, and tension in the rope is T sub one, shown by a vector arrow. Weight w is acting vertically downward.](../resources/Figure_04_07_05.jpg){: #Figure5 height="200"}
 
 $$ T_{1}=736 \N $$, $$ T_{2}=194 \N $$
 </div>
 </div>
 
-![A lady is being pulled away from a burning building using a rope. She is in the middle of the rope; her weight is shown by a vector acting vertically downward. Tension, T sub one, acts upward through the left side of the rope, making an angle of fifteen degrees with the vertical. Tension T sub two acts through the right side of the rope, making an angle of ten degrees above the positive x axis.](../resources/Figure_04_07_08.jpg "The force \( T_2 \) needed to hold steady the person being rescued from the fire is less than her weight and less than the force \( T_1 \) in the other rope, since the more vertical rope supports a greater part of her weight (a vertical force).&#10;        ")
+![A lady is being pulled away from a burning building using a rope. She is in the middle of the rope; her weight is shown by a vector acting vertically downward. Tension, T sub one, acts upward through the left side of the rope, making an angle of fifteen degrees with the vertical. Tension T sub two acts through the right side of the rope, making an angle of ten degrees above the positive x axis.](../resources/Figure_04_07_06.jpg "The force \( T_2 \) needed to hold steady the person being rescued from the fire is less than her weight and less than the force \( T_1 \) in the other rope, since the more vertical rope supports a greater part of her weight (a vertical force).&#10;        ")
 {: #Figure6 height="275"}
 
 <div class="exercise" data-element-type="problems-exercises">
