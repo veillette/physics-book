@@ -244,7 +244,7 @@ function parser() {
         }
 
         const selector = 'h1, h2, h3, h4, h5, h6';
-        const all = Array.from(els.querySelectorAll(selector)).concat(Array.from(els.querySelectorAll(selector)));
+        const all = Array.from(els.querySelectorAll(selector));
         all.forEach(function (el) {
             const id = el.getAttribute('id');
             if (id) {
