@@ -145,7 +145,7 @@ making one complete rotation in 25 780 y.
 (c) If this torque were created by a single force (it is not) acting at the most
 effective point on the equator, what would its magnitude be?
 
-![In the figure, the Earth&#x2019;s image is shown. There are two vectors inclined at an angle of twenty three point five degree to the vertical, starting from the centre of the Earth. At the heads of the two vectors there is a circular shape, directed in counter clockwise direction. An angular momentum vector, directed toward left, along its diameter, is shown. The plane of the Earth&#x2019;s orbit is shown as a horizontal line through its center.](../resources/Figure_10_07_06.jpg "The Earth&#x2019;s axis slowly precesses, always making an angle of 23.5&#xB0; with the direction perpendicular to the plane of Earth&#x2019;s orbit. The change in angular momentum for the two shown positions is quite large, although the magnitude \( L \) is unchanged.")
+![In the figure, the Earth&#x2019;s image is shown. There are two vectors inclined at an angle of twenty three point five degree to the vertical, starting from the centre of the Earth. At the heads of the two vectors there is a circular shape, directed in counter clockwise direction. An angular momentum vector, directed toward left, along its diameter, is shown. The plane of the Earth&#x2019;s orbit is shown as a horizontal line through its center.](../resources/Figure_10_07_05.jpg "The Earth&#x2019;s axis slowly precesses, always making an angle of 23.5&#xB0; with the direction perpendicular to the plane of Earth&#x2019;s orbit. The change in angular momentum for the two shown positions is quite large, although the magnitude \( L \) is unchanged.")
 {: #Figure5 height="250"}
 
 </div>
