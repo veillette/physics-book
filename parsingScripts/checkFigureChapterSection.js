@@ -52,7 +52,7 @@ function validateFigures(content, chapterNumber, sectionNumber, file) {
             )
             .join(', ');
 
-        console.log(`Figure numbers are not continuous for Chapter ${chapterNumber}, Section ${sectionNumber}. ${errorMessage}`);
+        console.log(`Figure numbers are not continuous for Chapter ${chapterNumber}, Section ${sectionNumber}: ${file},  ${errorMessage}`);
     }
 }
 
