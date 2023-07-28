@@ -233,7 +233,7 @@ the proton—this observation is considered nearly direct evidence of quarks. Th
 analysis was based partly on the same conservation of momentum principle that
 works so well on the large scale.
 
-![An electron strikes on a macroscopic target and recoils back. A closer look shows the electron to scatter backward after interacting with the proton.](../resources/Figure_08_03_04.jpg "A subatomic particle scatters straight backward from a target particle. In experiments seeking evidence for quarks, electrons were observed to occasionally scatter straight backward from a proton.")
+![An electron strikes on a macroscopic target and recoils back. A closer look shows the electron to scatter backward after interacting with the proton.](../resources/Figure_08_03_03.jpg "A subatomic particle scatters straight backward from a target particle. In experiments seeking evidence for quarks, electrons were observed to occasionally scatter straight backward from a proton.")
 {: #Figure3}
 
 ### Section Summary
