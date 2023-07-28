@@ -228,7 +228,7 @@ necessarily the same thing).
  Gravity Force Lab
 </div>
 Visualize the gravitational force that two objects exert on each other. Change properties of the objects in
-order to  see how it changes the gravity force.
+order to see how it changes the gravity force.
 
 <figure markdown="1">
 <iframe loading="lazy" src="https://phet.colorado.edu/sims/html/gravity-force-lab/latest/gravity-force-lab_en.html" width="600" height="450"  allowfullscreen></iframe>

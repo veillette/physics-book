@@ -58,6 +58,11 @@ instead of in the expected direction.
 ![In figure a, a plane is shown. Force F, lying in the same plane, is acting at a point in the plane. At a point, at distant-r from the force, a vertical vector is shown labeled as tau, the torque. In figure b, there is a child on a horse on a merry-go-round. The radius of the merry-go-round is r units. At the foot of the horse, a vector along the plane of merry-go-round is shown. At the centre, the direction of torque tau, angular velocity omega, and angular momentum L are shown as vertical vectors.](../resources/Figure_10_07_02.jpg "In figure (a), the torque is perpendicular to the plane formed by \( r \) and \( F \) and is the direction your right thumb would point to if you curled your fingers in the direction of \( F \) . Figure (b) shows that the direction of the torque is the same as that of the angular momentum it produces.")
 {: #Figure2 height="200"}
 
+![In figure a, a person holding the spinning bike wheel lifts it with her right hand and pushes down with her left hand in an attempt to rotate the wheel. This action creates a torque directly toward her. This torque causes a change in angular momentum Delta L  in exactly the same direction. Figure b shows a vector diagram depicting how Delta L 
+and  L add, producing a new angular momentum pointing more toward the person. The wheel moves toward the person, perpendicular to the forces she exerts on it.](../resources/Figure_10_07_03.webp "In figure (a), a person holding the spinning bike wheel lifts it with her right hand and pushes down with her left hand in an attempt to rotate the wheel. This action creates a torque directly toward her. This torque causes a change in angular momentum  \( \Delta L \)
+in exactly the same direction. Figure (b) shows a vector diagram depicting how \( \Delta L \)
+and  \(  L \)
+add, producing a new angular momentum pointing more toward the person. The wheel moves toward the person, perpendicular to the forces she exerts on it.")
 {: #Figure3 height="300"}
 
 This same logic explains the behavior of gyroscopes. [Figure 4](#Figure4) shows the
@@ -140,7 +145,7 @@ making one complete rotation in 25 780 y.
 (c) If this torque were created by a single force (it is not) acting at the most
 effective point on the equator, what would its magnitude be?
 
-![In the figure, the Earth&#x2019;s image is shown. There are two vectors inclined at an angle of twenty three point five degree to the vertical, starting from the centre of the Earth. At the heads of the two vectors there is a circular shape, directed in counter clockwise direction. An angular momentum vector, directed toward left, along its diameter, is shown. The plane of the Earth&#x2019;s orbit is shown as a horizontal line through its center.](../resources/Figure_10_07_06.jpg "The Earth&#x2019;s axis slowly precesses, always making an angle of 23.5&#xB0; with the direction perpendicular to the plane of Earth&#x2019;s orbit. The change in angular momentum for the two shown positions is quite large, although the magnitude \( L \) is unchanged.")
+![In the figure, the Earth&#x2019;s image is shown. There are two vectors inclined at an angle of twenty three point five degree to the vertical, starting from the centre of the Earth. At the heads of the two vectors there is a circular shape, directed in counter clockwise direction. An angular momentum vector, directed toward left, along its diameter, is shown. The plane of the Earth&#x2019;s orbit is shown as a horizontal line through its center.](../resources/Figure_10_07_05.jpg "The Earth&#x2019;s axis slowly precesses, always making an angle of 23.5&#xB0; with the direction perpendicular to the plane of Earth&#x2019;s orbit. The change in angular momentum for the two shown positions is quite large, although the magnitude \( L \) is unchanged.")
 {: #Figure5 height="250"}
 
 </div>
