@@ -149,7 +149,6 @@ function parser() {
      *
      * @param {Element} els
      * @param {string} href
-     * @returns {undefined|*}
      */
     const newPageBeforeRender = (els, href) => {
 
@@ -262,9 +261,6 @@ function parser() {
             MathJax.startup.promise = MathJax.startup.promise
                 .then(() => MathJax.typesetPromise([els]))
                 .catch((err) => console.log('Typeset failed: ' + err.message));
-            return MathJax.startup.promise;
-        } else {
-            return void 0;
         }
     };
 
