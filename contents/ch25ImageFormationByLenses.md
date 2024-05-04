@@ -6,8 +6,8 @@ chapterNumber: 25
 ---
 
 <div class="abstract" markdown="1">
-* List the rules for ray tracking for thin lenses.
-* Illustrate the formation of images using the technique of ray tracking.
+* List the rules for ray tracing for thin lenses.
+* Illustrate the formation of images using the technique of ray tracing.
 * Determine power of a lens given the focal length.
 </div>
 
