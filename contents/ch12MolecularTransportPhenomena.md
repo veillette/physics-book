@@ -238,8 +238,7 @@ nature to living structures.
      where  $$D $$
      is the diffusion constant, representative values of which are found in [[Table 1]](#Table1).
 
-* Osmosis is the transport of water through a semipermeable membrane from a
-  region of high concentration to a region of low concentration.
+* Osmosis is a process by which molecules of a solvent pass through a semipermeable membrane from a less concentrated solution into a more concentrated one, thus, equalizing the solute concentrations on each side of the membrane.
 * Dialysis is the transport of any other molecule through a semipermeable
   membrane due to its concentration difference.
 * Both processes can be reversed by back pressure.
