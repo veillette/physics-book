@@ -1,17 +1,20 @@
 // Perform install steps
 const cacheName = 'textbookCache';
 
-// List the files to precache
+// Update precacheResources with correct paths
+const baseUrl = self.location.href.includes('/physics-book/') ? '/physics-book/' : '/';
 let precacheResources = [
-    '/',
-    'index.html',
-    'assets/css/styles.css',
-    'assets/css/gitbook.css',
-    'assets/manifest/icons/icon-144x144.png',
-    'assets/js/book-viewer.js',
-    'assets/js/math-config.js',
-    '/contents/', // Add URLs from directory1
-    '/resources/',
+  `${baseUrl}`,
+  `${baseUrl}index.html`,
+  `${baseUrl}assets/css/styles.css`,
+  `${baseUrl}assets/css/gitbook.css`,
+  `${baseUrl}assets/css/gitbook.css`,
+  `${baseUrl}assets/manifest/icons/icon-144x144.png`,
+  `${baseUrl}assets/js/book-viewer.js`,
+  `${baseUrl}assets/js/math-config.js`,
+  `${baseUrl}contents/`,
+  `${baseUrl}resources/`,
+  // Add more specific files rather than just directories
 ];
 
 self.addEventListener('install', function (event) {
@@ -28,30 +31,47 @@ self.addEventListener('install', function (event) {
     );
 });
 
-self.addEventListener('activate', function (event) {
-    const cacheWhitelist = ['random'];
-    event.waitUntil(
-        caches.keys().then(function (cacheNames) {
-            return Promise.all(
-                cacheNames.map(function (cacheName) {
-                    if (cacheWhitelist.indexOf(cacheName) === -1) {
-                        return caches.delete(cacheName);
-                    }
-                })
-            );
+self.addEventListener('activate', (event) => {
+  // Clean up old caches
+  event.waitUntil(
+    caches.keys().then((cacheNames) => {
+      return Promise.all(
+        cacheNames.map((name) => {
+          if (name !== cacheName) {
+            return caches.delete(name);
+          }
         })
-    );
+      );
+    })
+  );
+  // Allow immediate claiming of clients
+  return self.clients.claim();
 });
 
-// When there's an incoming fetch request, try and respond with a precached resource, otherwise fall back to the network
 self.addEventListener('fetch', (event) => {
-    console.log('Fetch intercepted for:', event.request.url);
-    event.respondWith(
-        caches.match(event.request).then((cachedResponse) => {
-            if (cachedResponse) {
-                return cachedResponse;
+  event.respondWith(
+    caches.match(event.request)
+      .then((cachedResponse) => {
+        if (cachedResponse) {
+          return cachedResponse;
+        }
+        return fetch(event.request)
+          .then(response => {
+            // Cache new requests for future offline use
+            if (response.ok && response.type === 'basic') {
+              const responseToCache = response.clone();
+              caches.open(cacheName).then(cache => {
+                cache.put(event.request, responseToCache);
+              });
             }
-            return fetch(event.request);
-        }),
-    );
+            return response;
+          })
+          .catch(() => {
+            // Return a fallback for HTML pages when offline
+            if (event.request.url.match(/\.(html|htm)$/)) {
+              return caches.match(`${baseUrl}index.html`);
+            }
+          });
+      })
+  );
 });
