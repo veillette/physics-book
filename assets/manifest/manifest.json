@@ -1,7 +1,7 @@
 {
   "name": "General Physics",
   "short_name": "General Physics",
-  "start_url": ".",
+  "start_url": "/physics-book/",
   "icons": [
     {
       "src": "icons/icon-72x72.png",
