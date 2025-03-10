@@ -1,5 +1,5 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
 // Function to extract chapterNumber and sectionNumber from YAML block
 function extractYAMLInfo(content) {

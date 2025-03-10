@@ -1,6 +1,6 @@
-const fs = require('fs');
-const path = require('path');
-const yaml = require('js-yaml');
+import fs from 'fs';
+import path from 'path';
+import yaml from 'js-yaml';
 
 // Function to update the YAML block in a file
 function updateYAMLBlock(filePath, sectionNumber, chapterNumber) {

@@ -1,4 +1,4 @@
-const mjnode = require('mathjax-node');
+import mjnode from 'mathjax-node';
 
 const mathmlEquation = '<math>...</math>'; // MathML equation
 const options = {

@@ -1,4 +1,4 @@
-const fs = require('fs');
+import fs from 'fs';
 
 // Function to extract information from the markdown
 function extractInfo(markdown) {

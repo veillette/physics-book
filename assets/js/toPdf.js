@@ -1,47 +1,29 @@
-import puppeteer from 'puppeteer';
+import { chromium } from '@playwright/test';
 
-(async () => {
-  const browser = await puppeteer.launch();
-  const page = await browser.newPage();
-  
-  // Set the viewport to ensure proper rendering
-  await page.setViewport({ width: 1200, height: 800 });
+async function generatePDF() {
+  // Launch a browser (Playwright supports Chromium, Firefox, and WebKit)
+  const browser = await chromium.launch();
+  const context = await browser.newContext();
+  const page = await context.newPage();
 
-  // Navigate to the webpage you want to parse
-  await page.goto('https://example.com');
+  // Set the viewport size
+  await page.setViewportSize({ width: 1200, height: 800 });
 
-  // Wait for any additional content to load if necessary
-  await page.waitForTimeout(2000); // Adjust this delay as needed
-  
-  // Generate PDF of the webpage
-  await page.pdf({ 
-    path: 'example.pdf', // Path to save the PDF file
-    format: 'A4', // Paper format. Use 'Letter' for US letter size
-    printBackground: true // Include background colors and images
+  // Navigate to the target website
+  await page.goto('https://example.com', { waitUntil: 'networkidle' });
+
+  // Generate PDF
+  await page.pdf({
+    path: 'example.pdf',
+    format: 'A4',
+    printBackground: true
   });
 
+  // Close browser
   await browser.close();
-})();const puppeteer = require('puppeteer');
 
-(async () => {
-  const browser = await puppeteer.launch();
-  const page = await browser.newPage();
-  
-  // Set the viewport to ensure proper rendering
-  await page.setViewport({ width: 1200, height: 800 });
+  console.log('PDF generated successfully');
+}
 
-  // Navigate to the webpage you want to parse
-  await page.goto('https://example.com');
-
-  // Wait for any additional content to load if necessary
-  await page.waitForTimeout(2000); // Adjust this delay as needed
-  
-  // Generate PDF of the webpage
-  await page.pdf({ 
-    path: 'example.pdf', // Path to save the PDF file
-    format: 'A4', // Paper format. Use 'Letter' for US letter size
-    printBackground: true // Include background colors and images
-  });
-
-  await browser.close();
-})();
+// Execute the function
+generatePDF().catch(console.error)
