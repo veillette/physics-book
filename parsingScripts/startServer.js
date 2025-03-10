@@ -1,4 +1,4 @@
-const {exec} = require('child_process');
+import { exec } from 'child_process';
 
 // Specify the directory you want to serve
 const directory = '/c/Users/veillette/physics-book';
