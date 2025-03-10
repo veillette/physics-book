@@ -1,5 +1,5 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
 const contentsDir = '../contents';
 //const figureRegex = /Figure_(\d{2})_(\d{2})_(\d{2})(?:\S+)?\.(jpg|svg|webp|png)/g;

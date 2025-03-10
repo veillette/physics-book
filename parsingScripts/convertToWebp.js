@@ -1,6 +1,6 @@
-const fs = require('fs');
-const path = require('path');
-const sharp = require('sharp');
+import fs from 'fs';
+import path from 'path';
+import sharp from 'sharp';
 
 const inputDirectory = '../resources'; // Replace with the path to your input directory
 const outputDirectory = '../output'; // Replace with the path to the desired output directory

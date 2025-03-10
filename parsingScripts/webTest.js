@@ -1,4 +1,4 @@
-const {chromium} = require('playwright');
+import { chromium } from '@playwright/test';
 
 // Specify the directory you want to serve
 const directory = '/c/Users/veillette/physics-book';

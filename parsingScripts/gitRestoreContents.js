@@ -1,5 +1,5 @@
-const simpleGit = require('simple-git');
-const fs = require('fs');
+import simpleGit from 'simple-git';
+import fs from 'fs';
 
 // Specify the path to your Git repository
 const repoPath = '..';
