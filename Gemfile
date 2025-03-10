@@ -1,13 +1,11 @@
-gem "jekyll"
+source 'https://rubygems.org'
 
-gem 'jekyll-sitemap'
-
-gem 'wdm', '~> 0.1.0'
+gem "jekyll", "~> 4.3.4"
 
 group :jekyll_plugins do
+  gem "jekyll-sitemap"
   gem "jekyll-paginate"
 end
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
-
-source 'https://rubygems.org'
+# For WSL/Linux
+gem 'webrick', '~> 1.7'
