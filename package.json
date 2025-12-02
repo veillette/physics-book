@@ -4,12 +4,24 @@
   "description": "Textbook for General Physics I",
   "repository": "https://github.com/veillette/physics-book",
   "type": "module",
+  "scripts": {
+    "check-links": "node scripts/check-links.js",
+    "check-links:fast": "node scripts/check-links.js --timeout 5000 --concurrent 15",
+    "find-orphans": "node scripts/find-orphan-files.js",
+    "find-orphans:cleanup": "node scripts/find-orphan-files.js --generate-cleanup",
+    "test": "npm run check-links",
+    "test:ci": "npm run check-links -- --timeout 15000",
+    "audit": "npm run check-links && npm run find-orphans"
+  },
   "dependencies": {
     "@playwright/test": "^1.51.0",
     "gray-matter": "^4.0.3",
     "js-yaml": "^4.1.0",
     "sharp": "^0.32.3",
     "simple-git": "^3.19.1",
-    "http-server": "^14.1.1"
+    "http-server": "^14.1.1",
+    "node-fetch": "^3.3.2",
+    "chalk": "^5.3.0",
+    "glob": "^10.3.10"
   }
 }
