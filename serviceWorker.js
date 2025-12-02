@@ -1,77 +1,133 @@
-// Perform install steps
-const cacheName = 'textbookCache';
+// Service Worker for Physics Book PWA
+const CACHE_VERSION = '2024-12-02';
+const CACHE_NAME = `physics-book-${CACHE_VERSION}`;
+const BASE_URL = '/physics-book/';
 
-// Update precacheResources with correct paths
-const baseUrl = self.location.href.includes('/physics-book/') ? '/physics-book/' : '/';
-let precacheResources = [
-  `${baseUrl}`,
-  `${baseUrl}index.html`,
-  `${baseUrl}assets/css/styles.css`,
-  `${baseUrl}assets/css/gitbook.css`,
-  `${baseUrl}assets/css/gitbook.css`,
-  `${baseUrl}assets/manifest/icons/icon-144x144.png`,
-  `${baseUrl}assets/js/book-viewer.js`,
-  `${baseUrl}assets/js/math-config.js`,
-  `${baseUrl}contents/`,
-  `${baseUrl}resources/`,
-  // Add more specific files rather than just directories
+console.log(`Service Worker: Version ${CACHE_VERSION}`);
+
+// Core files that should always be cached
+const CORE_CACHE_FILES = [
+  `${BASE_URL}`,
+  `${BASE_URL}index.html`,
+  `${BASE_URL}offline.html`,
+  `${BASE_URL}SUMMARY.html`,
+  `${BASE_URL}assets/css/styles.css`,
+  `${BASE_URL}assets/css/gitbook.css`,
+  `${BASE_URL}assets/js/book-viewer.js`,
+  `${BASE_URL}assets/js/math-config.js`,
+  `${BASE_URL}assets/js/book-config.js`,
+  `${BASE_URL}assets/js/util.js`,
+  `${BASE_URL}assets/js/register-sw.js`,
+  `${BASE_URL}assets/manifest/manifest.json`,
+  `${BASE_URL}assets/manifest/icons/icon-192x192.png`,
+  `${BASE_URL}assets/manifest/icons/icon-512x512.png`,
+  `${BASE_URL}cover2.png`,
+  `${BASE_URL}favicon.ico`
 ];
 
-self.addEventListener('install', function (event) {
+// Fallback pages
+const OFFLINE_PAGE = `${BASE_URL}offline.html`;
+const FALLBACK_PAGE = `${BASE_URL}index.html`;
+
+// Install event - cache core files
+self.addEventListener('install', (event) => {
+    console.log('Service Worker: Installing...');
+    
     event.waitUntil(
-        caches.open(cacheName)
-            .then(function (cache) {
-                console.log('Opened cache');
-                return Promise.all(
-                    precacheResources.map(url => {
-                        return fetch(url).then(response => cache.put(url, response));
-                    })
-                );
+        caches.open(CACHE_NAME)
+            .then((cache) => {
+                console.log('Service Worker: Caching core files');
+                return cache.addAll(CORE_CACHE_FILES);
+            })
+            .then(() => {
+                console.log('Service Worker: Core files cached successfully');
+                return self.skipWaiting(); // Force activation
+            })
+            .catch((error) => {
+                console.error('Service Worker: Failed to cache core files:', error);
             })
     );
 });
 
+// Activate event - clean up old caches
 self.addEventListener('activate', (event) => {
-  // Clean up old caches
-  event.waitUntil(
-    caches.keys().then((cacheNames) => {
-      return Promise.all(
-        cacheNames.map((name) => {
-          if (name !== cacheName) {
-            return caches.delete(name);
-          }
-        })
-      );
-    })
-  );
-  // Allow immediate claiming of clients
-  return self.clients.claim();
+    console.log('Service Worker: Activating...');
+    
+    event.waitUntil(
+        caches.keys()
+            .then((cacheNames) => {
+                return Promise.all(
+                    cacheNames.map((name) => {
+                        if (name !== CACHE_NAME) {
+                            console.log('Service Worker: Deleting old cache:', name);
+                            return caches.delete(name);
+                        }
+                    })
+                );
+            })
+            .then(() => {
+                console.log('Service Worker: Activated successfully');
+                return self.clients.claim(); // Take control immediately
+            })
+    );
 });
 
+// Fetch event - serve from cache with network fallback
 self.addEventListener('fetch', (event) => {
-  event.respondWith(
-    caches.match(event.request)
-      .then((cachedResponse) => {
-        if (cachedResponse) {
-          return cachedResponse;
-        }
-        return fetch(event.request)
-          .then(response => {
-            // Cache new requests for future offline use
-            if (response.ok && response.type === 'basic') {
-              const responseToCache = response.clone();
-              caches.open(cacheName).then(cache => {
-                cache.put(event.request, responseToCache);
-              });
-            }
-            return response;
-          })
-          .catch(() => {
-            // Return a fallback for HTML pages when offline
-            if (event.request.url.match(/\.(html|htm)$/)) {
-              return caches.match(`${baseUrl}index.html`);
-            }
-          });
-      })
-  );
+    // Skip non-GET requests
+    if (event.request.method !== 'GET') {
+        return;
+    }
+    
+    // Skip external requests (CDNs, etc.)
+    if (!event.request.url.startsWith(self.location.origin)) {
+        return;
+    }
+    
+    event.respondWith(
+        caches.match(event.request)
+            .then((cachedResponse) => {
+                // Return cached version if available
+                if (cachedResponse) {
+                    console.log('Service Worker: Serving from cache:', event.request.url);
+                    return cachedResponse;
+                }
+                
+                // Otherwise fetch from network
+                return fetch(event.request)
+                    .then((response) => {
+                        // Don't cache non-successful responses
+                        if (!response || response.status !== 200 || response.type !== 'basic') {
+                            return response;
+                        }
+                        
+                        // Cache successful responses for future use
+                        const responseToCache = response.clone();
+                        caches.open(CACHE_NAME)
+                            .then((cache) => {
+                                cache.put(event.request, responseToCache);
+                            });
+                        
+                        return response;
+                    })
+                    .catch(() => {
+                        console.log('Service Worker: Network failed, trying offline fallback');
+                        
+                        // For navigation requests, return offline page
+                        if (event.request.destination === 'document' || 
+                            event.request.headers.get('Accept').includes('text/html')) {
+                            
+                            // Try offline page first, then fallback page
+                            return caches.match(OFFLINE_PAGE)
+                                .then(response => response || caches.match(FALLBACK_PAGE));
+                        }
+                        
+                        // For other requests, just fail silently
+                        return new Response('Offline - Resource not available', {
+                            status: 503,
+                            statusText: 'Service Unavailable'
+                        });
+                    });
+            })
+    );
 });
