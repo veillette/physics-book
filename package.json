@@ -5,7 +5,7 @@
   "repository": "https://github.com/veillette/physics-book",
   "type": "module",
   "dependencies": {
-    "@playwright/test": "^1.51.0",
+    "@playwright/test": "^1.57.0",
     "gray-matter": "^4.0.3",
     "js-yaml": "^4.1.1",
     "sharp": "^0.32.3",
