@@ -18,7 +18,7 @@ mergeObjectsRecursive(BookConfig, window.Book);
 
 function mergeObjectsRecursive(target, source) {
     for (const key in source) {
-        if (source.hasOwnProperty(key)) {
+        if (source.hasOwnProperty(key) && key !== '__proto__' && key !== 'constructor') {
             if (source[key] instanceof Object) {
                 if (!target[key]) {
                     // If the key doesn't exist in the target, create a new object
