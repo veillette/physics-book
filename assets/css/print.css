@@ -1,0 +1,450 @@
+/**
+ * Print Stylesheet for Physics Book
+ * Optimizes the book layout for PDF generation and printing
+ */
+
+@media print {
+  /* ========================================
+     Page Setup
+     ======================================== */
+
+  @page {
+    size: letter;
+    margin: 0.75in;
+  }
+
+  @page :first {
+    margin-top: 1in;
+  }
+
+  /* ========================================
+     Hide Non-Essential Elements
+     ======================================== */
+
+  /* Navigation and UI elements */
+  nav,
+  .navigation,
+  .nav,
+  .sidebar,
+  .menu,
+  .toc-toggle,
+  .book-search,
+  .gitbook-link,
+  #gitbook-toolbar,
+  .toolbar,
+  .book-menu-btn,
+  .font-settings,
+  .pull-right,
+  .dropdown,
+  .social-share,
+  .comments,
+  .footer-links,
+  .edit-link,
+  .btn-group,
+  header nav,
+  footer nav {
+    display: none !important;
+  }
+
+  /* Service worker and PWA elements */
+  .pwa-install,
+  .offline-indicator,
+  .update-notification {
+    display: none !important;
+  }
+
+  /* ========================================
+     Layout Adjustments
+     ======================================== */
+
+  /* Make content full width */
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+
+  .book,
+  .book-body,
+  .body-inner,
+  .page-wrapper,
+  .page-inner,
+  .markdown-section,
+  main,
+  article,
+  .content {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    float: none !important;
+    position: static !important;
+    overflow: visible !important;
+  }
+
+  .book-summary,
+  .book-header {
+    display: none !important;
+  }
+
+  /* ========================================
+     Typography
+     ======================================== */
+
+  h1 {
+    font-size: 24pt;
+    page-break-before: always;
+    page-break-after: avoid;
+    margin-top: 0;
+  }
+
+  h1:first-of-type {
+    page-break-before: avoid;
+  }
+
+  h2 {
+    font-size: 18pt;
+    page-break-after: avoid;
+  }
+
+  h3 {
+    font-size: 14pt;
+    page-break-after: avoid;
+  }
+
+  h4, h5, h6 {
+    font-size: 12pt;
+    page-break-after: avoid;
+  }
+
+  /* Prevent headings at bottom of page */
+  h1, h2, h3, h4, h5, h6 {
+    page-break-inside: avoid;
+    orphans: 3;
+    widows: 3;
+  }
+
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* ========================================
+     Links
+     ======================================== */
+
+  a {
+    color: black !important;
+    text-decoration: underline;
+  }
+
+  /* Show URL for external links */
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666;
+    word-break: break-all;
+  }
+
+  /* Don't show URL for internal links */
+  a[href^="#"]:after,
+  a[href^="/"]:after,
+  a[href^="./"]:after,
+  a[href^="../"]:after {
+    content: "";
+  }
+
+  /* Don't show URL in navigation */
+  nav a:after,
+  .toc a:after {
+    content: "" !important;
+  }
+
+  /* ========================================
+     Images and Figures
+     ======================================== */
+
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+    page-break-inside: avoid;
+  }
+
+  figure {
+    page-break-inside: avoid;
+    margin: 1em 0;
+  }
+
+  figcaption {
+    font-size: 0.9em;
+    font-style: italic;
+    text-align: center;
+    margin-top: 0.5em;
+  }
+
+  /* ========================================
+     Tables
+     ======================================== */
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    page-break-inside: avoid;
+    margin: 1em 0;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr {
+    page-break-inside: avoid;
+  }
+
+  th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f0f0f0 !important;
+    font-weight: bold;
+  }
+
+  /* ========================================
+     Code Blocks
+     ======================================== */
+
+  pre, code {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 10pt;
+    background-color: #f5f5f5 !important;
+    border: 1px solid #ddd;
+  }
+
+  pre {
+    padding: 10px;
+    page-break-inside: avoid;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  code {
+    padding: 2px 4px;
+  }
+
+  pre code {
+    border: none;
+    padding: 0;
+  }
+
+  /* ========================================
+     Math (MathJax)
+     ======================================== */
+
+  .MathJax,
+  .MathJax_Display,
+  mjx-container,
+  .math,
+  .katex,
+  .katex-display {
+    page-break-inside: avoid !important;
+  }
+
+  /* Ensure math displays properly */
+  .MathJax_Display,
+  mjx-container[display="true"],
+  .katex-display {
+    margin: 1em 0 !important;
+    overflow-x: visible !important;
+  }
+
+  /* ========================================
+     Blockquotes and Special Boxes
+     ======================================== */
+
+  blockquote {
+    border-left: 3px solid #333;
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    background-color: #f9f9f9 !important;
+    page-break-inside: avoid;
+  }
+
+  /* Example boxes */
+  .example,
+  .worked-example {
+    border: 2px solid #333;
+    padding: 1em;
+    margin: 1em 0;
+    page-break-inside: avoid;
+    background-color: #fafafa !important;
+  }
+
+  .example-title,
+  .example h4:first-child {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+
+  /* Note/Warning/Info boxes */
+  .note,
+  .warning,
+  .info,
+  .tip,
+  .important {
+    border: 1px solid #333;
+    padding: 1em;
+    margin: 1em 0;
+    page-break-inside: avoid;
+  }
+
+  .note {
+    background-color: #e7f3ff !important;
+    border-color: #0066cc;
+  }
+
+  .warning {
+    background-color: #fff3e0 !important;
+    border-color: #ff9800;
+  }
+
+  .info {
+    background-color: #e8f5e9 !important;
+    border-color: #4caf50;
+  }
+
+  /* ========================================
+     Lists
+     ======================================== */
+
+  ul, ol {
+    page-break-inside: avoid;
+  }
+
+  li {
+    page-break-inside: avoid;
+  }
+
+  /* Definition lists */
+  dl {
+    page-break-inside: avoid;
+  }
+
+  dt {
+    font-weight: bold;
+    margin-top: 0.5em;
+  }
+
+  dd {
+    margin-left: 2em;
+    margin-bottom: 0.5em;
+  }
+
+  /* ========================================
+     Physics-Specific Elements
+     ======================================== */
+
+  /* Equations that should stay together */
+  .equation,
+  .formula {
+    page-break-inside: avoid;
+    margin: 1em 0;
+  }
+
+  /* Problem sets */
+  .problems,
+  .exercises {
+    page-break-before: always;
+  }
+
+  .problem,
+  .exercise {
+    page-break-inside: avoid;
+    margin: 1em 0;
+    padding: 0.5em 0;
+    border-bottom: 1px dotted #ccc;
+  }
+
+  /* Concept checks */
+  .concept-check,
+  .check-understanding {
+    border: 1px dashed #666;
+    padding: 1em;
+    margin: 1em 0;
+    page-break-inside: avoid;
+  }
+
+  /* Section summaries */
+  .summary,
+  .section-summary {
+    background-color: #f5f5f5 !important;
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 1em 0;
+    page-break-inside: avoid;
+  }
+
+  /* Glossary terms */
+  .glossary-term {
+    font-weight: bold;
+  }
+
+  .glossary-definition {
+    margin-left: 1em;
+  }
+
+  /* ========================================
+     Chapter/Section Headers
+     ======================================== */
+
+  .chapter-header {
+    page-break-before: always;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+
+  .chapter-number {
+    font-size: 48pt;
+    color: #333;
+  }
+
+  .chapter-title {
+    font-size: 24pt;
+    margin-top: 0.5em;
+  }
+
+  /* ========================================
+     Utility Classes
+     ======================================== */
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  .page-break-before {
+    page-break-before: always;
+  }
+
+  .page-break-after {
+    page-break-after: always;
+  }
+
+  .avoid-break {
+    page-break-inside: avoid;
+  }
+}
+
+/* Hide print-only elements on screen */
+@media screen {
+  .print-only {
+    display: none !important;
+  }
+}
