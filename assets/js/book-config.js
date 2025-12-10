@@ -9,7 +9,7 @@ export const BookConfig = {
     serverAddsTrailingSlash: false, //# Used because jekyll adds trailing slashes
     rootUrl: '',
     includes: {
-        fontawesome: 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
+        fontawesome: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css',
     }
 }
 
