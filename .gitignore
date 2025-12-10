@@ -22,3 +22,6 @@
 # Ignore intellij
 /.idea/
 /.mypy_cache/
+
+# Generated PDF output
+/pdf-output/
