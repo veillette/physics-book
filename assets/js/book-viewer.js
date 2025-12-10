@@ -13,9 +13,9 @@ const BOOK_TEMPLATE =
     `<div class="book with-summary font-size-2 font-family-1">
             <div class="book-header">
                 <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary">
-                <i class="fa fa-align-justify"></i></a>
+                <i class="fa-solid fa-bars"></i></a>
                 <h1>
-                <i class="fa fa-spinner fa-spin book-spinner"></i>
+                <i class="fa-solid fa-spinner fa-spin book-spinner"></i>
                 <span class="book-title"></span>
                 </h1>
             </div>
@@ -89,7 +89,7 @@ function parser() {
             const href = link.getAttribute('href');
             const parentLi = link.parentNode;
             const checkmarkIcon = document.createElement('i');
-            checkmarkIcon.className = 'fa fa-check';
+            checkmarkIcon.className = 'fa-solid fa-check';
             parentLi.insertBefore(checkmarkIcon, link);
 
             if (visitedLinks[href]) {
@@ -131,7 +131,7 @@ function parser() {
             const prevPage = document.createElement('a');
             prevPage.className = 'navigation navigation-prev';
             prevPage.href = prev;
-            prevPage.innerHTML = "<i class='fa fa-chevron-left'></i>";
+            prevPage.innerHTML = "<i class='fa-solid fa-chevron-left'></i>";
             bookBody.appendChild(prevPage);
         }
 
@@ -140,7 +140,7 @@ function parser() {
             const nextPage = document.createElement('a');
             nextPage.className = 'navigation navigation-next';
             nextPage.href = next;
-            nextPage.innerHTML = "<i class='fa fa-chevron-right'></i>";
+            nextPage.innerHTML = "<i class='fa-solid fa-chevron-right'></i>";
             bookBody.appendChild(nextPage);
         }
     };
@@ -248,7 +248,7 @@ function parser() {
             const id = el.getAttribute('id');
             if (id) {
                 const icon = document.createElement('i');
-                icon.className = 'fa fa-link';
+                icon.className = 'fa-solid fa-link';
                 const a = document.createElement('a');
                 a.className = 'header-link';
                 a.setAttribute('href', '#' + id);
