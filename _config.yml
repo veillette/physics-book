@@ -1,0 +1,73 @@
+# Site settings
+title: "General Physics"
+tagline: "An Open Textbook"
+description: >-
+  This introductory, algebra-based, college physics book is grounded with
+  real-world examples, illustrations, and explanations to help students
+  grasp key, fundamental physics concepts.
+author: "Martin Veillette"
+email: ""
+
+# URL settings for GitHub Pages
+url: "https://veillette.github.io"
+baseurl: "/physics-book"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  math_engine: null  # We use MathJax via CDN instead
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# Pagination (if needed)
+paginate: 10
+paginate_path: "/page:num/"
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: "contents"
+    values:
+      layout: "page"
+
+# Files to exclude from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - README.md
+  - LICENSE.txt
+  - "*.gemspec"
+  - .gitignore
+
+# Files to include (even if they start with a dot)
+include:
+  - _layouts
+  - _includes
+
+# Sass/SCSS settings
+sass:
+  style: compressed
+
+# Timezone
+timezone: America/New_York
+
+# Encoding
+encoding: utf-8
+
+# GitHub metadata (for site.github variables)
+repository: veillette/physics-book
