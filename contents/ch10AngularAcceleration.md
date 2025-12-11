@@ -327,7 +327,7 @@ Ladybug Revolution
   {\text{t}}=\frac{ \Delta v}{\Delta t} $$.
 * For circular motion, note that $$ v=r \omega $$, so that
   <div class="equation">
-    $$ a_{\text{t}}\frac{ \Delta \left(r \omega \right)}{\Delta t}. $$
+    $$ a_{\text{t}}=\frac{ \Delta \left(r \omega \right)}{\Delta t}. $$
   </div>
 
 * The radius r is constant for circular motion, and so $$ \Delta \left(  r

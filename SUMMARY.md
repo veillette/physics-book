@@ -97,7 +97,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     1. {: .section} [What Is a Fluid?](contents/ch11WhatIsAFluid.md)
     2. {: .section} [Density](contents/ch11Density.md)
     3. {: .section} [Pressure](contents/ch11Pressure.md)
-    4. {: .section} [Variation of Pressure with Depth in a Fluid](contents/ch11VariationOfPresssure.md)
+    4. {: .section} [Variation of Pressure with Depth in a Fluid](contents/ch11VariationOfPressure.md)
     5. {: .section} [Pascal’s Principle](contents/ch11PascalsPrinciple.md)
     6. {: .section} [Gauge Pressure, Absolute Pressure, and Pressure Measurement](contents/ch11GaugePressureAbsolutePressure.md)
     7. {: .section} [Archimedes’ Principle](contents/ch11ArchimedesPrinciple.md)
