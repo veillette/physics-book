@@ -55,7 +55,7 @@ Interference is such a fundamental aspect of waves that observing interference i
 
 Suppose we hold a tuning fork near the end of a tube that is closed at the other
 end, as shown in [[Figure 3]](#Figure3), [[Figure 4]](#Figure4)
-, [[Figure 5]](#Figure5), and [[Figure 6]](#Figure7). If the tuning fork has
+, [[Figure 5]](#Figure5), and [[Figure 6]](#Figure6). If the tuning fork has
 just the right frequency, the air column in the tube resonates loudly, but at
 most frequencies it vibrates very little. This observation just means that the
 air column has only certain natural frequencies. The figures show how a

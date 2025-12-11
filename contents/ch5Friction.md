@@ -209,7 +209,7 @@ swallowing process, and the slippery mucus found between organs in the body,
 allowing them to move freely past each other during heartbeats, during
 breathing, and when a person moves. Artificial lubricants are also common in
 hospitals and doctor’s clinics. For example, when ultrasonic imaging is carried
-out, the gel that couples the transducer to the skin also serves to to lubricate
+out, the gel that couples the transducer to the skin also serves to lubricate
 the surface between the transducer and the skin—thereby reducing the coefficient
 of friction between the two surfaces. This allows the transducer to move freely
 over the skin.

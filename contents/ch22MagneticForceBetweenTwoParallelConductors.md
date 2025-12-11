@@ -123,7 +123,7 @@ Is the force attractive or repulsive between the hot and neutral lines hung from
 <div class="problem" markdown="1">
 If you have three parallel wires in the same plane, as in [[Figure 2]](#Figure2), with currents in the outer two running in opposite directions, is it possible for the middle wire to be repelled by both? Attracted by both? Explain.
 
-![Diagram showing three wires parallel to each other and in the same plane. The currents in wire 1 on the left side of the diagram and wire 3 on the right side of the diagram run opposite each other: I 1 runs form the top right to the lower left; I 3 runs from the lower left to the top right. Wire 2 is between the two, slightly closer to wire 3 than to wire 1.](../resources/Figure_22_10_02.jpg "Three parallel coplanar wires with currents in the outer two in opposite directions.")
+![Diagram showing three wires parallel to each other and in the same plane. The currents in wire 1 on the left side of the diagram and wire 3 on the right side of the diagram run opposite each other: I 1 runs from the top right to the lower left; I 3 runs from the lower left to the top right. Wire 2 is between the two, slightly closer to wire 3 than to wire 1.](../resources/Figure_22_10_02.jpg "Three parallel coplanar wires with currents in the outer two in opposite directions.")
 {: #Figure2}
 
 </div>

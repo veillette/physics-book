@@ -728,7 +728,7 @@ The  $${\beta }^{-} $$
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 World War II aircraft had instruments with glowing radium-painted dials 
-(see [[Figure]](../contents/ch31NuclearRadioactivity#Figure2)). The activity of one such instrument was  $$ 1.0 \times 10^{5}  $$
+(see [[Figure 2]](../contents/ch31NuclearRadioactivity#Figure2)). The activity of one such instrument was  $$ 1.0 \times 10^{5}  $$
  Bq when new. (a) What mass of  $${}^{226}\text{Ra} $$
  was present? (b) After some years, the phosphors on the dials deteriorated chemically, but the radium did not escape. What is the activity of this instrument 57.0 years after it was made?
 

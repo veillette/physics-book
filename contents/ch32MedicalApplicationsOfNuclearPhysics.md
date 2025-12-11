@@ -28,7 +28,7 @@ perhaps the best example that applications can be good or evil, while knowledge
 itself is neither.
 
 ![Vehicles being inspected by another vehicle with a boom-type x-ray scanner attached to it.](../resources/Figure_32_00_02.jpg "Customs officers inspect vehicles using neutron irradiation. Cars and trucks pass through portable x-ray machines that reveal their contents. (credit: Gerald L. Nino, CBP, U.S. Dept. of Homeland Security)")
-{: #Figure1}
+{: #Figure2}
 
 ![Gamma-ray scanned image of two stowaways hiding inside a big truck.](../resources/Figure_32_00_03.jpg "This image shows two stowaways caught illegally entering the United States from Canada. (credit: U.S. Customs and Border Protection)")
 {: #Figure3}

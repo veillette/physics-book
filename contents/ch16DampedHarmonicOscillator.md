@@ -44,9 +44,9 @@ very large damping, the system does not even oscillate—it slowly moves toward
 equilibrium. [[Figure 3]](#Figure3) shows the displacement of a harmonic
 oscillator for different amounts of damping. When we want to damp out
 oscillations, such as in the suspension of a car, we may want the system to
-return to equilibrium as quickly as possible **Critical damping** is defined as
+return to equilibrium as quickly as possible. **Critical damping** is defined as
 the condition in which the damping of an oscillator results in it returning as
-quickly as possible to its equilibrium position The critically damped system may
+quickly as possible to its equilibrium position. The critically damped system may
 overshoot the equilibrium position, but if it does, it will do so only once.
 Critical damping is represented by Curve A in [[Figure 3]](#Figure3). With
 less-than critical damping, the system will return to equilibrium faster but

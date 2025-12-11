@@ -81,7 +81,7 @@ Thus the Coulomb force is
  $$F=8.19 \times 10^{-8} \text{N}. $$
 </div>
 The charges are opposite in sign, so this is an attractive force. This is a very large force for an electron—it would cause an acceleration of  $$ 8.99 \times 10^{22}  \text{m}/{\text{s}}^{2} $$
-(verification is left as an end-of-section problem).The magnitude of the gravitational force is given by Newton’s law of gravitation as:
+(verification is left as an end-of-section problem). The magnitude of the gravitational force is given by Newton’s law of gravitation as:
 
 <div class="equation" >
  $${F}_{G}=G\frac{mM}{ {r}^{2}}, $$
