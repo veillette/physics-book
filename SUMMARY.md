@@ -52,7 +52,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
    1. {: .section} [Rotation Angle and Angular Velocity](contents/ch6RotationAngleAndAngularVelocity.md)
    2. {: .section} [Centripetal Acceleration](contents/ch6CentripetalAcceleration.md)
    3. {: .section} [Centripetal Force](contents/ch6CentripetalForce.md)
-   4. {: .section} [Fictitious Forces and Non-inertial Frames: The Coriolis Force](contents/ch6FictiousForcesAndNonInertialFrames.md)
+   4. {: .section} [Fictitious Forces and Non-inertial Frames: The Coriolis Force](contents/ch6FictitiousForcesAndNonInertialFrames.md)
    5. {: .section} [Newton’s Universal Law of Gravitation](contents/ch6NewtonsUniversalLawOfGravitation.md)
    6. {: .section} [Satellites and Kepler’s Laws: An Argument for Simplicity](contents/ch6SatellitesAndKeplersLaws.md)
 
