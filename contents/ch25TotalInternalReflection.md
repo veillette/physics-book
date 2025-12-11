@@ -23,7 +23,7 @@ the angle of refraction is greater than the angle of incidence—that is,
 $${\theta }_{2}>{\theta }_{1} $$ .) Now imagine what happens as the incident
 angle is increased. This causes $${\theta }_{2} $$ to increase also. The largest
 the angle of refraction $${\theta }_{2} $$ can be is $$90 ^\circ $$ , as shown
-in [[Figure 1]](#Figure1)(b).The **critical angle** $${\theta }_{c} $$ for a
+in [[Figure 1]](#Figure1)(b). The **critical angle** $${\theta }_{c} $$ for a
 combination of materials is defined to be the incident angle $${\theta }_{1} $$
 that produces an angle of refraction of $$90 ^\circ $$ . That is, $${\theta
 }_{c} $$ is the incident angle for which $${\theta }_{2}=90 ^\circ $$ . If the
