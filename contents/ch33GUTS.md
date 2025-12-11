@@ -145,7 +145,7 @@ sufficient to create and release the $${W}^{+} $$ , $${W}^{-} $$ , and $${Z}^{0}
 $$ carrier particles. At those and higher energies, the masses of the carrier
 particles becomes less and less relevant, and the $${Z}^{0} $$ in particular
 resembles the massless, chargeless, spin 1 photon. In fact, there is enough
-energy when things are pushed to even smaller distances to transform the, and
+energy when things are pushed to even smaller distances to transform the $${W}^{+} $$, $${W}^{-} $$, and
 $${Z}^{0} $$ into massless carrier particles more similar to photons and gluons.
 These have not been observed experimentally, but there is a prediction of an
 associated particle called the **Higgs boson**{: class="term"}. The mass of this
