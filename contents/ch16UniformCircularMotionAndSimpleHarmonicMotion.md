@@ -93,8 +93,8 @@ We can solve this equation for the speed $$v $$ or
 
 This expression for the speed of a simple harmonic oscillator is exactly the
 same as the equation obtained from conservation of energy considerations
-in [Energy and the Simple Harmonic Oscillator](../contents/ch16EnergyAndTheSimpleHarmonicOscillator)
-.You can begin to see that it is possible to get all of the characteristics of
+in [Energy and the Simple Harmonic Oscillator](../contents/ch16EnergyAndTheSimpleHarmonicOscillator).
+You can begin to see that it is possible to get all of the characteristics of
 simple harmonic motion from an analysis of the projection of uniform circular
 motion.
 

@@ -41,6 +41,11 @@ If you link to this book externally, update the following URLs:
 - `ch22MagneticFieldStrength.md` - "less then" → "less than"
 - `ch33ParticlePhysics.md` - "less then" → "less than" and "a an" → "an" in image alt text
 
+#### Punctuation Fixes
+- `ch16UniformCircularMotionAndSimpleHarmonicMotion.md` - Added missing space after period
+- `ch20Current.md` - Added missing space after period (after equation)
+- `ch34GeneralRelativityAndQuantumTheory.md` - Added missing space after period (after figure reference)
+
 #### Figure Reference Fixes
 - `ch17SoundInterferenceAndResonance.md` - Fixed `[[Figure 6]](#Figure7)` → `[[Figure 6]](#Figure6)`
 - `ch31HalfLifeAndActivity.md` - Added missing figure number `[[Figure]]` → `[[Figure 2]]`
@@ -58,6 +63,6 @@ If you link to this book externally, update the following URLs:
 
 ### Summary
 
-- **Total fixes:** 26 errors
+- **Total fixes:** 29 errors
 - **Files renamed:** 2
-- **Files modified:** 20
+- **Files modified:** 23
