@@ -32,6 +32,7 @@ If you link to this book externally, update the following URLs:
 #### Spelling/Typo Fixes
 - `ch5Friction.md` - "to to lubricate" → "to lubricate"
 - `ch17Sound.md` - Removed extra 'W' character
+- `ch20ResistanceAndResistivity.md` - "Tempature" → "Temperature" in table caption
 - `ch22MagneticForceBetweenTwoParallelConductors.md` - "form" → "from"
 
 #### Figure Reference Fixes
@@ -51,6 +52,6 @@ If you link to this book externally, update the following URLs:
 
 ### Summary
 
-- **Total fixes:** 20 errors
+- **Total fixes:** 21 errors
 - **Files renamed:** 2
-- **Files modified:** 15
+- **Files modified:** 16
