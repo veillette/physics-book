@@ -425,6 +425,16 @@ Suppose that your bathroom scale reads your mass as 65 kg with a 3% uncertainty.
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+The uncertainty can be found by multiplying the measured value by the percent uncertainty (expressed as a decimal).
+
+**Solution**
+
+<div class="equation">
+$$ \delta m = m \times \frac{\%\text{unc}}{100\%} = 65 \text{ kg} \times \frac{3\%}{100\%} = 65 \text{ kg} \times 0.03 = 1.95 \text{ kg} \approx 2 \text{ kg} $$
+</div>
+
 2 kg
 
 </div>
@@ -444,8 +454,43 @@ possible speeds when it reads  $$ 90\text{km/h}  $$ ?
 (b) Convert this range to miles per hour.  $$ \left(1 \text{km}= 0.6214 \text{mi}\right)  $$
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 85\text{to } 95 \text{km/h}  $$
-(b)  $$ 53\text{to } 59 \text{mi/h}  $$
+**Strategy**
+
+Find the uncertainty by multiplying the reading by the percent uncertainty, then calculate the range by adding and subtracting from the reading.
+
+**Solution**
+
+**(a) Range in km/h:**
+
+1. Calculate the uncertainty:
+<div class="equation">
+$$ \delta v = 90 \text{ km/h} \times \frac{5.0\%}{100\%} = 90 \text{ km/h} \times 0.05 = 4.5 \text{ km/h} $$
+</div>
+
+2. Calculate the range:
+<div class="equation">
+$$ v = 90 \pm 4.5 \text{ km/h} $$
+</div>
+<div class="equation">
+$$ \text{Minimum: } 90 - 4.5 = 85.5 \approx 85 \text{ km/h} $$
+</div>
+<div class="equation">
+$$ \text{Maximum: } 90 + 4.5 = 94.5 \approx 95 \text{ km/h} $$
+</div>
+
+**(b) Convert to mi/h:**
+
+Using 1 km = 0.6214 mi:
+<div class="equation">
+$$ 85 \text{ km/h} \times 0.6214 = 53 \text{ mi/h} $$
+</div>
+<div class="equation">
+$$ 95 \text{ km/h} \times 0.6214 = 59 \text{ mi/h} $$
+</div>
+
+(a) $$ 85\text{ to } 95 \text{ km/h} $$
+
+(b) $$ 53\text{ to } 59 \text{ mi/h} $$
 </div>
 </div>
 
@@ -464,9 +509,39 @@ How many beats do they have in 2.0 y?
 (c) In 2.000 y?
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 7.6\times 10^{7}\text{beats}  $$
-(b)  $$ 7.57 \times 10^{7}\text{beats}  $$
-(c)  $$ 7.57 \times 10^{7}\text{beats}  $$
+**Strategy**
+
+Calculate total beats by multiplying heart rate by time. The answer should reflect the significant figures in the given values.
+
+**Solution**
+
+First, convert years to minutes:
+<div class="equation">
+$$ 1 \text{ year} = 365.25 \text{ days} \times 24 \text{ h/day} \times 60 \text{ min/h} = 5.26 \times 10^{5} \text{ min} $$
+</div>
+
+**(a) For 2.0 years (2 significant figures):**
+<div class="equation">
+$$ \text{Beats} = 72.0 \frac{\text{beats}}{\text{min}} \times 2.0 \text{ y} \times 5.26 \times 10^{5} \frac{\text{min}}{\text{y}} = 7.57 \times 10^{7} \text{ beats} $$
+</div>
+Rounded to 2 significant figures: $$ 7.6 \times 10^{7} \text{ beats} $$
+
+**(b) For 2.00 years (3 significant figures):**
+<div class="equation">
+$$ \text{Beats} = 72.0 \frac{\text{beats}}{\text{min}} \times 2.00 \text{ y} \times 5.26 \times 10^{5} \frac{\text{min}}{\text{y}} = 7.57 \times 10^{7} \text{ beats} $$
+</div>
+
+**(c) For 2.000 years (4 significant figures):**
+<div class="equation">
+$$ \text{Beats} = 72.0 \frac{\text{beats}}{\text{min}} \times 2.000 \text{ y} \times 5.26 \times 10^{5} \frac{\text{min}}{\text{y}} = 7.57 \times 10^{7} \text{ beats} $$
+</div>
+(Limited to 3 significant figures by the heart rate of 72.0 beats/min)
+
+(a) $$ 7.6\times 10^{7}\text{beats} $$
+
+(b) $$ 7.57 \times 10^{7}\text{beats} $$
+
+(c) $$ 7.57 \times 10^{7}\text{beats} $$
 </div>
 </div>
 
@@ -484,9 +559,35 @@ b.  $$ \left(18.7\right)^{2}  $$
 c.  $$ \left(1.60 \times 10^{-19}\right) \left( 3712\right)  $$.
 </div>
 <div class="solution" markdown="1">
-(a)  3
-(b)  3
-(c)  3
+**Strategy**
+
+For multiplication and division, the result should have the same number of significant figures as the quantity with the fewest significant figures.
+
+**Solution**
+
+**(a)** $$ \left(106.7\right)\left(98.2\right)/\left(46.210\right)\left(1.01\right) $$
+- 106.7 has 4 significant figures
+- 98.2 has 3 significant figures
+- 46.210 has 5 significant figures
+- 1.01 has 3 significant figures
+
+The answer should have **3** significant figures (limited by 98.2 and 1.01).
+
+**(b)** $$ \left(18.7\right)^{2} $$
+- 18.7 has 3 significant figures
+- Squaring is multiplication, so the answer has **3** significant figures.
+
+**(c)** $$ \left(1.60 \times 10^{-19}\right)\left(3712\right) $$
+- $$ 1.60 \times 10^{-19} $$ has 3 significant figures
+- 3712 has 4 significant figures
+
+The answer should have **3** significant figures (limited by $$ 1.60 \times 10^{-19} $$).
+
+(a) 3
+
+(b) 3
+
+(c) 3
 </div>
 </div>
 
@@ -509,8 +610,35 @@ when it reads  $$ 60\text{km/h}  $$, what is the range of speeds you could be go
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 2.2 \%  $$
-(b)  $$ 59 \text{to 61 km/h}  $$
+**Strategy**
+
+Use the percent uncertainty formula, then apply the same percent uncertainty to the second reading to find the range.
+
+**Solution**
+
+**(a) Percent uncertainty at 90 km/h:**
+<div class="equation">
+$$ \%\text{unc} = \frac{\delta v}{v} \times 100\% = \frac{2.0 \text{ km/h}}{90 \text{ km/h}} \times 100\% = 2.2\% $$
+</div>
+
+**(b) Range at 60 km/h with same percent uncertainty:**
+
+1. Calculate the absolute uncertainty at 60 km/h:
+<div class="equation">
+$$ \delta v = 60 \text{ km/h} \times \frac{2.2\%}{100\%} = 60 \text{ km/h} \times 0.022 = 1.3 \text{ km/h} \approx 1 \text{ km/h} $$
+</div>
+
+2. Calculate the range:
+<div class="equation">
+$$ \text{Minimum: } 60 - 1 = 59 \text{ km/h} $$
+</div>
+<div class="equation">
+$$ \text{Maximum: } 60 + 1 = 61 \text{ km/h} $$
+</div>
+
+(a) $$ 2.2 \% $$
+
+(b) $$ 59 \text{ to 61 km/h} $$
 </div>
 </div>
 
@@ -533,7 +661,38 @@ what is the heart rate and its uncertainty in beats per minute?
 
 </div>
 <div class="solution" markdown="1">
-  $$ 80 \pm 3\text{beats/min}  $$
+**Strategy**
+
+Calculate the heart rate, then use the method of adding percent uncertainties to find the total uncertainty.
+
+**Solution**
+
+1. Calculate the heart rate:
+<div class="equation">
+$$ \text{Heart rate} = \frac{40 \text{ beats}}{30.0 \s} \times \frac{60 \s}{1 \text{ min}} = 80 \text{ beats/min} $$
+</div>
+
+2. Calculate percent uncertainty in beats:
+<div class="equation">
+$$ \%\text{unc}_{\text{beats}} = \frac{1}{40} \times 100\% = 2.5\% $$
+</div>
+
+3. Calculate percent uncertainty in time:
+<div class="equation">
+$$ \%\text{unc}_{\text{time}} = \frac{0.5 \s}{30.0 \s} \times 100\% = 1.7\% $$
+</div>
+
+4. For division, add the percent uncertainties:
+<div class="equation">
+$$ \%\text{unc}_{\text{total}} = 2.5\% + 1.7\% = 4.2\% \approx 4\% $$
+</div>
+
+5. Calculate the absolute uncertainty in heart rate:
+<div class="equation">
+$$ \delta(\text{heart rate}) = 80 \text{ beats/min} \times 0.04 = 3.2 \text{ beats/min} \approx 3 \text{ beats/min} $$
+</div>
+
+$$ 80 \pm 3\text{ beats/min} $$
 </div>
 </div>
 
@@ -550,7 +709,19 @@ If a marathon runner averages 9.5 mi/h, how long does it take them to run a 26.2
 
 </div>
 <div class="solution" markdown="1">
-  $$ 2.8\text{h}  $$
+**Strategy**
+
+Use the relationship: time = distance / speed. Report the answer with appropriate significant figures.
+
+**Solution**
+
+<div class="equation">
+$$ \text{Time} = \frac{\text{Distance}}{\text{Speed}} = \frac{26.22 \text{ mi}}{9.5 \text{ mi/h}} = 2.76 \text{ h} $$
+</div>
+
+Since the speed (9.5 mi/h) has only 2 significant figures, the answer should be reported as:
+
+$$ 2.8\text{ h} $$
 </div>
 </div>
 
@@ -575,7 +746,44 @@ long. Calculate its volume and uncertainty in cubic centimeters.
 
 </div>
 <div class="solution" markdown="1">
-  $$ 11 \pm 1 \text{cm}^{3}  $$
+**Strategy**
+
+Calculate the volume using V = length × width × height, then find the uncertainty using the method of adding percent uncertainties.
+
+**Solution**
+
+1. Calculate the volume:
+<div class="equation">
+$$ V = 1.80 \text{ cm} \times 2.05 \text{ cm} \times 3.0 \text{ cm} = 11.07 \text{ cm}^{3} $$
+</div>
+
+2. Calculate percent uncertainties for each dimension:
+<div class="equation">
+$$ \%\text{unc}_{1} = \frac{0.01 \text{ cm}}{1.80 \text{ cm}} \times 100\% = 0.56\% $$
+</div>
+<div class="equation">
+$$ \%\text{unc}_{2} = \frac{0.02 \text{ cm}}{2.05 \text{ cm}} \times 100\% = 0.98\% $$
+</div>
+<div class="equation">
+$$ \%\text{unc}_{3} = \frac{0.1 \text{ cm}}{3.0 \text{ cm}} \times 100\% = 3.3\% $$
+</div>
+
+3. Add percent uncertainties for multiplication:
+<div class="equation">
+$$ \%\text{unc}_{\text{total}} = 0.56\% + 0.98\% + 3.3\% = 4.8\% \approx 5\% $$
+</div>
+
+4. Calculate absolute uncertainty in volume:
+<div class="equation">
+$$ \delta V = 11.07 \text{ cm}^{3} \times 0.05 = 0.55 \text{ cm}^{3} \approx 1 \text{ cm}^{3} $$
+</div>
+
+5. Round the volume to match the uncertainty:
+<div class="equation">
+$$ V = 11 \pm 1 \text{ cm}^{3} $$
+</div>
+
+$$ 11 \pm 1 \text{ cm}^{3} $$
 </div>
 </div>
 
@@ -598,7 +806,41 @@ The length and width of a rectangular room are measured to be
 Calculate the area of the room and its uncertainty in square meters.
 </div>
 <div class="solution" markdown="1">
-  $$ 12.06 \pm 0.04 \mm  $$
+**Strategy**
+
+Calculate the area using A = length × width, then find the uncertainty using the method of adding percent uncertainties.
+
+**Solution**
+
+1. Calculate the area:
+<div class="equation">
+$$ A = 3.955 \m \times 3.050 \m = 12.063 \mm $$
+</div>
+
+2. Calculate percent uncertainties for each dimension:
+<div class="equation">
+$$ \%\text{unc}_{\text{length}} = \frac{0.005 \m}{3.955 \m} \times 100\% = 0.126\% $$
+</div>
+<div class="equation">
+$$ \%\text{unc}_{\text{width}} = \frac{0.005 \m}{3.050 \m} \times 100\% = 0.164\% $$
+</div>
+
+3. Add percent uncertainties for multiplication:
+<div class="equation">
+$$ \%\text{unc}_{\text{total}} = 0.126\% + 0.164\% = 0.29\% \approx 0.3\% $$
+</div>
+
+4. Calculate absolute uncertainty in area:
+<div class="equation">
+$$ \delta A = 12.063 \mm \times 0.003 = 0.036 \mm \approx 0.04 \mm $$
+</div>
+
+5. Round the area appropriately:
+<div class="equation">
+$$ A = 12.06 \pm 0.04 \mm $$
+</div>
+
+$$ 12.06 \pm 0.04 \mm $$
 </div>
 </div>
 

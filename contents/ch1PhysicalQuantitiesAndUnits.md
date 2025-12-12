@@ -480,8 +480,27 @@ The speed limit on some interstate highways is roughly 100 km/h.
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 27.8  \ms  $$
-(b)  $$ 62.1 \text{mph}  $$
+**Strategy**
+
+Use conversion factors to convert between units. Remember: 1 km = 1000 m, 1 hour = 3600 s, and 1 km = 0.6214 miles.
+
+**Solution**
+
+**(a) Convert 100 km/h to m/s:**
+
+<div class="equation">
+$$ 100 \frac{\text{km}}{\text{h}} \times \frac{1000 \m}{1 \text{km}} \times \frac{1 \text{h}}{3600 \s} = \frac{100 \times 1000}{3600} \frac{\m}{\s} = 27.8 \ms $$
+</div>
+
+**(b) Convert 100 km/h to miles per hour:**
+
+<div class="equation">
+$$ 100 \frac{\text{km}}{\text{h}} \times \frac{0.6214 \text{ mi}}{1 \text{km}} = 62.1 \text{ mph} $$
+</div>
+
+(a) $$ 27.8 \ms $$
+
+(b) $$ 62.1 \text{mph} $$
 </div>
 </div>
 
@@ -525,8 +544,35 @@ Soccer fields vary in size. A large soccer field is 115 m long and 85 m wide. Wh
 
 </div>
 <div class="solution" markdown="1">
-length:  $$ 377 \text{ft}  $$;  $$ 4.53 \times 10^{3}\text{in.}  $$ width:  $$ 280 \text{ft}  $$;  $$ 3.3\times
-10^{3}\text{in.}  $$.
+**Strategy**
+
+Convert from meters to feet using the conversion factor 1 m = 3.281 ft, then convert feet to inches using 1 ft = 12 in.
+
+**Solution**
+
+**Length (115 m):**
+
+<div class="equation">
+$$ 115 \m \times \frac{3.281 \text{ ft}}{1 \m} = 377 \text{ ft} $$
+</div>
+
+<div class="equation">
+$$ 377 \text{ ft} \times \frac{12 \text{ in.}}{1 \text{ ft}} = 4.53 \times 10^{3} \text{ in.} $$
+</div>
+
+**Width (85 m):**
+
+<div class="equation">
+$$ 85 \m \times \frac{3.281 \text{ ft}}{1 \m} = 279 \text{ ft} \approx 280 \text{ ft} $$
+</div>
+
+<div class="equation">
+$$ 280 \text{ ft} \times \frac{12 \text{ in.}}{1 \text{ ft}} = 3.3 \times 10^{3} \text{ in.} $$
+</div>
+
+Length: $$ 377 \text{ft} $$; $$ 4.53 \times 10^{3}\text{in.} $$
+
+Width: $$ 280 \text{ft} $$; $$ 3.3\times 10^{3}\text{in.} $$
 
 </div>
 </div>
@@ -545,7 +591,17 @@ Mount Everest, at 29 028 feet, is the tallest mountain on the Earth. What is its
 
 </div>
 <div class="solution" markdown="1">
-  $$ 8.847 \text{km}  $$
+**Strategy**
+
+Convert from feet to kilometers using the given conversion factor: 1 km = 3281 ft.
+
+**Solution**
+
+<div class="equation">
+$$ 29028 \text{ ft} \times \frac{1 \text{ km}}{3281 \text{ ft}} = 8.847 \text{ km} $$
+</div>
+
+$$ 8.847 \text{km} $$
 </div>
 </div>
 
@@ -566,8 +622,38 @@ speed of 4.0 cm/year.
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 1.3\times 10^{-9}\m  $$
-(b)  $$ 40 \text{km/My}  $$
+**Strategy**
+
+Convert the speed of 4.0 cm/year to the requested units using appropriate conversion factors.
+
+**Solution**
+
+**(a) Distance moved in 1 second:**
+
+First convert 4.0 cm/year to meters per second:
+<div class="equation">
+$$ 4.0 \frac{\text{cm}}{\text{year}} \times \frac{1 \m}{100 \text{ cm}} \times \frac{1 \text{ year}}{365 \text{ days}} \times \frac{1 \text{ day}}{24 \text{ h}} \times \frac{1 \text{ h}}{3600 \s} $$
+</div>
+
+<div class="equation">
+$$ = \frac{4.0}{100 \times 365 \times 24 \times 3600} \frac{\m}{\s} = 1.27 \times 10^{-9} \frac{\m}{\s} \approx 1.3 \times 10^{-9} \frac{\m}{\s} $$
+</div>
+
+In 1 second, the plate moves: $$ 1.3 \times 10^{-9} \m $$
+
+**(b) Speed in km per million years:**
+
+<div class="equation">
+$$ 4.0 \frac{\text{cm}}{\text{year}} \times \frac{1 \m}{100 \text{ cm}} \times \frac{1 \text{ km}}{1000 \m} \times \frac{10^{6} \text{ years}}{1 \text{ My}} $$
+</div>
+
+<div class="equation">
+$$ = \frac{4.0 \times 10^{6}}{100 \times 1000} \frac{\text{km}}{\text{My}} = 40 \frac{\text{km}}{\text{My}} $$
+</div>
+
+(a) $$ 1.3\times 10^{-9}\m $$
+
+(b) $$ 40 \text{km/My} $$
 </div>
 </div>
 
