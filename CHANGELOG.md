@@ -39,7 +39,6 @@ If you link to this book externally, update the following URLs:
 #### Grammar Fixes
 - `ch3ProjectileMotion.md` - "is at same height" → "is at the same height"
 - `ch22MagneticFieldStrength.md` - "less then" → "less than"
-- `ch31BindingEnergy.md` - "greater then" → "greater than"
 - `ch33ParticlePhysics.md` - "less then" → "less than" and "a an" → "an" in image alt text
 
 #### Figure Reference Fixes
@@ -59,6 +58,6 @@ If you link to this book externally, update the following URLs:
 
 ### Summary
 
-- **Total fixes:** 27 errors
+- **Total fixes:** 26 errors
 - **Files renamed:** 2
-- **Files modified:** 21
+- **Files modified:** 20

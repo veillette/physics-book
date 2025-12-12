@@ -108,7 +108,7 @@ contributes energy to the interior. Some of the primordial radioactive nuclides
 have unstable decay products that also release energy— $${}^{238}\text{U} $$ has
 a long decay chain of these. Further, there were more of these primordial
 radioactive nuclides early in the life of the Earth, and thus the activity and
-energy contributed were greater than (perhaps by an order of magnitude). The
+energy contributed were greater then (perhaps by an order of magnitude). The
 amount of power created by these decays per cubic meter is very small. However,
 since a huge volume of material lies deep below the surface, this relatively
 small amount of energy cannot escape quickly. The power produced near the
