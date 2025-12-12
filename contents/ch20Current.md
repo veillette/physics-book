@@ -152,7 +152,7 @@ If the 0.300-mA current through the calculator mentioned in the [[Example 1]](#E
 
 The current calculated in the previous example was defined for the flow of
 positive charge. For electrons, the magnitude is the same, but the sign is
-opposite, $${I}_{\text{electrons}}=-0.300 \times 10^{-3 }\text{C/s} $$ .Since
+opposite, $${I}_{\text{electrons}}=-0.300 \times 10^{-3 }\text{C/s} $$. Since
 each electron $$\left({e}^{-}\right) $$ has a charge of $$ - 1.60 \times
 10^{-19} \text{C} $$ , we can convert the current in coulombs per second to
 electrons per second.
