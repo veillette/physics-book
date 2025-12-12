@@ -173,7 +173,27 @@ How many heartbeats are there in a lifetime?
 
 </div>
 <div class="solution" markdown="1">
-Sample answer:  $$ 2\times 10^{9}  $$ heartbeats
+**Strategy**
+
+To estimate heartbeats in a lifetime, we need to estimate the average heart rate and average lifespan.
+
+**Solution**
+
+1. Estimate average heart rate: approximately 70 beats per minute (at rest, it varies but this is a reasonable average including sleep and activity).
+
+2. Estimate average lifespan: approximately 80 years.
+
+3. Calculate minutes in a lifetime:
+<div class="equation">
+$$ 80 \text{ years} \times \frac{365 \text{ days}}{1 \text{ year}} \times \frac{24 \text{ hours}}{1 \text{ day}} \times \frac{60 \text{ min}}{1 \text{ hour}} \approx 4.2 \times 10^{7} \text{ minutes} $$
+</div>
+
+4. Calculate total heartbeats:
+<div class="equation">
+$$ 70 \frac{\text{beats}}{\text{min}} \times 4.2 \times 10^{7} \text{ min} \approx 3 \times 10^{9} \text{ heartbeats} $$
+</div>
+
+Sample answer: $$ 2\times 10^{9} $$ to $$ 3\times 10^{9} $$ heartbeats
 
 </div>
 </div>
@@ -192,7 +212,25 @@ nucleus is the lifetime of a human? (Hint: The lifetime of an unstable atomic nu
 
 </div>
 <div class="solution" markdown="1">
-Sample answer:  $$ 2\times 10^{31}  $$ if an average human lifetime is taken to be about 70 years.
+**Strategy**
+
+We need to compare the human lifetime to the lifetime of an unstable atomic nucleus by finding their ratio.
+
+**Solution**
+
+1. From the hint, the lifetime of an unstable atomic nucleus is on the order of $$ 10^{-22} \s $$.
+
+2. Convert human lifetime to seconds. Assuming an average human lifetime of about 70 years:
+<div class="equation">
+$$ 70 \text{ years} \times \frac{365 \text{ days}}{1 \text{ year}} \times \frac{24 \text{ hours}}{1 \text{ day}} \times \frac{3600 \s}{1 \text{ hour}} \approx 2.2 \times 10^{9} \s $$
+</div>
+
+3. Calculate the ratio:
+<div class="equation">
+$$ \frac{\text{Human lifetime}}{\text{Nucleus lifetime}} = \frac{2.2 \times 10^{9} \s}{10^{-22} \s} \approx 2 \times 10^{31} $$
+</div>
+
+Sample answer: $$ 2\times 10^{31} $$ times longer (if an average human lifetime is taken to be about 70 years).
 
 </div>
 </div>
@@ -215,6 +253,26 @@ Approximately how many atoms thick is a cell membrane, assuming all atoms there 
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+We need to estimate how many atoms fit across the thickness of a cell membrane, given that the atoms are about twice the size of a hydrogen atom.
+
+**Solution**
+
+1. A typical cell membrane thickness is approximately $$ 10^{-8} \m $$ (or about 10 nm).
+
+2. The diameter of a hydrogen atom is approximately $$ 10^{-10} \m $$ (or about 0.1 nm).
+
+3. If atoms in the membrane average about twice the size of a hydrogen atom:
+<div class="equation">
+$$ \text{Average atom diameter} \approx 2 \times 10^{-10} \m $$
+</div>
+
+4. Calculate the number of atoms across the membrane thickness:
+<div class="equation">
+$$ \text{Number of atoms} = \frac{\text{Membrane thickness}}{\text{Atom diameter}} = \frac{10^{-8} \m}{2 \times 10^{-10} \m} = 50 \text{ atoms} $$
+</div>
+
 Sample answer: 50 atoms
 
 </div>
@@ -235,11 +293,40 @@ Sample answer: 50 atoms
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+We need to estimate the number of cells by dividing the total mass by the mass of a single cell (which is 10 times the mass of a bacterium).
+
+**Solution**
+
+1. From the problem, an average cell mass is ten times the mass of a bacterium. From Table 3, the mass of a bacterium is approximately $$ 10^{-15} \kg $$, so:
+<div class="equation">
+$$ \text{Cell mass} \approx 10 \times 10^{-15} \kg = 10^{-14} \kg $$
+</div>
+
+**(a) Cells in a hummingbird:**
+
+2. The mass of a hummingbird is approximately $$ 10^{-2} \kg $$ (about 10 grams, or roughly 0.01 kg).
+
+3. Calculate number of cells:
+<div class="equation">
+$$ \text{Number of cells} = \frac{\text{Hummingbird mass}}{\text{Cell mass}} = \frac{10^{-2} \kg}{10^{-14} \kg} = 10^{12} \text{ cells} $$
+</div>
+
+**(b) Cells in a human:**
+
+4. The mass of a human is approximately $$ 10^{2} \kg $$ (about 100 kg, though 70 kg is more typical).
+
+5. Calculate number of cells:
+<div class="equation">
+$$ \text{Number of cells} = \frac{\text{Human mass}}{\text{Cell mass}} = \frac{10^{2} \kg}{10^{-14} \kg} = 10^{16} \text{ cells} $$
+</div>
+
 Sample answers:
 
-(a)  $$ 10^{12} $$ cells/hummingbird
+(a) $$ 10^{12} $$ cells/hummingbird
 
-(b)  $$ 10^{16} $$ cells/human
+(b) $$ 10^{16} $$ cells/human
 
 </div>
 </div>
