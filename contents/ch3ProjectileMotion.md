@@ -681,10 +681,42 @@ distances from where the projectile was launched to where it lands?
 
 </div>
 <div class="solution" markdown="1">
- $$ \begin{array}{lll}
-x&=& 1.30 \m \times 10^{2}\\
-y&=& 30.9 \m .
-\end{array} $$
+
+**Strategy**
+
+Resolve the initial velocity into horizontal and vertical components. Use the kinematic equations for each direction separately, with time as the common variable.
+
+**Solution**
+
+1. Find the initial velocity components:
+<div class="equation">
+$$ v_{0x} = v_0 \cos\theta_0 = (50.0 \ms)(\cos 30.0°) = (50.0 \ms)(0.866) = 43.3 \ms $$
+</div>
+
+<div class="equation">
+$$ v_{0y} = v_0 \sin\theta_0 = (50.0 \ms)(\sin 30.0°) = (50.0 \ms)(0.500) = 25.0 \ms $$
+</div>
+
+2. Calculate the horizontal distance (no acceleration horizontally):
+<div class="equation">
+$$ x = v_{0x} \cdot t = (43.3 \ms)(3.00 \s) = 130 \m = 1.30 \times 10^2 \m $$
+</div>
+
+3. Calculate the vertical distance (using $$ a_y = -g $$):
+<div class="equation">
+$$ y = v_{0y}t - \frac{1}{2}gt^2 = (25.0 \ms)(3.00 \s) - \frac{1}{2}(9.80 \mss)(3.00 \s)^2 $$
+</div>
+
+<div class="equation">
+$$ y = 75.0 \m - 44.1 \m = 30.9 \m $$
+</div>
+
+**Discussion**
+
+The positive value for y indicates the target is above the launch point. The projectile travels 130 m horizontally and is 30.9 m above ground when it strikes the target.
+
+The projectile lands at a horizontal distance of $$ x = 1.30 \times 10^{2} \m $$ and a vertical height of $$ y = 30.9 \m $$ above the launch point.
+
 </div>
 </div>
 
@@ -694,6 +726,63 @@ A ball is kicked with an initial velocity of 16 m/s in the horizontal direction 
 (a) At what speed does the ball hit the ground?
 (b) For how long does the ball remain in the air?
 (c) What maximum height is attained by the ball?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The horizontal and vertical velocity components are given directly. Use projectile motion equations to find the time of flight, maximum height, and final velocity.
+
+**Solution**
+
+Given: $$ v_{0x} = 16 \ms $$, $$ v_{0y} = 12 \ms $$, $$ a_y = -g = -9.80 \mss $$
+
+**(a) Speed when the ball hits the ground:**
+
+When the ball returns to ground level (same height as launch), by symmetry, the vertical speed has the same magnitude but opposite direction: $$ v_y = -12 \ms $$
+
+The horizontal velocity remains constant: $$ v_x = 16 \ms $$
+
+Calculate the total speed:
+<div class="equation">
+$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(16 \ms)^2 + (-12 \ms)^2} = \sqrt{256 + 144} \mmss = \sqrt{400} \mmss = 20 \ms $$
+</div>
+
+**(b) Time in the air:**
+
+The ball rises until $$ v_y = 0 $$, then falls back. Using $$ v_y = v_{0y} - gt $$:
+
+Time to reach maximum height:
+<div class="equation">
+$$ t_{up} = \frac{v_{0y}}{g} = \frac{12 \ms}{9.80 \mss} = 1.22 \s $$
+</div>
+
+Total time in air (by symmetry):
+<div class="equation">
+$$ t_{total} = 2 \times t_{up} = 2 \times 1.22 \s = 2.45 \s $$
+</div>
+
+**(c) Maximum height:**
+
+At maximum height, $$ v_y = 0 $$. Using $$ v_y^2 = v_{0y}^2 - 2gy $$:
+<div class="equation">
+$$ 0 = (12 \ms)^2 - 2(9.80 \mss)y_{max} $$
+</div>
+
+<div class="equation">
+$$ y_{max} = \frac{(12 \ms)^2}{2(9.80 \mss)} = \frac{144 \mmss}{19.6 \mss} = 7.35 \m $$
+</div>
+
+**Discussion**
+
+Note that the initial and final speeds are equal (20 m/s) because the ball lands at the same height from which it was kicked. This is a consequence of energy conservation.
+
+(a) The ball hits the ground at a speed of $$ 20 \ms $$.
+
+(b) The ball remains in the air for $$ 2.45 \s $$.
+
+(c) The maximum height attained is $$ 7.35 \m $$.
 
 </div>
 </div>
@@ -708,11 +797,74 @@ A ball is thrown horizontally from the top of a 60.0-m building and lands 100.0 
 
 </div>
 <div class="solution" markdown="1">
-(a) 3.50 s
 
-(b) 28.6 m/s (c) 34.3 m/s
+**Strategy**
 
-(d) 44.7 m/s, $$ 50.2^\circ $$ below horizontal
+Since the ball is thrown horizontally, $$ v_{0y} = 0 $$. The vertical motion determines the time of flight, which then determines the required horizontal velocity.
+
+**Solution**
+
+Given: $$ y_0 = 60.0 \m $$, $$ y = 0 $$, $$ x = 100.0 \m $$, $$ v_{0y} = 0 $$
+
+**(a) Time in the air:**
+
+Using the vertical motion equation with $$ v_{0y} = 0 $$ and taking downward as positive:
+<div class="equation">
+$$ y - y_0 = v_{0y}t + \frac{1}{2}gt^2 $$
+</div>
+
+<div class="equation">
+$$ -60.0 \m = 0 + \frac{1}{2}(-9.80 \mss)t^2 $$
+</div>
+
+<div class="equation">
+$$ t^2 = \frac{2(60.0 \m)}{9.80 \mss} = 12.24 \s^2 $$
+</div>
+
+<div class="equation">
+$$ t = 3.50 \s $$
+</div>
+
+**(b) Initial horizontal velocity:**
+
+Since horizontal velocity is constant:
+<div class="equation">
+$$ v_{0x} = \frac{x}{t} = \frac{100.0 \m}{3.50 \s} = 28.6 \ms $$
+</div>
+
+**(c) Vertical velocity at impact:**
+
+<div class="equation">
+$$ v_y = v_{0y} - gt = 0 - (9.80 \mss)(3.50 \s) = -34.3 \ms $$
+</div>
+
+The magnitude is $$ 34.3 \ms $$ (downward).
+
+**(d) Total velocity at impact:**
+
+The horizontal component remains: $$ v_x = 28.6 \ms $$
+
+Magnitude:
+<div class="equation">
+$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(28.6 \ms)^2 + (34.3 \ms)^2} = \sqrt{818 + 1176} \mmss = 44.7 \ms $$
+</div>
+
+Direction (angle below horizontal):
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{|v_y|}{v_x}\right) = \tan^{-1}\left(\frac{34.3}{28.6}\right) = 50.2° $$
+</div>
+
+**Discussion**
+
+The ball accelerates only in the vertical direction, so it falls faster and faster while maintaining its horizontal speed. The final velocity is directed at an angle below horizontal because the vertical component has grown larger than the horizontal component.
+
+(a) The ball is in the air for $$ 3.50 \s $$.
+
+(b) The initial horizontal velocity was $$ 28.6 \ms $$.
+
+(c) The vertical velocity just before impact is $$ 34.3 \ms $$ downward.
+
+(d) The total velocity is $$ 44.7 \ms $$ at $$ 50.2° $$ below horizontal.
 
 </div>
 </div>
@@ -727,6 +879,50 @@ bus tops and the buses are 20.0 m long?
 about the margin of error in this act—that is, consider how much greater the
 range is than the horizontal distance he must travel to miss the end of the last
 bus. (Neglect air resistance.)
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Since the takeoff and landing heights are equal, use the range equation for level ground. Calculate the range and determine how many 20.0 m buses fit within it.
+
+**Solution**
+
+Given: $$ v_0 = 40.0 \ms $$, $$ \theta_0 = 32° $$, bus length = 20.0 m
+
+**(a) Number of buses:**
+
+1. Calculate the range using the range equation:
+<div class="equation">
+$$ R = \frac{v_0^2 \sin(2\theta_0)}{g} = \frac{(40.0 \ms)^2 \sin(64°)}{9.80 \mss} $$
+</div>
+
+<div class="equation">
+$$ R = \frac{1600 \mmss \times 0.899}{9.80 \mss} = \frac{1438 \mmss}{9.80 \mss} = 147 \m $$
+</div>
+
+2. Calculate the number of buses:
+<div class="equation">
+$$ \text{Number of buses} = \frac{147 \m}{20.0 \m} = 7.35 $$
+</div>
+
+He can safely clear **7 buses**.
+
+**(b) Margin of error:**
+
+The margin is the extra distance beyond 7 buses:
+<div class="equation">
+$$ \text{Margin} = 147 \m - 7 \times 20.0 \m = 147 \m - 140 \m = 7 \m $$
+</div>
+
+**Discussion**
+
+The margin of error is only 7 m out of a total range of 147 m, which is about 5% of the range. This is a relatively small margin for such a dangerous stunt. Any slight reduction in speed, headwind, or error in the ramp angle could result in landing on the last bus. The stunt is risky because the actual conditions (air resistance, exact speed, ramp angle) may vary from the ideal calculated values.
+
+(a) The daredevil can clear **7 buses**.
+
+(b) The margin of error is only **7 m**, which is quite small for such a dangerous stunt, implying this act has little room for error.
 
 </div>
 </div>

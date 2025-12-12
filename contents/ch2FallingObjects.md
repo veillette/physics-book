@@ -487,10 +487,69 @@ Calculate the displacement and velocity at times of
 Take the point of release to be $$ y_{0}=0 $$.
 </div>
 <div class="solution" markdown="1">
-(a) $$ y_{1}=6.28 \m $$; $$ v_{1}=10.1 \ms $$
-(b) $$ y_{2}=10.1 \m $$; $$ v_{2}=5.20 \ms $$
-(c) $$ y_{3}=11.5 \m $$; $$ v_{3}=0.300 \ms $$
-(d) $$ y_{4}=10.4 \m $$; $$ v_{4}=-4.60 \ms $$
+
+**Strategy**
+
+Use the kinematic equations for free-fall with upward as positive. Since the ball is thrown upward, the initial velocity is positive, while the acceleration due to gravity is negative ($$ a = -g = -9.80 \mss $$).
+
+**Solution**
+
+For position: $$ y = y_0 + v_0 t + \frac{1}{2}at^2 = v_0 t - \frac{1}{2}gt^2 $$
+
+For velocity: $$ v = v_0 + at = v_0 - gt $$
+
+**(a) At t = 0.500 s:**
+
+<div class="equation">
+$$ y_1 = (15.0 \ms)(0.500 \s) - \frac{1}{2}(9.80 \mss)(0.500 \s)^2 = 7.50 \m - 1.23 \m = 6.28 \m $$
+</div>
+
+<div class="equation">
+$$ v_1 = 15.0 \ms - (9.80 \mss)(0.500 \s) = 15.0 \ms - 4.90 \ms = 10.1 \ms $$
+</div>
+
+**(b) At t = 1.00 s:**
+
+<div class="equation">
+$$ y_2 = (15.0 \ms)(1.00 \s) - \frac{1}{2}(9.80 \mss)(1.00 \s)^2 = 15.0 \m - 4.90 \m = 10.1 \m $$
+</div>
+
+<div class="equation">
+$$ v_2 = 15.0 \ms - (9.80 \mss)(1.00 \s) = 5.20 \ms $$
+</div>
+
+**(c) At t = 1.50 s:**
+
+<div class="equation">
+$$ y_3 = (15.0 \ms)(1.50 \s) - \frac{1}{2}(9.80 \mss)(1.50 \s)^2 = 22.5 \m - 11.0 \m = 11.5 \m $$
+</div>
+
+<div class="equation">
+$$ v_3 = 15.0 \ms - (9.80 \mss)(1.50 \s) = 0.300 \ms $$
+</div>
+
+**(d) At t = 2.00 s:**
+
+<div class="equation">
+$$ y_4 = (15.0 \ms)(2.00 \s) - \frac{1}{2}(9.80 \mss)(2.00 \s)^2 = 30.0 \m - 19.6 \m = 10.4 \m $$
+</div>
+
+<div class="equation">
+$$ v_4 = 15.0 \ms - (9.80 \mss)(2.00 \s) = -4.60 \ms $$
+</div>
+
+**Discussion**
+
+At t = 1.50 s, the velocity is nearly zero, indicating the ball is near its maximum height. The negative velocity at t = 2.00 s confirms the ball is now moving downward.
+
+(a) At 0.500 s, the ball is at $$ y_1 = 6.28 \m $$ with velocity $$ v_1 = 10.1 \ms $$ upward.
+
+(b) At 1.00 s, the ball is at $$ y_2 = 10.1 \m $$ with velocity $$ v_2 = 5.20 \ms $$ upward.
+
+(c) At 1.50 s, the ball is at $$ y_3 = 11.5 \m $$ with velocity $$ v_3 = 0.300 \ms $$ upward.
+
+(d) At 2.00 s, the ball is at $$ y_4 = 10.4 \m $$ with velocity $$ v_4 = 4.60 \ms $$ downward.
+
 </div>
 </div>
 
@@ -503,6 +562,83 @@ Calculate the displacement and velocity at times of
 (d) 2.00, and
 (e) 2.50 s for a rock thrown straight down with an initial velocity of 14.0 m/s from the Verrazano Narrows Bridge in New York City. The roadway of this bridge is 70.0 m above the water.
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Take downward as positive since the rock is thrown downward. This means the initial velocity $$ v_0 = +14.0 \ms $$ and $$ a = +g = +9.80 \mss $$. Set $$ y_0 = 0 $$ at the bridge.
+
+**Solution**
+
+For position: $$ y = y_0 + v_0 t + \frac{1}{2}gt^2 = v_0 t + \frac{1}{2}gt^2 $$
+
+For velocity: $$ v = v_0 + gt $$
+
+**(a) At t = 0.500 s:**
+
+<div class="equation">
+$$ y_1 = (14.0 \ms)(0.500 \s) + \frac{1}{2}(9.80 \mss)(0.500 \s)^2 = 7.00 \m + 1.23 \m = 8.23 \m $$
+</div>
+
+<div class="equation">
+$$ v_1 = 14.0 \ms + (9.80 \mss)(0.500 \s) = 18.9 \ms $$
+</div>
+
+**(b) At t = 1.00 s:**
+
+<div class="equation">
+$$ y_2 = (14.0 \ms)(1.00 \s) + \frac{1}{2}(9.80 \mss)(1.00 \s)^2 = 14.0 \m + 4.90 \m = 18.9 \m $$
+</div>
+
+<div class="equation">
+$$ v_2 = 14.0 \ms + (9.80 \mss)(1.00 \s) = 23.8 \ms $$
+</div>
+
+**(c) At t = 1.50 s:**
+
+<div class="equation">
+$$ y_3 = (14.0 \ms)(1.50 \s) + \frac{1}{2}(9.80 \mss)(1.50 \s)^2 = 21.0 \m + 11.0 \m = 32.0 \m $$
+</div>
+
+<div class="equation">
+$$ v_3 = 14.0 \ms + (9.80 \mss)(1.50 \s) = 28.7 \ms $$
+</div>
+
+**(d) At t = 2.00 s:**
+
+<div class="equation">
+$$ y_4 = (14.0 \ms)(2.00 \s) + \frac{1}{2}(9.80 \mss)(2.00 \s)^2 = 28.0 \m + 19.6 \m = 47.6 \m $$
+</div>
+
+<div class="equation">
+$$ v_4 = 14.0 \ms + (9.80 \mss)(2.00 \s) = 33.6 \ms $$
+</div>
+
+**(e) At t = 2.50 s:**
+
+<div class="equation">
+$$ y_5 = (14.0 \ms)(2.50 \s) + \frac{1}{2}(9.80 \mss)(2.50 \s)^2 = 35.0 \m + 30.6 \m = 65.6 \m $$
+</div>
+
+<div class="equation">
+$$ v_5 = 14.0 \ms + (9.80 \mss)(2.50 \s) = 38.5 \ms $$
+</div>
+
+**Discussion**
+
+At 2.50 s, the rock has fallen 65.6 m, which is still above the water (70.0 m below the bridge). The rock continues to accelerate as it falls.
+
+(a) At 0.500 s: displacement = 8.23 m, velocity = 18.9 m/s downward.
+
+(b) At 1.00 s: displacement = 18.9 m, velocity = 23.8 m/s downward.
+
+(c) At 1.50 s: displacement = 32.0 m, velocity = 28.7 m/s downward.
+
+(d) At 2.00 s: displacement = 47.6 m, velocity = 33.6 m/s downward.
+
+(e) At 2.50 s: displacement = 65.6 m, velocity = 38.5 m/s downward.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -512,7 +648,42 @@ At what minimum velocity must a basketball player leave the ground to rise 1.25 
 above the floor in an attempt to get the ball?
 </div>
 <div class="solution" markdown="1">
- $$ v_{0}=4.95 \ms $$
+
+**Strategy**
+
+At the maximum height, the player's velocity is zero. We can use the kinematic equation relating velocity, displacement, and acceleration to find the initial velocity needed to reach 1.25 m.
+
+**Solution**
+
+1. Identify the known values:
+   - Maximum height: $$ y = 1.25 \m $$
+   - Final velocity at maximum height: $$ v = 0 $$
+   - Initial position: $$ y_0 = 0 $$
+   - Acceleration: $$ a = -g = -9.80 \mss $$ (taking upward as positive)
+
+2. Choose the appropriate kinematic equation:
+<div class="equation">
+$$ v^2 = v_0^2 + 2a(y - y_0) $$
+</div>
+
+3. Solve for initial velocity $$ v_0 $$:
+<div class="equation">
+$$ 0 = v_0^2 + 2(-9.80 \mss)(1.25 \m - 0) $$
+</div>
+
+<div class="equation">
+$$ v_0^2 = 2(9.80 \mss)(1.25 \m) = 24.5 \mmss $$
+</div>
+
+<div class="equation">
+$$ v_0 = \sqrt{24.5 \mmss} = 4.95 \ms $$
+</div>
+
+**Discussion**
+
+This is a reasonable jumping speed for an athlete. The calculation shows that to reach a height of 1.25 m, a player must leave the ground with a velocity of about 5 m/s (approximately 18 km/h).
+
+The basketball player must leave the ground with a minimum velocity of $$ 4.95 \ms $$ (about 5.0 m/s) to rise 1.25 m above the floor.
 
 </div>
 </div>
@@ -522,6 +693,49 @@ above the floor in an attempt to get the ball?
 A rescue helicopter is hovering over a person whose boat has sunk. One of the rescuers throws a life preserver straight down to the victim with an initial velocity of 1.40 m/s and observes that it takes 1.8 s to reach the water.
 (a) List the knowns in this problem.
 (b) How high above the water was the preserver released? Note that the downdraft of the helicopter reduces the effects of air resistance on the falling life preserver, so that an acceleration equal to that of gravity is reasonable.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Take downward as positive since the preserver is thrown downward. Use the kinematic equation for displacement.
+
+**Solution**
+
+**(a) Known values:**
+- Initial velocity: $$ v_0 = 1.40 \ms $$ (downward, positive)
+- Time: $$ t = 1.8 \s $$
+- Acceleration: $$ a = g = 9.80 \mss $$ (downward, positive)
+- Initial position: $$ y_0 = 0 $$
+
+**(b) Height above water:**
+
+Use the kinematic equation:
+<div class="equation">
+$$ y = y_0 + v_0 t + \frac{1}{2}gt^2 $$
+</div>
+
+Substitute the known values:
+<div class="equation">
+$$ y = 0 + (1.40 \ms)(1.8 \s) + \frac{1}{2}(9.80 \mss)(1.8 \s)^2 $$
+</div>
+
+<div class="equation">
+$$ y = 2.52 \m + \frac{1}{2}(9.80 \mss)(3.24 \s^2) $$
+</div>
+
+<div class="equation">
+$$ y = 2.52 \m + 15.9 \m = 18.4 \m $$
+</div>
+
+**Discussion**
+
+The helicopter was hovering about 18 meters above the water. This is a reasonable height for a rescue operation, allowing the crew to see the victim while staying clear of the water.
+
+(a) The knowns are: $$ v_0 = 1.40 \ms $$, $$ t = 1.8 \s $$, $$ a = g = 9.80 \mss $$, and $$ y_0 = 0 $$.
+
+(b) The life preserver was released from a height of approximately $$ 18 \m $$ above the water.
 
 </div>
 </div>
@@ -575,9 +789,80 @@ She starts with a velocity of 4.00 m/s, and her takeoff point is 1.80 m above th
 <div class="solution" markdown="1">
 ![Path of a rock being thrown off of cliff. The rock moves up from the cliff top, reaches a transition point, and then falls down to the ground.](../resources/Figure_02_07_05.jpg){: #Figure8}
 
-(a) 8.26 m
+**Strategy**
 
-(b) 0.717 s
+Take upward as positive. The rock is thrown upward, goes up, then comes back down past the cliff and hits the ground below. The final position is negative (below the starting point).
+
+**Solution**
+
+**(a) Height of the cliff:**
+
+1. Identify the known values:
+   - Initial velocity: $$ v_0 = +8.00 \ms $$ (upward)
+   - Time: $$ t = 2.35 \s $$
+   - Acceleration: $$ a = -g = -9.80 \mss $$
+   - Initial position: $$ y_0 = 0 $$ (at cliff top)
+
+2. Use the kinematic equation for displacement:
+<div class="equation">
+$$ y = y_0 + v_0 t + \frac{1}{2}at^2 $$
+</div>
+
+3. Substitute the known values:
+<div class="equation">
+$$ y = 0 + (8.00 \ms)(2.35 \s) + \frac{1}{2}(-9.80 \mss)(2.35 \s)^2 $$
+</div>
+
+<div class="equation">
+$$ y = 18.8 \m - \frac{1}{2}(9.80 \mss)(5.52 \s^2) $$
+</div>
+
+<div class="equation">
+$$ y = 18.8 \m - 27.1 \m = -8.26 \m $$
+</div>
+
+The negative sign indicates the ground is 8.26 m below the cliff top.
+
+**(b) Time if thrown straight down:**
+
+1. Identify the known values:
+   - Initial velocity: $$ v_0 = -8.00 \ms $$ (downward)
+   - Final position: $$ y = -8.26 \m $$
+   - Acceleration: $$ a = -9.80 \mss $$
+
+2. Use the kinematic equation and solve for time:
+<div class="equation">
+$$ y = y_0 + v_0 t + \frac{1}{2}at^2 $$
+</div>
+
+<div class="equation">
+$$ -8.26 = 0 + (-8.00)t + \frac{1}{2}(-9.80)t^2 $$
+</div>
+
+<div class="equation">
+$$ -8.26 = -8.00t - 4.90t^2 $$
+</div>
+
+Rearranging: $$ 4.90t^2 + 8.00t - 8.26 = 0 $$
+
+3. Apply the quadratic formula:
+<div class="equation">
+$$ t = \frac{-8.00 \pm \sqrt{(8.00)^2 + 4(4.90)(8.26)}}{2(4.90)} = \frac{-8.00 \pm \sqrt{64.0 + 161.9}}{9.80} $$
+</div>
+
+<div class="equation">
+$$ t = \frac{-8.00 \pm 15.03}{9.80} $$
+</div>
+
+Taking the positive root: $$ t = \frac{-8.00 + 15.03}{9.80} = 0.717 \s $$
+
+**Discussion**
+
+When thrown downward, the rock takes much less time (0.717 s vs. 2.35 s) because it doesn't have to go up first and then come back down.
+
+(a) The cliff is $$ 8.26 \m $$ high.
+
+(b) If thrown straight down with the same speed, it takes $$ 0.717 \s $$ to reach the ground.
 
 </div>
 </div>
