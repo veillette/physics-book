@@ -36,6 +36,12 @@ If you link to this book externally, update the following URLs:
 - `ch20ResistanceAndResistivity.md` - "Tempature" → "Temperature" in table caption
 - `ch22MagneticForceBetweenTwoParallelConductors.md` - "form" → "from"
 
+#### Grammar Fixes
+- `ch3ProjectileMotion.md` - "is at same height" → "is at the same height"
+- `ch22MagneticFieldStrength.md` - "less then" → "less than"
+- `ch31BindingEnergy.md` - "greater then" → "greater than"
+- `ch33ParticlePhysics.md` - "less then" → "less than" and "a an" → "an" in image alt text
+
 #### Figure Reference Fixes
 - `ch17SoundInterferenceAndResonance.md` - Fixed `[[Figure 6]](#Figure7)` → `[[Figure 6]](#Figure6)`
 - `ch31HalfLifeAndActivity.md` - Added missing figure number `[[Figure]]` → `[[Figure 2]]`
@@ -53,6 +59,6 @@ If you link to this book externally, update the following URLs:
 
 ### Summary
 
-- **Total fixes:** 22 errors
+- **Total fixes:** 27 errors
 - **Files renamed:** 2
-- **Files modified:** 17
+- **Files modified:** 21
