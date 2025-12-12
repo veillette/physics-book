@@ -528,7 +528,27 @@ What is the net external force on him?
 
 </div>
 <div class="solution" markdown="1">
-265 N
+
+**Strategy**
+
+Apply Newton's second law directly. Given mass and acceleration, calculate the net force using $$ F_{net} = ma $$.
+
+**Solution**
+
+1. Identify the known values:
+   - Mass: $$ m = 63.0 \kg $$
+   - Acceleration: $$ a = 4.20 \mss $$
+
+2. Apply Newton's second law:
+<div class="equation">
+$$ F_{net} = ma = (63.0 \kg)(4.20 \mss) = 265 \N $$
+</div>
+
+**Discussion**
+
+This force comes from the sprinter pushing backward on the ground, and the ground pushing forward on the sprinter (Newton's third law). The 265 N represents the net horizontal force after accounting for any friction and air resistance.
+
+The net external force on the sprinter is $$ 265 \N $$.
 
 </div>
 </div>
@@ -540,6 +560,52 @@ and then maintains that velocity for the remainder of the 100-m dash,
 what will be his time for the race?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Break the problem into two phases: (1) acceleration phase for 20 m, and (2) constant velocity phase for the remaining 80 m. Calculate time for each phase separately.
+
+**Solution**
+
+**Phase 1: Accelerating for 20 m**
+
+Given: $$ a = 4.20 \mss $$, $$ x = 20 \m $$, $$ v_0 = 0 $$
+
+1. Find the final velocity after accelerating:
+<div class="equation">
+$$ v^2 = v_0^2 + 2ax = 0 + 2(4.20 \mss)(20 \m) = 168 \mmss $$
+</div>
+
+<div class="equation">
+$$ v = \sqrt{168 \mmss} = 12.96 \ms $$
+</div>
+
+2. Find the time for the acceleration phase:
+<div class="equation">
+$$ v = v_0 + at_1 \Rightarrow t_1 = \frac{v - v_0}{a} = \frac{12.96 \ms}{4.20 \mss} = 3.09 \s $$
+</div>
+
+**Phase 2: Constant velocity for 80 m**
+
+3. Calculate the time at constant velocity:
+<div class="equation">
+$$ t_2 = \frac{x_2}{v} = \frac{80 \m}{12.96 \ms} = 6.17 \s $$
+</div>
+
+**Total time:**
+
+<div class="equation">
+$$ t_{total} = t_1 + t_2 = 3.09 \s + 6.17 \s = 9.26 \s $$
+</div>
+
+**Discussion**
+
+This time of about 9.3 seconds is close to world-class 100-m dash times, which are under 10 seconds. The model is simplified because real sprinters don't accelerate uniformly and don't maintain exactly constant velocity.
+
+The sprinter's time for the 100-m dash would be approximately $$ 9.26 \s $$.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -549,7 +615,27 @@ force on it is 60.0 N. Calculate the magnitude of its acceleration.
 
 </div>
 <div class="solution"  markdown="1">
- $$ 13.3 \mss $$
+
+**Strategy**
+
+Use Newton's second law to find acceleration when force and mass are given. Rearrange $$ F_{net} = ma $$ to solve for $$ a $$.
+
+**Solution**
+
+1. Identify the known values:
+   - Mass: $$ m = 4.50 \kg $$
+   - Net external force: $$ F_{net} = 60.0 \N $$
+
+2. Rearrange Newton's second law to solve for acceleration:
+<div class="equation">
+$$ a = \frac{F_{net}}{m} = \frac{60.0 \N}{4.50 \kg} = \frac{60.0 \kg \cdot \mss}{4.50 \kg} = 13.3 \mss $$
+</div>
+
+**Discussion**
+
+This is a fairly large acceleration—about 1.4 times the acceleration due to gravity. The cart would reach a speed of 13.3 m/s (about 48 km/h) after just one second if this acceleration were maintained.
+
+The laundry cart accelerates at $$ 13.3 \mss $$.
 
 </div>
 </div>
@@ -560,12 +646,48 @@ Since astronauts in orbit are apparently weightless, a clever method of
 measuring their masses is needed to monitor their mass gains or losses to
 adjust diets. One way to do this is to exert a known force on an astronaut
 and measure the acceleration produced. Suppose a net external force of 50.0 N
-is exerted and the astronaut’s acceleration is measured to be $$ 0.893 \mss $$.
+is exerted and the astronaut's acceleration is measured to be $$ 0.893 \mss $$.
 (a) Calculate her mass.
 (b) By exerting a force on the astronaut, the vehicle
 in which they orbit experiences an equal and opposite force. Discuss how this
-would affect the measurement of the astronaut’s acceleration. Propose a method
+would affect the measurement of the astronaut's acceleration. Propose a method
 in which recoil of the vehicle is avoided.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), use Newton's second law rearranged to solve for mass. For part (b), consider the effect of the vehicle's motion on the measurement.
+
+**Solution**
+
+**(a) Calculate the astronaut's mass:**
+
+1. Identify the known values:
+   - Net force: $$ F_{net} = 50.0 \N $$
+   - Acceleration: $$ a = 0.893 \mss $$
+
+2. Rearrange Newton's second law to solve for mass:
+<div class="equation">
+$$ m = \frac{F_{net}}{a} = \frac{50.0 \N}{0.893 \mss} = \frac{50.0 \kg \cdot \mss}{0.893 \mss} = 56.0 \kg $$
+</div>
+
+**(b) Effect of vehicle recoil:**
+
+By Newton's third law, when the device exerts a 50.0 N force on the astronaut, the astronaut exerts a 50.0 N force back on the device and vehicle. This causes the vehicle to accelerate in the opposite direction.
+
+If the measurement is made relative to the vehicle, the measured acceleration would appear larger than the true acceleration relative to an inertial reference frame, leading to an underestimate of the astronaut's mass.
+
+**Proposed method to avoid recoil:** Anchor the force-exerting device to a very massive part of the spacecraft, or use a spring-loaded chair system where the astronaut oscillates on a spring (Body Mass Measurement Device). The oscillation period depends on mass but doesn't require the vehicle to absorb any net force.
+
+**Discussion**
+
+The actual Space Shuttle and ISS use a device where astronauts sit in a chair attached to springs. The period of oscillation is measured and used to calculate mass, avoiding the recoil problem entirely.
+
+(a) The astronaut's mass is $$ 56.0 \kg $$.
+
+(b) Vehicle recoil would cause errors in the acceleration measurement. Using an oscillating spring system avoids this problem.
 
 </div>
 </div>

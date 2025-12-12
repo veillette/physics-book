@@ -548,7 +548,33 @@ A cheetah can accelerate from rest to a speed of 30.0 m/s in 7.00 s. What is its
 
 </div>
 <div class="solution" markdown="1">
- $$ 4.29\mss $$
+
+**Strategy**
+
+We are given initial velocity, final velocity, and time. We can use the definition of average acceleration to find the acceleration.
+
+**Solution**
+
+1. Identify the known values:
+   - Initial velocity: $$ v_0 = 0 $$ (starts from rest)
+   - Final velocity: $$ v_f = 30.0 \ms $$
+   - Time interval: $$ \Delta t = 7.00 \s $$
+
+2. Apply the definition of average acceleration:
+<div class="equation">
+$$ \overline{a} = \frac{\Delta v}{\Delta t} = \frac{v_f - v_0}{\Delta t} $$
+</div>
+
+3. Substitute the known values:
+<div class="equation">
+$$ \overline{a} = \frac{30.0 \ms - 0}{7.00 \s} = \frac{30.0 \ms}{7.00 \s} = 4.29 \mss $$
+</div>
+
+**Discussion**
+
+The cheetah's acceleration of 4.29 m/s² is impressive—it increases its speed by 4.29 m/s every second. This is about 0.44 times the acceleration due to gravity (g = 9.80 m/s²).
+
+The cheetah's acceleration is $$ 4.29 \mss $$.
 
 </div>
 </div>
@@ -566,6 +592,57 @@ acceleration and (b) deceleration. Express each in multiples of $$ g $$, $$
 \left(9.80 \mss \right) $$ by taking its ratio to the acceleration of gravity.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+This problem involves two phases of motion: acceleration and deceleration. For each phase, we use the definition of average acceleration. To express the results in multiples of g, we divide each acceleration by 9.80 m/s².
+
+**Solution**
+
+**(a) Acceleration phase:**
+
+1. Identify the known values:
+   - Initial velocity: $$ v_0 = 0 $$ (starts from rest)
+   - Final velocity: $$ v_f = 282 \ms $$
+   - Time interval: $$ \Delta t = 5.00 \s $$
+
+2. Calculate the acceleration:
+<div class="equation">
+$$ a = \frac{\Delta v}{\Delta t} = \frac{v_f - v_0}{\Delta t} = \frac{282 \ms - 0}{5.00 \s} = 56.4 \mss $$
+</div>
+
+3. Express in multiples of g:
+<div class="equation">
+$$ \frac{a}{g} = \frac{56.4 \mss}{9.80 \mss} = 5.76g $$
+</div>
+
+**(b) Deceleration phase:**
+
+1. Identify the known values:
+   - Initial velocity: $$ v_0 = 282 \ms $$
+   - Final velocity: $$ v_f = 0 $$ (comes to rest)
+   - Time interval: $$ \Delta t = 1.40 \s $$
+
+2. Calculate the deceleration:
+<div class="equation">
+$$ a = \frac{\Delta v}{\Delta t} = \frac{v_f - v_0}{\Delta t} = \frac{0 - 282 \ms}{1.40 \s} = -201 \mss $$
+</div>
+
+3. Express in multiples of g:
+<div class="equation">
+$$ \frac{|a|}{g} = \frac{201 \mss}{9.80 \mss} = 20.5g $$
+</div>
+
+**Discussion**
+
+These accelerations are extreme. During acceleration, Dr. Stapp experienced about 5.76g, which is uncomfortable but tolerable. During deceleration, he experienced about 20.5g, which is at the limit of human tolerance. Such experiments helped establish safety standards for ejection seats and crash protection.
+
+(a) Dr. Stapp's acceleration was $$ 56.4 \mss $$, or $$ 5.76g $$.
+
+(b) His deceleration was $$ 201 \mss $$, or $$ 20.5g $$.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -576,9 +653,50 @@ A commuter backs her car out of her garage with an acceleration of $$ 1.40 \mss 
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 1.43 \s $$
 
-(b) $$ -2.50\mss $$
+**Strategy**
+
+For part (a), we know the acceleration and need to find time. We rearrange the acceleration equation to solve for time. For part (b), we use the definition of acceleration with the new initial velocity and final velocity (zero).
+
+**Solution**
+
+**(a) Time to reach 2.00 m/s:**
+
+1. Identify the known values:
+   - Initial velocity: $$ v_0 = 0 $$ (starts from rest)
+   - Final velocity: $$ v_f = 2.00 \ms $$
+   - Acceleration: $$ a = 1.40 \mss $$
+
+2. Rearrange the acceleration equation to solve for time:
+<div class="equation">
+$$ a = \frac{\Delta v}{\Delta t} \Rightarrow \Delta t = \frac{\Delta v}{a} = \frac{v_f - v_0}{a} $$
+</div>
+
+3. Substitute the known values:
+<div class="equation">
+$$ \Delta t = \frac{2.00 \ms - 0}{1.40 \mss} = \frac{2.00 \ms}{1.40 \mss} = 1.43 \s $$
+</div>
+
+**(b) Deceleration while braking:**
+
+1. Identify the known values:
+   - Initial velocity: $$ v_0 = 2.00 \ms $$
+   - Final velocity: $$ v_f = 0 $$ (comes to a stop)
+   - Time interval: $$ \Delta t = 0.800 \s $$
+
+2. Calculate the deceleration:
+<div class="equation">
+$$ a = \frac{\Delta v}{\Delta t} = \frac{v_f - v_0}{\Delta t} = \frac{0 - 2.00 \ms}{0.800 \s} = -2.50 \mss $$
+</div>
+
+**Discussion**
+
+The negative sign in part (b) indicates that the acceleration is in the opposite direction to the velocity, which is consistent with the car slowing down (decelerating).
+
+(a) It takes the commuter $$ 1.43 \s $$ to reach a speed of 2.00 m/s.
+
+(b) Her deceleration while braking is $$ 2.50 \mss $$ (or $$ -2.50 \mss $$ if we consider the sign).
+
 </div>
 </div>
 
@@ -586,6 +704,36 @@ A commuter backs her car out of her garage with an acceleration of $$ 1.40 \mss 
 <div class="problem" markdown="1">
 Assume that an intercontinental ballistic missile goes from rest to a suborbital speed of 6.50 km/s in 60.0 s (the actual speed and time are classified). What is its average acceleration in $$ \mss $$ and in multiples of $$ g $$
 $$ \left(9.80 \mss \right)? $$
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use the definition of average acceleration. First, we need to convert the final velocity from km/s to m/s to get the answer in SI units.
+
+**Solution**
+
+1. Identify the known values and convert units:
+   - Initial velocity: $$ v_0 = 0 $$ (starts from rest)
+   - Final velocity: $$ v_f = 6.50 \text{ km/s} = 6.50 \times 10^3 \ms = 6500 \ms $$
+   - Time interval: $$ \Delta t = 60.0 \s $$
+
+2. Calculate the average acceleration:
+<div class="equation">
+$$ \overline{a} = \frac{\Delta v}{\Delta t} = \frac{v_f - v_0}{\Delta t} = \frac{6500 \ms - 0}{60.0 \s} = 108 \mss $$
+</div>
+
+3. Express in multiples of g:
+<div class="equation">
+$$ \frac{\overline{a}}{g} = \frac{108 \mss}{9.80 \mss} = 11.0g $$
+</div>
+
+**Discussion**
+
+This is an enormous acceleration—about 11 times the acceleration due to gravity. The missile's velocity increases by 108 m/s every second during the boost phase. Such high accelerations require robust engineering to protect the missile's components and payload.
+
+The missile's average acceleration is $$ 108 \mss $$, which is equivalent to $$ 11.0g $$.
+
 </div>
 </div>
 
