@@ -31,8 +31,20 @@ If you link to this book externally, update the following URLs:
 
 #### Spelling/Typo Fixes
 - `ch5Friction.md` - "to to lubricate" → "to lubricate"
+- `ch6FictitiousForcesAndNonInertialFrames.md` - "fictious" → "fictitious" in image alt text
 - `ch17Sound.md` - Removed extra 'W' character
+- `ch20ResistanceAndResistivity.md` - "Tempature" → "Temperature" in table caption
 - `ch22MagneticForceBetweenTwoParallelConductors.md` - "form" → "from"
+
+#### Grammar Fixes
+- `ch3ProjectileMotion.md` - "is at same height" → "is at the same height"
+- `ch22MagneticFieldStrength.md` - "less then" → "less than"
+- `ch33ParticlePhysics.md` - "less then" → "less than" and "a an" → "an" in image alt text
+
+#### Punctuation Fixes
+- `ch16UniformCircularMotionAndSimpleHarmonicMotion.md` - Added missing space after period
+- `ch20Current.md` - Added missing space after period (after equation)
+- `ch34GeneralRelativityAndQuantumTheory.md` - Added missing space after period (after figure reference)
 
 #### Figure Reference Fixes
 - `ch17SoundInterferenceAndResonance.md` - Fixed `[[Figure 6]](#Figure7)` → `[[Figure 6]](#Figure6)`
@@ -51,6 +63,6 @@ If you link to this book externally, update the following URLs:
 
 ### Summary
 
-- **Total fixes:** 20 errors
+- **Total fixes:** 29 errors
 - **Files renamed:** 2
-- **Files modified:** 15
+- **Files modified:** 23

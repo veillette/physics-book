@@ -733,7 +733,7 @@ bus. (Neglect air resistance.)
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-An archer shoots an arrow at a 75.0 m distant target; the bull’s-eye of the target is at same height as the release height of the arrow.
+An archer shoots an arrow at a 75.0 m distant target; the bull's-eye of the target is at the same height as the release height of the arrow.
 (a) At what angle must the arrow be released to hit the bull’s-eye if its initial speed is 35.0 m/s? In this part of the problem, explicitly show how you follow the steps involved in solving projectile motion problems.
 (b) There is a large tree halfway between the archer and the target with an overhanging horizontal branch 3.50 m above the release height of the arrow. Will the arrow go over or under the branch?
 
