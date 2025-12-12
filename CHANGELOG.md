@@ -31,6 +31,7 @@ If you link to this book externally, update the following URLs:
 
 #### Spelling/Typo Fixes
 - `ch5Friction.md` - "to to lubricate" → "to lubricate"
+- `ch6FictitiousForcesAndNonInertialFrames.md` - "fictious" → "fictitious" in image alt text
 - `ch17Sound.md` - Removed extra 'W' character
 - `ch20ResistanceAndResistivity.md` - "Tempature" → "Temperature" in table caption
 - `ch22MagneticForceBetweenTwoParallelConductors.md` - "form" → "from"
@@ -52,6 +53,6 @@ If you link to this book externally, update the following URLs:
 
 ### Summary
 
-- **Total fixes:** 21 errors
+- **Total fixes:** 22 errors
 - **Files renamed:** 2
-- **Files modified:** 16
+- **Files modified:** 17
