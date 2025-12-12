@@ -265,7 +265,7 @@ What is the maximum force on an aluminum rod with a  $$ 0.100\text{-μC} $$
 </div>
 <div class="solution" markdown="1">
 (a)  $$ 3.01 \times 10^{-5}  \text{T} $$
-(b) This is slightly less then the magnetic field strength of  $$5 \times 10^{-5}  \text{T} $$
+(b) This is slightly less than the magnetic field strength of  $$5 \times 10^{-5}  \text{T} $$
  at the surface of the Earth, so it is consistent.
 
 </div>
