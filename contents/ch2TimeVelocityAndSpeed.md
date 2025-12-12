@@ -291,6 +291,38 @@ How are instantaneous velocity and instantaneous speed related to one another? H
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+For average speed, use distance traveled divided by time. For average velocity, use displacement divided by time.
+
+**Solution**
+
+**(a) Earth's average speed:**
+
+1. Earth's orbital radius is approximately $$ 1.5 \times 10^{11} \m $$ (distance from Earth to Sun).
+
+2. Calculate the circumference of Earth's orbit:
+<div class="equation">
+$$ C = 2\pi r = 2\pi \times 1.5 \times 10^{11} \m = 9.42 \times 10^{11} \m $$
+</div>
+
+3. Time for one orbit (1 year) in seconds:
+<div class="equation">
+$$ t = 365.25 \text{ days} \times 24 \text{ h/day} \times 3600 \text{ s/h} = 3.16 \times 10^{7} \s $$
+</div>
+
+4. Calculate average speed:
+<div class="equation">
+$$ \text{Average speed} = \frac{C}{t} = \frac{9.42 \times 10^{11} \m}{3.16 \times 10^{7} \s} = 2.98 \times 10^{4} \ms \approx 3.0 \times 10^{4} \ms $$
+</div>
+
+**(b) Average velocity over one year:**
+
+After one complete orbit, Earth returns to its starting position, so the displacement is zero:
+<div class="equation">
+$$ \overline{v} = \frac{\Delta x}{t} = \frac{0 \m}{t} = 0 \text{ m/s} $$
+</div>
+
 (a) $$ 3.0\times 10^{4} \ms $$
 
 (b) 0 m/s

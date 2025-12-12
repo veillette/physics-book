@@ -226,7 +226,38 @@ Find the following for path A in the [Figure above](#Figure5):
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 7 \m  $$
+**Strategy**
+
+For path A, identify the starting and ending positions, then calculate distance traveled, magnitude of displacement, and displacement.
+
+**Solution**
+
+From the figure, path A starts at $$ x_0 = 0 \m $$ and ends at $$ x_f = 7 \m $$. The path is a straight line with no backtracking.
+
+**(a) Distance traveled:**
+
+Since there is no backtracking, the distance traveled equals the total path length:
+<div class="equation">
+$$ \text{Distance} = 7 \m - 0 \m = 7 \m $$
+</div>
+
+**(b) Magnitude of displacement:**
+
+The magnitude of displacement is the absolute value of the change in position:
+<div class="equation">
+$$ |\Delta x| = |x_f - x_0| = |7 \m - 0 \m| = 7 \m $$
+</div>
+
+**(c) Displacement:**
+
+Displacement includes direction (sign):
+<div class="equation">
+$$ \Delta x = x_f - x_0 = 7 \m - 0 \m = +7 \m $$
+</div>
+
+The positive sign indicates motion to the right.
+
+(a) $$ 7 \m $$
 
 (b) $$ 7 \m $$
 
@@ -253,6 +284,39 @@ Find the following for path C in the [Figure above](#Figure5):
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+For path C, trace the entire path including all direction changes to find distance traveled. For displacement, only the starting and ending positions matter.
+
+**Solution**
+
+From the figure, path C:
+- Starts at $$ x_0 = 2 \m $$
+- Goes right to $$ x = 10 \m $$ (moves 8 m)
+- Turns around and goes left to $$ x = 8 \m $$ (moves 2 m)
+- Turns around and goes right to $$ x_f = 11 \m $$ (moves 3 m)
+
+**(a) Distance traveled:**
+
+Add up all the path segments regardless of direction:
+<div class="equation">
+$$ \text{Distance} = 8 \m + 2 \m + 3 \m = 13 \m $$
+</div>
+
+**(b) Magnitude of displacement:**
+
+<div class="equation">
+$$ |\Delta x| = |x_f - x_0| = |11 \m - 2 \m| = 9 \m $$
+</div>
+
+**(c) Displacement:**
+
+<div class="equation">
+$$ \Delta x = x_f - x_0 = 11 \m - 2 \m = +9 \m $$
+</div>
+
+The positive sign indicates net motion to the right.
+
 (a) 13 m
 
 (b) 9 m
