@@ -34,7 +34,7 @@ Want to contribute or run a local copy? It's easy!
 
 ```console
 # 1. Clone the repository
-git clone https://github.com/yourusername/physics-book.git
+git clone https://github.com/veillette/physics-book.git
 cd physics-book
 
 # 2. Install Ruby (if you haven't already)
