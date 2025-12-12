@@ -33,7 +33,7 @@ Want to contribute or run a local copy? It's easy!
 ### Local Development
 
 ```console
-# 1. Clone the repository
+# 1. Clone the repository (ALternatively you can fork it)
 git clone https://github.com/veillette/physics-book.git
 cd physics-book
 
