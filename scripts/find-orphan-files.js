@@ -53,17 +53,30 @@ class OrphanFileFinder {
   }
 
   async scanMarkdownFiles() {
-    console.log(chalk.gray('📄 Scanning markdown files for references...'));
-    
+    console.log(chalk.gray('📄 Scanning markdown, HTML, and JSON files for references...'));
+
     // Find all markdown files
-    const markdownFiles = await glob('**/*.md', { 
+    const markdownFiles = await glob('**/*.md', {
       cwd: this.baseDir,
       ignore: ['node_modules/**', '_site/**', '.jekyll-cache/**']
     });
 
+    // Find all HTML files (for Jekyll templates)
+    const htmlFiles = await glob('**/*.html', {
+      cwd: this.baseDir,
+      ignore: ['node_modules/**', '_site/**', '.jekyll-cache/**']
+    });
+
+    // Find all JSON files (for manifests and configs)
+    const jsonFiles = await glob('**/*.json', {
+      cwd: this.baseDir,
+      ignore: ['node_modules/**', '_site/**', '.jekyll-cache/**', 'package*.json']
+    });
+
+    const allFiles = [...markdownFiles, ...htmlFiles, ...jsonFiles];
     this.stats.totalMarkdownFiles = markdownFiles.length;
 
-    for (const filePath of markdownFiles) {
+    for (const filePath of allFiles) {
       await this.extractReferences(filePath);
     }
 
@@ -83,12 +96,37 @@ class OrphanFileFinder {
 
   extractLinksFromContent(content, sourceFile) {
     const references = new Set();
-    
+
+    // Normalize content: join lines that are split within markdown links/images
+    // This handles cases where image paths are split across multiple lines
+    // Pattern 1: ](\n becomes ](
+    // Pattern 2: ..\n/ becomes ../ (paths split mid-way like ..\n/resources/...)
+    // Pattern 3: .jpg\n" becomes .jpg " (with space before quote)
+    let normalizedContent = content
+      .replace(/\]\(\s*\n\s*/g, '](')
+      .replace(/\.\.\s*\n\s*\//g, '../')
+      .replace(/(\.(jpg|jpeg|png|gif|svg|webp|bmp|tiff|css|js|json|html))\n/gi, '$1 ')
+      .replace(/\)\s*\n\s*\{/g, ') {'); // Also handle )\n{: for Jekyll attributes
+
+    // Extract Jekyll/Liquid template references: {{'/path/to/file'| relative_url }}
+    const jekyllRegex = /\{\{\s*['"]([^'"]+)['"]\s*\|\s*relative_url\s*\}\}/g;
+    let match;
+
+    while ((match = jekyllRegex.exec(normalizedContent)) !== null) {
+      const [, url] = match;
+      if (this.isLocalFile(url)) {
+        const resolvedPath = this.resolvePath(url, sourceFile);
+        if (resolvedPath) {
+          this.referencedPaths.add(resolvedPath);
+          references.add(resolvedPath);
+        }
+      }
+    }
+
     // Extract markdown links: [text](path)
     const markdownLinkRegex = /\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
-    let match;
-    
-    while ((match = markdownLinkRegex.exec(content)) !== null) {
+
+    while ((match = markdownLinkRegex.exec(normalizedContent)) !== null) {
       const [, , url] = match;
       if (this.isLocalFile(url)) {
         const resolvedPath = this.resolvePath(url, sourceFile);
@@ -99,11 +137,13 @@ class OrphanFileFinder {
       }
     }
 
-    // Extract image references: ![alt](path)
-    const imageRegex = /!\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
-    
-    while ((match = imageRegex.exec(content)) !== null) {
-      const [, , src] = match;
+    // Extract image references: ![alt](path) or ![alt](path "title")
+    // Use a more flexible pattern that handles titles with embedded quotes/HTML and escaped brackets
+    // (?:[^\]\\]|\\.)* matches either non-bracket/non-backslash OR backslash followed by any char (handles \] and \[)
+    const imageRegex = /!\[(?:[^\]\\]|\\.)*\]\(([^)"\s]+)(?:\s+[^)]+)?\)/g;
+
+    while ((match = imageRegex.exec(normalizedContent)) !== null) {
+      const src = match[1];
       if (this.isLocalFile(src)) {
         const resolvedPath = this.resolvePath(src, sourceFile);
         if (resolvedPath) {
@@ -115,8 +155,8 @@ class OrphanFileFinder {
 
     // Extract HTML img tags: <img src="path">
     const htmlImgRegex = /<img[^>]+src=["']([^"']+)["'][^>]*>/gi;
-    
-    while ((match = htmlImgRegex.exec(content)) !== null) {
+
+    while ((match = htmlImgRegex.exec(normalizedContent)) !== null) {
       const [, src] = match;
       if (this.isLocalFile(src)) {
         const resolvedPath = this.resolvePath(src, sourceFile);
@@ -129,8 +169,8 @@ class OrphanFileFinder {
 
     // Extract CSS/JS references in HTML
     const assetRegex = /<(?:link[^>]+href=["']([^"']+)["']|script[^>]+src=["']([^"']+)["'])[^>]*>/gi;
-    
-    while ((match = assetRegex.exec(content)) !== null) {
+
+    while ((match = assetRegex.exec(normalizedContent)) !== null) {
       const url = match[1] || match[2];
       if (url && this.isLocalFile(url)) {
         const resolvedPath = this.resolvePath(url, sourceFile);
@@ -141,9 +181,36 @@ class OrphanFileFinder {
       }
     }
 
+    // Extract JSON references (for manifest.json icon paths, etc.)
+    if (sourceFile.endsWith('.json')) {
+      try {
+        const jsonData = JSON.parse(content);
+        this.extractJsonReferences(jsonData, references, sourceFile);
+      } catch (error) {
+        // Not valid JSON or parsing error, skip
+      }
+    }
+
     // Store references for this file
     if (references.size > 0) {
       this.fileReferences.set(sourceFile, Array.from(references));
+    }
+  }
+
+  extractJsonReferences(obj, references, sourceFile) {
+    if (typeof obj === 'string') {
+      // Check if the string looks like a file path
+      if (this.isLocalFile(obj) && (obj.includes('/') || obj.includes('\\'))) {
+        const resolvedPath = this.resolvePath(obj, sourceFile);
+        if (resolvedPath) {
+          this.referencedPaths.add(resolvedPath);
+          references.add(resolvedPath);
+        }
+      }
+    } else if (Array.isArray(obj)) {
+      obj.forEach(item => this.extractJsonReferences(item, references, sourceFile));
+    } else if (obj && typeof obj === 'object') {
+      Object.values(obj).forEach(value => this.extractJsonReferences(value, references, sourceFile));
     }
   }
 
@@ -159,10 +226,13 @@ class OrphanFileFinder {
         const currentDir = path.dirname(path.join(this.baseDir, sourceFile));
         const absolutePath = path.resolve(currentDir, url);
         return path.relative(this.baseDir, absolutePath);
-      } 
+      }
       // Handle absolute paths from root
       else if (url.startsWith('/')) {
-        return url.substring(1);
+        let resolved = url.substring(1);
+        // Remove common base paths like /physics-book/ (for GitHub Pages)
+        resolved = resolved.replace(/^physics-book\//, '');
+        return resolved;
       }
       // Handle paths already relative to base
       else {
