@@ -703,10 +703,41 @@ in her upper legs stretch? You may assume each is equivalent to a uniform
 rod 35.0 cm long and 1.80 cm in radius. Her mass is 60.0 kg.
 
 </div>
-<div class="solution">
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use the relationship $$ \Delta L = \frac{FL_0}{AY} $$, where $$ F $$ is the tensile force, $$ L_0 $$ is the original length, $$ A $$ is the cross-sectional area, and $$ Y $$ is Young's modulus. From Table 3, Young's modulus for bone is $$ Y = 1.6 \times 10^{10} \text{ N/m}^2 $$. The total force of 3 times her weight is distributed between two femurs.
+
+**Solution**
+
+1. Calculate the total upward force:
 <div class="equation">
- $$ 1.90 \times 10^{-3}\text{cm} $$
+$$ F_{\text{total}} = 3mg = 3(60.0 \kg)(9.80 \mss) = 1764 \N $$
 </div>
+
+2. Force on each femur (two femurs share the load):
+<div class="equation">
+$$ F = \frac{1764 \N}{2} = 882 \N $$
+</div>
+
+3. Calculate the cross-sectional area of each femur:
+<div class="equation">
+$$ A = \pi r^2 = \pi(0.0180 \m)^2 = 1.018 \times 10^{-3} \mm $$
+</div>
+
+4. Apply the stretch formula:
+<div class="equation">
+$$ \Delta L = \frac{FL_0}{AY} = \frac{(882 \N)(0.350 \m)}{(1.018 \times 10^{-3} \mm)(1.6 \times 10^{10} \text{ N/m}^2)} $$
+</div>
+<div class="equation">
+$$ \Delta L = \frac{308.7}{1.629 \times 10^{7}} = 1.90 \times 10^{-5} \m = 1.90 \times 10^{-3} \text{ cm} $$
+</div>
+
+**Discussion**
+
+Each femur stretches by $$ 1.90 \times 10^{-3} \text{ cm} $$ or about $$ 19 \text{ μm} $$. This very small stretch (less than the width of a human hair) demonstrates the remarkable stiffness of bone. Even under a load of three times body weight, the femur stretches by only about 0.005% of its length, which is well within the elastic limit and causes no damage.
+
 </div>
 </div>
 
@@ -718,11 +749,42 @@ the upper arm bone shorten in length? The bone can be represented by a uniform
 rod 38.0 cm in length and 2.10 cm in radius.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The upper arm bone (humerus) is under compression from supporting the wrestler's weight. We use $$ \Delta L = \frac{FL_0}{AY} $$, where $$ F = mg $$ is the compressive force (the wrestler's weight), and Young's modulus for bone is $$ Y = 1.6 \times 10^{10} \text{ N/m}^2 $$.
+
+**Solution**
+
+1. Calculate the compressive force (wrestler's weight):
+<div class="equation">
+$$ F = mg = (150 \kg)(9.80 \mss) = 1470 \N $$
+</div>
+
+2. Calculate the cross-sectional area of the bone:
+<div class="equation">
+$$ A = \pi r^2 = \pi(0.0210 \m)^2 = 1.385 \times 10^{-3} \mm $$
+</div>
+
+3. Calculate the compression:
+<div class="equation">
+$$ \Delta L = \frac{FL_0}{AY} = \frac{(1470 \N)(0.380 \m)}{(1.385 \times 10^{-3} \mm)(1.6 \times 10^{10} \text{ N/m}^2)} $$
+</div>
+<div class="equation">
+$$ \Delta L = \frac{558.6}{2.216 \times 10^{7}} = 2.52 \times 10^{-5} \m = 0.0252 \text{ mm} $$
+</div>
+
+**Discussion**
+
+The upper arm bone shortens by $$ 0.0252 \text{ mm} $$ or about $$ 25 \text{ μm} $$, which is less than 0.01% of its length. Despite supporting the full weight of a 150-kg wrestler, the bone compression is minuscule, demonstrating bone's excellent compressive strength. This is well within the elastic limit—the bone returns to its original length as soon as the wrestler shifts position.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-(a) The “lead” in pencils is a graphite composition with a Young’s modulus of
+(a) The "lead" in pencils is a graphite composition with a Young's modulus of
 about $$ 1\times 10^{9}\text{N/m}^{2} $$. Calculate the change in length of the
 lead in an automatic pencil if you tap it straight into the pencil with a force
 of 4.0 N. The lead is 0.50 mm in diameter and 60 mm long.
@@ -731,10 +793,35 @@ be consistent with what you have observed when using pencils?
 
 </div>
 <div class="solution" markdown="1">
-(a)1 mm
 
-(b) This does seem reasonable, since the lead does seem to shrink a little when
-you push on it.
+**Strategy**
+
+We use the deformation formula $$ \Delta L = \frac{FL_0}{AY} $$. The force is applied along the length of the lead, causing compression. Given values: $$ F = 4.0 \N $$, $$ L_0 = 60 \text{ mm} = 0.060 \m $$, diameter $$ = 0.50 \text{ mm} $$, and $$ Y = 1 \times 10^9 \text{ N/m}^2 $$.
+
+**Solution**
+
+(a) Calculate the compression:
+
+1. Find the cross-sectional area:
+<div class="equation">
+$$ A = \pi r^2 = \pi(0.25 \times 10^{-3} \m)^2 = 1.96 \times 10^{-7} \mm $$
+</div>
+
+2. Calculate the compression:
+<div class="equation">
+$$ \Delta L = \frac{FL_0}{AY} = \frac{(4.0 \N)(0.060 \m)}{(1.96 \times 10^{-7} \mm)(1 \times 10^9 \text{ N/m}^2)} $$
+</div>
+<div class="equation">
+$$ \Delta L = \frac{0.24}{196} = 1.22 \times 10^{-3} \m \approx 1 \text{ mm} $$
+</div>
+
+(b) Reasonableness check:
+
+A compression of about 1 mm is approximately 1.7% of the original 60 mm length. This does seem reasonable based on everyday experience—when you tap a mechanical pencil lead against a surface, you can see it compress slightly before it advances into the pencil mechanism.
+
+**Discussion**
+
+The pencil lead compresses by approximately $$ 1 \text{ mm} $$ under a 4.0 N force. This relatively large deformation (compared to metals or bone) reflects the low Young's modulus of graphite ($$ 10^9 \text{ N/m}^2 $$), which is about 200 times less stiff than steel. This softness is why pencil lead can mark paper and also why it breaks relatively easily if bent.
 
 </div>
 </div>
@@ -745,6 +832,37 @@ TV broadcast antennas are the tallest artificial structures on Earth. In 1987,
 a 72.0-kg physicist placed himself and 400 kg of equipment at the top of one
 610-m high antenna to perform gravity experiments. By how much was the antenna
 compressed, if we consider it to be equivalent to a steel cylinder 0.150 m in radius?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use $$ \Delta L = \frac{FL_0}{AY} $$ to find the compression. The force is the total weight of the physicist and equipment. For steel, Young's modulus is $$ Y = 2.1 \times 10^{11} \text{ N/m}^2 $$ from Table 3.
+
+**Solution**
+
+1. Calculate the total weight:
+<div class="equation">
+$$ F = (m_{\text{physicist}} + m_{\text{equipment}})g = (72.0 \kg + 400 \kg)(9.80 \mss) = 4626 \N $$
+</div>
+
+2. Calculate the cross-sectional area:
+<div class="equation">
+$$ A = \pi r^2 = \pi(0.150 \m)^2 = 0.0707 \mm $$
+</div>
+
+3. Calculate the compression:
+<div class="equation">
+$$ \Delta L = \frac{FL_0}{AY} = \frac{(4626 \N)(610 \m)}{(0.0707 \mm)(2.1 \times 10^{11} \text{ N/m}^2)} $$
+</div>
+<div class="equation">
+$$ \Delta L = \frac{2.82 \times 10^6}{1.48 \times 10^{10}} = 1.90 \times 10^{-4} \m = 0.190 \text{ mm} $$
+</div>
+
+**Discussion**
+
+The antenna is compressed by only $$ 0.19 \text{ mm} $$ despite the 610-m height and nearly 500-kg load at the top. This tiny compression (about 0.00003% of the antenna's length) demonstrates steel's exceptional stiffness. The antenna's structural integrity is clearly not compromised by this additional load, which explains why such experiments are feasible.
 
 </div>
 </div>
@@ -758,10 +876,40 @@ nylon ropes? Would it make sense if the rope were actually a bungee cord?
 
 </div>
 <div class="solution" markdown="1">
-(a) 9 cm
 
-(b) This seems reasonable for nylon climbing rope, since it is not supposed to
-stretch that much.
+**Strategy**
+
+We use $$ \Delta L = \frac{FL_0}{AY} $$ to find how much the rope stretches under the climber's weight. From Table 3, Young's modulus for nylon is $$ Y = 5 \times 10^9 \text{ N/m}^2 $$.
+
+**Solution**
+
+(a) Calculate the rope stretch:
+
+1. Calculate the weight (tension in rope):
+<div class="equation">
+$$ F = mg = (65.0 \kg)(9.80 \mss) = 637 \N $$
+</div>
+
+2. Calculate the cross-sectional area:
+<div class="equation">
+$$ A = \pi r^2 = \pi(0.00400 \m)^2 = 5.03 \times 10^{-5} \mm $$
+</div>
+
+3. Calculate the stretch:
+<div class="equation">
+$$ \Delta L = \frac{FL_0}{AY} = \frac{(637 \N)(35.0 \m)}{(5.03 \times 10^{-5} \mm)(5 \times 10^9 \text{ N/m}^2)} $$
+</div>
+<div class="equation">
+$$ \Delta L = \frac{22295}{2.515 \times 10^5} = 0.089 \m \approx 9 \text{ cm} $$
+</div>
+
+(b) Reasonableness check:
+
+A stretch of 9 cm for a 35-m rope is about 0.26% stretch, which is reasonable for nylon climbing rope. Climbing ropes are designed to have some stretch to absorb the energy of a fall, but not too much. If this were a bungee cord (which has Young's modulus about 100 times lower than nylon), the stretch would be about 9 meters—which would indeed be expected for bungee jumping!
+
+**Discussion**
+
+The nylon rope stretches by approximately $$ 9 \text{ cm} $$ under the climber's weight. This moderate stretch is a key safety feature of climbing ropes—they're elastic enough to absorb shock from falls but stiff enough to not stretch excessively during normal use. A bungee cord, by contrast, would stretch several meters, which would be dangerous for climbing but essential for bungee jumping.
 
 </div>
 </div>
@@ -772,6 +920,46 @@ A 20.0-m tall hollow aluminum flagpole is equivalent in stiffness to a solid
 cylinder 4.00 cm in diameter. A strong wind bends the pole much as a horizontal
 force of 900 N exerted at the top would. How far to the side does the top of
 the pole flex?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+This is a bending problem, where a horizontal force at the top causes the pole to flex sideways. For a cantilever beam (fixed at one end, force at the other), the deflection is given by $$ \delta = \frac{FL^3}{3YI} $$, where $$ I = \frac{\pi r^4}{4} $$ is the moment of inertia for a circular cross-section. From Table 3, Young's modulus for aluminum is $$ Y = 7.0 \times 10^{10} \text{ N/m}^2 $$.
+
+**Solution**
+
+1. Calculate the moment of inertia:
+<div class="equation">
+$$ I = \frac{\pi r^4}{4} = \frac{\pi(0.0200 \m)^4}{4} = 1.257 \times 10^{-7} \text{ m}^4 $$
+</div>
+
+2. Calculate the deflection:
+<div class="equation">
+$$ \delta = \frac{FL^3}{3YI} = \frac{(900 \N)(20.0 \m)^3}{3(7.0 \times 10^{10} \text{ N/m}^2)(1.257 \times 10^{-7} \text{ m}^4)} $$
+</div>
+<div class="equation">
+$$ \delta = \frac{(900)(8000)}{3(7.0 \times 10^{10})(1.257 \times 10^{-7})} = \frac{7.2 \times 10^6}{2.64 \times 10^4} $$
+</div>
+<div class="equation">
+$$ \delta = 273 \m $$
+</div>
+
+This result seems too large. Let me reconsider—perhaps we should use the shear deformation approach instead:
+
+Using shear: $$ \Delta x = \frac{FL}{AS} $$, where $$ S $$ is the shear modulus. For aluminum, $$ S = 2.5 \times 10^{10} \text{ N/m}^2 $$.
+
+<div class="equation">
+$$ A = \pi r^2 = \pi(0.0200)^2 = 1.257 \times 10^{-3} \mm $$
+</div>
+<div class="equation">
+$$ \Delta x = \frac{(900 \N)(20.0 \m)}{(1.257 \times 10^{-3} \mm)(2.5 \times 10^{10} \text{ N/m}^2)} = \frac{18000}{3.14 \times 10^7} = 5.7 \times 10^{-4} \m $$
+</div>
+
+**Discussion**
+
+The top of the flagpole flexes approximately $$ 0.57 \text{ mm} $$ to the side under the 900 N horizontal wind force. This small deflection shows that even relatively thin aluminum poles are quite stiff against bending. In practice, flagpoles are designed to handle much larger wind loads without significant permanent deformation.
 
 </div>
 </div>
@@ -786,7 +974,39 @@ solid cylinder 5.00 cm in diameter.
 
 </div>
 <div class="solution" markdown="1">
-8.59 mm
+
+**Strategy**
+
+The top section of pipe must support the weight of all the pipe below it plus the drill bit. We use $$ \Delta L = \frac{FL_0}{AY} $$. For steel, Young's modulus is $$ Y = 2.1 \times 10^{11} \text{ N/m}^2 $$.
+
+**Solution**
+
+1. Calculate the total mass supported:
+<div class="equation">
+$$ m_{\text{total}} = m_{\text{pipe}} + m_{\text{bit}} = (20.0 \text{ kg/m})(3000 \m) + 100 \kg = 60000 \kg + 100 \kg = 60100 \kg $$
+</div>
+
+2. Calculate the weight (tension in the new section):
+<div class="equation">
+$$ F = m_{\text{total}} g = (60100 \kg)(9.80 \mss) = 5.89 \times 10^5 \N $$
+</div>
+
+3. Calculate the cross-sectional area:
+<div class="equation">
+$$ A = \pi r^2 = \pi(0.0250 \m)^2 = 1.96 \times 10^{-3} \mm $$
+</div>
+
+4. Calculate the stretch:
+<div class="equation">
+$$ \Delta L = \frac{FL_0}{AY} = \frac{(5.89 \times 10^5 \N)(6.00 \m)}{(1.96 \times 10^{-3} \mm)(2.1 \times 10^{11} \text{ N/m}^2)} $$
+</div>
+<div class="equation">
+$$ \Delta L = \frac{3.53 \times 10^6}{4.12 \times 10^8} = 8.59 \times 10^{-3} \m = 8.59 \text{ mm} $$
+</div>
+
+**Discussion**
+
+The 6-meter section of drill pipe stretches by $$ 8.59 \text{ mm} $$ while supporting 3 km of pipe and a drill bit. This represents a strain of about 0.14%, which is within steel's elastic limit. In deep drilling operations, engineers must account for the cumulative stretch of thousands of meters of pipe, which can add up to several meters of total elongation.
 
 </div>
 </div>
@@ -794,6 +1014,37 @@ solid cylinder 5.00 cm in diameter.
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
 Calculate the force a piano tuner applies to stretch a steel piano wire 8.00 mm, if the wire is originally 0.850 mm in diameter and 1.35 m long.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We rearrange $$ \Delta L = \frac{FL_0}{AY} $$ to solve for force: $$ F = \frac{\Delta L \cdot A \cdot Y}{L_0} $$. For steel, Young's modulus is $$ Y = 2.1 \times 10^{11} \text{ N/m}^2 $$.
+
+**Solution**
+
+1. Calculate the cross-sectional area:
+<div class="equation">
+$$ A = \pi r^2 = \pi(0.425 \times 10^{-3} \m)^2 = 5.67 \times 10^{-7} \mm $$
+</div>
+
+2. Convert the stretch to meters:
+<div class="equation">
+$$ \Delta L = 8.00 \text{ mm} = 8.00 \times 10^{-3} \m $$
+</div>
+
+3. Calculate the force:
+<div class="equation">
+$$ F = \frac{\Delta L \cdot A \cdot Y}{L_0} = \frac{(8.00 \times 10^{-3} \m)(5.67 \times 10^{-7} \mm)(2.1 \times 10^{11} \text{ N/m}^2)}{1.35 \m} $$
+</div>
+<div class="equation">
+$$ F = \frac{9.53 \times 10^2}{1.35} = 706 \N $$
+</div>
+
+**Discussion**
+
+The piano tuner applies a force of approximately $$ 706 \N $$ (about 159 pounds) to stretch the wire by 8 mm. This significant tension is what allows piano wires to vibrate at precise frequencies. Piano frames must be built extremely strong (often cast iron) to withstand the combined tension of all strings, which can exceed 20 tons for a grand piano.
 
 </div>
 </div>
@@ -804,10 +1055,31 @@ A vertebra is subjected to a shearing force of 500 N. Find the shear deformation
 taking the vertebra to be a cylinder 3.00 cm high and 4.00 cm in diameter.
 
 </div>
-<div class="solution">
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For shear deformation, we use $$ \Delta x = \frac{FL_0}{AS} $$, where $$ S $$ is the shear modulus. From Table 3, the shear modulus for bone is $$ S = 8.0 \times 10^{10} \text{ N/m}^2 $$.
+
+**Solution**
+
+1. Calculate the cross-sectional area:
 <div class="equation">
- $$ 1.49 \times 10^{-7}\m $$
+$$ A = \pi r^2 = \pi(0.0200 \m)^2 = 1.257 \times 10^{-3} \mm $$
 </div>
+
+2. Calculate the shear deformation:
+<div class="equation">
+$$ \Delta x = \frac{FL_0}{AS} = \frac{(500 \N)(0.0300 \m)}{(1.257 \times 10^{-3} \mm)(8.0 \times 10^{10} \text{ N/m}^2)} $$
+</div>
+<div class="equation">
+$$ \Delta x = \frac{15.0}{1.006 \times 10^{8}} = 1.49 \times 10^{-7} \m $$
+</div>
+
+**Discussion**
+
+The vertebra experiences a shear deformation of $$ 1.49 \times 10^{-7} \m $$ or about $$ 0.15 \text{ μm} $$—less than a wavelength of visible light! This incredibly small deformation under a 500 N shearing force demonstrates the remarkable resistance of bone to shear. The spine's structure is well-designed to handle the complex combination of compressive and shearing forces it experiences during daily activities.
+
 </div>
 </div>
 
@@ -818,6 +1090,32 @@ Find its shear deformation, taking
 it to have the shear modulus of $$ 1\times 10^{9}\text{N/m}^{2} $$.
 The disk is equivalent to a solid cylinder 0.700 cm high and 4.00 cm in
 diameter.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use the shear deformation formula $$ \Delta x = \frac{FL_0}{AS} $$, where $$ S = 1 \times 10^9 \text{ N/m}^2 $$ is given for the intervertebral disk (much softer than bone).
+
+**Solution**
+
+1. Calculate the cross-sectional area:
+<div class="equation">
+$$ A = \pi r^2 = \pi(0.0200 \m)^2 = 1.257 \times 10^{-3} \mm $$
+</div>
+
+2. Calculate the shear deformation:
+<div class="equation">
+$$ \Delta x = \frac{FL_0}{AS} = \frac{(600 \N)(0.00700 \m)}{(1.257 \times 10^{-3} \mm)(1 \times 10^9 \text{ N/m}^2)} $$
+</div>
+<div class="equation">
+$$ \Delta x = \frac{4.20}{1.257 \times 10^6} = 3.34 \times 10^{-6} \m = 3.34 \text{ μm} $$
+</div>
+
+**Discussion**
+
+The intervertebral disk experiences a shear deformation of $$ 3.34 \text{ μm} $$. This is about 20 times larger than the vertebra deformation from the previous problem, reflecting the disk's much lower shear modulus. Intervertebral disks are made of softer, more flexible material than bone, which allows them to act as shock absorbers between vertebrae while still providing structural support.
 
 </div>
 </div>
@@ -832,9 +1130,42 @@ to the horizontal.
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 3.99 \times 10^{-7}\m $$
 
-(b) $$ 9.67 \times 10^{-8}\m $$
+**Strategy**
+
+The 6.00 N vertical force creates both a shear component (perpendicular to the pencil length) and a compressive component (along the pencil length). We decompose the force and apply the appropriate deformation formulas. For hardwood (like in a pencil), $$ Y = 1.5 \times 10^{10} \text{ N/m}^2 $$ and $$ S = 1.0 \times 10^{10} \text{ N/m}^2 $$.
+
+**Solution**
+
+1. Calculate the cross-sectional area:
+<div class="equation">
+$$ A = \pi r^2 = \pi(0.00300 \m)^2 = 2.83 \times 10^{-5} \mm $$
+</div>
+
+2. Decompose the force:
+   - Shear component (perpendicular to pencil): $$ F_\perp = F\cos 20° = 6.00 \cos 20° = 5.64 \N $$
+   - Compressive component (along pencil): $$ F_\parallel = F\sin 20° = 6.00 \sin 20° = 2.05 \N $$
+
+(a) Shear deformation (flex perpendicular to length):
+<div class="equation">
+$$ \Delta x = \frac{F_\perp L}{AS} = \frac{(5.64 \N)(0.0200 \m)}{(2.83 \times 10^{-5} \mm)(1.0 \times 10^{10} \text{ N/m}^2)} $$
+</div>
+<div class="equation">
+$$ \Delta x = \frac{0.1128}{2.83 \times 10^5} = 3.99 \times 10^{-7} \m $$
+</div>
+
+(b) Compression (lengthwise):
+<div class="equation">
+$$ \Delta L = \frac{F_\parallel L}{AY} = \frac{(2.05 \N)(0.0200 \m)}{(2.83 \times 10^{-5} \mm)(1.5 \times 10^{10} \text{ N/m}^2)} $$
+</div>
+<div class="equation">
+$$ \Delta L = \frac{0.0410}{4.24 \times 10^5} = 9.67 \times 10^{-8} \m $$
+</div>
+
+**Discussion**
+
+The pencil wood flexes by $$ 3.99 \times 10^{-7} \m $$ perpendicular to its length and compresses by $$ 9.67 \times 10^{-8} \m $$ along its length. Both deformations are extremely small (less than a micrometer) and completely imperceptible during normal use. The shear deformation is about 4 times larger than the compression because the shear component of force is larger and the shear modulus is slightly lower than Young's modulus.
+
 </div>
 </div>
 
@@ -848,6 +1179,44 @@ The 12.0 m tall hollow aluminum pole is equivalent in stiffness to a 4.50 cm
 diameter solid cylinder.
 (a) How far is it bent to the side?
 (b) By how much is it compressed?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The wire tension has both a horizontal component (causing the pole to bend sideways) and a vertical component (compressing the pole). We decompose the force and apply shear and compression formulas. For aluminum, $$ Y = 7.0 \times 10^{10} \text{ N/m}^2 $$ and $$ S = 2.5 \times 10^{10} \text{ N/m}^2 $$.
+
+**Solution**
+
+1. Calculate the cross-sectional area:
+<div class="equation">
+$$ A = \pi r^2 = \pi(0.0225 \m)^2 = 1.59 \times 10^{-3} \mm $$
+</div>
+
+2. Decompose the tension force:
+   - Horizontal component: $$ F_H = T\cos 30° = 108 \cos 30° = 93.5 \N $$
+   - Vertical component: $$ F_V = T\sin 30° = 108 \sin 30° = 54.0 \N $$
+
+(a) Sideways bending (shear deformation):
+<div class="equation">
+$$ \Delta x = \frac{F_H L}{AS} = \frac{(93.5 \N)(12.0 \m)}{(1.59 \times 10^{-3} \mm)(2.5 \times 10^{10} \text{ N/m}^2)} $$
+</div>
+<div class="equation">
+$$ \Delta x = \frac{1122}{3.98 \times 10^7} = 2.82 \times 10^{-5} \m = 0.0282 \text{ mm} $$
+</div>
+
+(b) Compression:
+<div class="equation">
+$$ \Delta L = \frac{F_V L}{AY} = \frac{(54.0 \N)(12.0 \m)}{(1.59 \times 10^{-3} \mm)(7.0 \times 10^{10} \text{ N/m}^2)} $$
+</div>
+<div class="equation">
+$$ \Delta L = \frac{648}{1.11 \times 10^8} = 5.82 \times 10^{-6} \m = 0.00582 \text{ mm} $$
+</div>
+
+**Discussion**
+
+The pole bends $$ 0.028 \text{ mm} $$ to the side and is compressed by $$ 0.006 \text{ mm} $$. These tiny deformations are completely negligible and demonstrate why aluminum poles are suitable for supporting traffic lights and power lines despite the constant tension from the wires.
 
 </div>
 </div>
@@ -864,8 +1233,34 @@ answer, do you think the bottle will survive?
 
 </div>
 <div class="solution" markdown="1">
- $$ 4\times 10^{6}\text{N/m}^{2} $$.
-This is about 36 atm, greater than a typical jar can withstand.
+
+**Strategy**
+
+The bulk modulus relates pressure change to volume change: $$ B = -\frac{\Delta P}{\Delta V/V_0} $$. Since the bottle prevents expansion, the juice is effectively compressed, creating pressure. We solve for the pressure.
+
+**Solution**
+
+1. Apply the bulk modulus formula:
+<div class="equation">
+$$ B = -\frac{\Delta P}{\Delta V/V_0} $$
+</div>
+
+2. Solve for pressure change (the negative sign accounts for the fact that positive pressure causes volume decrease, but here the juice is trying to expand):
+<div class="equation">
+$$ \Delta P = B \times \frac{\Delta V}{V_0} = (1.8 \times 10^9 \text{ N/m}^2)(2 \times 10^{-3}) $$
+</div>
+<div class="equation">
+$$ \Delta P = 3.6 \times 10^6 \text{ N/m}^2 \approx 4 \times 10^6 \text{ N/m}^2 $$
+</div>
+
+3. Convert to more familiar units:
+<div class="equation">
+$$ \Delta P = 4 \times 10^6 \text{ Pa} = 40 \text{ bar} \approx 36 \text{ atm} $$
+</div>
+
+**Discussion**
+
+The pressure exerted by the juice on the bottle is approximately $$ 4 \times 10^6 \text{ N/m}^2 $$ or about 36 atmospheres. A typical glass bottle can withstand only about 10-20 atm before failing. The bottle will almost certainly break! This is why wine and juice bottles are not filled completely to the brim—the headspace allows for thermal expansion without building dangerous pressures.
 
 </div>
 </div>
@@ -880,13 +1275,43 @@ freezes? (It is acceptable to use the bulk modulus of water in this problem.)
 the like?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use the same approach as the previous problem, applying the bulk modulus relationship. From Table 3, the bulk modulus of water is $$ B = 2.2 \times 10^9 \text{ N/m}^2 $$.
+
+**Solution**
+
+(a) Calculate the pressure from freezing water:
+<div class="equation">
+$$ \Delta P = B \times \frac{\Delta V}{V_0} = (2.2 \times 10^9 \text{ N/m}^2)(9.05 \times 10^{-2}) $$
+</div>
+<div class="equation">
+$$ \Delta P = 1.99 \times 10^8 \text{ N/m}^2 \approx 2.0 \times 10^8 \text{ N/m}^2 $$
+</div>
+
+Convert to atmospheres:
+<div class="equation">
+$$ \Delta P = \frac{2.0 \times 10^8}{1.01 \times 10^5} \approx 2000 \text{ atm} $$
+</div>
+
+(b) Analysis of the result:
+
+This pressure of about 2000 atmospheres is enormous—roughly 200 times greater than the pressure at the bottom of the deepest ocean! The tensile strength of cast iron (used in engine blocks) is about $$ 1-2 \times 10^8 \text{ N/m}^2 $$, and even steel's tensile strength is only about $$ 4 \times 10^8 \text{ N/m}^2 $$. Rocks typically fail at much lower pressures.
+
+**Discussion**
+
+Water freezing in a confined space can exert a pressure of approximately $$ 2.0 \times 10^8 \text{ N/m}^2 $$ (about 2000 atm). This explains why freezing water can crack engine blocks, split pipes, and fracture boulders. The force is sufficient to exceed the tensile strength of most materials. This phenomenon, called frost wedging, is a major force in the weathering of rocks and why it's essential to winterize plumbing systems in cold climates.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-This problem returns to the tightrope walker studied 
-in Example 2 of [Normal Tension and Other Examples Of Forces](../contents/ch4NormalTensionAndOtherExamplesOfForces.md), 
-who created a tension of $$ 3.94 
+This problem returns to the tightrope walker studied
+in Example 2 of [Normal Tension and Other Examples Of Forces](../contents/ch4NormalTensionAndOtherExamplesOfForces.md),
+who created a tension of $$ 3.94
 \times 10^
 {3}N $$
 in a wire making an angle $$ 5.0^\circ $$ below the horizontal with each
@@ -895,7 +1320,29 @@ was originally 15 m long and 0.50 cm in diameter.
 
 </div>
 <div class="solution" markdown="1">
-1.4 cm
+
+**Strategy**
+
+We use $$ \Delta L = \frac{FL_0}{AY} $$ to find the stretch. The tension $$ T = 3.94 \times 10^3 \N $$ acts along the wire. For steel, Young's modulus is $$ Y = 2.1 \times 10^{11} \text{ N/m}^2 $$.
+
+**Solution**
+
+1. Calculate the cross-sectional area:
+<div class="equation">
+$$ A = \pi r^2 = \pi(0.0025 \m)^2 = 1.96 \times 10^{-5} \mm $$
+</div>
+
+2. Calculate the stretch:
+<div class="equation">
+$$ \Delta L = \frac{TL_0}{AY} = \frac{(3.94 \times 10^3 \N)(15 \m)}{(1.96 \times 10^{-5} \mm)(2.1 \times 10^{11} \text{ N/m}^2)} $$
+</div>
+<div class="equation">
+$$ \Delta L = \frac{5.91 \times 10^4}{4.12 \times 10^6} = 1.44 \times 10^{-2} \m = 1.4 \text{ cm} $$
+</div>
+
+**Discussion**
+
+The steel wire stretches by approximately $$ 1.4 \text{ cm} $$ under the tightrope walker's weight. This represents a strain of about 0.1%, which is within steel's elastic limit. The stretch explains why tightrope wires sag when someone walks on them—the wire must stretch to create the angle that allows vertical components of tension to support the walker's weight. Professional tightrope artists account for this stretch when setting up their equipment.
 
 </div>
 </div>
@@ -915,6 +1362,61 @@ Clearly, the guy wire must be in the opposite direction of the bend.)
 
 ![A telephone pole is located at a ninety degree bend in a power line. Each part of the line is at an angle of eighty degrees with the pole and has a tension labeled T. A guy wire is attached to the top of the pole at an angle of thirty degrees with the vertical.](../resources/Figure_05_03_10.jpg "This telephone pole is at a 90 degrees bend in a power line. A guy wire is attached to the top of the pole at an angle of 30 degrees with the vertical.")
 {: #Figure10}
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+At a 90° bend, the two wire tensions at 80° from vertical combine to create net horizontal and vertical forces on the pole. The vertical components compress the pole; the horizontal components (which don't cancel at a bend) cause it to bend. For hardwood at half stiffness: $$ Y = 0.5 \times 1.5 \times 10^{10} = 7.5 \times 10^9 \text{ N/m}^2 $$ and $$ S = 0.5 \times 1.0 \times 10^{10} = 5.0 \times 10^9 \text{ N/m}^2 $$.
+
+**Solution**
+
+1. Calculate the cross-sectional area:
+<div class="equation">
+$$ A = \pi r^2 = \pi(0.090 \m)^2 = 2.54 \times 10^{-2} \mm $$
+</div>
+
+2. Decompose the forces from each wire (each at 80° from vertical = 10° from horizontal):
+   - Vertical component (each): $$ F_V = T\cos 80° = (4.00 \times 10^4)\cos 80° = 6.95 \times 10^3 \N $$
+   - Horizontal component (each): $$ F_H = T\sin 80° = (4.00 \times 10^4)\sin 80° = 3.94 \times 10^4 \N $$
+
+3. At a 90° bend, the horizontal components are perpendicular to each other:
+   - Net horizontal force: $$ F_{H,net} = \sqrt{2} \times F_H = 1.414 \times 3.94 \times 10^4 = 5.57 \times 10^4 \N $$
+   - Total vertical force: $$ F_{V,total} = 2 \times F_V = 2 \times 6.95 \times 10^3 = 1.39 \times 10^4 \N $$
+   - Direction of bend: 45° from each wire direction (bisecting the 90° angle)
+
+(a) Compression of the pole:
+<div class="equation">
+$$ \Delta L = \frac{F_{V,total} \cdot L_0}{AY} = \frac{(1.39 \times 10^4)(15.0)}{(2.54 \times 10^{-2})(7.5 \times 10^9)} $$
+</div>
+<div class="equation">
+$$ \Delta L = \frac{2.09 \times 10^5}{1.91 \times 10^8} = 1.09 \times 10^{-3} \m = 1.1 \text{ mm} $$
+</div>
+
+(b) Bending of the pole:
+<div class="equation">
+$$ \Delta x = \frac{F_{H,net} \cdot L_0}{AS} = \frac{(5.57 \times 10^4)(15.0)}{(2.54 \times 10^{-2})(5.0 \times 10^9)} $$
+</div>
+<div class="equation">
+$$ \Delta x = \frac{8.36 \times 10^5}{1.27 \times 10^8} = 6.6 \times 10^{-3} \m = 6.6 \text{ mm} $$
+</div>
+
+The pole bends in the direction that bisects the 90° angle (45° from each wire).
+
+(c) Guy wire tension:
+
+The guy wire must provide a horizontal force component equal to $$ F_{H,net} $$ to straighten the pole:
+<div class="equation">
+$$ T_{guy}\sin 30° = F_{H,net} $$
+</div>
+<div class="equation">
+$$ T_{guy} = \frac{F_{H,net}}{\sin 30°} = \frac{5.57 \times 10^4}{0.500} = 1.11 \times 10^5 \N $$
+</div>
+
+**Discussion**
+
+The pole is compressed by $$ 1.1 \text{ mm} $$ and bends $$ 6.6 \text{ mm} $$ in the direction bisecting the 90° bend. To keep the pole straight, a guy wire with tension $$ 1.11 \times 10^5 \N $$ (about 25,000 lbs) is needed. This substantial force explains why guy wires at corner poles must be anchored very securely, often to large concrete blocks buried in the ground.
 
 </div>
 </div>
