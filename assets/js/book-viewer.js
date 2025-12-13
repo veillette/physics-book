@@ -257,11 +257,18 @@ function parser() {
             }
         });
 
-        if (typeof MathJax.startup !== "undefined" && MathJax.startup !== null) {
-            MathJax.startup.promise = MathJax.startup.promise
-                .then(() => MathJax.typesetPromise([els]))
-                .catch((err) => console.log('Typeset failed: ' + err.message));
-        }
+        // Wait for MathJax to be ready, then typeset the content
+        const typesetMath = () => {
+            if (typeof MathJax !== "undefined" && MathJax.startup && MathJax.startup.promise) {
+                MathJax.startup.promise = MathJax.startup.promise
+                    .then(() => MathJax.typesetPromise([els]))
+                    .catch((err) => console.log('Typeset failed: ' + err.message));
+            } else {
+                // MathJax not loaded yet, wait and retry
+                setTimeout(typesetMath, 100);
+            }
+        };
+        typesetMath();
     };
 
     /**
