@@ -373,8 +373,47 @@ descriptive, or do they contain causal information?
 A geosynchronous Earth satellite is one that has an orbital period of precisely
 1 day. Such orbits are useful for communication and weather observation because
 the satellite remains above the same point on Earth (provided it orbits in the
-equatorial plane in the same direction as Earth’s rotation). Calculate the radius
+equatorial plane in the same direction as Earth's rotation). Calculate the radius
 of such an orbit based on the data for the moon in [Table 1](#Table1).
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We'll use Kepler's third law: $$ \frac{T_1^2}{T_2^2} = \frac{r_1^3}{r_2^3} $$. We'll use the Moon's data as reference (subscript 1) and solve for the geosynchronous satellite's orbital radius (subscript 2).
+
+**Solution**
+
+From Table 1, the Moon has:
+- Orbital radius: $$ r_1 = 3.84 \times 10^5 $$ km
+- Orbital period: $$ T_1 = 27.3 $$ days
+
+For the geosynchronous satellite:
+- Orbital period: $$ T_2 = 1.00 $$ day
+- Orbital radius: $$ r_2 = ? $$
+
+Using Kepler's third law and solving for $$ r_2 $$:
+
+<div class="equation">
+$$ \frac{T_1^2}{T_2^2} = \frac{r_1^3}{r_2^3} $$
+</div>
+
+<div class="equation">
+$$ r_2^3 = r_1^3 \left(\frac{T_2}{T_1}\right)^2 $$
+</div>
+
+<div class="equation">
+$$ r_2 = r_1 \left(\frac{T_2}{T_1}\right)^{2/3} = (3.84 \times 10^5\text{ km})\left(\frac{1.00}{27.3}\right)^{2/3} $$
+</div>
+
+<div class="equation">
+$$ r_2 = (3.84 \times 10^5)\left(0.0366\right)^{2/3} = (3.84 \times 10^5)(0.110) = 4.23 \times 10^4\text{ km} $$
+</div>
+
+**Discussion**
+
+The orbital radius of a geosynchronous satellite is approximately $$ 4.23 \times 10^4 $$ km or 42,300 km from Earth's center. This corresponds to an altitude of about 35,900 km above Earth's surface (subtracting Earth's radius of 6,400 km). At this altitude and with a 24-hour orbital period, the satellite remains fixed above the same point on Earth's equator, making it ideal for communications and weather monitoring.
 
 </div>
 </div>
@@ -396,6 +435,41 @@ the value obtained with the Sun’s actual mass.
 Find the mass of Jupiter based on data for the orbit of one of its moons, and compare your result with its actual mass.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We'll use the relationship $$ \frac{r^3}{T^2} = \frac{GM}{4\pi^2} $$ derived from Kepler's third law to find Jupiter's mass $$ M $$. We can use data for any of Jupiter's moons from Table 1. Let's use Io's data.
+
+**Solution**
+
+From Table 1, Io has:
+- Orbital radius: $$ r = 4.22 \times 10^5 $$ km $$ = 4.22 \times 10^8 $$ m
+- Orbital period: $$ T = 0.00485 $$ years
+
+Convert the period to seconds:
+
+<div class="equation">
+$$ T = 0.00485\text{ y} \times \frac{365.25\text{ d}}{1\text{ y}} \times \frac{24\text{ h}}{1\text{ d}} \times \frac{3600\text{ s}}{1\text{ h}} = 1.53 \times 10^5\text{ s} $$
+</div>
+
+Solve for Jupiter's mass using $$ M = \frac{4\pi^2 r^3}{GT^2} $$:
+
+<div class="equation">
+$$ M = \frac{4\pi^2 r^3}{GT^2} = \frac{4\pi^2 (4.22 \times 10^8)^3}{(6.67 \times 10^{-11})(1.53 \times 10^5)^2} $$
+</div>
+
+<div class="equation">
+$$ M = \frac{4\pi^2 (7.51 \times 10^{25})}{(6.67 \times 10^{-11})(2.34 \times 10^{10})} = \frac{2.97 \times 10^{27}}{1.56 \times 10^{0}} = 1.90 \times 10^{27}\text{ kg} $$
+</div>
+
+The actual mass of Jupiter is $$ 1.90 \times 10^{27} $$ kg.
+
+**Discussion**
+
+The calculated mass of Jupiter based on Io's orbital data is $$ 1.90 \times 10^{27} $$ kg, which matches Jupiter's actual mass perfectly (to three significant figures). This demonstrates the power of Kepler's laws and Newton's law of gravitation - we can determine the mass of a distant planet simply by observing the motion of its satellites. This same technique has been used to find the masses of all planets with moons, as well as stars with orbiting planets.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -412,14 +486,60 @@ Find the ratio of the mass of Jupiter to that of Earth based on data in [Table 1
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Astronomical observations of our Milky Way galaxy indicate that it has a mass of about $$ 8.0\times 10^{11} $$
-solar masses. A star orbiting on the galaxy’s periphery is about $$ 6.0\times
+solar masses. A star orbiting on the galaxy's periphery is about $$ 6.0\times
 10^{4} $$ light years from its center.
 (a) What should the orbital period of
 that star be?
 (b) If its period is $$ 6.0\times 10^{7} $$ years instead, what is
 the mass of the galaxy? Such calculations are used to imply the existence of
-“dark matter” in the universe and have indicated, for example, the existence of
+"dark matter" in the universe and have indicated, for example, the existence of
 very massive black holes at the centers of some galaxies.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) We'll use $$ T^2 = \frac{4\pi^2}{GM}r^3 $$ to find the orbital period. We need to convert units: 1 solar mass $$ = 1.99 \times 10^{30} $$ kg, and 1 light year $$ = 9.46 \times 10^{15} $$ m.
+(b) We'll use the same equation solved for mass: $$ M = \frac{4\pi^2 r^3}{GT^2} $$.
+
+**Solution**
+
+(a) Convert the given values to SI units:
+- Galaxy mass: $$ M = 8.0 \times 10^{11} \times 1.99 \times 10^{30} = 1.59 \times 10^{42} $$ kg
+- Orbital radius: $$ r = 6.0 \times 10^4 \times 9.46 \times 10^{15} = 5.68 \times 10^{20} $$ m
+
+Calculate the orbital period:
+
+<div class="equation">
+$$ T^2 = \frac{4\pi^2 r^3}{GM} = \frac{4\pi^2 (5.68 \times 10^{20})^3}{(6.67 \times 10^{-11})(1.59 \times 10^{42})} $$
+</div>
+
+<div class="equation">
+$$ T^2 = \frac{7.25 \times 10^{63}}{1.06 \times 10^{32}} = 6.84 \times 10^{31}\text{ s}^2 $$
+</div>
+
+<div class="equation">
+$$ T = 2.62 \times 10^{15}\text{ s} = 2.62 \times 10^{15}\text{ s} \times \frac{1\text{ y}}{3.156 \times 10^7\text{ s}} = 8.3 \times 10^{7}\text{ years} $$
+</div>
+
+(b) If the actual period is $$ 6.0 \times 10^7 $$ years, calculate the implied mass:
+
+Convert period to seconds: $$ T = 6.0 \times 10^7 \times 3.156 \times 10^7 = 1.89 \times 10^{15} $$ s
+
+<div class="equation">
+$$ M = \frac{4\pi^2 r^3}{GT^2} = \frac{4\pi^2 (5.68 \times 10^{20})^3}{(6.67 \times 10^{-11})(1.89 \times 10^{15})^2} $$
+</div>
+
+<div class="equation">
+$$ M = \frac{7.25 \times 10^{63}}{2.38 \times 10^{31}} = 3.05 \times 10^{42}\text{ kg} $$
+</div>
+
+Convert to solar masses: $$ M = \frac{3.05 \times 10^{42}}{1.99 \times 10^{30}} = 1.5 \times 10^{12} $$ solar masses
+
+**Discussion**
+
+(a) Based on the observed mass of $$ 8.0 \times 10^{11} $$ solar masses, the star should have an orbital period of about $$ 8.3 \times 10^7 $$ years. (b) However, if the actual observed period is $$ 6.0 \times 10^7 $$ years (faster than expected), this implies the galaxy has a mass of about $$ 1.5 \times 10^{12} $$ solar masses - nearly twice the visible mass. This discrepancy is evidence for "dark matter" - matter that doesn't emit light but exerts gravitational force. Such calculations have revolutionized our understanding of galactic structure and the composition of the universe.
 
 </div>
 </div>

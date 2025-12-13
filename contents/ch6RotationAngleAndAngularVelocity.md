@@ -279,6 +279,31 @@ Semi-trailer trucks have an odometer on one hub of a trailer wheel. The hub is w
 Microwave ovens rotate at a rate of about 6 rev/min. What is this in revolutions per second? What is the angular velocity in radians per second?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We need to convert from revolutions per minute to revolutions per second, and then to radians per second. We'll use the conversion factors: 1 minute = 60 seconds and 1 revolution = $$ 2\pi $$ radians.
+
+**Solution**
+
+First, convert revolutions per minute to revolutions per second:
+
+<div class="equation">
+$$ 6\frac{\text{rev}}{\text{min}} \times \frac{1\text{ min}}{60\text{ s}} = 0.10\text{ rev/s} $$
+</div>
+
+Next, convert revolutions per second to radians per second:
+
+<div class="equation">
+$$ 0.10\frac{\text{rev}}{\text{s}} \times \frac{2\pi\text{ rad}}{1\text{ rev}} = 0.628\text{ rad/s} $$
+</div>
+
+**Discussion**
+
+The microwave oven turntable rotates at 0.10 revolutions per second, which corresponds to an angular velocity of 0.628 rad/s or approximately 0.63 rad/s.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -296,7 +321,40 @@ An automobile with 0.260 m radius tires travels 80 000 km before wearing them ou
 <div class="problem" markdown="1">
 (a) What is the period of rotation of Earth in seconds?
 (b) What is the angular velocity of Earth?
-(c) Given that Earth has a radius of $$ 6.4\times 10^{6}\m $$ at its equator, what is the linear velocity at Earth’s surface?
+(c) Given that Earth has a radius of $$ 6.4\times 10^{6}\m $$ at its equator, what is the linear velocity at Earth's surface?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Earth completes one full rotation (one day) in 24 hours. We'll convert this to seconds.
+(b) Angular velocity is found using $$ \omega = \frac{\Delta\theta}{\Delta t} $$, where one complete rotation is $$ 2\pi $$ radians.
+(c) We'll use the relationship $$ v = r\omega $$ to find the linear velocity at the equator.
+
+**Solution**
+
+(a) Convert the period from hours to seconds:
+
+<div class="equation">
+$$ T = 24\text{ h} \times \frac{60\text{ min}}{1\text{ h}} \times \frac{60\text{ s}}{1\text{ min}} = 86{,}400\text{ s} $$
+</div>
+
+(b) Calculate the angular velocity:
+
+<div class="equation">
+$$ \omega = \frac{\Delta\theta}{\Delta t} = \frac{2\pi\text{ rad}}{86{,}400\text{ s}} = 7.27 \times 10^{-5}\text{ rad/s} $$
+</div>
+
+(c) Calculate the linear velocity at Earth's surface:
+
+<div class="equation">
+$$ v = r\omega = \left(6.4 \times 10^{6}\text{ m}\right)\left(7.27 \times 10^{-5}\text{ rad/s}\right) = 465\text{ m/s} $$
+</div>
+
+**Discussion**
+
+Earth completes one rotation in 86,400 seconds (24 hours) with an angular velocity of $$ 7.27 \times 10^{-5} $$ rad/s. At the equator, the linear velocity of Earth's surface is approximately 465 m/s or about 1674 km/h, which is quite substantial but not noticeable in everyday life because we rotate along with Earth.
 
 </div>
 </div>
@@ -315,6 +373,25 @@ A baseball pitcher brings his arm forward during a pitch, rotating the forearm a
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 In lacrosse, a ball is thrown from a net on the end of a stick by rotating the stick and forearm about the elbow. If the angular velocity of the ball about the elbow joint is 30.0 rad/s and the ball is 1.30 m from the elbow joint, what is the velocity of the ball?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We need to find the linear velocity of the ball given its angular velocity and distance from the axis of rotation. We'll use the relationship $$ v = r\omega $$.
+
+**Solution**
+
+Using the relationship between linear and angular velocity:
+
+<div class="equation">
+$$ v = r\omega = (1.30\text{ m})(30.0\text{ rad/s}) = 39.0\text{ m/s} $$
+</div>
+
+**Discussion**
+
+The velocity of the lacrosse ball is 39.0 m/s, which is greater than the baseball pitcher's velocity of 35.0 m/s in the earlier problem, despite having a lower angular velocity (30.0 rad/s compared to 117 rad/s). This is because the ball is much farther from the axis of rotation (1.30 m compared to 0.300 m), demonstrating that linear velocity is directly proportional to both angular velocity and radius.
 
 </div>
 </div>
