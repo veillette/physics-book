@@ -334,14 +334,14 @@ if the plates are separated by 2.00 mm and a potential difference of  $$ 5.0 \ti
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-The voltage across a membrane forming a cell wall is 80.0 mV and the membrane is 9.00 nm thick. What is the electric field strength? (The value is surprisingly large, but correct. Membranes are discussed in [Capacitors and Dielectrics](./ch19CapacitorsAndDielectrics.md) and [Nerve Conduction—Electrocardiograms](./ch20NerveConductionElectrocardiograms.md).) You may assume a uniform electric field.
+The voltage across a membrane forming a cell wall is 80.0 mV and the membrane is 9.00 nm thick. What is the electric field strength? (The value is surprisingly large, but correct. Membranes are discussed in [Capacitors and Dielectrics](./ch19CapacitorsAndDielectrics) and [Nerve Conduction—Electrocardiograms](./ch20NerveConductionElectrocardiograms).) You may assume a uniform electric field.
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Membrane walls of living cells have surprisingly large electric fields across them due to separation of ions. (Membranes are discussed in some detail in [Nerve Conduction—Electrocardiograms](./ch20NerveConductionElectrocardiograms.md).) What is the voltage across an 8.00 nm–thick membrane if the electric field strength across it is 5.50 MV/m? You may assume a uniform electric field.
+Membrane walls of living cells have surprisingly large electric fields across them due to separation of ions. (Membranes are discussed in some detail in [Nerve Conduction—Electrocardiograms](./ch20NerveConductionElectrocardiograms).) What is the voltage across an 8.00 nm–thick membrane if the electric field strength across it is 5.50 MV/m? You may assume a uniform electric field.
 
 </div>
 <div class="solution" markdown="1">
