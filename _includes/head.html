@@ -34,7 +34,7 @@
 
     <!-- MathJax Configuration (must load before MathJax itself) -->
     <script>
-    window.MathJax = {
+    MathJax = {
         tex: {
             inlineMath: [['$', '$'], ['\\(', '\\)']],
             displayMath: [['$$', '$$'], ['\\[', '\\]']],
@@ -61,13 +61,6 @@
                 mile: '\\mathrm{mi.}',
                 mph: '\\mathrm{mph}',
                 ac: 'a_\\mathrm{c}'
-            }
-        },
-        startup: {
-            pageReady: () => {
-                return MathJax.startup.defaultPageReady().then(() => {
-                    console.log('MathJax initial typesetting complete');
-                });
             }
         }
     };
