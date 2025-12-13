@@ -1,0 +1,121 @@
+# Workflow for building and deploying a Jekyll site to GitHub Pages
+name: Deploy Jekyll site to Pages
+
+on:
+  # Runs on pushes targeting the main branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      build_time: ${{ steps.build_time.outputs.duration }}
+    steps:
+      - name: Record start time
+        id: start
+        run: echo "time=$(date +%s)" >> $GITHUB_OUTPUT
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with Jekyll
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+      - name: Calculate build time
+        id: build_time
+        run: |
+          END_TIME=$(date +%s)
+          DURATION=$((END_TIME - ${{ steps.start.outputs.time }}))
+          MINUTES=$((DURATION / 60))
+          SECONDS=$((DURATION % 60))
+          echo "duration=${MINUTES}m ${SECONDS}s" >> $GITHUB_OUTPUT
+
+      - name: Write build summary
+        if: always()
+        run: |
+          echo "## Build Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Metric | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
+          echo "| **Status** | ${{ job.status == 'success' && '✅ Success' || '❌ Failed' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Build Time** | ${{ steps.build_time.outputs.duration }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Branch** | \`${{ github.ref_name }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Commit** | \`${{ github.sha }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Triggered by** | ${{ github.actor }} |" >> $GITHUB_STEP_SUMMARY
+
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    outputs:
+      deploy_time: ${{ steps.deploy_time.outputs.duration }}
+    steps:
+      - name: Record deploy start time
+        id: deploy_start
+        run: echo "time=$(date +%s)" >> $GITHUB_OUTPUT
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Calculate deploy time
+        id: deploy_time
+        run: |
+          END_TIME=$(date +%s)
+          DURATION=$((END_TIME - ${{ steps.deploy_start.outputs.time }}))
+          MINUTES=$((DURATION / 60))
+          SECONDS=$((DURATION % 60))
+          echo "duration=${MINUTES}m ${SECONDS}s" >> $GITHUB_OUTPUT
+
+      - name: Write deployment summary
+        if: always()
+        run: |
+          echo "## Deployment Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Metric | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
+          echo "| **Status** | ${{ job.status == 'success' && '✅ Success' || '❌ Failed' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Deploy Time** | ${{ steps.deploy_time.outputs.duration }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Build Time** | ${{ needs.build.outputs.build_time }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Site URL** | ${{ steps.deployment.outputs.page_url }} |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ job.status }}" == "success" ]; then
+            echo "🎉 **The physics book has been successfully deployed!**" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "⚠️ **Deployment failed. Please check the logs above for details.**" >> $GITHUB_STEP_SUMMARY
+          fi
