@@ -550,6 +550,51 @@ what is the velocity of the wind?
 total round-trip time compared to what it would be with no wind.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The seagull's velocity relative to the Earth is its velocity relative to the air minus the wind velocity (when flying into the wind). Use distance and time to find the ground velocity, then solve for wind velocity.
+
+**Solution**
+
+**(a) Wind velocity:**
+
+1. Calculate the seagull's velocity relative to the Earth:
+<div class="equation">
+$$ v_{ground} = \frac{d}{t} = \frac{6.00 \text{ km}}{20.0 \text{ min}} = \frac{6000 \m}{1200 \s} = 5.00 \ms $$
+</div>
+
+2. When flying into the wind: $$ v_{ground} = v_{bird} - v_{wind} $$
+<div class="equation">
+$$ v_{wind} = v_{bird} - v_{ground} = 9.00 \ms - 5.00 \ms = 4.00 \ms $$
+</div>
+
+**(b) Time to return with the wind:**
+
+1. When flying with the wind: $$ v_{return} = v_{bird} + v_{wind} = 9.00 \ms + 4.00 \ms = 13.0 \ms $$
+
+2. Calculate time:
+<div class="equation">
+$$ t_{return} = \frac{d}{v_{return}} = \frac{6000 \m}{13.0 \ms} = 462 \s = 7.69 \text{ min} $$
+</div>
+
+**(c) Effect of wind on total round-trip time:**
+
+- With wind: $$ t_{total} = 20.0 \text{ min} + 7.69 \text{ min} = 27.7 \text{ min} $$
+- Without wind: $$ t_{no wind} = \frac{2 \times 6000 \m}{9.00 \ms} = 1333 \s = 22.2 \text{ min} $$
+
+**Discussion**
+
+The wind increases the total round-trip time by about 5.5 minutes (25% longer). Although the bird gains time flying with the wind, this doesn't compensate for the time lost flying against it. This is because the bird spends more time fighting the headwind than benefiting from the tailwind.
+
+(a) The wind velocity is $$ 4.00 \ms $$.
+
+(b) The return trip takes $$ 7.69 \text{ min} $$ (or about 7 min 41 s).
+
+(c) The round-trip takes longer with wind (27.7 min) than without wind (22.2 min).
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -577,6 +622,31 @@ line, who will win the race, assuming they run at constant velocity?
 <div class="problem" markdown="1">
 Verify that the coin dropped by the airline passenger in [Example 3](#example3)
 travels 144 m horizontally while falling 1.50 m in the frame of reference of the Earth.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Calculate the time it takes the coin to fall 1.50 m, then use that time and the horizontal velocity (plane's velocity) to find the horizontal distance.
+
+**Solution**
+
+1. Find the time to fall 1.50 m using free-fall equation (starting from rest vertically):
+<div class="equation">
+$$ y = \frac{1}{2}gt^2 \Rightarrow t = \sqrt{\frac{2y}{g}} = \sqrt{\frac{2(1.50 \m)}{9.80 \mss}} = \sqrt{0.306 \s^2} = 0.553 \s $$
+</div>
+
+2. Calculate horizontal distance using the plane's velocity:
+<div class="equation">
+$$ x = v_x \cdot t = (260 \ms)(0.553 \s) = 144 \m $$
+</div>
+
+**Discussion**
+
+This confirms the statement in Example 3. To an observer on the ground, the coin travels 144 m horizontally while falling just 1.50 m vertically, making its trajectory appear nearly horizontal. To the passenger on the plane, the coin simply falls straight down.
+
+The coin travels $$ 144 \m $$ horizontally while falling 1.50 m, as stated in the example.
 
 </div>
 </div>
