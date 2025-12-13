@@ -34,5 +34,9 @@ it exhibits wave characteristics (particularly when it interacts with small
 objects) is called wave optics (sometimes called physical optics). It is the
 topic of this chapter.
 
-![Soap bubbles reflecting mostly purple and blue light with some regions of orange.](../resources/Figure_27_00_03.jpg "These soap bubbles exhibit brilliant colors when exposed to sunlight. How are the colors produced if they are not pigments in the soap? (credit: Scott Robinson, Flickr)")
-{: #Figure3}
+<!--
+TODO: Missing image - Figure_27_00_03.jpg
+Alt text: Soap bubbles reflecting mostly purple and blue light with some regions of orange.
+Caption: These soap bubbles exhibit brilliant colors when exposed to sunlight. How are the colors produced if they are not pigments in the soap? (credit: Scott Robinson, Flickr)
+Figure ID: #Figure3
+-->

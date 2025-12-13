@@ -299,8 +299,12 @@ Your ear is capable of differentiating sounds that arrive at the ear just 1.00 m
 <div class="problem" markdown="1">
 (a) Seismographs measure the arrival times of earthquakes with a precision of 0.100 s. To get the distance to the epicenter of the quake, they compare the arrival times of S- and P-waves, which travel at different speeds. [[Figure 6]](#Figure6)) If S- and P-waves travel at 4.00 and 7.20 km/s, respectively, in the region considered, how precisely can the distance to the source of the earthquake be determined? (b) Seismic waves from underground detonations of nuclear bombs can be used to locate the test site and detect violations of test bans. Discuss whether your answer to (a) implies a serious limit to such detection. (Note also that the uncertainty is greater if there is an uncertainty in the propagation speeds of the S- and P-waves.)
 
-![The figure shows a seismograph put on a wooden table. Its top is labeled as &#x201C;Hands off glass, please&#x201D;. Below it there are some buttons are shown and a paper roller is fitted in the seismograph to print the observation by the machine. On the right and left of the roller, two vertical cable slots are given.](../resources/Figure_16_09_06.jpg "A seismograph as described in above problem.(credit: Oleg Alexandrov)")
-{: #Figure6}
+<!--
+TODO: Missing image - Figure_16_09_06.jpg
+Alt text: The figure shows a seismograph put on a wooden table. Its top is labeled as "Hands off glass, please". Below it there are some buttons are shown and a paper roller is fitted in the seismograph to print the observation by the machine. On the right and left of the roller, two vertical cable slots are given.
+Caption: A seismograph as described in above problem. (credit: Oleg Alexandrov)
+Figure ID: #Figure6
+-->
 
 </div>
 </div>
