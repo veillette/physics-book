@@ -43,7 +43,7 @@ little when stressed.
 <div class="title">
 Connections: Submicroscopic Explanation of Solids and Liquids
 </div>
-Atomic and molecular characteristics explain and underlie the macroscopic characteristics of solids and fluids. This submicroscopic explanation is one theme of this text and is highlighted in the Things Great and Small features in [Conservation of Momentum](/conservationOfMomentum). See, for example, microscopic description of collisions and momentum or microscopic description of pressure in a gas. This present section is devoted entirely to the submicroscopic explanation of solids and liquids.
+Atomic and molecular characteristics explain and underlie the macroscopic characteristics of solids and fluids. This submicroscopic explanation is one theme of this text and is highlighted in the Things Great and Small features in [Conservation of Momentum](./ch8ConservationOfMomentum.md). See, for example, microscopic description of collisions and momentum or microscopic description of pressure in a gas. This present section is devoted entirely to the submicroscopic explanation of solids and liquids.
 
 </div>
 

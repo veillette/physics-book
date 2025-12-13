@@ -82,7 +82,7 @@ v $$.
  $$ \text{slope}=\frac{ \Delta x}{\Delta t}=v $$
 </div>
 Notice that this equation is the same as that derived algebraically from other motion equations 
-in [Motion Equations for Constant Acceleration in One Dimension](../contents/.md).
+in [Motion Equations for Constant Acceleration in One Dimension](./ch2MotionEquationsForConstantAccelerationInOneDimension.md).
 
 </div>
 
@@ -413,7 +413,7 @@ shown in [Figure 13](#Figure13). Suppose the elevator is initially at rest.
 It then accelerates for 3 seconds, maintains that velocity for 15 seconds,
 then decelerates for 5 seconds until it stops. The acceleration for the entire trip is
 not constant so we cannot use the equations of motion from
-[Motion Equations for Constant Acceleration in One Dimension](../contents/ch2MotionEquationsForConstantAccelerationInOneDimension.md.md) for the complete trip.
+[Motion Equations for Constant Acceleration in One Dimension](./ch2MotionEquationsForConstantAccelerationInOneDimension.md) for the complete trip.
 (We could, however, use them in the three individual sections where acceleration is a constant.)
 Sketch graphs of (a) position vs. time and (b) acceleration vs. time for this trip.
 
