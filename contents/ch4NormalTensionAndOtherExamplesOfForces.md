@@ -572,15 +572,59 @@ In a traction setup for a broken bone, with pulleys and rope available, how migh
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Two teams of nine members each engage in a tug of war. Each of the first team’s members has an average mass of 68 kg and exerts an average force of 1350 N horizontally. Each of the second team’s members has an average mass of 73 kg and exerts an average force of 1365 N horizontally.
+Two teams of nine members each engage in a tug of war. Each of the first team's members has an average mass of 68 kg and exerts an average force of 1350 N horizontally. Each of the second team's members has an average mass of 73 kg and exerts an average force of 1365 N horizontally.
 (a) What is magnitude of the acceleration of the two teams?
 (b) What is the tension in the section of rope between the teams?
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 0.11 \mss $$
 
-(b) $$ 1.2\times 10^{4}\N $$
+**Strategy**
+
+Treat both teams as one system to find acceleration. The net force is the difference between the two teams' total forces, and the total mass is the sum of all members' masses. For tension, consider one team as the system.
+
+**Solution**
+
+**(a) Acceleration of the system:**
+
+1. Calculate total force from each team:
+   - Team 1: $$ F_1 = 9 \times 1350 \N = 12150 \N $$
+   - Team 2: $$ F_2 = 9 \times 1365 \N = 12285 \N $$
+
+2. Calculate net force (Team 2 pulls harder):
+<div class="equation">
+$$ F_{net} = F_2 - F_1 = 12285 \N - 12150 \N = 135 \N $$
+</div>
+
+3. Calculate total mass:
+<div class="equation">
+$$ m_{total} = 9 \times 68 \kg + 9 \times 73 \kg = 612 \kg + 657 \kg = 1269 \kg $$
+</div>
+
+4. Apply Newton's second law:
+<div class="equation">
+$$ a = \frac{F_{net}}{m_{total}} = \frac{135 \N}{1269 \kg} = 0.106 \mss \approx 0.11 \mss $$
+</div>
+
+**(b) Tension in the rope:**
+
+Consider Team 1 as the system. The rope tension T pulls Team 1 toward Team 2, and Team 1's force $$ F_1 $$ opposes this motion:
+
+<div class="equation">
+$$ T - F_1 = m_1 \cdot a $$
+</div>
+
+<div class="equation">
+$$ T = F_1 + m_1 \cdot a = 12150 \N + (612 \kg)(0.106 \mss) = 12150 \N + 65 \N = 12215 \N \approx 1.2 \times 10^4 \N $$
+</div>
+
+**Discussion**
+
+The tension in the rope (about 12,200 N) is much larger than the net force (135 N). This is because the rope must transmit the combined pulling forces of both teams; the net force only determines the acceleration.
+
+(a) The acceleration of both teams is $$ 0.11 \mss $$ in the direction of Team 2's pull.
+
+(b) The tension in the rope between the teams is $$ 1.2 \times 10^4 \N $$.
 
 </div>
 </div>
@@ -590,6 +634,45 @@ Two teams of nine members each engage in a tug of war. Each of the first team’
 What force does a trampoline have to apply to a 45.0-kg gymnast to accelerate her straight up at $$ 7.50 \mss  $$?
 Note that the answer is independent of the velocity of the gymnast—she can be
 moving either up or down, or be stationary.
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Apply Newton's second law in the vertical direction. The trampoline exerts an upward normal force, while gravity exerts a downward force (weight). The net force must produce the upward acceleration.
+
+**Solution**
+
+1. Identify the known values:
+   - Mass: $$ m = 45.0 \kg $$
+   - Acceleration: $$ a = 7.50 \mss $$ (upward)
+   - Gravitational acceleration: $$ g = 9.80 \mss $$
+
+2. Draw a free-body diagram (forces on gymnast):
+   - Upward: Normal force from trampoline, $$ N $$
+   - Downward: Weight, $$ w = mg $$
+
+3. Apply Newton's second law (taking upward as positive):
+<div class="equation">
+$$ F_{net} = N - w = ma $$
+</div>
+
+4. Solve for the normal force $$ N $$:
+<div class="equation">
+$$ N = ma + w = ma + mg = m(a + g) $$
+</div>
+
+5. Substitute values:
+<div class="equation">
+$$ N = (45.0 \kg)(7.50 \mss + 9.80 \mss) = (45.0 \kg)(17.30 \mss) = 779 \N $$
+</div>
+
+**Discussion**
+
+The trampoline must exert a force greater than the gymnast's weight (441 N) because it must both support her weight and provide the additional force needed for upward acceleration. The total force is about 1.8 times her weight.
+
+The trampoline must apply a force of $$ 779 \N $$ upward on the gymnast.
+
 </div>
 </div>
 
@@ -618,6 +701,52 @@ strand.
 Suppose a 60.0-kg gymnast climbs a rope.
 (a) What is the tension in the rope if he climbs at a constant speed?
 (b) What is the tension in the rope if he accelerates upward at a rate of $$ 1.50 \mss  $$?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Apply Newton's second law to the gymnast. The rope tension pulls upward, and weight pulls downward. At constant speed, acceleration is zero; when accelerating upward, acceleration is positive.
+
+**Solution**
+
+Given: $$ m = 60.0 \kg $$, $$ g = 9.80 \mss $$
+
+**(a) Climbing at constant speed (a = 0):**
+
+Since acceleration is zero, the net force must be zero:
+<div class="equation">
+$$ F_{net} = T - w = 0 $$
+</div>
+
+<div class="equation">
+$$ T = w = mg = (60.0 \kg)(9.80 \mss) = 588 \N $$
+</div>
+
+**(b) Accelerating upward at 1.50 m/s²:**
+
+Apply Newton's second law with upward as positive:
+<div class="equation">
+$$ F_{net} = T - w = ma $$
+</div>
+
+Solve for tension:
+<div class="equation">
+$$ T = ma + w = ma + mg = m(a + g) $$
+</div>
+
+<div class="equation">
+$$ T = (60.0 \kg)(1.50 \mss + 9.80 \mss) = (60.0 \kg)(11.30 \mss) = 678 \N $$
+</div>
+
+**Discussion**
+
+When climbing at constant speed, the tension equals the gymnast's weight. When accelerating upward, the tension must exceed the weight to provide the net upward force. The extra 90 N of tension (678 - 588 = 90 N) provides the force needed for the acceleration.
+
+(a) At constant speed, the rope tension is $$ 588 \N $$.
+
+(b) When accelerating upward at 1.50 m/s², the rope tension is $$ 678 \N $$.
 
 </div>
 </div>

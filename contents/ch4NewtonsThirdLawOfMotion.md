@@ -316,10 +316,65 @@ Force exerted on ship = $$ -2.64 \times 10^{7}\N $$, by Newton’s third law
 <div class="problem" markdown="1">
 A brave but inadequate rugby player is being pushed backward by an opposing player who is exerting a force of 800 N on him. The mass of the losing player plus equipment is 90.0 kg, and he is accelerating at $$ 1.20\mss $$
 backward.
-(a) What is the force of friction between the losing player’s feet and the grass?
+(a) What is the force of friction between the losing player's feet and the grass?
 (b) What force does the winning player exert on the ground to move forward if his mass plus equipment is 110 kg?
 (c) Draw a sketch of the situation showing the system of interest used to solve each part.
 For this situation, draw a free-body diagram and write the net force equation.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), apply Newton's second law to the losing player. The forces on him are the push from the opposing player (backward) and friction from the ground (forward). For part (b), consider that both players have the same acceleration magnitude and use Newton's second and third laws.
+
+**Solution**
+
+**(a) Friction force on the losing player:**
+
+1. Identify the known values:
+   - Force from opposing player: $$ F_{push} = 800 \N $$ (backward)
+   - Mass: $$ m_1 = 90.0 \kg $$
+   - Acceleration: $$ a = 1.20 \mss $$ (backward)
+
+2. Apply Newton's second law (taking backward as positive):
+<div class="equation">
+$$ F_{net} = F_{push} - f = m_1 a $$
+</div>
+
+3. Solve for friction force:
+<div class="equation">
+$$ f = F_{push} - m_1 a = 800 \N - (90.0 \kg)(1.20 \mss) = 800 \N - 108 \N = 692 \N $$
+</div>
+
+**(b) Force the winning player exerts on the ground:**
+
+1. By Newton's third law, the winning player exerts 800 N on the losing player, so the losing player exerts 800 N back on the winning player.
+
+2. For the winning player moving forward with the same acceleration:
+   - Mass: $$ m_2 = 110 \kg $$
+   - Acceleration: $$ a = 1.20 \mss $$ (forward)
+
+3. The ground must push the winning player forward (reaction to his push backward):
+<div class="equation">
+$$ F_{ground} - F_{reaction} = m_2 a $$
+</div>
+
+Where $$ F_{reaction} = 800 \N $$ is the reaction force from the losing player.
+
+<div class="equation">
+$$ F_{ground} = m_2 a + F_{reaction} = (110 \kg)(1.20 \mss) + 800 \N = 132 \N + 800 \N = 932 \N $$
+</div>
+
+By Newton's third law, the winning player exerts $$ 932 \N $$ backward on the ground.
+
+**Discussion**
+
+The winning player must exert a larger force on the ground (932 N) than the losing player (692 N) because he must both accelerate his own larger mass and push his opponent backward.
+
+(a) The friction force on the losing player is $$ 692 \N $$ forward.
+
+(b) The winning player exerts $$ 932 \N $$ backward on the ground.
 
 </div>
 </div>
