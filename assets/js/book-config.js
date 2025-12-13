@@ -18,6 +18,8 @@ mergeObjectsRecursive(BookConfig, window.Book);
 
 function mergeObjectsRecursive(target, source) {
     for (const key in source) {
+        // Prevent prototype pollution by blocking dangerous keys
+        if (key === "__proto__" || key === "prototype" || key === "constructor") continue;
         if (source.hasOwnProperty(key)) {
             if (source[key] instanceof Object) {
                 if (!target[key]) {
