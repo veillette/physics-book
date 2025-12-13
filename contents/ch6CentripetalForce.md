@@ -411,6 +411,31 @@ c) 2.24 times her weight, 0.0807 times her weight
 Calculate the centripetal force on the end of a 100 m (radius) wind turbine blade that is rotating at 0.5 rev/s. Assume the mass is 4 kg.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We need to find the centripetal force using $$ F_c = mr\omega^2 $$. First, we'll convert the angular velocity from rev/s to rad/s, then calculate the centripetal force.
+
+**Solution**
+
+Convert angular velocity to rad/s:
+
+<div class="equation">
+$$ \omega = 0.5\frac{\text{rev}}{\text{s}} \times \frac{2\pi\text{ rad}}{1\text{ rev}} = \pi\text{ rad/s} = 3.14\text{ rad/s} $$
+</div>
+
+Calculate the centripetal force:
+
+<div class="equation">
+$$ F_c = mr\omega^2 = (4\text{ kg})(100\text{ m})(3.14\text{ rad/s})^2 = (4)(100)(9.87) = 3.95 \times 10^3\text{ N} $$
+</div>
+
+**Discussion**
+
+The centripetal force on the end of the wind turbine blade is approximately 3950 N or about 3.95 kN. This substantial force must be withstood by the blade structure and mounting points, which is why wind turbine blades are constructed from strong, lightweight composite materials. Even though the mass at the tip is only 4 kg, the large radius and rotational speed create a significant centripetal force.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -427,6 +452,41 @@ What is the ideal banking angle for a gentle turn of 1.20 km radius on a highway
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 What is the ideal speed to take a 100 m radius curve banked at a 20.0° angle?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For an ideally banked curve (no friction needed), we use the relationship $$ \tan\theta = \frac{v^2}{rg} $$. We'll solve for $$ v $$ and substitute the known values.
+
+**Solution**
+
+Starting with the ideal banking equation:
+
+<div class="equation">
+$$ \tan\theta = \frac{v^2}{rg} $$
+</div>
+
+Solve for $$ v $$:
+
+<div class="equation">
+$$ v^2 = rg\tan\theta $$
+</div>
+
+<div class="equation">
+$$ v = \sqrt{rg\tan\theta} $$
+</div>
+
+Substitute known values ($$ r = 100 $$ m, $$ g = 9.80 $$ m/s², $$ \theta = 20.0° $$):
+
+<div class="equation">
+$$ v = \sqrt{(100\text{ m})(9.80\text{ m/s}^2)\tan(20.0°)} = \sqrt{(980)(0.364)} = \sqrt{357} = 18.9\text{ m/s} $$
+</div>
+
+**Discussion**
+
+The ideal speed to take the 100 m radius curve banked at 20.0° is 18.9 m/s (about 68 km/h or 42 mi/h). At this speed, no friction between the tires and road is needed to maintain the circular path - the normal force from the banked road provides exactly the right amount of centripetal force. At speeds higher or lower than this ideal speed, friction would be required to prevent the car from sliding up or down the banked surface.
 
 </div>
 </div>
@@ -452,7 +512,7 @@ turns.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Part of riding a bicycle involves leaning at the correct angle when making a turn, as seen in [Figure 8](#Figure8). To be stable, the force exerted by the ground must be on a line going through the center of gravity. The force on the bicycle wheel can be resolved into two perpendicular components—friction parallel to the road (this must supply the centripetal force), and the vertical normal force (which must equal the system’s weight).
+Part of riding a bicycle involves leaning at the correct angle when making a turn, as seen in [Figure 8](#Figure8). To be stable, the force exerted by the ground must be on a line going through the center of gravity. The force on the bicycle wheel can be resolved into two perpendicular components—friction parallel to the road (this must supply the centripetal force), and the vertical normal force (which must equal the system's weight).
 
 (a) Show that $$ \theta $$
 (as defined in the figure) is related to the speed $$ v $$ and radius of
@@ -462,6 +522,56 @@ roadway—that is, $$ \theta ={\tan}^{-1}{v}^{2}/rg $$
 
 ![The given figure shows a boy riding a bicycle, from the front. The boy is sliding leftward to his left. Three vectors are shown. One is from the bottom the front cycle wheel to the right depicting centripetal force, another one is from the same point drawn vertically upward showing the force N, making an angle theta with the slope of the front cycle wheel. The third vector is drawn from the chest of the boy to vertically downward to the bottom showing his weight, w. An arrow from the bottom of the wheel to the chest point of the boy is also shown depicting the slope of the bicycle with force F exerting on it. A free-body diagram is also given alongside the figure showing the direction of weight and force vectors. And the values of net F equals to sum of N and centripetal force, and N equals to weight W also given alongside on the right.](../resources/Figure_06_03_08.jpg "A bicyclist negotiating a turn on level ground must lean at the correct angle&#x2014;the ability to do this becomes instinctive. The force of the ground on the wheel needs to be on a line through the center of gravity. The net external force on the system is the centripetal force. The vertical component of the force on the wheel cancels the weight of the system while its horizontal component must supply the centripetal force. This process produces a relationship among the angle &#x3B8;, the speed v, and the radius of curvature r of the turn similar to that for the ideal banking of roadways.")
 {: #Figure8}
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) We'll analyze the forces on the bicycle and rider system. The net force from the ground has components: horizontal (friction providing centripetal force) and vertical (normal force balancing weight). The resultant must pass through the center of gravity, making angle $$ \theta $$ with the vertical.
+(b) We'll use the derived formula to calculate the angle for the given speed and radius.
+
+**Solution**
+
+(a) The horizontal component of the ground force is the friction $$ f $$, which provides the centripetal force:
+
+<div class="equation">
+$$ f = \frac{mv^2}{r} $$
+</div>
+
+The vertical component is the normal force $$ N $$, which equals the weight:
+
+<div class="equation">
+$$ N = mg $$
+</div>
+
+The angle $$ \theta $$ that the resultant force makes with the vertical is:
+
+<div class="equation">
+$$ \tan\theta = \frac{f}{N} = \frac{mv^2/r}{mg} = \frac{v^2}{rg} $$
+</div>
+
+Therefore:
+
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{v^2}{rg}\right) $$
+</div>
+
+This is identical to the formula for an ideally banked curve.
+
+(b) Calculate $$ \theta $$ for $$ v = 12.0 $$ m/s and $$ r = 30.0 $$ m:
+
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{v^2}{rg}\right) = \tan^{-1}\left(\frac{(12.0\text{ m/s})^2}{(30.0\text{ m})(9.80\text{ m/s}^2)}\right) $$
+</div>
+
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{144}{294}\right) = \tan^{-1}(0.490) = 26.1° $$
+</div>
+
+**Discussion**
+
+We have shown that the bicycle lean angle follows the same relationship as an ideally banked curve. For the racing turn at 12.0 m/s with a 30.0 m radius, the cyclist must lean at 26.1° from the vertical. This significant lean angle is necessary to keep the line of action of the ground force passing through the center of gravity, ensuring stability. Experienced cyclists make these adjustments instinctively.
 
 </div>
 </div>
@@ -519,6 +629,39 @@ Modern roller coasters have vertical loops like the one shown in [Figure 10](#Fi
 
 ![A teardrop shaped loop of a roller coaster is shown. The car of the roller coaster starts from the point A near the right of the base and covers the teardrop portion of the roller coaster and move to a point D at the left of base. Near the top of tear drop portion an upward arrow is shown labeled as r-minimum. Also at a point near the base toward A there is a label called r-maximum. The wire frame of the base is also shown.](../resources/Figure_06_03_10.jpg "Teardrop-shaped loops are used in the latest roller coasters so that the radius of curvature gradually decreases to a minimum at the top. This means that the centripetal acceleration builds from zero to a maximum at the top and gradually decreases again. A circular loop would cause a jolting change in acceleration at entry, a disadvantage discovered long ago in railroad curve design. With a small radius of curvature at the top, the centripetal acceleration can more easily be kept greater than &#10; &#10; &#10; g&#10; &#10; &#10; so that the passengers do not lose contact with their seats nor do they need seat belts to keep them in place.")
 {: #Figure10}
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We need to find the speed at the top of the loop given the centripetal acceleration and radius of curvature. We'll use $$ a_c = \frac{v^2}{r} $$ and solve for $$ v $$. The centripetal acceleration is given as 1.50g, where $$ g = 9.80 $$ m/s².
+
+**Solution**
+
+The centripetal acceleration is:
+
+<div class="equation">
+$$ a_c = 1.50g = 1.50(9.80\text{ m/s}^2) = 14.7\text{ m/s}^2 $$
+</div>
+
+Using the centripetal acceleration formula and solving for $$ v $$:
+
+<div class="equation">
+$$ a_c = \frac{v^2}{r} $$
+</div>
+
+<div class="equation">
+$$ v^2 = a_c r = (14.7\text{ m/s}^2)(15.0\text{ m}) = 221\text{ m}^2\text{/s}^2 $$
+</div>
+
+<div class="equation">
+$$ v = \sqrt{221\text{ m}^2\text{/s}^2} = 14.9\text{ m/s} $$
+</div>
+
+**Discussion**
+
+The speed of the roller coaster at the top of the loop is 14.9 m/s (about 54 km/h or 33 mi/h). At this speed with a 15.0 m radius of curvature, the centripetal acceleration is 1.50g, which means passengers experience a downward force 1.50 times their normal weight. This keeps them firmly pressed into their seats even though they are upside down at the top of the loop, creating the thrilling sensation that makes roller coasters exciting while maintaining safety.
 
 </div>
 </div>
