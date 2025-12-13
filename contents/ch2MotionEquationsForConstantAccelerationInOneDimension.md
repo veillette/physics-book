@@ -794,6 +794,35 @@ for $$ 8.10 \times 10^{-4}\s $$.
 What is its muzzle velocity (that is, its final velocity)?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use the kinematic equation relating final velocity, initial velocity, acceleration, and time. The bullet starts from rest in the firing chamber.
+
+**Solution**
+
+1. Identify the known values:
+   - Initial velocity: $$ v_0 = 0 $$ (starts from rest)
+   - Acceleration: $$ a = 6.20 \times 10^5 \mss $$
+   - Time: $$ t = 8.10 \times 10^{-4} \s $$
+
+2. Apply the kinematic equation:
+<div class="equation">
+$$ v = v_0 + at = 0 + (6.20 \times 10^5 \mss)(8.10 \times 10^{-4} \s) $$
+</div>
+
+<div class="equation">
+$$ v = 502 \ms $$
+</div>
+
+**Discussion**
+
+This is about 1810 km/h or 1120 mph, which is supersonic (faster than the speed of sound, about 340 m/s). This is a typical muzzle velocity for a rifle bullet.
+
+The bullet's muzzle velocity is $$ 502 \ms $$.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -890,6 +919,46 @@ puck accelerates.
 A powerful motorcycle can accelerate from rest to 26.8 m/s (100 km/h) in only 3.90 s.
 (a) What is its average acceleration?
 (b) How far does it travel in that time?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use the definition of average acceleration for part (a), then use a kinematic equation with the calculated acceleration to find distance in part (b).
+
+**Solution**
+
+**(a) Average acceleration:**
+
+1. Identify the known values:
+   - Initial velocity: $$ v_0 = 0 $$ (starts from rest)
+   - Final velocity: $$ v = 26.8 \ms $$
+   - Time: $$ t = 3.90 \s $$
+
+2. Calculate average acceleration:
+<div class="equation">
+$$ a = \frac{v - v_0}{t} = \frac{26.8 \ms - 0}{3.90 \s} = 6.87 \mss $$
+</div>
+
+**(b) Distance traveled:**
+
+Use the kinematic equation:
+<div class="equation">
+$$ x = x_0 + v_0 t + \frac{1}{2}at^2 = 0 + 0 + \frac{1}{2}(6.87 \mss)(3.90 \s)^2 $$
+</div>
+
+<div class="equation">
+$$ x = \frac{1}{2}(6.87)(15.21) \m = 52.3 \m $$
+</div>
+
+**Discussion**
+
+The acceleration of 6.87 m/s² is about 0.7g, which is quite impressive for a motorcycle. The distance of about 52 meters to reach 100 km/h is consistent with high-performance motorcycle specifications.
+
+(a) The average acceleration is $$ 6.87 \mss $$.
+
+(b) The motorcycle travels $$ 52.3 \m $$ in that time.
 
 </div>
 </div>
