@@ -506,6 +506,45 @@ direction and magnitude of the acceleration of the flea if its mass is $$ 6.00
 Two muscles in the back of the leg pull upward on the Achilles tendon, as shown in [Figure 4](#Figure4). (These muscles are called the medial and lateral heads of the gastrocnemius muscle.) Find the magnitude and direction of the total force on the Achilles tendon. What type of movement could be caused by this force?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The two forces are symmetric, each making a 20° angle with the vertical. Use vector addition to find the resultant force. Due to symmetry, the horizontal components cancel.
+
+**Solution**
+
+1. Identify the forces:
+   - $$ F_1 = 200 \N $$ at 20° to the right of vertical
+   - $$ F_2 = 200 \N $$ at 20° to the left of vertical
+
+2. Find the components of each force:
+   - $$ F_{1x} = 200 \sin(20°) = 200 \times 0.342 = 68.4 \N $$ (right)
+   - $$ F_{1y} = 200 \cos(20°) = 200 \times 0.940 = 188 \N $$ (up)
+   - $$ F_{2x} = 200 \sin(20°) = 68.4 \N $$ (left)
+   - $$ F_{2y} = 200 \cos(20°) = 188 \N $$ (up)
+
+3. Add the components:
+<div class="equation">
+$$ F_{total,x} = 68.4 \N - 68.4 \N = 0 $$
+</div>
+
+<div class="equation">
+$$ F_{total,y} = 188 \N + 188 \N = 376 \N $$
+</div>
+
+4. The total force is:
+<div class="equation">
+$$ F_{total} = 376 \N \text{ directed straight upward} $$
+</div>
+
+**Discussion**
+
+The total force is directed straight up because the horizontal components of the two symmetric forces cancel. This upward force on the Achilles tendon would cause plantar flexion—pointing the toes downward, as when standing on tiptoe or pushing off during walking/running.
+
+The total force on the Achilles tendon is $$ 376 \N $$ directed straight upward, which would cause plantar flexion of the foot.
+
+</div>
 </div>
 
 ![An Achilles tendon is shown in the figure with two forces acting upward, one at an angle of plus twenty degrees, one at minus twenty degrees. F sub one, equal to two hundred newtons, is shown by a vector making an angle twenty degrees toward the right with the vertical, and F sub two, equal to two hundred newtons, is shown making an angle of twenty degrees left from the vertical.](../resources/Figure_04_07_04.jpg "Achilles tendon")
@@ -536,6 +575,37 @@ A 35.0-kg dolphin decelerates from 12.0 to 7.50 m/s in 2.30 s to join another
 dolphin in play. What average force was exerted to slow him if he was moving
 horizontally?
 (The gravitational force is balanced by the buoyant force of the water.)
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+First calculate the acceleration (deceleration) using kinematics, then apply Newton's second law to find the force. Since gravity and buoyancy cancel, the net force is the horizontal drag force.
+
+**Solution**
+
+1. Identify the known values:
+   - Mass: $$ m = 35.0 \kg $$
+   - Initial velocity: $$ v_0 = 12.0 \ms $$
+   - Final velocity: $$ v = 7.50 \ms $$
+   - Time: $$ t = 2.30 \s $$
+
+2. Calculate the acceleration:
+<div class="equation">
+$$ a = \frac{v - v_0}{t} = \frac{7.50 \ms - 12.0 \ms}{2.30 \s} = \frac{-4.50 \ms}{2.30 \s} = -1.96 \mss $$
+</div>
+
+3. Apply Newton's second law:
+<div class="equation">
+$$ F = ma = (35.0 \kg)(-1.96 \mss) = -68.6 \N $$
+</div>
+
+**Discussion**
+
+The negative sign indicates the force is opposite to the direction of motion (i.e., a drag force slowing the dolphin). The magnitude of 68.6 N is reasonable for water resistance on a dolphin at these speeds.
+
+The average force exerted to slow the dolphin is $$ 68.6 \N $$ in the direction opposite to motion.
 
 </div>
 </div>
@@ -570,6 +640,57 @@ constant mass and thrust?
 (c) In reality, the mass of a rocket decreases significantly as its fuel is
 consumed. Describe qualitatively how this affects the acceleration and time for
 this motion.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), apply Newton's second law considering both thrust (upward) and weight (downward). For part (b), use kinematics with the calculated acceleration.
+
+**Solution**
+
+**(a) Initial acceleration:**
+
+1. Identify the forces on the rocket:
+   - Thrust: $$ F_T = 3.50 \times 10^7 \N $$ (upward)
+   - Weight: $$ w = mg = (2.00 \times 10^6 \kg)(9.80 \mss) = 1.96 \times 10^7 \N $$ (downward)
+
+2. Calculate the net force:
+<div class="equation">
+$$ F_{net} = F_T - w = 3.50 \times 10^7 \N - 1.96 \times 10^7 \N = 1.54 \times 10^7 \N $$
+</div>
+
+3. Apply Newton's second law:
+<div class="equation">
+$$ a = \frac{F_{net}}{m} = \frac{1.54 \times 10^7 \N}{2.00 \times 10^6 \kg} = 7.70 \mss $$
+</div>
+
+**(b) Time to reach 120 km/h:**
+
+1. Convert velocity: $$ v = 120 \text{ km/h} = \frac{120 \times 1000 \m}{3600 \s} = 33.3 \ms $$
+
+2. Use kinematics ($$ v_0 = 0 $$):
+<div class="equation">
+$$ v = v_0 + at \Rightarrow t = \frac{v}{a} = \frac{33.3 \ms}{7.70 \mss} = 4.33 \s $$
+</div>
+
+**(c) Effect of decreasing mass:**
+
+As fuel is consumed, the rocket's mass decreases while the thrust remains approximately constant. According to $$ a = F_{net}/m $$, as mass decreases, the acceleration increases. This means:
+- The rocket accelerates faster as it rises
+- The actual time to reach 120 km/h would be less than 4.33 s
+- The acceleration continues to increase throughout the burn, making the motion more complex than constant-acceleration kinematics predicts
+
+**Discussion**
+
+The initial acceleration of 7.70 m/s² is less than g because significant thrust is needed just to overcome gravity. The thrust-to-weight ratio is 1.79, meaning the thrust is about 1.8 times the rocket's weight.
+
+(a) The initial acceleration is $$ 7.70 \mss $$ (about 0.79g).
+
+(b) It takes approximately $$ 4.33 \s $$ to reach 120 km/h (assuming constant mass).
+
+(c) Decreasing mass causes increasing acceleration, reducing the actual time needed.
 
 </div>
 </div>
