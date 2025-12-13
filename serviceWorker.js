@@ -1,5 +1,5 @@
 // Service Worker for Physics Book PWA
-const CACHE_VERSION = '2024-12-13-mathjax4';
+const CACHE_VERSION = '2025-12-13-mathjax4';
 const CACHE_NAME = `physics-book-${CACHE_VERSION}`;
 const BASE_URL = '/physics-book/';
 
