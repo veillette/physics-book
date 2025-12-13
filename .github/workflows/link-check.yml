@@ -1,5 +1,8 @@
 name: Check Links
 
+permissions:
+  contents: read
+
 on:
   push:
     branches: [ main, gh-pages ]
@@ -47,6 +50,9 @@ jobs:
         retention-days: 7
 
   check-external-links:
+    permissions:
+      contents: read
+      issues: write
     runs-on: ubuntu-latest
     timeout-minutes: 45
     # Run external link check less frequently to avoid rate limiting
