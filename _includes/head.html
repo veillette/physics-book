@@ -33,49 +33,46 @@
 
 
     <!-- MathJax Configuration (must load before MathJax itself) -->
-    <script type="text/javascript">
+    <script>
     window.MathJax = {
         tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            displayMath: [['$$', '$$'], ['\\[', '\\]']],
+            processEscapes: true,
+            processEnvironments: true,
             macros: {
-                KE: '{\\mathrm{KE}}',                  // kinetic energy
-                PE: '{\\mathrm{PE}}',                  // potential energy
-                vb: ['\\mathbf{\\vec{#1}}', 1],     // this macro has one parameter
-                mag: ['\\lvert \\mathbf{\\vec{#1}} \\rvert', 1],     // this macro has one parameter
-                kg: '\\mathrm{kg}',     // kg
-                ms: '\\mathrm{m/s}',     // m/s
-                mm: '\\mathrm{m}^2',     // m^2
-                mms: '\\mathrm{m}^2\\mathrm{/s}',     // m^2/s
-                mmss: '\\mathrm{m}^2\\mathrm{/s}^2',    // m^2/s^2
-                mss: '\\mathrm{m/s}^2',     // m/s^2
-                rads: '\\mathrm{rad/s}',     // rad/s
-                radss: '\\mathrm{rad/s}^2',     // rad/s^2
-                N: '\\mathrm{N}',     // N
-                J: '\\mathrm{J}',     // J
-                s: '\\mathrm{s}',     // s
-                m: '\\mathrm{m}',     // m
-                inch: '\\mathrm{in.}',     // in.
-                mile: '\\mathrm{mi.}',     // mi.
-                mph: '\\mathrm{mph}',     // mph
-                ac: 'a_\\mathrm{c}',     // a_c
-            },
-            inlineMath: [              // start/end delimiter pairs for in-line math
-                ['$', '$'],            // single $ for inline (kramdown converts $$ to $ in spans)
-                ['\\(', '\\)']
-            ],
-            displayMath: [             // start/end delimiter pairs for display math
-                ['$$', '$$'],
-                ['\\[', '\\]']
-            ],
+                KE: '{\\mathrm{KE}}',
+                PE: '{\\mathrm{PE}}',
+                vb: ['\\mathbf{\\vec{#1}}', 1],
+                mag: ['\\lvert \\mathbf{\\vec{#1}} \\rvert', 1],
+                kg: '\\mathrm{kg}',
+                ms: '\\mathrm{m/s}',
+                mm: '\\mathrm{m}^2',
+                mms: '\\mathrm{m}^2\\mathrm{/s}',
+                mmss: '\\mathrm{m}^2\\mathrm{/s}^2',
+                mss: '\\mathrm{m/s}^2',
+                rads: '\\mathrm{rad/s}',
+                radss: '\\mathrm{rad/s}^2',
+                N: '\\mathrm{N}',
+                J: '\\mathrm{J}',
+                s: '\\mathrm{s}',
+                m: '\\mathrm{m}',
+                inch: '\\mathrm{in.}',
+                mile: '\\mathrm{mi.}',
+                mph: '\\mathrm{mph}',
+                ac: 'a_\\mathrm{c}'
+            }
         },
-        options: {
-            // Process math in elements with class 'kdmath' (kramdown's math wrapper)
-            processHtmlClass: 'kdmath|equation',
-            skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        startup: {
+            pageReady: () => {
+                return MathJax.startup.defaultPageReady().then(() => {
+                    console.log('MathJax initial typesetting complete');
+                });
+            }
         }
     };
     </script>
-    <script defer id="MathJax-script"
-            src="https://cdn.jsdelivr.net/npm/mathjax@4/es5/tex-chtml.js"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
     <script type="text/javascript">
         window.Book = {
