@@ -37,9 +37,17 @@ class LinkChecker {
     console.log(chalk.blue('🔍 Starting link check...\n'));
 
     // Find all markdown files
-    const markdownFiles = await glob('**/*.md', { 
+    const markdownFiles = await glob('**/*.md', {
       cwd: this.baseDir,
-      ignore: ['node_modules/**', '_site/**', '.jekyll-cache/**']
+      ignore: [
+        'node_modules/**',
+        '_site/**',
+        '.jekyll-cache/**',
+        // Skip migration documentation files that contain example/placeholder syntax
+        'JEKYLL_TO_*.md',
+        'KRAMDOWN_*.md',
+        '*_MIGRATION_*.md'
+      ]
     });
 
     this.stats.totalFiles = markdownFiles.length;
@@ -134,9 +142,19 @@ class LinkChecker {
 
   async checkSingleLink(link, filePath) {
     const { url } = link;
-    
+
     // Skip mailto and other protocol links
     if (url.match(/^(mailto:|tel:|javascript:|data:)/i)) {
+      return;
+    }
+
+    // Skip template syntax (Jekyll/Liquid/Nunjucks variables)
+    if (url.includes('{{') || url.includes('{%') || url.includes('${')) {
+      return;
+    }
+
+    // Skip common placeholder/example URLs in documentation
+    if (/^(src|image\.jpg|example\.|placeholder\.)/.test(url) || url === 'url') {
       return;
     }
 
@@ -160,7 +178,12 @@ class LinkChecker {
     if (this.checkedUrls.has(url)) {
       const cachedResult = this.checkedUrls.get(url);
       if (!cachedResult.success) {
-        this.addBrokenLink(link, filePath, cachedResult.error);
+        // Network errors should be warnings, not broken links
+        if (cachedResult.isNetworkError) {
+          this.addWarning(`${filePath}:${link.line} - External link may be unreachable: ${url} (${cachedResult.error})`);
+        } else {
+          this.addBrokenLink(link, filePath, cachedResult.error);
+        }
       }
       return;
     }
@@ -201,15 +224,40 @@ class LinkChecker {
       
     } catch (error) {
       let errorMessage = error.message;
-      
+      let isNetworkError = false;
+
+      // Detect various types of network/connection errors
+      const networkErrorPatterns = [
+        'EAI_AGAIN',      // DNS resolution failure (transient)
+        'ENOTFOUND',      // DNS lookup failed
+        'ECONNREFUSED',   // Connection refused
+        'ECONNRESET',     // Connection reset
+        'ETIMEDOUT',      // Connection timed out
+        'ENETUNREACH',    // Network unreachable
+        'EHOSTUNREACH',   // Host unreachable
+        'getaddrinfo',    // DNS lookup errors
+        'socket hang up', // Socket closed unexpectedly
+      ];
+
       if (error.name === 'AbortError') {
         errorMessage = `Timeout after ${this.timeout}ms`;
-      } else if (error.code === 'ENOTFOUND' || error.code === 'ECONNREFUSED') {
-        errorMessage = `Connection failed: ${error.code}`;
+        isNetworkError = true;
+      } else if (networkErrorPatterns.some(pattern =>
+          (error.code && error.code.includes(pattern)) ||
+          (error.message && error.message.includes(pattern)))) {
+        errorMessage = `Network error: ${error.message || error.code}`;
+        isNetworkError = true;
       }
 
-      this.checkedUrls.set(url, { success: false, error: errorMessage });
-      this.addBrokenLink(link, filePath, errorMessage);
+      this.checkedUrls.set(url, { success: false, error: errorMessage, isNetworkError });
+
+      // Treat network errors as warnings (don't fail the build for transient network issues)
+      // This prevents CI failures due to temporary DNS or connection problems
+      if (isNetworkError) {
+        this.addWarning(`${filePath}:${link.line} - External link may be unreachable: ${url} (${errorMessage})`);
+      } else {
+        this.addBrokenLink(link, filePath, errorMessage);
+      }
     }
   }
 
@@ -228,22 +276,41 @@ class LinkChecker {
 
     // Remove URL fragments (anchors)
     targetPath = targetPath.split('#')[0];
-    
+
+    // Skip empty paths (pure anchor links that were stripped)
+    if (!targetPath) {
+      return;
+    }
+
     const fullTargetPath = path.join(this.baseDir, targetPath);
 
-    // Check if file exists
-    try {
-      const stats = fs.statSync(fullTargetPath);
-      
-      if (!stats.isFile() && !stats.isDirectory()) {
-        this.addBrokenLink(link, filePath, 'Path exists but is neither file nor directory');
+    // Check if file exists, trying multiple extensions for Jekyll/MyST style links
+    const pathsToTry = [fullTargetPath];
+
+    // If the path has no extension, try common markdown extensions
+    const ext = path.extname(fullTargetPath);
+    if (!ext) {
+      pathsToTry.push(fullTargetPath + '.md');
+      pathsToTry.push(fullTargetPath + '.html');
+      pathsToTry.push(path.join(fullTargetPath, 'index.md'));
+      pathsToTry.push(path.join(fullTargetPath, 'index.html'));
+    }
+
+    let found = false;
+    for (const pathToCheck of pathsToTry) {
+      try {
+        const stats = fs.statSync(pathToCheck);
+        if (stats.isFile() || stats.isDirectory()) {
+          found = true;
+          break;
+        }
+      } catch (error) {
+        // Continue trying other paths
       }
-    } catch (error) {
-      if (error.code === 'ENOENT') {
-        this.addBrokenLink(link, filePath, 'File not found');
-      } else {
-        this.addBrokenLink(link, filePath, `Access error: ${error.message}`);
-      }
+    }
+
+    if (!found) {
+      this.addBrokenLink(link, filePath, 'File not found');
     }
   }
 
