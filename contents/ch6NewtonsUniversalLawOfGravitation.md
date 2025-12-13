@@ -487,8 +487,52 @@ b) This is identical to the best value to three significant figures.
 (b) Calculate the magnitude of the acceleration due to gravity at Earth due to
 the Sun.
 
-(c) Take the ratio of the Moon’s acceleration to the Sun’s and comment on why
+(c) Take the ratio of the Moon's acceleration to the Sun's and comment on why
 the tides are predominantly due to the Moon in spite of this number.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We'll use Newton's law of gravitation $$ F = G\frac{mM}{r^2} $$ to find the gravitational force, then divide by mass to get acceleration $$ a = \frac{F}{m} = G\frac{M}{r^2} $$. We need the masses and distances for both the Moon and Sun.
+
+**Solution**
+
+(a) Calculate acceleration due to the Moon. Using:
+- Mass of Moon: $$ M_{\text{Moon}} = 7.35 \times 10^{22} $$ kg
+- Earth-Moon distance: $$ r_{\text{Moon}} = 3.84 \times 10^{8} $$ m
+- $$ G = 6.67 \times 10^{-11} $$ N·m²/kg²
+
+<div class="equation">
+$$ a_{\text{Moon}} = G\frac{M_{\text{Moon}}}{r_{\text{Moon}}^2} = (6.67 \times 10^{-11})\frac{7.35 \times 10^{22}}{(3.84 \times 10^{8})^2} $$
+</div>
+
+<div class="equation">
+$$ a_{\text{Moon}} = \frac{4.90 \times 10^{12}}{1.47 \times 10^{17}} = 3.33 \times 10^{-5}\text{ m/s}^2 $$
+</div>
+
+(b) Calculate acceleration due to the Sun. Using:
+- Mass of Sun: $$ M_{\text{Sun}} = 1.99 \times 10^{30} $$ kg
+- Earth-Sun distance: $$ r_{\text{Sun}} = 1.50 \times 10^{11} $$ m
+
+<div class="equation">
+$$ a_{\text{Sun}} = G\frac{M_{\text{Sun}}}{r_{\text{Sun}}^2} = (6.67 \times 10^{-11})\frac{1.99 \times 10^{30}}{(1.50 \times 10^{11})^2} $$
+</div>
+
+<div class="equation">
+$$ a_{\text{Sun}} = \frac{1.33 \times 10^{20}}{2.25 \times 10^{22}} = 5.90 \times 10^{-3}\text{ m/s}^2 $$
+</div>
+
+(c) Calculate the ratio:
+
+<div class="equation">
+$$ \frac{a_{\text{Moon}}}{a_{\text{Sun}}} = \frac{3.33 \times 10^{-5}}{5.90 \times 10^{-3}} = 5.64 \times 10^{-3} \approx 0.006 $$
+</div>
+
+**Discussion**
+
+The acceleration due to the Moon's gravity at Earth is $$ 3.33 \times 10^{-5} $$ m/s², while that due to the Sun is $$ 5.90 \times 10^{-3} $$ m/s². The Sun's gravitational acceleration on Earth is about 177 times stronger than the Moon's. However, tides are caused by the *gradient* (variation) in gravitational force across Earth's diameter, not the absolute magnitude. Because the Moon is much closer to Earth than the Sun, the difference in gravitational pull between the near and far sides of Earth is proportionally much greater for the Moon, making it the dominant cause of tides.
 
 </div>
 </div>
@@ -514,6 +558,39 @@ b) $$ 3.75 \mss $$
 
 (b) By what factor would your weight increase if you could stand on the Sun? (
 Never mind that you cannot.)
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) We'll use $$ g = G\frac{M}{r^2} $$ with the Sun's mass and radius.
+(b) Weight is proportional to gravitational acceleration, so the ratio of weights equals the ratio of $$ g_{\text{Sun}} $$ to $$ g_{\text{Earth}} $$.
+
+**Solution**
+
+(a) Calculate the acceleration due to gravity on the Sun's surface. Using:
+- Mass of Sun: $$ M_{\text{Sun}} = 1.99 \times 10^{30} $$ kg
+- Radius of Sun: $$ r_{\text{Sun}} = 6.96 \times 10^{8} $$ m
+- $$ G = 6.67 \times 10^{-11} $$ N·m²/kg²
+
+<div class="equation">
+$$ g_{\text{Sun}} = G\frac{M_{\text{Sun}}}{r_{\text{Sun}}^2} = (6.67 \times 10^{-11})\frac{1.99 \times 10^{30}}{(6.96 \times 10^{8})^2} $$
+</div>
+
+<div class="equation">
+$$ g_{\text{Sun}} = \frac{1.33 \times 10^{20}}{4.84 \times 10^{17}} = 275\text{ m/s}^2 $$
+</div>
+
+(b) Calculate the factor by which weight would increase:
+
+<div class="equation">
+$$ \frac{g_{\text{Sun}}}{g_{\text{Earth}}} = \frac{275\text{ m/s}^2}{9.80\text{ m/s}^2} = 28.1 $$
+</div>
+
+**Discussion**
+
+The acceleration due to gravity on the Sun's surface is 275 m/s², which is about 28 times stronger than Earth's gravity. If you could somehow stand on the Sun's surface, your weight would increase by a factor of 28.1. This means that if you weigh 70 kg (about 154 lb) on Earth, you would weigh nearly 2000 kg (about 4300 lb) on the Sun - far too much for your body to support, even before considering the intense heat and radiation!
 
 </div>
 </div>
@@ -546,6 +623,33 @@ core of the system.
 Solve part (b) of [Example 1](#example1) using $$ \ac =v^2/r $$.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Example 1 part (b) calculated the centripetal acceleration of the Moon using $$ a_c = r\omega^2 $$. Now we'll solve it using $$ a_c = \frac{v^2}{r} $$ instead. We need to find the Moon's orbital velocity first using $$ v = \frac{2\pi r}{T} $$.
+
+**Solution**
+
+First, calculate the Moon's orbital velocity. Using:
+- Orbital radius: $$ r = 3.84 \times 10^{8} $$ m
+- Orbital period: $$ T = 27.3 $$ days $$ = 27.3 \times 86{,}400 $$ s $$ = 2.36 \times 10^{6} $$ s
+
+<div class="equation">
+$$ v = \frac{2\pi r}{T} = \frac{2\pi(3.84 \times 10^{8}\text{ m})}{2.36 \times 10^{6}\text{ s}} = \frac{2.41 \times 10^{9}}{2.36 \times 10^{6}} = 1.02 \times 10^{3}\text{ m/s} $$
+</div>
+
+Now calculate the centripetal acceleration:
+
+<div class="equation">
+$$ a_c = \frac{v^2}{r} = \frac{(1.02 \times 10^{3}\text{ m/s})^2}{3.84 \times 10^{8}\text{ m}} = \frac{1.04 \times 10^{6}}{3.84 \times 10^{8}} = 2.71 \times 10^{-3}\text{ m/s}^2 $$
+</div>
+
+**Discussion**
+
+Using the alternative formula $$ a_c = \frac{v^2}{r} $$, we obtain $$ 2.71 \times 10^{-3} $$ m/s² for the Moon's centripetal acceleration, which matches (within rounding error) the value of $$ 2.72 \times 10^{-3} $$ m/s² found in Example 1 using $$ a_c = r\omega^2 $$. This confirms that both formulas for centripetal acceleration are equivalent and yield the same result, as expected.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -574,7 +678,7 @@ b) $$ 1.35\times 10^{-6}\N $$, $$ 0.521 $$
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-The existence of the dwarf planet Pluto was proposed based on irregularities in Neptune’s orbit. Pluto was subsequently discovered near its predicted position. But it now appears that the discovery was fortuitous, because Pluto is small and the irregularities in Neptune’s orbit were not well known. To illustrate that Pluto has a minor effect on the orbit of Neptune compared with the closest planet to Neptune:
+The existence of the dwarf planet Pluto was proposed based on irregularities in Neptune's orbit. Pluto was subsequently discovered near its predicted position. But it now appears that the discovery was fortuitous, because Pluto is small and the irregularities in Neptune's orbit were not well known. To illustrate that Pluto has a minor effect on the orbit of Neptune compared with the closest planet to Neptune:
 
 (a) Calculate the acceleration due to gravity at Neptune due to Pluto when they
 are $$ 4.50 \times 10^{12}\m $$ apart, as they are at present. The mass of Pluto
@@ -583,6 +687,45 @@ is $$ 1.4\times 10^{22}\kg $$.
 (b) Calculate the acceleration due to gravity at Neptune due to Uranus,
 presently about $$ 2.50 \times 10^{12}\m $$ apart, and compare it with that due
 to Pluto. The mass of Uranus is $$ 8.62 \times 10^{25}\kg $$.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We'll use $$ a = G\frac{M}{r^2} $$ to calculate the gravitational acceleration at Neptune due to both Pluto and Uranus, then compare the two values.
+
+**Solution**
+
+(a) Calculate acceleration at Neptune due to Pluto:
+
+<div class="equation">
+$$ a_{\text{Pluto}} = G\frac{M_{\text{Pluto}}}{r^2} = (6.67 \times 10^{-11})\frac{1.4 \times 10^{22}}{(4.50 \times 10^{12})^2} $$
+</div>
+
+<div class="equation">
+$$ a_{\text{Pluto}} = \frac{9.34 \times 10^{11}}{2.03 \times 10^{25}} = 4.6 \times 10^{-14}\text{ m/s}^2 $$
+</div>
+
+(b) Calculate acceleration at Neptune due to Uranus:
+
+<div class="equation">
+$$ a_{\text{Uranus}} = G\frac{M_{\text{Uranus}}}{r^2} = (6.67 \times 10^{-11})\frac{8.62 \times 10^{25}}{(2.50 \times 10^{12})^2} $$
+</div>
+
+<div class="equation">
+$$ a_{\text{Uranus}} = \frac{5.75 \times 10^{15}}{6.25 \times 10^{24}} = 9.2 \times 10^{-10}\text{ m/s}^2 $$
+</div>
+
+Compare the two accelerations:
+
+<div class="equation">
+$$ \frac{a_{\text{Uranus}}}{a_{\text{Pluto}}} = \frac{9.2 \times 10^{-10}}{4.6 \times 10^{-14}} = 2.0 \times 10^{4} = 20{,}000 $$
+</div>
+
+**Discussion**
+
+The acceleration due to gravity at Neptune caused by Pluto is $$ 4.6 \times 10^{-14} $$ m/s², while that caused by Uranus is $$ 9.2 \times 10^{-10} $$ m/s². Uranus produces an acceleration at Neptune that is about 20,000 times greater than that of Pluto. This demonstrates that Pluto's gravitational effect on Neptune is indeed negligible compared to Uranus. The discovery of Pluto near its predicted position was fortuitous, as the observed irregularities in Neptune's orbit could not have been caused primarily by such a small body.
 
 </div>
 </div>

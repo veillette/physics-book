@@ -252,6 +252,31 @@ runs at constant speed throughout the race, what is the magnitude of her centrip
 acceleration as she runs the curved portion of the track?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+First, we need to find the runner's constant speed by dividing the total distance by the total time. Then we'll use the centripetal acceleration formula $$ a_c = \frac{v^2}{r} $$ with the radius of curvature given for the curved portion of the track.
+
+**Solution**
+
+Calculate the runner's speed:
+
+<div class="equation">
+$$ v = \frac{d}{t} = \frac{200\text{ m}}{23.2\text{ s}} = 8.62\text{ m/s} $$
+</div>
+
+Now calculate the centripetal acceleration on the curved portion:
+
+<div class="equation">
+$$ a_c = \frac{v^2}{r} = \frac{(8.62\text{ m/s})^2}{30\text{ m}} = \frac{74.3\text{ m}^2\text{/s}^2}{30\text{ m}} = 2.48\text{ m/s}^2 $$
+</div>
+
+**Discussion**
+
+The magnitude of the runner's centripetal acceleration as she runs the curved portion of the track is 2.48 m/s² or approximately 2.5 m/s². This is about one-quarter of the acceleration due to gravity, which the runner would definitely feel as she rounds the curve.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -280,6 +305,49 @@ stationary on the tarmac?
 (c) What is the centripetal acceleration of the propeller tip under these
 conditions? Calculate it in meters per second squared and convert to multiples
 of $$ g $$.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) We'll convert from rev/min to rad/s using the conversion factors: 1 revolution = $$ 2\pi $$ radians and 1 minute = 60 seconds.
+(b) We'll use $$ v = r\omega $$ where the radius is half the diameter.
+(c) We'll use $$ a_c = r\omega^2 $$ to find the centripetal acceleration, then divide by $$ g = 9.80 $$ m/s² to express it as a multiple of g.
+
+**Solution**
+
+(a) Convert angular velocity to rad/s:
+
+<div class="equation">
+$$ \omega = 1200\frac{\text{rev}}{\text{min}} \times \frac{2\pi\text{ rad}}{1\text{ rev}} \times \frac{1\text{ min}}{60\text{ s}} = 126\text{ rad/s} $$
+</div>
+
+(b) Calculate the linear speed at the tip. The radius is half the diameter:
+
+<div class="equation">
+$$ r = \frac{d}{2} = \frac{2.30\text{ m}}{2} = 1.15\text{ m} $$
+</div>
+
+<div class="equation">
+$$ v = r\omega = (1.15\text{ m})(126\text{ rad/s}) = 145\text{ m/s} $$
+</div>
+
+(c) Calculate the centripetal acceleration:
+
+<div class="equation">
+$$ a_c = r\omega^2 = (1.15\text{ m})(126\text{ rad/s})^2 = (1.15\text{ m})(15{,}876\text{ rad}^2\text{/s}^2) = 1.83 \times 10^4\text{ m/s}^2 $$
+</div>
+
+Express as a multiple of g:
+
+<div class="equation">
+$$ \frac{a_c}{g} = \frac{1.83 \times 10^4\text{ m/s}^2}{9.80\text{ m/s}^2} = 1.87 \times 10^3 = 1870 $$
+</div>
+
+**Discussion**
+
+The propeller tip has an angular velocity of 126 rad/s and moves at a linear speed of 145 m/s. The centripetal acceleration at the tip is $$ 1.83 \times 10^4 $$ m/s², which is approximately 1870 times the acceleration due to gravity. This enormous acceleration places tremendous stress on the propeller blades, which is why they must be constructed from very strong materials.
 
 </div>
 </div>
@@ -311,6 +379,44 @@ m long helicopter blade that rotates at 300 rev/min.
 
 (b) Compare the linear speed of the tip with the speed of sound (taken to be 340
 m/s).
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) First, we'll convert the angular velocity from rev/min to rad/s. Then we'll use $$ a_c = r\omega^2 $$ to find the centripetal acceleration at the tip.
+(b) We'll calculate the linear speed using $$ v = r\omega $$ and compare it to the speed of sound.
+
+**Solution**
+
+(a) Convert angular velocity to rad/s:
+
+<div class="equation">
+$$ \omega = 300\frac{\text{rev}}{\text{min}} \times \frac{2\pi\text{ rad}}{1\text{ rev}} \times \frac{1\text{ min}}{60\text{ s}} = 31.4\text{ rad/s} $$
+</div>
+
+Calculate the centripetal acceleration:
+
+<div class="equation">
+$$ a_c = r\omega^2 = (4.00\text{ m})(31.4\text{ rad/s})^2 = (4.00\text{ m})(986\text{ rad}^2\text{/s}^2) = 3.95 \times 10^3\text{ m/s}^2 $$
+</div>
+
+(b) Calculate the linear speed at the tip:
+
+<div class="equation">
+$$ v = r\omega = (4.00\text{ m})(31.4\text{ rad/s}) = 126\text{ m/s} $$
+</div>
+
+Compare to the speed of sound:
+
+<div class="equation">
+$$ \frac{v}{v_{\text{sound}}} = \frac{126\text{ m/s}}{340\text{ m/s}} = 0.371 $$
+</div>
+
+**Discussion**
+
+The magnitude of the centripetal acceleration at the tip of the helicopter blade is $$ 3.95 \times 10^3 $$ m/s² or approximately 3950 m/s². The linear speed of the tip is 126 m/s, which is about 37% of the speed of sound. This is well below the speed of sound, which is important because if the blade tips approached or exceeded the speed of sound, they would create shock waves that would dramatically reduce efficiency and increase noise and vibration.
 
 </div>
 </div>
@@ -347,7 +453,46 @@ vessels in his spins.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What percentage of the acceleration at Earth’s surface is the acceleration due to gravity at the position of a satellite located 300 km above Earth?
+What percentage of the acceleration at Earth's surface is the acceleration due to gravity at the position of a satellite located 300 km above Earth?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We'll use the relationship $$ g = \frac{GM}{r^2} $$ to find the acceleration due to gravity at the satellite's altitude. The acceleration is inversely proportional to the square of the distance from Earth's center. We'll need to use Earth's radius (approximately 6380 km) and add the satellite's altitude to get the total distance from Earth's center.
+
+**Solution**
+
+The acceleration due to gravity at any distance $$ r $$ from Earth's center is:
+
+<div class="equation">
+$$ g = \frac{GM}{r^2} $$
+</div>
+
+Taking the ratio of gravity at the satellite's position to gravity at Earth's surface:
+
+<div class="equation">
+$$ \frac{g_{\text{satellite}}}{g_{\text{surface}}} = \frac{GM/r_{\text{satellite}}^2}{GM/r_{\text{Earth}}^2} = \frac{r_{\text{Earth}}^2}{r_{\text{satellite}}^2} $$
+</div>
+
+where:
+- $$ r_{\text{Earth}} = 6.38 \times 10^6 $$ m
+- $$ r_{\text{satellite}} = 6.38 \times 10^6 + 3.00 \times 10^5 = 6.68 \times 10^6 $$ m
+
+<div class="equation">
+$$ \frac{g_{\text{satellite}}}{g_{\text{surface}}} = \frac{(6.38 \times 10^6\text{ m})^2}{(6.68 \times 10^6\text{ m})^2} = \frac{4.07 \times 10^{13}}{4.46 \times 10^{13}} = 0.912 $$
+</div>
+
+Convert to percentage:
+
+<div class="equation">
+$$ 0.912 \times 100\% = 91.2\% $$
+</div>
+
+**Discussion**
+
+The acceleration due to gravity at 300 km above Earth's surface is 91.2% of the acceleration at Earth's surface. This shows that gravity doesn't decrease very rapidly with altitude - even at 300 km above the surface, gravity is still over 90% as strong as it is on the ground. The "weightlessness" experienced by astronauts at this altitude is not due to the absence of gravity, but rather to the fact that they are in continuous free fall around Earth.
 
 </div>
 </div>
@@ -373,7 +518,40 @@ b) 29.7 km/s
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A rotating space station is said to create “artificial gravity”—a loosely-defined term used for an acceleration that would be crudely similar to gravity. The outer wall of the rotating space station would become a floor for the astronauts, and centripetal acceleration supplied by the floor would allow astronauts to exercise and maintain muscle and bone strength more naturally than in non-rotating space environments. If the space station is 200 m in diameter, what angular velocity would produce an “artificial gravity” of $$ 9.80\mss $$ at the rim?
+A rotating space station is said to create "artificial gravity"—a loosely-defined term used for an acceleration that would be crudely similar to gravity. The outer wall of the rotating space station would become a floor for the astronauts, and centripetal acceleration supplied by the floor would allow astronauts to exercise and maintain muscle and bone strength more naturally than in non-rotating space environments. If the space station is 200 m in diameter, what angular velocity would produce an "artificial gravity" of $$ 9.80\mss $$ at the rim?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We need to find the angular velocity that produces a centripetal acceleration equal to $$ g = 9.80 $$ m/s² at the rim of the space station. We'll use the formula $$ a_c = r\omega^2 $$ and solve for $$ \omega $$. The radius is half the diameter.
+
+**Solution**
+
+The radius of the space station is:
+
+<div class="equation">
+$$ r = \frac{d}{2} = \frac{200\text{ m}}{2} = 100\text{ m} $$
+</div>
+
+Using the centripetal acceleration formula and solving for $$ \omega $$:
+
+<div class="equation">
+$$ a_c = r\omega^2 $$
+</div>
+
+<div class="equation">
+$$ \omega^2 = \frac{a_c}{r} = \frac{9.80\text{ m/s}^2}{100\text{ m}} = 0.0980\text{ rad}^2\text{/s}^2 $$
+</div>
+
+<div class="equation">
+$$ \omega = \sqrt{0.0980\text{ rad}^2\text{/s}^2} = 0.313\text{ rad/s} $$
+</div>
+
+**Discussion**
+
+The space station must rotate with an angular velocity of 0.313 rad/s to produce artificial gravity equal to Earth's gravity at the rim. This corresponds to about 3.0 revolutions per minute. At this rotation rate, astronauts standing on the outer wall would experience a centripetal acceleration pushing them toward the floor that would feel very similar to normal gravity, allowing them to maintain muscle and bone mass during extended space missions.
 
 </div>
 </div>
