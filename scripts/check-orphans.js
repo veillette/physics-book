@@ -15,7 +15,14 @@ class OrphanFileFinder {
     this.contentDir = path.join(this.baseDir, 'contents');
     this.resourcesDir = path.join(this.baseDir, 'resources');
     this.assetsDir = path.join(this.baseDir, 'assets');
-    
+
+    // Files to exclude from orphan detection (source files, build artifacts, etc.)
+    this.excludedFiles = new Set([
+      'assets/icon/image.png',              // Source image for icon generation
+      'assets/icon/favicon.ico',            // Duplicate of root favicon.ico
+      'assets/icon/apple-touch-icon-180x180.png'  // Alternative icon size
+    ]);
+
     this.stats = {
       totalFiles: 0,
       totalImages: 0,
@@ -25,7 +32,7 @@ class OrphanFileFinder {
       orphanImages: 0,
       totalMarkdownFiles: 0
     };
-    
+
     this.referencedPaths = new Set();
     this.orphanFiles = [];
     this.orphanImages = [];
@@ -352,7 +359,10 @@ class OrphanFileFinder {
           }
         }
 
-        if (!isReferenced) {
+        // Check if file is in the exclusion list
+        const isExcluded = this.excludedFiles.has(normalizedPath);
+
+        if (!isReferenced && !isExcluded) {
           this.stats.orphanFiles++;
           this.orphanFiles.push({
             path: relativePath,
@@ -360,6 +370,9 @@ class OrphanFileFinder {
             size: this.getFileSize(path.join(this.assetsDir, file)),
             type: this.getFileType(file)
           });
+        } else if (isExcluded) {
+          // Count excluded files as referenced for stats purposes
+          this.stats.referencedFiles++;
         }
       }
     } catch (error) {
