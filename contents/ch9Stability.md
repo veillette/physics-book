@@ -141,12 +141,55 @@ Stand straight with your heels, back, and head against a wall. Bend forward from
 A round pencil lying on its side as in [Figure 4](#Figure4) is in neutral equilibrium relative to displacements perpendicular to its length. What is its stability relative to displacements parallel to its length?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We analyze what happens to the pencil's center of gravity when it is displaced parallel to its length, and determine whether the resulting torque (if any) would restore it to its original position, move it further away, or have no effect.
+
+**Solution**
+
+A round pencil lying on a flat horizontal surface is also in **neutral equilibrium** for displacements parallel to its length.
+
+Here's why:
+- When the pencil is pushed along its length (parallel to its axis), the center of gravity (cg) moves horizontally but remains at the same height above the surface.
+- The pencil remains in contact with the surface, and the normal force continues to act directly below the cg.
+- Since the cg doesn't rise or fall, there is no gravitational potential energy change.
+- There is no restoring force or torque that would return the pencil to its original position.
+- There is also no force or torque that would push it further from its original position.
+
+The pencil simply stays wherever it is placed, which is the definition of neutral equilibrium.
+
+**Discussion**
+
+This analysis reveals that the pencil is in neutral equilibrium for any displacement along the flat surface—whether perpendicular or parallel to its length. This makes sense because the flat surface and round cross-section create a situation where the cg height is independent of position. Compare this to a marble on a flat surface, which is similarly in neutral equilibrium in all horizontal directions.
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 Explain the need for tall towers on a suspension bridge to ensure stable equilibrium.
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We analyze how the height of the towers affects the stability of the bridge by considering the geometry of the suspension cables and how forces are distributed to counteract disturbances.
+
+**Solution**
+
+Tall towers on a suspension bridge are necessary to ensure stable equilibrium for several interconnected reasons:
+
+1. **Lowering the center of gravity of the roadway:** The roadway deck hangs below the main cables. Taller towers allow the cables to drape higher, positioning the heavy roadway relatively lower. A lower center of gravity provides greater stability against tipping or swaying.
+
+2. **Creating restoring forces:** When the bridge deck is displaced laterally by wind or other forces, the geometry of the cable system creates restoring forces. The cables pull the deck back toward its equilibrium position. Taller towers create more vertical cable segments, which provide stronger horizontal restoring forces when displaced.
+
+3. **Distributing weight effectively:** The cables transfer the weight of the deck to the towers at a steep angle. Taller towers create more vertical cable angles, reducing horizontal forces on the towers and creating a more stable force distribution.
+
+4. **Geometric stability:** The inverted "V" or "A" shape created by the cables from the tall towers to the deck creates a wide base of support for the suspended structure. This is similar to how a person standing with feet apart is more stable than one with feet together.
+
+**Discussion**
+
+This principle is analogous to lowering the center of gravity in other stable systems. Just as a chicken with its cg below its hips is more stable than a human with cg above the hips, a suspension bridge with the roadway suspended well below tall towers is more stable than one with shorter towers. The famous collapse of the Tacoma Narrows Bridge in 1940 highlighted the importance of proper design for stability against wind-induced oscillations, leading to modern bridge designs that emphasize both vertical and torsional stability.
 </div>
 </div>
 
@@ -170,6 +213,66 @@ $$ F_{\text{wall}}=1.43\times 10^{3}\N $$
 <div class="problem" markdown="1">
 Two children of mass 20.0 kg and 30.0 kg sit balanced on a seesaw with the pivot point located at the center of the seesaw. If the children are separated by a distance of 3.00 m, at what distance from the pivot point is the small child sitting in order to maintain the balance?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For the seesaw to be balanced, the net torque about the pivot must be zero. We use the second condition for equilibrium: $$ \text{net}\tau = 0 $$. Let $$ r_1 $$ be the distance of the smaller child from the pivot and $$ r_2 $$ be the distance of the larger child. We know that $$ r_1 + r_2 = 3.00 \m $$.
+
+**Solution**
+
+Let:
+- $$ m_1 = 20.0 \kg $$ (smaller child)
+- $$ m_2 = 30.0 \kg $$ (larger child)
+- $$ r_1 $$ = distance of smaller child from pivot
+- $$ r_2 $$ = distance of larger child from pivot
+- $$ r_1 + r_2 = 3.00 \m $$
+
+For balance, the torques must be equal in magnitude:
+
+<div class="equation">
+$$ \tau_1 = \tau_2 $$
+</div>
+
+<div class="equation">
+$$ m_1 g r_1 = m_2 g r_2 $$
+</div>
+
+The gravitational acceleration cancels:
+
+<div class="equation">
+$$ m_1 r_1 = m_2 r_2 $$
+</div>
+
+<div class="equation">
+$$ (20.0 \kg) r_1 = (30.0 \kg) r_2 $$
+</div>
+
+From the constraint $$ r_1 + r_2 = 3.00 \m $$, we get $$ r_2 = 3.00 \m - r_1 $$.
+
+Substituting:
+
+<div class="equation">
+$$ (20.0 \kg) r_1 = (30.0 \kg)(3.00 \m - r_1) $$
+</div>
+
+<div class="equation">
+$$ 20.0 r_1 = 90.0 - 30.0 r_1 $$
+</div>
+
+<div class="equation">
+$$ 50.0 r_1 = 90.0 $$
+</div>
+
+<div class="equation">
+$$ r_1 = \frac{90.0}{50.0} = 1.80 \m $$
+</div>
+
+The smaller child sits **1.80 m** from the pivot point.
+
+**Discussion**
+
+As expected, the lighter child must sit farther from the pivot to balance the heavier child. The ratio of distances is inversely proportional to the ratio of masses: $$ r_1/r_2 = m_2/m_1 = 30.0/20.0 = 1.5 $$. We can verify: $$ r_2 = 3.00 - 1.80 = 1.20 \m $$, and indeed $$ 1.80/1.20 = 1.5 $$. This is the same principle used in balance scales and lever systems.
 </div>
 </div>
 
@@ -195,6 +298,65 @@ of the plank, what are the magnitudes of the forces $$ \vb{F}_{1} $$
 and $$ \vb{F}_{2} $$ ?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We apply both conditions for equilibrium. The first condition (net force = 0) relates the forces, and the second condition (net torque = 0) allows us to solve for one of the unknown forces. We choose the pivot point at the location of one hand to eliminate one unknown from the torque equation.
+
+**Solution**
+
+Given:
+- Plank length: $$ L = 2.00 \m $$
+- Plank mass: $$ m = 20.0 \kg $$
+- Weight: $$ W = mg = (20.0 \kg)(9.80 \mss) = 196 \N $$
+- Center of gravity: at the middle of the plank, 1.00 m from each end
+- $$ F_1 $$ is applied at one end (at position 0 m), pushing down
+- $$ F_2 $$ is applied at 0.500 m from the end, pushing up
+- Distance from $$ F_1 $$ to cg: 1.00 m
+- Distance from $$ F_2 $$ to cg: 1.00 - 0.500 = 0.500 m
+
+**Finding $$ F_2 $$ using torque equilibrium:**
+
+Choose the pivot at the location of $$ F_1 $$ (the end of the plank). Then $$ F_1 $$ produces no torque.
+
+The torque due to the weight (at 1.00 m from the pivot) is clockwise (negative):
+$$ \tau_W = -W \times 1.00 \m = -(196 \N)(1.00 \m) = -196 \text{ N·m} $$
+
+The torque due to $$ F_2 $$ (at 0.500 m from the pivot) is counterclockwise (positive):
+$$ \tau_{F_2} = F_2 \times 0.500 \m $$
+
+For equilibrium: $$ \text{net}\tau = 0 $$
+
+<div class="equation">
+$$ F_2 \times 0.500 \m - 196 \text{ N·m} = 0 $$
+</div>
+
+<div class="equation">
+$$ F_2 = \frac{196 \text{ N·m}}{0.500 \m} = 392 \N $$
+</div>
+
+**Finding $$ F_1 $$ using force equilibrium:**
+
+Taking up as positive and down as negative:
+
+<div class="equation">
+$$ \text{net}F = 0 $$
+</div>
+
+<div class="equation">
+$$ F_2 - F_1 - W = 0 $$
+</div>
+
+<div class="equation">
+$$ F_1 = F_2 - W = 392 \N - 196 \N = 196 \N $$
+</div>
+
+The magnitudes are: $$ F_1 = 196 \N $$ (pushing down) and $$ F_2 = 392 \N $$ (pushing up).
+
+**Discussion**
+
+Notice that $$ F_2 $$ is greater than the weight of the plank! This is because $$ F_2 $$ must not only support the weight but also counteract the downward push of $$ F_1 $$. The hand at position 2 acts as a fulcrum, and the system behaves like a lever. The fact that $$ F_2 = 2W $$ makes sense given the geometry: the cg is twice as far from $$ F_2 $$ as it is from where $$ F_2 $$ is applied. This carrying technique is common for long boards, but it requires significant force from the supporting hand.
+</div>
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
@@ -214,12 +376,63 @@ $$ F_{\text{B}}=2.12\times 10^{4}\N $$
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
 (a) What force must be exerted by the wind to support a 2.50-kg chicken in the position shown in [Figure 12](#Figure12)?
-(b) What is the ratio of this force to the chicken’s weight?
+(b) What is the ratio of this force to the chicken's weight?
 (c) Does this support the contention that the chicken has a relatively stable construction?
 
 ![A chicken is trying to balance on its left foot, which is 9 point zero centimeters to the right of the chicken. The force of the wind is blowing from the left toward the chicken&#x2019;s center of gravity c g, which is 20 cm above the ground. The weight of the chicken w is acting at the center of gravity.](../resources/Figure_09_03_12.jpg " ")
 {: #Figure12}
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For the chicken to be in equilibrium while displaced, the torques about the pivot point (the foot) must sum to zero. The weight creates a torque about the foot, and the wind force must create an equal and opposite torque. From the figure, the center of gravity is 9.0 cm horizontally from the foot and 20 cm above the ground.
+
+**Solution for (a)**
+
+Given:
+- Mass: $$ m = 2.50 \kg $$
+- Weight: $$ W = mg = (2.50 \kg)(9.80 \mss) = 24.5 \N $$
+- Horizontal distance from foot to cg: $$ d_x = 9.0 \text{ cm} = 0.090 \m $$
+- Height of cg: $$ h = 20 \text{ cm} = 0.20 \m $$
+
+Taking torques about the pivot point (the foot):
+- The weight creates a clockwise torque: $$ \tau_W = W \times d_x $$
+- The wind force creates a counterclockwise torque: $$ \tau_{\text{wind}} = F_{\text{wind}} \times h $$
+
+For equilibrium:
+
+<div class="equation">
+$$ \tau_{\text{wind}} = \tau_W $$
+</div>
+
+<div class="equation">
+$$ F_{\text{wind}} \times h = W \times d_x $$
+</div>
+
+<div class="equation">
+$$ F_{\text{wind}} = \frac{W \times d_x}{h} = \frac{(24.5 \N)(0.090 \m)}{0.20 \m} = 11.0 \N $$
+</div>
+
+The wind must exert a force of **11.0 N** on the chicken.
+
+**Solution for (b)**
+
+<div class="equation">
+$$ \frac{F_{\text{wind}}}{W} = \frac{11.0 \N}{24.5 \N} = 0.45 $$
+</div>
+
+The ratio of wind force to weight is **0.45**, or about 45%.
+
+**Solution for (c)**
+
+Yes, this supports the contention that the chicken has a relatively stable construction. Even when displaced significantly from equilibrium (with the cg 9.0 cm away from the foot), only a moderate wind force—less than half the chicken's weight—is needed to maintain balance.
+
+This is because the chicken's cg is relatively low (only 20 cm above the ground), creating a short lever arm for the wind force, while the horizontal displacement creates a modest restoring torque from gravity. If the chicken's cg were higher (like a human's), a much smaller wind force relative to weight would cause tipping.
+
+**Discussion**
+
+This problem illustrates why chickens are remarkably stable birds. Their low center of gravity and wide stance create a geometry where large displacements require proportionally larger disturbing forces. Compare this to a human, whose high cg means that even small displacements can lead to falling. This stable construction allows chickens to maintain balance easily while pecking at the ground or when buffeted by wind.
 </div>
 </div>
 
@@ -248,6 +461,99 @@ Suppose a 900-kg car is on the bridge in [Figure 11](#Figure11) with its center 
 (b) Find the direction and magnitude of the force exerted by the hinges on the bridge.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+From Figure 13, we can extract the geometry of the drawbridge. The bridge makes a horizontal span with cables attached at the far end at an angle of 40° above horizontal. We apply the two conditions for equilibrium: net force = 0 and net torque = 0. The system includes the bridge (mass 2500 kg from the figure) plus the car (mass 900 kg).
+
+**Solution for (a)**
+
+Given (from the figure and problem):
+- Bridge mass: $$ m_b = 2500 \kg $$
+- Car mass: $$ m_c = 900 \kg $$
+- Cable angle: $$ \theta = 40° $$
+- Bridge length: $$ L $$ (cable attachment at far end)
+- Bridge cg: at $$ L/2 $$ from hinges
+- Car position: at $$ L/4 $$ from hinges (halfway between hinges and cable attachment, which means halfway along the half-length to the cables = L/4 from hinges... but the problem states "halfway between hinges and cable attachments" which means at $$ L/2 $$)
+
+Let me reconsider: "halfway between the hinges and the cable attachments" means at the midpoint of the bridge, which is at $$ L/2 $$ from the hinges—the same location as the bridge's center of gravity.
+
+Taking torques about the hinge (to eliminate the hinge force):
+
+The weight of the bridge acts at $$ L/2 $$:
+$$ \tau_{b} = -m_b g (L/2) $$
+
+The weight of the car acts at $$ L/2 $$:
+$$ \tau_{c} = -m_c g (L/2) $$
+
+The vertical component of the cable tension acts at $$ L $$:
+$$ \tau_{T} = T\sin{40°} \cdot L $$
+
+For equilibrium: $$ \text{net}\tau = 0 $$
+
+<div class="equation">
+$$ T\sin{40°} \cdot L = m_b g (L/2) + m_c g (L/2) $$
+</div>
+
+<div class="equation">
+$$ T\sin{40°} = \frac{(m_b + m_c) g}{2} $$
+</div>
+
+<div class="equation">
+$$ T = \frac{(m_b + m_c) g}{2\sin{40°}} = \frac{(2500 \kg + 900 \kg)(9.80 \mss)}{2(0.643)} $$
+</div>
+
+<div class="equation">
+$$ T = \frac{(3400 \kg)(9.80 \mss)}{1.286} = \frac{33320 \N}{1.286} = 2.59 \times 10^{4} \N $$
+</div>
+
+The force in the cables is **$$ 2.59 \times 10^{4} \N $$** or about **25.9 kN**.
+
+**Solution for (b)**
+
+For the first condition of equilibrium, we analyze forces in both x and y directions.
+
+Horizontal (x) direction:
+<div class="equation">
+$$ F_{hx} - T\cos{40°} = 0 $$
+</div>
+<div class="equation">
+$$ F_{hx} = T\cos{40°} = (2.59 \times 10^{4} \N)(0.766) = 1.98 \times 10^{4} \N $$
+</div>
+
+Vertical (y) direction:
+<div class="equation">
+$$ F_{hy} + T\sin{40°} - (m_b + m_c)g = 0 $$
+</div>
+<div class="equation">
+$$ F_{hy} = (m_b + m_c)g - T\sin{40°} $$
+</div>
+<div class="equation">
+$$ F_{hy} = (3400 \kg)(9.80 \mss) - (2.59 \times 10^{4} \N)(0.643) $$
+</div>
+<div class="equation">
+$$ F_{hy} = 33320 \N - 16650 \N = 1.67 \times 10^{4} \N $$
+</div>
+
+Magnitude of hinge force:
+<div class="equation">
+$$ F_h = \sqrt{F_{hx}^2 + F_{hy}^2} = \sqrt{(1.98 \times 10^{4})^2 + (1.67 \times 10^{4})^2} $$
+</div>
+<div class="equation">
+$$ F_h = \sqrt{3.92 \times 10^{8} + 2.79 \times 10^{8}} = \sqrt{6.71 \times 10^{8}} = 2.59 \times 10^{4} \N $$
+</div>
+
+Direction:
+<div class="equation">
+$$ \phi = \arctan\left(\frac{F_{hy}}{F_{hx}}\right) = \arctan\left(\frac{1.67 \times 10^{4}}{1.98 \times 10^{4}}\right) = \arctan(0.843) = 40.2° $$
+</div>
+
+The hinge exerts a force of **$$ 2.59 \times 10^{4} \N $$** at **40° above horizontal** (pointing toward the cables).
+
+**Discussion**
+
+The cable tension increased from the case without the car. The hinge force has both horizontal and vertical components because the cables pull at an angle. The horizontal component of the hinge force exactly balances the horizontal pull from the cables, while the vertical component helps support some of the weight along with the cables' vertical component.
+</div>
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
@@ -273,6 +579,90 @@ b) 21.6 N
 (a) What minimum coefficient of friction is needed between the legs and the ground to keep the sign in [Figure 14](#Figure14) in the position shown if the chain breaks?
 (b) What force is exerted by each side on the hinge?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+If the chain breaks, the only horizontal force preventing the legs from sliding apart is friction at the ground. Each half of the sign is in equilibrium under the action of its weight, the normal force from the ground, friction, and the force from the hinge. We analyze one half of the sign, using the dimensions from Figure 14.
+
+From Figure 14:
+- Total sign mass: $$ m = 8.00 \kg $$
+- Each leg mass: $$ m/2 = 4.00 \kg $$
+- Base width: 1.10 m, so each leg's base is 0.55 m from center
+- Height of hinge: 1.30 m
+- Chain is at 0.50 m below hinge (but chain is broken)
+- Center of gravity of each leg is at its geometric center
+
+**Solution for (a)**
+
+Consider one half of the A-frame sign. The forces acting on it are:
+- Weight $$ W = (4.00 \kg)(9.80 \mss) = 39.2 \N $$ acting at the center of gravity
+- Normal force $$ N $$ (upward) at the foot
+- Friction force $$ f $$ (horizontal, toward center) at the foot
+- Hinge force $$ F_h $$ at the top
+
+For vertical equilibrium of one leg:
+<div class="equation">
+$$ N = W = 39.2 \N $$
+</div>
+
+Taking torques about the foot of the leg (to find the horizontal component of the hinge force):
+
+The leg makes an angle with the vertical. From the geometry:
+- Horizontal distance from foot to hinge: 0.55 m
+- Vertical height of hinge: 1.30 m
+- The cg of the leg is at half these values from the foot: 0.275 m horizontal, 0.65 m vertical
+
+Torque due to weight (clockwise, about foot):
+$$ \tau_W = W \times 0.275 \m = (39.2 \N)(0.275 \m) = 10.78 \text{ N·m} $$
+
+Torque due to horizontal hinge force (counterclockwise, about foot):
+$$ \tau_{Fh} = F_{h,horizontal} \times 1.30 \m $$
+
+For equilibrium:
+<div class="equation">
+$$ F_{h,horizontal} \times 1.30 \m = 10.78 \text{ N·m} $$
+</div>
+<div class="equation">
+$$ F_{h,horizontal} = \frac{10.78}{1.30} = 8.29 \N $$
+</div>
+
+For horizontal equilibrium of one leg:
+<div class="equation">
+$$ f = F_{h,horizontal} = 8.29 \N $$
+</div>
+
+The minimum coefficient of friction:
+<div class="equation">
+$$ \mu_{min} = \frac{f}{N} = \frac{8.29 \N}{39.2 \N} = 0.212 $$
+</div>
+
+The minimum coefficient of friction is **0.212** (or approximately 0.21).
+
+**Solution for (b)**
+
+The hinge force on each side has:
+- Horizontal component: $$ F_{h,horizontal} = 8.29 \N $$ (pushing outward on each leg)
+- Vertical component: $$ F_{h,vertical} = 0 $$ (by symmetry, the vertical components from each leg must cancel at the hinge)
+
+Wait, let me reconsider. The hinge connects the two legs. For each leg, the hinge exerts a force. By symmetry, the horizontal components push outward (away from center) on each leg, and any vertical component would need to be analyzed.
+
+At the hinge, vertical equilibrium of each leg gives:
+$$ N + F_{h,vertical} = W $$
+
+Since $$ N = W $$ from the analysis above, $$ F_{h,vertical} = 0 $$.
+
+Therefore, the force exerted by each side on the hinge is purely horizontal:
+
+<div class="equation">
+$$ F_h = F_{h,horizontal} = 8.29 \N \approx 8.3 \N $$
+</div>
+
+The force exerted by each side on the hinge is **8.3 N** horizontally.
+
+**Discussion**
+
+Without the chain, friction alone must prevent the legs from sliding apart. The required coefficient of friction (about 0.21) is modest and easily achieved on most surfaces like concrete or asphalt. However, on a smooth surface like wet tile or ice, the coefficient of friction might be lower, causing the sign to collapse. This is why A-frame signs often have rubber feet or textured pads—to ensure adequate friction in various conditions. The 8.3 N force at the hinge is relatively small compared to the problem with the chain (21.6 N), because without the chain, the legs can push against each other at the hinge with less constraint.
 </div>
 </div>
 

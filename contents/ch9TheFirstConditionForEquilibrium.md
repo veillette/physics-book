@@ -88,12 +88,59 @@ allowfullscreen></iframe>
 What can you say about the velocity of a moving body that is in dynamic equilibrium? Draw a sketch of such a body using clearly labeled arrows to represent all external forces on the body.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+To address this question, we apply the definition of dynamic equilibrium: a state where the net external force is zero while the object is in motion. This means the object must have constant velocity (both constant speed and constant direction).
+
+**Solution**
+
+A body in dynamic equilibrium has a **constant velocity**—that is, it moves at a constant speed in a straight line. Since the net external force is zero ($$ \text{net}\vb{F}=0 $$), by Newton's second law, the acceleration is also zero. With zero acceleration, the velocity cannot change in either magnitude or direction.
+
+A sketch of such a body would show:
+- An object (such as a car or box) moving in one direction
+- All forces acting on it balanced (equal in magnitude, opposite in direction)
+- For example, a car moving at constant velocity on a level road:
+  - Weight ($$ \vb{W} $$) pointing downward
+  - Normal force ($$ \vb{N} $$) pointing upward, equal in magnitude to the weight
+  - Applied force ($$ \vb{F}_{\text{app}} $$) pointing in the direction of motion
+  - Friction/air resistance ($$ \vb{f} $$) pointing opposite to motion, equal in magnitude to the applied force
+
+**Discussion**
+
+The key insight is that equilibrium does not mean the object is at rest—it means the object has zero acceleration. Dynamic equilibrium is common in everyday situations: a plane flying at constant cruising speed, a car on cruise control on a flat highway, or a skydiver who has reached terminal velocity. In all these cases, forces are present but perfectly balanced.
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 Under what conditions can a rotating body be in equilibrium? Give an example.
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We need to consider both conditions for equilibrium: the first condition (net force equals zero) and the second condition (net torque equals zero). For a rotating body, equilibrium means no angular acceleration, not necessarily zero rotation.
+
+**Solution**
+
+A rotating body can be in equilibrium if:
+
+1. **The net external force is zero** ($$ \text{net}\vb{F}=0 $$), ensuring no linear acceleration
+2. **The net external torque is zero** ($$ \text{net}\tau=0 $$), ensuring no angular acceleration
+
+Under these conditions, the body rotates at a **constant angular velocity**—constant rotational speed about a fixed axis.
+
+**Example:** A ceiling fan running at constant speed is in rotational equilibrium. The motor provides a torque that exactly balances the resistive torque from air friction. The blades rotate at constant angular velocity because the net torque is zero. Similarly, the normal force from the ceiling mount balances the weight of the fan, satisfying the first condition.
+
+Other examples include:
+- A merry-go-round spinning at constant speed (after reaching steady state)
+- Earth rotating on its axis at a nearly constant rate
+- A spinning top that has reached a steady precession rate
+
+**Discussion**
+
+This is analogous to dynamic equilibrium for linear motion. Just as a car moving at constant velocity has zero net force, a body rotating at constant angular velocity has zero net torque. The body is not accelerating (linearly or rotationally), even though it is definitely in motion. This concept is crucial in designing rotating machinery, where engineers must ensure that torques balance to prevent unwanted acceleration or deceleration.
 </div>
 </div>
 

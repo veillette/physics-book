@@ -328,6 +328,25 @@ negative.
 What three factors affect the torque created by a force relative to a specific pivot point?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We analyze the torque equation $$ \tau = rF\sin{\theta} $$ to identify the three factors that determine torque magnitude.
+
+**Solution**
+
+The three factors that affect the torque created by a force relative to a specific pivot point are:
+
+1. **The magnitude of the force ($$ F $$)**: Greater force produces greater torque. Pushing harder on a door makes it rotate faster.
+
+2. **The distance from the pivot point to where the force is applied ($$ r $$)**: Greater distance produces greater torque. Pushing a door near the handle (far from the hinges) is more effective than pushing near the hinges.
+
+3. **The angle between the force and the lever arm ($$ \theta $$)**: Maximum torque occurs when the force is perpendicular to the lever arm ($$ \theta = 90° $$, so $$ \sin{\theta} = 1 $$). When the force is parallel to the lever arm ($$ \theta = 0° $$ or $$ 180° $$), no torque is produced.
+
+**Discussion**
+
+These three factors are combined in the torque equation $$ \tau = rF\sin{\theta} $$, or equivalently $$ \tau = r_{\perp}F $$ where $$ r_{\perp} = r\sin{\theta} $$ is the perpendicular lever arm. Understanding these factors is essential for designing mechanical systems like levers, wrenches, and door handles.
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -338,6 +357,31 @@ rotating at its base or by falling straight down? Explain your answer. How is it
 fall if it is struck with the same force at its base? Note that this depends on how firmly the wall is attached at its base.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We apply the concept of torque to analyze how the point of force application affects the wall's response. The base of the wall acts as a pivot point for rotation.
+
+**Solution**
+
+**When struck near the top:** The wall is more likely to **fall over by rotating at its base**. Here's why:
+
+- The impact force applied near the top creates a large torque about the base because the lever arm (distance from the base to the point of impact) is maximum.
+- Using $$ \tau = rF $$, if $$ r $$ (the height of impact) is large, the torque is large.
+- This large torque causes significant angular acceleration, making the wall rotate about its base.
+- The wall's rotational inertia cannot resist this large torque, so it topples over.
+
+**When struck at the base:** The wall is more likely to **slide or crumble rather than rotate**, or it may fall straight down:
+
+- The impact force applied at the base creates minimal torque because the lever arm approaches zero ($$ r \approx 0 $$).
+- With negligible torque, there is no tendency to rotate.
+- Instead, the force acts to translate (push) the wall or to shatter it at the point of impact.
+- If the wall is firmly attached at its base, the impact may cause localized crushing at the base, leading to the wall collapsing straight down.
+
+**Discussion**
+
+This principle is used in controlled demolitions. Explosives or wrecking balls applied at the base cause buildings to collapse straight down into their footprint, while impacts higher up can cause unpredictable toppling. The same physics explains why it's easier to tip over a tall bookshelf by pushing at the top rather than at the bottom.
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -345,6 +389,31 @@ fall if it is struck with the same force at its base? Note that this depends on 
 Mechanics sometimes put a length of pipe over the handle of a wrench when trying to remove a very
 tight bolt. How does this help? (It is also hazardous since it can break the bolt.)
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We apply the torque equation $$ \tau = rF $$ to understand how extending the lever arm affects the torque produced.
+
+**Solution**
+
+Adding a pipe over the wrench handle **increases the torque** applied to the bolt by increasing the lever arm (the distance $$ r $$ from the bolt to where the force is applied).
+
+From the torque equation $$ \tau = rF\sin{\theta} $$:
+- The force $$ F $$ the mechanic can apply is limited by their strength
+- The angle is typically kept at 90° for maximum effectiveness
+- By extending the handle with a pipe, the distance $$ r $$ is increased
+
+For example, if a wrench handle is 20 cm long and a 40 cm pipe is added, the new lever arm is 60 cm—three times longer. This triples the torque produced for the same applied force.
+
+**Why it's hazardous:** The increased torque can exceed what the bolt was designed to withstand, causing:
+- The bolt to shear off (break)
+- The bolt threads to strip
+- The wrench to slip suddenly when the bolt breaks loose, potentially causing injury
+
+**Discussion**
+
+This is a practical application of the torque equation. The same principle explains why longer wrenches are used for tighter bolts, why door handles are placed far from hinges, and why long-handled tools make work easier. However, the increased mechanical advantage comes with the risk of applying excessive force, which is why proper-sized tools and torque wrenches are important in precision applications.
 </div>
 </div>
 
@@ -374,6 +443,41 @@ When tightening a bolt, you push perpendicularly on a wrench with a force of 165
 (b) Convert this torque to footpounds.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For part (a), we use the torque equation $$ \tau = rF\sin{\theta} $$. Since the force is applied perpendicularly, $$ \theta = 90° $$ and $$ \sin{\theta} = 1 $$. For part (b), we use the conversion factor between newton-meters and foot-pounds.
+
+**Solution for (a)**
+
+Using the torque equation with $$ \theta = 90° $$:
+
+<div class="equation">
+$$ \tau = rF\sin{\theta} = rF\sin{90°} = rF $$
+</div>
+
+Substituting the given values:
+
+<div class="equation">
+$$ \tau = (0.140 \m)(165 \N) = 23.1 \text{ N·m} $$
+</div>
+
+The torque exerted on the bolt is **23.1 N·m**.
+
+**Solution for (b)**
+
+The conversion factor is: $$ 1 \text{ N·m} = 0.7376 \text{ ft·lb} $$
+
+<div class="equation">
+$$ \tau = 23.1 \text{ N·m} \times \frac{0.7376 \text{ ft·lb}}{1 \text{ N·m}} = 17.0 \text{ ft·lb} $$
+</div>
+
+The torque in foot-pounds is **17.0 ft·lb**.
+
+**Discussion**
+
+This torque value is typical for tightening automotive fasteners. Many car manuals specify torque values in foot-pounds (common in the US) or newton-meters (common elsewhere). A torque wrench calibrated in either unit helps ensure bolts are tightened to specifications, preventing both overtightening (which can strip threads or break bolts) and undertightening (which can cause bolts to loosen over time).
+</div>
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
@@ -396,6 +500,55 @@ Use the second condition for equilibrium $$ \text{(net τ = 0)} $$ to calculate 
 in [Example 1](#example1), employing any data given or solved for in part (a)
 of the example.
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We apply the second condition for equilibrium (net torque equals zero) using a pivot point other than the actual pivot of the seesaw. By choosing a different pivot point—such as the location of one of the children—the unknown force $$ F_{\text{p}} $$ will have a non-zero lever arm and will appear in the torque equation.
+
+From Example 1: $$ m_1 = 26.0 \kg $$, $$ r_1 = 1.60 \m $$, $$ m_2 = 32.0 \kg $$, $$ r_2 = 1.30 \m $$
+
+**Solution**
+
+Let us choose the position of child 1 (the 26.0 kg child) as our pivot point. From this pivot:
+
+- The torque due to $$ w_1 $$ is zero (since it acts at the pivot)
+- The lever arm for $$ F_{\text{p}} $$ is $$ r_1 = 1.60 \m $$ (distance from child 1 to the pivot)
+- The lever arm for $$ w_2 $$ is $$ r_1 + r_2 = 1.60 \m + 1.30 \m = 2.90 \m $$
+
+Applying the second condition for equilibrium (taking counterclockwise as positive):
+
+<div class="equation">
+$$ \text{net}\tau = 0 $$
+</div>
+
+<div class="equation">
+$$ \tau_{F_p} - \tau_{w_2} = 0 $$
+</div>
+
+<div class="equation">
+$$ F_{\text{p}} \cdot r_1 - w_2 \cdot (r_1 + r_2) = 0 $$
+</div>
+
+Solving for $$ F_{\text{p}} $$:
+
+<div class="equation">
+$$ F_{\text{p}} = \frac{w_2(r_1 + r_2)}{r_1} = \frac{m_2 g(r_1 + r_2)}{r_1} $$
+</div>
+
+<div class="equation">
+$$ F_{\text{p}} = \frac{(32.0 \kg)(9.80 \mss)(2.90 \m)}{1.60 \m} $$
+</div>
+
+<div class="equation">
+$$ F_{\text{p}} = \frac{909.4 \text{ N·m}}{1.60 \m} = 568 \N $$
+</div>
+
+The supporting force exerted by the pivot is **568 N**.
+
+**Discussion**
+
+This result agrees with the answer obtained using the first condition for equilibrium in Example 1. The fact that we get the same answer using either method confirms that both conditions for equilibrium are satisfied simultaneously. This problem demonstrates that the choice of pivot point is arbitrary when applying the second condition for equilibrium—any choice will give the correct answer if the system is truly in equilibrium. Choosing a strategic pivot point (like the location of one of the forces) can simplify the calculation by eliminating that force's torque from the equation.
 </div>
 </div>
 
