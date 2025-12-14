@@ -273,6 +273,50 @@ Find the following for path B in the [Figure above](#Figure5):
 (c) The displacement from start to finish.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For path B, identify the starting and ending positions from the figure, then calculate distance traveled, magnitude of displacement, and displacement.
+
+**Solution**
+
+From the figure, path B starts at $$ x_0 = 12 \m $$ and ends at $$ x_f = 7 \m $$. The path is a straight line with no backtracking.
+
+**(a) Distance traveled:**
+
+Since there is no backtracking, the distance traveled equals the total path length:
+<div class="equation">
+$$ \text{Distance} = |x_f - x_0| = |7 \m - 12 \m| = 5 \m $$
+</div>
+
+**(b) Magnitude of displacement:**
+
+The magnitude of displacement is the absolute value of the change in position:
+<div class="equation">
+$$ |\Delta x| = |x_f - x_0| = |7 \m - 12 \m| = 5 \m $$
+</div>
+
+**(c) Displacement:**
+
+Displacement includes direction (sign):
+<div class="equation">
+$$ \Delta x = x_f - x_0 = 7 \m - 12 \m = -5 \m $$
+</div>
+
+The negative sign indicates motion to the left.
+
+**Discussion**
+
+For straight-line motion without backtracking, the distance traveled and magnitude of displacement are equal. The displacement is negative because the object moved in the negative $$ x $$ direction (left). This makes physical sense since path B clearly shows leftward motion on the diagram.
+
+**Answer**
+
+(a) The distance traveled is 5 m.
+
+(b) The magnitude of the displacement is 5 m.
+
+(c) The displacement is −5 m (or 5 m to the left).
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -332,6 +376,53 @@ Find the following for path D in the [Figure above](#Figure5):
 (b) The magnitude of the displacement from start to finish.
 (c) The displacement from start to finish.
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For path D, trace the entire path including all direction changes to find distance traveled. For displacement, only the starting and ending positions matter.
+
+**Solution**
+
+From the figure, path D:
+- Starts at $$ x_0 = 9 \m $$
+- Goes left to $$ x = 3 \m $$ (moves 6 m)
+- Turns around and goes right to $$ x_f = 5 \m $$ (moves 2 m)
+
+**(a) Distance traveled:**
+
+Add up all the path segments regardless of direction:
+<div class="equation">
+$$ \text{Distance} = 6 \m + 2 \m = 8 \m $$
+</div>
+
+**(b) Magnitude of displacement:**
+
+The magnitude of displacement is the absolute value of the change in position:
+<div class="equation">
+$$ |\Delta x| = |x_f - x_0| = |5 \m - 9 \m| = 4 \m $$
+</div>
+
+**(c) Displacement:**
+
+Displacement includes direction (sign):
+<div class="equation">
+$$ \Delta x = x_f - x_0 = 5 \m - 9 \m = -4 \m $$
+</div>
+
+The negative sign indicates net motion to the left.
+
+**Discussion**
+
+Notice that the distance traveled (8 m) is greater than the magnitude of displacement (4 m). This is because path D involves backtracking – the object moves left past its final position, then returns partway. The net displacement is negative because the final position (5 m) is to the left of the initial position (9 m), even though the object briefly reached as far left as 3 m. This demonstrates the important distinction between distance traveled (total path length) and displacement (net change in position).
+
+**Answer**
+
+(a) The distance traveled is 8 m.
+
+(b) The magnitude of the displacement is 4 m.
+
+(c) The displacement is −4 m (or 4 m to the left).
 </div>
 </div>
 
