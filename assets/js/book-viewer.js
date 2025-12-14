@@ -11,14 +11,9 @@ if (BookConfig.includes.fontawesome) {
 
 const BOOK_TEMPLATE =
     `<div class="book with-summary font-size-2 font-family-1">
-            <div class="book-header">
-                <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary">
-                <i class="fa-solid fa-bars"></i></a>
-                <h1>
-                <i class="fa-solid fa-spinner fa-spin book-spinner"></i>
-                <span class="book-title"></span>
-                </h1>
-            </div>
+        <a href="#" class="btn toggle-summary" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+        </a>
         <div class="book-summary">
         </div>
 
@@ -60,7 +55,6 @@ function parser() {
     const book = body.querySelector('.book');
     const bookPage = book.querySelector('.page-inner > .normal');
     const bookSummary = book.querySelector('.book-summary');
-    const bookTitle = book.querySelector('.book-title');
     const bookBody = book.querySelector('.book-body');
     const toggleSummary = book.querySelector('.toggle-summary');
 
@@ -376,7 +370,6 @@ function parser() {
             }
 
             tocHelper.loadToc(toc, title);
-            bookTitle.textContent = tocHelper.title;
         });
 
 
@@ -440,7 +433,6 @@ function parser() {
             });
 
             bookPage.innerHTML = '';
-            bookTitle.textContent = htmlDivElement.querySelector('title').textContent;
             const altPage = document.createElement('div');
             altPage.className = 'contents';
             altPage.append(...htmlDivElement.childNodes);
