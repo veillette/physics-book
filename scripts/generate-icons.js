@@ -13,7 +13,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const ICON_SIZES = [72, 96, 128, 144, 152, 192, 384, 512];
+const ICON_SIZES = [48, 72, 96, 128, 144, 152, 192, 384, 512];
 const ROOT_DIR = path.join(__dirname, '..');
 const ICONS_DIR = path.join(ROOT_DIR, 'assets', 'icon');
 const SOURCE_LOGO = path.join(ICONS_DIR, 'image.png');
