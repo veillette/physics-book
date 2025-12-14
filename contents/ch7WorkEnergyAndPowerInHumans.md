@@ -222,6 +222,41 @@ exercise alone will be sufficient to lose weight? You may wish to consider that 
 (b) Considering the amount of power generated, do you think a well-trained athlete could do this repetitively for long periods of time?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The work done equals the change in kinetic energy. Power is work divided by time.
+
+**Solution for (a)**
+
+The change in kinetic energy is:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+\Delta \KE &=& \frac{1}{2}mv^{2} - 0 = \frac{1}{2}(70.0\kg)(10.0\ms)^{2}\\
+\Delta \KE &=& 3500\J
+\end{array} $$
+</div>
+
+The power output is:
+
+<div class="equation">
+ $$ P = \frac{W}{t} = \frac{3500\J}{3.00\s} = 1167\text{ W} \approx 1.17\text{ kW} $$
+</div>
+
+Converting to horsepower (1 hp = 746 W):
+
+<div class="equation">
+ $$ P = \frac{1167\text{ W}}{746\text{ W/hp}} = 1.56\text{ hp} $$
+</div>
+
+**Discussion for (b)**
+
+(a) The sprinter's power output is approximately 1170 W or 1.56 hp.
+(b) This is a very high power output—about 1200 W. From Table 2 in this section, sprinting requires about 2415 W total metabolic power. However, this level of exertion cannot be sustained for long periods. Sprinters can only maintain top speed for 10-20 seconds before fatigue sets in. Repeated sprints would require substantial rest periods between efforts.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -244,6 +279,49 @@ the 7.27-kg shot from rest to 14.0 m/s, while raising it 0.800 m. (Do not includ
 (a) What is the efficiency of an out-of-condition person who does $$ 2.10\times 10^{5} \J $$ of useful work while metabolizing 500 kcal of food energy?
 (b) How many food calories would a well-conditioned athlete metabolize in doing the same work with
 an efficiency of 20%?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Efficiency is defined as $$ \text{Eff} = \frac{W_{\text{out}}}{E_{\text{in}}} $$. We need to convert kcal to joules using 1 kcal = 4184 J.
+
+**Solution for (a)**
+
+The energy input is:
+
+<div class="equation">
+ $$ E_{\text{in}} = (500\text{ kcal})(4184\text{ J/kcal}) = 2.09 \times 10^{6}\J $$
+</div>
+
+The efficiency is:
+
+<div class="equation">
+ $$ \text{Eff} = \frac{W_{\text{out}}}{E_{\text{in}}} = \frac{2.10 \times 10^{5}\J}{2.09 \times 10^{6}\J} = 0.100 = 10.0\% $$
+</div>
+
+**Solution for (b)**
+
+For the well-conditioned athlete with 20% efficiency:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+0.20 &=& \frac{2.10 \times 10^{5}\J}{E_{\text{in}}}\\
+E_{\text{in}} &=& \frac{2.10 \times 10^{5}\J}{0.20} = 1.05 \times 10^{6}\J
+\end{array} $$
+</div>
+
+Converting to kcal:
+
+<div class="equation">
+ $$ E_{\text{in}} = \frac{1.05 \times 10^{6}\J}{4184\text{ J/kcal}} = 251\text{ kcal} $$
+</div>
+
+**Discussion**
+
+(a) The out-of-condition person has an efficiency of 10.0%.
+(b) The well-conditioned athlete would metabolize approximately 251 kcal to do the same work, which is about half of what the out-of-condition person requires. This demonstrates the significant advantage of physical conditioning in terms of energy efficiency.
 
 </div>
 </div>

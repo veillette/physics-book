@@ -441,6 +441,41 @@ as a 65.0-kg sprinter running at 10.0 m/s?
 needed for the movement of larger animals would relate to metabolic rates.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), we use the kinetic energy formula $$ \KE = \frac{1}{2}mv^{2} $$ for both the elephant and the sprinter. Setting them equal allows us to solve for the elephant's velocity.
+
+**Solution for (a)**
+
+First, calculate the sprinter's kinetic energy:
+
+<div class="equation">
+ $$ \KE_{\text{sprinter}} = \frac{1}{2}(65.0\kg)(10.0\ms)^{2} = 3250\J $$
+</div>
+
+Setting the elephant's kinetic energy equal to this:
+
+<div class="equation">
+ $$ \frac{1}{2}m_{\text{elephant}}v_{\text{elephant}}^{2} = 3250\J $$
+</div>
+
+Solving for the elephant's velocity:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+v_{\text{elephant}} &=& \sqrt{\frac{2(3250\J)}{3000\kg}}\\
+v_{\text{elephant}} &=& \sqrt{2.167\text{ m}^{2}/\text{s}^{2}}\\
+v_{\text{elephant}} &=& 1.47\ms
+\end{array} $$
+</div>
+
+**Discussion for (b)**
+
+The elephant must move at 1.47 m/s to have the same kinetic energy as the sprinter running at 10.0 m/s. Even though the elephant is moving much more slowly, it requires significant energy to move its large mass. Larger animals need proportionally larger metabolic rates to generate the energy required for movement. This is why metabolic rate scales with body mass—larger animals require more energy for basic functions and movement.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -459,6 +494,60 @@ You will need to look up the definition of a nautical mile (1 knot = 1 nautical 
 <div class="problem" markdown="1">
 (a) Calculate the force needed to bring a 950-kg car to rest from a speed of 90.0 km/h in a distance of 120 m (a fairly typical distance for a non-panic stop).
 (b) Suppose instead the car hits a concrete abutment at full speed and is brought to a stop in 2.00 m. Calculate the force exerted on the car and compare it with the force found in part (a).
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use the work-energy theorem: the net work done equals the change in kinetic energy. The work done by the braking force is $$ W = -Fd $$ (negative because it opposes motion), and this must equal the change in kinetic energy, which is $$ \Delta \KE = 0 - \frac{1}{2}mv_{0}^{2} = -\frac{1}{2}mv_{0}^{2} $$.
+
+**Solution for (a)**
+
+First, convert the speed: $$ v_{0} = 90.0\text{ km/h} = 90.0 \times \frac{1000\m}{3600\s} = 25.0\ms $$
+
+The initial kinetic energy is:
+
+<div class="equation">
+ $$ \KE_{0} = \frac{1}{2}(950\kg)(25.0\ms)^{2} = 2.97 \times 10^{5}\J $$
+</div>
+
+Using the work-energy theorem ($$ W_{\text{net}} = \Delta \KE $$):
+
+<div class="equation">
+ $$ -Fd = -\KE_{0} $$
+</div>
+
+Solving for F:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+F &=& \frac{\KE_{0}}{d} = \frac{2.97 \times 10^{5}\J}{120\m}\\
+F &=& 2.47 \times 10^{3}\N \approx 2.5 \times 10^{3}\N
+\end{array} $$
+</div>
+
+**Solution for (b)**
+
+Using the same initial kinetic energy but with $$ d = 2.00\m $$:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+F &=& \frac{\KE_{0}}{d} = \frac{2.97 \times 10^{5}\J}{2.00\m}\\
+F &=& 1.48 \times 10^{5}\N \approx 1.5 \times 10^{5}\N
+\end{array} $$
+</div>
+
+The ratio of forces is:
+
+<div class="equation">
+ $$ \frac{F_{\text{abutment}}}{F_{\text{braking}}} = \frac{1.48 \times 10^{5}\N}{2.47 \times 10^{3}\N} = 60 $$
+</div>
+
+**Discussion**
+
+(a) The force needed for a normal stop is approximately 2500 N.
+(b) The force when hitting the abutment is approximately 150,000 N, which is 60 times larger than the normal braking force. This dramatic increase explains why high-speed collisions are so dangerous—the forces involved are enormous when the stopping distance is very small.
 
 </div>
 </div>
@@ -480,7 +569,7 @@ $$ 2.8 \times 10^{3} \N $$
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Boxing gloves are padded to lessen the force of a blow.
-(a) Calculate the force exerted by a boxing glove on an opponent’s face,
+(a) Calculate the force exerted by a boxing glove on an opponent's face,
 if the glove and face compress 7.50 cm during a blow in which the 7.00-kg arm and glove are
 brought to rest from an initial speed of 10.0 m/s.
 (b) Calculate the force exerted by an identical blow in the gory old days when no gloves
@@ -488,6 +577,48 @@ were used and the knuckles and face would compress only 2.00 cm.
 (c) Discuss the magnitude of the force with glove on.
 Does it seem high enough
 to cause damage even though it is lower than the force with no glove?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use the work-energy theorem. The kinetic energy of the arm and glove is converted to work done in stopping over distance $$ d $$. The work done by the stopping force is $$ W = -Fd $$, which equals the change in kinetic energy $$ \Delta \KE = 0 - \frac{1}{2}mv^{2} $$.
+
+**Solution for (a)**
+
+The initial kinetic energy is:
+
+<div class="equation">
+ $$ \KE = \frac{1}{2}(7.00\kg)(10.0\ms)^{2} = 350\J $$
+</div>
+
+Using the work-energy theorem with $$ d = 7.50\text{ cm} = 0.0750\m $$:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+-Fd &=& -\KE\\
+F &=& \frac{\KE}{d} = \frac{350\J}{0.0750\m}\\
+F &=& 4.67 \times 10^{3}\N \approx 4.7 \times 10^{3}\N
+\end{array} $$
+</div>
+
+**Solution for (b)**
+
+With $$ d = 2.00\text{ cm} = 0.0200\m $$:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+F &=& \frac{\KE}{d} = \frac{350\J}{0.0200\m}\\
+F &=& 1.75 \times 10^{4}\N \approx 1.8 \times 10^{4}\N
+\end{array} $$
+</div>
+
+**Discussion for (c)**
+
+(a) With a glove, the force is approximately 4700 N.
+(b) Without a glove, the force is approximately 17,500 N, which is about 3.7 times larger.
+(c) Even with a glove, 4700 N is still a very substantial force—about 1000 pounds! This is certainly enough to cause significant damage. The glove reduces the force by increasing the stopping distance, but the blow can still be devastating. This explains why even padded boxing gloves can cause concussions and other serious injuries.
 
 </div>
 </div>

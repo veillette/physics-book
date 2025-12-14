@@ -295,6 +295,39 @@ observable galaxies, the average brightness of which is somewhat less than our
 own galaxy.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+From Table 1: Sun's power = $$ 4 \times 10^{26}\text{W} $$, Supernova (at peak) = $$ 5 \times 10^{37}\text{W} $$, Milky Way galaxy = $$ 10^{37}\text{W} $$.
+
+**Solution for (a)**
+
+The star's initial power is:
+
+<div class="equation">
+ $$ P_{\text{star}} = 1000 \times 4 \times 10^{26}\text{W} = 4 \times 10^{29}\text{W} $$
+</div>
+
+The power increase factor is:
+
+<div class="equation">
+ $$ \frac{P_{\text{supernova}}}{P_{\text{star}}} = \frac{5 \times 10^{37}\text{W}}{4 \times 10^{29}\text{W}} = 1.25 \times 10^{8} \approx 10^{8} $$
+</div>
+
+**Solution for (b)**
+
+<div class="equation">
+ $$ \frac{P_{\text{supernova}}}{P_{\text{galaxy}}} = \frac{5 \times 10^{37}\text{W}}{10^{37}\text{W}} = 5 $$
+</div>
+
+**Discussion for (c)**
+
+(a) The supernova increases in brightness by a factor of about 100 million.
+(b) The supernova is 5 times brighter than the entire Milky Way galaxy.
+(c) Since a supernova can be 5 times brighter than an entire galaxy, it should definitely be possible to observe supernovas in distant galaxies. In fact, astronomers regularly observe supernovas in galaxies billions of light-years away, using them as "standard candles" to measure cosmic distances and study the expansion of the universe.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -318,6 +351,31 @@ What is the cost of operating a 3.00-W electric clock for a
 year if the cost of electricity is $$ 0.0900 \$ \text{per kW}\cdot h $$ ?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The energy consumed is $$ E = Pt $$, where $$ P = 3.00\text{W} = 0.00300\text{kW} $$ and $$ t = 1\text{ year} = 365 \times 24\text{ h} = 8760\text{ h} $$. The cost is then energy times the rate.
+
+**Solution**
+
+Energy consumed in one year:
+
+<div class="equation">
+ $$ E = Pt = (0.00300\text{kW})(8760\text{ h}) = 26.3\text{ kW}\cdot\text{h} $$
+</div>
+
+Cost:
+
+<div class="equation">
+ $$ \text{Cost} = (26.3\text{ kW}\cdot\text{h})(\$0.0900\text{ per kW}\cdot\text{h}) = \$2.37 $$
+</div>
+
+**Discussion**
+
+The cost of operating a 3.00-W electric clock for one year is approximately $2.37, which is quite economical.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -339,6 +397,40 @@ $$ \$149 $$
 (a) What is the average power consumption in watts of an appliance that uses
 $$ 5.00 \text{kW}\cdot h $$ of energy per day?
 (b) How many joules of energy does this appliance consume in a year?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), we use $$ P = E/t $$, where $$ E = 5.00\text{ kW}\cdot\text{h} $$ per day and $$ t = 24\text{ h} $$.
+
+For part (b), we find the yearly energy and convert to joules.
+
+**Solution for (a)**
+
+<div class="equation">
+ $$ P = \frac{E}{t} = \frac{5.00\text{ kW}\cdot\text{h}}{24\text{ h}} = 0.208\text{ kW} = 208\text{ W} $$
+</div>
+
+**Solution for (b)**
+
+Energy per year:
+
+<div class="equation">
+ $$ E_{\text{year}} = (5.00\text{ kW}\cdot\text{h/day})(365\text{ days}) = 1825\text{ kW}\cdot\text{h} $$
+</div>
+
+Converting to joules (1 kW·h = 3.6 × 10⁶ J):
+
+<div class="equation">
+ $$ E_{\text{year}} = (1825\text{ kW}\cdot\text{h})(3.6 \times 10^{6}\text{ J/kW}\cdot\text{h}) = 6.57 \times 10^{9}\J $$
+</div>
+
+**Discussion**
+
+(a) The average power consumption is 208 W.
+(b) The appliance consumes approximately $$ 6.6 \times 10^{9}\J $$ of energy per year.
 
 </div>
 </div>
