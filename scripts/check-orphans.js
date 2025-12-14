@@ -53,7 +53,7 @@ class OrphanFileFinder {
   }
 
   async scanMarkdownFiles() {
-    console.log(chalk.gray('📄 Scanning markdown, HTML, and JSON files for references...'));
+    console.log(chalk.gray('📄 Scanning markdown, HTML, JSON, JavaScript, and CSS files for references...'));
 
     // Find all markdown files
     const markdownFiles = await glob('**/*.md', {
@@ -73,7 +73,19 @@ class OrphanFileFinder {
       ignore: ['node_modules/**', '_site/**', '.jekyll-cache/**', 'package*.json']
     });
 
-    const allFiles = [...markdownFiles, ...htmlFiles, ...jsonFiles];
+    // Find all JavaScript files (for service workers, configs, etc.)
+    const jsFiles = await glob('**/*.js', {
+      cwd: this.baseDir,
+      ignore: ['node_modules/**', '_site/**', '.jekyll-cache/**', 'scripts/**']
+    });
+
+    // Find all CSS files (for background images, etc.)
+    const cssFiles = await glob('**/*.css', {
+      cwd: this.baseDir,
+      ignore: ['node_modules/**', '_site/**', '.jekyll-cache/**']
+    });
+
+    const allFiles = [...markdownFiles, ...htmlFiles, ...jsonFiles, ...jsFiles, ...cssFiles];
     this.stats.totalMarkdownFiles = markdownFiles.length;
 
     for (const filePath of allFiles) {
@@ -107,6 +119,16 @@ class OrphanFileFinder {
       .replace(/\.\.\s*\n\s*\//g, '../')
       .replace(/(\.(jpg|jpeg|png|gif|svg|webp|bmp|tiff|css|js|json|html))\n/gi, '$1 ')
       .replace(/\)\s*\n\s*\{/g, ') {'); // Also handle )\n{: for Jekyll attributes
+
+    // Extract references from JavaScript files (string literals with image paths)
+    if (sourceFile.endsWith('.js')) {
+      this.extractJavaScriptReferences(normalizedContent, references, sourceFile);
+    }
+
+    // Extract references from CSS files (url() functions)
+    if (sourceFile.endsWith('.css')) {
+      this.extractCSSReferences(normalizedContent, references, sourceFile);
+    }
 
     // Extract Jekyll/Liquid template references: {{'/path/to/file'| relative_url }}
     const jekyllRegex = /\{\{\s*['"]([^'"]+)['"]\s*\|\s*relative_url\s*\}\}/g;
@@ -211,6 +233,56 @@ class OrphanFileFinder {
       obj.forEach(item => this.extractJsonReferences(item, references, sourceFile));
     } else if (obj && typeof obj === 'object') {
       Object.values(obj).forEach(value => this.extractJsonReferences(value, references, sourceFile));
+    }
+  }
+
+  extractJavaScriptReferences(content, references, sourceFile) {
+    // Extract string literals that look like image paths
+    // Matches strings in quotes that contain image extensions
+    const jsStringRegex = /['"]((?:[^'"]*\/)?[^'"]*\.(jpg|jpeg|png|gif|svg|webp|bmp|tiff|ico))['"]/gi;
+    let match;
+
+    while ((match = jsStringRegex.exec(content)) !== null) {
+      const path = match[1];
+      if (this.isLocalFile(path)) {
+        const resolvedPath = this.resolvePath(path, sourceFile);
+        if (resolvedPath) {
+          this.referencedPaths.add(resolvedPath);
+          references.add(resolvedPath);
+        }
+      }
+    }
+
+    // Also extract template literal paths
+    const templateLiteralRegex = /`((?:[^`]*\/)?[^`]*\.(jpg|jpeg|png|gif|svg|webp|bmp|tiff|ico))`/gi;
+
+    while ((match = templateLiteralRegex.exec(content)) !== null) {
+      const path = match[1];
+      if (this.isLocalFile(path)) {
+        const resolvedPath = this.resolvePath(path, sourceFile);
+        if (resolvedPath) {
+          this.referencedPaths.add(resolvedPath);
+          references.add(resolvedPath);
+        }
+      }
+    }
+  }
+
+  extractCSSReferences(content, references, sourceFile) {
+    // Extract url() references from CSS
+    // Matches: url('path'), url("path"), url(path)
+    const cssUrlRegex = /url\(\s*(['"]?)([^'")]+)\1\s*\)/gi;
+    let match;
+
+    while ((match = cssUrlRegex.exec(content)) !== null) {
+      const url = match[2];
+      if (this.isLocalFile(url)) {
+        const resolvedPath = this.resolvePath(url, sourceFile);
+        if (resolvedPath) {
+          this.referencedPaths.add(resolvedPath);
+          references.add(resolvedPath);
+        }
+      }
     }
   }
 
