@@ -761,12 +761,51 @@ time for this period.
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 10.8 \ms $$
 
-(b)
+**Strategy**
+
+The sprinter starts from rest and accelerates at a constant rate. For part (a), we use the kinematic equation $$ v = v_0 + at $$ to find the velocity after 2.40 s. For part (b), we sketch a position-time graph, which should be parabolic for constant acceleration starting from rest.
+
+**Solution**
+
+**(a) Speed after 2.40 s:**
+
+1. Identify the known values:
+   - Initial velocity: $$ v_0 = 0 $$ (starts from rest)
+   - Acceleration: $$ a = 4.50 \mss $$
+   - Time: $$ t = 2.40 \s $$
+
+2. Use the kinematic equation:
+<div class="equation">
+$$ v = v_0 + at $$
+</div>
+
+3. Substitute the known values:
+<div class="equation">
+$$ v = 0 + (4.50)(2.40) = 10.8 \ms $$
+</div>
+
+**(b) Position-time graph:**
+
+The position as a function of time for constant acceleration starting from rest is given by:
+<div class="equation">
+$$ x = \frac{1}{2}at^2 = \frac{1}{2}(4.50)t^2 = 2.25t^2 $$
+</div>
+
+This is a parabolic function, as shown in the graph below. The position increases quadratically with time, and the slope of the graph (which represents velocity) increases linearly with time.
 
 ![Line graph of position in meters versus time in seconds. The line begins at the origin and is concave up, with its slope increasing over time.](../resources/Figure_02_05_13.jpg)
 {: #Figure13}
+
+**Discussion**
+
+The sprinter reaches a speed of 10.8 m/s (about 38.9 km/h or 24.2 mph) in just 2.40 seconds with an acceleration of $$ 4.50 \mss $$, which is nearly half of gravitational acceleration. This is realistic for an Olympic-class athlete. The parabolic shape of the position-time graph is characteristic of constant acceleration - the curve gets steeper as time progresses because the velocity increases linearly. The slope at $$ t = 2.40 \s $$ corresponds to the final velocity of 10.8 m/s.
+
+**Answer**
+
+(a) The sprinter's speed 2.40 s later is 10.8 m/s.
+
+(b) The position-time graph is parabolic, starting at the origin with increasing slope, as shown in Figure 13.
 
 </div>
 </div>
@@ -781,7 +820,48 @@ the initial velocity of the ball?
 
 </div>
 <div class="solution" markdown="1">
-38.9 m/s (about 87 miles per hour)
+
+**Strategy**
+
+The ball decelerates from its initial velocity to rest (final velocity = 0) in a very short time. We use the kinematic equation $$ v = v_0 + at $$ to find the initial velocity. The deceleration (negative acceleration) and time are given.
+
+**Solution**
+
+1. Identify the known values:
+   - Final velocity: $$ v = 0 $$ (ball stops)
+   - Acceleration: $$ a = -2.10 \times 10^{4} \mss $$ (negative because it's decelerating)
+   - Time: $$ t = 1.85 \times 10^{-3} \s $$ (1.85 ms)
+
+2. Use the kinematic equation:
+<div class="equation">
+$$ v = v_0 + at $$
+</div>
+
+3. Solve for initial velocity $$ v_0 $$:
+<div class="equation">
+$$ 0 = v_0 + (-2.10 \times 10^{4})(1.85 \times 10^{-3}) $$
+</div>
+
+<div class="equation">
+$$ v_0 = 2.10 \times 10^{4} \times 1.85 \times 10^{-3} $$
+</div>
+
+<div class="equation">
+$$ v_0 = 38.85 \ms \approx 38.9 \ms $$
+</div>
+
+4. Converting to other units for context:
+<div class="equation">
+$$ v_0 = 38.9 \ms \times \frac{3600 \s}{1 \text{ hr}} \times \frac{1 \text{ km}}{1000 \m} \times \frac{1 \text{ mile}}{1.609 \text{ km}} \approx 87 \text{ mph} $$
+</div>
+
+**Discussion**
+
+The initial velocity of 38.9 m/s (about 87 mph) is consistent with a well-thrown baseball. The enormous deceleration of $$ 2.10 \times 10^{4} \mss $$ (over 2,000 times gravitational acceleration) occurs because the ball stops in such a short time - only 1.85 milliseconds. Despite this huge deceleration, the well-padded mitt protects the catcher's hand by spreading the force over a larger area and slightly extending the stopping time. Without the padding, the contact time would be even shorter and the deceleration even greater, potentially causing injury. This problem illustrates why proper protective equipment is essential in sports.
+
+**Answer**
+
+The initial velocity of the ball was 38.9 m/s (approximately 87 miles per hour).
 
 </div>
 </div>
