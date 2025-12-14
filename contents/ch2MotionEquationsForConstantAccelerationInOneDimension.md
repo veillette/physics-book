@@ -1295,7 +1295,51 @@ puck accelerates.
 
 </div>
 <div class="solution" markdown="1">
- $$ 0.799 \m $$
+
+**Strategy**
+
+The puck accelerates from one velocity to another in a known time. We need to find the distance over which this acceleration occurs. We can use the equation relating distance, initial velocity, final velocity, and time, which is $$ x = \frac{v_0 + v}{2}t $$ (average velocity times time), or we can first find acceleration and then use another equation.
+
+**Solution**
+
+1. Identify the known values:
+   - Initial velocity: $$ v_0 = 8.00 \ms $$
+   - Final velocity: $$ v = 40.0 \ms $$
+   - Time: $$ t = 3.33 \times 10^{-2} \s $$
+
+2. Use the equation relating displacement to velocities and time:
+<div class="equation">
+$$ x = \frac{v_0 + v}{2}t $$
+</div>
+
+This equation works because the average velocity during constant acceleration is simply the arithmetic mean of initial and final velocities.
+
+3. Substitute the known values:
+<div class="equation">
+$$ x = \frac{8.00 + 40.0}{2} \times (3.33 \times 10^{-2}) $$
+</div>
+
+<div class="equation">
+$$ x = \frac{48.0}{2} \times (3.33 \times 10^{-2}) = 24.0 \times 0.0333 $$
+</div>
+
+<div class="equation">
+$$ x = 0.799 \m $$
+</div>
+
+**Discussion**
+
+The puck accelerates over a distance of about 80 cm (roughly 31 inches), which is reasonable for a hockey slap shot where the stick blade maintains contact with the puck during the entire shooting motion. The puck's velocity increases from 8.00 m/s to 40.0 m/s - a fivefold increase in speed! This represents an acceleration of:
+
+<div class="equation">
+$$ a = \frac{v - v_0}{t} = \frac{40.0 - 8.00}{0.0333} = 961 \mss $$
+</div>
+
+This is about 98 times gravitational acceleration (98g), which demonstrates the enormous forces involved in a professional slap shot. The final speed of 40.0 m/s (144 km/h or 89 mph) is typical for a powerful slap shot in hockey.
+
+**Answer**
+
+The puck accelerates over a distance of 0.799 m (approximately 80 cm or 31 inches).
 
 </div>
 </div>
@@ -1361,11 +1405,88 @@ how long will it take to come to a stop from this velocity?
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 28.0 \ms $$
 
-(b) $$ 50.9 \s $$
+**Strategy**
 
-(c) 7.68 km to accelerate and 713 m to decelerate
+This problem involves two phases: acceleration and deceleration of a freight train. For part (a), we use $$ v = v_0 + at $$ to find the final velocity after acceleration. For part (b), we use the same equation to find the time to decelerate from this velocity to rest. For part (c), we calculate distances using appropriate kinematic equations. Remember to convert 8.00 minutes to seconds.
+
+**Solution**
+
+**(a) Final velocity after acceleration:**
+
+1. Convert time to seconds:
+<div class="equation">
+$$ t = 8.00 \text{ min} = 8.00 \times 60 = 480 \s $$
+</div>
+
+2. Identify the known values:
+   - Initial velocity: $$ v_0 = 4.00 \ms $$
+   - Acceleration: $$ a = 0.0500 \mss $$
+   - Time: $$ t = 480 \s $$
+
+3. Use the kinematic equation:
+<div class="equation">
+$$ v = v_0 + at $$
+</div>
+
+4. Substitute the known values:
+<div class="equation">
+$$ v = 4.00 + (0.0500)(480) = 4.00 + 24.0 = 28.0 \ms $$
+</div>
+
+**(b) Time to decelerate to rest:**
+
+1. Identify the known values:
+   - Initial velocity: $$ v_0 = 28.0 \ms $$ (from part a)
+   - Final velocity: $$ v = 0 $$ (comes to rest)
+   - Deceleration: $$ a = -0.550 \mss $$ (negative for deceleration)
+
+2. Solve for time:
+<div class="equation">
+$$ t = \frac{v - v_0}{a} = \frac{0 - 28.0}{-0.550} = \frac{-28.0}{-0.550} = 50.9 \s $$
+</div>
+
+**(c) Distances traveled:**
+
+**Distance during acceleration (8.00 min = 480 s):**
+
+<div class="equation">
+$$ x_{\text{accel}} = v_0 t + \frac{1}{2}at^2 $$
+</div>
+
+<div class="equation">
+$$ x_{\text{accel}} = (4.00)(480) + \frac{1}{2}(0.0500)(480)^2 $$
+</div>
+
+<div class="equation">
+$$ x_{\text{accel}} = 1920 + \frac{1}{2}(0.0500)(230400) = 1920 + 5760 = 7680 \m = 7.68 \text{ km} $$
+</div>
+
+**Distance during deceleration (50.9 s):**
+
+<div class="equation">
+$$ x_{\text{decel}} = v_0 t + \frac{1}{2}at^2 $$
+</div>
+
+<div class="equation">
+$$ x_{\text{decel}} = (28.0)(50.9) + \frac{1}{2}(-0.550)(50.9)^2 $$
+</div>
+
+<div class="equation">
+$$ x_{\text{decel}} = 1425.2 + \frac{1}{2}(-0.550)(2590.81) = 1425.2 - 712.5 = 712.7 \m \approx 713 \m $$
+</div>
+
+**Discussion**
+
+The freight train's small acceleration ($$ 0.0500 \mss $$, only about 0.5% of gravitational acceleration) is typical for heavy trains with massive inertia. Despite this tiny acceleration, over 8 minutes the train increases its velocity from 4.00 m/s to 28.0 m/s (about 14 to 101 km/h), traveling an impressive 7.68 km! The deceleration rate ($$ 0.550 \mss $$) is 11 times larger than the acceleration rate, so the train stops much more quickly - in less than one minute compared to 8 minutes of acceleration. However, even with this stronger braking, the train still travels 713 m (over 700 meters, or nearly half a mile) while stopping. This demonstrates why freight trains need such long distances to stop safely.
+
+**Answer**
+
+(a) The final velocity after 8.00 minutes of acceleration is 28.0 m/s.
+
+(b) It takes 50.9 s (about 51 seconds) to come to a stop from this velocity.
+
+(c) The train travels 7.68 km during acceleration and 713 m during deceleration.
 
 </div>
 </div>
@@ -1607,9 +1728,66 @@ a full stop after compressing the padding and his body 0.350 m.
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ -80.4\mss $$
 
-(b) $$ 9.33 \times 10^{-2}\s $$
+**Strategy**
+
+The football player decelerates from a known velocity to rest over a known distance. For part (a), we use the kinematic equation $$ v^2 = v_0^2 + 2a(x - x_0) $$ to find the deceleration. For part (b), we use $$ v = v_0 + at $$ to find the collision time. The padding helps extend the stopping distance, reducing the deceleration and impact force.
+
+**Solution**
+
+**(a) Deceleration:**
+
+1. Identify the known values:
+   - Initial velocity: $$ v_0 = 7.50 \ms $$
+   - Final velocity: $$ v = 0 $$ (comes to a full stop)
+   - Stopping distance: $$ x - x_0 = 0.350 \m $$
+
+2. Use the kinematic equation:
+<div class="equation">
+$$ v^2 = v_0^2 + 2a(x - x_0) $$
+</div>
+
+3. Solve for acceleration:
+<div class="equation">
+$$ a = \frac{v^2 - v_0^2}{2(x - x_0)} $$
+</div>
+
+4. Substitute the known values:
+<div class="equation">
+$$ a = \frac{0 - (7.50)^2}{2(0.350)} = \frac{-56.25}{0.700} = -80.4 \mss $$
+</div>
+
+The negative sign indicates deceleration.
+
+**(b) Collision duration:**
+
+1. Use the kinematic equation:
+<div class="equation">
+$$ v = v_0 + at $$
+</div>
+
+2. Solve for time:
+<div class="equation">
+$$ t = \frac{v - v_0}{a} = \frac{0 - 7.50}{-80.4} = \frac{-7.50}{-80.4} = 0.0933 \s = 9.33 \times 10^{-2} \s $$
+</div>
+
+**Discussion**
+
+The player experiences a deceleration of $$ 80.4 \mss $$, which is:
+<div class="equation">
+$$ \frac{80.4}{9.80} = 8.2g $$
+</div>
+
+This is about 8.2 times gravitational acceleration - a very significant force! However, this is survivable thanks to the padding on the goalpost and the player's own protective equipment. The padding allows the player to decelerate over 0.350 m (about 14 inches) rather than stopping nearly instantly against a rigid surface. Without padding, the stopping distance might be only a few centimeters, resulting in decelerations of 50-100g or more - enough to cause serious injury.
+
+The collision lasts about 93 milliseconds (less than one-tenth of a second), which is too fast for the player to react but slow enough (thanks to the padding) to reduce peak forces. This demonstrates the importance of proper safety equipment and padding in contact sports.
+
+**Answer**
+
+(a) The player's deceleration is $$ -80.4 \mss $$ (about 8.2 times gravitational acceleration).
+
+(b) The collision lasts $$ 9.33 \times 10^{-2} \s $$ (approximately 93 milliseconds).
+
 </div>
 </div>
 
@@ -1714,10 +1892,79 @@ compare its deceleration with that of the airman in the previous problem.
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 7.7 \ms $$
 
-(b) $$ -15 \times 10^{2}\mss $$. This is about 3 times the deceleration of the
-pilots, who were falling from thousands of meters high!
+**Strategy**
+
+This problem has two parts. For part (a), the squirrel falls freely under gravity from a known height - we use free fall equations to find the velocity just before impact. For part (b), the squirrel decelerates from this velocity to rest over a very short distance (2.0 cm) by bending its limbs - we use kinematic equations to find this deceleration and compare it to the airman's deceleration from the previous problem.
+
+**Solution**
+
+**(a) Velocity just before hitting the ground:**
+
+1. Identify the known values for free fall:
+   - Initial velocity: $$ v_0 = 0 $$ (starts from rest)
+   - Acceleration: $$ a = g = 9.80 \mss $$ (downward)
+   - Distance fallen: $$ y = 3.0 \m $$
+
+2. Use the kinematic equation:
+<div class="equation">
+$$ v^2 = v_0^2 + 2gy $$
+</div>
+
+3. Substitute the known values:
+<div class="equation">
+$$ v^2 = 0 + 2(9.80)(3.0) = 58.8 \mmss $$
+</div>
+
+<div class="equation">
+$$ v = \sqrt{58.8} = 7.67 \ms \approx 7.7 \ms $$
+</div>
+
+**(b) Deceleration upon landing:**
+
+1. Identify the known values:
+   - Initial velocity: $$ v_0 = 7.7 \ms $$ (from part a)
+   - Final velocity: $$ v = 0 $$ (comes to rest)
+   - Stopping distance: $$ x - x_0 = 2.0 \text{ cm} = 0.020 \m $$
+
+2. Use the kinematic equation:
+<div class="equation">
+$$ v^2 = v_0^2 + 2a(x - x_0) $$
+</div>
+
+3. Solve for acceleration:
+<div class="equation">
+$$ a = \frac{v^2 - v_0^2}{2(x - x_0)} = \frac{0 - (7.7)^2}{2(0.020)} = \frac{-59.29}{0.040} = -1482 \mss \approx -1.5 \times 10^{3} \mss $$
+</div>
+
+4. Compare to the airman's deceleration from the previous problem ($$ -486 \mss $$):
+<div class="equation">
+$$ \frac{1482}{486} \approx 3.0 $$
+</div>
+
+The squirrel's deceleration is about 3 times greater than the airman's!
+
+5. Express in multiples of g:
+<div class="equation">
+$$ \frac{1482}{9.80} \approx 151g $$
+</div>
+
+**Discussion**
+
+This problem reveals a surprising result: the squirrel experiences about 151g of deceleration - three times more than the airman falling from 6000 m! How can this be? The key is the stopping distance. The squirrel, though falling from only 3.0 m and hitting at "only" 7.7 m/s (compared to the airman's 54 m/s), stops in just 2.0 cm - 150 times shorter than the airman's 3.0 m stopping distance.
+
+Small animals like squirrels can survive these enormous decelerations because of several factors:
+1. **Square-cube law**: Smaller animals have proportionally stronger bones and tissues relative to their weight
+2. **Flexible skeletal structure**: The squirrel bends its limbs to maximize the stopping distance for its size
+3. **Lower terminal velocity**: Even without our assumption, a squirrel reaches a much lower terminal velocity in air
+
+This is why squirrels can fall from great heights and walk away unharmed - they're naturally built to handle extreme decelerations relative to their size.
+
+**Answer**
+
+(a) The squirrel's velocity just before hitting the ground is 7.7 m/s.
+
+(b) The squirrel's deceleration is $$ -1.5 \times 10^{3} \mss $$ (about 151g), which is approximately 3 times the deceleration experienced by the airman in the previous problem who was falling from thousands of meters!
 
 </div>
 </div>
@@ -1884,16 +2131,72 @@ less time than given in [Example 3](#example3) and
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 32.6 \mss $$
 
-(b) $$ 162 \ms $$
+**Strategy**
 
-(c) $$ v>v_{\text{max}} $$, because the assumption of constant acceleration is
-not valid for a dragster. A dragster changes gears, and would have a greater
-acceleration in first gear than second gear than third gear, etc. The
-acceleration would be greatest at the beginning, so it would not be accelerating
-at $$ 32.6 \mss $$ during the last few meters, but substantially less, and the
-final velocity would be less than 162 m/s.
+For part (a), we calculate average acceleration using the change in velocity and time. For part (b), we use this acceleration with the distance to find final velocity, assuming constant acceleration. For part (c), we discuss why constant acceleration is not a valid assumption for dragsters and how this affects our calculated values.
+
+**Solution**
+
+**(a) Average acceleration:**
+
+1. Identify the known values:
+   - Initial velocity: $$ v_0 = 0 $$ (starts from rest)
+   - Final velocity: $$ v = 145 \ms $$
+   - Time: $$ t = 4.45 \s $$
+
+2. Calculate average acceleration:
+<div class="equation">
+$$ a = \frac{v - v_0}{t} = \frac{145 - 0}{4.45} = 32.6 \mss $$
+</div>
+
+**(b) Final velocity over a quarter mile (402 m):**
+
+1. Identify the known values:
+   - Initial velocity: $$ v_0 = 0 $$
+   - Acceleration: $$ a = 32.6 \mss $$ (from part a)
+   - Distance: $$ x = 402 \m $$
+
+2. Use the kinematic equation (without time):
+<div class="equation">
+$$ v^2 = v_0^2 + 2ax $$
+</div>
+
+3. Substitute the known values:
+<div class="equation">
+$$ v^2 = 0 + 2(32.6)(402) = 26,210 \mmss $$
+</div>
+
+<div class="equation">
+$$ v = \sqrt{26,210} = 162 \ms $$
+</div>
+
+**(c) Why is the final velocity greater?**
+
+The calculated final velocity of 162 m/s is greater than the actual top speed of 145 m/s used to find the average acceleration. This discrepancy reveals that the assumption of constant acceleration is not valid for a dragster.
+
+A dragster's acceleration is not constant because:
+1. **Gear changes**: The dragster shifts through multiple gears during the run, and acceleration is greatest in first gear
+2. **Decreasing force-to-resistance ratio**: As velocity increases, air resistance increases dramatically (proportional to $$ v^2 $$)
+3. **Tire grip limitations**: Maximum traction force varies with speed and tire heating
+4. **Engine power curve**: The engine delivers different power outputs at different RPMs
+
+The acceleration would be greatest at the beginning of the run (possibly 40-50 m/s² in first gear) and would decrease significantly toward the end (perhaps only 10-15 m/s² in high gear at top speed). Therefore, the dragster is not accelerating at 32.6 m/s² during the last few meters—it's accelerating substantially less. This means the actual final velocity is less than the 162 m/s we calculated assuming constant acceleration.
+
+**Discussion**
+
+This problem illustrates an important principle: kinematic equations assume constant acceleration. When applied to situations with varying acceleration, they give average values that may not match actual instantaneous values. The 32.6 m/s² represents the average acceleration over the entire 4.45 s run, not the acceleration at any particular moment.
+
+For comparison, 32.6 m/s² is about 3.3 times gravitational acceleration (3.3g), which is similar to what fighter pilots experience. Top fuel dragsters can actually achieve peak accelerations exceeding 4-5g at launch, far beyond what most people ever experience!
+
+**Answer**
+
+(a) The average acceleration is 32.6 m/s².
+
+(b) If the dragster maintained this constant acceleration over 402 m, the final velocity would be 162 m/s.
+
+(c) This calculated velocity (162 m/s) is greater than the actual top speed (145 m/s) because the assumption of constant acceleration is not valid for a dragster. Dragsters change gears and experience increasing air resistance, so acceleration is greatest at the beginning and decreases throughout the run. The actual acceleration during the final meters is substantially less than 32.6 m/s², resulting in a final velocity less than 162 m/s.
+
 </div>
 </div>
 
