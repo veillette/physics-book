@@ -55,7 +55,7 @@ The bodies we are dealing with tend to be large. To simplify the situation we
 assume that the body acts as if its entire mass is concentrated at one specific
 point called the **center of mass** (
 CM) , which will be further explored
-in [Linear Momentum and Collisions](../contents/ch8LinearMomentumAndCollisions.md)
+in [Linear Momentum and Collisions](./ch8LinearMomentumAndCollisions)
 . For two bodies having masses $$ m $$ and $$ M $$ with a distance $$ r $$
 between their centers of mass, the equation for Newton’s universal law of
 gravitation is
@@ -239,7 +239,7 @@ see [Figure 4](#Figure4)). We do not sense the Moon’s effect on Earth’s moti
 because the Moon’s gravity moves our bodies right along with Earth but there are
 other signs on Earth that clearly show the effect of the Moon’s gravitational
 force as discussed
-in [Satellites and Kepler\'s Laws: An Argument for Simplicity](../contents/ch6SatellitesAndKeplersLaws.md)
+in [Satellites and Kepler\'s Laws: An Argument for Simplicity](./ch6SatellitesAndKeplersLaws)
 .
 
 ![Figure a shows the Earth and the Moon around it orbiting in a circular path shown here as a circle around the Earth with an arrow over it showing the counterclockwise direction of the Moon. The center of mass of the circle is shown here with a point on the Earth that is not the Earth&#x2019;s center but just right to its center. Figure b shows the Sun and the counterclockwise rotation of the Earth around it, in an elliptical path, which has wiggles. Along this path the center of mass of the Earth-Moon is also shown; it follows non-wiggled elliptical path.](../resources/Figure_06_05_04.jpg "(a) Earth and the Moon rotate approximately once a month around their common center of mass. (b) Their center of mass orbits the Sun in an elliptical orbit, but Earth&#x2019;s path around the Sun has &#x201C;wiggles&#x201D; in it. Similar wiggles in the paths of stars have been observed and are considered direct evidence of planets orbiting those stars. This is important because the planets&#x2019; reflected light is often too dim to be observed.")
@@ -374,7 +374,7 @@ Rearranging to solve for $$ M $$ yields
 
 So $$ M $$ can be calculated because all quantities on the right, including the
 radius of Earth $$ r $$, are known from direct measurements. We shall see
-in [Satellites and Kepler\'s Laws: An Argument for Simplicity](../contents/ch6SatellitesAndKeplersLaws.md)
+in [Satellites and Kepler\'s Laws: An Argument for Simplicity](./ch6SatellitesAndKeplersLaws)
 that knowing $$ G $$ also allows for the determination of astronomical masses.
 Interestingly, of all the fundamental constants in physics, $$ G $$ is by far
 the least well determined.

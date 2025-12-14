@@ -11,9 +11,9 @@ chapterNumber: 6
 
 </div>
 
-In [Kinematics](../contents/ch2Kinematics.md), we studied motion along a
+In [Kinematics](./ch2Kinematics), we studied motion along a
 straight line and introduced such concepts as displacement, velocity, and
-acceleration. [Two-Dimensional Kinematics](../contents/ch3TwoDimensionalKinematics.md)
+acceleration. [Two-Dimensional Kinematics](./ch3TwoDimensionalKinematics)
 dealt with motion in two dimensions. Projectile motion is a special case of
 two-dimensional kinematics in which the object is projected into the air, while
 being subject to the gravitational force, and lands a distance away. In this

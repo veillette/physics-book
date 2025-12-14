@@ -256,7 +256,7 @@ v&=& 20.4 \ms .
 **Discussion and Implications**
 
 First, note that mass cancels. This is quite consistent with observations made
-in [Falling Objects](../contents/ch2FallingObjects.md)
+in [Falling Objects](./ch2FallingObjects)
 that all objects fall at the same rate if friction is negligible. Second, only
 the speed of the roller coaster is considered; there is no information about its
 direction at any point. This reveals another general truth. When friction is

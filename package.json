@@ -9,6 +9,8 @@
     "check-links:fast": "node scripts/check-links.js --timeout 5000 --concurrent 15",
     "find-orphans": "node scripts/find-orphan-files.js",
     "find-orphans:cleanup": "node scripts/find-orphan-files.js --generate-cleanup",
+    "standardize-links": "node scripts/standardize-links.js",
+    "standardize-links:apply": "node scripts/standardize-links.js --apply",
     "test": "npm run check-links",
     "test:ci": "npm run check-links -- --timeout 15000",
     "audit": "npm run check-links && npm run find-orphans",

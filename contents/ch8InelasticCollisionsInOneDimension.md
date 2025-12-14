@@ -337,7 +337,7 @@ During an ice show, a 60.0-kg skater leaps into the air and is caught by an init
 **Professional Application**
 
 Using mass and speed data
-from [Example 1](../contents/ch8LinearMomentumAndForce.md#exampleFootball) and 
+from [Example 1](./ch8LinearMomentumAndForce#exampleFootball) and 
 assuming
 that the football player catches the ball with his feet off the ground with both
 of them moving horizontally, calculate:

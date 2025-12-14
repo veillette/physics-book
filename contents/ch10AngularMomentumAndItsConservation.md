@@ -37,7 +37,7 @@ centrifuge, also has a rather large angular momentum.
 <div class="title">
 Making Connections
 </div>
-Angular momentum is completely analogous to linear momentum, first presented in [Uniform Circular Motion and Gravitation](../contents/ch6UniformCircularMotionAndGravitation.md). It has the same implications in terms of carrying rotation forward, and it is conserved when the net external torque is zero. Angular momentum, like linear momentum, is also a property of the atoms and subatomic particles.
+Angular momentum is completely analogous to linear momentum, first presented in [Uniform Circular Motion and Gravitation](./ch6UniformCircularMotionAndGravitation). It has the same implications in terms of carrying rotation forward, and it is conserved when the net external torque is zero. Angular momentum, like linear momentum, is also a property of the atoms and subatomic particles.
 
 </div>
 
@@ -50,7 +50,7 @@ Calculating Angular Momentum of the Earth
 
 No information is given in the statement of the problem; so we must look up
 pertinent data before we can calculate $$ L=I \omega $$. First, according
-to [Figure 3 of Dynamics Of Rotational Motion](../contents/ch10DynamicsOfRotationalMotion.md#Figure3), the formula for
+to [Figure 3 of Dynamics Of Rotational Motion](./ch10DynamicsOfRotationalMotion#Figure3), the formula for
 the moment of inertia of a sphere is
 
 <div class="equation">
