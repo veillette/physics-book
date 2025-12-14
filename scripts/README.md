@@ -1,28 +1,30 @@
 # Scripts
 
-This directory contains build and utility scripts for the Physics Book project.
+Build and utility scripts for the Physics Book project.
 
 ## Quick Reference
 
 | Script | Command | Description |
 |--------|---------|-------------|
-| Link Checker | `npm run check-links` | Validate all internal/external links |
-| Standardize Links | `npm run standardize-links` | Convert links to Jekyll/MyST format |
-| Find Orphans | `npm run find-orphans` | Find unreferenced files |
-| Validate Figures | `npm run validate-figures` | Comprehensive figure validation |
-| Check Math | `npm run check-math` | Check LaTeX delimiter balance |
-| Check Accessibility | `npm run check-accessibility` | Check alt text and accessibility |
-| Validate YAML | `npm run validate-yaml` | Validate YAML front matter |
-| Generate PDF | `npm run pdf:all` | Generate PDF of all chapters |
-| Generate Icons | `npm run generate-icons` | Generate PWA icons |
-| Parse Summary | `npm run parse-summary` | Generate summary.json |
-| Update Front Matter | `npm run update-front-matter` | Update chapter/section in YAML |
-| Rename Figures | `npm run rename-figures` | Rename figures and update refs |
-| Convert WebP | `npm run convert-webp` | Convert images to WebP |
+| check-links | `npm run check-links` | Validate internal/external links |
+| check-orphans | `npm run check-orphans` | Find unreferenced files |
+| check-figures | `npm run check-figures` | Validate figure references |
+| check-math | `npm run check-math` | Check LaTeX delimiter balance |
+| check-accessibility | `npm run check-accessibility` | Check alt text and accessibility |
+| check-yaml | `npm run check-yaml` | Validate YAML front matter |
+| standardize-links | `npm run standardize-links` | Convert links to Jekyll/MyST format |
+| generate-pdf | `npm run generate-pdf` | Generate PDF of all chapters |
+| generate-icons | `npm run generate-icons` | Generate PWA icons |
+| parse-summary | `npm run parse-summary` | Generate summary.json |
+| update-front-matter | `npm run update-front-matter` | Update chapter/section in YAML |
+| rename-figures | `npm run rename-figures` | Rename figures and update refs |
+| convert-webp | `npm run convert-webp` | Convert images to WebP |
 
 ---
 
-## Quality Assurance Scripts
+## Quality Assurance Scripts (`check-*`)
+
+All validation scripts follow the `check-*` naming convention.
 
 ### check-links.js
 
@@ -39,41 +41,23 @@ npm run test:ci                  # CI-optimized with longer timeouts
 - `--retries <num>` - Retries for failed requests (default: 2)
 - `--concurrent <num>` - Max concurrent requests (default: 10)
 
-### standardize-links.js
-
-Converts internal links to Jekyll/MyST convention (extension-less format).
-
-```bash
-npm run standardize-links        # Dry run - show what would change
-npm run standardize-links:apply  # Apply the changes
-node scripts/standardize-links.js --validate  # Just validate links
-```
-
-**Conversions:**
-- `../contents/filename.md` → `./filename`
-- `../contents/filename.md#anchor` → `./filename#anchor`
-
-**Options:**
-- `--apply` - Apply changes (default is dry run)
-- `--validate` - Only validate existing links
-
-### find-orphan-files.js
+### check-orphans.js
 
 Detects unreferenced files in `assets/` and `resources/` directories.
 
 ```bash
-npm run find-orphans             # Report orphaned files
-npm run find-orphans:cleanup     # Generate cleanup script
+npm run check-orphans            # Report orphaned files
+npm run check-orphans:cleanup    # Generate cleanup script
 ```
 
-### validate-figures.js
+### check-figures.js
 
-Comprehensive figure validation combining multiple checks:
+Comprehensive figure validation combining multiple checks.
 
 ```bash
-npm run validate-figures         # Run all checks
-npm run validate-figures:pattern # Check filename patterns only
-npm run validate-figures:missing # Check for missing files only
+npm run check-figures            # Run all checks
+npm run check-figures:pattern    # Check filename patterns only
+npm run check-figures:missing    # Check for missing files only
 ```
 
 **Options:**
@@ -84,13 +68,13 @@ npm run validate-figures:missing # Check for missing files only
 - `--check-missing` - Find references to missing files
 - `--all` - Run all checks (default)
 
-### check-math-delimiters.js
+### check-math.js
 
 Checks for unbalanced LaTeX math delimiters (`$...$`) in markdown files.
 
 ```bash
 npm run check-math               # Check contents/ directory
-node scripts/check-math-delimiters.js path/to/dir  # Custom directory
+node scripts/check-math.js path/to/dir  # Custom directory
 ```
 
 ### check-accessibility.js
@@ -116,14 +100,14 @@ npm run check-accessibility:strict   # Strict mode with more checks
 **Options:**
 - `--strict` - Enable stricter checks
 
-### validate-yaml.js
+### check-yaml.js
 
 Validates YAML front matter structure in markdown files.
 
 ```bash
-npm run validate-yaml                # Standard validation
-npm run validate-yaml:strict         # Strict mode
-node scripts/validate-yaml.js --required "title,layout,chapterNumber"
+npm run check-yaml               # Standard validation
+npm run check-yaml:strict        # Strict mode
+node scripts/check-yaml.js --required "title,layout,chapterNumber"
 ```
 
 **Checks performed:**
@@ -142,6 +126,28 @@ node scripts/validate-yaml.js --required "title,layout,chapterNumber"
 **Options:**
 - `--required <fields>` - Comma-separated list of required fields
 - `--strict` - Enable stricter validation
+
+---
+
+## Link Transformation
+
+### standardize-links.js
+
+Converts internal links to Jekyll/MyST convention (extension-less format).
+
+```bash
+npm run standardize-links        # Dry run - show what would change
+npm run standardize-links:apply  # Apply the changes
+node scripts/standardize-links.js --validate  # Just validate links
+```
+
+**Conversions:**
+- `../contents/filename.md` → `./filename`
+- `../contents/filename.md#anchor` → `./filename#anchor`
+
+**Options:**
+- `--apply` - Apply changes (default is dry run)
+- `--validate` - Only validate existing links
 
 ---
 
@@ -189,23 +195,23 @@ npm run rename-figures -- Figure_01_02_03 Figure_01_02_04 --dry-run
 
 ---
 
-## Build & Generation Scripts
+## Generation Scripts (`generate-*`)
 
-### generatePdf.js
+### generate-pdf.js
 
 Generates PDF versions of chapters using Playwright.
 
 ```bash
-npm run pdf:all                  # All chapters separately
-npm run pdf:combined             # All chapters in one PDF
-npm run pdf:chapter              # Specific chapter
-npm run pdf:install              # Install Playwright browsers
-npm run pdf:help                 # Show options
+npm run generate-pdf             # All chapters separately
+npm run generate-pdf:combined    # All chapters in one PDF
+npm run generate-pdf:chapter     # Specific chapter
+npm run generate-pdf:install     # Install Playwright browsers
+npm run generate-pdf:help        # Show options
 ```
 
 **Requirements:**
 - Jekyll server running on `localhost:4000`
-- Playwright Chromium browser (`npm run pdf:install`)
+- Playwright Chromium browser (`npm run generate-pdf:install`)
 
 ### generate-icons.js
 
@@ -221,13 +227,17 @@ npm run generate-icons
 - Apple touch icons
 - Favicon (PNG and ICO)
 
-### convert-to-webp.js
+---
+
+## Conversion Scripts
+
+### convert-webp.js
 
 Converts images to WebP format for better compression.
 
 ```bash
 npm run convert-webp              # Convert resources/ to resources-webp/
-node scripts/convert-to-webp.js --quality 90 --overwrite
+node scripts/convert-webp.js --quality 90 --overwrite
 ```
 
 **Options:**
@@ -241,7 +251,7 @@ node scripts/convert-to-webp.js --quality 90 --overwrite
 
 ## Configuration Files
 
-### link-check-config.js
+### check-links.config.js
 
 Configuration for the link checker including:
 - Domains to skip
@@ -260,15 +270,15 @@ npm run audit
 ```
 
 This runs:
-1. Link validation
-2. Orphan file detection
-3. Figure validation
+1. `check-links` - Link validation
+2. `check-orphans` - Orphan file detection
+3. `check-figures` - Figure validation
 
 For a comprehensive quality check, also run:
 
 ```bash
 npm run check-accessibility    # Accessibility issues
-npm run validate-yaml          # YAML front matter
+npm run check-yaml             # YAML front matter
 npm run check-math             # Math delimiter balance
 ```
 
@@ -281,6 +291,20 @@ The project includes `check_math.py` (in root) for verifying physics calculation
 ```bash
 python check_math.py
 ```
+
+---
+
+## Script Naming Conventions
+
+| Prefix | Purpose | Examples |
+|--------|---------|----------|
+| `check-*` | Validation/quality checks | check-links, check-yaml |
+| `generate-*` | File/asset generation | generate-pdf, generate-icons |
+| `parse-*` | Parse/extract data | parse-summary |
+| `update-*` | Update existing files | update-front-matter |
+| `convert-*` | Format conversion | convert-webp |
+| `rename-*` | Rename operations | rename-figures |
+| `standardize-*` | Normalize formats | standardize-links |
 
 ---
 
