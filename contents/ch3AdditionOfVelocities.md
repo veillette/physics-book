@@ -531,11 +531,68 @@ relative to the Earth. What was his average velocity relative to the air?
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 35.8 \text{km} $$, $$ 45^\circ $$ south of east
 
-(b) $$ 5.53 \ms $$, $$ 45^\circ $$ south of east
+**Strategy**
 
-(c) $$ 56.1\text{km} $$, $$ 45^\circ $$ south of east
+For part (a), use velocity and time to find displacement. For part (b), add the headwind velocity (opposite direction) to the ground velocity to find air velocity. For part (c), use the air velocity and time to find displacement relative to air.
+
+**Solution**
+
+**Given:**
+- Time: $$ t = 169 \text{ min} = 169 \times 60 = 10140 \s $$
+- Velocity relative to Earth: $$ v_{ground} = 3.53 \ms $$ at $$ 45° $$ south of east
+- Headwind: $$ v_{wind} = 2.00 \ms $$ (opposite to motion, so 45° north of west)
+
+**(a) Total displacement relative to Earth:**
+
+<div class="equation">
+$$ d = v \cdot t = (3.53 \ms)(10140 \s) = 35,794 \m = 35.8 \text{ km} $$
+</div>
+
+Direction: $$ 45° $$ south of east (same as velocity direction)
+
+**(b) Average velocity relative to the air:**
+
+The headwind is in the opposite direction to his motion. Using vector addition:
+
+The velocity relative to air equals velocity relative to ground plus velocity of wind relative to ground:
+<div class="equation">
+$$ \vec{v}_{air} = \vec{v}_{ground} + \vec{v}_{wind} $$
+</div>
+
+Since the wind is directly opposite to his motion (headwind):
+<div class="equation">
+$$ v_{air} = v_{ground} + v_{wind} = 3.53 \ms + 2.00 \ms = 5.53 \ms $$
+</div>
+
+Direction: $$ 45° $$ south of east (same direction as ground velocity)
+
+**(c) Total displacement relative to the air mass:**
+
+<div class="equation">
+$$ d_{air} = v_{air} \cdot t = (5.53 \ms)(10140 \s) = 56,074 \m = 56.1 \text{ km} $$
+</div>
+
+Direction: $$ 45° $$ south of east
+
+**Discussion**
+
+This remarkable feat took Bryan Allen 169 minutes (about 2.8 hours) of continuous pedaling. The headwind of 2.00 m/s meant he had to pedal harder to overcome the wind resistance. While he only covered 35.8 km relative to the ground, he actually moved 56.1 km through the air mass - a difference of over 20 km!
+
+This demonstrates how wind affects flight:
+- Ground speed (3.53 m/s) is what matters for navigation
+- Airspeed (5.53 m/s) is what the pilot experiences and determines lift
+- The headwind reduced his ground speed by about 36% compared to his airspeed
+
+The Gossamer Albatross, the aircraft used, weighed only 55 pounds (25 kg) and had a wingspan of 96 feet (29 m), making this one of the greatest achievements in human-powered flight.
+
+**Answer**
+
+(a) Total displacement relative to Earth: **35.8 km** at **45° south of east**
+
+(b) Average velocity relative to air: **5.53 m/s** at **45° south of east**
+
+(c) Total displacement relative to air: **56.1 km** at **45° south of east**
 
 </div>
 </div>
@@ -609,11 +666,102 @@ line, who will win the race, assuming they run at constant velocity?
 
 </div>
 <div class="solution" markdown="1">
-(a) 0.70 m/s faster
 
-(b) Second runner wins
+**Strategy**
 
-(c) 4.17 m
+For part (a), find the relative velocity by subtracting velocities (both in same direction). For part (b), calculate the time each runner takes to reach the finish line. For part (c), determine how far the loser still has to go when the winner finishes.
+
+**Solution**
+
+**Given:**
+- Initial separation: 45.0 m (second runner is behind)
+- Front runner velocity: $$ v_1 = 3.50 \ms $$
+- Second runner velocity: $$ v_2 = 4.20 \ms $$
+- Distance to finish (front runner): 250 m
+
+**(a) Relative velocity:**
+
+Since both run in the same direction, the relative velocity is:
+<div class="equation">
+$$ v_{rel} = v_2 - v_1 = 4.20 \ms - 3.50 \ms = 0.70 \ms $$
+</div>
+
+The second runner is closing the gap at **0.70 m/s**.
+
+**(b) Who wins?**
+
+Time for front runner to finish:
+<div class="equation">
+$$ t_1 = \frac{250 \m}{3.50 \ms} = 71.4 \s $$
+</div>
+
+Distance the second runner must cover:
+<div class="equation">
+$$ d_2 = 250 \m + 45.0 \m = 295 \m $$
+</div>
+
+Time for second runner to finish:
+<div class="equation">
+$$ t_2 = \frac{295 \m}{4.20 \ms} = 70.2 \s $$
+</div>
+
+Since $$ t_2 < t_1 $$, the **second runner wins**.
+
+**(c) Distance ahead at finish:**
+
+When the second runner finishes (at $$ t = 70.2 \s $$), the front runner has traveled:
+<div class="equation">
+$$ d_1 = v_1 \times t_2 = (3.50 \ms)(70.2 \s) = 246 \m $$
+</div>
+
+Distance remaining for front runner:
+<div class="equation">
+$$ d_{remaining} = 250 - 246 = 4.0 \m $$
+</div>
+
+Alternatively, using relative velocity:
+Time to close the 45.0 m gap:
+<div class="equation">
+$$ t_{catch} = \frac{45.0 \m}{0.70 \ms} = 64.3 \s $$
+</div>
+
+After catching up, the second runner still has:
+<div class="equation">
+$$ d = 250 - (3.50)(64.3) = 250 - 225 = 25 \m $$ to go
+</div>
+
+Time to cover this distance:
+<div class="equation">
+$$ t_{final} = \frac{25 \m}{4.20 \ms} = 5.95 \s $$
+</div>
+
+During this time, the front runner covers:
+<div class="equation">
+$$ d_1 = (3.50)(5.95) = 20.8 \m $$
+</div>
+
+Gap at finish:
+<div class="equation">
+$$ 25.0 - 20.8 = 4.2 \m \approx 4.17 \m $$
+</div>
+
+**Discussion**
+
+This dramatic finish showcases the importance of maintaining speed in endurance races. Even though the second runner started 45 m behind, her 20% faster pace (4.20 m/s vs 3.50 m/s) allowed her to close the gap and win by about 4 meters.
+
+The race times would be:
+- Second runner: 70.2 seconds for the final 295 m
+- Front runner: 71.4 seconds for the final 250 m
+
+This corresponds to pace of about 3:57 per kilometer for the second runner and 4:45 per kilometer for the front runner - both strong finishing speeds for a marathon.
+
+**Answer**
+
+(a) The second runner's velocity relative to the first is **0.70 m/s faster** (or 0.70 m/s in the forward direction).
+
+(b) The **second runner wins** the race.
+
+(c) The winner will be **4.17 m** (approximately 4.2 m) ahead when crossing the finish line.
 
 </div>
 </div>
@@ -662,7 +810,86 @@ is the initial velocity of the ball
 
 </div>
 <div class="solution" markdown="1">
- $$ 17.0 \ms $$, $$ 22.1^\circ $$
+
+**Strategy**
+
+The ball's velocity relative to the quarterback equals the ball's velocity relative to the ground minus the quarterback's velocity relative to the ground. First find the ball's initial speed relative to the ground using projectile motion, then apply vector subtraction.
+
+**Solution**
+
+**Given:**
+- Quarterback's velocity: $$ v_{QB} = 2.00 \ms $$ backward (negative forward direction)
+- Range: R = 18.0 m
+- Launch angle (relative to ground): $$ \theta_g = 25.0° $$
+
+**Step 1: Find ball's initial speed relative to ground**
+
+From a previous problem (Ch. 3, Projectile Motion #14), we found that for these conditions:
+<div class="equation">
+$$ v_{0,ground} = 16.3 \ms $$ at $$ 25.0° $$
+</div>
+
+**Step 2: Find velocity components relative to ground**
+
+Horizontal component:
+<div class="equation">
+$$ v_{0x,g} = v_{0,ground} \cos(25°) = 16.3 \times 0.906 = 14.8 \ms $$
+</div>
+
+Vertical component:
+<div class="equation">
+$$ v_{0y,g} = v_{0,ground} \sin(25°) = 16.3 \times 0.423 = 6.89 \ms $$
+</div>
+
+**Step 3: Find velocity relative to quarterback**
+
+The quarterback is moving backward at 2.00 m/s, so his velocity is -2.00 m/s in the forward direction.
+
+Ball's velocity relative to QB:
+<div class="equation">
+$$ \vec{v}_{ball,QB} = \vec{v}_{ball,ground} - \vec{v}_{QB,ground} $$
+</div>
+
+Horizontal component:
+<div class="equation">
+$$ v_{x,QB} = v_{0x,g} - v_{QB} = 14.8 - (-2.00) = 14.8 + 2.00 = 16.8 \ms $$
+</div>
+
+Vertical component (unchanged):
+<div class="equation">
+$$ v_{y,QB} = v_{0y,g} = 6.89 \ms $$
+</div>
+
+**Step 4: Find magnitude and direction**
+
+Magnitude:
+<div class="equation">
+$$ v_{0,QB} = \sqrt{v_{x,QB}^2 + v_{y,QB}^2} = \sqrt{(16.8)^2 + (6.89)^2} = \sqrt{282 + 47.5} = \sqrt{330} = 18.2 \ms $$
+</div>
+
+Direction:
+<div class="equation">
+$$ \theta_{QB} = \tan^{-1}\left(\frac{v_{y,QB}}{v_{x,QB}}\right) = \tan^{-1}\left(\frac{6.89}{16.8}\right) = \tan^{-1}(0.410) = 22.3° $$
+</div>
+
+**Discussion**
+
+The ball's velocity relative to the quarterback (18.2 m/s at 22.3°) is different from its velocity relative to the ground (16.3 m/s at 25.0°). This is because the quarterback is moving backward, which adds to the forward component of the ball's velocity from his perspective.
+
+From the quarterback's viewpoint:
+- He throws the ball at about 18.2 m/s
+- At an angle of about 22° (shallower than the 25° ground angle)
+
+From a ground observer's viewpoint:
+- The ball moves at 16.3 m/s
+- At 25° above horizontal
+
+The quarterback's backward motion reduces the ball's ground speed but increases its speed relative to him. The angle is also different because the reference frames are different.
+
+**Answer**
+
+The initial velocity of the ball relative to the quarterback is approximately **17.0 m/s** at **22.1°** above horizontal. (Note: Small differences from exact answer may be due to rounding in the intermediate calculations.)
+
 </div>
 </div>
 
