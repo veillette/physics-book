@@ -16,7 +16,8 @@
     "pdf:combined": "node scripts/generatePdf.js --combined",
     "pdf:chapter": "node scripts/generatePdf.js --chapter",
     "pdf:help": "node scripts/generatePdf.js --help",
-    "pdf:install": "npx playwright install chromium"
+    "pdf:install": "npx playwright install chromium",
+    "generate-icons": "node scripts/generate-icons.js"
   },
   "dependencies": {
     "@playwright/test": "^1.57.0",
