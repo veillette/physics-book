@@ -76,16 +76,16 @@ bundle exec jekyll serve --incremental
 npm run check-links
 
 # Find orphaned files not referenced in SUMMARY.md
-npm run find-orphans
+npm run check-orphans
 
 # Generate PDF of a specific chapter
-npm run pdf:chapter
+npm run generate-pdf:chapter
 
 # Generate combined PDF of entire book
-npm run pdf:combined
+npm run generate-pdf:combined
 
 # Validate mathematical notation
-python check_math.py
+npm run check-math
 ```
 
 ## 👥 Contributing
