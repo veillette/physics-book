@@ -1172,7 +1172,7 @@ The pencil wood flexes by $$ 3.99 \times 10^{-7} \m $$ perpendicular to its leng
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
 To consider the effect of wires hung on poles, we take data
-from [Example 2](../contents/ch4FurtherApplicationsOfNewtonsLawsOfMotion.md), in which tensions in wires
+from [Example 2](./ch4FurtherApplicationsOfNewtonsLawsOfMotion), in which tensions in wires
 supporting a traffic light were calculated. The left wire made an angle $$ 30.0^\circ $$
 below the horizontal with the top of its pole and carried a tension of 108 N.
 The 12.0 m tall hollow aluminum pole is equivalent in stiffness to a 4.50 cm
@@ -1310,7 +1310,7 @@ Water freezing in a confined space can exert a pressure of approximately $$ 2.0 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
 This problem returns to the tightrope walker studied
-in Example 2 of [Normal Tension and Other Examples Of Forces](../contents/ch4NormalTensionAndOtherExamplesOfForces.md),
+in Example 2 of [Normal Tension and Other Examples Of Forces](./ch4NormalTensionAndOtherExamplesOfForces),
 who created a tension of $$ 3.94
 \times 10^
 {3}N $$

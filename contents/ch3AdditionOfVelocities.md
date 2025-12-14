@@ -40,8 +40,8 @@ velocities and then consider certain aspects of what relative velocity means.
 
 How do we add velocities? Velocity is a vector (it has both magnitude and
 direction); the rules of **vector addition** discussed
-in [Vector Addition and Subtraction: Graphical Methods](../contents/ch3VectorAdditionAndSubtractionGraphicalMethods.md)
-and [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md)
+in [Vector Addition and Subtraction: Graphical Methods](./ch3VectorAdditionAndSubtractionGraphicalMethods)
+and [Vector Addition and Subtraction: Analytical Methods](./ch3VectorAdditionAndSubtractionAnalyticalMethods)
 apply to the addition of velocities, just as they do for any other vectors. In
 one-dimensional motion, the addition of velocities is simple—they add like
 ordinary numbers. For example, if a field hockey player is moving at $$ 5 \ms $$
@@ -190,7 +190,7 @@ coordinate system with its
 {\text{p}} $$).
 (You may wish to look back at the discussion of the addition of vectors using
 perpendicular components
-in [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md)
+in [Vector Addition and Subtraction: Analytical Methods](./ch3VectorAdditionAndSubtractionAnalyticalMethods)
 .)
 
 **Solution**

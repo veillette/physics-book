@@ -267,7 +267,7 @@ shown:
 Note that the unwanted m unit cancels, leaving only the desired km unit. You can
 use this method to convert between any types of unit.
 
-The [Appendix](../contents/appendixA.md) has a more complete list of
+The [Appendix](./appendixA) has a more complete list of
 conversion factors.
 
 ##### Table 3: Approximate Values of Length, Mass, and Time
@@ -390,7 +390,7 @@ You may have noted that the answers in the worked example just covered were
 given to three digits. Why? When do you need to be concerned about the number of
 digits in something you calculate? Why not write down all the digits your
 calculator produces? The
-module [Accuracy, Precision, and Significant Figures](../contents/ch1AccuracyPrecisionAndSignificantFigures.md)
+module [Accuracy, Precision, and Significant Figures](./ch1AccuracyPrecisionAndSignificantFigures)
 will help you answer these questions.
 
 </div>
