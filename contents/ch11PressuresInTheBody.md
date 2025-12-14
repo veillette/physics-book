@@ -320,7 +320,7 @@ vertebrae themselves. Even under normal circumstances, forces between vertebrae
 in the spine are large enough to create pressures of several atmospheres. Most
 causes of excessive pressure in the skeletal system can be avoided by lifting
 properly and avoiding extreme physical activity. (
-See [Forces and Torques in Muscles and Joints](../contents/ch9ForcesAndTorquesInMusclesAndJoints.md).)
+See [Forces and Torques in Muscles and Joints](./ch9ForcesAndTorquesInMusclesAndJoints).)
 
 There are many other interesting and medically significant pressures in the
 body. For example, pressure caused by various muscle actions drives food and

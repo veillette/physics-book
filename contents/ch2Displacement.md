@@ -59,7 +59,7 @@ position $$ x_{0} $$
 from final position $$ x_{\text{f}} $$.
 
 Note that the SI unit for displacement is the meter (m) (
-see [Physical Quantities and Units](../contents/ch1PhysicalQuantitiesAndUnits.md))
+see [Physical Quantities and Units](./ch1PhysicalQuantitiesAndUnits))
 , but sometimes kilometers, miles, feet, and other units of length are used.
 Keep in mind that when units other than the meter are used in a problem, you may
 need to convert them into meters to complete the calculation.

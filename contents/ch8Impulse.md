@@ -15,7 +15,7 @@ chapterNumber: 8
 
 The effect of a force on an object depends on how long it acts, as well as how
 great the force is.
-In [Example 2](../contents/ch8LinearMomentumAndForce.md#exampleTennis), a very 
+In [Example 2](./ch8LinearMomentumAndForce#exampleTennis), a very 
 large
 force acting for a short time had a great effect on the momentum of the tennis
 ball. A small force could cause the same **change in momentum**, but it would

@@ -27,7 +27,7 @@ magnitude and pointing in the direction of the vector.
 
 [Figure 2](#Figure2) shows such a *graphical representation of a vector*, using as
 an example the total displacement for the person walking in a city considered
-in [Kinematics in Two Dimensions: An Introduction](../contents/ch3KinematicsInTwoDimensionsAnIntroduction.md)
+in [Kinematics in Two Dimensions: An Introduction](./ch3KinematicsInTwoDimensionsAnIntroduction)
 . We shall use the notation that a boldface symbol, such as $$ \vb{D} $$, stands
 for a vector. Its magnitude is represented by the symbol, $$\mag{D}$$, and its
 direction by $$ \theta $$. The magnitude can also represented in italics as $$ D
@@ -314,12 +314,12 @@ called **finding the components (or parts)** of the displacement in the east and
 north directions, and it is the inverse of the process followed to find the
 total displacement. It is one example of finding the components of a vector.
 There are many applications in physics where this is a useful thing to do. We
-will see this soon in [Projectile Motion](../contents/ch3ProjectileMotion.md),
+will see this soon in [Projectile Motion](./ch3ProjectileMotion),
 and much more when we cover **forces**
-in [Dynamics: Newton’s Laws of Motion](../contents/ch4Dynamics.md). Most of
+in [Dynamics: Newton’s Laws of Motion](./ch4Dynamics). Most of
 these involve finding components along perpendicular axes (such as north and
 east), so that right triangles are involved. The analytical techniques presented
-in [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md)
+in [Vector Addition and Subtraction: Analytical Methods](./ch3VectorAdditionAndSubtractionAnalyticalMethods)
 are ideal for finding vector components.
 
 <div class="note" data-label="PhET Exploration" markdown="1">

@@ -145,14 +145,14 @@ electric charges, electric fields, and several other topics. Physics is most
 interesting when applied to general situations involving more than a narrow set
 of physical principles. The electric field exerts force on charges, for example,
 and hence the relevance
-of [Dynamics: Force and Newton’s Laws of Motion](../contents/ch4Dynamics.md). The following topics
+of [Dynamics: Force and Newton’s Laws of Motion](./ch4Dynamics). The following topics
 are involved in some or all of the problems labeled “Integrated Concepts”:
 
-* [Kinematics](../contents/ch2Kinematics.md)
-* [Two-Dimensional Kinematics](../contents/ch3KinematicsInTwoDimensionsAnIntroduction.md)
-* [Dynamics: Force and Newton’s Laws of Motion](../contents/ch4Dynamics.md)
-* [Uniform Circular Motion and Gravitation](../contents/ch6UniformCircularMotionAndGravitation.md)
-* [Statics and Torque](../contents/ch9StaticsAndTorque.md)
+* [Kinematics](./ch2Kinematics)
+* [Two-Dimensional Kinematics](./ch3KinematicsInTwoDimensionsAnIntroduction)
+* [Dynamics: Force and Newton’s Laws of Motion](./ch4Dynamics)
+* [Uniform Circular Motion and Gravitation](./ch6UniformCircularMotionAndGravitation)
+* [Statics and Torque](./ch9StaticsAndTorque)
 * [Fluid Statics](../contents/ch11FluidStatics)
 
 The following worked example illustrates how this strategy is applied to an
@@ -172,12 +172,12 @@ If steps are not taken to ground a gasoline pump, static electricity can be plac
 To solve an integrated concept problem, we must first identify the physical
 principles involved and identify the chapters in which they are found. Part (a)
 of this example asks for weight. This is a topic of dynamics and is defined
-in [Dynamics: Force and Newton’s Laws of Motion](../contents/ch4Dynamics.md). Part (b) deals with
+in [Dynamics: Force and Newton’s Laws of Motion](./ch4Dynamics). Part (b) deals with
 electric force on a charge, a topic
 of [Electric Charge and Electric Field](../contents/ch18ElectricChargeAndElectricField).
 Part (c) asks for acceleration, knowing forces and mass. These are part of
 Newton’s laws, also found
-in [Dynamics: Force and Newton’s Laws of Motion](../contents/ch4Dynamics.md).
+in [Dynamics: Force and Newton’s Laws of Motion](./ch4Dynamics).
 
 The following solutions to each part of the example illustrate how the specific
 problem-solving strategies are applied. These involve identifying knowns and
