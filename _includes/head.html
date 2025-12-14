@@ -36,6 +36,9 @@
     <script src="{{'/assets/js/math-config.js'| relative_url }}" type="text/javascript"></script>
     <script defer id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js"></script>
 
+    <!-- support for flash content -->
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+
     <script type="text/javascript">
         window.Book = {
             'url': '{{ site.github.repository_url }}',
@@ -52,7 +55,7 @@
 
     <script src="{{'/assets/js/register-sw.js'| relative_url }}"
             type="text/javascript"></script>
-    
+
     <!-- PWA Debug utilities (only loaded if enabled) -->
     <script src="{{'/assets/js/pwa-debug.js'| relative_url }}"
             type="text/javascript"></script>

@@ -222,6 +222,41 @@ exercise alone will be sufficient to lose weight? You may wish to consider that 
 (b) Considering the amount of power generated, do you think a well-trained athlete could do this repetitively for long periods of time?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The work done equals the change in kinetic energy. Power is work divided by time.
+
+**Solution for (a)**
+
+The change in kinetic energy is:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+\Delta \KE &=& \frac{1}{2}mv^{2} - 0 = \frac{1}{2}(70.0\kg)(10.0\ms)^{2}\\
+\Delta \KE &=& 3500\J
+\end{array} $$
+</div>
+
+The power output is:
+
+<div class="equation">
+ $$ P = \frac{W}{t} = \frac{3500\J}{3.00\s} = 1167\text{ W} \approx 1.17\text{ kW} $$
+</div>
+
+Converting to horsepower (1 hp = 746 W):
+
+<div class="equation">
+ $$ P = \frac{1167\text{ W}}{746\text{ W/hp}} = 1.56\text{ hp} $$
+</div>
+
+**Discussion for (b)**
+
+(a) The sprinter's power output is approximately 1170 W or 1.56 hp.
+(b) This is a very high power output—about 1200 W. From Table 2 in this section, sprinting requires about 2415 W total metabolic power. However, this level of exertion cannot be sustained for long periods. Sprinters can only maintain top speed for 10-20 seconds before fatigue sets in. Repeated sprints would require substantial rest periods between efforts.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -246,6 +281,49 @@ the 7.27-kg shot from rest to 14.0 m/s, while raising it 0.800 m. (Do not includ
 an efficiency of 20%?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Efficiency is defined as $$ \text{Eff} = \frac{W_{\text{out}}}{E_{\text{in}}} $$. We need to convert kcal to joules using 1 kcal = 4184 J.
+
+**Solution for (a)**
+
+The energy input is:
+
+<div class="equation">
+ $$ E_{\text{in}} = (500\text{ kcal})(4184\text{ J/kcal}) = 2.09 \times 10^{6}\J $$
+</div>
+
+The efficiency is:
+
+<div class="equation">
+ $$ \text{Eff} = \frac{W_{\text{out}}}{E_{\text{in}}} = \frac{2.10 \times 10^{5}\J}{2.09 \times 10^{6}\J} = 0.100 = 10.0\% $$
+</div>
+
+**Solution for (b)**
+
+For the well-conditioned athlete with 20% efficiency:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+0.20 &=& \frac{2.10 \times 10^{5}\J}{E_{\text{in}}}\\
+E_{\text{in}} &=& \frac{2.10 \times 10^{5}\J}{0.20} = 1.05 \times 10^{6}\J
+\end{array} $$
+</div>
+
+Converting to kcal:
+
+<div class="equation">
+ $$ E_{\text{in}} = \frac{1.05 \times 10^{6}\J}{4184\text{ J/kcal}} = 251\text{ kcal} $$
+</div>
+
+**Discussion**
+
+(a) The out-of-condition person has an efficiency of 10.0%.
+(b) The well-conditioned athlete would metabolize approximately 251 kcal to do the same work, which is about half of what the out-of-condition person requires. This demonstrates the significant advantage of physical conditioning in terms of energy efficiency.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -262,6 +340,45 @@ Energy that is not utilized for work or heat transfer is converted to the chemic
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Using data from [Table 2](#Table2), calculate the daily energy needs of a person who sleeps for 7.00 h, walks for 2.00 h, attends classes for 4.00 h, cycles for 2.00 h, sits relaxed for 3.00 h, and studies for 6.00 h. (Studying consumes energy at the same rate as sitting in class.)
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+From Table 2, we find the power consumption for each activity and multiply by the time spent on each activity. Then sum all energies.
+
+**Solution**
+
+From Table 2:
+- Sleeping: 83 W
+- Walking (5 km/h): 280 W
+- Sitting in class: 210 W
+- Cycling (13-18 km/h): 400 W
+- Sitting relaxed (at rest): 120 W
+
+Energy for each activity:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+E_{\text{sleep}} &=& (83\text{ W})(7.00\text{ h})(3600\s/\text{h}) = 2.09 \times 10^{6}\J\\
+E_{\text{walk}} &=& (280\text{ W})(2.00\text{ h})(3600\s/\text{h}) = 2.02 \times 10^{6}\J\\
+E_{\text{class}} &=& (210\text{ W})(4.00\text{ h})(3600\s/\text{h}) = 3.02 \times 10^{6}\J\\
+E_{\text{cycle}} &=& (400\text{ W})(2.00\text{ h})(3600\s/\text{h}) = 2.88 \times 10^{6}\J\\
+E_{\text{relaxed}} &=& (120\text{ W})(3.00\text{ h})(3600\s/\text{h}) = 1.30 \times 10^{6}\J\\
+E_{\text{study}} &=& (210\text{ W})(6.00\text{ h})(3600\s/\text{h}) = 4.54 \times 10^{6}\J
+\end{array} $$
+</div>
+
+Total daily energy:
+
+<div class="equation">
+ $$ E_{\text{total}} = 2.09 + 2.02 + 3.02 + 2.88 + 1.30 + 4.54 = 15.85 \times 10^{6}\J \approx 1.59 \times 10^{7}\J $$
+</div>
+
+**Discussion**
+
+The person's daily energy needs are approximately $$ 1.59 \times 10^{7}\J $$, which is about 3800 kcal. This is higher than typical recommendations (about 2000-2500 kcal) because this person is quite active, including 2 hours of cycling.
 
 </div>
 </div>
@@ -282,6 +399,55 @@ What is the efficiency of a subject on a treadmill who puts out work at the rate
 Shoveling snow can be extremely taxing because the arms have such a low efficiency in this activity. Suppose a person shoveling a footpath metabolizes food at the rate of 800 W.
 (a) What is her useful power output?
 (b) How long will it take her to lift 3000 kg of snow 1.20 m? (This could be the amount of heavy snow on 20 m of footpath.) (c) How much waste heat transfer in kilojoules will she generate in the process?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+From Table 2 in Conservation of Energy, shoveling has an efficiency of 3%. We can find the useful power output from this efficiency.
+
+**Solution for (a)**
+
+Useful power output:
+
+<div class="equation">
+ $$ P_{\text{useful}} = \text{Efficiency} \times P_{\text{metabolic}} = 0.03 \times 800\text{ W} = 24\text{ W} $$
+</div>
+
+**Solution for (b)**
+
+Work needed to lift the snow:
+
+<div class="equation">
+ $$ W = mgh = (3000\kg)(9.80\mss)(1.20\m) = 3.53 \times 10^{4}\J $$
+</div>
+
+Time required:
+
+<div class="equation">
+ $$ t = \frac{W}{P_{\text{useful}}} = \frac{3.53 \times 10^{4}\J}{24\text{ W}} = 1471\s \approx 24.5\text{ min} $$
+</div>
+
+**Solution for (c)**
+
+Total energy metabolized:
+
+<div class="equation">
+ $$ E_{\text{total}} = P_{\text{metabolic}} \times t = (800\text{ W})(1471\s) = 1.18 \times 10^{6}\J $$
+</div>
+
+Waste heat:
+
+<div class="equation">
+ $$ E_{\text{waste}} = E_{\text{total}} - W = 1.18 \times 10^{6}\J - 3.53 \times 10^{4}\J = 1.14 \times 10^{6}\J = 1140\text{ kJ} $$
+</div>
+
+**Discussion**
+
+(a) The useful power output is only 24 W.
+(b) It will take approximately 24.5 minutes to lift the snow.
+(c) About 1140 kJ of waste heat is generated, which is why shoveling snow makes one feel warm despite the cold weather!
 
 </div>
 </div>
@@ -307,8 +473,58 @@ Very large forces are produced in joints when a person jumps from some height to
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Jogging on hard surfaces with insufficiently padded shoes produces large forces in the feet and legs.
-(a) Calculate the magnitude of the force needed to stop the downward motion of a jogger’s leg, if his leg has a mass of 13.0 kg, a speed of 6.00 m/s, and stops in a distance of 1.50 cm. (Be certain to include the weight of the 75.0-kg jogger’s body.)
+(a) Calculate the magnitude of the force needed to stop the downward motion of a jogger's leg, if his leg has a mass of 13.0 kg, a speed of 6.00 m/s, and stops in a distance of 1.50 cm. (Be certain to include the weight of the 75.0-kg jogger's body.)
 (b) Compare this force with the weight of the jogger.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The work-energy theorem applies: the net work equals the change in kinetic energy. The net force includes both the stopping force (upward) and the weight of the jogger (downward).
+
+**Solution for (a)**
+
+The kinetic energy of the leg is:
+
+<div class="equation">
+ $$ \KE = \frac{1}{2}(13.0\kg)(6.00\ms)^{2} = 234\J $$
+</div>
+
+Using the work-energy theorem with $$ d = 1.50\text{ cm} = 0.0150\m $$:
+
+<div class="equation">
+ $$ (F - mg)d = -\KE $$
+</div>
+
+where $$ F $$ is the upward stopping force and $$ mg $$ is the jogger's weight. Solving for $$ F $$:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+F &=& mg - \frac{\KE}{d}\\
+F &=& (75.0\kg)(9.80\mss) + \frac{234\J}{0.0150\m}\\
+F &=& 735\N + 15600\N = 1.64 \times 10^{4}\N
+\end{array} $$
+</div>
+
+**Solution for (b)**
+
+The jogger's weight is:
+
+<div class="equation">
+ $$ W = mg = (75.0\kg)(9.80\mss) = 735\N $$
+</div>
+
+The ratio is:
+
+<div class="equation">
+ $$ \frac{F}{W} = \frac{1.64 \times 10^{4}\N}{735\N} = 22.3 $$
+</div>
+
+**Discussion**
+
+(a) The force needed to stop the leg is approximately 16,400 N.
+(b) This force is about 22 times the jogger's weight! This explains why jogging on hard surfaces can lead to joint and bone injuries, especially with inadequate shoe cushioning.
 
 </div>
 </div>
@@ -331,12 +547,43 @@ Jogging on hard surfaces with insufficiently padded shoes produces large forces 
 <div class="problem" markdown="1">
 Kanellos Kanellopoulos flew 119 km from Crete to Santorini, Greece, on April 23, 1988, in the *Daedalus 88*, an aircraft
 powered by a bicycle-type drive mechanism (see [Figure 5](#Figure5)). His useful power output for
-the 234-min trip was about 350 W. Using the efficiency for 
+the 234-min trip was about 350 W. Using the efficiency for
 cycling from the module on [Conservation of Energy](../contents/ch7ConservationOfEnergy.md),
 calculate the food energy in kilojoules he metabolized during the flight.
 
 ![An aircraft flying in the air shown from outside, which is powered by a bicycle-type drive mechanism.](../resources/Figure_07_08_05.jpg "The Daedalus 88 in flight. (credit: NASA photo by Beasley)")
 {: #Figure5}
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+From the Conservation of Energy module, Table 2 shows that cycling has an efficiency of 20%. We can use $$ \text{Eff} = \frac{P_{\text{useful}}}{P_{\text{metabolic}}} $$ to find the metabolic power, then multiply by time.
+
+**Solution**
+
+The metabolic power is:
+
+<div class="equation">
+ $$ P_{\text{metabolic}} = \frac{P_{\text{useful}}}{\text{Eff}} = \frac{350\text{ W}}{0.20} = 1750\text{ W} $$
+</div>
+
+The time in seconds is:
+
+<div class="equation">
+ $$ t = (234\text{ min})(60\s/\text{min}) = 14040\s $$
+</div>
+
+The food energy metabolized is:
+
+<div class="equation">
+ $$ E = P_{\text{metabolic}} \times t = (1750\text{ W})(14040\s) = 2.46 \times 10^{7}\J = 24600\text{ kJ} $$
+</div>
+
+**Discussion**
+
+The pilot metabolized approximately 24,600 kJ (about 5900 kcal) of food energy during the 234-minute flight, which is about 2.4 times the daily recommended caloric intake. This demonstrates the extreme physical demands of human-powered flight.
 
 </div>
 </div>
@@ -366,6 +613,57 @@ Mountain climbers carry bottled oxygen when at very high altitudes.
 (a) Assuming that a mountain climber uses oxygen at twice the rate for climbing 116 stairs per minute (because of low air temperature and winds), calculate how many liters of oxygen a climber would need for 10.0 h of climbing. (These are liters at sea level.) Note that only 40% of the inhaled oxygen is utilized; the rest is exhaled.
 (b) How much useful work does the climber do if he and his equipment have a mass of 90.0 kg and he gains 1000 m of altitude?
 (c) What is his efficiency for the 10.0-h climb?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+From Table 2, climbing stairs (116/min) consumes 1.96 L O₂/min. At high altitude with wind, this doubles to 3.92 L/min. Since only 40% is utilized, the climber must inhale more than this.
+
+**Solution for (a)**
+
+Oxygen consumption rate: $$ 2 \times 1.96\text{ L/min} = 3.92\text{ L/min} $$
+
+Since only 40% is utilized, the breathing rate must be:
+
+<div class="equation">
+ $$ \text{Breathing rate} = \frac{3.92\text{ L/min}}{0.40} = 9.80\text{ L/min} $$
+</div>
+
+For 10.0 hours:
+
+<div class="equation">
+ $$ V = (9.80\text{ L/min})(10.0\text{ h})(60\text{ min/h}) = 5880\text{ L} \approx 5.88 \times 10^{3}\text{ L} $$
+</div>
+
+**Solution for (b)**
+
+Useful work:
+
+<div class="equation">
+ $$ W = mgh = (90.0\kg)(9.80\mss)(1000\m) = 8.82 \times 10^{5}\J $$
+</div>
+
+**Solution for (c)**
+
+Energy metabolized (using 20 kJ per liter of O₂ consumed):
+
+<div class="equation">
+ $$ E_{\text{in}} = (3.92\text{ L/min})(600\text{ min})(20\text{ kJ/L}) = 4.70 \times 10^{4}\text{ kJ} = 4.70 \times 10^{7}\J $$
+</div>
+
+Efficiency:
+
+<div class="equation">
+ $$ \text{Eff} = \frac{W}{E_{\text{in}}} = \frac{8.82 \times 10^{5}\J}{4.70 \times 10^{7}\J} = 0.0188 = 1.88\% $$
+</div>
+
+**Discussion**
+
+(a) The climber needs approximately 5880 liters of oxygen.
+(b) The useful work done is approximately 882 kJ.
+(c) The efficiency is only about 1.9%, which is very low even for human activities. This low efficiency is due to the extreme conditions at high altitude.
 
 </div>
 </div>
@@ -409,6 +707,24 @@ the mass of bulk and nondigestible materials consumed.)
 <div class="problem" markdown="1">
 (a) How long can you play tennis on the 800 kJ (about 200 kcal) of energy in a candy bar?
 (b) Does this seem like a long time? Discuss why exercise is necessary but may not be sufficient to cause a person to lose weight.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+From Table 2, playing tennis consumes 440 W. We use $$ t = E/P $$ to find the time.
+
+**Solution for (a)**
+
+<div class="equation">
+ $$ t = \frac{E}{P} = \frac{800\times 10^{3}\J}{440\text{ W}} = 1818\s \approx 30.3\text{ min} $$
+</div>
+
+**Discussion for (b)**
+
+(a) You can play tennis for approximately 30 minutes on the energy from a candy bar.
+(b) This seems like a fairly short time for the amount of energy in a relatively small candy bar. This illustrates why exercise alone may not be sufficient for weight loss—it's often easier to consume calories than to burn them off. For example, eating a candy bar takes minutes, but burning it off requires a half hour of vigorous tennis. Additionally, exercise increases appetite, which can lead to consuming more calories. Sustainable weight management typically requires both regular exercise AND mindful eating habits.
 
 </div>
 </div>
