@@ -456,6 +456,49 @@ body can be omitted because it is not considered useful output here.)
 A 500-kg dragster accelerates from rest to a final speed of 110 m/s in 400 m (about a quarter of a mile) and encounters an average frictional force of 1200 N. What is its average power output in watts and horsepower if this takes 7.30 s?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The total work done by the dragster equals the change in kinetic energy plus the work done against friction. Power is the total work divided by time.
+
+**Solution**
+
+The change in kinetic energy is:
+
+<div class="equation">
+ $$ \Delta \KE = \frac{1}{2}mv^{2} - 0 = \frac{1}{2}(500\kg)(110\ms)^{2} = 3.03 \times 10^{6}\J $$
+</div>
+
+The work done against friction is:
+
+<div class="equation">
+ $$ W_{f} = fd = (1200\N)(400\m) = 4.80 \times 10^{5}\J $$
+</div>
+
+The total work done by the dragster is:
+
+<div class="equation">
+ $$ W_{\text{total}} = \Delta \KE + W_{f} = 3.03 \times 10^{6}\J + 4.80 \times 10^{5}\J = 3.51 \times 10^{6}\J $$
+</div>
+
+The average power output is:
+
+<div class="equation">
+ $$ P = \frac{W}{t} = \frac{3.51 \times 10^{6}\J}{7.30\s} = 4.81 \times 10^{5}\text{ W} = 481\text{ kW} $$
+</div>
+
+Converting to horsepower:
+
+<div class="equation">
+ $$ P = \frac{4.81 \times 10^{5}\text{ W}}{746\text{ W/hp}} = 645\text{ hp} $$
+</div>
+
+**Discussion**
+
+The dragster's average power output is approximately 481 kW or 645 hp, which is consistent with high-performance racing vehicles.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -478,6 +521,58 @@ A 500-kg dragster accelerates from rest to a final speed of 110 m/s in 400 m (ab
 but the full 10 000 kg is accelerated.
 (b) What does it cost, if electricity is
 $$ 0.0900 \text{per kW}\cdot h $$ ?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The work done includes raising 2500 kg to height 35.0 m and accelerating the full 10,000 kg mass to 4.00 m/s. Power is total work divided by time.
+
+**Solution for (a)**
+
+Work to raise the load:
+
+<div class="equation">
+ $$ W_{\text{PE}} = mgh = (2500\kg)(9.80\mss)(35.0\m) = 8.58 \times 10^{5}\J $$
+</div>
+
+Work to accelerate the system:
+
+<div class="equation">
+ $$ W_{\text{KE}} = \frac{1}{2}mv^{2} = \frac{1}{2}(10000\kg)(4.00\ms)^{2} = 8.00 \times 10^{4}\J $$
+</div>
+
+Total work:
+
+<div class="equation">
+ $$ W_{\text{total}} = 8.58 \times 10^{5}\J + 8.00 \times 10^{4}\J = 9.38 \times 10^{5}\J $$
+</div>
+
+Power output:
+
+<div class="equation">
+ $$ P = \frac{W}{t} = \frac{9.38 \times 10^{5}\J}{12.0\s} = 7.82 \times 10^{4}\text{ W} = 78.2\text{ kW} $$
+</div>
+
+**Solution for (b)**
+
+Energy consumed in kW·h:
+
+<div class="equation">
+ $$ E = Pt = (78.2\text{ kW})\left(\frac{12.0\s}{3600\s/\text{h}}\right) = (78.2\text{ kW})(0.00333\text{ h}) = 0.260\text{ kW}\cdot\text{h} $$
+</div>
+
+Cost:
+
+<div class="equation">
+ $$ \text{Cost} = (0.260\text{ kW}\cdot\text{h})(\$0.0900\text{ per kW}\cdot\text{h}) = \$0.0234 \approx \$0.023 $$
+</div>
+
+**Discussion**
+
+(a) The useful power output is approximately 78.2 kW.
+(b) The electricity cost for this single elevator trip is about 2.3 cents.
 
 </div>
 </div>
@@ -506,6 +601,75 @@ m/s and an altitude of 12.0 km if air resistance were negligible?
 (c) Given this power, what is the
 average force of air resistance if the airplane takes 1200 s? (Hint: You must
 find the distance the plane travels in 1200 s assuming constant acceleration.)
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), the total energy needed is kinetic plus potential energy. With constant power, $$ W = Pt = \Delta E $$.
+
+For part (b), we use the actual time to find the actual power needed.
+
+For part (c), we use work-energy theorem including air resistance.
+
+**Solution for (a)**
+
+Total energy needed:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+E &=& \frac{1}{2}mv^{2} + mgh\\
+E &=& \frac{1}{2}(1.50\times 10^{5}\kg)(250\ms)^{2} + (1.50\times 10^{5}\kg)(9.80\mss)(12.0\times 10^{3}\m)\\
+E &=& 4.69 \times 10^{9}\J + 1.76 \times 10^{10}\J = 2.23 \times 10^{10}\J
+\end{array} $$
+</div>
+
+Time with 100 MW power:
+
+<div class="equation">
+ $$ t = \frac{E}{P} = \frac{2.23 \times 10^{10}\J}{1.00 \times 10^{8}\text{ W}} = 223\s $$
+</div>
+
+**Solution for (b)**
+
+Actual power:
+
+<div class="equation">
+ $$ P = \frac{E}{t} = \frac{2.23 \times 10^{10}\J}{900\s} = 2.48 \times 10^{7}\text{ W} = 24.8\text{ MW} $$
+</div>
+
+**Solution for (c)**
+
+With constant acceleration over 1200 s, the average velocity is $$ v_{avg} = v/2 = 125\ms $$, so distance is:
+
+<div class="equation">
+ $$ d = v_{avg}t = (125\ms)(1200\s) = 1.50 \times 10^{5}\m $$
+</div>
+
+Work done by engines:
+
+<div class="equation">
+ $$ W_{\text{eng}} = Pt = (2.48 \times 10^{7}\text{ W})(1200\s) = 2.98 \times 10^{10}\J $$
+</div>
+
+Work against air resistance:
+
+<div class="equation">
+ $$ W_{\text{air}} = W_{\text{eng}} - E = 2.98 \times 10^{10}\J - 2.23 \times 10^{10}\J = 7.5 \times 10^{9}\J $$
+</div>
+
+Average air resistance force:
+
+<div class="equation">
+ $$ F_{\text{air}} = \frac{W_{\text{air}}}{d} = \frac{7.5 \times 10^{9}\J}{1.50 \times 10^{5}\m} = 5.0 \times 10^{4}\N $$
+</div>
+
+**Discussion**
+
+(a) Without air resistance, it would take 223 s.
+(b) The actual power needed is 24.8 MW.
+(c) The average air resistance force is approximately 50,000 N.
 
 </div>
 </div>
@@ -542,20 +706,66 @@ kW (or about 37 hp) is reasonable for a car to climb a gentle incline.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) Calculate the power per square meter reaching Earth’s upper atmosphere
+(a) Calculate the power per square meter reaching Earth's upper atmosphere
 from the Sun. (Take the power output of the Sun to be $$ 4.00\times 10^{26}
 \text{W}$$.)
 (b) Part of this is absorbed and reflected by the atmosphere, so that a maximum
-of $$ 1.30 \text{kW/m}^2 $$ reaches Earth’s surface. Calculate the area in $$
+of $$ 1.30 \text{kW/m}^2 $$ reaches Earth's surface. Calculate the area in $$
 {\text{km} }^{2} $$ of solar energy collectors needed to replace an electric
 power plant that generates 750 MW if the collectors convert an average of 2.00%
 of the maximum power into electricity. (This small conversion efficiency is due
 to the devices themselves, and the fact that the sun is directly overhead only
 briefly.) With the same assumptions, what area would be needed to meet the
-United States’ energy needs $$ \left( 1.05\times 10^{20} \J \right) $$ ?
-Australia’s energy needs $$ \left(5.4\times 10^{18} \J  \right) $$? China’s
+United States' energy needs $$ \left( 1.05\times 10^{20} \J \right) $$ ?
+Australia's energy needs $$ \left(5.4\times 10^{18} \J  \right) $$? China's
 energy needs $$ \left(6.3\times 10^{19} \J  \right) $$ ?
 (These energy consumption values are from 2006.)
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), the Sun's power spreads over a sphere with radius equal to Earth's orbital radius (1 AU = $$ 1.50 \times 10^{11}\m $$). Power per unit area is $$ P/(4\pi r^{2}) $$.
+
+For part (b), the actual power collected per m² is $$ (1300\text{ W/m}^2)(0.02) = 26\text{ W/m}^2 $$.
+
+**Solution for (a)**
+
+<div class="equation">
+ $$ \begin{array}{lll}
+\text{Power per m}^2 &=& \frac{4.00 \times 10^{26}\text{ W}}{4\pi(1.50 \times 10^{11}\m)^{2}}\\
+&=& \frac{4.00 \times 10^{26}}{2.83 \times 10^{23}}\text{ W/m}^2\\
+&=& 1.41 \times 10^{3}\text{ W/m}^2 = 1.41\text{ kW/m}^2
+\end{array} $$
+</div>
+
+**Solution for (b)**
+
+Power collected per m²: $$ 1300\text{ W/m}^2 \times 0.02 = 26\text{ W/m}^2 $$
+
+Area for 750 MW plant:
+
+<div class="equation">
+ $$ A = \frac{750 \times 10^{6}\text{ W}}{26\text{ W/m}^2} = 2.88 \times 10^{7}\text{ m}^2 = 28.8\text{ km}^2 $$
+</div>
+
+For annual energy needs, we need power in watts. Using 1 year = $$ 3.156 \times 10^{7}\s $$:
+
+U.S. power = $$ \frac{1.05 \times 10^{20}\J}{3.156 \times 10^{7}\s} = 3.33 \times 10^{12}\text{ W} $$
+
+<div class="equation">
+ $$ A_{\text{US}} = \frac{3.33 \times 10^{12}\text{ W}}{26\text{ W/m}^2} = 1.28 \times 10^{11}\text{ m}^2 = 1.28 \times 10^{5}\text{ km}^2 $$
+</div>
+
+Australia: $$ A_{\text{Aus}} = \frac{5.4 \times 10^{18}\J/(3.156 \times 10^{7}\s)}{26\text{ W/m}^2} = 6.6 \times 10^{3}\text{ km}^2 $$
+
+China: $$ A_{\text{China}} = \frac{6.3 \times 10^{19}\J/(3.156 \times 10^{7}\s)}{26\text{ W/m}^2} = 7.7 \times 10^{4}\text{ km}^2 $$
+
+**Discussion**
+
+(a) About 1.41 kW/m² reaches Earth's upper atmosphere.
+(b) To replace a 750-MW plant requires about 29 km² of collectors. The U.S. would need about 128,000 km², Australia about 6,600 km², and China about 77,000 km² to meet their annual energy needs with 2% efficient solar collectors.
 
 </div>
 </div>
