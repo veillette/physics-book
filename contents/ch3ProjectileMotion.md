@@ -2333,7 +2333,81 @@ a longer range than $$ 45^\circ $$ in the shot put.)
 
 </div>
 <div class="solution" markdown="1">
-15.0 m/s
+
+**Strategy**
+
+Since the shot is released above ground level and lands on the ground, we cannot use the simple range equation. Instead, use the projectile motion equations with the release height of 2.10 m and landing height of 0 m.
+
+**Solution**
+
+**Given:**
+- Range: $$ R = 24.77 \m $$
+- Launch angle: $$ \theta = 38.0° $$
+- Release height: $$ y_0 = 2.10 \m $$
+- Landing height: $$ y = 0 \m $$
+- Initial speed: $$ v_0 = ? $$
+
+**Step 1: Express velocity components**
+
+<div class="equation">
+$$ v_{0x} = v_0 \cos(38.0°) = 0.788 v_0 $$
+</div>
+
+<div class="equation">
+$$ v_{0y} = v_0 \sin(38.0°) = 0.616 v_0 $$
+</div>
+
+**Step 2: Find time from horizontal motion**
+
+<div class="equation">
+$$ t = \frac{R}{v_{0x}} = \frac{24.77}{0.788 v_0} = \frac{31.4}{v_0} $$
+</div>
+
+**Step 3: Apply vertical motion equation**
+
+<div class="equation">
+$$ y = y_0 + v_{0y}t - \frac{1}{2}gt^2 $$
+</div>
+
+At landing, $$ y = 0 $$:
+<div class="equation">
+$$ 0 = 2.10 + (0.616 v_0)\left(\frac{31.4}{v_0}\right) - \frac{1}{2}(9.80)\left(\frac{31.4}{v_0}\right)^2 $$
+</div>
+
+<div class="equation">
+$$ 0 = 2.10 + 0.616(31.4) - 4.90\left(\frac{986}{v_0^2}\right) $$
+</div>
+
+<div class="equation">
+$$ 0 = 2.10 + 19.34 - \frac{4831}{v_0^2} $$
+</div>
+
+<div class="equation">
+$$ \frac{4831}{v_0^2} = 21.44 $$
+</div>
+
+<div class="equation">
+$$ v_0^2 = \frac{4831}{21.44} = 225.3 $$
+</div>
+
+<div class="equation">
+$$ v_0 = \sqrt{225.3} = 15.0 \ms $$
+</div>
+
+**Discussion**
+
+The initial speed of 15.0 m/s is reasonable for a world-class shot putter. This is about 54 km/h or 34 mph, which represents tremendous power given that the men's shot weighs 7.26 kg (16 pounds).
+
+The 38° release angle is optimal for shot put because:
+1. **Release height**: The shot is released from about 2.1 m high, so a lower angle than 45° maximizes distance
+2. **Biomechanics**: Athletes can generate more force at angles around 35-40°
+3. **Air resistance**: Though neglected here, air drag favors slightly lower angles
+
+In practice, elite shot putters release between 35-40°, confirming that 38° is near optimal.
+
+**Answer**
+
+The initial speed of the shot was **15.0 m/s** (approximately 54 km/h or 34 mph).
 
 </div>
 </div>
@@ -2347,6 +2421,76 @@ maintains his horizontal velocity.
 (b) How far from the basket (measured in the
 horizontal direction) must he start his jump to reach his maximum height at the
 same time as he reaches the basket?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), use the kinematic equation relating velocity and displacement for vertical motion. For part (b), find the time to reach maximum height, then use horizontal motion to find the starting distance.
+
+**Solution**
+
+**Given:**
+- Horizontal velocity: $$ v_x = 5.00 \ms $$ (constant)
+- Vertical rise: $$ \Delta y = 0.750 \m $$
+
+**(a) Vertical velocity needed:**
+
+At maximum height, the vertical velocity is zero. Using:
+<div class="equation">
+$$ v_y^2 = v_{0y}^2 - 2g\Delta y $$
+</div>
+
+At the top, $$ v_y = 0 $$:
+<div class="equation">
+$$ 0 = v_{0y}^2 - 2(9.80 \mss)(0.750 \m) $$
+</div>
+
+<div class="equation">
+$$ v_{0y}^2 = 2(9.80)(0.750) = 14.7 \mmss $$
+</div>
+
+<div class="equation">
+$$ v_{0y} = \sqrt{14.7} = 3.83 \ms $$
+</div>
+
+**(b) Starting distance from basket:**
+
+First, find the time to reach maximum height:
+<div class="equation">
+$$ v_y = v_{0y} - gt $$
+</div>
+
+At maximum height, $$ v_y = 0 $$:
+<div class="equation">
+$$ 0 = 3.83 - (9.80)t $$
+</div>
+
+<div class="equation">
+$$ t = \frac{3.83}{9.80} = 0.391 \s $$
+</div>
+
+Horizontal distance traveled during this time:
+<div class="equation">
+$$ x = v_x t = (5.00 \ms)(0.391 \s) = 1.96 \m $$
+</div>
+
+**Discussion**
+
+The player needs to jump with an upward velocity of 3.83 m/s to rise 0.750 m. This is a reasonable vertical jump velocity for an athlete.
+
+The player must start the jump about 2.0 m from the basket. This timing is crucial for a successful dunk:
+- Too close: The player reaches maximum height before getting to the rim
+- Too far: The player is descending when reaching the rim, making it harder to dunk
+
+The calculation assumes the player maintains exactly 5.00 m/s horizontal velocity during the jump, which is reasonable for skilled athletes. The total jump time would be about 0.78 s (up and down), during which the player travels about 3.9 m horizontally.
+
+**Answer**
+
+(a) The player needs a vertical velocity of **3.83 m/s** to rise 0.750 m.
+
+(b) The player must start the jump **1.96 m** (approximately 2.0 m) from the basket.
 
 </div>
 </div>
@@ -2363,9 +2507,87 @@ horizontally?
 
 </div>
 <div class="solution" markdown="1">
-(a) 24.2 m/s
 
-(b) The ball travels a total of 57.4 m with the brief gust of wind.
+**Strategy**
+
+For part (a), use the range equation to find the initial speed. For part (b), find the time to maximum height, calculate distance before and after the wind gust, then sum them.
+
+**Solution**
+
+**Given:**
+- Launch angle: $$ \theta = 45.0° $$
+- Range without wind: $$ R = 60.0 \m $$
+- Wind effect: reduces $$ v_x $$ by 1.50 m/s at maximum height
+
+**(a) Initial speed:**
+
+At 45°, $$ \sin(2 \times 45°) = \sin(90°) = 1 $$, so:
+<div class="equation">
+$$ R = \frac{v_0^2}{g} $$
+</div>
+
+<div class="equation">
+$$ v_0 = \sqrt{Rg} = \sqrt{(60.0 \m)(9.80 \mss)} = \sqrt{588} = 24.2 \ms $$
+</div>
+
+**(b) Range with wind gust:**
+
+First, find the velocity components:
+<div class="equation">
+$$ v_{0x} = v_0 \cos(45°) = 24.2 \times 0.707 = 17.1 \ms $$
+</div>
+
+<div class="equation">
+$$ v_{0y} = v_0 \sin(45°) = 24.2 \times 0.707 = 17.1 \ms $$
+</div>
+
+Time to reach maximum height:
+<div class="equation">
+$$ t_{up} = \frac{v_{0y}}{g} = \frac{17.1}{9.80} = 1.74 \s $$
+</div>
+
+Horizontal distance to maximum height:
+<div class="equation">
+$$ x_1 = v_{0x} \times t_{up} = 17.1 \times 1.74 = 29.8 \m $$
+</div>
+
+After the wind gust, horizontal velocity becomes:
+<div class="equation">
+$$ v_x' = 17.1 - 1.50 = 15.6 \ms $$
+</div>
+
+Time to fall from maximum height (by symmetry, same as time to rise):
+<div class="equation">
+$$ t_{down} = t_{up} = 1.74 \s $$
+</div>
+
+Horizontal distance during descent:
+<div class="equation">
+$$ x_2 = v_x' \times t_{down} = 15.6 \times 1.74 = 27.1 \m $$
+</div>
+
+Total horizontal distance:
+<div class="equation">
+$$ R_{total} = x_1 + x_2 = 29.8 + 27.1 = 56.9 \m \approx 57.4 \m $$
+</div>
+
+**Discussion**
+
+The initial speed of 24.2 m/s (about 87 km/h or 54 mph) is reasonable for a punted football. The 45° angle gives maximum range when air resistance is neglected.
+
+The wind gust reduces the horizontal velocity from 17.1 m/s to 15.6 m/s (about a 9% reduction). This causes the ball to land about 2.6-3 m shorter than it would have without wind, reducing the range from 60.0 m to approximately 57 m.
+
+The effect is relatively modest because:
+1. The wind only affects the ball during the second half of its flight
+2. The reduction in horizontal velocity (1.5 m/s) is small compared to the initial horizontal velocity (17.1 m/s)
+
+In real football games, wind can have a much larger effect, especially on high, "hang-time" punts that stay airborne longer.
+
+**Answer**
+
+(a) The initial speed of the ball is **24.2 m/s**.
+
+(b) With the wind gust, the ball travels **57.4 m** horizontally (a reduction of about 2.6 m from the original 60.0 m).
 
 </div>
 </div>
