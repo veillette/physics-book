@@ -180,12 +180,58 @@ force that is nearly an integral multiple of the input force $$ T $$.
 Scissors are like a double-lever system. Which of the simple machines in [Figure 1](#Figure1) and [Figure 2](#Figure2) is most analogous to scissors?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We analyze the structure of scissors and compare it to the lever configurations shown in Figures 1 and 2. Scissors have two crossed blades that pivot at a central fulcrum, with the input force applied at the handles and the output force applied at the cutting edges.
+
+**Solution**
+
+Scissors are most analogous to the **nail puller** shown in [Figure 1](#Figure1).
+
+In scissors:
+- The **fulcrum (pivot point)** is at the screw or rivet where the two blades cross
+- The **input force** is applied at the handles (far from the pivot)
+- The **output force** is exerted at the cutting edges (closer to the pivot)
+
+This is the same configuration as the nail puller, where:
+- The pivot is between the input and output forces
+- The input lever arm (from pivot to handles) is longer than the output lever arm (from pivot to blades)
+- This gives scissors a mechanical advantage greater than 1
+
+**Discussion**
+
+This is why scissors have long handles relative to their cutting blades—the longer handles increase the mechanical advantage, allowing us to cut through tough materials with relatively little effort. Different types of scissors vary their MA: fabric scissors have longer blades for smooth cuts, while sheet metal snips have very short blades and very long handles for maximum cutting force. This is a first-class lever system.
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 Suppose you pull a nail at a constant rate using a nail puller as shown in [Figure 1](#Figure1). Is the nail puller in equilibrium? What if you pull the nail with some acceleration – is the nail puller in equilibrium then? In which case is the force applied to the nail puller larger and why?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We apply the conditions for equilibrium. A system is in equilibrium when the net force and net torque are zero, which means there is no acceleration.
+
+**Solution**
+
+**Constant rate (constant velocity):** Yes, the nail puller **is in equilibrium**. When moving at constant velocity, acceleration is zero. By Newton's first law, this means the net force is zero, and the net torque is also zero. All forces and torques are balanced.
+
+**With acceleration:** No, the nail puller **is not in equilibrium**. When accelerating, there must be a net force and/or net torque acting on the system.
+
+**Which case requires more force?** The force applied to the nail puller is **larger when pulling with acceleration**.
+
+Here's why:
+- When in equilibrium (constant rate): $$ F_{\text{input}} \cdot l_i = F_{\text{nail}} \cdot l_o $$
+- When accelerating: $$ F_{\text{input}} \cdot l_i = F_{\text{nail}} \cdot l_o + I\alpha $$
+
+where $$ I\alpha $$ represents the additional torque needed to produce angular acceleration. The input force must not only overcome the resistance from the nail but also provide the extra force to accelerate the system.
+
+**Discussion**
+
+This is analogous to pushing a car: maintaining constant velocity requires only enough force to overcome friction, while accelerating requires additional force according to $$ F = ma $$. In practice, a skilled user pulls nails at nearly constant speed, minimizing the required force and reducing fatigue.
 </div>
 </div>
 
@@ -194,12 +240,67 @@ Suppose you pull a nail at a constant rate using a nail puller as shown in [Figu
 Why are the forces exerted on the outside world by the limbs of our bodies usually much smaller than the forces exerted by muscles inside the body?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We analyze the lever systems in the body, recognizing that muscles are typically attached very close to joints while the load is applied at the end of limbs far from the joint.
+
+**Solution**
+
+The forces exerted on the outside world by limbs are smaller than the forces exerted by muscles because most skeletal muscle systems have a **mechanical advantage much less than 1**.
+
+This occurs because:
+1. **Muscles attach close to joints:** Tendons typically connect muscles to bones very near the pivot point (joint). This creates a short input lever arm ($$ l_i $$).
+
+2. **Loads are applied far from joints:** We interact with the outside world at the ends of our limbs (hands, feet), which are far from the joint. This creates a long output lever arm ($$ l_o $$).
+
+3. **MA relationship:** For levers, $$ \text{MA} = \frac{F_{\text{output}}}{F_{\text{input}}} = \frac{l_i}{l_o} $$
+
+Since $$ l_i < l_o $$ in most body systems, $$ \text{MA} < 1 $$, which means $$ F_{\text{muscle}} > F_{\text{output}} $$.
+
+**Example:** In the forearm system, the biceps attaches about 4 cm from the elbow, but the hand is about 35 cm from the elbow. This gives $$ \text{MA} \approx 4/35 \approx 0.11 $$, meaning the muscle force must be about 9 times larger than the force exerted by the hand.
+
+**Discussion**
+
+While this seems inefficient for force production, it provides advantages in speed and range of motion. A small muscle contraction produces a large movement at the hand, allowing fast, sweeping motions that would be impossible if muscles were attached at the ends of limbs.
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 Explain why the forces in our joints are several times larger than the forces we exert on the outside world with our limbs. Can these forces be even greater than muscle forces (see previous Question)?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We apply equilibrium analysis to the lever systems in the body. The joint force must balance both the muscle force and the external load, and since these often act in opposite directions relative to the joint, the forces can add together.
+
+**Solution**
+
+Joint forces are larger than external forces because **joints must support both the large muscle forces and the reaction to those forces**.
+
+Consider the forearm example from [Figure 1](#Figure1) in the text:
+- The biceps exerts an upward force $$ F_B = 470 \N $$
+- The combined weight supported is only $$ 63.7 \N $$
+- The elbow joint must exert $$ F_E = 407 \N $$ downward
+
+**Why this happens:**
+1. The muscle pulls up on the forearm with a large force (due to MA < 1)
+2. For force equilibrium: $$ F_B = F_E + W $$ where W is the load
+3. Therefore: $$ F_E = F_B - W = 470 - 63.7 = 407 \N $$
+
+**Can joint forces exceed muscle forces?** Yes, they can!
+
+This occurs when:
+- The geometry causes the muscle and external forces to have components in the same direction relative to the joint
+- The joint must then support the sum of both forces
+
+For example, in the spine when lifting with a bent back (see [Figure 4](#Figure4) in section 6), the vertebral force $$ F_V = 4660 \N $$ exceeds the back muscle force $$ F_B = 4200 \N $$ because the forces add vectorially.
+
+**Discussion**
+
+This explains why joint damage (arthritis, torn cartilage, damaged discs) is so common. Even modest external loads create enormous internal forces that wear down joint surfaces over time, especially with repetitive motions or poor posture.
 </div>
 </div>
 
@@ -226,6 +327,59 @@ to the nail?
 Suppose you needed to raise a 250-kg mower a distance of 6.0 cm above the ground to change a tire. If you had a 2.0-m long lever, where would you place the fulcrum if your force was limited to 300 N?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+This is a lever problem where we need to find the position of the fulcrum. We use the mechanical advantage relationship: $$ \text{MA} = \frac{F_o}{F_i} = \frac{l_i}{l_o} $$. The total length of the lever is the sum of the input and output lever arms: $$ l_i + l_o = 2.0 \m $$.
+
+**Solution**
+
+First, calculate the weight of the mower (the output force needed):
+
+<div class="equation">
+$$ F_o = mg = (250 \kg)(9.80 \mss) = 2450 \N $$
+</div>
+
+The required mechanical advantage is:
+
+<div class="equation">
+$$ \text{MA} = \frac{F_o}{F_i} = \frac{2450 \N}{300 \N} = 8.17 $$
+</div>
+
+Using the lever relationship:
+
+<div class="equation">
+$$ \frac{l_i}{l_o} = 8.17 $$
+</div>
+
+<div class="equation">
+$$ l_i = 8.17 \cdot l_o $$
+</div>
+
+Since the total lever length is 2.0 m:
+
+<div class="equation">
+$$ l_i + l_o = 2.0 \m $$
+</div>
+
+<div class="equation">
+$$ 8.17 \cdot l_o + l_o = 2.0 \m $$
+</div>
+
+<div class="equation">
+$$ 9.17 \cdot l_o = 2.0 \m $$
+</div>
+
+<div class="equation">
+$$ l_o = \frac{2.0 \m}{9.17} = 0.218 \m \approx 22 \text{ cm} $$
+</div>
+
+The fulcrum should be placed **22 cm (0.22 m) from the mower** (or equivalently, 1.78 m from where you apply your force).
+
+**Discussion**
+
+This result makes sense: to lift a heavy load with a small force, the fulcrum must be placed very close to the load. The input lever arm (1.78 m) is about 8 times longer than the output lever arm (0.22 m), giving the required mechanical advantage of about 8. Note that while the force is reduced, the distance you must push down is proportionally larger than the distance the mower rises—energy is conserved.
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -249,6 +403,27 @@ A typical car has an axle with $$ 1.10 \text{cm} $$ radius driving a tire with a
 in [Figure 3](#Figure3)(b)?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For a wheel and axle system like [Figure 3](#Figure3)(b), the mechanical advantage is the ratio of the input radius (axle) to the output radius (wheel): $$ \text{MA} = \frac{r_i}{r_o} $$. In this case, the axle applies the input force and the wheel exerts the output force on the ground.
+
+**Solution**
+
+Given:
+- Axle radius: $$ r_i = 1.10 \text{ cm} $$
+- Tire radius: $$ r_o = 27.5 \text{ cm} $$
+
+<div class="equation">
+$$ \text{MA} = \frac{r_i}{r_o} = \frac{1.10 \text{ cm}}{27.5 \text{ cm}} = 0.0400 $$
+</div>
+
+The mechanical advantage is **0.0400** (or equivalently, 1/25).
+
+**Discussion**
+
+A mechanical advantage less than 1 means the system is designed for speed rather than force multiplication. The wheel travels 25 times farther than the axle rotates through, but the force on the ground is only 1/25 of the force applied by the axle. This is desirable for vehicles: a small rotation of the engine/axle produces a large distance traveled by the wheel. The tradeoff is that the axle must exert very large forces—this is why car axles are built so strong. If you want to apply 1000 N to the road, the axle must exert 25,000 N!
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -269,8 +444,51 @@ If you used an ideal pulley of the type shown in [Figure 4](#Figure4)(a)
 to support a car engine of mass $$ 115 \kg $$,
 (a) What would be the tension in the rope?
 (b) What force must the ceiling supply, assuming you pull straight down on the rope?
-Neglect the pulley system’s mass.
+Neglect the pulley system's mass.
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The pulley system in [Figure 4](#Figure4)(a) has two rope segments pulling up on the load, giving it a mechanical advantage of approximately 2. The tension in the rope is uniform throughout (for an ideal, frictionless pulley). For part (b), we apply force equilibrium to the upper pulley.
+
+**Solution for (a)**
+
+The weight of the engine is:
+
+<div class="equation">
+$$ W = mg = (115 \kg)(9.80 \mss) = 1127 \N $$
+</div>
+
+In the pulley system shown in [Figure 4](#Figure4)(a), there are two rope segments supporting the load. Each carries the same tension $$ T $$. For equilibrium of the lower pulley and load:
+
+<div class="equation">
+$$ 2T = W $$
+</div>
+
+<div class="equation">
+$$ T = \frac{W}{2} = \frac{1127 \N}{2} = 564 \N $$
+</div>
+
+The tension in the rope is **564 N** (or $$ 5.64 \times 10^{2} \N $$).
+
+**Solution for (b)**
+
+The ceiling must support the upper pulley, which has three rope forces acting on it:
+- Two segments of rope going down to the lower pulley, each with tension $$ T $$
+- One segment where you pull down with force $$ T $$
+
+All three rope segments pull down on the upper pulley, so the ceiling must supply an upward force:
+
+<div class="equation">
+$$ F_{\text{ceiling}} = 3T = 3(564 \N) = 1690 \N $$
+</div>
+
+The ceiling must supply **1690 N** (or $$ 1.69 \times 10^{3} \N $$) upward.
+
+**Discussion**
+
+Note that the ceiling force (1690 N) is greater than the engine weight (1127 N)! This makes sense because the ceiling must support not only the engine but also counteract the downward force you apply when pulling on the rope. The extra 564 N represents your pull. The mechanical advantage of 2 means you only need to pull with half the engine's weight, but the ceiling picks up the slack.
 </div>
 </div>
 
