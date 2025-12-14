@@ -1021,6 +1021,83 @@ A rugby player passes the ball 7.00 m across the field, where it is caught at th
 (c) How long did this pass take?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Since the ball is caught at the same height as it was thrown, we can use the range equation for level ground. The range equation gives two possible angles that produce the same range. The smaller angle gives a flatter, faster trajectory.
+
+**Solution**
+
+Given: R = 7.00 m, $$ v_0 = 12.0 \ms $$
+
+**(a) Finding the smaller launch angle:**
+
+Use the range equation:
+<div class="equation">
+$$ R = \frac{v_0^2 \sin(2\theta)}{g} $$
+</div>
+
+Solve for $$ \sin(2\theta) $$:
+<div class="equation">
+$$ \sin(2\theta) = \frac{Rg}{v_0^2} = \frac{(7.00 \m)(9.80 \mss)}{(12.0 \ms)^2} = \frac{68.6}{144} = 0.476 $$
+</div>
+
+<div class="equation">
+$$ 2\theta = \sin^{-1}(0.476) = 28.4° $$
+</div>
+
+<div class="equation">
+$$ \theta = \frac{28.4°}{2} = 14.2° $$
+</div>
+
+**(b) The other angle:**
+
+Since $$ \sin(2\theta) = \sin(180° - 2\theta) $$, the other solution is:
+<div class="equation">
+$$ 2\theta = 180° - 28.4° = 151.6° $$
+</div>
+
+<div class="equation">
+$$ \theta = \frac{151.6°}{2} = 75.8° $$
+</div>
+
+This angle would not be used because:
+1. The ball would take much longer to reach the receiver (longer hang time)
+2. The high, arcing trajectory makes the pass easier for opponents to intercept
+3. The ball is harder to catch when falling nearly vertically
+4. Wind and other factors have more time to affect the trajectory
+
+**(c) Time of flight:**
+
+First, find the vertical component of initial velocity:
+<div class="equation">
+$$ v_{0y} = v_0 \sin\theta = (12.0 \ms)(\sin 14.2°) = (12.0)(0.245) = 2.94 \ms $$
+</div>
+
+At maximum height, $$ v_y = 0 $$. Time to reach maximum height:
+<div class="equation">
+$$ t_{up} = \frac{v_{0y}}{g} = \frac{2.94 \ms}{9.80 \mss} = 0.300 \s $$
+</div>
+
+By symmetry, total flight time:
+<div class="equation">
+$$ t_{total} = 2 \times t_{up} = 2 \times 0.300 \s = 0.600 \s $$
+</div>
+
+**Discussion**
+
+The short flight time (0.600 s) confirms that the smaller angle produces a quick, flat pass that minimizes the opportunity for interception. The complementary angle (75.8°) would result in a much longer flight time of about 2.4 s, which would be impractical in a fast-paced rugby match.
+
+**Answer**
+
+(a) The ball was thrown at an angle of **14.2°** above horizontal.
+
+(b) The other angle is **75.8°**. This angle would not be used because it results in a much longer flight time, making the pass easier to intercept and harder to catch.
+
+(c) The pass took **0.600 s**.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1030,13 +1107,55 @@ and the given initial velocities.
 
 </div>
 <div class="solution" markdown="1">
- $$ \begin{array}{}
-R=\frac{  v_{0} }{\sin{2\theta }_{0}g}\\
-\text{For}\theta =45^\circ,R=\frac{ v_{0} }{g}
-\end{array} $$
 
-$$ R=91.8\m $$ for $$ v_{0}=30 \ms $$; $$ R=163\m $$ for $$ v_{0}=40 \ms $$; $$
-R=255\m $$ for $$ v_{0}=50 \ms $$.
+**Strategy**
+
+Use the range equation for projectile motion on level ground. For an angle of 45°, the range equation simplifies because $$ \sin(2 \times 45°) = \sin(90°) = 1 $$. Calculate the range for each given initial velocity.
+
+**Solution**
+
+The range equation is:
+<div class="equation">
+$$ R = \frac{v_0^2 \sin(2\theta)}{g} $$
+</div>
+
+For $$ \theta = 45° $$:
+<div class="equation">
+$$ \sin(2\theta) = \sin(90°) = 1 $$
+</div>
+
+Therefore, the range simplifies to:
+<div class="equation">
+$$ R = \frac{v_0^2}{g} $$
+</div>
+
+**For** $$ v_0 = 30 \ms $$:
+<div class="equation">
+$$ R = \frac{(30 \ms)^2}{9.80 \mss} = \frac{900 \mmss}{9.80 \mss} = 91.8 \m $$
+</div>
+
+**For** $$ v_0 = 40 \ms $$:
+<div class="equation">
+$$ R = \frac{(40 \ms)^2}{9.80 \mss} = \frac{1600 \mmss}{9.80 \mss} = 163 \m $$
+</div>
+
+**For** $$ v_0 = 50 \ms $$:
+<div class="equation">
+$$ R = \frac{(50 \ms)^2}{9.80 \mss} = \frac{2500 \mmss}{9.80 \mss} = 255 \m $$
+</div>
+
+**Discussion**
+
+These calculations confirm the ranges shown in Figure 5(a). Notice that the range is proportional to the square of the initial velocity. This means doubling the initial velocity quadruples the range. For instance, increasing from 30 m/s to 60 m/s would increase the range from 91.8 m to about 367 m (four times as much).
+
+The angle of 45° produces the maximum range for a given initial speed when air resistance is negligible and the launch and landing heights are equal. This is because $$ \sin(2\theta) $$ reaches its maximum value of 1 when $$ 2\theta = 90° $$, which occurs at $$ \theta = 45° $$.
+
+**Answer**
+
+The ranges are verified:
+- For $$ v_0 = 30 \ms $$ at 45°: **R = 91.8 m**
+- For $$ v_0 = 40 \ms $$ at 45°: **R = 163 m**
+- For $$ v_0 = 50 \ms $$ at 45°: **R = 255 m**
 
 </div>
 </div>
@@ -1044,6 +1163,66 @@ R=255\m $$ for $$ v_{0}=50 \ms $$.
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Verify the ranges shown for the projectiles in [Figure 5](#Figure5)(b) for an initial velocity of 50 m/s at the given initial angles.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use the range equation $$ R = \frac{v_0^2 \sin(2\theta)}{g} $$ to calculate the range for each angle shown in Figure 5(b). The figure shows trajectories for angles of 15°, 45°, and 75°. We should verify that complementary angles (15° and 75°) give the same range.
+
+**Solution**
+
+Given: $$ v_0 = 50 \ms $$, $$ g = 9.80 \mss $$
+
+The range equation is:
+<div class="equation">
+$$ R = \frac{v_0^2 \sin(2\theta)}{g} = \frac{(50 \ms)^2 \sin(2\theta)}{9.80 \mss} = \frac{2500 \mmss}{9.80 \mss} \sin(2\theta) $$
+</div>
+
+**For** $$ \theta = 15° $$:
+<div class="equation">
+$$ \sin(2 \times 15°) = \sin(30°) = 0.500 $$
+</div>
+
+<div class="equation">
+$$ R = \frac{2500 \mmss}{9.80 \mss} \times 0.500 = 255 \m \times 0.500 = 128 \m $$
+</div>
+
+**For** $$ \theta = 45° $$:
+<div class="equation">
+$$ \sin(2 \times 45°) = \sin(90°) = 1.000 $$
+</div>
+
+<div class="equation">
+$$ R = \frac{2500 \mmss}{9.80 \mss} \times 1.000 = 255 \m $$
+</div>
+
+**For** $$ \theta = 75° $$:
+<div class="equation">
+$$ \sin(2 \times 75°) = \sin(150°) = 0.500 $$
+</div>
+
+<div class="equation">
+$$ R = \frac{2500 \mmss}{9.80 \mss} \times 0.500 = 255 \m \times 0.500 = 128 \m $$
+</div>
+
+**Discussion**
+
+These calculations verify the ranges shown in Figure 5(b). Notice that:
+
+1. **Complementary angles give equal ranges**: The angles 15° and 75° are complementary (they sum to 90°) and both produce the same range of 128 m. This occurs because $$ \sin(30°) = \sin(150°) = 0.500 $$.
+
+2. **Maximum range at 45°**: The 45° angle produces the maximum range of 255 m, which is exactly twice the range of the complementary angles.
+
+3. **Different trajectories, same range**: Although 15° and 75° give the same horizontal range, their trajectories are very different. The 15° trajectory is low and fast, while the 75° trajectory is high and slow. In practice, the lower angle is usually preferred because it's faster and less affected by wind.
+
+**Answer**
+
+The ranges are verified for $$ v_0 = 50 \ms $$:
+- For $$ \theta = 15° $$: **R = 128 m**
+- For $$ \theta = 45° $$: **R = 255 m** (maximum range)
+- For $$ \theta = 75° $$: **R = 128 m** (same as 15°)
 
 </div>
 </div>
