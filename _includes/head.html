@@ -33,43 +33,12 @@
 
 
     <!-- MathJax Configuration (must load before MathJax itself) -->
-    <script>
-    MathJax = {
-        tex: {
-            inlineMath: [['$', '$'], ['\\(', '\\)']],
-            displayMath: [['$$', '$$'], ['\\[', '\\]']],
-            processEscapes: true,
-            processEnvironments: true,
-            macros: {
-                KE: '{\\mathrm{KE}}',
-                PE: '{\\mathrm{PE}}',
-                vb: ['\\mathbf{\\vec{#1}}', 1],
-                mag: ['\\lvert \\mathbf{\\vec{#1}} \\rvert', 1],
-                kg: '\\mathrm{kg}',
-                ms: '\\mathrm{m/s}',
-                mm: '\\mathrm{m}^2',
-                mms: '\\mathrm{m}^2\\mathrm{/s}',
-                mmss: '\\mathrm{m}^2\\mathrm{/s}^2',
-                mss: '\\mathrm{m/s}^2',
-                rads: '\\mathrm{rad/s}',
-                radss: '\\mathrm{rad/s}^2',
-                N: '\\mathrm{N}',
-                J: '\\mathrm{J}',
-                s: '\\mathrm{s}',
-                m: '\\mathrm{m}',
-                inch: '\\mathrm{in.}',
-                mile: '\\mathrm{mi.}',
-                mph: '\\mathrm{mph}',
-                ac: 'a_\\mathrm{c}'
-            }
-        }
-    };
-    </script>
-    <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js"></script>
+    <script src="{{'/assets/js/math-config.js'| relative_url }}" type="text/javascript"></script>
+    <script defer id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js"></script>
 
     <!-- support for flash content -->
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-    
+
     <script type="text/javascript">
         window.Book = {
             'url': '{{ site.github.repository_url }}',
@@ -86,7 +55,7 @@
 
     <script src="{{'/assets/js/register-sw.js'| relative_url }}"
             type="text/javascript"></script>
-    
+
     <!-- PWA Debug utilities (only loaded if enabled) -->
     <script src="{{'/assets/js/pwa-debug.js'| relative_url }}"
             type="text/javascript"></script>
