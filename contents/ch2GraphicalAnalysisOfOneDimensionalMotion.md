@@ -469,6 +469,48 @@ is 0.208 m/s. Assume all values are known to 3 significant figures.
 {: #Figure16}
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The slope of a position vs. time graph gives the velocity. To find the instantaneous velocity at $$ t = 10.0 \s $$, we need to find the slope of the curve at that point. Since this appears to be a straight line, we can choose two points on the line (preferably well-separated for accuracy) and calculate the slope using $$ v = \frac{\Delta x}{\Delta t} $$.
+
+**Solution**
+
+From Figure 16, we can read approximate values from the graph. Let's choose two points that are widely separated:
+
+At $$ t_1 = 0.0 \s $$, the position is approximately $$ x_1 = 0.50 \text{ km} = 500 \m $$
+
+At $$ t_2 = 20.0 \s $$, the position is approximately $$ x_2 = 4.65 \text{ km} = 4650 \m $$
+
+Now calculate the slope:
+
+<div class="equation">
+$$ v = \frac{\Delta x}{\Delta t} = \frac{x_2 - x_1}{t_2 - t_1} = \frac{4650 \m - 500 \m}{20.0 \s - 0.0 \s} $$
+</div>
+
+<div class="equation">
+$$ v = \frac{4150 \m}{20.0 \s} = 207.5 \ms \approx 208 \ms $$
+</div>
+
+To verify at $$ t = 10.0 \s $$ specifically, we can also use points around that time:
+
+At $$ t_1 = 5.0 \s $$, $$ x_1 \approx 1.54 \text{ km} = 1540 \m $$
+
+At $$ t_2 = 15.0 \s $$, $$ x_2 \approx 3.62 \text{ km} = 3620 \m $$
+
+<div class="equation">
+$$ v = \frac{3620 \m - 1540 \m}{15.0 \s - 5.0 \s} = \frac{2080 \m}{10.0 \s} = 208 \ms $$
+</div>
+
+**Discussion**
+
+The velocity is constant throughout the motion because the position-time graph is a straight line. The positive slope indicates the object is moving in the positive direction. This value of 208 m/s (or 0.208 km/s) is consistent across different time intervals, confirming that the motion has zero acceleration.
+
+**Answer**
+
+The velocity at $$ t = 10.0 \s $$ is 208 m/s (or 0.208 km/s), which verifies the given value.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -493,6 +535,40 @@ that the acceleration is $$ 3.2 \mss $$ at $$ t=10 \s $$.
 {: #Figure17}
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The slope of a velocity vs. time graph gives the acceleration. Since the curve in Figure 17 is not a straight line, the acceleration varies with time. To find the instantaneous acceleration at $$ t = 10 \s $$, we need to draw a tangent line to the curve at that point and calculate the slope of the tangent line using $$ a = \frac{\Delta v}{\Delta t} $$.
+
+**Solution**
+
+To find the acceleration at $$ t = 10 \s $$, we draw a tangent line to the curve at that point.
+
+From the tangent line at $$ t = 10 \s $$, we can identify two points on the tangent:
+
+At $$ t_1 \approx 5 \s $$, the tangent line gives $$ v_1 \approx 100 \ms $$
+
+At $$ t_2 \approx 20 \s $$, the tangent line gives $$ v_2 \approx 148 \ms $$
+
+Now calculate the slope of the tangent line:
+
+<div class="equation">
+$$ a = \frac{\Delta v}{\Delta t} = \frac{v_2 - v_1}{t_2 - t_1} = \frac{148 \ms - 100 \ms}{20 \s - 5 \s} $$
+</div>
+
+<div class="equation">
+$$ a = \frac{48 \ms}{15 \s} = 3.2 \mss $$
+</div>
+
+**Discussion**
+
+The acceleration at $$ t = 10 \s $$ is positive, indicating that the velocity is increasing at this time. However, the curve shows that the slope (acceleration) is decreasing as time progresses, eventually approaching zero when the velocity becomes constant. This represents a situation where an object is speeding up but the rate at which it speeds up is decreasing over time. This could represent a car accelerating but approaching its maximum speed, or an object experiencing increasing air resistance as it speeds up.
+
+**Answer**
+
+The acceleration at $$ t = 10 \s $$ is $$ 3.2 \mss $$, which verifies the given value.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -513,7 +589,7 @@ the examples for this figure.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) Take the slope of the curve in [Figure 19](#Figure19) to find the jogger’s velocity at $$ t=2.5 \s $$.
+(a) Take the slope of the curve in [Figure 19](#Figure19) to find the jogger's velocity at $$ t=2.5 \s $$.
 (b) Repeat at 7.5 s. These values must be consistent with the graph
 in [Figure 20](#Figure20).
 
@@ -525,6 +601,56 @@ in [Figure 20](#Figure20).
 
 ![Line graph of velocity over time.](../resources/Figure_02_08_21.jpg)
 {: #Figure21}
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The slope of a position vs. time graph at any point gives the instantaneous velocity at that time. Since Figure 19 shows a curved line with changing slope, we need to draw tangent lines at $$ t = 2.5 \s $$ and $$ t = 7.5 \s $$ and calculate their slopes. The results should be consistent with the corresponding velocity values shown in Figure 20.
+
+**Solution**
+
+**(a) Velocity at $$ t = 2.5 \s $$:**
+
+Draw a tangent line to the position curve at $$ t = 2.5 \s $$. From the tangent line, we can identify two points:
+
+At $$ t_1 \approx 0 \s $$, the tangent gives $$ x_1 \approx 0 \m $$
+
+At $$ t_2 \approx 5 \s $$, the tangent gives $$ x_2 \approx 20 \m $$
+
+Calculate the slope:
+
+<div class="equation">
+$$ v = \frac{\Delta x}{\Delta t} = \frac{x_2 - x_1}{t_2 - t_1} = \frac{20 \m - 0 \m}{5 \s - 0 \s} = \frac{20 \m}{5 \s} = 4 \ms $$
+</div>
+
+Checking Figure 20, at $$ t = 2.5 \s $$, the velocity graph shows approximately $$ 4 \ms $$. ✓
+
+**(b) Velocity at $$ t = 7.5 \s $$:**
+
+Draw a tangent line to the position curve at $$ t = 7.5 \s $$. This section of the curve slopes downward, indicating negative velocity. From the tangent line:
+
+At $$ t_1 \approx 5 \s $$, the tangent gives $$ x_1 \approx 40 \m $$
+
+At $$ t_2 \approx 10 \s $$, the tangent gives $$ x_2 \approx 20 \m $$
+
+Calculate the slope:
+
+<div class="equation">
+$$ v = \frac{\Delta x}{\Delta t} = \frac{x_2 - x_1}{t_2 - t_1} = \frac{20 \m - 40 \m}{10 \s - 5 \s} = \frac{-20 \m}{5 \s} = -4 \ms $$
+</div>
+
+Checking Figure 20, at $$ t = 7.5 \s $$, the velocity graph shows approximately $$ -4 \ms $$. ✓
+
+**Discussion**
+
+The results demonstrate the fundamental relationship between position and velocity graphs. At $$ t = 2.5 \s $$, the position graph has a positive slope, meaning the jogger is moving in the positive direction at $$ 4 \ms $$. At $$ t = 7.5 \s $$, the position graph has a negative slope, indicating the jogger is moving in the negative direction (perhaps running back) at $$ -4 \ms $$. The magnitudes are equal but opposite in sign, showing the jogger runs backward at the same speed as forward. The values extracted from the position-time graph are perfectly consistent with the velocity-time graph in Figure 20.
+
+**Answer**
+
+(a) The jogger's velocity at $$ t = 2.5 \s $$ is approximately $$ 4 \ms $$.
+
+(b) The jogger's velocity at $$ t = 7.5 \s $$ is approximately $$ -4 \ms $$.
 
 </div>
 </div>
@@ -561,6 +687,66 @@ first 4 s?
 
 ![Line graph of position versus time. The line has 4 legs. The first leg has a positive slope. The second leg has a negative slope. The third has a slope of 0. The fourth has a positive slope.](../resources/Figure_02_08_23.jpg)
 {: #Figure23}
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+To construct the velocity graph from the position graph, we calculate the slope of each segment, since velocity equals the slope of the position-time graph. To construct the acceleration graph from the velocity graph, we calculate the slope of the velocity-time graph, since acceleration equals the slope of velocity vs. time. We analyze each distinct segment where the slope is constant.
+
+**Solution**
+
+**Analyzing the Position Graph (Figure 23):**
+
+The position graph has four distinct linear segments:
+
+**Segment 1 (0 to 1 s):** Positive slope
+- From the graph: $$ \Delta x \approx 2 \m $$, $$ \Delta t = 1 \s $$
+- Velocity: $$ v_1 = \frac{2 \m}{1 \s} = 2 \ms $$
+
+**Segment 2 (1 to 2 s):** Negative slope
+- From the graph: $$ \Delta x \approx -4 \m $$, $$ \Delta t = 1 \s $$
+- Velocity: $$ v_2 = \frac{-4 \m}{1 \s} = -4 \ms $$
+
+**Segment 3 (2 to 4 s):** Zero slope (horizontal line)
+- The position is constant
+- Velocity: $$ v_3 = 0 \ms $$
+
+**Segment 4 (4 to 5 s):** Positive slope
+- From the graph: $$ \Delta x \approx 1 \m $$, $$ \Delta t = 1 \s $$
+- Velocity: $$ v_4 = \frac{1 \m}{1 \s} = 1 \ms $$
+
+**Velocity Graph:**
+
+The velocity graph is a series of horizontal line segments at:
+- $$ v = 2 \ms $$ from $$ t = 0 $$ to $$ 1 \s $$
+- $$ v = -4 \ms $$ from $$ t = 1 $$ to $$ 2 \s $$
+- $$ v = 0 \ms $$ from $$ t = 2 $$ to $$ 4 \s $$
+- $$ v = 1 \ms $$ from $$ t = 4 $$ to $$ 5 \s $$
+
+**Analyzing the Velocity Graph for Acceleration:**
+
+The acceleration is the slope of the velocity graph. At transition points, there are instantaneous changes (vertical jumps) in velocity, which represent infinite acceleration. In reality, these would be very large but finite accelerations:
+
+- **0 to 1 s:** Constant velocity, so $$ a = 0 $$
+- **At t = 1 s:** Velocity changes from $$ 2 \ms $$ to $$ -4 \ms $$ (vertical jump)
+- **1 to 2 s:** Constant velocity, so $$ a = 0 $$
+- **At t = 2 s:** Velocity changes from $$ -4 \ms $$ to $$ 0 \ms $$ (vertical jump)
+- **2 to 4 s:** Constant velocity, so $$ a = 0 $$
+- **At t = 4 s:** Velocity changes from $$ 0 \ms $$ to $$ 1 \ms $$ (vertical jump)
+- **4 to 5 s:** Constant velocity, so $$ a = 0 $$
+
+**Acceleration Graph:**
+
+The acceleration graph shows $$ a = 0 $$ for all segments between transitions, with vertical spikes (impulses) at $$ t = 1 \s $$, $$ t = 2 \s $$, and $$ t = 4 \s $$ where the velocity changes abruptly.
+
+**Discussion**
+
+The position graph shows a particle that moves forward, then backward, then stops for a period, then moves forward again. Each segment has constant velocity (straight line segments), so acceleration is zero during those times. The sharp corners in the position graph correspond to abrupt changes in velocity, which would require very large (theoretically infinite) accelerations. In real physical situations, these corners would be slightly rounded, representing large but finite accelerations over very short time intervals.
+
+**Answer**
+
+The velocity graph consists of horizontal segments at 2 m/s (0-1 s), -4 m/s (1-2 s), 0 m/s (2-4 s), and 1 m/s (4-5 s). The acceleration graph is zero throughout except for vertical spikes at t = 1 s, 2 s, and 4 s where the velocity changes instantaneously.
 
 </div>
 </div>
