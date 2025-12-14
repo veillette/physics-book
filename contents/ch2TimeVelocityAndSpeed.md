@@ -24,7 +24,7 @@ definitions of time, velocity, and speed to expand our description of motion.
 ### Time
 
 As discussed
-in [Physical Quantities and Units](../contents/ch1PhysicalQuantitiesAndUnits.md)
+in [Physical Quantities and Units](./ch1PhysicalQuantitiesAndUnits)
 , the most fundamental physical quantities are defined by how they are measured.
 This is the case with time. Every measurement of time involves measuring a
 change in some physical quantity. It may be a number on a digital clock, a

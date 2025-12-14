@@ -181,7 +181,7 @@ constant speed, taking all data to be known to three digits.
 (c) What is her useful power output if she does 25 push-ups in 1 min?
 (Should work done lowering her body be included? See the discussion of useful
 work
-in [Work, Energy, and Power in Humans](../contents/ch7WorkEnergyAndPowerInHumans.md)
+in [Work, Energy, and Power in Humans](./ch7WorkEnergyAndPowerInHumans)
 .
 
 ![A woman is doing push-ups. Her weight w is acting on her center of gravity , shown by a vector pointing downwards. Her center of gravity  is zero point nine zero meters from her feet and reaction force F acting on her arms is shown by the vector pointing upward along her arms. The distance of reaction force from the feet is one point five zero meters.](../resources/Figure_07_09_05.jpg "Forces involved in doing push-ups. The woman&#x2019;s weight acts as a force exerted downward on her center of gravity (CG).")
@@ -457,7 +457,7 @@ the rate of 0.500 kg in 2.00 h.
 (b) 38.8 kcal/min
 
 (c) This power output is higher than the highest value on Table 2
-of [Work Energy And Power In Humans](../contents/ch7WorkEnergyAndPowerInHumans.md)
+of [Work Energy And Power In Humans](./ch7WorkEnergyAndPowerInHumans)
 , which is about 35 kcal/min (corresponding to 2415 watts) for sprinting.
 
 (d) It would be impossible to maintain this power output for 2 hours (imagine

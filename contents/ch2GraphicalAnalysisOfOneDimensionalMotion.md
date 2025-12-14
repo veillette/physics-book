@@ -243,7 +243,7 @@ $$. Substituting these symbols yields
 A general relationship for velocity, acceleration, and time has again been
 obtained from a graph. Notice that this equation was also derived algebraically
 from other motion equations
-in [Motion Equations for Constant Acceleration in One Dimension](../contents/ch2MotionEquationsForConstantAccelerationInOneDimension.md)
+in [Motion Equations for Constant Acceleration in One Dimension](./ch2MotionEquationsForConstantAccelerationInOneDimension)
 .
 
 It is not accidental that the same equations are obtained by graphical analysis
@@ -498,7 +498,7 @@ that the acceleration is $$ 3.2 \mss $$ at $$ t=10 \s $$.
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Construct the position graph for the subway shuttle train as shown
-in the [Acceleration module](../contents/ch2Acceleration.md) (a). 
+in the [Acceleration module](./ch2Acceleration) (a). 
 Your graph should show the position of the train, in kilometers, from t = 0 to 20 s.
 You will need to use the information on acceleration and velocity given in 
 the examples for this figure.

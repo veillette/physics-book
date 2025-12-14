@@ -37,7 +37,7 @@ frame of reference, while a physicist uses Earth. The physicist chooses Earth
 because it is very nearly an inertial frame of reference—one in which all forces
 are real (that is, in which all forces have an identifiable physical origin). In
 such a frame of reference, Newton’s laws of motion take the form given
-in [Dynamics: Newton\'s Laws of Motion](../contents/ch4Dynamics.md) The car is a
+in [Dynamics: Newton\'s Laws of Motion](./ch4Dynamics) The car is a
 **non-inertial frame of reference**
 because it is accelerated to the side. The force to the left sensed by car
 passengers is a **fictitious force**
