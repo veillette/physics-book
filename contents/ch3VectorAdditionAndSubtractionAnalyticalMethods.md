@@ -459,9 +459,62 @@ Find the following for path C in [Figure 11](#Figure11): (a) the total distance 
 
 </div>
 <div class="solution"  markdown="1">
-(a) 1.56 km
 
-(b) 120 m east
+**Strategy**
+
+For part (a), add up the lengths of all individual segments. For part (b), use the analytical method of vector addition: break the path into east-west and north-south components, sum each component separately, then find the magnitude and direction of the resultant displacement.
+
+**Solution**
+
+**(a) Total distance traveled:**
+
+From Figure 11, path C consists of:
+- 1 block north: 120 m
+- 5 blocks east: 5 × 120 = 600 m
+- 2 blocks south: 2 × 120 = 240 m
+- 1 block west: 120 m
+- 1 block north: 120 m
+- 3 blocks west: 3 × 120 = 360 m
+
+Total distance:
+<div class="equation">
+$$ d = 120 + 600 + 240 + 120 + 120 + 360 = 1560 \m = 1.56 \text{ km} $$
+</div>
+
+**(b) Displacement using analytical method:**
+
+**Step 1: Break path into components**
+
+East-West components (taking east as positive):
+- 5 blocks east: +600 m
+- 1 block west: -120 m
+- 3 blocks west: -360 m
+- Total: $$ E = 600 - 120 - 360 = 120 \m $$ east
+
+North-South components (taking north as positive):
+- 1 block north: +120 m
+- 2 blocks south: -240 m
+- 1 block north: +120 m
+- Total: $$ N = 120 - 240 + 120 = 0 \m $$
+
+**Step 2: Calculate magnitude**
+<div class="equation">
+$$ R = \sqrt{E^2 + N^2} = \sqrt{(120)^2 + 0^2} = 120 \m $$
+</div>
+
+**Step 3: Calculate direction**
+
+Since the north component is zero and the east component is positive, the displacement is directly east.
+
+**Discussion**
+
+Despite traveling 1560 m along a winding path, the person ends up only 120 m from where they started! This demonstrates the difference between distance (total path length) and displacement (straight-line distance from start to finish). The analytical method shows clearly why: the north and south movements exactly cancel (120 + 120 - 240 = 0), while the eastward movements exceed westward movements by exactly one block (600 - 120 - 360 = 120 m). This is a beautiful example of how vectors add: you can take any complicated path, but the net displacement depends only on the vector sum of all the individual displacements.
+
+**Answer**
+
+(a) The total distance traveled along path C is 1.56 km.
+
+(b) The displacement is 120 m directed due east.
 
 </div>
 </div>
@@ -482,7 +535,42 @@ Find the north and east components of the displacement from San Francisco to Sac
 
 </div>
 <div class="solution"  markdown="1">
-North-component 87.0 km, east-component 87.0 km
+
+**Strategy**
+
+The displacement from San Francisco to Sacramento is 123 km at 45° north of east. We'll use trigonometry to find the north and east components: east component = R cos θ, north component = R sin θ, where θ is measured from the east direction.
+
+**Solution**
+
+Given:
+- Magnitude of displacement: R = 123 km
+- Direction: θ = 45° north of east
+
+**East component:**
+<div class="equation">
+$$ R_{\text{east}} = R \cos\theta = 123 \times \cos(45^\circ) $$
+</div>
+
+<div class="equation">
+$$ R_{\text{east}} = 123 \times 0.707 = 87.0 \text{ km} $$
+</div>
+
+**North component:**
+<div class="equation">
+$$ R_{\text{north}} = R \sin\theta = 123 \times \sin(45^\circ) $$
+</div>
+
+<div class="equation">
+$$ R_{\text{north}} = 123 \times 0.707 = 87.0 \text{ km} $$
+</div>
+
+**Discussion**
+
+At 45°, the displacement is equally divided between the north and east directions, which is why both components are equal (87.0 km each). This makes sense geometrically: a 45° angle bisects the right angle between north and east, so the components must be equal. We can verify: $$ \sqrt{(87.0)^2 + (87.0)^2} = \sqrt{7569 + 7569} = \sqrt{15,138} = 123 \text{ km} $$ ✓. This confirms our component calculations are correct. The fact that Sacramento is northeast of San Francisco at exactly 45° creates this symmetric result.
+
+**Answer**
+
+The north component of the displacement is 87.0 km, and the east component is 87.0 km.
 
 </div>
 </div>
@@ -513,7 +601,51 @@ overcome an obstacle blocking your other path.
 
 </div>
 <div class="solution"  markdown="1">
-30.8 m, 35.8 west of north
+
+**Strategy**
+
+We'll solve this problem by reversing the order: first walk 25.0 m north (**B**), then 18.0 m west (**A**). Using the analytical method, we'll find the components, sum them, and calculate the resultant. The result should match the previous problem, demonstrating that vector addition is commutative: **A** + **B** = **B** + **A**.
+
+**Solution**
+
+**Vector B** (25.0 m north):
+- East component: $$ B_E = 0 \m $$
+- North component: $$ B_N = 25.0 \m $$
+
+**Vector A** (18.0 m west):
+- East component: $$ A_E = -18.0 \m $$ (west is negative)
+- North component: $$ A_N = 0 \m $$
+
+**Resultant R = B + A:**
+<div class="equation">
+$$ R_E = B_E + A_E = 0 + (-18.0) = -18.0 \m $$
+</div>
+
+<div class="equation">
+$$ R_N = B_N + A_N = 25.0 + 0 = 25.0 \m $$
+</div>
+
+**Magnitude:**
+<div class="equation">
+$$ R = \sqrt{R_E^2 + R_N^2} = \sqrt{(-18.0)^2 + (25.0)^2} = \sqrt{324 + 625} = \sqrt{949} = 30.8 \m $$
+</div>
+
+**Direction:**
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{|R_E|}{R_N}\right) = \tan^{-1}\left(\frac{18.0}{25.0}\right) = \tan^{-1}(0.720) = 35.8^\circ $$
+</div>
+
+Since the east component is negative and the north component is positive, the direction is 35.8° west of north.
+
+**Discussion**
+
+As expected, we get exactly the same result as the previous problem: 30.8 m at 35.8° west of north. This confirms the commutative property of vector addition: the order doesn't matter. Whether you walk west then north, or north then west, you end up at the same location.
+
+Regarding obstacles: if one path is blocked, you can take another path to reach the same destination. For example, if you can't walk directly west (maybe there's a building), you could first go north to get around the obstacle, then west. The final displacement is identical—only the path differs. This flexibility is useful in navigation: as long as the vector sum is the same, any combination of movements in the component directions will get you to the same endpoint.
+
+**Answer**
+
+The displacement is 30.8 m at 35.8° west of north, confirming that **B** + **A** = **A** + **B**.
 
 </div>
 </div>
