@@ -149,7 +149,7 @@ layout: page
 
 #### Links
 - **Internal links**: Always use `{{ site.baseurl }}/path/to/page`
-- **External links**: Use standard Markdown syntax `[Text](URL)`
+- **External links**: Use standard Markdown syntax `[Google](https://www.google.com/)`
 - Test all links before submitting
 
 ### Contributing Solutions to Problems
