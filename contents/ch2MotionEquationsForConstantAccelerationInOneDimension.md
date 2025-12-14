@@ -918,11 +918,73 @@ What is its emergency deceleration in $$ \mss $$
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 16.5 \s $$
 
-(b) $$ 13.5 \s $$
+**Strategy**
 
-(c) $$ -2.68 \mss $$
+This problem involves three different scenarios of acceleration and deceleration for a train. For parts (a) and (b), we know the initial and final velocities and the acceleration, so we can use $$ v = v_0 + at $$ to find time. For part (c), we know the velocities and time, so we can use the same equation to solve for acceleration. Remember to convert km/h to m/s first.
+
+**Solution**
+
+**(a) Time to reach top speed:**
+
+1. Convert top speed to m/s:
+<div class="equation">
+$$ v = 80.0 \text{ km/h} = 80.0 \times \frac{1000 \m}{3600 \s} = 22.2 \ms $$
+</div>
+
+2. Identify the known values:
+   - Initial velocity: $$ v_0 = 0 $$ (starting from rest)
+   - Final velocity: $$ v = 22.2 \ms $$
+   - Acceleration: $$ a = 1.35 \mss $$
+
+3. Use the kinematic equation:
+<div class="equation">
+$$ v = v_0 + at $$
+</div>
+
+4. Solve for time:
+<div class="equation">
+$$ t = \frac{v - v_0}{a} = \frac{22.2 - 0}{1.35} = 16.4 \s \approx 16.5 \s $$
+</div>
+
+**(b) Time to come to a stop:**
+
+1. Identify the known values:
+   - Initial velocity: $$ v_0 = 22.2 \ms $$ (top speed)
+   - Final velocity: $$ v = 0 $$ (comes to rest)
+   - Deceleration: $$ a = -1.65 \mss $$ (negative for deceleration)
+
+2. Use the same equation:
+<div class="equation">
+$$ t = \frac{v - v_0}{a} = \frac{0 - 22.2}{-1.65} = \frac{-22.2}{-1.65} = 13.5 \s $$
+</div>
+
+**(c) Emergency deceleration:**
+
+1. Identify the known values:
+   - Initial velocity: $$ v_0 = 22.2 \ms $$
+   - Final velocity: $$ v = 0 $$
+   - Time: $$ t = 8.30 \s $$
+
+2. Solve for acceleration:
+<div class="equation">
+$$ a = \frac{v - v_0}{t} = \frac{0 - 22.2}{8.30} = -2.67 \mss \approx -2.68 \mss $$
+</div>
+
+The negative sign indicates deceleration.
+
+**Discussion**
+
+The train takes about 16.5 seconds to accelerate to its top speed and 13.5 seconds to decelerate normally - the deceleration is faster because the braking rate ($$ 1.65 \mss $$) is greater than the acceleration rate ($$ 1.35 \mss $$). In emergency situations, the train can decelerate even more rapidly at $$ 2.68 \mss $$, which is about 62% faster than normal braking. This emergency deceleration stops the train in only 8.30 seconds compared to 13.5 seconds for normal braking - significantly reducing stopping distance in critical situations. These accelerations are all relatively gentle (well under 1g), ensuring passenger comfort and safety.
+
+**Answer**
+
+(a) It takes 16.5 s to reach top speed from rest.
+
+(b) It takes 13.5 s to come to a stop from top speed using normal deceleration.
+
+(c) The emergency deceleration is $$ -2.68 \mss $$.
+
 </div>
 </div>
 
@@ -1050,13 +1112,73 @@ At the end of a race, a runner decelerates from a velocity of 9.00 m/s at a rate
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 20.0 \m $$
 
-(b) $$ -1.00 \ms $$
+**Strategy**
 
-(c) This result does not really make sense. If the runner starts at 9.00 m/s and
-decelerates at $$ 2.00 \mss $$, then she will have stopped after 4.50 s. If she
-continues to decelerate, she will be running backwards.
+The runner decelerates at a constant rate. For part (a), we use the kinematic equation that relates displacement, initial velocity, time, and acceleration. For part (b), we use $$ v = v_0 + at $$ to find her velocity after 5.00 s. For part (c), we evaluate whether the results are physically realistic by checking when the runner would actually stop.
+
+**Solution**
+
+**(a) Distance traveled in 5.00 s:**
+
+1. Identify the known values:
+   - Initial velocity: $$ v_0 = 9.00 \ms $$
+   - Acceleration: $$ a = -2.00 \mss $$ (negative for deceleration)
+   - Time: $$ t = 5.00 \s $$
+
+2. Use the kinematic equation:
+<div class="equation">
+$$ x = v_0 t + \frac{1}{2}at^2 $$
+</div>
+
+3. Substitute the known values:
+<div class="equation">
+$$ x = (9.00)(5.00) + \frac{1}{2}(-2.00)(5.00)^2 $$
+</div>
+
+<div class="equation">
+$$ x = 45.0 + \frac{1}{2}(-2.00)(25.0) = 45.0 - 25.0 = 20.0 \m $$
+</div>
+
+**(b) Final velocity after 5.00 s:**
+
+1. Use the kinematic equation:
+<div class="equation">
+$$ v = v_0 + at $$
+</div>
+
+2. Substitute the known values:
+<div class="equation">
+$$ v = 9.00 + (-2.00)(5.00) = 9.00 - 10.0 = -1.00 \ms $$
+</div>
+
+**(c) Evaluation of the result:**
+
+The negative velocity in part (b) indicates a problem. Let's check when the runner actually stops:
+
+<div class="equation">
+$$ t_{\text{stop}} = \frac{v - v_0}{a} = \frac{0 - 9.00}{-2.00} = 4.50 \s $$
+</div>
+
+The runner stops after 4.50 s, not 5.00 s. At 5.00 s, the calculation gives a velocity of -1.00 m/s, which would mean running backwards!
+
+**Discussion**
+
+This problem illustrates an important limitation of kinematic equations: they calculate mathematical results without considering physical constraints. In reality, the runner cannot continue decelerating past the point where she stops. The runner decelerates for 4.50 s and comes to rest after traveling:
+
+<div class="equation">
+$$ x_{\text{actual}} = v_0 t_{\text{stop}} + \frac{1}{2}at_{\text{stop}}^2 = (9.00)(4.50) + \frac{1}{2}(-2.00)(4.50)^2 = 40.5 - 20.25 = 20.25 \m $$
+</div>
+
+After stopping at $$ t = 4.50 \s $$, she remains at rest. So while the equation predicts $$ x = 20.0 \m $$ and $$ v = -1.00 \ms $$, the physical answer is that she travels about 20.25 m and stops, remaining at rest thereafter. The negative velocity is unphysical in this context - a runner doesn't spontaneously start running backwards after stopping!
+
+**Answer**
+
+(a) According to the kinematic equation, the runner travels 20.0 m in 5.00 s, but this requires careful interpretation.
+
+(b) The calculated final velocity is -1.00 m/s.
+
+(c) This result does not make physical sense. The runner actually stops after 4.50 s, having traveled about 20.25 m. She cannot continue decelerating to achieve a negative velocity (running backwards). This demonstrates that kinematic equations must be applied with consideration of physical constraints.
 
 </div>
 </div>
