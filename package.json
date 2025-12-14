@@ -11,13 +11,21 @@
     "find-orphans:cleanup": "node scripts/find-orphan-files.js --generate-cleanup",
     "test": "npm run check-links",
     "test:ci": "npm run check-links -- --timeout 15000",
-    "audit": "npm run check-links && npm run find-orphans",
+    "audit": "npm run check-links && npm run find-orphans && npm run validate-figures",
     "pdf:all": "node scripts/generatePdf.js --all",
     "pdf:combined": "node scripts/generatePdf.js --combined",
     "pdf:chapter": "node scripts/generatePdf.js --chapter",
     "pdf:help": "node scripts/generatePdf.js --help",
     "pdf:install": "npx playwright install chromium",
-    "generate-icons": "node scripts/generate-icons.js"
+    "generate-icons": "node scripts/generate-icons.js",
+    "validate-figures": "node scripts/validate-figures.js",
+    "validate-figures:pattern": "node scripts/validate-figures.js --check-pattern",
+    "validate-figures:missing": "node scripts/validate-figures.js --check-missing",
+    "check-math": "node scripts/check-math-delimiters.js",
+    "parse-summary": "node scripts/parse-summary.js",
+    "update-front-matter": "node scripts/update-front-matter.js",
+    "rename-figures": "node scripts/rename-figures.js",
+    "convert-webp": "node scripts/convert-to-webp.js"
   },
   "dependencies": {
     "@playwright/test": "^1.57.0",
