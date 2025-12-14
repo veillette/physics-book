@@ -677,9 +677,132 @@ is, to find $$ \vb{A}=\vb{B}+\vb{C} $$. Is that consistent with your result?)
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 30.8 \m $$, $$ 54.2^\circ $$ south of west
 
-(b) $$ 30.8 \m $$, $$ 54.2^\circ $$ north of east
+**Strategy**
+
+For part (a), we're finding **R'** = **A** - **B**, where **A** is 18.0 m west and **B** is now 25.0 m south (instead of north). This is equivalent to adding **A** and -**B** (where -**B** is 25.0 m north). For part (b), we reverse the order to find **B** - **A**, which should give the opposite result.
+
+**Solution**
+
+**(a) Finding R' = A - B:**
+
+**Vector A** (18.0 m west):
+- East component: $$ A_E = -18.0 \m $$
+- North component: $$ A_N = 0 \m $$
+
+**Vector -B** (25.0 m north, since B is south):
+- East component: $$ (-B)_E = 0 \m $$
+- North component: $$ (-B)_N = 25.0 \m $$
+
+**Resultant R' = A - B:**
+<div class="equation">
+$$ R'_E = A_E + (-B)_E = -18.0 + 0 = -18.0 \m $$
+</div>
+
+<div class="equation">
+$$ R'_N = A_N + (-B)_N = 0 + 25.0 = 25.0 \m $$
+</div>
+
+Wait, this doesn't give the right answer. Let me recalculate. If the original **B** was 25.0 m north, and now we're subtracting it, we actually walk 25.0 m south.
+
+Let me restart:
+
+**Vector A** (18.0 m west):
+- East component: $$ A_E = -18.0 \m $$
+- North component: $$ A_N = 0 \m $$
+
+**Vector B** (now 25.0 m south):
+- East component: $$ B_E = 0 \m $$
+- North component: $$ B_N = -25.0 \m $$ (south is negative)
+
+**Resultant R' = A - B:**
+<div class="equation">
+$$ R'_E = A_E - B_E = -18.0 - 0 = -18.0 \m $$
+</div>
+
+<div class="equation">
+$$ R'_N = A_N - B_N = 0 - (-25.0) = 25.0 \m $$
+</div>
+
+**Magnitude:**
+<div class="equation">
+$$ R' = \sqrt{(-18.0)^2 + (25.0)^2} = \sqrt{324 + 625} = \sqrt{949} = 30.8 \m $$
+</div>
+
+**Direction:**
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{18.0}{25.0}\right) = \tan^{-1}(0.720) = 35.8^\circ $$
+</div>
+
+Hmm, this gives west of north, not south of west. Let me reconsider the problem. The problem says to change the second leg to 25.0 m straight **south**, which means we walk west then south.
+
+Actually, I need to recalculate more carefully:
+
+**Vector A** (18.0 m west):
+- East component: $$ A_E = -18.0 \m $$
+- North component: $$ A_N = 0 \m $$
+
+Now walking 25.0 m south (not north as in the original):
+- East component: $$ 0 \m $$
+- North component: $$ -25.0 \m $$
+
+**Resultant:**
+<div class="equation">
+$$ R_E = -18.0 + 0 = -18.0 \m $$
+</div>
+
+<div class="equation">
+$$ R_N = 0 + (-25.0) = -25.0 \m $$
+</div>
+
+**Magnitude:**
+<div class="equation">
+$$ R = \sqrt{(-18.0)^2 + (-25.0)^2} = \sqrt{324 + 625} = 30.8 \m $$
+</div>
+
+**Direction:**
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{18.0}{25.0}\right) = 35.8^\circ $$
+</div>
+
+Since both components are negative (west and south), the angle is measured from the south or west axis. It's $$ 90^\circ - 35.8^\circ = 54.2^\circ $$ south of west.
+
+**(b) Finding B - A (walking 25.0 m north then 18.0 m east):**
+
+**Vector B** (25.0 m north):
+- East component: $$ B_E = 0 \m $$
+- North component: $$ B_N = 25.0 \m $$
+
+**Vector A-like** (18.0 m east):
+- East component: $$ 18.0 \m $$
+- North component: $$ 0 \m $$
+
+**Resultant:**
+<div class="equation">
+$$ R_E = 0 + 18.0 = 18.0 \m $$
+</div>
+
+<div class="equation">
+$$ R_N = 25.0 + 0 = 25.0 \m $$
+</div>
+
+**Magnitude:**
+<div class="equation">
+$$ R = \sqrt{(18.0)^2 + (25.0)^2} = 30.8 \m $$
+</div>
+
+**Direction:**
+$$ 54.2^\circ $$ north of east (or $$ 35.8^\circ $$ east of north).
+
+**Discussion**
+
+Part (a) and part (b) give opposite results, as expected for vector subtraction: one points southwest, the other northeast. The magnitude is the same (30.8 m) but the directions are exactly opposite, demonstrating that reversing the order of subtraction reverses the direction of the result.
+
+**Answer**
+
+(a) Walking 18.0 m west then 25.0 m south gives a displacement of 30.8 m at 54.2° south of west.
+
+(b) Walking 25.0 m north then 18.0 m east gives a displacement of 30.8 m at 54.2° north of east.
 
 </div>
 </div>
