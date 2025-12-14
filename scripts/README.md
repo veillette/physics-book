@@ -10,6 +10,8 @@ This directory contains build and utility scripts for the Physics Book project.
 | Find Orphans | `npm run find-orphans` | Find unreferenced files |
 | Validate Figures | `npm run validate-figures` | Comprehensive figure validation |
 | Check Math | `npm run check-math` | Check LaTeX delimiter balance |
+| Check Accessibility | `npm run check-accessibility` | Check alt text and accessibility |
+| Validate YAML | `npm run validate-yaml` | Validate YAML front matter |
 | Generate PDF | `npm run pdf:all` | Generate PDF of all chapters |
 | Generate Icons | `npm run generate-icons` | Generate PWA icons |
 | Parse Summary | `npm run parse-summary` | Generate summary.json |
@@ -71,6 +73,56 @@ Checks for unbalanced LaTeX math delimiters (`$...$`) in markdown files.
 npm run check-math               # Check contents/ directory
 node scripts/check-math-delimiters.js path/to/dir  # Custom directory
 ```
+
+### check-accessibility.js
+
+Checks accessibility concerns in markdown files.
+
+```bash
+npm run check-accessibility          # Standard check
+npm run check-accessibility:strict   # Strict mode with more checks
+```
+
+**Checks performed:**
+- Missing or empty alt text on images
+- Uninformative alt text (e.g., "image", "figure")
+- Heading level skips (e.g., h1 -> h3)
+- Empty or uninformative link text ("click here", "read more")
+
+**Strict mode adds:**
+- Short alt text warnings
+- Bare URL detection
+- Table header validation
+
+**Options:**
+- `--strict` - Enable stricter checks
+
+### validate-yaml.js
+
+Validates YAML front matter structure in markdown files.
+
+```bash
+npm run validate-yaml                # Standard validation
+npm run validate-yaml:strict         # Strict mode
+node scripts/validate-yaml.js --required "title,layout,chapterNumber"
+```
+
+**Checks performed:**
+- Required fields are present (default: title, layout)
+- Field types are correct
+- Layout values are valid
+- YAML syntax is valid
+
+**Strict mode adds:**
+- Unknown field warnings
+- Empty value warnings
+- Chapter/section number validation
+- Tab character detection
+- Trailing whitespace warnings
+
+**Options:**
+- `--required <fields>` - Comma-separated list of required fields
+- `--strict` - Enable stricter validation
 
 ---
 
@@ -192,6 +244,14 @@ This runs:
 1. Link validation
 2. Orphan file detection
 3. Figure validation
+
+For a comprehensive quality check, also run:
+
+```bash
+npm run check-accessibility    # Accessibility issues
+npm run validate-yaml          # YAML front matter
+npm run check-math             # Math delimiter balance
+```
 
 ---
 
