@@ -69,7 +69,7 @@ velocity, and acceleration have direct analogs in rotational motion.
 </div>
 
 Starting with the four kinematic equations we developed
-in [One-Dimensional Kinematics](../contents/ch2Kinematics.md), we can derive the
+in [One-Dimensional Kinematics](./ch2Kinematics), we can derive the
 following four rotational kinematic equations (presented together with their
 translational counterparts):
 
@@ -374,7 +374,7 @@ Quite a trip (if it survives)! Note that this distance is the total distance
 traveled by the fly. Displacement is actually zero for complete revolutions
 because they bring the fly back to its original position. The distinction
 between total distance traveled and displacement was first noted
-in [One-Dimensional Kinematics](../contents/ch2Kinematics.md).
+in [One-Dimensional Kinematics](./ch2Kinematics).
 
 </div>
 
@@ -398,7 +398,7 @@ Rotational kinematics (just like linear kinematics) is descriptive and does not 
 * The kinematics of rotational motion describes the relationships among rotation
   angle, angular velocity, angular acceleration, and time.
 * Starting with the four kinematic equations we developed in
-  the [One-Dimensional Kinematics](../contents/ch2Kinematics.md), we can derive
+  the [One-Dimensional Kinematics](./ch2Kinematics), we can derive
   the four rotational kinematic equations (presented together with their
   translational counterparts) seen in [Table 1](#Table1).
 * In these equations, the subscript 0 denotes initial values ($$ x_{0} $$ and $$

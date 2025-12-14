@@ -23,13 +23,13 @@ Our formal study of physics begins with
 causes*. The word “kinematics” comes from a Greek term meaning motion and is
 related to other English words such as “cinema” (movies) and “kinesiology” (the
 study of human motion). In one-dimensional kinematics
-and [Two-Dimensional Kinematics](../contents/ch3TwoDimensionalKinematics.md) we
+and [Two-Dimensional Kinematics](./ch3TwoDimensionalKinematics) we
 will study only the
 *motion* of a football, for example, without worrying about what forces cause or
 change its motion. Such considerations come in other chapters. In this chapter,
 we examine the simplest type of motion—namely, motion along a straight line, or
 one-dimensional motion.
-In [Two-Dimensional Kinematics](../contents/ch3TwoDimensionalKinematics.md), we
+In [Two-Dimensional Kinematics](./ch3TwoDimensionalKinematics), we
 apply concepts developed here to study motion along curved paths (two- and
 three-dimensional motion); for example, that of a car rounding a curve.
 

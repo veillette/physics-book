@@ -192,7 +192,7 @@ materials.
 Of course, a net external force is needed to cause any acceleration, just as
 Newton proposed in his second law of motion. So a net external force is needed
 to cause a centripetal acceleration.
-In [Centripetal Force](../contents/ch6CentripetalForce.md), we will consider the
+In [Centripetal Force](./ch6CentripetalForce), we will consider the
 forces involved in circular motion.
 
 <div class="note" data-label="PhET Exploration" markdown="1">

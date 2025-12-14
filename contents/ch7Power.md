@@ -679,7 +679,7 @@ Average air resistance force:
 Calculate the power output needed for a 950-kg car to climb a $$ 2.00^\circ $$
 slope at a constant 30.0 m/s while encountering wind resistance and friction
 totaling 600 N. Explicitly show how you follow the steps in
-the [Problem-Solving Strategies for Energy](../contents/ch7ConservationOfEnergy.md#problemSolving).
+the [Problem-Solving Strategies for Energy](./ch7ConservationOfEnergy#problemSolving).
 
 </div>
 <div class="solution" markdown="1">

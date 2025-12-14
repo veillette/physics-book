@@ -72,7 +72,7 @@ in [Figure 1](#Figure1)(b) does no work, for example. Here $$ d=0 $$, so $$ W=0 
 Why is it you get tired just holding a load? The answer is that your muscles are
 doing work against one another, *but they are doing no work on the system of
 interest* (the “briefcase-Earth
-system”—see [Gravitational Potential Energy](../contents/ch7GravitationalPotentialEnergy.md)
+system”—see [Gravitational Potential Energy](./ch7GravitationalPotentialEnergy)
 for more details). There must be displacement for work to be done, and there
 must be a component of the force in the direction of the motion. For example,
 the person carrying the briefcase on level ground in [Figure 1](#Figure1)
@@ -270,7 +270,7 @@ The work done to climb stairs is 1840 J, which represents the gravitational pote
 <div class="problem" markdown="1">
 Suppose a car travels 108 km at a speed of 30.0 m/s, and uses 2.0 gal of gasoline.
 Only 30% of the gasoline goes into useful work by the force that keeps the car
-moving at constant speed despite friction. (See  [Table 1 of Conservation Of Energy](../contents/ch7ConservationOfEnergy.md#Table1) for the energy content of gasoline.)
+moving at constant speed despite friction. (See  [Table 1 of Conservation Of Energy](./ch7ConservationOfEnergy#Table1) for the energy content of gasoline.)
 (a) What is the magnitude of the force exerted to keep the car moving at constant speed?
 (b) If the required force is directly proportional to speed, how many gallons will be used to drive 108 km at a speed of 28.0 m/s?
 

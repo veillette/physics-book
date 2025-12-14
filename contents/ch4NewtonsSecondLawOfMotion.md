@@ -74,7 +74,7 @@ where the symbol $$ \propto $$ means “proportional to,” and $$ \vb{F}_
 vector sum of all external forces and can be determined graphically, using the
 head-to-tail method, or analytically, using components. The techniques are the
 same as for the addition of other vectors, and are covered
-in [Two-Dimensional Kinematics](../contents/ch3TwoDimensionalKinematics.md).)
+in [Two-Dimensional Kinematics](./ch3TwoDimensionalKinematics).)
 This proportionality states what we have said in words—*acceleration is directly
 proportional to the net external force*. Once the system of interest is chosen,
 it is important to identify the external forces and ignore the internal ones. It

@@ -75,8 +75,8 @@ means that we can use the Pythagorean theorem to calculate the magnitude of the
 total displacement. (Note that we cannot use the Pythagorean theorem to add
 vectors that are not perpendicular. We will develop techniques for adding
 vectors having any direction, not just those perpendicular to one another,
-in [Vector Addition and Subtraction: Graphical Methods](../contents/ch3VectorAdditionAndSubtractionGraphicalMethods.md)
-and [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md)
+in [Vector Addition and Subtraction: Graphical Methods](./ch3VectorAdditionAndSubtractionGraphicalMethods)
+and [Vector Addition and Subtraction: Analytical Methods](./ch3VectorAdditionAndSubtractionAnalyticalMethods)
 .)
 
 ### The Independence of Perpendicular Motions
@@ -125,8 +125,8 @@ motion**, is to **resolve** (break) it into motions along perpendicular
 directions. Resolving two-dimensional motion into perpendicular components is
 possible because the components are independent. We shall see how to resolve
 vectors
-in [Vector Addition and Subtraction: Graphical Methods](../contents/ch3VectorAdditionAndSubtractionGraphicalMethods.md)
-and [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md)
+in [Vector Addition and Subtraction: Graphical Methods](./ch3VectorAdditionAndSubtractionGraphicalMethods)
+and [Vector Addition and Subtraction: Analytical Methods](./ch3VectorAdditionAndSubtractionAnalyticalMethods)
 . We will find such techniques to be useful in many areas of physics.
 
 <div class="note" data-label="PhET Exploration" markdown="1">

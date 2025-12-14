@@ -666,7 +666,7 @@ With the basics of kinematics established, we can go on to many other
 interesting examples and applications. In the process of developing kinematics,
 we have also glimpsed a general approach to problem solving that produces both
 correct answers and insights into physical
-relationships. [Problem-Solving Basics](../contents/ch2ProblemSolvingBasicsForOneDimensionalKinematics.md)
+relationships. [Problem-Solving Basics](./ch2ProblemSolvingBasicsForOneDimensionalKinematics)
 discusses problem-solving basics and outlines an approach that will help you
 succeed in this invaluable task.
 

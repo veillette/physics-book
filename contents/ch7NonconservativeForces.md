@@ -15,7 +15,7 @@ chapterNumber: 7
 
 Forces are either conservative or nonconservative. Conservative forces were
 discussed
-in [Conservative Forces and Potential Energy](../contents/ch7ConservativeForcesAndPotentialEnergy.md)
+in [Conservative Forces and Potential Energy](./ch7ConservativeForcesAndPotentialEnergy)
 . A
 **nonconservative force** is one for which work depends on the path taken.
 Friction is a good example of a nonconservative force. As illustrated
@@ -52,7 +52,7 @@ Now let us consider what form the work-energy theorem takes when both
 conservative and nonconservative forces act. We will see that the work done by
 nonconservative forces equals the change in the mechanical energy of a system.
 As noted
-in [Kinetic Energy and the Work-Energy Theorem](../contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md)
+in [Kinetic Energy and the Work-Energy Theorem](./ch7KineticEnergyAndTheWorkEnergyTheorem)
 , the work-energy theorem states that the net work on a system equals the change
 in its kinetic energy, or $$ W_{\text{net}}=\Delta \KE $$. The net work is the
 sum of the work by nonconservative forces plus the work by conservative forces.
@@ -245,7 +245,7 @@ Making Connections: Take-Home Investigation—Determining Friction from the Stop
 </div>
 This experiment involves the conversion of gravitational potential energy into
 thermal energy. Use the ruler, book, and marble
-from [Take-Home Investigation—Converting Potential to Kinetic Energy](../contents/ch7GravitationalPotentialEnergy.md#takeHome).
+from [Take-Home Investigation—Converting Potential to Kinetic Energy](./ch7GravitationalPotentialEnergy#takeHome).
 In addition, you will need a foam cup with a small hole in the side,
 as shown in [Figure 6](#Figure6). From the 10-cm position on the ruler,
 let the marble roll into the cup positioned at the bottom of the ruler.

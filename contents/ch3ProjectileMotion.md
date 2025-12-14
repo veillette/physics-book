@@ -17,7 +17,7 @@ chapterNumber: 3
 acceleration of gravity. The object is called a **projectile**, and its path is
 called its
 **trajectory**. The motion of falling objects, as covered
-in [Problem-Solving Basics for One-Dimensional Kinematics](../contents/ch2ProblemSolvingBasicsForOneDimensionalKinematics.md)
+in [Problem-Solving Basics for One-Dimensional Kinematics](./ch2ProblemSolvingBasicsForOneDimensionalKinematics)
 , is a simple one-dimensional type of projectile motion in which there is no
 horizontal movement. In this section, we consider two-dimensional projectile
 motion, such as that of a football or other object for which
@@ -27,7 +27,7 @@ motion, such as that of a football or other object for which
 The most important fact to remember here is that **motions along perpendicular
 axes are independent** and thus can be analyzed separately. This fact was
 discussed
-in [Kinematics in Two Dimensions: An Introduction](../contents/ch3KinematicsInTwoDimensionsAnIntroduction.md)
+in [Kinematics in Two Dimensions: An Introduction](./ch3KinematicsInTwoDimensionsAnIntroduction)
 , where vertical and horizontal motions were seen to be independent. The key to
 analyzing two-dimensional projectile motion is to break it into two motions, one
 along the horizontal axis and the other along the vertical. (This choice of axes
@@ -136,7 +136,7 @@ one-dimensional **kinematics** and are illustrated in the solved examples below.
 ***Step 4.*** *Recombine the two motions to find the total displacement* $$
 \vb{s} $$ *and velocity* $$ \vb{v} $$. Because the *x*- and *y*-motions are
 perpendicular, we determine these vectors by using the techniques outlined in
-the [Vector Addition and Subtraction: Analytical Methods](../contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md)
+the [Vector Addition and Subtraction: Analytical Methods](./ch3VectorAdditionAndSubtractionAnalyticalMethods)
 and employing $$ A=\sqrt{ A_x^2+ A_y^2} $$ and $$ \theta ={\tan}^{-1}\left(
 \frac{A_y}{A_x}\right) $$ in the following form, where $$ \theta $$ is the
 direction of the displacement $$ \vb{s} $$ and $$\theta_{v} $$ is the direction
@@ -519,7 +519,7 @@ in this text.
 
 Once again we see that thinking about one topic, such as the range of a
 projectile, can lead us to others, such as the Earth orbits.
-In [Addition of Velocities](../contents/ch3AdditionOfVelocities.md), we will
+In [Addition of Velocities](./ch3AdditionOfVelocities), we will
 examine the addition of velocities, which is another important aspect of
 two-dimensional kinematics and will also yield insights beyond the immediate
 topic.
