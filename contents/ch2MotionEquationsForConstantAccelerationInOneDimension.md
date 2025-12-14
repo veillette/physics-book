@@ -997,6 +997,91 @@ checking your units.
 (d) Is the answer reasonable when compared with the time for a heartbeat?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Blood is accelerated over a known distance from rest to a known final velocity. To find the time, we can use the equation relating average velocity to displacement and time, since average velocity can be calculated from initial and final velocities.
+
+**Solution**
+
+**(a) Sketch:**
+
+Blood starts at rest ($$v_0 = 0$$) in the left ventricle and is accelerated in the positive direction to a final velocity $$v = 30.0$$ cm/s over a distance of $$x - x_0 = 1.80$$ cm.
+
+**(b) Knowns:**
+- Initial velocity: $$ v_0 = 0 $$ (blood starts from rest)
+- Final velocity: $$ v = 30.0 \text{ cm/s} = 0.300 \ms $$
+- Displacement: $$ x - x_0 = 1.80 \text{ cm} = 0.0180 \m $$
+- Initial position: $$ x_0 = 0 \m $$ (taking starting point as origin)
+
+**(c) Time of acceleration:**
+
+**Unknown:** Time $$ t $$
+
+**Choosing the equation:** We know $$ v_0 $$, $$ v $$, and $$ x - x_0 $$, and we need to find $$ t $$. We can use the equation for displacement with average velocity:
+
+<div class="equation">
+$$ x = x_0 + \overline{v}t $$
+</div>
+
+where the average velocity for constant acceleration is:
+
+<div class="equation">
+$$ \overline{v} = \frac{v_0 + v}{2} $$
+</div>
+
+This approach is best because we can calculate average velocity directly from the known initial and final velocities, then solve for time. Alternatively, we could use $$ v^2 = v_0^2 + 2a(x - x_0) $$ to find acceleration first, then use $$ v = v_0 + at $$, but that requires an extra step.
+
+**Solving:**
+
+First, calculate the average velocity:
+
+<div class="equation">
+$$ \overline{v} = \frac{v_0 + v}{2} = \frac{0 + 0.300 \ms}{2} = 0.150 \ms $$
+</div>
+
+Now use the displacement equation and solve for time:
+
+<div class="equation">
+$$ x - x_0 = \overline{v}t $$
+</div>
+
+<div class="equation">
+$$ t = \frac{x - x_0}{\overline{v}} = \frac{0.0180 \m}{0.150 \ms} = 0.120 \s $$
+</div>
+
+**Units check:** $$ \frac{\m}{\ms} = \s $$ ✓
+
+**(d) Reasonableness:**
+
+The acceleration takes 0.120 s, which is 120 milliseconds. A typical resting heart rate is about 60-100 beats per minute, which corresponds to a heartbeat duration of 0.6 to 1.0 seconds. The systolic phase (when the ventricle contracts and ejects blood) typically lasts about 0.3 seconds.
+
+Our answer of 0.120 s is quite reasonable—it's a significant fraction of the systolic phase but short enough to allow for the complete cardiac cycle. The heart must accelerate blood very quickly to pump it efficiently through the circulatory system.
+
+**Discussion**
+
+We can verify this answer by calculating the acceleration and checking consistency. Using $$ v^2 = v_0^2 + 2a(x - x_0) $$:
+
+<div class="equation">
+$$ a = \frac{v^2 - v_0^2}{2(x - x_0)} = \frac{(0.300 \ms)^2 - 0}{2(0.0180 \m)} = \frac{0.0900 \mmss}{0.0360 \m} = 2.50 \mss $$
+</div>
+
+Now checking with $$ v = v_0 + at $$:
+
+<div class="equation">
+$$ t = \frac{v - v_0}{a} = \frac{0.300 \ms}{2.50 \mss} = 0.120 \s $$ ✓
+</div>
+
+This confirms our answer. The acceleration of 2.50 m/s² (about 0.25g) may seem small, but remember that blood has significant mass and the heart must pump it continuously throughout a lifetime—truly a remarkable organ!
+
+**Answer**
+
+(c) The acceleration takes **0.120 s** (120 milliseconds).
+
+(d) Yes, this is reasonable. It represents a significant portion of the systolic phase of the heartbeat, which typically lasts about 0.3 seconds.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1089,6 +1174,90 @@ A fireworks shell is accelerated from rest to a velocity of 65.0 m/s over a dist
 (a) How long did the acceleration last?
 (b) Calculate the acceleration.
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+A fireworks shell is accelerated from rest to a known final velocity over a known distance. For part (a), we need to find time, and for part (b), we need to find acceleration. We can use kinematic equations that relate these quantities.
+
+**Solution**
+
+**Knowns:**
+- Initial velocity: $$ v_0 = 0 $$ (starts from rest)
+- Final velocity: $$ v = 65.0 \ms $$
+- Displacement: $$ x - x_0 = 0.250 \m $$
+
+**(a) Time of acceleration:**
+
+**Unknown:** Time $$ t $$
+
+**Choosing the equation:** We know $$ v_0 $$, $$ v $$, and displacement. We can use the average velocity approach:
+
+<div class="equation">
+$$ x - x_0 = \overline{v}t $$
+</div>
+
+where
+
+<div class="equation">
+$$ \overline{v} = \frac{v_0 + v}{2} = \frac{0 + 65.0 \ms}{2} = 32.5 \ms $$
+</div>
+
+**Solving:**
+
+<div class="equation">
+$$ t = \frac{x - x_0}{\overline{v}} = \frac{0.250 \m}{32.5 \ms} = 7.69 \times 10^{-3} \s = 7.69 \text{ ms} $$
+</div>
+
+**(b) Acceleration:**
+
+**Unknown:** Acceleration $$ a $$
+
+**Choosing the equation:** We know $$ v_0 $$, $$ v $$, and $$ x - x_0 $$. The best equation is:
+
+<div class="equation">
+$$ v^2 = v_0^2 + 2a(x - x_0) $$
+</div>
+
+This equation relates all known quantities to acceleration without requiring time.
+
+**Solving:**
+
+Rearrange to solve for $$ a $$:
+
+<div class="equation">
+$$ a = \frac{v^2 - v_0^2}{2(x - x_0)} $$
+</div>
+
+Substitute the known values:
+
+<div class="equation">
+$$ a = \frac{(65.0 \ms)^2 - 0}{2(0.250 \m)} = \frac{4225 \mmss}{0.500 \m} = 8.45 \times 10^{3} \mss $$
+</div>
+
+**Units check:** For time: $$ \frac{\m}{\ms} = \s $$ ✓; For acceleration: $$ \frac{\mmss}{\m} = \mss $$ ✓
+
+**Discussion**
+
+We can verify our answers are consistent using $$ v = v_0 + at $$:
+
+<div class="equation">
+$$ t = \frac{v - v_0}{a} = \frac{65.0 \ms}{8.45 \times 10^{3} \mss} = 7.69 \times 10^{-3} \s $$ ✓
+</div>
+
+This confirms both answers are correct and consistent.
+
+The acceleration is extremely large: $$ 8.45 \times 10^{3} \mss $$ is about 862 times the acceleration due to gravity (862g)! This makes sense for a fireworks shell—the explosive charge must accelerate the shell very rapidly over the short length of the launch tube. The time of 7.69 ms (less than one-hundredth of a second) is also consistent with the explosive nature of fireworks launches.
+
+For comparison, even the most powerful dragsters only achieve accelerations of about 3-4g during launch. The fireworks shell experiences forces hundreds of times greater, which is why they must be constructed very robustly to withstand the launch.
+
+**Answer**
+
+(a) The acceleration lasted **7.69 ms** (or $$ 7.69 \times 10^{-3} \s $$).
+
+(b) The acceleration is **$$ 8.45 \times 10^{3} \mss $$** (approximately 862g).
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1111,16 +1280,118 @@ travel before becoming airborne?
 
 **Professional Application:**
 
-A woodpecker’s brain is specially protected from large decelerations by
+A woodpecker's brain is specially protected from large decelerations by
 tendon-like attachments inside the skull. While pecking on a tree, the
-woodpecker’s head comes to a stop from an initial velocity of 0.600 m/s in a
+woodpecker's head comes to a stop from an initial velocity of 0.600 m/s in a
 distance of only 2.00 mm.
 (a) Find the acceleration in $$ \mss $$ and in multiples of $$ g\left(g=9.80\mss
 \right) $$.
 (b) Calculate the stopping time.
 (c) The tendons cradling the brain stretch, making its stopping distance 4.50
 mm ( greater than the head and, hence, less deceleration of the brain). What is
-the brain’s deceleration, expressed in multiples of $$ g $$ ?
+the brain's deceleration, expressed in multiples of $$ g $$ ?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The woodpecker's head decelerates from a known initial velocity to rest over a known distance. We can use the kinematic equation $$ v^2 = v_0^2 + 2a(x - x_0) $$ to find the deceleration, then use $$ v = v_0 + at $$ to find the stopping time. For part (c), we repeat the acceleration calculation with a different stopping distance.
+
+**Solution**
+
+**Knowns:**
+- Initial velocity: $$ v_0 = 0.600 \ms $$
+- Final velocity: $$ v = 0 $$ (comes to a stop)
+- Head stopping distance: $$ x_{\text{head}} - x_0 = 2.00 \text{ mm} = 2.00 \times 10^{-3} \m $$
+- Brain stopping distance: $$ x_{\text{brain}} - x_0 = 4.50 \text{ mm} = 4.50 \times 10^{-3} \m $$
+- Acceleration due to gravity: $$ g = 9.80 \mss $$
+
+**(a) Head's deceleration:**
+
+**Unknown:** Acceleration $$ a_{\text{head}} $$
+
+**Choosing the equation:** We know $$ v_0 $$, $$ v $$, and the stopping distance. Use:
+
+<div class="equation">
+$$ v^2 = v_0^2 + 2a(x - x_0) $$
+</div>
+
+**Solving:**
+
+Rearrange to solve for $$ a $$:
+
+<div class="equation">
+$$ a_{\text{head}} = \frac{v^2 - v_0^2}{2(x_{\text{head}} - x_0)} $$
+</div>
+
+Substitute the known values:
+
+<div class="equation">
+$$ a_{\text{head}} = \frac{0 - (0.600 \ms)^2}{2(2.00 \times 10^{-3} \m)} = \frac{-0.360 \mmss}{4.00 \times 10^{-3} \m} = -90.0 \mss $$
+</div>
+
+The negative sign indicates deceleration (acceleration opposite to the direction of motion).
+
+Express in multiples of $$ g $$:
+
+<div class="equation">
+$$ \frac{a_{\text{head}}}{g} = \frac{-90.0 \mss}{9.80 \mss} = -9.18 $$
+</div>
+
+So the head experiences a deceleration of $$ 90.0 \mss $$ or $$ 9.18g $$.
+
+**(b) Stopping time:**
+
+**Unknown:** Time $$ t $$
+
+**Choosing the equation:** Use $$ v = v_0 + at $$:
+
+<div class="equation">
+$$ t = \frac{v - v_0}{a_{\text{head}}} = \frac{0 - 0.600 \ms}{-90.0 \mss} = 6.67 \times 10^{-3} \s = 6.67 \text{ ms} $$
+</div>
+
+**(c) Brain's deceleration:**
+
+**Unknown:** Acceleration $$ a_{\text{brain}} $$
+
+The brain has a longer stopping distance due to the stretching tendons:
+
+<div class="equation">
+$$ a_{\text{brain}} = \frac{v^2 - v_0^2}{2(x_{\text{brain}} - x_0)} = \frac{0 - (0.600 \ms)^2}{2(4.50 \times 10^{-3} \m)} $$
+</div>
+
+<div class="equation">
+$$ a_{\text{brain}} = \frac{-0.360 \mmss}{9.00 \times 10^{-3} \m} = -40.0 \mss $$
+</div>
+
+Express in multiples of $$ g $$:
+
+<div class="equation">
+$$ \frac{a_{\text{brain}}}{g} = \frac{-40.0 \mss}{9.80 \mss} = -4.08 $$
+</div>
+
+The brain experiences a deceleration of $$ 40.0 \mss $$ or $$ 4.08g $$.
+
+**Units check:** $$ \frac{\mmss}{\m} = \mss $$ ✓; $$ \frac{\ms}{\mss} = \s $$ ✓
+
+**Discussion**
+
+These results reveal the remarkable biomechanical engineering of the woodpecker's anatomy. The head decelerates at 9.18g—nearly 10 times the acceleration due to gravity! This would cause severe brain injury in most animals.
+
+However, the tendon-like attachments allow the brain to decelerate over a distance 2.25 times greater than the head (4.50 mm vs. 2.00 mm). This reduces the brain's deceleration to 4.08g—less than half the head's deceleration. While still substantial, this is within a survivable range, especially with the woodpecker's other adaptations (compact brain, minimal cerebrospinal fluid, specialized skull structure).
+
+The stopping time of 6.67 ms is extremely brief—less than one-hundredth of a second. Woodpeckers can peck 15-20 times per second, so this rapid deceleration is essential for their feeding and territorial behaviors.
+
+For comparison, race car drivers experience decelerations up to about 5-6g during crashes (with safety equipment), and fighter pilots can experience 9g during high-performance maneuvers. The woodpecker's head exceeds this regularly, highlighting the extraordinary evolutionary adaptation.
+
+**Answer**
+
+(a) The head's deceleration is **$$ -90.0 \mss $$** or **9.18g** (9.18 times the acceleration due to gravity).
+
+(b) The stopping time is **6.67 ms** (or $$ 6.67 \times 10^{-3} \s $$).
+
+(c) The brain's deceleration is **4.08g** (4.08 times the acceleration due to gravity).
 
 </div>
 </div>
@@ -1147,8 +1418,86 @@ flaming airplanes with no
 parachute to escape certain death. Some fell about 20 000 feet (6000 m), and some of them
 survived, with few life-threatening injuries. For these lucky pilots, the tree branches
 and snow drifts on the ground allowed their deceleration to be relatively small.
-If we assume that a pilot’s speed upon impact was 123 mph (54 m/s), then what was
+If we assume that a pilot's speed upon impact was 123 mph (54 m/s), then what was
 his deceleration? Assume that the trees and snow stopped him over a distance of 3.0 m.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The pilot decelerates from a known impact velocity to rest over a known stopping distance. We can use the kinematic equation $$ v^2 = v_0^2 + 2a(x - x_0) $$ to find the deceleration. This equation is ideal because it relates velocities, acceleration, and distance without requiring time information.
+
+**Solution**
+
+**Knowns:**
+- Initial velocity (impact speed): $$ v_0 = 54 \ms $$ (or 123 mph)
+- Final velocity: $$ v = 0 $$ (comes to rest)
+- Stopping distance: $$ x - x_0 = 3.0 \m $$
+
+**Unknown:** Acceleration $$ a $$
+
+**Choosing the equation:**
+
+Use the kinematic equation:
+
+<div class="equation">
+$$ v^2 = v_0^2 + 2a(x - x_0) $$
+</div>
+
+**Solving:**
+
+Rearrange to solve for $$ a $$:
+
+<div class="equation">
+$$ a = \frac{v^2 - v_0^2}{2(x - x_0)} $$
+</div>
+
+Substitute the known values:
+
+<div class="equation">
+$$ a = \frac{0 - (54 \ms)^2}{2(3.0 \m)} = \frac{-2916 \mmss}{6.0 \m} = -486 \mss = -4.9 \times 10^{2} \mss $$
+</div>
+
+The negative sign indicates deceleration (acceleration opposite to the direction of motion).
+
+Express in multiples of $$ g $$ (where $$ g = 9.80 \mss $$):
+
+<div class="equation">
+$$ \frac{a}{g} = \frac{-486 \mss}{9.80 \mss} = -49.6 \approx -50 $$
+</div>
+
+The pilot experienced a deceleration of approximately 50g.
+
+**Units check:** $$ \frac{\mmss}{\m} = \mss $$ ✓
+
+**Discussion**
+
+A deceleration of 486 m/s² (about 50g) is extraordinary and would normally be fatal. For comparison:
+- Modern fighter pilots can withstand up to about 9g with special suits
+- Race car drivers in severe crashes experience 20-40g (often with serious injuries)
+- The human body can survive very brief exposures to high g-forces if properly oriented
+
+The survival of these airmen is remarkable and can be attributed to several factors:
+
+1. **Gradual deceleration**: The 3.0 m stopping distance, provided by tree branches and snow, distributed the impact force over a much longer distance than hitting hard ground (which might provide only 0.1-0.2 m of deceleration).
+
+2. **Body orientation**: If the pilot landed feet-first or in a horizontal position, the forces would be distributed more favorably than head-first impact.
+
+3. **Sequential impacts**: Tree branches would have provided multiple smaller impacts rather than one catastrophic stop, further distributing the deceleration.
+
+4. **Duration**: We can calculate the stopping time using $$ v = v_0 + at $$:
+<div class="equation">
+$$ t = \frac{v - v_0}{a} = \frac{0 - 54 \ms}{-486 \mss} = 0.11 \s $$
+</div>
+
+The deceleration lasted about 0.11 seconds—long enough to be survivable, though still extremely dangerous.
+
+Without the trees and snow, stopping over just 0.1 m would produce a deceleration of about 14,600 m/s² (1490g)—absolutely unsurvivable. The 3.0 m stopping distance reduced the deceleration by a factor of 30, making survival possible, though still requiring extraordinary luck.
+
+**Answer**
+
+The pilot's deceleration was **$$ -4.9 \times 10^{2} \mss $$** (or approximately 486 m/s²), which is about **50 times the acceleration due to gravity (50g)**.
 
 </div>
 </div>
@@ -1181,6 +1530,143 @@ as it goes through. The station is 210 m long.
 (c) If the train is 130 m long, when does the end of the train leave
 the station?
 (d) What is the velocity of the end of the train as it leaves?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The train decelerates at a constant rate as it passes through the station. We need to track the motion of both the nose and the end of the train. For parts (a) and (b), we analyze the nose traveling 210 m through the station. For parts (c) and (d), we analyze the end of the train, which must travel 210 m + 130 m = 340 m (the station length plus the train length) before it clears the station.
+
+**Solution**
+
+**Knowns:**
+- Initial velocity: $$ v_0 = 22.0 \ms $$
+- Acceleration: $$ a = -0.150 \mss $$ (negative because it's decelerating)
+- Station length: $$ L_{\text{station}} = 210 \m $$
+- Train length: $$ L_{\text{train}} = 130 \m $$
+
+**(a) Time for nose to traverse the station:**
+
+**Unknown:** Time $$ t_{\text{nose}} $$
+
+The nose travels a distance of 210 m. We know $$ v_0 $$, $$ a $$, and $$ x - x_0 $$, and need to find $$ t $$.
+
+**Choosing the equation:** Use $$ x = x_0 + v_0 t + \frac{1}{2}at^2 $$
+
+Taking $$ x_0 = 0 $$:
+
+<div class="equation">
+$$ 210 = 22.0 t + \frac{1}{2}(-0.150)t^2 $$
+</div>
+
+<div class="equation">
+$$ 210 = 22.0 t - 0.0750 t^2 $$
+</div>
+
+Rearrange to standard quadratic form:
+
+<div class="equation">
+$$ 0.0750 t^2 - 22.0 t + 210 = 0 $$
+</div>
+
+Using the quadratic formula with $$ a = 0.0750 $$, $$ b = -22.0 $$, $$ c = 210 $$:
+
+<div class="equation">
+$$ t = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} = \frac{22.0 \pm \sqrt{(-22.0)^2 - 4(0.0750)(210)}}{2(0.0750)} $$
+</div>
+
+<div class="equation">
+$$ t = \frac{22.0 \pm \sqrt{484 - 63.0}}{0.150} = \frac{22.0 \pm \sqrt{421}}{0.150} = \frac{22.0 \pm 20.5}{0.150} $$
+</div>
+
+This gives two solutions:
+- $$ t_1 = \frac{22.0 + 20.5}{0.150} = \frac{42.5}{0.150} = 283 \s $$
+- $$ t_2 = \frac{22.0 - 20.5}{0.150} = \frac{1.5}{0.150} = 10.0 \s $$
+
+The physically meaningful solution is $$ t_{\text{nose}} = 10.0 \s $$ (the larger time would correspond to the train reversing direction, which is not realistic).
+
+**(b) Velocity when nose leaves the station:**
+
+**Unknown:** Final velocity $$ v_{\text{nose}} $$
+
+Use $$ v = v_0 + at $$:
+
+<div class="equation">
+$$ v_{\text{nose}} = 22.0 \ms + (-0.150 \mss)(10.0 \s) = 22.0 - 1.50 = 20.5 \ms $$
+</div>
+
+We can verify using $$ v^2 = v_0^2 + 2a(x - x_0) $$:
+
+<div class="equation">
+$$ v_{\text{nose}}^2 = (22.0)^2 + 2(-0.150)(210) = 484 - 63.0 = 421 \mmss $$
+</div>
+
+<div class="equation">
+$$ v_{\text{nose}} = \sqrt{421} = 20.5 \ms $$ ✓
+</div>
+
+**(c) Time for end of train to leave the station:**
+
+**Unknown:** Time $$ t_{\text{end}} $$
+
+The end of the train must travel the station length plus the train length: $$ 210 + 130 = 340 \m $$
+
+Using $$ x = x_0 + v_0 t + \frac{1}{2}at^2 $$:
+
+<div class="equation">
+$$ 340 = 22.0 t - 0.0750 t^2 $$
+</div>
+
+<div class="equation">
+$$ 0.0750 t^2 - 22.0 t + 340 = 0 $$
+</div>
+
+Using the quadratic formula:
+
+<div class="equation">
+$$ t = \frac{22.0 \pm \sqrt{484 - 4(0.0750)(340)}}{0.150} = \frac{22.0 \pm \sqrt{484 - 102}}{0.150} $$
+</div>
+
+<div class="equation">
+$$ t = \frac{22.0 \pm \sqrt{382}}{0.150} = \frac{22.0 \pm 19.5}{0.150} $$
+</div>
+
+This gives:
+- $$ t_1 = \frac{22.0 + 19.5}{0.150} = 277 \s $$ (unphysical)
+- $$ t_2 = \frac{22.0 - 19.5}{0.150} = \frac{2.5}{0.150} = 16.7 \s $$
+
+So $$ t_{\text{end}} = 16.7 \s $$.
+
+**(d) Velocity of end of train as it leaves:**
+
+**Unknown:** Final velocity $$ v_{\text{end}} $$
+
+Use $$ v = v_0 + at $$:
+
+<div class="equation">
+$$ v_{\text{end}} = 22.0 \ms + (-0.150 \mss)(16.7 \s) = 22.0 - 2.51 = 19.5 \ms $$
+</div>
+
+**Units check:** All dimensional analysis confirms proper units throughout.
+
+**Discussion**
+
+The results make physical sense. The nose of the train takes 10.0 s to traverse the 210 m station, slowing from 22.0 m/s to 20.5 m/s. The end of the train, entering 130 m behind the nose, takes an additional 6.7 s to clear the station (total of 16.7 s from when the nose entered), and is moving at 19.5 m/s when it exits.
+
+The deceleration of 0.150 m/s² is quite gentle—only about 1.5% of gravitational acceleration. This is typical for passenger trains, ensuring passenger comfort. Over the 16.7 seconds that the train occupies the station, it slows by only 2.5 m/s (from 22.0 to 19.5 m/s), which passengers would barely notice.
+
+The average velocity during the passage can be calculated as $$ \overline{v} = \frac{v_0 + v}{2} = \frac{22.0 + 19.5}{2} = 20.75 \ms $$, and the total distance traveled is $$ 340 \m $$, giving an average time of $$ t = \frac{340}{20.75} = 16.4 \s $$, which is consistent with our calculated 16.7 s (the small difference is due to rounding).
+
+**Answer**
+
+(a) The nose of the train stays in the station for **10.0 s**.
+
+(b) The nose is traveling at **20.5 m/s** when it leaves the station.
+
+(c) The end of the train leaves the station at **16.7 s** after the nose entered.
+
+(d) The end of the train is traveling at **19.5 m/s** as it leaves the station.
 
 </div>
 </div>
@@ -1222,6 +1708,125 @@ started to accelerate, how much time did he save?
 ahead when the winner started to accelerate, but he was unable to accelerate,
 and traveled at 11.8 m/s until the finish line. How far ahead of him (in meters
 and in seconds) did the winner finish?
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+This problem involves multiple phases of motion. The winner accelerates for 7.00 s, then continues at constant velocity. We need to find the final velocity after acceleration, calculate the time saved compared to non-accelerated motion, and compare the winner's finish with the other racer who maintains constant velocity.
+
+**Solution**
+
+**Knowns:**
+- Winner's initial velocity: $$ v_0 = 11.5 \ms $$
+- Winner's acceleration: $$ a = 0.500 \mss $$
+- Acceleration time: $$ t_{\text{accel}} = 7.00 \s $$
+- Distance to finish line: $$ d_{\text{total}} = 300 \m $$
+- Other racer's velocity: $$ v_{\text{other}} = 11.8 \ms $$
+- Other racer's initial advantage: $$ 5.00 \m $$ ahead
+
+**(a) Final velocity after acceleration:**
+
+**Unknown:** Final velocity $$ v $$
+
+Use $$ v = v_0 + at $$:
+
+<div class="equation">
+$$ v = 11.5 \ms + (0.500 \mss)(7.00 \s) = 11.5 + 3.50 = 15.0 \ms $$
+</div>
+
+**(b) Time saved by accelerating:**
+
+**Unknown:** Time saved
+
+First, calculate distance covered during acceleration using $$ x = x_0 + v_0 t + \frac{1}{2}at^2 $$:
+
+<div class="equation">
+$$ x_{\text{accel}} = (11.5 \ms)(7.00 \s) + \frac{1}{2}(0.500 \mss)(7.00 \s)^2 $$
+</div>
+
+<div class="equation">
+$$ x_{\text{accel}} = 80.5 \m + \frac{1}{2}(0.500)(49.0) \m = 80.5 + 12.25 = 92.75 \m $$
+</div>
+
+Remaining distance to finish line:
+
+<div class="equation">
+$$ x_{\text{remaining}} = 300 - 92.75 = 207.25 \m $$
+</div>
+
+Time to cover remaining distance at constant velocity of 15.0 m/s:
+
+<div class="equation">
+$$ t_{\text{remaining}} = \frac{207.25 \m}{15.0 \ms} = 13.8 \s $$
+</div>
+
+**Total time with acceleration:**
+
+<div class="equation">
+$$ t_{\text{total, accel}} = 7.00 + 13.8 = 20.8 \s $$
+</div>
+
+**Time if no acceleration** (maintaining 11.5 m/s for entire 300 m):
+
+<div class="equation">
+$$ t_{\text{no accel}} = \frac{300 \m}{11.5 \ms} = 26.1 \s $$
+</div>
+
+**Time saved:**
+
+<div class="equation">
+$$ \Delta t = 26.1 - 20.8 = 5.3 \s $$
+</div>
+
+**(c) Comparison with other racer:**
+
+The other racer starts 5.00 m ahead (at position -5.00 m if finish is at 300 m), so must travel $$ 300 + 5.00 = 305 \m $$ to reach the finish.
+
+**Other racer's time:**
+
+<div class="equation">
+$$ t_{\text{other}} = \frac{305 \m}{11.8 \ms} = 25.8 \s $$
+</div>
+
+**Winner finishes in:** $$ 20.8 \s $$
+
+**Time difference:**
+
+<div class="equation">
+$$ \Delta t = 25.8 - 20.8 = 5.0 \s $$
+</div>
+
+**Distance ahead:** When the winner finishes (at $$ t = 20.8 \s $$), the other racer has traveled:
+
+<div class="equation">
+$$ x_{\text{other}} = (11.8 \ms)(20.8 \s) = 245 \m $$
+</div>
+
+The other racer still needs to travel $$ 305 - 245 = 60 \m $$ to reach the finish line.
+
+So the winner finishes **60 m ahead** and **5.0 s ahead**.
+
+**Units check:** All dimensional analysis confirms proper units throughout.
+
+**Discussion**
+
+The acceleration phase was crucial to victory. By accelerating from 11.5 m/s to 15.0 m/s over 7 seconds, the winner increased his speed by 30%. This saved 5.3 seconds compared to maintaining the initial pace—a significant advantage in competitive cycling.
+
+The comparison with the other racer is particularly interesting. Despite starting 5.00 m behind, the winner's acceleration allowed him to finish 60 m ahead—a complete reversal of position! The other racer's slight initial speed advantage (11.8 m/s vs. 11.5 m/s) was completely overwhelmed by the winner's acceleration.
+
+In real bicycle racing, this represents a classic sprint finish strategy. The ability to accelerate at the end of a race—when other competitors are fatigued—is a decisive competitive advantage. An acceleration of 0.500 m/s² sustained for 7 seconds is impressive for a cyclist, especially near the end of a race.
+
+The winner's average velocity during acceleration was $$ \overline{v} = \frac{11.5 + 15.0}{2} = 13.25 \ms $$, which we can verify: $$ (13.25)(7.00) = 92.75 \m $$ ✓
+
+**Answer**
+
+(a) The racer's final velocity is **15.0 m/s**.
+
+(b) By accelerating, the racer saved **5.3 s** compared to maintaining constant velocity.
+
+(c) The winner finished **60 m ahead** and **5.0 s ahead** of the other racer.
+
 </div>
 </div>
 
