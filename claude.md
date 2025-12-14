@@ -12,7 +12,7 @@
 **Common Tasks:**
 - Add content → Update `contents/` + `SUMMARY.md`
 - Fix links → Always use `{{ site.baseurl }}/path`
-- Check math → Run `python check_math.py`
+- Check math → Run `npm run check-math`
 - Validate links → Run `npm run check-links`
 
 ---
@@ -35,9 +35,8 @@ This is an **open-source physics textbook** built with Jekyll and GitHub Pages. 
 - **Ruby**: 2.7+ required for Jekyll
 
 ### Development Tools
-- **Node.js**: For utility scripts (link checking, PDF generation)
+- **Node.js**: For utility scripts (link checking, PDF generation, math validation)
 - **Playwright**: Browser automation for PDF generation
-- **Python**: For math validation scripts
 - **GitHub Actions**: CI/CD workflows for deployment and quality checks
 
 ## Project Structure
@@ -71,6 +70,41 @@ physics-book/
 - Format: `ch[NUMBER][DescriptiveName].md`
 - Example: `ch2TimeVelocityAndSpeed.md`
 - Use PascalCase for multi-word names
+
+### End-of-Chapter Problems and Solutions
+
+Many chapter sections include practice problems at the end:
+- **Conceptual Questions**: Questions testing understanding of concepts without complex calculations
+- **Problems & Exercises**: Numerical problems requiring calculations and problem-solving
+
+**Location**: These sections appear at the end of individual section files (e.g., `ch10AngularAcceleration.md`)
+
+**Format**:
+- Problems are typically numbered and formatted as ordered lists
+- Questions use HTML entities for special characters (e.g., `&amp;` for `&`)
+- Math notation uses MathJax delimiters (`$...$` or `$$...$$`)
+
+**Contributing Solutions**:
+When contributing worked solutions to practice problems:
+1. Place solutions in the same file as the problems, under a `### Solutions` heading
+2. Number solutions to match the corresponding problem numbers
+3. Show all work and intermediate steps for clarity
+4. Use proper MathJax notation for equations and calculations
+5. Include brief explanations of the approach and reasoning
+6. Test that all equations render correctly locally before committing
+
+**Example Solution Format**:
+```markdown
+### Solutions
+
+**1.** Given: initial velocity $v_0 = 10 \text{ m/s}$, acceleration $a = 2 \text{ m/s}^2$, time $t = 5 \text{ s}$
+
+Using the kinematic equation: $v = v_0 + at$
+
+$$v = 10 + (2)(5) = 10 + 10 = 20 \text{ m/s}$$
+
+**Answer**: The final velocity is 20 m/s.
+```
 
 ## Mathematics and Equations
 
@@ -121,7 +155,7 @@ $$\begin{pmatrix} x \\ y \\ z \end{pmatrix}$$
 - Equations are rendered after content loads via `startup.ready()` promise
 - Always escape backslashes in Markdown: `\\frac` not `\frac`
 - Test equation rendering when adding/modifying math content
-- Use `python check_math.py` to validate before committing
+- Use `npm run check-math` to validate before committing
 
 ## Development Workflow
 
@@ -228,7 +262,7 @@ When you push changes:
 ```bash
 bundle exec jekyll build    # Verify build succeeds
 npm run check-links         # Check for broken links
-python check_math.py        # Validate equations
+npm run check-math          # Validate equations
 ```
 
 ## Git Workflow
@@ -289,32 +323,30 @@ npm test:ci                      # CI-optimized link checking
 
 **Content Auditing:**
 ```bash
-npm run find-orphans             # Find unreferenced content files
-npm run find-orphans:cleanup     # Generate cleanup script for orphans
-npm run audit                    # Run both link check and orphan detection
+npm run check-orphans            # Find unreferenced content files
+npm run check-orphans:cleanup    # Generate cleanup script for orphans
+npm run audit                    # Run link check, orphan detection, and figure checking
 ```
 
 **PDF Generation:**
 ```bash
-npm run pdf:install              # Install Playwright Chromium
-npm run pdf:all                  # Generate PDFs for all chapters
-npm run pdf:combined             # Create single PDF of entire book
-npm run pdf:chapter              # Generate PDF for specific chapter
-npm run pdf:help                 # Show PDF generation help
+npm run generate-pdf:install     # Install Playwright Chromium
+npm run generate-pdf --all       # Generate PDFs for all chapters
+npm run generate-pdf:combined    # Create single PDF of entire book
+npm run generate-pdf:chapter     # Generate PDF for specific chapter
+npm run generate-pdf:help        # Show PDF generation help
 ```
 
-**Note:** PDF generation requires Playwright to be installed first with `npm run pdf:install`.
+**Note:** PDF generation requires Playwright to be installed first with `npm run generate-pdf:install`.
 
-### Python Scripts
+### Additional Scripts
 
-**Math Validation:**
+**Figure and Accessibility Checking:**
 ```bash
-python check_math.py             # Validate MathJax notation in all content
+npm run check-figures            # Check for figure issues
+npm run check-accessibility      # Check accessibility compliance
+npm run check-yaml               # Validate YAML front matter
 ```
-This script checks for:
-- Properly balanced delimiters ($...$ and $$...$$)
-- Common LaTeX syntax errors
-- Equation rendering issues
 
 ### Parsing Scripts (parsingScripts/)
 
@@ -336,7 +368,7 @@ Utility scripts for content processing and migration:
 - Ensure `{% include mathjax.html %}` is in your layout
 - Check browser console for MathJax loading errors
 - Verify equation delimiters: `$...$` for inline, `$$...$$` for display
-- Test with `python check_math.py` to validate syntax
+- Test with `npm run check-math` to validate syntax
 - Wait for async loading completion (MathJax loads after page)
 
 ### Navigation Links Broken
@@ -359,7 +391,7 @@ Utility scripts for content processing and migration:
 ### PDF Generation Issues
 **Symptoms:** PDF scripts fail or produce incomplete output
 **Solutions:**
-- Run `npm run pdf:install` to ensure Playwright is installed
+- Run `npm run generate-pdf:install` to ensure Playwright is installed
 - Check that Jekyll server is running for local PDF generation
 - Verify MathJax has loaded before PDF capture
 - Use `--help` flag to see available options
@@ -401,9 +433,10 @@ Utility scripts for content processing and migration:
 - CDN-hosted libraries (MathJax, fonts)
 
 ### Content Validation
-- **Math checking**: Python script validates equation syntax
+- **Math checking**: Node.js script validates equation syntax
 - **Link validation**: Automated checking of internal/external links
 - **Orphan detection**: Finds unreferenced content files
+- **Figure checking**: Validates figure references and availability
 - **CI integration**: Automated checks on pull requests
 
 ## Project Documentation
