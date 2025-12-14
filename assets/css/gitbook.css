@@ -446,89 +446,54 @@ h4,
     font-size: 18px;
 }
 
-.book .book-header {
-    font-family: "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    position: absolute;
-    overflow: visible;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 50px;
-    z-index: 2;
-    font-size: .85em;
-    color: #7e888b;
-    background: #fff;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+/* Floating toggle button for sidebar */
+.book > .toggle-summary {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    color: #555;
+    font-size: 18px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
-.book .book-header .btn {
-    display: block;
-    height: 50px;
-    padding: 0 15px;
-    border-bottom: 0;
-    color: #7e888b;
-    text-transform: uppercase;
-    line-height: 50px;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-    position: relative;
-}
-
-.book .book-header .btn:hover {
-    position: relative;
-    text-decoration: none;
-    color: #151515;
+.book > .toggle-summary:hover {
     background: #f0f2f4;
-}
-
-.book .book-header h1 {
-    margin: 0;
-    font-size: 20px;
-    text-align: center;
-    line-height: 50px;
-    padding-left: 200px;
-    padding-right: 200px;
-    -webkit-transition: margin-left 0.5s ease;
-    transition: margin-left 0.5s ease;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-.book .book-header h1 a,
-.book .book-header h1 a:hover {
-    color: inherit;
+    color: #333;
     text-decoration: none;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width: 1000px) {
-    .book .book-header h1 {
-        display: none;
+.book.with-summary > .toggle-summary {
+    left: 260px;
+    background: #fafafa;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+    .book.with-summary > .toggle-summary {
+        left: 10px;
+        background: rgba(255, 255, 255, 0.95);
     }
-}
-
-.book.is-loading .book-header h1 i {
-    display: inline-block;
-}
-
-.book.is-loading .book-header h1 a {
-    display: none;
-}
-
-.book.with-summary .book-header h1 {
-    margin-left: 250px;
-}
-
-.book.without-animation .book-header h1 {
-    -webkit-transition: none !important;
-    transition: none !important;
 }
 
 
 .book .book-summary {
     font-family: "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     position: absolute;
-    top: 50px;
+    top: 0;
     left: -250px;
     bottom: 0;
     z-index: 1;
@@ -550,7 +515,7 @@ h4,
     overflow-y: auto;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 60px 0 0 0;
     -webkit-transition: top .5s ease;
     transition: top 0.5s ease;
 }
@@ -632,14 +597,6 @@ h4,
 }
 
 
-.book.with-search .book-summary ul.summary {
-    top: 50px;
-}
-
-
-.book-header #font-settings-wrapper {
-    position: relative;
-}
 
 .book {
     position: relative;
@@ -649,7 +606,7 @@ h4,
 
 .book .book-body {
     position: absolute;
-    top: 50px;
+    top: 0;
     right: 0;
     left: 0;
     bottom: 0;
