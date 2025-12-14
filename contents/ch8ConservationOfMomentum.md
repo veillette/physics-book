@@ -334,8 +334,35 @@ What is their final velocity?
 
 </div>
 <div class="solution" markdown="1">
-0.122 m/s
+**Strategy**
 
+When the cars couple together, they undergo a perfectly inelastic collision. We apply conservation of momentum, with the final velocity being the same for both cars since they stick together.
+
+**Solution**
+
+Apply conservation of momentum:
+
+$$ m_1 v_1 + m_2 v_2 = (m_1 + m_2) v_f $$
+
+Substitute the known values:
+
+$$ (150000 \kg)(0.300 \ms) + (110000 \kg)(-0.120 \ms) = (150000 + 110000) \kg \times v_f $$
+
+Calculate each term:
+
+$$ 45000 \kg \cdot \ms - 13200 \kg \cdot \ms = 260000 \kg \times v_f $$
+
+$$ 31800 \kg \cdot \ms = 260000 \kg \times v_f $$
+
+Solve for the final velocity:
+
+$$ v_f = \frac{31800 \kg \cdot \ms}{260000 \kg} = 0.122 \ms $$
+
+The final velocity of the coupled train cars is 0.122 m/s in the direction of the first car's initial motion.
+
+**Discussion**
+
+The positive final velocity indicates the coupled cars move in the direction of the heavier, faster car (car 1). The first car had more momentum (45,000 kg·m/s) than the second car (13,200 kg·m/s), so the net momentum is in the direction of the first car. This is a typical coupling operation where cars are gently bumped together at low speeds to minimize damage.
 </div>
 </div>
 
@@ -345,6 +372,33 @@ Suppose a clay model of a koala bear has a mass of 0.200 kg and slides on ice at
 It runs into another clay model, which is initially motionless and has a mass of 0.350 kg.
 Both being soft clay, they naturally stick together. What is their final velocity?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+This is a perfectly inelastic collision where two objects stick together. We apply conservation of momentum, recognizing that one object is initially at rest.
+
+**Solution**
+
+Apply conservation of momentum:
+
+$$ m_1 v_1 + m_2 v_2 = (m_1 + m_2) v_f $$
+
+Since the second clay model is initially at rest ($$ v_2 = 0 $$):
+
+$$ m_1 v_1 = (m_1 + m_2) v_f $$
+
+Solve for the final velocity:
+
+$$ v_f = \frac{m_1 v_1}{m_1 + m_2} = \frac{(0.200 \kg)(0.750 \ms)}{0.200 \kg + 0.350 \kg} $$
+
+$$ v_f = \frac{0.150 \kg \cdot \ms}{0.550 \kg} = 0.273 \ms $$
+
+The final velocity of the combined clay models is 0.273 m/s in the direction of the first model's initial motion.
+
+**Discussion**
+
+The final velocity is less than the initial velocity of the moving koala, as expected when momentum is shared with a stationary object. The combined mass is 2.75 times the moving koala's mass, so the final velocity is reduced by approximately this factor (0.750/2.75 ≈ 0.273). This is a classic example of a perfectly inelastic collision where objects stick together and move as one unit afterward.
 </div>
 </div>
 
@@ -362,10 +416,35 @@ direction and at the same speed? Explain your answer.
 
 </div>
 <div class="solution" markdown="1">
-In a collision with an identical car, momentum is conserved. Afterwards $$ v_{\text{f}}=0 $$
-for both cars. The change in momentum will be the same as in the crash with the
-tree. However, the force on the body is not determined since the time is not
-known. A padded stop will reduce injurious force on body.
+**Strategy**
+
+First, solve the tree collision problem using impulse-momentum. Then, analyze the car-car collision using conservation of momentum to determine if the passenger experiences the same momentum change.
+
+**Solution**
+
+For the tree collision, calculate the force on the passenger:
+
+$$ \Delta p = m(v_f - v_i) = (70 \kg)(0 - 10 \ms) = -700 \kg \cdot \ms $$
+
+$$ F = \frac{\Delta p}{\Delta t} = \frac{-700 \kg \cdot \ms}{0.26 \s} = -2700 \N $$
+
+The seatbelt exerts approximately 2700 N on the passenger.
+
+For the car-car collision with identical cars moving at equal speeds in opposite directions:
+
+By conservation of momentum:
+
+$$ m(+10 \ms) + m(-10 \ms) = 2m \times v_f $$
+
+$$ 0 = 2m \times v_f $$
+
+$$ v_f = 0 $$
+
+Both cars come to rest. The passenger's change in momentum is the same: from $$ +700 \kg \cdot \ms $$ to 0.
+
+**Discussion**
+
+The change in momentum is identical in both cases—the passenger goes from 10 m/s to 0. However, the **force** depends on the collision time, which may differ between the two scenarios. A car-car collision might have different deformation characteristics than hitting a rigid tree, potentially changing the stopping time. If the collision time in the car-car crash were longer (due to crumple zones in both cars absorbing energy over a longer distance), the force would be reduced. If shorter, the force would be greater. Without knowing the collision time for the car-car scenario, we cannot definitively compare the forces, but the momentum change remains the same.
 </div>
 </div>
 
@@ -374,16 +453,74 @@ known. A padded stop will reduce injurious force on body.
 What is the velocity of a 900-kg car initially moving at 30.0 m/s, just after it hits a 150-kg deer initially running at 12.0 m/s in the same direction? Assume the deer remains on the car.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+This is a perfectly inelastic collision where the deer remains on the car. Both objects are moving in the same direction initially. We apply conservation of momentum.
+
+**Solution**
+
+Apply conservation of momentum:
+
+$$ m_{\text{car}} v_{\text{car}} + m_{\text{deer}} v_{\text{deer}} = (m_{\text{car}} + m_{\text{deer}}) v_f $$
+
+Substitute the known values:
+
+$$ (900 \kg)(30.0 \ms) + (150 \kg)(12.0 \ms) = (900 \kg + 150 \kg) v_f $$
+
+Calculate the initial momenta:
+
+$$ 27000 \kg \cdot \ms + 1800 \kg \cdot \ms = 1050 \kg \times v_f $$
+
+$$ 28800 \kg \cdot \ms = 1050 \kg \times v_f $$
+
+Solve for the final velocity:
+
+$$ v_f = \frac{28800 \kg \cdot \ms}{1050 \kg} = 27.4 \ms $$
+
+The velocity of the car with the deer is 27.4 m/s in the original direction of motion.
+
+**Discussion**
+
+The final velocity (27.4 m/s) is less than the car's initial velocity (30.0 m/s) but greater than the deer's initial velocity (12.0 m/s), as expected when two objects moving in the same direction collide and stick together. The car loses about 2.6 m/s of speed. Since both were moving in the same direction, the velocity change is less severe than a head-on collision would produce.
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A 1.80-kg falcon catches a 0.650-kg dove from behind in midair. What is their velocity after impact if the falcon’s velocity is initially 28.0 m/s and the dove’s velocity is 7.00 m/s in the same direction?
+A 1.80-kg falcon catches a 0.650-kg dove from behind in midair. What is their velocity after impact if the falcon's velocity is initially 28.0 m/s and the dove's velocity is 7.00 m/s in the same direction?
 
 </div>
 <div class="solution" markdown="1">
-22.4 m/s in the same direction as the original motion
+**Strategy**
 
+When the falcon catches the dove, they move together as one object—a perfectly inelastic collision. Both birds are moving in the same direction, so we apply conservation of momentum with all velocities positive.
+
+**Solution**
+
+Apply conservation of momentum:
+
+$$ m_{\text{falcon}} v_{\text{falcon}} + m_{\text{dove}} v_{\text{dove}} = (m_{\text{falcon}} + m_{\text{dove}}) v_f $$
+
+Substitute the known values:
+
+$$ (1.80 \kg)(28.0 \ms) + (0.650 \kg)(7.00 \ms) = (1.80 \kg + 0.650 \kg) v_f $$
+
+Calculate each term:
+
+$$ 50.4 \kg \cdot \ms + 4.55 \kg \cdot \ms = 2.45 \kg \times v_f $$
+
+$$ 54.95 \kg \cdot \ms = 2.45 \kg \times v_f $$
+
+Solve for the final velocity:
+
+$$ v_f = \frac{54.95 \kg \cdot \ms}{2.45 \kg} = 22.4 \ms $$
+
+The velocity of the falcon and dove after impact is 22.4 m/s in the same direction as the original motion.
+
+**Discussion**
+
+The final velocity (22.4 m/s) is between the initial velocities of the falcon (28.0 m/s) and the dove (7.00 m/s), as expected for a perfectly inelastic collision where both objects are moving in the same direction. The falcon slows down from 28.0 m/s to 22.4 m/s upon catching the dove. The falcon dominates the outcome because it has both greater mass and greater velocity, contributing 92% of the total initial momentum.
 </div>
 </div>
 
