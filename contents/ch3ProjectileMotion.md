@@ -1884,6 +1884,71 @@ Modern scopes often have range-finding reticles with multiple aiming points for 
 An eagle is flying horizontally at a speed of 3.00 m/s when the fish in her talons wiggles loose and falls into the lake 5.00 m below. Calculate the velocity of the fish relative to the water when it hits the water.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The fish initially has the same horizontal velocity as the eagle (3.00 m/s) and zero vertical velocity. Use kinematic equations to find the vertical velocity component when the fish has fallen 5.00 m, then combine with the horizontal component to find the total velocity.
+
+**Solution**
+
+**Given:**
+- Initial horizontal velocity: $$ v_{0x} = 3.00 \ms $$ (same as eagle)
+- Initial vertical velocity: $$ v_{0y} = 0 $$ (released, not thrown)
+- Vertical distance: $$ \Delta y = -5.00 \m $$ (taking down as negative)
+
+**Step 1: Find the vertical velocity component at impact**
+
+Using the kinematic equation:
+<div class="equation">
+$$ v_y^2 = v_{0y}^2 - 2g\Delta y $$
+</div>
+
+Note: Taking up as positive, so $$ \Delta y = -5.00 \m $$ and acceleration is $$ a = -g $$:
+<div class="equation">
+$$ v_y^2 = 0^2 - 2(-9.80 \mss)(-5.00 \m) = -2(9.80)(5.00) = -98.0 \mmss $$
+</div>
+
+Wait, let me reconsider. Taking down as positive:
+<div class="equation">
+$$ v_y^2 = v_{0y}^2 + 2g\Delta y = 0 + 2(9.80 \mss)(5.00 \m) = 98.0 \mmss $$
+</div>
+
+<div class="equation">
+$$ v_y = \sqrt{98.0} = 9.90 \ms $$ (downward)
+</div>
+
+**Step 2: Find horizontal velocity component**
+
+The horizontal velocity remains constant (no horizontal acceleration):
+<div class="equation">
+$$ v_x = v_{0x} = 3.00 \ms $$
+</div>
+
+**Step 3: Calculate the magnitude of velocity**
+
+<div class="equation">
+$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(3.00)^2 + (9.90)^2} = \sqrt{9.00 + 98.0} = \sqrt{107} = 10.3 \ms $$
+</div>
+
+**Step 4: Find the direction**
+
+The angle below horizontal is:
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{v_y}{v_x}\right) = \tan^{-1}\left(\frac{9.90}{3.00}\right) = \tan^{-1}(3.30) = 73.1° $$
+</div>
+
+**Discussion**
+
+The fish hits the water at 10.3 m/s at an angle of 73.1° below horizontal. Notice that the vertical velocity component (9.90 m/s) is much larger than the horizontal component (3.00 m/s), which is why the angle is so steep.
+
+The fish essentially falls straight down while maintaining its initial horizontal speed. After falling 5.00 m, gravity has accelerated it to nearly 10 m/s vertically, while it still moves horizontally at 3 m/s.
+
+**Answer**
+
+The fish hits the water with a velocity of **10.3 m/s** at an angle of **73.1° below horizontal**, or equivalently, the velocity vector is $$ \vec{v} = (3.00 \ms, -9.90 \ms) $$.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1898,7 +1963,81 @@ horizontal position of the mouse when it has fallen 12.0 m.
 
 </div>
 <div class="solution" markdown="1">
-4.23 m. No, the owl is not lucky; he misses the nest.
+
+**Strategy**
+
+The mouse initially has the same velocity as the owl: 3.50 m/s at 30° below horizontal. Find the velocity components, then determine the time to fall 12.0 m. Use this time to calculate the horizontal distance traveled.
+
+**Solution**
+
+**Given:**
+- Initial position: 4.00 m west of nest center, 12.0 m above ground
+- Owl's speed: $$ v_0 = 3.50 \ms $$
+- Angle: $$ 30.0° $$ below horizontal
+- Vertical distance to fall: $$ \Delta y = 12.0 \m $$
+- Nest diameter: 30.0 cm = 0.300 m
+
+**Step 1: Find initial velocity components**
+
+Taking east as positive x and down as positive y:
+<div class="equation">
+$$ v_{0x} = v_0 \cos(30°) = 3.50 \times 0.866 = 3.03 \ms $$ (eastward)
+</div>
+
+<div class="equation">
+$$ v_{0y} = v_0 \sin(30°) = 3.50 \times 0.500 = 1.75 \ms $$ (downward)
+</div>
+
+**Step 2: Find the time to fall 12.0 m**
+
+Using the vertical motion equation (taking down as positive):
+<div class="equation">
+$$ y = v_{0y}t + \frac{1}{2}gt^2 $$
+</div>
+
+<div class="equation">
+$$ 12.0 = 1.75t + \frac{1}{2}(9.80)t^2 $$
+</div>
+
+<div class="equation">
+$$ 4.90t^2 + 1.75t - 12.0 = 0 $$
+</div>
+
+Using the quadratic formula:
+<div class="equation">
+$$ t = \frac{-1.75 + \sqrt{(1.75)^2 + 4(4.90)(12.0)}}{2(4.90)} $$
+</div>
+
+<div class="equation">
+$$ t = \frac{-1.75 + \sqrt{3.06 + 235.2}}{9.80} = \frac{-1.75 + \sqrt{238.3}}{9.80} = \frac{-1.75 + 15.44}{9.80} = \frac{13.69}{9.80} = 1.397 \s $$
+</div>
+
+**Step 3: Calculate horizontal distance traveled**
+
+<div class="equation">
+$$ x = v_{0x}t = 3.03 \times 1.397 = 4.23 \m $$
+</div>
+
+**Step 4: Determine if mouse hits the nest**
+
+The mouse travels 4.23 m east from its release point. Since it was released 4.00 m west of the nest center:
+
+Distance from nest center:
+<div class="equation">
+$$ d = 4.23 - 4.00 = 0.23 \m = 23 \text{ cm} $$
+</div>
+
+The nest has a radius of 15.0 cm (diameter 30.0 cm). Since 23 cm > 15 cm, the mouse **misses the nest**.
+
+**Discussion**
+
+The owl is unlucky! The mouse lands 23 cm east of the nest center, which is 8 cm beyond the edge of the nest (23 - 15 = 8 cm).
+
+If the owl had dropped the mouse slightly earlier (when it was farther west), or if it had been flying more slowly, the mouse would have landed in the nest. The owl's downward velocity component caused the mouse to fall faster than it would have if dropped from a horizontally flying bird, reducing the time available for horizontal travel.
+
+**Answer**
+
+The mouse lands **4.23 m** east of its release point, which is **0.23 m (23 cm) east of the nest center**. Since the nest has a radius of only 15 cm, the owl is **not lucky** — the mouse misses the nest by about 8 cm.
 
 </div>
 </div>
@@ -1909,6 +2048,85 @@ Suppose a soccer player kicks the ball from a distance 30 m toward the goal.
 Find the initial speed of the ball if it just passes over the goal,
 2.4 m above the ground, given the initial direction to be $$ 40^\circ $$
 above the horizontal.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use the projectile motion equations to relate the horizontal distance (30 m), vertical height (2.4 m), and launch angle (40°) to find the initial speed. Use the horizontal and vertical equations simultaneously.
+
+**Solution**
+
+**Given:**
+- Horizontal distance: $$ x = 30 \m $$
+- Vertical height: $$ y = 2.4 \m $$
+- Launch angle: $$ \theta = 40° $$
+- Initial speed: $$ v_0 = ? $$
+
+**Step 1: Express velocity components in terms of** $$ v_0 $$
+
+<div class="equation">
+$$ v_{0x} = v_0 \cos(40°) = 0.766 v_0 $$
+</div>
+
+<div class="equation">
+$$ v_{0y} = v_0 \sin(40°) = 0.643 v_0 $$
+</div>
+
+**Step 2: Find time from horizontal motion**
+
+Since horizontal velocity is constant:
+<div class="equation">
+$$ t = \frac{x}{v_{0x}} = \frac{30}{0.766 v_0} = \frac{39.2}{v_0} $$
+</div>
+
+**Step 3: Use vertical motion equation**
+
+<div class="equation">
+$$ y = v_{0y}t - \frac{1}{2}gt^2 $$
+</div>
+
+Substituting known values:
+<div class="equation">
+$$ 2.4 = (0.643 v_0)\left(\frac{39.2}{v_0}\right) - \frac{1}{2}(9.80)\left(\frac{39.2}{v_0}\right)^2 $$
+</div>
+
+<div class="equation">
+$$ 2.4 = 0.643(39.2) - 4.90\left(\frac{1536}{v_0^2}\right) $$
+</div>
+
+<div class="equation">
+$$ 2.4 = 25.2 - \frac{7526}{v_0^2} $$
+</div>
+
+<div class="equation">
+$$ \frac{7526}{v_0^2} = 25.2 - 2.4 = 22.8 $$
+</div>
+
+<div class="equation">
+$$ v_0^2 = \frac{7526}{22.8} = 330 $$
+</div>
+
+<div class="equation">
+$$ v_0 = \sqrt{330} = 18.2 \ms $$
+</div>
+
+**Verification:**
+
+Let's verify this answer:
+- Time: $$ t = \frac{39.2}{18.2} = 2.15 \s $$
+- Vertical position: $$ y = (0.643)(18.2)(2.15) - \frac{1}{2}(9.80)(2.15)^2 = 25.1 - 22.7 = 2.4 \m $$ ✓
+
+**Discussion**
+
+The initial speed of 18.2 m/s (about 65 km/h or 40 mph) is reasonable for a strong soccer kick. The 40° launch angle is quite steep, which explains why the ball just barely clears the 2.4 m height at a horizontal distance of 30 m.
+
+If the angle were lower, the ball would need a higher initial speed to reach the same height at that distance. Conversely, if the angle were higher (closer to 45°), the ball might go over the goal entirely or require a lower initial speed.
+
+**Answer**
+
+The initial speed of the ball must be **18.2 m/s** (approximately 65 km/h or 40 mph).
 
 </div>
 </div>
