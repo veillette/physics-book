@@ -1239,12 +1239,77 @@ significant here?
 
 </div>
 <div class="solution" markdown="1">
-(a) 560 m/s
 
-(b) $$ 8.00\times 10^{3}\m $$
+**Strategy**
 
-(c) 80.0 m. This error is not significant because it is only 1% of the answer in
-part (b).
+For part (a), use the range equation. Maximum range occurs at 45°. For part (b), calculate the maximum height using the vertical component of initial velocity. For part (c), use geometry to find the Earth's curvature over the horizontal distance.
+
+**Solution**
+
+**(a) Initial velocity for maximum range:**
+
+Maximum range occurs at $$ \theta = 45° $$, where $$ \sin(2 \times 45°) = \sin(90°) = 1 $$.
+
+The range equation becomes:
+<div class="equation">
+$$ R_{max} = \frac{v_0^2}{g} $$
+</div>
+
+Solving for $$ v_0 $$:
+<div class="equation">
+$$ v_0 = \sqrt{Rg} = \sqrt{(32.0 \times 10^3 \m)(9.80 \mss)} = \sqrt{313600 \mmss} = 560 \ms $$
+</div>
+
+**(b) Maximum height:**
+
+At 45°, the vertical component of initial velocity is:
+<div class="equation">
+$$ v_{0y} = v_0 \sin(45°) = 560 \ms \times \frac{1}{\sqrt{2}} = 560 \ms \times 0.707 = 396 \ms $$
+</div>
+
+The maximum height is:
+<div class="equation">
+$$ h = \frac{v_{0y}^2}{2g} = \frac{(396 \ms)^2}{2(9.80 \mss)} = \frac{156816 \mmss}{19.6 \mss} = 8.00 \times 10^3 \m = 8.00 \text{ km} $$
+</div>
+
+**(c) Earth's curvature effect:**
+
+For a sphere, the vertical drop from a horizontal line over distance $$ d $$ can be approximated using the Pythagorean theorem. If $$ R_E $$ is Earth's radius and $$ d $$ is the horizontal distance, the drop $$ h $$ is:
+
+<div class="equation">
+$$ (R_E + h)^2 = R_E^2 + d^2 $$
+</div>
+
+For small $$ h $$ compared to $$ R_E $$, this simplifies to:
+<div class="equation">
+$$ h \approx \frac{d^2}{2R_E} $$
+</div>
+
+Substituting values:
+<div class="equation">
+$$ h = \frac{(32.0 \times 10^3 \m)^2}{2(6.37 \times 10^6 \m)} = \frac{1.024 \times 10^9 \m^2}{1.274 \times 10^7 \m} = 80.4 \m $$
+</div>
+
+Rounding to three significant figures: **h = 80.0 m**
+
+Comparing to the maximum height of 8000 m:
+<div class="equation">
+$$ \frac{80.0 \m}{8000 \m} = 0.01 = 1\% $$
+</div>
+
+**Discussion**
+
+The shell reaches an impressive height of 8 km, which is above 60% of Earth's atmosphere (the troposphere extends to about 11 km). At this altitude, air resistance would actually be significantly less than at sea level, making our simplified calculation somewhat more reasonable than it might first appear.
+
+The Earth's curvature causes an 80 m drop over the 32 km range. This is only 1% of the maximum height, so the flat Earth approximation introduces minimal error for this problem. However, for intercontinental ballistic missiles traveling thousands of kilometers, Earth's curvature would be crucial.
+
+**Answer**
+
+(a) The initial velocity of the shell is **560 m/s** (about 1.6 times the speed of sound).
+
+(b) The maximum height reached is **8.00 × 10³ m** or **8.00 km**.
+
+(c) The Earth's surface drops **80.0 m** over the 32 km distance. This is only 1% of the maximum height, so the flat Earth assumption does not introduce significant error for this problem.
 
 </div>
 </div>
@@ -1255,7 +1320,103 @@ An arrow is shot from a height of 1.5 m toward a cliff of height $$ H $$. It is 
 above the horizontal. It lands on the top edge of the cliff 4.0 s later.
 (a) What is the height of the cliff?
 (b) What is the maximum height reached by the arrow along its trajectory?
-(c) What is the arrow’s impact speed just before hitting the cliff?
+(c) What is the arrow's impact speed just before hitting the cliff?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), use the vertical motion equation to find the final height. For part (b), calculate the maximum height using the vertical component of initial velocity. For part (c), find the velocity components at impact time and combine them.
+
+**Solution**
+
+Given: $$ y_0 = 1.5 \m $$, $$ v_0 = 30 \ms $$, $$ \theta = 60° $$, $$ t = 4.0 \s $$
+
+First, find the initial velocity components:
+<div class="equation">
+$$ v_{0x} = v_0 \cos(60°) = 30 \ms \times 0.500 = 15 \ms $$
+</div>
+
+<div class="equation">
+$$ v_{0y} = v_0 \sin(60°) = 30 \ms \times 0.866 = 26.0 \ms $$
+</div>
+
+**(a) Height of the cliff:**
+
+Using the vertical position equation:
+<div class="equation">
+$$ y = y_0 + v_{0y}t - \frac{1}{2}gt^2 $$
+</div>
+
+<div class="equation">
+$$ y = 1.5 \m + (26.0 \ms)(4.0 \s) - \frac{1}{2}(9.80 \mss)(4.0 \s)^2 $$
+</div>
+
+<div class="equation">
+$$ y = 1.5 + 104.0 - \frac{1}{2}(9.80)(16.0) $$
+</div>
+
+<div class="equation">
+$$ y = 1.5 + 104.0 - 78.4 = 27.1 \m $$
+</div>
+
+The cliff height is **H = 27.1 m**.
+
+**(b) Maximum height reached:**
+
+The maximum height occurs when $$ v_y = 0 $$. Using:
+<div class="equation">
+$$ v_y^2 = v_{0y}^2 - 2g(y_{max} - y_0) $$
+</div>
+
+Setting $$ v_y = 0 $$:
+<div class="equation">
+$$ 0 = (26.0 \ms)^2 - 2(9.80 \mss)(y_{max} - 1.5 \m) $$
+</div>
+
+<div class="equation">
+$$ 2(9.80)(y_{max} - 1.5) = 676 $$
+</div>
+
+<div class="equation">
+$$ y_{max} - 1.5 = \frac{676}{19.6} = 34.5 $$
+</div>
+
+<div class="equation">
+$$ y_{max} = 34.5 + 1.5 = 36.0 \m $$
+</div>
+
+**(c) Impact speed:**
+
+At impact (t = 4.0 s), the horizontal velocity remains constant:
+<div class="equation">
+$$ v_x = v_{0x} = 15 \ms $$
+</div>
+
+The vertical velocity at impact:
+<div class="equation">
+$$ v_y = v_{0y} - gt = 26.0 \ms - (9.80 \mss)(4.0 \s) = 26.0 - 39.2 = -13.2 \ms $$
+</div>
+
+The speed (magnitude of velocity):
+<div class="equation">
+$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(15)^2 + (-13.2)^2} = \sqrt{225 + 174} = \sqrt{399} = 20.0 \ms $$
+</div>
+
+**Discussion**
+
+The arrow reaches a maximum height of 36.0 m, which is 8.9 m higher than the cliff top (27.1 m). This means the arrow is falling when it hits the cliff, which explains why the vertical velocity component is negative (-13.2 m/s).
+
+The impact speed of 20.0 m/s is less than the initial speed of 30 m/s, which makes sense because the arrow is still moving upward relative to its launch point (the cliff at 27.1 m is higher than the launch height of 1.5 m by 25.6 m).
+
+**Answer**
+
+(a) The height of the cliff is **27.1 m**.
+
+(b) The maximum height reached by the arrow is **36.0 m** above the ground.
+
+(c) The arrow's impact speed is **20.0 m/s**.
 
 </div>
 </div>
@@ -1268,7 +1429,59 @@ achieved by swinging the arms in the direction of the jump.)
 
 </div>
 <div class="solution" markdown="1">
-1.50 m, assuming launch angle of $$ 45^\circ $$
+
+**Strategy**
+
+First, find the launch velocity using kinematics during the acceleration phase. Then use the range equation to find the horizontal distance. Assume the optimal launch angle of 45° for maximum range.
+
+**Solution**
+
+**Assumptions:**
+1. Launch angle is 45° (optimal for maximum range)
+2. Launch and landing heights are equal
+3. Air resistance is negligible
+
+**Step 1: Find the launch velocity**
+
+During the leg extension, the jumper accelerates over a distance of 0.600 m with acceleration $$ a = 1.25g $$.
+
+Using the kinematic equation:
+<div class="equation">
+$$ v_0^2 = v_i^2 + 2ad $$
+</div>
+
+Starting from rest ($$ v_i = 0 $$):
+<div class="equation">
+$$ v_0^2 = 0 + 2(1.25g)(0.600 \m) = 2(1.25)(9.80 \mss)(0.600 \m) $$
+</div>
+
+<div class="equation">
+$$ v_0^2 = 2 \times 12.25 \mss \times 0.600 \m = 14.7 \mmss $$
+</div>
+
+<div class="equation">
+$$ v_0 = \sqrt{14.7} = 3.83 \ms $$
+</div>
+
+**Step 2: Calculate the range**
+
+For a 45° launch angle, $$ \sin(2 \times 45°) = \sin(90°) = 1 $$, so:
+<div class="equation">
+$$ R = \frac{v_0^2}{g} = \frac{14.7 \mmss}{9.80 \mss} = 1.50 \m $$
+</div>
+
+**Discussion**
+
+The calculated range of 1.50 m is reasonable for a standing broad jump without arm swing. Elite athletes can achieve standing broad jumps of over 3 meters, but they use techniques like:
+- Vigorous arm swing (adding momentum)
+- Greater leg power (higher acceleration)
+- Optimized body positioning
+
+The 45° launch angle assumption is reasonable for maximum horizontal distance. In practice, jumpers might use a slightly lower angle (around 40°) because they're launching from a crouch position rather than from standing height, and they want to maximize forward velocity.
+
+**Answer**
+
+The jumper can achieve a range of **1.50 m**, assuming a launch angle of 45° and the given conditions.
 
 </div>
 </div>
