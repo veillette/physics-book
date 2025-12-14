@@ -333,9 +333,64 @@ $$ \overline{v} = \frac{\Delta x}{t} = \frac{0 \m}{t} = 0 \text{ m/s} $$
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A helicopter blade spins at exactly 100 revolutions per minute. Its tip is 5.00 m from the center of rotation.
-(a) Calculate the average speed of the blade tip in the helicopter’s frame of reference.
+(a) Calculate the average speed of the blade tip in the helicopter's frame of reference.
 (b) What is its average velocity over one revolution?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+To find average speed, we need to calculate the total distance traveled by the blade tip and divide by the time taken. For one revolution, the blade tip traces out a circle. Average velocity requires finding displacement, which is zero for a complete revolution.
+
+**Solution**
+
+Given:
+- Rotation rate: 100 rev/min
+- Radius: $$ r = 5.00 \m $$
+
+**(a) Average speed:**
+
+First, convert the rotation rate to revolutions per second:
+<div class="equation">
+$$ \text{rotation rate} = 100 \frac{\text{rev}}{\text{min}} \times \frac{1 \text{min}}{60 \s} = \frac{5}{3} \frac{\text{rev}}{\s} $$
+</div>
+
+The distance traveled in one revolution is the circumference of the circle:
+<div class="equation">
+$$ d = 2\pi r = 2\pi(5.00 \m) = 31.4 \m $$
+</div>
+
+The time for one revolution:
+<div class="equation">
+$$ t = \frac{1}{5/3 \text{ rev/s}} = \frac{3}{5} \s = 0.600 \s $$
+</div>
+
+Average speed:
+<div class="equation">
+$$ v = \frac{d}{t} = \frac{31.4 \m}{0.600 \s} = 52.4 \ms $$
+</div>
+
+**(b) Average velocity over one revolution:**
+
+After one complete revolution, the blade tip returns to its starting position. Therefore, the displacement is zero:
+<div class="equation">
+$$ \Delta x = 0 \m $$
+</div>
+
+Average velocity:
+<div class="equation">
+$$ \overline{v} = \frac{\Delta x}{t} = \frac{0 \m}{0.600 \s} = 0 \ms $$
+</div>
+
+**Discussion**
+
+This problem illustrates the important distinction between speed and velocity. The blade tip is moving at a considerable speed (52.4 m/s), but because it returns to its starting point after each revolution, its average velocity is zero. This makes physical sense: velocity is a vector quantity that depends on displacement, while speed is a scalar that depends only on distance traveled. Circular motion always results in zero average velocity over complete cycles.
+
+**Answer**
+
+(a) The average speed of the blade tip is 52.4 m/s.
+
+(b) The average velocity over one revolution is 0 m/s.
 </div>
 </div>
 
@@ -354,6 +409,35 @@ The North American and European continents are moving apart at a rate of about 3
 <div class="problem" markdown="1">
 Land west of the San Andreas fault in southern California is moving at an average velocity of about 6 cm/y northwest relative to land east of the fault. Los Angeles is west of the fault and may thus someday be at the same latitude as San Francisco, which is east of the fault. How far in the future will this occur if the displacement to be made is 590 km northwest, assuming the motion remains constant?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We need to find the time required for a given displacement at constant velocity. Use the relationship $$ t = \frac{\Delta x}{v} $$, being careful to convert units consistently.
+
+**Solution**
+
+Given:
+- Average velocity: $$ v = 6 \text{ cm/y} $$
+- Displacement: $$ \Delta x = 590 \text{ km northwest} $$
+
+First, convert the displacement to centimeters:
+<div class="equation">
+$$ \Delta x = 590 \text{ km} \times \frac{1000 \m}{1 \text{ km}} \times \frac{100 \text{ cm}}{1 \m} = 5.90 \times 10^{7} \text{ cm} $$
+</div>
+
+Now calculate the time:
+<div class="equation">
+$$ t = \frac{\Delta x}{v} = \frac{5.90 \times 10^{7} \text{ cm}}{6 \text{ cm/y}} = 9.83 \times 10^{6} \text{ y} $$
+</div>
+
+**Discussion**
+
+This result means it will take approximately 9.8 million years for Los Angeles to reach the same latitude as San Francisco, assuming constant motion. This is a reasonable timescale for geological processes. The calculation assumes the velocity remains constant, which is a simplification – actual tectonic motion can vary over such long periods. This problem illustrates how we can apply kinematics principles to very slow geological processes using the same equations we use for everyday motion.
+
+**Answer**
+
+Los Angeles will be at the same latitude as San Francisco in approximately $$ 9.8 \times 10^{6} $$ years (9.8 million years).
 </div>
 </div>
 
@@ -377,7 +461,36 @@ speed in km/h and m/s?
 Tidal friction is slowing the rotation of the Earth. As a result, the
 orbit of the Moon is increasing in radius at a rate of approximately 4 cm/year.
 Assuming this to be a constant rate, how many years will pass before the radius
-of the Moon’s orbit increases by $$ 3.84 \times 10^{6} \m $$ (1%)?
+of the Moon's orbit increases by $$ 3.84 \times 10^{6} \m $$ (1%)?
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We need to find the time required for the Moon's orbital radius to increase by a given amount at a constant rate. Use $$ t = \frac{\Delta r}{v} $$ where $$ v $$ is the rate of change and $$ \Delta r $$ is the change in radius.
+
+**Solution**
+
+Given:
+- Rate of orbital radius increase: $$ v = 4 \text{ cm/year} $$
+- Change in radius: $$ \Delta r = 3.84 \times 10^{6} \m $$
+
+First, convert the change in radius to centimeters:
+<div class="equation">
+$$ \Delta r = 3.84 \times 10^{6} \m \times \frac{100 \text{ cm}}{1 \m} = 3.84 \times 10^{8} \text{ cm} $$
+</div>
+
+Now calculate the time:
+<div class="equation">
+$$ t = \frac{\Delta r}{v} = \frac{3.84 \times 10^{8} \text{ cm}}{4 \text{ cm/year}} = 9.6 \times 10^{7} \text{ years} $$
+</div>
+
+**Discussion**
+
+This result of 96 million years is a very long time on human scales but not unreasonable for astronomical processes. The 1% increase in the Moon's orbital radius represents a significant change – the current Earth-Moon distance is approximately 384,000 km, so a 1% increase is 3,840 km. This gradual recession of the Moon is a real phenomenon caused by tidal interactions between Earth and the Moon. The energy for this comes from Earth's rotation, which is gradually slowing down as the Moon moves farther away, conserving angular momentum in the Earth-Moon system.
+
+**Answer**
+
+It will take $$ 9.6 \times 10^{7} $$ years (96 million years) for the Moon's orbital radius to increase by 1%.
 </div>
 </div>
 
@@ -406,6 +519,32 @@ The speed of propagation of the action potential (an electrical signal) in a ner
 cell depends (inversely) on the diameter of the axon (nerve fiber). If the nerve
 cell connecting the spinal cord to your feet is 1.1 m long, and the nerve impulse
 speed is 18 m/s, how long does it take for the nerve signal to travel this distance?
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Use the relationship between distance, speed, and time: $$ t = \frac{d}{v} $$.
+
+**Solution**
+
+Given:
+- Distance: $$ d = 1.1 \m $$
+- Speed of nerve impulse: $$ v = 18 \ms $$
+
+Calculate the time:
+<div class="equation">
+$$ t = \frac{d}{v} = \frac{1.1 \m}{18 \ms} = 0.061 \s = 61 \text{ ms} $$
+</div>
+
+**Discussion**
+
+The result of 61 milliseconds (0.061 seconds) is the time it takes for a nerve signal to travel from your spinal cord to your feet. This seems quite fast, but it's actually relatively slow compared to electrical signals in wires, which travel near the speed of light. This delay is why your reaction time to step on something sharp isn't instantaneous – the signal must travel up to your brain and then back down to your muscles.
+
+For comparison, if the signal were traveling at the speed of light ($$ 3 \times 10^8 \ms $$), it would take only about 3.7 nanoseconds to cover this distance – over 16 million times faster! The relatively slow speed of nerve impulses is due to the biological mechanism of signal propagation, which involves ion channels opening and closing sequentially along the axon rather than simple electron flow.
+
+**Answer**
+
+It takes 0.061 s (or 61 ms) for the nerve signal to travel from the spinal cord to the feet.
 </div>
 </div>
 
