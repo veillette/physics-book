@@ -778,6 +778,115 @@ She starts with a velocity of 4.00 m/s, and her takeoff point is 1.80 m above th
 (c) What is her velocity when her feet hit the water?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Take upward as positive. The swimmer launches upward from the diving board with initial velocity $$ v_0 = 4.00 \ms $$, reaches a maximum height, then falls through the air until her feet hit the water 1.80 m below the starting point. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
+
+**Solution**
+
+**(a) Time in the air:**
+
+1. Identify the known values:
+   - Initial velocity: $$ v_0 = +4.00 \ms $$ (upward)
+   - Initial position: $$ y_0 = 0 $$ (at the board)
+   - Final position: $$ y = -1.80 \m $$ (at water level, below the board)
+   - Acceleration: $$ a = -g = -9.80 \mss $$
+
+2. Use the kinematic equation for displacement:
+<div class="equation">
+$$ y = y_0 + v_0 t + \frac{1}{2}at^2 $$
+</div>
+
+3. Substitute the known values:
+<div class="equation">
+$$ -1.80 = 0 + (4.00)t + \frac{1}{2}(-9.80)t^2 $$
+</div>
+
+<div class="equation">
+$$ -1.80 = 4.00t - 4.90t^2 $$
+</div>
+
+Rearranging into standard quadratic form:
+<div class="equation">
+$$ 4.90t^2 - 4.00t - 1.80 = 0 $$
+</div>
+
+4. Apply the quadratic formula $$ t = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$:
+<div class="equation">
+$$ t = \frac{4.00 \pm \sqrt{(-4.00)^2 + 4(4.90)(1.80)}}{2(4.90)} = \frac{4.00 \pm \sqrt{16.0 + 35.28}}{9.80} $$
+</div>
+
+<div class="equation">
+$$ t = \frac{4.00 \pm \sqrt{51.28}}{9.80} = \frac{4.00 \pm 7.16}{9.80} $$
+</div>
+
+Taking the positive root:
+<div class="equation">
+$$ t = \frac{4.00 + 7.16}{9.80} = \frac{11.16}{9.80} = 1.14 \s $$
+</div>
+
+**(b) Highest point above the board:**
+
+1. At maximum height, velocity equals zero: $$ v = 0 $$
+
+2. Use the kinematic equation:
+<div class="equation">
+$$ v^2 = v_0^2 + 2a(y - y_0) $$
+</div>
+
+3. Solve for the height $$ y $$:
+<div class="equation">
+$$ 0 = (4.00)^2 + 2(-9.80)(y - 0) $$
+</div>
+
+<div class="equation">
+$$ 0 = 16.0 - 19.6y $$
+</div>
+
+<div class="equation">
+$$ y = \frac{16.0}{19.6} = 0.816 \m $$
+</div>
+
+**(c) Velocity when feet hit the water:**
+
+Use the kinematic equation relating velocity, displacement, and acceleration:
+<div class="equation">
+$$ v^2 = v_0^2 + 2a(y - y_0) $$
+</div>
+
+Substitute known values:
+<div class="equation">
+$$ v^2 = (4.00)^2 + 2(-9.80)(-1.80 - 0) $$
+</div>
+
+<div class="equation">
+$$ v^2 = 16.0 + 2(-9.80)(-1.80) = 16.0 + 35.28 = 51.28 \mmss $$
+</div>
+
+<div class="equation">
+$$ v = \pm \sqrt{51.28} = \pm 7.16 \ms $$
+</div>
+
+Taking the negative root (downward motion):
+<div class="equation">
+$$ v = -7.16 \ms $$
+</div>
+
+**Discussion**
+
+The swimmer is in the air for about 1.1 seconds, which is reasonable for a dive. She rises 0.816 m (about 82 cm) above the board before falling. Her final velocity of 7.16 m/s downward is greater in magnitude than her initial upward velocity because she falls through a greater distance (1.80 m) than she rises (0.82 m). The symmetry of projectile motion would give her a velocity of -4.00 m/s when passing the board on the way down; the additional 1.80 m of fall increases her speed further.
+
+**Answer**
+
+(a) The swimmer's feet are in the air for $$ 1.14 \s $$.
+
+(b) The highest point above the board is $$ 0.816 \m $$ (or about 81.6 cm).
+
+(c) Her velocity when her feet hit the water is $$ 7.16 \ms $$ downward.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -874,6 +983,75 @@ velocity of 11.0 m/s. How long does he have to get out of the way if the shot wa
 and he is 1.80 m tall?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Take upward as positive. The shot is released at height 2.20 m with initial upward velocity of 11.0 m/s. The shot putter is 1.80 m tall, so his head is at 1.80 m. We need to find when the shot returns to this height on its way back down. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
+
+**Solution**
+
+1. Identify the known values:
+   - Initial position: $$ y_0 = 2.20 \m $$ (release height)
+   - Initial velocity: $$ v_0 = +11.0 \ms $$ (upward)
+   - Final position: $$ y = 1.80 \m $$ (height of his head)
+   - Acceleration: $$ a = -g = -9.80 \mss $$
+
+2. Use the kinematic equation for displacement:
+<div class="equation">
+$$ y = y_0 + v_0 t + \frac{1}{2}at^2 $$
+</div>
+
+3. Substitute the known values:
+<div class="equation">
+$$ 1.80 = 2.20 + (11.0)t + \frac{1}{2}(-9.80)t^2 $$
+</div>
+
+<div class="equation">
+$$ 1.80 = 2.20 + 11.0t - 4.90t^2 $$
+</div>
+
+Rearranging:
+<div class="equation">
+$$ 1.80 - 2.20 = 11.0t - 4.90t^2 $$
+</div>
+
+<div class="equation">
+$$ -0.40 = 11.0t - 4.90t^2 $$
+</div>
+
+Rearranging into standard quadratic form:
+<div class="equation">
+$$ 4.90t^2 - 11.0t - 0.40 = 0 $$
+</div>
+
+4. Apply the quadratic formula $$ t = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$:
+<div class="equation">
+$$ t = \frac{11.0 \pm \sqrt{(-11.0)^2 + 4(4.90)(0.40)}}{2(4.90)} = \frac{11.0 \pm \sqrt{121 + 7.84}}{9.80} $$
+</div>
+
+<div class="equation">
+$$ t = \frac{11.0 \pm \sqrt{128.84}}{9.80} = \frac{11.0 \pm 11.35}{9.80} $$
+</div>
+
+This gives two solutions:
+<div class="equation">
+$$ t_1 = \frac{11.0 - 11.35}{9.80} = \frac{-0.35}{9.80} = -0.036 \s $$ (not physical)
+</div>
+
+<div class="equation">
+$$ t_2 = \frac{11.0 + 11.35}{9.80} = \frac{22.35}{9.80} = 2.28 \s $$
+</div>
+
+**Discussion**
+
+The negative time solution represents when the shot would have been at head height before being released (if we extended the trajectory backward in time), which is not physically relevant. The positive solution of 2.28 s is the time when the shot passes his head height on the way back down. This gives him just over 2 seconds to move out of the way after releasing the shot - not much time! The shot goes up, reaches a maximum height above his release point, then comes back down and passes head level at 2.28 s.
+
+**Answer**
+
+The shot putter has $$ 2.28 \s $$ (about 2.3 seconds) to get out of the way before the shot comes back down to head level.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -892,6 +1070,82 @@ You throw a ball straight up with an initial velocity of 15.0 m/s. It passes a t
 A kangaroo can jump over an object 2.50 m high.
 (a) Calculate its vertical speed when it leaves the ground.
 (b) How long is it in the air?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Take upward as positive. The kangaroo leaves the ground with some initial velocity, reaches a maximum height of 2.50 m where its velocity becomes zero, then returns to the ground. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
+
+**Solution**
+
+**(a) Vertical speed when leaving the ground:**
+
+1. Identify the known values:
+   - Initial position: $$ y_0 = 0 $$ (ground level)
+   - Maximum height: $$ y = 2.50 \m $$
+   - Velocity at maximum height: $$ v = 0 \ms $$
+   - Acceleration: $$ a = -g = -9.80 \mss $$
+
+2. Use the kinematic equation relating velocity, displacement, and acceleration:
+<div class="equation">
+$$ v^2 = v_0^2 + 2a(y - y_0) $$
+</div>
+
+3. Solve for initial velocity $$ v_0 $$:
+<div class="equation">
+$$ 0 = v_0^2 + 2(-9.80)(2.50 - 0) $$
+</div>
+
+<div class="equation">
+$$ 0 = v_0^2 - 2(9.80)(2.50) $$
+</div>
+
+<div class="equation">
+$$ v_0^2 = 2(9.80)(2.50) = 49.0 \mmss $$
+</div>
+
+<div class="equation">
+$$ v_0 = \sqrt{49.0} = 7.00 \ms $$
+</div>
+
+**(b) Time in the air:**
+
+Method 1: Use the velocity equation to find time to reach maximum height, then double it.
+
+1. Use the kinematic equation:
+<div class="equation">
+$$ v = v_0 + at $$
+</div>
+
+2. At maximum height, $$ v = 0 $$:
+<div class="equation">
+$$ 0 = 7.00 + (-9.80)t $$
+</div>
+
+<div class="equation">
+$$ 9.80t = 7.00 $$
+</div>
+
+<div class="equation">
+$$ t = \frac{7.00}{9.80} = 0.714 \s $$
+</div>
+
+3. This is the time to reach maximum height. By symmetry, the total time in the air is:
+<div class="equation">
+$$ t_{total} = 2 \times 0.714 = 1.43 \s $$
+</div>
+
+**Discussion**
+
+A takeoff speed of 7.00 m/s (about 25 km/h) is quite impressive for an animal jump. The kangaroo can clear a 2.50 m obstacle, which is taller than most humans. The total air time of 1.43 seconds is reasonable - the kangaroo spends about 0.71 seconds going up and 0.71 seconds coming down. This symmetric motion is characteristic of free-fall under constant gravitational acceleration.
+
+**Answer**
+
+(a) The kangaroo leaves the ground with a vertical speed of $$ 7.00 \ms $$.
+
+(b) The kangaroo is in the air for $$ 1.43 \s $$ (about 1.4 seconds).
 
 </div>
 </div>
@@ -918,6 +1172,105 @@ An object is dropped from a height of 75.0 m above ground level.
 (a) Determine the distance traveled during the first second.
 (b) Determine the final velocity at which the object hits the ground.
 (c) Determine the distance traveled during the last second of motion before hitting the ground.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Take downward as positive since the object is dropped and falls downward. The initial velocity is zero (dropped, not thrown). Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
+
+**Solution**
+
+**(a) Distance traveled during the first second:**
+
+1. Identify the known values:
+   - Initial position: $$ y_0 = 0 $$
+   - Initial velocity: $$ v_0 = 0 $$ (dropped from rest)
+   - Time: $$ t = 1.00 \s $$
+   - Acceleration: $$ a = g = 9.80 \mss $$ (downward, positive)
+
+2. Use the kinematic equation for displacement:
+<div class="equation">
+$$ y = y_0 + v_0 t + \frac{1}{2}gt^2 $$
+</div>
+
+3. Substitute the known values:
+<div class="equation">
+$$ y = 0 + 0 + \frac{1}{2}(9.80)(1.00)^2 $$
+</div>
+
+<div class="equation">
+$$ y = \frac{1}{2}(9.80)(1.00) = 4.90 \m $$
+</div>
+
+**(b) Final velocity when hitting the ground:**
+
+1. Identify the known values:
+   - Initial velocity: $$ v_0 = 0 $$
+   - Total displacement: $$ y = 75.0 \m $$
+   - Acceleration: $$ a = g = 9.80 \mss $$
+
+2. Use the kinematic equation:
+<div class="equation">
+$$ v^2 = v_0^2 + 2ay $$
+</div>
+
+3. Substitute the known values:
+<div class="equation">
+$$ v^2 = 0 + 2(9.80)(75.0) $$
+</div>
+
+<div class="equation">
+$$ v^2 = 1470 \mmss $$
+</div>
+
+<div class="equation">
+$$ v = \sqrt{1470} = 38.3 \ms $$
+</div>
+
+**(c) Distance traveled during the last second:**
+
+First, find the total time to fall 75.0 m:
+
+1. Use the kinematic equation:
+<div class="equation">
+$$ y = y_0 + v_0 t + \frac{1}{2}gt^2 $$
+</div>
+
+<div class="equation">
+$$ 75.0 = 0 + 0 + \frac{1}{2}(9.80)t^2 $$
+</div>
+
+<div class="equation">
+$$ t^2 = \frac{2(75.0)}{9.80} = 15.31 \s^2 $$
+</div>
+
+<div class="equation">
+$$ t = 3.91 \s $$
+</div>
+
+2. Now find the distance fallen at $$ t = 2.91 \s $$ (one second before hitting the ground):
+<div class="equation">
+$$ y_{2.91} = \frac{1}{2}(9.80)(2.91)^2 = \frac{1}{2}(9.80)(8.468) = 41.5 \m $$
+</div>
+
+3. The distance traveled during the last second is:
+<div class="equation">
+$$ \Delta y = 75.0 - 41.5 = 33.5 \m $$
+</div>
+
+**Discussion**
+
+The object falls only 4.90 m in the first second but travels 33.5 m in the last second - nearly 7 times as far! This illustrates how falling objects accelerate continuously. The final velocity of 38.3 m/s (about 138 km/h or 86 mph) is quite fast, which explains why falling from such heights is dangerous. The asymmetry between the first and last seconds demonstrates that the object is continuously gaining speed as it falls.
+
+**Answer**
+
+(a) The object travels $$ 4.90 \m $$ during the first second.
+
+(b) The final velocity when hitting the ground is $$ 38.3 \ms $$ (downward).
+
+(c) The object travels $$ 33.5 \m $$ during the last second of motion before hitting the ground.
 
 </div>
 </div>
