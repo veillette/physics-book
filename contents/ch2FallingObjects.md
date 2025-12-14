@@ -1292,7 +1292,93 @@ There is a 250-m-high cliff at Half Dome in Yosemite National Park in California
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A ball is thrown straight up. It passes a 2.00-m-high window 7.50 m off the ground on its path up and takes 0.312 s to go past the window. What was the ball’s initial velocity? Hint: First consider only the distance along the window, and solve for the ball's velocity at the bottom of the window. Next, consider only the distance from the ground to the bottom of the window, and solve for the initial velocity using the velocity at the bottom of the window as the final velocity.
+A ball is thrown straight up. It passes a 2.00-m-high window 7.50 m off the ground on its path up and takes 0.312 s to go past the window. What was the ball's initial velocity? Hint: First consider only the distance along the window, and solve for the ball's velocity at the bottom of the window. Next, consider only the distance from the ground to the bottom of the window, and solve for the initial velocity using the velocity at the bottom of the window as the final velocity.
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Take upward as positive. We'll solve this in two steps as suggested by the hint:
+1. First, analyze the motion through the window to find the velocity at the bottom of the window
+2. Then, analyze the motion from ground to the bottom of the window to find the initial velocity
+
+**Solution**
+
+**Step 1: Find velocity at the bottom of the window**
+
+The window is 2.00 m high and the ball takes 0.312 s to pass through it.
+
+1. Identify the known values for motion through the window:
+   - Displacement through window: $$ \Delta y = 2.00 \m $$
+   - Time through window: $$ t = 0.312 \s $$
+   - Acceleration: $$ a = -g = -9.80 \mss $$
+
+2. Use the kinematic equation:
+<div class="equation">
+$$ \Delta y = v_{bottom} t + \frac{1}{2}at^2 $$
+</div>
+
+3. Substitute and solve for $$ v_{bottom} $$:
+<div class="equation">
+$$ 2.00 = v_{bottom}(0.312) + \frac{1}{2}(-9.80)(0.312)^2 $$
+</div>
+
+<div class="equation">
+$$ 2.00 = v_{bottom}(0.312) - 4.90(0.0973) $$
+</div>
+
+<div class="equation">
+$$ 2.00 = v_{bottom}(0.312) - 0.477 $$
+</div>
+
+<div class="equation">
+$$ v_{bottom}(0.312) = 2.00 + 0.477 = 2.477 $$
+</div>
+
+<div class="equation">
+$$ v_{bottom} = \frac{2.477}{0.312} = 7.94 \ms $$
+</div>
+
+**Step 2: Find initial velocity from ground to bottom of window**
+
+The bottom of the window is 7.50 m above the ground.
+
+1. Identify the known values:
+   - Initial position: $$ y_0 = 0 $$
+   - Final position (bottom of window): $$ y = 7.50 \m $$
+   - Final velocity (at bottom of window): $$ v = 7.94 \ms $$
+   - Acceleration: $$ a = -g = -9.80 \mss $$
+
+2. Use the kinematic equation:
+<div class="equation">
+$$ v^2 = v_0^2 + 2a(y - y_0) $$
+</div>
+
+3. Solve for initial velocity $$ v_0 $$:
+<div class="equation">
+$$ (7.94)^2 = v_0^2 + 2(-9.80)(7.50 - 0) $$
+</div>
+
+<div class="equation">
+$$ 63.0 = v_0^2 - 147 $$
+</div>
+
+<div class="equation">
+$$ v_0^2 = 63.0 + 147 = 210 \mmss $$
+</div>
+
+<div class="equation">
+$$ v_0 = \sqrt{210} = 14.5 \ms $$
+</div>
+
+**Discussion**
+
+The ball was thrown with an initial velocity of 14.5 m/s. By the time it reaches the bottom of the window at 7.50 m, it has slowed to 7.94 m/s due to gravity. This is reasonable - the ball is still moving upward but has lost significant speed. The two-step approach allows us to work backwards from the observable motion (passing the window) to find the initial condition.
+
+**Answer**
+
+The ball's initial velocity was $$ 14.5 \ms $$ upward.
+
 </div>
 </div>
 
@@ -1303,9 +1389,107 @@ Suppose you drop a rock into a dark well and, using precision equipment, you mea
 (b) Now calculate the distance taking into account the time for sound to travel up the well. The speed of sound is 332.00 m/s in this well.
 </div>
 <div class="solution" markdown="1">
-(a) $$ 19.6 \m $$
 
-(b) $$ 18.5 \m $$
+**Strategy**
+
+Take downward as positive. For part (a), we neglect the time for sound to travel up and assume all 2.0000 s is the time for the rock to fall. For part (b), we must account for the fact that the total time includes both the fall time and the sound travel time. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity and a sound speed of 332.00 m/s.
+
+**Solution**
+
+**(a) Neglecting sound travel time:**
+
+1. Identify the known values:
+   - Initial position: $$ y_0 = 0 $$
+   - Initial velocity: $$ v_0 = 0 $$ (dropped from rest)
+   - Acceleration: $$ a = g = 9.80 \mss $$ (taking down as positive)
+   - Time: $$ t = 2.0000 \s $$
+
+2. Use the kinematic equation:
+<div class="equation">
+$$ y = y_0 + v_0 t + \frac{1}{2}at^2 $$
+</div>
+
+3. Substitute the known values:
+<div class="equation">
+$$ y = 0 + 0 + \frac{1}{2}(9.80)(2.0000)^2 $$
+</div>
+
+<div class="equation">
+$$ y = \frac{1}{2}(9.80)(4.0000) = 19.6 \m $$
+</div>
+
+**(b) Accounting for sound travel time:**
+
+The total time is the sum of the fall time $$ t_{\text{fall}} $$ and the sound travel time $$ t_{\text{sound}} $$:
+<div class="equation">
+$$ t_{\text{total}} = t_{\text{fall}} + t_{\text{sound}} = 2.0000 \s $$
+</div>
+
+1. For the falling rock (distance $$ d $$):
+<div class="equation">
+$$ d = \frac{1}{2}gt_{\text{fall}}^2 $$
+</div>
+
+2. For the sound traveling up:
+<div class="equation">
+$$ d = v_{\text{sound}} \times t_{\text{sound}} $$
+</div>
+
+<div class="equation">
+$$ t_{\text{sound}} = \frac{d}{v_{\text{sound}}} = \frac{d}{332.00} $$
+</div>
+
+3. Substitute into the total time equation:
+<div class="equation">
+$$ t_{\text{fall}} + \frac{d}{332.00} = 2.0000 $$
+</div>
+
+4. But $$ d = \frac{1}{2}gt_{\text{fall}}^2 = 4.90 t_{\text{fall}}^2 $$, so:
+<div class="equation">
+$$ t_{\text{fall}} + \frac{4.90 t_{\text{fall}}^2}{332.00} = 2.0000 $$
+</div>
+
+<div class="equation">
+$$ t_{\text{fall}} + 0.01476 t_{\text{fall}}^2 = 2.0000 $$
+</div>
+
+<div class="equation">
+$$ 0.01476 t_{\text{fall}}^2 + t_{\text{fall}} - 2.0000 = 0 $$
+</div>
+
+5. Using the quadratic formula:
+<div class="equation">
+$$ t_{\text{fall}} = \frac{-1 \pm \sqrt{1 + 4(0.01476)(2.0000)}}{2(0.01476)} $$
+</div>
+
+<div class="equation">
+$$ t_{\text{fall}} = \frac{-1 \pm \sqrt{1 + 0.11808}}{0.02952} = \frac{-1 \pm \sqrt{1.11808}}{0.02952} $$
+</div>
+
+<div class="equation">
+$$ t_{\text{fall}} = \frac{-1 \pm 1.0574}{0.02952} $$
+</div>
+
+Taking the positive root:
+<div class="equation">
+$$ t_{\text{fall}} = \frac{0.0574}{0.02952} = 1.944 \s $$
+</div>
+
+6. Calculate the distance:
+<div class="equation">
+$$ d = 4.90 \times (1.944)^2 = 4.90 \times 3.779 = 18.5 \m $$
+</div>
+
+**Discussion**
+
+When we account for the time it takes sound to travel up the well, the calculated depth is less than when we ignore it. This makes sense: if the total time is 2.0000 s and some of that time is used for sound to travel up, less time is available for the rock to fall, so it doesn't fall as far. The sound travel time is $$ t_{\text{sound}} = 2.0000 - 1.944 = 0.056 \s $$, which is about 2.8% of the total time. The difference in calculated depth is about 1.1 m, or about 6% - relatively small but not negligible for precision measurements. This problem illustrates that for accurate measurements, we must consider all relevant physical processes, not just the primary one.
+
+**Answer**
+
+(a) Neglecting the time for sound to travel up the well, the distance to the water is 19.6 m.
+
+(b) Accounting for the time sound takes to travel up the well, the distance to the water is 18.5 m.
+
 </div>
 </div>
 
@@ -1319,6 +1503,143 @@ A steel ball is dropped onto a hard floor from a height of 1.50 m and rebounds t
 assuming the floor is absolutely rigid?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Take upward as positive. The ball falls from rest, hits the floor, and rebounds. We'll analyze the motion in stages: before impact, during collision, and after rebound. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
+
+**Solution**
+
+**(a) Velocity just before striking the floor:**
+
+1. Identify the known values for the downward fall:
+   - Initial position: $$ y_0 = 1.50 \m $$
+   - Final position: $$ y = 0 $$ (floor level)
+   - Initial velocity: $$ v_0 = 0 $$ (dropped from rest)
+   - Acceleration: $$ a = -g = -9.80 \mss $$
+
+2. Use the kinematic equation:
+<div class="equation">
+$$ v^2 = v_0^2 + 2a(y - y_0) $$
+</div>
+
+3. Substitute the known values:
+<div class="equation">
+$$ v^2 = 0 + 2(-9.80)(0 - 1.50) $$
+</div>
+
+<div class="equation">
+$$ v^2 = 2(-9.80)(-1.50) = 29.4 \mmss $$
+</div>
+
+<div class="equation">
+$$ v = \pm \sqrt{29.4} = \pm 5.42 \ms $$
+</div>
+
+Taking the negative root (downward motion):
+<div class="equation">
+$$ v = -5.42 \ms $$
+</div>
+
+**(b) Velocity just after leaving the floor:**
+
+1. Identify the known values for the upward rebound:
+   - Initial position: $$ y_0 = 0 $$ (floor level)
+   - Final position: $$ y = 1.45 \m $$ (maximum rebound height)
+   - Final velocity at max height: $$ v = 0 $$
+   - Acceleration: $$ a = -g = -9.80 \mss $$
+
+2. Use the kinematic equation:
+<div class="equation">
+$$ v^2 = v_0^2 + 2a(y - y_0) $$
+</div>
+
+3. Solve for initial velocity after rebound $$ v_0 $$:
+<div class="equation">
+$$ 0 = v_0^2 + 2(-9.80)(1.45 - 0) $$
+</div>
+
+<div class="equation">
+$$ v_0^2 = 2(9.80)(1.45) = 28.42 \mmss $$
+</div>
+
+<div class="equation">
+$$ v_0 = \sqrt{28.42} = +5.33 \ms $$
+</div>
+
+**(c) Acceleration during contact with the floor:**
+
+During the collision, the ball's velocity changes from -5.42 m/s to +5.33 m/s.
+
+1. Identify the known values:
+   - Initial velocity: $$ v_0 = -5.42 \ms $$
+   - Final velocity: $$ v = +5.33 \ms $$
+   - Time of contact: $$ t = 8.00 \times 10^{-5} \s $$
+
+2. Use the kinematic equation:
+<div class="equation">
+$$ v = v_0 + at $$
+</div>
+
+3. Solve for acceleration:
+<div class="equation">
+$$ a = \frac{v - v_0}{t} = \frac{5.33 - (-5.42)}{8.00 \times 10^{-5}} $$
+</div>
+
+<div class="equation">
+$$ a = \frac{10.75}{8.00 \times 10^{-5}} = 1.34 \times 10^{5} \mss $$
+</div>
+
+**(d) Distance the ball compressed during collision:**
+
+1. Use the kinematic equation with average velocity:
+<div class="equation">
+$$ y = y_0 + \frac{v_0 + v}{2}t $$
+</div>
+
+2. Substitute the known values:
+<div class="equation">
+$$ \Delta y = \frac{-5.42 + 5.33}{2} \times (8.00 \times 10^{-5}) $$
+</div>
+
+<div class="equation">
+$$ \Delta y = \frac{-0.09}{2} \times (8.00 \times 10^{-5}) = -3.6 \times 10^{-6} \m $$
+</div>
+
+The magnitude of compression is:
+<div class="equation">
+$$ |\Delta y| = 3.6 \times 10^{-6} \m = 3.6 \text{ μm} $$
+</div>
+
+Alternatively, using $$ y = y_0 + v_0 t + \frac{1}{2}at^2 $$:
+<div class="equation">
+$$ \Delta y = (-5.42)(8.00 \times 10^{-5}) + \frac{1}{2}(1.34 \times 10^{5})(8.00 \times 10^{-5})^2 $$
+</div>
+
+<div class="equation">
+$$ \Delta y = -4.34 \times 10^{-4} + 4.30 \times 10^{-4} = -4.0 \times 10^{-6} \m $$
+</div>
+
+<div class="equation">
+$$ |\Delta y| \approx 4.0 \times 10^{-6} \m = 4.0 \text{ μm} $$
+</div>
+
+**Discussion**
+
+The ball hits the floor at 5.42 m/s and rebounds at 5.33 m/s - nearly the same speed, indicating an almost elastic collision. The acceleration during contact is enormous - about 13,700 times the acceleration due to gravity (about 13,700 g's)! Despite this huge acceleration, the ball compresses only about 4 micrometers because the contact time is so brief (0.08 milliseconds). These values are reasonable for a hard steel ball on a hard floor. The small loss in rebound height (from 1.50 m to 1.45 m) represents energy lost to heat and sound during the collision.
+
+**Answer**
+
+(a) The velocity just before striking the floor is $$ 5.42 \ms $$ downward.
+
+(b) The velocity just after leaving the floor is $$ 5.33 \ms $$ upward.
+
+(c) The acceleration during contact with the floor is $$ 1.34 \times 10^{5} \mss $$ (upward, or about 13,700 g's).
+
+(d) The ball compressed approximately $$ 4.0 \times 10^{-6} \m $$ or $$ 4.0 \text{ μm} $$ during its collision with the floor.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1329,11 +1650,130 @@ A coin is dropped from a hot-air balloon that is 300 m above the ground and risi
 (c) the time before it hits the ground.
 </div>
 <div class="solution" markdown="1">
-(a) 305 m
 
-(b) 262 m, -29.2 m/s
+**Strategy**
 
-(c) 8.91 s
+Take upward as positive. The coin is released from a balloon that is already moving upward at 10.0 m/s, so the coin inherits this initial velocity. After release, the coin decelerates, reaches a maximum height, then falls back down. We'll analyze the motion in stages using $$ g = 9.80 \mss $$.
+
+**Solution**
+
+**(a) Maximum height reached:**
+
+1. Identify the known values:
+   - Initial position: $$ y_0 = 300 \m $$ (above ground)
+   - Initial velocity: $$ v_0 = +10.0 \ms $$ (upward, same as balloon)
+   - Acceleration: $$ a = -g = -9.80 \mss $$
+   - Final velocity at max height: $$ v = 0 $$
+
+2. Use the kinematic equation:
+<div class="equation">
+$$ v^2 = v_0^2 + 2a(y - y_0) $$
+</div>
+
+3. Solve for the maximum height $$ y $$:
+<div class="equation">
+$$ 0 = (10.0)^2 + 2(-9.80)(y - 300) $$
+</div>
+
+<div class="equation">
+$$ 0 = 100 - 19.6(y - 300) $$
+</div>
+
+<div class="equation">
+$$ 19.6(y - 300) = 100 $$
+</div>
+
+<div class="equation">
+$$ y - 300 = \frac{100}{19.6} = 5.10 \m $$
+</div>
+
+<div class="equation">
+$$ y = 305 \m $$
+</div>
+
+**(b) Position and velocity at t = 4.00 s:**
+
+1. Position after 4.00 s:
+<div class="equation">
+$$ y = y_0 + v_0 t + \frac{1}{2}at^2 $$
+</div>
+
+<div class="equation">
+$$ y = 300 + (10.0)(4.00) + \frac{1}{2}(-9.80)(4.00)^2 $$
+</div>
+
+<div class="equation">
+$$ y = 300 + 40.0 + \frac{1}{2}(-9.80)(16.0) $$
+</div>
+
+<div class="equation">
+$$ y = 300 + 40.0 - 78.4 = 262 \m $$
+</div>
+
+2. Velocity after 4.00 s:
+<div class="equation">
+$$ v = v_0 + at $$
+</div>
+
+<div class="equation">
+$$ v = 10.0 + (-9.80)(4.00) $$
+</div>
+
+<div class="equation">
+$$ v = 10.0 - 39.2 = -29.2 \ms $$
+</div>
+
+The negative sign indicates the coin is moving downward.
+
+**(c) Time before hitting the ground:**
+
+1. When the coin hits the ground, $$ y = 0 $$. Use:
+<div class="equation">
+$$ y = y_0 + v_0 t + \frac{1}{2}at^2 $$
+</div>
+
+<div class="equation">
+$$ 0 = 300 + 10.0t + \frac{1}{2}(-9.80)t^2 $$
+</div>
+
+<div class="equation">
+$$ 0 = 300 + 10.0t - 4.90t^2 $$
+</div>
+
+<div class="equation">
+$$ 4.90t^2 - 10.0t - 300 = 0 $$
+</div>
+
+2. Using the quadratic formula:
+<div class="equation">
+$$ t = \frac{10.0 \pm \sqrt{(10.0)^2 + 4(4.90)(300)}}{2(4.90)} $$
+</div>
+
+<div class="equation">
+$$ t = \frac{10.0 \pm \sqrt{100 + 5880}}{9.80} = \frac{10.0 \pm \sqrt{5980}}{9.80} $$
+</div>
+
+<div class="equation">
+$$ t = \frac{10.0 \pm 77.33}{9.80} $$
+</div>
+
+Taking the positive root:
+<div class="equation">
+$$ t = \frac{10.0 + 77.33}{9.80} = \frac{87.33}{9.80} = 8.91 \s $$
+</div>
+
+**Discussion**
+
+This problem demonstrates motion with an initial upward velocity. The coin doesn't immediately fall - it first continues upward for $$ \frac{v_0}{g} = \frac{10.0}{9.80} = 1.02 \s $$, rising an additional 5.10 m to reach 305 m. At $$ t = 4.00 \s $$, the coin has passed through its maximum height and is falling downward at 29.2 m/s. The total time to hit the ground (8.91 s) is longer than it would be if dropped from rest at 300 m (which would take $$ \sqrt{\frac{2(300)}{9.80}} = 7.82 \s $$) because the initial upward velocity adds extra time. The coin actually falls from a maximum height of 305 m, not 300 m.
+
+**Answer**
+
+(a) The maximum height reached by the coin is 305 m above the ground.
+
+(b) At $$ t = 4.00 \s $$ after release, the coin is at a position of 262 m above the ground and has a velocity of $$ 29.2 \ms $$ downward.
+
+(c) The coin hits the ground 8.91 s after being released from the balloon.
+
 </div>
 </div>
 
@@ -1345,6 +1785,147 @@ A soft tennis ball is dropped onto a hard floor from a height of 1.50 m and rebo
 (c) Calculate its acceleration during contact with the floor if that contact lasts 3.50 ms $$ \left(3.50\times 10^{-3}\s \right) $$.
 (d) How much did the ball compress during its collision with the floor,
 assuming the floor is absolutely rigid?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Take upward as positive. The tennis ball falls from rest, hits the floor, compresses, and rebounds. We'll analyze the motion in stages: before impact, during collision, and after rebound. Note that the longer contact time and lower rebound height indicate a less elastic collision compared to the steel ball. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
+
+**Solution**
+
+**(a) Velocity just before striking the floor:**
+
+1. Identify the known values for the downward fall:
+   - Initial position: $$ y_0 = 1.50 \m $$
+   - Final position: $$ y = 0 $$ (floor level)
+   - Initial velocity: $$ v_0 = 0 $$ (dropped from rest)
+   - Acceleration: $$ a = -g = -9.80 \mss $$
+
+2. Use the kinematic equation:
+<div class="equation">
+$$ v^2 = v_0^2 + 2a(y - y_0) $$
+</div>
+
+3. Substitute the known values:
+<div class="equation">
+$$ v^2 = 0 + 2(-9.80)(0 - 1.50) $$
+</div>
+
+<div class="equation">
+$$ v^2 = 2(-9.80)(-1.50) = 29.4 \mmss $$
+</div>
+
+<div class="equation">
+$$ v = \pm \sqrt{29.4} = \pm 5.42 \ms $$
+</div>
+
+Taking the negative root (downward motion):
+<div class="equation">
+$$ v = -5.42 \ms $$
+</div>
+
+**(b) Velocity just after leaving the floor:**
+
+1. Identify the known values for the upward rebound:
+   - Initial position: $$ y_0 = 0 $$ (floor level)
+   - Final position: $$ y = 1.10 \m $$ (maximum rebound height)
+   - Final velocity at max height: $$ v = 0 $$
+   - Acceleration: $$ a = -g = -9.80 \mss $$
+
+2. Use the kinematic equation:
+<div class="equation">
+$$ v^2 = v_0^2 + 2a(y - y_0) $$
+</div>
+
+3. Solve for initial velocity after rebound $$ v_0 $$:
+<div class="equation">
+$$ 0 = v_0^2 + 2(-9.80)(1.10 - 0) $$
+</div>
+
+<div class="equation">
+$$ v_0^2 = 2(9.80)(1.10) = 21.56 \mmss $$
+</div>
+
+<div class="equation">
+$$ v_0 = \sqrt{21.56} = +4.64 \ms $$
+</div>
+
+**(c) Acceleration during contact with the floor:**
+
+During the collision, the ball's velocity changes from -5.42 m/s to +4.64 m/s.
+
+1. Identify the known values:
+   - Initial velocity: $$ v_0 = -5.42 \ms $$
+   - Final velocity: $$ v = +4.64 \ms $$
+   - Time of contact: $$ t = 3.50 \times 10^{-3} \s $$
+
+2. Use the kinematic equation:
+<div class="equation">
+$$ v = v_0 + at $$
+</div>
+
+3. Solve for acceleration:
+<div class="equation">
+$$ a = \frac{v - v_0}{t} = \frac{4.64 - (-5.42)}{3.50 \times 10^{-3}} $$
+</div>
+
+<div class="equation">
+$$ a = \frac{10.06}{3.50 \times 10^{-3}} = 2.87 \times 10^{3} \mss $$
+</div>
+
+**(d) Distance the ball compressed during collision:**
+
+1. Use the kinematic equation:
+<div class="equation">
+$$ y = y_0 + v_0 t + \frac{1}{2}at^2 $$
+</div>
+
+2. Substitute the known values:
+<div class="equation">
+$$ \Delta y = (-5.42)(3.50 \times 10^{-3}) + \frac{1}{2}(2.87 \times 10^{3})(3.50 \times 10^{-3})^2 $$
+</div>
+
+<div class="equation">
+$$ \Delta y = -1.90 \times 10^{-2} + \frac{1}{2}(2.87 \times 10^{3})(1.225 \times 10^{-5}) $$
+</div>
+
+<div class="equation">
+$$ \Delta y = -1.90 \times 10^{-2} + 1.76 \times 10^{-2} = -1.4 \times 10^{-3} \m $$
+</div>
+
+The magnitude of compression is:
+<div class="equation">
+$$ |\Delta y| = 1.4 \times 10^{-3} \m = 1.4 \text{ mm} $$
+</div>
+
+Alternatively, using average velocity:
+<div class="equation">
+$$ \Delta y = \frac{v_0 + v}{2}t = \frac{-5.42 + 4.64}{2} \times (3.50 \times 10^{-3}) $$
+</div>
+
+<div class="equation">
+$$ \Delta y = \frac{-0.78}{2} \times (3.50 \times 10^{-3}) = -1.37 \times 10^{-3} \m $$
+</div>
+
+<div class="equation">
+$$ |\Delta y| \approx 1.4 \times 10^{-3} \m = 1.4 \text{ mm} $$
+</div>
+
+**Discussion**
+
+The soft tennis ball shows markedly different behavior from the steel ball. It hits the floor at the same speed (5.42 m/s) since both are dropped from 1.50 m, but rebounds at only 4.64 m/s compared to the steel ball's 5.33 m/s. This represents greater energy loss during the collision. The contact time is much longer (3.50 ms vs. 0.08 ms), resulting in a much smaller acceleration (about 293 g's vs. 13,700 g's for the steel ball). The soft tennis ball compresses about 1.4 mm, which is over 300 times more than the steel ball (4 micrometers). This greater compression and longer contact time are characteristic of softer materials and less elastic collisions. The significant loss in rebound height (from 1.50 m to 1.10 m, a 27% loss) shows that much more energy was dissipated as heat, sound, and permanent deformation compared to the steel ball.
+
+**Answer**
+
+(a) The velocity just before striking the floor is $$ 5.42 \ms $$ downward.
+
+(b) The velocity just after leaving the floor is $$ 4.64 \ms $$ upward.
+
+(c) The acceleration during contact with the floor is $$ 2.87 \times 10^{3} \mss $$ (upward, or about 293 g's).
+
+(d) The ball compressed approximately $$ 1.4 \times 10^{-3} \m $$ or $$ 1.4 \text{ mm} $$ during its collision with the floor.
 
 </div>
 </div>
