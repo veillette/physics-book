@@ -359,6 +359,54 @@ total mass of 40.0 kg? Explicitly show how you follow the steps in
 the [Problem-Solving Strategies for Energy](../contents/ch7ConservationOfEnergy.md#problemSolving).
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Following the Problem-Solving Strategies for Energy:
+
+**Step 1:** The system consists of the child, pogo stick, and Earth. We are given the spring constant $$ k = 2.50 \times 10^{4}\text{N/m} $$, compression $$ x = 12.0\text{ cm} = 0.120\m $$, and total mass $$ m = 40.0\kg $$. We need to find the maximum height $$ h $$.
+
+**Step 2:** The forces are the spring force (conservative) and gravity (conservative), so we can use conservation of mechanical energy.
+
+**Step 3:** Since all forces are conservative:
+$$ \KE_{\text{i}} + \PE_{\text{i}} = \KE_{\text{f}} + \PE_{\text{f}} $$
+
+**Step 4:** Not needed here since all forces are conservative.
+
+**Step 5:** Simplify by noting that at both initial and final points, the child is momentarily at rest, so $$ \KE_{\text{i}} = \KE_{\text{f}} = 0 $$. Choose $$ h = 0 $$ at the initial compressed position, so $$ \PE_{\text{g,i}} = 0 $$ and $$ \PE_{\text{g,f}} = mgh $$. The spring potential energy is $$ \PE_{\text{s,i}} = \frac{1}{2}kx^{2} $$ initially and $$ \PE_{\text{s,f}} = 0 $$ at maximum height.
+
+**Solution**
+
+The conservation of energy equation becomes:
+
+<div class="equation">
+ $$ \frac{1}{2}kx^{2} + 0 = 0 + mgh $$
+</div>
+
+Solving for $$ h $$:
+
+<div class="equation">
+ $$ h = \frac{kx^{2}}{2mg} $$
+</div>
+
+Substituting known values:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+h &=& \frac{(2.50 \times 10^{4}\text{N/m})(0.120\m)^{2}}{2(40.0\kg)(9.80\mss)}\\
+h &=& \frac{(2.50 \times 10^{4})(0.0144)}{784}\m\\
+h &=& \frac{360}{784}\m = 0.459\m
+\end{array} $$
+</div>
+
+**Step 6:** Check reasonableness: A height of about 46 cm (roughly 1.5 feet) seems reasonable for a pogo stick jump using only the spring's stored energy.
+
+**Discussion**
+
+The child can jump to a maximum height of approximately 0.46 m (46 cm) above the compressed position using only the energy stored in the spring.
+
+</div>
 </div>
 
 <div class="glossary" markdown="1">
