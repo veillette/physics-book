@@ -212,6 +212,65 @@ resistance when he reaches a level area, how long will it take him to reach a
 velocity of 10.0 m/s?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), at constant speed, the skier must exert force to overcome both the component of gravity down the slope and air resistance. Power is $$ P = Fv $$.
+
+**Solution for (a)**
+
+Force components:
+- Gravity down slope: $$ F_g = mg\sin{\theta} = (75.0\kg)(9.80\mss)\sin{3.0^\circ} = 38.5\N $$
+- Air resistance: $$ F_{\text{air}} = 25.0\N $$
+
+Total force needed:
+
+<div class="equation">
+ $$ F = F_g + F_{\text{air}} = 38.5\N + 25.0\N = 63.5\N $$
+</div>
+
+Power output:
+
+<div class="equation">
+ $$ P = Fv = (63.5\N)(2.00\ms) = 127\text{ W} $$
+</div>
+
+**Solution for (b)**
+
+The force exerted backward on the snow equals the total force needed (from Newton's third law):
+
+<div class="equation">
+ $$ F = 63.5\N \approx 64\N $$
+</div>
+
+**Solution for (c)**
+
+On level ground, the net force is:
+
+<div class="equation">
+ $$ F_{\text{net}} = F - F_{\text{air}} = 63.5\N - 25.0\N = 38.5\N $$
+</div>
+
+Using $$ F = ma $$:
+
+<div class="equation">
+ $$ a = \frac{F_{\text{net}}}{m} = \frac{38.5\N}{75.0\kg} = 0.513\mss $$
+</div>
+
+Time to reach 10.0 m/s from 2.00 m/s:
+
+<div class="equation">
+ $$ t = \frac{\Delta v}{a} = \frac{10.0\ms - 2.00\ms}{0.513\mss} = 15.6\s $$
+</div>
+
+**Discussion**
+
+(a) The power output is 127 W.
+(b) The force exerted backward on the snow is approximately 64 N.
+(c) It will take approximately 15.6 seconds to accelerate to 10.0 m/s on level ground.
+
+</div>
 </div>
 
 
@@ -259,7 +318,78 @@ How much force is needed to compress the spring?
 (b) To what maximum height can the ball be shot?
 (c) At what angles above the horizontal may a child aim to hit a target 3.00 m
 away at the same height as the gun?
-(d) What is the gun’s maximum range on level ground?
+(d) What is the gun's maximum range on level ground?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The spring's potential energy converts to kinetic energy, which then converts to potential and/or projectile kinetic energy.
+
+**Solution for (a)**
+
+Maximum force (at full compression):
+
+<div class="equation">
+ $$ F = kx = (300\text{ N/m})(0.0700\m) = 21.0\N $$
+</div>
+
+**Solution for (b)**
+
+Spring potential energy:
+
+<div class="equation">
+ $$ \PE_{\text{spring}} = \frac{1}{2}kx^{2} = \frac{1}{2}(300\text{ N/m})(0.0700\m)^{2} = 0.735\J $$
+</div>
+
+At maximum height, all energy is gravitational PE:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+mgh &=& \PE_{\text{spring}}\\
+h &=& \frac{0.735\J}{(0.0100\kg)(9.80\mss)} = 7.50\m
+\end{array} $$
+</div>
+
+**Solution for (c)**
+
+Initial velocity from spring energy:
+
+<div class="equation">
+ $$ v_0 = \sqrt{\frac{2\PE_{\text{spring}}}{m}} = \sqrt{\frac{2(0.735\J)}{0.0100\kg}} = 12.1\ms $$
+</div>
+
+For projectile motion with same initial and final height:
+
+<div class="equation">
+ $$ R = \frac{v_0^{2}\sin{2\theta}}{g} $$
+</div>
+
+Solving for angle when $$ R = 3.00\m $$:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+\sin{2\theta} &=& \frac{Rg}{v_0^{2}} = \frac{(3.00\m)(9.80\mss)}{(12.1\ms)^{2}} = 0.201\\
+2\theta &=& 11.6^\circ \text{ or } 168.4^\circ\\
+\theta &=& 5.8^\circ \text{ or } 84.2^\circ
+\end{array} $$
+</div>
+
+**Solution for (d)**
+
+Maximum range occurs at $$ \theta = 45^\circ $$:
+
+<div class="equation">
+ $$ R_{\max} = \frac{v_0^{2}}{g} = \frac{(12.1\ms)^{2}}{9.80\mss} = 14.9\m $$
+</div>
+
+**Discussion**
+
+(a) The force needed to compress the spring fully is 21.0 N.
+(b) The maximum height the ball can reach is 7.50 m.
+(c) The child can aim at 5.8° or 84.2° to hit a target 3.00 m away.
+(d) The maximum range on level ground is approximately 14.9 m.
 
 </div>
 </div>

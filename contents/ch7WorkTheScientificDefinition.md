@@ -218,6 +218,34 @@ he pushes 0.600 m horizontally with a force of 5.00 N? Express your answer in jo
 A 75.0-kg person climbs stairs, gaining 2.50 meters in height. Find the work done to accomplish this task.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+To lift the person at constant speed, the applied force must equal the person's weight. The work done against gravity is the product of this force and the vertical displacement. We use $$ W = Fd\cos{\theta} $$, where the force and displacement are in the same direction ($$\theta = 0^\circ$$), so the work done is $$ W = mgh $$.
+
+**Solution**
+
+The work done to lift the person is:
+
+<div class="equation">
+ $$ W = mgh $$
+</div>
+
+Substituting known values:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+W &=& (75.0\kg)(9.80\mss)(2.50\m)\\
+W &=& 1838\J \approx 1.84\times 10^{3}\J
+\end{array} $$
+</div>
+
+**Discussion**
+
+The work done to climb stairs is 1840 J, which represents the gravitational potential energy gained by the person.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -247,6 +275,75 @@ moving at constant speed despite friction. (See  [Table 1 of Conservation Of Ene
 (b) If the required force is directly proportional to speed, how many gallons will be used to drive 108 km at a speed of 28.0 m/s?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), we need to find the work done by the force keeping the car moving at constant speed, which equals the useful energy from the gasoline. From Table 1 in Conservation of Energy, 1 gallon of gasoline contains $$ 1.2 \times 10^{8}\J $$. Only 30% of this is useful work. We can then use $$ W = Fd $$ to find the force.
+
+For part (b), if force is proportional to speed, then $$ F \propto v $$. We can use the ratio of speeds to find the new force, and then calculate the gasoline consumption.
+
+**Solution for (a)**
+
+The total energy available from 2.0 gallons of gasoline is:
+
+<div class="equation">
+ $$ E_{\text{total}} = (2.0\text{ gal})(1.2 \times 10^{8}\J/\text{gal}) = 2.4 \times 10^{8}\J $$
+</div>
+
+The useful work done is 30% of this:
+
+<div class="equation">
+ $$ W = 0.30 \times 2.4 \times 10^{8}\J = 7.2 \times 10^{7}\J $$
+</div>
+
+The distance traveled is $$ d = 108\text{ km} = 1.08 \times 10^{5}\m $$. Using $$ W = Fd $$:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+F &=& \frac{W}{d} = \frac{7.2 \times 10^{7}\J}{1.08 \times 10^{5}\m}\\
+F &=& 667\N \approx 6.7 \times 10^{2}\N
+\end{array} $$
+</div>
+
+**Solution for (b)**
+
+If $$ F \propto v $$, then:
+
+<div class="equation">
+ $$ \frac{F_{2}}{F_{1}} = \frac{v_{2}}{v_{1}} = \frac{28.0\ms}{30.0\ms} = 0.933 $$
+</div>
+
+The new force is:
+
+<div class="equation">
+ $$ F_{2} = 0.933 \times 667\N = 622\N $$
+</div>
+
+The work done at this new force is:
+
+<div class="equation">
+ $$ W_{2} = F_{2}d = (622\N)(1.08 \times 10^{5}\m) = 6.72 \times 10^{7}\J $$
+</div>
+
+The total energy needed (accounting for only 30% efficiency) is:
+
+<div class="equation">
+ $$ E_{\text{needed}} = \frac{6.72 \times 10^{7}\J}{0.30} = 2.24 \times 10^{8}\J $$
+</div>
+
+The number of gallons required is:
+
+<div class="equation">
+ $$ \text{gallons} = \frac{2.24 \times 10^{8}\J}{1.2 \times 10^{8}\J/\text{gal}} = 1.87\text{ gal} \approx 1.9\text{ gal} $$
+</div>
+
+**Discussion**
+
+(a) The force needed to keep the car moving at constant speed against friction is 670 N.
+(b) At the lower speed of 28.0 m/s, approximately 1.9 gallons of gasoline would be used to travel the same distance.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -274,6 +371,30 @@ in [Figure 3](#Figure3)? Assume no friction acts on the wagon.
 
 ![A child is sitting inside a wagon and being pulled by a boy with a force F at an angle thirty degrees upward from the horizontal. F is equal to fifty newtons, the displacement vector d is horizontal in the direction of motion. The magnitude of d is thirty meters.](../resources/Figure_07_01_03.jpg "The boy does work on the system of the wagon and the child when he pulls them as shown. ")
 {: #Figure3}
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The work done is given by $$ W = Fd\cos{\theta} $$, where $$ F = 50.0\N $$ is the magnitude of the pulling force, $$ d = 30.0\m $$ is the displacement, and $$ \theta = 30.0^\circ $$ is the angle between the force and the horizontal displacement.
+
+**Solution**
+
+Substituting the known values into the work equation:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+W &=& Fd\cos{\theta}\\
+W &=& (50.0\N)(30.0\m)\cos{30.0^\circ}\\
+W &=& (50.0\N)(30.0\m)(0.866)\\
+W &=& 1299\J \approx 1.30 \times 10^{3}\J
+\end{array} $$
+</div>
+
+**Discussion**
+
+The boy does 1300 J of work pulling his sister in the wagon over a distance of 30.0 m.
 
 </div>
 </div>
@@ -316,6 +437,79 @@ coefficient of friction between the sled and the snow is 0.100.
 
 ![A person on a rescue sled is shown being pulled up a slope. The slope makes an angle of sixty degrees from the horizontal. The weight of the person is shown by vector w acting vertically downward. The tension in the rope depicted by vector T is along the incline in the upward direction; vector f depicting frictional force is also acting in the same direction.](../resources/Figure_07_01_04.jpg "A rescue sled and victim are lowered down a steep slope. ")
 {: #Figure4}
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+First, we need to find the forces acting on the sled. The normal force is $$ N = mg\cos{\theta} $$. The friction force is $$ f = \mu_{k}N = \mu_{k}mg\cos{\theta} $$. Since the sled moves down the slope at constant speed, the net force is zero. The component of weight down the slope is $$ mg\sin{\theta} $$. We can use $$ W = Fd\cos{\alpha} $$ for each force, where $$\alpha$$ is the angle between the force and displacement.
+
+**Solution for (a)**
+
+The friction force opposes motion (acts up the slope), and the sled moves down the slope, so the angle between friction and displacement is $$180^\circ$$:
+
+<div class="equation">
+ $$ f = \mu_{k}mg\cos{\theta} = (0.100)(90.0\kg)(9.80\mss)\cos{60.0^\circ} = 44.1\N $$
+</div>
+
+The work done by friction is:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+W_{f} &=& fd\cos{180^\circ} = -fd\\
+W_{f} &=& -(44.1\N)(30.0\m) = -1323\J \approx -1.32 \times 10^{3}\J
+\end{array} $$
+</div>
+
+**Solution for (b)**
+
+At constant speed, the net force along the slope is zero. The tension in the rope acts up the slope:
+
+<div class="equation">
+ $$ T + f = mg\sin{\theta} $$
+</div>
+
+<div class="equation">
+ $$ T = mg\sin{\theta} - f = (90.0\kg)(9.80\mss)\sin{60.0^\circ} - 44.1\N = 765\N - 44.1\N = 721\N $$
+</div>
+
+The tension acts up the slope and the displacement is down the slope ($$\theta = 180^\circ$$):
+
+<div class="equation">
+ $$ W_{T} = Td\cos{180^\circ} = -(721\N)(30.0\m) = -2.16 \times 10^{4}\J $$
+</div>
+
+**Solution for (c)**
+
+The gravitational force is $$ W = mg = 882\N $$ acting vertically downward. The displacement along the slope makes an angle with the vertical. It's easier to use the component of weight along the slope: $$ mg\sin{\theta} $$, which acts in the direction of motion:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+W_{g} &=& (mg\sin{\theta})d\\
+W_{g} &=& (90.0\kg)(9.80\mss)(\sin{60.0^\circ})(30.0\m)\\
+W_{g} &=& (765\N)(30.0\m) = 2.30 \times 10^{4}\J
+\end{array} $$
+</div>
+
+**Solution for (d)**
+
+The total work is the sum of all work done:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+W_{\text{total}} &=& W_{f} + W_{T} + W_{g}\\
+W_{\text{total}} &=& -1.32 \times 10^{3}\J - 2.16 \times 10^{4}\J + 2.30 \times 10^{4}\J\\
+W_{\text{total}} &=& 0\J
+\end{array} $$
+</div>
+
+**Discussion**
+
+(a) Friction does -1320 J of work on the sled.
+(b) The rope does -21,600 J of work on the sled.
+(c) Gravity does +23,000 J of work on the sled.
+(d) The total work done is zero, which is consistent with the fact that the sled moves at constant speed (no change in kinetic energy).
 
 </div>
 </div>
