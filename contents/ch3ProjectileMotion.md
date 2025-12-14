@@ -1492,6 +1492,49 @@ The world long jump record is 8.95 m (Mike Powell, USA, 1991). Treated as a proj
 the maximum range obtainable by a person if he has a take-off speed of 9.5 m/s? State your assumptions.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use the range equation for projectile motion. Maximum range occurs at a 45° launch angle. Compare the calculated maximum to the actual world record.
+
+**Solution**
+
+**Assumptions:**
+1. Launch angle is 45° (for maximum range)
+2. Launch and landing heights are equal
+3. Air resistance is negligible
+4. The athlete is treated as a point mass
+
+Given: $$ v_0 = 9.5 \ms $$
+
+For maximum range at 45°:
+<div class="equation">
+$$ R_{max} = \frac{v_0^2}{g} = \frac{(9.5 \ms)^2}{9.80 \mss} = \frac{90.25 \mmss}{9.80 \mss} = 9.21 \m $$
+</div>
+
+**Discussion**
+
+The calculated maximum range of 9.21 m is remarkably close to the actual world record of 8.95 m, which validates our assumptions. The slight difference (0.26 m or about 3%) can be attributed to several factors:
+
+1. **Launch angle**: Long jumpers typically use angles of 20-25° rather than 45°. This is because:
+   - They want to maximize horizontal velocity
+   - Their center of mass is already elevated during takeoff
+   - They can extend their body forward during flight
+
+2. **Launch vs. landing height**: The athlete's center of mass is higher at takeoff than at landing, which would increase the range beyond the equal-height calculation
+
+3. **Air resistance**: At 9.5 m/s, air resistance would slightly reduce the range
+
+4. **Body extension**: Athletes extend their legs forward during landing, effectively increasing the measured range
+
+The fact that the actual record is slightly less than our calculated maximum suggests that the lower launch angle (which reduces theoretical maximum range) is roughly offset by the higher launch position and body extension techniques.
+
+**Answer**
+
+With a takeoff speed of 9.5 m/s and a 45° launch angle, the maximum theoretical range is **9.21 m**, assuming equal launch and landing heights and negligible air resistance. This is very close to the actual world record of 8.95 m.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1505,9 +1548,118 @@ net?
 
 </div>
 <div class="solution" markdown="1">
- $$ \theta =6.1^\circ $$
 
-yes, the ball lands at 5.3 m from the net
+**Strategy**
+
+Convert the speed to m/s. Find the angle that makes the ball just clear the net at x = 11.9 m. Then find where the ball lands (y = 0) to check if it's within 6.40 m from the net.
+
+**Solution**
+
+**Given:**
+- Initial speed: $$ v_0 = 170 \text{ km/h} = \frac{170 \times 1000}{3600} = 47.2 \ms $$
+- Initial height: $$ y_0 = 2.5 \m $$
+- Net distance: $$ x_{net} = 11.9 \m $$
+- Net height: $$ y_{net} = 0.91 \m $$
+- Service line distance from net: 6.40 m
+
+**Part 1: Find the angle to just clear the net**
+
+The velocity components are (with $$ \theta $$ below horizontal, so $$ v_{0y} $$ is negative):
+<div class="equation">
+$$ v_{0x} = v_0 \cos\theta = 47.2 \cos\theta $$
+</div>
+
+<div class="equation">
+$$ v_{0y} = -v_0 \sin\theta = -47.2 \sin\theta $$
+</div>
+
+Time to reach the net:
+<div class="equation">
+$$ t_{net} = \frac{x_{net}}{v_{0x}} = \frac{11.9}{47.2 \cos\theta} $$
+</div>
+
+Height at the net:
+<div class="equation">
+$$ y_{net} = y_0 + v_{0y}t - \frac{1}{2}gt^2 $$
+</div>
+
+<div class="equation">
+$$ 0.91 = 2.5 - 47.2\sin\theta \left(\frac{11.9}{47.2\cos\theta}\right) - \frac{1}{2}(9.80)\left(\frac{11.9}{47.2\cos\theta}\right)^2 $$
+</div>
+
+<div class="equation">
+$$ 0.91 = 2.5 - 11.9\tan\theta - 4.9\left(\frac{11.9}{47.2\cos\theta}\right)^2 $$
+</div>
+
+For small angles, $$ \cos\theta \approx 1 $$:
+<div class="equation">
+$$ 0.91 = 2.5 - 11.9\tan\theta - 4.9\left(\frac{11.9}{47.2}\right)^2 $$
+</div>
+
+<div class="equation">
+$$ 0.91 = 2.5 - 11.9\tan\theta - 4.9(0.252)^2 = 2.5 - 11.9\tan\theta - 0.31 $$
+</div>
+
+<div class="equation">
+$$ 11.9\tan\theta = 2.5 - 0.91 - 0.31 = 1.28 $$
+</div>
+
+<div class="equation">
+$$ \tan\theta = \frac{1.28}{11.9} = 0.1076 $$
+</div>
+
+<div class="equation">
+$$ \theta = \tan^{-1}(0.1076) = 6.1° $$
+</div>
+
+**Part 2: Where does the ball land?**
+
+Using $$ \theta = 6.1° $$:
+<div class="equation">
+$$ v_{0x} = 47.2\cos(6.1°) = 47.2 \times 0.994 = 46.9 \ms $$
+</div>
+
+<div class="equation">
+$$ v_{0y} = -47.2\sin(6.1°) = -47.2 \times 0.106 = -5.00 \ms $$
+</div>
+
+Find when y = 0:
+<div class="equation">
+$$ 0 = 2.5 - 5.00t - \frac{1}{2}(9.80)t^2 $$
+</div>
+
+<div class="equation">
+$$ 4.90t^2 + 5.00t - 2.5 = 0 $$
+</div>
+
+Using the quadratic formula:
+<div class="equation">
+$$ t = \frac{-5.00 + \sqrt{25.0 + 49.0}}{9.80} = \frac{-5.00 + 8.60}{9.80} = 0.367 \s $$
+</div>
+
+Horizontal distance:
+<div class="equation">
+$$ x = v_{0x}t = 46.9 \times 0.367 = 17.2 \m $$
+</div>
+
+Distance from net:
+<div class="equation">
+$$ x - x_{net} = 17.2 - 11.9 = 5.3 \m $$
+</div>
+
+Since 5.3 m < 6.40 m, the ball lands **inside** the service box.
+
+**Discussion**
+
+The relatively small angle of 6.1° below horizontal is typical for tennis serves. The server wants to hit the ball hard (high speed) while still getting it over the net and into the service box. A steeper angle would make it easier to clear the net but harder to land in the box.
+
+The ball lands 5.3 m from the net, well within the 6.40 m service line, with a margin of 1.1 m. This is a good serve.
+
+**Answer**
+
+The angle below horizontal is **θ = 6.1°**.
+
+Yes, the ball lands in the service box at **5.3 m from the net**, which is within the 6.40 m service line.
 
 </div>
 </div>
