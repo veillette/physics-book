@@ -345,12 +345,62 @@ torque in the body—a few of these are the subject of end-of-chapter problems.
 Why are the forces exerted on the outside world by the limbs of our bodies usually much smaller than the forces exerted by muscles inside the body?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We analyze the lever systems in the body, noting that muscles attach close to joints while external forces are applied far from joints.
+
+**Solution**
+
+The forces exerted on the outside world are smaller than muscle forces because **muscles attach very close to joints**, giving most body lever systems a mechanical advantage much less than 1.
+
+From the lever equation: $$ F_{\text{out}} \cdot l_{\text{out}} = F_{\text{muscle}} \cdot l_{\text{muscle}} $$
+
+Since $$ l_{\text{muscle}} << l_{\text{out}} $$, we have $$ F_{\text{muscle}} >> F_{\text{out}} $$.
+
+For example, in the forearm ([Figure 1](#Figure1)):
+- Biceps attaches 4.0 cm from the elbow
+- Hand is 38 cm from the elbow
+- MA = 4.0/38 = 0.105
+- This means the biceps must exert about 9.5 times the force delivered by the hand
+
+**Discussion**
+
+This arrangement trades force for speed and range of motion. A small muscle contraction produces large, fast movements at the extremities—essential for activities requiring dexterity and quick responses.
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 Explain why the forces in our joints are several times larger than the forces we exert on the outside world with our limbs. Can these forces be even greater than muscle forces?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We apply force equilibrium to analyze joint forces, recognizing that joints must balance both muscle forces and external loads.
+
+**Solution**
+
+Joint forces are large because **joints must counterbalance the large muscle forces** that arise from the MA < 1 lever systems.
+
+From force equilibrium in the forearm example:
+$$ F_{\text{biceps}} = F_{\text{joint}} + W_{\text{load}} $$
+
+Since $$ F_{\text{biceps}} >> W_{\text{load}} $$, the joint force must be:
+$$ F_{\text{joint}} = F_{\text{biceps}} - W_{\text{load}} $$
+
+**Can joint forces exceed muscle forces?** Yes! This happens when the geometry causes muscle forces and external loads to have components in the same direction relative to the joint.
+
+In the back-lifting example ([Figure 4](#Figure4)):
+- Back muscle force: $$ F_B = 4200 \N $$
+- Vertebral force: $$ F_V = 4660 \N $$ (larger!)
+
+This occurs because both the muscle force and load components add when resolved onto the spine's axis.
+
+**Discussion**
+
+This explains the prevalence of joint problems (arthritis, disc damage). The forces are enormous—often 5-10 times body weight in the spine during improper lifting.
 </div>
 </div>
 
@@ -359,12 +409,61 @@ Explain why the forces in our joints are several times larger than the forces we
 Certain types of dinosaurs were bipedal (walked on two legs). What is a good reason that these creatures invariably had long tails if they had long necks?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We apply the principle that for stable balance, the center of gravity must be positioned over the base of support (the feet for a bipedal creature).
+
+**Solution**
+
+Bipedal dinosaurs with long necks needed long tails to **maintain their center of gravity over their feet**.
+
+The physics:
+1. A long neck extending forward moves the creature's center of gravity (cg) forward
+2. Without compensation, the cg would be in front of the feet, causing the dinosaur to tip forward
+3. A long, heavy tail extending backward shifts the cg back toward the feet
+4. The tail acts as a counterbalance, keeping the overall cg positioned above the base of support
+
+Mathematically, for torque balance about the hips:
+$$ m_{\text{neck}} \cdot d_{\text{neck}} \approx m_{\text{tail}} \cdot d_{\text{tail}} $$
+
+where $$ d $$ represents the horizontal distance of each mass from the hip pivot.
+
+**Discussion**
+
+This is the same principle humans use when carrying heavy loads—we lean backward when carrying a backpack or forward when carrying something in front. Bipedal dinosaurs like T. rex, with their massive heads, had correspondingly massive, muscular tails. This counterbalancing also allowed dynamic stability during running and turning.
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 Swimmers and athletes during competition need to go through certain postures at the beginning of the race. Consider the balance of the person and why start-offs are so important for races.
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We analyze the starting posture in terms of equilibrium, center of gravity position, and the ability to generate rapid acceleration.
+
+**Solution**
+
+Athletic starting postures are designed to place the body in a state of **unstable equilibrium** that can be converted to maximum acceleration with minimal delay.
+
+Key physics principles at work:
+
+1. **Center of gravity positioning:** The athlete's cg is positioned at the forward edge of the base of support (often over the toes or starting blocks). This creates unstable equilibrium—the slightest forward movement initiates the start.
+
+2. **Torque generation:** A crouched position with low cg allows the legs to push against the ground at an optimal angle, generating maximum horizontal force while the body "falls" forward.
+
+3. **Pre-tension in muscles:** The starting posture pre-loads muscles, allowing faster force generation through the stretch-shortening cycle.
+
+4. **Minimizing reaction time:** The unstable position means the athlete doesn't need to shift their cg before accelerating—they can immediately begin forward motion.
+
+For swimmers, the dive angle and entry position also minimize water resistance and maximize the distance covered in the streamlined underwater phase.
+
+**Discussion**
+
+A false start penalty exists because an athlete in this optimized unstable position might anticipate the start signal. The physics of the starting posture provides a significant competitive advantage—fractions of a second gained at the start can determine the outcome of a race.
 </div>
 </div>
 
@@ -373,6 +472,33 @@ Swimmers and athletes during competition need to go through certain postures at 
 If the maximum force the biceps muscle can exert is 1000 N, can we pick up an object that weighs 1000 N? Explain your answer.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We apply the mechanical advantage analysis of the forearm system, recognizing that the biceps attaches close to the elbow while the load is held at the hand.
+
+**Solution**
+
+**No**, we cannot pick up a 1000 N object if the biceps can only exert 1000 N.
+
+From [Figure 1](#Figure1), the forearm's mechanical advantage is approximately:
+
+$$ \text{MA} = \frac{l_{\text{biceps}}}{l_{\text{hand}}} = \frac{4.0 \text{ cm}}{38 \text{ cm}} \approx 0.105 $$
+
+This means:
+$$ F_{\text{output}} = \text{MA} \times F_{\text{input}} = 0.105 \times 1000 \N \approx 105 \N $$
+
+A biceps force of 1000 N can only lift about **105 N** (approximately 10.7 kg) at the hand!
+
+To lift 1000 N at the hand, we would need:
+$$ F_{\text{biceps}} = \frac{1000 \N}{0.105} \approx 9500 \N $$
+
+The biceps would need to exert nearly 9500 N—far more than its maximum capacity.
+
+**Discussion**
+
+This illustrates why we can lift heavier objects by holding them close to our body (shorter lever arm for the load) or using two hands (distributing the load between multiple muscle systems). It also explains why athletes who lift very heavy weights use techniques that optimize mechanical advantage.
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -380,12 +506,76 @@ If the maximum force the biceps muscle can exert is 1000 N, can we pick up an ob
 Suppose the biceps muscle was attached through tendons to the upper arm close to the elbow and the forearm near the wrist. What would be the advantages and disadvantages of this type of construction for the motion of the arm?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We compare the mechanical advantage and kinematic properties of the hypothetical wrist attachment versus the actual elbow attachment.
+
+**Solution**
+
+**Advantages of wrist attachment:**
+
+1. **Greater mechanical advantage:** If the biceps attached at the wrist (say, 35 cm from elbow), the MA would be:
+   $$ \text{MA} = \frac{35}{38} \approx 0.92 $$
+
+   This is nearly 9 times better than the actual MA of ~0.105. The muscle would need to exert much less force to lift the same load.
+
+2. **Reduced joint forces:** Lower muscle forces mean lower forces in the elbow joint, reducing wear and tear.
+
+3. **More efficient for lifting:** Less metabolic energy would be required to lift and hold heavy objects.
+
+**Disadvantages of wrist attachment:**
+
+1. **Much slower movement:** When the muscle contracts a small distance $$ \Delta l $$, the hand would move only slightly farther. With the actual attachment, a 1 cm muscle contraction produces about 9.5 cm of hand movement.
+
+2. **Reduced range of motion:** The forearm couldn't bend as far because the muscle would reach its minimum length with less angular rotation.
+
+3. **Loss of fine motor control:** Precise movements would be difficult because small muscle contractions would produce proportionally small hand movements.
+
+4. **Structural problems:** Long tendons running the length of the forearm would be vulnerable to injury and would interfere with wrist and hand function.
+
+**Discussion**
+
+Evolution has optimized our bodies for speed and precision rather than raw strength. We can use tools (levers, pulleys) to amplify force when needed, but no tool can make us move faster or with finer control—these capabilities must be built in.
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 Explain one of the reasons why pregnant women often suffer from back strain late in their pregnancy.
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We analyze how pregnancy shifts the center of gravity and requires postural compensation that loads the back muscles.
+
+**Solution**
+
+Pregnant women suffer from back strain because **the growing fetus shifts the center of gravity forward**, requiring the back muscles to exert large forces to maintain balance.
+
+The physics:
+1. As pregnancy progresses, the uterus and fetus grow, adding mass to the front of the torso
+2. This shifts the body's center of gravity forward
+3. To keep the cg over the feet (necessary for balance), women must lean backward
+4. This creates a clockwise torque about the hips that must be countered by the back muscles
+
+From the posture diagram ([Figure 2](#Figure2)(b)):
+$$ \tau_{\text{forward mass}} = m_{\text{baby+uterus}} \cdot g \cdot d_{\text{forward}} $$
+
+This torque must be balanced by:
+$$ \tau_{\text{back muscles}} = F_{\text{back}} \cdot r_{\text{back}} $$
+
+Since $$ r_{\text{back}} $$ (the perpendicular lever arm for back muscles) is very small, $$ F_{\text{back}} $$ must be very large.
+
+Additional factors:
+- Hormonal changes loosen ligaments, reducing spinal stability
+- The added weight increases the load on all spinal structures
+- The posture change is maintained for months, causing muscle fatigue
+
+**Discussion**
+
+This is an example of the body's postural adjustments described in [Figure 3](#Figure3). Similar to carrying a heavy backpack (which requires leaning forward), pregnancy requires leaning backward. The difference is that the load cannot be set down, leading to chronic strain. Proper exercise, supportive footwear, and good body mechanics can help manage this strain.
 </div>
 </div>
 
@@ -423,6 +613,45 @@ Two muscles in the back of the leg pull on the Achilles tendon as shown in [Figu
 {: #Figure5}
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The two muscles pull on the Achilles tendon at equal angles of 20° from the vertical (from the figure). Each muscle exerts a force of 200 N. We need to find the vector sum of these two forces, which requires adding their components.
+
+**Solution**
+
+From [Figure 5](#Figure5), each muscle exerts 200 N at an angle of 20° from vertical.
+
+For the left muscle (force at -20° from vertical):
+- Vertical component: $$ F_{y,L} = (200 \N)\cos{20°} = (200)(0.940) = 188 \N $$
+- Horizontal component: $$ F_{x,L} = -(200 \N)\sin{20°} = -(200)(0.342) = -68.4 \N $$ (leftward)
+
+For the right muscle (force at +20° from vertical):
+- Vertical component: $$ F_{y,R} = (200 \N)\cos{20°} = 188 \N $$
+- Horizontal component: $$ F_{x,R} = +(200 \N)\sin{20°} = +68.4 \N $$ (rightward)
+
+Adding the components:
+
+<div class="equation">
+$$ F_x = F_{x,L} + F_{x,R} = -68.4 + 68.4 = 0 \N $$
+</div>
+
+<div class="equation">
+$$ F_y = F_{y,L} + F_{y,R} = 188 + 188 = 376 \N $$
+</div>
+
+The horizontal components cancel due to symmetry. The total force is:
+
+<div class="equation">
+$$ F_{\text{total}} = \sqrt{F_x^2 + F_y^2} = \sqrt{0 + (376)^2} = 376 \N $$
+</div>
+
+The total force is **376 N** directed vertically downward (along the tendon).
+
+**Discussion**
+
+The total force (376 N) is less than the simple sum of the two muscle forces (400 N) because the muscles pull at angles. The horizontal components cancel, and only the vertical components add. This is a common arrangement in the body—muscles often pull at angles to provide stability and multiple directions of motion, at the cost of some mechanical efficiency.
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -445,12 +674,60 @@ The upper leg muscle (quadriceps) exerts a force of 1250 N, which is carried by 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A device for exercising the upper leg muscle is shown in [Figure 7](#Figure7), together with a schematic representation of an equivalent lever system.
-Calculate the force exerted by the upper leg muscle to lift the mass at a constant speed. Explicitly show how you follow the steps in the Problem-Solving Strategy for static equilibrium 
+Calculate the force exerted by the upper leg muscle to lift the mass at a constant speed. Explicitly show how you follow the steps in the Problem-Solving Strategy for static equilibrium
 in [Applications of Statics, Including Problem-Solving Strategies](./ch9ApplicationsOfStaticsIncludingProblemSolvingStrategies).
 
 ![A machine for leg exercise is shown. A wire is tied to a cuff around the lower part of a leg. This wire passes over three pulleys and is connected to a ten kg weight. The tension in the wire is shown near the leg in the direction of the wire. On the leg, a point on knee is shown as the pivot. The distance between the pivot and the point where the wire is tied to the leg is thirty five centimeters. A free-body diagram of the leg, represented as a pole, is shown.](../resources/Figure_09_06_07.jpg "A mass is connected by pulleys and wires to the ankle in this exercise device. ")
 {: #Figure7}
 
+</div>
+<div class="solution" markdown="1">
+**Following the Problem-Solving Strategy for Static Equilibrium:**
+
+**Step 1: Identify the system of interest and draw a free-body diagram**
+
+The system is the lower leg. Forces acting on it:
+- $$ F_{\text{quad}} $$ = force exerted by quadriceps muscle (at angle, attached close to knee)
+- $$ T $$ = tension from the weight machine (at the ankle, 35 cm from knee)
+- $$ W_{\text{leg}} $$ = weight of lower leg (at center of mass, approximately 20 cm from knee)
+- $$ F_{\text{joint}} $$ = force from knee joint (at the pivot)
+
+From the figure:
+- The quadriceps attaches 3.0 cm from the knee joint at approximately 30° to the leg
+- The wire attaches at 35 cm from the knee
+- Mass attached: 10 kg, so $$ T = mg = (10 \kg)(9.80 \mss) = 98 \N $$
+
+**Step 2: Apply the second condition for equilibrium (net torque = 0)**
+
+Choose the knee joint as the pivot to eliminate $$ F_{\text{joint}} $$ from the torque equation.
+
+Taking the perpendicular lever arms from the figure:
+- Lever arm for quadriceps force: $$ r_1 = 3.0 \text{ cm} \times \sin{30°} = 1.5 \text{ cm} = 0.015 \m $$
+- Lever arm for tension: $$ r_2 = 35 \text{ cm} = 0.35 \m $$
+
+For equilibrium (assuming leg weight is small compared to other forces):
+
+<div class="equation">
+$$ F_{\text{quad}} \cdot r_1 = T \cdot r_2 $$
+</div>
+
+**Step 3: Solve for the unknown force**
+
+<div class="equation">
+$$ F_{\text{quad}} = T \cdot \frac{r_2}{r_1} = (98 \N) \cdot \frac{0.35 \m}{0.015 \m} $$
+</div>
+
+<div class="equation">
+$$ F_{\text{quad}} = (98 \N)(23.3) = 2290 \N \approx 2.3 \times 10^{3} \N $$
+</div>
+
+**Step 4: Check if the answer is reasonable**
+
+The quadriceps must exert about **2300 N** (about 23 times the 98 N load).
+
+**Discussion**
+
+This large force ratio (23:1) reflects the poor mechanical advantage of the quadriceps muscle system. The muscle attaches very close to the knee (3 cm × sin30° = 1.5 cm effective lever arm), while the load is at the ankle (35 cm lever arm). This is typical of skeletal muscle systems—they trade force for speed and range of motion. This exercise is effective precisely because it requires such large muscle forces, promoting muscle strengthening.
 </div>
 </div>
 
@@ -477,12 +754,61 @@ head in place.")
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-We analyzed the biceps muscle example with the angle between forearm and 
+We analyzed the biceps muscle example with the angle between forearm and
 upper arm set at $$ 90^\circ $$. Using the same numbers as in [Figure 1]
 (#Figure1), find the force
 exerted by the biceps muscle when the angle is $$ 120^\circ $$
 and the forearm is in a downward position.
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+When the arm angle changes from 90° to 120°, the geometry of the system changes. The perpendicular lever arms for all forces change, and the direction of the biceps force relative to the forearm changes. We must recalculate the torques with these new lever arms.
+
+**Solution**
+
+From [Figure 1](#Figure1), at 90°:
+- Biceps attachment: $$ r_1 = 4.00 \text{ cm} $$
+- Forearm cg: $$ r_2 = 16.0 \text{ cm} $$
+- Book position: $$ r_3 = 38.0 \text{ cm} $$
+- $$ w_a = (2.50 \kg)(9.80 \mss) = 24.5 \N $$
+- $$ w_b = (4.00 \kg)(9.80 \mss) = 39.2 \N $$
+
+At 120° between forearm and upper arm (forearm pointing downward at 30° below horizontal):
+
+The weights still act vertically downward. The perpendicular lever arms (horizontal distances) become:
+- For weights: $$ r_{2,\perp} = r_2 \cos{30°} = 0.160 \m \times 0.866 = 0.139 \m $$
+- For weights: $$ r_{3,\perp} = r_3 \cos{30°} = 0.380 \m \times 0.866 = 0.329 \m $$
+
+The biceps force direction changes. When the forearm is at 120° from the upper arm, the biceps tendon makes approximately 30° with the forearm. The perpendicular component of the biceps force is:
+$$ F_{B,\perp} = F_B \sin{30°} = 0.5 F_B $$
+
+And the effective lever arm remains $$ r_1 = 0.040 \m $$ (perpendicular distance to the line of action).
+
+For torque equilibrium about the elbow:
+
+<div class="equation">
+$$ F_B \sin{30°} \cdot r_1 = w_a \cdot r_{2,\perp} + w_b \cdot r_{3,\perp} $$
+</div>
+
+<div class="equation">
+$$ F_B (0.5)(0.040 \m) = (24.5 \N)(0.139 \m) + (39.2 \N)(0.329 \m) $$
+</div>
+
+<div class="equation">
+$$ F_B (0.020 \m) = 3.41 \text{ N·m} + 12.9 \text{ N·m} = 16.3 \text{ N·m} $$
+</div>
+
+<div class="equation">
+$$ F_B = \frac{16.3 \text{ N·m}}{0.020 \m} = 815 \N $$
+</div>
+
+The biceps force at 120° is approximately **815 N** (or $$ 8.2 \times 10^{2} \N $$).
+
+**Discussion**
+
+This is significantly larger than the 470 N required at 90°! The increase comes from two factors: (1) the biceps pulls at an angle to the forearm, reducing its effective lever arm, and (2) the weights' lever arms, while reduced by the cosine factor, still create substantial torque. This explains why holding a weight with the arm extended is more difficult than with the elbow bent at 90°.
 </div>
 </div>
 
@@ -529,6 +855,50 @@ A father lifts his child as shown in [Figure 11](#Figure11). What force should t
 ![A leg of a person is shown. On the foot, a child is sitting. The weight of the child is ten kilograms acting downward. The center of gravity of the leg is shown at the middle part of the lower leg. The knee is acting as the pivot. The mass of the leg is marked as four kilograms. The distance of the head of the child is thirty eight centimeters from the pivot and the perpendicular distance between the center of gravity of the leg and pivot is twenty centimeters.](../resources/Figure_09_06_11.jpg "A child being lifted by a father&#x2019;s lower leg.")
 {: #Figure11}
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We apply the conditions for equilibrium (constant speed means equilibrium). The knee is the pivot point. We must account for the torques from the child's weight, the leg's weight, and the quadriceps muscle force.
+
+**Solution**
+
+From [Figure 11](#Figure11):
+- Child's mass: $$ m_c = 10 \kg $$, at $$ r_c = 38 \text{ cm} = 0.38 \m $$ from knee
+- Leg mass: $$ m_{\text{leg}} = 4 \kg $$, at $$ r_{\text{leg}} = 20 \text{ cm} = 0.20 \m $$ from knee
+- Quadriceps attachment: approximately $$ r_q = 2.5 \text{ cm} = 0.025 \m $$ from knee (typical value)
+
+Calculate the weights:
+<div class="equation">
+$$ W_c = m_c g = (10 \kg)(9.80 \mss) = 98 \N $$
+</div>
+<div class="equation">
+$$ W_{\text{leg}} = m_{\text{leg}} g = (4 \kg)(9.80 \mss) = 39.2 \N $$
+</div>
+
+For torque equilibrium about the knee:
+
+<div class="equation">
+$$ F_q \cdot r_q = W_c \cdot r_c + W_{\text{leg}} \cdot r_{\text{leg}} $$
+</div>
+
+<div class="equation">
+$$ F_q (0.025 \m) = (98 \N)(0.38 \m) + (39.2 \N)(0.20 \m) $$
+</div>
+
+<div class="equation">
+$$ F_q (0.025 \m) = 37.2 \text{ N·m} + 7.84 \text{ N·m} = 45.0 \text{ N·m} $$
+</div>
+
+<div class="equation">
+$$ F_q = \frac{45.0 \text{ N·m}}{0.025 \m} = 1800 \N $$
+</div>
+
+The quadriceps muscle must exert approximately **1800 N** (or $$ 1.8 \times 10^{3} \N $$).
+
+**Discussion**
+
+This is an impressive force—about 18 times the child's weight and about 13 times the combined weight of the child and leg! This illustrates the extreme mechanical disadvantage of the quadriceps muscle, which attaches very close to the knee joint. The father's leg muscles routinely handle such forces, which explains why the quadriceps is one of the largest and strongest muscles in the human body. This exercise is fun for the child but quite a workout for the father!
 </div>
 </div>
 
@@ -594,11 +964,70 @@ Assume the biceps muscle is still perpendicular to the forearm.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-You have just planted a sturdy 2-m-tall palm tree in your front lawn for your mother’s birthday. Your brother kicks a 500 g ball, which hits the top of the tree at a speed of 5 m/s and stays in contact with it for 10 ms. The ball falls to the ground near the base of the tree and the recoil of the tree is minimal.
+You have just planted a sturdy 2-m-tall palm tree in your front lawn for your mother's birthday. Your brother kicks a 500 g ball, which hits the top of the tree at a speed of 5 m/s and stays in contact with it for 10 ms. The ball falls to the ground near the base of the tree and the recoil of the tree is minimal.
 (a) What is the force on the tree?
 (b) The length of the sturdy section of the root is only 20 cm. Furthermore, the soil around the roots is loose and we can assume that an effective force is applied at the tip of the 20 cm length. What is the effective force exerted by the end of the tip of the root to keep the tree from toppling? Assume the tree will be uprooted rather than bend.
 (c) What could you have done to ensure that the tree does not uproot easily?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For part (a), we use the impulse-momentum theorem to find the force from the ball. For part (b), we apply torque equilibrium about the pivot point (base of tree) to find the force the roots must provide. Part (c) requires practical application of statics principles.
+
+**Solution for (a)**
+
+Using the impulse-momentum theorem: $$ F \Delta t = \Delta p $$
+
+Given:
+- Ball mass: $$ m = 500 \text{ g} = 0.500 \kg $$
+- Initial velocity: $$ v_i = 5 \ms $$ (toward tree)
+- Final velocity: $$ v_f \approx 0 $$ (ball falls, minimal recoil)
+- Contact time: $$ \Delta t = 10 \text{ ms} = 0.010 \s $$
+
+<div class="equation">
+$$ \Delta p = m(v_f - v_i) = (0.500 \kg)(0 - 5 \ms) = -2.5 \kg \cdot \ms $$
+</div>
+
+<div class="equation">
+$$ F = \frac{\Delta p}{\Delta t} = \frac{-2.5 \kg \cdot \ms}{0.010 \s} = -250 \N $$
+</div>
+
+The force on the ball is 250 N (in the direction opposite to its initial motion). By Newton's third law, the force on the tree is **250 N** in the direction the ball was traveling.
+
+**Solution for (b)**
+
+The ball hits at the top of the 2.0 m tree, creating a torque about the base. The root must provide an opposing torque.
+
+Taking the base of the tree as the pivot:
+- Force from ball: $$ F_{\text{ball}} = 250 \N $$ at height $$ h = 2.0 \m $$
+- Torque from ball: $$ \tau_{\text{ball}} = F_{\text{ball}} \times h = (250 \N)(2.0 \m) = 500 \text{ N·m} $$
+
+The root (at lever arm $$ r_{\text{root}} = 0.20 \m $$) must provide equal opposing torque:
+
+<div class="equation">
+$$ F_{\text{root}} \times r_{\text{root}} = \tau_{\text{ball}} $$
+</div>
+
+<div class="equation">
+$$ F_{\text{root}} = \frac{500 \text{ N·m}}{0.20 \m} = 2500 \N $$
+</div>
+
+The effective force at the root tip is **2500 N** (or $$ 2.5 \times 10^{3} \N $$).
+
+**Solution for (c)**
+
+To ensure the tree does not uproot easily, you could:
+
+1. **Plant the tree deeper:** A longer root section increases the lever arm, reducing the required force at the root tip.
+2. **Pack the soil firmly:** Compact soil provides better resistance to the lateral force.
+3. **Add guy wires/stakes:** Support wires attached to stakes create additional torque to oppose tipping.
+4. **Water and establish roots:** Well-established roots spread laterally and grip soil better.
+5. **Create a larger root ball:** A wider base of support makes the tree more stable.
+
+**Discussion**
+
+The root must exert 10 times the ball's force (2500 N vs. 250 N) because of the mechanical disadvantage: the ball acts at 2.0 m while the root acts at only 0.20 m from the pivot. This is a 10:1 ratio of lever arms. This explains why newly planted trees are so vulnerable—their roots haven't established the deep, widespread network needed to resist even moderate lateral forces. Stakes are commonly used for exactly this reason.
 </div>
 </div>
 
