@@ -2133,11 +2133,54 @@ The initial speed of the ball must be **18.2 m/s** (approximately 65 km/h or 40 
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Can a goalkeeper at their goal kick a soccer ball into the opponent’s goal without the ball touching the ground? The distance will be about 95 m. A goalkeeper can give the ball a speed of 30 m/s.
+Can a goalkeeper at their goal kick a soccer ball into the opponent's goal without the ball touching the ground? The distance will be about 95 m. A goalkeeper can give the ball a speed of 30 m/s.
 
 </div>
 <div class="solution" markdown="1">
-No, the maximum range (neglecting air resistance) is about 92 m.
+
+**Strategy**
+
+Calculate the maximum range achievable with an initial speed of 30 m/s. Maximum range occurs at a 45° launch angle. Compare this to the required distance of 95 m.
+
+**Solution**
+
+**Given:**
+- Initial speed: $$ v_0 = 30 \ms $$
+- Required distance: 95 m
+- Maximum range angle: $$ \theta = 45° $$
+
+**Calculate maximum range:**
+
+At 45°, $$ \sin(2 \times 45°) = \sin(90°) = 1 $$, so the range equation simplifies to:
+<div class="equation">
+$$ R_{max} = \frac{v_0^2}{g} = \frac{(30 \ms)^2}{9.80 \mss} = \frac{900 \mmss}{9.80 \mss} = 91.8 \m $$
+</div>
+
+Rounding to two significant figures: **R = 92 m**
+
+**Discussion**
+
+The maximum range of 92 m is less than the required 95 m, so the goalkeeper **cannot** kick the ball into the opponent's goal without it touching the ground.
+
+The goalkeeper falls short by:
+<div class="equation">
+$$ 95 - 92 = 3 \m $$
+</div>
+
+To reach 95 m, the goalkeeper would need an initial speed of:
+<div class="equation">
+$$ v_0 = \sqrt{Rg} = \sqrt{95 \times 9.80} = \sqrt{931} = 30.5 \ms $$
+</div>
+
+So the goalkeeper would need to kick just 0.5 m/s faster (about 2% harder) to reach the opponent's goal.
+
+In reality, air resistance would reduce the actual range significantly below the calculated 92 m. A typical soccer ball experiences substantial air drag, which could reduce the range by 20-30% or more. This makes the feat even more impossible under real conditions.
+
+Additionally, regulations and field dimensions vary, but a typical soccer field is 90-120 m long, so 95 m represents kicking almost the full length of the field.
+
+**Answer**
+
+**No**, the goalkeeper cannot kick the ball into the opponent's goal. The maximum range with a 30 m/s kick is approximately **92 m**, which is **3 m short** of the required 95 m distance.
 
 </div>
 </div>
@@ -2145,6 +2188,135 @@ No, the maximum range (neglecting air resistance) is about 92 m.
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 The free throw line in basketball is 4.57 m (15 ft) from the basket, which is 3.05 m (10 ft) above the floor. A player standing on the free throw line throws the ball with an initial speed of 8.15 m/s, releasing it at a height of 2.44 m (8 ft) above the floor. At what angle above the horizontal must the ball be thrown to exactly hit the basket? Note that most players will use a large initial angle rather than a flat shot because it allows for a larger margin of error. Explicitly show how you follow the steps involved in solving projectile motion problems.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Follow the standard projectile motion problem-solving steps: identify knowns and unknowns, set up coordinate system, break into horizontal and vertical components, apply kinematic equations, and solve for the unknown angle.
+
+**Solution**
+
+**Step 1: Identify knowns and unknowns**
+
+**Knowns:**
+- Horizontal distance: $$ x = 4.57 \m $$
+- Initial height: $$ y_0 = 2.44 \m $$
+- Final height: $$ y = 3.05 \m $$
+- Vertical displacement: $$ \Delta y = 3.05 - 2.44 = 0.61 \m $$
+- Initial speed: $$ v_0 = 8.15 \ms $$
+- Acceleration: $$ a_y = -g = -9.80 \mss $$ (taking up as positive)
+
+**Unknown:**
+- Launch angle: $$ \theta = ? $$
+
+**Step 2: Set up coordinate system**
+
+Origin at release point, x-axis horizontal (toward basket), y-axis vertical (up is positive).
+
+**Step 3: Break motion into components**
+
+Horizontal component (constant velocity):
+<div class="equation">
+$$ v_{0x} = v_0 \cos\theta = 8.15\cos\theta $$
+</div>
+
+Vertical component (constant acceleration):
+<div class="equation">
+$$ v_{0y} = v_0 \sin\theta = 8.15\sin\theta $$
+</div>
+
+**Step 4: Apply kinematic equations**
+
+**Horizontal motion:**
+<div class="equation">
+$$ x = v_{0x}t $$
+</div>
+
+<div class="equation">
+$$ 4.57 = 8.15\cos\theta \cdot t $$
+</div>
+
+Solving for time:
+<div class="equation">
+$$ t = \frac{4.57}{8.15\cos\theta} $$
+</div>
+
+**Vertical motion:**
+<div class="equation">
+$$ \Delta y = v_{0y}t - \frac{1}{2}gt^2 $$
+</div>
+
+<div class="equation">
+$$ 0.61 = 8.15\sin\theta \cdot t - \frac{1}{2}(9.80)t^2 $$
+</div>
+
+**Step 5: Substitute and solve for θ**
+
+Substitute the expression for t from horizontal motion:
+<div class="equation">
+$$ 0.61 = 8.15\sin\theta \left(\frac{4.57}{8.15\cos\theta}\right) - 4.90\left(\frac{4.57}{8.15\cos\theta}\right)^2 $$
+</div>
+
+<div class="equation">
+$$ 0.61 = 4.57\tan\theta - 4.90\left(\frac{20.9}{66.4\cos^2\theta}\right) $$
+</div>
+
+<div class="equation">
+$$ 0.61 = 4.57\tan\theta - \frac{102.4}{66.4\cos^2\theta} $$
+</div>
+
+Using $$ \sec^2\theta = 1 + \tan^2\theta $$, so $$ \frac{1}{\cos^2\theta} = 1 + \tan^2\theta $$:
+
+<div class="equation">
+$$ 0.61 = 4.57\tan\theta - 1.54(1 + \tan^2\theta) $$
+</div>
+
+<div class="equation">
+$$ 0.61 = 4.57\tan\theta - 1.54 - 1.54\tan^2\theta $$
+</div>
+
+<div class="equation">
+$$ 1.54\tan^2\theta - 4.57\tan\theta + (1.54 + 0.61) = 0 $$
+</div>
+
+<div class="equation">
+$$ 1.54\tan^2\theta - 4.57\tan\theta + 2.15 = 0 $$
+</div>
+
+Using the quadratic formula with $$ u = \tan\theta $$:
+<div class="equation">
+$$ u = \frac{4.57 \pm \sqrt{(4.57)^2 - 4(1.54)(2.15)}}{2(1.54)} $$
+</div>
+
+<div class="equation">
+$$ u = \frac{4.57 \pm \sqrt{20.9 - 13.2}}{3.08} = \frac{4.57 \pm \sqrt{7.7}}{3.08} = \frac{4.57 \pm 2.77}{3.08} $$
+</div>
+
+Two solutions:
+<div class="equation">
+$$ u_1 = \frac{4.57 + 2.77}{3.08} = \frac{7.34}{3.08} = 2.38 \Rightarrow \theta_1 = \tan^{-1}(2.38) = 67.2° $$
+</div>
+
+<div class="equation">
+$$ u_2 = \frac{4.57 - 2.77}{3.08} = \frac{1.80}{3.08} = 0.584 \Rightarrow \theta_2 = \tan^{-1}(0.584) = 30.3° $$
+</div>
+
+**Discussion**
+
+There are two possible angles: **30.3°** (flatter trajectory) and **67.2°** (higher arc). Players typically use the larger angle (around 50-55° in practice) because:
+
+1. **Larger target area**: The basket appears larger from above
+2. **Margin for error**: Small variations in speed or angle are more forgiving
+3. **Softer landing**: The ball enters more vertically, bouncing less if it hits the rim
+4. **Less likely to be blocked**: The high arc goes over defenders' hands
+
+The 67.2° angle is closer to the preferred technique, though in practice, players often use angles around 50-55°.
+
+**Answer**
+
+The ball can be thrown at either **30.3°** or **67.2°** above horizontal. Most players use the larger angle because it allows for a larger margin of error and a better chance of the ball going in even if it hits the rim.
 
 </div>
 </div>
