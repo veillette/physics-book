@@ -1674,6 +1674,101 @@ caught at the same height as it is released, what is its initial speed relative 
 (c) What is its maximum height above its point of release?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The quarterback is moving backward at 2.00 m/s, so his velocity relative to the ground is -2.00 m/s in the forward direction. The ball's velocity relative to the ground is the sum of the ball's velocity relative to the quarterback and the quarterback's velocity. Use the range equation to find the ball's initial speed relative to the ground.
+
+**Solution**
+
+**Given:**
+- Quarterback's backward speed: 2.00 m/s (so forward component is -2.00 m/s)
+- Range: R = 18.0 m
+- Launch angle: $$ \theta = 25° $$
+
+**(a) Initial speed relative to the ground:**
+
+Let $$ v_0 $$ be the ball's initial speed relative to the ground. The horizontal component is:
+<div class="equation">
+$$ v_{0x} = v_0 \cos(25°) - 2.00 $$
+</div>
+
+The vertical component is:
+<div class="equation">
+$$ v_{0y} = v_0 \sin(25°) $$
+</div>
+
+Using the range equation, we need to account for the quarterback's motion. The time of flight is:
+<div class="equation">
+$$ t = \frac{2v_{0y}}{g} = \frac{2v_0\sin(25°)}{9.80} $$
+</div>
+
+The range is:
+<div class="equation">
+$$ R = v_{0x} \cdot t = [v_0\cos(25°) - 2.00] \cdot \frac{2v_0\sin(25°)}{9.80} $$
+</div>
+
+<div class="equation">
+$$ 18.0 = [v_0(0.906) - 2.00] \cdot \frac{2v_0(0.423)}{9.80} $$
+</div>
+
+<div class="equation">
+$$ 18.0 = [0.906v_0 - 2.00] \cdot \frac{0.846v_0}{9.80} $$
+</div>
+
+<div class="equation">
+$$ 176.4 = [0.906v_0 - 2.00] \cdot 0.846v_0 $$
+</div>
+
+<div class="equation">
+$$ 176.4 = 0.767v_0^2 - 1.692v_0 $$
+</div>
+
+<div class="equation">
+$$ 0.767v_0^2 - 1.692v_0 - 176.4 = 0 $$
+</div>
+
+Using the quadratic formula:
+<div class="equation">
+$$ v_0 = \frac{1.692 + \sqrt{(1.692)^2 + 4(0.767)(176.4)}}{2(0.767)} $$
+</div>
+
+<div class="equation">
+$$ v_0 = \frac{1.692 + \sqrt{2.86 + 541.4}}{1.534} = \frac{1.692 + 23.3}{1.534} = \frac{25.0}{1.534} = 16.3 \ms $$
+</div>
+
+**(b) Time to reach the receiver:**
+
+<div class="equation">
+$$ t = \frac{2v_0\sin(25°)}{g} = \frac{2(16.3)(0.423)}{9.80} = \frac{13.8}{9.80} = 1.41 \s $$
+</div>
+
+**(c) Maximum height:**
+
+<div class="equation">
+$$ h = \frac{v_{0y}^2}{2g} = \frac{[v_0\sin(25°)]^2}{2g} = \frac{[(16.3)(0.423)]^2}{2(9.80)} $$
+</div>
+
+<div class="equation">
+$$ h = \frac{(6.89)^2}{19.6} = \frac{47.5}{19.6} = 2.42 \m $$
+</div>
+
+**Discussion**
+
+The quarterback's backward motion reduces the ball's forward velocity relative to the ground. This requires a higher throwing speed (16.3 m/s relative to the ground) compared to what would be needed if the quarterback were stationary.
+
+The relatively low maximum height of 2.42 m is due to the shallow 25° launch angle. This is typical for football passes, where quarterbacks prefer flatter trajectories that reach receivers quickly and are harder for defenders to intercept.
+
+**Answer**
+
+(a) The ball's initial speed relative to the ground is **16.3 m/s**.
+
+(b) The ball takes **1.41 s** to reach the receiver.
+
+(c) The maximum height above the release point is **2.42 m**.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1684,12 +1779,102 @@ Gun sights are adjusted to aim high to compensate for the effect of gravity, eff
 
 </div>
 <div class="solution" markdown="1">
-(a) −0.486 m
 
-(b) The larger the muzzle velocity, the smaller the deviation in the vertical
-direction, because the time of flight would be smaller. Air resistance would
-have the effect of decreasing the time of flight, therefore increasing the
-vertical deviation.
+**Strategy**
+
+First, find the launch angle needed to hit a target 100.0 m away. Then calculate where the bullet lands vertically when aimed at this same angle but for a horizontal distance of 150.0 m.
+
+**Solution**
+
+**Given:**
+- Muzzle velocity: $$ v_0 = 275 \ms $$
+- Target range (calibrated): $$ R_1 = 100.0 \m $$
+- Actual target range: $$ R_2 = 150.0 \m $$
+
+**(a) Vertical deviation at 150.0 m:**
+
+**Step 1: Find the sight angle for 100.0 m range**
+
+Using the range equation:
+<div class="equation">
+$$ R = \frac{v_0^2 \sin(2\theta)}{g} $$
+</div>
+
+<div class="equation">
+$$ 100.0 = \frac{(275)^2 \sin(2\theta)}{9.80} $$
+</div>
+
+<div class="equation">
+$$ \sin(2\theta) = \frac{100.0 \times 9.80}{75625} = \frac{980}{75625} = 0.01296 $$
+</div>
+
+<div class="equation">
+$$ 2\theta = \sin^{-1}(0.01296) = 0.743° $$
+</div>
+
+<div class="equation">
+$$ \theta = 0.372° $$
+</div>
+
+**Step 2: Find time to reach 150.0 m**
+
+<div class="equation">
+$$ v_{0x} = v_0\cos\theta = 275\cos(0.372°) = 275 \times 0.99998 = 275.0 \ms $$
+</div>
+
+<div class="equation">
+$$ t = \frac{x}{v_{0x}} = \frac{150.0}{275.0} = 0.545 \s $$
+</div>
+
+**Step 3: Find vertical position at 150.0 m**
+
+<div class="equation">
+$$ v_{0y} = v_0\sin\theta = 275\sin(0.372°) = 275 \times 0.00649 = 1.786 \ms $$
+</div>
+
+<div class="equation">
+$$ y = v_{0y}t - \frac{1}{2}gt^2 = (1.786)(0.545) - \frac{1}{2}(9.80)(0.545)^2 $$
+</div>
+
+<div class="equation">
+$$ y = 0.974 - \frac{1}{2}(9.80)(0.297) = 0.974 - 1.46 = -0.486 \m $$
+</div>
+
+The bullet hits **0.486 m below** the target (or -0.486 m).
+
+**(b) Effects of higher muzzle velocity and air resistance:**
+
+**Higher muzzle velocity:**
+- A larger muzzle velocity means the bullet travels faster horizontally
+- The time to reach any given distance is reduced
+- Less time means gravity has less time to pull the bullet downward
+- Therefore, the vertical deviation would be **smaller**
+- The gun would need less upward angle adjustment for a given range
+
+**Air resistance:**
+- Air resistance slows the horizontal velocity, increasing flight time
+- Longer flight time means more time for gravity to act
+- This **increases** the vertical deviation (bullet drops more)
+- Air resistance also reduces the effective range of the weapon
+- The bullet would hit even lower than -0.486 m with air resistance
+
+**Discussion**
+
+The very small sight angle (0.372°) shows that high-velocity rifles need minimal adjustment for relatively short ranges. However, even this tiny angle causes about half a meter deviation when the target is 50% farther away than the calibrated distance.
+
+In real scenarios with air resistance, marksmen must account for:
+- Range (distance to target)
+- Bullet velocity and ballistics
+- Wind speed and direction
+- Temperature and air density
+
+Modern scopes often have range-finding reticles with multiple aiming points for different distances.
+
+**Answer**
+
+(a) The bullet will hit **0.486 m below** the target (or -0.486 m).
+
+(b) A larger muzzle velocity would **decrease** the vertical deviation because the bullet spends less time in flight, giving gravity less time to act. Air resistance would **increase** the vertical deviation by slowing the bullet and prolonging its flight time.
 
 </div>
 </div>
