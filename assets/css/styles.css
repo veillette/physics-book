@@ -22,20 +22,6 @@ section.normal > .title {
     background-color: #ffd;
 }
 
-/* styles for tags page */
-.inline-list li {
-    list-style-type: none;
-    display: inline-block;
-}
-
-.inline-list li:not(:last-child):after {
-    content: ', ';
-}
-
-.list-entry li {
-    list-style-type: none;
-}
-
 .header-link {
     position: absolute;
     left: -1em;
@@ -52,10 +38,6 @@ h5:hover .header-link,
 h6:hover .header-link {
     opacity: 1;
     color: black !important;
-}
-
-.book .book-body .book-progress .bar {
-    height: 10px;
 }
 
 .book .book-body .page-wrapper .page-inner {
