@@ -61,12 +61,12 @@ And Eternity in an hour
 The problem set for this section involves concepts from this chapter and several
 others. Physics is most interesting when applied to general situations involving
 more than a narrow set of physical principles. For example, photons have
-momentum, hence the relevance of [Linear Momentum and Collisions](../contents/ch8LinearMomentumAndCollisions.md). The
+momentum, hence the relevance of [Linear Momentum and Collisions](./ch8LinearMomentumAndCollisions). The
 following topics are involved in some or all of the problems in this section:
 
-* [Dynamics: Newton’s Laws of Motion](../contents/ch4Dynamics.md)
-* [Work, Energy, and Energy Resources](../contents/ch7WorkEnergyAndEnergyResources.md)
-* [Linear Momentum and Collisions](../contents/ch8LinearMomentumAndCollisions.md)
+* [Dynamics: Newton’s Laws of Motion](./ch4Dynamics)
+* [Work, Energy, and Energy Resources](./ch7WorkEnergyAndEnergyResources)
+* [Linear Momentum and Collisions](./ch8LinearMomentumAndCollisions)
 * [Heat and Heat Transfer Methods](../contents/ch14HeatAndHeatTransfers)
 * [Electric Potential and Electric Field](../contents/ch19ElectricPotentialAndElectricEnergy)
 * [Electric Current, Resistance, and Ohm’s Law](../contents/ch20ElectricCurrentResistanceAndOhmsLaw)
@@ -104,7 +104,7 @@ A 550-nm photon (visible light) is absorbed by a  $$1.00\text{-μg} $$
 To solve an **integrated-concept problem**, such as those following this
 example, we must first identify the physical principles involved and identify
 the chapters in which they are found. Part (a) of this example asks for the **momentum of a photon**, a topic of the present chapter. Part (b) considers **recoil following a collision**, a topic
-of [Linear Momentum and Collisions](../contents/ch8LinearMomentumAndCollisions.md).
+of [Linear Momentum and Collisions](./ch8LinearMomentumAndCollisions).
 
 **Strategy Step 2**
 

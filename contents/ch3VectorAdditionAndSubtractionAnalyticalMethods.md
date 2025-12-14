@@ -79,8 +79,8 @@ and
 
 Suppose, for example, that $$ \vb{A} $$ is the vector representing the total
 displacement of the person walking in a city considered
-in [Kinematics in Two Dimensions: An Introduction](../contents/ch3KinematicsInTwoDimensionsAnIntroduction.md)
-and [Vector Addition and Subtraction: Graphical Methods](../contents/ch3VectorAdditionAndSubtractionGraphicalMethods.md)
+in [Kinematics in Two Dimensions: An Introduction](./ch3KinematicsInTwoDimensionsAnIntroduction)
+and [Vector Addition and Subtraction: Graphical Methods](./ch3VectorAdditionAndSubtractionGraphicalMethods)
 .
 
 ![In the given figure a vector A of magnitude ten point three blocks is inclined at an angle twenty nine point one degrees to the positive x axis. The horizontal component A sub x of vector A is equal to A cosine theta which is equal to ten point three blocks multiplied to cosine twenty nine point one degrees which is equal to nine blocks east. Also the vertical component A sub y of vector A is equal to A sin theta is equal to ten point three blocks multiplied to sine twenty nine point one degrees, which is equal to five point zero blocks north.](../resources/Figure_03_03_03.jpg "We can use the relationships \( A_x=A \cos{ \theta} \) and \( A_y=A \sin{ \theta } \) to determine the magnitude of the horizontal and vertical component vectors in this example.")
@@ -336,7 +336,7 @@ and the rest of the method outlined above is identical to that for addition. (Se
 
 Analyzing vectors using perpendicular components is very useful in many areas of
 physics, because perpendicular quantities are often independent of one another.
-The next module, [Projectile Motion](../contents/ch3ProjectileMotion.md), is one
+The next module, [Projectile Motion](./ch3ProjectileMotion), is one
 of many in which using perpendicular components helps make the picture clear and
 simplifies the physics.
 

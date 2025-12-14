@@ -32,7 +32,7 @@ thermometer, for example, the expansion of alcohol is much greater than the
 expansion of the glass containing it.
 
 What is the underlying cause of thermal expansion? As is discussed
-in [Kinetic Theory: Atomic and Molecular Explanation of Pressure and Temperature](../contents/ch13KineticTheory.md)
+in [Kinetic Theory: Atomic and Molecular Explanation of Pressure and Temperature](./ch13KineticTheory)
 , an increase in temperature implies an increase in the kinetic energy of the
 individual atoms. In a solid, unlike in a gas, the atoms or molecules are
 closely packed together, but their kinetic energy (in the form of small, rapid

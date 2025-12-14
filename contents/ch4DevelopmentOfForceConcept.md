@@ -24,7 +24,7 @@ shown. Since force is a vector, it adds just like other vectors, as illustrated
 in [Figure 1](#Figure1)(a) for two ice skaters. Forces, like other vectors, are
 represented by arrows and can be added using the familiar head-to-tail method or
 by trigonometric methods. These ideas were developed
-in [Two-Dimensional Kinematics](../contents/ch3TwoDimensionalKinematics.md).
+in [Two-Dimensional Kinematics](./ch3TwoDimensionalKinematics).
 
 ![(a) Overhead view of two ice skaters pushing on a third. One skater pushes with a force F two, represented by an arrow pointing up, and a second skater pushes with a force F one, represented by an arrow pointing from left to right. Vector F one and vector F two are along the arms of the two skaters acting on the third skater. A vector diagram is shown in the form of a right triangle in which the base is vector F one pointing east and perpendicular is shown by vector F two pointing north. The resultant vector is shown by the hypotenuse pointing northeast. (b) Free-body diagram showing only the forces acting on the skater.](../resources/Figure_04_01_01.jpg "Part (a) shows an overhead view of two ice skaters pushing on a third. Forces are vectors and add like other vectors, so the total force on the third skater is in the direction shown. In part (b), we see a free-body diagram representing the forces acting on the third skater.")
 {: #Figure1}
