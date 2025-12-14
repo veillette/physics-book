@@ -935,9 +935,80 @@ An archer shoots an arrow at a 75.0 m distant target; the bull's-eye of the targ
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 18.4^\circ $$
 
-(b) The arrow will go over the branch.
+**Strategy**
+
+For part (a), use the range equation to find the launch angle. Since the arrow lands at the same height as release, we can use $$ R = \frac{v_0^2 \sin(2\theta)}{g} $$. For part (b), calculate the arrow's height at the midpoint (37.5 m horizontally) and compare it to 3.50 m.
+
+**Solution**
+
+Given: R = 75.0 m, $$ v_0 = 35.0 \ms $$, g = 9.80 m/s²
+
+**(a) Finding the launch angle:**
+
+**Step 1: Identify knowns and unknowns**
+- Range: R = 75.0 m
+- Initial speed: $$ v_0 = 35.0 \ms $$
+- Launch angle: θ = ? (unknown)
+
+**Step 2: Choose the appropriate equation**
+
+Since launch and landing heights are equal, use the range equation:
+<div class="equation">
+$$ R = \frac{v_0^2 \sin(2\theta)}{g} $$
+</div>
+
+**Step 3: Solve for θ**
+
+<div class="equation">
+$$ \sin(2\theta) = \frac{Rg}{v_0^2} = \frac{(75.0 \m)(9.80 \mss)}{(35.0 \ms)^2} = \frac{735}{1225} = 0.600 $$
+</div>
+
+<div class="equation">
+$$ 2\theta = \sin^{-1}(0.600) = 36.87° $$
+</div>
+
+<div class="equation">
+$$ \theta = \frac{36.87°}{2} = 18.4° $$
+</div>
+
+Note: There are two possible angles: 18.4° and 90° - 18.4° = 71.6°. We choose the smaller angle for a flatter, faster trajectory.
+
+**(b) Height at the tree (x = 37.5 m):**
+
+First, find the time to reach x = 37.5 m:
+<div class="equation">
+$$ v_{0x} = v_0 \cos\theta = 35.0 \times \cos(18.4°) = 35.0 \times 0.949 = 33.2 \ms $$
+</div>
+
+<div class="equation">
+$$ t = \frac{x}{v_{0x}} = \frac{37.5 \m}{33.2 \ms} = 1.13 \s $$
+</div>
+
+Now find the vertical position at this time:
+<div class="equation">
+$$ v_{0y} = v_0 \sin\theta = 35.0 \times \sin(18.4°) = 35.0 \times 0.316 = 11.1 \ms $$
+</div>
+
+<div class="equation">
+$$ y = v_{0y}t - \frac{1}{2}gt^2 = (11.1)(1.13) - \frac{1}{2}(9.80)(1.13)^2 $$
+</div>
+
+<div class="equation">
+$$ y = 12.5 - 6.26 = 6.24 \m $$
+</div>
+
+Since 6.24 m > 3.50 m, the arrow **will go over the branch**.
+
+**Discussion**
+
+The arrow reaches a height of 6.24 m at the tree, safely clearing the 3.50 m branch by about 2.7 m. The relatively low launch angle (18.4°) means the arrow travels on a flatter trajectory, which is preferred in archery for accuracy and speed. The steeper complementary angle (71.6°) would also give the same range but would result in a much longer flight time and less accuracy.
+
+**Answer**
+
+(a) The arrow must be released at an angle of 18.4° above horizontal.
+
+(b) The arrow will go over the branch, passing 6.24 m above the ground at that point.
 
 </div>
 </div>
