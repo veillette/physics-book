@@ -856,9 +856,108 @@ first identify the unknown, and then discuss how you chose the appropriate
 equation to solve for it. After choosing the equation, show your steps in
 solving for the unknown, check your units, and discuss whether the answer is
 reasonable.
-(d) What is the car’s final velocity? Solve for this unknown in the
+(d) What is the car's final velocity? Solve for this unknown in the
 same manner as in part (c), showing all steps explicitly.
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+This problem involves constant acceleration from rest. We need to use kinematic equations to find both displacement and final velocity. Since we're given acceleration and time, we can use the equations that relate these quantities to displacement and velocity.
+
+**Solution**
+
+**(a) Sketch:**
+
+A car starts from rest (initial position $$x_0 = 0$$, initial velocity $$v_0 = 0$$) and accelerates in the positive direction with acceleration vector $$a = 2.40 \mss$$ for time $$t = 12.0 \s$$.
+
+**(b) Knowns:**
+- Initial velocity: $$ v_0 = 0 \ms $$ (starts from rest)
+- Acceleration: $$ a = 2.40 \mss $$
+- Time: $$ t = 12.0 \s $$
+- Initial position: $$ x_0 = 0 \m $$ (taking starting point as origin)
+
+**(c) Distance traveled:**
+
+**Unknown:** Displacement $$ x - x_0 $$ or final position $$ x $$
+
+**Choosing the equation:** We have $$ v_0 $$, $$ a $$, and $$ t $$, and we need to find $$ x $$. The most appropriate equation is:
+
+<div class="equation">
+$$ x = x_0 + v_0 t + \frac{1}{2}at^2 $$
+</div>
+
+This equation is ideal because it relates displacement to acceleration and time without requiring knowledge of final velocity.
+
+**Solving:**
+
+Since $$ x_0 = 0 $$ and $$ v_0 = 0 $$, the equation simplifies to:
+
+<div class="equation">
+$$ x = \frac{1}{2}at^2 $$
+</div>
+
+Substituting the known values:
+
+<div class="equation">
+$$ x = \frac{1}{2}(2.40 \mss)(12.0 \s)^2 $$
+</div>
+
+<div class="equation">
+$$ x = \frac{1}{2}(2.40)(144) \m = (1.20)(144) \m = 173 \m $$
+</div>
+
+**Units check:** $$ \mss \times \s^2 = \m $$ ✓
+
+**Reasonableness:** A distance of 173 meters (about 568 feet or 0.11 miles) seems reasonable for a car accelerating onto a freeway over 12 seconds. This is roughly the length of a typical freeway on-ramp.
+
+**(d) Final velocity:**
+
+**Unknown:** Final velocity $$ v $$
+
+**Choosing the equation:** We have $$ v_0 $$, $$ a $$, and $$ t $$, and we need to find $$ v $$. The appropriate equation is:
+
+<div class="equation">
+$$ v = v_0 + at $$
+</div>
+
+This equation directly relates final velocity to initial velocity, acceleration, and time.
+
+**Solving:**
+
+Since $$ v_0 = 0 $$:
+
+<div class="equation">
+$$ v = at = (2.40 \mss)(12.0 \s) $$
+</div>
+
+<div class="equation">
+$$ v = 28.8 \ms $$
+</div>
+
+**Units check:** $$ \mss \times \s = \ms $$ ✓
+
+**Reasonableness:** Converting to more familiar units: $$ 28.8 \ms \times \frac{3.6 \text{ km/h}}{1 \ms} = 104 \text{ km/h} $$ or about 64 mph. This is a reasonable speed for merging onto a freeway.
+
+**Discussion**
+
+The results are physically reasonable. The car travels 173 m while accelerating to 28.8 m/s (about 104 km/h). We can verify our answers are consistent by using an alternative approach: using the equation $$ v^2 = v_0^2 + 2a(x - x_0) $$:
+
+<div class="equation">
+$$ v^2 = 0 + 2(2.40 \mss)(173 \m) = 830 \mmss $$
+</div>
+
+<div class="equation">
+$$ v = \sqrt{830} \ms = 28.8 \ms $$ ✓
+</div>
+
+This confirms our answer. The acceleration of 2.40 m/s² (about 0.24g) is typical for a family car, and the final speed is appropriate for freeway traffic.
+
+**Answer**
+
+(c) The car travels **173 m** in 12.0 seconds.
+
+(d) The car's final velocity is **28.8 m/s** (approximately 104 km/h or 64 mph).
 </div>
 </div>
 
