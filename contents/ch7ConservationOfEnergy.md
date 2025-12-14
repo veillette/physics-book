@@ -329,7 +329,28 @@ $$ v=\sqrt{2g h + v_0^{2}}=\sqrt{ 2\left(9.80 \mss \right)\left(20.0 \m \right)+
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-If the energy in fusion bombs were used to supply the energy needs of the world, how many of the 9-megaton variety would be needed for a year’s supply of energy (using data from [Table 1](#Table1))? This is not as far-fetched as it may sound—there are thousands of nuclear bombs, and their energy can be trapped in underground explosions and converted to electricity, as natural geothermal energy is.
+If the energy in fusion bombs were used to supply the energy needs of the world, how many of the 9-megaton variety would be needed for a year's supply of energy (using data from [Table 1](#Table1))? This is not as far-fetched as it may sound—there are thousands of nuclear bombs, and their energy can be trapped in underground explosions and converted to electricity, as natural geothermal energy is.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+From Table 1, the annual world energy use is approximately $$ 4 \times 10^{20}\J $$ and a 9-megaton fusion bomb releases $$ 3.8 \times 10^{16}\J $$ of energy. We divide the annual energy need by the energy per bomb.
+
+**Solution**
+
+<div class="equation">
+ $$ \begin{array}{lll}
+\text{Number of bombs} &=& \frac{\text{Annual energy use}}{\text{Energy per bomb}}\\
+&=& \frac{4 \times 10^{20}\J}{3.8 \times 10^{16}\J}\\
+&=& 1.05 \times 10^{4} \approx 10,000 \text{ bombs}
+\end{array} $$
+</div>
+
+**Discussion**
+
+Approximately 10,000 nine-megaton fusion bombs would be needed to supply the world's annual energy needs. While this seems like a large number, it illustrates the enormous energy content of nuclear fusion. However, using nuclear weapons for energy production is impractical and dangerous, which is why controlled fusion research aims to harness this energy safely.
 
 </div>
 </div>
