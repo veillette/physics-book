@@ -263,8 +263,31 @@ bullet to accelerate it to a speed of 600 m/s in a time of 2.00 ms (milliseconds
 
 </div>
 <div class="solution" markdown="1">
- $$ 9.00\times 10^{3}\N $$
+**Strategy**
 
+We use the impulse-momentum theorem: $$ F_{\text{net}} \Delta t = \Delta p $$. The bullet starts from rest and reaches a final velocity, so we can calculate the change in momentum and divide by the time interval to find the average force.
+
+**Solution**
+
+The bullet starts at rest, so $$ v_i = 0 $$.
+
+Calculate the change in momentum:
+
+$$ \Delta p = m(v_f - v_i) = (0.0300 \kg)(600 \ms - 0) = 18.0 \kg \cdot \ms $$
+
+Convert time to seconds:
+
+$$ \Delta t = 2.00 \text{ ms} = 2.00 \times 10^{-3} \s $$
+
+Apply the impulse-momentum theorem to find the average force:
+
+$$ F_{\text{avg}} = \frac{\Delta p}{\Delta t} = \frac{18.0 \kg \cdot \ms}{2.00 \times 10^{-3} \s} = 9.00 \times 10^{3} \N $$
+
+The average force exerted on the bullet is $$ 9.00 \times 10^{3} \N $$ (9000 N, or about 2000 pounds of force).
+
+**Discussion**
+
+This is an enormous force—about 30,000 times the bullet's weight! However, the force acts for only 2 milliseconds, which is why the impulse (and thus momentum change) is manageable. By Newton's third law, an equal and opposite force acts on the gun, causing the recoil felt by the shooter.
 </div>
 </div>
 
@@ -277,6 +300,35 @@ A car moving at 10 m/s crashes into a tree and stops in 0.26 s. Calculate the
 force the seat belt exerts on a passenger in the car to bring him to a halt. The
 mass of the passenger is 70 kg.
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We apply the impulse-momentum theorem. The passenger has initial momentum from moving with the car and must be brought to rest. The seat belt provides the force over the collision time to change the passenger's momentum.
+
+**Solution**
+
+Calculate the initial momentum of the passenger:
+
+$$ p_i = mv_i = (70 \kg)(10 \ms) = 700 \kg \cdot \ms $$
+
+The final momentum is zero (passenger comes to rest):
+
+$$ p_f = 0 $$
+
+Calculate the change in momentum:
+
+$$ \Delta p = p_f - p_i = 0 - 700 \kg \cdot \ms = -700 \kg \cdot \ms $$
+
+Apply the impulse-momentum theorem:
+
+$$ F_{\text{avg}} = \frac{\Delta p}{\Delta t} = \frac{-700 \kg \cdot \ms}{0.26 \s} = -2700 \N $$
+
+The magnitude of the force is approximately $$ 2.7 \times 10^{3} \N $$ (about 600 pounds), directed opposite to the passenger's initial motion.
+
+**Discussion**
+
+While 2700 N is a substantial force (roughly 4 times the passenger's weight), this is survivable because the seat belt distributes the force across the chest and pelvis. Without a seat belt, the passenger would continue at 10 m/s until hitting the dashboard or windshield, stopping in a much shorter time (perhaps 0.01 s), resulting in forces 26 times larger—likely fatal.
 </div>
 </div>
 
@@ -291,13 +343,41 @@ and brought them to rest in the same time? Explain why or why not.
 
 </div>
 <div class="solution" markdown="1">
-a) $$ 2.40\times 10^{3}\N $$ toward the leg
+**Strategy**
 
-b) The force on each hand would have the same magnitude as that found in part (
-a)
-(but in opposite directions by Newton’s third law) because the change in
-momentum and the time interval are the same.
+We use the impulse-momentum theorem to find the force. The hand has initial momentum and comes to rest, so we calculate the momentum change and divide by the collision time.
 
+**Solution for (a)**
+
+Calculate the change in momentum of the hand:
+
+$$ \Delta p = m(v_f - v_i) = (1.50 \kg)(0 - 4.00 \ms) = -6.00 \kg \cdot \ms $$
+
+Convert time to seconds:
+
+$$ \Delta t = 2.50 \text{ ms} = 2.50 \times 10^{-3} \s $$
+
+Apply the impulse-momentum theorem:
+
+$$ F_{\text{avg}} = \frac{\Delta p}{\Delta t} = \frac{-6.00 \kg \cdot \ms}{2.50 \times 10^{-3} \s} = -2.40 \times 10^{3} \N $$
+
+By Newton's third law, the force on the leg equals the force on the hand in magnitude but opposite in direction.
+
+The average force exerted on the leg is $$ 2.40 \times 10^{3} \N $$ toward the leg.
+
+**Solution for (b)**
+
+The force on each hand would have the same magnitude as that found in part (a) because:
+- Each hand has the same mass (1.50 kg)
+- Each hand has the same initial speed (4.00 m/s)
+- Each hand stops in the same time (2.50 ms)
+- Therefore, each hand has the same change in momentum
+
+By Newton's third law, the forces on the two hands are equal in magnitude but opposite in direction—each hand exerts 2400 N on the other.
+
+**Discussion**
+
+This force of 2400 N is about 540 pounds—explaining why a hard slap hurts! The short collision time (2.5 ms) results in a large force despite the modest speed and mass involved. This is why padding and cushioning help reduce impact forces: they extend the collision time, reducing the force for the same momentum change.
 </div>
 </div>
 
@@ -309,13 +389,54 @@ momentum and the time interval are the same.
 A professional boxer hits his opponent with a 1000-N horizontal blow that lasts
 for 0.150 s.
 (a) Calculate the impulse imparted by this blow.
-(b) What is the opponent’s final velocity, if his mass is 105 kg and he is
+(b) What is the opponent's final velocity, if his mass is 105 kg and he is
 motionless in midair when struck near his center of mass?
-(c) Calculate the recoil velocity of the opponent’s 10.0-kg head if hit in this
+(c) Calculate the recoil velocity of the opponent's 10.0-kg head if hit in this
 manner, assuming the head does not initially transfer significant momentum to
-the boxer’s body.
+the boxer's body.
 (d) Discuss the implications of your answers for parts (b) and (c).
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Impulse equals force times time: $$ J = F \Delta t $$. Once we have the impulse, we can find the velocity change using $$ J = \Delta p = m \Delta v $$.
+
+**Solution for (a)**
+
+$$ J = F \Delta t = (1000 \N)(0.150 \s) = 150 \N \cdot \s = 150 \kg \cdot \ms $$
+
+The impulse imparted by the blow is 150 N·s (or 150 kg·m/s).
+
+**Solution for (b)**
+
+The opponent starts at rest, so $$ v_i = 0 $$.
+
+Using $$ J = m \Delta v = m(v_f - v_i) $$:
+
+$$ v_f = \frac{J}{m} = \frac{150 \kg \cdot \ms}{105 \kg} = 1.43 \ms $$
+
+If struck in the body's center of mass, the opponent's final velocity is 1.43 m/s in the direction of the blow.
+
+**Solution for (c)**
+
+If the same impulse is delivered to just the head:
+
+$$ v_f = \frac{J}{m_{\text{head}}} = \frac{150 \kg \cdot \ms}{10.0 \kg} = 15.0 \ms $$
+
+If hit in the head, the head would recoil at 15.0 m/s.
+
+**Solution for (d)**
+
+The head velocity (15.0 m/s) is more than 10 times greater than the body velocity (1.43 m/s). This dramatic difference explains why head punches are so dangerous in boxing:
+- The rapid acceleration of the head causes the brain to impact the skull
+- A 15 m/s velocity change can cause concussion or worse
+- Boxing rules require gloves partly to extend collision time and reduce peak forces
+- Body shots, while painful, are much less likely to cause brain injury
+
+**Discussion**
+
+This analysis explains the fundamental danger of head trauma in contact sports. The same impulse produces vastly different effects depending on the mass involved. Protective headgear works by increasing collision time and distributing force, not by changing the impulse delivered.
 </div>
 </div>
 
@@ -333,10 +454,41 @@ between the car and floor.
 
 </div>
 <div class="solution" markdown="1">
-a) $$ 800 \kg \cdot  \ms $$ away from the wall
+**Strategy**
 
-b) $$ 1.20 \ms $$ away from the wall
+For part (a), impulse is force times time. For part (b), we apply the impulse-momentum theorem, noting that the force from the wall opposes the car's motion.
 
+**Solution for (a)**
+
+$$ J = F \Delta t = (4000 \N)(0.200 \s) = 800 \N \cdot \s = 800 \kg \cdot \ms $$
+
+The impulse imparted is 800 kg·m/s directed away from the wall (opposite to the car's initial motion).
+
+**Solution for (b)**
+
+Let positive direction be toward the wall (initial direction of motion). The wall exerts a force in the negative direction.
+
+Initial momentum:
+
+$$ p_i = mv_i = (200 \kg)(2.80 \ms) = 560 \kg \cdot \ms $$
+
+The impulse is negative (away from wall):
+
+$$ J = -800 \kg \cdot \ms $$
+
+Final momentum:
+
+$$ p_f = p_i + J = 560 \kg \cdot \ms + (-800 \kg \cdot \ms) = -240 \kg \cdot \ms $$
+
+Final velocity:
+
+$$ v_f = \frac{p_f}{m} = \frac{-240 \kg \cdot \ms}{200 \kg} = -1.20 \ms $$
+
+The final velocity is 1.20 m/s away from the wall (the car bounces back).
+
+**Discussion**
+
+The car reverses direction after hitting the rail, which is exactly what we expect from a bumper car collision. The wall delivers enough impulse to not only stop the car (which would require 560 kg·m/s) but also to give it momentum in the opposite direction. This is the fun of bumper cars—the collisions are designed to be bouncy while the padding extends the collision time to keep forces at safe levels.
 </div>
 </div>
 
@@ -352,6 +504,38 @@ of paint. Calculate the force exerted by a 0.100-mg chip of paint that strikes a
 spacecraft window at a relative speed of $$ 4.00\times 10^{3} \ms $$, given the
 collision lasts $$ 6.00\times 10^{-8} \s $$.
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use the impulse-momentum theorem. The paint chip comes to rest upon impact (or embeds in the window), so its entire momentum is transferred. We need to convert the mass to kg and apply $$ F = \frac{\Delta p}{\Delta t} $$.
+
+**Solution**
+
+Convert mass to kilograms:
+
+$$ m = 0.100 \text{ mg} = 0.100 \times 10^{-6} \kg = 1.00 \times 10^{-7} \kg $$
+
+Calculate the change in momentum (assuming the chip stops):
+
+$$ \Delta p = m(v_f - v_i) = (1.00 \times 10^{-7} \kg)(0 - 4.00 \times 10^{3} \ms) $$
+
+$$ \Delta p = -4.00 \times 10^{-4} \kg \cdot \ms $$
+
+Apply the impulse-momentum theorem:
+
+$$ F = \frac{|\Delta p|}{\Delta t} = \frac{4.00 \times 10^{-4} \kg \cdot \ms}{6.00 \times 10^{-8} \s} = 6.67 \times 10^{3} \N $$
+
+The force exerted by the paint chip on the spacecraft window is approximately $$ 6.67 \times 10^{3} \N $$ (about 1500 pounds of force).
+
+**Discussion**
+
+This result is remarkable—a tiny paint flake weighing just 0.1 milligrams exerts a force of nearly 7000 N! This occurs because:
+- Orbital velocities are extremely high (4 km/s is typical)
+- The collision time is incredibly short (60 nanoseconds)
+- Even though the momentum is small, dividing by such a tiny time produces a huge force
+
+This explains why spacecraft windows are made of multiple layers of reinforced glass and why space debris is a serious hazard. The International Space Station has had windows replaced due to damage from such impacts.
 </div>
 </div>
 
@@ -369,10 +553,45 @@ that compresses an average of 15.0 cm.
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 1.50\times 10^{6} \N $$ away from the dashboard
+**Strategy**
 
-(b) $$ 1.00\times 10^{5} \N $$ away from the dashboard
+We need to find the stopping time from the distance and velocity, then use the impulse-momentum theorem. Using kinematics with constant deceleration: $$ v^2 = v_0^2 + 2a\Delta x $$ gives us acceleration, then $$ \Delta t = \frac{\Delta v}{a} $$ gives time.
 
+**Solution for (a)**
+
+Using kinematics to find the stopping time for the dashboard:
+
+$$ v^2 = v_0^2 + 2a\Delta x $$
+
+$$ 0 = (20.0 \ms)^2 + 2a(0.0100 \m) $$
+
+$$ a = \frac{-(20.0 \ms)^2}{2(0.0100 \m)} = -2.00 \times 10^{4} \mss $$
+
+Find the stopping time:
+
+$$ \Delta t = \frac{v - v_0}{a} = \frac{0 - 20.0 \ms}{-2.00 \times 10^{4} \mss} = 1.00 \times 10^{-3} \s $$
+
+Calculate the force using impulse-momentum:
+
+$$ F = \frac{\Delta p}{\Delta t} = \frac{m \Delta v}{\Delta t} = \frac{(75.0 \kg)(20.0 \ms)}{1.00 \times 10^{-3} \s} = 1.50 \times 10^{6} \N $$
+
+The force on the person from the padded dashboard is $$ 1.50 \times 10^{6} \N $$ (about 337,000 pounds), directed away from the dashboard.
+
+**Solution for (b)**
+
+For the airbag with 15.0 cm compression:
+
+$$ a = \frac{-(20.0 \ms)^2}{2(0.150 \m)} = -1.33 \times 10^{3} \mss $$
+
+$$ \Delta t = \frac{0 - 20.0 \ms}{-1.33 \times 10^{3} \mss} = 1.50 \times 10^{-2} \s $$
+
+$$ F = \frac{(75.0 \kg)(20.0 \ms)}{1.50 \times 10^{-2} \s} = 1.00 \times 10^{5} \N $$
+
+The force on the person from the airbag is $$ 1.00 \times 10^{5} \N $$ (about 22,500 pounds), directed away from the dashboard.
+
+**Discussion**
+
+The airbag reduces the force by a factor of 15—exactly the ratio of the stopping distances! The padded dashboard force of 1.5 million N (about 2000 times body weight) would likely be fatal, while the airbag force of 100,000 N (about 135 times body weight), though still very large, is survivable because it's distributed across the body. This dramatically illustrates why airbags save lives: they increase the stopping distance and time, reducing the peak force.
 </div>
 </div>
 
@@ -393,22 +612,94 @@ exerted upon it by the gun?
 its velocity in 10.0 ms (milliseconds).
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For part (a), we use conservation of momentum between the bullet and plunger. For part (b), we use kinematics and Newton's second law to find the stopping force. For part (c), we calculate the force from the bullet's acceleration.
+
+**Solution for (a)**
+
+By conservation of momentum (initial momentum is zero):
+
+$$ m_{\text{bullet}} v_{\text{bullet}} + m_{\text{plunger}} v_{\text{plunger}} = 0 $$
+
+$$ v_{\text{plunger}} = -\frac{m_{\text{bullet}} v_{\text{bullet}}}{m_{\text{plunger}}} $$
+
+$$ v_{\text{plunger}} = -\frac{(0.0200 \kg)(600 \ms)}{1.00 \kg} = -12.0 \ms $$
+
+The recoil velocity of the plunger is 12.0 m/s in the direction opposite to the bullet.
+
+**Solution for (b)**
+
+Using kinematics to find the deceleration:
+
+$$ v^2 = v_0^2 + 2a \Delta x $$
+
+$$ 0 = (12.0 \ms)^2 + 2a(0.200 \m) $$
+
+$$ a = \frac{-(12.0 \ms)^2}{2(0.200 \m)} = -360 \mss $$
+
+Calculate the force:
+
+$$ F = m_{\text{plunger}} |a| = (1.00 \kg)(360 \mss) = 360 \N $$
+
+The average force exerted on the plunger is 360 N.
+
+**Solution for (c)**
+
+Calculate the force to accelerate the bullet:
+
+$$ a_{\text{bullet}} = \frac{\Delta v}{\Delta t} = \frac{600 \ms}{10.0 \times 10^{-3} \s} = 6.00 \times 10^{4} \mss $$
+
+$$ F_{\text{bullet}} = m_{\text{bullet}} a_{\text{bullet}} = (0.0200 \kg)(6.00 \times 10^{4} \mss) = 1200 \N $$
+
+Compare the forces:
+
+$$ \frac{F_{\text{bullet}}}{F_{\text{plunger}}} = \frac{1200 \N}{360 \N} = 3.33 $$
+
+The force on the gun from accelerating the bullet (1200 N) is 3.33 times larger than the force on the plunger mechanism (360 N).
+
+**Discussion**
+
+The recoil-reducing mechanism decreases the force felt by the shooter by a factor of more than 3. This is achieved by allowing the internal plunger to recoil over a larger distance (20 cm) compared to the short distance over which the bullet accelerates. The same momentum must be absorbed, but extending the distance (and time) reduces the force. This principle is used in many firearms to improve accuracy and reduce shooter fatigue.
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A cruise ship with a mass of $$ 1.00\times 10^{7}\kg $$
 strikes a pier at a speed of 0.750 m/s. It comes to rest 6.00 m later, damaging
-the ship, the pier, and the tugboat captain’s finances. Calculate the average
+the ship, the pier, and the tugboat captain's finances. Calculate the average
 force exerted on the pier using the concept of impulse. (Hint: First calculate
 the time it took to bring the ship to rest.)
 
 </div>
 <div class="solution" markdown="1">
- $$ 4.69\times 10^{5}\N $$
+**Strategy**
 
-in the boat’s original direction of motion
+First, we use kinematics to find the stopping time, then apply the impulse-momentum theorem. The average velocity during uniform deceleration is half the initial velocity.
 
+**Solution**
+
+Find the stopping time using the average velocity:
+
+$$ v_{\text{avg}} = \frac{v_i + v_f}{2} = \frac{0.750 \ms + 0}{2} = 0.375 \ms $$
+
+$$ \Delta t = \frac{\Delta x}{v_{\text{avg}}} = \frac{6.00 \m}{0.375 \ms} = 16.0 \s $$
+
+Calculate the ship's initial momentum:
+
+$$ p_i = mv_i = (1.00 \times 10^{7} \kg)(0.750 \ms) = 7.50 \times 10^{6} \kg \cdot \ms $$
+
+Apply the impulse-momentum theorem:
+
+$$ F_{\text{avg}} = \frac{|\Delta p|}{\Delta t} = \frac{|0 - 7.50 \times 10^{6} \kg \cdot \ms|}{16.0 \s} = 4.69 \times 10^{5} \N $$
+
+The average force exerted on the pier is $$ 4.69 \times 10^{5} \N $$ (about 105,000 pounds or 53 tons) in the ship's original direction of motion.
+
+**Discussion**
+
+Despite the relatively slow speed of 0.750 m/s (about 1.5 mph—walking pace), the ship's enormous mass results in a force of nearly half a million newtons! The 16-second stopping time helps reduce this force—if the ship stopped more abruptly (say, in 1 second), the force would be 16 times larger (7.5 million N). This illustrates why docking procedures are so careful and why tugboats are essential for maneuvering large vessels.
 </div>
 </div>
 
@@ -420,19 +711,69 @@ experiences a backward force of $$ 1.76\times 10^{4}\N $$
 for $$ 5.50\times 10^{-2}\s $$.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We apply the impulse-momentum theorem. The backward force produces a negative impulse that changes the player's momentum. We calculate the impulse and use it to find the change in velocity.
+
+**Solution**
+
+Calculate the impulse (force is backward, so negative):
+
+$$ J = F \Delta t = (-1.76 \times 10^{4} \N)(5.50 \times 10^{-2} \s) = -968 \kg \cdot \ms $$
+
+Calculate the initial momentum:
+
+$$ p_i = mv_i = (110 \kg)(8.00 \ms) = 880 \kg \cdot \ms $$
+
+Find the final momentum:
+
+$$ p_f = p_i + J = 880 \kg \cdot \ms + (-968 \kg \cdot \ms) = -88 \kg \cdot \ms $$
+
+Calculate the final velocity:
+
+$$ v_f = \frac{p_f}{m} = \frac{-88 \kg \cdot \ms}{110 \kg} = -0.80 \ms $$
+
+The final speed of the rugby player is 0.80 m/s, moving backward (away from the goalpost).
+
+**Discussion**
+
+The player not only stops but bounces back at 0.80 m/s. The impulse of 968 kg·m/s is larger than the initial momentum of 880 kg·m/s, causing the reversal. The padded goalpost extends the collision time to 55 ms, limiting the force to about 17,600 N—still a substantial 16 times body weight, but survivable due to the padding. Without padding, the collision time would be much shorter and the force could cause serious injury.
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Water from a fire hose is directed horizontally against a wall at
 a rate of 50.0 kg/s and a speed of 42.0 m/s. Calculate the magnitude
-of the force exerted on the wall, assuming the water’s horizontal
+of the force exerted on the wall, assuming the water's horizontal
 momentum is reduced to zero.
 
 </div>
 <div class="solution"  markdown="1">
- $$ 2.10\times 10^{3} \N $$ away from the wall
+**Strategy**
 
+This is a continuous flow problem. We use the rate form of Newton's second law: $$ F = \frac{\Delta p}{\Delta t} = \frac{\Delta m}{\Delta t} \times \Delta v $$. The mass flow rate and velocity change give us the force directly.
+
+**Solution**
+
+The mass flow rate is:
+
+$$ \frac{\Delta m}{\Delta t} = 50.0 \text{ kg/s} $$
+
+The velocity change for each bit of water (comes to rest):
+
+$$ \Delta v = v_f - v_i = 0 - 42.0 \ms = -42.0 \ms $$
+
+Calculate the force using the momentum flow rate:
+
+$$ F = \frac{\Delta m}{\Delta t} \times |v_i| = (50.0 \text{ kg/s})(42.0 \ms) = 2.10 \times 10^{3} \N $$
+
+The force exerted on the wall is $$ 2.10 \times 10^{3} \N $$ (about 470 pounds) directed away from the hose.
+
+**Discussion**
+
+This force of 2100 N is substantial—equivalent to the weight of about 210 kg (460 lbs). This explains why firefighters must brace themselves when using high-pressure hoses. The force arises because 50 kg of water per second (about 50 liters) is having its momentum completely absorbed by the wall. If the water bounced back (as it partially does in reality), the force would be even greater because the momentum change would be larger.
 </div>
 </div>
 
@@ -444,6 +785,39 @@ a nail and comes to rest after driving the nail 1.00 cm into a board.
 (b) What was the average force exerted on the nail?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For part (a), we use kinematics with the stopping distance to find the time. For part (b), we apply the impulse-momentum theorem.
+
+**Solution for (a)**
+
+Using the average velocity during deceleration:
+
+$$ v_{\text{avg}} = \frac{v_i + v_f}{2} = \frac{7.00 \ms + 0}{2} = 3.50 \ms $$
+
+Calculate the duration:
+
+$$ \Delta t = \frac{\Delta x}{v_{\text{avg}}} = \frac{0.0100 \m}{3.50 \ms} = 2.86 \times 10^{-3} \s $$
+
+The duration of the impact is approximately 2.86 ms (about 3 milliseconds).
+
+**Solution for (b)**
+
+Calculate the change in momentum:
+
+$$ \Delta p = m(v_f - v_i) = (0.450 \kg)(0 - 7.00 \ms) = -3.15 \kg \cdot \ms $$
+
+Apply the impulse-momentum theorem:
+
+$$ F_{\text{avg}} = \frac{|\Delta p|}{\Delta t} = \frac{3.15 \kg \cdot \ms}{2.86 \times 10^{-3} \s} = 1.10 \times 10^{3} \N $$
+
+The average force exerted on the nail is approximately $$ 1.10 \times 10^{3} \N $$ (about 250 pounds).
+
+**Discussion**
+
+A force of 1100 N—over 2000 times the hammer's weight—is exerted on the nail during the brief 3-millisecond impact. This force is sufficient to drive the nail into wood. The short stopping distance (1 cm) is key to generating such a large force. If the hammer bounced or the stopping distance were larger, the force would be reduced. This is why hammers are made of hard materials—they don't compress on impact, maximizing the force transmitted to the nail.
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -453,14 +827,34 @@ derive an equation for the kinetic energy of a particle expressed
 as a function of its momentum.
 
 </div>
-<div class="solution">
-<div class="equation">
- $$ \begin{array}{}
-\vb{p}=m\vb{v}⇒{p}^{2}={m}^{2}{v}^{2}⇒
-\frac{ p^{2}}{m}=mv^{2}\\ ⇒\frac{ p^{2}}{2m}=\frac{1}{2}m v^{2}=\KE\\
-\KE=\frac{ p^{2}}{2m}
-\end{array} $$
-</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We start with the definitions of momentum ($$ p = mv $$) and kinetic energy ($$ \KE = \frac{1}{2}mv^2 $$) and algebraically eliminate velocity to express kinetic energy in terms of momentum and mass.
+
+**Solution**
+
+Start with the definition of momentum:
+
+$$ p = mv $$
+
+Solve for velocity:
+
+$$ v = \frac{p}{m} $$
+
+Substitute into the kinetic energy equation:
+
+$$ \KE = \frac{1}{2}mv^2 = \frac{1}{2}m\left(\frac{p}{m}\right)^2 $$
+
+$$ \KE = \frac{1}{2}m \cdot \frac{p^2}{m^2} = \frac{p^2}{2m} $$
+
+Therefore, the kinetic energy expressed as a function of momentum is:
+
+$$ \KE = \frac{p^2}{2m} $$
+
+**Discussion**
+
+This relationship $$ \KE = \frac{p^2}{2m} $$ is very useful in physics. It shows that for a given momentum, a less massive object has more kinetic energy (since $$ m $$ is in the denominator). This explains why, in collisions with equal momentum transfer, lighter objects move faster and carry more kinetic energy. The relationship is particularly important in particle physics where momentum is often conserved while kinetic energy may not be.
 </div>
 </div>
 
@@ -472,6 +866,43 @@ wall and bounces off so that it is moving
 $$ 60^\circ $$ above the $$ -x $$ -direction with the same speed. What is the
 impulse delivered by the wall?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The impulse equals the change in momentum: $$ \vb{J} = \Delta \vb{p} = \vb{p}_f - \vb{p}_i $$. We need to find the x and y components of momentum before and after the collision, then calculate the change.
+
+**Solution**
+
+Convert mass to kg: $$ m = 55 \text{ g} = 0.055 \kg $$
+
+Find the initial velocity components:
+
+$$ v_{ix} = v \cos 60^\circ = (10 \ms)(0.500) = 5.00 \ms $$
+
+$$ v_{iy} = v \sin 60^\circ = (10 \ms)(0.866) = 8.66 \ms $$
+
+Find the final velocity components (moving at $$ 60^\circ $$ above $$ -x $$):
+
+$$ v_{fx} = -v \cos 60^\circ = -(10 \ms)(0.500) = -5.00 \ms $$
+
+$$ v_{fy} = v \sin 60^\circ = (10 \ms)(0.866) = 8.66 \ms $$
+
+Calculate the change in momentum components:
+
+$$ \Delta p_x = m(v_{fx} - v_{ix}) = (0.055 \kg)(-5.00 - 5.00) \ms = -0.55 \kg \cdot \ms $$
+
+$$ \Delta p_y = m(v_{fy} - v_{iy}) = (0.055 \kg)(8.66 - 8.66) \ms = 0 $$
+
+Find the magnitude of the impulse:
+
+$$ J = |\Delta \vb{p}| = \sqrt{(\Delta p_x)^2 + (\Delta p_y)^2} = \sqrt{(-0.55)^2 + 0^2} = 0.55 \kg \cdot \ms $$
+
+The impulse delivered by the wall is 0.55 kg·m/s in the $$ -x $$ direction (perpendicular to the wall, away from the ball's initial approach).
+
+**Discussion**
+
+The wall only changes the x-component of momentum, reversing it completely. The y-component remains unchanged because the wall exerts no vertical force (assuming a frictionless wall). The impulse magnitude of 0.55 kg·m/s represents twice the initial x-momentum, which is characteristic of a perfectly elastic bounce where the perpendicular velocity component reverses.
 </div>
 </div>
 
@@ -485,8 +916,29 @@ Using these data, find the mass of the ball.
 
 </div>
 <div class="solution" markdown="1">
-60.0 g
+**Strategy**
 
+We use the impulse-momentum theorem. The impulse from the racquet equals the change in momentum of the ball. Since the ball starts from rest, the final momentum equals the impulse.
+
+**Solution**
+
+Calculate the impulse:
+
+$$ J = F \Delta t = (540 \N)(5.00 \times 10^{-3} \s) = 2.70 \kg \cdot \ms $$
+
+Since the ball starts at rest ($$ v_i = 0 $$):
+
+$$ J = \Delta p = m v_f - m v_i = m v_f $$
+
+Solve for mass:
+
+$$ m = \frac{J}{v_f} = \frac{2.70 \kg \cdot \ms}{45.0 \ms} = 0.0600 \kg = 60.0 \text{ g} $$
+
+The mass of the tennis ball is 60.0 g.
+
+**Discussion**
+
+This result is consistent with official tennis ball specifications, which require balls to have a mass between 56.0 and 59.4 grams. Our calculated value of 60.0 g is very close to this range. The short contact time of 5 ms, combined with the 540 N force, produces an impulse sufficient to accelerate this light ball to serve speeds of 45 m/s (162 km/h or about 100 mph)—a respectable recreational serve.
 </div>
 </div>
 
@@ -497,6 +949,49 @@ The ball leaves the foot with a speed of 18 m/s at an angle $$ 55^\circ $$
 above the horizontal. What is the impulse delivered by the foot (magnitude and
 direction)?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We need to find the ball's velocity just before impact (using free fall kinematics), then calculate the change in momentum vector from just before to just after the kick.
+
+**Solution**
+
+First, find the velocity just before impact using free fall:
+
+$$ v_i^2 = v_0^2 + 2gh = 0 + 2(9.80 \mss)(1.00 \m) = 19.6 \text{ m}^2/\text{s}^2 $$
+
+$$ v_i = 4.43 \ms \text{ (downward)} $$
+
+Initial momentum components (taking +x horizontal, +y upward):
+
+$$ p_{ix} = 0 $$
+
+$$ p_{iy} = m v_i = (0.075 \kg)(-4.43 \ms) = -0.332 \kg \cdot \ms $$
+
+Final momentum components (18 m/s at 55° above horizontal):
+
+$$ p_{fx} = m v_f \cos 55^\circ = (0.075 \kg)(18 \ms)(0.574) = 0.775 \kg \cdot \ms $$
+
+$$ p_{fy} = m v_f \sin 55^\circ = (0.075 \kg)(18 \ms)(0.819) = 1.11 \kg \cdot \ms $$
+
+Calculate the impulse components:
+
+$$ J_x = p_{fx} - p_{ix} = 0.775 - 0 = 0.775 \kg \cdot \ms $$
+
+$$ J_y = p_{fy} - p_{iy} = 1.11 - (-0.332) = 1.44 \kg \cdot \ms $$
+
+Find the magnitude and direction:
+
+$$ J = \sqrt{J_x^2 + J_y^2} = \sqrt{(0.775)^2 + (1.44)^2} = 1.64 \kg \cdot \ms $$
+
+$$ \theta = \tan^{-1}\left(\frac{J_y}{J_x}\right) = \tan^{-1}\left(\frac{1.44}{0.775}\right) = 61.7^\circ $$
+
+The impulse delivered by the foot is 1.64 kg·m/s at 61.7° above the horizontal.
+
+**Discussion**
+
+The impulse angle (61.7°) is steeper than the final ball trajectory (55°) because the foot must also reverse the downward momentum of the falling ball. The foot provides both horizontal momentum (to send the ball forward) and upward momentum (to reverse the fall and launch the ball upward). This is a more complex momentum change than simply launching a stationary ball.
 </div>
 </div>
 

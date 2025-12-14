@@ -333,18 +333,53 @@ for elastic collisions of objects that have identical masses.)
 
 </div>
 <div class="solution" markdown="1">
-(a) 3.00 m/s, $$ 60^\circ $$ below $$ x $$ -axis
+**Strategy**
 
-(b) Find speed of first puck after collision:
-$$ 0=m v^{\prime}_{1} \sin{30^\circ}-m v^{\prime}_{2}\sin{ 60^\circ }⇒
-v^{\prime}_{1}=v^{\prime}_{2}\frac{ \sin{ 60^\circ}}{\sin{ 30^\circ }}= 5.196
-\ms $$ 
+For elastic collisions between identical masses where one is initially at rest, the two objects move at 90° to each other after collision. We use this result plus conservation of momentum in the y-direction to find the velocities.
 
-Verify that ratio of initial to final KE equals one:
-$$  \left. \begin{array}{l} \KE=\frac{1}{2} m v_{1}^{2}=18 \text{mJ}\\
-\KE=\frac{1}{2} m {v^{\prime}_{1}}^{2}+\frac{1}{2} m {v^{\prime}_{2}}^{2}
-=18\text{mJ} \end{array} \right\} $$ 
-$$\frac{\KE}{\KE^\prime}=1.00 $$
+**Solution for (a)**
+
+Given: $$ \theta_1 = 30.0^\circ $$ above the x-axis.
+
+Using $$ \theta_1 - \theta_2 = 90^\circ $$:
+$$ \theta_2 = \theta_1 - 90^\circ = 30.0^\circ - 90^\circ = -60.0^\circ $$
+
+So the second puck moves at $$ 60.0^\circ $$ below the x-axis.
+
+Apply conservation of momentum in the y-direction (initially zero):
+$$ 0 = m v'_1 \sin{30.0^\circ} + m v'_2 \sin{(-60.0^\circ)} $$
+
+$$ v'_1 \sin{30.0^\circ} = v'_2 \sin{60.0^\circ} $$
+
+Apply conservation of momentum in the x-direction:
+$$ m v_1 = m v'_1 \cos{30.0^\circ} + m v'_2 \cos{60.0^\circ} $$
+
+$$ 6.00 \ms = v'_1 (0.866) + v'_2 (0.500) $$
+
+From the y-equation: $$ v'_1 (0.500) = v'_2 (0.866) $$, so $$ v'_1 = 1.732 v'_2 $$
+
+Substitute into x-equation:
+$$ 6.00 = (1.732 v'_2)(0.866) + v'_2 (0.500) = 1.500 v'_2 + 0.500 v'_2 = 2.00 v'_2 $$
+
+$$ v'_2 = 3.00 \ms $$
+
+The second puck moves at 3.00 m/s at $$ 60.0^\circ $$ below the x-axis.
+
+**Solution for (b)**
+
+Find $$ v'_1 $$: $$ v'_1 = 1.732 (3.00 \ms) = 5.20 \ms $$
+
+Initial kinetic energy (let m = 1 kg for simplicity):
+$$ \KE_i = \frac{1}{2}(1)(6.00)^2 = 18.0 \J $$
+
+Final kinetic energy:
+$$ \KE_f = \frac{1}{2}(1)(5.20)^2 + \frac{1}{2}(1)(3.00)^2 = 13.5 \J + 4.50 \J = 18.0 \J $$
+
+Since $$ \KE_i = \KE_f = 18.0 \J $$, the collision is elastic.
+
+**Discussion**
+
+The 90° separation angle is a distinctive feature of elastic collisions between equal masses. The faster puck after collision (5.20 m/s at 30°) carries more kinetic energy than the slower one (3.00 m/s at 60°), but together they conserve both momentum and kinetic energy.
 </div>
 </div>
 
@@ -353,6 +388,45 @@ $$\frac{\KE}{\KE^\prime}=1.00 $$
 Confirm that the results of the [Example 1](#example1) do conserve momentum in
 both the $$ x $$- and $$ y $$-directions.
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+From Example 1: $$ m_1 = 0.250 \kg $$, $$ m_2 = 0.400 \kg $$, $$ v_1 = 2.00 \ms $$, $$ v'_1 = 1.50 \ms $$, $$ \theta_1 = 45.0^\circ $$, $$ v'_2 = 0.886 \ms $$, $$ \theta_2 = -48.5^\circ $$ (or 312°). We verify conservation of momentum in both directions.
+
+**Solution**
+
+**x-direction momentum:**
+
+Initial x-momentum:
+$$ p_{x,i} = m_1 v_1 + m_2 (0) = (0.250 \kg)(2.00 \ms) = 0.500 \kg \cdot \ms $$
+
+Final x-momentum:
+$$ p_{x,f} = m_1 v'_1 \cos{45.0^\circ} + m_2 v'_2 \cos{(-48.5^\circ)} $$
+
+$$ p_{x,f} = (0.250 \kg)(1.50 \ms)(0.707) + (0.400 \kg)(0.886 \ms)(0.662) $$
+
+$$ p_{x,f} = 0.265 \kg \cdot \ms + 0.235 \kg \cdot \ms = 0.500 \kg \cdot \ms $$
+
+Since $$ p_{x,i} = p_{x,f} = 0.500 \kg \cdot \ms $$, x-momentum is conserved. ✓
+
+**y-direction momentum:**
+
+Initial y-momentum:
+$$ p_{y,i} = 0 $$ (both objects moving along x-axis initially)
+
+Final y-momentum:
+$$ p_{y,f} = m_1 v'_1 \sin{45.0^\circ} + m_2 v'_2 \sin{(-48.5^\circ)} $$
+
+$$ p_{y,f} = (0.250 \kg)(1.50 \ms)(0.707) + (0.400 \kg)(0.886 \ms)(-0.749) $$
+
+$$ p_{y,f} = 0.265 \kg \cdot \ms - 0.265 \kg \cdot \ms = 0 $$
+
+Since $$ p_{y,i} = p_{y,f} = 0 $$, y-momentum is conserved. ✓
+
+**Discussion**
+
+Momentum is conserved in both directions, as required. The y-components of the final momenta are equal and opposite, canceling to give zero net y-momentum, matching the initial condition. This confirms the validity of the solution found in Example 1.
 </div>
 </div>
 
@@ -368,16 +442,41 @@ when it is fired?
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ -2.26 \ms $$
+**Strategy**
 
-(b) $$ 7.63\times 10^{3} \J $$
+Since the cannon can only recoil horizontally, we apply conservation of momentum in the horizontal direction only. The shell's velocity has horizontal and vertical components; only the horizontal component affects the cannon's recoil.
 
-(c) The ground will exert a normal force to oppose recoil of the cannon in the
-vertical direction. The momentum in the vertical direction is transferred to the
-earth. The energy is transferred into the ground, making a dent where the cannon
-is. After long barrages, cannon have erratic aim because the ground is full of
-divots.
+**Solution for (a)**
 
+Find the horizontal component of the shell's velocity:
+
+$$ v_{\text{shell},x} = v_{\text{shell}} \cos{20.0^\circ} = (480 \ms)(0.940) = 451 \ms $$
+
+Apply conservation of horizontal momentum (initial momentum = 0):
+
+$$ 0 = m_{\text{cannon}} v_{\text{cannon}} + m_{\text{shell}} v_{\text{shell},x} $$
+
+$$ v_{\text{cannon}} = -\frac{m_{\text{shell}} v_{\text{shell},x}}{m_{\text{cannon}}} = -\frac{(15.0 \kg)(451 \ms)}{3000 \kg} = -2.26 \ms $$
+
+The cannon recoils at 2.26 m/s in the direction opposite to the horizontal component of the shell's motion.
+
+**Solution for (b)**
+
+$$ \KE_{\text{cannon}} = \frac{1}{2} m_{\text{cannon}} v_{\text{cannon}}^2 = \frac{1}{2}(3000 \kg)(2.26 \ms)^2 = 7.66 \times 10^{3} \J $$
+
+The kinetic energy of the cannon is approximately $$ 7.63 \times 10^{3} \J $$ (7.63 kJ).
+
+**Solution for (c)**
+
+The vertical component of the shell's momentum is:
+
+$$ p_{\text{shell},y} = m_{\text{shell}} v_{\text{shell}} \sin{20.0^\circ} = (15.0 \kg)(480 \ms)(0.342) = 2460 \kg \cdot \ms $$
+
+Since the cannon cannot move vertically, this momentum is transferred to the ground through the cannon's mounting. The ground exerts an upward normal force on the cannon that absorbs this vertical momentum. Over time, repeated firings transfer significant momentum to the ground, which can cause the cannon to sink or shift, affecting aim accuracy.
+
+**Discussion**
+
+The cannon's recoil energy (7.63 kJ) must be absorbed by shock absorbers to prevent damage. The shell's total kinetic energy is much larger: $$ \frac{1}{2}(15 \kg)(480 \ms)^2 = 1.73 \times 10^6 \J $$, so the cannon receives only about 0.4% of the energy—the rest goes to the shell.
 </div>
 </div>
 
@@ -394,6 +493,57 @@ the bowling ball and with a speed of 15.0 m/s.
 (c) Linear kinetic energy is greater after the collision. Discuss how spin on
 the ball might be converted to linear kinetic energy in the collision.
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We apply conservation of momentum in both x and y directions to find the ball's final velocity components. Then we compare kinetic energies to determine if the collision is elastic.
+
+**Solution for (a)**
+
+Conservation of x-momentum:
+
+$$ m_{\text{ball}} v_{\text{ball}} = m_{\text{ball}} v'_{\text{ball},x} + m_{\text{pin}} v'_{\text{pin}} \cos{85.0^\circ} $$
+
+$$ (5.50)(9.00) = (5.50) v'_{\text{ball},x} + (0.850)(15.0)(0.0872) $$
+
+$$ 49.5 = 5.50 v'_{\text{ball},x} + 1.11 $$
+
+$$ v'_{\text{ball},x} = \frac{49.5 - 1.11}{5.50} = 8.80 \ms $$
+
+Conservation of y-momentum (initially zero):
+
+$$ 0 = m_{\text{ball}} v'_{\text{ball},y} + m_{\text{pin}} v'_{\text{pin}} \sin{85.0^\circ} $$
+
+$$ v'_{\text{ball},y} = -\frac{(0.850)(15.0)(0.996)}{5.50} = -2.31 \ms $$
+
+Final ball velocity magnitude:
+
+$$ v'_{\text{ball}} = \sqrt{(8.80)^2 + (-2.31)^2} = \sqrt{77.4 + 5.34} = 9.10 \ms $$
+
+Direction:
+
+$$ \theta = \tan^{-1}\left(\frac{-2.31}{8.80}\right) = -14.7^\circ $$
+
+The bowling ball's final velocity is 9.10 m/s at 14.7° below the horizontal.
+
+**Solution for (b)**
+
+Initial KE:
+$$ \KE_i = \frac{1}{2}(5.50)(9.00)^2 = 223 \J $$
+
+Final KE:
+$$ \KE_f = \frac{1}{2}(5.50)(9.10)^2 + \frac{1}{2}(0.850)(15.0)^2 = 228 \J + 95.6 \J = 324 \J $$
+
+Since $$ \KE_f > \KE_i $$, the collision is NOT elastic. In fact, kinetic energy increased!
+
+**Solution for (c)**
+
+The increase in linear kinetic energy (324 J - 223 J = 101 J) likely comes from the rotational kinetic energy of the spinning bowling ball. During the collision, friction between the ball and pin can convert some of the ball's spin energy into linear kinetic energy of the pin. This is why experienced bowlers put spin on the ball—it stores additional energy that can be transferred to the pins during impact.
+
+**Discussion**
+
+This is a "superelastic" collision where internal energy (from the ball's rotation) is converted to linear kinetic energy. The ball's speed actually increased slightly (9.00 to 9.10 m/s) while also deflecting, showing that energy was added to the linear motion.
 </div>
 </div>
 
@@ -439,6 +589,65 @@ you cannot use the equations for conservation of momentum along the *
 $$ x $$
 *-axis and $$ y $$ -axis; instead, you must look for other simplifying aspects.
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Define coordinates: let +x be east and +y be north. Car 1 moves south (-y direction), Car 2 moves west (-x direction). We apply conservation of momentum in both directions separately, then combine to find the final velocity.
+
+**Solution for (a)**
+
+Car 1: $$ m_1 = 1200 \kg $$, $$ v_{1x} = 0 $$, $$ v_{1y} = -8.00 \ms $$ (south)
+
+Car 2: $$ m_2 = 850 \kg $$, $$ v_{2x} = -17.0 \ms $$ (west), $$ v_{2y} = 0 $$
+
+Conservation of x-momentum:
+
+$$ m_1 v_{1x} + m_2 v_{2x} = (m_1 + m_2) v_{fx} $$
+
+$$ (1200)(0) + (850)(-17.0) = (2050) v_{fx} $$
+
+$$ v_{fx} = \frac{-14450}{2050} = -7.05 \ms $$
+
+Conservation of y-momentum:
+
+$$ m_1 v_{1y} + m_2 v_{2y} = (m_1 + m_2) v_{fy} $$
+
+$$ (1200)(-8.00) + (850)(0) = (2050) v_{fy} $$
+
+$$ v_{fy} = \frac{-9600}{2050} = -4.68 \ms $$
+
+Final velocity magnitude:
+
+$$ v_f = \sqrt{v_{fx}^2 + v_{fy}^2} = \sqrt{(-7.05)^2 + (-4.68)^2} = \sqrt{49.7 + 21.9} = 8.46 \ms $$
+
+Direction (angle from west toward south):
+
+$$ \theta = \tan^{-1}\left(\frac{|v_{fy}|}{|v_{fx}|}\right) = \tan^{-1}\left(\frac{4.68}{7.05}\right) = 33.6^\circ $$
+
+The final velocity is 8.46 m/s in a direction $$ 33.6^\circ $$ south of west.
+
+**Solution for (b)**
+
+Initial kinetic energy:
+
+$$ \KE_i = \frac{1}{2}m_1 v_1^2 + \frac{1}{2}m_2 v_2^2 = \frac{1}{2}(1200)(8.00)^2 + \frac{1}{2}(850)(17.0)^2 $$
+
+$$ \KE_i = 38400 \J + 122825 \J = 161225 \J $$
+
+Final kinetic energy:
+
+$$ \KE_f = \frac{1}{2}(m_1 + m_2) v_f^2 = \frac{1}{2}(2050)(8.46)^2 = 73400 \J $$
+
+Kinetic energy lost:
+
+$$ \Delta \KE = \KE_i - \KE_f = 161225 \J - 73400 \J = 87800 \J \approx 8.78 \times 10^{4} \J $$
+
+Approximately 87.8 kJ of kinetic energy is lost in the collision.
+
+**Discussion**
+
+Over half (54%) of the initial kinetic energy is converted to deformation of the cars, heat, and sound. This is a significant amount of energy—equivalent to accelerating a 1000-kg car from rest to about 47 km/h. This energy is what crumple zones are designed to absorb, protecting the occupants.
 </div>
 </div>
 
@@ -502,6 +711,35 @@ A 90.0-kg ice hockey player hits a 0.150-kg puck, giving the puck a velocity of
 does the player recoil in the time it takes the puck to reach the goal 15.0 m
 away?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+First, use conservation of momentum to find the player's recoil velocity. Then calculate the time for the puck to reach the goal, and use this time to find how far the player moves.
+
+**Solution**
+
+Conservation of momentum (both initially at rest):
+
+$$ 0 = m_{\text{player}} v_{\text{player}} + m_{\text{puck}} v_{\text{puck}} $$
+
+$$ v_{\text{player}} = -\frac{m_{\text{puck}} v_{\text{puck}}}{m_{\text{player}}} = -\frac{(0.150 \kg)(45.0 \ms)}{90.0 \kg} = -0.0750 \ms $$
+
+The player recoils at 0.0750 m/s in the direction opposite to the puck.
+
+Time for puck to reach the goal:
+
+$$ t = \frac{d}{v_{\text{puck}}} = \frac{15.0 \m}{45.0 \ms} = 0.333 \s $$
+
+Distance the player recoils in this time:
+
+$$ d_{\text{player}} = |v_{\text{player}}| \times t = (0.0750 \ms)(0.333 \s) = 0.0250 \m = 2.50 \text{ cm} $$
+
+The player recoils 2.50 cm (0.025 m) in the time it takes the puck to reach the goal.
+
+**Discussion**
+
+The player barely moves (2.5 cm) despite giving the puck significant velocity. This is because the player's mass is 600 times the puck's mass, so the recoil velocity is 600 times smaller. The frictionless ice ensures momentum is conserved, and the short time (1/3 second) limits how far the player can move before the puck reaches the goal.
 </div>
 </div>
 

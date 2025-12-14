@@ -218,6 +218,43 @@ What is an elastic collision?
 Two identical objects (such as billiard balls) have a one-dimensional collision in which one is initially motionless. After the collision, the moving object is stationary and the other moves with the same speed as the other originally had. Show that both momentum and kinetic energy are conserved.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We need to verify that the total momentum before equals the total momentum after, and that the total kinetic energy before equals the total kinetic energy after.
+
+**Solution**
+
+Let both objects have mass $$ m $$. Let the initial velocity of object 1 be $$ v $$ and object 2 be at rest.
+
+After collision: object 1 is at rest, object 2 moves with velocity $$ v $$.
+
+**Check momentum conservation:**
+
+Initial momentum:
+$$ p_i = m \cdot v + m \cdot 0 = mv $$
+
+Final momentum:
+$$ p_f = m \cdot 0 + m \cdot v = mv $$
+
+Since $$ p_i = p_f = mv $$, momentum is conserved.
+
+**Check kinetic energy conservation:**
+
+Initial kinetic energy:
+$$ \KE_i = \frac{1}{2}mv^2 + \frac{1}{2}m(0)^2 = \frac{1}{2}mv^2 $$
+
+Final kinetic energy:
+$$ \KE_f = \frac{1}{2}m(0)^2 + \frac{1}{2}mv^2 = \frac{1}{2}mv^2 $$
+
+Since $$ \KE_i = \KE_f = \frac{1}{2}mv^2 $$, kinetic energy is conserved.
+
+Both momentum and kinetic energy are conserved, confirming this is an elastic collision.
+
+**Discussion**
+
+This complete transfer of motion between identical masses is characteristic of head-on elastic collisions. It's familiar from billiards and Newton's cradle—the moving object stops completely and transfers all its momentum and kinetic energy to the initially stationary object. This only happens when the masses are equal and the collision is perfectly elastic.
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -232,8 +269,41 @@ elastically rather than dock, what is their final relative velocity?
 
 </div>
 <div class="solution" markdown="1">
-0.250 m/s
+**Strategy**
 
+In an elastic collision, both momentum and kinetic energy are conserved. A fundamental property of elastic collisions is that the relative velocity of approach equals the relative velocity of separation (but in the opposite direction).
+
+**Solution**
+
+For any elastic collision, the relative velocity of approach equals the relative velocity of separation:
+
+$$ |v_1 - v_2| = |v'_1 - v'_2| $$
+
+This is a consequence of conserving both momentum and kinetic energy simultaneously.
+
+Before collision:
+$$ v_{\text{relative, before}} = 0.250 \ms $$
+
+After collision:
+$$ v_{\text{relative, after}} = 0.250 \ms $$
+
+The satellites separate at the same relative speed they approached: 0.250 m/s.
+
+**Verification using conservation laws:**
+
+Let satellite 1 approach at $$ v_1 = 0.250 \ms $$ and satellite 2 be at rest ($$ v_2 = 0 $$).
+
+Conservation of momentum: $$ m_1 v_1 = m_1 v'_1 + m_2 v'_2 $$
+
+Conservation of kinetic energy: $$ \frac{1}{2}m_1 v_1^2 = \frac{1}{2}m_1 {v'_1}^2 + \frac{1}{2}m_2 {v'_2}^2 $$
+
+Solving these simultaneously yields $$ v'_{\text{relative}} = v_{\text{relative}} = 0.250 \ms $$
+
+The final relative velocity of the satellites is 0.250 m/s (they separate at the same speed they approached).
+
+**Discussion**
+
+This result is independent of the masses! In any elastic collision, the relative speed before and after is the same—only the direction reverses. This is a powerful result for analyzing elastic collisions. For a failed docking attempt, the satellites would bounce apart at the same relative speed they approached, but now moving away from each other.
 </div>
 </div>
 
@@ -241,6 +311,39 @@ elastically rather than dock, what is their final relative velocity?
 <div class="problem" markdown="1">
 A 70.0-kg ice hockey goalie, originally at rest, catches a 0.150-kg hockey puck slapped at him at a velocity of 35.0 m/s. Suppose the goalie and the ice puck have an elastic collision and the puck is reflected back in the direction from which it came. What would their final velocities be in this case?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For an elastic collision with one object initially at rest, we use the equations derived from conservation of momentum and kinetic energy. For a small mass bouncing off a much larger stationary mass, the small mass rebounds with nearly the same speed while the large mass gains a small velocity.
+
+**Solution**
+
+For an elastic collision where object 2 is initially at rest, the final velocities are:
+
+$$ v'_1 = \frac{m_1 - m_2}{m_1 + m_2} v_1 $$
+
+$$ v'_2 = \frac{2m_1}{m_1 + m_2} v_1 $$
+
+Let the puck be object 1 ($$ m_1 = 0.150 \kg $$, $$ v_1 = 35.0 \ms $$) and the goalie be object 2 ($$ m_2 = 70.0 \kg $$, $$ v_2 = 0 $$).
+
+Calculate the puck's final velocity:
+
+$$ v'_1 = \frac{0.150 \kg - 70.0 \kg}{0.150 \kg + 70.0 \kg} \times 35.0 \ms $$
+
+$$ v'_1 = \frac{-69.85 \kg}{70.15 \kg} \times 35.0 \ms = -34.85 \ms \approx -34.9 \ms $$
+
+Calculate the goalie's final velocity:
+
+$$ v'_2 = \frac{2(0.150 \kg)}{0.150 \kg + 70.0 \kg} \times 35.0 \ms $$
+
+$$ v'_2 = \frac{0.300 \kg}{70.15 \kg} \times 35.0 \ms = 0.150 \ms $$
+
+The puck rebounds at 34.9 m/s in the opposite direction (back toward the shooter), and the goalie moves forward at 0.150 m/s.
+
+**Discussion**
+
+The puck loses very little speed (35.0 → 34.9 m/s) because the goalie is so much more massive. The goalie barely moves (0.150 m/s ≈ 0.5 km/h). This is consistent with everyday experience: when a light object bounces off a heavy one, the light object reverses direction with nearly the same speed. In reality, the puck doesn't bounce elastically off the goalie—it's caught (inelastic) or deflected with energy loss.
 </div>
 </div>
 
