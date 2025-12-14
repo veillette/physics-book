@@ -898,6 +898,76 @@ The initial velocity of the ball relative to the quarterback is approximately **
 A ship sets sail from Rotterdam, The Netherlands, heading due north at 7.00 m/s relative to the water. The local ocean current is 1.50 m/s in a direction $$ 40.0^\circ $$ north of east. What is the velocity of the ship relative to the Earth?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The ship's velocity relative to Earth is the vector sum of its velocity relative to water and the water's velocity (current) relative to Earth. Break both velocities into components, add them, then find the magnitude and direction of the resultant.
+
+**Solution**
+
+**Given:**
+- Ship velocity relative to water: $$ v_{ship,water} = 7.00 \ms $$ due north
+- Current velocity: $$ v_{current} = 1.50 \ms $$ at $$ 40.0° $$ north of east
+
+**Step 1: Set up coordinate system**
+
+Let north be the positive y-axis and east be the positive x-axis.
+
+**Step 2: Find components of ship's velocity relative to water**
+
+<div class="equation">
+$$ v_{ship,x} = 0 $$ (heading due north)
+</div>
+
+<div class="equation">
+$$ v_{ship,y} = 7.00 \ms $$
+</div>
+
+**Step 3: Find components of current velocity**
+
+<div class="equation">
+$$ v_{current,x} = 1.50 \cos(40.0°) = 1.50 \times 0.766 = 1.15 \ms $$
+</div>
+
+<div class="equation">
+$$ v_{current,y} = 1.50 \sin(40.0°) = 1.50 \times 0.643 = 0.965 \ms $$
+</div>
+
+**Step 4: Add velocity components**
+
+The ship's velocity relative to Earth:
+<div class="equation">
+$$ v_{Earth,x} = v_{ship,x} + v_{current,x} = 0 + 1.15 = 1.15 \ms $$
+</div>
+
+<div class="equation">
+$$ v_{Earth,y} = v_{ship,y} + v_{current,y} = 7.00 + 0.965 = 7.97 \ms $$
+</div>
+
+**Step 5: Find magnitude and direction**
+
+Magnitude:
+<div class="equation">
+$$ v_{Earth} = \sqrt{v_{Earth,x}^2 + v_{Earth,y}^2} = \sqrt{(1.15)^2 + (7.97)^2} = \sqrt{1.32 + 63.5} = \sqrt{64.8} = 8.05 \ms $$
+</div>
+
+Direction (angle from north toward east):
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{v_{Earth,x}}{v_{Earth,y}}\right) = \tan^{-1}\left(\frac{1.15}{7.97}\right) = \tan^{-1}(0.144) = 8.21° $$
+</div>
+
+**Discussion**
+
+The ocean current pushes the ship slightly eastward while it tries to go north. The ship's actual velocity relative to Earth is 8.05 m/s at 8.21° east of north. This is faster than the ship's speed through the water (7.00 m/s) because the current has a northward component that adds to the ship's northward motion.
+
+The ship's captain would need to adjust the heading slightly west of north if they wanted to travel due north relative to the Earth. This is a common navigation problem for ships and aircraft dealing with currents and winds.
+
+**Answer**
+
+The velocity of the ship relative to the Earth is **8.05 m/s** at **8.21° east of north** (or equivalently, **81.8° north of east**).
+
+</div>
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
@@ -907,14 +977,88 @@ m/s in a direction $$ 5.0^\circ $$ south of west. It is in the jet stream, which
 direction $$ 15^\circ $$ south of east. What is the velocity of the airplane
 relative to the Earth?
 (b) Discuss whether your answers are consistent with your expectations for the
-effect of the wind on the plane’s path.
+effect of the wind on the plane's path.
 
 </div>
 <div class="solution"  markdown="1">
-(a) $$ 230 \ms $$, $$ 8.0^\circ $$ south of west
 
-(b) The wind should make the plane travel slower and more to the south, which is
-what was calculated.
+**Strategy**
+
+The plane's velocity relative to Earth equals its velocity relative to air (airspeed) plus the wind velocity. Break both into components, add, then find magnitude and direction.
+
+**Solution**
+
+**Given:**
+- Airspeed: $$ v_{air} = 260 \ms $$ at $$ 5.0° $$ south of west
+- Wind velocity: $$ v_{wind} = 35.0 \ms $$ at $$ 15° $$ south of east
+
+**(a) Velocity relative to Earth:**
+
+**Step 1: Set up coordinate system**
+
+Let west be positive x-axis and south be positive y-axis.
+
+**Step 2: Components of plane's velocity relative to air**
+
+<div class="equation">
+$$ v_{plane,x} = 260 \cos(5.0°) = 260 \times 0.996 = 259 \ms $$ (west)
+</div>
+
+<div class="equation">
+$$ v_{plane,y} = 260 \sin(5.0°) = 260 \times 0.0872 = 22.7 \ms $$ (south)
+</div>
+
+**Step 3: Components of wind velocity**
+
+Wind is 15° south of east, which is 15° south of the negative x-direction (or 180° - 15° = 165° from west toward south):
+
+<div class="equation">
+$$ v_{wind,x} = -35.0 \cos(15°) = -35.0 \times 0.966 = -33.8 \ms $$ (east, or negative west)
+</div>
+
+<div class="equation">
+$$ v_{wind,y} = 35.0 \sin(15°) = 35.0 \times 0.259 = 9.07 \ms $$ (south)
+</div>
+
+**Step 4: Add components**
+
+<div class="equation">
+$$ v_{Earth,x} = v_{plane,x} + v_{wind,x} = 259 + (-33.8) = 225 \ms $$ (west)
+</div>
+
+<div class="equation">
+$$ v_{Earth,y} = v_{plane,y} + v_{wind,y} = 22.7 + 9.07 = 31.8 \ms $$ (south)
+</div>
+
+**Step 5: Find magnitude and direction**
+
+Magnitude:
+<div class="equation">
+$$ v_{Earth} = \sqrt{(225)^2 + (31.8)^2} = \sqrt{50625 + 1011} = \sqrt{51636} = 227 \ms \approx 230 \ms $$
+</div>
+
+Direction:
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{31.8}{225}\right) = \tan^{-1}(0.141) = 8.03° \approx 8.0° $$ south of west
+</div>
+
+**(b) Discussion of consistency:**
+
+The results are consistent with expectations:
+
+1. **Speed reduction**: The plane's ground speed (230 m/s) is less than its airspeed (260 m/s). This makes sense because the wind has a strong eastward component, which opposes the plane's westward motion, creating a significant headwind.
+
+2. **Southward deviation**: The plane's path is deflected more southward (8.0° south of west) compared to its heading (5.0° south of west). Both the plane and wind have southward components, so they add up to increase the southward motion.
+
+3. **Magnitude of effect**: The 35 m/s wind opposing the 260 m/s airspeed reduces ground speed by about 30 m/s, which is reasonable for the geometry involved.
+
+This is a common situation for flights where jet streams oppose the direction of travel, significantly increasing flight time and fuel consumption.
+
+**Answer**
+
+(a) The airplane's velocity relative to Earth is **230 m/s** at **8.0° south of west**.
+
+(b) The wind makes the plane travel slower (reduced from 260 m/s to 230 m/s) and more southward (increased from 5° to 8° south of west), which matches the expected effects of the opposing wind.
 
 </div>
 </div>
