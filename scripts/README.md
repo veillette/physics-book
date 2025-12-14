@@ -7,6 +7,7 @@ This directory contains build and utility scripts for the Physics Book project.
 | Script | Command | Description |
 |--------|---------|-------------|
 | Link Checker | `npm run check-links` | Validate all internal/external links |
+| Standardize Links | `npm run standardize-links` | Convert links to Jekyll/MyST format |
 | Find Orphans | `npm run find-orphans` | Find unreferenced files |
 | Validate Figures | `npm run validate-figures` | Comprehensive figure validation |
 | Check Math | `npm run check-math` | Check LaTeX delimiter balance |
@@ -37,6 +38,24 @@ npm run test:ci                  # CI-optimized with longer timeouts
 - `--timeout <ms>` - Request timeout (default: 10000)
 - `--retries <num>` - Retries for failed requests (default: 2)
 - `--concurrent <num>` - Max concurrent requests (default: 10)
+
+### standardize-links.js
+
+Converts internal links to Jekyll/MyST convention (extension-less format).
+
+```bash
+npm run standardize-links        # Dry run - show what would change
+npm run standardize-links:apply  # Apply the changes
+node scripts/standardize-links.js --validate  # Just validate links
+```
+
+**Conversions:**
+- `../contents/filename.md` → `./filename`
+- `../contents/filename.md#anchor` → `./filename#anchor`
+
+**Options:**
+- `--apply` - Apply changes (default is dry run)
+- `--validate` - Only validate existing links
 
 ### find-orphan-files.js
 
