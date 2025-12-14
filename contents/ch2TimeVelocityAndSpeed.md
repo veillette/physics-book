@@ -571,6 +571,59 @@ He is then hit and pushed 3.00 m straight backward in 1.75 s. He breaks the
 tackle and runs straight forward another 21.0 m in 5.20 s. Calculate his average
 velocity (a) for each of the three intervals and (b) for the entire motion.
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Average velocity is displacement divided by time. For each interval, we identify the displacement (with sign indicating direction) and time, then calculate the average velocity. For the entire motion, we sum the displacements and times.
+
+**Solution**
+
+Let's define forward (down the field) as the positive direction.
+
+**(a) Average velocity for each interval:**
+
+**Interval 1: Initial run**
+<div class="equation">
+$$ \overline{v}_1 = \frac{\Delta x_1}{\Delta t_1} = \frac{+15.0 \m}{2.50 \s} = +6.00 \ms $$
+</div>
+
+**Interval 2: Pushed backward**
+<div class="equation">
+$$ \overline{v}_2 = \frac{\Delta x_2}{\Delta t_2} = \frac{-3.00 \m}{1.75 \s} = -1.71 \ms $$
+</div>
+
+**Interval 3: Breaking tackle and running forward**
+<div class="equation">
+$$ \overline{v}_3 = \frac{\Delta x_3}{\Delta t_3} = \frac{+21.0 \m}{5.20 \s} = +4.04 \ms $$
+</div>
+
+**(b) Average velocity for entire motion:**
+
+Total displacement:
+<div class="equation">
+$$ \Delta x_{\text{total}} = \Delta x_1 + \Delta x_2 + \Delta x_3 = 15.0 \m + (-3.00 \m) + 21.0 \m = 33.0 \m $$
+</div>
+
+Total time:
+<div class="equation">
+$$ \Delta t_{\text{total}} = \Delta t_1 + \Delta t_2 + \Delta t_3 = 2.50 \s + 1.75 \s + 5.20 \s = 9.45 \s $$
+</div>
+
+Average velocity for entire motion:
+<div class="equation">
+$$ \overline{v}_{\text{total}} = \frac{\Delta x_{\text{total}}}{\Delta t_{\text{total}}} = \frac{33.0 \m}{9.45 \s} = 3.49 \ms $$
+</div>
+
+**Discussion**
+
+The negative velocity in interval 2 indicates backward motion. The average velocity for the entire motion (3.49 m/s) is less than the average of the three interval velocities because the quarterback spent more time in the slower interval 3. The net displacement is 33.0 m forward, which makes sense: he moved forward 15.0 m, then backward 3.00 m (net 12.0 m forward so far), then forward another 21.0 m, giving a total of 33.0 m forward. This speed of 3.49 m/s is reasonable for a quarterback navigating through defenders – it's much slower than his sprint speed but accounts for the backward motion and the time spent breaking tackles.
+
+**Answer**
+
+(a) Interval 1: 6.00 m/s forward; Interval 2: 1.71 m/s backward; Interval 3: 4.04 m/s forward.
+
+(b) The average velocity for the entire motion is 3.49 m/s forward.
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
