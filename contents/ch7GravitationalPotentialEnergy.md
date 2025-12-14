@@ -350,6 +350,38 @@ and its center of mass is 36.5 m above the surrounding ground?
 (b) How does this energy compare with the daily food intake of a person?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), we use the gravitational potential energy formula $$ \PE_{g} = mgh $$, where $$ m $$ is the mass of the pyramid, $$ g = 9.80\mss $$, and $$ h $$ is the height of the center of mass.
+
+For part (b), we compare this energy to the typical daily food intake of about $$ 1.2 \times 10^{7}\J $$ (or 2400 kcal).
+
+**Solution for (a)**
+
+<div class="equation">
+ $$ \begin{array}{lll}
+\PE_{g} &=& mgh\\
+\PE_{g} &=& (7 \times 10^{9}\kg)(9.80\mss)(36.5\m)\\
+\PE_{g} &=& 2.50 \times 10^{12}\J \approx 2.5 \times 10^{12}\J
+\end{array} $$
+</div>
+
+**Solution for (b)**
+
+The ratio of the pyramid's potential energy to daily food intake is:
+
+<div class="equation">
+ $$ \frac{2.50 \times 10^{12}\J}{1.2 \times 10^{7}\J} = 2.08 \times 10^{5} \approx 2.1 \times 10^{5} $$
+</div>
+
+**Discussion**
+
+(a) The gravitational potential energy stored in the Great Pyramid is approximately $$ 2.5 \times 10^{12}\J $$.
+(b) This is equivalent to about 210,000 days of food intake for one person, or roughly 575 years worth of food energy. This immense amount of potential energy was stored by doing work to lift millions of stone blocks to build the pyramid.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -372,6 +404,37 @@ Suppose a 350-g kookaburra (a large kingfisher bird) picks up a 75-g snake and r
 In [Example 2](#example2), we found that the speed of a roller coaster that had descended 20.0 m was only slightly greater when it had an initial speed of 5.00 m/s
 than when it started from rest. This implies that $$ \Delta \PE \gg \KE_{\text{i}} $$. Confirm this statement by taking the ratio of $$ \Delta \PE $$
 to $$ \KE_{\text{i}} $$. (Note that mass cancels.)
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We calculate the change in potential energy $$ \Delta \PE = mg\mid h\mid $$ and the initial kinetic energy $$ \KE_{\text{i}} = \frac{1}{2}mv_{0}^{2} $$, then find their ratio. The mass will cancel out.
+
+**Solution**
+
+The change in potential energy is:
+
+<div class="equation">
+ $$ \Delta \PE = mg\mid h\mid = m(9.80\mss)(20.0\m) = m(196\text{ m}^{2}/\text{s}^{2}) $$
+</div>
+
+The initial kinetic energy is:
+
+<div class="equation">
+ $$ \KE_{\text{i}} = \frac{1}{2}mv_{0}^{2} = \frac{1}{2}m(5.00\ms)^{2} = m(12.5\text{ m}^{2}/\text{s}^{2}) $$
+</div>
+
+The ratio is:
+
+<div class="equation">
+ $$ \frac{\Delta \PE}{\KE_{\text{i}}} = \frac{m(196\text{ m}^{2}/\text{s}^{2})}{m(12.5\text{ m}^{2}/\text{s}^{2})} = \frac{196}{12.5} = 15.7 \approx 16 $$
+</div>
+
+**Discussion**
+
+The change in potential energy is approximately 16 times greater than the initial kinetic energy, confirming that $$ \Delta \PE \gg \KE_{\text{i}} $$. This explains why the final speed is only slightly greater when starting with an initial speed of 5.00 m/s compared to starting from rest—the gravitational potential energy converted to kinetic energy dominates over the initial kinetic energy.
 
 </div>
 </div>
@@ -399,6 +462,58 @@ slope neglecting friction:
 (a) Starting from rest.
 (b) Starting with an initial  speed of 2.50 m/s.
 (c) Does the answer surprise you? Discuss why it is still advantageous to get a running start in very competitive events.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use conservation of energy: $$ \KE_{\text{i}} + \PE_{\text{i}} = \KE_{\text{f}} + \PE_{\text{f}} $$. The height descended is $$ h = d\sin{\theta} = (70.0\m)\sin{30^\circ} = 35.0\m $$. For the time, we use kinematics with constant acceleration $$ a = g\sin{\theta} $$ down the slope.
+
+**Solution for (a)**
+
+Starting from rest ($$ v_{0} = 0 $$):
+
+<div class="equation">
+ $$ \begin{array}{lll}
+mgh &=& \frac{1}{2}mv^{2}\\
+v &=& \sqrt{2gh} = \sqrt{2(9.80\mss)(35.0\m)}\\
+v &=& \sqrt{686\text{ m}^{2}/\text{s}^{2}} = 26.2\ms
+\end{array} $$
+</div>
+
+For time, using $$ v^{2} = v_{0}^{2} + 2ad $$ with $$ a = g\sin{30^\circ} = 4.90\mss $$:
+
+<div class="equation">
+ $$ v = v_{0} + at \Rightarrow t = \frac{v-v_{0}}{a} = \frac{26.2\ms}{4.90\mss} = 5.35\s $$
+</div>
+
+**Solution for (b)**
+
+With initial speed $$ v_{0} = 2.50\ms $$:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+\frac{1}{2}mv_{0}^{2} + mgh &=& \frac{1}{2}mv^{2}\\
+v &=& \sqrt{v_{0}^{2} + 2gh}\\
+v &=& \sqrt{(2.50\ms)^{2} + 2(9.80\mss)(35.0\m)}\\
+v &=& \sqrt{6.25 + 686}\text{ m/s} = \sqrt{692.25}\text{ m/s}\\
+v &=& 26.3\ms
+\end{array} $$
+</div>
+
+For time, using $$ v = v_{0} + at $$:
+
+<div class="equation">
+ $$ t = \frac{v-v_{0}}{a} = \frac{26.3\ms - 2.50\ms}{4.90\mss} = 4.86\s $$
+</div>
+
+**Discussion for (c)**
+
+(a) Starting from rest: final speed = 26.2 m/s, time = 5.35 s
+(b) Starting with 2.50 m/s: final speed = 26.3 m/s, time = 4.86 s
+
+The answer is somewhat surprising—the final speeds differ by only 0.1 m/s! The running start saves only about 0.5 seconds. However, in very competitive events, even a fraction of a second can mean the difference between winning and losing. Additionally, in actual skiing, friction and air resistance play important roles, and starting with higher speed may provide advantages in maintaining momentum through turns and rough sections of the course.
 
 </div>
 </div>
