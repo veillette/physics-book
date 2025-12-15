@@ -2,30 +2,39 @@
 /**
  * Convert math delimiters from $$ ... $$ to standard LaTeX delimiters.
  *
- * - Display math (inside <div class="equation">): $$ ... $$ → \[ ... \]
- * - Inline math (elsewhere): $$ ... $$ → \( ... \)
+ * - Display math (inside <div class="equation">): $$ ... $$ → \[ ... \] (default)
+ * - Inline math (elsewhere): $$ ... $$ → \( ... \) (default)
+ *
+ * Custom delimiters can be specified via command-line options.
  */
 
 import fs from 'fs';
 import path from 'path';
 
 /**
- * Convert $$ ... $$ inside <div class="equation"> to \[ ... \]
+ * Escape special regex characters in a string
  */
-function convertDisplayMathInEquationDiv(content) {
+function escapeRegex(str) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+/**
+ * Convert $$ ... $$ inside <div class="equation"> to display math delimiters
+ */
+function convertDisplayMathInEquationDiv(content, openDelim, closeDelim) {
   const pattern = /(<div class="equation"[^>]*>)\s*\$\$\s*([\s\S]*?)\s*\$\$\s*(<\/div>)/g;
   return content.replace(pattern, (match, openTag, mathContent, closeTag) => {
-    return `${openTag}\n\\[ ${mathContent} \\]\n${closeTag}`;
+    return `${openTag}\n${openDelim} ${mathContent} ${closeDelim}\n${closeTag}`;
   });
 }
 
 /**
- * Convert remaining $$ ... $$ (inline math) to \( ... \)
+ * Convert remaining $$ ... $$ (inline math) to inline math delimiters
  */
-function convertInlineMath(content) {
+function convertInlineMath(content, openDelim, closeDelim) {
   const pattern = /\$\$\s*([\s\S]*?)\s*\$\$/g;
   return content.replace(pattern, (match, mathContent) => {
-    return `\\( ${mathContent} \\)`;
+    return `${openDelim} ${mathContent} ${closeDelim}`;
   });
 }
 
@@ -33,15 +42,16 @@ function convertInlineMath(content) {
  * Convert math delimiters in a single file.
  * @returns {[boolean, string]} - [changed, message]
  */
-function convertFile(filepath, dryRun = true) {
+function convertFile(filepath, options) {
+  const { dryRun, displayOpen, displayClose, inlineOpen, inlineClose } = options;
   const content = fs.readFileSync(filepath, 'utf-8');
   let converted = content;
 
   // First convert display math in equation divs
-  converted = convertDisplayMathInEquationDiv(converted);
+  converted = convertDisplayMathInEquationDiv(converted, displayOpen, displayClose);
 
   // Then convert remaining inline math
-  converted = convertInlineMath(converted);
+  converted = convertInlineMath(converted, inlineOpen, inlineClose);
 
   if (converted === content) {
     return [false, `No changes: ${filepath}`];
@@ -74,26 +84,116 @@ function findMarkdownFiles(dir) {
   return files;
 }
 
-function main() {
-  const args = process.argv.slice(2);
+/**
+ * Parse command-line arguments
+ */
+function parseArgs(args) {
+  const options = {
+    apply: false,
+    verbose: false,
+    displayOpen: '\\[',
+    displayClose: '\\]',
+    inlineOpen: '\\(',
+    inlineClose: '\\)',
+    paths: []
+  };
 
-  const apply = args.includes('--apply');
-  const verbose = args.includes('--verbose') || args.includes('-v');
-  const paths = args.filter(arg => !arg.startsWith('-'));
+  for (let i = 0; i < args.length; i++) {
+    const arg = args[i];
 
-  if (paths.length === 0) {
-    paths.push('contents');
+    if (arg === '--apply') {
+      options.apply = true;
+    } else if (arg === '--verbose' || arg === '-v') {
+      options.verbose = true;
+    } else if (arg === '--display-open' && args[i + 1]) {
+      options.displayOpen = args[++i];
+    } else if (arg === '--display-close' && args[i + 1]) {
+      options.displayClose = args[++i];
+    } else if (arg === '--inline-open' && args[i + 1]) {
+      options.inlineOpen = args[++i];
+    } else if (arg === '--inline-close' && args[i + 1]) {
+      options.inlineClose = args[++i];
+    } else if (arg === '--display' && args[i + 1]) {
+      // Shorthand: --display "\\[" "\\]"
+      options.displayOpen = args[++i];
+      if (args[i + 1] && !args[i + 1].startsWith('-')) {
+        options.displayClose = args[++i];
+      }
+    } else if (arg === '--inline' && args[i + 1]) {
+      // Shorthand: --inline "\\(" "\\)"
+      options.inlineOpen = args[++i];
+      if (args[i + 1] && !args[i + 1].startsWith('-')) {
+        options.inlineClose = args[++i];
+      }
+    } else if (arg === '--help' || arg === '-h') {
+      printHelp();
+      process.exit(0);
+    } else if (!arg.startsWith('-')) {
+      options.paths.push(arg);
+    }
   }
 
-  const dryRun = !apply;
+  if (options.paths.length === 0) {
+    options.paths.push('contents');
+  }
+
+  return options;
+}
+
+function printHelp() {
+  console.log(`
+Usage: node convert_math_delimiters.js [options] [paths...]
+
+Convert \$\$ math \$\$ delimiters to LaTeX standard delimiters.
+
+Options:
+  --apply              Actually apply changes (default is dry-run)
+  -v, --verbose        Show all files, not just modified ones
+
+  --display-open STR   Opening delimiter for display math (default: "\\[")
+  --display-close STR  Closing delimiter for display math (default: "\\]")
+  --display OPEN CLOSE Shorthand for setting both display delimiters
+
+  --inline-open STR    Opening delimiter for inline math (default: "\\(")
+  --inline-close STR   Closing delimiter for inline math (default: "\\)")
+  --inline OPEN CLOSE  Shorthand for setting both inline delimiters
+
+  -h, --help           Show this help message
+
+Examples:
+  # Dry-run with default delimiters (\\[ \\] and \\( \\))
+  node convert_math_delimiters.js
+
+  # Apply changes
+  node convert_math_delimiters.js --apply
+
+  # Use \\begin{equation} for display math
+  node convert_math_delimiters.js --display "\\\\begin{equation}" "\\\\end{equation}"
+
+  # Use single $ for inline math
+  node convert_math_delimiters.js --inline "$" "$"
+
+  # Process specific files
+  node convert_math_delimiters.js contents/ch1*.md
+`);
+}
+
+function main() {
+  const args = process.argv.slice(2);
+  const options = parseArgs(args);
+
+  const dryRun = !options.apply;
 
   if (dryRun) {
     console.log('DRY RUN - no files will be modified. Use --apply to make changes.\n');
   }
 
+  console.log(`Display math: ${options.displayOpen} ... ${options.displayClose}`);
+  console.log(`Inline math:  ${options.inlineOpen} ... ${options.inlineClose}\n`);
+
   const filesToProcess = [];
 
-  for (const p of paths) {
+  for (const p of options.paths) {
     if (!fs.existsSync(p)) {
       console.error(`Warning: ${p} does not exist`);
       continue;
@@ -111,12 +211,20 @@ function main() {
 
   let modifiedCount = 0;
 
+  const convertOptions = {
+    dryRun,
+    displayOpen: options.displayOpen,
+    displayClose: options.displayClose,
+    inlineOpen: options.inlineOpen,
+    inlineClose: options.inlineClose
+  };
+
   for (const filepath of filesToProcess) {
-    const [changed, message] = convertFile(filepath, dryRun);
+    const [changed, message] = convertFile(filepath, convertOptions);
     if (changed) {
       modifiedCount++;
       console.log(message);
-    } else if (verbose) {
+    } else if (options.verbose) {
       console.log(message);
     }
   }
