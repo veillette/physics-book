@@ -428,9 +428,64 @@ A car advertisement claims that its 900-kg car accelerated from rest to 30.0 m/s
 and drove 100 km, gaining 3.00 km in altitude, on 1.0 gal of gasoline. The
 average force of friction including air resistance was 700 N. Assume all values
 are known to three significant figures.
-(a) Calculate the car’s efficiency.
+(a) Calculate the car's efficiency.
 (b) What is unreasonable about the result?
 (c) Which premise is unreasonable, or which premises are inconsistent?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Calculate the total energy needed (kinetic + potential + work against friction) and compare to the energy available from 1.0 gallon of gasoline ($$ 1.2 \times 10^{8} $$ J from Table 1 in Conservation of Energy).
+
+**Solution for (a)**
+
+Energy components needed:
+
+Kinetic energy:
+<div class="equation">
+ $$ \KE = \frac{1}{2}mv^{2} = \frac{1}{2}(900\kg)(30.0\ms)^{2} = 4.05 \times 10^{5}\J $$
+</div>
+
+Potential energy gained:
+<div class="equation">
+ $$ \PE = mgh = (900\kg)(9.80\mss)(3000\m) = 2.65 \times 10^{7}\J $$
+</div>
+
+Work done against friction:
+<div class="equation">
+ $$ W_{f} = fd = (700\N)(100000\m) = 7.00 \times 10^{7}\J $$
+</div>
+
+Total energy needed:
+<div class="equation">
+ $$ E_{\text{total}} = \KE + \PE + W_{f} = 4.05 \times 10^{5} + 2.65 \times 10^{7} + 7.00 \times 10^{7} = 9.69 \times 10^{7}\J $$
+</div>
+
+Energy available from gasoline:
+<div class="equation">
+ $$ E_{\text{available}} = 1.2 \times 10^{8}\J $$
+</div>
+
+Efficiency:
+<div class="equation">
+ $$ \text{Eff} = \frac{E_{\text{total}}}{E_{\text{available}}} = \frac{9.69 \times 10^{7}\J}{1.2 \times 10^{8}\J} = 0.808 = 80.8\% $$
+</div>
+
+**Discussion for (b)**
+
+An efficiency of 81% is unreasonably high. Real car engines typically have efficiencies of 25-30% for gasoline engines and 35-40% for diesel engines. An efficiency of 81% would violate fundamental thermodynamic limitations.
+
+**Discussion for (c)**
+
+The claim is inconsistent with physical reality. One or more of the following must be incorrect:
+- The fuel consumption (1.0 gal is too little)
+- The altitude gained (3.00 km is too much)
+- The friction force (700 N is too high for such efficient operation)
+- The distance traveled (100 km combined with the altitude gain is too much)
+
+In reality, such a trip would require approximately 3-4 gallons of gasoline for a typical car, not 1.0 gallon.
 
 </div>
 </div>

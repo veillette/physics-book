@@ -206,9 +206,33 @@ How much work does a supermarket checkout attendant do on a can of soup
 he pushes 0.600 m horizontally with a force of 5.00 N? Express your answer in joules and kilocalories.
 
 </div>
-<div class="solution">
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The work done is given by $$ W = Fd\cos{\theta} $$, where the force and displacement are in the same direction ($$\theta = 0^\circ$$), so $$ W = Fd $$. We then convert the result to kilocalories using 1 kcal = 4184 J.
+
+**Solution**
+
+The work done is:
+
 <div class="equation">
- $$ 3.00 \J =7.17\times 10^{-4}\text{kcal} $$
+ $$ \begin{array}{lll}
+W &=& Fd = (5.00\N)(0.600\m)\\
+W &=& 3.00\J
+\end{array} $$
+</div>
+
+Converting to kilocalories:
+
+<div class="equation">
+ $$ W = 3.00\J \times \frac{1\text{ kcal}}{4184\J} = 7.17 \times 10^{-4}\text{ kcal} $$
+</div>
+
+**Discussion**
+
+The supermarket attendant does 3.00 J of work on the can of soup, which equals $$ 7.17 \times 10^{-4} $$ kcal. This is a very small amount of energy—less than one-thousandth of a food Calorie—which makes sense for the minimal effort required to slide a can along a checkout counter.
+
 </div>
 </div>
 </div>
@@ -357,9 +381,45 @@ include the work he does on the crate *and* on his body to get up the ramp.
 ![A person is pushing a heavy crate up a ramp. The force vector F applied by the person is acting parallel to the ramp.](../resources/Figure_07_01_02.jpg "A man pushes a crate up a ramp.")
 {: #Figure2}
 </div>
-<div class="solution">
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The total work includes: (1) work done pushing the crate with force 500 N through distance 4.00 m, and (2) work done raising his own body mass. The vertical height gained is $$ h = d\sin{\theta} = (4.00\m)\sin{20.0^\circ} $$.
+
+**Solution**
+
+Work done pushing the crate:
+
 <div class="equation">
- $$ 3.14\times 10^3 \J $$
+ $$ W_{\text{crate}} = Fd = (500\N)(4.00\m) = 2000\J $$
+</div>
+
+Vertical height gained:
+
+<div class="equation">
+ $$ h = d\sin{\theta} = (4.00\m)\sin{20.0^\circ} = (4.00\m)(0.342) = 1.37\m $$
+</div>
+
+Work done lifting his own body:
+
+<div class="equation">
+ $$ W_{\text{body}} = mgh = (85.0\kg)(9.80\mss)(1.37\m) = 1141\J \approx 1.14 \times 10^{3}\J $$
+</div>
+
+Total work done:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+W_{\text{total}} &=& W_{\text{crate}} + W_{\text{body}}\\
+W_{\text{total}} &=& 2000\J + 1141\J = 3141\J \approx 3.14 \times 10^{3}\J
+\end{array} $$
+</div>
+
+**Discussion**
+
+The man does a total of 3140 J of work. About 64% of this (2000 J) goes into pushing the crate up the ramp, while 36% (1140 J) goes into lifting his own body mass against gravity. This demonstrates that when pushing objects uphill, a significant portion of the effort goes into lifting one's own body weight.
+
 </div>
 </div>
 </div>
@@ -412,15 +472,63 @@ below the horizontal.
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ -700 \J $$
 
-(b) 0
+**Strategy**
 
-(c) 700 J
+For constant speed, the net force is zero. The friction force opposes motion ($$\theta = 180^\circ$$), gravity is perpendicular to motion, and the shopper pushes at $$25.0^\circ$$ below horizontal. We use $$ W = Fd\cos{\theta} $$ for each force.
 
-(d) 38.6 N
+**Solution for (a)**
 
-(e) 0
+The friction force is opposite to the displacement:
+
+<div class="equation">
+ $$ W_{\text{friction}} = fd\cos{180^\circ} = -(35.0\N)(20.0\m) = -700\J $$
+</div>
+
+**Solution for (b)**
+
+Gravity acts vertically downward, perpendicular to the horizontal displacement ($$\theta = 90^\circ$$):
+
+<div class="equation">
+ $$ W_{\text{gravity}} = mgd\cos{90^\circ} = 0 $$
+</div>
+
+**Solution for (c)**
+
+At constant speed, the horizontal component of the shopper's force must equal the friction force. From Newton's second law: $$ F\cos{25.0^\circ} = 35.0\N $$. The work done by the shopper must equal the negative of the work done by friction:
+
+<div class="equation">
+ $$ W_{\text{shopper}} = -W_{\text{friction}} = 700\J $$
+</div>
+
+**Solution for (d)**
+
+The horizontal component of the shopper's force equals the friction force:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+F\cos{25.0^\circ} &=& 35.0\N\\
+F &=& \frac{35.0\N}{\cos{25.0^\circ}} = \frac{35.0\N}{0.906} = 38.6\N
+\end{array} $$
+</div>
+
+We can verify: $$ W = Fd\cos{25.0^\circ} = (38.6\N)(20.0\m)(0.906) = 700\J $$ ✓
+
+**Solution for (e)**
+
+The total work is the sum of all work done:
+
+<div class="equation">
+ $$ W_{\text{total}} = W_{\text{friction}} + W_{\text{gravity}} + W_{\text{shopper}} = -700\J + 0 + 700\J = 0 $$
+</div>
+
+**Discussion**
+
+(a) Friction does -700 J of work on the cart.
+(b) Gravity does no work because it's perpendicular to the motion.
+(c) The shopper does 700 J of work on the cart.
+(d) The shopper exerts a force of 38.6 N at $$25.0^\circ$$ below horizontal.
+(e) The total work is zero, consistent with the cart moving at constant speed (no change in kinetic energy).
 
 </div>
 </div>

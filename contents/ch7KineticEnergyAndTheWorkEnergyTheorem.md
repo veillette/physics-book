@@ -428,7 +428,43 @@ astronaut in orbit moving at 27 500 km/h.
 
 </div>
 <div class="solution" markdown="1">
- $$ 1/250 $$
+
+**Strategy**
+
+We calculate the kinetic energy of both using $$ \KE = \frac{1}{2}mv^{2} $$, converting speeds to m/s first, then find the ratio.
+
+**Solution**
+
+Convert speeds to m/s:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+v_{\text{truck}} &=& 110\text{ km/h} \times \frac{1000\m}{3600\s} = 30.6\ms\\
+v_{\text{astronaut}} &=& 27500\text{ km/h} \times \frac{1000\m}{3600\s} = 7640\ms
+\end{array} $$
+</div>
+
+Kinetic energy of truck:
+
+<div class="equation">
+ $$ \KE_{\text{truck}} = \frac{1}{2}(20000\kg)(30.6\ms)^{2} = 9.37 \times 10^{6}\J $$
+</div>
+
+Kinetic energy of astronaut:
+
+<div class="equation">
+ $$ \KE_{\text{astronaut}} = \frac{1}{2}(80.0\kg)(7640\ms)^{2} = 2.33 \times 10^{9}\J $$
+</div>
+
+The ratio is:
+
+<div class="equation">
+ $$ \frac{\KE_{\text{truck}}}{\KE_{\text{astronaut}}} = \frac{9.37 \times 10^{6}\J}{2.33 \times 10^{9}\J} = 4.02 \times 10^{-3} \approx \frac{1}{250} $$
+</div>
+
+**Discussion**
+
+The truck's kinetic energy is only 1/250th that of the astronaut in orbit. Even though the truck is 250 times more massive than the astronaut, the astronaut's much higher orbital speed (250 times faster) results in vastly more kinetic energy, since kinetic energy depends on the square of velocity. This demonstrates why orbital velocities represent such enormous energies.
 
 </div>
 </div>
@@ -486,7 +522,33 @@ You will need to look up the definition of a nautical mile (1 knot = 1 nautical 
 
 </div>
 <div class="solution" markdown="1">
- $$ 1.1\times 10^{10} \J $$
+
+**Strategy**
+
+From Table 1, the aircraft carrier has mass 90,000 tons (90,000,000 kg) moving at 30 knots. We need to convert knots to m/s: 1 knot = 1 nautical mile/h, where 1 nautical mile = 1852 m.
+
+**Solution**
+
+Convert speed to m/s:
+
+<div class="equation">
+ $$ v = 30\text{ knots} = 30\frac{\text{nautical miles}}{\text{h}} \times \frac{1852\m}{1\text{ nautical mile}} \times \frac{1\text{ h}}{3600\s} = 15.4\ms $$
+</div>
+
+Calculate kinetic energy:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+\KE &=& \frac{1}{2}mv^{2} = \frac{1}{2}(9.00 \times 10^{7}\kg)(15.4\ms)^{2}\\
+\KE &=& \frac{1}{2}(9.00 \times 10^{7})(237.16)\J\\
+\KE &=& 1.07 \times 10^{10}\J \approx 1.1 \times 10^{10}\J
+\end{array} $$
+</div>
+
+**Discussion**
+
+The calculated kinetic energy of $$ 1.1 \times 10^{10} $$ J confirms the value in Table 1. This enormous energy—about 11 billion joules—is equivalent to the energy in about 90 gallons of gasoline. It demonstrates the massive amount of energy required to move such a large vessel, and explains why aircraft carriers need powerful propulsion systems.
+
 </div>
 </div>
 
@@ -554,7 +616,7 @@ The ratio of forces is:
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A car’s bumper is designed to withstand a 4.0-km/h (1.1-m/s) collision with an
+A car's bumper is designed to withstand a 4.0-km/h (1.1-m/s) collision with an
 immovable object without damage to the body of the car.
 The bumper cushions the shock by absorbing the force over a distance.
 Calculate the magnitude of the average force on a bumper that collapses 0.200 m
@@ -562,7 +624,33 @@ while bringing a 900-kg car to rest from an initial speed of 1.1 m/s.
 
 </div>
 <div class="solution" markdown="1">
-$$ 2.8 \times 10^{3} \N $$
+
+**Strategy**
+
+We use the work-energy theorem: the work done by the bumper force equals the change in kinetic energy. The work is $$ W = -Fd $$ (negative because it opposes motion), and this equals $$ \Delta \KE = 0 - \frac{1}{2}mv^{2} $$.
+
+**Solution**
+
+The initial kinetic energy is:
+
+<div class="equation">
+ $$ \KE = \frac{1}{2}(900\kg)(1.1\ms)^{2} = 545\J $$
+</div>
+
+Using the work-energy theorem:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+-Fd &=& -\KE\\
+F &=& \frac{\KE}{d} = \frac{545\J}{0.200\m}\\
+F &=& 2725\N \approx 2.7 \times 10^{3}\N
+\end{array} $$
+</div>
+
+**Discussion**
+
+The average force on the bumper is approximately 2700 N (about 610 pounds). This is a substantial force, but it's distributed over the 0.200 m crumple distance, which protects the car body from damage. This design principle—absorbing impact energy over a larger distance—is the basis of modern automotive safety features like crumple zones.
+
 </div>
 </div>
 
@@ -632,7 +720,38 @@ force of 30.0 N against him.
 
 </div>
 <div class="solution" markdown="1">
-102 N
+
+**Strategy**
+
+The net work done equals the change in kinetic energy. The net work is the work done by the sprinter minus the work done by the headwind: $$ W_{\text{net}} = (F_{\text{sprinter}} - F_{\text{wind}})d = \Delta \KE $$.
+
+**Solution**
+
+Calculate the change in kinetic energy:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+\Delta \KE &=& \frac{1}{2}m(v_{f}^{2} - v_{i}^{2})\\
+\Delta \KE &=& \frac{1}{2}(60.0\kg)[(8.00\ms)^{2} - (2.00\ms)^{2}]\\
+\Delta \KE &=& \frac{1}{2}(60.0\kg)(64.0 - 4.00)\text{ m}^{2}/\text{s}^{2}\\
+\Delta \KE &=& 1800\J
+\end{array} $$
+</div>
+
+Using the work-energy theorem:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+(F_{\text{sprinter}} - F_{\text{wind}})d &=& \Delta \KE\\
+(F_{\text{sprinter}} - 30.0\N)(25.0\m) &=& 1800\J\\
+F_{\text{sprinter}} - 30.0\N &=& \frac{1800\J}{25.0\m} = 72.0\N\\
+F_{\text{sprinter}} &=& 72.0\N + 30.0\N = 102\N
+\end{array} $$
+</div>
+
+**Discussion**
+
+The sprinter exerts an average force of 102 N backward on the track (by Newton's third law, the track pushes forward on the sprinter with 102 N). Of this, 30 N is needed to overcome the headwind, while the remaining 72 N provides the net force that accelerates the sprinter. This demonstrates how additional resistance forces require proportionally more effort to achieve the same acceleration.
 
 </div>
 </div>

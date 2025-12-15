@@ -397,11 +397,50 @@ merry-go-round that rotates at 3.00 rev/min if she is 8.00 m from its center?
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-a) 483 N
 
-b) 17.4 N
+**Strategy**
 
-c) 2.24 times her weight, 0.0807 times her weight
+We'll convert angular velocities to rad/s, then use $$ F_c = mr\omega^2 $$ to calculate the centripetal force. We'll compare each to the child's weight $$ w = mg $$.
+
+**Solution**
+
+(a) Convert angular velocity and calculate centripetal force:
+
+<div class="equation">
+$$ \omega = 40.0\frac{\text{rev}}{\text{min}} \times \frac{2\pi\text{ rad}}{1\text{ rev}} \times \frac{1\text{ min}}{60\text{ s}} = 4.19\text{ rad/s} $$
+</div>
+
+<div class="equation">
+$$ F_c = mr\omega^2 = (22.0\text{ kg})(1.25\text{ m})(4.19\text{ rad/s})^2 = (22.0)(1.25)(17.6) = 483\text{ N} $$
+</div>
+
+(b) For the amusement park ride:
+
+<div class="equation">
+$$ \omega = 3.00\frac{\text{rev}}{\text{min}} \times \frac{2\pi\text{ rad}}{1\text{ rev}} \times \frac{1\text{ min}}{60\text{ s}} = 0.314\text{ rad/s} $$
+</div>
+
+<div class="equation">
+$$ F_c = mr\omega^2 = (22.0\text{ kg})(8.00\text{ m})(0.314\text{ rad/s})^2 = (22.0)(8.00)(0.0987) = 17.4\text{ N} $$
+</div>
+
+(c) Calculate the child's weight and compare:
+
+<div class="equation">
+$$ w = mg = (22.0\text{ kg})(9.80\text{ m/s}^2) = 216\text{ N} $$
+</div>
+
+<div class="equation">
+$$ \frac{F_{c,a}}{w} = \frac{483\text{ N}}{216\text{ N}} = 2.24 $$
+</div>
+
+<div class="equation">
+$$ \frac{F_{c,b}}{w} = \frac{17.4\text{ N}}{216\text{ N}} = 0.0807 $$
+</div>
+
+**Discussion**
+
+On the playground merry-go-round, the child must exert a centripetal force of 483 N, which is 2.24 times her weight - she would feel significantly "heavier" and need to hold on tightly. On the slower amusement park ride, she needs only 17.4 N, which is just 0.0807 times her weight - barely noticeable. The much larger radius partially compensates for the slower rotation rate in the second case.
 
 </div>
 </div>
@@ -444,7 +483,38 @@ What is the ideal banking angle for a gentle turn of 1.20 km radius on a highway
 
 </div>
 <div class="solution" markdown="1">
- $$ 4.14^\circ $$
+
+**Strategy**
+
+For an ideally banked curve, we use $$ \theta = \tan^{-1}\left(\frac{v^2}{rg}\right) $$. We'll need to convert the speed from km/h to m/s.
+
+**Solution**
+
+Convert the speed to m/s:
+
+<div class="equation">
+$$ v = 105\frac{\text{km}}{\text{h}} \times \frac{1000\text{ m}}{1\text{ km}} \times \frac{1\text{ h}}{3600\text{ s}} = 29.2\text{ m/s} $$
+</div>
+
+Convert the radius to meters:
+
+<div class="equation">
+$$ r = 1.20\text{ km} \times 1000 = 1200\text{ m} $$
+</div>
+
+Calculate the ideal banking angle:
+
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{v^2}{rg}\right) = \tan^{-1}\left(\frac{(29.2\text{ m/s})^2}{(1200\text{ m})(9.80\text{ m/s}^2)}\right) $$
+</div>
+
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{853}{11{,}760}\right) = \tan^{-1}(0.0725) = 4.14° $$
+</div>
+
+**Discussion**
+
+The ideal banking angle for this highway curve is 4.14°, which is a very gentle slope. At this angle, cars traveling at exactly 105 km/h would not need any friction between the tires and road to negotiate the turn - the normal force from the banked road would provide exactly the right amount of centripetal force. In practice, highway curves are typically banked at conservative angles to accommodate a range of speeds safely.
 
 </div>
 </div>
