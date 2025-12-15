@@ -95,8 +95,8 @@ The solution text here...
 ### Glossary
 {: class="glossary-title"}
 
-1. {: .chapter} [Chapter Title](contents/chapter.md)
-   1. {: .section} [Section Title](contents/section.md)
+1. {: .chapter} [Chapter Title](#chapter)
+   1. {: .section} [Section Title](#section)
 ```
 
 #### Pattern 4: Block type distribution
@@ -221,7 +221,7 @@ Kramdown places `{: #id}` on a separate line after the element. MyST uses differ
 
 **Current:**
 ```markdown
-![Alt text](../resources/Figure_01.jpg "Caption")
+![Alt text](./image.jpg "Caption")
 {: #Figure1 height="250"}
 ```
 
@@ -289,8 +289,8 @@ $$
 
 **Current:**
 ```markdown
-1. {: .chapter} [Introduction](contents/ch1.md)
-   1. {: .section} [Physics: An Introduction](contents/ch1s1.md)
+1. {: .chapter} [Introduction](#ch1)
+   1. {: .section} [Physics: An Introduction](#ch1s1)
 ```
 
 **MyST Equivalent:**
