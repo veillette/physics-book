@@ -80,7 +80,7 @@
   ],
   "screenshots": [
     {
-      "src": "/physics-book/cover2.png",
+      "src": "/physics-book/assets/image/cover2.png",
       "sizes": "600x800",
       "type": "image/png",
       "form_factor": "narrow"

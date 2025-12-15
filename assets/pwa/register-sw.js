@@ -10,7 +10,7 @@
 
     // Configuration for GitHub Pages
     const BASE_PATH = '/physics-book/';
-    const SW_PATH = `${BASE_PATH}serviceWorker.js`;
+    const SW_PATH = `${BASE_PATH}assets/pwa/serviceWorker.js`;
     
     // Service Worker Registration
     function registerServiceWorker() {

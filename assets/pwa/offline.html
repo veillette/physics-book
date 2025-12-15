@@ -49,7 +49,7 @@ function checkConnection() {
     updateConnectionStatus();
     if (navigator.onLine) {
         // Try to fetch a small resource to verify real connectivity
-        fetch('/physics-book/favicon.ico', { 
+        fetch('/physics-book/assets/image/favicon.ico', {
             method: 'HEAD',
             cache: 'no-cache'
         })

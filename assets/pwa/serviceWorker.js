@@ -9,7 +9,7 @@ console.log(`Service Worker: Version ${CACHE_VERSION}`);
 const CORE_CACHE_FILES = [
   `${BASE_URL}`,
   `${BASE_URL}index.html`,
-  `${BASE_URL}offline.html`,
+  `${BASE_URL}assets/pwa/offline.html`,
   `${BASE_URL}SUMMARY.html`,
   `${BASE_URL}assets/css/styles.css`,
   `${BASE_URL}assets/css/gitbook.css`,
@@ -17,16 +17,16 @@ const CORE_CACHE_FILES = [
   `${BASE_URL}assets/js/math-config.js`,
   `${BASE_URL}assets/js/book-config.js`,
   `${BASE_URL}assets/js/util.js`,
-  `${BASE_URL}assets/js/register-sw.js`,
+  `${BASE_URL}assets/pwa/register-sw.js`,
   `${BASE_URL}assets/manifest/manifest.json`,
   `${BASE_URL}assets/manifest/icons/icon-192x192.png`,
   `${BASE_URL}assets/manifest/icons/icon-512x512.png`,
-  `${BASE_URL}cover2.png`,
-  `${BASE_URL}favicon.ico`
+  `${BASE_URL}assets/image/cover2.png`,
+  `${BASE_URL}assets/image/favicon.ico`
 ];
 
 // Fallback pages
-const OFFLINE_PAGE = `${BASE_URL}offline.html`;
+const OFFLINE_PAGE = `${BASE_URL}assets/pwa/offline.html`;
 const FALLBACK_PAGE = `${BASE_URL}index.html`;
 
 // Install event - cache core files

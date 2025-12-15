@@ -1,8 +1,8 @@
 /**
  * Generate PWA icons and favicon from the project logo
  * This script uses Sharp to resize the logo to various sizes needed for PWA
- * Source: assets/icon/image.png
- * Output: assets/icon/
+ * Source: assets/image/imagePWA.png
+ * Output: assets/icon/ (icons), assets/image/ (favicon)
  */
 
 import sharp from 'sharp';
@@ -16,7 +16,8 @@ const __dirname = path.dirname(__filename);
 const ICON_SIZES = [48, 72, 96, 128, 144, 152, 192, 384, 512];
 const ROOT_DIR = path.join(__dirname, '..');
 const ICONS_DIR = path.join(ROOT_DIR, 'assets', 'icon');
-const SOURCE_LOGO = path.join(ICONS_DIR, 'image.png');
+const IMAGE_DIR = path.join(ROOT_DIR, 'assets', 'image');
+const SOURCE_LOGO = path.join(IMAGE_DIR, 'imagePWA.png');
 
 // Theme color extracted from the logo (blue background)
 const THEME_COLOR = { r: 30, g: 64, b: 120, alpha: 1 };
@@ -25,6 +26,12 @@ const THEME_COLOR = { r: 30, g: 64, b: 120, alpha: 1 };
 if (!fs.existsSync(ICONS_DIR)) {
   fs.mkdirSync(ICONS_DIR, { recursive: true });
   console.log(`✅ Created icons directory: ${ICONS_DIR}`);
+}
+
+// Ensure image directory exists
+if (!fs.existsSync(IMAGE_DIR)) {
+  fs.mkdirSync(IMAGE_DIR, { recursive: true });
+  console.log(`✅ Created image directory: ${IMAGE_DIR}`);
 }
 
 async function generateIcons() {
@@ -122,13 +129,9 @@ async function generateIcons() {
       .png()
       .toBuffer();
 
-    // Write to root directory for easy access
-    fs.writeFileSync(path.join(ROOT_DIR, 'favicon.ico'), faviconBuffer);
-    console.log('✅ Generated favicon.ico (32x32) in root directory');
-
-    // Also save in icons directory
-    fs.writeFileSync(path.join(ICONS_DIR, 'favicon.ico'), faviconBuffer);
-    console.log('✅ Generated favicon.ico in icons directory');
+    // Write to assets/image directory
+    fs.writeFileSync(path.join(IMAGE_DIR, 'favicon.ico'), faviconBuffer);
+    console.log('✅ Generated favicon.ico (32x32) in assets/image directory');
 
     // Generate Apple Touch Icon
     console.log('\nGenerating Apple Touch Icon:');
@@ -155,9 +158,9 @@ async function generateIcons() {
 
     console.log('\n✅ All icons generated successfully!');
     console.log(`\nIcons location: ${ICONS_DIR}`);
-    console.log(`Favicon location: ${path.join(ROOT_DIR, 'favicon.ico')}`);
+    console.log(`Favicon location: ${path.join(IMAGE_DIR, 'favicon.ico')}`);
 
-    const totalIcons = ICON_SIZES.length + 2 + 2 + 4 + 2; // standard + maskable + favicon + apple touch
+    const totalIcons = ICON_SIZES.length + 2 + 1 + 4 + 2; // standard + maskable + favicon + apple touch
     console.log(`Total icons generated: ${totalIcons}`);
 
   } catch (error) {
