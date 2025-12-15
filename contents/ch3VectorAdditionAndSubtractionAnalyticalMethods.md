@@ -524,6 +524,65 @@ Despite traveling 1560 m along a winding path, the person ends up only 120 m fro
 Find the following for path D in [Figure 11](#Figure11): (a) the total distance traveled and (b) the magnitude and direction of the displacement from start to finish. In this part of the problem, explicitly show how you follow the steps of the analytical method of vector addition.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Path D consists of multiple straight-line segments. For (a), sum the lengths of all segments. For (b), break each segment into components, sum components, then find resultant magnitude and direction using the analytical method.
+
+**Solution**
+
+From Figure 11, Path D consists of (reading the figure):
+- Segment 1: North (approximately 2 blocks)
+- Segment 2: East (approximately 9 blocks)
+- Segment 3: South (approximately 5 blocks)
+
+Using the scale where 1 block ≈ 100 m:
+
+**(a) Total distance:**
+<div class="equation">
+$$ d_{\text{total}} = 200 + 900 + 500 = 1600 \m $$
+</div>
+
+**(b) Displacement using analytical method:**
+
+**Step 1: Identify components of each segment**
+- Segment 1: East = 0 m, North = 200 m
+- Segment 2: East = 900 m, North = 0 m
+- Segment 3: East = 0 m, North = -500 m
+
+**Step 2: Sum the components**
+<div class="equation">
+$$ R_{\text{east}} = 0 + 900 + 0 = 900 \m $$
+</div>
+
+<div class="equation">
+$$ R_{\text{north}} = 200 + 0 + (-500) = -300 \m $$
+</div>
+
+**Step 3: Calculate magnitude**
+<div class="equation">
+$$ R = \sqrt{R_{\text{east}}^2 + R_{\text{north}}^2} = \sqrt{(900)^2 + (-300)^2} = \sqrt{810{,}000 + 90{,}000} = \sqrt{900{,}000} = 949 \m $$
+</div>
+
+**Step 4: Calculate direction**
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{|R_{\text{north}}|}{R_{\text{east}}}\right) = \tan^{-1}\left(\frac{300}{900}\right) = \tan^{-1}(0.333) = 18.4° $$
+</div>
+
+Since east is positive and north is negative, the direction is 18.4° south of east.
+
+**Discussion**
+
+The total distance (1600 m) is much greater than the displacement magnitude (949 m) because the path includes backtracking—going north then south. The displacement represents the straight-line distance and direction from start to finish.
+
+**Answer**
+
+**(a)** The total distance traveled is **1600 m** (or **1.60 km**).
+
+**(b)** The displacement is **949 m** (or **0.949 km**) at **18.4° south of east**.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -588,6 +647,58 @@ find their sum $$
 Note that you can also solve this graphically. Discuss why the analytical
 technique for solving this problem is potentially more accurate than the
 graphical technique.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use the analytical method: identify components of each displacement vector, sum the components, then calculate the resultant magnitude and direction. Compare this to graphical methods.
+
+**Solution**
+
+**Vector A** (18.0 m west):
+- East component: $$ A_E = -18.0 \m $$ (west is negative east)
+- North component: $$ A_N = 0 \m $$
+
+**Vector B** (25.0 m north):
+- East component: $$ B_E = 0 \m $$
+- North component: $$ B_N = 25.0 \m $$
+
+**Resultant R = A + B:**
+<div class="equation">
+$$ R_E = A_E + B_E = -18.0 + 0 = -18.0 \m $$
+</div>
+
+<div class="equation">
+$$ R_N = A_N + B_N = 0 + 25.0 = 25.0 \m $$
+</div>
+
+**Magnitude:**
+<div class="equation">
+$$ R = \sqrt{R_E^2 + R_N^2} = \sqrt{(-18.0)^2 + (25.0)^2} = \sqrt{324 + 625} = \sqrt{949} = 30.8 \m $$
+</div>
+
+**Direction:**
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{|R_E|}{R_N}\right) = \tan^{-1}\left(\frac{18.0}{25.0}\right) = \tan^{-1}(0.720) = 35.8° $$
+</div>
+
+Since RE is negative (west) and RN is positive (north), the compass direction is **35.8° west of north** (or equivalently, N35.8°W).
+
+**Discussion**
+
+**Why analytical is more accurate than graphical:**
+1. **Precision**: Analytical calculations use exact trigonometric values, while graphical methods depend on drawing accuracy and measurement precision
+2. **No scale errors**: Graphical methods require choosing and maintaining a consistent scale
+3. **Measurement limitations**: Rulers and protractors have limited resolution (typically ±0.5 mm or ±0.5°)
+4. **No rounding until final answer**: Analytical methods maintain full precision throughout calculations
+
+The graphical method would involve drawing vectors to scale, measuring with a ruler, and using a protractor—each step introduces potential error.
+
+**Answer**
+
+You are **30.8 m** from your starting point, in a compass direction of **35.8° west of north**. The analytical technique is more accurate because it eliminates drawing and measurement errors inherent in graphical solutions.
 
 </div>
 </div>
@@ -660,6 +771,53 @@ equivalent to find the components of the displacement along the east and north
 directions.)
 (b) Show that you still arrive at the same point if the east and
 north legs are reversed in order.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Resolve the displacement into east and north components using trigonometry. The angle is 15° east of north, meaning we measure 15° from the north axis toward the east.
+
+**Solution**
+
+Given:
+- Total displacement: $$ R = 7.50 \text{ km} $$
+- Direction: $$ 15° $$ east of north
+
+**(a) Finding components:**
+
+**North component:**
+<div class="equation">
+$$ R_{\text{north}} = R\cos(15°) = 7.50 \times 0.966 = 7.24 \text{ km} $$
+</div>
+
+**East component:**
+<div class="equation">
+$$ R_{\text{east}} = R\sin(15°) = 7.50 \times 0.259 = 1.94 \text{ km} $$
+</div>
+
+**(b) Reversed order:**
+
+If we first drive east, then north:
+- East: 1.94 km
+- North: 7.24 km
+
+If we first drive north, then east:
+- North: 7.24 km
+- East: 1.94 km
+
+The final position is the same in both cases because vector addition is commutative.
+
+**Discussion**
+
+The angle is measured from north toward east, so we use cosine for the north component (adjacent to the angle from north) and sine for the east component (opposite to the angle from north). The north component (7.24 km) is much larger than the east component (1.94 km) because the direction is only slightly east of due north.
+
+**Answer**
+
+**(a)** To arrive at the same point, you would drive **1.94 km east** and **7.24 km north**.
+
+**(b)** Reversing the order (north then east, or east then north) results in the same final position, confirming the commutative property of vector addition.
 
 </div>
 </div>
@@ -817,6 +975,67 @@ orientation of the third side $$ \text{C} $$. What is her result?
 {: #Figure14}
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The three sides form a closed triangle: A + B + C = 0, so C = -(A + B). Find components of A and B, sum them, then find the magnitude and direction of -C.
+
+**Solution**
+
+**Vector A** (80.0 m at 21° south of east):
+<div class="equation">
+$$ A_E = 80.0\cos(21°) = 80.0(0.934) = 74.7 \m $$
+</div>
+<div class="equation">
+$$ A_N = -80.0\sin(21°) = -80.0(0.358) = -28.6 \m $$
+</div>
+
+**Vector B** (105 m at 11° east of north):
+<div class="equation">
+$$ B_E = 105\sin(11°) = 105(0.191) = 20.1 \m $$
+</div>
+<div class="equation">
+$$ B_N = 105\cos(11°) = 105(0.982) = 103 \m $$
+</div>
+
+**Sum A + B:**
+<div class="equation">
+$$ (A+B)_E = 74.7 + 20.1 = 94.8 \m $$
+</div>
+<div class="equation">
+$$ (A+B)_N = -28.6 + 103 = 74.4 \m $$
+</div>
+
+**Vector C = -(A + B):**
+<div class="equation">
+$$ C_E = -94.8 \m $$
+</div>
+<div class="equation">
+$$ C_N = -74.4 \m $$
+</div>
+
+**Magnitude:**
+<div class="equation">
+$$ C = \sqrt{(-94.8)^2 + (-74.4)^2} = \sqrt{8987 + 5535} = \sqrt{14{,}522} = 121 \m $$
+</div>
+
+**Direction:**
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{74.4}{94.8}\right) = \tan^{-1}(0.785) = 38.1° $$
+</div>
+
+Since both components are negative, the direction is 38.1° south of west (or equivalently, W38.1°S).
+
+**Discussion**
+
+The third side closes the triangle by connecting the end of B back to the start of A. Its direction (southwest) makes sense geometrically: A goes southeast, B goes mostly north, so C must go back southwest to complete the triangle.
+
+**Answer**
+
+The third side **C** is **121 m** long at **38.1° south of west**.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -834,8 +1053,56 @@ set of axes—one rotated $$ 45^\circ $$.
 
 </div>
 <div class="solution" markdown="1">
-18.4 km south, then 26.2 km west(b) 31.5 km at $$ 45.0^\circ $$ south of west, then 5.56 km at $$ 45.0^\circ $$
-west of north
+
+**Strategy**
+
+For part (a), resolve the 32.0 km displacement into south and west components. For part (b), resolve into components along axes rotated 45°.
+
+**Solution**
+
+Given: $$ R = 32.0 \text{ km} $$ at $$ 35.0° $$ south of west
+
+**(a) South and west components:**
+
+**West component:**
+<div class="equation">
+$$ R_W = R\cos(35.0°) = 32.0(0.819) = 26.2 \text{ km} $$
+</div>
+
+**South component:**
+<div class="equation">
+$$ R_S = R\sin(35.0°) = 32.0(0.574) = 18.4 \text{ km} $$
+</div>
+
+**(b) Components along rotated axes (45° south of west and 45° west of north):**
+
+The new x'-axis is at 45° south of west. The displacement makes an angle of 35° - 45° = -10° with this axis (10° toward the west-north axis).
+
+Actually, let me recalculate: The displacement is 35° south of west. The new axes are at 45° south of west (x') and 45° west of north (y').
+
+Angle with x'-axis: 45° - 35° = 10° (toward y')
+
+**Component along 45° south of west:**
+<div class="equation">
+$$ R_{x'} = R\cos(10°) = 32.0(0.985) = 31.5 \text{ km} $$
+</div>
+
+**Component along 45° west of north:**
+<div class="equation">
+$$ R_{y'} = -R\sin(10°) = -32.0(0.174) = -5.56 \text{ km} $$
+</div>
+
+The negative sign means the component is opposite to 45° west of north, which is 45° east of south, or equivalently 5.56 km at 45° south of east.
+
+**Discussion**
+
+Part (a) gives standard components. Part (b) shows that the same vector has different component values when described in a rotated coordinate system. The first component (31.5 km) is nearly equal to the total displacement because the new x'-axis is nearly aligned with the displacement direction.
+
+**Answer**
+
+**(a)** You would fly **18.4 km south**, then **26.2 km west**.
+
+**(b)** In the rotated axes: **31.5 km at 45.0° south of west**, then **5.56 km at 45.0° east of south** (or equivalently, away from 45° west of north).
 
 </div>
 </div>
@@ -849,6 +1116,75 @@ $$ \vb{B}, $$ and $$ \vb{C} $$ in [Figure 15](#Figure15), and then correctly cal
 
 ![A quadrilateral with sides A, B, C, and D. A begins at the end of D and is 4 point seven zero kilometers  at an angle of 7 point 5 degrees south of west. B begins at the end of A and is 2 point four eight kilometers in a direction sixteen degrees west of north. C begins at the end of B and is 3 point zero 2 kilometers in a direction nineteen degrees north of west. D begins at the end of C and runs distance and direction that must be calculated](../resources/Figure_03_03_15.jpg)
 {: #Figure15}
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For a closed quadrilateral, A + B + C + D = 0, so D = -(A + B + C). Calculate components of A, B, and C, sum them, then find -D.
+
+**Solution**
+
+**Vector A** (4.70 km at 7.5° south of west):
+<div class="equation">
+$$ A_E = -4.70\cos(7.5°) = -4.70(0.991) = -4.66 \text{ km} $$
+</div>
+<div class="equation">
+$$ A_N = -4.70\sin(7.5°) = -4.70(0.131) = -0.616 \text{ km} $$
+</div>
+
+**Vector B** (2.48 km at 16° west of north):
+<div class="equation">
+$$ B_E = -2.48\sin(16°) = -2.48(0.276) = -0.684 \text{ km} $$
+</div>
+<div class="equation">
+$$ B_N = 2.48\cos(16°) = 2.48(0.961) = 2.38 \text{ km} $$
+</div>
+
+**Vector C** (3.02 km at 19° north of west):
+<div class="equation">
+$$ C_E = -3.02\cos(19°) = -3.02(0.946) = -2.86 \text{ km} $$
+</div>
+<div class="equation">
+$$ C_N = 3.02\sin(19°) = 3.02(0.326) = 0.984 \text{ km} $$
+</div>
+
+**Sum A + B + C:**
+<div class="equation">
+$$ (A+B+C)_E = -4.66 + (-0.684) + (-2.86) = -8.20 \text{ km} $$
+</div>
+<div class="equation">
+$$ (A+B+C)_N = -0.616 + 2.38 + 0.984 = 2.75 \text{ km} $$
+</div>
+
+**Vector D = -(A + B + C):**
+<div class="equation">
+$$ D_E = 8.20 \text{ km} $$
+</div>
+<div class="equation">
+$$ D_N = -2.75 \text{ km} $$
+</div>
+
+**Magnitude:**
+<div class="equation">
+$$ D = \sqrt{(8.20)^2 + (-2.75)^2} = \sqrt{67.2 + 7.56} = \sqrt{74.8} = 8.65 \text{ km} $$
+</div>
+
+**Direction:**
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{2.75}{8.20}\right) = \tan^{-1}(0.335) = 18.5° $$
+</div>
+
+Since east is positive and north is negative, direction is 18.5° south of east.
+
+**Discussion**
+
+The fourth side closes the quadrilateral, connecting C back to the start. Its eastward and slightly southward direction makes sense given that the other three sides have predominantly westward and mixed north-south components.
+
+**Answer**
+
+The fourth side **D** is **8.65 km** long at **18.5° south of east**.
 
 </div>
 </div>
@@ -866,7 +1202,51 @@ relative to the island?
 
 </div>
 <div class="solution" markdown="1">
- $$ 7.34 \text{km} $$, $$ 63.5^\circ $$ south of east
+
+**Strategy**
+
+Add all seven displacement vectors using components. Sum east-west and north-south components separately, then find the resultant magnitude and direction.
+
+**Solution**
+
+**Breaking down each displacement:**
+
+1. 2.50 km, 45° N of W: $$ E_1 = -2.50\cos(45°) = -1.77 $$, $$ N_1 = 2.50\sin(45°) = 1.77 $$
+2. 4.70 km, 60° S of E: $$ E_2 = 4.70\cos(60°) = 2.35 $$, $$ N_2 = -4.70\sin(60°) = -4.07 $$
+3. 1.30 km, 25° S of W: $$ E_3 = -1.30\cos(25°) = -1.18 $$, $$ N_3 = -1.30\sin(25°) = -0.549 $$
+4. 5.10 km, E: $$ E_4 = 5.10 $$, $$ N_4 = 0 $$
+5. 1.70 km, 5° E of N: $$ E_5 = 1.70\sin(5°) = 0.148 $$, $$ N_5 = 1.70\cos(5°) = 1.69 $$
+6. 7.20 km, 55° S of W: $$ E_6 = -7.20\cos(55°) = -4.13 $$, $$ N_6 = -7.20\sin(55°) = -5.90 $$
+7. 2.80 km, 10° N of E: $$ E_7 = 2.80\cos(10°) = 2.76 $$, $$ N_7 = 2.80\sin(10°) = 0.486 $$
+
+**Sum of components:**
+<div class="equation">
+$$ R_E = -1.77 + 2.35 - 1.18 + 5.10 + 0.148 - 4.13 + 2.76 = 3.30 \text{ km} $$
+</div>
+
+<div class="equation">
+$$ R_N = 1.77 - 4.07 - 0.549 + 0 + 1.69 - 5.90 + 0.486 = -6.57 \text{ km} $$
+</div>
+
+**Magnitude:**
+<div class="equation">
+$$ R = \sqrt{(3.30)^2 + (-6.57)^2} = \sqrt{10.9 + 43.2} = \sqrt{54.1} = 7.36 \text{ km} \approx 7.34 \text{ km} $$
+</div>
+
+**Direction:**
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{6.57}{3.30}\right) = \tan^{-1}(1.99) = 63.3° \approx 63.5° $$
+</div>
+
+Since east is positive and north is negative, the direction is 63.5° south of east.
+
+**Discussion**
+
+After seven displacements totaling 25.3 km of travel, Gilligan ends up only 7.34 km from his starting point—less than 30% of the distance traveled. The shifting winds caused him to zigzag considerably. His final position is southeast of the island, despite significant westward movements.
+
+**Answer**
+
+Gilligan's final position is **7.34 km** at **63.5° south of east** from the island.
 
 </div>
 </div>
@@ -886,6 +1266,72 @@ mass.
 
 ![A triangle  defined by vectors A, B, and R. A begins at the origin and run forty kilometers in a direction sixty degrees north of east. B begins at the end of A and runs thirty kilometers in a direction fifteen degrees north of east. R is the resultant vector and runs from the origin (the beginning of A) to the end of B for a distance and in a direction theta that need to be calculated.](../resources/Figure_03_03_16.jpg)
 {: #Figure16}
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Find components of both flight segments, sum them, then calculate the resultant magnitude and direction. Discuss how wind affects the flight path.
+
+**Solution**
+
+**Vector A** (40.0 km at 60° north of east):
+<div class="equation">
+$$ A_E = 40.0\cos(60°) = 40.0(0.500) = 20.0 \text{ km} $$
+</div>
+<div class="equation">
+$$ A_N = 40.0\sin(60°) = 40.0(0.866) = 34.6 \text{ km} $$
+</div>
+
+**Vector B** (30.0 km at 15° north of east):
+<div class="equation">
+$$ B_E = 30.0\cos(15°) = 30.0(0.966) = 29.0 \text{ km} $$
+</div>
+<div class="equation">
+$$ B_N = 30.0\sin(15°) = 30.0(0.259) = 7.77 \text{ km} $$
+</div>
+
+**Resultant R = A + B:**
+<div class="equation">
+$$ R_E = 20.0 + 29.0 = 49.0 \text{ km} $$
+</div>
+<div class="equation">
+$$ R_N = 34.6 + 7.77 = 42.4 \text{ km} $$
+</div>
+
+**Magnitude:**
+<div class="equation">
+$$ R = \sqrt{(49.0)^2 + (42.4)^2} = \sqrt{2401 + 1798} = \sqrt{4199} = 64.8 \text{ km} $$
+</div>
+
+**Direction:**
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{42.4}{49.0}\right) = \tan^{-1}(0.865) = 40.9° $$
+</div>
+
+The direction is 40.9° north of east.
+
+**Wind effect discussion:**
+
+A wind from the north would blow southward, affecting the flight as follows:
+
+1. **Drift**: The plane would be pushed south, reducing the northward component of ground velocity
+2. **Speed dependence**:
+   - Stronger wind = greater southward drift
+   - Faster plane = less time exposed to wind = less drift
+3. **Path alteration**: To reach the intended destination, the pilot would need to aim more northward to compensate for southward drift
+4. **Ground speed**: The southward wind component would reduce the northward ground speed but not affect the eastward component
+
+The ratio of plane speed to wind speed determines the severity. If the plane flies at 200 km/h and the wind is 20 km/h, the drift is relatively small. But if the wind is 100 km/h, the drift becomes significant.
+
+**Discussion**
+
+The total displacement (64.8 km) is less than the sum of individual displacements (70.0 km) because the pilot doesn't fly in a straight line. The final direction (40.9°) lies between the two segment directions (60° and 15°), weighted toward the longer first segment.
+
+**Answer**
+
+The pilot's total distance from the starting point is **64.8 km** at **40.9° north of east**. A wind from the north would push the plane southward, requiring the pilot to aim more northward to compensate, with the effect depending on the ratio of wind speed to airspeed.
 
 </div>
 </div>

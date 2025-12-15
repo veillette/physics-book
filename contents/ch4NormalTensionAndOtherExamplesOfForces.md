@@ -688,10 +688,61 @@ the vertical strand (find their ratio).
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 7.84 \times 10^{-4}\N $$
 
-(b) $$ 1.89 \times 10^{-3}\N $$. This is 2.41 times the tension in the vertical
-strand.
+**Strategy**
+
+For part (a), the spider hangs motionless, so the tension equals the spider's weight. For part (b), analyze the forces in the horizontal strand: two tension forces at angles must have a vertical component that balances the spider's weight.
+
+**Solution**
+
+Given:
+- Mass of spider: $$ m = 8.00 \times 10^{-5} \kg $$
+- Angle below horizontal: $$ \theta = 12^\circ $$
+- Gravitational acceleration: $$ g = 9.80 \mss $$
+
+**(a) Tension in vertical strand:**
+
+For a motionless spider hanging on a vertical strand, the tension must equal the weight:
+<div class="equation">
+$$ T_{\text{vertical}} = w = mg = (8.00 \times 10^{-5} \kg)(9.80 \mss) = 7.84 \times 10^{-4} \N $$
+</div>
+
+**(b) Tension in horizontal strand:**
+
+When the spider sits in the middle of a horizontal strand, the strand sags symmetrically. Each half makes an angle $$ \theta = 12^\circ $$ below horizontal. The vertical components of tension from both sides must balance the spider's weight.
+
+Free-body diagram analysis:
+- Two tension forces $$ T $$ at angle $$ \theta $$ below horizontal
+- Weight $$ w $$ downward
+
+Vertical force balance:
+<div class="equation">
+$$ 2T\sin(\theta) = w $$
+</div>
+
+Solve for tension:
+<div class="equation">
+$$ T = \frac{w}{2\sin(\theta)} = \frac{7.84 \times 10^{-4} \N}{2\sin(12^\circ)} $$
+</div>
+
+<div class="equation">
+$$ T = \frac{7.84 \times 10^{-4} \N}{2(0.2079)} = \frac{7.84 \times 10^{-4} \N}{0.4158} = 1.89 \times 10^{-3} \N $$
+</div>
+
+**Compare to vertical tension:**
+<div class="equation">
+$$ \frac{T_{\text{horizontal}}}{T_{\text{vertical}}} = \frac{1.89 \times 10^{-3} \N}{7.84 \times 10^{-4} \N} = 2.41 $$
+</div>
+
+**Discussion**
+
+The tension in the horizontal strand is 2.41 times greater than in the vertical strand, even though the same spider hangs on both. This occurs because the horizontal strand must support the spider's weight using only the vertical components of tension. Since $$ \sin(12^\circ) $$ is only about 0.21, each side contributes only 21% of its tension to vertical support. This is why tightrope walkers need extremely strong cables—the more horizontal the rope, the greater the tension. If the angle approached zero (perfectly horizontal), the required tension would approach infinity.
+
+**Answer**
+
+(a) The tension in the vertical strand is **7.84 × 10⁻⁴ N**.
+
+(b) The tension in the horizontal strand is **1.89 × 10⁻³ N**, which is **2.41 times** the tension in the vertical strand.
 
 </div>
 </div>
@@ -760,17 +811,59 @@ tension of magnitude $$ T=\frac{ F_{\perp }}{2\sin\left( \theta \right)} $$.
 
 </div>
 <div class="solution" markdown="1">
-Newton’s second law applied in vertical direction gives
 
+**Strategy**
+
+Apply Newton's second law to the point where the perpendicular force is applied. Since the system is in equilibrium (no acceleration), the net force must be zero. Analyze the vertical forces: the applied force downward and the vertical components of tension from both sides upward.
+
+**Solution**
+
+Consider a flexible medium (rope, cable, wire) with a perpendicular force $$ \vb{F}_{\perp} $$ (magnitude $$ F $$) applied at its center, causing it to sag at angle $$ \theta $$ from horizontal.
+
+**Free-body diagram at the application point:**
+- Applied force: $$ F $$ (downward, perpendicular to original horizontal)
+- Tension to the left: $$ T $$ at angle $$ \theta $$ below horizontal
+- Tension to the right: $$ T $$ at angle $$ \theta $$ below horizontal
+
+**Horizontal force analysis:**
+
+The horizontal components of tension cancel:
 <div class="equation">
-$$ F_{y}=F-2T\sin{\theta} =0 $$
+$$ T\cos(\theta) - T\cos(\theta) = 0 $$
 </div>
+
+**Vertical force analysis:**
+
+For equilibrium in the vertical direction, applying Newton's second law with zero acceleration:
 <div class="equation">
-$$ F=2T\sin{\theta} $$
+$$ \sum F_y = 2T\sin(\theta) - F = 0 $$
 </div>
+
+The factor of 2 appears because both sides contribute a vertical component $$ T\sin(\theta) $$.
+
+Rearranging:
 <div class="equation">
- $$ T=\frac{ F}{2 \sin{\theta} }. $$
+$$ F = 2T\sin(\theta) $$
 </div>
+
+Solving for tension:
+<div class="equation">
+$$ T = \frac{F}{2\sin(\theta)} = \frac{F_{\perp}}{2\sin(\theta)} $$
+</div>
+
+**Discussion**
+
+This formula reveals an important principle: as the angle $$ \theta $$ decreases (rope becomes more horizontal), the denominator $$ 2\sin(\theta) $$ becomes smaller, so the tension $$ T $$ must increase to support the same perpendicular force. This explains why:
+- A perfectly horizontal wire would require infinite tension to support any load
+- Tightrope walkers use long poles to increase their sag angle, reducing cable tension
+- Power lines and suspension bridges are designed with appropriate sag
+
+For small angles, $$ \sin(\theta) \approx \theta $$ (in radians), and tension increases roughly as $$ 1/\theta $$.
+
+**Answer**
+
+The derivation shows that a perpendicular force $$ F_{\perp} $$ applied at the center of a flexible medium produces a tension of magnitude $$ T = \frac{F_{\perp}}{2\sin(\theta)} $$, where $$ \theta $$ is the angle the medium makes with the horizontal.
+
 </div>
 </div>
 
@@ -783,6 +876,98 @@ observed?
 (c) What is the tension $$ T_{2} $$ in the cord attaching the scale to the ceiling, if the scale has a mass of 0.500 kg?
 (d) Draw a sketch of the situation indicating the system of interest used to
 solve each part. The masses of the cords are negligible.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The scale reading indicates the force it applies to what hangs below it (the baby and basket), which by Newton's third law equals the force they exert on the scale. Use this to find the mass. The tensions can be found by analyzing forces on each system: the baby+basket, and then the baby+basket+scale.
+
+**Solution**
+
+Given:
+- Scale reading: $$ 55 \N $$
+- Mass of scale: $$ m_{\text{scale}} = 0.500 \kg $$
+- Gravitational acceleration: $$ g = 9.80 \mss $$
+
+**(a) Mass of child and basket:**
+
+The scale reading equals the weight of the child and basket:
+<div class="equation">
+$$ w_{\text{baby}} = 55 \N $$
+</div>
+
+From $$ w = mg $$:
+<div class="equation">
+$$ m_{\text{baby}} = \frac{w_{\text{baby}}}{g} = \frac{55 \N}{9.80 \mss} = 5.61 \kg $$
+</div>
+
+**(b) Tension $$ T_1 $$ in cord attaching baby to scale:**
+
+Consider the baby and basket as the system. Forces acting on it:
+- Weight: $$ w_{\text{baby}} = 55 \N $$ (downward)
+- Tension: $$ T_1 $$ (upward)
+
+Since the baby is motionless (equilibrium):
+<div class="equation">
+$$ T_1 - w_{\text{baby}} = 0 $$
+</div>
+
+<div class="equation">
+$$ T_1 = w_{\text{baby}} = 55 \N $$
+</div>
+
+**(c) Tension $$ T_2 $$ in cord attaching scale to ceiling:**
+
+Consider the entire system (baby + basket + scale). Forces acting on this system:
+- Combined weight: $$ w_{\text{baby}} + w_{\text{scale}} $$ (downward)
+- Tension from ceiling: $$ T_2 $$ (upward)
+
+Weight of scale:
+<div class="equation">
+$$ w_{\text{scale}} = m_{\text{scale}} g = (0.500 \kg)(9.80 \mss) = 4.90 \N $$
+</div>
+
+For equilibrium:
+<div class="equation">
+$$ T_2 - w_{\text{baby}} - w_{\text{scale}} = 0 $$
+</div>
+
+<div class="equation">
+$$ T_2 = w_{\text{baby}} + w_{\text{scale}} = 55 \N + 4.90 \N = 59.9 \N \approx 60 \N $$
+</div>
+
+**(d) System sketches:**
+
+**Part (a) and (b):** System = baby + basket
+```
+    T₁ ↑
+    [Baby + Basket]
+    W_baby ↓ (55 N)
+```
+
+**Part (c):** System = baby + basket + scale
+```
+    T₂ ↑
+    [Scale (4.90 N)]
+    [Baby + Basket (55 N)]
+    (W_baby + W_scale) ↓ (59.9 N)
+```
+
+**Discussion**
+
+This problem demonstrates how forces propagate through a system. The bottom cord ($$ T_1 $$) supports only the baby and basket (55 N). The top cord ($$ T_2 $$) must support everything below it: the baby, basket, and scale (59.9 N). The scale reading (55 N) represents the force the scale exerts upward on the baby, which equals the force the baby exerts downward on the scale by Newton's third law. This is why scales measure weight even though they actually measure the force exerted on them.
+
+**Answer**
+
+(a) The mass of the child and basket is **5.61 kg**.
+
+(b) The tension $$ T_1 $$ in the cord attaching the baby to the scale is **55 N**.
+
+(c) The tension $$ T_2 $$ in the cord attaching the scale to the ceiling is **60 N** (or **59.9 N**).
+
+(d) System sketches are shown above.
 
 </div>
 </div>

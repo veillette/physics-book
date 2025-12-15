@@ -2603,6 +2603,61 @@ positions of a projectile that starts at the origin.) You should obtain an
 equation of the form $$ y=a x+b x^{2} $$
 where $$ a $$ and $$ b $$ are constants.
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Start with the parametric equations for projectile motion (x and y as functions of time), eliminate time by solving for t from the x-equation, then substitute into the y-equation to get y as a function of x.
+
+**Solution**
+
+**Given equations:**
+<div class="equation">
+$$ x = v_{0x}t $$
+</div>
+<div class="equation">
+$$ y = v_{0y}t - \frac{1}{2}gt^2 $$
+</div>
+
+**Step 1: Solve for t from the x-equation:**
+<div class="equation">
+$$ t = \frac{x}{v_{0x}} $$
+</div>
+
+**Step 2: Substitute into the y-equation:**
+<div class="equation">
+$$ y = v_{0y}\left(\frac{x}{v_{0x}}\right) - \frac{1}{2}g\left(\frac{x}{v_{0x}}\right)^2 $$
+</div>
+
+**Step 3: Simplify:**
+<div class="equation">
+$$ y = \frac{v_{0y}}{v_{0x}}x - \frac{g}{2v_{0x}^2}x^2 $$
+</div>
+
+**Step 4: Identify constants:**
+
+This is in the form $$ y = ax + bx^2 $$ where:
+<div class="equation">
+$$ a = \frac{v_{0y}}{v_{0x}} = \tan\theta_0 $$
+</div>
+<div class="equation">
+$$ b = -\frac{g}{2v_{0x}^2} $$
+</div>
+
+Since $$ v_{0x} = v_0\cos\theta_0 $$ and $$ v_{0y} = v_0\sin\theta_0 $$:
+<div class="equation">
+$$ y = (\tan\theta_0)x - \frac{g}{2v_0^2\cos^2\theta_0}x^2 $$
+</div>
+
+**Discussion**
+
+This equation has the form $$ y = ax + bx^2 $$, which is a parabola. The coefficient $$ a $$ represents the initial slope (tangent of launch angle), while $$ b $$ is always negative (since g is positive), causing the parabola to open downward. This mathematical form confirms what we observe: projectiles follow parabolic paths. The shape depends on initial velocity and launch angle—shallow angles give wide, flat parabolas; steep angles give narrow, tall parabolas.
+
+**Answer**
+
+The trajectory equation $$ y = \frac{v_{0y}}{v_{0x}}x - \frac{g}{2v_{0x}^2}x^2 $$ is in the form **y = ax + bx²**, proving that projectile motion follows a **parabolic path**.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -2643,6 +2698,65 @@ resistance, thinning air with altitude, and the curvature of the Earth on the
 range of the super cannon.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use the range formula for projectile motion, then analyze whether the result is physically reasonable. Consider factors like Earth's curvature, atmosphere, and the validity of the projectile motion equations.
+
+**Solution**
+
+**(a) Maximum range:**
+
+The range formula is:
+<div class="equation">
+$$ R = \frac{v_0^2\sin(2\theta_0)}{g} $$
+</div>
+
+Maximum range occurs at $$ \theta_0 = 45° $$, where $$ \sin(2\theta_0) = \sin(90°) = 1 $$:
+
+Given: $$ v_0 = 4.0 \text{ km/s} = 4000 \ms $$, $$ g = 9.80 \mss $$
+
+<div class="equation">
+$$ R_{\text{max}} = \frac{v_0^2}{g} = \frac{(4000)^2}{9.80} = \frac{16{,}000{,}000}{9.80} = 1{,}633{,}000 \m \approx 1630 \text{ km} $$
+</div>
+
+**(b) What is unreasonable:**
+
+The range of **1630 km** is unreasonable for several reasons:
+1. Earth's radius is only 6371 km, so 1630 km represents a significant fraction of Earth's circumference
+2. The curvature of Earth becomes important over such distances
+3. The projectile would reach extreme altitudes where air is extremely thin or absent
+4. At 4 km/s, the projectile approaches orbital velocity (7.9 km/s)
+
+**(c) Is the premise or equation inappropriate:**
+
+Both are problematic:
+- **The equation**: The standard range formula assumes a flat Earth and constant g. Over 1630 km, Earth's curvature is significant, and the equation is invalid
+- **The premise**: While 4 km/s is theoretically achievable (rockets exceed this), the premise of using projectile motion equations is unreasonable at this scale
+
+**(d) Effects if such velocity were obtained:**
+
+1. **Air resistance**: At 4 km/s (Mach 12), air resistance would be enormous, creating intense heating and drag. The projectile would likely burn up or be destroyed
+2. **Thinning air**: The projectile would quickly reach altitudes above most of the atmosphere (>100 km), reducing drag but also invalidating constant-g assumptions
+3. **Earth's curvature**: The projectile would follow a curved path relative to Earth's surface. At 4 km/s, it's halfway to orbital velocity, so it would travel in an elliptical orbit rather than a parabolic trajectory
+4. **Coriolis effect**: Earth's rotation would deflect the projectile significantly over such distances
+
+**Discussion**
+
+This problem illustrates the limits of simple projectile motion models. The equations $$ R = \frac{v_0^2\sin(2\theta)}{g} $$ work well for everyday projectiles (balls, arrows, bullets) but break down for extreme velocities and ranges. At 4 km/s, we need orbital mechanics, not projectile motion. The calculated range ignores that the projectile would actually enter a suborbital trajectory.
+
+**Answer**
+
+**(a)** The calculated maximum range is **1630 km** (or **1.63 × 10³ km**).
+
+**(b)** This range is unreasonable because it ignores Earth's curvature, atmospheric effects, and the fact that the projectile approaches orbital velocity.
+
+**(c)** The **equation is inapplicable** at this scale—orbital mechanics, not projectile motion, governs such high-speed trajectories.
+
+**(d)** Air resistance would cause intense heating and deceleration; the thinning atmosphere would reduce drag at altitude; Earth's curvature would cause the projectile to follow an orbital path rather than a parabolic trajectory.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -2657,6 +2771,85 @@ of release of the ball, and the height at which the ball is released. You should
 also consider whether it is possible to choose the initial speed for the ball
 and just calculate the angle at which it is thrown. Also examine the possibility
 of multiple solutions given the distances and heights you have chosen.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Design a realistic scenario with specific values for fence height, distance, and release height. Then demonstrate the solution process, including checking for multiple solutions and discussing the physics involved.
+
+**Solution**
+
+**Problem Construction:**
+
+A baseball player throws a ball to clear a 3.0 m high fence. The fence is 20.0 m away horizontally, and the ball is released from a height of 2.0 m.
+
+**Given values:**
+- Fence height: $$ h_f = 3.0 \m $$
+- Horizontal distance to fence: $$ x_f = 20.0 \m $$
+- Release height: $$ y_0 = 2.0 \m $$
+- Height ball must reach: $$ y_f = 3.0 \m $$
+- Net vertical distance: $$ \Delta y = 3.0 - 2.0 = 1.0 \m $$
+
+**Approach:** Choose an initial speed (say $$ v_0 = 15.0 \ms $$) and find the launch angle(s) needed.
+
+**Trajectory equation:**
+<div class="equation">
+$$ y - y_0 = x\tan\theta - \frac{gx^2}{2v_0^2\cos^2\theta} $$
+</div>
+
+At the fence ($$ x = 20.0 \m $$, $$ y - y_0 = 1.0 \m $$):
+<div class="equation">
+$$ 1.0 = 20.0\tan\theta - \frac{(9.80)(20.0)^2}{2(15.0)^2\cos^2\theta} $$
+</div>
+
+<div class="equation">
+$$ 1.0 = 20.0\tan\theta - \frac{3920}{450\cos^2\theta} $$
+</div>
+
+<div class="equation">
+$$ 1.0 = 20.0\tan\theta - \frac{8.71}{\cos^2\theta} $$
+</div>
+
+Using $$ \sec^2\theta = 1 + \tan^2\theta $$:
+<div class="equation">
+$$ 1.0 = 20.0\tan\theta - 8.71(1 + \tan^2\theta) $$
+</div>
+
+<div class="equation">
+$$ 8.71\tan^2\theta - 20.0\tan\theta + 9.71 = 0 $$
+</div>
+
+**Using quadratic formula** with $$ a = 8.71 $$, $$ b = -20.0 $$, $$ c = 9.71 $$:
+<div class="equation">
+$$ \tan\theta = \frac{20.0 \pm \sqrt{400 - 338}}{17.4} = \frac{20.0 \pm \sqrt{62}}{17.4} = \frac{20.0 \pm 7.87}{17.4} $$
+</div>
+
+**Two solutions:**
+<div class="equation">
+$$ \tan\theta_1 = \frac{27.9}{17.4} = 1.60 \quad \Rightarrow \quad \theta_1 = 58.0° $$
+</div>
+
+<div class="equation">
+$$ \tan\theta_2 = \frac{12.1}{17.4} = 0.695 \quad \Rightarrow \quad \theta_2 = 34.8° $$
+</div>
+
+**Discussion**
+
+This problem demonstrates several key concepts:
+
+1. **Multiple solutions**: Most projectile problems have two launch angles that work—one steep ($$ 58.0° $$), one shallow ($$ 34.8° $$). Both clear the fence at exactly 3.0 m.
+
+2. **Choosing vs. calculating**: We chose $$ v_0 = 15.0 \ms $$ and calculated angles. Alternatively, we could choose an angle and calculate the required speed. However, we cannot independently choose both—they're constrained by the trajectory equation.
+
+3. **Minimum speed**: There exists a minimum initial speed below which no angle works. This occurs when the discriminant equals zero: $$ v_0^{\text{min}} = \sqrt{\frac{gx_f^2}{2(x_f\sin(2\alpha) - \Delta y\cos^2\alpha)}} $$ where $$ \alpha = 45° $$ gives the minimum.
+
+4. **Physical reasonableness**: Both angles are realistic for throwing. The steeper angle gives a higher, shorter trajectory; the shallower angle gives a longer, flatter trajectory.
+
+**Answer**
+
+For a ball released at 2.0 m height to clear a 3.0 m fence 20.0 m away with initial speed 15.0 m/s, two launch angles work: **58.0°** (steep) or **34.8°** (shallow). This demonstrates that projectile problems often have two solutions—one high arc, one low arc—both reaching the same point.
 
 </div>
 </div>
