@@ -644,10 +644,36 @@ $$ \text{Maximum: } 60 + 1 = 61 \text{ km/h} $$
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) A person’s blood pressure is measured to be  $$ 120  \pm  2\text{mm Hg}  $$.
+(a) A person's blood pressure is measured to be  $$ 120  \pm  2\text{mm Hg}  $$.
 What is its percent uncertainty?
 (b) Assuming the same percent uncertainty, what is the uncertainty in a
 blood pressure measurement of  $$80 \text{mm Hg}  $$ ?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Use the percent uncertainty formula for part (a), then apply the same percentage to find the uncertainty in part (b).
+
+**Solution**
+
+**(a) Percent uncertainty at 120 mm Hg:**
+
+<div class="equation">
+$$ \%\text{unc} = \frac{\delta P}{P} \times 100\% = \frac{2 \text{ mm Hg}}{120 \text{ mm Hg}} \times 100\% = 1.67\% \approx 2\% $$
+</div>
+
+**(b) Uncertainty at 80 mm Hg with same percent uncertainty:**
+
+<div class="equation">
+$$ \delta P = 80 \text{ mm Hg} \times \frac{1.67\%}{100\%} = 80 \text{ mm Hg} \times 0.0167 = 1.3 \text{ mm Hg} \approx 1 \text{ mm Hg} $$
+</div>
+
+**Answer**
+
+(a) The percent uncertainty is **2%** (or 1.7% to two significant figures).
+
+(b) The uncertainty in the 80 mm Hg measurement is **1 mm Hg**, so the measurement would be reported as **80 ± 1 mm Hg**.
 
 </div>
 </div>
@@ -701,6 +727,30 @@ $$ 80 \pm 3\text{ beats/min} $$
 What is the area of a circle  $$ 3.102\text{cm}  $$ in diameter?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Calculate the area using A = πr², where r = d/2. Report the answer with the appropriate number of significant figures.
+
+**Solution**
+
+1. Find the radius:
+<div class="equation">
+$$ r = \frac{d}{2} = \frac{3.102 \text{ cm}}{2} = 1.551 \text{ cm} $$
+</div>
+
+2. Calculate the area:
+<div class="equation">
+$$ A = \pi r^{2} = \pi (1.551 \text{ cm})^{2} = \pi (2.406 \text{ cm}^{2}) = 7.557 \text{ cm}^{2} $$
+</div>
+
+Since the diameter has 4 significant figures, the area should also have 4 significant figures.
+
+**Answer**
+
+The area of the circle is **7.557 cm²**.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -734,6 +784,62 @@ in the distance traveled and an uncertainty of 1 s in the elapsed time.
 (b) Calculate the uncertainty in the elapsed time.
 (c) What is the average speed in meters per second?
 (d) What is the uncertainty in the average speed?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Calculate percent uncertainties for distance and time, then use them to find the uncertainty in the calculated average speed.
+
+**Solution**
+
+**(a) Percent uncertainty in distance:**
+
+Distance = 42.188 km = 42,188 m, with uncertainty δd = 25 m
+
+<div class="equation">
+$$ \%\text{unc}_{d} = \frac{\delta d}{d} \times 100\% = \frac{25 \m}{42{,}188 \m} \times 100\% = 0.059\% \approx 0.06\% $$
+</div>
+
+**(b) Percent uncertainty in time:**
+
+Time = 2 h 30 min 12 s. Convert to seconds:
+<div class="equation">
+$$ t = 2 \times 3600 \s + 30 \times 60 \s + 12 \s = 7200 + 1800 + 12 = 9012 \s $$
+</div>
+
+With uncertainty δt = 1 s:
+<div class="equation">
+$$ \%\text{unc}_{t} = \frac{\delta t}{t} \times 100\% = \frac{1 \s}{9012 \s} \times 100\% = 0.011\% \approx 0.01\% $$
+</div>
+
+**(c) Average speed:**
+
+<div class="equation">
+$$ v = \frac{d}{t} = \frac{42{,}188 \m}{9012 \s} = 4.681 \ms \approx 4.68 \ms $$
+</div>
+
+**(d) Uncertainty in average speed:**
+
+For division, add the percent uncertainties:
+<div class="equation">
+$$ \%\text{unc}_{v} = \%\text{unc}_{d} + \%\text{unc}_{t} = 0.059\% + 0.011\% = 0.070\% \approx 0.07\% $$
+</div>
+
+Calculate absolute uncertainty:
+<div class="equation">
+$$ \delta v = v \times \frac{0.070\%}{100\%} = 4.681 \ms \times 0.0007 = 0.0033 \ms \approx 0.003 \ms $$
+</div>
+
+**Answer**
+
+(a) The percent uncertainty in the distance is **0.06%**.
+
+(b) The percent uncertainty in the elapsed time is **0.01%**.
+
+(c) The average speed is **4.68 m/s**.
+
+(d) The uncertainty in the average speed is **0.003 m/s**, so the speed is **4.681 ± 0.003 m/s** (or approximately **4.68 ± 0.01 m/s** to 3 significant figures).
 
 </div>
 </div>
@@ -797,6 +903,43 @@ in the pound-mass unit, what is its percent uncertainty?
 converted to kilograms?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Calculate the percent uncertainty in the conversion factor, then find what mass would have 1 kg uncertainty with that same percent uncertainty.
+
+**Solution**
+
+**(a) Percent uncertainty in the pound-mass conversion:**
+
+<div class="equation">
+$$ \%\text{unc} = \frac{\delta m}{m} \times 100\% = \frac{0.0001 \kg}{0.4539 \kg} \times 100\% = 0.022\% \approx 0.02\% $$
+</div>
+
+**(b) Mass with 1 kg uncertainty:**
+
+If the percent uncertainty is 0.022%, what mass m (in kg) has an uncertainty of 1 kg?
+
+<div class="equation">
+$$ \frac{\delta m}{m} = \frac{0.022}{100} $$
+</div>
+
+<div class="equation">
+$$ m = \frac{\delta m \times 100}{0.022} = \frac{1 \kg \times 100}{0.022} = 4545 \kg \approx 4500 \kg $$
+</div>
+
+Convert to pound-mass:
+<div class="equation">
+$$ 4545 \kg \times \frac{1 \text{ lbm}}{0.4539 \kg} = 10{,}014 \text{ lbm} \approx 10{,}000 \text{ lbm} $$
+</div>
+
+**Answer**
+
+(a) The percent uncertainty in the pound-mass unit is **0.02%** (or 0.022% to more precision).
+
+(b) A mass of approximately **10,000 lbm** (or **4500 kg**) would have an uncertainty of 1 kg when converted to kilograms.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -852,6 +995,60 @@ to compress the gas in the cylinder.
 (a) By what amount is the gas decreased in
 volume in cubic centimeters?
 (b) Find the uncertainty in this volume.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Calculate the volume using V = πr²h, where r = d/2 and h is the distance moved. Find the uncertainty using the method of adding percent uncertainties.
+
+**Solution**
+
+**(a) Volume decrease:**
+
+1. Find the radius:
+<div class="equation">
+$$ r = \frac{d}{2} = \frac{7.500 \text{ cm}}{2} = 3.750 \text{ cm} $$
+</div>
+
+2. Calculate the volume (cylinder volume = πr²h):
+<div class="equation">
+$$ V = \pi r^{2} h = \pi (3.750 \text{ cm})^{2} (3.250 \text{ cm}) = \pi (14.0625 \text{ cm}^{2})(3.250 \text{ cm}) $$
+</div>
+
+<div class="equation">
+$$ V = 143.6 \text{ cm}^{3} $$
+</div>
+
+**(b) Uncertainty in volume:**
+
+1. Calculate percent uncertainties:
+
+For diameter:
+<div class="equation">
+$$ \%\text{unc}_{d} = \frac{0.002 \text{ cm}}{7.500 \text{ cm}} \times 100\% = 0.027\% $$
+</div>
+
+For height (distance):
+<div class="equation">
+$$ \%\text{unc}_{h} = \frac{0.001 \text{ cm}}{3.250 \text{ cm}} \times 100\% = 0.031\% $$
+</div>
+
+2. For V = πr²h, since r appears squared, the diameter uncertainty contributes twice:
+<div class="equation">
+$$ \%\text{unc}_{V} = 2 \times \%\text{unc}_{d} + \%\text{unc}_{h} = 2(0.027\%) + 0.031\% = 0.085\% \approx 0.09\% $$
+</div>
+
+3. Calculate absolute uncertainty:
+<div class="equation">
+$$ \delta V = V \times \frac{0.085\%}{100\%} = 143.6 \text{ cm}^{3} \times 0.00085 = 0.12 \text{ cm}^{3} \approx 0.1 \text{ cm}^{3} $$
+</div>
+
+**Answer**
+
+(a) The gas volume is decreased by **144 cm³** (or 143.6 cm³ to four significant figures).
+
+(b) The uncertainty in this volume is **0.1 cm³**, so the volume change is **143.6 ± 0.1 cm³** (or **144 ± 1 cm³** to three significant figures).
 
 </div>
 </div>
