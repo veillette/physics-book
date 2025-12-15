@@ -239,7 +239,38 @@ A fairground ride spins its occupants inside a flying saucer-shaped container. I
 
 </div>
 <div class="solution" markdown="1">
-12.9 rev/min
+
+**Strategy**
+
+We need to find the angular velocity that produces a centripetal acceleration of $$ a_c = 1.50g $$. We'll use $$ a_c = r\omega^2 $$ and solve for $$ \omega $$, then convert from rad/s to rev/min.
+
+**Solution**
+
+The centripetal acceleration is:
+
+<div class="equation">
+$$ a_c = 1.50g = 1.50(9.80\text{ m/s}^2) = 14.7\text{ m/s}^2 $$
+</div>
+
+Using $$ a_c = r\omega^2 $$ and solving for $$ \omega $$:
+
+<div class="equation">
+$$ \omega^2 = \frac{a_c}{r} = \frac{14.7\text{ m/s}^2}{8.00\text{ m}} = 1.84\text{ rad}^2\text{/s}^2 $$
+</div>
+
+<div class="equation">
+$$ \omega = \sqrt{1.84} = 1.36\text{ rad/s} $$
+</div>
+
+Convert to rev/min:
+
+<div class="equation">
+$$ \omega = 1.36\frac{\text{rad}}{\text{s}} \times \frac{1\text{ rev}}{2\pi\text{ rad}} \times \frac{60\text{ s}}{1\text{ min}} = \frac{1.36 \times 60}{2\pi}\text{ rev/min} = 12.9\text{ rev/min} $$
+</div>
+
+**Discussion**
+
+The fairground ride must rotate at 12.9 revolutions per minute to subject riders to a centripetal acceleration of 1.50g. This is about one revolution every 4.6 seconds, which is slow enough to be comfortable but fast enough to create the sensation of increased "weight" pushing riders outward against the walls of the container.
 
 </div>
 </div>
@@ -288,7 +319,29 @@ respect to the Sun).
 
 </div>
 <div class="solution" markdown="1">
- $$ 4\times 10^{21} \m $$ 
+
+**Strategy**
+
+Earth completes one orbit around the Sun each year, traveling a distance equal to the circumference of its orbit. We'll calculate the circumference, then multiply by the number of years Earth has existed.
+
+**Solution**
+
+The circumference of Earth's orbit is:
+
+<div class="equation">
+$$ C = 2\pi r = 2\pi(1.5 \times 10^{11}\text{ m}) = 9.42 \times 10^{11}\text{ m} $$
+</div>
+
+The total distance traveled in $$ 4 \times 10^9 $$ years is:
+
+<div class="equation">
+$$ s = (\text{number of orbits}) \times C = (4 \times 10^9)(9.42 \times 10^{11}\text{ m}) = 3.77 \times 10^{21}\text{ m} \approx 4 \times 10^{21}\text{ m} $$
+</div>
+
+**Discussion**
+
+Earth has traveled approximately $$ 4 \times 10^{21} $$ meters (4 billion trillion meters) since its birth 4 billion years ago. This staggering distance is about 400 trillion kilometers, or roughly 25 million light-years. Despite this enormous journey through space, Earth remains in a stable orbit due to the gravitational force of the Sun providing the necessary centripetal force.
+
 </div>
 </div>
 
@@ -364,8 +417,42 @@ meters per second squared and convert it to multiples of $$ g $$.
 </div>
 
 <div class="solution" markdown="1">
-a) $$ 3.47\times 10^{4} \mss $$, $$ 3.55\times 10^{3}g $$
-b) $$ 51.1 \ms $$
+
+**Strategy**
+
+(a) We'll convert the angular velocity from rev/min to rad/s, then use $$ a_c = r\omega^2 $$ to find the centripetal acceleration.
+(b) We'll use $$ v = r\omega $$ to find the linear speed.
+
+**Solution**
+
+Convert angular velocity to rad/s:
+
+<div class="equation">
+$$ \omega = 6500\frac{\text{rev}}{\text{min}} \times \frac{2\pi\text{ rad}}{1\text{ rev}} \times \frac{1\text{ min}}{60\text{ s}} = \frac{6500 \times 2\pi}{60}\text{ rad/s} = 681\text{ rad/s} $$
+</div>
+
+(a) Calculate the centripetal acceleration (with radius in meters: $$ r = 0.0750 $$ m):
+
+<div class="equation">
+$$ a_c = r\omega^2 = (0.0750\text{ m})(681\text{ rad/s})^2 = (0.0750)(464{,}000) = 3.47 \times 10^4\text{ m/s}^2 $$
+</div>
+
+Express as a multiple of $$ g $$:
+
+<div class="equation">
+$$ \frac{a_c}{g} = \frac{3.47 \times 10^4\text{ m/s}^2}{9.80\text{ m/s}^2} = 3.55 \times 10^3 = 3550 $$
+</div>
+
+(b) Calculate the linear speed:
+
+<div class="equation">
+$$ v = r\omega = (0.0750\text{ m})(681\text{ rad/s}) = 51.1\text{ m/s} $$
+</div>
+
+**Discussion**
+
+The centripetal acceleration at the edge of the grindstone is $$ 3.47 \times 10^4 $$ m/s², which is 3550 times the acceleration due to gravity. The linear speed at the edge is 51.1 m/s (about 184 km/h or 114 mi/h). These extreme values demonstrate why grindstones must be made from very strong materials and why safety guards are essential - if a piece broke off, it would be ejected at high speed with devastating force.
+
 </div>
 
 </div>
@@ -505,13 +592,45 @@ Verify that the linear speed of an ultracentrifuge is about 0.50 km/s, and Earth
 rotating at 50 000 rev/min.
 
 (b) The linear speed of Earth in its orbit about the Sun (use data from the text
-on the radius of Earth’s orbit and approximate it as being circular).
+on the radius of Earth's orbit and approximate it as being circular).
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-a) 0.524 km/s
 
-b) 29.7 km/s
+**Strategy**
+
+(a) We'll convert the angular velocity to rad/s and use $$ v = r\omega $$ to find the linear speed.
+(b) We'll use $$ v = \frac{2\pi r}{T} $$ where $$ r = 1.5 \times 10^{11} $$ m (Earth's orbital radius) and $$ T = 1 $$ year.
+
+**Solution**
+
+(a) Convert angular velocity to rad/s:
+
+<div class="equation">
+$$ \omega = 50{,}000\frac{\text{rev}}{\text{min}} \times \frac{2\pi\text{ rad}}{1\text{ rev}} \times \frac{1\text{ min}}{60\text{ s}} = \frac{50{,}000 \times 2\pi}{60} = 5236\text{ rad/s} $$
+</div>
+
+Calculate the linear speed:
+
+<div class="equation">
+$$ v = r\omega = (0.100\text{ m})(5236\text{ rad/s}) = 524\text{ m/s} = 0.524\text{ km/s} $$
+</div>
+
+(b) Calculate Earth's orbital speed. First, convert the period to seconds:
+
+<div class="equation">
+$$ T = 1\text{ year} \times \frac{365.25\text{ days}}{1\text{ year}} \times \frac{24\text{ h}}{1\text{ day}} \times \frac{3600\text{ s}}{1\text{ h}} = 3.156 \times 10^7\text{ s} $$
+</div>
+
+Calculate the linear speed:
+
+<div class="equation">
+$$ v = \frac{2\pi r}{T} = \frac{2\pi(1.5 \times 10^{11}\text{ m})}{3.156 \times 10^7\text{ s}} = \frac{9.42 \times 10^{11}}{3.156 \times 10^7} = 2.99 \times 10^4\text{ m/s} = 29.9\text{ km/s} $$
+</div>
+
+**Discussion**
+
+The ultracentrifuge has a linear speed of 0.524 km/s at 0.100 m from its center, which verifies the approximate value of 0.50 km/s. Earth's orbital speed is 29.9 km/s (about 30 km/s), which is approximately 60 times faster than the ultracentrifuge. Despite Earth's enormous mass and distance from the Sun, it travels at this remarkable speed to maintain its stable circular orbit.
 
 </div>
 </div>
@@ -567,14 +686,60 @@ At takeoff, a commercial jet has a 60.0 m/s speed. Its tires have a diameter of 
 (c) With what force must a determined $$ 1.00\times 10^{-15}\kg $$ bacterium
 cling to the rim?
 
-(d) Take the ratio of this force to the bacterium’s weight.
+(d) Take the ratio of this force to the bacterium's weight.
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-(a) $$ 1.35\times 10^{3}\text{rpm} $$
-(b) $$ 8.47\times 10^{3}\mss $$
-(c) $$ 8.47\times 10^{-12}\N $$
-(d) $$ 865 $$
+
+**Strategy**
+
+(a) We'll use $$ \omega = \frac{v}{r} $$ to find angular velocity, then convert to rev/min.
+(b) We'll use $$ a_c = \frac{v^2}{r} $$ to find the centripetal acceleration.
+(c) We'll use $$ F_c = ma_c $$ to find the centripetal force.
+(d) We'll calculate weight using $$ w = mg $$ and find the ratio.
+
+**Solution**
+
+The radius is half the diameter: $$ r = \frac{0.850}{2} = 0.425 $$ m.
+
+(a) Calculate the angular velocity:
+
+<div class="equation">
+$$ \omega = \frac{v}{r} = \frac{60.0\text{ m/s}}{0.425\text{ m}} = 141\text{ rad/s} $$
+</div>
+
+Convert to rev/min:
+
+<div class="equation">
+$$ \omega = 141\frac{\text{rad}}{\text{s}} \times \frac{1\text{ rev}}{2\pi\text{ rad}} \times \frac{60\text{ s}}{1\text{ min}} = \frac{141 \times 60}{2\pi} = 1.35 \times 10^3\text{ rpm} $$
+</div>
+
+(b) Calculate the centripetal acceleration:
+
+<div class="equation">
+$$ a_c = \frac{v^2}{r} = \frac{(60.0\text{ m/s})^2}{0.425\text{ m}} = \frac{3600}{0.425} = 8.47 \times 10^3\text{ m/s}^2 $$
+</div>
+
+(c) Calculate the centripetal force on the bacterium:
+
+<div class="equation">
+$$ F_c = ma_c = (1.00 \times 10^{-15}\text{ kg})(8.47 \times 10^3\text{ m/s}^2) = 8.47 \times 10^{-12}\text{ N} $$
+</div>
+
+(d) Calculate the bacterium's weight and the ratio:
+
+<div class="equation">
+$$ w = mg = (1.00 \times 10^{-15}\text{ kg})(9.80\text{ m/s}^2) = 9.80 \times 10^{-15}\text{ N} $$
+</div>
+
+<div class="equation">
+$$ \frac{F_c}{w} = \frac{8.47 \times 10^{-12}\text{ N}}{9.80 \times 10^{-15}\text{ N}} = 865 $$
+</div>
+
+**Discussion**
+
+At takeoff, the jet's tires rotate at 1,350 rpm with a centripetal acceleration of 8,470 m/s² (about 865g) at the edge. A bacterium clinging to the rim must withstand a force 865 times its weight to avoid being flung off. This enormous centripetal acceleration demonstrates the extreme forces experienced by rotating objects at high speeds, which is why tire integrity is critical for aircraft safety.
+
 </div>
 </div>
 

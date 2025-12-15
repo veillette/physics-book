@@ -420,12 +420,39 @@ The orbital radius of a geosynchronous satellite is approximately $$ 4.23 \times
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Calculate the mass of the Sun based on data for Earth’s orbit and compare
-the value obtained with the Sun’s actual mass.
+Calculate the mass of the Sun based on data for Earth's orbit and compare
+the value obtained with the Sun's actual mass.
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
- $$ 1.98\times 10^{30}\kg $$
+
+**Strategy**
+
+We'll use the relationship $$ M = \frac{4\pi^2 r^3}{GT^2} $$ derived from Kepler's third law. We know Earth's orbital radius is $$ 1.50 \times 10^{11} $$ m and its period is 1 year.
+
+**Solution**
+
+Convert Earth's period to seconds:
+
+<div class="equation">
+$$ T = 1\text{ year} \times \frac{365.25\text{ days}}{1\text{ year}} \times \frac{24\text{ h}}{1\text{ day}} \times \frac{3600\text{ s}}{1\text{ h}} = 3.156 \times 10^7\text{ s} $$
+</div>
+
+Calculate the Sun's mass:
+
+<div class="equation">
+$$ M = \frac{4\pi^2 r^3}{GT^2} = \frac{4\pi^2 (1.50 \times 10^{11}\text{ m})^3}{(6.67 \times 10^{-11}\text{ N·m}^2\text{/kg}^2)(3.156 \times 10^7\text{ s})^2} $$
+</div>
+
+<div class="equation">
+$$ M = \frac{4\pi^2 (3.375 \times 10^{33})}{(6.67 \times 10^{-11})(9.96 \times 10^{14})} = \frac{1.33 \times 10^{35}}{6.64 \times 10^{4}} = 2.00 \times 10^{30}\text{ kg} $$
+</div>
+
+The actual mass of the Sun is $$ 1.989 \times 10^{30} $$ kg.
+
+**Discussion**
+
+The calculated mass of the Sun based on Earth's orbital data is $$ 2.00 \times 10^{30} $$ kg, which agrees remarkably well with the accepted value of $$ 1.989 \times 10^{30} $$ kg. This excellent agreement validates both Newton's law of universal gravitation and Kepler's laws, demonstrating that we can determine the mass of distant celestial bodies simply by observing the orbital motion of objects around them.
 
 </div>
 </div>

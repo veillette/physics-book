@@ -269,7 +269,34 @@ Semi-trailer trucks have an odometer on one hub of a trailer wheel. The hub is w
 
 </div>
 <div class="solution" markdown="1">
-723 km
+
+**Strategy**
+
+Each complete rotation of the wheel covers a distance equal to the wheel's circumference. We'll calculate the circumference from the diameter, then multiply by the number of rotations to find the total distance traveled.
+
+**Solution**
+
+The circumference of the wheel is:
+
+<div class="equation">
+$$ C = \pi d = \pi(1.15\text{ m}) = 3.61\text{ m} $$
+</div>
+
+The total distance traveled is:
+
+<div class="equation">
+$$ s = (\text{number of rotations}) \times C = (200{,}000)(3.61\text{ m}) = 7.23 \times 10^5\text{ m} $$
+</div>
+
+Convert to kilometers:
+
+<div class="equation">
+$$ s = 7.23 \times 10^5\text{ m} \times \frac{1\text{ km}}{1000\text{ m}} = 723\text{ km} $$
+</div>
+
+**Discussion**
+
+The odometer should read 723 km, which is a reasonable distance for a semi-trailer truck to travel before needing maintenance or inspection. This calculation demonstrates the relationship between rotational motion (number of wheel revolutions) and linear distance traveled, which is fundamental to how mechanical odometers work.
 
 </div>
 </div>
@@ -312,7 +339,34 @@ An automobile with 0.260 m radius tires travels 80 000 km before wearing them ou
 
 </div>
 <div class="solution" markdown="1">
- $$ 5\times 10^{7}\text{rotations} $$
+
+**Strategy**
+
+Each revolution of the tire covers a distance equal to the circumference. We'll find the circumference, convert the total distance to meters, then divide the total distance by the circumference to find the number of revolutions.
+
+**Solution**
+
+The circumference of the tire is:
+
+<div class="equation">
+$$ C = 2\pi r = 2\pi(0.260\text{ m}) = 1.63\text{ m} $$
+</div>
+
+Convert the total distance to meters:
+
+<div class="equation">
+$$ s = 80{,}000\text{ km} \times \frac{1000\text{ m}}{1\text{ km}} = 8.00 \times 10^7\text{ m} $$
+</div>
+
+The number of revolutions is:
+
+<div class="equation">
+$$ N = \frac{s}{C} = \frac{8.00 \times 10^7\text{ m}}{1.63\text{ m}} = 4.91 \times 10^7\text{ rotations} \approx 5 \times 10^7\text{ rotations} $$
+</div>
+
+**Discussion**
+
+The tires make approximately 50 million revolutions before wearing out after traveling 80,000 km. This enormous number of rotations explains why tire tread wears down over time and why tires need to be replaced periodically. The calculation also assumes the tire radius remains constant, though in reality, tire wear would slightly reduce the radius, affecting the actual number of revolutions.
 
 </div>
 </div>
@@ -361,11 +415,26 @@ Earth completes one rotation in 86,400 seconds (24 hours) with an angular veloci
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A baseball pitcher brings his arm forward during a pitch, rotating the forearm about the elbow. If the velocity of the ball in the pitcher’s hand is 35.0 m/s and the ball is 0.300 m from the elbow joint, what is the angular velocity of the forearm?
+A baseball pitcher brings his arm forward during a pitch, rotating the forearm about the elbow. If the velocity of the ball in the pitcher's hand is 35.0 m/s and the ball is 0.300 m from the elbow joint, what is the angular velocity of the forearm?
 
 </div>
-<div class="solution"  markdown="1">
-117 rad/s
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We need to find the angular velocity given the linear velocity and radius. We'll use the relationship $$ v = r\omega $$, which we can rearrange to solve for $$ \omega = \frac{v}{r} $$.
+
+**Solution**
+
+Using the relationship between linear and angular velocity:
+
+<div class="equation">
+$$ \omega = \frac{v}{r} = \frac{35.0\text{ m/s}}{0.300\text{ m}} = 117\text{ rad/s} $$
+</div>
+
+**Discussion**
+
+The angular velocity of the forearm is 117 rad/s, which is quite large. To put this in perspective, we can convert to revolutions per second: $$ \omega = 117\text{ rad/s} \times \frac{1\text{ rev}}{2\pi\text{ rad}} = 18.6\text{ rev/s} $$, or about 19 revolutions per second. This high angular velocity, combined with the radius from the elbow to the ball, produces the high linear velocity needed for a fast pitch. Professional pitchers achieve these impressive velocities through coordinated whole-body motion, not just arm rotation.
 
 </div>
 </div>
@@ -402,9 +471,28 @@ A truck with 0.420-m-radius tires travels at 32.0 m/s. What is the angular veloc
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-76.2 rad/s
 
-728 rpm
+**Strategy**
+
+We need to find the angular velocity from the linear velocity and radius. We'll use $$ \omega = \frac{v}{r} $$ to find the angular velocity in rad/s, then convert to rev/min using appropriate conversion factors.
+
+**Solution**
+
+Calculate the angular velocity in rad/s:
+
+<div class="equation">
+$$ \omega = \frac{v}{r} = \frac{32.0\text{ m/s}}{0.420\text{ m}} = 76.2\text{ rad/s} $$
+</div>
+
+Convert to rev/min:
+
+<div class="equation">
+$$ \omega = 76.2\frac{\text{rad}}{\text{s}} \times \frac{1\text{ rev}}{2\pi\text{ rad}} \times \frac{60\text{ s}}{1\text{ min}} = \frac{76.2 \times 60}{2\pi}\text{ rev/min} = \frac{4572}{6.28}\text{ rev/min} = 728\text{ rpm} $$
+</div>
+
+**Discussion**
+
+The angular velocity of the truck's tires is 76.2 rad/s or 728 rpm. This rotation rate is typical for vehicles traveling at highway speeds. Notice that the angular velocity depends on both the linear speed and the tire radius - larger tires would rotate more slowly at the same linear speed, while smaller tires would rotate faster.
 
 </div>
 </div>
@@ -415,8 +503,8 @@ A truck with 0.420-m-radius tires travels at 32.0 m/s. What is the angular veloc
 **Integrated Concepts**
 When kicking a football, the kicker rotates his leg about the hip joint.
 
-(a) If the velocity of the tip of the kicker’s shoe is 35.0 m/s and the hip
-joint is 1.05 m from the tip of the shoe, what is the shoe tip’s angular
+(a) If the velocity of the tip of the kicker's shoe is 35.0 m/s and the hip
+joint is 1.05 m from the tip of the shoe, what is the shoe tip's angular
 velocity?
 
 (b) The shoe is in contact with the initially stationary 0.500 kg football for
@@ -427,11 +515,40 @@ velocity?
 
 </div>
 <div class="solution" markdown="1">
-(a) 33.3 rad/s
 
-(b) 500 N
+**Strategy**
 
-(c) 40.8 m
+(a) We'll use $$ \omega = \frac{v}{r} $$ to find the angular velocity of the leg.
+(b) We'll use the impulse-momentum theorem: $$ F\Delta t = m\Delta v $$ to find the average force.
+(c) Maximum range occurs at a 45° launch angle. We'll use the range formula $$ R = \frac{v^2\sin(2\theta)}{g} $$.
+
+**Solution**
+
+(a) Calculate the angular velocity:
+
+<div class="equation">
+$$ \omega = \frac{v}{r} = \frac{35.0\text{ m/s}}{1.05\text{ m}} = 33.3\text{ rad/s} $$
+</div>
+
+(b) Calculate the average force using the impulse-momentum theorem:
+
+<div class="equation">
+$$ F\Delta t = m\Delta v $$
+</div>
+
+<div class="equation">
+$$ F = \frac{m\Delta v}{\Delta t} = \frac{(0.500\text{ kg})(20.0\text{ m/s} - 0)}{20.0 \times 10^{-3}\text{ s}} = \frac{10.0\text{ kg·m/s}}{0.0200\text{ s}} = 500\text{ N} $$
+</div>
+
+(c) Calculate the maximum range (at 45° launch angle):
+
+<div class="equation">
+$$ R = \frac{v^2\sin(2\theta)}{g} = \frac{(20.0\text{ m/s})^2\sin(90°)}{9.80\text{ m/s}^2} = \frac{400 \times 1}{9.80} = 40.8\text{ m} $$
+</div>
+
+**Discussion**
+
+The angular velocity of the kicker's leg is 33.3 rad/s, which combined with the 1.05 m radius produces a shoe tip velocity of 35.0 m/s. The average force on the football during the brief 20 ms contact is 500 N (about 112 lb), which accelerates the football to 20.0 m/s. At the optimal 45° launch angle, the football can travel a maximum distance of 40.8 m (about 45 yards), which is a reasonable distance for a punt or field goal attempt in American football.
 
 </div>
 </div>

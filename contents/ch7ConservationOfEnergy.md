@@ -311,7 +311,25 @@ Using values from [Table 1](#Table1), how many DNA molecules could be broken by 
 
 </div>
 <div class="solution" markdown="1">
- $$ 4\times 10^{4}\text{ molecules} $$
+
+**Strategy**
+
+From Table 1, the energy of a single electron in a TV tube beam is $$ 4.0 \times 10^{-15} $$ J, and the energy to break one DNA strand is $$ 10^{-19} $$ J. We divide the electron's energy by the energy per DNA strand.
+
+**Solution**
+
+<div class="equation">
+ $$ \begin{array}{lll}
+\text{Number of DNA molecules} &=& \frac{\text{Energy of electron}}{\text{Energy per DNA strand}}\\
+&=& \frac{4.0 \times 10^{-15}\J}{10^{-19}\J}\\
+&=& 4.0 \times 10^{4}\text{ molecules}
+\end{array} $$
+</div>
+
+**Discussion**
+
+A single electron in an old TV tube beam carries enough energy to break approximately 40,000 DNA strands. This illustrates why radiation damage at the molecular level can be so significant—a single high-energy particle can cause extensive damage. However, these electrons themselves don't penetrate the glass screen; the danger came from the x-rays they produced when they struck the screen, which is why later TV models included protective shielding.
+
 </div>
 </div>
 
