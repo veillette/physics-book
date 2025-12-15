@@ -726,11 +726,92 @@ is 110 kg.
 A 2.50-kg fireworks shell is fired straight up from a mortar and reaches a
 height of 110 m.
 (a) Neglecting air resistance (a poor assumption, but we will make it for this
-example), calculate the shell’s velocity when it leaves the mortar.
+example), calculate the shell's velocity when it leaves the mortar.
 (b) The mortar itself is a tube 0.450 m long. Calculate the average acceleration
 of the shell in the tube as it goes from zero to the velocity found in (a).
 (c) What is the average force on the shell in the mortar? Express your answer in
 newtons and as a ratio to the weight of the shell.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use kinematics to find the launch velocity (part a), then find the acceleration in the mortar (part b), and finally use Newton's second law to find the force (part c).
+
+**Solution**
+
+**(a) Velocity when leaving the mortar:**
+
+At maximum height, the velocity is zero. Using the kinematic equation $$ v^2 = v_0^2 + 2a\Delta y $$:
+- Final velocity at height: $$ v = 0 $$
+- Height: $$ \Delta y = 110 \m $$
+- Acceleration: $$ a = -g = -9.80 \mss $$
+
+<div class="equation">
+$$ 0 = v_0^2 + 2(-9.80 \mss)(110 \m) $$
+</div>
+
+<div class="equation">
+$$ v_0^2 = 2(9.80 \mss)(110 \m) = 2156 \mmss $$
+</div>
+
+<div class="equation">
+$$ v_0 = \sqrt{2156 \mmss} = 46.4 \ms $$
+</div>
+
+**(b) Average acceleration in the mortar:**
+
+Using $$ v^2 = v_0^2 + 2a\Delta x $$ with:
+- Initial velocity: $$ v_0 = 0 $$
+- Final velocity: $$ v = 46.4 \ms $$
+- Distance: $$ \Delta x = 0.450 \m $$
+
+<div class="equation">
+$$ (46.4 \ms)^2 = 0 + 2a(0.450 \m) $$
+</div>
+
+<div class="equation">
+$$ a = \frac{(46.4 \ms)^2}{2(0.450 \m)} = \frac{2153 \mmss}{0.900 \m} = 2.39 \times 10^3 \mss $$
+</div>
+
+**(c) Average force on the shell:**
+
+The net force produces the acceleration. Since the shell accelerates upward, both the applied force and weight act on it:
+
+<div class="equation">
+$$ F_{net} = F_{applied} - w = ma $$
+</div>
+
+<div class="equation">
+$$ F_{applied} = ma + mg = m(a + g) $$
+</div>
+
+<div class="equation">
+$$ F_{applied} = (2.50 \kg)(2390 \mss + 9.80 \mss) = (2.50 \kg)(2400 \mss) = 6.00 \times 10^3 \N $$
+</div>
+
+Weight of shell:
+<div class="equation">
+$$ w = mg = (2.50 \kg)(9.80 \mss) = 24.5 \N $$
+</div>
+
+Ratio:
+<div class="equation">
+$$ \frac{F_{applied}}{w} = \frac{6000 \N}{24.5 \N} = 245 $$
+</div>
+
+**Discussion**
+
+The enormous acceleration (about 244 times g) requires a force 245 times the shell's weight. This is typical for explosive propulsion, where very large forces act over very short distances and times.
+
+**Answer**
+
+(a) The shell's velocity when leaving the mortar is **46.4 m/s**.
+
+(b) The average acceleration in the tube is **2.39 × 10³ m/s²** (or **244g**).
+
+(c) The average force is **6.00 × 10³ N**, which is **245 times** the shell's weight.
 
 </div>
 </div>
@@ -769,6 +850,102 @@ the tension in the cable during deceleration?
 is its final velocity?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For each phase, apply Newton's second law to find tension. When accelerating, $$ T = ma + mg $$; when at constant velocity, $$ T = mg $$; when decelerating upward, $$ T = mg - ma $$. Use kinematics to find displacement and final velocity.
+
+**Solution**
+
+Given: $$ m = 1700 \kg $$, $$ g = 9.80 \mss $$
+
+Weight: $$ w = mg = (1700 \kg)(9.80 \mss) = 1.67 \times 10^4 \N $$
+
+**(a) Tension during acceleration:**
+
+Net force: $$ F_{net} = T - w = ma $$
+
+<div class="equation">
+$$ T = ma + mg = m(a + g) = (1700 \kg)(1.20 \mss + 9.80 \mss) $$
+</div>
+
+<div class="equation">
+$$ T = (1700 \kg)(11.0 \mss) = 1.87 \times 10^4 \N $$
+</div>
+
+**(b) Tension at constant velocity:**
+
+At constant velocity, $$ a = 0 $$:
+
+<div class="equation">
+$$ T = mg = 1.67 \times 10^4 \N $$
+</div>
+
+**(c) Tension during deceleration:**
+
+Deceleration is $$ a = -0.600 \mss $$:
+
+<div class="equation">
+$$ T = m(a + g) = (1700 \kg)(-0.600 \mss + 9.80 \mss) = (1700 \kg)(9.20 \mss) $$
+</div>
+
+<div class="equation">
+$$ T = 1.56 \times 10^4 \N $$
+</div>
+
+**(d) Total height and final velocity:**
+
+**Phase 1 (acceleration for 1.50 s):**
+
+<div class="equation">
+$$ v_1 = v_0 + at = 0 + (1.20 \mss)(1.50 \s) = 1.80 \ms $$
+</div>
+
+<div class="equation">
+$$ \Delta y_1 = v_0 t + \frac{1}{2}at^2 = 0 + \frac{1}{2}(1.20 \mss)(1.50 \s)^2 = 1.35 \m $$
+</div>
+
+**Phase 2 (constant velocity for 8.50 s):**
+
+<div class="equation">
+$$ \Delta y_2 = v_1 t = (1.80 \ms)(8.50 \s) = 15.3 \m $$
+</div>
+
+**Phase 3 (deceleration for 3.00 s):**
+
+<div class="equation">
+$$ v_f = v_1 + at = 1.80 \ms + (-0.600 \mss)(3.00 \s) = 0 \ms $$
+</div>
+
+<div class="equation">
+$$ \Delta y_3 = v_1 t + \frac{1}{2}at^2 = (1.80 \ms)(3.00 \s) + \frac{1}{2}(-0.600 \mss)(3.00 \s)^2 $$
+</div>
+
+<div class="equation">
+$$ \Delta y_3 = 5.40 \m - 2.70 \m = 2.70 \m $$
+</div>
+
+**Total height:**
+<div class="equation">
+$$ \Delta y_{total} = 1.35 \m + 15.3 \m + 2.70 \m = 19.4 \m $$
+</div>
+
+**Discussion**
+
+The tension is greatest during upward acceleration (18,700 N), equals the weight during constant velocity (16,700 N), and is smallest during deceleration (15,600 N). The elevator comes to rest after traveling 19.4 m upward.
+
+**Answer**
+
+(a) During acceleration, the tension is **1.87 × 10⁴ N**.
+
+(b) At constant velocity, the tension is **1.67 × 10⁴ N**.
+
+(c) During deceleration, the tension is **1.56 × 10⁴ N**.
+
+(d) The elevator has moved **19.4 m** above its starting point, and its final velocity is **0 m/s** (at rest).
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -780,6 +957,60 @@ is its final velocity?
 decelerates at a rate of $$ 0.400 \mss $$ for 50.0 s?
 (b) What is unreasonable about the result?
 (c) Which premise is unreasonable, or which premises are inconsistent?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Convert the initial velocity to m/s, then use kinematics to find the final velocity. Analyze whether the result makes physical sense.
+
+**Solution**
+
+**(a) Final velocity:**
+
+1. Convert initial velocity:
+<div class="equation">
+$$ v_0 = 50.0 \frac{\text{km}}{\text{h}} \times \frac{1000 \m}{1 \text{ km}} \times \frac{1 \text{ h}}{3600 \s} = 13.9 \ms $$
+</div>
+
+2. Apply kinematics:
+<div class="equation">
+$$ v = v_0 + at = 13.9 \ms + (-0.400 \mss)(50.0 \s) $$
+</div>
+
+<div class="equation">
+$$ v = 13.9 \ms - 20.0 \ms = -6.1 \ms $$
+</div>
+
+**(b) What is unreasonable:**
+
+The negative final velocity means the car is moving backward at 6.1 m/s. This is unreasonable because:
+- A car cannot reverse direction simply by braking
+- Once the car stops (v = 0), friction cannot accelerate it backward
+- The car would have stopped much earlier and remained at rest
+
+**(c) Which premise is unreasonable:**
+
+The time of 50.0 s is unreasonably long for this deceleration. Let's find when the car actually stops:
+
+<div class="equation">
+$$ t_{stop} = \frac{v_0}{|a|} = \frac{13.9 \ms}{0.400 \mss} = 34.8 \s $$
+</div>
+
+The car stops after 34.8 s, so continuing the deceleration for 50.0 s is physically impossible—the car cannot decelerate for 15.2 s after it has already stopped.
+
+**Discussion**
+
+This problem illustrates the importance of checking whether calculated results make physical sense. Real cars stop when their velocity reaches zero; they don't continue accelerating backward under braking.
+
+**Answer**
+
+(a) The calculated final velocity is **−6.1 m/s** (or **−22 km/h**).
+
+(b) A negative velocity means the car is moving backward, which is unreasonable for a braking car.
+
+(c) The time of **50.0 s is unreasonably long**—the car would have stopped at 34.8 s and cannot continue decelerating after that.
 
 </div>
 </div>
@@ -794,6 +1025,75 @@ rest to 30.0 m/s in 2.00 s.
 scale exerts an upward force on him equal to its reading.) (b) What is
 unreasonable about the result?
 (c) Which premise is unreasonable, or which premises are inconsistent?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Calculate the elevator's acceleration, then use Newton's second law to find the scale reading (normal force). Compare this to the man's weight.
+
+**Solution**
+
+**(a) Scale reading:**
+
+1. Calculate the acceleration:
+<div class="equation">
+$$ a = \frac{\Delta v}{\Delta t} = \frac{30.0 \ms - 0}{2.00 \s} = 15.0 \mss $$
+</div>
+
+2. Calculate the man's weight:
+<div class="equation">
+$$ w = mg = (75.0 \kg)(9.80 \mss) = 735 \N $$
+</div>
+
+3. Apply Newton's second law (upward positive):
+<div class="equation">
+$$ F_{net} = F_{scale} - w = ma $$
+</div>
+
+<div class="equation">
+$$ F_{scale} = ma + w = m(a + g) = (75.0 \kg)(15.0 \mss + 9.80 \mss) $$
+</div>
+
+<div class="equation">
+$$ F_{scale} = (75.0 \kg)(24.8 \mss) = 1860 \N $$
+</div>
+
+4. Compare to weight:
+<div class="equation">
+$$ \frac{F_{scale}}{w} = \frac{1860 \N}{735 \N} = 2.53 $$
+</div>
+
+**(b) What is unreasonable:**
+
+The scale reading of 1860 N (2.53 times his weight) means the man experiences an acceleration of 15.0 m/s², or about **1.5 times the acceleration due to gravity (1.5g)**. While this is not impossible, the resulting conditions are unreasonable:
+
+- The elevator reaches 30.0 m/s (108 km/h or 67 mph) in just 2 seconds
+- This extreme speed in a building elevator is dangerous and impractical
+- The man would feel more than twice his normal weight, making it very uncomfortable
+- Typical elevators accelerate at only about 0.1–0.2g, not 1.5g
+
+**(c) Which premise is unreasonable:**
+
+The **final velocity of 30.0 m/s is unreasonably high** for an elevator. This speed is:
+- 108 km/h (67 mph)—faster than most cars travel in cities
+- Typical elevator speeds are 1–10 m/s
+- Even high-speed elevators in very tall buildings rarely exceed 20 m/s
+
+The combination of high speed (30 m/s) and short time (2 s) results in an unreasonably large acceleration.
+
+**Discussion**
+
+This problem demonstrates that extreme accelerations produce uncomfortable forces. The man would feel 2.5 times heavier during this acceleration—similar to the forces experienced by fighter pilots or astronauts, not elevator passengers.
+
+**Answer**
+
+(a) The scale reading is **1860 N**, which is **2.53 times** the man's weight of 735 N.
+
+(b) The scale reading of 2.53 times normal weight corresponds to an unreasonably high acceleration (1.5g) and final velocity (108 km/h) for an elevator.
+
+(c) The **final velocity of 30.0 m/s is unreasonably high** for an elevator—typical elevators move at 1–10 m/s, not 30 m/s.
 
 </div>
 </div>

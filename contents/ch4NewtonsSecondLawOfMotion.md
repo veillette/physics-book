@@ -701,6 +701,56 @@ If the force of friction opposing the motion is 24 N, what force $$ F $$
 stopping?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+First, find the force the person exerts using the relationship between applied force, friction, and net force. Then, when the applied force is removed, use Newton's second law to find the deceleration due to friction alone, and use kinematics to find the stopping distance.
+
+**Solution**
+
+**Part 1: Force exerted by person**
+
+The net force is the applied force minus friction:
+<div class="equation">
+$$ F_{\text{net}} = F - f $$
+</div>
+
+Solving for $$ F $$:
+<div class="equation">
+$$ F = F_{\text{net}} + f = 51 \N + 24 \N = 75 \N $$
+</div>
+
+**Part 2: Stopping distance**
+
+When the applied force is removed, only friction acts, so:
+<div class="equation">
+$$ F_{\text{net}} = -f = -24 \N $$
+</div>
+
+The acceleration (deceleration) is:
+<div class="equation">
+$$ a = \frac{F_{\text{net}}}{m} = \frac{-24 \N}{24 \kg} = -1.0 \mss $$
+</div>
+
+Using the kinematic equation $$ v^2 = v_0^2 + 2ax $$ with $$ v = 0 $$, $$ v_0 = 1.5 \ms $$:
+<div class="equation">
+$$ 0 = (1.5 \ms)^2 + 2(-1.0 \mss)x $$
+</div>
+
+<div class="equation">
+$$ x = \frac{(1.5 \ms)^2}{2(1.0 \mss)} = \frac{2.25 \mmss}{2.0 \mss} = 1.1 \m $$
+</div>
+
+**Discussion**
+
+The person must exert 75 N to overcome 24 N of friction and produce a net force of 51 N. When pushing stops, friction decelerates the mower at 1.0 m/s², bringing it to rest in about one meter.
+
+**Answer**
+
+The person exerts a force of **75 N** on the mower. After the force is removed, the mower will travel **1.1 m** before stopping.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -709,6 +759,37 @@ The same rocket sled drawn in [Figure 5](#Figure5) is decelerated at a rate of
 $$ 196 \mss $$.
 What force is necessary to produce this deceleration? Assume that the rockets
 are off. The mass of the system is 2100 kg.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use Newton's second law to find the force needed to produce the given deceleration. The deceleration is negative acceleration, so the force will be in the direction opposite to the motion.
+
+**Solution**
+
+Given:
+- Mass: $$ m = 2100 \kg $$
+- Deceleration: $$ a = -196 \mss $$ (negative because it opposes motion)
+
+Apply Newton's second law:
+<div class="equation">
+$$ F_{\text{net}} = ma = (2100 \kg)(-196 \mss) = -4.12 \times 10^{5} \N $$
+</div>
+
+The magnitude of the force is:
+<div class="equation">
+$$ |F| = 4.12 \times 10^{5} \N $$
+</div>
+
+**Discussion**
+
+This is an enormous force—about 412,000 N—needed to decelerate the sled at 20 times the acceleration due to gravity (196 m/s² ÷ 9.8 m/s² ≈ 20g). This force would come from air brakes, parachutes, or other braking mechanisms. The negative sign indicates the force opposes the direction of motion.
+
+**Answer**
+
+A force of **4.12 × 10⁵ N** (or **412 kN**) in the direction opposite to the motion is necessary to produce this deceleration.
 
 </div>
 </div>
@@ -747,6 +828,44 @@ from a speed of 1000 km/h?
 (Such deceleration caused one test subject to black out and have temporary blindness.)
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Convert the initial speed from km/h to m/s, then use the definition of acceleration: $$ a = \frac{\Delta v}{\Delta t} = \frac{v - v_0}{t} $$.
+
+**Solution**
+
+1. Convert initial speed to m/s:
+<div class="equation">
+$$ v_0 = 1000 \frac{\text{km}}{\text{h}} \times \frac{1000 \m}{1 \text{ km}} \times \frac{1 \text{ h}}{3600 \s} = 278 \ms $$
+</div>
+
+2. Calculate the deceleration:
+   - Initial velocity: $$ v_0 = 278 \ms $$
+   - Final velocity: $$ v = 0 \ms $$
+   - Time: $$ t = 1.1 \s $$
+
+<div class="equation">
+$$ a = \frac{v - v_0}{t} = \frac{0 - 278 \ms}{1.1 \s} = -253 \mss $$
+</div>
+
+The magnitude of the deceleration is:
+<div class="equation">
+$$ |a| = 253 \mss = 25.8g $$
+</div>
+
+where $$ g = 9.80 \mss $$.
+
+**Discussion**
+
+This deceleration of about 26g is extremely severe. For comparison, fighter pilots typically experience 3-9g during maneuvers, and anything above 20g can cause serious injury or death. The negative effects mentioned (blackout and temporary blindness) are due to blood being forced away from the brain and eyes under such extreme deceleration.
+
+**Answer**
+
+The deceleration of the rocket sled is **253 m/s²** (or **25.8g**) in magnitude.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -783,6 +902,43 @@ magnitude of the force the motorcycle exerts backward on the ground to produce
 its acceleration if the mass of the motorcycle with rider is 245 kg?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The net force produces the acceleration. The force the ground exerts on the motorcycle (forward) must overcome the resistive forces and provide the net force for acceleration. By Newton's third law, the motorcycle exerts an equal and opposite force backward on the ground.
+
+**Solution**
+
+Given:
+- Mass: $$ m = 245 \kg $$
+- Acceleration: $$ a = 3.50 \mss $$
+- Resistive forces: $$ f = 400 \N $$
+
+1. Calculate the net force using Newton's second law:
+<div class="equation">
+$$ F_{\text{net}} = ma = (245 \kg)(3.50 \mss) = 858 \N $$
+</div>
+
+2. The net force is the difference between the forward force from the ground $$ F_{\text{ground}} $$ and the resistive forces:
+<div class="equation">
+$$ F_{\text{net}} = F_{\text{ground}} - f $$
+</div>
+
+3. Solve for the force from the ground:
+<div class="equation">
+$$ F_{\text{ground}} = F_{\text{net}} + f = 858 \N + 400 \N = 1258 \N \approx 1260 \N $$
+</div>
+
+**Discussion**
+
+By Newton's third law, if the ground exerts 1260 N forward on the motorcycle (through the tires), the motorcycle exerts 1260 N backward on the ground. This force must be large enough to both overcome the 400 N of resistance and provide the additional 858 N needed for acceleration.
+
+**Answer**
+
+The motorcycle exerts a force of **1260 N** (or **1.26 × 10³ N**) backward on the ground.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -814,6 +970,67 @@ which the rocket sled decelerates at a rate of $$ 201 \mss $$.
 In this problem, the forces are exerted by the seat and restraining belts.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Similar to the previous problem, calculate the horizontal force needed to decelerate the passenger, then find the total force including the vertical component (the passenger's weight). The force will be directed opposite to the motion and slightly downward.
+
+**Solution**
+
+Given:
+- Mass of passenger: $$ m = 75.0 \kg $$
+- Deceleration: $$ a = -201 \mss $$ (negative because it opposes motion)
+
+**(a) Horizontal component of force:**
+
+<div class="equation">
+$$ F_{\text{horizontal}} = ma = (75.0 \kg)(-201 \mss) = -1.51 \times 10^{4} \N $$
+</div>
+
+The magnitude is $$ 1.51 \times 10^{4} \N $$ or 15,100 N.
+
+Compare to weight:
+<div class="equation">
+$$ w = mg = (75.0 \kg)(9.80 \mss) = 735 \N $$
+</div>
+
+Ratio:
+<div class="equation">
+$$ \frac{F_{\text{horizontal}}}{w} = \frac{15{,}100 \N}{735 \N} = 20.5 $$
+</div>
+
+**(b) Total force magnitude and direction:**
+
+The vertical component equals the passenger's weight (upward): $$ F_{\text{vertical}} = 735 \N $$
+
+The horizontal component (backward, opposing motion): $$ F_{\text{horizontal}} = 1.51 \times 10^{4} \N $$
+
+Total force magnitude:
+<div class="equation">
+$$ F_{\text{total}} = \sqrt{F_{\text{horizontal}}^2 + F_{\text{vertical}}^2} = \sqrt{(1.51 \times 10^{4})^2 + (735)^2} $$
+</div>
+
+<div class="equation">
+$$ F_{\text{total}} = \sqrt{2.28 \times 10^{8} + 5.40 \times 10^{5}} = \sqrt{2.29 \times 10^{8}} = 1.51 \times 10^{4} \N $$
+</div>
+
+Direction below horizontal:
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{F_{\text{vertical}}}{F_{\text{horizontal}}}\right) = \tan^{-1}\left(\frac{735}{15{,}100}\right) = 2.79^\circ $$
+</div>
+
+**Discussion**
+
+During deceleration, the seat and belts must push forward on the passenger (opposite to the sled's motion) with tremendous force—over 20 times the passenger's weight. The vertical component is small compared to the horizontal, so the total force is directed nearly horizontally (only 2.79° below horizontal).
+
+**Answer**
+
+(a) The horizontal component of the force is **1.51 × 10⁴ N**, which is **20.5 times** the passenger's weight.
+
+(b) The total force is **1.51 × 10⁴ N** directed **2.79° below horizontal** (or below the backward direction).
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -834,6 +1051,68 @@ Suppose the mass of a fully loaded module in which astronauts take off
 from the Moon is 10 000 kg. The thrust of its engines is 30 000 N.
 (a) Calculate its the magnitude of acceleration in a vertical takeoff from the Moon.
 (b) Could it lift off from Earth? If not, why not? If it could, calculate the magnitude of its acceleration.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For vertical takeoff, the net force is thrust minus weight. Use Newton's second law to find acceleration. Compare the thrust to the weight on the Moon (part a) and on Earth (part b).
+
+**Solution**
+
+Given:
+- Mass: $$ m = 10{,}000 \kg $$
+- Thrust: $$ T = 30{,}000 \N $$
+- Moon's gravity: $$ g_{\text{Moon}} = 1.67 \mss $$
+- Earth's gravity: $$ g_{\text{Earth}} = 9.80 \mss $$
+
+**(a) Acceleration on the Moon:**
+
+Weight on Moon:
+<div class="equation">
+$$ w_{\text{Moon}} = mg_{\text{Moon}} = (10{,}000 \kg)(1.67 \mss) = 1.67 \times 10^{4} \N $$
+</div>
+
+Net force (upward positive):
+<div class="equation">
+$$ F_{\text{net}} = T - w_{\text{Moon}} = 30{,}000 \N - 16{,}700 \N = 13{,}300 \N $$
+</div>
+
+Acceleration:
+<div class="equation">
+$$ a = \frac{F_{\text{net}}}{m} = \frac{13{,}300 \N}{10{,}000 \kg} = 1.33 \mss $$
+</div>
+
+**(b) Could it lift off from Earth?**
+
+Weight on Earth:
+<div class="equation">
+$$ w_{\text{Earth}} = mg_{\text{Earth}} = (10{,}000 \kg)(9.80 \mss) = 9.80 \times 10^{4} \N $$
+</div>
+
+Compare thrust to weight:
+- Thrust: $$ 30{,}000 \N $$
+- Weight: $$ 98{,}000 \N $$
+
+Since the thrust (30,000 N) is less than the weight (98,000 N), the module **cannot lift off from Earth**.
+
+Net force would be:
+<div class="equation">
+$$ F_{\text{net}} = T - w_{\text{Earth}} = 30{,}000 \N - 98{,}000 \N = -68{,}000 \N $$
+</div>
+
+The negative net force means the module would remain on the ground.
+
+**Discussion**
+
+The lunar module is specifically designed for the Moon's weak gravity (1/6 of Earth's). Its engines provide enough thrust to overcome lunar gravity with a comfortable margin, producing 1.33 m/s² of upward acceleration. However, on Earth, the same engines would need to produce at least 98,000 N just to hover, and they can only produce 30,000 N—less than one-third of what's needed.
+
+**Answer**
+
+(a) The module's acceleration during takeoff from the Moon is **1.33 m/s²**.
+
+(b) **No, it could not lift off from Earth** because the thrust (30,000 N) is less than the module's weight on Earth (98,000 N).
 
 </div>
 </div>
