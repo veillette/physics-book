@@ -203,6 +203,33 @@ Sample answer: $$ 2\times 10^{9} $$ to $$ 3\times 10^{9} $$ heartbeats
 A generation is about one-third of a lifetime. Approximately how many generations have passed since the year 0 AD?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Estimate the time since year 0 AD, then divide by the length of a generation.
+
+**Solution**
+
+1. Time since year 0 AD to present (2025):
+<div class="equation">
+$$ \text{Time elapsed} \approx 2025 \text{ years} \approx 2000 \text{ years} $$
+</div>
+
+2. If a generation is about one-third of a lifetime, and an average lifetime is about 70-80 years:
+<div class="equation">
+$$ \text{Generation length} \approx \frac{70 \text{ years}}{3} \approx 25 \text{ years} $$
+</div>
+
+3. Number of generations:
+<div class="equation">
+$$ \text{Number of generations} = \frac{2000 \text{ years}}{25 \text{ years/generation}} = 80 \text{ generations} $$
+</div>
+
+**Answer**
+
+Approximately **80 generations** have passed since the year 0 AD (assuming about 25 years per generation).
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -240,6 +267,32 @@ Sample answer: $$ 2\times 10^{31} $$ times longer (if an average human lifetime 
 Calculate the approximate number of atoms in a bacterium. Assume that the average mass of an atom in the bacterium is ten
 times the mass of a hydrogen atom. (Hint: The mass of a hydrogen atom is on the order of  $$ 10^{-27}\kg  $$
 and the mass of a bacterium is on the order of  $$ 10^{-15} \kg  $$) .
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Divide the total mass of the bacterium by the average mass of an atom to find the number of atoms.
+
+**Solution**
+
+1. From the hint:
+   - Mass of hydrogen atom: $$ m_{H} \approx 10^{-27} \kg $$
+   - Mass of bacterium: $$ m_{bact} \approx 10^{-15} \kg $$
+
+2. Average mass of an atom in the bacterium:
+<div class="equation">
+$$ m_{atom} = 10 \times m_{H} = 10 \times 10^{-27} \kg = 10^{-26} \kg $$
+</div>
+
+3. Number of atoms:
+<div class="equation">
+$$ N = \frac{m_{bact}}{m_{atom}} = \frac{10^{-15} \kg}{10^{-26} \kg} = 10^{11} \text{ atoms} $$
+</div>
+
+**Answer**
+
+A bacterium contains approximately **10¹¹ atoms** (or about 100 billion atoms).
 
 </div>
 </div>
@@ -280,8 +333,41 @@ Sample answer: 50 atoms
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) What fraction of Earth’s diameter is the greatest ocean depth?
+(a) What fraction of Earth's diameter is the greatest ocean depth?
 (b) The greatest mountain height?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Use Table 3 to find the relevant values, then calculate the ratios.
+
+**Solution**
+
+From Table 3:
+- Diameter of Earth: $$ d_{Earth} = 10^{7} \m $$ (more precisely, about $$ 1.27 \times 10^{7} \m $$)
+- Greatest ocean depth: $$ d_{ocean} = 10^{4} \m $$ (about 10,000 m, or the Mariana Trench at ~11,000 m)
+- Greatest mountain height: $$ h_{mountain} = 10^{4} \m $$ (Mt. Everest is about 8,850 m)
+
+**(a) Fraction for ocean depth:**
+
+<div class="equation">
+$$ \text{Fraction} = \frac{d_{ocean}}{d_{Earth}} = \frac{10^{4} \m}{10^{7} \m} = 10^{-3} = \frac{1}{1000} $$
+</div>
+
+**(b) Fraction for mountain height:**
+
+<div class="equation">
+$$ \text{Fraction} = \frac{h_{mountain}}{d_{Earth}} = \frac{10^{4} \m}{10^{7} \m} = 10^{-3} = \frac{1}{1000} $$
+</div>
+
+**Answer**
+
+(a) The greatest ocean depth is approximately **1/1000** (or **0.001** or **10⁻³**) of Earth's diameter.
+
+(b) The greatest mountain height is approximately **1/1000** (or **0.001** or **10⁻³**) of Earth's diameter.
+
+Both the deepest ocean trenches and highest mountains are tiny compared to Earth's diameter, representing only about 0.1% of it.
 
 </div>
 </div>
@@ -334,6 +420,27 @@ Sample answers:
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Assuming one nerve impulse must end before another can begin, what is the maximum firing rate of a nerve in impulses per second?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+From Table 3, find the duration of a nerve impulse, then calculate the maximum firing rate.
+
+**Solution**
+
+1. From Table 3, the duration of a nerve impulse is approximately $$ 10^{-3} \s $$ (or 1 millisecond).
+
+2. If one impulse must complete before another begins, the maximum firing rate is:
+<div class="equation">
+$$ \text{Firing rate} = \frac{1}{\text{Duration}} = \frac{1}{10^{-3} \s} = 10^{3} \text{ impulses/s} = 1000 \text{ Hz} $$
+</div>
+
+**Answer**
+
+The maximum firing rate of a nerve is approximately **1000 impulses per second** (or **1000 Hz**, or **10³ Hz**).
+
+This is consistent with known biological limits - most neurons fire at rates well below 1000 Hz, with typical maximum rates being a few hundred Hz for most neurons.
 
 </div>
 </div>

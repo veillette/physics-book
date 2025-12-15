@@ -513,6 +513,36 @@ A car is traveling at a speed of  $$ 33  \ms  $$.
 speed limit?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Convert the speed from m/s to km/h using appropriate conversion factors, then compare with the speed limit.
+
+**Solution**
+
+**(a) Convert 33 m/s to km/h:**
+
+<div class="equation">
+$$ 33 \frac{\m}{\s} \times \frac{1 \text{ km}}{1000 \m} \times \frac{3600 \s}{1 \text{ h}} = \frac{33 \times 3600}{1000} \frac{\text{km}}{\text{h}} = 119 \text{ km/h} $$
+</div>
+
+Alternatively, using the conversion factor from Problem 3: 1.0 m/s = 3.6 km/h:
+
+<div class="equation">
+$$ 33 \ms \times 3.6 = 119 \text{ km/h} \approx 120 \text{ km/h} $$
+</div>
+
+**(b) Comparison with speed limit:**
+
+Since 119 km/h > 90 km/h, yes, the car is exceeding the speed limit by 29 km/h.
+
+**Answer**
+
+(a) The car's speed is **120 km/h** (or 119 km/h to three significant figures).
+
+(b) Yes, the car is exceeding the 90 km/h speed limit.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -533,6 +563,28 @@ steps involved in converting  $$ 1.0 \ms =3.6 \text{km/h.}  $$
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 American football is played on a 100-yd-long field, excluding the end zones. How long is the field in meters? (Assume that 1 meter equals 3.281 feet.)
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Convert from yards to feet, then from feet to meters using the given conversion factor.
+
+**Solution**
+
+1. Convert yards to feet (1 yard = 3 feet):
+<div class="equation">
+$$ 100 \text{ yd} \times \frac{3 \text{ ft}}{1 \text{ yd}} = 300 \text{ ft} $$
+</div>
+
+2. Convert feet to meters (1 m = 3.281 ft):
+<div class="equation">
+$$ 300 \text{ ft} \times \frac{1 \m}{3.281 \text{ ft}} = 91.4 \m $$
+</div>
+
+**Answer**
+
+The football field is **91.4 m** long.
 
 </div>
 </div>
@@ -582,6 +634,28 @@ Width: $$ 280 \text{ft} $$; $$ 3.3\times 10^{3}\text{in.} $$
 What is the height in meters of a person who is 6 ft 1.0 in. tall? (Assume that 1 meter equals 39.37 in.)
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+First convert the total height to inches, then convert to meters using the given conversion factor.
+
+**Solution**
+
+1. Convert 6 ft 1.0 in. to total inches:
+<div class="equation">
+$$ 6 \text{ ft} \times \frac{12 \text{ in.}}{1 \text{ ft}} + 1.0 \text{ in.} = 72 \text{ in.} + 1.0 \text{ in.} = 73.0 \text{ in.} $$
+</div>
+
+2. Convert inches to meters (1 m = 39.37 in.):
+<div class="equation">
+$$ 73.0 \text{ in.} \times \frac{1 \m}{39.37 \text{ in.}} = 1.85 \m $$
+</div>
+
+**Answer**
+
+The person's height is **1.85 m**.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -609,6 +683,28 @@ $$ 8.847 \text{km} $$
 <div class="problem" markdown="1">
 The speed of sound is measured to be  $$ 342  \ms  $$
 on a certain day. What is this in km/h?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Convert the speed from m/s to km/h using the conversion factors: 1 km = 1000 m and 1 h = 3600 s.
+
+**Solution**
+
+<div class="equation">
+$$ 342 \frac{\m}{\s} \times \frac{1 \text{ km}}{1000 \m} \times \frac{3600 \s}{1 \text{ h}} = \frac{342 \times 3600}{1000} \frac{\text{km}}{\text{h}} = 1231 \text{ km/h} \approx 1230 \text{ km/h} $$
+</div>
+
+Alternatively, using the conversion 1.0 m/s = 3.6 km/h:
+
+<div class="equation">
+$$ 342 \ms \times 3.6 = 1231 \text{ km/h} \approx 1.23 \times 10^{3} \text{ km/h} $$
+</div>
+
+**Answer**
+
+The speed of sound is **1230 km/h** (or **1.23 × 10³ km/h** in scientific notation).
 
 </div>
 </div>
@@ -659,10 +755,48 @@ $$ = \frac{4.0 \times 10^{6}}{100 \times 1000} \frac{\text{km}}{\text{My}} = 40 
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) Refer to [Table 3](#Table3) to determine the average distance between 
+(a) Refer to [Table 3](#Table3) to determine the average distance between
 the Earth and the Sun.
 Then calculate the average speed of the Earth in its orbit in kilometers per second.
 (b) What is this in meters per second?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+From Table 3, find the Earth-Sun distance. Calculate the circumference of Earth's orbit, divide by the time for one orbit (1 year), then convert to the requested units.
+
+**Solution**
+
+1. From Table 3, the distance from Earth to Sun is approximately $$ 10^{11} \m $$ (more precisely, about $$ 1.5 \times 10^{11} \m $$).
+
+2. The circumference of Earth's orbit (assuming circular):
+<div class="equation">
+$$ C = 2\pi r = 2\pi(1.5 \times 10^{11} \m) = 9.42 \times 10^{11} \m $$
+</div>
+
+3. Time for one orbit is 1 year. From Table 3, one year = $$ 3.16 \times 10^{7} \s $$.
+
+**(a) Speed in km/s:**
+
+<div class="equation">
+$$ v = \frac{C}{t} = \frac{9.42 \times 10^{11} \m}{3.16 \times 10^{7} \s} = 2.98 \times 10^{4} \frac{\m}{\s} $$
+</div>
+
+Convert to km/s:
+<div class="equation">
+$$ v = 2.98 \times 10^{4} \frac{\m}{\s} \times \frac{1 \text{ km}}{1000 \m} = 29.8 \text{ km/s} \approx 30 \text{ km/s} $$
+</div>
+
+**(b) Speed in m/s:**
+
+From above: $$ v = 2.98 \times 10^{4} \ms \approx 3.0 \times 10^{4} \ms $$
+
+**Answer**
+
+(a) The average speed of Earth in its orbit is approximately **30 km/s**.
+
+(b) This is approximately **3.0 × 10⁴ m/s** (or 30,000 m/s).
 
 </div>
 </div>

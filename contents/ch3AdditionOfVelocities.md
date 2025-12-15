@@ -1065,10 +1065,68 @@ This is a common situation for flights where jet streams oppose the direction of
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) In what direction would the ship in the previous [Exercise](#exerciseShip) 
+(a) In what direction would the ship in the previous [Exercise](#exerciseShip)
 have to
 travel in order to have a velocity straight north relative to the Earth, assuming its speed relative to the water remains $$ 7.00 \ms $$ ?
 (b) What would its speed be relative to the Earth?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+To travel straight north relative to Earth, the ship must aim at an angle that compensates for the eastward component of the current. The ship's velocity relative to water and the current velocity must add vectorially to produce a resultant pointing due north.
+
+**Solution**
+
+**Given:**
+- Ship speed relative to water: $$ v_{ship,water} = 7.00 \ms $$
+- Current velocity: $$ v_{current} = 1.50 \ms $$ at $$ 40.0° $$ north of east
+- From previous exercise: $$ v_{current,x} = 1.15 \ms $$ (east), $$ v_{current,y} = 0.965 \ms $$ (north)
+
+**(a) Direction to travel:**
+
+For the ship's velocity relative to Earth to be due north, the x-component (east-west) must be zero:
+
+<div class="equation">
+$$ v_{Earth,x} = v_{ship,x} + v_{current,x} = 0 $$
+</div>
+
+Therefore:
+<div class="equation">
+$$ v_{ship,x} = -v_{current,x} = -1.15 \ms $$ (west)
+</div>
+
+The ship must have a westward component to cancel the current's eastward push.
+
+Using the Pythagorean theorem:
+<div class="equation">
+$$ v_{ship,y} = \sqrt{v_{ship,water}^2 - v_{ship,x}^2} = \sqrt{(7.00)^2 - (1.15)^2} = \sqrt{49.0 - 1.32} = \sqrt{47.7} = 6.91 \ms $$
+</div>
+
+The angle west of north is:
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{v_{ship,x}}{v_{ship,y}}\right) = \tan^{-1}\left(\frac{1.15}{6.91}\right) = \tan^{-1}(0.166) = 9.44° $$
+</div>
+
+**(b) Speed relative to Earth:**
+
+Since the ship travels due north:
+<div class="equation">
+$$ v_{Earth} = v_{Earth,y} = v_{ship,y} + v_{current,y} = 6.91 + 0.965 = 7.87 \ms $$
+</div>
+
+**Discussion**
+
+The ship must aim about 9.4° west of north to compensate for the eastward push of the current. Interestingly, by angling into the current, the ship's speed relative to Earth (7.87 m/s) is actually greater than its speed through the water (7.00 m/s). This is because the current has a northward component that adds to the ship's northward motion.
+
+This is a common navigation problem - sailors and pilots must constantly adjust their heading to account for currents and winds to reach their intended destination.
+
+**Answer**
+
+(a) The ship must travel at **9.44° west of north** (or **9.4° west of north**).
+
+(b) The ship's speed relative to Earth would be **7.87 m/s** (or **7.9 m/s**).
 
 </div>
 </div>
@@ -1099,6 +1157,80 @@ A sandal is dropped from the top of a 15.0-m-high mast on a ship moving at 1.75 
 (c) Discuss how the answers give a consistent result for the position at which the sandal hits the deck.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+This is analogous to Example 3 (coin dropped in airplane). Relative to the ship, the sandal has no horizontal velocity and falls straight down. Relative to shore, it has both horizontal (ship's velocity) and vertical (falling) components.
+
+**Solution**
+
+**Given:**
+- Height of mast: $$ h = 15.0 \m $$
+- Ship's velocity: $$ v_{ship} = 1.75 \ms $$ due south
+- Initial velocity of sandal relative to ship: 0 m/s
+
+**(a) Velocity relative to the ship:**
+
+Since the sandal has no velocity relative to the ship initially and no horizontal acceleration, it falls straight down.
+
+Using the kinematic equation:
+<div class="equation">
+$$ v_y^2 = v_{0y}^2 + 2gh $$
+</div>
+
+With $$ v_{0y} = 0 $$:
+<div class="equation">
+$$ v_y = \sqrt{2gh} = \sqrt{2(9.80 \mss)(15.0 \m)} = \sqrt{294 \mmss} = 17.1 \ms $$
+</div>
+
+The velocity is **17.1 m/s downward** relative to the ship.
+
+**(b) Velocity relative to a stationary observer on shore:**
+
+The vertical component is the same as in part (a): $$ v_y = 17.1 \ms $$ (downward)
+
+The horizontal component equals the ship's velocity: $$ v_x = 1.75 \ms $$ (south)
+
+Magnitude:
+<div class="equation">
+$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(1.75)^2 + (17.1)^2} = \sqrt{3.06 + 292} = \sqrt{295} = 17.2 \ms $$
+</div>
+
+Direction below horizontal (south):
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{v_y}{v_x}\right) = \tan^{-1}\left(\frac{17.1}{1.75}\right) = \tan^{-1}(9.77) = 84.1° $$
+</div>
+
+The velocity is **17.2 m/s** at **84.1° below the horizontal** (or 5.9° from vertical).
+
+**(c) Discussion of consistency:**
+
+Both observers see the sandal hit the deck at the base of the mast:
+
+- **Observer on ship:** Sees the sandal fall straight down from the top of the mast, traveling 15.0 m vertically in time:
+  <div class="equation">
+  $$ t = \sqrt{\frac{2h}{g}} = \sqrt{\frac{2(15.0)}{9.80}} = 1.75 \s $$
+  </div>
+  During this time, horizontal displacement relative to ship = 0
+
+- **Observer on shore:** Sees the sandal move:
+  - Vertically: 15.0 m (same as ship observer)
+  - Horizontally: $$ d = v_{ship} \times t = (1.75)(1.75) = 3.06 \m $$ south
+
+  But the ship (and therefore the base of the mast) also moves 3.06 m south during this time, so the sandal still lands at the base of the mast.
+
+Both observers agree on where the sandal lands, demonstrating the consistency of relative motion. The difference is in the path: straight down (ship) versus a parabolic curve (shore).
+
+**Answer**
+
+(a) Relative to the ship: **17.1 m/s downward**
+
+(b) Relative to shore: **17.2 m/s** at **84.1° below horizontal** (southward and downward)
+
+(c) Both observers see the sandal land at the base of the mast because both the sandal and the mast move with the same horizontal velocity (1.75 m/s south) relative to the shore.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1117,14 +1249,97 @@ What is the velocity of the wind relative to the water?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-The great astronomer Edwin Hubble discovered that all distant galaxies are 
-receding from our Milky Way Galaxy with velocities proportional to their 
+The great astronomer Edwin Hubble discovered that all distant galaxies are
+receding from our Milky Way Galaxy with velocities proportional to their
 distances. It appears to an observer on the Earth that we are at the center of an expanding universe. [Figure 9](#Figure9) illustrates this for five galaxies lying along a straight line, with the Milky Way Galaxy at the center. Using the data from the figure, calculate the velocities:
 (a) relative to galaxy 2 and
 (b) relative to galaxy 5. The results mean that observers on all galaxies will see themselves at the center of the expanding universe, and they would likely be aware of relative velocities, concluding that it is not possible to locate the center of expansion with the given information.
 
 ![Five galaxies on a horizontal straight line are shown. The left most galaxy one has distance of three hundred millions of light years and it is moving towards left. The second and third galaxies in the figure have shown no velocities. The velocities of fourth and fifth galaxies are towards right.](../resources/Figure_03_05_07.jpg "Five galaxies on a straight line, showing their distances and velocities relative to the Milky Way (MW) Galaxy. The distances are in millions of light years (Mly), where a light year is the distance light travels in one year. The velocities are nearly proportional to the distances. The sizes of the galaxies are greatly exaggerated; an average galaxy is about 0.1 Mly across.")
 {: #Figure9}
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+To find velocities relative to a different galaxy, subtract that galaxy's velocity from all other galaxies' velocities. This is a simple application of relative velocity in one dimension.
+
+**Solution**
+
+**Data from Figure 9 (velocities relative to Milky Way):**
+- Galaxy 1: distance = 300 Mly, $$ v_1 = -4500 \text{ km/s} $$
+- Galaxy 2: distance = 150 Mly, $$ v_2 = -2200 \text{ km/s} $$
+- Milky Way (MW): distance = 0, $$ v_{MW} = 0 \text{ km/s} $$
+- Galaxy 4: distance = 190 Mly, $$ v_4 = 2830 \text{ km/s} $$
+- Galaxy 5: distance = 450 Mly, $$ v_5 = 6700 \text{ km/s} $$
+
+**(a) Velocities relative to Galaxy 2:**
+
+Subtract Galaxy 2's velocity from each galaxy:
+
+<div class="equation">
+$$ v_{rel} = v_{galaxy} - v_2 $$
+</div>
+
+- Galaxy 1: $$ v_{1,rel} = -4500 - (-2200) = -2300 \text{ km/s} $$
+- Milky Way: $$ v_{MW,rel} = 0 - (-2200) = 2200 \text{ km/s} $$
+- Galaxy 4: $$ v_{4,rel} = 2830 - (-2200) = 5030 \text{ km/s} $$
+- Galaxy 5: $$ v_{5,rel} = 6700 - (-2200) = 8900 \text{ km/s} $$
+
+Distances from Galaxy 2:
+- Galaxy 1: $$ 300 - 150 = 150 \text{ Mly} $$ (to the left)
+- Milky Way: $$ 150 \text{ Mly} $$ (to the right)
+- Galaxy 4: $$ 150 + 190 = 340 \text{ Mly} $$ (to the right)
+- Galaxy 5: $$ 150 + 450 = 600 \text{ Mly} $$ (to the right)
+
+**(b) Velocities relative to Galaxy 5:**
+
+Subtract Galaxy 5's velocity from each galaxy:
+
+<div class="equation">
+$$ v_{rel} = v_{galaxy} - v_5 $$
+</div>
+
+- Galaxy 1: $$ v_{1,rel} = -4500 - 6700 = -11200 \text{ km/s} $$
+- Galaxy 2: $$ v_{2,rel} = -2200 - 6700 = -8900 \text{ km/s} $$
+- Milky Way: $$ v_{MW,rel} = 0 - 6700 = -6700 \text{ km/s} $$
+- Galaxy 4: $$ v_{4,rel} = 2830 - 6700 = -3870 \text{ km/s} $$
+
+Distances from Galaxy 5:
+- Galaxy 1: $$ 300 + 450 = 750 \text{ Mly} $$ (to the left)
+- Galaxy 2: $$ 150 + 450 = 600 \text{ Mly} $$ (to the left)
+- Milky Way: $$ 450 \text{ Mly} $$ (to the left)
+- Galaxy 4: $$ 450 - 190 = 260 \text{ Mly} $$ (to the left)
+
+**Discussion**
+
+The key insight is that observers on any galaxy see themselves at the center of an expanding universe:
+
+**From Galaxy 2's perspective:**
+- Galaxies to the left (Galaxy 1) are receding at -2300 km/s
+- Galaxies to the right (MW, Galaxy 4, Galaxy 5) are all receding with positive velocities
+- The velocities are approximately proportional to distance, just as observed from the Milky Way
+
+**From Galaxy 5's perspective:**
+- All other galaxies are to the left and receding (negative velocities)
+- Again, velocities are roughly proportional to distance
+
+This demonstrates a fundamental principle of cosmology: in a uniformly expanding universe, every observer sees themselves at the center. There is no preferred reference frame, and the expansion looks the same from every location. This is consistent with the **Cosmological Principle**, which states that the universe is homogeneous and isotropic on large scales.
+
+**Answer**
+
+**(a) Relative to Galaxy 2:**
+- Galaxy 1: -2300 km/s at 150 Mly away
+- Milky Way: +2200 km/s at 150 Mly away
+- Galaxy 4: +5030 km/s at 340 Mly away
+- Galaxy 5: +8900 km/s at 600 Mly away
+
+**(b) Relative to Galaxy 5:**
+- Galaxy 1: -11200 km/s at 750 Mly away
+- Galaxy 2: -8900 km/s at 600 Mly away
+- Milky Way: -6700 km/s at 450 Mly away
+- Galaxy 4: -3870 km/s at 260 Mly away
 
 </div>
 </div>
@@ -1152,6 +1367,64 @@ to the Big Bang are determined, respectively.
 An athlete crosses a 25-m-wide river by swimming perpendicular to the water current at a speed of 0.5 m/s relative to the water. He reaches the opposite side at a distance 40 m downstream from his starting point. How fast is the water in the river flowing with respect to the ground? What is the speed of the swimmer with respect to a friend at rest on the ground?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The swimmer moves perpendicular to the current relative to the water. Use the time to cross and the downstream displacement to find the current speed. Then use vector addition to find the swimmer's speed relative to the ground.
+
+**Solution**
+
+**Given:**
+- River width (perpendicular distance): $$ w = 25 \m $$
+- Swimming speed (perpendicular to current): $$ v_{swim} = 0.5 \ms $$
+- Downstream displacement: $$ d = 40 \m $$
+
+**Step 1: Find time to cross the river**
+
+The swimmer crosses 25 m at 0.5 m/s perpendicular to the current:
+<div class="equation">
+$$ t = \frac{w}{v_{swim}} = \frac{25 \m}{0.5 \ms} = 50 \s $$
+</div>
+
+**Step 2: Find current speed**
+
+During this time, the current carries the swimmer 40 m downstream:
+<div class="equation">
+$$ v_{current} = \frac{d}{t} = \frac{40 \m}{50 \s} = 0.8 \ms $$
+</div>
+
+**Step 3: Find swimmer's speed relative to ground**
+
+The swimmer's velocity has two perpendicular components:
+- Perpendicular to shore (across river): $$ v_{\perp} = 0.5 \ms $$
+- Parallel to shore (downstream): $$ v_{\parallel} = 0.8 \ms $$
+
+Magnitude:
+<div class="equation">
+$$ v_{ground} = \sqrt{v_{\perp}^2 + v_{\parallel}^2} = \sqrt{(0.5)^2 + (0.8)^2} = \sqrt{0.25 + 0.64} = \sqrt{0.89} = 0.94 \ms $$
+</div>
+
+Direction:
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{v_{\parallel}}{v_{\perp}}\right) = \tan^{-1}\left(\frac{0.8}{0.5}\right) = \tan^{-1}(1.6) = 58° $$
+</div>
+
+This angle is measured from the perpendicular to the shore (or 32° from the shoreline).
+
+**Discussion**
+
+The current (0.8 m/s) is actually faster than the swimmer's speed relative to water (0.5 m/s), which explains why the swimmer is carried so far downstream (40 m while only crossing 25 m). To a friend on shore, the swimmer appears to move at 0.94 m/s at an angle of 58° from the perpendicular direction.
+
+If the swimmer wanted to reach the point directly across from the starting point, they would need to aim upstream at an angle to compensate for the current. However, in this problem, the swimmer simply swims perpendicular to the current (relative to the water) and accepts being carried downstream.
+
+**Answer**
+
+The water is flowing at **0.8 m/s** with respect to the ground.
+
+The swimmer's speed with respect to the ground is **0.94 m/s** (at about 58° downstream from the perpendicular).
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1173,11 +1446,85 @@ Stream a few hundred kilometers off the east coast of the United States.)
 <div class="problem" markdown="1">
 An ice hockey player is moving at 8.00 m/s when he hits the puck toward the goal. The speed of the puck relative to the player is 29.0 m/s. The line between the center of the goal and the player makes a $$ 90.0^\circ $$
 angle relative to his path as shown in [Figure 10](#Figure10). What
-angle must the puck’s velocity make relative to the player (in his frame of
+angle must the puck's velocity make relative to the player (in his frame of
 reference) to hit the center of the goal?
 
 ![An ice hockey player is moving across the rink with velocity v player towards north direction. The goal post is in east direction. To hit the goal the hockey player must hit with velocity of puck v puck making an angle theta with the horizontal axis so that its direction is towards south east.](../resources/Figure_03_05_08.jpg "An ice hockey player moving across the rink must shoot backward to give the puck a velocity toward the goal.")
 {: #Figure10}
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The puck must reach the goal, which is perpendicular to the player's path. The puck's velocity relative to the ice equals the puck's velocity relative to the player plus the player's velocity. Set up a coordinate system and use vector addition to find the required angle.
+
+**Solution**
+
+**Given:**
+- Player velocity: $$ v_{player} = 8.00 \ms $$ (assume moving north)
+- Puck speed relative to player: $$ v_{puck,player} = 29.0 \ms $$
+- Goal direction: 90° to player's path (east)
+
+**Step 1: Set up coordinate system**
+
+Let north be the y-axis and east be the x-axis.
+- Player velocity: $$ \vec{v}_{player} = (0, 8.00) \ms $$
+- Goal is due east, so puck's velocity relative to ice must be purely eastward: $$ \vec{v}_{puck,ice} = (v_x, 0) $$
+
+**Step 2: Use vector addition**
+
+<div class="equation">
+$$ \vec{v}_{puck,ice} = \vec{v}_{puck,player} + \vec{v}_{player} $$
+</div>
+
+Let the puck's velocity relative to player make angle $$ \theta $$ measured from the player's direction of motion (north, positive y-axis). In this coordinate system:
+
+<div class="equation">
+$$ \vec{v}_{puck,player} = (29.0 \sin\theta, 29.0 \cos\theta) $$
+</div>
+
+**Step 3: Apply vector addition**
+
+x-component (east):
+<div class="equation">
+$$ v_{puck,x} = 29.0 \sin\theta + 0 = 29.0 \sin\theta $$
+</div>
+
+y-component (north):
+<div class="equation">
+$$ 0 = 29.0 \cos\theta + 8.00 $$
+</div>
+
+**Step 4: Solve for angle**
+
+From the y-component equation:
+<div class="equation">
+$$ 29.0 \cos\theta = -8.00 $$
+</div>
+
+<div class="equation">
+$$ \cos\theta = -\frac{8.00}{29.0} = -0.276 $$
+</div>
+
+<div class="equation">
+$$ \theta = \cos^{-1}(-0.276) = 106° $$
+</div>
+
+**Discussion**
+
+The angle is 106° from the player's forward direction (north), which means the player must shoot 16° backward from perpendicular to their motion. This makes sense because:
+
+1. The player is moving north at 8.00 m/s
+2. The goal is due east
+3. To make the puck go purely east (relative to the ice), the player must give it a southward component to cancel their northward motion
+4. The puck's velocity relative to the player must be mostly eastward but also slightly backward (south)
+
+From the ice's reference frame, the puck moves purely eastward. From the player's reference frame, the puck appears to move at 29.0 m/s at 106° from their forward direction (or 16° behind perpendicular).
+
+**Answer**
+
+The puck's velocity must make an angle of **106°** relative to the player's forward direction (or **16° backward from the perpendicular** direction to the player's motion).
 
 </div>
 </div>
@@ -1196,6 +1543,94 @@ astronauts when the supplies reach their maximum height?
 Explain your answer.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use kinematic equations to find the launch velocity needed for the supplies to reach the given height. Then analyze whether this result is reasonable.
+
+**Solution**
+
+**(a) Required launch velocity:**
+
+Using the kinematic equation (assuming constant g, which is an approximation):
+<div class="equation">
+$$ v^2 = v_0^2 - 2gh $$
+</div>
+
+At maximum height, $$ v = 0 $$, so:
+<div class="equation">
+$$ v_0 = \sqrt{2gh} = \sqrt{2(9.80 \mss)(36{,}000{,}000 \m)} $$
+</div>
+
+<div class="equation">
+$$ v_0 = \sqrt{7.056 \times 10^8 \mmss} = 26{,}600 \ms = 26.6 \text{ km/s} $$
+</div>
+
+**(b) What is unreasonable about this velocity?**
+
+This velocity is **extremely high**:
+- It's about 79 times the speed of sound (Mach 79)
+- It's about 95,700 km/h (59,500 mph)
+- It's 2.4% of the speed of light
+- It far exceeds the **escape velocity** from Earth (11.2 km/s)
+- No projectile could survive the atmospheric friction at this speed
+- The kinetic energy required would be enormous
+
+**(c) Problem with relative velocity:**
+
+Yes, there's a **major problem**. When the supplies reach maximum height (36,000 km):
+- The supplies will have **zero velocity** relative to Earth's surface
+- The astronauts are in **orbit** at this altitude, moving at orbital velocity
+
+Orbital velocity at this altitude:
+<div class="equation">
+$$ v_{orbit} = \sqrt{\frac{GM}{r}} = \sqrt{\frac{GM}{R_E + h}} $$
+</div>
+
+where $$ R_E = 6.37 \times 10^6 \m $$ and $$ h = 36 \times 10^6 \m $$
+
+<div class="equation">
+$$ v_{orbit} \approx 3{,}080 \ms = 3.08 \text{ km/s} $$
+</div>
+
+The **relative velocity** between the stationary supplies and the orbiting astronauts would be about **3.08 km/s** - the astronauts would zoom past the supplies at over 11,000 km/h! The supplies would be impossible to catch.
+
+**(d) Is the premise unreasonable or is the equation inapplicable?**
+
+**Both the premise and the equation have problems:**
+
+1. **The premise is unreasonable** because:
+   - You cannot simply shoot supplies "straight up" to astronauts in orbit
+   - Astronauts are moving at orbital velocity; stationary supplies at that altitude would fall back down
+   - The supplies need horizontal velocity (orbital velocity), not just vertical velocity
+   - Reaching orbit requires achieving the right speed and direction, not just altitude
+
+2. **The equation is inapplicable** because:
+   - We used $$ g = 9.80 \mss $$ as constant, but gravity decreases significantly at 36,000 km
+   - At this altitude, $$ g \approx 0.22 \mss $$ (about 2% of surface gravity)
+   - Using variable gravity, the required velocity would be different (though still unreasonable)
+
+**Discussion**
+
+This problem illustrates a common misconception about spaceflight: **orbit is not just about altitude; it's about having the right velocity**. To reach astronauts in orbit, you must:
+1. Reach the correct altitude
+2. Match their orbital velocity (horizontal speed)
+3. Be at the right place at the right time
+
+Simply shooting something straight up won't work, even ignoring practical limitations like atmospheric drag and material strength.
+
+**Answer**
+
+(a) Approximately **26.6 km/s** (using constant g approximation)
+
+(b) This velocity is unreasonable because it's far too high to be practical, exceeds escape velocity, and would cause atmospheric burnup
+
+(c) Yes - the supplies would have zero horizontal velocity while astronauts orbit at ~3 km/s, making rendezvous impossible
+
+(d) Both the premise (shooting straight up to orbit) and the constant-g equation are problematic. Orbit requires horizontal velocity, not just vertical altitude.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1207,9 +1642,111 @@ A commercial airplane has an air speed of $$ 280 \ms $$ due east and flies with
 a strong tailwind. It travels 3000 km in a direction $$ 5^\circ $$ south of east
 in 1.50 h.
 (a) What was the velocity of the plane relative to the ground?
-(b) Calculate the magnitude and direction of the tailwind’s velocity.
+(b) Calculate the magnitude and direction of the tailwind's velocity.
 (c) What is unreasonable about both of these velocities?
 (d) Which premise is unreasonable?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Calculate the ground velocity from distance and time. Then find the wind velocity using vector subtraction. Analyze whether the results are reasonable.
+
+**Solution**
+
+**(a) Velocity relative to the ground:**
+
+<div class="equation">
+$$ v_{ground} = \frac{distance}{time} = \frac{3000 \text{ km}}{1.50 \text{ h}} = 2000 \text{ km/h} $$
+</div>
+
+Converting to m/s:
+<div class="equation">
+$$ v_{ground} = 2000 \text{ km/h} \times \frac{1000 \m}{\text{km}} \times \frac{1 \text{ h}}{3600 \s} = 556 \ms $$
+</div>
+
+Direction: $$ 5° $$ south of east
+
+**(b) Tailwind velocity:**
+
+The velocity relationship is:
+<div class="equation">
+$$ \vec{v}_{ground} = \vec{v}_{plane} + \vec{v}_{wind} $$
+</div>
+
+Therefore:
+<div class="equation">
+$$ \vec{v}_{wind} = \vec{v}_{ground} - \vec{v}_{plane} $$
+</div>
+
+**Components:**
+
+Plane (due east):
+- $$ v_{plane,x} = 280 \ms $$ (east)
+- $$ v_{plane,y} = 0 \ms $$
+
+Ground (5° south of east):
+- $$ v_{ground,x} = 556 \cos(5°) = 556 \times 0.996 = 554 \ms $$ (east)
+- $$ v_{ground,y} = -556 \sin(5°) = -556 \times 0.0872 = -48.5 \ms $$ (south)
+
+Wind:
+- $$ v_{wind,x} = v_{ground,x} - v_{plane,x} = 554 - 280 = 274 \ms $$ (east)
+- $$ v_{wind,y} = v_{ground,y} - v_{plane,y} = -48.5 - 0 = -48.5 \ms $$ (south)
+
+Magnitude:
+<div class="equation">
+$$ v_{wind} = \sqrt{(274)^2 + (-48.5)^2} = \sqrt{75{,}076 + 2{,}352} = \sqrt{77{,}428} = 278 \ms $$
+</div>
+
+Direction:
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{48.5}{274}\right) = \tan^{-1}(0.177) = 10.0° \text{ south of east} $$
+</div>
+
+**(c) What is unreasonable about these velocities?**
+
+Both velocities are **extremely unreasonable**:
+
+**Ground velocity (556 m/s = 2000 km/h):**
+- This is about **Mach 1.6** (1.6 times the speed of sound)
+- Commercial airplanes cruise at 800-900 km/h (Mach 0.75-0.85), not 2000 km/h
+- Only military jets and supersonic aircraft (like the retired Concorde at Mach 2) can achieve such speeds
+- Commercial planes cannot fly supersonically
+- At this speed, shock waves would destroy the aircraft
+
+**Wind velocity (278 m/s = 1000 km/h):**
+- This is equivalent to approximately **Mach 0.82**
+- The strongest jet streams are typically 200-300 km/h (56-83 m/s)
+- Hurricane winds rarely exceed 85 m/s (300 km/h)
+- A 1000 km/h wind would be catastrophic and is meteorologically impossible on Earth
+- Such wind speeds don't exist in Earth's atmosphere under normal conditions
+
+**(d) Which premise is unreasonable?**
+
+The **unreasonable premise** is the combination of:
+1. **The distance traveled (3000 km) in the time given (1.50 h)**
+
+This implies a ground speed of 2000 km/h, which is impossible for a commercial airplane. Possible scenarios that would be reasonable:
+- Reduce the distance to ~1200-1350 km for 1.50 h
+- Increase the time to ~3.5-4.0 h for 3000 km
+- Use a supersonic military jet instead of a commercial airplane
+
+The airspeed of 280 m/s (1008 km/h) is also unreasonable for a "commercial airplane" but would be reasonable for a supersonic jet.
+
+**Discussion**
+
+This problem demonstrates the importance of checking whether calculated results make physical sense. The ground speed of 556 m/s should immediately raise red flags - no commercial aircraft can fly at supersonic speeds. The calculated wind speed of 278 m/s is also physically impossible for Earth's atmosphere.
+
+**Answer**
+
+(a) The velocity relative to the ground is **556 m/s** (2000 km/h) at **5° south of east**
+
+(b) The tailwind velocity is **278 m/s** (1000 km/h) at **10° south of east**
+
+(c) Both velocities are unreasonably high. The ground speed is supersonic (Mach 1.6), which is impossible for commercial aircraft. The wind speed is 3-4 times stronger than the strongest jet streams ever recorded.
+
+(d) The unreasonable premise is the distance-time relationship (3000 km in 1.50 h), which implies an impossible speed for a commercial airplane.
 
 </div>
 </div>
