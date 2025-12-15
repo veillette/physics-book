@@ -16,9 +16,9 @@ This appendix is broken into several tables.
 
 
 P.S: The values below are stated according to
-the [National Institute of Standards and Technology Reference on Constants, Units, and Uncertainty](https://physics.nist.gov/cuu/Constants/index.html). Termed the "2018 CODATA recommended values," they are generally recognized
+the [National Institute of Standards and Technology Reference on Constants, Units, and Uncertainty](https://physics.nist.gov/cuu/Constants/index.html). Termed the "2022 CODATA recommended values," they are generally recognized
 worldwide for use in all fields of science and technology. The 2022 CODATA
-adjustment of the fundamental constants is the next regularly scheduled
+adjustment of the fundamental constants is the most recent regularly scheduled
 adjustment. Values in parentheses are the uncertainties in the last digits.
 Numbers without uncertainties are exact as defined.
 
@@ -40,10 +40,10 @@ Numbers without uncertainties are exact as defined.
 
 | Symbol   | Meaning          | Best Value                                        | Approximate Value                      |
 |----------|------------------|---------------------------------------------------|----------------------------------------|
-| $$m_e $$ | Electron mass    | $$ 9.1093837015(28) \times 10^{-31} \text{kg} $$  | $$ 9.11 \times 10^{-31} \text{kg} $$   |
-| $$m_p $$ | Proton mass      | $$ 1.67262192369(51) \times 10^{-27} \text{kg} $$ | $$ 1.6726 \times 10^{-27} \text{kg} $$ |
-| $$m_n $$ | Neutron mass     | $$ 1.67492749804(95) \times 10^{-27} \text{kg} $$ | $$ 1.6749 \times 10^{-27} \text{kg} $$ |
-| $$u $$   | Atomic mass unit | $$ 1.66053906660(50) \times 10^{-27} \text{kg} $$ | $$ 1.6605 \times 10^{-27} \text{kg} $$ |
+| $$m_e $$ | Electron mass    | $$ 9.1093837139(28) \times 10^{-31} \text{kg} $$  | $$ 9.11 \times 10^{-31} \text{kg} $$   |
+| $$m_p $$ | Proton mass      | $$ 1.67262192595(52) \times 10^{-27} \text{kg} $$ | $$ 1.6726 \times 10^{-27} \text{kg} $$ |
+| $$m_n $$ | Neutron mass     | $$ 1.67492750056(85) \times 10^{-27} \text{kg} $$ | $$ 1.6749 \times 10^{-27} \text{kg} $$ |
+| $$u $$   | Atomic mass unit | $$ 1.66053906892(52) \times 10^{-27} \text{kg} $$ | $$ 1.6605 \times 10^{-27} \text{kg} $$ |
 
 ### The Greek Alphabet
 {: #The-Greek-Alphabet}
