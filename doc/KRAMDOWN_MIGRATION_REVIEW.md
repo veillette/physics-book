@@ -404,7 +404,7 @@ Note content with **bold**.
 ### 4.1 Current Usage
 
 ```markdown
-![Image description](../resources/Figure_01.jpg "Title")
+![Image description](./image.jpg "Title")
 {: #Figure1 height="250"}
 
 ### Glossary
