@@ -22,7 +22,7 @@ const CORE_CACHE_FILES = [
   `${BASE_URL}assets/manifest/icons/icon-192x192.png`,
   `${BASE_URL}assets/manifest/icons/icon-512x512.png`,
   `${BASE_URL}cover2.png`,
-  `${BASE_URL}favicon.ico`
+  `${BASE_URL}pwa/favicon.ico`
 ];
 
 // Fallback pages
