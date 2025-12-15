@@ -906,6 +906,81 @@ orders in which $$ \vb{A} $$, $$ \vb{B} $$, and $$ \vb{C} $$ can be
 added; choose only one.)
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Choose three vectors with different magnitudes and directions, then add them in two different orders (e.g., A+B+C and B+C+A). Use the graphical head-to-tail method or analytical component method to show the resultant is the same regardless of order.
+
+**Solution**
+
+Let's choose three vectors:
+- **Vector A**: 10.0 units at 30° from +x-axis
+- **Vector B**: 8.0 units at 120° from +x-axis
+- **Vector C**: 6.0 units at 240° from +x-axis
+
+**Order 1: A + B + C**
+
+Components of A:
+<div class="equation">
+$$ A_x = 10.0\cos(30°) = 10.0(0.866) = 8.66 \text{ units} $$
+</div>
+<div class="equation">
+$$ A_y = 10.0\sin(30°) = 10.0(0.500) = 5.00 \text{ units} $$
+</div>
+
+Components of B:
+<div class="equation">
+$$ B_x = 8.0\cos(120°) = 8.0(-0.500) = -4.00 \text{ units} $$
+</div>
+<div class="equation">
+$$ B_y = 8.0\sin(120°) = 8.0(0.866) = 6.93 \text{ units} $$
+</div>
+
+Components of C:
+<div class="equation">
+$$ C_x = 6.0\cos(240°) = 6.0(-0.500) = -3.00 \text{ units} $$
+</div>
+<div class="equation">
+$$ C_y = 6.0\sin(240°) = 6.0(-0.866) = -5.20 \text{ units} $$
+</div>
+
+Sum A + B + C:
+<div class="equation">
+$$ R_x = A_x + B_x + C_x = 8.66 + (-4.00) + (-3.00) = 1.66 \text{ units} $$
+</div>
+<div class="equation">
+$$ R_y = A_y + B_y + C_y = 5.00 + 6.93 + (-5.20) = 6.73 \text{ units} $$
+</div>
+
+**Order 2: B + C + A**
+
+Components are the same as above. Sum B + C + A:
+<div class="equation">
+$$ R_x = B_x + C_x + A_x = (-4.00) + (-3.00) + 8.66 = 1.66 \text{ units} $$
+</div>
+<div class="equation">
+$$ R_y = B_y + C_y + A_y = 6.93 + (-5.20) + 5.00 = 6.73 \text{ units} $$
+</div>
+
+**Resultant magnitude and direction (same for both orders):**
+<div class="equation">
+$$ R = \sqrt{R_x^2 + R_y^2} = \sqrt{(1.66)^2 + (6.73)^2} = \sqrt{2.76 + 45.3} = \sqrt{48.06} = 6.93 \text{ units} $$
+</div>
+
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{R_y}{R_x}\right) = \tan^{-1}\left(\frac{6.73}{1.66}\right) = \tan^{-1}(4.05) = 76.1° $$
+</div>
+
+**Discussion**
+
+This demonstrates the **commutative property** of vector addition. Vectors can be added in any order because addition of components is commutative: (Ax + Bx + Cx) = (Bx + Cx + Ax) and similarly for y-components. Graphically, this means you can arrange the vectors head-to-tail in any sequence, and the arrow from the tail of the first to the head of the last will always be the same resultant vector.
+
+**Answer**
+
+Vector addition is commutative regardless of order. For the three chosen vectors, both **A + B + C** and **B + C + A** yield the same resultant: **6.93 units at 76.1°** from the +x-axis.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -992,6 +1067,53 @@ and $$ v_{\text{B}} $$ in [Figure 23](#Figure23)
 {: #Figure23}
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use the law of sines to find the magnitudes of vA and vB. From Figure 23, we know vtot = 6.72 m/s, the angle between vA and the x-axis is 22.5°, the angle between vtot and vA is 26.5°, and the angle between vtot and vB is 23.0°.
+
+**Solution**
+
+From the geometry of the triangle formed by vectors:
+- Angle between vA and x-axis: 22.5°
+- Angle between vtot and vA: 26.5°
+- Angle between vB and vtot: 23.0°
+
+This means:
+- vtot is at angle: 22.5° + 26.5° = 49.0° from x-axis
+- The angle between vA and vB is: 26.5° + 23.0° = 49.5°
+- The third angle in the triangle: 180° - 26.5° - 23.0° = 130.5°
+
+Using the **law of sines**: $$ \frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} $$
+
+**Finding vB:**
+<div class="equation">
+$$ \frac{v_B}{\sin(26.5°)} = \frac{v_{tot}}{\sin(130.5°)} $$
+</div>
+
+<div class="equation">
+$$ v_B = v_{tot} \times \frac{\sin(26.5°)}{\sin(130.5°)} = 6.72 \times \frac{0.446}{0.757} = 6.72 \times 0.589 = 3.96 \ms $$
+</div>
+
+**Finding vA:**
+<div class="equation">
+$$ \frac{v_A}{\sin(23.0°)} = \frac{v_{tot}}{\sin(130.5°)} $$
+</div>
+
+<div class="equation">
+$$ v_A = v_{tot} \times \frac{\sin(23.0°)}{\sin(130.5°)} = 6.72 \times \frac{0.391}{0.757} = 6.72 \times 0.517 = 3.47 \ms $$
+</div>
+
+**Discussion**
+
+The magnitudes can be verified by checking if these vectors, when added head-to-tail with the given angles, produce the known resultant of 6.72 m/s at 49° from the x-axis. The law of sines is particularly useful for solving vector addition problems when angles and one magnitude are known.
+
+**Answer**
+
+The magnitude of velocity **vA is 3.47 m/s** and the magnitude of velocity **vB is 3.96 m/s**.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1001,9 +1123,39 @@ along the **x**- and **y**-axes in [Figure 23](#Figure23).
 
 </div>
 <div class="solution" markdown="1">
-*x*-component 4.41 m/s
 
-*y*-component 5.07 m/s
+**Strategy**
+
+Use the magnitude of vtot = 6.72 m/s and its direction (49° from the x-axis, as determined from the angles in Figure 23) to find the x and y components using trigonometry.
+
+**Solution**
+
+Given:
+- $$ v_{tot} = 6.72 \ms $$
+- Direction: $$ \theta = 22.5° + 26.5° = 49.0° $$ from the +x-axis
+
+**x-component:**
+<div class="equation">
+$$ v_{tot,x} = v_{tot}\cos(\theta) = 6.72\cos(49.0°) = 6.72 \times 0.656 = 4.41 \ms $$
+</div>
+
+**y-component:**
+<div class="equation">
+$$ v_{tot,y} = v_{tot}\sin(\theta) = 6.72\sin(49.0°) = 6.72 \times 0.755 = 5.07 \ms $$
+</div>
+
+**Verification:**
+<div class="equation">
+$$ v_{tot} = \sqrt{v_{tot,x}^2 + v_{tot,y}^2} = \sqrt{(4.41)^2 + (5.07)^2} = \sqrt{19.4 + 25.7} = \sqrt{45.1} = 6.72 \ms $$ ✓
+</div>
+
+**Discussion**
+
+The components represent the effective velocities in the x and y directions. The y-component (5.07 m/s) is slightly larger than the x-component (4.41 m/s), which makes sense since the angle is 49°—closer to 90° (vertical) than to 0° (horizontal). These components are useful for analyzing motion separately in perpendicular directions.
+
+**Answer**
+
+The components of vtot are: **x-component = 4.41 m/s** and **y-component = 5.07 m/s**.
 
 </div>
 </div>
@@ -1013,6 +1165,52 @@ along the **x**- and **y**-axes in [Figure 23](#Figure23).
 Find the components of $$ v_{\text{tot}} $$
 along a set of perpendicular axes rotated $$ 30^\circ $$ counterclockwise
 relative to those in [Figure 23](#Figure23).
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+When axes are rotated, we need to find components in the new coordinate system. The original vtot makes an angle of 49° with the original x-axis. In the rotated system (30° counterclockwise), the vector makes an angle of 49° - 30° = 19° with the new x'-axis.
+
+**Solution**
+
+Given:
+- $$ v_{tot} = 6.72 \ms $$
+- Angle with original x-axis: $$ \theta = 49.0° $$
+- Rotation of axes: $$ 30° $$ counterclockwise
+- Angle with new x'-axis: $$ \theta' = 49.0° - 30.0° = 19.0° $$
+
+**Component along new x'-axis:**
+<div class="equation">
+$$ v'_{tot,x'} = v_{tot}\cos(\theta') = 6.72\cos(19.0°) = 6.72 \times 0.946 = 6.35 \ms $$
+</div>
+
+**Component along new y'-axis:**
+<div class="equation">
+$$ v'_{tot,y'} = v_{tot}\sin(\theta') = 6.72\sin(19.0°) = 6.72 \times 0.326 = 2.19 \ms $$
+</div>
+
+**Alternative method using rotation formulas:**
+
+We could also transform the original components (4.41, 5.07) using rotation matrices:
+<div class="equation">
+$$ v'_{x'} = v_x\cos(30°) + v_y\sin(30°) = 4.41(0.866) + 5.07(0.500) = 3.82 + 2.54 = 6.36 \ms $$
+</div>
+
+<div class="equation">
+$$ v'_{y'} = -v_x\sin(30°) + v_y\cos(30°) = -4.41(0.500) + 5.07(0.866) = -2.21 + 4.39 = 2.18 \ms $$
+</div>
+
+Both methods agree (within rounding).
+
+**Discussion**
+
+Rotating the coordinate system doesn't change the vector itself—only how we describe it. The magnitude remains 6.72 m/s. The new x'-component (6.35 m/s) is larger than the old x-component (4.41 m/s) because the new x'-axis is tilted more toward the direction of vtot. Conversely, the new y'-component (2.19 m/s) is smaller than the old y-component (5.07 m/s).
+
+**Answer**
+
+In the rotated coordinate system, the components of vtot are: **x'-component = 6.35 m/s** and **y'-component = 2.19 m/s**.
 
 </div>
 </div>

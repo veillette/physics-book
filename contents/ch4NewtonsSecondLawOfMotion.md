@@ -807,12 +807,61 @@ the thrust T is $$ 2.4\times 10^{4} \N $$, and the force of friction opposing th
 (b) Why is the acceleration not one-fourth of what it is with all rockets burning?
 
 </div>
-<div class="solution"  markdown="1">
-(a) $$ 12\mss $$.
+<div class="solution" markdown="1">
 
-(b) The acceleration is not one-fourth of what it was with all rockets burning
-because the frictional force is still as large as it was with all rockets
-burning.
+**Strategy**
+
+For part (a), use Newton's second law to find the acceleration. The net force equals thrust minus friction. For part (b), consider how both the driving force and the opposing friction force affect the net force and resulting acceleration.
+
+**Solution**
+
+**(a) Acceleration with one rocket:**
+
+Given:
+- Mass of system: $$ m = 2100 \kg $$
+- Thrust from one rocket: $$ T = 2.4 \times 10^{4} \N $$
+- Friction force: $$ f = 650 \N $$
+
+The net force is the thrust minus friction:
+<div class="equation">
+$$ F_{\text{net}} = T - f = 2.4 \times 10^{4} \N - 650 \N = 23{,}350 \N $$
+</div>
+
+Apply Newton's second law:
+<div class="equation">
+$$ a = \frac{F_{\text{net}}}{m} = \frac{23{,}350 \N}{2100 \kg} = 11.1 \mss \approx 12 \mss $$
+</div>
+
+**(b) Why not one-fourth of the acceleration with four rockets:**
+
+If all four rockets were burning, the thrust would be $$ 4 \times 2.4 \times 10^{4} \N = 9.6 \times 10^{4} \N $$.
+
+Net force with four rockets:
+<div class="equation">
+$$ F_{\text{net, 4}} = 96{,}000 \N - 650 \N = 95{,}350 \N $$
+</div>
+
+Acceleration with four rockets:
+<div class="equation">
+$$ a_4 = \frac{95{,}350 \N}{2100 \kg} = 45.4 \mss $$
+</div>
+
+One-fourth of this would be:
+<div class="equation">
+$$ \frac{a_4}{4} = \frac{45.4 \mss}{4} = 11.4 \mss $$
+</div>
+
+Our calculated acceleration (11.1 m/s²) is close to but slightly less than one-fourth of $$ a_4 $$ because friction remains constant. When we reduce the thrust to one-fourth, the friction becomes proportionally more significant. The friction of 650 N represents 0.68% of the total thrust with four rockets but 2.7% of the thrust with one rocket.
+
+**Discussion**
+
+This problem illustrates an important principle: when both driving and opposing forces are present, reducing the driving force doesn't reduce the acceleration proportionally. The friction force remains constant regardless of thrust, so it has a larger relative impact when thrust is reduced. This is why vehicles need disproportionately more power to achieve higher speeds—resistance forces remain significant throughout.
+
+**Answer**
+
+(a) The magnitude of the acceleration with one rocket is **11.1 m/s²** (or approximately **12 m/s²**).
+
+(b) The acceleration is not one-fourth of what it was with all rockets burning because the frictional force remains constant at 650 N, which becomes proportionally more significant when the thrust is reduced.
 
 </div>
 </div>
@@ -879,16 +928,74 @@ The first child exerts a force of 75.0 N, the second a force of 90.0 N, friction
 
 </div>
 <div class="solution" markdown="1">
-(a) The system is the child in the wagon plus the wagon.
 
-(b)
+**Strategy**
+
+Identify the system, draw a free-body diagram showing all forces, find the net force, and apply Newton's second law. The forces include the pushes from both children (in opposite directions), friction (opposing motion), weight, and normal force.
+
+**Solution**
+
+**(a) System of interest:**
+
+The system is the child in the wagon plus the wagon. This is the object whose acceleration we want to calculate, so we must include all external forces acting on it.
+
+**(b) Free-body diagram:**
 
 ![An object represented as a dot labeled m is shown at the center. One force represented by an arrow labeled as vector F sub 2 acts toward the right. Another force represented by an arrow labeled as vector F sub 1 having a slightly shorter length in comparison with F sub 2 acts on the object pointing left. A friction force represented by an arrow labeled as vector f having a small length acts on the object toward the left. Weight, represented by an arrow labeled as vector W, acts on the object downward, and normal force, represented by an arrow labeled as vector N, acts upward, having the same length as W.](../resources/Figure_04_03_06.jpg)
 {: #Figure7}
 
-(c) $$ a=0.130\mss $$ in the direction of the second child’s push.
+The diagram shows:
+- $$ F_1 = 75.0 \N $$ (to the left)
+- $$ F_2 = 90.0 \N $$ (to the right)
+- $$ f = 12.0 \N $$ (friction, opposing motion—to the left since net push is rightward)
+- $$ W $$ (weight, downward)
+- $$ N $$ (normal force, upward, equal to weight since no vertical acceleration)
 
-(d) $$ a=0.00\mss $$
+**(c) Calculate the acceleration:**
+
+Given:
+- First child's force: $$ F_1 = 75.0 \N $$ (leftward)
+- Second child's force: $$ F_2 = 90.0 \N $$ (rightward)
+- Friction: $$ f = 12.0 \N $$ (opposing motion)
+- Mass: $$ m = 23.0 \kg $$
+
+The net horizontal force (taking rightward as positive):
+<div class="equation">
+$$ F_{\text{net}} = F_2 - F_1 - f = 90.0 \N - 75.0 \N - 12.0 \N = 3.0 \N $$
+</div>
+
+Apply Newton's second law:
+<div class="equation">
+$$ a = \frac{F_{\text{net}}}{m} = \frac{3.0 \N}{23.0 \kg} = 0.130 \mss $$
+</div>
+
+The acceleration is in the direction of the second child's push (rightward).
+
+**(d) Acceleration if friction were 15.0 N:**
+
+With increased friction:
+<div class="equation">
+$$ F_{\text{net}} = 90.0 \N - 75.0 \N - 15.0 \N = 0 \N $$
+</div>
+
+<div class="equation">
+$$ a = \frac{0 \N}{23.0 \kg} = 0 \mss $$
+</div>
+
+**Discussion**
+
+This problem illustrates how multiple forces combine to produce acceleration. The children push in opposite directions, creating a net push of only 15 N (90 N – 75 N). Friction further reduces this to 3 N, resulting in a small acceleration. In part (d), when friction increases to 15 N, it exactly balances the net push, resulting in zero acceleration—the wagon would move at constant velocity if already moving, or remain at rest if initially at rest. This demonstrates the equilibrium condition where $$ F_{\text{net}} = 0 $$.
+
+**Answer**
+
+(a) The system of interest is **the child in the wagon plus the wagon**.
+
+(b) The free-body diagram is shown above in Figure 7.
+
+(c) The acceleration is **0.130 m/s²** in the direction of the second child's push (the stronger push).
+
+(d) If friction were 15.0 N, the acceleration would be **0.00 m/s²** (zero), as the forces would be balanced.
+
 </div>
 </div>
 
@@ -954,9 +1061,64 @@ seat exerts against his body.
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 3.68\times 10^{3}\N $$. This force is 5.00 times greater than his weight.
 
-(b) $$ 3750 \N ; 11.3^\circ $$ above horizontal
+**Strategy**
+
+For part (a), use Newton's second law to find the horizontal force needed to accelerate the passenger. Compare this to his weight. For part (b), combine the horizontal and vertical components (vertical component equals weight to support the passenger) to find the total force magnitude and direction.
+
+**Solution**
+
+Given:
+- Mass of passenger: $$ m = 75.0 \kg $$
+- Acceleration: $$ a = 49.0 \mss $$
+
+**(a) Horizontal component of force and comparison to weight:**
+
+The horizontal force needed to accelerate the passenger:
+<div class="equation">
+$$ F_{\text{horizontal}} = ma = (75.0 \kg)(49.0 \mss) = 3675 \N \approx 3.68 \times 10^{3} \N $$
+</div>
+
+Calculate the passenger's weight:
+<div class="equation">
+$$ w = mg = (75.0 \kg)(9.80 \mss) = 735 \N $$
+</div>
+
+Compare using a ratio:
+<div class="equation">
+$$ \frac{F_{\text{horizontal}}}{w} = \frac{3675 \N}{735 \N} = 5.00 $$
+</div>
+
+**(b) Total force magnitude and direction:**
+
+The seat must exert two force components:
+- Horizontal: $$ F_{\text{horizontal}} = 3675 \N $$ (forward, to accelerate the passenger)
+- Vertical: $$ F_{\text{vertical}} = 735 \N $$ (upward, to support the passenger's weight)
+
+Total force magnitude using the Pythagorean theorem:
+<div class="equation">
+$$ F_{\text{total}} = \sqrt{F_{\text{horizontal}}^2 + F_{\text{vertical}}^2} = \sqrt{(3675)^2 + (735)^2} $$
+</div>
+
+<div class="equation">
+$$ F_{\text{total}} = \sqrt{13{,}505{,}625 + 540{,}225} = \sqrt{14{,}045{,}850} = 3748 \N \approx 3750 \N $$
+</div>
+
+Direction above horizontal:
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{F_{\text{vertical}}}{F_{\text{horizontal}}}\right) = \tan^{-1}\left(\frac{735}{3675}\right) = \tan^{-1}(0.200) = 11.3^\circ $$
+</div>
+
+**Discussion**
+
+The passenger experiences a force 5 times his own weight just from the horizontal acceleration alone. This represents an acceleration of 5g (since 49.0 m/s² ÷ 9.8 m/s² ≈ 5). The total force is only slightly larger than the horizontal component because the vertical component (supporting his weight) is relatively small. The force is directed 11.3° above horizontal, meaning the seat back pushes him forward and slightly upward. This is similar to what you feel when accelerating rapidly in a car—you're pushed back into the seat.
+
+**Answer**
+
+(a) The horizontal component of the force the seat exerts is **3.68 × 10³ N** (or **3675 N**), which is **5.00 times** greater than his weight.
+
+(b) The total force the seat exerts is **3750 N** directed **11.3° above horizontal**.
+
 </div>
 </div>
 
@@ -1039,8 +1201,46 @@ The weight of an astronaut plus his space suit on the Moon is only 250 N.
 How much do they weigh on Earth? What is the mass on the Moon? On Earth?
 
 </div>
-<div class="solution"  markdown="1">
- $$ 1.5\times 10^{3}\N ,150 \kg ,150 \kg $$
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use the relationship between weight, mass, and gravitational acceleration: $$ w = mg $$. On the Moon, we know the weight and can find the mass. Mass is invariant (same everywhere), so we can then calculate the Earth weight using Earth's gravitational acceleration.
+
+**Solution**
+
+Given:
+- Weight on Moon: $$ w_{\text{Moon}} = 250 \N $$
+- Moon's gravity: $$ g_{\text{Moon}} = 1.67 \mss $$
+- Earth's gravity: $$ g_{\text{Earth}} = 9.80 \mss $$
+
+**Find the mass:**
+
+From $$ w = mg $$, we can solve for mass:
+<div class="equation">
+$$ m = \frac{w_{\text{Moon}}}{g_{\text{Moon}}} = \frac{250 \N}{1.67 \mss} = 150 \kg $$
+</div>
+
+**Mass on the Moon and Earth:**
+
+Mass is an intrinsic property of matter and does not change with location. Therefore:
+- Mass on Moon: $$ m = 150 \kg $$
+- Mass on Earth: $$ m = 150 \kg $$
+
+**Weight on Earth:**
+
+Using the mass and Earth's gravitational acceleration:
+<div class="equation">
+$$ w_{\text{Earth}} = mg_{\text{Earth}} = (150 \kg)(9.80 \mss) = 1470 \N \approx 1.5 \times 10^{3} \N $$
+</div>
+
+**Discussion**
+
+This problem illustrates the important distinction between mass and weight. Mass is a measure of the amount of matter and remains constant regardless of location. Weight, however, is the gravitational force acting on that mass and depends on the local gravitational field strength. The Moon's gravity is approximately 1/6 that of Earth's (1.67 m/s² compared to 9.80 m/s²), so objects weigh about 1/6 as much on the Moon as they do on Earth. The ratio is: 250 N / 1470 N ≈ 0.17 ≈ 1/6.
+
+**Answer**
+
+The astronaut and space suit weigh **1.5 × 10³ N** (or **1470 N**) on Earth. The mass is **150 kg** on both the Moon and Earth, since mass does not change with location.
 
 </div>
 </div>

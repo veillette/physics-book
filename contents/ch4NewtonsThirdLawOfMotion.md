@@ -305,9 +305,45 @@ What is the magnitude of the force exerted on the ship by the artillery shell?
 
 </div>
 <div class="solution" markdown="1">
-Force on shell: $$ 2.64 \times 10^{7}\N $$
 
-Force exerted on ship = $$ -2.64 \times 10^{7}\N $$, by Newton’s third law
+**Strategy**
+
+Use Newton's second law to find the force on the shell. Then apply Newton's third law to determine the force the shell exerts on the ship—this force has the same magnitude but opposite direction.
+
+**Solution**
+
+Given:
+- Mass of shell: $$ m = 1100 \kg $$
+- Acceleration of shell: $$ a = 2.40 \times 10^{4} \mss $$
+
+**Force on the shell:**
+
+Apply Newton's second law:
+<div class="equation">
+$$ F_{\text{on shell}} = ma = (1100 \kg)(2.40 \times 10^{4} \mss) = 2.64 \times 10^{7} \N $$
+</div>
+
+**Force on the ship:**
+
+By Newton's third law, when the ship exerts a force on the shell, the shell exerts an equal and opposite force on the ship. Therefore:
+<div class="equation">
+$$ F_{\text{on ship}} = -F_{\text{on shell}} = -2.64 \times 10^{7} \N $$
+</div>
+
+The negative sign indicates the force is in the opposite direction. If the shell is accelerated forward, the ship experiences a force backward.
+
+The magnitude of the force exerted on the ship is:
+<div class="equation">
+$$ |F_{\text{on ship}}| = 2.64 \times 10^{7} \N $$
+</div>
+
+**Discussion**
+
+This problem beautifully illustrates Newton's third law. The enormous force (26.4 million newtons!) that accelerates the shell forward also pushes backward on the ship. This is why naval guns produce significant recoil. The ship, having a much larger mass than the shell, experiences the same magnitude force but a much smaller acceleration. This is the principle behind rocket propulsion and all projectile weapons. The shell and ship form an action-reaction pair—you cannot have one without the other.
+
+**Answer**
+
+The net external force exerted on the shell is **2.64 × 10⁷ N** forward. By Newton's third law, the shell exerts a force of **2.64 × 10⁷ N** backward on the ship.
 
 </div>
 </div>

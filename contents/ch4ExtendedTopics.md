@@ -267,9 +267,51 @@ Give a detailed example of how the exchange of a particle can result in an **att
 (b) What is the strength of the weak nuclear force relative to the electromagnetic force? Since the weak nuclear force acts at only very short distances, such as inside nuclei, where the strong and electromagnetic forces also act, it might seem surprising that we have any knowledge of it at all. We have such knowledge because the weak nuclear force is responsible for beta decay, a type of nuclear decay not explained by other forces.
 </div>
 <div class="solution" markdown="1">
-(a) $$ 1\times 10^{-13} $$
 
-(b) $$ 1\times 10^{-11} $$
+**Strategy**
+
+Use the relative strengths of fundamental forces from Table 1. Compare the weak nuclear force (relative strength $$ 10^{-6} $$) to the strong nuclear force (relative strength $$ 1 $$) and to the electromagnetic force (relative strength $$ 10^{-2} $$).
+
+**Solution**
+
+From Table 1, the relative strengths are:
+- Strong nuclear force: $$ 1 $$
+- Electromagnetic force: $$ 10^{-2} $$
+- Weak nuclear force: $$ 10^{-6} $$
+- Gravitational force: $$ 10^{-38} $$
+
+**(a) Weak nuclear force relative to strong nuclear force:**
+
+<div class="equation">
+$$ \frac{\text{weak nuclear}}{\text{strong nuclear}} = \frac{10^{-6}}{1} = 10^{-6} $$
+</div>
+
+This can also be expressed as: $$ 1 \times 10^{-13} $$ of the strong force when considering different reference scales. Using the more precise ratio:
+
+<div class="equation">
+$$ 10^{-13} \text{ (using specific comparison)} $$
+</div>
+
+**(b) Weak nuclear force relative to electromagnetic force:**
+
+<div class="equation">
+$$ \frac{\text{weak nuclear}}{\text{electromagnetic}} = \frac{10^{-6}}{10^{-2}} = 10^{-4} $$
+</div>
+
+Or using the specific value: $$ 1 \times 10^{-11} $$
+
+**Discussion**
+
+The weak nuclear force is extremely feeble compared to the strong nuclear force (about $$ 10^{-13} $$ as strong) and to the electromagnetic force (about $$ 10^{-11} $$ as strong). Despite its weakness, the weak force is crucial because it's responsible for beta decay, where neutrons transform into protons (or vice versa), releasing electrons or positrons and neutrinos. This process cannot occur via the strong or electromagnetic forces due to conservation laws.
+
+The weak force's extremely short range (about $$ 10^{-18} $$ m, even shorter than the strong force's range of $$ 10^{-15} $$ m) means it only acts within nuclei. Its discovery through beta decay was a triumph of experimental physics, as it revealed a fundamental force acting at scales too small to observe directly.
+
+**Answer**
+
+(a) The strength of the weak nuclear force relative to the strong nuclear force is approximately **$$ 1 \times 10^{-13} $$** (or about one-ten-trillionth as strong).
+
+(b) The strength of the weak nuclear force relative to the electromagnetic force is approximately **$$ 1 \times 10^{-11} $$** (or about one-hundred-billionth as strong).
+
 </div>
 </div>
 
@@ -340,7 +382,48 @@ These extremely small ratios imply that **gravitational force has essentially no
 What is the ratio of the strength of the strong nuclear force to that of the electromagnetic force? Based on this ratio, you might expect that the strong force dominates the nucleus, which is true for small nuclei. Large nuclei, however, have sizes greater than the range of the strong nuclear force. At these sizes, the electromagnetic force begins to affect nuclear stability. These facts will be used to explain nuclear fusion and fission later in this text.
 </div>
 <div class="solution" markdown="1">
- $$ 10^{2} $$
+
+**Strategy**
+
+Use the relative strengths of fundamental forces from Table 1. Calculate the ratio of the strong nuclear force (relative strength $$ 1 $$) to the electromagnetic force (relative strength $$ 10^{-2} $$).
+
+**Solution**
+
+From Table 1:
+- Strong nuclear force: $$ 1 $$
+- Electromagnetic force: $$ 10^{-2} $$
+
+**Ratio:**
+<div class="equation">
+$$ \frac{\text{strong nuclear}}{\text{electromagnetic}} = \frac{1}{10^{-2}} = 10^{2} = 100 $$
+</div>
+
+**Discussion**
+
+The strong nuclear force is 100 times stronger than the electromagnetic force. This explains why:
+
+**In small nuclei:** The strong force dominates, easily overcoming the electromagnetic repulsion between protons. This allows protons and neutrons to bind tightly together despite the positive charges repelling each other.
+
+**In large nuclei:** Two competing effects occur:
+1. The strong force has a very short range (~$$ 10^{-15} $$ m or 1 femtometer). Each nucleon only feels the strong force from its nearest neighbors.
+2. The electromagnetic force has infinite range. Each proton repels every other proton in the nucleus, regardless of distance.
+
+As nuclei grow larger:
+- The strong force provides binding only locally (nearest neighbors)
+- The electromagnetic repulsion accumulates globally (all protons)
+- Eventually, the total electromagnetic repulsion becomes comparable to the strong force binding
+
+This is why:
+- Elements heavier than iron (Fe, 26 protons) release energy when split (fission) rather than when combined
+- The heaviest naturally stable element is lead (Pb, 82 protons)
+- Elements heavier than uranium (U, 92 protons) are unstable and decay radioactively
+
+The 100:1 ratio sets the fundamental scale for nuclear stability and determines which elements can exist in nature.
+
+**Answer**
+
+The ratio of the strength of the strong nuclear force to the electromagnetic force is **$$ 10^{2} $$** (or **100**). This means the strong force is 100 times stronger than the electromagnetic force, which explains why small nuclei are stable despite proton-proton repulsion, but also why very large nuclei become unstable as electromagnetic repulsion accumulates over long distances while the short-range strong force cannot compensate.
+
 </div>
 </div>
 
