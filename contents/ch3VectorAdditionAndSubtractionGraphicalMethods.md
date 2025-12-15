@@ -518,6 +518,59 @@ Find the following for path B in [Figure 20](#Figure20):
 (b) the magnitude and direction of the displacement from start to finish.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Similar to path A, we add up all path segments for distance and use vector components for displacement. Each block is 120 m on a side.
+
+**Solution**
+
+**(a) Total distance traveled:**
+
+From Figure 20, path B consists of:
+- 1 block north: $$ 1 \times 120 = 120 \m $$
+- 5 blocks east: $$ 5 \times 120 = 600 \m $$
+- 2 blocks south: $$ 2 \times 120 = 240 \m $$
+
+Total distance:
+<div class="equation">
+$$ d = 120 + 600 + 240 = 960 \m $$
+</div>
+
+**(b) Displacement magnitude and direction:**
+
+1. The displacement components are:
+   - Net north displacement: $$ \Delta y = 120 - 240 = -120 \m $$ (1 block north, 2 blocks south = 1 block south net)
+   - Net east displacement: $$ \Delta x = 600 \m $$
+
+2. Magnitude using the Pythagorean theorem:
+<div class="equation">
+$$ R = \sqrt{(\Delta x)^2 + (\Delta y)^2} = \sqrt{(600)^2 + (-120)^2} $$
+</div>
+
+<div class="equation">
+$$ R = \sqrt{360,000 + 14,400} = \sqrt{374,400} = 612 \m $$
+</div>
+
+3. Direction (angle south of east):
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{|\Delta y|}{\Delta x}\right) = \tan^{-1}\left(\frac{120}{600}\right) = \tan^{-1}(0.200) = 11.3^\circ $$
+</div>
+
+Since $$ \Delta y $$ is negative (southward) and $$ \Delta x $$ is positive (eastward), the displacement is 11.3° south of east.
+
+**Discussion**
+
+Path B involves significantly more walking (960 m) than the straight-line displacement (612 m). The walker travels 5 blocks east and has only a small net change in the north-south direction (1 block south), so the displacement is primarily eastward with a slight southward component. This explains why the angle is small (11.3°).
+
+**Answer**
+
+(a) The total distance traveled along path B is **960 m**.
+
+(b) The magnitude of the displacement is **612 m**, directed **11.3° south of east** (or 78.7° east of south).
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -578,10 +631,48 @@ and $$ \vb{B} $$, as in [Figure 21](#Figure21),
 then this problem asks you to
 find their sum $$\vb{R}=\vb{A}+\vb{B} $$.)
 
-![In this figure coordinate axes are shown. Vector A from the origin towards the negative of x axis is shown. From the head of the vector A another vector B is drawn towards the positive direction of y axis. The resultant R of these two vectors is shown as a vector from the tail of vector A to the head of vector B. This vector R is inclined at an angle theta with the negative x axis.](../resources/Figure_03_02_21.jpg "The two displacements \( \vb{A} \)  
-and \( \vb{B} \) add to give a total displacement \( \vb{R} \)  
+![In this figure coordinate axes are shown. Vector A from the origin towards the negative of x axis is shown. From the head of the vector A another vector B is drawn towards the positive direction of y axis. The resultant R of these two vectors is shown as a vector from the tail of vector A to the head of vector B. This vector R is inclined at an angle theta with the negative x axis.](../resources/Figure_03_02_21.jpg "The two displacements \( \vb{A} \)
+and \( \vb{B} \) add to give a total displacement \( \vb{R} \)
 having magnitude \( \mag{R} \) and direction \( \theta \) .")
 {: #Figure21}
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We have two perpendicular displacements: 18.0 m west and 25.0 m north. Use the Pythagorean theorem to find the magnitude of the resultant displacement and trigonometry to find its direction.
+
+**Solution**
+
+Given:
+- Vector **A**: 18.0 m west
+- Vector **B**: 25.0 m north
+
+These vectors are perpendicular to each other, forming a right triangle.
+
+**Magnitude of resultant:**
+
+<div class="equation">
+$$ R = \sqrt{A^2 + B^2} = \sqrt{(18.0)^2 + (25.0)^2} = \sqrt{324 + 625} = \sqrt{949} = 30.8 \m $$
+</div>
+
+**Direction:**
+
+The angle north of west is:
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{B}{A}\right) = \tan^{-1}\left(\frac{25.0}{18.0}\right) = \tan^{-1}(1.389) = 54.2^\circ $$
+</div>
+
+The resultant displacement is 54.2° north of west (or equivalently, 35.8° west of north).
+
+**Discussion**
+
+The resultant displacement (30.8 m) is longer than either individual displacement, but shorter than their sum (18.0 + 25.0 = 43.0 m). This is characteristic of vector addition - the magnitude of the resultant depends on both the magnitudes of the component vectors and the angle between them. For perpendicular vectors, the Pythagorean theorem gives the exact result. The direction (54.2° north of west) makes sense because the northward leg (25.0 m) is longer than the westward leg (18.0 m), so the resultant points more toward north than toward west.
+
+**Answer**
+
+You are **30.8 m** from your starting point, in a direction **54.2° north of west** (or **35.8° west of north**).
 
 </div>
 </div>
@@ -659,6 +750,56 @@ That is, you first walk leg $$ \vb{B} $$, which is 20.0 m in a direction exactly
 leg $$ \vb{A} $$, which is 12.0 m in a direction exactly $$ 20^\circ $$ west
 of north. (This problem shows that $$
 \vb{A}+\vb{B}=\vb{B}+\vb{A} $$.)
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We'll calculate **B** + **A** by walking vector **B** first, then vector **A**. The components should add up to give the same resultant as **A** + **B** from the previous problem, demonstrating the commutative property of vector addition.
+
+**Solution**
+
+Walking in reverse order: **B** first, then **A**
+
+**Vector B components** (20.0 m, 40.0° south of west):
+- West component: $$ B_W = 20.0 \cos(40.0^\circ) = 20.0 \times 0.766 = 15.3 \m $$
+- South component: $$ B_S = 20.0 \sin(40.0^\circ) = 20.0 \times 0.643 = 12.9 \m $$
+- North component: $$ B_N = -12.9 \m $$ (negative because south)
+- East component: $$ B_E = -15.3 \m $$ (negative because west)
+
+**Vector A components** (12.0 m, 20° west of north):
+- North component: $$ A_N = 12.0 \cos(20.0^\circ) = 12.0 \times 0.940 = 11.3 \m $$
+- East component: $$ A_E = -12.0 \sin(20.0^\circ) = -12.0 \times 0.342 = -4.10 \m $$ (negative because west)
+
+**Resultant components:**
+<div class="equation">
+$$ R_N = B_N + A_N = -12.9 + 11.3 = -1.6 \m $$
+</div>
+
+<div class="equation">
+$$ R_E = B_E + A_E = -15.3 + (-4.10) = -19.4 \m $$
+</div>
+
+**Magnitude:**
+<div class="equation">
+$$ R = \sqrt{R_N^2 + R_E^2} = \sqrt{(-1.6)^2 + (-19.4)^2} = \sqrt{2.56 + 376.36} = \sqrt{378.92} = 19.5 \m $$
+</div>
+
+**Direction:**
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{|R_N|}{|R_E|}\right) = \tan^{-1}\left(\frac{1.6}{19.4}\right) = 4.7^\circ \text{ south of west} $$
+</div>
+
+**Discussion**
+
+As expected, we get exactly the same result: **19.5 m at 4.7° south of west**. This demonstrates the **commutative property of vector addition**: the order in which you add vectors doesn't matter. Mathematically, **A** + **B** = **B** + **A**.
+
+Physically, this makes sense: whether you walk displacement **A** then **B**, or **B** then **A**, you end up at the same final position relative to your starting point. The path taken is different (you walk in different directions), but the final displacement vector is identical. This is a fundamental property of vector addition that distinguishes it from some other mathematical operations.
+
+**Answer**
+
+Walking in reverse order gives the same result: **19.5 m at 4.7° south of west**, confirming that **A** + **B** = **B** + **A**.
 
 </div>
 </div>

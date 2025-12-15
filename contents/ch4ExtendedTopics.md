@@ -279,6 +279,60 @@ Give a detailed example of how the exchange of a particle can result in an **att
 (b) What is the ratio of the strength of the gravitational force to that of the weak nuclear force?
 (c) What is the ratio of the strength of the gravitational force to that of the electromagnetic force? What do your answers imply about the influence of the gravitational force on atomic nuclei?
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use the relative strengths given in Table 1 to calculate the ratios. The gravitational force has relative strength $$ 10^{-38} $$, the strong nuclear force has strength $$ 1 $$, the weak nuclear force has strength $$ 10^{-6} $$, and the electromagnetic force has strength $$ 10^{-2} $$.
+
+**Solution**
+
+**(a) Ratio of gravitational to strong nuclear force:**
+
+<div class="equation">
+$$ \frac{\text{gravitational}}{\text{strong nuclear}} = \frac{10^{-38}}{1} = 10^{-38} $$
+</div>
+
+**(b) Ratio of gravitational to weak nuclear force:**
+
+<div class="equation">
+$$ \frac{\text{gravitational}}{\text{weak nuclear}} = \frac{10^{-38}}{10^{-6}} = 10^{-32} $$
+</div>
+
+**(c) Ratio of gravitational to electromagnetic force:**
+
+<div class="equation">
+$$ \frac{\text{gravitational}}{\text{electromagnetic}} = \frac{10^{-38}}{10^{-2}} = 10^{-36} $$
+</div>
+
+**Implications for atomic nuclei:**
+
+These ratios show that gravity is extraordinarily weak compared to all other fundamental forces:
+- Gravity is $$ 10^{38} $$ times weaker than the strong nuclear force
+- Gravity is $$ 10^{32} $$ times weaker than the weak nuclear force
+- Gravity is $$ 10^{36} $$ times weaker than the electromagnetic force
+
+At the scale of atomic nuclei (or even atoms and molecules), the gravitational force is completely negligible. The electromagnetic and nuclear forces dominate at these scales. Gravity only becomes significant when dealing with astronomical amounts of mass, where its always-attractive nature and infinite range allow it to accumulate over vast distances.
+
+**Discussion**
+
+The weakness of gravity at the atomic scale means that:
+- Nuclear structure is determined entirely by the strong nuclear force and electromagnetic repulsion between protons
+- Chemical bonding is purely electromagnetic in nature
+- We can completely ignore gravity in particle physics and quantum mechanics
+- Only on astronomical scales (planets, stars, galaxies) does gravity become the dominant force
+
+**Answer**
+
+(a) The ratio of gravitational to strong nuclear force is **10⁻³⁸**.
+
+(b) The ratio of gravitational to weak nuclear force is **10⁻³²**.
+
+(c) The ratio of gravitational to electromagnetic force is **10⁻³⁶**.
+
+These extremely small ratios imply that **gravitational force has essentially no influence on atomic nuclei**—the nuclear and electromagnetic forces completely dominate at atomic scales.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
