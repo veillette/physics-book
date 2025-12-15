@@ -400,7 +400,35 @@ The North American and European continents are moving apart at a rate of about 3
 
 </div>
 <div class="solution" markdown="1">
- $$ 2\times 10^{7}\text{years} $$
+**Strategy**
+
+We need to find the time required for a given displacement at constant velocity (rate). Use $$ t = \frac{\Delta x}{v} $$, converting units appropriately.
+
+**Solution**
+
+Given:
+- Rate of separation: $$ v = 3 \text{ cm/y} $$
+- Displacement needed: $$ \Delta x = 500 \text{ km} $$
+
+First, convert the displacement to centimeters:
+<div class="equation">
+$$ \Delta x = 500 \text{ km} \times \frac{1000 \m}{1 \text{ km}} \times \frac{100 \text{ cm}}{1 \m} = 5.0 \times 10^{7} \text{ cm} $$
+</div>
+
+Now calculate the time:
+<div class="equation">
+$$ t = \frac{\Delta x}{v} = \frac{5.0 \times 10^{7} \text{ cm}}{3 \text{ cm/y}} = 1.67 \times 10^{7} \text{ y} \approx 2 \times 10^{7} \text{ years} $$
+</div>
+
+**Discussion**
+
+This result of approximately 17 million years (or 20 million years when rounded to one significant figure) represents a very long time on human scales, but it's a reasonable timescale for plate tectonics. The continents are drifting apart due to seafloor spreading at the Mid-Atlantic Ridge, where new oceanic crust is continuously created. This process is part of continental drift, first proposed by Alfred Wegener in 1912 and now explained by the theory of plate tectonics.
+
+For context, the Atlantic Ocean has been widening for about 180 million years, and the continents have drifted thousands of kilometers apart during that time. The rate of 3 cm/year is typical for mid-ocean ridge spreading rates.
+
+**Answer**
+
+It will take approximately **2 × 10⁷ years** (20 million years, or more precisely 17 million years) for the continents to drift 500 km farther apart.
 
 </div>
 </div>
@@ -444,14 +472,52 @@ Los Angeles will be at the same latitude as San Francisco in approximately $$ 9.
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 On May 26, 1934, a streamlined, stainless steel diesel train called the Zephyr
-set the world’s nonstop long-distance speed record for trains. Its run from Denver 
-to Chicago took 13 hours, 4 minutes, 58 seconds, and was witnessed by more than a million 
-people along the route. The total distance traveled was 1633.8 km. What was its average 
+set the world's nonstop long-distance speed record for trains. Its run from Denver
+to Chicago took 13 hours, 4 minutes, 58 seconds, and was witnessed by more than a million
+people along the route. The total distance traveled was 1633.8 km. What was its average
 speed in km/h and m/s?
 
 </div>
 <div class="solution" markdown="1">
- $$ 34.689 \ms =124.88 \text{km/h} $$
+**Strategy**
+
+Average speed is total distance divided by total time. Calculate the time in hours first, then find the average speed in km/h and convert to m/s.
+
+**Solution**
+
+Given:
+- Distance: $$ d = 1633.8 \text{ km} $$
+- Time: 13 h 4 min 58 s
+
+**Step 1: Convert time to hours**
+
+<div class="equation">
+$$ t = 13 \text{ h} + \frac{4 \text{ min}}{60 \text{ min/h}} + \frac{58 \s}{3600 \text{ s/h}} $$
+</div>
+
+<div class="equation">
+$$ t = 13 + 0.06667 + 0.01611 = 13.083 \text{ h} $$
+</div>
+
+**Step 2: Calculate average speed in km/h**
+
+<div class="equation">
+$$ \text{Average speed} = \frac{d}{t} = \frac{1633.8 \text{ km}}{13.083 \text{ h}} = 124.9 \text{ km/h} $$
+</div>
+
+**Step 3: Convert to m/s**
+
+<div class="equation">
+$$ 124.9 \frac{\text{km}}{\text{h}} \times \frac{1000 \m}{1 \text{ km}} \times \frac{1 \text{ h}}{3600 \s} = 34.69 \ms $$
+</div>
+
+**Discussion**
+
+The Zephyr's average speed of nearly 125 km/h (about 78 mph) was remarkable for 1934, especially for a nonstop journey of over 1600 km. This was significantly faster than conventional trains of that era. The streamlined design reduced air resistance, allowing higher speeds and better fuel efficiency.
+
+**Answer**
+
+The Zephyr's average speed was **124.9 km/h** (or **34.69 m/s**).
 
 </div>
 </div>
@@ -505,11 +571,61 @@ her average velocity?
 for the entire trip?
 </div>
 <div class="solution" markdown="1">
-(a) $$ 40.0\text{km/h} $$
+**Strategy**
 
-(b) $$34.3 \text{km/h}, 25^\circ \text{S of E}. $$
+Average speed uses total distance traveled divided by time. Average velocity uses displacement (straight-line distance with direction) divided by time. For the round trip, the displacement is zero since she returns to her starting point.
 
-(c) $$ \text{average speed}=3.20 \text{km/h,}\overline{v}=0. $$
+**Solution**
+
+**(a) Average speed to university:**
+
+Given:
+- Distance traveled (from odometer): $$ d = 12.0 \text{ km} $$
+- Time: $$ t = 18.0 \text{ min} = 0.300 \text{ h} $$
+
+<div class="equation">
+$$ \text{Average speed} = \frac{d}{t} = \frac{12.0 \text{ km}}{0.300 \text{ h}} = 40.0 \text{ km/h} $$
+</div>
+
+**(b) Average velocity to university:**
+
+Given:
+- Displacement: $$ \Delta x = 10.3 \text{ km at } 25.0° \text{ south of east} $$
+- Time: $$ t = 0.300 \text{ h} $$
+
+<div class="equation">
+$$ \overline{v} = \frac{\Delta x}{t} = \frac{10.3 \text{ km}}{0.300 \text{ h}} = 34.3 \text{ km/h at } 25.0° \text{ south of east} $$
+</div>
+
+**(c) Average speed and velocity for entire round trip:**
+
+For the round trip:
+- Total distance: $$ d_{total} = 2 \times 12.0 \text{ km} = 24.0 \text{ km} $$
+- Total time: $$ t_{total} = 7 \text{ h } 30 \text{ min} = 7.50 \text{ h} $$
+- Total displacement: $$ \Delta x_{total} = 0 $$ (returns to starting point)
+
+Average speed:
+<div class="equation">
+$$ \text{Average speed} = \frac{24.0 \text{ km}}{7.50 \text{ h}} = 3.20 \text{ km/h} $$
+</div>
+
+Average velocity:
+<div class="equation">
+$$ \overline{v} = \frac{0}{7.50 \text{ h}} = 0 \text{ km/h} $$
+</div>
+
+**Discussion**
+
+Notice the important distinction between average speed and average velocity. The odometer reading increased by 12.0 km even though the straight-line displacement was only 10.3 km, indicating the route was not a perfectly straight line. For the round trip, the average velocity is zero because the displacement is zero (she ends where she started), but the average speed is 3.20 km/h because she did travel a total distance of 24.0 km.
+
+**Answer**
+
+(a) Her average speed to the university was **40.0 km/h**.
+
+(b) Her average velocity to the university was **34.3 km/h at 25.0° south of east**.
+
+(c) For the entire round trip, her average speed was **3.20 km/h** and her average velocity was **0 km/h** (or zero).
+
 </div>
 </div>
 
@@ -551,8 +667,8 @@ It takes 0.061 s (or 61 ms) for the nerve signal to travel from the spinal cord 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Conversations with astronauts on the lunar surface were characterized by a kind of
-echo in which the earthbound person’s voice was so loud in the astronaut’s space
-helmet that it was picked up by the astronaut’s microphone and transmitted back to
+echo in which the earthbound person's voice was so loud in the astronaut's space
+helmet that it was picked up by the astronaut's microphone and transmitted back to
 Earth. It is reasonable to assume that the echo time equals the time necessary for
 the radio wave to travel from the Earth to the Moon and back (that is, neglecting any
 time delays in the electronic equipment). Calculate the distance from Earth to the
@@ -560,7 +676,41 @@ Moon given that the echo time was 2.56 s and that radio waves travel at the spee
 of light $$ \left(3.00 \times 10^{8} \ms \right) $$.
 </div>
 <div class="solution" markdown="1">
-384 000 km
+**Strategy**
+
+The echo time is the time for the radio wave to travel from Earth to Moon and back. Use the relationship $$ d = vt $$, where the total distance traveled is twice the Earth-Moon distance.
+
+**Solution**
+
+Given:
+- Speed of light (radio wave speed): $$ c = 3.00 \times 10^{8} \ms $$
+- Echo time (round trip): $$ t_{total} = 2.56 \s $$
+
+The radio wave travels to the Moon and back, so:
+<div class="equation">
+$$ d_{total} = c \times t_{total} = (3.00 \times 10^{8} \ms)(2.56 \s) = 7.68 \times 10^{8} \m $$
+</div>
+
+The Earth-Moon distance is half of this:
+<div class="equation">
+$$ d_{Earth-Moon} = \frac{d_{total}}{2} = \frac{7.68 \times 10^{8} \m}{2} = 3.84 \times 10^{8} \m $$
+</div>
+
+Convert to kilometers:
+<div class="equation">
+$$ d_{Earth-Moon} = 3.84 \times 10^{8} \m \times \frac{1 \text{ km}}{1000 \m} = 3.84 \times 10^{5} \text{ km} = 384{,}000 \text{ km} $$
+</div>
+
+**Discussion**
+
+This result of 384,000 km matches the well-known average Earth-Moon distance quite well. The echo delay of 2.56 seconds was a characteristic feature of lunar communications during the Apollo missions. This delay was noticeable in conversations and required astronauts and mission control to adapt their communication style – they couldn't have natural back-and-forth conversations but had to wait for responses.
+
+The calculation assumes the radio waves travel at the speed of light in vacuum, which is a good approximation since most of the path is through the vacuum of space. This method of using signal travel time to measure distances is fundamental in astronomy and is how we measure distances to planets, spacecraft, and even nearby stars (using radar or laser ranging).
+
+**Answer**
+
+The distance from Earth to the Moon is **384,000 km** (or **3.84 × 10⁵ km** or **3.84 × 10⁸ m**).
+
 </div>
 </div>
 
