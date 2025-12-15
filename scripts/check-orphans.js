@@ -18,8 +18,7 @@ class OrphanFileFinder {
 
     // Files to exclude from orphan detection (source files, build artifacts, etc.)
     this.excludedFiles = new Set([
-      'assets/icon/image.png',              // Source image for icon generation
-      'assets/icon/favicon.ico',            // Duplicate of root favicon.ico
+      'assets/image/imagePWA.png',          // Source image for icon generation
       'assets/icon/apple-touch-icon-180x180.png'  // Alternative icon size
     ]);
 
