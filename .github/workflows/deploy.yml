@@ -39,11 +39,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.2"
-
-      - name: Install dependencies
-        run: |
-          bundle config set --local path vendor/bundle
-          bundle install --jobs 4
+          bundler-cache: true
 
       - name: Setup Pages
         id: pages
