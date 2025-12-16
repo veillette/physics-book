@@ -94,7 +94,7 @@ class AccessibilityChecker {
     let match;
 
     while ((match = imageRegex.exec(content)) !== null) {
-      const [fullMatch, altText, src] = match;
+      const [_fullMatch, altText, src] = match;
       const lineNum = this.getLineNumber(content, match.index);
 
       // Check for missing alt text
@@ -219,7 +219,7 @@ class AccessibilityChecker {
     ];
 
     while ((match = linkRegex.exec(content)) !== null) {
-      const [fullMatch, linkText, url] = match;
+      const [_fullMatch, linkText, url] = match;
       const lineNum = this.getLineNumber(content, match.index);
 
       // Skip image links
@@ -263,7 +263,7 @@ class AccessibilityChecker {
     }
   }
 
-  checkTables(content, filePath, lines, fileIssues) {
+  checkTables(content, filePath, lines, _fileIssues) {
     // Simple check for tables without headers
     const tableRowRegex = /^\|[^|]+\|/gm;
     const tableHeaderSepRegex = /^\|[\s:-]+\|/gm;
