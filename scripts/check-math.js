@@ -152,4 +152,10 @@ Examples:
   process.exit(1);
 }
 
-main();
+// Run main only when executed directly
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main();
+}
+
+// Export functions for testing
+export { countDelimiters, processFile, processDirectory };
