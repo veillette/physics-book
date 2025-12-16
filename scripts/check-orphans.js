@@ -80,6 +80,8 @@ class OrphanFileFinder {
     });
 
     // Find all JavaScript files (for service workers, configs, etc.)
+    // Note: We scan all JS files including those in assets/ to detect references
+    // but we exclude scripts/ since those are utilities, not content
     const jsFiles = await glob('**/*.js', {
       cwd: this.baseDir,
       ignore: ['node_modules/**', '_site/**', '.jekyll-cache/**', 'scripts/**']
@@ -243,13 +245,15 @@ class OrphanFileFinder {
   }
 
   extractJavaScriptReferences(content, references, sourceFile) {
-    // Extract string literals that look like image paths
-    // Matches strings in quotes that contain image extensions
-    const jsStringRegex = /['"]((?:[^'"]*\/)?[^'"]*\.(jpg|jpeg|png|gif|svg|webp|bmp|tiff|ico))['"]/gi;
+    // Extract string literals that look like file paths (images, scripts, HTML, CSS)
+    // Matches strings in quotes that contain common file extensions
+    const jsStringRegex = /['"]((?:[^'"]*\/)?[^'"]*\.(jpg|jpeg|png|gif|svg|webp|bmp|tiff|ico|js|html|css))['"]/gi;
     let match;
 
     while ((match = jsStringRegex.exec(content)) !== null) {
-      const path = match[1];
+      let path = match[1];
+      // Strip template variable placeholders like ${BASE_PATH}, ${BASE_URL}, etc.
+      path = path.replace(/\$\{[^}]+\}/g, '');
       if (this.isLocalFile(path)) {
         const resolvedPath = this.resolvePath(path, sourceFile);
         if (resolvedPath) {
@@ -260,10 +264,12 @@ class OrphanFileFinder {
     }
 
     // Also extract template literal paths
-    const templateLiteralRegex = /`((?:[^`]*\/)?[^`]*\.(jpg|jpeg|png|gif|svg|webp|bmp|tiff|ico))`/gi;
+    const templateLiteralRegex = /`((?:[^`]*\/)?[^`]*\.(jpg|jpeg|png|gif|svg|webp|bmp|tiff|ico|js|html|css))`/gi;
 
     while ((match = templateLiteralRegex.exec(content)) !== null) {
-      const path = match[1];
+      let path = match[1];
+      // Strip template variable placeholders like ${BASE_PATH}, ${BASE_URL}, etc.
+      path = path.replace(/\$\{[^}]+\}/g, '');
       if (this.isLocalFile(path)) {
         const resolvedPath = this.resolvePath(path, sourceFile);
         if (resolvedPath) {
