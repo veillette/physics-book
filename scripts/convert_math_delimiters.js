@@ -144,7 +144,7 @@ function printHelp() {
   console.log(`
 Usage: node convert_math_delimiters.js [options] [paths...]
 
-Convert \$\$ math \$\$ delimiters to LaTeX standard delimiters.
+Convert $$ math $$ delimiters to LaTeX standard delimiters.
 
 Options:
   --apply              Actually apply changes (default is dry-run)
