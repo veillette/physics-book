@@ -18,8 +18,8 @@ class OrphanFileFinder {
 
     // Files to exclude from orphan detection (source files, build artifacts, etc.)
     this.excludedFiles = new Set([
-      'assets/image/imagePWA.png',          // Source image for icon generation
-      'assets/icon/apple-touch-icon-180x180.png'  // Alternative icon size
+      'assets/image/imagePWA.png', // Source image for icon generation
+      'assets/icon/apple-touch-icon-180x180.png', // Alternative icon size
     ]);
 
     this.stats = {
@@ -29,7 +29,7 @@ class OrphanFileFinder {
       referencedImages: 0,
       orphanFiles: 0,
       orphanImages: 0,
-      totalMarkdownFiles: 0
+      totalMarkdownFiles: 0,
     };
 
     this.referencedPaths = new Set();
@@ -43,40 +43,42 @@ class OrphanFileFinder {
 
     // Step 1: Find all markdown files and extract references
     await this.scanMarkdownFiles();
-    
+
     // Step 2: Find all potential orphan files
     await this.findOrphanAssets();
-    
+
     // Step 3: Find orphan images in resources
     await this.findOrphanImages();
-    
+
     this.printResults();
     return {
       orphanFiles: this.orphanFiles,
       orphanImages: this.orphanImages,
-      stats: this.stats
+      stats: this.stats,
     };
   }
 
   async scanMarkdownFiles() {
-    console.log(chalk.gray('📄 Scanning markdown, HTML, JSON, JavaScript, and CSS files for references...'));
+    console.log(
+      chalk.gray('📄 Scanning markdown, HTML, JSON, JavaScript, and CSS files for references...')
+    );
 
     // Find all markdown files
     const markdownFiles = await glob('**/*.md', {
       cwd: this.baseDir,
-      ignore: ['node_modules/**', '_site/**', '.jekyll-cache/**']
+      ignore: ['node_modules/**', '_site/**', '.jekyll-cache/**'],
     });
 
     // Find all HTML files (for Jekyll templates)
     const htmlFiles = await glob('**/*.html', {
       cwd: this.baseDir,
-      ignore: ['node_modules/**', '_site/**', '.jekyll-cache/**']
+      ignore: ['node_modules/**', '_site/**', '.jekyll-cache/**'],
     });
 
     // Find all JSON files (for manifests and configs)
     const jsonFiles = await glob('**/*.json', {
       cwd: this.baseDir,
-      ignore: ['node_modules/**', '_site/**', '.jekyll-cache/**', 'package*.json']
+      ignore: ['node_modules/**', '_site/**', '.jekyll-cache/**', 'package*.json'],
     });
 
     // Find all JavaScript files (for service workers, configs, etc.)
@@ -84,13 +86,13 @@ class OrphanFileFinder {
     // but we exclude scripts/ since those are utilities, not content
     const jsFiles = await glob('**/*.js', {
       cwd: this.baseDir,
-      ignore: ['node_modules/**', '_site/**', '.jekyll-cache/**', 'scripts/**']
+      ignore: ['node_modules/**', '_site/**', '.jekyll-cache/**', 'scripts/**'],
     });
 
     // Find all CSS files (for background images, etc.)
     const cssFiles = await glob('**/*.css', {
       cwd: this.baseDir,
-      ignore: ['node_modules/**', '_site/**', '.jekyll-cache/**']
+      ignore: ['node_modules/**', '_site/**', '.jekyll-cache/**'],
     });
 
     const allFiles = [...markdownFiles, ...htmlFiles, ...jsonFiles, ...jsFiles, ...cssFiles];
@@ -105,7 +107,7 @@ class OrphanFileFinder {
 
   async extractReferences(filePath) {
     const fullPath = path.join(this.baseDir, filePath);
-    
+
     try {
       const content = fs.readFileSync(fullPath, 'utf8');
       this.extractLinksFromContent(content, filePath);
@@ -122,7 +124,7 @@ class OrphanFileFinder {
     // Pattern 1: ](\n becomes ](
     // Pattern 2: ..\n/ becomes ../ (paths split mid-way like ..\n/resources/...)
     // Pattern 3: .jpg\n" becomes .jpg " (with space before quote)
-    let normalizedContent = content
+    const normalizedContent = content
       .replace(/\]\(\s*\n\s*/g, '](')
       .replace(/\.\.\s*\n\s*\//g, '../')
       .replace(/(\.(jpg|jpeg|png|gif|svg|webp|bmp|tiff|css|js|json|html))\n/gi, '$1 ')
@@ -198,7 +200,8 @@ class OrphanFileFinder {
     }
 
     // Extract CSS/JS references in HTML
-    const assetRegex = /<(?:link[^>]+href=["']([^"']+)["']|script[^>]+src=["']([^"']+)["'])[^>]*>/gi;
+    const assetRegex =
+      /<(?:link[^>]+href=["']([^"']+)["']|script[^>]+src=["']([^"']+)["'])[^>]*>/gi;
 
     while ((match = assetRegex.exec(normalizedContent)) !== null) {
       const url = match[1] || match[2];
@@ -240,14 +243,17 @@ class OrphanFileFinder {
     } else if (Array.isArray(obj)) {
       obj.forEach(item => this.extractJsonReferences(item, references, sourceFile));
     } else if (obj && typeof obj === 'object') {
-      Object.values(obj).forEach(value => this.extractJsonReferences(value, references, sourceFile));
+      Object.values(obj).forEach(value =>
+        this.extractJsonReferences(value, references, sourceFile)
+      );
     }
   }
 
   extractJavaScriptReferences(content, references, sourceFile) {
     // Extract string literals that look like file paths (images, scripts, HTML, CSS)
     // Matches strings in quotes that contain common file extensions
-    const jsStringRegex = /['"]((?:[^'"]*\/)?[^'"]*\.(jpg|jpeg|png|gif|svg|webp|bmp|tiff|ico|js|html|css))['"]/gi;
+    const jsStringRegex =
+      /['"]((?:[^'"]*\/)?[^'"]*\.(jpg|jpeg|png|gif|svg|webp|bmp|tiff|ico|js|html|css))['"]/gi;
     let match;
 
     while ((match = jsStringRegex.exec(content)) !== null) {
@@ -264,7 +270,8 @@ class OrphanFileFinder {
     }
 
     // Also extract template literal paths
-    const templateLiteralRegex = /`((?:[^`]*\/)?[^`]*\.(jpg|jpeg|png|gif|svg|webp|bmp|tiff|ico|js|html|css))`/gi;
+    const templateLiteralRegex =
+      /`((?:[^`]*\/)?[^`]*\.(jpg|jpeg|png|gif|svg|webp|bmp|tiff|ico|js|html|css))`/gi;
 
     while ((match = templateLiteralRegex.exec(content)) !== null) {
       let path = match[1];
@@ -329,11 +336,11 @@ class OrphanFileFinder {
 
   async findOrphanAssets() {
     console.log(chalk.gray('🎨 Checking assets directory for orphan files...'));
-    
+
     try {
-      const assetFiles = await glob('**/*', { 
+      const assetFiles = await glob('**/*', {
         cwd: this.assetsDir,
-        nodir: true
+        nodir: true,
       });
 
       this.stats.totalFiles = assetFiles.length;
@@ -341,9 +348,9 @@ class OrphanFileFinder {
       for (const file of assetFiles) {
         const relativePath = path.join('assets', file);
         const normalizedPath = relativePath.replace(/\\/g, '/');
-        
+
         let isReferenced = false;
-        
+
         // Check various possible reference patterns
         const possibleRefs = [
           normalizedPath,
@@ -353,7 +360,7 @@ class OrphanFileFinder {
           file,
           `/${file}`,
           `./${file}`,
-          `../${file}`
+          `../${file}`,
         ];
 
         for (const ref of possibleRefs) {
@@ -373,7 +380,7 @@ class OrphanFileFinder {
             path: relativePath,
             fullPath: path.join(this.assetsDir, file),
             size: this.getFileSize(path.join(this.assetsDir, file)),
-            type: this.getFileType(file)
+            type: this.getFileType(file),
           });
         } else if (isExcluded) {
           // Count excluded files as referenced for stats purposes
@@ -387,11 +394,11 @@ class OrphanFileFinder {
 
   async findOrphanImages() {
     console.log(chalk.gray('🖼️  Checking resources directory for orphan images...'));
-    
+
     try {
-      const imageFiles = await glob('**/*.{jpg,jpeg,png,gif,svg,webp,bmp,tiff}', { 
+      const imageFiles = await glob('**/*.{jpg,jpeg,png,gif,svg,webp,bmp,tiff}', {
         cwd: this.resourcesDir,
-        nodir: true
+        nodir: true,
       });
 
       this.stats.totalImages = imageFiles.length;
@@ -399,9 +406,9 @@ class OrphanFileFinder {
       for (const file of imageFiles) {
         const relativePath = path.join('resources', file);
         const normalizedPath = relativePath.replace(/\\/g, '/');
-        
+
         let isReferenced = false;
-        
+
         // Check various possible reference patterns
         const possibleRefs = [
           normalizedPath,
@@ -413,7 +420,7 @@ class OrphanFileFinder {
           `./${file}`,
           `../${file}`,
           `../resources/${file}`,
-          `./resources/${file}`
+          `./resources/${file}`,
         ];
 
         for (const ref of possibleRefs) {
@@ -431,7 +438,7 @@ class OrphanFileFinder {
             fullPath: path.join(this.resourcesDir, file),
             size: this.getFileSize(path.join(this.resourcesDir, file)),
             type: this.getFileType(file),
-            dimensions: await this.getImageDimensions(path.join(this.resourcesDir, file))
+            dimensions: await this.getImageDimensions(path.join(this.resourcesDir, file)),
           });
         }
       }
@@ -452,11 +459,23 @@ class OrphanFileFinder {
   getFileType(filePath) {
     const ext = path.extname(filePath).toLowerCase();
     const typeMap = {
-      '.jpg': 'Image', '.jpeg': 'Image', '.png': 'Image', '.gif': 'Image', 
-      '.svg': 'Vector', '.webp': 'Image', '.bmp': 'Image', '.tiff': 'Image',
-      '.css': 'Stylesheet', '.js': 'Script', '.json': 'Data',
-      '.md': 'Markdown', '.html': 'HTML', '.htm': 'HTML',
-      '.pdf': 'Document', '.doc': 'Document', '.docx': 'Document'
+      '.jpg': 'Image',
+      '.jpeg': 'Image',
+      '.png': 'Image',
+      '.gif': 'Image',
+      '.svg': 'Vector',
+      '.webp': 'Image',
+      '.bmp': 'Image',
+      '.tiff': 'Image',
+      '.css': 'Stylesheet',
+      '.js': 'Script',
+      '.json': 'Data',
+      '.md': 'Markdown',
+      '.html': 'HTML',
+      '.htm': 'HTML',
+      '.pdf': 'Document',
+      '.doc': 'Document',
+      '.docx': 'Document',
     };
     return typeMap[ext] || 'Unknown';
   }
@@ -479,14 +498,14 @@ class OrphanFileFinder {
     const k = 1024;
     const sizes = ['Bytes', 'KB', 'MB', 'GB'];
     const i = Math.floor(Math.log(bytes) / Math.log(k));
-    return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+    return `${parseFloat((bytes / Math.pow(k, i)).toFixed(2))} ${sizes[i]}`;
   }
 
   printResults() {
-    console.log('\n' + '='.repeat(80));
+    console.log(`\n${'='.repeat(80)}`);
     console.log(chalk.bold('🗂️  ORPHAN FILES REPORT'));
     console.log('='.repeat(80));
-    
+
     // Summary stats
     console.log(chalk.gray(`Markdown files scanned: ${this.stats.totalMarkdownFiles}`));
     console.log(chalk.gray(`Asset files found: ${this.stats.totalFiles}`));
@@ -501,7 +520,7 @@ class OrphanFileFinder {
     } else {
       console.log(chalk.red(`📁 Found ${this.orphanFiles.length} orphan asset files:`));
       console.log();
-      
+
       this.orphanFiles.forEach((file, index) => {
         console.log(chalk.red(`${index + 1}. ${file.path}`));
         console.log(chalk.gray(`   Type: ${file.type}`));
@@ -517,7 +536,7 @@ class OrphanFileFinder {
     } else {
       console.log(chalk.red(`🖼️  Found ${this.orphanImages.length} orphan image files:`));
       console.log();
-      
+
       this.orphanImages.forEach((image, index) => {
         console.log(chalk.red(`${index + 1}. ${image.path}`));
         console.log(chalk.gray(`   Type: ${image.type}`));
@@ -536,7 +555,11 @@ class OrphanFileFinder {
     if (totalOrphans === 0) {
       console.log(chalk.green(`🎉 All files are referenced! (${totalFiles} files checked)`));
     } else {
-      console.log(chalk.yellow(`📊 Summary: ${totalOrphans} orphan files out of ${totalFiles} total (${orphanPercentage}%)`));
+      console.log(
+        chalk.yellow(
+          `📊 Summary: ${totalOrphans} orphan files out of ${totalFiles} total (${orphanPercentage}%)`
+        )
+      );
     }
     console.log('='.repeat(80));
   }
@@ -564,7 +587,7 @@ class OrphanFileFinder {
       '    echo "Cleanup complete!"',
       'else',
       '    echo "Cleanup cancelled."',
-      'fi'
+      'fi',
     ].join('\n');
 
     fs.writeFileSync(outputPath, script, 'utf8');
@@ -601,14 +624,14 @@ referenced by any markdown files in the project.
   }
 
   const finder = new OrphanFileFinder(options);
-  
+
   try {
     const results = await finder.findOrphans();
-    
+
     if (generateCleanup) {
       finder.generateCleanupScript();
     }
-    
+
     const hasOrphans = results.orphanFiles.length > 0 || results.orphanImages.length > 0;
     process.exit(hasOrphans ? 1 : 0);
   } catch (error) {

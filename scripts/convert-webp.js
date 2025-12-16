@@ -74,9 +74,7 @@ async function convertToWebp(inputDir, outputDir, options = {}) {
     }
 
     try {
-      await sharp(inputPath)
-        .webp({ quality })
-        .toFile(outputPath);
+      await sharp(inputPath).webp({ quality }).toFile(outputPath);
 
       const inputStats = fs.statSync(inputPath);
       const outputStats = fs.statSync(outputPath);
@@ -131,8 +129,8 @@ Examples:
   let inputDir = path.join(baseDir, 'resources');
   let outputDir = path.join(baseDir, 'resources-webp');
   let quality = 80;
-  let overwrite = args.includes('--overwrite');
-  let dryRun = args.includes('--dry-run');
+  const overwrite = args.includes('--overwrite');
+  const dryRun = args.includes('--dry-run');
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--input' && args[i + 1]) {
@@ -168,7 +166,7 @@ Examples:
   const results = await convertToWebp(inputDir, outputDir, { quality, overwrite, dryRun });
 
   // Summary
-  console.log('\n' + '='.repeat(60));
+  console.log(`\n${'='.repeat(60)}`);
   console.log('SUMMARY');
   console.log('='.repeat(60));
 

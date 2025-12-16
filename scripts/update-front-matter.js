@@ -54,7 +54,13 @@ function updateYAMLBlock(filePath, sectionNumber, chapterNumber, dryRun = false)
       fs.writeFileSync(filePath, updatedFileContent, 'utf8');
     }
 
-    return { changed: true, from: { section: match[1].match(/sectionNumber:\s*(\d+)/)?.[1], chapter: match[1].match(/chapterNumber:\s*(\d+)/)?.[1] } };
+    return {
+      changed: true,
+      from: {
+        section: match[1].match(/sectionNumber:\s*(\d+)/)?.[1],
+        chapter: match[1].match(/chapterNumber:\s*(\d+)/)?.[1],
+      },
+    };
   }
 
   return { changed: false, error: 'YAML block not found' };
@@ -85,9 +91,16 @@ function processContentsDirectory(summaryData, dryRun = false) {
     for (const section of chapterData.sections) {
       const sectionFile = path.join(baseDir, section.sectionFile);
       if (fs.existsSync(sectionFile)) {
-        const result = updateYAMLBlock(sectionFile, section.sectionNumber, chapterData.chapterNumber, dryRun);
+        const result = updateYAMLBlock(
+          sectionFile,
+          section.sectionNumber,
+          chapterData.chapterNumber,
+          dryRun
+        );
         if (result.changed) {
-          console.log(`  ✓ ${section.sectionFile} (Ch ${chapterData.chapterNumber}, Sec ${section.sectionNumber})`);
+          console.log(
+            `  ✓ ${section.sectionFile} (Ch ${chapterData.chapterNumber}, Sec ${section.sectionNumber})`
+          );
           updatedCount++;
         } else if (result.error) {
           console.log(`  ✗ ${section.sectionFile}: ${result.error}`);
@@ -128,13 +141,11 @@ Examples:
 
   // Parse arguments
   let summaryFile = path.join(baseDir, 'summary.json');
-  let dryRun = args.includes('--dry-run');
+  const dryRun = args.includes('--dry-run');
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--summary' && args[i + 1]) {
-      summaryFile = path.isAbsolute(args[i + 1])
-        ? args[i + 1]
-        : path.join(baseDir, args[i + 1]);
+      summaryFile = path.isAbsolute(args[i + 1]) ? args[i + 1] : path.join(baseDir, args[i + 1]);
       i++;
     }
   }
@@ -163,7 +174,7 @@ Examples:
   const { updatedCount, errorCount } = processContentsDirectory(summaryData, dryRun);
 
   // Summary
-  console.log('\n' + '='.repeat(60));
+  console.log(`\n${'='.repeat(60)}`);
   console.log('SUMMARY');
   console.log('='.repeat(60));
 

@@ -13,10 +13,10 @@
  *   node scripts/generatePdf.js --help            # Show help
  */
 
-import { chromium } from '@playwright/test';
 import { readFileSync, existsSync, mkdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { chromium } from '@playwright/test';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -34,7 +34,7 @@ const CONFIG = {
       top: '0.75in',
       bottom: '0.75in',
       left: '0.75in',
-      right: '0.75in'
+      right: '0.75in',
     },
     displayHeaderFooter: true,
     headerTemplate: `
@@ -46,12 +46,12 @@ const CONFIG = {
       <div style="font-size: 10px; width: 100%; text-align: center; color: #666;">
         Page <span class="pageNumber"></span> of <span class="totalPages"></span>
       </div>
-    `
+    `,
   },
   // Time to wait for MathJax rendering (ms)
   mathJaxWaitTime: 2000,
   // Additional wait after page load (ms)
-  additionalWait: 1000
+  additionalWait: 1000,
 };
 
 /**
@@ -70,9 +70,7 @@ function loadBookStructure() {
  */
 function fileToUrl(filePath) {
   // Remove 'contents/' prefix and '.md' extension
-  const urlPath = filePath
-    .replace(/^contents\//, '')
-    .replace(/\.md$/, '.html');
+  const urlPath = filePath.replace(/^contents\//, '').replace(/\.md$/, '.html');
   return `${CONFIG.baseUrl}/${urlPath}`;
 }
 
@@ -81,20 +79,25 @@ function fileToUrl(filePath) {
  */
 async function waitForMathJax(page) {
   try {
-    await page.waitForFunction(() => {
-      // Check if MathJax is loaded and has finished processing
-      if (typeof MathJax !== 'undefined') {
-        if (MathJax.Hub && MathJax.Hub.Queue) {
-          // MathJax 2.x
-          return MathJax.Hub.getAllJax().length === 0 ||
-                 document.querySelectorAll('.MathJax_Processing').length === 0;
-        } else if (MathJax.startup) {
-          // MathJax 3.x
-          return MathJax.startup.promise !== undefined;
+    await page.waitForFunction(
+      () => {
+        // Check if MathJax is loaded and has finished processing
+        if (typeof MathJax !== 'undefined') {
+          if (MathJax.Hub && MathJax.Hub.Queue) {
+            // MathJax 2.x
+            return (
+              MathJax.Hub.getAllJax().length === 0 ||
+              document.querySelectorAll('.MathJax_Processing').length === 0
+            );
+          } else if (MathJax.startup) {
+            // MathJax 3.x
+            return MathJax.startup.promise !== undefined;
+          }
         }
-      }
-      return true;
-    }, { timeout: 10000 });
+        return true;
+      },
+      { timeout: 10000 }
+    );
   } catch (e) {
     // MathJax might not be present on all pages
     console.log('  Note: MathJax wait timed out or not present');
@@ -185,7 +188,7 @@ async function injectPrintStyles(page) {
           margin: 10px 0;
         }
       }
-    `
+    `,
   });
 }
 
@@ -198,7 +201,7 @@ async function generatePagePdf(page, url, outputPath, title) {
   try {
     await page.goto(url, {
       waitUntil: 'networkidle',
-      timeout: 60000
+      timeout: 60000,
     });
   } catch (e) {
     console.error(`  Failed to load page: ${e.message}`);
@@ -219,7 +222,7 @@ async function generatePagePdf(page, url, outputPath, title) {
   console.log(`  Generating PDF: ${outputPath}`);
   await page.pdf({
     ...CONFIG.pdfOptions,
-    path: outputPath
+    path: outputPath,
   });
 
   return true;
@@ -235,7 +238,7 @@ async function generateChapterPdfs(browser, chapters, specificChapter = null) {
 
   const results = {
     success: [],
-    failed: []
+    failed: [],
   };
 
   for (const chapter of chapters) {
@@ -252,7 +255,12 @@ async function generateChapterPdfs(browser, chapters, specificChapter = null) {
     const chapterUrl = fileToUrl(chapter.chapterFile);
     const chapterPdfPath = join(CONFIG.outputDir, `chapter-${chapterNum}-intro.pdf`);
 
-    const introSuccess = await generatePagePdf(page, chapterUrl, chapterPdfPath, chapter.chapterTitle);
+    const introSuccess = await generatePagePdf(
+      page,
+      chapterUrl,
+      chapterPdfPath,
+      chapter.chapterTitle
+    );
     if (introSuccess) {
       results.success.push(chapterPdfPath);
     } else {
@@ -269,7 +277,12 @@ async function generateChapterPdfs(browser, chapters, specificChapter = null) {
 
       console.log(`  Section ${section.sectionNumber}: ${section.sectionTitle}`);
 
-      const sectionSuccess = await generatePagePdf(page, sectionUrl, sectionPdfPath, section.sectionTitle);
+      const sectionSuccess = await generatePagePdf(
+        page,
+        sectionUrl,
+        sectionPdfPath,
+        section.sectionTitle
+      );
       if (sectionSuccess) {
         results.success.push(sectionPdfPath);
       } else {
@@ -293,7 +306,9 @@ async function generateCombinedChapterPdf(browser, chapter) {
   const chapterNum = String(chapter.chapterNumber).padStart(2, '0');
   const outputPath = join(CONFIG.outputDir, `chapter-${chapterNum}-complete.pdf`);
 
-  console.log(`\nGenerating combined PDF for Chapter ${chapter.chapterNumber}: ${chapter.chapterTitle}`);
+  console.log(
+    `\nGenerating combined PDF for Chapter ${chapter.chapterNumber}: ${chapter.chapterTitle}`
+  );
 
   // Collect all URLs for this chapter
   const urls = [fileToUrl(chapter.chapterFile)];
@@ -324,10 +339,11 @@ async function generateCombinedChapterPdf(browser, chapter) {
       await waitForMathJax(page);
 
       const content = await page.evaluate(() => {
-        const main = document.querySelector('.markdown-section') ||
-                     document.querySelector('main') ||
-                     document.querySelector('article') ||
-                     document.body;
+        const main =
+          document.querySelector('.markdown-section') ||
+          document.querySelector('main') ||
+          document.querySelector('article') ||
+          document.body;
         return main.innerHTML;
       });
 
@@ -346,7 +362,7 @@ async function generateCombinedChapterPdf(browser, chapter) {
 
   await page.pdf({
     ...CONFIG.pdfOptions,
-    path: outputPath
+    path: outputPath,
   });
 
   console.log(`  Generated: ${outputPath}`);
@@ -384,7 +400,7 @@ function parseArgs() {
     url: null,
     output: null,
     baseUrl: null,
-    help: false
+    help: false,
   };
 
   for (let i = 0; i < args.length; i++) {
@@ -510,7 +526,7 @@ async function main() {
   // Launch browser
   console.log('Launching browser...');
   const browser = await chromium.launch({
-    headless: true
+    headless: true,
   });
 
   try {
@@ -535,7 +551,7 @@ async function main() {
         // Generate individual PDFs
         const results = await generateChapterPdfs(browser, chapters, options.chapter);
 
-        console.log('\n' + '='.repeat(50));
+        console.log(`\n${'='.repeat(50)}`);
         console.log('PDF Generation Complete');
         console.log('='.repeat(50));
         console.log(`Successfully generated: ${results.success.length} PDFs`);

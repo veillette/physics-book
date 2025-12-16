@@ -95,7 +95,7 @@ function parseArgs(args) {
     displayClose: '\\]',
     inlineOpen: '\\(',
     inlineClose: '\\)',
-    paths: []
+    paths: [],
   };
 
   for (let i = 0; i < args.length; i++) {
@@ -216,7 +216,7 @@ function main() {
     displayOpen: options.displayOpen,
     displayClose: options.displayClose,
     inlineOpen: options.inlineOpen,
-    inlineClose: options.inlineClose
+    inlineClose: options.inlineClose,
   };
 
   for (const filepath of filesToProcess) {
