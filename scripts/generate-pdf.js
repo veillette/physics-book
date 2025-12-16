@@ -98,7 +98,7 @@ async function waitForMathJax(page) {
       },
       { timeout: 10000 }
     );
-  } catch (e) {
+  } catch (_e) {
     // MathJax might not be present on all pages
     console.log('  Note: MathJax wait timed out or not present');
   }
@@ -195,7 +195,7 @@ async function injectPrintStyles(page) {
 /**
  * Generate PDF for a single page
  */
-async function generatePagePdf(page, url, outputPath, title) {
+async function generatePagePdf(page, url, outputPath, _title) {
   console.log(`  Navigating to: ${url}`);
 
   try {
@@ -247,7 +247,7 @@ async function generateChapterPdfs(browser, chapters, specificChapter = null) {
     }
 
     const chapterNum = String(chapter.chapterNumber).padStart(2, '0');
-    const chapterTitle = chapter.chapterTitle.replace(/[\\/:*?"<>|]/g, '-');
+    const _chapterTitle = chapter.chapterTitle.replace(/[\\/:*?"<>|]/g, '-');
 
     console.log(`\nProcessing Chapter ${chapter.chapterNumber}: ${chapter.chapterTitle}`);
 
@@ -348,7 +348,7 @@ async function generateCombinedChapterPdf(browser, chapter) {
       });
 
       combinedHtml += `<div class="${i > 0 ? 'chapter-break' : ''}">${content}</div>`;
-    } catch (e) {
+    } catch (_e) {
       console.error(`  Failed to load: ${urls[i]}`);
     }
   }
@@ -486,7 +486,7 @@ async function checkServer(baseUrl) {
   try {
     const response = await fetch(baseUrl);
     return response.ok;
-  } catch (e) {
+  } catch (_e) {
     return false;
   }
 }

@@ -14,7 +14,7 @@ import path from 'path';
 /**
  * Escape special regex characters in a string
  */
-function escapeRegex(str) {
+function _escapeRegex(str) {
   return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
@@ -144,7 +144,7 @@ function printHelp() {
   console.log(`
 Usage: node convert_math_delimiters.js [options] [paths...]
 
-Convert \$\$ math \$\$ delimiters to LaTeX standard delimiters.
+Convert $$ math $$ delimiters to LaTeX standard delimiters.
 
 Options:
   --apply              Actually apply changes (default is dry-run)
