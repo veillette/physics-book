@@ -54,7 +54,10 @@ export default [
     rules: {
       // Best practices
       'no-console': 'off', // Allow console in scripts
-      'no-unused-vars': ['warn', { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }],
+      'no-unused-vars': [
+        'warn',
+        { argsIgnorePattern: '^_', varsIgnorePattern: '^_', caughtErrorsIgnorePattern: '^_' },
+      ],
       'no-constant-condition': ['error', { checkLoops: false }],
       'no-prototype-builtins': 'warn',
 
