@@ -12,8 +12,9 @@ layout: null
     }
 
     // Configuration - uses Jekyll baseurl (works for both GitHub Pages and Vercel)
+    // Service worker must be at root to control the entire site scope
     const BASE_PATH = '{{ site.baseurl }}/';
-    const SW_PATH = `{{ site.baseurl }}/assets/pwa/serviceWorker.js`;
+    const SW_PATH = `{{ site.baseurl }}/sw.js`;
     
     // Service Worker Registration
     function registerServiceWorker() {
