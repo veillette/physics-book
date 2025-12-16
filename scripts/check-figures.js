@@ -206,7 +206,7 @@ class FigureValidator {
     let files;
     try {
       files = await readdir(resourcesDir);
-    } catch (error) {
+    } catch (_error) {
       console.log('   Resources directory not found, skipping');
       return;
     }
@@ -249,7 +249,7 @@ class FigureValidator {
     let resourceFiles;
     try {
       resourceFiles = new Set(await readdir(resourcesDir));
-    } catch (error) {
+    } catch (_error) {
       console.log('   Resources directory not found, skipping');
       return;
     }

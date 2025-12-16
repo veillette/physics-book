@@ -219,7 +219,7 @@ class OrphanFileFinder {
       try {
         const jsonData = JSON.parse(content);
         this.extractJsonReferences(jsonData, references, sourceFile);
-      } catch (error) {
+      } catch (_error) {
         // Not valid JSON or parsing error, skip
       }
     }
@@ -329,7 +329,7 @@ class OrphanFileFinder {
       else {
         return url;
       }
-    } catch (error) {
+    } catch (_error) {
       return null;
     }
   }

@@ -32,7 +32,7 @@ async function loadSharp() {
   try {
     sharp = (await import('sharp')).default;
     return true;
-  } catch (error) {
+  } catch (_error) {
     return false;
   }
 }
