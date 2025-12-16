@@ -51,8 +51,13 @@ class FigureValidator {
   }
 
   async run(options) {
-    const runAll = options.all || (!options.checkPattern && !options.checkConsistency &&
-                                    !options.checkDuplicates && !options.checkSequence && !options.checkMissing);
+    const runAll =
+      options.all ||
+      (!options.checkPattern &&
+        !options.checkConsistency &&
+        !options.checkDuplicates &&
+        !options.checkSequence &&
+        !options.checkMissing);
 
     console.log('Figure Validation Report');
     console.log('='.repeat(60));
@@ -228,9 +233,7 @@ class FigureValidator {
 
       const missing = [...expected].filter(n => !figNumbers.has(n));
       if (missing.length > 0) {
-        this.warnings.push(
-          `Chapter/Section ${key}: Missing figure numbers: ${missing.join(', ')}`
-        );
+        this.warnings.push(`Chapter/Section ${key}: Missing figure numbers: ${missing.join(', ')}`);
       }
     }
 
@@ -276,7 +279,7 @@ class FigureValidator {
   }
 
   printSummary() {
-    console.log('\n' + '='.repeat(60));
+    console.log(`\n${'='.repeat(60)}`);
     console.log('SUMMARY');
     console.log('='.repeat(60));
 
@@ -294,7 +297,7 @@ class FigureValidator {
       }
     }
 
-    console.log('\n' + '='.repeat(60));
+    console.log(`\n${'='.repeat(60)}`);
   }
 }
 
@@ -324,7 +327,7 @@ Options:
     checkConsistency: args.includes('--check-consistency'),
     checkDuplicates: args.includes('--check-duplicates'),
     checkSequence: args.includes('--check-sequence'),
-    checkMissing: args.includes('--check-missing')
+    checkMissing: args.includes('--check-missing'),
   };
 
   const validator = new FigureValidator();

@@ -49,7 +49,7 @@ class AccessibilityChecker {
 
     const files = await glob('**/*.md', {
       cwd: baseDir,
-      ignore: ['node_modules/**', '_site/**', '.jekyll-cache/**', 'scripts/**']
+      ignore: ['node_modules/**', '_site/**', '.jekyll-cache/**', 'scripts/**'],
     });
 
     for (const file of files) {
@@ -104,7 +104,7 @@ class AccessibilityChecker {
           file: filePath,
           line: lineNum,
           message: `Image missing alt text: ${src}`,
-          code: 'IMG_NO_ALT'
+          code: 'IMG_NO_ALT',
         });
       }
       // Check for uninformative alt text
@@ -114,7 +114,7 @@ class AccessibilityChecker {
           file: filePath,
           line: lineNum,
           message: `Image has uninformative alt text "${altText}": ${src}`,
-          code: 'IMG_BAD_ALT'
+          code: 'IMG_BAD_ALT',
         });
       }
       // Check for very short alt text (strict mode)
@@ -124,7 +124,7 @@ class AccessibilityChecker {
           file: filePath,
           line: lineNum,
           message: `Image alt text may be too short "${altText}": ${src}`,
-          code: 'IMG_SHORT_ALT'
+          code: 'IMG_SHORT_ALT',
         });
       }
     }
@@ -143,7 +143,7 @@ class AccessibilityChecker {
           file: filePath,
           line: lineNum,
           message: `HTML image missing alt attribute`,
-          code: 'HTML_IMG_NO_ALT'
+          code: 'HTML_IMG_NO_ALT',
         });
       } else if (altMatch[1].trim() === '') {
         fileIssues.push({
@@ -151,7 +151,7 @@ class AccessibilityChecker {
           file: filePath,
           line: lineNum,
           message: `HTML image has empty alt attribute`,
-          code: 'HTML_IMG_EMPTY_ALT'
+          code: 'HTML_IMG_EMPTY_ALT',
         });
       }
     }
@@ -176,7 +176,7 @@ class AccessibilityChecker {
           file: filePath,
           line: lineNum,
           message: `Empty heading (h${level})`,
-          code: 'HEADING_EMPTY'
+          code: 'HEADING_EMPTY',
         });
       }
     }
@@ -193,7 +193,7 @@ class AccessibilityChecker {
           file: filePath,
           line: curr.lineNum,
           message: `Heading level skip: h${prev.level} -> h${curr.level} (should not skip levels)`,
-          code: 'HEADING_SKIP'
+          code: 'HEADING_SKIP',
         });
       }
     }
@@ -205,8 +205,17 @@ class AccessibilityChecker {
     let match;
 
     const uninformativeTexts = [
-      'click here', 'here', 'read more', 'more', 'link', 'this link',
-      'learn more', 'click', 'this', 'page', 'article'
+      'click here',
+      'here',
+      'read more',
+      'more',
+      'link',
+      'this link',
+      'learn more',
+      'click',
+      'this',
+      'page',
+      'article',
     ];
 
     while ((match = linkRegex.exec(content)) !== null) {
@@ -223,7 +232,7 @@ class AccessibilityChecker {
           file: filePath,
           line: lineNum,
           message: `Link has empty text: ${url}`,
-          code: 'LINK_EMPTY_TEXT'
+          code: 'LINK_EMPTY_TEXT',
         });
       }
       // Check for uninformative link text
@@ -233,7 +242,7 @@ class AccessibilityChecker {
           file: filePath,
           line: lineNum,
           message: `Link has uninformative text "${linkText}": ${url}`,
-          code: 'LINK_BAD_TEXT'
+          code: 'LINK_BAD_TEXT',
         });
       }
     }
@@ -248,7 +257,7 @@ class AccessibilityChecker {
           file: filePath,
           line: lineNum,
           message: `Bare URL (not linked): ${match[0].substring(0, 50)}...`,
-          code: 'BARE_URL'
+          code: 'BARE_URL',
         });
       }
     }
@@ -283,7 +292,7 @@ class AccessibilityChecker {
             file: filePath,
             line: tableStart,
             message: 'Table may be missing header row',
-            code: 'TABLE_NO_HEADER'
+            code: 'TABLE_NO_HEADER',
           });
         }
         inTable = false;
@@ -293,14 +302,26 @@ class AccessibilityChecker {
 
   isUninformativeAlt(altText) {
     const uninformative = [
-      'image', 'img', 'picture', 'photo', 'figure', 'fig',
-      'screenshot', 'diagram', 'graph', 'chart', 'icon',
-      'untitled', 'unnamed', 'no description', 'placeholder'
+      'image',
+      'img',
+      'picture',
+      'photo',
+      'figure',
+      'fig',
+      'screenshot',
+      'diagram',
+      'graph',
+      'chart',
+      'icon',
+      'untitled',
+      'unnamed',
+      'no description',
+      'placeholder',
     ];
 
     const normalized = altText.toLowerCase().trim();
-    return uninformative.some(term =>
-      normalized === term || normalized === `${term}.jpg` || normalized === `${term}.png`
+    return uninformative.some(
+      term => normalized === term || normalized === `${term}.jpg` || normalized === `${term}.png`
     );
   }
 
@@ -309,7 +330,7 @@ class AccessibilityChecker {
   }
 
   printResults() {
-    console.log('\n' + '='.repeat(60));
+    console.log(`\n${'='.repeat(60)}`);
     console.log('RESULTS');
     console.log('='.repeat(60));
 
@@ -335,7 +356,7 @@ class AccessibilityChecker {
       }
     }
 
-    console.log('\n' + '='.repeat(60));
+    console.log(`\n${'='.repeat(60)}`);
 
     if (errors.length === 0 && warnings.length === 0) {
       console.log('\n✅ No accessibility issues found!');
@@ -353,17 +374,17 @@ class AccessibilityChecker {
     });
 
     const codeDescriptions = {
-      'IMG_NO_ALT': 'Images missing alt text',
-      'IMG_BAD_ALT': 'Images with uninformative alt text',
-      'IMG_SHORT_ALT': 'Images with short alt text',
-      'HTML_IMG_NO_ALT': 'HTML images missing alt attribute',
-      'HTML_IMG_EMPTY_ALT': 'HTML images with empty alt',
-      'HEADING_EMPTY': 'Empty headings',
-      'HEADING_SKIP': 'Heading level skips',
-      'LINK_EMPTY_TEXT': 'Links with empty text',
-      'LINK_BAD_TEXT': 'Links with uninformative text',
-      'BARE_URL': 'Bare URLs (not linked)',
-      'TABLE_NO_HEADER': 'Tables without headers'
+      IMG_NO_ALT: 'Images missing alt text',
+      IMG_BAD_ALT: 'Images with uninformative alt text',
+      IMG_SHORT_ALT: 'Images with short alt text',
+      HTML_IMG_NO_ALT: 'HTML images missing alt attribute',
+      HTML_IMG_EMPTY_ALT: 'HTML images with empty alt',
+      HEADING_EMPTY: 'Empty headings',
+      HEADING_SKIP: 'Heading level skips',
+      LINK_EMPTY_TEXT: 'Links with empty text',
+      LINK_BAD_TEXT: 'Links with uninformative text',
+      BARE_URL: 'Bare URLs (not linked)',
+      TABLE_NO_HEADER: 'Tables without headers',
     };
 
     for (const [code, count] of Object.entries(codeCounts).sort((a, b) => b[1] - a[1])) {
@@ -399,7 +420,7 @@ Examples:
 
   const options = {
     strict: args.includes('--strict'),
-    fix: args.includes('--fix')
+    fix: args.includes('--fix'),
   };
 
   const checker = new AccessibilityChecker(options);

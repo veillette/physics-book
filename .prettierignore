@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+vendor/
+.bundle/
+
+# Build outputs
+_site/
+.jekyll-cache/
+.jekyll-metadata
+pdf-output/
+
+# Package files
+package-lock.json
+Gemfile.lock
+summary.json
+
+# Resources
+resources/
+
+# Generated files
+assets/manifest/
+
+# Git
+.git/
+
+# Migration and archive docs (may have intentional formatting)
+doc/JEKYLL_TO_*.md
+doc/*_MIGRATION_*.md
+doc/KRAMDOWN_*.md
+
+# Legacy files
+*.old
+*.bak
+
+# Editor files
+.vscode/
+.idea/
