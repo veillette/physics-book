@@ -186,7 +186,7 @@ possibilities and then proceed with the $$2p $$ subshell.
 It is convenient to list the possible quantum numbers in a table, as shown
 below.
 
-![Image contains a table listing all possible quantum numbers for the n equals 2 shell. The table shows that there are a total of two electrons in the 2 s subshell and six electrons in the 2 p subshell, for a total of eight electrons in the shell.](../resources/Figure_30_09_06.jpg " ")
+![Image contains a table listing all possible quantum numbers for the n equals 2 shell. The table shows that there are a total of two electrons in the 2 s subshell and six electrons in the 2 p subshell, for a total of eight electrons in the shell.](../resources/Figure_30_09_04.jpg " ")
 {: #Figure4}
 
 **Discussion**

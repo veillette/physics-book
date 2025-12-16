@@ -99,7 +99,7 @@ Using the law of reflection, explain how powder takes the shine off of a personâ
 <div class="problem" markdown="1">
 Show that when light reflects from two mirrors that meet each other at a right angle, the outgoing ray is parallel to the incoming ray, as illustrated in the following figure.
 
-![Two mirrors meet each other at a right angle. An incoming ray of light is reflected by one mirror and then the other, such that the outgoing ray is parallel to the incoming ray.](../resources/Figure_25_02_08.jpg "A corner reflector sends the reflected ray back in a direction parallel to the incident ray, independent of incoming direction.")
+![Two mirrors meet each other at a right angle. An incoming ray of light is reflected by one mirror and then the other, such that the outgoing ray is parallel to the incoming ray.](../resources/Figure_25_02_07.jpg "A corner reflector sends the reflected ray back in a direction parallel to the incident ray, independent of incoming direction.")
 {: #Figure7}
 
 </div>
@@ -118,7 +118,7 @@ Light shows staged with lasers use moving mirrors to swing beams and create colo
 A flat mirror is neither converging nor diverging. To prove this, consider two rays originating from the same point and diverging at an angle  $$\theta  $$ .
  Show that after striking a plane mirror, the angle between their directions remains  $$\theta  $$.
 
-![Light rays diverging from a point at an angle theta fall on a mirror at two different places and their reflected rays diverge. When the reflected rays are extended backwards from their points of reflection, they meet at a point behind the mirror, where they diverge from each other at the same angle theta.](../resources/Figure_25_02_09.jpg "A flat mirror neither converges nor diverges light rays. Two rays continue to diverge at the same angle after reflection.")
+![Light rays diverging from a point at an angle theta fall on a mirror at two different places and their reflected rays diverge. When the reflected rays are extended backwards from their points of reflection, they meet at a point behind the mirror, where they diverge from each other at the same angle theta.](../resources/Figure_25_02_08.jpg "A flat mirror neither converges nor diverges light rays. Two rays continue to diverge at the same angle after reflection.")
 {: #Figure8}
 
 </div>

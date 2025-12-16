@@ -217,7 +217,7 @@ this technique is poor, about 1 cm, but the contrast (i.e. the difference in
 visual properties that makes an object distinguishable from other objects and
 the background) is good.
 
-![A man lying down, going through a cylindrical scanning machine.](../resources/Figure_32_01_04.jpg "SPECT uses a geometry similar to a CT scanner to form an image of the concentration of a radiopharmaceutical compound. (credit: Woldo, Wikimedia Commons)")
+![A man lying down, going through a cylindrical scanning machine.](../resources/Figure_32_01_03.jpg "SPECT uses a geometry similar to a CT scanner to form an image of the concentration of a radiopharmaceutical compound. (credit: Woldo, Wikimedia Commons)")
 {: #Figure3}
 
 Images produced by $${\beta }^{+} $$ emitters have become important in recent
@@ -236,14 +236,14 @@ $${}^{18}\text{F} $$ , as seen in [[Table 1]](#Table1). This list includes C, N,
 and O, and so they have the advantage of being able to function as tags for
 natural body compounds. Its resolution of 0.5 cm is better than that of SPECT;
 the accuracy and sensitivity of PET scans make them useful for examining the
-brain’s anatomy and function. The brain’s use of oxygen and water can be
+brain's anatomy and function. The brain's use of oxygen and water can be
 monitored with $${}^{15}\text{O} $$ . PET is used extensively for diagnosing
 brain disorders. It can note decreased metabolism in certain regions prior to a
-confirmation of Alzheimer’s disease. PET can locate regions in the brain that
+confirmation of Alzheimer's disease. PET can locate regions in the brain that
 become active when a person carries out specific activities, such as speaking,
 closing their eyes, and so on.
 
-![The figure shows a patient undergoing a scan in a cylindrical device. The P E T system uses two gamma ray photons produced by positron electron annihilation. These gamma rays are emitted in opposite directions.](../resources/Figure_32_01_05.jpg "A PET system takes advantage of the two identical \( \gamma \)-ray photons produced by positron-electron annihilation. These \( \gamma \) rays are emitted in opposite directions, so that the line along which each pair is emitted is determined. Various events detected by several pairs of detectors are then analyzed by the computer to form an accurate image.")
+![The figure shows a patient undergoing a scan in a cylindrical device. The P E T system uses two gamma ray photons produced by positron electron annihilation. These gamma rays are emitted in opposite directions.](../resources/Figure_32_01_04.jpg "A PET system takes advantage of the two identical \( \gamma \)-ray photons produced by positron-electron annihilation. These \( \gamma \) rays are emitted in opposite directions, so that the line along which each pair is emitted is determined. Various events detected by several pairs of detectors are then analyzed by the computer to form an accurate image.")
 {: #Figure4}
 
 <div class="note" data-has-label="true"  data-label="" markdown="1">

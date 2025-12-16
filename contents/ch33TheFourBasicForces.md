@@ -127,7 +127,7 @@ among carrier particles is that they are all bosons (first mentioned
 in [Patterns in Spectra Reveal More Quantization](../contents/ch30PatternsInSpectraRevealMoreQuantization)), having integral
 intrinsic spins.
 
-![A diagram is shown in which time progresses along the vertical y axis and distance along the horizontal x axis. Protons and neutrons are shown approaching each other, exchanging a virtual pion, then moving apart.](../resources/Figure_33_02_04.jpg "The image shows a Feynman diagram for the exchange of a \( \pi^{+} \) between a proton and a neutron, carrying the strong nuclear force between them. This diagram represents the situation shown more pictorially in [link].")
+![A diagram is shown in which time progresses along the vertical y axis and distance along the horizontal x axis. Protons and neutrons are shown approaching each other, exchanging a virtual pion, then moving apart.](../resources/Figure_33_02_03.jpg "The image shows a Feynman diagram for the exchange of a \( \pi^{+} \) between a proton and a neutron, carrying the strong nuclear force between them. This diagram represents the situation shown more pictorially in [link].")
 {: #Figure3}
 
 There is a relationship between the mass of the carrier particle and the range

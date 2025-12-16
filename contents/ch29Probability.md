@@ -79,7 +79,7 @@ electrons from it. Those probes have momentum themselves, and by scattering from
 the electron, they change its momentum **in a manner that loses information**.
 There is a limit to absolute knowledge, even in principle.
 
-![A photograph of a young, smiling Werner Heisenberg.](../resources/Figure_29_07_04.jpg "Werner Heisenberg was one of the best of those physicists who developed early quantum mechanics. Not only did his work enable a description of nature on the very small scale, it also changed our view of the availability of knowledge. Although he is universally recognized for his brilliance and the importance of his work (he received the Nobel Prize in 1932, for example), Heisenberg remained in Germany during World War II and headed the German effort to build a nuclear bomb, permanently alienating himself from most of the scientific community. (credit: Author Unknown, via Wikimedia Commons)")
+![A photograph of a young, smiling Werner Heisenberg.](../resources/Figure_29_07_03.jpg "Werner Heisenberg was one of the best of those physicists who developed early quantum mechanics. Not only did his work enable a description of nature on the very small scale, it also changed our view of the availability of knowledge. Although he is universally recognized for his brilliance and the importance of his work (he received the Nobel Prize in 1932, for example), Heisenberg remained in Germany during World War II and headed the German effort to build a nuclear bomb, permanently alienating himself from most of the scientific community. (credit: Author Unknown, via Wikimedia Commons)")
 {: #Figure3 height="300"}
 
 It was Werner Heisenberg who first stated this limit to knowledge in 1929 as a
