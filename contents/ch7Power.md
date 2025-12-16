@@ -373,7 +373,7 @@ Cost:
 
 **Discussion**
 
-The cost of operating a 3.00-W electric clock for one year is approximately \$2.37, which is quite economical.
+The cost of operating a 3.00-W electric clock for one year is approximately $2.37, which is quite economical.
 
 </div>
 </div>
