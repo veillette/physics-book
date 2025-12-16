@@ -29,6 +29,7 @@
     "update-front-matter": "node scripts/update-front-matter.js",
     "rename-figures": "node scripts/rename-figures.js",
     "convert-webp": "node scripts/convert-webp.js",
+    "sync-config": "node scripts/sync-config.js",
     "test": "npm run check-links",
     "test:ci": "npm run check-links -- --timeout 15000",
     "audit": "npm run check-links && npm run check-orphans && npm run check-figures"
