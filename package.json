@@ -60,7 +60,7 @@
     "node-fetch": "^3.3.2",
     "prettier": "^3.7.4",
     "sharp": "^0.34.5",
-    "simple-git": "^3.19.1",
+    "simple-git": "^3.30.0",
     "vitest": "^1.6.1"
   }
 }
