@@ -211,6 +211,32 @@ What current flows through the bulb of a 3.00-V flashlight when its hot resistan
 Calculate the effective resistance of a pocket calculator that has a 1.35-V battery and through which 0.200 mA flows.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We apply Ohm's law in the form $$R = \frac{V}{I}$$ to find the resistance. The current must be converted from milliamperes to amperes to get resistance in ohms.
+
+**Solution**
+
+Convert current to SI units:
+
+<div class="equation">
+$$I = 0.200 \text{ mA} = 0.200 \times 10^{-3} \text{ A} = 2.00 \times 10^{-4} \text{ A}$$
+</div>
+
+Apply Ohm's law:
+
+<div class="equation">
+$$R = \frac{V}{I} = \frac{1.35 \text{ V}}{2.00 \times 10^{-4} \text{ A}} = 6.75 \times 10^{3} \text{ Ω} = 6.75 \text{ kΩ}$$
+</div>
+
+**Discussion**
+
+This resistance of 6.75 kΩ is quite high compared to most circuit components, which explains why calculators can operate for extended periods on small batteries. The high resistance limits the current to a tiny 0.200 mA, which means very little power is consumed ($$P = IV = 0.27$$ mW). This is why pocket calculators can run for years on a single battery or even operate from small solar cells. The effective resistance represents the combined resistance of all the calculator's internal circuitry, including the display, processor, and other components.
+
+The effective resistance of the pocket calculator is 6.75 kΩ.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -227,6 +253,32 @@ What is the effective resistance of a car’s starter motor when 150 A flows thr
 <div class="problem" markdown="1">
 How many volts are supplied to operate an indicator light on a DVD player that has a resistance of  $$140 \Omega  $$ ,
  given that 25.0 mA passes through it?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use Ohm's law in the form $$V = IR$$ to find the voltage across the indicator light. The current must be converted from milliamperes to amperes.
+
+**Solution**
+
+Convert current to SI units:
+
+<div class="equation">
+$$I = 25.0 \text{ mA} = 25.0 \times 10^{-3} \text{ A} = 0.0250 \text{ A}$$
+</div>
+
+Apply Ohm's law to find the voltage:
+
+<div class="equation">
+$$V = IR = (0.0250 \text{ A})(140 \text{ Ω}) = 3.50 \text{ V}$$
+</div>
+
+**Discussion**
+
+A voltage of 3.50 V is typical for small indicator LEDs used in consumer electronics. Modern DVD players use low-power LED indicators that require only a few volts and milliamps to operate. The power consumed by this indicator light is $$P = IV = (0.0250 \text{ A})(3.50 \text{ V}) = 0.0875 \text{ W} = 87.5 \text{ mW}$$, which is quite small. This low power consumption is why indicator lights can remain on continuously without significantly affecting the device's overall energy use or generating noticeable heat.
+
+A voltage of 3.50 V is supplied to operate the DVD player's indicator light.
 
 </div>
 </div>
@@ -257,6 +309,32 @@ to work properly.
 <div class="problem" markdown="1">
 A power transmission line is hung from metal towers with glass insulators having a resistance of  $$ 1.00 \times 10^{9}  \Omega . $$
  What current flows through the insulator if the voltage is 200 kV? (Some high-voltage lines are DC.)
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We apply Ohm's law $$I = \frac{V}{R}$$ to find the leakage current through the insulator. The voltage must be converted from kilovolts to volts.
+
+**Solution**
+
+Convert voltage to SI units:
+
+<div class="equation">
+$$V = 200 \text{ kV} = 200 \times 10^{3} \text{ V} = 2.00 \times 10^{5} \text{ V}$$
+</div>
+
+Apply Ohm's law:
+
+<div class="equation">
+$$I = \frac{V}{R} = \frac{2.00 \times 10^{5} \text{ V}}{1.00 \times 10^{9} \text{ Ω}} = 2.00 \times 10^{-4} \text{ A} = 0.200 \text{ mA}$$
+</div>
+
+**Discussion**
+
+This tiny current of 0.200 mA represents the leakage current through a single insulator. While seemingly negligible, this leakage has important implications. First, the power lost through this insulator is $$P = IV = (2.00 \times 10^{-4} \text{ A})(2.00 \times 10^{5} \text{ V}) = 40 \text{ W}$$. With thousands of insulators on a transmission line, the total leakage power loss becomes significant. Second, insulators must maintain their high resistance even under adverse conditions like rain, pollution, or ice buildup, which can dramatically lower resistance and increase leakage current. This is why insulators have their characteristic ribbed design—to increase the surface path length and reduce current flow even when wet. The gigaohm resistance ensures that virtually all the transmitted power reaches consumers rather than being lost through the towers.
+
+A current of 0.200 mA (or $$2.00 \times 10^{-4}$$ A) flows through the insulator.
 
 </div>
 </div>
