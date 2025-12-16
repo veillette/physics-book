@@ -22,15 +22,6 @@ kramdown:
   syntax_highlighter: rouge
   math_engine: null  # We use MathJax via CDN instead
 
-# Plugins
-plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-
-# Pagination (if needed)
-paginate: 10
-paginate_path: "/page:num/"
-
 # Default front matter
 defaults:
   - scope:
