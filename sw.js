@@ -20,12 +20,15 @@ const CORE_CACHE_FILES = [
   `${BASE_URL}assets/js/math-config.js`,
   `${BASE_URL}assets/js/book-config.js`,
   `${BASE_URL}assets/js/util.js`,
+  `${BASE_URL}assets/js/search.js`,
+  `${BASE_URL}assets/js/search-ui.js`,
   `${BASE_URL}assets/pwa/register-sw.js`,
   `${BASE_URL}assets/manifest/manifest.json`,
   `${BASE_URL}assets/manifest/icons/icon-192x192.png`,
   `${BASE_URL}assets/manifest/icons/icon-512x512.png`,
   `${BASE_URL}assets/image/cover2.png`,
-  `${BASE_URL}assets/image/favicon.ico`
+  `${BASE_URL}assets/image/favicon.ico`,
+  `${BASE_URL}search_index.json`
 ];
 
 // Fallback pages
@@ -81,12 +84,36 @@ self.addEventListener('fetch', (event) => {
     if (event.request.method !== 'GET') {
         return;
     }
-    
+
     // Skip external requests (CDNs, etc.)
     if (!event.request.url.startsWith(self.location.origin)) {
         return;
     }
-    
+
+    // Cache First strategy for search index (for offline support)
+    if (event.request.url.includes('search_index.json')) {
+        event.respondWith(
+            caches.match(event.request)
+                .then((cachedResponse) => {
+                    if (cachedResponse) {
+                        console.log('Service Worker: Serving search index from cache');
+                        return cachedResponse;
+                    }
+                    // Fallback to network if not cached
+                    return fetch(event.request).then((response) => {
+                        if (response && response.status === 200) {
+                            const responseToCache = response.clone();
+                            caches.open(CACHE_NAME).then((cache) => {
+                                cache.put(event.request, responseToCache);
+                            });
+                        }
+                        return response;
+                    });
+                })
+        );
+        return;
+    }
+
     event.respondWith(
         caches.match(event.request)
             .then((cachedResponse) => {
@@ -95,7 +122,7 @@ self.addEventListener('fetch', (event) => {
                     console.log('Service Worker: Serving from cache:', event.request.url);
                     return cachedResponse;
                 }
-                
+
                 // Otherwise fetch from network
                 return fetch(event.request)
                     .then((response) => {
@@ -103,28 +130,28 @@ self.addEventListener('fetch', (event) => {
                         if (!response || response.status !== 200 || response.type !== 'basic') {
                             return response;
                         }
-                        
+
                         // Cache successful responses for future use
                         const responseToCache = response.clone();
                         caches.open(CACHE_NAME)
                             .then((cache) => {
                                 cache.put(event.request, responseToCache);
                             });
-                        
+
                         return response;
                     })
                     .catch(() => {
                         console.log('Service Worker: Network failed, trying offline fallback');
-                        
+
                         // For navigation requests, return offline page
-                        if (event.request.destination === 'document' || 
+                        if (event.request.destination === 'document' ||
                             event.request.headers.get('Accept').includes('text/html')) {
-                            
+
                             // Try offline page first, then fallback page
                             return caches.match(OFFLINE_PAGE)
                                 .then(response => response || caches.match(FALLBACK_PAGE));
                         }
-                        
+
                         // For other requests, just fail silently
                         return new Response('Offline - Resource not available', {
                             status: 503,
