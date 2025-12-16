@@ -1,6 +1,6 @@
-# Contributing to the Physics Book Project
+# Contributing to the Open Textbook Project
 
-Thank you for your interest in contributing to this open-source physics textbook! This guide will help you get started with contributing content, fixes, and improvements to the project.
+Thank you for your interest in contributing to this open-source textbook! This guide will help you get started with contributing content, fixes, and improvements to the project.
 
 ## Table of Contents
 
@@ -60,8 +60,8 @@ To contribute to this project, you'll need:
 1. **Fork the repository** on GitHub
 2. **Clone your fork** locally:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/physics-book.git
-   cd physics-book
+   git clone https://github.com/YOUR-USERNAME/your-fork.git
+   cd your-fork
    ```
 3. **Install dependencies**:
 
@@ -78,7 +78,7 @@ To contribute to this project, you'll need:
    ```bash
    bundle exec jekyll serve --incremental
    ```
-5. **View the site** at `http://localhost:4000/physics-book/`
+5. **View the site** at `http://localhost:4000/` (or with baseurl if configured)
 
 ## Contribution Workflow
 
@@ -284,7 +284,7 @@ Check that all mathematical notation is properly formatted.
 ### Visual Test
 
 1. Run `bundle exec jekyll serve --incremental`
-2. View your changes at `http://localhost:4000/physics-book/`
+2. View your changes at `http://localhost:4000/` (or with baseurl if configured)
 3. Check:
    - Equations render correctly
    - Images display properly

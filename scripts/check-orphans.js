@@ -329,8 +329,9 @@ class OrphanFileFinder {
       // Handle absolute paths from root
       else if (url.startsWith('/')) {
         let resolved = url.substring(1);
-        // Remove common base paths like /physics-book/ (for GitHub Pages)
-        resolved = resolved.replace(/^physics-book\//, '');
+        // Remove GitHub Pages base paths (e.g., /repo-name/)
+        // This handles any baseurl configured in Jekyll
+        resolved = resolved.replace(/^[^/]+\//, '');
         return resolved;
       }
       // Handle paths already relative to base

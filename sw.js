@@ -1,9 +1,9 @@
 ---
 layout: null
 ---
-// Service Worker for Physics Book PWA
-const CACHE_VERSION = '2025-12-13-mathjax4';
-const CACHE_NAME = `physics-book-${CACHE_VERSION}`;
+// Service Worker for Open Textbook PWA
+const CACHE_VERSION = '2025-12-16-v1';
+const CACHE_NAME = `open-textbook-${CACHE_VERSION}`;
 const BASE_URL = '{{ site.baseurl }}/';
 
 console.log(`Service Worker: Version ${CACHE_VERSION}`);

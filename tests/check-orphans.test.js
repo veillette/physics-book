@@ -75,7 +75,8 @@ describe('OrphanFileFinder', () => {
     });
 
     it('should strip GitHub Pages base path', () => {
-      const resolved = finder.resolvePath('/physics-book/assets/icon.png', 'contents/ch1.md');
+      // The script strips any /repo-name/ prefix from absolute paths
+      const resolved = finder.resolvePath('/my-repo/assets/icon.png', 'contents/ch1.md');
       expect(resolved).toBe('assets/icon.png');
     });
 

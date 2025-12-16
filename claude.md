@@ -1,153 +1,140 @@
-# Claude Context for Physics Book Project
+# Claude Context for Open Textbook Project
 
-## Quick Start
-
-**For Quick Understanding:**
-
-- **What**: Open-source, algebra-based college physics textbook with 280+ sections
-- **Tech**: Jekyll + Kramdown + MathJax v4 + GitHub Pages
-- **Local Dev**: `bundle exec jekyll serve --incremental` → `http://localhost:4000/physics-book/`
-- **Structure**: Content in `contents/`, organized as `ch[N][SectionName].md`
-- **Key Files**: `SUMMARY.md` (TOC), `_config.yml` (config), `claude.md` (this file)
-
-**Common Tasks:**
-
-- Add content → Update `contents/` + `SUMMARY.md`
-- Fix links → Always use `{{ site.baseurl }}/path`
-- Check math → Run `npm run check-math`
-- Validate links → Run `npm run check-links`
+This document provides context for AI assistants and developers working with this Jekyll-based open textbook project.
 
 ---
 
-## Project Overview
+## Quick Start
 
-This is an **open-source physics textbook** built with Jekyll and GitHub Pages. The project provides an accessible, interactive college-level physics education resource that's free and customizable.
+**What This Is:**
+- An open-source textbook platform built with Jekyll + Kramdown + MathJax v4
+- Designed for educational content with rich mathematical notation
+- Includes quality assurance tools for content validation
 
-**Live Site:** https://veillette.github.io/physics-book/
-**Repository:** https://github.com/veillette/physics-book
-**License:** Creative Commons BY-NC-SA 4.0
+**Essential Commands:**
 
-## Technology Stack
+```bash
+# Local development
+bundle exec jekyll serve --incremental   # Start dev server at localhost:4000
 
-### Core Technologies
+# Quality checks
+npm run check-links                       # Validate all links
+npm run check-math                        # Check LaTeX delimiters
+npm run audit                             # Run all validation
 
-- **Jekyll**: Static site generator (v3.9+)
-- **Kramdown**: Markdown parser (GitHub-Flavored Markdown mode)
-- **MathJax v4**: Asynchronous mathematical equation rendering
-- **GitHub Pages**: Automated hosting and deployment
-- **Ruby**: 2.7+ required for Jekyll
-
-### Development Tools
-
-- **Node.js**: For utility scripts (link checking, PDF generation, math validation)
-- **Playwright**: Browser automation for PDF generation
-- **GitHub Actions**: CI/CD workflows for deployment and quality checks
-
-## Project Structure
-
-```
-physics-book/
-├── contents/           # All textbook content (Markdown files)
-│   ├── ch1*.md        # Chapter 1 sections
-│   ├── ch2*.md        # Chapter 2 sections
-│   └── ...            # Additional chapters
-├── assets/            # CSS, JavaScript, images
-├── _layouts/          # Jekyll page templates
-├── _includes/         # Reusable Jekyll components (navigation, MathJax config)
-├── scripts/           # Build and utility scripts
-├── parsingScripts/    # Content parsing utilities
-├── resources/         # Static resources
-├── _config.yml        # Jekyll configuration
-├── SUMMARY.md         # Table of contents
-└── index.html         # Homepage
+# Content tools
+npm run check-orphans                     # Find unreferenced files
+npm run check-accessibility               # Check accessibility
+npm run check-yaml                        # Validate front matter
 ```
 
-## Content Organization
+**Key Files:**
+- `SUMMARY.md` - Table of contents (update when adding content)
+- `_config.yml` - Jekyll configuration
+- `contents/` - All textbook content files
 
-### Chapter Structure
+---
 
-- Each chapter has a main file (e.g., `ch2Kinematics.md`)
-- Sections are in separate files (e.g., `ch2Displacement.md`, `ch2Acceleration.md`)
-- Organized by chapter number (ch1-ch22+)
-- Special files: `Glossary.md`, `appendixA.md`, `appendixB.md`
+## Project Architecture
+
+### Technology Stack
+
+| Component | Technology | Purpose |
+|-----------|------------|---------|
+| Site Generator | Jekyll 3.9+ | Static site generation |
+| Markdown | Kramdown (GFM mode) | Content parsing |
+| Math Rendering | MathJax v4 | Equation display |
+| Hosting | GitHub Pages | Deployment |
+| Scripts | Node.js | Quality assurance tools |
+| PDF Generation | Playwright | Print-ready exports |
+
+### Directory Structure
+
+```
+project-root/
+├── contents/              # Textbook content (Markdown)
+│   ├── ch1*.md           # Chapter 1 sections
+│   ├── ch2*.md           # Chapter 2 sections
+│   └── ...               # Additional chapters
+├── assets/               # Static assets
+│   ├── css/             # Stylesheets
+│   ├── js/              # JavaScript files
+│   ├── image/           # Site images (favicon, logo)
+│   ├── icon/            # Icon assets
+│   ├── manifest/        # PWA manifest and icons
+│   └── pwa/             # PWA support files
+├── resources/            # Content images and figures
+├── scripts/              # Node.js utility scripts
+├── tests/                # Unit tests for scripts
+├── doc/                  # Migration and planning docs
+├── _layouts/             # Jekyll page templates
+├── _includes/            # Reusable Jekyll components
+├── _config.yml           # Jekyll configuration
+├── SUMMARY.md            # Table of contents
+├── index.html            # Homepage
+├── sw.js                 # Service worker (PWA)
+├── package.json          # Node.js dependencies
+├── Gemfile               # Ruby dependencies
+└── claude.md             # This file
+```
+
+---
+
+## Content Guidelines
 
 ### File Naming Convention
 
-- Format: `ch[NUMBER][DescriptiveName].md`
-- Example: `ch2TimeVelocityAndSpeed.md`
-- Use PascalCase for multi-word names
-
-### End-of-Chapter Problems and Solutions
-
-Many chapter sections include practice problems at the end:
-
-- **Conceptual Questions**: Questions testing understanding of concepts without complex calculations
-- **Problems & Exercises**: Numerical problems requiring calculations and problem-solving
-
-**Location**: These sections appear at the end of individual section files (e.g., `ch10AngularAcceleration.md`)
-
-**Format**:
-
-- Problems are typically numbered and formatted as ordered lists
-- Questions use HTML entities for special characters (e.g., `&amp;` for `&`)
-- Math notation uses MathJax delimiters (`$...$` or `$$...$$`)
-
-**Contributing Solutions**:
-When contributing worked solutions to practice problems:
-
-1. Place solutions in the same file as the problems, under a `### Solutions` heading
-2. Number solutions to match the corresponding problem numbers
-3. Show all work and intermediate steps for clarity
-4. Use proper MathJax notation for equations and calculations
-5. Include brief explanations of the approach and reasoning
-6. Test that all equations render correctly locally before committing
-
-**Example Solution Format**:
-
-```markdown
-### Solutions
-
-**1.** Given: initial velocity $v_0 = 10 \text{ m/s}$, acceleration $a = 2 \text{ m/s}^2$, time $t = 5 \text{ s}$
-
-Using the kinematic equation: $v = v_0 + at$
-
-$$v = 10 + (2)(5) = 10 + 10 = 20 \text{ m/s}$$
-
-**Answer**: The final velocity is 20 m/s.
+Content files follow this pattern:
+```
+ch[NUMBER][SectionName].md
 ```
 
-## Mathematics and Equations
+Examples:
+- `ch1Introduction.md` - Chapter 1 introduction
+- `ch2TimeVelocityAndSpeed.md` - Chapter 2 section
+- `ch10AngularAcceleration.md` - Chapter 10 section
 
-### MathJax Configuration
+Use PascalCase for multi-word names. The number prefix determines chapter organization.
 
-- **Version**: MathJax 4.0 (loaded asynchronously from CDN)
-- **Location**: `_includes/mathjax.html`
-- **Inline math**: `$...$` or `\\(...\\)`
-- **Display math**: `$$...$$` or `\\[...\\]`
+### Required Front Matter
 
-### Common Usage Examples
+Every content file needs YAML front matter:
 
-**Inline equations:**
-
-```markdown
-The equation $E = mc^2$ represents mass-energy equivalence.
-Newton's second law is $F = ma$.
+```yaml
+---
+title: 'Section Title'
+layout: page
+---
 ```
 
-**Display equations:**
+Optional fields:
+```yaml
+---
+title: 'Section Title'
+layout: page
+chapterNumber: 2
+sectionNumber: 3
+description: 'Brief description for metadata'
+---
+```
 
+### Mathematical Notation
+
+The project uses MathJax v4 for rendering equations.
+
+**Inline Math:**
+```markdown
+The equation $E = mc^2$ shows mass-energy equivalence.
+```
+
+**Display Math:**
 ```markdown
 The quadratic formula is:
 
 $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
-
-Kinetic energy:
-
-$$KE = \frac{1}{2}mv^2$$
 ```
 
-**Aligned equations:**
-
+**Aligned Equations:**
 ```markdown
 $$
 \begin{align}
@@ -157,382 +144,353 @@ x &= x_0 + v_0 t + \frac{1}{2}at^2
 $$
 ```
 
-**Matrices and vectors:**
+**Important:**
+- Always escape backslashes in Markdown: `\\frac` not `\frac`
+- Test equations locally before committing
+- Run `npm run check-math` to validate delimiter balance
+
+### Internal Links
+
+**Always use `{{ site.baseurl }}` for internal links:**
 
 ```markdown
-$$\vec{F} = m\vec{a}$$
+<!-- Correct -->
+[Next Section]({{ site.baseurl }}/contents/ch2Kinematics)
+![Figure]({{ site.baseurl }}/resources/figure.png)
 
-$$\begin{pmatrix} x \\ y \\ z \end{pmatrix}$$
+<!-- Incorrect - will break on GitHub Pages -->
+[Next Section](/contents/ch2Kinematics)
 ```
 
-### Important Notes
+### Images and Figures
 
-- MathJax loads asynchronously to prevent blocking page render
-- Equations are rendered after content loads via `startup.ready()` promise
-- Always escape backslashes in Markdown: `\\frac` not `\frac`
-- Test equation rendering when adding/modifying math content
-- Use `npm run check-math` to validate before committing
+Store images in `resources/` directory:
+
+```markdown
+![Description of the image]({{ site.baseurl }}/resources/Figure_02_01_01.jpg)
+```
+
+Figure naming convention: `Figure_[Chapter]_[Section]_[Number].ext`
+
+---
 
 ## Development Workflow
 
-### Local Development
+### Local Setup
 
 ```bash
-# Install dependencies
+# 1. Install Ruby dependencies
 gem install bundler jekyll
 bundle install
 
-# Start local server
+# 2. Install Node.js dependencies
+npm install
+
+# 3. Start development server
 bundle exec jekyll serve --incremental
 
-# View at http://localhost:4000/physics-book/
+# 4. View at http://localhost:4000/ (or with baseurl if configured)
 ```
 
-### Building
+### Making Changes
+
+1. **Edit content** in `contents/` directory
+2. **Test locally** with Jekyll server
+3. **Run validation:**
+   ```bash
+   npm run check-links    # Verify links work
+   npm run check-math     # Validate equations
+   npm run check-yaml     # Check front matter
+   ```
+4. **Commit** with clear message
+5. **Push** to trigger deployment
+
+### Adding New Content
+
+1. Create file in `contents/` with proper naming
+2. Add front matter
+3. Write content with proper Markdown/MathJax
+4. Update `SUMMARY.md` to add to table of contents
+5. Run `npm run check-links` to verify
+
+---
+
+## Quality Assurance Scripts
+
+See `scripts/README.md` for complete documentation.
+
+### Quick Reference
+
+| Command | Purpose |
+|---------|---------|
+| `npm run check-links` | Validate internal/external links |
+| `npm run check-math` | Check LaTeX delimiter balance |
+| `npm run check-yaml` | Validate YAML front matter |
+| `npm run check-accessibility` | Check alt text, headings |
+| `npm run check-orphans` | Find unreferenced files |
+| `npm run check-figures` | Validate figure references |
+| `npm run audit` | Run all validation checks |
+
+### Running Before Commits
+
+Always run before committing content changes:
 
 ```bash
-# Production build
-bundle exec jekyll build
-
-# Output to _site/ directory
+npm run check-math && npm run check-links
 ```
 
-## Code Conventions
+For comprehensive validation:
 
-### Markdown Format
+```bash
+npm run audit
+```
 
-- Use Kramdown syntax (GFM input mode)
-- Front matter required for all content pages:
-  ```yaml
-  ---
-  title: 'Page Title'
-  layout: page
-  ---
-  ```
-
-### Jekyll Includes
-
-- Navigation: Configured in `_includes/navigation.html`
-- MathJax: Loaded via `_includes/mathjax.html`
-- Reusable components go in `_includes/`
-
-### CSS and JavaScript
-
-- Main styles in `assets/css/`
-- Scripts in `assets/js/`
-- Use compressed/minified for production
+---
 
 ## Common Tasks
 
-### Adding a New Chapter Section
+### Fix Broken Links
 
-1. Create file in `contents/` with naming pattern `ch[N][SectionName].md`
-2. Add front matter with title and layout
-3. Update `SUMMARY.md` to include in table of contents
-4. Test MathJax rendering if equations present
+1. Run `npm run check-links` to identify broken links
+2. Check if link should use `{{ site.baseurl }}`
+3. Verify file exists at referenced path
+4. Update SUMMARY.md if section was renamed
 
-### Updating Navigation
+### Fix Math Rendering
 
-- Edit `_includes/navigation.html`
-- Update `SUMMARY.md` for table of contents
-- Ensure baseurl is correctly used: `{{ site.baseurl }}/path`
+1. Run `npm run check-math` to find issues
+2. Common fixes:
+   - Balance `$` delimiters
+   - Escape backslashes: `\\frac`, `\\sqrt`
+   - Use `$$` for display math (not `$` on its own line)
 
-### Working with Images
+### Add Practice Problems
 
-- Store in `resources/` directory
-- Reference with: `![alt text]({{ site.baseurl }}/resources/image.png)`
-- Use descriptive filenames
+Add at end of section files:
 
-## Important Configuration
+```markdown
+## Conceptual Questions
 
-### Site Settings (\_config.yml)
+1. Question about concepts...
 
-- **baseurl**: `/physics-book` (important for GitHub Pages)
-- **url**: `https://veillette.github.io`
-- **markdown**: kramdown
-- **math_engine**: null (using MathJax CDN instead)
+2. Another conceptual question...
 
-### Recent Fixes
+## Problems & Exercises
 
-- Navigation bar loads correctly with site.url + baseurl
-- MathJax v4 configured with async loading
-- Equations render properly with `startup.ready()` promise
+1. Numerical problem with calculations...
 
-## CI/CD and Automation
+2. Another exercise...
+
+### Solutions
+
+**1.** Given: $m = 5 \text{ kg}$, $a = 3 \text{ m/s}^2$
+
+Using $F = ma$:
+$$F = (5)(3) = 15 \text{ N}$$
+
+**Answer:** 15 N
+```
+
+### Generate PDFs
+
+```bash
+# Install browser (first time)
+npm run generate-pdf:install
+
+# Start Jekyll server (in separate terminal)
+bundle exec jekyll serve
+
+# Generate PDFs
+npm run generate-pdf             # All chapters
+npm run generate-pdf:combined    # Single book PDF
+npm run generate-pdf:chapter     # Specific chapter
+```
+
+---
+
+## Configuration Reference
+
+### _config.yml
+
+Key settings to customize:
+
+```yaml
+# Site identity
+title: "Your Textbook Title"
+tagline: "Your Tagline"
+author: "Author Name"
+
+# GitHub Pages deployment
+url: "https://yourusername.github.io"    # Your GitHub Pages URL
+baseurl: "/your-repo-name"                # Repository name with leading slash
+repository: yourusername/your-repo-name   # For GitHub metadata
+
+# Build settings (usually don't change)
+markdown: kramdown
+highlighter: rouge
+```
+
+### MathJax Configuration
+
+Located in `_includes/mathjax.html`:
+- Loads MathJax v4 from CDN
+- Configures `$...$` for inline math
+- Configures `$$...$$` for display math
+- Async loading to prevent render blocking
+
+---
+
+## CI/CD Integration
 
 ### GitHub Actions Workflows
 
-The project uses automated workflows in `.github/workflows/`:
+Located in `.github/workflows/`:
 
-**1. Deployment (deploy.yml)**
-
-- Triggered on push to main branch
-- Builds Jekyll site automatically
+**deploy.yml** - Automatic deployment
+- Triggers on push to main
+- Builds Jekyll site
 - Deploys to GitHub Pages
-- Ensures live site is always up-to-date
 
-**2. Link Checking (link-check.yml)**
+**link-check.yml** - Link validation
+- Runs on pull requests
+- Validates internal/external links
+- Prevents broken links from merging
 
-- Runs on pull requests and scheduled intervals
-- Validates all internal and external links
-- Prevents broken links from being merged
-- Uses the same `check-links` script as local development
+**ci.yml** - Continuous integration
+- Runs quality checks
+- Validates build succeeds
 
-### Automated Quality Checks
+---
 
-When you push changes:
+## Troubleshooting
 
-1. Jekyll build is validated
-2. Links are checked for validity
-3. Site is deployed if on main branch
-4. Any failures are reported in PR checks
+### MathJax Not Rendering
 
-**Best Practice:** Always check your changes locally before pushing:
+**Symptoms:** Equations show as raw LaTeX
 
-```bash
-bundle exec jekyll build    # Verify build succeeds
-npm run check-links         # Check for broken links
-npm run check-math          # Validate equations
-```
+**Solutions:**
+1. Check `{% include mathjax.html %}` in layout
+2. Verify delimiter balance: `$...$` or `$$...$$`
+3. Run `npm run check-math`
+4. Check browser console for errors
+
+### Links Broken on GitHub Pages
+
+**Symptoms:** 404 errors on deployed site
+
+**Solutions:**
+1. Always use `{{ site.baseurl }}/path`
+2. Check `_config.yml` has correct `url` and `baseurl`
+3. Verify file exists at path
+
+### Jekyll Build Fails
+
+**Symptoms:** Build errors in terminal
+
+**Solutions:**
+1. Check Kramdown syntax (tables, lists)
+2. Validate YAML front matter: `npm run check-yaml`
+3. Look for unclosed HTML tags
+4. Try `bundle update` for gem issues
+
+### PDF Generation Fails
+
+**Solutions:**
+1. Ensure Jekyll server running: `bundle exec jekyll serve`
+2. Install browsers: `npm run generate-pdf:install`
+3. Check port 4000 is free
+4. Wait for MathJax to load (script handles this)
+
+---
 
 ## Git Workflow
 
 ### Branch Strategy
 
-- **Main branch**: Production branch, auto-deploys to GitHub Pages
-- **Feature branches**: Use `claude/[description]-[session-id]` pattern
-- **Pull requests**: Required for contributing changes
-- Always push to your designated branch (never force-push to main)
+- **main**: Production branch, auto-deploys
+- **feature branches**: Use `feature/description` pattern
+- Always create PRs for changes
 
 ### Commit Guidelines
 
-- Clear, descriptive commit messages
-- Focus on "why" not just "what"
-- Reference issues/PRs when applicable
-- Group related changes in single commits
-- Test locally before committing
+- Clear, descriptive messages
+- Focus on "why" not "what"
+- Reference issues when applicable
+- Test before committing
 
-### Typical Workflow
+### Example Workflow
 
 ```bash
 # Create feature branch
-git checkout -b claude/improve-chapter-2
+git checkout -b feature/improve-chapter-5
 
-# Make changes and test
-bundle exec jekyll serve --incremental
+# Make changes
 # ... edit files ...
-npm run check-links
 
-# Commit and push
-git add contents/ch2*.md
-git commit -m "Improve explanations in kinematics chapter"
-git push -u origin claude/improve-chapter-2
+# Validate
+npm run audit
 
-# Create pull request on GitHub
+# Commit
+git add contents/ch5*.md
+git commit -m "Improve explanations in chapter 5 wave mechanics"
+
+# Push
+git push -u origin feature/improve-chapter-5
+
+# Create PR on GitHub
 ```
 
-## Testing Checklist
-
-When making changes, verify:
-
-- [ ] Local Jekyll build succeeds
-- [ ] MathJax equations render correctly
-- [ ] Navigation links work (include baseurl)
-- [ ] Images display properly
-- [ ] Responsive design on mobile
-- [ ] No console errors in browser
-- [ ] Links use correct baseurl
-
-## Utilities and Scripts
-
-### Node.js Scripts (package.json)
-
-**Link Validation:**
-
-```bash
-npm run check-links              # Check all internal and external links
-npm run check-links:fast         # Faster checking with reduced timeout
-npm test                         # Alias for check-links
-npm test:ci                      # CI-optimized link checking
-```
-
-**Content Auditing:**
-
-```bash
-npm run check-orphans            # Find unreferenced content files
-npm run check-orphans:cleanup    # Generate cleanup script for orphans
-npm run audit                    # Run link check, orphan detection, and figure checking
-```
-
-**PDF Generation:**
-
-```bash
-npm run generate-pdf:install     # Install Playwright Chromium
-npm run generate-pdf --all       # Generate PDFs for all chapters
-npm run generate-pdf:combined    # Create single PDF of entire book
-npm run generate-pdf:chapter     # Generate PDF for specific chapter
-npm run generate-pdf:help        # Show PDF generation help
-```
-
-**Note:** PDF generation requires Playwright to be installed first with `npm run generate-pdf:install`.
-
-### Additional Scripts
-
-**Figure and Accessibility Checking:**
-
-```bash
-npm run check-figures            # Check for figure issues
-npm run check-accessibility      # Check accessibility compliance
-npm run check-yaml               # Validate YAML front matter
-```
-
-### Parsing Scripts (parsingScripts/)
-
-Utility scripts for content processing and migration:
-
-- Content format conversion helpers
-- Batch processing tools for content updates
-- Migration utilities (see `JEKYLL_TO_*.md` files)
-
-### Package Management
-
-- **Ruby gems**: Managed via `Gemfile` and `bundle`
-- **Node packages**: Managed via `package.json` and `npm`
-  - Key dependencies: Playwright, gray-matter, chalk, sharp
-
-## Common Issues and Solutions
-
-### MathJax Not Rendering
-
-**Symptoms:** Equations show as raw LaTeX or don't appear
-**Solutions:**
-
-- Ensure `{% include mathjax.html %}` is in your layout
-- Check browser console for MathJax loading errors
-- Verify equation delimiters: `$...$` for inline, `$$...$$` for display
-- Test with `npm run check-math` to validate syntax
-- Wait for async loading completion (MathJax loads after page)
-
-### Navigation Links Broken
-
-**Symptoms:** Links return 404 on GitHub Pages but work locally
-**Solutions:**
-
-- Always use `{{ site.baseurl }}` prefix for internal links
-- Check `_config.yml` baseurl is set to `/physics-book`
-- Test with the full local URL: `http://localhost:4000/physics-book/`
-- Remember: GitHub Pages uses baseurl, plain localhost doesn't
-
-### Build Failures
-
-**Symptoms:** Jekyll build fails or produces errors
-**Solutions:**
-
-- Check Kramdown syntax (especially in tables and lists)
-- Validate YAML front matter (colons, quotes, indentation)
-- Review Jekyll error messages in terminal output
-- Ensure Ruby version compatibility (2.7+)
-- Try `bundle update` if gem versions conflict
-
-### PDF Generation Issues
-
-**Symptoms:** PDF scripts fail or produce incomplete output
-**Solutions:**
-
-- Run `npm run generate-pdf:install` to ensure Playwright is installed
-- Check that Jekyll server is running for local PDF generation
-- Verify MathJax has loaded before PDF capture
-- Use `--help` flag to see available options
-- Ensure sufficient disk space for large PDFs
-
-### Service Worker / Offline Issues
-
-**Symptoms:** Offline mode not working or stale content
-**Solutions:**
-
-- Check `serviceWorker.js` is being served correctly
-- Clear browser cache and re-register service worker
-- Inspect service worker in browser DevTools → Application tab
-- Verify HTTPS (service workers require secure context or localhost)
+---
 
 ## Resources
 
-- **Jekyll Docs**: https://jekyllrb.com/docs/
-- **Kramdown Syntax**: https://kramdown.gettalong.org/syntax.html
-- **MathJax Docs**: https://docs.mathjax.org/
-- **GitHub Pages**: https://docs.github.com/en/pages
+### Documentation
 
-## Advanced Features
+- [Jekyll Docs](https://jekyllrb.com/docs/)
+- [Kramdown Syntax](https://kramdown.gettalong.org/syntax.html)
+- [MathJax Docs](https://docs.mathjax.org/)
+- [GitHub Pages](https://docs.github.com/en/pages)
 
-### Service Worker & Offline Support
+### Project Files
 
-- **File**: `serviceWorker.js`
-- **Functionality**: Caches pages for offline access after first visit
-- **Scope**: All pages under `/physics-book/`
-- **Debugging**: Use browser DevTools → Application → Service Workers
+- [scripts/README.md](./scripts/README.md) - Script documentation
+- [CONTRIBUTE.md](./CONTRIBUTE.md) - Contribution guidelines
+- [SUMMARY.md](./SUMMARY.md) - Table of contents
 
-### Interactive Elements
-
-- Responsive navigation with mobile support
-- Smooth scrolling and anchor links
-- Cross-referenced equations and sections
-- External resource links to simulations and labs
-
-### Performance Optimizations
-
-- MathJax loaded asynchronously to prevent render blocking
-- Incremental Jekyll builds during development (`--incremental` flag)
-- Compressed assets for production
-- CDN-hosted libraries (MathJax, fonts)
-
-### Content Validation
-
-- **Math checking**: Node.js script validates equation syntax
-- **Link validation**: Automated checking of internal/external links
-- **Orphan detection**: Finds unreferenced content files
-- **Figure checking**: Validates figure references and availability
-- **CI integration**: Automated checks on pull requests
-
-## Project Documentation
-
-Additional reference documents in the repository:
-
-- **CHANGELOG.md**: Version history and notable changes
-- **SUMMARY.md**: Complete table of contents
-- **JEKYLL_TO_ELEVENTY_MIGRATION_PLAN.md**: Future migration planning
-- **JEKYLL_TO_MYSTMD_MIGRATION_ANALYSIS.md**: Alternative platform analysis
-- **KRAMDOWN_MIGRATION_REVIEW.md**: Markdown format decisions
+---
 
 ## Contributing
 
-This is an open educational resource. When contributing:
+When contributing to this project:
 
 ### Content Guidelines
 
 - Maintain consistent formatting and style
-- Ensure scientific accuracy (cite sources when needed)
-- Add worked examples and explanations where helpful
+- Ensure accuracy (cite sources when needed)
+- Add worked examples where helpful
 - Include practice problems with solutions
 - Use clear, accessible language
 
 ### Technical Guidelines
 
-- Test thoroughly before committing (build, links, math)
-- Follow existing file naming conventions
-- Update `SUMMARY.md` when adding new sections
-- Ensure all links use `{{ site.baseurl }}`
+- Test thoroughly before committing
+- Follow file naming conventions
+- Update `SUMMARY.md` for new sections
+- Use `{{ site.baseurl }}` for all internal links
 - Keep accessibility in mind (alt text, semantic HTML)
 
-### Code Review
+### Before Submitting
 
-- Review the Testing Checklist before submitting PRs
-- Respond to automated check failures
-- Be open to feedback and iteration
+- [ ] Local build succeeds
+- [ ] Math equations render correctly
+- [ ] Links work (run `npm run check-links`)
+- [ ] YAML is valid (run `npm run check-yaml`)
+- [ ] Images have alt text
+
+---
 
 ## License
 
 This project is licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International**.
 
-See LICENSE.txt for full details.
-
-**Summary**: Free for educational use, requires attribution, non-commercial, share-alike terms apply.
+See [LICENSE.txt](./LICENSE.txt) for full details.

@@ -1,8 +1,8 @@
 {
-  "name": "physics-book",
+  "name": "open-textbook",
   "version": "1.0.0",
-  "description": "Textbook for General Physics I",
-  "repository": "https://github.com/veillette/physics-book",
+  "description": "A Jekyll-based open textbook with quality assurance tools",
+  "private": true,
   "type": "module",
   "scripts": {
     "check-links": "node scripts/check-links.js",
@@ -62,5 +62,16 @@
     "sharp": "^0.34.5",
     "simple-git": "^3.19.1",
     "vitest": "^4.0.16"
-  }
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "textbook",
+    "jekyll",
+    "education",
+    "open-educational-resources",
+    "oer"
+  ],
+  "license": "CC-BY-NC-SA-4.0"
 }

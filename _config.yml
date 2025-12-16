@@ -1,16 +1,23 @@
 # Site settings
+# Customize these values for your textbook project
 title: "General Physics"
 tagline: "An Open Textbook"
 description: >-
   This introductory, algebra-based, college physics book is grounded with
   real-world examples, illustrations, and explanations to help students
   grasp key, fundamental physics concepts.
-author: "Martin Veillette"
+
+# Author information - customize for your project
+author: "Open Textbook Project"
 email: ""
 
 # URL settings for GitHub Pages
-url: "https://veillette.github.io"
-baseurl: "/physics-book"
+# IMPORTANT: Update these for your deployment
+# - url: Your GitHub Pages URL (e.g., "https://yourusername.github.io")
+# - baseurl: Your repository name with leading slash (e.g., "/your-repo-name")
+# For local development, these work with: http://localhost:4000/your-repo-name/
+url: ""
+baseurl: ""
 
 # Build settings
 markdown: kramdown
@@ -44,6 +51,16 @@ exclude:
   - LICENSE.txt
   - "*.gemspec"
   - .gitignore
+  - scripts/
+  - tests/
+  - doc/
+  - .github/
+  - "*.config.js"
+  - package*.json
+  - claude.md
+  - CONTRIBUTE.md
+  - CHANGELOG.md
+  - REPOSITORY_REVIEW.md
 
 # Files to include (even if they start with a dot)
 include:
@@ -61,4 +78,5 @@ timezone: America/New_York
 encoding: utf-8
 
 # GitHub metadata (for site.github variables)
-repository: veillette/physics-book
+# Update this to your repository in the format: username/repository-name
+repository: ""
