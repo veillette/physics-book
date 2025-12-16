@@ -4,40 +4,40 @@
 version: 2
 updates:
   # npm dependencies
-  - package-ecosystem: 'npm'
-    directory: '/'
+  - package-ecosystem: "npm"
+    directory: "/"
     schedule:
-      interval: 'weekly'
-      day: 'monday'
+      interval: "weekly"
+      day: "monday"
     open-pull-requests-limit: 5
     commit-message:
-      prefix: 'deps(npm)'
+      prefix: "deps(npm)"
     labels:
-      - 'dependencies'
-      - 'npm'
+      - "dependencies"
+      - "npm"
 
   # Ruby Bundler dependencies
-  - package-ecosystem: 'bundler'
-    directory: '/'
+  - package-ecosystem: "bundler"
+    directory: "/"
     schedule:
-      interval: 'weekly'
-      day: 'monday'
+      interval: "weekly"
+      day: "monday"
     open-pull-requests-limit: 5
     commit-message:
-      prefix: 'deps(bundler)'
+      prefix: "deps(bundler)"
     labels:
-      - 'dependencies'
-      - 'ruby'
+      - "dependencies"
+      - "ruby"
 
   # GitHub Actions
-  - package-ecosystem: 'github-actions'
-    directory: '/'
+  - package-ecosystem: "github-actions"
+    directory: "/"
     schedule:
-      interval: 'weekly'
-      day: 'monday'
+      interval: "weekly"
+      day: "monday"
     open-pull-requests-limit: 5
     commit-message:
-      prefix: 'deps(actions)'
+      prefix: "deps(actions)"
     labels:
-      - 'dependencies'
-      - 'github-actions'
+      - "dependencies"
+      - "github-actions"

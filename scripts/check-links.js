@@ -91,7 +91,7 @@ class LinkChecker {
     let match;
 
     while ((match = markdownLinkRegex.exec(content)) !== null) {
-      const [fullMatch, text, url] = match;
+      const [_fullMatch, text, url] = match;
       if (url && !url.startsWith('#')) {
         // Skip anchor-only links
         links.push({
@@ -107,7 +107,7 @@ class LinkChecker {
     const htmlLinkRegex = /<a[^>]+href=["']([^"']+)["'][^>]*>/gi;
 
     while ((match = htmlLinkRegex.exec(content)) !== null) {
-      const [fullMatch, url] = match;
+      const [_fullMatch, url] = match;
       if (url && !url.startsWith('#')) {
         links.push({
           text: 'HTML link',
@@ -122,7 +122,7 @@ class LinkChecker {
     const imageRegex = /!\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
 
     while ((match = imageRegex.exec(content)) !== null) {
-      const [fullMatch, alt, src] = match;
+      const [_fullMatch, alt, src] = match;
       if (src) {
         links.push({
           text: alt || 'Image',
@@ -313,7 +313,7 @@ class LinkChecker {
           found = true;
           break;
         }
-      } catch (error) {
+      } catch (_error) {
         // Continue trying other paths
       }
     }
