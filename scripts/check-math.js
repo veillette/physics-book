@@ -59,7 +59,7 @@ function processFile(filePath) {
       issues.push({
         line: lineNumber,
         content: line.trim(),
-        count: delimiterCount
+        count: delimiterCount,
       });
     }
   }
@@ -139,7 +139,9 @@ Examples:
     console.log(`📄 ${file}:`);
     for (const issue of issues) {
       totalIssues++;
-      console.log(`   Line ${issue.line} (${issue.count} delimiters): ${issue.content.substring(0, 80)}...`);
+      console.log(
+        `   Line ${issue.line} (${issue.count} delimiters): ${issue.content.substring(0, 80)}...`
+      );
     }
     console.log();
   }

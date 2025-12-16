@@ -30,19 +30,29 @@
     "rename-figures": "node scripts/rename-figures.js",
     "convert-webp": "node scripts/convert-webp.js",
     "sync-config": "node scripts/sync-config.js",
+    "lint": "eslint scripts/**/*.js *.js",
+    "lint:fix": "eslint scripts/**/*.js *.js --fix",
+    "format": "prettier --write \"scripts/**/*.js\" \"*.{js,json,md}\" \".github/**/*.yml\"",
+    "format:check": "prettier --check \"scripts/**/*.js\" \"*.{js,json,md}\" \".github/**/*.yml\"",
     "test": "npm run check-links",
     "test:ci": "npm run check-links -- --timeout 15000",
     "audit": "npm run check-links && npm run check-orphans && npm run check-figures"
   },
   "dependencies": {
     "@playwright/test": "^1.57.0",
-    "gray-matter": "^4.0.3",
-    "js-yaml": "^4.1.1",
-    "sharp": "^0.32.3",
-    "simple-git": "^3.19.1",
-    "http-server": "^14.1.1",
-    "node-fetch": "^3.3.2",
     "chalk": "^5.3.0",
-    "glob": "^10.3.10"
+    "glob": "^10.3.10",
+    "gray-matter": "^4.0.3",
+    "http-server": "^14.1.1",
+    "js-yaml": "^4.1.1",
+    "node-fetch": "^3.3.2",
+    "sharp": "^0.32.3",
+    "simple-git": "^3.19.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "prettier": "^3.7.4"
   }
 }

@@ -17,6 +17,7 @@ This open-source textbook aims to make physics education accessible to everyone.
 ## 🔍 Preview
 
 Get a feel for the textbook:
+
 - 🌐 [Browse the Book Online](https://veillette.github.io/physics-book/)
 - 📋 [View Table of Contents](./SUMMARY.md)
 
@@ -33,6 +34,7 @@ Get a feel for the textbook:
 ## 📖 About the Project
 
 This modern, interactive textbook is built with:
+
 - **Kramdown**: A powerful superset of Markdown for rich text formatting
 - **JavaScript & CSS**: For interactive elements and beautiful rendering
 - **GitHub Pages & Jekyll**: For seamless publishing and distribution
@@ -117,10 +119,12 @@ For detailed guidance, see [`claude.md`](./claude.md) for project structure and 
 This project is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](LICENSE.txt).
 
 **You are free to:**
+
 - Share and adapt the material for non-commercial educational purposes
 - Customize the content for your courses
 
 **Under the following terms:**
+
 - Attribution required
 - Non-commercial use only
 - Share derivatives under the same license

@@ -55,7 +55,7 @@ function extractInfo(markdown) {
         chapterNumber,
         chapterTitle,
         chapterFile,
-        sections: []
+        sections: [],
       };
     } else {
       const sectionMatch = line.match(sectionRegex);
@@ -68,7 +68,7 @@ function extractInfo(markdown) {
         currentChapter.sections.push({
           sectionNumber,
           sectionTitle,
-          sectionFile
+          sectionFile,
         });
       }
     }
@@ -118,14 +118,10 @@ Examples:
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--input' && args[i + 1]) {
-      inputFile = path.isAbsolute(args[i + 1])
-        ? args[i + 1]
-        : path.join(baseDir, args[i + 1]);
+      inputFile = path.isAbsolute(args[i + 1]) ? args[i + 1] : path.join(baseDir, args[i + 1]);
       i++;
     } else if (args[i] === '--output' && args[i + 1]) {
-      outputFile = path.isAbsolute(args[i + 1])
-        ? args[i + 1]
-        : path.join(baseDir, args[i + 1]);
+      outputFile = path.isAbsolute(args[i + 1]) ? args[i + 1] : path.join(baseDir, args[i + 1]);
       i++;
     }
   }
