@@ -150,4 +150,10 @@ Examples:
   console.log('\n✅ Summary parsed successfully!');
 }
 
-main();
+// Run main only when executed directly
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main();
+}
+
+// Export functions for testing
+export { extractInfo, writeToJson };
