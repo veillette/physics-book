@@ -32,7 +32,17 @@ const baseDir = path.join(__dirname, '..');
 // Default schema for physics book front matter
 const DEFAULT_SCHEMA = {
   required: ['title', 'layout'],
-  optional: ['chapterNumber', 'sectionNumber', 'description', 'keywords', 'author', 'date', 'order', 'toc', 'mathjax'],
+  optional: [
+    'chapterNumber',
+    'sectionNumber',
+    'description',
+    'keywords',
+    'author',
+    'date',
+    'order',
+    'toc',
+    'mathjax',
+  ],
   types: {
     title: 'string',
     layout: 'string',
@@ -44,11 +54,11 @@ const DEFAULT_SCHEMA = {
     date: ['string', 'date'],
     order: 'number',
     toc: 'boolean',
-    mathjax: 'boolean'
+    mathjax: 'boolean',
   },
   validValues: {
-    layout: ['default', 'chapter', 'section', 'page', 'home', 'post']
-  }
+    layout: ['default', 'chapter', 'section', 'page', 'home', 'post'],
+  },
 };
 
 class YAMLValidator {
@@ -75,7 +85,7 @@ class YAMLValidator {
 
     const files = await glob('**/*.md', {
       cwd: baseDir,
-      ignore: ['node_modules/**', '_site/**', '.jekyll-cache/**', 'scripts/**']
+      ignore: ['node_modules/**', '_site/**', '.jekyll-cache/**', 'scripts/**'],
     });
 
     for (const file of files) {
@@ -101,7 +111,7 @@ class YAMLValidator {
         this.errors.push({
           file: filePath,
           message: 'Missing YAML front matter',
-          code: 'YAML_MISSING'
+          code: 'YAML_MISSING',
         });
         this.filesWithIssues++;
       }
@@ -119,7 +129,7 @@ class YAMLValidator {
         file: filePath,
         message: `Invalid YAML syntax: ${error.message}`,
         code: 'YAML_PARSE_ERROR',
-        details: error.mark ? `Line ${error.mark.line + 1}, Column ${error.mark.column + 1}` : null
+        details: error.mark ? `Line ${error.mark.line + 1}, Column ${error.mark.column + 1}` : null,
       });
       this.filesWithIssues++;
       return;
@@ -136,7 +146,7 @@ class YAMLValidator {
           file: filePath,
           message: `Missing required field: ${field}`,
           code: 'YAML_MISSING_FIELD',
-          field
+          field,
         });
       }
     }
@@ -156,7 +166,7 @@ class YAMLValidator {
             code: 'YAML_WRONG_TYPE',
             field,
             expected: validTypes,
-            actual: actualType
+            actual: actualType,
           });
         }
       }
@@ -170,7 +180,7 @@ class YAMLValidator {
           code: 'YAML_INVALID_VALUE',
           field,
           value,
-          validValues
+          validValues,
         });
       }
     }
@@ -185,7 +195,7 @@ class YAMLValidator {
             file: filePath,
             message: `Unknown field: ${field}`,
             code: 'YAML_UNKNOWN_FIELD',
-            field
+            field,
           });
         }
       }
@@ -197,7 +207,7 @@ class YAMLValidator {
             file: filePath,
             message: `Field "${field}" has empty value`,
             code: 'YAML_EMPTY_VALUE',
-            field
+            field,
           });
         }
       }
@@ -208,14 +218,14 @@ class YAMLValidator {
           fileWarnings.push({
             file: filePath,
             message: `Invalid chapterNumber: ${data.chapterNumber}`,
-            code: 'YAML_INVALID_CHAPTER'
+            code: 'YAML_INVALID_CHAPTER',
           });
         }
         if (typeof data.sectionNumber !== 'number' || data.sectionNumber < 0) {
           fileWarnings.push({
             file: filePath,
             message: `Invalid sectionNumber: ${data.sectionNumber}`,
-            code: 'YAML_INVALID_SECTION'
+            code: 'YAML_INVALID_SECTION',
           });
         }
       }
@@ -243,7 +253,7 @@ class YAMLValidator {
         warnings.push({
           file: filePath,
           message: `Line ${lineNum}: Contains tabs (use spaces for indentation)`,
-          code: 'YAML_TABS'
+          code: 'YAML_TABS',
         });
       }
 
@@ -252,7 +262,7 @@ class YAMLValidator {
         warnings.push({
           file: filePath,
           message: `Line ${lineNum}: Trailing whitespace`,
-          code: 'YAML_TRAILING_SPACE'
+          code: 'YAML_TRAILING_SPACE',
         });
       }
 
@@ -265,7 +275,7 @@ class YAMLValidator {
           warnings.push({
             file: filePath,
             message: `Line ${lineNum}: Value starting with special character should be quoted: ${value}`,
-            code: 'YAML_UNQUOTED_SPECIAL'
+            code: 'YAML_UNQUOTED_SPECIAL',
           });
         }
       }
@@ -278,7 +288,7 @@ class YAMLValidator {
   }
 
   printResults() {
-    console.log('\n' + '='.repeat(60));
+    console.log(`\n${'='.repeat(60)}`);
     console.log('RESULTS');
     console.log('='.repeat(60));
 
@@ -304,7 +314,7 @@ class YAMLValidator {
       }
     }
 
-    console.log('\n' + '='.repeat(60));
+    console.log(`\n${'='.repeat(60)}`);
 
     if (this.errors.length === 0 && this.warnings.length === 0) {
       console.log('\n✅ All YAML front matter is valid!');
@@ -322,18 +332,18 @@ class YAMLValidator {
     });
 
     const codeDescriptions = {
-      'YAML_MISSING': 'Missing front matter',
-      'YAML_PARSE_ERROR': 'YAML syntax errors',
-      'YAML_MISSING_FIELD': 'Missing required fields',
-      'YAML_WRONG_TYPE': 'Incorrect field types',
-      'YAML_INVALID_VALUE': 'Invalid field values',
-      'YAML_UNKNOWN_FIELD': 'Unknown fields',
-      'YAML_EMPTY_VALUE': 'Empty values',
-      'YAML_INVALID_CHAPTER': 'Invalid chapter numbers',
-      'YAML_INVALID_SECTION': 'Invalid section numbers',
-      'YAML_TABS': 'Tab characters',
-      'YAML_TRAILING_SPACE': 'Trailing whitespace',
-      'YAML_UNQUOTED_SPECIAL': 'Unquoted special values'
+      YAML_MISSING: 'Missing front matter',
+      YAML_PARSE_ERROR: 'YAML syntax errors',
+      YAML_MISSING_FIELD: 'Missing required fields',
+      YAML_WRONG_TYPE: 'Incorrect field types',
+      YAML_INVALID_VALUE: 'Invalid field values',
+      YAML_UNKNOWN_FIELD: 'Unknown fields',
+      YAML_EMPTY_VALUE: 'Empty values',
+      YAML_INVALID_CHAPTER: 'Invalid chapter numbers',
+      YAML_INVALID_SECTION: 'Invalid section numbers',
+      YAML_TABS: 'Tab characters',
+      YAML_TRAILING_SPACE: 'Trailing whitespace',
+      YAML_UNQUOTED_SPECIAL: 'Unquoted special values',
     };
 
     for (const [code, count] of Object.entries(codeCounts).sort((a, b) => b[1] - a[1])) {
@@ -380,7 +390,7 @@ Strict mode adds:
 
   const options = {
     strict: args.includes('--strict'),
-    fix: args.includes('--fix')
+    fix: args.includes('--fix'),
   };
 
   // Parse required fields

@@ -18,16 +18,16 @@ class LinkChecker {
     this.retries = options.retries || 2;
     this.concurrent = options.concurrent || 10;
     this.userAgent = 'Mozilla/5.0 (compatible; LinkChecker/1.0)';
-    
+
     this.stats = {
       totalFiles: 0,
       totalLinks: 0,
       brokenLinks: 0,
       externalLinks: 0,
       internalLinks: 0,
-      warnings: 0
+      warnings: 0,
     };
-    
+
     this.brokenLinks = [];
     this.warnings = [];
     this.checkedUrls = new Map(); // Cache for external URLs
@@ -46,8 +46,8 @@ class LinkChecker {
         // Skip migration documentation files that contain example/placeholder syntax
         'JEKYLL_TO_*.md',
         'KRAMDOWN_*.md',
-        '*_MIGRATION_*.md'
-      ]
+        '*_MIGRATION_*.md',
+      ],
     });
 
     this.stats.totalFiles = markdownFiles.length;
@@ -66,11 +66,11 @@ class LinkChecker {
 
   async checkFileLinks(filePath) {
     const fullPath = path.join(this.baseDir, filePath);
-    
+
     try {
       const content = fs.readFileSync(fullPath, 'utf8');
       const links = this.extractLinks(content);
-      
+
       if (links.length > 0) {
         console.log(chalk.gray(`Checking ${links.length} links in ${filePath}`));
       }
@@ -85,26 +85,27 @@ class LinkChecker {
 
   extractLinks(content) {
     const links = [];
-    
+
     // Match markdown links: [text](url) and [text](url "title")
     const markdownLinkRegex = /\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
     let match;
-    
+
     while ((match = markdownLinkRegex.exec(content)) !== null) {
       const [fullMatch, text, url] = match;
-      if (url && !url.startsWith('#')) { // Skip anchor-only links
+      if (url && !url.startsWith('#')) {
+        // Skip anchor-only links
         links.push({
           text: text.trim(),
           url: url.trim(),
           type: 'markdown',
-          line: this.getLineNumber(content, match.index)
+          line: this.getLineNumber(content, match.index),
         });
       }
     }
 
     // Match HTML links: <a href="url">
     const htmlLinkRegex = /<a[^>]+href=["']([^"']+)["'][^>]*>/gi;
-    
+
     while ((match = htmlLinkRegex.exec(content)) !== null) {
       const [fullMatch, url] = match;
       if (url && !url.startsWith('#')) {
@@ -112,14 +113,14 @@ class LinkChecker {
           text: 'HTML link',
           url: url.trim(),
           type: 'html',
-          line: this.getLineNumber(content, match.index)
+          line: this.getLineNumber(content, match.index),
         });
       }
     }
 
     // Match image links: ![alt](src) and ![alt](src "title")
     const imageRegex = /!\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
-    
+
     while ((match = imageRegex.exec(content)) !== null) {
       const [fullMatch, alt, src] = match;
       if (src) {
@@ -127,7 +128,7 @@ class LinkChecker {
           text: alt || 'Image',
           url: src.trim(),
           type: 'image',
-          line: this.getLineNumber(content, match.index)
+          line: this.getLineNumber(content, match.index),
         });
       }
     }
@@ -173,14 +174,16 @@ class LinkChecker {
 
   async checkExternalLink(link, filePath) {
     const { url } = link;
-    
+
     // Check cache first
     if (this.checkedUrls.has(url)) {
       const cachedResult = this.checkedUrls.get(url);
       if (!cachedResult.success) {
         // Network errors should be warnings, not broken links
         if (cachedResult.isNetworkError) {
-          this.addWarning(`${filePath}:${link.line} - External link may be unreachable: ${url} (${cachedResult.error})`);
+          this.addWarning(
+            `${filePath}:${link.line} - External link may be unreachable: ${url} (${cachedResult.error})`
+          );
         } else {
           this.addBrokenLink(link, filePath, cachedResult.error);
         }
@@ -195,23 +198,24 @@ class LinkChecker {
       const response = await fetch(url, {
         method: 'HEAD', // Use HEAD to avoid downloading content
         headers: {
-          'User-Agent': this.userAgent
+          'User-Agent': this.userAgent,
         },
         signal: controller.signal,
-        redirect: 'follow'
+        redirect: 'follow',
       });
 
       clearTimeout(timeoutId);
 
-      if (!response.ok && response.status !== 405) { // 405 = Method Not Allowed (some servers don't support HEAD)
+      if (!response.ok && response.status !== 405) {
+        // 405 = Method Not Allowed (some servers don't support HEAD)
         if (response.status === 405) {
           // Try GET request for servers that don't support HEAD
           const getResponse = await fetch(url, {
             method: 'GET',
             headers: { 'User-Agent': this.userAgent },
-            signal: controller.signal
+            signal: controller.signal,
           });
-          
+
           if (!getResponse.ok) {
             throw new Error(`HTTP ${getResponse.status}: ${getResponse.statusText}`);
           }
@@ -221,30 +225,33 @@ class LinkChecker {
       }
 
       this.checkedUrls.set(url, { success: true });
-      
     } catch (error) {
       let errorMessage = error.message;
       let isNetworkError = false;
 
       // Detect various types of network/connection errors
       const networkErrorPatterns = [
-        'EAI_AGAIN',      // DNS resolution failure (transient)
-        'ENOTFOUND',      // DNS lookup failed
-        'ECONNREFUSED',   // Connection refused
-        'ECONNRESET',     // Connection reset
-        'ETIMEDOUT',      // Connection timed out
-        'ENETUNREACH',    // Network unreachable
-        'EHOSTUNREACH',   // Host unreachable
-        'getaddrinfo',    // DNS lookup errors
+        'EAI_AGAIN', // DNS resolution failure (transient)
+        'ENOTFOUND', // DNS lookup failed
+        'ECONNREFUSED', // Connection refused
+        'ECONNRESET', // Connection reset
+        'ETIMEDOUT', // Connection timed out
+        'ENETUNREACH', // Network unreachable
+        'EHOSTUNREACH', // Host unreachable
+        'getaddrinfo', // DNS lookup errors
         'socket hang up', // Socket closed unexpectedly
       ];
 
       if (error.name === 'AbortError') {
         errorMessage = `Timeout after ${this.timeout}ms`;
         isNetworkError = true;
-      } else if (networkErrorPatterns.some(pattern =>
-          (error.code && error.code.includes(pattern)) ||
-          (error.message && error.message.includes(pattern)))) {
+      } else if (
+        networkErrorPatterns.some(
+          pattern =>
+            (error.code && error.code.includes(pattern)) ||
+            (error.message && error.message.includes(pattern))
+        )
+      ) {
         errorMessage = `Network error: ${error.message || error.code}`;
         isNetworkError = true;
       }
@@ -254,7 +261,9 @@ class LinkChecker {
       // Treat network errors as warnings (don't fail the build for transient network issues)
       // This prevents CI failures due to temporary DNS or connection problems
       if (isNetworkError) {
-        this.addWarning(`${filePath}:${link.line} - External link may be unreachable: ${url} (${errorMessage})`);
+        this.addWarning(
+          `${filePath}:${link.line} - External link may be unreachable: ${url} (${errorMessage})`
+        );
       } else {
         this.addBrokenLink(link, filePath, errorMessage);
       }
@@ -290,8 +299,8 @@ class LinkChecker {
     // If the path has no extension, try common markdown extensions
     const ext = path.extname(fullTargetPath);
     if (!ext) {
-      pathsToTry.push(fullTargetPath + '.md');
-      pathsToTry.push(fullTargetPath + '.html');
+      pathsToTry.push(`${fullTargetPath}.md`);
+      pathsToTry.push(`${fullTargetPath}.html`);
       pathsToTry.push(path.join(fullTargetPath, 'index.md'));
       pathsToTry.push(path.join(fullTargetPath, 'index.html'));
     }
@@ -322,7 +331,7 @@ class LinkChecker {
       text: link.text,
       url: link.url,
       type: link.type,
-      error
+      error,
     });
   }
 
@@ -332,21 +341,21 @@ class LinkChecker {
   }
 
   printResults() {
-    console.log('\n' + '='.repeat(80));
+    console.log(`\n${'='.repeat(80)}`);
     console.log(chalk.bold('📊 LINK CHECK RESULTS'));
     console.log('='.repeat(80));
-    
+
     console.log(chalk.gray(`Files checked: ${this.stats.totalFiles}`));
     console.log(chalk.gray(`Total links: ${this.stats.totalLinks}`));
     console.log(chalk.gray(`Internal links: ${this.stats.internalLinks}`));
     console.log(chalk.gray(`External links: ${this.stats.externalLinks}`));
-    
+
     if (this.stats.brokenLinks === 0) {
       console.log(chalk.green(`✅ All links are working! (${this.stats.totalLinks} checked)`));
     } else {
       console.log(chalk.red(`❌ Found ${this.stats.brokenLinks} broken links:`));
       console.log();
-      
+
       this.brokenLinks.forEach((broken, index) => {
         console.log(chalk.red(`${index + 1}. ${broken.file}:${broken.line}`));
         console.log(chalk.gray(`   Text: "${broken.text}"`));
@@ -401,7 +410,7 @@ Options:
   }
 
   const checker = new LinkChecker(options);
-  
+
   try {
     const success = await checker.checkLinks();
     process.exit(success ? 0 : 1);

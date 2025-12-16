@@ -14,14 +14,14 @@ export const linkCheckConfig = {
 
   // Patterns of URLs to skip
   skipPatterns: [
-    /\/localhost:\d+/,           // Local development URLs
-    /\/127\.0\.0\.1:\d+/,        // Local IP addresses
-    /\/192\.168\.\d+\.\d+/,      // Private network IPs
-    /\/10\.\d+\.\d+\.\d+/,       // Private network IPs
-    /javascript:/,               // JavaScript pseudo-protocol
-    /mailto:/,                   // Email links
-    /tel:/,                      // Phone links
-    /^#/,                        // Anchor-only links
+    /\/localhost:\d+/, // Local development URLs
+    /\/127\.0\.0\.1:\d+/, // Local IP addresses
+    /\/192\.168\.\d+\.\d+/, // Private network IPs
+    /\/10\.\d+\.\d+\.\d+/, // Private network IPs
+    /javascript:/, // JavaScript pseudo-protocol
+    /mailto:/, // Email links
+    /tel:/, // Phone links
+    /^#/, // Anchor-only links
   ],
 
   // File patterns to ignore during link checking
@@ -47,23 +47,23 @@ export const linkCheckConfig = {
 
   // Timeout settings
   timeouts: {
-    default: 10000,      // 10 seconds
-    slow: 20000,         // 20 seconds for known slow domains
-    ci: 15000,           // 15 seconds for CI environment
+    default: 10000, // 10 seconds
+    slow: 20000, // 20 seconds for known slow domains
+    ci: 15000, // 15 seconds for CI environment
   },
 
   // Retry configuration
   retries: {
     count: 2,
-    delay: 1000,         // 1 second delay between retries
-    backoff: 1.5,        // Exponential backoff multiplier
+    delay: 1000, // 1 second delay between retries
+    backoff: 1.5, // Exponential backoff multiplier
   },
 
   // Rate limiting
   rateLimit: {
-    concurrent: 10,      // Max concurrent requests
-    delay: 100,          // Delay between requests (ms)
-    perDomain: 3,        // Max concurrent requests per domain
+    concurrent: 10, // Max concurrent requests
+    delay: 100, // Delay between requests (ms)
+    perDomain: 3, // Max concurrent requests per domain
   },
 
   // Status codes to consider as success
@@ -78,17 +78,17 @@ export const linkCheckConfig = {
     checkExternalLinks: true,
     checkInternalLinks: true,
     followRedirects: true,
-    validateAnchors: false,    // Disabled by default as it requires parsing HTML
+    validateAnchors: false, // Disabled by default as it requires parsing HTML
     generateReport: true,
     verbose: false,
   },
 
   // Output configuration
   output: {
-    format: 'console',         // console, json, junit
-    file: null,               // Output file path (if not console)
+    format: 'console', // console, json, junit
+    file: null, // Output file path (if not console)
     includeSuccessful: false, // Include successful links in output
-    groupByFile: true,        // Group results by file
+    groupByFile: true, // Group results by file
   },
 };
 

@@ -11,6 +11,7 @@ This is a **well-structured, high-quality open educational resource** with excel
 **Overall Grade:** A- (90/100)
 
 ### Key Strengths ✅
+
 - Comprehensive documentation (README, CONTRIBUTE, claude.md)
 - Robust CI/CD with GitHub Actions
 - Extensive utility scripts for quality assurance
@@ -20,6 +21,7 @@ This is a **well-structured, high-quality open educational resource** with excel
 - Professional git workflow
 
 ### Areas for Improvement 🔧
+
 - Gemfile/Gemfile.lock inconsistency
 - Missing npm dependencies installation
 - Outdated npm packages (sharp, glob)
@@ -32,16 +34,19 @@ This is a **well-structured, high-quality open educational resource** with excel
 ## Critical Issues (Fix Immediately)
 
 ### 1. Gemfile/Gemfile.lock Mismatch
+
 **Severity:** High
 **Impact:** Build reproducibility, contributor confusion
 
 **Issue:** Gemfile.lock contains dependencies not declared in Gemfile:
+
 - `jekyll-paginate` (~> 1.1)
 - `jekyll-sitemap` (~> 1.4)
 
 These are installed but not explicitly declared, which can cause confusion and build issues.
 
 **Recommendation:**
+
 ```ruby
 # Add to Gemfile in jekyll_plugins group:
 gem "jekyll-paginate", "~> 1.1"
@@ -51,12 +56,14 @@ gem "jekyll-sitemap", "~> 1.4"
 **File:** `Gemfile:7-9`
 
 ### 2. Missing npm Dependencies
+
 **Severity:** Medium
 **Impact:** New contributors cannot run scripts
 
 **Issue:** Fresh clones show all npm packages as MISSING. The README instructs `npm install` but contributors may encounter issues.
 
 **Recommendation:**
+
 - Add a setup verification script
 - Update README with troubleshooting section
 - Consider adding a setup script that validates installation
@@ -68,16 +75,19 @@ gem "jekyll-sitemap", "~> 1.4"
 ### 3. Update Outdated Dependencies
 
 **npm packages needing updates:**
+
 - `sharp`: 0.32.6 → 0.34.5 (image processing security & performance)
 - `glob`: 10.3.10 → 13.0.0 (major version update available)
 
 **Recommendation:**
+
 ```bash
 npm update sharp
 npm install glob@latest  # Test for breaking changes first
 ```
 
 **Risk:** glob v13 may have breaking changes. Test thoroughly, especially in:
+
 - `scripts/check-links.js`
 - `scripts/check-figures.js`
 - Other glob-dependent scripts
@@ -87,6 +97,7 @@ npm install glob@latest  # Test for breaking changes first
 **Issue:** 17 JavaScript utility scripts with no automated tests
 
 **Recommendation:**
+
 ```json
 // package.json additions
 {
@@ -102,6 +113,7 @@ npm install glob@latest  # Test for breaking changes first
 ```
 
 **Priority scripts to test:**
+
 1. `check-links.js` - Link validation logic
 2. `check-math.js` - Math syntax validation
 3. `parse-summary.js` - TOC parsing
@@ -112,16 +124,19 @@ npm install glob@latest  # Test for breaking changes first
 **Missing:** ESLint, Prettier for JavaScript code consistency
 
 **Recommendation:**
+
 ```bash
 npm install --save-dev eslint prettier eslint-config-prettier
 ```
 
 **Configuration files to add:**
+
 - `.eslintrc.json`
 - `.prettierrc.json`
 - `.prettierignore`
 
 **Update package.json:**
+
 ```json
 {
   "scripts": {
@@ -135,6 +150,7 @@ npm install --save-dev eslint prettier eslint-config-prettier
 ### 6. Add GitHub Issue/PR Templates
 
 **Missing standard GitHub community files:**
+
 - `.github/ISSUE_TEMPLATE/bug_report.md`
 - `.github/ISSUE_TEMPLATE/feature_request.md`
 - `.github/PULL_REQUEST_TEMPLATE.md`
@@ -142,6 +158,7 @@ npm install --save-dev eslint prettier eslint-config-prettier
 - `.github/CODE_OF_CONDUCT.md`
 
 **Benefits:**
+
 - Structured bug reports
 - Consistent PR submissions
 - Clear security disclosure process
@@ -156,6 +173,7 @@ npm install --save-dev husky lint-staged
 ```
 
 **Configuration (package.json):**
+
 ```json
 {
   "lint-staged": {
@@ -167,6 +185,7 @@ npm install --save-dev husky lint-staged
 ```
 
 **Benefits:**
+
 - Automatic code formatting
 - Catch broken links before push
 - Validate math syntax automatically
@@ -181,6 +200,7 @@ npm install --save-dev husky lint-staged
 **Current workflows are good, but could be enhanced:**
 
 **A. Add a comprehensive CI workflow for PRs:**
+
 ```yaml
 # .github/workflows/ci.yml
 name: CI
@@ -214,27 +234,29 @@ jobs:
 ```
 
 **B. Add caching to speed up workflows:**
+
 - Cache Ruby gems in deploy.yml
 - Cache npm dependencies in link-check.yml
 - Already implemented for Node (good!)
 
 **C. Add dependency update automation:**
+
 ```yaml
 # .github/dependabot.yml
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/"
+  - package-ecosystem: 'npm'
+    directory: '/'
     schedule:
-      interval: "weekly"
-  - package-ecosystem: "bundler"
-    directory: "/"
+      interval: 'weekly'
+  - package-ecosystem: 'bundler'
+    directory: '/'
     schedule:
-      interval: "weekly"
-  - package-ecosystem: "github-actions"
-    directory: "/"
+      interval: 'weekly'
+  - package-ecosystem: 'github-actions'
+    directory: '/'
     schedule:
-      interval: "weekly"
+      interval: 'weekly'
 ```
 
 ### 9. Improve Documentation
@@ -242,18 +264,21 @@ updates:
 **Add missing documentation:**
 
 **A. ARCHITECTURE.md**
+
 - System design overview
 - Data flow diagrams
 - Build process explanation
 - Script interaction documentation
 
 **B. TROUBLESHOOTING.md**
+
 - Common setup issues
 - Platform-specific problems
 - Build failure solutions
 - Link to GitHub Discussions
 
 **C. Expand claude.md**
+
 - Add script documentation
 - Document GitHub Actions workflows
 - Add decision records for major changes
@@ -261,6 +286,7 @@ updates:
 ### 10. Add Monitoring and Analytics
 
 **Consider adding:**
+
 - **Plausible Analytics** or **Simple Analytics** (privacy-friendly)
 - **GitHub Traffic Insights** automation
 - **Link rot monitoring** (scheduled external link checks with notifications)
@@ -271,6 +297,7 @@ updates:
 **Current state:** Basic accessibility script exists
 
 **Enhancements:**
+
 ```bash
 # Add to package.json
 {
@@ -295,10 +322,12 @@ updates:
 ### 12. Consider Static Site Generator Migration
 
 **Observation:** You have migration analysis docs in `/doc`:
+
 - JEKYLL_TO_ELEVENTY_MIGRATION_PLAN.md
 - JEKYLL_TO_MYSTMD_MIGRATION_ANALYSIS.md
 
 **Recommendation:**
+
 - Jekyll is stable and working well for this project
 - Only migrate if you need features Jekyll lacks
 - Current setup is production-ready and maintainable
@@ -309,6 +338,7 @@ updates:
 **Current:** Basic service worker exists
 
 **Enhancements:**
+
 - Add Web App Manifest validation
 - Implement background sync for offline edits
 - Add install prompt for mobile
@@ -318,6 +348,7 @@ updates:
 ### 14. Content Management Improvements
 
 **A. Add Content Statistics Dashboard**
+
 ```bash
 # New script: scripts/generate-stats.js
 - Chapters count
@@ -329,6 +360,7 @@ updates:
 ```
 
 **B. Add Content Validation Rules**
+
 - Minimum section length
 - Required front matter fields
 - Image alt text requirements
@@ -337,6 +369,7 @@ updates:
 ### 15. Performance Optimizations
 
 **A. Image Optimization**
+
 ```bash
 # Already have convert-webp.js, enhance it:
 - Auto-convert all PNGs to WebP with fallbacks
@@ -346,6 +379,7 @@ updates:
 ```
 
 **B. Build Performance**
+
 ```bash
 # Add build performance monitoring:
 - Track Jekyll build times
@@ -354,6 +388,7 @@ updates:
 ```
 
 **C. Runtime Performance**
+
 - Add Content Security Policy (CSP) headers
 - Implement resource hints (preconnect, prefetch)
 - Optimize MathJax loading further
@@ -364,6 +399,7 @@ updates:
 **Current:** PDF generation scripts exist
 
 **Enhancements:**
+
 - Add PDF metadata (author, title, subject)
 - Include table of contents in PDFs
 - Add hyperlinks within PDFs
@@ -402,11 +438,13 @@ While GitHub Pages doesn't allow custom headers directly, document recommended C
 
 ```html
 <!-- Add to _includes/head.html -->
-<meta http-equiv="Content-Security-Policy"
-      content="default-src 'self';
+<meta
+  http-equiv="Content-Security-Policy"
+  content="default-src 'self';
                script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net;
                style-src 'self' 'unsafe-inline';
-               img-src 'self' data: https:;">
+               img-src 'self' data: https:;"
+/>
 ```
 
 ### 19. Dependency Auditing
@@ -414,6 +452,7 @@ While GitHub Pages doesn't allow custom headers directly, document recommended C
 **Current:** Zero npm vulnerabilities (excellent!)
 
 **Maintain this:**
+
 ```bash
 # Add to CI workflow:
 - name: Audit dependencies
@@ -423,6 +462,7 @@ While GitHub Pages doesn't allow custom headers directly, document recommended C
 ```
 
 **Install bundle-audit:**
+
 ```bash
 gem install bundler-audit
 ```
@@ -436,7 +476,9 @@ gem install bundler-audit
 **Observation:** Scripts are well-written but lack consistency
 
 **Recommendations:**
+
 1. **Standard header template** for all scripts:
+
 ```javascript
 #!/usr/bin/env node
 /**
@@ -456,6 +498,7 @@ gem install bundler-audit
 **Create:** `scripts/README.md`
 
 Document:
+
 - Purpose of each script
 - Command-line arguments
 - Examples of usage
@@ -468,6 +511,7 @@ Document:
 **Current scripts have basic error messages**
 
 **Enhancement:**
+
 - Add actionable error messages
 - Include suggestions for fixes
 - Provide context and file locations
@@ -478,6 +522,7 @@ Document:
 ## Repository Metrics & Health
 
 ### Current Stats
+
 - **Content Files:** 282 markdown files
 - **Total Lines:** ~130,246 lines of content
 - **Scripts:** 17 utility scripts
@@ -489,17 +534,17 @@ Document:
 
 ### Health Score Breakdown
 
-| Category | Score | Notes |
-|----------|-------|-------|
-| Documentation | 95/100 | Comprehensive, well-maintained |
-| Code Quality | 80/100 | Good, needs linting/testing |
-| CI/CD | 90/100 | Solid workflows, room for enhancement |
-| Security | 85/100 | No vulnerabilities, needs policies |
-| Dependencies | 85/100 | Up-to-date, minor updates needed |
-| Testing | 60/100 | Good integration tests, no unit tests |
-| Community | 75/100 | Good contribution guide, needs templates |
-| Accessibility | 70/100 | Basic support, needs automation |
-| Performance | 80/100 | Good, opportunities for optimization |
+| Category      | Score  | Notes                                    |
+| ------------- | ------ | ---------------------------------------- |
+| Documentation | 95/100 | Comprehensive, well-maintained           |
+| Code Quality  | 80/100 | Good, needs linting/testing              |
+| CI/CD         | 90/100 | Solid workflows, room for enhancement    |
+| Security      | 85/100 | No vulnerabilities, needs policies       |
+| Dependencies  | 85/100 | Up-to-date, minor updates needed         |
+| Testing       | 60/100 | Good integration tests, no unit tests    |
+| Community     | 75/100 | Good contribution guide, needs templates |
+| Accessibility | 70/100 | Basic support, needs automation          |
+| Performance   | 80/100 | Good, opportunities for optimization     |
 
 **Overall:** 80/100 (B+)
 
@@ -508,12 +553,14 @@ Document:
 ## Implementation Roadmap
 
 ### Phase 1: Critical Fixes (1-2 days)
+
 1. ✅ Fix Gemfile/Gemfile.lock mismatch
 2. ✅ Update sharp and test
 3. ✅ Add GitHub issue/PR templates
 4. ✅ Add SECURITY.md
 
 ### Phase 2: Quality Infrastructure (1 week)
+
 5. ✅ Add ESLint and Prettier
 6. ✅ Add unit testing framework (Vitest)
 7. ✅ Write tests for critical scripts
@@ -521,12 +568,14 @@ Document:
 9. ✅ Enhanced CI workflow
 
 ### Phase 3: Documentation (3-5 days)
+
 10. ✅ Add scripts/README.md
 11. ✅ Add ARCHITECTURE.md
 12. ✅ Add TROUBLESHOOTING.md
 13. ✅ Review and archive migration docs
 
 ### Phase 4: Enhancements (Ongoing)
+
 14. ✅ Accessibility improvements
 15. ✅ Performance optimizations
 16. ✅ PWA enhancements
@@ -541,6 +590,7 @@ This physics book project is **professionally managed and well-architected**. Th
 ### Key Takeaways
 
 **What's Working Well:**
+
 - Clean separation of content and presentation
 - Comprehensive utility scripts
 - Strong CI/CD pipeline
@@ -549,6 +599,7 @@ This physics book project is **professionally managed and well-architected**. Th
 - Active maintenance
 
 **Quick Wins:**
+
 1. Fix Gemfile consistency (5 minutes)
 2. Add GitHub templates (30 minutes)
 3. Update sharp package (10 minutes)
@@ -556,6 +607,7 @@ This physics book project is **professionally managed and well-architected**. Th
 5. Add SECURITY.md (15 minutes)
 
 **Long-term Investments:**
+
 1. Unit testing infrastructure
 2. Accessibility automation
 3. Performance monitoring
@@ -564,6 +616,7 @@ This physics book project is **professionally managed and well-architected**. Th
 ### Final Recommendation
 
 **Continue current trajectory** with minor adjustments. The project is in excellent shape. Focus on:
+
 1. Maintaining dependency health
 2. Expanding test coverage
 3. Enhancing contributor experience

@@ -5,10 +5,10 @@
  * Output: assets/icon/ (icons), assets/image/ (favicon)
  */
 
-import sharp from 'sharp';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import sharp from 'sharp';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -58,7 +58,7 @@ async function generateIcons() {
       await sharp(SOURCE_LOGO)
         .resize(size, size, {
           fit: 'contain',
-          background: THEME_COLOR
+          background: THEME_COLOR,
         })
         .png()
         .toFile(outputPath);
@@ -80,19 +80,21 @@ async function generateIcons() {
           width: size,
           height: size,
           channels: 4,
-          background: THEME_COLOR
-        }
+          background: THEME_COLOR,
+        },
       })
-        .composite([{
-          input: await sharp(SOURCE_LOGO)
-            .resize(iconSize, iconSize, {
-              fit: 'contain',
-              background: { r: 0, g: 0, b: 0, alpha: 0 }
-            })
-            .toBuffer(),
-          top: padding,
-          left: padding
-        }])
+        .composite([
+          {
+            input: await sharp(SOURCE_LOGO)
+              .resize(iconSize, iconSize, {
+                fit: 'contain',
+                background: { r: 0, g: 0, b: 0, alpha: 0 },
+              })
+              .toBuffer(),
+            top: padding,
+            left: padding,
+          },
+        ])
         .png()
         .toFile(outputPath);
 
@@ -104,7 +106,7 @@ async function generateIcons() {
     await sharp(SOURCE_LOGO)
       .resize(32, 32, {
         fit: 'contain',
-        background: THEME_COLOR
+        background: THEME_COLOR,
       })
       .png()
       .toFile(path.join(ICONS_DIR, 'favicon-32x32.png'));
@@ -113,7 +115,7 @@ async function generateIcons() {
     await sharp(SOURCE_LOGO)
       .resize(16, 16, {
         fit: 'contain',
-        background: THEME_COLOR
+        background: THEME_COLOR,
       })
       .png()
       .toFile(path.join(ICONS_DIR, 'favicon-16x16.png'));
@@ -124,7 +126,7 @@ async function generateIcons() {
     const faviconBuffer = await sharp(SOURCE_LOGO)
       .resize(32, 32, {
         fit: 'contain',
-        background: THEME_COLOR
+        background: THEME_COLOR,
       })
       .png()
       .toBuffer();
@@ -138,7 +140,7 @@ async function generateIcons() {
     await sharp(SOURCE_LOGO)
       .resize(180, 180, {
         fit: 'contain',
-        background: THEME_COLOR
+        background: THEME_COLOR,
       })
       .png()
       .toFile(path.join(ICONS_DIR, 'apple-touch-icon.png'));
@@ -149,7 +151,7 @@ async function generateIcons() {
       await sharp(SOURCE_LOGO)
         .resize(size, size, {
           fit: 'contain',
-          background: THEME_COLOR
+          background: THEME_COLOR,
         })
         .png()
         .toFile(path.join(ICONS_DIR, `apple-touch-icon-${size}x${size}.png`));
@@ -162,7 +164,6 @@ async function generateIcons() {
 
     const totalIcons = ICON_SIZES.length + 2 + 1 + 4 + 2; // standard + maskable + favicon + apple touch
     console.log(`Total icons generated: ${totalIcons}`);
-
   } catch (error) {
     console.error('\n❌ Error generating icons:', error);
     process.exit(1);

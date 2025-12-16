@@ -27,7 +27,7 @@ class LinkStandardizer {
       filesProcessed: 0,
       filesModified: 0,
       linksConverted: 0,
-      errors: []
+      errors: [],
     };
 
     this.changes = [];
@@ -35,11 +35,13 @@ class LinkStandardizer {
 
   async run() {
     console.log('🔗 Internal Link Standardization Tool\n');
-    console.log(`Mode: ${this.dryRun ? 'DRY RUN (no changes will be made)' : 'LIVE (changes will be applied)'}\n`);
+    console.log(
+      `Mode: ${this.dryRun ? 'DRY RUN (no changes will be made)' : 'LIVE (changes will be applied)'}\n`
+    );
 
     // Find all markdown files in contents directory
     const markdownFiles = await glob('*.md', {
-      cwd: this.contentDir
+      cwd: this.contentDir,
     });
 
     console.log(`Found ${markdownFiles.length} markdown files in contents/\n`);
@@ -73,8 +75,8 @@ class LinkStandardizer {
         fileChanges.push({
           old: fullMatch,
           new: newLink,
-          targetFile: targetFile,
-          line: this.getLineNumber(originalContent, match.index)
+          targetFile,
+          line: this.getLineNumber(originalContent, match.index),
         });
       }
 
@@ -90,7 +92,7 @@ class LinkStandardizer {
           file: filename,
           line: change.line,
           old: change.old,
-          new: change.new
+          new: change.new,
         });
       }
 
@@ -102,7 +104,6 @@ class LinkStandardizer {
       } else if (fileChanges.length > 0) {
         console.log(`  ${filename}: ${fileChanges.length} link(s) would be converted`);
       }
-
     } catch (error) {
       this.stats.errors.push(`Error processing ${filename}: ${error.message}`);
       console.error(`✗ ${filename}: ${error.message}`);
@@ -114,7 +115,7 @@ class LinkStandardizer {
   }
 
   printReport() {
-    console.log('\n' + '='.repeat(70));
+    console.log(`\n${'='.repeat(70)}`);
     console.log('📊 STANDARDIZATION REPORT');
     console.log('='.repeat(70));
 
@@ -152,7 +153,7 @@ class LinkStandardizer {
       }
     }
 
-    console.log('\n' + '='.repeat(70));
+    console.log(`\n${'='.repeat(70)}`);
 
     if (this.dryRun && this.changes.length > 0) {
       console.log('\n💡 Run with --apply to make these changes');
@@ -172,9 +173,7 @@ async function validateLinks(baseDir) {
   const errors = [];
 
   // Build list of valid targets
-  const validTargets = new Set(
-    markdownFiles.map(f => f.replace('.md', ''))
-  );
+  const validTargets = new Set(markdownFiles.map(f => f.replace('.md', '')));
 
   for (const file of markdownFiles) {
     const filePath = path.join(contentDir, file);
@@ -196,7 +195,7 @@ async function validateLinks(baseDir) {
           file,
           line,
           target: targetFile,
-          link: match[0]
+          link: match[0],
         });
       }
     }
@@ -222,7 +221,7 @@ async function main() {
   const args = process.argv.slice(2);
   const options = {
     dryRun: !args.includes('--apply'),
-    baseDir: path.join(__dirname, '..')
+    baseDir: path.join(__dirname, '..'),
   };
 
   if (args.includes('--help')) {

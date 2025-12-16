@@ -1,7 +1,6 @@
-
 import fs from 'fs';
-import yaml from 'js-yaml';
 import path from 'path';
+import yaml from 'js-yaml';
 
 const projectRoot = process.cwd();
 const packageJsonPath = path.join(projectRoot, 'package.json');
@@ -16,7 +15,6 @@ try {
   // Extract repository name from URL
   const repoName = repoUrl.replace(/https?:\/\/github.com\//, '');
 
-
   // Read _config.yml
   const configYml = yaml.load(fs.readFileSync(configYmlPath, 'utf8'));
 
@@ -25,14 +23,16 @@ try {
   configYml.baseurl = `/${name}`;
 
   // Write _config.yml
-  fs.writeFileSync(configYmlPath, yaml.dump(configYml, {
-    lineWidth: -1,
-    noRefs: true,
-    sortKeys: false,
-  }));
+  fs.writeFileSync(
+    configYmlPath,
+    yaml.dump(configYml, {
+      lineWidth: -1,
+      noRefs: true,
+      sortKeys: false,
+    })
+  );
 
   console.log('Successfully synchronized _config.yml with package.json.');
-
 } catch (error) {
   console.error('Error synchronizing config files:', error);
   process.exit(1);
