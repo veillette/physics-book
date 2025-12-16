@@ -217,7 +217,11 @@ class OrphanFileFinder {
     // Extract JSON references (for manifest.json icon paths, etc.)
     if (sourceFile.endsWith('.json')) {
       try {
-        const jsonData = JSON.parse(content);
+        // Strip Jekyll front matter if present (---\n...\n---)
+        let jsonContent = content.replace(/^---[\s\S]*?---\s*/, '');
+        // Replace Jekyll template variables with empty string for parsing
+        jsonContent = jsonContent.replace(/\{\{\s*site\.[^}]+\}\}/g, '');
+        const jsonData = JSON.parse(jsonContent);
         this.extractJsonReferences(jsonData, references, sourceFile);
       } catch (_error) {
         // Not valid JSON or parsing error, skip
@@ -260,6 +264,8 @@ class OrphanFileFinder {
       let path = match[1];
       // Strip template variable placeholders like ${BASE_PATH}, ${BASE_URL}, etc.
       path = path.replace(/\$\{[^}]+\}/g, '');
+      // Strip Jekyll template variables like {{ site.baseurl }}
+      path = path.replace(/\{\{\s*site\.[^}]+\}\}/g, '');
       if (this.isLocalFile(path)) {
         const resolvedPath = this.resolvePath(path, sourceFile);
         if (resolvedPath) {
@@ -277,6 +283,8 @@ class OrphanFileFinder {
       let path = match[1];
       // Strip template variable placeholders like ${BASE_PATH}, ${BASE_URL}, etc.
       path = path.replace(/\$\{[^}]+\}/g, '');
+      // Strip Jekyll template variables like {{ site.baseurl }}
+      path = path.replace(/\{\{\s*site\.[^}]+\}\}/g, '');
       if (this.isLocalFile(path)) {
         const resolvedPath = this.resolvePath(path, sourceFile);
         if (resolvedPath) {
