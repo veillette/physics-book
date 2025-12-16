@@ -14,7 +14,7 @@ import path from 'path';
 /**
  * Escape special regex characters in a string
  */
-function escapeRegex(str) {
+function _escapeRegex(str) {
   return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
