@@ -1,16 +1,19 @@
+---
+layout: null
+---
 // PWA Service Worker Registration and Installation
 (function() {
     'use strict';
-    
+
     // Check if service workers are supported
     if (!('serviceWorker' in navigator)) {
         console.warn('Service workers are not supported in this browser');
         return;
     }
 
-    // Configuration for GitHub Pages
-    const BASE_PATH = '/physics-book/';
-    const SW_PATH = `${BASE_PATH}assets/pwa/serviceWorker.js`;
+    // Configuration - uses Jekyll baseurl (works for both GitHub Pages and Vercel)
+    const BASE_PATH = '{{ site.baseurl }}/';
+    const SW_PATH = `{{ site.baseurl }}/assets/pwa/serviceWorker.js`;
     
     // Service Worker Registration
     function registerServiceWorker() {
