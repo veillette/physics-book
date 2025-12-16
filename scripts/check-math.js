@@ -23,20 +23,49 @@ const __dirname = path.dirname(__filename);
 const baseDir = path.join(__dirname, '..');
 
 /**
- * Count unescaped $ delimiters in a line
+ * Count unescaped $ delimiters in a line, ignoring currency amounts
  */
 function countDelimiters(line) {
   let count = 0;
-  let ignoreNext = false;
+  let i = 0;
 
-  for (const char of line) {
-    if (char === '\\') {
-      ignoreNext = true;
-    } else if (char === '$' && !ignoreNext) {
-      count += 1;
-    } else {
-      ignoreNext = false;
+  while (i < line.length) {
+    const char = line[i];
+
+    // Skip escaped characters
+    if (char === '\\' && i + 1 < line.length) {
+      i += 2; // Skip backslash and next character
+      continue;
     }
+
+    // Found a dollar sign
+    if (char === '$') {
+      // Check if it's a display math delimiter ($$)
+      // This must be checked BEFORE currency detection
+      if (i + 1 < line.length && line[i + 1] === '$') {
+        // This is $$, count both as math delimiters
+        count += 2;
+        i += 2;
+        continue;
+      }
+
+      // Check if it's likely a currency amount:
+      // $ followed by digit(s), possibly with decimals and/or commas
+      // Examples: $5, $2.37, $1,000, $123.45
+      const remainingText = line.substring(i + 1);
+      const currencyPattern = /^(\d{1,3}(,\d{3})*|\d+)(\.\d+)?(\s|,|\.|\)|;|$)/;
+
+      if (currencyPattern.test(remainingText)) {
+        // This is likely currency, skip it
+        i++;
+        continue;
+      }
+
+      // Not currency or $$, count it as a single math delimiter
+      count++;
+    }
+
+    i++;
   }
 
   return count;
