@@ -103,7 +103,6 @@ class OrphanFileFinder {
     }
 
     console.log(chalk.gray(`Found ${this.referencedPaths.size} unique file references\n`));
-    console.log('DEBUG: referencedPaths:', this.referencedPaths); // DEBUG LINE
   }
 
   async extractReferences(filePath) {
