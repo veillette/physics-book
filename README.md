@@ -86,8 +86,8 @@ npm run check-math
 # Check for accessibility issues (alt text, heading levels)
 npm run check-accessibility
 
-# Generate a combined PDF of the entire book
-npm run generate-pdf:combined
+# Generate a combined PDF of a specific chapter (e.g., Chapter 1)
+npm run generate-pdf -- --chapter 1 --combined --base-url http://localhost:4000/physics-book
 ```
 
 ## 部署

@@ -156,7 +156,8 @@ The `scripts/` directory contains a powerful suite of Node.js utilities. See `sc
 
 - **`npm run audit`**: The most important script for general quality control. It runs `check-links`, `check-orphans`, and `check-figures` together.
 - **`check-orphans.js`**: Scans for unreferenced files in `assets/` and `resources/`. It's smart enough to parse Markdown, HTML, CSS, JS, and JSON files to find references. Use `npm run check-orphans:cleanup` to generate a script to remove orphan files.
-- **PDF Generation**: `npm run generate-pdf:combined` creates a single PDF of the entire book. Requires Playwright (`npm run generate-pdf:install`).
+- **PDF Generation**: `npm run generate-pdf:combined` creates a single PDF of the entire book. Requires Playwright (`npm run generate-pdf:install`). To generate a combined PDF for a specific chapter (e.g., Chapter 1) using the correct base URL: `npm run generate-pdf -- --chapter 1 --combined --base-url http://localhost:4000/physics-book`.
+
 
 ## Common Issues and Solutions
 
