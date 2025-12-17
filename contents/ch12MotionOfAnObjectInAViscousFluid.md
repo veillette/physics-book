@@ -30,9 +30,11 @@ object’s speed in the fluid. If $$N^{\prime}_{\text{R}} $$ is less than about 
 flow around the object can be laminar, particularly if the object has a smooth
 shape. The transition to turbulent flow occurs for $$N^{\prime}_{\text{R}} $$
 between 1 and about 10, depending on surface roughness and so on. Depending on
-the surface, there can be a *turbulent wake* behind the object with some laminar
+the surface, there can be a _turbulent wake_ behind the object with some laminar
 flow over its surface. For an $$N^{\prime}_{\text{R}} $$ between 10 and $$10^{6}
-$$ , the flow may be either laminar or turbulent and may oscillate between the
+
+$$
+, the flow may be either laminar or turbulent and may oscillate between the
 two. For $$N^{\prime}_{\text{R}} $$ greater than about $$10^{6} $$ , the flow is
 entirely turbulent, even at the surface of the object. (
 See [[Figure 1]](#Figure1).) Laminar flow occurs mostly when the objects in the
@@ -174,3 +176,4 @@ equal to the other forces acting on the object (such as gravity), so that the
 acceleration of the object is zero
 
 </div>
+$$

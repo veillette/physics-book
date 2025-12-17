@@ -41,7 +41,7 @@ class SearchManager {
       // Note: loadJSON expects the raw JSON object, not a stringified version
       this.miniSearch = MiniSearch.loadJS(data.index, {
         fields: ['title', 'content'],
-        storeFields: ['title', 'url', 'preview']
+        storeFields: ['title', 'url', 'preview'],
       });
 
       this.documents = data.documents;
@@ -49,7 +49,6 @@ class SearchManager {
 
       console.log(`Search index loaded: ${this.documents.length} documents indexed`);
       return true;
-
     } catch (error) {
       console.error('Failed to initialize search:', error);
       this.isReady = false;
@@ -72,7 +71,7 @@ class SearchManager {
       const results = this.miniSearch.search(query, {
         boost: { title: 2 },
         fuzzy: 0.2,
-        prefix: true
+        prefix: true,
       });
 
       // Limit results and enrich with document data
@@ -83,10 +82,9 @@ class SearchManager {
           title: doc?.title || result.title,
           url: doc?.url || result.url,
           preview: doc?.preview || result.preview,
-          score: result.score
+          score: result.score,
         };
       });
-
     } catch (error) {
       console.error('Search error:', error);
       return [];
@@ -108,11 +106,10 @@ class SearchManager {
       const suggestions = this.miniSearch.autoSuggest(query, {
         boost: { title: 2 },
         fuzzy: 0.2,
-        prefix: true
+        prefix: true,
       });
 
       return suggestions.slice(0, maxSuggestions);
-
     } catch (error) {
       console.error('AutoSuggest error:', error);
       return [];

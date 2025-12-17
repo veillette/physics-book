@@ -455,7 +455,8 @@ async function checkServer(baseUrl, retries = 5, delay = 2000) {
   for (let i = 0; i < retries; i++) {
     try {
       const response = await fetch(baseUrl);
-      if (response.ok || response.status === 404) { // 404 is also a sign of a running server
+      if (response.ok || response.status === 404) {
+        // 404 is also a sign of a running server
         return true;
       }
     } catch (_e) {

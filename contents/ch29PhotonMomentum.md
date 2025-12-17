@@ -24,7 +24,7 @@ photons **do** have momentum. In fact, photon momentum is suggested by the
 photoelectric effect, where photons knock electrons out of a
 substance. [[Figure 1]](#Figure1) shows macroscopic evidence of photon momentum.
 
-![(a) Trajectory of a comet with a nucleus and tail as it passes by the Sun is shown as a partial parabolic path with Sun near the vertex of the parabolic path. (b) The photograph of a moving Hale Bopp comet in space is shown as bright lighted object.](../resources/Figure_29_04_01.jpg "The tails of the Hale-Bopp comet point away from the Sun, evidence that light has momentum. Dust emanating from the body of the comet forms this tail. Particles of dust are pushed away from the Sun by light reflecting from them. The blue ionized gas tail is also produced by photons interacting with atoms in the comet material. (credit: Geoff Chester, U.S. Navy, via Wikimedia Commons)")
+![(a) Trajectory of a comet with a nucleus and tail as it passes by the Sun is shown as a partial parabolic path with Sun near the vertex of the parabolic path. (b) The photograph of a moving Hale Bopp comet in space is shown as bright lighted object.](../resources/Figure_29_04_01.jpg 'The tails of the Hale-Bopp comet point away from the Sun, evidence that light has momentum. Dust emanating from the body of the comet forms this tail. Particles of dust are pushed away from the Sun by light reflecting from them. The blue ionized gas tail is also produced by photons interacting with atoms in the comet material. (credit: Geoff Chester, U.S. Navy, via Wikimedia Commons)')
 {: #Figure1}
 
 [[Figure 1]](#Figure1) shows a comet with two prominent tails. What most people
@@ -66,7 +66,7 @@ where $$h $$ is Planck’s constant and $$\lambda $$ is the photon wavelength. (
 Note that relativistic momentum given as $$p=\gamma \text{mu} $$ is valid only
 for particles having mass.)
 
-![Collision of an electron with a photon of energy E equal to h f is shown. The electron is represented as a spherical ball and the photon as an ellipse enclosing a wave. After collision the energy of the photon becomes E prime equal to h f prime and the final energy of an electron K E sub e is equal to E minus E prime. The direction of electron and photon before and after collision is represented by arrows.](../resources/Figure_29_04_02.jpg "The Compton effect is the name given to the scattering of a photon by an electron. Energy and momentum are conserved, resulting in a reduction of both for the scattered photon. Studying this effect, Compton verified that photons have momentum.")
+![Collision of an electron with a photon of energy E equal to h f is shown. The electron is represented as a spherical ball and the photon as an ellipse enclosing a wave. After collision the energy of the photon becomes E prime equal to h f prime and the final energy of an electron K E sub e is equal to E minus E prime. The direction of electron and photon before and after collision is represented by arrows.](../resources/Figure_29_04_02.jpg 'The Compton effect is the name given to the scattering of a photon by an electron. Energy and momentum are conserved, resulting in a reduction of both for the scattered photon. Studying this effect, Compton verified that photons have momentum.')
 {: #Figure2}
 
 We can see that photon momentum is small, since $$p=h/\lambda $$ and $$h $$ is
@@ -153,7 +153,7 @@ from place to place in the solar system. (See [[Figure 3]](#Figure3).)
 
 </div>
 
-![(a) A payload having an umbrella-shaped solar sail attached to it is shown. The direction of movement of payload and direction of incident photons are shown using arrows. (b) A photograph of the top view of a silvery space sail.](../resources/Figure_29_04_03.jpg "(a) Space sails have been proposed that use the momentum of sunlight reflecting from gigantic low-mass sails to propel spacecraft about the solar system. A Russian test model of this (the Cosmos 1) was launched in 2005, but did not make it into orbit due to a rocket failure. (b) A U.S. version of this, labeled LightSail-1, is scheduled for trial launches in the first part of this decade. It will have a 40-m2 sail. (credit: Kim Newton/NASA)")
+![(a) A payload having an umbrella-shaped solar sail attached to it is shown. The direction of movement of payload and direction of incident photons are shown using arrows. (b) A photograph of the top view of a silvery space sail.](../resources/Figure_29_04_03.jpg '(a) Space sails have been proposed that use the momentum of sunlight reflecting from gigantic low-mass sails to propel spacecraft about the solar system. A Russian test model of this (the Cosmos 1) was launched in 2005, but did not make it into orbit due to a rocket failure. (b) A U.S. version of this, labeled LightSail-1, is scheduled for trial launches in the first part of this decade. It will have a 40-m2 sail. (credit: Kim Newton/NASA)')
 {: #Figure3}
 
 ### Relativistic Photon Momentum
@@ -236,9 +236,9 @@ Note that the forms of the constants  $$h= 4.14  \times 10^{-15} \text{eV}\cdot 
 
 ### Section Summary
 
-* Photons have momentum, given by $$p=\frac{h}{\lambda } $$ , where $$\lambda $$
+- Photons have momentum, given by $$p=\frac{h}{\lambda } $$ , where $$\lambda $$
   is the photon wavelength.
-* Photon energy and momentum are related by $$p=\frac{E}{c} $$ , where $$E=
+- Photon energy and momentum are related by $$p=\frac{E}{c} $$ , where $$E=
   hf=hc/\lambda $$ for a photon.
 
 ### Conceptual Questions
@@ -294,7 +294,7 @@ Why don’t we feel the momentum of sunlight when we are on the beach?
 <div class="solution" markdown="1">
 (a) 13.3 μm
 
-(b)  $$ 9.38 \times 10^{-2} $$ eV
+(b) $$ 9.38 \times 10^{-2} $$ eV
 
 </div>
 </div>
@@ -320,6 +320,7 @@ Why don’t we feel the momentum of sunlight when we are on the beach?
 
 (c) electron $$ 3.86 \times 10^{-26} \text{J} $$ , photon $$ 7.96 \times
 10^{-20} \text{J} $$ , ratio $$ 2.06 \times 10^{6} $$
+
 </div>
 </div>
 
@@ -339,7 +340,8 @@ Repeat the previous problem for a 10.0-nm-wavelength photon.
 (a)  $$ 1.32 \times 10^{-13}  \text{m} $$
 (b) 9.39 MeV
 
-(c)  $$ 4.70 \times 10^{-2} \text{MeV} $$
+(c) $$ 4.70 \times 10^{-2} \text{MeV} $$
+
 </div>
 </div>
 
@@ -359,7 +361,7 @@ Take the ratio of relativistic rest energy,  $$E=\gamma mc^{2} $$ ,
 </div>
 <div class="solution" markdown="1">
  $$E=\gamma mc^{2} $$
- and  $$P=\gamma mu $$, so 
+ and  $$P=\gamma mu $$, so
 
 <div class="equation" >
  $$\frac{E}{P}=\frac{ \gamma mc }^{2}}{ \gamma mu}=\frac{ {\text{c}}^{2}}{u}. $$

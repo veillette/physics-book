@@ -23,13 +23,13 @@ with its atoms. The greater the diameter of the cylinder, the more current it
 can carry (again similar to the flow of fluid through a pipe). In fact, $$R $$
 is inversely proportional to the cylinder’s cross-sectional area $$A $$.
 
-![A cylindrical conductor of length L and cross section A is shown. The resistivity of the cylindrical section is represented as rho. The resistance of this cross section R is equal to rho L divided by A. The section of length L of cylindrical conductor is shown equivalent to a resistor represented by symbol R.](../resources/Figure_20_03_01.jpg "A uniform cylinder of length \( L \) and cross-sectional area \( A \) . Its resistance to the flow of current is similar to the resistance posed by a pipe to fluid flow. The longer the cylinder, the greater its resistance. The larger its cross-sectional area \( A \) , the smaller its resistance.")
+![A cylindrical conductor of length L and cross section A is shown. The resistivity of the cylindrical section is represented as rho. The resistance of this cross section R is equal to rho L divided by A. The section of length L of cylindrical conductor is shown equivalent to a resistor represented by symbol R.](../resources/Figure_20_03_01.jpg 'A uniform cylinder of length ( L ) and cross-sectional area ( A ) . Its resistance to the flow of current is similar to the resistance posed by a pipe to fluid flow. The longer the cylinder, the greater its resistance. The larger its cross-sectional area ( A ) , the smaller its resistance.')
 {: #Figure1}
 
 For a given shape, the resistance depends on the material of which the object is
 composed. Different materials offer different resistance to the flow of charge.
-We define the **resistivity**  $$\rho $$ of a substance so that the **resistance**  $$R $$ of an object is directly proportional to $$\rho $$ .
-Resistivity $$\rho $$ is an *intrinsic* property of a material,
+We define the **resistivity** $$\rho $$ of a substance so that the **resistance** $$R $$ of an object is directly proportional to $$\rho $$ .
+Resistivity $$\rho $$ is an _intrinsic_ property of a material,
 independent of its shape or size. The resistance $$R $$ of a uniform cylinder of
 length $$L $$ , of cross-sectional area $$A $$ , and made of a material with
 resistivity $$\rho $$, is
@@ -221,6 +221,7 @@ diameter can be found by assuming it has a circular cross-section.
 
 The cross-sectional area, found by rearranging the expression for the resistance
 of a cylinder given in $$R=\frac{\rho L}{A} $$, is
+
 <div class="equation" >
  $$A=\frac{\rho L}{R}\text{.} $$
 </div>
@@ -270,11 +271,11 @@ $$\alpha $$ is positive for metals, meaning their resistivity increases with
 temperature. Some alloys have been developed specifically to have a small
 temperature dependence. Manganin (which is made of copper, manganese and nickel)
 , for example, has $$\alpha $$
-** close to zero (to three digits on the scale in [[Table 2]](#Table2)), and so
+\*\* close to zero (to three digits on the scale in [[Table 2]](#Table2)), and so
 its resistivity varies only slightly with temperature. This is useful for making
 a temperature-independent resistance standard, for example.
 
-![A graph for variation of resistance R with temperature T for a mercury sample is shown. The temperature T is plotted along the x axis and is measured in Kelvin, and the resistance R is plotted along the y axis and is measured in ohms. The curve starts at x equals zero and y equals zero, and coincides with the X axis until the value of temperature is four point two Kelvin, known as the critical temperature T sub c. At temperature T sub c, the curve shows a vertical rise, represented by a dotted line, until the resistance is about zero point one one ohms. After this temperature the resistance shows a nearly linear increase with temperature T.](../resources/Figure_20_03_02.jpg "The resistance of a sample of mercury is zero at very low temperatures&#x2014;it is a superconductor up to about 4.2 K. Above that critical temperature, its resistance makes a sudden jump and then increases nearly linearly with temperature.")
+![A graph for variation of resistance R with temperature T for a mercury sample is shown. The temperature T is plotted along the x axis and is measured in Kelvin, and the resistance R is plotted along the y axis and is measured in ohms. The curve starts at x equals zero and y equals zero, and coincides with the X axis until the value of temperature is four point two Kelvin, known as the critical temperature T sub c. At temperature T sub c, the curve shows a vertical rise, represented by a dotted line, until the resistance is about zero point one one ohms. After this temperature the resistance shows a nearly linear increase with temperature T.](../resources/Figure_20_03_02.jpg 'The resistance of a sample of mercury is zero at very low temperatures—it is a superconductor up to about 4.2 K. Above that critical temperature, its resistance makes a sudden jump and then increases nearly linearly with temperature.')
 {: #Figure2}
 
 <table id="Table2" aria-describedby="Table 21_03_02"><caption><span class="title">Temperature Coefficients of Resistivity    $$\alpha  $$     </span></caption><thead><tr>
@@ -394,7 +395,7 @@ the resistance of which is measured to obtain its temperature. The device is
 small, so that it quickly comes into thermal equilibrium with the part of a
 person it touches.
 
-![A photograph showing two digital thermometers used for measuring body temperature.](../resources/Figure_20_03_03.jpg "These familiar thermometers are based on the automated measurement of a thermistor&#x2019;s temperature-dependent resistance. (credit: Biol, Wikimedia Commons)")
+![A photograph showing two digital thermometers used for measuring body temperature.](../resources/Figure_20_03_03.jpg 'These familiar thermometers are based on the automated measurement of a thermistor’s temperature-dependent resistance. (credit: Biol, Wikimedia Commons)')
 {: #Figure3}
 
 <div class="example" markdown="1">
@@ -411,7 +412,7 @@ to a typical operating temperature of  $$2850 \text{ºC} $$ ?
 
 This is a straightforward application of $$R={R}_{0}\left(1+\alpha \Delta
 T\right) $$ , since the original resistance of the filament was given to be
-$${R}_{0}=0.350 \text{Ω} $$ , and the temperature change is $$\Delta T=2830
+$${R}\_{0}=0.350 \text{Ω} $$ , and the temperature change is $$\Delta T=2830
 \text{ºC} $$.
 
 **Solution**
@@ -445,18 +446,18 @@ Learn about the physics of resistance in a wire. Change its resistivity, length,
 
 ### Section Summary
 
-* The resistance $$R $$ of a cylinder of length $$L $$ and cross-sectional area
+- The resistance $$R $$ of a cylinder of length $$L $$ and cross-sectional area
   $$A $$ is $$R=\frac{\rho L}{A} $$ , where $$\rho $$ is the resistivity of the
   material.
-* Values of $$\rho $$ in [[Table 1]](#Table1) show that materials fall into
-  three groups—*conductors, semiconductors, and insulators*.
-* Temperature affects resistivity; for relatively small temperature changes
+- Values of $$\rho $$ in [[Table 1]](#Table1) show that materials fall into
+  three groups—_conductors, semiconductors, and insulators_.
+- Temperature affects resistivity; for relatively small temperature changes
   $$\Delta T $$ , resistivity is $$\rho ={\rho }_{0}\left(1+\alpha \Delta
   T\right) $$ , where $${\rho }_{0} $$ is the original resistivity and
   $$\text{α} $$ is the temperature coefficient of resistivity.
-* [[Table 2]](#Table2) gives values for $$\alpha $$ , the temperature
+- [[Table 2]](#Table2) gives values for $$\alpha $$ , the temperature
   coefficient of resistivity.
-* The resistance $$R $$ of an object also varies with temperature:
+- The resistance $$R $$ of an object also varies with temperature:
   $$R={R}_{0}\left(1+\alpha \Delta T\right) $$ , where $${R}_{0} $$ is the
   original resistance, and $$R $$ is the resistance after the temperature
   change.
@@ -474,7 +475,7 @@ In which of the three semiconducting materials listed in [[Table 1]](#Table1) do
 <div class="problem" markdown="1">
 Does the resistance of an object depend on the path current takes through it? Consider, for example, a rectangular bar—is its resistance the same along its length as across its width? (See [[Figure 4]](#Figure4).)
 
-![Part a of the figure shows a voltage V applied along the length of a rectangular bar using a battery. The current is shown to emerge from the positive terminal, pass along the length of the rectangular bar, and enter the negative terminal of the battery. The resistance of the rectangular bar along the length is shown as R and the current is shown as I. Part b of the figure shows a voltage V applied along the width of the same rectangular bar using a battery. The current is shown to emerge from the positive terminal, pass along the width of the rectangular bar, and enter the negative terminal of the battery. The resistance of the rectangular bar along the width is shown as R prime, and the current is shown as I prime.](../resources/Figure_20_03_04.jpg "Does current taking two different paths through the same object encounter different resistance?")
+![Part a of the figure shows a voltage V applied along the length of a rectangular bar using a battery. The current is shown to emerge from the positive terminal, pass along the length of the rectangular bar, and enter the negative terminal of the battery. The resistance of the rectangular bar along the length is shown as R and the current is shown as I. Part b of the figure shows a voltage V applied along the width of the same rectangular bar using a battery. The current is shown to emerge from the positive terminal, pass along the width of the rectangular bar, and enter the negative terminal of the battery. The resistance of the rectangular bar along the width is shown as R prime, and the current is shown as I prime.](../resources/Figure_20_03_04.jpg 'Does current taking two different paths through the same object encounter different resistance?')
 {: #Figure4}
 
 </div>
@@ -669,10 +670,10 @@ assumptions are unreasonable, or which premises are inconsistent?
 ### Footnotes
 {: class="footnote-refs-title"}
 
-* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
+- {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
   footnote-ref-link"} <span class="footnote-ref-content">Values depend strongly
   on amounts and types of impurities</span>
-* {: class="footnote-ref" #footnote2} [2](#footnote-ref2){: class="
+- {: class="footnote-ref" #footnote2} [2](#footnote-ref2){: class="
   footnote-ref-link"} <span class="footnote-ref-content">Values at 20ºC.</span>
   { data-list-type="bulleted" data-bullet-style="none"}
 
@@ -684,10 +685,10 @@ assumptions are unreasonable, or which premises are inconsistent?
 
 resistivity
 : an intrinsic property of a material, independent of its shape or size,
-directly proportional to the resistance, denoted by *ρ*
+directly proportional to the resistance, denoted by _ρ_
 
 temperature coefficient of resistivity
-: an empirical quantity, denoted by *α*, which describes the change in
+: an empirical quantity, denoted by _α_, which describes the change in
 resistance or resistivity of a material with temperature
 
 </div>

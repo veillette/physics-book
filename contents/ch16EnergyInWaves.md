@@ -9,7 +9,7 @@ chapterNumber: 16
 * Calculate the intensity and the power of rays and waves.
 </div>
 
-![The destruction caused by an earthquake in Port-au-Prince, Haiti. Some buildings are shown on two sides of a street. Two buildings are completely destroyed. Rescue people are seen around.](../resources/Figure_16_11_01.jpg "The destructive effect of an earthquake is palpable evidence of the energy carried in these waves. The Richter scale rating of earthquakes is related to both their amplitude and the energy they carry. (credit: Petty Officer 2nd Class Candice Villarreal, U.S. Navy)")
+![The destruction caused by an earthquake in Port-au-Prince, Haiti. Some buildings are shown on two sides of a street. Two buildings are completely destroyed. Rescue people are seen around.](../resources/Figure_16_11_01.jpg 'The destructive effect of an earthquake is palpable evidence of the energy carried in these waves. The Richter scale rating of earthquakes is related to both their amplitude and the energy they carry. (credit: Petty Officer 2nd Class Candice Villarreal, U.S. Navy)')
 {: #Figure1}
 
 All waves carry energy. The energy of some waves can be directly observed.
@@ -41,7 +41,7 @@ the longer deep-heat ultrasound is applied, the more energy it transfers. Waves
 can also be concentrated or spread out. Sunlight, for example, can be focused to
 burn wood. Earthquakes spread out, so they do less damage the farther they get
 from the source. In both cases, changing the area the waves cover has important
-effects. All these pertinent factors are included in the definition of **intensity**  $$I $$ as power per unit area:
+effects. All these pertinent factors are included in the definition of **intensity** $$I $$ as power per unit area:
 
 <div class="equation" >
  $$I=\frac{P}{A} $$
@@ -84,13 +84,13 @@ can be solved for E with the given information.
     $$I=\frac{P}{A}. $$
    </div>
 
-2. Replace $$P $$ with its equivalent $$E/t $$     
+2. Replace $$P $$ with its equivalent $$E/t $$  
    \:
    <div class="equation" >
     $$I=\frac{E/t}{A}. $$
    </div>
 
-3. Solve for $$E $$     
+3. Solve for $$E $$  
    \:
    <div class="equation" >
     $$E= IAt. $$
@@ -138,7 +138,7 @@ quantities will cancel.
     $$I^{\prime}=200I=200\left(700 {\text{W/m}}^{2}\right). $$
    </div>
 
-4. Calculate to find $$I^{\prime} $$     
+4. Calculate to find $$I^{\prime} $$  
    \:
    <div class="equation" >
     $$I^{\prime}= 1.40 \times 10^{5}  {\text{W/m}}^{2}. $$
@@ -185,7 +185,7 @@ of the resulting wave is four times as great as in the individual waves.
     $$\frac{I^{\prime}}{I}=4. $$
    </div>
 
-5. Calculate to find $$I^{\prime} $$     
+5. Calculate to find $$I^{\prime} $$  
    \:
    <div class="equation" >
     $$I^{\prime}=4I= 4.00 {\text{W/m}}^{2}. $$
@@ -210,7 +210,7 @@ places where the intensity is zero, and others in
 between. [[Figure 2]](#Figure2) shows what this interference might look like. We
 will pursue interference patterns elsewhere in this text.
 
-![Two speakers are shown at the top of the figure at left and right side. Rarefactions are shown as dotted curves and compression as dark curves. The interference of the sound waves from these two speakers is shown. There are some red spots, showing constructive interference, are shown on the interfering waves. ](../resources/Figure_16_11_02.jpg "These stereo speakers produce both constructive interference and destructive interference in the room, a property common to the superposition of all types of waves. The shading is proportional to intensity.")
+![Two speakers are shown at the top of the figure at left and right side. Rarefactions are shown as dotted curves and compression as dark curves. The interference of the sound waves from these two speakers is shown. There are some red spots, showing constructive interference, are shown on the interfering waves. ](../resources/Figure_16_11_02.jpg 'These stereo speakers produce both constructive interference and destructive interference in the room, a property common to the superposition of all types of waves. The shading is proportional to intensity.')
 {: #Figure2}
 
 </div>

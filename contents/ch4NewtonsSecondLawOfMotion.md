@@ -24,7 +24,7 @@ First, what do we mean by a change in motion? The answer is that a change in
 motion is equivalent to a change in velocity. A change in velocity means, by
 definition, that there is an
 **acceleration**. Newton’s first law says that a net external force causes a
-change in motion; thus, we see that a *net external force causes acceleration*.
+change in motion; thus, we see that a _net external force causes acceleration_.
 
 Another question immediately arises. What do we mean by an external force? An
 intuitive notion of external is correct—an **external force** acts from outside
@@ -35,16 +35,16 @@ system. Again looking at [Figure 1](#Figure1)(a), the force the child in the wag
 exerts to hang onto the wagon is an internal force between elements of the
 system of interest. Only external forces affect the motion of a system,
 according to Newton’s first law. (The internal forces actually cancel, as we
-shall see in the next section.) *You must define the boundaries of the system
-before you can determine which forces are external*. Sometimes the system is
+shall see in the next section.) _You must define the boundaries of the system
+before you can determine which forces are external_. Sometimes the system is
 obvious, whereas other times identifying the boundaries of a system is more
 subtle. The concept of a system is fundamental to many areas of physics, as is
 the correct application of Newton’s laws. This concept will be revisited many
 times on our journey through physics.
 
-![(a) A boy in a wagon is pushed by two girls toward the right. The force on the boy is represented by vector F one toward the right, and the force on the wagon is represented by vector F two in the same direction. Acceleration a is shown by a vector a toward the right and a friction force f is acting in the opposite direction, represented by a vector pointing toward the left. The weight W of the wagon is shown by a vector acting downward, and the normal force acting upward on the wagon is represented by a vector N. A free-body diagram is also shown, with F one and F two represented by arrows in the same direction toward the right and f represented by an arrow toward the left, so the resultant force F net is represented by an arrow toward the right. W is represented by an arrow downward and N is represented by an arrow upward; both the arrows have same length.(b) A boy in a wagon is pushed by a woman with a force F adult, represented by an arrow pointing toward the right. A vector a-prime, represented by an arrow, depicts acceleration toward the right. Friction force, represented by a vector f, acts toward the left. The weight of the wagon W is shown by a vector pointing downward, and the Normal force, represented by a vector N having same length as W, acts upward. A free-body diagram for this situation shows force F represented by an arrow pointing to the right having a large length; a friction force vector represented by an arrow f pointing left has a small length. The weight W is represented by an arrow pointing downward, and the normal force N, is represented by an arrow pointing upward, having the same length as W.](../resources/Figure_04_03_01.jpg "Different forces exerted on the same mass produce different accelerations. (a) Two children push a wagon with a child in it. Arrows representing all external forces are shown. The system of interest is the wagon and its rider. The weight \( \vb{w} \) of the system and the support of the ground \( \vb{N} \) are also shown for completeness and are assumed to cancel. The vector \( \vb{f} \) represents the friction acting on the wagon, and it acts to the left, opposing the motion of the wagon.
-(b) All of the external forces acting on the system add together to produce a net force, \( \vb{F}_\text{net} \) . The free-body diagram shows all of the forces acting on the system of interest. The dot represents the center of mass of the system. Each force vector extends from this dot. Because there are two forces acting to the right, we draw the vectors collinearly.
-(c) A larger net external force produces a larger acceleration \( a'>a \) when an adult pushes the child.")
+![(a) A boy in a wagon is pushed by two girls toward the right. The force on the boy is represented by vector F one toward the right, and the force on the wagon is represented by vector F two in the same direction. Acceleration a is shown by a vector a toward the right and a friction force f is acting in the opposite direction, represented by a vector pointing toward the left. The weight W of the wagon is shown by a vector acting downward, and the normal force acting upward on the wagon is represented by a vector N. A free-body diagram is also shown, with F one and F two represented by arrows in the same direction toward the right and f represented by an arrow toward the left, so the resultant force F net is represented by an arrow toward the right. W is represented by an arrow downward and N is represented by an arrow upward; both the arrows have same length.(b) A boy in a wagon is pushed by a woman with a force F adult, represented by an arrow pointing toward the right. A vector a-prime, represented by an arrow, depicts acceleration toward the right. Friction force, represented by a vector f, acts toward the left. The weight of the wagon W is shown by a vector pointing downward, and the Normal force, represented by a vector N having same length as W, acts upward. A free-body diagram for this situation shows force F represented by an arrow pointing to the right having a large length; a friction force vector represented by an arrow f pointing left has a small length. The weight W is represented by an arrow pointing downward, and the normal force N, is represented by an arrow pointing upward, having the same length as W.](../resources/Figure_04_03_01.jpg "Different forces exerted on the same mass produce different accelerations. (a) Two children push a wagon with a child in it. Arrows representing all external forces are shown. The system of interest is the wagon and its rider. The weight ( \\vb{w} ) of the system and the support of the ground ( \\vb{N} ) are also shown for completeness and are assumed to cancel. The vector ( \\vb{f} ) represents the friction acting on the wagon, and it acts to the left, opposing the motion of the wagon.
+(b) All of the external forces acting on the system add together to produce a net force, ( \\vb{F}_\\text{net} ) . The free-body diagram shows all of the forces acting on the system of interest. The dot represents the center of mass of the system. Each force vector extends from this dot. Because there are two forces acting to the right, we draw the vectors collinearly.
+(c) A larger net external force produces a larger acceleration ( a'>a ) when an adult pushes the child.")
 {: #Figure1 height="350"}
 
 Now, it seems reasonable that acceleration should be directly proportional to
@@ -56,11 +56,11 @@ c). For completeness, the vertical forces are also shown; they are assumed to
 cancel since there is no acceleration in the vertical direction. The vertical
 forces are the weight $$ \vb{w} $$ and the support of the ground $$ \vb{N} $$,
 and the horizontal force $$ \vb{f} $$ represents the force of friction. These
-will be discussed in more detail in later sections. For now, we will define 
+will be discussed in more detail in later sections. For now, we will define
 **friction** as a force that opposes the motion past each other of objects that are
 touching. [Figure 1](#Figure1)(b)
 shows how vectors representing the external forces add together to produce a net
-force, $$ \vb{F}_{\text{net}} $$.
+force, $$ \vb{F}\_{\text{net}} $$.
 
 To obtain an equation for Newton’s second law, we first write the relationship
 of acceleration and net external force as the proportionality.
@@ -69,14 +69,14 @@ of acceleration and net external force as the proportionality.
  $$ \vb{a} \propto \vb{F}_{\text{net}}, $$
 </div>
 
-where the symbol $$ \propto $$ means “proportional to,” and $$ \vb{F}_
+where the symbol $$ \propto $$ means “proportional to,” and $$ \vb{F}\_
 {\text{net}} $$ is the **net external force**. (The net external force is the
 vector sum of all external forces and can be determined graphically, using the
 head-to-tail method, or analytically, using components. The techniques are the
 same as for the addition of other vectors, and are covered
 in [Two-Dimensional Kinematics](./ch3TwoDimensionalKinematics).)
-This proportionality states what we have said in words—*acceleration is directly
-proportional to the net external force*. Once the system of interest is chosen,
+This proportionality states what we have said in words—_acceleration is directly
+proportional to the net external force_. Once the system of interest is chosen,
 it is important to identify the external forces and ignore the internal ones. It
 is a tremendous simplification not to have to consider the numerous internal
 forces acting between objects within the system, such as muscular forces within
@@ -99,12 +99,12 @@ where $$ m $$ is the mass of the system. Experiments have shown that
 acceleration is exactly inversely proportional to mass, just as it is exactly
 linearly proportional to the net external force.
 
-![(a) A basketball player pushes the ball with the force shown by a vector F toward the right and an acceleration a-one represented by an arrow toward the right. M sub one is the mass of the ball. (b) The same basketball player is pushing a car with the same force, represented by the vector F towards the right, resulting in an acceleration shown by a vector a toward the right. The mass of the car is m sub two. The acceleration in the second case, a sub two, is represented by a shorter arrow than in the first case, a sub one.](../resources/Figure_04_03_02.jpg "The same force exerted on systems of different masses produces different accelerations. (a) A basketball player pushes on a basketball to make a pass. (The effect of gravity on the ball is ignored.)
+![(a) A basketball player pushes the ball with the force shown by a vector F toward the right and an acceleration a-one represented by an arrow toward the right. M sub one is the mass of the ball. (b) The same basketball player is pushing a car with the same force, represented by the vector F towards the right, resulting in an acceleration shown by a vector a toward the right. The mass of the car is m sub two. The acceleration in the second case, a sub two, is represented by a shorter arrow than in the first case, a sub one.](../resources/Figure_04_03_02.jpg 'The same force exerted on systems of different masses produces different accelerations. (a) A basketball player pushes on a basketball to make a pass. (The effect of gravity on the ball is ignored.)
 (b) The same player exerts an identical force on a stalled SUV and produces a far smaller acceleration (even if friction is negligible).
-(c) The free-body diagrams are identical, permitting direct comparison of the two situations. A series of patterns for the free-body diagram will emerge as you do more problems.")
+(c) The free-body diagrams are identical, permitting direct comparison of the two situations. A series of patterns for the free-body diagram will emerge as you do more problems.')
 {: #Figure2}
 
-It has been found that the acceleration of an object depends *only* on the net
+It has been found that the acceleration of an object depends _only_ on the net
 external force and the mass of the object. Combining the two proportionalities
 just given yields Newton\'s second law of motion.
 
@@ -133,8 +133,8 @@ $$ F_{\text{net}}=ma . $$
 </div>
 
 Although these last two equations are really the same, the first gives more
-insight into what Newton’s second law means. The law is a *cause and effect
-relationship* among three quantities that is not simply based on their
+insight into what Newton’s second law means. The law is a _cause and effect
+relationship_ among three quantities that is not simply based on their
 definitions. The validity of the second law is completely based on experimental
 verification.
 
@@ -160,7 +160,7 @@ When an object is dropped, it accelerates toward the center of Earth. Newton’s
 second law states that a net force on an object is responsible for its
 acceleration. If air resistance is negligible, the net force on a falling object
 is the gravitational force, commonly called its **weight**, $$ \vb{w} $$. Weight
-can be denoted as a vector $$ \vb{w} $$ because it has a direction; *down* is,
+can be denoted as a vector $$ \vb{w} $$ because it has a direction; _down_ is,
 by definition, the direction of gravity, and hence weight is a downward force.
 The magnitude of weight is denoted as $$ w $$. Galileo was instrumental in
 showing that, in the absence of air resistance, all objects fall with the same
@@ -170,9 +170,9 @@ derive an equation for weight.
 Consider an object with mass $$ m $$ falling downward toward Earth. It
 experiences only the downward force of gravity, which has magnitude $$ w $$.
 Newton’s second law states that the magnitude of the net external force on an
-object is $$ \mag{F}_{\text{net}}=m \mag{a} $$.
+object is $$ \mag{F}\_{\text{net}}=m \mag{a} $$.
 
-Since the object experiences only the downward force of gravity,$$ F_
+Since the object experiences only the downward force of gravity,$$ F\_
 {\text{net}}=w $$. We know that the acceleration of an object due to gravity is
 $$ g $$, or $$ a=g $$. Substituting these into Newton’s second law gives
 
@@ -210,8 +210,8 @@ Earth’s surface. On the Moon, for example, the acceleration due to gravity is
 only $$ 1.67\mss $$. A 1.0-kg mass thus has a weight of 9.8 N on Earth and only
 about 1.7 N on the Moon.
 
-The broadest definition of weight in this sense is that *the weight of an object
-is the gravitational force on it from the nearest large body*, such as Earth,
+The broadest definition of weight in this sense is that _the weight of an object
+is the gravitational force on it from the nearest large body_, such as Earth,
 the Moon, the Sun, and so on. This is the most common and useful definition of
 weight in physics. It differs dramatically, however, from the definition of
 weight used by NASA and the popular media in relation to space travel and
@@ -226,7 +226,7 @@ how much “stuff”) and does not vary in classical physics, whereas weight is 
 gravitational force and does vary depending on gravity. It is tempting to equate
 the two, since most of our examples take place on Earth, where the weight of an
 object only varies a little with the location of the object. Furthermore, the
-terms *mass* and *weight* are used interchangeably in everyday language; for
+terms _mass_ and _weight_ are used interchangeably in everyday language; for
 example, our medical records often show our “weight” in kilograms, but never in
 the correct units of newtons.
 
@@ -245,11 +245,13 @@ English units).
 
 Assuming the mass of an object is kept intact, it will remain the same,
 regardless of its location. However, because weight depends on the acceleration
-due to gravity, the weight of an object *can change* when the object enters into
+due to gravity, the weight of an object _can change_ when the object enters into
 a region with stronger or weaker gravity. For example, the acceleration due to
 gravity on the Moon is $$ 1.67\mss $$
 (which is much less than the acceleration due to gravity on Earth, $$ 9.80\mss
-$$ ). If you measured your weight on Earth and then measured your weight on the
+
+$$
+). If you measured your weight on Earth and then measured your weight on the
 Moon, you would find that you “weigh” much less, even though you do not look any
 skinnier. This is because the force of gravity is weaker on the Moon. In fact,
 when people say that they are “losing weight,” they really mean that they are
@@ -262,11 +264,11 @@ losing “mass” (which in turn causes them to weigh less).
 Take-Home Experiment: Mass and Weight
 </div>
 What do bathroom scales measure? When you stand on a bathroom scale, what happens to the scale? It depresses slightly.
-The scale contains springs that compress in proportion to your weight—similar to rubber bands expanding when pulled. 
+The scale contains springs that compress in proportion to your weight—similar to rubber bands expanding when pulled.
 The springs provide a measure of your weight (for an object which is not accelerating). This is a force in newtons
-(or pounds). In most countries, the measurement is divided by 9.80 to give a reading in mass units of kilograms. 
+(or pounds). In most countries, the measurement is divided by 9.80 to give a reading in mass units of kilograms.
 The scale measures weight but is calibrated to provide information about mass. While standing on a bathroom scale,
-push down on a table next to you. What happens to the reading? Why? Would your scale measure the same “mass” on 
+push down on a table next to you. What happens to the reading? Why? Would your scale measure the same “mass” on
 Earth as on the Moon?
 
 </div>
@@ -275,7 +277,7 @@ Earth as on the Moon?
 <div class="title">
 What Acceleration Can a Person Produce when Pushing a Lawn Mower?
 </div>
-Suppose that the net external force (push minus friction) exerted on a lawn mower is 51 N (about 11 lb) parallel to 
+Suppose that the net external force (push minus friction) exerted on a lawn mower is 51 N (about 11 lb) parallel to
 the ground. The mass of the mower is 24 kg. What is its acceleration?
 
 ![A man pushing a lawnmower to the right. A red vector above the lawnmower is pointing to the right and labeled F sub net.](../resources/Figure_04_03_03.jpg "The net force on a lawn mower is 51 N to the right. At what rate does the lawn mower accelerate to the right?")
@@ -322,7 +324,7 @@ What Rocket Thrust Accelerates This Sled?
 </div>
 Prior to manned space flights, rocket sleds were used to test aircraft, missile equipment, and physiological effects on
 human subjects at high speeds. They consisted of a platform that was mounted on one or two rails and propelled by
-several rockets. Calculate the magnitude of force exerted by each rocket, called its thrust $$ \vb{T} $$, for the 
+several rockets. Calculate the magnitude of force exerted by each rocket, called its thrust $$ \vb{T} $$, for the
 four-rocket propulsion system shown in [Figure 4](#Figure4). The
 sled’s initial acceleration is $$ 49\mss $$,
 the mass of the system is 2100 kg, and the force of friction opposing the motion
@@ -1050,7 +1052,7 @@ The motorcycle exerts a force of **1260 N** (or **1.26 × 10³ N**) backward on 
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-The rocket sled shown in the [Figure below](#Figure8) accelerates at a rate of $$ 49.0\mss $$. Its passenger has a mass 
+The rocket sled shown in the [Figure below](#Figure8) accelerates at a rate of $$ 49.0\mss $$. Its passenger has a mass
 of 75.
 0 kg.
 (a) Calculate the horizontal component of
@@ -1353,3 +1355,4 @@ defined mathematically as: $$ \vb{w}=m\vb{g} $$, where $$ \vb{g} $$ is the
 magnitude and direction of the acceleration due to gravity
 
 </div>
+$$

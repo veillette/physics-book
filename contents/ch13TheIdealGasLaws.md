@@ -11,22 +11,22 @@ chapterNumber: 13
 * Use Avogadro’s number to convert between number of molecules and number of moles.
 </div>
 
-![](../resources/Figure_13_03_01.jpg "The air inside this hot air balloon flying over Putrajaya, Malaysia, is hotter than the ambient air. As a result, the balloon experiences a buoyant force pushing it upward. (credit: Kevin Poh, Flickr)")
+![](../resources/Figure_13_03_01.jpg 'The air inside this hot air balloon flying over Putrajaya, Malaysia, is hotter than the ambient air. As a result, the balloon experiences a buoyant force pushing it upward. (credit: Kevin Poh, Flickr)')
 {: #Figure1}
 
 In this section, we continue to explore the thermal behavior of gases. In
 particular, we examine the characteristics of atoms and molecules that compose
 gases. (Most gases, for example nitrogen, $${\text{N}}_{2} $$ , and oxygen,
-$${\text{O}}_{2} $$ , are composed of two or more atoms. We will primarily use
+$${\text{O}}\_{2} $$ , are composed of two or more atoms. We will primarily use
 the term “molecule” in discussing a gas because the term can also be applied to
 monatomic gases, such as helium.)
 
 Gases are easily compressed. We can see evidence of this
 in [[Table 1]](../contents/ch13ThermalExpansionOfSolidsAndLiquids#Table1),
-where you will note that gases have the *largest* coefficients of volume
+where you will note that gases have the _largest_ coefficients of volume
 expansion. The large coefficients mean that gases expand and contract very
 rapidly with temperature changes. In addition, you will note that most gases
-expand at the *same* rate, or have the same $$\beta $$ . This raises the
+expand at the _same_ rate, or have the same $$\beta $$ . This raises the
 question as to why gases should all act in nearly the same way, when liquids and
 solids have widely varying expansion rates.
 
@@ -39,7 +39,7 @@ that the gas occupies all of the accessible volume and the expansion of gases is
 rapid. In contrast, in liquids and solids, atoms and molecules are closer
 together and are quite sensitive to the forces between them.
 
-![Spheres representing atoms and molecules; the spheres are relatively far apart and are distributed randomly.](../resources/Figure_13_03_02.jpg "Atoms and molecules in a gas are typically widely separated, as shown. Because the forces between them are quite weak at these distances, the properties of a gas depend more on the number of atoms per unit volume and on temperature than on the type of atom.")
+![Spheres representing atoms and molecules; the spheres are relatively far apart and are distributed randomly.](../resources/Figure_13_03_02.jpg 'Atoms and molecules in a gas are typically widely separated, as shown. Because the forces between them are quite weak at these distances, the properties of a gas depend more on the number of atoms per unit volume and on temperature than on the type of atom.')
 {: #Figure2}
 
 To get some idea of how pressure, temperature, and volume of a gas are related
@@ -51,7 +51,7 @@ we continue to pump air into it, the pressure increases. The pressure will
 further increase when the car is driven and the tires move. Most manufacturers
 specify optimal tire pressure for cold tires. (See [[Figure 3]](#Figure3).)
 
-![The figure has three parts, each part showing a pair of tires, and each tire connected to a pressure gauge. Each pair of tires represents the before and after images of a single tire, along with a change in pressure in that tire. In part a, the tire pressure is initially zero. After some air is added, represented by an arrow labeled Add air, the pressure rises to slightly above zero. In part b, the tire pressure is initially at the half-way mark. After some air is added, represented by an arrow labeled Add air, the pressure rises to the three-fourths mark. In part c, the tire pressure is initially at the three-fourths mark. After the temperature is raised, represented by an arrow labeled Increase temperature, the pressure rises to nearly the full mark.](../resources/Figure_13_03_03.jpg "(a) When air is pumped into a deflated tire, its volume first increases without much increase in pressure. (b) When the tire is filled to a certain point, the tire walls resist further expansion and the pressure increases with more air. (c) Once the tire is inflated, its pressure increases with temperature.")
+![The figure has three parts, each part showing a pair of tires, and each tire connected to a pressure gauge. Each pair of tires represents the before and after images of a single tire, along with a change in pressure in that tire. In part a, the tire pressure is initially zero. After some air is added, represented by an arrow labeled Add air, the pressure rises to slightly above zero. In part b, the tire pressure is initially at the half-way mark. After some air is added, represented by an arrow labeled Add air, the pressure rises to the three-fourths mark. In part c, the tire pressure is initially at the three-fourths mark. After the temperature is raised, represented by an arrow labeled Increase temperature, the pressure rises to nearly the full mark.](../resources/Figure_13_03_03.jpg '(a) When air is pumped into a deflated tire, its volume first increases without much increase in pressure. (b) When the tire is filled to a certain point, the tire walls resist further expansion and the pressure increases with more air. (c) Once the tire is inflated, its pressure increases with temperature.')
 {: #Figure3}
 
 At room temperatures, collisions between atoms and molecules can be ignored. In
@@ -93,8 +93,8 @@ tire when it is pumped slowly and the temperature is constant. At first, the
 pressure $$P $$ is essentially equal to atmospheric pressure, and the volume $$V
 $$ increases in direct proportion to the number of atoms and molecules $$N $$
 put into the tire. Once the volume of the tire is constant, the equation
-$$PV=Nk_{B}T $$ predicts that the pressure should increase in proportion to *the
-number N of atoms and molecules*.
+$$PV=Nk\_{B}T $$ predicts that the pressure should increase in proportion to _the
+number N of atoms and molecules_.
 
 <div id="Example1" class="example" markdown="1">
 <div class="title">
@@ -117,7 +117,7 @@ initial temperature $${T}_{0}= 18.0ºC $$ , and the final temperature $${T}_
 {\text{f}}= 35.0ºC $$ . We must find the final pressure $${P}_{\text{f}} $$ .
 How can we use the equation $$PV=Nk_{B}T $$ ? At first, it may seem that not
 enough information is given, because the volume $$V $$ and number of atoms $$N
-$$ are not specified. What we can do is use the equation twice:  $${P}_{0}{V}_
+$$ are not specified. What we can do is use the equation twice: $${P}_{0}{V}_
 {0}=Nk_{B}T_{0} $$ and $${P}_{\text{f}}{V}_{\text{f}}=Nk_{B}T_{\text{f}} $$ . If
 we divide $${P}_{\text{f}}{V}_{\text{f}} $$ by $${P}_{0}{V}_{0} $$ we can come
 up with an equation that allows us to solve for $${P}_{\text{f}} $$.
@@ -245,7 +245,7 @@ One mole always contains  $$ 6.02 \times 10^{23}  $$
 </div>
 </div>
 
-![The illustration shows relatively flat land with a solitary mountain, labeled Mt. Everest, and blue sky above. A double-headed vertical arrow stretches between the land and a point in the sky that is well above the peak of the mountain. The arrow, labeled table tennis balls, serves to indicate that a column of one mole of table tennis balls would reach a point in the sky that is much higher than the peak of Mt. Everest.](../resources/Figure_13_03_04.jpg "How big is a mole? On a macroscopic level, one mole of table tennis balls would cover the Earth to a depth of about 40 km.")
+![The illustration shows relatively flat land with a solitary mountain, labeled Mt. Everest, and blue sky above. A double-headed vertical arrow stretches between the land and a point in the sky that is well above the peak of the mountain. The arrow, labeled table tennis balls, serves to indicate that a column of one mole of table tennis balls would reach a point in the sky that is much higher than the peak of Mt. Everest.](../resources/Figure_13_03_04.jpg 'How big is a mole? On a macroscopic level, one mole of table tennis balls would cover the Earth to a depth of about 40 km.')
 {: #Figure4}
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
@@ -307,7 +307,7 @@ this number is the same for all gases. In other words, it is independent of the
 gas.
 
 The (average) molar weight of air is approximately 80% $${\text{N}}_{2} $$ and 20%
-$${\text{O}}_{2} $$ is $$M= 28.8 \text{g}\text{.} $$ Thus the mass of one cubic
+$${\text{O}}\_{2} $$ is $$M= 28.8 \text{g}\text{.} $$ Thus the mass of one cubic
 meter of air is 1.28 kg. If a living room has dimensions $$5 \text{m}×5
 \text{m}×3 \text{m} \text{,} $$ the mass of air inside the room is 96 kg, which
 is the typical mass of a human.
@@ -489,9 +489,9 @@ Atoms and molecules are close together in solids and liquids. In gases they are 
 
 ### Section Summary
 
-* The ideal gas law relates the pressure and volume of a gas to the number of
+- The ideal gas law relates the pressure and volume of a gas to the number of
   gas molecules and the temperature of the gas.
-* The ideal gas law can be written in terms of the number of molecules of gas:
+- The ideal gas law can be written in terms of the number of molecules of gas:
 
   <div class="equation" >
    $$PV=Nk_{B}T, $$
@@ -504,17 +504,20 @@ Atoms and molecules are close together in solids and liquids. In gases they are 
    $$k_{B}= 1.38 \times 10^{-23} \text{J/K}. $$
   </div>
 
-* A mole is the number of atoms in a 12-g sample of carbon-12.
-* The number of molecules in a mole is called Avogadro’s number $${N}_{\text{A}}
-  $$ ,
+- A mole is the number of atoms in a 12-g sample of carbon-12.
+- The number of molecules in a mole is called Avogadro’s number $${N}\_{\text{A}}
+
+  $$
+  ,
 
   <div class="equation" >
    $${N}_{\text{A}}= 6.02 \times 10^{23}  {\text{mol}}^{-1}. $$
   </div>
+  $$
 
-* A mole of any substance has a mass in grams equal to its molecular weight,
+- A mole of any substance has a mass in grams equal to its molecular weight,
   which can be determined from the periodic table of elements.
-* The ideal gas law can also be written and solved in terms of the number of
+- The ideal gas law can also be written and solved in terms of the number of
   moles of gas:
 
   <div class="equation" >
@@ -526,7 +529,7 @@ Atoms and molecules are close together in solids and liquids. In gases they are 
    $$R= 8.31 \text{J/mol}\cdot \text{K}. $$
   </div>
 
-* The ideal gas law is generally valid at temperatures well above the boiling
+- The ideal gas law is generally valid at temperatures well above the boiling
   temperature.
 
 ### Conceptual Questions
@@ -760,11 +763,11 @@ ideal gas law
 of gas molecules or number of moles of gas and the temperature of the gas
 
 Boltzmann constant
-:  $$k_{B} $$ , a physical constant that relates energy to temperature; $$k_
+: $$k_{B} $$ , a physical constant that relates energy to temperature; $$k_
 {B}=1.38 \times 10^{-23} \text{J/K} $$
 
 Avogadro’s number
-:  $${N}_{\text{A}} $$ , the number of molecules or atoms in one mole of a
+: $${N}_{\text{A}} $$ , the number of molecules or atoms in one mole of a
 substance; $${N}_{\text{A}}= 6.02 \times 10^{23} $$ particles/mole
 
 mole

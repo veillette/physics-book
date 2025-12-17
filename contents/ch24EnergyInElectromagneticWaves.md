@@ -34,7 +34,7 @@ great symmetries in nature.
 
 </div>
 
-![The propagation of two electromagnetic waves is shown in three dimensional planes. The first wave shows with the variation of two components E and B. E is a sine wave in one plane with small arrows showing the vibrations of particles in the plane. B is a sine wave in a plane perpendicular to the E wave. The B wave has arrows to show the vibrations of particles in the plane. The waves are shown intersecting each other at the junction of the planes because E and B are perpendicular to each other. The direction of propagation of wave is shown perpendicular to E and B waves. The energy carried is given as E sub u. The second wave shows with the variation of the components two E and two B, that is, E and B waves with double the amplitude of the first case. Two E is a sine wave in one plane with small arrows showing the vibrations of particles in the plane. Two B is a sine wave in a plane perpendicular to the two E wave. The two B wave has arrows to show the vibrations of particles in the plane. The waves are shown intersecting each other at the junction of the planes because two E and two B waves are perpendicular to each other. The direction of propagation of wave is shown perpendicular to two E and two B waves. The energy carried is given as four E sub u.](../resources/Figure_24_04_01.jpg "Energy carried by a wave is proportional to its amplitude squared. With electromagnetic waves, larger \( E \) -fields and \( B \) -fields exert larger forces and can do more work.")
+![The propagation of two electromagnetic waves is shown in three dimensional planes. The first wave shows with the variation of two components E and B. E is a sine wave in one plane with small arrows showing the vibrations of particles in the plane. B is a sine wave in a plane perpendicular to the E wave. The B wave has arrows to show the vibrations of particles in the plane. The waves are shown intersecting each other at the junction of the planes because E and B are perpendicular to each other. The direction of propagation of wave is shown perpendicular to E and B waves. The energy carried is given as E sub u. The second wave shows with the variation of the components two E and two B, that is, E and B waves with double the amplitude of the first case. Two E is a sine wave in one plane with small arrows showing the vibrations of particles in the plane. Two B is a sine wave in a plane perpendicular to the two E wave. The two B wave has arrows to show the vibrations of particles in the plane. The waves are shown intersecting each other at the junction of the planes because two E and two B waves are perpendicular to each other. The direction of propagation of wave is shown perpendicular to two E and two B waves. The energy carried is given as four E sub u.](../resources/Figure_24_04_01.jpg 'Energy carried by a wave is proportional to its amplitude squared. With electromagnetic waves, larger ( E ) -fields and ( B ) -fields exert larger forces and can do more work.')
 {: #Figure1}
 
 But there is energy in an electromagnetic wave, whether it is absorbed or not.
@@ -49,7 +49,7 @@ for sound waves, where amplitude is proportional to pressure. In electromagnetic
 waves, the amplitude is the **maximum field strength** of the electric and
 magnetic fields. (See [[Figure 1]](#Figure1).)
 
-Thus the energy carried and the **intensity**  $$I $$ of an electromagnetic wave
+Thus the energy carried and the **intensity** $$I $$ of an electromagnetic wave
 is proportional to $${E}^{2} $$ and $${B}^{2} $$ . In fact, for a continuous
 sinusoidal electromagnetic wave, the average intensity $${I}_{\text{ave}} $$ is
 given by
@@ -65,7 +65,7 @@ as always, is power per unit area (here in $${\text{W/m}}^{2} $$ ).
 The average intensity of an electromagnetic wave $${I}_{\text{ave}} $$ can also
 be expressed in terms of the magnetic field strength by using the relationship
 $$B=E/c $$ , and the fact that $${\epsilon }_{0}=1/{\mu }_{0}{c}^{2} $$ , where
-$${\mu }_{0} $$ is the permeability of free space. Algebraic manipulation
+$${\mu }\_{0} $$ is the permeability of free space. Algebraic manipulation
 produces the relationship
 
 <div class="equation" >
@@ -124,7 +124,7 @@ Note that the peak intensity is twice the average:
 **Solution for (b)**
 
 To find $${E}_{0} $$ , we can rearrange the first equation given above for
-$${I}_{\text{ave}} $$ to give
+$${I}\_{\text{ave}} $$ to give
 
 <div class="equation" >
  $${E}_{0}={\left(\frac{2{I}_{\text{ave}}}{ c\epsilon_{0}}\right)}^{1/2}. $$
@@ -157,7 +157,7 @@ a large number.
 
 ### Section Summary
 
-* The energy carried by any wave is proportional to its amplitude squared. For
+- The energy carried by any wave is proportional to its amplitude squared. For
   electromagnetic waves, this means intensity can be expressed as
 
   <div class="equation" >
@@ -168,7 +168,7 @@ where $${I}_{\text{ave}} $$ is the average intensity in $${\text{W/m}}^{2} $$ ,
 and $${E}_{0} $$ is the maximum electric field strength of a continuous
 sinusoidal wave.
 
-* This can also be expressed in terms of the maximum magnetic field strength
+- This can also be expressed in terms of the maximum magnetic field strength
   $${B}_{0} $$ as
 
   <div class="equation" >
@@ -181,7 +181,7 @@ and in terms of both electric and magnetic fields as
    $${I}_{\text{ave}}=\frac{ {E}_{0}{B}_{0}}{ {2\mu }_{0}}. $$
   </div>
 
-* The three expressions for $${I}_{\text{ave}} $$ are all equivalent.
+- The three expressions for $${I}_{\text{ave}} $$ are all equivalent.
 
 ### Problems &amp; Exercises
 
@@ -243,7 +243,7 @@ A 2.50-m-diameter university communications satellite dish receives TV signals t
  (See [[Figure 2]](#Figure2).) (a) What is the intensity of this wave? (b) What is the power received by the antenna? (c) If the orbiting satellite broadcasts uniformly over an area of  $$ 1.50 \times 10^{13}  {\text{m}}^{2} $$
  (a large fraction of North America), how much power does it radiate?
 
-![A large, round dish antenna looking like a giant white saucer is shown. It rests on a pillar like structure based on the ground. It is shown to receive TV signals in the form of electromagnetic waves shown as wavy arrows.](../resources/Figure_24_04_02.jpg "Satellite dishes receive TV signals sent from orbit. Although the signals are quite weak, the receiver can detect them by being tuned to resonate at their frequency.")
+![A large, round dish antenna looking like a giant white saucer is shown. It rests on a pillar like structure based on the ground. It is shown to receive TV signals in the form of electromagnetic waves shown as wavy arrows.](../resources/Figure_24_04_02.jpg 'Satellite dishes receive TV signals sent from orbit. Although the signals are quite weak, the receiver can detect them by being tuned to resonate at their frequency.')
 {: #Figure2}
 
 </div>
@@ -259,7 +259,7 @@ Lasers can be constructed that produce an extremely high intensity electromagnet
 <div class="solution" data-element-type="problems-exercises" markdown="1">
 (a) 333 T
 
-(b)  $$ 1.33 \times 10^{19} {\text{W/m}}^{2} $$
+(b) $$ 1.33 \times 10^{19} {\text{W/m}}^{2} $$
 (c) 13.3 kJ
 
 </div>
@@ -334,7 +334,9 @@ Assume the mostly infrared radiation from a heat lamp acts like a continuous
 wave with wavelength $$1.50 \mu \text{m} $$ .
 (a) If the lamp’s 200-W output is focused on a person’s shoulder, over a
 circular area 25.0 cm in diameter, what is the intensity in $${\text{W/m}}^{2}
-$$ ?
+
+$$
+?
 (b) What is the peak electric field strength? (c) Find the peak magnetic field
 strength. (d) How long will it take to increase the temperature of the 4.00-kg
 shoulder by $$2.00º C $$ , assuming no other heat transfer and given that its
@@ -370,7 +372,9 @@ strength of the microwave? (d) What is its peak magnetic field strength?
 <div class="problem" markdown="1">
 **Integrated Concepts**
 
-Electromagnetic radiation from a 5.00-mW laser is concentrated on a $$
+Electromagnetic radiation from a 5.00-mW laser is concentrated on a
+$$
+
 1.00{\text{-mm}}^{2} $$ area. (a) What is the intensity in $${\text{W/m}}^{2} $$
 ?
 (b) Suppose a 2.00-nC static charge is in the beam. What is the maximum electric

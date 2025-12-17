@@ -10,8 +10,7 @@ chapterNumber: 17
 * Describe sound as a longitudinal wave.
 </div>
 
-![Photograph of a glass, half of which is shattered into small pieces by a high-intensity sound wave. The tiny glass bits are shattered all over the place.](../resources/Figure_17_01_01.jpg
-"This glass has been shattered by a high-intensity sound wave of the same frequency as the resonant frequency of the glass. While the sound is not visible, the effects of the sound prove its existence. (credit: read, Flickr)")
+![Photograph of a glass, half of which is shattered into small pieces by a high-intensity sound wave. The tiny glass bits are shattered all over the place.](../resources/Figure_17_01_01.jpg 'This glass has been shattered by a high-intensity sound wave of the same frequency as the resonant frequency of the glass. While the sound is not visible, the effects of the sound prove its existence. (credit: read, Flickr)')
 {: #Figure1}
 
 Sound can be used as a familiar illustration of waves. Because hearing is one of
@@ -41,13 +40,13 @@ almost no shear strength. In solids, sound waves can be both transverse and
 longitudinal.) [[Figure 4]](#Figure4) shows a graph of gauge pressure versus
 distance from the vibrating string.
 
-![Diagram of a vibrating string held fixed at both ends. The string is shown to move toward the right. The compression and rarefaction of air is shown as bold and dotted line arcs around the string.](../resources/Figure_17_01_02.jpg "A vibrating string moving to the right compresses the air in front of it and expands the air behind it.")
+![Diagram of a vibrating string held fixed at both ends. The string is shown to move toward the right. The compression and rarefaction of air is shown as bold and dotted line arcs around the string.](../resources/Figure_17_01_02.jpg 'A vibrating string moving to the right compresses the air in front of it and expands the air behind it.')
 {: #Figure2}
 
-![Diagram of a vibrating string held fixed at both the ends. The string is shown to move toward the left. The compression and rarefaction of air is shown as bold and dotted arcs around the string.](../resources/Figure_17_01_03.jpg "As the string moves to the left, it creates another compression and rarefaction as the ones on the right move away from the string.")
+![Diagram of a vibrating string held fixed at both the ends. The string is shown to move toward the left. The compression and rarefaction of air is shown as bold and dotted arcs around the string.](../resources/Figure_17_01_03.jpg 'As the string moves to the left, it creates another compression and rarefaction as the ones on the right move away from the string.')
 {: #Figure3}
 
-![Part a of the diagram shows a vibrating string held fixed at both the ends. The string is shown to vibrate to and fro toward left and right. The compression and rarefaction of air is shown as bold and dotted arcs around the string. Part b shows a graph of pressure versus distance from the source. The pressure is along the y axis and the distance is along the x axis. The graph is a sine wave along the x axis.](../resources/Figure_17_01_04.jpg "After many vibrations, there are a series of compressions and rarefactions moving out from the string as a sound wave. The graph shows gauge pressure versus distance from the source. Pressures vary only slightly from atmospheric for ordinary sounds.")
+![Part a of the diagram shows a vibrating string held fixed at both the ends. The string is shown to vibrate to and fro toward left and right. The compression and rarefaction of air is shown as bold and dotted arcs around the string. Part b shows a graph of pressure versus distance from the source. The pressure is along the y axis and the distance is along the x axis. The graph is a sine wave along the x axis.](../resources/Figure_17_01_04.jpg 'After many vibrations, there are a series of compressions and rarefactions moving out from the string as a sound wave. The graph shows gauge pressure versus distance from the source. Pressures vary only slightly from atmospheric for ordinary sounds.')
 {: #Figure4}
 
 The amplitude of a sound wave decreases with distance from its source, because
@@ -64,7 +63,7 @@ depends on how far apart they are—that is, it depends on wavelength. Wavelengt
 frequency, amplitude, and speed of propagation are important for sound, as they
 are for all waves.
 
-![Diagram of an ear is shown with sound wave compressions and rare factions entering the ear as semicircular arcs of bold and dotted lines. The cross section of ear drum marked as A is shown to vibrate to and fro with a force F equals P times A.](../resources/Figure_17_01_05.jpg "Sound wave compressions and rarefactions travel up the ear canal and force the eardrum to vibrate. There is a net force on the eardrum, since the sound wave pressures differ from the atmospheric pressure found behind the eardrum. A complicated mechanism converts the vibrations to nerve impulses, which are perceived by the person.")
+![Diagram of an ear is shown with sound wave compressions and rare factions entering the ear as semicircular arcs of bold and dotted lines. The cross section of ear drum marked as A is shown to vibrate to and fro with a force F equals P times A.](../resources/Figure_17_01_05.jpg 'Sound wave compressions and rarefactions travel up the ear canal and force the eardrum to vibrate. There is a net force on the eardrum, since the sound wave pressures differ from the atmospheric pressure found behind the eardrum. A complicated mechanism converts the vibrations to nerve impulses, which are perceived by the person.')
 {: #Figure5}
 
 <div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
@@ -81,9 +80,9 @@ Make waves with a dripping faucet, audio speaker, or laser! Add a second source 
 
 ### Section Summary
 
-* Sound is a disturbance of matter that is transmitted from its source outward.
-* Sound is one type of wave.
-* Hearing is the perception of sound.
+- Sound is a disturbance of matter that is transmitted from its source outward.
+- Sound is one type of wave.
+- Hearing is the perception of sound.
 
 <div class="glossary" markdown="1">
 ### Glossary

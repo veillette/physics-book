@@ -83,7 +83,7 @@ class SearchUI {
    */
   attachEventListeners() {
     // Search input event
-    this.searchInput.addEventListener('input', (e) => {
+    this.searchInput.addEventListener('input', e => {
       const query = e.target.value.trim();
 
       // Show/hide clear button
@@ -108,14 +108,14 @@ class SearchUI {
     });
 
     // Close results when clicking outside
-    document.addEventListener('click', (e) => {
+    document.addEventListener('click', e => {
       if (!e.target.closest('.book-search')) {
         this.hideResults();
       }
     });
 
     // Focus input on keyboard shortcut (Ctrl+K or Cmd+K)
-    document.addEventListener('keydown', (e) => {
+    document.addEventListener('keydown', e => {
       if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
         e.preventDefault();
         this.searchInput.focus();
@@ -163,12 +163,13 @@ class SearchUI {
   displayResults(results, query) {
     this.resultsContainer.style.display = 'block';
 
-    const resultsHTML = results.map((result, index) => {
-      // Highlight query in title
-      const highlightedTitle = this.highlightText(result.title, query);
-      const highlightedPreview = this.highlightText(result.preview, query);
+    const resultsHTML = results
+      .map((result, index) => {
+        // Highlight query in title
+        const highlightedTitle = this.highlightText(result.title, query);
+        const highlightedPreview = this.highlightText(result.preview, query);
 
-      return `
+        return `
         <div class="search-result-item" data-index="${index}">
           <a href="${result.url}" class="search-result-link">
             <div class="search-result-title">${highlightedTitle}</div>
@@ -176,7 +177,8 @@ class SearchUI {
           </a>
         </div>
       `;
-    }).join('');
+      })
+      .join('');
 
     this.resultsContainer.innerHTML = `
       <div class="search-results-header">

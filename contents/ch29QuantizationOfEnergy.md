@@ -22,7 +22,7 @@ the like, we are less aware that energy, too, can be quantized. Some of the
 earliest clues about the necessity of quantum mechanics over classical physics
 came from the quantization of energy.
 
-![The blackbody radiation graph of E M radiation intensity versus wavelengths is shown, with the visible band represented as vertical colored strip marked on x axis. Wavelength is along x axis and E M radiation intensity is along y axis. The variation of E M radiation intensity is shown by three curves that start at origin, rise up to their highest point and then drop toward the x axis smoothly, and finally extend parallel to the x axis. There are three curves for three different temperatures, and each has a different peak for radiation intensity. As the temperature decreases, the peak of the black body radiation curves moves to a lower radiation intensity and longer wavelength.](../resources/Figure_29_01_01.jpg "Graphs of blackbody radiation (from an ideal radiator) at three different radiator temperatures. The intensity or rate of radiation emission increases dramatically with temperature, and the peak of the spectrum shifts toward the visible and ultraviolet parts of the spectrum. The shape of the spectrum cannot be described with classical physics.")
+![The blackbody radiation graph of E M radiation intensity versus wavelengths is shown, with the visible band represented as vertical colored strip marked on x axis. Wavelength is along x axis and E M radiation intensity is along y axis. The variation of E M radiation intensity is shown by three curves that start at origin, rise up to their highest point and then drop toward the x axis smoothly, and finally extend parallel to the x axis. There are three curves for three different temperatures, and each has a different peak for radiation intensity. As the temperature decreases, the peak of the black body radiation curves moves to a lower radiation intensity and longer wavelength.](../resources/Figure_29_01_01.jpg 'Graphs of blackbody radiation (from an ideal radiator) at three different radiator temperatures. The intensity or rate of radiation emission increases dramatically with temperature, and the peak of the spectrum shifts toward the visible and ultraviolet parts of the spectrum. The shape of the spectrum cannot be described with classical physics.')
 {: #Figure1}
 
 Where is the quantization of energy observed? Let us begin by considering the
@@ -62,8 +62,8 @@ for **Planck’s constant**, given by
 
 The equation $$E=\left(n+\frac{1}{2}\right) hf $$ means that an oscillator
 having a frequency $$f $$
-(emitting and absorbing EM radiation of frequency $$f $$ )   can have its energy
-increase or decrease only in *discrete* steps of size
+(emitting and absorbing EM radiation of frequency $$f $$ ) can have its energy
+increase or decrease only in _discrete_ steps of size
 
 <div class="equation" >
  $$\Delta E= hf. $$
@@ -93,7 +93,7 @@ quickly embraced Einstein’s special relativity, published in 1905, and in 1906
 Planck was the first to suggest the correct formula for relativistic momentum,
 $$p=\gamma mu $$.
 
-![A photo of German physicist Max Plank is shown.](../resources/Figure_29_01_02.jpg "The German physicist Max Planck had a major influence on the early development of quantum mechanics, being the first to recognize that energy is sometimes quantized. Planck also made important contributions to special relativity and classical physics. (credit: Library of Congress, Prints and Photographs Division via Wikimedia Commons)")
+![A photo of German physicist Max Plank is shown.](../resources/Figure_29_01_02.jpg 'The German physicist Max Planck had a major influence on the early development of quantum mechanics, being the first to recognize that energy is sometimes quantized. Planck also made important contributions to special relativity and classical physics. (credit: Library of Congress, Prints and Photographs Division via Wikimedia Commons)')
 {: #Figure2}
 
 Note that Planck’s constant $$h $$ is a very small number. So for an infrared
@@ -111,8 +111,8 @@ classical physics.
 
 ### Atomic Spectra
 
-Now let us turn our attention to the *emission and absorption of EM radiation by
-gases*. The Sun is the most common example of a body containing gases emitting
+Now let us turn our attention to the _emission and absorption of EM radiation by
+gases_. The Sun is the most common example of a body containing gases emitting
 an EM spectrum that includes visible light. We also see examples in neon signs
 and candle flames. Studies of emissions of hot gases began more than two
 centuries ago, and it was soon recognized that these emission spectra contained
@@ -129,7 +129,7 @@ as $$\Delta E= hf\text{,} $$ the energies of the electrons in the emitting atoms
 and molecules are quantized. This is discussed in more detail later in this
 chapter.
 
-![Emission spectrum of oxygen is shown as a band containing all colors with some distinct colors as discrete bold lines.](../resources/Figure_29_01_03.jpg "Emission spectrum of oxygen. When an electrical discharge is passed through a substance, its atoms and molecules absorb energy, which is reemitted as EM radiation. The discrete nature of these emissions implies that the energy states of the atoms and molecules are quantized. Such atomic spectra were used as analytical tools for many decades before it was understood why they are quantized. (credit: Teravolt, Wikimedia Commons)")
+![Emission spectrum of oxygen is shown as a band containing all colors with some distinct colors as discrete bold lines.](../resources/Figure_29_01_03.jpg 'Emission spectrum of oxygen. When an electrical discharge is passed through a substance, its atoms and molecules absorb energy, which is reemitted as EM radiation. The discrete nature of these emissions implies that the energy states of the atoms and molecules are quantized. Such atomic spectra were used as analytical tools for many decades before it was understood why they are quantized. (credit: Teravolt, Wikimedia Commons)')
 {: #Figure3}
 
 It was a major puzzle that atomic spectra are quantized. Some of the best minds
@@ -146,7 +146,6 @@ PhET Explorations: Models of the Hydrogen Atom
 How did scientists figure out the structure of atoms without looking at them? Try out different models by shooting light at the atom. Check how the prediction of the model matches the experimental results.
 {: class="newline"}
 
-
 {: class="newline"}
 
 <div class="media" id="PhET_module" data-alt="">
@@ -156,19 +155,19 @@ How did scientists figure out the structure of atoms without looking at them? Tr
 
 ### Section Summary
 
-* The first indication that energy is sometimes quantized came from blackbody
+- The first indication that energy is sometimes quantized came from blackbody
   radiation, which is the emission of EM radiation by an object with an
   emissivity of 1.
-* Planck recognized that the energy levels of the emitting atoms and molecules
+- Planck recognized that the energy levels of the emitting atoms and molecules
   were quantized, with only the allowed values of $$E=\left(n+\frac{1}{2}\right)
   hf\text{,} $$ where $$n $$ is any non-negative integer (0, 1, 2, 3, …).
-* $$h $$ is Planck’s constant, whose value is $$h= 6.626 \times 10^{-34}
+- $$h $$ is Planck’s constant, whose value is $$h= 6.626 \times 10^{-34}
   \text{J}\cdot \text{s} \text{.} $$
-* Thus, the oscillatory absorption and emission energies of atoms and molecules
+- Thus, the oscillatory absorption and emission energies of atoms and molecules
   in a blackbody could increase or decrease only in steps of size $$\Delta E= hf
   $$ where $$f $$ is the frequency of the oscillatory nature of the absorption
   and emission of EM radiation.
-* Another indication of energy levels being quantized in atoms and molecules
+- Another indication of energy levels being quantized in atoms and molecules
   comes from the lines in atomic spectra, which are the EM emissions of
   individual atoms and molecules.
 
@@ -259,7 +258,7 @@ blackbody radiation
 : the electromagnetic radiation from a blackbody
 
 Planck’s constant
-:  $$h= 6.626 \times 10^{-34} \text{J}\cdot \text{s} $$
+: $$h= 6.626 \times 10^{-34} \text{J}\cdot \text{s} $$
 
 atomic spectra
 : the electromagnetic emission from atoms and molecules

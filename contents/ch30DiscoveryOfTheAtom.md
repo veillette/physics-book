@@ -95,7 +95,7 @@ Brownian motion, the size of molecules can be calculated. The smaller and more
 numerous they are, the smaller the fluctuations in the numbers striking
 different sides.
 
-![Inside a circle, water molecules are shown with a magnified image of a suspended pollen grain. The suspended particle is being constantly hit by molecules in the surrounding fluid. The path followed by the pollen grain is zig-zagging and complex, illustrating Brownian motion.](../resources/Figure_30_01_01.jpg "The position of a pollen grain in water, measured every few seconds under a microscope, exhibits Brownian motion. Brownian motion is due to fluctuations in the number of atoms and molecules colliding with a small mass, causing it to move about in complex paths. This is nearly direct evidence for the existence of atoms, providing a satisfactory alternative explanation cannot be found.")
+![Inside a circle, water molecules are shown with a magnified image of a suspended pollen grain. The suspended particle is being constantly hit by molecules in the surrounding fluid. The path followed by the pollen grain is zig-zagging and complex, illustrating Brownian motion.](../resources/Figure_30_01_01.jpg 'The position of a pollen grain in water, measured every few seconds under a microscope, exhibits Brownian motion. Brownian motion is due to fluctuations in the number of atoms and molecules colliding with a small mass, causing it to move about in complex paths. This is nearly direct evidence for the existence of atoms, providing a satisfactory alternative explanation cannot be found.')
 {: #Figure1}
 
 It was Albert Einstein who, starting in his epochal year of 1905, published
@@ -137,15 +137,15 @@ important. The nucleus in turn has a substructure, as do the particles of which
 it is composed. These topics, and the question of whether there is a smallest
 basic structure to matter, will be explored in later parts of the text.
 
-![A pattern of diagonal lines in golden and brown color depicting gold atoms as observed with a scanning tunneling electron microscope.](../resources/Figure_30_01_02.jpg "Individual atoms can be detected with devices such as the scanning tunneling electron microscope that produced this image of individual gold atoms on a graphite substrate. (credit: Erwin Rossen, Eindhoven University of Technology, via Wikimedia Commons)")
+![A pattern of diagonal lines in golden and brown color depicting gold atoms as observed with a scanning tunneling electron microscope.](../resources/Figure_30_01_02.jpg 'Individual atoms can be detected with devices such as the scanning tunneling electron microscope that produced this image of individual gold atoms on a graphite substrate. (credit: Erwin Rossen, Eindhoven University of Technology, via Wikimedia Commons)')
 {: #Figure2}
 
 ### Section Summary
 
-* Atoms are the smallest unit of elements; atoms combine to form molecules, the
+- Atoms are the smallest unit of elements; atoms combine to form molecules, the
   smallest unit of compounds.
-* The first direct observation of atoms was in Brownian motion.
-* Analysis of Brownian motion gave accurate sizes for atoms (
+- The first direct observation of atoms was in Brownian motion.
+- Analysis of Brownian motion gave accurate sizes for atoms (
   $$10^{\text{−10}} \text{m} $$ on average) and a precise value for Avogadro’s
   number.
 

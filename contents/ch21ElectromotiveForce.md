@@ -42,7 +42,7 @@ Emf is not a force at all; it is a special type of potential difference. To be
 precise, the electromotive force (emf) is the potential difference of a source
 when no current is flowing. Units of emf are volts.
 
-![A set of four photographs. The first one shows a row of tall windmills. The second shows water gushing out of the open shutters of a hydroelectric dam. The third shows a set of five batteries of different sizes that can supply voltage to electric circuits. The fourth photograph shows a solar farm.](../resources/Figure_21_02_01.jpg "A variety of voltage sources (clockwise from top left): the Brazos Wind Farm in Fluvanna, Texas (credit: Leaflet, Wikimedia Commons); the Krasnoyarsk Dam in Russia (credit: Alex Polezhaev); a solar farm (credit: U.S. Department of Energy); and a group of nickel metal hydride batteries (credit: Tiaa Monto). The voltage output of each depends on its construction and load, and equals emf only if there is no load.")
+![A set of four photographs. The first one shows a row of tall windmills. The second shows water gushing out of the open shutters of a hydroelectric dam. The third shows a set of five batteries of different sizes that can supply voltage to electric circuits. The fourth photograph shows a solar farm.](../resources/Figure_21_02_01.jpg 'A variety of voltage sources (clockwise from top left): the Brazos Wind Farm in Fluvanna, Texas (credit: Leaflet, Wikimedia Commons); the Krasnoyarsk Dam in Russia (credit: Alex Polezhaev); a solar farm (credit: U.S. Department of Energy); and a group of nickel metal hydride batteries (credit: Tiaa Monto). The voltage output of each depends on its construction and load, and equals emf only if there is no load.')
 {: #Figure1}
 
 Electromotive force is directly related to the source of potential difference,
@@ -68,7 +68,7 @@ and internal resistance $$r $$ are in series. The smaller the internal
 resistance for a given emf, the more current and the more power the source can
 supply.
 
-![This diagram shows a battery with a schematic indicating the e m f, represented by script E, and the internal resistance r of the battery. The voltage output of the battery is measured between the input and output terminals and is equal to the e m f minus the product of the current and the internal resistance.](../resources/Figure_21_02_02.jpg "Any voltage source (in this case, a carbon-zinc dry cell) has an emf related to its source of potential difference, and an internal resistance \( r \) related to its construction. (Note that the script E stands for emf.). Also shown are the output terminals across which the terminal voltage \( V \) is measured. Since \( V= \text{emf} - I r \), terminal voltage equals emf only if there is no current flowing.")
+![This diagram shows a battery with a schematic indicating the e m f, represented by script E, and the internal resistance r of the battery. The voltage output of the battery is measured between the input and output terminals and is equal to the e m f minus the product of the current and the internal resistance.](../resources/Figure_21_02_02.jpg 'Any voltage source (in this case, a carbon-zinc dry cell) has an emf related to its source of potential difference, and an internal resistance ( r ) related to its construction. (Note that the script E stands for emf.). Also shown are the output terminals across which the terminal voltage ( V ) is measured. Since ( V= \\text{emf} - I r ), terminal voltage equals emf only if there is no current flowing.')
 {: #Figure2}
 
 The internal resistance $$r $$ can behave in complex ways. As noted, $$r $$
@@ -91,7 +91,7 @@ connected to a lead oxide plate, while the anode (negative) terminal is
 connected to a lead plate. Both plates are immersed in sulfuric acid, the
 electrolyte for the system.
 
-![A simplified view of a battery shows a rectangular container of sulfuric acid with two thin upright metal plates immersed in it, one made of lead and the other made of lead oxide. Each plate projects above the liquid line, providing a positive or negative terminal above the battery. The positive terminal is labeled as the cathode, and the negative terminal is labeled as the anode.](../resources/Figure_21_02_03.jpg "Artist&#x2019;s conception of a lead-acid cell. Chemical reactions in a lead-acid cell separate charge, sending negative charge to the anode, which is connected to the lead plates. The lead oxide plates are connected to the positive or cathode terminal of the cell. Sulfuric acid conducts the charge as well as participating in the chemical reaction.")
+![A simplified view of a battery shows a rectangular container of sulfuric acid with two thin upright metal plates immersed in it, one made of lead and the other made of lead oxide. Each plate projects above the liquid line, providing a positive or negative terminal above the battery. The positive terminal is labeled as the cathode, and the negative terminal is labeled as the anode.](../resources/Figure_21_02_03.jpg 'Artist’s conception of a lead-acid cell. Chemical reactions in a lead-acid cell separate charge, sending negative charge to the anode, which is connected to the lead plates. The lead oxide plates are connected to the positive or cathode terminal of the cell. Sulfuric acid conducts the charge as well as participating in the chemical reaction.')
 {: #Figure3}
 
 The details of the chemical reaction are left to the reader to pursue in a
@@ -108,7 +108,7 @@ these electrons come from the anode, flow through a resistance, and return to
 the cathode. Note also that since the chemical reactions involve substances with
 resistance, it is not possible to create the emf without an internal resistance.
 
-![The diagram shows a simplified view of a battery depicting a rectangular container containing two thin upright metal plates immersed in a liquid. An enlarged view of the metal plates is also shown. One plate has positive charges on it shown as small spheres enclosing a positive sign. The other plate has negative charge on it shown as small spheres enclosing an electron. The electrons are shown to move from the positive plate to the negative plate using arrows through a molecular reaction in the liquid.](../resources/Figure_21_02_04.jpg "Artist&#x2019;s conception of two electrons being forced onto the anode of a cell and two electrons being removed from the cathode of the cell. The chemical reaction in a lead-acid battery places two electrons on the anode and removes two from the cathode. It requires a closed circuit to proceed, since the two electrons must be supplied to the cathode.")
+![The diagram shows a simplified view of a battery depicting a rectangular container containing two thin upright metal plates immersed in a liquid. An enlarged view of the metal plates is also shown. One plate has positive charges on it shown as small spheres enclosing a positive sign. The other plate has negative charge on it shown as small spheres enclosing an electron. The electrons are shown to move from the positive plate to the negative plate using arrows through a molecular reaction in the liquid.](../resources/Figure_21_02_04.jpg 'Artist’s conception of two electrons being forced onto the anode of a cell and two electrons being removed from the cathode of the cell. The chemical reaction in a lead-acid battery places two electrons on the anode and removes two from the cathode. It requires a closed circuit to proceed, since the two electrons must be supplied to the cathode.')
 {: #Figure4}
 
 </div>
@@ -120,7 +120,7 @@ have and the energies of reactions between them.
 
 In the case of a lead-acid battery, an energy of 2 eV is given to each electron
 sent to the anode. Voltage is defined as the electrical potential energy divided
-by charge:  $$V=\frac{ {P}_{\text{E}}}{q} $$ . An electron volt is the energy
+by charge: $$V=\frac{ {P}_{\text{E}}}{q} $$ . An electron volt is the energy
 given to a single electron by a voltage of 1 V. So the voltage here is 2 V,
 since 2 eV is given to each electron. It is the energy produced in each
 molecular reaction that produces the voltage. A different reaction produces a
@@ -152,7 +152,7 @@ is given by Ohm’s law to be
  $$I=\frac{\text{emf}}{ {R}_{\text{load}}+r}. $$
 </div>
 
-![This schematic drawing of an electrical circuit shows an e m f, labeled as script E, driving a current through a resistive load R sub load and through the internal resistance r of the voltage source. The current is shown flowing in a clockwise direction from the positive end of the source.](../resources/Figure_21_02_05.jpg "Schematic of a voltage source and its load \( R_\text{load} \). Since the internal resistance \( r \) is in series with the load, it can significantly affect the terminal voltage and current delivered to the load.  (Note that the script E stands for emf.)")
+![This schematic drawing of an electrical circuit shows an e m f, labeled as script E, driving a current through a resistive load R sub load and through the internal resistance r of the voltage source. The current is shown flowing in a clockwise direction from the positive end of the source.](../resources/Figure_21_02_05.jpg 'Schematic of a voltage source and its load ( R_\\text{load} ). Since the internal resistance ( r ) is in series with the load, it can significantly affect the terminal voltage and current delivered to the load.  (Note that the script E stands for emf.)')
 {: #Figure5}
 
 We see from this expression that the smaller the internal resistance $$r $$ ,
@@ -263,7 +263,7 @@ voltage drops below an acceptable level. They really test the internal
 resistance of the battery. If internal resistance is high, the battery is weak,
 as evidenced by its low terminal voltage.
 
-![The first photograph shows an avionics electronics technician working inside an aircraft carrier, measuring voltage of a battery with a voltmeter probe. The second photograph shows the small black battery tester which has an LED screen that indicates the terminal voltage of four batteries inserted into its case.](../resources/Figure_21_02_06.jpg "These two battery testers measure terminal voltage under a load to determine the condition of a battery. The large device is being used by a U.S. Navy electronics technician to test large batteries aboard the aircraft carrier USS Nimitz and has a small resistance that can dissipate large amounts of power. (credit: U.S. Navy photo by Photographer&#x2019;s Mate Airman Jason A. Johnston) The small device is used on small batteries and has a digital display to indicate the acceptability of their terminal voltage. (credit: Keith Williamson)")
+![The first photograph shows an avionics electronics technician working inside an aircraft carrier, measuring voltage of a battery with a voltmeter probe. The second photograph shows the small black battery tester which has an LED screen that indicates the terminal voltage of four batteries inserted into its case.](../resources/Figure_21_02_06.jpg 'These two battery testers measure terminal voltage under a load to determine the condition of a battery. The large device is being used by a U.S. Navy electronics technician to test large batteries aboard the aircraft carrier USS Nimitz and has a small resistance that can dissipate large amounts of power. (credit: U.S. Navy photo by Photographer’s Mate Airman Jason A. Johnston) The small device is used on small batteries and has a digital display to indicate the acceptability of their terminal voltage. (credit: Keith Williamson)')
 {: #Figure6}
 
 Some batteries can be recharged by passing a current through them in the
@@ -275,7 +275,7 @@ reverse current through it. This will cause the terminal voltage of the battery
 to be greater than the emf, since $$V=\text{emf}-Ir $$ , and $$I $$ is now
 negative.
 
-![The diagram shows a car battery being charged with cables from a battery charger. The current flows from the positive terminal of the charger to the positive terminal of the battery, through the battery and back out the negative terminal of the battery to the negative terminal of the charger.](../resources/Figure_21_02_07.jpg "A car battery charger reverses the normal direction of current through a battery, reversing its chemical reaction and replenishing its chemical potential.")
+![The diagram shows a car battery being charged with cables from a battery charger. The current flows from the positive terminal of the charger to the positive terminal of the battery, through the battery and back out the negative terminal of the battery to the negative terminal of the charger.](../resources/Figure_21_02_07.jpg 'A car battery charger reverses the normal direction of current through a battery, reversing its chemical reaction and replenishing its chemical potential.')
 {: #Figure7}
 
 ### Multiple Voltage Sources
@@ -298,13 +298,13 @@ that had two 6-V batteries in series, rather than a single 12-V battery. This
 arrangement produced a large internal resistance that caused him many problems
 in starting the engine.
 
-![This diagram shows two typical batteries in series, with the positive terminal of the first touching the negative terminal of the second. The schematic diagram of the electric current flowing through them is shown as current I passing through the series of two cells of e m f script E sub one and internal resistance r sub one and e m f script E sub two and internal resistance r sub two.](../resources/Figure_21_02_08.jpg "A series connection of two voltage sources. The emfs (each labeled with a script E) and internal resistances add, giving a total emf of \( \text{emf}_1+\text{emf}_2 \) and a total internal resistance of \( r_1 +r_2 \).")
+![This diagram shows two typical batteries in series, with the positive terminal of the first touching the negative terminal of the second. The schematic diagram of the electric current flowing through them is shown as current I passing through the series of two cells of e m f script E sub one and internal resistance r sub one and e m f script E sub two and internal resistance r sub two.](../resources/Figure_21_02_08.jpg 'A series connection of two voltage sources. The emfs (each labeled with a script E) and internal resistances add, giving a total emf of ( \\text{emf}_1+\\text{emf}_2 ) and a total internal resistance of ( r_1 +r_2 ).')
 {: #Figure8}
 
-![The left side of the diagram shows a battery that contains a combination of a large number of cells. The right side shows a set of cells combined in series to form a battery.](../resources/Figure_21_02_09.jpg "Batteries are multiple connections of individual cells, as shown in this modern rendition of an old print. Single cells, such as AA or C cells, are commonly called batteries, although this is technically incorrect.")
+![The left side of the diagram shows a battery that contains a combination of a large number of cells. The right side shows a set of cells combined in series to form a battery.](../resources/Figure_21_02_09.jpg 'Batteries are multiple connections of individual cells, as shown in this modern rendition of an old print. Single cells, such as AA or C cells, are commonly called batteries, although this is technically incorrect.')
 {: #Figure9}
 
-If the *series* connection of two voltage sources is made into a complete
+If the _series_ connection of two voltage sources is made into a complete
 circuit with the emfs in opposition, then a current of magnitude
 $$I=\frac{\left({\text{emf}}_{1}-{\text{emf}}_{2}\right)}{ {r}_{1}+ {r}_{2}} $$
 flows. See [[Figure 10]](#Figure10), for example, which shows a circuit exactly
@@ -313,10 +313,10 @@ series with emfs in the same sense are connected to a load $${R}_{\text{load}}
 $$ , as in [[Figure 11]](#Figure11), then $$I=\frac{\left({\text{emf}}_{1}+
 {\text{emf}}_{2}\right)}{ {r}_{1}+ {r}_{2}+{R}_{\text{load}}} $$ flows.
 
-![The diagram shows a closed circuit containing series connection of two cells of e m f script E sub one and internal resistance r sub one and e m f script E sub two and internal resistance r sub two. The positive end of E sub one is connected to the positive end of E sub two.](../resources/Figure_21_02_10.jpg "These two voltage sources are connected in series with their emfs in opposition. Current flows in the direction of the greater emf and is limited to \( I=  ( \text{emf}_1 - \text{emf}_2 )/(r_1+r_2) \) by the sum of the internal resistances. (Note that each emf is represented by script E in the figure.) A battery charger connected to a battery is an example of such a connection. The charger must have a larger emf than the battery to reverse current through it.")
+![The diagram shows a closed circuit containing series connection of two cells of e m f script E sub one and internal resistance r sub one and e m f script E sub two and internal resistance r sub two. The positive end of E sub one is connected to the positive end of E sub two.](../resources/Figure_21_02_10.jpg 'These two voltage sources are connected in series with their emfs in opposition. Current flows in the direction of the greater emf and is limited to ( I=  ( \\text{emf}_1 - \\text{emf}_2 )/(r_1+r_2) ) by the sum of the internal resistances. (Note that each emf is represented by script E in the figure.) A battery charger connected to a battery is an example of such a connection. The charger must have a larger emf than the battery to reverse current through it.')
 {: #Figure10}
 
-![Part a shows a flashlight glowing when connected to two cells joined in series with the positive end of one cell connected to the negative end of the other. Part b shows the schematic circuit for part a. There is a series combination of two cells of e m f script E sub one and internal resistance r sub one and e m f script E sub two and internal resistance r sub two connected to a load resistor R sub load.](../resources/Figure_21_02_11.jpg "This schematic represents a flashlight with two cells (voltage sources) and a single bulb (load resistance) in series. The current that flows is \( I=  ( \text{emf}_1 + \text{emf}_2 )/(r_1+r_2 +R_\text{load}) \). (Note that each emf is represented by script E in the figure.)")
+![Part a shows a flashlight glowing when connected to two cells joined in series with the positive end of one cell connected to the negative end of the other. Part b shows the schematic circuit for part a. There is a series combination of two cells of e m f script E sub one and internal resistance r sub one and e m f script E sub two and internal resistance r sub two connected to a load resistor R sub load.](../resources/Figure_21_02_11.jpg 'This schematic represents a flashlight with two cells (voltage sources) and a single bulb (load resistance) in series. The current that flows is ( I=  ( \\text{emf}_1 + \\text{emf}_2 )/(r_1+r_2 +R_\\text{load}) ). (Note that each emf is represented by script E in the figure.)')
 {: #Figure11}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -339,7 +339,7 @@ individual batteries. For example, some diesel-powered cars use two 12-V
 batteries in parallel; they produce a total emf of 12 V but can deliver the
 larger current needed to start a diesel engine.
 
-![Part a shows parallel combination of two cells of e m f script E and internal resistance r sub one and internal resistance r sub two connected to a load resistor R sub load. Part b shows the combination of e m f of part a. The circuit has a cell of e m f script E with an internal resistance r sub tot and a load resistor R sub load. The resistance r sub tot is less than either r sub one or r sub two.](../resources/Figure_21_02_12.jpg "Two voltage sources with identical emfs (each labeled by script E) connected in parallel produce the same emf but have a smaller total internal resistance than the individual sources. Parallel combinations are often used to deliver more current. Here \( I= \text{emf}/(r_\text{tot}+R_\text{load}) \) flows through the load.")
+![Part a shows parallel combination of two cells of e m f script E and internal resistance r sub one and internal resistance r sub two connected to a load resistor R sub load. Part b shows the combination of e m f of part a. The circuit has a cell of e m f script E with an internal resistance r sub tot and a load resistor R sub load. The resistance r sub tot is less than either r sub one or r sub two.](../resources/Figure_21_02_12.jpg 'Two voltage sources with identical emfs (each labeled by script E) connected in parallel produce the same emf but have a smaller total internal resistance than the individual sources. Parallel combinations are often used to deliver more current. Here ( I= \\text{emf}/(r_\\text{tot}+R_\\text{load}) ) flows through the load.')
 {: #Figure12}
 
 ### Animals as Electrical Detectors
@@ -369,7 +369,7 @@ field in their snouts as small as 100 $$\frac{\text{mV}}{m} $$
 ([[Figure 13]](#Figure13)). Electric eels use their own electric fields produced
 by the electroplaques to stun their prey or enemies.
 
-![A photograph of a large gray tiger shark that swims along the bottom of a saltwater tank full of smaller fish at the Minnesota Zoo.](../resources/Figure_21_02_13.jpg "Sand tiger sharks (Carcharias taurus), like this one at the Minnesota Zoo, use electroreceptors in their snouts to locate prey. (credit: Jim Winstead, Flickr)")
+![A photograph of a large gray tiger shark that swims along the bottom of a saltwater tank full of smaller fish at the Minnesota Zoo.](../resources/Figure_21_02_13.jpg 'Sand tiger sharks (Carcharias taurus), like this one at the Minnesota Zoo, use electroreceptors in their snouts to locate prey. (credit: Jim Winstead, Flickr)')
 {: #Figure13}
 
 ### Solar Cell Arrays
@@ -413,20 +413,20 @@ you need more cards to make this arrangement?
 
 ### Section Summary
 
-* All voltage sources have two fundamental parts—a source of electrical energy
+- All voltage sources have two fundamental parts—a source of electrical energy
   that has a characteristic electromotive force (emf), and an internal
   resistance $$r $$ .
 
-* The emf is the potential difference of a source when no current is flowing.
-* The numerical value of the emf depends on the source of potential difference.
-* The internal resistance $$r $$ of a voltage source affects the output voltage
+- The emf is the potential difference of a source when no current is flowing.
+- The numerical value of the emf depends on the source of potential difference.
+- The internal resistance $$r $$ of a voltage source affects the output voltage
   when a current flows.
-* The voltage output of a device is called its terminal voltage $$V $$ and is
+- The voltage output of a device is called its terminal voltage $$V $$ and is
   given by $$V=\text{emf}-Ir $$ , where $$I $$ is the electric current and is
   positive when flowing away from the positive terminal of the voltage source.
-* When multiple voltage sources are in series, their internal resistances add
+- When multiple voltage sources are in series, their internal resistances add
   and their emfs add algebraically.
-* Solar cells can be wired in series or parallel to provide increased voltage or
+- Solar cells can be wired in series or parallel to provide increased voltage or
   current, respectively.
 
 ### Conceptual Questions
@@ -445,7 +445,7 @@ Explain which battery is doing the charging and which is being charged in [[Figu
 </div>
 </div>
 
-![The diagram shows two cells of e m f script E sub one equals twelve volts and internal resistance r sub one equals one ohm, and e m f script E sub two equals eighteen volts and internal resistance r sub two equals zero point five ohms, connected. The cells are connected with their positive terminals facing each other in a closed circuit.](../resources/Figure_21_02_14.jpg " ")
+![The diagram shows two cells of e m f script E sub one equals twelve volts and internal resistance r sub one equals one ohm, and e m f script E sub two equals eighteen volts and internal resistance r sub two equals zero point five ohms, connected. The cells are connected with their positive terminals facing each other in a closed circuit.](../resources/Figure_21_02_14.jpg ' ')
 {: #Figure14}
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -584,7 +584,8 @@ An automobile starter motor has an equivalent resistance of  $$ 0.0500 \Omega  $
 
 (c) 2.00 kW
 
-(d)  $$ 0.1000 \Omega ; 80.0 \text{A}, 4.0 \text{V}, 320 \text{W} $$
+(d) $$ 0.1000 \Omega ; 80.0 \text{A}, 4.0 \text{V}, 320 \text{W} $$
+
 </div>
 </div>
 
@@ -656,7 +657,7 @@ Which assumptions are unreasonable or inconsistent?
 <div class="solution" markdown="1">
 (a) –0.120 V
 
-(b)  $$ -1.41 \times 10^{-2} \Omega $$
+(b) $$ -1.41 \times 10^{-2} \Omega $$
 (c) Negative terminal voltage; negative load resistance.
 
 (d) The assumption that such a cell could provide 8.50 A is inconsistent with

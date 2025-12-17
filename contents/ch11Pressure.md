@@ -36,7 +36,7 @@ Pressure is defined as the force divided by the area perpendicular to the force 
 
 A given force can have a significantly different effect depending on the area
 over which the force is exerted, as shown in [[Figure 1]](#Figure1). The SI unit
-for pressure is the *pascal*, where
+for pressure is the _pascal_, where
 
 <div class="equation" >
  $$1 \text{Pa}=1 {\text{N/m}}^{2}. $$
@@ -56,7 +56,7 @@ mercury (mm Hg) is still often used in the measurement of blood pressure.
 Pressure is defined for all states of matter but is particularly important when
 discussing fluids.
 
-![In figure a, the person is poked with a finger exerting a small pressure due to the large area of contact and, in b, he is poked with a syringe exerting a large pressure due to the small area of contact.](../resources/Figure_11_03_01.jpg "(a) While the person being poked with the finger might be irritated, the force has little lasting effect. (b) In contrast, the same force applied to an area the size of the sharp end of a needle is great enough to break the skin.")
+![In figure a, the person is poked with a finger exerting a small pressure due to the large area of contact and, in b, he is poked with a syringe exerting a large pressure due to the small area of contact.](../resources/Figure_11_03_01.jpg '(a) While the person being poked with the finger might be irritated, the force has little lasting effect. (b) In contrast, the same force applied to an area the size of the sharp end of a needle is great enough to break the skin.')
 {: #Figure1}
 
 <div id="Example1" class="example" markdown="1">
@@ -95,18 +95,18 @@ as well as the pressure itself.
 
 The force exerted on the end of the tank is perpendicular to its inside surface.
 This direction is because the force is exerted by a static or stationary fluid.
-We have already seen that fluids cannot *withstand* shearing (sideways) forces;
-they cannot *exert* shearing forces, either. Fluid pressure has no direction,
+We have already seen that fluids cannot _withstand_ shearing (sideways) forces;
+they cannot _exert_ shearing forces, either. Fluid pressure has no direction,
 being a scalar quantity. The forces due to pressure have well-defined
 directions: they are always exerted perpendicular to any surface. (See the tire
 in [[Figure 2]](#Figure2), for example.) Finally, note that pressure is exerted
 on all surfaces. Swimmers, as well as the tire, feel pressure on all sides. (
 See [[Figure 3]](#Figure3).)
 
-![The forces inside a tire are shown by arrow lines. An inset shows an enlarged view of the valve in the tire. Air pressure in the tire keeps the valve closed.](../resources/Figure_11_03_02.jpg "Pressure inside this tire exerts forces perpendicular to all surfaces it contacts. The arrows give representative directions and magnitudes of the forces exerted at various points. Note that static fluids do not exert shearing forces.")
+![The forces inside a tire are shown by arrow lines. An inset shows an enlarged view of the valve in the tire. Air pressure in the tire keeps the valve closed.](../resources/Figure_11_03_02.jpg 'Pressure inside this tire exerts forces perpendicular to all surfaces it contacts. The arrows give representative directions and magnitudes of the forces exerted at various points. Note that static fluids do not exert shearing forces.')
 {: #Figure2}
 
-![A man swimming underwater has many arrows pointing toward him to represent the directions and magnitudes of the forces exerted on him at various points.](../resources/Figure_11_03_03.jpg "Pressure is exerted on all sides of this swimmer, since the water would flow into the space he occupies if he were not there. The arrows represent the directions and magnitudes of the forces exerted at various points on the swimmer. Note that the forces are larger underneath, due to greater depth, giving a net upward or buoyant force that is balanced by the weight of the swimmer.")
+![A man swimming underwater has many arrows pointing toward him to represent the directions and magnitudes of the forces exerted on him at various points.](../resources/Figure_11_03_03.jpg 'Pressure is exerted on all sides of this swimmer, since the water would flow into the space he occupies if he were not there. The arrows represent the directions and magnitudes of the forces exerted at various points on the swimmer. Note that the forces are larger underneath, due to greater depth, giving a net upward or buoyant force that is balanced by the weight of the swimmer.')
 {: #Figure3}
 
 <div class="note" data-has-label="true"  data-label="" markdown="1">
@@ -123,14 +123,14 @@ Pump gas molecules to a box and see what happens as you change the volume, add o
 
 ### Section Summary
 
-* Pressure is the force per unit perpendicular area over which the force is
+- Pressure is the force per unit perpendicular area over which the force is
   applied. In equation form, pressure is defined as
 
   <div class="equation" >
    $$P=\frac{F}{A}\text{.} $$
   </div>
 
-* The SI unit of pressure is pascal and $$1 \text{Pa}=1 {\text{N/m}}^{2} $$ .
+- The SI unit of pressure is pascal and $$1 \text{Pa}=1 {\text{N/m}}^{2} $$ .
 
 ### Conceptual Questions
 

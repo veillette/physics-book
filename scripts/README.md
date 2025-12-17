@@ -4,21 +4,21 @@ Build and utility scripts for the Physics Book project.
 
 ## Quick Reference
 
-| Script | Command | Description |
-|--------|---------|-------------|
-| check-links | `npm run check-links` | Validate internal/external links |
-| check-orphans | `npm run check-orphans` | Find unreferenced files |
-| check-figures | `npm run check-figures` | Validate figure references |
-| check-math | `npm run check-math` | Check LaTeX delimiter balance |
-| check-accessibility | `npm run check-accessibility` | Check alt text and accessibility |
-| check-yaml | `npm run check-yaml` | Validate YAML front matter |
-| standardize-links | `npm run standardize-links` | Convert links to Jekyll/MyST format |
-| generate-pdf | `npm run generate-pdf` | Generate PDF of all chapters |
-| generate-icons | `npm run generate-icons` | Generate PWA icons |
-| parse-summary | `npm run parse-summary` | Generate summary.json |
-| update-front-matter | `npm run update-front-matter` | Update chapter/section in YAML |
-| rename-figures | `npm run rename-figures` | Rename figures and update refs |
-| convert-webp | `npm run convert-webp` | Convert images to WebP |
+| Script              | Command                       | Description                         |
+| ------------------- | ----------------------------- | ----------------------------------- |
+| check-links         | `npm run check-links`         | Validate internal/external links    |
+| check-orphans       | `npm run check-orphans`       | Find unreferenced files             |
+| check-figures       | `npm run check-figures`       | Validate figure references          |
+| check-math          | `npm run check-math`          | Check LaTeX delimiter balance       |
+| check-accessibility | `npm run check-accessibility` | Check alt text and accessibility    |
+| check-yaml          | `npm run check-yaml`          | Validate YAML front matter          |
+| standardize-links   | `npm run standardize-links`   | Convert links to Jekyll/MyST format |
+| generate-pdf        | `npm run generate-pdf`        | Generate PDF of all chapters        |
+| generate-icons      | `npm run generate-icons`      | Generate PWA icons                  |
+| parse-summary       | `npm run parse-summary`       | Generate summary.json               |
+| update-front-matter | `npm run update-front-matter` | Update chapter/section in YAML      |
+| rename-figures      | `npm run rename-figures`      | Rename figures and update refs      |
+| convert-webp        | `npm run convert-webp`        | Convert images to WebP              |
 
 ---
 
@@ -37,6 +37,7 @@ npm run test:ci                  # CI-optimized with longer timeouts
 ```
 
 **Options:**
+
 - `--timeout <ms>` - Request timeout (default: 10000)
 - `--retries <num>` - Retries for failed requests (default: 2)
 - `--concurrent <num>` - Max concurrent requests (default: 10)
@@ -46,6 +47,7 @@ npm run test:ci                  # CI-optimized with longer timeouts
 Detects unreferenced files in `assets/` and `resources/` directories by scanning all content and template files for references.
 
 This script scans for file paths in:
+
 - Markdown (`.md`)
 - HTML (`.html`) - for Jekyll templates and includes
 - CSS (`.css`) - for `url()` references
@@ -70,6 +72,7 @@ npm run check-figures:missing    # Check for missing files only
 ```
 
 **Options:**
+
 - `--check-pattern` - Validate figure filename patterns
 - `--check-consistency` - Check figures match chapter/section
 - `--check-duplicates` - Find duplicate references
@@ -96,17 +99,20 @@ npm run check-accessibility:strict   # Strict mode with more checks
 ```
 
 **Checks performed:**
+
 - Missing or empty alt text on images
 - Uninformative alt text (e.g., "image", "figure")
 - Heading level skips (e.g., h1 -> h3)
 - Empty or uninformative link text ("click here", "read more")
 
 **Strict mode adds:**
+
 - Short alt text warnings
 - Bare URL detection
 - Table header validation
 
 **Options:**
+
 - `--strict` - Enable stricter checks
 
 ### check-yaml.js
@@ -120,12 +126,14 @@ node scripts/check-yaml.js --required "title,layout,chapterNumber"
 ```
 
 **Checks performed:**
+
 - Required fields are present (default: title, layout)
 - Field types are correct
 - Layout values are valid
 - YAML syntax is valid
 
 **Strict mode adds:**
+
 - Unknown field warnings
 - Empty value warnings
 - Chapter/section number validation
@@ -133,6 +141,7 @@ node scripts/check-yaml.js --required "title,layout,chapterNumber"
 - Trailing whitespace warnings
 
 **Options:**
+
 - `--required <fields>` - Comma-separated list of required fields
 - `--strict` - Enable stricter validation
 
@@ -151,10 +160,12 @@ node scripts/standardize-links.js --validate  # Just validate links
 ```
 
 **Conversions:**
+
 - `../contents/filename.md` → `./filename`
 - `../contents/filename.md#anchor` → `./filename#anchor`
 
 **Options:**
+
 - `--apply` - Apply changes (default is dry run)
 - `--validate` - Only validate existing links
 
@@ -172,6 +183,7 @@ node scripts/parse-summary.js --output _data/summary.json
 ```
 
 **Options:**
+
 - `--input <path>` - Input SUMMARY.md path
 - `--output <path>` - Output JSON path
 
@@ -185,6 +197,7 @@ node scripts/update-front-matter.js --dry-run  # Preview changes
 ```
 
 **Options:**
+
 - `--summary <path>` - Path to summary.json
 - `--dry-run` - Preview without changes
 
@@ -199,6 +212,7 @@ npm run rename-figures -- Figure_01_02_03 Figure_01_02_04 --dry-run
 ```
 
 **Options:**
+
 - `--pattern` - Use pattern matching for bulk renames
 - `--dry-run` - Preview without changes
 
@@ -219,6 +233,7 @@ npm run generate-pdf:help        # Show options
 ```
 
 **Requirements:**
+
 - Jekyll server running on `localhost:4000`
 - Playwright Chromium browser (`npm run generate-pdf:install`)
 
@@ -231,6 +246,7 @@ npm run generate-icons
 ```
 
 **Generates:**
+
 - Standard icons (48-512px)
 - Maskable icons with safe zone
 - Apple touch icons
@@ -250,6 +266,7 @@ node scripts/convert-webp.js --quality 90 --overwrite
 ```
 
 **Options:**
+
 - `--input <dir>` - Input directory (default: resources)
 - `--output <dir>` - Output directory (default: resources-webp)
 - `--quality <num>` - WebP quality 0-100 (default: 80)
@@ -263,6 +280,7 @@ node scripts/convert-webp.js --quality 90 --overwrite
 ### check-links.config.js
 
 Configuration for the link checker including:
+
 - Domains to skip
 - Timeout settings
 - Rate limiting
@@ -279,6 +297,7 @@ npm run audit
 ```
 
 This runs:
+
 1. `check-links` - Link validation
 2. `check-orphans` - Orphan file detection
 3. `check-figures` - Figure validation
@@ -305,21 +324,22 @@ python check_math.py
 
 ## Script Naming Conventions
 
-| Prefix | Purpose | Examples |
-|--------|---------|----------|
-| `check-*` | Validation/quality checks | check-links, check-yaml |
-| `generate-*` | File/asset generation | generate-pdf, generate-icons |
-| `parse-*` | Parse/extract data | parse-summary |
-| `update-*` | Update existing files | update-front-matter |
-| `convert-*` | Format conversion | convert-webp |
-| `rename-*` | Rename operations | rename-figures |
-| `standardize-*` | Normalize formats | standardize-links |
+| Prefix          | Purpose                   | Examples                     |
+| --------------- | ------------------------- | ---------------------------- |
+| `check-*`       | Validation/quality checks | check-links, check-yaml      |
+| `generate-*`    | File/asset generation     | generate-pdf, generate-icons |
+| `parse-*`       | Parse/extract data        | parse-summary                |
+| `update-*`      | Update existing files     | update-front-matter          |
+| `convert-*`     | Format conversion         | convert-webp                 |
+| `rename-*`      | Rename operations         | rename-figures               |
+| `standardize-*` | Normalize formats         | standardize-links            |
 
 ---
 
 ## Dependencies
 
 Scripts use these npm packages:
+
 - `chalk` - Terminal styling
 - `glob` - File pattern matching
 - `node-fetch` - HTTP requests

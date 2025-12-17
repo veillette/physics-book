@@ -24,7 +24,7 @@ The first tugboat exerts a force of $$ 2.7\times 10^{5}\N $$
 in the *x*-direction, and the second tugboat exerts a force of $$ 3.6\times
 10^{5}\N $$ in the *y*-direction.
 
-![(a) A view from above two tugboats pushing on a barge. One tugboat is pushing with the force F sub x equal to two point seven multiplied by ten to the power five newtons, shown by a vector arrow acting toward the right in the x direction. Another tugboat is pushing with a force F sub y equal to three point six multiplied by ten to the power five newtons acting upward in the positive y direction. Acceleration of the barge, a, is shown by a vector arrow directed fifty-three point one degree angle above the x axis. In the free-body diagram, F sub y is acting on a point upward, F sub x is acting toward the right, and F sub D is acting approximately southwest. (b) A right triangle is made by the vectors F sub x and F sub y. The base vector is shown by the force vector F sub x. and the perpendicular vector is shown by the force vector F sub y. The resultant is the hypotenuse of this triangle, making a fifty-three point one degree angle from the base, shown by the vector force F sub net pointing up the inclination. A vector F sub D points down the incline. ](../resources/Figure_04_07_01.jpg "(a) A view from above of two tugboats pushing on a barge. (b) The free-body diagram for the ship contains only forces acting in the plane of the water. It omits the two vertical forces&#x2014;the weight of the barge and the buoyant force of the water supporting it cancel and are not shown. Since the applied forces are perpendicular, the x- and y-axes are in the same direction as \( \vb{F}_x \) and \( \vb{F}_y \) . The problem quickly becomes a one-dimensional problem along the direction of \( \vb{F}_{\text{app}} \), since friction is in the direction opposite to \( \vb{F}_{\text{app}} \). ")
+![(a) A view from above two tugboats pushing on a barge. One tugboat is pushing with the force F sub x equal to two point seven multiplied by ten to the power five newtons, shown by a vector arrow acting toward the right in the x direction. Another tugboat is pushing with a force F sub y equal to three point six multiplied by ten to the power five newtons acting upward in the positive y direction. Acceleration of the barge, a, is shown by a vector arrow directed fifty-three point one degree angle above the x axis. In the free-body diagram, F sub y is acting on a point upward, F sub x is acting toward the right, and F sub D is acting approximately southwest. (b) A right triangle is made by the vectors F sub x and F sub y. The base vector is shown by the force vector F sub x. and the perpendicular vector is shown by the force vector F sub y. The resultant is the hypotenuse of this triangle, making a fifty-three point one degree angle from the base, shown by the vector force F sub net pointing up the inclination. A vector F sub D points down the incline. ](../resources/Figure_04_07_01.jpg '(a) A view from above of two tugboats pushing on a barge. (b) The free-body diagram for the ship contains only forces acting in the plane of the water. It omits the two vertical forces—the weight of the barge and the buoyant force of the water supporting it cancel and are not shown. Since the applied forces are perpendicular, the x- and y-axes are in the same direction as ( \\vb{F}_x ) and ( \\vb{F}_y ) . The problem quickly becomes a one-dimensional problem along the direction of ( \\vb{F}_{\\text{app}} ), since friction is in the direction opposite to ( \\vb{F}_{\\text{app}} ). ')
 {: #Figure1}
 
 If the mass of the barge is $$ 5.0\times 10^{6}\kg $$ and its acceleration is
@@ -37,7 +37,7 @@ drag force opposes the motion of the object.)
 
 The directions and magnitudes of acceleration and the applied forces are given
 in [Figure 1](#Figure1)**(a)**. We will define the total force of the tugboats on
-the barge as $$ \vb{F}_{\text{app}} $$ so that:
+the barge as $$ \vb{F}\_{\text{app}} $$ so that:
 
 <div class="equation">
  $$ \vb{F}_{\text{app}}=\vb{F}_{x}+\vb{F}_{y} $$
@@ -53,7 +53,7 @@ Newton’s second law to solve for the drag force $$ \vb{F}_{\text{D}} $$.
 **Solution**
 
 Since $$ \vb{F}_{x} $$ and $$ \vb{F}_{y} $$ are perpendicular, the magnitude and
-direction of $$ \vb{F}_{\text{app}} $$ are easily found. First, the resultant
+direction of $$ \vb{F}\_{\text{app}} $$ are easily found. First, the resultant
 magnitude is given by the Pythagorean theorem:
 
 <div class="equation">
@@ -113,7 +113,7 @@ The numbers used in this example are reasonable for a moderately large barge. It
 is certainly difficult to obtain larger accelerations with tugboats, and small
 speeds are desirable to avoid running the barge into the docks. Drag is
 relatively small for a well-designed hull at low speeds, consistent with the
-answer to this example, where $$ F_{\text{D}} $$ is less than 1/600th of the
+answer to this example, where $$ F\_{\text{D}} $$ is less than 1/600th of the
 weight of the ship.
 
 </div>
@@ -129,7 +129,7 @@ Different Tensions at Different Angles
 </div>
 Consider the traffic light (mass 15.0 kg) suspended from two wires as shown in [Figure 2](#Figure2). Find the tension in each wire, neglecting the masses of the wires.
 
-![A sketch of a traffic light suspended from two wires supported by two poles is shown. (b) Some forces are shown in this system. Tension T sub one pulling the top of the left-hand pole is shown by the vector arrow along the left wire from the top of the pole, and an equal but opposite tension T sub one is shown by the arrow pointing up along the left-hand wire where it is attached to the light; the wire makes a thirty-degree angle with the horizontal. Tension T sub two is shown by a vector arrow pointing downward from the top of the right-hand pole along the right-hand wire, and an equal but opposite tension T sub two is shown by the arrow pointing up along the right-hand wire, which makes a forty-five degree angle with the horizontal. The traffic light is suspended at the lower end of the wires, and its weight W is shown by a vector arrow acting downward. (c) The traffic light is the system of interest. Tension T sub one starting from the traffic light is shown by an arrow along the wire making an angle of thirty degrees with the horizontal. Tension T sub two starting from the traffic light is shown by an arrow along the wire making an angle of forty-five degrees with the horizontal. The weight W is shown by a vector arrow pointing downward from the traffic light. A free-body diagram is shown with three forces acting on a point. Weight W acts downward; T sub one and T sub two act at an angle with the vertical. (d) Forces are shown with their components T sub one y and T sub two y pointing vertically upward. T sub one x points along the negative x direction, T sub two x points along the positive x direction, and weight W points vertically downward. (e) Vertical forces and horizontal forces are shown separately. Vertical forces T sub one y and T sub two y are shown by vector arrows acting along a vertical line pointing upward, and weight W is shown by a vector arrow acting downward. The net vertical force is zero, so T sub one y plus T sub two y is equal to W. On the other hand, T sub two x is shown by an arrow pointing toward the right, and T sub one x is shown by an arrow pointing toward the left. The net horizontal force is zero, so T sub one x is equal to T sub two x.](../resources/Figure_04_07_02.jpg "A traffic light is suspended from two wires. (b) Some of the forces involved. (c) Only forces acting on the system are shown here. The free-body diagram for the traffic light is also shown. (d) The forces projected onto vertical (y) and horizontal (x) axes. The horizontal components of the tensions must cancel, and the sum of the vertical components of the tensions must equal the weight of the traffic light. (e) The free-body diagram shows the vertical and horizontal forces acting on the traffic light.")
+![A sketch of a traffic light suspended from two wires supported by two poles is shown. (b) Some forces are shown in this system. Tension T sub one pulling the top of the left-hand pole is shown by the vector arrow along the left wire from the top of the pole, and an equal but opposite tension T sub one is shown by the arrow pointing up along the left-hand wire where it is attached to the light; the wire makes a thirty-degree angle with the horizontal. Tension T sub two is shown by a vector arrow pointing downward from the top of the right-hand pole along the right-hand wire, and an equal but opposite tension T sub two is shown by the arrow pointing up along the right-hand wire, which makes a forty-five degree angle with the horizontal. The traffic light is suspended at the lower end of the wires, and its weight W is shown by a vector arrow acting downward. (c) The traffic light is the system of interest. Tension T sub one starting from the traffic light is shown by an arrow along the wire making an angle of thirty degrees with the horizontal. Tension T sub two starting from the traffic light is shown by an arrow along the wire making an angle of forty-five degrees with the horizontal. The weight W is shown by a vector arrow pointing downward from the traffic light. A free-body diagram is shown with three forces acting on a point. Weight W acts downward; T sub one and T sub two act at an angle with the vertical. (d) Forces are shown with their components T sub one y and T sub two y pointing vertically upward. T sub one x points along the negative x direction, T sub two x points along the positive x direction, and weight W points vertically downward. (e) Vertical forces and horizontal forces are shown separately. Vertical forces T sub one y and T sub two y are shown by vector arrows acting along a vertical line pointing upward, and weight W is shown by a vector arrow acting downward. The net vertical force is zero, so T sub one y plus T sub two y is equal to W. On the other hand, T sub two x is shown by an arrow pointing toward the right, and T sub one x is shown by an arrow pointing toward the left. The net horizontal force is zero, so T sub one x is equal to T sub two x.](../resources/Figure_04_07_02.jpg 'A traffic light is suspended from two wires. (b) Some of the forces involved. (c) Only forces acting on the system are shown here. The free-body diagram for the traffic light is also shown. (d) The forces projected onto vertical (y) and horizontal (x) axes. The horizontal components of the tensions must cancel, and the sum of the vertical components of the tensions must equal the weight of the traffic light. (e) The free-body diagram shows the vertical and horizontal forces acting on the traffic light.')
 {: #Figure2}
 
 **Strategy**
@@ -139,14 +139,14 @@ in [Figure 2](#Figure2)(c). The three forces involved are not parallel, and so t
 must be projected onto a coordinate system. The most convenient coordinate
 system has one axis vertical and one horizontal, and the vector projections on
 it are shown in part (d) of the figure. There are two unknowns in this problem (
-$$ T_{1} $$ and $$ T_{2} $$), so two equations are needed to find them. These
+$$ T*{1} $$ and $$ T*{2} $$), so two equations are needed to find them. These
 two equations come from applying Newton’s second law along the vertical and
 horizontal axes, noting that the net external force is zero along each axis
 because acceleration is zero.
 
 **Solution**
 
-First consider the horizontal or *x*-axis:
+First consider the horizontal or _x_-axis:
 
 <div class="equation">
 $$ F_{\text{net}x}=T_{2x}-T_{1x}=0. $$
@@ -170,7 +170,7 @@ Note that $$ T_{1} $$ and $$ T_{2} $$ are not equal in this case, because the an
 are not equal. It is reasonable that $$ T_{2} $$ ends up being greater than $$
 T_{1} $$, because it is exerted more vertically than $$ T_{1} $$.
 
-Now consider the force components along the vertical or *y*-axis:
+Now consider the force components along the vertical or _y_-axis:
 
 <div class="equation">
 $$ F_{\text{net}y}=T_{1y}+T_{2y}-w=0. $$
@@ -233,13 +233,13 @@ What Does the Bathroom Scale Read in an Elevator?
 (a) if the elevator accelerates upward at a rate of $$ 1.20 \mss $$, and
 (b) if the elevator moves upward at a constant speed of 1 m/s.
 
-![A person is standing on a bathroom scale in an elevator. His weight w is shown by an arrow pointing downward. F sub s is the force of the scale on the person, shown by a vector starting from his feet pointing vertically upward. W sub s is the weight of the scale pointing vertically downward. W sub e is the weight of the elevator, shown by the broken arrow pointing vertically downward. F sub p is the force of the person on the scale, acting vertically downward. F sub t is the force of the scale on the floor of the elevator, pointing vertically downward, and N is the normal force of the floor on the scale, pointing upward. (b) The same person is shown on the scale in the elevator, but only a few forces are shown acting on the person, which is our system of interest. W is shown by an arrow acting downward, and F sub s is the force of the scale on the person, shown by a vector starting from his feet pointing vertically upward. The free-body diagram is also shown, with two forces acting on a point. F sub s acts vertically upward, and w acts vertically downward.](../resources/Figure_04_07_03.jpg "(a) The various forces acting when a person stands on a bathroom scale in an elevator. The arrows are approximately correct for when the elevator is accelerating upward&#x2014;broken arrows represent forces too large to be drawn to scale. \( \vb{T} \) is the tension in the supporting cable, \( \vb{w} \) is the weight of the person, \( \vb{w}_s \) is the weight of the scale, \( \vb{w}_e \) is the weight of the elevator, \( \vb{F}_s \) is the force of the scale on the person, \( \vb{F}_p \) is the force of the person on the scale, \( \vb{F}_t \) is the force of the scale on the floor of the elevator, and \( \vb{N} \) is the force of the floor upward on the scale.
-(b) The free-body diagram shows only the external forces acting on the designated system of interest&#x2014;the person.")
+![A person is standing on a bathroom scale in an elevator. His weight w is shown by an arrow pointing downward. F sub s is the force of the scale on the person, shown by a vector starting from his feet pointing vertically upward. W sub s is the weight of the scale pointing vertically downward. W sub e is the weight of the elevator, shown by the broken arrow pointing vertically downward. F sub p is the force of the person on the scale, acting vertically downward. F sub t is the force of the scale on the floor of the elevator, pointing vertically downward, and N is the normal force of the floor on the scale, pointing upward. (b) The same person is shown on the scale in the elevator, but only a few forces are shown acting on the person, which is our system of interest. W is shown by an arrow acting downward, and F sub s is the force of the scale on the person, shown by a vector starting from his feet pointing vertically upward. The free-body diagram is also shown, with two forces acting on a point. F sub s acts vertically upward, and w acts vertically downward.](../resources/Figure_04_07_03.jpg '(a) The various forces acting when a person stands on a bathroom scale in an elevator. The arrows are approximately correct for when the elevator is accelerating upward—broken arrows represent forces too large to be drawn to scale. ( \\vb{T} ) is the tension in the supporting cable, ( \\vb{w} ) is the weight of the person, ( \\vb{w}_s ) is the weight of the scale, ( \\vb{w}_e ) is the weight of the elevator, ( \\vb{F}_s ) is the force of the scale on the person, ( \\vb{F}_p ) is the force of the person on the scale, ( \\vb{F}_t ) is the force of the scale on the floor of the elevator, and ( \\vb{N} ) is the force of the floor upward on the scale.
+(b) The free-body diagram shows only the external forces acting on the designated system of interest—the person.')
 {: #Figure3}
 
 **Strategy**
 
-If the scale is accurate, its reading will equal $$ F_{\text{p}} $$, the
+If the scale is accurate, its reading will equal $$ F*{\text{p}} $$, the
 magnitude of the force the person exerts downward on it. [Figure 3](#Figure3)(a)
 shows the numerous forces acting on the elevator, scale, and person. It makes
 this one-dimensional problem look much more formidable than if the person is
@@ -248,9 +248,9 @@ in [Figure 3](#Figure3)(b). Analysis of the free-body diagram using Newton’s l
 can produce answers to both parts
 (a) and (b) of this example, as well as some other questions that might arise.
 The only forces acting on the person are his weight $$ \vb{w} $$ and the upward
-force of the scale $$ \vb{F}_{\s} $$. According to Newton’s third law $$ \vb{F}_
+force of the scale $$ \vb{F}*{\s} $$. According to Newton’s third law $$ \vb{F}_
 {\text{p}} $$ and $$ \vb{F}_{\s} $$ are equal in magnitude and opposite in
-direction, so that we need to find $$ F_{\s} $$ in order to find what the scale
+direction, so that we need to find $$ F\_{\s} $$ in order to find what the scale
 reads. We can do this, as usual, by applying Newton’s second law,
 
 <div class="equation">
@@ -336,11 +336,11 @@ stationary.
 
 The solution to the previous example also applies to an elevator accelerating
 downward, as mentioned. When an elevator accelerates downward, $$ a $$ is
-negative, and the scale reading is *less* than the weight of the person, until a
+negative, and the scale reading is _less_ than the weight of the person, until a
 constant downward velocity is reached, at which time the scale reading again
 becomes equal to the person’s weight. If the elevator is in free-fall and
 accelerating downward at $$ g $$, then the scale reading will be zero and the
-person will *appear* to be weightless.
+person will _appear_ to be weightless.
 
 ### Integrating Concepts: Newton’s Laws of Motion and Kinematics
 
@@ -355,11 +355,11 @@ problem:
 
 **Problem-Solving Strategy**
 
-Step 1. *Identify which physical principles are involved*. Listing the givens
+Step 1. _Identify which physical principles are involved_. Listing the givens
 and the quantities to be calculated will allow you to identify the principles
 involved.
 
-Step 2. *Solve the problem using strategies outlined in the text*. If these are
+Step 2. _Solve the problem using strategies outlined in the text_. If these are
 available for the specific topic, you should refer to them. You should also
 refer to the sections of the text that deal with a particular topic. The
 following worked example illustrates how these strategies are applied to an
@@ -376,11 +376,11 @@ The player’s mass is 70.0 kg, and air resistance is negligible.
 
 **Strategy**
 
-1. To solve an *integrated concept problem*, we must first identify the physical
+1. To solve an _integrated concept problem_, we must first identify the physical
    principles involved and identify the chapters in which they are found. Part (
-   a) of this example considers *
-   acceleration* along a straight line. This is a topic of *kinematics*. Part (
-   b) deals with *force*, a topic of *dynamics* found in this chapter.
+   a) of this example considers _
+   acceleration_ along a straight line. This is a topic of _kinematics_. Part (
+   b) deals with _force_, a topic of _dynamics_ found in this chapter.
 2. The following solutions to each part of the example illustrate how the
    specific problem-solving strategies are applied. These involve identifying
    knowns and unknowns, checking to see if the answer is reasonable, and so
@@ -447,19 +447,19 @@ build your skills in the broad application of physical principles.
 
 ### Summary
 
-* Newton’s laws of motion can be applied in numerous situations to solve
+- Newton’s laws of motion can be applied in numerous situations to solve
   problems of motion.
-* Some problems will contain multiple force vectors acting in different
+- Some problems will contain multiple force vectors acting in different
   directions on an object. Be sure to draw diagrams, resolve all force vectors
   into horizontal and vertical components, and draw a free-body diagram. Always
   analyze the direction in which an object accelerates so that you can determine
   whether $$ \vb{F}_{\text{net}}=m \vb{a} $$ or $$ \vb{F}_{\text{net}}=0 $$.
-* The normal force on an object is not always equal in magnitude to the weight
+- The normal force on an object is not always equal in magnitude to the weight
   of the object. If an object is accelerating, the normal force will be less
   than or greater than the weight of the object. Also, if the object is on an
   inclined plane, the normal force will always be less than the full weight of
   the object.
-* Some problems will contain various physical quantities, such as forces,
+- Some problems will contain various physical quantities, such as forces,
   acceleration, velocity, or position. You can apply concepts from kinematics
   and dynamics in order to solve these problems of motion.
 
@@ -505,22 +505,26 @@ Apply Newton's second law in two dimensions. The forces are: ground reaction for
 **Solution**
 
 Given:
+
 - Mass: $$ m = 6.00 \times 10^{-7} \kg $$
-- Force from ground (upward): $$ F_{\text{ground}} = 1.20 \times 10^{-5} \N $$
-- Breeze force (horizontal): $$ F_{\text{breeze}} = 0.500 \times 10^{-6} \N $$
+- Force from ground (upward): $$ F\_{\text{ground}} = 1.20 \times 10^{-5} \N $$
+- Breeze force (horizontal): $$ F\_{\text{breeze}} = 0.500 \times 10^{-6} \N $$
 - Weight: $$ w = mg = (6.00 \times 10^{-7})(9.80) = 5.88 \times 10^{-6} \N $$
 
 **Vertical forces:**
+
 <div class="equation">
 $$ F_{y} = F_{\text{ground}} - w = 1.20 \times 10^{-5} - 5.88 \times 10^{-6} = 6.12 \times 10^{-6} \N $$
 </div>
 
 **Horizontal forces:**
+
 <div class="equation">
 $$ F_{x} = F_{\text{breeze}} = 0.500 \times 10^{-6} \N $$
 </div>
 
 **Acceleration components:**
+
 <div class="equation">
 $$ a_y = \frac{F_y}{m} = \frac{6.12 \times 10^{-6}}{6.00 \times 10^{-7}} = 10.2 \mss $$
 </div>
@@ -530,6 +534,7 @@ $$ a_x = \frac{F_x}{m} = \frac{0.500 \times 10^{-6}}{6.00 \times 10^{-7}} = 0.83
 </div>
 
 **Magnitude and direction:**
+
 <div class="equation">
 $$ a = \sqrt{a_x^2 + a_y^2} = \sqrt{(0.833)^2 + (10.2)^2} = \sqrt{0.694 + 104} = \sqrt{104.7} = 10.2 \mss $$
 </div>
@@ -569,10 +574,10 @@ The two forces are symmetric, each making a 20° angle with the vertical. Use ve
    - $$ F_2 = 200 \N $$ at 20° to the left of vertical
 
 2. Find the components of each force:
-   - $$ F_{1x} = 200 \sin(20°) = 200 \times 0.342 = 68.4 \N $$ (right)
-   - $$ F_{1y} = 200 \cos(20°) = 200 \times 0.940 = 188 \N $$ (up)
-   - $$ F_{2x} = 200 \sin(20°) = 68.4 \N $$ (left)
-   - $$ F_{2y} = 200 \cos(20°) = 188 \N $$ (up)
+   - $$ F\_{1x} = 200 \sin(20°) = 200 \times 0.342 = 68.4 \N $$ (right)
+   - $$ F\_{1y} = 200 \cos(20°) = 200 \times 0.940 = 188 \N $$ (up)
+   - $$ F\_{2x} = 200 \sin(20°) = 68.4 \N $$ (left)
+   - $$ F\_{2y} = 200 \cos(20°) = 188 \N $$ (up)
 
 3. Add the components:
 <div class="equation">
@@ -597,7 +602,7 @@ The total force on the Achilles tendon is $$ 376 \N $$ directed straight upward,
 </div>
 </div>
 
-![An Achilles tendon is shown in the figure with two forces acting upward, one at an angle of plus twenty degrees, one at minus twenty degrees. F sub one, equal to two hundred newtons, is shown by a vector making an angle twenty degrees toward the right with the vertical, and F sub two, equal to two hundred newtons, is shown making an angle of twenty degrees left from the vertical.](../resources/Figure_04_07_04.jpg "Achilles tendon")
+![An Achilles tendon is shown in the figure with two forces acting upward, one at an angle of plus twenty degrees, one at minus twenty degrees. F sub one, equal to two hundred newtons, is shown by a vector making an angle twenty degrees toward the right with the vertical, and F sub two, equal to two hundred newtons, is shown making an angle of twenty degrees left from the vertical.](../resources/Figure_04_07_04.jpg 'Achilles tendon')
 {: #Figure4}
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -615,6 +620,7 @@ The person is motionless (in equilibrium), so the net force must be zero. Resolv
 **Solution**
 
 Given:
+
 - Mass: $$ m = 76.0 \kg $$
 - Weight: $$ w = mg = (76.0)(9.80) = 745 \N $$
 - $$ T_1 $$ at 15° from vertical (or 75° from horizontal)
@@ -627,21 +633,25 @@ Given:
 **Equilibrium equations:**
 
 Horizontal (taking right as positive):
+
 <div class="equation">
 $$ T_2\cos(10°) - T_1\sin(15°) = 0 $$
 </div>
 
 Vertical (taking up as positive):
+
 <div class="equation">
 $$ T_1\cos(15°) + T_2\sin(10°) - w = 0 $$
 </div>
 
 From the horizontal equation:
+
 <div class="equation">
 $$ T_2 = \frac{T_1\sin(15°)}{\cos(10°)} = \frac{T_1(0.2588)}{0.9848} = 0.2627T_1 $$
 </div>
 
 Substitute into vertical equation:
+
 <div class="equation">
 $$ T_1\cos(15°) + (0.2627T_1)\sin(10°) = 745 $$
 </div>
@@ -677,7 +687,8 @@ The tension in the nearly vertical rope is **$$ T_1 = 736 \N $$**, and the tensi
 </div>
 </div>
 
-![A lady is being pulled away from a burning building using a rope. She is in the middle of the rope; her weight is shown by a vector acting vertically downward. Tension, T sub one, acts upward through the left side of the rope, making an angle of fifteen degrees with the vertical. Tension T sub two acts through the right side of the rope, making an angle of ten degrees above the positive x axis.](../resources/Figure_04_07_06.jpg "The force \( T_2 \) needed to hold steady the person being rescued from the fire is less than her weight and less than the force \( T_1 \) in the other rope, since the more vertical rope supports a greater part of her weight (a vertical force).&#10;        ")
+![A lady is being pulled away from a burning building using a rope. She is in the middle of the rope; her weight is shown by a vector acting vertically downward. Tension, T sub one, acts upward through the left side of the rope, making an angle of fifteen degrees with the vertical. Tension T sub two acts through the right side of the rope, making an angle of ten degrees above the positive x axis.](../resources/Figure_04_07_06.jpg 'The force ( T_2 ) needed to hold steady the person being rescued from the fire is less than her weight and less than the force ( T_1 ) in the other rope, since the more vertical rope supports a greater part of her weight (a vertical force).
+        ')
 {: #Figure6 height="275"}
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -742,6 +753,7 @@ By Newton's third law, the ground pushes forward on the sprinter with 650 N. Use
 **Solution**
 
 Given:
+
 - Mass: $$ m = 70.0 \kg $$
 - Force on ground (backward): $$ 650 \N $$
 - Time: $$ t = 0.800 \s $$
@@ -752,11 +764,13 @@ By Newton's third law, ground force on sprinter (forward): $$ F = 650 \N $$
 **(a) Final speed:**
 
 Acceleration:
+
 <div class="equation">
 $$ a = \frac{F}{m} = \frac{650}{70.0} = 9.29 \mss $$
 </div>
 
 Final velocity:
+
 <div class="equation">
 $$ v = v_0 + at = 0 + (9.29)(0.800) = 7.43 \ms $$
 </div>
@@ -764,6 +778,7 @@ $$ v = v_0 + at = 0 + (9.29)(0.800) = 7.43 \ms $$
 **(b) Distance traveled:**
 
 Using $$ x = v_0t + \frac{1}{2}at^2 $$:
+
 <div class="equation">
 $$ x = 0 + \frac{1}{2}(9.29)(0.800)^2 = \frac{1}{2}(9.29)(0.640) = 2.97 \m $$
 </div>
@@ -830,7 +845,8 @@ $$ v = v_0 + at \Rightarrow t = \frac{v}{a} = \frac{33.3 \ms}{7.70 \mss} = 4.33 
 
 **(c) Effect of decreasing mass:**
 
-As fuel is consumed, the rocket's mass decreases while the thrust remains approximately constant. According to $$ a = F_{net}/m $$, as mass decreases, the acceleration increases. This means:
+As fuel is consumed, the rocket's mass decreases while the thrust remains approximately constant. According to $$ a = F\_{net}/m $$, as mass decreases, the acceleration increases. This means:
+
 - The rocket accelerates faster as it rises
 - The actual time to reach 120 km/h would be less than 4.33 s
 - The acceleration continues to increase throughout the burn, making the motion more complex than constant-acceleration kinematics predicts
@@ -872,6 +888,7 @@ Use kinematics to find launch velocity and acceleration during push-off, then ap
 **Solution**
 
 Given:
+
 - Mass: $$ m = 110 \kg $$
 - Crouch distance: $$ d_1 = 0.300 \m $$
 - Jump height: $$ h = 0.900 \m $$
@@ -879,6 +896,7 @@ Given:
 **(a) Velocity when leaving floor:**
 
 At maximum height, velocity is zero. Using $$ v^2 = v_0^2 - 2gh $$:
+
 <div class="equation">
 $$ 0 = v_0^2 - 2gh $$
 </div>
@@ -890,6 +908,7 @@ $$ v_0 = \sqrt{2gh} = \sqrt{2(9.80)(0.900)} = \sqrt{17.64} = 4.20 \ms $$
 **(b) Acceleration while straightening legs:**
 
 During push-off, accelerating from rest to 4.20 m/s over 0.300 m. Using $$ v^2 = v_i^2 + 2ad $$:
+
 <div class="equation">
 $$ (4.20)^2 = 0 + 2a(0.300) $$
 </div>
@@ -905,10 +924,12 @@ $$ a = \frac{17.64}{0.600} = 29.4 \mss $$
 **(c) Force on floor:**
 
 Forces on player during push-off:
+
 - Normal force from floor (upward): $$ N $$
 - Weight (downward): $$ w = mg = (110)(9.80) = 1078 \N $$
 
 Net upward force:
+
 <div class="equation">
 $$ F_{\text{net}} = N - w = ma $$
 </div>
@@ -959,6 +980,7 @@ Use kinematics to find the launch velocity (part a), then find the acceleration 
 **(a) Velocity when leaving the mortar:**
 
 At maximum height, the velocity is zero. Using the kinematic equation $$ v^2 = v_0^2 + 2a\Delta y $$:
+
 - Final velocity at height: $$ v = 0 $$
 - Height: $$ \Delta y = 110 \m $$
 - Acceleration: $$ a = -g = -9.80 \mss $$
@@ -978,6 +1000,7 @@ $$ v_0 = \sqrt{2156 \mmss} = 46.4 \ms $$
 **(b) Average acceleration in the mortar:**
 
 Using $$ v^2 = v_0^2 + 2a\Delta x $$ with:
+
 - Initial velocity: $$ v_0 = 0 $$
 - Final velocity: $$ v = 46.4 \ms $$
 - Distance: $$ \Delta x = 0.450 \m $$
@@ -1007,11 +1030,13 @@ $$ F_{applied} = (2.50 \kg)(2390 \mss + 9.80 \mss) = (2.50 \kg)(2400 \mss) = 6.0
 </div>
 
 Weight of shell:
+
 <div class="equation">
 $$ w = mg = (2.50 \kg)(9.80 \mss) = 24.5 \N $$
 </div>
 
 Ratio:
+
 <div class="equation">
 $$ \frac{F_{applied}}{w} = \frac{6000 \N}{24.5 \N} = 245 $$
 </div>
@@ -1050,6 +1075,7 @@ This follows the previous problem but with the shell fired at 10° from vertical
 **Note:** The previous problem involves a shell fired from a battleship. We need to reference that context, which typically involves a shell being accelerated through a barrel length.
 
 Assuming similar conditions to the previous problem:
+
 - Mass of shell: $$ m = 2.00 \kg $$ (typical value)
 - Barrel length: $$ L = 1.50 \m $$ (typical)
 - Angle from vertical: $$ 10.0^\circ $$
@@ -1057,16 +1083,19 @@ Assuming similar conditions to the previous problem:
 **(a) Shell's velocity when leaving barrel:**
 
 At 10° from vertical, gravitational component along barrel:
+
 <div class="equation">
 $$ g_{\parallel} = g\cos(10°) = 9.80 \times 0.9848 = 9.65 \mss $$
 </div>
 
 Assuming constant acceleration along the 1.50 m barrel, using $$ v^2 = v_0^2 + 2aL $$:
+
 <div class="equation">
 $$ v = \sqrt{2aL} $$
 </div>
 
 From the given answer (47.1 m/s), we can verify:
+
 <div class="equation">
 $$ a = \frac{v^2}{2L} = \frac{(47.1)^2}{2(1.50)} = \frac{2218}{3.00} = 739 \mss $$
 </div>
@@ -1076,11 +1105,13 @@ Therefore: $$ v = 47.1 \ms $$
 **(b) Acceleration:**
 
 Net acceleration = applied acceleration + gravitational component:
+
 <div class="equation">
 $$ a_{\text{net}} = a_{\text{applied}} + g_{\parallel} $$
 </div>
 
 Solving from the answer:
+
 <div class="equation">
 $$ a = 2.47 \times 10^{3} \mss = 2470 \mss $$
 </div>
@@ -1088,11 +1119,13 @@ $$ a = 2.47 \times 10^{3} \mss = 2470 \mss $$
 **(c) Force exerted:**
 
 Using Newton's second law:
+
 <div class="equation">
 $$ F = ma = (2.50 \kg)(2470 \mss) = 6175 \N \approx 6.18 \times 10^{3} \N $$
 </div>
 
 Compare to shell's weight:
+
 <div class="equation">
 $$ w = mg = (2.50)(9.80) = 24.5 \N $$
 </div>
@@ -1145,7 +1178,7 @@ Weight: $$ w = mg = (1700 \kg)(9.80 \mss) = 1.67 \times 10^4 \N $$
 
 **(a) Tension during acceleration:**
 
-Net force: $$ F_{net} = T - w = ma $$
+Net force: $$ F\_{net} = T - w = ma $$
 
 <div class="equation">
 $$ T = ma + mg = m(a + g) = (1700 \kg)(1.20 \mss + 9.80 \mss) $$
@@ -1208,6 +1241,7 @@ $$ \Delta y_3 = 5.40 \m - 2.70 \m = 2.70 \m $$
 </div>
 
 **Total height:**
+
 <div class="equation">
 $$ \Delta y_{total} = 1.35 \m + 15.3 \m + 2.70 \m = 19.4 \m $$
 </div>
@@ -1267,6 +1301,7 @@ $$ v = 13.9 \ms - 20.0 \ms = -6.1 \ms $$
 **(b) What is unreasonable:**
 
 The negative final velocity means the car is moving backward at 6.1 m/s. This is unreasonable because:
+
 - A car cannot reverse direction simply by braking
 - Once the car stops (v = 0), friction cannot accelerate it backward
 - The car would have stopped much earlier and remained at rest
@@ -1358,6 +1393,7 @@ The scale reading of 1860 N (2.53 times his weight) means the man experiences an
 **(c) Which premise is unreasonable:**
 
 The **final velocity of 30.0 m/s is unreasonably high** for an elevator. This speed is:
+
 - 108 km/h (67 mph)—faster than most cars travel in cities
 - Typical elevator speeds are 1–10 m/s
 - Even high-speed elevators in very tall buildings rarely exceed 20 m/s

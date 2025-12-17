@@ -18,13 +18,13 @@ potential due to a point charge is, thus, a case we need to consider. Using
 calculus to find the work needed to move a test charge $$q $$ from a large
 distance away to a distance of $$r $$ from a point charge $$Q $$ , and noting
 the connection between work and potential $$\left(W= -q\Delta V\right) $$ , it
-can be shown that the *electric potential $$V $$ of a point charge* is
+can be shown that the _electric potential $$V $$ of a point charge_ is
 
 <div class="equation" >
  $$V=\frac{kQ}{r} \left(\text{Point Charge}\right), $$
 </div>
 
-where *k* is a constant equal to $$ 9.0 \times 10^{9} \text{N} \text{·}
+where _k_ is a constant equal to $$ 9.0 \times 10^{9} \text{N} \text{·}
 {\text{m}}^{2}\text{/}{\text{C}}^{2} $$.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -63,7 +63,7 @@ Charges in static electricity are typically in the nanocoulomb  $$\left(\text{nC
  range. What is the voltage 5.00 cm away from the center of a 1-cm diameter metal sphere that has a  $$-3.00 \text{nC} $$
  static charge?
 
-**Strategy** 
+**Strategy**
 
 As we have discussed
 in [Electric Charge and Electric Field](../contents/ch18ElectricChargeAndElectricField),
@@ -71,7 +71,7 @@ charge on a metal sphere spreads out uniformly and produces a field like that of
 a point charge located at its center. Thus we can find the voltage using the
 equation $$V=kQ/r $$.
 
-**Solution** 
+**Solution**
 
 Entering known values into the expression for the potential of a point charge,
 we obtain
@@ -81,7 +81,7 @@ we obtain
  V & =& \left( 8.99 \times 10^{9}  \text{N}·{\text{m}}^{2}/{\text{C}}^{2}\right)\left(\frac{-3.00 \times 10^{-9} \text{C}}{5.00 \times 10^{-2} \text{m}}\right)\\ 
  V & =& -539 \text{V} \text{.} \end{array} $$
 </div>
-**Discussion** 
+**Discussion**
 
 The negative value for voltage means a positive charge would be attracted from a
 larger distance, since the potential is lower (more negative) than at larger
@@ -95,10 +95,10 @@ What Is the Excess Charge on a Van de Graaff Generator
 </div>
 A demonstration Van de Graaff generator has a 25.0 cm diameter metal sphere that produces a voltage of 100 kV near its surface. (See [[Figure 1]](#Figure1).) What excess charge resides on the sphere? (Assume that each numerical value here is shown with three significant figures.)
 
-![The figure shows a Van de Graaff generator. The generator consists of a flat belt running over two metal pulleys. One pulley is positioned at the top and another at the bottom. The upper pulley is surrounded by an aluminum sphere. The aluminum sphere has a diameter of twenty five centimeters. Inside the sphere, the upper pulley is connected to a conductor which in turn is connected to a voltmeter for measuring the potential on the sphere. The lower pulley is connected to a motor. When the motor is switched on, the lower pulley begins turning the flat belt. The Van de Graaff generator with the above described setup produces a voltage of one hundred kilovolts. The potential on the surface of the sphere will be the same as that of a point charge at the center which is twelve point five centimeters away from the center. Thus the excess charge is calculated using the formula Q equals r times V divided by k.](../resources/Figure_19_03_01.jpg "The voltage of this demonstration Van de Graaff generator is measured between the charged sphere and ground. Earth&#x2019;s potential is taken to be zero as a reference. The potential of the charged conducting sphere is the same as that of an equal point charge at its center.")
+![The figure shows a Van de Graaff generator. The generator consists of a flat belt running over two metal pulleys. One pulley is positioned at the top and another at the bottom. The upper pulley is surrounded by an aluminum sphere. The aluminum sphere has a diameter of twenty five centimeters. Inside the sphere, the upper pulley is connected to a conductor which in turn is connected to a voltmeter for measuring the potential on the sphere. The lower pulley is connected to a motor. When the motor is switched on, the lower pulley begins turning the flat belt. The Van de Graaff generator with the above described setup produces a voltage of one hundred kilovolts. The potential on the surface of the sphere will be the same as that of a point charge at the center which is twelve point five centimeters away from the center. Thus the excess charge is calculated using the formula Q equals r times V divided by k.](../resources/Figure_19_03_01.jpg 'The voltage of this demonstration Van de Graaff generator is measured between the charged sphere and ground. Earth’s potential is taken to be zero as a reference. The potential of the charged conducting sphere is the same as that of an equal point charge at its center.')
 {: #Figure1}
 
-**Strategy** 
+**Strategy**
 
 The potential on the surface will be the same as that of a point charge at the
 center of the sphere, 12.5 cm away. (The radius of the sphere is 12.5 cm.) We
@@ -107,7 +107,7 @@ can thus determine the excess charge using the equation
 <div class="equation" >
  $$V=\frac{kQ}{r}. $$
 </div>
-**Solution** 
+**Solution**
 
 Solving for $$Q $$ and entering known values gives
 
@@ -116,7 +116,7 @@ Solving for $$Q $$ and entering known values gives
  Q& =& \frac{\left( 0.125 \text{m}\right)\left(100 \times 10^{3}  \text{V}\right)}{ 8.99 \times 10^{9}  \text{N}·{\text{m}}^{2}/{\text{C}}^{2}}\\ 
  Q & =& 1.39 \times 10^{-6} \text{C}=1.39 \text{µC.}\end{array} $$
 </div>
-**Discussion** 
+**Discussion**
 
 This is a relatively small charge, but it produces a rather large voltage. We
 have another indication here that it is difficult to store isolated charges.
@@ -135,9 +135,9 @@ gravitational potential energy, $${\text{PE}}_{g}= mgh $$.
 
 ### Section Summary
 
-* Electric potential of a point charge is $$V=kQ/r $$ .
+- Electric potential of a point charge is $$V=kQ/r $$ .
 
-* Electric potential is a scalar, and electric field is a vector. Addition of
+- Electric potential is a scalar, and electric field is a vector. Addition of
   voltages as numbers gives the voltage due to a combination of point charges,
   whereas addition of individual fields as vectors gives the total electric
   field.

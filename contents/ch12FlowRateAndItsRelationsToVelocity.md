@@ -22,7 +22,7 @@ In symbols, this can be written as
 
 where $$V $$ is the volume and $$t $$ is the elapsed time.
 
-![The figure shows a fluid flowing through a cylindrical pipe open at both ends. A portion of the cylindrical pipe with the fluid is shaded for a length d. The velocity of the fluid in the shaded region is shown by v toward the right. The cross sections of the shaded cylinder are marked as A. This cylinder of fluid flows past a point P on the cylindrical pipe. The velocity v is equal to d over t.](../resources/Figure_12_01_01.jpg "Flow rate is the volume of fluid per unit time flowing past a point through the area \(A\) . Here the shaded cylinder of fluid flows past point \(P\)  in a uniform pipe in time \(t\) . The volume of the cylinder is  \(Ad\)  and the average velocity is  \( \bar{v}=d/t \) so that the flow rate is  \( Q=Ad/t=A\bar{v} \) .)")
+![The figure shows a fluid flowing through a cylindrical pipe open at both ends. A portion of the cylindrical pipe with the fluid is shaded for a length d. The velocity of the fluid in the shaded region is shown by v toward the right. The cross sections of the shaded cylinder are marked as A. This cylinder of fluid flows past a point P on the cylindrical pipe. The velocity v is equal to d over t.](../resources/Figure_12_01_01.jpg 'Flow rate is the volume of fluid per unit time flowing past a point through the area (A) . Here the shaded cylinder of fluid flows past point (P)  in a uniform pipe in time (t) . The volume of the cylinder is  (Ad)  and the average velocity is  ( \\bar{v}=d/t ) so that the flow rate is  ( Q=Ad/t=A\\bar{v} ) .)')
 {: #Figure1}
 
 The SI unit for flow rate is $${\text{m}}^{3}\text{/s} $$ , but a number of
@@ -92,8 +92,6 @@ of this relationship by $$t $$ gives
  $$\frac{V}{t}=\frac{Ad}{t}\text{.} $$
 </div>
 
-
-
 We note that $$Q=V/t $$ and the average speed is $$\overline{v}=d/t $$ . Thus,
 the equation becomes $$Q=A\overline{v} $$.
 
@@ -118,7 +116,7 @@ leaves the other end of the reservoir. In other words, speed increases when
 cross-sectional area decreases, and speed decreases when cross-sectional area
 increases.
 
-![The figure shows a cylindrical tube broad at the left and narrow at the right. The fluid is shown to flow through the cylindrical tube toward right along the axis of the tube. A shaded area is marked on the broader cylinder on the left. A cross section is marked on it as A one. A point one is marked on this cross section. The velocity of the fluid through the shaded area on narrow tube is marked by v one as an arrow toward right. Another shaded area is marked on the narrow cylindrical on the right. The shaded area on narrow tube is longer than the one on broader tube to show that when a tube narrows, the same volume occupies a greater length. A cross section is marked on the narrow cylindrical tube as A two. A point two is marked on this cross section. The velocity of fluid through the shaded area on narrow tube is marked v two toward right. The arrow depicting v two is longer than for v one showing v two to be greater in value than v one.](../resources/Figure_12_01_02.jpg "When a tube narrows, the same volume occupies a greater length. For the same volume to pass points 1 and 2 in a given time, the speed must be greater at point 2. The process is exactly reversible. If the fluid flows in the opposite direction, its speed will decrease when the tube widens. (Note that the relative volumes of the two cylinders and the corresponding velocity vector arrows are not drawn to scale.)")
+![The figure shows a cylindrical tube broad at the left and narrow at the right. The fluid is shown to flow through the cylindrical tube toward right along the axis of the tube. A shaded area is marked on the broader cylinder on the left. A cross section is marked on it as A one. A point one is marked on this cross section. The velocity of the fluid through the shaded area on narrow tube is marked by v one as an arrow toward right. Another shaded area is marked on the narrow cylindrical on the right. The shaded area on narrow tube is longer than the one on broader tube to show that when a tube narrows, the same volume occupies a greater length. A cross section is marked on the narrow cylindrical tube as A two. A point two is marked on this cross section. The velocity of fluid through the shaded area on narrow tube is marked v two toward right. The arrow depicting v two is longer than for v one showing v two to be greater in value than v one.](../resources/Figure_12_01_02.jpg 'When a tube narrows, the same volume occupies a greater length. For the same volume to pass points 1 and 2 in a given time, the speed must be greater at point 2. The process is exactly reversible. If the fluid flows in the opposite direction, its speed will decrease when the tube widens. (Note that the relative volumes of the two cylinders and the corresponding velocity vector arrows are not drawn to scale.)')
 {: #Figure2}
 
 Since liquids are essentially incompressible, the equation of continuity is
@@ -141,6 +139,7 @@ We will use the subscript 1 for the hose and 2 for the nozzle.
 
 First, we solve $$Q=A\overline{v} $$ for $${v}_{1} $$ and note that the
 cross-sectional area is $$A=\pi r^2 $$, yielding
+
 <div class="equation">
  $${\overline{v}}_{1}=\frac{Q}{ {A}_{1}}=\frac{Q}{ \pi r_{1}^{2}}\text{.} $$
 </div>
@@ -180,7 +179,7 @@ to a narrower tube.
 </div>
 
 The solution to the last part of the example shows that speed is inversely
-proportional to the *square* of the radius of the tube, making for large effects
+proportional to the _square_ of the radius of the tube, making for large effects
 when radius varies. We can blow out a candle at quite a distance, for example,
 by pursing our lips, whereas blowing on a candle with our mouth wide open is
 quite ineffective.
@@ -189,7 +188,7 @@ In many situations, including in the cardiovascular system, branching of the
 flow occurs. The blood is pumped from the heart into arteries that subdivide
 into smaller arteries (arterioles) which branch into very fine vessels called
 capillaries. In this situation, continuity of flow is maintained, but it is
-the *sum* of the flow rates in each of the branches in any portion along the
+the _sum_ of the flow rates in each of the branches in any portion along the
 tube that is maintained. The equation of continuity in a more general form
 becomes
 
@@ -229,7 +228,7 @@ Using $${n}_{1}{A}_{1}{\overline{v}}_{1}={n}_{2}{A}_{2}{\overline{v}}_{1} $$ ,
 assigning the subscript 1 to the aorta and 2 to the capillaries, and solving for
 $${n}_{2} $$
 (the number of capillaries) gives $${n}_{2}=\frac{ {n}_{1}{A}_{1}{\overline{v}}_
-{1}}{ {A}_{2}{\overline{v}}_{2}} $$ . Converting all quantities to units of
+{1}}{ {A}_{2}{\overline{v}}\_{2}} $$ . Converting all quantities to units of
 meters and seconds and substituting into the equation above gives
 
 <div class="equation">
@@ -251,14 +250,14 @@ $$4 \times 10^{9} $$ capillaries.
 
 ### Section Summary
 
-* Flow rate $$Q $$ is defined to be the volume $$V $$ flowing past a point in
+- Flow rate $$Q $$ is defined to be the volume $$V $$ flowing past a point in
   time $$t $$, or $$Q=\frac{V}{t} $$ where $$V $$ is volume and $$t $$ is time.
-* The SI unit of volume is $${\text{m}}^{3} $$ .
-* Another common unit is the liter (L), which is $$10^{-3} {\text{m}}^{3} $$ .
-* Flow rate and velocity are related by $$Q=A\overline{v} $$ where $$A $$ is the
+- The SI unit of volume is $${\text{m}}^{3} $$ .
+- Another common unit is the liter (L), which is $$10^{-3} {\text{m}}^{3} $$ .
+- Flow rate and velocity are related by $$Q=A\overline{v} $$ where $$A $$ is the
   cross-sectional area of the flow and $$\overline{v} $$ is its average
   velocity.
-* For incompressible fluids, flow rate at various points is constant. That is,
+- For incompressible fluids, flow rate at various points is constant. That is,
   <div class="equation" >
    $$\begin{array}{c} {Q}_{1}={Q}_{2}\\ {A}_{1} {\overline{v}}_{1}={A}_{2} {\overline{v}}_{2} \\ {n}_{1} {A}_{1} {\overline{v}}_{1}={n}_{2} {A}_{2} {\overline{v}}_{2} \end{array} \text{.} $$
   </div>
@@ -329,7 +328,7 @@ Blood is flowing through an artery of radius 2 mm at a rate of 40 cm/s. Determin
 <div class="problem" markdown="1">
 The Huka Falls on the Waikato River is one of New Zealand’s most visited natural tourist attractions (see [[Figure 3]](#Figure3)). On average the river has a flow rate of about 300 000 L/s. At the gorge, the river narrows to 20 m wide and averages 20 m deep. (a) What is the average speed of the river in the gorge? (b) What is the average speed of the water in the river downstream of the falls when it widens to 60 m and its depth increases to an average of 40 m?
 
-![Water rushes over a fall.](../resources/Figure_12_01_04.jpg "The Huka Falls in Taupo, New Zealand, demonstrate flow rate. (credit: RaviGogna, Flickr)")
+![Water rushes over a fall.](../resources/Figure_12_01_04.jpg 'The Huka Falls in Taupo, New Zealand, demonstrate flow rate. (credit: RaviGogna, Flickr)')
 {: #Figure3}
 
 </div>
@@ -402,7 +401,7 @@ The flow rate of blood through a  $$ 2.00 \times 10^{-6}\text{-m} $$
 <div class="solution" markdown="1">
 (a) 12.6 m/s
 
-(b)  $$0.0800 {\text{m}}^{3}\text{/s} $$
+(b) $$0.0800 {\text{m}}^{3}\text{/s} $$
 (c) No, independent of density.
 
 </div>
@@ -466,8 +465,8 @@ about the premises?
 {: class="glossary-title"}
 
 flow rate
-: abbreviated *Q*, it is the volume *V* that flows past a particular point
-during a time *t*, or *Q = V/t*
+: abbreviated _Q_, it is the volume _V_ that flows past a particular point
+during a time _t_, or _Q = V/t_
 
 liter
 : a unit of volume, equal to 10<sup>−3</sup> m<sup>3</sup>

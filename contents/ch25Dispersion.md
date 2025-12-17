@@ -11,7 +11,7 @@ chapterNumber: 25
 
 Everyone enjoys the spectacle and surprise of rainbows. They’ve been hailed as symbols of hope and spirituality and are the subject of stories and myths across the world’s cultures. Just how does sunlight falling on water droplets cause the multicolored image we see, and what else does this phenomenon tell us about light, color, and radiation? Working in his native Persia (now Iran), Kamal al-Din Hasan ibn Ali ibn Hasan al-Farisi (1267–1319) designed a series of innovative experiments to answer this question and clarify the explanations of many earlier scientists. At that time, there were no microscopes to examine tiny drops of water similar to those in the atmosphere, so Farisi created an enormous drop of water. He filled a large glass vessel with water and placed it inside a camera obscura, in which he could carefully control the entry of light. Using a series of careful observations on the resulting multicolored spectra of light, he deduced and confirmed that the droplets split—or decompose—white light into the colors of the rainbow. Farisi’s contemporary, Theodoric of Freiberg (in Germany), performed similar experiments using other equipment. Both relied on the prior work of Ibn al-Haytham, often known as the founder of optics and among the first to formalize a scientific method.
 
-![Part a of this figure shows the colors produced by a rainbow. Part b shows the colors produced by a prism.](../resources/Figure_25_05_01.jpg "The colors of the rainbow (a) and those produced by a prism (b) are identical. (credit: Alfredo55, Wikimedia Commons; NASA)")
+![Part a of this figure shows the colors produced by a rainbow. Part b shows the colors produced by a prism.](../resources/Figure_25_05_01.jpg 'The colors of the rainbow (a) and those produced by a prism (b) are identical. (credit: Alfredo55, Wikimedia Commons; NASA)')
 {: #Figure1}
 
 We see about six colors in a rainbow—red, orange, yellow, green, blue, and
@@ -40,7 +40,7 @@ Dispersion is defined to be the spreading of white light into its full spectrum 
 
 </div>
 
-![A continuous distribution of colors with their range of wavelength lambda in nanometers, starting with infrared at 800 nanometers. Following infrared is the visible region with red at 700 nanometers, orange, yellow at 600 nanometers, green, blue at 500 nanometers, and violet at 400 nanometers. The distribution ends with ultraviolet at 300 nanometers.](../resources/Figure_25_05_02.jpg "Even though rainbows are associated with seven colors, the rainbow is a continuous distribution of colors according to wavelengths.")
+![A continuous distribution of colors with their range of wavelength lambda in nanometers, starting with infrared at 800 nanometers. Following infrared is the visible region with red at 700 nanometers, orange, yellow at 600 nanometers, green, blue at 500 nanometers, and violet at 400 nanometers. The distribution ends with ultraviolet at 300 nanometers.](../resources/Figure_25_05_02.jpg 'Even though rainbows are associated with seven colors, the rainbow is a continuous distribution of colors according to wavelengths.')
 {: #Figure2}
 
 Refraction is responsible for dispersion in rainbows and many other situations.
@@ -119,7 +119,7 @@ Any type of wave can exhibit dispersion. Sound waves, all types of electromagnet
             <td>1.468</td>
           </tr></tbody></table>
 
-![Figure (a) shows a triangle representing a prism and a pure wavelength of incident light falling onto it and getting refracted at both sides of the prism. The refracted ray runs parallel to the base of the prism and then emerges after getting refracted from the other surface. Figure (b) shows a triangle representing a prism and an incident white light falling onto it and getting refracted at the first surface with two refracted rays with slightly different angles of separation. The refracted rays, on falling on the second surface, refract with various angles of refraction. A sequence of red to violet is produced when light emerges out of the prism. Red at 760 nanometers and violet at 380 nanometers.](../resources/Figure_25_05_03.jpg "(a) A pure wavelength of light falls onto a prism and is refracted at both surfaces. (b) White light is dispersed by the prism (shown exaggerated). Since the index of refraction varies with wavelength, the angles of refraction vary with wavelength. A sequence of red to violet is produced, because the index of refraction increases steadily with decreasing wavelength.")
+![Figure (a) shows a triangle representing a prism and a pure wavelength of incident light falling onto it and getting refracted at both sides of the prism. The refracted ray runs parallel to the base of the prism and then emerges after getting refracted from the other surface. Figure (b) shows a triangle representing a prism and an incident white light falling onto it and getting refracted at the first surface with two refracted rays with slightly different angles of separation. The refracted rays, on falling on the second surface, refract with various angles of refraction. A sequence of red to violet is produced when light emerges out of the prism. Red at 760 nanometers and violet at 380 nanometers.](../resources/Figure_25_05_03.jpg '(a) A pure wavelength of light falls onto a prism and is refracted at both surfaces. (b) White light is dispersed by the prism (shown exaggerated). Since the index of refraction varies with wavelength, the angles of refraction vary with wavelength. A sequence of red to violet is produced, because the index of refraction increases steadily with decreasing wavelength.')
 {: #Figure3}
 
 Rainbows are produced by a combination of refraction and reflection. You may
@@ -148,10 +148,10 @@ Rainbows are produced by a combination of refraction and reflection.
 
 </div>
 
-![Sun light incident on a spherical water droplet gets refracted at various angles. The refracted rays further undergo total internal reflection and when they leave the water droplet, a sequence of colors ranging from violet to red is formed.](../resources/Figure_25_05_04.jpg "Part of the light falling on this water drop enters and is reflected from the back of the drop. This light is refracted and dispersed both as it enters and as it leaves the drop.")
+![Sun light incident on a spherical water droplet gets refracted at various angles. The refracted rays further undergo total internal reflection and when they leave the water droplet, a sequence of colors ranging from violet to red is formed.](../resources/Figure_25_05_04.jpg 'Part of the light falling on this water drop enters and is reflected from the back of the drop. This light is refracted and dispersed both as it enters and as it leaves the drop.')
 {: #Figure4}
 
-![In figure (a) sunlight is incident on two water droplets close to one another. The incident rays undergo refraction and total internal reflection. From the first droplet, violet color emerges and from the second, red emerges. A woman observes from a distance, the band of seven colors with red on top and violet at the bottom. Two rays each from red and violet reach the observer&#x2019;s eyes. The angle of separation between the incident light and the emerging red light is theta. In figure (b), a man looks at the rainbow, which is in the shape of an arc. A parallel beam of blue colored rays fall on the rainbow at different positions and then reaches the observer, each ray making the same angle theta with the incident ray. The rays reaching the observer are red in color. Figure (c) shows a spectacular double rainbow in the sky with white clouds as a backdrop.](../resources/Figure_25_05_05.jpg "(a) Different colors emerge in different directions, and so you must look at different locations to see the various colors of a rainbow. (b) The arc of a rainbow results from the fact that a line between the observer and any point on the arc must make the correct angle with the parallel rays of sunlight to receive the refracted rays.  (c) Double rainbow. (credit: Nicholas, Wikimedia Commons)")
+![In figure (a) sunlight is incident on two water droplets close to one another. The incident rays undergo refraction and total internal reflection. From the first droplet, violet color emerges and from the second, red emerges. A woman observes from a distance, the band of seven colors with red on top and violet at the bottom. Two rays each from red and violet reach the observer’s eyes. The angle of separation between the incident light and the emerging red light is theta. In figure (b), a man looks at the rainbow, which is in the shape of an arc. A parallel beam of blue colored rays fall on the rainbow at different positions and then reaches the observer, each ray making the same angle theta with the incident ray. The rays reaching the observer are red in color. Figure (c) shows a spectacular double rainbow in the sky with white clouds as a backdrop.](../resources/Figure_25_05_05.jpg '(a) Different colors emerge in different directions, and so you must look at different locations to see the various colors of a rainbow. (b) The arc of a rainbow results from the fact that a line between the observer and any point on the arc must make the correct angle with the parallel rays of sunlight to receive the refracted rays.  (c) Double rainbow. (credit: Nicholas, Wikimedia Commons)')
 {: #Figure5}
 
 Dispersion may produce beautiful rainbows, but it can cause problems in optical
@@ -164,14 +164,13 @@ be used to determine the amount of matter they pass through. As with many
 phenomena, dispersion can be useful or a nuisance, depending on the situation
 and our human goals.
 
-
 ### Section Summary
 
-* The spreading of white light into its full spectrum of wavelengths is called
+- The spreading of white light into its full spectrum of wavelengths is called
   dispersion.
-* Rainbows are produced by a combination of refraction and reflection and
+- Rainbows are produced by a combination of refraction and reflection and
   involve the dispersion of sunlight into a continuous distribution of colors.
-* Dispersion produces beautiful rainbows but also causes problems in certain
+- Dispersion produces beautiful rainbows but also causes problems in certain
   optical systems.
 
 ### Problems &amp; Exercises
@@ -248,7 +247,7 @@ A narrow beam of white light enters a prism made of crown glass at a  $$ 45.0º 
  and  $${\theta }_{\text{V}} $$ ,
  do the red (660 nm) and violet (410 nm) components of the light emerge from the prism?
 
-![A blue incident light ray at an angle of incidence equal to 45 degrees falls on an equilateral triangular prism with angles each equal to 60 degrees. On falling onto the first surface, the ray refracts and splits into red and violet rays. These rays falling onto the second surface and emerge from the prism. Red with 660 nanometers and violet with 410 nanometers.](../resources/Figure_25_05_06.jpg "This prism will disperse the white light into a rainbow of colors. The incident angle is 45.0&#xBA;, and the angles at which the red and violet light emerge are \( \theta_\text{R} \) and \( \theta_\text{V} \) . ")
+![A blue incident light ray at an angle of incidence equal to 45 degrees falls on an equilateral triangular prism with angles each equal to 60 degrees. On falling onto the first surface, the ray refracts and splits into red and violet rays. These rays falling onto the second surface and emerge from the prism. Red with 660 nanometers and violet with 410 nanometers.](../resources/Figure_25_05_06.jpg 'This prism will disperse the white light into a rainbow of colors. The incident angle is 45.0º, and the angles at which the red and violet light emerge are ( \\theta_\\text{R} ) and ( \\theta_\\text{V} ) . ')
 {: #Figure6}
 
 </div>
