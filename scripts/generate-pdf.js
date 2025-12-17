@@ -25,7 +25,7 @@ const ROOT_DIR = join(__dirname, '..');
 // Configuration
 const CONFIG = {
   outputDir: join(ROOT_DIR, 'pdf-output'),
-  baseUrl: 'http://localhost:4000',
+  baseUrl: 'http://localhost:4000/physics-book',
   viewport: { width: 1200, height: 800 },
   pdfOptions: {
     format: 'Letter',
@@ -69,8 +69,8 @@ function loadBookStructure() {
  * Convert a markdown file path to its Jekyll URL
  */
 function fileToUrl(filePath) {
-  // Remove 'contents/' prefix and '.md' extension
-  const urlPath = filePath.replace(/^contents\//, '').replace(/\.md$/, '.html');
+  // Replace '.md' extension with '.html' but keep the 'contents/' directory
+  const urlPath = filePath.replace(/\.md$/, '.html');
   return `${CONFIG.baseUrl}/${urlPath}`;
 }
 
@@ -111,6 +111,47 @@ async function waitForMathJax(page) {
  * Inject print-specific CSS for better PDF output
  */
 async function injectPrintStyles(page) {
+  // First, remove navigation elements and solutions from the DOM
+  await page.evaluate(() => {
+    const selectorsToRemove = [
+      'nav',
+      '.navigation',
+      '.nav',
+      '.sidebar',
+      '.menu',
+      '.toc-toggle',
+      '.book-search',
+      '.book-summary',
+      '.book-header',
+      '.gitbook-link',
+      '#gitbook-toolbar',
+      '.toolbar',
+      '.book-menu-btn',
+      '.font-settings',
+      '.pull-right',
+      '.dropdown',
+      '.social-share',
+      'header nav',
+      'footer nav',
+      // Common gitbook/navigation classes
+      '.book-menu',
+      '.summary',
+      'aside',
+      '.toc',
+      '.table-of-contents',
+      // Remove solutions to end-of-chapter problems
+      '.solution',
+      'div.solution',
+      '[data-element-type="solution"]',
+    ];
+
+    selectorsToRemove.forEach(selector => {
+      const elements = document.querySelectorAll(selector);
+      elements.forEach(el => el.remove());
+    });
+  });
+
+  // Then inject CSS for additional styling
   await page.addStyleTag({
     content: `
       @media print {
@@ -135,19 +176,41 @@ async function injectPrintStyles(page) {
           page-break-inside: avoid !important;
         }
 
-        /* Clean up navigation and other web elements */
-        nav, .navigation, .sidebar, .menu, .toc-toggle,
-        .book-search, .gitbook-link, #gitbook-toolbar {
+        /* Hide any remaining navigation elements */
+        nav, .navigation, .nav, .sidebar, .menu, .toc-toggle,
+        .book-search, .book-summary, .book-header, .gitbook-link,
+        #gitbook-toolbar, .toolbar, .book-menu-btn, .font-settings,
+        .pull-right, .dropdown, .social-share, aside, .toc,
+        header nav, footer nav, .book-menu, .summary, .table-of-contents {
           display: none !important;
+          visibility: hidden !important;
+          width: 0 !important;
+          height: 0 !important;
+          margin: 0 !important;
+          padding: 0 !important;
+        }
+
+        /* Hide solutions to end-of-chapter problems */
+        .solution,
+        div.solution,
+        [data-element-type="solution"] {
+          display: none !important;
+          visibility: hidden !important;
+          width: 0 !important;
+          height: 0 !important;
+          margin: 0 !important;
+          padding: 0 !important;
         }
 
         /* Ensure content is full width */
-        .book-body, .body-inner, .page-wrapper, .page-inner,
-        .markdown-section, main, article {
+        body, .book, .book-body, .body-inner, .page-wrapper, .page-inner,
+        .markdown-section, main, article, .content {
           width: 100% !important;
           max-width: 100% !important;
           margin: 0 !important;
           padding: 0 !important;
+          position: static !important;
+          float: none !important;
         }
 
         /* Better link handling for print */
@@ -454,7 +517,7 @@ Options:
   --combined            Generate combined PDFs (one per chapter with all sections)
   -u, --url <url>       Generate PDF from a specific URL
   -o, --output <name>   Output filename (for --url mode)
-  -b, --base-url <url>  Base URL for Jekyll server (default: http://localhost:4000)
+  -b, --base-url <url>  Base URL for Jekyll server (default: http://localhost:4000/physics-book)
   -h, --help            Show this help message
 
 Examples:
@@ -468,10 +531,10 @@ Examples:
   node scripts/generatePdf.js --combined
 
   # Generate PDF from specific URL
-  node scripts/generatePdf.js --url http://localhost:4000/ch1PhysicsAnIntroduction.html
+  node scripts/generatePdf.js --url http://localhost:4000/physics-book/contents/ch1PhysicsAnIntroduction.html
 
   # Use different base URL
-  node scripts/generatePdf.js --all --base-url http://localhost:3000
+  node scripts/generatePdf.js --all --base-url http://localhost:3000/physics-book
 
 Prerequisites:
   - Jekyll server must be running: bundle exec jekyll serve
