@@ -37,7 +37,7 @@ trace amounts of $${}^{238}\text{U} $$ and can be inhaled. The decay of radon
 and its daughters produces internal damage. The $${}^{238}\text{U} $$ decay
 series ends with $${}^{206}\text{Pb} $$ , a stable isotope of lead.
 
-![A graph is shown in which decay of alpha and beta is shown. Also half lives of each isotope are shown. Uranium decays in one mode but some isotopes decay by more than one mode. Finally a stable isotope of lead results.](../resources/Figure_31_04_01.jpg "The decay series produced by \( {}^{238}\text{U} \), the most common uranium isotope. Nuclides are graphed in the same manner as in the chart of nuclides. The type of decay for each member of the series is shown, as well as the half-lives. Note that some nuclides decay by more than one mode. You can see why radium and polonium are found in uranium ore. A stable isotope of lead is the end product of the series.")
+![A graph is shown in which decay of alpha and beta is shown. Also half lives of each isotope are shown. Uranium decays in one mode but some isotopes decay by more than one mode. Finally a stable isotope of lead results.](../resources/Figure_31_04_01.jpg 'The decay series produced by ( {}^{238}\\text{U} ), the most common uranium isotope. Nuclides are graphed in the same manner as in the chart of nuclides. The type of decay for each member of the series is shown, as well as the half-lives. Note that some nuclides decay by more than one mode. You can see why radium and polonium are found in uranium ore. A stable isotope of lead is the end product of the series.')
 {: #Figure1}
 
 Note that the daughters of $$\alpha $$ decay shown in [[Figure 1]](#Figure1)
@@ -46,7 +46,9 @@ reasonable, since we know that $$\alpha $$ decay is the emission of a
 $${}^{4}\text{He} $$ nucleus, which has two protons and two neutrons. The
 daughters of $$\beta $$ decay have one less neutron and one more proton than
 their parent. Beta decay is a little more subtle, as we shall see. No $$\gamma
-$$ decays are shown in the figure, because they do not produce a daughter that
+
+$$
+decays are shown in the figure, because they do not produce a daughter that
 differs from the parent.
 
 ### Alpha Decay
@@ -953,3 +955,4 @@ electron capture equation
 : equation representing the electron capture
 
 </div>
+$$

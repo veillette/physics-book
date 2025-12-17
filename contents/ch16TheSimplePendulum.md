@@ -9,7 +9,7 @@ chapterNumber: 16
 * Measure acceleration due to gravity.
 </div>
 
-![In the figure, a horizontal bar is drawn. A perpendicular dotted line from the middle of the bar, depicting the equilibrium of pendulum, is drawn downward. A string of length L is tied to the bar at the equilibrium point. A circular bob of mass m is tied to the end of the string which is at a distance s from the equilibrium. The string is at an angle of theta with the equilibrium at the bar. A red arrow showing the time T of the oscillation of the mob is shown along the string line toward the bar. An arrow from the bob toward the equilibrium shows its restoring force asm g sine theta. A perpendicular arrow from the bob toward the ground depicts its mass as W equals to mg, and this arrow is at an angle theta with downward direction of string.](../resources/Figure_16_04_01.jpg "A simple pendulum has a small-diameter bob and a string that has a very small mass but is strong enough not to stretch appreciably. The linear displacement from equilibrium is \( s \) , the length of the arc. Also shown are the forces on the bob, which result in a net force of \( -mg \sin \theta \) toward the equilibrium position&#x2014;that is, a restoring force.")
+![In the figure, a horizontal bar is drawn. A perpendicular dotted line from the middle of the bar, depicting the equilibrium of pendulum, is drawn downward. A string of length L is tied to the bar at the equilibrium point. A circular bob of mass m is tied to the end of the string which is at a distance s from the equilibrium. The string is at an angle of theta with the equilibrium at the bar. A red arrow showing the time T of the oscillation of the mob is shown along the string line toward the bar. An arrow from the bob toward the equilibrium shows its restoring force asm g sine theta. A perpendicular arrow from the bob toward the ground depicts its mass as W equals to mg, and this arrow is at an angle theta with downward direction of string.](../resources/Figure_16_04_01.jpg 'A simple pendulum has a small-diameter bob and a string that has a very small mass but is strong enough not to stretch appreciably. The linear displacement from equilibrium is ( s ) , the length of the arc. Also shown are the forces on the bob, which result in a net force of ( -mg \\sin \\theta ) toward the equilibrium position—that is, a restoring force.')
 {: #Figure1}
 
 Pendulums are in common usage. Some have crucial uses, such as in clocks; some
@@ -27,7 +27,7 @@ from [[Figure 1]](#Figure1) that the net force on the bob is tangent to the arc
 and equals $$-mg \sin \theta $$ .
 (The weight $$mg $$ has components $$mg \cos \theta $$ along the string and $$mg
 \sin \theta $$ tangent to the arc.) Tension in the string exactly cancels the component $$
-mg \cos \theta $$ parallel to the string. This leaves a *net* restoring force
+mg \cos \theta $$ parallel to the string. This leaves a _net_ restoring force
 back toward the equilibrium position at $$\theta =0 $$.
 
 Now, if we can show that the restoring force is directly proportional to the
@@ -43,7 +43,9 @@ is
 </div>
 
 The displacement $$s $$ is directly proportional to $$\theta $$ . When $$\theta
-$$ is expressed in radians, the arc length in a circle is related to its
+
+$$
+is expressed in radians, the arc length in a circle is related to its
 radius ( $$L $$ in this instance) by:
 
 <div class="equation" >
@@ -121,7 +123,8 @@ that the angle of deflection is less than $$15 ^\circ $$.
 2. Substitute known values into the new equation:
    <div class="equation" >
    $$g={4\pi }^{2}\frac{0.75000 \text{m}}{ {\left(1.7357 \text{s}\right)}^{2}}.
-   $$
+$$
+
    </div>
 
 3. Calculate to find $$g $$ \:
@@ -190,9 +193,9 @@ Play with one or two pendulums and discover how the period of a simple pendulum 
 
 ### Section Summary
 
-* A mass $$m $$ suspended by a wire of length $$L $$ is a simple pendulum and undergoes
-      simple harmonic motion for amplitudes less than about $$15 ^\circ. $$
-      The period of a simple pendulum is
+- A mass $$m $$ suspended by a wire of length $$L $$ is a simple pendulum and undergoes
+  simple harmonic motion for amplitudes less than about $$15 ^\circ. $$
+  The period of a simple pendulum is
 
   <div class="equation" >
    $$T=2\pi \sqrt{\frac{L}{g}}, $$
@@ -305,7 +308,7 @@ A pendulum with a period of 2.00000 s in one location  $$\left(g=9.80 {\text{m/s
 
 </div>
 <div class="solution" markdown="1">
-(a) Period increases by a factor of 1.41 ( $$\sqrt{2} $$ )  
+(a) Period increases by a factor of 1.41 ( $$\sqrt{2} $$ )
 
 (b) Period decreases to 97.5% of old period
 

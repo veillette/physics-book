@@ -23,17 +23,20 @@ The search feature provides a fast, offline-capable full-text search across all 
 Generates the search index from HTML files after Jekyll builds the site.
 
 **Usage:**
+
 ```bash
 npm run build-search-index
 ```
 
 **What it does:**
+
 - Scans all HTML files in the `_site` directory
 - Extracts page titles and content using Cheerio
 - Creates a MiniSearch index with fuzzy matching and title boosting
 - Outputs `search_index.json` to the `_site` directory
 
 **Requirements:**
+
 - Must be run AFTER Jekyll builds the site
 - Requires `_site` directory to exist with built HTML files
 
@@ -42,12 +45,14 @@ npm run build-search-index
 Client-side search engine that loads and queries the search index.
 
 **Key Functions:**
+
 - `init()`: Loads the search index from `search_index.json`
 - `search(query, maxResults)`: Performs a search and returns results
 - `autoSuggest(query, maxSuggestions)`: Provides autocomplete suggestions
 - `ready()`: Checks if search is initialized
 
 **Configuration:**
+
 - Fuzzy matching: 0.2 tolerance
 - Title boost: 2x weight
 - Prefix search: Enabled
@@ -58,6 +63,7 @@ Client-side search engine that loads and queries the search index.
 User interface component that integrates with the book viewer.
 
 **Features:**
+
 - Search input with clear button
 - Dropdown results display
 - Click-outside-to-close behavior
@@ -65,6 +71,7 @@ User interface component that integrates with the book viewer.
 - Debounced input (300ms)
 
 **Keyboard Shortcuts:**
+
 - `Ctrl+K` / `Cmd+K`: Focus search box
 - `Escape`: Close search results
 
@@ -73,11 +80,13 @@ User interface component that integrates with the book viewer.
 The search index is cached using a "Cache First" strategy to ensure offline availability.
 
 **Cached Files:**
+
 - `search_index.json` - The search index
 - `assets/js/search.js` - Search engine
 - `assets/js/search-ui.js` - Search UI
 
 **Cache Strategy:**
+
 - Search index uses Cache First strategy
 - Always serves from cache when available
 - Falls back to network if not cached
@@ -88,11 +97,13 @@ The search index is cached using a "Cache First" strategy to ensure offline avai
 To integrate search into your build pipeline:
 
 1. **Build the Jekyll site:**
+
    ```bash
    bundle exec jekyll build
    ```
 
 2. **Generate the search index:**
+
    ```bash
    npm run build-search-index
    ```
@@ -110,16 +121,17 @@ this.miniSearch = MiniSearch.loadJSON(data.index, {
   fields: ['title', 'content'],
   storeFields: ['title', 'url', 'preview'],
   searchOptions: {
-    boost: { title: 2 },    // Adjust title importance
-    fuzzy: 0.2,             // Adjust fuzzy tolerance (0-1)
-    prefix: true            // Enable/disable prefix matching
-  }
+    boost: { title: 2 }, // Adjust title importance
+    fuzzy: 0.2, // Adjust fuzzy tolerance (0-1)
+    prefix: true, // Enable/disable prefix matching
+  },
 });
 ```
 
 ### Customizing UI
 
 Edit `assets/css/styles.css` under the "Search UI Styles" section to customize:
+
 - Colors
 - Spacing
 - Font sizes
@@ -135,8 +147,8 @@ const htmlFiles = glob.sync(`${SITE_DIR}/**/*.html`, {
     '**/assets/**',
     '**/offline.html',
     '**/404.html',
-    '**/your-custom-exclusion.html'  // Add here
-  ]
+    '**/your-custom-exclusion.html', // Add here
+  ],
 });
 ```
 

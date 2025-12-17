@@ -35,7 +35,7 @@ lens. [[Figure 2]](#Figure2) shows how a converging lens, such as that in a
 magnifying glass, can converge the nearly parallel light rays from the sun to a
 small spot.
 
-![The figure on the right shows a convex lens. Three rays heading from left to right, 1, 2, and 3, are considered. Ray 2 falls on the axis and rays 1 and 3 are parallel to the axis. The distance from the center of the lens to the focal point F is small f on the right side of the lens. Rays 1 and 3 after refraction converge at F on the axis. Ray 2 on the axis goes undeviated. The figure on the left shows an expanded view of refraction for ray 1. The angle of incidence is theta 1 and angle of refraction theta 2 and a dotted line is the perpendicular drawn to the surface of the lens at the point of incidence. The ray after the refraction at the second surface emerges with an angle equal to theta 1 prime with the perpendicular drawn at that point. The perpendiculars are shown as dotted lines.](../resources/Figure_25_06_01.jpg "Rays of light entering a converging lens parallel to its axis converge at its focal point F. (Ray 2 lies on the axis of the lens.) The distance from the center of the lens to the focal point is the lens&#x2019;s focal length \( f \) . An expanded view of the path taken by ray 1 shows the perpendiculars and the angles of incidence and refraction at both surfaces.")
+![The figure on the right shows a convex lens. Three rays heading from left to right, 1, 2, and 3, are considered. Ray 2 falls on the axis and rays 1 and 3 are parallel to the axis. The distance from the center of the lens to the focal point F is small f on the right side of the lens. Rays 1 and 3 after refraction converge at F on the axis. Ray 2 on the axis goes undeviated. The figure on the left shows an expanded view of refraction for ray 1. The angle of incidence is theta 1 and angle of refraction theta 2 and a dotted line is the perpendicular drawn to the surface of the lens at the point of incidence. The ray after the refraction at the second surface emerges with an angle equal to theta 1 prime with the perpendicular drawn at that point. The perpendiculars are shown as dotted lines.](../resources/Figure_25_06_01.jpg 'Rays of light entering a converging lens parallel to its axis converge at its focal point F. (Ray 2 lies on the axis of the lens.) The distance from the center of the lens to the focal point is the lens’s focal length ( f ) . An expanded view of the path taken by ray 1 shows the perpendiculars and the angles of incidence and refraction at both surfaces.')
 {: #Figure1}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -62,13 +62,13 @@ The distance from the center of the lens to its focal point is called focal leng
 
 </div>
 
-![A person&#x2019;s hand is holding a magnifying glass to focus the sunlight to a point. The magnifying glass focuses the sunlight to burn paper.](../resources/Figure_25_06_02.jpg "Sunlight focused by a converging magnifying glass can burn paper. Light rays from the sun are nearly parallel and cross at the focal point of the lens. The more powerful the lens, the closer to the lens the rays will cross. ")
+![A person’s hand is holding a magnifying glass to focus the sunlight to a point. The magnifying glass focuses the sunlight to burn paper.](../resources/Figure_25_06_02.jpg 'Sunlight focused by a converging magnifying glass can burn paper. Light rays from the sun are nearly parallel and cross at the focal point of the lens. The more powerful the lens, the closer to the lens the rays will cross. ')
 {: #Figure2}
 
 The greater effect a lens has on light rays, the more powerful it is said to be.
 For example, a powerful converging lens will focus parallel light rays closer to
 itself and will have a smaller focal length than a weak lens. The light will
-also focus into a smaller and more intense spot for a more powerful lens. The **power**  $$P $$ of a lens is defined to be the inverse of its focal length. In
+also focus into a smaller and more intense spot for a more powerful lens. The **power** $$P $$ of a lens is defined to be the inverse of its focal length. In
 equation form, this is
 
 <div class="equation" >
@@ -143,7 +143,9 @@ point is again called the focal length $$f $$ of the lens. Note that the focal
 length and power of a diverging lens are defined to be negative. For example, if
 the distance to $$F $$ in [[Figure 3]](#Figure3) is 5.00 cm, then the focal
 length is $$f= -5.00 \text{cm} $$ and the power of the lens is $$P=-20 \text{D}
-$$ . An expanded view of the path of one ray through the lens is shown in the
+
+$$
+. An expanded view of the path of one ray through the lens is shown in the
 figure to illustrate how the shape of the lens, together with the law of
 refraction, causes the ray to follow its particular path and be diverged.
 
@@ -236,7 +238,7 @@ Rules for Ray Tracing
 2.   A ray entering a diverging lens parallel to its axis seems to come from the focal point F.
 3.   A ray passing through the center of either a converging or a diverging lens does not change direction.
 4.   A ray entering a converging lens through its focal point exits parallel to its axis.
-5.   A ray that enters a diverging lens by heading toward the focal point on the opposite side exits parallel to the axis. 
+5.   A ray that enters a diverging lens by heading toward the focal point on the opposite side exits parallel to the axis.
 
 </div>
 
@@ -719,7 +721,7 @@ Actually, half a lens will form the same, though a fainter, image.
 <div class="title">
 PhET Explorations: Geometric Optics
 </div>
-How does a lens form an image? See how light rays are refracted by a lens. Watch how the image changes when you adjust the focal length of the lens, move the object, move the lens, or move the screen. 
+How does a lens form an image? See how light rays are refracted by a lens. Watch how the image changes when you adjust the focal length of the lens, move the object, move the lens, or move the screen.
 {: class="newline"}
 
 
@@ -752,11 +754,14 @@ How does a lens form an image? See how light rays are refracted by a lens. Watch
   or the retina of an eye is called a real image.
 * Thin lens equations are $$\frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_
   {\text{i}}}=\frac{1}{f} $$ and $$\frac{ {h}_{\text{i}}}{ {h}_
-  {\text{o}}}=-\frac{ {d}_{\text{i}}}{ {d}_{\text{o}}}=m $$
-  (magnification).
-* The distance of the image from the center of the lens is called image
+  {\text{o}}}=-\frac{ {d}_{\text{i}}}{ {d}_{\text{o}}}=m
+$$
+
+(magnification).
+
+- The distance of the image from the center of the lens is called image
   distance.
-* An image that is on the same side of the lens as the object and cannot be
+- An image that is on the same side of the lens as the object and cannot be
   projected on a screen is called a virtual image.
 
 ### Conceptual Questions
@@ -863,7 +868,7 @@ A doctor examines a mole with a 15.0 cm focal length magnifying glass held 13.5 
 (a)  $$-1.35 \text{m} $$
  (on the object side of the lens).
 
-(b)  $$+ 10.0 $$
+(b) $$+ 10.0 $$
 (c) 5.00 cm
 
 </div>

@@ -11,7 +11,7 @@ chapterNumber: 15
 * Calculate the increasing disorder of a system.
 </div>
 
-![Photograph shows a glass of a beverage with ice cubes and a straw, placed on a paper napkin on the table. There is a piece of sliced lemon at the edge of the glass. There is condensate around the outside surface of the glass, giving the appearance that the ice is melting.](../resources/Figure_15_06_01.jpg "The ice in this drink is slowly melting. Eventually the liquid will reach thermal equilibrium, as predicted by the second law of thermodynamics. (credit: Jon Sullivan, PDPhoto.org)")
+![Photograph shows a glass of a beverage with ice cubes and a straw, placed on a paper napkin on the table. There is a piece of sliced lemon at the edge of the glass. There is condensate around the outside surface of the glass, giving the appearance that the ice is melting.](../resources/Figure_15_06_01.jpg 'The ice in this drink is slowly melting. Eventually the liquid will reach thermal equilibrium, as predicted by the second law of thermodynamics. (credit: Jon Sullivan, PDPhoto.org)')
 {: #Figure1}
 
 There is yet another way of expressing the second law of thermodynamics. This
@@ -41,8 +41,8 @@ Rearranging terms yields
 
 for any reversible process. $${Q}_{\text{c}} $$ and $${Q}_{\text{h}} $$ are
 absolute values of the heat transfer at temperatures $${T}_{\text{c}} $$ and
-$${T}_{\text{h}} $$ , respectively. This ratio of $$Q/T $$ is defined to be
-the **change in entropy**  $$\Delta S $$ for a reversible process,
+$${T}\_{\text{h}} $$ , respectively. This ratio of $$Q/T $$ is defined to be
+the **change in entropy** $$\Delta S $$ for a reversible process,
 
 <div class="equation" >
  $$\Delta S={\left(\frac{Q}{T}\right)}_{\text{rev}}\text{,} $$
@@ -67,7 +67,7 @@ reversible process that takes us from state 1 to state 2 and calculate $$\Delta
 S $$ for that process. That will be the change in entropy for any process going
 from state 1 to state 2. (See [[Figure 2]](#Figure2).)
 
-![The diagram shows a schematic representation of a system that goes from state one with entropy S sub one to state two with entropy S sub two. The two states are shown as two circles drawn a distance apart. Two arrows represent two different processes to take the system from state one to state two. A straight arrow pointing from state one to state two shows a reversible process. The change in entropy for this process is given by delta S equals Q divided by T. The second process is marked as a curving arrow from state one to state two, showing an irreversible process. The change in entropy for this process is given by delta S sub irreversible equals delta S sub reversible equals S sub two minus S sub one.](../resources/Figure_15_06_02.jpg "When a system goes from state 1 to state 2, its entropy changes by the same amount \( \Delta S \), whether a hypothetical reversible path is followed or a real irreversible path is taken. ")
+![The diagram shows a schematic representation of a system that goes from state one with entropy S sub one to state two with entropy S sub two. The two states are shown as two circles drawn a distance apart. Two arrows represent two different processes to take the system from state one to state two. A straight arrow pointing from state one to state two shows a reversible process. The change in entropy for this process is given by delta S equals Q divided by T. The second process is marked as a curving arrow from state one to state two, showing an irreversible process. The change in entropy for this process is given by delta S sub irreversible equals delta S sub reversible equals S sub two minus S sub one.](../resources/Figure_15_06_02.jpg 'When a system goes from state 1 to state 2, its entropy changes by the same amount ( \\Delta S ), whether a hypothetical reversible path is followed or a real irreversible path is taken. ')
 {: #Figure2}
 
 Now let us take a look at the change in entropy of a Carnot engine and its heat
@@ -90,15 +90,15 @@ Thus, since we know that $${Q}_{\text{h}}/{T}_{\text{h}}={Q}_{\text{c}}/{T}_
  $$\Delta {S}_{\text{tot}}=-\frac{ {Q}_{\text{h}}}{ {T}_{\text{h}}}+\frac{ {Q}_{\text{c}}}{ {T}_{\text{c}}}=0 \text{.} $$
 </div>
 
-This result, which has general validity, means that *the total change in entropy
-for a system in any reversible process is zero.*
+This result, which has general validity, means that _the total change in entropy
+for a system in any reversible process is zero._
 
 The entropy of various parts of the system may change, but the total change is
 zero. Furthermore, the system does not affect the entropy of its surroundings,
 since heat transfer between them does not occur. Thus the reversible process
 changes neither the total entropy of the system nor the entropy of its
-surroundings. Sometimes this is stated as follows: *Reversible processes do not
-affect the total entropy of the universe.* Real processes are not reversible,
+surroundings. Sometimes this is stated as follows: _Reversible processes do not
+affect the total entropy of the universe._ Real processes are not reversible,
 though, and they do change total entropy. We can, however, use hypothetical
 reversible processes to determine the value of entropy in real, irreversible
 processes. The following example illustrates this point.
@@ -146,12 +146,12 @@ Thus the total is
 </div>
 **Discussion**
 
-There is an *increase* in entropy for the system of two heat reservoirs
+There is an _increase_ in entropy for the system of two heat reservoirs
 undergoing this irreversible heat transfer. We will see that this means there is
 a loss of ability to do work with this transferred energy. Entropy has
 increased, and energy has become unavailable to do work.
 
-![Part a of the figure shows the irreversible heat transfer from the hot system to the cold system. The hot reservoir at temperature T sub h is represented by a rectangular section in the top and the cold reservoir at temperature T sub c is shown as a rectangular section at the bottom. Heat Q is shown to flow from hot reservoir to cold reservoir as shown by a continuous bold arrow pointing downward. The heat is a direct transfer from T sub h to T sub c. The entropy change delta S for an irreversible process is shown equal to entropy change delta S for a reversible process. Part b of the figure shows two reversible heat transfers from the hot system to the cold system. The hot reservoir at temperature T sub h is represented by a rectangular section in the top and the cold reservoir at temperature T sub c is shown as a rectangular section at the bottom. Heat Q is shown to flow out of the hot reservoir, and an equal amount of heat Q is shown to flow into the cold reservoir as shown by two arrows representing two reversible processes and not a direct transfer from T sub h to T sub c. The entropy change delta S for an irreversible process is shown equal to entropy change delta S for a reversible process. ](../resources/Figure_15_06_03.jpg "(a) Heat transfer from a hot object to a cold one is an irreversible process that produces an overall increase in entropy. (b) The same final state and, thus, the same change in entropy is achieved for the objects if reversible heat transfer processes occur between the two objects whose temperatures are the same as the temperatures of the corresponding objects in the irreversible process. ")
+![Part a of the figure shows the irreversible heat transfer from the hot system to the cold system. The hot reservoir at temperature T sub h is represented by a rectangular section in the top and the cold reservoir at temperature T sub c is shown as a rectangular section at the bottom. Heat Q is shown to flow from hot reservoir to cold reservoir as shown by a continuous bold arrow pointing downward. The heat is a direct transfer from T sub h to T sub c. The entropy change delta S for an irreversible process is shown equal to entropy change delta S for a reversible process. Part b of the figure shows two reversible heat transfers from the hot system to the cold system. The hot reservoir at temperature T sub h is represented by a rectangular section in the top and the cold reservoir at temperature T sub c is shown as a rectangular section at the bottom. Heat Q is shown to flow out of the hot reservoir, and an equal amount of heat Q is shown to flow into the cold reservoir as shown by two arrows representing two reversible processes and not a direct transfer from T sub h to T sub c. The entropy change delta S for an irreversible process is shown equal to entropy change delta S for a reversible process. ](../resources/Figure_15_06_03.jpg '(a) Heat transfer from a hot object to a cold one is an irreversible process that produces an overall increase in entropy. (b) The same final state and, thus, the same change in entropy is achieved for the objects if reversible heat transfer processes occur between the two objects whose temperatures are the same as the temperatures of the corresponding objects in the irreversible process. ')
 {: #Figure3}
 
 </div>
@@ -162,8 +162,8 @@ temperatures. The decrease in entropy of the hot object is therefore less than
 the increase in entropy of the cold object, producing an overall increase, just
 as in the previous example. This result is very general:
 
-*There is an increase in entropy for any system undergoing an irreversible
-process.*
+_There is an increase in entropy for any system undergoing an irreversible
+process._
 
 With respect to entropy, there are only two possibilities: entropy is constant
 for a reversible process, and it increases for an irreversible process. There is
@@ -175,7 +175,7 @@ process; it never decreases. </em>
 For example, heat transfer cannot occur spontaneously from cold to hot, because
 entropy would decrease.
 
-Entropy is very different from energy. Entropy is *not* conserved but increases
+Entropy is very different from energy. Entropy is _not_ conserved but increases
 in all real processes. Reversible processes (such as in Carnot engines) are the
 processes in which the most heat transfer to work takes place and are also the
 ones that keep entropy constant. Thus we are led to make a connection between
@@ -241,12 +241,12 @@ different work outputs, because the entropy change differs in the two cases. In
 the second case, entropy is greater and less work is produced. Entropy is
 associated with the *un*availability of energy to do work.
 
-![Part a of the diagram shows a schematic diagram of a Carnot engine shown as a circle. The hot reservoir is shown as a rectangular section above the circle at temperature T sub h equals six hundred Kelvin. The cold reservoir is shown as a rectangular section below the circle at temperature T sub c equals one hundred Kelvin. A heat Q sub h from the hot reservoir equals four thousand joules is shown to enter the engine as shown as a bold arrow toward the circle from the hot reservoir. A part of it leaves as work W equals three thousand three hundred thirty three joules from the engine. The remaining heat Q sub c equals six hundred sixty seven joules is returned back to the cold reservoir as shown by a bold arrow toward it. Part b of the diagram shows a schematic diagram of a Carnot engine shown as a circle. This engine is shown to have a greater entropy level. An initial heat transfer of four thousand joules occurs from a hot reservoir shown as a rectangular section above the circle toward left at temperature T sub h equals six hundred Kelvin to another rectangular section above the circle at temperature T sub h prime equals two fifty Kelvin. The cold reservoir is shown as a rectangular section below the circle at temperature T sub c prime equals one hundred Kelvin. A heat Q sub h prime from the hot reservoir equals four thousand joules is shown to enter the engine as shown as a bold arrow toward the circle from this hot reservoir. A part of it leaves as work W equals two thousand four hundred joules from the engine. The remaining heat Q sub c equals one thousand six hundred joules is returned back to the cold reservoir as shown by a bold arrow toward it.](../resources/Figure_15_06_04.jpg "(a) A Carnot engine working at between 600 K and 100 K has 4000 J of heat transfer and performs 3333 J of work. (b) The 4000 J of heat transfer occurs first irreversibly to a 250 K reservoir and then goes into a Carnot engine. The increase in entropy caused by the heat transfer to a colder reservoir results in a smaller work output of 2400 J. There is a permanent loss of 933 J of energy for the purpose of doing work.")
+![Part a of the diagram shows a schematic diagram of a Carnot engine shown as a circle. The hot reservoir is shown as a rectangular section above the circle at temperature T sub h equals six hundred Kelvin. The cold reservoir is shown as a rectangular section below the circle at temperature T sub c equals one hundred Kelvin. A heat Q sub h from the hot reservoir equals four thousand joules is shown to enter the engine as shown as a bold arrow toward the circle from the hot reservoir. A part of it leaves as work W equals three thousand three hundred thirty three joules from the engine. The remaining heat Q sub c equals six hundred sixty seven joules is returned back to the cold reservoir as shown by a bold arrow toward it. Part b of the diagram shows a schematic diagram of a Carnot engine shown as a circle. This engine is shown to have a greater entropy level. An initial heat transfer of four thousand joules occurs from a hot reservoir shown as a rectangular section above the circle toward left at temperature T sub h equals six hundred Kelvin to another rectangular section above the circle at temperature T sub h prime equals two fifty Kelvin. The cold reservoir is shown as a rectangular section below the circle at temperature T sub c prime equals one hundred Kelvin. A heat Q sub h prime from the hot reservoir equals four thousand joules is shown to enter the engine as shown as a bold arrow toward the circle from this hot reservoir. A part of it leaves as work W equals two thousand four hundred joules from the engine. The remaining heat Q sub c equals one thousand six hundred joules is returned back to the cold reservoir as shown by a bold arrow toward it.](../resources/Figure_15_06_04.jpg '(a) A Carnot engine working at between 600 K and 100 K has 4000 J of heat transfer and performs 3333 J of work. (b) The 4000 J of heat transfer occurs first irreversibly to a 250 K reservoir and then goes into a Carnot engine. The increase in entropy caused by the heat transfer to a colder reservoir results in a smaller work output of 2400 J. There is a permanent loss of 933 J of energy for the purpose of doing work.')
 {: #Figure4}
 
 </div>
 
-When entropy increases, a certain amount of energy becomes *permanently*
+When entropy increases, a certain amount of energy becomes _permanently_
 unavailable to do work. The energy is not lost, but its character is changed, so
 that some of it can never be converted to doing work—that is, to an organized
 force acting through a distance. For instance, in the previous example, 933 J
@@ -270,7 +270,7 @@ as found.
 
 In the early, energetic universe, all matter and energy were easily
 interchangeable and identical in nature. Gravity played a vital role in the
-young universe. Although it may have *seemed* disorderly, and therefore,
+young universe. Although it may have _seemed_ disorderly, and therefore,
 superficially entropic, in fact, there was enormous potential energy available
 to do work—all the future energy in the universe.
 
@@ -312,7 +312,7 @@ temperature following a universal contraction, or a very low one, just before
 all activity ceases) there will be no possibility of doing work.
 
 Either way, the universe is destined for thermodynamic equilibrium—maximum
-entropy. This is often called the *heat death of the universe*, and will mean
+entropy. This is often called the _heat death of the universe_, and will mean
 the end of all activity. However, whether the universe contracts and heats up,
 or continues to expand and cools down, the end is not near. Calculations of
 black holes suggest that entropy can easily continue for at least $$ 10^{100} $$
@@ -379,7 +379,7 @@ This is a significant increase in entropy accompanying an increase in disorder.
 
 </div>
 
-![The diagram has two images. The first image shows molecules of ice. They are represented as tiny spheres joined to form a floral pattern. The system is shown as ordered. The second image shows what happens when ice melts. The change in entropy delta S is marked between the two images shown by an arrow pointing from first image toward the second image with change in entropy delta S shown greater than zero. The second image represents water shown as tiny spheres moving in a random state. The system is marked as disordered.](../resources/Figure_15_06_06.jpg "When ice melts, it becomes more disordered and less structured. The systematic arrangement of molecules in a crystal structure is replaced by a more random and less orderly movement of molecules without fixed locations or orientations. Its entropy increases because heat transfer occurs into it. Entropy is a measure of disorder.")
+![The diagram has two images. The first image shows molecules of ice. They are represented as tiny spheres joined to form a floral pattern. The system is shown as ordered. The second image shows what happens when ice melts. The change in entropy delta S is marked between the two images shown by an arrow pointing from first image toward the second image with change in entropy delta S shown greater than zero. The second image represents water shown as tiny spheres moving in a random state. The system is marked as disordered.](../resources/Figure_15_06_06.jpg 'When ice melts, it becomes more disordered and less structured. The systematic arrangement of molecules in a crystal structure is replaced by a more random and less orderly movement of molecules without fixed locations or orientations. Its entropy increases because heat transfer occurs into it. Entropy is a measure of disorder.')
 {: #Figure5}
 
 In another easily imagined example, suppose we mix equal masses of water
@@ -414,7 +414,7 @@ entropy, to say that the process of the evolution of life violates this law.
 Over time, complex organisms evolved from much simpler ancestors, representing a
 large decrease in entropy of the Earth’s biosphere. It is a fact that living
 organisms have evolved to be highly structured, and much lower in entropy than
-the substances from which they grow. But it is *always* possible for the entropy
+the substances from which they grow. But it is _always_ possible for the entropy
 of one part of the universe to decrease, provided the total change in entropy of
 the universe increases. In equation form, we can write this as
 
@@ -434,7 +434,7 @@ the entropy of local systems on Earth—that is, $$\Delta {S}_{\text{syst}} $$ i
 negative. But the overall entropy of the rest of the universe increases by a
 greater amount—that is, $$\Delta {S}_{\text{envir}} $$ is positive and greater
 in magnitude. Thus, $$\Delta {S}_{\text{tot}}=\Delta {S}_{\text{syst}}+\Delta
-{S}_{\text{envir}}>0 $$ , and the second law of thermodynamics is *not*
+{S}_{\text{envir}}>0 $$ , and the second law of thermodynamics is _not_
 violated.
 
 Every time a plant stores some solar energy in the form of chemical potential
@@ -447,7 +447,7 @@ this massive heat transfer. A small part of this heat transfer is stored in
 structured systems on Earth, producing much smaller local decreases in
 entropy. (See [[Figure 6]](#Figure6).)
 
-![The figure shows the schematic diagram for heat transfer from the Sun into deep space. The picture of the Sun is shown at the left most end of the diagram. The temperature of the Sun is marked as T sub h. The heat Q is shown to flow as a bold arrow pointing till the right end of the diagram which is labeled as deep space. The temperature here is shown as T sub c equals three Kelvin. The Earth is shown as a sphere at the middle of this bold arrow stream between Sun and deep space. The Earth is shown to receive an internal energy delta U. The change in entropy of Earth delta S is shown to be less than zero with a question mark.](../resources/Figure_15_06_07.jpg "Earth&#x2019;s entropy may decrease in the process of intercepting a small part of the heat transfer from the Sun into deep space. Entropy for the entire process increases greatly while Earth becomes more structured with living systems and stored energy in various forms.")
+![The figure shows the schematic diagram for heat transfer from the Sun into deep space. The picture of the Sun is shown at the left most end of the diagram. The temperature of the Sun is marked as T sub h. The heat Q is shown to flow as a bold arrow pointing till the right end of the diagram which is labeled as deep space. The temperature here is shown as T sub c equals three Kelvin. The Earth is shown as a sphere at the middle of this bold arrow stream between Sun and deep space. The Earth is shown to receive an internal energy delta U. The change in entropy of Earth delta S is shown to be less than zero with a question mark.](../resources/Figure_15_06_07.jpg 'Earth’s entropy may decrease in the process of intercepting a small part of the heat transfer from the Sun into deep space. Entropy for the entire process increases greatly while Earth becomes more structured with living systems and stored energy in various forms.')
 {: #Figure6}
 
 <div class="note" data-has-label="true"  data-label="" markdown="1">
@@ -463,15 +463,15 @@ Watch a reaction proceed over time. How does total energy affect a reaction rate
 
 ### Section Summary
 
-* Entropy is the loss of energy available to do work.
-* Another form of the second law of thermodynamics states that the total entropy
+- Entropy is the loss of energy available to do work.
+- Another form of the second law of thermodynamics states that the total entropy
   of a system either increases or remains constant; it never decreases.
-* Entropy is zero in a reversible process; it increases in an irreversible
+- Entropy is zero in a reversible process; it increases in an irreversible
   process.
-* The ultimate fate of the universe is likely to be thermodynamic equilibrium,
+- The ultimate fate of the universe is likely to be thermodynamic equilibrium,
   where the universal temperature is constant and no energy is available to do
   work.
-* Entropy is also associated with the tendency toward disorder in a closed
+- Entropy is also associated with the tendency toward disorder in a closed
   system.
 
 ### Conceptual Questions

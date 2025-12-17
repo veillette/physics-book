@@ -14,16 +14,16 @@ chapterNumber: 33
 </div>
 
 Particle physics as we know it today began with the ideas of Hideki Yukawa in 1935. Physicists had long been concerned with how forces are transmitted,
-      finding the concept of fields, such as electric and magnetic fields to be
-      very useful. A field surrounds an object and carries the force exerted by
-      the object through space. Yukawa was interested in the strong nuclear
-      force in particular and found an ingenious way to explain its short range.
-      His idea is a blend of particles, forces, relativity, and quantum
-      mechanics that is applicable to all forces. Yukawa proposed that force is
-      transmitted by the exchange of particles (
-      called carrier particles). The field consists of these carrier particles.
+finding the concept of fields, such as electric and magnetic fields to be
+very useful. A field surrounds an object and carries the force exerted by
+the object through space. Yukawa was interested in the strong nuclear
+force in particular and found an ingenious way to explain its short range.
+His idea is a blend of particles, forces, relativity, and quantum
+mechanics that is applicable to all forces. Yukawa proposed that force is
+transmitted by the exchange of particles (
+called carrier particles). The field consists of these carrier particles.
 
-![The image shows the creation a pion from a proton and its exchange to a neutron. After the exchange, the proton has become a neutron and the neutron has become a proton.](../resources/Figure_33_01_01.jpg "The strong nuclear force is transmitted between a proton and neutron by the creation and exchange of a pion. The pion is created through a temporary violation of conservation of mass-energy and travels from the proton to the neutron and is recaptured. It is not directly observable and is called a virtual particle. Note that the proton and neutron change identity in the process. The range of the force is limited by the fact that the pion can only exist for the short time allowed by the Heisenberg uncertainty principle. Yukawa used the finite range of the strong nuclear force to estimate the mass of the pion; the shorter the range, the larger the mass of the carrier particle.")
+![The image shows the creation a pion from a proton and its exchange to a neutron. After the exchange, the proton has become a neutron and the neutron has become a proton.](../resources/Figure_33_01_01.jpg 'The strong nuclear force is transmitted between a proton and neutron by the creation and exchange of a pion. The pion is created through a temporary violation of conservation of mass-energy and travels from the proton to the neutron and is recaptured. It is not directly observable and is called a virtual particle. Note that the proton and neutron change identity in the process. The range of the force is limited by the fact that the pion can only exist for the short time allowed by the Heisenberg uncertainty principle. Yukawa used the finite range of the strong nuclear force to estimate the mass of the pion; the shorter the range, the larger the mass of the carrier particle.')
 {: #Figure1}
 
 Specifically for the strong nuclear force, Yukawa proposed that a previously
@@ -48,11 +48,11 @@ temporary creation of a particle of mass $$m $$ , where $$\Delta E=mc^{2} $$ .
 The larger the mass and the greater the $$\Delta E $$ , the shorter is the time
 it can exist. This means the range of the force is limited, because the particle
 can only travel a limited distance in a finite amount of time. In fact, the
-maximum distance is $$d\approx c\Delta t $$ , where *c* is the speed of light.
+maximum distance is $$d\approx c\Delta t $$ , where _c_ is the speed of light.
 The pion must then be captured and, thus, cannot be directly observed because
 that would amount to a permanent violation of mass-energy conservation. Such
 particles (like the pion above) are called **virtual particles**, because they
-cannot be directly observed but their *effects* can be directly observed.
+cannot be directly observed but their _effects_ can be directly observed.
 Realizing all this, Yukawa used the information on the range of the strong
 nuclear force to estimate the mass of the pion, the particle that carries it.
 The steps of his reasoning are approximately retraced in the following worked
@@ -100,7 +100,7 @@ Solving this and converting the energy to MeV gives
  $$\Delta E\approx \left( 1.6 \times 10^{-11}  \text{J}\right)\frac{1 \text{MeV}}{ 1.6 \times 10^{-13}  \text{J}}=100 \text{MeV}\text{.} $$
 </div>
 Mass is related to energy by  $$\Delta E=mc^{2} $$ ,
- so that the mass of the pion is  $$m=\Delta E/{c}^{2} $$, or 
+ so that the mass of the pion is  $$m=\Delta E/{c}^{2} $$, or
 
 <div class="equation" >
  $$m\approx 100 \text{MeV/}{c}^{2}\text{.} $$
@@ -147,7 +147,7 @@ relations to forces that have led to profound insights into nature’s secrets.
 
 ### Summary
 
-* Yukawa’s idea of virtual particle exchange as the carrier of forces is
+- Yukawa’s idea of virtual particle exchange as the carrier of forces is
   crucial, with virtual particles being formed in temporary violation of the
   conservation of mass-energy as allowed by the Heisenberg uncertainty
   principle.

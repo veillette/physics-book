@@ -34,7 +34,9 @@ that flows and $$r $$ is the internal resistance of the battery.
 
 The emf could be accurately calculated if $$r $$ were very accurately known, but
 it is usually not. If the current $$I $$ could be made zero, then $$V=\text{emf}
-$$ , and so emf could be directly measured. However, standard voltmeters need a
+
+$$
+, and so emf could be directly measured. However, standard voltmeters need a
 current to operate; thus, another technique is needed.
 
 ![The diagram shows equivalence between two circuits. The first circuit has a cell of e m f script E and an internal resistance r connected across a voltmeter. The equivalent circuit on the right shows the same cell of e m f script E and an internal resistance r connected across a series combination of a galvanometer with an internal resistance r sub G and high resistance R. The currents in the two circuits are shown to be equal.](../resources/Figure_21_05_01.jpg "An analog voltmeter attached to a battery draws a small but nonzero current and measures a terminal voltage that differs from the emf of the battery. (Note that the script capital E symbolizes electromotive force, or emf.) Since the internal resistance of the battery is not known precisely, it is not possible to calculate the emf precisely.")
@@ -307,3 +309,4 @@ Wheatstone bridge
 drops in a circuit
 
 </div>
+$$

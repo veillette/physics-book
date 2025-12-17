@@ -19,13 +19,13 @@ objects that sink get any support at all from the fluid? Is your body buoyed by
 the atmosphere, or are only helium balloons affected? (
 See [[Figure 1]](#Figure1).)
 
-![In figures a and b, an anchor and submarine experience buoyancy due to water. In figure c, helium-filled balloons float due to the buoyancy of air.](../resources/Figure_11_07_01.jpg "(a) Even objects that sink, like this anchor, are partly supported by water when submerged. (b) Submarines have adjustable density (ballast tanks) so that they may float or sink as desired. (credit: Allied Navy) (c) Helium-filled balloons tug upward on their strings, demonstrating air&#x2019;s buoyant effect. (credit: Crystl)")
+![In figures a and b, an anchor and submarine experience buoyancy due to water. In figure c, helium-filled balloons float due to the buoyancy of air.](../resources/Figure_11_07_01.jpg '(a) Even objects that sink, like this anchor, are partly supported by water when submerged. (b) Submarines have adjustable density (ballast tanks) so that they may float or sink as desired. (credit: Allied Navy) (c) Helium-filled balloons tug upward on their strings, demonstrating air’s buoyant effect. (credit: Crystl)')
 {: #Figure1}
 
 Answers to all these questions, and many others, are based on the fact that
 pressure increases with depth in a fluid. This means that the upward force on
 the bottom of an object in a fluid is greater than the downward force on the top
-of the object. There is a net upward, or  **buoyant force** on any object in any
+of the object. There is a net upward, or **buoyant force** on any object in any
 fluid. (See [[Figure 2]](#Figure2).) If the buoyant force is greater than the
 object’s weight, the object will rise to the surface and float. If the buoyant
 force is less than the object’s weight, the object will sink. If the buoyant
@@ -41,14 +41,14 @@ The buoyant force is the net upward force on any object in any fluid.
 
 </div>
 
-![A cylinder of cross-sectional area A experiences an upward force F sub 2 on the bottom of the cylinder and a downward force F sub 1 on its top. Buoyant force is due to the difference between the upward force on the bottom of the cylinder and the downward force on its top.](../resources/Figure_11_07_02.jpg "Pressure due to the weight of a fluid increases with depth since \( P=h\rho g \) . This pressure and associated upward force on the bottom of the cylinder are greater than the downward force on the top of the cylinder. Their difference is the buoyant force \( F_{B} \). (Horizontal forces cancel.)")
+![A cylinder of cross-sectional area A experiences an upward force F sub 2 on the bottom of the cylinder and a downward force F sub 1 on its top. Buoyant force is due to the difference between the upward force on the bottom of the cylinder and the downward force on its top.](../resources/Figure_11_07_02.jpg 'Pressure due to the weight of a fluid increases with depth since ( P=h\\rho g ) . This pressure and associated upward force on the bottom of the cylinder are greater than the downward force on the top of the cylinder. Their difference is the buoyant force ( F_{B} ). (Horizontal forces cancel.)')
 {: #Figure2}
 
 Just how great is this buoyant force? To answer this question, think about what
 happens when a submerged object is removed from a fluid, as
 in [[Figure 3]](#Figure3).
 
-![An object immersed in a fluid rises if its buoyant force is greater than its weight and sinks if its buoyant force is less than its weight. By Archimedes&#x2019; principle the buoyant force equals the weight of the fluid displaced.](../resources/Figure_11_07_03.jpg "(a) An object submerged in a fluid experiences a buoyant force \( F_{B} \). If \( F_{B} \) is greater than the weight of the object, the object will rise. If \( F_{B} \) is less than the weight of the object, the object will sink. (b) If the object is removed, it is replaced by fluid having weight \( w_\text{fl} \). Since this weight is supported by surrounding fluid, the buoyant force must equal the weight of the fluid displaced. That is, \( F_B= w_\text{fl} \) ,a statement of Archimedes&#x2019; principle.")
+![An object immersed in a fluid rises if its buoyant force is greater than its weight and sinks if its buoyant force is less than its weight. By Archimedes’ principle the buoyant force equals the weight of the fluid displaced.](../resources/Figure_11_07_03.jpg '(a) An object submerged in a fluid experiences a buoyant force ( F_{B} ). If ( F_{B} ) is greater than the weight of the object, the object will rise. If ( F_{B} ) is less than the weight of the object, the object will sink. (b) If the object is removed, it is replaced by fluid having weight ( w_\\text{fl} ). Since this weight is supported by surrounding fluid, the buoyant force must equal the weight of the fluid displaced. That is, ( F_B= w_\\text{fl} ) ,a statement of Archimedes’ principle.')
 {: #Figure3}
 
 The space it occupied is filled by fluid having a weight $${w}_{\text{fl}} $$ .
@@ -83,7 +83,7 @@ where  $${F}_{\text{B}} $$
 
 </div>
 
-*Humm …* High-tech body swimsuits were introduced in 2008 in preparation for the
+_Humm …_ High-tech body swimsuits were introduced in 2008 in preparation for the
 Beijing Olympics. One concern (and international rule) was that these suits
 should not provide any buoyancy advantage. How do you think that this rule could
 be verified?
@@ -213,7 +213,7 @@ from the equation, leaving
  $$\text{fraction submerged}=\frac{ {\overline{\rho }}_{\text{obj}}}{ {\rho }_{\text{fl}}}. $$
 </div>
 
-![Two cargo ships. One is floating higher in the water than the other.](../resources/Figure_11_07_04.jpg "An unloaded ship (a) floats higher in the water than a loaded ship (b).")
+![Two cargo ships. One is floating higher in the water than the other.](../resources/Figure_11_07_04.jpg 'An unloaded ship (a) floats higher in the water than a loaded ship (b).')
 {: #Figure4}
 
 We use this last relationship to measure densities. This is done by measuring
@@ -245,7 +245,7 @@ Specific gravity is the ratio of the density of an object to a fluid (usually wa
 
 </div>
 
-![A hydrometer has lead at the bottom and air on top. It floats on the fluid and specific gravity can be directly read from it.](../resources/Figure_11_07_05.jpg "This hydrometer is floating in a fluid of specific gravity 0.87. The glass hydrometer is filled with air and weighted with lead at the bottom. It floats highest in the densest fluids and has been calibrated and labeled so that specific gravity can be read from it directly.")
+![A hydrometer has lead at the bottom and air on top. It floats on the fluid and specific gravity can be directly read from it.](../resources/Figure_11_07_05.jpg 'This hydrometer is floating in a fluid of specific gravity 0.87. The glass hydrometer is filled with air and weighted with lead at the bottom. It floats highest in the densest fluids and has been calibrated and labeled so that specific gravity can be read from it directly.')
 {: #Figure5}
 
 <div class="example" markdown="1">
@@ -284,7 +284,7 @@ medical diagnostics and athletic training. (See [[Figure 6]](#Figure6).)
 
 </div>
 
-![The weight of a person can be determined while submerged in a fat tank. Based on this, the percentage of body weight can be calculated.](../resources/Figure_11_07_06.jpg "Subject in a hydrostatis weighing device, where they are weighed while completely submerged as part of a body density determination. The subject must completely empty their lungs and hold a metal weight in order to sink. Corrections are made for the residual air in their lungs (measured separately) and the metal weight. Their corrected submerged weight, their weight in air, and pinch tests of strategic fatty areas are used to calculate the percent body fat.")
+![The weight of a person can be determined while submerged in a fat tank. Based on this, the percentage of body weight can be calculated.](../resources/Figure_11_07_06.jpg 'Subject in a hydrostatis weighing device, where they are weighed while completely submerged as part of a body density determination. The subject must completely empty their lungs and hold a metal weight in order to sink. Corrections are made for the residual air in their lungs (measured separately) and the metal weight. Their corrected submerged weight, their weight in air, and pinch tests of strategic fatty areas are used to calculate the percent body fat.')
 {: #Figure6}
 
 There are many obvious examples of lower-density objects or substances floating
@@ -299,7 +299,7 @@ fluid characteristics.
 One of the most common techniques for determining density is shown
 in [[Figure 7]](#Figure7).
 
-![The density of a coin can be determined by measuring its weight in air and its weight submerged in a fluid of known density.](../resources/Figure_11_07_07.jpg "(a) A coin is weighed in air. (b) The apparent weight of the coin is determined while it is completely submerged in a fluid of known density. These two measurements are used to calculate the density of the coin.")
+![The density of a coin can be determined by measuring its weight in air and its weight submerged in a fluid of known density.](../resources/Figure_11_07_07.jpg '(a) A coin is weighed in air. (b) The apparent weight of the coin is determined while it is completely submerged in a fluid of known density. These two measurements are used to calculate the density of the coin.')
 {: #Figure7}
 
 An object, here a coin, is weighed in air and then weighed again while submerged
@@ -309,11 +309,11 @@ to determine the density of the fluid if the density of the coin is known. All
 of these calculations are based on Archimedes’ principle.
 
 Archimedes’ principle states that the buoyant force on the object equals the
-weight of the fluid displaced. This, in turn, means that the object *appears* to
-weigh less when submerged; we call this measurement the object’s *apparent
-weight*. The object suffers an *apparent weight loss* equal to the weight of the
+weight of the fluid displaced. This, in turn, means that the object _appears_ to
+weigh less when submerged; we call this measurement the object’s _apparent
+weight_. The object suffers an _apparent weight loss_ equal to the weight of the
 fluid displaced. Alternatively, on balances that measure mass, the object
-suffers an *apparent mass loss* equal to the mass of fluid displaced. That is
+suffers an _apparent mass loss_ equal to the mass of fluid displaced. That is
 
 <div class="equation" >
  $$\text{apparent weight loss = weight of fluid displaced} $$
@@ -390,15 +390,15 @@ You can modify the properties of the blocks and the fluid.
 
 ### Section Summary
 
-* Buoyant force is the net upward force on any object in any fluid. If the
+- Buoyant force is the net upward force on any object in any fluid. If the
   buoyant force is greater than the object’s weight, the object will rise to the
   surface and float. If the buoyant force is less than the object’s weight, the
   object will sink. If the buoyant force equals the object’s weight, the object
   will remain suspended at that depth. The buoyant force is always present
   whether the object floats, sinks, or is suspended in a fluid.
-* Archimedes’ principle states that the buoyant force on an object equals the
+- Archimedes’ principle states that the buoyant force on an object equals the
   weight of the fluid it displaces.
-* Specific gravity is the ratio of the density of an object to a fluid (usually
+- Specific gravity is the ratio of the density of an object to a fluid (usually
   water).
 
 ### Conceptual Questions
@@ -481,8 +481,9 @@ Bird bones have air pockets in them to reduce their weight—this also gives the
 <div class="solution" data-element-type="problems-exercises" markdown="1">
 (a) 41.4 g
 
-(b)  $$ 41.4 {\text{cm}}^{3} $$
+(b) $$ 41.4 {\text{cm}}^{3} $$
 (c)  $$1.09 \text{g}{\text{/cm}}^{3} $$
+
 </div>
 </div>
 
@@ -501,8 +502,8 @@ Archimedes’ principle can be used to calculate the density of a fluid as well 
 <div class="solution" data-element-type="problems-exercises" markdown="1">
 (a) 39.5 g
 
-(b)  $$50 {\text{cm}}^{3} $$
-(c)  $$ 0.79 {\text{g/cm}}^{3} $$ It is ethyl alcohol.
+(b) $$50 {\text{cm}}^{3} $$
+(c) $$ 0.79 {\text{g/cm}}^{3} $$ It is ethyl alcohol.
 
 </div>
 </div>
@@ -604,7 +605,8 @@ Referring to [[Figure 3]](#Figure3), prove that the buoyant force on the cylinde
 where  $${\rho }_{\text{fl}} $$
  = density of fluid. Therefore,
 
-$${F}_{\text{net}}=\left({h}_{2}-{h}_{1}\right)A\rho _{\text{fl}}g={V}_
+$$
+{F}_{\text{net}}=\left({h}_{2}-{h}_{1}\right)A\rho _{\text{fl}}g={V}_
 {\text{fl}}{\rho }_{\text{fl}}g={m}_{\text{fl}}g={w}_{\text{fl}} $$ where is
 $${w}_{\text{fl}} $$ the weight of the fluid displaced.
 
@@ -634,3 +636,4 @@ specific gravity
 : the ratio of the density of an object to a fluid (usually water)
 
 </div>
+$$

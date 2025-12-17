@@ -24,11 +24,7 @@ console.log('Building search index...');
 
 // Find all HTML files in the _site directory
 const htmlFiles = glob.sync(`${SITE_DIR}/**/*.html`, {
-  ignore: [
-    '**/assets/**',
-    '**/offline.html',
-    '**/404.html'
-  ]
+  ignore: ['**/assets/**', '**/offline.html', '**/404.html'],
 });
 
 console.log(`Found ${htmlFiles.length} HTML files to index`);
@@ -46,15 +42,16 @@ for (const filePath of htmlFiles) {
     $('script, style, nav, footer').remove();
 
     // Extract title
-    const title = $('h1.page-title').first().text().trim() ||
-                  $('title').first().text().trim() ||
-                  $('h1').first().text().trim() ||
-                  'Untitled';
+    const title =
+      $('h1.page-title').first().text().trim() ||
+      $('title').first().text().trim() ||
+      $('h1').first().text().trim() ||
+      'Untitled';
 
     // Extract main content
     const bodyText = $('body').text();
     const content = bodyText
-      .replace(/\s+/g, ' ')  // Normalize whitespace
+      .replace(/\s+/g, ' ') // Normalize whitespace
       .trim();
 
     // Skip if no content
@@ -75,11 +72,10 @@ for (const filePath of htmlFiles) {
       content: content.substring(0, 5000), // Limit content size
       url,
       // Extract first 200 chars for preview
-      preview: `${content.substring(0, 200).trim()}...`
+      preview: `${content.substring(0, 200).trim()}...`,
     });
 
     console.log(`Indexed: ${title} (${url})`);
-
   } catch (error) {
     console.error(`Error processing ${filePath}:`, error.message);
   }
@@ -94,8 +90,8 @@ const miniSearch = new MiniSearch({
   searchOptions: {
     boost: { title: 2 }, // Boost title matches
     fuzzy: 0.2, // Fuzzy matching tolerance
-    prefix: true // Enable prefix search
-  }
+    prefix: true, // Enable prefix search
+  },
 });
 
 // Add documents to index
@@ -108,8 +104,8 @@ const indexData = {
     id: doc.id,
     title: doc.title,
     url: doc.url,
-    preview: doc.preview
-  }))
+    preview: doc.preview,
+  })),
 };
 
 // Write to file

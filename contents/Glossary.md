@@ -1,5 +1,5 @@
 ---
-title: "Glossary of Key Symbols and Notation"
+title: 'Glossary of Key Symbols and Notation'
 layout: page
 ---
 
@@ -112,8 +112,8 @@ transmitted wave | | $$I $$ | moment of inertia (also called rotational inertia)
 | | $${I}_{\text{ave}} $$ | average intensity for a continuous sinusoidal
 electromagnetic wave | | $${I}_{\text{rms}} $$ | average current | | $$\text{J}
 $$ | joule | | $$J/\text{Ψ} $$ | Joules/psi meson | | $$\text{K} $$ | kelvin | |
-$$k_{B} $$ | Boltzmann constant | | $$k $$ | force constant of a spring | |
-$${K}_{\alpha } $$ | X-rays created when an electron falls into an $$n=1 $$
+$$k*{B} $$ | Boltzmann constant | | $$k $$ | force constant of a spring | |
+$${K}*{\alpha } $$ | X-rays created when an electron falls into an $$n=1 $$
 shell vacancy from the $$n=3 $$ shell | | $${K}_{\beta } $$ | X-rays created
 when an electron falls into an $$n=2 $$ shell vacancy from the $$n=3 $$ shell |
 | $$\text{kcal} $$ | kilocalorie | | $$\text{KE} $$ | translational kinetic
@@ -130,7 +130,7 @@ the $$n=3 $$ shell | | $${L}_{e} $$ | electron total family number | | $${L}_
 number | | $${L}_{\text{f}} $$ | heat of fusion | | $${L}_{\text{f}} \text{and}
 {L}_{\text{v}} $$ | latent heat coefficients | | $${\text{L}}_{\text{orb}} $$ |
 orbital angular momentum | | $${L}_{\text{s}} $$ | heat of sublimation | |
-$${L}_{\text{v}} $$ | heat of vaporization | | $${L}_{z} $$ | *z* - component of
+$${L}_{\text{v}} $$ | heat of vaporization | | $${L}_{z} $$ | _z_ - component of
 the angular momentum | | $$M $$ | angular magnification | | $$M $$ | mutual
 inductance | | $$\text{m} $$ | indicates metastable state | | $$m $$ |
 magnification | | $$m $$ | mass | | $$m $$ | mass of an object as measured by a

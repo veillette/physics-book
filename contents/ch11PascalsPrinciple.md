@@ -22,7 +22,7 @@ an applied force.
 
 What happens to a pressure in an enclosed fluid? Since atoms in a fluid are free
 to move about, they transmit the pressure to all parts of the fluid and to the
-walls of the container. Remarkably, the pressure is transmitted *undiminished*.
+walls of the container. Remarkably, the pressure is transmitted _undiminished_.
 This phenomenon is called **Pascal’s principle**, because it was first clearly
 stated by the French philosopher and scientist Blaise Pascal (1623–1662): A
 change in pressure applied to an enclosed fluid is transmitted undiminished to
@@ -39,8 +39,8 @@ A change in pressure applied to an enclosed fluid is transmitted undiminished to
 Pascal’s principle, an experimentally verified fact, is what makes pressure so
 important in fluids. Since a change in pressure is transmitted undiminished in
 an enclosed fluid, we often know more about pressure than other physical
-quantities in fluids. Moreover, Pascal’s principle implies that *the total
-pressure in a fluid is the sum of the pressures from different sources*. We
+quantities in fluids. Moreover, Pascal’s principle implies that _the total
+pressure in a fluid is the sum of the pressures from different sources_. We
 shall find this fact—that pressures add—very useful.
 
 Blaise Pascal had an interesting life in that he was home-schooled by his father
@@ -55,11 +55,11 @@ calculator, in addition to his contributions in the field of fluid statics.
 ### Application of Pascal’s Principle
 
 One of the most important technological applications of Pascal’s principle is
-found in a *hydraulic system*, which is an enclosed fluid system used to exert
+found in a _hydraulic system_, which is an enclosed fluid system used to exert
 forces. The most common hydraulic systems are those that operate car brakes. Let
 us first consider the simple hydraulic system shown in [[Figure 1]](#Figure1).
 
-![A small force can be converted into a larger force when pressure is transmitted through liquids in different containers with pistons that are connected.](../resources/Figure_11_05_01.jpg "A typical hydraulic system with two fluid-filled cylinders, capped with pistons and connected by a tube called a hydraulic line. A downward force \( F_{1} \) on the left piston creates a pressure that is transmitted undiminished to all parts of the enclosed fluid. This results in an upward force \( F_{2} \) on the right piston that is larger than \( F_{1} \) because the right piston has a larger area.")
+![A small force can be converted into a larger force when pressure is transmitted through liquids in different containers with pistons that are connected.](../resources/Figure_11_05_01.jpg 'A typical hydraulic system with two fluid-filled cylinders, capped with pistons and connected by a tube called a hydraulic line. A downward force ( F_{1} ) on the left piston creates a pressure that is transmitted undiminished to all parts of the enclosed fluid. This results in an upward force ( F_{2} ) on the right piston that is larger than ( F_{1} ) because the right piston has a larger area.')
 {: #Figure1}
 
 ### Relationship Between Forces in a Hydraulic System
@@ -93,7 +93,7 @@ Calculating Force of Slave Cylinders: Pascal Puts on the Brakes
 </div>
 Consider the automobile hydraulic system shown in [[Figure 2]](#Figure2).
 
-![When the driver applies force on the brake pedal the master cylinder transmits the same pressure to the slave cylinders but results in a larger force due to the larger area of the slave cylinders.](../resources/Figure_11_05_02.jpg "Hydraulic brakes use Pascal&#x2019;s principle. The driver exerts a force of 100 N on the brake pedal. This force is increased by the simple lever and again by the hydraulic system. Each of the identical slave cylinders receives the same pressure and, therefore, creates the same force output \( F_{2} \) . The circular cross-sectional areas of the master and slave cylinders are represented by \( A_{1} \) and \( A_{2} \) , respectively ")
+![When the driver applies force on the brake pedal the master cylinder transmits the same pressure to the slave cylinders but results in a larger force due to the larger area of the slave cylinders.](../resources/Figure_11_05_02.jpg 'Hydraulic brakes use Pascal’s principle. The driver exerts a force of 100 N on the brake pedal. This force is increased by the simple lever and again by the hydraulic system. Each of the identical slave cylinders receives the same pressure and, therefore, creates the same force output ( F_{2} ) . The circular cross-sectional areas of the master and slave cylinders are represented by ( A_{1} ) and ( A_{2} ) , respectively ')
 {: #Figure2}
 
 A force of 100 N is applied to the brake pedal, which acts on the
@@ -127,6 +127,7 @@ Pascal’s principle applied to hydraulic systems is given by $$\frac{ {F}_{1}}{
 This value is the force exerted by each of the four slave cylinders. Note that
 we can add as many slave cylinders as we wish. If each has a 2.50-cm diameter,
 each will exert $$ 1.25 \times 10^{4} \text{N}\text{.} $$
+
 </div>
 
 A simple hydraulic system, such as a simple machine, can increase force but
@@ -148,10 +149,10 @@ Conservation of energy applied to a hydraulic system tells us that the system ca
 
 ### Section Summary
 
-* Pressure is force per unit area.
-* A change in pressure applied to an enclosed fluid is transmitted undiminished
+- Pressure is force per unit area.
+- A change in pressure applied to an enclosed fluid is transmitted undiminished
   to all portions of the fluid and to the walls of its container.
-* A hydraulic system is an enclosed fluid system used to exert forces.
+- A hydraulic system is an enclosed fluid system used to exert forces.
 
 ### Conceptual Questions
 

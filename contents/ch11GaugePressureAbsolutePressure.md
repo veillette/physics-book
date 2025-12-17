@@ -22,7 +22,7 @@ circulatory system. (As noted in [Pascal’s Principle](../contents/ch11PascalsP
 the total pressure in a fluid is the sum of the pressures from different
 sources—here, the heart and the atmosphere.) But atmospheric pressure has no net
 effect on blood flow since it adds to the pressure coming out of the heart and
-going back into it, too. What is important is how much *greater* blood pressure
+going back into it, too. What is important is how much _greater_ blood pressure
 is than atmospheric pressure. Blood pressure measurements, like tire pressures,
 are thus made relative to atmospheric pressure.
 
@@ -42,7 +42,7 @@ Gauge pressure is the pressure relative to atmospheric pressure. Gauge pressure 
 In fact, atmospheric pressure does add to the pressure in any fluid not enclosed
 in a rigid container. This happens because of Pascal’s principle. The total
 pressure, or **absolute pressure**, is thus the sum of gauge pressure and
-atmospheric pressure:  $${P}_{\text{abs}}={P}_{\text{g}}+{P}_{\text{atm}} $$
+atmospheric pressure: $${P}_{\text{abs}}={P}_{\text{g}}+{P}_{\text{atm}} $$
 where $${P}_{\text{abs}} $$ is absolute pressure, $${P}_{\text{g}} $$ is gauge
 pressure, and $${P}_{\text{atm}} $$ is atmospheric pressure. For example, if
 your tire gauge reads 34 psi (pounds per square inch), then the absolute
@@ -74,12 +74,12 @@ than putting a measuring device into a system, such as a person’s artery.
 in use today. In all mechanical pressure gauges, pressure results in a force
 that is converted (or transduced) into some type of readout.
 
-![Aneroid gauge measures pressure using a bellows and spring arrangement connected to the pointer that points to a calibrated scale.](../resources/Figure_11_06_01.jpg "This aneroid gauge utilizes flexible bellows connected to a mechanical indicator to measure pressure.")
+![Aneroid gauge measures pressure using a bellows and spring arrangement connected to the pointer that points to a calibrated scale.](../resources/Figure_11_06_01.jpg 'This aneroid gauge utilizes flexible bellows connected to a mechanical indicator to measure pressure.')
 {: #Figure1}
 
 An entire class of gauges uses the property that pressure due to the weight of a
 fluid is given by $$P=h \rho g\text{.} $$ Consider the U-shaped tube shown
-in [[Figure 2]](#Figure2), for example. This simple tube is called a *manometer*
+in [[Figure 2]](#Figure2), for example. This simple tube is called a _manometer_
 . In [[Figure 2]](#Figure2)(a), both sides of the tube are open to the
 atmosphere. Atmospheric pressure therefore pushes down on each side equally so
 its effect cancels. If the fluid is deeper on one side, there is a greater
@@ -105,7 +105,7 @@ atmospheric pressure by an amount $$h \rho g $$
 open to the atmosphere is an ideal device for measuring gauge pressures. The
 gauge pressure is $${P}_{\text{g}}=h \rho g $$ and is found by measuring $$h $$.
 
-![Open-tube manometers have U-shaped tubes and one end is always open. When open to atmosphere, fluid at both ends will be the same, as in the first figure. When pressure at one end is greater, the fluid level will go down on that end, as in the second figure. If the pressure at one end is less, then the height of the fluid column on that side will increase, as in the third figure.](../resources/Figure_11_06_02.jpg "An open-tube manometer has one side open to the atmosphere. (a) Fluid depth must be the same on both sides, or the pressure each side exerts at the bottom will be unequal and there will be flow from the deeper side. (b) A positive gauge pressure \( P_g=h\rho g \) transmitted to one side of the manometer can support a column of fluid of height \( h \) . (c) Similarly, atmospheric pressure is greater than a negative gauge pressure \( P_{g} \) by an amount \( h\rho g \). The jar&#x2019;s rigidity prevents atmospheric pressure from being transmitted to the peanuts.")
+![Open-tube manometers have U-shaped tubes and one end is always open. When open to atmosphere, fluid at both ends will be the same, as in the first figure. When pressure at one end is greater, the fluid level will go down on that end, as in the second figure. If the pressure at one end is less, then the height of the fluid column on that side will increase, as in the third figure.](../resources/Figure_11_06_02.jpg 'An open-tube manometer has one side open to the atmosphere. (a) Fluid depth must be the same on both sides, or the pressure each side exerts at the bottom will be unequal and there will be flow from the deeper side. (b) A positive gauge pressure ( P_g=h\\rho g ) transmitted to one side of the manometer can support a column of fluid of height ( h ) . (c) Similarly, atmospheric pressure is greater than a negative gauge pressure ( P_{g} ) by an amount ( h\\rho g ). The jar’s rigidity prevents atmospheric pressure from being transmitted to the peanuts.')
 {: #Figure2}
 
 Mercury manometers are often used to measure arterial blood pressure. An
@@ -145,7 +145,7 @@ Diastolic pressure is the minimum blood pressure.
 
 </div>
 
-![U.S. Army Spc. Monica Brown takes a soldier\'s blood pressure reading at the hospital on Forward Operating Base Salerno, Afghanistan, March 10, 2008.](../resources/Figure_11_06_03.jpg "In routine blood pressure measurements, an inflatable cuff is placed on the upper arm at the same level as the heart. Blood flow is detected just below the cuff, and corresponding pressures are transmitted to a mercury-filled manometer. (credit: U.S. Army photo by Spc. Micah E. Clare\4TH BCT)")
+![U.S. Army Spc. Monica Brown takes a soldier's blood pressure reading at the hospital on Forward Operating Base Salerno, Afghanistan, March 10, 2008.](../resources/Figure_11_06_03.jpg 'In routine blood pressure measurements, an inflatable cuff is placed on the upper arm at the same level as the heart. Blood flow is detected just below the cuff, and corresponding pressures are transmitted to a mercury-filled manometer. (credit: U.S. Army photo by Spc. Micah E. Clare\\4TH BCT)')
 {: #Figure3}
 
 <div class="example"  markdown="1">
@@ -185,7 +185,7 @@ opposite direction of flow than required in the example presented here.
 
 </div>
 
-A *barometer* is a device that measures atmospheric pressure. A mercury
+A _barometer_ is a device that measures atmospheric pressure. A mercury
 barometer is shown in [[Figure 4]](#Figure4). This device measures atmospheric
 pressure, rather than gauge pressure, because there is a nearly pure vacuum
 above the mercury in the tube. The height of the mercury is such that $$h \rho
@@ -196,7 +196,7 @@ Mercury barometers and manometers are so common that units of mm Hg are often
 quoted for atmospheric pressure and blood pressures. [[Table 1]](#Table1) gives
 conversion factors for some of the more commonly used units of pressure.
 
-![Mercury barometer has an evacuated glass tube inverted and placed in the mercury container. The height of the mercury column in the inverted tube is determined by the atmospheric pressure.](../resources/Figure_11_06_04.jpg "A mercury barometer measures atmospheric pressure. The pressure due to the mercury&#x2019;s weight, \( h\rho g \), equals atmospheric pressure. The atmosphere is able to force mercury in the tube to a height \( h \) because the pressure above the mercury is zero.")
+![Mercury barometer has an evacuated glass tube inverted and placed in the mercury container. The height of the mercury column in the inverted tube is determined by the atmospheric pressure.](../resources/Figure_11_06_04.jpg 'A mercury barometer measures atmospheric pressure. The pressure due to the mercury’s weight, ( h\\rho g ), equals atmospheric pressure. The atmosphere is able to force mercury in the tube to a height ( h ) because the pressure above the mercury is zero.')
 {: #Figure4}
 
 <table id="Table1" aria-describedby="Conversion Factors for Various Pressure Units"><caption><span class="title">Conversion Factors for Various Pressure Units</span></caption><thead>
@@ -281,13 +281,13 @@ conversion factors for some of the more commonly used units of pressure.
 
 ### Section Summary
 
-* Gauge pressure is the pressure relative to atmospheric pressure.
-* Absolute pressure is the sum of gauge pressure and atmospheric pressure.
-* Aneroid gauge measures pressure using a bellows-and-spring arrangement
+- Gauge pressure is the pressure relative to atmospheric pressure.
+- Absolute pressure is the sum of gauge pressure and atmospheric pressure.
+- Aneroid gauge measures pressure using a bellows-and-spring arrangement
   connected to the pointer of a calibrated scale.
-* Open-tube manometers have U-shaped tubes and one end is always open. It is
+- Open-tube manometers have U-shaped tubes and one end is always open. It is
   used to measure pressure.
-* A mercury barometer is a device that measures atmospheric pressure.
+- A mercury barometer is a device that measures atmospheric pressure.
 
 ### Conceptual Questions
 
@@ -323,14 +323,18 @@ Find the gauge and absolute pressures in the balloon and peanut jar shown in [[F
 <div class="solution" markdown="1">
 Balloon:
 
-$$\begin{array}{lll}{P}_{\text{g}}& =& 5.00 cm {\text{H}}_{2}\text{O} \text{,}
+$$
+\begin{array}{lll}{P}_{\text{g}}& =& 5.00 cm {\text{H}}_{2}\text{O} \text{,}
 \\ {P}_{\text{abs}}& =& 1.035 \times 10^{3} \text{cm} {\text{H}}_{2}\text{O}
-\text{.} \end{array} $$
+\text{.} \end{array}
+$$
 
 Jar:
 
-$$\begin{array}{lll}{P}_{\text{g}}& =& -50.0 \text{mm Hg}\text{,}\\ {P}_
-{\text{abs}}& =& 710 \text{mm Hg.}\end{array} $$
+$$
+\begin{array}{lll}{P}_{\text{g}}& =& -50.0 \text{mm Hg}\text{,}\\ {P}_
+{\text{abs}}& =& 710 \text{mm Hg.}\end{array}
+$$
 
 </div>
 </div>

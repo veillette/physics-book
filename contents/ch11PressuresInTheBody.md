@@ -155,7 +155,7 @@ The heart consists of two pumps—the right side forcing blood through the lungs
 
 </div>
 
-![The figure shows the circulatory system in the human body. The figure shows the right atrium and the left atrium, right ventricle and the left ventricle of the heart. The heart consists of two pumps&#x2014;the right side forcing blood through the lungs and the left causing blood to flow through the rest of the body.](../resources/Figure_11_09_01.jpg "Schematic of the circulatory system showing typical pressures. The two pumps in the heart increase pressure and that pressure is reduced as the blood flows through the body. Long-term deviations from these pressures have medical implications discussed in some detail in the Fluid Dynamics and Its Biological and Medical Applications. Only aortal or arterial blood pressure can be measured noninvasively.")
+![The figure shows the circulatory system in the human body. The figure shows the right atrium and the left atrium, right ventricle and the left ventricle of the heart. The heart consists of two pumps—the right side forcing blood through the lungs and the left causing blood to flow through the rest of the body.](../resources/Figure_11_09_01.jpg 'Schematic of the circulatory system showing typical pressures. The two pumps in the heart increase pressure and that pressure is reduced as the blood flows through the body. Long-term deviations from these pressures have medical implications discussed in some detail in the Fluid Dynamics and Its Biological and Medical Applications. Only aortal or arterial blood pressure can be measured noninvasively.')
 {: #Figure1}
 
 ### Pressure in the Eye
@@ -200,7 +200,7 @@ eye ([[Figure 2]](#Figure2)). If the intraocular pressure is high, the eye will
 deform less and rebound more vigorously than normal. Excessive intraocular
 pressures can be detected reliably and sometimes controlled effectively.
 
-![The tonometer being used by an eye care professional to determine the fluid pressure inside the eye.](../resources/Figure_11_09_02.jpg "The intraocular eye pressure can be read with a tonometer. (credit: DevelopAll at the Wikipedia Project.)")
+![The tonometer being used by an eye care professional to determine the fluid pressure inside the eye.](../resources/Figure_11_09_02.jpg 'The intraocular eye pressure can be read with a tonometer. (credit: DevelopAll at the Wikipedia Project.)')
 {: #Figure2}
 
 <div class="example" markdown="1">
@@ -228,7 +228,9 @@ We now need to convert this to units of mm Hg:
 **Strategy for (b)**
 
 Here we will use the fact that the water pressure varies linearly with depth $$h
-$$ below the surface.
+
+$$
+below the surface.
 
 **Solution for (b)**
 
@@ -546,7 +548,9 @@ Some miners wish to remove water from a mine shaft. A pipe is lowered to the wat
 You are pumping up a bicycle tire with a hand pump, the piston of which has a 2.00-cm radius.
 
 (a) What force in newtons must you exert to create a pressure of $$ 6.90 \times
-10^{5} \text{Pa} $$
+10^{5} \text{Pa}
+$$
+
 (b) What is unreasonable about this (a) result? (c) Which premises are
 unreasonable or inconsistent?
 

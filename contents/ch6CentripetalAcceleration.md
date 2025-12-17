@@ -31,16 +31,16 @@ acceleration of an object moving in uniform circular motion (
 resulting from a net external force) the **centripetal acceleration**
 ( $$ \ac $$); centripetal means “toward the center” or “center seeking.”
 
-![The given figure shows a circle, with a triangle having vertices A B C made from the center to the boundary. A is at the center and B and C points are at the circle path. Lines A B and A C act as radii and B C is a chord. Delta theta is shown inside the triangle, and the arc length delta s and the chord length delta r are also given. At point B, velocity of object is shown as v one and at point C, velocity of object is shown as v two. Along the circle an equation is shown as delta v equals v sub 2 minus v sub 1.](../resources/Figure_06_02_01.jpg "The directions of the velocity of an object at two different points are shown, and the change in velocity \( \vb{\Delta v} \) is seen to point directly toward the center of curvature.
-(See small inset.) Because \( \vb{a}_c =\frac{ \vb{\Delta v} }{\Delta t} \), the acceleration is also toward the center; \( \vb{a}_c \) is called centripetal acceleration.
-(Because \( \Delta \theta \) is very small, the arc length \( \Delta s \) is equal to the chord length \( \Delta r \) for small time differences.)")
+![The given figure shows a circle, with a triangle having vertices A B C made from the center to the boundary. A is at the center and B and C points are at the circle path. Lines A B and A C act as radii and B C is a chord. Delta theta is shown inside the triangle, and the arc length delta s and the chord length delta r are also given. At point B, velocity of object is shown as v one and at point C, velocity of object is shown as v two. Along the circle an equation is shown as delta v equals v sub 2 minus v sub 1.](../resources/Figure_06_02_01.jpg 'The directions of the velocity of an object at two different points are shown, and the change in velocity ( \\vb{\\Delta v} ) is seen to point directly toward the center of curvature.
+(See small inset.) Because ( \\vb{a}_c =\\frac{ \\vb{\\Delta v} }{\\Delta t} ), the acceleration is also toward the center; ( \\vb{a}_c ) is called centripetal acceleration.
+(Because ( \\Delta \\theta ) is very small, the arc length ( \\Delta s ) is equal to the chord length ( \\Delta r ) for small time differences.)')
 {: #Figure1}
 
 The direction of centripetal acceleration is toward the center of curvature, but
 what is its magnitude? Note that the triangle formed by the velocity vectors and
 the one formed by the radii $$ r $$ and $$ \Delta s $$ are similar. Both the
 triangles ABC and PQR are isosceles triangles (two equal sides). The two equal
-sides of the velocity vector triangle are the speeds $$ v_{1}= v_{2}=v $$. Using
+sides of the velocity vector triangle are the speeds $$ v*{1}= v*{2}=v $$. Using
 the properties of two similar triangles, we obtain
 
 <div class="equation">
@@ -61,7 +61,9 @@ Then we divide this by $$ \Delta t $$, yielding
 </div>
 
 Finally, noting that $$ \Delta v/\Delta t=\ac $$ and that $$ \Delta s/\Delta t=v
-$$, the linear or tangential speed, we see that the magnitude of the centripetal
+
+$$
+, the linear or tangential speed, we see that the magnitude of the centripetal
 acceleration is
 
 <div class="equation">
@@ -159,7 +161,9 @@ we use the facts that one revolution is $$ 2\pi \text{rad} $$ and one minute is
 
 <div class="equation">
  $$ \omega =7.50\times 10^{4}\frac{ \text{rev}}{\text{min}}×\frac{2\pi \text{rad}}{1 \text{rev}}×\frac{1\text{min}}{60.0 \s }
-=7854\rads . $$
+=7854\rads .
+$$
+
 </div>
 Now the centripetal acceleration is given by the second expression in
 $$ \ac=\frac{ v^{2}}{r}$$; $$ \ac=r \omega^{2} $$ as
@@ -213,14 +217,14 @@ Ladybug Motion 2D
 
 ### Section Summary
 
-* Centripetal acceleration $$ \ac $$ is the acceleration experienced while in
+- Centripetal acceleration $$ \ac $$ is the acceleration experienced while in
   uniform circular motion. It always points toward the center of rotation. It is
   perpendicular to the linear velocity $$ v $$ and has the magnitude
   <div class="equation">
   $$ \ac=\frac{ v^{2}}{r};\ac=r \omega^{2}. $$
   </div>
 
-* The unit of centripetal acceleration is $$ \mss $$.
+- The unit of centripetal acceleration is $$ \mss $$.
 
 ### Conceptual Questions
 
@@ -564,8 +568,9 @@ $$ \frac{g_{\text{satellite}}}{g_{\text{surface}}} = \frac{GM/r_{\text{satellite
 </div>
 
 where:
-- $$ r_{\text{Earth}} = 6.38 \times 10^6 $$ m
-- $$ r_{\text{satellite}} = 6.38 \times 10^6 + 3.00 \times 10^5 = 6.68 \times 10^6 $$ m
+
+- $$ r\_{\text{Earth}} = 6.38 \times 10^6 $$ m
+- $$ r\_{\text{satellite}} = 6.38 \times 10^6 + 3.00 \times 10^5 = 6.68 \times 10^6 $$ m
 
 <div class="equation">
 $$ \frac{g_{\text{satellite}}}{g_{\text{surface}}} = \frac{(6.38 \times 10^6\text{ m})^2}{(6.68 \times 10^6\text{ m})^2} = \frac{4.07 \times 10^{13}}{4.46 \times 10^{13}} = 0.912 $$

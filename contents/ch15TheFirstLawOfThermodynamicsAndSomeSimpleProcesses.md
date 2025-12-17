@@ -11,7 +11,7 @@ chapterNumber: 15
 * Calculate total work done in a cyclical thermodynamic process.
 </div>
 
-![An old photo of a steam turbine at a turbine production plant. People are shown working on the turbine.](../resources/Figure_15_02_01.jpg "Beginning with the Industrial Revolution, humans have harnessed power through the use of the first law of thermodynamics, before we even understood it completely. This photo, of a steam engine at the Turbinia Works, dates from 1911, a mere 61 years after the first explicit statement of the first law of thermodynamics by Rudolph Clausius. (credit: public domain; author unknown)")
+![An old photo of a steam turbine at a turbine production plant. People are shown working on the turbine.](../resources/Figure_15_02_01.jpg 'Beginning with the Industrial Revolution, humans have harnessed power through the use of the first law of thermodynamics, before we even understood it completely. This photo, of a steam engine at the Turbinia Works, dates from 1911, a mere 61 years after the first explicit statement of the first law of thermodynamics by Rudolph Clausius. (credit: public domain; author unknown)')
 {: #Figure1}
 
 One of the most important things we can do with heat transfer is to use it to do
@@ -20,10 +20,10 @@ turbines that generate electricity are examples of heat
 engines. [[Figure 2]](#Figure2) shows schematically how the first law of
 thermodynamics applies to the typical heat engine.
 
-![The figure shows a schematic representation of a heat engine. The heat engine is represented by a circle. The heat entering the system is shown as Q sub in, represented as a bold arrow toward the circle, and the heat coming out of the heat engine is shown as Q sub out, represented by a narrower bold arrow leaving the circle. The work labeled as W is shown to leave the heat engine as represented by another bold arrow leaving the circle. At the center of the circle are two equations. First, the change in internal energy of the system, delta U, equals zero. Consequently, W equals Q sub in minus Q sub out.](../resources/Figure_15_02_02.jpg "Schematic representation of a heat engine, governed, of course, by the first law of thermodynamics. It is impossible to devise a system where \( Q_{out}=0 \) , that is, in which no heat transfer occurs to the environment.")
+![The figure shows a schematic representation of a heat engine. The heat engine is represented by a circle. The heat entering the system is shown as Q sub in, represented as a bold arrow toward the circle, and the heat coming out of the heat engine is shown as Q sub out, represented by a narrower bold arrow leaving the circle. The work labeled as W is shown to leave the heat engine as represented by another bold arrow leaving the circle. At the center of the circle are two equations. First, the change in internal energy of the system, delta U, equals zero. Consequently, W equals Q sub in minus Q sub out.](../resources/Figure_15_02_02.jpg 'Schematic representation of a heat engine, governed, of course, by the first law of thermodynamics. It is impossible to devise a system where ( Q_{out}=0 ) , that is, in which no heat transfer occurs to the environment.')
 {: #Figure2}
 
-![Figure a shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The heat Q sub in is shown to be transferred to the gas in the cylinder as shown by a bold arrow toward it. The force of the gas on the moving cylinder with the piston is shown as F equals P times A shown as a vector arrow pointing toward the right. The change in internal energy is marked in the diagram as delta U sub a equals Q sub in. Figure b shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The force of the gas has moved the cylinder with the piston by a distance d toward the right. The change in internal energy is marked in the diagram as delta U sub b equals negative W sub out. The piston is shown to have done work by change in position, marked as F d equal to W sub out. Figure c shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The piston attached to the cylinder is shown to reach back to the initial position shown in figure a. The distance d is traveled back and heat Q sub out is shown to leave the system as represented by an outward arrow. The force driving backward is shown as a vector arrow pointing to the left, labeled F prime. F prime is shown less than F. The work done by the force F prime is shown by the equation W sub in equal to F prime times d.](../resources/Figure_15_02_03.jpg "(a) Heat transfer to the gas in a cylinder increases the internal energy of the gas, creating higher pressure and temperature. (b) The force exerted on the movable cylinder does work as the gas expands. Gas pressure and temperature decrease when it expands, indicating that the gas&#x2019;s internal energy has been decreased by doing work. (c) Heat transfer to the environment further reduces pressure in the gas so that the piston can be more easily returned to its starting position.")
+![Figure a shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The heat Q sub in is shown to be transferred to the gas in the cylinder as shown by a bold arrow toward it. The force of the gas on the moving cylinder with the piston is shown as F equals P times A shown as a vector arrow pointing toward the right. The change in internal energy is marked in the diagram as delta U sub a equals Q sub in. Figure b shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The force of the gas has moved the cylinder with the piston by a distance d toward the right. The change in internal energy is marked in the diagram as delta U sub b equals negative W sub out. The piston is shown to have done work by change in position, marked as F d equal to W sub out. Figure c shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The piston attached to the cylinder is shown to reach back to the initial position shown in figure a. The distance d is traveled back and heat Q sub out is shown to leave the system as represented by an outward arrow. The force driving backward is shown as a vector arrow pointing to the left, labeled F prime. F prime is shown less than F. The work done by the force F prime is shown by the equation W sub in equal to F prime times d.](../resources/Figure_15_02_03.jpg '(a) Heat transfer to the gas in a cylinder increases the internal energy of the gas, creating higher pressure and temperature. (b) The force exerted on the movable cylinder does work as the gas expands. Gas pressure and temperature decrease when it expands, indicating that the gas’s internal energy has been decreased by doing work. (c) Heat transfer to the environment further reduces pressure in the gas so that the piston can be more easily returned to its starting position.')
 {: #Figure3}
 
 The illustrations above show one of the ways in which heat transfer does work.
@@ -39,7 +39,7 @@ of millions of heat engines. We will examine heat engines in detail in the next
 section. In this section, we consider some of the simpler underlying processes
 on which heat engines are based.
 
-### *PV* Diagrams and their Relationship to Work Done on or by a Gas
+### _PV_ Diagrams and their Relationship to Work Done on or by a Gas
 
 A process by which a gas does work on a piston at constant pressure is called
 an **isobaric process**. Since the pressure is constant, the force exerted is
@@ -49,7 +49,7 @@ constant and the work done is given as
  $$P\Delta V\text{.} $$
 </div>
 
-![The diagram shows an isobaric expansion of a gas filled cylinder held vertically. V is the volume of gas in the cylinder. A is the area of cross section of the cylinder. The cylinder has a movable piston with a rod attached to it at the top of the cylinder. A heat Q sub in is shown to enter the cylinder from below. A force F equals P times A is shown to act upward from the bottom of the cylinder. The piston is shown to have been displaced by a vertical distance d upward. The volume displaced is given by delta V equals A times d. The work output shown as W sub out is equal to F times d, which is also equal to P times A times d, which in turn equals P times delta V.](../resources/Figure_15_02_04.jpg "An isobaric expansion of a gas requires heat transfer to keep the pressure constant. Since pressure is constant, the work done is \( P \Delta V \).")
+![The diagram shows an isobaric expansion of a gas filled cylinder held vertically. V is the volume of gas in the cylinder. A is the area of cross section of the cylinder. The cylinder has a movable piston with a rod attached to it at the top of the cylinder. A heat Q sub in is shown to enter the cylinder from below. A force F equals P times A is shown to act upward from the bottom of the cylinder. The piston is shown to have been displaced by a vertical distance d upward. The volume displaced is given by delta V equals A times d. The work output shown as W sub out is equal to F times d, which is also equal to P times A times d, which in turn equals P times delta V.](../resources/Figure_15_02_04.jpg 'An isobaric expansion of a gas requires heat transfer to keep the pressure constant. Since pressure is constant, the work done is ( P \\Delta V ).')
 {: #Figure4}
 
 <div class="equation">
@@ -70,7 +70,7 @@ length $$d $$ , we see that $$Ad =\Delta V $$ , the change in volume; thus,
 </div>
 
 Note that if $$\Delta V $$ is positive, then $$W $$ is positive, meaning that
-work is done *by* the gas on the outside world.
+work is done _by_ the gas on the outside world.
 
 (Note that the pressure involved in this work that we’ve called $$P $$ is the
 pressure of the gas *inside* the tank. If we call the pressure outside the tank
@@ -88,7 +88,9 @@ in our discussion of the ideal gas law that $$PV $$ has units of energy. In this
 case, some of the energy associated with pressure becomes work.
 
 [[Figure 5]](#Figure5) shows a graph of pressure versus volume (that is, a $$PV
-$$ diagram ) for an isobaric process. You can see in the figure that the work done
+
+$$
+diagram ) for an isobaric process. You can see in the figure that the work done
 is the area under the graph. This property of $$PV $$ diagrams is very useful
 and broadly applicable: *the work done on or by a system in going from one state
 to another equals the area under the curve on a $$PV $$ diagram*.
@@ -431,7 +433,7 @@ Calculate the net work output of a heat engine following path ABCDA in the figur
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What is the net work output of a heat engine that follows path ABDA in the figure above, with a straight line from B to D? Why is the work output less than for path ABCDA? Explicitly show how you follow the steps in 
+What is the net work output of a heat engine that follows path ABDA in the figure above, with a straight line from B to D? Why is the work output less than for path ABCDA? Explicitly show how you follow the steps in
 the [Problem-Solving Strategies for Thermodynamics](../contents/ch15ApplicationsOfThermodynamics#Note1).
 
 </div>
@@ -513,3 +515,4 @@ reversible process
 theoretically can be returned to their original states
 
 </div>
+$$

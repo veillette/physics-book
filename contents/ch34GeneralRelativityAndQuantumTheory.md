@@ -55,7 +55,7 @@ gravity acting downward from acceleration of the elevator upward. Thus gravity
 affects the path of light, even though we think of gravity as acting between
 masses and photons are massless.
 
-![Figure a shows a person holding a flashlight and standing in an elevator that is accelerating upward. The flashlight is held horizontally, but the light beam from the flashlight hits the facing wall slightly below the horizontal path. Figure b shows the same thing but the elevator is at rest on the Earth.](../resources/Figure_34_02_01.jpg "(a) A beam of light emerges from a flashlight in an upward-accelerating elevator. Since the elevator moves up during the time the light takes to reach the wall, the beam strikes lower than it would if the elevator were not accelerated. (b) Gravity has the same effect on light, since it is not possible to tell whether the elevator is accelerating upward or acted upon by gravity.")
+![Figure a shows a person holding a flashlight and standing in an elevator that is accelerating upward. The flashlight is held horizontally, but the light beam from the flashlight hits the facing wall slightly below the horizontal path. Figure b shows the same thing but the elevator is at rest on the Earth.](../resources/Figure_34_02_01.jpg '(a) A beam of light emerges from a flashlight in an upward-accelerating elevator. Since the elevator moves up during the time the light takes to reach the wall, the beam strikes lower than it would if the elevator were not accelerated. (b) Gravity has the same effect on light, since it is not possible to tell whether the elevator is accelerating upward or acted upon by gravity.')
 {: #Figure1}
 
 Einstein’s theory of general relativity got its first verification in 1919 when
@@ -95,10 +95,10 @@ multiple images are not different objects is bolstered by the observations that
 if one image varies in brightness over time, the others also vary in the same
 manner.
 
-![This figure shows a star at the left, then the Sun in the middle, then the Earth on the right. The star is said to be a very large distance from the Sun and the distances are not to scale. A ray leaves the star at a slight upward angle and to the right, then curves sufficiently downward around to Sun so that it reaches the Earth. Because of the bend in the ray&#x2019;s trajectory, the Earth-bound observer detects an image of the star that is higher than the actual position of the star.](../resources/Figure_34_02_02.jpg "This schematic shows how light passing near a massive body like the Sun is curved toward it. The light that reaches the Earth then seems to be coming from different locations than the known positions of the originating stars. Not only was this effect observed, the amount of bending was precisely what Einstein predicted in his general theory of relativity.")
+![This figure shows a star at the left, then the Sun in the middle, then the Earth on the right. The star is said to be a very large distance from the Sun and the distances are not to scale. A ray leaves the star at a slight upward angle and to the right, then curves sufficiently downward around to Sun so that it reaches the Earth. Because of the bend in the ray’s trajectory, the Earth-bound observer detects an image of the star that is higher than the actual position of the star.](../resources/Figure_34_02_02.jpg 'This schematic shows how light passing near a massive body like the Sun is curved toward it. The light that reaches the Earth then seems to be coming from different locations than the known positions of the originating stars. Not only was this effect observed, the amount of bending was precisely what Einstein predicted in his general theory of relativity.')
 {: #Figure2}
 
-![At the left of the first figure is a galaxy and, symmetrically above and below it, two images of it. In the middle of the figure is another galaxy, and at the right is the Earth. Two light rays leave the left-most galaxy, with one ray traveling just above the middle galaxy to be bent downward so that it reaches the Earth. The second ray travels a similar path but goes below the middle galaxy and is bent upward to reach the Earth. Because of the bend in the light rays, an Earth-bound observer detects two images of the left-most galaxy: one above the middle galaxy and one below it. Figure b shows a central bright spot surrounded by four peripheral bright spots against a black background. The four peripheral bright spots are arranged symmetrically around the central spot: one above, one below, one to the left, and one the right.](../resources/Figure_34_02_03.jpg "(a) Light from a distant galaxy can travel different paths to the Earth because it is bent around an intermediary galaxy by gravity. This produces several images of the more distant galaxy. (b) The images around the central galaxy are produced by gravitational lensing. Each image has the same spectrum and a larger red shift than the intermediary. (credit: NASA, ESA, and STScI)")
+![At the left of the first figure is a galaxy and, symmetrically above and below it, two images of it. In the middle of the figure is another galaxy, and at the right is the Earth. Two light rays leave the left-most galaxy, with one ray traveling just above the middle galaxy to be bent downward so that it reaches the Earth. The second ray travels a similar path but goes below the middle galaxy and is bent upward to reach the Earth. Because of the bend in the light rays, an Earth-bound observer detects two images of the left-most galaxy: one above the middle galaxy and one below it. Figure b shows a central bright spot surrounded by four peripheral bright spots against a black background. The four peripheral bright spots are arranged symmetrically around the central spot: one above, one below, one to the left, and one the right.](../resources/Figure_34_02_03.jpg '(a) Light from a distant galaxy can travel different paths to the Earth because it is bent around an intermediary galaxy by gravity. This produces several images of the more distant galaxy. (b) The images around the central galaxy are produced by gravitational lensing. Each image has the same spectrum and a larger red shift than the intermediary. (credit: NASA, ESA, and STScI)')
 {: #Figure3}
 
 <span class="title">**Black holes**</span>**Black holes** are objects having
@@ -124,14 +124,14 @@ Black holes are difficult to observe directly, because they are small and no
 light comes directly from them. In fact, no light comes from inside the **event
 horizon**, which is defined to be at a distance from the object at which the
 escape velocity is exactly the speed of light. The radius of the event horizon
-is known as the **Schwarzschild radius**  $${R}_{\text{S}} $$ and is given by
+is known as the **Schwarzschild radius** $${R}_{\text{S}} $$ and is given by
 
 <div class="equation" >
  $${R}_{\text{S}}=\frac{2 GM}{ {c}^{2}}\text{,} $$
 </div>
 
 where $$G $$ is the universal gravitational constant, $$M $$
-** is the mass of the body, and $$c $$ is the speed of light. The event horizon
+\*\* is the mass of the body, and $$c $$ is the speed of light. The event horizon
 is the edge of the black hole and $${R}_{\text{S}} $$ is its radius (that is,
 the size of a black hole is twice $${R}_{\text{S}} $$ ). Since $$G $$ is small
 and $${c}^{2} $$ is large, you can see that black holes are extremely small,
@@ -181,7 +181,7 @@ energy emission. (See [[Figure 4]](#Figure4).) A jet of material being ejected
 perpendicular to the plane of rotation gives further evidence of a supermassive
 black hole as the engine.
 
-![The figure shows a big blue sphere on the left labeled star and a small black region on the right labeled black hole. Material from the star appears to be pulled toward the black hole, and swirls around the black hole forming a horizontal disk that is labeled accretion disk. Along the axis of this disk is a white spike that extends above and below the black hole.](../resources/Figure_34_02_04.jpg "A black hole is shown pulling matter away from a companion star, forming a superheated accretion disk where X-rays are emitted before the matter disappears forever into the hole. The in-fall energy also ejects some material, forming the two vertical spikes. (See also the photograph in Introduction to Frontiers of Physics.) There are several X-ray-emitting objects in space that are consistent with this picture and are likely to be black holes.")
+![The figure shows a big blue sphere on the left labeled star and a small black region on the right labeled black hole. Material from the star appears to be pulled toward the black hole, and swirls around the black hole forming a horizontal disk that is labeled accretion disk. Along the axis of this disk is a white spike that extends above and below the black hole.](../resources/Figure_34_02_04.jpg 'A black hole is shown pulling matter away from a companion star, forming a superheated accretion disk where X-rays are emitted before the matter disappears forever into the hole. The in-fall energy also ejects some material, forming the two vertical spikes. (See also the photograph in Introduction to Frontiers of Physics.) There are several X-ray-emitting objects in space that are consistent with this picture and are likely to be black holes.')
 {: #Figure4}
 
 <span class="title">**Gravitational waves**</span>If a massive object distorts
@@ -235,16 +235,16 @@ evaporate faster, but they are only speculated to exist as remnants of the Big
 Bang. Searches for characteristic $$\gamma $$ -ray bursts have produced events
 attributable to more mundane objects like neutron stars accreting matter.
 
-![The image on the left shows what appears to be a spherical white burst of dust from which two yellow-orange jets emanate, one going up and the other going down. From the top of the upper jet to the bottom of the lower jet is about one hundred and eighty thousand light years. The background is black. The center of the white burst is expanded in the image on the right and appears as a bright yellow doughnut-shaped disk spread over four hundred light years. At the center of the disk is a bright spot that may be the source of the jets.](../resources/Figure_34_02_05.jpg "This Hubble Space Telescope photograph shows the extremely energetic core of the NGC 4261 galaxy. With the superior resolution of the orbiting telescope, it has been possible to observe the rotation of an accretion disk around the energy-producing object as well as to map jets of material being ejected from the object. A supermassive black hole is consistent with these observations, but other possibilities are not quite eliminated. (credit: NASA and ESA)")
+![The image on the left shows what appears to be a spherical white burst of dust from which two yellow-orange jets emanate, one going up and the other going down. From the top of the upper jet to the bottom of the lower jet is about one hundred and eighty thousand light years. The background is black. The center of the white burst is expanded in the image on the right and appears as a bright yellow doughnut-shaped disk spread over four hundred light years. At the center of the disk is a bright spot that may be the source of the jets.](../resources/Figure_34_02_05.jpg 'This Hubble Space Telescope photograph shows the extremely energetic core of the NGC 4261 galaxy. With the superior resolution of the orbiting telescope, it has been possible to observe the rotation of an accretion disk around the energy-producing object as well as to map jets of material being ejected from the object. A supermassive black hole is consistent with these observations, but other possibilities are not quite eliminated. (credit: NASA and ESA)')
 {: #Figure5}
 
-![This figure shows a windowless room full of desks and computer screens and with three large screens on the wall upon which are projected a lot of technical graphs.](../resources/Figure_34_02_06.jpg "The control room of the LIGO gravitational wave detector. Gravitational waves will cause extremely small vibrations in a mass in this detector, which will be detected by laser interferometer techniques. Such detection in coincidence with other detectors and with astronomical events, such as supernovas, would provide direct evidence of gravitational waves. (credit: Tobin Fricke)")
+![This figure shows a windowless room full of desks and computer screens and with three large screens on the wall upon which are projected a lot of technical graphs.](../resources/Figure_34_02_06.jpg 'The control room of the LIGO gravitational wave detector. Gravitational waves will cause extremely small vibrations in a mass in this detector, which will be detected by laser interferometer techniques. Such detection in coincidence with other detectors and with astronomical events, such as supernovas, would provide direct evidence of gravitational waves. (credit: Tobin Fricke)')
 {: #Figure6}
 
-![A photo of Stephen Hawking sitting on his special chair fitted with modern gadgets.](../resources/Figure_34_02_07.jpg "Stephen Hawking (b. 1942) has made many contributions to the theory of quantum gravity. Hawking is a long-time survivor of ALS and has produced popular books on general relativity, cosmology, and quantum gravity. (credit: Lwp Kommunik&#xE1;ci&#xF3;)")
+![A photo of Stephen Hawking sitting on his special chair fitted with modern gadgets.](../resources/Figure_34_02_07.jpg 'Stephen Hawking (b. 1942) has made many contributions to the theory of quantum gravity. Hawking is a long-time survivor of ALS and has produced popular books on general relativity, cosmology, and quantum gravity. (credit: Lwp Kommunikáció)')
 {: #Figure7}
 
-![The figure shows a purple doughnut-shaped object with a black hole in the middle. Many different-colored spots are arranged like glazing around the edge of the doughnut. The deep purple of the doughnut fades to a light purple as you move away from the doughnut, and the space around the doughnut is filled with randomly placed white dots. Various particles are shown either falling in or escaping from the doughnut. There is a proton antiproton pair, with the proton escaping and the antiproton falling back into the doughnut. There is an electron-positron pair in which the positron escapes then annihilates with an electron outside the doughnut, with the subsequent gamma rays escaping the doughnut. There is a muon-antimuon pair that is created then both fall back into the doughnut. Finally, there is an electron-positron pair that is generated, with the electron escaping and the positron falling back into the doughnut.](../resources/Figure_34_02_08.jpg "Gravity and quantum mechanics come into play when a black hole creates a particle-antiparticle pair from the energy in its gravitational field. One member of the pair falls into the hole while the other escapes, removing energy and shrinking the black hole. The search is on for the characteristic energy.")
+![The figure shows a purple doughnut-shaped object with a black hole in the middle. Many different-colored spots are arranged like glazing around the edge of the doughnut. The deep purple of the doughnut fades to a light purple as you move away from the doughnut, and the space around the doughnut is filled with randomly placed white dots. Various particles are shown either falling in or escaping from the doughnut. There is a proton antiproton pair, with the proton escaping and the antiproton falling back into the doughnut. There is an electron-positron pair in which the positron escapes then annihilates with an electron outside the doughnut, with the subsequent gamma rays escaping the doughnut. There is a muon-antimuon pair that is created then both fall back into the doughnut. Finally, there is an electron-positron pair that is generated, with the electron escaping and the positron falling back into the doughnut.](../resources/Figure_34_02_08.jpg 'Gravity and quantum mechanics come into play when a black hole creates a particle-antiparticle pair from the energy in its gravitational field. One member of the pair falls into the hole while the other escapes, removing energy and shrinking the black hole. The search is on for the characteristic energy.')
 {: #Figure8}
 
 <span class="title">**Wormholes and time travel** </span>The subject of time
@@ -281,18 +281,18 @@ the [Superstrings](../contents/ch34Superstrings).
 
 ### Section Summary
 
-* Einstein’s theory of general relativity includes accelerated frames and, thus,
+- Einstein’s theory of general relativity includes accelerated frames and, thus,
   encompasses special relativity and gravity. Created by use of careful thought
   experiments, it has been repeatedly verified by real experiments.
-* One direct result of this behavior of nature is the gravitational lensing** of
+- One direct result of this behavior of nature is the gravitational lensing** of
   light by massive objects, such as galaxies, also seen in the microlensing **
   of light by smaller bodies in our galaxy.
-* Another prediction is the existence of black holes, objects for which the
+- Another prediction is the existence of black holes, objects for which the
   escape velocity is greater than the speed of light and from which nothing can
   escape.
-* The event horizon is the distance from the object at which the escape velocity
+- The event horizon is the distance from the object at which the escape velocity
   equals the speed of light $$c $$ . It is called the Schwarzschild radius
-  $${R}_{\text{S}} $$ and is given by
+  $${R}\_{\text{S}} $$ and is given by
 
   <div class="equation" >
    $${R}_{\text{S}}=\frac{2GM}{ {c}^{2}}\text{,} $$
@@ -300,18 +300,18 @@ the [Superstrings](../contents/ch34Superstrings).
      where  $$G $$ is the universal gravitational constant, and  $$M $$
      is the mass of the body.
 
-* Physics is unknown inside the event horizon, and the possibility of wormholes
+- Physics is unknown inside the event horizon, and the possibility of wormholes
   and time travel are being studied.
-* Candidates for black holes may power the extremely energetic emissions of
+- Candidates for black holes may power the extremely energetic emissions of
   quasars, distant objects that seem to be early stages of galactic evolution.
-* Neutron stars are stellar remnants, having the density of a nucleus, that hint
+- Neutron stars are stellar remnants, having the density of a nucleus, that hint
   that black holes could form from supernovas, too.
-* Gravitational waves are wrinkles in space, predicted by general relativity but
+- Gravitational waves are wrinkles in space, predicted by general relativity but
   not yet observed, caused by changes in very massive objects.
-* Quantum gravity is an incompletely developed theory that strives to include
+- Quantum gravity is an incompletely developed theory that strives to include
   general relativity, quantum mechanics, and unification of forces (thus, a TOE)
   .
-* One unconfirmed connection between general relativity and quantum mechanics is
+- One unconfirmed connection between general relativity and quantum mechanics is
   the prediction of characteristic radiation from just outside black holes.
 
 ### Conceptual Questions

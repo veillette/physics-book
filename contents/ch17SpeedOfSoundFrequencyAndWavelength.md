@@ -12,7 +12,7 @@ chapterNumber: 17
 * Describe the effects of temperature on the speed of sound.
 </div>
 
-![A photograph of a fireworks display in the sky.](../resources/Figure_17_02_01.jpg "When a firework explodes, the light energy is perceived before the sound energy. Sound travels more slowly than light does. (credit: Dominic Alves, Flickr)")
+![A photograph of a fireworks display in the sky.](../resources/Figure_17_02_01.jpg 'When a firework explodes, the light energy is perceived before the sound energy. Sound travels more slowly than light does. (credit: Dominic Alves, Flickr)')
 {: #Figure1}
 
 Sound, like all waves, travels at a certain speed and has the properties of
@@ -37,7 +37,9 @@ same as for all waves:
 </div>
 
 where $${v}_{w} $$ is the speed of sound, $$f $$ is its frequency, and $$\lambda
-$$ is its wavelength. The wavelength of a sound is the distance between adjacent
+
+$$
+is its wavelength. The wavelength of a sound is the distance between adjacent
 identical parts of a wave—for example, between adjacent compressions as
 illustrated in [[Figure 2]](#Figure2). The frequency is the same as that of the
 source and is the number of waves that pass a point per unit time.
@@ -441,3 +443,4 @@ pitch
 : the perception of the frequency of a sound
 
 </div>
+$$

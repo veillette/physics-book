@@ -21,13 +21,13 @@ for lifetime and rate of decay.
 
 Why use a term like half-life rather than lifetime? The answer can be found by
 examining [[Figure 1]](#Figure1), which shows how the number of radioactive
-nuclei in a sample decreases with time. The *time in which half of the original
-number of nuclei decay* is defined as the **half-life**, $${t}_{1/2} $$ . Half
+nuclei in a sample decreases with time. The _time in which half of the original
+number of nuclei decay_ is defined as the **half-life**, $${t}_{1/2} $$ . Half
 of the remaining nuclei decay in the next half-life. Further, half of that
 amount decays in the following half-life. Therefore, the number of radioactive
 nuclei decreases from $$N $$ to $$N/2 $$ in one half-life, then to $$N/4 $$ in
 the next, and to $$N/8 $$ in the next, and so on. If $$N $$ is a large number,
-then *many* half-lives (not just two) pass before all of the nuclei decay.
+then _many_ half-lives (not just two) pass before all of the nuclei decay.
 Nuclear decay is an example of a purely statistical process. A more precise
 definition of half-life is that each nucleus has a 50% chance of living for a
 time equal to one half-life $${t}_{1/2} $$ . Thus, if $$N $$ is reasonably large, half of the original nuclei decay in a
@@ -38,7 +38,7 @@ surviving through one more. The probability of decay is the same no matter when
 you start counting. This is like random coin flipping. The chance of heads is
 50%, no matter what has happened before.
 
-![The figure shows a radioactive decay graph of number of nuclides in thousands versus time in multiples of half-life. The number of radioactive nuclei decreases exponentially and finally approaches zero after about ten half-lives.](../resources/Figure_31_05_01.jpg "Radioactive decay reduces the number of radioactive nuclei over time. In one half-life \( t_{1/2} \), the number decreases to half of its original value. Half of what remains decay in the next half-life, and half of those in the next, and so on. This is an exponential decay, as seen in the graph of the number of nuclei present as a function of time.")
+![The figure shows a radioactive decay graph of number of nuclides in thousands versus time in multiples of half-life. The number of radioactive nuclei decreases exponentially and finally approaches zero after about ten half-lives.](../resources/Figure_31_05_01.jpg 'Radioactive decay reduces the number of radioactive nuclei over time. In one half-life ( t_{1/2} ), the number decreases to half of its original value. Half of what remains decay in the next half-life, and half of those in the next, and so on. This is an exponential decay, as seen in the graph of the number of nuclei present as a function of time.')
 {: #Figure1}
 
 There is a tremendous range in the half-lives of various nuclides, from as short
@@ -116,7 +116,7 @@ unidentified piece from the shroud, to avoid prejudice. All three laboratories
 found samples of the shroud contain 92% of the $${}^{14}\text{C} $$ found in
 living tissues, allowing the shroud to be dated (see [[Figure 2]](#Figure2)).
 
-![The figure shows two images of Jesus. Left image is very faint and hardly visible but the right image shows a much clearer picture.](../resources/Figure_31_05_02.jpg "Part of the Shroud of Turin, which shows a remarkable negative imprint likeness of Jesus complete with evidence of crucifixion wounds. The shroud first surfaced in the 14th century and was only recently carbon-14 dated. It has not been determined how the image was placed on the material. (credit: Butko, Wikimedia Commons)")
+![The figure shows two images of Jesus. Left image is very faint and hardly visible but the right image shows a much clearer picture.](../resources/Figure_31_05_02.jpg 'Part of the Shroud of Turin, which shows a remarkable negative imprint likeness of Jesus complete with evidence of crucifixion wounds. The shroud first surfaced in the 14th century and was only recently carbon-14 dated. It has not been determined how the image was placed on the material. (credit: Butko, Wikimedia Commons)')
 {: #Figure2}
 
 <div class="example" markdown="1">
@@ -243,7 +243,7 @@ the number of radioactive nuclei present in the sample, the more will decay per
 unit of time. The shorter the half-life, the more decays per unit time, for a
 given number of nuclei. So activity $$R $$ should be proportional to the number
 of radioactive nuclei, $$N $$ , and inversely proportional to their half-life,
-$${t}_{1/2} $$ . In fact, your intuition is correct. It can be shown that the
+$${t}\_{1/2} $$ . In fact, your intuition is correct. It can be shown that the
 activity of a source is
 
 <div class="equation" >
@@ -251,7 +251,7 @@ activity of a source is
 </div>
 
 where $$N $$ is the number of radioactive nuclei present, having half-life
-$${t}_{1/2} $$ . This relationship is useful in a variety of calculations, as
+$${t}\_{1/2} $$ . This relationship is useful in a variety of calculations, as
 the next two examples illustrate.
 
 <div class="example" markdown="1">
@@ -347,7 +347,7 @@ released was about 100 million curies.
 
 ### Human and Medical Applications
 
-![A person holding a hand held radiation detector near the Chernobyl reactor.](../resources/Figure_31_05_03.jpg "The Chernobyl reactor. More than 100 people died soon after its meltdown, and there will be thousands of deaths from radiation-induced cancer in the future. While the accident was due to a series of human errors, the cleanup efforts were heroic. Most of the immediate fatalities were firefighters and reactor personnel. (credit: Elena Filatova)")
+![A person holding a hand held radiation detector near the Chernobyl reactor.](../resources/Figure_31_05_03.jpg 'The Chernobyl reactor. More than 100 people died soon after its meltdown, and there will be thousands of deaths from radiation-induced cancer in the future. While the accident was due to a series of human errors, the cleanup efforts were heroic. Most of the immediate fatalities were firefighters and reactor personnel. (credit: Elena Filatova)')
 {: #Figure3}
 
 <div class="example" markdown="1">
@@ -412,7 +412,7 @@ half-life, then to one-fourth its original value in the next half-life, and so
 on. Since $$R=\frac{ 0.693N}{ {t}_{1/2}} $$ , the activity decreases as the
 number of radioactive nuclei decreases. The equation for $$R $$ as a function of
 time is found by combining the equations $$N={N}_{0}{e}^{-\lambda t} $$ and
-$$R=\frac{ 0.693N}{ {t}_{1/2}} $$, yielding
+$$R=\frac{ 0.693N}{ {t}\_{1/2}} $$, yielding
 
 <div class="equation" >
  $$R={R}_{0}{e}^{-\lambda t}\text{,} $$
@@ -438,7 +438,7 @@ Watch alpha particles escape from a polonium nucleus, causing radioactive alpha 
 
 ### Section Summary
 
-* Half-life $${t}_{1/2} $$ is the time in which there is a 50% chance that a
+- Half-life $${t}_{1/2} $$ is the time in which there is a 50% chance that a
   nucleus will decay. The number of nuclei $$N $$ as a function of time is
 
   <div class="equation" >
@@ -452,7 +452,7 @@ Watch alpha particles escape from a polonium nucleus, causing radioactive alpha 
    $$\lambda =\frac{ 0.693}{ {t}_{1/2}}. $$
   </div>
 
-* One of the applications of radioactive decay is radioactive dating, in which
+- One of the applications of radioactive decay is radioactive dating, in which
   the age of a material is determined by the amount of radioactive decay that
   occurs. The rate of decay is called the activity $$R $$ \:
 
@@ -460,25 +460,25 @@ Watch alpha particles escape from a polonium nucleus, causing radioactive alpha 
    $$R=\frac{\Delta N}{\Delta t}. $$
   </div>
 
-* The SI unit for $$R $$ is the becquerel (Bq), defined by
+- The SI unit for $$R $$ is the becquerel (Bq), defined by
 
   <div class="equation" >
    $$1 \text{Bq}=1 \text{decay/s.} $$
   </div>
 
-* $$R $$ is also expressed in terms of curies (Ci), where
+- $$R $$ is also expressed in terms of curies (Ci), where
 
   <div class="equation">
    $$1 \text{Ci}= 3.70 \times 10^{10}  \text{Bq} \text{.}  $$
   </div>
 
-* The activity $$R $$ of a source is related to $$N $$ and $${t}_{1/2} $$ by
+- The activity $$R $$ of a source is related to $$N $$ and $${t}_{1/2} $$ by
 
   <div class="equation" >
    $$R=\frac{ 0.693N}{ {t}_{1/2}}. $$
   </div>
 
-* Since $$N $$ has an exponential behavior as in the equation $$N={N}_
+- Since $$N $$ has an exponential behavior as in the equation $$N={N}_
   {0}{e}^{-\lambda t} $$ , the activity also has an exponential behavior, given
   by
 
@@ -487,7 +487,7 @@ Watch alpha particles escape from a polonium nucleus, causing radioactive alpha 
   </div>
      where
    $${R}_{0} $$ is the activity at
-   $$t=0 $$ . 
+   $$t=0 $$ .
 
 ### Conceptual Questions
 
@@ -829,7 +829,9 @@ piece of uranium ore and assumes it is primordial since its half-life is $$2.3
 \times 10^{7} \text{y} $$ .
 (a) Calculate the amount of $${}^{236}\text{U} $$ that would had to have been on
 Earth when it formed $$4.5 \times 10^{9} \text{y} $$ ago for $$1.0 \mu \text{g}
-$$ to be left today. (b) What is unreasonable about this result? (c) What
+
+$$
+to be left today. (b) What is unreasonable about this result? (c) What
 assumption is responsible?
 
 </div>
@@ -839,7 +841,7 @@ assumption is responsible?
 <div class="problem"  markdown="1">
 **Unreasonable Results**
 
-(a) Repeat [[Exercise 14]](#Exercise14) 
+(a) Repeat [[Exercise 14]](#Exercise14)
 $${}^{234}\text{U} $$ with its $$2.45 \times 10^{5} \text{y} $$ half-life. (b)
 What is unreasonable about this result? (c) What assumption is responsible? (d)
 Where does the $${}^{234}\text{U} $$ come from if it is not primordial?
@@ -899,5 +901,7 @@ rate of decay
 
 curie
 : the activity of 1g of $${}^{226}\text{Ra} $$ , equal to $$ 3.70 \times 10^{10}
-\text{Bq} $$
+\text{Bq}
+$$
+
 </div>
