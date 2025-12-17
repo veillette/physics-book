@@ -296,6 +296,29 @@ conversion factors for some of the more commonly used units of pressure.
 Explain why the fluid reaches equal levels on either side of a manometer if both sides are open to the atmosphere, even if the tubes are of different diameters.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy:**
+Consider that pressure depends on depth, not on the diameter of the tube or volume of fluid above.
+
+**Solution:**
+The fluid reaches equal levels because **pressure in a static fluid depends only on depth, not on the cross-sectional area or volume of fluid above**.
+
+Detailed explanation:
+1. At the bottom of each tube, the pressure must be equal (they're connected)
+2. Pressure at depth $$ h $$ is given by $$ P = P_{\text{atm}} + \rho g h $$
+3. Since atmospheric pressure $$ P_{\text{atm}} $$ is the same above both tubes, the heights must be equal for the pressures at the bottom to match
+4. If one side were higher, it would create greater pressure at the bottom
+5. This pressure difference would push fluid toward the lower side until equilibrium (equal heights) is reached
+
+The tube diameter doesn't appear in the pressure formula because:
+- A wider tube has more fluid above, but spread over a proportionally larger area
+- Pressure = Force/Area, so the effects cancel
+- Only the vertical height matters for pressure
+
+**Discussion:**
+This is related to the hydrostatic paradox. A thin tube of water and a wide lake at the same height exert the same pressure at their bases. This principle is why water towers work regardless of their tank width, and why communicating vessels (like a series of connected containers) always have the same fluid level.
+
+</div>
 </div>
 
 <div class="exercise"  data-element-type="conceptual-questions">
@@ -303,11 +326,68 @@ Explain why the fluid reaches equal levels on either side of a manometer if both
 [[Figure 3]](#Figure3) shows how a common measurement of arterial blood pressure is made. Is there any effect on the measured pressure if the manometer is lowered? What is the effect of raising the arm above the shoulder? What is the effect of placing the cuff on the upper leg with the person standing? Explain your answers in terms of pressure created by the weight of a fluid.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy:**
+Apply the hydrostatic pressure relationship $$ P = \rho g h $$ to understand how changes in height affect blood pressure measurements.
+
+**Solution:**
+
+**If the manometer is lowered:**
+No effect on the measured pressure. The manometer measures the pressure transmitted through the cuff, which depends on the blood pressure at the cuff level, not the manometer position. The manometer tubing contains air (or flexible hydraulic connection), and lowering it doesn't change the pressure being transmitted.
+
+**Raising the arm above the shoulder:**
+The measured blood pressure will be **lower** than at heart level. Blood must be pumped upward against gravity to reach the elevated arm. The pressure decrease is:
+$$ \Delta P = \rho_{\text{blood}} g h $$
+
+For arm raised 30 cm above heart:
+$$ \Delta P \approx (1050 \text{ kg/m}^3)(9.8 \text{ m/s}^2)(0.30 \text{ m}) \approx 3100 \text{ Pa} \approx 23 \text{ mm Hg} $$
+
+So blood pressure might read ~97/57 instead of 120/80.
+
+**Placing cuff on upper leg while standing:**
+The measured blood pressure will be **higher** than at heart level. The leg is below the heart, so blood pressure is augmented by the hydrostatic pressure of the blood column above:
+$$ P_{\text{leg}} = P_{\text{heart}} + \rho_{\text{blood}} g h $$
+
+For leg ~80 cm below heart:
+$$ \Delta P \approx (1050)(9.8)(0.80) \approx 8200 \text{ Pa} \approx 62 \text{ mm Hg} $$
+
+Blood pressure might read ~182/142 instead of 120/80.
+
+**Discussion:**
+This is why standard blood pressure measurement protocol specifies that the cuff should be at heart level. Variations in measurement position explain why some people have different readings at different clinics, and why patients are asked to keep their arm at heart level during measurement. These effects are purely hydrostatic and don't indicate any cardiovascular problem.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 Considering the magnitude of typical arterial blood pressures, why are mercury rather than water manometers used for these measurements?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Compare the column heights required for mercury versus water manometers for typical blood pressure values.
+
+**Solution:**
+Mercury manometers are used because **mercury's high density (13.6 times that of water) produces a much shorter, more practical column height for typical blood pressures**.
+
+Comparison for systolic pressure of 120 mm Hg:
+
+*Mercury manometer:*
+$$ h_{\text{Hg}} = 120 \text{ mm} = 12.0 \text{ cm} $$
+
+*Water manometer:*
+Since $$ P = \rho g h $$ and the same pressure requires:
+$$ h_{\text{water}} = h_{\text{Hg}} \times \frac{\rho_{\text{Hg}}}{\rho_{\text{water}}} = 120 \text{ mm} \times 13.6 = 1632 \text{ mm} \approx 163 \text{ cm} $$
+
+A water manometer would need to be about **1.6 meters (5.4 feet) tall** to measure normal blood pressure!
+
+For the extreme case (300 mm Hg):
+- Mercury: 30 cm (manageable)
+- Water: 408 cm = 4.08 m (completely impractical)
+
+**Discussion:**
+The 12-cm mercury column is compact and easily readable on a desk-mounted device. A 163-cm water column would require a floor-to-ceiling installation, making it impractical for clinical use. Additionally, mercury doesn't evaporate significantly at room temperature (unlike water), ensuring accurate readings. While mercury's toxicity has led to its phase-out in many clinical settings in favor of digital devices, the principle explains why mercury was historically the standard.
 
 </div>
 </div>
@@ -341,6 +421,49 @@ $$\begin{array}{lll}{P}_{\text{g}}& =& -50.0 \text{mm Hg}\text{,}\\ {P}_
  rather than a conversion factor. (b) Discuss why blood pressures for an infant could be smaller than those for an adult. Specifically, consider the smaller height to which blood must be pumped.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy:**
+Use $$ P = h \rho g $$ with the density of mercury and the given heights in mm Hg. For part (b), consider the hydrostatic pressure requirements for circulation.
+
+**Solution:**
+
+**(a) Conversion using $$ P = h \rho g $$:**
+
+Given:
+- $$ \rho_{\text{Hg}} = 13.6 \times 10^3 \text{ kg/m}^3 $$
+- $$ g = 9.80 \text{ m/s}^2 $$
+
+For systolic pressure (120 mm Hg):
+$$ h = 120 \text{ mm} = 0.120 \text{ m} $$
+
+$$ P_{\text{systolic}} = h \rho g = (0.120 \text{ m})(13.6 \times 10^3 \text{ kg/m}^3)(9.80 \text{ m/s}^2) $$
+
+$$ P_{\text{systolic}} = 1.60 \times 10^4 \text{ N/m}^2 = 16.0 \text{ kPa} $$
+
+For diastolic pressure (80 mm Hg):
+$$ h = 80 \text{ mm} = 0.080 \text{ m} $$
+
+$$ P_{\text{diastolic}} = (0.080 \text{ m})(13.6 \times 10^3 \text{ kg/m}^3)(9.80 \text{ m/s}^2) $$
+
+$$ P_{\text{diastolic}} = 1.07 \times 10^4 \text{ N/m}^2 = 10.7 \text{ kPa} $$
+
+Normal blood pressure: **16.0 kPa / 10.7 kPa** (or 16,000 Pa / 10,700 Pa)
+
+**(b) Why infant blood pressures are lower:**
+
+Infant blood pressures are typically 60-90/40-60 mm Hg, significantly lower than adults. The primary reason related to fluid mechanics:
+
+1. **Shorter pumping height:** The heart must pump blood to the brain against gravity. From $$ P = \rho g h $$, less height means less pressure required:
+   - Adult: heart to brain ≈ 35-40 cm
+   - Infant: heart to brain ≈ 10-15 cm
+   - Pressure difference: roughly 3× less height = 3× less hydrostatic requirement
+
+2. **Smaller vessel resistance:** Infants have shorter circulatory pathways, requiring less pressure to overcome viscous losses.
+
+**Discussion:**
+The answers are **16.0 kPa (systolic) and 10.7 kPa (diastolic)**. These pressures, while seeming moderate, are sufficient to circulate blood throughout the body. An infant's much smaller body means blood needs to be pumped much shorter distances, both vertically (against gravity) and horizontally (through shorter vessels), explaining their lower blood pressure requirements.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -360,6 +483,34 @@ Pressure cookers have been around for more than 300 years, although their use ha
  in diameter and the gauge pressure inside is 300 atm? Neglect the weight of the lid.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy:**
+Calculate the area of the circular lid, convert gauge pressure to pascals, then use $$ F = PA $$ to find the force.
+
+**Solution:**
+
+*Note: The problem states 300 atm, but typical pressure cookers operate at about 1-2 atm gauge pressure. We'll solve with the given value, though this seems unusually high.*
+
+*Step 1: Calculate the lid area*
+
+Diameter = 25.0 cm, so radius $$ r = 12.5 \text{ cm} = 0.125 \text{ m} $$
+
+$$ A = \pi r^2 = \pi (0.125 \text{ m})^2 = 0.0491 \text{ m}^2 $$
+
+*Step 2: Convert gauge pressure to pascals*
+
+$$ P_g = 300 \text{ atm} \times 1.01 \times 10^5 \text{ Pa/atm} = 3.03 \times 10^7 \text{ Pa} $$
+
+*Step 3: Calculate the force*
+
+$$ F = P_g \times A = (3.03 \times 10^7 \text{ Pa})(0.0491 \text{ m}^2) $$
+
+$$ F = 1.49 \times 10^6 \text{ N} $$
+
+**Discussion:**
+The latches must withstand approximately **1.49 × 10⁶ N** (about 335,000 pounds or 150 tons of force!). This explains why early pressure cookers were dangerous—if the latches or seals failed under such enormous force, the lid would become a deadly projectile. Modern pressure cookers typically operate at only 1-2 atm gauge pressure (force ~5,000-10,000 N), with multiple safety mechanisms. The given 300 atm would represent an extreme industrial application, not a kitchen device. Note that atmospheric pressure acts on the outside of the lid as well, so only the *gauge* pressure contributes to the net outward force.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -375,6 +526,43 @@ Suppose you measure a standing person’s blood pressure by placing the cuff on 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A submarine is stranded on the bottom of the ocean with its hatch 25.0 m below the surface. Calculate the force needed to open the hatch from the inside, given it is circular and 0.450 m in diameter. Air pressure inside the submarine is 1.00 atm.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Calculate the water pressure at depth 25.0 m, find the pressure difference between outside (water) and inside (1 atm air), then calculate the net force on the hatch.
+
+**Solution:**
+
+*Step 1: Calculate the water pressure at 25.0 m depth*
+
+Absolute pressure at depth:
+$$ P_{\text{water}} = P_{\text{atm}} + \rho_{\text{seawater}} g h $$
+
+Using $$ \rho_{\text{seawater}} = 1.025 \times 10^3 \text{ kg/m}^3 $$:
+
+$$ P_{\text{water}} = 1.01 \times 10^5 \text{ Pa} + (1.025 \times 10^3 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(25.0 \text{ m}) $$
+
+$$ P_{\text{water}} = 1.01 \times 10^5 + 2.51 \times 10^5 = 3.52 \times 10^5 \text{ Pa} $$
+
+*Step 2: Calculate the pressure difference*
+
+$$ \Delta P = P_{\text{outside}} - P_{\text{inside}} = 3.52 \times 10^5 - 1.01 \times 10^5 = 2.51 \times 10^5 \text{ Pa} $$
+
+*Step 3: Calculate the hatch area*
+
+Diameter = 0.450 m, radius = 0.225 m
+
+$$ A = \pi r^2 = \pi (0.225 \text{ m})^2 = 0.159 \text{ m}^2 $$
+
+*Step 4: Calculate the net force*
+
+$$ F = \Delta P \times A = (2.51 \times 10^5 \text{ Pa})(0.159 \text{ m}^2) $$
+
+$$ F = 3.99 \times 10^4 \text{ N} \approx 4.0 \times 10^4 \text{ N} $$
+
+**Discussion:**
+The force needed to open the hatch from inside is approximately **4.0 × 10⁴ N** (about 9,000 pounds or 4.5 tons). This is humanly impossible to achieve by pushing! This is why submarines that sink with intact hulls cannot simply open their hatches to escape—the water pressure is too great. Rescue operations require either pressurizing the submarine interior to match external pressure, or using escape capsules. The atmospheric pressure inside cancels part of the water pressure, but the hydrostatic pressure from 25 m of water ($$ \rho g h = 2.51 \times 10^5 \text{ Pa} $$ ≈ 2.5 atm) still creates an enormous net inward force.
 
 </div>
 </div>
