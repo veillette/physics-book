@@ -482,13 +482,20 @@ Prerequisites:
 /**
  * Check if Jekyll server is running
  */
-async function checkServer(baseUrl) {
-  try {
-    const response = await fetch(baseUrl);
-    return response.ok;
-  } catch (_e) {
-    return false;
+async function checkServer(baseUrl, retries = 5, delay = 2000) {
+  for (let i = 0; i < retries; i++) {
+    try {
+      const response = await fetch(baseUrl);
+      if (response.ok || response.status === 404) { // 404 is also a sign of a running server
+        return true;
+      }
+    } catch (_e) {
+      // Ignore connection errors and retry
+    }
+    console.log(`  Server not ready, retrying in ${delay / 1000}s... (${i + 1}/${retries})`);
+    await new Promise(res => setTimeout(res, delay));
   }
+  return false;
 }
 
 /**
