@@ -10,10 +10,10 @@
  * Output: search_index.json in the _site directory
  */
 
-import { glob } from 'glob';
-import * as cheerio from 'cheerio';
 import { readFileSync, writeFileSync } from 'fs';
 import { join, relative } from 'path';
+import { glob } from 'glob';
+import * as cheerio from 'cheerio';
 import MiniSearch from 'minisearch';
 
 const SITE_DIR = '_site';
@@ -66,16 +66,16 @@ for (const filePath of htmlFiles) {
     // Generate URL path relative to site
     let url = relative(SITE_DIR, filePath);
     // Ensure URL starts with /
-    url = BASE_URL + url;
+    url = `${BASE_URL}${url}`;
 
     // Create document for index
     documents.push({
       id: docId++,
-      title: title,
+      title,
       content: content.substring(0, 5000), // Limit content size
-      url: url,
+      url,
       // Extract first 200 chars for preview
-      preview: content.substring(0, 200).trim() + '...'
+      preview: `${content.substring(0, 200).trim()}...`
     });
 
     console.log(`Indexed: ${title} (${url})`);

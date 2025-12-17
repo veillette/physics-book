@@ -15,6 +15,7 @@ export default [
       'package-lock.json',
       'summary.json',
       'assets/**/*.js', // Ignore frontend JS that may have different requirements
+      'sw.js', // Service worker has Jekyll front matter
     ],
   },
 
