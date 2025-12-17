@@ -322,11 +322,63 @@ weight of the water it holds back.
 Approximately how does the density of air vary with altitude?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy:**
+We need to consider how atmospheric pressure and temperature change with altitude, and how these affect air density through the ideal gas law.
+
+**Solution:**
+**The density of air decreases approximately exponentially with increasing altitude.**
+
+This occurs because:
+1. Air pressure decreases with altitude as there is less atmosphere above to exert weight
+2. The ideal gas law relates density to pressure: $$ \rho = \frac{PM}{RT} $$ where $$ P $$ is pressure, $$ M $$ is molar mass, $$ R $$ is the gas constant, and $$ T $$ is temperature
+3. As pressure drops with altitude, density proportionally decreases
+
+Approximate values:
+- Sea level: $$ \rho \approx 1.29 \text{ kg/m}^3 $$
+- 5,500 m (18,000 ft): $$ \rho \approx 0.65 \text{ kg/m}^3 $$ (about half)
+- 8,850 m (Mt. Everest): $$ \rho \approx 0.43 \text{ kg/m}^3 $$ (about one-third)
+
+**Discussion:**
+This exponential decrease has significant practical implications: aircraft engines produce less thrust at high altitude due to lower air density, climbers on high mountains need supplemental oxygen because fewer oxygen molecules are available per breath, and cooking takes longer at high altitude because water boils at lower temperatures due to reduced pressure.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 Give an example in which density is used to identify the substance composing an object. Would information in addition to average density be needed to identify the substances in an object composed of more than one material?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Consider practical applications where measuring density helps identify materials, and analyze what additional information would be needed for composite materials.
+
+**Solution:**
+**Example: Testing gold jewelry for authenticity**
+
+A jeweler can determine if a piece of jewelry is solid gold by measuring its density:
+1. Measure the mass using a precise balance
+2. Measure the volume by water displacement (Archimedes' method)
+3. Calculate density: $$ \rho = m/V $$
+4. Compare to known gold density ($$ 19.32 \text{ g/cm}^3 $$)
+
+If the measured density matches gold's known density, the object is likely pure gold. If significantly different, it may be gold-plated or a gold alloy.
+
+**For objects composed of multiple materials: Yes, additional information is needed.**
+
+Average density alone cannot uniquely identify a mixture because:
+- Different combinations can yield the same average density
+- A mixture of lead ($$ \rho = 11.3 \text{ g/cm}^3 $$) and aluminum ($$ \rho = 2.7 \text{ g/cm}^3 $$) could have the same average density as pure iron ($$ \rho = 7.8 \text{ g/cm}^3 $$)
+
+Additional information needed might include:
+- Visual inspection or sectioning to identify components
+- Chemical analysis or spectroscopy
+- X-ray imaging to reveal internal structure
+- Melting point or other physical property measurements
+
+**Discussion:**
+Density measurements remain valuable for quality control and authenticity testing in many industries, from precious metals to food products. For example, the dairy industry uses density to detect watered-down milk, and petroleum refiners use density to characterize crude oil grades.
 
 </div>
 </div>
@@ -337,6 +389,33 @@ Give an example in which density is used to identify the substance composing an 
 
 ![A glass filled to the brim with water and ice cubes.](../resources/Figure_11_02_03.jpg " ")
 {: #Figure3}
+
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Apply Archimedes' principle: a floating object displaces a volume of water equal to its own weight. Compare the volume of water displaced by floating ice to the volume of water produced when the ice melts.
+
+**Solution:**
+**No, the water will not overflow when the ice melts.**
+
+Here's why:
+1. **Floating ice displaces water equal to its weight.** By Archimedes' principle, the buoyant force equals the weight of displaced water. For floating equilibrium:
+   $$ \rho_{\text{water}} \cdot V_{\text{displaced}} \cdot g = \rho_{\text{ice}} \cdot V_{\text{ice}} \cdot g $$
+
+2. **Volume displaced by floating ice:**
+   $$ V_{\text{displaced}} = \frac{\rho_{\text{ice}}}{\rho_{\text{water}}} \cdot V_{\text{ice}} $$
+
+3. **Mass of ice equals mass of water it becomes:**
+   $$ m_{\text{ice}} = m_{\text{water produced}} $$
+   $$ \rho_{\text{ice}} \cdot V_{\text{ice}} = \rho_{\text{water}} \cdot V_{\text{water produced}} $$
+
+4. **Volume of water produced when ice melts:**
+   $$ V_{\text{water produced}} = \frac{\rho_{\text{ice}}}{\rho_{\text{water}}} \cdot V_{\text{ice}} $$
+
+5. **These are equal!** The volume of water produced by melting ice exactly equals the volume the ice displaced while floating.
+
+**Discussion:**
+This elegant result explains why melting icebergs and sea ice (ice floating in the ocean) do not directly raise sea levels. However, melting glaciers and ice sheets on land *do* raise sea levels because that ice wasn't previously displacing ocean water. The density of ice ($$ 0.917 \text{ g/cm}^3 $$) being less than water ($$ 1.000 \text{ g/cm}^3 $$) is also why ice floats in the first place—an unusual property that allows aquatic life to survive under frozen lakes.
 
 </div>
 </div>
@@ -357,6 +436,29 @@ Gold is sold by the troy ounce (31.103 g). What is the volume of 1 troy ounce of
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Mercury is commonly supplied in flasks containing 34.5 kg (about 76 lb). What is the volume in liters of this much mercury?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Use the definition of density $$ \rho = m/V $$ to solve for volume. Look up the density of mercury from Table 1.
+
+**Solution:**
+From Table 1, the density of mercury is:
+$$ \rho_{\text{Hg}} = 13.6 \times 10^3 \text{ kg/m}^3 $$
+
+Solving the density equation for volume:
+$$ V = \frac{m}{\rho} $$
+
+Substituting values:
+$$ V = \frac{34.5 \text{ kg}}{13.6 \times 10^3 \text{ kg/m}^3} $$
+
+$$ V = 2.54 \times 10^{-3} \text{ m}^3 $$
+
+Converting to liters ($$ 1 \text{ m}^3 = 1000 \text{ L} $$):
+$$ V = 2.54 \times 10^{-3} \text{ m}^3 \times \frac{1000 \text{ L}}{1 \text{ m}^3} = 2.54 \text{ L} $$
+
+**Discussion:**
+The volume of 34.5 kg of mercury is approximately **2.54 liters**. This is a surprisingly small volume for such a large mass—about the size of a large soda bottle. This illustrates mercury's extremely high density (13.6 times denser than water). The high density of mercury is why it was historically used in barometers and thermometers, as small volumes could provide significant measurable changes in height. The result is reasonable: mercury is one of the densest common liquids, so we expect a small volume for a given mass.
 
 </div>
 </div>
@@ -393,6 +495,39 @@ A straightforward method of finding the density of an object is to measure its m
 Suppose you have a coffee mug with a circular cross section and vertical sides (uniform radius). What is its inside radius if it holds 375 g of coffee when filled to a depth of 7.50 cm? Assume coffee has the same density as water.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy:**
+First find the volume of coffee using density, then use the volume formula for a cylinder to solve for the radius.
+
+**Solution:**
+*Step 1: Find the volume of coffee*
+
+Using density to find volume (with $$ \rho_{\text{water}} = 1.00 \text{ g/cm}^3 $$):
+$$ V = \frac{m}{\rho} = \frac{375 \text{ g}}{1.00 \text{ g/cm}^3} = 375 \text{ cm}^3 $$
+
+*Step 2: Use the cylinder volume formula to find radius*
+
+For a cylinder with circular cross section:
+$$ V = \pi r^2 h $$
+
+Solving for radius:
+$$ r^2 = \frac{V}{\pi h} $$
+
+$$ r = \sqrt{\frac{V}{\pi h}} $$
+
+Substituting values (with $$ h = 7.50 \text{ cm} $$):
+$$ r = \sqrt{\frac{375 \text{ cm}^3}{\pi \times 7.50 \text{ cm}}} $$
+
+$$ r = \sqrt{\frac{375 \text{ cm}^3}{23.56 \text{ cm}}} $$
+
+$$ r = \sqrt{15.92 \text{ cm}^2} $$
+
+$$ r = 3.99 \text{ cm} \approx 4.0 \text{ cm} $$
+
+**Discussion:**
+The inside radius of the coffee mug is approximately **4.0 cm** (or about 1.6 inches in diameter = 3.2 inches). This is a reasonable size for a typical coffee mug. The calculation confirms the geometry is sensible: a mug about 8 cm (3.2 inches) in inside diameter and 7.5 cm deep would hold about 375 mL of coffee, which is a typical large cup of coffee.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -411,6 +546,27 @@ Suppose you have a coffee mug with a circular cross section and vertical sides (
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A trash compactor can reduce the volume of its contents to 0.350 their original value. Neglecting the mass of air expelled, by what factor is the density of the rubbish increased?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Since mass is conserved (neglecting expelled air), use the density formula $$ \rho = m/V $$ to find how density changes when volume decreases.
+
+**Solution:**
+Let the original density be $$ \rho_0 $$ with original volume $$ V_0 $$ and mass $$ m $$:
+$$ \rho_0 = \frac{m}{V_0} $$
+
+After compaction, the new volume is:
+$$ V_{\text{new}} = 0.350 \cdot V_0 $$
+
+The new density (with mass unchanged) is:
+$$ \rho_{\text{new}} = \frac{m}{V_{\text{new}}} = \frac{m}{0.350 \cdot V_0} $$
+
+The ratio of new density to original density:
+$$ \frac{\rho_{\text{new}}}{\rho_0} = \frac{m/(0.350 \cdot V_0)}{m/V_0} = \frac{1}{0.350} = 2.86 $$
+
+**Discussion:**
+The density of the compacted rubbish is increased by a factor of approximately **2.86** (or about 2.9). This makes physical sense: if the volume is reduced to about one-third while mass stays constant, the density must roughly triple. Trash compactors are effective because they reduce waste volume significantly, allowing more trash to fit in the same container or landfill space. The expelled air has negligible mass compared to the solid waste, making our assumption reasonable.
 
 </div>
 </div>
