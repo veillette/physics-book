@@ -850,6 +850,27 @@ The pressure reading at 700 km/h is **184 mm Hg**. The velocity increased by a f
 Calculate the maximum height to which water could be squirted with the hose in [[Example 2]](../contents/ch12FlowRateAndItsRelationsToVelocity#Example2) example if it: (a) Emerges from the nozzle. (b) Emerges with the nozzle removed, assuming the same flow rate.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use energy conservation (Bernoulli's equation). At the maximum height, all kinetic energy is converted to gravitational potential energy. From Example 2 in the previous section, the nozzle velocity is 25.5 m/s and the hose velocity is 1.96 m/s.
+
+**Solution**
+
+At maximum height, all kinetic energy converts to potential energy:
+$$\frac{1}{2}v^2 = gh_{max}$$
+$$h_{max} = \frac{v^2}{2g}$$
+
+**(a)** With nozzle (v = 25.5 m/s):
+$$h_{max} = \frac{(25.5 \text{ m/s})^2}{2(9.80 \text{ m/s}^2)} = \frac{650.25}{19.6} = 33.2 \text{ m}$$
+
+**(b)** Without nozzle (v = 1.96 m/s):
+$$h_{max} = \frac{(1.96 \text{ m/s})^2}{2(9.80 \text{ m/s}^2)} = \frac{3.84}{19.6} = 0.196 \text{ m} \approx 0.20 \text{ m}$$
+
+**Discussion**
+
+Water from the nozzle can reach a maximum height of **(a) 33.2 m** (about 109 feet), while without the nozzle it can only reach **(b) 0.20 m** (about 8 inches). The nozzle increases the exit velocity by a factor of 13, which increases the maximum height by a factor of 13² ≈ 169. This dramatic difference demonstrates why fire hoses use nozzles to reach upper floors of buildings.
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -857,19 +878,75 @@ Calculate the maximum height to which water could be squirted with the hose in [
 Every few years, winds in Boulder, Colorado, attain sustained speeds of 45.0 m/s (about 100 mi/h) when the jet stream descends during early spring. Approximately what is the force due to the Bernoulli effect on a roof having an area of  $$220 {\text{m}}^{2} $$ ?
  Typical air density in Boulder is  $$1.14 {\text{kg/m}}^{3} $$ ,
  and the corresponding atmospheric pressure is  $$ 8.89 \times 10^{4}  {\text{N/m}}^{2} $$ .
- (Bernoulli’s principle as stated in the text assumes laminar flow. Using the principle here produces only an approximate result, because there is significant turbulence.)
+ (Bernoulli's principle as stated in the text assumes laminar flow. Using the principle here produces only an approximate result, because there is significant turbulence.)
 
 </div>
 <div class="solution" markdown="1">
- $$ 2.54 \times 10^{5}  \text{N} $$
+**Strategy**
+
+We apply Bernoulli's principle comparing the fast-moving air above the roof to the still air inside the building. The pressure difference creates an upward force on the roof.
+
+**Solution**
+
+Given:
+- Wind speed: $$v = 45.0 \text{ m/s}$$
+- Roof area: $$A = 220 \text{ m}^2$$
+- Air density: $$\rho = 1.14 \text{ kg/m}^3$$
+
+Using Bernoulli's principle, the pressure difference is:
+$$\Delta P = \frac{1}{2}\rho v^2 = \frac{1}{2}(1.14 \text{ kg/m}^3)(45.0 \text{ m/s})^2$$
+
+$$\Delta P = \frac{1}{2}(1.14)(2025) = 1154 \text{ N/m}^2 \approx 1.15 \text{ kPa}$$
+
+The upward force on the roof is:
+$$F = \Delta P \times A = (1154 \text{ N/m}^2)(220 \text{ m}^2) = 2.54 \times 10^5 \text{ N}$$
+
+**Discussion**
+
+The force due to the Bernoulli effect on the roof is approximately **2.54 × 10⁵ N** (about 57,000 pounds or 28.5 tons). This enormous upward force explains why roofs can be lifted off buildings during high-wind events. Since this force exceeds the weight of many residential roofs, proper anchoring is essential in areas prone to severe winds. Note that this is an approximation since real wind flow involves significant turbulence.
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) Calculate the approximate force on a square meter of sail, given the horizontal velocity of the wind is 6.00 m/s parallel to its front surface and 3.50 m/s along its back surface. Take the density of air to be  $$1.29 \text{kg}{\text{/m}}^{3} $$ .
- (The calculation, based on Bernoulli’s principle, is approximate due to the effects of turbulence.) (b) Discuss whether this force is great enough to be effective for propelling a sailboat.
+ (The calculation, based on Bernoulli's principle, is approximate due to the effects of turbulence.) (b) Discuss whether this force is great enough to be effective for propelling a sailboat.
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We apply Bernoulli's principle to find the pressure difference between the front and back surfaces of the sail, then calculate the resulting force.
+
+**Solution**
+
+Given:
+- Front surface wind speed: $$v_f = 6.00 \text{ m/s}$$
+- Back surface wind speed: $$v_b = 3.50 \text{ m/s}$$
+- Air density: $$\rho = 1.29 \text{ kg/m}^3$$
+- Area: $$A = 1.00 \text{ m}^2$$
+
+**(a)** Using Bernoulli's principle:
+$$P_f + \frac{1}{2}\rho v_f^2 = P_b + \frac{1}{2}\rho v_b^2$$
+
+The pressure difference is:
+$$\Delta P = P_b - P_f = \frac{1}{2}\rho(v_f^2 - v_b^2)$$
+
+$$\Delta P = \frac{1}{2}(1.29 \text{ kg/m}^3)[(6.00 \text{ m/s})^2 - (3.50 \text{ m/s})^2]$$
+
+$$\Delta P = \frac{1}{2}(1.29)(36.0 - 12.25) = \frac{1}{2}(1.29)(23.75) = 15.3 \text{ N/m}^2$$
+
+Force per square meter:
+$$F = \Delta P \times A = 15.3 \text{ N/m}^2 \times 1.00 \text{ m}^2 = 15.3 \text{ N}$$
+
+**(b)** For a typical small sailboat with 15-20 m² of sail area:
+$$F_{total} = 15.3 \text{ N/m}^2 \times 20 \text{ m}^2 = 306 \text{ N}$$
+
+This force of about 300 N (68 pounds) is certainly sufficient to propel a small sailboat. Even accounting for the fact that not all this force acts in the desired direction (component resolution is needed), a significant forward thrust remains. Combined with the low resistance of a well-designed hull moving through water, this force can produce sailing speeds of several meters per second.
+
+**Discussion**
+
+The force on a square meter of sail is approximately **(a) 15.3 N**. **(b)** Yes, this force is effective for propelling a sailboat. A typical sail of 15-20 m² would experience about 230-310 N of force, which is adequate for moving a small boat efficiently through water where drag forces are relatively low.
 </div>
 </div>
 
@@ -879,15 +956,48 @@ Every few years, winds in Boulder, Colorado, attain sustained speeds of 45.0 m/s
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 1.58 \times 10^{6}  {\text{N/m}}^{2} $$
-(b) 163 m
+**Strategy**
 
+(a) We first calculate the velocities in the hose and nozzle using continuity, then apply Bernoulli's equation to find the pressure drop.
+(b) We use energy conservation to find the maximum height from the nozzle exit velocity.
+
+**Solution**
+
+Given:
+- Hose diameter: $$d_1 = 9.00 \text{ cm} = 0.0900 \text{ m}$$
+- Nozzle diameter: $$d_2 = 3.00 \text{ cm} = 0.0300 \text{ m}$$
+- Flow rate: $$Q = 40.0 \text{ L/s} = 0.0400 \text{ m}^3/\text{s}$$
+- Water density: $$\rho = 1000 \text{ kg/m}^3$$
+
+**(a)** Calculate velocities:
+$$A_1 = \pi r_1^2 = \pi (0.0450 \text{ m})^2 = 6.36 \times 10^{-3} \text{ m}^2$$
+$$A_2 = \pi r_2^2 = \pi (0.0150 \text{ m})^2 = 7.07 \times 10^{-4} \text{ m}^2$$
+
+$$v_1 = \frac{Q}{A_1} = \frac{0.0400 \text{ m}^3/\text{s}}{6.36 \times 10^{-3} \text{ m}^2} = 6.29 \text{ m/s}$$
+
+$$v_2 = \frac{Q}{A_2} = \frac{0.0400 \text{ m}^3/\text{s}}{7.07 \times 10^{-4} \text{ m}^2} = 56.6 \text{ m/s}$$
+
+Apply Bernoulli's equation (at same height):
+$$P_1 + \frac{1}{2}\rho v_1^2 = P_2 + \frac{1}{2}\rho v_2^2$$
+
+$$\Delta P = P_1 - P_2 = \frac{1}{2}\rho(v_2^2 - v_1^2)$$
+
+$$\Delta P = \frac{1}{2}(1000 \text{ kg/m}^3)[(56.6)^2 - (6.29)^2] \text{ m}^2/\text{s}^2$$
+
+$$\Delta P = \frac{1}{2}(1000)(3204 - 39.6) = \frac{1}{2}(1000)(3164) = 1.58 \times 10^6 \text{ N/m}^2$$
+
+**(b)** Maximum height from nozzle exit velocity:
+$$h_{max} = \frac{v_2^2}{2g} = \frac{(56.6 \text{ m/s})^2}{2(9.80 \text{ m/s}^2)} = \frac{3204}{19.6} = 163 \text{ m}$$
+
+**Discussion**
+
+The pressure drop is **(a) 1.58 × 10⁶ N/m²** (about 16 atmospheres), and the water can theoretically rise to **(b) 163 m** (535 feet). This remarkable height explains why fire hoses can reach the upper floors of tall buildings. In practice, air resistance significantly reduces this height, but the calculation shows the tremendous energy available from the high-pressure water supply.
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) Using Bernoulli’s equation, show that the measured fluid speed $$v $$ for a pitot tube, like the one in [[Figure 3]](#Figure3)(b), is given by
+(a) Using Bernoulli's equation, show that the measured fluid speed $$v $$ for a pitot tube, like the one in [[Figure 3]](#Figure3)(b), is given by
 
 <div class="equation" >
  $$v={\left(\frac{2\rho^{\prime} gh}{\rho }\right)}^{1/2}, $$
@@ -895,8 +1005,57 @@ Every few years, winds in Boulder, Colorado, attain sustained speeds of 45.0 m/s
 where  $$h $$
  is the height of the manometer fluid,  $$\rho^{\prime}  $$
  is the density of the manometer fluid,  $$\rho  $$
- is the density of the moving fluid, and   $$g $$ is the acceleration due to gravity. (Note that   $$v $$ is indeed proportional to the square root of   $$h $$, as stated in the text.) (b) Calculate  $$v $$  for moving air if a mercury manometer’s  $$h $$  is 0.200 m.
+ is the density of the moving fluid, and   $$g $$ is the acceleration due to gravity. (Note that   $$v $$ is indeed proportional to the square root of   $$h $$, as stated in the text.) (b) Calculate  $$v $$  for moving air if a mercury manometer's  $$h $$  is 0.200 m.
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+(a) We apply Bernoulli's equation at two points: one where flow is stagnant ($$v_1 = 0$$) and one where flow has velocity $$v$$. The pressure difference is measured by the manometer.
+(b) We substitute known values for air and mercury to calculate the velocity.
+
+**Solution**
+
+**(a)** Derivation:
+
+At point 1 (stagnation point, where flow stops): $$v_1 = 0$$
+At point 2 (in the moving flow): $$v_2 = v$$
+
+Applying Bernoulli's equation at the same height:
+$$P_1 + \frac{1}{2}\rho v_1^2 = P_2 + \frac{1}{2}\rho v_2^2$$
+
+$$P_1 + 0 = P_2 + \frac{1}{2}\rho v^2$$
+
+$$P_1 - P_2 = \frac{1}{2}\rho v^2$$
+
+The manometer measures this pressure difference. For a column of manometer fluid of height $$h$$:
+$$P_1 - P_2 = \rho' g h$$
+
+where $$\rho'$$ is the density of the manometer fluid.
+
+Setting these equal:
+$$\rho' g h = \frac{1}{2}\rho v^2$$
+
+Solving for $$v$$:
+$$v^2 = \frac{2\rho' g h}{\rho}$$
+
+$$v = \sqrt{\frac{2\rho' g h}{\rho}} = \left(\frac{2\rho' g h}{\rho}\right)^{1/2}$$
+
+**(b)** Calculate velocity for air with mercury manometer:
+
+Given:
+- $$h = 0.200 \text{ m}$$
+- $$\rho' = 13,600 \text{ kg/m}^3$$ (mercury density)
+- $$\rho = 1.29 \text{ kg/m}^3$$ (air density at STP)
+- $$g = 9.80 \text{ m/s}^2$$
+
+$$v = \sqrt{\frac{2(13,600 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(0.200 \text{ m})}{1.29 \text{ kg/m}^3}}$$
+
+$$v = \sqrt{\frac{53,312}{1.29}} = \sqrt{41,327} = 203 \text{ m/s}$$
+
+**Discussion**
+
+**(a)** The derivation shows that velocity is proportional to $$\sqrt{h}$$, confirming the text's statement. **(b)** For a 0.200 m mercury column, the air velocity is approximately **203 m/s** (about 730 km/h or Mach 0.59). This high velocity is reasonable since mercury is very dense compared to air (ratio of about 10,500:1), so even a small column of mercury corresponds to a large dynamic pressure from high-speed air.
 </div>
 </div>
 
