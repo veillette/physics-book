@@ -43,11 +43,20 @@ npm run test:ci                  # CI-optimized with longer timeouts
 
 ### check-orphans.js
 
-Detects unreferenced files in `assets/` and `resources/` directories.
+Detects unreferenced files in `assets/` and `resources/` directories by scanning all content and template files for references.
+
+This script scans for file paths in:
+- Markdown (`.md`)
+- HTML (`.html`) - for Jekyll templates and includes
+- CSS (`.css`) - for `url()` references
+- JavaScript (`.js`) - for string literals containing paths
+- JSON (`.json`) - for paths in configuration or manifest files
+
+This ensures that even files referenced in templates or stylesheets are correctly identified.
 
 ```bash
 npm run check-orphans            # Report orphaned files
-npm run check-orphans:cleanup    # Generate cleanup script
+npm run check-orphans:cleanup    # Generate a cleanup shell script (cleanup-orphans.sh)
 ```
 
 ### check-figures.js
