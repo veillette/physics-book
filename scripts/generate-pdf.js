@@ -165,15 +165,63 @@ async function injectPrintStyles(page) {
           page-break-inside: avoid;
         }
 
-        img, figure {
+        /* Make images smaller and better integrated with text */
+        img {
+          max-width: 65% !important;
+          max-height: 4in !important;
+          height: auto !important;
+          width: auto !important;
+          display: block;
+          margin: 10px auto !important;
+          page-break-inside: avoid;
+          object-fit: contain !important;
+        }
+
+        figure {
+          max-width: 65% !important;
+          max-height: 4.5in !important;
+          margin: 10px auto !important;
           page-break-inside: avoid;
           page-break-after: avoid;
+        }
+
+        figure img {
           max-width: 100% !important;
+          max-height: 4in !important;
+          margin: 0 auto !important;
+          object-fit: contain !important;
+        }
+
+        /* Very small images can be even smaller */
+        img[width], img[height] {
+          max-width: 50% !important;
+          max-height: 3in !important;
         }
 
         /* Ensure equations don't break */
         .MathJax, .MathJax_Display, mjx-container {
           page-break-inside: avoid !important;
+        }
+
+        /* Scale down math to match text better */
+        mjx-container,
+        mjx-container[display="true"],
+        mjx-container[display="false"],
+        .MathJax,
+        .MathJax_Display,
+        .math,
+        .katex,
+        .katex-display {
+          font-size: 0.95em !important;
+        }
+
+        /* Inline math should be even smaller */
+        mjx-container[display="false"],
+        .MathJax:not(.MathJax_Display),
+        .katex:not(.katex-display),
+        span.math {
+          font-size: 0.9em !important;
+          vertical-align: baseline !important;
         }
 
         /* Hide any remaining navigation elements */
@@ -243,12 +291,127 @@ async function injectPrintStyles(page) {
           page-break-inside: avoid;
         }
 
-        /* Example and note boxes */
-        .example, .note, .warning, .info {
+        /* Example and note boxes with colorful backgrounds */
+        .example, .worked-example {
           page-break-inside: avoid;
-          border: 1px solid #ddd;
+          border-left: 4px solid #2196F3;
+          background-color: #E3F2FD !important;
+          padding: 15px;
+          margin: 15px 0;
+          border-radius: 4px;
+        }
+
+        .note, .info {
+          page-break-inside: avoid;
+          border-left: 4px solid #4CAF50;
+          background-color: #E8F5E9 !important;
+          padding: 15px;
+          margin: 15px 0;
+          border-radius: 4px;
+        }
+
+        .warning, .important {
+          page-break-inside: avoid;
+          border-left: 4px solid #FF9800;
+          background-color: #FFF3E0 !important;
+          padding: 15px;
+          margin: 15px 0;
+          border-radius: 4px;
+        }
+
+        .tip {
+          page-break-inside: avoid;
+          border-left: 4px solid #9C27B0;
+          background-color: #F3E5F5 !important;
+          padding: 15px;
+          margin: 15px 0;
+          border-radius: 4px;
+        }
+
+        /* Summary boxes */
+        .summary, .section-summary, .key-equations,
+        [data-element-type="section-summary"] {
+          page-break-inside: avoid;
+          background-color: #FFF9C4 !important;
+          border: 2px solid #FBC02D;
+          border-radius: 4px;
+          padding: 15px;
+          margin: 15px 0;
+        }
+
+        /* Glossary with light purple background */
+        .glossary {
+          page-break-inside: avoid;
+          background-color: #F3E5F5 !important;
+          border: 2px solid #9C27B0;
+          border-radius: 4px;
+          padding: 15px;
+          margin: 15px 0;
+        }
+
+        .glossary-title {
+          color: #6A1B9A !important;
+          border-bottom: 2px solid #9C27B0;
+          padding-bottom: 8px;
+          margin-bottom: 12px;
+        }
+
+        /* Abstract/Learning objectives */
+        .abstract, .learning-objectives {
+          page-break-inside: avoid;
+          background-color: #E1F5FE !important;
+          border-left: 4px solid #0288D1;
+          padding: 15px;
+          margin: 15px 0;
+          border-radius: 4px;
+        }
+
+        /* Exercise boxes */
+        .exercise, .problem {
+          page-break-inside: avoid;
+          background-color: #F5F5F5 !important;
+          border-left: 3px solid #757575;
+          padding: 12px;
+          margin: 12px 0;
+          border-radius: 3px;
+        }
+
+        /* Concept checks */
+        .concept-check, .check-understanding,
+        [data-element-type="check-understanding"] {
+          page-break-inside: avoid;
+          background-color: #FFE0B2 !important;
+          border: 2px dashed #FF9800;
+          padding: 15px;
+          margin: 15px 0;
+          border-radius: 4px;
+        }
+
+        /* Equations in colored box */
+        .equation, .formula {
+          page-break-inside: avoid;
+          background-color: #F5F5F5 !important;
           padding: 10px;
-          margin: 10px 0;
+          margin: 15px 0;
+          border-radius: 3px;
+          text-align: center;
+        }
+
+        /* Headings with color accents */
+        h1 {
+          color: #1565C0 !important;
+          border-bottom: 3px solid #1565C0;
+          padding-bottom: 8px;
+        }
+
+        h2 {
+          color: #1976D2 !important;
+          border-bottom: 2px solid #64B5F6;
+          padding-bottom: 6px;
+        }
+
+        h3 {
+          color: #0288D1 !important;
         }
       }
     `,
