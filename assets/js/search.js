@@ -38,14 +38,10 @@ class SearchManager {
       const data = await response.json();
 
       // Load MiniSearch instance from serialized data
-      this.miniSearch = MiniSearch.loadJSON(data.index, {
+      // Note: loadJSON expects the raw JSON object, not a stringified version
+      this.miniSearch = MiniSearch.loadJS(data.index, {
         fields: ['title', 'content'],
-        storeFields: ['title', 'url', 'preview'],
-        searchOptions: {
-          boost: { title: 2 }, // Boost title matches for better relevance
-          fuzzy: 0.2, // Fuzzy matching tolerance as specified
-          prefix: true // Enable prefix search for partial matches
-        }
+        storeFields: ['title', 'url', 'preview']
       });
 
       this.documents = data.documents;
