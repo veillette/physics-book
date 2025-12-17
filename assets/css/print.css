@@ -97,6 +97,9 @@
     page-break-before: always;
     page-break-after: avoid;
     margin-top: 0;
+    color: #1565C0 !important;
+    border-bottom: 3px solid #1565C0;
+    padding-bottom: 8px;
   }
 
   h1:first-of-type {
@@ -106,11 +109,15 @@
   h2 {
     font-size: 18pt;
     page-break-after: avoid;
+    color: #1976D2 !important;
+    border-bottom: 2px solid #64B5F6;
+    padding-bottom: 6px;
   }
 
   h3 {
     font-size: 14pt;
     page-break-after: avoid;
+    color: #0288D1 !important;
   }
 
   h4, h5, h6 {
@@ -165,15 +172,37 @@
      Images and Figures
      ======================================== */
 
+  /* Make images smaller and better integrated with text */
   img {
-    max-width: 100% !important;
+    max-width: 65% !important;
+    max-height: 4in !important;
     height: auto !important;
+    width: auto !important;
+    display: block;
+    margin: 10px auto !important;
     page-break-inside: avoid;
+    object-fit: contain !important;
   }
 
   figure {
+    max-width: 65% !important;
+    max-height: 4.5in !important;
+    margin: 10px auto !important;
     page-break-inside: avoid;
-    margin: 1em 0;
+    page-break-after: avoid;
+  }
+
+  figure img {
+    max-width: 100% !important;
+    max-height: 4in !important;
+    margin: 0 auto !important;
+    object-fit: contain !important;
+  }
+
+  /* Very small images can be even smaller */
+  img[width], img[height] {
+    max-width: 50% !important;
+    max-height: 3in !important;
   }
 
   figcaption {
@@ -254,6 +283,27 @@
     page-break-inside: avoid !important;
   }
 
+  /* Scale down math to match text better */
+  mjx-container,
+  mjx-container[display="true"],
+  mjx-container[display="false"],
+  .MathJax,
+  .MathJax_Display,
+  .math,
+  .katex,
+  .katex-display {
+    font-size: 0.95em !important;
+  }
+
+  /* Inline math should be even smaller */
+  mjx-container[display="false"],
+  .MathJax:not(.MathJax_Display),
+  .katex:not(.katex-display),
+  span.math {
+    font-size: 0.9em !important;
+    vertical-align: baseline !important;
+  }
+
   /* Ensure math displays properly */
   .MathJax_Display,
   mjx-container[display="true"],
@@ -274,14 +324,15 @@
     page-break-inside: avoid;
   }
 
-  /* Example boxes */
+  /* Example boxes with colorful backgrounds */
   .example,
   .worked-example {
-    border: 2px solid #333;
-    padding: 1em;
-    margin: 1em 0;
     page-break-inside: avoid;
-    background-color: #fafafa !important;
+    border-left: 4px solid #2196F3;
+    background-color: #E3F2FD !important;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 4px;
   }
 
   .example-title,
@@ -292,29 +343,32 @@
 
   /* Note/Warning/Info boxes */
   .note,
-  .warning,
-  .info,
-  .tip,
-  .important {
-    border: 1px solid #333;
-    padding: 1em;
-    margin: 1em 0;
-    page-break-inside: avoid;
-  }
-
-  .note {
-    background-color: #e7f3ff !important;
-    border-color: #0066cc;
-  }
-
-  .warning {
-    background-color: #fff3e0 !important;
-    border-color: #ff9800;
-  }
-
   .info {
-    background-color: #e8f5e9 !important;
-    border-color: #4caf50;
+    page-break-inside: avoid;
+    border-left: 4px solid #4CAF50;
+    background-color: #E8F5E9 !important;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 4px;
+  }
+
+  .warning,
+  .important {
+    page-break-inside: avoid;
+    border-left: 4px solid #FF9800;
+    background-color: #FFF3E0 !important;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 4px;
+  }
+
+  .tip {
+    page-break-inside: avoid;
+    border-left: 4px solid #9C27B0;
+    background-color: #F3E5F5 !important;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 4px;
   }
 
   /* ========================================
@@ -352,7 +406,11 @@
   .equation,
   .formula {
     page-break-inside: avoid;
-    margin: 1em 0;
+    background-color: #F5F5F5 !important;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 3px;
+    text-align: center;
   }
 
   /* Problem sets */
@@ -361,40 +419,83 @@
     page-break-before: always;
   }
 
+  /* Exercise and problem boxes */
   .problem,
   .exercise {
     page-break-inside: avoid;
-    margin: 1em 0;
-    padding: 0.5em 0;
-    border-bottom: 1px dotted #ccc;
+    background-color: #F5F5F5 !important;
+    border-left: 3px solid #757575;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 3px;
   }
 
-  /* Concept checks */
+  /* Concept checks with orange dashed border */
   .concept-check,
-  .check-understanding {
-    border: 1px dashed #666;
-    padding: 1em;
-    margin: 1em 0;
+  .check-understanding,
+  [data-element-type="check-understanding"] {
     page-break-inside: avoid;
+    background-color: #FFE0B2 !important;
+    border: 2px dashed #FF9800;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 4px;
   }
 
-  /* Section summaries */
+  /* Hide solutions to end-of-chapter problems */
+  .solution,
+  div.solution,
+  [data-element-type="solution"] {
+    display: none !important;
+  }
+
+  /* Section summaries with yellow background */
   .summary,
-  .section-summary {
-    background-color: #f5f5f5 !important;
-    border: 1px solid #ddd;
-    padding: 1em;
-    margin: 1em 0;
+  .section-summary,
+  .key-equations,
+  [data-element-type="section-summary"] {
     page-break-inside: avoid;
+    background-color: #FFF9C4 !important;
+    border: 2px solid #FBC02D;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 15px 0;
   }
 
-  /* Glossary terms */
+  /* Glossary with purple background */
+  .glossary {
+    page-break-inside: avoid;
+    background-color: #F3E5F5 !important;
+    border: 2px solid #9C27B0;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 15px 0;
+  }
+
+  .glossary-title {
+    color: #6A1B9A !important;
+    border-bottom: 2px solid #9C27B0;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+  }
+
   .glossary-term {
     font-weight: bold;
   }
 
   .glossary-definition {
     margin-left: 1em;
+  }
+
+  /* Abstract/Learning objectives */
+  .abstract,
+  .learning-objectives {
+    page-break-inside: avoid;
+    background-color: #E1F5FE !important;
+    border-left: 4px solid #0288D1;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 4px;
   }
 
   /* ========================================
