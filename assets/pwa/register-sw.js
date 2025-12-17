@@ -1,3 +1,6 @@
+---
+layout: null
+---
 // PWA Service Worker Registration and Installation
 (function () {
   'use strict';
