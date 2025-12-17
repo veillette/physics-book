@@ -509,6 +509,17 @@ iframe {
     padding: 15px;
     border-bottom: 1px solid #ddd;
     background-color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+/* Ensure search is visible even when summary is hidden */
+.book .book-summary {
+    overflow: visible;
+}
+
+.book.with-summary .book-summary {
+    overflow: hidden;
 }
 
 .search-input-wrapper {
