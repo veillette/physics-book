@@ -22,7 +22,6 @@ This open-source textbook aims to make physics education accessible to everyone.
 - **Offline Support**: A root-level service worker (`sw.js`) enables offline access after the first visit.
 - **Dual Deployment**: Automatically deployed to both Vercel and GitHub Pages.
 - **Fully Customizable**: Fork and modify to suit your teaching needs.
-- **Quality Assurance**: Automated checks for links, orphaned files, figures, and accessibility.
 - **PDF Export**: Generate PDF versions of individual chapters or the complete book.
 - **Free & Open**: Licensed under CC BY-NC-SA 4.0 for educational use.
 
