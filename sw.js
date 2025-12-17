@@ -1,6 +1,3 @@
----
-layout: null
----
 // Service Worker for Physics Book PWA
 const CACHE_VERSION = '2025-12-17-search';
 const CACHE_NAME = `physics-book-${CACHE_VERSION}`;
