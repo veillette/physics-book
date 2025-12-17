@@ -103,6 +103,7 @@ class OrphanFileFinder {
     }
 
     console.log(chalk.gray(`Found ${this.referencedPaths.size} unique file references\n`));
+    console.log('DEBUG: referencedPaths:', this.referencedPaths); // DEBUG LINE
   }
 
   async extractReferences(filePath) {
@@ -172,7 +173,7 @@ class OrphanFileFinder {
     // Extract image references: ![alt](path) or ![alt](path "title")
     // Use a more flexible pattern that handles titles with embedded quotes/HTML and escaped brackets
     // (?:[^\]\\]|\\.)* matches either non-bracket/non-backslash OR backslash followed by any char (handles \] and \[)
-    const imageRegex = /!\[(?:[^\]\\]|\\.)*\]\(([^)"\s]+)(?:\s+[^)]+)?\)/g;
+    const imageRegex = /!\[(?:[^\]\\]|\\.)*\](?:.*?)\(([^)"\s]+)(?:\s+[^)]+)?\)/g;
 
     while ((match = imageRegex.exec(normalizedContent)) !== null) {
       const src = match[1];
