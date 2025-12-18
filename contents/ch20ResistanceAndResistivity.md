@@ -505,7 +505,30 @@ What is the resistance of a 20.0-m-long piece of 12-gauge copper wire having a 2
 
 </div>
 <div class="solution" markdown="1">
- $$0.104 \text{Ω} $$
+**Strategy**
+
+Use the resistance formula $$R = \frac{\rho L}{A}$$, where $$\rho$$ is the resistivity of copper from [[Table 1]](#Table1). Calculate the cross-sectional area from the diameter.
+
+**Solution**
+
+Calculate the cross-sectional area:
+
+<div class="equation">
+$$A = \pi r^{2} = \pi \left(\frac{2.053 \times 10^{-3} \text{ m}}{2}\right)^{2} = \pi (1.027 \times 10^{-3} \text{ m})^{2} = 3.31 \times 10^{-6} \text{ m}^{2}$$
+</div>
+
+Apply the resistance formula using $$\rho_{\text{copper}} = 1.72 \times 10^{-8} \text{ Ω}\cdot\text{m}$$:
+
+<div class="equation">
+$$R = \frac{\rho L}{A} = \frac{(1.72 \times 10^{-8} \text{ Ω}\cdot\text{m})(20.0 \text{ m})}{3.31 \times 10^{-6} \text{ m}^{2}} = 0.104 \text{ Ω}$$
+</div>
+
+**Discussion**
+
+This resistance of about 0.1 Ω is typical for household wiring. 12-gauge wire is commonly used for 20-amp circuits in homes. The low resistance minimizes power loss and voltage drop across the wire, ensuring that appliances receive adequate voltage. For a 20-A current, this wire would dissipate $$P = I^{2}R = (20)^{2}(0.104) = 41.6$$ W over its 20-meter length, which is acceptable.
+
+The resistance of the 12-gauge copper wire is 0.104 Ω.
+
 </div>
 </div>
 
@@ -550,7 +573,30 @@ If the 0.100-mm diameter tungsten filament in a light bulb is to have a resistan
 
 </div>
 <div class="solution" markdown="1">
- $$ 2.81  \text{m} $$
+**Strategy**
+
+Rearrange the resistance formula $$R = \frac{\rho L}{A}$$ to solve for length: $$L = \frac{RA}{\rho}$$. Use the resistivity of tungsten from [[Table 1]](#Table1).
+
+**Solution**
+
+Calculate the cross-sectional area:
+
+<div class="equation">
+$$A = \pi r^{2} = \pi \left(\frac{0.100 \times 10^{-3} \text{ m}}{2}\right)^{2} = \pi (5.00 \times 10^{-5} \text{ m})^{2} = 7.85 \times 10^{-9} \text{ m}^{2}$$
+</div>
+
+Solve for length using $$\rho_{\text{tungsten}} = 5.6 \times 10^{-8} \text{ Ω}\cdot\text{m}$$:
+
+<div class="equation">
+$$L = \frac{RA}{\rho} = \frac{(0.200 \text{ Ω})(7.85 \times 10^{-9} \text{ m}^{2})}{5.6 \times 10^{-8} \text{ Ω}\cdot\text{m}} = 2.81 \text{ m}$$
+</div>
+
+**Discussion**
+
+A filament length of 2.81 m seems long for a small light bulb, but this wire is extremely thin (0.1 mm diameter). The filament is coiled tightly, often in a double-coil configuration (a coil of a coil), to fit within the small bulb envelope. This coiling also helps retain heat and increases efficiency. The 0.200 Ω cold resistance will increase significantly when the filament heats to its operating temperature of around 2500-3000°C.
+
+The tungsten filament should be 2.81 m long.
+
 </div>
 </div>
 
@@ -604,7 +650,36 @@ What current flows through a 2.54-cm-diameter rod of pure silicon that is 20.0 c
 
 </div>
 <div class="solution" markdown="1">
- $$ 1.10 \times 10^{-3}  \text{A} $$
+**Strategy**
+
+First calculate the resistance of the silicon rod using $$R = \frac{\rho L}{A}$$, then use Ohm's law $$I = V/R$$ to find the current. Pure silicon has a very high resistivity ($$\rho = 2300 \text{ Ω}\cdot\text{m}$$ from [[Table 1]](#Table1)).
+
+**Solution**
+
+Calculate the cross-sectional area:
+
+<div class="equation">
+$$A = \pi r^{2} = \pi \left(\frac{2.54 \times 10^{-2} \text{ m}}{2}\right)^{2} = \pi (1.27 \times 10^{-2} \text{ m})^{2} = 5.07 \times 10^{-4} \text{ m}^{2}$$
+</div>
+
+Calculate the resistance:
+
+<div class="equation">
+$$R = \frac{\rho L}{A} = \frac{(2300 \text{ Ω}\cdot\text{m})(0.200 \text{ m})}{5.07 \times 10^{-4} \text{ m}^{2}} = 9.07 \times 10^{5} \text{ Ω}$$
+</div>
+
+Calculate the current:
+
+<div class="equation">
+$$I = \frac{V}{R} = \frac{1.00 \times 10^{3} \text{ V}}{9.07 \times 10^{5} \text{ Ω}} = 1.10 \times 10^{-3} \text{ A} = 1.10 \text{ mA}$$
+</div>
+
+**Discussion**
+
+Despite the high voltage (1000 V), only about 1 mA flows through the silicon rod because pure silicon is a semiconductor with very high resistivity—about 100 billion times higher than copper. This property makes silicon ideal for radiation detectors, where incoming particles create electron-hole pairs that produce brief current pulses. The high resistance ensures low background current, making these small signals detectable.
+
+A current of 1.10 mA flows through the silicon rod.
+
 </div>
 </div>
 
@@ -659,7 +734,38 @@ A resistor made of Nichrome wire is used in an application where its resistance 
 
 </div>
 <div class="solution" markdown="1">
- $$-5º\text{C to 45ºC} $$
+**Strategy**
+
+Use $$R = R_{0}(1 + \alpha \Delta T)$$. For 1.00% change, we need $$|\alpha \Delta T| \leq 0.01$$. Solve for the maximum $$\Delta T$$ using the temperature coefficient for Nichrome ($$\alpha = 0.4 \times 10^{-3}$$ /ºC from [[Table 2]](#Table2)).
+
+**Solution**
+
+Set up the equation for 1% change:
+
+<div class="equation">
+$$|\alpha \Delta T| = 0.01$$
+</div>
+
+<div class="equation">
+$$|\Delta T| = \frac{0.01}{\alpha} = \frac{0.01}{0.4 \times 10^{-3} \text{ /ºC}} = 25 \text{ ºC}$$
+</div>
+
+The temperature can vary by ±25°C from the reference temperature of 20.0°C:
+
+<div class="equation">
+$$T_{\text{min}} = 20.0 - 25 = -5 \text{ ºC}$$
+</div>
+
+<div class="equation">
+$$T_{\text{max}} = 20.0 + 25 = 45 \text{ ºC}$$
+</div>
+
+**Discussion**
+
+The allowable temperature range of -5°C to 45°C is quite practical for most indoor applications. Nichrome was chosen for this resistor because of its relatively small temperature coefficient compared to pure metals. Copper, for example, with $$\alpha = 3.9 \times 10^{-3}$$ /ºC, would only allow a ±2.6°C variation for the same 1% tolerance—impractical for most applications.
+
+The Nichrome resistor can be used over the temperature range of -5°C to 45°C.
+
 </div>
 </div>
 
@@ -714,7 +820,37 @@ An electronic device designed to operate at any temperature in the range from  $
 
 </div>
 <div class="solution" markdown="1">
-1.03
+**Strategy**
+
+Use $$R = R_{0}(1 + \alpha \Delta T)$$ with carbon's negative temperature coefficient ($$\alpha = -0.5 \times 10^{-3}$$ /ºC from [[Table 2]](#Table2)). Note that for carbon, resistance *decreases* with increasing temperature. We compare resistance at the two temperature extremes.
+
+**Solution**
+
+Using 20°C as the reference temperature, find the resistance at each extreme:
+
+At -10°C ($$\Delta T = -30$$ °C):
+
+<div class="equation">
+$$R_{-10} = R_{0}[1 + (-0.5 \times 10^{-3})(-30)] = R_{0}(1 + 0.015) = 1.015 R_{0}$$
+</div>
+
+At 55°C ($$\Delta T = +35$$ °C):
+
+<div class="equation">
+$$R_{55} = R_{0}[1 + (-0.5 \times 10^{-3})(35)] = R_{0}(1 - 0.0175) = 0.9825 R_{0}$$
+</div>
+
+The factor by which resistance changes from lowest to highest temperature:
+
+<div class="equation">
+$$\text{Factor} = \frac{R_{-10}}{R_{55}} = \frac{1.015 R_{0}}{0.9825 R_{0}} = 1.03$$
+</div>
+
+**Discussion**
+
+The resistance changes by only 3% over this 65°C temperature range. This is because carbon has a small (and negative) temperature coefficient. The resistance is highest at the cold extreme (-10°C) and lowest at the warm extreme (55°C). Carbon's negative coefficient means it behaves opposite to metals—its resistance decreases as temperature increases. This property, combined with carbon's small coefficient, makes carbon resistors useful in applications requiring moderate temperature stability.
+
+The resistance increases by a factor of 1.03 (or about 3%) from the highest to lowest temperature in this range.
 
 </div>
 </div>
@@ -776,7 +912,39 @@ Assuming a constant temperature coefficient of resistivity, what is the maximum 
 
 </div>
 <div class="solution" markdown="1">
-0.06%
+**Strategy**
+
+The maximum decrease occurs at the lowest achievable temperature, which is absolute zero (-273.15°C or 0 K). Use $$R = R_{0}(1 + \alpha \Delta T)$$ with constantan's temperature coefficient ($$\alpha = 0.002 \times 10^{-3}$$ /ºC from [[Table 2]](#Table2)).
+
+**Solution**
+
+Calculate the temperature change to absolute zero:
+
+<div class="equation">
+$$\Delta T = -273.15 \text{ ºC} - 20.0 \text{ ºC} = -293 \text{ ºC}$$
+</div>
+
+Calculate the resistance at absolute zero:
+
+<div class="equation">
+$$R = R_{0}(1 + \alpha \Delta T) = R_{0}[1 + (0.002 \times 10^{-3})(-293)]$$
+</div>
+
+<div class="equation">
+$$R = R_{0}(1 - 0.000586) = 0.99941 R_{0}$$
+</div>
+
+The percent decrease is:
+
+<div class="equation">
+$$\text{Percent decrease} = (1 - 0.99941) \times 100\% = 0.059\% \approx 0.06\%$$
+</div>
+
+**Discussion**
+
+Constantan's resistance decreases by a mere 0.06% even when cooled from room temperature all the way to absolute zero! This extraordinarily small temperature coefficient is why constantan (a copper-nickel alloy) is specifically designed and named for making precision resistors with "constant" resistance. The alloy was engineered to have near-zero temperature dependence, making it invaluable for precision measurement equipment, resistance standards, and strain gauges where temperature stability is critical.
+
+The maximum percent decrease in resistance is 0.06%.
 
 </div>
 </div>
@@ -835,7 +1003,56 @@ A copper wire has a resistance of  $$ 0.500 \Omega  $$
 
 </div>
 <div class="solution" markdown="1">
- $$-17 \text{ºC} $$
+**Strategy**
+
+Use $$R = R_{0}(1 + \alpha \Delta T)$$ for each metal and set them equal. Use temperature coefficients from [[Table 2]](#Table2): $$\alpha_{\text{Cu}} = 3.9 \times 10^{-3}$$ /ºC and $$\alpha_{\text{Fe}} = 5.0 \times 10^{-3}$$ /ºC.
+
+**Solution**
+
+Set the resistances equal:
+
+<div class="equation">
+$$R_{\text{Cu}} = R_{\text{Fe}}$$
+</div>
+
+<div class="equation">
+$$R_{0,\text{Cu}}(1 + \alpha_{\text{Cu}} \Delta T) = R_{0,\text{Fe}}(1 + \alpha_{\text{Fe}} \Delta T)$$
+</div>
+
+<div class="equation">
+$$0.500(1 + 3.9 \times 10^{-3} \Delta T) = 0.525(1 + 5.0 \times 10^{-3} \Delta T)$$
+</div>
+
+Expand and solve:
+
+<div class="equation">
+$$0.500 + 1.95 \times 10^{-3} \Delta T = 0.525 + 2.625 \times 10^{-3} \Delta T$$
+</div>
+
+<div class="equation">
+$$0.500 - 0.525 = (2.625 - 1.95) \times 10^{-3} \Delta T$$
+</div>
+
+<div class="equation">
+$$-0.025 = 0.675 \times 10^{-3} \Delta T$$
+</div>
+
+<div class="equation">
+$$\Delta T = \frac{-0.025}{0.675 \times 10^{-3}} = -37 \text{ ºC}$$
+</div>
+
+The temperature at which resistances are equal:
+
+<div class="equation">
+$$T = 20.0 + (-37) = -17 \text{ ºC}$$
+</div>
+
+**Discussion**
+
+At -17°C, both wires have equal resistance. This occurs below room temperature because iron has a higher temperature coefficient than copper. Since iron's resistance changes faster with temperature, the resistances converge at a lower temperature where the initially higher iron resistance has decreased more than the copper. This problem illustrates that different materials can have equal resistance at a specific temperature even if they differ at other temperatures.
+
+The resistances are equal at -17°C.
+
 </div>
 </div>
 
