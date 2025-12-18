@@ -543,7 +543,7 @@ system at low speed (thus its kinetic energy does not change) but loses 160 m in
 altitude. How many cubic meters per second are needed, assuming 85.0%
 efficiency?
 
-![](../resources/Figure_20_04_05.jpg "Hydroelectric generators at the Hoover dam. (credit: Jon Sullivan)")
+![Hydroelectric generators at the Hoover dam.](../resources/Figure_20_04_05.jpg "Hydroelectric generators at the Hoover dam. (credit: Jon Sullivan)")
 {: #Figure5}
 
 </div>
@@ -562,7 +562,7 @@ resistance and friction? (c) To travel at a constant 25.0-m/s speed, exerting a
 $$ 5.00 \times 10^{2} \text{N} $$ force to overcome air resistance and friction?
 See [[Figure 6]](#Figure6).
 
-![](../resources/Figure_20_04_06.jpg "This REVAi, an electric car, gets recharged on a street in London. (credit: Frank Hebbert)")
+![Electric car charging in London.](../resources/Figure_20_04_06.jpg "This REVAi, an electric car, gets recharged on a street in London. (credit: Frank Hebbert)")
 {: #Figure6}
 
 </div>

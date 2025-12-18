@@ -889,7 +889,7 @@ involved.
 a)  $${\Delta }^{++}\left(\text{uuu}\right); B=\frac{1}{3}+\frac{1}{3}+\frac{1}{3}=1 $$
 b)
 
-![](../resources/Figure_33_05_08.jpg " "){: #Figure8 height="250"}
+![Feynman diagram showing the quark composition of a reaction.](../resources/Figure_33_05_08.jpg " "){: #Figure8 height="250"}
 
 </div>
 </div>
