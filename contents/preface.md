@@ -68,7 +68,7 @@ applications that are easy for most students to visualize.
 - [Chapter 31: Radioactivity and Nuclear Physics](./ch31RadioactivityAndNuclearPhysics)
 - [Chapter 32: Medical Applications of Nuclear Physics](./ch32MedicalApplicationsOfNuclearPhysics)
 - [Chapter 33: Particle Physics](./ch33ParticlePhysics)
-- [Chapter 34: Cosmology and Particle Physics](./ch34CosmologyAndParticlePhysics)
+- [Chapter 34: Cosmology and Particle Physics](./ch34FrontiersOfPhysics)
 
 - [Appendix A: Useful Information](./appendixA)
 - [Appendix B: Glossary of Key Symbols and Notation](./appendixB)
