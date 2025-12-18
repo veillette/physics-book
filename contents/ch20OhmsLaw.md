@@ -201,7 +201,23 @@ What current flows through the bulb of a 3.00-V flashlight when its hot resistan
 
 </div>
 <div class="solution" markdown="1">
-0\.833 A
+**Strategy**
+
+Apply Ohm's law directly: $$I = V/R$$. All values are given in standard units.
+
+**Solution**
+
+Using Ohm's law:
+
+<div class="equation">
+$$I = \frac{V}{R} = \frac{3.00 \text{ V}}{3.60 \text{ Ω}} = 0.833 \text{ A}$$
+</div>
+
+**Discussion**
+
+This current of 0.833 A (833 mA) is typical for a small incandescent flashlight bulb. The relatively low resistance of 3.60 Ω when hot allows substantial current to flow, which heats the filament to incandescence. Note that this is the "hot resistance"—the resistance when the bulb is operating. The cold resistance would be much lower, causing a brief surge of higher current when the flashlight is first turned on.
+
+The current flowing through the flashlight bulb is 0.833 A.
 
 </div>
 </div>
@@ -209,6 +225,32 @@ What current flows through the bulb of a 3.00-V flashlight when its hot resistan
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Calculate the effective resistance of a pocket calculator that has a 1.35-V battery and through which 0.200 mA flows.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Rearrange Ohm's law to solve for resistance: $$R = V/I$$. Convert current from milliamperes to amperes first.
+
+**Solution**
+
+Convert current to SI units:
+
+<div class="equation">
+$$I = 0.200 \text{ mA} = 0.200 \times 10^{-3} \text{ A} = 2.00 \times 10^{-4} \text{ A}$$
+</div>
+
+Calculate resistance using Ohm's law:
+
+<div class="equation">
+$$R = \frac{V}{I} = \frac{1.35 \text{ V}}{2.00 \times 10^{-4} \text{ A}} = 6.75 \times 10^{3} \text{ Ω} = 6.75 \text{ kΩ}$$
+</div>
+
+**Discussion**
+
+The effective resistance of 6.75 kΩ is much higher than the flashlight bulb's 3.60 Ω, which explains why the calculator draws such a tiny current. Modern electronic calculators use CMOS (complementary metal-oxide-semiconductor) technology designed for extremely low power consumption. The high effective resistance means very little power is dissipated ($$P = V^2/R = 1.35^2/6750 = 0.27$$ mW), allowing small batteries to last for years.
+
+The effective resistance of the pocket calculator is 6.75 kΩ.
 
 </div>
 </div>
@@ -219,7 +261,24 @@ What is the effective resistance of a car’s starter motor when 150 A flows thr
 
 </div>
 <div class="solution" markdown="1">
- $$ 7.33 \times 10^{-2}  \Omega  $$
+**Strategy**
+
+Use Ohm's law rearranged for resistance: $$R = V/I$$. The large current indicates a low resistance device.
+
+**Solution**
+
+Calculate resistance:
+
+<div class="equation">
+$$R = \frac{V}{I} = \frac{11.0 \text{ V}}{150 \text{ A}} = 7.33 \times 10^{-2} \text{ Ω} = 73.3 \text{ mΩ}$$
+</div>
+
+**Discussion**
+
+The extremely low resistance of 73.3 mΩ (0.0733 Ω) is necessary for the starter motor to draw the high current needed to turn over the engine against compression and friction. The battery voltage drops from its nominal 12 V to 11.0 V under this heavy load due to the battery's internal resistance. This massive current drain is why car batteries must have very low internal resistance and why leaving your headlights on can drain the battery—a starter motor draws more current in a few seconds than headlights draw in hours.
+
+The effective resistance of the car's starter motor is $$7.33 \times 10^{-2}$$ Ω (73.3 mΩ).
+
 </div>
 </div>
 
@@ -227,6 +286,32 @@ What is the effective resistance of a car’s starter motor when 150 A flows thr
 <div class="problem" markdown="1">
 How many volts are supplied to operate an indicator light on a DVD player that has a resistance of  $$140 \Omega  $$ ,
  given that 25.0 mA passes through it?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Use Ohm's law in the form $$V = IR$$ to find the voltage. Convert current to amperes first.
+
+**Solution**
+
+Convert current to SI units:
+
+<div class="equation">
+$$I = 25.0 \text{ mA} = 25.0 \times 10^{-3} \text{ A} = 0.0250 \text{ A}$$
+</div>
+
+Calculate voltage:
+
+<div class="equation">
+$$V = IR = (0.0250 \text{ A})(140 \text{ Ω}) = 3.50 \text{ V}$$
+</div>
+
+**Discussion**
+
+The indicator light operates on 3.50 V, which is a common low voltage used in electronic devices. This is much lower than household voltage (120 V or 240 V) because electronics operate on reduced voltages for safety and efficiency. The power consumed is $$P = IV = (0.025)(3.50) = 87.5$$ mW, consistent with a small LED indicator light. Modern DVD players typically use LED indicators rather than incandescent bulbs because LEDs are more efficient and last much longer.
+
+The voltage supplied to the indicator light is 3.50 V.
 
 </div>
 </div>
@@ -239,16 +324,51 @@ How many volts are supplied to operate an indicator light on a DVD player that h
 
 </div>
 <div class="solution" markdown="1">
-(a) 0.300 V
+**Strategy**
 
-(b) 1.50 V
+(a) and (b) Use Ohm's law $$V = IR$$ to calculate the voltage drop across each extension cord.
 
-(c) The voltage supplied to whatever appliance is being used is reduced because
-the total voltage drop from the wall to the final output of the appliance is
-fixed. Thus, if the voltage drop across the extension cord is large, the voltage
-drop across the appliance is significantly decreased, so the power output by the
-appliance can be significantly decreased, reducing the ability of the appliance
-to work properly.
+(c) Apply the concept of series circuits where voltage drops add up, and consider the implications for appliance operation.
+
+**Solution for (a)**
+
+For the good quality extension cord with 0.0600 Ω resistance:
+
+<div class="equation">
+$$V = IR = (5.00 \text{ A})(0.0600 \text{ Ω}) = 0.300 \text{ V}$$
+</div>
+
+**Solution for (b)**
+
+For the cheaper extension cord with 0.300 Ω resistance:
+
+<div class="equation">
+$$V = IR = (5.00 \text{ A})(0.300 \text{ Ω}) = 1.50 \text{ V}$$
+</div>
+
+**Solution for (c)**
+
+In a series circuit, the total voltage from the wall outlet (120 V) must equal the sum of voltage drops:
+
+<div class="equation">
+$$V_{\text{wall}} = V_{\text{cord}} + V_{\text{appliance}}$$
+</div>
+
+Therefore: $$V_{\text{appliance}} = V_{\text{wall}} - V_{\text{cord}}$$
+
+For the good cord: $$V_{\text{appliance}} = 120 - 0.30 = 119.7$$ V (99.75% of rated voltage)
+
+For the cheap cord: $$V_{\text{appliance}} = 120 - 1.50 = 118.5$$ V (98.75% of rated voltage)
+
+**Discussion**
+
+(a) The voltage drop of 0.300 V is negligible—only 0.25% of the 120 V supply.
+
+(b) The 1.50 V drop is five times larger (1.25% loss), which becomes significant for high-power appliances.
+
+(c) Since the wall outlet maintains constant voltage, any voltage "lost" in the cord means less voltage available for the appliance. Additionally, the power dissipated in the cord (wasted as heat) is $$P = I^2R$$: only 1.5 W for the good cord but 7.5 W for the cheap cord. For high-power appliances like space heaters drawing 10-15 A, a cheap cord could overheat and present a fire hazard. The reduced voltage to the appliance also means reduced power output: a heater would produce less heat, a motor would run slower and could overheat.
+
+(a) The voltage drop in the good extension cord is 0.300 V. (b) The voltage drop in the cheaper cord is 1.50 V. (c) The appliance receives reduced voltage because the cord and appliance are in series, sharing the total voltage. This can cause reduced performance, overheating, or even damage to some appliances.
 
 </div>
 </div>
@@ -257,6 +377,32 @@ to work properly.
 <div class="problem" markdown="1">
 A power transmission line is hung from metal towers with glass insulators having a resistance of  $$ 1.00 \times 10^{9}  \Omega . $$
  What current flows through the insulator if the voltage is 200 kV? (Some high-voltage lines are DC.)
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Apply Ohm's law $$I = V/R$$ directly. The extremely high resistance of the glass insulator should result in a very small current.
+
+**Solution**
+
+Convert voltage to SI units:
+
+<div class="equation">
+$$V = 200 \text{ kV} = 200 \times 10^{3} \text{ V} = 2.00 \times 10^{5} \text{ V}$$
+</div>
+
+Calculate the current using Ohm's law:
+
+<div class="equation">
+$$I = \frac{V}{R} = \frac{2.00 \times 10^{5} \text{ V}}{1.00 \times 10^{9} \text{ Ω}} = 2.00 \times 10^{-4} \text{ A} = 0.200 \text{ mA}$$
+</div>
+
+**Discussion**
+
+The leakage current of 0.200 mA (200 μA) through each insulator is extremely small compared to the hundreds of amperes flowing through the transmission line itself. This tiny current represents power loss: $$P = IV = (2.00 \times 10^{-4})(2.00 \times 10^{5}) = 40$$ W per insulator. While this seems small, with thousands of insulators on a long transmission line, the total leakage adds up. This is why glass and ceramic insulators are used—their resistance of $$10^{9}$$ Ω or higher minimizes leakage. In wet conditions, contamination on insulator surfaces can lower resistance significantly, which is why insulators have their distinctive ribbed shape to increase the surface path length and maintain high resistance even when wet.
+
+The current flowing through the glass insulator is $$2.00 \times 10^{-4}$$ A (0.200 mA).
 
 </div>
 </div>
