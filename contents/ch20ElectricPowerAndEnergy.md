@@ -301,11 +301,55 @@ What is the power of a  $$ 1.00 \times 10^{2}  \text{MV} $$
 What power is supplied to the starter motor of a large truck that draws 250 A of current from a 24.0-V battery hookup?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use the basic power equation $$P = IV$$, where $$I$$ is the current and $$V$$ is the voltage supplied by the battery.
+
+**Solution**
+
+<div class="equation">
+$$P = IV = (250 \text{ A})(24.0 \text{ V}) = 6000 \text{ W} = 6.00 \text{ kW}$$
+</div>
+
+**Discussion**
+
+This 6.00 kW of power is substantial—equivalent to about 8 horsepower—which is necessary to overcome the mechanical resistance of a large truck engine during starting. The high current of 250 A requires thick battery cables to minimize resistance losses. Large trucks use 24-V systems (two 12-V batteries in series) rather than the 12-V systems in cars because, for the same power, a higher voltage requires less current, allowing for lighter-gauge cables.
+
+The starter motor receives 6.00 kW of power from the battery.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A charge of 4.00 C of charge passes through a pocket calculator’s solar cells in 4.00 h. What is the power output, given the calculator’s voltage output is 3.00 V? (See [[Figure 2]](#Figure2).)
+A charge of 4.00 C of charge passes through a pocket calculator's solar cells in 4.00 h. What is the power output, given the calculator's voltage output is 3.00 V? (See [[Figure 2]](#Figure2).)
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+First find the current using $$I = \frac{\Delta Q}{\Delta t}$$, then calculate power using $$P = IV$$.
+
+**Solution**
+
+Calculate the current:
+
+<div class="equation">
+$$I = \frac{\Delta Q}{\Delta t} = \frac{4.00 \text{ C}}{4.00 \text{ h} \times 3600 \text{ s/h}} = \frac{4.00 \text{ C}}{14400 \text{ s}} = 2.78 \times 10^{-4} \text{ A}$$
+</div>
+
+Calculate the power output:
+
+<div class="equation">
+$$P = IV = (2.78 \times 10^{-4} \text{ A})(3.00 \text{ V}) = 8.33 \times 10^{-4} \text{ W} = 0.833 \text{ mW}$$
+</div>
+
+**Discussion**
+
+This tiny power output of less than 1 milliwatt is sufficient for a pocket calculator because modern electronic calculators are extremely efficient. The small solar cell strip provides enough power to operate the LCD display and processor chip. This demonstrates how little energy is required for modern low-power electronics.
+
+The power output of the calculator's solar cells is 0.833 mW.
 
 </div>
 </div>
@@ -317,6 +361,32 @@ A charge of 4.00 C of charge passes through a pocket calculator’s solar cells 
 <div class="problem" markdown="1">
 How many watts does a flashlight that has  $$ 6.00 \times 10^{2}  \text{C} $$
  pass through it in 0.500 h use if its voltage is 3.00 V?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+First calculate the current from the charge and time using $$I = \frac{\Delta Q}{\Delta t}$$, then find power using $$P = IV$$.
+
+**Solution**
+
+Calculate the current:
+
+<div class="equation">
+$$I = \frac{\Delta Q}{\Delta t} = \frac{600 \text{ C}}{0.500 \text{ h} \times 3600 \text{ s/h}} = \frac{600 \text{ C}}{1800 \text{ s}} = 0.333 \text{ A}$$
+</div>
+
+Calculate the power:
+
+<div class="equation">
+$$P = IV = (0.333 \text{ A})(3.00 \text{ V}) = 1.00 \text{ W}$$
+</div>
+
+**Discussion**
+
+A 1-watt flashlight is consistent with a small, battery-powered LED flashlight. The 3.00 V suggests two AA or AAA batteries in series. Modern LED flashlights are much more efficient than older incandescent bulb flashlights, producing more light per watt consumed. This 1-watt power consumption is reasonable for portable lighting that needs to conserve battery life.
+
+The flashlight uses 1.00 W of power.
 
 </div>
 </div>
@@ -339,6 +409,30 @@ Find the power dissipated in each of these extension cords: (a) an extension cor
 Verify that the units of a volt-ampere are watts, as implied by the equation  $$P=IV $$.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We express volts and amperes in terms of fundamental SI units and show that their product equals watts (joules per second).
+
+**Solution**
+
+Starting with the definitions:
+- 1 volt = 1 joule per coulomb (energy per charge): $$1 \text{ V} = 1 \text{ J/C}$$
+- 1 ampere = 1 coulomb per second (charge per time): $$1 \text{ A} = 1 \text{ C/s}$$
+
+Multiply volt × ampere:
+
+<div class="equation">
+$$1 \text{ V} \cdot \text{A} = \left(\frac{1 \text{ J}}{1 \text{ C}}\right) \cdot \left(\frac{1 \text{ C}}{1 \text{ s}}\right) = \frac{1 \text{ J}}{1 \text{ s}} = 1 \text{ W}$$
+</div>
+
+**Discussion**
+
+This unit analysis confirms that the equation $$P = IV$$ is dimensionally correct. The coulombs cancel, leaving joules per second, which is the definition of a watt. This verification is important because it shows that our power equation is consistent with the fundamental definitions of electrical quantities.
+
+The units verify: 1 V·A = 1 W.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -358,6 +452,37 @@ Show that the units  $$1 {\text{A}}^{2}\cdot \Omega =1 \text{W} $$ ,
  as implied by the equation  $$P={I}^{2}R $$.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We express amperes and ohms in terms of fundamental SI units and show that A²·Ω equals watts.
+
+**Solution**
+
+Starting with the definitions:
+- 1 ohm = 1 volt per ampere: $$1 \text{ Ω} = 1 \text{ V/A}$$
+- 1 volt = 1 joule per coulomb: $$1 \text{ V} = 1 \text{ J/C}$$
+- 1 ampere = 1 coulomb per second: $$1 \text{ A} = 1 \text{ C/s}$$
+
+Calculate A²·Ω:
+
+<div class="equation">
+$$1 \text{ A}^{2} \cdot \Omega = 1 \text{ A}^{2} \cdot \frac{\text{V}}{\text{A}} = 1 \text{ A} \cdot \text{V}$$
+</div>
+
+From the previous problem, we know $$1 \text{ A} \cdot \text{V} = 1 \text{ W}$$. Alternatively:
+
+<div class="equation">
+$$1 \text{ A}^{2} \cdot \Omega = \left(\frac{\text{C}}{\text{s}}\right)^{2} \cdot \frac{\text{V}}{\text{A}} = \frac{\text{C}^{2}}{\text{s}^{2}} \cdot \frac{\text{J/C}}{\text{C/s}} = \frac{\text{C}^{2}}{\text{s}^{2}} \cdot \frac{\text{J} \cdot \text{s}}{\text{C}^{2}} = \frac{\text{J}}{\text{s}} = 1 \text{ W}$$
+</div>
+
+**Discussion**
+
+This confirms that $$P = I^{2}R$$ is dimensionally consistent. This form of the power equation is particularly useful when current and resistance are known but voltage is not. It also shows that power dissipated in a resistor increases with the square of the current, making high currents particularly problematic for heating.
+
+The units verify: 1 A²·Ω = 1 W.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -374,6 +499,36 @@ Verify the energy unit equivalence that  $$1 \text{kW}\cdot \text{h = } 3.60 \ti
 <div class="problem" markdown="1">
 Electrons in an X-ray tube are accelerated through  $$ 1.00 \times 10^{2}  \text{kV} $$
  and directed toward a target to produce X-rays. Calculate the power of the electron beam in this tube if it has a current of 15.0 mA.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use $$P = IV$$ with the given voltage and current, converting to SI units first.
+
+**Solution**
+
+Convert to SI units:
+
+<div class="equation">
+$$V = 1.00 \times 10^{2} \text{ kV} = 1.00 \times 10^{5} \text{ V}$$
+</div>
+
+<div class="equation">
+$$I = 15.0 \text{ mA} = 15.0 \times 10^{-3} \text{ A} = 0.0150 \text{ A}$$
+</div>
+
+Calculate the power:
+
+<div class="equation">
+$$P = IV = (0.0150 \text{ A})(1.00 \times 10^{5} \text{ V}) = 1.50 \times 10^{3} \text{ W} = 1.50 \text{ kW}$$
+</div>
+
+**Discussion**
+
+This 1.50 kW power is substantial for an electron beam. Most of this energy is converted to heat when the electrons strike the target, with only about 1% converted to X-rays. This is why X-ray tubes require active cooling systems. The high voltage of 100 kV determines the maximum energy (and hence minimum wavelength) of the X-rays produced, while the current determines the intensity of the X-ray beam.
+
+The power of the electron beam is 1.50 kW.
 
 </div>
 </div>
@@ -399,6 +554,38 @@ With a 1200-W toaster, how much electrical energy is needed to make a slice of t
  how much does this cost?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Use $$E = Pt$$ to find the energy consumed, converting time to appropriate units for both joules and kilowatt-hours. Then calculate the cost using the given rate.
+
+**Solution**
+
+Calculate the energy in joules:
+
+<div class="equation">
+$$E = Pt = (1200 \text{ W})(1 \text{ min} \times 60 \text{ s/min}) = (1200 \text{ W})(60 \text{ s}) = 72000 \text{ J} = 72.0 \text{ kJ}$$
+</div>
+
+Convert to kilowatt-hours:
+
+<div class="equation">
+$$E = (1200 \text{ W})\left(\frac{1}{60} \text{ h}\right) = 20 \text{ W·h} = 0.0200 \text{ kW·h}$$
+</div>
+
+Calculate the cost:
+
+<div class="equation">
+$$\text{Cost} = (0.0200 \text{ kW·h})(\$0.090\text{/kW·h}) = \$0.0018 = 0.18 \text{ cents}$$
+</div>
+
+**Discussion**
+
+Making a slice of toast costs less than one-fifth of a cent! This shows how inexpensive electrical energy is for everyday tasks. While 1200 W is a high power level, the short duration (1 minute) keeps the total energy consumption very low. This contrasts with appliances that run continuously, like refrigerators or water heaters, which dominate household electricity bills despite having lower power ratings.
+
+Making a slice of toast requires 72.0 kJ (or 0.0200 kW·h) of energy and costs about 0.18 cents.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -416,6 +603,32 @@ What would be the maximum cost of a CFL such that the total cost (investment plu
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Some makes of older cars have 6.00-V electrical systems. (a) What is the hot resistance of a 30.0-W headlight in such a car? (b) What current flows through it?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For part (a), use $$P = V^{2}/R$$ rearranged to $$R = V^{2}/P$$. For part (b), use $$P = IV$$ rearranged to $$I = P/V$$.
+
+**Solution**
+
+**(a)** Calculate the hot resistance:
+
+<div class="equation">
+$$R = \frac{V^{2}}{P} = \frac{(6.00 \text{ V})^{2}}{30.0 \text{ W}} = \frac{36.0 \text{ V}^{2}}{30.0 \text{ W}} = 1.20 \text{ Ω}$$
+</div>
+
+**(b)** Calculate the current:
+
+<div class="equation">
+$$I = \frac{P}{V} = \frac{30.0 \text{ W}}{6.00 \text{ V}} = 5.00 \text{ A}$$
+</div>
+
+**Discussion**
+
+The 1.20 Ω resistance is relatively low, which is necessary to allow sufficient current at the lower 6-V system voltage. The 5.00 A current is higher than what a similar-brightness headlight would draw in a modern 12-V system (which would be 2.50 A for the same power). This is why older 6-V systems required thicker wires to handle the higher currents without excessive power losses. The automotive industry switched to 12-V systems partly to reduce these wiring requirements.
+
+(a) The hot resistance is 1.20 Ω. (b) A current of 5.00 A flows through the headlight.
 
 </div>
 </div>
@@ -437,6 +650,42 @@ Alkaline batteries have the advantage of putting out constant voltage until very
 A cauterizer, used to stop bleeding in surgery, puts out 2.00 mA at 15.0 kV. (a) What is its power output? (b) What is the resistance of the path?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For part (a), use $$P = IV$$. For part (b), use Ohm's law $$R = V/I$$.
+
+**Solution**
+
+Convert to SI units:
+
+<div class="equation">
+$$I = 2.00 \text{ mA} = 2.00 \times 10^{-3} \text{ A}$$
+</div>
+
+<div class="equation">
+$$V = 15.0 \text{ kV} = 15.0 \times 10^{3} \text{ V} = 1.50 \times 10^{4} \text{ V}$$
+</div>
+
+**(a)** Calculate the power:
+
+<div class="equation">
+$$P = IV = (2.00 \times 10^{-3} \text{ A})(1.50 \times 10^{4} \text{ V}) = 30.0 \text{ W}$$
+</div>
+
+**(b)** Calculate the resistance:
+
+<div class="equation">
+$$R = \frac{V}{I} = \frac{1.50 \times 10^{4} \text{ V}}{2.00 \times 10^{-3} \text{ A}} = 7.50 \times 10^{6} \text{ Ω} = 7.50 \text{ MΩ}$$
+</div>
+
+**Discussion**
+
+The 30.0 W power output is sufficient to cauterize blood vessels by heating tissue to coagulation temperatures. The high voltage (15 kV) is needed because of the very high resistance of the tissue path (7.50 MΩ). Despite the high voltage, the current is kept very low (2 mA) for safety—this is below the threshold that would cause dangerous stimulation of heart muscle. The power is concentrated at the small contact point of the cauterizer, creating intense local heating while minimizing effects on surrounding tissue.
+
+(a) The power output is 30.0 W. (b) The resistance of the path is 7.50 MΩ.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -453,6 +702,36 @@ The average television is said to be on 6 hours per day. Estimate the yearly cos
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 An old lightbulb draws only 50.0 W, rather than its original 60.0 W, due to evaporative thinning of its filament. By what factor is its diameter reduced, assuming uniform thinning along its length? Neglect any effects caused by temperature differences.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+At constant voltage, power depends on resistance: $$P = V^{2}/R$$. The resistance of a wire is $$R = \rho L/A$$, where $$A \propto D^{2}$$ for a circular cross-section. Combining these relationships, we can find how diameter relates to power.
+
+**Solution**
+
+At constant voltage and resistivity:
+
+<div class="equation">
+$$P = \frac{V^{2}}{R} = \frac{V^{2}}{(\rho L/A)} = \frac{V^{2} A}{\rho L} \propto A \propto D^{2}$$
+</div>
+
+Therefore:
+
+<div class="equation">
+$$\frac{P_{\text{new}}}{P_{\text{old}}} = \frac{D_{\text{new}}^{2}}{D_{\text{old}}^{2}}$$
+</div>
+
+<div class="equation">
+$$\frac{D_{\text{new}}}{D_{\text{old}}} = \sqrt{\frac{P_{\text{new}}}{P_{\text{old}}}} = \sqrt{\frac{50.0 \text{ W}}{60.0 \text{ W}}} = \sqrt{0.833} = 0.913$$
+</div>
+
+**Discussion**
+
+The filament diameter has been reduced to about 91.3% of its original value—a reduction of about 8.7%. This small change in diameter produces a noticeable 17% reduction in power (and thus light output). This illustrates how sensitive the power is to filament dimensions, since power is proportional to diameter squared. The evaporation of tungsten from hot filaments is a gradual process that eventually leads to bulb failure when the filament becomes thin enough to break.
+
+The filament diameter is reduced by a factor of 0.913 (or reduced to 91.3% of its original diameter).
 
 </div>
 </div>
@@ -480,6 +759,44 @@ overnight operation? (See [[Figure 4]](#Figure4).)
 
 ![The picture shows a cold vaporizer filled with water. Vapor is shown to emerge from the vaporizer. An enlarged view of the circuit inside the vaporizer is also shown. The circuit shows an A C power source connected to the leads, which are immersed in the water of the vaporizer. The resistance of the leads is shown as R.](../resources/Figure_20_04_04.jpg "This cold vaporizer passes current directly through water, vaporizing it directly with relatively little temperature increase.")
 {: #Figure4}
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Calculate the useful power output, then use the heat of vaporization of water ($$L_v = 2.26 \times 10^{6}$$ J/kg) to find the vaporization rate.
+
+**Solution**
+
+**(a)** Calculate the useful power:
+
+<div class="equation">
+$$P_{\text{useful}} = \eta \times P = \eta \times IV = (0.950)(3.50 \text{ A})(120 \text{ V}) = 399 \text{ W}$$
+</div>
+
+The vaporization rate is:
+
+<div class="equation">
+$$\text{Rate} = \frac{P_{\text{useful}}}{L_v} = \frac{399 \text{ J/s}}{2.26 \times 10^{6} \text{ J/kg}} = 1.77 \times 10^{-4} \text{ kg/s}$$
+</div>
+
+Converting to grams per minute:
+
+<div class="equation">
+$$\text{Rate} = 1.77 \times 10^{-4} \text{ kg/s} \times \frac{1000 \text{ g}}{1 \text{ kg}} \times \frac{60 \text{ s}}{1 \text{ min}} = 10.6 \text{ g/min}$$
+</div>
+
+**(b)** For 8.00 hours of operation:
+
+<div class="equation">
+$$\text{Water needed} = 10.6 \text{ g/min} \times 60 \text{ min/h} \times 8.00 \text{ h} = 5090 \text{ g} = 5.09 \text{ kg}$$
+</div>
+
+**Discussion**
+
+Over 5 kg (about 5 liters) of water is needed for overnight operation. This is a substantial amount and explains why vaporizers have large reservoirs. The 95% efficiency means only 5% of the electrical energy is lost to heating the water rather than vaporizing it. This "cold" vaporization process is valuable for humidifying rooms, especially during winter when indoor air becomes very dry.
+
+(a) The vaporization rate is 10.6 g/min. (b) About 5.09 kg of water is needed for 8 hours of operation.
 
 </div>
 </div>
@@ -510,6 +827,50 @@ What current must be produced by a 12.0-V battery-operated bottle warmer in
 order to heat 75.0 g of glass, 250 g of baby formula, and $$ 3.00 \times 10^{2}
 \text{g} $$ of aluminum from $$ 20.0\text{ºC} $$ to $$ 90.0\text{ºC} $$ in 5.00
 min?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Calculate the total heat needed using $$Q = mc\Delta T$$ for each material (using specific heats: glass ≈ 840 J/kg·°C, water ≈ 4186 J/kg·°C for formula, aluminum ≈ 900 J/kg·°C). Then find the power required and use $$P = IV$$ to find the current.
+
+**Solution**
+
+Calculate the heat needed for each component ($$\Delta T = 70.0$$ °C):
+
+<div class="equation">
+$$Q_{\text{glass}} = m_g c_g \Delta T = (0.0750 \text{ kg})(840 \text{ J/kg·°C})(70.0 \text{ °C}) = 4410 \text{ J}$$
+</div>
+
+<div class="equation">
+$$Q_{\text{formula}} = m_f c_f \Delta T = (0.250 \text{ kg})(4186 \text{ J/kg·°C})(70.0 \text{ °C}) = 73255 \text{ J}$$
+</div>
+
+<div class="equation">
+$$Q_{\text{aluminum}} = m_{\text{Al}} c_{\text{Al}} \Delta T = (0.300 \text{ kg})(900 \text{ J/kg·°C})(70.0 \text{ °C}) = 18900 \text{ J}$$
+</div>
+
+<div class="equation">
+$$Q_{\text{total}} = 4410 + 73255 + 18900 = 96565 \text{ J}$$
+</div>
+
+Calculate the power needed:
+
+<div class="equation">
+$$P = \frac{Q}{t} = \frac{96565 \text{ J}}{5.00 \text{ min} \times 60 \text{ s/min}} = \frac{96565 \text{ J}}{300 \text{ s}} = 322 \text{ W}$$
+</div>
+
+Calculate the current:
+
+<div class="equation">
+$$I = \frac{P}{V} = \frac{322 \text{ W}}{12.0 \text{ V}} = 26.8 \text{ A}$$
+</div>
+
+**Discussion**
+
+A current of 26.8 A is quite high for a 12-V system and would require relatively heavy wiring. Most of the heat goes into the baby formula (about 76%) because of water's high specific heat. This type of bottle warmer would typically be plugged into a car's cigarette lighter socket, though 26.8 A exceeds the typical 15-20 A rating of such sockets. In practice, such warmers often take longer than 5 minutes to reduce current requirements.
+
+The bottle warmer must produce a current of 26.8 A.
 
 </div>
 </div>
