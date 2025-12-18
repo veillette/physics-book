@@ -339,9 +339,27 @@ In view of the small currents that cause shock hazards and the larger currents t
 
 </div>
 <div class="solution" markdown="1">
-(a) 230 kW
+**Strategy**
 
-(b) 960 A
+(a) Use $$P = V^2/R$$ to find power. (b) Use $$I = V/R$$ to find current.
+
+**Solution for (a)**
+
+<div class="equation">
+$$P = \frac{V^2}{R} = \frac{(240 \text{ V})^2}{0.250 \text{ Ω}} = \frac{57,600}{0.250} = 230,400 \text{ W} = 230 \text{ kW}$$
+</div>
+
+**Solution for (b)**
+
+<div class="equation">
+$$I = \frac{V}{R} = \frac{240 \text{ V}}{0.250 \text{ Ω}} = 960 \text{ A}$$
+</div>
+
+**Discussion**
+
+The short circuit dissipates an enormous 230 kW of power and draws 960 A—enough to instantly vaporize thin wires and create electrical fires. This is why circuit breakers must interrupt faults quickly. Even a 20-A breaker would take time to trip at this current, allowing significant energy release. The heat generated could ignite nearby flammable materials, making short circuits a serious fire hazard.
+
+(a) The power dissipated is 230 kW. (b) The current is 960 A.
 
 </div>
 </div>
@@ -349,6 +367,24 @@ In view of the small currents that cause shock hazards and the larger currents t
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 What voltage is involved in a 1.44-kW short circuit through a  $$ 0.100 \text{-} \Omega  $$ resistance?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Rearrange $$P = V^2/R$$ to solve for voltage: $$V = \sqrt{PR}$$.
+
+**Solution**
+
+<div class="equation">
+$$V = \sqrt{PR} = \sqrt{(1440 \text{ W})(0.100 \text{ Ω})} = \sqrt{144} = 12.0 \text{ V}$$
+</div>
+
+**Discussion**
+
+Only 12.0 V produces this 1.44 kW short circuit—a voltage readily available from car batteries! This illustrates why even low-voltage systems can be dangerous when resistance is very low. A 12-V car battery can deliver hundreds of amperes, enough to weld metal and cause severe burns. Low voltage doesn't mean low hazard when short circuits are involved.
+
+The voltage is 12.0 V.
 
 </div>
 </div>
@@ -359,9 +395,31 @@ Find the current through a person and identify the likely effect on her if she t
 
 </div>
 <div class="solution" markdown="1">
-(a) 0.400 mA, no effect
+**Strategy**
 
-(b) 26.7 mA, muscular contraction for duration of the shock (can't let go)
+Use Ohm's law $$I = V/R$$ for each scenario, then compare to threshold currents for shock effects from Table 1.
+
+**Solution for (a)**
+
+<div class="equation">
+$$I = \frac{V}{R} = \frac{120 \text{ V}}{300,000 \text{ Ω}} = 4.00 \times 10^{-4} \text{ A} = 0.400 \text{ mA}$$
+</div>
+
+From Table 1, currents below 1 mA are typically not felt. Effect: **No effect.**
+
+**Solution for (b)**
+
+<div class="equation">
+$$I = \frac{V}{R} = \frac{120 \text{ V}}{4500 \text{ Ω}} = 0.0267 \text{ A} = 26.7 \text{ mA}$$
+</div>
+
+From Table 1, currents of 10-20 mA cause "can't let go" muscular contraction, and 20 mA and above cause sustained muscular contraction and difficulty breathing. Effect: **Severe muscular contraction—the person cannot let go of the voltage source.**
+
+**Discussion**
+
+The dramatic difference between these scenarios—no effect vs. potentially lethal shock—demonstrates the critical importance of insulation and grounding. The rubber mat provides about 67× the protection compared to wet grass. The "can't let go" threshold (around 10-15 mA) is particularly dangerous because victims cannot release the source, leading to prolonged exposure and potential fibrillation.
+
+(a) 0.400 mA causes no perceivable effect. (b) 26.7 mA causes severe muscular contraction ("can't let go").
 
 </div>
 </div>
@@ -369,6 +427,32 @@ Find the current through a person and identify the likely effect on her if she t
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 While taking a bath, a person touches the metal case of a radio. The path through the person to the drainpipe and ground has a resistance of  $$4000 \Omega  $$. What is the smallest voltage on the case of the radio that could cause ventricular fibrillation?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+From Table 1, ventricular fibrillation can occur at currents as low as 100-300 mA. Using the lower threshold (100 mA), calculate the minimum voltage using $$V = IR$$.
+
+**Solution**
+
+Using the minimum fibrillation current of 100 mA:
+
+<div class="equation">
+$$V = IR = (0.100 \text{ A})(4000 \text{ Ω}) = 400 \text{ V}$$
+</div>
+
+However, wet conditions significantly lower body resistance, and lower currents near 100 mA can cause fibrillation. If we consider that sustained currents above 75 mA may cause fibrillation:
+
+<div class="equation">
+$$V = IR = (0.075 \text{ A})(4000 \text{ Ω}) = 300 \text{ V}$$
+</div>
+
+**Discussion**
+
+While the calculated voltage (300-400 V) is higher than household voltage (120 V), this doesn't mean bathtub electrocution is impossible. The 4000 Ω resistance assumes a current path through the torso; actual resistance could be much lower with wet skin, potentially as low as 1000 Ω. At 1000 Ω, only 100 V would be needed for potentially fatal current. This is why electrical devices should NEVER be used near bathtubs, and modern bathrooms require GFCI outlets that trip at 5 mA.
+
+The smallest voltage that could cause ventricular fibrillation through a 4000 Ω path is approximately 300-400 V.
 
 </div>
 </div>
@@ -379,7 +463,24 @@ Foolishly trying to fish a burning piece of bread from a toaster with a metal bu
 
 </div>
 <div class="solution" markdown="1">
- $$ 1.20 \times 10^{5}  \Omega  $$
+**Strategy**
+
+The threshold of sensation is about 1 mA. Since he didn't feel anything, the current must be below 1 mA. Use $$R = V/I$$ with I < 1 mA to find the minimum resistance.
+
+**Solution**
+
+For current below the threshold of sensation (1 mA):
+
+<div class="equation">
+$$R > \frac{V}{I} = \frac{120 \text{ V}}{0.001 \text{ A}} = 120,000 \text{ Ω} = 1.20 \times 10^{5} \text{ Ω}$$
+</div>
+
+**Discussion**
+
+The rubber-soled shoes provided at least 120 kΩ of resistance, limiting current to below the 1-mA sensation threshold. Without this protection, the man could have received a severe or fatal shock—toasters operate at 120 V with internal components that can deliver dangerous currents. This scenario illustrates both the danger of improper appliance use AND the protective value of insulating footwear. Never use metal utensils in plugged-in toasters!
+
+The minimum resistance of the path is $$1.20 \times 10^{5}$$ Ω (120 kΩ).
+
 </div>
 </div>
 
@@ -388,6 +489,32 @@ Foolishly trying to fish a burning piece of bread from a toaster with a metal bu
 (a) During surgery, a current as small as  $$20.0 \text{μA} $$
  applied directly to the heart may cause ventricular fibrillation. If the resistance of the exposed heart is  $$300 \Omega  $$ ,
  what is the smallest voltage that poses this danger? (b) Does your answer imply that special electrical safety precautions are needed?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+(a) Use Ohm's law: $$V = IR$$ with the given microshock threshold current.
+
+(b) Compare this voltage to common voltage sources in a medical environment.
+
+**Solution for (a)**
+
+<div class="equation">
+$$V = IR = (20.0 \times 10^{-6} \text{ A})(300 \text{ Ω}) = 6.00 \times 10^{-3} \text{ V} = 6.00 \text{ mV}$$
+</div>
+
+**Solution for (b)**
+
+Yes! This voltage is extremely small—only 6 mV, about the voltage of a single thermocouple junction or the static charge from walking across a carpet. During surgery with the heart exposed or catheterized, the patient is "microshock sensitive" and vulnerable to voltages thousands of times smaller than household voltage.
+
+**Discussion**
+
+(a) Only 6.00 mV can cause potentially fatal fibrillation in a microshock-sensitive patient.
+
+(b) Absolutely, special precautions are essential. Operating rooms use equipotential grounding (all metal surfaces connected to a common ground), isolated power systems, and specialized low-leakage equipment. Medical devices must meet stringent leakage current limits (typically < 10 μA). Even static electricity from personnel must be controlled. A surgeon touching a catheter with static charge could deliver a lethal shock to the heart.
+
+(a) The smallest dangerous voltage is 6.00 mV. (b) Yes, stringent electrical safety precautions are absolutely necessary.
 
 </div>
 </div>
@@ -399,15 +526,88 @@ Foolishly trying to fish a burning piece of bread from a toaster with a metal bu
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 1.00 \Omega  $$
-(b) 14.4 kW
+**Strategy**
+
+(a) Peak power for AC is $$P_0 = V_0^2/R = 2V_{\text{rms}}^2/R$$. Solve for R.
+
+(b) Use $$P_{\text{avg}} = V_{\text{rms}}^2/R$$ with 120 V.
+
+**Solution for (a)**
+
+For AC, $$V_0 = \sqrt{2} \times V_{\text{rms}} = \sqrt{2} \times 220 = 311$$ V
+
+<div class="equation">
+$$P_0 = \frac{V_0^2}{R} \rightarrow R = \frac{V_0^2}{P_0} = \frac{(311 \text{ V})^2}{96,800 \text{ W}} = \frac{96,721}{96,800} = 1.00 \text{ Ω}$$
+</div>
+
+**Solution for (b)**
+
+With 120-V AC (rms):
+
+<div class="equation">
+$$P_{\text{avg}} = \frac{V_{\text{rms}}^2}{R} = \frac{(120 \text{ V})^2}{1.00 \text{ Ω}} = 14,400 \text{ W} = 14.4 \text{ kW}$$
+</div>
+
+**Discussion**
+
+(a) The resistance is 1.00 Ω—a very low value indicating a serious short circuit.
+
+(b) Even at the lower 120-V voltage, this short circuit dissipates 14.4 kW—enough to start fires rapidly. The peak power at 220 V (96.8 kW) shows why higher voltages create more dangerous faults. European 220-V systems have nearly 7× the average power dissipation in a short circuit compared to 120-V systems with the same resistance.
+
+(a) The resistance is 1.00 Ω. (b) The average power at 120 V AC would be 14.4 kW.
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A heart defibrillator passes 10.0 A through a patient’s torso for 5.00 ms in an attempt to restore normal beating. (a) How much charge passed? (b) What voltage was applied if 500 J of energy was dissipated? (c) What was the path’s resistance? (d) Find the temperature increase caused in the 8.00 kg of affected tissue.
+A heart defibrillator passes 10.0 A through a patient's torso for 5.00 ms in an attempt to restore normal beating. (a) How much charge passed? (b) What voltage was applied if 500 J of energy was dissipated? (c) What was the path's resistance? (d) Find the temperature increase caused in the 8.00 kg of affected tissue.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+(a) Use $$Q = It$$. (b) Use energy equation $$E = QV$$ or $$E = Pt$$. (c) Use $$R = V/I$$. (d) Use $$E = mc\Delta T$$ with specific heat of body tissue (similar to water, $$c = 3500$$ J/kg·°C).
+
+**Solution for (a)**
+
+<div class="equation">
+$$Q = It = (10.0 \text{ A})(5.00 \times 10^{-3} \text{ s}) = 0.0500 \text{ C} = 50.0 \text{ mC}$$
+</div>
+
+**Solution for (b)**
+
+Using $$E = QV$$:
+
+<div class="equation">
+$$V = \frac{E}{Q} = \frac{500 \text{ J}}{0.0500 \text{ C}} = 10,000 \text{ V} = 10.0 \text{ kV}$$
+</div>
+
+**Solution for (c)**
+
+<div class="equation">
+$$R = \frac{V}{I} = \frac{10,000 \text{ V}}{10.0 \text{ A}} = 1000 \text{ Ω} = 1.00 \text{ kΩ}$$
+</div>
+
+**Solution for (d)**
+
+Using tissue specific heat ≈ 3500 J/kg·°C:
+
+<div class="equation">
+$$\Delta T = \frac{E}{mc} = \frac{500 \text{ J}}{(8.00 \text{ kg})(3500 \text{ J/kg·°C})} = 0.0179 \text{°C}$$
+</div>
+
+**Discussion**
+
+(a) 50 mC of charge passes—a small amount spread over the 5 ms pulse.
+
+(b) The high 10 kV voltage is necessary to drive current through the body's resistance.
+
+(c) The 1 kΩ resistance is typical for current path through the torso with good electrode contact.
+
+(d) The temperature rise is negligible (0.018°C) because the energy is distributed through 8 kg of tissue. Defibrillator shocks are designed to deliver therapeutic current without causing burns.
+
+(a) 50.0 mC of charge passed. (b) 10.0 kV was applied. (c) The path resistance was 1.00 kΩ. (d) The temperature increase is 0.018°C.
 
 </div>
 </div>
@@ -424,8 +624,50 @@ current. Is this likely to be damaging?
 
 </div>
 <div class="solution" markdown="1">
-Temperature increases  $$860 \text{ºC} $$ .
- It is very likely to be damaging.
+**Strategy**
+
+This is an integrated concepts problem combining electrical power with thermal physics. The approach involves:
+1. Calculate power dissipated using $$P = V^2/R$$
+2. Find total energy using $$E = Pt$$
+3. Convert energy to calories (1 cal = 4.186 J)
+4. Use $$Q = mc\Delta T$$ to find temperature rise
+
+**Solution**
+
+First, calculate the power dissipated in the short circuit:
+
+<div class="equation">
+$$P = \frac{V^2}{R} = \frac{(120 \text{ V})^2}{0.500 \text{ Ω}} = \frac{14,400}{0.500} = 28,800 \text{ W}$$
+</div>
+
+Calculate the total energy dissipated before the breaker trips:
+
+<div class="equation">
+$$E = Pt = (28,800 \text{ W})(0.0500 \text{ s}) = 1440 \text{ J}$$
+</div>
+
+Convert to calories:
+
+<div class="equation">
+$$E = \frac{1440 \text{ J}}{4.186 \text{ J/cal}} = 344 \text{ cal}$$
+</div>
+
+Now calculate the temperature rise using $$Q = mc\Delta T$$:
+
+<div class="equation">
+$$\Delta T = \frac{Q}{mc} = \frac{344 \text{ cal}}{(2.00 \text{ g})(0.200 \text{ cal/g·°C})} = \frac{344}{0.400} = 860 \text{°C}$$
+</div>
+
+**Discussion**
+
+The temperature increase of 860°C is extraordinarily high—well above the ignition point of most common materials:
+- Paper ignites at about 230°C
+- Wood ignites at about 300°C
+- Many plastics melt or ignite between 200-400°C
+
+Even though the circuit breaker trips in only 50 ms, the small mass of surrounding materials (2 g) combined with the enormous power (28.8 kW) creates a severe thermal hazard. This is why short circuits are so dangerous—they can start fires faster than protective devices can respond. The calculation assumes all energy goes into heating the surrounding material with no heat loss, which is reasonable given the very short time involved.
+
+The temperature increases by 860°C, which is very likely to cause damage and possibly start a fire.
 
 </div>
 </div>
@@ -440,6 +682,70 @@ insulation needed to protect the person from harm. Among the things to be
 considered are the voltage to which the person might be exposed, likely body
 resistance (dry, wet, …), and acceptable currents (safe but sensed, safe and
 unfelt, …).
+
+</div>
+<div class="solution" markdown="1">
+**Sample Problem**
+
+An electrical technician works on 480-V AC industrial equipment. Her hands often become sweaty during work, giving her a body resistance of approximately 5000 Ω. (a) What current would flow through her body if she accidentally touched a live 480-V terminal without insulating protection? (b) What is the minimum resistance of insulating gloves needed to limit the current to 1 mA (safe and unfelt)? (c) What glove resistance would be needed to keep current below 5 mA (safe but sensed)?
+
+**Strategy**
+
+(a) Use Ohm's law $$I = V/R$$ with body resistance only.
+
+(b) For current below sensation threshold, the total resistance must satisfy $$R_{\text{total}} = V/I$$. The glove resistance adds in series with body resistance.
+
+(c) Apply the same approach for the 5-mA "maximum harmless" threshold.
+
+**Solution for (a)**
+
+Without gloves, current through body:
+
+<div class="equation">
+$$I = \frac{V}{R_{\text{body}}} = \frac{480 \text{ V}}{5000 \text{ Ω}} = 0.096 \text{ A} = 96 \text{ mA}$$
+</div>
+
+This current is in the potentially fatal ventricular fibrillation range (100-300 mA).
+
+**Solution for (b)**
+
+For current limited to 1 mA (unfelt threshold):
+
+<div class="equation">
+$$R_{\text{total}} = \frac{V}{I} = \frac{480 \text{ V}}{0.001 \text{ A}} = 480,000 \text{ Ω}$$
+</div>
+
+Required glove resistance:
+
+<div class="equation">
+$$R_{\text{gloves}} = R_{\text{total}} - R_{\text{body}} = 480,000 \text{ Ω} - 5000 \text{ Ω} = 475,000 \text{ Ω} = 475 \text{ kΩ}$$
+</div>
+
+**Solution for (c)**
+
+For current limited to 5 mA (safe but sensed):
+
+<div class="equation">
+$$R_{\text{total}} = \frac{V}{I} = \frac{480 \text{ V}}{0.005 \text{ A}} = 96,000 \text{ Ω}$$
+</div>
+
+Required glove resistance:
+
+<div class="equation">
+$$R_{\text{gloves}} = R_{\text{total}} - R_{\text{body}} = 96,000 \text{ Ω} - 5000 \text{ Ω} = 91,000 \text{ Ω} = 91 \text{ kΩ}$$
+</div>
+
+**Discussion**
+
+(a) Without protection, the 96-mA current is extremely dangerous—near the fibrillation threshold.
+
+(b) To feel nothing, gloves must provide at least 475 kΩ of resistance. Typical Class 0 electrical gloves rated for 1000 V provide resistance exceeding 100 MΩ when dry, far exceeding this requirement.
+
+(c) For a "safe but warned" scenario, only 91 kΩ is needed. However, safety standards require much higher margins—industrial practice mandates gloves rated for voltages well above the working voltage.
+
+The problem illustrates why electrical workers must wear proper PPE even when body resistance seems adequate. The combination of high voltage, lowered resistance from perspiration, and the proximity to lethal current thresholds makes insulating protection essential.
+
+(a) Without protection, 96 mA would flow—potentially fatal. (b) Gloves must provide at least 475 kΩ to keep current unfelt. (c) At least 91 kΩ is needed to keep current below the safe threshold.
 
 </div>
 </div>
