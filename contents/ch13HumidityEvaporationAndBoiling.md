@@ -13,7 +13,7 @@ chapterNumber: 13
 
 </div>
 
-![](../resources/Figure_13_06_00.jpg 'Dew drops like these, on a banana leaf photographed just after sunrise, form when the air temperature drops to or below the dew point. At the dew point, the rate at which water molecules join together is greater than the rate at which they separate, and some of the water condenses to form droplets. (credit: Aaron Escobar, Flickr) ')
+![Dew drops on a banana leaf.](../resources/Figure_13_06_00.jpg 'Dew drops like these, on a banana leaf photographed just after sunrise, form when the air temperature drops to or below the dew point. At the dew point, the rate at which water molecules join together is greater than the rate at which they separate, and some of the water condenses to form droplets. (credit: Aaron Escobar, Flickr) ')
 {: #Figure1}
 
 The expression “it’s not the heat, it’s the humidity” makes a valid point. We
