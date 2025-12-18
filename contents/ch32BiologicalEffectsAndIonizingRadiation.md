@@ -35,9 +35,9 @@ as the cell type and age of the cell. A cell with a damaged ability to repair
 DNA, which could have been induced by ionizing radiation, can do one of the
 following:
 
-* The cell can go into an irreversible state of dormancy, known as senescence.
-* The cell can commit suicide, known as programmed cell death.
-* The cell can go into unregulated cell division leading to tumors and cancers.
+- The cell can go into an irreversible state of dormancy, known as senescence.
+- The cell can commit suicide, known as programmed cell death.
+- The cell can go into unregulated cell division leading to tumors and cancers.
 
 Since ionizing radiation damages the DNA, which is critical in cell
 reproduction, it has its greatest effect on cells that rapidly reproduce,
@@ -112,7 +112,7 @@ relative biological effectiveness.
  $$rem=rad×RBE $$
 </div>
 
-![The image shows ionization created in cells by gamma and alpha radiation. Series of cells are shown through which a gamma ray passes causing ionization whose density is low. Another series of cells are shown through which an alpha ray passes causing ionization whose density is high.](../resources/Figure_32_02_01.jpg "The image shows ionization created in cells by \( \alpha \); and \( \gamma \) radiation. Because of its shorter range, the ionization and damage created by \( \alpha \) is more concentrated and harder for the organism to repair. Thus, the RBE for \( \alpha \)s is greater than the RBE for \( \gamma \)s, even though they create the same amount of ionization at the same energy.")
+![The image shows ionization created in cells by gamma and alpha radiation. Series of cells are shown through which a gamma ray passes causing ionization whose density is low. Another series of cells are shown through which an alpha ray passes causing ionization whose density is high.](../resources/Figure_32_02_01.jpg 'The image shows ionization created in cells by ( \\alpha ); and ( \\gamma ) radiation. Because of its shorter range, the ionization and damage created by ( \\alpha ) is more concentrated and harder for the organism to repair. Thus, the RBE for ( \\alpha )s is greater than the RBE for ( \\gamma )s, even though they create the same amount of ionization at the same energy.')
 {: #Figure1}
 
 So, if a person had a whole-body dose of 2.00 rad of $$\gamma $$ radiation, the
@@ -136,7 +136,9 @@ neutrons often cause secondary radiation when they are captured. Note that the
 RBEs are 1 for higher-energy $$\beta $$ s, $$\gamma $$ s, and x-rays, three of
 the most common types of radiation. For those types of radiation, the numerical
 values of the dose in rem and rad are identical. For example, 1 rad of $$\gamma
-$$ radiation is also 1 rem. For that reason, rads are still widely quoted rather
+
+$$
+radiation is also 1 rem. For that reason, rads are still widely quoted rather
 than rem. [[Table 2]](#Table2) summarizes the units that are used for radiation.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -420,7 +422,7 @@ the United States only at the time of the Three Mile Island (TMI) accident in 19
             <td></td>
           </tr><tr>
             <td>
-               $${}^{40}\text{K} \text{,}  {}^{14}\text{C} \text{,}  {}^{226}\text{Ra} $$ 
+               $${}^{40}\text{K} \text{,}  {}^{14}\text{C} \text{,}  {}^{226}\text{Ra} $$
             </td>
             <td>0.24</td>
             <td>0.28</td>
@@ -665,8 +667,10 @@ Watch alpha particles escape from a polonium nucleus, causing radioactive alpha 
   </div>
 
 * The SI unit for radiation dose is the gray  (Gy), which is defined to be $$1
-  Gy = 1 J/kg = 100 rad. $$
-* To account for the effect of the type of particle creating the ionization, we
+  Gy = 1 J/kg = 100 rad.
+$$
+
+- To account for the effect of the type of particle creating the ionization, we
   use the relative biological effectiveness (RBE) or quality factor (QF) given
   in [[Table 1]](#Table1) and define a unit called the roentgen equivalent man (
   rem) as
@@ -675,7 +679,7 @@ Watch alpha particles escape from a polonium nucleus, causing radioactive alpha 
    $$\text{rem}=\text{rad}×\text{RBE}. $$
   </div>
 
-* Particles that have short ranges or create large ionization densities have
+- Particles that have short ranges or create large ionization densities have
   RBEs greater than unity. The SI equivalent of the rem is the sievert (Sv),
   defined to be
 
@@ -683,7 +687,7 @@ Watch alpha particles escape from a polonium nucleus, causing radioactive alpha 
    $$\text{Sv}=\text{Gy}×\text{RBE}\text{and} 1 \text{Sv}=100 \text{rem} \text{.}  $$
   </div>
 
-* Whole-body, single-exposure doses of 0.1 Sv or less are low doses while those
+- Whole-body, single-exposure doses of 0.1 Sv or less are low doses while those
   of 0.1 to 1 Sv are moderate, and those over 1 Sv are high doses. Some
   immediate radiation effects are given in [[Table 3]](#Table3). Effects due to
   low doses are not observed, but their risk is assumed to be directly
@@ -728,7 +732,7 @@ Which methods of radiation protection were used in the device shown in the first
 
 (a)
 
-![Figure A shows a &#x201C;shoe fitting x-ray device.&#x201D; Figure B shows a group of people wearing white protective suits standing near a yellow radiation hazard sign.](../resources/Figure_32_02_03.jpg "(a) This x-ray fluorescence machine is one of the thousands used in shoe stores to produce images of feet as a check on the fit of shoes. They are unshielded and remain on as long as the feet are in them, producing doses much greater than medical images. Children were fascinated with them. These machines were used in shoe stores until laws preventing such unwarranted radiation exposure were enacted in the 1950s. (credit: Andrew Kuchling ) (b) Now that we know the effects of exposure to radioactive material, safety is a priority. (credit: U.S. Navy)")
+![Figure A shows a “shoe fitting x-ray device.” Figure B shows a group of people wearing white protective suits standing near a yellow radiation hazard sign.](../resources/Figure_32_02_03.jpg '(a) This x-ray fluorescence machine is one of the thousands used in shoe stores to produce images of feet as a check on the fit of shoes. They are unshielded and remain on as long as the feet are in them, producing doses much greater than medical images. Children were fascinated with them. These machines were used in shoe stores until laws preventing such unwarranted radiation exposure were enacted in the 1950s. (credit: Andrew Kuchling ) (b) Now that we know the effects of exposure to radioactive material, safety is a priority. (credit: U.S. Navy)')
 {: #Figure3}
 
 </div>
@@ -849,13 +853,13 @@ Find the mass of  $${}^{239}\text{Pu} $$
 ### Footnotes
 {: class="footnote-refs-title"}
 
-* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
+- {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
   footnote-ref-link"} <span class="footnote-ref-content">Values approximate,
   difficult to determine.</span>
-* {: class="footnote-ref" #footnote2} [2](#footnote-ref2){: class="
+- {: class="footnote-ref" #footnote2} [2](#footnote-ref2){: class="
   footnote-ref-link"} <span class="footnote-ref-content">Multiply by 100 to
   obtain dose in rem.</span>
-* {: class="footnote-ref" #footnote3} [3](#footnote-ref3){: class="
+- {: class="footnote-ref" #footnote3} [3](#footnote-ref3){: class="
   footnote-ref-link"} <span class="footnote-ref-content">Multiply by 100 to
   obtain dose in mrem/y.</span>
   { data-list-type="bulleted" data-bullet-style="none"}

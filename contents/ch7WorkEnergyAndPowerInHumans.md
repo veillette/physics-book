@@ -20,14 +20,14 @@ tissue. (See [Figure 1](#Figure1).) The fraction going into each form depends bo
 on how much we eat and on our level of physical activity. If we eat more than is
 needed to do work and stay warm, the remainder goes into body fat.
 
-![A schematic diagram of energy consumed by humans and converted to various other forms is shown. Food energy is converted into work, thermal energy, and stored fat depicted by an arrow branching out of food energy and ending at these three forms. Stored fat plus thermal energy is equal to the final other energy, labeled  O E sub f, and nonconservative work is shown by W sub n c, which is negative, so the initial other energy, labeled O E sub i, plus W sub n c is equal to O E sub f .](../resources/Figure_07_08_01.jpg "Energy consumed by humans is converted to work, thermal energy, and stored fat. By far the largest fraction goes to thermal energy, although the fraction varies depending on the type of physical activity.")
+![A schematic diagram of energy consumed by humans and converted to various other forms is shown. Food energy is converted into work, thermal energy, and stored fat depicted by an arrow branching out of food energy and ending at these three forms. Stored fat plus thermal energy is equal to the final other energy, labeled  O E sub f, and nonconservative work is shown by W sub n c, which is negative, so the initial other energy, labeled O E sub i, plus W sub n c is equal to O E sub f .](../resources/Figure_07_08_01.jpg 'Energy consumed by humans is converted to work, thermal energy, and stored fat. By far the largest fraction goes to thermal energy, although the fraction varies depending on the type of physical activity.')
 {: #Figure1}
 
 ### Power Consumed at Rest
 
-The *rate* at which the body uses food energy to sustain life and to do
+The _rate_ at which the body uses food energy to sustain life and to do
 different activities is called the **metabolic rate**. The total energy
-conversion rate of a person *at rest*
+conversion rate of a person _at rest_
 is called the **basal metabolic rate** (BMR) and is divided among various
 systems in the body, as shown in [Table 1](#Table1). The largest fraction goes
 to the liver and spleen, with the brain coming next. Of course, during vigorous
@@ -39,15 +39,15 @@ greater BMR due to this last factor.
 
 ##### Table 1: Basal Metabolic Rates (BMR) for a 76-kg person.
 
-|Organ|Power consumed at rest (W)|Oxygen consumption (mL/min)|Percent of BMR|
-|--- |--- |--- |--- |
-|Liver & spleen|23|67|27|
-|Brain|16|47|19|
-|Skeletal muscle|15|45|18|
-|Kidney|9|26|10|
-|Heart|6|17|7|
-|Other|16|48|19|
-|Totals|85 W|250 mL/min|100%|
+| Organ           | Power consumed at rest (W) | Oxygen consumption (mL/min) | Percent of BMR |
+| --------------- | -------------------------- | --------------------------- | -------------- |
+| Liver & spleen  | 23                         | 67                          | 27             |
+| Brain           | 16                         | 47                          | 19             |
+| Skeletal muscle | 15                         | 45                          | 18             |
+| Kidney          | 9                          | 26                          | 10             |
+| Heart           | 6                          | 17                          | 7              |
+| Other           | 16                         | 48                          | 19             |
+| Totals          | 85 W                       | 250 mL/min                  | 100%           |
 
 {: #Table1}
 
@@ -61,8 +61,8 @@ activities.
 
 ### Power of Doing Useful Work
 
-Work done by a person is sometimes called **useful work**, which is *work done
-on the outside world*, such as lifting weights. Useful work requires a force
+Work done by a person is sometimes called **useful work**, which is _work done
+on the outside world_, such as lifting weights. Useful work requires a force
 exerted through a distance on the outside world, and so it excludes internal
 work, such as that done by the heart when pumping blood. Useful work does
 include that done in climbing stairs or accelerating to a full run, because
@@ -107,29 +107,29 @@ assuming the energy content of fat to be 39 kJ/g.
 
 </div>
 
-![A person is measuring the amount of oxygen in blood and metabolic rate using a pulse oxymeter. The pulse oxymeter is strapped to the person&#x2019;s wrist, and the index finger is inside the clip.](../resources/Figure_07_08_02.jpg "A pulse oxymeter is an apparatus that measures the amount of oxygen in blood. Oxymeters can be used to determine a person&#x2019;s metabolic rate, which is the rate at which food energy is converted to another form. Such measurements can indicate the level of athletic conditioning as well as certain medical problems. (credit: UusiAjaja, Wikimedia Commons)")
+![A person is measuring the amount of oxygen in blood and metabolic rate using a pulse oxymeter. The pulse oxymeter is strapped to the person’s wrist, and the index finger is inside the clip.](../resources/Figure_07_08_02.jpg 'A pulse oxymeter is an apparatus that measures the amount of oxygen in blood. Oxymeters can be used to determine a person’s metabolic rate, which is the rate at which food energy is converted to another form. Such measurements can indicate the level of athletic conditioning as well as certain medical problems. (credit: UusiAjaja, Wikimedia Commons)')
 {: #Figure2}
 
 ##### Table 2: Energy and Oxygen Consumption Rates
 
-|Activity|Energy consumption in watts|Oxygen consumption in liters O2/min|
-|--- |--- |--- |
-|Sleeping|83|0.24|
-|Sitting at rest|120|0.34|
-|Standing relaxed|125|0.36|
-|Sitting in class|210|0.60|
-|Walking (5 km/h)|280|0.80|
-|Cycling (13–18 km/h)|400|1.14|
-|Shivering|425|1.21|
-|Playing tennis|440|1.26|
-|Swimming breaststroke|475|1.36|
-|Ice skating (14.5 km/h)|545|1.56|
-|Climbing stairs (116/min)|685|1.96|
-|Cycling (21 km/h)|700|2.00|
-|Running cross-country|740|2.12|
-|Playing basketball|800|2.28|
-|Cycling, professional racer|1855|5.30|
-|Sprinting|2415|6.90|
+| Activity                    | Energy consumption in watts | Oxygen consumption in liters O2/min |
+| --------------------------- | --------------------------- | ----------------------------------- |
+| Sleeping                    | 83                          | 0.24                                |
+| Sitting at rest             | 120                         | 0.34                                |
+| Standing relaxed            | 125                         | 0.36                                |
+| Sitting in class            | 210                         | 0.60                                |
+| Walking (5 km/h)            | 280                         | 0.80                                |
+| Cycling (13–18 km/h)        | 400                         | 1.14                                |
+| Shivering                   | 425                         | 1.21                                |
+| Playing tennis              | 440                         | 1.26                                |
+| Swimming breaststroke       | 475                         | 1.36                                |
+| Ice skating (14.5 km/h)     | 545                         | 1.56                                |
+| Climbing stairs (116/min)   | 685                         | 1.96                                |
+| Cycling (21 km/h)           | 700                         | 2.00                                |
+| Running cross-country       | 740                         | 2.12                                |
+| Playing basketball          | 800                         | 2.28                                |
+| Cycling, professional racer | 1855                        | 5.30                                |
+| Sprinting                   | 2415                        | 6.90                                |
 
 {: #Table2}
 
@@ -146,22 +146,22 @@ this electrical potential in nerve impulses.) This bioelectrical energy
 ultimately becomes mostly thermal energy, but some is utilized to power chemical
 processes such as in the kidneys and liver, and in fat production.
 
-![An f M R I scan of a human head with energy consumption in the vision center shown by a bright spot. This brightness indicates the energy consumption.](../resources/Figure_07_08_03.jpg "This fMRI scan shows an increased level of energy consumption in the vision center of the brain. Here, the patient was being asked to recognize faces. (credit: NIH via Wikimedia Commons)")
+![An f M R I scan of a human head with energy consumption in the vision center shown by a bright spot. This brightness indicates the energy consumption.](../resources/Figure_07_08_03.jpg 'This fMRI scan shows an increased level of energy consumption in the vision center of the brain. Here, the patient was being asked to recognize faces. (credit: NIH via Wikimedia Commons)')
 {: #Figure3}
 
 ### Section Summary
 
-* The human body converts energy stored in food into work, thermal energy,
+- The human body converts energy stored in food into work, thermal energy,
   and/or chemical energy that is stored in fatty tissue.
-* The *rate* at which the body uses food energy to sustain life and to do
+- The _rate_ at which the body uses food energy to sustain life and to do
   different activities is called the metabolic rate, and the corresponding rate
-  when at rest is called the basal metabolic rate (  BMR)
-* The energy included in the basal metabolic rate is divided among various
+  when at rest is called the basal metabolic rate ( BMR)
+- The energy included in the basal metabolic rate is divided among various
   systems in the body, with the largest fraction going to the liver and spleen,
   and the brain coming next.
-* About 75% of food calories are used to sustain basic body functions included
+- About 75% of food calories are used to sustain basic body functions included
   in the basal metabolic rate.
-* The energy consumption of people during various activities can be determined
+- The energy consumption of people during various activities can be determined
   by measuring their oxygen use, because the digestive process is basically one
   of oxidizing food.
 
@@ -264,7 +264,7 @@ Converting to horsepower (1 hp = 746 W):
 Calculate the power output in watts and horsepower of a shot-putter who takes 1.20 s to accelerate
 the 7.27-kg shot from rest to 14.0 m/s, while raising it 0.800 m. (Do not include the power produced to accelerate his body.)
 
-![A close view of a shot-putter throwing the shot.](../resources/Figure_07_08_04.jpg "Shot putter at the Dornoch Highland Gathering in 2007. (credit: John Haslam, Flickr)")
+![A close view of a shot-putter throwing the shot.](../resources/Figure_07_08_04.jpg 'Shot putter at the Dornoch Highland Gathering in 2007. (credit: John Haslam, Flickr)')
 {: #Figure4}
 
 </div>
@@ -285,7 +285,7 @@ an efficiency of 20%?
 
 **Strategy**
 
-Efficiency is defined as $$ \text{Eff} = \frac{W_{\text{out}}}{E_{\text{in}}} $$. We need to convert kcal to joules using 1 kcal = 4184 J.
+Efficiency is defined as $$ \text{Eff} = \frac{W*{\text{out}}}{E*{\text{in}}} $$. We need to convert kcal to joules using 1 kcal = 4184 J.
 
 **Solution for (a)**
 
@@ -351,6 +351,7 @@ From Table 2, we find the power consumption for each activity and multiply by th
 **Solution**
 
 From Table 2:
+
 - Sleeping: 83 W
 - Walking (5 km/h): 280 W
 - Sitting in class: 210 W
@@ -551,7 +552,7 @@ the 234-min trip was about 350 W. Using the efficiency for
 cycling from the module on [Conservation of Energy](./ch7ConservationOfEnergy),
 calculate the food energy in kilojoules he metabolized during the flight.
 
-![An aircraft flying in the air shown from outside, which is powered by a bicycle-type drive mechanism.](../resources/Figure_07_08_05.jpg "The Daedalus 88 in flight. (credit: NASA photo by Beasley)")
+![An aircraft flying in the air shown from outside, which is powered by a bicycle-type drive mechanism.](../resources/Figure_07_08_05.jpg 'The Daedalus 88 in flight. (credit: NASA photo by Beasley)')
 {: #Figure5}
 
 </div>
@@ -559,7 +560,7 @@ calculate the food energy in kilojoules he metabolized during the flight.
 
 **Strategy**
 
-From the Conservation of Energy module, Table 2 shows that cycling has an efficiency of 20%. We can use $$ \text{Eff} = \frac{P_{\text{useful}}}{P_{\text{metabolic}}} $$ to find the metabolic power, then multiply by time.
+From the Conservation of Energy module, Table 2 shows that cycling has an efficiency of 20%. We can use $$ \text{Eff} = \frac{P*{\text{useful}}}{P*{\text{metabolic}}} $$ to find the metabolic power, then multiply by time.
 
 **Solution**
 
@@ -594,8 +595,7 @@ The swimmer shown in [Figure 6](#Figure6) exerts an average horizontal backward 
 (a) What is his work output in each stroke?
 (b) Calculate the power output of his arms if he does 120 strokes per minute.
 
-![A person swimming and his arm motion in each stroke is represented. The arm action is shown by an arc starting from where his hand enters the surface of the water and ending at the point where his hand emerges from the water. The diameter of this arc made by the person&#x2019;s hand tip in one stroke is one point eight meters.](
-../resources/Figure_07_08_06.jpg "A person swimming with a stroke of 1.80m")
+![A person swimming and his arm motion in each stroke is represented. The arm action is shown by an arc starting from where his hand enters the surface of the water and ending at the point where his hand emerges from the water. The diameter of this arc made by the person’s hand tip in one stroke is one point eight meters.](../resources/Figure_07_08_06.jpg 'A person swimming with a stroke of 1.80m')
 {: #Figure6}
 
 </div>
@@ -688,7 +688,7 @@ day, assuming that the average worker required 3600 kcal per day and that their
 diet was 5% protein, 60% carbohydrate, and 35% fat. (These proportions neglect
 the mass of bulk and nondigestible materials consumed.)
 
-![A model of a step pyramid is shown with ramps along the sides of each step.](../resources/Figure_07_08_07.png "Ancient pyramids were probably constructed using ramps as simple machines. (credit: Franck Monnier, Wikimedia Commons)")
+![A model of a step pyramid is shown with ramps along the sides of each step.](../resources/Figure_07_08_07.png 'Ancient pyramids were probably constructed using ramps as simple machines. (credit: Franck Monnier, Wikimedia Commons)')
 {: #Figure7}
 
 </div>

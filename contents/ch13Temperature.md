@@ -53,13 +53,13 @@ used to measure temperature include electrical resistance and color, as shown
 in [[Figure 2]](#Figure2), and the emission of infrared radiation, as shown
 in [[Figure 3]](#Figure3).
 
-![This figure has two parts, each of which shows a blue metallic strip attached lengthwise to a yellow metallic strip, thus forming a bimetallic strip. In part a, the bimetallic strip is straight and oriented vertically, and its temperature is given as T sub 0. In part b, the bimetallic strip is curving rightward away from the vertical, and its temperature is given as T, which is greater than T sub 0.](../resources/Figure_13_01_01.jpg "The curvature of a bimetallic strip depends on temperature. (a) The strip is straight at the starting temperature, where its two components have the same length. (b) At a higher temperature, this strip bends to the right, because the metal on the left has expanded more than the metal on the right.")
+![This figure has two parts, each of which shows a blue metallic strip attached lengthwise to a yellow metallic strip, thus forming a bimetallic strip. In part a, the bimetallic strip is straight and oriented vertically, and its temperature is given as T sub 0. In part b, the bimetallic strip is curving rightward away from the vertical, and its temperature is given as T, which is greater than T sub 0.](../resources/Figure_13_01_01.jpg 'The curvature of a bimetallic strip depends on temperature. (a) The strip is straight at the starting temperature, where its two components have the same length. (b) At a higher temperature, this strip bends to the right, because the metal on the left has expanded more than the metal on the right.')
 {: #Figure1}
 
-![A flat plastic thermometer used to measure forehead temperature; the thermometer can measure between ninety-five and one-hundred four degrees Fahrenheit, or between thirty-five and forty degrees Celsius.](../resources/Figure_13_01_02.jpg "Each of the six squares on this plastic (liquid crystal) thermometer contains a film of a different heat-sensitive liquid crystal material. Below \( 95 \text{ºF} \), all six squares are black. When the plastic thermometer is exposed to temperature that increases to \( 95 \text{ºF} \), the first liquid crystal square changes color. When the temperature increases above \( 96.8 \text{ºF} \) the second liquid crystal square also changes color, and so forth. (credit: Arkrishna, Wikimedia Commons)")
+![A flat plastic thermometer used to measure forehead temperature; the thermometer can measure between ninety-five and one-hundred four degrees Fahrenheit, or between thirty-five and forty degrees Celsius.](../resources/Figure_13_01_02.jpg 'Each of the six squares on this plastic (liquid crystal) thermometer contains a film of a different heat-sensitive liquid crystal material. Below ( 95 \\text{ºF} ), all six squares are black. When the plastic thermometer is exposed to temperature that increases to ( 95 \\text{ºF} ), the first liquid crystal square changes color. When the temperature increases above ( 96.8 \\text{ºF} ) the second liquid crystal square also changes color, and so forth. (credit: Arkrishna, Wikimedia Commons)')
 {: #Figure2}
 
-![A man holds a device that looks like a gun or a check-out scanner up toward an air vent. A red light emanates from the device and shines on the vent.](../resources/Figure_13_01_03.jpg "Fireman Jason Ormand uses a pyrometer to check the temperature of an aircraft carrier&#x2019;s ventilation system. Infrared radiation (whose emission varies with temperature) from the vent is measured and a temperature readout is quickly produced. Infrared measurements are also frequently used as a measure of body temperature. These modern thermometers, placed in the ear canal, are more accurate than alcohol thermometers placed under the tongue or in the armpit. (credit: Lamel J. Hinton/U.S. Navy)")
+![A man holds a device that looks like a gun or a check-out scanner up toward an air vent. A red light emanates from the device and shines on the vent.](../resources/Figure_13_01_03.jpg 'Fireman Jason Ormand uses a pyrometer to check the temperature of an aircraft carrier’s ventilation system. Infrared radiation (whose emission varies with temperature) from the vent is measured and a temperature readout is quickly produced. Infrared measurements are also frequently used as a measure of body temperature. These modern thermometers, placed in the ear canal, are more accurate than alcohol thermometers placed under the tongue or in the armpit. (credit: Lamel J. Hinton/U.S. Navy)')
 {: #Figure3}
 
 ### Temperature Scales
@@ -71,10 +71,12 @@ scales. A temperature scale can be created by identifying two easily
 reproducible temperatures. The freezing and boiling temperatures of water at
 standard atmospheric pressure are commonly used.
 
-The **Celsius** scale (which replaced the slightly different *centigrade* scale)
+The **Celsius** scale (which replaced the slightly different _centigrade_ scale)
 has the freezing point of water at $$0\text{ºC} $$ and the boiling point at
 $$100\text{ºC} $$ . Its unit is the **degree Celsius** $$\left(\text{ºC}\right)
-$$ . On the **Fahrenheit** scale (still the most frequently used in the United
+
+$$
+. On the **Fahrenheit** scale (still the most frequently used in the United
 States), the freezing point of water is at $$32\text{ºF} $$ and the boiling
 point is at $$212\text{ºF} $$ . The unit of temperature on this scale is the **degree Fahrenheit** $$\left(\text{ºF}\right) $$ . Note that a temperature
 difference of one degree Celsius is greater than a temperature difference of one
@@ -512,3 +514,4 @@ object is in thermal equilibrium with one of those objects, it is also in
 thermal equilibrium with the other object
 
 </div>
+$$

@@ -24,7 +24,7 @@ should seem very similar to the familiar relationships among force, mass, and
 acceleration embodied in Newton’s second law of motion. There are, in fact,
 precise rotational analogs to both force and mass.
 
-![The given figure shows a bike tire being pulled by a hand with a force F backward indicated by a red horizontal arrow that produces an angular acceleration alpha indicated by a curved yellow arrow in counter-clockwise direction.](../resources/Figure_10_03_01.jpg "Force is required to spin the bike wheel. The greater the force, the greater the angular acceleration produced. The more massive the wheel, the smaller the angular acceleration. If you push on a spoke closer to the axle, the angular acceleration will be smaller.")
+![The given figure shows a bike tire being pulled by a hand with a force F backward indicated by a red horizontal arrow that produces an angular acceleration alpha indicated by a curved yellow arrow in counter-clockwise direction.](../resources/Figure_10_03_01.jpg 'Force is required to spin the bike wheel. The greater the force, the greater the angular acceleration produced. The more massive the wheel, the smaller the angular acceleration. If you push on a spoke closer to the axle, the angular acceleration will be smaller.')
 {: #Figure1}
 
 To develop the precise relationship among force, mass, radius, and angular
@@ -61,7 +61,7 @@ analogous to mass (or inertia). The quantity $$ m r^{2} $$ is called the
 **rotational inertia** or **moment of inertia** of a point mass $$ m $$ a distance
 $$ r $$ from the center of rotation.
 
-![The given figure shows an object of mass m, kept on a horizontal frictionless table, attached to a pivot point, which is in the center of the table, by a cord that supplies centripetal force. A force F is applied to the object perpendicular to the radius r, which is indicated by a red arrow tangential to the circle, causing the object to move in counterclockwise direction.](../resources/Figure_10_03_02.jpg "An object is supported by a horizontal frictionless table and is attached to a pivot point by a cord that supplies centripetal force. A force \( F \) is applied to the object perpendicular to the radius \( r \) , causing it to accelerate about the pivot point. The force is kept perpendicular to \( r \) .")
+![The given figure shows an object of mass m, kept on a horizontal frictionless table, attached to a pivot point, which is in the center of the table, by a cord that supplies centripetal force. A force F is applied to the object perpendicular to the radius r, which is indicated by a red arrow tangential to the circle, causing the object to move in counterclockwise direction.](../resources/Figure_10_03_02.jpg 'An object is supported by a horizontal frictionless table and is attached to a pivot point by a cord that supplies centripetal force. A force ( F ) is applied to the object perpendicular to the radius ( r ) , causing it to accelerate about the pivot point. The force is kept perpendicular to ( r ) .')
 {: #Figure2}
 
 <div class="note" data-label="" markdown="1">
@@ -79,7 +79,7 @@ mass that behave just as we would expect from our earlier experiences.
 
 Before we can consider the rotation of anything other than a point mass like the
 one in [Figure 2](#Figure2), we must extend the idea of rotational inertia to all
-types of objects. To expand our concept of rotational inertia, we define the 
+types of objects. To expand our concept of rotational inertia, we define the
 **moment of inertia** $$ I $$ of an object to be the sum of $$ m r^{2} $$ for all
 the point masses of which it is composed. That is, $$ I=\sum m r^{2} $$. Here $$
 I $$ is analogous to $$ m $$ in translational motion. Because of the distance $$
@@ -114,7 +114,7 @@ plane of the rotation. Such torques are either positive or negative and add like
 ordinary numbers. The relationship in $$ \tau =I \alpha , \alpha =\frac{
 \text{net τ}}{I} $$ is the rotational analog to Newton’s second law and is very
 generally applicable. This equation is actually valid for
-*any* torque, applied to *any* object, relative to *any* axis.
+_any_ torque, applied to _any_ object, relative to _any_ axis.
 
 As we might expect, the larger the torque is, the larger the angular
 acceleration is. For example, the harder a child pushes on a merry-go-round, the
@@ -123,7 +123,7 @@ slower it accelerates for the same torque. The basic relationship between moment
 of inertia and angular acceleration is that the larger the moment of inertia,
 the smaller is the angular acceleration. But there is an additional twist. The
 moment of inertia depends not only on the mass of an object, but also on its
-*distribution* of mass relative to the axis around which it rotates. For
+_distribution_ of mass relative to the axis around which it rotates. For
 example, it will be much easier to accelerate a merry-go-round full of children
 if they stand close to its axis than if they all stand at the outer edge. The
 mass is the same in both cases; but the moment of inertia is much larger when
@@ -146,7 +146,7 @@ Problem-Solving Strategy for Rotational Dynamics
 3.  *Draw a free body diagram*. That is, draw and label all external forces acting on the system of interest.
 4.  *Apply $$ \text{net} \tau= I\alpha$$, $$\alpha =\frac{ \text{net τ}}{I} $$, the rotational equivalent of Newton’s second law, to solve the problem*. Care must be taken to use the correct moment of inertia and to consider the torque about the point of rotation.
 
-5. *As always, check the solution to see if it is reasonable*.
+5. _As always, check the solution to see if it is reasonable_.
 
 </div>
 {: #problemSolving}
@@ -157,7 +157,7 @@ Making Connections
 </div>
 In statics, the net torque is zero, and there is no angular acceleration. In rotational motion, net torque is the cause of angular acceleration, exactly as in Newton’s second law of motion for rotation.
 
-![Illustrations of ten different objects accompanied by their rotational inertias.](../resources/Figure_10_03_06.jpg "Some rotational inertias.")
+![Illustrations of ten different objects accompanied by their rotational inertias.](../resources/Figure_10_03_06.jpg 'Some rotational inertias.')
 {: #Figure3 height="525"}
 
 </div>
@@ -174,7 +174,7 @@ Calculate the angular acceleration produced
 (b) when an 18.0-kg child sits 1.25 m away from the center.
 Consider the merry-go-round itself to be a uniform disk with negligible retarding friction.
 
-![The given figure shows a man pushing a merry-go-round by a force F, indicated by a red arrow which is perpendicular to the radius r, of the merry-go-round, such that it moves in counter-clockwise direction.](../resources/Figure_10_03_03.jpg "A father pushes a playground merry-go-round at its edge and perpendicular to its radius to achieve maximum torque.")
+![The given figure shows a man pushing a merry-go-round by a force F, indicated by a red arrow which is perpendicular to the radius r, of the merry-go-round, such that it moves in counter-clockwise direction.](../resources/Figure_10_03_03.jpg 'A father pushes a playground merry-go-round at its edge and perpendicular to its radius to achieve maximum torque.')
 {: #Figure4}
 
 **Strategy**
@@ -222,7 +222,7 @@ Now, after we substitute the known values, we find the angular acceleration to b
 We expect the angular acceleration for the system to be less in this part,
 because the moment of inertia is greater when the child is on the
 merry-go-round. To find the total moment of inertia $$ I $$, we first find the
-child’s moment of inertia $$ I_{\text{c}} $$ by considering the child to be
+child’s moment of inertia $$ I\_{\text{c}} $$ by considering the child to be
 equivalent to a point mass at a distance of 1.25 m from the axis. Then,
 
 <div class="equation">
@@ -275,9 +275,9 @@ No. Torque depends on three factors: force magnitude, force direction, and point
 
 ### Section Summary
 
-* The farther the force is applied from the pivot, the greater is the angular
+- The farther the force is applied from the pivot, the greater is the angular
   acceleration; angular acceleration is inversely proportional to mass.
-* If we exert a force $$ F $$ on a point mass $$ m $$ that is at a distance $$ r
+- If we exert a force $$ F $$ on a point mass $$ m $$ that is at a distance $$ r
   $$ from a pivot point and because the force is perpendicular to $$ r $$, an
   acceleration $$ a = F/m $$ is obtained in the direction of $$ F $$. We can
   rearrange this equation such that
@@ -291,7 +291,7 @@ No. Torque depends on three factors: force magnitude, force direction, and point
   $$ F=mr\alpha $$
   </div>
 
-* Torque is the turning effectiveness of a force. In this case, because $$ F $$
+- Torque is the turning effectiveness of a force. In this case, because $$ F $$
   is perpendicular to $$ r $$, torque is simply $$ \tau =rF $$. If we multiply
   both sides of the equation above by $$ r $$, we get torque on the left-hand
   side. That is,
@@ -305,13 +305,13 @@ or
  $$ \tau =m r^{2} \alpha . $$
   </div>
 
-* The moment of inertia $$ I $$ of an object is the sum of $$ MR^{2} $$ for all
+- The moment of inertia $$ I $$ of an object is the sum of $$ MR^{2} $$ for all
   the point masses of which it is composed. That is,
   <div class="equation">
     $$ I=\sum m r^{2} . $$
   </div>
 
-* The general relationship among torque, moment of inertia, and angular
+- The general relationship among torque, moment of inertia, and angular
   acceleration is
   <div class="equation">
     $$ \tau = I\alpha $$
@@ -360,7 +360,7 @@ the mass of the tires and wheel rims. Why does this allow a racer
 to achieve greater accelerations than would an identical
 reduction in the mass of the bicycle’s frame?
 
-![The given figure shows a racing bicycle leaning on a door.](../resources/Figure_10_03_04.jpg "The image shows a side view of a racing bicycle. Can you see evidence in the design of the wheels on this racing bicycle that their moment of inertia has been purposely reduced? (credit: Jes&#xFA;s Rodriguez)")
+![The given figure shows a racing bicycle leaning on a door.](../resources/Figure_10_03_04.jpg 'The image shows a side view of a racing bicycle. Can you see evidence in the design of the wheels on this racing bicycle that their moment of inertia has been purposely reduced? (credit: Jesús Rodriguez)')
 {: #Figure5}
 
 </div>
@@ -447,6 +447,7 @@ an opposing frictional force of 20.0 N exerted 1.50 cm from the axis?
 
 (b) $$ 17.1 \radss $$
 (c) $$ 17.0 \radss $$
+
 </div>
 </div>
 
@@ -458,7 +459,7 @@ to be approximately an annular ring with an inner radius of 0.280 m and an outer
 (b) What is the tangential acceleration of a point on the outer edge of the tire?
 (c) How long, starting from rest, does it take to reach an angular velocity of 80.0 rad/s?
 
-![The given figure shows the rear wheel of a motorcycle. A force F is indicated by a red arrow pointing leftward at a distance r from its center. Two arrows representing radii R-one and R-two are also indicated. A curved yellow arrow indicates an acceleration alpha and a curved blue arrow indicates an angular velocity omega, both in counter-clockwise direction.](../resources/Figure_10_03_05.jpg "A motorcycle wheel has a moment of inertia approximately that of an annular ring.")
+![The given figure shows the rear wheel of a motorcycle. A force F is indicated by a red arrow pointing leftward at a distance r from its center. Two arrows representing radii R-one and R-two are also indicated. A curved yellow arrow indicates an acceleration alpha and a curved blue arrow indicates an angular velocity omega, both in counter-clockwise direction.](../resources/Figure_10_03_05.jpg 'A motorcycle wheel has a moment of inertia approximately that of an annular ring.')
 {: #Figure6}
 
 </div>
@@ -481,6 +482,7 @@ in [Problem-Solving Strategy for Rotational Dynamics](#problemSolving) .
  $$ 3.96\times 10^{18}\s $$
 
 or $$ 1.26\times 10^{11}\text{y} $$
+
 </div>
 </div>
 

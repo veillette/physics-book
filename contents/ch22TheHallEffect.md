@@ -21,12 +21,12 @@ right in both parts of the figure. In part (a), electrons carry the current and
 move to the left. In part (b), positive charges carry the current and move to
 the right. Moving electrons feel a magnetic force toward one side of the
 conductor, leaving a net positive charge on the other side. This separation of
-charge *creates a voltage* $$\epsilon $$, known as the **Hall emf**, *across* the conductor. The creation of a
-voltage *across* a current-carrying conductor by a magnetic field is known as
+charge _creates a voltage_ $$\epsilon $$, known as the **Hall emf**, _across_ the conductor. The creation of a
+voltage _across_ a current-carrying conductor by a magnetic field is known as
 the **Hall effect**, after Edwin Hall, the American physicist who discovered it
 in 1879.
 
-![Figure a shows an electron with velocity v moving toward the left. The magnetic field B is oriented out of the page. The current I is running toward the right. The force vector on the electron points downward. An illustration of the right hand rule shows the right thumb pointing left with the v vector, the fingers pointing toward 7 o&#x2019;clock with the B vector, the force vector on a positive charge pointing up and the force vector on a negative charge pointing down. Figure b shows a positive charge moving toward the right. The magnetic field lines are coming out of the page. The current I is running toward the right. The force on the positive charge is down. An illustration of the right hand rule shows the thumb pointing in the direction of the charge&#x2019;s velocity, the fingers pointing in the direction of B, and F pointing down away from the palm.](../resources/Figure_22_06_01.jpg "The Hall effect. (a) Electrons move to the left in this flat conductor (conventional current to the right). The magnetic field is directly out of the page, represented by circled dots; it exerts a force on the moving charges, causing a voltage \( \epsilon \) , the Hall emf, across the conductor. (b) Positive charges moving to the right (conventional current also to the right) are moved to the side, producing a Hall emf of the opposite sign, \( -\epsilon \) . Thus, if the direction of the field and current are known, the sign of the charge carriers can be determined from the Hall effect.")
+![Figure a shows an electron with velocity v moving toward the left. The magnetic field B is oriented out of the page. The current I is running toward the right. The force vector on the electron points downward. An illustration of the right hand rule shows the right thumb pointing left with the v vector, the fingers pointing toward 7 o’clock with the B vector, the force vector on a positive charge pointing up and the force vector on a negative charge pointing down. Figure b shows a positive charge moving toward the right. The magnetic field lines are coming out of the page. The current I is running toward the right. The force on the positive charge is down. An illustration of the right hand rule shows the thumb pointing in the direction of the charge’s velocity, the fingers pointing in the direction of B, and F pointing down away from the palm.](../resources/Figure_22_06_01.jpg 'The Hall effect. (a) Electrons move to the left in this flat conductor (conventional current to the right). The magnetic field is directly out of the page, represented by circled dots; it exerts a force on the moving charges, causing a voltage ( \\epsilon ) , the Hall emf, across the conductor. (b) Positive charges moving to the right (conventional current also to the right) are moved to the side, producing a Hall emf of the opposite sign, ( -\\epsilon ) . Thus, if the direction of the field and current are known, the sign of the charge carriers can be determined from the Hall effect.')
 {: #Figure1}
 
 One very important use of the Hall effect is to determine whether positive or
@@ -47,7 +47,7 @@ where $$B $$ , $$v $$ , and $$l $$ are mutually perpendicular, such as shown
 in [[Figure 2]](#Figure2). Although the magnetic force moves negative charges to
 one side, they cannot build up without limit. The electric field caused by their
 separation opposes the magnetic force, $$F=qvB $$ , and the electric force,
-$${F}_{e}=qE $$ , eventually grows to equal it. That is,
+$${F}\_{e}=qE $$ , eventually grows to equal it. That is,
 
 <div class="equation" >
  $$qE=qvB $$
@@ -78,11 +78,11 @@ Solving this for the Hall emf yields
 where $$\epsilon $$ is the Hall effect voltage across a conductor of width $$l
 $$ through which charges move at a speed $$v $$.
 
-![Diagram showing an electron moving to the left in a three-dimensional rectangular space with velocity v. The magnetic field is oriented out of the page. The electric field is down. The electric force on the charge is up while the magnetic force on the charge is down. An illustration of the right hand rule shows the thumb pointing to the left with v, the fingers out of the page with B, and the force on a positive charge up and away from the palm.](../resources/Figure_22_06_02.jpg "The Hall emf \( \epsilon \) produces an electric force that balances the magnetic force on the moving charges. The magnetic force produces charge separation, which builds up until it is balanced by the electric force, an equilibrium that is quickly reached.")
+![Diagram showing an electron moving to the left in a three-dimensional rectangular space with velocity v. The magnetic field is oriented out of the page. The electric field is down. The electric force on the charge is up while the magnetic force on the charge is down. An illustration of the right hand rule shows the thumb pointing to the left with v, the fingers out of the page with B, and the force on a positive charge up and away from the palm.](../resources/Figure_22_06_02.jpg 'The Hall emf ( \\epsilon ) produces an electric force that balances the magnetic force on the moving charges. The magnetic force produces charge separation, which builds up until it is balanced by the electric force, an equilibrium that is quickly reached.')
 {: #Figure2}
 
 One of the most common uses of the Hall effect is in the measurement of magnetic
-field strength $$B $$ . Such devices, called *Hall probes*, can be made very
+field strength $$B $$ . Such devices, called _Hall probes_, can be made very
 small, allowing fine position mapping. Hall probes can also be made very
 accurate, usually accomplished by careful calibration. Another application of
 the Hall effect is to measure fluid flow in any fluid that has free charges (
@@ -93,7 +93,7 @@ directions of $$B $$ and $$v $$ . The magnitude of the Hall emf is $$\epsilon
 =Blv $$ , where $$l $$ is the pipe diameter, so that the average velocity $$v $$
 can be determined from $$\epsilon $$ providing the other factors are known.
 
-![Diagram showing a tube with diameter l with one end between the north and south poles of a magnet. The charges are moving with velocity v within the tube and out of the page. The magnetic field B is oriented across the tube, from the north to the south pole of the magnet. The force on the charges is up for positive charges and down for negative charges. e m f = B l v.](../resources/Figure_22_06_03.jpg "The Hall effect can be used to measure fluid flow in any fluid having free charges, such as blood. The Hall emf \( \epsilon \) is measured across the tube perpendicular to the applied magnetic field and is proportional to the average velocity \( v \) .")
+![Diagram showing a tube with diameter l with one end between the north and south poles of a magnet. The charges are moving with velocity v within the tube and out of the page. The magnetic field B is oriented across the tube, from the north to the south pole of the magnet. The force on the charges is up for positive charges and down for negative charges. e m f = B l v.](../resources/Figure_22_06_03.jpg 'The Hall effect can be used to measure fluid flow in any fluid having free charges, such as blood. The Hall emf ( \\epsilon ) is measured across the tube perpendicular to the applied magnetic field and is proportional to the average velocity ( v ) .')
 {: #Figure3}
 
 <div class="example" markdown="1">
@@ -129,9 +129,9 @@ frequencies.
 
 ### Section Summary
 
-* The Hall effect is the creation of voltage $$\epsilon $$ , known as the Hall
+- The Hall effect is the creation of voltage $$\epsilon $$ , known as the Hall
   emf, across a current-carrying conductor by a magnetic field.
-* The Hall emf is given by
+- The Hall emf is given by
   <div class="equation" >
    $$\epsilon =Blv \left(B, v, \text{and} l, \text{mutually perpendicular}\right) $$
   </div>

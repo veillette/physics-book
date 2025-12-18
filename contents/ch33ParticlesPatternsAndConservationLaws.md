@@ -44,7 +44,7 @@ dozens and then hundreds, and the term “particle zoo” became the physicist�
 lament at the lack of simplicity. But patterns were observed in the particle zoo
 that led to simplifying ideas such as quarks, as we shall soon see.
 
-![A photo of a young Paul Dirac.](../resources/Figure_33_04_01.jpg "P.A.M. Dirac&#x2019;s theory of relativistic quantum mechanics not only explained a great deal of what was known, it also predicted antimatter. (credit: Cambridge University, Cavendish Laboratory) ")
+![A photo of a young Paul Dirac.](../resources/Figure_33_04_01.jpg 'P.A.M. Dirac’s theory of relativistic quantum mechanics not only explained a great deal of what was known, it also predicted antimatter. (credit: Cambridge University, Cavendish Laboratory) ')
 {: #Figure1}
 
 ### Matter and Antimatter
@@ -107,7 +107,7 @@ intrinsic spin ( $$s=1/2, 3/2, \text{...} $$ ). Fermions obey the Pauli
 exclusion principle whereas bosons do not. All the known and conjectured carrier
 particles are bosons.
 
-![The upper image shows an electron and positron colliding head-on. The lower image shows a starburst image from which two photons are emerging in opposite directions.](../resources/Figure_33_04_02.jpg "When a particle encounters its antiparticle, they annihilate, often producing pure energy in the form of photons. In this case, an electron and a positron convert all their mass into two identical energy rays, which move away in opposite directions to keep total momentum zero as it was before. Similar annihilations occur for other combinations of a particle with its antiparticle, sometimes producing more particles while obeying all conservation laws.")
+![The upper image shows an electron and positron colliding head-on. The lower image shows a starburst image from which two photons are emerging in opposite directions.](../resources/Figure_33_04_02.jpg 'When a particle encounters its antiparticle, they annihilate, often producing pure energy in the form of photons. In this case, an electron and a positron convert all their mass into two identical energy rays, which move away in opposite directions to keep total momentum zero as it was before. Similar annihilations occur for other combinations of a particle with its antiparticle, sometimes producing more particles while obeying all conservation laws.')
 {: #Figure2}
 
 <table id="Table1" aria-describedby="Selected Particle Characteristics"><caption><span class="title">Selected Particle Characteristics<sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup></span></caption><thead><tr>
@@ -588,7 +588,9 @@ have no apparent underlying structure. Leptons have no discernible size other
 than their wavelength, so that we know they are pointlike down to about $$
 10^{-18} \text{m} $$ . The leptons fall into three families, implying three
 conservation laws for three quantum numbers. One of these was known from $$\beta
-$$ decay, where the existence of the electron’s neutrino implied that a new
+
+$$
+decay, where the existence of the electron’s neutrino implied that a new
 quantum number, called
 the <strong class="term" >electron family
 number </strong> $${L}_{e} $$ is conserved. Thus, in $$\beta $$ decay, an
@@ -774,7 +776,7 @@ the basics of the underlying quark building blocks.
   family designated by tau family number $${L}_{\tau } $$ . The family numbers
   are not universally conserved due to neutrino oscillations.
 * Hadrons are particles that feel the strong nuclear force and are divided into
-  baryons, with the baryon family number  
+  baryons, with the baryon family number
   $$B $$ being conserved, and mesons.
 
 ### Conceptual Questions
@@ -1044,3 +1046,4 @@ tau family number
 number 0 that is assigned to all particles not in the tau family
 
 </div>
+$$

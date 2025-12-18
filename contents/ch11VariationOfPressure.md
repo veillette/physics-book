@@ -17,7 +17,7 @@ At the Earth’s surface, the air pressure exerted on you is a result of the
 weight of air above you. This pressure is reduced as you climb up in altitude
 and the weight of air above you decreases. Under water, the pressure exerted on
 you increases with increasing depth. In this case, the pressure being exerted
-upon you is a result of both the weight of water above you *and* that of the
+upon you is a result of both the weight of water above you _and_ that of the
 atmosphere above you. You may notice an air pressure change on an elevator ride
 that transports you many stories, but you need only dive a meter or so below the
 surface of a pool to feel a pressure increase. The difference is that water is
@@ -64,7 +64,7 @@ The area cancels, and rearranging the variables yields
  $$P=h \rho g. $$
 </div>
 
-This value is the *pressure due to the weight of a fluid*. The equation has
+This value is the _pressure due to the weight of a fluid_. The equation has
 general validity beyond the special conditions under which it is derived here.
 Even if the container were not there, the surrounding fluid would still exert
 this pressure, keeping the fluid static. Thus the equation $$P=h \rho g $$
@@ -75,14 +75,14 @@ compressible, one can apply this equation as long as the density changes are
 small over the depth considered. [[Example 2]](#Example2) illustrates this
 situation.
 
-![A container with fluid filled to a depth h. The fluid&#x2019;s weight w equal to m times g is shown by an arrow pointing downward. A denotes the area of the fluid at the bottom of the container and as well as on the surface.](../resources/Figure_11_04_01.jpg "The bottom of this container supports the entire weight of the fluid in it. The vertical sides cannot exert an upward force on the fluid (since it cannot withstand a shearing force), and so the bottom must support it all.")
+![A container with fluid filled to a depth h. The fluid’s weight w equal to m times g is shown by an arrow pointing downward. A denotes the area of the fluid at the bottom of the container and as well as on the surface.](../resources/Figure_11_04_01.jpg 'The bottom of this container supports the entire weight of the fluid in it. The vertical sides cannot exert an upward force on the fluid (since it cannot withstand a shearing force), and so the bottom must support it all.')
 {: #Figure1}
 
 <div id="Example1" class="example" markdown="1">
 <div class="title">
 Calculating the Average Pressure and Force Exerted: What Force Must a Dam Withstand?
 </div>
-In [[Example 1]](../contents/ch11Density#Example1), we calculated the mass of water in a large reservoir. We will now consider the pressure and force acting on the dam retaining water. (See [[Figure 2]](#Figure2).) The dam is 500 m wide, and the water is 80.0 m deep at the dam. (a) What is the average pressure on the dam due to the water? (b) Calculate the force exerted against the dam and compare it with the weight of water in the dam (previously found to be  $$1.96 \times 10^{13}  \text{N} $$ ). 
+In [[Example 1]](../contents/ch11Density#Example1), we calculated the mass of water in a large reservoir. We will now consider the pressure and force acting on the dam retaining water. (See [[Figure 2]](#Figure2).) The dam is 500 m wide, and the water is 80.0 m deep at the dam. (a) What is the average pressure on the dam due to the water? (b) Calculate the force exerted against the dam and compare it with the weight of water in the dam (previously found to be  $$1.96 \times 10^{13}  \text{N} $$ ).
 
 **Strategy for (a)**
 
@@ -126,21 +126,21 @@ Although this force seems large, it is small compared with the $$ 1.96 \times
 $$0.0800\% $$ of the weight. Note that the pressure found in part (a) is
 completely independent of the width and length of the lake—it depends only on
 its average depth at the dam. Thus the force depends only on the water’s average
-depth and the dimensions of the dam, *not* on the horizontal extent of the
+depth and the dimensions of the dam, _not_ on the horizontal extent of the
 reservoir. In the diagram, the thickness of the dam increases with depth to
 balance the increasing force due to the increasing pressure.
 
 </div>
 
-![A two-dimensional view of a dam with dimensions L and h is shown. Force F at h is shown by a horizontal arrow. The force F exerted by water on the dam is F equals average pressure p bar into area A and pressure in turn is average height h bar into density rho into acceleration due to gravity g.](../resources/Figure_11_04_02.jpg "The dam must withstand the force exerted against it by the water it retains. This force is small compared with the weight of the water behind the dam.")
+![A two-dimensional view of a dam with dimensions L and h is shown. Force F at h is shown by a horizontal arrow. The force F exerted by water on the dam is F equals average pressure p bar into area A and pressure in turn is average height h bar into density rho into acceleration due to gravity g.](../resources/Figure_11_04_02.jpg 'The dam must withstand the force exerted against it by the water it retains. This force is small compared with the weight of the water behind the dam.')
 {: #Figure2}
 
-*Atmospheric pressure* is another example of pressure due to the weight of a
-fluid, in this case due to the weight of *air* above a given height. The
+_Atmospheric pressure_ is another example of pressure due to the weight of a
+fluid, in this case due to the weight of _air_ above a given height. The
 atmospheric pressure at the Earth’s surface varies a little due to the
 large-scale flow of the atmosphere induced by the Earth’s rotation (this creates
 weather “highs” and “lows”). However, the average pressure at sea level is given
-by the *standard atmospheric pressure*  $${P}_{\text{atm}} $$ , measured to be
+by the _standard atmospheric pressure_ $${P}_{\text{atm}} $$ , measured to be
 
 <div class="equation" >
  $$1 \text{atmosphere (atm)}={P}_{\text{atm}}= 1.01 \times 10^{5}  {\text{N/m}}^{2}=101 \text{kPa}. $$
@@ -151,7 +151,7 @@ $$1.00 {\text{m}}^{2} $$ of the Earth’s surface has a weight of $$ 1.01 \times
 10^{5} \text{N} $$ , equivalent to $$1 \text{atm} $$ .
 (See [[Figure 3]](#Figure3).)
 
-![Figure shows a column of air exerting a weight of one point zero one times ten to the power five newtons on a rectangular patch of ground of one square meter cross section.](../resources/Figure_11_04_03.jpg "Atmospheric pressure at sea level averages \( 1.01 \times 10^5 \text{Pa} \) (equivalent to 1 atm), since the column of air over this \( 1 \text{m}^2 \), extending to the top of the atmosphere, weighs \( 1.01 \times 10^5 \text{N} \) .")
+![Figure shows a column of air exerting a weight of one point zero one times ten to the power five newtons on a rectangular patch of ground of one square meter cross section.](../resources/Figure_11_04_03.jpg 'Atmospheric pressure at sea level averages ( 1.01 \\times 10^5 \\text{Pa} ) (equivalent to 1 atm), since the column of air over this ( 1 \\text{m}^2 ), extending to the top of the atmosphere, weighs ( 1.01 \\times 10^5 \\text{N} ) .')
 {: #Figure3}
 
 <div id="Example2" class="example" markdown="1">
@@ -219,23 +219,24 @@ nearly incompressible, we can neglect any change in its density over this depth.
 
 </div>
 
-What do you suppose is the *total* pressure at a depth of 10.3 m in a swimming
+What do you suppose is the _total_ pressure at a depth of 10.3 m in a swimming
 pool? Does the atmospheric pressure on the water’s surface affect the pressure
 below? The answer is yes. This seems only logical, since both the water’s weight
-and the atmosphere’s weight must be supported. So the *total* pressure at a
+and the atmosphere’s weight must be supported. So the _total_ pressure at a
 depth of 10.3 m is 2 atm—half from the water above and half from the air above.
 We shall see in [Pascal’s Principle](../contents/ch11PascalsPrinciple) that fluid pressures
 always add in this way.
 
 ### Section Summary
 
-* Pressure is the weight of the fluid $$mg $$ divided by the area $$A $$
+- Pressure is the weight of the fluid $$mg $$ divided by the area $$A $$
   supporting it (the area of the bottom of the container):
 
   <div class="equation" >
    $$P=\frac{mg}{A}. $$
   </div>
-* Pressure due to the weight of a liquid is given by
+
+- Pressure due to the weight of a liquid is given by
   <div class="equation" >
   $$P=h \rho g, $$
   </div>
@@ -338,7 +339,7 @@ Additional advantages of mercury include: it doesn't wet glass (forms clean meni
 <div class="problem" markdown="1">
 [[Figure 4]](#Figure4) shows how sandbags placed around a leak outside a river levee can effectively stop the flow of water under the levee. Explain how the small amount of water inside the column formed by the sandbags is able to balance the much larger body of water behind the levee.
 
-![The figure shows a flooding river on the extreme right, with a levee set up on its left, and sandbags are stacked on the left of the levee. The height of the levee and that of the stacked sandbags is greater than the water level of the flooding river, so the water does not flow over their tops, but a leak under the levee allows some water to flow under it and reach the sandbags.](../resources/Figure_11_04_04.jpg "Because the river level is very high, it has started to leak under the levee. Sandbags are placed around the leak, and the water held by them rises until it is the same level as the river, at which point the water there stops rising.")
+![The figure shows a flooding river on the extreme right, with a levee set up on its left, and sandbags are stacked on the left of the levee. The height of the levee and that of the stacked sandbags is greater than the water level of the flooding river, so the water does not flow over their tops, but a leak under the levee allows some water to flow under it and reach the sandbags.](../resources/Figure_11_04_04.jpg 'Because the river level is very high, it has started to leak under the levee. Sandbags are placed around the leak, and the water held by them rises until it is the same level as the river, at which point the water there stops rising.')
 {: #Figure4}
 
 </div>
@@ -700,7 +701,7 @@ Show that the total force on a rectangular dam due to the water behind it increa
  is the density of water,  $$h $$  is its depth at the dam, and  $$L $$
  is the length of the dam. You may assume the face of the dam is vertical. (Hint: Calculate the average pressure exerted and multiply this by the area in contact with the water. (See [[Figure 5]](#Figure5).)
 
-![A two-dimensional view of a dam with dimensions L and h is shown. Force F at h is shown by a horizontal arrow. The force F exerted by water on the dam is F equals average pressure p bar into area A and pressure in turn is average height h bar into density rho into acceleration due to gravity g.](../resources/Figure_11_04_02.jpg " ")
+![A two-dimensional view of a dam with dimensions L and h is shown. Force F at h is shown by a horizontal arrow. The force F exerted by water on the dam is F equals average pressure p bar into area A and pressure in turn is average height h bar into density rho into acceleration due to gravity g.](../resources/Figure_11_04_02.jpg ' ')
 {: #Figure5}
 
 </div>

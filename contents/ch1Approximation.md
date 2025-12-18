@@ -277,8 +277,8 @@ Divide the total mass of the bacterium by the average mass of an atom to find th
 **Solution**
 
 1. From the hint:
-   - Mass of hydrogen atom: $$ m_{H} \approx 10^{-27} \kg $$
-   - Mass of bacterium: $$ m_{bact} \approx 10^{-15} \kg $$
+   - Mass of hydrogen atom: $$ m\_{H} \approx 10^{-27} \kg $$
+   - Mass of bacterium: $$ m\_{bact} \approx 10^{-15} \kg $$
 
 2. Average mass of an atom in the bacterium:
 <div class="equation">
@@ -297,7 +297,7 @@ A bacterium contains approximately **10¹¹ atoms** (or about 100 billion atoms)
 </div>
 </div>
 
-![A magnified image of the bacterium Salmonella attacking a human cell. The bacterium is rod shaped and about zero point seven to one point five micrometers in diameter and two to five micrometers in length.](../resources/Figure_01_04_02.jpg "This color-enhanced photo shows Salmonella typhimurium (red) attacking human cells. These bacteria are commonly known for causing foodborne illness. Can you estimate the number of atoms in each bacterium? (credit: Rocky Mountain Laboratories, NIAID, NIH)")
+![A magnified image of the bacterium Salmonella attacking a human cell. The bacterium is rod shaped and about zero point seven to one point five micrometers in diameter and two to five micrometers in length.](../resources/Figure_01_04_02.jpg 'This color-enhanced photo shows Salmonella typhimurium (red) attacking human cells. These bacteria are commonly known for causing foodborne illness. Can you estimate the number of atoms in each bacterium? (credit: Rocky Mountain Laboratories, NIAID, NIH)')
 {: #Figure2}
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -345,9 +345,10 @@ Use Table 3 to find the relevant values, then calculate the ratios.
 **Solution**
 
 From Table 3:
-- Diameter of Earth: $$ d_{Earth} = 10^{7} \m $$ (more precisely, about $$ 1.27 \times 10^{7} \m $$)
-- Greatest ocean depth: $$ d_{ocean} = 10^{4} \m $$ (about 10,000 m, or the Mariana Trench at ~11,000 m)
-- Greatest mountain height: $$ h_{mountain} = 10^{4} \m $$ (Mt. Everest is about 8,850 m)
+
+- Diameter of Earth: $$ d\_{Earth} = 10^{7} \m $$ (more precisely, about $$ 1.27 \times 10^{7} \m $$)
+- Greatest ocean depth: $$ d\_{ocean} = 10^{4} \m $$ (about 10,000 m, or the Mariana Trench at ~11,000 m)
+- Greatest mountain height: $$ h\_{mountain} = 10^{4} \m $$ (Mt. Everest is about 8,850 m)
 
 **(a) Fraction for ocean depth:**
 

@@ -12,7 +12,7 @@ chapterNumber: 15
 * Calculate changes in the internal energy of a system, after accounting for heat transfer and work done.
 </div>
 
-![The photograph shows water boiling in a tea kettle kept on a stove. The water vapor is shown to emerge out of the nozzle of the kettle.](../resources/Figure_15_01_01.jpg "This boiling tea kettle represents energy in motion. The water in the kettle is turning to water vapor because heat is being transferred from the stove to the kettle. As the entire system gets hotter, work is done&#x2014;from the evaporation of the water to the whistling of the kettle. (credit: Gina Hamilton)")
+![The photograph shows water boiling in a tea kettle kept on a stove. The water vapor is shown to emerge out of the nozzle of the kettle.](../resources/Figure_15_01_01.jpg 'This boiling tea kettle represents energy in motion. The water in the kettle is turning to water vapor because heat is being transferred from the stove to the kettle. As the entire system gets hotter, work is done—from the evaporation of the water to the whistling of the kettle. (credit: Gina Hamilton)')
 {: #Figure1}
 
 If we are interested in how heat transfer is converted into doing work, then the
@@ -39,7 +39,7 @@ more heat transfer into the system occurs than work done, the difference is
 stored as internal energy. Heat engines are a good example of this—heat transfer
 into them takes place so that they can do work. (See [[Figure 2]](#Figure2).) We
 will now examine $$Q $$ , $$W $$ , and $$\Delta U $$ further.
-![The figure shows a schematic diagram of a system shown by an ellipse. Heat Q is shown to enter the system as shown by a bold arrow toward the ellipse. The work done is shown pointing away from the system. The internal energy of the system is marked as delta U equals Q minus W. The second part of the figure shows two arrow diagrams for the heat change Q and work W. Q is shown as Q in minus Q out. W is shown as W out minus W in.](../resources/Figure_15_01_02.jpg "The first law of thermodynamics is the conservation-of-energy principle stated for a system where heat and work are the methods of transferring energy for a system in thermal equilibrium. \( Q \) represents the net heat transfer&#x2014;it is the sum of all heat transfers into and out of the system. \( Q \) is positive for net heat transfer into the system. \( W \) is the total work done on and by the system. \( W \) is positive when more work is done by the system than on it. The change in the internal energy of the system, \( \Delta U \) , is related to heat and work by the first law of thermodynamics, \( \Delta U=Q - W \) .")
+![The figure shows a schematic diagram of a system shown by an ellipse. Heat Q is shown to enter the system as shown by a bold arrow toward the ellipse. The work done is shown pointing away from the system. The internal energy of the system is marked as delta U equals Q minus W. The second part of the figure shows two arrow diagrams for the heat change Q and work W. Q is shown as Q in minus Q out. W is shown as W out minus W in.](../resources/Figure_15_01_02.jpg 'The first law of thermodynamics is the conservation-of-energy principle stated for a system where heat and work are the methods of transferring energy for a system in thermal equilibrium. ( Q ) represents the net heat transfer—it is the sum of all heat transfers into and out of the system. ( Q ) is positive for net heat transfer into the system. ( W ) is the total work done on and by the system. ( W ) is positive when more work is done by the system than on it. The change in the internal energy of the system, ( \\Delta U ) , is related to heat and work by the first law of thermodynamics, ( \\Delta U=Q - W ) .')
 {: #Figure2}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -50,7 +50,7 @@ The first law of thermodynamics is actually the law of conservation of energy st
 
 </div>
 
-### Heat *Q* and Work *W*
+### Heat _Q_ and Work _W_
 
 Heat transfer ( $$Q $$ )
 and doing work ( $$W $$ )
@@ -68,11 +68,11 @@ both energy in transit—neither is stored as such in a system. However, both ca
 change the internal energy $$U $$ of a system. Internal energy is a form of
 energy completely different from either heat or work.
 
-### Internal Energy *U*
+### Internal Energy _U_
 
 We can think about the internal energy of a system in two different but
 consistent ways. The first is the atomic and molecular view, which examines the
-system on the atomic and molecular scale. The **internal energy**  $$U $$ of a
+system on the atomic and molecular scale. The **internal energy** $$U $$ of a
 system is the sum of the kinetic and potential energies of its atoms and
 molecules. Recall that kinetic plus potential energy is called mechanical
 energy. Thus, internal energy is the sum of atomic and molecular mechanical
@@ -92,7 +92,7 @@ Many detailed experiments have verified that $$\Delta U=Q-W $$ , where $$\Delta
 U $$ is the change in total kinetic and potential energy of all atoms and
 molecules in a system. It has also been determined experimentally that the
 internal energy $$U $$ of a system depends only on the state of the system
-and **not how it reached that state*.* More specifically, $$U $$ is found to be
+and \*_not how it reached that state_.\* More specifically, $$U $$ is found to be
 a function of a few macroscopic quantities (pressure, volume, and temperature,
 for example), independent of past history such as whether there has been heat
 transfer or work done. This independence means that if we know the state of a
@@ -113,10 +113,10 @@ energy $${U}_{1} $$ in State 1, and it has internal energy $${U}_{2} $$ in State
 2, no matter how it got to either state. So the change in internal energy
 $$\Delta U={U}_{2}-{U}_{1} $$ is independent of what caused the change. In other
 words, $$\Delta U $$
-*is independent of path*. By path, we mean the method of getting from the
+_is independent of path_. By path, we mean the method of getting from the
 starting point to the ending point. Why is this independence important? Note
 that $$\Delta U=Q-W $$ . Both $$Q $$ and $$W $$
-*depend on path*, but $$\Delta U $$ does not. This path independence means that
+_depend on path_, but $$\Delta U $$ does not. This path independence means that
 internal energy $$U $$ is easier to consider than either heat transfer or work
 done.
 
@@ -197,7 +197,7 @@ same—it is independent of path.
 
 </div>
 
-![The first part of the picture shows a system in the form of a circle for explanation purposes. The heat entering and work done are represented by bold arrows. A quantity of heat Q in equals forty joules, is shown to enter the system and Q out equals negative twenty five joules is shown to leave the system. The energy of the system in is marked as fifteen joules. At the right-hand side of the circle, a work W in equals negative four joules is shown to be applied on the system and a work W out equals ten joules is shown to leave the system. The energy of the system out is marked as six joules. The second part of the picture shows a system in the form of a circle for explanation purposes. The heat entering and work done are represented by bold arrows. A work of negative one hundred fifty nine is shown to enter the system. The energy in the system is shown as one hundred fifty nine joules. The out energy of the system is one hundred fifty joules. A heat Q out of negative one hundred fifty joules is shown to leave the system as an outward arrow.](../resources/Figure_15_01_03.jpg "Two different processes produce the same change in a system. (a) A total of 15.00 J of heat transfer occurs into the system, while work takes out a total of 6.00 J. The change in internal energy is \( \Delta U=Q - W=9.00 \text{J} \) . (b) Heat transfer removes 150.00 J from the system while work puts 159.00 J into it, producing an increase of 9.00 J in internal energy. If the system starts out in the same state in (a) and (b), it will end up in the same final state in either case&#x2014;its final state is related to internal energy, not how that energy was acquired.")
+![The first part of the picture shows a system in the form of a circle for explanation purposes. The heat entering and work done are represented by bold arrows. A quantity of heat Q in equals forty joules, is shown to enter the system and Q out equals negative twenty five joules is shown to leave the system. The energy of the system in is marked as fifteen joules. At the right-hand side of the circle, a work W in equals negative four joules is shown to be applied on the system and a work W out equals ten joules is shown to leave the system. The energy of the system out is marked as six joules. The second part of the picture shows a system in the form of a circle for explanation purposes. The heat entering and work done are represented by bold arrows. A work of negative one hundred fifty nine is shown to enter the system. The energy in the system is shown as one hundred fifty nine joules. The out energy of the system is one hundred fifty joules. A heat Q out of negative one hundred fifty joules is shown to leave the system as an outward arrow.](../resources/Figure_15_01_03.jpg 'Two different processes produce the same change in a system. (a) A total of 15.00 J of heat transfer occurs into the system, while work takes out a total of 6.00 J. The change in internal energy is ( \\Delta U=Q - W=9.00 \\text{J} ) . (b) Heat transfer removes 150.00 J from the system while work puts 159.00 J into it, producing an increase of 9.00 J in internal energy. If the system starts out in the same state in (a) and (b), it will end up in the same final state in either case—its final state is related to internal energy, not how that energy was acquired.')
 {: #Figure3}
 
 #### Human Metabolism and the First Law of Thermodynamics
@@ -222,12 +222,12 @@ released. This implies that food input is in the form of work. Food energy is
 reported in a special unit, known as the Calorie. This energy is measured by
 burning food in a calorimeter, which is how the units are determined.
 
-In chemistry and biochemistry, one calorie (spelled with a *lowercase* c) is
+In chemistry and biochemistry, one calorie (spelled with a _lowercase_ c) is
 defined as the energy (or heat transfer) required to raise the temperature of
 one gram of pure water by one degree Celsius. Nutritionists and weight-watchers
-tend to use the *dietary* calorie, which is frequently called a Calorie (spelled
-with a *capital* C). One food Calorie is the energy needed to raise the
-temperature of one *kilogram* of water by one degree Celsius. This means that
+tend to use the _dietary_ calorie, which is frequently called a Calorie (spelled
+with a _capital_ C). One food Calorie is the energy needed to raise the
+temperature of one _kilogram_ of water by one degree Celsius. This means that
 one dietary Calorie is equal to one kilocalorie for the chemist, and one must be
 careful to avoid confusion between the two.
 
@@ -276,7 +276,7 @@ ending points of complex processes, such as metabolism and photosynthesis,
 without regard to the complications in between. [[Table 1]](#Table1) presents a
 summary of terms relevant to the first law of thermodynamics.
 
-![Part a of the figure is a pictorial representation of metabolism in a human body. The food is shown to enter the body as shown by a bold arrow toward the body. Work W and heat Q leave the body as shown by bold arrows pointing outward from the body. Delta U is shown as the stored food energy. Part b of the figure shows the metabolism in plants .The heat from the sunlight is shown to fall on a plant represented as Q in. The heat given out by the plant is shown as Q out by an arrow pointing away from the plant.](../resources/Figure_15_01_04.jpg "(a) The first law of thermodynamics applied to metabolism. Heat transferred out of the body (\( Q \) ) and work done by the body (\( W \) ) remove internal energy, while food intake replaces it. (Food intake may be considered as work done on the body.) (b) Plants convert part of the radiant heat transfer in sunlight to stored chemical energy, a process called photosynthesis.")
+![Part a of the figure is a pictorial representation of metabolism in a human body. The food is shown to enter the body as shown by a bold arrow toward the body. Work W and heat Q leave the body as shown by bold arrows pointing outward from the body. Delta U is shown as the stored food energy. Part b of the figure shows the metabolism in plants .The heat from the sunlight is shown to fall on a plant represented as Q in. The heat given out by the plant is shown as Q out by an arrow pointing away from the plant.](../resources/Figure_15_01_04.jpg '(a) The first law of thermodynamics applied to metabolism. Heat transferred out of the body (( Q ) ) and work done by the body (( W ) ) remove internal energy, while food intake replaces it. (Food intake may be considered as work done on the body.) (b) Plants convert part of the radiant heat transfer in sunlight to stored chemical energy, a process called photosynthesis.')
 {: #Figure4}
 
 <table id="Table1" aria-describedby="The table shows summary of terms for the first law of thermodynamics. The first column shows the terms and the second column shows their definitions."><caption><span class="title">Summary of Terms for the First Law of Thermodynamics, $$\Delta U=Q−W $$ </span></caption><thead>
@@ -305,15 +305,15 @@ summary of terms relevant to the first law of thermodynamics.
 
 ### Section Summary
 
-* The first law of thermodynamics is given as $$\Delta U=Q-W $$ , where $$\Delta
+- The first law of thermodynamics is given as $$\Delta U=Q-W $$ , where $$\Delta
   U $$ is the change in internal energy of a system, $$Q $$ is the net heat
   transfer (the sum of all heat transfer into and out of the system), and $$W $$
   is the net work done (the sum of all work done on or by the system).
-* Both $$Q $$ and $$W $$ are energy in transit; only $$\Delta U $$
-  ** represents an independent quantity capable of being stored.
-* The internal energy $$U $$ of a system depends only on the state of the system
+- Both $$Q $$ and $$W $$ are energy in transit; only $$\Delta U $$
+  \*\* represents an independent quantity capable of being stored.
+- The internal energy $$U $$ of a system depends only on the state of the system
   and not how it reached that state.
-* Metabolism of living organisms, and photosynthesis of plants, are specialized
+- Metabolism of living organisms, and photosynthesis of plants, are specialized
   types of heat transfer, doing work, and internal energy of system
 
 ### Conceptual Questions
@@ -440,7 +440,7 @@ in [Problem-Solving Strategies for Thermodynamics](../contents/ch15ApplicationsO
 <div class="solution" markdown="1">
 (a) 122 W
 
-(b)  $$ 2.10 \times 10^{6} \text{J} $$
+(b) $$ 2.10 \times 10^{6} \text{J} $$
 (c) Work done by the motor is $$ 1.61 \times 10^{7} \text{J} $$ ; thus the motor
 produces 7.67 times the work done by the man
 

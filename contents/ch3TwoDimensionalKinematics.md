@@ -5,7 +5,7 @@ sectionNumber: 0
 chapterNumber: 3
 ---
 
-![In this figure the Dragon Khan rollercoaster in Spain&#x2019;s Universal Port Aventura Amusement Park is shown. There are mostly curved paths in the rollercoaster. Near to the rollercoaster there is the track of rollercoaster cart under a bridge. There are some trees near the track.](../resources/Figure_03_00_01.jpg "Everyday motion that we experience is, thankfully, rarely as tortuous as a rollercoaster ride like this&#x2014;the Dragon Khan in Spain&#x2019;s Universal Port Aventura Amusement Park. However, most motion is in curved, rather than straight-line, paths. Motion along a curved path is two- or three-dimensional motion, and can be described in a similar fashion to one-dimensional motion. (credit: Boris23/Wikimedia Commons)")
+![In this figure the Dragon Khan rollercoaster in Spain’s Universal Port Aventura Amusement Park is shown. There are mostly curved paths in the rollercoaster. Near to the rollercoaster there is the track of rollercoaster cart under a bridge. There are some trees near the track.](../resources/Figure_03_00_01.jpg 'Everyday motion that we experience is, thankfully, rarely as tortuous as a rollercoaster ride like this—the Dragon Khan in Spain’s Universal Port Aventura Amusement Park. However, most motion is in curved, rather than straight-line, paths. Motion along a curved path is two- or three-dimensional motion, and can be described in a similar fashion to one-dimensional motion. (credit: Boris23/Wikimedia Commons)')
 {: #Figure1}
 
 The arc of a basketball, the orbit of a satellite, a bicycle rounding a curve, a

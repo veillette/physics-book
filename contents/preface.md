@@ -1,9 +1,9 @@
 ---
-title: "Preface"
+title: 'Preface'
 layout: page
 ---
 
-Welcome to *General Physics*. This textbook is derived from *College Physics*,
+Welcome to _General Physics_. This textbook is derived from _College Physics_,
 an OpenStax resource. OpenStax is a nonprofit based at Rice University, whose
 mission is to improve student access to education. This textbook was written to
 increase student access to high-quality learning materials, maintaining highest
@@ -16,12 +16,12 @@ International (CC BY) license, which means that you can distribute, remix, and
 build upon the content, as long as you provide attribution to its content
 contributors.
 
-### About *General Physics*
+### About _General Physics_
 
-*General Physics* meets standard scope and sequence requirements for an
+_General Physics_ meets standard scope and sequence requirements for an
 introductory algebra-based physics course. The text is grounded in real-world
 examples to help students grasp fundamental physics concepts. It requires
-knowledge of algebra and some trigonometry, but not calculus. *General Physics*
+knowledge of algebra and some trigonometry, but not calculus. _General Physics_
 includes learning objectives, concept questions, links to labs and simulations,
 and ample practice opportunities for traditional physics application problems.
 
@@ -34,44 +34,44 @@ on to another topic. Each introductory chapter, for example, opens with an
 engaging photograph relevant to the subject of the chapter and interesting
 applications that are easy for most students to visualize.
 
-* [Chapter 1: Introduction: The Nature of Science and Physics](./ch1PhysicsAnIntroduction)
-* [Chapter 2: Kinematics](./ch2Kinematics)
-* [Chapter 3: Two-Dimensional Kinematics](./ch3KinematicsInTwoDimensionsAnIntroduction)
-* [Chapter 4: Dynamics: Force and Newton\'s Laws of Motion](./ch4Dynamics)
-* [Chapter 5: Further Applications of Newton\'s Laws:
+- [Chapter 1: Introduction: The Nature of Science and Physics](./ch1PhysicsAnIntroduction)
+- [Chapter 2: Kinematics](./ch2Kinematics)
+- [Chapter 3: Two-Dimensional Kinematics](./ch3KinematicsInTwoDimensionsAnIntroduction)
+- [Chapter 4: Dynamics: Force and Newton\'s Laws of Motion](./ch4Dynamics)
+- [Chapter 5: Further Applications of Newton\'s Laws:
   Friction, Drag, and Elasticity](./ch5FurtherApplicationsOfNewtonsLaws)
-* [Chapter 6: Uniform Circular Motion and Gravitation](./ch6UniformCircularMotionAndGravitation)
-* [Chapter 7: Work, Energy, and Energy Resources](./ch7WorkEnergyAndEnergyResources)
-* [Chapter 8: Linear Momentum and Collisions](./ch8LinearMomentumAndCollisions)
-* [Chapter 9: Statics and Torque](./ch9StaticsAndTorque)
-* [Chapter 10: Rotational Motion and Angular Momentum](./ch10RotationalMotionAndAngularMomentum)
-* [Chapter 11: Fluid Statics](./ch11FluidStatics)
-* [Chapter 12: Fluid Dynamics and Its Biological and Medical Applications](./ch12FluidDynamicsAndItsBiologicalApplications)
-* [Chapter 13: Temperature, Kinetic Theory, and the Gas Laws](./ch13TemperatureKineticTheoryAndTheGasLaws)
-* [Chapter 14: Heat and Heat Transfer Methods](./ch14HeatAndHeatTransfers)
-* [Chapter 15: Thermodynamics](./ch15Thermodynamics)
-* [Chapter 16: Oscillatory Motion and Waves](./ch16OscillatoryMotionAndWaves)
-* [Chapter 17: Physics of Hearing](./ch17PhysicsOfHearing)
-* [Chapter 18: Electric Charge and Electric Field](./ch18ElectricChargeAndElectricField)
-* [Chapter 19: Electric Potential and Electric Energy](./ch19ElectricPotentialAndElectricEnergy)
-* [Chapter 20: Electric Current, Resistance, and Ohm\'s Law](./ch20ElectricCurrentResistanceAndOhmsLaw)
-* [Chapter 21: Circuits and DC Instruments](./ch21IntroductionToCircuitsAndDCInstruments)
-* [Chapter 22: Magnetism](./ch22Magnetism)
-* [Chapter 23: Electromagnetic Induction, AC Circuits, and Electrical Technologies](./ch23ElectromagneticInductionACCircuitsAndElectricalTechnologies)
-* [Chapter 24: Electromagnetic Waves](./ch24ElectromagneticWaves)
-* [Chapter 25: Geometric Optics](./ch25GeometricOptics)
-* [Chapter 26: Vision and Optical Instruments](./ch26VisionAndOpticalInstruments)
-* [Chapter 27: Wave Optics](./ch27WaveOptics)
-* [Chapter 28: Special Relativity](./ch28SpecialRelativity)
-* [Chapter 29: Introduction to Quantum Physics](./ch29QuantumPhysics)
-* [Chapter 30: Atomic Physics](./ch30AtomicPhysics)
-* [Chapter 31: Radioactivity and Nuclear Physics](./ch31RadioactivityAndNuclearPhysics)
-* [Chapter 32: Medical Applications of Nuclear Physics](./ch32MedicalApplicationsOfNuclearPhysics)
-* [Chapter 33: Particle Physics](./ch33ParticlePhysics)
-* [Chapter 34: Cosmology and Particle Physics](./ch34CosmologyAndParticlePhysics)
+- [Chapter 6: Uniform Circular Motion and Gravitation](./ch6UniformCircularMotionAndGravitation)
+- [Chapter 7: Work, Energy, and Energy Resources](./ch7WorkEnergyAndEnergyResources)
+- [Chapter 8: Linear Momentum and Collisions](./ch8LinearMomentumAndCollisions)
+- [Chapter 9: Statics and Torque](./ch9StaticsAndTorque)
+- [Chapter 10: Rotational Motion and Angular Momentum](./ch10RotationalMotionAndAngularMomentum)
+- [Chapter 11: Fluid Statics](./ch11FluidStatics)
+- [Chapter 12: Fluid Dynamics and Its Biological and Medical Applications](./ch12FluidDynamicsAndItsBiologicalApplications)
+- [Chapter 13: Temperature, Kinetic Theory, and the Gas Laws](./ch13TemperatureKineticTheoryAndTheGasLaws)
+- [Chapter 14: Heat and Heat Transfer Methods](./ch14HeatAndHeatTransfers)
+- [Chapter 15: Thermodynamics](./ch15Thermodynamics)
+- [Chapter 16: Oscillatory Motion and Waves](./ch16OscillatoryMotionAndWaves)
+- [Chapter 17: Physics of Hearing](./ch17PhysicsOfHearing)
+- [Chapter 18: Electric Charge and Electric Field](./ch18ElectricChargeAndElectricField)
+- [Chapter 19: Electric Potential and Electric Energy](./ch19ElectricPotentialAndElectricEnergy)
+- [Chapter 20: Electric Current, Resistance, and Ohm\'s Law](./ch20ElectricCurrentResistanceAndOhmsLaw)
+- [Chapter 21: Circuits and DC Instruments](./ch21IntroductionToCircuitsAndDCInstruments)
+- [Chapter 22: Magnetism](./ch22Magnetism)
+- [Chapter 23: Electromagnetic Induction, AC Circuits, and Electrical Technologies](./ch23ElectromagneticInductionACCircuitsAndElectricalTechnologies)
+- [Chapter 24: Electromagnetic Waves](./ch24ElectromagneticWaves)
+- [Chapter 25: Geometric Optics](./ch25GeometricOptics)
+- [Chapter 26: Vision and Optical Instruments](./ch26VisionAndOpticalInstruments)
+- [Chapter 27: Wave Optics](./ch27WaveOptics)
+- [Chapter 28: Special Relativity](./ch28SpecialRelativity)
+- [Chapter 29: Introduction to Quantum Physics](./ch29QuantumPhysics)
+- [Chapter 30: Atomic Physics](./ch30AtomicPhysics)
+- [Chapter 31: Radioactivity and Nuclear Physics](./ch31RadioactivityAndNuclearPhysics)
+- [Chapter 32: Medical Applications of Nuclear Physics](./ch32MedicalApplicationsOfNuclearPhysics)
+- [Chapter 33: Particle Physics](./ch33ParticlePhysics)
+- [Chapter 34: Cosmology and Particle Physics](./ch34CosmologyAndParticlePhysics)
 
-* [Appendix A: Useful Information](./appendixA)
-* [Appendix B: Glossary of Key Symbols and Notation](./appendixB)
+- [Appendix A: Useful Information](./appendixA)
+- [Appendix B: Glossary of Key Symbols and Notation](./appendixB)
 
 #### Concepts and Calculations
 

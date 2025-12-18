@@ -158,7 +158,6 @@ The `scripts/` directory contains a powerful suite of Node.js utilities. See `sc
 - **`check-orphans.js`**: Scans for unreferenced files in `assets/` and `resources/`. It's smart enough to parse Markdown, HTML, CSS, JS, and JSON files to find references. Use `npm run check-orphans:cleanup` to generate a script to remove orphan files.
 - **PDF Generation**: `npm run generate-pdf:combined` creates a single PDF of the entire book. Requires Playwright (`npm run generate-pdf:install`). To generate a combined PDF for a specific chapter (e.g., Chapter 1) using the correct base URL: `npm run generate-pdf -- --chapter 1 --combined --base-url http://localhost:4000/physics-book`.
 
-
 ## Common Issues and Solutions
 
 ### Navigation Links Broken on GitHub Pages
@@ -170,9 +169,9 @@ The `scripts/` directory contains a powerful suite of Node.js utilities. See `sc
 
 - **Symptom**: Offline mode isn't working or content is stale.
 - **Solution**:
-    1.  The service worker file is now `sw.js` in the project root.
-    2.  Check the browser DevTools (Application → Service Workers) to inspect its status and clear storage if needed.
-    3.  Service workers require HTTPS or localhost to function.
+  1.  The service worker file is now `sw.js` in the project root.
+  2.  Check the browser DevTools (Application → Service Workers) to inspect its status and clear storage if needed.
+  3.  Service workers require HTTPS or localhost to function.
 
 ## Advanced Features
 

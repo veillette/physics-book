@@ -19,7 +19,7 @@ size of the nucleus and devices were painted with radium-doped paint to make the
 glow in the dark (see [[Figure 1]](#Figure1)). We therefore begin our study of
 nuclear physics with the discovery and basic features of nuclear radioactivity.
 
-![The image shows an aircraft panel with lots of dial indicators, some levers and two wheels.](../resources/Figure_31_01_01.jpg "The dials of this World War II aircraft glow in the dark, because they are painted with radium-doped phosphorescent paint. It is a poignant reminder of the dual nature of radiation. Although radium paint dials are conveniently visible day and night, they emit radon, a radioactive gas that is hazardous and is not directly sensed. (credit: U.S. Air Force Photo)")
+![The image shows an aircraft panel with lots of dial indicators, some levers and two wheels.](../resources/Figure_31_01_01.jpg 'The dials of this World War II aircraft glow in the dark, because they are painted with radium-doped phosphorescent paint. It is a poignant reminder of the dual nature of radiation. Although radium paint dials are conveniently visible day and night, they emit radon, a radioactive gas that is hazardous and is not directly sensed. (credit: U.S. Air Force Photo)')
 {: #Figure1}
 
 ### Discovery of Nuclear Radioactivity
@@ -97,17 +97,17 @@ Rutherford collected $$\alpha $$ s from a radioactive source and passed an
 electric discharge through them, obtaining the spectrum of recently discovered
 helium gas. Among many important discoveries made by Rutherford and his
 collaborators was the proof that $$\alpha $$
-*radiation is the emission of a helium nucleus*. Rutherford won the Nobel Prize
+_radiation is the emission of a helium nucleus_. Rutherford won the Nobel Prize
 in chemistry in 1908 for his early work. He continued to make important
 contributions until his death in 1934.
 
-![The figure shows north and south poles of a magnet through which three rays labeled as alpha beta and gamma are passed. After passing through a magnetic field the alpha ray is slightly deflected toward the right. The beta ray is deflected toward the left and the gamma ray is not deflected.](../resources/Figure_31_01_02.jpg "Alpha, beta, and gamma rays are passed through a magnetic field on the way to a phosphorescent screen. The \(\alpha\)s and \( \beta \)s bend in opposite directions, while the \( \gamma \)s are unaffected, indicating a positive charge for \( \alpha \)s, negative for \( \beta \)s, and neutral for \( \gamma \)s. Consistent results are obtained with electric fields. Collection of the radiation offers further confirmation from the direct measurement of excess charge.")
+![The figure shows north and south poles of a magnet through which three rays labeled as alpha beta and gamma are passed. After passing through a magnetic field the alpha ray is slightly deflected toward the right. The beta ray is deflected toward the left and the gamma ray is not deflected.](../resources/Figure_31_01_02.jpg 'Alpha, beta, and gamma rays are passed through a magnetic field on the way to a phosphorescent screen. The (\\alpha)s and ( \\beta )s bend in opposite directions, while the ( \\gamma )s are unaffected, indicating a positive charge for ( \\alpha )s, negative for ( \\beta )s, and neutral for ( \\gamma )s. Consistent results are obtained with electric fields. Collection of the radiation offers further confirmation from the direct measurement of excess charge.')
 {: #Figure2}
 
 Other researchers had already proved that $$\beta $$ s are negative and have the
 same mass and same charge-to-mass ratio as the recently discovered electron. By
 1902, it was recognized that $$\beta $$
-*radiation is the emission of an electron*. Although $$\beta $$ s are electrons,
+_radiation is the emission of an electron_. Although $$\beta $$ s are electrons,
 they do not exist in the nucleus before it decays and are not ejected atomic
 electrons—the electron is created in the nucleus at the instant of decay.
 
@@ -152,7 +152,9 @@ Like X-rays, nuclear radiation in the form of $$\alpha $$ s, $$\beta $$ s, and
 $$\gamma $$ s has enough energy per event to ionize atoms and molecules in any
 material. The energy emitted in various nuclear decays ranges from a few
 $$\text{keV} $$ to more than $$10 \text{MeV} $$ , while only a few $$\text{eV}
-$$ are needed to produce ionization. The effects of X-rays and nuclear radiation
+
+$$
+are needed to produce ionization. The effects of X-rays and nuclear radiation
 on biological tissues and other materials, such as solid state electronics, are
 directly related to the ionization they produce. All of them, for example, can
 damage electronics or kill cancer cells. In addition, methods for detecting x
@@ -194,7 +196,7 @@ material, the smaller the range of radiation.
 <div class="title">
 Collisions
 </div>
-Conservation of energy and momentum often results in energy transfer to a less 
+Conservation of energy and momentum often results in energy transfer to a less
 massive object in a collision.
 This was discussed in detail in [Work, Energy, and Energy Resources](../contents/ch7WorkEnergyAndEnergyResources), for example.
 
@@ -202,7 +204,7 @@ This was discussed in detail in [Work, Energy, and Energy Resources](../contents
 
 Different **types** of radiation have different ranges when compared at the same
 energy and in the same material. Alphas have the shortest range, betas penetrate
-farther, and gammas have the greatest range. This is directly related to charge 
+farther, and gammas have the greatest range. This is directly related to charge
 and speed of the particle or type of radiation. At a given energy, each $$\alpha
 $$ , $$\beta $$ , or $$\gamma $$ will produce the same number of ionizations in
 a material (each ionization requires a certain amount of energy on average). The
@@ -396,3 +398,4 @@ range of radiation
 : the distance that the radiation can travel through a material
 
 </div>
+$$

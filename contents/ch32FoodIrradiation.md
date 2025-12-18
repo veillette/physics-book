@@ -38,7 +38,7 @@ accelerated to energies up to 10 MeV. The higher the energy per particle, the
 more penetrating the radiation is and the more ionization it can
 create. [[Figure 1]](#Figure1) shows a typical $$\gamma $$ -irradiation plant.
 
-![Figure shows a food irradiation plant with conveyor system that moves the food packages through the irradiation room. The radiation source rack is lowered into a deep storage pool of water.](../resources/Figure_32_04_01.jpg "A food irradiation plant has a conveyor system to pass items through an intense radiation field behind thick shielding walls. The \( \gamma \) source is lowered into a deep pool of water for safe storage when not in use. Exposure times of up to an hour expose food to doses up to \( 10^{4} \text{Gy} \). ")
+![Figure shows a food irradiation plant with conveyor system that moves the food packages through the irradiation room. The radiation source rack is lowered into a deep storage pool of water.](../resources/Figure_32_04_01.jpg 'A food irradiation plant has a conveyor system to pass items through an intense radiation field behind thick shielding walls. The ( \\gamma ) source is lowered into a deep pool of water for safe storage when not in use. Exposure times of up to an hour expose food to doses up to ( 10^{4} \\text{Gy} ). ')
 {: #Figure1}
 
 Owing to the fact that food irradiation seeks to destroy organisms such as
@@ -46,7 +46,7 @@ insects and bacteria, much larger doses than those fatal to humans must be
 applied. Generally, the simpler the organism, the more radiation it can
 tolerate. (Cancer cells are a partial exception, because they are rapidly
 reproducing and, thus, more sensitive.) Current licensing allows up to 1000 Gy
-to be applied to fresh fruits and vegetables, called a *low dose*  in food
+to be applied to fresh fruits and vegetables, called a _low dose_ in food
 irradiation. Such a dose is enough to prevent or reduce the growth of many
 microorganisms, but about 10 000 Gy is needed to kill salmonella, and even more
 is needed to kill fungi. Doses greater than 10 000 Gy are considered to be high
@@ -88,10 +88,10 @@ hazards of existing insecticides and food preservatives.
 
 ### Section Summary
 
-* Food irradiation is the treatment of food with ionizing radiation.
-* Irradiating food can destroy insects and bacteria by creating free radicals
+- Food irradiation is the treatment of food with ionizing radiation.
+- Irradiating food can destroy insects and bacteria by creating free radicals
   and radiolytic products that can break apart cell membranes.
-* Food irradiation has produced no observable negative short-term effects for
+- Food irradiation has produced no observable negative short-term effects for
   humans, but its long-term effects are unknown.
 
 ### Conceptual Questions

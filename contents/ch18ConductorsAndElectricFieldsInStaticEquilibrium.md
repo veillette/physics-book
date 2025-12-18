@@ -28,7 +28,7 @@ can be either positive or negative and are, in fact, negative in metals. The
 motion of a positive charge is equivalent to the motion of a negative charge in
 the opposite direction.
 
-![In part a, an electric field E exists at some angle with the horizontal applied on a conductor. One component of this field E parallel is along x axis represented by a vector arrow and other E perpendicular, is along y axis represented by a vector arrow. Charge inside the conductor moves along x axis so the force acting on it is F parallel, which is equal to q multiplied by E parallel. In part b, a charge is shown inside the conductor and electric field is represented by a vector arrow pointing upward starting from the surface of the conductor.](../resources/Figure_18_07_02.jpg "When an electric field \( E \) is applied to a conductor, free charges inside the conductor move until the field is perpendicular to the surface. (a) The electric field is a vector quantity, with both parallel and perpendicular components. The parallel component \( E_{\parallel } \) exerts a force \( F_{\parallel } \) on the free charge \( q \) , which moves the charge until \( F_{\parallel}=0 \). (b) The resulting field is perpendicular to the surface. The free charge has been brought to the conductor&#x2019;s surface, leaving electrostatic forces in equilibrium.")
+![In part a, an electric field E exists at some angle with the horizontal applied on a conductor. One component of this field E parallel is along x axis represented by a vector arrow and other E perpendicular, is along y axis represented by a vector arrow. Charge inside the conductor moves along x axis so the force acting on it is F parallel, which is equal to q multiplied by E parallel. In part b, a charge is shown inside the conductor and electric field is represented by a vector arrow pointing upward starting from the surface of the conductor.](../resources/Figure_18_07_02.jpg 'When an electric field ( E ) is applied to a conductor, free charges inside the conductor move until the field is perpendicular to the surface. (a) The electric field is a vector quantity, with both parallel and perpendicular components. The parallel component ( E_{\\parallel } ) exerts a force ( F_{\\parallel } ) on the free charge ( q ) , which moves the charge until ( F_{\\parallel}=0 ). (b) The resulting field is perpendicular to the surface. The free charge has been brought to the conductor’s surface, leaving electrostatic forces in equilibrium.')
 {: #Figure1}
 
 A conductor placed in an **electric field** will be **polarized**
@@ -36,7 +36,7 @@ A conductor placed in an **electric field** will be **polarized**
 originally uniform electric field. The field becomes stronger near the conductor
 but entirely disappears inside it.
 
-![A spherical conductor is placed in the external electric field. The field lines are shown running from left to right. The field lines enter and leave the conductor at right angles. Negative charges accumulate on the left surface of the conductor and positive charges accumulate on the right surface of the conductor.](../resources/Figure_18_07_03.jpg "This illustration shows a spherical conductor in static equilibrium with an originally uniform electric field. Free charges move within the conductor, polarizing it, until the electric field lines are perpendicular to the surface. The field lines end on excess negative charge on one section of the surface and begin again on excess positive charge on the opposite side. No electric field exists inside the conductor, since free charges in the conductor would continue moving in response to any field until it was neutralized.")
+![A spherical conductor is placed in the external electric field. The field lines are shown running from left to right. The field lines enter and leave the conductor at right angles. Negative charges accumulate on the left surface of the conductor and positive charges accumulate on the right surface of the conductor.](../resources/Figure_18_07_03.jpg 'This illustration shows a spherical conductor in static equilibrium with an originally uniform electric field. Free charges move within the conductor, polarizing it, until the electric field lines are perpendicular to the surface. The field lines end on excess negative charge on one section of the surface and begin again on excess positive charge on the opposite side. No electric field exists inside the conductor, since free charges in the conductor would continue moving in response to any field until it was neutralized.')
 {: #Figure2}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -45,7 +45,7 @@ Misconception Alert: Electric Field inside a Conductor
 </div>
 Excess charges placed on a spherical conductor repel and move until they are evenly distributed, as shown in [[Figure 3]](#Figure3). Excess charge is forced to the surface until the field inside the conductor is zero. Outside the conductor, the field is exactly the same as if the conductor were replaced by a point charge at its center equal to the excess charge.
 
-![A positively charged sphere is shown and positive charges are distributed all over the surface. Electric field lines emanate from the sphere in the space shown by the vector arrow pointing outward.](../resources/Figure_18_07_04.jpg "The mutual repulsion of excess positive charges on a spherical conductor distributes them uniformly on its surface. The resulting electric field is perpendicular to the surface and zero inside. Outside the conductor, the field is identical to that of a point charge at the center equal to the excess charge.")
+![A positively charged sphere is shown and positive charges are distributed all over the surface. Electric field lines emanate from the sphere in the space shown by the vector arrow pointing outward.](../resources/Figure_18_07_04.jpg 'The mutual repulsion of excess positive charges on a spherical conductor distributes them uniformly on its surface. The resulting electric field is perpendicular to the surface and zero inside. Outside the conductor, the field is identical to that of a point charge at the center equal to the excess charge.')
 {: #Figure3}
 
 </div>
@@ -56,7 +56,7 @@ Properties of a Conductor in Electrostatic Equilibrium
 </div>
 1.   The electric field is zero inside a conductor.
 2.   Just outside a conductor, the electric field lines are perpendicular to its surface, ending or beginning on charges on the surface.
-3.   Any excess charge resides entirely on the surface or surfaces of a conductor. 
+3.   Any excess charge resides entirely on the surface or surfaces of a conductor.
 
 </div>
 
@@ -73,7 +73,7 @@ lines that are uniformly spaced (hence uniform in strength) and perpendicular to
 the surfaces (hence uniform in direction, since the plates are flat). The edge
 effects are less important when the plates are close together.
 
-![Two charged metal plates are shown. The lower plate has negative charge and the upper plate has positive charge. The electric field lines start from positive plate and enter the negative plate represented by arrows.](../resources/Figure_18_07_05.jpg "Two metal plates with equal, but opposite, excess charges. The field between them is uniform in strength and direction except near the edges. One use of such a field is to produce uniform acceleration of charges between the plates, such as in the electron gun of a TV tube.")
+![Two charged metal plates are shown. The lower plate has negative charge and the upper plate has positive charge. The electric field lines start from positive plate and enter the negative plate represented by arrows.](../resources/Figure_18_07_05.jpg 'Two metal plates with equal, but opposite, excess charges. The field between them is uniform in strength and direction except near the edges. One use of such a field is to produce uniform acceleration of charges between the plates, such as in the electron gun of a TV tube.')
 {: #Figure4}
 
 ### Earth’s Electric Field
@@ -96,7 +96,7 @@ surrounding material break down and it becomes conducting. For air this occurs
 at around $$3 \times 10^{6} $$ N/C. Air ionizes ions and electrons recombine,
 and we get discharge in the form of lightning sparks and corona discharge.
 
-![In part a, a child is flying a kite with two men in an open field on a bright sunny day. In part b, lightning appears over a body of water in stormy weather.](../resources/Figure_18_07_06.jpg "Earth&#x2019;s electric field. (a) Fair weather field. Earth and the ionosphere (a layer of charged particles) are both conductors. They produce a uniform electric field of about 150 N/C. (credit: D. H. Parks) (b) Storm fields. In the presence of storm clouds, the local electric fields can be larger. At very high fields, the insulating properties of the air break down and lightning can occur. (credit: Jan-Joost Verhoef)")
+![In part a, a child is flying a kite with two men in an open field on a bright sunny day. In part b, lightning appears over a body of water in stormy weather.](../resources/Figure_18_07_06.jpg 'Earth’s electric field. (a) Fair weather field. Earth and the ionosphere (a layer of charged particles) are both conductors. They produce a uniform electric field of about 150 N/C. (credit: D. H. Parks) (b) Storm fields. In the presence of storm clouds, the local electric fields can be larger. At very high fields, the insulating properties of the air break down and lightning can occur. (credit: Jan-Joost Verhoef)')
 {: #Figure5}
 
 ### Electric Fields on Uneven Surfaces
@@ -121,7 +121,7 @@ field, as seen in [[Figure 6]](#Figure6) (c). Since the field lines must be
 perpendicular to the surface, more of them are concentrated on the most curved
 parts.
 
-![In part a, a conductor is shown with the unsymmetrical shape. The identical pair of charges at opposite ends on the conductor have similar components of forces represented by arrows. In part b, the unsymmetrical object has positive charge on its surface. The electric field lines are shown emerging perpendicular from the surface of the conductor represented by vector arrow. In part c, the field lines in and around the conductor running from left to right is shown. The left surface of the conductor has negative charge and the right surface has positive charge. The field lines enter and leave the conductor at right angles.](../resources/Figure_18_07_07.jpg "Excess charge on a nonuniform conductor becomes most concentrated at the location of greatest curvature. (a) The forces between identical pairs of charges at either end of the conductor are identical, but the components of the forces parallel to the surface are different. It is \( F_{\parallel } \) that moves the charges apart once they have reached the surface. (b) \( F_{\parallel } \) is smallest at the more pointed end, the charges are left closer together, producing the electric field shown. (c) An uncharged conductor in an originally uniform electric field is polarized, with the most concentrated charge at its most pointed end.")
+![In part a, a conductor is shown with the unsymmetrical shape. The identical pair of charges at opposite ends on the conductor have similar components of forces represented by arrows. In part b, the unsymmetrical object has positive charge on its surface. The electric field lines are shown emerging perpendicular from the surface of the conductor represented by vector arrow. In part c, the field lines in and around the conductor running from left to right is shown. The left surface of the conductor has negative charge and the right surface has positive charge. The field lines enter and leave the conductor at right angles.](../resources/Figure_18_07_07.jpg 'Excess charge on a nonuniform conductor becomes most concentrated at the location of greatest curvature. (a) The forces between identical pairs of charges at either end of the conductor are identical, but the components of the forces parallel to the surface are different. It is ( F_{\\parallel } ) that moves the charges apart once they have reached the surface. (b) ( F_{\\parallel } ) is smallest at the more pointed end, the charges are left closer together, producing the electric field shown. (c) An uncharged conductor in an originally uniform electric field is polarized, with the most concentrated charge at its most pointed end.')
 {: #Figure6}
 
 ### Applications of Conductors
@@ -155,27 +155,27 @@ the car and the inside is unaffected, provided you remain totally inside. This
 is also true if an active (“hot”) electrical wire was broken (in a storm or an
 accident) and fell on your car.
 
-![A cone shaped positively charged conductor is shown where most of the positive charges are accumulated at the tip. The field lines represented by arrows emerge at right angles from the surface of the conductor in outward direction. The density of field lines is greater at the tip of the cone than at other surfaces.](../resources/Figure_18_07_08.jpg "A very pointed conductor has a large charge concentration at the point. The electric field is very strong at the point and can exert a force large enough to transfer charge on or off the conductor. Lightning rods are used to prevent the buildup of large excess charges on structures and, thus, are pointed.")
+![A cone shaped positively charged conductor is shown where most of the positive charges are accumulated at the tip. The field lines represented by arrows emerge at right angles from the surface of the conductor in outward direction. The density of field lines is greater at the tip of the cone than at other surfaces.](../resources/Figure_18_07_08.jpg 'A very pointed conductor has a large charge concentration at the point. The electric field is very strong at the point and can exert a force large enough to transfer charge on or off the conductor. Lightning rods are used to prevent the buildup of large excess charges on structures and, thus, are pointed.')
 {: #Figure7}
 
-![In part a, a lightning rod is shown on the roof of a house. In part b, a person is touching the metal sphere of the Van De Graaff and his hair is standing up.](../resources/Figure_18_07_09.jpg "(a) A lightning rod is pointed to facilitate the transfer of charge. (credit: Romaine, Wikimedia Commons) (b) This Van de Graaff generator has a smooth surface with a large radius of curvature to prevent the transfer of charge and allow a large voltage to be generated. The mutual repulsion of like charges is evident in the person&#x2019;s hair while touching the metal sphere. (credit: Jon &#x2018;ShakataGaNai&#x2019; Davis/Wikimedia Commons).")
+![In part a, a lightning rod is shown on the roof of a house. In part b, a person is touching the metal sphere of the Van De Graaff and his hair is standing up.](../resources/Figure_18_07_09.jpg '(a) A lightning rod is pointed to facilitate the transfer of charge. (credit: Romaine, Wikimedia Commons) (b) This Van de Graaff generator has a smooth surface with a large radius of curvature to prevent the transfer of charge and allow a large voltage to be generated. The mutual repulsion of like charges is evident in the person’s hair while touching the metal sphere. (credit: Jon ‘ShakataGaNai’ Davis/Wikimedia Commons).')
 {: #Figure8}
 
 ### Section Summary
 
-* A conductor allows free charges to move about within it.
-* The electrical forces around a conductor will cause free charges to move
+- A conductor allows free charges to move about within it.
+- The electrical forces around a conductor will cause free charges to move
   around inside the conductor until static equilibrium is reached.
-* Any excess charge will collect along the surface of a conductor.
-* Conductors with sharp corners or points will collect more charge at those
+- Any excess charge will collect along the surface of a conductor.
+- Conductors with sharp corners or points will collect more charge at those
   points.
-* A lightning rod is a conductor with sharply pointed ends that collect excess
+- A lightning rod is a conductor with sharply pointed ends that collect excess
   charge on the building caused by an electrical storm and allow it to dissipate
   back into the air.
-* Electrical storms result when the electrical field of Earth’s surface in
+- Electrical storms result when the electrical field of Earth’s surface in
   certain locations becomes more strongly charged, due to changes in the
   insulating effect of the air.
-* A Faraday cage acts like a shield around an object, preventing electric charge
+- A Faraday cage acts like a shield around an object, preventing electric charge
   from penetrating inside.
 
 ### Conceptual Questions
@@ -184,7 +184,7 @@ accident) and fell on your car.
 <div class="problem" markdown="1">
 Is the object in [[Figure 9]](#Figure9) a conductor or an insulator? Justify your answer.
 
-![External field lines entering the object from one end and emerging from another are shown by lines.](../resources/Figure_18_07_11.jpg " ")
+![External field lines entering the object from one end and emerging from another are shown by lines.](../resources/Figure_18_07_11.jpg ' ')
 {: #Figure9}
 
 </div>
@@ -246,7 +246,7 @@ Using the symmetry of the arrangement, show that the net Coulomb force on the ch
 </div>
 </div>
 
-![Four point charges, one is q a, second is q b, third is q c, and fourth is q d, lie on the corners of a square. q is located at its center.](../resources/Figure_18_07_12.jpg "Four point charges \( q_{a} \), \( q_{b} \), \( q_{c} \), and \( q_{d} \) lie on the corners of a square and \( q \) is located at its center.")
+![Four point charges, one is q a, second is q b, third is q c, and fourth is q d, lie on the corners of a square. q is located at its center.](../resources/Figure_18_07_12.jpg 'Four point charges ( q_{a} ), ( q_{b} ), ( q_{c} ), and ( q_{d} ) lie on the corners of a square and ( q ) is located at its center.')
 {: #Figure10}
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -312,8 +312,9 @@ the consequences if they simply walks away?
 <div class="problem" markdown="1">
 Sketch the electric field lines in the vicinity of the conductor in [[Figure 11]](#Figure11) given the field was originally uniform and parallel to the object’s long axis. Is the resulting field small near the long side of the object?
 
-![A oblong-shaped conductor.](../resources/Figure_18_07_13.jpg " ")
+![A oblong-shaped conductor.](../resources/Figure_18_07_13.jpg ' ')
 {: #Figure11}
+
 </div>
 </div>
 
@@ -321,8 +322,9 @@ Sketch the electric field lines in the vicinity of the conductor in [[Figure 11]
 <div class="problem"  markdown="1">
 Sketch the electric field lines in the vicinity of the conductor in [[Figure 12]](#Figure12) given the field was originally uniform and parallel to the object’s long axis. Is the resulting field small near the long side of the object?
 
-![A oblong-shaped conductor.](../resources/Figure_18_07_14.jpg " ")
+![A oblong-shaped conductor.](../resources/Figure_18_07_14.jpg ' ')
 {: #Figure12}
+
 </div>
 </div>
 
@@ -330,7 +332,7 @@ Sketch the electric field lines in the vicinity of the conductor in [[Figure 12]
 <div class="problem" markdown="1">
 Sketch the electric field between the two conducting plates shown in [[Figure 13]](#Figure13), given the top plate is positive and an equal amount of negative charge is on the bottom plate. Be certain to indicate the distribution of charge on the plates.
 
-![Two plates are shown; one is in horizontal direction and other is above the first plate with some inclination.](../resources/Figure_18_07_15.jpg " ")
+![Two plates are shown; one is in horizontal direction and other is above the first plate with some inclination.](../resources/Figure_18_07_15.jpg ' ')
 {: #Figure13}
 
 </div>
@@ -340,7 +342,7 @@ Sketch the electric field between the two conducting plates shown in [[Figure 13
 <div class="problem" markdown="1">
 Sketch the electric field lines in the vicinity of the charged insulator in [[Figure 14]](#Figure14) noting its nonuniform charge distribution.
 
-![A positively charged rod with a concentration of positive charges near the top and a few in the middle.](../resources/Figure_18_07_16.jpg "A charged insulating rod such as might be used in a classroom demonstration.")
+![A positively charged rod with a concentration of positive charges near the top and a few in the middle.](../resources/Figure_18_07_16.jpg 'A charged insulating rod such as might be used in a classroom demonstration.')
 {: #Figure14}
 
 </div>
@@ -351,7 +353,7 @@ Sketch the electric field lines in the vicinity of the charged insulator in [[Fi
 What is the force on the charge located at  $$x=8.00 \text{cm} $$
  in [[Figure 15]](#Figure15)(a) given that  $$q=1.00 \text{μC} $$ ?
 
-![Three point charges are shown on the scaling line. First charge plus q is at three point zero, second charge minus two q is at eight point zero, and third charge plus q is eleven point zero centimeters along the x axis. Four charges are placed on a scaling line. First is minus two q at one point zero, second is plus q at five point zero, third is plus three q is at eight point zero, and fourth is minus q placed at fourteen point zero centimeter along the x axis.](../resources/Figure_18_07_17.jpg "(a) Point charges located at 3.00, 8.00, and 11.0 cm along the x-axis. (b) Point charges located at 1.00, 5.00, 8.00, and 14.0 cm along the x-axis.")
+![Three point charges are shown on the scaling line. First charge plus q is at three point zero, second charge minus two q is at eight point zero, and third charge plus q is eleven point zero centimeters along the x axis. Four charges are placed on a scaling line. First is minus two q at one point zero, second is plus q at five point zero, third is plus three q is at eight point zero, and fourth is minus q placed at fourteen point zero centimeter along the x axis.](../resources/Figure_18_07_17.jpg '(a) Point charges located at 3.00, 8.00, and 11.0 cm along the x-axis. (b) Point charges located at 1.00, 5.00, 8.00, and 14.0 cm along the x-axis.')
 {: #Figure15}
 
 </div>
@@ -392,7 +394,8 @@ What is the force on the charge located at  $$x=8.00 \text{cm} $$
 <div class="solution" markdown="1">
 (a) 0.252 N to the left
 
-(b)  $$x=6.07 \text{cm} $$
+(b) $$x=6.07 \text{cm} $$
+
 </div>
 </div>
 
@@ -403,7 +406,7 @@ Using the symmetry of the arrangement, determine the direction of the force on  
  and  $${q}_{c}={q}_{d}=-7.50 \text{μC} $$ .
  (b) Calculate the magnitude of the force on the charge  $$q $$ , given that the square is 10.0 cm on a side and  $$q=2.00 \text{μC} $$.
 
-![Four point charges, one is q a, second is q b, third is q c, and fourth is q d, lie on the corners of a square. q is located at its center.](../resources/Figure_18_07_12.jpg  " ")
+![Four point charges, one is q a, second is q b, third is q c, and fourth is q d, lie on the corners of a square. q is located at its center.](../resources/Figure_18_07_12.jpg ' ')
 {: #Figure16}
 
 </div>
@@ -424,7 +427,8 @@ Using the symmetry of the arrangement, determine the direction of the force on  
  and  $${q}_{d} $$
  are negative and all have the same magnitude.
 
-(b)  $$ 2.04 \times 10^{7} \text{N/C} \left(\text{upward}\right) $$
+(b) $$ 2.04 \times 10^{7} \text{N/C} \left(\text{upward}\right) $$
+
 </div>
 </div>
 
@@ -461,7 +465,7 @@ Find the total Coulomb force on the charge  $$q $$
  (b) What is the force on  $${q}_{a} $$ ,
  given that  $${q}_{\text{a}}=+1.50 \text{nC} $$ ?
 
-![Three point charges located at the corners of an equilateral triangle.](../resources/Figure_18_07_18.jpg "Point charges located at the corners of an equilateral triangle 25.0 cm on a side.")
+![Three point charges located at the corners of an equilateral triangle.](../resources/Figure_18_07_18.jpg 'Point charges located at the corners of an equilateral triangle 25.0 cm on a side.')
 {: #Figure17}
 
 </div>

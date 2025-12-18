@@ -12,7 +12,7 @@ chapterNumber: 11
 </div>
 
 Matter most commonly exists as a solid, liquid, or gas; these states are known
-as the three common *phases of matter*. Solids have a definite shape and a
+as the three common _phases of matter_. Solids have a definite shape and a
 specific volume, liquids have a definite volume but their shape changes
 depending on the container in which they are held, and gases have neither a
 definite shape nor a specific volume as their molecules move to fill the
@@ -25,13 +25,13 @@ in [Viscosity and Laminar Flow; Poiseuille’s Law](../contents/ch12ViscosityAnd
 We can understand the phases of matter and what constitutes a fluid by
 considering the forces between atoms that make up matter in the three phases.
 
-![This figure has three parts. Part a shows a solid, and the atoms in the solid are shown as small red spheres held together in a grid. Part b shows a liquid in a short cylindrical container, and the atoms in the liquid are represented by small red spheres that can move past one another. The movement of the atoms is represented by arrows. Part c shows a cylinder that is labeled to indicate that it contains oxygen gas. The atoms in the gas are represented by small red spheres that move around. Their motion is indicated by arrows./](../resources/Figure_11_01_01.jpg "(a) Atoms in a solid always have the same neighbors, held near home by forces represented here by springs. These atoms are essentially in contact with one another. A rock is an example of a solid. This rock retains its shape because of the forces holding its atoms together. (b) Atoms in a liquid are also in close contact but can slide over one another. Forces between them strongly resist attempts to push them closer together and also hold them in close contact. Water is an example of a liquid. Water can flow, but it also remains in an open container because of the forces between its atoms. (c) Atoms in a gas are separated by distances that are considerably larger than the size of the atoms themselves, and they move about freely. A gas must be held in a closed container to prevent it from moving out freely.")
+![This figure has three parts. Part a shows a solid, and the atoms in the solid are shown as small red spheres held together in a grid. Part b shows a liquid in a short cylindrical container, and the atoms in the liquid are represented by small red spheres that can move past one another. The movement of the atoms is represented by arrows. Part c shows a cylinder that is labeled to indicate that it contains oxygen gas. The atoms in the gas are represented by small red spheres that move around. Their motion is indicated by arrows./](../resources/Figure_11_01_01.jpg '(a) Atoms in a solid always have the same neighbors, held near home by forces represented here by springs. These atoms are essentially in contact with one another. A rock is an example of a solid. This rock retains its shape because of the forces holding its atoms together. (b) Atoms in a liquid are also in close contact but can slide over one another. Forces between them strongly resist attempts to push them closer together and also hold them in close contact. Water is an example of a liquid. Water can flow, but it also remains in an open container because of the forces between its atoms. (c) Atoms in a gas are separated by distances that are considerably larger than the size of the atoms themselves, and they move about freely. A gas must be held in a closed container to prevent it from moving out freely.')
 {: #Figure1}
 
-Atoms in *solids* are in close contact, with forces between them that allow the
+Atoms in _solids_ are in close contact, with forces between them that allow the
 atoms to vibrate but not to change positions with neighboring atoms. (These
 forces can be thought of as springs that can be stretched or compressed, but not
-easily broken.) Thus, a solid *resists* all types of stress. A solid cannot be
+easily broken.) Thus, a solid _resists_ all types of stress. A solid cannot be
 easily deformed because the atoms that make up the solid are not able to move
 about freely. Solids also resist compression, because their atoms form part of a
 lattice structure in which the atoms are a relatively fixed distance apart.
@@ -47,15 +47,15 @@ Atomic and molecular characteristics explain and underlie the macroscopic charac
 
 </div>
 
-In contrast, *liquids* deform easily when stressed and do not spring back to
+In contrast, _liquids_ deform easily when stressed and do not spring back to
 their original shape once the force is removed because the atoms are free to
-slide about and change neighbors—that is, they *flow* (so they are a type of
+slide about and change neighbors—that is, they _flow_ (so they are a type of
 fluid), with the molecules held together by their mutual attraction. When a
 liquid is placed in a container with no lid on, it remains in the container (
 providing the container has no holes below the surface of the liquid!). Because
 the atoms are closely packed, liquids, like solids, resist compression.
 
-Atoms in *gases* are separated by distances that are large compared with the
+Atoms in _gases_ are separated by distances that are large compared with the
 size of the atoms. The forces between gas atoms are therefore very weak, except
 when the atoms collide with one another. Gases thus not only flow (and are
 therefore considered to be fluids) but they are relatively easy to compress
@@ -79,7 +79,7 @@ Heat, cool, and compress atoms and molecules and watch as they change between so
 
 ### Section Summary
 
-* A fluid is a state of matter that yields to sideways or shearing forces.
+- A fluid is a state of matter that yields to sideways or shearing forces.
   Liquids and gases are both fluids. Fluid statics is the physics of stationary
   fluids.
 

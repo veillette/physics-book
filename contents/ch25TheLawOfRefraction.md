@@ -36,7 +36,7 @@ The speed of light  $$c $$
 
 </div>
 
-![A person looks at a fish tank and he sees the same fish in two different directions at the edge of the water tank facing him.](../resources/Figure_25_03_01.jpg "Looking at the fish tank as shown, we can see the same fish in two different locations, because light changes directions when it passes from water to air. In this case, the light can reach the observer by two different paths, and so the fish seems to be in two different places. This bending of light is called refraction and is responsible for many optical phenomena.")
+![A person looks at a fish tank and he sees the same fish in two different directions at the edge of the water tank facing him.](../resources/Figure_25_03_01.jpg 'Looking at the fish tank as shown, we can see the same fish in two different locations, because light changes directions when it passes from water to air. In this case, the light can reach the observer by two different paths, and so the fish seems to be in two different places. This bending of light is called refraction and is responsible for many optical phenomena.')
 {: #Figure1}
 
 Why does light change direction when passing from one material (medium) to
@@ -65,7 +65,7 @@ reflected from a rotating set of mirrors was reflected from a stationary mirror
 travel can be determined by how fast the mirrors must rotate for the light to be
 returned to the observer’s eye.
 
-![In stage one of the figure, the light falling from a source on an eight-sided mirror is viewed by an observer; in stage two, the mirror is made to rotate and the reflected light falling onto a stationary mirror kept at a certain distance of 35 kilometers is viewed by an observer. In stage three, the observer can see the reflected ray only when the mirror has rotated into the correct position just as the ray returns.](../resources/Figure_25_03_02.jpg "A schematic of early apparatus used by Michelson and others to determine the speed of light. As the mirrors rotate, the reflected ray is only briefly directed at the stationary mirror. The returning ray will be reflected into the observer's eye only if the next mirror has rotated into the correct position just as the ray returns. By measuring the correct rotation rate, the time for the round trip can be measured and the speed of light calculated. Michelson&#x2019;s calculated value of the speed of light was only 0.04% different from the value used today.")
+![In stage one of the figure, the light falling from a source on an eight-sided mirror is viewed by an observer; in stage two, the mirror is made to rotate and the reflected light falling onto a stationary mirror kept at a certain distance of 35 kilometers is viewed by an observer. In stage three, the observer can see the reflected ray only when the mirror has rotated into the correct position just as the ray returns.](../resources/Figure_25_03_02.jpg "A schematic of early apparatus used by Michelson and others to determine the speed of light. As the mirrors rotate, the reflected ray is only briefly directed at the stationary mirror. The returning ray will be reflected into the observer's eye only if the next mirror has rotated into the correct position just as the ray returns. By measuring the correct rotation rate, the time for the round trip can be measured and the speed of light calculated. Michelson’s calculated value of the speed of light was only 0.04% different from the value used today.")
 {: #Figure2}
 
 The speed of light is now known to great precision. In fact, the speed of light
@@ -81,7 +81,7 @@ whenever three-digit accuracy is sufficient. The speed of light through matter
 is less than it is in a vacuum, because light interacts with atoms in a
 material. The speed of light depends strongly on the type of material, since its
 interaction with different atoms, crystal lattices, and other substructures
-varies. We define the **index of refraction**  $$n $$ of a material to be
+varies. We define the **index of refraction** $$n $$ of a material to be
 
 <div class="equation" >
  $$n=\frac{c}{v}, $$
@@ -278,7 +278,7 @@ from the grass to the footpath, the front wheels can move faster and the mower
 changes direction as shown. This, too, is the same change in direction as for
 light going from slow to fast.
 
-![The figures compare the working of a lawn mower to that of the refraction phenomenon. In figure (a) the lawn mower goes from a sidewalk to grass, it slows down and bends towards a perpendicular drawn at the point of contact of the mower with the surface of separation. An imaginary line along the mower when it is on sidewalk is taken to be the incident ray and the angle which the mower makes with the perpendicular is taken to be theta one. As it goes into the grass, the mower turns and the imaginary line moves towards the perpendicular line drawn and makes an angle theta two with it. The imaginary line drawn along the mower when the mower is in the grass is taken to be the refracted ray. Sidewalk is taken to be a medium of refractive index n one and that of grass to be taken as n two. In figure (b), the situation is the reverse of what has happened in figure (a). The mower moves from grass to sidewalk and the ray of light moves away from the perpendicular when it speeds up.](../resources/Figure_25_03_03.jpg "The change in direction of a light ray depends on how the speed of light changes when it crosses from one medium to another. The speed of light is greater in medium 1 than in medium 2 in the situations shown here. (a) A ray of light moves closer to the perpendicular when it slows down. This is analogous to what happens when a lawn mower goes from a footpath to grass. (b) A ray of light moves away from the perpendicular when it speeds up. This is analogous to what happens when a lawn mower goes from grass to footpath. The paths are exactly reversible.")
+![The figures compare the working of a lawn mower to that of the refraction phenomenon. In figure (a) the lawn mower goes from a sidewalk to grass, it slows down and bends towards a perpendicular drawn at the point of contact of the mower with the surface of separation. An imaginary line along the mower when it is on sidewalk is taken to be the incident ray and the angle which the mower makes with the perpendicular is taken to be theta one. As it goes into the grass, the mower turns and the imaginary line moves towards the perpendicular line drawn and makes an angle theta two with it. The imaginary line drawn along the mower when the mower is in the grass is taken to be the refracted ray. Sidewalk is taken to be a medium of refractive index n one and that of grass to be taken as n two. In figure (b), the situation is the reverse of what has happened in figure (a). The mower moves from grass to sidewalk and the ray of light moves away from the perpendicular when it speeds up.](../resources/Figure_25_03_03.jpg 'The change in direction of a light ray depends on how the speed of light changes when it crosses from one medium to another. The speed of light is greater in medium 1 than in medium 2 in the situations shown here. (a) A ray of light moves closer to the perpendicular when it slows down. This is analogous to what happens when a lawn mower goes from a footpath to grass. (b) A ray of light moves away from the perpendicular when it speeds up. This is analogous to what happens when a lawn mower goes from grass to footpath. The paths are exactly reversible.')
 {: #Figure3}
 
 The amount that a light ray changes its direction depends both on the incident
@@ -409,14 +409,14 @@ the effect on the direction of the ray.
 
 ### Section Summary
 
-* The changing of a light ray’s direction when it passes through variations in
+- The changing of a light ray’s direction when it passes through variations in
   matter is called refraction.
-* The speed of light in vacuum $$c= 2.99792458 \times 10^{8} \text{m/s}\approx
+- The speed of light in vacuum $$c= 2.99792458 \times 10^{8} \text{m/s}\approx
   3.00 \times 10^{8} \text{m/s}. $$
-* Index of refraction $$n=\frac{c}{v} $$ , where $$v $$ is the speed of light in
+- Index of refraction $$n=\frac{c}{v} $$ , where $$v $$ is the speed of light in
   the material, $$c $$ is the speed of light in vacuum, and $$n $$ is the index
   of refraction.
-* Snell’s law, the law of refraction, is stated in equation form as $${n}_{1}
+- Snell’s law, the law of refraction, is stated in equation form as $${n}_{1}
   \sin {\theta }_{1}={n}_{2} \sin {\theta }_{2} $$ .
 
 ### Conceptual Questions
@@ -467,7 +467,7 @@ Explain why a person’s legs appear very short when wading in a pool. Justify y
 <div class="problem" markdown="1">
 Why is the front surface of a thermometer curved as shown?
 
-![A triangular shaped transparent thermometer is shown.](../resources/Figure_25_03_04.jpg "The curved surface of the thermometer serves a purpose. ")
+![A triangular shaped transparent thermometer is shown.](../resources/Figure_25_03_04.jpg 'The curved surface of the thermometer serves a purpose. ')
 {: #Figure4}
 
 </div>
@@ -509,7 +509,7 @@ Calculate the index of refraction for a medium in which the speed of light is  $
 
 </div>
 <div class="solution"  markdown="1">
- $$ 1.490 $$, polystyrene 
+ $$ 1.490 $$, polystyrene
 
 </div>
 </div>
@@ -537,7 +537,7 @@ There was a major collision of an asteroid with the Moon in medieval times. It w
 <div class="problem" markdown="1">
 A scuba diver training in a pool looks at his instructor as shown in [[Figure 5]](#Figure5). What angle does the ray from the instructor’s face make with the perpendicular to the water at the point where the ray enters? The angle between the ray in the water and the perpendicular to the water is  $$ 25.0º $$.
 
-![A scuba diver and his trainer look at each other. For the trainer, the scuba diver appears less deep than he actually is, and to the diver, the trainer appears much higher than she actually is. To the trainer, the scuba diver\'s feet appear to be at a depth of two point zero meters. The incident ray from the trainer strikes the water surface at a point, the point of incidence, and the trainer is at a horizontal distance of two point zero meters from a perpendicular drawn at the point of incidence.](../resources/Figure_25_03_05.jpg "A scuba diver in a pool and his trainer look at each other. ")
+![A scuba diver and his trainer look at each other. For the trainer, the scuba diver appears less deep than he actually is, and to the diver, the trainer appears much higher than she actually is. To the trainer, the scuba diver's feet appear to be at a depth of two point zero meters. The incident ray from the trainer strikes the water surface at a point, the point of incidence, and the trainer is at a horizontal distance of two point zero meters from a perpendicular drawn at the point of incidence.](../resources/Figure_25_03_05.jpg 'A scuba diver in a pool and his trainer look at each other. ')
 {: #Figure5}
 
 </div>
@@ -598,7 +598,7 @@ given that the incident angle is  $$ 40.0º $$
 [[Figure 6]](#Figure6) shows a ray of light passing from one medium into a second and then a third. Show that  $${\theta }_{3} $$
  is the same as it would be if the second medium were not present (provided total internal reflection does not occur).
 
-![The figure illustrates refraction occurring when light travels from medium n1 to n3 through an intermediate medium n2. The incident ray makes an angle theta 1 with a perpendicular drawn at the point of incidence. The light ray bends towards the perpendicular line making an angle theta 2 as it moves from n1 to n2. The refracted ray 1 becomes the incident ray for the second refraction at n3 and on falling on to the third medium makes an angle theta 2, and the refracted ray 2 moves away from a perpendicular drawn at the point of incidence on n3. The shift in the path of the incident ray is delta x.](../resources/Figure_25_03_06.jpg "A ray of light passes from one medium to a third by traveling through a second. The final direction is the same as if the second medium were not present, but the ray is displaced by \( \Delta x \)  (shown exaggerated).")
+![The figure illustrates refraction occurring when light travels from medium n1 to n3 through an intermediate medium n2. The incident ray makes an angle theta 1 with a perpendicular drawn at the point of incidence. The light ray bends towards the perpendicular line making an angle theta 2 as it moves from n1 to n2. The refracted ray 1 becomes the incident ray for the second refraction at n3 and on falling on to the third medium makes an angle theta 2, and the refracted ray 2 moves away from a perpendicular drawn at the point of incidence on n3. The shift in the path of the incident ray is delta x.](../resources/Figure_25_03_06.jpg 'A ray of light passes from one medium to a third by traveling through a second. The final direction is the same as if the second medium were not present, but the ray is displaced by ( \\Delta x )  (shown exaggerated).')
 {: #Figure6}
 
 </div>

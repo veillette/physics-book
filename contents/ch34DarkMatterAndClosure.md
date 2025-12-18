@@ -62,15 +62,15 @@ discovered the expansion, but has been re-invoked in recent years.
 Gravitational attraction between galaxies is slowing the expansion of the
 universe, but the amount of slowing down is not known directly. In fact, the
 cosmological constant can counteract gravity’s effect. As recent measurements
-indicate, the universe is expanding *faster* now than in the past—perhaps a
+indicate, the universe is expanding _faster_ now than in the past—perhaps a
 “modern inflationary era” in which the dark energy is thought to be causing the
 expansion of the present-day universe to accelerate. If the expansion rate were
 affected by gravity alone, we should be able to see that the expansion rate
 between distant galaxies was once greater than it is now. However, measurements
-show it was *less* than now. We can, however, calculate the amount of slowing
+show it was _less_ than now. We can, however, calculate the amount of slowing
 based on the average density of matter we observe directly. Here we have a
 definite answer—there is far less visible matter than needed to stop expansion.
-The **critical density**  $${\rho }_{\text{c}} $$ is defined to be the density
+The **critical density** $${\rho }_{\text{c}} $$ is defined to be the density
 needed to just halt universal expansion in a universe with no cosmological
 constant. It is estimated to be about
 
@@ -107,7 +107,7 @@ scenario that helps explain the flatness of the microwave background. In fact,
 since general relativity implies that matter creates the space in which it
 exists, there is a special symmetry to a flat universe.
 
-![Figure a shows an eye looking toward a rotating spiral galaxy. Light coming from the galaxy arms that are rotating away from the observer is red shifted, and light coming from the galaxy arms that are rotating toward the observer is blue shifted. Figure b shows a graph of star rotation speed versus star radius. From zero radius, the curve increases steeply and peaks near two hundred and fifty kilometers per second at a radius of zero point five arbitrary units. The curve then decreases slightly and progresses to a radius of sixteen arbitrary units with ups and down between two hundred and two hundred and twenty five kilometers per second. Figure c shows an image of multiple galaxies and other objects against a black background. In the center of the image is a roughly circular purple haze, on the left and right of which are two slightly smaller and roughly circular blue haze regions.](../resources/Figure_34_04_01.jpg "Evidence for dark matter: (a) We can measure the velocities of stars relative to their galaxies by observing the Doppler shift in emitted light, usually using the hydrogen spectrum. These measurements indicate the rotation of a spiral galaxy. (b) A graph of velocity versus distance from the galactic center shows that the velocity does not decrease as it would if the matter were concentrated in luminous stars. The flatness of the curve implies a massive galactic halo of dark matter extending beyond the visible stars. (c) This is a computer-generated image of X-rays from a galactic cluster. The X-rays indicate the presence of otherwise unseen hot clouds of ionized gas in the regions of space previously considered more empty. (credit: NASA, ESA, CXC, M. Bradac (University of California, Santa Barbara), and S. Allen (Stanford University)) ")
+![Figure a shows an eye looking toward a rotating spiral galaxy. Light coming from the galaxy arms that are rotating away from the observer is red shifted, and light coming from the galaxy arms that are rotating toward the observer is blue shifted. Figure b shows a graph of star rotation speed versus star radius. From zero radius, the curve increases steeply and peaks near two hundred and fifty kilometers per second at a radius of zero point five arbitrary units. The curve then decreases slightly and progresses to a radius of sixteen arbitrary units with ups and down between two hundred and two hundred and twenty five kilometers per second. Figure c shows an image of multiple galaxies and other objects against a black background. In the center of the image is a roughly circular purple haze, on the left and right of which are two slightly smaller and roughly circular blue haze regions.](../resources/Figure_34_04_01.jpg 'Evidence for dark matter: (a) We can measure the velocities of stars relative to their galaxies by observing the Doppler shift in emitted light, usually using the hydrogen spectrum. These measurements indicate the rotation of a spiral galaxy. (b) A graph of velocity versus distance from the galactic center shows that the velocity does not decrease as it would if the matter were concentrated in luminous stars. The flatness of the curve implies a massive galactic halo of dark matter extending beyond the visible stars. (c) This is a computer-generated image of X-rays from a galactic cluster. The X-rays indicate the presence of otherwise unseen hot clouds of ionized gas in the regions of space previously considered more empty. (credit: NASA, ESA, CXC, M. Bradac (University of California, Santa Barbara), and S. Allen (Stanford University)) ')
 {: #Figure1}
 
 ### What Is the Dark Matter We See Indirectly?
@@ -158,7 +158,7 @@ proving that neutrinos have mass in a completely different way.
 
 We have noted in [Particles, Patterns, and Conservation Laws](../contents/ch33ParticlesPatternsAndConservationLaws) that
 there are three flavors of neutrinos ( $${\nu }_{e} $$ , $${\nu}_{\mu} $$ , and
-$${v}_{\tau } $$ )
+$${v}\_{\tau } $$ )
 and that the weak interaction could change quark flavor. It should also change
 neutrino flavor—that is, any type of neutrino could change spontaneously into
 any other, a process called **neutrino oscillations**. However, this can occur
@@ -195,17 +195,17 @@ gravitationally attached to galaxies, but because they are chargeless and only
 feel the weak force, they would be in a halo rather than interact and coalesce
 into spirals, and so on, like normal matter (see [[Figure 3]](#Figure3)).
 
-![The figure shows a satellite in orbit above the glowing atmosphere of the Earth. The satellite is tube shaped and has a cover that is open at one end. It has two solar panels and is covered in what looks like aluminum foil.](../resources/Figure_34_04_02.jpg "The Hubble Space Telescope is producing exciting data with its corrected optics and with the absence of atmospheric distortion. It has observed some MACHOs, disks of material around stars thought to precede planet formation, black hole candidates, and collisions of comets with Jupiter. (credit: NASA (crew of STS-125))")
+![The figure shows a satellite in orbit above the glowing atmosphere of the Earth. The satellite is tube shaped and has a cover that is open at one end. It has two solar panels and is covered in what looks like aluminum foil.](../resources/Figure_34_04_02.jpg 'The Hubble Space Telescope is producing exciting data with its corrected optics and with the absence of atmospheric distortion. It has observed some MACHOs, disks of material around stars thought to precede planet formation, black hole candidates, and collisions of comets with Jupiter. (credit: NASA (crew of STS-125))')
 {: #Figure2}
 
-![A close-up photograph of a slow-moving stream carrying leaves.](../resources/Figure_34_04_03.jpg "Dark matter may shepherd normal matter gravitationally in space, as this stream moves the leaves. Dark matter may be invisible and even move through the normal matter, as neutrinos penetrate us without small-scale effect. (credit: Shinichi Sugiyama)")
+![A close-up photograph of a slow-moving stream carrying leaves.](../resources/Figure_34_04_03.jpg 'Dark matter may shepherd normal matter gravitationally in space, as this stream moves the leaves. Dark matter may be invisible and even move through the normal matter, as neutrinos penetrate us without small-scale effect. (credit: Shinichi Sugiyama)')
 {: #Figure3}
 
 Some particle theorists have built WIMPs into their unified force theories and
 into the inflationary scenario of the evolution of the universe so popular
 today. These particles would have been produced in just the correct numbers to
 make the universe flat, shortly after the Big Bang. The proposal is radical in
-the sense that it invokes entirely new forms of matter, in fact *two* entirely
+the sense that it invokes entirely new forms of matter, in fact _two_ entirely
 new forms, in order to explain dark matter and other phenomena. WIMPs have the
 extra burden of automatically being very difficult to observe directly. This is
 somewhat analogous to quark confinement, which guarantees that quarks are there,
@@ -219,22 +219,22 @@ be not only the center of the universe, but also the reason for its existence.
 
 ### Section Summary
 
-* Dark matter is non-luminous matter detected in and around galaxies and
+- Dark matter is non-luminous matter detected in and around galaxies and
   galactic clusters.
-* It may be 10 times the mass of the luminous matter in the universe, and its
+- It may be 10 times the mass of the luminous matter in the universe, and its
   amount may determine whether the universe is open or closed (expands forever
   or eventually stops).
-* The determining factor is the critical density of the universe and the
+- The determining factor is the critical density of the universe and the
   cosmological constant, a theoretical construct intimately related to the
   expansion and closure of the universe.
-* The critical density *ρ*<sub>c</sub> is the density needed to just halt
+- The critical density _ρ_<sub>c</sub> is the density needed to just halt
   universal expansion. It is estimated to be approximately 10<sup>–26</sup>
   kg/m<sup>3</sup>.
-* An open universe is negatively curved, a closed universe is positively curved,
+- An open universe is negatively curved, a closed universe is positively curved,
   whereas a universe with exactly the critical density is flat.
-* Dark matter’s composition is a major mystery, but it may be due to the
+- Dark matter’s composition is a major mystery, but it may be due to the
   suspected mass of neutrinos or a completely unknown type of leptonic matter.
-* If neutrinos have mass, they will change families, a process known as neutrino
+- If neutrinos have mass, they will change families, a process known as neutrino
   oscillations, for which there is growing evidence.
 
 ### Conceptual Questions

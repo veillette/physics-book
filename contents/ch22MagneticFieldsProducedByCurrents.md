@@ -29,11 +29,11 @@ explore the direction of a magnetic field is with compasses, as shown for a long
 straight current-carrying wire in [[Figure 1]](#Figure1). Hall probes can
 determine the magnitude of the field. The field around a long straight wire is
 found to be in circular loops. The **right hand rule 2** (RHR-2) emerges from
-this exploration and is valid for any current segment—*point the thumb in the
+this exploration and is valid for any current segment—_point the thumb in the
 direction of the current, and the fingers curl in the direction of the magnetic
-field loops* created by it.
+field loops_ created by it.
 
-![Figure a shows a vertically oriented wire with current I running from bottom to top. Magnetic field lines circle the wire counter-clockwise as view from the top. Figure b illustrates the right hand rule 2. The thumb points up with current I. The fingers curl around counterclockwise as viewed from the top.](../resources/Figure_22_09_01.jpg "(a) Compasses placed near a long straight current-carrying wire indicate that field lines form circular loops centered on the wire. (b) Right hand rule 2 states that, if the right hand thumb points in the direction of the current, the fingers curl in the direction of the field. This rule is consistent with the field mapped for the long straight wire and is valid for any current segment.")
+![Figure a shows a vertically oriented wire with current I running from bottom to top. Magnetic field lines circle the wire counter-clockwise as view from the top. Figure b illustrates the right hand rule 2. The thumb points up with current I. The fingers curl around counterclockwise as viewed from the top.](../resources/Figure_22_09_01.jpg '(a) Compasses placed near a long straight current-carrying wire indicate that field lines form circular loops centered on the wire. (b) Right hand rule 2 states that, if the right hand thumb points in the direction of the current, the fingers curl in the direction of the field. This rule is consistent with the field mapped for the long straight wire and is valid for any current segment.')
 {: #Figure1}
 
 The **magnetic field strength (magnitude) produced by a long straight
@@ -81,9 +81,9 @@ example.
 ### Ampere’s Law and Others
 
 The magnetic field of a long straight wire has more implications than you might
-at first suspect. *Each segment of current produces a magnetic field like that
+at first suspect. _Each segment of current produces a magnetic field like that
 of a long straight wire, and the total field of any shape current is the vector
-sum of the fields due to each segment.* The formal statement of the direction
+sum of the fields due to each segment._ The formal statement of the direction
 and magnitude of the field due to each segment is called the **Biot-Savart law**
 . Integral calculus is needed to sum the field for an arbitrary shape current.
 This results in a more complete law, called **Ampere’s law**, which relates
@@ -126,14 +126,14 @@ strength at the center of a circular loop**. It is
 </div>
 
 where $$R $$ is the radius of the loop. This equation is very similar to that
-for a straight wire, but it is valid *only* at the center of a circular loop of
+for a straight wire, but it is valid _only_ at the center of a circular loop of
 wire. The similarity of the equations does indicate that similar field strength
 can be obtained at the center of a loop. One way to get a larger field is to
 have $$N $$ loops; then, the field is $$B=N\mu _{0}I/\left(2R\right) $$ . Note that the
 larger the loop, the smaller the field at its center, because the current is
 farther away.
 
-![Figure a illustrates use of the right hand rule 2 to determine the direction of the magnetic field around a current-carrying loop. The right hand thumb points in the direction of I while the fingers curl around in the direction of B. Figure b shows the magnetic field lines circling the wire, as viewed from the side.](../resources/Figure_22_09_02.jpg "(a) RHR-2 gives the direction of the magnetic field inside and outside a current-carrying loop. (b) More detailed mapping with compasses or with a Hall probe completes the picture. The field is similar to that of a bar magnet.")
+![Figure a illustrates use of the right hand rule 2 to determine the direction of the magnetic field around a current-carrying loop. The right hand thumb points in the direction of I while the fingers curl around in the direction of B. Figure b shows the magnetic field lines circling the wire, as viewed from the side.](../resources/Figure_22_09_02.jpg '(a) RHR-2 gives the direction of the magnetic field inside and outside a current-carrying loop. (b) More detailed mapping with compasses or with a Hall probe completes the picture. The field is similar to that of a bar magnet.')
 {: #Figure2}
 
 ### Magnetic Field Produced by a Current-Carrying Solenoid
@@ -144,7 +144,7 @@ uniform, and also very strong. The field just outside the coils is nearly
 zero. [[Figure 3]](#Figure3) shows how the field looks and how its direction is
 given by RHR-2.
 
-![A diagram of a solenoid. The current runs up from the battery on the left side and spirals around with the solenoid wire such that the current runs upward in the front sections of the solenoid and then down the back. An illustration of the right hand rule 2 shows the thumb pointing up in the direction of the current and the fingers curling around in the direction of the magnetic field. A length wise cutaway of the solenoid shows magnetic field lines densely packed and running from the south pole to the north pole, through the solenoid. Lines outside the solenoid are spaced much farther apart and run from the north pole out around the solenoid to the south pole.](../resources/Figure_22_09_03.jpg "(a) Because of its shape, the field inside a solenoid of length \( l \) is remarkably uniform in magnitude and direction, as indicated by the straight and uniformly spaced field lines. The field outside the coils is nearly zero. (b) This cutaway shows the magnetic field generated by the current in the solenoid.")
+![A diagram of a solenoid. The current runs up from the battery on the left side and spirals around with the solenoid wire such that the current runs upward in the front sections of the solenoid and then down the back. An illustration of the right hand rule 2 shows the thumb pointing up in the direction of the current and the fingers curling around in the direction of the magnetic field. A length wise cutaway of the solenoid shows magnetic field lines densely packed and running from the south pole to the north pole, through the solenoid. Lines outside the solenoid are spaced much farther apart and run from the north pole out around the solenoid to the south pole.](../resources/Figure_22_09_03.jpg '(a) Because of its shape, the field inside a solenoid of length ( l ) is remarkably uniform in magnitude and direction, as indicated by the straight and uniformly spaced field lines. The field outside the coils is nearly zero. (b) This cutaway shows the magnetic field generated by the current in the solenoid.')
 {: #Figure3}
 
 The magnetic field inside of a current-carrying solenoid is very uniform in
@@ -222,7 +222,7 @@ Generate electricity with a bar magnet! Discover the physics behind the phenomen
 
 ### Section Summary
 
-* The strength of the magnetic field created by current in a long straight wire
+- The strength of the magnetic field created by current in a long straight wire
   is given by
 
   <div class="equation" >
@@ -231,22 +231,23 @@ Generate electricity with a bar magnet! Discover the physics behind the phenomen
    where $$I $$ is the current,
    $$r $$ is the shortest distance to the wire, and the constant
    $$\mu_0 =4\pi  \times 10^{-7} \text{T}\cdot \text{m/A} $$ is the permeability of free space.
-* The direction of the magnetic field created by a long straight wire is given
-  by right-hand rule 2 (RHR-2): *Point the thumb of the right hand in the
+
+- The direction of the magnetic field created by a long straight wire is given
+  by right-hand rule 2 (RHR-2): _Point the thumb of the right hand in the
   direction of current, and the fingers curl in the direction of the magnetic
-  field loops* created by it.
-* The magnetic field created by current following any path is the sum (or
+  field loops_ created by it.
+- The magnetic field created by current following any path is the sum (or
   integral) of the fields due to segments along the path (magnitude and
   direction as for a straight wire), resulting in a general relationship between
   current and field known as Ampere’s law.
-* The magnetic field strength at the center of a circular loop is given by
+- The magnetic field strength at the center of a circular loop is given by
   <div class="equation" >
    $$B=\frac{ \mu_0 I}{2R} \left(\text{at center of loop}\right), $$
   </div>
    where $$R $$ is the radius of the loop. This equation becomes
    $$B=\mu_0 \text{nI}/\left(2R\right) $$ for a flat coil of
    $$N $$ loops. RHR-2 gives the direction of the field about the loop. A long coil is called a solenoid.
-* The magnetic field strength inside a solenoid is
+- The magnetic field strength inside a solenoid is
   <div class="equation" >
    $$B=\mu_0 \text{nI}  \left(\text{inside a solenoid}\right), $$
   </div>

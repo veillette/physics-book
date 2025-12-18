@@ -20,7 +20,7 @@ of resistors are the series and parallel connections illustrated
 in [[Figure 1]](#Figure1). The total resistance of a combination of resistors
 depends on both their individual values and how they are connected.
 
-![In part a of the figure, resistors labeled R sub 1, R sub 2, R sub 3, and R sub 4 are connected in series along one path of a circuit. In part b of the figure, the same resistors are connected along parallel paths of a circuit.](../resources/Figure_21_01_01.jpg "(a) A series connection of resistors. (b) A parallel connection of resistors.")
+![In part a of the figure, resistors labeled R sub 1, R sub 2, R sub 3, and R sub 4 are connected in series along one path of a circuit. In part b of the figure, the same resistors are connected along parallel paths of a circuit.](../resources/Figure_21_01_01.jpg '(a) A series connection of resistors. (b) A parallel connection of resistors.')
 {: #Figure1}
 
 ### Resistors in Series
@@ -41,7 +41,7 @@ high-resistance rubber-soled shoes. It could be a disadvantage if one of the
 resistances were a faulty high-resistance cord to an appliance that would reduce
 the operating current.)
 
-![Two electrical circuits are compared. The first one has three resistors, R sub one, R sub two, and R sub three, connected in series with a voltage source V to form a closed circuit. The first circuit is equivalent to the second circuit, which has a single resistor R sub s connected to a voltage source V. Both circuits carry a current I, which starts from the positive end of the voltage source and moves in a clockwise direction around the circuit.](../resources/Figure_21_01_02.jpg "Three resistors connected in series to a battery (left) and the equivalent single or series resistance (right).")
+![Two electrical circuits are compared. The first one has three resistors, R sub one, R sub two, and R sub three, connected in series with a voltage source V to form a closed circuit. The first circuit is equivalent to the second circuit, which has a single resistor R sub s connected to a voltage source V. Both circuits carry a current I, which starts from the positive end of the voltage source and moves in a clockwise direction around the circuit.](../resources/Figure_21_01_02.jpg 'Three resistors connected in series to a battery (left) and the equivalent single or series resistance (right).')
 {: #Figure2}
 
 To verify that resistances in series do indeed add, let us consider the loss of
@@ -55,7 +55,7 @@ $$ equals the current in amps (A) and $$R $$ is the resistance in ohms $$\left(
 necessary to make a current $$I $$ flow through a resistance $$R $$.
 
 So the voltage drop across $${R}_{1} $$ is $${V}_{1}=IR_{1} $$ , that across
-$${R}_{2} $$ is $${V}_{2}=IR_{2} $$ , and that across $${R}_{3} $$ is $${V}_
+$${R}_{2} $$ is $${V}_{2}=IR*{2} $$ , and that across $${R}*{3} $$ is $${V}_
 {3}=IR_{3} $$ . The sum of these voltages equals the voltage output of the
 source; that is,
 
@@ -218,7 +218,7 @@ Major Features of Resistors in Series
 1.   Series resistances add:
      $${R}_{\text{s}}={R}_{1}+{R}_{2}+{R}_{3}+\text{....} $$
 2.   The same current flows through each resistor in series.
-3.   Individual resistors in series do not get the total source voltage, but divide it. 
+3.   Individual resistors in series do not get the total source voltage, but divide it.
 
 </div>
 
@@ -236,7 +236,7 @@ utilize the full voltage of the source and can operate completely independently.
 The same is true in your house, or any building. (See [[Figure 3]](#Figure3)(b)
 .)
 
-![Part a shows two electrical circuits which are compared. The first electrical circuit is arranged with resistors in parallel. The circuit has three paths, with a voltage source V at one end. Just after the voltage source, the circuit has current I. The first path has resistor R sub one and current I sub one after the resistor. The second path has resistor R sub two and current I sub two after the resistor. The third path has resistor R sub three with current I sub three after the resistor. The first circuit is equivalent to the second circuit. The second circuit has a voltage source V and an equivalent parallel resistance R sub p. Part b shows a complicated electrical wiring diagram of a distribution board that supplies electricity to a house.](../resources/Figure_21_01_03.jpg "(a) Three resistors connected in parallel to a battery and the equivalent single or parallel resistance. (b) Electrical power setup in a house. (credit: Dmitry G, Wikimedia Commons)")
+![Part a shows two electrical circuits which are compared. The first electrical circuit is arranged with resistors in parallel. The circuit has three paths, with a voltage source V at one end. Just after the voltage source, the circuit has current I. The first path has resistor R sub one and current I sub one after the resistor. The second path has resistor R sub two and current I sub two after the resistor. The third path has resistor R sub three with current I sub three after the resistor. The first circuit is equivalent to the second circuit. The second circuit has a voltage source V and an equivalent parallel resistance R sub p. Part b shows a complicated electrical wiring diagram of a distribution board that supplies electricity to a house.](../resources/Figure_21_01_03.jpg '(a) Three resistors connected in parallel to a battery and the equivalent single or parallel resistance. (b) Electrical power setup in a house. (credit: Dmitry G, Wikimedia Commons)')
 {: #Figure3}
 
 To find an expression for the equivalent parallel resistance $${R}_{\text{p}} $$
@@ -264,8 +264,10 @@ Note that Ohm’s law for the equivalent single resistance gives
 </div>
 
 The terms inside the parentheses in the last two equations must be equal.
-Generalizing to any number of resistors, the total resistance $${R}_{\text{p}}
-$$ of a parallel connection is related to the individual resistances by
+Generalizing to any number of resistors, the total resistance $${R}\_{\text{p}}
+
+$$
+of a parallel connection is related to the individual resistances by
 
 <div class="equation" >
  $$\frac{1}{ {R}_{p}}=\frac{1}{ {R}_{1}}+\frac{1}{ {R}_{2}}+\frac{1}{ {R_{3}}}+\text{. } \text{...} $$
@@ -412,7 +414,7 @@ Major Features of Resistors in Parallel
 1.   Parallel resistance is found from
      $$\frac{1}{ {R}_{\text{p}}}=\frac{1}{ {R}_{1}}+\frac{1}{ {R}_{2}}+\frac{1}{ {R}_{3}}+\text{...} $$ ,   and it is smaller than any individual resistance in the combination.
 2.   Each resistor in parallel has the same full voltage of the source applied to it. (Power distribution systems most often use parallel connections to supply the myriad devices served with the same voltage and to allow them to operate independently.)
-3.   Parallel resistors do not each get the total current; they divide it. 
+3.   Parallel resistors do not each get the total current; they divide it.
 
 </div>
 
@@ -600,7 +602,7 @@ Problem-Solving Strategies for Series and Parallel Resistors
 3.   Determine whether resistors are in series, parallel, or a combination of both series and parallel. Examine the circuit diagram to make this assessment. Resistors are in series if the same current must pass sequentially through them.
 4.   Use the appropriate list of major features for series or parallel connections to solve for the unknowns. There is one list for series and another for parallel. If your problem has a combination of series and parallel, reduce it in steps by considering individual groups of series or parallel connections, as done in this module and the examples. Special note: When finding
      $$R{}_{\text{p}}  $$ ,   the reciprocal must be taken with care.
-5.   Check to see whether the answers are reasonable and consistent. Units and numerical results must be reasonable. Total series resistance should be greater, whereas total parallel resistance should be smaller, for example. Power should be greater for the same devices in parallel compared with series, and so on. 
+5.   Check to see whether the answers are reasonable and consistent. Units and numerical results must be reasonable. Total series resistance should be greater, whereas total parallel resistance should be smaller, for example. Power should be greater for the same devices in parallel compared with series, and so on.
 
 </div>
 
@@ -857,7 +859,9 @@ so that
 
 $$\begin{array}{}{R}_{p}=\frac{ {R}_{1}{R}_{2}}{ {R}_{1}+{R}_{2}}\approx \frac{
 {R}_{1}{R}_{2}}{ {R}_{1}}={R}_{2}\left({R}_{1} \gg {R}_{2}\right)
-\text{.}\end{array} $$
+\text{.}\end{array}
+$$
+
 </div>
 </div>
 
