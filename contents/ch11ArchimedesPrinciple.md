@@ -405,14 +405,62 @@ You can modify the properties of the blocks and the fluid.
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-More force is required to pull the plug in a full bathtub than when it is empty. Does this contradict Archimedes’ principle? Explain your answer.
+More force is required to pull the plug in a full bathtub than when it is empty. Does this contradict Archimedes' principle? Explain your answer.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Consider whether the increased force is due to buoyancy or to water pressure acting on the plug.
+
+**Solution:**
+**No, this does not contradict Archimedes' principle.** The extra force required is due to water pressure, not buoyancy.
+
+When the tub is full, water pressure pushes down on the plug:
+$$ P = \rho g h $$
+
+where $$ h $$ is the depth of water above the plug. This creates a downward force:
+$$ F = P \times A = \rho g h A $$
+
+For a plug with area 20 cm² at 30 cm depth:
+$$ F = (1000 \text{ kg/m}^3)(9.8 \text{ m/s}^2)(0.30 \text{ m})(0.002 \text{ m}^2) \approx 6 \text{ N} $$
+
+Archimedes' principle concerns the buoyant force on a *submerged object*, which equals the weight of displaced fluid. The plug displaces very little water (it mostly fills the drain hole), so its buoyant force is small. The significant force is the hydrostatic pressure acting on the plug's surface.
+
+**Discussion:**
+Archimedes' principle and hydrostatic pressure are related but distinct concepts. The buoyant force results from the *difference* in pressure on top and bottom of an object. For the plug, water pushes mainly on one side (top), with air at atmospheric pressure below. This pressure difference, not buoyancy, explains why pulling the plug is harder when the tub is full.
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Do fluids exert buoyant forces in a “weightless” environment, such as in the space shuttle? Explain your answer.
+Do fluids exert buoyant forces in a "weightless" environment, such as in the space shuttle? Explain your answer.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Consider the origin of buoyant force (pressure difference due to gravity) and what happens when effective gravity is zero.
+
+**Solution:**
+**No, fluids do not exert buoyant forces in a weightless (free-fall) environment.**
+
+Buoyancy arises from the pressure difference between the top and bottom of an object:
+$$ F_B = (P_{\text{bottom}} - P_{\text{top}}) \times A = \rho g h A = \rho g V $$
+
+This pressure difference exists because fluid pressure increases with depth due to gravity ($$ P = \rho g h $$). In orbit or free-fall:
+- The spacecraft and everything in it are accelerating equally toward Earth
+- Effective gravity inside is zero ($$ g_{\text{effective}} = 0 $$)
+- Pressure no longer varies with position: $$ P = \rho (0) h = 0 $$
+- No pressure difference means no buoyant force: $$ F_B = \rho (0) V = 0 $$
+
+**Discussion:**
+This has practical consequences on the International Space Station:
+- Air bubbles don't rise in liquids; they stay wherever they form
+- Objects don't float or sink—they remain wherever placed
+- Astronauts can't use density to separate mixtures
+- Water forms spheres due to surface tension, not puddles held down by gravity
+
+Centrifuges on spacecraft can create artificial gravity to enable density-based separation when needed, such as in blood analysis equipment.
 
 </div>
 </div>
@@ -422,11 +470,54 @@ Do fluids exert buoyant forces in a “weightless” environment, such as in the
 Will the same ship float higher in salt water than in freshwater? Explain your answer.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy:**
+Apply the relationship between fraction submerged and density ratio, and compare densities of salt and fresh water.
+
+**Solution:**
+**Yes, a ship floats higher in salt water than in freshwater.**
+
+For a floating object: fraction submerged = $$ \frac{\bar{\rho}_{\text{object}}}{\rho_{\text{fluid}}} $$
+
+Since salt water is denser than freshwater ($$ \rho_{\text{salt}} \approx 1025 \text{ kg/m}^3 $$ vs $$ \rho_{\text{fresh}} = 1000 \text{ kg/m}^3 $$), a smaller fraction of the ship needs to be submerged to displace enough weight of water to support the ship.
+
+Quantitative example for a ship with average density 800 kg/m³:
+- In freshwater: fraction submerged = 800/1000 = 80%
+- In salt water: fraction submerged = 800/1025 = 78%
+
+The ship rides about 2.5% higher in salt water.
+
+**Discussion:**
+This effect is noticeable in practice. Ships have "Plimsoll lines" marked on their hulls showing the maximum safe load levels for different water types (freshwater, summer saltwater, winter saltwater, etc.). When a ship travels from the ocean up a freshwater river, it sinks lower in the water and may need to reduce cargo. The Dead Sea (33% salt) is famous for how high swimmers float—roughly 30% of the body is above water compared to only 3-5% in freshwater.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 Marbles dropped into a partially filled bathtub sink to the bottom. Part of their weight is supported by buoyant force, yet the downward force on the bottom of the tub increases by exactly the weight of the marbles. Explain why.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Apply Newton's third law and trace all forces in the system, including the buoyant force reaction.
+
+**Solution:**
+The downward force on the tub bottom increases by exactly the marbles' weight because of **Newton's third law applied to buoyancy**.
+
+Force analysis:
+1. **On the marbles:** The water exerts an upward buoyant force $$ F_B $$ on the marbles
+2. **Reaction force:** By Newton's third law, the marbles push down on the water with force $$ F_B $$
+3. **This force is transmitted:** The water transmits this additional downward force to the tub bottom
+4. **The marbles also rest on the bottom:** They exert a normal force equal to their apparent weight ($$ W - F_B $$)
+
+Total additional force on tub bottom:
+$$ F_{\text{total}} = (W - F_B) + F_B = W $$
+
+The buoyant force doesn't "disappear"—it's transmitted through the water to the tub bottom as an increase in hydrostatic pressure. The system is in equilibrium: the tub supports the weight of the water PLUS the full weight of the marbles.
+
+**Discussion:**
+This demonstrates that buoyancy is an internal force within the water-marble system. When calculating the force on the tub, we must consider the entire contents (water + marbles). The same principle explains why a boat floating in a swimming pool exerts a force on the pool floor equal to the boat's weight—the water transmits the weight to the pool bottom even though the boat floats.
 
 </div>
 </div>
@@ -449,6 +540,24 @@ Logs sometimes float vertically in a lake because one end has become water-logge
  of its length above water?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy:**
+Use the relationship between fraction submerged and density ratio for a floating object.
+
+**Solution:**
+If 20.0% is above water, then 80.0% is submerged.
+
+For a floating object:
+$$ \text{fraction submerged} = \frac{\bar{\rho}_{\text{log}}}{\rho_{\text{water}}} $$
+
+$$ 0.800 = \frac{\bar{\rho}_{\text{log}}}{1000 \text{ kg/m}^3} $$
+
+$$ \bar{\rho}_{\text{log}} = 0.800 \times 1000 \text{ kg/m}^3 = 800 \text{ kg/m}^3 $$
+
+**Discussion:**
+The average density of the log is **800 kg/m³**. This is less than water (1000 kg/m³), which is consistent with the log floating. Fresh dry wood typically has a density of 400-700 kg/m³, while waterlogged wood can approach 1000 kg/m³. An average density of 800 kg/m³ suggests partially waterlogged wood, consistent with the scenario described where one end is heavier than the other.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -467,6 +576,24 @@ Find the density of a fluid in which a hydrometer having a density of  $$0.750 \
 <div class="problem" markdown="1">
 If your body has a density of  $$995 \text{kg}{\text{/m}}^{3} $$ ,
  what fraction of you will be submerged when floating gently in: (a) freshwater? (b) salt water, which has a density of  $$1027 \text{kg}{\text{/m}}^{3} $$ ?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Use the floating condition: fraction submerged = $$ \bar{\rho}_{\text{body}} / \rho_{\text{fluid}} $$
+
+**Solution:**
+
+**(a) In freshwater** ($$ \rho = 1000 \text{ kg/m}^3 $$):
+
+$$ \text{fraction submerged} = \frac{995 \text{ kg/m}^3}{1000 \text{ kg/m}^3} = 0.995 = 99.5\% $$
+
+**(b) In salt water** ($$ \rho = 1027 \text{ kg/m}^3 $$):
+
+$$ \text{fraction submerged} = \frac{995 \text{ kg/m}^3}{1027 \text{ kg/m}^3} = 0.969 = 96.9\% $$
+
+**Discussion:**
+In freshwater, **99.5%** of your body is submerged (only 0.5% above water). In salt water, **96.9%** is submerged (3.1% above water). The difference is significant—you float about 6× higher in salt water! This explains why it's easier to float in the ocean than in a pool. With lungs full of air, body density decreases to about 950 kg/m³, making floating even easier. The given density of 995 kg/m³ represents a person with lungs partially inflated.
 
 </div>
 </div>
@@ -492,6 +619,26 @@ Bird bones have air pockets in them to reduce their weight—this also gives the
 A rock with a mass of 540 g in air is found to have an apparent mass of 342 g when submerged in water. (a) What mass of water is displaced? (b) What is the volume of the rock? (c) What is its average density? Is this consistent with the value for granite?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy:**
+The apparent mass loss equals the mass of water displaced. Use this to find volume, then calculate density.
+
+**Solution:**
+
+**(a) Mass of water displaced:**
+$$ m_{\text{water}} = m_{\text{air}} - m_{\text{apparent}} = 540 \text{ g} - 342 \text{ g} = 198 \text{ g} $$
+
+**(b) Volume of the rock:**
+Since the rock is fully submerged, it displaces a volume of water equal to its own volume.
+$$ V = \frac{m_{\text{water}}}{\rho_{\text{water}}} = \frac{198 \text{ g}}{1.00 \text{ g/cm}^3} = 198 \text{ cm}^3 $$
+
+**(c) Average density of the rock:**
+$$ \rho_{\text{rock}} = \frac{m_{\text{rock}}}{V} = \frac{540 \text{ g}}{198 \text{ cm}^3} = 2.73 \text{ g/cm}^3 $$
+
+**Discussion:**
+The rock's density of **2.73 g/cm³** (or 2730 kg/m³) is **consistent with granite**, which has a density range of 2.65-2.75 g/cm³. This technique of weighing in air and water to determine density is called hydrostatic weighing and was reportedly invented by Archimedes himself to test the purity of King Hiero's crown.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -510,7 +657,36 @@ Archimedes’ principle can be used to calculate the density of a fluid as well 
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-In an immersion measurement of a woman’s density, she is found to have a mass of 62.0 kg in air and an apparent mass of 0.0850 kg when completely submerged with lungs empty. (a) What mass of water does she displace? (b) What is her volume? (c) Calculate her density. (d) If her lung capacity is 1.75 L, is she able to float without treading water with her lungs filled with air?
+In an immersion measurement of a woman's density, she is found to have a mass of 62.0 kg in air and an apparent mass of 0.0850 kg when completely submerged with lungs empty. (a) What mass of water does she displace? (b) What is her volume? (c) Calculate her density. (d) If her lung capacity is 1.75 L, is she able to float without treading water with her lungs filled with air?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Use apparent mass loss to find displaced water mass and volume, calculate density, then determine if adding air volume allows floating.
+
+**Solution:**
+
+**(a) Mass of water displaced:**
+$$ m_{\text{water}} = 62.0 \text{ kg} - 0.0850 \text{ kg} = 61.915 \text{ kg} $$
+
+**(b) Her volume:**
+$$ V = \frac{m_{\text{water}}}{\rho_{\text{water}}} = \frac{61.915 \text{ kg}}{1000 \text{ kg/m}^3} = 0.0619 \text{ m}^3 = 61.9 \text{ L} $$
+
+**(c) Her density (lungs empty):**
+$$ \rho = \frac{m}{V} = \frac{62.0 \text{ kg}}{0.0619 \text{ m}^3} = 1001 \text{ kg/m}^3 $$
+
+**(d) Can she float with lungs full?**
+
+With lungs full of air (adding 1.75 L volume but negligible mass):
+$$ V_{\text{total}} = 61.9 \text{ L} + 1.75 \text{ L} = 63.65 \text{ L} = 0.0637 \text{ m}^3 $$
+
+New average density:
+$$ \rho_{\text{new}} = \frac{62.0 \text{ kg}}{0.0637 \text{ m}^3} = 974 \text{ kg/m}^3 $$
+
+Since $$ 974 \text{ kg/m}^3 < 1000 \text{ kg/m}^3 $$, **yes, she can float** with lungs filled with air.
+
+**Discussion:**
+With empty lungs, her density (1001 kg/m³) slightly exceeds water's, so she sinks. With full lungs, her density drops to 974 kg/m³, allowing her to float with about 2.6% of her volume above water. This demonstrates why proper breathing technique is important for swimming—filling the lungs significantly reduces body density.
 
 </div>
 </div>
@@ -529,6 +705,39 @@ Some fish have a density slightly less than that of water and must exert a force
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) Calculate the buoyant force on a 2.00-L helium balloon. (b) Given the mass of the rubber in the balloon is 1.50 g, what is the net vertical force on the balloon if it is let go? You can neglect the volume of the rubber.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+The buoyant force equals the weight of air displaced. The net force is buoyant force minus the weight of the balloon (rubber + helium).
+
+**Solution:**
+
+**(a) Buoyant force:**
+
+The balloon displaces air with volume $$ V = 2.00 \text{ L} = 2.00 \times 10^{-3} \text{ m}^3 $$
+
+Using air density $$ \rho_{\text{air}} = 1.29 \text{ kg/m}^3 $$:
+
+$$ F_B = \rho_{\text{air}} V g = (1.29 \text{ kg/m}^3)(2.00 \times 10^{-3} \text{ m}^3)(9.80 \text{ m/s}^2) $$
+
+$$ F_B = 0.0253 \text{ N} = 2.53 \times 10^{-2} \text{ N} $$
+
+**(b) Net vertical force:**
+
+Weight of rubber: $$ W_{\text{rubber}} = (1.50 \times 10^{-3} \text{ kg})(9.80 \text{ m/s}^2) = 0.0147 \text{ N} $$
+
+Weight of helium ($$ \rho_{\text{He}} = 0.179 \text{ kg/m}^3 $$):
+$$ m_{\text{He}} = (0.179 \text{ kg/m}^3)(2.00 \times 10^{-3} \text{ m}^3) = 3.58 \times 10^{-4} \text{ kg} $$
+$$ W_{\text{He}} = (3.58 \times 10^{-4} \text{ kg})(9.80 \text{ m/s}^2) = 0.00351 \text{ N} $$
+
+Net upward force:
+$$ F_{\text{net}} = F_B - W_{\text{rubber}} - W_{\text{He}} = 0.0253 - 0.0147 - 0.00351 = 0.00709 \text{ N} $$
+
+$$ F_{\text{net}} \approx 7.1 \times 10^{-3} \text{ N} $$ (upward)
+
+**Discussion:**
+The buoyant force is approximately **0.025 N**, and the net upward force is about **7.1 mN**. The balloon rises because helium is much less dense than air (about 14% of air's density), creating a net upward force. This small force explains why helium balloons rise slowly and can be held down by a light string.
 
 </div>
 </div>
@@ -552,6 +761,33 @@ A certain man has a mass of 80 kg and a density of  $$955 {\text{kg/m}}^{3} $$
  (excluding the air in his lungs). (a) Calculate his volume. (b) Find the buoyant force air exerts on him. (c) What is the ratio of the buoyant force to his weight?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy:**
+Use density to find volume, then calculate buoyant force from air displaced.
+
+**Solution:**
+
+**(a) Volume:**
+$$ V = \frac{m}{\rho} = \frac{80 \text{ kg}}{955 \text{ kg/m}^3} = 0.0838 \text{ m}^3 $$
+
+**(b) Buoyant force from air:**
+
+Using air density $$ \rho_{\text{air}} = 1.29 \text{ kg/m}^3 $$:
+
+$$ F_B = \rho_{\text{air}} V g = (1.29 \text{ kg/m}^3)(0.0838 \text{ m}^3)(9.80 \text{ m/s}^2) $$
+
+$$ F_B = 1.06 \text{ N} $$
+
+**(c) Ratio of buoyant force to weight:**
+
+$$ W = mg = (80 \text{ kg})(9.80 \text{ m/s}^2) = 784 \text{ N} $$
+
+$$ \frac{F_B}{W} = \frac{1.06 \text{ N}}{784 \text{ N}} = 0.00135 = 0.135\% $$
+
+**Discussion:**
+The man's volume is about **0.084 m³** (84 liters). Air exerts a buoyant force of approximately **1.06 N** on him, which is only about **0.14%** of his weight. This explains why we don't notice atmospheric buoyancy in everyday life—it makes us about 1 N (~0.2 lb) lighter, which is imperceptible. However, this effect is measurable in precision experiments and must be corrected for when weighing objects in air versus vacuum.
+
+</div>
 </div>
 
 <div class="exercise">
@@ -568,7 +804,30 @@ A simple compass can be made by placing a small bar magnet on a cork floating in
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What fraction of an iron anchor’s weight will be supported by buoyant force when submerged in saltwater?
+What fraction of an iron anchor's weight will be supported by buoyant force when submerged in saltwater?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+The buoyant force equals the weight of saltwater displaced. The fraction supported is the ratio of buoyant force to weight.
+
+**Solution:**
+
+For a submerged object, the buoyant force is:
+$$ F_B = \rho_{\text{fluid}} V g $$
+
+The weight of the iron anchor is:
+$$ W = \rho_{\text{iron}} V g $$
+
+The fraction of weight supported by buoyancy:
+$$ \frac{F_B}{W} = \frac{\rho_{\text{fluid}} V g}{\rho_{\text{iron}} V g} = \frac{\rho_{\text{fluid}}}{\rho_{\text{iron}}} $$
+
+Using $$ \rho_{\text{saltwater}} = 1025 \text{ kg/m}^3 $$ and $$ \rho_{\text{iron}} = 7870 \text{ kg/m}^3 $$:
+
+$$ \frac{F_B}{W} = \frac{1025}{7870} = 0.130 = 13.0\% $$
+
+**Discussion:**
+Approximately **13%** of the iron anchor's weight is supported by the buoyant force when submerged in saltwater. This means the anchor has an "apparent weight" of about 87% of its true weight when underwater. While this doesn't make the anchor float (since 13% < 100%), it does explain why heavy objects feel lighter when submerged—divers can lift anchors and other heavy equipment underwater more easily than in air.
 
 </div>
 </div>
@@ -585,8 +844,34 @@ The difference is  $$0.006\%. $$
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A twin-sized air mattress used for camping has dimensions of 100 cm by 200 cm by 15 cm when blown up. 
+A twin-sized air mattress used for camping has dimensions of 100 cm by 200 cm by 15 cm when blown up.
 The mass of the mattress when blown up is 2 kg. How heavy a person could the air mattress hold if it is placed in freshwater?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Calculate the maximum buoyant force (when fully submerged), subtract the mattress weight to find the maximum additional load.
+
+**Solution:**
+
+*Step 1: Calculate the mattress volume*
+$$ V = (1.00 \text{ m})(2.00 \text{ m})(0.15 \text{ m}) = 0.30 \text{ m}^3 $$
+
+*Step 2: Calculate maximum buoyant force (fully submerged)*
+$$ F_{B,\text{max}} = \rho_{\text{water}} V g = (1000 \text{ kg/m}^3)(0.30 \text{ m}^3)(9.80 \text{ m/s}^2) $$
+$$ F_{B,\text{max}} = 2940 \text{ N} $$
+
+*Step 3: Calculate weight of mattress*
+$$ W_{\text{mattress}} = m g = (2 \text{ kg})(9.80 \text{ m/s}^2) = 19.6 \text{ N} $$
+
+*Step 4: Calculate maximum additional weight supported*
+$$ W_{\text{person}} = F_{B,\text{max}} - W_{\text{mattress}} = 2940 \text{ N} - 19.6 \text{ N} = 2920 \text{ N} $$
+
+*Step 5: Convert to mass*
+$$ m_{\text{person}} = \frac{W_{\text{person}}}{g} = \frac{2920 \text{ N}}{9.80 \text{ m/s}^2} = 298 \text{ kg} $$
+
+**Discussion:**
+The air mattress could support a person weighing up to approximately **298 kg** (about 660 pounds) before becoming fully submerged. In practice, you'd want to stay well below this limit to keep the mattress floating above water. A typical adult (70-80 kg) would only submerge about 25-30% of the mattress, leaving plenty of freeboard. The large surface area and 15 cm thickness provide substantial buoyancy.
 
 </div>
 </div>
@@ -618,6 +903,42 @@ $${w}_{\text{fl}} $$ the weight of the fluid displaced.
 (a) A 75.0-kg man floats in freshwater with  $$3.00\% $$
  of his volume above water when his lungs are empty, and  $$5.00\% $$
  of his volume above water when his lungs are full. Calculate the volume of air he inhales—called his lung capacity—in liters. (b) Does this lung volume seem reasonable?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Use the floating condition to find body volume in each state, then calculate the difference (which equals lung capacity).
+
+**Solution:**
+
+**(a) Calculate lung capacity:**
+
+For a floating object: $$ \text{fraction submerged} = \frac{\rho_{\text{body}}}{\rho_{\text{water}}} $$
+
+Rearranging: $$ V_{\text{body}} = \frac{m}{\rho_{\text{water}} \times \text{fraction submerged}} $$
+
+*Lungs empty (97% submerged):*
+$$ V_{\text{empty}} = \frac{75.0 \text{ kg}}{(1000 \text{ kg/m}^3)(0.970)} = 0.07732 \text{ m}^3 $$
+
+*Lungs full (95% submerged):*
+$$ V_{\text{full}} = \frac{75.0 \text{ kg}}{(1000 \text{ kg/m}^3)(0.950)} = 0.07895 \text{ m}^3 $$
+
+*Lung capacity:*
+$$ V_{\text{lungs}} = V_{\text{full}} - V_{\text{empty}} = 0.07895 - 0.07732 = 0.00163 \text{ m}^3 $$
+
+$$ V_{\text{lungs}} = 1.63 \text{ L} $$
+
+**(b) Is this reasonable?**
+
+Yes, this is very reasonable. Typical human lung capacity values:
+- Tidal volume (normal breath): 0.5 L
+- Vital capacity (maximum breath): 4-6 L
+- Functional residual capacity: ~2.5 L
+
+A value of **1.63 L** represents a moderate breath, less than maximum capacity but more than a normal resting breath. This is consistent with the "floating gently" scenario described.
+
+**Discussion:**
+The lung capacity calculated is approximately **1.6 liters**, which is a reasonable value for a moderate inhalation. The calculation shows how sensitive floating is to lung volume—just 1.6 L of air (adding ~2% to body volume) raises the man 2 percentage points higher in the water. This explains why swimmers can control their buoyancy by adjusting their breathing.
 
 </div>
 </div>
