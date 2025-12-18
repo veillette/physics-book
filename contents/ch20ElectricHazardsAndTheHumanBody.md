@@ -351,6 +351,30 @@ In view of the small currents that cause shock hazards and the larger currents t
 What voltage is involved in a 1.44-kW short circuit through a  $$ 0.100 \text{-} \Omega  $$ resistance?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Use the power equation $$P = V^{2}/R$$ and solve for voltage. This will give us the voltage that produces the specified power dissipation through the low-resistance short circuit.
+
+**Solution**
+
+Rearrange the power equation to solve for voltage:
+
+<div class="equation">
+$$V = \sqrt{PR} = \sqrt{(1.44 \times 10^{3} \text{ W})(0.100 \text{ Ω})}$$
+</div>
+
+<div class="equation">
+$$V = \sqrt{144 \text{ V}^{2}} = 12.0 \text{ V}$$
+</div>
+
+**Discussion**
+
+This result shows that even a relatively low voltage of 12.0 V can cause significant power dissipation (1.44 kW) when the resistance is very small. This is characteristic of short circuits—the low resistance allows high current flow ($$I = V/R = 12.0 \text{ V}/0.100 \text{ Ω} = 120 \text{ A}$$), which results in high power dissipation despite the modest voltage. This 12-V scenario is common in automotive electrical systems, where a short circuit in the low-resistance wiring can quickly heat wires to dangerous temperatures, potentially causing fires. This is why automotive fuses are critical safety devices.
+
+The voltage involved in the short circuit is 12.0 V.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -369,6 +393,30 @@ Find the current through a person and identify the likely effect on her if she t
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 While taking a bath, a person touches the metal case of a radio. The path through the person to the drainpipe and ground has a resistance of  $$4000 \Omega  $$. What is the smallest voltage on the case of the radio that could cause ventricular fibrillation?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Use Ohm's law $$V = IR$$ with the threshold current for ventricular fibrillation. From Table 1, ventricular fibrillation can occur at currents as low as 100 mA. We use this minimum threshold to find the smallest dangerous voltage.
+
+**Solution**
+
+Apply Ohm's law with the minimum fibrillation current:
+
+<div class="equation">
+$$V = IR = (100 \times 10^{-3} \text{ A})(4000 \text{ Ω})$$
+</div>
+
+<div class="equation">
+$$V = 400 \text{ V}$$
+</div>
+
+**Discussion**
+
+A voltage of 400 V on the radio case could cause ventricular fibrillation. However, this analysis reveals an important safety consideration: standard household voltage (120 V in North America, 240 V in many other countries) would produce currents of $$I = 120 \text{ V}/4000 \text{ Ω} = 30 \text{ mA}$$ or $$I = 240 \text{ V}/4000 \text{ Ω} = 60 \text{ mA}$$. While these currents are below the fibrillation threshold, they are well above the "can't let go" threshold (10-20 mA) and the threshold for pain (50 mA). The person would experience sustained muscular contractions and might drown if unable to release the radio or exit the tub. This is why electrical devices should never be used near bathtubs, and modern bathrooms require ground-fault circuit interrupter (GFCI) outlets that trip at currents as low as 5 mA.
+
+The smallest voltage that could cause ventricular fibrillation is 400 V.
 
 </div>
 </div>
@@ -390,6 +438,36 @@ Foolishly trying to fish a burning piece of bread from a toaster with a metal bu
  what is the smallest voltage that poses this danger? (b) Does your answer imply that special electrical safety precautions are needed?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Use Ohm's law $$V = IR$$ to find the minimum voltage that would cause the dangerous microampere-level current through the exposed heart tissue.
+
+**Solution**
+
+**(a)** Apply Ohm's law:
+
+<div class="equation">
+$$V = IR = (20.0 \times 10^{-6} \text{ A})(300 \text{ Ω})$$
+</div>
+
+<div class="equation">
+$$V = 6.00 \times 10^{-3} \text{ V} = 6.00 \text{ mV}$$
+</div>
+
+**(b)** Yes, special electrical safety precautions are absolutely essential during surgery. A voltage of only 6.00 mV can be lethal when applied directly to the heart. This is an extraordinarily small voltage—far below what can be felt through intact skin, and easily produced by:
+- Stray electromagnetic fields from nearby equipment
+- Ground loops between different pieces of equipment
+- Static electricity buildup
+- Small potential differences between grounded equipment
+
+**Discussion**
+
+This tiny threshold voltage (6.00 mV) is about 20,000 times smaller than household voltage and would be completely imperceptible under normal conditions. When the skin's protective resistance is bypassed during surgery, the patient becomes "microshock sensitive." This requires stringent safety measures including: equipotential grounding (all equipment at the same ground potential), isolated power systems, low-leakage equipment, and continuous monitoring. Operating rooms use special electrical systems that can detect leakage currents as small as a few microamperes and isolate faulty equipment before it poses a danger. All personnel must follow strict protocols about grounding and equipment handling.
+
+(a) The smallest voltage that could cause ventricular fibrillation is 6.00 mV. (b) Yes, extremely stringent electrical safety precautions are essential during surgery.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -407,7 +485,47 @@ Foolishly trying to fish a burning piece of bread from a toaster with a metal bu
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A heart defibrillator passes 10.0 A through a patient’s torso for 5.00 ms in an attempt to restore normal beating. (a) How much charge passed? (b) What voltage was applied if 500 J of energy was dissipated? (c) What was the path’s resistance? (d) Find the temperature increase caused in the 8.00 kg of affected tissue.
+A heart defibrillator passes 10.0 A through a patient's torso for 5.00 ms in an attempt to restore normal beating. (a) How much charge passed? (b) What voltage was applied if 500 J of energy was dissipated? (c) What was the path's resistance? (d) Find the temperature increase caused in the 8.00 kg of affected tissue.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+(a) Use the definition of current $$I = \Delta Q/\Delta t$$ to find charge. (b) Use energy and charge to find voltage via $$E = QV$$. (c) Use Ohm's law $$R = V/I$$. (d) Use the heat equation $$Q = mc\Delta T$$ with the specific heat of body tissue (approximately that of water, $$c = 3500 \text{ J/kg·°C}$$).
+
+**Solution**
+
+**(a)** Find the charge passed:
+
+<div class="equation">
+$$\Delta Q = I \cdot \Delta t = (10.0 \text{ A})(5.00 \times 10^{-3} \text{ s}) = 0.0500 \text{ C} = 50.0 \text{ mC}$$
+</div>
+
+**(b)** Find the voltage using energy and charge:
+
+<div class="equation">
+$$E = QV \Rightarrow V = \frac{E}{Q} = \frac{500 \text{ J}}{0.0500 \text{ C}} = 10000 \text{ V} = 10.0 \text{ kV}$$
+</div>
+
+**(c)** Find the resistance using Ohm's law:
+
+<div class="equation">
+$$R = \frac{V}{I} = \frac{10000 \text{ V}}{10.0 \text{ A}} = 1000 \text{ Ω} = 1.00 \text{ kΩ}$$
+</div>
+
+**(d)** Find the temperature increase using $$E = mc\Delta T$$:
+
+<div class="equation">
+$$\Delta T = \frac{E}{mc} = \frac{500 \text{ J}}{(8.00 \text{ kg})(3500 \text{ J/kg·°C})} = \frac{500}{28000} \text{ °C} = 0.0179 \text{ °C}$$
+</div>
+
+**Discussion**
+
+The defibrillator delivers a substantial charge (50.0 mC) at a very high voltage (10.0 kV), but only for a brief 5.00 ms pulse. The path resistance of 1.00 kΩ is reasonable for current passing through the chest (between external paddle electrodes through skin, muscle, and other tissue).
+
+The temperature rise of only 0.018°C is negligible and explains why defibrillation doesn't cause burns despite the high voltage and current. This is because the energy is distributed over a large mass of tissue (8.00 kg) and the duration is extremely short. The large paddles used in defibrillation help spread the current over a wide area, reducing current density and preventing localized heating. The brief, high-current pulse is designed to simultaneously depolarize the entire heart muscle, allowing it to restart with a normal rhythm.
+
+(a) 50.0 mC of charge passed through the patient. (b) A voltage of 10.0 kV was applied. (c) The path's resistance was 1.00 kΩ. (d) The temperature increase in the affected tissue was 0.018°C.
 
 </div>
 </div>
