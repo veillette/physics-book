@@ -292,7 +292,24 @@ What is the power of a  $$ 1.00 \times 10^{2}  \text{MV} $$
 
 </div>
 <div class="solution" markdown="1">
- $$ 2.00 \times 10^{12}  \text{W} $$
+**Strategy**
+
+Use $$P = IV$$ to calculate power. Convert MV to V for proper SI units.
+
+**Solution**
+
+Convert voltage: $$V = 1.00 \times 10^{2} \text{ MV} = 1.00 \times 10^{8} \text{ V}$$
+
+<div class="equation">
+$$P = IV = (2.00 \times 10^{4} \text{ A})(1.00 \times 10^{8} \text{ V}) = 2.00 \times 10^{12} \text{ W} = 2.00 \text{ TW}$$
+</div>
+
+**Discussion**
+
+The lightning bolt's instantaneous power of 2 terawatts is staggering—about equal to the total electrical generating capacity of the entire United States! However, lightning bolts are extremely brief (typically 0.001 to 0.1 seconds), so the total energy delivered is modest compared to what such power might suggest if sustained. Despite this enormous instantaneous power, the brief duration makes harnessing lightning energy impractical.
+
+The power of the lightning bolt is $$2.00 \times 10^{12}$$ W (2.00 TW).
+
 </div>
 </div>
 
@@ -301,11 +318,57 @@ What is the power of a  $$ 1.00 \times 10^{2}  \text{MV} $$
 What power is supplied to the starter motor of a large truck that draws 250 A of current from a 24.0-V battery hookup?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Use $$P = IV$$ directly with the given current and voltage.
+
+**Solution**
+
+<div class="equation">
+$$P = IV = (250 \text{ A})(24.0 \text{ V}) = 6000 \text{ W} = 6.00 \text{ kW}$$
+</div>
+
+**Discussion**
+
+The starter motor consumes 6.00 kW—equivalent to running six 1000-W space heaters simultaneously! This enormous power draw explains why truck batteries are larger than car batteries and why vehicles with depleted batteries cannot start. The high current (250 A) also explains why battery cables for trucks must be thick; thinner cables would overheat and potentially melt. Large diesel trucks require even more starting power due to higher compression ratios.
+
+The power supplied to the starter motor is 6.00 kW.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A charge of 4.00 C of charge passes through a pocket calculator’s solar cells in 4.00 h. What is the power output, given the calculator’s voltage output is 3.00 V? (See [[Figure 2]](#Figure2).)
+A charge of 4.00 C of charge passes through a pocket calculator's solar cells in 4.00 h. What is the power output, given the calculator's voltage output is 3.00 V? (See [[Figure 2]](#Figure2).)
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+First find the current using $$I = \Delta Q / \Delta t$$, then calculate power using $$P = IV$$.
+
+**Solution**
+
+Convert time to seconds: $$\Delta t = 4.00 \text{ h} \times 3600 \text{ s/h} = 1.44 \times 10^{4} \text{ s}$$
+
+Calculate the current:
+
+<div class="equation">
+$$I = \frac{\Delta Q}{\Delta t} = \frac{4.00 \text{ C}}{1.44 \times 10^{4} \text{ s}} = 2.78 \times 10^{-4} \text{ A} = 0.278 \text{ mA}$$
+</div>
+
+Calculate the power:
+
+<div class="equation">
+$$P = IV = (2.78 \times 10^{-4} \text{ A})(3.00 \text{ V}) = 8.33 \times 10^{-4} \text{ W} = 0.833 \text{ mW}$$
+</div>
+
+**Discussion**
+
+The solar cell power output of 0.833 mW is remarkably small, yet sufficient to power a calculator's LCD display and low-power CMOS circuitry. This demonstrates the extreme energy efficiency of modern electronic calculators. The tiny power requirement is why solar-powered calculators can operate even under typical indoor lighting, which provides far less energy than direct sunlight.
+
+The power output of the solar cells is 0.833 mW ($$8.33 \times 10^{-4}$$ W).
 
 </div>
 </div>
@@ -1008,6 +1071,52 @@ order to heat 75.0 g of glass, 250 g of baby formula, and $$ 3.00 \times 10^{2}
 min?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+This integrated concepts problem requires calculating the total heat needed using $$Q = mc\Delta T$$ for each material, then finding the power required, and finally the current using $$P = IV$$.
+
+**Solution**
+
+Calculate heat required for each component using specific heat values: $$c_{\text{glass}} = 840$$ J/kg·°C, $$c_{\text{water}} = 4186$$ J/kg·°C (formula is mostly water), $$c_{\text{Al}} = 900$$ J/kg·°C.
+
+Temperature change: $$\Delta T = 90.0 - 20.0 = 70.0\text{°C}$$
+
+<div class="equation">
+$$Q_{\text{glass}} = m_{\text{glass}} c_{\text{glass}} \Delta T = (0.0750 \text{ kg})(840 \text{ J/kg·°C})(70.0\text{°C}) = 4410 \text{ J}$$
+</div>
+
+<div class="equation">
+$$Q_{\text{formula}} = m_{\text{formula}} c_{\text{water}} \Delta T = (0.250 \text{ kg})(4186 \text{ J/kg·°C})(70.0\text{°C}) = 73,255 \text{ J}$$
+</div>
+
+<div class="equation">
+$$Q_{\text{Al}} = m_{\text{Al}} c_{\text{Al}} \Delta T = (0.300 \text{ kg})(900 \text{ J/kg·°C})(70.0\text{°C}) = 18,900 \text{ J}$$
+</div>
+
+Total heat: $$Q_{\text{total}} = 4410 + 73,255 + 18,900 = 96,565 \text{ J}$$
+
+Time: $$t = 5.00 \text{ min} = 300 \text{ s}$$
+
+Power required:
+
+<div class="equation">
+$$P = \frac{Q}{t} = \frac{96,565 \text{ J}}{300 \text{ s}} = 322 \text{ W}$$
+</div>
+
+Current required:
+
+<div class="equation">
+$$I = \frac{P}{V} = \frac{322 \text{ W}}{12.0 \text{ V}} = 26.8 \text{ A}$$
+</div>
+
+**Discussion**
+
+The bottle warmer requires 26.8 A from a 12-V car battery—a substantial current that would drain a typical car battery in a few hours of continuous use. The calculation shows why most of the energy goes into heating the formula (76% of total), with smaller contributions from the aluminum container and glass. These portable warmers are designed for occasional use while traveling, not extended operation.
+
+The current required is 26.8 A.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1021,7 +1130,43 @@ to the surroundings.
 
 </div>
 <div class="solution" markdown="1">
-45.0 s
+**Strategy**
+
+Calculate the power output of the cauterizer using $$P = IV$$. Then calculate the total energy needed: (1) heating tissue from 37°C to 100°C, and (2) vaporizing water. Finally, find time using $$t = E/P$$.
+
+**Solution**
+
+Calculate power:
+
+<div class="equation">
+$$P = IV = (2.00 \times 10^{-3} \text{ A})(15.0 \times 10^{3} \text{ V}) = 30.0 \text{ W}$$
+</div>
+
+Energy to heat tissue (using $$c_{\text{tissue}} \approx 3500$$ J/kg·°C, similar to water):
+
+<div class="equation">
+$$Q_1 = mc\Delta T = (0.00100 \text{ kg})(3500 \text{ J/kg·°C})(100 - 37) = 220.5 \text{ J}$$
+</div>
+
+Energy to vaporize water ($$L_v = 2.256 \times 10^6$$ J/kg):
+
+<div class="equation">
+$$Q_2 = mL_v = (0.000500 \text{ kg})(2.256 \times 10^{6} \text{ J/kg}) = 1128 \text{ J}$$
+</div>
+
+Total energy: $$E = Q_1 + Q_2 = 220.5 + 1128 = 1348.5 \text{ J}$$
+
+Time required:
+
+<div class="equation">
+$$t = \frac{E}{P} = \frac{1348.5 \text{ J}}{30.0 \text{ W}} = 44.95 \text{ s} \approx 45.0 \text{ s}$$
+</div>
+
+**Discussion**
+
+The cauterizer takes about 45 seconds to heat and vaporize the tissue. Most of the energy (84%) goes into vaporizing water, not heating—this is typical because the latent heat of vaporization is much larger than the sensible heat. The high voltage (15 kV) with tiny current (2 mA) produces the same power as lower voltage at higher current, but creates a concentrated, localized heating effect suitable for precise surgical work.
+
+The time needed is 45.0 s.
 
 </div>
 </div>
@@ -1039,6 +1184,48 @@ efficiency?
 
 ![](../resources/Figure_20_04_05.jpg "Hydroelectric generators at the Hoover dam. (credit: Jon Sullivan)")
 {: #Figure5}
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+(a) Use $$P = IV$$ for electrical power output.
+
+(b) The gravitational potential energy of falling water is converted to electrical energy with 85% efficiency. Use $$P_{\text{input}} = \rho g h \times \text{flow rate}$$ and relate to electrical output.
+
+**Solution for (a)**
+
+<div class="equation">
+$$P = IV = (8.00 \times 10^{3} \text{ A})(250 \times 10^{3} \text{ V}) = 2.00 \times 10^{9} \text{ W} = 2.00 \text{ GW}$$
+</div>
+
+**Solution for (b)**
+
+The water loses gravitational potential energy: $$\Delta PE = mgh$$ per unit time gives power input.
+
+Power input required (accounting for 85% efficiency):
+
+<div class="equation">
+$$P_{\text{input}} = \frac{P_{\text{output}}}{\text{efficiency}} = \frac{2.00 \times 10^{9} \text{ W}}{0.850} = 2.35 \times 10^{9} \text{ W}$$
+</div>
+
+For water flow rate $$Q$$ (m³/s), mass flow rate is $$\rho Q$$ where $$\rho = 1000$$ kg/m³:
+
+<div class="equation">
+$$P_{\text{input}} = \rho Q g h$$
+</div>
+
+<div class="equation">
+$$Q = \frac{P_{\text{input}}}{\rho g h} = \frac{2.35 \times 10^{9} \text{ W}}{(1000 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(160 \text{ m})} = 1500 \text{ m}^3/\text{s}$$
+</div>
+
+**Discussion**
+
+(a) Hoover Dam produces 2.0 GW at maximum output—enough to power about 1.3 million homes! This makes it one of the largest hydroelectric facilities in the U.S.
+
+(b) The required water flow of 1500 m³/s (nearly 400,000 gallons per second) is enormous. The Colorado River must supply this flow rate, which is why dam operations are carefully managed to balance power generation with water conservation and downstream needs. The 160 m head (height difference) is crucial—doubling the head would halve the required flow rate for the same power output.
+
+(a) The power output is 2.00 GW. (b) Approximately 1500 m³/s of water flow is needed.
 
 </div>
 </div>
@@ -1061,10 +1248,50 @@ See [[Figure 6]](#Figure6).
 
 </div>
 <div class="solution" markdown="1">
-(a) 343 A
+**Strategy**
 
-(b)  $$ 2.17 \times 10^{3} \text{A} $$
-(c)  $$ 1.10 \times 10^{3} \text{A} $$
+For each scenario, calculate the mechanical power required, account for efficiency, then find current using $$P = IV$$.
+
+**Solution for (a)** — Acceleration from rest
+
+Kinetic energy gained: $$KE = \frac{1}{2}mv^2 = \frac{1}{2}(750 \text{ kg})(25.0 \text{ m/s})^2 = 234,375 \text{ J}$$
+
+Mechanical power: $$P_{\text{mech}} = \frac{234,375 \text{ J}}{60.0 \text{ s}} = 3906 \text{ W}$$
+
+Electrical power (accounting for 95% efficiency):
+
+<div class="equation">
+$$P_{\text{elec}} = \frac{P_{\text{mech}}}{0.950} = \frac{3906 \text{ W}}{0.950} = 4112 \text{ W}$$
+</div>
+
+Current: $$I = \frac{P}{V} = \frac{4112 \text{ W}}{12.0 \text{ V}} = 343 \text{ A}$$
+
+**Solution for (b)** — Hill climb with friction
+
+Power for climbing: $$P_{\text{gravity}} = \frac{mgh}{t} = \frac{(750)(9.80)(200)}{120} = 12,250 \text{ W}$$
+
+Power for friction: $$P_{\text{friction}} = Fv = (500 \text{ N})(25.0 \text{ m/s}) = 12,500 \text{ W}$$
+
+Total mechanical power: $$P_{\text{mech}} = 12,250 + 12,500 = 24,750 \text{ W}$$
+
+Electrical power: $$P_{\text{elec}} = \frac{24,750}{0.950} = 26,053 \text{ W}$$
+
+Current: $$I = \frac{26,053 \text{ W}}{12.0 \text{ V}} = 2.17 \times 10^{3} \text{ A}$$
+
+**Solution for (c)** — Constant speed on flat ground
+
+Only overcoming friction: $$P_{\text{mech}} = Fv = (500)(25.0) = 12,500 \text{ W}$$
+
+Electrical power: $$P_{\text{elec}} = \frac{12,500}{0.950} = 13,158 \text{ W}$$
+
+Current: $$I = \frac{13,158 \text{ W}}{12.0 \text{ V}} = 1.10 \times 10^{3} \text{ A}$$
+
+**Discussion**
+
+These currents are enormous for a 12-V system! Part (b) requiring 2170 A shows why practical electric vehicles use much higher voltages (300-800 V)—this reduces current to manageable levels, allowing smaller cables and reducing I²R losses. The hill-climbing scenario requires nearly twice the current of level travel because the car must do work against both gravity and friction.
+
+(a) 343 A for acceleration. (b) $$2.17 \times 10^{3}$$ A for hill climbing. (c) $$1.10 \times 10^{3}$$ A for constant speed.
+
 </div>
 </div>
 
@@ -1078,6 +1305,45 @@ does it take to reach 20.0 m/s starting from rest if its loaded mass is $$ 5.30
 \times 10^{4} \text{kg} $$ , assuming 95.0% efficiency and constant power? (c)
 Find its average acceleration. (d) Discuss how the acceleration you found for
 the light-rail train compares to what might be typical for an automobile.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+(a) Use $$P = IV$$. (b) Use energy conservation: electrical energy (times efficiency) equals kinetic energy gained. (c) Use $$a = v/t$$. (d) Compare to typical automobile acceleration.
+
+**Solution for (a)**
+
+<div class="equation">
+$$P = IV = (630 \text{ A})(650 \text{ V}) = 409,500 \text{ W} = 410 \text{ kW}$$
+</div>
+
+**Solution for (b)**
+
+Final kinetic energy: $$KE = \frac{1}{2}mv^2 = \frac{1}{2}(5.30 \times 10^{4})(20.0)^2 = 1.06 \times 10^{7} \text{ J}$$
+
+Useful power (at 95% efficiency): $$P_{\text{useful}} = 0.950 \times 409,500 = 389,025 \text{ W}$$
+
+Time: $$t = \frac{KE}{P_{\text{useful}}} = \frac{1.06 \times 10^{7} \text{ J}}{389,025 \text{ W}} = 27.2 \text{ s}$$
+
+**Solution for (c)**
+
+<div class="equation">
+$$a = \frac{v}{t} = \frac{20.0 \text{ m/s}}{27.2 \text{ s}} = 0.735 \text{ m/s}^2$$
+</div>
+
+**Solution for (d)**
+
+A typical automobile can accelerate from 0 to 20 m/s (about 45 mph) in approximately 5-8 seconds, giving accelerations of 2.5-4 m/s². The light-rail train's acceleration of 0.735 m/s² is about 3-5 times slower than a car. This lower acceleration is expected because:
+- The train is much more massive (53,000 kg vs ~1500 kg for a car)
+- Passenger comfort and safety require gentler acceleration
+- Electric motor characteristics provide high torque at low speeds but limited peak power
+
+**Discussion**
+
+The train's 410 kW power consumption is substantial but necessary for its large mass. The relatively slow acceleration (0.735 m/s²) ensures passenger comfort—standing passengers would have difficulty maintaining balance at higher accelerations. Despite the lower acceleration, trains achieve competitive travel times through higher cruising speeds and fewer stops.
+
+(a) Power consumption is 410 kW. (b) Time to reach 20 m/s is 27.2 s. (c) Average acceleration is 0.735 m/s². (d) This is 3-5 times slower than typical automobile acceleration.
 
 </div>
 </div>
@@ -1094,8 +1360,46 @@ by lowering the resistance.
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 1.23 \times 10^{3}  \text{kg} $$
-(b)  $$ 2.64 \times 10^{3}  \text{kg} $$
+**Strategy**
+
+Use $$R = \rho L/A$$ to find the required cross-sectional area, then calculate mass using $$m = \rho_{\text{density}} \times A \times L$$.
+
+**Solution for (a)** — Aluminum
+
+Given: $$R/L = 0.0580$$ Ω/km, $$\rho_{\text{Al}} = 2.65 \times 10^{-8}$$ Ω·m, density $$= 2700$$ kg/m³
+
+From $$R = \rho L/A$$: $$A = \frac{\rho L}{R} = \frac{\rho}{R/L}$$
+
+<div class="equation">
+$$A = \frac{2.65 \times 10^{-8} \text{ Ω·m}}{0.0580 \times 10^{-3} \text{ Ω/m}} = 4.57 \times 10^{-4} \text{ m}^2$$
+</div>
+
+Mass per kilometer:
+
+<div class="equation">
+$$m = \rho_{\text{density}} \times A \times L = (2700 \text{ kg/m}^3)(4.57 \times 10^{-4} \text{ m}^2)(1000 \text{ m}) = 1.23 \times 10^{3} \text{ kg}$$
+</div>
+
+**Solution for (b)** — Copper
+
+Given: $$\rho_{\text{Cu}} = 1.72 \times 10^{-8}$$ Ω·m, density $$= 8900$$ kg/m³
+
+<div class="equation">
+$$A = \frac{1.72 \times 10^{-8} \text{ Ω·m}}{0.0580 \times 10^{-3} \text{ Ω/m}} = 2.97 \times 10^{-4} \text{ m}^2$$
+</div>
+
+Mass per kilometer:
+
+<div class="equation">
+$$m = (8900 \text{ kg/m}^3)(2.97 \times 10^{-4} \text{ m}^2)(1000 \text{ m}) = 2.64 \times 10^{3} \text{ kg}$$
+</div>
+
+**Discussion**
+
+Aluminum requires 1230 kg/km while copper requires 2640 kg/km for the same resistance—copper is more than twice as heavy! Although copper is a better conductor (lower resistivity), its much higher density makes aluminum the preferred choice for overhead transmission lines. The weight savings reduce tower structural requirements and costs. Aluminum is also less expensive per kilogram. This is why nearly all long-distance power transmission lines use aluminum (or aluminum-core steel-reinforced cables).
+
+(a) The aluminum line has a mass of $$1.23 \times 10^{3}$$ kg per kilometer. (b) The copper line has a mass of $$2.64 \times 10^{3}$$ kg per kilometer.
+
 </div>
 </div>
 
@@ -1111,6 +1415,53 @@ the heating time. Discuss the practical limits to speeding the heating by
 lowering the resistance.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+(a) Calculate total heat needed, find required power, then use $$R = V^2/P$$ to find resistance.
+
+(b) Consider the practical constraints on lowering resistance.
+
+**Solution for (a)**
+
+Heat required for aluminum ($$c_{\text{Al}} = 900$$ J/kg·°C):
+
+<div class="equation">
+$$Q_{\text{Al}} = m_{\text{Al}} c_{\text{Al}} \Delta T = (0.100 \text{ kg})(900)(95.0 - 20.0) = 6750 \text{ J}$$
+</div>
+
+Heat required for water ($$c_{\text{water}} = 4186$$ J/kg·°C):
+
+<div class="equation">
+$$Q_{\text{water}} = m_{\text{water}} c_{\text{water}} \Delta T = (0.350 \text{ kg})(4186)(75.0) = 109,883 \text{ J}$$
+</div>
+
+Total heat: $$Q = 6750 + 109,883 = 116,633 \text{ J}$$
+
+Power required: $$P = \frac{Q}{t} = \frac{116,633 \text{ J}}{120 \text{ s}} = 972 \text{ W}$$
+
+Resistance:
+
+<div class="equation">
+$$R = \frac{V^2}{P} = \frac{(120 \text{ V})^2}{972 \text{ W}} = 14.8 \text{ Ω}$$
+</div>
+
+**Solution for (b)**
+
+Practical limits to lowering resistance include:
+- **Current limits**: Lower resistance means higher current ($$I = V/R$$). Household circuits are typically limited to 15-20 A, limiting power to ~1800-2400 W.
+- **Wire gauge**: Higher currents require thicker wires to avoid overheating.
+- **Heater element durability**: Very high power densities can burn out heating elements.
+- **Safety**: Higher power means more rapid and potentially dangerous heating if unattended.
+- **Boiling hazard**: Too much power could cause violent boiling and splashing.
+
+**Discussion**
+
+The 14.8 Ω resistance produces about 1 kW, a reasonable power level for a portable immersion heater. At this power, it takes 2 minutes to heat the water—acceptable for making tea. A 5 Ω element would triple the power to ~3 kW, but this exceeds typical household circuit capacity and poses safety risks.
+
+(a) The heater resistance is 14.8 Ω. (b) Practical limits include circuit breaker ratings, wire heating, safety, and heater element durability.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1122,6 +1473,58 @@ lowering the resistance.
 for heat transfer to the surroundings? The cost of electricity is $$9
 \text{cents/kW}\cdot \text{h} $$ .
 (b) What current was used by the 220-V AC electric heater, if this took 4.00 h?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+(a) Calculate heat needed, account for efficiency losses, convert to kWh, and find cost.
+
+(b) Use the energy and time to find power, then current.
+
+**Solution for (a)**
+
+Heat required for water:
+
+<div class="equation">
+$$Q = mc\Delta T = (1500 \text{ kg})(4186 \text{ J/kg·°C})(40.0 - 10.0) = 1.88 \times 10^{8} \text{ J}$$
+</div>
+
+Accounting for 75% efficiency (more energy input needed):
+
+<div class="equation">
+$$E_{\text{input}} = \frac{Q}{\text{efficiency}} = \frac{1.88 \times 10^{8} \text{ J}}{0.750} = 2.51 \times 10^{8} \text{ J}$$
+</div>
+
+Convert to kWh: $$E = \frac{2.51 \times 10^{8} \text{ J}}{3.60 \times 10^{6} \text{ J/kWh}} = 69.7 \text{ kWh}$$
+
+Cost:
+
+<div class="equation">
+$$\text{Cost} = 69.7 \text{ kWh} \times \$0.09/\text{kWh} = \$6.27$$
+</div>
+
+**Solution for (b)**
+
+Power used:
+
+<div class="equation">
+$$P = \frac{E}{t} = \frac{69.7 \text{ kWh}}{4.00 \text{ h}} = 17.4 \text{ kW}$$
+</div>
+
+Current:
+
+<div class="equation">
+$$I = \frac{P}{V} = \frac{17,400 \text{ W}}{220 \text{ V}} = 79.1 \text{ A}$$
+</div>
+
+**Discussion**
+
+(a) Heating the hot tub costs about $6.27—relatively inexpensive for the enjoyment it provides. This explains why hot tubs are often kept warm continuously rather than heated from cold each time.
+
+(b) The 79 A current is substantial and requires a dedicated 220-V circuit with appropriate wiring. This is typical for hot tub installations and explains why they need special electrical hookups. The 17.4 kW heater is powerful—equivalent to about seven hair dryers running simultaneously!
+
+(a) The cost is approximately $6.27. (b) The current used is 79.1 A.
 
 </div>
 </div>
@@ -1138,13 +1541,35 @@ inconsistent?
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 2.08 \times 10^{5}  \text{A} $$
-(b)  $$ 4.33 \times 10^{4}  \text{MW} $$
-(c) The transmission lines dissipate more power than they are supposed to transmit.
+**Strategy**
 
-(d) A voltage of 480 V is unreasonably low for a transmission voltage.
-Long-distance transmission lines are kept at much higher voltages (often
-hundreds of kilovolts) to reduce power losses.
+(a) Use $$I = P/V$$ to find current. (b) Use $$P_{\text{loss}} = I^2R$$ to find power dissipated. (c-d) Analyze whether results are physically reasonable.
+
+**Solution for (a)**
+
+<div class="equation">
+$$I = \frac{P}{V} = \frac{1.00 \times 10^{8} \text{ W}}{480 \text{ V}} = 2.08 \times 10^{5} \text{ A}$$
+</div>
+
+**Solution for (b)**
+
+<div class="equation">
+$$P_{\text{loss}} = I^2 R = (2.08 \times 10^{5} \text{ A})^2 (1.00 \text{ Ω}) = 4.33 \times 10^{10} \text{ W} = 4.33 \times 10^{4} \text{ MW}$$
+</div>
+
+**Solution for (c)**
+
+The transmission lines dissipate 43,300 MW—over 430 times more power than they're supposed to transmit (100 MW)! This means only about 0.23% of the generated power would reach the destination, with 99.77% lost as heat. The transmission lines would also vaporize from the extreme current.
+
+**Solution for (d)**
+
+The voltage of 480 V is unreasonably low for power transmission. Since $$P_{\text{loss}} = I^2R = P^2/(V^2) \times R$$, power loss is inversely proportional to the square of the voltage. Real transmission lines use voltages of 115 kV to 765 kV or higher. At 500 kV, the current would be only 200 A, and line losses would be just 40 kW—0.04% of the transmitted power.
+
+**Discussion**
+
+This problem illustrates why high-voltage transmission is essential for long-distance power delivery. Thomas Edison's original DC distribution systems used low voltages and could only serve customers within about a mile of the power station. The adoption of AC and transformers (championed by Tesla and Westinghouse) allowed voltage step-up for efficient transmission and step-down for safe distribution, enabling our modern grid.
+
+(a) The required current is $$2.08 \times 10^{5}$$ A. (b) Power loss is $$4.33 \times 10^{4}$$ MW. (c) This is unreasonable—more power is lost than transmitted. (d) The 480 V transmission voltage is unreasonably low; high voltages (100s of kV) are needed.
 
 </div>
 </div>
@@ -1158,6 +1583,65 @@ power at 10.0 kV? (b) Find the resistance of 1.00 km of wire that would cause a
 0.0100% power loss. (c) What is the diameter of a 1.00-km-long copper wire
 having this resistance? (d) What is unreasonable about these results? (e) Which
 assumptions are unreasonable, or which premises are inconsistent?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+(a) Use $$I = P/V$$. (b) For a given power loss percentage, find required resistance. (c) Use $$R = \rho L/A$$ to find area, then diameter. (d-e) Assess reasonableness.
+
+**Solution for (a)**
+
+<div class="equation">
+$$I = \frac{P}{V} = \frac{1.00 \times 10^{8} \text{ W}}{10.0 \times 10^{3} \text{ V}} = 1.00 \times 10^{4} \text{ A}$$
+</div>
+
+**Solution for (b)**
+
+Power loss of 0.0100% of 100 MW:
+
+<div class="equation">
+$$P_{\text{loss}} = 0.000100 \times 1.00 \times 10^{8} \text{ W} = 1.00 \times 10^{4} \text{ W} = 10.0 \text{ kW}$$
+</div>
+
+Using $$P_{\text{loss}} = I^2 R$$:
+
+<div class="equation">
+$$R = \frac{P_{\text{loss}}}{I^2} = \frac{1.00 \times 10^{4} \text{ W}}{(1.00 \times 10^{4} \text{ A})^2} = 1.00 \times 10^{-4} \text{ Ω}$$
+</div>
+
+**Solution for (c)**
+
+For copper ($$\rho = 1.72 \times 10^{-8}$$ Ω·m):
+
+<div class="equation">
+$$A = \frac{\rho L}{R} = \frac{(1.72 \times 10^{-8})(1000)}{1.00 \times 10^{-4}} = 0.172 \text{ m}^2$$
+</div>
+
+Diameter from $$A = \pi d^2/4$$:
+
+<div class="equation">
+$$d = \sqrt{\frac{4A}{\pi}} = \sqrt{\frac{4(0.172)}{\pi}} = 0.468 \text{ m} = 46.8 \text{ cm}$$
+</div>
+
+**Solution for (d)**
+
+A wire diameter of 46.8 cm (nearly half a meter!) is completely unreasonable for a transmission line. Such a wire would weigh about 1.5 million kg per kilometer and be impossible to support on towers. No transmission line uses wire anywhere close to this size.
+
+**Solution for (e)**
+
+The combination of premises is inconsistent:
+- The 0.01% power loss target is too stringent for practical transmission
+- The 10 kV voltage is still too low for transmitting 100 MW
+- Real transmission systems accept 3-5% losses and use much higher voltages
+
+At 500 kV (typical for major transmission lines), the current drops to 200 A, and achieving reasonable losses requires much more manageable wire sizes (a few centimeters diameter).
+
+**Discussion**
+
+This problem demonstrates the interdependence of voltage, current, and conductor size in power transmission. Engineers must balance efficiency goals against practical constraints like weight, cost, and structural requirements.
+
+(a) Current is $$1.00 \times 10^{4}$$ A. (b) Required resistance is $$1.00 \times 10^{-4}$$ Ω. (c) Wire diameter would be 46.8 cm. (d) This diameter is unreasonably large. (e) The combination of low voltage and extremely low loss requirement is inconsistent with practical constraints.
 
 </div>
 </div>
@@ -1175,6 +1659,60 @@ capacities involved, heat losses, and the time over which the heating takes
 place. Your instructor may wish for you to consider a thermal safety switch (
 perhaps bimetallic) that will halt the process before damaging temperatures are
 reached in the immersion unit.
+
+</div>
+<div class="solution" markdown="1">
+**Sample Problem**
+
+An electric immersion heater operates on 120 V and is used to heat 300 g of water in a 50-g ceramic mug from room temperature (22°C) to boiling (100°C) in 3 minutes. (a) What resistance should the heater have? (b) What is the cost of this energy if electricity costs $0.12/kWh? (c) What safety considerations apply?
+
+**Strategy**
+
+Calculate the total heat required, determine the power needed, then find resistance using $$R = V^2/P$$.
+
+**Solution for (a)**
+
+Heat for ceramic mug ($$c_{\text{ceramic}} = 800$$ J/kg·°C):
+
+<div class="equation">
+$$Q_{\text{mug}} = m_{\text{mug}} c_{\text{ceramic}} \Delta T = (0.050 \text{ kg})(800)(100 - 22) = 3120 \text{ J}$$
+</div>
+
+Heat for water ($$c_{\text{water}} = 4186$$ J/kg·°C):
+
+<div class="equation">
+$$Q_{\text{water}} = m_{\text{water}} c_{\text{water}} \Delta T = (0.300 \text{ kg})(4186)(78) = 97,955 \text{ J}$$
+</div>
+
+Total heat: $$Q = 3120 + 97,955 = 101,075 \text{ J}$$
+
+Power required: $$P = \frac{Q}{t} = \frac{101,075 \text{ J}}{180 \text{ s}} = 562 \text{ W}$$
+
+Resistance:
+
+<div class="equation">
+$$R = \frac{V^2}{P} = \frac{(120 \text{ V})^2}{562 \text{ W}} = 25.6 \text{ Ω}$$
+</div>
+
+**Solution for (b)**
+
+Energy in kWh: $$E = (0.562 \text{ kW})(0.050 \text{ h}) = 0.0281 \text{ kWh}$$
+
+Cost: $$0.0281 \text{ kWh} \times \$0.12/\text{kWh} = \$0.0034 \approx 0.3 \text{ cents}$$
+
+**Solution for (c)**
+
+Safety considerations include:
+- A thermal cutoff switch (bimetallic) should deactivate the heater if water boils away, preventing element burnout and fire
+- The element should be fully immersed to prevent overheating
+- Proper electrical insulation prevents shock when touching the water
+- Current draw is 4.7 A, well within household circuit limits
+
+**Discussion**
+
+The 25.6 Ω heater draws about 560 W—less than a typical hair dryer. The 0.3-cent cost shows that making tea electrically is very inexpensive. The 3-minute heating time is reasonable for a morning cup of tea. Lower resistance would speed heating but increase current draw; a 10 Ω element would draw 12 A, approaching circuit limits.
+
+(a) The heater resistance should be about 25.6 Ω. (b) The cost is approximately 0.3 cents. (c) A thermal safety switch is essential to prevent overheating if water boils away.
 
 </div>
 </div>
