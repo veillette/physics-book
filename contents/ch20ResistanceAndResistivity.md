@@ -514,6 +514,32 @@ What is the resistance of a 20.0-m-long piece of 12-gauge copper wire having a 2
 The diameter of 0-gauge copper wire is 8.252 mm. Find the resistance of a 1.00-km length of such wire used for power transmission.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use the resistance formula $$R = \frac{\rho L}{A}$$, where $$\rho$$ is the resistivity of copper from [[Table 1]](#Table1). We need to calculate the cross-sectional area from the given diameter and convert all units to SI.
+
+**Solution**
+
+Calculate the cross-sectional area:
+
+<div class="equation">
+$$A = \pi r^{2} = \pi \left(\frac{8.252 \times 10^{-3} \text{ m}}{2}\right)^{2} = \pi (4.126 \times 10^{-3} \text{ m})^{2} = 5.350 \times 10^{-5} \text{ m}^{2}$$
+</div>
+
+Apply the resistance formula using $$\rho_{\text{copper}} = 1.72 \times 10^{-8} \text{ Ω}\cdot\text{m}$$:
+
+<div class="equation">
+$$R = \frac{\rho L}{A} = \frac{(1.72 \times 10^{-8} \text{ Ω}\cdot\text{m})(1.00 \times 10^{3} \text{ m})}{5.350 \times 10^{-5} \text{ m}^{2}} = 0.322 \text{ Ω}$$
+</div>
+
+**Discussion**
+
+This relatively low resistance of about a third of an ohm for a full kilometer of wire is why copper is preferred for power transmission. The thick 0-gauge wire (diameter about 8 mm) is used for high-current applications. Even this small resistance causes power loss in long transmission lines; for a 1000 A current, the power dissipated in this wire would be $$P = I^{2}R = (1000)^{2}(0.322) = 322$$ kW. This is why high-voltage, lower-current transmission is preferred for long distances.
+
+The resistance of a 1.00-km length of 0-gauge copper wire is 0.322 Ω.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -531,6 +557,42 @@ If the 0.100-mm diameter tungsten filament in a light bulb is to have a resistan
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Find the ratio of the diameter of aluminum to copper wire, if they have the same resistance per unit length (as they might in household wiring).
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For the same resistance per unit length, we set $$\frac{R}{L}$$ equal for both materials. Using $$R = \frac{\rho L}{A}$$ and $$A = \frac{\pi D^{2}}{4}$$ for a circular wire, we can derive a relationship between the diameters in terms of the resistivities.
+
+**Solution**
+
+The resistance per unit length is:
+
+<div class="equation">
+$$\frac{R}{L} = \frac{\rho}{A} = \frac{\rho}{\pi D^{2}/4} = \frac{4\rho}{\pi D^{2}}$$
+</div>
+
+Setting this equal for aluminum and copper:
+
+<div class="equation">
+$$\frac{4\rho_{\text{Al}}}{\pi D_{\text{Al}}^{2}} = \frac{4\rho_{\text{Cu}}}{\pi D_{\text{Cu}}^{2}}$$
+</div>
+
+Solving for the ratio of diameters:
+
+<div class="equation">
+$$\frac{D_{\text{Al}}^{2}}{D_{\text{Cu}}^{2}} = \frac{\rho_{\text{Al}}}{\rho_{\text{Cu}}}$$
+</div>
+
+<div class="equation">
+$$\frac{D_{\text{Al}}}{D_{\text{Cu}}} = \sqrt{\frac{\rho_{\text{Al}}}{\rho_{\text{Cu}}}} = \sqrt{\frac{2.65 \times 10^{-8} \text{ Ω}\cdot\text{m}}{1.72 \times 10^{-8} \text{ Ω}\cdot\text{m}}} = \sqrt{1.541} = 1.24$$
+</div>
+
+**Discussion**
+
+Aluminum wire must have a diameter 1.24 times larger (about 24% larger) than copper wire to have the same resistance per unit length. This is because aluminum has higher resistivity than copper. Despite needing thicker wire, aluminum is still widely used in power transmission because it is lighter and cheaper than copper. The larger diameter is acceptable for overhead power lines where weight (not size) is the limiting factor. For household wiring, copper is usually preferred because its smaller diameter allows for easier installation in walls and conduits.
+
+The aluminum wire must have a diameter 1.24 times that of the copper wire to achieve the same resistance per unit length.
 
 </div>
 </div>
@@ -552,6 +614,42 @@ What current flows through a 2.54-cm-diameter rod of pure silicon that is 20.0 c
  to double its resistance, neglecting any changes in dimensions? (b) Does this happen in household wiring under ordinary circumstances?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use the temperature dependence of resistance: $$R = R_{0}(1 + \alpha \Delta T)$$. For the resistance to double, we need $$R = 2R_{0}$$. We solve for $$\Delta T$$ and then find the final temperature.
+
+**Solution**
+
+**(a)** Set up the equation for doubling the resistance:
+
+<div class="equation">
+$$R = 2R_{0} = R_{0}(1 + \alpha \Delta T)$$
+</div>
+
+<div class="equation">
+$$2 = 1 + \alpha \Delta T$$
+</div>
+
+<div class="equation">
+$$\Delta T = \frac{1}{\alpha} = \frac{1}{3.9 \times 10^{-3} \text{ /ºC}} = 256 \text{ ºC}$$
+</div>
+
+The final temperature is:
+
+<div class="equation">
+$$T = T_{0} + \Delta T = 20.0 \text{ ºC} + 256 \text{ ºC} = 276 \text{ ºC}$$
+</div>
+
+**(b)** No, this does not happen under ordinary circumstances. Household wiring should never reach anywhere near 276°C. Typical household wiring is rated for temperatures up to about 60-90°C. At 276°C, the wire insulation would have long since melted and likely caught fire. Copper's melting point is 1085°C, so the wire itself wouldn't melt, but the surrounding materials would be destroyed. If household wiring ever approached such temperatures, it would indicate a severe fault such as a dangerous overload or short circuit.
+
+**Discussion**
+
+This problem illustrates why overloaded circuits are fire hazards. A wire carrying too much current heats up due to $$P = I^{2}R$$ power dissipation. As it heats, its resistance increases, causing even more power dissipation and further heating—a positive feedback loop that can lead to thermal runaway. Circuit breakers and fuses are designed to interrupt the circuit before temperatures become dangerous.
+
+(a) The copper wire must be raised to 276°C to double its resistance. (b) No, this temperature is never reached in properly functioning household wiring.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -569,6 +667,42 @@ A resistor made of Nichrome wire is used in an application where its resistance 
 <div class="problem" markdown="1">
 Of what material is a resistor made if its resistance is 40.0% greater at  $$100 \text{ºC} $$
  than at  $$ 20.0\text{ºC} $$ ?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+A 40.0% increase in resistance means $$R = 1.40 R_{0}$$. Using the temperature dependence equation $$R = R_{0}(1 + \alpha \Delta T)$$, we can solve for the temperature coefficient $$\alpha$$ and identify the material from [[Table 2]](#Table2).
+
+**Solution**
+
+The temperature change is:
+
+<div class="equation">
+$$\Delta T = 100 \text{ ºC} - 20.0 \text{ ºC} = 80.0 \text{ ºC}$$
+</div>
+
+Set up the equation with $$R = 1.40 R_{0}$$:
+
+<div class="equation">
+$$1.40 R_{0} = R_{0}(1 + \alpha \Delta T)$$
+</div>
+
+<div class="equation">
+$$1.40 = 1 + \alpha (80.0 \text{ ºC})$$
+</div>
+
+<div class="equation">
+$$\alpha = \frac{0.40}{80.0 \text{ ºC}} = 5.0 \times 10^{-3} \text{ /ºC}$$
+</div>
+
+Comparing with [[Table 2]](#Table2), this value matches **iron**.
+
+**Discussion**
+
+Iron's temperature coefficient of $$5.0 \times 10^{-3}$$ /ºC is among the highest for common conductors. This relatively large temperature dependence makes iron unsuitable for precision resistors but useful for applications like resistance temperature detectors (RTDs). The 40% increase in resistance over 80°C is significant—this is why materials like Manganin or Constantan (with $$\alpha$$ near zero) are used when stable resistance is needed across temperature ranges.
+
+The resistor is made of iron, which has a temperature coefficient of resistivity of $$5.0 \times 10^{-3}$$ /ºC.
 
 </div>
 </div>
@@ -592,6 +726,48 @@ An electronic device designed to operate at any temperature in the range from  $
  (b) What is its resistance at  $$150 \text{ºC} $$ ?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For part (a), we rearrange $$R = \frac{\rho L}{A}$$ to solve for resistivity $$\rho$$, then compare with [[Table 1]](#Table1) to identify the material. For part (b), we use the temperature dependence $$R = R_{0}(1 + \alpha \Delta T)$$ with the appropriate temperature coefficient.
+
+**Solution**
+
+**(a)** Calculate the cross-sectional area:
+
+<div class="equation">
+$$A = \pi r^{2} = \pi \left(\frac{0.100 \times 10^{-3} \text{ m}}{2}\right)^{2} = \pi (5.00 \times 10^{-5} \text{ m})^{2} = 7.854 \times 10^{-9} \text{ m}^{2}$$
+</div>
+
+Solve for resistivity:
+
+<div class="equation">
+$$\rho = \frac{RA}{L} = \frac{(77.7 \text{ Ω})(7.854 \times 10^{-9} \text{ m}^{2})}{25.0 \text{ m}} = 2.44 \times 10^{-8} \text{ Ω}\cdot\text{m}$$
+</div>
+
+Comparing with [[Table 1]](#Table1), this resistivity matches **gold** ($$\rho = 2.44 \times 10^{-8}$$ Ω·m).
+
+**(b)** Using the temperature coefficient for gold ($$\alpha = 3.4 \times 10^{-3}$$ /ºC from [[Table 2]](#Table2)):
+
+<div class="equation">
+$$\Delta T = 150 \text{ ºC} - 20.0 \text{ ºC} = 130 \text{ ºC}$$
+</div>
+
+<div class="equation">
+$$R = R_{0}(1 + \alpha \Delta T) = 77.7 \text{ Ω} \left[1 + (3.4 \times 10^{-3} \text{ /ºC})(130 \text{ ºC})\right]$$
+</div>
+
+<div class="equation">
+$$R = 77.7 \text{ Ω} (1 + 0.442) = 77.7 \text{ Ω} (1.442) = 112 \text{ Ω}$$
+</div>
+
+**Discussion**
+
+The very thin wire (0.100 mm diameter) combined with a 25-meter length and relatively high resistance indicates a material with moderate resistivity. Gold is used for this type of wire in specialized applications requiring corrosion resistance and reliability, such as in aerospace and medical equipment. The 44% increase in resistance when heated to 150°C is significant and must be accounted for in precision circuits that operate over wide temperature ranges.
+
+(a) The wire is made of gold. (b) At 150°C, its resistance is 112 Ω.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -608,6 +784,44 @@ Assuming a constant temperature coefficient of resistivity, what is the maximum 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A wire is drawn through a die, stretching it to four times its original length. By what factor does its resistance increase?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+When a wire is drawn (stretched), its volume remains constant (assuming the material is incompressible). If the length increases by a factor of 4, the cross-sectional area must decrease proportionally. We use $$R = \frac{\rho L}{A}$$ to find the new resistance.
+
+**Solution**
+
+Let the original length be $$L$$ and original area be $$A$$. The original resistance is:
+
+<div class="equation">
+$$R_{0} = \frac{\rho L}{A}$$
+</div>
+
+The volume is conserved during stretching:
+
+<div class="equation">
+$$V = LA = L'A'$$
+</div>
+
+With the new length $$L' = 4L$$:
+
+<div class="equation">
+$$LA = (4L)A' \implies A' = \frac{A}{4}$$
+</div>
+
+The new resistance is:
+
+<div class="equation">
+$$R' = \frac{\rho L'}{A'} = \frac{\rho (4L)}{A/4} = \frac{16 \rho L}{A} = 16 R_{0}$$
+</div>
+
+**Discussion**
+
+The resistance increases by a factor of 16 when the wire is stretched to four times its original length. This dramatic increase occurs because resistance depends on both length and area—the length increases by a factor of 4 (increasing resistance) while the area decreases by a factor of 4 (also increasing resistance), giving a combined factor of $$4 \times 4 = 16$$. In general, stretching a wire by a factor of $$n$$ increases its resistance by a factor of $$n^{2}$$. This principle is important in wire manufacturing and explains why thin wires have much higher resistance than thick ones of the same material and length.
+
+The resistance increases by a factor of 16.
 
 </div>
 </div>
@@ -627,9 +841,55 @@ A copper wire has a resistance of  $$ 0.500 \Omega  $$
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) Digital medical thermometers determine temperature by measuring the resistance of a semiconductor device called a thermistor (which has  $$\alpha = - 0.0600/\text{ºC} $$ ) 
-when it is at the same temperature as the patient. What is a patient’s temperature if the thermistor’s resistance at that temperature is 82.0% of its value at  $$ 37.0\text{ºC} $$
- (normal body temperature)? (b) The negative value for  $$\alpha  $$ may not be maintained for very low temperatures. Discuss why and whether this is the case here. (Hint: Resistance can’t become negative.)
+(a) Digital medical thermometers determine temperature by measuring the resistance of a semiconductor device called a thermistor (which has  $$\alpha = - 0.0600/\text{ºC} $$ )
+when it is at the same temperature as the patient. What is a patient's temperature if the thermistor's resistance at that temperature is 82.0% of its value at  $$ 37.0\text{ºC} $$
+ (normal body temperature)? (b) The negative value for  $$\alpha  $$ may not be maintained for very low temperatures. Discuss why and whether this is the case here. (Hint: Resistance can't become negative.)
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For part (a), we use $$R = R_{0}(1 + \alpha \Delta T)$$ where $$R_{0}$$ is the resistance at 37.0°C (the reference temperature) and $$R = 0.820 R_{0}$$. Note that $$\Delta T = T - 37.0$$ where $$T$$ is the unknown patient temperature. For part (b), we analyze when the linear model breaks down.
+
+**Solution**
+
+**(a)** Set up the equation with $$R = 0.820 R_{0}$$:
+
+<div class="equation">
+$$0.820 R_{0} = R_{0}(1 + \alpha \Delta T)$$
+</div>
+
+<div class="equation">
+$$0.820 = 1 + (-0.0600 \text{ /ºC})(\Delta T)$$
+</div>
+
+<div class="equation">
+$$-0.180 = -0.0600 \text{ /ºC} \times \Delta T$$
+</div>
+
+<div class="equation">
+$$\Delta T = \frac{-0.180}{-0.0600 \text{ /ºC}} = 3.00 \text{ ºC}$$
+</div>
+
+The patient's temperature is:
+
+<div class="equation">
+$$T = 37.0 \text{ ºC} + 3.00 \text{ ºC} = 40.0 \text{ ºC}$$
+</div>
+
+**(b)** The negative temperature coefficient means resistance decreases as temperature increases. However, the linear model $$R = R_{0}(1 + \alpha \Delta T)$$ would predict zero resistance when $$1 + \alpha \Delta T = 0$$, which occurs at:
+
+<div class="equation">
+$$\Delta T = \frac{-1}{\alpha} = \frac{-1}{-0.0600} = 16.7 \text{ ºC}$$
+</div>
+
+This corresponds to $$T = 37.0 + 16.7 = 53.7$$ ºC above the reference, meaning at about 53.7°C the model would predict zero resistance, and below that temperature (going to even higher temperatures) negative resistance—which is physically impossible. However, in part (a), we found the patient is at 40.0°C, which is only 3°C above 37°C—well within the valid range of the linear model. For the expected range of human body temperatures (roughly 35-42°C), the linear approximation is acceptable.
+
+**Discussion**
+
+A temperature of 40.0°C (104°F) indicates a significant fever and would warrant medical attention. The thermistor's decreasing resistance with increasing temperature makes sense for semiconductors, where thermal energy frees more charge carriers. The 18% decrease in resistance for a 3°C temperature rise shows the high sensitivity of thermistors, which is why they are excellent for precise temperature measurements. Medical thermometers typically operate within a narrow temperature range where the linear approximation remains valid.
+
+(a) The patient's temperature is 40.0°C (indicating a fever). (b) The linear model remains valid for this temperature since it is only 3°C above the reference temperature, well within the practical operating range.
 
 </div>
 </div>
@@ -661,6 +921,50 @@ the tungsten filament. You may assume a thermal expansion coefficient of $$12
 its resistance, assuming a constant temperature coefficient of resistivity? (b)
 To cut it in half? (c) What is unreasonable about these results? (d) Which
 assumptions are unreasonable, or which premises are inconsistent?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We apply $$R = R_{0}(1 + \alpha \Delta T)$$ with the temperature coefficient for constantan ($$\alpha = 0.002 \times 10^{-3}$$ /ºC from [[Table 2]](#Table2)). For doubling, $$R = 2R_{0}$$; for halving, $$R = 0.5R_{0}$$.
+
+**Solution**
+
+**(a)** To double the resistance ($$R = 2R_{0}$$):
+
+<div class="equation">
+$$2 = 1 + \alpha \Delta T$$
+</div>
+
+<div class="equation">
+$$\Delta T = \frac{1}{\alpha} = \frac{1}{0.002 \times 10^{-3} \text{ /ºC}} = \frac{1}{2 \times 10^{-6} \text{ /ºC}} = 5.0 \times 10^{5} \text{ ºC}$$
+</div>
+
+Starting from 20°C: $$T = 20 + 500\,000 = 500\,020$$ ºC
+
+**(b)** To halve the resistance ($$R = 0.5R_{0}$$):
+
+<div class="equation">
+$$0.5 = 1 + \alpha \Delta T$$
+</div>
+
+<div class="equation">
+$$\Delta T = \frac{-0.5}{\alpha} = \frac{-0.5}{2 \times 10^{-6} \text{ /ºC}} = -2.5 \times 10^{5} \text{ ºC}$$
+</div>
+
+Starting from 20°C: $$T = 20 - 250\,000 = -249\,980$$ ºC
+
+**(c)** Both results are unreasonable:
+- To double the resistance would require heating to 500,020°C, which is approximately 90 times hotter than the surface of the Sun (about 5,500°C). Constantan would vaporize long before reaching such temperatures—its melting point is around 1,220°C.
+- To halve the resistance would require cooling to -249,980°C, which is about 250,000 degrees below absolute zero (-273.15°C). This is physically impossible since absolute zero is the lowest possible temperature.
+
+**(d)** The unreasonable assumption is that the temperature coefficient of resistivity $$\alpha$$ remains constant over such extreme temperature ranges. The linear model $$R = R_{0}(1 + \alpha \Delta T)$$ is only valid for relatively small temperature changes (typically less than 100°C). For large temperature changes, the relationship between resistance and temperature becomes nonlinear, $$\alpha$$ itself changes with temperature, and at extreme temperatures, phase changes occur (melting, vaporization). Additionally, the premise of trying to significantly change constantan's resistance through temperature is fundamentally misguided—constantan is specifically designed and named for its nearly constant resistance over a wide temperature range.
+
+**Discussion**
+
+This problem illustrates why constantan and similar alloys (like Manganin) are valuable for precision resistors. Their extremely small temperature coefficients make their resistance nearly independent of temperature within normal operating ranges. Trying to double or halve their resistance through temperature change alone is essentially impossible under any realistic conditions.
+
+(a) 500,020°C; (b) -249,980°C; (c) These temperatures are impossibly high and below absolute zero, respectively; (d) The assumption of constant $$\alpha$$ over extreme temperature ranges is invalid, and the linear model breaks down completely outside normal temperature ranges.
 
 </div>
 </div>
