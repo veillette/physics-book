@@ -271,7 +271,25 @@ minute assuming a constant time between beats.
 
 </div>
 <div class="solution" markdown="1">
-80 beats/minute
+**Strategy**
+
+This is an integrated concepts problem connecting electrical signals (ECG) with biological function (heart rate). To find heart rate:
+1. Measure the time interval between successive heartbeats from Figure 8 (one complete cardiac cycle, from one R-peak to the next)
+2. Convert period to frequency in beats per minute
+
+**Solution**
+
+From Figure 8, examining the ECG trace, one complete cardiac cycle (from one QRS complex to the next, typically measured R-peak to R-peak) spans approximately 0.75 seconds.
+
+<div class="equation">
+$$\text{Heart rate} = \frac{1 \text{ beat}}{T} = \frac{1 \text{ beat}}{0.75 \text{ s}} \times \frac{60 \text{ s}}{1 \text{ min}} = 80 \text{ beats/min}$$
+</div>
+
+**Discussion**
+
+A heart rate of 80 beats per minute is within the normal resting range for adults (60-100 beats/min). The ECG provides precise timing because the electrical signals are sharp, particularly the R-peak of the QRS complex. This is why heart rate monitors typically detect the R-wave—it's the largest, most distinct feature of the ECG waveform. In clinical settings, the R-R interval is often measured over multiple beats and averaged to account for normal heart rate variability.
+
+The heart rate is approximately 80 beats per minute.
 
 </div>
 </div>
@@ -282,6 +300,53 @@ minute assuming a constant time between beats.
 
 (a) Referring to [[Figure 8]](#Figure8), find the time systolic pressure lags
 behind the middle of the QRS complex. (b) Discuss the reasons for the time lag.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+This integrated concepts problem connects electrical physiology (ECG) with fluid mechanics (blood pressure).
+
+(a) Measure the time difference between the middle of the QRS complex and the peak systolic pressure from Figure 8.
+
+(b) Consider the physiological processes that must occur between electrical depolarization and maximum arterial pressure.
+
+**Solution for (a)**
+
+From Figure 8, the middle of the QRS complex occurs at approximately 0.15 s on the time scale shown. The peak systolic blood pressure (approximately 120 mmHg) occurs at about 0.30 s.
+
+<div class="equation">
+$$\Delta t = t_{\text{systolic}} - t_{\text{QRS}} = 0.30 \text{ s} - 0.15 \text{ s} = 0.15 \text{ s}$$
+</div>
+
+The time lag is approximately **0.15 seconds** (150 ms).
+
+**Solution for (b)**
+
+Several physiological processes account for this time lag:
+
+1. **Electromechanical coupling delay (~10-50 ms)**: After the electrical depolarization (QRS), calcium ions must enter cardiac muscle cells and trigger the contractile proteins (actin and myosin) to begin generating force. This chemical cascade takes time.
+
+2. **Isovolumetric contraction phase (~50 ms)**: The ventricles begin contracting but the aortic and pulmonary valves remain closed until ventricular pressure exceeds arterial pressure. During this phase, the heart builds pressure without ejecting blood.
+
+3. **Pressure wave propagation**: Once the aortic valve opens and blood is ejected, the pressure wave travels through the arterial system. The time for this wave to reach peripheral arteries (where measurements are often taken) adds a small delay. In Figure 8, the measurement appears to be at the aorta, minimizing this component.
+
+4. **Inertia of blood**: The blood, being a real fluid with mass, cannot instantaneously accelerate. It takes time for the ventricular contraction to overcome the inertia of the blood column.
+
+**Discussion**
+
+The 150-ms delay between electrical activation and peak mechanical output is remarkably consistent and clinically important. Abnormally long delays can indicate:
+- Cardiomyopathy (weakened heart muscle)
+- Conduction abnormalities
+- Heart failure
+
+Abnormally short delays might suggest:
+- Hypertension (already high arterial pressure)
+- Stiff arterial walls
+
+This electromechanical delay is why the heart's pumping function cannot be assessed by ECG alone—echocardiography or pressure measurements provide complementary mechanical information.
+
+(a) The systolic pressure lags behind the QRS complex by approximately 0.15 seconds (150 ms). (b) This delay results from electromechanical coupling time, isovolumetric contraction, pressure wave propagation, and blood inertia.
 
 </div>
 </div>
