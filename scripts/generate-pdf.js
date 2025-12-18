@@ -304,7 +304,7 @@ async function generateCombinedChapterPdf(browser, chapter) {
   for (let i = 0; i < urls.length; i++) {
     console.log(`  Loading: ${urls[i]}`);
     try {
-      await page.goto(urls[i], { waitUntil: 'networkidle', timeout: 60000 });
+      await page.goto(urls[i], { waitUntil: 'networkidle', timeout: 200000 });
       await waitForMathJax(page);
 
       const content = await page.evaluate(() => {
