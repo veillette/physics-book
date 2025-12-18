@@ -40,8 +40,8 @@ hand, the center of gravity of the hand is shown where the weight of the
 hand acts. The midpoint of the front face of the book is its center of 
 gravity, where its weight acts downward. A free body diagram is also shown 
 and the distances of the three forces F-B, C-G of arm, and C-G of book from 
-the pivot are shown as r one, r two and r three.](../resources/Figure_09_06_01.jpg "(a) The figure shows the forearm of a 
-person holding a book. The biceps exert a force \( F_B \) to support the 
+the pivot are shown as r one, r two and r three.](../resources/Figure_09_06_01.jpg "(a) The figure shows the forearm of a
+person holding a book. The biceps exert a force \( F_B \) to support the
 weight of the forearm and the book. The triceps are assumed to be relaxed. (b) Here, you can view an approximately equivalent mechanical system with the pivot at the elbow joint as seen in <a href="#example1">Example 1</a>.")
 {: #Figure1}
 
@@ -54,14 +54,14 @@ Calculate the force the biceps muscle must exert to hold the forearm and its loa
 **Strategy**
 
 There are four forces acting on the forearm and its load (the system of
-interest). The magnitude of the force of the biceps is $$ F_{\text{B}} $$; that
-of the elbow joint is $$ F_{\text{E}} $$; that of the weights of the forearm is
-$$ w_{\text{a}} $$, and its load is $$ w_{\text{b}} $$. Two of these are
-unknown ( $$ F_{\text{B}} $$ and $$ F_{\text{E}} $$), so that the first
-condition for equilibrium cannot by itself yield $$ F_
+interest). The magnitude of the force of the biceps is $$ F*{\text{B}} $$; that
+of the elbow joint is $$ F*{\text{E}} $$; that of the weights of the forearm is
+$$ w*{\text{a}} $$, and its load is $$ w*{\text{b}} $$. Two of these are
+unknown ( $$ F*{\text{B}} $$ and $$ F*{\text{E}} $$), so that the first
+condition for equilibrium cannot by itself yield $$ F*
 {\text{B}} $$. But if we use the second condition and choose the pivot to be at
-the elbow, then the torque due to $$ F_{\text{E}} $$ is zero, and the only
-unknown becomes $$ F_{\text{B}} $$.
+the elbow, then the torque due to $$ F*{\text{E}} $$ is zero, and the only
+unknown becomes $$ F\_{\text{B}} $$.
 
 **Solution**
 
@@ -112,9 +112,9 @@ the biceps muscle can exert depends upon its length; it is smaller when it is
 shorter than when it is stretched.
 
 Very large forces are also created in the joints. In the previous example, the
-downward force $$ F_{\text{E}} $$ exerted by the humerus at the elbow joint
+downward force $$ F*{\text{E}} $$ exerted by the humerus at the elbow joint
 equals 407 N, or 6.38 times the total weight supported. (The calculation of $$
-F_{\text{E}} $$ is straightforward and is left as an end-of-chapter problem.)
+F*{\text{E}} $$ is straightforward and is left as an end-of-chapter problem.)
 Because muscles can contract, but not expand beyond their resting length, joints
 and muscles often exert forces that act in opposite directions and thus
 subtract. (In the above example, the upward force of the muscle minus the
@@ -150,8 +150,8 @@ athletes, such as weightlifters, can tear muscles and connecting tissue through
 effort alone.
 
 The back is considerably more complicated than the arm or leg, with various
-muscles and joints between vertebrae, all having mechanical advantages 
-one. Back muscles must, therefore, exert very large forces, which are borne 
+muscles and joints between vertebrae, all having mechanical advantages
+one. Back muscles must, therefore, exert very large forces, which are borne
 by the spinal column. Discs crushed by mere exertion are very common. The jaw is
 somewhat exceptional—the masseter muscles that close the jaw have a
 mechanical advantage greater than 1 for the back teeth, allowing us to exert
@@ -182,7 +182,7 @@ in equilibrium. We lean forward for the same reason when carrying a load on our
 backs, to the side when carrying a load in one arm, and backward when carrying a
 load in front of us, as seen in [Figure 3](#Figure3).
 
-![In part a of the figure, a side view of a girl standing on a surface is shown. The weight of the girl is acting vertically downward and is in the line with her hips. A point above her legs is marked as the pivot point. The weight vector is in the direction of the pivot. In part b, a side view of a girl standing on a surface is shown. The girl is bending slightly toward her front. The weight of her upper body is acting downward and the line of action of weight is not passing through the upper body pivot point.](../resources/Figure_09_06_02.jpg "(a) Good posture places the upper body&#x2019;s cg over the pivots in the hips, eliminating the need for muscle action to balance the body. (b) Poor posture requires exertion by the back muscles to counteract the clockwise torque produced around the pivot by the upper body&#x2019;s weight. The back muscles have a small effective perpendicular lever arm, \( r_b \), and must therefore exert a large force \( F_b \) . Note that the legs lean backward to keep the cg of the entire body above the base of support in the feet.")
+![In part a of the figure, a side view of a girl standing on a surface is shown. The weight of the girl is acting vertically downward and is in the line with her hips. A point above her legs is marked as the pivot point. The weight vector is in the direction of the pivot. In part b, a side view of a girl standing on a surface is shown. The girl is bending slightly toward her front. The weight of her upper body is acting downward and the line of action of weight is not passing through the upper body pivot point.](../resources/Figure_09_06_02.jpg '(a) Good posture places the upper body’s cg over the pivots in the hips, eliminating the need for muscle action to balance the body. (b) Poor posture requires exertion by the back muscles to counteract the clockwise torque produced around the pivot by the upper body’s weight. The back muscles have a small effective perpendicular lever arm, ( r_b ), and must therefore exert a large force ( F_b ) . Note that the legs lean backward to keep the cg of the entire body above the base of support in the feet.')
 {: #Figure2}
 
 You have probably been warned against lifting objects with your back. This
@@ -190,9 +190,9 @@ action, even more than bad posture, can cause muscle strain and damage discs and
 vertebrae, since abnormally large forces are created in the back muscles and
 spine.
 
-![In image a, a man with a child on his shoulders is shown in which the child is holding the head of the man. The center of gravity is marked at the center of his body. In image b, a man with a long bag on his left shoulder and leaning toward the right is shown. The center of gravity is marked at the center of his body slightly left of the middle. In image c, a lady walking toward the right is shown. She is holding books in her hands. The center of gravity is marked at the center of her body above her legs.](../resources/Figure_09_06_03.jpg "People adjust their stance to maintain balance. (a) A father carrying his son piggyback leans forward to position their overall cg above the base of support at his feet.
+![In image a, a man with a child on his shoulders is shown in which the child is holding the head of the man. The center of gravity is marked at the center of his body. In image b, a man with a long bag on his left shoulder and leaning toward the right is shown. The center of gravity is marked at the center of his body slightly left of the middle. In image c, a lady walking toward the right is shown. She is holding books in her hands. The center of gravity is marked at the center of her body above her legs.](../resources/Figure_09_06_03.jpg 'People adjust their stance to maintain balance. (a) A father carrying his son piggyback leans forward to position their overall cg above the base of support at his feet.
 (b) A student carrying a shoulder bag leans to the side to keep the overall cg over his feet.
-(c) Another student carrying a load of books in her arms leans backward for the same reason.")
+(c) Another student carrying a load of books in her arms leans backward for the same reason.')
 {: #Figure3}
 
 <div class="example" id="example2" markdown="1">
@@ -212,8 +212,8 @@ in the figure may be taken to be accurate to three significant figures.
 
 By now, we sense that the second condition for equilibrium is a good place to
 start, and inspection of the known values confirms that it can be used to solve
-for $$ F_{\text{B}}– $$ if the pivot is chosen to be at the hips. The torques
-created by $$ \vb{w}_{\text{ub}} $$ and $$ \vb{w}_
+for $$ F*{\text{B}}– $$ if the pivot is chosen to be at the hips. The torques
+created by $$ \vb{w}*{\text{ub}} $$ and $$ \vb{w}_
 {\text{box}}– $$ are clockwise, while that created by $$ \vb{F}_
 {\text{B}}– $$ is counterclockwise.
 
@@ -330,11 +330,11 @@ torque in the body—a few of these are the subject of end-of-chapter problems.
 
 ### Section Summary
 
-* Statics plays an important part in understanding everyday strains in our
+- Statics plays an important part in understanding everyday strains in our
   muscles and bones.
-* Many lever systems in the body have a mechanical advantage of significantly
+- Many lever systems in the body have a mechanical advantage of significantly
   less than one, as many of our muscles are attached close to joints.
-* Someone with good posture stands or sits in such a way that the person\'s
+- Someone with good posture stands or sits in such a way that the person\'s
   center of gravity lies directly above the pivot point in the hips, thereby
   avoiding back strain and damage to disks.
 
@@ -354,11 +354,12 @@ We analyze the lever systems in the body, noting that muscles attach close to jo
 
 The forces exerted on the outside world are smaller than muscle forces because **muscles attach very close to joints**, giving most body lever systems a mechanical advantage much less than 1.
 
-From the lever equation: $$ F_{\text{out}} \cdot l_{\text{out}} = F_{\text{muscle}} \cdot l_{\text{muscle}} $$
+From the lever equation: $$ F*{\text{out}} \cdot l*{\text{out}} = F*{\text{muscle}} \cdot l*{\text{muscle}} $$
 
-Since $$ l_{\text{muscle}} << l_{\text{out}} $$, we have $$ F_{\text{muscle}} >> F_{\text{out}} $$.
+Since $$ l*{\text{muscle}} << l*{\text{out}} $$, we have $$ F*{\text{muscle}} >> F*{\text{out}} $$.
 
 For example, in the forearm ([Figure 1](#Figure1)):
+
 - Biceps attaches 4.0 cm from the elbow
 - Hand is 38 cm from the elbow
 - MA = 4.0/38 = 0.105
@@ -367,6 +368,7 @@ For example, in the forearm ([Figure 1](#Figure1)):
 **Discussion**
 
 This arrangement trades force for speed and range of motion. A small muscle contraction produces large, fast movements at the extremities—essential for activities requiring dexterity and quick responses.
+
 </div>
 </div>
 
@@ -385,14 +387,15 @@ We apply force equilibrium to analyze joint forces, recognizing that joints must
 Joint forces are large because **joints must counterbalance the large muscle forces** that arise from the MA < 1 lever systems.
 
 From force equilibrium in the forearm example:
-$$ F_{\text{biceps}} = F_{\text{joint}} + W_{\text{load}} $$
+$$ F*{\text{biceps}} = F*{\text{joint}} + W\_{\text{load}} $$
 
-Since $$ F_{\text{biceps}} >> W_{\text{load}} $$, the joint force must be:
-$$ F_{\text{joint}} = F_{\text{biceps}} - W_{\text{load}} $$
+Since $$ F*{\text{biceps}} >> W*{\text{load}} $$, the joint force must be:
+$$ F*{\text{joint}} = F*{\text{biceps}} - W\_{\text{load}} $$
 
 **Can joint forces exceed muscle forces?** Yes! This happens when the geometry causes muscle forces and external loads to have components in the same direction relative to the joint.
 
 In the back-lifting example ([Figure 4](#Figure4)):
+
 - Back muscle force: $$ F_B = 4200 \N $$
 - Vertebral force: $$ F_V = 4660 \N $$ (larger!)
 
@@ -401,6 +404,7 @@ This occurs because both the muscle force and load components add when resolved 
 **Discussion**
 
 This explains the prevalence of joint problems (arthritis, disc damage). The forces are enormous—often 5-10 times body weight in the spine during improper lifting.
+
 </div>
 </div>
 
@@ -419,19 +423,21 @@ We apply the principle that for stable balance, the center of gravity must be po
 Bipedal dinosaurs with long necks needed long tails to **maintain their center of gravity over their feet**.
 
 The physics:
+
 1. A long neck extending forward moves the creature's center of gravity (cg) forward
 2. Without compensation, the cg would be in front of the feet, causing the dinosaur to tip forward
 3. A long, heavy tail extending backward shifts the cg back toward the feet
 4. The tail acts as a counterbalance, keeping the overall cg positioned above the base of support
 
 Mathematically, for torque balance about the hips:
-$$ m_{\text{neck}} \cdot d_{\text{neck}} \approx m_{\text{tail}} \cdot d_{\text{tail}} $$
+$$ m*{\text{neck}} \cdot d*{\text{neck}} \approx m*{\text{tail}} \cdot d*{\text{tail}} $$
 
 where $$ d $$ represents the horizontal distance of each mass from the hip pivot.
 
 **Discussion**
 
 This is the same principle humans use when carrying heavy loads—we lean backward when carrying a backpack or forward when carrying something in front. Bipedal dinosaurs like T. rex, with their massive heads, had correspondingly massive, muscular tails. This counterbalancing also allowed dynamic stability during running and turning.
+
 </div>
 </div>
 
@@ -464,6 +470,7 @@ For swimmers, the dive angle and entry position also minimize water resistance a
 **Discussion**
 
 A false start penalty exists because an athlete in this optimized unstable position might anticipate the start signal. The physics of the starting posture provides a significant competitive advantage—fractions of a second gained at the start can determine the outcome of a race.
+
 </div>
 </div>
 
@@ -483,21 +490,22 @@ We apply the mechanical advantage analysis of the forearm system, recognizing th
 
 From [Figure 1](#Figure1), the forearm's mechanical advantage is approximately:
 
-$$ \text{MA} = \frac{l_{\text{biceps}}}{l_{\text{hand}}} = \frac{4.0 \text{ cm}}{38 \text{ cm}} \approx 0.105 $$
+$$ \text{MA} = \frac{l*{\text{biceps}}}{l*{\text{hand}}} = \frac{4.0 \text{ cm}}{38 \text{ cm}} \approx 0.105 $$
 
 This means:
-$$ F_{\text{output}} = \text{MA} \times F_{\text{input}} = 0.105 \times 1000 \N \approx 105 \N $$
+$$ F*{\text{output}} = \text{MA} \times F*{\text{input}} = 0.105 \times 1000 \N \approx 105 \N $$
 
 A biceps force of 1000 N can only lift about **105 N** (approximately 10.7 kg) at the hand!
 
 To lift 1000 N at the hand, we would need:
-$$ F_{\text{biceps}} = \frac{1000 \N}{0.105} \approx 9500 \N $$
+$$ F\_{\text{biceps}} = \frac{1000 \N}{0.105} \approx 9500 \N $$
 
 The biceps would need to exert nearly 9500 N—far more than its maximum capacity.
 
 **Discussion**
 
 This illustrates why we can lift heavier objects by holding them close to our body (shorter lever arm for the load) or using two hands (distributing the load between multiple muscle systems). It also explains why athletes who lift very heavy weights use techniques that optimize mechanical advantage.
+
 </div>
 </div>
 
@@ -537,6 +545,7 @@ We compare the mechanical advantage and kinematic properties of the hypothetical
 **Discussion**
 
 Evolution has optimized our bodies for speed and precision rather than raw strength. We can use tools (levers, pulleys) to amplify force when needed, but no tool can make us move faster or with finer control—these capabilities must be built in.
+
 </div>
 </div>
 
@@ -555,20 +564,22 @@ We analyze how pregnancy shifts the center of gravity and requires postural comp
 Pregnant women suffer from back strain because **the growing fetus shifts the center of gravity forward**, requiring the back muscles to exert large forces to maintain balance.
 
 The physics:
+
 1. As pregnancy progresses, the uterus and fetus grow, adding mass to the front of the torso
 2. This shifts the body's center of gravity forward
 3. To keep the cg over the feet (necessary for balance), women must lean backward
 4. This creates a clockwise torque about the hips that must be countered by the back muscles
 
 From the posture diagram ([Figure 2](#Figure2)(b)):
-$$ \tau_{\text{forward mass}} = m_{\text{baby+uterus}} \cdot g \cdot d_{\text{forward}} $$
+$$ \tau*{\text{forward mass}} = m*{\text{baby+uterus}} \cdot g \cdot d\_{\text{forward}} $$
 
 This torque must be balanced by:
-$$ \tau_{\text{back muscles}} = F_{\text{back}} \cdot r_{\text{back}} $$
+$$ \tau*{\text{back muscles}} = F*{\text{back}} \cdot r\_{\text{back}} $$
 
-Since $$ r_{\text{back}} $$ (the perpendicular lever arm for back muscles) is very small, $$ F_{\text{back}} $$ must be very large.
+Since $$ r*{\text{back}} $$ (the perpendicular lever arm for back muscles) is very small, $$ F*{\text{back}} $$ must be very large.
 
 Additional factors:
+
 - Hormonal changes loosen ligaments, reducing spinal stability
 - The added weight increases the load on all spinal structures
 - The posture change is maintained for months, causing muscle fatigue
@@ -576,6 +587,7 @@ Additional factors:
 **Discussion**
 
 This is an example of the body's postural adjustments described in [Figure 3](#Figure3). Similar to carrying a heavy backpack (which requires leaning forward), pregnancy requires leaning backward. The difference is that the load cannot be set down, leading to chronic strain. Proper exercise, supportive footwear, and good body mechanics can help manage this strain.
+
 </div>
 </div>
 
@@ -609,7 +621,7 @@ F_{\text{E}}&=& w_{\text{a}}
 <div class="problem" markdown="1">
 Two muscles in the back of the leg pull on the Achilles tendon as shown in [Figure 5](#Figure5). What total force do they exert?
 
-![An Achilles tendon is shown in the figure. A vertical dotted line is shown at the middle of the top part. Two vectors inclined at twenty degree each with respect to the vertical dotted line are shown.](../resources/Figure_09_06_05.jpg "The Achilles tendon of the posterior leg serves to attach plantaris, gastrocnemius, and soleus muscles to calcaneus bone.")
+![An Achilles tendon is shown in the figure. A vertical dotted line is shown at the middle of the top part. Two vectors inclined at twenty degree each with respect to the vertical dotted line are shown.](../resources/Figure_09_06_05.jpg 'The Achilles tendon of the posterior leg serves to attach plantaris, gastrocnemius, and soleus muscles to calcaneus bone.')
 {: #Figure5}
 
 </div>
@@ -623,12 +635,14 @@ The two muscles pull on the Achilles tendon at equal angles of 20° from the ver
 From [Figure 5](#Figure5), each muscle exerts 200 N at an angle of 20° from vertical.
 
 For the left muscle (force at -20° from vertical):
-- Vertical component: $$ F_{y,L} = (200 \N)\cos{20°} = (200)(0.940) = 188 \N $$
-- Horizontal component: $$ F_{x,L} = -(200 \N)\sin{20°} = -(200)(0.342) = -68.4 \N $$ (leftward)
+
+- Vertical component: $$ F\_{y,L} = (200 \N)\cos{20°} = (200)(0.940) = 188 \N $$
+- Horizontal component: $$ F\_{x,L} = -(200 \N)\sin{20°} = -(200)(0.342) = -68.4 \N $$ (leftward)
 
 For the right muscle (force at +20° from vertical):
-- Vertical component: $$ F_{y,R} = (200 \N)\cos{20°} = 188 \N $$
-- Horizontal component: $$ F_{x,R} = +(200 \N)\sin{20°} = +68.4 \N $$ (rightward)
+
+- Vertical component: $$ F\_{y,R} = (200 \N)\cos{20°} = 188 \N $$
+- Horizontal component: $$ F\_{x,R} = +(200 \N)\sin{20°} = +68.4 \N $$ (rightward)
 
 Adding the components:
 
@@ -651,6 +665,7 @@ The total force is **376 N** directed vertically downward (along the tendon).
 **Discussion**
 
 The total force (376 N) is less than the simple sum of the two muscle forces (400 N) because the muscles pull at angles. The horizontal components cancel, and only the vertical components add. This is a common arrangement in the body—muscles often pull at angles to provide stability and multiple directions of motion, at the cost of some mechanical efficiency.
+
 </div>
 </div>
 
@@ -658,7 +673,7 @@ The total force (376 N) is less than the simple sum of the two muscle forces (40
 <div class="problem" markdown="1">
 The upper leg muscle (quadriceps) exerts a force of 1250 N, which is carried by a tendon over the kneecap (the patella) at the angles shown in [Figure 6](#Figure6). Find the direction and magnitude of the force exerted by the kneecap on the upper leg bone (the femur).
 
-![The figure shows a side view of the bones of a knee and the quadriceps muscle. The upper bone is inclined at fifty five degrees to the horizontal and the tension exerted by the quadriceps muscle is one thousand two hundred and fifty newtons. The tendon from the knee cap to the lower bone is inclined at seventy five degrees below the horizontal. The force in this direction is the same as that provided by the quadriceps.](../resources/Figure_09_06_06.jpg "The knee joint works like a hinge to bend and straighten the lower leg. It permits a person to sit, stand, and pivot.")
+![The figure shows a side view of the bones of a knee and the quadriceps muscle. The upper bone is inclined at fifty five degrees to the horizontal and the tension exerted by the quadriceps muscle is one thousand two hundred and fifty newtons. The tendon from the knee cap to the lower bone is inclined at seventy five degrees below the horizontal. The force in this direction is the same as that provided by the quadriceps.](../resources/Figure_09_06_06.jpg 'The knee joint works like a hinge to bend and straighten the lower leg. It permits a person to sit, stand, and pivot.')
 {: #Figure6}
 
 </div>
@@ -677,7 +692,7 @@ A device for exercising the upper leg muscle is shown in [Figure 7](#Figure7), t
 Calculate the force exerted by the upper leg muscle to lift the mass at a constant speed. Explicitly show how you follow the steps in the Problem-Solving Strategy for static equilibrium
 in [Applications of Statics, Including Problem-Solving Strategies](./ch9ApplicationsOfStaticsIncludingProblemSolvingStrategies).
 
-![A machine for leg exercise is shown. A wire is tied to a cuff around the lower part of a leg. This wire passes over three pulleys and is connected to a ten kg weight. The tension in the wire is shown near the leg in the direction of the wire. On the leg, a point on knee is shown as the pivot. The distance between the pivot and the point where the wire is tied to the leg is thirty five centimeters. A free-body diagram of the leg, represented as a pole, is shown.](../resources/Figure_09_06_07.jpg "A mass is connected by pulleys and wires to the ankle in this exercise device. ")
+![A machine for leg exercise is shown. A wire is tied to a cuff around the lower part of a leg. This wire passes over three pulleys and is connected to a ten kg weight. The tension in the wire is shown near the leg in the direction of the wire. On the leg, a point on knee is shown as the pivot. The distance between the pivot and the point where the wire is tied to the leg is thirty five centimeters. A free-body diagram of the leg, represented as a pole, is shown.](../resources/Figure_09_06_07.jpg 'A mass is connected by pulleys and wires to the ankle in this exercise device. ')
 {: #Figure7}
 
 </div>
@@ -687,21 +702,24 @@ in [Applications of Statics, Including Problem-Solving Strategies](./ch9Applicat
 **Step 1: Identify the system of interest and draw a free-body diagram**
 
 The system is the lower leg. Forces acting on it:
-- $$ F_{\text{quad}} $$ = force exerted by quadriceps muscle (at angle, attached close to knee)
+
+- $$ F\_{\text{quad}} $$ = force exerted by quadriceps muscle (at angle, attached close to knee)
 - $$ T $$ = tension from the weight machine (at the ankle, 35 cm from knee)
-- $$ W_{\text{leg}} $$ = weight of lower leg (at center of mass, approximately 20 cm from knee)
-- $$ F_{\text{joint}} $$ = force from knee joint (at the pivot)
+- $$ W\_{\text{leg}} $$ = weight of lower leg (at center of mass, approximately 20 cm from knee)
+- $$ F\_{\text{joint}} $$ = force from knee joint (at the pivot)
 
 From the figure:
+
 - The quadriceps attaches 3.0 cm from the knee joint at approximately 30° to the leg
 - The wire attaches at 35 cm from the knee
 - Mass attached: 10 kg, so $$ T = mg = (10 \kg)(9.80 \mss) = 98 \N $$
 
 **Step 2: Apply the second condition for equilibrium (net torque = 0)**
 
-Choose the knee joint as the pivot to eliminate $$ F_{\text{joint}} $$ from the torque equation.
+Choose the knee joint as the pivot to eliminate $$ F\_{\text{joint}} $$ from the torque equation.
 
 Taking the perpendicular lever arms from the figure:
+
 - Lever arm for quadriceps force: $$ r_1 = 3.0 \text{ cm} \times \sin{30°} = 1.5 \text{ cm} = 0.015 \m $$
 - Lever arm for tension: $$ r_2 = 35 \text{ cm} = 0.35 \m $$
 
@@ -728,6 +746,7 @@ The quadriceps must exert about **2300 N** (about 23 times the 98 N load).
 **Discussion**
 
 This large force ratio (23:1) reflects the poor mechanical advantage of the quadriceps muscle system. The muscle attaches very close to the knee (3 cm × sin30° = 1.5 cm effective lever arm), while the load is at the ankle (35 cm lever arm). This is typical of skeletal muscle systems—they trade force for speed and range of motion. This exercise is effective precisely because it requires such large muscle forces, promoting muscle strengthening.
+
 </div>
 </div>
 
@@ -741,7 +760,7 @@ shown. The inclination of the head is theta to the horizontal and the center
 of gravity is near the top of the head. The weight of the head is fifty 
 newtons and is acting downward at the center of gravity. Three major forces 
 are shown. The force exerted along the neck is sixty newtons.](..
-/resources/Figure_09_06_08.webp "Muscles are providing tension to hold her 
+/resources/Figure_09_06_08.webp "Muscles are providing tension to hold her
 head in place.")
 {: #Figure8 height="275"}
 
@@ -769,6 +788,7 @@ When the arm angle changes from 90° to 120°, the geometry of the system change
 **Solution**
 
 From [Figure 1](#Figure1), at 90°:
+
 - Biceps attachment: $$ r_1 = 4.00 \text{ cm} $$
 - Forearm cg: $$ r_2 = 16.0 \text{ cm} $$
 - Book position: $$ r_3 = 38.0 \text{ cm} $$
@@ -778,11 +798,12 @@ From [Figure 1](#Figure1), at 90°:
 At 120° between forearm and upper arm (forearm pointing downward at 30° below horizontal):
 
 The weights still act vertically downward. The perpendicular lever arms (horizontal distances) become:
-- For weights: $$ r_{2,\perp} = r_2 \cos{30°} = 0.160 \m \times 0.866 = 0.139 \m $$
-- For weights: $$ r_{3,\perp} = r_3 \cos{30°} = 0.380 \m \times 0.866 = 0.329 \m $$
+
+- For weights: $$ r\_{2,\perp} = r_2 \cos{30°} = 0.160 \m \times 0.866 = 0.139 \m $$
+- For weights: $$ r\_{3,\perp} = r_3 \cos{30°} = 0.380 \m \times 0.866 = 0.329 \m $$
 
 The biceps force direction changes. When the forearm is at 120° from the upper arm, the biceps tendon makes approximately 30° with the forearm. The perpendicular component of the biceps force is:
-$$ F_{B,\perp} = F_B \sin{30°} = 0.5 F_B $$
+$$ F\_{B,\perp} = F_B \sin{30°} = 0.5 F_B $$
 
 And the effective lever arm remains $$ r_1 = 0.040 \m $$ (perpendicular distance to the line of action).
 
@@ -809,6 +830,7 @@ The biceps force at 120° is approximately **815 N** (or $$ 8.2 \times 10^{2} \N
 **Discussion**
 
 This is significantly larger than the 470 N required at 90°! The increase comes from two factors: (1) the biceps pulls at an angle to the forearm, reducing its effective lever arm, and (2) the weights' lever arms, while reduced by the cosine factor, still create substantial torque. This explains why holding a weight with the arm extended is more difficult than with the elbow bent at 90°.
+
 </div>
 </div>
 
@@ -818,7 +840,7 @@ Even when the head is held erect, as in [Figure 9](#Figure9), its center of mass
 (a) Calculate the force exerted by these muscles using the information in the figure.
 (b) What is the force exerted by the pivot on the head?
 
-![An erect head is shown. The weight of the head is fifty newtons. The center of gravity of the head lies in front of its support. The perpendicular distance between the support and the weight of the head is two point five centimeters. Between these forces, there is a point where a vertical force vector is shown. This force is marked as F sub J. At the back of the head, five point zero centimeters behind the support point, is a downward vector labeled F sub m.](../resources/Figure_09_06_09.jpg "The center of mass of the head lies in front of its major point of support, requiring muscle action to hold the head erect. A simplified lever system is shown. ")
+![An erect head is shown. The weight of the head is fifty newtons. The center of gravity of the head lies in front of its support. The perpendicular distance between the support and the weight of the head is two point five centimeters. Between these forces, there is a point where a vertical force vector is shown. This force is marked as F sub J. At the back of the head, five point zero centimeters behind the support point, is a downward vector labeled F sub m.](../resources/Figure_09_06_09.jpg 'The center of mass of the head lies in front of its major point of support, requiring muscle action to hold the head erect. A simplified lever system is shown. ')
 {: #Figure9}
 
 </div>
@@ -836,14 +858,14 @@ A 75-kg man stands on his toes by exerting an upward force through the Achilles 
 (a) What is the force in the Achilles tendon if he stands on one foot?
 (b) Calculate the force at the pivot of the simplified lever system shown—that force is representative of forces in the ankle joint.
 
-![A foot of a person is shown. The ankle is slightly above the ground. There is a force in F-A on the back part of ankle, which is in upward direction. The weight of the leg is downward. The normal reaction is acting at the front foot in upward direction. The perpendicular distance between the normal reaction and the force F-A is sixteen centimeters. There is a point between these two forces where a force F-P is shown, which acts as fulcrum of the simplified lever system.](../resources/Figure_09_06_10.jpg "The muscles in the back of the leg pull the Achilles tendon when one stands on one&#x2019;s toes. A simplified lever system is shown.")
+![A foot of a person is shown. The ankle is slightly above the ground. There is a force in F-A on the back part of ankle, which is in upward direction. The weight of the leg is downward. The normal reaction is acting at the front foot in upward direction. The perpendicular distance between the normal reaction and the force F-A is sixteen centimeters. There is a point between these two forces where a force F-P is shown, which acts as fulcrum of the simplified lever system.](../resources/Figure_09_06_10.jpg 'The muscles in the back of the leg pull the Achilles tendon when one stands on one’s toes. A simplified lever system is shown.')
 {: #Figure10}
 
 </div>
 <div class="solution" data-element-type="problem-exercises" markdown="1">
 (a) $$ F_{\text{A}}=2.21 \times 10^{3}\N $$ upward
 
-(b) $$ F_{\text{B}}=2.94\times 10^{3}\N $$ downward
+(b) $$ F\_{\text{B}}=2.94\times 10^{3}\N $$ downward
 
 </div>
 </div>
@@ -852,7 +874,7 @@ A 75-kg man stands on his toes by exerting an upward force through the Achilles 
 <div class="problem" markdown="1">
 A father lifts his child as shown in [Figure 11](#Figure11). What force should the upper leg muscle exert to lift the child at a constant speed?
 
-![A leg of a person is shown. On the foot, a child is sitting. The weight of the child is ten kilograms acting downward. The center of gravity of the leg is shown at the middle part of the lower leg. The knee is acting as the pivot. The mass of the leg is marked as four kilograms. The distance of the head of the child is thirty eight centimeters from the pivot and the perpendicular distance between the center of gravity of the leg and pivot is twenty centimeters.](../resources/Figure_09_06_11.jpg "A child being lifted by a father&#x2019;s lower leg.")
+![A leg of a person is shown. On the foot, a child is sitting. The weight of the child is ten kilograms acting downward. The center of gravity of the leg is shown at the middle part of the lower leg. The knee is acting as the pivot. The mass of the leg is marked as four kilograms. The distance of the head of the child is thirty eight centimeters from the pivot and the perpendicular distance between the center of gravity of the leg and pivot is twenty centimeters.](../resources/Figure_09_06_11.jpg 'A child being lifted by a father’s lower leg.')
 {: #Figure11}
 
 </div>
@@ -864,11 +886,13 @@ We apply the conditions for equilibrium (constant speed means equilibrium). The 
 **Solution**
 
 From [Figure 11](#Figure11):
+
 - Child's mass: $$ m_c = 10 \kg $$, at $$ r_c = 38 \text{ cm} = 0.38 \m $$ from knee
-- Leg mass: $$ m_{\text{leg}} = 4 \kg $$, at $$ r_{\text{leg}} = 20 \text{ cm} = 0.20 \m $$ from knee
+- Leg mass: $$ m*{\text{leg}} = 4 \kg $$, at $$ r*{\text{leg}} = 20 \text{ cm} = 0.20 \m $$ from knee
 - Quadriceps attachment: approximately $$ r_q = 2.5 \text{ cm} = 0.025 \m $$ from knee (typical value)
 
 Calculate the weights:
+
 <div class="equation">
 $$ W_c = m_c g = (10 \kg)(9.80 \mss) = 98 \N $$
 </div>
@@ -899,6 +923,7 @@ The quadriceps muscle must exert approximately **1800 N** (or $$ 1.8 \times 10^{
 **Discussion**
 
 This is an impressive force—about 18 times the child's weight and about 13 times the combined weight of the child and leg! This illustrates the extreme mechanical disadvantage of the quadriceps muscle, which attaches very close to the knee joint. The father's leg muscles routinely handle such forces, which explains why the quadriceps is one of the largest and strongest muscles in the human body. This exercise is fun for the child but quite a workout for the father!
+
 </div>
 </div>
 
@@ -909,14 +934,14 @@ is attached relatively far from the joint, enabling large forces to be exerted b
 (a) Using the information in the figure, calculate the force exerted by the lower teeth on the bullet.
 (b) Calculate the force on the joint.
 
-![The masseter muscles of a jaw of a man are shown. The force F sub M is equal to two hundred newtons and is acting on the muscle in upward direction and the force F sub J is acting to the left end of the muscle downward. The span of the muscle at upper part is five centimeters. At the joint of jaw, the reaction force is downward.](../resources/Figure_09_06_12.jpg "A person clenching a bullet between his teeth.")
+![The masseter muscles of a jaw of a man are shown. The force F sub M is equal to two hundred newtons and is acting on the muscle in upward direction and the force F sub J is acting to the left end of the muscle downward. The span of the muscle at upper part is five centimeters. At the joint of jaw, the reaction force is downward.](../resources/Figure_09_06_12.jpg 'A person clenching a bullet between his teeth.')
 {: #Figure12}
 
 </div>
 <div class="solution" data-element-type="problem-exercises" markdown="1">
 (a) $$ F_{\text{teeth on bullet}}=1.2\times 10^{2}\N $$ upward
 
-(b) $$ F_{ \J }=84 \N $$ downward
+(b) $$ F\_{ \J }=84 \N $$ downward
 
 </div>
 </div>
@@ -930,7 +955,7 @@ Suppose we replace the 4.0-kg book in [Figure 1](#Figure1) of the biceps muscle
 with an elastic exercise rope that obeys Hooke’s Law. Assume its force constant
 $$ k=600 \text{N/m} $$.
 (a) How much is the rope stretched (past equilibrium) to provide the same force
-$$ F_{\text{B}} $$ as in this example? Assume the rope is held in the hand at
+$$ F\_{\text{B}} $$ as in this example? Assume the rope is held in the hand at
 the same location as the book.
 (b) What force is on the biceps muscle if the exercise rope is pulled straight
 up so that the forearm makes an angle of $$ 25^\circ $$ with the horizontal?
@@ -946,7 +971,7 @@ Assume the biceps muscle is still perpendicular to the forearm.
 (c) How much work does she do if her center of mass rises 0.240 m?
 (d) What is her useful power output if she does 25 pushups in one minute?
 
-![A woman doing pushups is shown. The weight W of her body is acting at the middle point of the length of her body. Her palms are on the ground. The distance between the palm and the feet is one point five meters. The distance between the center of gravity and the feet is zero point nine meters. The normal reaction on her hands is acting upward.](../resources/Figure_09_06_13.jpg "A woman doing pushups.")
+![A woman doing pushups is shown. The weight W of her body is acting at the middle point of the length of her body. Her palms are on the ground. The distance between the palm and the feet is one point five meters. The distance between the center of gravity and the feet is zero point nine meters. The normal reaction on her hands is acting upward.](../resources/Figure_09_06_13.jpg 'A woman doing pushups.')
 {: #Figure13}
 
 </div>
@@ -980,6 +1005,7 @@ For part (a), we use the impulse-momentum theorem to find the force from the bal
 Using the impulse-momentum theorem: $$ F \Delta t = \Delta p $$
 
 Given:
+
 - Ball mass: $$ m = 500 \text{ g} = 0.500 \kg $$
 - Initial velocity: $$ v_i = 5 \ms $$ (toward tree)
 - Final velocity: $$ v_f \approx 0 $$ (ball falls, minimal recoil)
@@ -1000,10 +1026,11 @@ The force on the ball is 250 N (in the direction opposite to its initial motion)
 The ball hits at the top of the 2.0 m tree, creating a torque about the base. The root must provide an opposing torque.
 
 Taking the base of the tree as the pivot:
-- Force from ball: $$ F_{\text{ball}} = 250 \N $$ at height $$ h = 2.0 \m $$
-- Torque from ball: $$ \tau_{\text{ball}} = F_{\text{ball}} \times h = (250 \N)(2.0 \m) = 500 \text{ N·m} $$
 
-The root (at lever arm $$ r_{\text{root}} = 0.20 \m $$) must provide equal opposing torque:
+- Force from ball: $$ F\_{\text{ball}} = 250 \N $$ at height $$ h = 2.0 \m $$
+- Torque from ball: $$ \tau*{\text{ball}} = F*{\text{ball}} \times h = (250 \N)(2.0 \m) = 500 \text{ N·m} $$
+
+The root (at lever arm $$ r\_{\text{root}} = 0.20 \m $$) must provide equal opposing torque:
 
 <div class="equation">
 $$ F_{\text{root}} \times r_{\text{root}} = \tau_{\text{ball}} $$
@@ -1028,6 +1055,7 @@ To ensure the tree does not uproot easily, you could:
 **Discussion**
 
 The root must exert 10 times the ball's force (2500 N vs. 250 N) because of the mechanical disadvantage: the ball acts at 2.0 m while the root acts at only 0.20 m from the pivot. This is a 10:1 ratio of lever arms. This explains why newly planted trees are so vulnerable—their roots haven't established the deep, widespread network needed to resist even moderate lateral forces. Stakes are commonly used for exactly this reason.
+
 </div>
 </div>
 

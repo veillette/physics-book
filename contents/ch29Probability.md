@@ -22,10 +22,10 @@ experimental uncertainty in your measurement. Repeated measurements will display
 a statistical distribution of locations that appears wavelike. (
 See [[Figure 1]](#Figure1).)
 
-![A graph is shown for intensity which is varying like a wave. Corresponding to the maximum point of the wave electrons are shown as small dots in three strips. These strips show different number of electrons with varying density of dots along the length of the strip. A larger number of electrons are in the first strip, a smaller number of electrons in the second strip, and very few electrons in third strip.](../resources/Figure_29_07_01.jpg "The building up of the diffraction pattern of electrons scattered from a crystal surface. Each electron arrives at a definite location, which cannot be precisely predicted. The overall distribution shown at the bottom can be predicted as the diffraction of waves having the de Broglie wavelength of the electrons.")
+![A graph is shown for intensity which is varying like a wave. Corresponding to the maximum point of the wave electrons are shown as small dots in three strips. These strips show different number of electrons with varying density of dots along the length of the strip. A larger number of electrons are in the first strip, a smaller number of electrons in the second strip, and very few electrons in third strip.](../resources/Figure_29_07_01.jpg 'The building up of the diffraction pattern of electrons scattered from a crystal surface. Each electron arrives at a definite location, which cannot be precisely predicted. The overall distribution shown at the bottom can be predicted as the diffraction of waves having the de Broglie wavelength of the electrons.')
 {: #Figure1}
 
-![A double-slit interference wavelength pattern for electrons is shown in figure a and for photons in figure b.](../resources/Figure_29_07_02.jpg "Double-slit interference for electrons (a) and protons (b) is identical for equal wavelengths and equal slit separations. Both patterns are probability distributions in the sense that they are built up by individual particles traversing the apparatus, the paths of which are not individually predictable.")
+![A double-slit interference wavelength pattern for electrons is shown in figure a and for photons in figure b.](../resources/Figure_29_07_02.jpg 'Double-slit interference for electrons (a) and protons (b) is identical for equal wavelengths and equal slit separations. Both patterns are probability distributions in the sense that they are built up by individual particles traversing the apparatus, the paths of which are not individually predictable.')
 {: #Figure2}
 
 After de Broglie proposed the wave nature of matter, many physicists, including
@@ -79,7 +79,7 @@ electrons from it. Those probes have momentum themselves, and by scattering from
 the electron, they change its momentum **in a manner that loses information**.
 There is a limit to absolute knowledge, even in principle.
 
-![A photograph of a young, smiling Werner Heisenberg.](../resources/Figure_29_07_03.jpg "Werner Heisenberg was one of the best of those physicists who developed early quantum mechanics. Not only did his work enable a description of nature on the very small scale, it also changed our view of the availability of knowledge. Although he is universally recognized for his brilliance and the importance of his work (he received the Nobel Prize in 1932, for example), Heisenberg remained in Germany during World War II and headed the German effort to build a nuclear bomb, permanently alienating himself from most of the scientific community. (credit: Author Unknown, via Wikimedia Commons)")
+![A photograph of a young, smiling Werner Heisenberg.](../resources/Figure_29_07_03.jpg 'Werner Heisenberg was one of the best of those physicists who developed early quantum mechanics. Not only did his work enable a description of nature on the very small scale, it also changed our view of the availability of knowledge. Although he is universally recognized for his brilliance and the importance of his work (he received the Nobel Prize in 1932, for example), Heisenberg remained in Germany during World War II and headed the German effort to build a nuclear bomb, permanently alienating himself from most of the scientific community. (credit: Author Unknown, via Wikimedia Commons)')
 {: #Figure3 height="300"}
 
 It was Werner Heisenberg who first stated this limit to knowledge in 1929 as a
@@ -222,8 +222,8 @@ classical physics for large objects, which is the case here.
 
 ### Heisenberg Uncertainty for Energy and Time
 
-There is another form of **Heisenberg’s uncertainty principle** for *
-simultaneous measurements of energy and time*. In equation form,
+There is another form of **Heisenberg’s uncertainty principle** for _
+simultaneous measurements of energy and time_. In equation form,
 
 <div class="equation" >
  $$\Delta E\Delta t\ge \frac{h}{4\pi }, $$
@@ -315,20 +315,20 @@ we affect the traveling.
 
 ### Section Summary
 
-* Matter is found to have the same interference characteristics** as any other
+- Matter is found to have the same interference characteristics\*\* as any other
   wave.
-* There is now a probability distribution for the location of a particle rather
+- There is now a probability distribution for the location of a particle rather
   than a definite position.
-* Another consequence of the wave character of all particles is the Heisenberg
+- Another consequence of the wave character of all particles is the Heisenberg
   uncertainty principle, which limits the precision with which certain physical
   quantities can be known simultaneously. For position and momentum, the
   uncertainty principle is $$\Delta x\Delta p\ge \frac{h}{4\pi } $$ , where
   $$\Delta x $$ is the uncertainty in position and $$\Delta p $$ is the
   uncertainty in momentum.
-* For energy and time, the uncertainty principle is $$\Delta E\Delta t\ge
+- For energy and time, the uncertainty principle is $$\Delta E\Delta t\ge
   \frac{h}{4\pi } $$ where $$\Delta E $$ is the uncertainty in energy and
   $$\Delta t $$ is the uncertainty in time.
-* These small limits are fundamentally important on the quantum-mechanical
+- These small limits are fundamentally important on the quantum-mechanical
   scale.
 
 ### Conceptual Questions
@@ -351,7 +351,7 @@ What is the Heisenberg uncertainty principle? Does it place limits on what can b
 <div class="solution" markdown="1">
 (a) 57.9 m/s
 
-(b)  $$ 9.55 \times 10^{-9} \text{eV} $$
+(b) $$ 9.55 \times 10^{-9} \text{eV} $$
 (c) From [[Table 1]](../contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum#Table1), we see that typical
 molecular binding energies range from about 1eV to 10 eV, therefore the result
 in part (b) is approximately 9 orders of magnitude smaller than typical

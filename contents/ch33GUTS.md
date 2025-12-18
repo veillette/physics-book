@@ -55,10 +55,10 @@ another triumph of particle theory and experimental effort, resulting in the
 der Meer. Theorists Weinberg, Glashow, and Salam had already been honored with
 the 1979 Nobel Prize for other aspects of electroweak theory.
 
-![A Feynman diagram is shown in which time proceeds in along the vertical y axis and distance along the horizontal x axis. An electron and an electron neutrino are shown approaching each other, exchanging a virtual zee zero particle, then moving apart.](../resources/Figure_33_06_01.jpg "The exchange of a virtual \( Z^0 \) carries the weak nuclear force between an electron and a neutrino in this Feynman diagram. The \( Z^0 \) is one of the carrier particles for the weak nuclear force that has now been created in the laboratory with characteristics predicted by electroweak theory. ")
+![A Feynman diagram is shown in which time proceeds in along the vertical y axis and distance along the horizontal x axis. An electron and an electron neutrino are shown approaching each other, exchanging a virtual zee zero particle, then moving apart.](../resources/Figure_33_06_01.jpg 'The exchange of a virtual ( Z^0 ) carries the weak nuclear force between an electron and a neutrino in this Feynman diagram. The ( Z^0 ) is one of the carrier particles for the weak nuclear force that has now been created in the laboratory with characteristics predicted by electroweak theory. ')
 {: #Figure1}
 
-Although the weak nuclear force is very short ranged (  $$< 10^{-18}\text{m} $$
+Although the weak nuclear force is very short ranged ( $$< 10^{-18}\text{m} $$
 , as indicated in [[Table 1]](../contents/ch33TheFourBasicForces#Table1)), its effects on
 atomic levels can be measured given the extreme precision of modern techniques.
 Since electrons spend some time in the nucleus, their energies are affected, and
@@ -88,7 +88,7 @@ because it is an $$R\stackrel{-}{G} $$
 antigreenness kills the green in the strange quark, and its redness turns the
 quark red.
 
-![The first image shows eight circles representing gluons. The first gluon is colored red and anti green, the second gluon is colored green and anti red, the third gluon is colored blue and anti red, the fourth gluon is colored red and anti blue, the fifth gluon is colored green and anti blue, and the sixth gluon is colored blue and anti green. The last two gluons are white. The second image shows a Feynman diagram in which time proceeds in along the vertical y axis and distance along the horizontal x axis. A red down quark and a green strange quark are approaching each other. They exchange a red and anti green gluon, then move apart, with the red down quark having changed to a green down quark and the green strange quark having changed to a red strange quark. ](../resources/Figure_33_06_02.jpg "In figure (a), the eight types of gluons that carry the strong nuclear force are divided into a group of six that carry color and a group of two that do not. Figure (b) shows that the exchange of gluons between quarks carries the strong force and may change the color of a quark.")
+![The first image shows eight circles representing gluons. The first gluon is colored red and anti green, the second gluon is colored green and anti red, the third gluon is colored blue and anti red, the fourth gluon is colored red and anti blue, the fifth gluon is colored green and anti blue, and the sixth gluon is colored blue and anti green. The last two gluons are white. The second image shows a Feynman diagram in which time proceeds in along the vertical y axis and distance along the horizontal x axis. A red down quark and a green strange quark are approaching each other. They exchange a red and anti green gluon, then move apart, with the red down quark having changed to a green down quark and the green strange quark having changed to a red strange quark. ](../resources/Figure_33_06_02.jpg 'In figure (a), the eight types of gluons that carry the strong nuclear force are divided into a group of six that carry color and a group of two that do not. Figure (b) shows that the exchange of gluons between quarks carries the strong force and may change the color of a quark.')
 {: #Figure2}
 
 The strong force is complicated, since observable particles that feel the strong
@@ -107,8 +107,7 @@ The $$\stackrel{-}{d} $$ annihilates a $$d $$ quark in the neutron, the $$u $$
 joins the neutron, and the neutron becomes a proton. A pion is exchanged and a
 force is transmitted.
 
-
-![The Feynman diagram shows a proton scattering from a neutron. In the process , the proton becomes a neutron and the neutron becomes a proton. The details of the interaction are explained in the text.](../resources/Figure_33_06_03.jpg "This Feynman diagram is the same interaction as shown in [[Figure 3]](../contents/ch33TheFourBasicForces#Figure3) of the four basic forces, but it shows the quark and gluon details of the strong force interaction.")
+![The Feynman diagram shows a proton scattering from a neutron. In the process , the proton becomes a neutron and the neutron becomes a proton. The details of the interaction are explained in the text.](../resources/Figure_33_06_03.jpg 'This Feynman diagram is the same interaction as shown in [[Figure 3]](../contents/ch33TheFourBasicForces#Figure3) of the four basic forces, but it shows the quark and gluon details of the strong force interaction.')
 {: #Figure3}
 
 It is beyond the scope of this text to go into more detail on the types of quark
@@ -142,7 +141,9 @@ approximately, $${10}^{-18}\text{m} $$ for example. At that distance, the
 strengths of the EM and weak forces are the same. To test physics at that
 distance, energies of about 100 GeV must be put into the system, and that is
 sufficient to create and release the $${W}^{+} $$ , $${W}^{-} $$ , and $${Z}^{0}
-$$ carrier particles. At those and higher energies, the masses of the carrier
+
+$$
+carrier particles. At those and higher energies, the masses of the carrier
 particles becomes less and less relevant, and the $${Z}^{0} $$ in particular
 resembles the massless, chargeless, spin 1 photon. In fact, there is enough
 energy when things are pushed to even smaller distances to transform the $${W}^{+} $$, $${W}^{-} $$, and
@@ -166,7 +167,9 @@ The small distances and high energies at which the electroweak force becomes
 identical with the strong nuclear force are not reachable with any conceivable
 human-built accelerator. At energies of about $$ 10^{14} \text{GeV} $$
 (16 000 J per particle), distances of about $$ 10^{-30} \text{m} $$ can be
-probed. Such energies are needed to test theory directly, but these are about $$
+probed. Such energies are needed to test theory directly, but these are about
+$$
+
 10^{10} $$ higher than the proposed giant SSC would have had, and the distances
 are about $$ 10^{-12} $$ smaller than any structure we have direct knowledge of.
 This would be the realm of various GUTs, of which there are many since there is
@@ -211,20 +214,20 @@ the fabled Big Bang, forces would have been unified and may have left their
 fingerprint on the existing universe. This, one of the most exciting forefronts
 of physics, is the subject of [Frontiers of Physics](../contents/ch34FrontiersOfPhysics).
 
-![The image shows the picture of a huge cylindrical shaped proton decay detector with its main door open. It is as high as a double decker bus and as long as a small house. An untold number of cables, wires, and detector modules are arranged in a cylinder around a rectangular crate-like object containing another smaller cylindrical object.](../resources/Figure_33_06_05.jpg "In the Tevatron accelerator at Fermilab, protons and antiprotons collide at high energies, and some of those collisions could result in the production of a Higgs boson in association with a W boson. When the W boson decays to a high-energy lepton and a neutrino, the detector triggers on the lepton, whether it is an electron or a muon. (credit: D. J. Miller) ")
+![The image shows the picture of a huge cylindrical shaped proton decay detector with its main door open. It is as high as a double decker bus and as long as a small house. An untold number of cables, wires, and detector modules are arranged in a cylinder around a rectangular crate-like object containing another smaller cylindrical object.](../resources/Figure_33_06_05.jpg 'In the Tevatron accelerator at Fermilab, protons and antiprotons collide at high energies, and some of those collisions could result in the production of a Higgs boson in association with a W boson. When the W boson decays to a high-energy lepton and a neutrino, the detector triggers on the lepton, whether it is an electron or a muon. (credit: D. J. Miller) ')
 {: #Figure5}
 
 ### Summary
 
-* Attempts to show unification of the four forces are called Grand Unified
+- Attempts to show unification of the four forces are called Grand Unified
   Theories (GUTs) and have been partially successful, with connections proven
   between EM and weak forces in electroweak theory.
-* The strong force is carried by eight proposed particles called gluons, which
+- The strong force is carried by eight proposed particles called gluons, which
   are intimately connected to a quantum number called color—their governing
   theory is thus called quantum chromodynamics (QCD). Taken together, QCD and
   the electroweak theory are widely accepted as the Standard Model of particle
   physics.
-* Unification of the strong force is expected at such high energies that it
+- Unification of the strong force is expected at such high energies that it
   cannot be directly tested, but it may have observable consequences in the
   as-yet unobserved decay of the proton and topics to be discussed in the next
   chapter. Although unification of forces is generally anticipated, much remains
@@ -271,7 +274,7 @@ with masses averaging $$200 \text{MeV/}{c}^{2} $$ .
 (a) How many particles are created? (b) If the particles rain down on a $$1.00
 {\text{-km} }^{2} $$ area, how many particles are there per square meter?
 
-![The figure shows an extremely energetic cosmic ray penetrating into the Earth&#x2019;s atmosphere. High up in the atmosphere, the cosmic ray disintegrates into a shower of particles that start a chain reaction by themselves creating further particles. All these particles shower the surface of the Earth.](../resources/Figure_33_06_06.jpg "An extremely energetic cosmic ray creates a shower of particles on earth. The energy of these rare cosmic rays can approach a joule (about \( 10^{10} \text{GeV} \) ) and, after multiple collisions, huge numbers of particles are created from this energy. Cosmic ray showers have been observed to extend over many square kilometers. ")
+![The figure shows an extremely energetic cosmic ray penetrating into the Earth’s atmosphere. High up in the atmosphere, the cosmic ray disintegrates into a shower of particles that start a chain reaction by themselves creating further particles. All these particles shower the surface of the Earth.](../resources/Figure_33_06_06.jpg 'An extremely energetic cosmic ray creates a shower of particles on earth. The energy of these rare cosmic rays can approach a joule (about ( 10^{10} \\text{GeV} ) ) and, after multiple collisions, huge numbers of particles are created from this energy. Cosmic ray showers have been observed to extend over many square kilometers. ')
 {: #Figure6}
 
 </div>
@@ -342,7 +345,7 @@ is massless and has momentum $$p=E/c $$ , just like a photon.
 <div class="problem" markdown="1">
 **Integrated Concepts**
 
-Plans for an accelerator that produces a secondary beam of *K*-mesons to scatter
+Plans for an accelerator that produces a secondary beam of _K_-mesons to scatter
 from nuclei, for the purpose of studying the strong force, call for them to have
 a kinetic energy of 500 MeV. (a) What would the relativistic quantity $$\gamma
 =\frac{1}{\sqrt{1-{v}^{2}/{c}^{2} }} $$ be for these particles? (b) How long
@@ -389,14 +392,14 @@ it is impossible to know which neutrino left with which photon and the poor
 efficiency of the neutrino detectors. Thus, the fact that neutrinos were
 observed within hours of the brightening of the supernova only places an upper
 limit on the neutrino’s mass. (Hint: You may need to use a series expansion to
-find *v* for the neutrino, since its $$\gamma $$ is so large.)
+find _v_ for the neutrino, since its $$\gamma $$ is so large.)
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-**Construct Your Own Problem** 
+**Construct Your Own Problem**
 
 Consider an ultrahigh-energy cosmic ray entering the Earth’s atmosphere (some
 have energies approaching a joule). Construct a problem in which you calculate
@@ -410,7 +413,7 @@ square meters covered) of the shower. Express the energy in eV and joules.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-**Construct Your Own Problem** 
+**Construct Your Own Problem**
 
 Consider a detector needed to observe the proposed, but extremely rare, decay of
 an electron. Construct a problem in which you calculate the amount of matter

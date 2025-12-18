@@ -45,7 +45,7 @@ Attractive forces between molecules of different types are called adhesive force
 
 </div>
 
-![The soap bubbles that the child blows into the air maintain their shape because of the attractive force between the molecules of the soap bubble.](../resources/Figure_11_08_01.jpg "The soap bubbles in this photograph are caused by cohesive forces among molecules in liquids. (credit: Steve Ford Elliott)")
+![The soap bubbles that the child blows into the air maintain their shape because of the attractive force between the molecules of the soap bubble.](../resources/Figure_11_08_01.jpg 'The soap bubbles in this photograph are caused by cohesive forces among molecules in liquids. (credit: Steve Ford Elliott)')
 {: #Figure1}
 
 ### Surface Tension
@@ -83,12 +83,12 @@ try to make the surface smaller or flatter. If the needle were placed point down
 on the surface, its weight acting on a smaller area would break the surface, and
 it would sink.
 
-![A leg of an insect resting on the water surface is shown in the first figure. In the second figure an iron needle rests on the surface of water without sinking. Both are possible due to the tension on the surface of the liquid.](../resources/Figure_11_08_03.jpg "Surface tension supporting the weight of an insect and an iron needle, both of which rest on the surface without penetrating it. They are not floating; rather, they are supported by the surface of the liquid. (a) An insect leg dents the water surface. \( F_\text{ST}\) is a restoring force (surface tension) parallel to the surface. (b) An iron needle similarly dents a water surface until the restoring force (surface tension) grows to equal its weight.")
+![A leg of an insect resting on the water surface is shown in the first figure. In the second figure an iron needle rests on the surface of water without sinking. Both are possible due to the tension on the surface of the liquid.](../resources/Figure_11_08_03.jpg 'Surface tension supporting the weight of an insect and an iron needle, both of which rest on the surface without penetrating it. They are not floating; rather, they are supported by the surface of the liquid. (a) An insect leg dents the water surface. ( F_\\text{ST}) is a restoring force (surface tension) parallel to the surface. (b) An iron needle similarly dents a water surface until the restoring force (surface tension) grows to equal its weight.')
 {: #Figure2}
 
 Surface tension is proportional to the strength of the cohesive force, which
 varies with the type of liquid. Surface tension $$\gamma $$ is defined to be the
-force *F* per unit length $$L $$ exerted by a stretched liquid membrane:
+force _F_ per unit length $$L $$ exerted by a stretched liquid membrane:
 
 <div class="equation" >
  $$\gamma =\frac{F}{L}. $$
@@ -96,7 +96,7 @@ force *F* per unit length $$L $$ exerted by a stretched liquid membrane:
 
 [[Table 1]](#Table1) lists values of $$\gamma $$ for some liquids. For the
 insect of [[Figure 2]](#Figure2)(a), its weight $$w $$ is supported by the
-upward components of the surface tension force:  $$w=\gamma L \sin \theta $$ ,
+upward components of the surface tension force: $$w=\gamma L \sin \theta $$ ,
 where $$L $$ is the circumference of the insect’s foot in contact with the
 water. [[Figure 3]](#Figure3) shows one way to measure surface tension. The
 liquid film exerts a force on the movable wire in an attempt to reduce its
@@ -119,10 +119,10 @@ illustrated in [[Figure 4]](#Figure4). When air is allowed to flow between two
 balloons of unequal size, the smaller balloon tends to collapse, filling the
 larger balloon.
 
-![Sliding wire device which is used to measure surface tension shows the force exerted on the two surfaces of the liquid. This force remains a constant until the film&#x2019;s breaking point.](../resources/Figure_11_08_04.jpg "Sliding wire device used for measuring surface tension; the device exerts a force to reduce the film&#x2019;s surface area. The force needed to hold the wire in place is \( F=\gamma L=\gamma (2l) \), since there are two liquid surfaces attached to the wire. This force remains nearly constant as the film is stretched, until the film approaches its breaking point.")
+![Sliding wire device which is used to measure surface tension shows the force exerted on the two surfaces of the liquid. This force remains a constant until the film’s breaking point.](../resources/Figure_11_08_04.jpg 'Sliding wire device used for measuring surface tension; the device exerts a force to reduce the film’s surface area. The force needed to hold the wire in place is ( F=\\gamma L=\\gamma (2l) ), since there are two liquid surfaces attached to the wire. This force remains nearly constant as the film is stretched, until the film approaches its breaking point.')
 {: #Figure3}
 
-![When two balloons are attached to the ends of a glass tube air flows from one to the other if their sizes are different.](../resources/Figure_11_08_05.jpg "With the valve closed, two balloons of different sizes are attached to each end of a tube. Upon opening the valve, the smaller balloon decreases in size with the air moving to fill the larger balloon. The pressure in a spherical balloon is inversely proportional to its radius, so that the smaller balloon has a greater internal pressure than the larger balloon, resulting in this flow.")
+![When two balloons are attached to the ends of a glass tube air flows from one to the other if their sizes are different.](../resources/Figure_11_08_05.jpg 'With the valve closed, two balloons of different sizes are attached to each end of a tube. Upon opening the valve, the smaller balloon decreases in size with the air moving to fill the larger balloon. The pressure in a spherical balloon is inversely proportional to its radius, so that the smaller balloon has a greater internal pressure than the larger balloon, resulting in this flow.')
 {: #Figure4}
 
 <table id="Table1" aria-describedby="The table gives the surface tension of water at zero, twenty, and one hundred degrees Celsius. The surface tension of some other liquids at twenty degrees Celsius is also given."><caption><span class="title">Surface Tension of Some Liquids<sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup></span></caption><thead><tr>
@@ -187,7 +187,9 @@ Calculate the gauge pressure inside a soap bubble  $$ 2.00 \times 10^{-4}  \text
 
 The radius is given and the surface tension can be found in [[Table 1]](#Table1)
 , and so $$P $$ can be found directly from the equation $$P=\frac{4\gamma }{r}
-$$.
+
+$$
+.
 
 **Solution**
 
@@ -332,37 +334,37 @@ and an upward force in water, as seen in [[Figure 8]](#Figure8).
           </tr></thead><tbody><tr>
             <td>Mercury–glass</td>
             <td>
-               $$140\text{º} $$ 
+               $$140\text{º} $$
             </td>
           </tr><tr>
             <td>Water–glass</td>
             <td>
-               $$0\text{º} $$ 
+               $$0\text{º} $$
             </td>
           </tr><tr>
             <td>Water–paraffin</td>
             <td>
-               $$107\text{º} $$ 
+               $$107\text{º} $$
             </td>
           </tr><tr>
             <td>Water–silver</td>
             <td>
-               $$90\text{º} $$ 
+               $$90\text{º} $$
             </td>
           </tr><tr>
             <td>Organic liquids (most)–glass</td>
             <td>
-               $$0\text{º} $$ 
+               $$0\text{º} $$
             </td>
           </tr><tr>
             <td>Ethyl alcohol–glass</td>
             <td>
-               $$0\text{º} $$ 
+               $$0\text{º} $$
             </td>
           </tr><tr>
             <td>Kerosene–glass</td>
             <td>
-               $$26\text{º} $$ 
+               $$26\text{º} $$
             </td>
           </tr></tbody></table>
 
@@ -1006,3 +1008,4 @@ surface tension
 contract to the smallest possible surface area
 
 </div>
+$$

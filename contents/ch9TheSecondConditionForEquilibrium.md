@@ -30,9 +30,9 @@ open as quickly as expected. Finally, the direction in which you push is also
 important. The most effective direction is perpendicular to the door—we push in
 this direction almost instinctively.
 
-![In the figure, six top views of a door are shown. In the first figure, a force vector is shown in the North West direction. The perpendicular distance of the force from the point of rotation is r. In the second figure, a force is applied in the opposite direction at the same distance from the hinges. In the third figure, a smaller force in applied at the same point. In the next figure, a horizontal force is applied at the same point. In this case, the perpendicular distance from the hinges is shown as r sin theta. In the next figure, force is applied at a distance near the hinges. In the final figure, the force is shown along the direction of hinges toward the handle of the door.](../resources/Figure_09_02_01.jpg "Torque is the turning or twisting effectiveness of a force, illustrated here for door rotation on its hinges (as viewed from overhead). Torque has both magnitude and direction. (a) Counterclockwise torque is produced by this force, which means that the door will rotate in a counterclockwise due to \( F \) . Note that \( r_\perp \) is the perpendicular distance of the pivot from the line of action of the force.
-(b) A smaller counterclockwise torque is produced by a smaller force \( F^\prime \) acting at the same distance from the hinges (the pivot point).
-(c) The same force as in (a) produces a smaller counterclockwise torque when applied at a smaller distance from the hinges. (d) The same force as in (a), but acting in the opposite direction, produces a clockwise torque. (e) A smaller counterclockwise torque is produced by the same magnitude force acting at the same point but in a different direction. Here, \( \theta \) is less than 90&#xBA;. (f) Torque is zero here since the force just pulls on the hinges, producing no rotation. In this case, \( \theta= 0^\circ \) .")
+![In the figure, six top views of a door are shown. In the first figure, a force vector is shown in the North West direction. The perpendicular distance of the force from the point of rotation is r. In the second figure, a force is applied in the opposite direction at the same distance from the hinges. In the third figure, a smaller force in applied at the same point. In the next figure, a horizontal force is applied at the same point. In this case, the perpendicular distance from the hinges is shown as r sin theta. In the next figure, force is applied at a distance near the hinges. In the final figure, the force is shown along the direction of hinges toward the handle of the door.](../resources/Figure_09_02_01.jpg 'Torque is the turning or twisting effectiveness of a force, illustrated here for door rotation on its hinges (as viewed from overhead). Torque has both magnitude and direction. (a) Counterclockwise torque is produced by this force, which means that the door will rotate in a counterclockwise due to ( F ) . Note that ( r_\\perp ) is the perpendicular distance of the pivot from the line of action of the force.
+(b) A smaller counterclockwise torque is produced by a smaller force ( F^\\prime ) acting at the same distance from the hinges (the pivot point).
+(c) The same force as in (a) produces a smaller counterclockwise torque when applied at a smaller distance from the hinges. (d) The same force as in (a), but acting in the opposite direction, produces a clockwise torque. (e) A smaller counterclockwise torque is produced by the same magnitude force acting at the same point but in a different direction. Here, ( \\theta ) is less than 90º. (f) Torque is zero here since the force just pulls on the hinges, producing no rotation. In this case, ( \\theta= 0^\\circ ) .')
 {: #Figure1}
 
 The magnitude, direction, and point of application of the force are incorporated
@@ -52,7 +52,7 @@ magnitude of the force, and $$ \theta $$ is the angle between the force and the
 vector directed from the point of application to the pivot point, as seen
 in [Figure 1](#Figure1)
 and [Figure 2](#Figure2). An alternative expression for torque is given in terms of
-the **perpendicular lever arm** $$ r_{\perp } $$ as shown in [Figure 1](#Figure1)
+the **perpendicular lever arm** $$ r\_{\perp } $$ as shown in [Figure 1](#Figure1)
 and [Figure 2](#Figure2), which is defined as
 
 <div class="equation">
@@ -65,22 +65,25 @@ so that
  $$ \tau =r_{\perp }F. $$
 </div>
 
-![In the first part of the figure, a hockey stick is shown. At a point A near the bottom, a nail is fixed. A force is applied at a point near the holding grip of the hockey stick. A quarter circular arrow shows that the stick rotates in the counterclockwise direction. The perpendicular distance between the pivot point and the force vector direction is labeled as r-perpendicular, and the angle between the direction of force and the line joining the pivot A to the point of application of force is given as theta. In the second part of the figure, the pivot point is near the top of the stick and the point of application of the force is about the same as that in the first part of the figure. An upward quarter circle arrow shows that the stick rotates in the clockwise direction.](../resources/Figure_09_02_02.jpg "A force applied to an object can produce a torque, which depends on the location of the pivot point. (a) The three factors r, F, and \( \theta \) for pivot point A on a body are shown here&#x2014;r is the distance from the chosen pivot point to the point where the force F is applied, and &#x3B8; is the angle between F and the vector directed from the point of application to the pivot point. If the object can rotate around point A, it will rotate counterclockwise. This means that torque is counterclockwise relative to pivot A.
-(b) In this case, point B is the pivot point. The torque from the applied force will cause a clockwise rotation around point B, and so it is a clockwise torque relative to B.&#10;      ")
+![In the first part of the figure, a hockey stick is shown. At a point A near the bottom, a nail is fixed. A force is applied at a point near the holding grip of the hockey stick. A quarter circular arrow shows that the stick rotates in the counterclockwise direction. The perpendicular distance between the pivot point and the force vector direction is labeled as r-perpendicular, and the angle between the direction of force and the line joining the pivot A to the point of application of force is given as theta. In the second part of the figure, the pivot point is near the top of the stick and the point of application of the force is about the same as that in the first part of the figure. An upward quarter circle arrow shows that the stick rotates in the clockwise direction.](../resources/Figure_09_02_02.jpg 'A force applied to an object can produce a torque, which depends on the location of the pivot point. (a) The three factors r, F, and ( \\theta ) for pivot point A on a body are shown here—r is the distance from the chosen pivot point to the point where the force F is applied, and θ is the angle between F and the vector directed from the point of application to the pivot point. If the object can rotate around point A, it will rotate counterclockwise. This means that torque is counterclockwise relative to pivot A.
+(b) In this case, point B is the pivot point. The torque from the applied force will cause a clockwise rotation around point B, and so it is a clockwise torque relative to B.
+      ')
 {: #Figure2}
 
-The perpendicular lever arm $$ r_{\perp } $$ is the shortest distance from the
+The perpendicular lever arm $$ r*{\perp } $$ is the shortest distance from the
 pivot point to the line along which $$ \vb{F} $$ acts; it is shown as a dashed
 line in [Figure 1](#Figure1)
 and [Figure 2](#Figure2). Note that the line segment that defines the distance $$
-r_{\perp } $$ is perpendicular to $$ \vb{F} $$, as its name implies. It is
-sometimes easier to find or visualize $$ r_{\perp } $$ than to find both $$ r $$
-and $$ \theta $$. In such cases, it may be more convenient to use $$ \tau =r_
+r*{\perp } $$ is perpendicular to $$ \vb{F} $$, as its name implies. It is
+sometimes easier to find or visualize $$ r*{\perp } $$ than to find both $$ r $$
+and $$ \theta $$. In such cases, it may be more convenient to use $$ \tau =r*
 {\perp }F $$ rather than $$ \tau =rF\sin{\theta} $$ for torque, but both are
 equally valid.
 
 The **SI unit of torque** is newtons times meters, usually written as $$ \N ·\m
-$$. For example, if you push perpendicular to the door with a force of 40 N at a
+
+$$
+. For example, if you push perpendicular to the door with a force of 40 N at a
 distance of 0.800 m from the hinges, you exert a torque of $$ 32 \text{N·m} (
 0.800 \m · 40 \N \sin{90^\circ} ) $$ relative to the hinges. If you reduce the
 force to 20 N, the torque is reduced to $$ 16 \text{N·m} $$, and so on.
@@ -175,7 +178,9 @@ and third,
 \tau_{\text{p}}&=& r_{\text{p}}{F}_{\text{p}}\\
 \tau_{\text{p}}&=& 0\cdot F_{\text{p}}\\
 \tau_{\text{p}}&=& 0.
-\end{array} $$
+\end{array}
+$$
+
 </div>
 Note that a minus sign has been inserted into the second equation because this torque is clockwise and is therefore negative by convention. Since $$ F_{\text{p}} $$ acts directly on the pivot point, the distance $$ r_{\text{p}} $$
 is zero. A force acting on the pivot cannot cause a rotation, just as pushing
@@ -210,7 +215,7 @@ As expected, the heavier child must sit closer to the pivot (1.30 m versus 1.60 
 
 **Solution (b)**
 
-This part asks for a force $$ F_{\text{p}} $$. The easiest way to find it is to
+This part asks for a force $$ F\_{\text{p}} $$. The easiest way to find it is to
 use the first condition for equilibrium, which is
 
 <div class="equation">
@@ -257,9 +262,11 @@ location of the seesaw’s actual pivot!
 
 Several aspects of the preceding example have broad implications. First, the
 choice of the pivot as the point around which torques are calculated simplified
-the problem. Since $$ F_{\text{p}} $$ is exerted on the pivot point, its lever
-arm is zero. Hence, the torque exerted by the supporting force $$ F_{\text{p}}
-$$ is zero relative to that pivot point. The second condition for equilibrium
+the problem. Since $$ F*{\text{p}} $$ is exerted on the pivot point, its lever
+arm is zero. Hence, the torque exerted by the supporting force $$ F*{\text{p}}
+
+$$
+is zero relative to that pivot point. The second condition for equilibrium
 holds for any choice of pivot point, and so we choose the pivot point to
 simplify the solution of the problem.
 
@@ -564,7 +571,9 @@ Given:
  $$ \begin{array}{ccc}
 m_{1}&=& 26.0 \kg ,m_{2}=32.0 \kg , m_{\s}=12.0 \kg ,\\
 r_{1}&=& 1.60 \m , r_{\s}=0.160 \m , \text{find (a)}r_{2,}\text{(b)}{F}_{\text{p}}
-\end{array} $$
+\end{array}
+$$
+
 </div>
 a) Since children are balancing:
 
@@ -611,7 +620,9 @@ torque
 
 perpendicular lever arm
 : the shortest distance from the pivot point to the line along which $$ \vb{F}
-$$ lies
+
+$$
+lies
 
 SI units of torque
 : newton times meters, usually written as N·m
@@ -620,3 +631,4 @@ center of gravity
 : the point where the total weight of the body is assumed to be concentrated
 
 </div>
+$$

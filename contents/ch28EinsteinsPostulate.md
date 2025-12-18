@@ -11,9 +11,8 @@ chapterNumber: 28
 * Describe one way the speed of light can be changed.
 </div>
 
-![A calculator is placed on open math books and few papers. Problems on trigonometry are solved on one of the papers.](../resources/Figure_28_01_01.jpg "Special relativity resembles trigonometry in that both are reliable because they are based on postulates that flow one from another in a logical way. (credit: Jon Oakley, Flickr)")
+![A calculator is placed on open math books and few papers. Problems on trigonometry are solved on one of the papers.](../resources/Figure_28_01_01.jpg 'Special relativity resembles trigonometry in that both are reliable because they are based on postulates that flow one from another in a logical way. (credit: Jon Oakley, Flickr)')
 {: #Figure1}
-
 
 Have you ever used the Pythagorean Theorem and gotten a wrong answer? Probably
 not, unless you made a mistake in either your algebra or your arithmetic. Each
@@ -172,21 +171,21 @@ Special relativity applies only to unaccelerated motion, but general relativity 
 
 ### Section Summary
 
-* Relativity is the study of how different observers measure the same event.
-* Modern relativity is divided into two parts. Special relativity deals with
+- Relativity is the study of how different observers measure the same event.
+- Modern relativity is divided into two parts. Special relativity deals with
   observers who are in uniform (unaccelerated) motion, whereas general
   relativity includes accelerated relative motion and gravity. Modern relativity
   is correct in all circumstances and, in the limit of low velocity and weak
   gravitation, gives the same predictions as classical relativity.
-* An inertial frame of reference is a reference frame in which a body at rest
+- An inertial frame of reference is a reference frame in which a body at rest
   remains at rest and a body in motion moves at a constant speed in a straight
   line unless acted on by an outside force.
-* Modern relativity is based on Einstein’s two postulates. The first postulate
+- Modern relativity is based on Einstein’s two postulates. The first postulate
   of special relativity is the idea that the laws of physics are the same and
   can be stated in their simplest form in all inertial frames of reference. The
   second postulate of special relativity is the idea that the speed of light $$c
   $$ is a constant, independent of the relative motion of the source.
-* The Michelson-Morley experiment demonstrated that the speed of light in a
+- The Michelson-Morley experiment demonstrated that the speed of light in a
   vacuum is independent of the motion of the Earth about the Sun.
 
 ### Conceptual Questions

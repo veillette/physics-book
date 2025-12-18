@@ -12,7 +12,7 @@ chapterNumber: 17
 * Calculate the velocity of a moving object using Doppler-shifted ultrasound.
 </div>
 
-![An ultrasound image of a 21 week old fetus.](../resources/Figure_17_07_01.jpg "Ultrasound is used in medicine to painlessly and noninvasively monitor patient health and diagnose a wide range of disorders. (credit: abbybatchelder, Flickr)")
+![An ultrasound image of a 21 week old fetus.](../resources/Figure_17_07_01.jpg 'Ultrasound is used in medicine to painlessly and noninvasively monitor patient health and diagnose a wide range of disorders. (credit: abbybatchelder, Flickr)')
 {: #Figure1}
 
 Any sound with a frequency above 20 000 Hz (or 20 kHz)—that is, above the
@@ -41,13 +41,13 @@ intensities of $$ 10^{3} $$ to $$ 10^{5} {\text{W/m}}^{2} $$ , ultrasound
 can be used to shatter gallstones or pulverize cancerous tissue in surgical
 procedures. (See [[Figure 2]](#Figure2).) Intensities this great can damage
 individual cells, variously causing their protoplasm to stream inside them,
-altering their permeability, or rupturing their walls through *cavitation*.
+altering their permeability, or rupturing their walls through _cavitation_.
 Cavitation is the creation of vapor cavities in a fluid—the longitudinal
 vibrations in ultrasound alternatively compress and expand the medium, and at
 sufficient amplitudes the expansion separates molecules. Most cavitation damage
 is done when the cavities collapse, producing even greater shock pressures.
 
-![A picture of a brain tumor being removed from the skull using a clinical probe.](../resources/Figure_17_07_02.jpg "The tip of this small probe oscillates at 23 kHz with such a large amplitude that it pulverizes tissue on contact. The debris is then aspirated. The speed of the tip may exceed the speed of sound in tissue, thus creating shock waves and cavitation, rather than a smooth simple harmonic oscillator&#x2013;type wave.")
+![A picture of a brain tumor being removed from the skull using a clinical probe.](../resources/Figure_17_07_02.jpg 'The tip of this small probe oscillates at 23 kHz with such a large amplitude that it pulverizes tissue on contact. The debris is then aspirated. The speed of the tip may exceed the speed of sound in tissue, thus creating shock waves and cavitation, rather than a smooth simple harmonic oscillator–type wave.')
 {: #Figure2}
 
 Most of the energy carried by high-intensity ultrasound in tissue is converted
@@ -61,7 +61,7 @@ overheating and cavitation, sometimes made worse by reflection and focusing of
 the ultrasound by joint and bone tissue.
 
 In some instances, you may encounter a different decibel scale, called the
-sound *pressure* level, when ultrasound travels in water or in human and other
+sound _pressure_ level, when ultrasound travels in water or in human and other
 biological tissues. We shall not use the scale here, but it is notable that
 numbers for sound pressure levels range 60 to 70 dB higher than you would quote
 for $$\beta $$ , the sound intensity level used in this text. Should you
@@ -228,7 +228,7 @@ to cause thermal damage. More significantly, ultrasound has been in use for
 several decades and detailed follow-up studies do not show evidence of ill
 effects, quite unlike the case for X-rays.
 
-![The first part of the diagram shows a rectangular shaped transducer with speaker and microphone sending spherical waves to produce echos from a fetus. The second part shows a graph of echo intensity versus time, with four sharp peaks.](../resources/Figure_17_07_03.jpg "(a) An ultrasound speaker doubles as a microphone. Brief bleeps are broadcast, and echoes are recorded from various depths. (b) Graph of echo intensity versus time. The time for echoes to return is directly proportional to the distance of the reflector, yielding this information noninvasively.")
+![The first part of the diagram shows a rectangular shaped transducer with speaker and microphone sending spherical waves to produce echos from a fetus. The second part shows a graph of echo intensity versus time, with four sharp peaks.](../resources/Figure_17_07_03.jpg '(a) An ultrasound speaker doubles as a microphone. Brief bleeps are broadcast, and echoes are recorded from various depths. (b) Graph of echo intensity versus time. The time for echoes to return is directly proportional to the distance of the reflector, yielding this information noninvasively.')
 {: #Figure3}
 
 The most common ultrasound applications produce an image like that shown
@@ -239,7 +239,7 @@ constructively in a given, adjustable direction. Echoes are measured as a
 function of position as well as depth. A computer constructs an image that
 reveals the shape and density of internal structures.
 
-![The first part of the diagram shows an ultrasound device scanning a woman&#x2019;s abdomen. The second part of the diagram is an ultrasound scan report of the abdomen.](../resources/Figure_17_07_04.jpg "(a) An ultrasonic image is produced by sweeping the ultrasonic beam across the area of interest, in this case the woman&#x2019;s abdomen. Data are recorded and analyzed in a computer, providing a two-dimensional image. (b) Ultrasound image of 12-week-old fetus. (credit: Margaret W. Carruthers, Flickr)")
+![The first part of the diagram shows an ultrasound device scanning a woman’s abdomen. The second part of the diagram is an ultrasound scan report of the abdomen.](../resources/Figure_17_07_04.jpg '(a) An ultrasonic image is produced by sweeping the ultrasonic beam across the area of interest, in this case the woman’s abdomen. Data are recorded and analyzed in a computer, providing a two-dimensional image. (b) Ultrasound image of 12-week-old fetus. (credit: Margaret W. Carruthers, Flickr)')
 {: #Figure4}
 
 How much detail can ultrasound reveal? The image in [[Figure 4]](#Figure4) is
@@ -255,7 +255,9 @@ Whenever a wave is used as a probe, it is very difficult to detect details
 smaller than its wavelength $$\lambda $$ . Indeed, current technology cannot do
 quite this well. Abdominal scans may use a 7-MHz frequency, and the speed of
 sound in tissue is about 1540 m/s—so the wavelength limit to detail would be
-$$\lambda =\frac{ {v}_{w}}{f}=\frac{1540 \text{m/s}}{7 \times 10^{6}
+
+$$
+\lambda =\frac{ {v}_{w}}{f}=\frac{1540 \text{m/s}}{7 \times 10^{6}
 \text{Hz}}=0.22 \text{mm} $$ . In practice, 1-mm detail is attainable, which is
 sufficient for many purposes. Higher-frequency ultrasound would allow greater
 detail, but it does not penetrate as well as lower frequencies do. The accepted
@@ -273,7 +275,7 @@ reflected sound is related to changes in density. Sound is most strongly
 reflected at places where density changes are greatest.
 
 Another major use of ultrasound in medical diagnostics is to detect motion and
-determine velocity through the Doppler shift of an echo, known as 
+determine velocity through the Doppler shift of an echo, known as
 **Doppler-shifted ultrasound**. This technique is used to monitor fetal heartbeat,
 measure blood velocity, and detect occlusions in blood vessels, for example. (
 See [[Figure 6]](#Figure6).) The magnitude of the Doppler shift in an echo is
@@ -599,7 +601,7 @@ transducer and the patient’s body.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) How far apart are two layers of tissue that produce echoes having round-trip times (used to measure distances) that differ by  $$0.750 \mu s $$ ? 
+(a) How far apart are two layers of tissue that produce echoes having round-trip times (used to measure distances) that differ by  $$0.750 \mu s $$ ?
 (b) What minimum frequency must the ultrasound have to see detail this small?
 
 </div>
@@ -666,3 +668,4 @@ Doppler-shifted ultrasound
 Doppler shift of an echo
 
 </div>
+$$

@@ -13,7 +13,7 @@ chapterNumber: 2
 
 </div>
 
-![Snails leaving slime trails as they race each other along a flat surface.](../resources/Figure_02_03_01.png "The motion of these racing snails can be described by their speeds and their velocities. (credit: tobitasflickr, Flickr)")
+![Snails leaving slime trails as they race each other along a flat surface.](../resources/Figure_02_03_01.png 'The motion of these racing snails can be described by their speeds and their velocities. (credit: tobitasflickr, Flickr)')
 {: #Figure1}
 
 There is more to motion than distance and displacement. Questions such as, “How
@@ -29,7 +29,7 @@ in [Physical Quantities and Units](./ch1PhysicalQuantitiesAndUnits)
 This is the case with time. Every measurement of time involves measuring a
 change in some physical quantity. It may be a number on a digital clock, a
 heartbeat, or the position of the Sun in the sky. In physics, the definition of
-time is simple—**time** is *change*, or the interval over which change occurs.
+time is simple—**time** is _change_, or the interval over which change occurs.
 It is impossible to know that time has passed unless something changes.
 
 The amount of time or change is calibrated by comparison with a standard. The SI
@@ -51,21 +51,21 @@ and beginning time,
  $$ \Delta t=t_{f}-t_{0}, $$
 </div>
 
-where $$ \Delta t $$ is the change in time or elapsed time, $$ t_{f} $$ is the
-time at the end of the motion, and $$ t_{0} $$ is the time at the beginning of
+where $$ \Delta t $$ is the change in time or elapsed time, $$ t*{f} $$ is the
+time at the end of the motion, and $$ t*{0} $$ is the time at the beginning of
 the motion. (As usual, the delta symbol, $$ \Delta $$, means the change in the
 quantity that follows it.)
 
-Life is simpler if the beginning time $$ t_{0} $$ is taken to be zero, as when
+Life is simpler if the beginning time $$ t*{0} $$ is taken to be zero, as when
 we use a stopwatch. If we were using a stopwatch, it would simply read zero at
-the start of the lecture and 50 min at the end. If $$ t_{0}=0 $$, then $$ \Delta
-t=t_{f}\equiv t $$.
+the start of the lecture and 50 min at the end. If $$ t*{0}=0 $$, then $$ \Delta
+t=t\_{f}\equiv t $$.
 
 In this text, for simplicity’s sake,
 
-* motion starts at time equal to zero $$ \left(t_
+- motion starts at time equal to zero $$ \left(t\_
   {0}=0\right) $$
-* the symbol $$ t $$ is used for elapsed time unless otherwise specified $$
+- the symbol $$ t $$ is used for elapsed time unless otherwise specified $$
   \left(\Delta t=t_{f}\equiv t\right) $$
 
 ### Velocity
@@ -80,8 +80,8 @@ miles per hour or kilometers per hour.
 Average Velocity
 </div>
 
-**Average velocity** is *displacement (change in position) divided by the time
-of travel*,
+**Average velocity** is _displacement (change in position) divided by the time
+of travel_,
 
 <div class="equation">
  $$ \overline{v}=\frac{ \Delta x}{\Delta t}=\frac{ x_{f}-x_{0}}{ t_{f}-t_{0}}, $$
@@ -97,8 +97,8 @@ be zero, then the average velocity is simply
 </div>
 </div>
 
-Notice that this definition indicates that *velocity is a vector because
-displacement is a vector*. It has both magnitude and direction. The SI unit for
+Notice that this definition indicates that _velocity is a vector because
+displacement is a vector_. It has both magnitude and direction. The SI unit for
 velocity is meters per second or m/s, but many other units, such as km/h, mi/h (
 also written as mph), and cm/s, are in common use. Suppose, for example, an
 airplane passenger took 5 seconds to move −4 m (the negative sign indicates that
@@ -118,14 +118,14 @@ momentarily or backs up before he goes to the back of the plane. To get more
 details, we must consider smaller segments of the trip over smaller time
 intervals.
 
-![Airplane shown from the outside. Vector arrows show paths of each individual segment of the passenger&#x2019;s trip to the back of the plane.](../resources/Figure_02_03_02.jpg "A more detailed record of an airplane passenger heading toward the back of the plane, showing smaller segments of his trip. ")
+![Airplane shown from the outside. Vector arrows show paths of each individual segment of the passenger’s trip to the back of the plane.](../resources/Figure_02_03_02.jpg 'A more detailed record of an airplane passenger heading toward the back of the plane, showing smaller segments of his trip. ')
 {: #Figure2}
 
 The smaller the time intervals considered in a motion, the more detailed the
 information. When we carry this process to its logical conclusion, we are left
 with an infinitesimally small interval. Over such an interval, the average
-velocity becomes the *instantaneous velocity* or the *velocity at a specific
-instant*. A car’s speedometer, for example, shows the magnitude (but not the
+velocity becomes the _instantaneous velocity_ or the _velocity at a specific
+instant_. A car’s speedometer, for example, shows the magnitude (but not the
 direction) of the instantaneous velocity of the car. (Police give tickets based
 on instantaneous velocity, but when calculating how long it will take to get
 from one place to another on a road trip, you need to use average velocity.)
@@ -142,7 +142,7 @@ instantaneous velocity without calculus.
 In everyday language, most people use the terms “speed” and “velocity”
 interchangeably. In physics, however, they do not have the same meaning and they
 are distinct concepts. One major difference is that speed has no direction.
-Thus *speed is a scalar*. Just as we need to distinguish between instantaneous
+Thus _speed is a scalar_. Just as we need to distinguish between instantaneous
 velocity and average velocity, we also need to distinguish between instantaneous
 speed and average speed.
 
@@ -161,10 +161,10 @@ divided by time. For example, if you drive to a store and return home in half an
 hour, and your car’s odometer shows the total distance traveled was 6 km, then
 your average speed was 12 km/h. Your average velocity, however, was zero,
 because your displacement for the round trip is zero. (Displacement is change in
-position and, thus, is zero for a round trip.) Thus average speed is *not*
+position and, thus, is zero for a round trip.) Thus average speed is _not_
 simply the magnitude of average velocity.
 
-![A house and a store, with a set of arrows in between showing that the distance between them is 3 point 0 kilometers and the total distance traveled, delta x total, equals 0 kilometers.](../resources/Figure_02_03_03.jpg "During a 30-minute round trip to the store, the total distance traveled is 6 km. The average speed is 12 km/h. The displacement for the round trip is zero, since there was no net change in position. Thus the average velocity is zero. ")
+![A house and a store, with a set of arrows in between showing that the distance between them is 3 point 0 kilometers and the total distance traveled, delta x total, equals 0 kilometers.](../resources/Figure_02_03_03.jpg 'During a 30-minute round trip to the store, the total distance traveled is 6 km. The average speed is 12 km/h. The displacement for the round trip is zero, since there was no net change in position. Thus the average velocity is zero. ')
 {: #Figure3}
 
 Another way of visualizing the motion of an object is to use a graph. A plot of
@@ -177,7 +177,7 @@ for simplicity’s sake, we will model it with no stops or changes in speed. We
 are also assuming that the route between the store and the house is a perfectly
 straight line.)
 
-![Three line graphs. First line graph is of position in kilometers versus time in hours. The line increases linearly from 0 kilometers to 6 kilometers in the first 0 point 25 hours. It then decreases linearly from 6 kilometers to 0 kilometers between 0 point 25 and 0 point 5 hours. Second line graph shows velocity in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time 0 to time 0 point 25. It is vertical at time 0 point 25, dropping from 12 kilometers per hour to negative 12 kilometers per hour. It is flat again at negative 12 kilometers per hour from 0 point 25 hours to 0 point 5 hours. Third line graph shows speed in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time equals 0 to time equals 0 point 5 hours.](../resources/Figure_02_03_04.jpg "Position vs. time, velocity vs. time, and speed vs. time on a trip. Note that the velocity for the return trip is negative. ")
+![Three line graphs. First line graph is of position in kilometers versus time in hours. The line increases linearly from 0 kilometers to 6 kilometers in the first 0 point 25 hours. It then decreases linearly from 6 kilometers to 0 kilometers between 0 point 25 and 0 point 5 hours. Second line graph shows velocity in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time 0 to time 0 point 25. It is vertical at time 0 point 25, dropping from 12 kilometers per hour to negative 12 kilometers per hour. It is flat again at negative 12 kilometers per hour from 0 point 25 hours to 0 point 5 hours. Third line graph shows speed in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time equals 0 to time equals 0 point 5 hours.](../resources/Figure_02_03_04.jpg 'Position vs. time, velocity vs. time, and speed vs. time on a trip. Note that the velocity for the return trip is negative. ')
 {: #Figure4}
 
 <div class="note" data-label="" markdown="1">
@@ -186,10 +186,10 @@ Making Connections: Take-Home Investigation—Getting a Sense of Speed
 </div>
 If you have spent much time driving, you probably have a good sense of speeds between about 10 and 70 miles per hour. But what are these in meters per second? What do we mean when we say that something is moving at 10 m/s? To get a better sense of what these values really mean, do some observations and calculations on your own:
 
-* calculate typical car speeds in meters per second
-* estimate jogging and walking speed by timing yourself; convert the
+- calculate typical car speeds in meters per second
+- estimate jogging and walking speed by timing yourself; convert the
   measurements into both m/s and mi/h
-* determine the speed of an ant, snail, or falling leaf
+- determine the speed of an ant, snail, or falling leaf
 
 </div>
 
@@ -218,31 +218,31 @@ travels 40 miles one way and 40 miles back, for a total distance of 80 miles.
 
 ### Section Summary
 
-* Time is measured in terms of change, and its SI unit is the second (s).
+- Time is measured in terms of change, and its SI unit is the second (s).
   Elapsed time for an event is
   <div class="equation">
   $$ \Delta t=t_{f}-t_{0}, $$
   </div>
 
-where $$ t_{f} $$ is the final time and $$ t_{0} $$ is the initial time. The
+where $$ t*{f} $$ is the final time and $$ t*{0} $$ is the initial time. The
 initial time is often taken to be zero, as if measured with a stopwatch; the
 elapsed time is then just $$ t $$.
 
-* Average velocity $$ \overline{v} $$ is defined as displacement divided by the
-  travel time. In symbols, average velocity is
+- Average velocity $$ \overline{v} $$ is defined as displacement divided by the
+travel time. In symbols, average velocity is
   <div class="equation">
     $$ \overline{v}=\frac{ \Delta x}{\Delta t}=\frac{ x_{\text{f}}-x_{0}}{ t_
 {\text{f}}-t_{0}}. $$
   </div>
 
-* The SI unit for velocity is m/s.
-* Velocity is a vector and thus has a direction.
-* Instantaneous velocity $$ v $$ is the velocity at a specific instant or the
+- The SI unit for velocity is m/s.
+- Velocity is a vector and thus has a direction.
+- Instantaneous velocity $$ v $$ is the velocity at a specific instant or the
   average velocity for an infinitesimal interval.
-* Instantaneous speed is the magnitude of the instantaneous velocity.
-* Instantaneous speed is a scalar quantity, as it has no direction specified.
-* Average speed is the total distance traveled divided by the elapsed time. (
-  Average speed is *not* the magnitude of the average velocity.) Speed is a
+- Instantaneous speed is the magnitude of the instantaneous velocity.
+- Instantaneous speed is a scalar quantity, as it has no direction specified.
+- Average speed is the total distance traveled divided by the elapsed time. (
+  Average speed is _not_ the magnitude of the average velocity.) Speed is a
   scalar quantity; it has no direction associated with it.
 
 ### Conceptual Questions
@@ -319,6 +319,7 @@ $$ \text{Average speed} = \frac{C}{t} = \frac{9.42 \times 10^{11} \m}{3.16 \time
 **(b) Average velocity over one year:**
 
 After one complete orbit, Earth returns to its starting position, so the displacement is zero:
+
 <div class="equation">
 $$ \overline{v} = \frac{\Delta x}{t} = \frac{0 \m}{t} = 0 \text{ m/s} $$
 </div>
@@ -345,27 +346,32 @@ To find average speed, we need to calculate the total distance traveled by the b
 **Solution**
 
 Given:
+
 - Rotation rate: 100 rev/min
 - Radius: $$ r = 5.00 \m $$
 
 **(a) Average speed:**
 
 First, convert the rotation rate to revolutions per second:
+
 <div class="equation">
 $$ \text{rotation rate} = 100 \frac{\text{rev}}{\text{min}} \times \frac{1 \text{min}}{60 \s} = \frac{5}{3} \frac{\text{rev}}{\s} $$
 </div>
 
 The distance traveled in one revolution is the circumference of the circle:
+
 <div class="equation">
 $$ d = 2\pi r = 2\pi(5.00 \m) = 31.4 \m $$
 </div>
 
 The time for one revolution:
+
 <div class="equation">
 $$ t = \frac{1}{5/3 \text{ rev/s}} = \frac{3}{5} \s = 0.600 \s $$
 </div>
 
 Average speed:
+
 <div class="equation">
 $$ v = \frac{d}{t} = \frac{31.4 \m}{0.600 \s} = 52.4 \ms $$
 </div>
@@ -373,11 +379,13 @@ $$ v = \frac{d}{t} = \frac{31.4 \m}{0.600 \s} = 52.4 \ms $$
 **(b) Average velocity over one revolution:**
 
 After one complete revolution, the blade tip returns to its starting position. Therefore, the displacement is zero:
+
 <div class="equation">
 $$ \Delta x = 0 \m $$
 </div>
 
 Average velocity:
+
 <div class="equation">
 $$ \overline{v} = \frac{\Delta x}{t} = \frac{0 \m}{0.600 \s} = 0 \ms $$
 </div>
@@ -391,6 +399,7 @@ This problem illustrates the important distinction between speed and velocity. T
 (a) The average speed of the blade tip is 52.4 m/s.
 
 (b) The average velocity over one revolution is 0 m/s.
+
 </div>
 </div>
 
@@ -407,15 +416,18 @@ We need to find the time required for a given displacement at constant velocity 
 **Solution**
 
 Given:
+
 - Rate of separation: $$ v = 3 \text{ cm/y} $$
 - Displacement needed: $$ \Delta x = 500 \text{ km} $$
 
 First, convert the displacement to centimeters:
+
 <div class="equation">
 $$ \Delta x = 500 \text{ km} \times \frac{1000 \m}{1 \text{ km}} \times \frac{100 \text{ cm}}{1 \m} = 5.0 \times 10^{7} \text{ cm} $$
 </div>
 
 Now calculate the time:
+
 <div class="equation">
 $$ t = \frac{\Delta x}{v} = \frac{5.0 \times 10^{7} \text{ cm}}{3 \text{ cm/y}} = 1.67 \times 10^{7} \text{ y} \approx 2 \times 10^{7} \text{ years} $$
 </div>
@@ -446,15 +458,18 @@ We need to find the time required for a given displacement at constant velocity.
 **Solution**
 
 Given:
+
 - Average velocity: $$ v = 6 \text{ cm/y} $$
 - Displacement: $$ \Delta x = 590 \text{ km northwest} $$
 
 First, convert the displacement to centimeters:
+
 <div class="equation">
 $$ \Delta x = 590 \text{ km} \times \frac{1000 \m}{1 \text{ km}} \times \frac{100 \text{ cm}}{1 \m} = 5.90 \times 10^{7} \text{ cm} $$
 </div>
 
 Now calculate the time:
+
 <div class="equation">
 $$ t = \frac{\Delta x}{v} = \frac{5.90 \times 10^{7} \text{ cm}}{6 \text{ cm/y}} = 9.83 \times 10^{6} \text{ y} $$
 </div>
@@ -466,6 +481,7 @@ This result means it will take approximately 9.8 million years for Los Angeles t
 **Answer**
 
 Los Angeles will be at the same latitude as San Francisco in approximately $$ 9.8 \times 10^{6} $$ years (9.8 million years).
+
 </div>
 </div>
 
@@ -486,6 +502,7 @@ Average speed is total distance divided by total time. Calculate the time in hou
 **Solution**
 
 Given:
+
 - Distance: $$ d = 1633.8 \text{ km} $$
 - Time: 13 h 4 min 58 s
 
@@ -537,15 +554,18 @@ We need to find the time required for the Moon's orbital radius to increase by a
 **Solution**
 
 Given:
+
 - Rate of orbital radius increase: $$ v = 4 \text{ cm/year} $$
 - Change in radius: $$ \Delta r = 3.84 \times 10^{6} \m $$
 
 First, convert the change in radius to centimeters:
+
 <div class="equation">
 $$ \Delta r = 3.84 \times 10^{6} \m \times \frac{100 \text{ cm}}{1 \m} = 3.84 \times 10^{8} \text{ cm} $$
 </div>
 
 Now calculate the time:
+
 <div class="equation">
 $$ t = \frac{\Delta r}{v} = \frac{3.84 \times 10^{8} \text{ cm}}{4 \text{ cm/year}} = 9.6 \times 10^{7} \text{ years} $$
 </div>
@@ -557,6 +577,7 @@ This result of 96 million years is a very long time on human scales but not unre
 **Answer**
 
 It will take $$ 9.6 \times 10^{7} $$ years (96 million years) for the Moon's orbital radius to increase by 1%.
+
 </div>
 </div>
 
@@ -580,6 +601,7 @@ Average speed uses total distance traveled divided by time. Average velocity use
 **(a) Average speed to university:**
 
 Given:
+
 - Distance traveled (from odometer): $$ d = 12.0 \text{ km} $$
 - Time: $$ t = 18.0 \text{ min} = 0.300 \text{ h} $$
 
@@ -590,6 +612,7 @@ $$ \text{Average speed} = \frac{d}{t} = \frac{12.0 \text{ km}}{0.300 \text{ h}} 
 **(b) Average velocity to university:**
 
 Given:
+
 - Displacement: $$ \Delta x = 10.3 \text{ km at } 25.0° \text{ south of east} $$
 - Time: $$ t = 0.300 \text{ h} $$
 
@@ -600,16 +623,19 @@ $$ \overline{v} = \frac{\Delta x}{t} = \frac{10.3 \text{ km}}{0.300 \text{ h}} =
 **(c) Average speed and velocity for entire round trip:**
 
 For the round trip:
-- Total distance: $$ d_{total} = 2 \times 12.0 \text{ km} = 24.0 \text{ km} $$
-- Total time: $$ t_{total} = 7 \text{ h } 30 \text{ min} = 7.50 \text{ h} $$
-- Total displacement: $$ \Delta x_{total} = 0 $$ (returns to starting point)
+
+- Total distance: $$ d\_{total} = 2 \times 12.0 \text{ km} = 24.0 \text{ km} $$
+- Total time: $$ t\_{total} = 7 \text{ h } 30 \text{ min} = 7.50 \text{ h} $$
+- Total displacement: $$ \Delta x\_{total} = 0 $$ (returns to starting point)
 
 Average speed:
+
 <div class="equation">
 $$ \text{Average speed} = \frac{24.0 \text{ km}}{7.50 \text{ h}} = 3.20 \text{ km/h} $$
 </div>
 
 Average velocity:
+
 <div class="equation">
 $$ \overline{v} = \frac{0}{7.50 \text{ h}} = 0 \text{ km/h} $$
 </div>
@@ -644,10 +670,12 @@ Use the relationship between distance, speed, and time: $$ t = \frac{d}{v} $$.
 **Solution**
 
 Given:
+
 - Distance: $$ d = 1.1 \m $$
 - Speed of nerve impulse: $$ v = 18 \ms $$
 
 Calculate the time:
+
 <div class="equation">
 $$ t = \frac{d}{v} = \frac{1.1 \m}{18 \ms} = 0.061 \s = 61 \text{ ms} $$
 </div>
@@ -661,6 +689,7 @@ For comparison, if the signal were traveling at the speed of light ($$ 3 \times 
 **Answer**
 
 It takes 0.061 s (or 61 ms) for the nerve signal to travel from the spinal cord to the feet.
+
 </div>
 </div>
 
@@ -683,20 +712,24 @@ The echo time is the time for the radio wave to travel from Earth to Moon and ba
 **Solution**
 
 Given:
+
 - Speed of light (radio wave speed): $$ c = 3.00 \times 10^{8} \ms $$
-- Echo time (round trip): $$ t_{total} = 2.56 \s $$
+- Echo time (round trip): $$ t\_{total} = 2.56 \s $$
 
 The radio wave travels to the Moon and back, so:
+
 <div class="equation">
 $$ d_{total} = c \times t_{total} = (3.00 \times 10^{8} \ms)(2.56 \s) = 7.68 \times 10^{8} \m $$
 </div>
 
 The Earth-Moon distance is half of this:
+
 <div class="equation">
 $$ d_{Earth-Moon} = \frac{d_{total}}{2} = \frac{7.68 \times 10^{8} \m}{2} = 3.84 \times 10^{8} \m $$
 </div>
 
 Convert to kilometers:
+
 <div class="equation">
 $$ d_{Earth-Moon} = 3.84 \times 10^{8} \m \times \frac{1 \text{ km}}{1000 \m} = 3.84 \times 10^{5} \text{ km} = 384{,}000 \text{ km} $$
 </div>
@@ -733,16 +766,19 @@ Let's define forward (down the field) as the positive direction.
 **(a) Average velocity for each interval:**
 
 **Interval 1: Initial run**
+
 <div class="equation">
 $$ \overline{v}_1 = \frac{\Delta x_1}{\Delta t_1} = \frac{+15.0 \m}{2.50 \s} = +6.00 \ms $$
 </div>
 
 **Interval 2: Pushed backward**
+
 <div class="equation">
 $$ \overline{v}_2 = \frac{\Delta x_2}{\Delta t_2} = \frac{-3.00 \m}{1.75 \s} = -1.71 \ms $$
 </div>
 
 **Interval 3: Breaking tackle and running forward**
+
 <div class="equation">
 $$ \overline{v}_3 = \frac{\Delta x_3}{\Delta t_3} = \frac{+21.0 \m}{5.20 \s} = +4.04 \ms $$
 </div>
@@ -750,16 +786,19 @@ $$ \overline{v}_3 = \frac{\Delta x_3}{\Delta t_3} = \frac{+21.0 \m}{5.20 \s} = +
 **(b) Average velocity for entire motion:**
 
 Total displacement:
+
 <div class="equation">
 $$ \Delta x_{\text{total}} = \Delta x_1 + \Delta x_2 + \Delta x_3 = 15.0 \m + (-3.00 \m) + 21.0 \m = 33.0 \m $$
 </div>
 
 Total time:
+
 <div class="equation">
 $$ \Delta t_{\text{total}} = \Delta t_1 + \Delta t_2 + \Delta t_3 = 2.50 \s + 1.75 \s + 5.20 \s = 9.45 \s $$
 </div>
 
 Average velocity for entire motion:
+
 <div class="equation">
 $$ \overline{v}_{\text{total}} = \frac{\Delta x_{\text{total}}}{\Delta t_{\text{total}}} = \frac{33.0 \m}{9.45 \s} = 3.49 \ms $$
 </div>
@@ -773,6 +812,7 @@ The negative velocity in interval 2 indicates backward motion. The average veloc
 (a) Interval 1: 6.00 m/s forward; Interval 2: 1.71 m/s backward; Interval 3: 4.04 m/s forward.
 
 (b) The average velocity for the entire motion is 3.49 m/s forward.
+
 </div>
 </div>
 

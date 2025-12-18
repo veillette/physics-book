@@ -5,7 +5,7 @@ sectionNumber: 0
 chapterNumber: 18
 ---
 
-![A child swoops down a plastic playground slide, his hair standing on end.](../resources/Figure_18_00_01.jpg "Static electricity from this plastic slide causes the child&#x2019;s hair to stand on end. The sliding motion stripped electrons away from the child&#x2019;s body, leaving an excess of positive charges, which repel each other along each strand of hair. (credit: Ken Bosma/Wikimedia Commons)")
+![A child swoops down a plastic playground slide, his hair standing on end.](../resources/Figure_18_00_01.jpg 'Static electricity from this plastic slide causes the child’s hair to stand on end. The sliding motion stripped electrons away from the child’s body, leaving an excess of positive charges, which repel each other along each strand of hair. (credit: Ken Bosma/Wikimedia Commons)')
 {: #Figure1}
 
 The image of American politician and scientist Benjamin Franklin (1706–1790)
@@ -21,7 +21,7 @@ effect of more human proportions. Connections like this one reveal the
 underlying unity of the laws of nature, an aspect we humans find particularly
 appealing.
 
-![Benjamin Franklin is shown flying a kite and lightning is observed. A metal key is attached to the string.](../resources/Figure_18_00_02.jpg "When Benjamin Franklin demonstrated that lightning was related to static electricity, he made a connection that is now part of the evidence that all directly experienced forces except the gravitational force are manifestations of the electromagnetic force.")
+![Benjamin Franklin is shown flying a kite and lightning is observed. A metal key is attached to the string.](../resources/Figure_18_00_02.jpg 'When Benjamin Franklin demonstrated that lightning was related to static electricity, he made a connection that is now part of the evidence that all directly experienced forces except the gravitational force are manifestations of the electromagnetic force.')
 {: #Figure2}
 
 Much has been written about Franklin. His experiments were only part of the life

@@ -23,7 +23,7 @@ and so on. Ray tracing helps to visualize the image formed. If the device is
 composed of thin lenses and mirrors that obey the thin lens equations, then it
 is not difficult to describe their behavior numerically.
 
-![Image of a man viewing through the ocular lens and with his hand on the fine adjustment of the microscope.](../resources/Figure_26_04_01.jpg "Multiple lenses and mirrors are used in this microscope. (credit:  U.S. Navy photo by Tom Watanabe)")
+![Image of a man viewing through the ocular lens and with his hand on the fine adjustment of the microscope.](../resources/Figure_26_04_01.jpg 'Multiple lenses and mirrors are used in this microscope. (credit:  U.S. Navy photo by Tom Watanabe)')
 {: #Figure1}
 
 Microscopes were first developed in the early 1600s by eyeglass makers in The
@@ -41,7 +41,7 @@ Additionally, the final enlarged image is produced in a location far enough from
 the observer to be easily viewed, since the eye cannot focus on objects or
 images that are too close.
 
-![A ray diagram from left to right shows a virtual inverted enlarged final image of the object, a small object in upright position, a convex objective lens, inverted smaller image of the object, a large convex eye-piece and an eye on an optical axis. The object h&#x2019; is placed just outside F subscript O two, the principal focus of the objective lens. Rays from the object are passing through the objective lens, converging and forming an inverted magnified image h subscript I, which acts as an object for the eyepiece and passing at the eye. Dotted lines are joined backward from the rays entering the eyepiece at the tip of the virtual, magnified, inverted and final image of the object given as h subscript i. Distance of the object for the objective lens and distance of the image from it is given as d subscript o and d subscript I respectively. ](../resources/Figure_26_04_02.jpg "A compound microscope composed of two lenses, an objective and an eyepiece. The objective forms a case 1 image that is larger than the object. This first image is the object for the eyepiece. The eyepiece forms a case 2 final image that is further magnified.")
+![A ray diagram from left to right shows a virtual inverted enlarged final image of the object, a small object in upright position, a convex objective lens, inverted smaller image of the object, a large convex eye-piece and an eye on an optical axis. The object h’ is placed just outside F subscript O two, the principal focus of the objective lens. Rays from the object are passing through the objective lens, converging and forming an inverted magnified image h subscript I, which acts as an object for the eyepiece and passing at the eye. Dotted lines are joined backward from the rays entering the eyepiece at the tip of the virtual, magnified, inverted and final image of the object given as h subscript i. Distance of the object for the objective lens and distance of the image from it is given as d subscript o and d subscript I respectively. ](../resources/Figure_26_04_02.jpg 'A compound microscope composed of two lenses, an objective and an eyepiece. The objective forms a case 1 image that is larger than the object. This first image is the object for the eyepiece. The eyepiece forms a case 2 final image that is further magnified.')
 {: #Figure2}
 
 To see how the microscope in [[Figure 2]](#Figure2) forms an image, we consider
@@ -190,7 +190,7 @@ $$\theta $$ increases, $$\text{NA} $$ becomes larger and more light is gathered
 from a smaller focal region giving higher resolution. A $$0.75\text{NA} $$
 objective gives more detail than a $$0.10\text{NA} $$ objective.
 
-![Part a of the figure shows a horizontal dotted line, a point P on the line and an objective lens at a distance from the point such that a triangle is formed from point P to the edges of the lens. An angle theta is shown at point P, representing the maximum cone of rays entering the lens from point P. Part b of the figure shows light rays from a specimen entering a camera lens held above it. The rays form an inverted cone.](../resources/Figure_26_04_03.jpg "(a) The numerical aperture (NA)  of a microscope objective lens refers to the light-gathering ability of the lens and is calculated using half the angle of acceptance \( \theta \). (b) Here, \( \alpha \); is half the acceptance angle for light rays from a specimen entering a camera lens, and \( D \) is the diameter of the aperture that controls the light entering the lens.")
+![Part a of the figure shows a horizontal dotted line, a point P on the line and an objective lens at a distance from the point such that a triangle is formed from point P to the edges of the lens. An angle theta is shown at point P, representing the maximum cone of rays entering the lens from point P. Part b of the figure shows light rays from a specimen entering a camera lens held above it. The rays form an inverted cone.](../resources/Figure_26_04_03.jpg '(a) The numerical aperture (NA)  of a microscope objective lens refers to the light-gathering ability of the lens and is calculated using half the angle of acceptance ( \\theta ). (b) Here, ( \\alpha ); is half the acceptance angle for light rays from a specimen entering a camera lens, and ( D ) is the diameter of the aperture that controls the light entering the lens.')
 {: #Figure3}
 
 While the numerical aperture can be used to compare resolutions of various
@@ -221,7 +221,9 @@ used as given below.
 As the $$f $$ -number decreases, the camera is able to gather light from a
 larger angle, giving wide-angle photography. As usual there is a trade-off. A
 greater $$f/\# $$ means less light reaches the image plane. A setting of $$f/16
-$$ usually allows one to take pictures in bright sunlight as the aperture
+
+$$
+usually allows one to take pictures in bright sunlight as the aperture
 diameter is small. In optical fibers, light needs to be focused into the
 fiber. [[Figure 4]](#Figure4) shows the angle used in calculating the
 $$\text{NA} $$ of an optical fiber.
@@ -476,3 +478,4 @@ where $$n $$ is the refractive index of the medium between the lens and the
 specimen and $$\alpha =\theta /2 $$
 
 </div>
+$$

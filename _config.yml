@@ -20,7 +20,7 @@ kramdown:
   input: GFM
   hard_wrap: false
   syntax_highlighter: rouge
-  math_engine: null  # We use MathJax via CDN instead
+  math_engine: null # We use MathJax via CDN instead
 
 # Default front matter
 defaults:
@@ -49,6 +49,10 @@ exclude:
 include:
   - _layouts
   - _includes
+
+# Files to keep during site regeneration
+keep_files:
+  - search_index.json
 
 # Sass/SCSS settings
 sass:

@@ -13,7 +13,7 @@ chapterNumber: 2
 
 </div>
 
-![Three people cycling along a canal. The blurred buildings in the background convey a sense of motion of the cyclists.](../resources/Figure_02_01_01.jpg "These cyclists in Vietnam can be described by their position relative to buildings and a canal. Their motion can be described by their change in position, or displacement, in the frame of reference. (credit: Suzan Black, Fotopedia)")
+![Three people cycling along a canal. The blurred buildings in the background convey a sense of motion of the cyclists.](../resources/Figure_02_01_01.jpg 'These cyclists in Vietnam can be described by their position relative to buildings and a canal. Their motion can be described by their change in position, or displacement, in the frame of reference. (credit: Suzan Black, Fotopedia)')
 {: #Figure1}
 
 ### Position
@@ -64,7 +64,7 @@ see [Physical Quantities and Units](./ch1PhysicalQuantitiesAndUnits))
 Keep in mind that when units other than the meter are used in a problem, you may
 need to convert them into meters to complete the calculation.
 
-![The initial and final position of a professor as she moves to the right while writing on a whiteboard. Her initial position is 1 point 5 meters. Her final position is 3 point 5 meters. Her displacement is given by the equation delta x equals x sub f minus x sub 0 equals 2 point 0 meters.](../resources/Figure_02_01_02.jpg "A professor paces left and right while lecturing. Her position relative to Earth is given by \( \Delta x \) . The +2.0m displacement of the professor relative to Earth is represented by an arrow pointing to the right.")
+![The initial and final position of a professor as she moves to the right while writing on a whiteboard. Her initial position is 1 point 5 meters. Her final position is 3 point 5 meters. Her displacement is given by the equation delta x equals x sub f minus x sub 0 equals 2 point 0 meters.](../resources/Figure_02_01_02.jpg 'A professor paces left and right while lecturing. Her position relative to Earth is given by ( \\Delta x ) . The +2.0m displacement of the professor relative to Earth is represented by an arrow pointing to the right.')
 {: #Figure2}
 
 ![View of an airplane with an inset of the passengers sitting inside. A passenger has just moved from his seat and is now standing in the back. His initial position was 6 point 0 meters. His final position is 2 point 0 meters. His displacement is given by the equation delta x equals x sub f minus x sub 0 equals 4 point zero meters.](../resources/Figure_02_01_03.jpg
@@ -77,7 +77,7 @@ displacement is 2.0 m to the right, and the airline passenger’s displacement i
 with a plus or minus sign. When you begin a problem, you should select which
 direction is positive (usually that will be to the right or up, but you are free
 to select positive as being any direction). The professor’s initial position is
-$$ x_{0}=1.5\m $$ and her final position is $$ x_{\text{f}}=3.5\m $$. Thus her
+$$ x*{0}=1.5\m $$ and her final position is $$ x*{\text{f}}=3.5\m $$. Thus her
 displacement is
 
 <div class="equation">
@@ -86,7 +86,7 @@ displacement is
 
 In this coordinate system, motion to the right is positive, whereas motion to
 the left is negative. Similarly, the airplane passenger’s initial position is $$
-x_{0}=6.0 \m $$ and his final position is $$ x_{f}=2.0 \m $$, so his
+x_{0}=6.0 \m $$ and his final position is $$ x\_{f}=2.0 \m $$, so his
 displacement is
 
 <div class="equation">
@@ -99,11 +99,11 @@ or in the negative $$ x $$ direction in our coordinate system.
 ### Distance
 
 Although displacement is described in terms of direction, distance is not.
-**Distance** is defined to be *the magnitude or size of displacement between two
-positions*. Note that the distance between two positions is not the same as the
+**Distance** is defined to be _the magnitude or size of displacement between two
+positions_. Note that the distance between two positions is not the same as the
 distance traveled between them.
-**Distance traveled** is *the total length of the path traveled between two
-positions*. Distance has no direction and, thus, no sign. For example, the
+**Distance traveled** is _the total length of the path traveled between two
+positions_. Distance has no direction and, thus, no sign. For example, the
 distance the professor walks is 2.0 m. The distance the airplane passenger walks
 is 4.0 m.
 
@@ -148,10 +148,10 @@ with points for final position and initial position. Displacement 1, shown
 by an arrow pointing leftward, equals negative 3 kilometers. Displacement 2, 
 shown by an arrow pointing rightward, equals 2 kilometers. To the right is a 
 pair of x and y axes, showing that east is the positive x direction and west 
-is the negative x direction.](../resources/Figure_02_01_04.jpg "Displacements 
-"){: #Figure4}
+is the negative x direction.](../resources/Figure_02_01_04.jpg 'Displacements 
+'){: #Figure4}
 
-(a) The rider’s displacement is $$ \Delta x=x_{f}-x_{0}=\text{−1 km} $$. (The
+(a) The rider’s displacement is $$ \Delta x=x*{f}-x*{0}=\text{−1 km} $$. (The
 displacement is negative because we take east to be positive and west to be
 negative.)
 
@@ -164,24 +164,24 @@ negative.)
 
 ### Section Summary
 
-* Kinematics is the study of motion without considering its causes. In this
+- Kinematics is the study of motion without considering its causes. In this
   chapter, it is limited to motion along a straight line, called one-dimensional
   motion.
-* Displacement is the change in position of an object.
-* In symbols, displacement $$ \Delta x $$ is defined to be
+- Displacement is the change in position of an object.
+- In symbols, displacement $$ \Delta x $$ is defined to be
   <div class="equation">
   $$ \Delta x=x_{f}-x_{0}, $$
   </div>
 
-where $$ x_{0} $$ is the initial position and $$ x_{f} $$ is the final position.
+where $$ x*{0} $$ is the initial position and $$ x*{f} $$ is the final position.
 In this text, the Greek letter $$ \Delta $$
 (delta) always means “change in” whatever quantity follows it. The SI unit for
 displacement is the meter (m). Displacement has a direction as well as a
 magnitude.
 
-* When you start a problem, assign which direction will be positive.
-* Distance is the magnitude of displacement between two positions.
-* Distance traveled is the total length of the path traveled between two
+- When you start a problem, assign which direction will be positive.
+- Distance is the magnitude of displacement between two positions.
+- Distance traveled is the total length of the path traveled between two
   positions.
 
 ### Conceptual Questions
@@ -213,8 +213,7 @@ size, while its displacement is small. Why is this?
 
 ### Problems &amp; Exercises
 
-![An x axis starts at 0 meters and ends at 12 meters. There are four points on the graph with displacement paths. Path A starts at 0 and stops at 7. Path B starts at 12 and ends at 7. Path C starts at 2, goes to 10, turns around and goes back to 8, then turns around again and stops at 11. Path D starts at 9, goes to 3, then turns around and stops at 5.](
-../resources/Figure_02_01_05.jpg "Displacement Paths")
+![An x axis starts at 0 meters and ends at 12 meters. There are four points on the graph with displacement paths. Path A starts at 0 and stops at 7. Path B starts at 12 and ends at 7. Path C starts at 2, goes to 10, turns around and goes back to 8, then turns around again and stops at 11. Path D starts at 9, goes to 3, then turns around and stops at 5.](../resources/Figure_02_01_05.jpg 'Displacement Paths')
 {: #Figure5}
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -237,6 +236,7 @@ From the figure, path A starts at $$ x_0 = 0 \m $$ and ends at $$ x_f = 7 \m $$.
 **(a) Distance traveled:**
 
 Since there is no backtracking, the distance traveled equals the total path length:
+
 <div class="equation">
 $$ \text{Distance} = 7 \m - 0 \m = 7 \m $$
 </div>
@@ -244,6 +244,7 @@ $$ \text{Distance} = 7 \m - 0 \m = 7 \m $$
 **(b) Magnitude of displacement:**
 
 The magnitude of displacement is the absolute value of the change in position:
+
 <div class="equation">
 $$ |\Delta x| = |x_f - x_0| = |7 \m - 0 \m| = 7 \m $$
 </div>
@@ -251,6 +252,7 @@ $$ |\Delta x| = |x_f - x_0| = |7 \m - 0 \m| = 7 \m $$
 **(c) Displacement:**
 
 Displacement includes direction (sign):
+
 <div class="equation">
 $$ \Delta x = x_f - x_0 = 7 \m - 0 \m = +7 \m $$
 </div>
@@ -262,6 +264,7 @@ The positive sign indicates motion to the right.
 (b) $$ 7 \m $$
 
 (c) $$ +7 \m $$
+
 </div>
 </div>
 
@@ -285,6 +288,7 @@ From the figure, path B starts at $$ x_0 = 12 \m $$ and ends at $$ x_f = 7 \m $$
 **(a) Distance traveled:**
 
 Since there is no backtracking, the distance traveled equals the total path length:
+
 <div class="equation">
 $$ \text{Distance} = |x_f - x_0| = |7 \m - 12 \m| = 5 \m $$
 </div>
@@ -292,6 +296,7 @@ $$ \text{Distance} = |x_f - x_0| = |7 \m - 12 \m| = 5 \m $$
 **(b) Magnitude of displacement:**
 
 The magnitude of displacement is the absolute value of the change in position:
+
 <div class="equation">
 $$ |\Delta x| = |x_f - x_0| = |7 \m - 12 \m| = 5 \m $$
 </div>
@@ -299,6 +304,7 @@ $$ |\Delta x| = |x_f - x_0| = |7 \m - 12 \m| = 5 \m $$
 **(c) Displacement:**
 
 Displacement includes direction (sign):
+
 <div class="equation">
 $$ \Delta x = x_f - x_0 = 7 \m - 12 \m = -5 \m $$
 </div>
@@ -316,6 +322,7 @@ For straight-line motion without backtracking, the distance traveled and magnitu
 (b) The magnitude of the displacement is 5 m.
 
 (c) The displacement is −5 m (or 5 m to the left).
+
 </div>
 </div>
 
@@ -335,6 +342,7 @@ For path C, trace the entire path including all direction changes to find distan
 **Solution**
 
 From the figure, path C:
+
 - Starts at $$ x_0 = 2 \m $$
 - Goes right to $$ x = 10 \m $$ (moves 8 m)
 - Turns around and goes left to $$ x = 8 \m $$ (moves 2 m)
@@ -343,6 +351,7 @@ From the figure, path C:
 **(a) Distance traveled:**
 
 Add up all the path segments regardless of direction:
+
 <div class="equation">
 $$ \text{Distance} = 8 \m + 2 \m + 3 \m = 13 \m $$
 </div>
@@ -366,6 +375,7 @@ The positive sign indicates net motion to the right.
 (b) 9 m
 
 (c) $$ +9 \m $$
+
 </div>
 </div>
 
@@ -385,6 +395,7 @@ For path D, trace the entire path including all direction changes to find distan
 **Solution**
 
 From the figure, path D:
+
 - Starts at $$ x_0 = 9 \m $$
 - Goes left to $$ x = 3 \m $$ (moves 6 m)
 - Turns around and goes right to $$ x_f = 5 \m $$ (moves 2 m)
@@ -392,6 +403,7 @@ From the figure, path D:
 **(a) Distance traveled:**
 
 Add up all the path segments regardless of direction:
+
 <div class="equation">
 $$ \text{Distance} = 6 \m + 2 \m = 8 \m $$
 </div>
@@ -399,6 +411,7 @@ $$ \text{Distance} = 6 \m + 2 \m = 8 \m $$
 **(b) Magnitude of displacement:**
 
 The magnitude of displacement is the absolute value of the change in position:
+
 <div class="equation">
 $$ |\Delta x| = |x_f - x_0| = |5 \m - 9 \m| = 4 \m $$
 </div>
@@ -406,6 +419,7 @@ $$ |\Delta x| = |x_f - x_0| = |5 \m - 9 \m| = 4 \m $$
 **(c) Displacement:**
 
 Displacement includes direction (sign):
+
 <div class="equation">
 $$ \Delta x = x_f - x_0 = 5 \m - 9 \m = -4 \m $$
 </div>
@@ -423,6 +437,7 @@ Notice that the distance traveled (8 m) is greater than the magnitude of displac
 (b) The magnitude of the displacement is 4 m.
 
 (c) The displacement is −4 m (or 4 m to the left).
+
 </div>
 </div>
 

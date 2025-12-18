@@ -11,7 +11,7 @@ chapterNumber: 18
 * Compare the electrostatic force to the gravitational attraction for a proton and an electron; for a human and the Earth.
 </div>
 
-![Two spiral galaxies show the strong gravitational attraction between them as their arms appear to reach out toward one another.](../resources/Figure_18_03_01.jpg "This NASA image of Arp 87 shows the result of a strong gravitational attraction between two galaxies. In contrast, at the subatomic level, the electrostatic attraction between two objects, such as an electron and a proton, is far greater than their mutual attraction due to gravity. (credit: NASA/HST)")
+![Two spiral galaxies show the strong gravitational attraction between them as their arms appear to reach out toward one another.](../resources/Figure_18_03_01.jpg 'This NASA image of Arp 87 shows the result of a strong gravitational attraction between two galaxies. In contrast, at the subatomic level, the electrostatic attraction between two objects, such as an electron and a proton, is far greater than their mutual attraction due to gravity. (credit: NASA/HST)')
 {: #Figure1}
 
 Through the work of scientists in the late 18th century, the main features of
@@ -46,7 +46,7 @@ proportional to distance between two objects squared $$\left(F\propto
 1/{r}^{2}\right) $$ to an accuracy of 1 part in $$ 10^{16} $$ . No exceptions
 have ever been found, even at the small distances within the atom.
 
-![In part a, two charges q one and q two are shown at a distance r. Force vector arrow F one two points toward left and acts on q one. Force vector arrow F two one points toward right and acts on q two. Both forces act in opposite directions and are represented by arrows of same length. In part b, two charges q one and q two are shown at a distance r. Force vector arrow F one two points toward right and acts on q one. Force vector arrow F two one points toward left and acts on q two. Both forces act toward each other and are represented by arrows of same length. ](../resources/Figure_18_03_02.jpg "The magnitude of the electrostatic force \( F \) between point charges \( q_{1} \) and \( q_{2} \) separated by a distance \( r \) is given by Coulomb&#x2019;s law. Note that Newton&#x2019;s third law (every force exerted creates an equal and opposite force) applies as usual&#x2014;the force on \( q_{1} \) is equal in magnitude and opposite in direction to the force it exerts on \( q_{2} \) . (a) Like charges. (b) Unlike charges.")
+![In part a, two charges q one and q two are shown at a distance r. Force vector arrow F one two points toward left and acts on q one. Force vector arrow F two one points toward right and acts on q two. Both forces act in opposite directions and are represented by arrows of same length. In part b, two charges q one and q two are shown at a distance r. Force vector arrow F one two points toward right and acts on q one. Force vector arrow F two one points toward left and acts on q two. Both forces act toward each other and are represented by arrows of same length. ](../resources/Figure_18_03_02.jpg 'The magnitude of the electrostatic force ( F ) between point charges ( q_{1} ) and ( q_{2} ) separated by a distance ( r ) is given by Coulomb’s law. Note that Newton’s third law (every force exerted creates an equal and opposite force) applies as usual—the force on ( q_{1} ) is equal in magnitude and opposite in direction to the force it exerts on ( q_{2} ) . (a) Like charges. (b) Unlike charges.')
 {: #Figure2}
 
 <div class="example" markdown="1">
@@ -118,9 +118,9 @@ Coulomb forces tend to cancel.
 
 ### Section Summary
 
-* Frenchman Charles Coulomb was the first to publish the mathematical equation
+- Frenchman Charles Coulomb was the first to publish the mathematical equation
   that describes the electrostatic force between two objects.
-* Coulomb’s law gives the magnitude of the force between point charges. It is
+- Coulomb’s law gives the magnitude of the force between point charges. It is
 
   <div class="equation" >
    $$F=k\frac{\|{q}_{1}{q}_{2}\|}{ {r}^{2}}, $$
@@ -130,13 +130,13 @@ where $${q}_{1} $$ and $${q}_{2} $$ are two point charges separated by a
 distance $$r $$ , and $$k\approx 8.99 \times 10^{9}
 \text{N}·{\text{m}}^{2}/{\text{C}}^{2} $$
 
-* This Coulomb force is extremely basic, since most charges are due to
+- This Coulomb force is extremely basic, since most charges are due to
   point-like particles. It is responsible for all electrostatic effects and
   underlies most macroscopic forces.
-* The Coulomb force is extraordinarily strong compared with the gravitational
+- The Coulomb force is extraordinarily strong compared with the gravitational
   force, another basic force—but unlike gravitational force it can cancel, since
   it can be either attractive or repulsive.
-* The electrostatic force between two subatomic particles is far greater than
+- The electrostatic force between two subatomic particles is far greater than
   the gravitational force between the same two particles.
 
 ### Conceptual Questions
@@ -145,7 +145,7 @@ distance $$r $$ , and $$k\approx 8.99 \times 10^{9}
 <div class="problem" markdown="1">
 [[Figure 3](#Figure3) shows the charge distribution in a water molecule, which is called a polar molecule because it has an inherent separation of charge. Given water’s polar character, explain what effect humidity has on removing excess charge from objects.
 
-![A schematic representation of the outer electron cloud of a neutral water molecule is shown. Three atoms are placed on the vertices of a triangle. The hydrogen atom has positive q charge and the oxygen atom has minus two q charge, and the angle between the line joining each hydrogen atom with the oxygen atom is one hundred and four degrees. The cloud density is shown more at the oxygen atom.](../resources/Figure_18_03_03.jpg "Schematic representation of the outer electron cloud of a neutral water molecule. The electrons spend more time near the oxygen than the hydrogens, giving a permanent charge separation as shown. Water is thus a polar molecule. It is more easily affected by electrostatic forces than molecules with uniform charge distributions.")
+![A schematic representation of the outer electron cloud of a neutral water molecule is shown. Three atoms are placed on the vertices of a triangle. The hydrogen atom has positive q charge and the oxygen atom has minus two q charge, and the angle between the line joining each hydrogen atom with the oxygen atom is one hundred and four degrees. The cloud density is shown more at the oxygen atom.](../resources/Figure_18_03_03.jpg 'Schematic representation of the outer electron cloud of a neutral water molecule. The electrons spend more time near the oxygen than the hydrogens, giving a permanent charge separation as shown. Water is thus a polar molecule. It is more easily affected by electrostatic forces than molecules with uniform charge distributions.')
 {: #Figure3 height="221"}
 
 </div>

@@ -33,7 +33,7 @@ list of known and unknown factors. If the second condition is involved,
  $$ \theta =0 $$ )). Always choose a convenient coordinate system for
 projecting forces.
 
-4. *Check the solution to see if it is reasonable* by examining the magnitude,
+4. _Check the solution to see if it is reasonable_ by examining the magnitude,
    direction, and units of the answer. The importance of this last step never
    diminishes, although in unfamiliar applications, it is usually more difficult
    to judge reasonableness. These judgments become progressively easier with
@@ -57,7 +57,7 @@ example, the four legs of a uniform table each support one-fourth of its weight.
 
 In [Figure 1](#Figure1), a pole vaulter holding a pole with its cg halfway between
 his hands is shown. Each hand exerts a force equal to half the weight of the
-pole,$$ F_{R}=F_{L}=w/2 $$.
+pole,$$ F*{R}=F*{L}=w/2 $$.
 (b) The pole vaulter moves the pole to his left, and the forces that the hands
 exert are no longer equal. See [Figure 1](#Figure1). If the pole is held with its
 cg to the left of the person, then he must push down with his right hand and up
@@ -67,24 +67,24 @@ directions and the cg is at a long distance from either hand.
 Similar observations can be made using a meter stick held at different locations
 along its length.
 
-![A pole vaulter is standing on the ground holding a pole with his two hands. The center of gravity of the pole is between the hands of the pole vaulter and is near the right hand of the man. The weight W is shown as an arrow downward toward center of gravity. The reactions F sub R and F sub L of the hands of the man are shown with vectors in upward direction. A free body diagram of the situation is shown on the top right side of the figure.](../resources/Figure_09_04_01.jpg "A pole vaulter holds a pole horizontally with both hands.")
+![A pole vaulter is standing on the ground holding a pole with his two hands. The center of gravity of the pole is between the hands of the pole vaulter and is near the right hand of the man. The weight W is shown as an arrow downward toward center of gravity. The reactions F sub R and F sub L of the hands of the man are shown with vectors in upward direction. A free body diagram of the situation is shown on the top right side of the figure.](../resources/Figure_09_04_01.jpg 'A pole vaulter holds a pole horizontally with both hands.')
 {: #Figure1}
 
-![A pole vaulter is standing on the ground holding a pole with his two hands. The center of gravity of the pole is between the hands of the pole vaulter and is near the right hand of the man. The weight W is shown as an arrow downward toward center of gravity. The reactions F sub R and F sub L of the hands of the man are shown with vectors in upward direction. A free body diagram of the situation is shown on the top right side of the figure.](../resources/Figure_09_04_02.jpg "A pole vaulter is holding a pole horizontally with both hands. The center of gravity is near his right hand.")
+![A pole vaulter is standing on the ground holding a pole with his two hands. The center of gravity of the pole is between the hands of the pole vaulter and is near the right hand of the man. The weight W is shown as an arrow downward toward center of gravity. The reactions F sub R and F sub L of the hands of the man are shown with vectors in upward direction. A free body diagram of the situation is shown on the top right side of the figure.](../resources/Figure_09_04_02.jpg 'A pole vaulter is holding a pole horizontally with both hands. The center of gravity is near his right hand.')
 {: #Figure2}
 
-![A pole vaulter is standing on the ground holding a pole from one side with his two hands. The centre of gravity of the pole is to the left of the pole vaulter. The weight W is shown as an arrow downward at center of gravity. The reaction F sub R is shown with a vector pointing downward from the man&#x2019;s right hand and F sub L is shown with a vector in upward direction at the location of the man&#x2019;s left hand. A free body diagram of the situation is shown on the top right side of the figure.](../resources/Figure_09_04_03.jpg "A pole vaulter is holding a pole horizontally with both hands. The center of gravity is to the left side of the vaulter.")
+![A pole vaulter is standing on the ground holding a pole from one side with his two hands. The centre of gravity of the pole is to the left of the pole vaulter. The weight W is shown as an arrow downward at center of gravity. The reaction F sub R is shown with a vector pointing downward from the man’s right hand and F sub L is shown with a vector in upward direction at the location of the man’s left hand. A free body diagram of the situation is shown on the top right side of the figure.](../resources/Figure_09_04_03.jpg 'A pole vaulter is holding a pole horizontally with both hands. The center of gravity is to the left side of the vaulter.')
 {: #Figure3}
 
 If the pole vaulter holds the pole as shown in [Figure 2](#Figure2), the situation
 is not as simple. The total force he exerts is still equal to the weight of the
-pole, but it is not evenly divided between his hands. (If $$ F_
-{L}=F_{R} $$, then the torques about the cg would not be equal since the lever
+pole, but it is not evenly divided between his hands. (If $$ F*
+{L}=F*{R} $$, then the torques about the cg would not be equal since the lever
 arms are different.) Logically, the right hand should support more weight, since
 it is closer to the cg. In fact, if the right hand is moved directly under the
 cg, it will support all the weight. This situation is exactly analogous to two
 people carrying a load; the one closer to the cg carries more of its weight.
-Finding the forces $$ F_{L} $$ and $$ F_{R} $$ is straightforward, as the next
+Finding the forces $$ F*{L} $$ and $$ F*{R} $$ is straightforward, as the next
 example shows.
 
 If the pole vaulter holds the pole from near the end of the
@@ -107,7 +107,9 @@ interest. There is not enough information to use the first condition for
 equilibrium, $$ \text{net}F=0 $$, since two of the three forces are unknown and
 the hand forces cannot be assumed to be equal in this case. There is enough
 information to use the second condition for equilibrium, $$ \text{net}\tau =0
-$$, if the pivot point is chosen to be at either hand, thereby making the torque
+
+$$
+, if the pivot point is chosen to be at either hand, thereby making the torque
 from that hand zero. We choose to locate the pivot at the left hand in this part
 of the problem, to eliminate the torque from the left hand.
 
@@ -142,7 +144,9 @@ Thus,
 F_{R}&=& \left(0.667\right)\left(5.00 \kg \right)
 \left(9.80\mss \right)\\
 F_{R}&=& 32.7 \N .
-\end{array} $$
+\end{array}
+$$
+
 </div>
 
 **Solution for (b)**
@@ -171,8 +175,8 @@ F_{L}&=& 16.3 \N
 
 **Discussion**
 
-$$ F_{L} $$ is seen to be exactly half of $$ F_{R} $$, as we might have guessed,
-since $$ F_{L} $$ is applied twice as far from the cg as $$ F_{R} $$.
+$$ F*{L} $$ is seen to be exactly half of $$ F*{R} $$, as we might have guessed,
+since $$ F*{L} $$ is applied twice as far from the cg as $$ F*{R} $$.
 
 </div>
 
@@ -205,7 +209,7 @@ Balancing Act
 
 ### Summary
 
-* Statics can be applied to a variety of situations, ranging from raising a
+- Statics can be applied to a variety of situations, ranging from raising a
   drawbridge to bad posture and back strain. We have discussed the
   problem-solving strategies specifically useful for statics. Statics is a
   special case of Newton’s laws, both the general problem-solving strategies and
@@ -240,6 +244,7 @@ The center of mass of the load must be directly above the person's neck vertebra
 **Discussion**
 
 This carrying technique, common in many cultures, is remarkably efficient. Studies have shown that practiced head-load carriers can carry loads of up to 20% of their body weight with no additional metabolic cost compared to walking unloaded! This is because the balanced load requires no compensatory muscle effort. However, improper positioning of the load—even slightly off-center—dramatically increases the physical demand as muscles must constantly work to prevent the load from falling.
+
 </div>
 </div>
 
@@ -260,6 +265,7 @@ This is a classic ladder problem. The ladder is in static equilibrium, so we app
 **Step 1: Establish the geometry**
 
 Given:
+
 - Ladder length: $$ L = 6.00 \m $$
 - Base distance from wall: $$ d = 2.00 \m $$
 - Person mass: $$ m_p = 70.0 \kg $$
@@ -268,11 +274,13 @@ Given:
 - Person position: 3.00 m from bottom
 
 Using the Pythagorean theorem to find the height where the ladder touches the wall:
+
 <div class="equation">
 $$ h = \sqrt{L^2 - d^2} = \sqrt{(6.00)^2 - (2.00)^2} = \sqrt{36 - 4} = \sqrt{32} = 5.66 \m $$
 </div>
 
 The angle the ladder makes with the horizontal:
+
 <div class="equation">
 $$ \cos\theta = \frac{d}{L} = \frac{2.00}{6.00} = 0.333, \quad \sin\theta = \frac{h}{L} = \frac{5.66}{6.00} = 0.943 $$
 </div>
@@ -290,14 +298,17 @@ $$ \cos\theta = \frac{d}{L} = \frac{2.00}{6.00} = 0.333, \quad \sin\theta = \fra
 **Torque about the base of the ladder:** (This eliminates $$ N_g $$ and $$ f $$ from the equation)
 
 The horizontal distances from the base (pivot) to where each force acts:
+
 - Ladder cg: $$ (2.00 \m)\cos\theta = (2.00)(0.333) = 0.667 \m $$
 - Person: $$ (3.00 \m)\cos\theta = (3.00)(0.333) = 1.00 \m $$
 - Wall contact: $$ d = 2.00 \m $$
 
 The vertical distance to where the wall force acts:
+
 - Wall contact: $$ h = 5.66 \m $$
 
 Setting counterclockwise torques equal to clockwise torques:
+
 <div class="equation">
 $$ N_w \cdot h = W_L \cdot (2.00\cos\theta) + W_p \cdot (3.00\cos\theta) $$
 </div>
@@ -315,11 +326,13 @@ $$ N_w = \frac{751.4}{5.66} = 133 \N $$
 </div>
 
 **Force equilibrium in the horizontal direction:**
+
 <div class="equation">
 $$ f = N_w = 133 \N $$
 </div>
 
 **Force equilibrium in the vertical direction:**
+
 <div class="equation">
 $$ N_g = W_L + W_p = 98.0 + 686 = 784 \N $$
 </div>
@@ -327,27 +340,32 @@ $$ N_g = W_L + W_p = 98.0 + 686 = 784 \N $$
 **Step 4: Find the magnitudes**
 
 Force at the **top** of the ladder (from the wall):
+
 <div class="equation">
 $$ F_{top} = N_w = 133 \N $$
 </div>
 
 Force at the **bottom** of the ladder (from the ground):
+
 <div class="equation">
 $$ F_{bottom} = \sqrt{N_g^2 + f^2} = \sqrt{(784)^2 + (133)^2} = \sqrt{614656 + 17689} = \sqrt{632345} = 795 \N $$
 </div>
 
 The direction of the force at the bottom (from the vertical):
+
 <div class="equation">
 $$ \phi = \arctan\left(\frac{f}{N_g}\right) = \arctan\left(\frac{133}{784}\right) = 9.6° \text{ from vertical} $$
 </div>
 
 **Final Answers:**
+
 - Force at the top: **133 N** (horizontal, away from wall)
 - Force at the bottom: **795 N** (at 9.6° from vertical, or nearly vertical)
 
 **Discussion**
 
-The force at the bottom is nearly vertical because it must support the total weight of the person and ladder (784 N) while providing only a modest horizontal friction force (133 N) to prevent slipping. The wall, being frictionless, provides only a horizontal force that pushes the ladder away. This is why a ladder on a slippery floor is dangerous—if friction at the bottom is insufficient to provide the 133 N horizontal force needed, the ladder will slide out. The minimum coefficient of friction needed is $$ \mu_{min} = f/N_g = 133/784 = 0.17 $$.
+The force at the bottom is nearly vertical because it must support the total weight of the person and ladder (784 N) while providing only a modest horizontal friction force (133 N) to prevent slipping. The wall, being frictionless, provides only a horizontal force that pushes the ladder away. This is why a ladder on a slippery floor is dangerous—if friction at the bottom is insufficient to provide the 133 N horizontal force needed, the ladder will slide out. The minimum coefficient of friction needed is $$ \mu\_{min} = f/N_g = 133/784 = 0.17 $$.
+
 </div>
 </div>
 
@@ -369,12 +387,14 @@ Strategy for static equilibrium described above.
 **Strategy**
 
 Following the Problem-Solving Strategy for static equilibrium:
+
 1. Verify the system is in static equilibrium (the pole is stationary)
 2. Draw a free body diagram and identify forces
 3. Apply equilibrium conditions, choosing strategic pivot points
 4. Check the solution for reasonableness
 
 Given: Pole mass $$ m = 5.00 \kg $$ (from the earlier example), $$ W = mg = 49.0 \N $$
+
 - Distance from left hand to cg: 2.00 m
 - Distance between hands: 0.700 m
 - Therefore, distance from right hand to cg: $$ 2.00 - 0.700 = 1.30 \m $$
@@ -392,6 +412,7 @@ The right hand must create a clockwise torque to balance this:
 $$ \tau_R = F_R \times 0.700 \m $$ (clockwise, so $$ F_R $$ is downward)
 
 For equilibrium:
+
 <div class="equation">
 $$ F_R \times 0.700 \m = 98.0 \text{ N·m} $$
 </div>
@@ -405,6 +426,7 @@ The right hand exerts a force of **140 N downward**.
 **Solution for (b): Force by left hand**
 
 Using the first condition for equilibrium (taking up as positive):
+
 <div class="equation">
 $$ F_L - W - F_R = 0 $$
 </div>
@@ -427,6 +449,7 @@ Let me redo this calculation with proper signs.
 Actually, re-reading the problem: "the cg of the pole is 2.00 m from the left hand" with the cg to the LEFT of the left hand (as shown in Figure 3).
 
 About the right hand as pivot:
+
 - Distance from right hand to cg: $$ 2.00 + 0.700 = 2.70 \m $$
 - Distance from right hand to left hand: $$ 0.700 \m $$
 
@@ -441,6 +464,7 @@ Let's verify equilibrium using a pivot point at the right hand instead of the cg
 **Step 1:** The system is in static equilibrium—the pole is held motionless.
 
 **Step 2:** Free body diagram shows:
+
 - Weight $$ W = 49.0 \N $$ acting downward at the cg (which is at the center of the pole)
 - $$ F_L = W/2 = 24.5 \N $$ acting upward at the left hand
 - $$ F_R = W/2 = 24.5 \N $$ acting upward at the right hand
@@ -452,11 +476,13 @@ In Figure 1, the hands are equidistant from the cg (at the center of the pole).
 If the pole has its cg at the center and hands are symmetrically placed (Figure 1), let the distance from each hand to the cg be $$ d $$. The hands are some distance $$ 2d $$ apart.
 
 About the right hand:
+
 - Torque from $$ W $$: $$ \tau_W = W \times d $$ (clockwise, negative)
 - Torque from $$ F_L $$: $$ \tau_L = F_L \times 2d $$ (counterclockwise, positive)
 - Torque from $$ F_R $$: $$ \tau_R = 0 $$ (at the pivot)
 
 For equilibrium:
+
 <div class="equation">
 $$ F_L \times 2d - W \times d = 0 $$
 </div>
@@ -480,6 +506,7 @@ The result makes physical sense: when the cg is centered between the hands, each
 **Discussion**
 
 Parts (a) and (b) show that when the cg is far from the hands (as in Figure 3), the forces become much larger than the weight of the pole. The right hand must push down with 140 N (almost 3 times the pole's weight!), while the left hand must push up with 189 N (almost 4 times the weight). This explains why holding a pole near one end is so much more tiring than holding it near the center. Part (c) demonstrates that the choice of pivot point is arbitrary for equilibrium analysis—any pivot will give consistent results when a system is truly in equilibrium.
+
 </div>
 </div>
 

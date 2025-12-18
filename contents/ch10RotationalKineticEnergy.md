@@ -20,7 +20,7 @@ is turned off, but it is eventually brought to a stop by friction. Clearly, the
 motor had to work to get the stone spinning. This work went into heat, light,
 sound, vibration, and considerable **rotational kinetic energy** .
 
-![The figure shows a mechanic cutting metal with a metal grinder. The sparks are emerging from the point of contact and jumping off tangentially from the cutter.](../resources/Figure_10_04_01.jpg "The motor works in spinning the grindstone, giving it rotational kinetic energy. That energy is then converted to heat, light, sound, and vibration. (credit: U.S. Navy photo by Mass Communication Specialist Seaman Zachary David Bell)")
+![The figure shows a mechanic cutting metal with a metal grinder. The sparks are emerging from the point of contact and jumping off tangentially from the cutter.](../resources/Figure_10_04_01.jpg 'The motor works in spinning the grindstone, giving it rotational kinetic energy. That energy is then converted to heat, light, sound, and vibration. (credit: U.S. Navy photo by Mass Communication Specialist Seaman Zachary David Bell)')
 {: #Figure1}
 
 Work must be done to rotate objects such as grindstones or merry-go-rounds. Work
@@ -59,7 +59,9 @@ though it was derived for a special case.
 
 To get an expression for rotational kinetic energy, we must again perform some
 algebraic manipulations. The first step is to note that $$ \text{net τ}=I\alpha
-$$, so that
+
+$$
+, so that
 
 <div class="equation">
  $$ \text{net}W=I \alpha \theta . $$
@@ -154,7 +156,9 @@ yields
  $$ \begin{array}{lll}
 \text{net}W&=& rF\theta =\left(0.320 \m \right)\left(200 \N \right)\left(1.00 \text{rad}\right)\\
 \text{net}W&=& 64.0 \N \cdot \m .
-\end{array} $$
+\end{array}
+$$
+
 </div>
 Noting that $$ 1 \N·\m =1 \J $$,
 
@@ -257,12 +261,12 @@ Problem-Solving Strategy for Rotational Energy
  $$ \KE_{\text{i}}+\PE_{\text{i}}=\KE_{\text{f}}+\PE_{\text{f}}. $$
     Note that $$ \KE_{\text{i}} $$ and $$ \KE_{\text{f}} $$ may each include translational and rotational contributions.
 
-5. *For open systems*, mechanical energy may not be conserved, and other forms
-   of energy (  referred to previously as $$ \text{OE} $$), such as heat
+5. _For open systems_, mechanical energy may not be conserved, and other forms
+   of energy ( referred to previously as $$ \text{OE} $$), such as heat
    transfer, may enter or leave the system. Determine what they are, and
    calculate them as necessary.
-6. *Eliminate terms wherever possible to simplify the algebra*.
-7. *Check the answer to see if it is reasonable*.
+6. _Eliminate terms wherever possible to simplify the algebra_.
+7. _Check the answer to see if it is reasonable_.
 
 </div>
 
@@ -357,7 +361,7 @@ blades.
 
 </div>
 
-![The given figure here shows a helicopter from the Auckland Westpac Rescue Helicopter Service over a sea. A rescue diver is shown holding the iron stand bar at the bottom of the helicopter, clutching a person. In the other image just above this, the blades of the helicopter are shown with their anti-clockwise rotation direction shown with an arrow and the length of one blade is given as four meters.](../resources/Figure_10_04_05.jpg "The first image shows how helicopters store large amounts of rotational kinetic energy in their blades. This energy must be put into the blades before takeoff and maintained until the end of the flight. The engines do not have enough power to simultaneously provide lift and put significant rotational energy into the blades. The second image shows a helicopter from the Auckland Westpac Rescue Helicopter Service. Over 50 000 lives have been saved since its operations beginning in 1973. Here, a water rescue operation is shown. (credit: 111 Emergency, Flickr)")
+![The given figure here shows a helicopter from the Auckland Westpac Rescue Helicopter Service over a sea. A rescue diver is shown holding the iron stand bar at the bottom of the helicopter, clutching a person. In the other image just above this, the blades of the helicopter are shown with their anti-clockwise rotation direction shown with an arrow and the length of one blade is given as four meters.](../resources/Figure_10_04_05.jpg 'The first image shows how helicopters store large amounts of rotational kinetic energy in their blades. This energy must be put into the blades before takeoff and maintained until the end of the flight. The engines do not have enough power to simultaneously provide lift and put significant rotational energy into the blades. The second image shows a helicopter from the Auckland Westpac Rescue Helicopter Service. Over 50 000 lives have been saved since its operations beginning in 1973. Here, a water rescue operation is shown. (credit: 111 Emergency, Flickr)')
 {: #Figure5 height="300"}
 
 <div class="note" data-label="" markdown="1">
@@ -379,10 +383,10 @@ should the thickest soup roll the slowest?
 
 The easiest way to answer these questions is to consider energy. Suppose each
 can starts down the ramp from rest. Each can starting from rest means each
-starts with the same gravitational potential energy $$ \PE_{\text{grav}} $$,
+starts with the same gravitational potential energy $$ \PE*{\text{grav}} $$,
 which is converted entirely to $$ \KE $$, provided each rolls without slipping.
-$$ \KE $$, however, can take the form of $$ \KE_
-{\text{trans}} $$ or $$ \KE_{\text{rot}} $$, and total $$ \KE $$ is the sum of
+$$ \KE $$, however, can take the form of $$ \KE*
+{\text{trans}} $$ or $$ \KE\_{\text{rot}} $$, and total $$ \KE $$ is the sum of
 the two. If a can rolls down a ramp, it puts part of its energy into rotation,
 leaving less for translation. Thus, the can goes slower than it would if it slid
 down. Furthermore, the thin soup does not rotate, whereas the thick soup does,
@@ -390,7 +394,7 @@ because it sticks to the can. The thick soup thus puts more of the can’s
 original gravitational potential energy into rotation than the thin soup, and
 the can rolls more slowly, as seen in [Figure 6](#Figure6).
 
-![The figure shows a flat surface inclined at a height of h from the surface level, with three cans of soup of different densities numbered as one, two, and three rolling along it.](../resources/Figure_10_04_06.jpg "Three cans of soup with identical masses race down an incline. The first can has a low friction coating and does not roll but just slides down the incline. It wins because it converts its entire PE into translational KE. The second and third cans both roll down the incline without slipping. The second can contains thin soup and comes in second because part of its initial PE goes into rotating the can (but not the thin soup). The third can contains thick soup. It comes in third because the soup rotates along with the can, taking even more of the initial PE for rotational KE, leaving less for translational KE.")
+![The figure shows a flat surface inclined at a height of h from the surface level, with three cans of soup of different densities numbered as one, two, and three rolling along it.](../resources/Figure_10_04_06.jpg 'Three cans of soup with identical masses race down an incline. The first can has a low friction coating and does not roll but just slides down the incline. It wins because it converts its entire PE into translational KE. The second and third cans both roll down the incline without slipping. The second can contains thin soup and comes in second because part of its initial PE goes into rotating the can (but not the thin soup). The third can contains thick soup. It comes in third because the soup rotates along with the can, taking even more of the initial PE for rotational KE, leaving less for translational KE.')
 {: #Figure6}
 
 Assuming no losses due to friction, there is only one force doing work—gravity.
@@ -529,20 +533,20 @@ My solar system
 
 ### Section Summary
 
-* The rotational kinetic energy $$ \KE_
+- The rotational kinetic energy $$ \KE\_
   {\text{rot}} $$ for an object with a moment of inertia $$ I $$ and an angular
   velocity $$ \omega $$ is given by
   <div class="equation">
     $$ \KE_{\text{rot}}=\frac{1}{2}I\omega^{2} . $$
   </div>
 
-* Helicopters store large amounts of rotational kinetic energy in their blades.
+- Helicopters store large amounts of rotational kinetic energy in their blades.
   This energy must be put into the blades before takeoff and maintained until
   the end of the flight. The engines do not have enough power to simultaneously
   provide lift and put significant rotational energy into the blades.
-* Work and energy in rotational motion are completely analogous to work and
+- Work and energy in rotational motion are completely analogous to work and
   energy in translational motion.
-* The equation for the **work-energy theorem** for rotational motion is,
+- The equation for the **work-energy theorem** for rotational motion is,
   <div class="equation">
     $$ \text{net}W=\frac{1}{2}I\omega^{2}-\frac{1}{2}I \omega_{0}^{2} . $$
   </div>
@@ -567,7 +571,7 @@ What energy transformations are involved when a dragster engine is revved, its c
 <div class="problem" markdown="1">
 The Earth has more rotational kinetic energy now than did the cloud of gas and dust from which it formed. Where did this energy come from?
 
-![The figure shows a closed view of a red planet in the sky, with a sun like object seen at the far right and the planet shown here being surrounded by circles of gas and dust.](../resources/Figure_10_04_07.jpg "An immense cloud of rotating gas and dust contracted under the influence of gravity to form the Earth and in the process rotational kinetic energy increased. (credit: NASA)")
+![The figure shows a closed view of a red planet in the sky, with a sun like object seen at the far right and the planet shown here being surrounded by circles of gas and dust.](../resources/Figure_10_04_07.jpg 'An immense cloud of rotating gas and dust contracted under the influence of gravity to form the Earth and in the process rotational kinetic energy increased. (credit: NASA)')
 {: #Figure7}
 
 </div>
@@ -590,6 +594,7 @@ Effect of Mass Distribution on a Merry-Go-Round](./ch10DynamicsOfRotationalMotio
 (b) 0.0785 rev
 
 (c) $$ W=9.81 \N $$
+
 </div>
 </div>
 
@@ -609,7 +614,8 @@ What is the final velocity of a hoop that rolls without slipping down a 5.00-m-h
 <div class="solution" markdown="1">
 (a) $$ 2.57\times 10^{29} \J $$
 
-(b) $$ \KE_{\text{rot}}=2.65\times 10^{33} \J $$
+(b) $$ \KE\_{\text{rot}}=2.65\times 10^{33} \J $$
+
 </div>
 </div>
 
@@ -666,6 +672,7 @@ the steps in the [Problem-Solving Strategy for Rotational Energy]
 (a) $$ 128 \rads $$
 
 (b) $$ 19.9 \m $$
+
 </div>
 </div>
 
@@ -694,6 +701,7 @@ cm.
 (a) $$ 10.4 \rads ^2 $$
 
 (b) $$ \text{net}W=6.11 \J $$
+
 </div>
 </div>
 
@@ -752,6 +760,7 @@ their effective perpendicular lever arm is 4.00 cm and the ball is 0.156 kg?
 (a) 1.49 kJ
 
 (b) $$ 2.52\times 10^{4}\N $$
+
 </div>
 </div>
 
@@ -774,7 +783,7 @@ increase in kinetic energy.
 
 work-energy theorem
 : if one or more external forces act upon a rigid object, causing its kinetic
-energy to change from $$ \KE_{1} $$ to $$ \KE_{2} $$, then the work $$ W $$ done
+energy to change from $$ \KE*{1} $$ to $$ \KE*{2} $$, then the work $$ W $$ done
 by the net force is equal to the change in kinetic energy
 
 rotational kinetic energy

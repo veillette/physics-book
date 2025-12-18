@@ -51,7 +51,7 @@ discoveries.
 
 ### Section Summary
 
-* Superstring theory holds that fundamental particles are one-dimensional
+- Superstring theory holds that fundamental particles are one-dimensional
   vibrations analogous to those on strings and is an attempt at a theory of
   quantum gravity.
 

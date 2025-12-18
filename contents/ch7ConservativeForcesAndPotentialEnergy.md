@@ -19,7 +19,9 @@ characteristics. A **conservative force** is one, like the gravitational force,
 for which work done by or against it depends only on the starting and ending
 points of a motion and not on the path taken. We can define a **potential
 energy** $$ \left(\PE\right)
-$$ for any conservative force, just as we did for the gravitational force. For
+
+$$
+for any conservative force, just as we did for the gravitational force. For
 example, when you wind up a toy, an egg timer, or an old-fashioned watch, you do
 work against its spring and store energy in it. (We treat these springs as
 ideal, in that we assume there is no friction and no production of thermal
@@ -107,7 +109,9 @@ this is
 
 <div class="equation">
  $$ W_{\text{net}}=\frac{1}{2}m v^{2}-\frac{1}{2} m v_{0}^{2}
-=\Delta \KE . $$
+=\Delta \KE .
+$$
+
 </div>
 
 If only conservative forces act, then
@@ -116,14 +120,14 @@ If only conservative forces act, then
  $$ W_{\text{net}}=W_{\text{c}}, $$
 </div>
 
-where $$ W_{c} $$ is the total work done by all conservative forces. Thus,
+where $$ W\_{c} $$ is the total work done by all conservative forces. Thus,
 
 <div class="equation">
  $$ W_{\text{c}}=\Delta \KE . $$
 </div>
 
 Now, if the conservative force, such as the gravitational force or a spring
-force, does work, the system loses potential energy. That is, $$ W_
+force, does work, the system loses potential energy. That is, $$ W\_
 \text{c}=-\Delta \PE $$. Therefore,
 
 <div class="equation">
@@ -161,13 +165,15 @@ kinetic plus potential energy of a system is defined to be its **mechanical
 energy**, $$ \left(\KE+\PE\right) $$. In a system that experiences only
 conservative forces, there is a potential energy associated with each force, and
 the energy only changes form between $$ \KE $$ and the various types of $$ \PE
-$$, with the total energy remaining constant.
+
+$$
+, with the total energy remaining constant.
 
 <div class="example" markdown="1">
 <div class="title">
 Using Conservation of Mechanical Energy to Calculate the Speed of a Toy Car
 </div>
-A 0.100-kg toy car is propelled by a compressed spring, as shown in [Figure 3](#Figure3). The car follows a track that 
+A 0.100-kg toy car is propelled by a compressed spring, as shown in [Figure 3](#Figure3). The car follows a track that
 rises 0.180 m above the starting point. The spring is compressed 4.00 cm and has a force constant of 250.0 N/m. Assuming work done by friction to be negligible, find (a) how fast the car is going before it starts up the slope and (b) how fast it is going at the top of the slope.
 
 ![The figure shows a toy race car that has just been released from a spring. Two possible paths for the car are shown. One path has a gradual upward incline, leveling off at a height of eighteen centimeters above its starting level. An alternative path shows the car descending from its starting point, making a loop, and then ascending back up and leveling off at a height of eighteen centimeters above its starting level. ](../resources/Figure_07_04_03.jpg "A toy car is pushed by a compressed spring and coasts up a slope. Assuming negligible friction, the potential energy in the spring is first completely converted to kinetic energy, and then to a combination of kinetic and gravitational potential energy as the car rises. The details of the path are unimportant because all forces are conservative&#x2014;the car would have the same final speed if it took the alternate path shown.")
@@ -179,9 +185,11 @@ The spring force and the gravitational force are conservative forces, so
 conservation of mechanical energy can be used. Thus,
 
 <div class="equation">
- $$
-\KE_{\text{i}}+\PE_{\text{i}}=
-\KE_{\text{f}}+\PE_{\text{f}} $$
+$$
+
+\KE*{\text{i}}+\PE*{\text{i}}=
+\KE*{\text{f}}+\PE*{\text{f}} $$
+
 </div>
 or
 
@@ -200,9 +208,9 @@ into the last equation to solve for an unknown.
 
 This part of the problem is limited to conditions just before the car is
 released and just after it leaves the spring. Take the initial height to be
-zero, so that both $$ h_{\text{i}} $$ and $$ h_{\text{f}} $$ are zero.
-Furthermore, the initial speed $$ v_{\text{i}} $$ is zero and the final
-compression of the spring $$ x_{\text{f}} $$ is zero, and so several terms in
+zero, so that both $$ h*{\text{i}} $$ and $$ h*{\text{f}} $$ are zero.
+Furthermore, the initial speed $$ v*{\text{i}} $$ is zero and the final
+compression of the spring $$ x*{\text{f}} $$ is zero, and so several terms in
 the conservation of mechanical energy equation are zero and it simplifies to
 
 <div class="equation">
@@ -278,15 +286,15 @@ Energy Skate Park
 
 ### Section Summary
 
-* A conservative force is one for which work depends only on the starting and
+- A conservative force is one for which work depends only on the starting and
   ending points of a motion, not on the path taken.
-* We can define potential energy $$ \left(\PE\right) $$ for any conservative
-  force, just as we defined $$ \PE_{g} $$ for the gravitational force.
-* The potential energy of a spring is $$ \PE_{s}=\frac{1}{2}k x^{2} $$, where $$
+- We can define potential energy $$ \left(\PE\right) $$ for any conservative
+  force, just as we defined $$ \PE\_{g} $$ for the gravitational force.
+- The potential energy of a spring is $$ \PE\_{s}=\frac{1}{2}k x^{2} $$, where $$
   k $$ is the spring’s force constant and $$ x $$ is the displacement from its
   undeformed position.
-* Mechanical energy is defined to be $$ \KE+\PE $$ for a conservative force.
-* When only conservative forces act on and within a system, the total mechanical
+- Mechanical energy is defined to be $$ \KE+\PE $$ for a conservative force.
+- When only conservative forces act on and within a system, the total mechanical
   energy is constant. In equation form,
 
 <div class="equation">
@@ -370,11 +378,11 @@ Following the Problem-Solving Strategies for Energy:
 **Step 2:** The forces are the spring force (conservative) and gravity (conservative), so we can use conservation of mechanical energy.
 
 **Step 3:** Since all forces are conservative:
-$$ \KE_{\text{i}} + \PE_{\text{i}} = \KE_{\text{f}} + \PE_{\text{f}} $$
+$$ \KE*{\text{i}} + \PE*{\text{i}} = \KE*{\text{f}} + \PE*{\text{f}} $$
 
 **Step 4:** Not needed here since all forces are conservative.
 
-**Step 5:** Simplify by noting that at both initial and final points, the child is momentarily at rest, so $$ \KE_{\text{i}} = \KE_{\text{f}} = 0 $$. Choose $$ h = 0 $$ at the initial compressed position, so $$ \PE_{\text{g,i}} = 0 $$ and $$ \PE_{\text{g,f}} = mgh $$. The spring potential energy is $$ \PE_{\text{s,i}} = \frac{1}{2}kx^{2} $$ initially and $$ \PE_{\text{s,f}} = 0 $$ at maximum height.
+**Step 5:** Simplify by noting that at both initial and final points, the child is momentarily at rest, so $$ \KE*{\text{i}} = \KE*{\text{f}} = 0 $$. Choose $$ h = 0 $$ at the initial compressed position, so $$ \PE*{\text{g,i}} = 0 $$ and $$ \PE*{\text{g,f}} = mgh $$. The spring potential energy is $$ \PE*{\text{s,i}} = \frac{1}{2}kx^{2} $$ initially and $$ \PE*{\text{s,f}} = 0 $$ at maximum height.
 
 **Solution**
 

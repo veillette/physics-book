@@ -30,7 +30,7 @@ rotation about a pivot point. Distances from the physical pivot of the lever are
 crucial, and we can obtain a useful expression for the MA in terms of these
 distances.
 
-![There is a nail in a wooden plank. A nail puller is being used to pull the nail out of the plank. A hand is applying force F sub I downward on the handle of the nail puller. The top of the nail exerts a force F sub N downward on the puller. At the point where the nail puller touches the plank, the reaction of the surface force N is applied. At the top of the figure, a free body diagram is shown.](../resources/Figure_09_05_01.jpg "A nail puller is a lever with a large mechanical advantage. The external forces on the nail puller are represented by solid arrows. The force that the nail puller applies to the nail (  \( F_o \) )  is not a force on the nail puller. The reaction force the nail exerts back on the puller ( \( F_n \) )  is an external force and is equal and opposite to \( F_o \) . The perpendicular lever arms of the input and output forces are \( l_i \) and \( l_0 \).")
+![There is a nail in a wooden plank. A nail puller is being used to pull the nail out of the plank. A hand is applying force F sub I downward on the handle of the nail puller. The top of the nail exerts a force F sub N downward on the puller. At the point where the nail puller touches the plank, the reaction of the surface force N is applied. At the top of the figure, a free body diagram is shown.](../resources/Figure_09_05_01.jpg 'A nail puller is a lever with a large mechanical advantage. The external forces on the nail puller are represented by solid arrows. The force that the nail puller applies to the nail (  ( F_o ) )  is not a force on the nail puller. The reaction force the nail exerts back on the puller ( ( F_n ) )  is an external force and is equal and opposite to ( F_o ) . The perpendicular lever arms of the input and output forces are ( l_i ) and ( l_0 ).')
 {: #Figure1}
 
 [Figure 1](#Figure1) shows a lever type that is used as a nail puller. Crowbars,
@@ -40,20 +40,20 @@ force. There are three vertical forces acting on the nail puller (
 the system of interest) – these are $$ \vb{F}_{\text{i}}, \vb{F}_{\N } $$, and
 $$ \vb{N} $$. $$ \vb{F}_{\N } $$ is the reaction force back on the system, equal
 and opposite to $$ \vb{F}_{\text{o}} $$. (Note that $$ \vb{F}_{\text{o}} $$ is
-not a force on the system.)  $$ \vb{N} $$ is the normal force upon the lever,
+not a force on the system.) $$ \vb{N} $$ is the normal force upon the lever,
 and its torque is zero since it is exerted at the pivot. The torques due to $$
 \vb{F}_
 {\text{i}} $$ and $$ \vb{F}_{\N } $$ must be equal to each other if the nail is
 not moving, to satisfy the second condition for equilibrium $$ \left(
 \text{net}\tau =0\right) $$. (In order for the nail to actually move, the torque
 due to $$ \vb{F}_{\text{i}} $$ must be ever-so-slightly greater than torque due
-to $$ \vb{F}_{\N } $$.) Hence,
+to $$ \vb{F}\_{\N } $$.) Hence,
 
 <div class="equation">
  $$ l_{\text{i}}F_{\text{i}}=l_{\text{o}}F_{\text{o}} $$
 </div>
 
-where $$ l_{\text{i}} $$ and $$ l_{\text{o}} $$ are the distances from where the
+where $$ l*{\text{i}} $$ and $$ l*{\text{o}} $$ are the distances from where the
 input and output forces are applied to the pivot, as shown in the figure.
 Rearranging the last equation gives
 
@@ -63,7 +63,7 @@ Rearranging the last equation gives
 
 What interests us most here is that the magnitude of the force exerted by the
 nail puller, $$F_{\text{o}}$$, is much greater than the magnitude of the input
-force applied to the puller at the other end, $$ F_{\text{i}} $$. For the nail
+force applied to the puller at the other end, $$ F\_{\text{i}} $$. For the nail
 puller,
 
 <div class="equation">
@@ -78,8 +78,8 @@ Two other types of levers that differ slightly from the nail puller are a
 wheelbarrow and a shovel, shown in [Figure 2](#Figure2). All these lever types are
 similar in that only three forces are involved – the input force, the output
 force, and the force on the pivot – and thus their MAs are given by $$
-\text{MA}=\frac{ F_{\text{o}}}{ F_{\text{i}}} $$ and $$ \text{MA}=\frac{ d_{1}}{
-d_{2}} $$, with distances being measured relative to the physical pivot. The
+\text{MA}=\frac{ F_{\text{o}}}{ F_{\text{i}}} $$ and $$ \text{MA}=\frac{ d*{1}}{
+d*{2}} $$, with distances being measured relative to the physical pivot. The
 wheelbarrow and shovel differ from the nail puller because both the input and
 output forces are on the same side of the pivot.
 
@@ -89,7 +89,7 @@ input force is between the pivot (at the end of the handle) and the load, but
 the input lever arm is shorter than the output lever arm. In this case, the MA
 is less than one.
 
-![A wheelbarrow is shown in which the input force F sub I is shown as a vector in vertically upward direction below the handle of wheelbarrow. The weight of the wheelbarrow is downward at the center of gravity. The normal reaction of the ground is acting at the wheel in upward direction. The perpendicular distance between the normal reaction and the input force F sub I is labeled as R sub I and the distance between output force F sub O and normal reaction is labeled as R sub O. In figure b, a man is holding a shovel in his hands. One hand is at one end of the handle and the other hand is holding the shovel at the middle. The center of gravity of the shovel is at its flat end. The weight of the shovel is acting at the center of gravity. The input force is acting at the hand in the middle in upward direction and the end of the shovel is acting as pivot. A free body diagram is also shown at the right side of the figure.](../resources/Figure_09_05_02.jpg "(a) In the case of the wheelbarrow, the output force or load is between the pivot and the input force. The pivot is the wheel&#x2019;s axle. Here, the output force is greater than the input force. Thus, a wheelbarrow enables you to lift much heavier loads than you could with your body alone. (b) In the case of the shovel, the input force is between the pivot and the load, but the input lever arm is shorter than the output lever arm. The pivot is at the handle held by the right hand. Here, the output force (supporting the shovel&#x2019;s load) is less than the input force (from the hand nearest the load), because the input is exerted closer to the pivot than is the output.")
+![A wheelbarrow is shown in which the input force F sub I is shown as a vector in vertically upward direction below the handle of wheelbarrow. The weight of the wheelbarrow is downward at the center of gravity. The normal reaction of the ground is acting at the wheel in upward direction. The perpendicular distance between the normal reaction and the input force F sub I is labeled as R sub I and the distance between output force F sub O and normal reaction is labeled as R sub O. In figure b, a man is holding a shovel in his hands. One hand is at one end of the handle and the other hand is holding the shovel at the middle. The center of gravity of the shovel is at its flat end. The weight of the shovel is acting at the center of gravity. The input force is acting at the hand in the middle in upward direction and the end of the shovel is acting as pivot. A free body diagram is also shown at the right side of the figure.](../resources/Figure_09_05_02.jpg '(a) In the case of the wheelbarrow, the output force or load is between the pivot and the input force. The pivot is the wheel’s axle. Here, the output force is greater than the input force. Thus, a wheelbarrow enables you to lift much heavier loads than you could with your body alone. (b) In the case of the shovel, the input force is between the pivot and the load, but the input lever arm is shorter than the output lever arm. The pivot is at the handle held by the right hand. Here, the output force (supporting the shovel’s load) is less than the input force (from the hand nearest the load), because the input is exerted closer to the pivot than is the output.')
 {: #Figure2}
 
 <div class="example" markdown="1">
@@ -106,8 +106,10 @@ Here, we use the concept of mechanical advantage.
 
 **Solution**
 
-(a) In this case, $$ \frac{ F_{\text{o}}}{ F_{\text{i}}}=\frac{ l_{i}}{ l_{o}}
-$$ becomes
+(a) In this case, $$ \frac{ F*{\text{o}}}{ F*{\text{i}}}=\frac{ l*{i}}{ l*{o}}
+
+$$
+becomes
 
 <div class="equation">
 $$ F_{\text{i}}=F_{\text{o}}\frac{ l_{o}}{ l_{i}}. $$
@@ -428,7 +430,7 @@ A mechanical advantage less than 1 means the system is designed for speed rather
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What force does the nail puller in [Figure 1](#Figure1) exert on the supporting 
+What force does the nail puller in [Figure 1](#Figure1) exert on the supporting
 surface? The nail puller has a mass of 2.10 kg.
 
 </div>
@@ -494,7 +496,7 @@ Note that the ceiling force (1690 N) is greater than the engine weight (1127 N)!
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Repeat the previous exercise for the pulley shown in [Figure 4](#Figure4)(c), 
+Repeat the previous exercise for the pulley shown in [Figure 4](#Figure4)(c),
 assuming you pull straight up on the rope. The pulley system’s mass is $$ 7.00 \kg $$.
 
 </div>
@@ -514,3 +516,4 @@ mechanical advantage
 : the ratio of output to input forces for any simple machine
 
 </div>
+$$

@@ -10,7 +10,7 @@ chapterNumber: 7
 * Show that the gravitational potential energy of an object of mass
  $$ m $$ at height $$ h $$ on Earth is given by $$ \PE_{\text{g}}=mgh $$.
 
-* Show how knowledge of the potential energy as a function of position can be
+- Show how knowledge of the potential energy as a function of position can be
   used to simplify calculations and explain physical phenomena.
 
 </div>
@@ -27,11 +27,13 @@ Let us calculate the work done in lifting an object of mass $$ m $$ through a
 height $$ h $$, such as in [Figure 1](#Figure1). If the object is lifted straight
 up at constant speed, then the force needed to lift it is equal to its weight $$
 mg $$. The work done on the mass is then $$ W = Fd = mgh $$. We define this to
-be the **gravitational potential energy** $$ \left(\PE_{\text{g}}\right) $$ put
+be the **gravitational potential energy** $$ \left(\PE*{\text{g}}\right) $$ put
 into (or gained by) the object-Earth system. This energy is associated with the
 state of separation between two objects that attract each other by the
-gravitational force. For convenience, we refer to this as the $$ \PE_{\text{g}}
-$$ gained by the object, recognizing that this is energy stored in the
+gravitational force. For convenience, we refer to this as the $$ \PE*{\text{g}}
+
+$$
+gained by the object, recognizing that this is energy stored in the
 gravitational field of Earth. Why do we use the word “system”? Potential energy
 is a property of a system rather than of a single object—due to its physical
 position. An object’s gravitational potential is due to its position relative to
@@ -60,8 +62,10 @@ using energy (if possible) rather than explicitly using forces.
 ![(a) The weight attached to the cuckoo clock is raised by a height h shown by a displacement vector d pointing upward. The weight is attached to a winding chain labeled with a force F vector pointing downward. Vector d is also shown in the same direction as force F. E in is equal to W and W is equal to m g h. (b) The weight attached to the cuckoo clock moves downward. E out is equal to m g h.](../resources/Figure_07_03_01.jpg "(a) The work done to lift the weight is stored in the mass-Earth system as gravitational potential energy. (b) As the weight moves downward, this gravitational potential energy is transferred to the cuckoo clock.")
 {: #Figure1}
 
-More precisely, we define the *change* in gravitational potential energy $$
-\Delta \PE_{\text{g}} $$ to be
+More precisely, we define the *change* in gravitational potential energy
+$$
+
+\Delta \PE\_{\text{g}} $$ to be
 
 <div class="equation">
  $$ \Delta \PE_{\text{g}}=mgh , $$
@@ -83,12 +87,12 @@ mgh &=& 4.90 \kg \cdot \mmss= 4.90 \J .
 Note that the units of gravitational potential energy turn out to be joules, the
 same as for work and other forms of energy. As the clock runs, the mass is
 lowered. We can think of the mass as gradually giving up its 4.90 J of
-gravitational potential energy, *without directly considering the force of
-gravity that does the work*.
+gravitational potential energy, _without directly considering the force of
+gravity that does the work_.
 
 ### Using Potential Energy to Simplify Calculations
 
-The equation $$ \Delta \PE_{\text{g}}=mgh $$ applies for any path that has a
+The equation $$ \Delta \PE\_{\text{g}}=mgh $$ applies for any path that has a
 change in height of $$ h $$, not just when the mass is lifted straight up. (
 See [Figure 2](#Figure2).) It is much easier to calculate $$ mgh $$
 (a simple multiplication) than it is to calculate the work done along a
@@ -96,7 +100,9 @@ complicated path. The idea of gravitational potential energy has the double
 advantage that it is very broadly applicable and it makes calculations easier.
 From now on, we will consider that any change in vertical position $$ h $$ of a
 mass $$ m $$ is accompanied by a change in gravitational potential energy $$ mgh
-$$, and we will avoid the equivalent but more difficult task of calculating work
+
+$$
+, and we will avoid the equivalent but more difficult task of calculating work
 done by or against the gravitational force.
 
 ![There is a four-story building. A person is carrying a television up the stairs of the building. The height of third story is h from the ground. A girl is standing outside the building and is lifting a similar television with the help of a pulley.](../resources/Figure_07_03_02.jpg "The change in gravitational potential energy \( (\Delta \PE_\text{g} ) \) between points A and B is independent of the path. \( \Delta \PE_\text{g} =mgh \) for any path between the two points. Gravity is one of a small class of forces where the work done by or against the force depends only on the starting and ending points, not on the path between them.")
@@ -218,13 +224,15 @@ Substituting known values,
  $$ \begin{array}{lll}
 v&=& \sqrt{2\left(9.80 \mss \right)\left(20.0 \m \right)}\\
 v&=&19.6 \ms .
-\end{array} $$
+\end{array}
+$$
+
 </div>
 
 **Solution for (b)**
 
-Again $$ -\Delta \PE_{\text{g}}=\Delta \KE $$. In this case there is initial
-kinetic energy, so $$ \Delta \KE=\frac{1}{2}m v^{2}-\frac{1}{2}m v_{0}^{2} $$.
+Again $$ -\Delta \PE*{\text{g}}=\Delta \KE $$. In this case there is initial
+kinetic energy, so $$ \Delta \KE=\frac{1}{2}m v^{2}-\frac{1}{2}m v*{0}^{2} $$.
 Thus,
 
 <div class="equation">
@@ -265,7 +273,7 @@ height, and not on its mass or the path taken. For example, the roller coaster
 will have the same final speed whether it falls 20.0 m straight down or takes a
 more complicated path like the one in the figure. Third, and perhaps
 unexpectedly, the final speed in part (b) is greater than in part (a), but by
-far less than 5.00 m/s. Finally, note that speed can be found at *any* height
+far less than 5.00 m/s. Finally, note that speed can be found at _any_ height
 along the way by simply using the appropriate value of $$ h $$ at the point of
 interest.
 
@@ -283,22 +291,22 @@ Making Connections: Take-Home Investigation—Converting Potential to Kinetic En
 </div>
 One can study the conversion of gravitational potential energy into kinetic energy in this experiment. On a smooth, level surface, use a ruler of the kind that has a groove running along its length and a book to make an incline (see [Figure 5](#Figure5)). Place a marble at the 10-cm position on the ruler and let it roll down the ruler. When it hits the level surface, measure the time it takes to roll one meter. Now place the marble at the 20-cm and the 30-cm positions and again measure the times it takes to roll 1 m on the level surface. Find the velocity of the marble on the level surface for all three positions. Plot velocity squared versus the distance traveled by the marble. What is the shape of each plot? If the shape is a straight line, the plot shows that the marble’s kinetic energy at the bottom is proportional to its potential energy at the release point.
 
-![A book is lying on the table and one end of a ruler rests on the edge of this book while the other end rests on the table, making it an incline. A marble is shown rolling down the ruler.](../resources/Figure_07_03_05.jpg "A marble rolls down a ruler, and its speed on the level surface is measured. ")
+![A book is lying on the table and one end of a ruler rests on the edge of this book while the other end rests on the table, making it an incline. A marble is shown rolling down the ruler.](../resources/Figure_07_03_05.jpg 'A marble rolls down a ruler, and its speed on the level surface is measured. ')
 {: #Figure5 height="150"}
 
 </div>
 
 ### Section Summary
 
-* Work done against gravity in lifting an object becomes potential energy of the
+- Work done against gravity in lifting an object becomes potential energy of the
   object-Earth system.
-* The change in gravitational potential energy, $$ \Delta \PE_{\text{g}} $$, is
-  $$ \Delta \PE_{g}=mgh $$, with $$ h $$ being the increase in height and $$ g
+- The change in gravitational potential energy, $$ \Delta \PE*{\text{g}} $$, is
+  $$ \Delta \PE*{g}=mgh $$, with $$ h $$ being the increase in height and $$ g
   $$ the acceleration due to gravity.
-* The gravitational potential energy of an object near Earth’s surface is due to
+- The gravitational potential energy of an object near Earth’s surface is due to
   its position in the mass-Earth system. Only differences in gravitational
-  potential energy, $$ \Delta \PE_{g} $$, have physical significance.
-* As an object descends without friction, its gravitational potential energy
+  potential energy, $$ \Delta \PE\_{g} $$, have physical significance.
+- As an object descends without friction, its gravitational potential energy
   changes into kinetic energy corresponding to increasing speed, so that $$
   \Delta \KE=-\Delta \PE_{\text{g}} $$.
 
@@ -328,7 +336,7 @@ $$ 50.0 \text{km}^{3} $$ $$ \left( \text{mass}=5.00\times 10^{13}\kg \right)$$,
 given that the lake has an average height of 40.0 m above the generators?
 (b) Compare this with the energy stored in a 9-megaton fusion bomb.
 
-![A dam with water flowing down its gates.](../resources/Figure_07_03_06.jpg "Hydroelectric facility (credit: Denis Belevich, Wikimedia Commons)")
+![A dam with water flowing down its gates.](../resources/Figure_07_03_06.jpg 'Hydroelectric facility (credit: Denis Belevich, Wikimedia Commons)')
 {: #Figure6 height="250"}
 
 </div>
@@ -354,7 +362,7 @@ and its center of mass is 36.5 m above the surrounding ground?
 
 **Strategy**
 
-For part (a), we use the gravitational potential energy formula $$ \PE_{g} = mgh $$, where $$ m $$ is the mass of the pyramid, $$ g = 9.80\mss $$, and $$ h $$ is the height of the center of mass.
+For part (a), we use the gravitational potential energy formula $$ \PE\_{g} = mgh $$, where $$ m $$ is the mass of the pyramid, $$ g = 9.80\mss $$, and $$ h $$ is the height of the center of mass.
 
 For part (b), we compare this energy to the typical daily food intake of about $$ 1.2 \times 10^{7}\J $$ (or 2400 kcal).
 
@@ -410,7 +418,7 @@ to $$ \KE_{\text{i}} $$. (Note that mass cancels.)
 
 **Strategy**
 
-We calculate the change in potential energy $$ \Delta \PE = mg\mid h\mid $$ and the initial kinetic energy $$ \KE_{\text{i}} = \frac{1}{2}mv_{0}^{2} $$, then find their ratio. The mass will cancel out.
+We calculate the change in potential energy $$ \Delta \PE = mg\mid h\mid $$ and the initial kinetic energy $$ \KE*{\text{i}} = \frac{1}{2}mv*{0}^{2} $$, then find their ratio. The mass will cancel out.
 
 **Solution**
 
@@ -434,7 +442,7 @@ The ratio is:
 
 **Discussion**
 
-The change in potential energy is approximately 16 times greater than the initial kinetic energy, confirming that $$ \Delta \PE \gg \KE_{\text{i}} $$. This explains why the final speed is only slightly greater when starting with an initial speed of 5.00 m/s compared to starting from rest—the gravitational potential energy converted to kinetic energy dominates over the initial kinetic energy.
+The change in potential energy is approximately 16 times greater than the initial kinetic energy, confirming that $$ \Delta \PE \gg \KE\_{\text{i}} $$. This explains why the final speed is only slightly greater when starting with an initial speed of 5.00 m/s compared to starting from rest—the gravitational potential energy converted to kinetic energy dominates over the initial kinetic energy.
 
 </div>
 </div>
@@ -443,7 +451,7 @@ The change in potential energy is approximately 16 times greater than the initia
 <div class="problem" markdown="1">
 A 100-g toy car is propelled by a compressed spring that starts it moving. The car follows the curved track in [Figure 7](#Figure7). Show that the final speed of the toy car is 0.687 m/s if its initial speed is 2.00 m/s and it coasts up the frictionless slope, gaining 0.180 m in altitude.
 
-![A toy car is moving up a curved track.](../resources/Figure_07_03_07.jpg "A toy car moves up a sloped track. (credit: Leszek Leszczynski, Flickr)")
+![A toy car is moving up a curved track.](../resources/Figure_07_03_07.jpg 'A toy car moves up a sloped track. (credit: Leszek Leszczynski, Flickr)')
 {: #Figure7 height="200"}
 
 </div>
@@ -468,11 +476,11 @@ slope neglecting friction:
 
 **Strategy**
 
-We use conservation of energy: $$ \KE_{\text{i}} + \PE_{\text{i}} = \KE_{\text{f}} + \PE_{\text{f}} $$. The height descended is $$ h = d\sin{\theta} = (70.0\m)\sin{30^\circ} = 35.0\m $$. For the time, we use kinematics with constant acceleration $$ a = g\sin{\theta} $$ down the slope.
+We use conservation of energy: $$ \KE*{\text{i}} + \PE*{\text{i}} = \KE*{\text{f}} + \PE*{\text{f}} $$. The height descended is $$ h = d\sin{\theta} = (70.0\m)\sin{30^\circ} = 35.0\m $$. For the time, we use kinematics with constant acceleration $$ a = g\sin{\theta} $$ down the slope.
 
 **Solution for (a)**
 
-Starting from rest ($$ v_{0} = 0 $$):
+Starting from rest ($$ v\_{0} = 0 $$):
 
 <div class="equation">
  $$ \begin{array}{lll}
@@ -482,7 +490,7 @@ v &=& \sqrt{686\text{ m}^{2}/\text{s}^{2}} = 26.2\ms
 \end{array} $$
 </div>
 
-For time, using $$ v^{2} = v_{0}^{2} + 2ad $$ with $$ a = g\sin{30^\circ} = 4.90\mss $$:
+For time, using $$ v^{2} = v\_{0}^{2} + 2ad $$ with $$ a = g\sin{30^\circ} = 4.90\mss $$:
 
 <div class="equation">
  $$ v = v_{0} + at \Rightarrow t = \frac{v-v_{0}}{a} = \frac{26.2\ms}{4.90\mss} = 5.35\s $$
@@ -490,7 +498,7 @@ For time, using $$ v^{2} = v_{0}^{2} + 2ad $$ with $$ a = g\sin{30^\circ} = 4.90
 
 **Solution for (b)**
 
-With initial speed $$ v_{0} = 2.50\ms $$:
+With initial speed $$ v\_{0} = 2.50\ms $$:
 
 <div class="equation">
  $$ \begin{array}{lll}
@@ -502,7 +510,7 @@ v &=& 26.3\ms
 \end{array} $$
 </div>
 
-For time, using $$ v = v_{0} + at $$:
+For time, using $$ v = v\_{0} + at $$:
 
 <div class="equation">
  $$ t = \frac{v-v_{0}}{a} = \frac{26.3\ms - 2.50\ms}{4.90\mss} = 4.86\s $$

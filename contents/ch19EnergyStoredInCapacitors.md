@@ -14,7 +14,7 @@ chapterNumber: 19
 <section data-depth="1"  markdown="1">
 Most of us have seen dramatizations in which medical personnel use a **defibrillator**{: class="term"} to pass an electric current through a patient’s heart to get it to beat normally. (Review [[Figure 1]](#Figure1).) Often realistic in detail, the person applying the shock directs another person to “make it 400 joules this time.” The energy delivered by the defibrillator is stored in a capacitor and can be adjusted to fit the situation. SI units of joules are often employed. Less dramatic is the use of capacitors in microelectronics, such as certain handheld calculators, to supply energy when batteries are charged. (See [[Figure 1]](#Figure1).) Capacitors are also used to supply energy for flash lamps on cameras.
 
-![In an electronic calculator circuit the memory is preserved using large capacitors which store energy when the batteries are charged.](../resources/Figure_19_07_01.jpg "Energy stored in the large capacitor is used to preserve the memory of an electronic calculator when its batteries are charged. (credit: Kucharek, Wikimedia Commons)")
+![In an electronic calculator circuit the memory is preserved using large capacitors which store energy when the batteries are charged.](../resources/Figure_19_07_01.jpg 'Energy stored in the large capacitor is used to preserve the memory of an electronic calculator when its batteries are charged. (credit: Kucharek, Wikimedia Commons)')
 {: #Figure1}
 
 Energy stored in a capacitor is electrical potential energy, and it is thus
@@ -30,6 +30,7 @@ since the capacitor now has its full voltage $$V $$ on it. The average voltage
 on the capacitor during the charging process is $$V/2 $$ , and so the average
 voltage experienced by the full charge $$q $$ is $$V/2 $$ . Thus the energy
 stored in a capacitor, $${E}_{\text{cap}} $$, is
+
 <div class="equation" >
  $${E}_{\text{cap}}=\frac{QV}{2}, $$
 </div>
@@ -62,7 +63,7 @@ where  $$Q $$  is the charge,  $$V $$  is the voltage, and  $$C $$
 </div>
 In a defibrillator, the delivery of a large charge in a short burst to a set of paddles across a person’s chest can be a lifesaver. The person’s heart attack might have arisen from the onset of fast, irregular beating of the heart—cardiac or ventricular fibrillation. The application of a large shock of electrical energy can terminate the arrhythmia and allow the body’s pacemaker to resume normal patterns. Today it is common for ambulances to carry a defibrillator, which also uses an electrocardiogram to analyze the patient’s heartbeat pattern. Automated external defibrillators (AED) are found in many public places ([[Figure 2]](#Figure2)). These are designed to be used by lay persons. The device automatically diagnoses the patient’s heart condition and then applies the shock with appropriate energy and waveform. CPR is recommended in many cases before use of an AED.
 
-![Photograph of an automated external defibrillator.](../resources/Figure_19_07_02.jpg "Automated external defibrillators are found in many public places. These portable units provide verbal instructions for use in the important first few minutes for a person suffering a cardiac attack. (credit: Owain Davies, Wikimedia Commons)")
+![Photograph of an automated external defibrillator.](../resources/Figure_19_07_02.jpg 'Automated external defibrillators are found in many public places. These portable units provide verbal instructions for use in the important first few minutes for a person suffering a cardiac attack. (credit: Owain Davies, Wikimedia Commons)')
 {: #Figure2}
 
 <div id="Example1" class="example" markdown="1">
@@ -100,9 +101,9 @@ This is a fairly large, but manageable, capacitance at $$ 1.00 \times 10^{4}
 
 ### Section Summary
 
-* Capacitors are used in a variety of devices, including defibrillators,
+- Capacitors are used in a variety of devices, including defibrillators,
   microelectronics such as calculators, and flashlamps, to supply energy.
-* The energy stored in a capacitor can be expressed in three ways:
+- The energy stored in a capacitor can be expressed in three ways:
 
   <div class="equation" >
    $${E}_{\text{cap}}=\frac{QV}{2}=\frac{ C V^{2}}{2}=\frac{ {Q}^{2}}{2C}, $$
