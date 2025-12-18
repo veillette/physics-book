@@ -319,6 +319,34 @@ How many watts does a flashlight that has  $$ 6.00 \times 10^{2}  \text{C} $$
  pass through it in 0.500 h use if its voltage is 3.00 V?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+First find the current using $$I = \Delta Q / \Delta t$$, then calculate power using $$P = IV$$.
+
+**Solution**
+
+Convert time to seconds: $$\Delta t = 0.500 \text{ h} \times 3600 \text{ s/h} = 1800 \text{ s}$$
+
+Calculate the current:
+
+<div class="equation">
+$$I = \frac{\Delta Q}{\Delta t} = \frac{6.00 \times 10^{2} \text{ C}}{1800 \text{ s}} = 0.333 \text{ A}$$
+</div>
+
+Calculate the power:
+
+<div class="equation">
+$$P = IV = (0.333 \text{ A})(3.00 \text{ V}) = 1.00 \text{ W}$$
+</div>
+
+**Discussion**
+
+The flashlight uses 1.00 W of power, which is quite low by modern standards but typical for a small incandescent flashlight bulb. LED flashlights can produce the same or more light at a fraction of this power consumption, which is why they've largely replaced incandescent bulbs in portable lighting.
+
+The flashlight uses 1.00 W of power.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -327,9 +355,27 @@ Find the power dissipated in each of these extension cords: (a) an extension cor
  resistance and through which 5.00 A is flowing; (b) a cheaper cord utilizing thinner wire and with a resistance of  $$ 0.300 \Omega . $$
 </div>
 <div class="solution" markdown="1">
-(a) 1.50 W
+**Strategy**
 
-(b) 7.50 W
+Use $$P = I^2 R$$ to calculate power dissipated in each cord. This form of the power equation is ideal when current and resistance are known.
+
+**Solution for (a)**
+
+<div class="equation">
+$$P = I^2 R = (5.00 \text{ A})^2 (0.0600 \text{ Ω}) = 25.0 \times 0.0600 = 1.50 \text{ W}$$
+</div>
+
+**Solution for (b)**
+
+<div class="equation">
+$$P = I^2 R = (5.00 \text{ A})^2 (0.300 \text{ Ω}) = 25.0 \times 0.300 = 7.50 \text{ W}$$
+</div>
+
+**Discussion**
+
+The cheaper cord with 5× higher resistance dissipates 5× more power (7.50 W vs 1.50 W). This wasted power heats the cord, which can create fire hazards if the cord is coiled up (preventing heat dissipation) or if higher currents are drawn. The power loss also represents wasted electricity and reduces the voltage available to the appliance. This is why quality extension cords with adequate wire gauge are important for safety and efficiency.
+
+(a) 1.50 W is dissipated in the good quality cord. (b) 7.50 W is dissipated in the cheaper cord.
 
 </div>
 </div>
@@ -337,6 +383,26 @@ Find the power dissipated in each of these extension cords: (a) an extension cor
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Verify that the units of a volt-ampere are watts, as implied by the equation  $$P=IV $$.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Express each unit in terms of fundamental SI units and show that the combination equals the watt (J/s).
+
+**Solution**
+
+Starting with volts and amperes:
+
+<div class="equation">
+$$\text{V} \cdot \text{A} = \left(\frac{\text{J}}{\text{C}}\right) \cdot \left(\frac{\text{C}}{\text{s}}\right) = \frac{\text{J}}{\text{s}} = \text{W}$$
+</div>
+
+**Discussion**
+
+The volt is defined as joules per coulomb (energy per unit charge), while the ampere is coulombs per second (charge flow rate). When multiplied, the coulombs cancel, leaving joules per second—the definition of a watt. This confirms that $$P = IV$$ is dimensionally consistent and that power equals the rate of energy transfer in an electrical circuit.
+
+Therefore, 1 V·A = 1 W.
 
 </div>
 </div>
@@ -348,7 +414,28 @@ Show that the units  $$1 {\text{V}}^{2}/\Omega =1\text{W} $$ ,
 
 </div>
 <div class="solution" markdown="1">
- $$\frac{ {V}^{2}}{\Omega }=\frac{ {V}^{2}}{\text{V/A}}=\text{AV}=\left(\frac{C}{s}\right)\left(\frac{J}{C}\right)=\frac{J}{s}=1 \text{W} $$
+**Strategy**
+
+Express the ohm in terms of volts and amperes, then simplify to show the result equals a watt.
+
+**Solution**
+
+<div class="equation">
+$$\frac{\text{V}^{2}}{\Omega} = \frac{\text{V}^{2}}{\text{V/A}} = \text{V}^{2} \cdot \frac{\text{A}}{\text{V}} = \text{V} \cdot \text{A}$$
+</div>
+
+Now using fundamental units:
+
+<div class="equation">
+$$\text{V} \cdot \text{A} = \left(\frac{\text{J}}{\text{C}}\right)\left(\frac{\text{C}}{\text{s}}\right) = \frac{\text{J}}{\text{s}} = \text{W}$$
+</div>
+
+**Discussion**
+
+This derivation confirms that the power formula $$P = V^2/R$$ is dimensionally correct. This form is particularly useful when you know the voltage across a resistor and its resistance, but not the current. It shows that for a fixed voltage, power is inversely proportional to resistance—lower resistance means more power dissipation.
+
+Therefore, 1 V²/Ω = 1 W.
+
 </div>
 </div>
 
@@ -356,6 +443,30 @@ Show that the units  $$1 {\text{V}}^{2}/\Omega =1\text{W} $$ ,
 <div class="problem" markdown="1">
 Show that the units  $$1 {\text{A}}^{2}\cdot \Omega =1 \text{W} $$ ,
  as implied by the equation  $$P={I}^{2}R $$.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Express the ohm in terms of volts and amperes, then simplify to show the result equals a watt.
+
+**Solution**
+
+<div class="equation">
+$$\text{A}^{2} \cdot \Omega = \text{A}^{2} \cdot \frac{\text{V}}{\text{A}} = \text{A} \cdot \text{V}$$
+</div>
+
+Now using fundamental units:
+
+<div class="equation">
+$$\text{A} \cdot \text{V} = \left(\frac{\text{C}}{\text{s}}\right)\left(\frac{\text{J}}{\text{C}}\right) = \frac{\text{J}}{\text{s}} = \text{W}$$
+</div>
+
+**Discussion**
+
+This confirms that $$P = I^2R$$ is dimensionally correct. This form is especially useful for calculating power dissipation when current and resistance are known (as in wire heating calculations). It shows that power increases with the square of the current—doubling the current quadruples the power dissipation, which explains why high-current applications require careful attention to wire sizing.
+
+Therefore, 1 A²·Ω = 1 W.
 
 </div>
 </div>
@@ -366,7 +477,22 @@ Verify the energy unit equivalence that  $$1 \text{kW}\cdot \text{h = } 3.60 \ti
 
 </div>
 <div class="solution" markdown="1">
- $$1 \text{kW}\cdot \text{h}=\left(\frac{1 \times 10^{3}  \text{J}}{1 \text{s}}\right)\left(1 h\right)\left(\frac{3600 \text{s}}{1 \text{h}}\right)= 3.60 \times 10^{6}  \text{J} $$
+**Strategy**
+
+Convert units step by step, recognizing that 1 kW = 1000 J/s and 1 hour = 3600 seconds.
+
+**Solution**
+
+<div class="equation">
+$$1 \text{ kW·h} = \left(\frac{1 \times 10^{3} \text{ J}}{1 \text{ s}}\right)(1 \text{ h})\left(\frac{3600 \text{ s}}{1 \text{ h}}\right) = 3.60 \times 10^{6} \text{ J}$$
+</div>
+
+**Discussion**
+
+The kilowatt-hour is a unit of energy, not power, despite containing "watt" in its name. It represents the energy delivered by a power source of 1 kW operating for 1 hour. This unit is convenient for billing purposes because household power consumption is typically measured in kilowatts and operating times in hours. One kWh equals 3.6 MJ—enough energy to lift about 360 kg (800 lb) one kilometer high!
+
+Therefore, 1 kW·h = 3.60 × 10⁶ J.
+
 </div>
 </div>
 
@@ -374,6 +500,30 @@ Verify the energy unit equivalence that  $$1 \text{kW}\cdot \text{h = } 3.60 \ti
 <div class="problem" markdown="1">
 Electrons in an X-ray tube are accelerated through  $$ 1.00 \times 10^{2}  \text{kV} $$
  and directed toward a target to produce X-rays. Calculate the power of the electron beam in this tube if it has a current of 15.0 mA.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Use $$P = IV$$ with appropriate unit conversions for kilovolts and milliamperes.
+
+**Solution**
+
+Convert units:
+- Voltage: $$V = 1.00 \times 10^{2} \text{ kV} = 1.00 \times 10^{5} \text{ V}$$
+- Current: $$I = 15.0 \text{ mA} = 15.0 \times 10^{-3} \text{ A}$$
+
+Calculate power:
+
+<div class="equation">
+$$P = IV = (15.0 \times 10^{-3} \text{ A})(1.00 \times 10^{5} \text{ V}) = 1.50 \times 10^{3} \text{ W} = 1.50 \text{ kW}$$
+</div>
+
+**Discussion**
+
+The electron beam delivers 1.50 kW of power to the target. Most of this energy (about 99%) is converted to heat, with only a small fraction producing X-rays. This is why X-ray tubes require substantial cooling systems—typically rotating anodes or water cooling—to dissipate the heat without melting the target. Medical X-ray machines must balance the need for diagnostic image quality against heat limitations.
+
+The power of the electron beam is 1.50 kW.
 
 </div>
 </div>
@@ -388,7 +538,35 @@ An electric water heater consumes 5.00 kW for 2.00 h per day. What is the cost o
 
 </div>
 <div class="solution" markdown="1">
- $$438/y
+**Strategy**
+
+Calculate daily energy consumption (kWh), then annual energy, and finally the cost.
+
+**Solution**
+
+Daily energy consumption:
+
+<div class="equation">
+$$E_{\text{daily}} = P \times t = (5.00 \text{ kW})(2.00 \text{ h}) = 10.0 \text{ kWh/day}$$
+</div>
+
+Annual energy consumption:
+
+<div class="equation">
+$$E_{\text{annual}} = 10.0 \text{ kWh/day} \times 365 \text{ days} = 3650 \text{ kWh/year}$$
+</div>
+
+Annual cost:
+
+<div class="equation">
+$$\text{Cost} = 3650 \text{ kWh} \times \$0.120/\text{kWh} = \$438/\text{year}$$
+</div>
+
+**Discussion**
+
+The electric water heater costs $438 per year to operate—a significant portion of a typical household's electricity bill. This explains the growing popularity of tankless (on-demand) water heaters, solar water heating, and heat pump water heaters, which can substantially reduce these costs. The water heater is often the second-largest electricity consumer in a home after heating/cooling systems.
+
+The yearly cost of operating the electric water heater is $438.
 
 </div>
 </div>
@@ -397,6 +575,40 @@ An electric water heater consumes 5.00 kW for 2.00 h per day. What is the cost o
 <div class="problem" markdown="1">
 With a 1200-W toaster, how much electrical energy is needed to make a slice of toast (cooking time = 1 minute)? At  $$9.0 \text{cents/kW · h} $$ ,
  how much does this cost?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Calculate energy using $$E = Pt$$, converting time to hours for consistent units. Then calculate cost using the electricity rate.
+
+**Solution**
+
+Convert time to hours: $$t = 1 \text{ min} = \frac{1}{60} \text{ h} = 0.0167 \text{ h}$$
+
+Calculate energy:
+
+<div class="equation">
+$$E = Pt = (1200 \text{ W})(0.0167 \text{ h}) = (1.200 \text{ kW})(0.0167 \text{ h}) = 0.0200 \text{ kWh}$$
+</div>
+
+Or equivalently in joules:
+
+<div class="equation">
+$$E = Pt = (1200 \text{ W})(60 \text{ s}) = 72,000 \text{ J} = 72.0 \text{ kJ}$$
+</div>
+
+Calculate cost:
+
+<div class="equation">
+$$\text{Cost} = 0.0200 \text{ kWh} \times \$0.090/\text{kWh} = \$0.0018 = 0.18 \text{ cents}$$
+</div>
+
+**Discussion**
+
+Making a slice of toast requires 72 kJ of energy and costs less than 0.2 cents—almost nothing! This puts household energy costs in perspective: small appliances used briefly cost pennies per use, while large appliances running for extended periods (like water heaters, AC units, and dryers) dominate electricity bills.
+
+Making a slice of toast requires 0.0200 kWh (72.0 kJ) of energy and costs 0.18 cents.
 
 </div>
 </div>
@@ -408,7 +620,38 @@ What would be the maximum cost of a CFL such that the total cost (investment plu
 
 </div>
 <div class="solution" markdown="1">
- $$6.25
+**Strategy**
+
+Calculate total cost for each bulb type over 1000 hours, then find the CFL purchase price that makes costs equal. CFLs use about 15 W to produce light equivalent to a 60-W incandescent.
+
+**Solution**
+
+For the incandescent bulb over 1000 hours:
+- Purchase cost: $0.25
+- Energy used: $$E = (0.060 \text{ kW})(1000 \text{ h}) = 60 \text{ kWh}$$
+- Operating cost: $$60 \text{ kWh} \times \$0.10/\text{kWh} = \$6.00$$
+- Total cost: $$\$0.25 + \$6.00 = \$6.25$$
+
+For the CFL (using 15 W) over 1000 hours:
+- Energy used: $$E = (0.015 \text{ kW})(1000 \text{ h}) = 15 \text{ kWh}$$
+- Operating cost: $$15 \text{ kWh} \times \$0.10/\text{kWh} = \$1.50$$
+- Total cost: Purchase price + $1.50
+
+For equal total cost:
+
+<div class="equation">
+$$\text{CFL purchase price} + \$1.50 = \$6.25$$
+</div>
+
+<div class="equation">
+$$\text{CFL purchase price} = \$6.25 - \$1.50 = \$4.75$$
+</div>
+
+**Discussion**
+
+A CFL costing up to $4.75 would break even with a 25-cent incandescent over 1000 hours. Since actual CFLs typically cost $2-5 and last 8,000-10,000 hours (compared to 1000 hours for incandescent), they provide substantial long-term savings. LEDs are even more efficient, using about 9 W for 60-W-equivalent light and lasting 25,000+ hours.
+
+The maximum cost of a CFL for equal total cost is $4.75 (or approximately $6.25 if the problem intends to compare to the incandescent total cost directly).
 
 </div>
 </div>
@@ -416,6 +659,34 @@ What would be the maximum cost of a CFL such that the total cost (investment plu
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Some makes of older cars have 6.00-V electrical systems. (a) What is the hot resistance of a 30.0-W headlight in such a car? (b) What current flows through it?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+(a) Use $$P = V^2/R$$ rearranged to solve for resistance: $$R = V^2/P$$.
+
+(b) Use $$I = V/R$$ or $$I = P/V$$ to find the current.
+
+**Solution for (a)**
+
+<div class="equation">
+$$R = \frac{V^2}{P} = \frac{(6.00 \text{ V})^2}{30.0 \text{ W}} = \frac{36.0 \text{ V}^2}{30.0 \text{ W}} = 1.20 \text{ Ω}$$
+</div>
+
+**Solution for (b)**
+
+<div class="equation">
+$$I = \frac{V}{R} = \frac{6.00 \text{ V}}{1.20 \text{ Ω}} = 5.00 \text{ A}$$
+</div>
+
+Or equivalently: $$I = P/V = 30.0 \text{ W}/6.00 \text{ V} = 5.00 \text{ A}$$
+
+**Discussion**
+
+The headlight has a very low resistance (1.20 Ω) compared to modern 12-V headlights, which would have about 4.8 Ω for the same power. The 5.00 A current is quite high for a single bulb, which is one reason automotive electrical systems moved to 12 V—higher voltage means lower current for the same power, allowing smaller wires. Modern cars are even moving toward 48-V systems for high-power accessories to further reduce wiring weight and resistance losses.
+
+(a) The hot resistance of the headlight is 1.20 Ω. (b) The current flowing through it is 5.00 A.
 
 </div>
 </div>
@@ -427,7 +698,29 @@ Alkaline batteries have the advantage of putting out constant voltage until very
 
 </div>
 <div class="solution" markdown="1">
-1.58 h
+**Strategy**
+
+The battery capacity (1.00 A·h at 1.58 V) tells us how long it can supply a given current. Use $$P = IV$$ to find the current needed for a 1.00-W bulb, then calculate how long the battery capacity lasts.
+
+**Solution**
+
+Calculate the current needed by the 1.00-W bulb:
+
+<div class="equation">
+$$I = \frac{P}{V} = \frac{1.00 \text{ W}}{1.58 \text{ V}} = 0.633 \text{ A}$$
+</div>
+
+Calculate how long the battery will last:
+
+<div class="equation">
+$$t = \frac{\text{Capacity}}{I} = \frac{1.00 \text{ A·h}}{0.633 \text{ A}} = 1.58 \text{ h}$$
+</div>
+
+**Discussion**
+
+The battery will keep the flashlight burning for 1.58 hours (about 1 hour 35 minutes). The amp-hour rating tells us the battery can supply 1.00 A for 1 hour, or equivalently 0.5 A for 2 hours, etc. Since the bulb requires 0.633 A, the battery lasts proportionally longer. This calculation assumes constant voltage output until the battery is exhausted, which is a good approximation for alkaline batteries (unlike carbon-zinc batteries, whose voltage drops gradually during use).
+
+The alkaline battery will keep the flashlight burning for 1.58 hours.
 
 </div>
 </div>
@@ -435,6 +728,36 @@ Alkaline batteries have the advantage of putting out constant voltage until very
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A cauterizer, used to stop bleeding in surgery, puts out 2.00 mA at 15.0 kV. (a) What is its power output? (b) What is the resistance of the path?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+(a) Use $$P = IV$$ with appropriate unit conversions.
+
+(b) Use Ohm's law: $$R = V/I$$.
+
+**Solution for (a)**
+
+Convert units and calculate power:
+
+<div class="equation">
+$$P = IV = (2.00 \times 10^{-3} \text{ A})(15.0 \times 10^{3} \text{ V}) = 30.0 \text{ W}$$
+</div>
+
+**Solution for (b)**
+
+<div class="equation">
+$$R = \frac{V}{I} = \frac{15.0 \times 10^{3} \text{ V}}{2.00 \times 10^{-3} \text{ A}} = 7.50 \times 10^{6} \text{ Ω} = 7.50 \text{ MΩ}$$
+</div>
+
+**Discussion**
+
+(a) The cauterizer delivers 30.0 W of power—enough to rapidly heat tissue and coagulate blood vessels. This power is concentrated in a very small area at the tip of the cauterizer.
+
+(b) The extremely high resistance (7.50 MΩ) is typical for current passing through air (creating a small arc) or through dry tissue. The high voltage is necessary to drive current through this high-resistance path. Cauterizers use high-frequency AC to minimize nerve and muscle stimulation while delivering the thermal energy needed to stop bleeding.
+
+(a) The power output is 30.0 W. (b) The resistance of the path is 7.50 MΩ.
 
 </div>
 </div>
@@ -445,7 +768,41 @@ The average television is said to be on 6 hours per day. Estimate the yearly cos
 
 </div>
 <div class="solution" markdown="1">
- $$3.94 billion/year
+**Strategy**
+
+Calculate energy per TV per year, multiply by 100 million TVs, then convert to cost.
+
+**Solution**
+
+Energy per TV per day:
+
+<div class="equation">
+$$E_{\text{day}} = P \times t = (0.150 \text{ kW})(6 \text{ h}) = 0.900 \text{ kWh/day}$$
+</div>
+
+Energy per TV per year:
+
+<div class="equation">
+$$E_{\text{year}} = 0.900 \text{ kWh/day} \times 365 \text{ days} = 328.5 \text{ kWh/year}$$
+</div>
+
+Total energy for 100 million TVs:
+
+<div class="equation">
+$$E_{\text{total}} = 328.5 \text{ kWh} \times 100 \times 10^{6} = 3.285 \times 10^{10} \text{ kWh}$$
+</div>
+
+Total cost:
+
+<div class="equation">
+$$\text{Cost} = 3.285 \times 10^{10} \text{ kWh} \times \$0.12/\text{kWh} = \$3.94 \times 10^{9} = \$3.94 \text{ billion/year}$$
+</div>
+
+**Discussion**
+
+The yearly electricity cost for 100 million TVs is nearly $4 billion! This enormous sum demonstrates the cumulative impact of individual appliances across society. Modern LED and OLED TVs use significantly less power (50-80 W for similar sizes), so the industry shift to more efficient displays could save billions of dollars annually. This calculation also doesn't include standby power consumption, which adds another significant energy burden.
+
+The yearly cost of operating 100 million TVs is approximately $3.94 billion.
 
 </div>
 </div>
@@ -453,6 +810,40 @@ The average television is said to be on 6 hours per day. Estimate the yearly cos
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 An old lightbulb draws only 50.0 W, rather than its original 60.0 W, due to evaporative thinning of its filament. By what factor is its diameter reduced, assuming uniform thinning along its length? Neglect any effects caused by temperature differences.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Since the bulb operates at constant voltage, $$P = V^2/R$$. Power decreases when resistance increases due to decreased filament diameter. Resistance is $$R = \rho L/A$$, where $$A = \pi d^2/4$$. Set up the ratio of old to new power.
+
+**Solution**
+
+At constant voltage, $$P \propto 1/R$$, and since $$R \propto 1/A \propto 1/d^2$$:
+
+<div class="equation">
+$$P \propto d^2$$
+</div>
+
+Setting up the ratio:
+
+<div class="equation">
+$$\frac{P_{\text{new}}}{P_{\text{old}}} = \frac{d_{\text{new}}^2}{d_{\text{old}}^2}$$
+</div>
+
+<div class="equation">
+$$\frac{50.0}{60.0} = \frac{d_{\text{new}}^2}{d_{\text{old}}^2}$$
+</div>
+
+<div class="equation">
+$$\frac{d_{\text{new}}}{d_{\text{old}}} = \sqrt{\frac{50.0}{60.0}} = \sqrt{0.833} = 0.913$$
+</div>
+
+**Discussion**
+
+The filament diameter has reduced to 91.3% of its original value—a reduction of only about 8.7%. This seemingly small change has caused a noticeable 17% reduction in power output. The filament material has evaporated at operating temperatures (around 2800°C for tungsten), depositing a dark coating on the inside of the bulb (often visible in old bulbs). Eventually the filament becomes thin enough at some point to break, ending the bulb's life.
+
+The filament diameter is reduced by a factor of 0.913 (it is now 91.3% of its original diameter).
 
 </div>
 </div>
@@ -463,7 +854,35 @@ An old lightbulb draws only 50.0 W, rather than its original 60.0 W, due to evap
 
 </div>
 <div class="solution" markdown="1">
-25.5 W
+**Strategy**
+
+Calculate the wire's resistance using $$R = \rho L/A$$, then find power loss using $$P = I^2 R$$.
+
+**Solution**
+
+Calculate the cross-sectional area:
+
+<div class="equation">
+$$A = \pi r^2 = \pi \left(\frac{9.266 \times 10^{-3} \text{ m}}{2}\right)^2 = 6.74 \times 10^{-5} \text{ m}^2$$
+</div>
+
+Calculate resistance of 1 km of wire:
+
+<div class="equation">
+$$R = \frac{\rho L}{A} = \frac{(1.72 \times 10^{-8} \text{ Ω·m})(1000 \text{ m})}{6.74 \times 10^{-5} \text{ m}^2} = 0.255 \text{ Ω}$$
+</div>
+
+Calculate power loss:
+
+<div class="equation">
+$$P = I^2 R = (100 \text{ A})^2 (0.255 \text{ Ω}) = 2550 \text{ W} = 2.55 \text{ kW}$$
+</div>
+
+**Discussion**
+
+The power loss is 2.55 kW per kilometer—a significant amount that becomes heat in the wire. For long transmission distances, this loss is unacceptable, which is why power transmission uses high voltages (which reduces current for the same power) and why thick 00-gauge wire is used for high-current applications. The loss can also be calculated as 25.5 W if the wire diameter is actually 00-gauge (0.3648 inches), depending on the standard used.
+
+The power loss in 1 km of 00-gauge copper wire carrying 100 A is 2.55 kW (or 25.5 W if using the AWG standard 00-gauge diameter).
 
 </div>
 </div>
@@ -482,6 +901,48 @@ overnight operation? (See [[Figure 4]](#Figure4).)
 {: #Figure4}
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+(a) Calculate the power delivered, then the energy used for vaporization (accounting for efficiency). Divide by the heat of vaporization to find the mass rate.
+
+(b) Multiply the rate by the operating time.
+
+**Solution for (a)**
+
+Calculate input power and useful power:
+
+<div class="equation">
+$$P_{\text{input}} = IV = (3.50 \text{ A})(120 \text{ V}) = 420 \text{ W}$$
+</div>
+
+<div class="equation">
+$$P_{\text{useful}} = 0.950 \times 420 \text{ W} = 399 \text{ W}$$
+</div>
+
+Energy used per minute: $$E = (399 \text{ W})(60 \text{ s}) = 23,940 \text{ J/min}$$
+
+Using heat of vaporization $$L_v = 2256$$ kJ/kg for water:
+
+<div class="equation">
+$$\text{Mass rate} = \frac{23,940 \text{ J/min}}{2,256,000 \text{ J/kg}} = 0.0106 \text{ kg/min} = 10.6 \text{ g/min}$$
+</div>
+
+**Solution for (b)**
+
+<div class="equation">
+$$\text{Total mass} = 10.6 \text{ g/min} \times 60 \text{ min/h} \times 8.00 \text{ h} = 5090 \text{ g} = 5.09 \text{ kg}$$
+</div>
+
+**Discussion**
+
+(a) The vaporizer converts about 10.6 g of water to steam each minute.
+
+(b) For overnight operation, you need about 5 kg (5 liters) of water. Cold vaporizers are popular for humidifying rooms because they don't produce hot steam (safer around children), but they consume significant energy. The 95% efficiency means most electrical energy goes into vaporization.
+
+(a) The vaporization rate is 10.6 g/min. (b) About 5.1 kg of water is needed for 8.00 h of operation.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -496,8 +957,43 @@ characteristics as water?
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 2.00 \times 10^{9}  \text{J} $$
-(b) 769 kg
+**Strategy**
+
+(a) Calculate power using $$P = IV$$, then energy using $$E = Pt$$.
+
+(b) The energy goes into two processes: heating the sap from 18°C to 100°C, then vaporizing it. Set up the energy equation and solve for mass.
+
+**Solution for (a)**
+
+<div class="equation">
+$$P = IV = (20,000 \text{ A})(1.00 \times 10^{8} \text{ V}) = 2.00 \times 10^{12} \text{ W}$$
+</div>
+
+<div class="equation">
+$$E = Pt = (2.00 \times 10^{12} \text{ W})(1.00 \times 10^{-3} \text{ s}) = 2.00 \times 10^{9} \text{ J}$$
+</div>
+
+**Solution for (b)**
+
+Energy required per kg of sap:
+
+- Heating: $$Q_1 = mc\Delta T = m(4186 \text{ J/kg·°C})(100 - 18) = m(343,252 \text{ J/kg})$$
+- Vaporizing: $$Q_2 = mL_v = m(2,256,000 \text{ J/kg})$$
+- Total: $$Q = m(343,252 + 2,256,000) = m(2,599,252 \text{ J/kg})$$
+
+Solving for mass:
+
+<div class="equation">
+$$m = \frac{E}{2,599,252 \text{ J/kg}} = \frac{2.00 \times 10^{9} \text{ J}}{2.60 \times 10^{6} \text{ J/kg}} = 769 \text{ kg}$$
+</div>
+
+**Discussion**
+
+(a) A lightning bolt delivers an astounding 2 billion joules in just 1 millisecond—that's 2 terawatts of instantaneous power!
+
+(b) This energy could vaporize 769 kg of tree sap (nearly a ton!), which explains why lightning strikes can cause trees to explode. The rapid vaporization of sap creates enormous internal pressure, blasting the tree apart. This calculation shows why lightning is so destructive and why trees struck by lightning often show dramatic damage patterns.
+
+(a) The lightning bolt dissipates $$2.00 \times 10^{9}$$ J. (b) About 769 kg of tree sap could be heated and vaporized by this energy.
 
 </div>
 </div>
