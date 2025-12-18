@@ -455,11 +455,39 @@ tallest trees *can* be achieved.
 The density of oil is less than that of water, yet a loaded oil tanker sits lower in the water than an empty one. Why?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+This question requires us to consider Archimedes' principle and distinguish between the density of the cargo and the total weight of the loaded ship.
+
+**Solution**
+
+The key to understanding this apparent paradox is recognizing that it is the *total weight* of the tanker (ship + cargo) that determines how deep it sits in the water, not the density of the cargo. According to Archimedes' principle, a floating object displaces a weight of water equal to its own weight. When the tanker is loaded with oil, even though the oil is less dense than water, the total weight of the ship plus oil is much greater than the weight of the empty ship alone. This greater total weight requires displacing more water to achieve buoyancy equilibrium, causing the loaded tanker to sit lower in the water.
+
+**Discussion**
+
+This situation illustrates that buoyancy depends on total weight, not on density comparisons between cargo and the surrounding fluid. Even if the tanker were loaded with something less dense than air, like helium-filled containers, the added mass would still cause the ship to sit lower. The comparison of oil's density to water's density is irrelevant—what matters is that adding any cargo increases the total weight that must be supported by buoyancy.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 Is surface tension due to cohesive or adhesive forces, or both?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We need to examine the molecular-level origin of surface tension and identify which type of intermolecular force is responsible.
+
+**Solution**
+
+Surface tension is due to **cohesive forces** only. Surface tension arises from the attractive forces between molecules of the same type (liquid molecules attracting other liquid molecules). At the surface of a liquid, molecules experience a net inward pull because they have fewer neighboring liquid molecules above them than beside or below them. This imbalance creates a "skin" effect that minimizes the surface area. Adhesive forces, which act between different types of molecules (such as liquid and container), do not contribute to surface tension itself.
+
+**Discussion**
+
+While adhesive forces are important in related phenomena like capillary action and contact angle formation, surface tension is purely a cohesive phenomenon. This is why surface tension is a property of the liquid itself (independent of what it contacts) and why all liquids exhibit surface tension to some degree based on the strength of intermolecular attractions within that liquid.
 
 </div>
 </div>
@@ -469,11 +497,41 @@ Is surface tension due to cohesive or adhesive forces, or both?
 Is capillary action due to cohesive or adhesive forces, or both?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We need to analyze the mechanism of capillary action and identify which molecular forces are involved.
+
+**Solution**
+
+Capillary action is due to **both** cohesive and adhesive forces. Adhesive forces between the liquid and the tube wall cause the liquid to "climb" up the walls of a narrow tube. Meanwhile, cohesive forces between liquid molecules pull the rest of the liquid along with the molecules that are adhering to the wall. The interplay of these two forces determines the behavior: if adhesive forces dominate (as with water in glass), the liquid rises and forms a concave meniscus; if cohesive forces dominate (as with mercury in glass), the liquid is depressed and forms a convex meniscus.
+
+**Discussion**
+
+The contact angle directly reflects the balance between cohesive and adhesive forces. A contact angle less than 90° (like water-glass at 0°) indicates that adhesive forces dominate, while a contact angle greater than 90° (like mercury-glass at 140°) indicates that cohesive forces dominate. Both types of forces must be present for capillary action to occur—without adhesion, there would be no "grip" on the wall, and without cohesion, the liquid would not move as a column.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 Birds such as ducks, geese, and swans have greater densities than water, yet they are able to sit on its surface. Explain this ability, noting that water does not wet their feathers and that they cannot sit on soapy water.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We need to analyze how surface tension supports these birds and explain why their water-repellent feathers are essential for this phenomenon.
+
+**Solution**
+
+Waterfowl can sit on water because their oily, water-repellent feathers allow surface tension to support their weight. Because water does not wet their feathers (the feathers are hydrophobic), the water surface curves around the bird without breaking through. This curved water surface creates an upward component of the surface tension force that helps support the bird's weight. The bird essentially sits in a depression on the water surface, much like a water strider walks on water or a needle floats on a water surface.
+
+When soap is added to the water, the surface tension is significantly reduced (from about 0.073 N/m to about 0.037 N/m). This lower surface tension cannot provide sufficient upward force to support the bird's weight, causing the bird to sink into the water. Additionally, soap may allow the water to penetrate the feathers, eliminating the hydrophobic barrier.
+
+**Discussion**
+
+This explains why waterfowl spend considerable time preening and spreading oil from their preen gland over their feathers—maintaining water-repellent feathers is essential for buoyancy and insulation. Oil spills are devastating to waterfowl precisely because petroleum products destroy this water-repellent coating, causing birds to become waterlogged and lose the surface tension support they depend on.
 
 </div>
 </div>
@@ -483,11 +541,41 @@ Birds such as ducks, geese, and swans have greater densities than water, yet the
 Water beads up on an oily sunbather, but not on her neighbor, whose skin is not oiled. Explain in terms of cohesive and adhesive forces.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We need to compare the relative strengths of cohesive forces within water and adhesive forces between water and the two different surfaces (oily skin versus bare skin).
+
+**Solution**
+
+Water beads up on the oily sunbather because the adhesive forces between water and oil are much weaker than the cohesive forces within water itself. With weak adhesion, water molecules are pulled together by their strong cohesive attractions, forming spherical droplets that minimize surface area. The contact angle between water and oily surfaces is large (greater than 90°), causing the water to form distinct beads.
+
+On the non-oiled skin, the adhesive forces between water and skin are strong—comparable to or greater than the cohesive forces within water. These strong adhesive forces cause the water to spread out and flatten against the skin surface. The contact angle is small, and the water "wets" the skin rather than beading up.
+
+**Discussion**
+
+This is why oil and wax are used as water-repellent coatings on surfaces like cars, raincoats, and waterproof fabrics. By creating a surface with weak adhesion to water, these coatings ensure that water beads up and rolls off rather than spreading and soaking in. Conversely, surfactants (soaps and detergents) work by reducing water's surface tension and increasing its adhesion to surfaces, helping water spread and wet surfaces more effectively for cleaning.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Could capillary action be used to move fluids in a “weightless” environment, such as in an orbiting space probe?
+Could capillary action be used to move fluids in a "weightless" environment, such as in an orbiting space probe?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We need to analyze whether capillary action depends on gravity and whether it would function in microgravity conditions.
+
+**Solution**
+
+Yes, capillary action could be used to move fluids in a weightless environment, and in fact, it would work even better than on Earth. Capillary action arises from the interplay of adhesive forces (between liquid and tube wall) and cohesive forces (within the liquid), and these molecular forces do not depend on gravity. On Earth, capillary rise is limited by the weight of the liquid column that must be supported. In microgravity, this weight limitation is essentially eliminated, so the liquid could travel much farther through capillary tubes.
+
+**Discussion**
+
+This principle is actually used in spacecraft fluid management systems. In microgravity, liquids behave unpredictably because they are not constrained by weight to stay at the "bottom" of containers. Surface tension and capillary action become dominant effects. Spacecraft fuel tanks use special screens and channels that exploit capillary action to ensure fuel flows to the pump inlets regardless of the spacecraft's orientation. Similarly, capillary-driven systems are used for moving other fluids in space, such as in life support systems and scientific experiments.
 
 </div>
 </div>
@@ -497,11 +585,41 @@ Could capillary action be used to move fluids in a “weightless” environment,
 What effect does capillary action have on the reading of a manometer with uniform diameter? Explain your answer.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We need to consider how capillary action affects liquid height in manometer tubes and whether this introduces systematic errors in pressure measurements.
+
+**Solution**
+
+In a manometer with uniform diameter, capillary action has **no effect** on the pressure reading. Although capillary action raises (or lowers) the liquid level in each arm of the manometer, the effect is identical in both arms since they have the same diameter and are made of the same material. The pressure measurement depends on the *difference* in liquid heights between the two arms, not the absolute heights. Since capillary action raises both columns by the same amount, this effect cancels out when taking the difference.
+
+**Discussion**
+
+This is why it is important for manometer tubes to have uniform diameter throughout. If the two arms had different diameters, the capillary rise would be different in each arm (smaller diameter = greater rise for liquids like water), introducing a systematic error in the pressure reading. For precise measurements, especially with small pressure differences, it is essential to use manometers with uniform, relatively large-diameter tubes to minimize the absolute capillary effect, even though it cancels in uniform tubes. Mercury manometers are less affected by capillary issues because mercury's large contact angle (140°) with glass causes depression rather than rise, and its high surface tension makes the effect more predictable.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 Pressure between the inside chest wall and the outside of the lungs normally remains negative. Explain how pressure inside the lungs can become positive (to cause exhalation) without muscle action.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We need to consider the role of surface tension in the alveoli and how it can drive exhalation passively.
+
+**Solution**
+
+The pressure inside the lungs can become positive during exhalation without muscle action due to **surface tension** in the alveoli. The alveoli are small, spherical sacs lined with a thin layer of fluid. According to the pressure equation for a spherical bubble, $$ P = \frac{4\gamma}{r} $$, the pressure inside these fluid-lined sacs is greater than the pressure outside due to surface tension. This surface tension creates an inward force that tends to collapse the alveoli, generating positive pressure inside the lungs that pushes air out.
+
+When the diaphragm and chest muscles relax after inhalation, the elastic recoil of the stretched lung tissue combined with the surface tension in the alveoli creates sufficient pressure to drive exhalation passively. This is why patients on positive-pressure ventilators can exhale on their own even if their respiratory muscles are paralyzed—the surface tension provides the driving force.
+
+**Discussion**
+
+The lung surfactant plays a critical role in modulating this effect. Without surfactant, the surface tension would be too high, making it difficult to inhale (the alveoli would resist expansion) and causing smaller alveoli to collapse into larger ones. The surfactant reduces surface tension, especially at smaller radii during exhalation, preventing alveolar collapse while still allowing passive exhalation. Premature infants lacking sufficient surfactant suffer from hyaline membrane disease precisely because this delicate balance is disrupted.
 
 </div>
 </div>
@@ -527,6 +645,30 @@ What is the pressure inside an alveolus having a radius of  $$ 2.50 \times 10^{-
  due to its fluid-lined walls. Assuming the alveolus acts like a spherical bubble, what is the surface tension of the fluid? (b) Identify the likely fluid. (You may need to extrapolate between values in [[Table 1]](#Table1).)
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We can use the pressure equation for a spherical bubble, $$ P = \frac{4\gamma}{r} $$, and solve for surface tension $$\gamma$$. Then we can compare the result to values in Table 1 to identify the fluid.
+
+**Solution**
+
+(a) Solving the bubble pressure equation for surface tension:
+
+$$ \gamma = \frac{Pr}{4} $$
+
+Substituting the given values:
+
+$$ \gamma = \frac{(1.40 \times 10^{3} \text{ Pa})(2.00 \times 10^{-4} \text{ m})}{4} = \frac{0.280 \text{ N/m}}{4} = 0.0700 \text{ N/m} $$
+
+(b) Comparing this value to Table 1, we find that $$\gamma = 0.0700 \text{ N/m}$$ is very close to the surface tension of water at 20°C (0.0728 N/m) and blood plasma at 37°C (0.073 N/m).
+
+The surface tension of the fluid lining the alveolus is **0.0700 N/m**, and the fluid is most likely **blood plasma** or a similar tissue fluid, which is reasonable given that alveoli are surrounded by capillaries and lined with fluid similar in composition to blood plasma.
+
+**Discussion**
+
+This result is physiologically reasonable. The alveoli are lined with a thin layer of fluid that has properties similar to blood plasma. However, in healthy lungs, surfactant reduces this surface tension significantly (especially during exhalation) to prevent alveolar collapse. The value calculated here represents a condition without significant surfactant effect, which might occur in certain disease states or in premature infants lacking surfactant.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -542,6 +684,32 @@ What is the gauge pressure in millimeters of mercury inside a soap bubble 0.100 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Calculate the force on the slide wire in [[Figure 3]](#Figure3) if it is 3.50 cm long and the fluid is ethyl alcohol.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The sliding wire device has a liquid film attached to both sides of the wire. The force exerted by surface tension is $$F = \gamma L$$, where $$L$$ is the total length of the liquid-wire contact. Since the film has two surfaces (front and back), the effective length is $$L = 2l$$ where $$l$$ is the wire length.
+
+**Solution**
+
+From Table 1, the surface tension of ethyl alcohol is $$\gamma = 0.0223 \text{ N/m}$$.
+
+The wire length is $$l = 3.50 \text{ cm} = 0.0350 \text{ m}$$.
+
+Since the film has two surfaces attached to the wire, the total contact length is:
+
+$$ L = 2l = 2(0.0350 \text{ m}) = 0.0700 \text{ m} $$
+
+The force on the wire is:
+
+$$ F = \gamma L = (0.0223 \text{ N/m})(0.0700 \text{ m}) = 1.56 \times 10^{-3} \text{ N} $$
+
+The force on the slide wire is **1.56 × 10⁻³ N** (or 1.56 mN).
+
+**Discussion**
+
+This force is quite small (about 1.56 millinewtons), which is typical for surface tension effects. The force would be larger for a liquid with higher surface tension (like water at 0.0728 N/m, which would give about 5.10 mN) or smaller for liquids with lower surface tension. This demonstrates why surface tension effects are most noticeable at small scales where other forces (like weight) are also small.
 
 </div>
 </div>
@@ -562,8 +730,35 @@ Calculate the force on the slide wire in [[Figure 3]](#Figure3) if it is 3.50 cm
 <div class="problem" markdown="1">
 We stated in [[Example 2]](#Example2) that a xylem tube is of radius  $$ 2.50 \times 10^{-5}  \text{m} $$ .
  Verify that such a tube raises sap less than a meter by finding  $$h $$
- for it, making the same assumptions that sap’s density is  $$1050 {\text{kg/m}}^{3} $$ ,
+ for it, making the same assumptions that sap's density is  $$1050 {\text{kg/m}}^{3} $$ ,
  its contact angle is zero, and its surface tension is the same as that of water at  $$20.0º C $$.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use the capillary rise equation $$ h = \frac{2\gamma \cos\theta}{\rho g r} $$ with the given values for xylem tubes carrying tree sap.
+
+**Solution**
+
+Given values:
+- Radius: $$ r = 2.50 \times 10^{-5} \text{ m} $$
+- Density of sap: $$ \rho = 1050 \text{ kg/m}^3 $$
+- Contact angle: $$ \theta = 0° $$ (so $$ \cos\theta = 1 $$)
+- Surface tension (water at 20°C): $$ \gamma = 0.0728 \text{ N/m} $$
+- Gravitational acceleration: $$ g = 9.80 \text{ m/s}^2 $$
+
+Substituting into the capillary rise equation:
+
+$$ h = \frac{2\gamma \cos\theta}{\rho g r} = \frac{2(0.0728 \text{ N/m})(1)}{(1050 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(2.50 \times 10^{-5} \text{ m})} $$
+
+$$ h = \frac{0.1456 \text{ N/m}}{0.2573 \text{ N/m}^2} = 0.566 \text{ m} $$
+
+The capillary rise in a xylem tube is approximately **0.57 m**, which is indeed less than 1 meter.
+
+**Discussion**
+
+This confirms that capillary action alone cannot raise sap to the top of tall trees—a giant redwood at 100 m would require capillary rise about 180 times greater than what xylem tubes can provide. The actual mechanism involves transpiration (water evaporating from leaves) creating negative pressure that pulls the sap column upward, with cohesive forces between water molecules keeping the column intact. This "cohesion-tension" mechanism allows sap to reach heights far beyond what capillary action alone could achieve.
 
 </div>
 </div>
@@ -587,6 +782,32 @@ Based on the values in table, the fluid is probably glycerin.
 If the gauge pressure inside a rubber balloon with a 10.0-cm radius is 1.50 cm of water, what is the effective surface tension of the balloon?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We treat the balloon as analogous to a bubble and use the pressure equation $$ P = \frac{4\gamma}{r} $$. First, we must convert the pressure from cm of water to Pascals.
+
+**Solution**
+
+First, convert the gauge pressure from cm of water to Pascals. Using $$ P = \rho g h $$ for water:
+
+$$ P = (1000 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(0.0150 \text{ m}) = 147 \text{ Pa} $$
+
+Now solve the bubble pressure equation for surface tension:
+
+$$ \gamma = \frac{Pr}{4} $$
+
+With radius $$ r = 10.0 \text{ cm} = 0.100 \text{ m} $$:
+
+$$ \gamma = \frac{(147 \text{ Pa})(0.100 \text{ m})}{4} = \frac{14.7 \text{ N/m}}{4} = 3.68 \text{ N/m} $$
+
+The effective surface tension of the rubber balloon is approximately **3.7 N/m**.
+
+**Discussion**
+
+This "surface tension" is much larger than typical liquid surface tensions (which are on the order of 0.01-0.1 N/m). This is because we are not measuring an actual surface tension but rather the effective elastic tension in the rubber membrane, which must stretch to contain the pressurized air. The rubber's elastic properties create a restoring force similar to surface tension in liquids, but much stronger. This is why blowing up a balloon requires more effort at the start (when the radius is small and the rubber is being stretched for the first time) but becomes easier as the balloon expands.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -604,6 +825,38 @@ Alcohol forms the most stable bubble, since the absolute pressure inside is clos
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Suppose water is raised by capillary action to a height of 5.00 cm in a glass tube. (a) To what height will it be raised in a paraffin tube of the same radius? (b) In a silver tube of the same radius?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+From the capillary rise equation $$ h = \frac{2\gamma \cos\theta}{\rho g r} $$, we see that for the same liquid (same $$\gamma$$, $$\rho$$) in tubes of the same radius, the height is proportional to $$\cos\theta$$. We can use the ratio of heights: $$ \frac{h_2}{h_1} = \frac{\cos\theta_2}{\cos\theta_1} $$.
+
+**Solution**
+
+For water in a glass tube with $$\theta_{\text{glass}} = 0°$$, so $$\cos(0°) = 1$$.
+
+From Table 2:
+- Water-paraffin contact angle: $$\theta_{\text{paraffin}} = 107°$$
+- Water-silver contact angle: $$\theta_{\text{silver}} = 90°$$
+
+(a) For the paraffin tube:
+
+$$ h_{\text{paraffin}} = h_{\text{glass}} \times \frac{\cos\theta_{\text{paraffin}}}{\cos\theta_{\text{glass}}} = (5.00 \text{ cm}) \times \frac{\cos(107°)}{\cos(0°)} $$
+
+$$ h_{\text{paraffin}} = (5.00 \text{ cm}) \times \frac{-0.292}{1} = -1.46 \text{ cm} $$
+
+(b) For the silver tube:
+
+$$ h_{\text{silver}} = h_{\text{glass}} \times \frac{\cos\theta_{\text{silver}}}{\cos\theta_{\text{glass}}} = (5.00 \text{ cm}) \times \frac{\cos(90°)}{\cos(0°)} $$
+
+$$ h_{\text{silver}} = (5.00 \text{ cm}) \times \frac{0}{1} = 0 \text{ cm} $$
+
+In a paraffin tube, water would be **depressed by 1.46 cm** (negative height indicates suppression). In a silver tube, water would experience **no capillary rise or depression** (h = 0).
+
+**Discussion**
+
+These results reflect the different relative strengths of adhesive versus cohesive forces. In paraffin (a waxy, hydrophobic material), the contact angle exceeds 90°, meaning cohesive forces in water dominate over adhesive forces to paraffin, causing the water to be pushed down. Silver presents an intermediate case where the contact angle is exactly 90°, meaning adhesive and cohesive forces are balanced, resulting in no net capillary effect. Glass, being hydrophilic, has strong adhesion to water, giving a 0° contact angle and maximum capillary rise.
 
 </div>
 </div>
@@ -627,6 +880,46 @@ This is near the value of  $$\theta =0º $$
 When two soap bubbles touch, the larger is inflated by the smaller until they form a single bubble. (a) What is the gauge pressure inside a soap bubble with a 1.50-cm radius? (b) Inside a 4.00-cm-radius soap bubble? (c) Inside the single bubble they form if no air is lost when they touch?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use the bubble pressure equation $$ P = \frac{4\gamma}{r} $$ for parts (a) and (b). For part (c), we need to find the final radius by conserving the total amount of air (moles of gas), then calculate the new pressure.
+
+**Solution**
+
+From Table 1, the surface tension of soapy water is $$\gamma = 0.0370 \text{ N/m}$$.
+
+(a) For the small bubble with $$r_1 = 1.50 \text{ cm} = 0.0150 \text{ m}$$:
+
+$$ P_1 = \frac{4\gamma}{r_1} = \frac{4(0.0370 \text{ N/m})}{0.0150 \text{ m}} = 9.87 \text{ Pa} $$
+
+(b) For the large bubble with $$r_2 = 4.00 \text{ cm} = 0.0400 \text{ m}$$:
+
+$$ P_2 = \frac{4\gamma}{r_2} = \frac{4(0.0370 \text{ N/m})}{0.0400 \text{ m}} = 3.70 \text{ Pa} $$
+
+(c) To find the final bubble, we use conservation of air molecules. Assuming isothermal conditions (constant temperature) and that the gauge pressures are small compared to atmospheric pressure, the total volume of air is approximately conserved:
+
+$$ V_1 + V_2 = V_f $$
+
+$$ \frac{4}{3}\pi r_1^3 + \frac{4}{3}\pi r_2^3 = \frac{4}{3}\pi r_f^3 $$
+
+$$ r_f^3 = r_1^3 + r_2^3 = (0.0150)^3 + (0.0400)^3 = 3.375 \times 10^{-6} + 6.40 \times 10^{-5} $$
+
+$$ r_f^3 = 6.74 \times 10^{-5} \text{ m}^3 $$
+
+$$ r_f = 0.0407 \text{ m} = 4.07 \text{ cm} $$
+
+The final pressure is:
+
+$$ P_f = \frac{4\gamma}{r_f} = \frac{4(0.0370 \text{ N/m})}{0.0407 \text{ m}} = 3.64 \text{ Pa} $$
+
+The gauge pressures are: (a) **9.87 Pa** for the 1.50-cm bubble, (b) **3.70 Pa** for the 4.00-cm bubble, and (c) **3.64 Pa** for the combined bubble with radius 4.07 cm.
+
+**Discussion**
+
+Notice that the smaller bubble has higher pressure (9.87 Pa vs 3.70 Pa), which explains why air flows from the smaller bubble to the larger one when they connect. The final pressure (3.64 Pa) is even lower than the original large bubble's pressure because the combined volume creates a still larger bubble. This demonstrates the inverse relationship between bubble radius and pressure, which also explains why it's harder to start blowing up a balloon (small radius, high pressure required) than to continue inflating it.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -644,6 +937,40 @@ The ratio is negative because water is raised whereas mercury is lowered.
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 What is the ratio of heights to which ethyl alcohol and water are raised by capillary action in the same glass tube?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+From the capillary rise equation $$ h = \frac{2\gamma \cos\theta}{\rho g r} $$, for two different liquids in the same tube (same $$r$$, same $$g$$), we can find the ratio of heights as:
+
+$$ \frac{h_{\text{alcohol}}}{h_{\text{water}}} = \frac{\gamma_{\text{alcohol}} \cos\theta_{\text{alcohol}}}{\gamma_{\text{water}} \cos\theta_{\text{water}}} \times \frac{\rho_{\text{water}}}{\rho_{\text{alcohol}}} $$
+
+**Solution**
+
+From Table 1 and Table 2:
+- Surface tension of ethyl alcohol: $$\gamma_{\text{alcohol}} = 0.0223 \text{ N/m}$$
+- Surface tension of water at 20°C: $$\gamma_{\text{water}} = 0.0728 \text{ N/m}$$
+- Contact angle of ethyl alcohol with glass: $$\theta_{\text{alcohol}} = 0°$$
+- Contact angle of water with glass: $$\theta_{\text{water}} = 0°$$
+
+For densities (standard values):
+- Density of ethyl alcohol: $$\rho_{\text{alcohol}} = 790 \text{ kg/m}^3$$
+- Density of water: $$\rho_{\text{water}} = 1000 \text{ kg/m}^3$$
+
+Since both contact angles are 0°, $$\cos(0°) = 1$$ for both:
+
+$$ \frac{h_{\text{alcohol}}}{h_{\text{water}}} = \frac{\gamma_{\text{alcohol}}}{\gamma_{\text{water}}} \times \frac{\rho_{\text{water}}}{\rho_{\text{alcohol}}} $$
+
+$$ \frac{h_{\text{alcohol}}}{h_{\text{water}}} = \frac{0.0223 \text{ N/m}}{0.0728 \text{ N/m}} \times \frac{1000 \text{ kg/m}^3}{790 \text{ kg/m}^3} $$
+
+$$ \frac{h_{\text{alcohol}}}{h_{\text{water}}} = 0.306 \times 1.27 = 0.388 $$
+
+The ratio of capillary rise heights is approximately **0.39** (or ethyl alcohol rises to about 39% of the height that water does in the same tube).
+
+**Discussion**
+
+Although ethyl alcohol has lower density than water (which would tend to increase its capillary rise), its surface tension is much lower (about 31% that of water). The net effect is that alcohol rises to less than half the height of water. This demonstrates that surface tension is the dominant factor in determining capillary rise height when contact angles are the same. The lower surface tension of alcohol is why it spreads more readily and "wets" surfaces more easily than water does.
 
 </div>
 </div>
