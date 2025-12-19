@@ -172,6 +172,42 @@ b). 3.00 J
 A novelty clock has a 0.0100-kg mass object bouncing on a spring that has a force constant of 1.25 N/m. What is the maximum velocity of the object if the object bounces 3.00 cm above and below its equilibrium position? (b) How many joules of kinetic energy does the object have at its maximum velocity?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The object bounces 3.00 cm above and below equilibrium, so the amplitude is $$X = 0.0300$$ m. For part (a), we use the relationship $${v}_{\text{max}} = X\sqrt{\frac{k}{m}}$$. For part (b), we calculate the kinetic energy at maximum velocity using $$\text{KE} = \frac{1}{2}mv_{\text{max}}^2$$.
+
+**Solution**
+
+(a) The maximum velocity is:
+
+<div class="equation">
+ $$v_{\text{max}} = X\sqrt{\frac{k}{m}} = 0.0300\sqrt{\frac{1.25}{0.0100}} = 0.0300\sqrt{125} = 0.0300(11.18) = 0.335 \text{ m/s}$$
+</div>
+
+(b) The kinetic energy at maximum velocity is:
+
+<div class="equation">
+ $$\text{KE} = \frac{1}{2}mv_{\text{max}}^2 = \frac{1}{2}(0.0100)(0.335)^2 = 0.00500(0.112) = 5.62 \times 10^{-4} \text{ J}$$
+</div>
+
+Alternatively, we can use energy conservation. At maximum displacement, all energy is potential:
+
+<div class="equation">
+ $$\text{KE}_{\text{max}} = \text{PE}_{\text{max}} = \frac{1}{2}kX^2 = \frac{1}{2}(1.25)(0.0300)^2 = 5.63 \times 10^{-4} \text{ J}$$
+</div>
+
+**Discussion**
+
+The maximum velocity occurs as the object passes through the equilibrium position, where all the elastic potential energy has been converted to kinetic energy. The small kinetic energy (less than 0.001 J) is appropriate for a small bouncing object in a novelty clock. This energy oscillates between kinetic (at equilibrium) and potential (at maximum displacement) forms as the object bounces.
+
+**Answer**
+
+(a) 0.335 m/s
+
+(b) $$5.63 \times 10^{-4}$$ J or 0.000563 J
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -188,6 +224,36 @@ At what positions is the speed of a simple harmonic oscillator half its maximum?
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A ladybug sits 12.0 cm from the center of a Beatles music album spinning at 33.33 rpm. What is the maximum velocity of its shadow on the wall behind the turntable, if illuminated parallel to the record by the parallel rays of the setting Sun?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The shadow of the ladybug on the wall undergoes simple harmonic motion as the record spins. The maximum velocity of the shadow equals the tangential velocity of the ladybug's circular motion. We can find this using $$v = r\omega$$, where $$\omega$$ is the angular velocity in rad/s.
+
+**Solution**
+
+First, convert the rotation rate to angular velocity:
+
+<div class="equation">
+ $$\omega = 33.33 \text{ rpm} = 33.33 \times \frac{2\pi \text{ rad}}{60 \text{ s}} = \frac{33.33 \times 2\pi}{60} = 3.49 \text{ rad/s}$$
+</div>
+
+The radius is $$r = 12.0 \text{ cm} = 0.120 \text{ m}$$
+
+The maximum velocity of the shadow (which equals the tangential velocity) is:
+
+<div class="equation">
+ $$v_{\text{max}} = r\omega = (0.120)(3.49) = 0.419 \text{ m/s}$$
+</div>
+
+**Discussion**
+
+As the record spins, the ladybug moves in a circle. When illuminated by parallel rays (like sunlight), its shadow on the wall moves back and forth in simple harmonic motion. The amplitude of this motion is 12.0 cm (the radius), and the maximum velocity of the shadow is 0.419 m/s (about 42 cm/s), which occurs when the shadow passes through the center of its oscillation. This is a beautiful example of how uniform circular motion and simple harmonic motion are related—the shadow's motion is the projection of circular motion onto a line.
+
+**Answer**
+
+0.419 m/s or 41.9 cm/s
 
 </div>
 </div>

@@ -232,7 +232,35 @@ What is the length of a pendulum that has a period of 0.500 s?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Some people think a pendulum with a period of 1.00 s can be driven with “mental energy” or psycho kinetically, because its period is the same as an average heartbeat. True or not, what is the length of such a pendulum?
+Some people think a pendulum with a period of 1.00 s can be driven with "mental energy" or psycho kinetically, because its period is the same as an average heartbeat. True or not, what is the length of such a pendulum?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We can use the formula for the period of a simple pendulum $$T = 2\pi\sqrt{\frac{L}{g}}$$ and solve for the length $$L$$.
+
+**Solution**
+
+Squaring both sides of $$T = 2\pi\sqrt{\frac{L}{g}}$$:
+
+<div class="equation">
+ $$T^2 = 4\pi^2\frac{L}{g}$$
+</div>
+
+Solving for $$L$$:
+
+<div class="equation">
+ $$L = \frac{gT^2}{4\pi^2} = \frac{(9.80)(1.00)^2}{4\pi^2} = \frac{9.80}{39.48} = 0.248 \text{ m}$$
+</div>
+
+**Discussion**
+
+A pendulum of length 24.8 cm (about 10 inches) has a period of 1.00 s, matching the average human heartbeat. Whether or not mental energy can drive such a pendulum is not a matter of physics, but the mathematical relationship between its length and period is well-established. This length is quite convenient for a small demonstration pendulum.
+
+**Answer**
+
+0.248 m or 24.8 cm
 
 </div>
 </div>
@@ -253,6 +281,26 @@ What is the period of a 1.00-m-long pendulum?
 How long does it take a child on a swing to complete one swing if her center of gravity is 4.00 m below the pivot?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The time for one complete swing is the period. We use $$T = 2\pi\sqrt{\frac{L}{g}}$$ where $$L = 4.00$$ m is the distance from the pivot to the center of gravity.
+
+**Solution**
+
+<div class="equation">
+ $$T = 2\pi\sqrt{\frac{L}{g}} = 2\pi\sqrt{\frac{4.00}{9.80}} = 2\pi\sqrt{0.408} = 2\pi(0.639) = 4.01 \text{ s}$$
+</div>
+
+**Discussion**
+
+A period of about 4 seconds is typical for a playground swing. This means the child completes one full back-and-forth motion every 4 seconds, or about 15 complete swings per minute. Parents pushing children on swings intuitively learn to push at this natural frequency to maximize the amplitude. The period depends only on the length of the swing (distance to center of gravity) and gravity, not on the child's mass or how high they swing.
+
+**Answer**
+
+4.01 s
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -269,6 +317,36 @@ The pendulum on a cuckoo clock is 5.00 cm long. What is its frequency?
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Two parakeets sit on a swing with their combined center of mass 10.0 cm below the pivot. At what frequency do they swing?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The frequency is the reciprocal of the period. We first find the period using $$T = 2\pi\sqrt{\frac{L}{g}}$$, then calculate $$f = \frac{1}{T}$$.
+
+**Solution**
+
+Convert length to meters: $$L = 10.0 \text{ cm} = 0.100 \text{ m}$$
+
+Calculate the period:
+
+<div class="equation">
+ $$T = 2\pi\sqrt{\frac{L}{g}} = 2\pi\sqrt{\frac{0.100}{9.80}} = 2\pi\sqrt{0.0102} = 2\pi(0.101) = 0.635 \text{ s}$$
+</div>
+
+Calculate the frequency:
+
+<div class="equation">
+ $$f = \frac{1}{T} = \frac{1}{0.635} = 1.57 \text{ Hz}$$
+</div>
+
+**Discussion**
+
+The frequency of 1.57 Hz means the parakeets complete about 1.6 swings per second, or about 94 swings per minute. This is much faster than a typical playground swing because the pendulum is much shorter (10 cm vs. several meters). Note that the frequency depends only on the length and gravity, not on the combined mass of the two parakeets. Whether one or two birds sit on the swing, the frequency remains the same as long as their combined center of mass is at the same position.
+
+**Answer**
+
+1.57 Hz
 
 </div>
 </div>
@@ -297,6 +375,44 @@ A pendulum with a period of 2.00000 s in one location  $$\left(g=9.80 {\text{m/s
  is moved to a new location where the period is now 1.99796 s. What is the acceleration due to gravity at its new location?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Since the length of the pendulum doesn't change, we can use the relationship between period and gravity at both locations to find the new value of $$g$$. From $$T = 2\pi\sqrt{\frac{L}{g}}$$, we can establish a ratio.
+
+**Solution**
+
+First, find the length using the original location data:
+
+<div class="equation">
+ $$L = \frac{gT^2}{4\pi^2} = \frac{(9.80)(2.00000)^2}{4\pi^2} = \frac{39.2}{39.478} = 0.9930 \text{ m}$$
+</div>
+
+Now use this length with the new period to find $$g_{\text{new}}$$:
+
+<div class="equation">
+ $$g_{\text{new}} = \frac{4\pi^2 L}{T_{\text{new}}^2} = \frac{4\pi^2(0.9930)}{(1.99796)^2} = \frac{39.198}{3.9918} = 9.82 \text{ m/s}^2$$
+</div>
+
+Alternatively, using the ratio method:
+
+<div class="equation">
+ $$\frac{T_1}{T_2} = \sqrt{\frac{g_2}{g_1}}$$
+</div>
+
+<div class="equation">
+ $$g_2 = g_1\left(\frac{T_1}{T_2}\right)^2 = 9.80\left(\frac{2.00000}{1.99796}\right)^2 = 9.80(1.00204) = 9.82 \text{ m/s}^2$$
+</div>
+
+**Discussion**
+
+The new location has a slightly higher acceleration due to gravity (9.82 m/s² vs. 9.80 m/s²). The small change in period (only 0.204 s, about 0.1%) corresponds to a similarly small change in $$g$$ (0.02 m/s², about 0.2%). This demonstrates the high precision needed in pendulum measurements when using them to determine local variations in $$g$$. Such variations occur due to altitude, latitude, and local geology. The five-digit precision in the period measurement is necessary to detect this small difference.
+
+**Answer**
+
+9.82 m/s²
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -320,6 +436,36 @@ A pendulum with a period of 2.00000 s in one location  $$\left(g=9.80 {\text{m/s
 Find the ratio of the new/old periods of a pendulum if the pendulum were transported from Earth to the Moon, where the acceleration due to gravity is  $$1.63 {\text{m/s}}^{2} $$.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The length of the pendulum stays the same, so we can use the relationship $$T = 2\pi\sqrt{\frac{L}{g}}$$ to find the ratio of periods. Since $$L$$ is constant, the ratio depends only on the ratio of gravitational accelerations.
+
+**Solution**
+
+For Earth: $$T_{\text{Earth}} = 2\pi\sqrt{\frac{L}{g_{\text{Earth}}}}$$
+
+For Moon: $$T_{\text{Moon}} = 2\pi\sqrt{\frac{L}{g_{\text{Moon}}}}$$
+
+Taking the ratio:
+
+<div class="equation">
+ $$\frac{T_{\text{Moon}}}{T_{\text{Earth}}} = \frac{2\pi\sqrt{\frac{L}{g_{\text{Moon}}}}}{2\pi\sqrt{\frac{L}{g_{\text{Earth}}}}} = \sqrt{\frac{g_{\text{Earth}}}{g_{\text{Moon}}}}$$
+</div>
+
+<div class="equation">
+ $$\frac{T_{\text{Moon}}}{T_{\text{Earth}}} = \sqrt{\frac{9.80}{1.63}} = \sqrt{6.01} = 2.45$$
+</div>
+
+**Discussion**
+
+The period on the Moon is 2.45 times longer than on Earth. This makes sense because the Moon's gravity is weaker, so the restoring force on the pendulum is smaller, causing it to swing more slowly. A pendulum that takes 1 second per swing on Earth would take 2.45 seconds per swing on the Moon. This would cause a pendulum clock to run much slower on the Moon—it would lose significant time. This demonstrates that pendulum clocks are only accurate in locations with the same gravitational acceleration for which they were calibrated.
+
+**Answer**
+
+2.45
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -336,7 +482,63 @@ Slow by a factor of 2.45
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Suppose the length of a clock’s pendulum is changed by 1.000%, exactly at noon one day. What time will it read 24.00 hours later, assuming it the pendulum has kept perfect time before the change? Note that there are two answers, and perform the calculation to four-digit precision.
+Suppose the length of a clock's pendulum is changed by 1.000%, exactly at noon one day. What time will it read 24.00 hours later, assuming it the pendulum has kept perfect time before the change? Note that there are two answers, and perform the calculation to four-digit precision.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+A change in length changes the period. Since $$T \propto \sqrt{L}$$, a 1% change in length produces a 0.5% change in period. We need to consider both cases: length increased by 1% and length decreased by 1%.
+
+**Solution**
+
+The ratio of new to old period is:
+
+<div class="equation">
+ $$\frac{T_{\text{new}}}{T_{\text{old}}} = \sqrt{\frac{L_{\text{new}}}{L_{\text{old}}}}$$
+</div>
+
+**Case 1: Length increased by 1.000%** ($$L_{\text{new}} = 1.01000 L_{\text{old}}$$)
+
+<div class="equation">
+ $$\frac{T_{\text{new}}}{T_{\text{old}}} = \sqrt{1.01000} = 1.004988$$
+</div>
+
+The clock runs slow. In 24.00 real hours, the clock measures:
+
+<div class="equation">
+ $$t_{\text{clock}} = \frac{24.00}{1.004988} = 23.88 \text{ hours}$$
+</div>
+
+Converting to hours and minutes: $$23.88 \text{ h} = 23 \text{ h } 52.8 \text{ min}$$
+
+So the clock reads 11:52.8 AM (or 11:53 AM to the nearest minute).
+
+**Case 2: Length decreased by 1.000%** ($$L_{\text{new}} = 0.99000 L_{\text{old}}$$)
+
+<div class="equation">
+ $$\frac{T_{\text{new}}}{T_{\text{old}}} = \sqrt{0.99000} = 0.99499$$
+</div>
+
+The clock runs fast. In 24.00 real hours, the clock measures:
+
+<div class="equation">
+ $$t_{\text{clock}} = \frac{24.00}{0.99499} = 24.12 \text{ hours}$$
+</div>
+
+Converting: $$24.12 \text{ h} = 24 \text{ h } 7.2 \text{ min}$$
+
+So the clock reads 12:07.2 PM (or 12:07 PM to the nearest minute).
+
+**Discussion**
+
+A mere 1% change in pendulum length causes the clock to be off by about 7 minutes per day, which is quite significant for timekeeping. If the length is increased, the period increases, so the pendulum swings more slowly and the clock loses time (reads earlier than actual time). If the length is decreased, the clock gains time (reads later than actual time). This sensitivity to length explains why pendulum clocks must be carefully adjusted and why temperature changes (which cause thermal expansion) can affect their accuracy.
+
+**Answer**
+
+If length increased by 1.000%: clock reads 11:52:48 (or 11:52.8 hours)
+
+If length decreased by 1.000%: clock reads 12:07:12 (or 12:07.2 hours)
 
 </div>
 </div>
