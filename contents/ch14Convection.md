@@ -32,10 +32,10 @@ in [[Figure 2]](#Figure2). Ocean currents and large-scale atmospheric
 circulation transfer energy from one part of the globe to another. Both are
 examples of natural convection.
 
-![A cross section of a room is shown. There is a gravity furnace at the left side. The hot air from the furnace is rising up and is shown with the help of upward-pointing arrows along the left wall that are labeled hot air rises. The arrows then become horizontal and pass just under the ceiling to the right wall. The arrows then curve downward, become blue, and pass down the right wall and are labeled air cooled by room sinks. Finally, the blue arrows curve and pass along the floor to return to the gravity furnace.](../resources/Figure_14_06_01.jpg "Air heated by the so-called gravity furnace expands and rises, forming a convective loop that transfers energy to other parts of the room. As the air is cooled at the ceiling and outside walls, it contracts, eventually becoming denser than room air and sinking to the floor. A properly designed heating system using natural convection, like this one, can be quite efficient in uniformly heating a home.")
+![A cross section of a room is shown. There is a gravity furnace at the left side. The hot air from the furnace is rising up and is shown with the help of upward-pointing arrows along the left wall that are labeled hot air rises. The arrows then become horizontal and pass just under the ceiling to the right wall. The arrows then curve downward, become blue, and pass down the right wall and are labeled air cooled by room sinks. Finally, the blue arrows curve and pass along the floor to return to the gravity furnace.](../resources/Figure_14_06_01.jpg 'Air heated by the so-called gravity furnace expands and rises, forming a convective loop that transfers energy to other parts of the room. As the air is cooled at the ceiling and outside walls, it contracts, eventually becoming denser than room air and sinking to the floor. A properly designed heating system using natural convection, like this one, can be quite efficient in uniformly heating a home.')
 {: #Figure1}
 
-![The figure shows a stove burner on which is placed a pot containing water. The front of the pot is cut away to show the water. Two pairs of semicircular arrows are in the left and right regions of the water. The left pair indicates counterclockwise motion of the water on the left and the right pair indicate clockwise motion of the water on the right. Several bubbles are also shown.](../resources/Figure_14_06_02.jpg "Convection plays an important role in heat transfer inside this pot of water. Once conducted to the inside, heat transfer to other parts of the pot is mostly by convection. The hotter water expands, decreases in density, and rises to transfer heat to other regions of the water, while colder water sinks to the bottom. This process keeps repeating.")
+![The figure shows a stove burner on which is placed a pot containing water. The front of the pot is cut away to show the water. Two pairs of semicircular arrows are in the left and right regions of the water. The left pair indicates counterclockwise motion of the water on the left and the right pair indicate clockwise motion of the water on the right. Several bubbles are also shown.](../resources/Figure_14_06_02.jpg 'Convection plays an important role in heat transfer inside this pot of water. Once conducted to the inside, heat transfer to other parts of the pot is mostly by convection. The hotter water expands, decreases in density, and rises to transfer heat to other regions of the water, while colder water sinks to the bottom. This process keeps repeating.')
 {: #Figure2}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -292,11 +292,11 @@ and fiberglass also take advantage of the low conductivity of air by trapping it
 in spaces too small to support convection, as shown in the figure. Fur and
 feathers are lightweight and thus ideal for the protection of animals.
 
-![The figure shows a cross-sectional view of a body covered by a fur layer. A number of convection loops are shown in the fur. The air outside the fur is cold and the body beneath the fur is warm.](../resources/Figure_14_06_03.jpg "Fur is filled with air, breaking it up into many small pockets. Convection is very slow here, because the loops are so small. The low conductivity of air makes fur a very good lightweight insulator.")
+![The figure shows a cross-sectional view of a body covered by a fur layer. A number of convection loops are shown in the fur. The air outside the fur is cold and the body beneath the fur is warm.](../resources/Figure_14_06_03.jpg 'Fur is filled with air, breaking it up into many small pockets. Convection is very slow here, because the loops are so small. The low conductivity of air makes fur a very good lightweight insulator.')
 {: #Figure3}
 
-Some interesting phenomena happen *when convection is accompanied by a phase
-change*. It allows us to cool off by sweating, even if the temperature of the
+Some interesting phenomena happen _when convection is accompanied by a phase
+change_. It allows us to cool off by sweating, even if the temperature of the
 surrounding air exceeds body temperature. Heat from the skin is required for
 sweat to evaporate from the skin, but without air flow, the air becomes
 saturated and evaporation stops. Air flow caused by convection replaces the
@@ -354,13 +354,13 @@ since the process reinforces and accelerates itself. These systems sometimes
 produce violent storms, with lightning and hail, and constitute the mechanism
 driving hurricanes.
 
-![The figure shows a cumulus cloud in a blue sky.](../resources/Figure_14_06_04.jpg "Cumulus clouds are caused by water vapor that rises because of convection. The rise of clouds is driven by a positive feedback mechanism. (credit: Mike Love)")
+![The figure shows a cumulus cloud in a blue sky.](../resources/Figure_14_06_04.jpg 'Cumulus clouds are caused by water vapor that rises because of convection. The rise of clouds is driven by a positive feedback mechanism. (credit: Mike Love)')
 {: #Figure4}
 
-![The figure shows lightning strikes from thunderclouds above an urban area.](../resources/Figure_14_06_05.jpg "Convection accompanied by a phase change releases the energy needed to drive this thunderhead into the stratosphere. (credit: Gerardo Garc&#xED;a Moretti )")
+![The figure shows lightning strikes from thunderclouds above an urban area.](../resources/Figure_14_06_05.jpg 'Convection accompanied by a phase change releases the energy needed to drive this thunderhead into the stratosphere. (credit: Gerardo García Moretti )')
 {: #Figure5}
 
-![The figure shows some blue-colored icebergs floating in the water beneath snow-capped mountains and a cloudy sky. Some of the icebergs at front are melting.](../resources/Figure_14_06_06.jpg "The phase change that occurs when this iceberg melts involves tremendous heat transfer. (credit: Dominic Alves)")
+![The figure shows some blue-colored icebergs floating in the water beneath snow-capped mountains and a cloudy sky. Some of the icebergs at front are melting.](../resources/Figure_14_06_06.jpg 'The phase change that occurs when this iceberg melts involves tremendous heat transfer. (credit: Dominic Alves)')
 {: #Figure6}
 
 The movement of icebergs is another example of convection accompanied by a phase
@@ -384,9 +384,9 @@ Using a fan increases the flow of air: warm air near your body is replaced by co
 
 ### Summary
 
-* Convection is heat transfer by the macroscopic movement of mass. Convection can be natural or forced and generally transfers thermal energy faster than conduction. [[Table 1]](#Table1) gives wind-chill factors, indicating that
-  moving air has the same chilling effect of much colder stationary air. 
-* Convection that occurs along with a phase change can transfer energy from cold regions to warm ones.
+- Convection is heat transfer by the macroscopic movement of mass. Convection can be natural or forced and generally transfers thermal energy faster than conduction. [[Table 1]](#Table1) gives wind-chill factors, indicating that
+  moving air has the same chilling effect of much colder stationary air.
+- Convection that occurs along with a phase change can transfer energy from cold regions to warm ones.
 
 ### Conceptual Questions
 
@@ -478,7 +478,7 @@ The Kilauea volcano in Hawaii is the world’s most active, disgorging about  $$
  and eventually cools to  $$30 \text{ºC} $$ ?
  Assume that the specific heat of lava is the same as that of granite.
 
-![A view of a lava flow on the Kilauea volcano of Hawaii.](../resources/Figure_14_06_07.jpg "Lava flow on Kilauea volcano in Hawaii. (credit: J. P. Eaton, U.S. Geological Survey)")
+![A view of a lava flow on the Kilauea volcano of Hawaii.](../resources/Figure_14_06_07.jpg 'Lava flow on Kilauea volcano in Hawaii. (credit: J. P. Eaton, U.S. Geological Survey)')
 {: #Figure7}
 
 </div>

@@ -10,7 +10,7 @@ chapterNumber: 33
 * Define particle physics.
 </div>
 
-![Inside part of the Large Hadron Collider; complex system of machinery and electronics, with a person for scale](../resources/Figure_33_00_01.jpg "Part of the Large Hadron Collider at CERN, on the border of Switzerland and France. The LHC is a particle accelerator, designed to study fundamental particles. (credit: Image Editor, Flickr)")
+![Inside part of the Large Hadron Collider; complex system of machinery and electronics, with a person for scale](../resources/Figure_33_00_01.jpg 'Part of the Large Hadron Collider at CERN, on the border of Switzerland and France. The LHC is a particle accelerator, designed to study fundamental particles. (credit: Image Editor, Flickr)')
 {: #Figure1}
 
 Following ideas remarkably similar to those of the ancient Greeks, we continue
@@ -27,14 +27,14 @@ and is particularly aimed at finding those truly fundamental particles that have
 no further substructure. Just as in atomic and nuclear physics, we have found a
 complex array of particles and properties with systematic characteristics
 analogous to the periodic table and the chart of nuclides. An underlying
-structure is apparent, and there is some reason to think that we *are* finding
+structure is apparent, and there is some reason to think that we _are_ finding
 particles that have no substructure. Of course, we have been in similar
 situations before. For example, atoms were once thought to be the ultimate
 substructure. Perhaps we will find deeper and deeper structures and never come
 to an ultimate substructure. We may never really know, as indicated
 in [[Figure 2]](#Figure2).
 
-![The figure shows various substructures of a solid in decreasing size from left to right. To the right is a block labeled solid, next comes an image of some spheres connected with rods that is labeled molecule and ten to the minus nine meters, next comes an image labeled atom and ten to the minus ten meters, next comes an image labeled nucleus and ten to the minus fourteen to ten to the minus fifteen meters, next comes an image labeled nucleon and ten to the minus fifteen meters, and finally there is an image labeled quark and less than ten to the minus eighteen meters. Attached to the quark image is a smaller particle labeled gluon.](../resources/Figure_33_00_02.jpg "The properties of matter are based on substructures called molecules and atoms. Atoms have the substructure of a nucleus with orbiting electrons, the interactions of which explain atomic properties. Protons and neutrons, the interactions of which explain the stability and abundance of elements, form the substructure of nuclei. Protons and neutrons are not fundamental&#x2014;they are composed of quarks. Like electrons and a few other particles, quarks may be the fundamental building blocks of all there is, lacking any further substructure. But the story is not complete, because quarks and electrons may have substructure smaller than details that are presently observable.")
+![The figure shows various substructures of a solid in decreasing size from left to right. To the right is a block labeled solid, next comes an image of some spheres connected with rods that is labeled molecule and ten to the minus nine meters, next comes an image labeled atom and ten to the minus ten meters, next comes an image labeled nucleus and ten to the minus fourteen to ten to the minus fifteen meters, next comes an image labeled nucleon and ten to the minus fifteen meters, and finally there is an image labeled quark and less than ten to the minus eighteen meters. Attached to the quark image is a smaller particle labeled gluon.](../resources/Figure_33_00_02.jpg 'The properties of matter are based on substructures called molecules and atoms. Atoms have the substructure of a nucleus with orbiting electrons, the interactions of which explain atomic properties. Protons and neutrons, the interactions of which explain the stability and abundance of elements, form the substructure of nuclei. Protons and neutrons are not fundamental—they are composed of quarks. Like electrons and a few other particles, quarks may be the fundamental building blocks of all there is, lacking any further substructure. But the story is not complete, because quarks and electrons may have substructure smaller than details that are presently observable.')
 {: #Figure2}
 
 This chapter covers the basics of particle physics as we know it today. An
@@ -46,7 +46,7 @@ not only fantastic, it is real.
 
 ### Summary
 
-* Particle physics is the study of and the quest for those truly fundamental
+- Particle physics is the study of and the quest for those truly fundamental
   particles having no substructure.
 
 <div class="glossary" markdown="1">

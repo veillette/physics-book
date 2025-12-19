@@ -108,7 +108,7 @@ time over which it changes. Using symbols, this law is
  $$ \vb{F}_{\text{net}}=\frac{ \Delta \vb{p}}{\Delta t}, $$
 </div>
 
-where $$ \vb{F}_{\text{net}} $$ is the net external force, $$ \Delta \vb{p} $$
+where $$ \vb{F}\_{\text{net}} $$ is the net external force, $$ \Delta \vb{p} $$
 is the change in momentum, and $$ \Delta t $$ is the change in time.
 
 <div class="note" data-label="" markdown="1">
@@ -157,7 +157,7 @@ equation
  $$ \vb{F}_{\text{net}}=m\vb{a} $$
 </div>
 
-*when the mass of the system is constant*.
+_when the mass of the system is constant_.
 
 Newton’s second law of motion stated in terms of momentum is more generally
 applicable because it can be applied to systems where the mass is changing, such
@@ -232,25 +232,25 @@ the strategy used in this example.
 
 ### Section Summary
 
-* Linear momentum (**momentum** for brevity) is defined as the product of a
+- Linear momentum (**momentum** for brevity) is defined as the product of a
   system’s mass multiplied by its velocity.
-* In symbols, linear momentum $$ \vb{p} $$ is defined to be
+- In symbols, linear momentum $$ \vb{p} $$ is defined to be
   <div class="equation">
     $$ \vb{p}=m\vb{v}, $$
   </div>
   where $$ m $$ is the mass of the system and $$ \vb{v} $$ is its velocity.
-* The SI unit for momentum is $$ \kg · \ms $$.
-* Newton’s second law of motion in terms of momentum
+- The SI unit for momentum is $$ \kg · \ms $$.
+- Newton’s second law of motion in terms of momentum
   states that the net external force equals the change in momentum of a system
   divided by the time over which it changes.
-* In symbols, Newton’s second law of motion is
-  defined to be
-  <div class="equation">
- $$ \vb{F}_{\text{net}}=\frac{ \Delta \vb{p}}{\Delta t}, $$
-  </div>
- $$ \vb{F}_{\text{net}} $$ is the net external force, $$ \Delta
-  \vb{p} $$ is the change in momentum, and $$ \Delta t $$ is the change
-  time.
+- In symbols, Newton’s second law of motion is
+defined to be
+ <div class="equation">
+$$ \vb{F}_{\text{net}}=\frac{ \Delta \vb{p}}{\Delta t}, $$
+ </div>
+$$ \vb{F}_{\text{net}} $$ is the net external force, $$ \Delta
+ \vb{p} $$ is the change in momentum, and $$ \Delta t $$ is the change
+ time.
 
 ### Conceptual Questions
 
@@ -310,9 +310,9 @@ This problem applies the definition of linear momentum $$ p = mv $$ to calculate
 
 Using the definition of momentum:
 
-$$ p_{\text{elephant}} = m_{\text{elephant}} \times v_{\text{elephant}} $$
+$$ p*{\text{elephant}} = m*{\text{elephant}} \times v\_{\text{elephant}} $$
 
-$$ p_{\text{elephant}} = (2000 \kg)(7.50 \ms) = 1.50 \times 10^{4} \kg \cdot \ms $$
+$$ p\_{\text{elephant}} = (2000 \kg)(7.50 \ms) = 1.50 \times 10^{4} \kg \cdot \ms $$
 
 The momentum of the charging elephant is $$ 1.50 \times 10^{4} \kg \cdot \ms $$.
 
@@ -320,27 +320,28 @@ The momentum of the charging elephant is $$ 1.50 \times 10^{4} \kg \cdot \ms $$.
 
 First, calculate the dart's momentum:
 
-$$ p_{\text{dart}} = m_{\text{dart}} \times v_{\text{dart}} $$
+$$ p*{\text{dart}} = m*{\text{dart}} \times v\_{\text{dart}} $$
 
-$$ p_{\text{dart}} = (0.0400 \kg)(600 \ms) = 24.0 \kg \cdot \ms $$
+$$ p\_{\text{dart}} = (0.0400 \kg)(600 \ms) = 24.0 \kg \cdot \ms $$
 
 Now find the ratio:
 
-$$ \frac{p_{\text{elephant}}}{p_{\text{dart}}} = \frac{1.50 \times 10^{4} \kg \cdot \ms}{24.0 \kg \cdot \ms} = 625 $$
+$$ \frac{p*{\text{elephant}}}{p*{\text{dart}}} = \frac{1.50 \times 10^{4} \kg \cdot \ms}{24.0 \kg \cdot \ms} = 625 $$
 
 The elephant's momentum is 625 times greater than the dart's momentum.
 
 **Solution for (c)**
 
-$$ p_{\text{hunter}} = m_{\text{hunter}} \times v_{\text{hunter}} $$
+$$ p*{\text{hunter}} = m*{\text{hunter}} \times v\_{\text{hunter}} $$
 
-$$ p_{\text{hunter}} = (90.0 \kg)(7.40 \ms) = 6.66 \times 10^{2} \kg \cdot \ms $$
+$$ p\_{\text{hunter}} = (90.0 \kg)(7.40 \ms) = 6.66 \times 10^{2} \kg \cdot \ms $$
 
 The momentum of the fleeing hunter is $$ 6.66 \times 10^{2} \kg \cdot \ms $$.
 
 **Discussion**
 
 Despite the dart traveling 80 times faster than the elephant, the elephant's enormous mass (50,000 times the dart's mass) results in a momentum 625 times larger. This illustrates why momentum depends on both mass and velocity. The hunter's momentum is much smaller than the elephant's, explaining why the hunter wisely chose to run!
+
 </div>
 </div>
 
@@ -374,17 +375,18 @@ The mass of the ship is $$ 1.20 \times 10^{8} \kg $$ (120 million kilograms, or 
 
 Calculate the artillery shell's momentum:
 
-$$ p_{\text{shell}} = m_{\text{shell}} \times v_{\text{shell}} = (1100 \kg)(1200 \ms) = 1.32 \times 10^{6} \kg \cdot \ms $$
+$$ p*{\text{shell}} = m*{\text{shell}} \times v\_{\text{shell}} = (1100 \kg)(1200 \ms) = 1.32 \times 10^{6} \kg \cdot \ms $$
 
 Find the ratio:
 
-$$ \frac{p_{\text{ship}}}{p_{\text{shell}}} = \frac{1.60 \times 10^{9} \kg \cdot \ms}{1.32 \times 10^{6} \kg \cdot \ms} = 1.21 \times 10^{3} $$
+$$ \frac{p*{\text{ship}}}{p*{\text{shell}}} = \frac{1.60 \times 10^{9} \kg \cdot \ms}{1.32 \times 10^{6} \kg \cdot \ms} = 1.21 \times 10^{3} $$
 
 The ship's momentum is approximately 1210 times greater than the artillery shell's momentum.
 
 **Discussion**
 
 Even though the artillery shell travels at supersonic speed (about Mach 3.5), the ship's enormous mass gives it over 1000 times more momentum. This explains why large ships require great distances and time to stop or change direction—their massive momentum must be overcome by relatively small forces from their propulsion systems.
+
 </div>
 </div>
 
@@ -395,7 +397,9 @@ airplane have to fly to have a momentum of $$ 1.60 \times
 10^{9}\kg · \ms  $$ (the same as the ship's momentum in the problem above)?
 
 (b) What is the plane's momentum when it is taking off at a speed of $$ 60.0 \ms
-$$ ?
+
+$$
+?
 
 (c) If the ship is an aircraft carrier that launches these airplanes with a
 catapult, discuss the implications of your answer to (b) as it relates to recoil
@@ -571,3 +575,4 @@ second law of motion
 momentum of a system divided by the time over which it changes
 
 </div>
+$$

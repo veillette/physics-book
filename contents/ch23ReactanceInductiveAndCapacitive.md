@@ -24,11 +24,11 @@ since in practice we can make the resistance of an inductor so small that it has
 a negligible effect on the circuit. Also shown is a graph of voltage and current
 as functions of time.
 
-![Part a of the figure describes an A C voltage source V connected across an inductor L. The voltage across the inductance is shown as V L. Part b of the figure describes a graph showing the variation of current and voltage across the inductance as a function of time. The voltage V L and current I L is plotted along the Y axis and the time t is along the X axis. The graph for current is a progressive sine wave from the origin. The graph for voltage V is a cosine wave and an amplitude slightly less than the current wave.](../resources/Figure_23_11_01.jpg "(a) An AC voltage source in series with an inductor having negligible resistance. (b) Graph of current and voltage across the inductor as functions of time.")
+![Part a of the figure describes an A C voltage source V connected across an inductor L. The voltage across the inductance is shown as V L. Part b of the figure describes a graph showing the variation of current and voltage across the inductance as a function of time. The voltage V L and current I L is plotted along the Y axis and the time t is along the X axis. The graph for current is a progressive sine wave from the origin. The graph for voltage V is a cosine wave and an amplitude slightly less than the current wave.](../resources/Figure_23_11_01.jpg '(a) An AC voltage source in series with an inductor having negligible resistance. (b) Graph of current and voltage across the inductor as functions of time.')
 {: #Figure1}
 
 The graph in [[Figure 1]](#Figure1)(b) starts with voltage at a maximum. Note
-that the current starts at zero and rises to its peak *after* the voltage that
+that the current starts at zero and rises to its peak _after_ the voltage that
 drives it, just as was the case when DC voltage was switched on in the preceding
 section. When the voltage becomes negative at point a, the current begins to
 decrease; it becomes zero at point b, where voltage is its most negative. The
@@ -74,7 +74,7 @@ its resistance to change. It is also reasonable that $${X}_{L} $$ is
 proportional to frequency $$f $$ , since greater frequency means greater change
 in current. That is, $$\Delta I/\Delta t $$ is large for large frequencies (
 large $$f $$
-*,* small $$\Delta t $$ ). The greater the change, the greater the opposition of
+_,_ small $$\Delta t $$ ). The greater the change, the greater the opposition of
 an inductor.
 
 <div id="Example1" class="example" markdown="1">
@@ -139,7 +139,7 @@ small that it has a negligible effect compared with the capacitor, and so we can
 assume negligible resistance. Voltage across the capacitor and current are
 graphed as functions of time in the figure.
 
-![Part a of the figure shows a capacitor C connected across an A C voltage source V. The voltage across the capacitor is given by V C. Part b of the diagram shows a graph for the variation of current and voltage across the capacitor as functions of time. The voltage V C and current I C is plotted along the Y axis and the time t is along the X axis. The graph for current is a progressive sine wave from the origin starting with a wave along the negative Y axis. The graph for voltage is a cosine wave and amplitude slightly less than the current wave.](../resources/Figure_23_11_02.jpg "(a) An AC voltage source in series with a capacitor C having negligible resistance. (b) Graph of current and voltage across the capacitor as functions of time.")
+![Part a of the figure shows a capacitor C connected across an A C voltage source V. The voltage across the capacitor is given by V C. Part b of the diagram shows a graph for the variation of current and voltage across the capacitor as functions of time. The voltage V C and current I C is plotted along the Y axis and the time t is along the X axis. The graph for current is a progressive sine wave from the origin starting with a wave along the negative Y axis. The graph for voltage is a cosine wave and amplitude slightly less than the current wave.](../resources/Figure_23_11_02.jpg '(a) An AC voltage source in series with a capacitor C having negligible resistance. (b) Graph of current and voltage across the capacitor as functions of time.')
 {: #Figure2}
 
 The graph in [[Figure 2]](#Figure2) starts with voltage across the capacitor at
@@ -206,8 +206,10 @@ at each frequency.
 
 **Solution for (a)**
 
-Entering the frequency and capacitance into $${X}_{C}=\frac{1}{2\pi \text{fC}}
-$$ gives
+Entering the frequency and capacitance into $${X}\_{C}=\frac{1}{2\pi \text{fC}}
+
+$$
+gives
 
 <div class="equation" >
  $$\begin{array}{lll}{X}_{C}& =& \frac{1}{2\pi \text{fC}}\\ & =& \frac{1}{ 6.28\left( 60.0/\text{s}\right)\left( 5.00 \mu \text{F}\right)}=531 \text{Ω at 60 Hz}\text{.}\end{array} $$
@@ -494,7 +496,8 @@ power and the likely frequencies of noise coming through the power lines.
 
 inductive reactance
 : the opposition of an inductor to a change in current; calculated by $${X}_
-{L}=2\pi fL $$
+{L}=2\pi fL
+$$
 
 capacitive reactance
 : the opposition of a capacitor to a change in current; calculated by $${X}_

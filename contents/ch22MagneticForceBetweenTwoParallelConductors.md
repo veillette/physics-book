@@ -1,5 +1,5 @@
 ---
-title: "Magnetic Force between Two Parallel Conductors"
+title: 'Magnetic Force between Two Parallel Conductors'
 layout: page
 sectionNumber: 10
 chapterNumber: 22
@@ -13,7 +13,7 @@ chapterNumber: 22
 You might expect that there are significant forces between current-carrying
 wires, since ordinary currents produce significant magnetic fields and these
 fields exert significant forces on ordinary currents. But you might not expect
-that the force between wires is used to *define* the ampere. It might also
+that the force between wires is used to _define_ the ampere. It might also
 surprise you to learn that this force has something to do with why large circuit
 breakers burn up when they attempt to interrupt large currents.
 
@@ -29,7 +29,7 @@ given to be
  $${B}_{1}=\frac{ {\mu }_{0}{I}_{1}}{2 \pi r}\text{.} $$
 </div>
 
-![Figure a shows two parallel wires, both with currents going up. The magnetic field lines of the first wire are shown as concentric circles centered on wire 1 and in a plane perpendicular to the wires. The magnetic field is in the counter clockwise direction as viewed from above. Figure b shows a view from above and shows the current-carrying wires as two dots. Around wire one is a circle that represents a magnetic field line due to that wire. The magnetic field passes directly through wire two. The magnetic field is in the counter clockwise direction. The force on wire two is to the left, toward wire one.](../resources/Figure_22_10_01.jpg "(a) The magnetic field produced by a long straight conductor is perpendicular to a parallel conductor, as indicated by RHR-2. (b) A view from above of the two wires shown in (a), with one magnetic field line shown for each wire. RHR-1 shows that the force between the parallel conductors is attractive when the currents are in the same direction. A similar analysis shows that the force is repulsive between currents in opposite directions.")
+![Figure a shows two parallel wires, both with currents going up. The magnetic field lines of the first wire are shown as concentric circles centered on wire 1 and in a plane perpendicular to the wires. The magnetic field is in the counter clockwise direction as viewed from above. Figure b shows a view from above and shows the current-carrying wires as two dots. Around wire one is a circle that represents a magnetic field line due to that wire. The magnetic field passes directly through wire two. The magnetic field is in the counter clockwise direction. The force on wire two is to the left, toward wire one.](../resources/Figure_22_10_01.jpg '(a) The magnetic field produced by a long straight conductor is perpendicular to a parallel conductor, as indicated by RHR-2. (b) A view from above of the two wires shown in (a), with one magnetic field line shown for each wire. RHR-1 shows that the force between the parallel conductors is attractive when the currents are in the same direction. A similar analysis shows that the force is repulsive between currents in opposite directions.')
 {: #Figure1}
 
 This field is uniform along wire 2 and perpendicular to it, and so the force
@@ -56,7 +56,7 @@ and $${I}_{2} $$ separated by a distance $$r $$ . The force is attractive if the
 currents are in the same direction and repulsive if they are in opposite
 directions.
 
-This force is responsible for the *pinch effect* in electric arcs and plasmas.
+This force is responsible for the _pinch effect_ in electric arcs and plasmas.
 The force exists whether the currents are in wires or not. In an electric arc,
 where currents are moving parallel to one another, there is an attraction that
 squeezes currents into a smaller tube. In large circuit breakers, like those
@@ -66,7 +66,7 @@ burn holes, and even ignite the equipment. Another example of the pinch effect
 is found in the solar plasma, where jets of ionized material, such as solar
 flares, are shaped by magnetic forces.
 
-The *operational definition of the ampere* is based on the force between
+The _operational definition of the ampere_ is based on the force between
 current-carrying wires. Note that for parallel wires separated by 1 meter with
 each carrying 1 ampere, the force per meter is
 
@@ -101,13 +101,13 @@ conductors is the most accurate in practice.
 
 ### Section Summary
 
-* The force between two parallel currents $${I}_{1} $$ and $${I}_{2} $$,
+- The force between two parallel currents $${I}_{1} $$ and $${I}_{2} $$,
   separated by a distance $$r $$ , has a magnitude per unit length given by
   <div class="equation" >
    $$\frac{F}{l}=\frac{ {\mu }_{0}{I}_{1}{I}_{2}}{2 \pi r}. $$
   </div>
 
-* The force is attractive if the currents are in the same direction, repulsive
+- The force is attractive if the currents are in the same direction, repulsive
   if they are in opposite directions.
 
 ### Conceptual Questions
@@ -123,7 +123,7 @@ Is the force attractive or repulsive between the hot and neutral lines hung from
 <div class="problem" markdown="1">
 If you have three parallel wires in the same plane, as in [[Figure 2]](#Figure2), with currents in the outer two running in opposite directions, is it possible for the middle wire to be repelled by both? Attracted by both? Explain.
 
-![Diagram showing three wires parallel to each other and in the same plane. The currents in wire 1 on the left side of the diagram and wire 3 on the right side of the diagram run opposite each other: I 1 runs from the top right to the lower left; I 3 runs from the lower left to the top right. Wire 2 is between the two, slightly closer to wire 3 than to wire 1.](../resources/Figure_22_10_02.jpg "Three parallel coplanar wires with currents in the outer two in opposite directions.")
+![Diagram showing three wires parallel to each other and in the same plane. The currents in wire 1 on the left side of the diagram and wire 3 on the right side of the diagram run opposite each other: I 1 runs from the top right to the lower left; I 3 runs from the lower left to the top right. Wire 2 is between the two, slightly closer to wire 3 than to wire 1.](../resources/Figure_22_10_02.jpg 'Three parallel coplanar wires with currents in the outer two in opposite directions.')
 {: #Figure2}
 
 </div>
@@ -140,7 +140,7 @@ Suppose two long straight wires run perpendicular to one another without touchin
 <div class="problem" markdown="1">
 Use the right hand rules to show that the force between the two loops in [[Figure 3]](#Figure3) is attractive if the currents are in the same direction and repulsive if they are in opposite directions. Is this consistent with like poles of the loops repelling and unlike poles of the loops attracting? Draw sketches to justify your answers.
 
-![Diagram showing two current-carrying loops. The planes of the loops are parallel and horizontal, one above the other. In both loops, the current runs counterclockwise.](../resources/Figure_22_10_03.jpg "Two loops of wire carrying currents can exert forces and torques on one another.")
+![Diagram showing two current-carrying loops. The planes of the loops are parallel and horizontal, one above the other. In both loops, the current runs counterclockwise.](../resources/Figure_22_10_03.jpg 'Two loops of wire carrying currents can exert forces and torques on one another.')
 {: #Figure3}
 
 </div>
@@ -221,7 +221,7 @@ An AC appliance cord has its hot and neutral wires separated by 3.00 mm and carr
 <div class="problem" markdown="1">
 [[Figure 4]](#Figure4) shows a long straight wire near a rectangular current loop. What is the direction and magnitude of the total force on the loop?
 
-![Diagram showing two current-carrying wires. Wire 1 is at the top and runs left to right with the current I 1 of fifteen amps also running left to right. Wire 2 makes a square circuit ten point zero centimeters in the vertical dimension and thirty point zero centimeters in the horizontal dimension. The top side of Wire 2 is seven point five zero centimeters below wire 1. The current in wire 2 is thirty point zero amps and runs counterclockwise: left to right along the bottom, up the right side, right to left along the top, and down the left side.](../resources/Figure_22_10_04.jpg " ")
+![Diagram showing two current-carrying wires. Wire 1 is at the top and runs left to right with the current I 1 of fifteen amps also running left to right. Wire 2 makes a square circuit ten point zero centimeters in the vertical dimension and thirty point zero centimeters in the horizontal dimension. The top side of Wire 2 is seven point five zero centimeters below wire 1. The current in wire 2 is thirty point zero amps and runs counterclockwise: left to right along the bottom, up the right side, right to left along the top, and down the left side.](../resources/Figure_22_10_04.jpg ' ')
 {: #Figure4}
 
 </div>
@@ -231,7 +231,7 @@ An AC appliance cord has its hot and neutral wires separated by 3.00 mm and carr
 <div class="problem" markdown="1">
 Find the direction and magnitude of the force that each wire experiences in [[Figure 5]](#Figure5)(a) by, using vector addition.
 
-![Figure a shows the cross sections of three wires that are parallel to each other and arranged in an equilateral triangle. The bottom left wire has current of ten point zero amps into the page. The bottom right wire has a current of twenty point zero amps also into the page. The wire at the top of the triangle has current five point zero amps out of the page. The triangle that the wires make with each other is ten point zero centimeters on each side. Figure b shows four parallel wires arranged in a square that is twenty point zero centimeters on a side. The top two wires have current of ten point zero amps out of the page. The bottom two wires have current of five point zero amps into the page.](../resources/Figure_22_10_05.jpg " ")
+![Figure a shows the cross sections of three wires that are parallel to each other and arranged in an equilateral triangle. The bottom left wire has current of ten point zero amps into the page. The bottom right wire has a current of twenty point zero amps also into the page. The wire at the top of the triangle has current five point zero amps out of the page. The triangle that the wires make with each other is ten point zero centimeters on each side. Figure b shows four parallel wires arranged in a square that is twenty point zero centimeters on a side. The top two wires have current of ten point zero amps out of the page. The bottom two wires have current of five point zero amps into the page.](../resources/Figure_22_10_05.jpg ' ')
 {: #Figure5}
 
 </div>
@@ -239,10 +239,10 @@ Find the direction and magnitude of the force that each wire experiences in [[Fi
 (a) Top wire:  $$ 2.65 \times 10^{-4}  \text{N/m} $$
  s,  $$ 10.9º $$  to left of up
 
-(b) Lower left wire:  $$ 3.61 \times 10^{-4} \text{N/m} $$ , $$ 13.9º $$ down
+(b) Lower left wire: $$ 3.61 \times 10^{-4} \text{N/m} $$ , $$ 13.9º $$ down
 from right
 
-(c) Lower right wire:  $$ 3.46 \times 10^{-4} \text{N/m} $$ , $$ 30.0º $$ down
+(c) Lower right wire: $$ 3.46 \times 10^{-4} \text{N/m} $$ , $$ 30.0º $$ down
 from left
 
 </div>

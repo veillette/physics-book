@@ -13,7 +13,7 @@ chapterNumber: 13
 
 </div>
 
-![](../resources/Figure_13_06_00.jpg "Dew drops like these, on a banana leaf photographed just after sunrise, form when the air temperature drops to or below the dew point. At the dew point, the rate at which water molecules join together is greater than the rate at which they separate, and some of the water condenses to form droplets. (credit: Aaron Escobar, Flickr) ")
+![Dew drops on a banana leaf.](../resources/Figure_13_06_00.jpg 'Dew drops like these, on a banana leaf photographed just after sunrise, form when the air temperature drops to or below the dew point. At the dew point, the rate at which water molecules join together is greater than the rate at which they separate, and some of the water condenses to form droplets. (credit: Aaron Escobar, Flickr) ')
 {: #Figure1}
 
 The expression “it’s not the heat, it’s the humidity” makes a valid point. We
@@ -48,7 +48,7 @@ because molecular speeds are higher as temperature
 increases. [[Table 1]](#Table1) gives representative values of water vapor
 pressure over a range of temperatures.
 
-![Two containers, each filled two-thirds with water. One is open to the atmosphere and the other is sealed at the top. The water molecules are depicted as circles with vector arrows of different lengths and directions to indicate velocity. In the sealed container the density of molecules in the air above the water is greater than in the unsealed container. In the sealed container, water is condensing along the walls and top of the upper part of the container.](../resources/Figure_13_06_01.jpg "(a) Because of the distribution of speeds and kinetic energies, some water molecules can break away to the vapor phase even at temperatures below the ordinary boiling point. (b) If the container is sealed, evaporation will continue until there is enough vapor density for the condensation rate to equal the evaporation rate. This vapor density and the partial pressure it creates are the saturation values. They increase with temperature and are independent of the presence of other gases, such as air. They depend only on the vapor pressure of water.")
+![Two containers, each filled two-thirds with water. One is open to the atmosphere and the other is sealed at the top. The water molecules are depicted as circles with vector arrows of different lengths and directions to indicate velocity. In the sealed container the density of molecules in the air above the water is greater than in the unsealed container. In the sealed container, water is condensing along the walls and top of the upper part of the container.](../resources/Figure_13_06_01.jpg '(a) Because of the distribution of speeds and kinetic energies, some water molecules can break away to the vapor phase even at temperatures below the ordinary boiling point. (b) If the container is sealed, evaporation will continue until there is enough vapor density for the condensation rate to equal the evaporation rate. This vapor density and the partial pressure it creates are the saturation values. They increase with temperature and are independent of the presence of other gases, such as air. They depend only on the vapor pressure of water.')
 {: #Figure2 height="228"}
 
 Relative humidity is related to the partial pressure of water vapor in the air.
@@ -259,11 +259,11 @@ where  $$n $$
 1. Identify the knowns and convert them to the proper units:
 
 1. temperature $$T=20\text{ºC}=293 \text{K} $$
-2. vapor pressure $$P $$ of water at $$20\text{ºC} $$     
+1. vapor pressure $$P $$ of water at $$20\text{ºC} $$  
    is $$ 2.33 \times 10^{3} \text{Pa} $$
-3. molecular mass of water is $$ 18.0 \text{g/mol} $$ { type="a"}
+1. molecular mass of water is $$ 18.0 \text{g/mol} $$ { type="a"}
 
-2. Solve the ideal gas law for $$n/V $$.
+1. Solve the ideal gas law for $$n/V $$.
 
 <div class="equation" >
  $$\frac{n}{V}=\frac{P}{RT} $$
@@ -388,7 +388,7 @@ contains air and total pressure is 1.00 atm. The bubble grows in size and
 thereby increases the buoyant force. The bubble breaks away and rises rapidly to
 the surface—we call this boiling! (See [[Figure 3]](#Figure3).)
 
-![A beaker of water being heated over a flame. The beaker is shown at three different times. In the first, at twenty degrees C, a small bubble sits on the bottom of the beaker. In the second step, the water temperature is fifty degrees C and the bubble is larger, though still sitting on the bottom of the beaker. In the third step, the water temperature is one hundred degrees C. The bubble is larger and is rising toward the surface.](../resources/Figure_13_06_02.jpg "(a) An air bubble in water starts out saturated with water vapor at \( 20 \text{ºC} \). (b) As the temperature rises, water vapor enters the bubble because its vapor pressure increases. The bubble expands to keep its pressure at 1.00 atm. (c) At \( 100 \text{ºC} \), water vapor enters the bubble continuously because water&#x2019;s vapor pressure exceeds its partial pressure in the bubble, which must be less than 1.00 atm. The bubble grows and rises to the surface. ")
+![A beaker of water being heated over a flame. The beaker is shown at three different times. In the first, at twenty degrees C, a small bubble sits on the bottom of the beaker. In the second step, the water temperature is fifty degrees C and the bubble is larger, though still sitting on the bottom of the beaker. In the third step, the water temperature is one hundred degrees C. The bubble is larger and is rising toward the surface.](../resources/Figure_13_06_02.jpg '(a) An air bubble in water starts out saturated with water vapor at ( 20 \\text{ºC} ). (b) As the temperature rises, water vapor enters the bubble because its vapor pressure increases. The bubble expands to keep its pressure at 1.00 atm. (c) At ( 100 \\text{ºC} ), water vapor enters the bubble continuously because water’s vapor pressure exceeds its partial pressure in the bubble, which must be less than 1.00 atm. The bubble grows and rises to the surface. ')
 {: #Figure3 height="212"}
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
@@ -419,17 +419,17 @@ Watch different types of molecules form a solid, liquid, or gas. Add or remove h
 
 ### Section Summary
 
-* Relative humidity is the fraction of water vapor in a gas compared to the
+- Relative humidity is the fraction of water vapor in a gas compared to the
   saturation value.
-* The saturation vapor density can be determined from the vapor pressure for a
+- The saturation vapor density can be determined from the vapor pressure for a
   given temperature.
-* Percent relative humidity is defined to be
+- Percent relative humidity is defined to be
 
   <div class="equation" >
    $$\text{percent relative humidity}=\frac{\text{vapor density}}{\text{saturation vapor density}}×100 \text{.} $$
   </div>
 
-* The dew point is the temperature at which air reaches 100% relative humidity.
+- The dew point is the temperature at which air reaches 100% relative humidity.
 
 ### Conceptual Questions
 

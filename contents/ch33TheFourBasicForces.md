@@ -60,6 +60,7 @@ Carrier particle
             <td>
 
 $$<10^{-18}\text{m} $$ </td>
+
 <td>
 $$+/- $$
 </td>
@@ -78,10 +79,10 @@ conjectured<sup class="footnote-number" id="footnote-ref3"><a class="footnote-li
 3</a></sup>)</td>
 </tr></tbody></table>
 
-![The first image shows a photon traveling between positive charges to transmit a repulsive electromagnetic force. The second image is the same except that an eye detects the photon before it arrives at the second positive charge, thereby obstructing the passage of the photon and preventing the force from being transmitted.](../resources/Figure_33_02_01.jpg "The first image shows the exchange of a virtual photon transmitting the electromagnetic force between charges, just as virtual pion exchange carries the strong nuclear force between nucleons. The second image shows that the photon cannot be directly observed in its passage, because this would disrupt it and alter the force. In this case it does not get to the other charge.")
+![The first image shows a photon traveling between positive charges to transmit a repulsive electromagnetic force. The second image is the same except that an eye detects the photon before it arrives at the second positive charge, thereby obstructing the passage of the photon and preventing the force from being transmitted.](../resources/Figure_33_02_01.jpg 'The first image shows the exchange of a virtual photon transmitting the electromagnetic force between charges, just as virtual pion exchange carries the strong nuclear force between nucleons. The second image shows that the photon cannot be directly observed in its passage, because this would disrupt it and alter the force. In this case it does not get to the other charge.')
 {: #Figure1}
 
-![A diagram is shown in which time proceeds along the vertical y axis and distance along the horizontal x axis. Two positive charges are shown approaching each other, exchanging a virtual photon, then moving apart.](../resources/Figure_33_02_02.jpg "The Feynman diagram for the exchange of a virtual photon between two positive charges illustrates how the electromagnetic force is transmitted on a quantum mechanical scale. Time is graphed vertically while the distance is graphed horizontally. The two positive charges are seen to be repelled by the photon exchange.")
+![A diagram is shown in which time proceeds along the vertical y axis and distance along the horizontal x axis. Two positive charges are shown approaching each other, exchanging a virtual photon, then moving apart.](../resources/Figure_33_02_02.jpg 'The Feynman diagram for the exchange of a virtual photon between two positive charges illustrates how the electromagnetic force is transmitted on a quantum mechanical scale. Time is graphed vertically while the distance is graphed horizontally. The two positive charges are seen to be repelled by the photon exchange.')
 {: #Figure2}
 
 Although these four forces are distinct and differ greatly from one another
@@ -127,7 +128,7 @@ among carrier particles is that they are all bosons (first mentioned
 in [Patterns in Spectra Reveal More Quantization](../contents/ch30PatternsInSpectraRevealMoreQuantization)), having integral
 intrinsic spins.
 
-![A diagram is shown in which time progresses along the vertical y axis and distance along the horizontal x axis. Protons and neutrons are shown approaching each other, exchanging a virtual pion, then moving apart.](../resources/Figure_33_02_03.jpg "The image shows a Feynman diagram for the exchange of a \( \pi^{+} \) between a proton and a neutron, carrying the strong nuclear force between them. This diagram represents the situation shown more pictorially in [link].")
+![A diagram is shown in which time progresses along the vertical y axis and distance along the horizontal x axis. Protons and neutrons are shown approaching each other, exchanging a virtual pion, then moving apart.](../resources/Figure_33_02_03.jpg 'The image shows a Feynman diagram for the exchange of a ( \\pi^{+} ) between a proton and a neutron, carrying the strong nuclear force between them. This diagram represents the situation shown more pictorially in [link].')
 {: #Figure3}
 
 There is a relationship between the mass of the carrier particle and the range
@@ -158,11 +159,11 @@ together—in such a manner that they become identical.
 
 ### Summary
 
-* The four basic forces and their carrier particles are summarized in
+- The four basic forces and their carrier particles are summarized in
   the [[Table 1]](#Table1).
-* Feynman diagrams are graphs of time versus position and are highly useful
+- Feynman diagrams are graphs of time versus position and are highly useful
   pictorial representations of particle processes.
-* The theory of electromagnetism on the particle scale is called quantum
+- The theory of electromagnetism on the particle scale is called quantum
   electrodynamics (QED).
 
 ### Problems &amp; Exercises
@@ -195,13 +196,13 @@ The ratio of the strong to the weak force and the ratio of the strong force to t
 ### Footnotes
 {: class="footnote-refs-title"}
 
-* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
+- {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
   footnote-ref-link"} <span class="footnote-ref-content"> + attractive; ‑
   repulsive; $$+/- $$ both.</span>
-* {: class="footnote-ref" #footnote2} [2](#footnote-ref2){: class="
+- {: class="footnote-ref" #footnote2} [2](#footnote-ref2){: class="
   footnote-ref-link"} <span class="footnote-ref-content">Predicted by theory and
   first observed in 1983.</span>
-* {: class="footnote-ref" #footnote3} [3](#footnote-ref3){: class="
+- {: class="footnote-ref" #footnote3} [3](#footnote-ref3){: class="
   footnote-ref-link"} <span class="footnote-ref-content">Eight proposed—indirect
   evidence of existence. Underlie meson exchange.</span>
   { data-list-type="bulleted" data-bullet-style="none"}

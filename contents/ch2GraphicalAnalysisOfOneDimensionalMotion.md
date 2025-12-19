@@ -33,13 +33,13 @@ call the horizontal axis the $$ x $$ -axis and the vertical axis the $$ y $$
 </div>
 
 Here $$ m $$ is the **slope**, defined to be the rise divided by the run (as
-seen in the figure) of the straight line. The letter $$ b $$ is used for the 
+seen in the figure) of the straight line. The letter $$ b $$ is used for the
 **y-intercept**, which is the point at which the line crosses the vertical axis.
 
-![Graph of a straight-line sloping up at about 40 degrees.](../resources/Figure_02_08_01.jpg "A straight-line graph. The equation for a straight line is \( y= mx + b \)")
+![Graph of a straight-line sloping up at about 40 degrees.](../resources/Figure_02_08_01.jpg 'A straight-line graph. The equation for a straight line is ( y= mx + b )')
 {: #Figure1}
 
-### Graph of Position vs. Time (*a* = 0, so *v* is constant)
+### Graph of Position vs. Time (_a_ = 0, so _v_ is constant)
 
 Time is usually an independent variable that other quantities, such as position,
 depend upon. A graph of position versus time would, thus, have $$ x $$ on the
@@ -47,14 +47,13 @@ vertical axis and $$ t $$ on the horizontal axis. [Figure 2](#Figure2) is just s
 a straight-line graph. It shows a graph of position versus time for a
 jet-powered car on a very flat dry lake bed in Nevada.
 
-![Line graph of jet car displacement in meters versus time in seconds. The line is straight with a positive slope. The y intercept is four hundred meters. The total change in time is eight point zero seconds. The initial position is four hundred meters. The final position is two thousand meters.](../resources/Figure_02_08_02.jpg
-"Graph of position versus time for a jet-powered car on the Bonneville Salt Flats.
-")
+![Line graph of jet car displacement in meters versus time in seconds. The line is straight with a positive slope. The y intercept is four hundred meters. The total change in time is eight point zero seconds. The initial position is four hundred meters. The final position is two thousand meters.](../resources/Figure_02_08_02.jpg 'Graph of position versus time for a jet-powered car on the Bonneville Salt Flats.
+')
 {: #Figure2}
 
 Using the relationship between dependent and independent variables, we see that
 the slope in the graph above is average velocity $$ \overline{v} $$ and the
-intercept is position at time zero—that is, $$ x_{0} $$. Substituting these
+intercept is position at time zero—that is, $$ x\_{0} $$. Substituting these
 symbols into $$ y= mx+b $$ gives
 
 <div class="equation">
@@ -144,14 +143,13 @@ starts at zero for this motion (
 as if measured with a stopwatch), and the position and velocity are initially
 200 m and 15 m/s, respectively.
 
-![Three line graphs. First is a line graph of displacement over time. Line has a positive slope that increases with time. Second line graph is of velocity over time. Line is straight with a positive slope. Third line graph is of acceleration over time. Line is straight and horizontal, indicating constant acceleration.](../resources/Figure_02_08_03.jpg
-"Graphs of motion of a jet-powered car during the time span when its acceleration is constant.
-(a) The slope of an \(x\) vs. \(t\) graph is velocity. This is shown at two points, and the instantaneous velocities obtained are plotted in the next graph. Instantaneous velocity at any point is the slope of the tangent at that point.
-(b) The slope of the \(v\) vs. \(t\) graph is constant for this part of the motion, indicating constant acceleration.
-(c) Acceleration has the constant value of \(5.0 \mss \) over the time interval plotted.")
+![Three line graphs. First is a line graph of displacement over time. Line has a positive slope that increases with time. Second line graph is of velocity over time. Line is straight with a positive slope. Third line graph is of acceleration over time. Line is straight and horizontal, indicating constant acceleration.](../resources/Figure_02_08_03.jpg 'Graphs of motion of a jet-powered car during the time span when its acceleration is constant.
+(a) The slope of an (x) vs. (t) graph is velocity. This is shown at two points, and the instantaneous velocities obtained are plotted in the next graph. Instantaneous velocity at any point is the slope of the tangent at that point.
+(b) The slope of the (v) vs. (t) graph is constant for this part of the motion, indicating constant acceleration.
+(c) Acceleration has the constant value of (5.0 \\mss ) over the time interval plotted.')
 {: #Figure3}
 
-![](../resources/Figure_02_08_04.jpg "A U.S. Air Force jet car speeds down a track. (credit: Matt Trostle, Flickr)")
+![](../resources/Figure_02_08_04.jpg 'A U.S. Air Force jet car speeds down a track. (credit: Matt Trostle, Flickr)')
 {: #Figure4}
 
 The graph of position versus time in [Figure 3](#Figure3)(a) is a curve rather than
@@ -172,8 +170,7 @@ Determining Instantaneous Velocity from the Slope at a Point: Jet Car
 Calculate the velocity of the jet car at a time of 25 s by finding the slope of the $$ x $$ vs. $$ t $$
 graph in the graph below.
 
-![A graph of displacement versus time for a jet car. The x axis for time runs from zero to thirty five seconds. The y axis for displacement runs from zero to three thousand meters. The curve depicting displacement is concave up. The slope of the curve increases over time. Slope equals velocity v. There are two points on the curve, labeled, P and Q. P is located at time equals ten seconds. Q is located and time equals twenty-five seconds. A line tangent to P at ten seconds is drawn and has a slope delta x sub P over delta t sub p. A line tangent to Q at twenty five seconds is drawn and has a slope equal to delta x sub q over delta t sub q. Select coordinates are given in a table and consist of the following: time zero seconds displacement two hundred meters; time five seconds displacement three hundred thirty eight meters; time ten seconds displacement six hundred meters; time fifteen seconds displacement nine hundred eighty eight meters. Time twenty seconds displacement one thousand five hundred meters; time twenty five seconds displacement two thousand one hundred thirty eight meters; time thirty seconds displacement two thousand nine hundred meters.](../resources/Figure_02_08_05.jpg
-"The slope of an \( x \) vs. \( t \) graph is velocity. This is shown at two points. Instantaneous velocity at any point is the slope of the tangent at that point.")
+![A graph of displacement versus time for a jet car. The x axis for time runs from zero to thirty five seconds. The y axis for displacement runs from zero to three thousand meters. The curve depicting displacement is concave up. The slope of the curve increases over time. Slope equals velocity v. There are two points on the curve, labeled, P and Q. P is located at time equals ten seconds. Q is located and time equals twenty-five seconds. A line tangent to P at ten seconds is drawn and has a slope delta x sub P over delta t sub p. A line tangent to Q at twenty five seconds is drawn and has a slope equal to delta x sub q over delta t sub q. Select coordinates are given in a table and consist of the following: time zero seconds displacement two hundred meters; time five seconds displacement three hundred thirty eight meters; time ten seconds displacement six hundred meters; time fifteen seconds displacement nine hundred eighty eight meters. Time twenty seconds displacement one thousand five hundred meters; time twenty five seconds displacement two thousand one hundred thirty eight meters; time thirty seconds displacement two thousand nine hundred meters.](../resources/Figure_02_08_05.jpg 'The slope of an ( x ) vs. ( t ) graph is velocity. This is shown at two points. Instantaneous velocity at any point is the slope of the tangent at that point.')
 {: #Figure5}
 
 **Strategy**
@@ -203,7 +200,7 @@ Thus,
 **Discussion**
 
 This is the value given in this figure’s table for $$ v $$ at $$ t=25 \s $$. The
-value of 140 m/s for $$ v_{Q} $$ is plotted in [Figure 5](#Figure5). The entire
+value of 140 m/s for $$ v\_{Q} $$ is plotted in [Figure 5](#Figure5). The entire
 graph of $$ v $$ vs. $$ t $$ can be obtained in this fashion.
 
 </div>
@@ -234,7 +231,9 @@ expression for a straight line, $$ y=m x+b $$.
 
 In this case, the vertical axis $$ y $$ is $$ V $$, the intercept $$ b $$ is $$
 v_{0} $$, the slope $$ m $$ is $$ a $$, and the horizontal axis $$ x $$ is $$ t
-$$. Substituting these symbols yields
+
+$$
+. Substituting these symbols yields
 
 <div class="equation">
  $$ v=v_{0}+a t . $$
@@ -646,9 +645,9 @@ The acceleration at $$ t = 10 \s $$ is $$ 3.2 \mss $$, which verifies the given 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Construct the position graph for the subway shuttle train as shown
-in the [Acceleration module](./ch2Acceleration) (a). 
+in the [Acceleration module](./ch2Acceleration) (a).
 Your graph should show the position of the train, in kilometers, from t = 0 to 20 s.
-You will need to use the information on acceleration and velocity given in 
+You will need to use the information on acceleration and velocity given in
 the examples for this figure.
 
 </div>
@@ -952,3 +951,4 @@ y-intercept
 $$ -axis
 
 </div>
+$$

@@ -10,7 +10,7 @@ chapterNumber: 16
 * Determine the frequency of oscillations.
 </div>
 
-![The given figure shows a closed zoom view of the strings of a guitar. There are two slanting white colored strings in the picture. In the nearer string, the gaps between the circular threads of the string are visible, whereas the second white string at the back looks like a white thin stick.](../resources/Figure_16_02_01.jpg "The strings on this guitar vibrate at regular time intervals. (credit: JAR)")
+![The given figure shows a closed zoom view of the strings of a guitar. There are two slanting white colored strings in the picture. In the nearer string, the gaps between the circular threads of the string are visible, whereas the second white string at the back looks like a white thin stick.](../resources/Figure_16_02_01.jpg 'The strings on this guitar vibrate at regular time intervals. (credit: JAR)')
 {: #Figure1}
 
 When you pluck a guitar string, the resulting sound has a steady tone and lasts
@@ -18,7 +18,7 @@ a long time. Each successive vibration of the string takes the same time as the
 previous one. We define **periodic motion** to be a motion that repeats itself
 at regular time intervals, such as exhibited by the guitar string or by an
 object on a spring moving up and down. The time to complete one oscillation
-remains constant and is called the **period**  $$T $$ . Its units are usually
+remains constant and is called the **period** $$T $$ . Its units are usually
 seconds, but may be any convenient unit of time. The word period refers to the
 time for some event whether repetitive or not; but we shall be primarily
 interested in periodic motion, which is by definition repetitive. A concept
@@ -32,8 +32,8 @@ oscillations per unit time. The relationship between frequency and period is
  $$f=\frac{1}{T}. $$
 </div>
 
-The SI unit for frequency is the *cycle per second*, which is defined to be a *
-hertz* (Hz):
+The SI unit for frequency is the _cycle per second_, which is defined to be a _
+hertz_ (Hz):
 
 <div class="equation" >
  $$1 \text{Hz}=1\frac{\text{cycle}}{\text{sec}}\text{ or }  1 \text{Hz}=\frac{1}{\text{s}} $$
@@ -116,11 +116,11 @@ I visit my parents for dinner every other Sunday. The frequency of my visits is 
 
 ### Section Summary
 
-* Periodic motion is a repetitious oscillation.
-* The time for one oscillation is the period $$T $$ .
+- Periodic motion is a repetitious oscillation.
+- The time for one oscillation is the period $$T $$ .
 
-* The number of oscillations per unit time is the frequency $$f $$ .
-* These quantities are related by
+- The number of oscillations per unit time is the frequency $$f $$ .
+- These quantities are related by
 
   <div class="equation" >
    $$f=\frac{1}{T}. $$
@@ -198,7 +198,8 @@ kilometer? (b) At how many revolutions per minute is the engine rotating?
 <div class="solution" markdown="1">
 (a) 93.8 m/s
 
-(b)  $$ 11.3 \times 10^{3} \text{rev/min} $$
+(b) $$ 11.3 \times 10^{3} \text{rev/min} $$
+
 </div>
 </div>
 

@@ -16,11 +16,11 @@ that the central maximum is larger than those on either side, and that the
 intensity decreases rapidly on either side. In contrast, a diffraction grating
 produces evenly spaced lines that dim slowly on either side of center.
 
-![Part a of the figure shows a slit in a vertical bar. To the right of the bar is a graph of intensity versus height. The graph is turned ninety degrees counterclockwise so that the intensity scale increases to the left and the height increases as you go up the page. Just in front of the gap, a strong central peak extends leftward from the graph&#x2019;s baseline, and many smaller satellite peaks appear above and below this central peak. Part b of the figure shows a drawing of the two-dimensional intensity pattern that is observed from single slit diffraction. The central stripe is quite broad compared to the satellite stripes, and there are dark areas between all the stripes.](../resources/Figure_27_05_01.jpg "(a) Single slit diffraction pattern. Monochromatic light passing through a single slit has a central maximum and many smaller and dimmer maxima on either side. The central maximum is six times higher than shown. (b) The drawing shows the bright central maximum and dimmer and thinner maxima on either side.")
+![Part a of the figure shows a slit in a vertical bar. To the right of the bar is a graph of intensity versus height. The graph is turned ninety degrees counterclockwise so that the intensity scale increases to the left and the height increases as you go up the page. Just in front of the gap, a strong central peak extends leftward from the graph’s baseline, and many smaller satellite peaks appear above and below this central peak. Part b of the figure shows a drawing of the two-dimensional intensity pattern that is observed from single slit diffraction. The central stripe is quite broad compared to the satellite stripes, and there are dark areas between all the stripes.](../resources/Figure_27_05_01.jpg '(a) Single slit diffraction pattern. Monochromatic light passing through a single slit has a central maximum and many smaller and dimmer maxima on either side. The central maximum is six times higher than shown. (b) The drawing shows the bright central maximum and dimmer and thinner maxima on either side.')
 {: #Figure1}
 
 The analysis of single slit diffraction is illustrated in [[Figure 2]](#Figure2)
-. Here we consider light coming from different parts of the *same* slit.
+. Here we consider light coming from different parts of the _same_ slit.
 According to Huygens’s principle, every part of the wavefront in the slit emits
 wavelets. These are like rays that start out in phase and head in all
 directions. (Each ray is perpendicular to the wavefront of a wavelet.) Assuming
@@ -39,7 +39,7 @@ In fact, each ray from the slit will have another to interfere destructively,
 and a minimum in intensity will occur at this angle. There will be another
 minimum at the same angle to the right of the incident direction of the light.
 
-![The figure shows four schematics of a ray bundle passing through a single slit. The slit is represented as a gap in a vertical line. In the first schematic, the ray bundle passes horizontally through the slit. This schematic is labeled theta equals zero and bright. The second schematic is labeled dark and shows the ray bundle passing through the slit an angle of roughly fifteen degrees above the horizontal. The path length difference between the top and bottom ray is lambda, and the schematic is labeled sine theta equals lambda over d. The third schematic is labeled bright and shows the ray bundle passing through the slit at an angle of about twenty five degrees above the horizontal. The path length difference between the top and bottom rays is three lambda over two d, and the schematic is labeled sine theta equals three lambda over two d. The final schematic is labeled dark and shows the ray bundle passing through the slit at an angle of about forty degrees above the horizontal. The path length difference between the top and bottom rays is two lambda over d, and the schematic is labeled sine theta equals two lambda over d.](../resources/Figure_27_05_02.jpg "Light passing through a single slit is diffracted in all directions and may interfere constructively or destructively, depending on the angle. The difference in path length for rays from either side of the slit is seen to be \( D\sin \theta \) .")
+![The figure shows four schematics of a ray bundle passing through a single slit. The slit is represented as a gap in a vertical line. In the first schematic, the ray bundle passes horizontally through the slit. This schematic is labeled theta equals zero and bright. The second schematic is labeled dark and shows the ray bundle passing through the slit an angle of roughly fifteen degrees above the horizontal. The path length difference between the top and bottom ray is lambda, and the schematic is labeled sine theta equals lambda over d. The third schematic is labeled bright and shows the ray bundle passing through the slit at an angle of about twenty five degrees above the horizontal. The path length difference between the top and bottom rays is three lambda over two d, and the schematic is labeled sine theta equals three lambda over two d. The final schematic is labeled dark and shows the ray bundle passing through the slit at an angle of about forty degrees above the horizontal. The path length difference between the top and bottom rays is two lambda over d, and the schematic is labeled sine theta equals two lambda over d.](../resources/Figure_27_05_02.jpg 'Light passing through a single slit is diffracted in all directions and may interfere constructively or destructively, depending on the angle. The difference in path length for rays from either side of the slit is seen to be ( D\\sin \\theta ) .')
 {: #Figure2}
 
 At the larger angle shown in [[Figure 2]](#Figure2)(c), the path lengths differ
@@ -56,7 +56,7 @@ from either side of the slit is $$D\sin \theta $$ , and we see that a
 destructive minimum is obtained when this distance is an integral multiple of
 the wavelength.
 
-![The graph shows the variation of intensity as a function of sine theta. The curve has a strong peak at sine theta equals zero, then has small oscillations spreading symmetrically to the left and right of this central peak. The oscillations all appear to be of the same height. Between each oscillation, the curve appears to go to zero, and each zero is labeled. The first zero to the left of the main peak is labeled minus lambda over d and the first zero to the right is labeled lambda over d. The second zero to the left is labeled minus two lambda over d and the second zero to the right is labeled two lambda over d. The third zero to the left is labeled minus three lambda over d and the third zero to the right is labeled three lambda over d.](../resources/Figure_27_05_03.jpg "A graph of single slit diffraction intensity showing the central maximum to be wider and much more intense than those to the sides. In fact the central maximum is six times higher than shown here.")
+![The graph shows the variation of intensity as a function of sine theta. The curve has a strong peak at sine theta equals zero, then has small oscillations spreading symmetrically to the left and right of this central peak. The oscillations all appear to be of the same height. Between each oscillation, the curve appears to go to zero, and each zero is labeled. The first zero to the left of the main peak is labeled minus lambda over d and the first zero to the right is labeled lambda over d. The second zero to the left is labeled minus two lambda over d and the second zero to the right is labeled two lambda over d. The third zero to the left is labeled minus three lambda over d and the third zero to the right is labeled three lambda over d.](../resources/Figure_27_05_03.jpg 'A graph of single slit diffraction intensity showing the central maximum to be wider and much more intense than those to the sides. In fact the central maximum is six times higher than shown here.')
 {: #Figure3}
 
 Thus, to obtain **destructive interference for a single slit**{: class="term"},
@@ -79,7 +79,7 @@ Calculating Single Slit Diffraction
 Visible light of wavelength 550 nm falls on a single slit and produces its second diffraction minimum at an angle of  $$45.0 ^\circ $$
  relative to the incident direction of the light. (a) What is the width of the slit? (b) At what angle is the first minimum produced?
 
-![The schematic shows a single slit to the left and the resulting intensity pattern on a screen is graphed on the right. The single slit is represented by a gap of size d in a vertical line. A ray of wavelength lambda enters the gap from the left, then five rays leave from the gap center and head to the right. One ray continues on the horizontal centerline of the schematic. Two rays angle upward: the first at an unknown angle theta one above the horizontal and the second at an angle theta two equals forty five degrees above the horizontal. The final two rays angle downward at the same angles, so that they are symmetric about the horizontal with respect to the two rays that angle upward. The intensity on the screen is a maximum where the central ray hits the screen, whereas it is a minimum where the angled rays hit the screen.](../resources/Figure_27_05_04.jpg "A graph of the single slit diffraction pattern is analyzed in this example.")
+![The schematic shows a single slit to the left and the resulting intensity pattern on a screen is graphed on the right. The single slit is represented by a gap of size d in a vertical line. A ray of wavelength lambda enters the gap from the left, then five rays leave from the gap center and head to the right. One ray continues on the horizontal centerline of the schematic. Two rays angle upward: the first at an unknown angle theta one above the horizontal and the second at an angle theta two equals forty five degrees above the horizontal. The final two rays angle downward at the same angles, so that they are symmetric about the horizontal with respect to the two rays that angle upward. The intensity on the screen is a maximum where the central ray hits the screen, whereas it is a minimum where the angled rays hit the screen.](../resources/Figure_27_05_04.jpg 'A graph of the single slit diffraction pattern is analyzed in this example.')
 {: #Figure4}
 
 **Strategy**
@@ -128,9 +128,9 @@ the central maximum.
 
 ### Section Summary
 
-* A single slit produces an interference pattern characterized by a broad
+- A single slit produces an interference pattern characterized by a broad
   central maximum with narrower and dimmer maxima to the sides.
-* There is destructive interference for a single slit when $$D \sin \theta
+- There is destructive interference for a single slit when $$D \sin \theta
   =m \lambda, \left( \text{ for } m=1 \text{,} -1 \text{,} 2 \text{,} -2 \text{,} 3
   \text{,} \dots \right) $$ , where $$D $$ is the slit width, $$\lambda $$ is
   the light’s wavelength, $$\theta $$ is the angle relative to the original
@@ -268,7 +268,7 @@ that will produce a first minimum for a wavelength  $$\lambda  $$ ?
 (b)  $$ 48.7º $$
 (c) No
 
-(d)  $${2\theta }_{1}=\left(2\right)\left(14.5 ^\circ\right)=29 ^\circ,
+(d) $${2\theta }_{1}=\left(2\right)\left(14.5 ^\circ\right)=29 ^\circ,
 {\theta }_{2}-{\theta }_{1}=30.05\text{º}- 14.5º=15.56\text{º} $$ . Thus, $$29
 \text{º}\approx \left(2\right)\left(15.56\text{º}\right)= 31.1º $$.
 

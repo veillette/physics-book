@@ -19,7 +19,7 @@ building blocks and members of the exclusive club of truly elementary particles.
 Note that an elementary or **fundamental particle** has no substructure (it is
 not made of other particles) and has no finite size other than its wavelength.
 This does not mean that fundamental particles are stable—some decay, while
-others do not. Keep in mind that *all* leptons seem to be fundamental, whereas *no* hadrons are fundamental. There is strong evidence that **quarks** are the
+others do not. Keep in mind that _all_ leptons seem to be fundamental, whereas _no_ hadrons are fundamental. There is strong evidence that **quarks** are the
 fundamental building blocks of hadrons as seen in [[Figure 1]](#Figure1). Quarks
 are the second group of fundamental particles (leptons are the first). The third
 and perhaps final group of fundamental particles is the carrier particles for
@@ -28,7 +28,7 @@ is. In this module we will discuss the quark substructure of hadrons and its
 relationship to forces as well as indicate some remaining questions and
 problems.
 
-![The figure shows four spheres that are labeled proton, neutron, positive pion, and negative pion. The proton sphere contains a blue up quark with spin up, a green down quark with spin down, and a red up quark with spin up. Below the figure are two equations. The upper equation is labeled spin and reads one half plus one half minus one half equals one half, and the lower equation is labeled charge and reads plus two thirds plus two thirds minus one third equals one. The neutron sphere contains a green up quark with spin down, a blue down quark with spin up, and a red down quark with spin up. The corresponding spin equation reads minus one half plus one half plus one half equals one half, and the charge equation reads plus two thirds minus one third minus one third equals zero. The positive pion sphere contains a red up quark with spin up and an anti red anti down quark with spin down. The corresponding spin equation reads plus one half minus one half equals zero, and the charge equation reads plus two thirds plus one third equals plus one. The negative pion sphere contains a green anti up quark with spin up and an anti green down quark with spin down. The corresponding spin equation reads plus one half minus one half equals zero, and the charge equation reads minus two thirds minus one third equals minus one.](../resources/Figure_33_05_01.jpg "All baryons, such as the proton and neutron shown here, are composed of three quarks. All mesons, such as the pions shown here, are composed of a quark-antiquark pair. Arrows represent the spins of the quarks, which, as we shall see, are also colored. The colors are such that they need to add to white for any possible combination of quarks.")
+![The figure shows four spheres that are labeled proton, neutron, positive pion, and negative pion. The proton sphere contains a blue up quark with spin up, a green down quark with spin down, and a red up quark with spin up. Below the figure are two equations. The upper equation is labeled spin and reads one half plus one half minus one half equals one half, and the lower equation is labeled charge and reads plus two thirds plus two thirds minus one third equals one. The neutron sphere contains a green up quark with spin down, a blue down quark with spin up, and a red down quark with spin up. The corresponding spin equation reads minus one half plus one half plus one half equals one half, and the charge equation reads plus two thirds minus one third minus one third equals zero. The positive pion sphere contains a red up quark with spin up and an anti red anti down quark with spin down. The corresponding spin equation reads plus one half minus one half equals zero, and the charge equation reads plus two thirds plus one third equals plus one. The negative pion sphere contains a green anti up quark with spin up and an anti green down quark with spin down. The corresponding spin equation reads plus one half minus one half equals zero, and the charge equation reads minus two thirds minus one third equals minus one.](../resources/Figure_33_05_01.jpg 'All baryons, such as the proton and neutron shown here, are composed of three quarks. All mesons, such as the pions shown here, are composed of a quark-antiquark pair. Arrows represent the spins of the quarks, which, as we shall see, are also colored. The colors are such that they need to add to white for any possible combination of quarks.')
 {: #Figure1}
 
 ### Conception of Quarks
@@ -38,7 +38,7 @@ and George Zweig in 1963. Their quaint name was taken by Gell-Mann from a James
 Joyce novel—Gell-Mann was also largely responsible for the concept and name of
 strangeness. (Whimsical names are common in particle physics, reflecting the
 personalities of modern physicists.) Originally, three quark types—or **flavors**—were proposed to account for the then-known mesons and baryons. These
-quark flavors are named **up** (*u*), **down** (*d*), and **strange** (*s*). All
+quark flavors are named **up** (_u_), **down** (_d_), and **strange** (_s_). All
 quarks have half-integral spin and are thus fermions. All mesons have integral
 spin while all baryons have half-integral spin. Therefore, mesons should be made
 up of an even number of quarks while baryons need to be made up of an odd number
@@ -47,7 +47,7 @@ neutron, and two pions. The most radical proposal by Gell-Mann and Zweig is the
 fractional charges of quarks, which are $$±\left(\frac{2}{3}\right){q}_{e} $$
 and $$\left(\frac{1}{3}\right){q}_{e} $$ , whereas all directly observed
 particles have charges that are integral multiples of $${q}_{e} $$ . Note that
-the fractional value of the quark does not violate the fact that the *e* is the
+the fractional value of the quark does not violate the fact that the _e_ is the
 smallest unit of charge that is observed, because a free quark cannot
 exist. [[Table 1]](#Table1) lists characteristics of the six quark flavors that
 are now thought to exist. Discoveries made since 1963 have required extra quark
@@ -57,10 +57,12 @@ flavors, which are divided into three families quite analogous to leptons.
 
 To understand how these quark substructures work, let us specifically examine
 the proton, neutron, and the two pions pictured in [[Figure 1]](#Figure1) before
-moving on to more general considerations. First, the proton *p* is composed of
-the three quarks *uud*, so that its total charge is $$+\left(\frac{2}{3}\right)
+moving on to more general considerations. First, the proton _p_ is composed of
+the three quarks _uud_, so that its total charge is $$+\left(\frac{2}{3}\right)
 {q}_{e}+\left(\frac{2}{3}\right){q}_{e}-\left(\frac{1}{3}\right){q}_{e}={q}_{e}
-$$ , as expected. With the spins aligned as in the figure, the proton’s
+
+$$
+, as expected. With the spins aligned as in the figure, the proton’s
 intrinsic spin is $$+\left(\frac{1}{2}\right)+\left(\frac{1}{2}\right)-\left(
 \frac{1}{2}\right)=\left(\frac{1}{2}\right) $$ , also as expected. Note that the
 spins of the up quarks are aligned, so that they would be in the same state
@@ -83,7 +85,7 @@ quark:
  $$d\to u+{\beta }^{-}+{\stackrel{-}{v} }_{e} $$
 </div>
 
-<table id="Table1" aria-describedby="Quarks and Antiquarks"><caption><span class="title">Quarks and Antiquarks<sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup></span></caption><thead>        
+<table id="Table1" aria-describedby="Quarks and Antiquarks"><caption><span class="title">Quarks and Antiquarks<sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup></span></caption><thead>
 <tr>
             <th>
               <strong>Name</strong>
@@ -101,20 +103,20 @@ quark:
               <strong>Charge</strong>
             </th>
             <th>
-               $$B $$                
-<sup class="footnote-number" id="footnote-ref2"><a class="footnote-link" href="#footnote2">2</a></sup> 
+               $$B $$
+<sup class="footnote-number" id="footnote-ref2"><a class="footnote-link" href="#footnote2">2</a></sup>
             </th>
             <th>
                $$S $$
             </th>
             <th>
-               $$c $$ 
+               $$c $$
             </th>
             <th>
-               $$b $$ 
+               $$b $$
             </th>
             <th>
-               $$t $$ 
+               $$t $$
             </th>
             <th>
               Mass  $$\left(\text{GeV}/{c}^{2}\right) $$<sup class="footnote-number" id="footnote-ref3"><a class="footnote-link" href="#footnote3">3</a></sup>
@@ -124,17 +126,17 @@ quark:
 <tr>
             <td>Up</td>
             <td>
-               $$u $$ 
+               $$u $$
             </td>
             <td>
-               $$\stackrel{-}{u} $$ 
+               $$\stackrel{-}{u} $$
             </td>
 <td>1/2</td>
                                <td>
-               $$±\frac{2}{3}{q}_{e} $$ 
+               $$±\frac{2}{3}{q}_{e} $$
             </td>
                           <td>
-               $$±\frac{1}{3} $$ 
+               $$±\frac{1}{3} $$
             </td>
             <td>0</td>
             <td>0</td>
@@ -144,17 +146,17 @@ quark:
           </tr><tr>
             <td>Down</td>
             <td>
-               $$d $$ 
+               $$d $$
             </td>
             <td>
-               $$\stackrel{-}{d} $$ 
+               $$\stackrel{-}{d} $$
             </td>
               <td>1/2</td>
             <td>
-               $$\mp \frac{1}{3}{q}_{e} $$ 
+               $$\mp \frac{1}{3}{q}_{e} $$
             </td>
             <td>
-               $$±\frac{1}{3} $$ 
+               $$±\frac{1}{3} $$
             </td>
             <td>0</td>
             <td>0</td>
@@ -168,20 +170,20 @@ quark:
              <tr>
             <td>Strange</td>
             <td>
-               $$s $$ 
+               $$s $$
             </td>
             <td>
-               $$\stackrel{-}{s} $$ 
+               $$\stackrel{-}{s} $$
             </td>
               <td>1/2</td>
                         <td>
-               $$\mp \frac{1}{3}{q}_{e} $$ 
+               $$\mp \frac{1}{3}{q}_{e} $$
             </td>
             <td>
-               $$±\frac{1}{3} $$ 
+               $$±\frac{1}{3} $$
             </td>
             <td>
-               $$\mp 1 $$ 
+               $$\mp 1 $$
             </td>
             <td>0</td>
             <td>0</td>
@@ -190,21 +192,21 @@ quark:
           </tr><tr>
             <td>Charmed</td>
             <td>
-               $$c $$ 
+               $$c $$
             </td>
             <td>
-               $$\stackrel{-}{c} $$ 
+               $$\stackrel{-}{c} $$
             </td>
               <td>1/2</td>
                         <td>
-               $$±\frac{2}{3}{q}_{e} $$ 
+               $$±\frac{2}{3}{q}_{e} $$
             </td>
             <td>
-               $$±\frac{1}{3} $$ 
+               $$±\frac{1}{3} $$
             </td>
             <td>0</td>
             <td>
-               $$±1 $$ 
+               $$±1 $$
             </td>
             <td>0</td>
             <td>0</td>
@@ -215,45 +217,45 @@ quark:
             </tr>           <tr>
             <td>Bottom</td>
             <td>
-               $$b $$ 
+               $$b $$
             </td>
             <td>
-               $$\stackrel{-}{b} $$ 
+               $$\stackrel{-}{b} $$
             </td>
               <td>1/2</td>
             <td>
-               $$\mp \frac{1}{3}{q}_{e} $$ 
+               $$\mp \frac{1}{3}{q}_{e} $$
             </td>
             <td>
-               $$±\frac{1}{3} $$ 
+               $$±\frac{1}{3} $$
             </td>
             <td>0</td>
             <td>0</td>
             <td>
-               $$\mp 1 $$ 
+               $$\mp 1 $$
             </td>
             <td>0</td>
             <td>5</td>
           </tr><tr>
             <td>Top</td>
             <td>
-               $$t $$ 
+               $$t $$
             </td>
             <td>
-               $$\stackrel{-}{t} $$ 
+               $$\stackrel{-}{t} $$
             </td>
               <td>1/2</td>
             <td>
-               $$±\frac{2}{3}{q}_{e} $$ 
+               $$±\frac{2}{3}{q}_{e} $$
             </td>
             <td>
-               $$±\frac{1}{3} $$ 
+               $$±\frac{1}{3} $$
             </td>
             <td>0</td>
             <td>0</td>
             <td>0</td>
             <td>
-               $$±1 $$ 
+               $$±1 $$
             </td>
             <td>173</td>
           </tr></tbody></table>
@@ -271,67 +273,67 @@ quark:
             </td>
           </tr><tr>
             <td colspan="2">
-               $${\pi }^{+} $$ 
+               $${\pi }^{+} $$
             </td>
             <td>
-               $$u\stackrel{-}{d} $$ 
+               $$u\stackrel{-}{d} $$
             </td>
           </tr><tr>
             <td colspan="2">
-               $${\pi }^{-} $$ 
+               $${\pi }^{-} $$
             </td>
             <td>
-               $$\stackrel{-}{u}d $$ 
+               $$\stackrel{-}{u}d $$
             </td>
           </tr><tr>
             <td colspan="2">
-               $${\pi }^{0} $$ 
+               $${\pi }^{0} $$
             </td>
             <td> $$u\stackrel{-}{u} $$,  $$d\stackrel{-}{d} $$ mixture<sup class="footnote-number" id="footnote-ref5"><a class="footnote-link" href="#footnote5">5</a></sup></td>
           </tr><tr>
             <td colspan="2">
-               $${\eta }^{0} $$ 
+               $${\eta }^{0} $$
             </td>
             <td> $$u\stackrel{-}{u} $$,  $$d\stackrel{-}{d} $$ mixture<sup class="footnote-number" id="footnote-ref6"><a class="footnote-link" href="#footnote6">6</a></sup></td>
           </tr><tr>
             <td colspan="2">
-               $${K}^{0} $$ 
+               $${K}^{0} $$
             </td>
             <td>
-               $$d\stackrel{-}{s} $$ 
+               $$d\stackrel{-}{s} $$
             </td>
           </tr><tr>
             <td colspan="2">
-               $${\stackrel{-}{K} }^{0} $$ 
+               $${\stackrel{-}{K} }^{0} $$
             </td>
             <td>
-               $$\stackrel{-}{d}s $$ 
+               $$\stackrel{-}{d}s $$
             </td>
           </tr><tr>
             <td colspan="2">
-               $${K}^{+} $$ 
+               $${K}^{+} $$
             </td>
             <td>
-               $$u\stackrel{-}{s} $$ 
+               $$u\stackrel{-}{s} $$
             </td>
           </tr><tr>
             <td colspan="2">
-               $${K}^{-} $$ 
+               $${K}^{-} $$
             </td>
             <td>
-               $$\stackrel{-}{u}s $$ 
+               $$\stackrel{-}{u}s $$
             </td>
           </tr><tr>
             <td colspan="2">
-               $$J/\psi  $$ 
+               $$J/\psi  $$
             </td>
             <td>
-               $$c\stackrel{-}{c} $$ 
+               $$c\stackrel{-}{c} $$
             </td>
           </tr><tr>
             <td colspan="2"> $$\Upsilon  $$</td>
             <td>
-               $$b\stackrel{-}{b} $$ 
+               $$b\stackrel{-}{b} $$
             </td>
           </tr><tr>
             <td colspan="3">
@@ -339,94 +341,94 @@ quark:
             </td>
           </tr><tr>
             <td colspan="2">
-               $$p $$ 
+               $$p $$
             </td>
             <td>
-               $$\text{uud} $$ 
+               $$\text{uud} $$
             </td>
           </tr><tr>
             <td colspan="2">
-               $$n $$ 
+               $$n $$
             </td>
             <td>
-               $$\text{udd} $$ 
+               $$\text{udd} $$
             </td>
           </tr><tr>
             <td colspan="2">
-               $${\Delta }^{0} $$ 
+               $${\Delta }^{0} $$
             </td>
             <td>
-               $$\text{udd} $$ 
+               $$\text{udd} $$
             </td>
           </tr><tr>
             <td colspan="2">
-               $${\Delta }^{+} $$ 
+               $${\Delta }^{+} $$
             </td>
             <td>
-               $$\text{uud} $$ 
+               $$\text{uud} $$
             </td>
           </tr><tr>
             <td colspan="2">
-               $${\Delta }^{-} $$ 
+               $${\Delta }^{-} $$
             </td>
             <td>
-               $$\text{ddd} $$ 
+               $$\text{ddd} $$
             </td>
           </tr><tr>
             <td colspan="2">
-               $${\Delta }^{++} $$ 
+               $${\Delta }^{++} $$
             </td>
             <td>
-               $$\text{uuu} $$ 
+               $$\text{uuu} $$
             </td>
           </tr><tr>
             <td colspan="2">
-               $${\text{Λ} }^{0} $$ 
+               $${\text{Λ} }^{0} $$
             </td>
             <td>
-               $$\text{uds} $$ 
+               $$\text{uds} $$
             </td>
           </tr><tr>
             <td colspan="2">
-               $${\text{Σ} }^{0} $$ 
+               $${\text{Σ} }^{0} $$
             </td>
             <td>
-               $$\text{uds} $$ 
+               $$\text{uds} $$
             </td>
           </tr><tr>
             <td colspan="2">
-               $${\text{Σ} }^{+} $$ 
+               $${\text{Σ} }^{+} $$
             </td>
             <td>
-               $$\text{uus} $$ 
+               $$\text{uus} $$
             </td>
           </tr><tr>
             <td colspan="2">
-               $${\text{Σ} }^{-} $$ 
+               $${\text{Σ} }^{-} $$
             </td>
             <td>
-               $$\text{dds} $$ 
+               $$\text{dds} $$
             </td>
           </tr><tr>
             <td colspan="2">
-               $${\text{Ξ} }^{0} $$ 
+               $${\text{Ξ} }^{0} $$
             </td>
                        <td>
-               $$\text{uss} $$ 
+               $$\text{uss} $$
             </td>
           </tr><tr>
             <td colspan="2">
-               $${\text{Ξ} }^{-} $$ 
+               $${\text{Ξ} }^{-} $$
             </td>
             <td>
-               $$\text{dss} $$ 
+               $$\text{dss} $$
             </td>
           </tr><tr>
             <td colspan="2">
-               $${\Omega }^{-} $$ 
+               $${\Omega }^{-} $$
             </td>
             <td>
-               $$\text{sss} $$ 
+               $$\text{sss} $$
             </td>
           </tr></tbody></table>
 
@@ -750,7 +752,7 @@ What evidence is cited to support the contention that the gluon force between qu
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 Discuss how we know that  $$\pi \text{-mesons} $$
- ( $${\pi }^{+},\pi ,{\pi }^{0} $$ ) 
+ ( $${\pi }^{+},\pi ,{\pi }^{0} $$ )
 are not fundamental particles and are not the basic carriers of the strong force.
 
 </div>
@@ -887,7 +889,7 @@ involved.
 a)  $${\Delta }^{++}\left(\text{uuu}\right); B=\frac{1}{3}+\frac{1}{3}+\frac{1}{3}=1 $$
 b)
 
-![](../resources/Figure_33_05_08.jpg " "){: #Figure8 height="250"}
+![Feynman diagram showing the quark composition of a reaction.](../resources/Figure_33_05_08.jpg " "){: #Figure8 height="250"}
 
 </div>
 </div>
@@ -917,7 +919,9 @@ Repeat the previous problem for the decay mode  $${\Omega }^{-}\to {\text{Λ}}^{
  all lepton numbers are 0 before and after
 
 (c)  $$\left(\text{sss}\right)\to \left(\text{uds}\right)+\left(
-\stackrel{-}{u}s\right) $$
+\stackrel{-}{u}s\right)
+$$
+
 </div>
 </div>
 
@@ -1000,7 +1004,8 @@ No.  $$\text{Charge}=-1 $$
   $$B=1=1+0 $$ ,
  all lepton family numbers are 0 before and after, spontaneous since mass greater before reaction.
 
-(b)  $$\text{dds}\to \text{udd}+\stackrel{-}{u}d $$
+(b) $$\text{dds}\to \text{udd}+\stackrel{-}{u}d $$
+
 </div>
 </div>
 
@@ -1119,7 +1124,8 @@ There are particles called bottom mesons or *B*-mesons. One of them is the  $${B
 <div class="solution" data-element-type="problems-exercises" markdown="1">
 a)The antiproton
 
-b)  $$\stackrel{-}{p}\to {\pi }^{0}+{e}^{-} $$
+b) $$\stackrel{-}{p}\to {\pi }^{0}+{e}^{-} $$
+
 </div>
 </div>
 
@@ -1137,33 +1143,33 @@ charges. Thus mesons must have integral charge.
 ### Footnotes
 {: class="footnote-refs-title"}
 
-* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
+- {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
   footnote-ref-link"} <span class="footnote-ref-content">The lower of the $$± $$
   symbols are the values for antiquarks.</span>
-* {: class="footnote-ref" #footnote2} [2](#footnote-ref2){: class="
+- {: class="footnote-ref" #footnote2} [2](#footnote-ref2){: class="
   footnote-ref-link"} <span class="footnote-ref-content"> $$B $$ is baryon
-  number, *S* is strangeness, $$c $$ is charm, $$b $$ is bottomness, $$t $$ is
+  number, _S_ is strangeness, $$c $$ is charm, $$b $$ is bottomness, $$t $$ is
   topness.</span>
-* {: class="footnote-ref" #footnote3} [3](#footnote-ref3){: class="
+- {: class="footnote-ref" #footnote3} [3](#footnote-ref3){: class="
   footnote-ref-link"} <span class="footnote-ref-content">Values are approximate,
   are not directly observable, and vary with model.</span>
-* {: class="footnote-ref" #footnote4} [4](#footnote-ref4){: class="
+- {: class="footnote-ref" #footnote4} [4](#footnote-ref4){: class="
   footnote-ref-link"} <span class="footnote-ref-content">These two mesons are
   different mixtures, but each is its own antiparticle, as indicated by its
   quark composition.</span>
-* {: class="footnote-ref" #footnote5} [5](#footnote-ref5){: class="
+- {: class="footnote-ref" #footnote5} [5](#footnote-ref5){: class="
   footnote-ref-link"} <span class="footnote-ref-content">These two mesons are
   different mixtures, but each is its own antiparticle, as indicated by its
   quark composition.</span>
-* {: class="footnote-ref" #footnote6} [6](#footnote-ref6){: class="
+- {: class="footnote-ref" #footnote6} [6](#footnote-ref6){: class="
   footnote-ref-link"} <span class="footnote-ref-content">These two mesons are
   different mixtures, but each is its own antiparticle, as indicated by its
   quark composition.</span>
-* {: class="footnote-ref" #footnote7} [7](#footnote-ref7){: class="
+- {: class="footnote-ref" #footnote7} [7](#footnote-ref7){: class="
   footnote-ref-link"} <span class="footnote-ref-content">Antibaryons have the
   antiquarks of their counterparts. The antiproton $$\stackrel{-}{p} $$ is
   $$\stackrel{-}{u}\stackrel{-}{u}\stackrel{-}{d} $$ , for example.</span>
-* {: class="footnote-ref" #footnote8} [8](#footnote-ref8){: class="
+- {: class="footnote-ref" #footnote8} [8](#footnote-ref8){: class="
   footnote-ref-link"} <span class="footnote-ref-content">Baryons composed of the
   same quarks are different states of the same particle. For example, the
   $${\Delta }^{+} $$ is an excited state of the proton.</span>

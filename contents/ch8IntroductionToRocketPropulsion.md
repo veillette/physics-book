@@ -74,13 +74,13 @@ is the mass of the ejected gas, and $$ \Delta t $$ is the time in which the gas 
 
 </div>
 
-![Picture a shows a rocket launched into space. It moves upward with velocity v in time t and the burning of fuel is also shown. After time t plus delta t the mass of fuel decreases by delta m and hence the velocity of the rocket increases to v plus delta v. The free body diagram shows the weight W of the rocket downward, reaction force upward and the resultant velocity upward too.](../resources/Figure_08_07_01.jpg "(a) This rocket has a mass \( m \) and an upward velocity \( v \) . The net external force on the system is \( mg \) pointing down, if air resistance is neglected. (b) A time \( \Delta t) later the system has two main parts, the ejected gas and the remainder of the rocket. The reaction force on the rocket is what overcomes the gravitational force and accelerates it upward.")
+![Picture a shows a rocket launched into space. It moves upward with velocity v in time t and the burning of fuel is also shown. After time t plus delta t the mass of fuel decreases by delta m and hence the velocity of the rocket increases to v plus delta v. The free body diagram shows the weight W of the rocket downward, reaction force upward and the resultant velocity upward too.](../resources/Figure_08_07_01.jpg '(a) This rocket has a mass ( m ) and an upward velocity ( v ) . The net external force on the system is ( mg ) pointing down, if air resistance is neglected. (b) A time ( \\Delta t) later the system has two main parts, the ejected gas and the remainder of the rocket. The reaction force on the rocket is what overcomes the gravitational force and accelerates it upward.')
 {: #Figure1}
 
 A rocket’s acceleration depends on three major factors, consistent with the
 equation for acceleration of a rocket. First, the greater the exhaust velocity
-of the gases relative to the rocket, $$ v_{\text{e}} $$, the greater the
-acceleration is. The practical limit for $$ v_{\text{e}} $$ is about $$
+of the gases relative to the rocket, $$ v*{\text{e}} $$, the greater the
+acceleration is. The practical limit for $$ v*{\text{e}} $$ is about $$
 2.5\times 10^{3} \ms $$ for conventional (non-nuclear) hot-gas propulsion
 systems. The second factor is the rate at which mass is ejected from the rocket.
 This is the factor $$ \Delta m/\Delta t $$ in the equation. The quantity $$
@@ -134,7 +134,7 @@ a&=&2.20\mss .
 
 This value is fairly small, even for an initial acceleration. The acceleration
 does increase steadily as the rocket burns fuel, because $$ m $$ decreases while
-$$ v_{\text{e}} $$ and $$ \frac{ \Delta m}{\Delta t} $$ remain constant. Knowing
+$$ v\_{\text{e}} $$ and $$ \frac{ \Delta m}{\Delta t} $$ remain constant. Knowing
 this acceleration and the mass of the rocket, you can show that the thrust of
 the engines was $$ 3.36\times 10^{7}\N $$.
 
@@ -150,21 +150,21 @@ is
  $$ v=v_{\text{e}} \ln \frac{ m_{0}}{ m_{\text{r}}}, $$
 </div>
 
-where $$ \text{ln}\left(m_{0}/m_{\text{r}}\right) $$ is the natural logarithm of
-the ratio of the initial mass of the rocket $$ \left(m_{0}\right) $$ to what is
-left $$ \left(m_{\text{r}}\right) $$ after all of the fuel is exhausted. (Note
+where $$ \text{ln}\left(m*{0}/m*{\text{r}}\right) $$ is the natural logarithm of
+the ratio of the initial mass of the rocket $$ \left(m*{0}\right) $$ to what is
+left $$ \left(m*{\text{r}}\right) $$ after all of the fuel is exhausted. (Note
 that $$ v $$ is actually the change in velocity, so the equation can be used for
 any segment of the flight. If we start from rest, the change in velocity equals
 the final velocity.) For example, let us calculate the mass ratio needed to
 escape Earth’s gravity starting from rest, given that the escape velocity from
 Earth is about $$ 11.2\times 10^{3} \ms $$, and assuming an exhaust velocity $$
-v_{\text{e}}=2.5\times 10^{3} \ms $$.
+v\_{\text{e}}=2.5\times 10^{3} \ms $$.
 
 <div class="equation">
  $$ \ln \frac{ m_{0}}{ m_{\text{r}}}=\frac{v}{ v_{\text{e}}}=\frac{11.2\times 10^{3} \ms }{2.5\times 10^{3} \ms }=4.48 $$
 </div>
 
-Solving for $$ m_{0}/m_{\text{r}} $$ gives
+Solving for $$ m*{0}/m*{\text{r}} $$ gives
 
 <div class="equation">
  $$ \frac{ m_{0}}{ m_{\text{r}}}={e}^{4.48}=88. $$
@@ -180,7 +180,7 @@ This result means that only $$ 1/88 $$ of the mass is left when the fuel is
 burnt, and $$ 87/88 $$ of the initial mass was fuel. Expressed as percentages,
 98.9% of the rocket is fuel, while payload, engines, fuel tanks, and other
 components make up only 1.10%. Taking air resistance and gravitational force
-into account, the mass $$ m_{\text{r}} $$ remaining can only be about $$ m_
+into account, the mass $$ m*{\text{r}} $$ remaining can only be about $$ m*
 {0}/180 $$. It is difficult to build a rocket in which the fuel has a mass 180
 times everything else. The solution is multistage rockets. Each stage only needs
 to achieve part of the final velocity and is discarded after it burns its fuel.
@@ -199,7 +199,7 @@ Using airplanes has the double advantage that the initial velocity is
 significantly above zero and a rocket can avoid most of the atmosphere’s
 resistance.
 
-![The space shuttle is launched. It consists of the shuttle orbiter, two solid rocket boosters, and an expendable external tank. It takes off leaving much smoke and fire.](../resources/Figure_08_07_02.jpg "The space shuttle had a number of reusable parts. Solid fuel boosters on either side were recovered and refueled after each flight, and the entire orbiter returned to Earth for use in subsequent flights. The large liquid fuel tank was expended. The space shuttle was a complex assemblage of technologies, employing both solid and liquid fuel and pioneering ceramic tiles as reentry heat shields. As a result, it permitted multiple launches as opposed to single-use rockets. (credit: NASA)")
+![The space shuttle is launched. It consists of the shuttle orbiter, two solid rocket boosters, and an expendable external tank. It takes off leaving much smoke and fire.](../resources/Figure_08_07_02.jpg 'The space shuttle had a number of reusable parts. Solid fuel boosters on either side were recovered and refueled after each flight, and the entire orbiter returned to Earth for use in subsequent flights. The large liquid fuel tank was expended. The space shuttle was a complex assemblage of technologies, employing both solid and liquid fuel and pioneering ceramic tiles as reentry heat shields. As a result, it permitted multiple launches as opposed to single-use rockets. (credit: NASA)')
 {: #Figure2}
 
 <div class="note" data-label="PhET Exploration" markdown="1">
@@ -219,15 +219,15 @@ html" width="600" height="450"  allowfullscreen></iframe>
 
 ### Section Summary
 
-* Newton’s third law of motion states that to every action, there is an equal
+- Newton’s third law of motion states that to every action, there is an equal
   and opposite reaction.
-* Acceleration of a rocket is $$ a=\frac{ v_
+- Acceleration of a rocket is $$ a=\frac{ v\_
   {\text{e}}}{m}\frac{ \Delta m}{\Delta t}-g $$.
-* A rocket’s acceleration depends on three main factors. They are
-    1. The greater the exhaust velocity of the gases, the greater the
-       acceleration.
-    2. The faster the rocket burns its fuel, the greater its acceleration.
-    3. The smaller the rocket\'s mass, the greater the acceleration.
+- A rocket’s acceleration depends on three main factors. They are
+  1. The greater the exhaust velocity of the gases, the greater the
+     acceleration.
+  2. The faster the rocket burns its fuel, the greater its acceleration.
+  3. The smaller the rocket\'s mass, the greater the acceleration.
 
 ### Conceptual Questions
 
@@ -281,23 +281,25 @@ Antiballistic missiles (ABMs) are designed to have very large accelerations so
 that they may intercept fast-moving incoming missiles in the short time
 available. What is the takeoff acceleration of a 10 000-kg ABM that expels 196
 kg of gas per second at an exhaust velocity of $$ 2.50\times 10^{3} \ms $$ ?
+
 </div>
 <div class="solution" markdown="1">
 **Strategy**
 
-Use the rocket acceleration equation $$ a = \frac{v_{\text{e}}}{m}\frac{\Delta m}{\Delta t} - g $$. We're given the initial mass, exhaust velocity, and mass expulsion rate. The acceleration due to gravity acts downward, opposing the upward acceleration.
+Use the rocket acceleration equation $$ a = \frac{v\_{\text{e}}}{m}\frac{\Delta m}{\Delta t} - g $$. We're given the initial mass, exhaust velocity, and mass expulsion rate. The acceleration due to gravity acts downward, opposing the upward acceleration.
 
 **Solution**
 
 Given:
+
 - Mass: $$ m = 10\,000 \kg $$
 - Mass expulsion rate: $$ \frac{\Delta m}{\Delta t} = 196 \text{ kg/s} $$
-- Exhaust velocity: $$ v_{\text{e}} = 2.50 \times 10^{3} \ms $$
+- Exhaust velocity: $$ v\_{\text{e}} = 2.50 \times 10^{3} \ms $$
 - Gravitational acceleration: $$ g = 9.80 \mss $$
 
 Apply the rocket acceleration equation:
 
-$$ a = \frac{v_{\text{e}}}{m}\frac{\Delta m}{\Delta t} - g $$
+$$ a = \frac{v\_{\text{e}}}{m}\frac{\Delta m}{\Delta t} - g $$
 
 $$ a = \frac{2.50 \times 10^{3} \ms}{10\,000 \kg}(196 \text{ kg/s}) - 9.80 \mss $$
 
@@ -320,6 +322,7 @@ This acceleration is about 4 times the acceleration due to gravity, meaning the 
 What is the acceleration of a 5000-kg rocket taking off from the Moon, where the
 acceleration due to gravity is only $$ 1.6\mss $$, if the rocket expels 8.00 kg
 of gas per second at an exhaust velocity of $$ 2.20\times 10^{3}\ms $$ ?
+
 </div>
 <div class="solution" markdown="1">
 **Strategy**
@@ -329,14 +332,15 @@ Use the rocket acceleration equation with the Moon's gravitational acceleration 
 **Solution**
 
 Given:
+
 - Mass: $$ m = 5000 \kg $$
 - Mass expulsion rate: $$ \frac{\Delta m}{\Delta t} = 8.00 \text{ kg/s} $$
-- Exhaust velocity: $$ v_{\text{e}} = 2.20 \times 10^{3} \ms $$
-- Lunar gravitational acceleration: $$ g_{\text{Moon}} = 1.6 \mss $$
+- Exhaust velocity: $$ v\_{\text{e}} = 2.20 \times 10^{3} \ms $$
+- Lunar gravitational acceleration: $$ g\_{\text{Moon}} = 1.6 \mss $$
 
 Apply the rocket acceleration equation:
 
-$$ a = \frac{v_{\text{e}}}{m}\frac{\Delta m}{\Delta t} - g $$
+$$ a = \frac{v\_{\text{e}}}{m}\frac{\Delta m}{\Delta t} - g $$
 
 $$ a = \frac{2.20 \times 10^{3} \ms}{5000 \kg}(8.00 \text{ kg/s}) - 1.6 \mss $$
 
@@ -364,19 +368,20 @@ assume the gravitational force is negligible at the probe's location.
 <div class="solution" markdown="1">
 **Strategy**
 
-Since gravity is negligible, we use the rocket velocity equation $$ v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\text{r}}}\right) $$, where $$ m_0 $$ is the initial mass and $$ m_{\text{r}} $$ is the remaining mass after fuel is expended. This equation comes from integrating the rocket equation with no external forces.
+Since gravity is negligible, we use the rocket velocity equation $$ v = v*{\text{e}} \ln\left(\frac{m_0}{m*{\text{r}}}\right) $$, where $$ m*0 $$ is the initial mass and $$ m*{\text{r}} $$ is the remaining mass after fuel is expended. This equation comes from integrating the rocket equation with no external forces.
 
 **Solution**
 
 Given:
+
 - Initial mass: $$ m_0 = 4000 \kg $$
 - Mass expelled: $$ \Delta m = 3500 \kg $$
-- Remaining mass: $$ m_{\text{r}} = m_0 - \Delta m = 4000 - 3500 = 500 \kg $$
-- Exhaust velocity: $$ v_{\text{e}} = 2.00 \times 10^{3} \ms $$
+- Remaining mass: $$ m\_{\text{r}} = m_0 - \Delta m = 4000 - 3500 = 500 \kg $$
+- Exhaust velocity: $$ v\_{\text{e}} = 2.00 \times 10^{3} \ms $$
 
 Apply the rocket velocity equation:
 
-$$ v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\text{r}}}\right) $$
+$$ v = v*{\text{e}} \ln\left(\frac{m_0}{m*{\text{r}}}\right) $$
 
 $$ v = (2.00 \times 10^{3} \ms) \ln\left(\frac{4000 \kg}{500 \kg}\right) $$
 
@@ -420,14 +425,15 @@ For part (a), use the rocket velocity equation. For part (b), use the rocket acc
 **Solution for (a)**
 
 Given:
+
 - Initial mass: $$ m_0 = 20\,000 \kg $$
 - Mass expelled: $$ \Delta m = 40.0 \kg $$
-- Remaining mass: $$ m_{\text{r}} = 20\,000 - 40 = 19\,960 \kg $$
-- Exhaust velocity: $$ v_{\text{e}} = 8.00 \times 10^{6} \ms $$
+- Remaining mass: $$ m\_{\text{r}} = 20\,000 - 40 = 19\,960 \kg $$
+- Exhaust velocity: $$ v\_{\text{e}} = 8.00 \times 10^{6} \ms $$
 
 Apply the rocket velocity equation:
 
-$$ \Delta v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\text{r}}}\right) $$
+$$ \Delta v = v*{\text{e}} \ln\left(\frac{m_0}{m*{\text{r}}}\right) $$
 
 $$ \Delta v = (8.00 \times 10^{6} \ms) \ln\left(\frac{20\,000}{19\,960}\right) $$
 
@@ -440,13 +446,14 @@ The velocity increase is $$ 1.60 \times 10^{4} \ms $$ (16 km/s) from expelling o
 **Solution for (b)**
 
 Given:
+
 - Mass expulsion rate: $$ \frac{\Delta m}{\Delta t} = 4.50 \times 10^{-6} \text{ kg/s} $$
-- Exhaust velocity: $$ v_{\text{e}} = 8.00 \times 10^{6} \ms $$
+- Exhaust velocity: $$ v\_{\text{e}} = 8.00 \times 10^{6} \ms $$
 - Mass: $$ m \approx 20\,000 \kg $$ (approximately constant at this rate)
 
 With negligible gravity:
 
-$$ a = \frac{v_{\text{e}}}{m}\frac{\Delta m}{\Delta t} $$
+$$ a = \frac{v\_{\text{e}}}{m}\frac{\Delta m}{\Delta t} $$
 
 $$ a = \frac{8.00 \times 10^{6} \ms}{20\,000 \kg}(4.50 \times 10^{-6} \text{ kg/s}) $$
 
@@ -502,20 +509,21 @@ For part (a), use the rocket acceleration equation and solve for the mass expuls
 **Solution for (a)**
 
 Given:
-- Maximum acceleration: $$ a_{\max} = 7g = 7(9.80 \mss) = 68.6 \mss $$
+
+- Maximum acceleration: $$ a\_{\max} = 7g = 7(9.80 \mss) = 68.6 \mss $$
 - Mass at fuel exhaustion: $$ m = 75\,000 \kg $$
-- Exhaust velocity: $$ v_{\text{e}} = 2.40 \times 10^{3} \ms $$
+- Exhaust velocity: $$ v\_{\text{e}} = 2.40 \times 10^{3} \ms $$
 - Gravitational acceleration: $$ g = 9.80 \mss $$
 
 From the rocket acceleration equation:
 
-$$ a = \frac{v_{\text{e}}}{m}\frac{\Delta m}{\Delta t} - g $$
+$$ a = \frac{v\_{\text{e}}}{m}\frac{\Delta m}{\Delta t} - g $$
 
 Solve for mass expulsion rate:
 
-$$ a + g = \frac{v_{\text{e}}}{m}\frac{\Delta m}{\Delta t} $$
+$$ a + g = \frac{v\_{\text{e}}}{m}\frac{\Delta m}{\Delta t} $$
 
-$$ \frac{\Delta m}{\Delta t} = \frac{m(a + g)}{v_{\text{e}}} $$
+$$ \frac{\Delta m}{\Delta t} = \frac{m(a + g)}{v\_{\text{e}}} $$
 
 The maximum acceleration occurs when mass is minimum (just as fuel runs out):
 
@@ -552,28 +560,29 @@ Given the following data for a fire extinguisher-toy wagon rocket experiment, ca
 <div class="solution" markdown="1">
 **Strategy**
 
-Use the rocket velocity equation $$ v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\text{r}}}\right) $$ and solve for the exhaust velocity. We assume the experiment occurs horizontally on a frictionless surface, so gravity does not affect the horizontal motion.
+Use the rocket velocity equation $$ v = v*{\text{e}} \ln\left(\frac{m_0}{m*{\text{r}}}\right) $$ and solve for the exhaust velocity. We assume the experiment occurs horizontally on a frictionless surface, so gravity does not affect the horizontal motion.
 
 **Solution**
 
 Given:
+
 - Initial mass: $$ m_0 = 75.0 \kg $$
-- Final mass: $$ m_{\text{r}} = 70.0 \kg $$
+- Final mass: $$ m\_{\text{r}} = 70.0 \kg $$
 - Final velocity: $$ v = 10.0 \ms $$
 
 The rocket velocity equation is:
 
-$$ v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\text{r}}}\right) $$
+$$ v = v*{\text{e}} \ln\left(\frac{m_0}{m*{\text{r}}}\right) $$
 
 Solve for exhaust velocity:
 
-$$ v_{\text{e}} = \frac{v}{\ln\left(\frac{m_0}{m_{\text{r}}}\right)} $$
+$$ v*{\text{e}} = \frac{v}{\ln\left(\frac{m_0}{m*{\text{r}}}\right)} $$
 
-$$ v_{\text{e}} = \frac{10.0 \ms}{\ln\left(\frac{75.0}{70.0}\right)} $$
+$$ v\_{\text{e}} = \frac{10.0 \ms}{\ln\left(\frac{75.0}{70.0}\right)} $$
 
-$$ v_{\text{e}} = \frac{10.0 \ms}{\ln(1.0714)} $$
+$$ v\_{\text{e}} = \frac{10.0 \ms}{\ln(1.0714)} $$
 
-$$ v_{\text{e}} = \frac{10.0 \ms}{0.0690} = 145 \ms $$
+$$ v\_{\text{e}} = \frac{10.0 \ms}{0.0690} = 145 \ms $$
 
 The average exhaust velocity of the gases is approximately $$ 145 \ms $$ (about 522 km/h or 324 mph).
 
@@ -593,26 +602,27 @@ $$ 8.00\text{km/s} $$, given that it expels gases at an exhaust velocity of $$ 2
 <div class="solution" markdown="1">
 **Strategy**
 
-Use the rocket velocity equation and solve for the remaining mass $$ m_{\text{r}} $$. With gravity negligible (in space), the final velocity equals the velocity change.
+Use the rocket velocity equation and solve for the remaining mass $$ m\_{\text{r}} $$. With gravity negligible (in space), the final velocity equals the velocity change.
 
 **Solution**
 
 Given:
+
 - Initial mass: $$ m_0 = 100\,000 \kg $$
 - Final velocity: $$ v = 8.00 \text{ km/s} = 8.00 \times 10^{3} \ms $$
-- Exhaust velocity: $$ v_{\text{e}} = 2.20 \times 10^{3} \ms $$
+- Exhaust velocity: $$ v\_{\text{e}} = 2.20 \times 10^{3} \ms $$
 
 The rocket velocity equation:
 
-$$ v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\text{r}}}\right) $$
+$$ v = v*{\text{e}} \ln\left(\frac{m_0}{m*{\text{r}}}\right) $$
 
 Solve for the mass ratio:
 
-$$ \ln\left(\frac{m_0}{m_{\text{r}}}\right) = \frac{v}{v_{\text{e}}} = \frac{8.00 \times 10^{3}}{2.20 \times 10^{3}} = 3.636 $$
+$$ \ln\left(\frac{m*0}{m*{\text{r}}}\right) = \frac{v}{v\_{\text{e}}} = \frac{8.00 \times 10^{3}}{2.20 \times 10^{3}} = 3.636 $$
 
-$$ \frac{m_0}{m_{\text{r}}} = e^{3.636} = 37.9 $$
+$$ \frac{m*0}{m*{\text{r}}} = e^{3.636} = 37.9 $$
 
-$$ m_{\text{r}} = \frac{m_0}{37.9} = \frac{100\,000 \kg}{37.9} = 2.63 \times 10^{3} \kg $$
+$$ m\_{\text{r}} = \frac{m_0}{37.9} = \frac{100\,000 \kg}{37.9} = 2.63 \times 10^{3} \kg $$
 
 The mass that can be anything but fuel is $$ 2.63 \times 10^{3} \kg $$ (2630 kg), which is only 2.63% of the total rocket mass.
 
@@ -643,13 +653,13 @@ For part (a), use conservation of momentum to find the initial recoil velocity, 
 
 First, find the recoil velocity without friction using conservation of momentum:
 
-$$ 0 = m_{\text{squid}} v_{\text{squid}} + m_{\text{fluid}} v_{\text{fluid}} $$
+$$ 0 = m*{\text{squid}} v*{\text{squid}} + m*{\text{fluid}} v*{\text{fluid}} $$
 
-$$ v_{\text{squid,initial}} = -\frac{m_{\text{fluid}} v_{\text{fluid}}}{m_{\text{squid}}} = -\frac{(0.250 \kg)(10.0 \ms)}{5.00 \kg} = -0.500 \ms $$
+$$ v*{\text{squid,initial}} = -\frac{m*{\text{fluid}} v*{\text{fluid}}}{m*{\text{squid}}} = -\frac{(0.250 \kg)(10.0 \ms)}{5.00 \kg} = -0.500 \ms $$
 
 Now account for friction. The impulse from friction over the ejection time:
 
-$$ J_{\text{friction}} = F_{\text{friction}} \cdot \Delta t = (5.00 \N)(0.100 \s) = 0.500 \N \cdot \s $$
+$$ J*{\text{friction}} = F*{\text{friction}} \cdot \Delta t = (5.00 \N)(0.100 \s) = 0.500 \N \cdot \s $$
 
 This impulse opposes motion, so it reduces the momentum:
 
@@ -657,13 +667,13 @@ $$ \Delta p = -0.500 \kg \cdot \ms $$
 
 Change in velocity from friction:
 
-$$ \Delta v = \frac{\Delta p}{m_{\text{squid}}} = \frac{-0.500 \kg \cdot \ms}{4.75 \kg} = -0.105 \ms $$
+$$ \Delta v = \frac{\Delta p}{m\_{\text{squid}}} = \frac{-0.500 \kg \cdot \ms}{4.75 \kg} = -0.105 \ms $$
 
-(Using average mass during ejection: $$ m_{\text{avg}} \approx 4.75 \kg $$)
+(Using average mass during ejection: $$ m\_{\text{avg}} \approx 4.75 \kg $$)
 
 Final recoil velocity:
 
-$$ v_{\text{final}} = 0.500 - 0.105 = 0.395 \ms \approx 0.421 \ms $$
+$$ v\_{\text{final}} = 0.500 - 0.105 = 0.395 \ms \approx 0.421 \ms $$
 
 The squid recoils at approximately 0.421 m/s away from the ejected fluid.
 
@@ -671,7 +681,7 @@ The squid recoils at approximately 0.421 m/s away from the ejected fluid.
 
 Distance traveled during ejection (using average velocity):
 
-$$ d = v_{\text{avg}} \cdot t = \left(\frac{0 + 0.421}{2}\right)(0.100 \s) = 0.0211 \m $$
+$$ d = v\_{\text{avg}} \cdot t = \left(\frac{0 + 0.421}{2}\right)(0.100 \s) = 0.0211 \m $$
 
 Work done against friction:
 
@@ -729,17 +739,17 @@ The squid would need an initial speed of approximately 21.4 m/s (about 77 km/h o
 
 Using the rocket equation with negligible gravity and friction:
 
-$$ v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\text{r}}}\right) $$
+$$ v = v*{\text{e}} \ln\left(\frac{m_0}{m*{\text{r}}}\right) $$
 
-With $$ v = 21.4 \ms $$ and $$ v_{\text{e}} = 12.0 \ms $$:
+With $$ v = 21.4 \ms $$ and $$ v\_{\text{e}} = 12.0 \ms $$:
 
-$$ \ln\left(\frac{m_0}{m_{\text{r}}}\right) = \frac{21.4}{12.0} = 1.78 $$
+$$ \ln\left(\frac{m*0}{m*{\text{r}}}\right) = \frac{21.4}{12.0} = 1.78 $$
 
-$$ \frac{m_0}{m_{\text{r}}} = e^{1.78} = 5.93 $$
+$$ \frac{m*0}{m*{\text{r}}} = e^{1.78} = 5.93 $$
 
 Fraction ejected:
 
-$$ \frac{m_{\text{ejected}}}{m_0} = 1 - \frac{m_{\text{r}}}{m_0} = 1 - \frac{1}{5.93} = 0.831 $$
+$$ \frac{m*{\text{ejected}}}{m_0} = 1 - \frac{m*{\text{r}}}{m_0} = 1 - \frac{1}{5.93} = 0.831 $$
 
 The squid would need to eject 83.1% of its body mass to achieve this velocity.
 

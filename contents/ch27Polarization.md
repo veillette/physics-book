@@ -17,10 +17,10 @@ wave characteristic of light called polarization. What is polarization? How is
 it produced? What are some of its uses? The answers to these questions are
 related to the wave character of light.
 
-![Two photographs side by side of the same calm stream bed. In photograph a, the reflections of the clouds and some blue sky prevent you from seeing the pebbles in the streambed. In photograph b, there is essentially no reflection of the sky from the water&#x2019;s surface, and the pebbles underneath the water are clearly visible.](../resources/Figure_27_08_01.jpg "These two photographs of a river show the effect of a polarizing filter in reducing glare in light reflected from the surface of water. Part (b) of this figure was taken with a polarizing filter and part (a) was not. As a result, the reflection of clouds and sky observed in part (a) is not observed in part (b). Polarizing sunglasses are particularly useful on snow and water. (credit: Amithshs, Wikimedia Commons)")
+![Two photographs side by side of the same calm stream bed. In photograph a, the reflections of the clouds and some blue sky prevent you from seeing the pebbles in the streambed. In photograph b, there is essentially no reflection of the sky from the water’s surface, and the pebbles underneath the water are clearly visible.](../resources/Figure_27_08_01.jpg 'These two photographs of a river show the effect of a polarizing filter in reducing glare in light reflected from the surface of water. Part (b) of this figure was taken with a polarizing filter and part (a) was not. As a result, the reflection of clouds and sky observed in part (a) is not observed in part (b). Polarizing sunglasses are particularly useful on snow and water. (credit: Amithshs, Wikimedia Commons)')
 {: #Figure1}
 
-Light is one type of electromagnetic (EM) wave. As noted earlier, EM waves are *transverse waves* consisting of varying electric and magnetic fields that
+Light is one type of electromagnetic (EM) wave. As noted earlier, EM waves are _transverse waves_ consisting of varying electric and magnetic fields that
 oscillate perpendicular to the direction of propagation (
 see [[Figure 2]](#Figure2)). There are specific directions for the oscillations
 of the electric and magnetic fields. **Polarization** is the attribute that a
@@ -32,7 +32,7 @@ to be the direction parallel to the electric field. Thus we can think of the
 electric field arrows as showing the direction of polarization, as
 in [[Figure 2]](#Figure2).
 
-![The schematic shows an axis labeled c that points to the right. On this axis are two sinusoidal waves that are in phase. The wave labeled E oscillates up down in the vertical plane and the wave labeled B oscillates back and forth in the horizontal plane. At the tip of the axis c is a double headed arrow oriented vertically that is labeled direction of polarization.](../resources/Figure_27_08_02.jpg "An EM wave, such as light, is a transverse wave. The electric and magnetic fields are perpendicular to the direction of propagation.")
+![The schematic shows an axis labeled c that points to the right. On this axis are two sinusoidal waves that are in phase. The wave labeled E oscillates up down in the vertical plane and the wave labeled B oscillates back and forth in the horizontal plane. At the tip of the axis c is a double headed arrow oriented vertically that is labeled direction of polarization.](../resources/Figure_27_08_02.jpg 'An EM wave, such as light, is a transverse wave. The electric and magnetic fields are perpendicular to the direction of propagation.')
 {: #Figure2}
 
 To examine this further, consider the transverse waves in the ropes shown
@@ -43,14 +43,14 @@ placed on the first rope, the waves pass through. However, a vertical slit
 blocks the horizontally polarized waves. For EM waves, the direction of the
 electric field is analogous to the disturbances on the ropes.
 
-![The figure shows waves on a vertically oscillating rope that pass through a vertical slit. A separate drawing shows waves on a horizontally oscillating rope that do not pass through a similar slit.](../resources/Figure_27_08_03.jpg "The transverse oscillations in one rope are in a vertical plane, and those in the other rope are in a horizontal plane. The first is said to be vertically polarized, and the other is said to be horizontally polarized. Vertical slits pass vertically polarized waves and block horizontally polarized waves.")
+![The figure shows waves on a vertically oscillating rope that pass through a vertical slit. A separate drawing shows waves on a horizontally oscillating rope that do not pass through a similar slit.](../resources/Figure_27_08_03.jpg 'The transverse oscillations in one rope are in a vertical plane, and those in the other rope are in a horizontal plane. The first is said to be vertically polarized, and the other is said to be horizontally polarized. Vertical slits pass vertically polarized waves and block horizontally polarized waves.')
 {: #Figure3}
 
 The Sun and many other light sources produce waves that are randomly polarized (
 see [[Figure 4]](#Figure4)). Such light is said to be **unpolarized** because it
 is composed of many waves with all possible directions of polarization. Polaroid
 materials, invented by the founder of Polaroid Corporation, Edwin Land, act as
-a *polarizing* slit for light, allowing only polarization in one direction to
+a _polarizing_ slit for light, allowing only polarization in one direction to
 pass through. Polarizing filters are composed of long molecules aligned in one
 direction. Thinking of the molecules as many slits, analogous to those for the
 oscillating ropes, we can understand why only light with a specific polarization
@@ -58,10 +58,10 @@ can get through. The **axis of a polarizing filter** is the direction along
 which the filter passes the electric field of an EM wave (
 see [[Figure 5]](#Figure5)).
 
-![The figure shows a slender arrow pointing out of the page and to the right; it is labeled direction of ray (of propagation). At a point on this ray, eight bold arrows point in different directions, perpendicularly away from the ray. These arrows are labeled E.](../resources/Figure_27_08_04.jpg "The slender arrow represents a ray of unpolarized light. The bold arrows represent the direction of polarization of the individual waves composing the ray. Since the light is unpolarized, the arrows point in all directions.")
+![The figure shows a slender arrow pointing out of the page and to the right; it is labeled direction of ray (of propagation). At a point on this ray, eight bold arrows point in different directions, perpendicularly away from the ray. These arrows are labeled E.](../resources/Figure_27_08_04.jpg 'The slender arrow represents a ray of unpolarized light. The bold arrows represent the direction of polarization of the individual waves composing the ray. Since the light is unpolarized, the arrows point in all directions.')
 {: #Figure4}
 
-![The figure shows a slender arrow pointing out of the page and to the right that is labeled direction of ray. At the left end of the ray are eight blue arrows emanating from a point on the ray. These arrows are all in a plane perpendicular to the ray and are symmetrically oriented in the perpendicular plane. They are labeled E. Farther to the right on the same ray is a thin rectangle labeled polarizing filter that is in the plane perpendicular to the ray. This filter has seven vertical lines that are equally spaced on its surface. It also has a vertical double headed arrow on its surface that is labeled axis. Still farther along the ray is a single blue double headed arrow oriented vertically that is labeled E and direction of polarization.](../resources/Figure_27_08_05.jpg "A polarizing filter has a polarization axis that acts as a slit passing through electric fields parallel to its direction. The direction of polarization of an EM wave is defined to be the direction of its electric field.")
+![The figure shows a slender arrow pointing out of the page and to the right that is labeled direction of ray. At the left end of the ray are eight blue arrows emanating from a point on the ray. These arrows are all in a plane perpendicular to the ray and are symmetrically oriented in the perpendicular plane. They are labeled E. Farther to the right on the same ray is a thin rectangle labeled polarizing filter that is in the plane perpendicular to the ray. This filter has seven vertical lines that are equally spaced on its surface. It also has a vertical double headed arrow on its surface that is labeled axis. Still farther along the ray is a single blue double headed arrow oriented vertically that is labeled E and direction of polarization.](../resources/Figure_27_08_05.jpg 'A polarizing filter has a polarization axis that acts as a slit passing through electric fields parallel to its direction. The direction of polarization of an EM wave is defined to be the direction of its electric field.')
 {: #Figure5}
 
 [[Figure 6]](#Figure6) shows the effect of two polarizing filters on originally
@@ -87,10 +87,10 @@ to the incident wave by
 where $${I}_{0} $$ is the intensity of the polarized wave before passing through
 the filter. (The above equation is known as Malus’s law.)
 
-![This figure has four subfigures. The first three are schematics and the last is a photograph. The first schematic looks much as in the previous figure, except that there is a second polarizing filter on the axis after the first one. The second polarizing filter has its lines aligned parallel to those of the first polarizing filter (i e, vertical). The vertical double headed arrow labeled E that emerges from the first polarizing filter also passes through the second polarizing filter. The next schematic is similar to the first, except that the second polarizing filter is rotated at forty five degrees with respect to the first polarizing filter. The double headed arrow that emerges from this second filter is also oriented at this same angle. It is also noticeably shorter than the other double headed arrows. The third schematic shows the same situation again, except that the second polarizing filter is now rotated ninety degrees with respect to the first polarizing filter. This time, there is no double headed arrow at all after the second polarizing filter. Finally, the last subfigure shows a photo of three circular optical filters placed over a bright colorful pattern. Two of these filters are place next to each other and the third is placed on top of the other two so that the center of the third is at the point where the edges of the two filters underneath touch. Some light passes through where the upper filter overlaps the left-hand underneath filter. Where the upper filter overlaps the right-hand lower filter, no light passes through.](../resources/Figure_27_08_06.jpg "The effect of rotating two polarizing filters, where the first polarizes the light. (a) All of the polarized light is passed by the second polarizing filter, because its axis is parallel to the first. (b) As the second is rotated, only part of the light is passed. (c) When the second is perpendicular to the first, no light is passed. (d) In this photograph, a polarizing filter is placed above two others. Its axis is perpendicular to the filter on the right (dark area) and parallel to the filter on the left (lighter area). (credit: P.P. Urone)")
+![This figure has four subfigures. The first three are schematics and the last is a photograph. The first schematic looks much as in the previous figure, except that there is a second polarizing filter on the axis after the first one. The second polarizing filter has its lines aligned parallel to those of the first polarizing filter (i e, vertical). The vertical double headed arrow labeled E that emerges from the first polarizing filter also passes through the second polarizing filter. The next schematic is similar to the first, except that the second polarizing filter is rotated at forty five degrees with respect to the first polarizing filter. The double headed arrow that emerges from this second filter is also oriented at this same angle. It is also noticeably shorter than the other double headed arrows. The third schematic shows the same situation again, except that the second polarizing filter is now rotated ninety degrees with respect to the first polarizing filter. This time, there is no double headed arrow at all after the second polarizing filter. Finally, the last subfigure shows a photo of three circular optical filters placed over a bright colorful pattern. Two of these filters are place next to each other and the third is placed on top of the other two so that the center of the third is at the point where the edges of the two filters underneath touch. Some light passes through where the upper filter overlaps the left-hand underneath filter. Where the upper filter overlaps the right-hand lower filter, no light passes through.](../resources/Figure_27_08_06.jpg 'The effect of rotating two polarizing filters, where the first polarizes the light. (a) All of the polarized light is passed by the second polarizing filter, because its axis is parallel to the first. (b) As the second is rotated, only part of the light is passed. (c) When the second is perpendicular to the first, no light is passed. (d) In this photograph, a polarizing filter is placed above two others. Its axis is perpendicular to the filter on the right (dark area) and parallel to the filter on the left (lighter area). (credit: P.P. Urone)')
 {: #Figure6}
 
-![This schematic is another variation of the schematic first introduced two figures prior. To the left of the vertically oriented polarizing filter is a double headed blue arrow oriented in the plane perpendicular to the propagation direction and at an angle theta with the vertical. After the polarizing filter a smaller vertical double headed arrow appears, which is labeled E cosine theta.](../resources/Figure_27_08_07.jpg "A polarizing filter transmits only the component of the wave parallel to its axis, \( E \cos \theta \), reducing the intensity of any light not polarized parallel to its axis. ")
+![This schematic is another variation of the schematic first introduced two figures prior. To the left of the vertically oriented polarizing filter is a double headed blue arrow oriented in the plane perpendicular to the propagation direction and at an angle theta with the vertical. After the polarizing filter a smaller vertical double headed arrow appears, which is labeled E cosine theta.](../resources/Figure_27_08_07.jpg 'A polarizing filter transmits only the component of the wave parallel to its axis, ( E \\cos \\theta ), reducing the intensity of any light not polarized parallel to its axis. ')
 {: #Figure7}
 
 <div id="Example1" class="example" markdown="1">
@@ -128,7 +128,9 @@ that, at an angle of $$45 ^\circ $$ , the intensity is reduced to $$50 \% $$
 of its original value (as you will show in this section’s Problems &amp;
 Exercises). Note that $$ 71.6º $$ is $$ 18.4º $$ from reducing the intensity to
 zero, and that at an angle of $$ 18.4º $$ the intensity is reduced to $$ 90.0%
-$$ of its original value (as you will also show in Problems &amp; Exercises),
+
+$$
+of its original value (as you will also show in Problems &amp; Exercises),
 giving evidence of symmetry.
 
 </div>
@@ -521,7 +523,7 @@ Prove that, if  $$I $$
  is the intensity when the axes are at an angle  $$90.0 ^\circ-\theta , $$
  then  $$I+I^{\prime}={I}_{0,} $$
  the original intensity. (Hint: Use the trigonometric identities  $$\cos \left(90.0º-\theta \right)=\sin \theta  $$
- and  $${\cos}^{2} \theta +{\sin}^{2} \theta =1. $$ )  
+ and  $${\cos}^{2} \theta +{\sin}^{2} \theta =1. $$ )
 
 </div>
 <div class="solution" markdown="1">
@@ -691,3 +693,4 @@ vertically polarized
 : the oscillations are in a vertical plane
 
 </div>
+$$

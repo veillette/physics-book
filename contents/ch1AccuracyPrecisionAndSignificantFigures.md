@@ -10,10 +10,10 @@ chapterNumber: 1
 * Calculate the percent uncertainty of a measurement.
 </div>
 
-![An old rusted double-pan balance is shown with a weighing stone on one pan.](../resources/Figure_01_03_01.jpg "A double-pan mechanical balance is used to compare different masses. Usually an object with unknown mass is placed in one pan and objects of known mass are placed in the other pan. When the bar that connects the two pans is horizontal, then the masses in both pans are equal. The &#x201C;known masses&#x201D; are typically metal cylinders of standard mass such as 1 gram, 10 grams, and 100 grams. (credit: Serge Melki)")
+![An old rusted double-pan balance is shown with a weighing stone on one pan.](../resources/Figure_01_03_01.jpg 'A double-pan mechanical balance is used to compare different masses. Usually an object with unknown mass is placed in one pan and objects of known mass are placed in the other pan. When the bar that connects the two pans is horizontal, then the masses in both pans are equal. The “known masses” are typically metal cylinders of standard mass such as 1 gram, 10 grams, and 100 grams. (credit: Serge Melki)')
 {: #Figure1}
 
-![A digital analytical balance.](../resources/Figure_01_03_02.jpg "Many mechanical balances, such as double-pan balances, have been replaced by digital scales, which can typically measure the mass of an object more precisely. Whereas a mechanical balance may only read the mass of an object to the nearest tenth of a gram, many digital scales can measure the mass of an object up to the nearest thousandth of a gram. (credit: Karel Jakubec)")
+![A digital analytical balance.](../resources/Figure_01_03_02.jpg 'Many mechanical balances, such as double-pan balances, have been replaced by digital scales, which can typically measure the mass of an object more precisely. Whereas a mechanical balance may only read the mass of an object to the nearest tenth of a gram, many digital scales can measure the mass of an object up to the nearest thousandth of a gram. (credit: Karel Jakubec)')
 {: #Figure2 height="250"}
 
 ### Accuracy and Precision of a Measurement
@@ -54,10 +54,10 @@ in [Figure 4](#Figure4), the GPS measurements are concentrated quite closely to 
 another, but they are far away from the target location. This indicates a high
 precision, low accuracy measuring system.
 
-![A pattern similar to a dart board with few concentric circles shown in white color on a red background. In the innermost circle, there are four black points on the circumference showing the positions of a restaurant. They are far apart from each other.](../resources/Figure_01_03_03.svg "A GPS system attempts to locate a restaurant at the center of the bull&#x2019;s-eye. The black dots represent each attempt to pinpoint the location of the restaurant. The dots are spread out quite far apart from one another, indicating low precision, but they are each rather close to the actual location of the restaurant, indicating high accuracy. (credit: Dark Evil)")
+![A pattern similar to a dart board with few concentric circles shown in white color on a red background. In the innermost circle, there are four black points on the circumference showing the positions of a restaurant. They are far apart from each other.](../resources/Figure_01_03_03.svg 'A GPS system attempts to locate a restaurant at the center of the bull’s-eye. The black dots represent each attempt to pinpoint the location of the restaurant. The dots are spread out quite far apart from one another, indicating low precision, but they are each rather close to the actual location of the restaurant, indicating high accuracy. (credit: Dark Evil)')
 {: #Figure3 height="75"}
 
-![A pattern similar to a dart board with a few concentric circles shown in white color on a red background. Near the outermost white circles there are four black points showing the positions of a restaurant. The black points are very close to each other.](../resources/Figure_01_03_04.svg "In this figure, the dots are concentrated rather closely to one another, indicating high precision, but they are rather far away from the actual location of the restaurant, indicating low accuracy. (credit: Dark Evil)")
+![A pattern similar to a dart board with a few concentric circles shown in white color on a red background. Near the outermost white circles there are four black points showing the positions of a restaurant. The black points are very close to each other.](../resources/Figure_01_03_04.svg 'In this figure, the dots are concentrated rather closely to one another, indicating high precision, but they are rather far away from the actual location of the restaurant, indicating low accuracy. (credit: Dark Evil)')
 {: #Figure4 height="75"}
 
 ### Accuracy, Precision, and Uncertainty
@@ -128,13 +128,13 @@ Calculating Percent Uncertainty: A Bag of Apples
 A grocery store sells  $$ 5\text{-lb}  $$ bags of apples. You purchase four bags over the course of a month and weigh the
 apples each time. You obtain the following measurements:
 
-* Week 1 weight:
+- Week 1 weight:
   $$ 4.8 \text{lb} $$
-* Week 2 weight:
+- Week 2 weight:
   $$ 5.3 \text{lb} $$
-* Week 3 weight:
+- Week 3 weight:
   $$ 4.9 \text{lb} $$
-* Week 4 weight:
+- Week 4 weight:
   $$ 5.4 \text{lb} $$ You determine that the weight of the $$ 5\text{-lb} $$ bag
   has an uncertainty of $$ \pm 0.4\text{lb} $$. What is the percent uncertainty
   of the bag’s weight?
@@ -252,9 +252,10 @@ Determine the number of significant figures in the following measurements:
 
 (a) 0.0009
 (b) 15 450.0
-(c)  $$ 6 \times 10^{3} $$
+(c) $$ 6 \times 10^{3} $$
 (d) 87.990
 (d) 30.42
+
 </div>
 <div class="solution" data-print-placement="here" markdown="1">
 (a) 1; the zeros in this number are placekeepers that indicate the decimal point
@@ -341,7 +342,9 @@ that the number of significant figures is reasonable for the situation posed. In
 some topics, particularly in optics, more accurate numbers are needed and more
 than three significant figures will be used. Finally, if a number is **exact**,
 such as the two in the formula for the circumference of a circle, $$ c=2\pi r
-$$, it does not affect the number of significant figures in a calculation.
+
+$$
+, it does not affect the number of significant figures in a calculation.
 
 <div class="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
 <div class="title">
@@ -1081,3 +1084,4 @@ uncertainty
 standard or expected value
 
 </div>
+$$

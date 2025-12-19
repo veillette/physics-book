@@ -38,21 +38,21 @@ steps taken along the way.
 
 Complexity as a discipline examines complex systems, how they adapt and evolve,
 looking for similarities with other complex adaptive systems. Can, for example,
-parallels be drawn between biological evolution and the evolution of *economic
-systems*? Economic systems do emerge quickly, they show tendencies for
+parallels be drawn between biological evolution and the evolution of _economic
+systems_? Economic systems do emerge quickly, they show tendencies for
 self-organization, they are complex (in the number and types of transactions),
 and they adapt and evolve. Biological systems do all the same types of things.
 There are other examples of complex adaptive systems being studied for
-fundamental similarities. *Cultures* show signs of adaptation and evolution. The
+fundamental similarities. _Cultures_ show signs of adaptation and evolution. The
 comparison of different cultural evolutions may bear fruit as well as
-comparisons to biological evolution. *Science* also is a complex system of human
+comparisons to biological evolution. _Science_ also is a complex system of human
 interactions, like culture and economics, that adapts to new information and
 political pressure, and evolves, usually becoming more organized rather than
-less. Those who study *creative thinking* also see parallels with complex
+less. Those who study _creative thinking_ also see parallels with complex
 systems. Humans sometimes organize almost random pieces of information, often
 subconsciously while doing other things, and come up with brilliant creative
-insights. The development of *language* is another complex adaptive system that
-may show similar tendencies. *Artificial intelligence* is an overt attempt to
+insights. The development of _language_ is another complex adaptive system that
+may show similar tendencies. _Artificial intelligence_ is an overt attempt to
 devise an adaptive system that will self-organize and evolve in the same manner
 as an intelligent living being learns. These are a few of the broad range of
 topics being studied by those who investigate complexity. There are now
@@ -96,7 +96,7 @@ systems are beautiful fractal patterns such as in [[Figure 1]](#Figure1). Some
 chaotic systems exhibit self-organization, a type of stable chaos. The orbits of
 the planets in our solar system, for example, may be chaotic (we are not certain
 yet). But they are definitely organized and systematic, with a simple formula
-describing the orbital radii of the first eight planets *and* the asteroid belt.
+describing the orbital radii of the first eight planets _and_ the asteroid belt.
 Large-scale vortices in Jupiter’s atmosphere are chaotic, but the Great Red Spot
 is a stable self-organization of rotational energy. (See [[Figure 2]](#Figure2)
 .) The Great Red Spot has been in existence for at least 400 years and is a
@@ -108,22 +108,22 @@ very broad range of phenomena and, hence, generate a better understanding of
 them. Time will tell what impact these fields have on more traditional areas of
 physics as well as on the other disciplines they relate to.
 
-![The computer-generated image shows a blue white red rainbow arc on top of which is a very complex two-fold symmetric pattern of what looks like bubbles interlaced with fine thread. The background below the arc is black, whereas above the bubbles-lace pattern the colors fade into a deep blue. The main feature of the bubble-lace pattern is a large black hole with very complex and self-similar features defining its edge. From the top of the black hole grows a progressively finer spiky tip that is mostly white. Smaller versions of this black hole are repeated symmetrically to the right and left of the main black hole.](../resources/Figure_34_05_01.jpg "This image is related to the Mandelbrot set, a complex mathematical form that is chaotic. The patterns are infinitely fine as you look closer and closer, and they indicate order in the presence of chaos. (credit: Gilberto Santa Rosa)")
+![The computer-generated image shows a blue white red rainbow arc on top of which is a very complex two-fold symmetric pattern of what looks like bubbles interlaced with fine thread. The background below the arc is black, whereas above the bubbles-lace pattern the colors fade into a deep blue. The main feature of the bubble-lace pattern is a large black hole with very complex and self-similar features defining its edge. From the top of the black hole grows a progressively finer spiky tip that is mostly white. Smaller versions of this black hole are repeated symmetrically to the right and left of the main black hole.](../resources/Figure_34_05_01.jpg 'This image is related to the Mandelbrot set, a complex mathematical form that is chaotic. The patterns are infinitely fine as you look closer and closer, and they indicate order in the presence of chaos. (credit: Gilberto Santa Rosa)')
 {: #Figure1}
 
-![The picture shows what looks like a flowing orangish liquid into which some milk has been mixed. The main features are two eddies or vortices: a larger one that is a darker orange than the background and the other, smaller one, that is more milky than the background.](../resources/Figure_34_05_02.jpg "The Great Red Spot on Jupiter is an example of self-organization in a complex and chaotic system. Smaller vortices in Jupiter&#x2019;s atmosphere behave chaotically, but the triple-Earth-size spot is self-organized and stable for at least hundreds of years. (credit: NASA)")
+![The picture shows what looks like a flowing orangish liquid into which some milk has been mixed. The main features are two eddies or vortices: a larger one that is a darker orange than the background and the other, smaller one, that is more milky than the background.](../resources/Figure_34_05_02.jpg 'The Great Red Spot on Jupiter is an example of self-organization in a complex and chaotic system. Smaller vortices in Jupiter’s atmosphere behave chaotically, but the triple-Earth-size spot is self-organized and stable for at least hundreds of years. (credit: NASA)')
 {: #Figure2}
 
 ### Section Summary
 
-* Complexity is an emerging field, rooted primarily in physics, that considers
+- Complexity is an emerging field, rooted primarily in physics, that considers
   complex adaptive systems and their evolution, including self-organization.
-* Complexity has applications in physics and many other disciplines, such as
+- Complexity has applications in physics and many other disciplines, such as
   biological evolution.
-* Chaos is a field that studies systems whose properties depend extremely
+- Chaos is a field that studies systems whose properties depend extremely
   sensitively on some variables and whose evolution is impossible to predict.
-* Chaotic systems may be simple or complex.
-* Studies of chaos have led to methods for understanding and predicting certain
+- Chaotic systems may be simple or complex.
+- Studies of chaos have led to methods for understanding and predicting certain
   chaotic behaviors.
 
 ### Conceptual Questions

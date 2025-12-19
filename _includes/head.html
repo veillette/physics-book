@@ -1,71 +1,97 @@
 <head>
-    <link href="https://gmpg.org/xfn/11" rel="profile">
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <link href="https://gmpg.org/xfn/11" rel="profile" />
+  <meta content="text/html; charset=utf-8" http-equiv="content-type" />
 
-    <meta content="General Physics, PHY 127 and PHY 128" name="description">
-    <meta content="Physics, College, Mechanics" name="keywords">
-    <meta content="Martin Veillette" name="author">
+  <meta content="General Physics, PHY 127 and PHY 128" name="description" />
+  <meta content="Physics, College, Mechanics" name="keywords" />
+  <meta content="Martin Veillette" name="author" />
 
-    <!-- Enable responsiveness on mobile devices-->
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=6" name="viewport">
+  <!-- Enable responsiveness on mobile devices-->
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=6" name="viewport" />
 
-    <!-- Theming the browser's address bar to match the brand colors of your PWA provides a more immersive user experience -->
-    <meta name="theme-color" content="#3367D6"/>
+  <!-- Theming the browser's address bar to match the brand colors of your PWA provides a more immersive user experience -->
+  <meta name="theme-color" content="#3367D6" />
 
-    <!-- Favicons and App Icons -->
-    <link rel="icon" type="image/png" sizes="32x32" href="{{'/assets/icon/favicon-32x32.png'| relative_url }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{'/assets/icon/favicon-16x16.png'| relative_url }}">
-    <link rel="shortcut icon" href="{{'/assets/image/favicon.ico'| relative_url }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{'/assets/icon/apple-touch-icon.png'| relative_url }}">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{'/assets/icon/apple-touch-icon-152x152.png'| relative_url }}">
-    <link rel="apple-touch-icon" sizes="167x167" href="{{'/assets/icon/apple-touch-icon-167x167.png'| relative_url }}">
-    <link rel="apple-touch-icon" sizes="120x120" href="{{'/assets/icon/apple-touch-icon-120x120.png'| relative_url }}">
+  <!-- Favicons and App Icons -->
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="{{'/assets/icon/favicon-32x32.png'| relative_url }}"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="{{'/assets/icon/favicon-16x16.png'| relative_url }}"
+  />
+  <link rel="shortcut icon" href="{{'/assets/image/favicon.ico'| relative_url }}" />
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="{{'/assets/icon/apple-touch-icon.png'| relative_url }}"
+  />
+  <link
+    rel="apple-touch-icon"
+    sizes="152x152"
+    href="{{'/assets/icon/apple-touch-icon-152x152.png'| relative_url }}"
+  />
+  <link
+    rel="apple-touch-icon"
+    sizes="167x167"
+    href="{{'/assets/icon/apple-touch-icon-167x167.png'| relative_url }}"
+  />
+  <link
+    rel="apple-touch-icon"
+    sizes="120x120"
+    href="{{'/assets/icon/apple-touch-icon-120x120.png'| relative_url }}"
+  />
 
-    <title>
-        {% if page.title == "Home" %}
-        {{ site.title }} &middot;  {{ site.tagline }}
-        {% else %}
-        {{ page.title }}
-        {% endif %}
-    </title>
+  <title>
+    {% if page.title == "Home" %} {{ site.title }} &middot; {{ site.tagline }} {% else %} {{
+    page.title }} {% endif %}
+  </title>
 
-    <!-- CSS -->
-    <link href="{{'/assets/css/gitbook.css'| relative_url }}" rel="stylesheet">
+  <!-- CSS -->
+  <link href="{{'/assets/css/gitbook.css'| relative_url }}" rel="stylesheet" />
 
-    <link href="{{'/assets/manifest/manifest.json'| relative_url }}" rel="manifest"/>
+  <link href="{{'/assets/manifest/manifest.json'| relative_url }}" rel="manifest" />
 
-    <!-- For styles with static names... -->
-    <link href="{{'/assets/css/styles.css'| relative_url }}" rel="stylesheet">
+  <!-- For styles with static names... -->
+  <link href="{{'/assets/css/styles.css'| relative_url }}" rel="stylesheet" />
 
-    <!-- Print stylesheet for PDF generation -->
-    <link href="{{'/assets/css/print.css'| relative_url }}" rel="stylesheet" media="print">
+  <!-- Print stylesheet for PDF generation -->
+  <link href="{{'/assets/css/print.css'| relative_url }}" rel="stylesheet" media="print" />
 
+  <!-- MathJax Configuration (must load before MathJax itself) -->
+  <script src="{{'/assets/js/math-config.js'| relative_url }}" type="text/javascript"></script>
+  <script
+    defer
+    id="MathJax-script"
+    src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js"
+  ></script>
 
-    <!-- MathJax Configuration (must load before MathJax itself) -->
-    <script src="{{'/assets/js/math-config.js'| relative_url }}" type="text/javascript"></script>
-    <script defer id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js"></script>
+  <!-- support for flash content -->
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 
-    <!-- support for flash content -->
-    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+  <script type="text/javascript">
+    window.Book = {
+      url: '{{ site.github.repository_url }}',
+      rootUrl: '{{ site.baseurl }}',
+      toc: { url: '{{ site.baseurl }}/SUMMARY.html' },
+    };
+  </script>
 
-    <script type="text/javascript">
-        window.Book = {
-            'url': '{{ site.github.repository_url }}',
-            'rootUrl': '{{ site.baseurl }}',
-            'toc': {'url': '{{ site.baseurl }}/SUMMARY.html'},
-        };
-    </script>
+  <!-- Import the JavaScript module -->
+  <!-- Order is important -->
+  <script type="module" src="{{'/assets/js/book-config.js'| relative_url }}"></script>
+  <script type="module" src="{{'/assets/js/util.js'| relative_url }}"></script>
+  <script type="module" src="{{'/assets/js/book-viewer.js'| relative_url }}"></script>
+  <script type="module" src="{{'/assets/js/search.js'| relative_url }}"></script>
+  <script type="module" src="{{'/assets/js/search-ui.js'| relative_url }}"></script>
 
-    <!-- Import the JavaScript module -->
-    <!-- Order is important -->
-    <script type="module" src="{{'/assets/js/book-config.js'| relative_url }}"></script>
-    <script type="module" src="{{'/assets/js/util.js'| relative_url }}"></script>
-    <script type="module" src="{{'/assets/js/book-viewer.js'| relative_url }}"></script>
+  <script src="{{'/assets/pwa/register-sw.js'| relative_url }}" type="text/javascript"></script>
 
-    <script src="{{'/assets/pwa/register-sw.js'| relative_url }}"
-            type="text/javascript"></script>
-
-    <!-- PWA Debug utilities (only loaded if enabled) -->
-    <script src="{{'/assets/pwa/pwa-debug.js'| relative_url }}"
-            type="text/javascript"></script>
+  <!-- PWA Debug utilities (only loaded if enabled) -->
+  <script src="{{'/assets/pwa/pwa-debug.js'| relative_url }}" type="text/javascript"></script>
 </head>

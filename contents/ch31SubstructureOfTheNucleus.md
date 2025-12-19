@@ -15,16 +15,16 @@ chapterNumber: 31
 
 What is inside the nucleus? Why are some nuclei stable while others decay? (
 See [[Figure 1]](#Figure1).) Why are there different types of decay ( $$\alpha
-$$ , $$\beta $$ and $$\gamma $$ )  ? Why are nuclear decay energies so large?
+$$ , $$\beta $$ and $$\gamma $$ ) ? Why are nuclear decay energies so large?
 Pursuing natural questions like these has led to far more fundamental
 discoveries than you might imagine.
 
-![The first image shows a lump of coal. The second image shows a pair of hands holding a metal uranium disk. Third image shows a cylindrical glass tube containing slivery-brown cesium.](../resources/Figure_31_03_01.jpg "Why is most of the carbon in this coal stable (a), while the uranium in the disk (b) slowly decays over billions of years? Why is cesium in this ampule (c) even less stable than the uranium, decaying in far less than 1/1 000 000 the time? What is the reason uranium and cesium undergo different types of decay (\( \alpha \) and \( \beta \), respectively)? (credits: (a) Bresson Thomas, Wikimedia Commons; (b) U.S. Department of Energy; (c) Tomihahndorf, Wikimedia Commons)")
+![The first image shows a lump of coal. The second image shows a pair of hands holding a metal uranium disk. Third image shows a cylindrical glass tube containing slivery-brown cesium.](../resources/Figure_31_03_01.jpg 'Why is most of the carbon in this coal stable (a), while the uranium in the disk (b) slowly decays over billions of years? Why is cesium in this ampule (c) even less stable than the uranium, decaying in far less than 1/1 000 000 the time? What is the reason uranium and cesium undergo different types of decay (( \\alpha ) and ( \\beta ), respectively)? (credits: (a) Bresson Thomas, Wikimedia Commons; (b) U.S. Department of Energy; (c) Tomihahndorf, Wikimedia Commons)')
 {: #Figure1}
 
 We have already identified **protons** as the particles that carry positive
-charge in the nuclei. However, there are actually *two* types of particles in
-the nuclei—the *proton* and the *neutron*, referred to collectively as **nucleons**, the constituents of nuclei. As its name implies, the **neutron** is
+charge in the nuclei. However, there are actually _two_ types of particles in
+the nuclei—the _proton_ and the _neutron_, referred to collectively as **nucleons**, the constituents of nuclei. As its name implies, the **neutron** is
 a neutral particle ( $$q=0 $$ )
 that has nearly the same mass and intrinsic spin as the
 proton. [[Table 1]](#Table1) compares the masses of protons, neutrons, and
@@ -36,7 +36,7 @@ more massive than an electron. In fact, $${m}_{p}=1836{m}_{e} $$
 
 [[Table 1]](#Table1) also gives masses in terms of mass units that are more
 convenient than kilograms on the atomic and nuclear scale. The first of these is
-the *unified **atomic mass**{: class="term"} unit* (u), defined as
+the _unified **atomic mass**{: class="term"} unit_ (u), defined as
 
 <div class="equation" >
  $$1 \text{u}= 1.6605 \times 10^{-27}  \text{kg} \text{.}  $$
@@ -44,7 +44,9 @@ the *unified **atomic mass**{: class="term"} unit* (u), defined as
 
 This unit is defined so that a neutral carbon $${}^{12}\text{C} $$ atom has a
 mass of exactly 12 u. Masses are also expressed in units of $$\text{MeV/}{c}^{2}
-$$ . These units are very convenient when considering the conversion of mass
+
+$$
+. These units are very convenient when considering the conversion of mass
 into energy (and vice versa), as is so prominent in nuclear processes. Using
 $$E=mc^{2} $$ and units of $$m $$ in $$\text{MeV/}{c}^{2} $$ , we find that
 $${c}^{2} $$ cancels and $$E $$ comes out conveniently in MeV. For example, if
@@ -109,7 +111,7 @@ importance in organic chemistry (see [Appendix A](../contents/appendixA)).
             <td>Proton</td>
             <td><em>p</em></td>
             <td>
-               $$ 1.67262 \times 10^{-27}  $$ 
+               $$ 1.67262 \times 10^{-27}  $$
             </td>
             <td>1.007276</td>
             <td>938.27</td>
@@ -117,7 +119,7 @@ importance in organic chemistry (see [Appendix A](../contents/appendixA)).
             <td>Neutron</td>
             <td><em>n</em></td>
             <td>
-               $$ 1.67493 \times 10^{-27}  $$ 
+               $$ 1.67493 \times 10^{-27}  $$
             </td>
             <td>1.008665</td>
             <td>939.57</td>
@@ -125,7 +127,7 @@ importance in organic chemistry (see [Appendix A](../contents/appendixA)).
             <td>Electron</td>
             <td><em>e</em></td>
             <td>
-               $$ 9.1094 \times 10^{-31}  $$ 
+               $$ 9.1094 \times 10^{-31}  $$
             </td>
             <td>0.00054858</td>
             <td>0.511</td>
@@ -351,7 +353,7 @@ stability for nuclei with such high $$Z $$ s.
    $$r={r}_{0}{A}^{1/3}, $$
   </div>
      where
-   $${r}_{0}=1.2 \text{fm} $$ . 
+   $${r}_{0}=1.2 \text{fm} $$ .
 
 Nuclear volumes are proportional to $$A $$ . There are two nuclear forces, the
 weak and the strong. Systematics in nuclear stability seen on the chart of the
@@ -563,3 +565,4 @@ radius of a nucleus
 : the radius of a nucleus is $$r={r}_{0}{A}^{1/3} $$
 
 </div>
+$$

@@ -22,12 +22,12 @@ much about gravity in the process.
 
 The most remarkable and unexpected fact about falling objects is that, if air
 resistance and friction are negligible, then in a given location all objects
-fall toward the center of Earth with the *same constant acceleration,
-independent of their mass*. This experimentally determined fact is unexpected,
+fall toward the center of Earth with the _same constant acceleration,
+independent of their mass_. This experimentally determined fact is unexpected,
 because we are so accustomed to the effects of air resistance and friction that
 we expect light objects to fall slower than heavy ones.
 
-![Positions of a feather and hammer over time as they fall on the Moon. The feather and hammer are at the exact same position at each moment in time.](../resources/Figure_02_07_01.jpg "A hammer and a feather will fall with the same constant acceleration if air resistance is considered negligible. This is a general characteristic of gravity not unique to Earth, as astronaut David R. Scott demonstrated on the Moon in 1971, where the acceleration due to gravity is only \( 1.67 \mss \) ")
+![Positions of a feather and hammer over time as they fall on the Moon. The feather and hammer are at the exact same position at each moment in time.](../resources/Figure_02_07_01.jpg 'A hammer and a feather will fall with the same constant acceleration if air resistance is considered negligible. This is a general characteristic of gravity not unique to Earth, as astronaut David R. Scott demonstrated on the Moon in 1971, where the acceleration due to gravity is only ( 1.67 \\mss ) ')
 {: #Figure1}
 
 In the real world, air resistance can cause a lighter object to fall slower than
@@ -37,12 +37,12 @@ difference if the height is not large.) Air resistance opposes the motion of an
 object through the air, while friction between objects—such as between clothes
 and a laundry chute or between a stone and a pool into which it is dropped—also
 opposes motion between them. For the ideal situations of these first few
-chapters, an object *falling without air resistance or friction* is defined to
+chapters, an object _falling without air resistance or friction_ is defined to
 be in **free-fall**.
 
 The force of gravity causes objects to fall toward the center of Earth. The
 acceleration of free-falling objects is therefore called the **acceleration due
-to gravity**. The acceleration due to gravity is *constant*, which means we can
+to gravity**. The acceleration due to gravity is _constant_, which means we can
 apply the kinematics equations to any falling object where air resistance and
 friction are negligible. This opens a broad class of interesting situations to
 us. The acceleration due to gravity is so important that its magnitude is given
@@ -62,7 +62,9 @@ vertical. Note that whether the acceleration $$ a $$ in the kinematic equations
 has the value $$ +g $$ or $$ -g $$ depends on how we define our coordinate
 system. If we define the upward direction as positive, then $$ a=-g=-9.80 \mss
 $$, and if we define the downward direction as positive, then $$ a=g=9.80 \mss
-$$.
+
+$$
+.
 
 ### One-Dimensional Motion Involving Gravity
 
@@ -154,7 +156,8 @@ that $$ y_{1}=8.10 \m $$.
 
 2\. Identify the best equation to use. The most straightforward is $$ v=v_{0}-gt
 $$
-(from $$ v=v_{0}+at $$, where $$ a=\text{gravitational acceleration}=-g $$).
+
+(from $$ v=v\_{0}+at $$, where $$ a=\text{gravitational acceleration}=-g $$).
 
 3\. Plug in the knowns and solve.
 
@@ -165,8 +168,8 @@ $$
 
 **Discussion**
 
-The positive value for $$ v_{1} $$ means that the rock is still heading upward
-at $$ t=1.00\s $$. However, it has slowed from its original 13.0** m/s, as
+The positive value for $$ v\_{1} $$ means that the rock is still heading upward
+at $$ t=1.00\s $$. However, it has slowed from its original 13.0\*\* m/s, as
 expected.
 
 **Solution for Remaining Times**
@@ -177,26 +180,26 @@ in [Table 1](#Table1) and illustrated in [Figure 3](#Figure3).
 
 ##### Table: Results
 
-|Time, t|Position, y|Velocity, v|Acceleration, a|
-|--- |--- |--- |--- |
-| $$1.00 \s $$ | $$8.10 \m $$ | $$3.20 \ms $$ | $$-9.80 \mss $$ |
-| $$2.00 \s $$ | $$6.40 \m $$| $$-6.60 \ms $$ | $$-9.80 \mss $$ |
-| $$3.00 \s $$ | $$-5.10 \m $$ | $$-16.4 \ms $$ | $$-9.80 \mss $$|
+| Time, t      | Position, y   | Velocity, v    | Acceleration, a |
+| ------------ | ------------- | -------------- | --------------- |
+| $$1.00 \s $$ | $$8.10 \m $$  | $$3.20 \ms $$  | $$-9.80 \mss $$ |
+| $$2.00 \s $$ | $$6.40 \m $$  | $$-6.60 \ms $$ | $$-9.80 \mss $$ |
+| $$3.00 \s $$ | $$-5.10 \m $$ | $$-16.4 \ms $$ | $$-9.80 \mss $$ |
 
 {: #Table1}
 
 Graphing the data helps us understand it more clearly.
 
-![Three panels showing three graphs. The top panel shows a graph of vertical position in meters versus time in seconds. The line begins at the origin and has a positive slope that decreases over time until it hits a turning point between seconds 1 and 2. After that it has a negative slope that increases over time. The middle panel shows a graph of velocity in meters per second versus time in seconds. The line is straight, with a negative slope, beginning at time zero velocity of thirteen meters per second and ending at time 3 seconds with a velocity just over negative sixteen meters per second. The bottom panel shows a graph of acceleration in meters per second squared versus time in seconds. The line is straight and flat at a y value of negative 9 point 80 meters per second squared from time 0 to time 3 seconds.](../resources/Figure_02_07_03.jpg "Vertical position, vertical velocity, and vertical acceleration vs. time for a rock thrown vertically up at the edge of a cliff. Notice that velocity changes linearly with time and that acceleration is constant. Misconception Alert! Notice that the position vs. time graph shows vertical position only. It is easy to get the impression that the graph shows some horizontal motion;the shape of the graph looks like the path of a projectile. But this is not the case; the horizontal axis is time, not space. The actual path of the rock in space is straight up, and straight down.")
+![Three panels showing three graphs. The top panel shows a graph of vertical position in meters versus time in seconds. The line begins at the origin and has a positive slope that decreases over time until it hits a turning point between seconds 1 and 2. After that it has a negative slope that increases over time. The middle panel shows a graph of velocity in meters per second versus time in seconds. The line is straight, with a negative slope, beginning at time zero velocity of thirteen meters per second and ending at time 3 seconds with a velocity just over negative sixteen meters per second. The bottom panel shows a graph of acceleration in meters per second squared versus time in seconds. The line is straight and flat at a y value of negative 9 point 80 meters per second squared from time 0 to time 3 seconds.](../resources/Figure_02_07_03.jpg 'Vertical position, vertical velocity, and vertical acceleration vs. time for a rock thrown vertically up at the edge of a cliff. Notice that velocity changes linearly with time and that acceleration is constant. Misconception Alert! Notice that the position vs. time graph shows vertical position only. It is easy to get the impression that the graph shows some horizontal motion;the shape of the graph looks like the path of a projectile. But this is not the case; the horizontal axis is time, not space. The actual path of the rock in space is straight up, and straight down.')
 {: #Figure3}
 
 **Discussion**
 
 The interpretation of these results is important. At 1.00 s the rock is above
-its starting point and heading upward, since $$ y_{1} $$ and $$ v_{1} $$ are
+its starting point and heading upward, since $$ y*{1} $$ and $$ v*{1} $$ are
 both positive. At 2.00 s, the rock is still above its starting point, but the
-negative velocity means it is moving downward. At 3.00 s, both $$ y_{3} $$ and
-$$ v_{3} $$ are negative, meaning the rock is below its starting point and
+negative velocity means it is moving downward. At 3.00 s, both $$ y*{3} $$ and
+$$ v*{3} $$ are negative, meaning the rock is below its starting point and
 continuing to move downward. Notice that when the rock is at its highest point (
 at 1.3 s), its velocity is zero, but its acceleration is still $$ -9.80 \mss $$.
 Its acceleration is $$ -9.80 \mss $$ for the whole trip—while it is moving up
@@ -228,23 +231,23 @@ What happens if the person on the cliff throws the rock straight down, instead o
 
 Draw a sketch.
 
-![Velocity vector arrow pointing down in the negative y direction and labeled v sub zero equals negative thirteen point 0 meters per second. Acceleration vector arrow also pointing down in the negative y direction, labeled a equals negative 9 point 80 meters per second squared.](../resources/Figure_02_07_04.jpg "Velocity and Accelerator Sketch")
+![Velocity vector arrow pointing down in the negative y direction and labeled v sub zero equals negative thirteen point 0 meters per second. Acceleration vector arrow also pointing down in the negative y direction, labeled a equals negative 9 point 80 meters per second squared.](../resources/Figure_02_07_04.jpg 'Velocity and Accelerator Sketch')
 {: #Figure4}
 
 Since up is positive, the final position of the rock will be negative because it
-finishes below the starting point at $$ y_{0}=0 $$. Similarly, the initial
+finishes below the starting point at $$ y\_{0}=0 $$. Similarly, the initial
 velocity is downward and therefore negative, as is the acceleration due to
 gravity. We expect the final velocity to be negative since the rock will
 continue to move downward.
 
 **Solution**
 
-1\. Identify the knowns. $$ y_{0}=0 $$; $$ y_{1}=-5.10 \m $$; $$ v_
+1\. Identify the knowns. $$ y*{0}=0 $$; $$ y*{1}=-5.10 \m $$; $$ v\_
 {0}=-13.0 \ms $$; $$ a=-g=-9.80 \mss $$.
 
 2\. Choose the kinematic equation that makes it easiest to solve the problem.
-The equation $$ v^{2}=v_{0}^{2}+2a\left(y-y_{0}\right) $$ works well because the
-only unknown in it is $$ v $$. (We will plug $$ y_{1} $$ in for $$ y $$.)
+The equation $$ v^{2}=v*{0}^{2}+2a\left(y-y*{0}\right) $$ works well because the
+only unknown in it is $$ v $$. (We will plug $$ y\_{1} $$ in for $$ y $$.)
 
 3\. Enter the known values
 
@@ -269,20 +272,20 @@ The negative root is chosen to indicate that the rock is still heading down. Thu
 
 **Discussion**
 
-Note that *this is exactly the same velocity the rock had at this position when
-it was thrown straight upward with the same initial speed*. (
+Note that _this is exactly the same velocity the rock had at this position when
+it was thrown straight upward with the same initial speed_. (
 See [Example 1](#example1) and [Figure 5](#Figure5)(a).) This is not a coincidental
 result. Because we only consider the acceleration due to gravity in this
-problem, the *speed* of a falling object depends only on its initial speed and
+problem, the _speed_ of a falling object depends only on its initial speed and
 its vertical position relative to the starting point. For example, if the
 velocity of the rock is calculated at a height of 8.10 m above the starting
 point (using the method from [Example 1](#example1)) when the initial velocity
 is 13.0 m/s straight up, a result of $$ \pm 3.20 \ms $$ is obtained. Here both
 signs are meaningful; the positive value occurs when the rock is at 8.10 m and
 heading up, and the negative value occurs when the rock is at 8.10 m and heading
-back down. It has the same *speed* but the opposite direction.
+back down. It has the same _speed_ but the opposite direction.
 
-![Two figures are shown. At left, a man standing on the edge of a cliff throws a rock straight up with an initial speed of thirteen meters per second. At right, the man throws the rock straight down with a speed of thirteen meters per second. In both figures, a line indicates the rock&#x2019;s trajectory. When the rock is thrown straight up, it has a speed of minus sixteen point four meters per second at minus five point one zero meters below the point where the man released the rock. When the rock is thrown straight down, the velocity is the same at this position.](../resources/Figure_02_07_05.jpg "(a) A person throws a rock straight up, as explored in <a href="#example1">Example 1</a>. The arrows are velocity vectors at 0, 1.00, 2.00, and 3.00 s. (b) A person throws a rock straight down from a cliff with the same initial speed as before, as in <a href="#example2">Example 2</a>. Note that at the same distance below the point of release, the rock has the same velocity in both cases. ")
+![Two figures are shown. At left, a man standing on the edge of a cliff throws a rock straight up with an initial speed of thirteen meters per second. At right, the man throws the rock straight down with a speed of thirteen meters per second. In both figures, a line indicates the rock’s trajectory. When the rock is thrown straight up, it has a speed of minus sixteen point four meters per second at minus five point one zero meters below the point where the man released the rock. When the rock is thrown straight down, the velocity is the same at this position.](../resources/Figure_02_07_05.jpg "(a) A person throws a rock straight up, as explored in <a href="#example1">Example 1</a>. The arrows are velocity vectors at 0, 1.00, 2.00, and 3.00 s. (b) A person throws a rock straight down from a cliff with the same initial speed as before, as in <a href="#example2">Example 2</a>. Note that at the same distance below the point of release, the rock has the same velocity in both cases. ")
 {: #Figure5}
 
 Another way to look at it is this: In [Example 1](#example1), the rock is thrown
@@ -303,7 +306,7 @@ Find *g* from Data on a Falling Object
 </div>
 The acceleration due to gravity on Earth differs slightly from place to place, depending on topography (e.g., whether you are on a hill or in a valley) and subsurface geology (whether there is dense rock like iron ore as opposed to light rock like salt beneath you.) The precise acceleration due to gravity can be calculated from data taken in an introductory physics laboratory course. An object, usually a metal ball for which air resistance is negligible, is dropped and the time it takes to fall a known distance is measured. See, for example, [Figure 6](#Figure6). Very precise results can be produced with this method if sufficient care is taken in measuring the distance fallen and the elapsed time.
 
-![Figure has four panels. The first panel (on the top) is an illustration of a ball falling toward the ground at intervals of one tenth of a second. The space between the vertical position of the ball at one time step and the next increases with each time step. At time equals 0, position and velocity are also 0. At time equals 0 point 1 seconds, y position equals negative 0 point 049 meters and velocity is negative 0 point 98 meters per second. At 0 point 5 seconds, y position is negative 1 point 225 meters and velocity is negative 4 point 90 meters per second. The second panel (in the middle) is a line graph of position in meters versus time in seconds. Line begins at the origin and slopes down with increasingly negative slope. The third panel (bottom left) is a line graph of velocity in meters per second versus time in seconds. Line is straight, beginning at the origin and with a constant negative slope. The fourth panel (bottom right) is a line graph of acceleration in meters per second squared versus time in seconds. Line is flat, at a constant y value of negative 9 point 80 meters per second squared.](../resources/Figure_02_07_06.jpg "Positions and velocities of a metal ball released from rest when air resistance is negligible. Velocity is seen to increase linearly with time while displacement increases with time squared. Acceleration is a constant and is equal to gravitational acceleration.")
+![Figure has four panels. The first panel (on the top) is an illustration of a ball falling toward the ground at intervals of one tenth of a second. The space between the vertical position of the ball at one time step and the next increases with each time step. At time equals 0, position and velocity are also 0. At time equals 0 point 1 seconds, y position equals negative 0 point 049 meters and velocity is negative 0 point 98 meters per second. At 0 point 5 seconds, y position is negative 1 point 225 meters and velocity is negative 4 point 90 meters per second. The second panel (in the middle) is a line graph of position in meters versus time in seconds. Line begins at the origin and slopes down with increasingly negative slope. The third panel (bottom left) is a line graph of velocity in meters per second versus time in seconds. Line is straight, beginning at the origin and with a constant negative slope. The fourth panel (bottom right) is a line graph of acceleration in meters per second squared versus time in seconds. Line is flat, at a constant y value of negative 9 point 80 meters per second squared.](../resources/Figure_02_07_06.jpg 'Positions and velocities of a metal ball released from rest when air resistance is negligible. Velocity is seen to increase linearly with time while displacement increases with time squared. Acceleration is a constant and is equal to gravitational acceleration.')
 {: #Figure6}
 
 Suppose the ball falls 1.0000 m in 0.45173 s. Assuming the ball is not affected
@@ -322,8 +325,8 @@ is downward and therefore negative, as is acceleration.
 
 **Solution**
 
-1\. Identify the knowns. $$ y_{0}=0 $$; $$ y=-1.0000 \m $$; $$ t=0.45173 \s $$;
-$$ v_{0}=0 $$.
+1\. Identify the knowns. $$ y*{0}=0 $$; $$ y=-1.0000 \m $$; $$ t=0.45173 \s $$;
+$$ v*{0}=0 $$.
 
 2\. Choose the equation that allows you to solve for $$ a $$ using the known
 values.
@@ -362,6 +365,7 @@ value of $$ 9.80 \mss $$, so $$ 9.8010 \mss $$ makes sense. Since the data going
 into the calculation are relatively precise, this value for $$ g $$ is more
 precise than the average value of $$ 9.80 \mss $$; it represents the local value
 for the acceleration due to gravity.
+
 </div>
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
@@ -405,25 +409,26 @@ Kinematics of an Elevator
 </figure>
 </div>
 
-
-
 ### Section Summary
 
-* An object in free-fall experiences constant acceleration if air resistance is
+- An object in free-fall experiences constant acceleration if air resistance is
   negligible.
-* On Earth, all free-falling objects have an acceleration due to gravity $$ g
-  $$, which averages
+- On Earth, all free-falling objects have an acceleration due to gravity $$ g
+
+  $$
+  , which averages
   <div class="equation">
   $$ g=9.80 \mss . $$
   </div>
+  $$
 
-* Whether the acceleration $$a$$ should be taken as $$ +g $$ or $$ -g $$ is
+- Whether the acceleration $$a$$ should be taken as $$ +g $$ or $$ -g $$ is
   determined by your choice of coordinate system. If you choose the upward
   direction as positive, $$ a=-g=-9.80 \mss $$ is negative. In the opposite
   case, $$ a=+g=9.80 \mss $$ is positive. Since acceleration is constant, the
   kinematic equations above can be applied with the appropriate $$ +g $$ or $$
   -g $$ substituted for $$ a $$.
-* For objects in free-fall, up is normally taken as positive for displacement,
+- For objects in free-fall, up is normally taken as positive for displacement,
   velocity, and acceleration.
 
 ### Conceptual Questions
@@ -704,6 +709,7 @@ Take downward as positive since the preserver is thrown downward. Use the kinema
 **Solution**
 
 **(a) Known values:**
+
 - Initial velocity: $$ v_0 = 1.40 \ms $$ (downward, positive)
 - Time: $$ t = 1.8 \s $$
 - Acceleration: $$ a = g = 9.80 \mss $$ (downward, positive)
@@ -712,11 +718,13 @@ Take downward as positive since the preserver is thrown downward. Use the kinema
 **(b) Height above water:**
 
 Use the kinematic equation:
+
 <div class="equation">
 $$ y = y_0 + v_0 t + \frac{1}{2}gt^2 $$
 </div>
 
 Substitute the known values:
+
 <div class="equation">
 $$ y = 0 + (1.40 \ms)(1.8 \s) + \frac{1}{2}(9.80 \mss)(1.8 \s)^2 $$
 </div>
@@ -766,6 +774,7 @@ y&=& y_{0}+\frac{ v^{2}-v_{0}^{2}}{2a}=0 m+\frac{ {\left(0 \ms \right)}^{2}-{\le
 Dolphins measure about 2 meters long and can jump several times their length out of the water, so this is a reasonable result.
 
 (c) $$ 2.65 \s $$
+
 </div>
 </div>
 
@@ -809,6 +818,7 @@ $$ -1.80 = 4.00t - 4.90t^2 $$
 </div>
 
 Rearranging into standard quadratic form:
+
 <div class="equation">
 $$ 4.90t^2 - 4.00t - 1.80 = 0 $$
 </div>
@@ -823,6 +833,7 @@ $$ t = \frac{4.00 \pm \sqrt{51.28}}{9.80} = \frac{4.00 \pm 7.16}{9.80} $$
 </div>
 
 Taking the positive root:
+
 <div class="equation">
 $$ t = \frac{4.00 + 7.16}{9.80} = \frac{11.16}{9.80} = 1.14 \s $$
 </div>
@@ -852,11 +863,13 @@ $$ y = \frac{16.0}{19.6} = 0.816 \m $$
 **(c) Velocity when feet hit the water:**
 
 Use the kinematic equation relating velocity, displacement, and acceleration:
+
 <div class="equation">
 $$ v^2 = v_0^2 + 2a(y - y_0) $$
 </div>
 
 Substitute known values:
+
 <div class="equation">
 $$ v^2 = (4.00)^2 + 2(-9.80)(-1.80 - 0) $$
 </div>
@@ -870,6 +883,7 @@ $$ v = \pm \sqrt{51.28} = \pm 7.16 \ms $$
 </div>
 
 Taking the negative root (downward motion):
+
 <div class="equation">
 $$ v = -7.16 \ms $$
 </div>
@@ -1012,6 +1026,7 @@ $$ 1.80 = 2.20 + 11.0t - 4.90t^2 $$
 </div>
 
 Rearranging:
+
 <div class="equation">
 $$ 1.80 - 2.20 = 11.0t - 4.90t^2 $$
 </div>
@@ -1021,6 +1036,7 @@ $$ -0.40 = 11.0t - 4.90t^2 $$
 </div>
 
 Rearranging into standard quadratic form:
+
 <div class="equation">
 $$ 4.90t^2 - 11.0t - 0.40 = 0 $$
 </div>
@@ -1035,6 +1051,7 @@ $$ t = \frac{11.0 \pm \sqrt{128.84}}{9.80} = \frac{11.0 \pm 11.35}{9.80} $$
 </div>
 
 This gives two solutions:
+
 <div class="equation">
 $$ t_1 = \frac{11.0 - 11.35}{9.80} = \frac{-0.35}{9.80} = -0.036 \s $$ (not physical)
 </div>
@@ -1299,6 +1316,7 @@ A ball is thrown straight up. It passes a 2.00-m-high window 7.50 m off the grou
 **Strategy**
 
 Take upward as positive. We'll solve this in two steps as suggested by the hint:
+
 1. First, analyze the motion through the window to find the velocity at the bottom of the window
 2. Then, analyze the motion from ground to the bottom of the window to find the initial velocity
 
@@ -1318,7 +1336,7 @@ The window is 2.00 m high and the ball takes 0.312 s to pass through it.
 $$ \Delta y = v_{bottom} t + \frac{1}{2}at^2 $$
 </div>
 
-3. Substitute and solve for $$ v_{bottom} $$:
+3. Substitute and solve for $$ v\_{bottom} $$:
 <div class="equation">
 $$ 2.00 = v_{bottom}(0.312) + \frac{1}{2}(-9.80)(0.312)^2 $$
 </div>
@@ -1420,7 +1438,8 @@ $$ y = \frac{1}{2}(9.80)(4.0000) = 19.6 \m $$
 
 **(b) Accounting for sound travel time:**
 
-The total time is the sum of the fall time $$ t_{\text{fall}} $$ and the sound travel time $$ t_{\text{sound}} $$:
+The total time is the sum of the fall time $$ t*{\text{fall}} $$ and the sound travel time $$ t*{\text{sound}} $$:
+
 <div class="equation">
 $$ t_{\text{total}} = t_{\text{fall}} + t_{\text{sound}} = 2.0000 \s $$
 </div>
@@ -1444,7 +1463,7 @@ $$ t_{\text{sound}} = \frac{d}{v_{\text{sound}}} = \frac{d}{332.00} $$
 $$ t_{\text{fall}} + \frac{d}{332.00} = 2.0000 $$
 </div>
 
-4. But $$ d = \frac{1}{2}gt_{\text{fall}}^2 = 4.90 t_{\text{fall}}^2 $$, so:
+4. But $$ d = \frac{1}{2}gt*{\text{fall}}^2 = 4.90 t*{\text{fall}}^2 $$, so:
 <div class="equation">
 $$ t_{\text{fall}} + \frac{4.90 t_{\text{fall}}^2}{332.00} = 2.0000 $$
 </div>
@@ -1471,6 +1490,7 @@ $$ t_{\text{fall}} = \frac{-1 \pm 1.0574}{0.02952} $$
 </div>
 
 Taking the positive root:
+
 <div class="equation">
 $$ t_{\text{fall}} = \frac{0.0574}{0.02952} = 1.944 \s $$
 </div>
@@ -1482,7 +1502,7 @@ $$ d = 4.90 \times (1.944)^2 = 4.90 \times 3.779 = 18.5 \m $$
 
 **Discussion**
 
-When we account for the time it takes sound to travel up the well, the calculated depth is less than when we ignore it. This makes sense: if the total time is 2.0000 s and some of that time is used for sound to travel up, less time is available for the rock to fall, so it doesn't fall as far. The sound travel time is $$ t_{\text{sound}} = 2.0000 - 1.944 = 0.056 \s $$, which is about 2.8% of the total time. The difference in calculated depth is about 1.1 m, or about 6% - relatively small but not negligible for precision measurements. This problem illustrates that for accurate measurements, we must consider all relevant physical processes, not just the primary one.
+When we account for the time it takes sound to travel up the well, the calculated depth is less than when we ignore it. This makes sense: if the total time is 2.0000 s and some of that time is used for sound to travel up, less time is available for the rock to fall, so it doesn't fall as far. The sound travel time is $$ t\_{\text{sound}} = 2.0000 - 1.944 = 0.056 \s $$, which is about 2.8% of the total time. The difference in calculated depth is about 1.1 m, or about 6% - relatively small but not negligible for precision measurements. This problem illustrates that for accurate measurements, we must consider all relevant physical processes, not just the primary one.
 
 **Answer**
 
@@ -1538,6 +1558,7 @@ $$ v = \pm \sqrt{29.4} = \pm 5.42 \ms $$
 </div>
 
 Taking the negative root (downward motion):
+
 <div class="equation">
 $$ v = -5.42 \ms $$
 </div>
@@ -1608,11 +1629,13 @@ $$ \Delta y = \frac{-0.09}{2} \times (8.00 \times 10^{-5}) = -3.6 \times 10^{-6}
 </div>
 
 The magnitude of compression is:
+
 <div class="equation">
 $$ |\Delta y| = 3.6 \times 10^{-6} \m = 3.6 \text{ μm} $$
 </div>
 
 Alternatively, using $$ y = y_0 + v_0 t + \frac{1}{2}at^2 $$:
+
 <div class="equation">
 $$ \Delta y = (-5.42)(8.00 \times 10^{-5}) + \frac{1}{2}(1.34 \times 10^{5})(8.00 \times 10^{-5})^2 $$
 </div>
@@ -1758,6 +1781,7 @@ $$ t = \frac{10.0 \pm 77.33}{9.80} $$
 </div>
 
 Taking the positive root:
+
 <div class="equation">
 $$ t = \frac{10.0 + 77.33}{9.80} = \frac{87.33}{9.80} = 8.91 \s $$
 </div>
@@ -1822,6 +1846,7 @@ $$ v = \pm \sqrt{29.4} = \pm 5.42 \ms $$
 </div>
 
 Taking the negative root (downward motion):
+
 <div class="equation">
 $$ v = -5.42 \ms $$
 </div>
@@ -1896,11 +1921,13 @@ $$ \Delta y = -1.90 \times 10^{-2} + 1.76 \times 10^{-2} = -1.4 \times 10^{-3} \
 </div>
 
 The magnitude of compression is:
+
 <div class="equation">
 $$ |\Delta y| = 1.4 \times 10^{-3} \m = 1.4 \text{ mm} $$
 </div>
 
 Alternatively, using average velocity:
+
 <div class="equation">
 $$ \Delta y = \frac{v_0 + v}{2}t = \frac{-5.42 + 4.64}{2} \times (3.50 \times 10^{-3}) $$
 </div>
