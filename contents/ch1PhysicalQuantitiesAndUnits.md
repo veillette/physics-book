@@ -10,7 +10,7 @@ chapterNumber: 1
 * Explain the most common prefixes in the SI units and be able to write them in scientific notation.
 </div>
 
-![A view of Earth from the Moon.](../resources/Figure_01_02_02.jpg "The distance from Earth to the Moon may seem immense, but it is just a tiny fraction of the distances from Earth to other celestial bodies. (credit: NASA)")
+![A view of Earth from the Moon.](../resources/Figure_01_02_02.jpg 'The distance from Earth to the Moon may seem immense, but it is just a tiny fraction of the distances from Earth to other celestial bodies. (credit: NASA)')
 {: #Figure1}
 
 The range of objects and phenomena studied in physics is immense. From the
@@ -28,7 +28,7 @@ expressed as combinations of only four fundamental physical quantities: length,
 mass, time, and electric current.
 
 We define a **physical quantity**
-either by *specifying how it is measured*
+either by _specifying how it is measured_
 or by **stating how it is calculated** from other measurements. For example, we
 define distance and time by specifying methods for measuring them, whereas we
 define **average speed** by stating that it is calculated as distance traveled
@@ -41,7 +41,7 @@ distance runners). Without standardized units, it would be extremely difficult
 for scientists to express and compare measured values in a meaningful way. (
 See [Figure 2](#Figure2).)
 
-![A boy looking at a map and trying to guess distances with unit of length mentioned as cables between two points.](../resources/Figure_01_02_01.jpg "Distances given in unknown units are maddeningly useless.")
+![A boy looking at a map and trying to guess distances with unit of length mentioned as cables between two points.](../resources/Figure_01_02_01.jpg 'Distances given in unknown units are maddeningly useless.')
 {: #Figure2 height="225"}
 
 There are two major systems of units used in the world: **SI units**
@@ -52,7 +52,7 @@ were historically used in nations once ruled by the British Empire and are still
 widely used in the United States. Virtually every other country in the world now
 uses SI units as the standard; the metric system is also the standard system
 agreed upon by scientists and mathematicians. The acronym “SI” is derived from
-the French *Système International*.
+the French _Système International_.
 
 ### SI Units: Fundamental and Derived Units
 
@@ -65,7 +65,7 @@ units through conversions.
 ##### Table 1: Fundamental SI Units
 
 | Length    | Mass          | Time       | Electric Current |
-|-----------|---------------|------------|------------------|
+| --------- | ------------- | ---------- | ---------------- |
 | meter (m) | kilogram (kg) | second (s) | ampere (A)       |
 
 {: #Table1}
@@ -98,7 +98,7 @@ essential, because all measurements are ultimately expressed in terms of
 fundamental units and can be no more accurate than are the fundamental units
 themselves.
 
-![A top view of an atomic fountain is shown. It measures time using the vibration of the cesium atom.](../resources/Figure_01_02_03.jpg "An atomic clock such as this one uses the vibrations of cesium atoms to keep time to a precision of better than a microsecond per year. The fundamental unit of time, the second, is based on such clocks. This image is looking down from the top of an atomic fountain nearly 30 feet tall! (credit: Steve Jurvetson/Flickr)")
+![A top view of an atomic fountain is shown. It measures time using the vibration of the cesium atom.](../resources/Figure_01_02_03.jpg 'An atomic clock such as this one uses the vibrations of cesium atoms to keep time to a precision of better than a microsecond per year. The fundamental unit of time, the second, is based on such clocks. This image is looking down from the top of an atomic fountain nearly 30 feet tall! (credit: Steve Jurvetson/Flickr)')
 {: #Figure3 height="225"}
 
 #### The Meter
@@ -133,7 +133,7 @@ community adopted a more stable definition of the kilogram. The kilogram is now
 defined in terms of the second, the meter, and Planck's constant, $$h $$ (a
 quantum mechanical value that relates a photon's energy to its frequency).
 
-![Beam of light from a flashlight is represented by an arrow pointing right, traveling the length of a meter stick.](../resources/Figure_01_02_04.jpg "The meter is defined to be the distance light travels in 1/299 792 458 of a second in a vacuum. Distance traveled is speed multiplied by time.")
+![Beam of light from a flashlight is represented by an arrow pointing right, traveling the length of a meter stick.](../resources/Figure_01_02_04.jpg 'The meter is defined to be the distance light travels in 1/299 792 458 of a second in a vacuum. Distance traveled is speed multiplied by time.')
 {: #Figure4}
 
 Electric current and its accompanying unit, the ampere, will be introduced in
@@ -169,10 +169,11 @@ magnitude. All quantities that can be expressed as a product of a specific power
 of $$ 10 $$ are said to be of the **same** order of magnitude. For example, the
 number $$ 800 $$ can be written as $$ 8\times 10^{2} $$, and the number $$ 450
 $$ can be written as $$ 4.5\times 10^{2} $$. Thus, the numbers $$ 800 $$ and $$
-450 $$ are of the same order of magnitude:  $$ 10^{2} $$. Order of magnitude can
+450 $$ are of the same order of magnitude: $$ 10^{2} $$. Order of magnitude can
 be thought of as a ballpark estimate for the scale of a value. The diameter of
 an atom is on the order of $$ 10^{-9}\m $$, while the diameter of the Sun is on
 the order of $$ 10^{9}\m $$.
+
 <div class="note" data-label="" markdown="1">
 <div class="title">
 The Quest for Microscopic Standards for Basic Units
@@ -198,7 +199,7 @@ are related to large-scale currents and forces between wires.
 ##### Table 2: Metric Prefixes for Powers of 10 and their Symbols
 
 | Prefix | Symbol | Value         | Example    |     |                 | Example (some are approximate)      |
-|--------|--------|---------------|------------|-----|-----------------|-------------------------------------|
+| ------ | ------ | ------------- | ---------- | --- | --------------- | ----------------------------------- |
 | exa    | E      | $$10^{18} $$  | exameter   | Em  | $$10^{18} $$ m  | distance light travels in a century |
 | peta   | P      | $$10^{15} $$  | petasecond | Ps  | $$10^{15} $$ s  | 30 million years                    |
 | tera   | T      | $$10^{12} $$  | terawatt   | TW  | $$10^{12} $$ W  | powerful laser output               |
@@ -207,7 +208,7 @@ are related to large-scale currents and forces between wires.
 | kilo   | k      | $$10^{3} $$   | kilometer  | km  | $$10^{3} $$ m   | about 6/10 mile                     |
 | hecto  | h      | $$10^{2} $$   | hectoliter | hL  | $$10^{2} $$ L   | 26 gallons                          |
 | deka   | da     | $$10^{1} $$   | dekagram   | dag | $$10^{1} $$ g   | teaspoon of butter                  |
-| —      | -      | $$10^{0} $$   | (=1)       |     |                 |                                     |	
+| —      | -      | $$10^{0} $$   | (=1)       |     |                 |                                     |
 | deci   | d      | $$10^{-1} $$  | deciliter  | dL  | $$10^{-1} $$ L  | less than half a soda               |
 | centi  | c      | $$10^{-2} $$  | centimeter | cm  | $$10^{-2} $$ m  | fingertip thickness                 |
 | milli  | m      | $$10^{-3} $$  | millimeter | mm  | $$10^{-3} $$ m  | flea at its shoulders               |
@@ -227,10 +228,10 @@ in [Table 3](#Table3). Examination of this table will give you some feeling for
 the range of possible topics and numerical values. (
 See [Figure 5](#Figure5) and [Figure 6](#Figure6).)
 
-![A magnified image of tiny phytoplankton swimming among the crystal of ice.\[](../resources/Figure_01_02_05.jpg "Tiny phytoplankton swims among crystals of ice in the Antarctic Sea. They range from a few micrometers to as much as 2 millimeters in length. (credit: Prof. Gordon T. Taylor, Stony Brook University; NOAA Corps Collections)")
+![A magnified image of tiny phytoplankton swimming among the crystal of ice.[](../resources/Figure_01_02_05.jpg 'Tiny phytoplankton swims among crystals of ice in the Antarctic Sea. They range from a few micrometers to as much as 2 millimeters in length. (credit: Prof. Gordon T. Taylor, Stony Brook University; NOAA Corps Collections)')
 {: #Figure5}
 
-![A view of Abell Galaxy with some bright stars and some hot gases.](../resources/Figure_01_02_06.jpg "Galaxies collide 2.4 billion light years away from Earth. The tremendous range of observable phenomena in nature challenges the imagination. (credit: NASA/CXC/UVic./A. Mahdavi et al. Optical/lensing: CFHT/UVic./H. Hoekstra et al.)")
+![A view of Abell Galaxy with some bright stars and some hot gases.](../resources/Figure_01_02_06.jpg 'Galaxies collide 2.4 billion light years away from Earth. The tremendous range of observable phenomena in nature challenges the imagination. (credit: NASA/CXC/UVic./A. Mahdavi et al. Optical/lensing: CFHT/UVic./H. Hoekstra et al.)')
 {: #Figure6 height="250"}
 
 ### Unit Conversion and Dimensional Analysis
@@ -273,7 +274,7 @@ conversion factors.
 ##### Table 3: Approximate Values of Length, Mass, and Time
 
 |                | Lengths in meters                                               |                | Masses in kilograms (more precise values in parentheses) |                | Times in seconds (more precise values in parentheses) |
-|----------------|-----------------------------------------------------------------|----------------|----------------------------------------------------------|----------------|-------------------------------------------------------|
+| -------------- | --------------------------------------------------------------- | -------------- | -------------------------------------------------------- | -------------- | ----------------------------------------------------- |
 | $$ 10^{-18} $$ | Present experimental limit to smallest observable detail        | $$ 10^{-30} $$ | Mass of an electron ( $$ 9.11\times 10^{-31} $$ kg)      | $$ 10^{-23} $$ | Time for light to cross a proton                      |
 | $$ 10^{-15} $$ | Diameter of a proton                                            | $$ 10^{-27} $$ | Mass of a hydrogen atom ( $$1.67\times 10^{-27} $$ kg)   | $$ 10^{-22} $$ | Mean life of an extremely unstable nucleus            |
 | $$ 10^{-14} $$ | Diameter of a uranium nucleus                                   | $$ 10^{-15} $$ | Mass of a bacterium                                      | $$ 10^{-15} $$ | Time for one oscillation of visible light             |
@@ -281,7 +282,7 @@ conversion factors.
 | $$ 10^{-8} $$  | Thickness of membranes in cells of living organisms             | $$ 10^{-2} $$  | Mass of a hummingbird                                    | $$ 10^{-8} $$  | Time for one oscillation of an FM radio wave          |
 | $$ 10^{-6} $$  | Wavelength of visible light                                     | 1              | Mass of a liter of water (about a quart)                 | $$ 10^{-3} $$  | Duration of a nerve impulse                           |
 | $$ 10^{-3} $$  | Size of a grain of sand                                         | $$ 10^{2} $$   | Mass of a person                                         | 1              | Time for one heartbeat                                |
-| 1              | Height of a 4-year-old child                                    | $$ 10^{3} $$   | Mass of a car                                            | $$ 10^{5} $$   | One day (  $$8.64 \times 10^{4} $$s)                  |
+| 1              | Height of a 4-year-old child                                    | $$ 10^{3} $$   | Mass of a car                                            | $$ 10^{5} $$   | One day ( $$8.64 \times 10^{4} $$s)                   |
 | $$ 10^{2} $$   | Length of a football field                                      | $$ 10^{8} $$   | Mass of a large ship                                     | $$ 10^{7} $$   | One year (y) ( $$3.16 \times 10^{7} $$s)              |
 | $$ 10^{4} $$   | Greatest ocean depth                                            | $$ 10^{12} $$  | Mass of a large iceberg                                  | $$ 10^{9} $$   | About half the life expectancy of a human             |
 | $$ 10^{7} $$   | Diameter of the Earth                                           | $$ 10^{15} $$  | Mass of the nucleus of a comet                           | $$ 10^{11} $$  | Recorded history                                      |
@@ -356,7 +357,7 @@ problem has three significant figures, the answer should also have three
 significant figures. The answer 30.0 km/hr does indeed have three significant
 figures, so this is appropriate. Note that the significant figures in the
 conversion factor are not relevant because an hour is
-*defined* to be 60 minutes, so the precision of the conversion factor is
+_defined_ to be 60 minutes, so the precision of the conversion factor is
 perfect.
 
 (4) Next, check whether the answer is reasonable. Let us consider some
@@ -444,20 +445,20 @@ milliliter is dependent on the measure of a centimeter.
 
 ### Summary
 
-* Physical quantities are a characteristic or property of an object that can be
+- Physical quantities are a characteristic or property of an object that can be
   measured or calculated from other measurements.
-* Units are standards for expressing and comparing the measurement of physical
+- Units are standards for expressing and comparing the measurement of physical
   quantities. All units can be expressed as combinations of four fundamental
   units.
-* The four fundamental units we will use in this text are the meter (for length)
+- The four fundamental units we will use in this text are the meter (for length)
   , the kilogram (for mass), the second (for time), and the ampere (for electric
   current). These units are part of the metric system, which uses powers of 10
   to relate quantities over the vast ranges encountered in nature.
-* The four fundamental units are abbreviated as follows: meter, m; kilogram, kg;
+- The four fundamental units are abbreviated as follows: meter, m; kilogram, kg;
   second, s; and ampere, A. The metric system also uses a standard set of
   prefixes to denote each order of magnitude greater than or lesser than the
   fundamental unit itself.
-* Unit conversions involve changing a value expressed in one type of unit to
+- Unit conversions involve changing a value expressed in one type of unit to
   another type of unit. This is done by using conversion factors, which are
   ratios relating equal quantities of different units.
 
@@ -501,6 +502,7 @@ $$ 100 \frac{\text{km}}{\text{h}} \times \frac{0.6214 \text{ mi}}{1 \text{km}} =
 (a) $$ 27.8 \ms $$
 
 (b) $$ 62.1 \text{mph} $$
+
 </div>
 </div>
 
@@ -676,6 +678,7 @@ $$ 29028 \text{ ft} \times \frac{1 \text{ km}}{3281 \text{ ft}} = 8.847 \text{ k
 </div>
 
 $$ 8.847 \text{km} $$
+
 </div>
 </div>
 
@@ -727,6 +730,7 @@ Convert the speed of 4.0 cm/year to the requested units using appropriate conver
 **(a) Distance moved in 1 second:**
 
 First convert 4.0 cm/year to meters per second:
+
 <div class="equation">
 $$ 4.0 \frac{\text{cm}}{\text{year}} \times \frac{1 \m}{100 \text{ cm}} \times \frac{1 \text{ year}}{365 \text{ days}} \times \frac{1 \text{ day}}{24 \text{ h}} \times \frac{1 \text{ h}}{3600 \s} $$
 </div>
@@ -750,6 +754,7 @@ $$ = \frac{4.0 \times 10^{6}}{100 \times 1000} \frac{\text{km}}{\text{My}} = 40 
 (a) $$ 1.3\times 10^{-9}\m $$
 
 (b) $$ 40 \text{km/My} $$
+
 </div>
 </div>
 
@@ -784,6 +789,7 @@ $$ v = \frac{C}{t} = \frac{9.42 \times 10^{11} \m}{3.16 \times 10^{7} \s} = 2.98
 </div>
 
 Convert to km/s:
+
 <div class="equation">
 $$ v = 2.98 \times 10^{4} \frac{\m}{\s} \times \frac{1 \text{ km}}{1000 \m} = 29.8 \text{ km/s} \approx 30 \text{ km/s} $$
 </div>

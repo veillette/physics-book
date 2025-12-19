@@ -24,14 +24,14 @@ cells and the incredibly greater number of connections between them makes this
 system the subtle wonder that it is. **Nerve conduction** is a general term for
 electrical signals carried by nerve cells. It is one aspect of **bioelectricity**, or electrical effects in and created by biological systems.
 
-Nerve cells, properly called *neurons*, look different from other cells—they
+Nerve cells, properly called _neurons_, look different from other cells—they
 have tendrils, some of them many centimeters long, connecting them with other
 cells. (See [[Figure 1]](#Figure1).) Signals arrive at the cell body across **synapses** or through **dendrites**, stimulating the neuron to generate its own
 signal, sent along its long **axon** to other nerve or muscle cells. Signals may
 arrive from many other locations and be transmitted to yet others, conditioning
 the synapses by use, giving the system its complexity and its ability to learn.
 
-![The figure describes a neuron. The neuron has a cell body with a nucleus at the center represented by a circle. The cell body is surrounded by many thin, branching projections called dendrites, represented by ribbon-like structures. The ends of some of these dendrites are shown connected to the ends of dendrites from another neuron at junctions called synapses. The cell body of the neuron also has a long projection called an axon, represented as a vertical tube reaching downward and ending with thin projections inside a muscle fiber, represented by a tubular structure. The ends of the axon are called nerve endings. The axon is covered with myelin sheaths, each of which is one millimeter in length. The myelin sheaths are separated by gaps, called nodes of Ranvier, each of length zero point zero zero one millimeter.](../resources/Figure_20_07_01.jpg "A neuron with its dendrites and long axon. Signals in the form of electric currents reach the cell body through dendrites and across synapses, stimulating the neuron to generate its own signal sent down the axon. The number of interconnections can be far greater than shown here.")
+![The figure describes a neuron. The neuron has a cell body with a nucleus at the center represented by a circle. The cell body is surrounded by many thin, branching projections called dendrites, represented by ribbon-like structures. The ends of some of these dendrites are shown connected to the ends of dendrites from another neuron at junctions called synapses. The cell body of the neuron also has a long projection called an axon, represented as a vertical tube reaching downward and ending with thin projections inside a muscle fiber, represented by a tubular structure. The ends of the axon are called nerve endings. The axon is covered with myelin sheaths, each of which is one millimeter in length. The myelin sheaths are separated by gaps, called nodes of Ranvier, each of length zero point zero zero one millimeter.](../resources/Figure_20_07_01.jpg 'A neuron with its dendrites and long axon. Signals in the form of electric currents reach the cell body through dendrites and across synapses, stimulating the neuron to generate its own signal sent down the axon. The number of interconnections can be far greater than shown here.')
 {: #Figure1}
 
 The method by which these electric currents are generated and transmitted is
@@ -52,7 +52,9 @@ concentration. But the cell membrane is **semipermeable**, meaning that some
 ions may cross it while others cannot. In its resting state, the cell membrane
 is permeable to $${\text{K}}^{+} $$ and $${\text{Cl}}^{-} $$ , and impermeable
 to $${\text{Na}}^{+} $$ . Diffusion of $${\text{K}}^{+} $$ and $${\text{Cl}}^{-}
-$$ thus creates the layers of positive and negative charge on the outside and
+
+$$
+thus creates the layers of positive and negative charge on the outside and
 inside of the membrane. The Coulomb force prevents the ions from diffusing
 across in their entirety. Once the charge layer has built up, the repulsion of
 like charges prevents more from moving across, and the attraction of unlike
@@ -334,3 +336,4 @@ electrocardiogram (ECG)
 repolarization, especially in the heart
 
 </div>
+$$

@@ -10,9 +10,8 @@ chapterNumber: 28
 * Explain why the only mass it makes sense to talk about is rest mass.
 </div>
 
-![Action photo from a college football game.](../resources/Figure_28_05_01.jpg "Momentum is an important concept for these football players from the University of California at Berkeley and the University of California at Davis. Players with more mass often have a larger impact because their momentum is larger. For objects moving at relativistic speeds, the effect is even greater. (credit: John Martinez Pavliga)")
+![Action photo from a college football game.](../resources/Figure_28_05_01.jpg 'Momentum is an important concept for these football players from the University of California at Berkeley and the University of California at Davis. Players with more mass often have a larger impact because their momentum is larger. For objects moving at relativistic speeds, the effect is even greater. (credit: John Martinez Pavliga)')
 {: #Figure1}
-
 
 In classical physics, momentum is a simple product of mass and velocity.
 However, we saw in the last section that when special relativity is taken into
@@ -66,7 +65,9 @@ very nearly equal to 1 at low velocities.
 Relativistic momentum has the same intuitive feel as classical momentum. It is
 greatest for large masses moving at high velocities, but, because of the factor
 $$\gamma $$ , relativistic momentum approaches infinity as $$u $$ approaches $$c
-$$ .
+
+$$
+.
 (See [[Figure 2]](#Figure2).) This is another indication that an object with
 mass cannot reach the speed of light. If it did, its momentum would become
 infinite, an unreasonable value.
@@ -238,7 +239,8 @@ relativistic momentum
 :  $$p $$ , the momentum of an object moving at relativistic velocity;
 $$p=\text{γmu} $$ , where $$m $$ is the rest mass of the object, $$u $$ is its
 velocity relative to an observer, and the relativistic factor $$\gamma
-=\frac{1}{\sqrt{1-\frac{ {u}^{2}}{ {c}^{2}}}} $$
+=\frac{1}{\sqrt{1-\frac{ {u}^{2}}{ {c}^{2}}}}
+$$
 
 rest mass
 : the mass of an object as measured by a person at rest relative to the object

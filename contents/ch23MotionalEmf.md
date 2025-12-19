@@ -31,10 +31,10 @@ and are connected to a stationary resistor $$R $$ . The resistor could be
 anything from a light bulb to a voltmeter. Consider the area enclosed by the
 moving rod, rails, and resistor. $$B $$ is perpendicular to this area, and the
 area is increasing as the rod moves. Thus the magnetic flux enclosed by the
-rails, rod, and resistor is increasing. When flux changes, an *emf* is induced
+rails, rod, and resistor is increasing. When flux changes, an _emf_ is induced
 according to Faraday’s law of induction.
 
-![Part a of the figure shows two parallel rails held horizontal at distance l apart in a uniform magnetic field B in, directed toward the plane of the paper. A resistance R is connected at one of its ends. A rod is kept vertical at the middle on the rails and moved toward the right for a distance delta x with a velocity v. the velocity v is given by delta x divided by delta t. The rectangular area enclosed between the initial position of the rod and the final position after a movement of delta x is given as delta A equals l multiplied by delta x. There is a current induced, I in the upper rail toward left. The upper end of the rod is shown positive and the lower end negative. Part b of the diagram shows the same arrangement as in part a. Two parallel rails held horizontal at distance l apart in a uniform magnetic field B in, directed toward the plane of the paper. A resistance is connected at one of its ends. A rod is kept vertical at the middle on the rails and moved toward the right a distance delta x with a velocity v. Lenz&#x2019;s law is applied and the direction of induced field and current is shown. There is a current induced I in the upper rail toward left. The upper end of the rod is shown positive and the lower end negative. The induced field B ind is shown in the area enclosed between the resistance R, the rod and the rails. The induced field is opposite to the applied field. The induced field points away from the paper. The flux phi is shown increasing in the enclosed area. A picture of the right hand with its fingers and thumb stretched is shown toward the right of the image to explain the right hand rule. An equivalent circuit of the above figure is shown to be equivalent to a cell of e m f connected across a resistance R.](../resources/Figure_23_03_01.jpg "(a) A motional \( \text{emf} =Blv \) is induced between the rails when this rod moves to the right in the uniform magnetic field. The magnetic field \( B \) is into the page, perpendicular to the moving rod and rails and, hence, to the area enclosed by them. (b) Lenz&#x2019;s law gives the directions of the induced field and current, and the polarity of the induced emf. Since the flux is increasing, the induced field is in the opposite direction, or out of the page. RHR-2 gives the current direction shown, and the polarity of the rod will drive such a current. RHR-1 also indicates the same polarity for the rod.  (Note that the script E symbol used in the equivalent circuit at the bottom of part (b) represents emf.)  ")
+![Part a of the figure shows two parallel rails held horizontal at distance l apart in a uniform magnetic field B in, directed toward the plane of the paper. A resistance R is connected at one of its ends. A rod is kept vertical at the middle on the rails and moved toward the right for a distance delta x with a velocity v. the velocity v is given by delta x divided by delta t. The rectangular area enclosed between the initial position of the rod and the final position after a movement of delta x is given as delta A equals l multiplied by delta x. There is a current induced, I in the upper rail toward left. The upper end of the rod is shown positive and the lower end negative. Part b of the diagram shows the same arrangement as in part a. Two parallel rails held horizontal at distance l apart in a uniform magnetic field B in, directed toward the plane of the paper. A resistance is connected at one of its ends. A rod is kept vertical at the middle on the rails and moved toward the right a distance delta x with a velocity v. Lenz’s law is applied and the direction of induced field and current is shown. There is a current induced I in the upper rail toward left. The upper end of the rod is shown positive and the lower end negative. The induced field B ind is shown in the area enclosed between the resistance R, the rod and the rails. The induced field is opposite to the applied field. The induced field points away from the paper. The flux phi is shown increasing in the enclosed area. A picture of the right hand with its fingers and thumb stretched is shown toward the right of the image to explain the right hand rule. An equivalent circuit of the above figure is shown to be equivalent to a cell of e m f connected across a resistance R.](../resources/Figure_23_03_01.jpg '(a) A motional ( \\text{emf} =Blv ) is induced between the rails when this rod moves to the right in the uniform magnetic field. The magnetic field ( B ) is into the page, perpendicular to the moving rod and rails and, hence, to the area enclosed by them. (b) Lenz’s law gives the directions of the induced field and current, and the polarity of the induced emf. Since the flux is increasing, the induced field is in the opposite direction, or out of the page. RHR-2 gives the current direction shown, and the polarity of the rod will drive such a current. RHR-1 also indicates the same polarity for the rod.  (Note that the script E symbol used in the equivalent circuit at the bottom of part (b) represents emf.)  ')
 {: #Figure1}
 
 To find the magnitude of emf induced along the moving rod, we use Faraday’s law
@@ -56,7 +56,7 @@ quantities into the expression for **emf** yields
 </div>
 
 Finally, note that $$\Delta x/\Delta t=v $$ ,
-** the velocity of the rod. Entering this into the last expression shows that
+\*\* the velocity of the rod. Entering this into the last expression shows that
 
 <div class="equation" >
  $$\text{emf}=B\ell v \left( B, \mathrm{\ell , and} v \text{perpendicular} \right) $$
@@ -78,7 +78,7 @@ the polarity of the induced emf, we apply Lenz’s law as explained
 in [Faraday\'s Law of Induction: Lenz\'s Law](../contents/ch23FaradaysLawOfInduction). (
 See [[Figure 1]](#Figure1)(b).) Flux is increasing, since the area enclosed is
 increasing. Thus the induced field must oppose the existing one and be out of
-the page. And so the RHR-2 requires that *I* be counterclockwise, which in turn
+the page. And so the RHR-2 requires that _I_ be counterclockwise, which in turn
 means the top of the rod is positive as shown.
 
 Motional emf also occurs if the magnetic field moves and the rod (or other
@@ -95,7 +95,9 @@ Motional emfs in the Earth’s weak magnetic field are not ordinarily very large
 or we would notice voltage along metal rods, such as a screwdriver, during
 ordinary motions. For example, a simple calculation of the motional emf of a 1 m
 rod moving at 3.0 m/s perpendicular to the Earth’s field gives
-$$\text{emf}=B\ell v=\left( 5.0 \times 10^{-5} \text{T}\right)\left( 1.0
+
+$$
+\text{emf}=B\ell v=\left( 5.0 \times 10^{-5} \text{T}\right)\left( 1.0
 m\right)\left( 3.0 m/s\right)=150 \text{μV} $$ . This small value is consistent
 with experience. There is a spectacular exception, however. In 1992 and 1996,
 attempts were made with the space shuttle to create large motional emfs. The
@@ -324,3 +326,4 @@ would spiral slightly inward.
 
 </div>
 </div>
+$$

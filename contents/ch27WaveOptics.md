@@ -5,8 +5,8 @@ sectionNumber: 0
 chapterNumber: 27
 ---
 
-![Katherine Burr Blodgett using equipment](../resources/Figure_27_00_01.jpg "Katherine Burr Blodgett was a physicist
-and chemist who made significant advancements in the study of surfaces and thin films. Her invention of non-reflective glass has had massive impact in cinema, medical, and scientific research arenas.")
+![Katherine Burr Blodgett using equipment](../resources/Figure_27_00_01.jpg 'Katherine Burr Blodgett was a physicist
+and chemist who made significant advancements in the study of surfaces and thin films. Her invention of non-reflective glass has had massive impact in cinema, medical, and scientific research arenas.')
 {: #Figure1}
 
 Examine a compact disc under white light, noting the colors observed and
@@ -18,7 +18,7 @@ halogen light, and fluorescent light. Knowing the spacing of the rows of pits in
 the compact disc, estimate the maximum spacing that will allow the given number
 of megabytes of information to be stored.
 
-![Photograph of the reflective side of a C D. Regions of the disc reflect a rainbow of colors.](../resources/Figure_27_00_02.jpg "The colors reflected by this compact disc vary with angle and are not caused by pigments. Colors such as these are direct evidence of the wave character of light. (credit: Infopro, Wikimedia Commons)")
+![Photograph of the reflective side of a C D. Regions of the disc reflect a rainbow of colors.](../resources/Figure_27_00_02.jpg 'The colors reflected by this compact disc vary with angle and are not caused by pigments. Colors such as these are direct evidence of the wave character of light. (credit: Infopro, Wikimedia Commons)')
 {: #Figure2}
 
 If you have ever looked at the reds, blues, and greens in a sunlit soap bubble
@@ -34,5 +34,5 @@ it exhibits wave characteristics (particularly when it interacts with small
 objects) is called wave optics (sometimes called physical optics). It is the
 topic of this chapter.
 
-![Soap bubbles reflecting mostly purple and blue light with some regions of orange.](../resources/Figure_27_00_03.jpg "These soap bubbles exhibit brilliant colors when exposed to sunlight. How are the colors produced if they are not pigments in the soap? (credit: Scott Robinson, Flickr)")
+![Soap bubbles reflecting mostly purple and blue light with some regions of orange.](../resources/Figure_27_00_03.jpg 'These soap bubbles exhibit brilliant colors when exposed to sunlight. How are the colors produced if they are not pigments in the soap? (credit: Scott Robinson, Flickr)')
 {: #Figure3}

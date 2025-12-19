@@ -23,7 +23,7 @@ same as the direction of centripetal acceleration. According to Newton’s secon
 law of motion, net force is mass times acceleration:
 $$ \vb{F}_\text{net} =m \vb{a} $$. For uniform circular motion, the acceleration
 is the centripetal acceleration— $$\vb{a}=\vb{a}_\text{c}$$. Thus, the magnitude
-of centripetal force $$\mag{F_\text{c} } $$ is
+of centripetal force $$\mag{F\_\text{c} } $$ is
 
 <div class="equation">
 $$ \mag{F_\text{c}} = m \mag{ \ac }. $$
@@ -31,7 +31,7 @@ $$ \mag{F_\text{c}} = m \mag{ \ac }. $$
 
 By using the expressions for the magnitude of the centripetal acceleration $$
 \mag{ \ac } $$ from $$ \ac=\frac{v^{2}}{r}; \ac =r \omega^{2}$$, we get two
-expressions for the magnitude of the centripetal force $$ \mag{F_\text{c} } $$
+expressions for the magnitude of the centripetal force $$ \mag{F\_\text{c} } $$
 in terms of mass, velocity, angular velocity, and radius of curvature:
 
 <div class="equation">
@@ -44,6 +44,7 @@ and pointing to the center of curvature, because $$ \vb{a}_{\text{c}} $$ is
 perpendicular to the velocity and pointing to the center of curvature.
 
 Note that if you solve the first expression for $$ r $$, you get
+
 <div class="equation">
 $$ r=\frac{ mv^{2}}{ F_\text{c}}. $$
 </div>
@@ -51,7 +52,7 @@ $$ r=\frac{ mv^{2}}{ F_\text{c}}. $$
 This implies that for a given mass and velocity, a large centripetal force
 causes a small radius of curvature—that is, a tight curve.
 
-![The given figure consists of two semicircles, one over the other. The top semicircle is bigger and the one below is smaller. In both the figures, the direction of the path is given along the semicircle in the counter-clockwise direction. A point is shown on the path, where the radius from the circle, r, is shown with an arrow from the center of the circle. At the same point, the centripetal force is shown in the opposite direction to that of radius arrow. The velocity, v, is shown along this point in the left upward direction and is perpendicular to the force. In both the figures, the velocity is same, but the radius is smaller and centripetal force is larger in the lower figure.](../resources/Figure_06_03_01.jpg "The frictional force supplies the centripetal force and is numerically equal to it. Centripetal force is perpendicular to velocity and causes uniform circular motion. The larger the \( F_c \) , the smaller the radius of curvature \( r \) and the sharper the curve. The second curve has the same \( v \) , but a larger \( F_c \) produces a smaller \( r^\prime \) .")
+![The given figure consists of two semicircles, one over the other. The top semicircle is bigger and the one below is smaller. In both the figures, the direction of the path is given along the semicircle in the counter-clockwise direction. A point is shown on the path, where the radius from the circle, r, is shown with an arrow from the center of the circle. At the same point, the centripetal force is shown in the opposite direction to that of radius arrow. The velocity, v, is shown along this point in the left upward direction and is perpendicular to the force. In both the figures, the velocity is same, but the radius is smaller and centripetal force is larger in the lower figure.](../resources/Figure_06_03_01.jpg 'The frictional force supplies the centripetal force and is numerically equal to it. Centripetal force is perpendicular to velocity and causes uniform circular motion. The larger the ( F_c ) , the smaller the radius of curvature ( r ) and the sharper the curve. The second curve has the same ( v ) , but a larger ( F_c ) produces a smaller ( r^\\prime ) .')
 {: #Figure1}
 
 <div class="example" markdown="1">
@@ -66,7 +67,8 @@ car from slipping (see [Figure 2](#Figure2)).
 
 **Strategy and Solution for (a)**
 
-We know that $$ F_{\text{c}}=\frac{ m v^{2} }{r} $$. Thus,
+We know that $$ F\_{\text{c}}=\frac{ m v^{2} }{r} $$. Thus,
+
 <div class="equation">
 $$ F_{\text{c}}=\frac{m v^{2}}{r}
 =\frac{ \left( 900 \kg \right)
@@ -80,10 +82,11 @@ $$ F_{\text{c}}=\frac{m v^{2}}{r}
 ground) curve. Friction is to the left, keeping the car from slipping, and
 because it is the only horizontal force acting on the car, the friction is the
 centripetal force in this case. We know that the maximum static friction (at
-which the tires roll but do not slip) is $$ \mu_{\s}N $$, where $$ \mu_{\s} $$
+which the tires roll but do not slip) is $$ \mu*{\s}N $$, where $$ \mu*{\s} $$
 is the static coefficient of friction and N is the normal force. The normal
 force equals the car’s weight on level ground, so that $$ N=mg $$. Thus the
 centripetal force in this situation is
+
 <div class="equation">
 $$ F_{\text{c}}=f=\mu_{\s} N=\mu_{\s} mg . $$
 </div>
@@ -101,7 +104,7 @@ $$ \begin{array}{lll}
  $$ m\frac{ v^{2}}{r}=\mu_{\s}mg . $$
 </div>
 
-We solve this for $$ \mu_{\s}$$, noting that mass cancels, and obtain
+We solve this for $$ \mu\_{\s}$$, noting that mass cancels, and obtain
 
 <div class="equation">
 $$ \mu_{\s}=\frac{ v^{2}}{rg}. $$
@@ -122,7 +125,7 @@ digits.)
 **Discussion**
 
 We could also solve part (a) using the first expression in $$ \left.
-\begin{array}{lll} F_{\text{c}}&=&m\frac{ v^{2}}{r}\\ F_
+\begin{array}{lll} F*{\text{c}}&=&m\frac{ v^{2}}{r}\\ F*
 {\text{c}}&=&mr\omega^{2} \end{array} \right\} , $$ because $$m$$, $$v$$, and
 $$r$$ are given. The coefficient of friction found in part (b) is much smaller
 than is typically found between tires and roads. The car will still negotiate
@@ -135,9 +138,10 @@ example, it does not matter how heavily loaded the car is to negotiate the turn.
 Mass cancels because friction is assumed proportional to the normal force, which
 in turn is proportional to mass. If the surface of the road were banked, the
 normal force would be less as will be discussed below.
+
 </div>
 
-![In the given figure, a car is shown from the back, which is turning to the left. The weight, w, of the car is shown with a down arrow and N with an up arrow at the back of the car. At the right rear wheel, centripetal force is shown along with its equation formula in a leftward horizontal arrow. The free-body diagram shows three vectors, one upward, depicting N, one downward, depicting w, and one leftward, depicting centripetal force.](../resources/Figure_06_03_02.jpg "This car on level ground is moving away and turning to the left. The centripetal force causing the car to turn in a circular path is due to friction between the tires and the road. A minimum coefficient of friction is needed, or the car will move in a larger-radius curve and leave the roadway.")
+![In the given figure, a car is shown from the back, which is turning to the left. The weight, w, of the car is shown with a down arrow and N with an up arrow at the back of the car. At the right rear wheel, centripetal force is shown along with its equation formula in a leftward horizontal arrow. The free-body diagram shows three vectors, one upward, depicting N, one downward, depicting w, and one leftward, depicting centripetal force.](../resources/Figure_06_03_02.jpg 'This car on level ground is moving away and turning to the left. The centripetal force causing the car to turn in a circular path is due to friction between the tires and the road. A minimum coefficient of friction is needed, or the car will move in a larger-radius curve and leave the roadway.')
 {: #Figure2}
 
 Let us now consider **banked curves**, where the slope of the road helps you
@@ -211,7 +215,7 @@ curves. Friction helps, because it allows you to take the curve at greater or
 lower speed than if the curve is frictionless. Note that $$\theta $$ does not
 depend on the mass of the vehicle.
 
-![In this figure, a car from the backside is shown, turning to the left, on a slope angling downward to the left. A point in the middle of the back of the car is shown which shows one downward vector depicting weight, w, and an upward arrow depicting force N, which is a linear line along the car and is at an angle theta with the straight up arrow. The slope is at an angle theta with the horizontal surface below the slope. The force values, N multiply sine theta equals to centripetal force, the net force on the car and N cosine theta equal to w are given below the car. ](../resources/Figure_06_03_03.jpg "The car on this banked curve is moving away and turning to the left.")
+![In this figure, a car from the backside is shown, turning to the left, on a slope angling downward to the left. A point in the middle of the back of the car is shown which shows one downward vector depicting weight, w, and an upward arrow depicting force N, which is a linear line along the car and is at an angle theta with the straight up arrow. The slope is at an angle theta with the horizontal surface below the slope. The force values, N multiply sine theta equals to centripetal force, the net force on the car and N cosine theta equal to w are given below the car. ](../resources/Figure_06_03_03.jpg 'The car on this banked curve is moving away and turning to the left.')
 {: #Figure3}
 
 <div class="example" markdown="1">
@@ -269,7 +273,7 @@ Ask a friend or relative to swing a golf club or a tennis racquet. Take appropri
 
 ### Section Summary
 
-* Centripetal force $$ \vb{F}_\text{c} $$ is any force causing uniform circular
+- Centripetal force $$ \vb{F}\_\text{c} $$ is any force causing uniform circular
   motion. It is a “center-seeking” force that always points toward the center of
   rotation. It is perpendicular to linear velocity $$ v $$ and has magnitude
 
@@ -316,7 +320,7 @@ If centripetal force is directed toward the center, why do you feel that you are
 <div class="problem" markdown="1">
 Race car drivers routinely cut corners as shown in [Figure 4](#Figure4). Explain how this allows the curve to be taken at the greatest speed.
 
-![In the figure, two paths are shown inside a race track through a steep curve, approximately equal to ninety degrees. Two cars are shown. One car is on the path one, which is the inside path along the track. The path of this car is shown with an arrow through the inside path. The second car is shown overtaking the first car, while taking a left turn, showing it to be crossing into the inside path from the second path. The path of this car is also shown with an arrow throughout.](../resources/Figure_06_03_04.jpg "Two paths around a race track curve are shown. Race car drivers will take the inside path (called cutting the corner) whenever possible because it allows them to take the curve at the highest speed.")
+![In the figure, two paths are shown inside a race track through a steep curve, approximately equal to ninety degrees. Two cars are shown. One car is on the path one, which is the inside path along the track. The path of this car is shown with an arrow through the inside path. The second car is shown overtaking the first car, while taking a left turn, showing it to be crossing into the inside path from the second path. The path of this car is also shown with an arrow throughout.](../resources/Figure_06_03_04.jpg 'Two paths around a race track curve are shown. Race car drivers will take the inside path (called cutting the corner) whenever possible because it allows them to take the curve at the highest speed.')
 {: #Figure4}
 
 </div>
@@ -330,7 +334,7 @@ A number of amusement parks have rides that make vertical loops like the one sho
 
 (b)The car goes over the top at slower than this speed?
 
-![In the given line diagram, a circular amusement ride is shown from the front with a boat having four people seated in it going upward from the left to the right. The ride starts from the left in a horizontal direction, then goes upward, then turns sideways to the left, comes down from the right and moves horizontal to the right and then ends. It looks like a single knot of a thread, viewed from sideways. Some square iron blocks are also shown below the ride path.](../resources/Figure_06_03_05.jpg "Amusement rides with a vertical loop are an example of a form of curved motion.")
+![In the given line diagram, a circular amusement ride is shown from the front with a boat having four people seated in it going upward from the left to the right. The ride starts from the left in a horizontal direction, then goes upward, then turns sideways to the left, comes down from the right and moves horizontal to the right and then ends. It looks like a single knot of a thread, viewed from sideways. Some square iron blocks are also shown below the ride path.](../resources/Figure_06_03_05.jpg 'Amusement rides with a vertical loop are an example of a form of curved motion.')
 {: #Figure5}
 
 </div>
@@ -361,7 +365,7 @@ As a skater forms a circle, what force is responsible for making her turn? Use a
 <div class="problem" markdown="1">
 Suppose a child is riding on a merry-go-round at a distance about halfway between its center and edge. She has a lunch box resting on wax paper, so that there is very little friction between it and the merry-go-round. Which path shown in [Figure 6](#Figure6) will the lunch box take when she lets go? The lunch box leaves a trail in the dust on the merry-go-round. Is that trail straight, curved to the left, or curved to the right? Explain your answer.
 
-![The given figure shows the circular base of a merry-go-round, whose angular velocity is clockwise, shown here with an arrow. A single horse is shown on whom a child is sitting, with a vertical line shown passed through her, which goes from the bottom of the merry-go-round to the top of it. A point P is shown alongside the horse, through which three arrows in downward three directions are shown which depicts the three possible path of the fall of the lunch box.](../resources/Figure_06_03_06.jpg "A child riding on a merry-go-round releases her lunch box at point P. This is a view from above the clockwise rotation. Assuming it slides with negligible friction, will it follow path A, B, or C, as viewed from Earth&#x2019;s frame of reference? What will be the shape of the path it leaves in the dust on the merry-go-round?")
+![The given figure shows the circular base of a merry-go-round, whose angular velocity is clockwise, shown here with an arrow. A single horse is shown on whom a child is sitting, with a vertical line shown passed through her, which goes from the bottom of the merry-go-round to the top of it. A point P is shown alongside the horse, through which three arrows in downward three directions are shown which depicts the three possible path of the fall of the lunch box.](../resources/Figure_06_03_06.jpg 'A child riding on a merry-go-round releases her lunch box at point P. This is a view from above the clockwise rotation. Assuming it slides with negligible friction, will it follow path A, B, or C, as viewed from Earth’s frame of reference? What will be the shape of the path it leaves in the dust on the merry-go-round?')
 {: #Figure6}
 
 </div>
@@ -378,7 +382,7 @@ Do you feel yourself thrown to either side when you negotiate a curve that is id
 <div class="problem" markdown="1">
 Suppose a mass is moving in a circular path on a frictionless table as shown in figure. In the Earth’s frame of reference, there is no centrifugal force pulling the mass away from the centre of rotation, yet there is a very real force stretching the string attaching the mass to the nail. Using concepts related to centripetal force and Newton’s third law, explain what force stretches the string, identifying its physical origin.
 
-![In the figure a table is shown. On the table a mass is attached to a nail at the center with the help of a string. The mass is moving on a circular path in counterclockwise direction.](../resources/Figure_06_03_07.jpg "A mass attached to a nail on a frictionless table moves in a circular path. The force stretching the string is real and not fictional. What is the physical origin of the force on the string?")
+![In the figure a table is shown. On the table a mass is attached to a nail at the center with the help of a string. The mass is moving on a circular path in counterclockwise direction.](../resources/Figure_06_03_07.jpg 'A mass attached to a nail on a frictionless table moves in a circular path. The force stretching the string is real and not fictional. What is the physical origin of the force on the string?')
 {: #Figure7}
 
 </div>
@@ -590,7 +594,7 @@ curvature $$ r $$ of the turn in the same way as for an ideally banked
 roadway—that is, $$ \theta ={\tan}^{-1}{v}^{2}/rg $$
 (b) Calculate $$ \theta $$ for a 12.0 m/s turn of radius 30.0 m (as in a race).
 
-![The given figure shows a boy riding a bicycle, from the front. The boy is sliding leftward to his left. Three vectors are shown. One is from the bottom the front cycle wheel to the right depicting centripetal force, another one is from the same point drawn vertically upward showing the force N, making an angle theta with the slope of the front cycle wheel. The third vector is drawn from the chest of the boy to vertically downward to the bottom showing his weight, w. An arrow from the bottom of the wheel to the chest point of the boy is also shown depicting the slope of the bicycle with force F exerting on it. A free-body diagram is also given alongside the figure showing the direction of weight and force vectors. And the values of net F equals to sum of N and centripetal force, and N equals to weight W also given alongside on the right.](../resources/Figure_06_03_08.jpg "A bicyclist negotiating a turn on level ground must lean at the correct angle&#x2014;the ability to do this becomes instinctive. The force of the ground on the wheel needs to be on a line through the center of gravity. The net external force on the system is the centripetal force. The vertical component of the force on the wheel cancels the weight of the system while its horizontal component must supply the centripetal force. This process produces a relationship among the angle &#x3B8;, the speed v, and the radius of curvature r of the turn similar to that for the ideal banking of roadways.")
+![The given figure shows a boy riding a bicycle, from the front. The boy is sliding leftward to his left. Three vectors are shown. One is from the bottom the front cycle wheel to the right depicting centripetal force, another one is from the same point drawn vertically upward showing the force N, making an angle theta with the slope of the front cycle wheel. The third vector is drawn from the chest of the boy to vertically downward to the bottom showing his weight, w. An arrow from the bottom of the wheel to the chest point of the boy is also shown depicting the slope of the bicycle with force F exerting on it. A free-body diagram is also given alongside the figure showing the direction of weight and force vectors. And the values of net F equals to sum of N and centripetal force, and N equals to weight W also given alongside on the right.](../resources/Figure_06_03_08.jpg 'A bicyclist negotiating a turn on level ground must lean at the correct angle—the ability to do this becomes instinctive. The force of the ground on the wheel needs to be on a line through the center of gravity. The net external force on the system is the centripetal force. The vertical component of the force on the wheel cancels the weight of the system while its horizontal component must supply the centripetal force. This process produces a relationship among the angle θ, the speed v, and the radius of curvature r of the turn similar to that for the ideal banking of roadways.')
 {: #Figure8}
 
 </div>
@@ -660,7 +664,7 @@ acceleration is $$ 10 g $$ ? (Hint: The arm supplies centripetal force and
 supports the weight of the cage. Draw a free body diagram of the forces to see
 what the angle $$ \theta $$ should be.)
 
-![Figure a shows a NASA centrifuge in a big hall. In figure b, there is a girl sitting in the cage of the centrifuge. The centripetal force on the cage is directed toward left. The direction of the weight of the cage is downward and the force on the arm is directed in north-west direction.](../resources/Figure_06_03_09.jpg "(a) NASA centrifuge used to subject trainees to accelerations similar to those experienced in rocket launches and reentries. (credit: NASA) (b) Rider in cage showing how the cage pivots outward during rotation. This allows the total force exerted on the rider by the cage to be along its axis at all times.")
+![Figure a shows a NASA centrifuge in a big hall. In figure b, there is a girl sitting in the cage of the centrifuge. The centripetal force on the cage is directed toward left. The direction of the weight of the cage is downward and the force on the arm is directed in north-west direction.](../resources/Figure_06_03_09.jpg '(a) NASA centrifuge used to subject trainees to accelerations similar to those experienced in rocket launches and reentries. (credit: NASA) (b) Rider in cage showing how the cage pivots outward during rotation. This allows the total force exerted on the rider by the cage to be along its axis at all times.')
 {: #Figure9}
 
 </div>
@@ -668,6 +672,7 @@ what the angle $$ \theta $$ should be.)
 a) 2.56 rad/s
 
 b) $$ 5.71^\circ $$
+
 </div>
 </div>
 
@@ -697,7 +702,11 @@ b) 0.234
 <div class="problem" markdown="1">
 Modern roller coasters have vertical loops like the one shown in [Figure 10](#Figure10). The radius of curvature is smaller at the top than on the sides so that the downward centripetal acceleration at the top will be greater than the acceleration due to gravity, keeping the passengers pressed firmly into their seats. What is the speed of the roller coaster at the top of the loop if the radius of curvature there is 15.0 m and the downward acceleration of the car is 1.50 g?
 
-![A teardrop shaped loop of a roller coaster is shown. The car of the roller coaster starts from the point A near the right of the base and covers the teardrop portion of the roller coaster and move to a point D at the left of base. Near the top of tear drop portion an upward arrow is shown labeled as r-minimum. Also at a point near the base toward A there is a label called r-maximum. The wire frame of the base is also shown.](../resources/Figure_06_03_10.jpg "Teardrop-shaped loops are used in the latest roller coasters so that the radius of curvature gradually decreases to a minimum at the top. This means that the centripetal acceleration builds from zero to a maximum at the top and gradually decreases again. A circular loop would cause a jolting change in acceleration at entry, a disadvantage discovered long ago in railroad curve design. With a small radius of curvature at the top, the centripetal acceleration can more easily be kept greater than &#10; &#10; &#10; g&#10; &#10; &#10; so that the passengers do not lose contact with their seats nor do they need seat belts to keep them in place.")
+![A teardrop shaped loop of a roller coaster is shown. The car of the roller coaster starts from the point A near the right of the base and covers the teardrop portion of the roller coaster and move to a point D at the left of base. Near the top of tear drop portion an upward arrow is shown labeled as r-minimum. Also at a point near the base toward A there is a label called r-maximum. The wire frame of the base is also shown.](../resources/Figure_06_03_10.jpg 'Teardrop-shaped loops are used in the latest roller coasters so that the radius of curvature gradually decreases to a minimum at the top. This means that the centripetal acceleration builds from zero to a maximum at the top and gradually decreases again. A circular loop would cause a jolting change in acceleration at entry, a disadvantage discovered long ago in railroad curve design. With a small radius of curvature at the top, the centripetal acceleration can more easily be kept greater than
+
+g
+
+so that the passengers do not lose contact with their seats nor do they need seat belts to keep them in place.')
 {: #Figure10}
 
 </div>

@@ -21,7 +21,7 @@ electromagnetic waves of different wavelengths: radio waves, microwaves,
 infrared **radiation**, visible light, ultraviolet radiation, X-rays, and gamma
 rays.
 
-![The figure shows a campfire. Some small logs are burning and the flames above them are visible against a dark background.](../resources/Figure_14_07_01.jpg "Most of the heat transfer from this fire to the observers is through infrared radiation. The visible light, although dramatic, transfers relatively little thermal energy. Convection transfers energy away from the observers as hot air rises, while conduction is negligibly slow here. Skin is very sensitive to infrared radiation, so that you can sense the presence of a fire without looking at it directly. (credit: Daniel X. O&#x2019;Neil)")
+![The figure shows a campfire. Some small logs are burning and the flames above them are visible against a dark background.](../resources/Figure_14_07_01.jpg 'Most of the heat transfer from this fire to the observers is through infrared radiation. The visible light, although dramatic, transfers relatively little thermal energy. Convection transfers energy away from the observers as hot air rises, while conduction is negligibly slow here. Skin is very sensitive to infrared radiation, so that you can sense the presence of a fire without looking at it directly. (credit: Daniel X. O’Neil)')
 {: #Figure1}
 
 The energy of electromagnetic radiation depends on the wavelength (color) and
@@ -39,7 +39,7 @@ distribution.
 spectrum and [Introduction to Quantum Physics](../contents/ch29QuantumPhysics) discusses how the
 decrease in wavelength corresponds to an increase in energy.
 
-![Figure a shows a graph of the intensity of electromagnetic radiation versus wavelength in nano meters. There are three curves on the graph labeled, from top to bottom, six thousand K, four thousand K, and three thousand K. The top curve peaks sharply at the beginning near about five hundred nano meters in what is labeled the visible range (violet to red). After the peak, this curve decays strongly by three thousand nano meters. The middle curve peaks more softly near nine hundred nano meters at a height about one third that of the first curve, and decays by three thousand nano meters. The lowest curve peaks very softly near one thousand nano meters curve and decreases slowly for higher wavelengths. The region between one thousand to two thousand nano meters is labeled the infrared range. Figure b shows two burners of a gas stove. One burner is closer and the other is in the background. The flame of the near burner is blue at the bottom and gradually changes to orange as you approach the top of the flame. The flame of the background burner is smaller and is essentially completely blue.](../resources/Figure_14_07_02.jpg "(a) A graph of the spectra of electromagnetic waves emitted from an ideal radiator at three different temperatures. The intensity or rate of radiation emission increases dramatically with temperature, and the spectrum shifts toward the visible and ultraviolet parts of the spectrum. The shaded portion denotes the visible part of the spectrum. It is apparent that the shift toward the ultraviolet with temperature makes the visible appearance shift from red to white to blue as temperature increases. (b) Note the variations in color corresponding to variations in flame temperature. (credit: Tuohirulla)")
+![Figure a shows a graph of the intensity of electromagnetic radiation versus wavelength in nano meters. There are three curves on the graph labeled, from top to bottom, six thousand K, four thousand K, and three thousand K. The top curve peaks sharply at the beginning near about five hundred nano meters in what is labeled the visible range (violet to red). After the peak, this curve decays strongly by three thousand nano meters. The middle curve peaks more softly near nine hundred nano meters at a height about one third that of the first curve, and decays by three thousand nano meters. The lowest curve peaks very softly near one thousand nano meters curve and decreases slowly for higher wavelengths. The region between one thousand to two thousand nano meters is labeled the infrared range. Figure b shows two burners of a gas stove. One burner is closer and the other is in the background. The flame of the near burner is blue at the bottom and gradually changes to orange as you approach the top of the flame. The flame of the background burner is smaller and is essentially completely blue.](../resources/Figure_14_07_02.jpg '(a) A graph of the spectra of electromagnetic waves emitted from an ideal radiator at three different temperatures. The intensity or rate of radiation emission increases dramatically with temperature, and the spectrum shifts toward the visible and ultraviolet parts of the spectrum. The shaded portion denotes the visible part of the spectrum. It is apparent that the shift toward the ultraviolet with temperature makes the visible appearance shift from red to white to blue as temperature increases. (b) Note the variations in color corresponding to variations in flame temperature. (credit: Tuohirulla)')
 {: #Figure2}
 
 All objects absorb and emit electromagnetic radiation. The rate of heat transfer
@@ -50,13 +50,13 @@ see [[Equation 2]](#Equation2)). Similarly, black asphalt in a parking lot will 
 hotter than adjacent gray sidewalk on a summer day, because black absorbs better
 than gray. The reverse is also true—black radiates better than gray. Thus, on a
 clear summer night, the asphalt will be colder than the gray sidewalk, because
-black radiates the energy more rapidly than gray. An *ideal radiator* is the
-same color as an *ideal absorber*, and captures all the radiation that falls on
+black radiates the energy more rapidly than gray. An _ideal radiator_ is the
+same color as an _ideal absorber_, and captures all the radiation that falls on
 it. In contrast, white is a poor absorber and is also a poor radiator. A white
 object reflects all radiation, like a mirror. (A perfect, polished white surface
 is mirror-like in appearance, and a crushed mirror looks white.)
 
-![The figure shows a close up of two sets of ice cubes. The ice on the left is on a light-colored pavement and is relatively unmelted. The ice on the right is on a darker pavement and is noticeably more melted.](../resources/Figure_14_07_03.jpg "This illustration shows that the darker pavement is hotter than the lighter pavement (much more of the ice on the right has melted), although both have been in the sunlight for the same time. The thermal conductivities of the pavements are the same.")
+![The figure shows a close up of two sets of ice cubes. The ice on the left is on a light-colored pavement and is relatively unmelted. The ice on the right is on a darker pavement and is noticeably more melted.](../resources/Figure_14_07_03.jpg 'This illustration shows that the darker pavement is hotter than the lighter pavement (much more of the ice on the right has melted), although both have been in the sunlight for the same time. The thermal conductivities of the pavements are the same.')
 {: #Figure3}
 
 Gray objects have a uniform ability to absorb all parts of the electromagnetic
@@ -65,7 +65,7 @@ them a particular color in the visible range and may make them special in other
 ranges of the nonvisible spectrum. Take, for example, the strong absorption of
 infrared radiation by the skin, which allows us to be very sensitive to it.
 
-![In the figure two black and two silver polished blocks are shown. Radiant energy is incident on the first black block. Most of the energy is absorbed and only a small amount is shown as reflected. On the second black block more of the energy from inside the block is emitted than is retained. On the first silver polished block the incident energy is mostly reflected and only a small portion is absorbed. On the second silver polished block the energy from inside is mostly retained and only a small amount of energy is emitted.](../resources/Figure_14_07_04.jpg "A black object is a good absorber and a good radiator, while a white (or silver) object is a poor absorber and a poor radiator. It is as if radiation from the inside is reflected back into the silver object, whereas radiation from the inside of the black object is &#x201C;absorbed&#x201D; when it hits the surface and finds itself on the outside and is strongly emitted.")
+![In the figure two black and two silver polished blocks are shown. Radiant energy is incident on the first black block. Most of the energy is absorbed and only a small amount is shown as reflected. On the second black block more of the energy from inside the block is emitted than is retained. On the first silver polished block the incident energy is mostly reflected and only a small portion is absorbed. On the second silver polished block the energy from inside is mostly retained and only a small amount of energy is emitted.](../resources/Figure_14_07_04.jpg 'A black object is a good absorber and a good radiator, while a white (or silver) object is a poor absorber and a poor radiator. It is as if radiation from the inside is reflected back into the silver object, whereas radiation from the inside of the black object is “absorbed” when it hits the surface and finds itself on the outside and is strongly emitted.')
 {: #Figure4}
 
 The rate of heat transfer by emitted radiation is determined by the **
@@ -78,7 +78,9 @@ Stefan-Boltzmann law of radiation**\:
 where $$\sigma = 5.67 \times 10^{-8} \text{J/s}\cdot {\text{m}}^{2}\cdot
 {\text{K}}^{4} $$ is the Stefan-Boltzmann constant, $$A $$ is the surface area
 of the object, and $$T $$ is its absolute temperature in kelvin. The symbol $$e
-$$ stands for the **emissivity** of the object, which is a measure of how well
+
+$$
+stands for the **emissivity** of the object, which is a measure of how well
 it radiates. An ideal jet-black (or black body) radiator has $$e=1 $$ , whereas
 a perfect reflector has $$e=0 $$ . Real objects fall between these two values.
 Take, for example, tungsten light bulb filaments which have an $$e $$ of about
@@ -155,7 +157,9 @@ Insert the temperatures values $${T}_{2}=295 \text{K} $$ and $${T}_{1}=306
 <div class="equation" >
  $$=\left( 5.67 \times 10^{-8} \text{J/s}\cdot {\text{m}}^{2}\cdot {\text{K}}^{4} \right)
 \left( 0.97 \right) \left( 1.50 {\text{m}}^{2} \right)
-\left[ { \left(295\text{K}\right)}^{4}-{ \left(306 \text{K}\right) }^{4} \right]   $$
+\left[ { \left(295\text{K}\right)}^{4}-{ \left(306 \text{K}\right) }^{4} \right]
+$$
+
 </div>
 <div class="equation" >
  $$=-99\text{J/s}=-99 \text{W} \text{.}  $$
@@ -196,9 +200,9 @@ Re-radiation back to the Earth maintains its surface temperature about
 $$40\text{ºC} $$ higher than it would be if there was no atmosphere, similar to
 the way glass increases temperatures in a greenhouse.
 
-The greenhouse effect and its causes were first predicted by Eunice Newton Foote after she designed and conducted experiments on heating of different gases. After filling flasks with carbon dioxide, hydrogen, and regular air, then also modifying moisture, she placed them in the sun and carefully measured their heating and, especially, their heat retention. She discovered that the $${\text{CO}}_{2} $$  flask gained the most temperature and held it the longest. After subsequent research, her paper "Circumstances affecting the Heat of the Sun’s Rays" included conclusions that an atmosphere consisting of more carbon dioxide would be hotter resulting from the gas trapping radiation.
+The greenhouse effect and its causes were first predicted by Eunice Newton Foote after she designed and conducted experiments on heating of different gases. After filling flasks with carbon dioxide, hydrogen, and regular air, then also modifying moisture, she placed them in the sun and carefully measured their heating and, especially, their heat retention. She discovered that the $${\text{CO}}_{2} $$ flask gained the most temperature and held it the longest. After subsequent research, her paper "Circumstances affecting the Heat of the Sun’s Rays" included conclusions that an atmosphere consisting of more carbon dioxide would be hotter resulting from the gas trapping radiation.
 
-![A drawing of a portion of the Earth&#x2019;s surface is shown, with both ocean and continents visible. Different rays such as ultraviolet, visible, and infrared are shown penetrating the atmosphere and impinging on the Earth&#x2019;s surface. Infrared rays re-emitted by the Earth&#x2019;s surface are trapped by the atmosphere of the Earth and are scattered back to the Earth.](../resources/Figure_14_07_06.jpg "The greenhouse effect is a name given to the trapping of energy in the Earth&#x2019;s atmosphere by a process similar to that used in greenhouses. The atmosphere, like window glass, is transparent to incoming visible radiation and most of the Sun&#x2019;s infrared. These wavelengths are absorbed by the Earth and re-emitted as infrared. Since Earth&#x2019;s temperature is much lower than that of the Sun, the infrared radiated by the Earth has a much longer wavelength. The atmosphere, like glass, traps these longer infrared rays, keeping the Earth warmer than it would otherwise be. The amount of trapping depends on concentrations of trace gases like carbon dioxide, and a change in the concentration of these gases is believed to affect the Earth&#x2019;s surface temperature.")
+![A drawing of a portion of the Earth’s surface is shown, with both ocean and continents visible. Different rays such as ultraviolet, visible, and infrared are shown penetrating the atmosphere and impinging on the Earth’s surface. Infrared rays re-emitted by the Earth’s surface are trapped by the atmosphere of the Earth and are scattered back to the Earth.](../resources/Figure_14_07_06.jpg 'The greenhouse effect is a name given to the trapping of energy in the Earth’s atmosphere by a process similar to that used in greenhouses. The atmosphere, like window glass, is transparent to incoming visible radiation and most of the Sun’s infrared. These wavelengths are absorbed by the Earth and re-emitted as infrared. Since Earth’s temperature is much lower than that of the Sun, the infrared radiated by the Earth has a much longer wavelength. The atmosphere, like glass, traps these longer infrared rays, keeping the Earth warmer than it would otherwise be. The amount of trapping depends on concentrations of trace gases like carbon dioxide, and a change in the concentration of these gases is believed to affect the Earth’s surface temperature.')
 {: #Figure6}
 
 The greenhouse effect is also central to the discussion of global warming due to
@@ -216,7 +220,7 @@ radiation gain from the Sun, and opening spaces to allow convection. It is
 possible to build a zero-energy house that allows for comfortable living in most
 parts of the United States with hot and humid summers and cold winters.
 
-![A solar cooker is shown. There is a pot of food inside the solar cooker. The sunlight is incident on the solar cooker and the food is being cooked.](../resources/Figure_14_07_08.jpg "This simple but effective solar cooker uses the greenhouse effect and reflective material to trap and retain solar energy. Made of inexpensive, durable materials, it saves money and labor, and is of particular economic value in energy-poor developing countries. (credit: E.B. Kauai)")
+![A solar cooker is shown. There is a pot of food inside the solar cooker. The sunlight is incident on the solar cooker and the food is being cooked.](../resources/Figure_14_07_08.jpg 'This simple but effective solar cooker uses the greenhouse effect and reflective material to trap and retain solar energy. Made of inexpensive, durable materials, it saves money and labor, and is of particular economic value in energy-poor developing countries. (credit: E.B. Kauai)')
 {: #Figure7}
 
 Conversely, dark space is very cold, about $$3 \text{K}\left(-454 \text{ºF}
@@ -269,15 +273,15 @@ Problem-Solving Strategies for the Methods of Heat Transfer
      $$\frac{ {Q}_{\text{net}}}{t}=\sigma eA\left({T}_{2}^{4}-{T}_{1}^{4}\right) $$
         gives the net heat transfer rate.
 7.   *Insert the knowns along with their units into the appropriate equation and obtain numerical solutions complete with units.*
-8.   *Check the answer to see if it is reasonable. Does it make sense?* 
+8.   *Check the answer to see if it is reasonable. Does it make sense?*
 
 </div>
 
 ### Summary
 
-* Radiation is the rate of heat transfer through the emission or absorption of
+- Radiation is the rate of heat transfer through the emission or absorption of
   electromagnetic waves.
-* The rate of heat transfer depends on the surface area and the fourth power of
+- The rate of heat transfer depends on the surface area and the fourth power of
   the absolute temperature:
 
   <div class="equation" >
@@ -294,7 +298,7 @@ reflector has $$e=0 $$ , with real objects having values of $$e $$ between 1 and
   </div>
 
 where $${T}_{1} $$ is the temperature of an object surrounded by an environment
-with uniform temperature $${T}_{2} $$ and $$e $$ is the emissivity of the *object*.
+with uniform temperature $${T}_{2} $$ and $$e $$ is the emissivity of the _object_.
 
 <div class="note" data-label="PhET Exploration" markdown="1">
 <div class="title">
@@ -431,7 +435,7 @@ Thermography is a technique for measuring radiant heat and detecting variations 
  compared with that at  $$20.0 \text{ºC} $$ ,
  such as for warm and cool automobile hoods?
 
-![A thermograph of the chest area of a patient is shown. There are different colors showing different thermal regions.](../resources/Figure_14_07_09.jpg "Artist&#x2019;s rendition of a thermograph of a patient&#x2019;s upper body, showing the distribution of heat represented by different colors.")
+![A thermograph of the chest area of a patient is shown. There are different colors showing different thermal regions.](../resources/Figure_14_07_09.jpg 'Artist’s rendition of a thermograph of a patient’s upper body, showing the distribution of heat represented by different colors.')
 {: #Figure8}
 
 </div>
@@ -657,7 +661,7 @@ rises 1.00 m? Will this cause a significant cooling of the air?
 <div class="solution" markdown="1">
 (a) 1.102
 
-(b)  $$2.79 \times 10^{4} \text{J} $$
+(b) $$2.79 \times 10^{4} \text{J} $$
 (c) 12.6 J. This will not cause a significant cooling of the air because it is
 much less than the energy found in part (b), which is the energy required to
 warm the air from $$20.0\text{ºC} $$ to $$50.0\text{ºC} $$.
@@ -786,7 +790,8 @@ that absorb infrared radiation from the Earth’s surface and reradiate it in al
 directions, thus sending a fraction of it back toward the surface of the Earth
 
 net rate of heat transfer by radiation
-: is $$\frac{ {Q}_{\text{net}}}{t}=\sigma eA\left({T}_{2}^{4}-{T}_{1}^{4}\right)
+: is $$\frac{ {Q}_{\text{net}}}{t}=\sigma eA\left({T}_{2}^{4}-{T}\_{1}^{4}\right)
+
 $$
 
 radiation
@@ -799,3 +804,4 @@ constant, $$A $$ is the surface area of the object, $$T $$ is the absolute
 temperature, and $$e $$ is the emissivity
 
 </div>
+$$

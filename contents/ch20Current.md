@@ -17,7 +17,7 @@ Electric current is defined to be the rate at which charge flows. A large
 current, such as that used to start a truck engine, moves a large amount of
 charge in a small time, whereas a small current, such as that used to operate a
 hand-held calculator, moves a small amount of charge over a long period of time.
-In equation form, **electric current**  $$I $$ is defined to be
+In equation form, **electric current** $$I $$ is defined to be
 
 <div class="equation" >
  $$I=\frac{\Delta Q}{\Delta t}\text{,} $$
@@ -38,7 +38,7 @@ Q/\Delta t $$ , we see that an ampere is one coulomb per second:
 Not only are fuses and circuit breakers rated in amperes (or amps), so are many
 electrical appliances.
 
-![Charges are shown as small spheres moving through a section of a conducting wire. The direction of movement of charge is indicated by arrows along the length of the conductor toward the right. The cross-sectional area of the wire is labeled as A. The current is equal to the flow of charge.](../resources/Figure_20_01_01.jpg "The rate of flow of charge is current. An ampere is the flow of one coulomb through an area in one second.")
+![Charges are shown as small spheres moving through a section of a conducting wire. The direction of movement of charge is indicated by arrows along the length of the conductor toward the right. The cross-sectional area of the wire is labeled as A. The current is equal to the flow of charge.](../resources/Figure_20_01_01.jpg 'The rate of flow of charge is current. An ampere is the flow of one coulomb through an area in one second.')
 {: #Figure1}
 
 <div id="Example1" class="example" markdown="1">
@@ -103,7 +103,7 @@ schematics are useful because the analysis is the same for a wide variety of
 situations. We need to understand a few schematics to apply the concepts and
 analysis to many more situations.
 
-![Part a shows a bulb glowing when its terminals are connected to a battery through a wire. The voltage of the battery is labeled as V. The current through the bulb is represented as I, and the current direction is shown using arrows emerging from the positive terminal of the battery, passing through the bulb, and entering the negative terminal of the battery. Part b shows an electric circuit diagram with a resistance connected across the terminals of a battery of voltage V. The current is shown using arrows as emerging from the positive terminal of the battery, passing through the resistance, and entering the negative terminal of the battery.](../resources/Figure_20_01_02.jpg "(a) A simple electric circuit. A closed path for current to flow through is supplied by conducting wires connecting a load to the terminals of a battery. (b) In this schematic, the battery is represented by the two parallel red lines, conducting wires are shown as straight lines, and the zigzag represents the load. The schematic represents a wide variety of similar circuits.")
+![Part a shows a bulb glowing when its terminals are connected to a battery through a wire. The voltage of the battery is labeled as V. The current through the bulb is represented as I, and the current direction is shown using arrows emerging from the positive terminal of the battery, passing through the bulb, and entering the negative terminal of the battery. Part b shows an electric circuit diagram with a resistance connected across the terminals of a battery of voltage V. The current is shown using arrows as emerging from the positive terminal of the battery, passing through the resistance, and entering the negative terminal of the battery.](../resources/Figure_20_01_02.jpg '(a) A simple electric circuit. A closed path for current to flow through is supplied by conducting wires connecting a load to the terminals of a battery. (b) In this schematic, the battery is represented by the two parallel red lines, conducting wires are shown as straight lines, and the zigzag represents the load. The schematic represents a wide variety of similar circuits.')
 {: #Figure2}
 
 Note that the direction of current flow in [[Figure 2]](#Figure2) is from
@@ -139,7 +139,7 @@ other; electrons flow due to mutually repulsive electrostatic forces.
 
 </div>
 
-![In part a, positive charges move toward the right through a conducting wire. The direction of movement of charge is indicated by arrows along the length of the wire. The area of a cross section of the wire is labeled as A. The direction of the electric field E is toward the right, in the same direction as movement of positive charge. The current direction is also toward the right, shown by an arrow. In part b, negative charges move toward the left through a conducting wire. The direction of movement of charge is indicated by arrows along the length of the wire. The area of a cross section of the wire is labeled as A. The direction of the electric field E is toward the right, opposite the direction of movement of negative charge. The current direction is also toward the right, shown by an arrow.](../resources/Figure_20_01_03.jpg "Current \( I \) is the rate at which charge moves through an area \( A \) , such as the cross-section of a wire. Conventional current is defined to move in the direction of the electric field. (a) Positive charges move in the direction of the electric field and the same direction as conventional current. (b) Negative charges move in the direction opposite to the electric field. Conventional current is in the direction opposite to the movement of negative charge. The flow of electrons is sometimes referred to as electronic flow. ")
+![In part a, positive charges move toward the right through a conducting wire. The direction of movement of charge is indicated by arrows along the length of the wire. The area of a cross section of the wire is labeled as A. The direction of the electric field E is toward the right, in the same direction as movement of positive charge. The current direction is also toward the right, shown by an arrow. In part b, negative charges move toward the left through a conducting wire. The direction of movement of charge is indicated by arrows along the length of the wire. The area of a cross section of the wire is labeled as A. The direction of the electric field E is toward the right, opposite the direction of movement of negative charge. The current direction is also toward the right, shown by an arrow.](../resources/Figure_20_01_03.jpg 'Current ( I ) is the rate at which charge moves through an area ( A ) , such as the cross-section of a wire. Conventional current is defined to move in the direction of the electric field. (a) Positive charges move in the direction of the electric field and the same direction as conventional current. (b) Negative charges move in the direction opposite to the electric field. Conventional current is in the direction opposite to the movement of negative charge. The flow of electrons is sometimes referred to as electronic flow. ')
 {: #Figure3}
 
 <div id="Example2" class="example" markdown="1">
@@ -206,7 +206,7 @@ passed on rapidly. The resulting electrical shock wave moves through the system
 at nearly the speed of light. To be precise, this rapidly moving signal or shock
 wave is a rapidly propagating change in electric field.
 
-![Negatively charged electrons move through a conducting wire. Two electrons are shown entering the wire from one end, and two electrons are shown leaving the wire at the other end. The direction of movement of charge is indicated by arrows along the length of the wire toward the right. Some electrons are shown inside the wire.](../resources/Figure_20_01_04.jpg "When charged particles are forced into this volume of a conductor, an equal number are quickly forced to leave. The repulsion between like charges makes it difficult to increase the number of charges in a volume. Thus, as one charge enters, another leaves almost immediately, carrying the signal rapidly forward.")
+![Negatively charged electrons move through a conducting wire. Two electrons are shown entering the wire from one end, and two electrons are shown leaving the wire at the other end. The direction of movement of charge is indicated by arrows along the length of the wire toward the right. Some electrons are shown inside the wire.](../resources/Figure_20_01_04.jpg 'When charged particles are forced into this volume of a conductor, an equal number are quickly forced to leave. The repulsion between like charges makes it difficult to increase the number of charges in a volume. Thus, as one charge enters, another leaves almost immediately, carrying the signal rapidly forward.')
 {: #Figure4}
 
 Good conductors have large numbers of free charges in them. In metals, the free
@@ -216,13 +216,13 @@ between collisions with atoms or other electrons is quite small. The electron
 paths thus appear nearly random, like the motion of atoms in a gas. But there is
 an electric field in the conductor that causes the electrons to drift in the
 direction shown (opposite to the field, since they are negative). The **drift
-velocity**  $${v}_{\text{d}} $$ is the average velocity of the free charges.
+velocity** $${v}_{\text{d}} $$ is the average velocity of the free charges.
 Drift velocity is quite small, since there are so many free charges. If we have
 an estimate of the density of free electrons in a conductor, we can calculate
 the drift velocity for a given current. The larger the density, the lower the
 velocity required for a given current.
 
-![The diagram shows a section of a conducting wire. A free electron is shown in the wire, and the path of the electron is shown as zigzag arrows along the length of the wire. The path is shown beginning at one end of the wire and ending at the other end. The drift velocity, v sub d, is indicated by an arrow toward the right, opposite the direction of the electric field E and the current I.](../resources/Figure_20_01_05.jpg "Free electrons moving in a conductor make many collisions with other electrons and atoms. The path of one electron is shown. The average velocity of the free charges is called the drift velocity, \( v_{d} \), and it is in the direction opposite to the electric field for electrons. The collisions normally transfer energy to the conductor, requiring a constant supply of energy to maintain a steady current.")
+![The diagram shows a section of a conducting wire. A free electron is shown in the wire, and the path of the electron is shown as zigzag arrows along the length of the wire. The path is shown beginning at one end of the wire and ending at the other end. The drift velocity, v sub d, is indicated by an arrow toward the right, opposite the direction of the electric field E and the current I.](../resources/Figure_20_01_05.jpg 'Free electrons moving in a conductor make many collisions with other electrons and atoms. The path of one electron is shown. The average velocity of the free charges is called the drift velocity, ( v_{d} ), and it is in the direction opposite to the electric field for electrons. The collisions normally transfer energy to the conductor, requiring a constant supply of energy to maintain a steady current.')
 {: #Figure5}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -281,7 +281,7 @@ of a material with a free charge density $$n $$ . The carriers of the current
 each have charge $$q $$ and move with a drift velocity of magnitude $${v}_
 {\text{d}} $$.
 
-![Charges are shown moving through a section of a conducting wire. The charges have a drift velocity v sub d along the length of the wire, shown by an arrow pointing to the right. The volume of a segment of the wire is equal to A times x, where x equals the product of the drift velocity, v sub d, and time t. A cross section of the wire is marked as A, and the length of the section is x.](../resources/Figure_20_01_06.jpg "All the charges in the shaded volume of this wire move out in a time \( t \) , having a drift velocity of magnitude \( v_\text{d}=x/t \) . See text for further discussion.")
+![Charges are shown moving through a section of a conducting wire. The charges have a drift velocity v sub d along the length of the wire, shown by an arrow pointing to the right. The volume of a segment of the wire is equal to A times x, where x equals the product of the drift velocity, v sub d, and time t. A cross section of the wire is marked as A, and the length of the section is x.](../resources/Figure_20_01_06.jpg 'All the charges in the shaded volume of this wire move out in a time ( t ) , having a drift velocity of magnitude ( v_\\text{d}=x/t ) . See text for further discussion.')
 {: #Figure6}
 
 Note that simple drift velocity is not the entire story. The speed of an
@@ -308,7 +308,9 @@ Calculate the drift velocity of electrons in a 12-gauge copper wire (which has a
 
 We can calculate the drift velocity using the equation $$I= n q A v_d $$ . The
 current $$I=20.0 \text{A} $$ is given, and $$q= -1.60 \times 10^{-19} \text{C}
-$$ is the charge of an electron. We can calculate the area of a cross-section of
+
+$$
+is the charge of an electron. We can calculate the area of a cross-section of
 the wire using the formula $$A=\pi {r}^{2}, $$ where $$r $$ is one-half the
 given diameter, 2.053 mm. We are given the density of copper, $$8.80 \times
 10^{3} {\text{kg/m}}^{3}, $$ and the periodic table shows that the atomic mass
@@ -323,8 +325,10 @@ electron per copper atom. Therefore, is the same as the number of copper atoms
 per $$\text{m}^{3} $$ . We can now find $$n $$ as follows:
 
 <div class="equation" >
- $$\begin{array}{lll}n& =& \frac{1 {e}^{-}}{\text{atom}}×\frac{ 6.02 \times 10^{23}  \text{atoms}}{\text{mol}}×\frac{1 mol}{63.54 \text{g}}×\frac{1000 \text{g}}{\text{kg}}×\frac{ 8.80 \times 10^{3}  \text{kg}}{ {1 \text{m}}^{3}}\\ 
-  n & =&  8.342  \times 10^{28} {e}^{-}{\text{/m}}^{3}\text{.}\end{array} $$
+ $$\begin{array}{lll}n& =& \frac{1 {e}^{-}}{\text{atom}}×\frac{ 6.02 \times 10^{23}  \text{atoms}}{\text{mol}}×\frac{1 mol}{63.54 \text{g}}×\frac{1000 \text{g}}{\text{kg}}×\frac{ 8.80 \times 10^{3}  \text{kg}}{ {1 \text{m}}^{3}}\\
+  n & =&  8.342  \times 10^{28} {e}^{-}{\text{/m}}^{3}\text{.}\end{array}
+$$
+
 </div>
 The cross-sectional area of the wire is
 
@@ -354,29 +358,29 @@ than the charges that carry it.
 
 ### Section Summary
 
-* Electric current $$I $$ is the rate at which charge flows, given by
+- Electric current $$I $$ is the rate at which charge flows, given by
 
   <div class="equation" >
    $$I=\frac{\Delta Q}{\Delta t}\text{,} $$
   </div>
      where
    $$\Delta Q $$ is the amount of charge passing through an area in time
-   $$\Delta t $$ . 
+   $$\Delta t $$ .
 
-* The direction of conventional current is taken as the direction in which
+- The direction of conventional current is taken as the direction in which
   positive charge moves.
-* The SI unit for current is the ampere (A), where $$1 \text{A}=1 \text{C/s}
+- The SI unit for current is the ampere (A), where $$1 \text{A}=1 \text{C/s}
   \text{.} $$
-* Current is the flow of free charges, such as electrons and ions.
-* Drift velocity $${v}_{\text{d}} $$ is the average speed at which these charges
+- Current is the flow of free charges, such as electrons and ions.
+- Drift velocity $${v}_{\text{d}} $$ is the average speed at which these charges
   move.
-* Current $$I $$ is proportional to drift velocity $${v}_{\text{d}} $$ , as
+- Current $$I $$ is proportional to drift velocity $${v}_{\text{d}} $$ , as
   expressed in the relationship $$I=nqAv_{\text{d}} $$ . Here, $$I $$
   is the current through a wire of cross-sectional area $$A $$ . The wire’s
   material has a free-charge density $$n $$ , and each carrier has charge $$q $$
   and a drift velocity $${v}_{\text{d}} $$ .
 
-* Electrical signals travel at speeds about $$ 10^{12} $$ times greater than the
+- Electrical signals travel at speeds about $$ 10^{12} $$ times greater than the
   drift velocity of free electrons.
 
 ### Conceptual Questions
@@ -570,7 +574,7 @@ The spark lasts for 1.50 μs, which is sufficient to ignite the fuel-air mixture
 <div class="problem" markdown="1">
 (a) A defibrillator sends a 6.00-A current through the chest of a patient by applying a 10 000-V potential as in the figure below. What is the resistance of the path? (b) The defibrillator paddles make contact with the patient through a conducting gel that greatly reduces the path resistance. Discuss the difficulties that would ensue if a larger voltage were used to produce the same current through the patient, but with the path having perhaps 50 times the resistance. (Hint: The current must be about the same, so a higher voltage would imply greater power. Use this equation for power:  $$P={I}^{2}R $$ .)
 
-![Figure represents a defibrillation unit used on a patient. The circuit is also represented. It shows a capacitor driving a current through the chest of a patient. The opposite plates of the capacitor are marked as positive Q and negative Q. The direction of current in the connecting wires from the capacitor to the defibrillation unit is shown in a clockwise direction with an arrow on the wire, and the direction of electrons is shown opposite to this direction with an arrow.](../resources/Figure_20_01_07.jpg "The capacitor in a defibrillation unit drives a current through the heart of a patient.")
+![Figure represents a defibrillation unit used on a patient. The circuit is also represented. It shows a capacitor driving a current through the chest of a patient. The opposite plates of the capacitor are marked as positive Q and negative Q. The direction of current in the connecting wires from the capacitor to the defibrillation unit is shown in a clockwise direction with an arrow on the wire, and the direction of electrons is shown opposite to this direction with an arrow.](../resources/Figure_20_01_07.jpg 'The capacitor in a defibrillation unit drives a current through the heart of a patient.')
 {: #Figure7}
 
 </div>
@@ -622,7 +626,8 @@ A voltage of 5.00 V should be applied to produce the required 10.0-mA current th
 <div class="solution" markdown="1">
 (a) 0.120 C
 
-(b)  $$ 7.50 \times 10^{17} \text{electrons} $$
+(b) $$ 7.50 \times 10^{17} \text{electrons} $$
+
 </div>
 </div>
 
@@ -840,7 +845,7 @@ A current of 27.8 A flows through the 14-gauge copper wire when the drift veloci
 <div class="problem" markdown="1">
 SPEAR, a storage ring about 72.0 m in diameter at the Stanford Linear Accelerator (closed in 2009), has a 20.0-A circulating beam of electrons that are moving at nearly the speed of light. (See [[Figure 8]](#Figure8).) How many electrons are in the beam?
 
-![The circuit shows a doughnut shaped storage ring called SPEAR. The cross sections of ring are marked as A and are represented as dotted circular sections. The diameter of storage ring as measured between diametrically opposite cross sections on both ends is seventy two meters. The current in the ring is given as twenty amps. The direction of current I is shown opposite to the direction of movement of electrons e using arrows.](../resources/Figure_20_01_08.jpg "Electrons circulating in the storage ring called SPEAR constitute a 20.0-A current. Because they travel close to the speed of light, each electron completes many orbits in each second.")
+![The circuit shows a doughnut shaped storage ring called SPEAR. The cross sections of ring are marked as A and are represented as dotted circular sections. The diameter of storage ring as measured between diametrically opposite cross sections on both ends is seventy two meters. The current in the ring is given as twenty amps. The direction of current I is shown opposite to the direction of movement of electrons e using arrows.](../resources/Figure_20_01_08.jpg 'Electrons circulating in the storage ring called SPEAR constitute a 20.0-A current. Because they travel close to the speed of light, each electron completes many orbits in each second.')
 {: #Figure8}
 
 </div>

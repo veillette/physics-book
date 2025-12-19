@@ -19,19 +19,19 @@ individual resistances in ohms do not simply add. Because inductors and
 capacitors behave in opposite ways, they partially to totally cancel each
 other’s effect. [[Figure 1]](#Figure1) shows an *RLC*series circuit with
 an AC voltage source, the behavior of which is the subject of this section. The
-crux of the analysis of an *RLC* circuit is the frequency dependence of $${X}_
+crux of the analysis of an _RLC_ circuit is the frequency dependence of $${X}_
 {L} $$ and $${X}_{C} $$ , and the effect they have on the phase of voltage
 versus current (established in the preceding section). These give rise to the
 frequency dependence of the circuit, with important “resonance” features that
 are the basis of many applications, such as radio tuners.
 
-![The figure describes an R LC series circuit. It shows a resistor R connected in series with an inductor L, connected to a capacitor C in series to an A C source V. The voltage of the A C source is given by V equals V zero sine two pi f t. The voltage across R is V R, across L is V L and across C is V C.](../resources/Figure_23_12_01.jpg "An RLC series circuit with an AC voltage source.")
+![The figure describes an R LC series circuit. It shows a resistor R connected in series with an inductor L, connected to a capacitor C in series to an A C source V. The voltage of the A C source is given by V equals V zero sine two pi f t. The voltage across R is V R, across L is V L and across C is V C.](../resources/Figure_23_12_01.jpg 'An RLC series circuit with an AC voltage source.')
 {: #Figure1}
 
 The combined effect of resistance $$R $$ , inductive reactance $${X}_{L} $$ ,
 and capacitive reactance $${X}_{C} $$ is defined to be **impedance**{: class="
 term"}, an AC analogue to resistance in a DC circuit. Current, voltage, and
-impedance in an *RLC* circuit are related by an AC version of Ohm’s law:
+impedance in an _RLC_ circuit are related by an AC version of Ohm’s law:
 
 <div class="equation" >
  $${I}_{0}=\frac{ {V}_{0}}{Z} \text{ or } {I}_{\text{rms}}=\frac{ {V}_{\text{rms}}}{Z}\text{.} $$
@@ -62,7 +62,7 @@ the current, $${V}_{L} $$ leads by $$90 ^\circ $$ , and $${V}_{C} $$ follows
 by $$90 ^\circ $$ . Thus $${V}_{L} $$ and $${V}_{C} $$ are $$180 ^\circ $$
 out of phase (crest to trough) and tend to cancel, although not completely
 unless they have the same magnitude. Since the peak voltages are not aligned (
-not in phase), the peak voltage $${V}_{0} $$ of the source does *not* equal the
+not in phase), the peak voltage $${V}_{0} $$ of the source does _not_ equal the
 sum of the peak voltages across $$R $$ , $$L $$ , and $$C $$ . The actual
 relationship is
 
@@ -88,11 +88,11 @@ $${I}_{0} $$ cancels to yield an expression for $$Z $$ \:
  $$Z=\sqrt{ {R}^{2}+{\left( {X}_{L}-{X}_{C} \right)}^{2}}\text{,} $$
 </div>
 
-which is the impedance of an *RLC* series AC circuit. For circuits without a
+which is the impedance of an _RLC_ series AC circuit. For circuits without a
 resistor, take $$R=0 $$ ; for those without an inductor, take $${X}_{L}=0 $$ ;
 and for those without a capacitor, take $${X}_{C}=0 $$.
 
-![The figure shows graphs showing the relationships of the voltages in an RLC circuit to the current. It has five graphs on the left and two graphs on the right. The first graph on the right is for current I versus time t. Current is plotted along Y axis and time is along X axis. The curve is a smooth progressive sine wave. The second graph is on the right is for voltage V R versus time t. Voltage V R is plotted along Y axis and time is along X axis. The curve is a smooth progressive sine wave. The third graph is on the right is for voltage V L versus time t. Voltage V L is plotted along Y axis and time is along X axis. The curve is a smooth progressive cosine wave. The fourth graph is on the right is for voltage V C versus time t. Voltage V C is plotted along Y axis and time t is along X axis. The curve is a smooth progressive cosine wave starting from negative Y axis. The fifth graph shows the voltage V verses time t for the R L C circuit. Voltage V is plotted along Y axis and time t is along X axis. The curve is a smooth progressive sine wave starting from a point near to origin on negative X axis. The first and the fifth graphs are again shown on the right and their amplitudes and phases compared. The current graph is shown to have a lesser amplitude.](../resources/Figure_23_12_02.jpg "This graph shows the relationships of the voltages in an RLC circuit to the current. The voltages across the circuit elements add to equal the voltage of the source, which is seen to be out of phase with the current.")
+![The figure shows graphs showing the relationships of the voltages in an RLC circuit to the current. It has five graphs on the left and two graphs on the right. The first graph on the right is for current I versus time t. Current is plotted along Y axis and time is along X axis. The curve is a smooth progressive sine wave. The second graph is on the right is for voltage V R versus time t. Voltage V R is plotted along Y axis and time is along X axis. The curve is a smooth progressive sine wave. The third graph is on the right is for voltage V L versus time t. Voltage V L is plotted along Y axis and time is along X axis. The curve is a smooth progressive cosine wave. The fourth graph is on the right is for voltage V C versus time t. Voltage V C is plotted along Y axis and time t is along X axis. The curve is a smooth progressive cosine wave starting from negative Y axis. The fifth graph shows the voltage V verses time t for the R L C circuit. Voltage V is plotted along Y axis and time t is along X axis. The curve is a smooth progressive sine wave starting from a point near to origin on negative X axis. The first and the fifth graphs are again shown on the right and their amplitudes and phases compared. The current graph is shown to have a lesser amplitude.](../resources/Figure_23_12_02.jpg 'This graph shows the relationships of the voltages in an RLC circuit to the current. The voltages across the circuit elements add to equal the voltage of the source, which is seen to be out of phase with the current.')
 {: #Figure2}
 
 <div id="Example1" class="example" markdown="1">
@@ -146,7 +146,8 @@ frequency.
 The current $${I}_{\text{rms}} $$ can be found using the AC version of Ohm’s law
 in Equation $${I}_{\text{rms}}={V}_{\text{rms}}/Z $$ \:
 
-$${I}_{\text{rms}}=\frac{ {V}_{\text{rms}}}{Z}=\frac{120 \text{V}}{531 \Omega }=
+$$
+{I}_{\text{rms}}=\frac{ {V}_{\text{rms}}}{Z}=\frac{120 \text{V}}{531 \Omega }=
 0.226 \text{A} $$ at 60.0 Hz
 
 Finally, at 10.0 kHz, we find
@@ -602,10 +603,10 @@ An *RLC* series circuit has a  $$1.00 \text{k}\Omega $$
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 An *RLC* series circuit has a  $$2.50 \Omega $$ resistor, a $$100 \mu\text{H} $$
- inductor, and an  $$80.0 \mu\text{F} $$ capacitor. 
+ inductor, and an  $$80.0 \mu\text{F} $$ capacitor.
 (a) Find the power factor at  $$f=120 \text{Hz} $$ .
-(b) What is the phase angle at 120 Hz? 
-(c) What is the average power at 120 Hz? 
+(b) What is the phase angle at 120 Hz?
+(c) What is the average power at 120 Hz?
 (d) Find the average power at the circuit’s resonant frequency.
 
 </div>
@@ -658,7 +659,8 @@ Referring to [[Example 3]](#Example3), find the average power at 10.0 kHz.
 impedance
 : the AC analogue to resistance in a DC circuit; it is the combined effect of
 resistance, inductive reactance, and capacitive reactance in the form $$Z=\sqrt{
-{R}^{2}+{\left( {X}_{L}-{X}_{C} \right)}^{2}} $$
+{R}^{2}+{\left( {X}_{L}-{X}_{C} \right)}^{2}}
+$$
 
 resonant frequency
 : the frequency at which the impedance in a circuit is at a minimum, and also
