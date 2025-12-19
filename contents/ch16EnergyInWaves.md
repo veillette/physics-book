@@ -263,6 +263,44 @@ is its power output?
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+Power is related to intensity by $$I = \frac{P}{A}$$, so $$P = IA$$. We need to calculate the area of the rectangular head and multiply by the intensity.
+
+**Solution**
+
+Convert dimensions to meters:
+
+<div class="equation">
+ $$\text{Width} = 3.00 \text{ cm} = 0.0300 \text{ m}$$
+</div>
+
+<div class="equation">
+ $$\text{Length} = 5.00 \text{ cm} = 0.0500 \text{ m}$$
+</div>
+
+Calculate the area of the rectangular head:
+
+<div class="equation">
+ $$A = (0.0300)(0.0500) = 1.50 \times 10^{-3} \text{ m}^2$$
+</div>
+
+Calculate power output:
+
+<div class="equation">
+ $$P = IA = (1.50 \times 10^2)(1.50 \times 10^{-3})$$
+</div>
+
+<div class="equation">
+ $$P = 0.225 \text{ W}$$
+</div>
+
+**Discussion**
+
+The power output of 0.225 W (or 225 mW) is typical for medical ultrasound imaging devices. While this seems like a small power, it produces a high intensity (150 W/m²) because the power is concentrated over a small area (15 cm²). Medical ultrasound uses frequencies in the MHz range, which penetrate tissue effectively while remaining safe for diagnostic imaging. The relatively low power prevents tissue heating, making ultrasound safe for frequent use and even for imaging during pregnancy. Therapeutic ultrasound for deep-heat treatment may use higher powers to deliberately heat tissue.
+
+**Answer**
+
 0.225 W
 
 </div>
@@ -318,6 +356,40 @@ To increase intensity of a wave by a factor of 50, by what factor should the amp
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+The intensity of a wave is proportional to the square of its amplitude: $$I \propto A^2$$. If we want to increase intensity by a factor of 50, we need to find the factor by which amplitude must increase.
+
+**Solution**
+
+Let the original amplitude be $$A_1$$ and the new amplitude be $$A_2$$. The relationship between intensity and amplitude gives:
+
+<div class="equation">
+ $$\frac{I_2}{I_1} = \frac{A_2^2}{A_1^2} = \left(\frac{A_2}{A_1}\right)^2$$
+</div>
+
+We want $$I_2 = 50I_1$$, so:
+
+<div class="equation">
+ $$\frac{I_2}{I_1} = 50 = \left(\frac{A_2}{A_1}\right)^2$$
+</div>
+
+Taking the square root of both sides:
+
+<div class="equation">
+ $$\frac{A_2}{A_1} = \sqrt{50} = \sqrt{25 \times 2} = 5\sqrt{2}$$
+</div>
+
+<div class="equation">
+ $$\frac{A_2}{A_1} = 5(1.414) = 7.07$$
+</div>
+
+**Discussion**
+
+To increase intensity by a factor of 50, the amplitude must increase by a factor of approximately 7.07, which is $$\sqrt{50}$$. This square-root relationship between amplitude and intensity is fundamental to wave physics and follows from the fact that wave energy (and thus intensity) depends on the square of the amplitude. This relationship holds for all types of waves—mechanical waves, electromagnetic waves, and sound waves. For example, to make a sound 50 times more intense, you would need to increase the pressure amplitude of the sound wave by a factor of 7.07, not 50. This is why small increases in amplitude can lead to large increases in perceived loudness or wave energy.
+
+**Answer**
+
 7.07
 
 </div>
@@ -372,6 +444,43 @@ intensity of $$1.30 {\text{kW/m}}^{2}. $$ How long does it take for $$1.8 \times
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+We use the relationship $$I = \frac{P}{A}$$ where power $$P = \frac{E}{t}$$. Combining these gives $$I = \frac{E}{At}$$, which we can solve for time $$t$$.
+
+**Solution**
+
+From $$I = \frac{E}{At}$$, we solve for $$t$$:
+
+<div class="equation">
+ $$t = \frac{E}{IA}$$
+</div>
+
+Substitute the known values:
+- $$E = 1.8 \times 10^9$$ J
+- $$I = 1.30$$ kW/m² = $$1.30 \times 10^3$$ W/m²
+- $$A = 1.00$$ m²
+
+<div class="equation">
+ $$t = \frac{1.8 \times 10^9}{(1.30 \times 10^3)(1.00)} = \frac{1.8 \times 10^9}{1.30 \times 10^3}$$
+</div>
+
+<div class="equation">
+ $$t = 1.38 \times 10^6 \text{ s}$$
+</div>
+
+Convert to days (1 day = 86,400 s):
+
+<div class="equation">
+ $$t = \frac{1.38 \times 10^6}{86,400} = 16.0 \text{ days}$$
+</div>
+
+**Discussion**
+
+It takes 16 days for 1.8 billion joules of solar energy to arrive on a 1 m² area at the top of Earth's atmosphere. This calculation assumes continuous exposure at the given intensity, which represents the solar constant—the intensity of solar radiation at Earth's orbital distance from the Sun. In reality, factors like Earth's rotation (day/night cycles), atmospheric absorption, and cloud cover significantly reduce the actual energy reaching the ground. The large amount of energy (1.8 GJ) accumulated over 16 days demonstrates the vast energy potential of solar radiation, even over a small area. This is equivalent to the energy content of about 50 liters of gasoline, highlighting why solar energy is a promising renewable energy source.
+
+**Answer**
+
 16.0 d
 
 </div>
@@ -383,6 +492,42 @@ Suppose you have a device that extracts energy from ocean breakers in direct pro
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+The intensity of waves is proportional to the square of the amplitude. Since the device extracts power in direct proportion to intensity, and wave height is proportional to amplitude, the power is proportional to the square of the wave height.
+
+**Solution**
+
+The relationship between power and wave height is:
+
+<div class="equation">
+ $$P \propto I \propto A^2 \propto h^2$$
+</div>
+
+where $$h$$ is the wave height. Taking the ratio:
+
+<div class="equation">
+ $$\frac{P_2}{P_1} = \frac{h_2^2}{h_1^2} = \left(\frac{h_2}{h_1}\right)^2$$
+</div>
+
+Substitute the values:
+- $$P_1 = 10.0$$ kW (when $$h_1 = 1.20$$ m)
+- $$h_2 = 0.600$$ m
+
+<div class="equation">
+ $$\frac{P_2}{P_1} = \left(\frac{0.600}{1.20}\right)^2 = \left(\frac{1}{2}\right)^2 = \frac{1}{4}$$
+</div>
+
+<div class="equation">
+ $$P_2 = \frac{1}{4}P_1 = \frac{1}{4}(10.0) = 2.50 \text{ kW}$$
+</div>
+
+**Discussion**
+
+When the wave height is halved (from 1.20 m to 0.600 m), the power output drops to one-quarter of its original value (from 10.0 kW to 2.50 kW). This demonstrates the square relationship between wave amplitude and energy. Ocean wave energy devices face this challenge: their output is highly variable because it depends on the square of wave height. A calm day with half the normal wave height produces only 25% of the power of a stormy day. This variability is one of the engineering challenges in making wave energy economically viable, requiring either energy storage systems or integration with other power sources to provide consistent electricity to the grid.
+
+**Answer**
+
 2.50 kW
 
 </div>
@@ -457,7 +602,42 @@ A microphone receiving a pure sound tone feeds an oscilloscope, producing a wave
 
 </div>
 <div class="solution" markdown="1">
- $$3.38 \times 10^{-5} {\text{W/m}}^{2} $$
+**Strategy**
+
+Since intensity is proportional to the square of amplitude ($$I \propto A^2$$), when the amplitude increases by 30.0% (factor of 1.30), the intensity increases by a factor of $$(1.30)^2$$.
+
+**Solution**
+
+The new amplitude is:
+
+<div class="equation">
+ $$A_2 = 1.30 A_1$$
+</div>
+
+The intensity is proportional to amplitude squared:
+
+<div class="equation">
+ $$\frac{I_2}{I_1} = \left(\frac{A_2}{A_1}\right)^2 = (1.30)^2 = 1.69$$
+</div>
+
+Calculate the new intensity:
+
+<div class="equation">
+ $$I_2 = 1.69 \times I_1 = 1.69 \times (2.00 \times 10^{-5})$$
+</div>
+
+<div class="equation">
+ $$I_2 = 3.38 \times 10^{-5} \text{ W/m}^2$$
+</div>
+
+**Discussion**
+
+When the amplitude increases by 30%, the intensity increases by 69% (from $$2.00 \times 10^{-5}$$ W/m² to $$3.38 \times 10^{-5}$$ W/m²). This is because intensity depends on the square of amplitude. The original intensity corresponds to a fairly quiet sound (about 43 decibels above the threshold of hearing), and the new intensity is moderately louder but still well within safe listening levels. This quadratic relationship means that doubling the amplitude would quadruple the intensity—a significant increase in sound energy. In practical terms, when you turn up the volume on audio equipment and increase the amplitude by 30%, the power consumption and sound intensity increase by 69%, not just 30%.
+
+**Answer**
+
+$$3.38 \times 10^{-5}$$ W/m²
+
 </div>
 </div>
 
