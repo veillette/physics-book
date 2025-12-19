@@ -223,6 +223,34 @@ Storms in the South Pacific can create waves that travel all the way to the Cali
 Waves on a swimming pool propagate at 0.750 m/s. You splash the water at one end of the pool and observe the wave go to the opposite end, reflect, and return in 30.0 s. How far away is the other end of the pool?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The wave travels to the far end and back, so the total distance is twice the pool length. Using $$d = v_w t$$, we can find the total distance, then divide by 2.
+
+**Solution**
+
+Total distance traveled:
+
+<div class="equation">
+ $$d_{\text{total}} = v_w t = (0.750)(30.0) = 22.5 \text{ m}$$
+</div>
+
+Pool length:
+
+<div class="equation">
+ $$L = \frac{d_{\text{total}}}{2} = \frac{22.5}{2} = 11.25 \text{ m} = 11.3 \text{ m}$$
+</div>
+
+**Discussion**
+
+The pool is 11.3 m (about 37 feet) long, which is reasonable for a swimming pool. The wave speed of 0.750 m/s is typical for water waves in a pool. This method of using wave reflections to measure distance is similar to sonar and radar techniques.
+
+**Answer**
+
+11.3 m
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -242,6 +270,32 @@ Wind gusts create ripples on the ocean that have a wavelength of 5.00 cm and pro
 How many times a minute does a boat bob up and down on ocean waves that have a wavelength of 40.0 m and a propagation speed of 5.00 m/s?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The frequency of bobbing equals the wave frequency. We use $$v_w = f\lambda$$ to find the frequency in Hz, then convert to bobs per minute.
+
+**Solution**
+
+<div class="equation">
+ $$f = \frac{v_w}{\lambda} = \frac{5.00}{40.0} = 0.125 \text{ Hz}$$
+</div>
+
+Convert to times per minute:
+
+<div class="equation">
+ $$f = 0.125 \text{ Hz} \times 60 \text{ s/min} = 7.50 \text{ bobs/min}$$
+</div>
+
+**Discussion**
+
+The boat bobs up and down 7.50 times per minute, or about once every 8 seconds. This relatively slow bobbing is characteristic of long-wavelength ocean waves. The boat's vertical motion follows the wave frequency—each wave crest that passes lifts the boat once.
+
+**Answer**
+
+7.50 times per minute
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -259,6 +313,26 @@ Scouts at a camp shake the rope bridge they have just crossed and observe the wa
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 What is the wavelength of the waves you create in a swimming pool if you splash your hand at a rate of 2.00 Hz and the waves propagate at 0.800 m/s?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The frequency of splashing determines the wave frequency. We use $$v_w = f\lambda$$ to find the wavelength.
+
+**Solution**
+
+<div class="equation">
+ $$\lambda = \frac{v_w}{f} = \frac{0.800}{2.00} = 0.400 \text{ m} = 40.0 \text{ cm}$$
+</div>
+
+**Discussion**
+
+When you splash at 2 Hz (twice per second), you create waves with a wavelength of 40 cm. This means the distance between consecutive wave crests is 40 cm. The wavelength is inversely proportional to frequency—splashing faster would create shorter wavelengths, while splashing slower would create longer wavelengths.
+
+**Answer**
+
+0.400 m or 40.0 cm
 
 </div>
 </div>
@@ -281,6 +355,26 @@ Radio waves transmitted through space at  $$ 3.00 \times 10^{8}  \text{m/s} $$
  by the Voyager spacecraft have a wavelength of 0.120 m. What is their frequency?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use the wave equation $$v_w = f\lambda$$ with the speed of light (radio waves are electromagnetic waves).
+
+**Solution**
+
+<div class="equation">
+ $$f = \frac{v_w}{\lambda} = \frac{3.00 \times 10^8}{0.120} = 2.50 \times 10^9 \text{ Hz} = 2.50 \text{ GHz}$$
+</div>
+
+**Discussion**
+
+The Voyager spacecraft transmits at 2.50 GHz, which is in the microwave region of the electromagnetic spectrum (S-band). This frequency is commonly used for deep space communication because it can penetrate Earth's atmosphere relatively well and can be focused into narrow beams for efficient long-distance transmission. The relatively short wavelength (12 cm) allows for compact antenna designs on the spacecraft.
+
+**Answer**
+
+$$2.50 \times 10^9$$ Hz or 2.50 GHz
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -301,6 +395,56 @@ Your ear is capable of differentiating sounds that arrive at the ear just 1.00 m
 
 ![The figure shows a seismograph put on a wooden table. Its top is labeled as "Hands off glass, please". Below it there are some buttons are shown and a paper roller is fitted in the seismograph to print the observation by the machine. On the right and left of the roller, two vertical cable slots are given.](../resources/Figure_16_09_06.jpg 'A seismograph as described in above problem. (credit: Oleg Alexandrov)')
 {: #Figure6}
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For part (a), the time difference between S- and P-wave arrivals depends on distance. We need to find how the uncertainty in time measurement (±0.100 s) translates to uncertainty in distance. For part (b), we evaluate whether this precision is adequate for detecting nuclear test ban violations.
+
+**Solution**
+
+(a) Let $$d$$ be the distance to the epicenter. The arrival times are:
+
+<div class="equation">
+ $$t_P = \frac{d}{v_P} = \frac{d}{7.20}$$
+</div>
+
+<div class="equation">
+ $$t_S = \frac{d}{v_S} = \frac{d}{4.00}$$
+</div>
+
+The time difference is:
+
+<div class="equation">
+ $$\Delta t = t_S - t_P = \frac{d}{4.00} - \frac{d}{7.20} = d\left(\frac{1}{4.00} - \frac{1}{7.20}\right) = d(0.250 - 0.139) = 0.111d$$
+</div>
+
+where $$d$$ is in km and $$\Delta t$$ is in seconds. Solving for $$d$$:
+
+<div class="equation">
+ $$d = \frac{\Delta t}{0.111}$$
+</div>
+
+The uncertainty in distance due to timing precision is:
+
+<div class="equation">
+ $$\delta d = \frac{\delta(\Delta t)}{0.111} = \frac{0.100}{0.111} = 0.901 \text{ km} \approx 0.90 \text{ km}$$
+</div>
+
+(b) **Discussion**: A precision of ±0.90 km (±900 m) is quite good for locating earthquake epicenters or nuclear test sites. For detecting nuclear test ban violations, this precision is generally adequate because:
+- Test sites can typically be located within a region of a few square kilometers
+- Multiple seismograph stations can triangulate the location, improving precision
+- The goal is detection and approximate location, not pinpoint accuracy
+- 900 m uncertainty is small compared to typical distances between potential test sites
+
+However, this precision might be limiting if trying to distinguish between very closely spaced underground facilities. Additionally, uncertainties in S- and P-wave speeds (which vary with geological conditions) can significantly increase the location uncertainty, as noted in the problem.
+
+**Answer**
+
+(a) ±0.90 km or ±900 m
+
+(b) This precision is generally adequate for detecting nuclear test ban violations, though uncertainties in wave speeds can further limit precision.
 
 </div>
 </div>

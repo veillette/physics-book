@@ -274,6 +274,42 @@ The low-frequency speaker of a stereo set has a surface area of  $$ 0.05 {\text{
  and produces 1W of acoustical power. What is the intensity at the speaker? If the speaker projects sound uniformly in all directions, at what distance from the speaker is the intensity  $$ 0.1 {\text{W/m}}^{2} $$ ?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For the first part, intensity is power per unit area. For the second part, if sound projects uniformly in all directions, the power spreads over a spherical surface of area $$4\pi r^2$$.
+
+**Solution**
+
+Intensity at the speaker surface:
+
+<div class="equation">
+ $$I = \frac{P}{A} = \frac{1.0}{0.05} = 20 \text{ W/m}^2$$
+</div>
+
+For uniform spherical radiation, at distance $$r$$:
+
+<div class="equation">
+ $$I = \frac{P}{4\pi r^2}$$
+</div>
+
+Solving for $$r$$ when $$I = 0.1 \text{ W/m}^2$$:
+
+<div class="equation">
+ $$r = \sqrt{\frac{P}{4\pi I}} = \sqrt{\frac{1.0}{4\pi(0.1)}} = \sqrt{\frac{1.0}{1.257}} = \sqrt{0.796} = 0.89 \text{ m}$$
+</div>
+
+**Discussion**
+
+The intensity at the speaker surface is 20 W/m², which is quite high for acoustic power. As the sound spreads out spherically, the intensity decreases with the square of the distance. At about 89 cm (less than 1 meter) from the speaker, the intensity has already dropped to 0.1 W/m², demonstrating how rapidly sound intensity diminishes with distance. This is why you need to be relatively close to speakers to hear them clearly.
+
+**Answer**
+
+Intensity at speaker: 20 W/m²
+
+Distance for 0.1 W/m²: 0.89 m or 89 cm
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -294,6 +330,34 @@ To increase intensity of a wave by a factor of 50, by what factor should the amp
 A device called an insolation meter is used to measure the intensity of sunlight
 has an area of 100 cm<sup>2</sup> and registers 6.50 W. What is the intensity in
 $${\text{W/m}}^{2} $$ ?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Intensity is power divided by area. We need to convert the area from cm² to m².
+
+**Solution**
+
+Convert area to m²:
+
+<div class="equation">
+ $$A = 100 \text{ cm}^2 = 100 \times 10^{-4} \text{ m}^2 = 0.0100 \text{ m}^2$$
+</div>
+
+Calculate intensity:
+
+<div class="equation">
+ $$I = \frac{P}{A} = \frac{6.50}{0.0100} = 650 \text{ W/m}^2$$
+</div>
+
+**Discussion**
+
+The measured intensity of 650 W/m² is consistent with typical sunlight intensity on Earth's surface, which ranges from about 600-1000 W/m² depending on time of day, weather, and atmospheric conditions. This is less than the approximately 1300 W/m² that arrives at the top of the atmosphere because some solar energy is absorbed and scattered by the atmosphere. Insolation meters are important for evaluating solar panel locations and for meteorological measurements.
+
+**Answer**
+
+650 W/m²
 
 </div>
 </div>
@@ -336,6 +400,54 @@ must pay for itself in two years of operation averaging 10.0 hours per day?
 Assume that it earns money at the rate of 9.00 ¢ per kilowatt-hour.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For part (a), the electrical power output equals the incident solar power times the efficiency. For part (b), we calculate the total energy produced over two years and multiply by the rate to find the revenue.
+
+**Solution**
+
+(a) The incident power on the array is $$P_{\text{incident}} = IA$$. The electrical power output is:
+
+<div class="equation">
+ $$P_{\text{out}} = \eta \times P_{\text{incident}} = \eta \times IA$$
+</div>
+
+Solving for area:
+
+<div class="equation">
+ $$A = \frac{P_{\text{out}}}{\eta I} = \frac{100}{(0.100)(700)} = \frac{100}{70} = 1.43 \text{ m}^2$$
+</div>
+
+(b) Energy produced per day:
+
+<div class="equation">
+ $$E_{\text{day}} = P_{\text{out}} \times t = 100 \text{ W} \times 10.0 \text{ h} = 1.00 \text{ kWh}$$
+</div>
+
+Energy produced in two years (730 days):
+
+<div class="equation">
+ $$E_{\text{total}} = 1.00 \times 730 = 730 \text{ kWh}$$
+</div>
+
+Revenue at 9.00 ¢/kWh:
+
+<div class="equation">
+ $$\text{Revenue} = 730 \times 0.0900 = \$65.70$$
+</div>
+
+**Discussion**
+
+An array area of 1.43 m² (about 1.2 m × 1.2 m) is quite modest and could fit on a small portion of a roof. However, the maximum cost of only $65.70 for a two-year payback is unrealistically low—actual solar panels cost hundreds to thousands of dollars. This problem illustrates why solar power has historically required subsidies or higher electricity rates to be economically viable. With typical electricity rates of 9 ¢/kWh, a small 100 W system would take many years to pay for itself. Higher electricity rates, government incentives, or longer amortization periods make solar more economically attractive.
+
+**Answer**
+
+(a) 1.43 m²
+
+(b) $65.70
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -359,6 +471,58 @@ circular spot 2.00 mm in diameter in 4.00 s? (b) Discuss how this intensity
 compares to the average intensity of sunlight (about $$700 {\text{W/m}}^{2} $$ )
 and the implications that would have if the laser beam entered your eye. Note
 how your answer depends on the time duration of the exposure.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For part (a), if 90% is absorbed and deposits 500 J, the total incident energy is 500/0.90 J. We then find power and divide by the area of the circular spot to get intensity. For part (b), we compare to sunlight intensity and consider eye safety.
+
+**Solution**
+
+(a) Total incident energy:
+
+<div class="equation">
+ $$E_{\text{incident}} = \frac{E_{\text{absorbed}}}{0.90} = \frac{500}{0.90} = 556 \text{ J}$$
+</div>
+
+Power of the laser beam:
+
+<div class="equation">
+ $$P = \frac{E_{\text{incident}}}{t} = \frac{556}{4.00} = 139 \text{ W}$$
+</div>
+
+Area of the circular spot (diameter = 2.00 mm = 0.00200 m):
+
+<div class="equation">
+ $$A = \pi r^2 = \pi(0.00100)^2 = 3.14 \times 10^{-6} \text{ m}^2$$
+</div>
+
+Intensity:
+
+<div class="equation">
+ $$I = \frac{P}{A} = \frac{139}{3.14 \times 10^{-6}} = 4.43 \times 10^7 \text{ W/m}^2$$
+</div>
+
+(b) **Discussion**: This intensity is approximately:
+
+<div class="equation">
+ $$\frac{4.43 \times 10^7}{700} = 6.3 \times 10^4 \text{ times more intense than sunlight!}$$
+</div>
+
+This is about 63,000 times more intense than sunlight. If such a laser beam entered your eye, it would cause immediate and severe damage to the retina, potentially leading to instant and permanent blindness. Even a brief exposure (fraction of a second) could cause irreversible damage because:
+
+1. The eye's lens focuses light onto a tiny spot on the retina, further concentrating the intensity
+2. The retina has no pain receptors, so damage occurs before you can react
+3. The extreme intensity can burn tissue almost instantaneously
+
+This illustrates why medical lasers require extreme safety precautions, protective eyewear, and trained operators. The high intensity needed for surgical applications makes these lasers extremely dangerous if misused.
+
+**Answer**
+
+(a) $$4.43 \times 10^7 \text{ W/m}^2$$ or 44.3 MW/m²
+
+(b) This is approximately 63,000 times more intense than sunlight and would cause immediate, permanent eye damage if the beam entered the eye.
 
 </div>
 </div>

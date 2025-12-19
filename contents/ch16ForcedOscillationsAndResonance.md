@@ -143,7 +143,33 @@ How much energy must the shock absorbers of a 1200-kg car dissipate in order to 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 If a car has a suspension system with a force constant of  $$ 5.00 \times 10^{4}  \text{N/m} $$ ,
- how much energy must the car’s shocks remove to dampen an oscillation starting with a maximum displacement of 0.0750 m?
+ how much energy must the car's shocks remove to dampen an oscillation starting with a maximum displacement of 0.0750 m?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The oscillation starts with maximum displacement, so all the energy is initially stored as elastic potential energy in the suspension. To dampen the oscillation completely (bring it to rest), the shocks must remove all this energy. We use $$\text{PE}_{\text{el}} = \frac{1}{2}kx^2$$.
+
+**Solution**
+
+The initial energy stored in the suspension is:
+
+<div class="equation">
+ $$E = \frac{1}{2}kx^2 = \frac{1}{2}(5.00 \times 10^4)(0.0750)^2$$
+</div>
+
+<div class="equation">
+ $$E = \frac{1}{2}(5.00 \times 10^4)(5.625 \times 10^{-3}) = 141 \text{ J}$$
+</div>
+
+**Discussion**
+
+The shocks must remove 141 J of energy to completely dampen the oscillation. Without shock absorbers, this energy would cause the car to bounce up and down repeatedly. Good shock absorbers dissipate this energy as heat through viscous damping (oil flowing through small orifices), bringing the car quickly back to equilibrium after hitting a bump. The relatively large energy (141 J) for a modest displacement (7.5 cm) reflects the stiff suspension needed to support a car's weight.
+
+**Answer**
+
+141 J
 
 </div>
 </div>
@@ -169,6 +195,62 @@ other damping forces.
 Suppose you have a 0.750-kg object on a horizontal surface connected to a spring that has a force constant of 150 N/m. There is simple friction between the object and surface with a static coefficient of friction  $${\mu }_{\text{s}}=0.100 $$ .
  (a) How far can the spring be stretched without moving the mass? (b) If the object is set into oscillation with an amplitude twice the distance found in part (a), and the kinetic coefficient of friction is  $${\mu }_{\text{k}}=0.0850 $$ ,
  what total distance does it travel before stopping? Assume it starts at the maximum amplitude.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For part (a), the maximum stretch occurs when the spring force equals the maximum static friction force. For part (b), we use energy conservation: the initial elastic potential energy equals the work done by kinetic friction over the total distance traveled.
+
+**Solution**
+
+(a) At the maximum stretch without moving, the spring force equals the static friction force:
+
+<div class="equation">
+ $$kx = \mu_s mg$$
+</div>
+
+<div class="equation">
+ $$x = \frac{\mu_s mg}{k} = \frac{(0.100)(0.750)(9.80)}{150} = \frac{0.735}{150} = 0.00490 \text{ m} = 4.90 \text{ mm}$$
+</div>
+
+(b) The initial amplitude is $$X = 2x = 2(0.00490) = 0.00980 \text{ m}$$
+
+Initial elastic potential energy:
+
+<div class="equation">
+ $$E_i = \frac{1}{2}kX^2 = \frac{1}{2}(150)(0.00980)^2 = 7.20 \times 10^{-3} \text{ J}$$
+</div>
+
+Work done by kinetic friction over total distance $$d$$:
+
+<div class="equation">
+ $$W_f = \mu_k mg \cdot d$$
+</div>
+
+Setting the initial energy equal to the work done by friction:
+
+<div class="equation">
+ $$\frac{1}{2}kX^2 = \mu_k mg \cdot d$$
+</div>
+
+<div class="equation">
+ $$d = \frac{kX^2}{2\mu_k mg} = \frac{(150)(0.00980)^2}{2(0.0850)(0.750)(9.80)}$$
+</div>
+
+<div class="equation">
+ $$d = \frac{0.0144}{1.249} = 0.0115 \text{ m} = 11.5 \text{ mm}$$
+</div>
+
+**Discussion**
+
+In part (a), the spring can only stretch about 5 mm before overcoming static friction—a very small distance. In part (b), with initial amplitude of 9.8 mm, the object travels a total distance of 11.5 mm before friction brings it to rest. This is only slightly more than one complete oscillation because kinetic friction continuously removes energy. The object doesn't oscillate many times like an undamped system would; instead, it quickly comes to rest due to the significant frictional damping.
+
+**Answer**
+
+(a) 4.90 mm or 0.00490 m
+
+(b) 11.5 mm or 0.0115 m
 
 </div>
 </div>
