@@ -17,20 +17,20 @@ chapterNumber: 12
 When you pour yourself a glass of juice, the liquid flows freely and quickly.
 But when you pour syrup on your pancakes, that liquid flows slowly and sticks to
 the pitcher. The difference is fluid friction, both within the fluid itself and
-between the fluid and its surroundings. We call this property of fluids 
-*viscosity*. Juice has low viscosity, whereas syrup has high viscosity. In the
+between the fluid and its surroundings. We call this property of fluids
+_viscosity_. Juice has low viscosity, whereas syrup has high viscosity. In the
 previous sections we have considered ideal fluids with little or no viscosity.
 In this section, we will investigate what factors, including viscosity, affect
 the rate of fluid flow.
 
-The precise definition of viscosity is based on *laminar*, or nonturbulent,
+The precise definition of viscosity is based on _laminar_, or nonturbulent,
 flow. Before we can define viscosity, then, we need to define laminar flow and
 turbulent flow. [[Figure 1]](#Figure1) shows both types of flow. **Laminar**
 flow is characterized by the smooth flow of the fluid in layers that do not mix.
 Turbulent flow, or **turbulence**, is characterized by eddies and swirls that
 mix layers of fluid together.
 
-![Photograph of smoke rising smoothly for a while and then beginning to form swirls and eddies.](../resources/Figure_12_04_01.jpg "Smoke rises smoothly for a while and then begins to form swirls and eddies. The smooth flow is called laminar flow, whereas the swirls and eddies typify turbulent flow. If you watch the smoke (being careful not to breathe on it), you will notice that it rises more rapidly when flowing smoothly than after it becomes turbulent, implying that turbulence poses more resistance to flow. (credit: Creativity103)")
+![Photograph of smoke rising smoothly for a while and then beginning to form swirls and eddies.](../resources/Figure_12_04_01.jpg 'Smoke rises smoothly for a while and then begins to form swirls and eddies. The smooth flow is called laminar flow, whereas the swirls and eddies typify turbulent flow. If you watch the smoke (being careful not to breathe on it), you will notice that it rises more rapidly when flowing smoothly than after it becomes turbulent, implying that turbulence poses more resistance to flow. (credit: Creativity103)')
 {: #Figure1}
 
 [[Figure 2]](#Figure2) shows schematically how laminar and turbulent flow
@@ -38,7 +38,7 @@ differ. Layers flow without mixing when flow is laminar. When there is
 turbulence, the layers mix, and there are significant velocities in directions
 other than the overall direction of flow. The lines that are shown in many
 illustrations are the paths followed by small volumes of fluids. These are
-called *streamlines*. Streamlines are smooth and continuous when flow is
+called _streamlines_. Streamlines are smooth and continuous when flow is
 laminar, but break up and mix when flow is turbulent. Turbulence has two main
 causes. First, any obstruction or sharp corner, such as in a faucet, creates
 turbulence by imparting velocities perpendicular to the flow. Second, high
@@ -47,7 +47,7 @@ between the fluid and its surroundings forms swirls and eddies, if the speed is
 great enough. We shall concentrate on laminar flow for the remainder of this
 section, leaving certain aspects of turbulence for later sections.
 
-![Part a of the figure shows a laminar flow on a fixed smooth surface. The different layers of the liquid are shown as different colored bands along the horizontal surface. The friction is shown to act all along the line separating two layers. The direction of flow of the fluid is toward right and the velocity is shown as v b for layers at the bottom and v t for layers on top. Part b of the figure shows turbulent flow on a surface with some obstruction. The fluid directions are horizontal on smooth path and irregular near the area of the obstruction. The velocity is v on top as well as at the bottom of the fluid.](../resources/Figure_12_04_02.jpg "(a) Laminar flow occurs in layers without mixing. Notice that viscosity causes drag between layers as well as with the fixed surface. (b) An obstruction in the vessel produces turbulence. Turbulent flow mixes the fluid. There is more interaction, greater heating, and more resistance than in laminar flow.")
+![Part a of the figure shows a laminar flow on a fixed smooth surface. The different layers of the liquid are shown as different colored bands along the horizontal surface. The friction is shown to act all along the line separating two layers. The direction of flow of the fluid is toward right and the velocity is shown as v b for layers at the bottom and v t for layers on top. Part b of the figure shows turbulent flow on a surface with some obstruction. The fluid directions are horizontal on smooth path and irregular near the area of the obstruction. The velocity is v on top as well as at the bottom of the fluid.](../resources/Figure_12_04_02.jpg '(a) Laminar flow occurs in layers without mixing. Notice that viscosity causes drag between layers as well as with the fixed surface. (b) An obstruction in the vessel produces turbulence. Turbulent flow mixes the fluid. There is more interaction, greater heating, and more resistance than in laminar flow.')
 {: #Figure2}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -65,7 +65,9 @@ lamina) of fluid in contact with either plate does not move relative to the
 plate, and so the top layer moves at $$v $$ while the bottom layer remains at
 rest. Each successive layer from the top down exerts a force on the one below
 it, trying to drag it along, producing a continuous variation in speed from $$v
-$$ to 0 as shown. Care is taken to ensure that the flow is laminar; that is, the
+
+$$
+to 0 as shown. Care is taken to ensure that the flow is laminar; that is, the
 layers do not mix. The motion in [[Figure 3]](#Figure3) is like a continuous
 shearing motion. Fluids have zero shear strength, but the *rate* at which they
 are sheared is related to the same geometrical factors $$A $$ and $$L $$ as is
@@ -92,7 +94,7 @@ combined into the equation
  $$F=\eta \frac{vA}{L}\text{,} $$
 </div>
 
-which gives us a working definition of fluid **viscosity** $$\eta $$. 
+which gives us a working definition of fluid **viscosity** $$\eta $$.
 Solving for $$\eta $$ gives
 
 <div class="equation" >
@@ -214,7 +216,7 @@ strain on the heart.
 <table id="Table1" aria-describedby="Coefficients of Viscosity of Various Fluids"><caption><span class="title">Coefficients of Viscosity of Various Fluids</span></caption><thead><tr>
             <th>Fluid</th>
             <th>Temperature (ºC)</th>
-            <th>Viscosity 
+            <th>Viscosity
  $$\eta  \text{(mPa·s)} $$</th>
           </tr></thead><tbody><tr>
             <td><strong><em>Gases</em></strong></td>
@@ -389,8 +391,10 @@ Solving for $${P}_{2} $$ yields
  Substituting this and the other known values yields
 
 <div class="equation" >
- $$\begin{array}{lll}{P}_{2}& =& \left[ \frac{8\left( 1.00 \times 10^{-3}  \text{N}\cdot {\text{s/m}}^{2}\right)\left( 2.50 \times 10^{-2}  \text{m}\right)}{\pi { \left( 0.150 \times 10^{-3}  \text{m} \right)}^{4}}\right]  \left( 1.20 \times 10^{-7}  {\text{m}}^{3}\text{/s}\right)+ 1.066 \times 10^{3}  {\text{N/m}}^{2}\\ 
-{P}_{2}& =&  1.62 \times 10^{4}  {\text{N/m}}^{2}\text{.}\end{array} $$
+ $$\begin{array}{lll}{P}_{2}& =& \left[ \frac{8\left( 1.00 \times 10^{-3}  \text{N}\cdot {\text{s/m}}^{2}\right)\left( 2.50 \times 10^{-2}  \text{m}\right)}{\pi { \left( 0.150 \times 10^{-3}  \text{m} \right)}^{4}}\right]  \left( 1.20 \times 10^{-7}  {\text{m}}^{3}\text{/s}\right)+ 1.066 \times 10^{3}  {\text{N/m}}^{2}\\
+{P}_{2}& =&  1.62 \times 10^{4}  {\text{N/m}}^{2}\text{.}\end{array}
+$$
+
 </div>
 **Discussion**
 
@@ -426,7 +430,7 @@ $${P}_{1} $$ must decrease. It is correct to think of flow and resistance as
 causing the pressure to drop from $${P}_{2} $$ to $${P}_{1} $$ . $${P}_{2}-{P}_
 {1}=RQ $$ is valid for both laminar and turbulent flows.
 
-![Figure shows the water distribution system from a water works to homes around that area. The pressure at the pipeline near the water works is shown to have a pressure P two and the pressure at the dividing point were the pipe line splits to corresponding houses the pressure is shown as P one.](../resources/Figure_12_04_06.jpg "During times of heavy use, there is a significant pressure drop in a water main, and \( P_1 \) supplied to users is significantly less than \( P_2 \) created at the water works. If the flow is very small, then the pressure drop is negligible, and \( P_2 \approx P_1 \).")
+![Figure shows the water distribution system from a water works to homes around that area. The pressure at the pipeline near the water works is shown to have a pressure P two and the pressure at the dividing point were the pipe line splits to corresponding houses the pressure is shown as P one.](../resources/Figure_12_04_06.jpg 'During times of heavy use, there is a significant pressure drop in a water main, and ( P_1 ) supplied to users is significantly less than ( P_2 ) created at the water works. If the flow is very small, then the pressure drop is negligible, and ( P_2 \\approx P_1 ).')
 {: #Figure6}
 
 We can use $${P}_{2}-{P}_{1}=RQ $$ to analyze pressure drops occurring in more
@@ -455,7 +459,7 @@ organs by the dilation and constriction of the arteries leading to them and the
 capillaries within them. The sensitivity of flow to tube radius makes this
 flexibility possible over a large range of flow rates.
 
-![Figure is a schematic diagram of the circulatory system. The lungs, heart, arteries and vein systems are shown. The blood is shown to flow from the left atrium through the arteries, then through the veins and back to the right atrium. The flow is also shown from right atrium to the lungs and from lungs back to left atrium. All parts of the system are labeled. Pressure various points of the system all along the movement of blood across various parts are also marked.](../resources/Figure_12_04_07.jpg "Schematic of the circulatory system. Pressure difference is created by the two pumps in the heart and is reduced by resistance in the vessels. Branching of vessels into capillaries allows blood to reach individual cells and exchange substances, such as oxygen and waste products, with them. The system has an impressive ability to regulate flow to individual organs, accomplished largely by varying vessel diameters.")
+![Figure is a schematic diagram of the circulatory system. The lungs, heart, arteries and vein systems are shown. The blood is shown to flow from the left atrium through the arteries, then through the veins and back to the right atrium. The flow is also shown from right atrium to the lungs and from lungs back to left atrium. All parts of the system are labeled. Pressure various points of the system all along the movement of blood across various parts are also marked.](../resources/Figure_12_04_07.jpg 'Schematic of the circulatory system. Pressure difference is created by the two pumps in the heart and is reduced by resistance in the vessels. Branching of vessels into capillaries allows blood to reach individual cells and exchange substances, such as oxygen and waste products, with them. The system has an impressive ability to regulate flow to individual organs, accomplished largely by varying vessel diameters.')
 {: #Figure7}
 
 Each branching of larger vessels into smaller vessels increases the total
@@ -473,33 +477,33 @@ substances with the cells in the capillaries and alveoli in particular.
 
 ### Section Summary
 
-* Laminar flow is characterized by smooth flow of the fluid in layers that do
+- Laminar flow is characterized by smooth flow of the fluid in layers that do
   not mix.
-* Turbulence is characterized by eddies and swirls that mix layers of fluid
+- Turbulence is characterized by eddies and swirls that mix layers of fluid
   together.
-* Fluid viscosity $$\eta $$ is due to friction within a fluid. Representative values are given
-      in [[Table 1]](#Table1). Viscosity has units of $$\left(
+- Fluid viscosity $$\eta $$ is due to friction within a fluid. Representative values are given
+  in [[Table 1]](#Table1). Viscosity has units of $$\left(
       {\text{N/m}}^{2}\right)\text{s} $$ or $$\text{Pa}\cdot \text{s} $$ .
-* Flow is proportional to pressure difference and inversely proportional to
+- Flow is proportional to pressure difference and inversely proportional to
   resistance:
 
   <div class="equation" >
    $$Q=\frac{ {P}_{2}-{P}_{1}}{R}. $$
   </div>
 
-* For laminar flow in a tube, Poiseuille’s law for resistance states that
+- For laminar flow in a tube, Poiseuille’s law for resistance states that
 
   <div class="equation" >
    $$R=\frac{8\eta l}{ \pi r^{4}}. $$
   </div>
 
-* Poiseuille’s law for flow in a tube is
+- Poiseuille’s law for flow in a tube is
 
   <div class="equation" >
    $$Q=\frac{\left({P}_{2}-{P}_{1}\right)\pi {r}^{4}}{8\eta l}. $$
   </div>
 
-* The pressure drop caused by flow and resistance is given by
+- The pressure drop caused by flow and resistance is given by
 
   <div class="equation" >
    $${P}_{2}-{P}_{1}=RQ. $$
@@ -599,7 +603,7 @@ This is why modern plumbing codes require larger supply pipes and pressure-balan
 <div class="problem" markdown="1">
 Plumbing usually includes air-filled tubes near water faucets, as shown in [[Figure 8]](#Figure8). Explain why they are needed and how they work.
 
-![The picture shows water gushing out of a water tap. The faucet in the tap is marked. A pipe connected vertically filled with air is shown at an opening on the water pipe before the tap.](../resources/Figure_12_04_08.jpg "The vertical tube near the water tap remains full of air and serves a useful purpose.")
+![The picture shows water gushing out of a water tap. The faucet in the tap is marked. A pipe connected vertically filled with air is shown at an opening on the water pipe before the tap.](../resources/Figure_12_04_08.jpg 'The vertical tube near the water tap remains full of air and serves a useful purpose.')
 {: #Figure8}
 
 </div>
@@ -1082,10 +1086,10 @@ Consider a river that spreads out in a delta region on its way to the sea. Const
 ### Footnotes
 {: class="footnote-refs-title"}
 
-* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
+- {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
   footnote-ref-link"} <span class="footnote-ref-content">The ratios of the
   viscosities of blood to water are nearly constant between 0ºC and 37ºC.</span>
-* {: class="footnote-ref" #footnote2} [2](#footnote-ref2){: class="
+- {: class="footnote-ref" #footnote2} [2](#footnote-ref2){: class="
   footnote-ref-link"} <span class="footnote-ref-content">See note on Whole
   Blood.</span>
   { data-list-type="bulleted" data-bullet-style="none"}
@@ -1106,11 +1110,11 @@ viscosity
 : the friction in a fluid, defined in terms of the friction between layers
 
 Poiseuille’s law for resistance
-: the resistance to laminar flow of an incompressible fluid in a tube: *R = 8
-ηl/πr<sup>4</sup>*
+: the resistance to laminar flow of an incompressible fluid in a tube: _R = 8
+ηl/πr<sup>4</sup>_
 
 Poiseuille’s law
-: the rate of laminar flow of an incompressible fluid in a tube: *Q = (P<sub>
-2</sub> − P<sub>1</sub>)πr<sup>4</sup>/8ηl*
+: the rate of laminar flow of an incompressible fluid in a tube: _Q = (P<sub>
+2</sub> − P<sub>1</sub>)πr<sup>4</sup>/8ηl_
 
 </div>

@@ -34,7 +34,7 @@ exposure, but the darkening also depends on the type of radiation, so that
 absorbers and other devices must be used to obtain energy, charge, and
 particle-identification information.
 
-![Image shows fingers holding a black strip of film on a radioactive rock.](../resources/Figure_31_02_01.jpg "Film badges contain film similar to that used in  this dental x-ray film and is sandwiched between various absorbers to determine the penetrating ability of the radiation as well as the amount. (credit: Werneuchen, Wikimedia Commons)")
+![Image shows fingers holding a black strip of film on a radioactive rock.](../resources/Figure_31_02_01.jpg 'Film badges contain film similar to that used in  this dental x-ray film and is sandwiched between various absorbers to determine the penetrating ability of the radiation as well as the amount. (credit: Werneuchen, Wikimedia Commons)')
 {: #Figure1}
 
 Another very common **radiation detector** is the **Geiger tube**. The clicking
@@ -53,7 +53,7 @@ ionization to be detected. However, Geiger counters are very useful in producing
 a prompt output that reveals the existence and relative intensity of ionizing
 radiation.
 
-![Image of Geiger counter and its working principle is shown. A small detector with handle is attached to a voltage dial indicator. Voltage applied between the cylinder and wire in a Geiger tube causes ions and electrons produced by incoming radiation passing through the gas-filled cylinder to move towards them.](../resources/Figure_31_02_02.jpg "(a) Geiger counters such as this one are used for prompt monitoring of radiation levels, generally giving only relative intensity and not identifying the type or energy of the radiation. (credit: TimVickers, Wikimedia Commons) (b) Voltage applied between the cylinder and wire in a Geiger tube causes ions and electrons produced by radiation passing through the gas-filled cylinder to move towards them. The resulting current is detected and registered as a count.")
+![Image of Geiger counter and its working principle is shown. A small detector with handle is attached to a voltage dial indicator. Voltage applied between the cylinder and wire in a Geiger tube causes ions and electrons produced by incoming radiation passing through the gas-filled cylinder to move towards them.](../resources/Figure_31_02_02.jpg '(a) Geiger counters such as this one are used for prompt monitoring of radiation levels, generally giving only relative intensity and not identifying the type or energy of the radiation. (credit: TimVickers, Wikimedia Commons) (b) Voltage applied between the cylinder and wire in a Geiger tube causes ions and electrons produced by radiation passing through the gas-filled cylinder to move towards them. The resulting current is detected and registered as a count.')
 {: #Figure2}
 
 Another radiation detection method records light produced when radiation
@@ -82,7 +82,7 @@ proportional to the energy deposited in the scintillator. Very sophisticated
 information can be obtained with scintillators, including energy, charge,
 particle identification, direction of motion, and so on.
 
-![A cylindrical tube contains several curved plates labeled dynodes. Incoming radiation passes through a scintillating material at the top of the cylindrical tube. The photon thus produced generates a photoelectron at the photocathode and the photoelectron is then multiplied by collisions at the several successive dynodes, creating a sizable output electric pulse.](../resources/Figure_31_02_03.jpg "Photomultipliers use the photoelectric effect on the photocathode to convert the light output of a scintillator into an electrical signal. Each successive dynode has a more-positive potential than the last and attracts the ejected electrons, giving them more energy. The number of electrons is thus multiplied at each dynode, resulting in an easily detected output current.")
+![A cylindrical tube contains several curved plates labeled dynodes. Incoming radiation passes through a scintillating material at the top of the cylindrical tube. The photon thus produced generates a photoelectron at the photocathode and the photoelectron is then multiplied by collisions at the several successive dynodes, creating a sizable output electric pulse.](../resources/Figure_31_02_03.jpg 'Photomultipliers use the photoelectric effect on the photocathode to convert the light output of a scintillator into an electrical signal. Each successive dynode has a more-positive potential than the last and attracts the ejected electrons, giving them more energy. The number of electrons is thus multiplied at each dynode, resulting in an easily detected output current.')
 {: #Figure3}
 
 **Solid-state radiation detectors** convert ionization produced in a
@@ -103,7 +103,6 @@ PhET Explorations: Radioactive Dating Game
 Learn about different types of radiometric dating, such as carbon dating. Understand how decay and half life work to enable radiometric dating to work. Play a game that tests your ability to match the percentage of the dating element that remains to the age of the object. 
 {: class="newline"}
 
-
 {: class="newline"}
 
 <div class="media" data-alt="">
@@ -113,7 +112,7 @@ Learn about different types of radiometric dating, such as carbon dating. Unders
 
 ### Section Summary
 
-* Radiation detectors are based directly or indirectly upon the ionization
+- Radiation detectors are based directly or indirectly upon the ionization
   created by radiation, as are the effects of radiation on living and inert
   materials.
 

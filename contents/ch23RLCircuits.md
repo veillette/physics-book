@@ -1,5 +1,5 @@
 ---
-title: "RL Circuits"
+title: 'RL Circuits'
 layout: page
 sectionNumber: 10
 chapterNumber: 23
@@ -17,7 +17,7 @@ the change (Lenz’s law). How long does the opposition last? Current **will** f
 take? [[Figure 1]](#Figure1) shows a switching circuit that can be used to
 examine current through an inductor as a function of time.
 
-![Part a of the figure shows an inductor connected in series with a resistor. The arrangement is connected across a cell by an on and off switch with two positions. When in position one, the battery, resistor, and inductor are in series and a current is established. In position two, the battery is removed and the current stops eventually because of energy loss in the resistor. Part b of the diagram shows the graph when the switch is in position one. It shows a graph for current growth verses time. The current is along the Y axis and the time is along the X axis. The graph shows a smooth rise from origin to a maximum value I zero corresponding to Y axis and value four tau on X axis. Part c of the diagram shows the graph when the switch is in position two. It shows a graph for current decay verses time is shown. The current is along the Y axis and the time is along the X axis. The graph is decreasing curve from a value I zero on Y axis, touching the X axis at a point where value of time equals four tau.](../resources/Figure_23_10_01.jpg "(a) An RL circuit with a switch to turn current on and off. When in position 1, the battery, resistor, and inductor are in series and a current is established. In position 2, the battery is removed and the current eventually stops because of energy loss in the resistor. (b) A graph of current growth versus time when the switch is moved to position 1. (c) A graph of current decay when the switch is moved to position 2.")
+![Part a of the figure shows an inductor connected in series with a resistor. The arrangement is connected across a cell by an on and off switch with two positions. When in position one, the battery, resistor, and inductor are in series and a current is established. In position two, the battery is removed and the current stops eventually because of energy loss in the resistor. Part b of the diagram shows the graph when the switch is in position one. It shows a graph for current growth verses time. The current is along the Y axis and the time is along the X axis. The graph shows a smooth rise from origin to a maximum value I zero corresponding to Y axis and value four tau on X axis. Part c of the diagram shows the graph when the switch is in position two. It shows a graph for current decay verses time is shown. The current is along the Y axis and the time is along the X axis. The graph is decreasing curve from a value I zero on Y axis, touching the X axis at a point where value of time equals four tau.](../resources/Figure_23_10_01.jpg '(a) An RL circuit with a switch to turn current on and off. When in position 1, the battery, resistor, and inductor are in series and a current is established. In position 2, the battery is removed and the current eventually stops because of energy loss in the resistor. (b) A graph of current growth versus time when the switch is moved to position 1. (c) A graph of current decay when the switch is moved to position 2.')
 {: #Figure1}
 
 When the switch is first moved to position 1 (at $$t=0 $$ ), the current is zero
@@ -33,10 +33,10 @@ shown with calculus that
  $$I={I}_{0}\left(1-{e}^{-t/\tau }\right)\text{    (turning on),} $$
 </div>
 
-is the current in an *RL* circuit when switched on (Note the similarity to the
+is the current in an _RL_ circuit when switched on (Note the similarity to the
 exponential behavior of the voltage on a charging capacitor). The initial
 current is zero and approaches $${I}_{0}=V/R $$ with a **characteristic time
-constant**  $$\tau $$ for an *RL* circuit, given by
+constant** $$\tau $$ for an _RL_ circuit, given by
 
 <div class="equation" >
  $$\tau =\frac{L}{R}\text{,} $$
@@ -91,7 +91,7 @@ Calculating Characteristic Time and Current in an *RL* Circuit
 
 **Strategy for (a)**
 
-The time constant for an *RL* circuit is defined by $$\tau =L/R $$.
+The time constant for an _RL_ circuit is defined by $$\tau =L/R $$.
 
 **Solution for (a)**
 
@@ -137,11 +137,11 @@ In summary, when the voltage applied to an inductor is changed, the current also
 changes, **but the change in current lags the change in voltage in an RL
 circuit**.
 In [Reactance, Inductive and Capacitive](../contents/ch23ReactanceInductiveAndCapacitive),
-we explore how an *RL* circuit behaves when a sinusoidal AC voltage is applied.
+we explore how an _RL_ circuit behaves when a sinusoidal AC voltage is applied.
 
 ### Section Summary
 
-* When a series connection of a resistor and an inductor—an *RL* circuit—is
+- When a series connection of a resistor and an inductor—an _RL_ circuit—is
   connected to a voltage source, the time variation of the current is
 
   <div class="equation" >
@@ -149,20 +149,22 @@ we explore how an *RL* circuit behaves when a sinusoidal AC voltage is applied.
   </div>
      where
    $${I}_{0}=V/R $$ is the final current.
-* The characteristic time constant $$\tau $$ is $$\tau =\frac{L}{R} $$ , where
+
+- The characteristic time constant $$\tau $$ is $$\tau =\frac{L}{R} $$ , where
   $$L $$ is the inductance and $$R $$ is the resistance.
-* In the first time constant $$\tau $$ , the current rises from zero to $$
+- In the first time constant $$\tau $$ , the current rises from zero to $$
   0.632{I}_{0} $$ , and 0.632 of the remainder in every subsequent time interval
   $$\tau $$ .
 
-* When the inductor is shorted through a resistor, current decreases as
+- When the inductor is shorted through a resistor, current decreases as
 
   <div class="equation" >
    $$I={I}_{0}{e}^{-t/\tau }\text{    (turning off).} $$
   </div>
      Here
    $${I}_{0} $$ is the initial current.
-* Current falls to $$ 0.368{I}_{0} $$ in the first time interval $$\tau $$ , and
+
+- Current falls to $$ 0.368{I}\_{0} $$ in the first time interval $$\tau $$ , and
   0.368 of the remainder toward zero in each subsequent time $$\tau $$ .
 
 ### Problem Exercises

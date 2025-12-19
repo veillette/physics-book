@@ -15,11 +15,11 @@ law are of special importance, because they are very common. They are also the
 simplest oscillatory systems. **Simple Harmonic Motion** (SHM) is the name given
 to oscillatory motion for a system where the net force can be described by
 Hooke’s law, and such a system is called a **simple harmonic oscillator**. If
-the net force can be described by Hooke’s law and there is no **damping**  (by
+the net force can be described by Hooke’s law and there is no **damping** (by
 friction or other non-conservative forces), then a simple harmonic oscillator
 will oscillate with equal displacement on either side of the equilibrium
 position, as shown for an object on a spring in [[Figure 1]](#Figure1). The
-maximum displacement from equilibrium is called the **amplitude**  $$X $$ . The
+maximum displacement from equilibrium is called the **amplitude** $$X $$ . The
 units for amplitude and displacement are the same, but depend on the type of
 oscillation. For the object on the spring, the units of amplitude and
 displacement are meters; whereas for sound oscillations, they have units of
@@ -35,7 +35,7 @@ Find a bowl or basin that is shaped like a hemisphere on the inside. Place a mar
 
 </div>
 
-![The figure a shows a spring on a frictionless surface attached to a bar or wall from the left side. On the right side of the spring, an object attached to it with mass m, its amplitude is given by X, and X is equal to zero at the equilibrium level. Force F is applied to it from the right side, shown with left direction pointed red arrow and velocity v is equal to zero. A direction point showing the north and west direction is also given alongside this figure as well as with other four figures. In figure b, after the force has been applied the object moves to the left compressing the spring a bit. And the displaced area of the object from its initial point is shown in sketched dots. The F here is equal to zero and the v is max in negative direction. In figure c, the spring has been compressed to the maximum level, and the amplitude is negative X. Now the direction of force changes to the rightward direction, shown with right direction pointed red arrow and the velocity v is zero. In figure d the spring is shown released from the compressed level and the object has moved toward the right side up to the equilibrium level. The F is zero, and the velocity v is maximum. In figure e the spring has been stretched loose to the maximum level and the object has moved to the far right. Now again the velocity here is equal to zero and the direction of force again is to the left hand side, shown here as F is equal to zero.](../resources/Figure_16_03_01.jpg "An object attached to a spring sliding on a frictionless surface is an uncomplicated simple harmonic oscillator. When displaced from equilibrium, the object performs simple harmonic motion that has an amplitude \( X \) and a period \( T \) . The object&#x2019;s maximum speed occurs as it passes through equilibrium. The stiffer the spring is, the smaller the period \( T \) . The greater the mass of the object is, the greater the period \( T \) .")
+![The figure a shows a spring on a frictionless surface attached to a bar or wall from the left side. On the right side of the spring, an object attached to it with mass m, its amplitude is given by X, and X is equal to zero at the equilibrium level. Force F is applied to it from the right side, shown with left direction pointed red arrow and velocity v is equal to zero. A direction point showing the north and west direction is also given alongside this figure as well as with other four figures. In figure b, after the force has been applied the object moves to the left compressing the spring a bit. And the displaced area of the object from its initial point is shown in sketched dots. The F here is equal to zero and the v is max in negative direction. In figure c, the spring has been compressed to the maximum level, and the amplitude is negative X. Now the direction of force changes to the rightward direction, shown with right direction pointed red arrow and the velocity v is zero. In figure d the spring is shown released from the compressed level and the object has moved toward the right side up to the equilibrium level. The F is zero, and the velocity v is maximum. In figure e the spring has been stretched loose to the maximum level and the object has moved to the far right. Now again the velocity here is equal to zero and the direction of force again is to the left hand side, shown here as F is equal to zero.](../resources/Figure_16_03_01.jpg 'An object attached to a spring sliding on a frictionless surface is an uncomplicated simple harmonic oscillator. When displaced from equilibrium, the object performs simple harmonic motion that has an amplitude ( X ) and a period ( T ) . The object’s maximum speed occurs as it passes through equilibrium. The stiffer the spring is, the smaller the period ( T ) . The greater the mass of the object is, the greater the period ( T ) .')
 {: #Figure1}
 
 What is so significant about simple harmonic motion? One special thing is that
@@ -53,7 +53,7 @@ oscillating system. The more massive the system is, the longer the period. For
 example, a heavy person on a diving board bounces up and down more slowly than a
 light one.
 
-In fact, the mass $$m $$ and the force constant $$k $$ are the *only* factors
+In fact, the mass $$m $$ and the force constant $$k $$ are the _only_ factors
 that affect the period and frequency of simple harmonic motion.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -97,7 +97,7 @@ The mass and the force constant are both given.
 
 **Solution**
 
-1. Enter the known values of *k* and *m*\:
+1. Enter the known values of _k_ and _m_\:
    <div class="equation" >
     $$f=\frac{1}{2\pi }\sqrt{\frac{k}{m}}=\frac{1}{2\pi }\sqrt{\frac{ 6.53 \times 10^{4}  \text{N/m}}{900 \text{kg}}}. $$
    </div>
@@ -132,13 +132,13 @@ leaves a wavelike trace of its position on a moving strip of paper. Both waves
 are sine functions. All simple harmonic motion is intimately related to sine and
 cosine waves.
 
-![The figure shows the front right side of a running car on an uneven rough surface which also shows the driver in the driving seat. There is an oscillating sine wave drawn from left to the right side horizontally throughout the figure.](../resources/Figure_16_03_02.jpg "The bouncing car makes a wavelike motion. If the restoring force in the suspension system can be described only by Hooke&#x2019;s law, then the wave is a sine function. (The wave is the trace produced by the headlight as the car moves to the right.)")
+![The figure shows the front right side of a running car on an uneven rough surface which also shows the driver in the driving seat. There is an oscillating sine wave drawn from left to the right side horizontally throughout the figure.](../resources/Figure_16_03_02.jpg 'The bouncing car makes a wavelike motion. If the restoring force in the suspension system can be described only by Hooke’s law, then the wave is a sine function. (The wave is the trace produced by the headlight as the car moves to the right.)')
 {: #Figure2}
 
-![There are two iron paper roll bars standing vertically with a paper strip stitched from one bar to the other. There is a vertical hanging spring just over the middle of the two bars, perpendicular to the strip of the paper, having an object with mass m tied to it. There is a line graph with amplitude scale as X, zero and negative X on the left side of the paper strip, vertically over each other with their points marked. A perpendicular line is drawn through this amplitude scale toward the right with a point T marked over it, showing the time duration of the amplitude. This line has an oscillating wave drawn through it.](../resources/Figure_16_03_03.jpg "The vertical position of an object bouncing on a spring is recorded on a strip of moving paper, leaving a sine wave.")
+![There are two iron paper roll bars standing vertically with a paper strip stitched from one bar to the other. There is a vertical hanging spring just over the middle of the two bars, perpendicular to the strip of the paper, having an object with mass m tied to it. There is a line graph with amplitude scale as X, zero and negative X on the left side of the paper strip, vertically over each other with their points marked. A perpendicular line is drawn through this amplitude scale toward the right with a point T marked over it, showing the time duration of the amplitude. This line has an oscillating wave drawn through it.](../resources/Figure_16_03_03.jpg 'The vertical position of an object bouncing on a spring is recorded on a strip of moving paper, leaving a sine wave.')
 {: #Figure3}
 
-The displacement as a function of time *t* in any simple harmonic motion—that
+The displacement as a function of time _t_ in any simple harmonic motion—that
 is, one in which the net restoring force can be described by Hooke’s law, is
 given by
 
@@ -177,7 +177,9 @@ direction to $$x\left(t\right) $$.
 
 [[Figure 4]](#Figure4) shows the simple harmonic motion of an object on a spring and
 presents graphs of $$x\left(t\right),v\left(t\right), $$ and $$a\left(t\right)
-$$ versus time.
+
+$$
+versus time.
 
 ![In the figure at the top there are ten springboards with objects of different mass values tied to them. This makes some springs highly compressed some as loosely stretched and some at equilibrium, which are shown as red spherical shaped. Alongside the figure there is a scale given for different amplitude values as x equal to positive X, zero and negative X. the upward and downward pointing arrows are shown with a few springboards. In the second figure there are three graphs. The first graph shows distance covered in form of a sine wave starting from a point x units on positive y-axis. The height of the wave above x-axis is marked as amplitude. The gap between two consecutive crests is marked as T. Below first graph there is another graph showing velocity in form of a sine wave starting from the origin downward. In the third graph below the second one, acceleration is shown in the form of sine wave starting from x units on the negative y-axis upward. In the last figure three position of a spring are shown. The first position shows the unstretched length of a spring pendulum. A hand is holding the bob of the pendulum. In the second position the equilibrium position of the spring and bob is shown. This position is lower the first one. In the third case the up and down oscillations of the spring pendulum are shown. The bob is moving x units in upward and downward directions alternatively.](../resources/Figure_16_03_04.jpg "Graphs of \( x(t),v(t) \) and\( a(t) \) versus \( t \) for the motion of an object on a spring. The net force on the object can be described by Hooke&#x2019;s law, and so the object undergoes simple harmonic motion. Note that the initial position has the vertical displacement at its maximum value \( X \) ; \( v \) is initially zero and then negative as the object moves down; and the initial acceleration is negative, back toward the equilibrium position and becomes zero at that point.")
 {: #Figure4 height="575"}
@@ -245,7 +247,8 @@ A realistic mass and spring laboratory. Hang masses from springs and adjust the 
   t}{T} $$ , where $${v}_{\text{max}}=\sqrt{k/m}X $$ .
 
 * The acceleration is found to be $$a\left(t\right)=-\frac{kX}{m} \cos
-  \frac{2\pi t}{T}. $$
+  \frac{2\pi t}{T}.
+$$
 
 ### Conceptual Questions
 
@@ -380,7 +383,7 @@ child’s maximum velocity if the amplitude of her bounce is 0.200 m?
 <div class="problem" markdown="1">
 A 90.0-kg skydiver hanging from a parachute bounces up and down with a period of 1.50 s. What is the new period of oscillation when a second skydiver, whose mass is 60.0 kg, hangs from the legs of the first, as seen in [[Figure 6]](#Figure6).
 
-![The figure shows two skydivers midway through the air, with both with open having their parachutes open.](../resources/Figure_16_03_06.jpg "The oscillations of one skydiver are about to be affected by a second skydiver. (credit: U.S. Army, www.army.mil)")
+![The figure shows two skydivers midway through the air, with both with open having their parachutes open.](../resources/Figure_16_03_06.jpg 'The oscillations of one skydiver are about to be affected by a second skydiver. (credit: U.S. Army, www.army.mil)')
 {: #Figure6}
 
 </div>

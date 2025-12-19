@@ -23,18 +23,18 @@ irregularity of the blockage, as well as the complexity of blood as a fluid.
 Turbulence in the circulatory system is noisy and can sometimes be detected with
 a stethoscope, such as when measuring diastolic pressure in the upper arm’s
 partially collapsed brachial artery. These turbulent sounds, at the onset of
-blood flow when the cuff pressure becomes sufficiently small, are called 
-*Korotkoff sounds*. Aneurysms, or ballooning of arteries, create significant
+blood flow when the cuff pressure becomes sufficiently small, are called
+_Korotkoff sounds_. Aneurysms, or ballooning of arteries, create significant
 turbulence and can sometimes be detected with a stethoscope. Heart murmurs,
 consistent with their name, are sounds produced by turbulent flow around damaged
 and insufficiently closed heart valves. Ultrasound can also be used to detect
 turbulence as a medical indicator in a process analogous to Doppler-shift radar
 used to detect storms.
 
-![Figure shows a rectangular section of a blood vessel. The blood flow is shown toward right. The blood vessel is shown to be broader at one end and narrow toward the opposite end. The flow is shown to be laminar as shown by horizontal parallel lines. The velocity is v one in the broader section of blood vessel. The junction where the tube narrows the velocity is v two. The lines of flow are shown to bend. The regions where the blood vessels are narrow, the flow is shown to be turbulent as shown to by curling arrows. The velocity is given by v three toward right. The length of the arrows depicting the velocities represent that v three is greater than v two greater than v one.](../resources/Figure_12_05_01.jpg "Flow is laminar in the large part of this blood vessel and turbulent in the part narrowed by plaque, where velocity is high. In the transition region, the flow can oscillate chaotically between laminar and turbulent flow.")
+![Figure shows a rectangular section of a blood vessel. The blood flow is shown toward right. The blood vessel is shown to be broader at one end and narrow toward the opposite end. The flow is shown to be laminar as shown by horizontal parallel lines. The velocity is v one in the broader section of blood vessel. The junction where the tube narrows the velocity is v two. The lines of flow are shown to bend. The regions where the blood vessels are narrow, the flow is shown to be turbulent as shown to by curling arrows. The velocity is given by v three toward right. The length of the arrows depicting the velocities represent that v three is greater than v two greater than v one.](../resources/Figure_12_05_01.jpg 'Flow is laminar in the large part of this blood vessel and turbulent in the part narrowed by plaque, where velocity is high. In the transition region, the flow can oscillate chaotically between laminar and turbulent flow.')
 {: #Figure1}
 
-An indicator called the **Reynolds number**  $${N}_{\text{R}} $$ can reveal
+An indicator called the **Reynolds number** $${N}_{\text{R}} $$ can reveal
 whether flow is laminar or turbulent. For flow in a tube of uniform diameter,
 the Reynolds number is defined as
 
@@ -91,8 +91,8 @@ Under the conditions of normal activity, an adult inhales about 1 L of air durin
 </div>
 
 The topic of chaos has become quite popular over the last few decades. A system
-is defined to be *chaotic* when its behavior is so sensitive to some factor that
-it is extremely difficult to predict. The field of *chaos* is the study of
+is defined to be _chaotic_ when its behavior is so sensitive to some factor that
+it is extremely difficult to predict. The field of _chaos_ is the study of
 chaotic behavior. A good example of chaotic behavior is the flow of a fluid with
 a Reynolds number between 2000 and 3000. Whether or not the flow is turbulent is
 difficult, but not impossible, to predict—the difficulty lies in the extremely
@@ -104,14 +104,14 @@ similar techniques.
 
 ### Section Summary
 
-* The Reynolds number $${N}_{\text{R}} $$ can reveal whether flow is laminar or
+- The Reynolds number $${N}_{\text{R}} $$ can reveal whether flow is laminar or
   turbulent. It is
 
   <div class="equation" >
    $${N}_{\text{R}}=\frac{2\rho vr}{\eta }. $$
   </div>
 
-* For $${N}_{\text{R}} $$ below about 2000, flow is laminar. For $${N}_
+- For $${N}_{\text{R}} $$ below about 2000, flow is laminar. For $${N}_
   {\text{R}} $$ above about 3000, flow is turbulent. For values of $${N}_
   {\text{R}} $$ between 2000 and 3000, it may be either or both.
 
@@ -148,7 +148,7 @@ Both factors compound the problem: the narrowing directly increases resistance, 
 <div class="problem"  markdown="1">
 Sink drains often have a device such as that shown in [[Figure 2]](#Figure2) to help speed the flow of water. How does this work?
 
-![Shows a picture of a small ring shaped section of a cylinder. It is shown to be partitioned in to four equal portions.](../resources/Figure_12_05_02.jpg "You will find devices such as this in many drains. They significantly increase flow rate.")
+![Shows a picture of a small ring shaped section of a cylinder. It is shown to be partitioned in to four equal portions.](../resources/Figure_12_05_02.jpg 'You will find devices such as this in many drains. They significantly increase flow rate.')
 {: #Figure2}
 
 </div>

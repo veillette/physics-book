@@ -24,8 +24,10 @@ of an object. Unlike simple friction, the drag force is proportional to some
 function of the velocity of the object in that fluid. This functionality is
 complicated and depends upon the shape of the object, its size, its velocity,
 and the fluid it is in. For most large objects such as bicyclists, cars, and
-baseballs not moving too slowly, the magnitude of the drag force $$ F_{\text{D}}
-$$ is found to be proportional to the square of the speed of the object. We can
+baseballs not moving too slowly, the magnitude of the drag force $$ F\_{\text{D}}
+
+$$
+is found to be proportional to the square of the speed of the object. We can
 write this relationship mathematically as $$ F_{\text{D}}\propto v^{2} $$. When
 taking into account other factors, this relationship becomes
 
@@ -169,7 +171,9 @@ drag coefficient of approximately $$ C=0.70 $$. We find that
 v&=& \sqrt{\frac{2\left(75 \kg \right)\left(9.80 \mss \right)}{\left(1.21 \kg/\m^{3}\right)\left(0.70\right)\left(0.18 \mm\right)}}\\
 v&=& 98 \ms \\
 v&=& 350 \text{km/h}.
-\end{array} $$
+\end{array}
+$$
+
 </div>
 
 This means a skydiver with a mass of 75 kg achieves a maximum terminal velocity
@@ -200,11 +204,11 @@ Find the terminal velocity of an 85-kg skydiver falling in a spread-eagle positi
 
 **Strategy**
 
-At terminal velocity,$$ F_{\text{net}}=0 $$. Thus the drag force on the skydiver
+At terminal velocity,$$ F\_{\text{net}}=0 $$. Thus the drag force on the skydiver
 must equal the force of gravity (the person’s weight). Using the equation of
 drag force, we find $$ mg =\frac{1}{2}\rho C A v^{2} $$.
 
-Thus the terminal velocity $$ v_{t} $$ can be written as
+Thus the terminal velocity $$ v\_{t} $$ can be written as
 
 <div class="equation">
  $$ v_{\text{t}}=\sqrt{\frac{2mg }{\rho C A}}. $$
@@ -230,7 +234,7 @@ v_{\text{t}}&=& 44 \ms .
 
 **Discussion**
 
-This result is consistent with the value for $$ v_{\text{t}} $$ mentioned
+This result is consistent with the value for $$ v\_{\text{t}} $$ mentioned
 earlier. The 75-kg skydiver going feet first had a $$ v=98 \ms $$. He weighed
 less but had a smaller frontal area and so a smaller drag due to the air.
 
@@ -246,7 +250,7 @@ The following interesting quote on animal size and terminal velocity is from a
 1928 essay by a British biologist, J.B.S. Haldane, titled “On Being the Right
 Size.”
 
-*To the mouse and any smaller animal, \[gravity\] presents practically no
+_To the mouse and any smaller animal, \[gravity\] presents practically no
 dangers. You can drop a mouse down a thousand-yard mine shaft; and, on arriving
 at the bottom, it gets a slight shock and walks away, provided that the ground
 is fairly soft. A rat is killed, a man is broken, and a horse splashes. For the
@@ -254,7 +258,7 @@ resistance presented to movement by the air is proportional to the surface of
 the moving object. Divide an animal’s length, breadth, and height each by ten;
 its weight is reduced to a thousandth, but its surface only to a hundredth. So
 the resistance to falling in the case of the small animal is relatively ten
-times greater than the driving force.*
+times greater than the driving force._
 
 The above quadratic dependence of air drag upon velocity does not hold if the
 object is very small, is going very slow, or is in a denser medium than air.
@@ -300,7 +304,7 @@ streamlined pattern (see [Figure 4](#Figure4)). In humans, one important example
 streamlining is the shape of sperm, which need to be efficient in their use of
 energy.
 
-![Geese flying across the sky in a V formation.](../resources/Figure_05_02_04.jpg "Geese fly in a V formation during their long migratory travels. This shape reduces drag and energy consumption for individual birds, and also allows them a better way to communicate. (credit: Julo, Wikimedia Commons)")
+![Geese flying across the sky in a V formation.](../resources/Figure_05_02_04.jpg 'Geese fly in a V formation during their long migratory travels. This shape reduces drag and energy consumption for individual birds, and also allows them a better way to communicate. (credit: Julo, Wikimedia Commons)')
 {: #Figure4}
 
 <div class="note" data-label="" markdown="1">
@@ -332,7 +336,7 @@ Masses and Springs
 
 ### Section Summary
 
-* Drag forces acting on an object moving in a fluid oppose the motion. For
+- Drag forces acting on an object moving in a fluid oppose the motion. For
   larger objects (such as a baseball) moving at a velocity $$ v $$ in air, the
   drag force is given by
   <div class="equation">
@@ -343,7 +347,7 @@ where $$ C $$ is the drag coefficient (typical values are given
 in [Table 1](#Table1)), $$ A $$ is the area of the object facing the fluid, and
 $$ \rho $$ is the fluid density.
 
-* For small objects (such as a bacterium)
+- For small objects (such as a bacterium)
   moving in a denser medium (such as water), the drag force is given by Stokes’
   law,
   <div class="equation">
@@ -403,7 +407,7 @@ second and kilometers per hour) of an 80.0-kg skydiver falling in a pike
 
 **Strategy**
 
-At terminal velocity, the drag force equals the weight, so acceleration is zero. We use the drag force equation $$ F_{\text{D}} = \frac{1}{2}C\rho Av^2 $$ and set it equal to $$ mg $$ to solve for $$ v $$. For a pike (headfirst) position, we use the drag coefficient $$ C = 0.70 $$ from Table 1 (skydiver feet first). The density of air is $$ \rho = 1.21 \text{ kg/m}^3 $$.
+At terminal velocity, the drag force equals the weight, so acceleration is zero. We use the drag force equation $$ F\_{\text{D}} = \frac{1}{2}C\rho Av^2 $$ and set it equal to $$ mg $$ to solve for $$ v $$. For a pike (headfirst) position, we use the drag coefficient $$ C = 0.70 $$ from Table 1 (skydiver feet first). The density of air is $$ \rho = 1.21 \text{ kg/m}^3 $$.
 
 **Solution**
 
@@ -461,11 +465,13 @@ We assume both skydivers have similar body proportions, so their frontal areas i
 **Solution**
 
 Using the terminal velocity formula:
+
 <div class="equation">
 $$ v_t = \sqrt{\frac{2mg}{C\rho A}} $$
 </div>
 
 For the 60-kg skydiver:
+
 <div class="equation">
 $$ v_{t,60} = \sqrt{\frac{2(60 \kg)(9.80 \mss)}{(0.70)(1.21 \text{ kg/m}^3)(0.14 \mm)}} $$
 </div>
@@ -474,6 +480,7 @@ $$ v_{t,60} = \sqrt{\frac{1176 \N}{0.1187 \text{ kg/m}}} = \sqrt{9907 \text{ m}^
 </div>
 
 For the 90-kg skydiver:
+
 <div class="equation">
 $$ v_{t,90} = \sqrt{\frac{2(90 \kg)(9.80 \mss)}{(0.70)(1.21 \text{ kg/m}^3)(0.14 \mm)}} $$
 </div>
@@ -484,11 +491,13 @@ $$ v_{t,90} = \sqrt{\frac{1764 \N}{0.1187 \text{ kg/m}}} = \sqrt{14860 \text{ m}
 Time to reach ground (distance = 6000 m):
 
 For 60-kg skydiver:
+
 <div class="equation">
 $$ t_{60} = \frac{6000 \m}{99.5 \ms} = 60.3 \s $$
 </div>
 
 For 90-kg skydiver:
+
 <div class="equation">
 $$ t_{90} = \frac{6000 \m}{122 \ms} = 49.2 \s $$
 </div>
@@ -532,11 +541,13 @@ $$ v_t = \sqrt{\frac{10.98}{0.1125}} = \sqrt{97.6} \approx 10 \ms $$
 </div>
 
 Note: The answer of 25 m/s may use a smaller effective drag coefficient or consider that the squirrel doesn't present as much area as assumed. With a more realistic $$ C \approx 0.4 $$ for a streamlined falling squirrel:
+
 <div class="equation">
 $$ v_t = \sqrt{\frac{10.98}{(0.4)(1.21)(0.0930)}} = \sqrt{244} \approx 16 \ms $$
 </div>
 
 For the person falling 5.0 m without drag:
+
 <div class="equation">
 $$ v = \sqrt{2gh} = \sqrt{2(9.80 \mss)(5.0 \m)} = \sqrt{98} = 9.9 \ms $$
 </div>
@@ -564,17 +575,19 @@ Assume all values are accurate to three significant digits.
 
 **Strategy**
 
-We use the drag force equation $$ F_{\text{D}} = \frac{1}{2}C\rho Av^2 $$. From Table 1, the Toyota Camry has $$ C = 0.28 $$ and the Hummer H2 has $$ C = 0.64 $$. We use $$ \rho = 1.21 \text{ kg/m}^3 $$ for air density. First convert speeds from km/h to m/s.
+We use the drag force equation $$ F\_{\text{D}} = \frac{1}{2}C\rho Av^2 $$. From Table 1, the Toyota Camry has $$ C = 0.28 $$ and the Hummer H2 has $$ C = 0.64 $$. We use $$ \rho = 1.21 \text{ kg/m}^3 $$ for air density. First convert speeds from km/h to m/s.
 
 **Solution**
 
 Convert speeds:
+
 - 70 km/h = 70 × (1000/3600) = 19.44 m/s
 - 100 km/h = 100 × (1000/3600) = 27.78 m/s
 
 (a) Toyota Camry ($$ C = 0.28 $$, $$ A = 0.70 \mm $$):
 
 At 70 km/h (19.44 m/s):
+
 <div class="equation">
 $$ F_{\text{D}} = \frac{1}{2}(0.28)(1.21 \text{ kg/m}^3)(0.70 \mm)(19.44 \ms)^2 $$
 </div>
@@ -583,6 +596,7 @@ $$ F_{\text{D}} = \frac{1}{2}(0.28)(1.21)(0.70)(378) = 44.8 \N $$
 </div>
 
 At 100 km/h (27.78 m/s):
+
 <div class="equation">
 $$ F_{\text{D}} = \frac{1}{2}(0.28)(1.21)(0.70)(27.78)^2 $$
 </div>
@@ -593,6 +607,7 @@ $$ F_{\text{D}} = \frac{1}{2}(0.28)(1.21)(0.70)(772) = 91.4 \N $$
 (b) Hummer H2 ($$ C = 0.64 $$, $$ A = 2.44 \mm $$):
 
 At 70 km/h (19.44 m/s):
+
 <div class="equation">
 $$ F_{\text{D}} = \frac{1}{2}(0.64)(1.21)(2.44)(19.44)^2 $$
 </div>
@@ -601,6 +616,7 @@ $$ F_{\text{D}} = \frac{1}{2}(0.64)(1.21)(2.44)(378) = 357 \N $$
 </div>
 
 At 100 km/h (27.78 m/s):
+
 <div class="equation">
 $$ F_{\text{D}} = \frac{1}{2}(0.64)(1.21)(2.44)(27.78)^2 $$
 </div>
@@ -629,6 +645,7 @@ Since drag force is proportional to $$ v^2 $$, and all other factors (C, ρ, A) 
 **Solution**
 
 The factor by which drag increases is:
+
 <div class="equation">
 $$ \frac{F_{\text{D,110}}}{F_{\text{D,65}}} = \frac{v_{110}^2}{v_{65}^2} = \left(\frac{110 \text{ km/h}}{65 \text{ km/h}}\right)^2 $$
 </div>
@@ -660,19 +677,22 @@ For part (a), we use kinematics without air resistance: $$ v = \sqrt{2gh} $$. Fo
 **Solution**
 
 First, calculate the raindrop's properties:
+
 - Diameter: 4 mm, so radius $$ r = 2 \text{ mm} = 0.002 \m $$
 - Cross-sectional area: $$ A = \pi r^2 = \pi(0.002)^2 = 1.257 \times 10^{-5} \mm $$
 - Volume: $$ V = \frac{4}{3}\pi r^3 = \frac{4}{3}\pi(0.002)^3 = 3.35 \times 10^{-8} \text{ m}^3 $$
 - Mass: $$ m = \rho V = (1.00 \times 10^3 \text{ kg/m}^3)(3.35 \times 10^{-8} \text{ m}^3) = 3.35 \times 10^{-5} \kg $$
 
 (a) Speed without air drag:
+
 <div class="equation">
 $$ v = \sqrt{2gh} = \sqrt{2(9.80 \mss)(5000 \m)} = \sqrt{98000} = 313 \ms $$
 </div>
 
 (b) Terminal velocity with air drag:
 
-Using $$ C = 0.45 $$ and $$ \rho_{\text{air}} = 1.21 \text{ kg/m}^3 $$:
+Using $$ C = 0.45 $$ and $$ \rho\_{\text{air}} = 1.21 \text{ kg/m}^3 $$:
+
 <div class="equation">
 $$ v_t = \sqrt{\frac{2mg}{C\rho_{\text{air}} A}} $$
 </div>
@@ -699,7 +719,7 @@ Using Stokes' law, verify that the units for viscosity are kilograms per meter p
 
 **Strategy**
 
-Stokes' law states $$ F_{\s} = 6\pi r\eta v $$. We solve this equation for viscosity $$ \eta $$ and then perform dimensional analysis to verify the units.
+Stokes' law states $$ F\_{\s} = 6\pi r\eta v $$. We solve this equation for viscosity $$ \eta $$ and then perform dimensional analysis to verify the units.
 
 **Solution**
 
@@ -743,14 +763,14 @@ $$ 1.10\times 10^{3} \text{kg/m}^{3} $$.
 
 **Strategy**
 
-For such a small object moving slowly through a viscous fluid, Stokes' law applies: $$ F_{\s} = 6\pi r\eta v $$. At terminal velocity, the drag force equals the weight minus the buoyant force. The viscosity of water is $$ \eta = 1.002 \times 10^{-3} \text{ kg/(m·s)} $$ at 20°C.
+For such a small object moving slowly through a viscous fluid, Stokes' law applies: $$ F\_{\s} = 6\pi r\eta v $$. At terminal velocity, the drag force equals the weight minus the buoyant force. The viscosity of water is $$ \eta = 1.002 \times 10^{-3} \text{ kg/(m·s)} $$ at 20°C.
 
 **Solution**
 
 1. Calculate the bacterium's properties:
    - Radius: $$ r = 1.00 \text{ μm} = 1.00 \times 10^{-6} \m $$
    - Volume: $$ V = \frac{4}{3}\pi r^3 = \frac{4}{3}\pi(1.00 \times 10^{-6})^3 = 4.19 \times 10^{-18} \text{ m}^3 $$
-   - Mass: $$ m = \rho_{\text{bact}} V = (1.10 \times 10^3)(4.19 \times 10^{-18}) = 4.61 \times 10^{-15} \kg $$
+   - Mass: $$ m = \rho\_{\text{bact}} V = (1.10 \times 10^3)(4.19 \times 10^{-18}) = 4.61 \times 10^{-15} \kg $$
 
 2. Calculate the effective weight (weight minus buoyancy):
 <div class="equation">
@@ -795,7 +815,7 @@ It takes 12 s to fall a distance of 0.60 m. Calculate the viscosity of the oil.
 
 **Strategy**
 
-The ball bearing reaches terminal velocity quickly and falls at constant speed. We can determine this speed from the distance and time. At terminal velocity, Stokes' drag equals the effective weight (weight minus buoyancy). Motor oil has a density of approximately $$ \rho_{\text{oil}} \approx 900 \text{ kg/m}^3 $$.
+The ball bearing reaches terminal velocity quickly and falls at constant speed. We can determine this speed from the distance and time. At terminal velocity, Stokes' drag equals the effective weight (weight minus buoyancy). Motor oil has a density of approximately $$ \rho\_{\text{oil}} \approx 900 \text{ kg/m}^3 $$.
 
 **Solution**
 
@@ -835,6 +855,7 @@ $$ \eta = \frac{9.54 \times 10^{-4}}{1.41 \times 10^{-3}} = 0.68 \text{ kg/(m·s
 Using the given answer of 0.76 kg/(m·s), the calculation may assume a different oil density or neglect buoyancy:
 
 Without buoyancy correction:
+
 <div class="equation">
 $$ W = \rho_{\text{steel}}Vg = (7800)(1.41 \times 10^{-8})(9.80) = 1.08 \times 10^{-3} \N $$
 </div>
@@ -854,8 +875,9 @@ The viscosity of the motor oil is approximately $$ 0.76 \text{ kg/(m·s)} $$ or 
 {: class="glossary-title"}
 
 drag force
-: $$ F_{\text{D}} $$, found to be proportional to the square of the speed of the
+: $$ F\_{\text{D}} $$, found to be proportional to the square of the speed of the
 object; mathematically
+
   <div class="equation">
  $$ F_{\text{D}}\propto {v}^{2} $$
   </div>
@@ -867,7 +889,7 @@ where $$ C $$ is the drag coefficient, $$ A $$ is the area of the object facing
 the fluid, and $$ \rho $$ is the density of the fluid
 
 Stokes’ law
-: $$ F_{s}=6 \pi r \eta v $$, where $$ r $$ is the radius of the object, $$ \eta
+: $$ F\_{s}=6 \pi r \eta v $$, where $$ r $$ is the radius of the object, $$ \eta
 $$ is the viscosity of the fluid, and $$ v $$ is the object’s velocity
 
 </div>

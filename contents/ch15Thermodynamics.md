@@ -5,7 +5,7 @@ sectionNumber: 0
 chapterNumber: 15
 ---
 
-![A steam engine and several passenger cars are shown traveling down a train track. The train has some people on board.](../resources/Figure_15_00_01.webp "A steam engine uses heat transfer to do work. (credit: Gerald Friedrich, Pixabay)")
+![A steam engine and several passenger cars are shown traveling down a train track. The train has some people on board.](../resources/Figure_15_00_01.webp 'A steam engine uses heat transfer to do work. (credit: Gerald Friedrich, Pixabay)')
 {: #Figure1}
 
 Heat transfer is energy in transit, and it can be used to do work. It can also
@@ -29,5 +29,5 @@ more interesting, and reveals much about the nature of heat transfer.
 Basic physical laws govern how heat transfer for doing work takes place and
 place insurmountable limits onto its efficiency. This chapter will explore these
 laws as well as many applications and concepts associated with them. These
-topics are part of *thermodynamics*—the study of heat transfer and its
+topics are part of _thermodynamics_—the study of heat transfer and its
 relationship to doing work.

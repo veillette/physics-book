@@ -20,7 +20,7 @@ is converted to kinetic energy. Let us explore the work done on a charge $$q $$
 by the electric field in this process, so that we may develop a definition of
 electric potential energy.
 
-![A charge plus q moves from a positive to a negative sheet of charge. The change in the electric potential energy equals the change in kinetic energy. This is similar to the change from gravitational potential energy to kinetic energy when an object of mass m rolls downhill.](../resources/Figure_19_01_01.jpg "A charge accelerated by an electric field is analogous to a mass going down a hill. In both cases potential energy is converted to another form. Work is done by a force, but since this force is conservative, we can write \( W = - \Delta PE \).")
+![A charge plus q moves from a positive to a negative sheet of charge. The change in the electric potential energy equals the change in kinetic energy. This is similar to the change from gravitational potential energy to kinetic energy when an object of mass m rolls downhill.](../resources/Figure_19_01_01.jpg 'A charge accelerated by an electric field is analogous to a mass going down a hill. In both cases potential energy is converted to another form. Work is done by a force, but since this force is conservative, we can write ( W = - \\Delta PE ).')
 {: #Figure1}
 
 The electrostatic or Coulomb force is conservative, which means that the work
@@ -66,7 +66,7 @@ $$ and the direction and magnitude of $$F $$ can be complex for multiple
 charges, for odd-shaped objects, and along arbitrary paths. But we do know that,
 since $$F=qE $$ , the work, and hence $$\Delta \text{PE} $$ , is proportional to
 the test charge $$q. $$ To have a physical quantity that is independent of test
-charge, we define **electric potential**  $$V $$
+charge, we define **electric potential** $$V $$
 (or simply potential, since electric is understood) to be the potential energy
 per unit charge:
 
@@ -87,7 +87,9 @@ This is the electric potential energy per unit charge.
 
 Since PE is proportional to $$q $$ , the dependence on $$q $$ cancels. Thus $$V
 $$ does not depend on $$q $$ . The change in potential energy $$\Delta \text{PE}
-$$ is crucial, and so we are concerned with the difference in potential or
+
+$$
+is crucial, and so we are concerned with the difference in potential or
 potential difference $$\Delta V $$ between two points, where
 
 <div class="equation" >
@@ -353,7 +355,8 @@ accelerated in a vacuum, and neglecting the gravitational force (we will check
 on this assumption later), all of the electrical potential energy is converted
 into kinetic energy. We can identify the initial and final forms of energy to be
 $${\text{KE}}_{i}=0, {\text{KE}}_{f}=½mv^{2}, {\text{PE}}_{i}=qV{\text{, and }}
-\text{PE}_{f}=0. $$
+\text{PE}_{f}=0.
+$$
 
 **Solution**
 
@@ -397,17 +400,17 @@ is considered (accurately) in this example.
 
 ### Section Summary
 
-* Electric potential is potential energy per unit charge.
-* The potential difference between points A and B, $${V}_{B}-{V}_{A} $$ ,
-  defined to be the change in potential energy of a charge  $$q $$ moved from A to B, is equal to the change in potential energy divided by
-      the charge, Potential difference is commonly called voltage, represented
-      by the symbol $$\Delta V $$ .
+- Electric potential is potential energy per unit charge.
+- The potential difference between points A and B, $${V}_{B}-{V}_{A} $$ ,
+  defined to be the change in potential energy of a charge $$q $$ moved from A to B, is equal to the change in potential energy divided by
+  the charge, Potential difference is commonly called voltage, represented
+  by the symbol $$\Delta V $$ .
 
   <div class="equation" >
    $$\Delta V=\frac{\Delta \text{PE}}{q} \text{ and } \Delta\text{PE} = q\Delta V\text{.} $$
   </div>
 
-* An electron volt is the energy given to a fundamental charge accelerated
+- An electron volt is the energy given to a fundamental charge accelerated
   through a potential difference of 1 V. In equation form,
 
   <div class="equation" >
@@ -415,7 +418,7 @@ is considered (accurately) in this example.
      1 \text{eV}& =& 1.60 \times 10^{-19} \text{J} \text{.} \end{array} $$
   </div>
 
-* Mechanical energy is the sum of the kinetic energy and potential energy of a
+- Mechanical energy is the sum of the kinetic energy and potential energy of a
   system, that is, $$\text{KE}+\text{PE}. $$ This sum is a constant.
 
 ### Conceptual Questions
@@ -564,7 +567,9 @@ A battery-operated car utilizes a 12.0 V system. Find the charge the batteries
 must be able to move in order to accelerate the 750 kg car from rest to 25.0
 m/s, make it climb a $$ 2.00 \times 10^{2} \text{m} $$ high hill, and then cause
 it to travel at a constant 25.0 m/s by exerting a $$ 5.00 \times 10^{2} \text{N}
-$$ force for an hour.
+
+$$
+force for an hour.
 
 </div>
 <div class="solution" markdown="1">
@@ -642,3 +647,4 @@ mechanical energy
 constant
 
 </div>
+$$

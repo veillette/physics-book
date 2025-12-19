@@ -25,14 +25,16 @@ upon another, such as the primary coil in transmitting energy to the secondary
 in a transformer. See [[Figure 1]](#Figure1), where simple coils induce emfs in
 one another.
 
-![The figure shows two coils coil one, of five turns and coil two, of four turns are kept adjacent to each other. The magnetic field lines of strength B are shown to pass through the two coils. Coil one is shown to be connected to an A C source. The changing current in the coil one is given as I one in clock wise direction. Coil two is connected to a galvanometer. A change in current in coil one is shown to induce an e m f in coil two. The induced e m f in coil two is measured as a deflection in galvanometer.](../resources/Figure_23_09_01.jpg "These coils can induce emfs in one another like an inefficient transformer. Their mutual inductance M indicates the effectiveness of the coupling between them. Here a change in current in coil 1 is seen to induce an emf in coil 2. (Note that \( E_{2} \) induced represents the induced emf in coil 2.)")
+![The figure shows two coils coil one, of five turns and coil two, of four turns are kept adjacent to each other. The magnetic field lines of strength B are shown to pass through the two coils. Coil one is shown to be connected to an A C source. The changing current in the coil one is given as I one in clock wise direction. Coil two is connected to a galvanometer. A change in current in coil one is shown to induce an e m f in coil two. The induced e m f in coil two is measured as a deflection in galvanometer.](../resources/Figure_23_09_01.jpg 'These coils can induce emfs in one another like an inefficient transformer. Their mutual inductance M indicates the effectiveness of the coupling between them. Here a change in current in coil 1 is seen to induce an emf in coil 2. (Note that ( E_{2} ) induced represents the induced emf in coil 2.)')
 {: #Figure1}
 
 In the many cases where the geometry of the devices is fixed, flux is changed by
 varying current. We therefore concentrate on the rate of change of current,
 $$\Delta I/\Delta t $$ , as the cause of induction. A change in the current
 $${I}_{1} $$ in one device, coil 1 in the figure, induces an $${\text{emf}}_{2}
-$$ in the other. We express this in equation form as
+
+$$
+in the other. We express this in equation form as
 
 <div class="equation" >
  $${\text{emf}}_{2}=-M\frac{\Delta {I}_{1}}{\Delta t}\text{,} $$
@@ -195,12 +197,14 @@ The cross-sectional area in this example is  $$A=\pi r^2=\left( 3.14\text{...}\r
 <div class="equation" >
  $$\begin{array}{lll}
  L& =& \frac{
-        \left(4\pi  \times 10^{-7}  \text{T}\cdot \text{m/A}\right) 
+        \left(4\pi  \times 10^{-7}  \text{T}\cdot \text{m/A}\right)
         \left( 200 \right)^{2}
-        \left( 1.26 \times 10^{-3}  {\text{m}}^{2} \right) 
+        \left( 1.26 \times 10^{-3}  {\text{m}}^{2} \right)
         }
-        {0.100 \text{m}}\\ 
-  L& =& 0.632 \text{mH}\text{.}\end{array} $$
+        {0.100 \text{m}}\\
+  L& =& 0.632 \text{mH}\text{.}\end{array}
+$$
+
 </div>
 **Discussion**
 
@@ -222,7 +226,7 @@ adjusted for sensitivity and also can indicate the approximate location of metal
 found on a person. (But they will not be able to detect any plastic explosive
 such as that found on the “underwear bomber.”) See [[Figure 5]](#Figure5).
 
-![Photograph of people around a security gate at an airport departure terminal.](../resources/Figure_23_09_04.jpg "The familiar security gate at an airport can not only detect metals but also indicate their approximate height above the floor. (credit: Alexbuirds, Wikimedia Commons)")
+![Photograph of people around a security gate at an airport departure terminal.](../resources/Figure_23_09_04.jpg 'The familiar security gate at an airport can not only detect metals but also indicate their approximate height above the floor. (credit: Alexbuirds, Wikimedia Commons)')
 {: #Figure5}
 
 ### Energy Stored in an Inductor
@@ -272,44 +276,45 @@ input is infinite.
 
 ### Section Summary
 
-* Inductance is the property of a device that tells how effectively it induces
+- Inductance is the property of a device that tells how effectively it induces
   an emf in another device.
-* Mutual inductance is the effect of two devices in inducing emfs in each other.
-* A change in current $$\Delta {I}_{1}/\Delta t $$ in one induces an emf
-  $${\text{emf}}_{2} $$ in the second:
+- Mutual inductance is the effect of two devices in inducing emfs in each other.
+- A change in current $$\Delta {I}_{1}/\Delta t $$ in one induces an emf
+  $${\text{emf}}\_{2} $$ in the second:
 
   <div class="equation" >
    $${\text{emf}}_{2}=-M\frac{\Delta {I}_{1}}{\Delta t}\text{,} $$
   </div>
      where
    $$M $$ is defined to be the mutual inductance between the two devices, and the minus sign is due to Lenz’s law.
-* Symmetrically, a change in current $$\Delta {I}_{2}/\Delta t $$ through the
+
+- Symmetrically, a change in current $$\Delta {I}_{2}/\Delta t $$ through the
   second device induces an emf $${\text{emf}}_{1} $$ in the first:
   <div class="equation" >
    $${\text{emf}}_{1}=-M\frac{\Delta {I}_{2}}{\Delta t}\text{,} $$
   </div>
      where
    $$M $$ is the same mutual inductance as in the reverse process.
-*  Current changes in a device induce an emf in the device itself.
-*  Self-inductance is the effect of the device inducing emf in itself.
-*  The device is called an inductor, and the emf **induced in it by a change in current through it is
-  <div class="equation" >
-   $$\text{emf}=-L\frac{\Delta I}{\Delta t}\text{,} $$
-  </div>
-     where
-   $$L $$ is the self-inductance of the inductor, and
-   $$\Delta I/\Delta t $$ is the rate of change of current through it. The minus sign indicates that emf opposes the change in current, as required by Lenz’s law.
-*  The unit of self- and mutual inductance is the henry (H), where
-   $$1 H=1 \Omega \cdot \text{s} $$ .
-*  The self-inductance
-   $$L $$ of an inductor is proportional to how much flux changes with current. For an
-   $$N $$
-    -turn inductor,
-  <div class="equation" >
-   $$L=N\frac{\Delta \Phi }{\Delta I}\text{.} $$
-  </div>
+- Current changes in a device induce an emf in the device itself.
+- Self-inductance is the effect of the device inducing emf in itself.
+- The device is called an inductor, and the emf \*\*induced in it by a change in current through it is
+<div class="equation" >
+ $$\text{emf}=-L\frac{\Delta I}{\Delta t}\text{,} $$
+</div>
+   where
+ $$L $$ is the self-inductance of the inductor, and
+ $$\Delta I/\Delta t $$ is the rate of change of current through it. The minus sign indicates that emf opposes the change in current, as required by Lenz’s law.
+- The unit of self- and mutual inductance is the henry (H), where
+  $$1 H=1 \Omega \cdot \text{s} $$ .
+- The self-inductance
+$$L $$ of an inductor is proportional to how much flux changes with current. For an
+$$N $$
+-turn inductor,
+<div class="equation" >
+ $$L=N\frac{\Delta \Phi }{\Delta I}\text{.} $$
+</div>
 
-* The self-inductance of a solenoid is
+- The self-inductance of a solenoid is
 
   <div class="equation" >
    $$L=\frac{ {\mu }_{0}{N}^{2}A}{\ell }\text{(solenoid),} $$
@@ -318,7 +323,8 @@ input is infinite.
    $$A $$ is its cross-sectional area,
    $$\ell  $$ is its length, and
    $${\text{μ}}_{0}=4\pi  \times 10^{\text{−7}} \text{T}\cdot \text{m/A}  $$ is the permeability of free space.
-* The energy stored in an inductor $${E}_{\text{ind}} $$ is
+
+- The energy stored in an inductor $${E}_{\text{ind}} $$ is
   <div class="equation" >
    $${E}_{\text{ind}}=\frac{1}{2}{\text{LI}}^{2}\text{.} $$
   </div>
@@ -478,7 +484,8 @@ heat is $$200 \text{J/kg·ºC} $$ ?
 <div class="solution" markdown="1">
 (a) 200 H
 
-(b)  $$5.00 \text{ºC} $$
+(b) $$5.00 \text{ºC} $$
+
 </div>
 </div>
 
@@ -514,7 +521,9 @@ inductor
 : a device that exhibits significant self-inductance
 
 energy stored in an inductor
-: self-explanatory; calculated by $${E}_{\text{ind}}=\frac{1}{2}{\text{LI}}^{2}
+: self-explanatory; calculated by $${E}\_{\text{ind}}=\frac{1}{2}{\text{LI}}^{2}
+
 $$
 
 </div>
+$$

@@ -10,7 +10,7 @@ chapterNumber: 16
 * Calculate the velocity of wave propagation.
 </div>
 
-![There is a high tidal wave of about 10 feet high in a sea. Three boats carrying three four persons each are ahead of the wave, which is coming toward them.](../resources/Figure_16_09_01.jpg "Waves in the ocean behave similarly to all other types of waves. (credit: Steve Jurveston, Flickr) ")
+![There is a high tidal wave of about 10 feet high in a sea. Three boats carrying three four persons each are ahead of the wave, which is coming toward them.](../resources/Figure_16_09_01.jpg 'Waves in the ocean behave similarly to all other types of waves. (credit: Steve Jurveston, Flickr) ')
 {: #Figure1}
 
 What do we mean when we say something is a wave? The most intuitive and easiest
@@ -30,14 +30,14 @@ can be described by a small set of underlying principles.
 A wave is a disturbance that propagates, or moves from the place it was created.
 The simplest waves repeat themselves for several cycles and are associated with
 simple harmonic motion. Let us start by considering the simplified water wave
-in [[Figure 2]](#Figure2)*.* The wave is an up and down disturbance of the water
+in [[Figure 2]](#Figure2)_._ The wave is an up and down disturbance of the water
 surface. It causes a sea gull to move up and down in simple harmonic motion as
 the wave crests and troughs (peaks and valleys) pass under the bird. The time
 for one complete up and down motion is the wave’s period $$T $$ . The wave’s
 frequency is $$f=1/T $$ , as usual. The wave itself moves to the right in the
 figure. This movement of the wave is actually the disturbance moving to the
-right, not the water itself (or the bird would move to the right). We define **wave velocity**  $${v}_{\text{w} } $$ to be the speed at which the disturbance
-moves. Wave velocity is sometimes also called the *propagation velocity or propagation speed*, because the disturbance propagates from one
+right, not the water itself (or the bird would move to the right). We define **wave velocity** $${v}_{\text{w} } $$ to be the speed at which the disturbance
+moves. Wave velocity is sometimes also called the _propagation velocity or propagation speed_, because the disturbance propagates from one
 location to another.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -48,10 +48,10 @@ Many people think that water waves push water from one direction to another. In 
 
 </div>
 
-![The figure shows an idealized ocean wave with two crests and two troughs that passes under a sea gull that bobs up and down in simple harmonic motion. The wave has a wavelength lambda which is the distance between adjacent identical parts of the wave. The height of a crest is equal to the depth of the trough that is X, therefore the total vertical distance between the top of a crest and the bottom of the trough is two-X.](../resources/Figure_16_09_02.jpg "An idealized ocean wave passes under a sea gull that bobs up and down in simple harmonic motion. The wave has a wavelength \( \lambda \), which is the distance between adjacent identical parts of the wave. The up and down disturbance of the surface propagates parallel to the surface at a speed \( v_\text{W} \).")
+![The figure shows an idealized ocean wave with two crests and two troughs that passes under a sea gull that bobs up and down in simple harmonic motion. The wave has a wavelength lambda which is the distance between adjacent identical parts of the wave. The height of a crest is equal to the depth of the trough that is X, therefore the total vertical distance between the top of a crest and the bottom of the trough is two-X.](../resources/Figure_16_09_02.jpg 'An idealized ocean wave passes under a sea gull that bobs up and down in simple harmonic motion. The wave has a wavelength ( \\lambda ), which is the distance between adjacent identical parts of the wave. The up and down disturbance of the surface propagates parallel to the surface at a speed ( v_\\text{W} ).')
 {: #Figure2}
 
-The water wave in the figure also has a length associated with it, called its **wavelength**  $$\lambda $$ , the distance between adjacent identical parts of a
+The water wave in the figure also has a length associated with it, called its **wavelength** $$\lambda $$ , the distance between adjacent identical parts of a
 wave. ( $$\lambda $$ is the distance parallel to the direction of propagation.)
 The speed of propagation $${v}_{\text{w} } $$ is the distance the wave travels in
 a given time, which is one wavelength in the time of one period. In equation
@@ -90,17 +90,17 @@ Calculate the wave velocity of the ocean wave in [[Figure 2]](#Figure2) if the d
 
 We are asked to find $${v}_{\text{w} } $$ . The given information tells us that
 $$\lambda = 10.0 \text{m} $$ and $$T= 5.00 \text{s} $$ . Therefore, we can use
-$${v}_{\text{w} }=\frac{\lambda }{T} $$ to find the wave velocity.
+$${v}\_{\text{w} }=\frac{\lambda }{T} $$ to find the wave velocity.
 
 **Solution**
 
-1. Enter the known values into $${v}_{\text{w} }=\frac{\lambda }{T} $$     
+1. Enter the known values into $${v}_{\text{w} }=\frac{\lambda }{T} $$  
    \:
    <div class="equation" >
     $${v}_{\text{w} }=\frac{10.0 \text{m} }{5.00\text{ s} }. $$
    </div>
 
-2. Solve for $${v}_{\text{w} } $$     
+2. Solve for $${v}_{\text{w} } $$  
    to find $${v}_{\text{w} }= 2.00 \text{ m/s.} $$
 
 **Discussion**
@@ -119,16 +119,16 @@ direction while the surface is disturbed in the vertical direction. Such a wave
 is called a **transverse wave** or shear wave; in such a wave, the disturbance
 is perpendicular to the direction of propagation. In contrast, in a **longitudinal wave** or compressional wave, the disturbance is parallel to the
 direction of propagation. [[Figure 4]](#Figure4) shows an example of a
-longitudinal wave. The size of the disturbance is its amplitude *X* and is
+longitudinal wave. The size of the disturbance is its amplitude _X_ and is
 completely independent of the speed of propagation $${v}_{\text{w} } $$.
 
-![The figure shows a woman holding a long spring in her hand and moving it up and down causing it to move in a zigzag manner away from her. It is an example of a transverse wave, the wave propagates horizontally. The direction of motion of the wave is shown with the help of right arrows at each crest and trough.](../resources/Figure_16_09_03.jpg "In this example of a transverse wave, the wave propagates horizontally, and the disturbance in the cord is in the vertical direction.")
+![The figure shows a woman holding a long spring in her hand and moving it up and down causing it to move in a zigzag manner away from her. It is an example of a transverse wave, the wave propagates horizontally. The direction of motion of the wave is shown with the help of right arrows at each crest and trough.](../resources/Figure_16_09_03.jpg 'In this example of a transverse wave, the wave propagates horizontally, and the disturbance in the cord is in the vertical direction.')
 {: #Figure3}
 
-![The figure shows a woman standing at left pushing a long spring in to and fro motion in horizontal direction away from her without moving her hand up and down. The cord stretches and contracts back and forth. This is an example of a longitudinal wave, the wave propagates horizontally. At some points the spring is compressed and at some other points the spring is expanded. One contracted part is equal to the amplitude X.](../resources/Figure_16_09_04.jpg "In this example of a longitudinal wave, the wave propagates horizontally, and the disturbance in the cord is also in the horizontal direction.")
+![The figure shows a woman standing at left pushing a long spring in to and fro motion in horizontal direction away from her without moving her hand up and down. The cord stretches and contracts back and forth. This is an example of a longitudinal wave, the wave propagates horizontally. At some points the spring is compressed and at some other points the spring is expanded. One contracted part is equal to the amplitude X.](../resources/Figure_16_09_04.jpg 'In this example of a longitudinal wave, the wave propagates horizontally, and the disturbance in the cord is also in the horizontal direction.')
 {: #Figure4}
 
-Waves may be transverse, longitudinal, or *a combination of the two*. (Water
+Waves may be transverse, longitudinal, or _a combination of the two_. (Water
 waves are actually a combination of transverse and longitudinal. The simplified
 water wave illustrated in [[Figure 2]](#Figure2) shows no longitudinal motion
 of the bird.) The waves on the strings of musical instruments are transverse—so
@@ -140,7 +140,7 @@ appreciable shear strength, and thus the sound waves in them must be
 longitudinal or compressional. Sound in solids can be both longitudinal and
 transverse.
 
-![The figure shows a guitar connected to an amplifier and a man holding a sheet of paper facing the speaker attached to the amplifier. The strings of the guitar when played cause transverse waves. On the other hand, the sound of the guitar creates ripples on the sheet of paper causing it to rattle in a direction that shows that the sound waves are longitudinal.](../resources/Figure_16_09_05.jpg "The wave on a guitar string is transverse. The sound wave rattles a sheet of paper in a direction that shows the sound wave is longitudinal.")
+![The figure shows a guitar connected to an amplifier and a man holding a sheet of paper facing the speaker attached to the amplifier. The strings of the guitar when played cause transverse waves. On the other hand, the sound of the guitar creates ripples on the sheet of paper causing it to rattle in a direction that shows that the sound waves are longitudinal.](../resources/Figure_16_09_05.jpg 'The wave on a guitar string is transverse. The sound wave rattles a sheet of paper in a direction that shows the sound wave is longitudinal.')
 {: #Figure5}
 
 Earthquake waves under Earth’s surface also have both longitudinal and
@@ -177,14 +177,14 @@ Watch a string vibrate in slow motion. Wiggle the end of the string and make wav
 
 ### Section Summary
 
-* A wave is a disturbance that moves from the point of creation with a wave
+- A wave is a disturbance that moves from the point of creation with a wave
   velocity $${v}_{\text{w}} $$ .
 
-* A wave has a wavelength $$\lambda $$ , which is the distance between adjacent
+- A wave has a wavelength $$\lambda $$ , which is the distance between adjacent
   identical parts of the wave.
-* Wave velocity and wavelength are related to the wave’s frequency and period by
+- Wave velocity and wavelength are related to the wave’s frequency and period by
   $${v}_{\text{w}}=\frac{\lambda }{T} $$ or $${v}_{\text{w}}=f\lambda . $$
-* A transverse wave has a disturbance perpendicular to its direction of
+- A transverse wave has a disturbance perpendicular to its direction of
   propagation, whereas a longitudinal wave has a disturbance parallel to its
   direction of propagation.
 
@@ -299,7 +299,7 @@ Your ear is capable of differentiating sounds that arrive at the ear just 1.00 m
 <div class="problem" markdown="1">
 (a) Seismographs measure the arrival times of earthquakes with a precision of 0.100 s. To get the distance to the epicenter of the quake, they compare the arrival times of S- and P-waves, which travel at different speeds. [[Figure 6]](#Figure6)) If S- and P-waves travel at 4.00 and 7.20 km/s, respectively, in the region considered, how precisely can the distance to the source of the earthquake be determined? (b) Seismic waves from underground detonations of nuclear bombs can be used to locate the test site and detect violations of test bans. Discuss whether your answer to (a) implies a serious limit to such detection. (Note also that the uncertainty is greater if there is an uncertainty in the propagation speeds of the S- and P-waves.)
 
-![The figure shows a seismograph put on a wooden table. Its top is labeled as "Hands off glass, please". Below it there are some buttons are shown and a paper roller is fitted in the seismograph to print the observation by the machine. On the right and left of the roller, two vertical cable slots are given.](../resources/Figure_16_09_06.jpg "A seismograph as described in above problem. (credit: Oleg Alexandrov)")
+![The figure shows a seismograph put on a wooden table. Its top is labeled as "Hands off glass, please". Below it there are some buttons are shown and a paper roller is fitted in the seismograph to print the observation by the machine. On the right and left of the roller, two vertical cable slots are given.](../resources/Figure_16_09_06.jpg 'A seismograph as described in above problem. (credit: Oleg Alexandrov)')
 {: #Figure6}
 
 </div>

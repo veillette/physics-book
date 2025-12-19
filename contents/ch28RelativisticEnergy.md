@@ -12,7 +12,7 @@ chapterNumber: 28
 * Explain why massive particles cannot reach C.
 </div>
 
-![This photo shows the outside of the fusion reactor of the National Spherical Torus Experiment at the Princeton Plasma Physics Laboratory. The reactor, which sits in a large room, is connected to numerous tubes and instruments.](../resources/Figure_28_06_01.jpg "The National Spherical Torus Experiment (NSTX) has a fusion reactor in which hydrogen isotopes undergo fusion to produce helium. In this process, a relatively small mass of fuel is converted into a large amount of energy. (credit: Princeton Plasma Physics Laboratory)")
+![This photo shows the outside of the fusion reactor of the National Spherical Torus Experiment at the Princeton Plasma Physics Laboratory. The reactor, which sits in a large room, is connected to numerous tubes and instruments.](../resources/Figure_28_06_01.jpg 'The National Spherical Torus Experiment (NSTX) has a fusion reactor in which hydrogen isotopes undergo fusion to produce helium. In this process, a relatively small mass of fuel is converted into a large amount of energy. (credit: Princeton Plasma Physics Laboratory)')
 {: #Figure1}
 
 A tokamak is a form of experimental fusion reactor, which can change mass to
@@ -141,7 +141,7 @@ energy in the radioactive salts then being studied, it was many years before
 there was broad recognition that mass could be and, in fact, commonly is
 converted to energy. (See [[Figure 2]](#Figure2).)
 
-![Part a of the figure shows a solar storm on the Sun. Part b of the figure shows the Susquehanna Steam Electric Station, which produces electricity by nuclear fission.](../resources/Figure_28_06_02.jpg "The Sun (a) and the Susquehanna Steam Electric Station (b) both convert mass into energy&#x2014;the Sun via nuclear fusion, the electric station via nuclear fission. (credits: (a) NASA/Goddard Space Flight Center, Scientific Visualization Studio; (b) U.S. government) ")
+![Part a of the figure shows a solar storm on the Sun. Part b of the figure shows the Susquehanna Steam Electric Station, which produces electricity by nuclear fission.](../resources/Figure_28_06_02.jpg 'The Sun (a) and the Susquehanna Steam Electric Station (b) both convert mass into energy—the Sun via nuclear fusion, the electric station via nuclear fission. (credits: (a) NASA/Goddard Space Flight Center, Scientific Visualization Studio; (b) U.S. government) ')
 {: #Figure2}
 
 Because of the relationship of rest energy to mass, we now consider mass to be a
@@ -310,7 +310,7 @@ kinetic energy when $$v \ll c $$.
 
 It is even more interesting to investigate what happens to kinetic energy when
 the velocity of an object approaches the speed of light. We know that $$\gamma
-$$ becomes infinite as $$v $$ approaches $$c $$ , so that $$ \text{KE}_
+$$ becomes infinite as $$v $$ approaches $$c $$ , so that $$ \text{KE}\_
 \text{rel} $$ also becomes infinite as the velocity approaches the speed of
 light. (See [[Figure 3]](#Figure3).) An infinite amount of work (and, hence, an
 infinite amount of energy input) is required to accelerate a mass to the speed
@@ -331,7 +331,7 @@ ultimate speed limit being $$c $$ have been confirmed in detail in numerous
 experiments. No matter how much energy is put into accelerating a mass, its
 velocity can only approach—not reach—the speed of light.
 
-![In this figure a graph is shown on a coordinate system of axes. The x-axis is labeled as speed v (m/s). On the x-axis, velocity of the object is shown in terms of the speed of light starting from zero at origin to c, where c is the speed of light. The y-axis is labeled as Kinetic Energy K E (J). On the y-axis, relativistic kinetic energy is shown starting from 0 at origin to 1.0. The graph K sub r e l of relativistic kinetic energy is concave up and moving upward along the vertical line at x equals c. This graph shows that relativistic kinetic energy approaches infinity as the velocity of an object approaches the speed of light. Also shown is that when the speed of the object is equal to the speed of light c the kinetic energy is known as classical kinetic energy, which is denoted as K E sub class.](../resources/Figure_28_06_03.jpg "This graph of \( \text{KE}_\text{rel} \) versus velocity shows how kinetic energy approaches infinity as velocity approaches the speed of light. It is thus not possible for an object having mass to reach the speed of light. Also shown is \( \text{KE}_\text{class} \), the classical kinetic energy, which is similar to relativistic kinetic energy at low velocities. Note that much more energy is required to reach high velocities than predicted classically. ")
+![In this figure a graph is shown on a coordinate system of axes. The x-axis is labeled as speed v (m/s). On the x-axis, velocity of the object is shown in terms of the speed of light starting from zero at origin to c, where c is the speed of light. The y-axis is labeled as Kinetic Energy K E (J). On the y-axis, relativistic kinetic energy is shown starting from 0 at origin to 1.0. The graph K sub r e l of relativistic kinetic energy is concave up and moving upward along the vertical line at x equals c. This graph shows that relativistic kinetic energy approaches infinity as the velocity of an object approaches the speed of light. Also shown is that when the speed of the object is equal to the speed of light c the kinetic energy is known as classical kinetic energy, which is denoted as K E sub class.](../resources/Figure_28_06_03.jpg 'This graph of ( \\text{KE}_\\text{rel} ) versus velocity shows how kinetic energy approaches infinity as velocity approaches the speed of light. It is thus not possible for an object having mass to reach the speed of light. Also shown is ( \\text{KE}_\\text{class} ), the classical kinetic energy, which is similar to relativistic kinetic energy at low velocities. Note that much more energy is required to reach high velocities than predicted classically. ')
 {: #Figure3}
 
 <div class="example" markdown="1">
@@ -425,7 +425,7 @@ previously unknown particles hint at a basic substructure for all matter. These
 particles and some of their characteristics will be covered
 in [Particle Physics](../contents/ch33ParticlePhysics).
 
-![An aerial view of the Fermi National Accelerator Laboratory. The accelerator has two large, ring shaped structures. There are circular ponds near the rings.](../resources/Figure_28_06_04.jpg "The Fermi National Accelerator Laboratory, near Batavia, Illinois, was a subatomic particle collider that accelerated protons and antiprotons to attain energies up to 1 Tev (a trillion electronvolts). The circular ponds near the rings were built to dissipate waste heat. This accelerator was shut down in September 2011. (credit: Fermilab, Reidar Hahn)")
+![An aerial view of the Fermi National Accelerator Laboratory. The accelerator has two large, ring shaped structures. There are circular ponds near the rings.](../resources/Figure_28_06_04.jpg 'The Fermi National Accelerator Laboratory, near Batavia, Illinois, was a subatomic particle collider that accelerated protons and antiprotons to attain energies up to 1 Tev (a trillion electronvolts). The circular ponds near the rings were built to dissipate waste heat. This accelerator was shut down in September 2011. (credit: Fermilab, Reidar Hahn)')
 {: #Figure4}
 
 </div>
@@ -508,28 +508,28 @@ Answer
 
 ### Section Summary
 
-* Relativistic energy is conserved as long as we define it to include the
+- Relativistic energy is conserved as long as we define it to include the
   possibility of mass changing to energy.
-* Total Energy is defined as:
+- Total Energy is defined as:
   $$E=\gamma mc^{2} $$ , where $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{
   {c}^{2}}}} $$ .
-* Rest energy is $${E}_{0}=mc^{2} $$ , meaning that mass is a form of energy. If
+- Rest energy is $${E}_{0}=mc^{2} $$ , meaning that mass is a form of energy. If
   energy is stored in an object, its mass increases. Mass can be destroyed to
   release energy.
-* We do not ordinarily notice the increase or decrease in mass of an object
+- We do not ordinarily notice the increase or decrease in mass of an object
   because the change in mass is so small for a large increase in energy.
-* The relativistic work-energy theorem is $${W}_{\text{net}}=E-{E}_{0}=\gamma
+- The relativistic work-energy theorem is $${W}_{\text{net}}=E-{E}_{0}=\gamma
   mc^{2}-mc^{2}=\left(\gamma -1\right)mc^{2} $$ .
-* Relativistically, $${W}_{\text{net}}={\text{KE}}_{\text{rel}} $$ , where
-  $${\text{KE}}_{\text{rel}} $$ is the relativistic kinetic energy.
-* Relativistic kinetic energy is $${\text{KE}}_{\text{rel}}=\left(\gamma
+- Relativistically, $${W}_{\text{net}}={\text{KE}}_{\text{rel}} $$ , where
+  $${\text{KE}}\_{\text{rel}} $$ is the relativistic kinetic energy.
+- Relativistic kinetic energy is $${\text{KE}}_{\text{rel}}=\left(\gamma
   -1\right)mc^{2} $$ , where $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{
   {c}^{2}}}} $$. At low velocities, relativistic kinetic energy reduces to
   classical kinetic energy.
-* **No object with mass can attain the speed of light** because an infinite
+- **No object with mass can attain the speed of light** because an infinite
   amount of work and an infinite amount of energy input is required to
   accelerate a mass to the speed of light.
-* The equation $${E}^{2}={\left(pc\right)}^{2}+{\left(mc^{2}\right)}^{2} $$
+- The equation $${E}^{2}={\left(pc\right)}^{2}+{\left(mc^{2}\right)}^{2} $$
   relates the relativistic total energy $$E $$ and the relativistic momentum $$p
   $$. At extremely high velocities, the rest energy $$mc^{2} $$ becomes
   negligible, and $$E=pc $$.
@@ -681,6 +681,7 @@ A muon has a rest mass energy of 105.7 MeV, and it decays into an electron and a
 208
 
 $$0.999988c $$
+
 </div>
 </div>
 

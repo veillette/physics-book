@@ -24,7 +24,7 @@ terms of the laws of physics. Bohr’s theory explained the atomic spectrum of
 hydrogen and established new and broadly applicable principles in quantum
 mechanics.
 
-![A photograph of Niels Bohr.](../resources/Figure_30_03_01.jpg "Niels Bohr, Danish physicist, used the planetary model of the atom to explain the atomic spectrum and size of the hydrogen atom. His many contributions to the development of atomic physics and quantum mechanics, his personal influence on many students and colleagues, and his personal integrity, especially in the face of Nazi oppression, earned him a prominent place in history. (credit: Unknown Author, via Wikimedia Commons)")
+![A photograph of Niels Bohr.](../resources/Figure_30_03_01.jpg 'Niels Bohr, Danish physicist, used the planetary model of the atom to explain the atomic spectrum and size of the hydrogen atom. His many contributions to the development of atomic physics and quantum mechanics, his personal influence on many students and colleagues, and his personal integrity, especially in the face of Nazi oppression, earned him a prominent place in history. (credit: Unknown Author, via Wikimedia Commons)')
 {: #Figure1}
 
 ### Mysteries of Atomic Spectra
@@ -42,7 +42,7 @@ Einstein’s proposal of photons with quantized energies directly proportional t
 their wavelengths, it became even more evident that electrons in atoms can exist
 only in discrete orbits.
 
-![This figure has two parts. Part a shows a discharge tube at the extreme left. Light from the discharge tube passes through a rectangular slit and a grating, going from left to right. From the grating, light of different colors falls on a photographic film. Part b of the figure shows the emission line spectrum for iron.](../resources/Figure_30_03_02.jpg "Part (a) shows, from left to right, a discharge tube, slit, and diffraction grating producing a line spectrum. Part (b) shows the emission line spectrum for iron. The discrete lines imply quantized energy states for the atoms that produce them. The line spectrum for each element is unique, providing a powerful and much used analytical tool, and many line spectra were well known for many years before they could be explained with physics. (credit for (b): Yttrium91, Wikimedia Commons)")
+![This figure has two parts. Part a shows a discharge tube at the extreme left. Light from the discharge tube passes through a rectangular slit and a grating, going from left to right. From the grating, light of different colors falls on a photographic film. Part b of the figure shows the emission line spectrum for iron.](../resources/Figure_30_03_02.jpg 'Part (a) shows, from left to right, a discharge tube, slit, and diffraction grating producing a line spectrum. Part (b) shows the emission line spectrum for iron. The discrete lines imply quantized energy states for the atoms that produce them. The line spectrum for each element is unique, providing a powerful and much used analytical tool, and many line spectra were well known for many years before they could be explained with physics. (credit for (b): Yttrium91, Wikimedia Commons)')
 {: #Figure2}
 
 In some cases, it had been possible to devise formulas that described the
@@ -86,7 +86,7 @@ and theory in physics. Experimentally, the spectra were well established, an
 equation was found to fit the experimental data, but the theoretical foundation
 was missing.
 
-![The figure shows three horizontal lines at small distances from each other. Between the two lower lines, the Lyman series, with four vertical red bands in compact form, is shown. The value of the constant n sub f is 1 and the wavelengths are ninety-one nanometers to one hundred nanometers. The Balmer series is shown to the right side of this series. The value of the constant n sub f is two, and the range of wavelengths is from three hundred sixty five to six hundred fifty six nanometers. At the right side of this, the Paschen series bands are shown. The value of the constant n sub f is three, and the range of the wavelengths is from eight hundred twenty nanometers to one thousand eight hundred and seventy five nanometers.](../resources/Figure_30_03_03.jpg "A schematic of the hydrogen spectrum shows several series named for those who contributed most to their determination. Part of the Balmer series is in the visible spectrum, while the Lyman series is entirely in the UV, and the Paschen series and others are in the IR. Values of \( n_{f} \) and \( n_{f} \) are shown for some of the lines.")
+![The figure shows three horizontal lines at small distances from each other. Between the two lower lines, the Lyman series, with four vertical red bands in compact form, is shown. The value of the constant n sub f is 1 and the wavelengths are ninety-one nanometers to one hundred nanometers. The Balmer series is shown to the right side of this series. The value of the constant n sub f is two, and the range of wavelengths is from three hundred sixty five to six hundred fifty six nanometers. At the right side of this, the Paschen series bands are shown. The value of the constant n sub f is three, and the range of the wavelengths is from eight hundred twenty nanometers to one thousand eight hundred and seventy five nanometers.](../resources/Figure_30_03_03.jpg 'A schematic of the hydrogen spectrum shows several series named for those who contributed most to their determination. Part of the Balmer series is in the visible spectrum, while the Lyman series is entirely in the UV, and the Paschen series and others are in the IR. Values of ( n_{f} ) and ( n_{f} ) are shown for some of the lines.')
 {: #Figure3}
 
 <div class="example" markdown="1">
@@ -125,7 +125,7 @@ Inverting to find  $$\lambda  $$  gives
 
 This is indeed the experimentally observed wavelength, corresponding to the
 second (blue-green) line in the Balmer series. More impressive is the fact that
-the same simple recipe predicts *all* of the hydrogen spectrum lines, including
+the same simple recipe predicts _all_ of the hydrogen spectrum lines, including
 new ones observed in subsequent experiments. What is nature telling us?
 
 **Solution for (b)**
@@ -159,8 +159,8 @@ between slits in commonly used diffraction glasses).
 
 Bohr was able to derive the formula for the hydrogen spectrum using basic
 physics, the planetary model of the atom, and some very important new proposals.
-His first proposal is that only certain orbits are allowed: we say that *the
-orbits of electrons in atoms are quantized*. Each orbit has a different energy,
+His first proposal is that only certain orbits are allowed: we say that _the
+orbits of electrons in atoms are quantized_. Each orbit has a different energy,
 and electrons can move to a higher orbit by absorbing energy and drop to a lower
 orbit by emitting energy. If the orbits are quantized, the amount of energy
 absorbed or emitted is also quantized, producing discrete spectra. Photon
@@ -182,7 +182,7 @@ atomic orbits should be quantized. This is not observed for satellites or
 planets, which can have any orbit given the proper energy. (
 See [[Figure 4]](#Figure4).)
 
-![The orbits of Bohr&#x2019;s planetary model of an atom; five concentric circles are shown. The radii of the circles increase from innermost to outermost circles. On the circles, labels E sub one, E sub two, up to E sub i are marked.](../resources/Figure_30_03_04.jpg "The planetary model of the atom, as modified by Bohr, has the orbits of the electrons quantized. Only certain orbits are allowed, explaining why atomic spectra are discrete (quantized). The energy carried away from an atom by a photon comes from the electron dropping from one allowed orbit to another and is thus quantized. This is likewise true for atomic absorption of photons.")
+![The orbits of Bohr’s planetary model of an atom; five concentric circles are shown. The radii of the circles increase from innermost to outermost circles. On the circles, labels E sub one, E sub two, up to E sub i are marked.](../resources/Figure_30_03_04.jpg 'The planetary model of the atom, as modified by Bohr, has the orbits of the electrons quantized. Only certain orbits are allowed, explaining why atomic spectra are discrete (quantized). The energy carried away from an atom by a photon comes from the electron dropping from one allowed orbit to another and is thus quantized. This is likewise true for atomic absorption of photons.')
 {: #Figure4}
 
 [[Figure 5]](#Figure5) shows an **energy-level diagram**, a convenient way to
@@ -195,7 +195,7 @@ are used for many systems, including molecules and nuclei. A theory of the atom
 or any other system must predict its energies based on the physics of the
 system.
 
-![The energy level diagram is shown. A number of horizontal lines are shown. The lines are labeled from bottom to top as n is equal to one, n is equal to two and so on up to n equals infinity; the energy levels increase from bottom to top. The distance between the lines decreases from the bottom line to the top line. A vertical arrow shows an electron transitioning from n equals four to n equals two.](../resources/Figure_30_03_05.jpg "An energy-level diagram plots energy vertically and is useful in visualizing the energy states of a system and the transitions between them. This diagram is for the hydrogen-atom electrons, showing a transition between two orbits having energies \( E_{4} \) and \( E_{2} \) .")
+![The energy level diagram is shown. A number of horizontal lines are shown. The lines are labeled from bottom to top as n is equal to one, n is equal to two and so on up to n equals infinity; the energy levels increase from bottom to top. The distance between the lines decreases from the bottom line to the top line. A vertical arrow shows an electron transitioning from n equals four to n equals two.](../resources/Figure_30_03_05.jpg 'An energy-level diagram plots energy vertically and is useful in visualizing the energy states of a system and the transitions between them. This diagram is for the hydrogen-atom electrons, showing a transition between two orbits having energies ( E_{4} ) and ( E_{2} ) .')
 {: #Figure5}
 
 Bohr was clever enough to find a way to calculate the electron orbital energies
@@ -209,12 +209,14 @@ has only specific, discrete values. The value for $$L $$ is given by the formula
 </div>
 
 where $$L $$ is the angular momentum, $${m}_{e} $$ is the electron’s mass,
-$${r}_{n} $$ is the radius of the $$n $$ th orbit, and $$h $$ is Planck’s
+$${r}\_{n} $$ is the radius of the $$n $$ th orbit, and $$h $$ is Planck’s
 constant. Note that angular momentum is $$L=\mathrm{I\omega } $$ . For a small
 object at a radius $$r, I={\text{mr}}^{2} $$ and $$\omega =v/r $$ , so that
 $$L=\left({\text{mr}}^{2}\right)\left(v/r\right)=\text{mvr} $$ . Quantization
 says that this value of $$\text{mvr} $$ can only be equal to $$h/2, 2h/2, 3h/2
-$$ , etc. At the time, Bohr himself did not know why angular momentum should be
+
+$$
+, etc. At the time, Bohr himself did not know why angular momentum should be
 quantized, but using this assumption he was able to calculate the energies in
 the hydrogen spectrum, something no one else had done at the time.
 
@@ -642,7 +644,7 @@ A singly ionized helium ion has only one electron and is denoted  $${\text{He}}^
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A beryllium ion with a single electron (denoted  $${\text{Be}}^{3+} $$ ) 
+A beryllium ion with a single electron (denoted  $${\text{Be}}^{3+} $$ )
 is in an excited state with radius the same as that of the ground state of hydrogen.
 
 (a) What is $$n $$ for the $${\text{Be}}^{3+} $$ ion?
@@ -706,7 +708,8 @@ The wavelength of the four Balmer series lines for hydrogen are found to be 410.
 hydrogen spectrum wavelengths
 : the wavelengths of visible light from hydrogen; can be calculated by
 $$\frac{1}{\lambda }=R\left(\frac{1}{ {n}_{\text{f}}^{2}}-\frac{1}{ {n}_
-{\text{i}}^{2}}\right) $$
+{\text{i}}^{2}}\right)
+$$
 
 Rydberg constant
 : a physical constant related to the atomic spectra with an established value of
@@ -729,6 +732,10 @@ hydrogen-like atom
 
 energies of hydrogen-like atoms
 : Bohr formula for energies of electron states in hydrogen-like atoms:
-$${E}_{n}=-\frac{ {Z}^{2}}{ {n}^{2}}{E}_{0}\left(n=1 \text{, 2, 3,} \dots
-\right) $$
+
+$$
+{E}_{n}=-\frac{ {Z}^{2}}{ {n}^{2}}{E}_{0}\left(n=1 \text{, 2, 3,} \dots
+\right)
+$$
+
 </div>

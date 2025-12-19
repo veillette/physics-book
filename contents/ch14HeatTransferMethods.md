@@ -33,7 +33,7 @@ transfer takes place by only three methods:
    absorbed. An obvious example is the warming of the Earth by the Sun. A less
    obvious example is thermal radiation from the human body.
 
-![The figure shows a fireplace in a room. The fireplace is at the lower left side of the figure. There is a window at the right side of the room. From the window cold air enters into the room, and follows some curved blue arrows labeled convection to the fireplace. The air heated by the fire rises up the chimney following some red curved arrows, which are also labeled convection. Yellow wavy lines emanate from the flames of the fire into the room and are labeled radiation. Finally, a black curved line labeled conduction goes from beneath the logs of the fire and points into the floor under the room.](../resources/Figure_14_04_01.jpg "In a fireplace, heat transfer occurs by all three methods: conduction, convection, and radiation. Radiation is responsible for most of the heat transferred into the room. Heat transfer also occurs through conduction into the room, but at a much slower rate. Heat transfer by convection also occurs through cold air entering the room around windows and hot air leaving the room by rising up the chimney.")
+![The figure shows a fireplace in a room. The fireplace is at the lower left side of the figure. There is a window at the right side of the room. From the window cold air enters into the room, and follows some curved blue arrows labeled convection to the fireplace. The air heated by the fire rises up the chimney following some red curved arrows, which are also labeled convection. Yellow wavy lines emanate from the flames of the fire into the room and are labeled radiation. Finally, a black curved line labeled conduction goes from beneath the logs of the fire and points into the floor under the room.](../resources/Figure_14_04_01.jpg 'In a fireplace, heat transfer occurs by all three methods: conduction, convection, and radiation. Radiation is responsible for most of the heat transferred into the room. Heat transfer also occurs through conduction into the room, but at a much slower rate. Heat transfer by convection also occurs through cold air entering the room around windows and hot air leaving the room by rising up the chimney.')
 {: #Figure1 height="250"}
 
 We examine these methods in some detail in the three following modules. Each
@@ -52,7 +52,7 @@ Name an example from daily life (different from the text) for each mechanism of 
 <div class="solution" data-print-placement="here" markdown="1">
 Conduction: Heat transfers into your hands as you hold a hot cup of coffee.
 
-Convection: Heat transfers as the barista “steams” cold milk to make hot *cocoa*
+Convection: Heat transfers as the barista “steams” cold milk to make hot _cocoa_
 .
 
 Radiation: Reheating a cold cup of coffee in a microwave oven.
@@ -62,7 +62,7 @@ Radiation: Reheating a cold cup of coffee in a microwave oven.
 
 ### Summary
 
-* Heat is transferred by three different methods: conduction, convection, and
+- Heat is transferred by three different methods: conduction, convection, and
   radiation.
 
 ### Conceptual Questions
@@ -84,7 +84,7 @@ heat transfer. Explain the functions of the various parts, such as the vacuum,
 the silvering of the walls, the thin-walled long glass neck, the rubber support,
 the air layer, and the stopper.
 
-![The figure shows a  cutaway drawing of a thermos bottle, with various parts labeled.](../resources/Figure_14_04_02.jpg "The construction of a thermos bottle is designed to inhibit all methods of heat transfer.")
+![The figure shows a  cutaway drawing of a thermos bottle, with various parts labeled.](../resources/Figure_14_04_02.jpg 'The construction of a thermos bottle is designed to inhibit all methods of heat transfer.')
 {: #Figure2 height="222"}
 
 <div class="glossary" markdown="1">

@@ -10,7 +10,7 @@ chapterNumber: 17
 * Calculate sound intensity levels in decibels (dB).
 </div>
 
-![Photograph of a road jammed with traffic of all types of vehicles.](../resources/Figure_17_03_01.jpg "Noise on crowded roadways like this one in Delhi makes it hard to hear others unless they shout. (credit: Lingaraj G J, Flickr)")
+![Photograph of a road jammed with traffic of all types of vehicles.](../resources/Figure_17_03_01.jpg 'Noise on crowded roadways like this one in Delhi makes it hard to hear others unless they shout. (credit: Lingaraj G J, Flickr)')
 {: #Figure1}
 
 In a quiet forest, you can sometimes hear a single leaf fall to the ground.
@@ -28,7 +28,7 @@ perform. The relevant physical quantity is sound intensity, a concept that is
 valid for all sounds whether or not they are in the audible range.
 
 Intensity is defined to be the power per unit area carried by a wave. Power is
-the rate at which energy is transferred by the wave. In equation form, **intensity**  $$I $$ is
+the rate at which energy is transferred by the wave. In equation form, **intensity** $$I $$ is
 
 <div class="equation" >
  $$I=\frac{P}{A}, $$
@@ -50,14 +50,14 @@ denoted by $$P $$ above.) The energy (as kinetic energy $$\frac{ mv^{2}}{2} $$ )
 of an oscillating element of air due to a traveling sound wave is proportional
 to its amplitude squared. In this equation, $$\rho $$ is the density of the
 material in which the sound wave travels, in units of $${kg/m}^{3} $$ , and
-$${v}_{w} $$ is the speed of sound in the medium, in units of m/s. The pressure
+$${v}\_{w} $$ is the speed of sound in the medium, in units of m/s. The pressure
 variation is proportional to the amplitude of the oscillation, and so $$I $$
 varies as $${\left( \Delta p \right)}^{2} $$
 ([[Figure 2]](#Figure2)). This relationship is consistent with the fact that the
 sound wave is produced by some vibration; the greater its pressure amplitude,
 the more the air is compressed in the sound it creates.
 
-![The image shows two graphs, with a bird positioned to the left of each one. The first graph represents a low frequency sound of a bird. The pressure variation shows small amplitude maxima and minima, represented by a sine curve of gauge pressure versus position with a small amplitude. The second graph represents a high frequency sound of a screaming bird. The pressure variation shows large amplitude maxima and minima, represented by a sine curve of gauge pressure versus position with a large amplitude.](../resources/Figure_17_03_02.jpg "Graphs of the gauge pressures in two sound waves of different intensities. The more intense sound is produced by a source that has larger-amplitude oscillations and has greater pressure maxima and minima. Because pressures are higher in the greater-intensity sound, it can exert larger forces on the objects it encounters.")
+![The image shows two graphs, with a bird positioned to the left of each one. The first graph represents a low frequency sound of a bird. The pressure variation shows small amplitude maxima and minima, represented by a sine curve of gauge pressure versus position with a small amplitude. The second graph represents a high frequency sound of a screaming bird. The pressure variation shows large amplitude maxima and minima, represented by a sine curve of gauge pressure versus position with a large amplitude.](../resources/Figure_17_03_02.jpg 'Graphs of the gauge pressures in two sound waves of different intensities. The more intense sound is produced by a source that has larger-amplitude oscillations and has greater pressure maxima and minima. Because pressures are higher in the greater-intensity sound, it can exert larger forces on the objects it encounters.')
 {: #Figure2}
 
 Sound intensity levels are quoted in decibels (dB) much more often than sound
@@ -65,7 +65,7 @@ intensities in watts per meter squared. Decibels are the unit of choice in the
 scientific literature as well as in the popular media. The reasons for this
 choice of units are related to how we perceive sounds. How our ears perceive
 sound can be more accurately described by the logarithm of the intensity rather
-than directly to the intensity. The **sound intensity level**   $$\beta $$ in
+than directly to the intensity. The **sound intensity level** $$\beta $$ in
 decibels of a sound having an intensity $$I $$ in watts per meter squared is
 defined to be
 
@@ -77,7 +77,7 @@ where $${I}_{0}=10^{-12} {\text{W/m}}^{2} $$ is a reference intensity. In
 particular, $${I}_{0} $$ is the lowest or threshold intensity of sound a person
 with normal hearing can perceive at a frequency of 1000 Hz. Sound intensity
 level is not the same as intensity. Because $$\beta $$ is defined in terms of a
-ratio, it is a unitless quantity telling you the *level* of the sound relative
+ratio, it is a unitless quantity telling you the _level_ of the sound relative
 to a fixed standard ( $$10^{-12} {\text{W/m}}^{2} $$ , in this case). The units
 of decibels (dB) are used to indicate this ratio is multiplied by 10 in its
 definition. The bel, upon which the decibel is based, is named for Alexander
@@ -154,8 +154,10 @@ Graham Bell, the inventor of the telephone.
           </tr></tbody></table>
 
 The decibel level of a sound having the threshold intensity of $$10^{-12}
-{\text{W/m}}^{2} $$ is $$\beta =0 \text{dB} $$ , because $${\text{log}}_{10}1=0
-$$ . That is, the threshold of hearing is 0 decibels. [[Table 1]](#Table1) gives
+{\text{W/m}}^{2} $$ is $$\beta =0 \text{dB} $$ , because $${\text{log}}\_{10}1=0
+
+$$
+. That is, the threshold of hearing is 0 decibels. [[Table 1]](#Table1) gives
 levels in decibels and intensities in watts per meter squared for some familiar
 sounds.
 
@@ -604,3 +606,4 @@ sound pressure level
 : the ratio of the pressure amplitude to a reference pressure
 
 </div>
+$$

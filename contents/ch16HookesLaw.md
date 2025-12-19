@@ -11,7 +11,7 @@ chapterNumber: 16
 * Calculate the energy in Hook’s Law of deformation, and the stored energy in a string.
 </div>
 
-![In this figure a hand holding a ruler tightly at the bottom is shown. The other hand pulls the top of the ruler and then releases it. Then the ruler starts vibrating, and oscillates around the equilibrium position. A vertical line is shown to mark the equilibrium position. A curved double-headed arrow shows the span of the oscillation.](../resources/Figure_16_01_01.jpg "When displaced from its vertical equilibrium position, this plastic ruler oscillates back and forth because of the restoring force opposing displacement. When the ruler is on the left, there is a force to the right, and vice versa.")
+![In this figure a hand holding a ruler tightly at the bottom is shown. The other hand pulls the top of the ruler and then releases it. Then the ruler starts vibrating, and oscillates around the equilibrium position. A vertical line is shown to mark the equilibrium position. A curved double-headed arrow shows the span of the oscillation.](../resources/Figure_16_01_01.jpg 'When displaced from its vertical equilibrium position, this plastic ruler oscillates back and forth because of the restoring force opposing displacement. When the ruler is on the left, there is a force to the right, and vice versa.')
 {: #Figure1}
 
 Newton’s first law implies that an object oscillating back and forth is
@@ -41,11 +41,10 @@ or **deformation**, and $$k $$ is a constant related to the difficulty in
 deforming the system. The minus sign indicates the restoring force is in the
 direction opposite to the displacement.
 
-![A series of illustrations of vibrating plastic rulers is shown demonstrating Hooke&#x2019;s law.](../resources/Figure_16_01_02.jpg "(a) The plastic ruler has been released, and the restoring force is returning the ruler to its equilibrium position. (b) The net force is zero at the equilibrium position, but the ruler has momentum and continues to move to the right. (c) The restoring force is in the opposite direction. It stops the ruler and moves it back toward equilibrium again. (d) Now the ruler has momentum to the left. (e) In the absence of damping (caused by frictional forces), the ruler reaches its original position. From there, the motion will repeat itself.")
+![A series of illustrations of vibrating plastic rulers is shown demonstrating Hooke’s law.](../resources/Figure_16_01_02.jpg '(a) The plastic ruler has been released, and the restoring force is returning the ruler to its equilibrium position. (b) The net force is zero at the equilibrium position, but the ruler has momentum and continues to move to the right. (c) The restoring force is in the opposite direction. It stops the ruler and moves it back toward equilibrium again. (d) Now the ruler has momentum to the left. (e) In the absence of damping (caused by frictional forces), the ruler reaches its original position. From there, the motion will repeat itself.')
 {: #Figure2}
 
-
-The **force constant**  $$k $$ is related to the rigidity (or stiffness) of a
+The **force constant** $$k $$ is related to the rigidity (or stiffness) of a
 system—the larger the force constant, the greater the restoring force, and the
 stiffer the system. The units of $$k $$ are newtons per meter (N/m). For
 example, $$k $$ is directly related to Young’s modulus when we stretch a
@@ -56,7 +55,7 @@ force constant $$k $$ in newtons per meter. A common physics laboratory exercise
 is to measure restoring forces created by springs, determine if they follow
 Hooke’s law, and calculate their force constants if they do.
 
-![The given figure a is the graph of restoring force versus displacement. The displacement is given by x in meters along x axis, with scales from zero to point zero five zero, then to point one zero, then forward. The restoring force is given by F in unit newton along y axis, with scales from zero to two point zero to four point zero to forward. The graph line starts from zero and goes to upward to point where x is greater than point one zero and F is greater than four point zero with intersection dots at equal distances on the slope line. The slope is depicted by K which is given by rise along y-axis upon run along x axis . The values of mass in kilogram, weight in newtons, and displacement in meters are given along with the graph in a tabular format. In the figure b a horizontal weight bar is shown with three weight measuring springs tied to its lower part, hanging in the downward vertical direction. The first bar has no mass hanging through it, showing zero displacement, as x is equal to zero. It is the least stretched spring downward. The second spring has mass m one tied to it which exerts a force w one, on the spring, which causes displacement in the spring shown here to be x one. Similarly, the third spring is most stretched downward with a mass m two hanging through it with force w two and displacement x two. The values of mass in kg, weight in newtons and displacement in meters are given with the graph in a tabular format.](../resources/Figure_16_01_03.jpg "(a) A graph of absolute value of the restoring force versus displacement is displayed. The fact that the graph is a straight line means that the system obeys Hooke&#x2019;s law. The slope of the graph is the force constant \( k \) . (b) The data in the graph were generated by measuring the displacement of a spring from equilibrium while supporting various weights. The restoring force equals the weight supported, if the mass is stationary.")
+![The given figure a is the graph of restoring force versus displacement. The displacement is given by x in meters along x axis, with scales from zero to point zero five zero, then to point one zero, then forward. The restoring force is given by F in unit newton along y axis, with scales from zero to two point zero to four point zero to forward. The graph line starts from zero and goes to upward to point where x is greater than point one zero and F is greater than four point zero with intersection dots at equal distances on the slope line. The slope is depicted by K which is given by rise along y-axis upon run along x axis . The values of mass in kilogram, weight in newtons, and displacement in meters are given along with the graph in a tabular format. In the figure b a horizontal weight bar is shown with three weight measuring springs tied to its lower part, hanging in the downward vertical direction. The first bar has no mass hanging through it, showing zero displacement, as x is equal to zero. It is the least stretched spring downward. The second spring has mass m one tied to it which exerts a force w one, on the spring, which causes displacement in the spring shown here to be x one. Similarly, the third spring is most stretched downward with a mass m two hanging through it with force w two and displacement x two. The values of mass in kg, weight in newtons and displacement in meters are given with the graph in a tabular format.](../resources/Figure_16_01_03.jpg '(a) A graph of absolute value of the restoring force versus displacement is displayed. The fact that the graph is a straight line means that the system obeys Hooke’s law. The slope of the graph is the force constant ( k ) . (b) The data in the graph were generated by measuring the displacement of a spring from equilibrium while supporting various weights. The restoring force equals the weight supported, if the mass is stationary.')
 {: #Figure3}
 
 <div class="example" markdown="1">
@@ -125,16 +124,20 @@ energy stored. This work is performed by an applied force $${F}_{\text{app}} $$
 . The applied force is exactly opposite to the restoring force (action-reaction)
 , and so $${F}_{\text{app}}=kx $$ .
 [[Figure 4]](#Figure4) shows a graph of the applied force versus deformation $$x
-$$ for a system that can be described by Hooke’s law. Work done on the system is
+
+$$
+for a system that can be described by Hooke’s law. Work done on the system is
 force multiplied by distance, which equals the area under the curve or $$\left(
 1/2\right)kx^{2} $$ (Method A in the figure). Another way to determine the work
 is to note that the force increases linearly from 0 to $$kx $$ , so that the
 average force is $$\left(1/2\right) kx $$ , the distance moved is $$x $$ , and
 thus $$W={F}_{\text{app}}d=\left[ \left(1/2\right) k x \right]  \left(x\right)
-=\left(1/2\right)kx^{2} $$
+=\left(1/2\right)kx^{2}
+$$
+
 (Method B in the figure).
 
-![The graph here represents applied force, given along y-axis, versus deformation or displacement, given along x axis. The slope is linear slanting and the slope area is covered between x axis and the slope, given by F is equal to k multiplied by x, where k is constant and x is displacement. The force applied along y-axis is given by half of k multiplied by x. Along with the graph, two methods are provided to calculate weight, W. The first method gives the solution by multiplying half of b multiplied by h, whereas in the second we can get the solution by multiplying f with x.](../resources/Figure_16_01_05.jpg "A graph of applied force versus distance for the deformation of a system that can be described by Hooke&#x2019;s law is displayed. The work done on the system equals the area under the graph or the area of the triangle, which is half its base multiplied by its height, or \( W=(1/2)kx^2 \) .")
+![The graph here represents applied force, given along y-axis, versus deformation or displacement, given along x axis. The slope is linear slanting and the slope area is covered between x axis and the slope, given by F is equal to k multiplied by x, where k is constant and x is displacement. The force applied along y-axis is given by half of k multiplied by x. Along with the graph, two methods are provided to calculate weight, W. The first method gives the solution by multiplying half of b multiplied by h, whereas in the second we can get the solution by multiplying f with x.](../resources/Figure_16_01_05.jpg 'A graph of applied force versus distance for the deformation of a system that can be described by Hooke’s law is displayed. The work done on the system equals the area under the graph or the area of the triangle, which is half its base multiplied by its height, or ( W=(1/2)kx^2 ) .')
 {: #Figure4}
 
 <div class="example" markdown="1">
@@ -143,12 +146,12 @@ Calculating Stored Energy: A Tranquilizer Gun Spring
 </div>
 We can use a toy gun’s spring mechanism to ask and answer two simple questions: (a) How much energy is stored in the spring of a tranquilizer gun that has a force constant of 50.0 N/m and is compressed 0.150 m? (b) If you neglect friction and the mass of the spring, at what speed will a 2.00-g projectile be ejected from the gun?
 
-![The figure a shows an artistic impression of a tranquilizer gun, which shows the inside of it revealing the gun spring and a panel just below it, in the outside area, attached to the spring. This stage shows the gun before it is cocked, and the spring is uncompressed covering the entire inside area. The figure b shows the gun with the spring in the compressed mode. The spring has been compressed to a distance x, where x distance shows the vacant area inside the gun through which the spring has been compressed. The panel is also moving along the spring. And a bullet of mass m is shown at the front of the compressed spring. The spring here has elastic potential energy, represented by P E sub e l. The figure c is the third stage of the above two stages of the gun. The spring here is released from the compressed stage releasing the bullet in the outer forward direction with velocity V and the spring&#x2019;s potential energy is converted into kinetic energy, represented here by K E.](../resources/Figure_16_01_06.jpg "(a) In this image of the gun, the spring is uncompressed before being cocked. (b) The spring has been compressed a distance \( x \) , and the projectile is in place. (c) When released, the spring converts elastic potential energy \( \text{PE}_\text{el} \) into kinetic energy.")
+![The figure a shows an artistic impression of a tranquilizer gun, which shows the inside of it revealing the gun spring and a panel just below it, in the outside area, attached to the spring. This stage shows the gun before it is cocked, and the spring is uncompressed covering the entire inside area. The figure b shows the gun with the spring in the compressed mode. The spring has been compressed to a distance x, where x distance shows the vacant area inside the gun through which the spring has been compressed. The panel is also moving along the spring. And a bullet of mass m is shown at the front of the compressed spring. The spring here has elastic potential energy, represented by P E sub e l. The figure c is the third stage of the above two stages of the gun. The spring here is released from the compressed stage releasing the bullet in the outer forward direction with velocity V and the spring’s potential energy is converted into kinetic energy, represented here by K E.](../resources/Figure_16_01_06.jpg '(a) In this image of the gun, the spring is uncompressed before being cocked. (b) The spring has been compressed a distance ( x ) , and the projectile is in place. (c) When released, the spring converts elastic potential energy ( \\text{PE}_\\text{el} ) into kinetic energy.')
 {: #Figure5}
 
 **Strategy for a**
 
-(a): **The energy stored in the spring can be found directly from elastic
+(a): \*\*The energy stored in the spring can be found directly from elastic
 potential energy equation, because $$k $$ and $$x $$ are given.
 
 **Solution for a**
@@ -176,7 +179,7 @@ projectile’s speed.
     $$v={\left[ \frac{2{\text{PE}}_{\text{el}}}{m}\right]  }^{1/2}={\left[ \frac{2\left( 0.563 \text{J}\right)}{ 0.002 \text{kg}}\right]  }^{1/2}= 23.7{\left(\text{J/kg}\right)}^{1/2} $$
    </div>
 
-3. Convert units:  $$23.7 \text{m}/\text{s} $$
+3. Convert units: $$23.7 \text{m}/\text{s} $$
 
 **Discussion**
 
@@ -224,18 +227,18 @@ It was stored in the object as potential energy.
 
 ### Section Summary
 
-* An oscillation is a back and forth motion of an object between two points of
+- An oscillation is a back and forth motion of an object between two points of
   deformation.
-* An oscillation may create a wave, which is a disturbance that propagates from
+- An oscillation may create a wave, which is a disturbance that propagates from
   where it was created.
-* The simplest type of oscillations and waves are related to systems that can be
+- The simplest type of oscillations and waves are related to systems that can be
   described by Hooke’s law:
   <div class="equation" >
    $$F=-kx, $$
   </div>
   where $$F $$ is the restoring force,  $$x $$ is the displacement from equilibrium or deformation, and  $$k $$ is the force constant of the system.
 
-* Elastic potential energy $${\text{PE}}_{\text{el}} $$ stored in the
+- Elastic potential energy $${\text{PE}}_{\text{el}} $$ stored in the
   deformation of a system that can be described by Hooke’s law is given by
   <div class="equation" >
    $${\text{PE}}_{\text{el}}=\left(1/2\right) kx^{2}. $$
@@ -337,7 +340,7 @@ as the stretching of a spring
 
 force constant
 : a constant related to the rigidity of a system: the larger the force constant,
-the more rigid the system; the force constant is represented by *k*
+the more rigid the system; the force constant is represented by _k_
 
 restoring force
 : force acting in opposition to the force caused by a deformation

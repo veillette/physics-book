@@ -26,7 +26,7 @@ force, if the fluid changes vertical position. Recall the work-energy theorem,
 There is a pressure difference when the channel narrows. This pressure
 difference results in a net force on the fluid: recall that pressure times area
 equals force. The net work done increases the fluid’s kinetic energy. As a
-result, the *pressure will drop in a rapidly-moving fluid*, whether or not the
+result, the _pressure will drop in a rapidly-moving fluid_, whether or not the
 fluid is confined to a tube.
 
 There are a number of common examples of pressure dropping in rapidly-moving
@@ -42,7 +42,7 @@ outside. (See [[Figure 1]](#Figure1).) This effect was observed as far back as
 the mid-1800s, when it was found that trains passing in opposite directions
 tipped precariously toward one another.
 
-![An overhead view of a car passing by a truck on a highway toward left is shown. The air passing through the vehicles is shown using lines along the length of both the vehicles. The lines representing the air movement has a velocity v one outside the area between the vehicles and velocity v two between the vehicles. v two is shown to be greater than v one with the help of a longer arrow toward right. The pressure between the car and the truck is represented by P i and the pressure at the other ends of both the vehicles is represented as P zero. The pressure P i is shown to be less than P zero by shorter length of the arrow. The direction of P i is shown as pushing the car and truck apart, and the direction of P zero is shown as pushing the car and truck toward each other.](../resources/Figure_12_02_01.jpg "An overhead view of a car passing a truck on a highway. Air passing between the vehicles flows in a narrower channel and must increase its speed (\( v_{2} \) is greater than \( v_{1} \) ), causing the pressure between them to drop (\( P_{i} \) is less than \( P_{o} \)). Greater pressure on the outside pushes the car and truck together.")
+![An overhead view of a car passing by a truck on a highway toward left is shown. The air passing through the vehicles is shown using lines along the length of both the vehicles. The lines representing the air movement has a velocity v one outside the area between the vehicles and velocity v two between the vehicles. v two is shown to be greater than v one with the help of a longer arrow toward right. The pressure between the car and the truck is represented by P i and the pressure at the other ends of both the vehicles is represented as P zero. The pressure P i is shown to be less than P zero by shorter length of the arrow. The direction of P i is shown as pushing the car and truck apart, and the direction of P zero is shown as pushing the car and truck toward each other.](../resources/Figure_12_02_01.jpg 'An overhead view of a car passing a truck on a highway. Air passing between the vehicles flows in a narrower channel and must increase its speed (( v_{2} ) is greater than ( v_{1} ) ), causing the pressure between them to drop (( P_{i} ) is less than ( P_{o} )). Greater pressure on the outside pushes the car and truck together.')
 {: #Figure1}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -134,7 +134,7 @@ to be relative to this). In that case, we get
 This equation tells us that, in static fluids, pressure increases with depth. As
 we go from point 1 to point 2 in the fluid, the depth increases by $${h}_{1} $$
 , and consequently, $${P}_{2} $$ is greater than $${P}_{1} $$ by an amount
-$$\rho gh_{1} $$ . In the very simplest case, $${P}_{1} $$ is zero at the top of
+$$\rho gh*{1} $$ . In the very simplest case, $${P}*{1} $$ is zero at the top of
 the fluid, and we get the familiar relationship $$P=\rho gh $$ .
 (Recall that $$P=\rho gh $$ and $$\Delta {\text{PE}}_{\text{g}}=mgh. $$ )
 Bernoulli’s equation includes the fact that the pressure due to the weight of a
@@ -209,12 +209,12 @@ height and, thus, can be analyzed with Bernoulli’s principle.
 People have long put the Bernoulli principle to work by using reduced pressure
 in high-velocity fluids to move things about. With a higher pressure on the
 outside, the high-velocity fluid forces other fluids into the stream. This
-process is called *entrainment*. Entrainment devices have been in use since
+process is called _entrainment_. Entrainment devices have been in use since
 ancient times, particularly as pumps to raise water small heights, as in
 draining swamps, fields, or other low-lying areas. Some other devices that use
 the concept of entrainment are shown in [[Figure 2]](#Figure2).
 
-![Part a of the figure shows a rectangular section of a cylindrical Bunsen burner as a vertical column. The natural gas is shown to enter the rectangular column from the bottom upward. The air is shown to enter though a nozzle at the left side near the bottom part of the rectangular column and rise upward. Both air and natural gas are shown to rise up together along the length of the column, shown as vertical arrows along the length pointing upward. Part b of the figure shows an atomizer that uses a squeeze bulb in the shape of a small sphere to create a jet of air that entrains drops of perfume contained in a spherical bottomed container. The air is shown to come out of the squeeze bulb and the perfume is shown to rise up from the spherical bottomed container. Part c of the figure shows a common aspirator which contains a cylindrical tube held vertically. The tube is broader on the top and narrow at the bottom. Water is shown to enter the tube from the broader region and flow toward the narrow region. Air is shown to enter the cylindrical tube from the bottom part of the broader side and also flow toward the narrow tube. Part d of the figure shows the chimney of a water heater. Water heater is shown as a rectangular box at the bottom having a cylindrical section in the middle. The cylindrical section is broader at the bottom and narrow toward the top. Hot air is shown to rise up along the vertical section of the cylindrical tube. The chimney is conical at the bottom and rectangular upward and is shown above the rectangular water heater. The hot air enters the chimney at the conical end and rises upward. Cool air is shown to enter the chimney through the area between the rectangular section of heater and chimney from the two sides and rise up along the chimney with the hot air as shown by vertical arrows.](../resources/Figure_12_02_02.jpg "Examples of entrainment devices that use increased fluid speed to create low pressures, which then entrain one fluid into another. (a) A Bunsen burner uses an adjustable gas nozzle, entraining air for proper combustion. (b) An atomizer uses a squeeze bulb to create a jet of air that entrains drops of perfume. Paint sprayers and carburetors use very similar techniques to move their respective liquids. (c) A common aspirator uses a high-speed stream of water to create a region of lower pressure. Aspirators may be used as suction pumps in dental and surgical situations or for draining a flooded basement or producing a reduced pressure in a vessel. (d) The chimney of a water heater is designed to entrain air into the pipe leading through the ceiling.")
+![Part a of the figure shows a rectangular section of a cylindrical Bunsen burner as a vertical column. The natural gas is shown to enter the rectangular column from the bottom upward. The air is shown to enter though a nozzle at the left side near the bottom part of the rectangular column and rise upward. Both air and natural gas are shown to rise up together along the length of the column, shown as vertical arrows along the length pointing upward. Part b of the figure shows an atomizer that uses a squeeze bulb in the shape of a small sphere to create a jet of air that entrains drops of perfume contained in a spherical bottomed container. The air is shown to come out of the squeeze bulb and the perfume is shown to rise up from the spherical bottomed container. Part c of the figure shows a common aspirator which contains a cylindrical tube held vertically. The tube is broader on the top and narrow at the bottom. Water is shown to enter the tube from the broader region and flow toward the narrow region. Air is shown to enter the cylindrical tube from the bottom part of the broader side and also flow toward the narrow tube. Part d of the figure shows the chimney of a water heater. Water heater is shown as a rectangular box at the bottom having a cylindrical section in the middle. The cylindrical section is broader at the bottom and narrow toward the top. Hot air is shown to rise up along the vertical section of the cylindrical tube. The chimney is conical at the bottom and rectangular upward and is shown above the rectangular water heater. The hot air enters the chimney at the conical end and rises upward. Cool air is shown to enter the chimney through the area between the rectangular section of heater and chimney from the two sides and rise up along the chimney with the hot air as shown by vertical arrows.](../resources/Figure_12_02_02.jpg 'Examples of entrainment devices that use increased fluid speed to create low pressures, which then entrain one fluid into another. (a) A Bunsen burner uses an adjustable gas nozzle, entraining air for proper combustion. (b) An atomizer uses a squeeze bulb to create a jet of air that entrains drops of perfume. Paint sprayers and carburetors use very similar techniques to move their respective liquids. (c) A common aspirator uses a high-speed stream of water to create a region of lower pressure. Aspirators may be used as suction pumps in dental and surgical situations or for draining a flooded basement or producing a reduced pressure in a vessel. (d) The chimney of a water heater is designed to entrain air into the pipe leading through the ceiling.')
 {: #Figure2}
 
 #### Wings and Sails
@@ -229,7 +229,7 @@ deflected air molecules result in an upward force on the wing — Newton’s thi
 law.) Sails also have the characteristic shape of a wing. (
 See [[Figure 3]](#Figure3)(b).) The pressure on the front side of the sail,
 $${P}_{\text{front}} $$ , is lower than the pressure on the back of the sail,
-$${P}_{\text{back}} $$ . This results in a forward force and even allows you to
+$${P}\_{\text{back}} $$ . This results in a forward force and even allows you to
 sail into the wind.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -254,12 +254,14 @@ This means that Bernoulli’s principle as stated in $${P}_{1}+\frac{1}{2}\rho v
  $${P}_{1}={P}_{2}+\frac{1}{2}\rho v_{2}^{2}\text{.} $$
 </div>
 
-![Part a of the figure shows a picture of a wing. It is in the form of an aerofoil. One side of the wing is broader and the other end tapers. The direction of the air is shown as lines along the length of the wing. The direction of the air below the wing is shown as flowing along the length of the wing. The pressure exerted by the air given by P b is upward. The direction of the air on the top or front part of the wing is shown as flowing along the length of the wing. The pressure exerted by the air is given by P f, and it acts downward. Part b of the figure shows a boat with a sail. The direction of the sail is almost across the boat. The direction of the air in the sail is shown by lines on the front and back sides of the sail. The air currents on the front exert a pressure P front toward the sail, and air currents on the back sides of sail exert a pressure P back again toward the sail.](../resources/Figure_12_02_03.jpg "(a) The Bernoulli principle helps explain lift generated by a wing. (b) Sails use the same technique to generate part of their thrust.")
+![Part a of the figure shows a picture of a wing. It is in the form of an aerofoil. One side of the wing is broader and the other end tapers. The direction of the air is shown as lines along the length of the wing. The direction of the air below the wing is shown as flowing along the length of the wing. The pressure exerted by the air given by P b is upward. The direction of the air on the top or front part of the wing is shown as flowing along the length of the wing. The pressure exerted by the air is given by P f, and it acts downward. Part b of the figure shows a boat with a sail. The direction of the sail is almost across the boat. The direction of the air in the sail is shown by lines on the front and back sides of the sail. The air currents on the front exert a pressure P front toward the sail, and air currents on the back sides of sail exert a pressure P back again toward the sail.](../resources/Figure_12_02_03.jpg '(a) The Bernoulli principle helps explain lift generated by a wing. (b) Sails use the same technique to generate part of their thrust.')
 {: #Figure3}
 
 Thus pressure $${P}_{2} $$ over the second opening is reduced by
-$$\frac{1}{2}\rho v_{2}^{2} $$ , and so the fluid in the manometer rises by $$h
-$$ on the side connected to the second opening, where
+$$\frac{1}{2}\rho v\_{2}^{2} $$ , and so the fluid in the manometer rises by $$h
+
+$$
+on the side connected to the second opening, where
 
 <div class="equation" >
  $$h\propto \frac{1}{2}\rho v_{2}^{2}\text{.} $$
@@ -1074,3 +1076,4 @@ Bernoulli’s principle
 $${P}_{1}+\frac{1}{2}\rho v_{1}^{2}={P}_{2}+\frac{1}{2}\rho v_{2}^{2}\text{.} $$
 
 </div>
+$$

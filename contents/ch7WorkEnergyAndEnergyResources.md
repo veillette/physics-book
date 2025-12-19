@@ -5,10 +5,10 @@ sectionNumber: 0
 chapterNumber: 7
 ---
 
-![A field with four wind turbines and the Sun setting in the background.](../resources/Figure_07_00_01.jpg "How many forms of energy can you identify in this photograph of a wind farm in Iowa? (credit: J&#xFC;rgen from Sandesneben, Germany, Wikimedia Commons)")
+![A field with four wind turbines and the Sun setting in the background.](../resources/Figure_07_00_01.jpg 'How many forms of energy can you identify in this photograph of a wind farm in Iowa? (credit: Jürgen from Sandesneben, Germany, Wikimedia Commons)')
 {: #Figure1}
 
-*Energy* plays an essential role both in everyday events and in scientific
+_Energy_ plays an essential role both in everyday events and in scientific
 phenomena. You can no doubt name many forms of energy, from that provided by our
 foods, to the energy we use to run our cars, to the sunlight that warms us on
 the beach. You can also cite examples of what people call energy that may not be
@@ -18,17 +18,19 @@ is one of the most important concepts of physics. What makes it even more
 important is that the total amount of energy in the universe is constant. Energy
 can change forms, but it cannot appear from nothing or disappear without a
 trace. Energy is thus one of a handful of physical quantities that we say is
-*conserved*.
+_conserved_.
 
 **Conservation of energy** (as physicists like to call the principle that energy
 can neither be created nor destroyed) is based on experiment.
 For example, scientists Willem ’s Gravesande and Émilie du Châtelet undertook (separate) experiments where they dropped heavy lead balls into beds of clay. Du Châtelet showed that the balls that hit the clay with twice the velocity penetrated four times as deep into the clay; those with three times the velocity reached a depth nine times greater.
-This led her to develop a more accurate concept of energy conservation, 
+This led her to develop a more accurate concept of energy conservation,
 expressed as $$ E=\frac{1}{2} mv^2$$. Even as scientists
 discovered new forms of energy, conservation of energy has always been found to
 apply. Perhaps the most dramatic example of this was supplied by Einstein when
 he suggested that mass is equivalent to energy (his famous equation $$ E=mc^{2}
-$$).
+
+$$
+).
 
 From a societal viewpoint, energy is one of the major building blocks of modern
 civilization. Energy resources are key limiting factors to economic growth. The
@@ -47,3 +49,4 @@ changes form.
 <div class="note" data-label="Video" markdown="1">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8_TjOq5BNo8"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+$$
