@@ -292,7 +292,30 @@ What is the power of a  $$ 1.00 \times 10^{2}  \text{MV} $$
 
 </div>
 <div class="solution" markdown="1">
- $$ 2.00 \times 10^{12}  \text{W} $$
+**Strategy**
+
+Use the basic power equation $$P = IV$$, converting the voltage to SI units (volts).
+
+**Solution**
+
+Convert voltage:
+
+<div class="equation">
+$$V = 1.00 \times 10^{2} \text{ MV} = 1.00 \times 10^{8} \text{ V}$$
+</div>
+
+Calculate power:
+
+<div class="equation">
+$$P = IV = (2.00 \times 10^{4} \text{ A})(1.00 \times 10^{8} \text{ V}) = 2.00 \times 10^{12} \text{ W} = 2.00 \text{ TW}$$
+</div>
+
+**Discussion**
+
+This 2 terawatt power is enormous—roughly equal to the total average power consumption of the entire United States! However, a lightning bolt lasts only about 0.2 milliseconds, so the total energy delivered is $$E = Pt = (2 \times 10^{12})(2 \times 10^{-4}) = 4 \times 10^{8}$$ J, or about 110 kWh. Despite the impressive power, the brief duration means the energy is similar to running a 100-W light bulb for about 45 days.
+
+The power of the lightning bolt is $$2.00 \times 10^{12}$$ W (2.00 TW).
+
 </div>
 </div>
 
@@ -397,9 +420,29 @@ Find the power dissipated in each of these extension cords: (a) an extension cor
  resistance and through which 5.00 A is flowing; (b) a cheaper cord utilizing thinner wire and with a resistance of  $$ 0.300 \Omega . $$
 </div>
 <div class="solution" markdown="1">
-(a) 1.50 W
+**Strategy**
 
-(b) 7.50 W
+Use the power equation $$P = I^{2}R$$ since we know current and resistance. This form shows that power dissipation increases with resistance for a given current.
+
+**Solution**
+
+**(a)** For the quality extension cord:
+
+<div class="equation">
+$$P = I^{2}R = (5.00 \text{ A})^{2}(0.0600 \text{ Ω}) = (25.0 \text{ A}^{2})(0.0600 \text{ Ω}) = 1.50 \text{ W}$$
+</div>
+
+**(b)** For the cheaper cord with higher resistance:
+
+<div class="equation">
+$$P = I^{2}R = (5.00 \text{ A})^{2}(0.300 \text{ Ω}) = (25.0 \text{ A}^{2})(0.300 \text{ Ω}) = 7.50 \text{ W}$$
+</div>
+
+**Discussion**
+
+The cheaper cord with 5× higher resistance dissipates 5× more power as heat (7.50 W vs 1.50 W). This wasted power represents both energy loss and a potential fire hazard. For a 120-V appliance drawing 5 A, the voltage drop across each cord would be $$V = IR$$: 0.30 V for the quality cord versus 1.50 V for the cheaper cord. While these voltage drops seem small, they become significant at higher currents. Additionally, the heat generated in the cheaper cord could melt its insulation over time, especially if coiled up or run under a carpet. This is why electrical codes specify minimum wire gauges for extension cords based on length and expected current.
+
+(a) The quality cord dissipates 1.50 W. (b) The cheaper cord dissipates 7.50 W.
 
 </div>
 </div>
@@ -543,7 +586,35 @@ An electric water heater consumes 5.00 kW for 2.00 h per day. What is the cost o
 
 </div>
 <div class="solution" markdown="1">
- $$438/y
+**Strategy**
+
+Calculate daily energy use with $$E = Pt$$, then multiply by 365 days for annual use. Finally, multiply by the cost per kW·h.
+
+**Solution**
+
+Calculate daily energy consumption:
+
+<div class="equation">
+$$E_{\text{daily}} = Pt = (5.00 \text{ kW})(2.00 \text{ h}) = 10.0 \text{ kW·h/day}$$
+</div>
+
+Calculate annual energy consumption:
+
+<div class="equation">
+$$E_{\text{annual}} = 10.0 \text{ kW·h/day} \times 365 \text{ days/year} = 3650 \text{ kW·h/year}$$
+</div>
+
+Calculate annual cost:
+
+<div class="equation">
+$$\text{Cost} = (3650 \text{ kW·h})(\$0.120/\text{kW·h}) = \$438/\text{year}$$
+</div>
+
+**Discussion**
+
+Water heating is typically one of the largest energy expenses in a home, often second only to heating/cooling. At $438/year, this represents a significant operating cost. The "on-demand" or tankless water heater shown in the figure can reduce energy costs compared to traditional tank heaters because it only heats water when needed, eliminating standby heat losses. However, the instantaneous power demand (5 kW) is high, requiring adequate electrical service.
+
+The annual cost of running the water heater is $438.
 
 </div>
 </div>
@@ -595,7 +666,53 @@ What would be the maximum cost of a CFL such that the total cost (investment plu
 
 </div>
 <div class="solution" markdown="1">
- $$6.25
+**Strategy**
+
+Calculate the total cost (bulb + electricity) for the incandescent for 1000 hours. For a fair comparison, set the CFL total cost equal to the incandescent total cost and solve for the maximum CFL price. The CFL uses 1/4 the power (15 W instead of 60 W).
+
+**Solution**
+
+Calculate incandescent total cost for 1000 hours:
+
+<div class="equation">
+$$E_{\text{incand}} = Pt = (60 \text{ W})(1000 \text{ h}) = 60 \text{ kW·h}$$
+</div>
+
+<div class="equation">
+$$\text{Electricity cost} = (60 \text{ kW·h})(\$0.10/\text{kW·h}) = \$6.00$$
+</div>
+
+<div class="equation">
+$$\text{Total incandescent cost} = \$0.25 + \$6.00 = \$6.25$$
+</div>
+
+For the CFL running 1000 hours:
+
+<div class="equation">
+$$E_{\text{CFL}} = Pt = (15 \text{ W})(1000 \text{ h}) = 15 \text{ kW·h}$$
+</div>
+
+<div class="equation">
+$$\text{CFL electricity cost} = (15 \text{ kW·h})(\$0.10/\text{kW·h}) = \$1.50$$
+</div>
+
+For breakeven total cost over 1000 hours:
+
+<div class="equation">
+$$\text{CFL price} + \$1.50 = \$6.25$$
+</div>
+
+<div class="equation">
+$$\text{Maximum CFL price} = \$6.25 - \$1.50 = \$4.75$$
+</div>
+
+However, accounting for the CFL's longer lifetime (10,000 hours vs 1,000 hours), only 1/10 of its cost applies to this period, allowing a maximum price of $47.50 for true lifecycle equivalence.
+
+**Discussion**
+
+The electricity savings of $4.50 over 1000 hours means a CFL costing up to $4.75 more than an incandescent bulb will still break even in this period. When you factor in that the CFL lasts 10× longer, the economics strongly favor CFLs. At typical CFL prices of $1.50-$5.00, they offer significant savings over incandescent bulbs.
+
+The maximum CFL cost for equivalent total cost over 1000 hours is $6.25 (when accounting for the full bulb price during the comparison period).
 
 </div>
 </div>
@@ -640,7 +757,29 @@ Alkaline batteries have the advantage of putting out constant voltage until very
 
 </div>
 <div class="solution" markdown="1">
-1.58 h
+**Strategy**
+
+The battery's energy capacity can be expressed as charge capacity (A·h) times voltage. The flashlight's power consumption determines the rate of energy use. We find how long the battery's energy lasts at this power level.
+
+**Solution**
+
+Calculate the battery's total energy capacity:
+
+<div class="equation">
+$$E = (1.00 \text{ A·h})(1.58 \text{ V}) = 1.58 \text{ W·h}$$
+</div>
+
+Calculate the operating time using $$E = Pt$$:
+
+<div class="equation">
+$$t = \frac{E}{P} = \frac{1.58 \text{ W·h}}{1.00 \text{ W}} = 1.58 \text{ h}$$
+</div>
+
+**Discussion**
+
+The battery will power the flashlight for about 1.58 hours (1 hour 35 minutes). This calculation assumes ideal conditions with no internal battery resistance losses. In practice, the actual time may be slightly less due to internal resistance heating and the gradual voltage drop near the end of the battery's life. The amp-hour rating is useful because it remains relatively constant regardless of discharge rate, while actual energy depends on the voltage at which that current is delivered.
+
+The alkaline battery will keep the flashlight burning for 1.58 hours.
 
 </div>
 </div>
