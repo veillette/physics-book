@@ -160,9 +160,47 @@ A projection of uniform circular motion undergoes simple harmonic oscillation.
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-a). 0.266 m/s
+**Strategy**
 
-b). 3.00 J
+For part (a), we use the relationship between maximum velocity, amplitude, and the spring constant for simple harmonic motion: $${v}_{\text{max}} = X\sqrt{\frac{k}{m}}$$. For part (b), the maximum energy stored in the spring occurs at maximum displacement and equals the elastic potential energy: $$\text{PE}_{\text{max}} = \frac{1}{2}kX^2$$.
+
+**Solution**
+
+(a) First, convert the amplitude to meters:
+
+<div class="equation">
+ $$X = 0.200 \text{ cm} = 0.00200 \text{ m}$$
+</div>
+
+The maximum velocity is:
+
+<div class="equation">
+ $$v_{\text{max}} = X\sqrt{\frac{k}{m}} = 0.00200\sqrt{\frac{1.50 \times 10^6}{85.0}}$$
+</div>
+
+<div class="equation">
+ $$v_{\text{max}} = 0.00200\sqrt{17647} = 0.00200(132.8) = 0.266 \text{ m/s}$$
+</div>
+
+(b) The maximum energy stored in the spring is:
+
+<div class="equation">
+ $$\text{PE}_{\text{max}} = \frac{1}{2}kX^2 = \frac{1}{2}(1.50 \times 10^6)(0.00200)^2$$
+</div>
+
+<div class="equation">
+ $$\text{PE}_{\text{max}} = \frac{1}{2}(1.50 \times 10^6)(4.00 \times 10^{-6}) = 3.00 \text{ J}$$
+</div>
+
+**Discussion**
+
+Despite the very stiff spring (force constant of 1.50 × 10⁶ N/m) and relatively large mass (85.0 kg), the small amplitude (only 2.00 mm) results in a modest maximum velocity of 0.266 m/s. The maximum energy of 3.00 J is also small, which makes sense given the tiny amplitude. This demonstrates that bathroom scales are designed to be very stiff to minimize deflection under a person's weight while still providing accurate measurements.
+
+**Answer**
+
+(a) 0.266 m/s
+
+(b) 3.00 J
 
 </div>
 </div>
@@ -217,7 +255,50 @@ At what positions is the speed of a simple harmonic oscillator half its maximum?
 
 </div>
 <div class="solution" markdown="1">
- $$±\frac{\sqrt{3}}{2} $$
+**Strategy**
+
+We use the velocity equation for simple harmonic motion: $$v = {v}_{\text{max}}\sqrt{1 - \frac{x^2}{X^2}}$$. Setting $$v = \frac{{v}_{\text{max}}}{2}$$ and solving for $$x/X$$ will give us the positions where the speed is half its maximum.
+
+**Solution**
+
+Start with the velocity equation and set $$v = \frac{{v}_{\text{max}}}{2}$$:
+
+<div class="equation">
+ $$\frac{{v}_{\text{max}}}{2} = {v}_{\text{max}}\sqrt{1 - \frac{x^2}{X^2}}$$
+</div>
+
+Divide both sides by $${v}_{\text{max}}$$:
+
+<div class="equation">
+ $$\frac{1}{2} = \sqrt{1 - \frac{x^2}{X^2}}$$
+</div>
+
+Square both sides:
+
+<div class="equation">
+ $$\frac{1}{4} = 1 - \frac{x^2}{X^2}$$
+</div>
+
+Solve for $$x^2/X^2$$:
+
+<div class="equation">
+ $$\frac{x^2}{X^2} = 1 - \frac{1}{4} = \frac{3}{4}$$
+</div>
+
+Take the square root:
+
+<div class="equation">
+ $$\frac{x}{X} = ±\sqrt{\frac{3}{4}} = ±\frac{\sqrt{3}}{2} \approx ±0.866$$
+</div>
+
+**Discussion**
+
+The speed is half the maximum at positions $$x = ±\frac{\sqrt{3}}{2}X$$, which is approximately 86.6% of the amplitude on either side of equilibrium. This makes physical sense: at equilibrium ($$x = 0$$), the oscillator has maximum speed, and at maximum displacement ($$x = ±X$$), it has zero speed. The positions where $$v = {v}_{\text{max}}/2$$ are closer to the amplitude than to equilibrium, which is consistent with the fact that the oscillator spends more time near the extremes of its motion where it moves more slowly.
+
+**Answer**
+
+$$±\frac{\sqrt{3}}{2}$$
+
 </div>
 </div>
 

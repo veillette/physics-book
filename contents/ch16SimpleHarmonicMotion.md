@@ -360,6 +360,36 @@ A 0.500-kg mass suspended from a spring oscillates with a period of 1.50 s. How 
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+The period of a mass-spring system is $$T = 2\pi\sqrt{\frac{m}{k}}$$. The spring constant $$k$$ remains the same, so we can find it from the initial conditions, then use it to find the final mass needed for the new period.
+
+**Solution**
+
+From the initial conditions, solve for $$k$$:
+
+<div class="equation">
+ $$k = \frac{4\pi^2 m_1}{T_1^2} = \frac{4\pi^2(0.500)}{(1.50)^2} = \frac{19.74}{2.25} = 8.77 \text{ N/m}$$
+</div>
+
+For the new period $$T_2 = 2.00$$ s, find the total mass needed:
+
+<div class="equation">
+ $$m_2 = \frac{kT_2^2}{4\pi^2} = \frac{(8.77)(2.00)^2}{4\pi^2} = \frac{35.08}{39.48} = 0.889 \text{ kg}$$
+</div>
+
+The mass to be added is:
+
+<div class="equation">
+ $$\Delta m = m_2 - m_1 = 0.889 - 0.500 = 0.389 \text{ kg}$$
+</div>
+
+**Discussion**
+
+Adding 0.389 kg (about 78% more mass) to the original 0.500 kg increases the period from 1.50 s to 2.00 s (a 33% increase). This makes physical sense: the period is proportional to $$\sqrt{m}$$, so to increase the period by a factor of 2.00/1.50 = 1.33, we need to increase the mass by a factor of $$(1.33)^2 = 1.78$$. The total mass increases from 0.500 kg to 0.889 kg, which is indeed a factor of 1.78.
+
+**Answer**
+
 0.389 kg
 
 </div>
@@ -494,6 +524,30 @@ A diver on a diving board is undergoing simple harmonic motion. Her mass is 55.0
 
 </div>
 <div class="solution"  markdown="1">
+**Strategy**
+
+Since both divers use the same diving board, the spring constant $$k$$ is the same for both. We can use the first diver's data to find $$k$$, then use it with the second diver's period to find his mass.
+
+**Solution**
+
+From the female diver's data, find the spring constant:
+
+<div class="equation">
+ $$k = \frac{4\pi^2 m_1}{T_1^2} = \frac{4\pi^2(55.0)}{(0.800)^2} = \frac{2168}{0.640} = 3387 \text{ N/m}$$
+</div>
+
+Now use this spring constant with the male diver's period:
+
+<div class="equation">
+ $$m_2 = \frac{kT_2^2}{4\pi^2} = \frac{(3387)(1.05)^2}{4\pi^2} = \frac{3734}{39.48} = 94.6 \text{ kg}$$
+</div>
+
+**Discussion**
+
+The male diver's mass of 94.6 kg is significantly larger than the female diver's 55.0 kg, which explains his longer period of oscillation (1.05 s vs. 0.800 s). The ratio of periods is 1.05/0.800 = 1.31, and since period is proportional to $$\sqrt{m}$$, the ratio of masses should be $$(1.31)^2 = 1.72$$. Indeed, 94.6/55.0 = 1.72, confirming our calculation. A heavier person causes the diving board to oscillate more slowly.
+
+**Answer**
+
 94.7 kg
 
 </div>
@@ -612,6 +666,30 @@ A 90.0-kg skydiver hanging from a parachute bounces up and down with a period of
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+The parachute-skydiver system acts like a spring with constant $$k$$. When the mass increases from $$m_1$$ to $$m_2 = m_1 + 60.0$$ kg, the period changes. We can use the ratio relationship for periods.
+
+**Solution**
+
+Since $$T = 2\pi\sqrt{\frac{m}{k}}$$, the ratio of periods is:
+
+<div class="equation">
+ $$\frac{T_2}{T_1} = \sqrt{\frac{m_2}{m_1}} = \sqrt{\frac{m_1 + 60.0}{m_1}} = \sqrt{\frac{90.0 + 60.0}{90.0}} = \sqrt{\frac{150.0}{90.0}} = \sqrt{1.667} = 1.291$$
+</div>
+
+The new period is:
+
+<div class="equation">
+ $$T_2 = T_1 \times 1.291 = 1.50 \times 1.291 = 1.94 \text{ s}$$
+</div>
+
+**Discussion**
+
+When the second skydiver grabs onto the first, the total mass increases from 90.0 kg to 150.0 kg (a 67% increase). The period increases from 1.50 s to 1.94 s (a 29% increase). This makes physical sense because period is proportional to $$\sqrt{m}$$, not directly to $$m$$. The parachute suspension lines act like springs, and adding more mass causes the system to oscillate more slowly. This effect is noticeable to skydivers who perform formations—when skydivers link together, the oscillations become slower.
+
+**Answer**
+
 1.94 s
 
 </div>

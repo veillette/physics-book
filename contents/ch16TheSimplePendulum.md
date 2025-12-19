@@ -225,6 +225,38 @@ What is the length of a pendulum that has a period of 0.500 s?
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+We can use the formula for the period of a simple pendulum $$T = 2\pi\sqrt{\frac{L}{g}}$$ and solve for the length $$L$$.
+
+**Solution**
+
+Squaring both sides of $$T = 2\pi\sqrt{\frac{L}{g}}$$:
+
+<div class="equation">
+ $$T^2 = 4\pi^2\frac{L}{g}$$
+</div>
+
+Solving for $$L$$:
+
+<div class="equation">
+ $$L = \frac{gT^2}{4\pi^2}$$
+</div>
+
+Substituting the known values $$g = 9.80 \text{ m/s}^2$$ and $$T = 0.500 \text{ s}$$:
+
+<div class="equation">
+ $$L = \frac{(9.80)(0.500)^2}{4\pi^2} = \frac{(9.80)(0.250)}{39.48} = \frac{2.45}{39.48} = 0.0621 \text{ m}$$
+</div>
+
+Converting to centimeters: $$L = 6.21 \text{ cm}$$
+
+**Discussion**
+
+A pendulum only about 6 cm long (about 2.4 inches) has a very short period of half a second. This means it completes two full swings per second, oscillating quite rapidly. Such a short pendulum might be used in a small clock mechanism or a scientific instrument requiring quick oscillations. The short length leads to a short period because the restoring force acts over a smaller distance, causing faster motion.
+
+**Answer**
+
 6.21 cm
 
 </div>
@@ -271,6 +303,26 @@ What is the period of a 1.00-m-long pendulum?
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+We can directly use the period formula $$T = 2\pi\sqrt{\frac{L}{g}}$$ with the given length $$L = 1.00 \text{ m}$$.
+
+**Solution**
+
+<div class="equation">
+ $$T = 2\pi\sqrt{\frac{L}{g}} = 2\pi\sqrt{\frac{1.00}{9.80}}$$
+</div>
+
+<div class="equation">
+ $$T = 2\pi\sqrt{0.102} = 2\pi(0.319) = 2.01 \text{ s}$$
+</div>
+
+**Discussion**
+
+A 1-meter pendulum is a convenient length for laboratory demonstrations and has a period of about 2 seconds. This means it takes 2 seconds to complete one full swing (back and forth). The near-integer value makes it easy to time manually with a stopwatch. Historically, some early proposals for defining the meter suggested using the length of a "seconds pendulum" (period of 2 seconds), though this wasn't adopted because gravitational acceleration varies slightly with location.
+
+**Answer**
+
 2.01 s
 
 </div>
@@ -309,7 +361,33 @@ The pendulum on a cuckoo clock is 5.00 cm long. What is its frequency?
 
 </div>
 <div class="solution" markdown="1">
-2\.23 Hz
+**Strategy**
+
+The frequency is the reciprocal of the period. We first find the period using $$T = 2\pi\sqrt{\frac{L}{g}}$$, then calculate $$f = \frac{1}{T}$$.
+
+**Solution**
+
+Convert length to meters: $$L = 5.00 \text{ cm} = 0.0500 \text{ m}$$
+
+Calculate the period:
+
+<div class="equation">
+ $$T = 2\pi\sqrt{\frac{L}{g}} = 2\pi\sqrt{\frac{0.0500}{9.80}} = 2\pi\sqrt{0.00510} = 2\pi(0.0714) = 0.449 \text{ s}$$
+</div>
+
+Calculate the frequency:
+
+<div class="equation">
+ $$f = \frac{1}{T} = \frac{1}{0.449} = 2.23 \text{ Hz}$$
+</div>
+
+**Discussion**
+
+The cuckoo clock pendulum oscillates at 2.23 Hz, meaning it completes about 2.2 swings per second. This relatively high frequency (compared to a grandfather clock) is characteristic of the shorter pendulum used in cuckoo clocks. The rapid ticking provides the distinctive sound associated with these clocks. The short 5-cm pendulum allows the clock to be compact while still using a mechanical pendulum mechanism for timekeeping.
+
+**Answer**
+
+2.23 Hz
 
 </div>
 </div>
@@ -424,6 +502,38 @@ The new location has a slightly higher acceleration due to gravity (9.82 m/s² v
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+Since $$T = 2\pi\sqrt{\frac{L}{g}}$$, the period is proportional to the square root of the length. We can find the ratio of new to old period for each case.
+
+**Solution**
+
+**(a) Doubling the length:**
+
+If $$L_{\text{new}} = 2L_{\text{old}}$$, then:
+
+<div class="equation">
+ $$\frac{T_{\text{new}}}{T_{\text{old}}} = \sqrt{\frac{L_{\text{new}}}{L_{\text{old}}}} = \sqrt{\frac{2L}{L}} = \sqrt{2} = 1.41$$
+</div>
+
+The period increases by a factor of $$\sqrt{2}$$ or approximately 1.41.
+
+**(b) Decreasing the length by 5.00%:**
+
+If $$L_{\text{new}} = 0.950L_{\text{old}}$$, then:
+
+<div class="equation">
+ $$\frac{T_{\text{new}}}{T_{\text{old}}} = \sqrt{\frac{L_{\text{new}}}{L_{\text{old}}}} = \sqrt{0.950} = 0.975$$
+</div>
+
+The period decreases to 97.5% of the old period (a 2.5% decrease).
+
+**Discussion**
+
+Part (a) shows that doubling the length doesn't double the period—it only increases it by about 41%. This square root relationship is characteristic of the pendulum. To double the period, you would need to quadruple the length. Part (b) demonstrates that a 5% decrease in length causes only a 2.5% decrease in period. This square root relationship means pendulums are somewhat forgiving of small length changes, which is useful for clock design. However, even small changes still affect timekeeping, as we saw in previous problems.
+
+**Answer**
+
 (a) Period increases by a factor of 1.41 ( $$\sqrt{2} $$ )
 
 (b) Period decreases to 97.5% of old period
@@ -471,11 +581,37 @@ The period on the Moon is 2.45 times longer than on Earth. This makes sense beca
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 At what rate will a pendulum clock run on the Moon, where the acceleration due to gravity is  $$1.63 {\text{m/s}}^{2} $$ ,
- if it keeps time accurately on Earth? That is, find the time (in hours) it takes the clock’s hour hand to make one revolution on the Moon.
+ if it keeps time accurately on Earth? That is, find the time (in hours) it takes the clock's hour hand to make one revolution on the Moon.
 
 </div>
 <div class="solution" markdown="1">
-Slow by a factor of 2.45
+**Strategy**
+
+Since the period on the Moon is longer by a factor found in the previous problem (2.45), the clock runs slow by the same factor. When the clock's hour hand completes one revolution (which it thinks is 12 hours), more actual time will have passed.
+
+**Solution**
+
+From the previous problem, we know:
+
+<div class="equation">
+ $$\frac{T_{\text{Moon}}}{T_{\text{Earth}}} = \sqrt{\frac{g_{\text{Earth}}}{g_{\text{Moon}}}} = \sqrt{\frac{9.80}{1.63}} = 2.45$$
+</div>
+
+The clock runs slow by this same factor. When the clock measures 12 hours, the actual time elapsed is:
+
+<div class="equation">
+ $$t_{\text{actual}} = 2.45 \times 12 \text{ hours} = 29.4 \text{ hours}$$
+</div>
+
+Therefore, it takes 29.4 hours of actual time for the clock's hour hand to make one revolution on the Moon.
+
+**Discussion**
+
+The pendulum clock runs very slowly on the Moon—it takes 29.4 actual hours for what the clock thinks is 12 hours to pass. This means the clock loses about 17.4 hours per "clock day" of 12 hours, or equivalently, it runs at only 41% of its proper rate (12/29.4 = 0.41). This dramatic effect occurs because the Moon's gravity is only about one-sixth that of Earth's, so the restoring force on the pendulum is much weaker. This makes mechanical pendulum clocks completely impractical for use on the Moon. Modern timekeeping devices using quartz crystals or atomic transitions are unaffected by gravity and would work equally well on the Moon or Earth.
+
+**Answer**
+
+29.4 hours (slow by a factor of 2.45)
 
 </div>
 </div>
@@ -549,7 +685,43 @@ If a pendulum-driven clock gains 5.00 s/day, what fractional change in pendulum 
 
 </div>
 <div class="solution" markdown="1">
-length must increase by 0.0116%.
+**Strategy**
+
+If the clock gains time, it runs fast, meaning its period is too short. To correct this, we need to increase the length to increase the period. Since $$T \propto \sqrt{L}$$, we can relate the fractional change in period to the fractional change in length.
+
+**Solution**
+
+The clock gains 5.00 s in one day (86400 s), so the ratio of periods is:
+
+<div class="equation">
+ $$\frac{T_{\text{actual}}}{T_{\text{clock}}} = \frac{86400}{86400 - 5.00} = \frac{86400}{86395} = 1.0000579$$
+</div>
+
+Since $$T \propto \sqrt{L}$$, we have:
+
+<div class="equation">
+ $$\frac{T_{\text{new}}}{T_{\text{old}}} = \sqrt{\frac{L_{\text{new}}}{L_{\text{old}}}}$$
+</div>
+
+Therefore:
+
+<div class="equation">
+ $$\frac{L_{\text{new}}}{L_{\text{old}}} = \left(\frac{T_{\text{new}}}{T_{\text{old}}}\right)^2 = (1.0000579)^2 = 1.000116$$
+</div>
+
+The fractional change in length is:
+
+<div class="equation">
+ $$\frac{\Delta L}{L} = \frac{L_{\text{new}} - L_{\text{old}}}{L_{\text{old}}} = 1.000116 - 1 = 0.000116 = 0.0116\%$$
+</div>
+
+**Discussion**
+
+To correct a clock that gains 5 seconds per day, the pendulum length must be increased by only 0.0116%, or about 1.16 parts in 10,000. This is an extremely small adjustment—for a 1-meter pendulum, this would be only 0.116 mm or about the thickness of a human hair! This demonstrates the high sensitivity of pendulum clocks to length changes and explains why precision pendulum clocks often include fine adjustment mechanisms. The length must be increased (not decreased) because a clock that gains time has too short a period, and increasing length increases the period. Temperature changes can easily cause such small length variations through thermal expansion, which is why precision clocks often use pendulums made of materials with low thermal expansion coefficients or use temperature-compensating designs.
+
+**Answer**
+
+Length must increase by 0.0116%
 
 </div>
 </div>
