@@ -19,7 +19,7 @@ is measured with a thermometer. We gain a better understanding of pressure and
 temperature from the kinetic theory of gases, which assumes that atoms and
 molecules are in continuous random motion.
 
-![A green vector v, representing a molecule colliding with a wall, is pointing at the surface of a wall at an angle. A second vector v primed starts at the point of impact and travels away from the wall at an angle. A dotted line perpendicular to the wall through the point of impact represents the component of the molecule&#x2019;s momentum that is perpendicular to the wall. A red vector F is pointing into the wall from the point of impact, representing the force of the molecule hitting the wall.](../resources/Figure_13_04_01.jpg "When a molecule collides with a rigid wall, the component of its momentum perpendicular to the wall is reversed. A force is thus exerted on the wall, creating pressure.")
+![A green vector v, representing a molecule colliding with a wall, is pointing at the surface of a wall at an angle. A second vector v primed starts at the point of impact and travels away from the wall at an angle. A dotted line perpendicular to the wall through the point of impact represents the component of the molecule’s momentum that is perpendicular to the wall. A red vector F is pointing into the wall from the point of impact, representing the force of the molecule hitting the wall.](../resources/Figure_13_04_01.jpg 'When a molecule collides with a rigid wall, the component of its momentum perpendicular to the wall is reversed. A force is thus exerted on the wall, creating pressure.')
 {: #Figure1}
 
 [[Figure 1]](#Figure1) shows an elastic collision of a gas molecule with the
@@ -75,12 +75,12 @@ assumption is not always valid, but the same result is obtained with a more
 detailed description of the molecule’s exchange of energy and momentum with the
 wall.
 
-![Diagram representing the pressures that a gas exerts on the walls of a box in a three-dimensional coordinate system with x, y, and z components.](../resources/Figure_13_04_02.jpg "Gas in a box exerts an outward pressure on its walls. A molecule colliding with a rigid wall has the direction of its velocity and momentum in the \( x \) -direction reversed. This direction is perpendicular to the wall. The components of its velocity momentum in the \( y \) - and \( z \) -directions are not changed, which means there is no force parallel to the wall.")
+![Diagram representing the pressures that a gas exerts on the walls of a box in a three-dimensional coordinate system with x, y, and z components.](../resources/Figure_13_04_02.jpg 'Gas in a box exerts an outward pressure on its walls. A molecule colliding with a rigid wall has the direction of its velocity and momentum in the ( x ) -direction reversed. This direction is perpendicular to the wall. The components of its velocity momentum in the ( y ) - and ( z ) -directions are not changed, which means there is no force parallel to the wall.')
 {: #Figure2}
 
 If the molecule’s velocity changes in the $$x $$ -direction, its momentum
 changes from $$-mv_{x} $$ to $$+mv_{x} $$ . Thus, its change in momentum is
-$$\Delta mv = + mv_{x}-\left(-mv_{x}\right)=2mv_{x} $$ . The force exerted on
+$$\Delta mv = + mv*{x}-\left(-mv*{x}\right)=2mv\_{x} $$ . The force exerted on
 the molecule is given by
 
 <div class="equation" >
@@ -153,7 +153,9 @@ molecule is directly related to absolute temperature.
 </div>
 
 The average translational kinetic energy of a molecule, $$\overline{\text{KE}}
-$$ , is called **thermal energy** . The equation
+
+$$
+, is called **thermal energy** . The equation
 $$\overline{\text{KE}}=\frac{1}{2}m\overline{ {v}^{2}}=\frac{3}{2}k_{B}T $$ is a
 molecular interpretation of temperature, and it has been found to be valid for
 gases and reasonably accurate in liquids and solids. It is another definition of
@@ -308,11 +310,11 @@ the problem.
   <div class="equation" >
    $$\overline{\text{KE}}=\frac{1}{2}m\overline{ {v}^{2}}=\frac{3}{2}k_{B}T $$
   </div>
-     or   
+     or
   <div class="equation" >
    $$\sqrt{\overline{ {v}^{2}}}={v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}} $$
   </div>
-     to yield   
+     to yield
   <div class="equation" >
    $$T=\frac{m\overline{ {v}^{2}}}{3k}, $$
   </div>
@@ -403,7 +405,7 @@ Pump gas molecules into a box and see what happens as you change the volume, add
   <div class="equation" >
    $$\overline{\text{KE}}=\frac{1}{2}m\overline{ {v}^{2}}=\frac{3}{2}k_{B}T $$
   </div>
-     or   
+     or
   <div class="equation" >
    $$\sqrt{\overline{ {v}^{2}}}={v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}\text{.} $$
   </div>
@@ -540,3 +542,4 @@ molecule
 </div>
 
 [1]: http://phet.colorado.edu/en/simulation/gas-properties
+$$

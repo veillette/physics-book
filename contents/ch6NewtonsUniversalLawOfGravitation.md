@@ -29,7 +29,7 @@ the immense.
 
 Sir Isaac Newton was the first scientist to precisely define the gravitational force, and to show that it could explain both falling bodies and astronomical motions. See [Figure 1](#Figure1). But Newton was not the first to suspect that the same force caused both our weight and the motion of planets. His forerunner Galileo Galilei had contended that falling bodies and planetary motions had the same cause. Some of Newton's contemporaries, such as Robert Hooke, Christopher Wren, and Edmund Halley, had also made some progress toward understanding gravitation. But Newton was the first to propose an exact mathematical form and to use that form to show that the motion of heavenly bodies should be conic sections—circles, ellipses, parabolas, and hyperbolas. This theoretical prediction was a major triumph—it had been known for some time that moons, planets, and comets follow such paths, but no one had been able to propose a mechanism that caused them to follow these paths and not others. Other prominent scientists and mathematicians of the time, particularly those outside of England, were reluctant to accept Newton's principles. It took the work of another prominent philosopher, writer, and scientist, Émilie du Châtelet, to establish the Newtonian gravitation as the accurate and overarching law. Du Châtelet, who had earlier laid the foundation for the understanding of conservation of energy as well as the principle that light had no mass, translated and augmented Newton's key work. She also utilized calculus to explain gravity, which helped lead to its acceptance.
 
-![The figure shows a graphic image of a person sitting under a tree carefully looking toward an apple falling from the tree above him. There is a view of a river behind him and an image of the Sun in the sky.](../resources/Figure_06_05_01.jpg "According to early accounts, Newton was inspired to make the connection between falling bodies and astronomical motions when he saw an apple fall from a tree and realized that if the gravitational force could extend above the ground to a tree, it might also reach the Sun. The inspiration of Newton&#x2019;s apple is a part of worldwide folklore and may even be based in fact. Great importance is attached to it because Newton&#x2019;s universal law of gravitation and his laws of motion answered very old questions about nature and gave tremendous support to the notion of underlying simplicity and unity in nature. Like many revolutionary discoveries, it was not immediately accepted. Prominent French scientist and philosopher Émilie du Châtelet helped establish Newton&#x2019;s theory in France and mainland Europe.")
+![The figure shows a graphic image of a person sitting under a tree carefully looking toward an apple falling from the tree above him. There is a view of a river behind him and an image of the Sun in the sky.](../resources/Figure_06_05_01.jpg 'According to early accounts, Newton was inspired to make the connection between falling bodies and astronomical motions when he saw an apple fall from a tree and realized that if the gravitational force could extend above the ground to a tree, it might also reach the Sun. The inspiration of Newton’s apple is a part of worldwide folklore and may even be based in fact. Great importance is attached to it because Newton’s universal law of gravitation and his laws of motion answered very old questions about nature and gave tremendous support to the notion of underlying simplicity and unity in nature. Like many revolutionary discoveries, it was not immediately accepted. Prominent French scientist and philosopher Émilie du Châtelet helped establish Newton’s theory in France and mainland Europe.')
 {: #Figure1}
 
 The gravitational force is relatively simple. It is always attractive, and it
@@ -39,7 +39,7 @@ particle in the universe attracts every other particle with a force along a line
 joining them. The force is directly proportional to the product of their masses
 and inversely proportional to the square of the distance between them.
 
-![The given figure shows two circular objects, one with a larger mass M on the right side, and another with a smaller mass m on the left side. A point in the center of each object is shown, with both depicting the center of mass of the objects at these points. A line is drawn joining the center of the objects and is labeled as r. Two red arrows, one each from both the center of the objects, are drawn toward each other and are labeled as F, the magnitude of the gravitational force on both the objects.](../resources/Figure_06_05_02.jpg "Gravitational attraction is along a line joining the centers of mass of these two bodies. The magnitude of the force is the same on each, consistent with Newton&#x2019;s third law.")
+![The given figure shows two circular objects, one with a larger mass M on the right side, and another with a smaller mass m on the left side. A point in the center of each object is shown, with both depicting the center of mass of the objects at these points. A line is drawn joining the center of the objects and is labeled as r. Two red arrows, one each from both the center of the objects, are drawn toward each other and are labeled as F, the magnitude of the gravitational force on both the objects.](../resources/Figure_06_05_02.jpg 'Gravitational attraction is along a line joining the centers of mass of these two bodies. The magnitude of the force is the same on each, consistent with Newton’s third law.')
 {: #Figure2}
 
 <div class="note" data-label="" markdown="1">
@@ -84,16 +84,18 @@ weight is the force of attraction of the *entire Earth* on us with a mass of $$
 6\times 10^{24}\kg $$.
 
 Recall that the acceleration due to gravity $$ g $$ is about $$ 9.80 \mss $$ on
-Earth. We can now determine why this is so. The weight of an object *mg* is the
+Earth. We can now determine why this is so. The weight of an object _mg_ is the
 gravitational force between it and Earth. Substituting
-*mg* for $$ F $$ in Newton’s universal law of gravitation gives
+_mg_ for $$ F $$ in Newton’s universal law of gravitation gives
 
 <div class="equation">
  $$ mg =G\frac{mM}{ r^{2}}, $$
 </div>
 
 where $$ m $$ is the mass of the object, $$ M $$ is the mass of Earth, and $$ r
-$$ is the distance to the center of Earth (the distance between the centers of
+
+$$
+is the distance to the center of Earth (the distance between the centers of
 mass of the object and Earth). See [Figure 3](#Figure3). The mass $$ m $$ of the
 object cancels, leaving an equation for $$ g $$:
 
@@ -135,7 +137,7 @@ Take a marble, a ball, and a spoon and drop them from the same height. Do they h
 <div class="title">
 Making Connections
 </div>
-Attempts are still being made to understand the gravitational force. 
+Attempts are still being made to understand the gravitational force.
 Modern physics is exploring the connections of gravity to other forces,
 space, and time. General relativity alters our view of gravitation,
 leading us to think of gravitation as bending space and time.
@@ -162,7 +164,9 @@ value of the acceleration due to Earth’s gravity that you have just found.
 
 This calculation is the same as the one finding the acceleration due to gravity
 at Earth’s surface, except that $$ r $$ is the distance from the center of Earth
-to the center of the Moon. The radius of the Moon’s nearly circular orbit is $$
+to the center of the Moon. The radius of the Moon’s nearly circular orbit is
+$$
+
 3.84 \times 10^{8}\m $$.
 
 **Solution for (a)**
@@ -242,7 +246,7 @@ force as discussed
 in [Satellites and Kepler\'s Laws: An Argument for Simplicity](./ch6SatellitesAndKeplersLaws)
 .
 
-![Figure a shows the Earth and the Moon around it orbiting in a circular path shown here as a circle around the Earth with an arrow over it showing the counterclockwise direction of the Moon. The center of mass of the circle is shown here with a point on the Earth that is not the Earth&#x2019;s center but just right to its center. Figure b shows the Sun and the counterclockwise rotation of the Earth around it, in an elliptical path, which has wiggles. Along this path the center of mass of the Earth-Moon is also shown; it follows non-wiggled elliptical path.](../resources/Figure_06_05_04.jpg "(a) Earth and the Moon rotate approximately once a month around their common center of mass. (b) Their center of mass orbits the Sun in an elliptical orbit, but Earth&#x2019;s path around the Sun has &#x201C;wiggles&#x201D; in it. Similar wiggles in the paths of stars have been observed and are considered direct evidence of planets orbiting those stars. This is important because the planets&#x2019; reflected light is often too dim to be observed.")
+![Figure a shows the Earth and the Moon around it orbiting in a circular path shown here as a circle around the Earth with an arrow over it showing the counterclockwise direction of the Moon. The center of mass of the circle is shown here with a point on the Earth that is not the Earth’s center but just right to its center. Figure b shows the Sun and the counterclockwise rotation of the Earth around it, in an elliptical path, which has wiggles. Along this path the center of mass of the Earth-Moon is also shown; it follows non-wiggled elliptical path.](../resources/Figure_06_05_04.jpg '(a) Earth and the Moon rotate approximately once a month around their common center of mass. (b) Their center of mass orbits the Sun in an elliptical orbit, but Earth’s path around the Sun has “wiggles” in it. Similar wiggles in the paths of stars have been observed and are considered direct evidence of planets orbiting those stars. This is important because the planets’ reflected light is often too dim to be observed.')
 {: #Figure4 height="185"}
 
 ### Tides
@@ -261,7 +265,7 @@ orbits) keeps its orientation with the Moon. Thus there are two tides per day (
 the actual tidal period is about 12 hours and 25.2 minutes), because the Moon
 moves in its orbit each day as well).
 
-![The given figure shows an ellipse, inside which there is a circular image of the Earth. There is a curved arrow in the lower part of the Earth&#x2019;s image pointing in the counterclockwise direction. The right and left side of the ellipse are labeled as High tide and the top and bottom side are labeled as Low tide. Alongside this image a circular image of the Moon is also given with dots showing the crates over it. A vertically upwards vector from its top is also shown, which indicates the direction of the Moon&#x2019;s velocity.](../resources/Figure_06_05_05.jpg "The Moon causes ocean tides by attracting the water on the near side more than Earth, and by attracting Earth more than the water on the far side. The distances and sizes are not to scale. For this simplified representation of the Earth-Moon system, there are two high and two low tides per day at any location, because Earth rotates under the tidal bulge.")
+![The given figure shows an ellipse, inside which there is a circular image of the Earth. There is a curved arrow in the lower part of the Earth’s image pointing in the counterclockwise direction. The right and left side of the ellipse are labeled as High tide and the top and bottom side are labeled as Low tide. Alongside this image a circular image of the Moon is also given with dots showing the crates over it. A vertically upwards vector from its top is also shown, which indicates the direction of the Moon’s velocity.](../resources/Figure_06_05_05.jpg 'The Moon causes ocean tides by attracting the water on the near side more than Earth, and by attracting Earth more than the water on the far side. The distances and sizes are not to scale. For this simplified representation of the Earth-Moon system, there are two high and two low tides per day at any location, because Earth rotates under the tidal bulge.')
 {: #Figure5}
 
 The Sun also affects tides, although it has about half the effect of the Moon.
@@ -269,7 +273,7 @@ However, the largest tides, called spring tides, occur when Earth, the Moon, and
 the Sun are aligned. The smallest tides, called neap tides, occur when the Sun
 is at a $$ 90^\circ $$ angle to the Earth-Moon alignment.
 
-![Figure a shows an ellipse, inside which there is a circular image of the Earth. There is a curved arrow in the lower part of the Earth&#x2019;s image pointing in the counterclockwise direction. Alongside this image a circular image of the Moon is also given with dots showing the crates over it. A vertically upward vector from its top is also drawn, which shows the direction of velocity. To the right side of the image, an image of the Sun is also shown, in a circular shape with pointed wiggles throughout its boundary. Figure b shows an ellipse, inside which there is a circular image of the Earth. There is a curved arrow in the lower part of the Earth&#x2019;s image pointing in the counterclockwise direction. Alongside this image a circular image of the Moon is also given with dots showing the crates over it. A vertical downward vector from its bottom is also drawn, which shows the direction of velocity. To the right side of the image, an image of the Sun is also shown, in a circular shape and pointed wiggles throughout its boundary. Figure c shows an ellipse, inside which there is a circular image of the Earth. There is a curved arrow in the lower part of the Earth&#x2019;s image pointing in the counterclockwise direction. Alongside this image a circular image of the Moon is also given with dots showing the crates over it. A horizontal rightward vector from its right side is also drawn, which shows the direction of velocity. To the right side of the image, an image of the Sun is also shown, in a circular shape and pointed wiggles throughout its boundary.](../resources/Figure_06_05_06.jpg "(a, b) Spring tides: The highest tides occur when Earth, the Moon, and the Sun are aligned. (c) Neap tide: The lowest tides occur when the Sun lies at 90 degrees to the Earth-Moon alignment. Note that this figure is not drawn to scale.")
+![Figure a shows an ellipse, inside which there is a circular image of the Earth. There is a curved arrow in the lower part of the Earth’s image pointing in the counterclockwise direction. Alongside this image a circular image of the Moon is also given with dots showing the crates over it. A vertically upward vector from its top is also drawn, which shows the direction of velocity. To the right side of the image, an image of the Sun is also shown, in a circular shape with pointed wiggles throughout its boundary. Figure b shows an ellipse, inside which there is a circular image of the Earth. There is a curved arrow in the lower part of the Earth’s image pointing in the counterclockwise direction. Alongside this image a circular image of the Moon is also given with dots showing the crates over it. A vertical downward vector from its bottom is also drawn, which shows the direction of velocity. To the right side of the image, an image of the Sun is also shown, in a circular shape and pointed wiggles throughout its boundary. Figure c shows an ellipse, inside which there is a circular image of the Earth. There is a curved arrow in the lower part of the Earth’s image pointing in the counterclockwise direction. Alongside this image a circular image of the Moon is also given with dots showing the crates over it. A horizontal rightward vector from its right side is also drawn, which shows the direction of velocity. To the right side of the image, an image of the Sun is also shown, in a circular shape and pointed wiggles throughout its boundary.](../resources/Figure_06_05_06.jpg '(a, b) Spring tides: The highest tides occur when Earth, the Moon, and the Sun are aligned. (c) Neap tide: The lowest tides occur when the Sun lies at 90 degrees to the Earth-Moon alignment. Note that this figure is not drawn to scale.')
 {: #Figure6}
 
 Tides are not unique to Earth but occur in many astronomical systems. The most
@@ -280,7 +284,7 @@ observed in our galaxy. These have masses greater than the Sun but have
 diameters only a few kilometers across. The tidal forces near them are so great
 that they can actually tear matter from a companion star.
 
-![The figure shows a star in sky near a black hole. The tidal force of the black hole is tearing the matter from the star&#x2019;s surface. ](../resources/Figure_06_05_07.jpg "A black hole is an object with such strong gravity that not even light can escape it. This black hole was created by the supernova of one star in a two-star system. The tidal forces created by the black hole are so great that it tears matter from the companion star. This matter is compressed and heated as it is sucked into the black hole, creating light and X-rays observable from Earth.")
+![The figure shows a star in sky near a black hole. The tidal force of the black hole is tearing the matter from the star’s surface. ](../resources/Figure_06_05_07.jpg 'A black hole is an object with such strong gravity that not even light can escape it. This black hole was created by the supernova of one star in a two-star system. The tidal forces created by the black hole are so great that it tears matter from the companion star. This matter is compressed and heated as it is sucked into the black hole, creating light and X-rays observable from Earth.')
 {: #Figure7}
 
 ### ”Weightlessness” and Microgravity
@@ -296,7 +300,7 @@ gravity. If an elevator cable breaks, the passengers inside will be in free fall
 and will experience weightlessness. You can experience short periods of
 weightlessness in some rides in amusement parks.
 
-![The figure shows some astronauts floating inside the International Space Station](../resources/Figure_06_05_08.jpg "Astronauts experiencing weightlessness on board the International Space Station. (credit: NASA)")
+![The figure shows some astronauts floating inside the International Space Station](../resources/Figure_06_05_08.jpg 'Astronauts experiencing weightlessness on board the International Space Station. (credit: NASA)')
 {: #Figure8}
 
 **Microgravity** refers to an environment in which the apparent net acceleration
@@ -358,7 +362,9 @@ gravitation gives
 </div>
 
 where $$ m $$ is the mass of the object, $$ M $$ is the mass of Earth, and $$ r
-$$ is the distance to the center of Earth (the distance between the centers of
+
+$$
+is the distance to the center of Earth (the distance between the centers of
 mass of the object and Earth). See [Figure 2](#Figure2). The mass $$ m $$ of the
 object cancels, leaving an equation for $$ g $$:
 
@@ -803,3 +809,4 @@ their masses and inversely proportional to the square of the distance between
 them
 
 </div>
+$$

@@ -82,7 +82,7 @@ Broglie was awarded the Nobel Prize in 1929 for his vision, as were Davisson and
 G. P. Thomson in 1937 for their experimental verification of de Broglie’s
 hypothesis.
 
-![Diffraction pattern obtained for electrons diffracted by crystalline silicon is shown. The diffraction pattern has a bright spot at the center of a circle with brighter and darker regions occurring in a symmetric manner.](../resources/Figure_29_06_01.jpg "This diffraction pattern was obtained for electrons diffracted by crystalline silicon. Bright regions are those of constructive interference, while dark regions are those of destructive interference. (credit: Ndthe, Wikimedia Commons)")
+![Diffraction pattern obtained for electrons diffracted by crystalline silicon is shown. The diffraction pattern has a bright spot at the center of a circle with brighter and darker regions occurring in a symmetric manner.](../resources/Figure_29_06_01.jpg 'This diffraction pattern was obtained for electrons diffracted by crystalline silicon. Bright regions are those of constructive interference, while dark regions are those of destructive interference. (credit: Ndthe, Wikimedia Commons)')
 {: #Figure1}
 
 <div id="Example1" class="example" markdown="1">
@@ -163,13 +163,13 @@ The scanning electron microscope (SEM) provides images by using secondary
 electrons produced by the primary beam interacting with the surface of the
 sample (see [[Figure 2]](#Figure2)). The SEM also uses magnetic lenses to focus
 the beam onto the sample. However, it moves the beam around electrically to
-“scan” the sample in the *x* and *y* directions. A CCD detector is used to
+“scan” the sample in the _x_ and _y_ directions. A CCD detector is used to
 process the data for each electron position, producing images like the one at
 the beginning of this chapter. The SEM has the advantage of not requiring a thin
 sample and of providing a 3-D view. However, its resolution is about ten times
 less than a TEM.
 
-![Figure a shows a schematic of an electron microscope. Figure b shows an image of a shark tooth.](../resources/Figure_29_06_02.jpg "Schematic of a scanning electron microscope (SEM) (a) used to observe small details, such as those seen in this image of a tooth of a Himipristis, a type of shark (b). (credit: Dallas Krentzel, Flickr)")
+![Figure a shows a schematic of an electron microscope. Figure b shows an image of a shark tooth.](../resources/Figure_29_06_02.jpg 'Schematic of a scanning electron microscope (SEM) (a) used to observe small details, such as those seen in this image of a tooth of a Himipristis, a type of shark (b). (credit: Dallas Krentzel, Flickr)')
 {: #Figure2}
 
 Electrons were the first particles with mass to be directly confirmed to have
@@ -201,12 +201,12 @@ and, thus, interfere constructively. At other angles, the path length
 differences are not an integral wavelength, and there is partial to total
 destructive interference. This type of scattering from a large crystal with
 well-defined lattice planes can produce dramatic interference patterns. It is
-called **Bragg reflection**, **for the father-and-son team who first explored
+called **Bragg reflection**, \*\*for the father-and-son team who first explored
 and analyzed it in some detail. The expanded view also shows the path-length
 differences and indicates how these depend on incident angle $$\theta $$ in a
 manner similar to the diffraction patterns for X-rays reflecting from a crystal.
 
-![An electron beam is striking at an angle theta on a crystal and the reflected rays are detected by a detector. A magnified view of the crystal is also shown with two rays of electrons striking the various layers of crystal at an angle theta and reflected back. A graph is shown of intensity variation versus theta. Intensity is along the y axis and theta is along the x axis.The shape of the curve is like a wave and each subsequent peak diminishes as we move out the x axis.](../resources/Figure_29_06_03.jpg "The diffraction pattern at top left is produced by scattering electrons from a crystal and is graphed as a function of incident angle relative to the regular array of atoms in a crystal, as shown at bottom. Electrons scattering from the second layer of atoms travel farther than those scattered from the top layer. If the path length difference (PLD) is an integral wavelength, there is constructive interference.")
+![An electron beam is striking at an angle theta on a crystal and the reflected rays are detected by a detector. A magnified view of the crystal is also shown with two rays of electrons striking the various layers of crystal at an angle theta and reflected back. A graph is shown of intensity variation versus theta. Intensity is along the y axis and theta is along the x axis.The shape of the curve is like a wave and each subsequent peak diminishes as we move out the x axis.](../resources/Figure_29_06_03.jpg 'The diffraction pattern at top left is produced by scattering electrons from a crystal and is graphed as a function of incident angle relative to the regular array of atoms in a crystal, as shown at bottom. Electrons scattering from the second layer of atoms travel farther than those scattered from the top layer. If the path length difference (PLD) is an integral wavelength, there is constructive interference.')
 {: #Figure3}
 
 Let us take the spacing between parallel planes of atoms in the crystal to be
@@ -215,7 +215,7 @@ a whole number of wavelengths, there will be constructive interference—that is
 $$\text{PLD}=\mathrm{n\lambda }\left(n=1, 2, 3,\dots \right) $$ . Because
 $$\text{AB}=\text{BC}=d \sin \theta \text{,} $$ we have constructive
 interference when $$\mathrm{n\lambda }=2d \sin \mathrm{\theta .} $$ This
-relationship is called the *Bragg equation* and applies not only to electrons
+relationship is called the _Bragg equation_ and applies not only to electrons
 but also to X-rays.
 
 The wavelength of matter is a submicroscopic characteristic that explains a
@@ -227,9 +227,9 @@ phenomenon of diffraction patterns.
 
 ### Section Summary
 
-* Particles of matter also have a wavelength, called the de Broglie wavelength,
+- Particles of matter also have a wavelength, called the de Broglie wavelength,
   given by $$\lambda =\frac{h}{p} $$ , where $$p $$ is momentum.
-* Matter is found to have the same **interference characteristics** as any other
+- Matter is found to have the same **interference characteristics** as any other
   wave.
 
 ### Conceptual Questions
@@ -276,7 +276,7 @@ What is the wavelength of an electron moving at 3.00% of the speed of light?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-At what velocity does a proton have a 6.00-fm wavelength (about the size of a nucleus)? Assume the proton is nonrelativistic. (1 femtometer =  $$ 10^{-15} \text{m} \text{.}  $$ )  
+At what velocity does a proton have a 6.00-fm wavelength (about the size of a nucleus)? Assume the proton is nonrelativistic. (1 femtometer =  $$ 10^{-15} \text{m} \text{.}  $$ )
 
 </div>
 <div class="solution" markdown="1">
@@ -354,7 +354,7 @@ The velocity of a proton emerging from a Van de Graaff accelerator is 25.0% of t
 <div class="solution" markdown="1">
 (a) 5.29 fm
 
-(b)  $$ 4.70 \times 10^{-12} \text{J} $$
+(b) $$ 4.70 \times 10^{-12} \text{J} $$
 (c) 29.4 MV
 
 </div>
@@ -393,6 +393,8 @@ wavelength.
 
 de Broglie wavelength
 : the wavelength possessed by a particle of matter, calculated by $$\lambda =h/p
+
 $$
 
 </div>
+$$

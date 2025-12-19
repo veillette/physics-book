@@ -52,7 +52,7 @@ the system.
 
 </div>
 
-![The system of interest contains a smaller mass m sub1 and a larger mass m sub2 moving on a frictionless surface. M sub 2 moves with velocity V sub 2 and momentum p sub 2 and m sub 1 moves behind m sub 2, with velocity V sub 1 and momentum p sub 1 toward the right direction. P 1 plus P 2 equals p total. The net force is zero. After collision m sub 1 moves toward the left with velocity V sub 1 while m sub 2 moves toward the right with velocity V sub 2 on the same frictionless surface. The momentum of m sub 1 becomes p 1 prime and m 2 becomes p 2 prime now. P 1 prime plus p 2 prime equals p total.](../resources/Figure_08_04_01.jpg "An elastic one-dimensional two-object collision. Momentum and internal kinetic energy are conserved.")
+![The system of interest contains a smaller mass m sub1 and a larger mass m sub2 moving on a frictionless surface. M sub 2 moves with velocity V sub 2 and momentum p sub 2 and m sub 1 moves behind m sub 2, with velocity V sub 1 and momentum p sub 1 toward the right direction. P 1 plus P 2 equals p total. The net force is zero. After collision m sub 1 moves toward the left with velocity V sub 1 while m sub 2 moves toward the right with velocity V sub 2 on the same frictionless surface. The momentum of m sub 1 becomes p 1 prime and m 2 becomes p 2 prime now. P 1 prime plus p 2 prime equals p total.](../resources/Figure_08_04_01.jpg 'An elastic one-dimensional two-object collision. Momentum and internal kinetic energy are conserved.')
 {: #Figure1}
 
 Now, to solve problems involving one-dimensional elastic collisions between two
@@ -100,12 +100,12 @@ moving. We are asked to find two unknowns (the final velocities $$ v^{\prime}_
 {1} $$ and $$ v^{\prime}_{2} $$). To find two unknowns, we must use two
 independent equations. Because this collision is elastic, we can use the above
 two equations. Both can be simplified by the fact that object 2 is initially at
-rest, and thus $$ v_{2}=0 $$. Once we simplify these equations, we combine them
+rest, and thus $$ v\_{2}=0 $$. Once we simplify these equations, we combine them
 algebraically to solve for the unknowns.
 
 **Solution**
 
-For this problem, note that $$ v_{2}=0 $$ and use conservation of momentum.
+For this problem, note that $$ v\_{2}=0 $$ and use conservation of momentum.
 Thus,
 
 <div class="equation">
@@ -145,7 +145,7 @@ and
 As noted when quadratic equations were encountered in earlier chapters, both solutions may or may not be meaningful. In this case, the first solution is the same as the initial condition. The first solution thus represents the situation before the collision and is discarded. The second solution $$ \left(v^{\prime}_{1}=-3.00 \ms \right) $$
 
 is negative, meaning that the first object bounces backward. When this negative
-value of $$ v^{\prime}_{1} $$ is used to find the velocity of the second object
+value of $$ v^{\prime}\_{1} $$ is used to find the velocity of the second object
 after the collision, we get
 
 <div class="equation">
@@ -198,8 +198,8 @@ Masses and Springs
 
 ### Section Summary
 
-* An elastic collision is one that conserves internal kinetic energy.
-* Conservation of kinetic energy and momentum together allow the final
+- An elastic collision is one that conserves internal kinetic energy.
+- Conservation of kinetic energy and momentum together allow the final
   velocities to be calculated in terms of initial velocities and masses in one
   dimensional two-body collisions.
 
@@ -254,6 +254,7 @@ Both momentum and kinetic energy are conserved, confirming this is an elastic co
 **Discussion**
 
 This complete transfer of motion between identical masses is characteristic of head-on elastic collisions. It's familiar from billiards and Newton's cradle—the moving object stops completely and transfers all its momentum and kinetic energy to the initially stationary object. This only happens when the masses are equal and the collision is perfectly elastic.
+
 </div>
 </div>
 
@@ -277,15 +278,15 @@ In an elastic collision, both momentum and kinetic energy are conserved. A funda
 
 For any elastic collision, the relative velocity of approach equals the relative velocity of separation:
 
-$$ |v_1 - v_2| = |v'_1 - v'_2| $$
+$$ |v_1 - v_2| = |v'\_1 - v'\_2| $$
 
 This is a consequence of conserving both momentum and kinetic energy simultaneously.
 
 Before collision:
-$$ v_{\text{relative, before}} = 0.250 \ms $$
+$$ v\_{\text{relative, before}} = 0.250 \ms $$
 
 After collision:
-$$ v_{\text{relative, after}} = 0.250 \ms $$
+$$ v\_{\text{relative, after}} = 0.250 \ms $$
 
 The satellites separate at the same relative speed they approached: 0.250 m/s.
 
@@ -293,9 +294,9 @@ The satellites separate at the same relative speed they approached: 0.250 m/s.
 
 Let satellite 1 approach at $$ v_1 = 0.250 \ms $$ and satellite 2 be at rest ($$ v_2 = 0 $$).
 
-Conservation of momentum: $$ m_1 v_1 = m_1 v'_1 + m_2 v'_2 $$
+Conservation of momentum: $$ m_1 v_1 = m_1 v'\_1 + m_2 v'\_2 $$
 
-Conservation of kinetic energy: $$ \frac{1}{2}m_1 v_1^2 = \frac{1}{2}m_1 {v'_1}^2 + \frac{1}{2}m_2 {v'_2}^2 $$
+Conservation of kinetic energy: $$ \frac{1}{2}m_1 v_1^2 = \frac{1}{2}m_1 {v'\_1}^2 + \frac{1}{2}m_2 {v'\_2}^2 $$
 
 Solving these simultaneously yields $$ v'_{\text{relative}} = v_{\text{relative}} = 0.250 \ms $$
 
@@ -304,6 +305,7 @@ The final relative velocity of the satellites is 0.250 m/s (they separate at the
 **Discussion**
 
 This result is independent of the masses! In any elastic collision, the relative speed before and after is the same—only the direction reverses. This is a powerful result for analyzing elastic collisions. For a failed docking attempt, the satellites would bounce apart at the same relative speed they approached, but now moving away from each other.
+
 </div>
 </div>
 
@@ -321,29 +323,30 @@ For an elastic collision with one object initially at rest, we use the equations
 
 For an elastic collision where object 2 is initially at rest, the final velocities are:
 
-$$ v'_1 = \frac{m_1 - m_2}{m_1 + m_2} v_1 $$
+$$ v'\_1 = \frac{m_1 - m_2}{m_1 + m_2} v_1 $$
 
-$$ v'_2 = \frac{2m_1}{m_1 + m_2} v_1 $$
+$$ v'\_2 = \frac{2m_1}{m_1 + m_2} v_1 $$
 
 Let the puck be object 1 ($$ m_1 = 0.150 \kg $$, $$ v_1 = 35.0 \ms $$) and the goalie be object 2 ($$ m_2 = 70.0 \kg $$, $$ v_2 = 0 $$).
 
 Calculate the puck's final velocity:
 
-$$ v'_1 = \frac{0.150 \kg - 70.0 \kg}{0.150 \kg + 70.0 \kg} \times 35.0 \ms $$
+$$ v'\_1 = \frac{0.150 \kg - 70.0 \kg}{0.150 \kg + 70.0 \kg} \times 35.0 \ms $$
 
-$$ v'_1 = \frac{-69.85 \kg}{70.15 \kg} \times 35.0 \ms = -34.85 \ms \approx -34.9 \ms $$
+$$ v'\_1 = \frac{-69.85 \kg}{70.15 \kg} \times 35.0 \ms = -34.85 \ms \approx -34.9 \ms $$
 
 Calculate the goalie's final velocity:
 
-$$ v'_2 = \frac{2(0.150 \kg)}{0.150 \kg + 70.0 \kg} \times 35.0 \ms $$
+$$ v'\_2 = \frac{2(0.150 \kg)}{0.150 \kg + 70.0 \kg} \times 35.0 \ms $$
 
-$$ v'_2 = \frac{0.300 \kg}{70.15 \kg} \times 35.0 \ms = 0.150 \ms $$
+$$ v'\_2 = \frac{0.300 \kg}{70.15 \kg} \times 35.0 \ms = 0.150 \ms $$
 
 The puck rebounds at 34.9 m/s in the opposite direction (back toward the shooter), and the goalie moves forward at 0.150 m/s.
 
 **Discussion**
 
 The puck loses very little speed (35.0 → 34.9 m/s) because the goalie is so much more massive. The goalie barely moves (0.150 m/s ≈ 0.5 km/h). This is consistent with everyday experience: when a light object bounces off a heavy one, the light object reverses direction with nearly the same speed. In reality, the puck doesn't bounce elastically off the goalie—it's caught (inelastic) or deflected with energy loss.
+
 </div>
 </div>
 

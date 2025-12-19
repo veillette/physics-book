@@ -20,7 +20,7 @@ rules—all of which apply in chemistry, material science, and far beyond the
 realm of atomic physics, where they were first discovered. Once again, we see
 how physics makes discoveries which enable other fields to grow.
 
-The *energy states of bound systems are quantized*, because the particle
+The _energy states of bound systems are quantized_, because the particle
 wavelength can fit into the bounds of the system in only certain ways. This was
 elaborated for the hydrogen atom, for which the allowed energies are expressed
 as $${E}_{n}\propto 1/{n}^{2} $$ , where $$n=1, 2, 3, ... $$ . We define $$n $$
@@ -36,7 +36,7 @@ This is more than just a numbering scheme, since the energy of the system, such
 as the hydrogen atom, can be expressed as some function of $$n $$ , as can other
 characteristics (such as the orbital radii of the hydrogen atom).
 
-The fact that the *magnitude of angular momentum is quantized* was first
+The fact that the _magnitude of angular momentum is quantized_ was first
 recognized by Bohr in relation to the hydrogen atom; it is now known to be true
 in general. With the development of quantum mechanics, it was found that the
 magnitude of angular momentum $$L $$ can have only the values
@@ -72,8 +72,8 @@ example, for $$l=2 $$ , we see that
 
 It is much simpler to state $$l=2 $$.
 
-As recognized in the Zeeman effect, the *direction of angular momentum is
-quantized*. We now know this is true in all circumstances. It is found that the
+As recognized in the Zeeman effect, the _direction of angular momentum is
+quantized_. We now know this is true in all circumstances. It is found that the
 component of angular momentum along one direction in space, usually called the
 $$z $$ -axis, can have only certain values of $${L}_{z} $$ . The direction in
 space must be related to something physical, such as the direction of the
@@ -96,7 +96,7 @@ preceding section. If the $$z $$ -component of angular momentum can have only
 certain values, then the angular momentum can have only certain directions, as
 illustrated in [[Figure 1]](#Figure1).
 
-![The image shows two possible values of component of a given angular momentum along z-axis. One circular orbit above the original circular orbit is shown for m sub l value of plus one. Another circular orbit below the original circular orbit is shown for m sub l value of minus one. The angular momentum vector for the top circular orbit makes an angle of theta sub one with the vertical axis. The horizontal angular momentum vector at original circular orbit makes an angle of theta sub two with the vertical axis. The angular momentum vector for the bottom circular orbit makes an angle of theta sub three with the vertical axis.](../resources/Figure_30_08_01.jpg "The component of a given angular momentum along the z-axis (defined by the direction of a magnetic field) can have only certain values; these are shown here for l=1, for which \( m_\text{l}=-1, 0, \text\{ and \} +1 \) . The direction of L is quantized in the sense that it can have only certain angles relative to the z-axis.")
+![The image shows two possible values of component of a given angular momentum along z-axis. One circular orbit above the original circular orbit is shown for m sub l value of plus one. Another circular orbit below the original circular orbit is shown for m sub l value of minus one. The angular momentum vector for the top circular orbit makes an angle of theta sub one with the vertical axis. The horizontal angular momentum vector at original circular orbit makes an angle of theta sub two with the vertical axis. The angular momentum vector for the bottom circular orbit makes an angle of theta sub three with the vertical axis.](../resources/Figure_30_08_01.jpg 'The component of a given angular momentum along the z-axis (defined by the direction of a magnetic field) can have only certain values; these are shown here for l=1, for which ( m_\\text{l}=-1, 0, \\text{ and } +1 ) . The direction of L is quantized in the sense that it can have only certain angles relative to the z-axis.')
 {: #Figure1}
 
 <div class="example" markdown="1">
@@ -192,8 +192,8 @@ which approaches 1 as  $$l $$
 
 There are two more quantum numbers of immediate concern. Both were first
 discovered for electrons in conjunction with fine structure in atomic spectra.
-It is now well established that electrons and other fundamental particles have *
-intrinsic spin*, roughly analogous to a planet spinning on its axis. This spin
+It is now well established that electrons and other fundamental particles have _
+intrinsic spin_, roughly analogous to a planet spinning on its axis. This spin
 is a fundamental characteristic of particles, and only one magnitude of
 intrinsic spin is allowed for a given type of particle. Intrinsic angular
 momentum is quantized independently of orbital angular momentum. Additionally,
@@ -208,7 +208,7 @@ where $$s $$ is defined to be the **spin quantum number**. This is very similar
 to the quantization of $$L $$ given in $$L=\sqrt{l\left(l+1\right)}\frac{h}{2\pi
 } $$ , except that the only value allowed for $$s $$ for electrons is 1/2.
 
-The *direction of intrinsic spin is quantized*, just as is the direction of
+The _direction of intrinsic spin is quantized_, just as is the direction of
 orbital angular momentum. The direction of spin angular momentum along one
 direction in space, again called the $$z $$ -axis, can have only the values
 
@@ -219,8 +219,8 @@ direction in space, again called the $$z $$ -axis, can have only the values
 for electrons. $${S}_{z} $$ is the ** $$z $$ -component of spin angular
 momentum** and $${m}_{s} $$ is the **spin projection quantum number**. For
 electrons, $$s $$ can only be 1/2, and $${m}_{s} $$ can be either +1/2 or -1/2.
-Spin projection $${m}_{s}=+1/2 $$ is referred to as *spin up*, whereas $${m}_
-{s}=-1/2 $$ is called *spin down*. These are illustrated
+Spin projection $${m}_{s}=+1/2 $$ is referred to as _spin up_, whereas $${m}_
+{s}=-1/2 $$ is called _spin down_. These are illustrated
 in [[Figure 5]](../contents/ch30PatternsInSpectraRevealMoreQuantization#Figure5).
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -245,7 +245,7 @@ a given value of $$l $$ , the angular momentum projection quantum number can
 have only the values $${m}_{l}=-l, -l +1, ...,-1, 0, 1, ..., l-1, l $$ .
 Electron spin is independent of $$\mathrm{n, l,} $$ and $${m}_{l} $$ , always
 having $$s=1/2 $$ . The spin projection quantum number can have two values,
-$${m}_{s}=1/2 \text{ or } -1/2 $$.
+$${m}\_{s}=1/2 \text{ or } -1/2 $$.
 
 <table id="Table1" aria-describedby="Three-column table titled Atomic Quantum Numbers. The columns, from left to right, are titled Name, Symbol, and Allowed Values."><caption><span class="title">Atomic Quantum Numbers</span></caption><thead><tr>
             <th>Name</th>
@@ -300,7 +300,7 @@ principle actually prevents us and nature from knowing how the electron gets
 from one place to another, and so an orbit really does not exist as such. Nature
 on a small scale is again much different from that on the large scale.
 
-![The image shows probability clouds for the electron in the ground state and several excited states of hydrogen. Sets of quantum numbers given as n l m subscript l are shown for each state. The ground state is zero zero zero. The probability of finding the electron is indicated by the shade of color.](../resources/Figure_30_08_02.jpg "Probability clouds for the electron in the ground state and several excited states of hydrogen. The nature of these states is determined by their sets of quantum numbers, here given as \( n,l,m_l \). The ground state is (0, 0, 0); one of the possibilities for the second excited state is (3, 2, 1). The probability of finding the electron is indicated by the shade of color; the darker the coloring the greater the chance of finding the electron.")
+![The image shows probability clouds for the electron in the ground state and several excited states of hydrogen. Sets of quantum numbers given as n l m subscript l are shown for each state. The ground state is zero zero zero. The probability of finding the electron is indicated by the shade of color.](../resources/Figure_30_08_02.jpg 'Probability clouds for the electron in the ground state and several excited states of hydrogen. The nature of these states is determined by their sets of quantum numbers, here given as ( n,l,m_l ). The ground state is (0, 0, 0); one of the possibilities for the second excited state is (3, 2, 1). The probability of finding the electron is indicated by the shade of color; the darker the coloring the greater the chance of finding the electron.')
 {: #Figure2}
 
 We will see that the quantum numbers discussed in this section are valid for a
@@ -316,7 +316,6 @@ PhET Explorations: Stern-Gerlach Experiment
 The classic Stern-Gerlach Experiment shows that atoms have a property called spin. Spin is a kind of intrinsic angular momentum, which has no classical counterpart. When the z-component of the spin is measured, one always gets one of two values: spin up or spin down.
 {: class="newline"}
 
-
 {: class="newline"}
 
 <div class="media" id="PhET_module" data-alt="">
@@ -326,7 +325,7 @@ The classic Stern-Gerlach Experiment shows that atoms have a property called spi
 
 ### Section Summary
 
-* Quantum numbers are used to express the allowed values of quantized entities.
+- Quantum numbers are used to express the allowed values of quantized entities.
   The principal quantum number $$n $$ labels the basic states of a system and is
   given by
 
@@ -334,7 +333,7 @@ The classic Stern-Gerlach Experiment shows that atoms have a property called spi
    $$n=1, 2, 3,\text{...}. $$
   </div>
 
-* The magnitude of angular momentum is given by
+- The magnitude of angular momentum is given by
 
   <div class="equation" >
    $$L=\sqrt{l\left(l+1\right)}\frac{h}{2\pi } \left(l=0, 1, 2, ..., n-1\right), $$
@@ -510,9 +509,9 @@ What angles can the spin  $$S $$ of an electron make with the  $$z $$
 ### Footnotes
 {: class="footnote-refs-title"}
 
-* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
+- {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
   footnote-ref-link"} <span class="footnote-ref-content">The spin quantum
-  number *s* is usually not stated, since it is always 1/2 for electrons</span>
+  number _s_ is usually not stated, since it is always 1/2 for electrons</span>
   { data-list-type="bulleted" data-bullet-style="none"}
 
 </div>

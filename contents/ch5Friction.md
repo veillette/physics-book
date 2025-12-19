@@ -72,7 +72,7 @@ moving, there are fewer points of contact (fewer molecules adhering), so less
 force is required to keep the object moving. At small but nonzero speeds,
 friction is nearly independent of speed.
 
-![The figure shows a crate on a flat surface, and a magnified view of a bottom corner of the crate and the supporting surface. The magnified view shows that there is roughness in the two surfaces in contact with each other. A black arrow points toward the right, away from the crate, and it is labeled as the direction of motion or attempted motion. A red arrow pointing toward the left is located near the bottom left corner of the crate, at the interface between that corner and the supporting surface. The red arrow is labeled as f, representing friction between the two surfaces in contact with each other.](../resources/Figure_05_01_01.jpg "Frictional forces, such as \( \vb{f} \) , always oppose motion or attempted motion between objects in contact. Friction arises in part because of the roughness of the surfaces in contact, as seen in the expanded view. In order for the object to move, it must rise to where the peaks can skip along the bottom surface. Thus a force is required just to set the object in motion. Some of the peaks will be broken off, also requiring a force to maintain motion. Much of the friction is actually due to attractive forces between molecules making up the two objects, so that even perfectly smooth surfaces are not friction-free. Such adhesive forces also depend on the substances the surfaces are made of, explaining, for example, why rubber-soled shoes slip less than those with leather soles.")
+![The figure shows a crate on a flat surface, and a magnified view of a bottom corner of the crate and the supporting surface. The magnified view shows that there is roughness in the two surfaces in contact with each other. A black arrow points toward the right, away from the crate, and it is labeled as the direction of motion or attempted motion. A red arrow pointing toward the left is located near the bottom left corner of the crate, at the interface between that corner and the supporting surface. The red arrow is labeled as f, representing friction between the two surfaces in contact with each other.](../resources/Figure_05_01_01.jpg 'Frictional forces, such as ( \\vb{f} ) , always oppose motion or attempted motion between objects in contact. Friction arises in part because of the roughness of the surfaces in contact, as seen in the expanded view. In order for the object to move, it must rise to where the peaks can skip along the bottom surface. Thus a force is required just to set the object in motion. Some of the peaks will be broken off, also requiring a force to maintain motion. Much of the friction is actually due to attractive forces between molecules making up the two objects, so that even perfectly smooth surfaces are not friction-free. Such adhesive forces also depend on the substances the surfaces are made of, explaining, for example, why rubber-soled shoes slip less than those with leather soles.')
 {: #Figure1}
 
 The magnitude of the frictional force has two forms: one for static situations (
@@ -85,7 +85,7 @@ friction** , $$f_{s} $$ is given by
  $$ f_{\s}\le \mu_{\s} \mag{N}, $$
 </div>
 
-where $$ \mu_{\s} $$ is the coefficient of static friction and $$ \mag{N}$$ is
+where $$ \mu\_{\s} $$ is the coefficient of static friction and $$ \mag{N}$$ is
 the magnitude of the normal force (the force perpendicular to the surface).
 
 <div class="note" data-label="" markdown="1">
@@ -102,11 +102,11 @@ is the magnitude of the normal force.
 
 </div>
 
-The symbol $$ \le $$ means *less than or equal to*, implying that static
-friction can have a minimum and a maximum value of $$ \mu_{\s}\mag{N} $$. Static
+The symbol $$ \le $$ means _less than or equal to_, implying that static
+friction can have a minimum and a maximum value of $$ \mu*{\s}\mag{N} $$. Static
 friction is a responsive force that increases to be equal and opposite to
 whatever force is exerted, up to its maximum limit. Once the applied force
-exceeds $$ f_{\s \left(\text{max}\right)} $$, the object will move. Thus
+exceeds $$ f*{\s \left(\text{max}\right)} $$, the object will move. Thus
 
 <div class="equation">
  $$ f_{\s  \left(\text{max}\right)}=\mu_{\s} \mag{N} . $$
@@ -119,9 +119,9 @@ given by
  $$ f_{\text{k}}=\mu_{\text{k}} \mag{N} , $$
 </div>
 
-where $$ \mu_{\text{k}} $$ is the coefficient of kinetic friction. A system in
-which $$ f_{\text{k}}=\mu_{\text{k}} \mag{N} $$ is described as a system in
-which *friction behaves simply*.
+where $$ \mu*{\text{k}} $$ is the coefficient of kinetic friction. A system in
+which $$ f*{\text{k}}=\mu\_{\text{k}} \mag{N} $$ is described as a system in
+which _friction behaves simply_.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -143,21 +143,21 @@ approximate description of friction given by the above two equations.
 
 ##### Table 1: Coefficients of friction
 
-|System|Coefficients of Static friction $$ \mu_{\s} $$| Coefficients of Kinetic friction $$ \mu_{\text{k}} $$|
-|--- |--- |--- |
-|Rubber on dry concrete|1.0|0.7|
-|Rubber on wet concrete|0.7|0.5|
-|Wood on wood|0.5|0.3|
-|Waxed wood on wet snow|0.14|0.1|
-|Metal on wood|0.5|0.3|
-|Steel on steel (dry)|0.6|0.3|
-|Steel on steel (oiled)|0.05|0.03|
-|Teflon on steel|0.04|0.04|
-|Bone lubricated by synovial fluid|0.016|0.015|
-|Shoes on wood|0.9|0.7|
-|Shoes on ice|0.1|0.05|
-|Ice on ice|0.1|0.03|
-|Steel on ice|0.04|0.02|
+| System                            | Coefficients of Static friction $$ \mu\_{\s} $$ | Coefficients of Kinetic friction $$ \mu\_{\text{k}} $$ |
+| --------------------------------- | ----------------------------------------------- | ------------------------------------------------------ |
+| Rubber on dry concrete            | 1.0                                             | 0.7                                                    |
+| Rubber on wet concrete            | 0.7                                             | 0.5                                                    |
+| Wood on wood                      | 0.5                                             | 0.3                                                    |
+| Waxed wood on wet snow            | 0.14                                            | 0.1                                                    |
+| Metal on wood                     | 0.5                                             | 0.3                                                    |
+| Steel on steel (dry)              | 0.6                                             | 0.3                                                    |
+| Steel on steel (oiled)            | 0.05                                            | 0.03                                                   |
+| Teflon on steel                   | 0.04                                            | 0.04                                                   |
+| Bone lubricated by synovial fluid | 0.016                                           | 0.015                                                  |
+| Shoes on wood                     | 0.9                                             | 0.7                                                    |
+| Shoes on ice                      | 0.1                                             | 0.05                                                   |
+| Ice on ice                        | 0.1                                             | 0.03                                                   |
+| Steel on ice                      | 0.04                                            | 0.02                                                   |
 
 {: #Table1}
 
@@ -169,11 +169,13 @@ has a mass of 100 kg, then the normal force would be equal to its weight, $$
 W=mg\left(100 \kg \right)\left(
 9.80\mss \right)=980 \N $$, perpendicular to the floor. If the coefficient of
 static friction is 0.45, you would have to exert a force parallel to the floor
-greater than $$ f_{\s \left(\text{max}\right)}=\mu_
+greater than $$ f*{\s \left(\text{max}\right)}=\mu*
 {\s} \mag{N}=\left(0.45\right)\left(980 \N \right)
 =440\N $$ to move the crate. Once there is motion, friction is less and the
 coefficient of kinetic friction might be 0.30, so that a force of only 290 N (
-$$ f_{\text{k}}=\mu_{\text{k}} \mag{N}=\left(0.30\right)\left( 980\N \right)
+
+$$
+f_{\text{k}}=\mu_{\text{k}} \mag{N}=\left(0.30\right)\left( 980\N \right)
 =290\N $$ ) would keep it moving at a constant speed. If the floor is
 lubricated, both coefficients are considerably less than they would be without
 lubrication. Coefficient of friction is a unit less quantity with a magnitude
@@ -253,7 +255,9 @@ Solving for $$ \mu_{\text{k} } $$ gives
 
 <div class="equation">
  $$ \mu_{\text{k}}=\frac{ f_{\text{k}}}{\mag{N}}=\frac{ f_{\text{k}}}{w\cos{
-25^\circ }}=\frac{ f_{\text{k}}}{mg \cos{ 25^\circ }.} $$
+25^\circ }}=\frac{ f_{\text{k}}}{mg \cos{ 25^\circ }.}
+$$
+
 </div>
 Substituting known values on the right-hand side of the equation,
 
@@ -267,8 +271,8 @@ This result is a little smaller than the coefficient listed
 in [Table 1](#Table1) for waxed wood on snow, but it is still reasonable since
 values of the coefficients of friction can vary greatly. In situations like
 this, where an object of mass $$ m $$ slides down a slope that makes an angle $$
-\theta $$ with the horizontal, friction is given by $$ f_
-{\text{k}}=\mu_{\text{k}}mg \cos{\theta} $$. All objects will slide down a slope
+\theta $$ with the horizontal, friction is given by $$ f*
+{\text{k}}=\mu*{\text{k}}mg \cos{\theta} $$. All objects will slide down a slope
 with constant acceleration under these circumstances. Proof of this is left for
 this chapter’s Problems and Exercises.
 
@@ -328,7 +332,7 @@ area since only high spots touch. When a greater normal force is exerted, the
 actual contact area increases, and it is found that the friction is proportional
 to this area.
 
-![This figure has two parts, each of which shows two rough surfaces in close proximity to each other. In the first part, the normal force is small, so that the area of contact between the two surfaces is much smaller than their total area. In the second part, the normal force is large, so that the area of contact between the two surfaces has increased. As a result, the friction between the two surfaces in the second part is also greater than the friction in the first part.](../resources/Figure_05_01_04.jpg "Two rough surfaces in contact have a much smaller area of actual contact than their total area. When there is a greater normal force as a result of a greater applied force, the area of actual contact increases as does friction.")
+![This figure has two parts, each of which shows two rough surfaces in close proximity to each other. In the first part, the normal force is small, so that the area of contact between the two surfaces is much smaller than their total area. In the second part, the normal force is large, so that the area of contact between the two surfaces has increased. As a result, the friction between the two surfaces in the second part is also greater than the friction in the first part.](../resources/Figure_05_01_04.jpg 'Two rough surfaces in contact have a much smaller area of actual contact than their total area. When there is a greater normal force as a result of a greater applied force, the area of actual contact increases as does friction.')
 {: #Figure4}
 
 But the atomic-scale view promises to explain far more than the simpler features
@@ -348,7 +352,7 @@ and difficult to predict theoretically, but shear stress is yielding a
 fundamental understanding of a large-scale phenomenon known since ancient
 times—friction.
 
-![This figure shows a molecular model of a probe that is dragged over the surface of a substrate. The substrate is represented by a rectangular prism, made up of a grid of small spheres, each sphere representing an atom. The probe, made up of a different grid of small spheres, is in the form of an inverted pyramid with a flattened peak. The pyramid is somewhat distorted because of friction.](../resources/Figure_05_01_05.jpg "The tip of a probe is deformed sideways by frictional force as the probe is dragged across a surface. Measurements of how the force varies for different materials are yielding fundamental insights into the atomic nature of friction.")
+![This figure shows a molecular model of a probe that is dragged over the surface of a substrate. The substrate is represented by a rectangular prism, made up of a grid of small spheres, each sphere representing an atom. The probe, made up of a different grid of small spheres, is in the form of an inverted pyramid with a flattened peak. The pyramid is somewhat distorted because of friction.](../resources/Figure_05_01_05.jpg 'The tip of a probe is deformed sideways by frictional force as the probe is dragged across a surface. Measurements of how the force varies for different materials are yielding fundamental insights into the atomic nature of friction.')
 {: #Figure5}
 
 <div class="note" data-label="PhET Exploration" markdown="1">
@@ -368,27 +372,27 @@ Forces and Motion
 
 ### Section Summary
 
-* Friction is a contact force between systems that opposes the motion or
+- Friction is a contact force between systems that opposes the motion or
   attempted motion between them. Simple friction is proportional to the
   magnitude of the normal force $$ \mag{N} $$ pushing the systems together. (A
   normal force is always perpendicular to the contact surface between systems.)
   Friction depends on both of the materials involved. The magnitude of static
-  friction $$ f_{\s} $$ between systems stationary relative to one another is
+  friction $$ f\_{\s} $$ between systems stationary relative to one another is
   given by
   <div class="equation">
   $$ f_{\s}\le \mu_{\s} \mag{N}, $$
   </div>
 
-where $$ \mu_{\s} $$ is the coefficient of static friction, which depends on
+where $$ \mu\_{\s} $$ is the coefficient of static friction, which depends on
 both of the materials.
 
-* The kinetic friction force $$ f_{\text{k}} $$ between systems moving relative
+- The kinetic friction force $$ f\_{\text{k}} $$ between systems moving relative
   to one another is given by
   <div class="equation">
    $$ f_{\text{k}}=\mu_{\text{k}} \mag{N}, $$
   </div>
 
-where $$ \mu_{\text{k}} $$ is the coefficient of kinetic friction, which also
+where $$ \mu\_{\text{k}} $$ is the coefficient of kinetic friction, which also
 depends on both materials.
 
 ### Conceptual Questions
@@ -441,7 +445,7 @@ spatula and his Teflon frying pan is only 0.200 N. Knowing the coefficient of ki
 
 **Strategy**
 
-We use the relationship between kinetic friction force and normal force. From Table 1, the coefficient of kinetic friction between Teflon and steel is $$ \mu_{\text{k}} = 0.04 $$. Since the spatula is moving across the pan, kinetic friction applies.
+We use the relationship between kinetic friction force and normal force. From Table 1, the coefficient of kinetic friction between Teflon and steel is $$ \mu\_{\text{k}} = 0.04 $$. Since the spatula is moving across the pan, kinetic friction applies.
 
 **Solution**
 
@@ -477,7 +481,7 @@ The normal force on the spatula is $$ 5.00 \N $$. This relatively small normal f
 
 **Strategy**
 
-The force required to insert the piston must overcome the kinetic friction between the steel surfaces. From Table 1, we find $$ \mu_{\text{k}} = 0.3 $$ for dry steel on steel, and $$ \mu_{\text{k}} = 0.03 $$ for oiled steel on steel. We first find the normal force from part (a), then use it to find the required force when oiled.
+The force required to insert the piston must overcome the kinetic friction between the steel surfaces. From Table 1, we find $$ \mu*{\text{k}} = 0.3 $$ for dry steel on steel, and $$ \mu*{\text{k}} = 0.03 $$ for oiled steel on steel. We first find the normal force from part (a), then use it to find the required force when oiled.
 
 **Solution**
 
@@ -519,7 +523,7 @@ The magnitude of the normal force between the piston and cylinder is $$ 1000 \N 
 
 **Strategy**
 
-The knee joint is lubricated by synovial fluid. From Table 1, the coefficient of friction for bone lubricated by synovial fluid is $$ \mu_{\s} = 0.016 $$. The normal force in the joint equals the weight supported, and the maximum friction force is found using $$ f_{\s(\text{max})} = \mu_{\s} \mag{N} $$.
+The knee joint is lubricated by synovial fluid. From Table 1, the coefficient of friction for bone lubricated by synovial fluid is $$ \mu*{\s} = 0.016 $$. The normal force in the joint equals the weight supported, and the maximum friction force is found using $$ f*{\s(\text{max})} = \mu\_{\s} \mag{N} $$.
 
 **Solution**
 
@@ -565,7 +569,7 @@ Suppose you have a 120-kg wooden crate resting on a wood floor.
 
 **Strategy**
 
-For part (a), we need to find the maximum static friction force, which equals the maximum force that can be applied without moving the crate. From Table 1, $$ \mu_{\s} = 0.5 $$ for wood on wood. For part (b), once the crate moves, kinetic friction applies with $$ \mu_{\text{k}} = 0.3 $$. We use Newton's second law to find the acceleration.
+For part (a), we need to find the maximum static friction force, which equals the maximum force that can be applied without moving the crate. From Table 1, $$ \mu*{\s} = 0.5 $$ for wood on wood. For part (b), once the crate moves, kinetic friction applies with $$ \mu*{\text{k}} = 0.3 $$. We use Newton's second law to find the acceleration.
 
 **Solution**
 
@@ -617,7 +621,7 @@ maximum acceleration it can achieve on dry concrete?
 
 **Strategy**
 
-The maximum acceleration is limited by the maximum static friction force between the drive wheels and the road. From Table 1, $$ \mu_{\s} = 1.0 $$ for rubber on dry concrete. For part (b), we compare the friction available for the cabinet (metal on wood, $$ \mu_{\s} = 0.5 $$) with the friction force needed to accelerate it.
+The maximum acceleration is limited by the maximum static friction force between the drive wheels and the road. From Table 1, $$ \mu*{\s} = 1.0 $$ for rubber on dry concrete. For part (b), we compare the friction available for the cabinet (metal on wood, $$ \mu*{\s} = 0.5 $$) with the friction force needed to accelerate it.
 
 **Solution**
 
@@ -650,7 +654,7 @@ $$ f_{\text{needed}} = m_{\text{cab}} a = m_{\text{cab}}(4.90 \mss) $$
 $$ f_{\text{available}} = \mu_{\s} m_{\text{cab}} g = (0.5) m_{\text{cab}}(9.80 \mss) = m_{\text{cab}}(4.90 \mss) $$
 </div>
 
-3. Since $$ f_{\text{available}} = f_{\text{needed}} $$, the cabinet is right at the verge of slipping. Any slight increase in acceleration would cause it to slip.
+3. Since $$ f*{\text{available}} = f*{\text{needed}} $$, the cabinet is right at the verge of slipping. Any slight increase in acceleration would cause it to slip.
 
 (c) Four-wheel drive:
 
@@ -669,7 +673,7 @@ $$ f_{\s(\text{max})} = \mu_{\s} \mag{N}_{\text{drive}} = (1.0)(9800 \N) = 9800 
 $$ a_{\text{max}} = \frac{9800 \N}{1.00 \times 10^{3} \kg} = 9.80 \mss $$
 </div>
 
-4. The cabinet will definitely slip since the maximum friction force it can experience ($$ \mu_{\s} m_{\text{cab}} g = 4.90 m_{\text{cab}} $$) is less than the force needed to accelerate it at $$ 9.80 \mss $$ ($$ F = 9.80 m_{\text{cab}} $$).
+4. The cabinet will definitely slip since the maximum friction force it can experience ($$ \mu*{\s} m*{\text{cab}} g = 4.90 m*{\text{cab}} $$) is less than the force needed to accelerate it at $$ 9.80 \mss $$ ($$ F = 9.80 m*{\text{cab}} $$).
 
 **Discussion**
 
@@ -690,14 +694,15 @@ A team of eight dogs pulls a sled with waxed wood runners on wet snow (mush!). T
 
 **Strategy**
 
-By Newton's third law, when the dogs push backward on the snow with 185 N each, the snow pushes forward on each dog with 185 N. From Table 1, for waxed wood on wet snow: $$ \mu_{\s} = 0.14 $$ and $$ \mu_{\text{k}} = 0.1 $$. We'll apply Newton's second law to the entire system (dogs + sled) to find acceleration, and then to just the sled to find the coupling force.
+By Newton's third law, when the dogs push backward on the snow with 185 N each, the snow pushes forward on each dog with 185 N. From Table 1, for waxed wood on wet snow: $$ \mu*{\s} = 0.14 $$ and $$ \mu*{\text{k}} = 0.1 $$. We'll apply Newton's second law to the entire system (dogs + sled) to find acceleration, and then to just the sled to find the coupling force.
 
 **Solution**
 
 First, identify the masses:
-- Total mass of dogs: $$ m_{\text{dogs}} = 8 \times 19.0 \kg = 152 \kg $$
-- Mass of sled with rider: $$ m_{\text{sled}} = 210 \kg $$
-- Total system mass: $$ m_{\text{total}} = 152 \kg + 210 \kg = 362 \kg $$
+
+- Total mass of dogs: $$ m\_{\text{dogs}} = 8 \times 19.0 \kg = 152 \kg $$
+- Mass of sled with rider: $$ m\_{\text{sled}} = 210 \kg $$
+- Total system mass: $$ m\_{\text{total}} = 152 \kg + 210 \kg = 362 \kg $$
 
 (a) Starting from rest (static friction):
 
@@ -743,6 +748,7 @@ $$ a = \frac{1274.2 \N}{362 \kg} = 3.52 \mss $$
 For the sled alone, the coupling force $$ T $$ must provide enough force to accelerate it against friction.
 
 Starting from rest:
+
 <div class="equation">
 $$ T - f_{\s} = m_{\text{sled}} a $$
 </div>
@@ -751,6 +757,7 @@ $$ T = m_{\text{sled}} a + f_{\s} = (210 \kg)(3.29 \mss) + 288.1 \N = 691 \N + 2
 </div>
 
 Once moving:
+
 <div class="equation">
 $$ T = m_{\text{sled}} a + f_{\text{k}} = (210 \kg)(3.52 \mss) + 205.8 \N = 739 \N + 206 \N = 945 \N $$
 </div>
@@ -777,7 +784,7 @@ of $$ \vb{F}_{\text{tot}} $$?
 or attempted motion between surfaces in contact.)
 
 ![(a) Overhead view of two ice skaters pushing on a third. One skater pushes with a force F two, represented by an arrow pointing up, and a second skater pushes with a force F one, represented by an arrow pointing from left to right. Vector F one and vector F two are along the arms of the two skaters acting on the third skater. A vector diagram is shown in the form of a right triangle in which the base is vector F one pointing east, and perpendicular to F one is vector F two pointing north. The resultant vector is shown by the hypotenuse pointing northeast. (b)
-Free-body diagram showing only the forces acting on the skater.](../resources/Figure_05_01_06.jpg " (a) Overhead view of two ice skaters pushing on a third. (b) Free-body diagram")
+Free-body diagram showing only the forces acting on the skater.](../resources/Figure_05_01_06.jpg ' (a) Overhead view of two ice skaters pushing on a third. (b) Free-body diagram')
 {: #Figure7}
 
 </div>
@@ -785,11 +792,11 @@ Free-body diagram showing only the forces acting on the skater.](../resources/Fi
 
 **Strategy**
 
-We use vector addition to find the total force from the two perpendicular forces. From Table 1, for steel on ice: $$ \mu_{\s} = 0.04 $$ and $$ \mu_{\text{k}} = 0.02 $$. For part (b), since she starts at rest, static friction opposes the attempted motion. For part (c), kinetic friction applies since she's already moving.
+We use vector addition to find the total force from the two perpendicular forces. From Table 1, for steel on ice: $$ \mu*{\s} = 0.04 $$ and $$ \mu*{\text{k}} = 0.02 $$. For part (b), since she starts at rest, static friction opposes the attempted motion. For part (c), kinetic friction applies since she's already moving.
 
 **Solution**
 
-(a) Find the magnitude and direction of $$ \vb{F}_{\text{tot}} $$:
+(a) Find the magnitude and direction of $$ \vb{F}\_{\text{tot}} $$:
 
 1. Since $$ F_1 $$ and $$ F_2 $$ are perpendicular, use the Pythagorean theorem:
 <div class="equation">
@@ -816,7 +823,7 @@ $$ \mag{N} = mg = (65.0 \kg)(9.80 \mss) = 637 \N $$
 $$ f_{\s(\text{max})} = \mu_{\s} \mag{N} = (0.04)(637 \N) = 25.5 \N $$
 </div>
 
-3. Since $$ F_{\text{tot}} = 32.3 \N > f_{\s(\text{max})} = 25.5 \N $$, the skater will begin to move.
+3. Since $$ F*{\text{tot}} = 32.3 \N > f*{\s(\text{max})} = 25.5 \N $$, the skater will begin to move.
 
 4. Once motion begins, kinetic friction applies:
 <div class="equation">
@@ -836,6 +843,7 @@ $$ a = \frac{F_{\text{net}}}{m} = \frac{19.6 \N}{65.0 \kg} = 0.302 \mss $$
 (c) Acceleration while already moving:
 
 The calculation is identical to part (b) once motion has begun, since kinetic friction applies in both cases:
+
 <div class="equation">
 $$ a = 0.302 \mss $$
 </div>
@@ -866,8 +874,8 @@ We analyze the forces on an object on a frictionless incline using a coordinate 
    - Normal force: $$ \mag{N} $$ (perpendicular to the incline surface)
 
 2. Decompose the weight into components relative to the incline:
-   - Perpendicular to incline: $$ w_\perp = mg\cos\theta $$
-   - Parallel to incline (down the slope): $$ w_\parallel = mg\sin\theta $$
+   - Perpendicular to incline: $$ w\_\perp = mg\cos\theta $$
+   - Parallel to incline (down the slope): $$ w\_\parallel = mg\sin\theta $$
 
 3. Apply Newton's second law perpendicular to the incline:
 <div class="equation">
@@ -915,11 +923,11 @@ We follow the same approach as the previous problem, but now include kinetic fri
 1. Identify the forces on the object:
    - Weight: $$ w = mg $$ (directed straight down)
    - Normal force: $$ \mag{N} $$ (perpendicular to the incline surface)
-   - Kinetic friction: $$ f_{\text{k}} $$ (parallel to incline, opposing motion, so directed up the slope)
+   - Kinetic friction: $$ f\_{\text{k}} $$ (parallel to incline, opposing motion, so directed up the slope)
 
 2. Decompose the weight into components:
-   - Perpendicular to incline: $$ w_\perp = mg\cos\theta $$
-   - Parallel to incline (down the slope): $$ w_\parallel = mg\sin\theta $$
+   - Perpendicular to incline: $$ w\_\perp = mg\cos\theta $$
+   - Parallel to incline (down the slope): $$ w\_\parallel = mg\sin\theta $$
 
 3. Apply Newton's second law perpendicular to the incline:
 <div class="equation">
@@ -952,7 +960,7 @@ $$ a = g(\sin\theta - \mu_{\text{k}}\cos\theta) $$
 
 **Discussion**
 
-The acceleration down an incline with friction is $$ a = g(\sin\theta - \mu_{\text{k}}\cos\theta) $$. This result is independent of mass because both the gravitational force component and the friction force are proportional to mass. When $$ \mu_{\text{k}} = 0 $$ (no friction), the equation reduces to $$ a = g\sin\theta $$, matching the frictionless case from the previous problem. If friction is large enough that $$ \mu_{\text{k}}\cos\theta > \sin\theta $$, the acceleration would be negative, meaning the object would decelerate (as when going up a slope) or wouldn't slide at all without an initial push.
+The acceleration down an incline with friction is $$ a = g(\sin\theta - \mu*{\text{k}}\cos\theta) $$. This result is independent of mass because both the gravitational force component and the friction force are proportional to mass. When $$ \mu*{\text{k}} = 0 $$ (no friction), the equation reduces to $$ a = g\sin\theta $$, matching the frictionless case from the previous problem. If friction is large enough that $$ \mu\_{\text{k}}\cos\theta > \sin\theta $$, the acceleration would be negative, meaning the object would decelerate (as when going up a slope) or wouldn't slide at all without an initial push.
 
 </div>
 </div>
@@ -970,15 +978,15 @@ steps in [Problem-Solving Strategies](./ch4ProblemSolvingStrategies).
 
 **Strategy**
 
-When going uphill, both gravity and friction act to slow the snowboarder down. The component of gravity parallel to the slope points downhill (opposing uphill motion), and kinetic friction also opposes the uphill motion (so it also points downhill). From Table 1, for waxed wood on wet snow: $$ \mu_{\text{k}} = 0.1 $$.
+When going uphill, both gravity and friction act to slow the snowboarder down. The component of gravity parallel to the slope points downhill (opposing uphill motion), and kinetic friction also opposes the uphill motion (so it also points downhill). From Table 1, for waxed wood on wet snow: $$ \mu\_{\text{k}} = 0.1 $$.
 
 **Solution**
 
 1. Draw a free-body diagram with forces:
-   - Weight component parallel to slope: $$ w_\parallel = mg\sin\theta $$ (down the slope)
-   - Weight component perpendicular to slope: $$ w_\perp = mg\cos\theta $$
+   - Weight component parallel to slope: $$ w\_\parallel = mg\sin\theta $$ (down the slope)
+   - Weight component perpendicular to slope: $$ w\_\perp = mg\cos\theta $$
    - Normal force: $$ \mag{N} = mg\cos\theta $$
-   - Kinetic friction: $$ f_{\text{k}} = \mu_{\text{k}}\mag{N} $$ (down the slope, opposing uphill motion)
+   - Kinetic friction: $$ f*{\text{k}} = \mu*{\text{k}}\mag{N} $$ (down the slope, opposing uphill motion)
 
 2. Apply Newton's second law parallel to the slope (taking up the slope as positive):
 <div class="equation">
@@ -995,7 +1003,7 @@ $$ -mg\sin\theta - \mu_{\text{k}}mg\cos\theta = ma $$
 $$ a = -g(\sin\theta + \mu_{\text{k}}\cos\theta) $$
 </div>
 
-5. Substitute values ($$ \theta = 5.0° $$, $$ \mu_{\text{k}} = 0.1 $$, $$ g = 9.80 \mss $$):
+5. Substitute values ($$ \theta = 5.0° $$, $$ \mu\_{\text{k}} = 0.1 $$, $$ g = 9.80 \mss $$):
 <div class="equation">
 $$ a = -(9.80 \mss)(\sin 5.0° + 0.1 \cos 5.0°) $$
 </div>
@@ -1010,13 +1018,14 @@ $$ a = -(9.80 \mss)(0.1868) = -1.83 \mss $$
 </div>
 
 The deceleration (magnitude of negative acceleration) is:
+
 <div class="equation">
 $$ |a| = 1.83 \mss $$
 </div>
 
 **Discussion**
 
-The snowboarder decelerates at $$ 1.83 \mss $$ while going uphill. Note that when going uphill, friction adds to the deceleration (both gravity component and friction point downhill), whereas when going downhill, friction subtracts from the acceleration. This is why the formula changes from $$ g(\sin\theta - \mu_{\text{k}}\cos\theta) $$ for downhill motion to $$ g(\sin\theta + \mu_{\text{k}}\cos\theta) $$ for uphill motion.
+The snowboarder decelerates at $$ 1.83 \mss $$ while going uphill. Note that when going uphill, friction adds to the deceleration (both gravity component and friction point downhill), whereas when going downhill, friction subtracts from the acceleration. This is why the formula changes from $$ g(\sin\theta - \mu*{\text{k}}\cos\theta) $$ for downhill motion to $$ g(\sin\theta + \mu*{\text{k}}\cos\theta) $$ for uphill motion.
 
 </div>
 </div>
@@ -1035,7 +1044,7 @@ steps in the [Problem-Solving Strategies](./ch4ProblemSolvingStrategies).
 
 **Strategy**
 
-For part (a), we use the result derived earlier: $$ a = g(\sin\theta - \mu_{\text{k}}\cos\theta) $$ for an object sliding down an incline. From Table 1, for waxed wood on wet snow: $$ \mu_{\text{k}} = 0.1 $$. For part (b), constant velocity means zero acceleration, so we set $$ a = 0 $$ and solve for the angle.
+For part (a), we use the result derived earlier: $$ a = g(\sin\theta - \mu*{\text{k}}\cos\theta) $$ for an object sliding down an incline. From Table 1, for waxed wood on wet snow: $$ \mu*{\text{k}} = 0.1 $$. For part (b), constant velocity means zero acceleration, so we set $$ a = 0 $$ and solve for the angle.
 
 **Solution**
 
@@ -1046,7 +1055,7 @@ For part (a), we use the result derived earlier: $$ a = g(\sin\theta - \mu_{\tex
 $$ a = g(\sin\theta - \mu_{\text{k}}\cos\theta) $$
 </div>
 
-2. Substitute values ($$ \theta = 10.0° $$, $$ \mu_{\text{k}} = 0.1 $$, $$ g = 9.80 \mss $$):
+2. Substitute values ($$ \theta = 10.0° $$, $$ \mu\_{\text{k}} = 0.1 $$, $$ g = 9.80 \mss $$):
 <div class="equation">
 $$ a = (9.80 \mss)(\sin 10.0° - 0.1 \cos 10.0°) $$
 </div>
@@ -1087,7 +1096,7 @@ $$ \theta = \tan^{-1}(0.1) = 5.71° $$
 
 **Discussion**
 
-The skier accelerates at $$ 0.736 \mss $$ on the $$ 10.0° $$ slope. To coast at constant velocity, the skier would need a slope of $$ 5.71° $$. At this angle, the component of gravity pulling the skier downhill exactly equals the friction force opposing the motion. On steeper slopes, the skier accelerates; on gentler slopes, the skier decelerates. This relationship $$ \tan\theta = \mu_{\text{k}} $$ provides a simple way to measure the coefficient of kinetic friction by finding the angle at which an object slides at constant velocity.
+The skier accelerates at $$ 0.736 \mss $$ on the $$ 10.0° $$ slope. To coast at constant velocity, the skier would need a slope of $$ 5.71° $$. At this angle, the component of gravity pulling the skier downhill exactly equals the friction force opposing the motion. On steeper slopes, the skier accelerates; on gentler slopes, the skier decelerates. This relationship $$ \tan\theta = \mu\_{\text{k}} $$ provides a simple way to measure the coefficient of kinetic friction by finding the angle at which an object slides at constant velocity.
 
 </div>
 </div>
@@ -1102,15 +1111,15 @@ and that static friction force has reached its maximum value.
 
 **Strategy**
 
-For an object at rest on an incline at the verge of slipping, static friction has reached its maximum value and the object has zero acceleration. We apply Newton's second law with $$ a = 0 $$ and $$ f_{\s} = \mu_{\s}\mag{N} $$ (maximum static friction) to find the critical angle.
+For an object at rest on an incline at the verge of slipping, static friction has reached its maximum value and the object has zero acceleration. We apply Newton's second law with $$ a = 0 $$ and $$ f*{\s} = \mu*{\s}\mag{N} $$ (maximum static friction) to find the critical angle.
 
 **Solution**
 
 1. Identify forces on the object at rest on the incline:
-   - Weight component parallel to slope (down): $$ w_\parallel = mg\sin\theta $$
-   - Weight component perpendicular to slope: $$ w_\perp = mg\cos\theta $$
+   - Weight component parallel to slope (down): $$ w\_\parallel = mg\sin\theta $$
+   - Weight component perpendicular to slope: $$ w\_\perp = mg\cos\theta $$
    - Normal force: $$ \mag{N} = mg\cos\theta $$
-   - Static friction (up the slope, opposing tendency to slide): $$ f_{\s} $$
+   - Static friction (up the slope, opposing tendency to slide): $$ f\_{\s} $$
 
 2. Apply Newton's second law parallel to the incline with $$ a = 0 $$:
 <div class="equation">
@@ -1148,7 +1157,7 @@ $$ \theta_{\text{max}} = \tan^{-1}(\mu_{\s}) $$
 
 **Discussion**
 
-The maximum angle at which an object can rest on an incline without sliding is $$ \theta = \tan^{-1}(\mu_{\s}) $$. This result is independent of the object's mass. For angles less than this, static friction is sufficient to prevent sliding. For angles greater than this, the object will begin to slide. This relationship provides a practical method for measuring the coefficient of static friction: tilt a surface until an object just begins to slide, then $$ \mu_{\s} = \tan\theta_{\text{critical}} $$.
+The maximum angle at which an object can rest on an incline without sliding is $$ \theta = \tan^{-1}(\mu*{\s}) $$. This result is independent of the object's mass. For angles less than this, static friction is sufficient to prevent sliding. For angles greater than this, the object will begin to slide. This relationship provides a practical method for measuring the coefficient of static friction: tilt a surface until an object just begins to slide, then $$ \mu*{\s} = \tan\theta\_{\text{critical}} $$.
 
 </div>
 </div>
@@ -1170,15 +1179,17 @@ slip during the deceleration. (Ignore rolling.) Calculate for a car:
 
 **Strategy**
 
-When braking while heading downhill, gravity pulls the car down the slope while friction (from braking) acts up the slope. The maximum deceleration occurs when static friction reaches its maximum value (tires at the verge of slipping). All four tires contribute to braking, so the full weight contributes to the normal force. From Table 1: rubber on dry concrete $$ \mu_{\s} = 1.0 $$, rubber on wet concrete $$ \mu_{\s} = 0.7 $$.
+When braking while heading downhill, gravity pulls the car down the slope while friction (from braking) acts up the slope. The maximum deceleration occurs when static friction reaches its maximum value (tires at the verge of slipping). All four tires contribute to braking, so the full weight contributes to the normal force. From Table 1: rubber on dry concrete $$ \mu*{\s} = 1.0 $$, rubber on wet concrete $$ \mu*{\s} = 0.7 $$.
 
 **Solution**
 
 For a car on a slope, the forces parallel to the slope are:
+
 - Gravity component (down slope): $$ mg\sin\theta $$
-- Maximum friction (up slope when braking): $$ f_{\s(\text{max})} = \mu_{\s}mg\cos\theta $$
+- Maximum friction (up slope when braking): $$ f*{\s(\text{max})} = \mu*{\s}mg\cos\theta $$
 
 The maximum deceleration occurs when braking force is maximum:
+
 <div class="equation">
 $$ ma = f_{\s(\text{max})} - mg\sin\theta = \mu_{\s}mg\cos\theta - mg\sin\theta $$
 </div>
@@ -1188,7 +1199,8 @@ $$ a = g(\mu_{\s}\cos\theta - \sin\theta) $$
 
 With $$ \theta = 6° $$: $$ \sin 6° = 0.1045 $$, $$ \cos 6° = 0.9945 $$
 
-(a) On dry concrete ($$ \mu_{\s} = 1.0 $$):
+(a) On dry concrete ($$ \mu\_{\s} = 1.0 $$):
+
 <div class="equation">
 $$ a = (9.80 \mss)(1.0 \times 0.9945 - 0.1045) $$
 </div>
@@ -1196,7 +1208,8 @@ $$ a = (9.80 \mss)(1.0 \times 0.9945 - 0.1045) $$
 $$ a = (9.80 \mss)(0.9945 - 0.1045) = (9.80 \mss)(0.890) = 8.72 \mss $$
 </div>
 
-(b) On wet concrete ($$ \mu_{\s} = 0.7 $$):
+(b) On wet concrete ($$ \mu\_{\s} = 0.7 $$):
+
 <div class="equation">
 $$ a = (9.80 \mss)(0.7 \times 0.9945 - 0.1045) $$
 </div>
@@ -1204,7 +1217,8 @@ $$ a = (9.80 \mss)(0.7 \times 0.9945 - 0.1045) $$
 $$ a = (9.80 \mss)(0.6962 - 0.1045) = (9.80 \mss)(0.592) = 5.80 \mss $$
 </div>
 
-(c) On ice ($$ \mu_{\s} = 0.100 $$):
+(c) On ice ($$ \mu\_{\s} = 0.100 $$):
+
 <div class="equation">
 $$ a = (9.80 \mss)(0.100 \times 0.9945 - 0.1045) $$
 </div>
@@ -1241,16 +1255,19 @@ When accelerating uphill, the drive wheels push backward on the road, and fricti
 **Solution**
 
 The normal force on the drive wheels is half the perpendicular weight component:
+
 <div class="equation">
 $$ \mag{N}_{\text{drive}} = \frac{1}{2}mg\cos\theta $$
 </div>
 
 The maximum friction force (providing forward acceleration):
+
 <div class="equation">
 $$ f_{\s(\text{max})} = \mu_{\s}\mag{N}_{\text{drive}} = \frac{1}{2}\mu_{\s}mg\cos\theta $$
 </div>
 
 Newton's second law parallel to the slope (up is positive):
+
 <div class="equation">
 $$ ma = f_{\s(\text{max})} - mg\sin\theta = \frac{1}{2}\mu_{\s}mg\cos\theta - mg\sin\theta $$
 </div>
@@ -1260,7 +1277,8 @@ $$ a = g\left(\frac{1}{2}\mu_{\s}\cos\theta - \sin\theta\right) $$
 
 With $$ \theta = 4° $$: $$ \sin 4° = 0.0698 $$, $$ \cos 4° = 0.9976 $$
 
-(a) On dry concrete ($$ \mu_{\s} = 1.0 $$):
+(a) On dry concrete ($$ \mu\_{\s} = 1.0 $$):
+
 <div class="equation">
 $$ a = (9.80 \mss)\left(\frac{1}{2}(1.0)(0.9976) - 0.0698\right) $$
 </div>
@@ -1268,7 +1286,8 @@ $$ a = (9.80 \mss)\left(\frac{1}{2}(1.0)(0.9976) - 0.0698\right) $$
 $$ a = (9.80 \mss)(0.4988 - 0.0698) = (9.80 \mss)(0.429) = 4.20 \mss $$
 </div>
 
-(b) On wet concrete ($$ \mu_{\s} = 0.7 $$):
+(b) On wet concrete ($$ \mu\_{\s} = 0.7 $$):
+
 <div class="equation">
 $$ a = (9.80 \mss)\left(\frac{1}{2}(0.7)(0.9976) - 0.0698\right) $$
 </div>
@@ -1276,7 +1295,8 @@ $$ a = (9.80 \mss)\left(\frac{1}{2}(0.7)(0.9976) - 0.0698\right) $$
 $$ a = (9.80 \mss)(0.3492 - 0.0698) = (9.80 \mss)(0.279) = 2.74 \mss $$
 </div>
 
-(c) On ice ($$ \mu_{\s} = 0.100 $$):
+(c) On ice ($$ \mu\_{\s} = 0.100 $$):
+
 <div class="equation">
 $$ a = (9.80 \mss)\left(\frac{1}{2}(0.100)(0.9976) - 0.0698\right) $$
 </div>
@@ -1305,16 +1325,19 @@ With four-wheel drive, all four wheels are drive wheels, so the full weight of t
 **Solution**
 
 With four-wheel drive, the normal force equals the full perpendicular weight:
+
 <div class="equation">
 $$ \mag{N}_{\text{drive}} = mg\cos\theta $$
 </div>
 
 The maximum friction force:
+
 <div class="equation">
 $$ f_{\s(\text{max})} = \mu_{\s}mg\cos\theta $$
 </div>
 
 Newton's second law parallel to the slope:
+
 <div class="equation">
 $$ ma = f_{\s(\text{max})} - mg\sin\theta = \mu_{\s}mg\cos\theta - mg\sin\theta $$
 </div>
@@ -1324,7 +1347,8 @@ $$ a = g(\mu_{\s}\cos\theta - \sin\theta) $$
 
 With $$ \theta = 4° $$: $$ \sin 4° = 0.0698 $$, $$ \cos 4° = 0.9976 $$
 
-(a) On dry concrete ($$ \mu_{\s} = 1.0 $$):
+(a) On dry concrete ($$ \mu\_{\s} = 1.0 $$):
+
 <div class="equation">
 $$ a = (9.80 \mss)(1.0 \times 0.9976 - 0.0698) $$
 </div>
@@ -1332,7 +1356,8 @@ $$ a = (9.80 \mss)(1.0 \times 0.9976 - 0.0698) $$
 $$ a = (9.80 \mss)(0.9976 - 0.0698) = (9.80 \mss)(0.928) = 9.09 \mss $$
 </div>
 
-(b) On wet concrete ($$ \mu_{\s} = 0.7 $$):
+(b) On wet concrete ($$ \mu\_{\s} = 0.7 $$):
+
 <div class="equation">
 $$ a = (9.80 \mss)(0.7 \times 0.9976 - 0.0698) $$
 </div>
@@ -1340,7 +1365,8 @@ $$ a = (9.80 \mss)(0.7 \times 0.9976 - 0.0698) $$
 $$ a = (9.80 \mss)(0.6983 - 0.0698) = (9.80 \mss)(0.629) = 6.16 \mss $$
 </div>
 
-(c) On ice ($$ \mu_{\s} = 0.100 $$):
+(c) On ice ($$ \mu\_{\s} = 0.100 $$):
+
 <div class="equation">
 $$ a = (9.80 \mss)(0.100 \times 0.9976 - 0.0698) $$
 </div>
@@ -1379,6 +1405,7 @@ For part (a), we apply Newton's second law to the entire train to find the total
 **Solution**
 
 First, calculate the total mass of the train:
+
 <div class="equation">
 $$ m_{\text{total}} = 2(8.00 \times 10^5 \kg) + 45(5.50 \times 10^5 \kg) $$
 </div>
@@ -1457,7 +1484,7 @@ by her arms.
 (b) What is the minimum coefficient of friction between her shoes
 and the cliff?
 
-![A mountain climber with a mass of fifty two kilograms exerts force with her feet parallel to her legs on a vertical rock face to remain stationary. The angle between her legs and the rock face is fifteen degrees, whereas the angle between the rope and the cliff is thirty one degrees.](../resources/Figure_05_01_08.jpg "Part of the climber&#x2019;s weight is supported by her rope and part by friction between her feet and the rock face.")
+![A mountain climber with a mass of fifty two kilograms exerts force with her feet parallel to her legs on a vertical rock face to remain stationary. The angle between her legs and the rock face is fifteen degrees, whereas the angle between the rope and the cliff is thirty one degrees.](../resources/Figure_05_01_08.jpg 'Part of the climber’s weight is supported by her rope and part by friction between her feet and the rock face.')
 {: #Figure8}
 
 </div>
@@ -1470,35 +1497,41 @@ The climber is in equilibrium, so the sum of forces in both horizontal and verti
 **Solution**
 
 Define the forces:
+
 - Weight: $$ w = mg = (52.0 \kg)(9.80 \mss) = 509.6 \N $$ (downward)
 - Tension: $$ T $$ at 31° from vertical (away from cliff)
-- Leg force: $$ F_{\text{leg}} $$ at 15° from vertical (into cliff)
+- Leg force: $$ F\_{\text{leg}} $$ at 15° from vertical (into cliff)
 - Normal force from cliff: $$ \mag{N} $$ (horizontal, away from cliff)
 - Friction: $$ f $$ (vertical, upward along cliff)
 
 (a) Force equilibrium equations:
 
 Horizontal (positive = away from cliff):
+
 <div class="equation">
 $$ T\sin 31° - F_{\text{leg}}\sin 15° = 0 $$
 </div>
 
 Vertical (positive = upward):
+
 <div class="equation">
 $$ T\cos 31° + f - w = 0 $$
 </div>
 
 For the leg force, the component into the cliff provides the normal force:
+
 <div class="equation">
 $$ \mag{N} = F_{\text{leg}}\sin 15° $$
 </div>
 
 And the component along the cliff provides friction:
+
 <div class="equation">
 $$ f = F_{\text{leg}}\cos 15° $$
 </div>
 
 From the horizontal equation:
+
 <div class="equation">
 $$ T\sin 31° = F_{\text{leg}}\sin 15° $$
 </div>
@@ -1507,6 +1540,7 @@ $$ T = F_{\text{leg}}\frac{\sin 15°}{\sin 31°} = F_{\text{leg}}\frac{0.2588}{0
 </div>
 
 Substituting into the vertical equation:
+
 <div class="equation">
 $$ (0.5025 F_{\text{leg}})\cos 31° + F_{\text{leg}}\cos 15° = w $$
 </div>
@@ -1521,6 +1555,7 @@ $$ F_{\text{leg}} = \frac{509.6 \N}{1.397} = 365 \N $$
 </div>
 
 Now find the tension:
+
 <div class="equation">
 $$ T = 0.5025 \times 365 \N = 183 \N $$
 </div>
@@ -1528,6 +1563,7 @@ $$ T = 0.5025 \times 365 \N = 183 \N $$
 (b) Minimum coefficient of friction:
 
 Calculate the normal force and friction:
+
 <div class="equation">
 $$ \mag{N} = F_{\text{leg}}\sin 15° = (365 \N)(0.2588) = 94.5 \N $$
 </div>
@@ -1536,6 +1572,7 @@ $$ f = F_{\text{leg}}\cos 15° = (365 \N)(0.9659) = 353 \N $$
 </div>
 
 The minimum coefficient of friction:
+
 <div class="equation">
 $$ \mu_{\s(\text{min})} = \frac{f}{\mag{N}} = \frac{353 \N}{94.5 \N} = 3.73 $$
 </div>
@@ -1558,7 +1595,7 @@ A contestant in a winter sporting event pushes a 45.0-kg block of ice across a f
 
 **Strategy**
 
-When pushing at an angle below horizontal (25° as shown in Figure 9a), the force has a horizontal component that moves the block and a vertical component that increases the normal force (and thus friction). From Table 1, for ice on ice: $$ \mu_{\s} = 0.1 $$ and $$ \mu_{\text{k}} = 0.03 $$.
+When pushing at an angle below horizontal (25° as shown in Figure 9a), the force has a horizontal component that moves the block and a vertical component that increases the normal force (and thus friction). From Table 1, for ice on ice: $$ \mu*{\s} = 0.1 $$ and $$ \mu*{\text{k}} = 0.03 $$.
 
 **Solution**
 
@@ -1627,14 +1664,13 @@ $$ a = \frac{F_{\text{net}}}{m} = \frac{32.3 \N}{45.0 \kg} = 0.718 \mss \approx 
 
 **Discussion**
 
-The minimum force required to start the block moving is $$ 51.0 \N $$. Once moving, maintaining this force produces an acceleration of $$ 0.720 \mss $$. The acceleration is possible because kinetic friction ($$ \mu_{\text{k}} = 0.03 $$) is less than static friction ($$ \mu_{\text{k}} = 0.1 $$), so the net force increases once motion begins. Note that pushing at an angle increases the normal force (and hence friction), which is why the required force is higher than if pushing horizontally.
+The minimum force required to start the block moving is $$ 51.0 \N $$. Once moving, maintaining this force produces an acceleration of $$ 0.720 \mss $$. The acceleration is possible because kinetic friction ($$ \mu*{\text{k}} = 0.03 $$) is less than static friction ($$ \mu*{\text{k}} = 0.1 $$), so the net force increases once motion begins. Note that pushing at an angle increases the normal force (and hence friction), which is why the required force is higher than if pushing horizontally.
 
 </div>
 </div>
 
-![(a) A block of ice is being pushed by a contestant in a winter sporting event across a frozen lake at an angle of twenty five degrees. (b) A block of ice is being pulled by a contestant in a winter sporting event across a frozen lake at an angle of twenty five degrees.](../resources/Figure_05_01_09.jpg "Which method of sliding a block of ice requires less force&#x2014;(a) pushing or (b) pulling at the same angle above the horizontal?")
+![(a) A block of ice is being pushed by a contestant in a winter sporting event across a frozen lake at an angle of twenty five degrees. (b) A block of ice is being pulled by a contestant in a winter sporting event across a frozen lake at an angle of twenty five degrees.](../resources/Figure_05_01_09.jpg 'Which method of sliding a block of ice requires less force—(a) pushing or (b) pulling at the same angle above the horizontal?')
 {: #Figure9 height="304"}
-
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
@@ -1646,7 +1682,7 @@ angle above the horizontal as shown in [Figure 9](#Figure9)(b).
 
 **Strategy**
 
-When pulling at an angle above horizontal (25°), the vertical component of the force is upward, which reduces the normal force and thus reduces friction. This is the opposite of pushing, where the vertical component adds to the normal force. From Table 1, for ice on ice: $$ \mu_{\s} = 0.1 $$ and $$ \mu_{\text{k}} = 0.03 $$.
+When pulling at an angle above horizontal (25°), the vertical component of the force is upward, which reduces the normal force and thus reduces friction. This is the opposite of pushing, where the vertical component adds to the normal force. From Table 1, for ice on ice: $$ \mu*{\s} = 0.1 $$ and $$ \mu*{\text{k}} = 0.03 $$.
 
 **Solution**
 
@@ -1737,11 +1773,11 @@ static friction
 moving relative to one another
 
 magnitude of static friction
-: $$ f_{\s}\le \mu_{\s}\mag{N} $$, where $$ \mu_{\s} $$ is the coefficient of
+: $$ f*{\s}\le \mu*{\s}\mag{N} $$, where $$ \mu\_{\s} $$ is the coefficient of
 static friction and $$ \mag{N} $$ is the magnitude of the normal force
 
 magnitude of kinetic friction
-: $$ f_{\text{k}}=\mu_{\text{k} }\mag{N} $$, where $$ \mu_{\text{k} } $$ is the
+: $$ f*{\text{k}}=\mu*{\text{k} }\mag{N} $$, where $$ \mu\_{\text{k} } $$ is the
 coefficient of kinetic friction
 
 </div>

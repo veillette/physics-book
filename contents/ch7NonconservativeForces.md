@@ -22,19 +22,19 @@ Friction is a good example of a nonconservative force. As illustrated
 in [Figure 1](#Figure1), work done against friction depends on the length of the
 path between the starting and ending points. Because of this dependence on path,
 there is no potential energy associated with nonconservative forces. An
-important characteristic is that the work done by a nonconservative force *adds
-or removes mechanical energy from a system*. **Friction**, for example,
+important characteristic is that the work done by a nonconservative force _adds
+or removes mechanical energy from a system_. **Friction**, for example,
 creates **thermal energy** that dissipates, removing energy from the system.
 Furthermore, even if the thermal energy is retained or captured, it cannot be
 fully converted back to work, so it is lost or not recoverable in that sense as
 well.
 
-![(a) A drawing of a happy face is erased diagonally from a point A to a point B. (b) A drawing of a happy face is erased in the shape of the letter u, but starting from the same point A and ending at the same point B.](../resources/Figure_07_05_01.jpg "The amount of the happy face erased depends on the path taken by the eraser between points A and B, as does the work done against friction. Less work is done and less of the face is erased for the path in (a) than for the path in (b). The force here is friction, and most of the work goes into thermal energy that subsequently leaves the system (the happy face plus the eraser). The energy expended cannot be fully recovered. ")
+![(a) A drawing of a happy face is erased diagonally from a point A to a point B. (b) A drawing of a happy face is erased in the shape of the letter u, but starting from the same point A and ending at the same point B.](../resources/Figure_07_05_01.jpg 'The amount of the happy face erased depends on the path taken by the eraser between points A and B, as does the work done against friction. Less work is done and less of the face is erased for the path in (a) than for the path in (b). The force here is friction, and most of the work goes into thermal energy that subsequently leaves the system (the happy face plus the eraser). The energy expended cannot be fully recovered. ')
 {: #Figure1}
 
 ### How Nonconservative Forces Affect Mechanical Energy
 
-*Mechanical* energy *may* not be conserved when nonconservative forces act. For
+_Mechanical_ energy _may_ not be conserved when nonconservative forces act. For
 example, when a car is brought to a stop by friction on level ground, it loses
 kinetic energy, which is dissipated as thermal energy, reducing its mechanical
 energy. [Figure 2](#Figure2) compares the effects of conservative and
@@ -42,8 +42,8 @@ nonconservative forces. We often choose to understand simpler systems such as
 that described in [Figure 2](#Figure2)(a) first before studying more complicated
 systems as in [Figure 2](#Figure2)(b).
 
-![(a) A system is shown in three situations. First, a rock is dropped onto a spring attached to the ground. The rock has potential energy P E sub 0 at the highest point before it is dropped on the spring. In the second situation, the rock has fallen onto the spring and the spring is compressed and has potential energy P E sub s. And in the third situation, the spring pushes the rock into the air; then the rock has some kinetic and some potential energy, labeled as K E plus P E sub g prime. (b) A rock is at some height above the ground, having potential energy P E sub g, and as it hits the ground all of the rock&#x2019;s energy is used to produce heat, sound, and deformation of the ground.](../resources/Figure_07_05_02.jpg "Comparison of the effects of conservative and nonconservative forces on the mechanical energy of a system. (a) A system with only conservative forces. When a rock is dropped onto a spring, its mechanical energy remains constant (neglecting air resistance) because the force in the spring is conservative. The spring can propel the rock back to its original height, where it once again has only potential energy due to gravity.
-(b) A system with nonconservative forces. When the same rock is dropped onto the ground, it is stopped by nonconservative forces that dissipate its mechanical energy as thermal energy, sound, and surface distortion. The rock has lost mechanical energy. ")
+![(a) A system is shown in three situations. First, a rock is dropped onto a spring attached to the ground. The rock has potential energy P E sub 0 at the highest point before it is dropped on the spring. In the second situation, the rock has fallen onto the spring and the spring is compressed and has potential energy P E sub s. And in the third situation, the spring pushes the rock into the air; then the rock has some kinetic and some potential energy, labeled as K E plus P E sub g prime. (b) A rock is at some height above the ground, having potential energy P E sub g, and as it hits the ground all of the rock’s energy is used to produce heat, sound, and deformation of the ground.](../resources/Figure_07_05_02.jpg 'Comparison of the effects of conservative and nonconservative forces on the mechanical energy of a system. (a) A system with only conservative forces. When a rock is dropped onto a spring, its mechanical energy remains constant (neglecting air resistance) because the force in the spring is conservative. The spring can propel the rock back to its original height, where it once again has only potential energy due to gravity.
+(b) A system with nonconservative forces. When the same rock is dropped onto the ground, it is stopped by nonconservative forces that dissipate its mechanical energy as thermal energy, sound, and surface distortion. The rock has lost mechanical energy. ')
 {: #Figure2}
 
 ### How the Work-Energy Theorem Applies
@@ -54,7 +54,7 @@ nonconservative forces equals the change in the mechanical energy of a system.
 As noted
 in [Kinetic Energy and the Work-Energy Theorem](./ch7KineticEnergyAndTheWorkEnergyTheorem)
 , the work-energy theorem states that the net work on a system equals the change
-in its kinetic energy, or $$ W_{\text{net}}=\Delta \KE $$. The net work is the
+in its kinetic energy, or $$ W\_{\text{net}}=\Delta \KE $$. The net work is the
 sum of the work by nonconservative forces plus the work by conservative forces.
 That is,
 
@@ -68,24 +68,26 @@ so that
  $$ W_{\text{nc}}+ W_{c}=\Delta \KE, $$
 </div>
 
-where $$ W_{\text{nc}} $$ is the total work done by all nonconservative forces
-and $$ W_{\text{c}} $$ is the total work done by all conservative forces.
+where $$ W*{\text{nc}} $$ is the total work done by all nonconservative forces
+and $$ W*{\text{c}} $$ is the total work done by all conservative forces.
 
-![A person pushing a heavy box up an incline. A force F p applied by the person is shown by a vector pointing up the incline. And frictional force f is shown by a vector pointing down the incline, acting on the box.](../resources/Figure_07_05_03.jpg "A person pushes a crate up a ramp, doing work on the crate. Friction and gravitational force (not shown) also do work on the crate; both forces oppose the person&#x2019;s push. As the crate is pushed up the ramp, it gains mechanical energy, implying that the work done by the person is greater than the work done by friction.")
+![A person pushing a heavy box up an incline. A force F p applied by the person is shown by a vector pointing up the incline. And frictional force f is shown by a vector pointing down the incline, acting on the box.](../resources/Figure_07_05_03.jpg 'A person pushes a crate up a ramp, doing work on the crate. Friction and gravitational force (not shown) also do work on the crate; both forces oppose the person’s push. As the crate is pushed up the ramp, it gains mechanical energy, implying that the work done by the person is greater than the work done by friction.')
 {: #Figure3}
 
 Consider [Figure 3](#Figure3), in which a person pushes a crate up a ramp and is
 opposed by friction. As in the previous section, we note that work done by a
 conservative force comes from a loss of gravitational potential energy, so that
-$$ W_{\text{c}}=-\Delta \PE $$. Substituting this equation into the previous one
-and solving for $$ W_{\text{nc}} $$ gives
+$$ W*{\text{c}}=-\Delta \PE $$. Substituting this equation into the previous one
+and solving for $$ W*{\text{nc}} $$ gives
 
 <div class="equation">
  $$ W_{\text{nc}}=\Delta \KE+\Delta \PE . $$
 </div>
 
 This equation means that the total mechanical energy $$ \left(\KE + \PE \right)
-$$ changes by exactly the amount of work done by nonconservative forces.
+
+$$
+changes by exactly the amount of work done by nonconservative forces.
 In [Figure 3](#Figure3), this is the work done by the person minus the work done by
 friction. So even if energy is not conserved for the system of interest ( such
 as the crate), we know that an equal amount of work was done to cause the change
@@ -160,7 +162,9 @@ d&=& \frac{m v_{i}^{2}}{2f}\\
 d&=& \frac{ \left(65.0 \kg \right)\left(6.00 \ms \right)^{2}}
 {\left(2\right)\left(450 \N \right)}\\
 d&=& 2.60 \m .
-\end{array} $$
+\end{array}
+$$
+
 </div>
 
 **Discussion**
@@ -180,7 +184,7 @@ a $$ 5.00^\circ $$ incline upward with a surface similar to that in the baseball
 player slides with the same initial speed, and the frictional force is still 450
 N. Determine how far he slides.
 
-![A baseball player slides on an inclined slope represented by a right triangle. The angle of the slope is represented by the angle between the base and the hypotenuse, which is equal to five degrees, and the height h of the perpendicular side of the triangle is equal to d sin 5 degrees. The length of the hypotenuse is d.](../resources/Figure_07_05_05.jpg "The same baseball player slides to a stop on a 5.00 degrees slope.")
+![A baseball player slides on an inclined slope represented by a right triangle. The angle of the slope is represented by the angle between the base and the hypotenuse, which is equal to five degrees, and the height h of the perpendicular side of the triangle is equal to d sin 5 degrees. The length of the hypotenuse is d.](../resources/Figure_07_05_05.jpg 'The same baseball player slides to a stop on a 5.00 degrees slope.')
 {: #Figure5 height="150"}
 
 **Strategy**
@@ -198,10 +202,10 @@ by the equation
 
 **Solution**
 
-The work done by friction is again $$ W_{\text{nc}}=-f d $$; initially the
-potential energy is $$ \PE_{i}=mg \cdot 0=0 $$ and the kinetic energy is $$ \KE_
-{i}=\frac{1}{2} m v_{i}^{2} $$; the final energy contributions are $$ \KE_{f}=0
-$$ for the kinetic energy and $$ \PE_{f}=mgh = m g d \sin{\theta} $$ for the
+The work done by friction is again $$ W*{\text{nc}}=-f d $$; initially the
+potential energy is $$ \PE*{i}=mg \cdot 0=0 $$ and the kinetic energy is $$ \KE*
+{i}=\frac{1}{2} m v*{i}^{2} $$; the final energy contributions are $$ \KE_{f}=0
+$$ for the kinetic energy and $$ \PE\_{f}=mgh = m g d \sin{\theta} $$ for the
 potential energy.
 
 Substituting these values gives
@@ -234,7 +238,9 @@ directions, and friction, to find the net force. You could then use the net
 force and the net work to find the distance $$ d $$ that reduces the kinetic
 energy to zero. By applying conservation of energy and using the potential
 energy instead, we need only consider the gravitational potential energy $$ mgh
-$$, without combining and resolving force vectors. This simplifies the solution
+
+$$
+, without combining and resolving force vectors. This simplifies the solution
 considerably.
 
 </div>
@@ -313,7 +319,7 @@ The Ramp
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A 60.0-kg skier with an initial speed of 12.0 m/s coasts up a 2.50-m-high rise as shown 
+A 60.0-kg skier with an initial speed of 12.0 m/s coasts up a 2.50-m-high rise as shown
 in [Figure 8](#Figure8). Find her final speed at the top, given that the coefficient of friction
 between her skis and the snow is 0.0800. (Hint: Find the distance traveled up the incline
 assuming a straight-line path as shown in the figure.)
@@ -357,7 +363,9 @@ Using energy conservation:
 \frac{1}{2}mv^{2} &=& mgh\\
 h &=& \frac{v^{2}}{2g} = \frac{(30.6\ms)^{2}}{2(9.80\mss)}\\
 h &=& \frac{936.36}{19.6}\m = 47.8\m
-\end{array} $$
+\end{array}
+$$
+
 </div>
 
 **Solution for (b)**

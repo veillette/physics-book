@@ -28,7 +28,7 @@ fields polarize and eventually ionize surrounding materials, creating free
 charges that neutralize excess charge or allow it to escape. Nevertheless,
 voltages of 15 million volts are well within practical limits.
 
-![Schematic of Van de Graaff generator is shown. The parts of the generators shown include a conductor, insulator, nonconductive belt, ion source, and experimental area.](../resources/Figure_18_08_02.jpg "Schematic of Van de Graaff generator. A battery (A) supplies excess positive charge to a pointed conductor, the points of which spray the charge onto a moving insulating belt near the bottom. The pointed conductor (B) on top in the large sphere picks up the charge. (The induced electric field at the points is so large that it removes the charge from the belt.) This can be done because the charge does not remain inside the conducting sphere but moves to its outside surface. An ion source inside the sphere produces positive ions, which are accelerated away from the positive sphere to high velocities.")
+![Schematic of Van de Graaff generator is shown. The parts of the generators shown include a conductor, insulator, nonconductive belt, ion source, and experimental area.](../resources/Figure_18_08_02.jpg 'Schematic of Van de Graaff generator. A battery (A) supplies excess positive charge to a pointed conductor, the points of which spray the charge onto a moving insulating belt near the bottom. The pointed conductor (B) on top in the large sphere picks up the charge. (The induced electric field at the points is so large that it removes the charge from the belt.) This can be done because the charge does not remain inside the conducting sphere but moves to its outside surface. An ion source inside the sphere produces positive ions, which are accelerated away from the positive sphere to high velocities.')
 {: #Figure1}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -42,7 +42,7 @@ Rub a comb through your hair and use it to lift pieces of paper. It may help to 
 ### Xerography
 
 Most copy machines use an electrostatic process called **xerography**—a word
-coined from the Greek words *xeros* for dry and *graphos* for writing. The heart
+coined from the Greek words _xeros_ for dry and _graphos_ for writing. The heart
 of the process is shown in simplified form in [[Figure 2]](#Figure2).
 
 A selenium-coated aluminum drum is sprayed with positive charge from points on a
@@ -64,7 +64,7 @@ the drum so that it will pull the toner from the drum. Finally, the paper and
 electrostatically held toner are passed through heated pressure rollers, which
 melt and permanently adhere the toner within the fibers of the paper.
 
-![Four stages of xerography are shown. A positively charged aluminum drum is shown which is grounded. In second stage image is being transferred to it, creating positive image. In third stage, negatively charged toner is attached with the drum and in fourth stage, toner is pulled by the paper which is highly charged.](../resources/Figure_18_08_03.jpg "Xerography is a dry copying process based on electrostatics. The major steps in the process are the charging of the photoconducting drum, transfer of an image creating a positive charge duplicate, attraction of toner to the charged parts of the drum, and transfer of toner to the paper. Not shown are heat treatment of the paper and cleansing of the drum for the next copy.")
+![Four stages of xerography are shown. A positively charged aluminum drum is shown which is grounded. In second stage image is being transferred to it, creating positive image. In third stage, negatively charged toner is attached with the drum and in fourth stage, toner is pulled by the paper which is highly charged.](../resources/Figure_18_08_03.jpg 'Xerography is a dry copying process based on electrostatics. The major steps in the process are the charging of the photoconducting drum, transfer of an image creating a positive charge duplicate, attraction of toner to the charged parts of the drum, and transfer of toner to the paper. Not shown are heat treatment of the paper and cleansing of the drum for the next copy.')
 {: #Figure2}
 
 ### Laser Printers
@@ -78,7 +78,7 @@ printers do significant information processing, such as making sophisticated
 letters or fonts, and may contain a computer more powerful than the one giving
 them the raw data to be printed.
 
-![A laser printer mechanism is shown. Laser beam produced from a computer, laser, or optics is incident on the drum containing some image.](../resources/Figure_18_08_04.jpg "In a laser printer, a laser beam is scanned across a photoconducting drum, leaving a positive charge image. The other steps for charging the drum and transferring the image to paper are the same as in xerography. Laser light can be very precisely controlled, enabling laser printers to produce high-quality images.")
+![A laser printer mechanism is shown. Laser beam produced from a computer, laser, or optics is incident on the drum containing some image.](../resources/Figure_18_08_04.jpg 'In a laser printer, a laser beam is scanned across a photoconducting drum, leaving a positive charge image. The other steps for charging the drum and transferring the image to paper are the same as in xerography. Laser light can be very precisely controlled, enabling laser printers to produce high-quality images.')
 {: #Figure3}
 
 ### Ink Jet Printers and Electrostatic Painting
@@ -95,7 +95,7 @@ colors, usually cyan, magenta, and yellow, much as a color television produces
 color. (This is more difficult with xerography, requiring multiple drums and
 toners.)
 
-![An ink-jet printer mechanism is shown. Ink is projected from ink nozzle and passes through the charging electrodes moving through deflection plate and finally imprinting on paper.](../resources/Figure_18_08_05.jpg "The nozzle of an ink-jet printer produces small ink droplets, which are sprayed with electrostatic charge. Various computer-driven devices are then used to direct the droplets to the correct positions on a page.")
+![An ink-jet printer mechanism is shown. Ink is projected from ink nozzle and passes through the charging electrodes moving through deflection plate and finally imprinting on paper.](../resources/Figure_18_08_05.jpg 'The nozzle of an ink-jet printer produces small ink droplets, which are sprayed with electrostatic charge. Various computer-driven devices are then used to direct the droplets to the correct positions on a page.')
 {: #Figure4}
 
 Electrostatic painting employs electrostatic charge to spray paint onto
@@ -121,7 +121,7 @@ and oil. Home precipitators, often in conjunction with the home heating and air
 conditioning system, are very effective in removing polluting particles,
 irritants, and allergens.
 
-![(a) Schematic of an electrostatic precipitator. Air is passed through grids of opposite charge. The first grid charges airborne particles, while the second attracts and collects them. (b) The dramatic effect of electrostatic precipitators is seen by the absence of smoke from this power plant.\[alt\]Schematic of an electrostatic precipitator is shown. Four filters are shown one after another. Air passes through initial filter, then through positively charged grid, then through the third grid which is negatively charged and finally through the final grid. The number of particles is shown decreasing as air passes through various filters.](../resources/Figure_18_08_06.jpg "(a) Schematic of an electrostatic precipitator. Air is passed through grids of opposite charge. The first grid charges airborne particles, while the second attracts and collects them. (b) The dramatic effect of electrostatic precipitators is seen by the absence of smoke from this power plant. (credit: Cmdalgleish, Wikimedia Commons)")
+![(a) Schematic of an electrostatic precipitator. Air is passed through grids of opposite charge. The first grid charges airborne particles, while the second attracts and collects them. (b) The dramatic effect of electrostatic precipitators is seen by the absence of smoke from this power plant.[alt]Schematic of an electrostatic precipitator is shown. Four filters are shown one after another. Air passes through initial filter, then through positively charged grid, then through the third grid which is negatively charged and finally through the final grid. The number of particles is shown decreasing as air passes through various filters.](../resources/Figure_18_08_06.jpg '(a) Schematic of an electrostatic precipitator. Air is passed through grids of opposite charge. The first grid charges airborne particles, while the second attracts and collects them. (b) The dramatic effect of electrostatic precipitators is seen by the absence of smoke from this power plant. (credit: Cmdalgleish, Wikimedia Commons)')
 {: #Figure5}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -134,7 +134,7 @@ Problem-Solving Strategies for Electrostatics
 4.   Make a list of what is given or can be inferred from the problem as stated (identify the knowns). It is important to distinguish the Coulomb force  $$F $$  from the electric field
      $$E $$, for example.
 5.   Solve the appropriate equation for the quantity to be determined (the unknown) or draw the field lines as requested.
-6.   Examine the answer to see if it is reasonable: Does it make sense? Are units correct and the numbers involved reasonable? 
+6.   Examine the answer to see if it is reasonable: Does it make sense? Are units correct and the numbers involved reasonable?
 
 </div>
 
@@ -148,12 +148,12 @@ and hence the relevance
 of [Dynamics: Force and Newton’s Laws of Motion](./ch4Dynamics). The following topics
 are involved in some or all of the problems labeled “Integrated Concepts”:
 
-* [Kinematics](./ch2Kinematics)
-* [Two-Dimensional Kinematics](./ch3KinematicsInTwoDimensionsAnIntroduction)
-* [Dynamics: Force and Newton’s Laws of Motion](./ch4Dynamics)
-* [Uniform Circular Motion and Gravitation](./ch6UniformCircularMotionAndGravitation)
-* [Statics and Torque](./ch9StaticsAndTorque)
-* [Fluid Statics](../contents/ch11FluidStatics)
+- [Kinematics](./ch2Kinematics)
+- [Two-Dimensional Kinematics](./ch3KinematicsInTwoDimensionsAnIntroduction)
+- [Dynamics: Force and Newton’s Laws of Motion](./ch4Dynamics)
+- [Uniform Circular Motion and Gravitation](./ch6UniformCircularMotionAndGravitation)
+- [Statics and Torque](./ch9StaticsAndTorque)
+- [Fluid Statics](../contents/ch11FluidStatics)
 
 The following worked example illustrates how this strategy is applied to an
 Integrated Concept problem:
@@ -280,8 +280,8 @@ To determine if an answer is reasonable, and to determine the cause if it is not
 
 ### Section Summary
 
-* Electrostatics is the study of electric fields in static equilibrium.
-* In addition to research using equipment such as a Van de Graaff generator,
+- Electrostatics is the study of electric fields in static equilibrium.
+- In addition to research using equipment such as a Van de Graaff generator,
   many practical applications of electrostatics exist, including photocopiers,
   laser printers, ink-jet printers and electrostatic air filters.
 
@@ -312,7 +312,7 @@ To determine if an answer is reasonable, and to determine the cause if it is not
 A simple and common technique for accelerating electrons is shown in [[Figure 6]](#Figure6), where there is a uniform electric field between two plates. Electrons are released, usually from a hot filament, near the negative plate, and there is a small hole in the positive plate that allows the electrons to continue moving. (a) Calculate the acceleration of the electron if the field strength is  $$2.50 \times 10^{4}  \text{N/C} $$ .
  (b) Explain why the electron will not be pulled back to the positive plate once it moves through the hole.
 
-![Parallel conducting plates with opposite charges are shown and electric field lines are emerging from the positive plate and entering the negative plate. These lines are parallel between the plates but curved at the corner.](../resources/Figure_18_08_07.jpg "Parallel conducting plates with opposite charges on them create a relatively uniform electric field used to accelerate electrons to the right. Those that go through the hole can be used to make a TV or computer screen glow or to produce X-rays.")
+![Parallel conducting plates with opposite charges are shown and electric field lines are emerging from the positive plate and entering the negative plate. These lines are parallel between the plates but curved at the corner.](../resources/Figure_18_08_07.jpg 'Parallel conducting plates with opposite charges on them create a relatively uniform electric field used to accelerate electrons to the right. Those that go through the hole can be used to make a TV or computer screen glow or to produce X-rays.')
 {: #Figure6}
 
 </div>
@@ -402,7 +402,7 @@ A 5.00 g charged insulating ball hangs on a 30.0 cm long string in a uniform
 horizontal electric field as shown in [[Figure 7]](#Figure7). Given the charge
 on the ball is $$1.00 \mu \text{C} $$ , find the strength of the field.
 
-![A charged ball is hung from a string making an angle of eight degree toward right with the vertical. The external electric field lines represented by arrows, are from left to right.](../resources/Figure_18_08_08.jpg "A horizontal electric field causes the charged ball to hang at an angle of 8.00&#xBA;.")
+![A charged ball is hung from a string making an angle of eight degree toward right with the vertical. The external electric field lines represented by arrows, are from left to right.](../resources/Figure_18_08_08.jpg 'A horizontal electric field causes the charged ball to hang at an angle of 8.00º.')
 {: #Figure7}
 
 </div>
@@ -421,7 +421,7 @@ travels in the uniform field is 4.00 cm. (a) What is its vertical deflection? (
 b) What is the vertical component of its final velocity? (c) At what angle does
 it exit? Neglect any edge effects.
 
-![Two oppositely charged plates are parallel to each other. The path of an electron is shown passing from left to right between the plates. It deflects toward positive plate as it emerges from the plate with velocity vector making an angle theta with the horizontal.](../resources/Figure_18_08_10.jpg " ")
+![Two oppositely charged plates are parallel to each other. The path of an electron is shown passing from left to right between the plates. It deflects toward positive plate as it emerges from the plate with velocity vector making an angle theta with the horizontal.](../resources/Figure_18_08_10.jpg ' ')
 {: #Figure8}
 
 </div>
@@ -436,10 +436,10 @@ measurement of the charge on an electron. In it, oil drops were suspended
 against the gravitational force by a vertical electric field. (
 See [[Figure 9]](#Figure9).) Given the oil drop to be $$1.00 \mu \text{m} $$ in
 radius and have a density of $$920 kg/{m}^{3} $$:
-(a) Find the weight of the drop. 
+(a) Find the weight of the drop.
 (b) If the drop has a single excess electron, find the electric field strength needed to balance its weight.
 
-![Two parallel conducting plates with opposite charges are shown and the electric field lines are emerging from the positive plate and entering the negative plate. These lines are parallel between the plates and a charged particle is in between the plates. An observer is watching it through a microscope.](../resources/Figure_18_08_11.jpg "In the Millikan oil drop experiment, small drops can be suspended in an electric field by the force exerted on a single excess electron. Classically, this experiment was used to determine the electron charge qe by measuring the electric field and mass of the drop.")
+![Two parallel conducting plates with opposite charges are shown and the electric field lines are emerging from the positive plate and entering the negative plate. These lines are parallel between the plates and a charged particle is in between the plates. An observer is watching it through a microscope.](../resources/Figure_18_08_11.jpg 'In the Millikan oil drop experiment, small drops can be suspended in an electric field by the force exerted on a single excess electron. Classically, this experiment was used to determine the electron charge qe by measuring the electric field and mass of the drop.')
 {: #Figure9}
 
 </div>
@@ -456,7 +456,7 @@ Determine the magnitude of $$q $$ in terms of $$Q $$ , $$m $$ , and $$d $$ , if
 the Coulomb force is to equal the weight of $$m $$ .
 (b) Is this equilibrium stable or unstable? Discuss.
 
-![Four charged particles each having same magnitude q are placed at the corner of a parallelogram. The sides have length d and fifth charge Q is at a distance d above the plane of intersection of the diagonal of this parallelogram.](../resources/Figure_18_08_12.jpg "Four equal charges on the corners of a horizontal square support the weight of a fifth charge located directly above the center of the square.")
+![Four charged particles each having same magnitude q are placed at the corner of a parallelogram. The sides have length d and fifth charge Q is at a distance d above the plane of intersection of the diagonal of this parallelogram.](../resources/Figure_18_08_12.jpg 'Four equal charges on the corners of a horizontal square support the weight of a fifth charge located directly above the center of the square.')
 {: #Figure10}
 
 </div>

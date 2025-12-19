@@ -27,14 +27,14 @@ classic example of this is the **short circuit**, a low-resistance path between
 terminals of a voltage source. An example of a short circuit is shown
 in [[Figure 1]](#Figure1). Insulation on wires leading to an appliance has worn
 through, allowing the two wires to come into contact. Such an undesired contact
-with a high voltage is called a *short*. Since the resistance of the short, $$r
+with a high voltage is called a _short_. Since the resistance of the short, $$r
 $$ , is very small, the power dissipated in the short, $$P={V}^{2}/r $$ , is
 very large. For example, if $$V $$ is 120 V and $$r $$ is $$ 0.100 \Omega $$ ,
-then the power is 144 kW, *much* greater than that used by a typical household
+then the power is 144 kW, _much_ greater than that used by a typical household
 appliance. Thermal energy delivered at this rate will very quickly raise the
 temperature of surrounding materials, melting or perhaps igniting them.
 
-![Part a shows an electric toaster of resistance capital R connected to an A C voltage source. The wires used to connect the toaster to the supply are worn out in one place, allowing them to come into contact with an undesired, lower resistance path, symbolized by lowercase r. Part b of the figure represents the circuit diagram for the electric connection described in part a. The voltage source is connected to two paths in parallel: the toaster with resistance capital R, and the undesired lower resistance path, symbolized by lowercase r.](../resources/Figure_20_06_01.jpg "A short circuit is an undesired low-resistance path across a voltage source. (a) Worn insulation on the wires of a toaster allow them to come into contact with a low resistance \( r \) . Since \( P=V^2/r \), thermal power is created so rapidly that the cord melts or burns. (b) A schematic of the short circuit.")
+![Part a shows an electric toaster of resistance capital R connected to an A C voltage source. The wires used to connect the toaster to the supply are worn out in one place, allowing them to come into contact with an undesired, lower resistance path, symbolized by lowercase r. Part b of the figure represents the circuit diagram for the electric connection described in part a. The voltage source is connected to two paths in parallel: the toaster with resistance capital R, and the undesired lower resistance path, symbolized by lowercase r.](../resources/Figure_20_06_01.jpg 'A short circuit is an undesired low-resistance path across a voltage source. (a) Worn insulation on the wires of a toaster allow them to come into contact with a low resistance ( r ) . Since ( P=V^2/r ), thermal power is created so rapidly that the cord melts or burns. (b) A schematic of the short circuit.')
 {: #Figure1}
 
 One particularly insidious aspect of a short circuit is that its resistance may
@@ -62,10 +62,10 @@ be $$P=1000 \text{W} $$ . Fuses and circuit breakers are used to limit excessive
 currents. (See [[Figure 2]](#Figure2) and [[Figure 3]](#Figure3).) Each device
 opens the circuit automatically when a sustained current exceeds safe limits.
 
-![Part a of the figure shows an electric fuse with metal having low melting point enclosed in a case with wires leading to the circuit and voltage source. There is a viewing window in the fuse casing. Part b shows a circuit breaker. There is a movable metal strip at one end from which a connector to the circuit is attached at a fixed contact point. There is a compressed spring and switch gear attached adjacent to each other at the other end of the movable metal strip. The movable metallic strip has a bimetallic strip attached perpendicular to it at its center. At the opposite end of the bimetallic strip, there is a connector to the voltage source.](../resources/Figure_20_06_02.jpg "(a) A fuse has a metal strip with a low melting point that, when overheated by an excessive current, permanently breaks the connection of a circuit to a voltage source. (b) A circuit breaker is an automatic but restorable electric switch. The one shown here has a bimetallic strip that bends to the right and into the notch if overheated. The spring then forces the metal strip downward, breaking the electrical connection at the points.")
+![Part a of the figure shows an electric fuse with metal having low melting point enclosed in a case with wires leading to the circuit and voltage source. There is a viewing window in the fuse casing. Part b shows a circuit breaker. There is a movable metal strip at one end from which a connector to the circuit is attached at a fixed contact point. There is a compressed spring and switch gear attached adjacent to each other at the other end of the movable metal strip. The movable metallic strip has a bimetallic strip attached perpendicular to it at its center. At the opposite end of the bimetallic strip, there is a connector to the voltage source.](../resources/Figure_20_06_02.jpg '(a) A fuse has a metal strip with a low melting point that, when overheated by an excessive current, permanently breaks the connection of a circuit to a voltage source. (b) A circuit breaker is an automatic but restorable electric switch. The one shown here has a bimetallic strip that bends to the right and into the notch if overheated. The spring then forces the metal strip downward, breaking the electrical connection at the points.')
 {: #Figure2}
 
-![The diagram shows an electric circuit with an A C voltage source, a fuse or circuit breaker, and a resistance R all connected in series to form a closed circuit.](../resources/Figure_20_06_03.jpg "Schematic of a circuit with a fuse or circuit breaker in it. Fuses and circuit breakers act like automatic switches that open when sustained current exceeds desired limits.")
+![The diagram shows an electric circuit with an A C voltage source, a fuse or circuit breaker, and a resistance R all connected in series to form a closed circuit.](../resources/Figure_20_06_03.jpg 'Schematic of a circuit with a fuse or circuit breaker in it. Fuses and circuit breakers act like automatic switches that open when sustained current exceeds desired limits.')
 {: #Figure3}
 
 Fuses and circuit breakers for typical household voltages and currents are
@@ -104,7 +104,7 @@ current for a typical accidental shock. The effects are for a shock that passes
 through the trunk of the body, has a duration of 1 s, and is caused by 60-Hz
 power.
 
-![Part a of the diagram shows a person working on an electrically hot wire with a metal tool. The next step shows that he is a victim of electric shock and is thrown backward with his arms and legs stretched. The metal tool also falls off his hand. Part b of the diagram shows a person holding the electrically hot wire with his hands. The person is not thrown away. He cannot let go of the wire because the muscles that close the fingers are stronger than those that open them.](../resources/Figure_20_06_04.jpg "An electric current can cause muscular contractions with varying effects. (a) The victim is &#x201C;thrown&#x201D; backward by involuntary muscle contractions that extend the legs and torso. (b) The victim can&#x2019;t let go of the wire that is stimulating all the muscles in the hand. Those that close the fingers are stronger than those that open them.")
+![Part a of the diagram shows a person working on an electrically hot wire with a metal tool. The next step shows that he is a victim of electric shock and is thrown backward with his arms and legs stretched. The metal tool also falls off his hand. Part b of the diagram shows a person holding the electrically hot wire with his hands. The person is not thrown away. He cannot let go of the wire because the muscles that close the fingers are stronger than those that open them.](../resources/Figure_20_06_04.jpg 'An electric current can cause muscular contractions with varying effects. (a) The victim is “thrown” backward by involuntary muscle contractions that extend the legs and torso. (b) The victim can’t let go of the wire that is stimulating all the muscles in the hand. Those that close the fingers are stronger than those that open them.')
 {: #Figure4}
 
 <table id="Table1" aria-describedby="The table shows how different amounts of current produce different effects on the human body. The left column shows various magnitudes of current in milliamperes, and the right column shows its effects on body."><caption><span class="title">Effects of Electrical Shock as a Function of Current<sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup></span></caption><thead><tr>
@@ -184,11 +184,15 @@ current passed through the victim to reduce the likelihood of burns.
 Current is the major factor determining shock severity (given that other
 conditions such as path, duration, and frequency are fixed, such as in the table
 and preceding discussion). A larger voltage is more hazardous, but since $$I=V/R
-$$ , the severity of the shock depends on the combination of voltage and
+
+$$
+, the severity of the shock depends on the combination of voltage and
 resistance. For example, a person with dry skin has a resistance of about $$200
 \text{k}\Omega $$ . If he comes into contact with 120-V AC, a current $$I=\left(
 120 \text{V}\right)/\left(200 \text{k}\Omega \right)= 0.6 \text{mA} $$ passes
-harmlessly through him. The same person soaking wet may have a resistance of $$
+harmlessly through him. The same person soaking wet may have a resistance of
+$$
+
 10.0 \text{k}\Omega $$ and the same 120 V will produce a current of 12 mA—above
 the “can’t let go” threshold and potentially dangerous.
 
@@ -206,7 +210,7 @@ patient. The break in the skin has reduced his resistance, and so the same
 voltage causes a greater current, and a much smaller current has a greater
 effect.
 
-![The graph of average values for the threshold of sensation and the Can&#x2019;t let go current as a function of frequency, with current in milliamperes verses frequency in hertz. The current is plotted along the vertical axis and frequency along the horizontal axis. The plot has two curves. The curve for Can&#x2019;t let go current starts off at a value nearly eighteen milliamps on the vertical axis. The curve is smooth and dips until frequency equals about one hundred hertz and then rises for values of frequency above one hundred hertz. The curve for Threshold of sensation current starts off at a value nearly four milliamps on the vertical axis. The curve is smooth and dips until frequency equals about one hundred hertz and then rises for values of frequency above one hundred hertz. The maximum value of current reached for this curve is nearly equal to the initial value for the Can&#x2019;t let go current curve. The Threshold of sensation curve lies below the curve for Can&#x2019;t let go current.](../resources/Figure_20_06_05.jpg "Graph of average values for the threshold of sensation and the &#x201C;can&#x2019;t let go&#x201D; current as a function of frequency. The lower the value, the more sensitive the body is at that frequency.")
+![The graph of average values for the threshold of sensation and the Can’t let go current as a function of frequency, with current in milliamperes verses frequency in hertz. The current is plotted along the vertical axis and frequency along the horizontal axis. The plot has two curves. The curve for Can’t let go current starts off at a value nearly eighteen milliamps on the vertical axis. The curve is smooth and dips until frequency equals about one hundred hertz and then rises for values of frequency above one hundred hertz. The curve for Threshold of sensation current starts off at a value nearly four milliamps on the vertical axis. The curve is smooth and dips until frequency equals about one hundred hertz and then rises for values of frequency above one hundred hertz. The maximum value of current reached for this curve is nearly equal to the initial value for the Can’t let go current curve. The Threshold of sensation curve lies below the curve for Can’t let go current.](../resources/Figure_20_06_05.jpg 'Graph of average values for the threshold of sensation and the “can’t let go” current as a function of frequency. The lower the value, the more sensitive the body is at that frequency.')
 {: #Figure5}
 
 Factors other than current that affect the severity of a shock are its path,
@@ -219,7 +223,9 @@ minimum current for two different effects, as a function of frequency. The lower
 the current needed, the more sensitive the body is at that frequency.
 Ironically, the body is most sensitive to frequencies near the 50- or 60-Hz
 frequencies in common use. The body is slightly less sensitive for DC ( $$f=0
-$$ ), mildly confirming Edison’s claims that AC presents a greater hazard. At
+
+$$
+), mildly confirming Edison’s claims that AC presents a greater hazard. At
 higher and higher frequencies, the body becomes progressively less sensitive to
 any effects that involve nerves. This is related to the maximum rates at which
 nerves can fire or be stimulated. At very high frequencies, electrical current
@@ -472,7 +478,7 @@ This tiny threshold voltage (6.00 mV) is about 20,000 times smaller than househo
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) What is the resistance of a 220-V AC short circuit that generates a peak power of 96.8 kW? 
+(a) What is the resistance of a 220-V AC short circuit that generates a peak power of 96.8 kW?
 (b) What would the average power be if the voltage was 120 V AC?
 
 </div>
@@ -594,3 +600,4 @@ medical procedure, rendering the person vulnerable to electrical shock at
 currents about 1/1000 the normally required level
 
 </div>
+$$

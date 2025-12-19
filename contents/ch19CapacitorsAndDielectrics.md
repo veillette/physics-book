@@ -30,7 +30,7 @@ Capacitor
 A capacitor is a device used to store electric charge.
 </div>
 
-![Part a of the figure shows a charged parallel plate capacitor and part b of the figure shows a charged rolled capacitor. In the parallel plate capacitor, two rectangular plates are kept vertically facing each other separated by a distance d. These two plates are the conducting parts of the capacitor. One plate is connected to the positive terminal of the battery, and the other is connected to the negative terminal of the battery. One plate has a positive charge, plus Q, and the other plate has a negative charge, negative Q. The rolled capacitor has conducting parts in the form of a spiral coil. Between the two conducting parts is insulating material, also in the form of a coil. The conducting and insulating materials of the capacitor are rolled together to form a spiral. The outer conducting coil is connected to the positive terminal of the battery, and the inner coil is connected to the negative terminal of the battery.](../resources/Figure_19_05_01.jpg "Both capacitors shown here were initially uncharged before being connected to a battery. They now have separated charges of +\( Q \) and &#x2013;\( Q \) on their two halves. (a) A parallel plate capacitor. (b) A rolled capacitor with an insulating material between its two conducting sheets.")
+![Part a of the figure shows a charged parallel plate capacitor and part b of the figure shows a charged rolled capacitor. In the parallel plate capacitor, two rectangular plates are kept vertically facing each other separated by a distance d. These two plates are the conducting parts of the capacitor. One plate is connected to the positive terminal of the battery, and the other is connected to the negative terminal of the battery. One plate has a positive charge, plus Q, and the other plate has a negative charge, negative Q. The rolled capacitor has conducting parts in the form of a spiral coil. Between the two conducting parts is insulating material, also in the form of a coil. The conducting and insulating materials of the capacitor are rolled together to form a spiral. The outer conducting coil is connected to the positive terminal of the battery, and the inner coil is connected to the negative terminal of the battery.](../resources/Figure_19_05_01.jpg 'Both capacitors shown here were initially uncharged before being connected to a battery. They now have separated charges of +( Q ) and –( Q ) on their two halves. (a) A parallel plate capacitor. (b) A rolled capacitor with an insulating material between its two conducting sheets.')
 {: #Figure1}
 
 The amount of charge $$Q $$ a **capacitor** can store depends on two major
@@ -54,7 +54,9 @@ negative one, so that there will be more field lines if there is more charge. (
 Drawing a single field line per charge is a convenience, only. We can draw many
 field lines for each charge, but the total number is proportional to the number
 of charges.) The electric field strength is, thus, directly proportional to $$Q
-$$.
+
+$$
+.
 
 ![Two metal plates are positioned vertically facing each other. The plates are the conducting parts of a capacitor. The plate on the left-hand side is connected to the positive terminal of a battery, and the plate on the right-hand side is connected to the negative terminal of the battery. There is an electric field between the two plates of the capacitor. The electric field lines emanate from the positively charged plate and end on the negatively charged plate. The electric field E is proportional to the charge Q.](../resources/Figure_19_05_02.jpg "Electric field lines in this parallel plate capacitor, as always, start on positive charges and end on negative charges. Since the electric field strength is proportional to the density of field lines, it is also proportional to the amount of charge on the capacitor. ")
 {: #Figure2}
@@ -366,9 +368,11 @@ separation. For instance, in [[Example 1]](#Example1), the separation is 1.00 mm
 and so the voltage limit for air is
 
 <div class="equation" >
- $$\begin{array}{lll}V& =& E\cdot d\\ 
-V & =& \left(3 \times 10^{6}  \text{V/m}\right)\left( 1.00 \times 10^{-3}  \text{m}\right)\\ 
- V& =& 3000 \text{V} \text{.} \end{array} $$
+ $$\begin{array}{lll}V& =& E\cdot d\\
+V & =& \left(3 \times 10^{6}  \text{V/m}\right)\left( 1.00 \times 10^{-3}  \text{m}\right)\\
+ V& =& 3000 \text{V} \text{.} \end{array}
+$$
+
 </div>
 
 However, the limit for a 1.00 mm separation filled with Teflon is 60 000 V,
@@ -408,7 +412,7 @@ charge on the plates is attractive and very strong, since they are very close
 together. This attracts more charge onto the plates than if the space were empty
 and the opposite charges were a distance $$d $$ away.
 
-![(a) A dielectric is between the two plates of a parallel plate capacitor. A diagram shows the molecules that make up the dielectric. The molecules are polarized by the charged plates. The positive ends of the molecules are attracted toward the negatively charged plate of the capacitor and hence are oriented toward the right. The negative ends of the molecules are attracted toward the positively charged plate of the capacitor and hence are oriented toward the left. (b) There is a dielectric material between the two plates of the capacitor. Since the charged ends of the molecules are oriented toward the capacitor plates, there is reduced field strength inside the capacitor, resulting in a smaller voltage between the plates for the same charge.](../resources/Figure_19_05_05.jpg "(a) The molecules in the insulating material between the plates of a capacitor are polarized by the charged plates. This produces a layer of opposite charge on the surface of the dielectric that attracts more charge onto the plate, increasing its capacitance. (b) The dielectric reduces the electric field strength inside the capacitor, resulting in a smaller voltage between the plates for the same charge. The capacitor stores the same charge for a smaller voltage, implying that it has a larger capacitance because of the dielectric. ")
+![(a) A dielectric is between the two plates of a parallel plate capacitor. A diagram shows the molecules that make up the dielectric. The molecules are polarized by the charged plates. The positive ends of the molecules are attracted toward the negatively charged plate of the capacitor and hence are oriented toward the right. The negative ends of the molecules are attracted toward the positively charged plate of the capacitor and hence are oriented toward the left. (b) There is a dielectric material between the two plates of the capacitor. Since the charged ends of the molecules are oriented toward the capacitor plates, there is reduced field strength inside the capacitor, resulting in a smaller voltage between the plates for the same charge.](../resources/Figure_19_05_05.jpg '(a) The molecules in the insulating material between the plates of a capacitor are polarized by the charged plates. This produces a layer of opposite charge on the surface of the dielectric that attracts more charge onto the plate, increasing its capacitance. (b) The dielectric reduces the electric field strength inside the capacitor, resulting in a smaller voltage between the plates for the same charge. The capacitor stores the same charge for a smaller voltage, implying that it has a larger capacitance because of the dielectric. ')
 {: #Figure5}
 
 Another way to understand how a dielectric increases capacitance is to consider
@@ -441,7 +445,7 @@ modeled as shown in [[Figure 6]](#Figure6).
 
 </div>
 
-![The top part of the figure shows what an unpolarized atom would look like if the electrons moved along a circular path around the positively charged nucleus. Next, when there is an external negative and a positive charge, the electrons are attracted toward the positive external charge and the nucleus is attracted toward the negative external charge. The circular orbit of the electrons becomes an ellipse due to the pull of the external charges.](../resources/Figure_19_05_06.jpg "Artist&#x2019;s conception of a polarized atom. The orbits of electrons around the nucleus are shifted slightly by the external charges (shown exaggerated). The resulting separation of charge within the atom means that it is polarized. Note that the unlike charge is now closer to the external charges, causing the polarization.")
+![The top part of the figure shows what an unpolarized atom would look like if the electrons moved along a circular path around the positively charged nucleus. Next, when there is an external negative and a positive charge, the electrons are attracted toward the positive external charge and the nucleus is attracted toward the negative external charge. The circular orbit of the electrons becomes an ellipse due to the pull of the external charges.](../resources/Figure_19_05_06.jpg 'Artist’s conception of a polarized atom. The orbits of electrons around the nucleus are shifted slightly by the external charges (shown exaggerated). The resulting separation of charge within the atom means that it is polarized. Note that the unlike charge is now closer to the external charges, causing the polarization.')
 {: #Figure6}
 
 We will find in [Atomic Physics](../contents/ch30AtomicPhysics) that the orbits of electrons are more
@@ -471,7 +475,7 @@ charges of both signs. Also, as brought out in the previous chapter, polar water
 provides a shield or screening of the electric fields in the highly charged
 molecules of interest in biological systems.
 
-![The two hydrogen atoms in the water molecule subtend an angle of one hundred and four point five degrees with oxygen at the center. This is a schematic arrangement of hydrogen and oxygen atoms in the water molecule. The molecule is polarized, with the electrons attracted more to the nucleus of the oxygen atom than toward the nuclei of the hydrogen atoms.](../resources/Figure_19_05_07.jpg "Artist&#x2019;s conception of a water molecule. There is an inherent separation of charge, and so water is a polar molecule. Electrons in the molecule are attracted to the oxygen nucleus and leave an excess of positive charge near the two hydrogen nuclei. (Note that the schematic on the right is a rough illustration of the distribution of electrons in the water molecule. It does not show the actual numbers of protons and electrons involved in the structure.)")
+![The two hydrogen atoms in the water molecule subtend an angle of one hundred and four point five degrees with oxygen at the center. This is a schematic arrangement of hydrogen and oxygen atoms in the water molecule. The molecule is polarized, with the electrons attracted more to the nucleus of the oxygen atom than toward the nuclei of the hydrogen atoms.](../resources/Figure_19_05_07.jpg 'Artist’s conception of a water molecule. There is an inherent separation of charge, and so water is a polar molecule. Electrons in the molecule are attracted to the oxygen nucleus and leave an excess of positive charge near the two hydrogen nuclei. (Note that the schematic on the right is a rough illustration of the distribution of electrons in the water molecule. It does not show the actual numbers of protons and electrons involved in the structure.)')
 {: #Figure7}
 
 <div class="note" data-has-label="true"  data-label="" markdown="1">
@@ -488,27 +492,28 @@ Explore how a capacitor works! Change the size of the plates and add a dielectri
 
 ### Section Summary
 
-* A **capacitor** is a device used to store charge.
-* The amount of charge $$Q $$ a capacitor can store depends on two major
+- A **capacitor** is a device used to store charge.
+- The amount of charge $$Q $$ a capacitor can store depends on two major
   factors—the voltage applied and the capacitor’s physical characteristics, such
   as its size.
-* The capacitance $$C $$ is the amount of charge stored per volt*,* or
+- The capacitance $$C $$ is the amount of charge stored per volt*,* or
 
   <div class="equation" >
    $$C=\frac{Q}{V}. $$
   </div>
 
-* The capacitance of a parallel plate capacitor is $$C={\epsilon }_{0}
+- The capacitance of a parallel plate capacitor is $$C={\epsilon }_{0}
   \frac{A}{d} $$ , when the plates are separated by air or free space.
-  $${\epsilon }_{0} $$ is called the permittivity of free space.
-* A parallel plate capacitor with a dielectric between its plates has a
+  $${\epsilon }\_{0} $$ is called the permittivity of free space.
+- A parallel plate capacitor with a dielectric between its plates has a
   capacitance given by
   <div class="equation" >
    $$C=\kappa \epsilon _{0} \frac{A}{d}, $$
   </div>
 
   where $$\kappa $$ is the dielectric constant of the material.
-* The maximum electric field strength above which an insulating material begins
+
+- The maximum electric field strength above which an insulating material begins
   to break down and conduct is called dielectric strength.
 
 ### Conceptual Questions
@@ -562,7 +567,7 @@ Membranes in living cells, including those in humans, are characterized by a sep
 </div>
 </div>
 
-![The semipermeable membrane of a cell is shown, with different concentrations of potassium cations, sodium cations, and chloride anions inside and outside the cell. The ions are represented by small, colored circles. In its resting state, the cell membrane is permeable to potassium and chloride ions, but it is impermeable to sodium ions. By diffusion, potassium cations travel out of the cell, going through the cell membrane and forming a layer of positive charge on the outer surface of the membrane. By diffusion, chloride anions go into the cell, going through the cell membrane and forming a layer of negative charge on the inner surface of the membrane. As a result, a voltage is set up across the cell membrane. The Coulomb force prevents all the ions from crossing the membrane.](../resources/Figure_19_05_08.jpg "The semipermeable membrane of a cell has different concentrations of ions inside and out. Diffusion moves the \( \text{K}^{+} \)    (potassium) and \( \text{Cl}^{-} \)   (chloride) ions in the directions shown, until the Coulomb force halts further transfer. This results in a layer of positive charge on the outside, a layer of negative charge on the inside, and thus a voltage across the cell membrane. The membrane is normally impermeable to \( \text{Na}^{+} \) (sodium ions).")
+![The semipermeable membrane of a cell is shown, with different concentrations of potassium cations, sodium cations, and chloride anions inside and outside the cell. The ions are represented by small, colored circles. In its resting state, the cell membrane is permeable to potassium and chloride ions, but it is impermeable to sodium ions. By diffusion, potassium cations travel out of the cell, going through the cell membrane and forming a layer of positive charge on the outer surface of the membrane. By diffusion, chloride anions go into the cell, going through the cell membrane and forming a layer of negative charge on the inner surface of the membrane. As a result, a voltage is set up across the cell membrane. The Coulomb force prevents all the ions from crossing the membrane.](../resources/Figure_19_05_08.jpg 'The semipermeable membrane of a cell has different concentrations of ions inside and out. Diffusion moves the ( \\text{K}^{+} )    (potassium) and ( \\text{Cl}^{-} )   (chloride) ions in the directions shown, until the Coulomb force halts further transfer. This results in a layer of positive charge on the outside, a layer of negative charge on the inside, and thus a voltage across the cell membrane. The membrane is normally impermeable to ( \\text{Na}^{+} ) (sodium ions).')
 {: #Figure8}
 
 ### Problems &amp; Exercises
@@ -668,7 +673,9 @@ flesh? Is it reasonable to assume no phase change?
 **Unreasonable Results**
 
 (a) A certain parallel plate capacitor has plates of area $${4.00 \text{m}}^{2}
-$$ , separated by 0.0100 mm of nylon, and stores 0.170 C of charge. What is the
+
+$$
+, separated by 0.0100 mm of nylon, and stores 0.170 C of charge. What is the
 applied voltage? (b) What is unreasonable about this result? (c) Which
 assumptions are responsible or inconsistent?
 
@@ -709,3 +716,4 @@ polar molecule
 : a molecule with inherent separation of charge
 
 </div>
+$$

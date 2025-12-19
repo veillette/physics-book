@@ -33,7 +33,7 @@ or
  $$\frac{1}{2}mv^{2}+\frac{1}{2}kx^{2}=\text{constant} \text{.}  $$
 </div>
 
-This statement of conservation of energy is valid for *all* simple harmonic
+This statement of conservation of energy is valid for _all_ simple harmonic
 oscillators, including ones where the gravitational force plays a role
 
 Namely, for a simple pendulum we replace the velocity with $$v=L\omega $$ , the
@@ -56,7 +56,7 @@ kinetic energy is completely converted, and so on. This concept provides extra
 insight here and in later applications of simple harmonic motion, such as
 alternating current circuits.
 
-![Figure a shows a spring on a frictionless surface attached to a bar or wall from the left side, and on the right side of it there&#x2019;s an object attached to it with mass m, its amplitude is given by X, and x equal to zero at the equilibrium level. Force F is applied to it from the right side, shown with left direction pointed red arrow and velocity v is equal to zero. A direction point showing the north and west direction is also given alongside this figure as well as with other four figures. The energy given here for the object is given according to the velocity. In figure b, after the force has been applied, the object moves to the left compressing the spring a bit, and the displaced area of the object from its initial point is shown in sketched dots. F is equal to zero and the V is max in negative direction. The energy given here for the object is given according to the velocity. In figure c, the spring has been compressed to the maximum level, and the amplitude is negative x. Now the direction of force changes to the rightward direction, shown with right direction pointed red arrow and the velocity v zero. The energy given here for the object is given according to the velocity. In figure d, the spring is shown released from the compressed level and the object has moved toward the right side up to the equilibrium level. F is zero, and the velocity v is maximum. The energy given here for the object is given according to the velocity. In figure e, the spring has been stretched loose to the maximum level and the object has moved to the far right. Now again the velocity here is equal to zero and the direction of force again is to the left hand side, shown here as F is equal to zero. The energy given here for the object is given according to the velocity.               ](../resources/Figure_16_05_01.jpg "The transformation of energy in simple harmonic motion is illustrated for an object attached to a spring on a frictionless surface.")
+![Figure a shows a spring on a frictionless surface attached to a bar or wall from the left side, and on the right side of it there’s an object attached to it with mass m, its amplitude is given by X, and x equal to zero at the equilibrium level. Force F is applied to it from the right side, shown with left direction pointed red arrow and velocity v is equal to zero. A direction point showing the north and west direction is also given alongside this figure as well as with other four figures. The energy given here for the object is given according to the velocity. In figure b, after the force has been applied, the object moves to the left compressing the spring a bit, and the displaced area of the object from its initial point is shown in sketched dots. F is equal to zero and the V is max in negative direction. The energy given here for the object is given according to the velocity. In figure c, the spring has been compressed to the maximum level, and the amplitude is negative x. Now the direction of force changes to the rightward direction, shown with right direction pointed red arrow and the velocity v zero. The energy given here for the object is given according to the velocity. In figure d, the spring is shown released from the compressed level and the object has moved toward the right side up to the equilibrium level. F is zero, and the velocity v is maximum. The energy given here for the object is given according to the velocity. In figure e, the spring has been stretched loose to the maximum level and the object has moved to the far right. Now again the velocity here is equal to zero and the direction of force again is to the left hand side, shown here as F is equal to zero. The energy given here for the object is given according to the velocity.               ](../resources/Figure_16_05_01.jpg 'The transformation of energy in simple harmonic motion is illustrated for an object attached to a spring on a frictionless surface.')
 {: #Figure1 height="350"}
 
 The conservation of energy principle can be used to derive an expression for
@@ -99,11 +99,15 @@ where
  $${v}_{\text{max}}=\sqrt{\frac{k}{m}}X. $$
 </div>
 
-From this expression, we see that the velocity is a maximum ( $${v}_{\text{max}}
-$$ )
+From this expression, we see that the velocity is a maximum ( $${v}\_{\text{max}}
+
+$$
+)
 at $$x=0 $$ , as stated earlier in $$v\left(t\right)=-{v}_{\text{max}} \sin
-\frac{2\pi t}{T} $$
-*.* Notice that the maximum velocity depends on three factors. Maximum velocity
+\frac{2\pi t}{T}
+$$
+
+_._ Notice that the maximum velocity depends on three factors. Maximum velocity
 is directly proportional to amplitude. As you might guess, the greater the
 maximum displacement the greater the maximum velocity. Maximum velocity is also
 greater for stiffer systems, because they exert greater force for the same
@@ -207,14 +211,14 @@ You could increase the mass of the object that is oscillating.
 
 ### Section Summary
 
-* Energy in the simple harmonic oscillator is shared between elastic potential
+- Energy in the simple harmonic oscillator is shared between elastic potential
   energy and kinetic energy, with the total being constant:
 
   <div class="equation" >
    $$\frac{1}{2}mv^{2}+\frac{1}{2}kx^{2}=\text{constant} \text{.}  $$
   </div>
 
-* Maximum velocity depends on three factors: it is directly proportional to
+- Maximum velocity depends on three factors: it is directly proportional to
   amplitude, it is greater for stiffer systems, and it is smaller for objects
   that have larger masses:
 

@@ -22,7 +22,7 @@ Calculating the Emf Induced in a Generator Coil
 The generator coil shown in [[Figure 1]](#Figure1) is rotated through one-fourth of a revolution (from  $$\theta =0º $$
  to  $$\theta =90 ^\circ $$ )   in 15.0 ms. The 200-turn circular coil has a 5.00 cm radius and is in a uniform 1.25 T magnetic field. What is the average emf induced?
 
-![The figure shows a schematic diagram of an electric generator. It consists of a rotating rectangular coil placed between the two poles of a permanent magnet shown as two rectangular blocks curved on side facing the coil. The magnetic field B is shown pointing from the North to the South Pole. The two ends of this coil are connected to the two small rings. The two conducting carbon brushes are kept pressed separately on both the rings. The coil is attached to an axle with a handle at the other end. Outer ends of the two brushes are connected to the galvanometer. The axle is mechanically rotated from outside by an angle of ninety degree that is a one fourth revolution, to rotate the coil inside the magnetic field. A current is shown to flow in the coil in clockwise direction and the galvanometer shows a deflection to left.](../resources/Figure_23_05_01.jpg "When this generator coil is rotated through one-fourth of a revolution, the magnetic flux \( \Phi \) changes from its maximum to zero, inducing an emf.")
+![The figure shows a schematic diagram of an electric generator. It consists of a rotating rectangular coil placed between the two poles of a permanent magnet shown as two rectangular blocks curved on side facing the coil. The magnetic field B is shown pointing from the North to the South Pole. The two ends of this coil are connected to the two small rings. The two conducting carbon brushes are kept pressed separately on both the rings. The coil is attached to an axle with a handle at the other end. Outer ends of the two brushes are connected to the galvanometer. The axle is mechanically rotated from outside by an angle of ninety degree that is a one fourth revolution, to rotate the coil inside the magnetic field. A current is shown to flow in the coil in clockwise direction and the galvanometer shows a deflection to left.](../resources/Figure_23_05_01.jpg 'When this generator coil is rotated through one-fourth of a revolution, the magnetic flux ( \\Phi ) changes from its maximum to zero, inducing an emf.')
 {: #Figure1}
 
 **Strategy**
@@ -68,18 +68,18 @@ This is a practical average value, similar to the 120 V used in household power.
 The emf calculated in [Example 1](#Example1) is the average over
 one-fourth of a revolution. What is the emf at any given instant? It varies with
 the angle between the magnetic field and a perpendicular to the coil. We can get
-an expression for emf **as a function of time by considering the motional emf on
+an expression for emf \*\*as a function of time by considering the motional emf on
 a rotating rectangular coil of width $$w $$ and height $$\ell $$ in a uniform
 magnetic field, as illustrated in [[Figure 2]](#Figure2).
 
-![The figure shows a schematic diagram of an electric generator with a single rectangular coil. The rotating rectangular coil is placed between the two poles of a permanent magnet shown as two rectangular blocks curved on side facing the coil. The magnetic field B is shown pointing from the North to the South Pole. The North Pole is on the left and the South Pole is to the right and hence the direction of field is from left to right. The angular velocity of the coil is given as omega. The velocity vector v of the coil makes an angle theta with the direction of field.](../resources/Figure_23_05_02.jpg "A generator with a single rectangular coil rotated at constant angular velocity in a uniform magnetic field produces an emf that varies sinusoidally in time. Note the generator is similar to a motor, except the shaft is rotated to produce a current rather than the other way around.")
+![The figure shows a schematic diagram of an electric generator with a single rectangular coil. The rotating rectangular coil is placed between the two poles of a permanent magnet shown as two rectangular blocks curved on side facing the coil. The magnetic field B is shown pointing from the North to the South Pole. The North Pole is on the left and the South Pole is to the right and hence the direction of field is from left to right. The angular velocity of the coil is given as omega. The velocity vector v of the coil makes an angle theta with the direction of field.](../resources/Figure_23_05_02.jpg 'A generator with a single rectangular coil rotated at constant angular velocity in a uniform magnetic field produces an emf that varies sinusoidally in time. Note the generator is similar to a motor, except the shaft is rotated to produce a current rather than the other way around.')
 {: #Figure2}
 
 Charges in the wires of the loop experience the magnetic force, because they are
 moving in a magnetic field. Charges in the vertical wires experience forces
 parallel to the wire, causing currents. But those in the top and bottom segments
 feel a force perpendicular to the wire, which does not cause a current. We can
-thus find the induced emf by considering only the side wires. Motional emf is given to be $$\text{emf}=B\ell v $$ , where the velocity *v* is perpendicular to the magnetic field $$B $$ . Here the velocity is at an angle $$\theta $$ with $$B $$ , so that its component perpendicular to $$B $$ is $$v \sin \theta $$
+thus find the induced emf by considering only the side wires. Motional emf is given to be $$\text{emf}=B\ell v $$ , where the velocity _v_ is perpendicular to the magnetic field $$B $$ . Here the velocity is at an angle $$\theta $$ with $$B $$ , so that its component perpendicular to $$B $$ is $$v \sin \theta $$
 (see [[Figure 2]](#Figure2)). Thus in this case the emf induced on each side is $$\text{emf}=B\ell v \sin \theta $$ , and they are in the same direction.
 The total emf around the loop is then
 
@@ -126,10 +126,10 @@ where
 
 is the maximum **(peak) emf**. Note that the frequency of the oscillation is
 $$f=\omega /2\pi $$ , and the period is $$T=1/f=2\pi /\omega $$
-*.* [[Figure 3]](#Figure3) shows a graph of emf as a function of time, and it
+_._ [[Figure 3]](#Figure3) shows a graph of emf as a function of time, and it
 now seems reasonable that AC voltage is sinusoidal.
 
-![The first part of the figure shows a schematic diagram of a single coil electric generator. It consists of a rotating rectangular loop placed between the two poles of a permanent magnet shown as two rectangular blocks curved on side facing the loop. The magnetic field B is shown pointing from the North to the South Pole. The two ends of this loop are connected to the two small rings. The two conducting carbon brushes are kept pressed separately on both the rings. The loop is rotated in the field with an angular velocity omega. Outer ends of the two brushes are connected to an electric bulb which is shown to glow brightly. The second part of the figure shows the graph for e m f generated E as a function of time t. The e m f is along the Y axis and the time t is along the X axis. The graph is a progressive sine wave with a time period T. The crest maxima are at E zero and trough minima are at negative E zero.](../resources/Figure_23_05_03.jpg "The emf of a generator is sent to a light bulb with the system of rings and brushes shown. The graph gives the emf of the generator as a function of time. \( emf_0 \) is the peak emf. The period is \( T=1/f=2 \pi/\omega \) , where \( f \) is the frequency. Note that the script E stands for emf.")
+![The first part of the figure shows a schematic diagram of a single coil electric generator. It consists of a rotating rectangular loop placed between the two poles of a permanent magnet shown as two rectangular blocks curved on side facing the loop. The magnetic field B is shown pointing from the North to the South Pole. The two ends of this loop are connected to the two small rings. The two conducting carbon brushes are kept pressed separately on both the rings. The loop is rotated in the field with an angular velocity omega. Outer ends of the two brushes are connected to an electric bulb which is shown to glow brightly. The second part of the figure shows the graph for e m f generated E as a function of time t. The e m f is along the Y axis and the time t is along the X axis. The graph is a progressive sine wave with a time period T. The crest maxima are at E zero and trough minima are at negative E zero.](../resources/Figure_23_05_03.jpg 'The emf of a generator is sent to a light bulb with the system of rings and brushes shown. The graph gives the emf of the generator as a function of time. ( emf_0 ) is the peak emf. The period is ( T=1/f=2 \\pi/\\omega ) , where ( f ) is the frequency. Note that the script E stands for emf.')
 {: #Figure3}
 
 The fact that the peak emf, $${\text{emf}}_{0}=NAB\omega $$ , makes good sense.
@@ -145,7 +145,7 @@ produce pulsed DC. More elaborate arrangements of multiple coils and split rings
 can produce smoother DC, although electronic rather than mechanical means are
 usually used to make ripple-free DC.
 
-![The first part of the figure shows a schematic diagram of a single coil D C electric generator. It consists of a rotating rectangular loop placed between the two poles of a permanent magnet shown as two rectangular blocks curved on side facing the loop. The magnetic field B is shown pointing from the North to the South Pole. The two ends of this loop are connected to the two sides of a split ring. The two conducting carbon brushes are kept pressed separately on both sides of the split rings. The loop is rotated in the field with an angular velocity w. Outer ends of the two brushes are connected to an electric bulb which is shown to glow brightly. The second part of the figure shows the graph for e m f generated as a function of time. The e m f is along the Y axis and the time t is along the X axis. The graph is a progressive and rectified sine wave with a time period T. The sine wave has only positive pulses. The crest maxima are at E zero.](../resources/Figure_23_05_04.jpg "Split rings, called commutators, produce a pulsed DC emf output in this configuration.")
+![The first part of the figure shows a schematic diagram of a single coil D C electric generator. It consists of a rotating rectangular loop placed between the two poles of a permanent magnet shown as two rectangular blocks curved on side facing the loop. The magnetic field B is shown pointing from the North to the South Pole. The two ends of this loop are connected to the two sides of a split ring. The two conducting carbon brushes are kept pressed separately on both sides of the split rings. The loop is rotated in the field with an angular velocity w. Outer ends of the two brushes are connected to an electric bulb which is shown to glow brightly. The second part of the figure shows the graph for e m f generated as a function of time. The e m f is along the Y axis and the time t is along the X axis. The graph is a progressive and rectified sine wave with a time period T. The sine wave has only positive pulses. The crest maxima are at E zero.](../resources/Figure_23_05_04.jpg 'Split rings, called commutators, produce a pulsed DC emf output in this configuration.')
 {: #Figure4}
 
 <div class="example" markdown="1">
@@ -175,7 +175,7 @@ One-fourth of a revolution is  $$\pi /2 $$
  $$\begin{array}{lll}\omega & =& \frac{\pi /2 \text{rad}}{0.0150 \text{s}}\\ & =& 104.7 \text{rad/s}\text{.}\end{array} $$
 </div>
 104.7 rad/s is exactly 1000 rpm. We substitute this value for  $$\omega  $$
- and the information from the previous example into  $${\text{emf}}_{0}=NAB\omega  $$, yielding 
+ and the information from the previous example into  $${\text{emf}}_{0}=NAB\omega  $$, yielding
 
 <div class="equation" >
  $$\begin{array}{lll}{\text{emf}}_{0}& =& NAB\omega \\ & =& 200\left( 7.85 \times 10^{-3}  {\text{m}}^{2}\right)\left( 1.25 \text{T}\right)\left( 104.7 \text{rad/s}\right)\\ & =& 206 \text{V}\end{array}\text{.} $$
@@ -194,7 +194,7 @@ of fossil fuels, or the kinetic energy of wind. [[Figure 5]](#Figure5) shows a
 cutaway view of a steam turbine; steam moves over the blades connected to the
 shaft, which rotates the coil within the generator.
 
-![Photograph of a steam turbine connected to a generator.](../resources/Figure_23_05_05.jpg "Steam turbine/generator. The steam produced by burning coal impacts the turbine blades, turning the shaft which is connected to the generator. (credit: Nabonaco, Wikimedia Commons)")
+![Photograph of a steam turbine connected to a generator.](../resources/Figure_23_05_05.jpg 'Steam turbine/generator. The steam produced by burning coal impacts the turbine blades, turning the shaft which is connected to the generator. (credit: Nabonaco, Wikimedia Commons)')
 {: #Figure5}
 
 Generators illustrated in this section look very much like the motors
@@ -205,7 +205,7 @@ action of a motor as a generator.
 
 ### Section Summary
 
-* An electric generator rotates a coil in a magnetic field, inducing an emf given as a function of time by
+- An electric generator rotates a coil in a magnetic field, inducing an emf given as a function of time by
 
   <div class="equation" >
    $$\text{emf}=NAB\omega  \sin \omega t\text{,} $$
@@ -214,7 +214,7 @@ action of a motor as a generator.
 where $$A $$ is the area of an $$N $$ -turn coil rotated at a constant angular
 velocity $$\omega $$ in a uniform magnetic field $$B $$ .
 
-* The peak emf $${\text{emf}}_{0} $$ of a generator is
+- The peak emf $${\text{emf}}_{0} $$ of a generator is
 
   <div class="equation" >
    $${\text{emf}}_{0}=NAB\omega \text{.} $$
@@ -380,11 +380,11 @@ electric generator
 emf by rotating a coil in a magnetic field
 
 emf induced in a generator coil
-:  $$\text{emf}=NAB\omega \sin \omega t $$ , where $$A $$ is the area of an $$N
+: $$\text{emf}=NAB\omega \sin \omega t $$ , where $$A $$ is the area of an $$N
 $$ -turn coil rotated at a constant angular velocity $$\omega $$ in a uniform
 magnetic field $$B $$ , over a period of time $$t $$
 
 peak emf
-:  $${\text{emf}}_{0}=NAB\omega $$
+: $${\text{emf}}_{0}=NAB\omega $$
 
 </div>

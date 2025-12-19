@@ -22,7 +22,7 @@ an applied force.
 
 What happens to a pressure in an enclosed fluid? Since atoms in a fluid are free
 to move about, they transmit the pressure to all parts of the fluid and to the
-walls of the container. Remarkably, the pressure is transmitted *undiminished*.
+walls of the container. Remarkably, the pressure is transmitted _undiminished_.
 This phenomenon is called **Pascal’s principle**, because it was first clearly
 stated by the French philosopher and scientist Blaise Pascal (1623–1662): A
 change in pressure applied to an enclosed fluid is transmitted undiminished to
@@ -39,8 +39,8 @@ A change in pressure applied to an enclosed fluid is transmitted undiminished to
 Pascal’s principle, an experimentally verified fact, is what makes pressure so
 important in fluids. Since a change in pressure is transmitted undiminished in
 an enclosed fluid, we often know more about pressure than other physical
-quantities in fluids. Moreover, Pascal’s principle implies that *the total
-pressure in a fluid is the sum of the pressures from different sources*. We
+quantities in fluids. Moreover, Pascal’s principle implies that _the total
+pressure in a fluid is the sum of the pressures from different sources_. We
 shall find this fact—that pressures add—very useful.
 
 Blaise Pascal had an interesting life in that he was home-schooled by his father
@@ -55,11 +55,11 @@ calculator, in addition to his contributions in the field of fluid statics.
 ### Application of Pascal’s Principle
 
 One of the most important technological applications of Pascal’s principle is
-found in a *hydraulic system*, which is an enclosed fluid system used to exert
+found in a _hydraulic system_, which is an enclosed fluid system used to exert
 forces. The most common hydraulic systems are those that operate car brakes. Let
 us first consider the simple hydraulic system shown in [[Figure 1]](#Figure1).
 
-![A small force can be converted into a larger force when pressure is transmitted through liquids in different containers with pistons that are connected.](../resources/Figure_11_05_01.jpg "A typical hydraulic system with two fluid-filled cylinders, capped with pistons and connected by a tube called a hydraulic line. A downward force \( F_{1} \) on the left piston creates a pressure that is transmitted undiminished to all parts of the enclosed fluid. This results in an upward force \( F_{2} \) on the right piston that is larger than \( F_{1} \) because the right piston has a larger area.")
+![A small force can be converted into a larger force when pressure is transmitted through liquids in different containers with pistons that are connected.](../resources/Figure_11_05_01.jpg 'A typical hydraulic system with two fluid-filled cylinders, capped with pistons and connected by a tube called a hydraulic line. A downward force ( F_{1} ) on the left piston creates a pressure that is transmitted undiminished to all parts of the enclosed fluid. This results in an upward force ( F_{2} ) on the right piston that is larger than ( F_{1} ) because the right piston has a larger area.')
 {: #Figure1}
 
 ### Relationship Between Forces in a Hydraulic System
@@ -93,7 +93,7 @@ Calculating Force of Slave Cylinders: Pascal Puts on the Brakes
 </div>
 Consider the automobile hydraulic system shown in [[Figure 2]](#Figure2).
 
-![When the driver applies force on the brake pedal the master cylinder transmits the same pressure to the slave cylinders but results in a larger force due to the larger area of the slave cylinders.](../resources/Figure_11_05_02.jpg "Hydraulic brakes use Pascal&#x2019;s principle. The driver exerts a force of 100 N on the brake pedal. This force is increased by the simple lever and again by the hydraulic system. Each of the identical slave cylinders receives the same pressure and, therefore, creates the same force output \( F_{2} \) . The circular cross-sectional areas of the master and slave cylinders are represented by \( A_{1} \) and \( A_{2} \) , respectively ")
+![When the driver applies force on the brake pedal the master cylinder transmits the same pressure to the slave cylinders but results in a larger force due to the larger area of the slave cylinders.](../resources/Figure_11_05_02.jpg 'Hydraulic brakes use Pascal’s principle. The driver exerts a force of 100 N on the brake pedal. This force is increased by the simple lever and again by the hydraulic system. Each of the identical slave cylinders receives the same pressure and, therefore, creates the same force output ( F_{2} ) . The circular cross-sectional areas of the master and slave cylinders are represented by ( A_{1} ) and ( A_{2} ) , respectively ')
 {: #Figure2}
 
 A force of 100 N is applied to the brake pedal, which acts on the
@@ -127,6 +127,7 @@ Pascal’s principle applied to hydraulic systems is given by $$\frac{ {F}_{1}}{
 This value is the force exerted by each of the four slave cylinders. Note that
 we can add as many slave cylinders as we wish. If each has a 2.50-cm diameter,
 each will exert $$ 1.25 \times 10^{4} \text{N}\text{.} $$
+
 </div>
 
 A simple hydraulic system, such as a simple machine, can increase force but
@@ -148,16 +149,39 @@ Conservation of energy applied to a hydraulic system tells us that the system ca
 
 ### Section Summary
 
-* Pressure is force per unit area.
-* A change in pressure applied to an enclosed fluid is transmitted undiminished
+- Pressure is force per unit area.
+- A change in pressure applied to an enclosed fluid is transmitted undiminished
   to all portions of the fluid and to the walls of its container.
-* A hydraulic system is an enclosed fluid system used to exert forces.
+- A hydraulic system is an enclosed fluid system used to exert forces.
 
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 Suppose the master cylinder in a hydraulic system is at a greater height than the slave cylinder. Explain how this will affect the force produced at the slave cylinder.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Consider that in addition to the applied pressure, there is hydrostatic pressure due to the height difference between cylinders.
+
+**Solution:**
+If the master cylinder is at a greater height than the slave cylinder, **the force produced at the slave cylinder will be greater than predicted by the simple Pascal's principle equation**.
+
+The total pressure at the slave cylinder includes two components:
+1. The pressure transmitted from the master cylinder: $$ P_1 = F_1/A_1 $$
+2. The additional hydrostatic pressure due to the height difference: $$ P_h = \rho g h $$
+
+Total pressure at the slave cylinder:
+$$ P_2 = P_1 + \rho g h = \frac{F_1}{A_1} + \rho g h $$
+
+Therefore, the output force becomes:
+$$ F_2 = P_2 \times A_2 = \left(\frac{F_1}{A_1} + \rho g h\right) A_2 = \frac{A_2}{A_1} F_1 + \rho g h A_2 $$
+
+The first term is the standard hydraulic multiplication; the second term is the additional force from the height difference.
+
+**Discussion:**
+In most practical hydraulic systems (like car brakes), this height effect is small because hydraulic fluid has relatively low density and the height differences are modest. For example, with $$ h = 0.5 \text{ m} $$ and hydraulic fluid density ~850 kg/m³, the additional pressure is only about 4,200 Pa—negligible compared to the millions of pascals typically transmitted in hydraulic systems. However, for very precise applications or systems with large height differences, this effect must be accounted for. This is also why hydraulic systems should be bled of air bubbles—air is compressible, which would reduce the transmitted pressure.
 
 </div>
 </div>
@@ -180,6 +204,36 @@ How much pressure is transmitted in the hydraulic system considered in [[Example
 What force must be exerted on the master cylinder of a hydraulic lift to support the weight of a 2000-kg car (a large car) resting on the slave cylinder? The master cylinder has a 2.00-cm diameter and the slave has a 24.0-cm diameter.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy:**
+Use Pascal's principle: $$ F_1/A_1 = F_2/A_2 $$. First calculate the weight of the car ($$ F_2 $$), then solve for the required force on the master cylinder ($$ F_1 $$).
+
+**Solution:**
+*Step 1: Calculate the weight of the car*
+
+$$ F_2 = mg = (2000 \text{ kg})(9.80 \text{ m/s}^2) = 19,600 \text{ N} $$
+
+*Step 2: Calculate the areas of the cylinders*
+
+Master cylinder:
+$$ A_1 = \pi r_1^2 = \pi (1.00 \text{ cm})^2 = \pi \text{ cm}^2 $$
+
+Slave cylinder:
+$$ A_2 = \pi r_2^2 = \pi (12.0 \text{ cm})^2 = 144\pi \text{ cm}^2 $$
+
+*Step 3: Apply Pascal's principle*
+
+$$ \frac{F_1}{A_1} = \frac{F_2}{A_2} $$
+
+Solving for $$ F_1 $$:
+$$ F_1 = F_2 \times \frac{A_1}{A_2} = F_2 \times \frac{\pi}{ 144\pi} = \frac{F_2}{144} $$
+
+$$ F_1 = \frac{19,600 \text{ N}}{144} = 136 \text{ N} $$
+
+**Discussion:**
+A force of approximately **136 N** (about 31 pounds) on the master cylinder can support a 2000-kg car (weighing about 4400 pounds). This remarkable 144:1 force multiplication comes from the ratio of the areas, which equals the square of the diameter ratio: $$ (24.0/2.00)^2 = 12^2 = 144 $$. This is why hydraulic lifts are so useful in auto shops—a relatively small force can lift heavy vehicles. However, energy is conserved: to lift the car, the master piston must move 144 times farther than the slave piston rises, which is why hydraulic lift pumps require many strokes.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -196,6 +250,54 @@ A crass host pours the remnants of several bottles of wine into a jug after a pa
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A certain hydraulic system is designed to exert a force 100 times as large as the one put into it. (a) What must be the ratio of the area of the slave cylinder to the area of the master cylinder? (b) What must be the ratio of their diameters? (c) By what factor is the distance through which the output force moves reduced relative to the distance through which the input force moves? Assume no losses to friction.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Use Pascal's principle for the force and area relationship, geometry for the diameter relationship, and conservation of volume for the distance relationship.
+
+**Solution:**
+
+**(a) Area ratio:**
+
+From Pascal's principle: $$ \frac{F_1}{A_1} = \frac{F_2}{A_2} $$
+
+Rearranging: $$ \frac{A_2}{A_1} = \frac{F_2}{F_1} $$
+
+Since $$ F_2 = 100 \times F_1 $$:
+
+$$ \frac{A_{\text{slave}}}{A_{\text{master}}} = \frac{100 F_1}{F_1} = \boxed{100} $$
+
+**(b) Diameter ratio:**
+
+Since $$ A = \pi r^2 = \pi (d/2)^2 = \frac{\pi d^2}{4} $$, the area ratio equals the square of the diameter ratio:
+
+$$ \frac{A_2}{A_1} = \frac{d_2^2}{d_1^2} = 100 $$
+
+Therefore:
+$$ \frac{d_{\text{slave}}}{d_{\text{master}}} = \sqrt{100} = \boxed{10} $$
+
+**(c) Distance reduction factor:**
+
+Since the fluid is incompressible, the volume displaced by the master piston equals the volume received by the slave piston:
+
+$$ V_1 = V_2 $$
+$$ A_1 d_1 = A_2 d_2 $$
+
+Solving for the distance ratio:
+$$ \frac{d_2}{d_1} = \frac{A_1}{A_2} = \frac{1}{100} $$
+
+The output distance is reduced by a factor of **100**.
+
+**Discussion:**
+The results are consistent with energy conservation:
+
+$$ W_{\text{in}} = W_{\text{out}} $$
+$$ F_1 \times d_1 = F_2 \times d_2 $$
+$$ F_1 \times d_1 = (100 F_1) \times (d_1/100) $$
+$$ F_1 d_1 = F_1 d_1 \checkmark $$
+
+The hydraulic system acts like a force multiplier but not an energy multiplier. To lift a heavy load, you must push the master piston through 100 times the distance the load rises. This is analogous to using a long lever arm—you gain mechanical advantage but lose distance. The diameter ratio of 10:1 is practical; for example, a 1-cm master cylinder paired with a 10-cm slave cylinder would provide this 100× force multiplication.
 
 </div>
 </div>

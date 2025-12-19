@@ -15,14 +15,14 @@ chapterNumber: 7
 
 What happens to the work done on a system? Energy is transferred into the
 system, but in what form? Does it remain in the system or move on? The answers
-depend on the situation. For example, in the module [Work the scientific 
+depend on the situation. For example, in the module [Work the scientific
 Definition](./ch7WorkTheScientificDefinition),
 if the lawn mower
 in [Figure 1 of Work the Scientific Definition](./ch7WorkTheScientificDefinition#Figure1)(a) is pushed just hard enough to keep it going at a constant speed, then energy
 put into the mower by the person is removed continuously by friction, and
 eventually leaves the system in the form of heat transfer. In contrast, work
 done on the briefcase by the person carrying it up stairs
-in [Figure 1 of Work the Scientific Definition](./ch7WorkTheScientificDefinition#Figure1)(d) 
+in [Figure 1 of Work the Scientific Definition](./ch7WorkTheScientificDefinition#Figure1)(d)
 is stored in the briefcase-Earth system and can be recovered at any time, as
 shown
 in [Figure 1 of Work the Scientific Definition](./ch7WorkTheScientificDefinition#Figure1)(e).
@@ -48,7 +48,7 @@ also find an expression for the energy of motion.
 Let us start by considering the total, or net, work done on a system. Net work
 is defined to be the sum of work done by all external forces—that is, **net
 work** is the work done by the net external force $$ \vb{F}_{\text{net}} $$. In
-equation form, this is $$ W_{\text{net}}=F_
+equation form, this is $$ W_{\text{net}}=F\_
 {\text{net}}d\cos{\theta} $$ where $$ \theta $$ is the angle between the force
 vector and the displacement vector.
 
@@ -60,11 +60,11 @@ the work done. [Figure 1](#Figure1)(b) shows a more general process where the fo
 varies. The area under the curve is divided into strips, each having an average
 force $$ \left(
 F\cos{\theta} \right)_{i\left(\text{ave}\right)} $$. The work done is $$ \left(
-F\cos{\theta} \right)_{i\left(\text{ave}\right)}d_{i} $$ for each strip, and the
-total work done is the sum of the $$ W_{i} $$. Thus the total work done is the
+F\cos{\theta} \right)_{i\left(\text{ave}\right)}d*{i} $$ for each strip, and the
+total work done is the sum of the $$ W*{i} $$. Thus the total work done is the
 total area under the curve, a useful property to which we shall refer later.
 
-![Two drawings labeled a and b. (a) A graph of force component F cosine theta versus distance d. d is along the x axis and F cosine theta is along the y axis. A line of length d is drawn parallel to the horizontal axis for some value of F cosine theta. Area under this line in the graph is shaded and is equal to F cosine theta multiplied by d. F d cosine theta is equal to work W. (b) A graph of force component F cosine theta versus distance d. d is along the x axis and F cosine theta is along the y axis. There is an inclined line and the area under it is divided into many thin vertical strips of width d sub i. The area of one vertical stripe is equal to average value of F cosine theta times d sub i which equals to work W sub i.](../resources/Figure_07_02_01.jpg "(a) A graph of \( F\cos{ \theta} \) vs. \( d \) , when \( F \cos{ \theta} \) is constant. The area under the curve represents the work done by the force. (b) A graph of \( F \cos{ \theta} \) vs. \( d \) in which the force varies. The work done for each interval is the area of each strip; thus, the total area under the curve equals the total work done.")
+![Two drawings labeled a and b. (a) A graph of force component F cosine theta versus distance d. d is along the x axis and F cosine theta is along the y axis. A line of length d is drawn parallel to the horizontal axis for some value of F cosine theta. Area under this line in the graph is shaded and is equal to F cosine theta multiplied by d. F d cosine theta is equal to work W. (b) A graph of force component F cosine theta versus distance d. d is along the x axis and F cosine theta is along the y axis. There is an inclined line and the area under it is divided into many thin vertical strips of width d sub i. The area of one vertical stripe is equal to average value of F cosine theta times d sub i which equals to work W sub i.](../resources/Figure_07_02_01.jpg '(a) A graph of ( F\\cos{ \\theta} ) vs. ( d ) , when ( F \\cos{ \\theta} ) is constant. The area under the curve represents the work done by the force. (b) A graph of ( F \\cos{ \\theta} ) vs. ( d ) in which the force varies. The work done for each interval is the area of each strip; thus, the total area under the curve equals the total work done.')
 {: #Figure1}
 
 Net work will be simpler to examine if we consider a one-dimensional situation
@@ -72,13 +72,13 @@ where a force is used to accelerate an object in a direction parallel to its
 initial velocity. Such a situation occurs for the package on the roller belt
 conveyor system shown in [Figure 2](#Figure2).
 
-![A package shown on a roller belt pushed with a force F towards the right shown by a vector F sub app equal to one hundred and twenty newtons. A vector w is in the downward direction starting from the bottom of the package and the reaction force N on the package is shown by the vector N pointing upwards at the bottom of the package. A frictional force vector of five point zero zero newtons acts on the package leftwards. The displacement d is shown by the vector pointing to the right with a value of zero point eight zero zero meters.](../resources/Figure_07_02_02.jpg "A package on a roller belt is pushed horizontally through a distance \( d ). ")
+![A package shown on a roller belt pushed with a force F towards the right shown by a vector F sub app equal to one hundred and twenty newtons. A vector w is in the downward direction starting from the bottom of the package and the reaction force N on the package is shown by the vector N pointing upwards at the bottom of the package. A frictional force vector of five point zero zero newtons acts on the package leftwards. The displacement d is shown by the vector pointing to the right with a value of zero point eight zero zero meters.](../resources/Figure_07_02_02.jpg 'A package on a roller belt is pushed horizontally through a distance ( d ). ')
 {: #Figure2}
 
 The force of gravity and the normal force acting on the package are
 perpendicular to the displacement and do no work. Moreover, they are also equal
 in magnitude and opposite in direction so they cancel in calculating the net
-force. The net force arises solely from the horizontal applied force $$ \vb{F}_
+force. The net force arises solely from the horizontal applied force $$ \vb{F}\_
 {\text{app}} $$ and the horizontal friction force $$ \vb{f} $$. Thus, as
 expected, the net force is parallel to the displacement, so that $$ \theta
 =0^\circ $$ and $$ \cos{\theta} =1 $$, and the net work is given by
@@ -91,7 +91,7 @@ The effect of the net force $$ \vb{F}_{\text{net}} $$ is to accelerate the
 package from $$ v_{0} $$ to $$ v $$. The kinetic energy of the package
 increases, indicating that the net work done on the system is positive. (
 See [Figure 2](#Figure2).) By using Newton’s second law, and doing some algebra, we
-can reach an interesting conclusion. Substituting $$ F_
+can reach an interesting conclusion. Substituting $$ F\_
 {\text{net}}=ma $$ from Newton’s second law gives
 
 <div class="equation">
@@ -99,13 +99,13 @@ can reach an interesting conclusion. Substituting $$ F_
 </div>
 
 To get a relationship between net work and the speed given to a system by the
-net force acting on it, we take $$ d=x-x_{0} $$ and use the equation studied
+net force acting on it, we take $$ d=x-x*{0} $$ and use the equation studied
 in [Motion Equations for Constant Acceleration in One Dimension](./ch2MotionEquationsForConstantAccelerationInOneDimension)
 for the change in speed over a distance $$ d $$ if the acceleration has the
-constant value $$ a $$; namely, $$ v^{2}= v_{0}^{2}+2ad $$
+constant value $$ a $$; namely, $$ v^{2}= v*{0}^{2}+2ad $$
 (note that $$ a $$ appears in the expression for the net work). Solving for
-acceleration gives $$ a=\frac{ v^{2}-v_{0}^{2}}{2d} $$. When $$ a $$ is
-substituted into the preceding expression for $$ W_{\text{net}} $$, we obtain
+acceleration gives $$ a=\frac{ v^{2}-v*{0}^{2}}{2d} $$. When $$ a $$ is
+substituted into the preceding expression for $$ W*{\text{net}} $$, we obtain
 
 <div class="equation">
  $$ W_{\text{net}}=m\left(\frac{ v^{2}-{ v_{0}}^{2}}{2d}\right)d. $$
@@ -117,8 +117,8 @@ The $$ d $$ cancels, and we rearrange this to obtain
  $$ W_{\text{net}}=\frac{1}{2}m v^{2}-\frac{1}{2} mv_{0}^{2}. $$
 </div>
 
-This expression is called the **work-energy theorem**, and it actually applies 
-*in general* (even for forces that vary in direction and magnitude), although we
+This expression is called the **work-energy theorem**, and it actually applies
+_in general_ (even for forces that vary in direction and magnitude), although we
 have derived it for the special case of a constant force parallel to the
 displacement. The theorem implies that the net work on a system equals the
 change in the quantity $$ \frac{1}{2}m v^{2} $$. This quantity is our first
@@ -138,7 +138,7 @@ The net work on a system equals the change in the quantity $$ \frac{1}{2}m v^{2}
 The quantity $$ \frac{1}{2}m v^{2} $$ in the work-energy theorem is defined to
 be the translational **kinetic energy** (KE) of a mass $$ m $$ moving at a speed
 $$ v $$.
-(*Translational* kinetic energy is distinct from *rotational* kinetic energy,
+(_Translational_ kinetic energy is distinct from _rotational_ kinetic energy,
 which is considered later.) In equation form, the translational kinetic energy,
 
 <div class="equation">
@@ -217,7 +217,7 @@ distance.
 
 **Solution for (a)**
 
-The net force is the push force minus friction, or $$ F_{\text{net}} = 120 N -
+The net force is the push force minus friction, or $$ F\_{\text{net}} = 120 N -
 5.00\N = 115 \N $$. Thus the net work is
 
 <div class="equation">
@@ -279,8 +279,8 @@ The total work done as the sum of the work done by each force is then seen to be
 
 **Discussion for (b)**
 
-The calculated total work $$ W_{\text{total}} $$ as the sum of the work by each
-force agrees, as expected, with the work $$ W_{\text{net}} $$ done by the net
+The calculated total work $$ W*{\text{total}} $$ as the sum of the work by each
+force agrees, as expected, with the work $$ W*{\text{net}} $$ done by the net
 force. The work done by a collection of forces acting on an object can be
 calculated by either approach.
 
@@ -295,8 +295,8 @@ Find the speed of the package in [Figure 2](#Figure2) at the end of the push, us
 **Strategy**
 
 Here the work-energy theorem can be used, because we have just calculated the
-net work, $$ W_{\text{net}} $$, and the initial kinetic energy, $$
-\frac{1}{2}{mv_{0}}^{2} $$. These calculations allow us to find the final
+net work, $$ W*{\text{net}} $$, and the initial kinetic energy, $$
+\frac{1}{2}{mv*{0}}^{2} $$. These calculations allow us to find the final
 kinetic energy, $$ \frac{1}{2}m v^{2} $$, and thus the final speed $$ v $$.
 
 **Solution**
@@ -353,9 +353,9 @@ distance traveled after the person stops pushing.
 The normal force and force of gravity cancel in calculating the net force. The
 horizontal friction force is then the net force, and it acts opposite to the
 displacement, so $$ \theta =180^\circ $$. To reduce the kinetic energy of the
-package to zero, the work $$ W_{\text{fr}} $$ by friction must be minus the
+package to zero, the work $$ W*{\text{fr}} $$ by friction must be minus the
 kinetic energy that the package started with plus what the package accumulated
-due to the pushing. Thus $$ W_{\text{fr}}=-95.75 \J $$. Furthermore, $$ W_
+due to the pushing. Thus $$ W*{\text{fr}}=-95.75 \J $$. Furthermore, $$ W\_
 {\text{fr}}=fd^{\prime} \cos{\theta} = -fd^{\prime} $$, where $$ d^{\prime} $$
 is the distance it takes to stop. Thus,
 
@@ -384,14 +384,14 @@ generally shorter and easier than those using kinematics and dynamics alone.
 
 ### Section Summary
 
-* The net work $$ W_{\text{net}} $$ is the work done by the net force acting on
+- The net work $$ W\_{\text{net}} $$ is the work done by the net force acting on
   an object.
-* Work done on an object transfers energy to the object.
-* The translational kinetic energy of an object of mass $$ m $$ moving at speed
+- Work done on an object transfers energy to the object.
+- The translational kinetic energy of an object of mass $$ m $$ moving at speed
   $$ v $$ is $$ \KE=\frac{1}{2}m v^{2} $$.
-* The work-energy theorem states that the net work $$ W_{\text{net}} $$ on a
-  system changes its kinetic energy, $$ W_{\text{net}}=\frac{1}{2}m
-  v^{2}-\frac{1}{2} mv_{0}^{2} $$.
+- The work-energy theorem states that the net work $$ W*{\text{net}} $$ on a
+  system changes its kinetic energy, $$ W*{\text{net}}=\frac{1}{2}m
+  v^{2}-\frac{1}{2} mv\_{0}^{2} $$.
 
 ### Conceptual Questions
 
@@ -399,7 +399,7 @@ generally shorter and easier than those using kinematics and dynamics alone.
 <div class="problem" markdown="1">
 The person in [Figure 3](#Figure3) does work on the lawn mower. Under what conditions would the mower gain energy? Under what conditions would it lose energy?
 
-![A person pushing a lawn mower with a force F. Force is represented by a vector making an angle theta below the horizontal and distance moved by the mover is represented by vector d. The component of vector F along vector d is F cosine theta. Work done by the person, W, is equal to F d cosine theta.](../resources/Figure_07_02_03.jpg "Person pushing a lawn mower.")
+![A person pushing a lawn mower with a force F. Force is represented by a vector making an angle theta below the horizontal and distance moved by the mover is represented by vector d. The component of vector F along vector d is F cosine theta. Work done by the person, W, is equal to F d cosine theta.](../resources/Figure_07_02_03.jpg 'Person pushing a lawn mower.')
 {: #Figure3}
 
 </div>
@@ -562,11 +562,11 @@ The calculated kinetic energy of $$ 1.1 \times 10^{10} $$ J confirms the value i
 
 **Strategy**
 
-We use the work-energy theorem: the net work done equals the change in kinetic energy. The work done by the braking force is $$ W = -Fd $$ (negative because it opposes motion), and this must equal the change in kinetic energy, which is $$ \Delta \KE = 0 - \frac{1}{2}mv_{0}^{2} = -\frac{1}{2}mv_{0}^{2} $$.
+We use the work-energy theorem: the net work done equals the change in kinetic energy. The work done by the braking force is $$ W = -Fd $$ (negative because it opposes motion), and this must equal the change in kinetic energy, which is $$ \Delta \KE = 0 - \frac{1}{2}mv*{0}^{2} = -\frac{1}{2}mv*{0}^{2} $$.
 
 **Solution for (a)**
 
-First, convert the speed: $$ v_{0} = 90.0\text{ km/h} = 90.0 \times \frac{1000\m}{3600\s} = 25.0\ms $$
+First, convert the speed: $$ v\_{0} = 90.0\text{ km/h} = 90.0 \times \frac{1000\m}{3600\s} = 25.0\ms $$
 
 The initial kinetic energy is:
 
@@ -574,7 +574,7 @@ The initial kinetic energy is:
  $$ \KE_{0} = \frac{1}{2}(950\kg)(25.0\ms)^{2} = 2.97 \times 10^{5}\J $$
 </div>
 
-Using the work-energy theorem ($$ W_{\text{net}} = \Delta \KE $$):
+Using the work-energy theorem ($$ W\_{\text{net}} = \Delta \KE $$):
 
 <div class="equation">
  $$ -Fd = -\KE_{0} $$
@@ -723,7 +723,7 @@ force of 30.0 N against him.
 
 **Strategy**
 
-The net work done equals the change in kinetic energy. The net work is the work done by the sprinter minus the work done by the headwind: $$ W_{\text{net}} = (F_{\text{sprinter}} - F_{\text{wind}})d = \Delta \KE $$.
+The net work done equals the change in kinetic energy. The net work is the work done by the sprinter minus the work done by the headwind: $$ W*{\text{net}} = (F*{\text{sprinter}} - F\_{\text{wind}})d = \Delta \KE $$.
 
 **Solution**
 
@@ -772,4 +772,5 @@ kinetic energy
 : the energy an object has by reason of its motion, equal to $$ \frac{1}{2}m
 v^{2} $$ for the translational (i.e., non-rotational) motion of an object of
 mass $$ m $$ moving at speed $$ v $$
+
 </div>

@@ -24,7 +24,7 @@ in turn exerts force on charges, causing current.
 The current that flows through most substances is directly proportional to the
 voltage $$V $$ applied to it. The German physicist Georg Simon Ohm (1787–1854)
 was the first to demonstrate experimentally that the current in a metal wire
-is *directly proportional to the voltage applied*\:
+is _directly proportional to the voltage applied_\:
 
 <div class="equation" >
  $$I\propto V\text{.} $$
@@ -38,7 +38,7 @@ phenomenon. Such a linear relationship doesn’t always occur.
 ### Resistance and Simple Circuits
 
 If voltage drives current, what impedes it? The electric property that impedes
-current (crudely similar to friction and air resistance) is called **resistance**  $$R $$ . Collisions of moving charges with atoms and molecules in
+current (crudely similar to friction and air resistance) is called **resistance** $$R $$ . Collisions of moving charges with atoms and molecules in
 a substance transfer energy to the substance and limit current. Resistance is
 defined as inversely proportional to current, or
 
@@ -73,7 +73,7 @@ circuit** has a single voltage source and a single resistor. The wires
 connecting the voltage source to the resistor can be assumed to have negligible
 resistance, or their resistance can be included in $$R $$.
 
-![The figure describes a simple electric circuit with a battery connected to a resistance R. The direction of current is shown to emerge from the positive terminal of a battery of voltage V, pass through the resistor, and enter the negative terminal of the battery. The current I in the circuit is V divided by R, moving in a clockwise direction.](../resources/Figure_20_02_01.jpg "A simple electric circuit in which a closed path for current to flow is supplied by conductors (usually metal wires) connecting a load to the terminals of a battery, represented by the red parallel lines. The zigzag symbol represents the single resistor and includes any resistance in the connections to the voltage source.")
+![The figure describes a simple electric circuit with a battery connected to a resistance R. The direction of current is shown to emerge from the positive terminal of a battery of voltage V, pass through the resistor, and enter the negative terminal of the battery. The current I in the circuit is V divided by R, moving in a clockwise direction.](../resources/Figure_20_02_01.jpg 'A simple electric circuit in which a closed path for current to flow is supplied by conductors (usually metal wires) connecting a load to the terminals of a battery, represented by the red parallel lines. The zigzag symbol represents the single resistor and includes any resistance in the connections to the voltage source.')
 {: #Figure1}
 
 <div id="Example1" class="example" markdown="1">
@@ -138,7 +138,7 @@ $$\text{PE}=q\Delta V $$ , and the same $$q $$ flows through each. Thus the
 energy supplied by the voltage source and the energy converted by the resistor
 are equal. (See [[Figure 2]](#Figure2).)
 
-![The figure shows a simple electric circuit. A battery is connected to a resistor with resistance R, and a voltmeter is connected across the resistor. The direction of current is shown to emerge from the positive terminal of the battery of voltage V, pass through the resistor, and enter the negative terminal of the battery, in a clockwise direction. The voltage V in the circuit equals I R, which equals 18 volts.](../resources/Figure_20_02_02.jpg "The voltage drop across a resistor in a simple circuit equals the voltage output of the battery.")
+![The figure shows a simple electric circuit. A battery is connected to a resistor with resistance R, and a voltmeter is connected across the resistor. The direction of current is shown to emerge from the positive terminal of the battery of voltage V, pass through the resistor, and enter the negative terminal of the battery, in a clockwise direction. The voltage V in the circuit equals I R, which equals 18 volts.](../resources/Figure_20_02_02.jpg 'The voltage drop across a resistor in a simple circuit equals the voltage output of the battery.')
 {: #Figure2}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -163,16 +163,16 @@ See how the equation form of Ohm\'s law relates to a simple circuit. Adjust the 
 
 ### Section Summary
 
-* A simple circuit *is* one in which there is a single voltage source and a
+- A simple circuit _is_ one in which there is a single voltage source and a
   single resistance.
-* One statement of Ohm’s law gives the relationship between current $$I $$ ,
+- One statement of Ohm’s law gives the relationship between current $$I $$ ,
   voltage $$V $$ , and resistance $$R $$ in a simple circuit to be
   $$I=\frac{V}{R}. $$
-* Resistance has units of ohms (
-  $$\text{Ω} $$ )  , related to volts and amperes by $$1 \Omega =1 \text{V/A} $$
+- Resistance has units of ohms (
+  $$\text{Ω} $$ ) , related to volts and amperes by $$1 \Omega =1 \text{V/A} $$
   .
 
-* There is a voltage or $$IR $$ drop across a resistor, caused by the current
+- There is a voltage or $$IR $$ drop across a resistor, caused by the current
   flowing through it, given by $$V=IR $$ .
 
 ### Conceptual Questions
@@ -344,13 +344,13 @@ A current of 0.200 mA (or $$2.00 \times 10^{-4}$$ A) flows through the insulator
 {: class="glossary-title"}
 
 Ohm’s law
-: an empirical relation stating that the current *I* is proportional to the
-potential difference *V*, *∝ V*; it is often written as *I = V/R*, where *R* is
+: an empirical relation stating that the current _I_ is proportional to the
+potential difference _V_, _∝ V_; it is often written as _I = V/R_, where _R_ is
 the resistance
 
 resistance
 : the electric property that impedes current; for ohmic materials, it is the
-ratio of voltage to current, *R = V/I*
+ratio of voltage to current, _R = V/I_
 
 ohm
 : the unit of resistance, given by 1Ω = 1 V/A

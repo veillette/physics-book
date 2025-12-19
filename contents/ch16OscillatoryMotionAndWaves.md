@@ -5,7 +5,7 @@ sectionNumber: 0
 chapterNumber: 16
 ---
 
-![In the figure a couple and their son are sitting alongside a beach in the evening time, around a wood-lit fire. The man is playing a guitar.](../resources/Figure_16_00_01.jpg "There are at least four types of waves in this picture&#x2014;only the water waves are evident. There are also sound waves, light waves, and waves on the guitar strings. (credit: John Norton)")
+![In the figure a couple and their son are sitting alongside a beach in the evening time, around a wood-lit fire. The man is playing a guitar.](../resources/Figure_16_00_01.jpg 'There are at least four types of waves in this picture—only the water waves are evident. There are also sound waves, light waves, and waves on the guitar strings. (credit: John Norton)')
 {: #Figure1}
 
 What do an ocean buoy, a child in a swing, the cone inside a speaker, a guitar,
@@ -20,8 +20,8 @@ pluck it.
 Some oscillations create **waves**. A guitar creates sound waves. You can make
 water waves in a swimming pool by slapping the water with your hand. You can no
 doubt think of other types of waves. Some, such as water waves, are visible.
-Some, such as sound waves, are not. But *every wave is a disturbance that moves
-from its source and carries energy*. Other examples of waves include earthquakes
+Some, such as sound waves, are not. But _every wave is a disturbance that moves
+from its source and carries energy_. Other examples of waves include earthquakes
 and visible light. Even subatomic particles, such as electrons, can behave like
 waves.
 

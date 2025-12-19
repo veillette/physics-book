@@ -11,7 +11,7 @@ chapterNumber: 2
 
 </div>
 
-![Close-up photo of a hand writing in a notebook. On top of the notebook is a graphing calculator.](../resources/Figure_02_06_01.jpg "Problem-solving skills are essential to your success in Physics. (credit: scui3asteveo, Flickr)")
+![Close-up photo of a hand writing in a notebook. On top of the notebook is a graphing calculator.](../resources/Figure_02_06_01.jpg 'Problem-solving skills are essential to your success in Physics. (credit: scui3asteveo, Flickr)')
 {: #Figure1}
 
 Problem-solving skills are obviously essential to success in a quantitative
@@ -32,8 +32,8 @@ meaningful. A certain amount of creativity and insight is required as well.
 
 #### Step 1
 
-*Examine the situation to determine which physical principles are involved*. It
-often helps to *draw a simple sketch* at the outset. You will also need to
+_Examine the situation to determine which physical principles are involved_. It
+often helps to _draw a simple sketch_ at the outset. You will also need to
 decide which direction is positive and note that on your sketch. Once you have
 identified the physical principles, it is much easier to find and apply the
 equations representing those principles. Although finding the correct equation
@@ -43,8 +43,8 @@ understanding of a problem, a numerical solution is meaningless.
 
 #### Step 2
 
-*Make a list of what is given or can be inferred from the problem as stated (
-identify the knowns)*. Many problems are stated very succinctly and require some
+_Make a list of what is given or can be inferred from the problem as stated (
+identify the knowns)_. Many problems are stated very succinctly and require some
 inspection to determine what is known. A sketch can also be very useful at this
 point. Formally identifying the knowns is of particular importance in applying
 physics to real-world situations. Remember, “stopped” means velocity is zero,
@@ -52,13 +52,13 @@ and we often can take initial time and position as zero.
 
 #### Step 3
 
-*Identify exactly what needs to be determined in the problem (identify the
-unknowns)*. In complex problems, especially, it is not always obvious what needs
+_Identify exactly what needs to be determined in the problem (identify the
+unknowns)_. In complex problems, especially, it is not always obvious what needs
 to be found or in what sequence. Making a list can help.
 
 #### Step 4
 
-*Find an equation or set of equations that can help you solve the problem*. Your
+_Find an equation or set of equations that can help you solve the problem_. Your
 list of knowns and unknowns can help here. It is easiest if you can find
 equations that contain only one unknown—that is, all of the other variables are
 known, so you can easily solve for the unknown. If the equation contains more
@@ -70,8 +70,8 @@ more) different equations to get the final answer.
 
 #### Step 5
 
-*Substitute the knowns along with their units into the appropriate equation, and
-obtain numerical solutions complete with units*. This step produces the
+_Substitute the knowns along with their units into the appropriate equation, and
+obtain numerical solutions complete with units_. This step produces the
 numerical answer; it also provides a check on units that can help you find
 errors. If the units of the answer are incorrect, then an error has been made.
 However, be warned that correct units do not guarantee that the numerical part
@@ -79,7 +79,7 @@ of the answer is also correct.
 
 #### Step 6
 
-*Check the answer to see if it is reasonable: Does it make sense?* This final
+_Check the answer to see if it is reasonable: Does it make sense?_ This final
 step is extremely important—the goal of physics is to accurately describe
 nature. To see if the answer is reasonable, check both its magnitude and its
 sign, in addition to its units. Your judgment will improve as you solve more and
@@ -119,8 +119,8 @@ if it is not, to determine what is the cause.
 
 #### Step 1
 
-*Solve the problem using strategies as outlined and in the format followed in
-the worked examples in the text*. In the example given in the preceding
+_Solve the problem using strategies as outlined and in the format followed in
+the worked examples in the text_. In the example given in the preceding
 paragraph, you would identify the givens as the acceleration and time and use
 the equation below to find the unknown final velocity. That is,
 
@@ -130,7 +130,7 @@ the equation below to find the unknown final velocity. That is,
 
 #### Step 2
 
-*Check to see if the answer is reasonable*. Is it too large or too small, or
+_Check to see if the answer is reasonable_. Is it too large or too small, or
 does it have the wrong sign, improper units, …? In this case, you may need to
 convert meters per second into a more familiar unit, such as miles per hour.
 
@@ -147,8 +147,8 @@ large.
 
 #### Step 3
 
-*If the answer is unreasonable, look for what specifically could cause the
-identified difficulty*. In the example of the runner, there are only two
+_If the answer is unreasonable, look for what specifically could cause the
+identified difficulty_. In the example of the runner, there are only two
 assumptions that are suspect. The acceleration could be too great or the time
 too long. First look at the acceleration and think about what the number means.
 If someone accelerates at $$ 0.40 \mss $$, their velocity is increasing by 0.4
@@ -158,24 +158,24 @@ for 100 s (almost two minutes).
 
 ### Section Summary
 
-* *The six basic problem solving steps for physics are:*
+- _The six basic problem solving steps for physics are:_
 
-  *Step 1*. Examine the situation to determine which physical principles are
+  _Step 1_. Examine the situation to determine which physical principles are
   involved.
 
-  *Step 2*. Make a list of what is given or can be inferred from the problem as
+  _Step 2_. Make a list of what is given or can be inferred from the problem as
   stated (identify the knowns).
 
-  *Step 3*. Identify exactly what needs to be determined in the problem (
+  _Step 3_. Identify exactly what needs to be determined in the problem (
   identify the unknowns).
 
-  *Step 4*. Find an equation or set of equations that can help you solve the
+  _Step 4_. Find an equation or set of equations that can help you solve the
   problem.
 
-  *Step 5*. Substitute the knowns along with their units into the appropriate
+  _Step 5_. Substitute the knowns along with their units into the appropriate
   equation, and obtain numerical solutions complete with units.
 
-  *Step 6*. Check the answer to see if it is reasonable: Does it make sense?
+  _Step 6_. Check the answer to see if it is reasonable: Does it make sense?
 
 ### Conceptual Questions
 

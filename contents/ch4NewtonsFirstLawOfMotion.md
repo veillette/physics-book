@@ -28,9 +28,9 @@ Note the repeated use of the verb “remains.” We can think of this law as
 preserving the status quo of motion.
 
 Rather than contradicting our experience, **Newton’s first law of motion**
-states that there must be a *cause* (which is a net external force) *for there
-to be any change in velocity (either a change in magnitude or direction)*. We
-will define *net external force* in the next section. An object sliding across a
+states that there must be a _cause_ (which is a net external force) _for there
+to be any change in velocity (either a change in magnitude or direction)_. We
+will define _net external force_ in the next section. An object sliding across a
 table or floor slows down due to the net force of friction acting on the object.
 If friction disappeared, would the object still slow down?
 
@@ -41,7 +41,7 @@ spray the surface with talcum powder to make the surface smoother, the object
 slides farther. If we make the surface even smoother by rubbing lubricating oil
 on it, the object slides farther yet. Extrapolating to a frictionless surface,
 we can imagine the object sliding in a straight line indefinitely. Friction is
-thus the *cause* of the slowing (
+thus the _cause_ of the slowing (
 consistent with Newton’s first law). The object would not slow down at all if
 friction were completely eliminated. Consider an air hockey table. When the air
 is turned off, the puck slides only a short distance before friction slows it to
@@ -53,8 +53,8 @@ object will slow down. Friction is an external force.
 Newton’s first law is completely general and can be applied to anything from an
 object sliding on a table to a satellite in orbit to blood pumped from the
 heart. Experiments have thoroughly verified that any change in velocity (speed
-or direction) must be caused by an external force. The idea of *generally
-applicable or universal laws* is important not only here—it is a basic feature
+or direction) must be caused by an external force. The idea of _generally
+applicable or universal laws_ is important not only here—it is a basic feature
 of all laws of physics. Identifying these laws is like recognizing patterns in
 nature from which further patterns can be discovered. The genius of Galileo, who
 first developed the idea for the first law, and Newton, who clarified it, was to
@@ -101,13 +101,13 @@ They are equal. A kilogram of one substance is equal in mass to a kilogram of an
 
 ### Section Summary
 
-* **Newton’s first law of motion** states that a body at rest remains at rest,
+- **Newton’s first law of motion** states that a body at rest remains at rest,
   or, if in motion, remains in motion at a constant velocity unless acted on by
   a net external force. This is also known as the
   **law of inertia**.
-* **Inertia** is the tendency of an object to remain at rest or remain in
+- **Inertia** is the tendency of an object to remain at rest or remain in
   motion. Inertia is related to an object’s mass.
-* **Mass** is the quantity of matter in a substance.
+- **Mass** is the quantity of matter in a substance.
 
 ### Conceptual Questions
 
