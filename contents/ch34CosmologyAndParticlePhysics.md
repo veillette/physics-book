@@ -13,8 +13,8 @@ chapterNumber: 34
 Look at the sky on some clear night when you are away from city lights. There
 you will see thousands of individual stars and a faint glowing background of
 millions more. The Milky Way, as it has been called since ancient times, is an
-arm of our galaxy of stars—the word *galaxy* coming from the Greek word *
-galaxias*, meaning milky. We know a great deal about our Milky Way galaxy and of
+arm of our galaxy of stars—the word _galaxy_ coming from the Greek word _
+galaxias_, meaning milky. We know a great deal about our Milky Way galaxy and of
 the billions of other galaxies beyond its fringes. But they still provoke wonder
 and awe (see [[Figure 1]](#Figure1)). And there are still many questions to be
 answered. Most remarkable when we view the universe on the large scale is that
@@ -22,7 +22,7 @@ once again explanations of its character and evolution are tied to the very
 small scale. Particle physics and the questions being asked about the very small
 scales may also have their answers in the very large scales.
 
-![The photo shows a lot of small bright spots of different shapes and sizes on a black background. Some spots show evidence of an interior spiral structure whereas others are more uniform.](../resources/Figure_34_01_01.jpg "Take a moment to contemplate these clusters of galaxies, photographed by the Hubble Space Telescope. Trillions of stars linked by gravity in fantastic forms, glowing with light and showing evidence of undiscovered matter. What are they like, these myriad stars? How did they evolve? What can they tell us of matter, energy, space, and time? (credit: NASA, ESA, K. Sharon (Tel Aviv University) and E. Ofek (Caltech))")
+![The photo shows a lot of small bright spots of different shapes and sizes on a black background. Some spots show evidence of an interior spiral structure whereas others are more uniform.](../resources/Figure_34_01_01.jpg 'Take a moment to contemplate these clusters of galaxies, photographed by the Hubble Space Telescope. Trillions of stars linked by gravity in fantastic forms, glowing with light and showing evidence of undiscovered matter. What are they like, these myriad stars? How did they evolve? What can they tell us of matter, energy, space, and time? (credit: NASA, ESA, K. Sharon (Tel Aviv University) and E. Ofek (Caltech))')
 {: #Figure1}
 
 As has been noted in numerous Things Great and Small vignettes, this is not the
@@ -50,7 +50,7 @@ See [[Figure 2]](#Figure2).) Evidence strongly suggests the existence of a
 large amount of additional matter in galaxies that does not produce light—the
 mysterious dark matter we shall later discuss.
 
-![The figure contains three images of the Milky Way galaxy. The first is a side view from outer space and shows a long thin grouping of bright stars against a black background. In the middle of this thin line of stars is a bright yellow ball that looks a bit like an egg yolk in the middle of the egg white. The length of the thin line is given as one hundred thousand light years and it thickness is given as two thousand light years. The diameter of the egg-yolk-like cluster in the middle is given as ten thousand light years. Thirty thousand light years to the left of the center of the egg yolk is the Sun. The second image is a view from above of the Milky Way galaxy and shows several spiral arms twisting outward from the center egg-yolk form. The last image is a photograph from Earth of the Milky Way galaxy in the nighttime sky. It shows a dusting of stars in the sky, with a slight concentration of star dust forming a horizontal stripe across the image.](../resources/Figure_34_01_02.jpg "The Milky Way galaxy is typical of large spiral galaxies in its size, its shape, and the presence of gas and dust. We are fortunate to be in a location where we can see out of the galaxy and observe the vastly larger and fascinating universe around us. (a) Side view. (b) View from above. (c) The Milky Way as seen from Earth. (credits: (a) NASA, (b) Nick Risinger, (c) Andy)")
+![The figure contains three images of the Milky Way galaxy. The first is a side view from outer space and shows a long thin grouping of bright stars against a black background. In the middle of this thin line of stars is a bright yellow ball that looks a bit like an egg yolk in the middle of the egg white. The length of the thin line is given as one hundred thousand light years and it thickness is given as two thousand light years. The diameter of the egg-yolk-like cluster in the middle is given as ten thousand light years. Thirty thousand light years to the left of the center of the egg yolk is the Sun. The second image is a view from above of the Milky Way galaxy and shows several spiral arms twisting outward from the center egg-yolk form. The last image is a photograph from Earth of the Milky Way galaxy in the nighttime sky. It shows a dusting of stars in the sky, with a slight concentration of star dust forming a horizontal stripe across the image.](../resources/Figure_34_01_02.jpg 'The Milky Way galaxy is typical of large spiral galaxies in its size, its shape, and the presence of gas and dust. We are fortunate to be in a location where we can see out of the galaxy and observe the vastly larger and fascinating universe around us. (a) Side view. (b) View from above. (c) The Milky Way as seen from Earth. (credits: (a) NASA, (b) Nick Risinger, (c) Andy)')
 {: #Figure2}
 
 Distances are great even within our galaxy and are measured in light years (the
@@ -65,7 +65,7 @@ our local group, and we can see some individual stars in it with our larger
 telescopes. The most distant known galaxy is 14 billion light years from Earth—a
 truly incredible distance. (See [[Figure 3]](#Figure3).)
 
-![The first image shows a shining spiral cloud of light and dust. The second image contains three sub images. The first is a large scale view of numerous points of lights and light clouds against a black background. A small square appears in the upper left of the image, and the second image is the zoom-in of this square. In the center of this second image appears a small red dot, which is again boxed in by a square. The third image shows a zoomed-in view of the square from the second image and shows a hazy picture of a circular bright spot surrounded by darker regions.](../resources/Figure_34_01_03.jpg "(a) Andromeda is the closest large galaxy, at 2 million light years distance, and is very similar to our Milky Way. The blue regions harbor young and emerging stars, while dark streaks are vast clouds of gas and dust. A smaller satellite galaxy is clearly visible. (b) The box indicates what may be the most distant known galaxy, estimated to be 13 billion light years from us. It exists in a much older part of the universe. (credit: NASA, ESA, G. Illingworth (University of California, Santa Cruz), R. Bouwens (University of California, Santa Cruz and Leiden University), and the HUDF09 Team) ")
+![The first image shows a shining spiral cloud of light and dust. The second image contains three sub images. The first is a large scale view of numerous points of lights and light clouds against a black background. A small square appears in the upper left of the image, and the second image is the zoom-in of this square. In the center of this second image appears a small red dot, which is again boxed in by a square. The third image shows a zoomed-in view of the square from the second image and shows a hazy picture of a circular bright spot surrounded by darker regions.](../resources/Figure_34_01_03.jpg '(a) Andromeda is the closest large galaxy, at 2 million light years distance, and is very similar to our Milky Way. The blue regions harbor young and emerging stars, while dark streaks are vast clouds of gas and dust. A smaller satellite galaxy is clearly visible. (b) The box indicates what may be the most distant known galaxy, estimated to be 13 billion light years from us. It exists in a much older part of the universe. (credit: NASA, ESA, G. Illingworth (University of California, Santa Cruz), R. Bouwens (University of California, Santa Cruz and Leiden University), and the HUDF09 Team) ')
 {: #Figure3}
 
 Consider the fact that the light we receive from these vast distances has been
@@ -120,7 +120,7 @@ constant**. The Hubble constant is a central concept in cosmology. Its value is
 determined by taking the slope of a graph of velocity versus distance, obtained
 from red shift measurements, such as shown in [[Figure 4]](#Figure4). We shall
 use an approximate value of $${H}_{0}=20\text{km/s}\cdot \text{Mly}. $$ Thus,
-$$v={H}_{0}d $$ is an average behavior for all but the closest galaxies. For
+$$v={H}\_{0}d $$ is an average behavior for all but the closest galaxies. For
 example, a galaxy 100 Mly away (as determined by its size and brightness)
 typically moves away from us at a speed of $$v=\left(20\text{km/s}\cdot
 \text{Mly}\right)\left(100\text{Mly}\right)=2000\text{km/s}. $$ There can be
@@ -128,7 +128,8 @@ variations in this speed due to so-called local motions or interactions with
 neighboring galaxies. Conversely, if a galaxy is found to be moving away from us
 at speed of 100 000 km/s based on its red shift, it is at a distance
 
-$$d=v/{H}_{0}=\left(10 000\text{km/s}\right)/\left(20\text{km/s}\cdot
+$$
+d=v/{H}_{0}=\left(10 000\text{km/s}\right)/\left(20\text{km/s}\cdot
 \text{Mly}\right)=5000\text{Mly}=5\text{Gly} $$ or $$5 \times 10^{9} \text{ly}
 $$ . This last calculation is approximate, because it assumes the expansion rate
 was the same 5 billion years ago as now. A similar calculation in Hubble’s
@@ -282,7 +283,9 @@ Bang. While $$ 10^{-12} \text{s} $$ may seem to be negligibly close to the
 instant of creation, it is not. There are important stages before this time that
 are tied to the unification of forces. At those stages, the universe was at
 extremely high energies and average particle separations were smaller than we
-can achieve with accelerators. What happened in the early stages before $$
+can achieve with accelerators. What happened in the early stages before
+$$
+
 10^{-12} \text{s} $$ is crucial to all later stages and is possibly discerned by
 observing present conditions in the universe. One of these is the smoothness of
 the CMBR.
@@ -338,8 +341,8 @@ cosmological theories.
 
 Characteristics of the present universe may help us determine the validity of
 this intriguing idea. Additionally, the recent indications that the universe’s
-expansion rate may be *increasing* (see [Dark Matter and Closure](../contents/ch34DarkMatterAndClosure))
-could even imply that we are *in* another inflationary epoch.
+expansion rate may be _increasing_ (see [Dark Matter and Closure](../contents/ch34DarkMatterAndClosure))
+could even imply that we are _in_ another inflationary epoch.
 
 It is important to note that, if conditions such as those found in the early
 universe could be created in the laboratory, we would see the unification of
@@ -352,12 +355,12 @@ circumstances.
 
 ### Section Summary
 
-* Cosmology is the study of the character and evolution of the universe.
-* The two most important features of the universe are the cosmological red
+- Cosmology is the study of the character and evolution of the universe.
+- The two most important features of the universe are the cosmological red
   shifts of its galaxies being proportional to distance and its cosmic microwave
   background (CMBR). Both support the notion that there was a gigantic
   explosion, known as the Big Bang that created the universe.
-* Galaxies farther away than our local group have, on an average, a recessional
+- Galaxies farther away than our local group have, on an average, a recessional
   velocity given by
 
   <div class="equation" >
@@ -366,17 +369,18 @@ circumstances.
      where  $$d $$
      is the distance to the galaxy and  $${H}_{0} $$
      is the Hubble constant, taken to have the average value  $${H}_{0}=20 \text{km/s}\cdot \text{Mly}\text{.} $$
-* Explanations of the large-scale characteristics of the universe are intimately
+
+- Explanations of the large-scale characteristics of the universe are intimately
   tied to particle physics.
-* The dominance of matter over antimatter and the smoothness of the CMBR are two
+- The dominance of matter over antimatter and the smoothness of the CMBR are two
   characteristics that are tied to particle physics.
-* The epochs of the universe are known back to very shortly after the Big Bang,
+- The epochs of the universe are known back to very shortly after the Big Bang,
   based on known laws of physics.
-* The earliest epochs are tied to the unification of forces, with the
+- The earliest epochs are tied to the unification of forces, with the
   electroweak epoch being partially understood, the GUT epoch being speculative,
   and the TOE epoch being highly speculative since it involves an unknown single
   superforce.
-* The transition from GUT to electroweak is called spontaneous symmetry
+- The transition from GUT to electroweak is called spontaneous symmetry
   breaking. It released energy that caused the inflationary scenario, which in
   turn explains the smoothness of the CMBR.
 
@@ -652,7 +656,7 @@ Distances to the nearest stars (up to 500 ly away) can be measured by a techniqu
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
  $$89.999773\text{º} $$
- (many digits are used to show the difference between  $$90 ^\circ $$ )  
+ (many digits are used to show the difference between  $$90 ^\circ $$ )
 
 </div>
 </div>
@@ -675,7 +679,7 @@ problem in which you calculate the mass of that galaxy in kg and in multiples of
 the solar mass based on the velocity of the star and its distance from the
 center of the galaxy.
 
-![The figure shows a conical shape with a star at the vertex, the Sun at the center of the circular base, and the Earth revolving around the Sun along the perimeter of the base. The star is 4 light years above the Earth-Sun plane. When the Earth is to the far left of the Sun, the angle between the line segment from the Earth to the Sun and the line segment from the Earth to the star is called theta one. When the Earth is in the diametrically opposite position (that is, the far right position) the angle between the same two lines is labeled theta two. ](../resources/Figure_34_01_09.jpg "Distances to nearby stars are measured using triangulation, also called the parallax method. The angle of line of sight to the star is measured at intervals six months apart, and the distance is calculated by using the known diameter of the Earth&#x2019;s orbit. This can be done for stars up to about 500 ly away. ")
+![The figure shows a conical shape with a star at the vertex, the Sun at the center of the circular base, and the Earth revolving around the Sun along the perimeter of the base. The star is 4 light years above the Earth-Sun plane. When the Earth is to the far left of the Sun, the angle between the line segment from the Earth to the Sun and the line segment from the Earth to the star is called theta one. When the Earth is in the diametrically opposite position (that is, the far right position) the angle between the same two lines is labeled theta two. ](../resources/Figure_34_01_09.jpg 'Distances to nearby stars are measured using triangulation, also called the parallax method. The angle of line of sight to the star is measured at intervals six months apart, and the distance is calculated by using the known diameter of the Earth’s orbit. This can be done for stars up to about 500 ly away. ')
 {: #Figure9}
 
 </div>

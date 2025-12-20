@@ -50,8 +50,8 @@ A collision in which the objects stick together is sometimes called “perfectly
 
 </div>
 
-![The system of interest contains two equal masses with mass m. One moves to the right and the other moves to the left with the same magnitude of velocity represented by V. Due to this their total momentum and net force remains zero. The internal kinetic energy is mv power 2. After collision the system of interest has no net velocity, no total momentum and no internal kinetic energy. This is true for all inelastic collisions.](../resources/Figure_08_05_01.jpg "An inelastic one-dimensional two-object collision. Momentum is conserved, but internal kinetic energy is not conserved. (a) Two objects of equal mass initially head directly toward one another at the same speed.
-(b) The objects stick together (a perfectly inelastic collision), and so their final velocity is zero. The internal kinetic energy of the system changes in any inelastic collision and is reduced to zero in this example.")
+![The system of interest contains two equal masses with mass m. One moves to the right and the other moves to the left with the same magnitude of velocity represented by V. Due to this their total momentum and net force remains zero. The internal kinetic energy is mv power 2. After collision the system of interest has no net velocity, no total momentum and no internal kinetic energy. This is true for all inelastic collisions.](../resources/Figure_08_05_01.jpg 'An inelastic one-dimensional two-object collision. Momentum is conserved, but internal kinetic energy is not conserved. (a) Two objects of equal mass initially head directly toward one another at the same speed.
+(b) The objects stick together (a perfectly inelastic collision), and so their final velocity is zero. The internal kinetic energy of the system changes in any inelastic collision and is reduced to zero in this example.')
 {: #Figure1}
 
 <div class="example" markdown="1">
@@ -61,7 +61,7 @@ Calculating Velocity and Change in Kinetic Energy: Inelastic Collision of a Puck
 (a) Find the recoil velocity of a 70.0-kg ice hockey goalie, originally at rest, who catches a 0.150-kg hockey puck slapped at him at a velocity of 35.0 m/s.
 (b) How much kinetic energy is lost during the collision? Assume friction between the ice and the puck-goalie system is negligible. (See [Figure 2](#Figure2) )
 
-![The first picture shows an ice hockey goal keeper of mass m 2 bent on his knees, turning to the left on a frictionless ice surface with zero velocity and a hockey puck of mass m 1 and velocity V 1 moving toward the right. The total momentum of the system is p 1 which is the momentum of the puck and the net force is zero. The second picture shows the goalie to catch the puck. The puck moves with velocity V 1prime and the goalie with velocity V 2 prime and their magnitudes are equal. The momentum of the puck is p 1 prime and the goalie is p 2 prime. The total momentum remains same as before collision. But the kinetic energy after collision is lesser than the kinetic energy before collision. This is true for inelastic collisions.](../resources/Figure_08_05_02.jpg "An ice hockey goalie catches a hockey puck and recoils backward. The initial kinetic energy of the puck is almost entirely converted to thermal energy and sound in this inelastic collision.")
+![The first picture shows an ice hockey goal keeper of mass m 2 bent on his knees, turning to the left on a frictionless ice surface with zero velocity and a hockey puck of mass m 1 and velocity V 1 moving toward the right. The total momentum of the system is p 1 which is the momentum of the puck and the net force is zero. The second picture shows the goalie to catch the puck. The puck moves with velocity V 1prime and the goalie with velocity V 2 prime and their magnitudes are equal. The momentum of the puck is p 1 prime and the goalie is p 2 prime. The total momentum remains same as before collision. But the kinetic energy after collision is lesser than the kinetic energy before collision. This is true for inelastic collisions.](../resources/Figure_08_05_02.jpg 'An ice hockey goalie catches a hockey puck and recoils backward. The initial kinetic energy of the puck is almost entirely converted to thermal energy and sound in this inelastic collision.')
 {: #Figure2}
 
 **Strategy**
@@ -112,9 +112,9 @@ velocity, as we might expect.
 
 **Solution for (b)**
 
-Before the collision, the internal kinetic energy $$ \KE_{\text{int}} $$ of the
+Before the collision, the internal kinetic energy $$ \KE*{\text{int}} $$ of the
 system is that of the hockey puck, because the goalie is initially at rest.
-Therefore, $$ \KE_{\text{int}} $$ is initially
+Therefore, $$ \KE*{\text{int}} $$ is initially
 
 <div class="equation">
  $$ \begin{array}{lll}
@@ -144,7 +144,7 @@ where the minus sign indicates that the energy was lost.
 **Discussion for (b)**
 
 Nearly all the initial internal kinetic energy is lost in this perfectly
-inelastic collision. $$ \KE_{\text{int}} $$ is mostly converted to thermal
+inelastic collision. $$ \KE\_{\text{int}} $$ is mostly converted to thermal
 energy and sound.
 
 During some collisions, the objects do not stick together and less of the
@@ -206,7 +206,7 @@ with a velocity of $$-4.00 \ms $$.
 **Strategy**
 
 We can use conservation of momentum to find the final velocity of cart 2,
-because $$ F_{\text{net}}=0 $$
+because $$ F\_{\text{net}}=0 $$
 (the track is frictionless and the force of the spring is internal). Once this
 velocity is determined, we can compare the internal kinetic energy before and
 after the collision to see how much energy was released by the spring.
@@ -271,12 +271,12 @@ increases by 5.46 J. That energy was released by the spring.
 
 ### Section Summary
 
-* An inelastic collision is one in which the internal kinetic energy changes (it
+- An inelastic collision is one in which the internal kinetic energy changes (it
   is not conserved).
-* A collision in which the objects stick together is sometimes called perfectly
+- A collision in which the objects stick together is sometimes called perfectly
   inelastic because it reduces internal kinetic energy more than does any other
   type of inelastic collision.
-* Sports science and technologies also use physics concepts such as momentum and
+- Sports science and technologies also use physics concepts such as momentum and
   rotational motion and vibrations.
 
 ### Conceptual Questions
@@ -325,7 +325,7 @@ $$ \Delta p = m(v_f - v_i) = (0.240 \kg)(-2.40 \ms - 3.00 \ms) = (0.240 \kg)(-5.
 
 Apply the impulse-momentum theorem:
 
-$$ F_{\text{avg}} = \frac{\Delta p}{\Delta t} = \frac{-1.30 \kg \cdot \ms}{0.0150 \s} = -86.4 \N $$
+$$ F\_{\text{avg}} = \frac{\Delta p}{\Delta t} = \frac{-1.30 \kg \cdot \ms}{0.0150 \s} = -86.4 \N $$
 
 The average force on the ball is 86.4 N directed away from the bumper (opposite to the ball's initial motion).
 
@@ -354,6 +354,7 @@ $$ \text{Percent remaining} = \frac{\KE_f}{\KE_i} \times 100\% = \frac{0.691 \J}
 **Discussion**
 
 Although the ball retains 80% of its speed, it only retains 64% of its kinetic energy. This is because kinetic energy depends on the square of velocity: $$ (0.80)^2 = 0.64 $$. The lost energy is converted to heat and sound during the collision with the bumper.
+
 </div>
 </div>
 
@@ -404,6 +405,7 @@ The kinetic energy lost during the catch is 266 J.
 **Discussion**
 
 More than half (55%) of the original kinetic energy is lost in this perfectly inelastic collision. This energy goes into the work done by the skaters' muscles and joints as they absorb the impact, plus some heat and sound. A trained pair skater knows how to absorb this impact safely while maintaining an elegant appearance.
+
 </div>
 </div>
 
@@ -473,6 +475,7 @@ The kinetic energy lost is approximately 220-223 J.
 **Discussion**
 
 When the ball is coming toward the player (opposite directions), approximately 4 times more kinetic energy is lost (223 J vs. 56 J). This lost energy is absorbed by the player's hands and arms as they decelerate and then accelerate the ball to match the player's velocity. This is why catching a ball thrown against your direction of motion hurts more—more energy must be dissipated in your body.
+
 </div>
 </div>
 
@@ -497,11 +500,11 @@ This is an "explosion" type problem where an initially stationary system separat
 
 Initial momentum is zero (ship and shell at rest). Apply conservation of momentum:
 
-$$ 0 = m_{\text{ship}} v_{\text{ship}} + m_{\text{shell}} v_{\text{shell}} $$
+$$ 0 = m*{\text{ship}} v*{\text{ship}} + m*{\text{shell}} v*{\text{shell}} $$
 
-$$ v_{\text{ship}} = -\frac{m_{\text{shell}} v_{\text{shell}}}{m_{\text{ship}}} $$
+$$ v*{\text{ship}} = -\frac{m*{\text{shell}} v*{\text{shell}}}{m*{\text{ship}}} $$
 
-$$ v_{\text{ship}} = -\frac{(1100 \kg)(575 \ms)}{6.00 \times 10^{7} \kg} = -1.05 \times 10^{-2} \ms $$
+$$ v\_{\text{ship}} = -\frac{(1100 \kg)(575 \ms)}{6.00 \times 10^{7} \kg} = -1.05 \times 10^{-2} \ms $$
 
 The recoil velocity of the battleship is $$ 1.05 \times 10^{-2} \ms $$ (about 1 cm/s) in the direction opposite to the shell.
 
@@ -511,7 +514,7 @@ Initial kinetic energy: $$ \KE_i = 0 $$ (both at rest)
 
 Final kinetic energy:
 
-$$ \KE_f = \frac{1}{2}m_{\text{shell}} v_{\text{shell}}^2 + \frac{1}{2}m_{\text{ship}} v_{\text{ship}}^2 $$
+$$ \KE*f = \frac{1}{2}m*{\text{shell}} v*{\text{shell}}^2 + \frac{1}{2}m*{\text{ship}} v\_{\text{ship}}^2 $$
 
 $$ \KE_f = \frac{1}{2}(1100 \kg)(575 \ms)^2 + \frac{1}{2}(6.00 \times 10^{7} \kg)(1.05 \times 10^{-2} \ms)^2 $$
 
@@ -522,6 +525,7 @@ The increase in internal kinetic energy is $$ 1.82 \times 10^{8} \J $$ (182 MJ).
 **Discussion**
 
 The ship's recoil velocity is tiny (1 cm/s) despite the massive momentum transfer because of the ship's enormous mass. Nearly all (99.998%) of the kinetic energy goes to the shell rather than the ship. The chemical energy released by the gunpowder is considerably larger than 182 MJ—much energy is lost to heat, sound, and deforming the gun barrel.
+
 </div>
 </div>
 
@@ -578,7 +582,7 @@ This is a perfectly inelastic collision where the scrap metal (initially at rest
 
 The scrap metal has no horizontal velocity before landing in the car. Apply conservation of momentum:
 
-$$ m_{\text{car}} v_{\text{car}} + m_{\text{scrap}} v_{\text{scrap}} = (m_{\text{car}} + m_{\text{scrap}}) v_f $$
+$$ m*{\text{car}} v*{\text{car}} + m*{\text{scrap}} v*{\text{scrap}} = (m*{\text{car}} + m*{\text{scrap}}) v_f $$
 
 $$ (30000 \kg)(0.850 \ms) + (110000 \kg)(0) = (140000 \kg) v_f $$
 
@@ -607,6 +611,7 @@ Approximately 8500 J of kinetic energy is lost.
 **Discussion**
 
 The car slows dramatically from 0.850 m/s to 0.182 m/s—a reduction of nearly 80%—because the added mass is almost 4 times the original car mass. About 78% of the kinetic energy is lost, converted to heat and sound as the scrap metal settles and deforms in the car.
+
 </div>
 </div>
 
@@ -662,6 +667,7 @@ The satellite moves at 0.704 m/s and the launcher remains move at 2.25 m/s in th
 **Discussion**
 
 The lighter launcher remains move faster (2.25 m/s vs 0.704 m/s) because momentum must be conserved. The velocity ratio (3.2) equals the inverse mass ratio (4800/1500). The lighter object receives more of the kinetic energy because $$ \KE \propto v^2 $$ and the lighter object moves faster.
+
 </div>
 </div>
 
@@ -683,15 +689,15 @@ We use conservation of momentum to find recoil velocities. The rifle (or rifle-s
 
 Conservation of momentum (initially at rest):
 
-$$ m_{\text{bullet}} v_{\text{bullet}} + m_{\text{rifle}} v_{\text{rifle}} = 0 $$
+$$ m*{\text{bullet}} v*{\text{bullet}} + m*{\text{rifle}} v*{\text{rifle}} = 0 $$
 
-$$ v_{\text{rifle}} = -\frac{m_{\text{bullet}} v_{\text{bullet}}}{m_{\text{rifle}}} = -\frac{(0.0250 \kg)(550 \ms)}{3.00 \kg} = -4.58 \ms $$
+$$ v*{\text{rifle}} = -\frac{m*{\text{bullet}} v*{\text{bullet}}}{m*{\text{rifle}}} = -\frac{(0.0250 \kg)(550 \ms)}{3.00 \kg} = -4.58 \ms $$
 
 The rifle recoils at 4.58 m/s away from the bullet.
 
 **Solution for (b)**
 
-$$ \KE_{\text{rifle}} = \frac{1}{2} m_{\text{rifle}} v_{\text{rifle}}^2 = \frac{1}{2}(3.00 \kg)(4.58 \ms)^2 = 31.5 \J $$
+$$ \KE*{\text{rifle}} = \frac{1}{2} m*{\text{rifle}} v\_{\text{rifle}}^2 = \frac{1}{2}(3.00 \kg)(4.58 \ms)^2 = 31.5 \J $$
 
 The rifle gains 31.5 J of kinetic energy.
 
@@ -699,13 +705,13 @@ The rifle gains 31.5 J of kinetic energy.
 
 With effective mass of 28.0 kg (rifle + shoulder):
 
-$$ v_{\text{system}} = -\frac{(0.0250 \kg)(550 \ms)}{28.0 \kg} = -0.491 \ms $$
+$$ v\_{\text{system}} = -\frac{(0.0250 \kg)(550 \ms)}{28.0 \kg} = -0.491 \ms $$
 
 The recoil velocity is 0.491 m/s when held tightly.
 
 **Solution for (d)**
 
-$$ \KE_{\text{system}} = \frac{1}{2}(28.0 \kg)(0.491 \ms)^2 = 3.38 \J $$
+$$ \KE\_{\text{system}} = \frac{1}{2}(28.0 \kg)(0.491 \ms)^2 = 3.38 \J $$
 
 Only 3.38 J of kinetic energy is transferred to the rifle-shoulder combination.
 
@@ -722,6 +728,7 @@ The player has about 86 times more momentum than the football.
 **Discussion**
 
 Holding the rifle tightly reduces the recoil kinetic energy from 31.5 J to 3.38 J—a factor of 9.3 reduction! This dramatically reduces pain and bruising. The key insight is that the same momentum is absorbed, but spreading it across a larger mass reduces velocity and kinetic energy. Similarly, in football, the much more massive player absorbs the ball's momentum with minimal velocity change.
+
 </div>
 </div>
 
@@ -754,39 +761,40 @@ This is similar to an explosion problem: initial momentum is zero, and energy is
 
 Conservation of momentum (plutonium initially at rest):
 
-$$ m_{\text{He}} v_{\text{He}} + m_{\text{U}} v_{\text{U}} = 0 $$
+$$ m*{\text{He}} v*{\text{He}} + m*{\text{U}} v*{\text{U}} = 0 $$
 
-$$ v_{\text{U}} = -\frac{m_{\text{He}}}{m_{\text{U}}} v_{\text{He}} = -\frac{6.68 \times 10^{-27}}{3.92 \times 10^{-25}} v_{\text{He}} = -0.01704 v_{\text{He}} $$
+$$ v*{\text{U}} = -\frac{m*{\text{He}}}{m*{\text{U}}} v*{\text{He}} = -\frac{6.68 \times 10^{-27}}{3.92 \times 10^{-25}} v*{\text{He}} = -0.01704 v*{\text{He}} $$
 
 Total kinetic energy:
 
-$$ \frac{1}{2} m_{\text{He}} v_{\text{He}}^2 + \frac{1}{2} m_{\text{U}} v_{\text{U}}^2 = 8.40 \times 10^{-13} \J $$
+$$ \frac{1}{2} m*{\text{He}} v*{\text{He}}^2 + \frac{1}{2} m*{\text{U}} v*{\text{U}}^2 = 8.40 \times 10^{-13} \J $$
 
-Substituting $$ v_{\text{U}} = -0.01704 v_{\text{He}} $$:
+Substituting $$ v*{\text{U}} = -0.01704 v*{\text{He}} $$:
 
-$$ \frac{1}{2}(6.68 \times 10^{-27}) v_{\text{He}}^2 + \frac{1}{2}(3.92 \times 10^{-25})(0.01704)^2 v_{\text{He}}^2 = 8.40 \times 10^{-13} $$
+$$ \frac{1}{2}(6.68 \times 10^{-27}) v*{\text{He}}^2 + \frac{1}{2}(3.92 \times 10^{-25})(0.01704)^2 v*{\text{He}}^2 = 8.40 \times 10^{-13} $$
 
-$$ (3.34 \times 10^{-27} + 5.69 \times 10^{-29}) v_{\text{He}}^2 = 8.40 \times 10^{-13} $$
+$$ (3.34 \times 10^{-27} + 5.69 \times 10^{-29}) v\_{\text{He}}^2 = 8.40 \times 10^{-13} $$
 
-$$ (3.40 \times 10^{-27}) v_{\text{He}}^2 = 8.40 \times 10^{-13} $$
+$$ (3.40 \times 10^{-27}) v\_{\text{He}}^2 = 8.40 \times 10^{-13} $$
 
-$$ v_{\text{He}} = \sqrt{\frac{8.40 \times 10^{-13}}{3.40 \times 10^{-27}}} = 1.57 \times 10^{7} \ms $$
+$$ v\_{\text{He}} = \sqrt{\frac{8.40 \times 10^{-13}}{3.40 \times 10^{-27}}} = 1.57 \times 10^{7} \ms $$
 
-$$ v_{\text{U}} = -0.01704 (1.57 \times 10^{7} \ms) = -2.68 \times 10^{5} \ms $$
+$$ v\_{\text{U}} = -0.01704 (1.57 \times 10^{7} \ms) = -2.68 \times 10^{5} \ms $$
 
 The helium nucleus moves at $$ 1.57 \times 10^{7} \ms $$ and the uranium nucleus moves at $$ 2.68 \times 10^{5} \ms $$ in the opposite direction.
 
 **Solution for (b)**
 
-$$ \KE_{\text{He}} = \frac{1}{2}(6.68 \times 10^{-27} \kg)(1.57 \times 10^{7} \ms)^2 = 8.23 \times 10^{-13} \J $$
+$$ \KE\_{\text{He}} = \frac{1}{2}(6.68 \times 10^{-27} \kg)(1.57 \times 10^{7} \ms)^2 = 8.23 \times 10^{-13} \J $$
 
-$$ \KE_{\text{U}} = \frac{1}{2}(3.92 \times 10^{-25} \kg)(2.68 \times 10^{5} \ms)^2 = 1.41 \times 10^{-14} \J $$
+$$ \KE\_{\text{U}} = \frac{1}{2}(3.92 \times 10^{-25} \kg)(2.68 \times 10^{5} \ms)^2 = 1.41 \times 10^{-14} \J $$
 
 The helium nucleus carries away $$ 8.23 \times 10^{-13} \J $$ (98%) and the uranium nucleus carries away $$ 1.41 \times 10^{-14} \J $$ (2%).
 
 **Discussion**
 
 The light helium nucleus (alpha particle) carries away 98% of the energy while the massive uranium nucleus carries only 2%. This is because, for equal momenta, kinetic energy is inversely proportional to mass ($$ \KE = p^2/2m $$). The alpha particle travels at about 5% the speed of light!
+
 </div>
 </div>
 
@@ -859,6 +867,7 @@ The velocity of the players just after impact is 0.798 m/s in the direction of t
 **Discussion**
 
 Despite the second player being heavier (115 kg vs 95 kg), the first player's greater speed (6.00 m/s vs 3.50 m/s) gives him more momentum (570 vs 402.5 kg·m/s). The final velocity is in the direction of the player with more momentum, but the combined system moves much slower than either initial velocity. This is a dramatic collision—both players essentially stop each other, which explains why such collisions can cause injuries.
+
 </div>
 </div>
 
@@ -877,7 +886,7 @@ This is a perfectly inelastic collision where the trash can (initially at rest) 
 
 Apply conservation of momentum:
 
-$$ m_{\text{truck}} v_{\text{truck}} + m_{\text{can}} v_{\text{can}} = (m_{\text{truck}} + m_{\text{can}}) v_f $$
+$$ m*{\text{truck}} v*{\text{truck}} + m*{\text{can}} v*{\text{can}} = (m*{\text{truck}} + m*{\text{can}}) v_f $$
 
 Since the trash can is initially at rest:
 
@@ -892,6 +901,7 @@ The speed of the garbage truck after hitting the trash can is 24.8 m/s.
 **Discussion**
 
 The truck barely slows down (from 25.0 to 24.8 m/s, a decrease of only 0.8%) because the trash can's mass is only 0.67% of the truck's mass. The trash can has negligible effect on the massive truck's motion. This example illustrates why it's important for pedestrians and small objects to stay clear of large moving vehicles—the vehicle's motion is essentially unaffected while the smaller object absorbs enormous energy changes.
+
 </div>
 </div>
 
@@ -909,7 +919,7 @@ This is a perfectly inelastic collision. The performer (initially at rest on fri
 
 Apply conservation of momentum:
 
-$$ m_{\text{ball}} v_{\text{ball}} + m_{\text{performer}} v_{\text{performer}} = (m_{\text{ball}} + m_{\text{performer}}) v_f $$
+$$ m*{\text{ball}} v*{\text{ball}} + m*{\text{performer}} v*{\text{performer}} = (m*{\text{ball}} + m*{\text{performer}}) v_f $$
 
 The performer is initially at rest:
 
@@ -924,6 +934,7 @@ The performer's recoil velocity is 1.07 m/s in the direction the cannon ball was
 **Discussion**
 
 The performer recoils at a modest 1.07 m/s (about 3.8 km/h or walking speed) despite catching a 10-kg cannon ball. This is because his mass is 6.5 times the ball's mass. The frictionless roller skates allow momentum to be conserved horizontally. In reality, the performer would need strong arms to absorb the impact over a short distance, and might lean back to increase the catching time and reduce the force.
+
 </div>
 </div>
 
@@ -943,15 +954,15 @@ This is an "explosion" type problem where an initially stationary system separat
 
 Conservation of momentum (initial momentum = 0):
 
-$$ m_{\text{clown}} v_{\text{clown}} + m_{\text{barbell}} v_{\text{barbell}} = 0 $$
+$$ m*{\text{clown}} v*{\text{clown}} + m*{\text{barbell}} v*{\text{barbell}} = 0 $$
 
 Note: The clown and barbell move in opposite directions, so their velocities have opposite signs. Let the barbell move in the positive direction.
 
-$$ (80.0 \kg)(-0.500 \ms) + m_{\text{barbell}}(10.0 \ms) = 0 $$
+$$ (80.0 \kg)(-0.500 \ms) + m\_{\text{barbell}}(10.0 \ms) = 0 $$
 
-$$ -40.0 \kg \cdot \ms + m_{\text{barbell}}(10.0 \ms) = 0 $$
+$$ -40.0 \kg \cdot \ms + m\_{\text{barbell}}(10.0 \ms) = 0 $$
 
-$$ m_{\text{barbell}} = \frac{40.0 \kg \cdot \ms}{10.0 \ms} = 4.00 \kg $$
+$$ m\_{\text{barbell}} = \frac{40.0 \kg \cdot \ms}{10.0 \ms} = 4.00 \kg $$
 
 The mass of the barbell is 4.00 kg.
 
@@ -961,7 +972,7 @@ Initial kinetic energy: $$ \KE_i = 0 $$ (both at rest)
 
 Final kinetic energy:
 
-$$ \KE_f = \frac{1}{2} m_{\text{clown}} v_{\text{clown}}^2 + \frac{1}{2} m_{\text{barbell}} v_{\text{barbell}}^2 $$
+$$ \KE*f = \frac{1}{2} m*{\text{clown}} v*{\text{clown}}^2 + \frac{1}{2} m*{\text{barbell}} v\_{\text{barbell}}^2 $$
 
 $$ \KE_f = \frac{1}{2}(80.0 \kg)(0.500 \ms)^2 + \frac{1}{2}(4.00 \kg)(10.0 \ms)^2 $$
 
@@ -976,6 +987,7 @@ The kinetic energy comes from the chemical potential energy stored in the clown'
 **Discussion**
 
 Most of the kinetic energy (200 J out of 210 J, or 95%) goes to the barbell because it moves much faster. The clown, being 20 times more massive, recoils much slower. This is why throwing a light object allows you to remain relatively stationary while the object moves quickly.
+
 </div>
 </div>
 

@@ -25,7 +25,7 @@ const ROOT_DIR = join(__dirname, '..');
 // Configuration
 const CONFIG = {
   outputDir: join(ROOT_DIR, 'pdf-output'),
-  baseUrl: 'http://localhost:4000',
+  baseUrl: 'http://localhost:4000/physics-book',
   viewport: { width: 1200, height: 800 },
   pdfOptions: {
     format: 'Letter',
@@ -69,8 +69,8 @@ function loadBookStructure() {
  * Convert a markdown file path to its Jekyll URL
  */
 function fileToUrl(filePath) {
-  // Remove 'contents/' prefix and '.md' extension
-  const urlPath = filePath.replace(/^contents\//, '').replace(/\.md$/, '.html');
+  // Replace '.md' extension with '.html' but keep the 'contents/' directory
+  const urlPath = filePath.replace(/\.md$/, '.html');
   return `${CONFIG.baseUrl}/${urlPath}`;
 }
 
@@ -108,88 +108,57 @@ async function waitForMathJax(page) {
 }
 
 /**
- * Inject print-specific CSS for better PDF output
+ * Prepare page for PDF generation
+ * Removes navigation elements and solutions from the DOM
+ * (CSS styling is handled by assets/css/print.css which is already loaded)
  */
-async function injectPrintStyles(page) {
-  await page.addStyleTag({
-    content: `
-      @media print {
-        /* Page break controls */
-        h1, h2, h3, h4, h5, h6 {
-          page-break-after: avoid;
-          page-break-inside: avoid;
-        }
+async function preparePage(page, injectCSS = false) {
+  // Remove navigation elements and solutions from the DOM
+  await page.evaluate(() => {
+    const selectorsToRemove = [
+      'nav',
+      '.navigation',
+      '.nav',
+      '.sidebar',
+      '.menu',
+      '.toc-toggle',
+      '.book-search',
+      '.book-summary',
+      '.book-header',
+      '.gitbook-link',
+      '#gitbook-toolbar',
+      '.toolbar',
+      '.book-menu-btn',
+      '.font-settings',
+      '.pull-right',
+      '.dropdown',
+      '.social-share',
+      'header nav',
+      'footer nav',
+      // Common gitbook/navigation classes
+      '.book-menu',
+      '.summary',
+      'aside',
+      '.toc',
+      '.table-of-contents',
+      // Remove solutions to end-of-chapter problems
+      '.solution',
+      'div.solution',
+      '[data-element-type="solution"]',
+    ];
 
-        p, blockquote, ul, ol, dl, table, pre {
-          page-break-inside: avoid;
-        }
-
-        img, figure {
-          page-break-inside: avoid;
-          page-break-after: avoid;
-          max-width: 100% !important;
-        }
-
-        /* Ensure equations don't break */
-        .MathJax, .MathJax_Display, mjx-container {
-          page-break-inside: avoid !important;
-        }
-
-        /* Clean up navigation and other web elements */
-        nav, .navigation, .sidebar, .menu, .toc-toggle,
-        .book-search, .gitbook-link, #gitbook-toolbar {
-          display: none !important;
-        }
-
-        /* Ensure content is full width */
-        .book-body, .body-inner, .page-wrapper, .page-inner,
-        .markdown-section, main, article {
-          width: 100% !important;
-          max-width: 100% !important;
-          margin: 0 !important;
-          padding: 0 !important;
-        }
-
-        /* Better link handling for print */
-        a[href^="http"]:after {
-          content: " (" attr(href) ")";
-          font-size: 0.8em;
-          color: #666;
-        }
-
-        a[href^="#"]:after,
-        a[href^="/"]:after {
-          content: "";
-        }
-
-        /* Improve table printing */
-        table {
-          border-collapse: collapse;
-          width: 100%;
-        }
-
-        th, td {
-          border: 1px solid #ddd;
-          padding: 8px;
-        }
-
-        /* Code blocks */
-        pre, code {
-          background-color: #f5f5f5 !important;
-          border: 1px solid #ddd;
-          page-break-inside: avoid;
-        }
-
-        /* Example and note boxes */
-        .example, .note, .warning, .info {
-          page-break-inside: avoid;
-          border: 1px solid #ddd;
-          padding: 10px;
-          margin: 10px 0;
-        }
-      }
-    `,
+    selectorsToRemove.forEach(selector => {
+      const elements = document.querySelectorAll(selector);
+      elements.forEach(el => el.remove());
+    });
   });
+
+  // Inject print.css if requested (needed for combined HTML that doesn't load it)
+  if (injectCSS) {
+    const printCssPath = join(ROOT_DIR, 'assets', 'css', 'print.css');
+    const cssContent = readFileSync(printCssPath, 'utf-8');
+    await page.addStyleTag({ content: cssContent });
+  }
 }
 
 /**
@@ -208,8 +177,8 @@ async function generatePagePdf(page, url, outputPath, _title) {
     return false;
   }
 
-  // Inject print styles
-  await injectPrintStyles(page);
+  // Prepare page (remove nav elements and solutions)
+  await preparePage(page);
 
   // Wait for MathJax
   console.log('  Waiting for MathJax rendering...');
@@ -335,7 +304,7 @@ async function generateCombinedChapterPdf(browser, chapter) {
   for (let i = 0; i < urls.length; i++) {
     console.log(`  Loading: ${urls[i]}`);
     try {
-      await page.goto(urls[i], { waitUntil: 'networkidle', timeout: 60000 });
+      await page.goto(urls[i], { waitUntil: 'networkidle', timeout: 200000 });
       await waitForMathJax(page);
 
       const content = await page.evaluate(() => {
@@ -357,7 +326,7 @@ async function generateCombinedChapterPdf(browser, chapter) {
 
   // Load combined content and generate PDF
   await page.setContent(combinedHtml, { waitUntil: 'networkidle' });
-  await injectPrintStyles(page);
+  await preparePage(page, true); // true = inject print.css
   await page.waitForTimeout(CONFIG.mathJaxWaitTime);
 
   await page.pdf({
@@ -454,7 +423,7 @@ Options:
   --combined            Generate combined PDFs (one per chapter with all sections)
   -u, --url <url>       Generate PDF from a specific URL
   -o, --output <name>   Output filename (for --url mode)
-  -b, --base-url <url>  Base URL for Jekyll server (default: http://localhost:4000)
+  -b, --base-url <url>  Base URL for Jekyll server (default: http://localhost:4000/physics-book)
   -h, --help            Show this help message
 
 Examples:
@@ -468,10 +437,10 @@ Examples:
   node scripts/generatePdf.js --combined
 
   # Generate PDF from specific URL
-  node scripts/generatePdf.js --url http://localhost:4000/ch1PhysicsAnIntroduction.html
+  node scripts/generatePdf.js --url http://localhost:4000/physics-book/contents/ch1PhysicsAnIntroduction.html
 
   # Use different base URL
-  node scripts/generatePdf.js --all --base-url http://localhost:3000
+  node scripts/generatePdf.js --all --base-url http://localhost:3000/physics-book
 
 Prerequisites:
   - Jekyll server must be running: bundle exec jekyll serve
@@ -482,13 +451,21 @@ Prerequisites:
 /**
  * Check if Jekyll server is running
  */
-async function checkServer(baseUrl) {
-  try {
-    const response = await fetch(baseUrl);
-    return response.ok;
-  } catch (_e) {
-    return false;
+async function checkServer(baseUrl, retries = 5, delay = 2000) {
+  for (let i = 0; i < retries; i++) {
+    try {
+      const response = await fetch(baseUrl);
+      if (response.ok || response.status === 404) {
+        // 404 is also a sign of a running server
+        return true;
+      }
+    } catch (_e) {
+      // Ignore connection errors and retry
+    }
+    console.log(`  Server not ready, retrying in ${delay / 1000}s... (${i + 1}/${retries})`);
+    await new Promise(res => setTimeout(res, delay));
   }
+  return false;
 }
 
 /**

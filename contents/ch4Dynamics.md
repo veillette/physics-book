@@ -5,14 +5,14 @@ sectionNumber: 0
 chapterNumber: 4
 ---
 
-![Two dolphins are shown in a pool at Lisbon Zoo. One is in the water, and the other is in the air diving back into water](../resources/Figure_04_00_01.jpg "Newton&#x2019;s laws of motion describe the motion of the dolphin&#x2019;s path. (credit: Jin Jang)")
+![Two dolphins are shown in a pool at Lisbon Zoo. One is in the water, and the other is in the air diving back into water](../resources/Figure_04_00_01.jpg 'Newton’s laws of motion describe the motion of the dolphin’s path. (credit: Jin Jang)')
 {: #Figure1}
 
 Motion draws our attention. Motion itself can be beautiful, causing us to marvel
 at the forces needed to achieve spectacular motion, such as that of a dolphin
 jumping out of the water, or a pole vaulter, or the flight of a bird, or the
 orbit of a satellite. The study of motion is kinematics, but kinematics only
-*describes* the way objects move—their velocity and their acceleration.
+_describes_ the way objects move—their velocity and their acceleration.
 **Dynamics** considers the forces that affect the motion of moving objects and
 systems. Newton’s laws of motion are the foundation of dynamics. These laws
 provide an example of the breadth and simplicity of principles under which
@@ -29,10 +29,10 @@ given to the thoughts of earlier classical philosophers such as Aristotle (
 384–322 BC). Among the many great thinkers who contributed to this change were
 Newton and Galileo.
 
-![Cover page of the first edition of a book, Philosophiae Naturalis Principia Mathematica, written by Isaac Newton.](../resources/Figure_04_00_02.jpg "Isaac Newton&#x2019;s monumental work, Philosophiae Naturalis Principia Mathematica, was published in 1687. It proposed scientific laws that are still used today to describe the motion of objects. (credit: Service commun de la documentation de l'Universit&#xE9; de Strasbourg)")
+![Cover page of the first edition of a book, Philosophiae Naturalis Principia Mathematica, written by Isaac Newton.](../resources/Figure_04_00_02.jpg "Isaac Newton’s monumental work, Philosophiae Naturalis Principia Mathematica, was published in 1687. It proposed scientific laws that are still used today to describe the motion of objects. (credit: Service commun de la documentation de l'Université de Strasbourg)")
 {: #Figure2 height="250"}
 
-Galileo was instrumental in establishing *observation* as the absolute
+Galileo was instrumental in establishing _observation_ as the absolute
 determinant of truth, rather than “logical” argument. Galileo’s use of the
 telescope was his most notable achievement in demonstrating the importance of
 observation. He discovered moons orbiting Jupiter and made other observations
@@ -40,7 +40,7 @@ that were inconsistent with certain ancient ideas and religious dogma. For this
 reason, and because of the manner in which he dealt with those in authority,
 Galileo was tried by the Inquisition and punished. He spent the final years of
 his life under a form of house arrest. Because others before Galileo had also
-made discoveries by *observing* the nature of the universe, and because repeated
+made discoveries by _observing_ the nature of the universe, and because repeated
 observations verified those of Galileo, his work could not be suppressed or
 denied. After his death, his work was verified by others, and his ideas were
 eventually accepted by the church and scientific communities.

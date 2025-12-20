@@ -33,7 +33,7 @@ for translational, or straight-line, motion:
  $$ v=v_{0}+ at \left(\text{constant } a\right) $$
 </div>
 
-Note that in rotational motion $$ a= a_{\text{t}} $$, and we shall use the
+Note that in rotational motion $$ a= a\_{\text{t}} $$, and we shall use the
 symbol $$ a $$ for tangential or linear acceleration from now on. As in linear
 kinematics, we assume $$ a $$ is constant, which means that angular acceleration
 $$ \alpha $$ is also a constant, because $$ a= r\alpha $$. Now, let us
@@ -49,8 +49,8 @@ The radius $$ r $$ cancels in the equation, yielding
  $$ \omega =\omega_{0} +a t \left(\text{constant } a\right), $$
 </div>
 
-where $$ \omega_{0} $$ is the initial angular velocity. This last equation is
-a *kinematic relationship* among $$ \omega $$, $$ \alpha $$, and $$ t $$ —that
+where $$ \omega\_{0} $$ is the initial angular velocity. This last equation is
+a _kinematic relationship_ among $$ \omega $$, $$ \alpha $$, and $$ t $$ —that
 is, it describes their relationship without reference to forces or masses that
 may affect rotation. It is also precisely analogous in form to its translational
 counterpart.
@@ -75,17 +75,17 @@ translational counterparts):
 
 ##### Table: Rotational Kinematic Equations
 
-|Rotational|Translational| Conditions|
-|--- |--- |--- |
-| $$\theta= \overline{\omega} t $$| $$ x = \overline{v} t $$ | |
-| $$\omega=\omega_0 + \alpha t $$ | $$v = v_0 + a t $$ | constant $$\alpha$$, constant $$a$$ |
+| Rotational                                      | Translational                       | Conditions                          |
+| ----------------------------------------------- | ----------------------------------- | ----------------------------------- |
+| $$\theta= \overline{\omega} t $$                | $$ x = \overline{v} t $$            |                                     |
+| $$\omega=\omega_0 + \alpha t $$                 | $$v = v_0 + a t $$                  | constant $$\alpha$$, constant $$a$$ |
 | $$\theta=\omega_0 t + \frac{1}{2} \alpha t^2 $$ | $$ x = v_0 t + \frac{1}{2} a t^2 $$ | constant $$\alpha$$, constant $$a$$ |
-| $$\omega^2= \omega_0^2 + 2 \alpha \theta $$ | $$ v^2 =v_0^2 + 2 a x $$ | constant $$\alpha$$, constant $$a$$ |
+| $$\omega^2= \omega_0^2 + 2 \alpha \theta $$     | $$ v^2 =v_0^2 + 2 a x $$            | constant $$\alpha$$, constant $$a$$ |
 
 {: #Table1}
 
 In these equations, the subscript 0 denotes initial values
-($$ \theta_{0} $$, $$ x_{0} $$, and $$ t_{0} $$ are initial values), and the
+($$ \theta*{0} $$, $$ x*{0} $$, and $$ t\_{0} $$ are initial values), and the
 average angular velocity $$ \overline{\omega } $$ and average velocity $$
 \overline{v} $$ are defined as follows:
 
@@ -138,7 +138,7 @@ relationship is then sought that can be used to solve for the unknown.
 **Solution for (a)**
 
 Here $$ \alpha $$ and $$ t $$ are given and $$ \omega $$ needs to be determined.
-The most straightforward equation to use is $$ \omega =\omega_{0} +\alpha t $$
+The most straightforward equation to use is $$ \omega =\omega\_{0} +\alpha t $$
 because the unknown is already on one side and all other terms are known. That
 equation states that
 
@@ -171,8 +171,8 @@ Note again that radians must always be used in any calculation relating linear a
 
 Here, we are asked to find the number of revolutions. Because $$ 1 \text{rev}=2
 \pi \text{rad} $$, we can find the number of revolutions by finding $$ \theta $$
-in radians. We are given $$ \alpha $$ and $$ t $$, and we know $$ \omega_{0} $$
-is zero, so that $$ \theta $$ can be obtained using $$ \theta =\omega_{0}
+in radians. We are given $$ \alpha $$ and $$ t $$, and we know $$ \omega*{0} $$
+is zero, so that $$ \theta $$ can be obtained using $$ \theta =\omega*{0}
 t+\frac{1}{2} \alpha t^{2} $$.
 
 <div class="equation">
@@ -224,10 +224,10 @@ Now let us consider what happens if the fisherman applies a brake to the spinnin
 We are asked to find the time $$ t $$ for the reel to come to a stop. The
 initial and final conditions are different from those in the previous problem,
 which involved the same fishing reel. Now we see that the initial angular
-velocity is $$ \omega_{0}=220 \rads $$ and the final angular velocity $$ \omega
+velocity is $$ \omega*{0}=220 \rads $$ and the final angular velocity $$ \omega
 $$ is zero. The angular acceleration is given to be $$ \alpha =-300 \radss $$.
 Examining the available equations, we see all quantities but *t* are known in $$
-\omega =\omega_{0}+ \alpha t, $$ making it easiest to use this equation.
+\omega =\omega*{0}+ \alpha t, $$ making it easiest to use this equation.
 
 **Solution**
 
@@ -297,7 +297,7 @@ to find the distance the train moved down the track:
 
 We cannot use any equation that incorporates $$ t $$ to find $$ \omega $$,
 because the equation would have at least two unknown values. The equation $$
-\omega^{2}=\omega_{0}^{2}+2 \alpha \theta $$ will work, because we know the
+\omega^{2}=\omega\_{0}^{2}+2 \alpha \theta $$ will work, because we know the
 values for all variables except $$ \omega $$:
 
 <div class="equation">
@@ -331,7 +331,7 @@ following example illustrates. [Figure 2](#Figure2) shows a fly on the edge of a
 rotating microwave oven plate. The example below calculates the total distance
 it travels.
 
-![The figure shows a fly that has landed on the rotating plate of the microwave. The direction of rotation of the plate, omega, is counterclockwise and is shown with an arrow.](../resources/Figure_10_02_02.jpg "The image shows a microwave plate. The fly makes revolutions while the food is heated (along with the fly).")
+![The figure shows a fly that has landed on the rotating plate of the microwave. The direction of rotation of the plate, omega, is counterclockwise and is shown with an arrow.](../resources/Figure_10_02_02.jpg 'The image shows a microwave plate. The fly makes revolutions while the food is heated (along with the fly).')
 {: #Figure2}
 
 <div class="example" markdown="1">
@@ -394,15 +394,15 @@ Rotational kinematics (just like linear kinematics) is descriptive and does not 
 
 ### Section Summary
 
-* Kinematics is the description of motion.
-* The kinematics of rotational motion describes the relationships among rotation
+- Kinematics is the description of motion.
+- The kinematics of rotational motion describes the relationships among rotation
   angle, angular velocity, angular acceleration, and time.
-* Starting with the four kinematic equations we developed in
+- Starting with the four kinematic equations we developed in
   the [One-Dimensional Kinematics](./ch2Kinematics), we can derive
   the four rotational kinematic equations (presented together with their
   translational counterparts) seen in [Table 1](#Table1).
-* In these equations, the subscript 0 denotes initial values ($$ x_{0} $$ and $$
-  t_{0} $$ are initial values), and the average angular velocity $$
+- In these equations, the subscript 0 denotes initial values ($$ x*{0} $$ and $$
+  t*{0} $$ are initial values), and the average angular velocity $$
   \overline{\omega } $$ and average velocity $$ \overline{v} $$ are defined as
   follows:
   <div class="equation">
@@ -473,7 +473,7 @@ initial angular velocity is $$ 95.0 \rads $$ ?
 (f) Do the values obtained seem reasonable, considering that this stop happens
 very quickly?
 
-![The figure shows the left arm of a man with tattoo imprints and wearing a glove. He is circulating a yo-yo toy, which is in mid air and connected by the string to his hand. Some people are standing in the background watching the yo-yo trick.](../resources/Figure_10_02_03.jpg "Yo-yos are amusing toys that display significant physics and are engineered to enhance performance based on physical laws. (credit: Beyond Neon, Flickr)")
+![The figure shows the left arm of a man with tattoo imprints and wearing a glove. He is circulating a yo-yo toy, which is in mid air and connected by the string to his hand. Some people are standing in the background watching the yo-yo trick.](../resources/Figure_10_02_03.jpg 'Yo-yos are amusing toys that display significant physics and are engineered to enhance performance based on physical laws. (credit: Beyond Neon, Flickr)')
 {: #Figure3}
 
 </div>

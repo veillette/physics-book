@@ -5,7 +5,7 @@ sectionNumber: 0
 chapterNumber: 9
 ---
 
-![Layered rock formation.](../resources/Figure_09_00_01.jpg "On a short time scale, rocks like these in Australia&#x2019;s Kings Canyon are static, or motionless relative to the Earth.  (credit: freeaussiestock.com)")
+![Layered rock formation.](../resources/Figure_09_00_01.jpg 'On a short time scale, rocks like these in Australia’s Kings Canyon are static, or motionless relative to the Earth.  (credit: freeaussiestock.com)')
 {: #Figure1}
 
 What might desks, bridges, buildings, trees, and mountains have in common—at
@@ -16,7 +16,7 @@ with a car moving at a constant velocity, because anything with a constant
 velocity also has an acceleration of zero. Now, the important part—Newton’s
 second law states that net $$ \vb{F}=m \vb{a} $$, and so the net external force
 is zero for all stationary objects and for all objects moving at constant
-velocity. There are forces acting, but they are balanced. That is, they are in *equilibrium*.
+velocity. There are forces acting, but they are balanced. That is, they are in _equilibrium_.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">

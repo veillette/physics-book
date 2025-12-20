@@ -18,15 +18,15 @@ Energy, as we have noted, is conserved, making it one of the most important
 physical quantities in nature. The **law of conservation of energy** can be
 stated as follows:
 
-*Total energy is constant in any process. It may change in form or be
-transferred from one system to another, but the total remains the same.*
+_Total energy is constant in any process. It may change in form or be
+transferred from one system to another, but the total remains the same._
 
 We have explored some forms of energy and some ways it can be transferred from
 one system to another. This exploration led to the definition of two major types
 of energy—mechanical energy $$ \left(\KE+\PE\right) $$ and energy transferred
-via work done by nonconservative forces $$ \left(W_
-{\text{nc}}\right) $$. But energy takes *many* other forms, manifesting itself
-in *many* different ways, and we need to be able to deal with all of these
+via work done by nonconservative forces $$ \left(W\_
+{\text{nc}}\right) $$. But energy takes _many_ other forms, manifesting itself
+in _many_ different ways, and we need to be able to deal with all of these
 before we can write an equation for the above general statement of the
 conservation of energy.
 
@@ -42,7 +42,7 @@ conservation of energy in equation form as
 
 All types of energy and work can be included in this very general statement of
 conservation of energy. Kinetic energy is $$ \KE $$, work done by a conservative
-force is represented by $$ \PE $$, work done by nonconservative forces is $$ W_
+force is represented by $$ \PE $$, work done by nonconservative forces is $$ W\_
 {\text{nc}} $$, and all other energies are included as $$ \text{OE} $$. This
 equation applies to all previous examples; in those situations $$ \text{OE} $$
 was constant, and so it subtracted out and was not directly considered.
@@ -123,18 +123,18 @@ In most problems, one or more of the terms is zero, simplifying its solution. Do
 \PE $$ terms.
 
 **Step 5.** You have already identified the types of work and energy involved (
-in step 2). Before solving for the unknown, *eliminate terms wherever possible*
+in step 2). Before solving for the unknown, _eliminate terms wherever possible_
 to simplify the algebra. For example, choose $$ h=0 $$ at either the initial or
-final point, so that $$ \PE_{\text{g}} $$ is zero there. Then solve for the
+final point, so that $$ \PE\_{\text{g}} $$ is zero there. Then solve for the
 unknown in the customary manner.
 
-**Step 6.** *Check the answer to see if it is reasonable*. Once you have solved
+**Step 6.** _Check the answer to see if it is reasonable_. Once you have solved
 a problem, reexamine the forms of work and energy to see if you have set up the
 conservation of energy equation correctly. For example, work done against
 friction should be negative, potential energy at the bottom of a hill should be
 less than that at the top, and so on. Also check to see that the numerical value
 obtained is reasonable. For example, the final speed of a skateboarder who
-coasts down a 3-m-high ramp could reasonably be 20 km/h, but *not* 80 km/h.
+coasts down a 3-m-high ramp could reasonably be 20 km/h, but _not_ 80 km/h.
 
 </div>
 
@@ -156,43 +156,43 @@ on a solar cell (see [Figure 1](#Figure1)) produces electricity, which in turn c
 be used to run an electric motor. Energy is converted from the primary source of
 solar energy into electrical energy and then into mechanical energy.
 
-![A solar-powered aircraft flying over the sea. Solar cells are on the upper surface of the wings, where they are exposed to sunlight.](../resources/Figure_07_06_01.jpg "Solar energy is converted into electrical energy by solar cells, which is used to run a motor in this solar-power aircraft. (credit: NASA)")
+![A solar-powered aircraft flying over the sea. Solar cells are on the upper surface of the wings, where they are exposed to sunlight.](../resources/Figure_07_06_01.jpg 'Solar energy is converted into electrical energy by solar cells, which is used to run a motor in this solar-power aircraft. (credit: NASA)')
 {: #Figure1}
 
 ##### Table 1:Energy of Various Objects and Phenomena
 
-|Object/phenomenon |    Energy in joules|
-| ---- | --- |
-|Big Bang | $$ 10^{68} $$ |
-|Energy released in a supernova | $$ 10^{44} $$ |
-|Fusion of all the hydrogen in Earth’s oceans | $$ 10^{34} $$ |
-| Annual world energy use | $$ 4×10^{20} $$ |
-|Large fusion bomb (9 megaton) | $$ 3.8×10^{16} $$ |
-|1 kg hydrogen (fusion to helium) | $$ 6.4×10^{14} $$ |
-|1 kg uranium (nuclear fission) | $$ 8.0×10^{13} $$ |
-|Hiroshima-size fission bomb (10 kiloton) | $$ 4.2×10^{13} $$ |
-|90 000-ton aircraft carrier at 30 knots | $$ 1.1×10^{10} $$ |
-|1 barrel crude oil | $$ 5.9×10^{9} $$ |
-|1 ton TNT | $$ 4.2×10^{9} $$ |
-|1 gallon of gasoline | $$ 1.2×10^{8} $$ |
-|Daily home electricity use (developed countries) | $$ 7×10^{7} $$ |
-|Daily adult food intake (recommended) | $$ 1.2×10^{7} $$ |
-|1000-kg car at 90 km/h | $$ 3.1×10^{5} $$ |
-|1 g fat (9.3 kcal) | $$ 3.9×10^{4} $$ |
-|ATP hydrolysis reaction | $$ 3.2×10^{4} $$ |
-|1 g carbohydrate (4.1 kcal) | $$ 1.7×10^{4} $$ |
-|1 g protein (4.1 kcal) | $$ 1.7×10^{4} $$ |
-|Tennis ball at 100 km/h | $$ 22 $$ |
-|Mosquito ($$10^{-2}$$g at 0.5 m/s) | $$ 1.3×10^{-6} $$ |
-|Single electron in a TV tube beam  | $$ 4.0×10^{-15} $$ |
-|Energy to break one DNA strand  | $$ 10^{-19} $$ |
+| Object/phenomenon                                | Energy in joules   |
+| ------------------------------------------------ | ------------------ |
+| Big Bang                                         | $$ 10^{68} $$      |
+| Energy released in a supernova                   | $$ 10^{44} $$      |
+| Fusion of all the hydrogen in Earth’s oceans     | $$ 10^{34} $$      |
+| Annual world energy use                          | $$ 4×10^{20} $$    |
+| Large fusion bomb (9 megaton)                    | $$ 3.8×10^{16} $$  |
+| 1 kg hydrogen (fusion to helium)                 | $$ 6.4×10^{14} $$  |
+| 1 kg uranium (nuclear fission)                   | $$ 8.0×10^{13} $$  |
+| Hiroshima-size fission bomb (10 kiloton)         | $$ 4.2×10^{13} $$  |
+| 90 000-ton aircraft carrier at 30 knots          | $$ 1.1×10^{10} $$  |
+| 1 barrel crude oil                               | $$ 5.9×10^{9} $$   |
+| 1 ton TNT                                        | $$ 4.2×10^{9} $$   |
+| 1 gallon of gasoline                             | $$ 1.2×10^{8} $$   |
+| Daily home electricity use (developed countries) | $$ 7×10^{7} $$     |
+| Daily adult food intake (recommended)            | $$ 1.2×10^{7} $$   |
+| 1000-kg car at 90 km/h                           | $$ 3.1×10^{5} $$   |
+| 1 g fat (9.3 kcal)                               | $$ 3.9×10^{4} $$   |
+| ATP hydrolysis reaction                          | $$ 3.2×10^{4} $$   |
+| 1 g carbohydrate (4.1 kcal)                      | $$ 1.7×10^{4} $$   |
+| 1 g protein (4.1 kcal)                           | $$ 1.7×10^{4} $$   |
+| Tennis ball at 100 km/h                          | $$ 22 $$           |
+| Mosquito ($$10^{-2}$$g at 0.5 m/s)               | $$ 1.3×10^{-6} $$  |
+| Single electron in a TV tube beam                | $$ 4.0×10^{-15} $$ |
+| Energy to break one DNA strand                   | $$ 10^{-19} $$     |
 
 {: #Table1}
 
 ### Efficiency
 
 Even though energy is conserved in an energy conversion process, the output of
-*useful energy* or work will be less than the energy input. The **efficiency**
+_useful energy_ or work will be less than the energy input. The **efficiency**
 $$ \text{Eff} $$ of an energy conversion process is defined as
 
 <div class="equation">
@@ -207,22 +207,22 @@ then released to the environment through combustion gases and cooling towers.
 
 ##### Table 2: Efficiency of the Human Body and Mechanical Devices (representative values)
 
-|Activity/device|Efficiency (%)|
-|--- |--- |
-|Cycling and climbing|20|
-|Swimming, surface|2|
-|Swimming, submerged|4|
-|Shoveling|3|
-|Weightlifting|9|
-|Steam engine|17|
-|Gasoline engine|30|
-|Diesel engine|35|
-|Nuclear power plant|35|
-|Coal power plant|42|
-|Electric motor|98|
-|Compact fluorescent light|20|
-|Gas heater (residential)|90|
-|Solar cell|10|
+| Activity/device           | Efficiency (%) |
+| ------------------------- | -------------- |
+| Cycling and climbing      | 20             |
+| Swimming, surface         | 2              |
+| Swimming, submerged       | 4              |
+| Shoveling                 | 3              |
+| Weightlifting             | 9              |
+| Steam engine              | 17             |
+| Gasoline engine           | 30             |
+| Diesel engine             | 35             |
+| Nuclear power plant       | 35             |
+| Coal power plant          | 42             |
+| Electric motor            | 98             |
+| Compact fluorescent light | 20             |
+| Gas heater (residential)  | 90             |
+| Solar cell                | 10             |
 
 {: #Table2}
 
@@ -243,21 +243,21 @@ Masses and Springs
 
 ### Section Summary
 
-* The law of conservation of energy states that the total energy is constant in
+- The law of conservation of energy states that the total energy is constant in
   any process. Energy may change in form or be transferred from one system to
   another, but the total remains the same.
-* When all forms of energy are considered, conservation of energy is written in
-  equation form as $$ \KE_
-  {i}+\PE_{i}+W_{\text{nc}}+\text{OE}_{i}=\KE_
-  {f}+\PE_{f}+\text{OE}_{f} $$, where $$ \text{OE} $$ is all **other forms of
+- When all forms of energy are considered, conservation of energy is written in
+  equation form as $$ \KE*
+  {i}+\PE*{i}+W*{\text{nc}}+\text{OE}*{i}=\KE*
+  {f}+\PE*{f}+\text{OE}\_{f} $$, where $$ \text{OE} $$ is all **other forms of
   energy** besides mechanical energy.
-* Commonly encountered forms of energy include electric energy, chemical energy,
+- Commonly encountered forms of energy include electric energy, chemical energy,
   radiant energy, nuclear energy, and thermal energy.
-* Energy is often utilized to do work, but it is not possible to convert all the
+- Energy is often utilized to do work, but it is not possible to convert all the
   energy of a system to work.
-* The efficiency $$ \text{Eff} $$ of a machine or human is defined to be $$
+- The efficiency $$ \text{Eff} $$ of a machine or human is defined to be $$
   \text{Eff}=\frac{ W_{\text{out}}}{ E_{\text{in}}} $$, where $$ W_{\text{out}}
-  $$ is useful work output and $$ E_{\text{in}} $$ is the energy consumed.
+  $$ is useful work output and $$ E\_{\text{in}} $$ is the energy consumed.
 
 ### Conceptual Questions
 
@@ -269,7 +269,7 @@ farther down the hill, then up and over a small crest. He then coasts down that 
 station, where he brakes to a stop and fills the tank with gasoline. Identify the forms of energy the 
 car has, and how they are changed and transferred in this series of events. (See [Figure 3](#Figure3).)
 
-![A car coasting downhill, moving over a crest then again moving downhill and finally stopping at a gas station. Each of these positions is labeled with an arrow pointing downward.](../resources/Figure_07_06_02.jpg "A car experiencing non-negligible friction coasts down a hill, over a small crest, then downhill again, and comes to a stop at a gas station.")
+![A car coasting downhill, moving over a crest then again moving downhill and finally stopping at a gas station. Each of these positions is labeled with an arrow pointing downward.](../resources/Figure_07_06_02.jpg 'A car experiencing non-negligible friction coasts down a hill, over a small crest, then downhill again, and comes to a stop at a gas station.')
 {: #Figure3}
 
 </div>

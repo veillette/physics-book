@@ -22,7 +22,7 @@ that the input emf that powers the motor will be opposed by the motor’s
 self-generated emf, called the **back emf** of the motor. (
 See [[Figure 1]](#Figure1).)
 
-![Figure shows an electric circuit. The circuit has a cell represented as driving e m f of voltage one hundred and twenty volt is connected in series with a variable e m f source with a range of voltage from zero to one hundred twenty volts and a resistance R. The other end of resistance R is connected to an open switch. The switch is connected back to the Driving e m f cell.](../resources/Figure_23_06_01.jpg "The coil of a DC motor is represented as a resistor in this schematic. The back emf is represented as a variable emf that opposes the one driving the motor. Back emf is zero when the motor is not turning, and it increases proportionally to the motor&#x2019;s angular velocity.")
+![Figure shows an electric circuit. The circuit has a cell represented as driving e m f of voltage one hundred and twenty volt is connected in series with a variable e m f source with a range of voltage from zero to one hundred twenty volts and a resistance R. The other end of resistance R is connected to an open switch. The switch is connected back to the Driving e m f cell.](../resources/Figure_23_06_01.jpg 'The coil of a DC motor is represented as a resistor in this schematic. The back emf is represented as a variable emf that opposes the one driving the motor. Back emf is zero when the motor is not turning, and it increases proportionally to the motor’s angular velocity.')
 {: #Figure1}
 
 Back emf is the generator output of a motor, and so it is proportional to the
@@ -41,7 +41,9 @@ more current flows, and more work can be done. If the motor runs at too low a
 speed, the larger current can overheat it (via resistive power in the coil,
 $$P={I}^{2}R $$ ), perhaps even burning it out. On the other hand, if there is
 no mechanical load on the motor, it will increase its angular velocity $$\omega
-$$ until the back emf is nearly equal to the driving emf. Then the motor uses
+
+$$
+until the back emf is nearly equal to the driving emf. Then the motor uses
 only enough energy to overcome friction.
 
 Consider, for example, the motor coils represented in [[Figure 1]](#Figure1).
@@ -134,3 +136,4 @@ back emf
 a magnetic field; it opposes the voltage powering the motor
 
 </div>
+$$

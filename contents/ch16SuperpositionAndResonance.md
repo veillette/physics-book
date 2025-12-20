@@ -1,5 +1,5 @@
 ---
-title: "Superposition and Interference"
+title: 'Superposition and Interference'
 layout: page
 sectionNumber: 10
 chapterNumber: 16
@@ -10,7 +10,7 @@ chapterNumber: 16
 * Describe the mathematical representation of overtones and beat frequency.
 </div>
 
-![Water surface of a river is shown, with mountains in the background. There are small ripples over the water surface.](../resources/Figure_16_10_01.jpg "These waves result from the superposition of several waves from different sources, producing a complex pattern. (credit: waterborough, Wikimedia Commons)")
+![Water surface of a river is shown, with mountains in the background. There are small ripples over the water surface.](../resources/Figure_16_10_01.jpg 'These waves result from the superposition of several waves from different sources, producing a complex pattern. (credit: waterborough, Wikimedia Commons)')
 {: #Figure1}
 
 Most waves do not look very simple. They look more like the waves
@@ -42,10 +42,10 @@ interference**. Because the disturbances are in the opposite direction for this
 superposition, the resulting amplitude is zero for pure destructive
 interference—the waves completely cancel.
 
-![The graph shows two identical waves that arrive at the same point exactly in phase. The crests of the two waves are precisely aligned, as are the troughs. The amplitude of each wave being X . It produces pure constructive wave. The disturbances add resulting in a new wave with twice the amplitude of the individual waves that is two X but of same wavelength.](../resources/Figure_16_10_02.jpg "Pure constructive interference of two identical waves produces one with twice the amplitude, but the same wavelength.")
+![The graph shows two identical waves that arrive at the same point exactly in phase. The crests of the two waves are precisely aligned, as are the troughs. The amplitude of each wave being X . It produces pure constructive wave. The disturbances add resulting in a new wave with twice the amplitude of the individual waves that is two X but of same wavelength.](../resources/Figure_16_10_02.jpg 'Pure constructive interference of two identical waves produces one with twice the amplitude, but the same wavelength.')
 {: #Figure2}
 
-![The graph shows two identical waves that arrive exactly out of phase. The crests of one wave are aligned with the trough of another wave. Each wave has amplitude equal to X. As the disturbances are in the opposite directions, they cancel out each other, resulting in zero amplitude which is shown as the third figure showing a green straight line, that is, the waves cancel each other producing pure destructive interference.](../resources/Figure_16_10_03.jpg "Pure destructive interference of two identical waves produces zero amplitude, or complete cancellation.")
+![The graph shows two identical waves that arrive exactly out of phase. The crests of one wave are aligned with the trough of another wave. Each wave has amplitude equal to X. As the disturbances are in the opposite directions, they cancel out each other, resulting in zero amplitude which is shown as the third figure showing a green straight line, that is, the waves cancel each other producing pure destructive interference.](../resources/Figure_16_10_03.jpg 'Pure destructive interference of two identical waves produces zero amplitude, or complete cancellation.')
 {: #Figure3}
 
 While pure constructive and pure destructive interference do occur, they require
@@ -65,7 +65,7 @@ An example of the superposition of two dissimilar waves is shown
 in [[Figure 4]](#Figure4). Here again, the disturbances add and subtract,
 producing a more complicated looking wave.
 
-![The graph shows two non-identical waves with different frequencies and wavelengths. In the first graph only one crest and one trough of the wave are seen. In the second figure five crests are seen in the same length. When they superimpose, the disturbance add and subtract, producing a more complicated looking wave with highly irregular amplitude and wavelength due to combined effect of constructive and destructive interference.](../resources/Figure_16_10_04.jpg "Superposition of non-identical waves exhibits both constructive and destructive interference.")
+![The graph shows two non-identical waves with different frequencies and wavelengths. In the first graph only one crest and one trough of the wave are seen. In the second figure five crests are seen in the same length. When they superimpose, the disturbance add and subtract, producing a more complicated looking wave with highly irregular amplitude and wavelength due to combined effect of constructive and destructive interference.](../resources/Figure_16_10_04.jpg 'Superposition of non-identical waves exhibits both constructive and destructive interference.')
 {: #Figure4}
 
 ### Standing Waves
@@ -97,7 +97,7 @@ Earth and reflect off denser rocks, constructive interference occurs at certain
 points. Often areas closer to the epicenter are not damaged while areas farther
 away are damaged.
 
-![Standing wave combinations of two waves is shown. At the time t is equal to zero. The waves are in the same phase so the amplitude of the superimposed wave is double that of wave one and two. In the second figure at time t is equal to one fourth of time period T , the waves are in opposite phase so their super imposed figure is a straight line. Again at the time t is equal to half the time period the waves are in the same phase and the process is repeated at t is equal to three fourth of time period and at the end of the time period T.](../resources/Figure_16_10_05.jpg "Standing wave created by the superposition of two identical waves moving in opposite directions. The oscillations are at fixed locations in space and result from alternately constructive and destructive interference.")
+![Standing wave combinations of two waves is shown. At the time t is equal to zero. The waves are in the same phase so the amplitude of the superimposed wave is double that of wave one and two. In the second figure at time t is equal to one fourth of time period T , the waves are in opposite phase so their super imposed figure is a straight line. Again at the time t is equal to half the time period the waves are in the same phase and the process is repeated at t is equal to three fourth of time period and at the end of the time period T.](../resources/Figure_16_10_05.jpg 'Standing wave created by the superposition of two identical waves moving in opposite directions. The oscillations are at fixed locations in space and result from alternately constructive and destructive interference.')
 {: #Figure5}
 
 Standing waves are also found on the strings of musical instruments and are due
@@ -126,10 +126,10 @@ anyone who has ever observed a string instrument being tuned. We will see in
 later chapters that standing waves are crucial to many resonance phenomena, such
 as in sounding boxes on string instruments.
 
-![The graph shows a wave with wavelength lambda one equal to L, which has two loops. There three nodes and two antinodes in the figure. The length of one loop is L.](../resources/Figure_16_10_06.jpg "The figure shows a string oscillating at its fundamental frequency.")
+![The graph shows a wave with wavelength lambda one equal to L, which has two loops. There three nodes and two antinodes in the figure. The length of one loop is L.](../resources/Figure_16_10_06.jpg 'The figure shows a string oscillating at its fundamental frequency.')
 {: #Figure6}
 
-![first overtone is shown as the wave length if lambda two is L and there are three nodes and two antinodes in the figure. For first overtone the frequency f two is equal to two times f one.](../resources/Figure_16_10_07.jpg "First and second harmonic frequencies are shown.")
+![first overtone is shown as the wave length if lambda two is L and there are three nodes and two antinodes in the figure. For first overtone the frequency f two is equal to two times f one.](../resources/Figure_16_10_07.jpg 'First and second harmonic frequencies are shown.')
 {: #Figure7}
 
 ### Beats
@@ -145,12 +145,12 @@ noise are both due to alternately constructive and destructive interference as
 the two waves go in and out of phase. [[Figure 8]](#Figure8) illustrates this
 graphically.
 
-![The graph shows the superimposition of two similar but non-identical waves. Beats are produced by alternating destructive and constructive waves with equal amplitude but different frequencies. The resultant wave is the one with rising and falling amplitude over different intervals of time.](../resources/Figure_16_10_08.jpg "Beats are produced by the superposition of two waves of slightly different frequencies but identical amplitudes. The waves alternate in time between constructive interference and destructive interference, giving the resulting wave a time-varying amplitude.")
+![The graph shows the superimposition of two similar but non-identical waves. Beats are produced by alternating destructive and constructive waves with equal amplitude but different frequencies. The resultant wave is the one with rising and falling amplitude over different intervals of time.](../resources/Figure_16_10_08.jpg 'Beats are produced by the superposition of two waves of slightly different frequencies but identical amplitudes. The waves alternate in time between constructive interference and destructive interference, giving the resulting wave a time-varying amplitude.')
 {: #Figure8}
 
 The wave resulting from the superposition of two similar-frequency waves has a
 frequency that is the average of the two. This wave fluctuates in amplitude,
-or *beats*, with a frequency called the **beat frequency**. We can determine the
+or _beats_, with a frequency called the **beat frequency**. We can determine the
 beat frequency by adding two waves together mathematically. Note that a wave can
 be represented at one point in space as
 
@@ -188,8 +188,10 @@ and $${f}_{2} $$ . These results mean that the resultant wave has twice the
 amplitude and the average frequency of the two superimposed waves, but it also
 fluctuates in overall amplitude at the beat frequency $${f}_{\text{B}} $$ . The
 first cosine term in the expression effectively causes the amplitude to go up
-and down. The second cosine term is the wave with frequency $${f}_{\text{ave}}
-$$ . This result is valid for all types of waves. However, if it is a sound
+and down. The second cosine term is the wave with frequency $${f}\_{\text{ave}}
+
+$$
+. This result is valid for all types of waves. However, if it is a sound
 wave, providing the two frequencies are similar, then what we hear is an average
 frequency that gets louder and softer (or warbles) at the beat frequency.
 
@@ -301,7 +303,30 @@ A car has two horns, one emitting a frequency of 199 Hz and the other emitting a
 
 </div>
 <div class="solution" markdown="1">
- $$f=4 \text{Hz} $$
+**Strategy**
+
+The beat frequency is the absolute value of the difference between the two frequencies. We can use the formula $${f}_{\text{B}}=\mid {f}_{1}-{f}_{2}\mid $$ where $${f}_{1}=199 \text{ Hz} $$ and $${f}_{2}=203 \text{ Hz} $$.
+
+**Solution**
+
+Apply the beat frequency formula:
+
+<div class="equation">
+ $${f}_{\text{B}}=\mid {f}_{1}-{f}_{2}\mid =\mid 199 \text{ Hz}-203 \text{ Hz}\mid $$
+</div>
+
+<div class="equation">
+ $${f}_{\text{B}}=\mid -4 \text{ Hz}\mid =4 \text{ Hz} $$
+</div>
+
+**Discussion**
+
+A beat frequency of 4 Hz means that the combined sound from the two horns will get louder and softer 4 times per second. This is a noticeable warbling effect that would be easily heard. The relatively small beat frequency makes sense because the two horn frequencies (199 Hz and 203 Hz) are quite close to each other. This type of interference pattern is common when two sound sources with slightly different frequencies operate simultaneously.
+
+**Answer**
+
+$$f=4 \text{ Hz} $$
+
 </div>
 </div>
 
@@ -318,9 +343,39 @@ Two tuning forks having frequencies of 460 and 464 Hz are struck simultaneously.
 
 </div>
 <div class="solution" markdown="1">
-462 Hz,
+**Strategy**
 
-4 Hz
+When two tuning forks with different frequencies are struck simultaneously, you hear a sound at the average frequency that fluctuates in amplitude at the beat frequency. The average frequency is $${f}_{\text{ave}}=\frac{{f}_{1}+{f}_{2}}{2} $$ and the beat frequency is $${f}_{\text{B}}=\mid {f}_{1}-{f}_{2}\mid $$.
+
+**Solution**
+
+Calculate the average frequency:
+
+<div class="equation">
+ $${f}_{\text{ave}}=\frac{{f}_{1}+{f}_{2}}{2}=\frac{460 \text{ Hz}+464 \text{ Hz}}{2} $$
+</div>
+
+<div class="equation">
+ $${f}_{\text{ave}}=\frac{924 \text{ Hz}}{2}=462 \text{ Hz} $$
+</div>
+
+Calculate the beat frequency:
+
+<div class="equation">
+ $${f}_{\text{B}}=\mid {f}_{1}-{f}_{2}\mid =\mid 460 \text{ Hz}-464 \text{ Hz}\mid $$
+</div>
+
+<div class="equation">
+ $${f}_{\text{B}}=4 \text{ Hz} $$
+</div>
+
+**Discussion**
+
+The average frequency of 462 Hz is exactly midway between the two individual frequencies, which is what we expect from the superposition of two waves with similar frequencies. The beat frequency of 4 Hz means you would hear the volume of the combined sound increase and decrease 4 times per second. This beat frequency is slow enough to be easily perceived by the human ear, which is why tuning forks are often used in pairs to demonstrate the phenomenon of beats. Musicians and piano tuners use this principle to tune instruments by adjusting strings until the beat frequency approaches zero.
+
+**Answer**
+
+462 Hz, 4 Hz
 
 </div>
 </div>
@@ -338,6 +393,48 @@ A wave traveling on a Slinky® that is stretched to 4 m takes 2.4 s to travel th
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+(a) The wave travels the length of the Slinky and back again in 2.4 s, so the total distance is $$2 \times 4 \text{ m}=8 \text{ m} $$. We can find the wave speed using $${v}_{\text{w}}=\frac{d}{t} $$.
+
+(b) For a standing wave with 3 antinodes and 4 nodes on a Slinky fixed at both ends, we need to determine the wavelength from the standing wave pattern, then use $${v}_{\text{w}}=f\lambda $$ to find the frequency.
+
+**Solution**
+
+(a) Calculate the wave speed:
+
+<div class="equation">
+ $$d=2 \times 4 \text{ m}=8 \text{ m} $$
+</div>
+
+<div class="equation">
+ $${v}_{\text{w}}=\frac{d}{t}=\frac{8 \text{ m}}{2.4 \text{ s}}=3.33 \text{ m/s} $$
+</div>
+
+(b) A standing wave with 3 antinodes and 4 nodes (including the fixed ends) has 3 complete loops. This means the length of the Slinky equals $$\frac{3\lambda }{2} $$, where $$\lambda $$ is the wavelength.
+
+<div class="equation">
+ $$L=\frac{3\lambda }{2} $$
+</div>
+
+Solve for the wavelength:
+
+<div class="equation">
+ $$\lambda =\frac{2L}{3}=\frac{2\left(4 \text{ m}\right)}{3}=2.67 \text{ m} $$
+</div>
+
+Use the wave equation to find the frequency:
+
+<div class="equation">
+ $$f=\frac{{v}_{\text{w}}}{\lambda }=\frac{3.33 \text{ m/s}}{2.67 \text{ m}}=1.25 \text{ Hz} $$
+</div>
+
+**Discussion**
+
+The wave speed of 3.33 m/s is reasonable for a wave traveling on a stretched Slinky. This is much slower than waves on taut strings but faster than waves on very loose springs. The frequency of 1.25 Hz (about once per second) is also reasonable—you could easily observe this oscillation by eye. The standing wave pattern with 3 antinodes represents the third harmonic, which has a frequency three times lower than what would be needed to create 9 antinodes. Standing waves on Slinkys are excellent demonstrations of wave interference and resonance because they're large enough to see clearly and slow enough to observe the motion.
+
+**Answer**
+
 (a) 3.33 m/s
 
 (b) 1.25 Hz
@@ -384,3 +481,4 @@ superposition
 : the phenomenon that occurs when two or more waves arrive at the same point
 
 </div>
+$$

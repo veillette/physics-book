@@ -24,7 +24,7 @@ in turn exerts force on charges, causing current.
 The current that flows through most substances is directly proportional to the
 voltage $$V $$ applied to it. The German physicist Georg Simon Ohm (1787–1854)
 was the first to demonstrate experimentally that the current in a metal wire
-is *directly proportional to the voltage applied*\:
+is _directly proportional to the voltage applied_\:
 
 <div class="equation" >
  $$I\propto V\text{.} $$
@@ -38,7 +38,7 @@ phenomenon. Such a linear relationship doesn’t always occur.
 ### Resistance and Simple Circuits
 
 If voltage drives current, what impedes it? The electric property that impedes
-current (crudely similar to friction and air resistance) is called **resistance**  $$R $$ . Collisions of moving charges with atoms and molecules in
+current (crudely similar to friction and air resistance) is called **resistance** $$R $$ . Collisions of moving charges with atoms and molecules in
 a substance transfer energy to the substance and limit current. Resistance is
 defined as inversely proportional to current, or
 
@@ -73,7 +73,7 @@ circuit** has a single voltage source and a single resistor. The wires
 connecting the voltage source to the resistor can be assumed to have negligible
 resistance, or their resistance can be included in $$R $$.
 
-![The figure describes a simple electric circuit with a battery connected to a resistance R. The direction of current is shown to emerge from the positive terminal of a battery of voltage V, pass through the resistor, and enter the negative terminal of the battery. The current I in the circuit is V divided by R, moving in a clockwise direction.](../resources/Figure_20_02_01.jpg "A simple electric circuit in which a closed path for current to flow is supplied by conductors (usually metal wires) connecting a load to the terminals of a battery, represented by the red parallel lines. The zigzag symbol represents the single resistor and includes any resistance in the connections to the voltage source.")
+![The figure describes a simple electric circuit with a battery connected to a resistance R. The direction of current is shown to emerge from the positive terminal of a battery of voltage V, pass through the resistor, and enter the negative terminal of the battery. The current I in the circuit is V divided by R, moving in a clockwise direction.](../resources/Figure_20_02_01.jpg 'A simple electric circuit in which a closed path for current to flow is supplied by conductors (usually metal wires) connecting a load to the terminals of a battery, represented by the red parallel lines. The zigzag symbol represents the single resistor and includes any resistance in the connections to the voltage source.')
 {: #Figure1}
 
 <div id="Example1" class="example" markdown="1">
@@ -138,7 +138,7 @@ $$\text{PE}=q\Delta V $$ , and the same $$q $$ flows through each. Thus the
 energy supplied by the voltage source and the energy converted by the resistor
 are equal. (See [[Figure 2]](#Figure2).)
 
-![The figure shows a simple electric circuit. A battery is connected to a resistor with resistance R, and a voltmeter is connected across the resistor. The direction of current is shown to emerge from the positive terminal of the battery of voltage V, pass through the resistor, and enter the negative terminal of the battery, in a clockwise direction. The voltage V in the circuit equals I R, which equals 18 volts.](../resources/Figure_20_02_02.jpg "The voltage drop across a resistor in a simple circuit equals the voltage output of the battery.")
+![The figure shows a simple electric circuit. A battery is connected to a resistor with resistance R, and a voltmeter is connected across the resistor. The direction of current is shown to emerge from the positive terminal of the battery of voltage V, pass through the resistor, and enter the negative terminal of the battery, in a clockwise direction. The voltage V in the circuit equals I R, which equals 18 volts.](../resources/Figure_20_02_02.jpg 'The voltage drop across a resistor in a simple circuit equals the voltage output of the battery.')
 {: #Figure2}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -163,16 +163,16 @@ See how the equation form of Ohm\'s law relates to a simple circuit. Adjust the 
 
 ### Section Summary
 
-* A simple circuit *is* one in which there is a single voltage source and a
+- A simple circuit _is_ one in which there is a single voltage source and a
   single resistance.
-* One statement of Ohm’s law gives the relationship between current $$I $$ ,
+- One statement of Ohm’s law gives the relationship between current $$I $$ ,
   voltage $$V $$ , and resistance $$R $$ in a simple circuit to be
   $$I=\frac{V}{R}. $$
-* Resistance has units of ohms (
-  $$\text{Ω} $$ )  , related to volts and amperes by $$1 \Omega =1 \text{V/A} $$
+- Resistance has units of ohms (
+  $$\text{Ω} $$ ) , related to volts and amperes by $$1 \Omega =1 \text{V/A} $$
   .
 
-* There is a voltage or $$IR $$ drop across a resistor, caused by the current
+- There is a voltage or $$IR $$ drop across a resistor, caused by the current
   flowing through it, given by $$V=IR $$ .
 
 ### Conceptual Questions
@@ -201,23 +201,7 @@ What current flows through the bulb of a 3.00-V flashlight when its hot resistan
 
 </div>
 <div class="solution" markdown="1">
-**Strategy**
-
-Apply Ohm's law directly: $$I = V/R$$. All values are given in standard units.
-
-**Solution**
-
-Using Ohm's law:
-
-<div class="equation">
-$$I = \frac{V}{R} = \frac{3.00 \text{ V}}{3.60 \text{ Ω}} = 0.833 \text{ A}$$
-</div>
-
-**Discussion**
-
-This current of 0.833 A (833 mA) is typical for a small incandescent flashlight bulb. The relatively low resistance of 3.60 Ω when hot allows substantial current to flow, which heats the filament to incandescence. Note that this is the "hot resistance"—the resistance when the bulb is operating. The cold resistance would be much lower, causing a brief surge of higher current when the flashlight is first turned on.
-
-The current flowing through the flashlight bulb is 0.833 A.
+0\.833 A
 
 </div>
 </div>
@@ -230,7 +214,7 @@ Calculate the effective resistance of a pocket calculator that has a 1.35-V batt
 <div class="solution" markdown="1">
 **Strategy**
 
-Rearrange Ohm's law to solve for resistance: $$R = V/I$$. Convert current from milliamperes to amperes first.
+We apply Ohm's law in the form $$R = \frac{V}{I}$$ to find the resistance. The current must be converted from milliamperes to amperes to get resistance in ohms.
 
 **Solution**
 
@@ -240,7 +224,7 @@ Convert current to SI units:
 $$I = 0.200 \text{ mA} = 0.200 \times 10^{-3} \text{ A} = 2.00 \times 10^{-4} \text{ A}$$
 </div>
 
-Calculate resistance using Ohm's law:
+Apply Ohm's law:
 
 <div class="equation">
 $$R = \frac{V}{I} = \frac{1.35 \text{ V}}{2.00 \times 10^{-4} \text{ A}} = 6.75 \times 10^{3} \text{ Ω} = 6.75 \text{ kΩ}$$
@@ -248,7 +232,7 @@ $$R = \frac{V}{I} = \frac{1.35 \text{ V}}{2.00 \times 10^{-4} \text{ A}} = 6.75 
 
 **Discussion**
 
-The effective resistance of 6.75 kΩ is much higher than the flashlight bulb's 3.60 Ω, which explains why the calculator draws such a tiny current. Modern electronic calculators use CMOS (complementary metal-oxide-semiconductor) technology designed for extremely low power consumption. The high effective resistance means very little power is dissipated ($$P = V^2/R = 1.35^2/6750 = 0.27$$ mW), allowing small batteries to last for years.
+This resistance of 6.75 kΩ is quite high compared to most circuit components, which explains why calculators can operate for extended periods on small batteries. The high resistance limits the current to a tiny 0.200 mA, which means very little power is consumed ($$P = IV = 0.27$$ mW). This is why pocket calculators can run for years on a single battery or even operate from small solar cells. The effective resistance represents the combined resistance of all the calculator's internal circuitry, including the display, processor, and other components.
 
 The effective resistance of the pocket calculator is 6.75 kΩ.
 
@@ -261,24 +245,7 @@ What is the effective resistance of a car’s starter motor when 150 A flows thr
 
 </div>
 <div class="solution" markdown="1">
-**Strategy**
-
-Use Ohm's law rearranged for resistance: $$R = V/I$$. The large current indicates a low resistance device.
-
-**Solution**
-
-Calculate resistance:
-
-<div class="equation">
-$$R = \frac{V}{I} = \frac{11.0 \text{ V}}{150 \text{ A}} = 7.33 \times 10^{-2} \text{ Ω} = 73.3 \text{ mΩ}$$
-</div>
-
-**Discussion**
-
-The extremely low resistance of 73.3 mΩ (0.0733 Ω) is necessary for the starter motor to draw the high current needed to turn over the engine against compression and friction. The battery voltage drops from its nominal 12 V to 11.0 V under this heavy load due to the battery's internal resistance. This massive current drain is why car batteries must have very low internal resistance and why leaving your headlights on can drain the battery—a starter motor draws more current in a few seconds than headlights draw in hours.
-
-The effective resistance of the car's starter motor is $$7.33 \times 10^{-2}$$ Ω (73.3 mΩ).
-
+ $$ 7.33 \times 10^{-2}  \Omega  $$
 </div>
 </div>
 
@@ -291,7 +258,7 @@ How many volts are supplied to operate an indicator light on a DVD player that h
 <div class="solution" markdown="1">
 **Strategy**
 
-Use Ohm's law in the form $$V = IR$$ to find the voltage. Convert current to amperes first.
+We use Ohm's law in the form $$V = IR$$ to find the voltage across the indicator light. The current must be converted from milliamperes to amperes.
 
 **Solution**
 
@@ -301,7 +268,7 @@ Convert current to SI units:
 $$I = 25.0 \text{ mA} = 25.0 \times 10^{-3} \text{ A} = 0.0250 \text{ A}$$
 </div>
 
-Calculate voltage:
+Apply Ohm's law to find the voltage:
 
 <div class="equation">
 $$V = IR = (0.0250 \text{ A})(140 \text{ Ω}) = 3.50 \text{ V}$$
@@ -309,9 +276,9 @@ $$V = IR = (0.0250 \text{ A})(140 \text{ Ω}) = 3.50 \text{ V}$$
 
 **Discussion**
 
-The indicator light operates on 3.50 V, which is a common low voltage used in electronic devices. This is much lower than household voltage (120 V or 240 V) because electronics operate on reduced voltages for safety and efficiency. The power consumed is $$P = IV = (0.025)(3.50) = 87.5$$ mW, consistent with a small LED indicator light. Modern DVD players typically use LED indicators rather than incandescent bulbs because LEDs are more efficient and last much longer.
+A voltage of 3.50 V is typical for small indicator LEDs used in consumer electronics. Modern DVD players use low-power LED indicators that require only a few volts and milliamps to operate. The power consumed by this indicator light is $$P = IV = (0.0250 \text{ A})(3.50 \text{ V}) = 0.0875 \text{ W} = 87.5 \text{ mW}$$, which is quite small. This low power consumption is why indicator lights can remain on continuously without significantly affecting the device's overall energy use or generating noticeable heat.
 
-The voltage supplied to the indicator light is 3.50 V.
+A voltage of 3.50 V is supplied to operate the DVD player's indicator light.
 
 </div>
 </div>
@@ -324,51 +291,16 @@ The voltage supplied to the indicator light is 3.50 V.
 
 </div>
 <div class="solution" markdown="1">
-**Strategy**
+(a) 0.300 V
 
-(a) and (b) Use Ohm's law $$V = IR$$ to calculate the voltage drop across each extension cord.
+(b) 1.50 V
 
-(c) Apply the concept of series circuits where voltage drops add up, and consider the implications for appliance operation.
-
-**Solution for (a)**
-
-For the good quality extension cord with 0.0600 Ω resistance:
-
-<div class="equation">
-$$V = IR = (5.00 \text{ A})(0.0600 \text{ Ω}) = 0.300 \text{ V}$$
-</div>
-
-**Solution for (b)**
-
-For the cheaper extension cord with 0.300 Ω resistance:
-
-<div class="equation">
-$$V = IR = (5.00 \text{ A})(0.300 \text{ Ω}) = 1.50 \text{ V}$$
-</div>
-
-**Solution for (c)**
-
-In a series circuit, the total voltage from the wall outlet (120 V) must equal the sum of voltage drops:
-
-<div class="equation">
-$$V_{\text{wall}} = V_{\text{cord}} + V_{\text{appliance}}$$
-</div>
-
-Therefore: $$V_{\text{appliance}} = V_{\text{wall}} - V_{\text{cord}}$$
-
-For the good cord: $$V_{\text{appliance}} = 120 - 0.30 = 119.7$$ V (99.75% of rated voltage)
-
-For the cheap cord: $$V_{\text{appliance}} = 120 - 1.50 = 118.5$$ V (98.75% of rated voltage)
-
-**Discussion**
-
-(a) The voltage drop of 0.300 V is negligible—only 0.25% of the 120 V supply.
-
-(b) The 1.50 V drop is five times larger (1.25% loss), which becomes significant for high-power appliances.
-
-(c) Since the wall outlet maintains constant voltage, any voltage "lost" in the cord means less voltage available for the appliance. Additionally, the power dissipated in the cord (wasted as heat) is $$P = I^2R$$: only 1.5 W for the good cord but 7.5 W for the cheap cord. For high-power appliances like space heaters drawing 10-15 A, a cheap cord could overheat and present a fire hazard. The reduced voltage to the appliance also means reduced power output: a heater would produce less heat, a motor would run slower and could overheat.
-
-(a) The voltage drop in the good extension cord is 0.300 V. (b) The voltage drop in the cheaper cord is 1.50 V. (c) The appliance receives reduced voltage because the cord and appliance are in series, sharing the total voltage. This can cause reduced performance, overheating, or even damage to some appliances.
+(c) The voltage supplied to whatever appliance is being used is reduced because
+the total voltage drop from the wall to the final output of the appliance is
+fixed. Thus, if the voltage drop across the extension cord is large, the voltage
+drop across the appliance is significantly decreased, so the power output by the
+appliance can be significantly decreased, reducing the ability of the appliance
+to work properly.
 
 </div>
 </div>
@@ -382,7 +314,7 @@ A power transmission line is hung from metal towers with glass insulators having
 <div class="solution" markdown="1">
 **Strategy**
 
-Apply Ohm's law $$I = V/R$$ directly. The extremely high resistance of the glass insulator should result in a very small current.
+We apply Ohm's law $$I = \frac{V}{R}$$ to find the leakage current through the insulator. The voltage must be converted from kilovolts to volts.
 
 **Solution**
 
@@ -392,7 +324,7 @@ Convert voltage to SI units:
 $$V = 200 \text{ kV} = 200 \times 10^{3} \text{ V} = 2.00 \times 10^{5} \text{ V}$$
 </div>
 
-Calculate the current using Ohm's law:
+Apply Ohm's law:
 
 <div class="equation">
 $$I = \frac{V}{R} = \frac{2.00 \times 10^{5} \text{ V}}{1.00 \times 10^{9} \text{ Ω}} = 2.00 \times 10^{-4} \text{ A} = 0.200 \text{ mA}$$
@@ -400,9 +332,9 @@ $$I = \frac{V}{R} = \frac{2.00 \times 10^{5} \text{ V}}{1.00 \times 10^{9} \text
 
 **Discussion**
 
-The leakage current of 0.200 mA (200 μA) through each insulator is extremely small compared to the hundreds of amperes flowing through the transmission line itself. This tiny current represents power loss: $$P = IV = (2.00 \times 10^{-4})(2.00 \times 10^{5}) = 40$$ W per insulator. While this seems small, with thousands of insulators on a long transmission line, the total leakage adds up. This is why glass and ceramic insulators are used—their resistance of $$10^{9}$$ Ω or higher minimizes leakage. In wet conditions, contamination on insulator surfaces can lower resistance significantly, which is why insulators have their distinctive ribbed shape to increase the surface path length and maintain high resistance even when wet.
+This tiny current of 0.200 mA represents the leakage current through a single insulator. While seemingly negligible, this leakage has important implications. First, the power lost through this insulator is $$P = IV = (2.00 \times 10^{-4} \text{ A})(2.00 \times 10^{5} \text{ V}) = 40 \text{ W}$$. With thousands of insulators on a transmission line, the total leakage power loss becomes significant. Second, insulators must maintain their high resistance even under adverse conditions like rain, pollution, or ice buildup, which can dramatically lower resistance and increase leakage current. This is why insulators have their characteristic ribbed design—to increase the surface path length and reduce current flow even when wet. The gigaohm resistance ensures that virtually all the transmitted power reaches consumers rather than being lost through the towers.
 
-The current flowing through the glass insulator is $$2.00 \times 10^{-4}$$ A (0.200 mA).
+A current of 0.200 mA (or $$2.00 \times 10^{-4}$$ A) flows through the insulator.
 
 </div>
 </div>
@@ -412,13 +344,13 @@ The current flowing through the glass insulator is $$2.00 \times 10^{-4}$$ A (0.
 {: class="glossary-title"}
 
 Ohm’s law
-: an empirical relation stating that the current *I* is proportional to the
-potential difference *V*, *∝ V*; it is often written as *I = V/R*, where *R* is
+: an empirical relation stating that the current _I_ is proportional to the
+potential difference _V_, _∝ V_; it is often written as _I = V/R_, where _R_ is
 the resistance
 
 resistance
 : the electric property that impedes current; for ohmic materials, it is the
-ratio of voltage to current, *R = V/I*
+ratio of voltage to current, _R = V/I_
 
 ohm
 : the unit of resistance, given by 1Ω = 1 V/A

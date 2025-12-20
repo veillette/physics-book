@@ -15,7 +15,7 @@ forces account for all known phenomena. In fact, nearly all of the forces we
 experience directly are due to only one basic force, called the electromagnetic
 force. (The gravitational force is the only force we experience directly that is
 not electromagnetic.) This is a tremendous simplification of the myriad of
-*apparently* different forces we can list, only a few of which were discussed in
+_apparently_ different forces we can list, only a few of which were discussed in
 the previous section. As we will see, the basic forces are all thought to act
 through the exchange of microscopic carrier particles, and the characteristics
 of the basic forces are determined by the types of particles exchanged. Action
@@ -23,7 +23,7 @@ at a distance, such as the gravitational force of Earth on the Moon, is
 explained by the existence of a **force field** rather than by “physical
 contact.”
 
-The *four basic forces* are the gravitational force, the electromagnetic force,
+The _four basic forces_ are the gravitational force, the electromagnetic force,
 the weak nuclear force, and the strong nuclear force. Their properties are
 summarized in [Table 1](#Table1). Since the weak and strong nuclear forces act
 over an extremely short range, the size of a nucleus or less, we do not
@@ -49,18 +49,18 @@ experienced on the macroscopic scale.
 
 ##### Table 1: Properties of the Four Basic Forces
 
-| Force           | Approximate Relative Strengths | Range|    Attraction/Repulsion    | Carrier Particle |
-|----|--------------------------------|----|----|----|
-| Gravitational   | $$ 10^{−38}$$                  | $$\infty$$      | attractive only            | Graviton |
-| Electromagnetic | $$10^{-2}$$                    | $$\infty$$      | attractive and repulsive    | Photon |
-| Weak nuclear    | $$10^{-6}$$                    | $$<10^{-18}$$m  | attractive and repulsive    | W+, W–, Z0 |
-| Strong nuclear  | $$1$$                          | $$<10^{-15}$$m    | attractive and repulsive    | Gluons |
+| Force           | Approximate Relative Strengths | Range          | Attraction/Repulsion     | Carrier Particle |
+| --------------- | ------------------------------ | -------------- | ------------------------ | ---------------- |
+| Gravitational   | $$ 10^{−38}$$                  | $$\infty$$     | attractive only          | Graviton         |
+| Electromagnetic | $$10^{-2}$$                    | $$\infty$$     | attractive and repulsive | Photon           |
+| Weak nuclear    | $$10^{-6}$$                    | $$<10^{-18}$$m | attractive and repulsive | W+, W–, Z0       |
+| Strong nuclear  | $$1$$                          | $$<10^{-15}$$m | attractive and repulsive | Gluons           |
 
 {: #Table1}
 
 The gravitational force is surprisingly weak—it is only because gravity is
 always attractive that we notice it at all. Our weight is the gravitational
-force due to the *entire* Earth acting on us. On the very large scale, as in
+force due to the _entire_ Earth acting on us. On the very large scale, as in
 astronomical systems, the gravitational force is the dominant force determining
 the motions of moons, planets, stars, and galaxies. The gravitational force also
 affects the nature of space and time. As we shall see later in the study of
@@ -69,14 +69,14 @@ as the Sun, and time actually slows down near massive bodies.
 
 Electromagnetic forces can be either attractive or repulsive. They are
 long-range forces, which act over extremely large distances, and they nearly
-cancel for macroscopic objects. (Remember that it is the *net* external force
+cancel for macroscopic objects. (Remember that it is the _net_ external force
 that is important.) If they did not cancel, electromagnetic forces would
 completely overwhelm the gravitational force. The electromagnetic force is a
 combination of electrical forces (such as those that cause static electricity)
 and magnetic forces (such as those that affect a compass needle). These two
 forces were thought to be quite distinct until early in the 19th century, when
 scientists began to discover that they are different manifestations of the same
-force. This discovery is a classical case of the *unification of forces*.
+force. This discovery is a classical case of the _unification of forces_.
 Similarly, friction, tension, and all of the other classes of forces we
 experience directly (except gravity, of course) are due to electromagnetic
 interactions of atoms and molecules. It is still convenient to consider these
@@ -101,7 +101,7 @@ Unified Theories (GUTs), with which there has been some success in recent years.
 It is now known that under conditions of extremely high density and temperature,
 such as existed in the early universe, the electromagnetic and weak nuclear
 forces are indistinguishable. They can now be considered to be different
-manifestations of one force, called the *electroweak* force. So the list of four
+manifestations of one force, called the _electroweak_ force. So the list of four
 has been reduced in a sense to only three. Further progress in unifying all
 forces is proving difficult—especially the inclusion of the gravitational force,
 which has the special characteristics of affecting the space and time in which
@@ -119,8 +119,8 @@ and the Moon, for example, interact without coming into contact. It is also true
 for all other forces. Friction, for example, is an electromagnetic force between
 atoms that may not actually touch. What is it that carries forces between
 objects? One way to answer this question is to imagine that a **force field**
-surrounds whatever object creates the force. A second object (often called a 
-*test object*) placed in this field will experience a force that is a function of
+surrounds whatever object creates the force. A second object (often called a
+_test object_) placed in this field will experience a force that is a function of
 location and other variables. The field itself is the “thing” that carries the
 force from one object to another. The field is defined so as to be a
 characteristic of the object creating it; the field does not depend on the test
@@ -132,7 +132,7 @@ for gravity, this yields $$ w=mg $$ at Earth’s surface), and motions can be
 calculated from these equations. (
 See [Figure 1](#Figure1).)
 
-![The electric force field between a positively charged particle and a negatively charged particle. Electric field lines start from the positive charge and end at the negative charge, and each line is represented as a curved arrow.](../resources/Figure_04_08_01.jpg "The electric force field between a positively charged particle and a negatively charged particle. When a positive test charge is placed in the field, the charge will experience a force in the direction of the force field lines.")
+![The electric force field between a positively charged particle and a negatively charged particle. Electric field lines start from the positive charge and end at the negative charge, and each line is represented as a curved arrow.](../resources/Figure_04_08_01.jpg 'The electric force field between a positively charged particle and a negatively charged particle. When a positive test charge is placed in the field, the charge will experience a force in the direction of the force field lines.')
 {: #Figure1}
 
 <div class="note" data-label="" markdown="1">
@@ -155,8 +155,11 @@ basketball back and forth, thereby exerting a repulsive force without touching
 one another. (See [Figure 2](#Figure2).)
 
 ![(a) Two persons throwing a basketball to each other. The person on the left is throwing the ball with some force F sub p one, represented by a vector pointing right, in the direction of the motion of the ball. A reaction force F sub B is shown on the person by a vector pointing left. (b) The person catches the ball, exerting a force F sub p two on the ball toward the left, shown by a vector F sub p two toward the left. A reaction force F prime sub B acts on the person, shown by a vector pointing toward right.
-(c) The exchange of a meson is shown between a proton and a neutron. Both are moving in different directions, and the proton feels a force F sub exch toward the left and the neutron feels a force F prime sub exch toward the right. The meson is also moving toward the right between the proton and the neutron.](../resources/Figure_04_08_02.jpg "The exchange of masses resulting in repulsive forces. (a) The person throwing the basketball exerts a force \( \vb{F}_{p1} \) on it toward the other person and feels a reaction force &#10; \( \vb{F}_B \) away from the second person. (b) The person catching the basketball exerts a force &#10;\( \vb{F}_{p2} \) on it to stop the ball and feels a reaction force &#10; \( \vb{F}^\prime_B \) away from the first person.
-(c) The analogous exchange of a meson between a proton and a neutron carries the strong nuclear forces \( \vb{F}_\text{exch} \) and \( \vb{F}^\prime_\text{exch} \) between them. An attractive force can also be exerted by the exchange of a mass&#x2014;if person 2 pulled the basketball away from the first person as he tried to retain it, then the force between them would be attractive.")
+(c) The exchange of a meson is shown between a proton and a neutron. Both are moving in different directions, and the proton feels a force F sub exch toward the left and the neutron feels a force F prime sub exch toward the right. The meson is also moving toward the right between the proton and the neutron.](../resources/Figure_04_08_02.jpg 'The exchange of masses resulting in repulsive forces. (a) The person throwing the basketball exerts a force ( \\vb{F}_{p1} ) on it toward the other person and feels a reaction force 
+ ( \\vb{F}_B ) away from the second person. (b) The person catching the basketball exerts a force 
+( \\vb{F}_{p2} ) on it to stop the ball and feels a reaction force 
+ ( \\vb{F}^\\prime_B ) away from the first person.
+(c) The analogous exchange of a meson between a proton and a neutron carries the strong nuclear forces ( \\vb{F}_\\text{exch} ) and ( \\vb{F}^\\prime_\\text{exch} ) between them. An attractive force can also be exerted by the exchange of a mass—if person 2 pulled the basketball away from the first person as he tried to retain it, then the force between them would be attractive.')
 {: #Figure2 height="450"}
 
 This idea of particle exchange deepens rather than contradicts field concepts.
@@ -164,7 +167,7 @@ It is more satisfying philosophically to think of something physical actually
 moving between objects acting at a distance. [Table 1](#Table1)
 lists the exchange or **carrier particles**, both observed and proposed, that
 carry the four forces. But the real fruit of the particle-exchange proposal is
-that searches for Yukawa’s proposed particle found it *and* a number of others
+that searches for Yukawa’s proposed particle found it _and_ a number of others
 that were completely unexpected, stimulating yet more research. All of this
 research eventually led to the proposal of quarks as the underlying substructure
 of matter, which is a basic tenet of GUTs. If successful, these theories will
@@ -177,10 +180,10 @@ circumference) allows two high-energy proton beams, traveling in opposite
 directions, to collide. An energy of 14 trillion electron volts will be
 available. Its first run discoveries included the force carrier
 particles, namely the Higgs boson. (
-See [Figure 3](#Figure3).) 
+See [Figure 3](#Figure3).)
 The LHC's goal is to allow physicists to test the predictions of different theories of particle physics, including measuring the properties of the Higgs boson, searching for the large family of new particles predicted by supersymmetric theories, and other unresolved questions in particle physics such as why different particles have different masses.
 
-![A close-up view of part of the world&#x2019;s largest particle accelerator.](../resources/Figure_04_08_03.jpg "The world&#x2019;s largest particle accelerator spans the border between Switzerland and France. Two beams, traveling in opposite directions close to the speed of light, collide in a tube similar to the central tube shown here. External magnets determine the beam&#x2019;s path. Special detectors will analyze particles created in these collisions. Questions as broad as what is the origin of mass and what was matter like the first few seconds of our universe will be explored. This accelerator began preliminary operation in 2008. (credit: Frank Hommes)")
+![A close-up view of part of the world’s largest particle accelerator.](../resources/Figure_04_08_03.jpg 'The world’s largest particle accelerator spans the border between Switzerland and France. Two beams, traveling in opposite directions close to the speed of light, collide in a tube similar to the central tube shown here. External magnets determine the beam’s path. Special detectors will analyze particles created in these collisions. Questions as broad as what is the origin of mass and what was matter like the first few seconds of our universe will be explored. This accelerator began preliminary operation in 2008. (credit: Frank Hommes)')
 {: #Figure3}
 
 Tiny particles also have wave-like behavior, something we will explore more in a
@@ -215,7 +218,7 @@ the relative positions of each satellite to detect passing gravitational waves.
 Accuracy to within 10% of the size of an atom will be needed to detect any
 waves. The launch of this project will likely be in the 2030s.
 
-![NASA illustration of LISA, showing three spacecrafts positioned in orbits that form a triangular formation. The triangular formation is positioned to the left of the Sun, Earth, and Moon in the diagram. Figure not to scale.](../resources/Figure_04_08_04.jpg "Space-based future experiments for the measurement of gravitational waves. Shown here is a drawing of LISA&#x2019;s orbit. Each satellite of LISA will consist of a laser source and a mass. The lasers will transmit a signal to measure the distance between each satellite&#x2019;s test mass. The relative motion of these masses will provide information about passing gravitational waves. (credit: NASA)")
+![NASA illustration of LISA, showing three spacecrafts positioned in orbits that form a triangular formation. The triangular formation is positioned to the left of the Sun, Earth, and Moon in the diagram. Figure not to scale.](../resources/Figure_04_08_04.jpg 'Space-based future experiments for the measurement of gravitational waves. Shown here is a drawing of LISA’s orbit. Each satellite of LISA will consist of a laser source and a mass. The lasers will transmit a signal to measure the distance between each satellite’s test mass. The relative motion of these masses will provide information about passing gravitational waves. (credit: NASA)')
 {: #Figure4}
 
 As you can see above, some of the most groundbreaking developments in physics are made with a relatively long gap from theoretical prediction to experimental detection. This pattern continues the process of science from its earliest days, where early thinkers and researchers made discoveries that only led to more questions. Einstein was unique in many ways, but he was not unique in that later scientists, building on his and each other's work, would prove his theories. Evidence for black holes became more and more concrete as scientists developed new and better ways to look for them. Some of the most prominent have been Roger Penrose, who developed new mathematical models related to black holes, as well as Reinhard Genzel and Andrea Ghez, who independently used telescope observations to identify a region of our galaxy where a massive unseen gravity source (4 million times the size of our Sun) was pulling on stars. And soon after, collaborators on the Event Horizon Telescope project produced the first actual image of a black hole.
@@ -225,16 +228,16 @@ physics that will be covered in much greater depth in later chapters.
 
 ### Summary
 
-* The various types of forces that are categorized for use in many applications
-  are all manifestations of the *four basic forces*
+- The various types of forces that are categorized for use in many applications
+  are all manifestations of the _four basic forces_
   in nature.
-* The properties of these forces are summarized in [Table 1](#Table1).
-* Everything we experience directly without sensitive instruments is due to
+- The properties of these forces are summarized in [Table 1](#Table1).
+- Everything we experience directly without sensitive instruments is due to
   either electromagnetic forces or gravitational forces. The nuclear forces are
   responsible for the submicroscopic structure of matter, but they are not
   directly sensed because of their short ranges. Attempts are being made to show
   all four forces are different manifestations of a single unified force.
-* A force field surrounds an object creating a force and is the carrier of that
+- A force field surrounds an object creating a force and is the carrier of that
   force.
 
 ### Conceptual Questions
@@ -275,6 +278,7 @@ Use the relative strengths of fundamental forces from Table 1. Compare the weak 
 **Solution**
 
 From Table 1, the relative strengths are:
+
 - Strong nuclear force: $$ 1 $$
 - Electromagnetic force: $$ 10^{-2} $$
 - Weak nuclear force: $$ 10^{-6} $$
@@ -350,6 +354,7 @@ $$ \frac{\text{gravitational}}{\text{electromagnetic}} = \frac{10^{-38}}{10^{-2}
 **Implications for atomic nuclei:**
 
 These ratios show that gravity is extraordinarily weak compared to all other fundamental forces:
+
 - Gravity is $$ 10^{38} $$ times weaker than the strong nuclear force
 - Gravity is $$ 10^{32} $$ times weaker than the weak nuclear force
 - Gravity is $$ 10^{36} $$ times weaker than the electromagnetic force
@@ -359,6 +364,7 @@ At the scale of atomic nuclei (or even atoms and molecules), the gravitational f
 **Discussion**
 
 The weakness of gravity at the atomic scale means that:
+
 - Nuclear structure is determined entirely by the strong nuclear force and electromagnetic repulsion between protons
 - Chemical bonding is purely electromagnetic in nature
 - We can completely ignore gravity in particle physics and quantum mechanics
@@ -390,10 +396,12 @@ Use the relative strengths of fundamental forces from Table 1. Calculate the rat
 **Solution**
 
 From Table 1:
+
 - Strong nuclear force: $$ 1 $$
 - Electromagnetic force: $$ 10^{-2} $$
 
 **Ratio:**
+
 <div class="equation">
 $$ \frac{\text{strong nuclear}}{\text{electromagnetic}} = \frac{1}{10^{-2}} = 10^{2} = 100 $$
 </div>
@@ -405,15 +413,18 @@ The strong nuclear force is 100 times stronger than the electromagnetic force. T
 **In small nuclei:** The strong force dominates, easily overcoming the electromagnetic repulsion between protons. This allows protons and neutrons to bind tightly together despite the positive charges repelling each other.
 
 **In large nuclei:** Two competing effects occur:
+
 1. The strong force has a very short range (~$$ 10^{-15} $$ m or 1 femtometer). Each nucleon only feels the strong force from its nearest neighbors.
 2. The electromagnetic force has infinite range. Each proton repels every other proton in the nucleus, regardless of distance.
 
 As nuclei grow larger:
+
 - The strong force provides binding only locally (nearest neighbors)
 - The electromagnetic repulsion accumulates globally (all protons)
 - Eventually, the total electromagnetic repulsion becomes comparable to the strong force binding
 
 This is why:
+
 - Elements heavier than iron (Fe, 26 protons) release energy when split (fission) rather than when combined
 - The heaviest naturally stable element is lead (Pb, 82 protons)
 - Elements heavier than uranium (U, 92 protons) are unstable and decay radioactively

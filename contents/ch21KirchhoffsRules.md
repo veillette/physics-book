@@ -18,7 +18,7 @@ simple or complex. These rules are special cases of the laws of conservation of
 charge and conservation of energy. The rules are known as **Kirchhoff’s rules**,
 after their inventor Gustav Kirchhoff (1824–1887).
 
-![A complicated circuit diagram shows multiple resistances and voltage sources wired in series and in parallel. The circuit has three arms. The first has a cell of e m f script E sub one and internal resistance r sub one in series with a resistor R sub two. The second has a cell of e m f script E sub two and internal resistance r sub two in series with resistor R sub three. The third arm has a resistor R sub one. The three arms are connected in parallel.](../resources/Figure_21_03_01.jpg "This circuit cannot be reduced to a combination of series and parallel connections. Kirchhoff&#x2019;s rules, special applications of the laws of conservation of charge and energy, can be used to analyze it. (Note: The script E in the figure represents electromotive force, emf.)")
+![A complicated circuit diagram shows multiple resistances and voltage sources wired in series and in parallel. The circuit has three arms. The first has a cell of e m f script E sub one and internal resistance r sub one in series with a resistor R sub two. The second has a cell of e m f script E sub two and internal resistance r sub two in series with resistor R sub three. The third arm has a resistor R sub one. The three arms are connected in parallel.](../resources/Figure_21_03_01.jpg 'This circuit cannot be reduced to a combination of series and parallel connections. Kirchhoff’s rules, special applications of the laws of conservation of charge and energy, can be used to analyze it. (Note: The script E in the figure represents electromotive force, emf.)')
 {: #Figure1}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -51,15 +51,17 @@ Kirchhoff’s rules for circuit analysis are applications of **conservation laws
 
 </div>
 
-![This schematic drawing shows a T-junction, with one current I sub one flowing into the T and two currents I sub two and I sub three flowing out of the T junction.](../resources/Figure_21_03_02.jpg "The junction rule. The diagram shows an example of Kirchhoff&#x2019;s first rule where the sum of the currents into a junction equals the sum of the currents out of a junction. In this case, the current going into the junction splits and comes out as two currents, so that \( I_1=I_2+I_3 \). Here \( I_{1} \) must be 11 A, since \( I_{2} \) is 7 A and \( I_{3} \) is 4 A.")
+![This schematic drawing shows a T-junction, with one current I sub one flowing into the T and two currents I sub two and I sub three flowing out of the T junction.](../resources/Figure_21_03_02.jpg 'The junction rule. The diagram shows an example of Kirchhoff’s first rule where the sum of the currents into a junction equals the sum of the currents out of a junction. In this case, the current going into the junction splits and comes out as two currents, so that ( I_1=I_2+I_3 ). Here ( I_{1} ) must be 11 A, since ( I_{2} ) is 7 A and ( I_{3} ) is 4 A.')
 {: #Figure2}
 
 ### Kirchhoff’s Second Rule
 
 Kirchhoff’s second rule (the **loop rule**) is an application of conservation of
 energy. The loop rule is stated in terms of potential, $$V $$ , rather than
-potential energy, but the two are related since $${\text{PE}}_{\text{elec}}=qV
-$$ . Recall that **emf**{: class="term"} is the potential difference of a source
+potential energy, but the two are related since $${\text{PE}}\_{\text{elec}}=qV
+
+$$
+. Recall that **emf**{: class="term"} is the potential difference of a source
 when no current is flowing. In a closed loop, whatever energy is supplied by emf
 must be transferred into other forms by devices in the loop, since there are no
 other ways in which energy can be transferred into or out of the
@@ -240,7 +242,7 @@ Problem-Solving Strategies for Kirchhoff’s Rules
 2.   Apply the junction rule to any junction in the circuit. Each time the junction rule is applied, you should get an equation with a current that does not appear in a previous application—if not, then the equation is redundant.
 3.   Apply the loop rule to as many loops as needed to solve for the unknowns in the problem. (There must be as many independent equations as unknowns.) To apply the loop rule, you must choose a direction to go around the loop. Then carefully and consistently determine the signs of the potential changes for each element using the four bulleted points discussed above in conjunction with [[Figure 4]](#Figure4).
 4.   Solve the simultaneous equations for the unknowns. This may involve many algebraic steps, requiring careful checking and rechecking.
-5.   Check to see whether the answers are reasonable and consistent. The numbers should be of the correct order of magnitude, neither exceedingly large nor vanishingly small. The signs should be reasonable—for example, no resistance should be negative. Check to see that the values obtained satisfy the various equations obtained from applying the rules. The currents should satisfy the junction rule, for example. 
+5.   Check to see whether the answers are reasonable and consistent. The numbers should be of the correct order of magnitude, neither exceedingly large nor vanishingly small. The signs should be reasonable—for example, no resistance should be negative. Check to see that the values obtained satisfy the various equations obtained from applying the rules. The currents should satisfy the junction rule, for example.
 
 </div>
 
@@ -395,7 +397,7 @@ Apply the loop rule to loop akledcba in [[Figure 8]](#Figure8).
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Find the currents flowing in the circuit in [[Figure 8]](#Figure8). Explicitly show how you follow the steps in 
+Find the currents flowing in the circuit in [[Figure 8]](#Figure8). Explicitly show how you follow the steps in
 the [Problem-Solving Strategies for Series and Parallel Resistors](../contents/ch21ResistorsInSeriesAndInParallel#Note1).
 
 </div>
@@ -403,7 +405,7 @@ the [Problem-Solving Strategies for Series and Parallel Resistors](../contents/c
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Solve [[Example 1]](#Example1), but use loop abcdefgha instead of loop akledcba. Explicitly show how you follow the 
+Solve [[Example 1]](#Example1), but use loop abcdefgha instead of loop akledcba. Explicitly show how you follow the
 steps in the [Problem-Solving Strategies for Series and Parallel Resistors](../contents/ch21ResistorsInSeriesAndInParallel#Note1).
 
 </div>
@@ -468,3 +470,4 @@ conservation laws
 : require that energy and charge be conserved in a system
 
 </div>
+$$

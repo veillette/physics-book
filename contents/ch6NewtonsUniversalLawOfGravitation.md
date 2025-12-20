@@ -29,7 +29,7 @@ the immense.
 
 Sir Isaac Newton was the first scientist to precisely define the gravitational force, and to show that it could explain both falling bodies and astronomical motions. See [Figure 1](#Figure1). But Newton was not the first to suspect that the same force caused both our weight and the motion of planets. His forerunner Galileo Galilei had contended that falling bodies and planetary motions had the same cause. Some of Newton's contemporaries, such as Robert Hooke, Christopher Wren, and Edmund Halley, had also made some progress toward understanding gravitation. But Newton was the first to propose an exact mathematical form and to use that form to show that the motion of heavenly bodies should be conic sections—circles, ellipses, parabolas, and hyperbolas. This theoretical prediction was a major triumph—it had been known for some time that moons, planets, and comets follow such paths, but no one had been able to propose a mechanism that caused them to follow these paths and not others. Other prominent scientists and mathematicians of the time, particularly those outside of England, were reluctant to accept Newton's principles. It took the work of another prominent philosopher, writer, and scientist, Émilie du Châtelet, to establish the Newtonian gravitation as the accurate and overarching law. Du Châtelet, who had earlier laid the foundation for the understanding of conservation of energy as well as the principle that light had no mass, translated and augmented Newton's key work. She also utilized calculus to explain gravity, which helped lead to its acceptance.
 
-![The figure shows a graphic image of a person sitting under a tree carefully looking toward an apple falling from the tree above him. There is a view of a river behind him and an image of the Sun in the sky.](../resources/Figure_06_05_01.jpg "According to early accounts, Newton was inspired to make the connection between falling bodies and astronomical motions when he saw an apple fall from a tree and realized that if the gravitational force could extend above the ground to a tree, it might also reach the Sun. The inspiration of Newton&#x2019;s apple is a part of worldwide folklore and may even be based in fact. Great importance is attached to it because Newton&#x2019;s universal law of gravitation and his laws of motion answered very old questions about nature and gave tremendous support to the notion of underlying simplicity and unity in nature. Like many revolutionary discoveries, it was not immediately accepted. Prominent French scientist and philosopher Émilie du Châtelet helped establish Newton&#x2019;s theory in France and mainland Europe.")
+![The figure shows a graphic image of a person sitting under a tree carefully looking toward an apple falling from the tree above him. There is a view of a river behind him and an image of the Sun in the sky.](../resources/Figure_06_05_01.jpg 'According to early accounts, Newton was inspired to make the connection between falling bodies and astronomical motions when he saw an apple fall from a tree and realized that if the gravitational force could extend above the ground to a tree, it might also reach the Sun. The inspiration of Newton’s apple is a part of worldwide folklore and may even be based in fact. Great importance is attached to it because Newton’s universal law of gravitation and his laws of motion answered very old questions about nature and gave tremendous support to the notion of underlying simplicity and unity in nature. Like many revolutionary discoveries, it was not immediately accepted. Prominent French scientist and philosopher Émilie du Châtelet helped establish Newton’s theory in France and mainland Europe.')
 {: #Figure1}
 
 The gravitational force is relatively simple. It is always attractive, and it
@@ -39,7 +39,7 @@ particle in the universe attracts every other particle with a force along a line
 joining them. The force is directly proportional to the product of their masses
 and inversely proportional to the square of the distance between them.
 
-![The given figure shows two circular objects, one with a larger mass M on the right side, and another with a smaller mass m on the left side. A point in the center of each object is shown, with both depicting the center of mass of the objects at these points. A line is drawn joining the center of the objects and is labeled as r. Two red arrows, one each from both the center of the objects, are drawn toward each other and are labeled as F, the magnitude of the gravitational force on both the objects.](../resources/Figure_06_05_02.jpg "Gravitational attraction is along a line joining the centers of mass of these two bodies. The magnitude of the force is the same on each, consistent with Newton&#x2019;s third law.")
+![The given figure shows two circular objects, one with a larger mass M on the right side, and another with a smaller mass m on the left side. A point in the center of each object is shown, with both depicting the center of mass of the objects at these points. A line is drawn joining the center of the objects and is labeled as r. Two red arrows, one each from both the center of the objects, are drawn toward each other and are labeled as F, the magnitude of the gravitational force on both the objects.](../resources/Figure_06_05_02.jpg 'Gravitational attraction is along a line joining the centers of mass of these two bodies. The magnitude of the force is the same on each, consistent with Newton’s third law.')
 {: #Figure2}
 
 <div class="note" data-label="" markdown="1">
@@ -84,16 +84,18 @@ weight is the force of attraction of the *entire Earth* on us with a mass of $$
 6\times 10^{24}\kg $$.
 
 Recall that the acceleration due to gravity $$ g $$ is about $$ 9.80 \mss $$ on
-Earth. We can now determine why this is so. The weight of an object *mg* is the
+Earth. We can now determine why this is so. The weight of an object _mg_ is the
 gravitational force between it and Earth. Substituting
-*mg* for $$ F $$ in Newton’s universal law of gravitation gives
+_mg_ for $$ F $$ in Newton’s universal law of gravitation gives
 
 <div class="equation">
  $$ mg =G\frac{mM}{ r^{2}}, $$
 </div>
 
 where $$ m $$ is the mass of the object, $$ M $$ is the mass of Earth, and $$ r
-$$ is the distance to the center of Earth (the distance between the centers of
+
+$$
+is the distance to the center of Earth (the distance between the centers of
 mass of the object and Earth). See [Figure 3](#Figure3). The mass $$ m $$ of the
 object cancels, leaving an equation for $$ g $$:
 
@@ -135,7 +137,7 @@ Take a marble, a ball, and a spoon and drop them from the same height. Do they h
 <div class="title">
 Making Connections
 </div>
-Attempts are still being made to understand the gravitational force. 
+Attempts are still being made to understand the gravitational force.
 Modern physics is exploring the connections of gravity to other forces,
 space, and time. General relativity alters our view of gravitation,
 leading us to think of gravitation as bending space and time.
@@ -162,7 +164,9 @@ value of the acceleration due to Earth’s gravity that you have just found.
 
 This calculation is the same as the one finding the acceleration due to gravity
 at Earth’s surface, except that $$ r $$ is the distance from the center of Earth
-to the center of the Moon. The radius of the Moon’s nearly circular orbit is $$
+to the center of the Moon. The radius of the Moon’s nearly circular orbit is
+$$
+
 3.84 \times 10^{8}\m $$.
 
 **Solution for (a)**
@@ -242,7 +246,7 @@ force as discussed
 in [Satellites and Kepler\'s Laws: An Argument for Simplicity](./ch6SatellitesAndKeplersLaws)
 .
 
-![Figure a shows the Earth and the Moon around it orbiting in a circular path shown here as a circle around the Earth with an arrow over it showing the counterclockwise direction of the Moon. The center of mass of the circle is shown here with a point on the Earth that is not the Earth&#x2019;s center but just right to its center. Figure b shows the Sun and the counterclockwise rotation of the Earth around it, in an elliptical path, which has wiggles. Along this path the center of mass of the Earth-Moon is also shown; it follows non-wiggled elliptical path.](../resources/Figure_06_05_04.jpg "(a) Earth and the Moon rotate approximately once a month around their common center of mass. (b) Their center of mass orbits the Sun in an elliptical orbit, but Earth&#x2019;s path around the Sun has &#x201C;wiggles&#x201D; in it. Similar wiggles in the paths of stars have been observed and are considered direct evidence of planets orbiting those stars. This is important because the planets&#x2019; reflected light is often too dim to be observed.")
+![Figure a shows the Earth and the Moon around it orbiting in a circular path shown here as a circle around the Earth with an arrow over it showing the counterclockwise direction of the Moon. The center of mass of the circle is shown here with a point on the Earth that is not the Earth’s center but just right to its center. Figure b shows the Sun and the counterclockwise rotation of the Earth around it, in an elliptical path, which has wiggles. Along this path the center of mass of the Earth-Moon is also shown; it follows non-wiggled elliptical path.](../resources/Figure_06_05_04.jpg '(a) Earth and the Moon rotate approximately once a month around their common center of mass. (b) Their center of mass orbits the Sun in an elliptical orbit, but Earth’s path around the Sun has “wiggles” in it. Similar wiggles in the paths of stars have been observed and are considered direct evidence of planets orbiting those stars. This is important because the planets’ reflected light is often too dim to be observed.')
 {: #Figure4 height="185"}
 
 ### Tides
@@ -261,7 +265,7 @@ orbits) keeps its orientation with the Moon. Thus there are two tides per day (
 the actual tidal period is about 12 hours and 25.2 minutes), because the Moon
 moves in its orbit each day as well).
 
-![The given figure shows an ellipse, inside which there is a circular image of the Earth. There is a curved arrow in the lower part of the Earth&#x2019;s image pointing in the counterclockwise direction. The right and left side of the ellipse are labeled as High tide and the top and bottom side are labeled as Low tide. Alongside this image a circular image of the Moon is also given with dots showing the crates over it. A vertically upwards vector from its top is also shown, which indicates the direction of the Moon&#x2019;s velocity.](../resources/Figure_06_05_05.jpg "The Moon causes ocean tides by attracting the water on the near side more than Earth, and by attracting Earth more than the water on the far side. The distances and sizes are not to scale. For this simplified representation of the Earth-Moon system, there are two high and two low tides per day at any location, because Earth rotates under the tidal bulge.")
+![The given figure shows an ellipse, inside which there is a circular image of the Earth. There is a curved arrow in the lower part of the Earth’s image pointing in the counterclockwise direction. The right and left side of the ellipse are labeled as High tide and the top and bottom side are labeled as Low tide. Alongside this image a circular image of the Moon is also given with dots showing the crates over it. A vertically upwards vector from its top is also shown, which indicates the direction of the Moon’s velocity.](../resources/Figure_06_05_05.jpg 'The Moon causes ocean tides by attracting the water on the near side more than Earth, and by attracting Earth more than the water on the far side. The distances and sizes are not to scale. For this simplified representation of the Earth-Moon system, there are two high and two low tides per day at any location, because Earth rotates under the tidal bulge.')
 {: #Figure5}
 
 The Sun also affects tides, although it has about half the effect of the Moon.
@@ -269,7 +273,7 @@ However, the largest tides, called spring tides, occur when Earth, the Moon, and
 the Sun are aligned. The smallest tides, called neap tides, occur when the Sun
 is at a $$ 90^\circ $$ angle to the Earth-Moon alignment.
 
-![Figure a shows an ellipse, inside which there is a circular image of the Earth. There is a curved arrow in the lower part of the Earth&#x2019;s image pointing in the counterclockwise direction. Alongside this image a circular image of the Moon is also given with dots showing the crates over it. A vertically upward vector from its top is also drawn, which shows the direction of velocity. To the right side of the image, an image of the Sun is also shown, in a circular shape with pointed wiggles throughout its boundary. Figure b shows an ellipse, inside which there is a circular image of the Earth. There is a curved arrow in the lower part of the Earth&#x2019;s image pointing in the counterclockwise direction. Alongside this image a circular image of the Moon is also given with dots showing the crates over it. A vertical downward vector from its bottom is also drawn, which shows the direction of velocity. To the right side of the image, an image of the Sun is also shown, in a circular shape and pointed wiggles throughout its boundary. Figure c shows an ellipse, inside which there is a circular image of the Earth. There is a curved arrow in the lower part of the Earth&#x2019;s image pointing in the counterclockwise direction. Alongside this image a circular image of the Moon is also given with dots showing the crates over it. A horizontal rightward vector from its right side is also drawn, which shows the direction of velocity. To the right side of the image, an image of the Sun is also shown, in a circular shape and pointed wiggles throughout its boundary.](../resources/Figure_06_05_06.jpg "(a, b) Spring tides: The highest tides occur when Earth, the Moon, and the Sun are aligned. (c) Neap tide: The lowest tides occur when the Sun lies at 90 degrees to the Earth-Moon alignment. Note that this figure is not drawn to scale.")
+![Figure a shows an ellipse, inside which there is a circular image of the Earth. There is a curved arrow in the lower part of the Earth’s image pointing in the counterclockwise direction. Alongside this image a circular image of the Moon is also given with dots showing the crates over it. A vertically upward vector from its top is also drawn, which shows the direction of velocity. To the right side of the image, an image of the Sun is also shown, in a circular shape with pointed wiggles throughout its boundary. Figure b shows an ellipse, inside which there is a circular image of the Earth. There is a curved arrow in the lower part of the Earth’s image pointing in the counterclockwise direction. Alongside this image a circular image of the Moon is also given with dots showing the crates over it. A vertical downward vector from its bottom is also drawn, which shows the direction of velocity. To the right side of the image, an image of the Sun is also shown, in a circular shape and pointed wiggles throughout its boundary. Figure c shows an ellipse, inside which there is a circular image of the Earth. There is a curved arrow in the lower part of the Earth’s image pointing in the counterclockwise direction. Alongside this image a circular image of the Moon is also given with dots showing the crates over it. A horizontal rightward vector from its right side is also drawn, which shows the direction of velocity. To the right side of the image, an image of the Sun is also shown, in a circular shape and pointed wiggles throughout its boundary.](../resources/Figure_06_05_06.jpg '(a, b) Spring tides: The highest tides occur when Earth, the Moon, and the Sun are aligned. (c) Neap tide: The lowest tides occur when the Sun lies at 90 degrees to the Earth-Moon alignment. Note that this figure is not drawn to scale.')
 {: #Figure6}
 
 Tides are not unique to Earth but occur in many astronomical systems. The most
@@ -280,7 +284,7 @@ observed in our galaxy. These have masses greater than the Sun but have
 diameters only a few kilometers across. The tidal forces near them are so great
 that they can actually tear matter from a companion star.
 
-![The figure shows a star in sky near a black hole. The tidal force of the black hole is tearing the matter from the star&#x2019;s surface. ](../resources/Figure_06_05_07.jpg "A black hole is an object with such strong gravity that not even light can escape it. This black hole was created by the supernova of one star in a two-star system. The tidal forces created by the black hole are so great that it tears matter from the companion star. This matter is compressed and heated as it is sucked into the black hole, creating light and X-rays observable from Earth.")
+![The figure shows a star in sky near a black hole. The tidal force of the black hole is tearing the matter from the star’s surface. ](../resources/Figure_06_05_07.jpg 'A black hole is an object with such strong gravity that not even light can escape it. This black hole was created by the supernova of one star in a two-star system. The tidal forces created by the black hole are so great that it tears matter from the companion star. This matter is compressed and heated as it is sucked into the black hole, creating light and X-rays observable from Earth.')
 {: #Figure7}
 
 ### ”Weightlessness” and Microgravity
@@ -296,7 +300,7 @@ gravity. If an elevator cable breaks, the passengers inside will be in free fall
 and will experience weightlessness. You can experience short periods of
 weightlessness in some rides in amusement parks.
 
-![The figure shows some astronauts floating inside the International Space Station](../resources/Figure_06_05_08.jpg "Astronauts experiencing weightlessness on board the International Space Station. (credit: NASA)")
+![The figure shows some astronauts floating inside the International Space Station](../resources/Figure_06_05_08.jpg 'Astronauts experiencing weightlessness on board the International Space Station. (credit: NASA)')
 {: #Figure8}
 
 **Microgravity** refers to an environment in which the apparent net acceleration
@@ -358,7 +362,9 @@ gravitation gives
 </div>
 
 where $$ m $$ is the mass of the object, $$ M $$ is the mass of Earth, and $$ r
-$$ is the distance to the center of Earth (the distance between the centers of
+
+$$
+is the distance to the center of Earth (the distance between the centers of
 mass of the object and Earth). See [Figure 2](#Figure2). The mass $$ m $$ of the
 object cancels, leaving an equation for $$ g $$:
 
@@ -473,9 +479,49 @@ and the radius of the Earth is 6372 km from center to pole.
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-a) $$ 5.972\times 10^{24}\kg $$
 
-b) This is identical to the best value to three significant figures.
+**Strategy**
+
+(a) We'll use Newton's law of universal gravitation in the form $$ g = \frac{GM}{r^2} $$ and solve for Earth's mass $$ M $$. We know $$ g = 9.807 $$ m/s² at the North Pole and the radius $$ r = 6372 $$ km.
+(b) We'll compare our calculated value with the accepted value.
+
+**Solution**
+
+(a) Start with the gravitational acceleration formula:
+
+<div class="equation">
+$$ g = \frac{GM}{r^2} $$
+</div>
+
+Solve for Earth's mass $$ M $$:
+
+<div class="equation">
+$$ M = \frac{gr^2}{G} $$
+</div>
+
+Convert radius to meters:
+
+<div class="equation">
+$$ r = 6372\text{ km} = 6.372 \times 10^6\text{ m} $$
+</div>
+
+Substitute values with $$ G = 6.674 \times 10^{-11} $$ N·m²/kg²:
+
+<div class="equation">
+$$ M = \frac{(9.807\text{ m/s}^2)(6.372 \times 10^6\text{ m})^2}{6.674 \times 10^{-11}\text{ N·m}^2\text{/kg}^2} $$
+</div>
+
+<div class="equation">
+$$ M = \frac{(9.807)(4.060 \times 10^{13})}{6.674 \times 10^{-11}} = \frac{3.982 \times 10^{14}}{6.674 \times 10^{-11}} = 5.972 \times 10^{24}\text{ kg} $$
+</div>
+
+(b) Compare with the accepted value:
+
+The accepted value is $$ 5.972 \times 10^{24} $$ kg. Our calculated value of $$ 5.972 \times 10^{24} $$ kg is **identical to the accepted value to three significant figures**. This perfect agreement confirms the accuracy of both Newton's law of universal gravitation and our measurement of Earth's radius and surface gravity.
+
+**Discussion**
+
+This problem demonstrates how Newton's law of universal gravitation can be used to determine the mass of Earth using only surface measurements. The fact that we can calculate Earth's mass so accurately from surface gravity and radius measurements is a powerful validation of Newton's gravitational theory. This same technique has been used to determine the masses of other planets, moons, and even the Sun, making universal gravitation one of the most important tools in astronomy and planetary science.
 
 </div>
 </div>
@@ -546,9 +592,42 @@ its radius is $$ 3.38 \times 10^{6}\m $$.
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-a) $$ 1.62 \mss $$
 
-b) $$ 3.75 \mss $$
+**Strategy**
+
+For both parts, we'll use $$ g = G\frac{M}{r^2} $$ to calculate surface gravity. We'll need the mass and radius of each body.
+
+**Solution**
+
+(a) Calculate the acceleration due to gravity on the Moon's surface. Using:
+- Mass of Moon: $$ M_{\text{Moon}} = 7.35 \times 10^{22} $$ kg
+- Radius of Moon: $$ r_{\text{Moon}} = 1.74 \times 10^{6} $$ m
+- $$ G = 6.674 \times 10^{-11} $$ N·m²/kg²
+
+<div class="equation">
+$$ g_{\text{Moon}} = G\frac{M_{\text{Moon}}}{r_{\text{Moon}}^2} = (6.674 \times 10^{-11})\frac{7.35 \times 10^{22}}{(1.74 \times 10^{6})^2} $$
+</div>
+
+<div class="equation">
+$$ g_{\text{Moon}} = \frac{4.91 \times 10^{12}}{3.03 \times 10^{12}} = 1.62\text{ m/s}^2 $$
+</div>
+
+(b) Calculate the acceleration due to gravity on Mars' surface. Using:
+- Mass of Mars: $$ M_{\text{Mars}} = 6.418 \times 10^{23} $$ kg
+- Radius of Mars: $$ r_{\text{Mars}} = 3.38 \times 10^{6} $$ m
+
+<div class="equation">
+$$ g_{\text{Mars}} = G\frac{M_{\text{Mars}}}{r_{\text{Mars}}^2} = (6.674 \times 10^{-11})\frac{6.418 \times 10^{23}}{(3.38 \times 10^{6})^2} $$
+</div>
+
+<div class="equation">
+$$ g_{\text{Mars}} = \frac{4.28 \times 10^{13}}{1.14 \times 10^{13}} = 3.75\text{ m/s}^2 $$
+</div>
+
+**Discussion**
+
+The Moon's surface gravity (1.62 m/s²) is about 16.5% of Earth's gravity (9.80 m/s²). This is why astronauts could make such dramatic leaps on the lunar surface—their weight was only about 1/6 of what it is on Earth. Mars' surface gravity (3.75 m/s²) is about 38% of Earth's gravity, making it significantly stronger than the Moon's but still much weaker than Earth's. This has important implications for future Mars missions: astronauts would weigh roughly 2/5 of their Earth weight, making movement easier than on Earth but not as dramatically different as on the Moon. The relatively low gravity on both bodies also explains why neither has been able to retain a substantial atmosphere—the escape velocity is lower, allowing atmospheric gases to more easily escape into space.
+
 </div>
 </div>
 
@@ -609,11 +688,62 @@ they are equal and why they should or should not be.
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-a) $$ 3.42\times 10^{-5} \mss $$
 
-b) $$ 3.34\times 10^{-5} \mss $$ The values are nearly identical. One would
-expect the gravitational force to be the same as the centripetal force at the
-core of the system.
+**Strategy**
+
+(a) We'll use $$ a = G\frac{M}{r^2} $$ to find the Moon's gravitational acceleration at the center of mass, using the distance from the center of mass to the Moon.
+(b) We'll calculate the centripetal acceleration using $$ a_c = r\omega^2 $$ where $$ r = 4700 $$ km is the radius of Earth's orbit around the center of mass.
+
+**Solution**
+
+(a) Calculate the acceleration due to Moon's gravity at the center of mass.
+
+The distance from the center of mass to the Moon is:
+- Earth-Moon distance: $$ 3.84 \times 10^{8} $$ m
+- Distance from Earth's center to center of mass: $$ r_1 = 4.70 \times 10^{6} $$ m
+- Distance from center of mass to Moon: $$ r_2 = 3.84 \times 10^{8} - 4.70 \times 10^{6} = 3.793 \times 10^{8} $$ m
+
+Using:
+- Mass of Moon: $$ M_{\text{Moon}} = 7.35 \times 10^{22} $$ kg
+- $$ G = 6.674 \times 10^{-11} $$ N·m²/kg²
+
+<div class="equation">
+$$ a_{\text{gravity}} = G\frac{M_{\text{Moon}}}{r_2^2} = (6.674 \times 10^{-11})\frac{7.35 \times 10^{22}}{(3.793 \times 10^{8})^2} $$
+</div>
+
+<div class="equation">
+$$ a_{\text{gravity}} = \frac{4.91 \times 10^{12}}{1.439 \times 10^{17}} = 3.41 \times 10^{-5}\text{ m/s}^2 $$
+</div>
+
+(b) Calculate the centripetal acceleration of Earth's center as it orbits the center of mass.
+
+The angular velocity is:
+
+<div class="equation">
+$$ \omega = \frac{2\pi}{T} = \frac{2\pi}{27.3\text{ days}} = \frac{2\pi}{27.3 \times 24 \times 3600\text{ s}} = \frac{2\pi}{2.36 \times 10^6} = 2.66 \times 10^{-6}\text{ rad/s} $$
+</div>
+
+The centripetal acceleration is:
+
+<div class="equation">
+$$ a_c = r_1\omega^2 = (4.70 \times 10^{6}\text{ m})(2.66 \times 10^{-6}\text{ rad/s})^2 $$
+</div>
+
+<div class="equation">
+$$ a_c = (4.70 \times 10^{6})(7.08 \times 10^{-12}) = 3.33 \times 10^{-5}\text{ m/s}^2 $$
+</div>
+
+**Comparison:**
+
+<div class="equation">
+$$ \frac{a_{\text{gravity}}}{a_c} = \frac{3.41 \times 10^{-5}}{3.33 \times 10^{-5}} = 1.024 $$
+</div>
+
+The values are nearly identical (within 2.4%), which is expected.
+
+**Discussion**
+
+The gravitational acceleration due to the Moon ($$ 3.41 \times 10^{-5} $$ m/s²) and the centripetal acceleration of Earth's center ($$3.33 \times 10^{-5}$$ m/s²) are nearly equal, as they must be. At the center of mass, the gravitational attraction from the Moon provides exactly the centripetal force needed to keep Earth orbiting around that point. The small difference (about 2%) is due to rounding in our calculations and the approximation that the orbit is perfectly circular. This problem beautifully demonstrates that the Earth-Moon system is truly a binary system, with both bodies orbiting their common center of mass, rather than the Moon simply orbiting Earth. The center of mass lies inside Earth (about 1690 km below the surface) because Earth is much more massive than the Moon, but both objects orbit this point.
 
 </div>
 </div>
@@ -670,9 +800,56 @@ that an unknown force causes it.)
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-a) $$ 7.01\times 10^{-7}\N $$
 
-b) $$ 1.35\times 10^{-6}\N $$, $$ 0.521 $$
+**Strategy**
+
+For both parts, we'll use Newton's law of universal gravitation: $$ F = G\frac{m_1 m_2}{r^2} $$. We'll compare the gravitational force from the father (nearby) to the force from Jupiter (far away).
+
+**Solution**
+
+(a) Calculate the gravitational force between father and baby:
+
+Given:
+- Mass of baby: $$ m_1 = 4.20 $$ kg
+- Mass of father: $$ m_2 = 100 $$ kg
+- Distance: $$ r = 0.200 $$ m
+- $$ G = 6.674 \times 10^{-11} $$ N·m²/kg²
+
+<div class="equation">
+$$ F_{\text{father}} = G\frac{m_1 m_2}{r^2} = (6.674 \times 10^{-11})\frac{(4.20)(100)}{(0.200)^2} $$
+</div>
+
+<div class="equation">
+$$ F_{\text{father}} = \frac{(6.674 \times 10^{-11})(420)}{0.0400} = \frac{2.80 \times 10^{-8}}{0.0400} = 7.01 \times 10^{-7}\text{ N} $$
+</div>
+
+(b) Calculate the gravitational force from Jupiter:
+
+Given:
+- Mass of baby: $$ m_1 = 4.20 $$ kg
+- Mass of Jupiter: $$ M_{\text{Jupiter}} = 1.90 \times 10^{27} $$ kg
+- Distance: $$ r = 6.29 \times 10^{11} $$ m
+
+<div class="equation">
+$$ F_{\text{Jupiter}} = G\frac{m_1 M_{\text{Jupiter}}}{r^2} = (6.674 \times 10^{-11})\frac{(4.20)(1.90 \times 10^{27})}{(6.29 \times 10^{11})^2} $$
+</div>
+
+<div class="equation">
+$$ F_{\text{Jupiter}} = \frac{(6.674 \times 10^{-11})(7.98 \times 10^{27})}{3.96 \times 10^{23}} = \frac{5.33 \times 10^{17}}{3.96 \times 10^{23}} = 1.35 \times 10^{-6}\text{ N} $$
+</div>
+
+Compare the two forces:
+
+<div class="equation">
+$$ \frac{F_{\text{father}}}{F_{\text{Jupiter}}} = \frac{7.01 \times 10^{-7}\text{ N}}{1.35 \times 10^{-6}\text{ N}} = 0.521 $$
+</div>
+
+**Discussion**
+
+The father's gravitational pull on the baby ($$7.01 \times 10^{-7}$$ N) is about half the gravitational pull from Jupiter ($$1.35 \times 10^{-6}$$ N), even though Jupiter is enormously more massive. This is because the father is so much closer - distance matters enormously in gravitational interactions due to the inverse-square law.
+
+This calculation thoroughly debunks astrological claims about planetary influences at birth. If gravitational force were the mechanism by which planets influence people, then the father standing nearby would have nearly the same effect as Jupiter! Furthermore, the doctor, the hospital building, and even nearby furniture would exert comparable gravitational forces. Both forces are incredibly tiny anyway - about a millionth of a newton, which is completely negligible compared to other forces acting on the baby. This demonstrates that if planets do influence human affairs (which has never been scientifically demonstrated), it cannot be through gravitational force.
+
 </div>
 </div>
 
@@ -769,13 +946,66 @@ variations in local geology.)
 
 </div>
 <div class="solution"  markdown="1">
-a) $$ 2.937\times 10^{17}\kg $$
 
-b) $$ 4.91\times 10^{-8} $$ of the Earth’s mass.
+**Strategy**
 
-c) The mass of the mountain and its fraction of the Earth’s mass are too great.
+(a) We'll use Newton's law of universal gravitation $$ F = G\frac{m_1 m_2}{r^2} $$ where the force is 2.00% of the person's weight. We'll solve for the mountain's mass.
+(b) We'll compare the calculated mass to Earth's mass.
+(c) and (d) We'll evaluate whether the results and premises are reasonable.
 
-d) The gravitational force assumed to be exerted by the mountain is too great.
+**Solution**
+
+(a) The gravitational force from the mountain is given as 2.00% of the person's weight:
+
+<div class="equation">
+$$ F_{\text{mountain}} = 0.0200mg $$
+</div>
+
+Using Newton's law of universal gravitation:
+
+<div class="equation">
+$$ F_{\text{mountain}} = G\frac{m M_{\text{mountain}}}{r^2} $$
+</div>
+
+Setting these equal and solving for $$ M_{\text{mountain}} $$:
+
+<div class="equation">
+$$ 0.0200mg = G\frac{m M_{\text{mountain}}}{r^2} $$
+</div>
+
+<div class="equation">
+$$ M_{\text{mountain}} = \frac{0.0200 g r^2}{G} $$
+</div>
+
+Substitute values with $$ r = 10.0 $$ km $$ = 1.00 \times 10^4 $$ m:
+
+<div class="equation">
+$$ M_{\text{mountain}} = \frac{0.0200 (9.80\text{ m/s}^2)(1.00 \times 10^4\text{ m})^2}{6.674 \times 10^{-11}\text{ N·m}^2\text{/kg}^2} $$
+</div>
+
+<div class="equation">
+$$ M_{\text{mountain}} = \frac{0.0200 (9.80)(1.00 \times 10^8)}{6.674 \times 10^{-11}} = \frac{1.96 \times 10^7}{6.674 \times 10^{-11}} = 2.94 \times 10^{17}\text{ kg} $$
+</div>
+
+(b) Compare to Earth's mass ($$ M_{\text{Earth}} = 5.972 \times 10^{24} $$ kg):
+
+<div class="equation">
+$$ \frac{M_{\text{mountain}}}{M_{\text{Earth}}} = \frac{2.94 \times 10^{17}\text{ kg}}{5.972 \times 10^{24}\text{ kg}} = 4.92 \times 10^{-8} $$
+</div>
+
+The mountain would be $$ 4.92 \times 10^{-8} $$ (about 0.00000492%) of Earth's mass.
+
+(c) **What is unreasonable:**
+
+The calculated mass of $$ 2.94 \times 10^{17} $$ kg is absurdly large for a mountain. For comparison, Mount Everest has a mass of approximately $$ 8.1 \times 10^{14} $$ kg - about 360 times less than our calculated value. The fraction of Earth's mass ($$4.92 \times 10^{-8}$$) may seem small, but it's still unreasonably large for a single mountain.
+
+(d) **Which premises are unreasonable:**
+
+The unreasonable premise is that the mountain exerts a gravitational force equal to 2.00% of a person's weight. This is far too large. In reality, even massive mountains exert gravitational forces that are typically less than 0.001% of a person's weight at distances of 10 km. The force would need to be about 1000 times smaller to be realistic. While sensitive gravitational measurements can detect the effect of nearby mountains (which is how geologists map underground structures), these effects are much more subtle than the problem suggests.
+
+**Discussion**
+
+This problem illustrates the importance of checking whether calculated results match physical reality. The enormous mass required for a mountain to exert 2.00% of a person's weight demonstrates that gravitational forces between everyday objects are extremely weak. Only objects with planetary masses create gravitational forces strong enough to dominate our daily experience. This is why we don't notice the gravitational attraction between people, buildings, or even mountains—these forces are millions of times weaker than Earth's gravitational pull.
 
 </div>
 </div>
@@ -803,3 +1033,4 @@ their masses and inversely proportional to the square of the distance between
 them
 
 </div>
+$$

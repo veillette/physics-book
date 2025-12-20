@@ -23,7 +23,7 @@ effects. Examples of particles include electrons, atoms, and photons of EM
 radiation. How do we talk about a phenomenon that acts like both a particle and
 a wave?
 
-![Part a shows interaction of light rays emerging from two slits as semicircles overlapping one another. The direction of light waves is shown using arrows. The interacting waves spread out and end on a screen where points of maximum and minimum are marked. In part b, a photon is depicted as an ellipse enclosing a wave and a sand particle is shown enlarged. An arrow is drawn between the two from the photon to the sand particle.](../resources/Figure_29_05_01.jpg "(a) The interference pattern for light through a double slit is a wave property understood by analogy to water waves. (b) The properties of photons having quantized energy and momentum and acting as a concentrated unit are understood by analogy to macroscopic particles.")
+![Part a shows interaction of light rays emerging from two slits as semicircles overlapping one another. The direction of light waves is shown using arrows. The interacting waves spread out and end on a screen where points of maximum and minimum are marked. In part b, a photon is depicted as an ellipse enclosing a wave and a sand particle is shown enlarged. An arrow is drawn between the two from the photon to the sand particle.](../resources/Figure_29_05_01.jpg '(a) The interference pattern for light through a double slit is a wave property understood by analogy to water waves. (b) The properties of photons having quantized energy and momentum and acting as a concentrated unit are understood by analogy to macroscopic particles.')
 {: #Figure1}
 
 There is no doubt that EM radiation interferes and has the properties of
@@ -32,7 +32,7 @@ particles—photons with discrete energy. We call this twofold nature the **part
 properties. This so-called duality is simply a term for properties of the photon
 analogous to phenomena we can observe directly, on a macroscopic scale. If this
 term seems strange, it is because we do not ordinarily observe details on the
-quantum level directly, and our observations yield either particle *or* wavelike
+quantum level directly, and our observations yield either particle _or_ wavelike
 properties, but never both simultaneously.
 
 Since we have a particle-wave duality for photons, and since we have seen
@@ -55,8 +55,8 @@ When do photons, electrons, and atoms behave like particles and when do they beh
 
 ### Section Summary
 
-* EM radiation can behave like either a particle or a wave.
-* This is termed particle-wave duality.
+- EM radiation can behave like either a particle or a wave.
+- This is termed particle-wave duality.
 
 <div class="glossary" markdown="1">
 ### Glossary

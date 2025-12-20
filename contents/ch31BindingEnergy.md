@@ -13,11 +13,11 @@ chapterNumber: 31
 The more tightly bound a system is, the stronger the forces that hold it
 together and the greater the energy required to pull it apart. We can therefore
 learn about nuclear forces by examining how tightly bound the nuclei are. We
-define the **binding energy** (BE) of a nucleus to be *the energy required to
-completely disassemble it into separate protons and neutrons*. We can determine
+define the **binding energy** (BE) of a nucleus to be _the energy required to
+completely disassemble it into separate protons and neutrons_. We can determine
 the BE of a nucleus from its rest mass. The two are connected through Einstein’s
-famous relationship $$E=\left(\Delta m\right){c}^{2} $$ . A bound system has a *
-smaller* mass than its separate constituents; the more tightly the nucleons are
+famous relationship $$E=\left(\Delta m\right){c}^{2} $$ . A bound system has a _
+smaller_ mass than its separate constituents; the more tightly the nucleons are
 bound together, the smaller the mass of the nucleus.
 
 Imagine pulling a nuclide apart as illustrated in [[Figure 1]](#Figure1). Work
@@ -26,7 +26,7 @@ into the system. By definition, the energy input equals the binding energy BE.
 The pieces are at rest when separated, and so the energy put into them increases
 their total rest mass compared with what it was when they were glued together as
 a nucleus. That mass increase is thus $$\Delta m=\text{BE}/{c}^{2} $$ . This
-difference in mass is known as *mass defect*. It implies that the mass of the
+difference in mass is known as _mass defect_. It implies that the mass of the
 nucleus is less than the sum of the masses of its constituent protons and
 neutrons. A nuclide $${}^{A}\text{X} $$ has $$Z $$ protons and $$N $$ neutrons,
 so that the difference in mass is
@@ -58,7 +58,7 @@ The atomic masses can be found in [Appendix A](../contents/appendixA), most conv
 expressed in unified atomic mass units u ( $$1 \text{u}= 931.5
 \text{MeV}/{c}^{2} $$ ). BE is thus calculated from known atomic masses.
 
-![The image shows some spherical protons and neutrons pulled out from a nucleus. The work done to pull them apart is binding energy.](../resources/Figure_31_06_01.jpg "Work done to pull a nucleus apart into its constituent protons and neutrons increases the mass of the system. The work to disassemble the nucleus equals its binding energy BE. A bound system has less mass than the sum of its parts, especially noticeable in the nuclei, where forces and energies are very large.")
+![The image shows some spherical protons and neutrons pulled out from a nucleus. The work done to pull them apart is binding energy.](../resources/Figure_31_06_01.jpg 'Work done to pull a nucleus apart into its constituent protons and neutrons increases the mass of the system. The work to disassemble the nucleus equals its binding energy BE. A bound system has less mass than the sum of its parts, especially noticeable in the nuclei, where forces and energies are very large.')
 {: #Figure1}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -87,7 +87,7 @@ that supports this age. The puzzle is that, given its age and initial
 temperature, the center of the Earth should be much cooler than it is today (
 see [[Figure 2]](#Figure2)).
 
-![The figure shows that the center of the Earth cools by three heat transfer methods. Convection heat transfer in the center region, then conduction heat transfer moves thermal energy to the surface, and finally radiation heat transfer from the surface to space.](../resources/Figure_31_06_02.jpg "The center of the Earth cools by well-known heat transfer methods. Convection in the liquid regions and conduction move thermal energy to the surface, where it radiates into cold, dark space. Given the age of the Earth and its initial temperature, it should have cooled to a lower temperature by now. The blowup shows that nuclear decay releases energy in the Earth&#x2019;s interior. This energy has slowed the cooling process and is responsible for the interior still being molten.")
+![The figure shows that the center of the Earth cools by three heat transfer methods. Convection heat transfer in the center region, then conduction heat transfer moves thermal energy to the surface, and finally radiation heat transfer from the surface to space.](../resources/Figure_31_06_02.jpg 'The center of the Earth cools by well-known heat transfer methods. Convection in the liquid regions and conduction move thermal energy to the surface, where it radiates into cold, dark space. Given the age of the Earth and its initial temperature, it should have cooled to a lower temperature by now. The blowup shows that nuclear decay releases energy in the Earth’s interior. This energy has slowed the cooling process and is responsible for the interior still being molten.')
 {: #Figure2}
 
 We know from seismic waves produced by earthquakes that parts of the interior of
@@ -136,7 +136,7 @@ This overall trend, in which nuclei with $$A $$ equal to about 60 have the
 greatest $$\text{BE}/A $$ and are thus the most tightly bound, is due to the
 combined characteristics of the attractive nuclear forces and the repulsive
 Coulomb force. It is especially important to note two things—the strong nuclear
-force is about 100 times stronger than the Coulomb force, *and* the nuclear
+force is about 100 times stronger than the Coulomb force, _and_ the nuclear
 forces are shorter in range compared to the Coulomb force. So, for low-mass
 nuclei, the nuclear attraction dominates and each added nucleon forms bonds with
 all others, causing progressively heavier nuclei to have progressively greater
@@ -150,10 +150,10 @@ becomes smaller. This is why stable nuclei heavier than $$A\approx 40 $$ have
 more neutrons than protons. Coulomb repulsion is reduced by having more neutrons
 to keep the protons farther apart (see [[Figure 4]](#Figure4)).
 
-![The figure shows a graph of binding energy per nucleon versus atomic mass for different elements. From the graph it can be observed that elements with atomic mass near sixty have greater binding energy per nucleon.](../resources/Figure_31_06_03.jpg "A graph of average binding energy per nucleon, \( \text{BE}/A \), for stable nuclei. The most tightly bound nuclei are those with \( A \) near 60, where the attractive nuclear force has its greatest effect. At higher \( A \) s, the Coulomb repulsion progressively reduces the binding energy per nucleon, because the nuclear force is short ranged. The spikes on the curve are very tightly bound nuclides and indicate shell closures.")
+![The figure shows a graph of binding energy per nucleon versus atomic mass for different elements. From the graph it can be observed that elements with atomic mass near sixty have greater binding energy per nucleon.](../resources/Figure_31_06_03.jpg 'A graph of average binding energy per nucleon, ( \\text{BE}/A ), for stable nuclei. The most tightly bound nuclei are those with ( A ) near 60, where the attractive nuclear force has its greatest effect. At higher ( A ) s, the Coulomb repulsion progressively reduces the binding energy per nucleon, because the nuclear force is short ranged. The spikes on the curve are very tightly bound nuclides and indicate shell closures.')
 {: #Figure3}
 
-![The image shows a bunch of spherical nucleons inside a nucleus. A circular dashed path is shown which depicts the range of nuclear force and the nucleons inside that range feel nuclear force directly.](../resources/Figure_31_06_04.jpg "The nuclear force is attractive and stronger than the Coulomb force, but it is short ranged. In low-mass nuclei, each nucleon feels the nuclear attraction of all others. In larger nuclei, the range of the nuclear force, shown for a single nucleon, is smaller than the size of the nucleus, but the Coulomb repulsion from all protons reaches all others. If the nucleus is large enough, the Coulomb repulsion can add to overcome the nuclear attraction.")
+![The image shows a bunch of spherical nucleons inside a nucleus. A circular dashed path is shown which depicts the range of nuclear force and the nucleons inside that range feel nuclear force directly.](../resources/Figure_31_06_04.jpg 'The nuclear force is attractive and stronger than the Coulomb force, but it is short ranged. In low-mass nuclei, each nucleon feels the nuclear attraction of all others. In larger nuclei, the range of the nuclear force, shown for a single nucleon, is smaller than the size of the nucleus, but the Coulomb repulsion from all protons reaches all others. If the nucleus is large enough, the Coulomb repulsion can add to overcome the nuclear attraction.')
 {: #Figure4}
 
 There are some noticeable spikes on the $$\text{BE}/A $$ graph, which represent
@@ -183,7 +183,9 @@ Calculate the binding energy per nucleon of  $${}^{4}\text{He} $$ ,
 **Strategy**
 
 To find $$\text{BE}/A $$ , we first find BE using the Equation
-$$\text{BE}=\left\{\left[Z m\left({}^{1}\text{H}\right)+N m_{n}\right]  -m\left(
+
+$$
+\text{BE}=\left\{\left[Z m\left({}^{1}\text{H}\right)+N m_{n}\right]  -m\left(
 {}^{A}\text{X}\right)\right\}{c}^{2} $$ and then divide by $$A $$ . This is
 straightforward once we have looked up the appropriate atomic masses
 in [Appendix A](../contents/appendixA).
@@ -259,21 +261,19 @@ expansion of the universe.
 2. *Make a list of what is given or can be inferred from the problem as stated (
    identify the knowns).*
 3.  <em> For reaction and binding-energy problems, we use atomic rather than nuclear masses. </em>Since the masses of neutral atoms are used, you must count the number of electrons involved. If these do not balance (such as in
-     $${\beta }^{+} $$     
+     $${\beta }^{+} $$
     decay), then an energy adjustment of 0.511 MeV per electron must be made. Also note that atomic masses may not be given in a problem; they can be found in tables.
 4. *For problems involving activity, the relationship of activity to half-life,
    and the number of nuclei given in the equation $$R=\frac{0.693N}{ {t}_{1/2}}
-   $$
+$$
 
-   can be very useful.* Owing to the fact that number of nuclei is involved, you
-   will also need to be familiar with moles and Avogadro’s number.
-5. *Perform the desired calculation; keep careful track of plus and minus signs
-   as well as powers of 10.*
-6. *Check the answer to see if it is reasonable: Does it make sense?* Compare
-   your results with worked examples and other information in the text. (Heeding
-   the advice in Step 5 will also help you to be certain of your result.) You
-   must understand the problem conceptually to be able to determine whether the
-   numerical result is reasonable.
+can be very useful.* Owing to the fact that number of nuclei is involved, you
+will also need to be familiar with moles and Avogadro’s number. 5. *Perform the desired calculation; keep careful track of plus and minus signs
+as well as powers of 10.* 6. *Check the answer to see if it is reasonable: Does it make sense?\* Compare
+your results with worked examples and other information in the text. (Heeding
+the advice in Step 5 will also help you to be certain of your result.) You
+must understand the problem conceptually to be able to determine whether the
+numerical result is reasonable.
 
 <div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
 <div class="title">
@@ -281,7 +281,6 @@ PhET Explorations: Nuclear Fission
 </div>
 Start a chain reaction, or introduce non-radioactive isotopes to prevent one. Control energy production in a nuclear reactor!
 {: class="newline"}
-
 
 {: class="newline"}
 
@@ -292,7 +291,7 @@ Start a chain reaction, or introduce non-radioactive isotopes to prevent one. Co
 
 ### Section Summary
 
-* The binding energy (BE) of a nucleus is the energy needed to separate it into
+- The binding energy (BE) of a nucleus is the energy needed to separate it into
   individual protons and neutrons. In terms of atomic masses,
 
   <div class="equation" >
@@ -425,7 +424,8 @@ to the energy equivalent of the electron’s mass (0.511 MeV).
  vs. 1.007825 u for  $${}^{1}\text{H} $$
 (b) 0.000549 u
 
-(c)  $$ 2.66 \times 10^{-5} $$
+(c) $$ 2.66 \times 10^{-5} $$
+
 </div>
 </div>
 

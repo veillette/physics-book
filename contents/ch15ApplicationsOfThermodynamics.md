@@ -12,7 +12,7 @@ chapterNumber: 15
 * Calculate a heat pump’s coefficient of performance.
 </div>
 
-![Photograph of various expensive refrigerators displayed in a home appliance store.](../resources/Figure_15_05_00.jpg "Almost every home contains a refrigerator. Most people don&#x2019;t realize they are also sharing their homes with a heat pump. (credit: Id1337x, Wikimedia Commons)")
+![Photograph of various expensive refrigerators displayed in a home appliance store.](../resources/Figure_15_05_00.jpg 'Almost every home contains a refrigerator. Most people don’t realize they are also sharing their homes with a heat pump. (credit: Id1337x, Wikimedia Commons)')
 {: #Figure1}
 
 Heat pumps, air conditioners, and refrigerators utilize heat transfer from cold
@@ -20,7 +20,9 @@ to hot. They are heat engines run backward. We say backward, rather than
 reverse, because except for Carnot engines, all heat engines, though they can be
 run backward, cannot truly be reversed. Heat transfer occurs from a cold
 reservoir $${Q}_{\text{c}} $$ and into a hot one. This requires work input $$W
-$$ , which is also converted to heat transfer. Thus the heat transfer to the hot
+
+$$
+, which is also converted to heat transfer. Thus the heat transfer to the hot
 reservoir is $${Q}_{\text{h}}={Q}_{\text{c}}+W $$ .
 (Note that $${Q}_{\text{h}} $$ , $${Q}_{\text{c}} $$ , and $$W $$ are positive,
 with their directions indicated on schematics rather than by sign.) A heat
@@ -239,7 +241,7 @@ Problem-Solving Strategies for Thermodynamics
 4.   **Make a list of what is given or can be inferred from the problem as stated (identify the knowns)*.* Be sure to distinguish heat transfer into a system from heat transfer out of the system, as well as work input from work output. In many situations, it is useful to determine the type of process, such as isothermal or adiabatic.
 5.   **Solve the appropriate equation for the quantity to be determined (the unknown).**
 6.   **Substitute the known quantities along with their units into the appropriate equation and obtain numerical solutions complete with units.**
-7.   **Check the answer to see if it is reasonable: Does it make sense?** For example, efficiency is always less than 1, whereas coefficients of performance are greater than 1. 
+7.   **Check the answer to see if it is reasonable: Does it make sense?** For example, efficiency is always less than 1, whereas coefficients of performance are greater than 1.
 
 </div>
 
@@ -344,7 +346,7 @@ in the [Problem-Solving Strategies for Thermodynamics](#Note1).
 (a) What is the best coefficient of performance for a heat pump that has a hot reservoir temperature of  $$ 50.0\text{ºC} $$
  and a cold reservoir temperature of  $$-20.0\text{ºC} $$ ?
  (b) How much heat transfer occurs into the warm environment if  $$ 3.60 \times 10^{7}  \text{J} $$
- of work ( $$ 10.0\text{kW}\cdot \text{h} $$ ) 
+ of work ( $$ 10.0\text{kW}\cdot \text{h} $$ )
 is put into it? (c) If the cost of this work input is  $$10.0 \text{cents/kW}\cdot \text{h} $$ ,
  how does its cost compare with the direct heat transfer achieved by burning natural gas at a cost of 85.0 cents per therm. (A therm is a common unit of energy for natural gas and equals  $$ 1.055 \times 10^{8}  \text{J} $$ .)
 
@@ -391,9 +393,9 @@ An ideal heat pump is being considered for use in heating an environment with a 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A 4-ton air conditioner removes  $$ 5.06 \times 10^{7}  \text{J} $$
- (48 000 British thermal units) from a cold environment in 1.00 h. (a) What energy input in joules is necessary to do this if the air conditioner has an energy efficiency rating ( $$\text{EER} $$ ) 
+ (48 000 British thermal units) from a cold environment in 1.00 h. (a) What energy input in joules is necessary to do this if the air conditioner has an energy efficiency rating ( $$\text{EER} $$ )
 of 12.0? (b) What is the cost of doing this if the work costs 10.0 cents per  $$ 3.60 \times 10^{6}  \text{J} $$
- (one kilowatt-hour)? (c) Discuss whether this cost seems realistic. Note that the energy efficiency rating ( $$\text{EER} $$ ) 
+ (one kilowatt-hour)? (c) Discuss whether this cost seems realistic. Note that the energy efficiency rating ( $$\text{EER} $$ )
 of an air conditioner or refrigerator is defined to be the number of British thermal units of heat transfer from a cold environment per hour divided by the watts of power input.
 
 </div>
@@ -414,7 +416,8 @@ Show that the coefficients of performance of refrigerators and heat pumps are re
 Start with the definitions of the $$\text{COP} $$ s and the conservation of
 energy relationship between $${Q}_{\text{h}} $$ , $${Q}_{\text{c}} $$ , and $$W
 $$
-*.*
+
+_._
 
 </div>
 </div>

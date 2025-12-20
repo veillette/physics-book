@@ -30,7 +30,7 @@ bone scans. Radioisotopes are also used to determine the functioning of body
 organs, such as blood flow, heart muscle activity, and iodine uptake in the
 thyroid gland.
 
-![A brain scan. Different regions of the brain are shown in different colors.](../resources/Figure_32_01_01.jpg "A radiopharmaceutical is used to produce this brain image of a patient with Alzheimer&#x2019;s disease. Certain features are computer enhanced. (credit: National Institutes of Health)")
+![A brain scan. Different regions of the brain are shown in different colors.](../resources/Figure_32_01_01.jpg 'A radiopharmaceutical is used to produce this brain image of a patient with Alzheimer’s disease. Certain features are computer enhanced. (credit: National Institutes of Health)')
 {: #Figure1}
 
 ### Medical Application
@@ -204,7 +204,7 @@ method is that there is no depth information (i.e., it provides a
 two-dimensional view of the tumor as opposed to a three-dimensional view),
 because radiation from any location under that detector produces a signal.
 
-![The image shows the head of a man scanned by an Anger camera. The camera consists of a lead collimator and array of detectors. Gamma rays emerging from the man&#x2019;s head pass through the lead collimator and produce light flashes in the scintillators. The photomultiplier tubes convert the light output to electrical signals for computer image generation.](../resources/Figure_32_01_02.jpg "An Anger or gamma camera consists of a lead collimator and an array of detectors. Gamma rays produce light flashes in the scintillators. The light output is converted to an electrical signal by the photomultipliers. A computer constructs an image from the detector output.")
+![The image shows the head of a man scanned by an Anger camera. The camera consists of a lead collimator and array of detectors. Gamma rays emerging from the man’s head pass through the lead collimator and produce light flashes in the scintillators. The photomultiplier tubes convert the light output to electrical signals for computer image generation.](../resources/Figure_32_01_02.jpg 'An Anger or gamma camera consists of a lead collimator and an array of detectors. Gamma rays produce light flashes in the scintillators. The light output is converted to an electrical signal by the photomultipliers. A computer constructs an image from the detector output.')
 {: #Figure2}
 
 Imaging techniques much like those in x-ray computed tomography (CT) scans use
@@ -217,7 +217,7 @@ this technique is poor, about 1 cm, but the contrast (i.e. the difference in
 visual properties that makes an object distinguishable from other objects and
 the background) is good.
 
-![A man lying down, going through a cylindrical scanning machine.](../resources/Figure_32_01_03.jpg "SPECT uses a geometry similar to a CT scanner to form an image of the concentration of a radiopharmaceutical compound. (credit: Woldo, Wikimedia Commons)")
+![A man lying down, going through a cylindrical scanning machine.](../resources/Figure_32_01_03.jpg 'SPECT uses a geometry similar to a CT scanner to form an image of the concentration of a radiopharmaceutical compound. (credit: Woldo, Wikimedia Commons)')
 {: #Figure3}
 
 Images produced by $${\beta }^{+} $$ emitters have become important in recent
@@ -243,7 +243,7 @@ confirmation of Alzheimer's disease. PET can locate regions in the brain that
 become active when a person carries out specific activities, such as speaking,
 closing their eyes, and so on.
 
-![The figure shows a patient undergoing a scan in a cylindrical device. The P E T system uses two gamma ray photons produced by positron electron annihilation. These gamma rays are emitted in opposite directions.](../resources/Figure_32_01_04.jpg "A PET system takes advantage of the two identical \( \gamma \)-ray photons produced by positron-electron annihilation. These \( \gamma \) rays are emitted in opposite directions, so that the line along which each pair is emitted is determined. Various events detected by several pairs of detectors are then analyzed by the computer to form an accurate image.")
+![The figure shows a patient undergoing a scan in a cylindrical device. The P E T system uses two gamma ray photons produced by positron electron annihilation. These gamma rays are emitted in opposite directions.](../resources/Figure_32_01_04.jpg 'A PET system takes advantage of the two identical ( \\gamma )-ray photons produced by positron-electron annihilation. These ( \\gamma ) rays are emitted in opposite directions, so that the line along which each pair is emitted is determined. Various events detected by several pairs of detectors are then analyzed by the computer to form an accurate image.')
 {: #Figure4}
 
 <div class="note" data-has-label="true"  data-label="" markdown="1">
@@ -252,7 +252,6 @@ PhET Explorations: Simplified MRI
 </div>
 Is it a tumor? Magnetic Resonance Imaging (MRI) can tell. Your head is full of tiny radio transmitters (the nuclear spins of the hydrogen nuclei of your water molecules). In an MRI unit, these little radios can be made to broadcast their positions, giving a detailed picture of the inside of your head.
 
-
 <div class="media" id="PhET_module" data-alt="mri">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/cheerpj/mri/latest/mri.html?simulation=mri"></iframe>
 </div>
@@ -260,18 +259,18 @@ Is it a tumor? Magnetic Resonance Imaging (MRI) can tell. Your head is full of t
 
 ### Section Summary
 
-* Radiopharmaceuticals are compounds that are used for medical imaging and
+- Radiopharmaceuticals are compounds that are used for medical imaging and
   therapeutics.
-* The process of attaching a radioactive substance is called tagging.
-* [[Table 1]](#Table1) lists certain diagnostic uses of radiopharmaceuticals
+- The process of attaching a radioactive substance is called tagging.
+- [[Table 1]](#Table1) lists certain diagnostic uses of radiopharmaceuticals
   including the isotope and activity typically used in diagnostics.
-* One common imaging device is the Anger camera, which consists of a lead
+- One common imaging device is the Anger camera, which consists of a lead
   collimator, radiation detectors, and an analysis computer.
-* Tomography performed with $$\gamma $$-emitting radiopharmaceuticals is called SPECT and has the advantages of
+- Tomography performed with $$\gamma $$-emitting radiopharmaceuticals is called SPECT and has the advantages of
   x-ray CT scans coupled with organ- and function-specific drugs.
-* PET is a similar technique that uses $${\beta }^{+} $$
-  emitters and detects the two annihilation  $$\gamma $$
-   rays, which aid to localize the source.
+- PET is a similar technique that uses $${\beta }^{+} $$
+  emitters and detects the two annihilation $$\gamma $$
+  rays, which aid to localize the source.
 
 ### Conceptual Questions
 
@@ -380,7 +379,8 @@ given its half-life is 15.0 h?
 <div class="solution" markdown="1">
 (a) 6.958 MeV
 
-(b)  $$ 5.7 \times 10^{-10} \text{g} $$
+(b) $$ 5.7 \times 10^{-10} \text{g} $$
+
 </div>
 </div>
 

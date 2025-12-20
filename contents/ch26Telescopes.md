@@ -25,7 +25,7 @@ objective and the concave eyepiece, the same construction used by Galileo. Such
 an arrangement produces an upright image and is used in spyglasses and opera
 glasses.
 
-![Part a of the figure depicts the internal functioning of a telescope; from left to right it has an upright image of a tree, a convex lens objective, a concave lens eyepiece, and a picture of eye where rays enter. Parallel rays strike the objective convex lens, converge; strike the concave eyepiece, and enter the eye. Dotted lines from the striking rays of the eyepiece are drawn backside and join at the beginning of the final image. Part b of the figure, from left to right, has an inverted enlarged image of a tree, a convex objective, a smaller inverted image of a tree, a convex eyepiece and a picture of an eye viewing the image. Rays from a very distant object pass through the objective lens, focus at a focal point f sub o, forming a smaller upside-down image of a tree of height h sub i, converge and pass through the eyepiece to reach the eye. Dotted lines drawn backwards focus at the tip of the final enlarged inverted image of a tree of height h prime sub i, from the rays striking the eyepiece are also shown. An angle theta, subtended by the rays striking the objective lens and an angle, subtended by the telescopic enlarged inverted image are also depicted.](../resources/Figure_26_05_01.jpg "(a) Galileo made telescopes with a convex objective and a concave eyepiece. These produce an upright image and are used in spyglasses. (b) Most simple telescopes have two convex lenses. The objective forms a case 1 image that is the object for the eyepiece. The eyepiece forms a case 2 final image that is magnified.")
+![Part a of the figure depicts the internal functioning of a telescope; from left to right it has an upright image of a tree, a convex lens objective, a concave lens eyepiece, and a picture of eye where rays enter. Parallel rays strike the objective convex lens, converge; strike the concave eyepiece, and enter the eye. Dotted lines from the striking rays of the eyepiece are drawn backside and join at the beginning of the final image. Part b of the figure, from left to right, has an inverted enlarged image of a tree, a convex objective, a smaller inverted image of a tree, a convex eyepiece and a picture of an eye viewing the image. Rays from a very distant object pass through the objective lens, focus at a focal point f sub o, forming a smaller upside-down image of a tree of height h sub i, converge and pass through the eyepiece to reach the eye. Dotted lines drawn backwards focus at the tip of the final enlarged inverted image of a tree of height h prime sub i, from the rays striking the eyepiece are also shown. An angle theta, subtended by the rays striking the objective lens and an angle, subtended by the telescopic enlarged inverted image are also depicted.](../resources/Figure_26_05_01.jpg '(a) Galileo made telescopes with a convex objective and a concave eyepiece. These produce an upright image and are used in spyglasses. (b) Most simple telescopes have two convex lenses. The objective forms a case 1 image that is the object for the eyepiece. The eyepiece forms a case 2 final image that is magnified.')
 {: #Figure1}
 
 The most common two-lens telescope, like the simple microscope, uses two convex
@@ -40,6 +40,7 @@ prove this, note that
 </div>
 
 Because $$1/\infty =0 $$ , this simplifies to
+
 <div class="equation" >
  $$\frac{1}{ {d}_{\text{i}}}=\frac{1}{ {f}_{\text{o}}}\text{,} $$
 </div>
@@ -82,7 +83,7 @@ in [[Figure 1]](#Figure1)(a) can be used. But a more common arrangement is to
 use a third convex lens as an eyepiece, increasing the distance between the
 first two and inverting the image once again as seen in [[Figure 2]](#Figure2).
 
-![A ray diagram from left to right depicts a concave objective lens, a small inverted image of a tree, a magnified upright final image of tree, an erecting concave lens, a small upright image of a tree, concave lens as an eyepiece, and an eye to view on the same optical axis. Rays from a distant object strike the edges of the objective lens, converge at the focus of the focal point, form a small inverted image of the object and pass through the erecting lens, again forming the upright small image of the object, and finally, the rays pass through the eyepiece to the eye. Dotted lines joined backwards from the rays striking the eyepiece meet at a point where the final enlarged upright image of the object is formed.](../resources/Figure_26_05_02.jpg "This arrangement of three lenses in a telescope produces an upright final image. The first two lenses are far enough apart that the second lens inverts the image of the first one more time. The third lens acts as a magnifier and keeps the image upright and in a location that is easy to view.")
+![A ray diagram from left to right depicts a concave objective lens, a small inverted image of a tree, a magnified upright final image of tree, an erecting concave lens, a small upright image of a tree, concave lens as an eyepiece, and an eye to view on the same optical axis. Rays from a distant object strike the edges of the objective lens, converge at the focus of the focal point, form a small inverted image of the object and pass through the erecting lens, again forming the upright small image of the object, and finally, the rays pass through the eyepiece to the eye. Dotted lines joined backwards from the rays striking the eyepiece meet at a point where the final enlarged upright image of the object is formed.](../resources/Figure_26_05_02.jpg 'This arrangement of three lenses in a telescope produces an upright final image. The first two lenses are far enough apart that the second lens inverts the image of the first one more time. The third lens acts as a magnifier and keeps the image upright and in a location that is easy to view.')
 {: #Figure2}
 
 A telescope can also be made with a concave mirror as its first element or
@@ -95,7 +96,7 @@ can, thus, gather large amounts of light, as needed to view distant galaxies,
 for example. Large and relatively flat mirrors have very long focal lengths, so
 that great angular magnification is possible.
 
-![A ray diagram from left to right depicts a small diagonal mirror and a concave lens eyepiece placed parallel to each other. A large curved objective mirror is placed in front of the diagonal mirror. Parallel rays of light are falling at the edges of the objective mirror, which is curved just at the right amount to bounce all the light onto the diagonal mirror. From there, the light rays pass through the eyepiece lens, which bends the light into the eye.](../resources/Figure_26_05_03.jpg "A two-element telescope composed of a mirror as the objective and a lens for the eyepiece is shown. This telescope forms an image in the same manner as the two-convex-lens telescope already discussed, but it does not suffer from chromatic aberrations. Such telescopes can gather more light, since larger mirrors than lenses can be constructed.")
+![A ray diagram from left to right depicts a small diagonal mirror and a concave lens eyepiece placed parallel to each other. A large curved objective mirror is placed in front of the diagonal mirror. Parallel rays of light are falling at the edges of the objective mirror, which is curved just at the right amount to bounce all the light onto the diagonal mirror. From there, the light rays pass through the eyepiece lens, which bends the light into the eye.](../resources/Figure_26_05_03.jpg 'A two-element telescope composed of a mirror as the objective and a lens for the eyepiece is shown. This telescope forms an image in the same manner as the two-convex-lens telescope already discussed, but it does not suffer from chromatic aberrations. Such telescopes can gather more light, since larger mirrors than lenses can be constructed.')
 {: #Figure3}
 
 Telescopes, like microscopes, can utilize a range of frequencies from the
@@ -115,7 +116,7 @@ pairs of precision manufactured mirrors are exquisitely shaped and aligned so
 that X-rays ricochet off the mirrors like bullets off a wall, focusing on a
 spot.
 
-![Image a is a photograph one of the antennas from the Australia Telescope Compact Array. Image b is a cutaway diagram showing 4 nested sets of hard x-ray mirrors of the Chandra X-ray observatory.](../resources/Figure_26_05_04.jpg "(a) The Australia Telescope Compact Array at Narrabri (500 km NW of Sydney). (credit: Ian Bailey) (b) The focusing of X-rays on the Chandra Observatory, a satellite orbiting earth. X-rays ricochet off 4 pairs of mirrors forming a barrelled pathway leading to the focus point. (credit: NASA)")
+![Image a is a photograph one of the antennas from the Australia Telescope Compact Array. Image b is a cutaway diagram showing 4 nested sets of hard x-ray mirrors of the Chandra X-ray observatory.](../resources/Figure_26_05_04.jpg '(a) The Australia Telescope Compact Array at Narrabri (500 km NW of Sydney). (credit: Ian Bailey) (b) The focusing of X-rays on the Chandra Observatory, a satellite orbiting earth. X-rays ricochet off 4 pairs of mirrors forming a barrelled pathway leading to the focus point. (credit: NASA)')
 {: #Figure4}
 
 A current exciting development is a collaborative effort involving 17 countries
@@ -129,15 +130,15 @@ computers. A range of rapidly changing distortions can be minimized by deforming
 or tilting the tiny lenses and mirrors. The use of adaptive optics in vision
 correction is a current area of research.
 
-![An aerial overview of the central region of the Square Kilometre Array with the five kilometer diameter cores of antennas or dishes is seen. S K A-low array and S K A-mid array, which are phased arrays of simple dipole antennas to cover the frequency range from seventy to two hundred megahertz and two hundred to five hundred megahertz in circular stations, are also displayed.](../resources/Figure_26_05_05.jpg "An artist&#x2019;s impression of the Australian Square Kilometre Array Pathfinder in Western Australia is displayed. (credit: SPDO, XILOSTUDIOS)")
+![An aerial overview of the central region of the Square Kilometre Array with the five kilometer diameter cores of antennas or dishes is seen. S K A-low array and S K A-mid array, which are phased arrays of simple dipole antennas to cover the frequency range from seventy to two hundred megahertz and two hundred to five hundred megahertz in circular stations, are also displayed.](../resources/Figure_26_05_05.jpg 'An artist’s impression of the Australian Square Kilometre Array Pathfinder in Western Australia is displayed. (credit: SPDO, XILOSTUDIOS)')
 {: #Figure5}
 
 ### Section Summary
 
-* Simple telescopes can be made with two lenses. They are used for viewing
+- Simple telescopes can be made with two lenses. They are used for viewing
   objects at large distances and utilize the entire range of the electromagnetic
   spectrum.
-* The angular magnification M for a telescope is given by
+- The angular magnification M for a telescope is given by
 
   <div class="equation" >
    $$M=\frac{\theta^{\prime} }{\theta }=-\frac{ {f}_{\text{o}}}{ {f}_{\text{e}}}\text{,} $$

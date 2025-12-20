@@ -9,7 +9,7 @@ chapterNumber: 16
 * Compare simple harmonic motion with uniform circular motion.
 </div>
 
-![The figure shows a clock-wise rotating empty merry go round with iron bars holding the decorated wooden horse statues, four in each column.](../resources/Figure_16_06_01.jpg "The horses on this merry-go-round exhibit uniform circular motion. (credit: Wonderlane, Flickr)")
+![The figure shows a clock-wise rotating empty merry go round with iron bars holding the decorated wooden horse statues, four in each column.](../resources/Figure_16_06_01.jpg 'The horses on this merry-go-round exhibit uniform circular motion. (credit: Wonderlane, Flickr)')
 {: #Figure1}
 
 There is an easy way to produce simple harmonic motion by using uniform circular
@@ -25,7 +25,7 @@ considerable insight into many aspects of oscillations and waves and is very
 useful mathematically. In our brief treatment, we shall indicate some of the
 major features of this relationship and how they might be useful.
 
-![The given figure shows a vertical turntable with four floor projecting light bulbs at the top. A smaller sized rectangular bar is attached to this turntable at the bottom half, with a circular knob attached to it. A red colored small ball is rolling along the boundary of this knob in angular direction, and the lights falling through this ball are ball making shadows just under the knob on the floor. The middle shadow is the brightest and starts fading as we look through to the cornered shadow.](../resources/Figure_16_06_02.jpg "The shadow of a ball rotating at constant angular velocity \( \omega \) on a turntable goes back and forth in precise simple harmonic motion.")
+![The given figure shows a vertical turntable with four floor projecting light bulbs at the top. A smaller sized rectangular bar is attached to this turntable at the bottom half, with a circular knob attached to it. A red colored small ball is rolling along the boundary of this knob in angular direction, and the lights falling through this ball are ball making shadows just under the knob on the floor. The middle shadow is the brightest and starts fading as we look through to the cornered shadow.](../resources/Figure_16_06_02.jpg 'The shadow of a ball rotating at constant angular velocity ( \\omega ) on a turntable goes back and forth in precise simple harmonic motion.')
 {: #Figure2}
 
 [[Figure 3]](#Figure3) shows the basic relationship between uniform circular
@@ -39,7 +39,7 @@ equals $${\overline{v}}_{\text{max}} $$ . The projection of $${\overline{v}}_
 {\text{max}} $$ on the $$x $$ -axis is the velocity $$v $$ of the simple
 harmonic motion along the $$x $$ -axis.
 
-![The figure shows a point P moving through the circumference of a circle in an angular way with angular velocity omega. The diameter is projected along the x axis, with point P making an angle theta at the centre of the circle. A point along the diameter shows the projection of the point P with a dotted perpendicular line from P to this point, the projection of the point is given as v along the circle and its velocity v subscript max, over the top of the projection arrow in an upward left direction.](../resources/Figure_16_06_03.jpg "A point P moving on a circular path with a constant angular velocity \( \omega \) is undergoing uniform circular motion. Its projection on the x-axis undergoes simple harmonic motion. Also shown is the velocity of this point around the circle, \( {\overline{v} }_\text{max} \), and its projection, which is \( v \) . Note that these velocities form a similar triangle to the displacement triangle.")
+![The figure shows a point P moving through the circumference of a circle in an angular way with angular velocity omega. The diameter is projected along the x axis, with point P making an angle theta at the centre of the circle. A point along the diameter shows the projection of the point P with a dotted perpendicular line from P to this point, the projection of the point is given as v along the circle and its velocity v subscript max, over the top of the projection arrow in an upward left direction.](../resources/Figure_16_06_03.jpg 'A point P moving on a circular path with a constant angular velocity ( \\omega ) is undergoing uniform circular motion. Its projection on the x-axis undergoes simple harmonic motion. Also shown is the velocity of this point around the circle, ( {\\overline{v} }_\\text{max} ), and its projection, which is ( v ) . Note that these velocities form a similar triangle to the displacement triangle.')
 {: #Figure3}
 
 To see that the projection undergoes simple harmonic motion, note that its
@@ -72,7 +72,7 @@ in [Simple Harmonic Motion: A Special Periodic Motion](../contents/ch16SimpleHar
 see again the wavelike character (typical of simple harmonic motion) of the
 projection of uniform circular motion onto the $$x $$ -axis.
 
-![The given figure shows a vertical turntable with four floor projecting light bulbs at the top. A smaller sized rectangular bar is attached to this turntable at the bottom half, with a circular knob attached to it. A red colored small ball is rolling along the boundary of this knob in angular direction. The turnaround table is put upon a roller paper sheet, on which the simple harmonic motion is measured, which is shown here in oscillating waves on the paper sheet in front of the table. A graph of amplitude versus time is also given alongside the figure.](../resources/Figure_16_06_04.jpg "The position of the projection of uniform circular motion performs simple harmonic motion, as this wavelike graph of \( x \) versus \( t \) indicates.")
+![The given figure shows a vertical turntable with four floor projecting light bulbs at the top. A smaller sized rectangular bar is attached to this turntable at the bottom half, with a circular knob attached to it. A red colored small ball is rolling along the boundary of this knob in angular direction. The turnaround table is put upon a roller paper sheet, on which the simple harmonic motion is measured, which is shown here in oscillating waves on the paper sheet in front of the table. A graph of amplitude versus time is also given alongside the figure.](../resources/Figure_16_06_04.jpg 'The position of the projection of uniform circular motion performs simple harmonic motion, as this wavelike graph of ( x ) versus ( t ) indicates.')
 {: #Figure4}
 
 Now let us use [[Figure 3]](#Figure3) to do some further analysis of uniform
@@ -160,9 +160,47 @@ A projection of uniform circular motion undergoes simple harmonic oscillation.
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-a). 0.266 m/s
+**Strategy**
 
-b). 3.00 J
+For part (a), we use the relationship between maximum velocity, amplitude, and the spring constant for simple harmonic motion: $${v}_{\text{max}} = X\sqrt{\frac{k}{m}}$$. For part (b), the maximum energy stored in the spring occurs at maximum displacement and equals the elastic potential energy: $$\text{PE}_{\text{max}} = \frac{1}{2}kX^2$$.
+
+**Solution**
+
+(a) First, convert the amplitude to meters:
+
+<div class="equation">
+ $$X = 0.200 \text{ cm} = 0.00200 \text{ m}$$
+</div>
+
+The maximum velocity is:
+
+<div class="equation">
+ $$v_{\text{max}} = X\sqrt{\frac{k}{m}} = 0.00200\sqrt{\frac{1.50 \times 10^6}{85.0}}$$
+</div>
+
+<div class="equation">
+ $$v_{\text{max}} = 0.00200\sqrt{17647} = 0.00200(132.8) = 0.266 \text{ m/s}$$
+</div>
+
+(b) The maximum energy stored in the spring is:
+
+<div class="equation">
+ $$\text{PE}_{\text{max}} = \frac{1}{2}kX^2 = \frac{1}{2}(1.50 \times 10^6)(0.00200)^2$$
+</div>
+
+<div class="equation">
+ $$\text{PE}_{\text{max}} = \frac{1}{2}(1.50 \times 10^6)(4.00 \times 10^{-6}) = 3.00 \text{ J}$$
+</div>
+
+**Discussion**
+
+Despite the very stiff spring (force constant of 1.50 × 10⁶ N/m) and relatively large mass (85.0 kg), the small amplitude (only 2.00 mm) results in a modest maximum velocity of 0.266 m/s. The maximum energy of 3.00 J is also small, which makes sense given the tiny amplitude. This demonstrates that bathroom scales are designed to be very stiff to minimize deflection under a person's weight while still providing accurate measurements.
+
+**Answer**
+
+(a) 0.266 m/s
+
+(b) 3.00 J
 
 </div>
 </div>
@@ -170,6 +208,42 @@ b). 3.00 J
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A novelty clock has a 0.0100-kg mass object bouncing on a spring that has a force constant of 1.25 N/m. What is the maximum velocity of the object if the object bounces 3.00 cm above and below its equilibrium position? (b) How many joules of kinetic energy does the object have at its maximum velocity?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The object bounces 3.00 cm above and below equilibrium, so the amplitude is $$X = 0.0300$$ m. For part (a), we use the relationship $${v}_{\text{max}} = X\sqrt{\frac{k}{m}}$$. For part (b), we calculate the kinetic energy at maximum velocity using $$\text{KE} = \frac{1}{2}mv_{\text{max}}^2$$.
+
+**Solution**
+
+(a) The maximum velocity is:
+
+<div class="equation">
+ $$v_{\text{max}} = X\sqrt{\frac{k}{m}} = 0.0300\sqrt{\frac{1.25}{0.0100}} = 0.0300\sqrt{125} = 0.0300(11.18) = 0.335 \text{ m/s}$$
+</div>
+
+(b) The kinetic energy at maximum velocity is:
+
+<div class="equation">
+ $$\text{KE} = \frac{1}{2}mv_{\text{max}}^2 = \frac{1}{2}(0.0100)(0.335)^2 = 0.00500(0.112) = 5.62 \times 10^{-4} \text{ J}$$
+</div>
+
+Alternatively, we can use energy conservation. At maximum displacement, all energy is potential:
+
+<div class="equation">
+ $$\text{KE}_{\text{max}} = \text{PE}_{\text{max}} = \frac{1}{2}kX^2 = \frac{1}{2}(1.25)(0.0300)^2 = 5.63 \times 10^{-4} \text{ J}$$
+</div>
+
+**Discussion**
+
+The maximum velocity occurs as the object passes through the equilibrium position, where all the elastic potential energy has been converted to kinetic energy. The small kinetic energy (less than 0.001 J) is appropriate for a small bouncing object in a novelty clock. This energy oscillates between kinetic (at equilibrium) and potential (at maximum displacement) forms as the object bounces.
+
+**Answer**
+
+(a) 0.335 m/s
+
+(b) $$5.63 \times 10^{-4}$$ J or 0.000563 J
 
 </div>
 </div>
@@ -181,13 +255,86 @@ At what positions is the speed of a simple harmonic oscillator half its maximum?
 
 </div>
 <div class="solution" markdown="1">
- $$±\frac{\sqrt{3}}{2} $$
+**Strategy**
+
+We use the velocity equation for simple harmonic motion: $$v = {v}_{\text{max}}\sqrt{1 - \frac{x^2}{X^2}}$$. Setting $$v = \frac{{v}_{\text{max}}}{2}$$ and solving for $$x/X$$ will give us the positions where the speed is half its maximum.
+
+**Solution**
+
+Start with the velocity equation and set $$v = \frac{{v}_{\text{max}}}{2}$$:
+
+<div class="equation">
+ $$\frac{{v}_{\text{max}}}{2} = {v}_{\text{max}}\sqrt{1 - \frac{x^2}{X^2}}$$
+</div>
+
+Divide both sides by $${v}_{\text{max}}$$:
+
+<div class="equation">
+ $$\frac{1}{2} = \sqrt{1 - \frac{x^2}{X^2}}$$
+</div>
+
+Square both sides:
+
+<div class="equation">
+ $$\frac{1}{4} = 1 - \frac{x^2}{X^2}$$
+</div>
+
+Solve for $$x^2/X^2$$:
+
+<div class="equation">
+ $$\frac{x^2}{X^2} = 1 - \frac{1}{4} = \frac{3}{4}$$
+</div>
+
+Take the square root:
+
+<div class="equation">
+ $$\frac{x}{X} = ±\sqrt{\frac{3}{4}} = ±\frac{\sqrt{3}}{2} \approx ±0.866$$
+</div>
+
+**Discussion**
+
+The speed is half the maximum at positions $$x = ±\frac{\sqrt{3}}{2}X$$, which is approximately 86.6% of the amplitude on either side of equilibrium. This makes physical sense: at equilibrium ($$x = 0$$), the oscillator has maximum speed, and at maximum displacement ($$x = ±X$$), it has zero speed. The positions where $$v = {v}_{\text{max}}/2$$ are closer to the amplitude than to equilibrium, which is consistent with the fact that the oscillator spends more time near the extremes of its motion where it moves more slowly.
+
+**Answer**
+
+$$±\frac{\sqrt{3}}{2}$$
+
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A ladybug sits 12.0 cm from the center of a Beatles music album spinning at 33.33 rpm. What is the maximum velocity of its shadow on the wall behind the turntable, if illuminated parallel to the record by the parallel rays of the setting Sun?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The shadow of the ladybug on the wall undergoes simple harmonic motion as the record spins. The maximum velocity of the shadow equals the tangential velocity of the ladybug's circular motion. We can find this using $$v = r\omega$$, where $$\omega$$ is the angular velocity in rad/s.
+
+**Solution**
+
+First, convert the rotation rate to angular velocity:
+
+<div class="equation">
+ $$\omega = 33.33 \text{ rpm} = 33.33 \times \frac{2\pi \text{ rad}}{60 \text{ s}} = \frac{33.33 \times 2\pi}{60} = 3.49 \text{ rad/s}$$
+</div>
+
+The radius is $$r = 12.0 \text{ cm} = 0.120 \text{ m}$$
+
+The maximum velocity of the shadow (which equals the tangential velocity) is:
+
+<div class="equation">
+ $$v_{\text{max}} = r\omega = (0.120)(3.49) = 0.419 \text{ m/s}$$
+</div>
+
+**Discussion**
+
+As the record spins, the ladybug moves in a circle. When illuminated by parallel rays (like sunlight), its shadow on the wall moves back and forth in simple harmonic motion. The amplitude of this motion is 12.0 cm (the radius), and the maximum velocity of the shadow is 0.419 m/s (about 42 cm/s), which occurs when the shadow passes through the center of its oscillation. This is a beautiful example of how uniform circular motion and simple harmonic motion are related—the shadow's motion is the projection of circular motion onto a line.
+
+**Answer**
+
+0.419 m/s or 41.9 cm/s
 
 </div>
 </div>

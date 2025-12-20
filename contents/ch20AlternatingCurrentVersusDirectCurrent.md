@@ -17,7 +17,7 @@ Most of the examples dealt with so far, and particularly those utilizing
 batteries, have constant voltage sources. Once the current is established, it is
 thus also a constant. **Direct current** (DC) is the flow of electric charge in
 only one direction. It is the steady state of a constant-voltage circuit. Most
-well-known applications, however, use a time-varying voltage source. 
+well-known applications, however, use a time-varying voltage source.
 **Alternating current** (AC) is the flow of electric charge that
 periodically reverses direction. If the source varies periodically, particularly
 sinusoidally, the circuit is known as an alternating current circuit. Examples
@@ -26,10 +26,10 @@ needs. [[Figure 1]](#Figure1) shows graphs of voltage and current versus time
 for typical DC and AC power. The AC voltages and frequencies commonly used in
 homes and businesses vary around the world.
 
-![Part a shows a graph of voltage V and current I versus time for a D C source. The time is along the x axis and V and I are along the y axis. The graph shows that the voltage V sub D C and the current I sub D C do not vary with time. Part b shows the variation of voltage V and current I with time for an A C source. The time is along the horizontal axis and V and I are along the vertical axis. The graph for I is a progressing sine wave with a peak value I sub zero on the positive y axis and negative I sub zero on the negative y axis. The graph for V is a progressing sine wave with a higher amplitude than the current curve with a peak value V sub zero on the positive y axis and negative V sub zero on the negative y axis. The peak values of the voltage and current sine waves occur at the same time because they are in phase.](../resources/Figure_20_05_01.jpg "(a) DC voltage and current are constant in time, once the current is established. (b) A graph of voltage and current versus time for 60-Hz AC power. The voltage and current are sinusoidal and are in phase for a simple resistance circuit. The frequencies and peak voltages of AC sources differ greatly.")
+![Part a shows a graph of voltage V and current I versus time for a D C source. The time is along the x axis and V and I are along the y axis. The graph shows that the voltage V sub D C and the current I sub D C do not vary with time. Part b shows the variation of voltage V and current I with time for an A C source. The time is along the horizontal axis and V and I are along the vertical axis. The graph for I is a progressing sine wave with a peak value I sub zero on the positive y axis and negative I sub zero on the negative y axis. The graph for V is a progressing sine wave with a higher amplitude than the current curve with a peak value V sub zero on the positive y axis and negative V sub zero on the negative y axis. The peak values of the voltage and current sine waves occur at the same time because they are in phase.](../resources/Figure_20_05_01.jpg '(a) DC voltage and current are constant in time, once the current is established. (b) A graph of voltage and current versus time for 60-Hz AC power. The voltage and current are sinusoidal and are in phase for a simple resistance circuit. The frequencies and peak voltages of AC sources differ greatly.')
 {: #Figure1}
 
-![The potential difference variation of an alternating current voltage source with time is shown as a progressing sine wave. The voltage is shown along the vertical axis and the time is along the horizontal axis. Circuit diagrams show that current flowing in one direction corresponds to positive values of the voltage sine wave. Current flowing in the opposite direction in the circuit corresponds to negative values of the voltage sine wave. The maximum value of the voltage sine wave is plus V sub zero. The minimum value of the voltage sine wave is minus V sub zero.](../resources/Figure_20_05_02.jpg "The potential difference V between the terminals of an AC voltage source fluctuates as shown. The mathematical expression for V is given by \( V=V_0 \sin{ 2 \pi f t } \)   ")
+![The potential difference variation of an alternating current voltage source with time is shown as a progressing sine wave. The voltage is shown along the vertical axis and the time is along the horizontal axis. Circuit diagrams show that current flowing in one direction corresponds to positive values of the voltage sine wave. Current flowing in the opposite direction in the circuit corresponds to negative values of the voltage sine wave. The maximum value of the voltage sine wave is plus V sub zero. The minimum value of the voltage sine wave is minus V sub zero.](../resources/Figure_20_05_02.jpg 'The potential difference V between the terminals of an AC voltage source fluctuates as shown. The mathematical expression for V is given by ( V=V_0 \\sin{ 2 \\pi f t } )   ')
 {: #Figure2}
 
 [[Figure 2]](#Figure2) shows a schematic of a simple circuit with an AC voltage
@@ -72,7 +72,7 @@ Wave your hand back and forth between your face and a fluorescent light bulb. Do
 
 </div>
 
-![A graph showing the variation of power P with time t. The power is along the vertical axis and time is along the horizontal axis. The curve is a sine wave starting at the origin on the horizontal axis and having the crests and troughs both above the positive horizontal axis. The maximum value of power is given by the peak value, which is the product of I sub zero and V sub zero. The average power is indicated by a dotted line through the center of the wave parallel to the horizontal axis with a value half of the product of I sub zero and V sub zero.](../resources/Figure_20_05_03.jpg "AC power as a function of time. Since the voltage and current are in phase here, their product is non-negative and fluctuates between zero and \( I_0 V_0 \) . Average power is \( 1/2 I_0 V_0 \).")
+![A graph showing the variation of power P with time t. The power is along the vertical axis and time is along the horizontal axis. The curve is a sine wave starting at the origin on the horizontal axis and having the crests and troughs both above the positive horizontal axis. The maximum value of power is given by the peak value, which is the product of I sub zero and V sub zero. The average power is indicated by a dotted line through the center of the wave parallel to the horizontal axis with a value half of the product of I sub zero and V sub zero.](../resources/Figure_20_05_03.jpg 'AC power as a function of time. Since the voltage and current are in phase here, their product is non-negative and fluctuates between zero and ( I_0 V_0 ) . Average power is ( 1/2 I_0 V_0 ).')
 {: #Figure3}
 
 We are most often concerned with average power rather than its fluctuations—that
@@ -87,7 +87,7 @@ example. As illustrated in [[Figure 3]](#Figure3), the average power $${P}_
 This is evident from the graph, since the areas above and below the $$\left(
 1/2\right){I}_{0}{V}_{0} $$ line are equal, but it can also be proven using
 trigonometric identities. Similarly, we define an average or **rms current**
-$${I}_{\text{rms}} $$ and average or **rms voltage**  $${V}_{\text{rms}} $$ to
+$${I}_{\text{rms}} $$ and average or **rms voltage** $${V}_{\text{rms}} $$ to
 be, respectively,
 
 <div class="equation" >
@@ -209,7 +209,7 @@ reduced to familiar values. The crucial factor is that it is much easier to
 increase and decrease AC voltages than DC, so AC is used in most large power
 distribution systems.
 
-![Photograph of transformers installed in transmission lines.](../resources/Figure_20_05_04.jpg "Power is distributed over large distances at high voltage to reduce power loss in the transmission lines. The voltages generated at the power plant are stepped up by passive devices called transformers (see Transformers) to 330 000 volts (or more in some places worldwide). At the point of use, the transformers reduce the voltage transmitted for safe residential and commercial use. (Credit: GeorgHH, Wikimedia Commons)")
+![Photograph of transformers installed in transmission lines.](../resources/Figure_20_05_04.jpg 'Power is distributed over large distances at high voltage to reduce power loss in the transmission lines. The voltages generated at the power plant are stepped up by passive devices called transformers (see Transformers) to 330 000 volts (or more in some places worldwide). At the point of use, the transformers reduce the voltage transmitted for safe residential and commercial use. (Credit: GeorgHH, Wikimedia Commons)')
 {: #Figure4}
 
 <div id="Example2" class="example" markdown="1">
@@ -293,25 +293,25 @@ Generate electricity with a bar magnet! Discover the physics behind the phenomen
 
 ### Section Summary
 
-* Direct current (DC) is the flow of electric current in only one direction. It
+- Direct current (DC) is the flow of electric current in only one direction. It
   refers to systems where the source voltage is constant.
-* The voltage source of an alternating current (AC) system puts out $$V={V}_{0}
+- The voltage source of an alternating current (AC) system puts out $$V={V}_{0}
   \sin 2\pi \text{ft} $$ , where $$V $$ is the voltage at time $$t $$ , $${V}_
   {0} $$ is the peak voltage, and $$f $$ is the frequency in hertz.
-* In a simple circuit, $$I=V/R $$ and AC current is $$I={I}_{0} \sin 2\pi
+- In a simple circuit, $$I=V/R $$ and AC current is $$I={I}_{0} \sin 2\pi
   \text{ft} $$ , where $$I $$ is the current at time $$t $$ , and $${I}_{0}={V}_
   {0}\text{/R} $$ is the peak current.
-* The average AC power is $${P}_{\text{ave}}=\frac{1}{2}{I}_{0}{V}_{0} $$ .
+- The average AC power is $${P}_{\text{ave}}=\frac{1}{2}{I}_{0}{V}_{0} $$ .
 
-* Average (rms) current $${I}_{\text{rms}} $$ and average (rms) voltage $${V}_
+- Average (rms) current $${I}_{\text{rms}} $$ and average (rms) voltage $${V}_
   {\text{rms}} $$ are $${I}_{\text{rms}}=\frac{ {I}_{0}}{\sqrt{2}} $$ and $${V}_
   {\text{rms}}=\frac{ {V}_{0}}{\sqrt{2}} $$ , where rms stands for root mean
   square.
-* Thus, $${P}_{\text{ave}}={I}_{\text{rms}}{V}_{\text{rms}} $$ .
+- Thus, $${P}_{\text{ave}}={I}_{\text{rms}}{V}_{\text{rms}} $$ .
 
-* Ohm’s law for AC is $${I}_{\text{rms}}=\frac{ {V}_{\text{rms}}}{R} $$ .
+- Ohm’s law for AC is $${I}_{\text{rms}}=\frac{ {V}_{\text{rms}}}{R} $$ .
 
-* Expressions for the average power of an AC circuit are $${P}_{\text{ave}}={I}_
+- Expressions for the average power of an AC circuit are $${P}_{\text{ave}}={I}_
   {\text{rms}}{V}_{\text{rms}} $$ , $${P}_{\text{ave}}=\frac{ {V}_{\text{rms}}^{
   2}}{R} $$ , and $${P}_{\text{ave}}={I}_{\text{rms}}^{ 2}R $$ , analogous to
   the expressions for DC circuits.
@@ -347,44 +347,34 @@ You are riding in a train, gazing into the distance through its window. As close
  what is its resistance at  $$2600 \text{ºC} $$ ?
 
 </div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+<div class="solution" markdown="1">
 **Strategy**
 
-(a) Use $$P = V_{\text{rms}}^2 / R$$ with the given AC voltage and power.
+For part (a), use $$P = V_{\text{rms}}^{2}/R$$. For part (b), use the temperature dependence of resistance $$R = R_{0}(1 + \alpha \Delta T)$$ with the tungsten temperature coefficient.
 
-(b) Apply the temperature-resistance relationship: $$R = R_0(1 + \alpha \Delta T)$$ to find resistance at the lower temperature.
+**Solution**
 
-**Solution for (a)**
+**(a)** Calculate the hot resistance:
 
 <div class="equation">
-$$R = \frac{V_{\text{rms}}^2}{P} = \frac{(120 \text{ V})^2}{25 \text{ W}} = \frac{14400}{25} = 576 \text{ Ω}$$
+$$R = \frac{V_{\text{rms}}^{2}}{P} = \frac{(120 \text{ V})^{2}}{25 \text{ W}} = \frac{14400 \text{ V}^{2}}{25 \text{ W}} = 576 \text{ Ω}$$
 </div>
 
-**Solution for (b)**
-
-Using the resistance at 2700°C as $$R_{2700}$$ and finding $$R_{2600}$$:
+**(b)** Use the temperature coefficient for tungsten ($$\alpha = 4.5 \times 10^{-3}$$ /°C). With $$\Delta T = 2600 - 2700 = -100$$ °C from the hot operating temperature:
 
 <div class="equation">
-$$R_{2700} = R_{2600}[1 + \alpha(2700 - 2600)]$$
-</div>
-
-Using tungsten's temperature coefficient $$\alpha = 4.5 \times 10^{-3}$$/°C:
-
-<div class="equation">
-$$576 = R_{2600}[1 + (4.5 \times 10^{-3})(100)] = R_{2600}(1.45)$$
+$$R_{2600} = R_{2700}(1 + \alpha \Delta T) = 576 \text{ Ω}[1 + (4.5 \times 10^{-3} \text{ /°C})(-100 \text{ °C})]$$
 </div>
 
 <div class="equation">
-$$R_{2600} = \frac{576}{1.45} = 397 \text{ Ω}$$
+$$R_{2600} = 576 \text{ Ω}(1 - 0.45) = 576 \text{ Ω}(0.55) = 317 \text{ Ω}$$
 </div>
 
 **Discussion**
 
-(a) The hot resistance is 576 Ω—quite high due to the tungsten filament's extreme operating temperature.
+The hot resistance is quite high (576 Ω). At 100°C lower temperature, the resistance drops to 317 Ω—a 45% decrease. This significant temperature dependence explains why incandescent bulbs draw much more current when first switched on (when cold) than during normal operation.
 
-(b) At 2600°C, the resistance is about 31% lower (397 Ω vs 576 Ω), demonstrating the strong temperature dependence of tungsten resistance. This is why incandescent bulbs draw a surge of current when first turned on (cold resistance is much lower), then quickly settle to their rated power as they heat up.
-
-(a) The hot resistance is 576 Ω. (b) The resistance at 2600°C is 397 Ω.
+(a) The hot resistance is 576 Ω. (b) At 2600°C, the resistance is approximately 317 Ω.
 
 </div>
 </div>
@@ -395,21 +385,7 @@ Certain heavy industrial equipment uses AC power that has a peak voltage of 679 
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-**Strategy**
-
-Use the relationship between peak and rms voltage: $$V_{\text{rms}} = V_0 / \sqrt{2}$$.
-
-**Solution**
-
-<div class="equation">
-$$V_{\text{rms}} = \frac{V_0}{\sqrt{2}} = \frac{679 \text{ V}}{1.414} = 480 \text{ V}$$
-</div>
-
-**Discussion**
-
-The rms voltage of 480 V is a common industrial voltage used for heavy equipment like large motors and welding machines. The relationship $$V_{\text{rms}} = V_0/\sqrt{2}$$ means the rms voltage is always about 70.7% of the peak voltage. This rms value represents the equivalent DC voltage that would deliver the same average power.
-
-The rms voltage is 480 V.
+480 V
 
 </div>
 </div>
@@ -419,22 +395,30 @@ The rms voltage is 480 V.
 A certain circuit breaker trips when the rms current is 15.0 A. What is the corresponding peak current?
 
 </div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+<div class="solution" markdown="1">
 **Strategy**
 
-Use the relationship between rms and peak current: $$I_0 = \sqrt{2} \times I_{\text{rms}}$$.
+We use the relationship between rms and peak current: $$I_{\text{rms}} = \frac{I_{0}}{\sqrt{2}}$$. Solving for the peak current $$I_{0}$$ will give us the maximum instantaneous current that flows through the circuit.
 
 **Solution**
 
+Rearrange the rms current equation to solve for peak current:
+
 <div class="equation">
-$$I_0 = \sqrt{2} \times I_{\text{rms}} = 1.414 \times 15.0 \text{ A} = 21.2 \text{ A}$$
+$$I_{0} = \sqrt{2} \cdot I_{\text{rms}}$$
+</div>
+
+Substitute the known value:
+
+<div class="equation">
+$$I_{0} = \sqrt{2} \times 15.0 \text{ A} = 1.414 \times 15.0 \text{ A} = 21.2 \text{ A}$$
 </div>
 
 **Discussion**
 
-The peak current reaches 21.2 A—about 41% higher than the rms value. Circuit breakers are designed to respond to the rms (heating equivalent) current rather than the peak current, since it's the average power dissipation that causes wires to overheat. However, the peak current is important for understanding instantaneous stress on components.
+The peak current of 21.2 A is about 41% higher than the rms value of 15.0 A. This is an important consideration for circuit breakers and fuses, which must be designed to handle the peak current without tripping during normal operation, while still protecting against sustained overcurrent conditions. The breaker responds to the heating effect of current, which is proportional to $$I^{2}$$, and thus relates to the rms value rather than the instantaneous peaks.
 
-The peak current corresponding to 15.0 A rms is 21.2 A.
+The corresponding peak current is 21.2 A.
 
 </div>
 </div>
@@ -445,21 +429,7 @@ Military aircraft use 400-Hz AC power, because it is possible to design lighter-
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-**Strategy**
-
-The period T is the reciprocal of frequency: $$T = 1/f$$.
-
-**Solution**
-
-<div class="equation">
-$$T = \frac{1}{f} = \frac{1}{400 \text{ Hz}} = 0.00250 \text{ s} = 2.50 \text{ ms}$$
-</div>
-
-**Discussion**
-
-At 400 Hz, each cycle takes only 2.50 ms—about 6.7 times faster than standard 60-Hz power (which has a 16.67 ms period). The higher frequency allows transformers and motors to use smaller, lighter magnetic cores (since flux changes faster) while maintaining the same power capability. This weight savings is critical in aircraft where every kilogram matters.
-
-The time for one complete cycle is 2.50 ms.
+2.50 ms
 
 </div>
 </div>
@@ -469,30 +439,36 @@ The time for one complete cycle is 2.50 ms.
 A North American tourist takes his 25.0-W, 120-V AC razor to Europe, finds a special adapter, and plugs it into 240 V AC. Assuming constant resistance, what power does the razor consume as it is ruined?
 
 </div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+<div class="solution" markdown="1">
 **Strategy**
 
-First find the razor's resistance from its US rating. Then calculate power at 240 V using $$P = V^2/R$$, since resistance is constant.
+First, find the razor's resistance using its rated power and voltage with $$P = V^{2}/R$$. Then, use this resistance to calculate the power consumed when connected to the higher European voltage.
 
 **Solution**
 
-Find the razor's resistance:
+Calculate the razor's resistance from its rated specifications:
 
 <div class="equation">
-$$R = \frac{V^2}{P} = \frac{(120 \text{ V})^2}{25.0 \text{ W}} = 576 \text{ Ω}$$
+$$R = \frac{V^{2}}{P} = \frac{(120 \text{ V})^{2}}{25.0 \text{ W}} = \frac{14400 \text{ V}^{2}}{25.0 \text{ W}} = 576 \text{ Ω}$$
 </div>
 
-Calculate power at 240 V:
+Now calculate the power consumed when connected to 240 V AC with the same resistance:
 
 <div class="equation">
-$$P = \frac{V^2}{R} = \frac{(240 \text{ V})^2}{576 \text{ Ω}} = \frac{57,600}{576} = 100 \text{ W}$$
+$$P_{\text{Europe}} = \frac{V^{2}}{R} = \frac{(240 \text{ V})^{2}}{576 \text{ Ω}} = \frac{57600 \text{ V}^{2}}{576 \text{ Ω}} = 100 \text{ W}$$
+</div>
+
+Alternatively, since $$P \propto V^{2}$$ for constant resistance, doubling the voltage quadruples the power:
+
+<div class="equation">
+$$P_{\text{Europe}} = P_{\text{rated}} \times \left(\frac{V_{\text{Europe}}}{V_{\text{rated}}}\right)^{2} = 25.0 \text{ W} \times \left(\frac{240}{120}\right)^{2} = 25.0 \text{ W} \times 4 = 100 \text{ W}$$
 </div>
 
 **Discussion**
 
-The razor consumes 100 W—four times its rated power! This happens because power scales as $$V^2$$ at constant resistance, so doubling the voltage quadruples the power. The razor's heating element would quickly overheat and burn out, and the motor (if present) would spin dangerously fast. This is why travelers need voltage converters, not just plug adapters, when using appliances designed for different voltage systems.
+The razor consumes four times its rated power (100 W instead of 25 W). This excessive power will cause the razor's motor to overheat and burn out, the heating elements to glow too hot, and potentially cause a fire or electrical damage. This is why travelers need voltage converters, not just plug adapters, when using electrical devices in countries with different voltage standards. Modern "dual voltage" devices (labeled 120-240 V) have internal circuitry that adjusts for different voltages.
 
-The razor consumes 100 W before being ruined—four times its rated power.
+The razor consumes 100 W when connected to 240 V AC, which is four times its rated power and will damage or destroy the device.
 
 </div>
 </div>
@@ -504,33 +480,11 @@ In this problem, you will verify statements made at the end of the power losses 
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-**Strategy**
+(a) 4.00 kA
 
-(a) Use $$P = IV$$ to find current. (b) Use $$P = I^2R$$ to find power loss. (c) Calculate percent loss as (power loss / total power) × 100%.
+(b) 16.0 MW
 
-**Solution for (a)**
-
-<div class="equation">
-$$I = \frac{P}{V} = \frac{100 \times 10^6 \text{ W}}{25.0 \times 10^3 \text{ V}} = 4000 \text{ A} = 4.00 \text{ kA}$$
-</div>
-
-**Solution for (b)**
-
-<div class="equation">
-$$P_{\text{loss}} = I^2 R = (4000 \text{ A})^2 (1.00 \text{ Ω}) = 16.0 \times 10^6 \text{ W} = 16.0 \text{ MW}$$
-</div>
-
-**Solution for (c)**
-
-<div class="equation">
-$$\% \text{loss} = \frac{16.0 \text{ MW}}{100 \text{ MW}} \times 100\% = 16.0\%$$
-</div>
-
-**Discussion**
-
-At 25.0 kV, the transmission losses are 16.0%—an unacceptably high loss compared to 0.25% at 200 kV (from Example 2). This demonstrates why power companies use high voltages: reducing voltage by a factor of 8 (from 200 kV to 25 kV) increases current by 8×, which increases power loss (proportional to $$I^2$$) by 64×. The tradeoff is that high voltages require better insulation and pose greater safety hazards.
-
-(a) 4.00 kA current is needed. (b) 16.0 MW is lost in the transmission lines. (c) This represents 16.0% power loss.
+(c) 16.0%
 
 </div>
 </div>
@@ -540,34 +494,38 @@ At 25.0 kV, the transmission losses are 16.0%—an unacceptably high loss compar
 A small office-building air conditioner operates on 408-V AC and consumes 50.0 kW. (a) What is its effective resistance? (b) What is the cost of running the air conditioner during a hot summer month when it is on 8.00 h per day for 30 days and electricity costs  $$9.00 \text{cents/kW}\cdot \text{h} $$ ?
 
 </div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+<div class="solution" markdown="1">
 **Strategy**
 
-(a) Use $$P = V^2/R$$ to find resistance.
+For part (a), use the power equation $$P = V^{2}/R$$ to find the effective resistance. For part (b), calculate the total energy consumed in kW·h, then multiply by the cost per kW·h.
 
-(b) Calculate total energy used and multiply by the electricity rate.
+**Solution**
 
-**Solution for (a)**
+**(a)** Rearrange the power equation to solve for resistance:
 
 <div class="equation">
-$$R = \frac{V^2}{P} = \frac{(408 \text{ V})^2}{50.0 \times 10^3 \text{ W}} = \frac{166,464}{50,000} = 3.33 \text{ Ω}$$
+$$R = \frac{V^{2}}{P} = \frac{(408 \text{ V})^{2}}{50.0 \times 10^{3} \text{ W}} = \frac{166464 \text{ V}^{2}}{50000 \text{ W}} = 3.33 \text{ Ω}$$
 </div>
 
-**Solution for (b)**
+**(b)** Calculate the total energy consumed:
 
-Total operating time: $$t = 8.00 \text{ h/day} \times 30 \text{ days} = 240 \text{ h}$$
+<div class="equation">
+$$E = P \times t = 50.0 \text{ kW} \times 8.00 \text{ h/day} \times 30 \text{ days} = 12000 \text{ kW·h}$$
+</div>
 
-Total energy: $$E = P \times t = 50.0 \text{ kW} \times 240 \text{ h} = 12,000 \text{ kWh}$$
+Calculate the cost:
 
-Cost: $$\text{Cost} = 12,000 \text{ kWh} \times \$0.090/\text{kWh} = \$1080$$
+<div class="equation">
+$$\text{Cost} = E \times \text{rate} = 12000 \text{ kW·h} \times \$0.0900/\text{kW·h} = \$1080$$
+</div>
 
 **Discussion**
 
-(a) The effective resistance of 3.33 Ω is surprisingly low, reflecting the high power consumption of commercial air conditioning.
+The effective resistance of 3.33 Ω is quite low, which is typical for high-power devices. A low resistance allows a large current to flow, enabling high power consumption. The current drawn is $$I = P/V = 50000 \text{ W}/408 \text{ V} = 122.5 \text{ A}$$, which is substantial and requires heavy-duty wiring.
 
-(b) The monthly cost of $1,080 is a significant operating expense for a small office building. This is why energy efficiency ratings are so important for commercial HVAC systems—a more efficient unit could save hundreds of dollars monthly.
+The monthly operating cost of $1080 is significant but reasonable for a commercial air conditioning system running 8 hours daily. This cost analysis helps building managers budget for energy expenses and evaluate the economic benefit of more efficient HVAC systems.
 
-(a) The effective resistance is 3.33 Ω. (b) The monthly operating cost is $1,080.
+(a) The effective resistance is 3.33 Ω. (b) The cost of running the air conditioner for the month is $1080.
 
 </div>
 </div>
@@ -578,29 +536,7 @@ What is the peak power consumption of a 120-V AC microwave oven that draws 10.0 
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-**Strategy**
-
-Peak power occurs when both voltage and current are at their peak values. Use $$P_0 = I_0 V_0 = I_0 (\sqrt{2} V_{\text{rms}}) = \sqrt{2} I_{\text{rms}} \times \sqrt{2} V_{\text{rms}} = 2 \times P_{\text{avg}}$$.
-
-**Solution**
-
-The average power is:
-
-<div class="equation">
-$$P_{\text{avg}} = I_{\text{rms}} V_{\text{rms}} = (10.0 \text{ A})(120 \text{ V}) = 1200 \text{ W}$$
-</div>
-
-The peak power is twice the average:
-
-<div class="equation">
-$$P_0 = 2 P_{\text{avg}} = 2 \times 1200 \text{ W} = 2400 \text{ W} = 2.40 \text{ kW}$$
-</div>
-
-**Discussion**
-
-The peak power of 2.40 kW is twice the average power of 1.20 kW. This occurs because in AC circuits, power oscillates at twice the frequency of the voltage/current, reaching a maximum when $$V$$ and $$I$$ are both at their peaks. The average power, which determines energy consumption and heating effects, is what matters for practical purposes.
-
-The peak power consumption is 2.40 kW.
+2.40 kW
 
 </div>
 </div>
@@ -610,28 +546,28 @@ The peak power consumption is 2.40 kW.
 What is the peak current through a 500-W room heater that operates on 120-V AC power?
 
 </div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+<div class="solution" markdown="1">
 **Strategy**
 
-Find the rms current using $$P = I_{\text{rms}} V_{\text{rms}}$$, then convert to peak current using $$I_0 = \sqrt{2} I_{\text{rms}}$$.
+First, find the rms current using $$P_{\text{ave}} = I_{\text{rms}} V_{\text{rms}}$$. Then convert to peak current using $$I_{0} = \sqrt{2} \cdot I_{\text{rms}}$$.
 
 **Solution**
 
-Find rms current:
+Calculate the rms current from the average power:
 
 <div class="equation">
-$$I_{\text{rms}} = \frac{P}{V_{\text{rms}}} = \frac{500 \text{ W}}{120 \text{ V}} = 4.17 \text{ A}$$
+$$I_{\text{rms}} = \frac{P_{\text{ave}}}{V_{\text{rms}}} = \frac{500 \text{ W}}{120 \text{ V}} = 4.17 \text{ A}$$
 </div>
 
-Find peak current:
+Convert to peak current:
 
 <div class="equation">
-$$I_0 = \sqrt{2} \times I_{\text{rms}} = 1.414 \times 4.17 \text{ A} = 5.89 \text{ A}$$
+$$I_{0} = \sqrt{2} \cdot I_{\text{rms}} = 1.414 \times 4.17 \text{ A} = 5.89 \text{ A}$$
 </div>
 
 **Discussion**
 
-The peak current of 5.89 A is about 41% higher than the rms current of 4.17 A. For a resistive load like a heater, the current and voltage are in phase, so peak current occurs at the same instant as peak voltage. This peak value is important for designing circuit components, though the rms value determines the average heating effect.
+The peak current of 5.89 A is the maximum instantaneous current flowing through the heater during each AC cycle. The rms current of 4.17 A represents the effective DC equivalent that would produce the same heating effect. For a resistive load like a heater, the current and voltage are in phase, so the peak current occurs at the same instant as the peak voltage. The wiring and circuit breaker for this heater must be rated to handle currents above the peak value to provide a safety margin.
 
 The peak current through the room heater is 5.89 A.
 
@@ -644,47 +580,11 @@ Two different electrical devices have the same power consumption, but one is mea
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-**Strategy**
+(a) 4.0
 
-(a) For same power at different voltages, use $$P = V^2/R$$ to find the resistance ratio.
+(b) 0.50
 
-(b) Use $$P = IV$$ to find current ratio.
-
-(c) Use $$P = V^2/R$$ to find the power factor when voltage is doubled at constant R.
-
-**Solution for (a)**
-
-For the same power P: $$R = V^2/P$$
-
-<div class="equation">
-$$\frac{R_{240}}{R_{120}} = \frac{(240)^2/P}{(120)^2/P} = \frac{(240)^2}{(120)^2} = \frac{57600}{14400} = 4.0$$
-</div>
-
-**Solution for (b)**
-
-Since $$I = P/V$$:
-
-<div class="equation">
-$$\frac{I_{240}}{I_{120}} = \frac{P/240}{P/120} = \frac{120}{240} = 0.50$$
-</div>
-
-**Solution for (c)**
-
-Connecting a 120-V device (with resistance $$R_{120}$$) to 240 V:
-
-<div class="equation">
-$$\frac{P_{240}}{P_{120}} = \frac{(240)^2/R}{(120)^2/R} = \frac{(240)^2}{(120)^2} = 4.0$$
-</div>
-
-**Discussion**
-
-(a) The 240-V device needs 4× higher resistance to consume the same power.
-
-(b) The 240-V device draws half the current (since $$I = P/V$$).
-
-(c) Connecting a 120-V device to 240 V increases power by 4×, which would quickly damage or destroy it. This is why voltage converters are essential for international travel with electrical devices.
-
-(a) The resistance ratio is 4.0 (240-V device has 4× higher resistance). (b) The current ratio is 0.50 (240-V device draws half the current). (c) Power increases by a factor of 4.0.
+(c) 4.0
 
 </div>
 </div>
@@ -696,58 +596,52 @@ Nichrome wire is used in some radiative heaters. (a) Find the resistance needed 
  (c) What power will it draw when first switched on?
 
 </div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+<div class="solution" markdown="1">
 **Strategy**
 
-(a) Use $$R = V^2/P$$ for the hot resistance.
+For part (a), use $$P = V^{2}/R$$ to find the required hot resistance. For part (b), use the resistivity formula $$R = \rho L/A$$ with the resistivity at the operating temperature. For part (c), find the cold resistance using the temperature coefficient and then calculate the power at room temperature.
 
-(b) Use $$R = \rho L/A$$ at operating temperature. First find $$\rho$$ at 500°C using the temperature coefficient.
+**Solution**
 
-(c) Calculate power with the lower cold resistance.
-
-**Solution for (a)**
+**(a)** Find the hot resistance required for 1.00 kW:
 
 <div class="equation">
-$$R_{500} = \frac{V^2}{P} = \frac{(120 \text{ V})^2}{1000 \text{ W}} = 14.4 \text{ Ω}$$
+$$R_{\text{hot}} = \frac{V^{2}}{P} = \frac{(120 \text{ V})^{2}}{1000 \text{ W}} = \frac{14400 \text{ V}^{2}}{1000 \text{ W}} = 14.4 \text{ Ω}$$
 </div>
 
-**Solution for (b)**
-
-Nichrome resistivity at 20°C: $$\rho_{20} = 1.00 \times 10^{-6}$$ Ω·m
-
-At 500°C ($$\alpha = 0.4 \times 10^{-3}$$/°C):
+**(b)** Use the resistivity of Nichrome at 500°C. First, find the resistivity at the operating temperature using $$\rho = \rho_{0}(1 + \alpha \Delta T)$$, where $$\rho_{0} = 1.00 \times 10^{-6} \text{ Ω·m}$$ at 20°C and $$\alpha = 0.4 \times 10^{-3}$$ /°C for Nichrome:
 
 <div class="equation">
-$$\rho_{500} = \rho_{20}[1 + \alpha(500-20)] = (1.00 \times 10^{-6})[1 + (0.4 \times 10^{-3})(480)] = 1.19 \times 10^{-6} \text{ Ω·m}$$
+$$\rho_{500} = (1.00 \times 10^{-6} \text{ Ω·m})[1 + (0.4 \times 10^{-3} \text{ /°C})(500 - 20) \text{ °C}]$$
 </div>
 
-Convert area: $$A = 5.00 \text{ mm}^2 = 5.00 \times 10^{-6} \text{ m}^2$$
-
-Find length:
-
 <div class="equation">
-$$L = \frac{RA}{\rho} = \frac{(14.4 \text{ Ω})(5.00 \times 10^{-6} \text{ m}^2)}{1.19 \times 10^{-6} \text{ Ω·m}} = 60.5 \text{ m}$$
+$$\rho_{500} = (1.00 \times 10^{-6} \text{ Ω·m})(1 + 0.192) = 1.19 \times 10^{-6} \text{ Ω·m}$$
 </div>
 
-**Solution for (c)**
-
-Cold resistance at 20°C:
+Solve for length using $$R = \rho L/A$$:
 
 <div class="equation">
-$$R_{20} = \frac{R_{500}}{1 + \alpha \Delta T} = \frac{14.4}{1.192} = 12.1 \text{ Ω}$$
+$$L = \frac{RA}{\rho} = \frac{(14.4 \text{ Ω})(5.00 \times 10^{-6} \text{ m}^{2})}{1.19 \times 10^{-6} \text{ Ω·m}} = 60.5 \text{ m}$$
 </div>
 
-Initial power:
+**(c)** Find the cold resistance at 20°C. Since $$R \propto \rho$$:
 
 <div class="equation">
-$$P = \frac{V^2}{R_{20}} = \frac{(120)^2}{12.1} = 1190 \text{ W} = 1.19 \text{ kW}$$
+$$R_{\text{cold}} = R_{\text{hot}} \times \frac{\rho_{20}}{\rho_{500}} = 14.4 \text{ Ω} \times \frac{1.00}{1.19} = 12.1 \text{ Ω}$$
+</div>
+
+Calculate the initial power:
+
+<div class="equation">
+$$P_{\text{cold}} = \frac{V^{2}}{R_{\text{cold}}} = \frac{(120 \text{ V})^{2}}{12.1 \text{ Ω}} = 1.19 \text{ kW}$$
 </div>
 
 **Discussion**
 
-(a) The hot resistance is 14.4 Ω. (b) About 60.5 m of wire is needed. (c) The heater initially draws 1.19 kW—about 19% more than its rated power. Nichrome's low temperature coefficient ($$0.4 \times 10^{-3}$$/°C) minimizes this startup surge compared to tungsten, making it ideal for heating elements.
+The heater requires 60.5 m of Nichrome wire, which is typically wound into a compact coil. When first switched on, the heater draws about 19% more power (1.19 kW vs 1.00 kW) because the cold resistance is lower. This is opposite to the behavior of incandescent bulbs, where tungsten has a much higher temperature coefficient and draws several times more current when cold. Nichrome's relatively small temperature coefficient ($$\alpha = 0.4 \times 10^{-3}$$ /°C vs. tungsten's $$4.5 \times 10^{-3}$$ /°C) makes it ideal for heating elements because the power output remains relatively stable as the element heats up.
 
-(a) 14.4 Ω resistance is needed. (b) 60.5 m of Nichrome wire is needed. (c) It draws about 1.19 kW when first switched on.
+(a) The required resistance is 14.4 Ω. (b) The length of Nichrome wire needed is 60.5 m. (c) When first switched on, the heater draws 1.19 kW.
 
 </div>
 </div>
@@ -761,49 +655,11 @@ Find the time after  $$t=0 $$
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-**Strategy**
+(a) 1.39 ms
 
-Use the sinusoidal voltage equation $$V = V_0 \sin(2\pi ft)$$ and solve for t when V equals the specified values. For 60 Hz, the period is T = 1/60 s = 16.67 ms.
+(b) 4.17 ms
 
-**Solution for (a)**
-
-For $$V = V_0/2$$: $$\sin(2\pi f t) = 0.5$$
-
-<div class="equation">
-$$2\pi f t = \sin^{-1}(0.5) = \frac{\pi}{6}$$
-</div>
-
-<div class="equation">
-$$t = \frac{\pi/6}{2\pi \times 60} = \frac{1}{720} \text{ s} = 1.39 \text{ ms}$$
-</div>
-
-**Solution for (b)**
-
-For $$V = V_0$$: $$\sin(2\pi f t) = 1$$
-
-<div class="equation">
-$$2\pi f t = \frac{\pi}{2}$$
-</div>
-
-<div class="equation">
-$$t = \frac{\pi/2}{2\pi \times 60} = \frac{1}{240} \text{ s} = 4.17 \text{ ms}$$
-</div>
-
-**Solution for (c)**
-
-For $$V = 0$$ (after the peak): $$\sin(2\pi f t) = 0$$
-
-This first occurs at $$2\pi f t = \pi$$:
-
-<div class="equation">
-$$t = \frac{\pi}{2\pi \times 60} = \frac{1}{120} \text{ s} = 8.33 \text{ ms}$$
-</div>
-
-**Discussion**
-
-The voltage reaches half its peak value very quickly (1.39 ms), then takes longer to reach the peak (4.17 ms), and returns to zero at the half-period point (8.33 ms). These times show how sinusoidal waveforms spend more time near their extreme values than near zero—an important consideration for understanding AC power delivery.
-
-(a) $$V_0/2$$ is first reached at 1.39 ms. (b) $$V_0$$ is reached at 4.17 ms. (c) The voltage returns to 0 at 8.33 ms.
+(c) 8.33 ms
 
 </div>
 </div>
@@ -815,48 +671,66 @@ The voltage reaches half its peak value very quickly (1.39 ms), then takes longe
  (b) $$-{V}_{\text{rms}} $$ ?
 
 </div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+<div class="solution" markdown="1">
 **Strategy**
 
-Since $$V_{\text{rms}} = V_0/\sqrt{2}$$, we need $$\sin(2\pi ft) = 1/\sqrt{2} = 0.707$$. Find both solutions in the first period (0 to T = 16.67 ms).
+Use the AC voltage equation $$V = V_{0} \sin(2\pi f t)$$ and the relationship $$V_{\text{rms}} = V_{0}/\sqrt{2}$$. Set the instantaneous voltage equal to $$\pm V_{\text{rms}}$$ and solve for time. For 60-Hz AC, the period is $$T = 1/f = 1/60$$ s = 16.67 ms.
 
-**Solution for (a)**
+**Solution**
 
-For $$V = V_{\text{rms}} = V_0/\sqrt{2}$$: $$\sin(2\pi ft) = 1/\sqrt{2}$$
-
-First time: $$2\pi ft_1 = \sin^{-1}(0.707) = \pi/4$$
+**(a)** Find when $$V = V_{\text{rms}} = V_{0}/\sqrt{2}$$:
 
 <div class="equation">
-$$t_1 = \frac{\pi/4}{2\pi \times 60} = \frac{1}{480} \text{ s} = 2.08 \text{ ms}$$
+$$V_{0} \sin(2\pi f t) = \frac{V_{0}}{\sqrt{2}}$$
 </div>
 
-Second time (during the downward portion): $$2\pi ft_2 = \pi - \pi/4 = 3\pi/4$$
-
 <div class="equation">
-$$t_2 = \frac{3\pi/4}{2\pi \times 60} = \frac{3}{480} \text{ s} = 6.25 \text{ ms}$$
+$$\sin(2\pi f t) = \frac{1}{\sqrt{2}} = 0.707$$
 </div>
 
-**Solution for (b)**
+The sine function equals $$1/\sqrt{2}$$ at angles of 45° and 135° (or $$\pi/4$$ and $$3\pi/4$$ radians) within one period:
 
-For $$V = -V_{\text{rms}}$$: $$\sin(2\pi ft) = -1/\sqrt{2}$$
-
-First time: $$2\pi ft_1 = \pi + \pi/4 = 5\pi/4$$
-
+For the first time:
 <div class="equation">
-$$t_1 = \frac{5\pi/4}{2\pi \times 60} = \frac{5}{480} \text{ s} = 10.4 \text{ ms}$$
+$$2\pi f t_{1} = \frac{\pi}{4}$$
 </div>
 
-Second time: $$2\pi ft_2 = 2\pi - \pi/4 = 7\pi/4$$
+<div class="equation">
+$$t_{1} = \frac{1}{8f} = \frac{1}{8 \times 60 \text{ Hz}} = 2.08 \text{ ms}$$
+</div>
+
+For the second time:
+<div class="equation">
+$$2\pi f t_{2} = \frac{3\pi}{4}$$
+</div>
 
 <div class="equation">
-$$t_2 = \frac{7\pi/4}{2\pi \times 60} = \frac{7}{480} \text{ s} = 14.6 \text{ ms}$$
+$$t_{2} = \frac{3}{8f} = \frac{3}{8 \times 60 \text{ Hz}} = 6.25 \text{ ms}$$
+</div>
+
+**(b)** Find when $$V = -V_{\text{rms}} = -V_{0}/\sqrt{2}$$:
+
+<div class="equation">
+$$\sin(2\pi f t) = -\frac{1}{\sqrt{2}} = -0.707$$
+</div>
+
+The sine function equals $$-1/\sqrt{2}$$ at angles of 225° and 315° (or $$5\pi/4$$ and $$7\pi/4$$ radians) within one period:
+
+For the first time:
+<div class="equation">
+$$t_{3} = \frac{5}{8f} = \frac{5}{8 \times 60 \text{ Hz}} = 10.4 \text{ ms}$$
+</div>
+
+For the second time:
+<div class="equation">
+$$t_{4} = \frac{7}{8f} = \frac{7}{8 \times 60 \text{ Hz}} = 14.6 \text{ ms}$$
 </div>
 
 **Discussion**
 
-The voltage equals $$+V_{\text{rms}}$$ twice per cycle (at 2.08 ms and 6.25 ms during the positive half) and $$-V_{\text{rms}}$$ twice per cycle (at 10.4 ms and 14.6 ms during the negative half). This illustrates how the rms value represents an "average" in the sense that the instantaneous voltage is above it half the time and below it half the time.
+These times divide the period into eight equal parts of 2.08 ms each. The rms voltage represents the effective DC equivalent, and the instantaneous AC voltage crosses through this value four times per cycle—twice positive and twice negative. Notice that the voltage spends more time below $$V_{\text{rms}}$$ than above it during the positive half-cycle. This is because the sine wave varies slowly near its peaks and quickly near zero crossings. The rms value is calculated by averaging the square of the voltage, which gives extra weight to the peak regions.
 
-(a) $$V_{\text{rms}}$$ is reached at 2.08 ms and 6.25 ms. (b) $$-V_{\text{rms}}$$ is reached at 10.4 ms and 14.6 ms.
+(a) The voltage equals $$V_{\text{rms}}$$ at $$t = 2.08$$ ms and $$t = 6.25$$ ms. (b) The voltage equals $$-V_{\text{rms}}$$ at $$t = 10.4$$ ms and $$t = 14.6$$ ms.
 
 </div>
 </div>

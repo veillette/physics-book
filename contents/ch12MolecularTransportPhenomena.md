@@ -38,7 +38,7 @@ constant for the particular molecule in a specific medium. [[Table 1]](#Table1)
 lists representative values of $$D $$ for various substances, in units of
 $${\text{m}}^{2}\text{/s} $$.
 
-![The figure shows the path of a random walk. The random thermal motion of a molecule is shown to begin at a start point and then the particles move about zigzag in all directions and end up at the finish point. The distance between the start and finish point is shown as x. Continuous arrows show various directions of motion.](../resources/Figure_12_07_01.jpg "The random thermal motion of a molecule in a fluid in time \( t \) . This type of motion is called a random walk.")
+![The figure shows the path of a random walk. The random thermal motion of a molecule is shown to begin at a start point and then the particles move about zigzag in all directions and end up at the finish point. The distance between the start and finish point is shown as x. Continuous arrows show various directions of motion.](../resources/Figure_12_07_01.jpg 'The random thermal motion of a molecule in a fluid in time ( t ) . This type of motion is called a random walk.')
 {: #Figure1}
 
 <table id="Table1" aria-describedby="Diffusing molecules for various substances are listed in column 1. The medium (air or water) is listed in column 2. D, in meters squared per second, is listed in column 3."><caption><span class="title">Diffusion Constants for Various Molecules<sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup></span></caption><thead><tr>
@@ -127,7 +127,7 @@ molecules will move out of a region of high concentration than into it. The net
 rate of diffusion is higher initially than after the process is partially
 completed. (See [[Figure 2]](#Figure2).)
 
-![The figure shows the diffusion along a cylindrical tube of area of cross section A. The cylindrical tube is divided into three regions. The cross section is marked as A. The first region is marked as region one. The concentration there is marked C one. The molecules are shown as small sphere with an arrow pointing out from them. The concentration is high in this region. The second region is marked of width delta x. The concentration is lesser in this region as compared to region one. The third region is marked as region two, the concentration in this region lesser than the other two regions shown by lesser number of spherical molecules.](../resources/Figure_12_07_02.jpg "Diffusion proceeds from a region of higher concentration to a lower one. The net rate of movement is proportional to the difference in concentration.")
+![The figure shows the diffusion along a cylindrical tube of area of cross section A. The cylindrical tube is divided into three regions. The cross section is marked as A. The first region is marked as region one. The concentration there is marked C one. The molecules are shown as small sphere with an arrow pointing out from them. The concentration is high in this region. The second region is marked of width delta x. The concentration is lesser in this region as compared to region one. The third region is marked as region two, the concentration in this region lesser than the other two regions shown by lesser number of spherical molecules.](../resources/Figure_12_07_02.jpg 'Diffusion proceeds from a region of higher concentration to a lower one. The net rate of movement is proportional to the difference in concentration.')
 {: #Figure2}
 
 The net rate of diffusion is proportional to the concentration difference. Many
@@ -167,7 +167,7 @@ the membrane while moving across. Membrane function, in fact, is the subject of
 much current research, involving not only physiology but also chemistry and
 physics.
 
-![Part a of the figure shows a semi permeable membrane shown as small rectangular sections in a vertical line, separated by small gaps called as pores. Molecules are shown in all shapes on both the sides of the membranes. Some molecules are shown to diffuse through the pores. Part b of the diagram shows molecules in the form of small spheres packed on both sides of a single vertical rectangular membrane. Some molecules are shown to dissolve in this membrane and diffuse across it.](../resources/Figure_12_07_03.jpg "(a) A semipermeable membrane with small pores that allow only small molecules to pass through. (b) Certain molecules dissolve in this membrane and diffuse across it.")
+![Part a of the figure shows a semi permeable membrane shown as small rectangular sections in a vertical line, separated by small gaps called as pores. Molecules are shown in all shapes on both the sides of the membranes. Some molecules are shown to diffuse through the pores. Part b of the diagram shows molecules in the form of small spheres packed on both sides of a single vertical rectangular membrane. Some molecules are shown to dissolve in this membrane and diffuse across it.](../resources/Figure_12_07_03.jpg '(a) A semipermeable membrane with small pores that allow only small molecules to pass through. (b) Certain molecules dissolve in this membrane and diffuse across it.')
 {: #Figure3}
 
 **Osmosis** is the transport of water through a semipermeable membrane from a
@@ -184,8 +184,8 @@ continues for some time, as illustrated in [[Figure 4]](#Figure4). Water moves
 by osmosis from the left into the region on the right, where it is less
 concentrated, causing the solution on the right to rise. This movement will
 continue until the pressure $$\rho gh $$ created by the extra height of fluid on
-the right is large enough to stop further osmosis. This pressure is called a *
-back pressure*. The back pressure $$\rho gh $$ that stops osmosis is also called
+the right is large enough to stop further osmosis. This pressure is called a _
+back pressure_. The back pressure $$\rho gh $$ that stops osmosis is also called
 the **relative osmotic pressure** if neither solution is pure water, and it is
 called the **osmotic pressure** if one solution is pure water. Osmotic pressure
 can be large, depending on the size of the concentration difference. For
@@ -198,7 +198,7 @@ plant in which the fluid in a cell exerts a pressure against the cell wall. This
 pressure gives the plant support. Dialysis can similarly cause substantial
 pressures.
 
-![Part a of the figure shows a vessel having two different concentrations of sugar in water separated by a semipermeable membrane that passes water but not sugar molecules. The sugar molecules are shown as small red color spheres and water molecules as still smaller blue colored spheres. The right side of the solution shows more of sugar molecules represented as more number of red spheres. The osmosis of water molecules is shown toward right. Part b shows the second stage for figure on part a. The osmosis of water is shown toward right. The height of fluid on right is shown as h above the fluid on the left. The back pressure of water is shown toward left.](../resources/Figure_12_07_04.jpg "(a) Two sugar-water solutions of different concentrations, separated by a semipermeable membrane that passes water but not sugar. Osmosis will be to the right, since water is less concentrated there. (b) The fluid level rises until the back pressure \( \rho gh \) equals the relative osmotic pressure; then, the net transfer of water is zero.")
+![Part a of the figure shows a vessel having two different concentrations of sugar in water separated by a semipermeable membrane that passes water but not sugar molecules. The sugar molecules are shown as small red color spheres and water molecules as still smaller blue colored spheres. The right side of the solution shows more of sugar molecules represented as more number of red spheres. The osmosis of water molecules is shown toward right. Part b shows the second stage for figure on part a. The osmosis of water is shown toward right. The height of fluid on right is shown as h above the fluid on the left. The back pressure of water is shown toward left.](../resources/Figure_12_07_04.jpg '(a) Two sugar-water solutions of different concentrations, separated by a semipermeable membrane that passes water but not sugar. Osmosis will be to the right, since water is less concentrated there. (b) The fluid level rises until the back pressure ( \\rho gh ) equals the relative osmotic pressure; then, the net transfer of water is zero.')
 {: #Figure4}
 
 **Reverse osmosis** and **reverse dialysis** (also called filtration) are
@@ -227,9 +227,9 @@ nature to living structures.
 
 ### Section Summary
 
-* Diffusion is the movement of substances due to random thermal molecular
+- Diffusion is the movement of substances due to random thermal molecular
   motion.
-* The average distance $${x}_{\text{rms}} $$ a molecule travels by diffusion in
+- The average distance $${x}_{\text{rms}} $$ a molecule travels by diffusion in
   a given amount of time is given by
 
   <div class="equation" >
@@ -238,11 +238,11 @@ nature to living structures.
      where  $$D $$
      is the diffusion constant, representative values of which are found in [[Table 1]](#Table1).
 
-* Osmosis is a process by which molecules of a solvent pass through a semipermeable membrane from a less concentrated solution into a more concentrated one, thus, equalizing the solute concentrations on each side of the membrane.
-* Dialysis is the transport of any other molecule through a semipermeable
+- Osmosis is a process by which molecules of a solvent pass through a semipermeable membrane from a less concentrated solution into a more concentrated one, thus, equalizing the solute concentrations on each side of the membrane.
+- Dialysis is the transport of any other molecule through a semipermeable
   membrane due to its concentration difference.
-* Both processes can be reversed by back pressure.
-* Active transport is a process in which a living membrane expends energy to
+- Both processes can be reversed by back pressure.
+- Active transport is a process in which a living membrane expends energy to
   move substances across it.
 
 ### Conceptual Questions
@@ -252,12 +252,70 @@ nature to living structures.
 Why would you expect the rate of diffusion to increase with temperature? Can you give an example, such as the fact that you can dissolve sugar more rapidly in hot water?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We connect temperature to molecular kinetic energy and speed, then relate molecular speed to diffusion rate.
+
+**Solution**
+
+The rate of diffusion increases with temperature because **higher temperature means faster molecular motion**.
+
+**Physical basis:**
+- Temperature is a measure of average kinetic energy: $$\frac{1}{2}mv^2 = \frac{3}{2}k_B T$$
+- At higher temperatures, molecules move faster: $$v_{\text{rms}} \propto \sqrt{T}$$
+- Faster molecules cover more distance in the same time
+- The diffusion constant $$D$$ increases with temperature
+
+**Quantitative relationship:**
+Since $$x_{\text{rms}} = \sqrt{2Dt}$$ and $$D$$ increases with temperature, the average distance traveled increases with temperature, meaning faster diffusion.
+
+**Examples:**
+1. **Sugar in hot water**: Sugar dissolves much faster in hot tea than iced tea because both the sugar molecules and water molecules move faster, allowing quicker mixing
+2. **Cooking aromas**: The smell of food travels through a house more quickly when cooking (hot air) than when food is cold
+3. **Ice cube odors**: Food odors diffuse into ice cubes in the freezer, but this process is very slow due to the low temperature
+4. **Chemical reactions**: Most reactions speed up with temperature because reactants diffuse together faster
+
+**Discussion**
+
+The temperature dependence of diffusion is why we stir things rather than wait—even at room temperature, diffusion is slow over centimeter-scale distances. The relationship between $$D$$ and temperature is approximately linear for gases and follows a more complex relationship for liquids. This principle is crucial in chemistry, biology, and cooking!
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 How are osmosis and dialysis similar? How do they differ?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We compare and contrast these two transport processes based on their mechanisms, the substances transported, and the role of membranes.
+
+**Solution**
+
+**Similarities:**
+1. **Both are diffusion processes**: Both osmosis and dialysis involve the movement of molecules due to random thermal motion
+2. **Both involve semipermeable membranes**: Each requires a membrane that selectively allows some substances to pass
+3. **Both are driven by concentration differences**: Molecules move from regions of higher concentration to regions of lower concentration
+4. **Both can be reversed**: With sufficient back pressure, both osmosis and dialysis can be reversed (reverse osmosis and reverse dialysis/filtration)
+5. **Both occur naturally in biological systems**: The kidneys use both processes to filter blood
+
+**Differences:**
+
+| Aspect | Osmosis | Dialysis |
+|--------|---------|----------|
+| **Substance transported** | Water (solvent) only | Any dissolved molecule other than water (solutes) |
+| **Direction of flow** | Water moves toward higher solute concentration | Solutes move from higher to lower solute concentration |
+| **Net effect** | Equalizes water concentration | Equalizes solute concentration |
+| **Medical application** | Fluid balance, reducing swelling | Kidney dialysis (filtering waste from blood) |
+
+**Example:**
+In kidney dialysis, waste products (urea, excess salts) diffuse from blood into dialysis fluid through a membrane, while water may move by osmosis in the opposite direction depending on concentration gradients.
+
+**Discussion**
+
+The key distinction is **what moves**: in osmosis, water moves; in dialysis, dissolved substances move. Both are essential biological processes. The kidneys use both simultaneously—osmosis to regulate water balance and dialysis to remove waste products and excess ions from the blood.
 </div>
 </div>
 
@@ -270,7 +328,31 @@ You can smell perfume very shortly after opening the bottle. To show that it is 
 
 </div>
 <div class="solution" markdown="1">
- $$ 1.41 \times 10^{-3}  \text{m} $$
+**Strategy**
+
+We use the diffusion distance formula $$x_{\text{rms}} = \sqrt{2Dt}$$ to calculate how far a perfume molecule travels by diffusion in one second, then compare this to typical distances between a perfume bottle and your nose.
+
+**Solution**
+
+Given:
+- Diffusion constant: $$D = 1.00 \times 10^{-6} \text{ m}^2\text{/s}$$
+- Time: $$t = 1.00 \text{ s}$$
+
+Using the diffusion distance formula:
+
+$$x_{\text{rms}} = \sqrt{2Dt} = \sqrt{2(1.00 \times 10^{-6} \text{ m}^2\text{/s})(1.00 \text{ s})}$$
+
+$$x_{\text{rms}} = \sqrt{2.00 \times 10^{-6} \text{ m}^2} = 1.41 \times 10^{-3} \text{ m} = 1.41 \text{ mm}$$
+
+In one second, a perfume molecule moves only about **1.4 mm** by diffusion.
+
+**Discussion**
+
+This tiny distance proves that diffusion is **not** how perfume reaches your nose quickly. If you open a perfume bottle 1 meter away from your nose, it would take approximately:
+
+$$t = \frac{x_{\text{rms}}^2}{2D} = \frac{(1 \text{ m})^2}{2(1.00 \times 10^{-6} \text{ m}^2\text{/s})} = 5 \times 10^{5} \text{ s} \approx 6 \text{ days}$$
+
+Since you smell perfume within seconds, not days, the odor must be carried by **convection**—air currents caused by temperature differences, air conditioning, or your own movement. Even your exhaling creates currents that mix the air much faster than diffusion. This example beautifully illustrates why diffusion is only important for transport over very short distances (like across cell membranes or thin tissue layers).
 </div>
 </div>
 
@@ -280,6 +362,41 @@ What is the ratio of the average distances that oxygen will diffuse in a given t
  less in water)?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We compare diffusion constants for oxygen in air versus water from Table 1, then calculate the ratio of distances using $$x_{\text{rms}} = \sqrt{2Dt}$$.
+
+**Solution**
+
+From Table 1:
+- Oxygen in air: $$D_{\text{air}} = 1.8 \times 10^{-5} \text{ m}^2\text{/s}$$
+- Oxygen in water: $$D_{\text{water}} = 1.0 \times 10^{-9} \text{ m}^2\text{/s}$$
+
+Since $$x_{\text{rms}} = \sqrt{2Dt}$$, for the same time $$t$$:
+
+$$\frac{x_{\text{air}}}{x_{\text{water}}} = \frac{\sqrt{2D_{\text{air}}t}}{\sqrt{2D_{\text{water}}t}} = \sqrt{\frac{D_{\text{air}}}{D_{\text{water}}}}$$
+
+$$\frac{x_{\text{air}}}{x_{\text{water}}} = \sqrt{\frac{1.8 \times 10^{-5}}{1.0 \times 10^{-9}}} = \sqrt{1.8 \times 10^{4}} = 134$$
+
+Oxygen diffuses about **134 times farther** in air than in water in the same amount of time.
+
+**Why is D less in water?**
+
+The diffusion constant is smaller in water because:
+
+1. **Higher density**: Water molecules are much more closely packed than air molecules, so an oxygen molecule encounters far more collisions per unit distance traveled
+
+2. **More frequent collisions**: In water, an oxygen molecule collides approximately $$10^{10}$$ times per second—the mean free path (distance between collisions) is extremely short
+
+3. **Stronger intermolecular forces**: Hydrogen bonding in water creates a more cohesive medium that resists molecular motion
+
+4. **Higher viscosity**: Water is about 50 times more viscous than air, which impedes molecular motion
+
+**Discussion**
+
+This huge difference explains why organisms in water need specialized respiratory systems. Fish gills have enormous surface areas with very thin membranes because oxygen diffuses so slowly in water. The same principle explains why the cornea (which gets oxygen from tears) must be very thin—oxygen can only diffuse through water effectively over distances of micrometers to millimeters.
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -288,7 +405,31 @@ Oxygen reaches the veinless cornea of the eye by diffusing through its tear laye
 
 </div>
 <div class="solution" markdown="1">
- $$ 1.3 \times 10^{2}  \text{s} $$
+**Strategy**
+
+We use the diffusion distance formula $$x_{\text{rms}} = \sqrt{2Dt}$$ and solve for time $$t$$. The diffusion constant for oxygen in water (tears are mostly water) is found in Table 1.
+
+**Solution**
+
+Given:
+- Tear layer thickness: $$x_{\text{rms}} = 0.500 \text{ mm} = 5.00 \times 10^{-4} \text{ m}$$
+- Diffusion constant for O₂ in water: $$D = 1.0 \times 10^{-9} \text{ m}^2\text{/s}$$ (from Table 1)
+
+Solving the diffusion equation for time:
+
+$$x_{\text{rms}} = \sqrt{2Dt}$$
+
+$$x_{\text{rms}}^2 = 2Dt$$
+
+$$t = \frac{x_{\text{rms}}^2}{2D} = \frac{(5.00 \times 10^{-4} \text{ m})^2}{2(1.0 \times 10^{-9} \text{ m}^2\text{/s})}$$
+
+$$t = \frac{2.50 \times 10^{-7} \text{ m}^2}{2.0 \times 10^{-9} \text{ m}^2\text{/s}} = 1.25 \times 10^{2} \text{ s} \approx 125 \text{ s}$$
+
+It takes approximately **125 seconds (about 2 minutes)** for an oxygen molecule to diffuse through the tear layer.
+
+**Discussion**
+
+This relatively short time (about 2 minutes) explains why the cornea can survive without blood vessels—oxygen from the air dissolves in the tear layer and diffuses through quickly enough to supply the cornea's needs. This is possible only because the tear layer is extremely thin (0.5 mm). If the layer were 10 times thicker, diffusion would take 100 times longer (over 3 hours), which would be inadequate for corneal health. This is why contact lenses must be highly oxygen-permeable—they add to the diffusion distance and can cause corneal hypoxia if they block too much oxygen transport.
 </div>
 </div>
 
@@ -298,6 +439,44 @@ Oxygen reaches the veinless cornea of the eye by diffusing through its tear laye
  of oxygen to the cornea if its surface area is  $$ 1.00 {\text{cm}}^{2} $$ ?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+(a) We use the diffusion formula $$x_{\text{rms}} = \sqrt{2Dt}$$ and solve for time.
+(b) We consider the volume of oxygen that must pass through the tear layer and relate it to the diffusion process, noting that the problem involves a more complex analysis of flux.
+
+**Solution**
+
+**(a) Time for one molecule to diffuse through 0.200 mm:**
+
+Given:
+- Tear layer thickness: $$x_{\text{rms}} = 0.200 \text{ mm} = 2.00 \times 10^{-4} \text{ m}$$
+- Diffusion constant for O₂ in water: $$D = 1.0 \times 10^{-9} \text{ m}^2\text{/s}$$
+
+$$t = \frac{x_{\text{rms}}^2}{2D} = \frac{(2.00 \times 10^{-4} \text{ m})^2}{2(1.0 \times 10^{-9} \text{ m}^2\text{/s})}$$
+
+$$t = \frac{4.00 \times 10^{-8} \text{ m}^2}{2.0 \times 10^{-9} \text{ m}^2\text{/s}} = 20 \text{ s}$$
+
+**(b) Time to diffuse 0.500 cm³ of oxygen:**
+
+This part requires considering the flux of oxygen through the tear layer. Using Fick's law, the diffusion rate depends on the concentration gradient and surface area.
+
+For a simplified estimate, we consider that oxygen arrives at the cornea continuously as molecules complete their random walk. The volume of gas $$V = 0.500 \text{ cm}^3$$ through area $$A = 1.00 \text{ cm}^2$$ represents an effective layer thickness:
+
+$$\text{thickness} = \frac{V}{A} = \frac{0.500 \text{ cm}^3}{1.00 \text{ cm}^2} = 0.500 \text{ cm} = 5.00 \times 10^{-3} \text{ m}$$
+
+However, this represents the accumulated oxygen, not a diffusion distance problem. The actual analysis requires knowing the oxygen concentration difference across the membrane and applying Fick's law of diffusion.
+
+For a rough estimate, if we need 0.500 cm³ of O₂ and molecules take 20 s each to traverse the membrane, the total time depends on the concentration gradient and available oxygen at the air-tear interface.
+
+**Summary:**
+- (a) **20 seconds** for a molecule to diffuse through 0.200 mm
+- (b) Requires additional information about concentration gradients; the problem is underspecified for a complete numerical answer
+
+**Discussion**
+
+Part (a) shows that thinner tear layers dramatically speed up oxygen transport—a 0.200 mm layer requires only 20 seconds compared to 125 seconds for a 0.500 mm layer (the ratio is $$(0.5/0.2)^2 = 6.25$$). Part (b) highlights that bulk transport problems require more than just diffusion time—they also depend on concentration gradients and the rate at which oxygen can be supplied to the interface.
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -306,8 +485,50 @@ Suppose hydrogen and oxygen are diffusing through air. A small amount of each is
 
 </div>
 <div class="solution" markdown="1">
-0.391 s
+**Strategy**
 
+We find when both gases have diffused the same distance, but the oxygen takes 1.00 s longer than the hydrogen. Using $$x = \sqrt{2Dt}$$ for each gas and setting them equal while accounting for the time difference, we can solve for the time.
+
+**Solution**
+
+From Table 1:
+- Hydrogen diffusion constant in air: $$D_{\text{H}_2} = 6.4 \times 10^{-5} \text{ m}^2\text{/s}$$
+- Oxygen diffusion constant in air: $$D_{\text{O}_2} = 1.8 \times 10^{-5} \text{ m}^2\text{/s}$$
+
+Let $$t$$ be the time for hydrogen to travel a certain distance $$x$$. Then oxygen takes time $$(t + 1.00 \text{ s})$$ to travel the same distance.
+
+For hydrogen: $$x = \sqrt{2D_{\text{H}_2} t}$$
+
+For oxygen: $$x = \sqrt{2D_{\text{O}_2} (t + 1.00)}$$
+
+Since both travel the same distance:
+
+$$\sqrt{2D_{\text{H}_2} t} = \sqrt{2D_{\text{O}_2} (t + 1.00)}$$
+
+Squaring both sides:
+
+$$2D_{\text{H}_2} t = 2D_{\text{O}_2} (t + 1.00)$$
+
+$$D_{\text{H}_2} t = D_{\text{O}_2} t + D_{\text{O}_2}(1.00)$$
+
+$$t(D_{\text{H}_2} - D_{\text{O}_2}) = D_{\text{O}_2}(1.00 \text{ s})$$
+
+$$t = \frac{D_{\text{O}_2}}{D_{\text{H}_2} - D_{\text{O}_2}} \times 1.00 \text{ s}$$
+
+$$t = \frac{1.8 \times 10^{-5}}{6.4 \times 10^{-5} - 1.8 \times 10^{-5}} \times 1.00 \text{ s}$$
+
+$$t = \frac{1.8 \times 10^{-5}}{4.6 \times 10^{-5}} \text{ s} = 0.391 \text{ s}$$
+
+After **0.391 seconds**, the hydrogen will have reached a point that the oxygen won't reach for another 1.00 second.
+
+**Verification:**
+- Distance traveled by H₂ in 0.391 s: $$x = \sqrt{2(6.4 \times 10^{-5})(0.391)} = 7.07 \times 10^{-3} \text{ m}$$
+- Time for O₂ to travel same distance: $$t = \frac{x^2}{2D_{\text{O}_2}} = \frac{(7.07 \times 10^{-3})^2}{2(1.8 \times 10^{-5})} = 1.39 \text{ s}$$
+- Difference: $$1.39 - 0.39 = 1.00 \text{ s}$$ ✓
+
+**Discussion**
+
+This separation occurs very quickly (less than half a second) because hydrogen diffuses about 3.6 times faster than oxygen due to its much lower molecular mass. This principle is the basis of **gas chromatography**, where different gases in a mixture are separated by their different rates of diffusion (or more precisely, by their different rates of movement through a column). Lighter molecules like hydrogen travel faster, allowing mixtures to be separated and analyzed. The technique is widely used in chemistry and biochemistry for identifying and quantifying gas components.
 </div>
 </div>
 
@@ -315,7 +536,7 @@ Suppose hydrogen and oxygen are diffusing through air. A small amount of each is
 ### Footnotes
 {: class="footnote-refs-title"}
 
-* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
+- {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
   footnote-ref-link"} <span class="footnote-ref-content">At 20ºC and 1
   atm</span>
   { data-list-type="bulleted" data-bullet-style="none"}
