@@ -90,7 +90,7 @@ npm run check-accessibility
 npm run generate-pdf -- --chapter 1 --combined --base-url http://localhost:4000/physics-book
 ```
 
-## 部署
+## Deployment 
 
 This project is automatically deployed to two platforms:
 
