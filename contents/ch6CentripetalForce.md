@@ -669,9 +669,51 @@ what the angle $$ \theta $$ should be.)
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-a) 2.56 rad/s
 
-b) $$ 5.71^\circ $$
+**Strategy**
+
+(a) We'll use $$ a_c = r\omega^2 $$ with $$ a_c = 10g = 98.0 $$ m/s² and solve for $$ \omega $$.
+(b) We'll draw a free body diagram and use the fact that the cage hangs at an angle where the arm force can simultaneously provide the centripetal force and support the weight. Using geometry, $$ \tan\theta = \frac{g}{a_c} $$.
+
+**Solution**
+
+(a) Using $$ a_c = r\omega^2 $$, solve for $$ \omega $$:
+
+<div class="equation">
+$$ a_c = 10g = 10(9.80\text{ m/s}^2) = 98.0\text{ m/s}^2 $$
+</div>
+
+<div class="equation">
+$$ \omega^2 = \frac{a_c}{r} = \frac{98.0\text{ m/s}^2}{15.0\text{ m}} = 6.53\text{ rad}^2\text{/s}^2 $$
+</div>
+
+<div class="equation">
+$$ \omega = \sqrt{6.53} = 2.56\text{ rad/s} $$
+</div>
+
+(b) Draw a free body diagram: The cage experiences its weight $$ mg $$ downward and the arm force $$ F $$ at angle $$ \theta $$ below horizontal. The horizontal component of $$ F $$ provides centripetal force, while the vertical component balances weight:
+
+<div class="equation">
+$$ F\cos\theta = ma_c \quad \text{and} \quad F\sin\theta = mg $$
+</div>
+
+Dividing the second equation by the first:
+
+<div class="equation">
+$$ \frac{F\sin\theta}{F\cos\theta} = \frac{mg}{ma_c} $$
+</div>
+
+<div class="equation">
+$$ \tan\theta = \frac{g}{a_c} = \frac{9.80}{98.0} = 0.100 $$
+</div>
+
+<div class="equation">
+$$ \theta = \arctan(0.100) = 5.71^\circ $$
+</div>
+
+**Discussion**
+
+The centrifuge must rotate at 2.56 rad/s (about 24.4 rpm) to produce 10g acceleration at a radius of 15.0 m. The cage hangs only 5.71° below horizontal because the centripetal acceleration (10g) is much larger than gravitational acceleration (1g). This small angle means the arm force is nearly horizontal, pointing mostly toward the center to provide the large centripetal force needed. As rotation increases, the angle becomes even smaller, approaching horizontal. This pivoting cage design ensures the rider always experiences force along the cage axis, preventing uncomfortable sideways forces.
 
 </div>
 </div>
@@ -691,9 +733,51 @@ to take the same curve at 20.0 km/h?
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-a) 16.2 m/s
 
-b) 0.234
+**Strategy**
+
+(a) For the ideal speed (no friction needed), the horizontal component of the normal force provides exactly the needed centripetal force. We'll use $$ v = \sqrt{rg\tan\theta} $$.
+(b) At a speed lower than ideal, friction must prevent sliding inward. We'll analyze forces to find the minimum coefficient of friction.
+
+**Solution**
+
+(a) Calculate the ideal speed using the formula for a banked curve:
+
+<div class="equation">
+$$ v = \sqrt{rg\tan\theta} = \sqrt{(100\text{ m})(9.80\text{ m/s}^2)\tan(15.0^\circ)} $$
+</div>
+
+<div class="equation">
+$$ v = \sqrt{(980)(0.268)} = \sqrt{262.6} = 16.2\text{ m/s} $$
+</div>
+
+(b) Convert the actual speed to m/s:
+
+<div class="equation">
+$$ v = 20.0\frac{\text{km}}{\text{h}} \times \frac{1000\text{ m}}{1\text{ km}} \times \frac{1\text{ h}}{3600\text{ s}} = 5.56\text{ m/s} $$
+</div>
+
+At this slower speed, the car tends to slide down the bank. The required centripetal force is less than what the banked curve would naturally provide, so friction must act up the slope. Using force balance equations for a banked curve with friction:
+
+<div class="equation">
+$$ \mu_s = \frac{\tan\theta - \frac{v^2}{rg}}{1 + \frac{v^2\tan\theta}{rg}} $$
+</div>
+
+Calculate $$ \frac{v^2}{rg} $$:
+
+<div class="equation">
+$$ \frac{v^2}{rg} = \frac{(5.56)^2}{(100)(9.80)} = \frac{30.9}{980} = 0.0316 $$
+</div>
+
+Now calculate $$ \mu_s $$:
+
+<div class="equation">
+$$ \mu_s = \frac{0.268 - 0.0316}{1 + (0.0316)(0.268)} = \frac{0.236}{1.0085} = 0.234 $$
+</div>
+
+**Discussion**
+
+The ideal speed for this banked curve is 16.2 m/s (about 58 km/h), at which no friction is needed. However, at the much slower speed of 20.0 km/h (5.56 m/s), the car requires a minimum coefficient of friction of 0.234 to prevent sliding down toward the inside of the curve. This is why icy mountain roads with banked curves are particularly dangerous—if the coefficient of friction drops below this value due to ice, slow-moving vehicles will slide inward regardless of driver skill. The problem illustrates why banked curves are designed for a specific "ideal" speed, and driving significantly slower than this speed can be just as problematic as driving too fast.
 
 </div>
 </div>

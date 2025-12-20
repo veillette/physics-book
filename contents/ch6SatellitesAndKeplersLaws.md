@@ -511,7 +511,42 @@ Find the ratio of the mass of Jupiter to that of Earth based on data in [Table 1
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
- $$ \frac{ M_{J}}{ M_{E}}=316 $$
+
+**Strategy**
+
+We'll use Kepler's third law in the form $$ \frac{r^3}{T^2} = \frac{GM}{4\pi^2} $$ for both Jupiter (with its moon) and Earth (with its moon). Taking the ratio will allow $$ G $$ and $$4\pi^2$$ to cancel, leaving us with the mass ratio.
+
+**Solution**
+
+From Kepler's third law:
+
+For Earth and its Moon:
+<div class="equation">
+$$ \frac{r_{\text{Moon}}^3}{T_{\text{Moon}}^2} = \frac{GM_{\text{Earth}}}{4\pi^2} $$
+</div>
+
+For Jupiter and one of its moons (using Io):
+<div class="equation">
+$$ \frac{r_{\text{Io}}^3}{T_{\text{Io}}^2} = \frac{GM_{\text{Jupiter}}}{4\pi^2} $$
+</div>
+
+Taking the ratio:
+
+<div class="equation">
+$$ \frac{M_{\text{Jupiter}}}{M_{\text{Earth}}} = \frac{r_{\text{Io}}^3 / T_{\text{Io}}^2}{r_{\text{Moon}}^3 / T_{\text{Moon}}^2} $$
+</div>
+
+From Table 1, we can read the $$ r^3/T^2 $$ values directly:
+- Moon: $$ r^3/T^2 = 1.01 \times 10^{19} $$ km³/y²
+- Io: $$ r^3/T^2 = 3.19 \times 10^{21} $$ km³/y²
+
+<div class="equation">
+$$ \frac{M_{\text{Jupiter}}}{M_{\text{Earth}}} = \frac{3.19 \times 10^{21}}{1.01 \times 10^{19}} = 316 $$
+</div>
+
+**Discussion**
+
+Jupiter's mass is approximately 316 times Earth's mass. This enormous mass difference reflects Jupiter's status as a gas giant - it contains more than twice the mass of all other planets in our solar system combined. The fact that we can calculate this mass ratio simply from observational data in Table 1 demonstrates the elegance and power of Kepler's laws. Remarkably, Jupiter is so massive that the Sun-Jupiter center of mass actually lies slightly outside the Sun's surface, making it almost a binary star system rather than a simple planet-star system.
 
 </div>
 </div>
@@ -599,15 +634,58 @@ rivet’s.)
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-a) $$ 7.4 \times 10^{3} \ms $$
 
-b) $$ 1.05 \times 10^{3} \ms $$
+**Strategy**
 
-c) $$ 2.86 \times 10^{-7}\s $$
+(a) We'll use $$ v = \sqrt{\frac{GM}{r}} $$ where $$ r $$ is the distance from Earth's center.
+(b) Since the orbits intersect at 90°, the velocities are perpendicular, so we'll use the Pythagorean theorem: $$ v_{\text{rel}} = \sqrt{v_1^2 + v_2^2} $$.
+(c) Collision time is $$ \Delta t = \frac{d}{v_{\text{rel}}} $$.
+(d) We'll use impulse-momentum: $$ F_{\text{avg}} = \frac{\Delta p}{\Delta t} $$.
+(e) We'll calculate the kinetic energy lost by the rivet.
 
-d) $$ 1.84 \times 10^{7}\N $$
+**Solution**
 
-e) $$ 2.76 \times 10^{4} \J $$
+(a) Calculate satellite orbital speed. The orbital radius is:
+
+<div class="equation">
+$$ r = R_{\text{Earth}} + h = 6.38 \times 10^6\text{ m} + 9.00 \times 10^5\text{ m} = 7.28 \times 10^6\text{ m} $$
+</div>
+
+<div class="equation">
+$$ v = \sqrt{\frac{GM_{\text{Earth}}}{r}} = \sqrt{\frac{(6.674 \times 10^{-11})(5.97 \times 10^{24})}{7.28 \times 10^6}} = \sqrt{5.48 \times 10^7} = 7.40 \times 10^3\text{ m/s} $$
+</div>
+
+(b) The rivet has the same orbital speed but at 90°. The relative velocity is:
+
+<div class="equation">
+$$ v_{\text{rel}} = \sqrt{v^2 + v^2} = v\sqrt{2} = (7.40 \times 10^3)\sqrt{2} = 1.05 \times 10^4\text{ m/s} $$
+</div>
+
+(c) Collision duration (time for rivet to pass through):
+
+<div class="equation">
+$$ \Delta t = \frac{d}{v_{\text{rel}}} = \frac{3.00 \times 10^{-3}\text{ m}}{1.05 \times 10^4\text{ m/s}} = 2.86 \times 10^{-7}\text{ s} $$
+</div>
+
+(d) Average force using impulse-momentum theorem:
+
+<div class="equation">
+$$ F_{\text{avg}} = \frac{\Delta p}{\Delta t} = \frac{m v_{\text{rel}}}{\Delta t} = \frac{(0.500 \times 10^{-3}\text{ kg})(1.05 \times 10^4\text{ m/s})}{2.86 \times 10^{-7}\text{ s}} $$
+</div>
+
+<div class="equation">
+$$ F_{\text{avg}} = \frac{5.25}{2.86 \times 10^{-7}} = 1.84 \times 10^7\text{ N} $$
+</div>
+
+(e) Energy generated (kinetic energy of rivet in satellite's reference frame):
+
+<div class="equation">
+$$ E = \frac{1}{2}m v_{\text{rel}}^2 = \frac{1}{2}(0.500 \times 10^{-3})(1.05 \times 10^4)^2 = (2.50 \times 10^{-4})(1.10 \times 10^8) = 2.76 \times 10^4\text{ J} $$
+</div>
+
+**Discussion**
+
+This problem illustrates the serious hazard posed by space debris. Even though the rivet is tiny (3 mm, 0.5 g), the relative velocity of 10.5 km/s creates enormous forces and energy. The average force of 18.4 million newtons during the microsecond-long collision is equivalent to the weight of about 1,880 tons! The 27.6 kJ of energy released is comparable to a small explosive. This is why even paint flecks in orbit can damage spacecraft windows, and why tracking and avoiding space debris is critical for satellite and space station safety. The problem also demonstrates why the International Space Station has shielding and why astronauts performing spacewalks face real danger from hypervelocity impacts.
 
 </div>
 </div>

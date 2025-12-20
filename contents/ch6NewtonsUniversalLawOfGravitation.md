@@ -479,9 +479,49 @@ and the radius of the Earth is 6372 km from center to pole.
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-a) $$ 5.972\times 10^{24}\kg $$
 
-b) This is identical to the best value to three significant figures.
+**Strategy**
+
+(a) We'll use Newton's law of universal gravitation in the form $$ g = \frac{GM}{r^2} $$ and solve for Earth's mass $$ M $$. We know $$ g = 9.807 $$ m/s² at the North Pole and the radius $$ r = 6372 $$ km.
+(b) We'll compare our calculated value with the accepted value.
+
+**Solution**
+
+(a) Start with the gravitational acceleration formula:
+
+<div class="equation">
+$$ g = \frac{GM}{r^2} $$
+</div>
+
+Solve for Earth's mass $$ M $$:
+
+<div class="equation">
+$$ M = \frac{gr^2}{G} $$
+</div>
+
+Convert radius to meters:
+
+<div class="equation">
+$$ r = 6372\text{ km} = 6.372 \times 10^6\text{ m} $$
+</div>
+
+Substitute values with $$ G = 6.674 \times 10^{-11} $$ N·m²/kg²:
+
+<div class="equation">
+$$ M = \frac{(9.807\text{ m/s}^2)(6.372 \times 10^6\text{ m})^2}{6.674 \times 10^{-11}\text{ N·m}^2\text{/kg}^2} $$
+</div>
+
+<div class="equation">
+$$ M = \frac{(9.807)(4.060 \times 10^{13})}{6.674 \times 10^{-11}} = \frac{3.982 \times 10^{14}}{6.674 \times 10^{-11}} = 5.972 \times 10^{24}\text{ kg} $$
+</div>
+
+(b) Compare with the accepted value:
+
+The accepted value is $$ 5.972 \times 10^{24} $$ kg. Our calculated value of $$ 5.972 \times 10^{24} $$ kg is **identical to the accepted value to three significant figures**. This perfect agreement confirms the accuracy of both Newton's law of universal gravitation and our measurement of Earth's radius and surface gravity.
+
+**Discussion**
+
+This problem demonstrates how Newton's law of universal gravitation can be used to determine the mass of Earth using only surface measurements. The fact that we can calculate Earth's mass so accurately from surface gravity and radius measurements is a powerful validation of Newton's gravitational theory. This same technique has been used to determine the masses of other planets, moons, and even the Sun, making universal gravitation one of the most important tools in astronomy and planetary science.
 
 </div>
 </div>
@@ -552,9 +592,42 @@ its radius is $$ 3.38 \times 10^{6}\m $$.
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-a) $$ 1.62 \mss $$
 
-b) $$ 3.75 \mss $$
+**Strategy**
+
+For both parts, we'll use $$ g = G\frac{M}{r^2} $$ to calculate surface gravity. We'll need the mass and radius of each body.
+
+**Solution**
+
+(a) Calculate the acceleration due to gravity on the Moon's surface. Using:
+- Mass of Moon: $$ M_{\text{Moon}} = 7.35 \times 10^{22} $$ kg
+- Radius of Moon: $$ r_{\text{Moon}} = 1.74 \times 10^{6} $$ m
+- $$ G = 6.674 \times 10^{-11} $$ N·m²/kg²
+
+<div class="equation">
+$$ g_{\text{Moon}} = G\frac{M_{\text{Moon}}}{r_{\text{Moon}}^2} = (6.674 \times 10^{-11})\frac{7.35 \times 10^{22}}{(1.74 \times 10^{6})^2} $$
+</div>
+
+<div class="equation">
+$$ g_{\text{Moon}} = \frac{4.91 \times 10^{12}}{3.03 \times 10^{12}} = 1.62\text{ m/s}^2 $$
+</div>
+
+(b) Calculate the acceleration due to gravity on Mars' surface. Using:
+- Mass of Mars: $$ M_{\text{Mars}} = 6.418 \times 10^{23} $$ kg
+- Radius of Mars: $$ r_{\text{Mars}} = 3.38 \times 10^{6} $$ m
+
+<div class="equation">
+$$ g_{\text{Mars}} = G\frac{M_{\text{Mars}}}{r_{\text{Mars}}^2} = (6.674 \times 10^{-11})\frac{6.418 \times 10^{23}}{(3.38 \times 10^{6})^2} $$
+</div>
+
+<div class="equation">
+$$ g_{\text{Mars}} = \frac{4.28 \times 10^{13}}{1.14 \times 10^{13}} = 3.75\text{ m/s}^2 $$
+</div>
+
+**Discussion**
+
+The Moon's surface gravity (1.62 m/s²) is about 16.5% of Earth's gravity (9.80 m/s²). This is why astronauts could make such dramatic leaps on the lunar surface—their weight was only about 1/6 of what it is on Earth. Mars' surface gravity (3.75 m/s²) is about 38% of Earth's gravity, making it significantly stronger than the Moon's but still much weaker than Earth's. This has important implications for future Mars missions: astronauts would weigh roughly 2/5 of their Earth weight, making movement easier than on Earth but not as dramatically different as on the Moon. The relatively low gravity on both bodies also explains why neither has been able to retain a substantial atmosphere—the escape velocity is lower, allowing atmospheric gases to more easily escape into space.
+
 </div>
 </div>
 
@@ -615,11 +688,62 @@ they are equal and why they should or should not be.
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-a) $$ 3.42\times 10^{-5} \mss $$
 
-b) $$ 3.34\times 10^{-5} \mss $$ The values are nearly identical. One would
-expect the gravitational force to be the same as the centripetal force at the
-core of the system.
+**Strategy**
+
+(a) We'll use $$ a = G\frac{M}{r^2} $$ to find the Moon's gravitational acceleration at the center of mass, using the distance from the center of mass to the Moon.
+(b) We'll calculate the centripetal acceleration using $$ a_c = r\omega^2 $$ where $$ r = 4700 $$ km is the radius of Earth's orbit around the center of mass.
+
+**Solution**
+
+(a) Calculate the acceleration due to Moon's gravity at the center of mass.
+
+The distance from the center of mass to the Moon is:
+- Earth-Moon distance: $$ 3.84 \times 10^{8} $$ m
+- Distance from Earth's center to center of mass: $$ r_1 = 4.70 \times 10^{6} $$ m
+- Distance from center of mass to Moon: $$ r_2 = 3.84 \times 10^{8} - 4.70 \times 10^{6} = 3.793 \times 10^{8} $$ m
+
+Using:
+- Mass of Moon: $$ M_{\text{Moon}} = 7.35 \times 10^{22} $$ kg
+- $$ G = 6.674 \times 10^{-11} $$ N·m²/kg²
+
+<div class="equation">
+$$ a_{\text{gravity}} = G\frac{M_{\text{Moon}}}{r_2^2} = (6.674 \times 10^{-11})\frac{7.35 \times 10^{22}}{(3.793 \times 10^{8})^2} $$
+</div>
+
+<div class="equation">
+$$ a_{\text{gravity}} = \frac{4.91 \times 10^{12}}{1.439 \times 10^{17}} = 3.41 \times 10^{-5}\text{ m/s}^2 $$
+</div>
+
+(b) Calculate the centripetal acceleration of Earth's center as it orbits the center of mass.
+
+The angular velocity is:
+
+<div class="equation">
+$$ \omega = \frac{2\pi}{T} = \frac{2\pi}{27.3\text{ days}} = \frac{2\pi}{27.3 \times 24 \times 3600\text{ s}} = \frac{2\pi}{2.36 \times 10^6} = 2.66 \times 10^{-6}\text{ rad/s} $$
+</div>
+
+The centripetal acceleration is:
+
+<div class="equation">
+$$ a_c = r_1\omega^2 = (4.70 \times 10^{6}\text{ m})(2.66 \times 10^{-6}\text{ rad/s})^2 $$
+</div>
+
+<div class="equation">
+$$ a_c = (4.70 \times 10^{6})(7.08 \times 10^{-12}) = 3.33 \times 10^{-5}\text{ m/s}^2 $$
+</div>
+
+**Comparison:**
+
+<div class="equation">
+$$ \frac{a_{\text{gravity}}}{a_c} = \frac{3.41 \times 10^{-5}}{3.33 \times 10^{-5}} = 1.024 $$
+</div>
+
+The values are nearly identical (within 2.4%), which is expected.
+
+**Discussion**
+
+The gravitational acceleration due to the Moon ($$ 3.41 \times 10^{-5} $$ m/s²) and the centripetal acceleration of Earth's center ($$3.33 \times 10^{-5}$$ m/s²) are nearly equal, as they must be. At the center of mass, the gravitational attraction from the Moon provides exactly the centripetal force needed to keep Earth orbiting around that point. The small difference (about 2%) is due to rounding in our calculations and the approximation that the orbit is perfectly circular. This problem beautifully demonstrates that the Earth-Moon system is truly a binary system, with both bodies orbiting their common center of mass, rather than the Moon simply orbiting Earth. The center of mass lies inside Earth (about 1690 km below the surface) because Earth is much more massive than the Moon, but both objects orbit this point.
 
 </div>
 </div>
@@ -676,9 +800,56 @@ that an unknown force causes it.)
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-a) $$ 7.01\times 10^{-7}\N $$
 
-b) $$ 1.35\times 10^{-6}\N $$, $$ 0.521 $$
+**Strategy**
+
+For both parts, we'll use Newton's law of universal gravitation: $$ F = G\frac{m_1 m_2}{r^2} $$. We'll compare the gravitational force from the father (nearby) to the force from Jupiter (far away).
+
+**Solution**
+
+(a) Calculate the gravitational force between father and baby:
+
+Given:
+- Mass of baby: $$ m_1 = 4.20 $$ kg
+- Mass of father: $$ m_2 = 100 $$ kg
+- Distance: $$ r = 0.200 $$ m
+- $$ G = 6.674 \times 10^{-11} $$ N·m²/kg²
+
+<div class="equation">
+$$ F_{\text{father}} = G\frac{m_1 m_2}{r^2} = (6.674 \times 10^{-11})\frac{(4.20)(100)}{(0.200)^2} $$
+</div>
+
+<div class="equation">
+$$ F_{\text{father}} = \frac{(6.674 \times 10^{-11})(420)}{0.0400} = \frac{2.80 \times 10^{-8}}{0.0400} = 7.01 \times 10^{-7}\text{ N} $$
+</div>
+
+(b) Calculate the gravitational force from Jupiter:
+
+Given:
+- Mass of baby: $$ m_1 = 4.20 $$ kg
+- Mass of Jupiter: $$ M_{\text{Jupiter}} = 1.90 \times 10^{27} $$ kg
+- Distance: $$ r = 6.29 \times 10^{11} $$ m
+
+<div class="equation">
+$$ F_{\text{Jupiter}} = G\frac{m_1 M_{\text{Jupiter}}}{r^2} = (6.674 \times 10^{-11})\frac{(4.20)(1.90 \times 10^{27})}{(6.29 \times 10^{11})^2} $$
+</div>
+
+<div class="equation">
+$$ F_{\text{Jupiter}} = \frac{(6.674 \times 10^{-11})(7.98 \times 10^{27})}{3.96 \times 10^{23}} = \frac{5.33 \times 10^{17}}{3.96 \times 10^{23}} = 1.35 \times 10^{-6}\text{ N} $$
+</div>
+
+Compare the two forces:
+
+<div class="equation">
+$$ \frac{F_{\text{father}}}{F_{\text{Jupiter}}} = \frac{7.01 \times 10^{-7}\text{ N}}{1.35 \times 10^{-6}\text{ N}} = 0.521 $$
+</div>
+
+**Discussion**
+
+The father's gravitational pull on the baby ($$7.01 \times 10^{-7}$$ N) is about half the gravitational pull from Jupiter ($$1.35 \times 10^{-6}$$ N), even though Jupiter is enormously more massive. This is because the father is so much closer - distance matters enormously in gravitational interactions due to the inverse-square law.
+
+This calculation thoroughly debunks astrological claims about planetary influences at birth. If gravitational force were the mechanism by which planets influence people, then the father standing nearby would have nearly the same effect as Jupiter! Furthermore, the doctor, the hospital building, and even nearby furniture would exert comparable gravitational forces. Both forces are incredibly tiny anyway - about a millionth of a newton, which is completely negligible compared to other forces acting on the baby. This demonstrates that if planets do influence human affairs (which has never been scientifically demonstrated), it cannot be through gravitational force.
+
 </div>
 </div>
 
@@ -775,13 +946,66 @@ variations in local geology.)
 
 </div>
 <div class="solution"  markdown="1">
-a) $$ 2.937\times 10^{17}\kg $$
 
-b) $$ 4.91\times 10^{-8} $$ of the Earth’s mass.
+**Strategy**
 
-c) The mass of the mountain and its fraction of the Earth’s mass are too great.
+(a) We'll use Newton's law of universal gravitation $$ F = G\frac{m_1 m_2}{r^2} $$ where the force is 2.00% of the person's weight. We'll solve for the mountain's mass.
+(b) We'll compare the calculated mass to Earth's mass.
+(c) and (d) We'll evaluate whether the results and premises are reasonable.
 
-d) The gravitational force assumed to be exerted by the mountain is too great.
+**Solution**
+
+(a) The gravitational force from the mountain is given as 2.00% of the person's weight:
+
+<div class="equation">
+$$ F_{\text{mountain}} = 0.0200mg $$
+</div>
+
+Using Newton's law of universal gravitation:
+
+<div class="equation">
+$$ F_{\text{mountain}} = G\frac{m M_{\text{mountain}}}{r^2} $$
+</div>
+
+Setting these equal and solving for $$ M_{\text{mountain}} $$:
+
+<div class="equation">
+$$ 0.0200mg = G\frac{m M_{\text{mountain}}}{r^2} $$
+</div>
+
+<div class="equation">
+$$ M_{\text{mountain}} = \frac{0.0200 g r^2}{G} $$
+</div>
+
+Substitute values with $$ r = 10.0 $$ km $$ = 1.00 \times 10^4 $$ m:
+
+<div class="equation">
+$$ M_{\text{mountain}} = \frac{0.0200 (9.80\text{ m/s}^2)(1.00 \times 10^4\text{ m})^2}{6.674 \times 10^{-11}\text{ N·m}^2\text{/kg}^2} $$
+</div>
+
+<div class="equation">
+$$ M_{\text{mountain}} = \frac{0.0200 (9.80)(1.00 \times 10^8)}{6.674 \times 10^{-11}} = \frac{1.96 \times 10^7}{6.674 \times 10^{-11}} = 2.94 \times 10^{17}\text{ kg} $$
+</div>
+
+(b) Compare to Earth's mass ($$ M_{\text{Earth}} = 5.972 \times 10^{24} $$ kg):
+
+<div class="equation">
+$$ \frac{M_{\text{mountain}}}{M_{\text{Earth}}} = \frac{2.94 \times 10^{17}\text{ kg}}{5.972 \times 10^{24}\text{ kg}} = 4.92 \times 10^{-8} $$
+</div>
+
+The mountain would be $$ 4.92 \times 10^{-8} $$ (about 0.00000492%) of Earth's mass.
+
+(c) **What is unreasonable:**
+
+The calculated mass of $$ 2.94 \times 10^{17} $$ kg is absurdly large for a mountain. For comparison, Mount Everest has a mass of approximately $$ 8.1 \times 10^{14} $$ kg - about 360 times less than our calculated value. The fraction of Earth's mass ($$4.92 \times 10^{-8}$$) may seem small, but it's still unreasonably large for a single mountain.
+
+(d) **Which premises are unreasonable:**
+
+The unreasonable premise is that the mountain exerts a gravitational force equal to 2.00% of a person's weight. This is far too large. In reality, even massive mountains exert gravitational forces that are typically less than 0.001% of a person's weight at distances of 10 km. The force would need to be about 1000 times smaller to be realistic. While sensitive gravitational measurements can detect the effect of nearby mountains (which is how geologists map underground structures), these effects are much more subtle than the problem suggests.
+
+**Discussion**
+
+This problem illustrates the importance of checking whether calculated results match physical reality. The enormous mass required for a mountain to exert 2.00% of a person's weight demonstrates that gravitational forces between everyday objects are extremely weak. Only objects with planetary masses create gravitational forces strong enough to dominate our daily experience. This is why we don't notice the gravitational attraction between people, buildings, or even mountains—these forces are millions of times weaker than Earth's gravitational pull.
 
 </div>
 </div>
