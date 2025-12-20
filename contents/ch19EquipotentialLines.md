@@ -161,6 +161,35 @@ Can different equipotential lines cross? Explain.
 (a) Sketch the equipotential lines near a point charge   $$+q $$ . Indicate the direction of increasing potential. (b) Do the same for a point charge  $$-3 \text{q} $$.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Equipotential lines for a point charge are concentric circles (spheres in 3D) centered on the charge. The potential from a point charge is $$V = kQ/r$$, so all points at the same distance have the same potential.
+
+**Solution**
+
+**(a) For charge +q:**
+
+The equipotential lines are concentric circles centered on the positive charge. Since $$V = kq/r$$:
+- The potential is positive everywhere
+- Potential **increases** as you move **toward** the charge (smaller $$r$$)
+- The innermost circles have the highest potential
+- Arrows indicating increasing potential point **inward** toward the charge
+
+**(b) For charge -3q:**
+
+The equipotential lines are also concentric circles, but:
+- The potential is negative everywhere (since $$Q < 0$$)
+- The magnitude of potential increases as you move toward the charge
+- Potential **increases** (becomes less negative) as you move **away** from the charge
+- Arrows indicating increasing potential point **outward** away from the charge
+- The equipotential lines are more closely spaced near the charge (for the same voltage intervals) because the charge magnitude is 3 times larger
+
+**Discussion**
+
+The key difference is the direction of increasing potential: toward a positive charge, away from a negative charge. This is consistent with the fact that positive charges create positive potentials and negative charges create negative potentials. The spacing of equipotential lines indicates the strength of the electric field—closer spacing means stronger field.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -171,6 +200,28 @@ Sketch the equipotential lines for the two equal positive charges shown in [[Fig
 {: #Figure5}
 
 </div>
+<div class="solution" markdown="1">
+**Solution**
+
+The equipotential lines must be perpendicular to the electric field lines at every point.
+
+**Description of the sketch:**
+
+1. **Near each charge:** The equipotential lines are nearly circular, centered on each charge individually.
+
+2. **In the region between the charges:** The equipotential lines curve around both charges. At the exact midpoint between the charges, there is a saddle point where the equipotential line is a straight line perpendicular to the line connecting the charges.
+
+3. **Far from both charges:** The equipotential lines become approximately circular, centered on the midpoint between the charges (the system looks like a single charge of +2q from far away).
+
+4. **Direction of increasing potential:** Arrows point **toward** either charge. The highest potential regions are closest to either positive charge.
+
+5. **Between the charges:** The potential is higher than at infinity but lower than very close to either charge. There is no equipotential line that passes between the charges without encircling one or both.
+
+**Discussion**
+
+The equipotential lines form closed curves that must either encircle one charge or both charges. Since both charges are positive, the potential is positive everywhere and increases as you approach either charge.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -178,6 +229,26 @@ Sketch the equipotential lines for the two equal positive charges shown in [[Fig
 [[Figure 6]](#Figure6) shows the electric field lines near two charges  $${q}_{1} $$
  and  $${q}_{2} $$ ,
  the first having a magnitude four times that of the second. Sketch the equipotential lines for these two charges, and indicate the direction of increasing potential.
+
+</div>
+<div class="solution" markdown="1">
+**Solution**
+
+From the figure, $$q_1$$ is negative (field lines point toward it) and $$q_2$$ is positive (field lines point away), with $$|q_1| = 4|q_2|$$.
+
+**Description of the sketch:**
+
+1. **Near $$q_1$$ (negative, larger):** Equipotential lines are nearly circular and closely spaced due to the larger charge magnitude. Potential is strongly negative near this charge.
+
+2. **Near $$q_2$$ (positive, smaller):** Equipotential lines are nearly circular but more widely spaced. Potential is positive but smaller in magnitude.
+
+3. **Between the charges:** Some equipotential lines connect the two charges (for the zero and small positive/negative potentials). There is a point where $$V = 0$$ along the line connecting the charges, closer to the smaller charge.
+
+4. **Direction of increasing potential:** Arrows point **away from $$q_1$$** (the negative charge) and **toward $$q_2$$** (the positive charge).
+
+**Discussion**
+
+The asymmetry in charge magnitude creates an asymmetric pattern. The equipotential lines are more densely packed around the larger negative charge, indicating a stronger field there.
 
 </div>
 </div>
@@ -190,11 +261,53 @@ Sketch the equipotential lines a long distance from the charges shown in [[Figur
 {: #Figure6}
 
 </div>
+<div class="solution" markdown="1">
+**Solution**
+
+At large distances, any system of charges appears as a single point charge with the net charge $$Q_{net} = q_1 + q_2 = -4q + q = -3q$$.
+
+**Description of the sketch:**
+
+1. **Far from both charges:** The equipotential lines become nearly **circular** (spherical in 3D), centered approximately on the centroid of the charge distribution.
+
+2. **Since the net charge is negative:** The potential is negative everywhere at large distances and approaches zero at infinity.
+
+3. **Direction of increasing potential:** Arrows point **outward** (away from the charge system), since potential increases (becomes less negative) as distance increases.
+
+4. **Spacing:** The lines are evenly spaced for equal voltage intervals, characteristic of the $$V = kQ_{net}/r$$ dependence.
+
+**Discussion**
+
+This is an example of the far-field approximation: any charge distribution looks like a point charge from sufficiently far away. The net charge determines the far-field behavior.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Sketch the equipotential lines in the vicinity of two opposite charges, where the negative charge is three times as great in magnitude as the positive. See [[Figure 6]](#Figure6) for a similar situation. Indicate the direction of increasing potential.
+
+</div>
+<div class="solution" markdown="1">
+**Solution**
+
+With $$q_{-} = -3q$$ and $$q_{+} = +q$$, the net charge is $$-2q$$.
+
+**Description of the sketch:**
+
+1. **Near the positive charge (+q):** Equipotential lines are nearly circular with positive potential values. Lines are more widely spaced (smaller charge, weaker field).
+
+2. **Near the negative charge (-3q):** Equipotential lines are nearly circular with negative potential values. Lines are more closely spaced (larger charge, stronger field).
+
+3. **Between the charges:** There is a point where $$V = 0$$, located closer to the smaller positive charge (at about 1/4 of the distance from the positive charge, since the ratio of distances must equal the ratio of charge magnitudes for $$V = 0$$).
+
+4. **Direction of increasing potential:** Arrows point **toward the positive charge** and **away from the negative charge**.
+
+5. **Far away:** Equipotential lines become circular, representing the net charge of $$-2q$$.
+
+**Discussion**
+
+The zero-potential surface forms a closed curve encircling the positive charge, with all points inside having positive potential and all points outside having negative potential (except very close to the positive charge).
 
 </div>
 </div>
@@ -207,6 +320,28 @@ Sketch the equipotential lines in the vicinity of the negatively charged conduct
 {: #Figure7}
 
 </div>
+<div class="solution" markdown="1">
+**Solution**
+
+**Near the conductor:**
+
+1. The conductor surface itself is an **equipotential surface** (all conductors are equipotentials in electrostatic equilibrium).
+
+2. The first equipotential line outside the conductor follows the shape of the conductor closely—it has the same oblong shape.
+
+3. The charge density is higher at the more curved ends of the oblong, so the electric field is stronger there and equipotential lines are more closely spaced near the ends.
+
+4. **Direction of increasing potential:** Since the charge is negative, potential increases as you move **away** from the conductor. Arrows point outward.
+
+**At large distances:**
+
+The equipotential lines become **circular** (spherical surfaces in 3D), centered on the object. From far away, any finite charge distribution appears as a point charge.
+
+**Discussion**
+
+The transition from conductor-shaped equipotentials near the surface to circular equipotentials far away is gradual. This is a general principle: local geometry matters near an object, but far away, only the total charge matters.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -215,6 +350,36 @@ Sketch the equipotential lines surrounding the two conducting plates shown in [[
 
 ![Two conducting plates with the top one positively charged and the bottom one with an equal amount of negative charge.](../resources/Figure_19_04_08.jpg ' ')
 {: #Figure8}
+
+</div>
+<div class="solution" markdown="1">
+**Solution**
+
+**Charge distribution on plates:**
+
+The charge concentrates on the **facing surfaces** of the plates (the surfaces closest to each other). Additionally, charge density is higher at the **edges** of the plates, particularly at the corners where the curvature is greatest.
+
+**Equipotential lines:**
+
+1. **Between the plates (close region):** Equipotential lines are approximately **parallel and evenly spaced**, indicating a nearly uniform field. Higher potential (more positive) is near the top plate.
+
+2. **Near the edges:** Equipotential lines curve outward, following the fringe fields.
+
+3. **Outside the plates:** Equipotential lines curve around the plates, becoming more circular at large distances.
+
+**Is the field strongest where the plates are closest?**
+
+**Yes.** The field is strongest where the plates are closest because:
+
+1. **Same voltage difference over smaller distance:** $$E = V/d$$, so smaller $$d$$ means larger $$E$$.
+
+2. **Closer equipotential lines:** Where plates are closer, the same potential difference is spread over less distance, so equipotential lines are more closely spaced—indicating stronger field.
+
+3. **Charge concentration:** Opposite charges attract, so charges migrate toward the facing surfaces, increasing the surface charge density and field there.
+
+**Discussion**
+
+This configuration is the basis of a parallel-plate capacitor. The approximately uniform field between the plates is useful for many applications. The non-uniform fringe fields at the edges are often neglected in calculations but become important in precise applications.
 
 </div>
 </div>
@@ -227,12 +392,80 @@ Sketch the equipotential lines surrounding the two conducting plates shown in [[
 {: #Figure9}
 
 </div>
+<div class="solution" markdown="1">
+**Solution**
+
+**(a) Electric field lines:**
+
+The electric field lines radiate outward from the positive charges, with density proportional to charge density:
+- **Near the heavily charged end:** Many field lines radiate outward in all directions, closely spaced.
+- **Near the middle:** Fewer field lines, more widely spaced.
+- **Near the lightly charged end:** Very few field lines.
+- Field lines never cross and are perpendicular to the rod surface where they originate.
+
+**(b) Equipotential lines:**
+
+1. **Near the heavily charged end:** Equipotential lines are closely spaced and curve around this end, nearly circular close to the surface.
+
+2. **Along the rod:** Equipotential lines are more widely spaced where charge density is lower.
+
+3. **Direction of increasing potential:** Arrows point **toward** the rod (toward the positive charges). The highest potential is at the heavily charged end.
+
+4. **Far from the rod:** Equipotential lines become approximately circular, centered on the center of charge of the distribution.
+
+**Discussion**
+
+Unlike conductors, insulators can maintain non-uniform charge distributions. The field and potential pattern reflects this non-uniformity. The electric field lines are always perpendicular to equipotential lines everywhere.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 The naturally occurring charge on the ground on a fine day out in the open country is  $$-1.00 {\text{nC/m}}^{2} $$ .
  (a) What is the electric field relative to ground at a height of 3.00 m? (b) Calculate the electric potential at this height. (c) Sketch electric field and equipotential lines for this scenario.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The electric field near an infinite plane of charge is given by $$E = \sigma/(2\epsilon_0)$$. However, for the ground (which is a conductor with an image charge effect), the field is $$E = \sigma/\epsilon_0$$. The potential is found using $$V = Ed$$ for a uniform field.
+
+**Solution**
+
+**(a) Electric field at 3.00 m height:**
+
+For a conductor (ground), the electric field just above the surface is:
+
+$$E = \frac{\sigma}{\epsilon_0} = \frac{1.00 \times 10^{-9} \text{ C/m}^2}{8.85 \times 10^{-12} \text{ C}^2/(\text{N·m}^2)}$$
+
+$$E = 113 \text{ V/m}$$
+
+The field points downward (toward the negatively charged ground).
+
+**(b) Electric potential at 3.00 m:**
+
+Taking ground as $$V = 0$$:
+
+$$V = Ed = (113 \text{ V/m})(3.00 \text{ m}) = 339 \text{ V}$$
+
+The potential is positive at height because we moved upward against the downward-pointing field (away from the negative charges).
+
+**(c) Sketch description:**
+
+- **Electric field lines:** Vertical lines pointing downward (toward the ground), uniformly spaced.
+- **Equipotential lines:** Horizontal lines parallel to the ground, with equal spacing for equal voltage intervals. Potential increases with height.
+- Ground level is 0 V; at 3 m height, it's about 340 V.
+
+**Discussion**
+
+This fair-weather electric field of about 100 V/m is typical. It's caused by charge separation in the atmosphere and is maintained by thunderstorm activity globally. A person 2 m tall standing on the ground has a potential difference of about 200 V between their head and feet! However, the tiny currents involved (the air is a very poor conductor) make this harmless.
+
+**(a) The electric field is 113 V/m, directed downward.**
+
+**(b) The electric potential at 3.00 m is 339 V.**
+
+**(c) The sketch shows vertical field lines pointing down and horizontal equipotential lines with potential increasing upward.**
 
 </div>
 </div>
@@ -243,6 +476,44 @@ The lesser electric ray (**Narcine bancroftii**) maintains an incredible charge 
 
 ![The figure shows a photo of a Narcine bancroftii, an electric ray that maintains a strong charge on its head and a charge equal in magnitude but opposite in sign on its tail.](../resources/Figure_19_04_10.jpg "Lesser electric ray (Narcine bancroftii) (credit: National Oceanic and Atmospheric Administration, NOAA's Fisheries Collection).")
 {: #Figure10}
+
+</div>
+<div class="solution" markdown="1">
+**Solution**
+
+**(a) Equipotential lines surrounding the ray:**
+
+The ray acts like an electric dipole with positive charge on its head and negative charge on its tail.
+
+- **Near the head (positive):** Equipotential lines are closely spaced, concentric, and positive in value.
+- **Near the tail (negative):** Equipotential lines are closely spaced, concentric, and negative in value.
+- **Between head and tail:** There is a $$V = 0$$ equipotential line passing through the middle region, forming a plane perpendicular to the axis of the ray.
+- **Far from the ray:** Equipotential lines become elongated ovals that enclose both charges, eventually becoming circular.
+- This pattern resembles that of a classic electric dipole.
+
+**(b) Equipotentials near a conducting ship:**
+
+When the ray approaches a conducting surface:
+- The conducting ship acts as a grounded surface ($$V = 0$$).
+- The equipotential lines must meet the conductor perpendicularly.
+- The pattern is distorted: field lines and equipotentials near the ship curve to meet it at right angles.
+- Image charges are induced in the conductor, further modifying the pattern.
+
+**(c) How the charge distribution is useful:**
+
+The electric ray uses this charge distribution for several purposes:
+
+1. **Stunning prey:** The voltage between head and tail can reach 30-50 volts. When the ray contacts prey, current flows through the prey, stunning or killing it.
+
+2. **Defense:** The electric shock can deter predators.
+
+3. **Navigation/sensing:** Some electric fish use their electric field to sense their environment (electrolocation), detecting distortions in the field caused by nearby objects.
+
+4. **Communication:** Electric signals may be used for communication with other electric rays.
+
+**Discussion**
+
+Electric rays and other electric fish have specialized electric organs made of modified muscle cells (electrocytes) stacked in series to produce voltage. The biological capacitor-like arrangement allows them to store charge and discharge it rapidly when needed.
 
 </div>
 </div>
