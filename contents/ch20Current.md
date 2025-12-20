@@ -448,6 +448,32 @@ What is the current in milliamperes produced by the solar cells of a pocket calc
 A total of 600 C of charge passes through a flashlight in 0.500 h. What is the average current?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use the definition of electric current as the rate of charge flow: $$I = \frac{\Delta Q}{\Delta t}$$. The charge is given directly, but the time must be converted from hours to seconds to obtain the current in amperes.
+
+**Solution**
+
+First, convert the time to seconds:
+
+<div class="equation">
+$$\Delta t = 0.500 \text{ h} \times \frac{3600 \text{ s}}{1 \text{ h}} = 1800 \text{ s}$$
+</div>
+
+Now apply the definition of current:
+
+<div class="equation">
+$$I = \frac{\Delta Q}{\Delta t} = \frac{600 \text{ C}}{1800 \text{ s}} = 0.333 \text{ A} = 333 \text{ mA}$$
+</div>
+
+**Discussion**
+
+This current of about one-third of an ampere is typical for a flashlight. It is much larger than the milliamp currents in small electronics like calculators, but much smaller than the hundreds of amperes used to start a car engine. The flashlight bulb requires enough current to heat the filament to incandescence, which demands more power than a calculator's LED display but far less than overcoming the mechanical resistance of an engine.
+
+The average current of 0.333 A through the flashlight is reasonable for illuminating a bulb.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -468,6 +494,36 @@ Find the current when 2.00 nC jumps between your comb and hair over a  $$0.500 \
  time interval.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+This problem involves the same fundamental relationship as static discharge: $$I = \frac{\Delta Q}{\Delta t}$$. The charge is given in nanocoulombs and the time in microseconds, so we must convert both to SI base units (coulombs and seconds) before calculating.
+
+**Solution**
+
+Convert the given values to SI units:
+
+<div class="equation">
+$$\Delta Q = 2.00 \text{ nC} = 2.00 \times 10^{-9} \text{ C}$$
+</div>
+
+<div class="equation">
+$$\Delta t = 0.500 \text{ } \mu\text{s} = 0.500 \times 10^{-6} \text{ s} = 5.00 \times 10^{-7} \text{ s}$$
+</div>
+
+Now calculate the current:
+
+<div class="equation">
+$$I = \frac{\Delta Q}{\Delta t} = \frac{2.00 \times 10^{-9} \text{ C}}{5.00 \times 10^{-7} \text{ s}} = 4.00 \times 10^{-3} \text{ A} = 4.00 \text{ mA}$$
+</div>
+
+**Discussion**
+
+This milliamp-level current during static discharge is consistent with the everyday experience of static shocks. Although the charge transferred is very small (nanocoulombs), the extremely short discharge time (microseconds) creates a measurable current. This brief but noticeable current is why static discharge can feel like a small shock, even though the total energy transferred is quite small.
+
+The current produced when 2.00 nC jumps between comb and hair in 0.500 μs is 4.00 mA.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -484,6 +540,32 @@ A large lightning bolt had a 20 000-A current and moved 30.0 C of charge. What w
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 The 200-A current through a spark plug moves 0.300 mC of charge. How long does the spark last?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We need to find the time duration given the current and charge. Starting from the definition $$I = \frac{\Delta Q}{\Delta t}$$, we can solve for time: $$\Delta t = \frac{\Delta Q}{I}$$. The charge must be converted from milliCoulombs to Coulombs.
+
+**Solution**
+
+Convert the charge to SI units:
+
+<div class="equation">
+$$\Delta Q = 0.300 \text{ mC} = 0.300 \times 10^{-3} \text{ C} = 3.00 \times 10^{-4} \text{ C}$$
+</div>
+
+Solve for the time duration:
+
+<div class="equation">
+$$\Delta t = \frac{\Delta Q}{I} = \frac{3.00 \times 10^{-4} \text{ C}}{200 \text{ A}} = 1.50 \times 10^{-6} \text{ s} = 1.50 \text{ }\mu\text{s}$$
+</div>
+
+**Discussion**
+
+A spark duration of 1.50 microseconds is extremely brief but physically reasonable for a spark plug. In automotive engines, spark plugs must fire rapidly and repeatedly—at high RPM, a 4-cylinder engine might require sparks at rates exceeding 100 per second per cylinder. The short duration allows the spark to initiate combustion without excessive electrode wear. The high current (200 A) during this brief interval provides enough energy to ionize the air-fuel mixture and trigger combustion, yet the total charge transferred remains small.
+
+The spark lasts for 1.50 μs, which is sufficient to ignite the fuel-air mixture in the engine cylinder.
 
 </div>
 </div>
@@ -510,6 +592,30 @@ During open-heart surgery, a defibrillator can be used to bring a patient out of
  and a 10.0-mA current is needed. What voltage should be applied?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+This problem applies Ohm's Law: $$V = IR$$. During open-heart surgery, the defibrillator electrodes can be placed directly on the heart, resulting in a much lower resistance path than external defibrillation (which must pass current through the chest wall). We use the given resistance and required current to find the necessary voltage.
+
+**Solution**
+
+Convert current to SI units and apply Ohm's Law:
+
+<div class="equation">
+$$I = 10.0 \text{ mA} = 10.0 \times 10^{-3} \text{ A} = 0.0100 \text{ A}$$
+</div>
+
+<div class="equation">
+$$V = IR = (0.0100 \text{ A})(500 \text{ Ω}) = 5.00 \text{ V}$$
+</div>
+
+**Discussion**
+
+The required voltage of 5.00 V is remarkably low compared to the 10,000 V used for external defibrillation (see earlier problem). This dramatic difference occurs because during open-heart surgery, the electrodes are placed directly on the heart muscle, eliminating the high resistance of the chest wall, skin, and other tissues. The direct contact means much less voltage is needed to deliver the therapeutic current. This lower voltage is also much safer for the surgical team and reduces the risk of electrical burns to cardiac tissue. The 10.0 mA current is sufficient to depolarize the heart muscle and restore normal rhythm when applied directly.
+
+A voltage of 5.00 V should be applied to produce the required 10.0-mA current through the 500-Ω path during open-heart surgery.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -530,6 +636,42 @@ During open-heart surgery, a defibrillator can be used to bring a patient out of
 A clock battery wears out after moving 10 000 C of charge through the clock at a rate of 0.500 mA. (a) How long did the clock run? (b) How many electrons per second flowed?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For part (a), we use the definition of current $$I = \frac{\Delta Q}{\Delta t}$$ solved for time: $$\Delta t = \frac{\Delta Q}{I}$$. For part (b), we convert the current (charge per second) to electrons per second by dividing by the charge of one electron.
+
+**Solution**
+
+**(a)** Find the time the clock ran:
+
+<div class="equation">
+$$I = 0.500 \text{ mA} = 0.500 \times 10^{-3} \text{ A} = 5.00 \times 10^{-4} \text{ A}$$
+</div>
+
+<div class="equation">
+$$\Delta t = \frac{\Delta Q}{I} = \frac{10\,000 \text{ C}}{5.00 \times 10^{-4} \text{ A}} = 2.00 \times 10^{7} \text{ s}$$
+</div>
+
+Converting to more meaningful units:
+
+<div class="equation">
+$$\Delta t = 2.00 \times 10^{7} \text{ s} \times \frac{1 \text{ h}}{3600 \text{ s}} \times \frac{1 \text{ day}}{24 \text{ h}} = 231 \text{ days} \approx 7.7 \text{ months}$$
+</div>
+
+**(b)** Find the number of electrons per second:
+
+<div class="equation">
+$$\frac{\text{electrons}}{\text{s}} = \frac{I}{e} = \frac{5.00 \times 10^{-4} \text{ C/s}}{1.60 \times 10^{-19} \text{ C/electron}} = 3.13 \times 10^{15} \text{ electrons/s}$$
+</div>
+
+**Discussion**
+
+The clock running for about 7.7 months on a single battery is quite reasonable for a small wall clock or desk clock with a low-power quartz movement. Quartz clocks use very little current because they only need to power the oscillator circuit and step motor. The 3.13 × 10^15 electrons per second sounds enormous, but this is actually a very small current—it takes over 3 quadrillion electrons each second just to produce half a milliamp of current. This illustrates how incredibly small the charge of a single electron is.
+
+(a) The clock ran for $$2.00 \times 10^{7}$$ s, or about 231 days (approximately 7.7 months). (b) The flow rate was $$3.13 \times 10^{15}$$ electrons per second.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -547,6 +689,36 @@ of electrons at this rate?
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Electron guns are used in X-ray tubes. The electrons are accelerated through a relatively large voltage and directed onto a metal target, producing X-rays. (a) How many electrons per second strike the target if the current is 0.500 mA? (b) What charge strikes the target in 0.750 s?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For part (a), we convert the current from charge per second to electrons per second by dividing by the electron charge. For part (b), we use the definition of current rearranged to find charge: $$\Delta Q = I \cdot \Delta t$$.
+
+**Solution**
+
+**(a)** Find the number of electrons per second:
+
+<div class="equation">
+$$I = 0.500 \text{ mA} = 0.500 \times 10^{-3} \text{ A} = 5.00 \times 10^{-4} \text{ C/s}$$
+</div>
+
+<div class="equation">
+$$\frac{\text{electrons}}{\text{s}} = \frac{I}{e} = \frac{5.00 \times 10^{-4} \text{ C/s}}{1.60 \times 10^{-19} \text{ C/electron}} = 3.13 \times 10^{15} \text{ electrons/s}$$
+</div>
+
+**(b)** Find the charge striking the target in 0.750 s:
+
+<div class="equation">
+$$\Delta Q = I \cdot \Delta t = (5.00 \times 10^{-4} \text{ A})(0.750 \text{ s}) = 3.75 \times 10^{-4} \text{ C} = 0.375 \text{ mC}$$
+</div>
+
+**Discussion**
+
+The electron gun in an X-ray tube produces over 3 quadrillion electrons per second striking the metal target. When these high-speed electrons suddenly decelerate upon hitting the target, they produce X-rays through bremsstrahlung ("braking radiation"). The 0.500 mA beam current is typical for diagnostic X-ray equipment. The charge of 0.375 mC delivered in 0.750 s is small but represents enormous numbers of individual electrons, each contributing to X-ray production. The intensity of X-rays produced is directly related to this electron current.
+
+(a) Approximately $$3.13 \times 10^{15}$$ electrons per second strike the target. (b) A charge of 0.375 mC (or $$3.75 \times 10^{-4}$$ C) strikes the target in 0.750 s.
 
 </div>
 </div>
@@ -571,6 +743,45 @@ A large cyclotron directs a beam of  $${\text{He}}^{++} $$
 Repeat the above example on [[Example 3]](#Example3), but for a wire made of silver and given there is one free electron per silver atom.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We follow the same approach as Example 3: calculate the drift velocity using $$I = nqAv_d$$, solving for $$v_d = \frac{I}{nqA}$$. We need the density of silver ($$10.49 \times 10^{3}$$ kg/m³) and its atomic mass (107.87 g/mol) to find the free electron density $$n$$. We use the same 12-gauge wire (diameter 2.053 mm) and 20.0-A current as in Example 3.
+
+**Solution**
+
+First, calculate the free electron density in silver:
+
+<div class="equation">
+$$\begin{array}{lll}
+n &=& \frac{1 \text{ }e^{-}}{\text{atom}} \times \frac{6.02 \times 10^{23} \text{ atoms}}{\text{mol}} \times \frac{1 \text{ mol}}{107.87 \text{ g}} \times \frac{1000 \text{ g}}{\text{kg}} \times \frac{10.49 \times 10^{3} \text{ kg}}{1 \text{ m}^{3}} \\
+n &=& 5.86 \times 10^{28} \text{ }e^{-}/\text{m}^{3}
+\end{array}$$
+</div>
+
+The cross-sectional area of the 12-gauge wire is the same as in Example 3:
+
+<div class="equation">
+$$A = \pi r^{2} = \pi \left(\frac{2.053 \times 10^{-3} \text{ m}}{2}\right)^{2} = 3.310 \times 10^{-6} \text{ m}^{2}$$
+</div>
+
+Now solve for the drift velocity:
+
+<div class="equation">
+$$\begin{array}{lll}
+v_d &=& \frac{I}{nqA} \\
+v_d &=& \frac{20.0 \text{ A}}{(5.86 \times 10^{28} \text{ /m}^{3})(-1.60 \times 10^{-19} \text{ C})(3.310 \times 10^{-6} \text{ m}^{2})} \\
+v_d &=& -6.45 \times 10^{-4} \text{ m/s}
+\end{array}$$
+</div>
+
+**Discussion**
+
+The drift velocity in silver ($$-6.45 \times 10^{-4}$$ m/s) is larger in magnitude than in copper ($$-4.53 \times 10^{-4}$$ m/s from Example 3). This occurs because silver has a lower free electron density than copper ($$5.86 \times 10^{28}$$ vs. $$8.34 \times 10^{28}$$ electrons/m³). With fewer charge carriers available, each electron must move faster on average to carry the same current. The negative sign indicates electrons move opposite to the conventional current direction. Despite the faster drift velocity, silver is still an excellent conductor—in fact, silver has the highest electrical conductivity of all metals, though it is more expensive than copper.
+
+The drift velocity of electrons in a 12-gauge silver wire carrying 20.0 A is $$-6.45 \times 10^{-4}$$ m/s.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -586,6 +797,46 @@ Using the results of the above example on [[Example 3]](#Example3), find the dri
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A 14-gauge copper wire has a diameter of 1.628 mm. What magnitude current flows when the drift velocity is 1.00 mm/s? (See above example on [[Example 3]](#Example3) for useful information.)
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use the current-drift velocity relationship $$I = nqAv_d$$ directly. From Example 3, we know the free electron density in copper is $$n = 8.342 \times 10^{28}$$ electrons/m³. We need to calculate the cross-sectional area of the 14-gauge wire and convert the drift velocity to SI units.
+
+**Solution**
+
+First, calculate the cross-sectional area of the 14-gauge wire:
+
+<div class="equation">
+$$\begin{array}{lll}
+A &=& \pi r^{2} = \pi \left(\frac{1.628 \times 10^{-3} \text{ m}}{2}\right)^{2} \\
+A &=& \pi (8.14 \times 10^{-4} \text{ m})^{2} \\
+A &=& 2.082 \times 10^{-6} \text{ m}^{2}
+\end{array}$$
+</div>
+
+Convert the drift velocity to SI units:
+
+<div class="equation">
+$$v_d = 1.00 \text{ mm/s} = 1.00 \times 10^{-3} \text{ m/s}$$
+</div>
+
+Now calculate the current (using the magnitude of charge):
+
+<div class="equation">
+$$\begin{array}{lll}
+I &=& n|q|Av_d \\
+I &=& (8.342 \times 10^{28} \text{ /m}^{3})(1.60 \times 10^{-19} \text{ C})(2.082 \times 10^{-6} \text{ m}^{2})(1.00 \times 10^{-3} \text{ m/s}) \\
+I &=& 27.8 \text{ A}
+\end{array}$$
+</div>
+
+**Discussion**
+
+A current of 27.8 A is quite large for a 14-gauge wire. In fact, 14-gauge wire is typically rated for only about 15-20 A in household wiring applications because of heating concerns. The drift velocity of 1.00 mm/s is also relatively high compared to typical values (which are on the order of 0.1 mm/s or less for household currents). This problem illustrates that even modest increases in drift velocity result in substantial currents because of the enormous number of free electrons available in metals. It also shows why electrical codes limit currents in specific wire gauges—excessive current causes heating that can damage insulation or cause fires.
+
+A current of 27.8 A flows through the 14-gauge copper wire when the drift velocity is 1.00 mm/s.
 
 </div>
 </div>

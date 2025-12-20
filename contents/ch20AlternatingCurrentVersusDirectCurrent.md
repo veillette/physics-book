@@ -343,8 +343,38 @@ You are riding in a train, gazing into the distance through its window. As close
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) What is the hot resistance of a 25-W light bulb that runs on 120-V AC? (b) If the bulb’s operating temperature is  $$2700 \text{ºC} $$ ,
+(a) What is the hot resistance of a 25-W light bulb that runs on 120-V AC? (b) If the bulb's operating temperature is  $$2700 \text{ºC} $$ ,
  what is its resistance at  $$2600 \text{ºC} $$ ?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For part (a), use $$P = V_{\text{rms}}^{2}/R$$. For part (b), use the temperature dependence of resistance $$R = R_{0}(1 + \alpha \Delta T)$$ with the tungsten temperature coefficient.
+
+**Solution**
+
+**(a)** Calculate the hot resistance:
+
+<div class="equation">
+$$R = \frac{V_{\text{rms}}^{2}}{P} = \frac{(120 \text{ V})^{2}}{25 \text{ W}} = \frac{14400 \text{ V}^{2}}{25 \text{ W}} = 576 \text{ Ω}$$
+</div>
+
+**(b)** Use the temperature coefficient for tungsten ($$\alpha = 4.5 \times 10^{-3}$$ /°C). With $$\Delta T = 2600 - 2700 = -100$$ °C from the hot operating temperature:
+
+<div class="equation">
+$$R_{2600} = R_{2700}(1 + \alpha \Delta T) = 576 \text{ Ω}[1 + (4.5 \times 10^{-3} \text{ /°C})(-100 \text{ °C})]$$
+</div>
+
+<div class="equation">
+$$R_{2600} = 576 \text{ Ω}(1 - 0.45) = 576 \text{ Ω}(0.55) = 317 \text{ Ω}$$
+</div>
+
+**Discussion**
+
+The hot resistance is quite high (576 Ω). At 100°C lower temperature, the resistance drops to 317 Ω—a 45% decrease. This significant temperature dependence explains why incandescent bulbs draw much more current when first switched on (when cold) than during normal operation.
+
+(a) The hot resistance is 576 Ω. (b) At 2600°C, the resistance is approximately 317 Ω.
 
 </div>
 </div>
@@ -365,6 +395,32 @@ Certain heavy industrial equipment uses AC power that has a peak voltage of 679 
 A certain circuit breaker trips when the rms current is 15.0 A. What is the corresponding peak current?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use the relationship between rms and peak current: $$I_{\text{rms}} = \frac{I_{0}}{\sqrt{2}}$$. Solving for the peak current $$I_{0}$$ will give us the maximum instantaneous current that flows through the circuit.
+
+**Solution**
+
+Rearrange the rms current equation to solve for peak current:
+
+<div class="equation">
+$$I_{0} = \sqrt{2} \cdot I_{\text{rms}}$$
+</div>
+
+Substitute the known value:
+
+<div class="equation">
+$$I_{0} = \sqrt{2} \times 15.0 \text{ A} = 1.414 \times 15.0 \text{ A} = 21.2 \text{ A}$$
+</div>
+
+**Discussion**
+
+The peak current of 21.2 A is about 41% higher than the rms value of 15.0 A. This is an important consideration for circuit breakers and fuses, which must be designed to handle the peak current without tripping during normal operation, while still protecting against sustained overcurrent conditions. The breaker responds to the heating effect of current, which is proportional to $$I^{2}$$, and thus relates to the rms value rather than the instantaneous peaks.
+
+The corresponding peak current is 21.2 A.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -381,6 +437,38 @@ Military aircraft use 400-Hz AC power, because it is possible to design lighter-
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A North American tourist takes his 25.0-W, 120-V AC razor to Europe, finds a special adapter, and plugs it into 240 V AC. Assuming constant resistance, what power does the razor consume as it is ruined?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+First, find the razor's resistance using its rated power and voltage with $$P = V^{2}/R$$. Then, use this resistance to calculate the power consumed when connected to the higher European voltage.
+
+**Solution**
+
+Calculate the razor's resistance from its rated specifications:
+
+<div class="equation">
+$$R = \frac{V^{2}}{P} = \frac{(120 \text{ V})^{2}}{25.0 \text{ W}} = \frac{14400 \text{ V}^{2}}{25.0 \text{ W}} = 576 \text{ Ω}$$
+</div>
+
+Now calculate the power consumed when connected to 240 V AC with the same resistance:
+
+<div class="equation">
+$$P_{\text{Europe}} = \frac{V^{2}}{R} = \frac{(240 \text{ V})^{2}}{576 \text{ Ω}} = \frac{57600 \text{ V}^{2}}{576 \text{ Ω}} = 100 \text{ W}$$
+</div>
+
+Alternatively, since $$P \propto V^{2}$$ for constant resistance, doubling the voltage quadruples the power:
+
+<div class="equation">
+$$P_{\text{Europe}} = P_{\text{rated}} \times \left(\frac{V_{\text{Europe}}}{V_{\text{rated}}}\right)^{2} = 25.0 \text{ W} \times \left(\frac{240}{120}\right)^{2} = 25.0 \text{ W} \times 4 = 100 \text{ W}$$
+</div>
+
+**Discussion**
+
+The razor consumes four times its rated power (100 W instead of 25 W). This excessive power will cause the razor's motor to overheat and burn out, the heating elements to glow too hot, and potentially cause a fire or electrical damage. This is why travelers need voltage converters, not just plug adapters, when using electrical devices in countries with different voltage standards. Modern "dual voltage" devices (labeled 120-240 V) have internal circuitry that adjusts for different voltages.
+
+The razor consumes 100 W when connected to 240 V AC, which is four times its rated power and will damage or destroy the device.
 
 </div>
 </div>
@@ -406,6 +494,40 @@ In this problem, you will verify statements made at the end of the power losses 
 A small office-building air conditioner operates on 408-V AC and consumes 50.0 kW. (a) What is its effective resistance? (b) What is the cost of running the air conditioner during a hot summer month when it is on 8.00 h per day for 30 days and electricity costs  $$9.00 \text{cents/kW}\cdot \text{h} $$ ?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For part (a), use the power equation $$P = V^{2}/R$$ to find the effective resistance. For part (b), calculate the total energy consumed in kW·h, then multiply by the cost per kW·h.
+
+**Solution**
+
+**(a)** Rearrange the power equation to solve for resistance:
+
+<div class="equation">
+$$R = \frac{V^{2}}{P} = \frac{(408 \text{ V})^{2}}{50.0 \times 10^{3} \text{ W}} = \frac{166464 \text{ V}^{2}}{50000 \text{ W}} = 3.33 \text{ Ω}$$
+</div>
+
+**(b)** Calculate the total energy consumed:
+
+<div class="equation">
+$$E = P \times t = 50.0 \text{ kW} \times 8.00 \text{ h/day} \times 30 \text{ days} = 12000 \text{ kW·h}$$
+</div>
+
+Calculate the cost:
+
+<div class="equation">
+$$\text{Cost} = E \times \text{rate} = 12000 \text{ kW·h} \times \$0.0900/\text{kW·h} = \$1080$$
+</div>
+
+**Discussion**
+
+The effective resistance of 3.33 Ω is quite low, which is typical for high-power devices. A low resistance allows a large current to flow, enabling high power consumption. The current drawn is $$I = P/V = 50000 \text{ W}/408 \text{ V} = 122.5 \text{ A}$$, which is substantial and requires heavy-duty wiring.
+
+The monthly operating cost of $1080 is significant but reasonable for a commercial air conditioning system running 8 hours daily. This cost analysis helps building managers budget for energy expenses and evaluate the economic benefit of more efficient HVAC systems.
+
+(a) The effective resistance is 3.33 Ω. (b) The cost of running the air conditioner for the month is $1080.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -422,6 +544,32 @@ What is the peak power consumption of a 120-V AC microwave oven that draws 10.0 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 What is the peak current through a 500-W room heater that operates on 120-V AC power?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+First, find the rms current using $$P_{\text{ave}} = I_{\text{rms}} V_{\text{rms}}$$. Then convert to peak current using $$I_{0} = \sqrt{2} \cdot I_{\text{rms}}$$.
+
+**Solution**
+
+Calculate the rms current from the average power:
+
+<div class="equation">
+$$I_{\text{rms}} = \frac{P_{\text{ave}}}{V_{\text{rms}}} = \frac{500 \text{ W}}{120 \text{ V}} = 4.17 \text{ A}$$
+</div>
+
+Convert to peak current:
+
+<div class="equation">
+$$I_{0} = \sqrt{2} \cdot I_{\text{rms}} = 1.414 \times 4.17 \text{ A} = 5.89 \text{ A}$$
+</div>
+
+**Discussion**
+
+The peak current of 5.89 A is the maximum instantaneous current flowing through the heater during each AC cycle. The rms current of 4.17 A represents the effective DC equivalent that would produce the same heating effect. For a resistive load like a heater, the current and voltage are in phase, so the peak current occurs at the same instant as the peak voltage. The wiring and circuit breaker for this heater must be rated to handle currents above the peak value to provide a safety margin.
+
+The peak current through the room heater is 5.89 A.
 
 </div>
 </div>
@@ -446,6 +594,54 @@ Two different electrical devices have the same power consumption, but one is mea
 Nichrome wire is used in some radiative heaters. (a) Find the resistance needed if the average power output is to be 1.00 kW utilizing 120-V AC. (b) What length of Nichrome wire, having a cross-sectional area of  $$5.00{\text{mm}}^{2} $$ ,
  is needed if the operating temperature is  $$500 \text{ºC} $$ ?
  (c) What power will it draw when first switched on?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For part (a), use $$P = V^{2}/R$$ to find the required hot resistance. For part (b), use the resistivity formula $$R = \rho L/A$$ with the resistivity at the operating temperature. For part (c), find the cold resistance using the temperature coefficient and then calculate the power at room temperature.
+
+**Solution**
+
+**(a)** Find the hot resistance required for 1.00 kW:
+
+<div class="equation">
+$$R_{\text{hot}} = \frac{V^{2}}{P} = \frac{(120 \text{ V})^{2}}{1000 \text{ W}} = \frac{14400 \text{ V}^{2}}{1000 \text{ W}} = 14.4 \text{ Ω}$$
+</div>
+
+**(b)** Use the resistivity of Nichrome at 500°C. First, find the resistivity at the operating temperature using $$\rho = \rho_{0}(1 + \alpha \Delta T)$$, where $$\rho_{0} = 1.00 \times 10^{-6} \text{ Ω·m}$$ at 20°C and $$\alpha = 0.4 \times 10^{-3}$$ /°C for Nichrome:
+
+<div class="equation">
+$$\rho_{500} = (1.00 \times 10^{-6} \text{ Ω·m})[1 + (0.4 \times 10^{-3} \text{ /°C})(500 - 20) \text{ °C}]$$
+</div>
+
+<div class="equation">
+$$\rho_{500} = (1.00 \times 10^{-6} \text{ Ω·m})(1 + 0.192) = 1.19 \times 10^{-6} \text{ Ω·m}$$
+</div>
+
+Solve for length using $$R = \rho L/A$$:
+
+<div class="equation">
+$$L = \frac{RA}{\rho} = \frac{(14.4 \text{ Ω})(5.00 \times 10^{-6} \text{ m}^{2})}{1.19 \times 10^{-6} \text{ Ω·m}} = 60.5 \text{ m}$$
+</div>
+
+**(c)** Find the cold resistance at 20°C. Since $$R \propto \rho$$:
+
+<div class="equation">
+$$R_{\text{cold}} = R_{\text{hot}} \times \frac{\rho_{20}}{\rho_{500}} = 14.4 \text{ Ω} \times \frac{1.00}{1.19} = 12.1 \text{ Ω}$$
+</div>
+
+Calculate the initial power:
+
+<div class="equation">
+$$P_{\text{cold}} = \frac{V^{2}}{R_{\text{cold}}} = \frac{(120 \text{ V})^{2}}{12.1 \text{ Ω}} = 1.19 \text{ kW}$$
+</div>
+
+**Discussion**
+
+The heater requires 60.5 m of Nichrome wire, which is typically wound into a compact coil. When first switched on, the heater draws about 19% more power (1.19 kW vs 1.00 kW) because the cold resistance is lower. This is opposite to the behavior of incandescent bulbs, where tungsten has a much higher temperature coefficient and draws several times more current when cold. Nichrome's relatively small temperature coefficient ($$\alpha = 0.4 \times 10^{-3}$$ /°C vs. tungsten's $$4.5 \times 10^{-3}$$ /°C) makes it ideal for heating elements because the power output remains relatively stable as the element heats up.
+
+(a) The required resistance is 14.4 Ω. (b) The length of Nichrome wire needed is 60.5 m. (c) When first switched on, the heater draws 1.19 kW.
 
 </div>
 </div>
@@ -473,6 +669,68 @@ Find the time after  $$t=0 $$
 (a) At what two times in the first period following  $$t=0 $$
  does the instantaneous voltage in 60-Hz AC equal  $${V}_{\text{rms}} $$ ?
  (b) $$-{V}_{\text{rms}} $$ ?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Use the AC voltage equation $$V = V_{0} \sin(2\pi f t)$$ and the relationship $$V_{\text{rms}} = V_{0}/\sqrt{2}$$. Set the instantaneous voltage equal to $$\pm V_{\text{rms}}$$ and solve for time. For 60-Hz AC, the period is $$T = 1/f = 1/60$$ s = 16.67 ms.
+
+**Solution**
+
+**(a)** Find when $$V = V_{\text{rms}} = V_{0}/\sqrt{2}$$:
+
+<div class="equation">
+$$V_{0} \sin(2\pi f t) = \frac{V_{0}}{\sqrt{2}}$$
+</div>
+
+<div class="equation">
+$$\sin(2\pi f t) = \frac{1}{\sqrt{2}} = 0.707$$
+</div>
+
+The sine function equals $$1/\sqrt{2}$$ at angles of 45° and 135° (or $$\pi/4$$ and $$3\pi/4$$ radians) within one period:
+
+For the first time:
+<div class="equation">
+$$2\pi f t_{1} = \frac{\pi}{4}$$
+</div>
+
+<div class="equation">
+$$t_{1} = \frac{1}{8f} = \frac{1}{8 \times 60 \text{ Hz}} = 2.08 \text{ ms}$$
+</div>
+
+For the second time:
+<div class="equation">
+$$2\pi f t_{2} = \frac{3\pi}{4}$$
+</div>
+
+<div class="equation">
+$$t_{2} = \frac{3}{8f} = \frac{3}{8 \times 60 \text{ Hz}} = 6.25 \text{ ms}$$
+</div>
+
+**(b)** Find when $$V = -V_{\text{rms}} = -V_{0}/\sqrt{2}$$:
+
+<div class="equation">
+$$\sin(2\pi f t) = -\frac{1}{\sqrt{2}} = -0.707$$
+</div>
+
+The sine function equals $$-1/\sqrt{2}$$ at angles of 225° and 315° (or $$5\pi/4$$ and $$7\pi/4$$ radians) within one period:
+
+For the first time:
+<div class="equation">
+$$t_{3} = \frac{5}{8f} = \frac{5}{8 \times 60 \text{ Hz}} = 10.4 \text{ ms}$$
+</div>
+
+For the second time:
+<div class="equation">
+$$t_{4} = \frac{7}{8f} = \frac{7}{8 \times 60 \text{ Hz}} = 14.6 \text{ ms}$$
+</div>
+
+**Discussion**
+
+These times divide the period into eight equal parts of 2.08 ms each. The rms voltage represents the effective DC equivalent, and the instantaneous AC voltage crosses through this value four times per cycle—twice positive and twice negative. Notice that the voltage spends more time below $$V_{\text{rms}}$$ than above it during the positive half-cycle. This is because the sine wave varies slowly near its peaks and quickly near zero crossings. The rms value is calculated by averaging the square of the voltage, which gives extra weight to the peak regions.
+
+(a) The voltage equals $$V_{\text{rms}}$$ at $$t = 2.08$$ ms and $$t = 6.25$$ ms. (b) The voltage equals $$-V_{\text{rms}}$$ at $$t = 10.4$$ ms and $$t = 14.6$$ ms.
 
 </div>
 </div>
