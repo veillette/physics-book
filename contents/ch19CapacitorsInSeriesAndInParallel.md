@@ -266,7 +266,33 @@ Find the total capacitance of the combination of capacitors in [[Figure 4]](#Fig
 
 </div>
 <div class="solution" markdown="1">
- $$0.293 \text{μF} $$
+**Strategy**
+
+This circuit has a combination of series and parallel connections. First, identify the capacitors in parallel (10 μF and 2.5 μF), find their equivalent capacitance, then combine this result with the 0.30 μF capacitor in series.
+
+**Solution**
+
+Step 1: Find the equivalent capacitance of the parallel combination:
+
+$$C_{\text{p}} = C_1 + C_2 = 10 \text{ μF} + 2.5 \text{ μF} = 12.5 \text{ μF}$$
+
+Step 2: This parallel combination is in series with the 0.30 μF capacitor. Use the series formula:
+
+$$\frac{1}{C_{\text{total}}} = \frac{1}{C_{\text{p}}} + \frac{1}{C_3}$$
+
+$$\frac{1}{C_{\text{total}}} = \frac{1}{12.5 \text{ μF}} + \frac{1}{0.30 \text{ μF}}$$
+
+$$\frac{1}{C_{\text{total}}} = 0.080 \text{ μF}^{-1} + 3.33 \text{ μF}^{-1} = 3.41 \text{ μF}^{-1}$$
+
+$$C_{\text{total}} = \frac{1}{3.41 \text{ μF}^{-1}} = 0.293 \text{ μF}$$
+
+**Discussion**
+
+The total capacitance is dominated by the smallest capacitor in the series portion of the circuit (0.30 μF). Even though the parallel combination has 12.5 μF, the series connection with 0.30 μF reduces the total to less than 0.30 μF. This illustrates how a single small capacitor in series can dramatically reduce the overall capacitance.
+
+**Final Answer**
+
+The total capacitance of the combination is **0.293 μF**.
 </div>
 </div>
 
@@ -274,6 +300,33 @@ Find the total capacitance of the combination of capacitors in [[Figure 4]](#Fig
 <div class="problem" markdown="1">
 Suppose you want a capacitor bank with a total capacitance of 0.750 F and you possess numerous 1.50 mF capacitors. What is the smallest number you could hook together to achieve your goal, and how would you connect them?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+To achieve a larger total capacitance from smaller individual capacitors, we must connect them in parallel (series connections would reduce the total capacitance). We need to find how many 1.50 mF capacitors connected in parallel will yield 0.750 F.
+
+**Solution**
+
+For capacitors in parallel:
+
+$$C_{\text{total}} = C_1 + C_2 + C_3 + ... = nC$$
+
+where $$n$$ is the number of identical capacitors each with capacitance $$C$$.
+
+Solving for $$n$$:
+
+$$n = \frac{C_{\text{total}}}{C} = \frac{0.750 \text{ F}}{1.50 \times 10^{-3} \text{ F}}$$
+
+$$n = \frac{0.750}{0.00150} = 500$$
+
+**Discussion**
+
+500 capacitors is a large number, which illustrates why achieving farad-level capacitances is challenging with conventional capacitors. Modern supercapacitors (or ultracapacitors) can achieve farad-level capacitances in a single device by using extremely thin separations and large effective surface areas through porous materials. The parallel connection is essential here—connecting 1.50 mF capacitors in series would give a total capacitance of $$1.50 \text{ mF}/n$$, which becomes smaller as more capacitors are added.
+
+**Final Answer**
+
+The smallest number needed is **500 capacitors**, and they must all be connected **in parallel**.
 </div>
 </div>
 
@@ -285,10 +338,31 @@ What total capacitances can you make by connecting a  $$5.00 \text{µF} $$
 
 </div>
 <div class="solution" markdown="1">
- $$3.08 \text{µF} $$
- in series combination,  $$13.0 \text{µF} $$
- in parallel combination
+**Strategy**
 
+With two capacitors, there are two possible simple connections: series and parallel. Each produces a different total capacitance. For series, use $$\frac{1}{C_S} = \frac{1}{C_1} + \frac{1}{C_2}$$; for parallel, use $$C_P = C_1 + C_2$$.
+
+**Solution**
+
+**Series connection:**
+
+$$\frac{1}{C_{\text{S}}} = \frac{1}{C_1} + \frac{1}{C_2} = \frac{1}{5.00 \text{ μF}} + \frac{1}{8.00 \text{ μF}}$$
+
+$$\frac{1}{C_{\text{S}}} = 0.200 \text{ μF}^{-1} + 0.125 \text{ μF}^{-1} = 0.325 \text{ μF}^{-1}$$
+
+$$C_{\text{S}} = \frac{1}{0.325 \text{ μF}^{-1}} = 3.08 \text{ μF}$$
+
+**Parallel connection:**
+
+$$C_{\text{P}} = C_1 + C_2 = 5.00 \text{ μF} + 8.00 \text{ μF} = 13.0 \text{ μF}$$
+
+**Discussion**
+
+The series capacitance (3.08 μF) is less than either individual capacitor, while the parallel capacitance (13.0 μF) is the sum. This demonstrates the general rule: series connections always produce a smaller total capacitance, while parallel connections produce a larger one. Note the ratio: the parallel value is more than 4 times the series value. With more capacitors of different values, more combinations become possible.
+
+**Final Answer**
+
+The two possible total capacitances are **3.08 μF** (series) and **13.0 μF** (parallel).
 </div>
 </div>
 
@@ -301,7 +375,31 @@ Find the total capacitance of the combination of capacitors shown in [[Figure 5]
 
 </div>
 <div class="solution" markdown="1">
- $$2.79 \text{µF} $$
+**Strategy**
+
+First identify the circuit structure: the 0.30 μF and 10 μF capacitors are in series, and their combination is in parallel with the 2.5 μF capacitor. We'll find the series equivalent first, then add it to the parallel capacitor.
+
+**Solution**
+
+Step 1: Find the equivalent capacitance of the series combination (0.30 μF and 10 μF):
+
+$$\frac{1}{C_{\text{S}}} = \frac{1}{C_1} + \frac{1}{C_2} = \frac{1}{0.30 \text{ μF}} + \frac{1}{10 \text{ μF}}$$
+
+$$\frac{1}{C_{\text{S}}} = 3.33 \text{ μF}^{-1} + 0.10 \text{ μF}^{-1} = 3.43 \text{ μF}^{-1}$$
+
+$$C_{\text{S}} = \frac{1}{3.43 \text{ μF}^{-1}} = 0.291 \text{ μF}$$
+
+Step 2: This series combination is in parallel with the 2.5 μF capacitor:
+
+$$C_{\text{total}} = C_{\text{S}} + C_3 = 0.291 \text{ μF} + 2.5 \text{ μF} = 2.79 \text{ μF}$$
+
+**Discussion**
+
+Comparing this to Problem 1, the same three capacitors are connected differently. In Problem 1, the parallel pair was in series with 0.30 μF, giving 0.293 μF. Here, the series pair is in parallel with 2.5 μF, giving 2.79 μF—nearly 10 times larger! This illustrates how the connection topology dramatically affects the total capacitance. The 2.5 μF capacitor dominates here because the series combination contributes only 0.29 μF.
+
+**Final Answer**
+
+The total capacitance of the combination is **2.79 μF**.
 </div>
 </div>
 
@@ -312,6 +410,50 @@ Find the total capacitance of the combination of capacitors shown in [[Figure 6]
 ![The figure shows a circuit that is a combination of series and parallel connections of capacitors. On the left of the circuit is a five point zero microfarad capacitor in series with a three point five microfarad capacitor. In the middle is an eight point zero microfarad capacitor. On the right, a zero point seven five microfarad capacitor is in parallel with a fifteen microfarad capacitor, and together they are in series with a one point five microfarad capacitor. Altogether, the system of capacitors on the left, the capacitor in the middle, and the system of capacitors on the right are connected in parallel.](../resources/Figure_19_06_06.jpg 'A combination of series and parallel connections of capacitors.')
 {: #Figure6}
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+This complex circuit has three branches in parallel. We need to find the equivalent capacitance of each branch, then add them together:
+- Left branch: 5.0 μF and 3.5 μF in series
+- Middle branch: 8.0 μF alone
+- Right branch: (0.75 μF parallel with 15 μF) in series with 1.5 μF
+
+**Solution**
+
+**Left Branch** (5.0 μF and 3.5 μF in series):
+
+$$\frac{1}{C_{\text{left}}} = \frac{1}{5.0 \text{ μF}} + \frac{1}{3.5 \text{ μF}} = 0.200 + 0.286 = 0.486 \text{ μF}^{-1}$$
+
+$$C_{\text{left}} = 2.06 \text{ μF}$$
+
+**Middle Branch**:
+
+$$C_{\text{middle}} = 8.0 \text{ μF}$$
+
+**Right Branch** (first find parallel combination, then series with 1.5 μF):
+
+Parallel combination of 0.75 μF and 15 μF:
+$$C_{\text{p}} = 0.75 \text{ μF} + 15 \text{ μF} = 15.75 \text{ μF}$$
+
+This is in series with 1.5 μF:
+$$\frac{1}{C_{\text{right}}} = \frac{1}{15.75 \text{ μF}} + \frac{1}{1.5 \text{ μF}} = 0.0635 + 0.667 = 0.730 \text{ μF}^{-1}$$
+
+$$C_{\text{right}} = 1.37 \text{ μF}$$
+
+**Total capacitance** (all three branches in parallel):
+
+$$C_{\text{total}} = C_{\text{left}} + C_{\text{middle}} + C_{\text{right}}$$
+
+$$C_{\text{total}} = 2.06 \text{ μF} + 8.0 \text{ μF} + 1.37 \text{ μF} = 11.4 \text{ μF}$$
+
+**Discussion**
+
+The middle branch dominates the total capacitance because it contains the largest single capacitor (8.0 μF) with no series reduction. The right branch, despite containing a 15 μF capacitor, only contributes 1.37 μF because the series connection with 1.5 μF drastically reduces its effective capacitance. This problem demonstrates systematic reduction of complex networks by working from the innermost combinations outward.
+
+**Final Answer**
+
+The total capacitance of the combination is **11.4 μF**.
 </div>
 </div>
 
@@ -326,13 +468,46 @@ result? (c) Which assumptions are unreasonable or inconsistent?
 
 </div>
 <div class="solution"  markdown="1">
-(a)  $$-3.00 \text{µF} $$
-(b) You cannot have a negative value of capacitance.
+**Strategy**
 
-(c) The assumption that the capacitors were hooked up in parallel, rather than
-in series, was incorrect. A parallel connection always produces a greater
-capacitance, while here a smaller capacitance was assumed. This could happen
-only if the capacitors are connected in series.
+This is a critical thinking problem. We'll use the parallel capacitance formula to solve for the unknown capacitor, then examine whether the result makes physical sense.
 
+**Solution**
+
+**(a)** For capacitors in parallel:
+
+$$C_{\text{total}} = C_1 + C_2$$
+
+Solving for $$C_2$$:
+
+$$C_2 = C_{\text{total}} - C_1 = 5.00 \text{ μF} - 8.00 \text{ μF} = -3.00 \text{ μF}$$
+
+**(b)** A negative capacitance is physically impossible. Capacitance is defined as $$C = Q/V$$, and since charge and voltage have the same sign relationship (positive charge at higher potential), capacitance must always be positive. There is no physical device that stores negative charge per volt.
+
+**(c)** The assumption that the capacitors are connected in parallel is inconsistent with the given data. For a parallel connection, the total capacitance must always be *greater* than any individual capacitance:
+
+$$C_{\text{parallel}} = C_1 + C_2 > C_1 \text{ (always, since } C_2 > 0\text{)}$$
+
+Since 5.00 μF < 8.00 μF, a parallel connection is impossible. The capacitors must be connected in *series*. Let's verify:
+
+$$\frac{1}{C_{\text{S}}} = \frac{1}{8.00 \text{ μF}} + \frac{1}{C_2}$$
+
+$$\frac{1}{C_2} = \frac{1}{5.00 \text{ μF}} - \frac{1}{8.00 \text{ μF}} = 0.200 - 0.125 = 0.075 \text{ μF}^{-1}$$
+
+$$C_2 = 13.3 \text{ μF}$$
+
+This is a reasonable, positive capacitance.
+
+**Discussion**
+
+This problem illustrates an important check: parallel combinations always increase total capacitance, while series combinations always decrease it. If you calculate a negative capacitance or resistance, it's a strong indicator that your assumptions about the circuit topology are wrong.
+
+**Final Answer**
+
+(a) Using the parallel assumption, $$C_2 = -3.00 \text{ μF}$$.
+
+(b) Negative capacitance is physically impossible—capacitance must always be positive.
+
+(c) The assumption that the capacitors are connected in parallel is incorrect. A parallel connection always produces a total capacitance greater than any individual capacitor. Since 5.00 μF < 8.00 μF, the connection must be in series, not parallel.
 </div>
 </div>

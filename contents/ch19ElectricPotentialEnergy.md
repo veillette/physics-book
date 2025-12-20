@@ -465,7 +465,39 @@ How are units of volts and electron volts related? How do they differ?
 Find the ratio of speeds of an electron and a negative hydrogen ion (one having an extra electron) accelerated through the same voltage, assuming non-relativistic final speeds. Take the mass of the hydrogen ion to be  $$ 1.67 \times 10^{-27} \text{kg}\text{.} $$
 </div>
 <div class="solution"  markdown="1">
-42.8
+**Strategy**
+
+Both particles start at rest and are accelerated through the same potential difference. Since they have the same magnitude of charge (both are singly charged), they gain the same kinetic energy. We can use conservation of energy to relate the final speed to the mass, then form a ratio to compare the two speeds.
+
+**Solution**
+
+For a charged particle accelerated from rest through a potential difference $$V$$, the kinetic energy gained equals the work done by the electric field:
+
+$$\text{KE} = qV$$
+
+For a particle starting from rest:
+
+$$\frac{1}{2}mv^2 = qV$$
+
+Solving for velocity:
+
+$$v = \sqrt{\frac{2qV}{m}}$$
+
+Since both particles have the same charge magnitude $$q$$ and are accelerated through the same voltage $$V$$, the ratio of their speeds is:
+
+$$\frac{v_e}{v_{\text{H}^-}} = \frac{\sqrt{\frac{2qV}{m_e}}}{\sqrt{\frac{2qV}{m_{\text{H}^-}}}} = \sqrt{\frac{m_{\text{H}^-}}{m_e}}$$
+
+Substituting the known masses:
+- $$m_e = 9.11 \times 10^{-31} \text{ kg}$$
+- $$m_{\text{H}^-} = 1.67 \times 10^{-27} \text{ kg}$$
+
+$$\frac{v_e}{v_{\text{H}^-}} = \sqrt{\frac{1.67 \times 10^{-27} \text{ kg}}{9.11 \times 10^{-31} \text{ kg}}} = \sqrt{1834} = 42.8$$
+
+**Discussion**
+
+The electron moves about 43 times faster than the hydrogen ion because it has nearly 2000 times less mass. This result demonstrates why electrons are preferred in devices like cathode ray tubes and electron microscopes—they are much easier to accelerate to high speeds. The ratio depends only on the square root of the mass ratio, which is why the speed ratio (42.8) is much smaller than the mass ratio (1834). This is a direct consequence of kinetic energy depending on $$v^2$$.
+
+**The ratio of speeds is 42.8, with the electron traveling faster than the hydrogen ion.**
 
 </div>
 </div>
@@ -475,12 +507,101 @@ Find the ratio of speeds of an electron and a negative hydrogen ion (one having 
 An evacuated tube uses an accelerating voltage of 40 kV to accelerate electrons to hit a copper plate and produce X-rays. Non-relativistically, what would be the maximum speed of these electrons?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The electrons start at rest and are accelerated through a potential difference of 40 kV. Using conservation of energy, the electrical potential energy lost by the electron is converted entirely to kinetic energy (assuming no energy losses in the evacuated tube). We'll apply the energy conservation equation to find the final speed.
+
+**Solution**
+
+*Known quantities:*
+- Accelerating voltage: $$V = 40 \text{ kV} = 40,000 \text{ V}$$
+- Electron charge: $$e = 1.60 \times 10^{-19} \text{ C}$$
+- Electron mass: $$m_e = 9.11 \times 10^{-31} \text{ kg}$$
+
+*Unknown:* Maximum speed $$v$$
+
+The kinetic energy gained equals the work done by the electric field:
+
+$$\frac{1}{2}m_e v^2 = eV$$
+
+Solving for velocity:
+
+$$v = \sqrt{\frac{2eV}{m_e}}$$
+
+Substituting values:
+
+$$v = \sqrt{\frac{2(1.60 \times 10^{-19} \text{ C})(40,000 \text{ V})}{9.11 \times 10^{-31} \text{ kg}}}$$
+
+$$v = \sqrt{\frac{1.28 \times 10^{-14} \text{ J}}{9.11 \times 10^{-31} \text{ kg}}}$$
+
+$$v = \sqrt{1.405 \times 10^{16} \text{ m}^2/\text{s}^2}$$
+
+$$v = 1.19 \times 10^{8} \text{ m/s}$$
+
+**Discussion**
+
+This calculated speed is about 40% of the speed of light ($$c = 3.0 \times 10^8$$ m/s). At this speed, relativistic effects become significant (typically when $$v > 0.1c$$), so our non-relativistic answer is an approximation. The actual speed would be somewhat lower due to relativistic mass increase. This is why the problem specifically asks for the non-relativistic result. X-ray tubes indeed operate at these high voltages, and the high-speed electrons produce X-rays when they rapidly decelerate upon hitting the copper target (bremsstrahlung radiation) or when they knock inner-shell electrons out of copper atoms (characteristic X-rays).
+
+**The maximum speed of the electrons is $$1.19 \times 10^{8}$$ m/s (non-relativistically).**
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A bare helium nucleus has two positive charges and a mass of  $$ 6.64 \times 10^{-27} \text{kg}\text{.} $$
  (a) Calculate its kinetic energy in joules at 2.00% of the speed of light. (b) What is this in electron volts? (c) What voltage would be needed to obtain this energy?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+A bare helium nucleus (alpha particle) has two protons and two neutrons, with a charge of $$+2e$$. We'll use the classical kinetic energy formula for part (a), convert to electron volts for part (b), and then use the relationship between kinetic energy and voltage for part (c). Since 2% of the speed of light is well below the relativistic regime, the classical formula is appropriate.
+
+**Solution**
+
+*Known quantities:*
+- Mass of helium nucleus: $$m = 6.64 \times 10^{-27} \text{ kg}$$
+- Speed of light: $$c = 3.00 \times 10^{8} \text{ m/s}$$
+- Velocity: $$v = 0.0200c = 0.0200 \times 3.00 \times 10^{8} \text{ m/s} = 6.00 \times 10^{6} \text{ m/s}$$
+- Charge: $$q = 2e = 2(1.60 \times 10^{-19} \text{ C}) = 3.20 \times 10^{-19} \text{ C}$$
+
+**(a) Kinetic energy in joules:**
+
+$$\text{KE} = \frac{1}{2}mv^2$$
+
+$$\text{KE} = \frac{1}{2}(6.64 \times 10^{-27} \text{ kg})(6.00 \times 10^{6} \text{ m/s})^2$$
+
+$$\text{KE} = \frac{1}{2}(6.64 \times 10^{-27} \text{ kg})(3.60 \times 10^{13} \text{ m}^2/\text{s}^2)$$
+
+$$\text{KE} = 1.20 \times 10^{-13} \text{ J}$$
+
+**(b) Kinetic energy in electron volts:**
+
+Using the conversion $$1 \text{ eV} = 1.60 \times 10^{-19} \text{ J}$$:
+
+$$\text{KE} = \frac{1.20 \times 10^{-13} \text{ J}}{1.60 \times 10^{-19} \text{ J/eV}}$$
+
+$$\text{KE} = 7.48 \times 10^{5} \text{ eV} = 748 \text{ keV}$$
+
+**(c) Voltage needed:**
+
+The kinetic energy gained by a charge accelerated through a potential difference is $$\text{KE} = qV$$. Solving for voltage:
+
+$$V = \frac{\text{KE}}{q} = \frac{1.20 \times 10^{-13} \text{ J}}{3.20 \times 10^{-19} \text{ C}}$$
+
+$$V = 3.74 \times 10^{5} \text{ V} = 374 \text{ kV}$$
+
+**Discussion**
+
+The helium nucleus needs about 374 kV to reach 2% of the speed of light, which is a substantial but achievable voltage in particle accelerators. Notice that the voltage (374 kV) is exactly half the energy in keV (748 keV) because the helium nucleus has a charge of $$+2e$$. This relationship ($$V = \text{KE}_{(\text{eV})}/q_{(\text{in } e)}$$) is very useful for quick calculations. The electron volt is a convenient unit here because energies in the keV to MeV range are typical for nuclear and particle physics experiments.
+
+**(a) The kinetic energy is $$1.20 \times 10^{-13}$$ J.**
+
+**(b) The kinetic energy is $$7.48 \times 10^{5}$$ eV or 748 keV.**
+
+**(c) The required voltage is $$3.74 \times 10^{5}$$ V or 374 kV.**
 
 </div>
 </div>
@@ -495,7 +616,47 @@ as that given these ions?
 
 </div>
 <div class="solution" markdown="1">
- $$ 1.00 \times 10^{5}  \text{K} $$
+**Strategy**
+
+This problem connects electrostatics with thermodynamics. When a singly charged ion is accelerated through a voltage, it gains kinetic energy $$\text{KE} = eV$$. For gas molecules in thermal equilibrium, the average kinetic energy is given by the equipartition theorem: $$\overline{\text{KE}} = \frac{3}{2}k_B T$$. We'll set these equal and solve for temperature.
+
+**Solution**
+
+*Known quantities:*
+- Accelerating voltage: $$V = 13.0 \text{ V}$$
+- Electron charge: $$e = 1.60 \times 10^{-19} \text{ C}$$
+- Boltzmann constant: $$k_B = 1.38 \times 10^{-23} \text{ J/K}$$
+
+*Unknown:* Temperature $$T$$
+
+The kinetic energy gained by the ion:
+
+$$\text{KE}_{\text{ion}} = eV = (1.60 \times 10^{-19} \text{ C})(13.0 \text{ V}) = 2.08 \times 10^{-18} \text{ J}$$
+
+The average kinetic energy of gas molecules at temperature $$T$$:
+
+$$\overline{\text{KE}}_{\text{gas}} = \frac{3}{2}k_B T$$
+
+Setting these equal:
+
+$$\frac{3}{2}k_B T = eV$$
+
+Solving for temperature:
+
+$$T = \frac{2eV}{3k_B}$$
+
+$$T = \frac{2(1.60 \times 10^{-19} \text{ C})(13.0 \text{ V})}{3(1.38 \times 10^{-23} \text{ J/K})}$$
+
+$$T = \frac{4.16 \times 10^{-18} \text{ J}}{4.14 \times 10^{-23} \text{ J/K}}$$
+
+$$T = 1.00 \times 10^{5} \text{ K}$$
+
+**Discussion**
+
+A temperature of 100,000 K is extremely hot—much hotter than the surface of the Sun (about 5,800 K). This illustrates how even modest voltages can impart significant kinetic energy to charged particles. At this temperature, all matter would exist as plasma (ionized gas). This connection between temperature and voltage is important in plasma physics and helps explain why particle accelerators are sometimes called "atom smashers"—they can impart energies equivalent to billions of degrees Kelvin to particles.
+
+**The temperature at which gas molecules have the same average kinetic energy is $$1.00 \times 10^{5}$$ K or 100,000 K.**
+
 </div>
 </div>
 
@@ -509,6 +670,43 @@ singly charged ion be accelerated to have the same energy as the average kinetic
 energy of ions at this temperature?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+This is the inverse of the previous problem. We know the temperature and need to find the equivalent voltage. We'll calculate the average kinetic energy at the Sun's core temperature using $$\overline{\text{KE}} = \frac{3}{2}k_B T$$, then find the voltage that would give a singly charged ion the same energy using $$\text{KE} = eV$$.
+
+**Solution**
+
+*Known quantities:*
+- Temperature: $$T = 1.5 \times 10^{7} \text{ °C} = 1.5 \times 10^{7} \text{ K}$$ (the difference between Celsius and Kelvin is negligible at this scale)
+- Boltzmann constant: $$k_B = 1.38 \times 10^{-23} \text{ J/K}$$
+- Electron charge: $$e = 1.60 \times 10^{-19} \text{ C}$$
+
+*Unknown:* Voltage $$V$$
+
+The average kinetic energy at temperature $$T$$:
+
+$$\overline{\text{KE}} = \frac{3}{2}k_B T$$
+
+$$\overline{\text{KE}} = \frac{3}{2}(1.38 \times 10^{-23} \text{ J/K})(1.5 \times 10^{7} \text{ K})$$
+
+$$\overline{\text{KE}} = 3.11 \times 10^{-16} \text{ J}$$
+
+For a singly charged ion to gain this energy:
+
+$$eV = \overline{\text{KE}}$$
+
+$$V = \frac{\overline{\text{KE}}}{e} = \frac{3.11 \times 10^{-16} \text{ J}}{1.60 \times 10^{-19} \text{ C}}$$
+
+$$V = 1.94 \times 10^{3} \text{ V} \approx 1.9 \text{ kV}$$
+
+**Discussion**
+
+Surprisingly, only about 2 kV is needed to accelerate ions to energies equivalent to the Sun's core temperature. This relatively modest voltage (easily achieved in laboratory settings) corresponds to 15 million degrees because the Boltzmann constant is so small. The Sun's core temperature is sufficient for hydrogen nuclei to overcome their mutual Coulomb repulsion and undergo nuclear fusion. The energy per particle (about 2 keV) is significant on the atomic scale but small compared to macroscopic energies. This explains why fusion requires such extreme conditions—you need many particles at these energies confined long enough for fusion reactions to occur.
+
+**The required voltage is approximately 1.9 kV or $$1.94 \times 10^{3}$$ V.**
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -516,13 +714,46 @@ energy of ions at this temperature?
 **Integrated Concepts**
 
 (a) What is the average power output of a heart defibrillator that dissipates
-400 J of energy in 10.0 ms? (b) Considering the high-power output, why doesn’t
+400 J of energy in 10.0 ms? (b) Considering the high-power output, why doesn't
 the defibrillator produce serious burns?
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$4 \times 10^{4}  \text{W} $$
-(b) A defibrillator does not cause serious burns because the skin conducts electricity well at high voltages, like those used in defibrillators. The gel used aids in the transfer of energy to the body, and the skin doesn’t absorb the energy, but rather lets it pass through to the heart.
+**Strategy**
+
+Power is the rate of energy transfer, defined as $$P = E/t$$. For part (a), we'll calculate the average power from the given energy and time. Part (b) requires understanding how electrical energy interacts with body tissue.
+
+**Solution**
+
+**(a) Average power output:**
+
+*Known quantities:*
+- Energy dissipated: $$E = 400 \text{ J}$$
+- Time interval: $$t = 10.0 \text{ ms} = 10.0 \times 10^{-3} \text{ s} = 0.0100 \text{ s}$$
+
+$$P = \frac{E}{t} = \frac{400 \text{ J}}{0.0100 \text{ s}} = 4.00 \times 10^{4} \text{ W} = 40.0 \text{ kW}$$
+
+**(b) Why no serious burns:**
+
+Despite the high power output (40 kW—comparable to about 400 household light bulbs), the defibrillator does not cause serious burns for several reasons:
+
+1. **Short duration:** The energy is delivered in only 10 ms, limiting the total heat deposited in any one location.
+
+2. **Conductive pathway:** At the high voltages used in defibrillators (typically 1,000–5,000 V), the skin's electrical resistance drops significantly. The current passes through the body to the heart rather than being absorbed primarily by the skin.
+
+3. **Conductive gel:** Electrode gel reduces contact resistance and spreads the current over a larger area, preventing "hot spots" that could cause burns.
+
+4. **Energy distribution:** The 400 J is distributed throughout the chest cavity, not concentrated at the skin surface.
+
+5. **Impedance matching:** Modern defibrillators measure chest impedance and adjust the waveform to deliver energy efficiently to the heart.
+
+**Discussion**
+
+The 40 kW power output is enormous but brief. By comparison, a lightning strike can deliver billions of watts, but it lasts only microseconds. The key factor for thermal burns is total energy deposited in a specific tissue, not instantaneous power. The defibrillator is designed to deliver most of its energy to the heart muscle (which needs the electrical stimulus to restore rhythm) rather than to the skin.
+
+**(a) The average power output is $$4.00 \times 10^{4}$$ W or 40.0 kW.**
+
+**(b) Burns are minimized because the pulse is very brief, conductive gel distributes current over a wide area, and high voltage reduces skin resistance so energy passes through to the heart rather than being absorbed at the surface.**
 
 </div>
 </div>
@@ -537,6 +768,64 @@ difference of $$ 1.00 \times 10^{2} \text{MV} $$ .
 \text{ºC} $$ to the boiling point and then boiled by this energy? (c) Discuss
 the damage that could be caused to the tree by the expansion of the boiling
 steam.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+This problem connects electrical energy to thermal energy and phase changes. For part (a), we use $$E = qV$$ to find the electrical energy. For part (b), we need to calculate both the energy to heat water from 15°C to 100°C and the energy to vaporize it, then find what mass can be processed with the available energy. Part (c) is conceptual.
+
+**Solution**
+
+**(a) Energy dissipated:**
+
+*Known quantities:*
+- Charge: $$q = 20.0 \text{ C}$$
+- Potential difference: $$V = 1.00 \times 10^{2} \text{ MV} = 1.00 \times 10^{8} \text{ V}$$
+
+$$E = qV = (20.0 \text{ C})(1.00 \times 10^{8} \text{ V}) = 2.00 \times 10^{9} \text{ J} = 2.00 \text{ GJ}$$
+
+**(b) Mass of water heated and boiled:**
+
+*Known quantities:*
+- Specific heat of water: $$c = 4186 \text{ J/(kg·°C)}$$
+- Heat of vaporization of water: $$L_v = 2.26 \times 10^{6} \text{ J/kg}$$
+- Temperature change: $$\Delta T = 100°\text{C} - 15°\text{C} = 85°\text{C}$$
+- Available energy: $$E = 2.00 \times 10^{9} \text{ J}$$
+
+The total energy required per kilogram of water:
+
+$$E_{\text{per kg}} = c \Delta T + L_v$$
+
+$$E_{\text{per kg}} = (4186 \text{ J/(kg·°C)})(85°\text{C}) + 2.26 \times 10^{6} \text{ J/kg}$$
+
+$$E_{\text{per kg}} = 3.56 \times 10^{5} \text{ J/kg} + 2.26 \times 10^{6} \text{ J/kg} = 2.62 \times 10^{6} \text{ J/kg}$$
+
+The mass of water that can be heated and boiled:
+
+$$m = \frac{E}{E_{\text{per kg}}} = \frac{2.00 \times 10^{9} \text{ J}}{2.62 \times 10^{6} \text{ J/kg}} = 764 \text{ kg}$$
+
+**(c) Damage from steam expansion:**
+
+When water vaporizes, it expands by a factor of approximately 1,700 at atmospheric pressure. The sudden vaporization of water inside a tree (in the sap, moisture in the wood, etc.) creates an explosive expansion of steam. This causes:
+
+- **Explosive fragmentation:** The rapid steam expansion can literally blow the tree apart from the inside out. Trees are often found splintered or with large sections of bark blown off after lightning strikes.
+
+- **Structural damage:** The pressure wave from the steam expansion creates fractures throughout the wood, weakening the tree's structural integrity.
+
+- **Stripping of bark:** The steam expanding under the bark can completely strip it from large sections of the trunk.
+
+- **Fire initiation:** The superheated steam and electrical heating can ignite the dried-out wood, causing fires.
+
+**Discussion**
+
+The 2 GJ of energy is equivalent to about 500 kg of TNT. This enormous energy, delivered in microseconds, causes catastrophic damage. The calculation shows that nearly 800 kg of water could be boiled—far more than the moisture content of a typical tree. This explains why lightning strikes are so devastating: the energy is more than sufficient to explosively vaporize all the water in the strike path, and the rapid expansion of this steam (by a factor of 1,700) acts like an explosion.
+
+**(a) The energy dissipated is $$2.00 \times 10^{9}$$ J or 2.00 GJ.**
+
+**(b) The mass of water that could be heated and boiled is 764 kg.**
+
+**(c) The rapid conversion of water to steam causes explosive expansion (volume increases ~1,700 times), which can blow the tree apart, strip bark, splinter wood, and initiate fires.**
 
 </div>
 </div>
@@ -554,8 +843,58 @@ heat of baby formula is about the same as the specific heat of water.)
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 7.40 \times 10^{3}  \text{C} $$
-(b)  $$ 1.54 \times 10^{20}  \text{electrons per second} $$
+**Strategy**
+
+This problem integrates thermodynamics with electrostatics. First, we calculate the total thermal energy needed to heat all three materials using $$Q_{\text{thermal}} = mc\Delta T$$ for each. Then, we use the relationship $$E = qV$$ to find the charge moved. For part (b), we find the current and convert to electrons per second.
+
+**Solution**
+
+**(a) Charge moved by the battery:**
+
+*Known quantities:*
+- Voltage: $$V = 12.0 \text{ V}$$
+- Mass of glass: $$m_g = 50.0 \text{ g} = 0.0500 \text{ kg}$$
+- Mass of formula: $$m_f = 250 \text{ g} = 0.250 \text{ kg}$$
+- Mass of aluminum: $$m_a = 200 \text{ g} = 0.200 \text{ kg}$$
+- Temperature change: $$\Delta T = 90.0°\text{C} - 20.0°\text{C} = 70.0°\text{C}$$
+- Specific heats: $$c_g = 840 \text{ J/(kg·°C)}$$, $$c_f = c_{\text{water}} = 4186 \text{ J/(kg·°C)}$$, $$c_a = 900 \text{ J/(kg·°C)}$$
+
+Calculate the heat required for each material:
+
+$$Q_g = m_g c_g \Delta T = (0.0500 \text{ kg})(840 \text{ J/(kg·°C)})(70.0°\text{C}) = 2940 \text{ J}$$
+
+$$Q_f = m_f c_f \Delta T = (0.250 \text{ kg})(4186 \text{ J/(kg·°C)})(70.0°\text{C}) = 73,255 \text{ J}$$
+
+$$Q_a = m_a c_a \Delta T = (0.200 \text{ kg})(900 \text{ J/(kg·°C)})(70.0°\text{C}) = 12,600 \text{ J}$$
+
+Total thermal energy:
+
+$$Q_{\text{total}} = Q_g + Q_f + Q_a = 2940 + 73,255 + 12,600 = 88,795 \text{ J}$$
+
+Using the energy-voltage relationship $$E = qV$$:
+
+$$q = \frac{E}{V} = \frac{88,795 \text{ J}}{12.0 \text{ V}} = 7.40 \times 10^{3} \text{ C}$$
+
+**(b) Electrons per second:**
+
+Time: $$t = 5.00 \text{ min} = 300 \text{ s}$$
+
+Current (charge per unit time):
+
+$$I = \frac{q}{t} = \frac{7.40 \times 10^{3} \text{ C}}{300 \text{ s}} = 24.7 \text{ A}$$
+
+Number of electrons per second:
+
+$$n = \frac{I}{e} = \frac{24.7 \text{ C/s}}{1.60 \times 10^{-19} \text{ C/electron}} = 1.54 \times 10^{20} \text{ electrons/s}$$
+
+**Discussion**
+
+The baby formula requires by far the most energy (about 82% of the total) because of water's high specific heat. The current of about 25 A is quite high for a 12 V battery—this would require a fairly large battery and would drain it relatively quickly. The enormous number of electrons flowing (about 154 quintillion per second) illustrates why we don't normally observe individual electrons in everyday electrical devices. This problem shows how electrical energy from a battery is efficiently converted to thermal energy for practical applications.
+
+**(a) The charge moved by the battery is $$7.40 \times 10^{3}$$ C.**
+
+**(b) The electron flow rate is $$1.54 \times 10^{20}$$ electrons per second.**
+
 </div>
 </div>
 
@@ -573,7 +912,59 @@ force for an hour.
 
 </div>
 <div class="solution" markdown="1">
- $$ 3.89 \times 10^{6}  \text{C} $$
+**Strategy**
+
+This problem requires calculating the total energy needed for three phases of the car's journey: (1) acceleration from rest, (2) climbing a hill, and (3) overcoming resistance forces while traveling at constant speed. We'll sum these energies and then use $$E = qV$$ to find the required charge.
+
+**Solution**
+
+*Known quantities:*
+- Voltage: $$V = 12.0 \text{ V}$$
+- Mass: $$m = 750 \text{ kg}$$
+- Final speed: $$v = 25.0 \text{ m/s}$$
+- Hill height: $$h = 200 \text{ m}$$
+- Force during constant velocity: $$F = 500 \text{ N}$$
+- Time at constant velocity: $$t = 1 \text{ hour} = 3600 \text{ s}$$
+- $$g = 9.80 \text{ m/s}^2$$
+
+**Phase 1: Acceleration from rest to 25.0 m/s**
+
+Energy needed equals the kinetic energy gained:
+
+$$E_1 = \frac{1}{2}mv^2 = \frac{1}{2}(750 \text{ kg})(25.0 \text{ m/s})^2 = 234,375 \text{ J}$$
+
+**Phase 2: Climbing 200 m hill**
+
+Energy needed equals the gravitational potential energy gained:
+
+$$E_2 = mgh = (750 \text{ kg})(9.80 \text{ m/s}^2)(200 \text{ m}) = 1,470,000 \text{ J}$$
+
+**Phase 3: Constant velocity travel**
+
+Distance traveled at constant speed:
+
+$$d = vt = (25.0 \text{ m/s})(3600 \text{ s}) = 90,000 \text{ m}$$
+
+Energy needed to overcome resistance force:
+
+$$E_3 = Fd = (500 \text{ N})(90,000 \text{ m}) = 45,000,000 \text{ J}$$
+
+**Total energy:**
+
+$$E_{\text{total}} = E_1 + E_2 + E_3 = 234,375 + 1,470,000 + 45,000,000$$
+
+$$E_{\text{total}} = 46,704,375 \text{ J} \approx 4.67 \times 10^{7} \text{ J}$$
+
+**Charge required:**
+
+$$q = \frac{E_{\text{total}}}{V} = \frac{4.67 \times 10^{7} \text{ J}}{12.0 \text{ V}} = 3.89 \times 10^{6} \text{ C}$$
+
+**Discussion**
+
+The vast majority of energy (about 96%) is used for Phase 3—overcoming resistance while traveling at constant speed for an hour. This makes sense because the car travels 90 km during this phase. The charge of nearly 4 million coulombs is enormous, representing a battery capacity of about 1,080 amp-hours (since $$q = It$$). Modern electric vehicles use higher voltage systems (300-800 V) specifically to reduce the current and charge requirements for a given energy. At 12 V, the average current would be about 1,080 A, which would require impractically large cables and batteries.
+
+**The charge the batteries must be able to move is $$3.89 \times 10^{6}$$ C.**
+
 </div>
 </div>
 
@@ -591,6 +982,57 @@ temperature will atoms of a gas have an average kinetic energy equal to this
 needed electrical potential energy?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+This problem connects nuclear physics with thermodynamics. For part (a), we'll use the point charge potential formula $$V = kq/r$$ to find the voltage due to one nucleus, then multiply by the charge of the other to get potential energy. For part (b), we'll equate this to the thermal kinetic energy $$\frac{3}{2}k_BT$$ and solve for temperature.
+
+**Solution**
+
+**(a) Potential energy of two nuclei:**
+
+*Known quantities:*
+- Separation: $$r = 1.00 \times 10^{-12} \text{ m}$$
+- Charge of each nucleus: $$q = e = 1.60 \times 10^{-19} \text{ C}$$
+- Coulomb constant: $$k = 8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2$$
+
+First, find the electric potential at distance $$r$$ from one nucleus:
+
+$$V = \frac{kq}{r} = \frac{(8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2)(1.60 \times 10^{-19} \text{ C})}{1.00 \times 10^{-12} \text{ m}}$$
+
+$$V = \frac{1.44 \times 10^{-9} \text{ J/C}}{1.00 \times 10^{-12}} = 1.44 \times 10^{3} \text{ V} = 1.44 \text{ kV}$$
+
+The potential energy is the voltage times the charge of the second nucleus:
+
+$$\text{PE} = qV = (1.60 \times 10^{-19} \text{ C})(1.44 \times 10^{3} \text{ V})$$
+
+$$\text{PE} = 2.30 \times 10^{-16} \text{ J}$$
+
+This can also be written as:
+
+$$\text{PE} = \frac{kq^2}{r} = \frac{(8.99 \times 10^{9})(1.60 \times 10^{-19})^2}{1.00 \times 10^{-12}} = 2.30 \times 10^{-16} \text{ J}$$
+
+Or in electron volts: $$\text{PE} = 1.44 \text{ keV}$$
+
+**(b) Temperature for equivalent kinetic energy:**
+
+Setting average thermal kinetic energy equal to the electrical potential energy:
+
+$$\frac{3}{2}k_B T = \text{PE}$$
+
+$$T = \frac{2 \cdot \text{PE}}{3k_B} = \frac{2(2.30 \times 10^{-16} \text{ J})}{3(1.38 \times 10^{-23} \text{ J/K})}$$
+
+$$T = \frac{4.60 \times 10^{-16} \text{ J}}{4.14 \times 10^{-23} \text{ J/K}} = 1.11 \times 10^{7} \text{ K}$$
+
+**Discussion**
+
+The calculated temperature of about 11 million K is similar to the temperature at the Sun's core (15 million K). This is not a coincidence—nuclear fusion in the Sun requires bringing hydrogen nuclei close enough together to fuse, which requires overcoming their Coulomb repulsion. The separation distance of 1 picometer ($$10^{-12}$$ m) is roughly the distance at which nuclear forces can take over from the repulsive Coulomb force. Note that quantum tunneling allows fusion to occur at temperatures somewhat lower than this classical estimate would suggest, which is why fusion occurs in the Sun despite these enormous energy barriers.
+
+**(a) The potential energy is $$2.30 \times 10^{-16}$$ J or 1.44 keV.**
+
+**(b) The temperature required is $$1.11 \times 10^{7}$$ K (about 11 million Kelvin).**
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -603,11 +1045,58 @@ Which assumptions are responsible?
 
 </div>
 <div class="solution"  markdown="1">
-(a)  $$ 1.44 \times 10^{12}  \text{V} $$
-(b) This voltage is very high. A 10.0 cm diameter sphere could never maintain this voltage; it would discharge.
+**Strategy**
 
-(c) An 8.00 C charge is more charge than can reasonably be accumulated on a
-sphere of that size.
+This is an "Unreasonable Results" problem, where we perform the calculation and then analyze why the result is physically impossible. We'll use the point charge potential formula (valid for the surface of a spherical conductor) to find the voltage, then evaluate its reasonableness.
+
+**Solution**
+
+**(a) Voltage calculation:**
+
+*Known quantities:*
+- Diameter: $$d = 10.0 \text{ cm}$$, so radius $$r = 5.00 \text{ cm} = 0.0500 \text{ m}$$
+- Charge: $$Q = 8.00 \text{ C}$$
+- Coulomb constant: $$k = 8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2$$
+
+The potential at the surface of a charged sphere (treating it as a point charge at the center):
+
+$$V = \frac{kQ}{r} = \frac{(8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2)(8.00 \text{ C})}{0.0500 \text{ m}}$$
+
+$$V = \frac{7.19 \times 10^{10} \text{ V·m}}{0.0500 \text{ m}} = 1.44 \times 10^{12} \text{ V}$$
+
+**(b) What is unreasonable:**
+
+This voltage of 1.44 trillion volts (1.44 TV) is absurdly high and physically impossible for several reasons:
+
+1. **Air breakdown:** Air breaks down and becomes conductive at about $$3 \times 10^{6}$$ V/m. The electric field at the surface of this sphere would be $$E = V/r = 2.88 \times 10^{13}$$ V/m, which is about 10 million times the breakdown strength of air. The sphere would discharge immediately through spark discharge.
+
+2. **Comparison to real systems:** The highest voltages achieved in laboratory settings are around 10–25 MV (megavolts), using specialized Van de Graaff generators. This calculated voltage is about 100,000 times higher.
+
+3. **Energy considerations:** The energy stored would be $$E = \frac{1}{2}QV = 5.8 \times 10^{12}$$ J, equivalent to about 1.4 kilotons of TNT—a small nuclear weapon.
+
+**(c) Which assumptions are responsible:**
+
+The unreasonable assumption is the charge value of 8.00 C. One coulomb is an enormous amount of charge. Consider:
+
+- Static electricity typically involves nanocoulombs ($$10^{-9}$$ C)
+- Lightning involves tens of coulombs, but only briefly
+- A large Van de Graaff generator might hold a few microcoulombs
+
+The maximum charge that can be placed on a sphere is limited by the breakdown field of the surrounding medium. For a 10 cm diameter sphere in air:
+
+$$Q_{\text{max}} = \frac{E_{\text{breakdown}} \cdot r^2}{k} = \frac{(3 \times 10^6)(0.05)^2}{8.99 \times 10^9} \approx 8 \times 10^{-7} \text{ C}$$
+
+This is about 10 million times less than the assumed 8.00 C.
+
+**Discussion**
+
+This problem illustrates the importance of checking whether calculated results are physically reasonable. The enormous value should immediately signal that something is wrong with the given parameters. "Unreasonable Results" problems help develop critical thinking skills—real-world physics must satisfy physical constraints like breakdown limits and energy considerations.
+
+**(a) The voltage is $$1.44 \times 10^{12}$$ V (1.44 trillion volts).**
+
+**(b) This voltage is unreasonably high—it would cause immediate discharge through the air, exceeding air's breakdown strength by a factor of 10 million.**
+
+**(c) The assumption that 8.00 C of charge can be placed on a small sphere is responsible. This is far more charge than can realistically be accumulated; the maximum would be about $$10^{-6}$$ C.**
 
 </div>
 </div>
@@ -620,8 +1109,53 @@ Consider a battery used to supply energy to a cellular phone. Construct a
 problem in which you determine the energy that must be supplied by the battery,
 and then calculate the amount of charge it must be able to move in order to
 supply this energy. Among the things to be considered are the energy needs and
-battery voltage. You may need to look ahead to interpret manufacturer’s battery
+battery voltage. You may need to look ahead to interpret manufacturer's battery
 ratings in ampere-hours as energy in joules.
+
+</div>
+<div class="solution" markdown="1">
+**Guidance for Constructing Your Problem**
+
+This is an open-ended problem designed to help you practice applying the concepts of electric potential energy and voltage to a real-world situation. Here's a framework to guide your approach:
+
+**Step 1: Research Typical Values**
+- Smartphone battery voltages are typically 3.7 V (lithium-ion nominal voltage)
+- Battery capacities range from about 2000 mAh to 5000 mAh for modern smartphones
+- Typical smartphone power consumption is 1–3 W during active use
+
+**Step 2: Formulate Your Problem**
+
+*Example problem:* A smartphone has a 3.7 V lithium-ion battery rated at 3000 mAh.
+(a) How much energy can this battery deliver?
+(b) How much charge does this represent?
+(c) If the phone consumes an average of 2.0 W, how long will the battery last?
+
+**Step 3: Apply Relevant Equations**
+
+Key relationships to use:
+- $$E = qV$$ (energy = charge × voltage)
+- Battery capacity in amp-hours: $$q = I \times t$$, so 1 Ah = 3600 C
+- Power: $$P = E/t = IV$$
+
+**Step 4: Sample Solution**
+
+For the example problem above:
+
+(a) Energy: Convert 3000 mAh to coulombs:
+$$q = 3000 \text{ mAh} = 3.0 \text{ Ah} = 3.0 \times 3600 \text{ C} = 10,800 \text{ C}$$
+
+$$E = qV = (10,800 \text{ C})(3.7 \text{ V}) = 39,960 \text{ J} \approx 40 \text{ kJ}$$
+
+Alternatively: $$E = (3.7 \text{ V})(3.0 \text{ Ah}) = 11.1 \text{ Wh} = 11.1 \times 3600 \text{ J} = 40 \text{ kJ}$$
+
+(b) Charge: 10,800 C (as calculated above)
+
+(c) Battery life: $$t = E/P = 39,960 \text{ J} / 2.0 \text{ W} = 20,000 \text{ s} = 5.5 \text{ hours}$$
+
+**Discussion Points to Consider:**
+- How does this compare to your own phone's battery life?
+- What happens to the energy—where does it go?
+- Why do manufacturers rate batteries in amp-hours rather than joules?
 
 </div>
 </div>
