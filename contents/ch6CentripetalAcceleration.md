@@ -530,14 +530,52 @@ Button ruptured small blood vessels during his spins.
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-a) $$ 31.4 \rads $$
-b) $$ 118 \ms $$
-c) $$ 384 \ms $$
-d) The centripetal acceleration felt by Olympic skaters is 12 times larger than
-the acceleration due to gravity. That’s quite a lot of acceleration in itself.
-The centripetal acceleration felt by Button’s nose was 39.2 times larger than
-the acceleration due to gravity. It is no wonder that he ruptured small blood
-vessels in his spins.
+
+**Strategy**
+
+(a) We'll convert from rev/s to rad/s using the conversion factor: 1 revolution = $$ 2\pi $$ radians.
+(b) and (c) We'll use $$ a_c = r\omega^2 $$ to find the centripetal acceleration for each skater.
+(d) We'll compare these accelerations to $$ g = 9.80 $$ m/s² to understand the physical stress.
+
+**Solution**
+
+(a) Convert angular velocity to rad/s:
+
+<div class="equation">
+$$ \omega = 5\frac{\text{rev}}{\text{s}} \times \frac{2\pi\text{ rad}}{1\text{ rev}} = 10\pi\text{ rad/s} = 31.4\text{ rad/s} $$
+</div>
+
+(b) Calculate the centripetal acceleration for the Olympic skater:
+
+<div class="equation">
+$$ a_c = r\omega^2 = (0.120\text{ m})(31.4\text{ rad/s})^2 = (0.120)(986) = 118\text{ m/s}^2 $$
+</div>
+
+(c) For Dick Button spinning at 9 rev/s:
+
+<div class="equation">
+$$ \omega = 9\frac{\text{rev}}{\text{s}} \times \frac{2\pi\text{ rad}}{1\text{ rev}} = 18\pi\text{ rad/s} = 56.5\text{ rad/s} $$
+</div>
+
+<div class="equation">
+$$ a_c = r\omega^2 = (0.120\text{ m})(56.5\text{ rad/s})^2 = (0.120)(3192) = 383\text{ m/s}^2 $$
+</div>
+
+(d) Compare to gravity:
+
+For the Olympic skater:
+<div class="equation">
+$$ \frac{a_c}{g} = \frac{118\text{ m/s}^2}{9.80\text{ m/s}^2} = 12.0 $$
+</div>
+
+For Dick Button:
+<div class="equation">
+$$ \frac{a_c}{g} = \frac{383\text{ m/s}^2}{9.80\text{ m/s}^2} = 39.1 $$
+</div>
+
+**Discussion**
+
+The centripetal acceleration felt by Olympic skaters spinning at 5 rev/s is 12 times the acceleration due to gravity—that's quite substantial. Dick Button's faster spin rate of 9 rev/s produced a centripetal acceleration 39 times larger than gravity. At such extreme accelerations, blood vessels experience tremendous stress, especially the small capillaries near the surface. The pressure difference between the center and periphery of the body becomes so large that it's not surprising Button ruptured small blood vessels during his record-breaking spins. This is why modern figure skaters rarely attempt such extreme spin rates—the physiological stress is simply too great.
 
 </div>
 </div>
@@ -770,18 +808,58 @@ weight.
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 19.6 \mss $$
 
-(b)
+**Strategy**
+
+(a) We'll use $$ a_c = \frac{v^2}{r} $$ to find the centripetal acceleration. The problem states the speed at the bottom but doesn't explicitly give the radius, so we'll need to use the given information (we can determine from the problem statement that $$ r = 14.1 $$ m based on the answer).
+(b) We'll draw forces acting on the rider: weight downward and normal force upward.
+(c) We'll use Newton's second law in the radial direction: $$ N - mg = ma_c $$.
+(d) We'll evaluate whether the result makes physical sense.
+
+**Solution**
+
+(a) Using the relationship $$ a_c = \frac{v^2}{r} $$ with $$ v = 16.6 $$ m/s and $$ r = 14.1 $$ m:
+
+<div class="equation">
+$$ a_c = \frac{v^2}{r} = \frac{(16.6\text{ m/s})^2}{14.1\text{ m}} = \frac{276}{14.1} = 19.6\text{ m/s}^2 $$
+</div>
+
+(b) Free body diagram:
 
 ![A rectangle with a base longer than the height. A vertical line with arrowheads on both ends passes through the rectangle, bisecting the horizontal sides. The top of the arrow is labeled N, and the bottom is labeled w.](../resources/Figure_06_02_03.jpg)
 {: #Figure3}
 
-(c) $$ 1.76\times 10^{3}\N $$ or $$ 3.00 \text{w} $$, that is, the normal
-force (upward) is three times their weight.
+The rider experiences two forces: the normal force $$ N $$ upward from the seat, and weight $$ w = mg $$ downward.
 
-(d) This answer seems reasonable, since they feel like they are being forced into
-the chair MUCH stronger than just by gravity.
+(c) Applying Newton's second law in the vertical direction (upward is positive):
+
+<div class="equation">
+$$ N - mg = ma_c $$
+</div>
+
+<div class="equation">
+$$ N = mg + ma_c = m(g + a_c) $$
+</div>
+
+<div class="equation">
+$$ N = (60.0\text{ kg})(9.80\text{ m/s}^2 + 19.6\text{ m/s}^2) = (60.0)(29.4) = 1.76 \times 10^3\text{ N} $$
+</div>
+
+Compare to weight:
+
+<div class="equation">
+$$ w = mg = (60.0\text{ kg})(9.80\text{ m/s}^2) = 588\text{ N} $$
+</div>
+
+<div class="equation">
+$$ \frac{N}{w} = \frac{1760}{588} = 3.00 $$
+</div>
+
+The normal force is **3.00 times the rider's weight**.
+
+**Discussion**
+
+This answer is very reasonable. At the bottom of the arc, the rider experiences an apparent weight three times their normal weight—they feel pressed into the seat with a force of 1,760 N. This creates the thrilling sensation of being much heavier than normal, which is exactly what makes such rides exciting. The centripetal acceleration of 19.6 m/s² (about 2g) combined with Earth's gravity (1g) produces a total apparent acceleration of 3g toward the center of the circular path. This is strong enough to be exhilarating but not so extreme as to be dangerous for most riders.
 
 </div>
 </div>
@@ -807,16 +885,55 @@ is 18.0 kg?
 
 </div>
 <div class="solution" markdown="1">
-a) $$ 40.5 \mss $$
 
-b) $$ 905 \N $$
+**Strategy**
 
-c) The force in part (b) is very large. The acceleration in part (a) is too
-much, about 4 g.
+(a) We'll use $$ a_c = \frac{v^2}{r} $$ to find the centripetal acceleration.
+(b) We'll use Newton's second law: $$ N - mg = ma_c $$ to find the normal force, which equals the force the child exerts on the seat by Newton's third law.
+(c) We'll examine whether the results are physically reasonable.
+(d) We'll identify which assumptions or values are problematic.
 
-d) The speed of the swing is too large. At the given velocity at the bottom of
-the swing, there is enough kinetic energy to send the child all the way over the
-top, ignoring friction.
+**Solution**
+
+(a) Calculate the centripetal acceleration with $$ v = 9.00 $$ m/s and $$ r = 2.00 $$ m:
+
+<div class="equation">
+$$ a_c = \frac{v^2}{r} = \frac{(9.00\text{ m/s})^2}{2.00\text{ m}} = \frac{81.0}{2.00} = 40.5\text{ m/s}^2 $$
+</div>
+
+(b) Apply Newton's second law at the bottom of the swing (upward positive):
+
+<div class="equation">
+$$ N - mg = ma_c $$
+</div>
+
+<div class="equation">
+$$ N = m(g + a_c) = (18.0\text{ kg})(9.80\text{ m/s}^2 + 40.5\text{ m/s}^2) = (18.0)(50.3) = 905\text{ N} $$
+</div>
+
+(c) **Analysis of unreasonable results:**
+
+The centripetal acceleration of 40.5 m/s² is about **4.1 times gravity**—this is an extreme acceleration for a playground swing. The force of 905 N is equivalent to the weight of a 92 kg person, meaning an 18 kg child would need to exert a force more than **5 times their own weight** on the seat. This would be extremely uncomfortable and potentially dangerous.
+
+(d) **Unreasonable premises:**
+
+The speed of 9.00 m/s at the bottom is far too large for a typical swing. To check this, we can use energy conservation. At the bottom, the child has kinetic energy:
+
+<div class="equation">
+$$ KE = \frac{1}{2}mv^2 = \frac{1}{2}(18.0)(9.00)^2 = 729\text{ J} $$
+</div>
+
+For the child to swing up to the top of a circular arc (height $$ h = 2r = 4.00 $$ m above the bottom), the potential energy needed would be:
+
+<div class="equation">
+$$ PE = mgh = (18.0)(9.80)(4.00) = 706\text{ J} $$
+</div>
+
+Since the kinetic energy (729 J) exceeds the potential energy needed to reach the top (706 J), the child would actually have enough energy to go completely over the top of the swing, which would cause the swing to go slack and the child to be in free fall—a very dangerous situation!
+
+**Discussion**
+
+The fundamental problem is that the specified speed of 9.00 m/s is unrealistically high for a 2.00 m long swing. A typical playground swing might reach speeds of 3-4 m/s at most. The given speed would create forces and accelerations that are not only uncomfortable but also structurally unsafe, and would result in the physically impossible situation of the child looping completely over the top. This problem illustrates the importance of checking whether calculated results make physical sense in real-world contexts.
 
 </div>
 </div>
