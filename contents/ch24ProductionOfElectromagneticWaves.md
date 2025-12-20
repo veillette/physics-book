@@ -305,11 +305,53 @@ Can an antenna be any length? Explain your answer.
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 What is the maximum electric field strength in an electromagnetic wave that has a maximum magnetic field strength of  $$ 5.00 \times 10^{-4}  \text{T} $$
- (about 10 times the Earth’s)?
+ (about 10 times the Earth's)?
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-150 kV/m
+<div class="title">
+Strategy
+</div>
+To find the maximum electric field strength, we can use the fundamental relationship between electric and magnetic field strengths in an electromagnetic wave: $$\frac{E}{B}=c$$. Rearranging this equation to solve for $$E$$ gives $$E=Bc$$. We are given the maximum magnetic field strength $$B$$ and can use the speed of light $$c=3.00 \times 10^{8} \text{ m/s}$$ to calculate the corresponding maximum electric field strength.
+
+<div class="title">
+Solution
+</div>
+Given:
+
+<div class="equation">
+ $$B=5.00 \times 10^{-4} \text{ T}$$
+</div>
+
+<div class="equation">
+ $$c=3.00 \times 10^{8} \text{ m/s}$$
+</div>
+
+Using the relationship $$E=Bc$$:
+
+<div class="equation">
+ $$E=\left(5.00 \times 10^{-4} \text{ T}\right)\left(3.00 \times 10^{8} \text{ m/s}\right)$$
+</div>
+
+<div class="equation">
+ $$E=1.50 \times 10^{5} \text{ V/m}$$
+</div>
+
+Converting to kilovolts per meter:
+
+<div class="equation">
+ $$E=150 \text{ kV/m}$$
+</div>
+
+<div class="title">
+Discussion
+</div>
+This electric field strength of 150 kV/m is quite substantial—about 15 times stronger than the breakdown threshold for air under normal conditions (approximately 10 kV/m). While a magnetic field of $$5.00 \times 10^{-4} \text{ T}$$ (ten times Earth's field) seems relatively modest, it corresponds to a very strong electric field when they oscillate together in an electromagnetic wave. This demonstrates an important characteristic of electromagnetic waves: even when the magnetic field component appears relatively weak compared to everyday magnetic fields, the associated electric field can be extremely powerful due to the large value of $$c$$ in the relationship $$E=Bc$$. Such strong electromagnetic waves might be found near powerful radio transmitters or in natural phenomena like lightning-generated electromagnetic pulses.
+
+<div class="title">
+Final Answer
+</div>
+The maximum electric field strength in an electromagnetic wave with a maximum magnetic field strength of $$5.00 \times 10^{-4} \text{ T}$$ is $$1.50 \times 10^{5} \text{ V/m}$$ or $$150 \text{ kV/m}$$.
 
 </div>
 </div>
@@ -320,13 +362,132 @@ The maximum magnetic field strength of an electromagnetic field is  $$5 \times 1
  Calculate the maximum electric field strength if the wave is traveling in a medium in which the speed of the wave is  $$0.75c $$.
 
 </div>
+<div class="solution" markdown="1">
+<div class="title">
+Strategy
+</div>
+The relationship $$\frac{E}{B}=c$$ applies to electromagnetic waves in a vacuum. When an electromagnetic wave travels through a medium, the speed changes from $$c$$ to $$v$$, where $$v$$ is the speed of light in that medium. The relationship between electric and magnetic field strengths becomes $$\frac{E}{B}=v$$. In this problem, $$v=0.75c$$, so we can use $$E=Bv=B(0.75c)$$ to find the maximum electric field strength.
+
+<div class="title">
+Solution
+</div>
+Given:
+
+<div class="equation">
+ $$B=5 \times 10^{-6} \text{ T}$$
+</div>
+
+<div class="equation">
+ $$v=0.75c=0.75\left(3.00 \times 10^{8} \text{ m/s}\right)=2.25 \times 10^{8} \text{ m/s}$$
+</div>
+
+Using the relationship $$E=Bv$$:
+
+<div class="equation">
+ $$E=\left(5 \times 10^{-6} \text{ T}\right)\left(2.25 \times 10^{8} \text{ m/s}\right)$$
+</div>
+
+<div class="equation">
+ $$E=1.125 \times 10^{3} \text{ V/m}$$
+</div>
+
+<div class="equation">
+ $$E=1.1 \times 10^{3} \text{ V/m}$$
+</div>
+
+or
+
+<div class="equation">
+ $$E=1.1 \text{ kV/m}$$
+</div>
+
+<div class="title">
+Discussion
+</div>
+The electric field strength in this medium is reduced compared to what it would be in a vacuum with the same magnetic field strength. In a vacuum, a magnetic field of $$5 \times 10^{-6} \text{ T}$$ would correspond to an electric field of $$E=Bc=1.5 \times 10^{3} \text{ V/m}$$, but in this medium with $$v=0.75c$$, the electric field is only $$1.1 \times 10^{3} \text{ V/m}$$. This reduction is consistent with the fact that electromagnetic waves slow down when entering a denser medium—the ratio $$E/B$$ equals the propagation speed of the wave, whether in vacuum or in a material medium. The refractive index of this medium would be $$n=c/v=1/0.75 \approx 1.33$$, similar to that of water. This illustrates how the properties of electromagnetic waves adapt to the medium through which they propagate.
+
+<div class="title">
+Final Answer
+</div>
+The maximum electric field strength in the medium where the wave travels at $$0.75c$$ is $$1.1 \times 10^{3} \text{ V/m}$$ or $$1.1 \text{ kV/m}$$.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" data-element-type="problem-exercises" markdown="1">
 Verify the units obtained for magnetic field strength  $$B $$
- in [[Example 1]](#Example1) (using the equation  $$B=\frac{E}{c} $$ ) 
+ in [[Example 1]](#Example1) (using the equation  $$B=\frac{E}{c} $$ )
 are in fact teslas (T).
+
+</div>
+<div class="solution" markdown="1">
+<div class="title">
+Strategy
+</div>
+To verify that the equation $$B=\frac{E}{c}$$ yields units of tesla (T), we need to substitute the SI units for electric field strength $$E$$ (volts per meter, V/m) and the speed of light $$c$$ (meters per second, m/s) into the equation and perform dimensional analysis. We'll then express the resulting units in terms of fundamental SI units and show that they are equivalent to the tesla, which is the SI unit for magnetic field strength.
+
+<div class="title">
+Solution
+</div>
+The SI unit for electric field strength $$E$$ is:
+
+<div class="equation">
+ $$\frac{\text{V}}{\text{m}}$$
+</div>
+
+The SI unit for the speed of light $$c$$ is:
+
+<div class="equation">
+ $$\frac{\text{m}}{\text{s}}$$
+</div>
+
+Substituting these into $$B=\frac{E}{c}$$:
+
+<div class="equation">
+ $$\text{Units of }B=\frac{\text{V/m}}{\text{m/s}}=\frac{\text{V}}{\text{m}}\cdot \frac{\text{s}}{\text{m}}=\frac{\text{V}\cdot \text{s}}{{\text{m}}^{2}}$$
+</div>
+
+Now we need to express volts in terms of fundamental units. Recall that:
+- Volt: $$\text{V}=\frac{\text{J}}{\text{C}}$$ (joule per coulomb)
+- Joule: $$\text{J}=\text{N}\cdot \text{m}$$ (newton-meter)
+- Newton: $$\text{N}=\frac{\text{kg}\cdot \text{m}}{{\text{s}}^{2}}$$
+
+Substituting:
+
+<div class="equation">
+ $$\text{V}=\frac{\text{J}}{\text{C}}=\frac{\text{N}\cdot \text{m}}{\text{C}}=\frac{\text{kg}\cdot \text{m}}{{\text{s}}^{2}}\cdot \frac{\text{m}}{\text{C}}=\frac{\text{kg}\cdot {\text{m}}^{2}}{\text{C}\cdot {\text{s}}^{2}}$$
+</div>
+
+Now substituting this expression for volts into our units for $$B$$:
+
+<div class="equation">
+ $$\text{Units of }B=\frac{\text{V}\cdot \text{s}}{{\text{m}}^{2}}=\frac{\text{kg}\cdot {\text{m}}^{2}}{\text{C}\cdot {\text{s}}^{2}}\cdot \frac{\text{s}}{{\text{m}}^{2}}=\frac{\text{kg}}{\text{C}\cdot \text{s}}$$
+</div>
+
+Since coulomb equals ampere-second ($$\text{C}=\text{A}\cdot \text{s}$$), we have:
+
+<div class="equation">
+ $$\text{Units of }B=\frac{\text{kg}}{\text{C}\cdot \text{s}}=\frac{\text{kg}}{\text{A}\cdot \text{s}\cdot \text{s}}=\frac{\text{kg}}{\text{A}\cdot {\text{s}}^{2}}$$
+</div>
+
+This is exactly the definition of the tesla:
+
+<div class="equation">
+ $$\text{T}=\frac{\text{kg}}{\text{A}\cdot {\text{s}}^{2}}$$
+</div>
+
+Therefore, the units obtained for $$B$$ using the equation $$B=\frac{E}{c}$$ are indeed teslas (T).
+
+<div class="title">
+Discussion
+</div>
+This dimensional analysis confirms that the equation $$B=\frac{E}{c}$$ is dimensionally consistent and correctly produces magnetic field strength in teslas when electric field strength (in V/m) is divided by the speed of light (in m/s). The verification is more than just a mathematical exercise—it demonstrates the deep physical connection between electric and magnetic fields in electromagnetic waves. The fact that dividing an electric field by a velocity yields a magnetic field reflects the relativistic nature of electromagnetism: electric and magnetic fields are actually different aspects of the same electromagnetic field, related by the relative motion (characterized by $$c$$) between the observer and the source. This relationship is a direct consequence of Maxwell's equations and special relativity.
+
+<div class="title">
+Final Answer
+</div>
+The units obtained for magnetic field strength $$B$$ using the equation $$B=\frac{E}{c}$$ are $$\frac{\text{kg}}{\text{A}\cdot {\text{s}}^{2}}$$, which is the definition of the tesla (T), confirming that the equation yields the correct SI unit for magnetic field strength.
 
 </div>
 </div>
