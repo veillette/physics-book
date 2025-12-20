@@ -135,6 +135,34 @@ How much energy must the shock absorbers of a 1200-kg car dissipate in order to 
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+The car is bouncing at the equilibrium position with an initial velocity of 0.800 m/s. All the energy at this point is kinetic energy. To damp the bounce completely, the shock absorbers must dissipate all this kinetic energy.
+
+**Solution**
+
+The kinetic energy of the car at equilibrium is:
+
+<div class="equation">
+ $$\text{KE} = \frac{1}{2}mv^2$$
+</div>
+
+Substituting the given values:
+
+<div class="equation">
+ $$E = \frac{1}{2}(1200)(0.800)^2 = \frac{1}{2}(1200)(0.640)$$
+</div>
+
+<div class="equation">
+ $$E = 384 \text{ J}$$
+</div>
+
+**Discussion**
+
+The shock absorbers must dissipate 384 J of energy to completely damp the bounce. This energy is converted to thermal energy through the viscous damping mechanism in the shock absorbers, typically involving oil forced through small orifices. The energy calculation is straightforward because at the equilibrium position, all the oscillation energy is in the form of kinetic energy (none is stored as potential energy). Good shock absorbers dissipate this energy quickly, preventing the car from continuing to bounce after hitting a bump. The relatively large mass of the car (1200 kg) combined with even a modest velocity (0.800 m/s) results in a significant amount of energy that must be absorbed.
+
+**Answer**
+
 384 J
 
 </div>
@@ -143,7 +171,33 @@ How much energy must the shock absorbers of a 1200-kg car dissipate in order to 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 If a car has a suspension system with a force constant of  $$ 5.00 \times 10^{4}  \text{N/m} $$ ,
- how much energy must the car’s shocks remove to dampen an oscillation starting with a maximum displacement of 0.0750 m?
+ how much energy must the car's shocks remove to dampen an oscillation starting with a maximum displacement of 0.0750 m?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The oscillation starts with maximum displacement, so all the energy is initially stored as elastic potential energy in the suspension. To dampen the oscillation completely (bring it to rest), the shocks must remove all this energy. We use $$\text{PE}_{\text{el}} = \frac{1}{2}kx^2$$.
+
+**Solution**
+
+The initial energy stored in the suspension is:
+
+<div class="equation">
+ $$E = \frac{1}{2}kx^2 = \frac{1}{2}(5.00 \times 10^4)(0.0750)^2$$
+</div>
+
+<div class="equation">
+ $$E = \frac{1}{2}(5.00 \times 10^4)(5.625 \times 10^{-3}) = 141 \text{ J}$$
+</div>
+
+**Discussion**
+
+The shocks must remove 141 J of energy to completely dampen the oscillation. Without shock absorbers, this energy would cause the car to bounce up and down repeatedly. Good shock absorbers dissipate this energy as heat through viscous damping (oil flowing through small orifices), bringing the car quickly back to equilibrium after hitting a bump. The relatively large energy (141 J) for a modest displacement (7.5 cm) reflects the stiff suspension needed to support a car's weight.
+
+**Answer**
+
+141 J
 
 </div>
 </div>
@@ -171,6 +225,62 @@ Suppose you have a 0.750-kg object on a horizontal surface connected to a spring
  what total distance does it travel before stopping? Assume it starts at the maximum amplitude.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For part (a), the maximum stretch occurs when the spring force equals the maximum static friction force. For part (b), we use energy conservation: the initial elastic potential energy equals the work done by kinetic friction over the total distance traveled.
+
+**Solution**
+
+(a) At the maximum stretch without moving, the spring force equals the static friction force:
+
+<div class="equation">
+ $$kx = \mu_s mg$$
+</div>
+
+<div class="equation">
+ $$x = \frac{\mu_s mg}{k} = \frac{(0.100)(0.750)(9.80)}{150} = \frac{0.735}{150} = 0.00490 \text{ m} = 4.90 \text{ mm}$$
+</div>
+
+(b) The initial amplitude is $$X = 2x = 2(0.00490) = 0.00980 \text{ m}$$
+
+Initial elastic potential energy:
+
+<div class="equation">
+ $$E_i = \frac{1}{2}kX^2 = \frac{1}{2}(150)(0.00980)^2 = 7.20 \times 10^{-3} \text{ J}$$
+</div>
+
+Work done by kinetic friction over total distance $$d$$:
+
+<div class="equation">
+ $$W_f = \mu_k mg \cdot d$$
+</div>
+
+Setting the initial energy equal to the work done by friction:
+
+<div class="equation">
+ $$\frac{1}{2}kX^2 = \mu_k mg \cdot d$$
+</div>
+
+<div class="equation">
+ $$d = \frac{kX^2}{2\mu_k mg} = \frac{(150)(0.00980)^2}{2(0.0850)(0.750)(9.80)}$$
+</div>
+
+<div class="equation">
+ $$d = \frac{0.0144}{1.249} = 0.0115 \text{ m} = 11.5 \text{ mm}$$
+</div>
+
+**Discussion**
+
+In part (a), the spring can only stretch about 5 mm before overcoming static friction—a very small distance. In part (b), with initial amplitude of 9.8 mm, the object travels a total distance of 11.5 mm before friction brings it to rest. This is only slightly more than one complete oscillation because kinetic friction continuously removes energy. The object doesn't oscillate many times like an undamped system would; instead, it quickly comes to rest due to the significant frictional damping.
+
+**Answer**
+
+(a) 4.90 mm or 0.00490 m
+
+(b) 11.5 mm or 0.0115 m
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -181,8 +291,53 @@ Engineering Application: A suspension bridge oscillates with an effective force 
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 5.00 \times 10^{5}  \text{J} $$
-(b)  $$1.20 \times 10^{3} $$  s
+**Strategy**
+
+For part (a), the energy in a harmonic oscillator at maximum displacement is purely elastic potential energy: $$E = \frac{1}{2}kx^2$$. For part (b), we first calculate the energy needed to increase amplitude from 0.100 m to 0.500 m, then divide by the power input to find the time required.
+
+**Solution**
+
+(a) Energy needed for 0.100 m amplitude:
+
+<div class="equation">
+ $$E_1 = \frac{1}{2}kx_1^2 = \frac{1}{2}(1.00 \times 10^8)(0.100)^2$$
+</div>
+
+<div class="equation">
+ $$E_1 = \frac{1}{2}(1.00 \times 10^8)(0.0100) = 5.00 \times 10^5 \text{ J}$$
+</div>
+
+(b) Energy at 0.500 m amplitude:
+
+<div class="equation">
+ $$E_2 = \frac{1}{2}kx_2^2 = \frac{1}{2}(1.00 \times 10^8)(0.500)^2$$
+</div>
+
+<div class="equation">
+ $$E_2 = \frac{1}{2}(1.00 \times 10^8)(0.250) = 1.25 \times 10^7 \text{ J}$$
+</div>
+
+Additional energy needed:
+
+<div class="equation">
+ $$\Delta E = E_2 - E_1 = 1.25 \times 10^7 - 5.00 \times 10^5 = 1.20 \times 10^7 \text{ J}$$
+</div>
+
+Time to add this energy at a rate of $$1.00 \times 10^4$$ J/s:
+
+<div class="equation">
+ $$t = \frac{\Delta E}{P} = \frac{1.20 \times 10^7}{1.00 \times 10^4} = 1.20 \times 10^3 \text{ s}$$
+</div>
+
+**Discussion**
+
+Part (a) shows that even a 10 cm oscillation of a massive bridge requires 500,000 J of energy due to the enormous force constant ($$10^8$$ N/m). In part (b), the soldiers marching at the bridge's natural frequency cause resonance, allowing energy to accumulate efficiently. The time of 1200 seconds (20 minutes) is relatively short considering the enormous energy involved (12 million joules). This demonstrates the danger of resonance: sustained forcing at the natural frequency can build up large-amplitude oscillations that may exceed the structure's design limits. This is why soldiers are instructed to break step when crossing bridges—to avoid inadvertently matching the bridge's natural frequency and triggering resonance. The Tacoma Narrows Bridge collapse mentioned in the chapter is a dramatic example of this phenomenon.
+
+**Answer**
+
+(a) $$5.00 \times 10^5$$ J
+
+(b) $$1.20 \times 10^3$$ s
 
 </div>
 </div>

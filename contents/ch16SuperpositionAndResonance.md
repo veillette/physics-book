@@ -303,7 +303,30 @@ A car has two horns, one emitting a frequency of 199 Hz and the other emitting a
 
 </div>
 <div class="solution" markdown="1">
- $$f=4 \text{Hz} $$
+**Strategy**
+
+The beat frequency is the absolute value of the difference between the two frequencies. We can use the formula $${f}_{\text{B}}=\mid {f}_{1}-{f}_{2}\mid $$ where $${f}_{1}=199 \text{ Hz} $$ and $${f}_{2}=203 \text{ Hz} $$.
+
+**Solution**
+
+Apply the beat frequency formula:
+
+<div class="equation">
+ $${f}_{\text{B}}=\mid {f}_{1}-{f}_{2}\mid =\mid 199 \text{ Hz}-203 \text{ Hz}\mid $$
+</div>
+
+<div class="equation">
+ $${f}_{\text{B}}=\mid -4 \text{ Hz}\mid =4 \text{ Hz} $$
+</div>
+
+**Discussion**
+
+A beat frequency of 4 Hz means that the combined sound from the two horns will get louder and softer 4 times per second. This is a noticeable warbling effect that would be easily heard. The relatively small beat frequency makes sense because the two horn frequencies (199 Hz and 203 Hz) are quite close to each other. This type of interference pattern is common when two sound sources with slightly different frequencies operate simultaneously.
+
+**Answer**
+
+$$f=4 \text{ Hz} $$
+
 </div>
 </div>
 
@@ -320,9 +343,39 @@ Two tuning forks having frequencies of 460 and 464 Hz are struck simultaneously.
 
 </div>
 <div class="solution" markdown="1">
-462 Hz,
+**Strategy**
 
-4 Hz
+When two tuning forks with different frequencies are struck simultaneously, you hear a sound at the average frequency that fluctuates in amplitude at the beat frequency. The average frequency is $${f}_{\text{ave}}=\frac{{f}_{1}+{f}_{2}}{2} $$ and the beat frequency is $${f}_{\text{B}}=\mid {f}_{1}-{f}_{2}\mid $$.
+
+**Solution**
+
+Calculate the average frequency:
+
+<div class="equation">
+ $${f}_{\text{ave}}=\frac{{f}_{1}+{f}_{2}}{2}=\frac{460 \text{ Hz}+464 \text{ Hz}}{2} $$
+</div>
+
+<div class="equation">
+ $${f}_{\text{ave}}=\frac{924 \text{ Hz}}{2}=462 \text{ Hz} $$
+</div>
+
+Calculate the beat frequency:
+
+<div class="equation">
+ $${f}_{\text{B}}=\mid {f}_{1}-{f}_{2}\mid =\mid 460 \text{ Hz}-464 \text{ Hz}\mid $$
+</div>
+
+<div class="equation">
+ $${f}_{\text{B}}=4 \text{ Hz} $$
+</div>
+
+**Discussion**
+
+The average frequency of 462 Hz is exactly midway between the two individual frequencies, which is what we expect from the superposition of two waves with similar frequencies. The beat frequency of 4 Hz means you would hear the volume of the combined sound increase and decrease 4 times per second. This beat frequency is slow enough to be easily perceived by the human ear, which is why tuning forks are often used in pairs to demonstrate the phenomenon of beats. Musicians and piano tuners use this principle to tune instruments by adjusting strings until the beat frequency approaches zero.
+
+**Answer**
+
+462 Hz, 4 Hz
 
 </div>
 </div>
@@ -340,6 +393,48 @@ A wave traveling on a Slinky® that is stretched to 4 m takes 2.4 s to travel th
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+(a) The wave travels the length of the Slinky and back again in 2.4 s, so the total distance is $$2 \times 4 \text{ m}=8 \text{ m} $$. We can find the wave speed using $${v}_{\text{w}}=\frac{d}{t} $$.
+
+(b) For a standing wave with 3 antinodes and 4 nodes on a Slinky fixed at both ends, we need to determine the wavelength from the standing wave pattern, then use $${v}_{\text{w}}=f\lambda $$ to find the frequency.
+
+**Solution**
+
+(a) Calculate the wave speed:
+
+<div class="equation">
+ $$d=2 \times 4 \text{ m}=8 \text{ m} $$
+</div>
+
+<div class="equation">
+ $${v}_{\text{w}}=\frac{d}{t}=\frac{8 \text{ m}}{2.4 \text{ s}}=3.33 \text{ m/s} $$
+</div>
+
+(b) A standing wave with 3 antinodes and 4 nodes (including the fixed ends) has 3 complete loops. This means the length of the Slinky equals $$\frac{3\lambda }{2} $$, where $$\lambda $$ is the wavelength.
+
+<div class="equation">
+ $$L=\frac{3\lambda }{2} $$
+</div>
+
+Solve for the wavelength:
+
+<div class="equation">
+ $$\lambda =\frac{2L}{3}=\frac{2\left(4 \text{ m}\right)}{3}=2.67 \text{ m} $$
+</div>
+
+Use the wave equation to find the frequency:
+
+<div class="equation">
+ $$f=\frac{{v}_{\text{w}}}{\lambda }=\frac{3.33 \text{ m/s}}{2.67 \text{ m}}=1.25 \text{ Hz} $$
+</div>
+
+**Discussion**
+
+The wave speed of 3.33 m/s is reasonable for a wave traveling on a stretched Slinky. This is much slower than waves on taut strings but faster than waves on very loose springs. The frequency of 1.25 Hz (about once per second) is also reasonable—you could easily observe this oscillation by eye. The standing wave pattern with 3 antinodes represents the third harmonic, which has a frequency three times lower than what would be needed to create 9 antinodes. Standing waves on Slinkys are excellent demonstrations of wave interference and resonance because they're large enough to see clearly and slow enough to observe the motion.
+
+**Answer**
+
 (a) 3.33 m/s
 
 (b) 1.25 Hz
