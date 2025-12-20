@@ -276,7 +276,49 @@ stretches 8.00 cm for a 10.0 kg load?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-It is weigh-in time for the local under-85-kg rugby team. The bathroom scale used to assess eligibility can be described by Hooke’s law and is depressed 0.75 cm by its maximum load of 120 kg. (a) What is the spring’s effective spring constant? (b) A player stands on the scales and depresses it by 0.48 cm. Is he eligible to play on this under-85 kg team?
+It is weigh-in time for the local under-85-kg rugby team. The bathroom scale used to assess eligibility can be described by Hooke's law and is depressed 0.75 cm by its maximum load of 120 kg. (a) What is the spring's effective spring constant? (b) A player stands on the scales and depresses it by 0.48 cm. Is he eligible to play on this under-85 kg team?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For part (a), we can use Hooke's law to find the spring constant. The maximum load creates a restoring force equal to the weight, and we know the displacement. For part (b), we use the spring constant found in part (a) along with the player's displacement to find his weight, and then determine his mass.
+
+**Solution**
+
+(a) The restoring force equals the weight of the maximum load:
+
+<div class="equation">
+ $$F = mg = \left(120 \text{ kg}\right)\left(9.80 \text{ m/s}^2\right) = 1176 \text{ N}$$
+</div>
+
+The displacement is $$x = 0.75 \text{ cm} = 0.0075 \text{ m}$$. Using Hooke's law $$F = kx$$:
+
+<div class="equation">
+ $$k = \frac{F}{x} = \frac{1176 \text{ N}}{0.0075 \text{ m}} = 1.57 \times 10^5 \text{ N/m}$$
+</div>
+
+(b) For the player with displacement $$x = 0.48 \text{ cm} = 0.0048 \text{ m}$$:
+
+<div class="equation">
+ $$F = kx = \left(1.57 \times 10^5 \text{ N/m}\right)\left(0.0048 \text{ m}\right) = 754 \text{ N}$$
+</div>
+
+The player's mass is:
+
+<div class="equation">
+ $$m = \frac{F}{g} = \frac{754 \text{ N}}{9.80 \text{ m/s}^2} = 76.9 \text{ kg}$$
+</div>
+
+**Discussion**
+
+Since the player's mass (76.9 kg) is less than 85 kg, he is eligible to play on the team. The spring constant is quite large, which is appropriate for a bathroom scale that must support heavy loads without excessive compression. Note that bathroom scales are designed to be stiff enough that typical deflections are barely visible to the user.
+
+**Answer**
+
+(a) $$1.57 \times 10^5 \text{ N/m}$$
+
+(b) Yes, he is eligible (mass = 76.9 kg)
 
 </div>
 </div>
@@ -303,6 +345,54 @@ One type of BB gun uses a spring-driven plunger to blow the BB from its barrel. 
 of each?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For part (a), we use Hooke's law with the weight of the load as the applied force. For part (b), we need to understand how springs in parallel combine: when multiple springs share a load equally, the effective spring constant is the sum of individual spring constants.
+
+**Solution**
+
+(a) The weight of the maximum load is:
+
+<div class="equation">
+ $$F = mg = \left(1000 \text{ kg}\right)\left(9.80 \text{ m/s}^2\right) = 9800 \text{ N}$$
+</div>
+
+Using Hooke's law $$F = kx$$, we solve for displacement:
+
+<div class="equation">
+ $$x = \frac{F}{k} = \frac{9800 \text{ N}}{1.30 \times 10^5 \text{ N/m}} = 0.0754 \text{ m} = 7.54 \text{ cm}$$
+</div>
+
+(b) When springs act in parallel, the effective spring constant is the sum:
+
+<div class="equation">
+ $$k_{\text{eff}} = k_1 + k_2 + k_3 + k_4$$
+</div>
+
+For four identical springs:
+
+<div class="equation">
+ $$k_{\text{eff}} = 4k_{\text{individual}}$$
+</div>
+
+Therefore:
+
+<div class="equation">
+ $$k_{\text{individual}} = \frac{k_{\text{eff}}}{4} = \frac{1.30 \times 10^5 \text{ N/m}}{4} = 3.25 \times 10^4 \text{ N/m}$$
+</div>
+
+**Discussion**
+
+The depression of 7.54 cm for a 1000 kg load is reasonable for a truck suspension system. This amount of compression provides a balance between comfort (too stiff would make for a harsh ride) and structural integrity (too soft would bottom out easily). The individual spring constant of $$3.25 \times 10^4$$ N/m for each of the four springs makes sense because springs in parallel share the load, effectively adding their spring constants together.
+
+**Answer**
+
+(a) 7.54 cm
+
+(b) $$3.25 \times 10^4 \text{ N/m}$$
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -323,6 +413,68 @@ more when he hops down the road?
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A spring has a length of 0.200 m when a 0.300-kg mass hangs from it, and a length of 0.750 m when a 1.95-kg mass hangs from it. (a) What is the force constant of the spring? (b) What is the unloaded length of the spring?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The total length of the spring equals the unloaded length plus the extension due to the hanging mass. We can write two equations using Hooke's law for the two different masses, then solve simultaneously for the spring constant and unloaded length.
+
+**Solution**
+
+(a) Let $$L_0$$ be the unloaded length. For the two cases:
+
+<div class="equation">
+ $$L_1 = L_0 + x_1 = 0.200 \text{ m}$$
+</div>
+
+<div class="equation">
+ $$L_2 = L_0 + x_2 = 0.750 \text{ m}$$
+</div>
+
+where $$x_1$$ and $$x_2$$ are the extensions. From Hooke's law, $$kx = mg$$, so:
+
+<div class="equation">
+ $$x_1 = \frac{m_1 g}{k} = \frac{(0.300 \text{ kg})(9.80 \text{ m/s}^2)}{k} = \frac{2.94 \text{ N}}{k}$$
+</div>
+
+<div class="equation">
+ $$x_2 = \frac{m_2 g}{k} = \frac{(1.95 \text{ kg})(9.80 \text{ m/s}^2)}{k} = \frac{19.11 \text{ N}}{k}$$
+</div>
+
+Subtracting the first length equation from the second:
+
+<div class="equation">
+ $$L_2 - L_1 = x_2 - x_1$$
+</div>
+
+<div class="equation">
+ $$0.750 - 0.200 = \frac{19.11 - 2.94}{k}$$
+</div>
+
+<div class="equation">
+ $$0.550 \text{ m} = \frac{16.17 \text{ N}}{k}$$
+</div>
+
+<div class="equation">
+ $$k = \frac{16.17 \text{ N}}{0.550 \text{ m}} = 29.4 \text{ N/m}$$
+</div>
+
+(b) Now we can find $$L_0$$ using the first case:
+
+<div class="equation">
+ $$L_0 = L_1 - x_1 = 0.200 \text{ m} - \frac{2.94 \text{ N}}{29.4 \text{ N/m}} = 0.200 - 0.100 = 0.100 \text{ m}$$
+</div>
+
+**Discussion**
+
+The spring constant of 29.4 N/m indicates a relatively soft spring, which makes sense given the large extension (55 cm) for a modest increase in mass (1.65 kg). We can verify our answer: with the 0.300 kg mass, the spring extends 10.0 cm from its unloaded length of 10.0 cm to reach 20.0 cm total. With the 1.95 kg mass, it extends 65.0 cm from 10.0 cm to reach 75.0 cm total. The ratio of extensions (65.0/10.0 = 6.5) equals the ratio of masses (1.95/0.300 = 6.5), confirming our solution is consistent with Hooke's law.
+
+**Answer**
+
+(a) 29.4 N/m
+
+(b) 0.100 m or 10.0 cm
 
 </div>
 </div>

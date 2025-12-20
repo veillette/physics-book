@@ -122,6 +122,26 @@ similar techniques.
 Doppler ultrasound can be used to measure the speed of blood in the body. If there is a partial constriction of an artery, where would you expect blood speed to be greatest, at or nearby the constriction? What are the two distinct causes of higher resistance in the constriction?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We apply the continuity equation to determine where velocity is highest, then consider the factors that increase resistance in constricted regions.
+
+**Solution**
+
+**Where is blood speed greatest?**
+By the continuity equation ($$A_1v_1 = A_2v_2$$), blood speed is greatest *at the constriction* where the cross-sectional area is smallest. If the area is reduced, velocity must increase proportionally to maintain constant flow rate.
+
+**Two distinct causes of higher resistance in the constriction:**
+
+1. **Geometric resistance (Poiseuille's law)**: Resistance is proportional to $$1/r^4$$, so even a small reduction in radius dramatically increases resistance. A constriction that reduces the radius by half increases resistance by a factor of 16.
+
+2. **Turbulence**: The high-velocity flow through the constriction often exceeds the critical Reynolds number, causing the flow to become turbulent. Turbulent flow has much higher resistance than laminar flow because energy is dissipated in eddies and chaotic motion rather than being used for forward flow.
+
+**Discussion**
+
+Both factors compound the problem: the narrowing directly increases resistance, and the resulting high velocity can trigger turbulence that further increases resistance. This is why arterial plaques are so dangerous—they create a double penalty for blood flow.
+</div>
 </div>
 
 <div class="exercise"  data-element-type="conceptual-questions">
@@ -132,12 +152,61 @@ Sink drains often have a device such as that shown in [[Figure 2]](#Figure2) to 
 {: #Figure2}
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We consider how the device affects the flow pattern and whether it promotes laminar or turbulent flow.
+
+**Solution**
+
+The device works by promoting laminar flow in two ways:
+
+1. **Reducing vortex formation**: Without the dividers, water entering the drain tends to form a swirling vortex around the drain opening. This vortex represents turbulent, chaotic flow that wastes energy and reduces effective flow rate. The dividers break up the rotational motion before it can develop.
+
+2. **Creating parallel channels**: The dividers separate the flow into multiple smaller streams that flow more smoothly and in parallel. These smaller effective channels promote laminar flow by reducing the Reynolds number for each stream.
+
+3. **Eliminating air core**: Vortices often create an air core in the center of the drain, effectively blocking part of the drain opening. By preventing vortex formation, the dividers ensure the entire drain opening is used for water flow.
+
+**Discussion**
+
+This is a simple but clever application of fluid dynamics. The device costs almost nothing to manufacture but significantly improves drain performance by converting wasteful turbulent flow into efficient laminar flow.
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 Some ceiling fans have decorative wicker reeds on their blades. Discuss whether these fans are as quiet and efficient as those with smooth blades.
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We consider how surface roughness affects airflow over the fan blades and the consequences for noise and efficiency.
+
+**Solution**
+
+Ceiling fans with decorative wicker reeds are **not as quiet or efficient** as those with smooth blades. Here's why:
+
+**Noise:**
+- The rough, irregular surface of wicker reeds creates turbulence as air flows over the blades
+- Turbulent flow generates noise through the chaotic mixing and pressure fluctuations
+- Small eddies shed from the reed textures produce broadband noise
+- Smooth blades maintain more laminar flow, which is much quieter
+
+**Efficiency:**
+- Turbulent flow has higher drag than laminar flow
+- The increased drag means more motor power is needed to maintain the same blade speed
+- Energy is wasted in the turbulent eddies rather than moving air efficiently
+- Smooth blades slice through the air with less resistance
+
+**Additional considerations:**
+- The gaps in wicker can also create whistling sounds at certain speeds
+- Dust accumulation in wicker is harder to clean, further degrading performance over time
+- The aesthetic appeal of wicker comes at a measurable cost in performance
+
+**Discussion**
+
+This is a trade-off between form and function. Decorative wicker fans are chosen for their appearance, but they consume more energy and produce more noise than their smooth-bladed counterparts for the same airflow.
 </div>
 </div>
 
@@ -151,7 +220,36 @@ Verify that the flow of oil is laminar (barely) for an oil gusher that shoots cr
 
 </div>
 <div class="solution" markdown="1">
- $${N}_{\text{R}}=1.99 \times 10^{2} < 2000 $$
+**Strategy**
+
+To verify the flow is laminar, we need to calculate the Reynolds number and check if it is below 2000. First, we must find the oil velocity using projectile motion (the oil shoots 25.0 m into the air), then use the Reynolds number formula for flow in a pipe.
+
+**Solution**
+
+Given:
+- Height reached: $$h = 25.0 \text{ m}$$
+- Pipe diameter: $$d = 0.100 \text{ m}$$ (so radius $$r = 0.050 \text{ m}$$)
+- Pipe length: $$L = 50 \text{ m}$$
+- Oil density: $$\rho = 900 \text{ kg/m}^3$$
+- Oil viscosity: $$\eta = 1.00 \text{ Pa} \cdot \text{s}$$
+
+Step 1: Find the exit velocity using projectile motion. For oil to reach height h, it must have initial velocity:
+
+$$v^2 = 2gh$$
+
+$$v = \sqrt{2gh} = \sqrt{2(9.80 \text{ m/s}^2)(25.0 \text{ m})} = \sqrt{490 \text{ m}^2/\text{s}^2} = 22.1 \text{ m/s}$$
+
+Step 2: Calculate the Reynolds number:
+
+$${N}_{\text{R}} = \frac{2\rho v r}{\eta} = \frac{2(900 \text{ kg/m}^3)(22.1 \text{ m/s})(0.050 \text{ m})}{1.00 \text{ Pa} \cdot \text{s}}$$
+
+$${N}_{\text{R}} = \frac{1989 \text{ kg/(m} \cdot \text{s)}}{1.00 \text{ kg/(m} \cdot \text{s)}} = 1.99 \times 10^{3}$$
+
+Since $${N}_{\text{R}} = 1990 < 2000$$, the flow is indeed laminar, but barely so.
+
+**Discussion**
+
+The Reynolds number of approximately 1990 is just below the critical value of 2000, confirming the flow is "barely" laminar as stated in the problem. The high viscosity of crude oil (about 1000 times that of water) is what keeps the flow laminar despite the high velocity. Any slight increase in velocity or decrease in viscosity would push the flow into the unstable transition region.
 </div>
 </div>
 
@@ -161,6 +259,37 @@ Show that the Reynolds number  $${N}_{\text{R}} $$
  is unitless by substituting units for all the quantities in its definition and cancelling.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We substitute the SI units for each quantity in the Reynolds number formula and perform algebraic cancellation to show that all units cancel, leaving a dimensionless result.
+
+**Solution**
+
+The Reynolds number for flow in a tube is defined as:
+
+$${N}_{\text{R}} = \frac{2\rho v r}{\eta}$$
+
+The SI units for each quantity are:
+- Density: $$[\rho] = \text{kg/m}^3$$
+- Velocity: $$[v] = \text{m/s}$$
+- Radius: $$[r] = \text{m}$$
+- Viscosity: $$[\eta] = \text{Pa} \cdot \text{s} = \frac{\text{N}}{\text{m}^2} \cdot \text{s} = \frac{\text{kg} \cdot \text{m/s}^2}{\text{m}^2} \cdot \text{s} = \frac{\text{kg}}{\text{m} \cdot \text{s}}$$
+
+Substituting these units into the Reynolds number formula:
+
+$$[{N}_{\text{R}}] = \frac{[\rho][v][r]}{[\eta]} = \frac{\left(\frac{\text{kg}}{\text{m}^3}\right)\left(\frac{\text{m}}{\text{s}}\right)(\text{m})}{\left(\frac{\text{kg}}{\text{m} \cdot \text{s}}\right)}$$
+
+Simplifying the numerator:
+
+$$[{N}_{\text{R}}] = \frac{\frac{\text{kg} \cdot \text{m} \cdot \text{m}}{\text{m}^3 \cdot \text{s}}}{\frac{\text{kg}}{\text{m} \cdot \text{s}}} = \frac{\frac{\text{kg}}{\text{m} \cdot \text{s}}}{\frac{\text{kg}}{\text{m} \cdot \text{s}}} = 1$$
+
+All units cancel completely, confirming that the Reynolds number is dimensionless (unitless).
+
+**Discussion**
+
+The Reynolds number being dimensionless is a key property that makes it universally applicable. It allows us to compare flows in different systems—whether water in a pipe, blood in an artery, or air over an airplane wing—using the same critical values (≈2000 for laminar, ≈3000 for turbulent). Dimensionless parameters like this are fundamental in fluid mechanics and enable the use of scale models in engineering.
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -169,10 +298,56 @@ Calculate the Reynolds numbers for the flow of water through (a) a nozzle with a
 
 </div>
 <div class="solution" markdown="1">
-(a) nozzle:  $$ 1.27 \times 10^{5}  $$ , not laminar
+**Strategy**
 
-(b) hose: $$ 3.51 \times 10^{4} $$ , not laminar.
+We use the continuity equation to find the velocity in each section from the flow rate, then calculate the Reynolds number using the formula $${N}_{\text{R}} = \frac{2\rho v r}{\eta}$$. We compare each result to 2000 to determine if laminar flow is possible.
 
+**Solution**
+
+Given:
+- Nozzle radius: $$r_n = 0.250 \text{ cm} = 2.50 \times 10^{-3} \text{ m}$$
+- Hose radius: $$r_h = 0.900 \text{ cm} = 9.00 \times 10^{-3} \text{ m}$$
+- Flow rate: $$Q = 0.500 \text{ L/s} = 5.00 \times 10^{-4} \text{ m}^3\text{/s}$$
+- Water density: $$\rho = 1000 \text{ kg/m}^3$$
+- Water viscosity (at 20°C): $$\eta = 1.002 \times 10^{-3} \text{ Pa} \cdot \text{s}$$
+
+**(a) Nozzle:**
+
+Find the velocity in the nozzle using $$Q = Av$$:
+
+$$v_n = \frac{Q}{A_n} = \frac{Q}{\pi r_n^2} = \frac{5.00 \times 10^{-4} \text{ m}^3\text{/s}}{\pi (2.50 \times 10^{-3} \text{ m})^2}$$
+
+$$v_n = \frac{5.00 \times 10^{-4}}{1.96 \times 10^{-5}} \text{ m/s} = 25.5 \text{ m/s}$$
+
+Calculate Reynolds number:
+
+$${N}_{\text{R,n}} = \frac{2\rho v_n r_n}{\eta} = \frac{2(1000)(25.5)(2.50 \times 10^{-3})}{1.002 \times 10^{-3}}$$
+
+$${N}_{\text{R,n}} = \frac{127.5}{1.002 \times 10^{-3}} = 1.27 \times 10^{5}$$
+
+**(b) Hose:**
+
+Find the velocity in the hose:
+
+$$v_h = \frac{Q}{A_h} = \frac{Q}{\pi r_h^2} = \frac{5.00 \times 10^{-4} \text{ m}^3\text{/s}}{\pi (9.00 \times 10^{-3} \text{ m})^2}$$
+
+$$v_h = \frac{5.00 \times 10^{-4}}{2.54 \times 10^{-4}} \text{ m/s} = 1.97 \text{ m/s}$$
+
+Calculate Reynolds number:
+
+$${N}_{\text{R,h}} = \frac{2\rho v_h r_h}{\eta} = \frac{2(1000)(1.97)(9.00 \times 10^{-3})}{1.002 \times 10^{-3}}$$
+
+$${N}_{\text{R,h}} = \frac{35.5}{1.002 \times 10^{-3}} = 3.54 \times 10^{4}$$
+
+**Summary:**
+- (a) Nozzle: $${N}_{\text{R}} = 1.27 \times 10^{5}$$ — **not laminar** (far above 3000)
+- (b) Hose: $${N}_{\text{R}} = 3.54 \times 10^{4}$$ — **not laminar** (far above 3000)
+
+Neither flow can possibly be laminar since both Reynolds numbers are well above 3000.
+
+**Discussion**
+
+The nozzle has the higher Reynolds number because, although the radius is smaller (which decreases $$N_R$$), the velocity is much higher (which increases $$N_R$$ more). The velocity scales as $$1/r^2$$ while $$N_R \propto vr$$, so $$N_R \propto 1/r$$—smaller radii actually produce higher Reynolds numbers for the same flow rate. This is why nozzles often produce turbulent, noisy flow even when the hose flow is smoother.
 </div>
 </div>
 
@@ -182,18 +357,93 @@ A fire hose has an inside diameter of 6.40 cm. Suppose such a hose carries a flo
  The hose goes 10.0 m up a ladder to a nozzle having an inside diameter of 3.00 cm. Calculate the Reynolds numbers for flow in the fire hose and nozzle to show that the flow in each must be turbulent.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We calculate the velocity in each section using the continuity equation, then compute the Reynolds number for each. Flow is turbulent if $${N}_{\text{R}} > 3000$$.
+
+**Solution**
+
+Given:
+- Hose diameter: $$d_h = 6.40 \text{ cm}$$ (radius $$r_h = 3.20 \text{ cm} = 0.0320 \text{ m}$$)
+- Nozzle diameter: $$d_n = 3.00 \text{ cm}$$ (radius $$r_n = 1.50 \text{ cm} = 0.0150 \text{ m}$$)
+- Flow rate: $$Q = 40.0 \text{ L/s} = 0.0400 \text{ m}^3\text{/s}$$
+- Water density: $$\rho = 1000 \text{ kg/m}^3$$
+- Water viscosity: $$\eta \approx 1.00 \times 10^{-3} \text{ Pa} \cdot \text{s}$$
+
+**Fire Hose:**
+
+Calculate velocity in the hose:
+
+$$v_h = \frac{Q}{\pi r_h^2} = \frac{0.0400 \text{ m}^3\text{/s}}{\pi (0.0320 \text{ m})^2} = \frac{0.0400}{3.22 \times 10^{-3}} \text{ m/s} = 12.4 \text{ m/s}$$
+
+Calculate Reynolds number for the hose:
+
+$${N}_{\text{R,h}} = \frac{2\rho v_h r_h}{\eta} = \frac{2(1000)(12.4)(0.0320)}{1.00 \times 10^{-3}}$$
+
+$${N}_{\text{R,h}} = \frac{794}{1.00 \times 10^{-3}} = 7.94 \times 10^{5}$$
+
+**Nozzle:**
+
+Calculate velocity in the nozzle:
+
+$$v_n = \frac{Q}{\pi r_n^2} = \frac{0.0400 \text{ m}^3\text{/s}}{\pi (0.0150 \text{ m})^2} = \frac{0.0400}{7.07 \times 10^{-4}} \text{ m/s} = 56.6 \text{ m/s}$$
+
+Calculate Reynolds number for the nozzle:
+
+$${N}_{\text{R,n}} = \frac{2\rho v_n r_n}{\eta} = \frac{2(1000)(56.6)(0.0150)}{1.00 \times 10^{-3}}$$
+
+$${N}_{\text{R,n}} = \frac{1698}{1.00 \times 10^{-3}} = 1.70 \times 10^{6}$$
+
+**Summary:**
+- Fire hose: $${N}_{\text{R}} = 7.94 \times 10^{5} \gg 3000$$ — **turbulent**
+- Nozzle: $${N}_{\text{R}} = 1.70 \times 10^{6} \gg 3000$$ — **turbulent**
+
+Both Reynolds numbers are hundreds of times greater than 3000, confirming the flow must be turbulent in both the hose and nozzle.
+
+**Discussion**
+
+The extremely high Reynolds numbers (nearly a million) make laminar flow impossible in firefighting equipment. This is expected given the enormous flow rates needed to fight fires effectively. The turbulent flow actually helps in firefighting by causing better mixing and dispersion of water at the nozzle exit. The pressure information given ($$1.62 \times 10^{6} \text{ N/m}^2 \approx 16$$ atm) wasn't needed for this calculation but would be used to find pressure at the nozzle using Bernoulli's equation.
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Concrete is pumped from a cement mixer to the place it is being laid, instead of being carried in wheelbarrows. The flow rate is 200.0 L/min through a 50.0-m-long, 8.00-cm-diameter hose, and the pressure at the pump is  $$ 8.00 \times 10^{6}  {\text{N/m}}^{2} $$ .
- Verify that the flow of concrete is laminar taking concrete’s viscosity to be  $$48.0 \left(\text{N/}{\text{m}}^{2}\right)·\text{s} $$ ,
+ Verify that the flow of concrete is laminar taking concrete's viscosity to be  $$48.0 \left(\text{N/}{\text{m}}^{2}\right)·\text{s} $$ ,
  and given its density is  $$2300 kg/{\text{m}}^{3} $$.
 
 </div>
 <div class="solution" markdown="1">
-2.54 &lt;&lt; 2000, laminar.
+**Strategy**
 
+We calculate the flow velocity from the given flow rate and pipe dimensions, then use the Reynolds number formula to verify $${N}_{\text{R}} < 2000$$ for laminar flow.
+
+**Solution**
+
+Given:
+- Flow rate: $$Q = 200.0 \text{ L/min} = \frac{200.0}{60 \times 1000} \text{ m}^3\text{/s} = 3.33 \times 10^{-3} \text{ m}^3\text{/s}$$
+- Hose diameter: $$d = 8.00 \text{ cm}$$ (radius $$r = 4.00 \text{ cm} = 0.0400 \text{ m}$$)
+- Concrete density: $$\rho = 2300 \text{ kg/m}^3$$
+- Concrete viscosity: $$\eta = 48.0 \text{ Pa} \cdot \text{s}$$
+
+Step 1: Calculate the flow velocity:
+
+$$v = \frac{Q}{A} = \frac{Q}{\pi r^2} = \frac{3.33 \times 10^{-3} \text{ m}^3\text{/s}}{\pi (0.0400 \text{ m})^2}$$
+
+$$v = \frac{3.33 \times 10^{-3}}{5.03 \times 10^{-3}} \text{ m/s} = 0.663 \text{ m/s}$$
+
+Step 2: Calculate the Reynolds number:
+
+$${N}_{\text{R}} = \frac{2\rho v r}{\eta} = \frac{2(2300 \text{ kg/m}^3)(0.663 \text{ m/s})(0.0400 \text{ m})}{48.0 \text{ Pa} \cdot \text{s}}$$
+
+$${N}_{\text{R}} = \frac{122}{48.0} = 2.54$$
+
+Since $${N}_{\text{R}} = 2.54 \ll 2000$$, the flow is definitely laminar.
+
+**Discussion**
+
+The Reynolds number of 2.54 is extraordinarily low—nearly three orders of magnitude below the laminar threshold. This is entirely due to concrete's extremely high viscosity (48 Pa·s compared to water's 0.001 Pa·s—about 48,000 times more viscous). Despite the relatively high flow rate and the high density of concrete, the viscosity dominates the Reynolds number. This is why concrete pumping equipment can use Poiseuille's law to predict flow rates accurately, even though the pressures involved are very high (80 atm in this case).
 </div>
 </div>
 
@@ -202,6 +452,44 @@ Concrete is pumped from a cement mixer to the place it is being laid, instead of
 At what flow rate might turbulence begin to develop in a water main with a 0.200-m diameter? Assume a  $$20 \text{ºC} $$
  temperature.
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Turbulence begins to develop when the Reynolds number reaches approximately 2000. We set $${N}_{\text{R}} = 2000$$, solve for the critical velocity, then calculate the corresponding flow rate using $$Q = Av$$.
+
+**Solution**
+
+Given:
+- Pipe diameter: $$d = 0.200 \text{ m}$$ (radius $$r = 0.100 \text{ m}$$)
+- Temperature: $$T = 20°\text{C}$$
+- Water density at 20°C: $$\rho = 1000 \text{ kg/m}^3$$
+- Water viscosity at 20°C: $$\eta = 1.002 \times 10^{-3} \text{ Pa} \cdot \text{s}$$
+- Critical Reynolds number: $${N}_{\text{R}} = 2000$$
+
+Step 1: Find the critical velocity by rearranging the Reynolds number formula:
+
+$${N}_{\text{R}} = \frac{2\rho v r}{\eta}$$
+
+$$v = \frac{{N}_{\text{R}} \eta}{2\rho r} = \frac{(2000)(1.002 \times 10^{-3} \text{ Pa} \cdot \text{s})}{2(1000 \text{ kg/m}^3)(0.100 \text{ m})}$$
+
+$$v = \frac{2.004}{200} \text{ m/s} = 1.00 \times 10^{-2} \text{ m/s} = 1.00 \text{ cm/s}$$
+
+Step 2: Calculate the corresponding flow rate:
+
+$$Q = Av = \pi r^2 v = \pi (0.100 \text{ m})^2 (1.00 \times 10^{-2} \text{ m/s})$$
+
+$$Q = \pi (0.0100)(1.00 \times 10^{-2}) \text{ m}^3\text{/s} = 3.14 \times 10^{-4} \text{ m}^3\text{/s}$$
+
+Converting to more practical units:
+
+$$Q = 3.14 \times 10^{-4} \text{ m}^3\text{/s} \times \frac{1000 \text{ L}}{1 \text{ m}^3} = 0.314 \text{ L/s} = 18.8 \text{ L/min}$$
+
+Turbulence might begin to develop at a flow rate of approximately **0.31 L/s** (or about 19 L/min).
+
+**Discussion**
+
+This is a surprisingly low flow rate for such a large pipe. At only 0.31 L/s, flow begins transitioning from laminar to turbulent. In practice, municipal water mains operate at much higher flow rates and the flow is thoroughly turbulent. The turbulent flow actually helps maintain water quality by preventing stagnant regions where bacteria could grow. The low critical velocity (1 cm/s) shows that even gentle flows in large pipes tend toward turbulence due to the large characteristic length scale (diameter).
 </div>
 </div>
 
@@ -212,10 +500,42 @@ What is the greatest average speed of blood flow at  $$37 \text{ºC} $$
 
 </div>
 <div class="solution" markdown="1">
-1.02 m/s
+**Strategy**
 
-$$1.28 \times 10^{-2} \text{L/s} $$
+For flow to remain laminar, the Reynolds number must stay below 2000. We solve for the maximum velocity that keeps $${N}_{\text{R}} = 2000$$, then calculate the corresponding flow rate.
 
+**Solution**
+
+Given:
+- Artery radius: $$r = 2.00 \text{ mm} = 2.00 \times 10^{-3} \text{ m}$$
+- Temperature: $$T = 37°\text{C}$$ (body temperature)
+- Blood density: $$\rho = 1025 \text{ kg/m}^3$$
+- Blood viscosity at 37°C: $$\eta = 2.084 \times 10^{-3} \text{ Pa} \cdot \text{s}$$ (from Table 12.1)
+- Critical Reynolds number for laminar flow: $${N}_{\text{R}} = 2000$$
+
+Step 1: Find the maximum velocity for laminar flow:
+
+$${N}_{\text{R}} = \frac{2\rho v r}{\eta}$$
+
+$$v_{\text{max}} = \frac{{N}_{\text{R}} \eta}{2\rho r} = \frac{(2000)(2.084 \times 10^{-3} \text{ Pa} \cdot \text{s})}{2(1025 \text{ kg/m}^3)(2.00 \times 10^{-3} \text{ m})}$$
+
+$$v_{\text{max}} = \frac{4.168}{4.10} \text{ m/s} = 1.02 \text{ m/s}$$
+
+Step 2: Calculate the corresponding flow rate:
+
+$$Q = Av = \pi r^2 v = \pi (2.00 \times 10^{-3} \text{ m})^2 (1.02 \text{ m/s})$$
+
+$$Q = \pi (4.00 \times 10^{-6})(1.02) \text{ m}^3\text{/s} = 1.28 \times 10^{-5} \text{ m}^3\text{/s}$$
+
+Converting to liters per second:
+
+$$Q = 1.28 \times 10^{-5} \text{ m}^3\text{/s} \times \frac{1000 \text{ L}}{1 \text{ m}^3} = 1.28 \times 10^{-2} \text{ L/s}$$
+
+The greatest average speed for laminar flow is **1.02 m/s**, with a corresponding flow rate of **$$1.28 \times 10^{-2}$$ L/s** (or about 0.77 L/min).
+
+**Discussion**
+
+This maximum laminar velocity of about 1 m/s is consistent with known blood flow speeds in major arteries. In the aorta, blood velocities can exceed this during systole (heart contraction), which is why turbulence occasionally occurs there. The critical velocity of 35 m/s mentioned in the text for the aorta corresponds to a much larger diameter vessel. For this 4-mm diameter artery, the 1 m/s limit is clinically relevant—arterial constrictions that increase local velocity above this threshold can cause turbulence, which is detectable as a "bruit" (abnormal sound) with a stethoscope.
 </div>
 </div>
 
@@ -224,6 +544,44 @@ $$1.28 \times 10^{-2} \text{L/s} $$
 In [Take-Home Experiment: Inhalation](#Take-Home1), we measured the average flow rate  $$Q $$  of air traveling through the trachea during each inhalation. Now calculate the average air speed in meters per second through your trachea during each inhalation. The radius of the trachea in adult humans is approximately  $$10^{-2} \text{m} $$ .
  From the data above, calculate the Reynolds number for the air flow in the trachea during inhalation. Do you expect the air flow to be laminar or turbulent?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use typical inhalation data to calculate the flow rate, then find the velocity and Reynolds number. A typical adult inhales about 1 L of air per breath in approximately 2 seconds during normal breathing.
+
+**Solution**
+
+Given:
+- Trachea radius: $$r = 10^{-2} \text{ m} = 1.0 \text{ cm}$$
+- Volume per inhalation: $$V = 1 \text{ L} = 10^{-3} \text{ m}^3$$ (typical value)
+- Inhalation time: $$t \approx 2 \text{ s}$$ (typical value)
+- Air density at body temperature: $$\rho \approx 1.1 \text{ kg/m}^3$$
+- Air viscosity at 37°C: $$\eta \approx 1.9 \times 10^{-5} \text{ Pa} \cdot \text{s}$$
+
+Step 1: Calculate the average flow rate:
+
+$$Q = \frac{V}{t} = \frac{10^{-3} \text{ m}^3}{2 \text{ s}} = 5 \times 10^{-4} \text{ m}^3\text{/s}$$
+
+Step 2: Calculate the average air speed through the trachea:
+
+$$v = \frac{Q}{A} = \frac{Q}{\pi r^2} = \frac{5 \times 10^{-4} \text{ m}^3\text{/s}}{\pi (10^{-2} \text{ m})^2}$$
+
+$$v = \frac{5 \times 10^{-4}}{3.14 \times 10^{-4}} \text{ m/s} = 1.6 \text{ m/s}$$
+
+Step 3: Calculate the Reynolds number:
+
+$${N}_{\text{R}} = \frac{2\rho v r}{\eta} = \frac{2(1.1 \text{ kg/m}^3)(1.6 \text{ m/s})(10^{-2} \text{ m})}{1.9 \times 10^{-5} \text{ Pa} \cdot \text{s}}$$
+
+$${N}_{\text{R}} = \frac{3.52 \times 10^{-2}}{1.9 \times 10^{-5}} = 1850$$
+
+The average air speed is approximately **1.6 m/s** and the Reynolds number is approximately **1850**.
+
+Since $${N}_{\text{R}} \approx 1850$$ is just below 2000, the flow is at the upper edge of the laminar regime. During normal quiet breathing, the flow should be **laminar but close to transitional**.
+
+**Discussion**
+
+This result explains why breathing is normally quiet—laminar flow produces little noise. However, during heavy breathing or exercise, the flow rate increases significantly, pushing the Reynolds number above 2000-3000 and causing turbulent flow. This is why you can hear your breathing during vigorous exercise. During coughing or sneezing, velocities can exceed 30 m/s, producing highly turbulent flow and the characteristic sounds. Note that actual results will vary based on individual breathing patterns measured in the Take-Home Experiment.
 </div>
 </div>
 
@@ -236,8 +594,57 @@ Gasoline is piped underground from refineries to major users. The flow rate is  
 
 </div>
 <div class="solution" markdown="1">
-(a) $$≥ 13.0 \text{m} $$
-(b)  $$ 2.68 \times 10^{-6}  {\text{N/m}}^{2} $$
+**Strategy**
+
+(a) We express velocity in terms of flow rate and radius, substitute into the Reynolds number formula, set $${N}_{\text{R}} = 2000$$, and solve for the minimum radius.
+(b) We use Poiseuille's law to find the pressure difference needed to maintain laminar flow.
+
+**Solution**
+
+Given:
+- Flow rate: $$Q = 3.00 \times 10^{-2} \text{ m}^3\text{/s}$$
+- Gasoline viscosity: $$\eta = 1.00 \times 10^{-3} \text{ Pa} \cdot \text{s}$$
+- Gasoline density: $$\rho = 680 \text{ kg/m}^3$$
+
+**(a) Minimum diameter for laminar flow:**
+
+The velocity in terms of flow rate is:
+
+$$v = \frac{Q}{A} = \frac{Q}{\pi r^2}$$
+
+Substituting into the Reynolds number formula:
+
+$${N}_{\text{R}} = \frac{2\rho v r}{\eta} = \frac{2\rho r}{\eta} \cdot \frac{Q}{\pi r^2} = \frac{2\rho Q}{\pi \eta r}$$
+
+Solving for r when $${N}_{\text{R}} = 2000$$:
+
+$$r = \frac{2\rho Q}{\pi \eta {N}_{\text{R}}} = \frac{2(680 \text{ kg/m}^3)(3.00 \times 10^{-2} \text{ m}^3\text{/s})}{\pi (1.00 \times 10^{-3} \text{ Pa} \cdot \text{s})(2000)}$$
+
+$$r = \frac{40.8}{6.28} \text{ m} = 6.50 \text{ m}$$
+
+The minimum diameter is:
+
+$$d = 2r = 2(6.50 \text{ m}) = 13.0 \text{ m}$$
+
+**(b) Pressure difference per kilometer:**
+
+Using Poiseuille's law for the pressure difference:
+
+$$\Delta P = \frac{8\eta L Q}{\pi r^4}$$
+
+For $$L = 1000 \text{ m}$$ and $$r = 6.50 \text{ m}$$:
+
+$$\Delta P = \frac{8(1.00 \times 10^{-3} \text{ Pa} \cdot \text{s})(1000 \text{ m})(3.00 \times 10^{-2} \text{ m}^3\text{/s})}{\pi (6.50 \text{ m})^4}$$
+
+$$\Delta P = \frac{0.240}{5617} \text{ Pa} = 4.27 \times 10^{-5} \text{ Pa} = 4.27 \times 10^{-5} \text{ N/m}^2$$
+
+**Summary:**
+- (a) Minimum diameter: **$$d \geq 13.0 \text{ m}$$**
+- (b) Pressure difference per km: approximately **$$4 \times 10^{-5} \text{ N/m}^2$$**
+
+**Discussion**
+
+This result reveals an unreasonable scenario! A 13-meter diameter pipe would be enormous—larger than most highway tunnels. This demonstrates that maintaining laminar flow for high-volume gasoline transport is completely impractical. In reality, gasoline pipelines use much smaller pipes (typically 0.3-1.2 m diameter) and accept turbulent flow. The extremely low pressure difference calculated assumes laminar flow in this giant pipe, which explains why it's unrealistically small. Real pipelines require much higher pressures due to turbulent losses. This problem illustrates why Reynolds number constraints sometimes lead to impractical engineering solutions, and why turbulent flow is often accepted in industrial applications.
 </div>
 </div>
 
@@ -245,6 +652,48 @@ Gasoline is piped underground from refineries to major users. The flow rate is  
 <div class="problem" markdown="1">
 Assuming that blood is an ideal fluid, calculate the critical flow rate at which turbulence is a certainty in the aorta. Take the diameter of the aorta to be 2.50 cm. (Turbulence will actually occur at lower average flow rates, because blood is not an ideal fluid. Furthermore, since blood flow pulses, turbulence may occur during only the high-velocity part of each heartbeat.)
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Turbulence is "a certainty" when the Reynolds number exceeds 3000. We solve for the critical velocity at $${N}_{\text{R}} = 3000$$, then calculate the corresponding flow rate.
+
+**Solution**
+
+Given:
+- Aorta diameter: $$d = 2.50 \text{ cm}$$ (radius $$r = 1.25 \text{ cm} = 0.0125 \text{ m}$$)
+- Blood density: $$\rho = 1025 \text{ kg/m}^3$$ (typical value)
+- Blood viscosity at 37°C: $$\eta = 2.084 \times 10^{-3} \text{ Pa} \cdot \text{s}$$
+- Critical Reynolds number for certain turbulence: $${N}_{\text{R}} = 3000$$
+
+Step 1: Find the critical velocity for certain turbulence:
+
+$${N}_{\text{R}} = \frac{2\rho v r}{\eta}$$
+
+$$v_{\text{crit}} = \frac{{N}_{\text{R}} \eta}{2\rho r} = \frac{(3000)(2.084 \times 10^{-3} \text{ Pa} \cdot \text{s})}{2(1025 \text{ kg/m}^3)(0.0125 \text{ m})}$$
+
+$$v_{\text{crit}} = \frac{6.252}{25.6} \text{ m/s} = 0.244 \text{ m/s} = 24.4 \text{ cm/s}$$
+
+Step 2: Calculate the critical flow rate:
+
+$$Q_{\text{crit}} = A v_{\text{crit}} = \pi r^2 v_{\text{crit}} = \pi (0.0125 \text{ m})^2 (0.244 \text{ m/s})$$
+
+$$Q_{\text{crit}} = \pi (1.56 \times 10^{-4})(0.244) \text{ m}^3\text{/s} = 1.20 \times 10^{-4} \text{ m}^3\text{/s}$$
+
+Converting to liters per minute:
+
+$$Q_{\text{crit}} = 1.20 \times 10^{-4} \text{ m}^3\text{/s} \times \frac{1000 \text{ L}}{1 \text{ m}^3} \times \frac{60 \text{ s}}{1 \text{ min}} = 7.2 \text{ L/min}$$
+
+The critical flow rate at which turbulence is certain is **$$1.20 \times 10^{-4} \text{ m}^3\text{/s}$$** or approximately **7.2 L/min**.
+
+**Discussion**
+
+This critical flow rate of about 7.2 L/min is remarkably close to the typical cardiac output of 5-6 L/min at rest. This means the aorta normally operates near the turbulent threshold! During exercise, when cardiac output increases to 20-25 L/min, the flow is definitely turbulent. The problem notes that real turbulence occurs at even lower flow rates because:
+1. Blood is not an ideal (Newtonian) fluid—it's a suspension of cells
+2. Blood flow is pulsatile, not steady—peak velocities during systole are much higher than average
+3. The aorta is not a smooth, straight tube—it has curves and branches
+
+This explains why aortic flow can sometimes be heard with a stethoscope even in healthy individuals, especially during exertion.
 </div>
 </div>
 
@@ -261,14 +710,62 @@ as $$1.005 \times 10^{-3} \left(\text{N}/{m}^{2}\right)\cdot \text{s} $$ .)
 
 </div>
 <div class="solution" markdown="1">
-(a) 23.7 atm or  $$344 \text{lb/}{\text{in}}^{2} $$
-(b) The pressure is much too high.
+**Strategy**
 
-(c) The assumed flow rate is very high for a garden hose.
+We use Poiseuille's law to calculate the required pressure (assuming laminar flow), then check whether this assumption is valid using the Reynolds number. The unreasonable results will reveal flaws in the problem's premise.
 
-(d) $$ 5.27 \times 10^{6} $$ &gt; &gt; 3000, turbulent, contrary to the
-assumption of laminar flow when using this equation.
+**Solution**
 
+Given:
+- Hose radius: $$r = 0.600 \text{ cm} = 6.00 \times 10^{-3} \text{ m}$$
+- Hose length: $$L = 23.0 \text{ m}$$
+- Flow rate: $$Q = 50.0 \text{ L/s} = 0.0500 \text{ m}^3\text{/s}$$
+- Water viscosity: $$\eta = 1.005 \times 10^{-3} \text{ Pa} \cdot \text{s}$$
+- Water density: $$\rho = 1000 \text{ kg/m}^3$$
+
+**(a) Required pressure using Poiseuille's law:**
+
+$$Q = \frac{\pi r^4 \Delta P}{8 \eta L}$$
+
+Solving for pressure:
+
+$$\Delta P = \frac{8 \eta L Q}{\pi r^4} = \frac{8(1.005 \times 10^{-3} \text{ Pa} \cdot \text{s})(23.0 \text{ m})(0.0500 \text{ m}^3\text{/s})}{\pi (6.00 \times 10^{-3} \text{ m})^4}$$
+
+$$\Delta P = \frac{9.25 \times 10^{-3}}{4.07 \times 10^{-9}} \text{ Pa} = 2.27 \times 10^{6} \text{ Pa}$$
+
+Converting to atmospheres: $$\Delta P = \frac{2.27 \times 10^{6} \text{ Pa}}{1.013 \times 10^{5} \text{ Pa/atm}} = 22.4 \text{ atm}$$
+
+Converting to psi: $$\Delta P = 22.4 \text{ atm} \times 14.7 \text{ psi/atm} = 329 \text{ psi}$$
+
+**(b) What is unreasonable about this pressure?**
+
+The pressure of approximately **23 atm (or about 330 psi)** is far too high for residential water systems. Typical household water pressure is 2-5 atm (30-80 psi). This calculated pressure would require industrial high-pressure equipment and would likely rupture a standard garden hose.
+
+**(c) What is unreasonable about the premise?**
+
+The flow rate of **50 L/s is extremely high** for a garden hose—this equals 3000 liters per minute or about 800 gallons per minute! A typical garden hose delivers only about 0.3-0.6 L/s (roughly 10-20 gallons per minute). The stated flow rate is about 100 times too large for a garden hose application.
+
+**(d) Reynolds number:**
+
+First, calculate velocity:
+
+$$v = \frac{Q}{A} = \frac{Q}{\pi r^2} = \frac{0.0500 \text{ m}^3\text{/s}}{\pi (6.00 \times 10^{-3} \text{ m})^2} = \frac{0.0500}{1.13 \times 10^{-4}} = 442 \text{ m/s}$$
+
+Calculate Reynolds number:
+
+$${N}_{\text{R}} = \frac{2\rho v r}{\eta} = \frac{2(1000)(442)(6.00 \times 10^{-3})}{1.005 \times 10^{-3}}$$
+
+$${N}_{\text{R}} = \frac{5304}{1.005 \times 10^{-3}} = 5.28 \times 10^{6}$$
+
+**Summary:**
+- (a) $$\Delta P \approx 23 \text{ atm}$$ (or $$330 \text{ psi}$$)
+- (b) This pressure is unreasonably high—typical home water pressure is only 2-5 atm
+- (c) The flow rate of 50 L/s is about 100× higher than realistic for a garden hose
+- (d) $${N}_{\text{R}} = 5.28 \times 10^{6} \gg 3000$$ — highly turbulent
+
+**Discussion**
+
+The Reynolds number of over 5 million confirms that using Poiseuille's law (which assumes laminar flow) is completely invalid here. The flow would be extremely turbulent, requiring even higher pressures than calculated. Additionally, the water velocity of 442 m/s (nearly 1000 mph!) is supersonic—faster than the speed of sound in air and approaching it in water. This absurd velocity confirms that the problem's premises are physically unreasonable. This type of "unreasonable results" problem teaches critical thinking: when calculations yield extreme values, always question the initial assumptions.
 </div>
 </div>
 
