@@ -201,7 +201,23 @@ What current flows through the bulb of a 3.00-V flashlight when its hot resistan
 
 </div>
 <div class="solution" markdown="1">
-0\.833 A
+**Strategy**
+
+Apply Ohm's law directly: $$I = V/R$$. All values are given in standard units.
+
+**Solution**
+
+Using Ohm's law:
+
+<div class="equation">
+$$I = \frac{V}{R} = \frac{3.00 \text{ V}}{3.60 \text{ Ω}} = 0.833 \text{ A}$$
+</div>
+
+**Discussion**
+
+This current of 0.833 A (833 mA) is typical for a small incandescent flashlight bulb. The relatively low resistance of 3.60 Ω when hot allows substantial current to flow, which heats the filament to incandescence. Note that this is the "hot resistance"—the resistance when the bulb is operating. The cold resistance would be much lower, causing a brief surge of higher current when the flashlight is first turned on.
+
+The current flowing through the flashlight bulb is 0.833 A.
 
 </div>
 </div>
@@ -245,7 +261,24 @@ What is the effective resistance of a car’s starter motor when 150 A flows thr
 
 </div>
 <div class="solution" markdown="1">
- $$ 7.33 \times 10^{-2}  \Omega  $$
+**Strategy**
+
+Use Ohm's law rearranged for resistance: $$R = V/I$$. The large current indicates a low resistance device.
+
+**Solution**
+
+Calculate resistance:
+
+<div class="equation">
+$$R = \frac{V}{I} = \frac{11.0 \text{ V}}{150 \text{ A}} = 7.33 \times 10^{-2} \text{ Ω} = 73.3 \text{ mΩ}$$
+</div>
+
+**Discussion**
+
+The extremely low resistance of 73.3 mΩ (0.0733 Ω) is necessary for the starter motor to draw the high current needed to turn over the engine against compression and friction. The battery voltage drops from its nominal 12 V to 11.0 V under this heavy load due to the battery's internal resistance. This massive current drain is why car batteries must have very low internal resistance and why leaving your headlights on can drain the battery—a starter motor draws more current in a few seconds than headlights draw in hours.
+
+The effective resistance of the car's starter motor is $$7.33 \times 10^{-2}$$ Ω (73.3 mΩ).
+
 </div>
 </div>
 
