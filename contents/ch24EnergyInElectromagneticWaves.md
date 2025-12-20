@@ -190,10 +190,40 @@ and in terms of both electric and magnetic fields as
 What is the intensity of an electromagnetic wave with a peak electric field strength of 125 V/m?
 
 </div>
-<div class="solution" data-element-type="problems-exercises">
-<div class="equation" >
- $$\begin{array}{lll}I& =& \frac{ c\epsilon_{0}{E}_{0}^{2}}{2}\\ & =& \frac{\left( 3.00 \times 10^{8}  \text{m/s}\right)\left(8.85 \times 10^{-12}{\text{C}}^{2}\text{/N}\cdot {\text{m}}^{2}\right){\left(125 \text{V/m}\right)}^{2}}{2}\\ & =& 20.{7 \text{W/m}}^{2}\end{array} $$
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+<div class="title">
+Strategy
 </div>
+The intensity of an electromagnetic wave is related to the peak electric field strength by $$I=\frac{c\epsilon _{0}E_{0}^{2}}{2}$$, where $$c$$ is the speed of light and $$\epsilon _{0}$$ is the permittivity of free space.
+
+<div class="title">
+Solution
+</div>
+Given:
+- Peak electric field: $$E_{0}=125 \text{ V/m}$$
+- Speed of light: $$c=3.00 \times 10^{8} \text{ m/s}$$
+- Permittivity of free space: $$\epsilon _{0}=8.85 \times 10^{-12} \text{ C}^{2}/(\text{N}\cdot \text{m}^{2})$$
+
+Calculate the intensity:
+
+<div class="equation">
+ $$I=\frac{c\epsilon _{0}E_{0}^{2}}{2}=\frac{\left(3.00 \times 10^{8} \text{ m/s}\right)\left(8.85 \times 10^{-12} \text{ C}^{2}/(\text{N}\cdot \text{m}^{2})\right)(125 \text{ V/m})^{2}}{2}$$
+</div>
+
+<div class="equation">
+ $$I=\frac{\left(3.00 \times 10^{8}\right)\left(8.85 \times 10^{-12}\right)(15{,}625)}{2}=\frac{41.44}{2}=20.7 \text{ W/m}^{2}$$
+</div>
+
+<div class="title">
+Discussion
+</div>
+An intensity of 20.7 W/m² is relatively modest compared to sunlight (which averages about 1000 W/m² at Earth's surface on a clear day). This level of electromagnetic radiation is typical of what you might experience near a moderately powered radio transmitter or microwave communication device. The calculation demonstrates how the energy flux in an electromagnetic wave scales with the square of the electric field—doubling the electric field quadruples the intensity. This is because intensity represents power per unit area, and the power delivered by an electromagnetic wave depends on both the electric and magnetic fields, each of which is proportional to the amplitude, giving an overall E² dependence.
+
+<div class="title">
+Final Answer
+</div>
+The intensity of the electromagnetic wave is 20.7 W/m².
+
 </div>
 </div>
 
