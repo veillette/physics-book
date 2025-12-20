@@ -438,7 +438,29 @@ What is the current in milliamperes produced by the solar cells of a pocket calc
 
 </div>
 <div class="solution" markdown="1">
-0.278 mA
+**Strategy**
+
+We use the definition of current $$I = \Delta Q / \Delta t$$ to find the current. We need to convert time from hours to seconds for proper SI units.
+
+**Solution**
+
+First, convert time to seconds:
+
+<div class="equation">
+$$\Delta t = 4.00 \text{ h} \times \frac{3600 \text{ s}}{1 \text{ h}} = 1.44 \times 10^{4} \text{ s}$$
+</div>
+
+Now apply the definition of current:
+
+<div class="equation">
+$$I = \frac{\Delta Q}{\Delta t} = \frac{4.00 \text{ C}}{1.44 \times 10^{4} \text{ s}} = 2.78 \times 10^{-4} \text{ A} = 0.278 \text{ mA}$$
+</div>
+
+**Discussion**
+
+This small current is typical of low-power electronic devices like calculators. The solar cells provide just enough current to operate the calculator's circuits, which require very little power. This demonstrates why calculators can run for extended periods on minimal energy input.
+
+The current produced by the solar cells is 0.278 mA.
 
 </div>
 </div>
@@ -483,7 +505,33 @@ What is the current when a typical static charge of  $$ 0.250 \mu \text{C} $$
 
 </div>
 <div class="solution" markdown="1">
-0.250 A
+**Strategy**
+
+We use $$I = \Delta Q / \Delta t$$ with the given charge and time values. Both quantities need to be converted to SI base units.
+
+**Solution**
+
+Convert the charge and time to SI units:
+
+<div class="equation">
+$$\Delta Q = 0.250 \text{ μC} = 0.250 \times 10^{-6} \text{ C}$$
+</div>
+
+<div class="equation">
+$$\Delta t = 1.00 \text{ μs} = 1.00 \times 10^{-6} \text{ s}$$
+</div>
+
+Calculate the current:
+
+<div class="equation">
+$$I = \frac{\Delta Q}{\Delta t} = \frac{0.250 \times 10^{-6} \text{ C}}{1.00 \times 10^{-6} \text{ s}} = 0.250 \text{ A}$$
+</div>
+
+**Discussion**
+
+Despite the tiny amount of charge involved, the extremely short discharge time results in a significant current of 0.250 A—comparable to the current through a small lightbulb. This explains why static shocks can be felt: the momentary current is substantial enough to stimulate nerve endings. The brief duration prevents any harmful effects.
+
+The current during the static discharge is 0.250 A.
 
 </div>
 </div>
@@ -532,7 +580,23 @@ A large lightning bolt had a 20 000-A current and moved 30.0 C of charge. What w
 
 </div>
 <div class="solution" markdown="1">
-1.50ms
+**Strategy**
+
+Rearrange the definition of current $$I = \Delta Q / \Delta t$$ to solve for time: $$\Delta t = \Delta Q / I$$.
+
+**Solution**
+
+Rearranging $$I = \Delta Q / \Delta t$$ for time:
+
+<div class="equation">
+$$\Delta t = \frac{\Delta Q}{I} = \frac{30.0 \text{ C}}{20\,000 \text{ A}} = \frac{30.0 \text{ C}}{2.00 \times 10^{4} \text{ A}} = 1.50 \times 10^{-3} \text{ s} = 1.50 \text{ ms}$$
+</div>
+
+**Discussion**
+
+Lightning bolts transfer enormous amounts of charge (30 C here compared to microcoulombs in static shocks) in extremely short times. The 1.50 ms duration seems brief, but this is actually relatively long for lightning—the massive current and charge transfer can cause significant damage, vaporizing materials and starting fires. The energy involved (power times time) is substantial despite the short duration because the current is so high.
+
+The lightning bolt lasted 1.50 ms.
 
 </div>
 </div>
@@ -681,7 +745,29 @@ of electrons at this rate?
 
 </div>
 <div class="solution" markdown="1">
-96.3 s
+**Strategy**
+
+First calculate the total charge corresponding to Avogadro's number of electrons: $$\Delta Q = N_A \times e$$. Then use $$\Delta t = \Delta Q / I$$ to find the time.
+
+**Solution**
+
+Calculate the total charge for $$6.02 \times 10^{23}$$ electrons:
+
+<div class="equation">
+$$\Delta Q = N_A \times e = (6.02 \times 10^{23})(1.60 \times 10^{-19} \text{ C}) = 9.63 \times 10^{4} \text{ C}$$
+</div>
+
+Calculate the time required:
+
+<div class="equation">
+$$\Delta t = \frac{\Delta Q}{I} = \frac{9.63 \times 10^{4} \text{ C}}{1000 \text{ A}} = 96.3 \text{ s}$$
+</div>
+
+**Discussion**
+
+It takes only about 1.5 minutes to move a mole of electrons at this high current! The submarine's batteries must supply enormous amounts of charge, which is why battery capacity is a critical limitation for non-nuclear submarines. At 1000 A, the submarine is drawing massive power, limiting how long it can operate at full speed before needing to recharge its batteries (typically by surfacing and running diesel generators).
+
+It takes 96.3 s (about 1.6 minutes) to move Avogadro's number of electrons at 1000 A.
 
 </div>
 </div>
@@ -790,7 +876,42 @@ Using the results of the above example on [[Example 3]](#Example3), find the dri
 
 </div>
 <div class="solution" markdown="1">
- $$ -1.13 \times 10^{-4} \text{m/s} $$
+**Strategy**
+
+Doubling the diameter quadruples the cross-sectional area (since $$A = \pi r^2 \propto d^2$$). Use the drift velocity equation $$v_d = I/(nqA)$$ with the same current and electron density as Example 3.
+
+**Solution**
+
+The original wire has diameter 2.053 mm, so the new diameter is:
+
+<div class="equation">
+$$d_{\text{new}} = 2 \times 2.053 \text{ mm} = 4.106 \text{ mm}$$
+</div>
+
+The new cross-sectional area:
+
+<div class="equation">
+$$A_{\text{new}} = \pi \left(\frac{4.106 \times 10^{-3} \text{ m}}{2}\right)^2 = 1.324 \times 10^{-5} \text{ m}^2$$
+</div>
+
+This is 4 times the original area ($$4 \times 3.310 \times 10^{-6} = 1.324 \times 10^{-5}$$ m²).
+
+Using the electron density from Example 3 ($$n = 8.342 \times 10^{28}$$ electrons/m³ for copper):
+
+<div class="equation">
+$$v_d = \frac{I}{nqA} = \frac{20.0 \text{ A}}{(8.342 \times 10^{28} \text{ /m}^3)(1.60 \times 10^{-19} \text{ C})(1.324 \times 10^{-5} \text{ m}^2)}$$
+</div>
+
+<div class="equation">
+$$v_d = -1.13 \times 10^{-4} \text{ m/s}$$
+</div>
+
+**Discussion**
+
+The drift velocity is exactly 1/4 of the original value ($$-4.53 \times 10^{-4}$$ m/s ÷ 4 = $$-1.13 \times 10^{-4}$$ m/s), as expected since quadrupling the area while keeping current constant reduces drift velocity proportionally. This demonstrates why larger wires can safely carry higher currents—the electrons move more slowly, reducing collisions and heat generation per unit volume.
+
+The drift velocity in the larger copper wire is $$-1.13 \times 10^{-4}$$ m/s (about 0.113 mm/s).
+
 </div>
 </div>
 
@@ -850,7 +971,42 @@ SPEAR, a storage ring about 72.0 m in diameter at the Stanford Linear Accelerato
 
 </div>
 <div class="solution" markdown="1">
- $$ 9.42 \times 10^{13} \text{electrons} $$
+**Strategy**
+
+The electrons complete the circular path at nearly the speed of light. Current is related to the charge passing a point per unit time. The time for one orbit is $$T = \text{circumference}/v = \pi d/c$$. The total charge in the beam is $$Q = IT$$, and dividing by the electron charge gives the number of electrons.
+
+**Solution**
+
+Calculate the circumference of the storage ring:
+
+<div class="equation">
+$$C = \pi d = \pi (72.0 \text{ m}) = 226.2 \text{ m}$$
+</div>
+
+Calculate the time for one orbit at nearly the speed of light ($$c = 3.00 \times 10^{8}$$ m/s):
+
+<div class="equation">
+$$T = \frac{C}{c} = \frac{226.2 \text{ m}}{3.00 \times 10^{8} \text{ m/s}} = 7.54 \times 10^{-7} \text{ s}$$
+</div>
+
+The total charge in the beam equals current times orbital period:
+
+<div class="equation">
+$$Q = IT = (20.0 \text{ A})(7.54 \times 10^{-7} \text{ s}) = 1.508 \times 10^{-5} \text{ C}$$
+</div>
+
+The number of electrons:
+
+<div class="equation">
+$$N = \frac{Q}{e} = \frac{1.508 \times 10^{-5} \text{ C}}{1.60 \times 10^{-19} \text{ C/electron}} = 9.42 \times 10^{13} \text{ electrons}$$
+</div>
+
+**Discussion**
+
+The beam contains about 94 trillion electrons—a large number, but still only about $$1.6 \times 10^{-10}$$ moles, far too small to weigh. Despite the high current of 20 A, each electron passes any given point many times per second (about 1.3 million orbits per second), so relatively few electrons are needed to maintain this current. The electrons travel at nearly the speed of light, making many complete circuits each second, which is why a modest number of particles can produce such a large current.
+
+The SPEAR storage ring contains approximately $$9.42 \times 10^{13}$$ electrons.
+
 </div>
 </div>
 
